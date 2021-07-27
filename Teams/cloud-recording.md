@@ -276,7 +276,7 @@ Please see the below frequently asked questions for admins and end-users to gath
   
   **Why should I use this feature?**
   
-  You should use this feature to limit OneDrive or SharePoint storage consumed by Teams meeting recordings (note: they typically use around 300MB per hour of recording). 
+  You should use this feature to limit OneDrive or SharePoint storage consumed by Teams meeting recordings (note: they typically use around 400MB per hour of recording). 
   
 <li>
   
