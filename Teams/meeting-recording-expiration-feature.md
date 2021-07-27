@@ -44,68 +44,66 @@ Admins can edit the default expiration setting in their Teams policy console. Th
 
 Admins can't change the expiration date on existing TMRs. This is done to protect the decision of the user that owns the TMR.
 
-    3.  &lt;insert pic of the Teams policy setting&gt;
+![settings for saving a recording](media/defer-expiration.png)
 
 **What is the scope of control for the admin policy?**
 
-    1.  &lt;add information about the granularity of policy application&gt;
+    note from author: add information about the granularity of policy application
 
 **How can end users modify the expiration date?**
 
  Anyone who has edit and delete permissions on a TMR can modify the expiration date in the file’s details pane in Microsoft OneDrive and SharePoint.
 
-    2.  The user can defer the expiration 14, 30, or 60 days, or they can choose a specific date in the future, or they can select that the file never be expired.
+ Users can defer the expiration 14, 30, or 60 days, or they can choose a specific date in the future. Another option is that they can select that the file never be expired.
 
-**Who does this impact?**
+**Whom does this impact?**
 
-    1.  Anyone storing TMRs in OneDrive or SharePoint.
+Anyone storing TMRs in OneDrive or SharePoint.
 
 **Why should I use this feature?**
 
-    1.  This feature is being turned on by default. To “disable” it, change the default expiration setting for all TMRs in the Teams policy console to “no expiration.”
-
-    2.  You should use this to limit the ODSP storage consumption driven by Teams meeting records (note: TMRs typically consume around 300MB per hour of recording).
+This feature is being turned on by default. To disable it, change the default expiration setting in the Teams policy console to **No expiration**.
+You should use this to limit the OneDrive or Sharepoint for Cloud storage consumption driven by Teams meeting records. A typical meeting recording consumes around 300MB per hour of recording.
 
 **Should I rely on this feature for strict security and compliance adherence?**
 
-    1.  No, you should not rely on this for legal protection since end users can modify the expiration date of any recordings they control.
+No, you shouldn't rely on this for legal protection since end users can modify the expiration date of any recordings they control.
 
-**Will a retention and/or deletion policy I have set in the security & compliance center override the TMR expiration setting?**
+**Will a retention and/or deletion policy I've set in the Security & Compliance center override the Teams meeting recording expiration setting?**
 
-    1.  Yes, any policies you have set in the S+C compliance center will take full precedence. For example:
+Yes, any policies you have set in the compliance center will take full precedence. 
 
-        1.  If you have a policy that says all files in a site must be retained for 100 days, and the expiration setting for a TMR is 30 days, then the TMR will be retained for the full 100 days.
+For example:
 
-        2.  If you have a deletion policy that says all TMRs will be deleted after 5 days and you have an expiration setting on a TMR of 30 days, then the TMR will be deleted after 5 days.
+- If you have a policy that says all files in a site must be retained for 100 days, and the expiration setting for a Teams meeting recording is 30 days, then the recording will be retained for the full 100 days.
+- If you have a deletion policy that says all Teams meeting recordings will be deleted after five days and you have an expiration setting for a Teams meeting recording of 30 days, then the recording will be deleted after five days.
 
 **What happens when a TMR expires?**
 
-    1.  On the expiration date, the TMR is moved into the recycle bin and the expiration date field is cleared. If you recover the TMR from the recycle bin, it will not be deleted by this feature again since the expiration date has been cleared.
+On the expiration date, the recording is moved into the recycle bin and the expiration date field is cleared. If you recover the recording from the recycle bin, it won't be deleted by this feature again because the expiration date has been cleared.
 
 **How will I be notified about a file’s expiration?**
 
-    1.  Everyone will see a notification about the expiration date in the recording chiclet in the Teams chat window.
-
-    2.  Everyone with view access will see a red icon next to the file in your OneDrive or SharePoint folder 14 days before the file expires.
-
-    3.  The file owner will receive an email notification when the TMR expires and will be directed to the recycle bin to recover the TMR if they desire to do so.
+- Everyone will see a notification about the expiration date in the recording checklist in the Teams chat window.
+- Everyone with view access will see a red icon next to the file in your OneDrive or SharePoint folder 14 days before the file expires.
+- The file owner will receive an email notification when the recording expires and will be directed to the recycle bin to recover the recording.
 
 **What SKUs are required for this feature?**
 
-    1.  All SKUs will have this feature by default.
+- All SKUs will have this feature by default.
 
-    2.  A1 users will be defaulted to a 30-day expiration period and will not be able to modify the expiration date.
+- All users will be defaulted to a 30-day expiration period and won't be able to modify the expiration date.
 
 **Is the file expiration an audited event and will I be able to see it in my audit logs?**
 
-    1.  Yes, these will show up as system deletion events in the audit log.
+Yes, these will show up as system deletion events in the audit log.
 
-**What if I want the admin to have full control over the lifecycle of TMRs and do not want to give end users the ability to override the expiration date?**
+**What if I want the admin to have full control over the lifecycle of meeting recordings and don't want to give end users the ability to override the expiration date?**
 
-    1.  We recommend using the S+C retain and/ordelete policies available as part of the E5 compliance SKU. That offering is targeted to solve complex policy and SLA-driven administrative legal concerns.
+We recommend using the Security and Compliance retain and/or delete policies available as part of the E5 compliance SKU. That offering is targeted to solve complex policy and SLA-driven administrative legal concerns.
 
-    2.  This feature is solely meant as a lightweight housekeeping mechanism to reduce storage clutter created from cold TMRs.
+This feature is solely meant as a lightweight housekeeping mechanism to reduce storage clutter created from cold Teams meeting recordings.
 
 **When will the file be deleted?**
 
-    1.  The file will be deleted within 5 days of the expiration date, though this is not a strict guarantee.
+The file will be deleted within five days of the expiration date, though this is not a strict guarantee.
