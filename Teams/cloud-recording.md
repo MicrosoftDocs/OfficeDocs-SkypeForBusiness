@@ -106,7 +106,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true
 <a name="bd-channel"></a>
 ### Block or allow download of channel meeting recordings
 
-This setting controls if channel meetings are saved to a "Recordings" folder or a "Recordings\View only" folder in the channel.
+This setting controls if channel meetings are saved to a "Recordings" folder or a "Recordings\View only" folder in the channel. The setting applies via the policy of the user who clicks record for the channel meeting. 
 
 The two values for this setting are:
 
