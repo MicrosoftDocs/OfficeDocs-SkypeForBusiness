@@ -1,5 +1,5 @@
 ---
-title: Manage shift-based access for Frontline Workers in Teams
+title: Manage shift-based access for frontline workers in Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aaku
@@ -17,7 +17,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Manage shift-based access for Frontline Workers in Teams
+# Manage shift-based access for frontline workers in Teams
 
 > [!IMPORTANT]
 > Effective June 30, 2020, Microsoft StaffHub has been retired. We’re building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time. StaffHub stopped working for all users on June 30, 2020. Anyone who tries to open StaffHub is shown a message directing them to download Teams. To learn more, see [Microsoft StaffHub has been retired](microsoft-staffhub-to-be-retired.md).  
@@ -26,19 +26,19 @@ appliesto:
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-Presence in Microsoft Teams indicates a user's current availability and status to other users. The presence of Frontline Workers is often less predictable than other staff as their working hours are typically not the same each day. As an admin, you can configure Teams to show a set of shift-based presence states for the Frontline Workers in your organization to indicate when they are on and off shift.
+Presence in Microsoft Teams indicates a user's current availability and status to other users. The presence of frontline workers is often less predictable than other staff as their working hours are typically not the same each day. As an admin, you can configure Teams to show a set of shift-based presence states for the frontline workers in your organization to indicate when they are on and off shift.
 
 These shift-based presence states&mdash;![Solid green check mark, indicates On shift](../../media/flw-presence-on-shift.png) **On shift**, ![Gray circle with x, indicates Off shift](../../media/flw-presence-off-shift.png) **Off shift**, ![Solid red circle, indicates Busy](../../media/flw-presence-busy.png) **Busy**&mdash;are separate from the [default set of presence states](../../presence-admins.md) in Teams. With these two sets of presence states, you can configure different experiences for people in your organization based on their role.
 
-With shift-based access, you can manage access to Teams when Frontline Workers are off shift. For example, you can set Teams to display a message that Frontline Workers must acknowledge before they can use Teams when they're not on a scheduled shift.  
+With shift-based access, you can manage access to Teams when frontline workers are off shift. For example, you can set Teams to display a message that frontline workers must acknowledge before they can use Teams when they're not on a scheduled shift.  
 
 ## Scenario
 
 Here's an example of how your organization can manage shift-based access.
 
-You have Frontline Workers in your organization that should only be paid for hours they work on a shift that their manager scheduled and approved. They shouldn't be paid for time spent working outside a scheduled shift, which includes using the Teams app. You set up a custom message that says "Your time on Teams when on off shift won't count toward payable hours", which is displayed when Frontline Workers try to access Teams when off shift. If they choose to use Teams, they click **I accept** with the understanding that they won't be paid for this time.
+You have frontline workers in your organization that should only be paid for hours they work on a shift that their manager scheduled and approved. They shouldn't be paid for time spent working outside a scheduled shift, which includes using the Teams app. You set up a custom message that says "Your time on Teams when on off shift won't count toward payable hours", which is displayed when frontline workers try to access Teams when off shift. If they choose to use Teams, they click **I accept** with the understanding that they won't be paid for this time.
 
-You also have information workers in your organization who are salaried and who don't work shifts. You configure your information workers to use the default presence states in Teams while giving your Frontline Workers shift-based presence.
+You also have information workers in your organization who are salaried and who don't work shifts. You configure your information workers to use the default presence states in Teams while giving your frontline workers shift-based presence.
 
 ## Shift-based presence states
 
@@ -48,11 +48,11 @@ Here are the shift-based presence states.
 |---------|---------|---------|
 |![Solid green check mark, indicates On shift](../../media/flw-presence-on-shift.png) On shift     |         |Automatically set at the start of a shift         |
 |![Gray circle with x, indicates Off shift](../../media/flw-presence-off-shift.png) Off shift     |         |Automatically set at the end of a shift         |
-|![Solid red circle, indicates Busy](../../media/flw-presence-busy.png) Busy      | ![Solid red circle, indicates Busy](../../media/flw-presence-busy.png) Busy         |Automatically set. Can also be manually set when the Frontline Worker is on shift.|
+|![Solid red circle, indicates Busy](../../media/flw-presence-busy.png) Busy      | ![Solid red circle, indicates Busy](../../media/flw-presence-busy.png) Busy         |Automatically set. Can also be manually set when the frontline worker is on shift.|
 
 ## Off shift access to Teams
 
-This feature lets you manage access to Teams when Frontline Workers are off shift. You can set Teams to display a message to Frontline Workers if they access Teams when off shift. Frontline Workers must click **I accept** to acknowledge the message before they can use Teams.
+This feature lets you manage access to Teams when frontline workers are off shift. You can set Teams to display a message to frontline workers if they access Teams when off shift. Frontline workers must click **I accept** to acknowledge the message before they can use Teams.
 
 You can use the default message, choose from a set of pre-defined messages, or customize the message to display any text that you want. Here's the default message:
 
@@ -62,7 +62,7 @@ You can also set the frequency when the message is displayed and set a grace per
 
 ## Manage shift-based access
 
-As an admin, you use policies to control shift-based presence for Frontline Workers in your organization. You manage these policies by using the following PowerShell cmdlets:
+As an admin, you use policies to control shift-based presence for frontline workers in your organization. You manage these policies by using the following PowerShell cmdlets:
 
 - [New-CsTeamsShiftsPolicy](/powershell/module/teams/new-csteamsshiftspolicy)
 - [Get-CsTeamsShiftsPolicy](/powershell/module/teams/get-csteamsshiftspolicy)
