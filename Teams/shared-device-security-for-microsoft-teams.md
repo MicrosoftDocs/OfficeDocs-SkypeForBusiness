@@ -59,7 +59,7 @@ If the above guidance cannot be met, we recommend making use of additional brows
     1. Close all browser tabs and windows.
     1. Sign out of the device.
 
-The items above are not a comprehensive list of best practices or security controls covering all cases, and there may be extra actions that can be taken in your environment, (for instance, security administrators may choose to use Safe Links and Safe Attachments for Teams if you have [Office 365 ATP Plan 1 or 2](/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide#office-365-atp-plan-1-and-plan-2)). However, these steps are a starting point for building guidance for using Teams from shared devices.
+The items above are not a comprehensive list of best practices or security controls covering all cases, and there may be extra actions that can be taken in your environment, (for instance, security administrators may choose to use Safe Links and Safe Attachments for Teams if you have [Office 365 ATP Plan 1 or 2](/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2)). However, these steps are a starting point for building guidance for using Teams from shared devices.
 
 ## More Information
 
