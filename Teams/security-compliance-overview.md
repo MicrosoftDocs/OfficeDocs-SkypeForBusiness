@@ -130,7 +130,7 @@ We have a Teams-specific article for more information, [eDiscovery of guest-to-g
 
 Customers can leverage eDiscovery or [Advanced eDiscovery](/microsoft-365/compliance/office-365-advanced-ediscovery) per their requirements. The following table outlines the differences between the two:
 
-| |eDiscovery  |Advanced eDiscovery  |
+|&nbsp; |eDiscovery  |Advanced eDiscovery  |
 |---------|---------|---------|
 |Case Management     |X        |X         |
 |Access Control  |X         |X         |

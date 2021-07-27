@@ -1,5 +1,5 @@
 ---
-title: Security guide for Microsoft Teams
+title: 'Security guide for Microsoft Teams: Use Teams securely on shared computers'
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
