@@ -132,7 +132,7 @@ sections:
         answer: |  
           We believe the best audio conferencing experience for customers using Teams is through our Audio Conferencing services. For this reason, we don't have plans to support third-party audio conferencing providers in Teams. Support for the integration of third-party party audio conferencing providers in Skype for Business Online will end on July 31, 2021, along with Skype for Business Online.
                    
-  - name: Upgrade
+  - name: Upgrade to Teams
     questions:
       - question: How long will it take to upgrade my organization to Teams? 
         answer: | 
