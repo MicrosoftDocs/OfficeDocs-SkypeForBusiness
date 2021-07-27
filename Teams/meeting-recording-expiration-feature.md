@@ -62,7 +62,7 @@ Anyone storing TMRs in OneDrive or SharePoint.
 **Why should I use this feature?**
 
 This feature is being turned on by default. To disable it, change the default expiration setting in the Teams policy console to **No expiration**.
-You should use this to limit the OneDrive or Sharepoint for Cloud storage consumption driven by Teams meeting records. A typical meeting recording consumes around 300MB per hour of recording.
+You should use this to limit the OneDrive or Sharepoint for Cloud storage consumption driven by Teams meeting records. A typical meeting recording consumes around 400MB per hour of recording.
 
 **Should I rely on this feature for strict security and compliance adherence?**
 
