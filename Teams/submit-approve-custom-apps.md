@@ -61,11 +61,11 @@ For more information about using the Graph API to submit apps, see [here](/graph
 
 You can turn on notifications so you know when developers submit a new application for review and approval. To enable app submission notifications in the Teams admin center, go to **Notifications & alerts** > **Settings** > **App submissions**, and turn on **Receive by notification bot**. By default, this setting is turned off. You must be a Global admin or Teams admin to turn on this setting.
 
-![App submissions screenshot.](media/apps-submissions.png)
+![App submissions screenshot.](media/app-submissions-setting.png)
 
 After you turn on this setting, you'll get notifications in the **Admin Alerts and Notifications** team under a new channel named **App submissions**. You'll also get notifications when developers submit app updates. For more information on notifications and alerts, see [Teams admin alerts](alerts/teams-admin-alerts.md).
 
-![App submission notification.](media/app-submissions-setting.png)
+![App submission notification.](media/app-submission-notification.png)
 
 You can review the notification card to see app details, and select **View details** to open the app in the Teams admin center.
 
