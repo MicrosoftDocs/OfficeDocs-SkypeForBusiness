@@ -1494,6 +1494,8 @@ items:
               href: class-insights.md
             - name: Sync SIS data with Insights
               href: education-insights-sis-data-sync.md
+            - name: Manage user access to Insights
+              href: education-insights-manage-access.md              
             - name: Get started with Reflect
               href: reflect.md      
         - name: Assignments in Teams for Education
@@ -1510,13 +1512,13 @@ items:
           href: sku-reference-edu.md
     - name: Teams for Frontline Workers
       items: 
-        - name: Quickstart for Frontline Workers
+        - name: Frontline Worker quick start guide
           href: flw-quickstart.yml
-        - name: Frontline workers scripted deployment
+        - name: Frontline Workers scripted deployment
           href: flw-scripted-deployment.md
-        - name: Manage shift-based access for Frontline Workers
+        - name: Manage shift-based access for frontline workers
           href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
-        - name: RealWear for Microsoft Teams
+        - name: RealWear for Teams
           href: flw-realwear.md
         - name: Walkie Talkie
           href: walkie-talkie.md
@@ -1889,4 +1891,4 @@ items:
     - name: Upgrade discovery questionnaire
       href: upgrade-plan-journey-discovery-questionnaire.md
     - name: Release notes for Teams admin features
-      href: release-notes/release-notes.md
+      href: /OfficeUpdates/teams-admin
