@@ -73,9 +73,10 @@ To enable Career Coach for your educational institution, review what you need to
 
   - LinkedIn Learning campus subscription (preferred)
 
+
 ## Purchase the Career Coach licenses
 
-Career Coach is available worldwide (except China and Russia) for qualified higher education institutions through Enrollment for Education Solutions (EES), Cloud Service Providers (CSP), and Microsoft 365 admin center (web direct). As a Microsoft Teams app, customers must have Microsoft 365 A3/A5 or Office 365 A1/A3/A5.
+Career Coach is available worldwide (except China and Russia) for qualified higher education institutions as an add-on license through Enrollment for Education Solutions (EES), Cloud Service Providers (CSP), and Microsoft 365 admin center (web direct). As a Microsoft Teams app, customers must have Microsoft 365 A3/A5 or Office 365 A1/A3/A5 in order to purchase the add-on Career Coach license.
 
 ### Assign app licenses to users
 
@@ -189,19 +190,21 @@ Determine the educational institution's LinkedIn page. Find the LinkedIn page by
 
 1. Select **Teams apps** > **Manage apps** > **Career Coach** > **LinkedIn connection**.
 
-2. Add the LinkedIn school page URL. The URL must be a school page and not a company page and are typically formatted as `https://www.linkedin.com/school/willow-university/`. [How to identify LinkedIn pages](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en).
+2. Find the LinkedIn page by searching on LinkedIn and selecting School filter. Or connect with a career services staff member to determine the correct LinkedIn school page to use. [How to identify LinkedIn pages](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en)
+
+3. Add the LinkedIn school page URL. The URL must be a school page and not a company page and are typically formatted as `https://www.linkedin.com/school/willow-university/`.
 
    ![linkedin school page example](media/career-coach-linkedin-page-url.png)
 
-3. Select **Apply**.
+4. Select **Submit**.
 
-4. If successfully submitted the page will be updated to show the Verification link and Verification link expiration. The verification link expires after 30 days.
+5. If successfully submitted, the page will be updated to show the **Verification link** and **Verification link expiration**. The verification link expires after 30 days.
 
    ![linkedin connections for the career coach app](media/career-coach-linked-in.png)  
 
-5. Copy the verification link share it with your educational institution’s LinkedIn page super admin [LinkedIn page admin documentation](https://www.linkedin.com/help/linkedin/answer/102672).
+6. Copy the verification link and share it with your educational institution’s LinkedIn page super admin. Learn more about the LinkedIn page super admin role at the [LinkedIn page admin documentation](https://www.linkedin.com/help/linkedin/answer/102672).
 
-6. The LinkedIn page super admin, will use the unique verification link to associate Career Coach with your school's page. [Additional documentation about LinkedIn page verification](https://www.linkedin.com/help/linkedin/answer/102672).
+7. The LinkedIn page super admin, will use the unique verification link to associate Career Coach with your school's page. [Additional documentation about LinkedIn page verification](https://www.linkedin.com/help/linkedin/answer/102672).
 
 > [!NOTE]
 > The verification by the LinkedIn page super admin is required to complete the LinkedIn connection for Career Coach.
@@ -257,7 +260,7 @@ The following table shows the items to include in the course catalog:
 
 Including the recommended fields improves the experience for students by returning better search results and skill identification.
 
-4. Select **Apply**.
+4. Select **Submit**.
 
    ![the course catalog section of the career coach app](media/course-catalog.png)
 
@@ -287,7 +290,7 @@ The following table shows the items to include in the fields of study:
 
 2. Upload field of study in CSV format.
 
-3. Select **Apply**.
+3. Select **Submit**.
 
 #### Customization
 
@@ -301,7 +304,7 @@ Career Coach can be customized to be unique to your educational institution. The
 
 2. Add each URL, a title, and short description.  
   
-3. Select **Apply**.
+3. Select **Submit**.
 
 ## Making Career Coach available to your organization
 
