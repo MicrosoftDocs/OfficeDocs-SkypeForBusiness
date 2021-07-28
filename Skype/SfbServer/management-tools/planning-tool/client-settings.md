@@ -18,4 +18,4 @@ description: "The mobility feature in Skype for Business Server 2015 supports Sk
 
 # Client Settings planning tool
 
-The mobility feature in Skype for Business Server 2015 supports Skype for Business functionality on mobile devices. For details, see [Planning for Mobility](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-mobility).
+The mobility feature in Skype for Business Server 2015 supports Skype for Business functionality on mobile devices. For more information, see [Planning for Mobility](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-mobility).
