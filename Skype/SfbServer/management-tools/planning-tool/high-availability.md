@@ -1,5 +1,5 @@
 ---
-title: "High Availability (Planning Tool)"
+title: High Availability panning tool
 ms.reviewer: 
 ms.author: v-cichur
 author: cichur
@@ -16,7 +16,7 @@ ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 description: "The main high availability scheme for most server roles in Skype for Business Server 2015 is based on server redundancy via pooling. If a server running a certain server role fails, the other servers in the pool running the same role take the load of that server."
 ---
 
-# High Availability (Planning Tool)
+# High availability planning tool
  
 The main high availability scheme for most server roles in Skype for Business Server 2015 is based on server redundancy via pooling. If a server running a certain server role fails, the other servers in the pool running the same role take the load of that server.
   
