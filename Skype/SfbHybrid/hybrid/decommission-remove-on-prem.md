@@ -22,19 +22,21 @@ description: "Instructions for decommissioning Skype for Business Server."
 
 # Remove your on-premises Skype for Business deployment
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 This article describes how to remove your on-premises Skype for Business deployment. This is step 4 of the following steps to decommission your on-premises environment:
 
 - Step 1. [Move all required users from on-premises to online](decommission-move-on-prem-users.md). 
 
 - Step 2. [Disable your hybrid configuration](cloud-consolidation-disabling-hybrid.md).
 
-- Step 3. [Move hybrid application endpoints from on-premises to online](decommission-move-on-prem-endpoints.md)
+- Step 3. [Migrate hybrid application endpoints from on-premises to online](decommission-move-on-prem-endpoints.md)
 
 - **Step 4. Remove your on-premises Skype for Business deployment.** (This article)
 
 
 > [!IMPORTANT] 
-> The steps in this article apply only if you are using Method 2 for managing user attributes, as described [here](cloud-consolidation-disabling-hybrid.md#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory). 
+> The steps in this article apply only if you are using Method 2 for managing user attributes, as described [here](cloud-consolidation-managing-attributes.md#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory). 
 If you are using Method 1, do not use the steps described in this article to remove your Skype for Business servers. Instead, you can re-image the servers.
 
 To complete the steps in this article, you need privileges for both the Schema Admins group and the Enterprise Admin group. You will need these privileges to undo the Skype for Business Server schema and forest-level changes to Active Directory Domain Services. You will also need to be a member of the RTCUniversalServerAdmins group.
@@ -82,16 +84,16 @@ After completing all the preliminary steps, you can remove the Skype for Busines
 
 1. Logically remove the Skype for Business Server deployment, except for a single front end, as follows:
 
-   a. Update your Skype for Business Server topology to have a single front-end pool:
+   1. Update your Skype for Business Server topology to have a single front-end pool:
 
-     - In Topology Builder, download a new copy and navigate to the Frontend pool.
-     - Right-click the pool, and then click **Edit Properties**.
-     - In **Associations**, uncheck **Associate Edge Pool** (for media components) and click **OK**.
-     - If there is more than one Frontend Pool, remove Associations for all remaining pools.
-     - Select **Action > Remove Deployment**.
-     - Select **Action > Publish Topology**.
+      1. In Topology Builder, download a new copy and navigate to the Frontend pool.
+      1. Right-click the pool, and then click **Edit Properties**.
+      1. In **Associations**, uncheck **Associate Edge Pool** (for media components) and click **OK**.
+      1. If there is more than one Frontend Pool, remove Associations for all remaining pools.
+      1. Select **Action > Remove Deployment**.
+      1. Select **Action > Publish Topology**.
 
-    b. After publishing the topology, complete the additional steps described in the wizard.
+    1. After publishing the topology, complete the additional steps described in the wizard.
 
 2. Remove Skype for Business Server conference directories by running the following Skype for Business Server PowerShell cmdlet:
 
@@ -113,12 +115,12 @@ After completing all the preliminary steps, you can remove the Skype for Busines
    Remove-CsConfigurationStoreLocation
    ``` 
 
-5. Undo Skype for Business Server Active Directory Domain forest-level changes by running the following Skype for Business Server PowerShell cmdlet:
+5. Undo Skype for Business Server Active Directory domain-level changes by running the following Skype for Business Server PowerShell cmdlet:
 
    ```PowerShell
    Disable-CsAdDomain
    ```
-6. Undo Skype for Business Server Active Directory Domain schema changes by running the following Skype for Business Server PowerShell cmdlet:
+6. Undo Skype for Business Server Active Directory forest-level changes by running the following Skype for Business Server PowerShell cmdlet:
 
    ```PowerShell
    Disable-CsAdForest
@@ -133,14 +135,4 @@ After completing all the preliminary steps, you can remove the Skype for Busines
 - [Disable your hybrid configuration](cloud-consolidation-disabling-hybrid.md)
 
 - [Move hybrid application endpoints from on-premises to online](decommission-move-on-prem-endpoints.md)
-
-
-
-
-
-
-
-
-
-
 

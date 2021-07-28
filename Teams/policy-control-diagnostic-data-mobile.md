@@ -33,6 +33,7 @@ For more information about diagnostic data, including how to control what diagno
 > [!NOTE]
 > For information on the properties of PanelAction events, see [Properties sent with panelaction events](#properties-sent-with-panelaction-events).
 
+- **acceptUser** - The user has accepted a 1:1 chat.
 - **accessibilityUserConfiguration** - When a user toggles an accessibility feature.
 - **acknowledgeSettingChange** - Acknowledge an update in the we updated a notification setting dialog. This is a feature success metrics used to acknowledge update notifications and to determine overall notification reliability.
 - **actionComposeMenu**
@@ -63,6 +64,7 @@ For more information about diagnostic data, including how to control what diagno
 - **admitAll** - The number of times the **Admit all** button is selected from the lobby section.
 - **admitParticipant** - The number of times someone is admitted into a meeting from the meeting roster.
 - **alertsNavAlert** - Tapping on a feed item.
+- **aliasDiscoverabilitySettingOpened** - Entry point to discoverabaility settings.
 - **android: null** - Mute or unmute a bot chat. This is enhancing existing telemetry around chats only adds application information.
 - **anonymousMeetingJoin** - **Join meeting** is selected on an anonymous join provide name page or **OK** is tapped in the name dialog.
 - **anonymousMeetingJoinWelcome** - **Join as guest** is selected on an anonymous join meeting landing page.
@@ -444,6 +446,8 @@ For more information about diagnostic data, including how to control what diagno
 - **detailsTabClicked** - The **Details** tab is selected on the meeting.
 - **deviceAddressBookSync** - Fired when address book sync is turned on from the settings page.
 - **deviceAddressBookUnsync** - Fired when address book sync is turned off from the settings page.
+- **deviceSyncEnabled** - Device sync enabled.
+- **deviceSyncDisabled** - Device sync disabled.
 - **dialIn** - A user chooses to Dial in into a meeting (various locations).
 - **dialInBadNetworkBanner** - **Dial in** is selected for a poor connection banner.
 - **dialInBadNetworkBannerCancel** - The **Dial in** is cancelled on the native dialog.
@@ -623,6 +627,7 @@ For more information about diagnostic data, including how to control what diagno
 - **launchLinksGallery** - When a user enters the links gallery from the dashboard.
 - **launchSlideshow** - User Launches Slideshow full screen image viewer from one of three possible app feature locations. 
 - **Launch source such as direct, link, appShortcut** - Launches directly or via link (recording Mobile Application Management (MAM) or Mobile Device Management (MDM) telemetry on app launch to collect data for active users).
+- **lastSearchableAliasTurnedOff** - The user has disabled all searchable aliases for account.
 - **leaveChat** - Confirm leaving chat.
 - **legacyChatLink** - A link is selected to a legacy chat.
 - **link** - User initiated redeem of invite link by entering Teams application.
@@ -718,6 +723,7 @@ For more information about diagnostic data, including how to control what diagno
 - **meetingUserGuest** - A guest user joined the meeting.
 - **meetingUserTenant** - An in-tenant user joined the meeting.
 - **memeGenerated** - When a meme is generated given a user input of image and text data. 
+- **meProfileFetch** - Indicates a successful profile fetch and creation.
 - **messageCopyMessage** - Copy Message.
 - **messageDelete** - Message delete.
 - **messageEditMessage** - Edit message.
@@ -732,6 +738,7 @@ For more information about diagnostic data, including how to control what diagno
 - **MicrosoftWhiteboardClicked** - Microsoft whiteboard is selected on the **Channel Files** tab or the **Meeting Chat Files** tab.
 - **moreOptionsClicked** - Triggers when **...** menu on the top-right is selected on the task item editor screen.
 - **moveTaskClicked** - Option inside task item more options list.
+- **msaAddDeleteAliasLinkClicked** - Link to setup an alias on MSA Profile page.
 - **multiCallEndFromUFD** - Number of times a user ends the call on hold in a multi-call scenario.
 - **multiCallResumeFromUFD** - Number of times a user selects to resume a call from hold.
 - **multiCallSwitch** - Number of times a user selects an option to switch the call and list of calls on hold shows up.
@@ -845,6 +852,7 @@ For more information about diagnostic data, including how to control what diagno
 - **parental_consent_grant** - A user grants permission for a minor in their MSFamily to use the Live Location feature in TFL.
 - **parental_consent_remove** - A user revokes permission for a minor in their MSFamily to use the Live Location feature in TFL.
 - **pauseVoicemail** - **Pause** tapped on a voicemail item.
+- **peoplePickerDismissed** - Indicates the People Picker has been dismissed.
 - **peoplePickerInvoked** - People Picker is used across seven places in Teams mobile, including (but not limited to):
   - New chat picker.
   - Forward a message.
@@ -887,6 +895,7 @@ For more information about diagnostic data, including how to control what diagno
 - **privateMeetingJoin** - **Meeting Join** button tapped from Private meeting chat.
 - **processInBG** - Process incoming notification in the background (Android).
 - **processInFG** - Process incoming notification in the foreground (Android).
+- **profileNameSaved** - Profile name was updated.
 - **progressItemClicked** - Confirms a user has successfully opened the progress picker for a task.
 - **promotedToPresenter** - User promotes an attendee - **Change** button in the dialog box.
 - **provideFeedbackDismiss** - Dismiss the prompt that asks whether the user would like to send feedback about why they didn't like the app.
@@ -1255,6 +1264,7 @@ action.
 > 
 - **acquire_resource_token_interactive**- Required service call which is triggered when an authentication token is acquired by interactive sign-in. 
 - **acquire_resource_token_silent**- Required service call which is triggered when an authentication token is acquired by silent sign-in.
+- **add_buddy** - Captures status of adding a contact.
 - **app_crash2** – Triggered when the app is crashed unexpectedly. Provides information on how frequently the Teams app is crashing. 
 - **app_incremental_sync_launch** - Confirms that the pill count gets updated successfully for cold launch.
 - **app_incremental_sync_resume** - Confirms that the pill count gets updated successfully for warm/hot launch.
@@ -1294,6 +1304,7 @@ action.
 - **delete_planner_plan** - Confirms the successful deletion of a shared task list.
 - **delete_planner_task** - Confirms the successful deletion of a shared task item.
 - **json_parse_failure**- Provides information on the frequently of JSON parsing issues.
+- **fetch_me_profile** - The users profile creation status.
 - **getProfilePicture**- Necessary service call to get user profile picture. 
 - **get_resource_token_async**: Required service call to acquire tokens for Azure Active Directory resources asynchronously.
 - **get_resource_token_sync**: Required service call to acquires tokens for Azure Active Directory resources synchronously.
@@ -1339,6 +1350,7 @@ action.
 - **show_meeting_participants** - Confirms that showing the meeting participant list has succeeded or failed.
 - **search** - Confirms that the whole search session has succeeded or failed.
 - **time_based_retention_shared_channel** – Captures performance data for pruning the database.
+- **toggle_searchability** - Captures status of network call for stamping/unstamping an alias.
 - **sync_user_entitlements_and_app_definitions** -  Required service call to fetch aggregatedEntitlements.
 - **bots_load_mediacards** - Captures instanced when Connector cards are configured in chat and channel.
 - **bots_load_one_card** - Captures if at least one card is present and loaded when chatting with a bot.

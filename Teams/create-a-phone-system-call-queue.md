@@ -56,7 +56,7 @@ To set up a call queue, in the Teams admin center, expand **Voice**, click **Cal
 
 Type a name for the call queue.
 
-### Resource accounts
+## Resource accounts
 
 ![Screenshot of resource account settings](media/call-queue-name-language.png)
 
@@ -72,25 +72,24 @@ Click **Add**, search for the resource accounts that you want to allow agents to
 
 If you are not using a Teams channel to control agent membership, consider directly setting the caller ID for members of the call queue to the service number of the call queue or appropriate auto attendant. See [Manage caller ID policies in Microsoft Teams](caller-id-policies.md) for more information.
 
-### Language
+## Language
 
 ![Screenshot of language settings](media/call-queue-language.png)
 
 Choose a [supported language](create-a-phone-system-call-queue-languages.md). This language will be used for system-generated voice prompts and voicemail transcription (if you enable them).
 
-### Greetings and music on hold in queue
+## Greetings and music on hold in queue
 
 ![Screenshot of greetings and music on hold in queue settings](media/call-queue-greetings-music.png)
 
-Specify if you want to play a greeting to callers when they arrive in the queue. You must upload an MP3, WAV, or WMA file containing the greeting that you want to play.
+Specify if you want to play a greeting to callers when they arrive in the queue. You must upload an MP3, WAV, or WMA file containing the greeting that you want to play. The uploaded recording can be no larger than 5 MB.
 
-Teams provides default music to callers while they are on hold in a queue. If you want to play a specific audio file, choose **Play an audio file** and upload an MP3, WAV, or WMA file.
+Teams provides default music to callers while they are on hold in a queue. The default music supplied in Teams call queues is free of any royalties payable by your organization. If you want to play a specific audio file, choose **Play an audio file** and upload an MP3, WAV, or WMA file.
 
 > [!NOTE]
-> The uploaded recording can be no larger than 5 MB.
-> The default music supplied in Teams call queues is free of any royalties payable by your organization. 
+> You are responsible for independently clearing and securing all necessary rights and permissions to use any music or audio file with your Microsoft Teams service, which may include intellectual property and other rights in any music, sound effects, audio, brands, names, and other content in the audio file from all relevant rights holders, which may include artists, actors, performers, musicians, songwriters, composers, record labels, music publishers, unions, guilds, rights societies, collective management organizations and any other parties who own, control or license the music copyrights, sound effects, audio and other intellectual property rights.
 
-### Call agents
+## Call agents
 
 Review the [prerequisites for adding agents to a call queue](plan-auto-attendant-call-queue.md#prerequisites).
 
@@ -107,6 +106,9 @@ The following clients are supported when using a Teams channel for call queues:
   - Microsoft Teams Windows client
   - Microsoft Teams Mac client
 
+> [!NOTE]
+> If you use this option, it can take up to 24 hours for the call queue to be fully operational.
+
 ##### Users and groups
 
 You can add up to 20 agents individually and up to 200 agents via groups.
@@ -120,7 +122,7 @@ To add a group to the queue, click **Add groups**, search for the group, click *
 > [!NOTE]
 > New users added to a group can take up to eight hours for their first call to arrive.
 
-### Call routing
+## Call routing
 
 ![Screenshot of conference mode and routing method settings](media/call-queue-conference-mode-routing-method.png)
 
@@ -134,6 +136,9 @@ Agents' Teams accounts need to be set to Teams-only mode. Agents who don't meet 
 > [!NOTE]
 > Conference mode is not supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location Based Routing.
 
+> [!TIP]
+> Setting **Conference mode** to **Auto** is the recommended setting.
+
 **Routing method** determines the order in which agents receive calls from the queue. Choose from these options:
 
 - **Attendant routing** rings all agents in the queue at the same time. The first call agent to pick up the call gets the call.
@@ -144,33 +149,33 @@ Agents' Teams accounts need to be set to Teams-only mode. Agents who don't meet 
 
 - **Longest idle** routes each call to the agent who has been idle the longest time. An agent is considered idle if their presence state is Available or if their presence state has been Away for less than 10 minutes. Agents whose presence state has been Away for more than 10 minutes are not considered idle and will not be eligible to receive calls until they change their presence to Available. 
 
+> [!TIP]
+> Setting **Routing Method** to **Round robin** or **Longest idle** is the recommended setting.
+
 ![Screenshot of routing, opt out, and alert time settings](media/call-queue-presence-agents-time.png)
 
 **Presence-based routing** uses the availability status of call agents to determine whether an agent should be included in the call routing list for the selected routing method. Call agents whose availability status is set to **Available** are included in the call routing list and can receive calls. Agents whose availability status is set to any other status are excluded from the call routing list and won't receive calls until their availability status changes back to **Available**. 
 
 You can enable presence-based call routing with any of the routing methods.
 
-> [!NOTE]
-> When **Longest idle** is selected as the routing method, presence-based routing is required and automatically enabled even though the Presence-based routing toggle will be **Off** and grayed out.
-
 If an agent opts out of getting calls, they won't be included in the call routing list regardless of what their availability status is set to. 
 
 > [!NOTE]
+> When **Longest idle** is selected as the routing method, presence-based routing is required and automatically enabled even though the Presence-based routing toggle will be **Off** and grayed out.
+>
+> If presence-based routing is not enabled and there are multiple calls in the queue, the system will present these calls simultaneously to the agents regardless of their presence status. This will result in multiple call notifications to agents, particularly if some agents don’t answer the initial call presented to them.
+> 
 > Agents who use the Skype for Business client aren't included in the call routing list when presence-based routing is enabled. If you have agents who use Skype for Business, don't enable presence-based call routing.
+
+> [!TIP]
+> Setting **Presence-based routing** to **On** is the recommended setting.
 
 **Agent alert time** specifies how long an agent's phone will ring before the queue redirects the call to the next agent.
 
-The following settings are recommended:
+> [!TIP]
+> Setting **Agent alert time** to **20 seconds** is the recommended setting.
 
-- **Conference mode** to **Auto**
-- **Routing method** to **Round robin** or **Longest idle**
-- **Presence-based routing** to **On**
-- **Agent alert time:** to **20 seconds**
-
-> [!NOTE]
-> If presence-based routing is not enabled and there are multiple calls in the queue, the system will present these calls simultaneously to the agents regardless of their presence status. This will result in multiple call notifications to agents, particularly if some agents don’t answer the initial call presented to them.
-
-### Call overflow handling
+## Call overflow handling
 
 ![Screenshot of call overflow settings](media/call-queue-overflow-handling.png)
 
@@ -181,7 +186,7 @@ You can choose to disconnect the call or redirect it to any of the call routing 
 > [!NOTE]
 > If the maximum number of calls is set to 0 then the greeting message will not play.
 
-### Call timeout handling
+## Call timeout handling
 
 ![Screenshot of call timeout settings](media/call-queue-timeout-handling.png)
 
@@ -190,6 +195,15 @@ You can choose to disconnect the call or redirect it to any of the call routing 
 You can choose to disconnect the call or redirect it to one of the call routing destinations. For example, you might have the caller leave a voicemail for the agents in the queue. For external transfers, please refer to [Prerequisites](plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) for number formatting.
 
 When you have selected your call timeout options, click **Save**.
+
+## Summary of recommended call queue settings
+
+The following settings are recommended:
+
+- **Conference mode** to **Auto**
+- **Routing method** to **Round robin** or **Longest idle**
+- **Presence-based routing** to **On**
+- **Agent alert time:** to **20 seconds**
 
 ## Supported clients
 
@@ -209,7 +223,7 @@ The following clients are supported for call agents in a call queue:
   - Microsoft Teams Android app
 
     > [!NOTE]
-    > Call queues that are assigned a direct routing number don't support Skype for Business clients, Lync clients, or Skype for Business IP Phones as agents.
+    > Call queues that are assigned a direct routing number don't support Skype for Business clients, Lync clients, or Skype for Business IP Phones as agents. The Teams client is only supported with a [co-existence mode of Teams Only](/microsoftteams/setting-your-coexistence-and-upgrade-settings).
 
 ## Call queue cmdlets
 
