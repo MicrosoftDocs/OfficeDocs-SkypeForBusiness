@@ -124,8 +124,8 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model        | Firmware version     | Included product release  |
 |:--------------------|:---------------------|:-------------------------|
-| Poly Trio C60   | 7.0.3.0342  | 2021 Update #2                        |
-| Poly CCX400/CCX500/CCX600   | 7.0.3.0347 | 2021 Update #2                     |
+| Poly Trio C60   | 7.0.3.0517  | 2021 Update #2                        |
+| Poly CCX400/CCX500/CCX600   | 7.0.3.0515 | 2021 Update #2                     |
 | Audio Codes C448HD/C450HD/C470HD   | 1.10.143  | 2021 Update #2           |
 | Yealink T55/T56/T58   | 58.15.0.131  | 2021 Update #2                       |
 | Yealink VP59   | 91.15.0.63  | 2021 Update #2                               |
