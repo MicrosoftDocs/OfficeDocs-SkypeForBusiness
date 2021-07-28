@@ -81,7 +81,9 @@ To add a channel
 
 1. In Teams, find the team you just created, click **More options** (...), and then click **Add channel**.
 
-2. Type a name and description for the channel, and then click **Add**.
+2. Type a name and description for the channel.
+
+3. Under **Privacy**, choose **Standard - Accessible to everyone on the team** and then click **Add**.
 
 > [!div class="nextstepaction"]
 > [Step 2 - Resource accounts >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=resource-account#steps)
