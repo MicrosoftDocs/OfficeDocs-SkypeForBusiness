@@ -127,7 +127,7 @@ Keep in mind the following:
 - When an app is approved, any one can submit an update to the app. This means other developers, including the developer who originally submitted the app, can submit an update to the app.
 - When a developer submits an app and the request is pending, only that same developer can submit an update to the app. Other developers can submit an update only after the app is approved.
 
-For more information about using the Graph API to update apps, see <a href="/graph/api/teamsapp-update" target="_blank">here</a>.
+For more information about using the Graph API to update apps, see <a href="/graph/api/teamsapp-update">here</a>.
 
 ## Related topics
 
