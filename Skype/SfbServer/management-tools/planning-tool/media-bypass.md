@@ -13,7 +13,7 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4c6417ea-a87d-4524-ba46-20e6c895d14c
-description: "Media bypass refers to removing the Mediation Server from the media path whenever possible for calls whose signaling traverses the Mediation Server. For more details, see Plan for media bypass in Skype for Business 2015."
+description: "Media bypass means removing the Mediation Server from the media path whenever possible for calls whose signaling traverses the Mediation Server. For more detail, see Plan for media bypass in Skype for Business 2015."
 ---
 
 # Media Bypass planning tool
