@@ -1003,9 +1003,11 @@ items:
     - name: Phone numbers
       items: 
         - name: Manage phone numbers for your organization
-          href: manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
-        - name: Types of phone numbers used for Calling Plan
+          href: phone-numbers-landing-page.md
+        - name: Types of phone numbers
           href: different-kinds-of-phone-numbers-used-for-calling-plans.md
+        - name: Manage phone numbers for Calling Plan
+          href: manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
         - name: Getting phone numbers for your users
           href: getting-phone-numbers-for-your-users.md
         - name: How many phone numbers can you get?
