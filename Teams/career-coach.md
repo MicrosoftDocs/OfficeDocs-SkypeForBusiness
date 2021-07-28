@@ -211,7 +211,7 @@ Determine the educational institution's LinkedIn page. Find the LinkedIn page by
 > [!NOTE]
 > The verification by the LinkedIn page super admin is required to complete the LinkedIn connection for Career Coach.
 
-   ![linkedin page verification in the linkedin developer portal](http://placehold.it/650x650?text=Placeholder%20for%20Linked.com%20vertification%20page)
+   ![linkedin page verification in the linkedin developer portal](media/career-coach-linkedin-verification.png)
 
 
 #### Course catalog
