@@ -18,6 +18,8 @@ appliesto:
   - Microsoft Teams
 ---
 
+# Microsoft Teams feedback privacy
+
 At Microsoft we take feedback from our customers very seriously. The feedback you provide will be used to troubleshoot, fix bugs, enhance existing features, and develop new ones. Your feedback may be reviewed by teams responsible for product quality and customer assurance.
 
 The data is only linked to your identity through a user id in order to maintain your privacy. It also qualifies as personal data, as outlined in [Privacy and Microsoft Teams](teams-privacy.md), so you have all the same choices and rights when it comes to access and control.
