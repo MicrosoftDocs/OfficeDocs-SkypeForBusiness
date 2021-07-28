@@ -24,7 +24,7 @@ At Microsoft we take feedback from our customers very seriously. The feedback yo
 
 The data is only linked to your identity through a user id in order to maintain your privacy. It also qualifies as personal data, as outlined in [Privacy and Microsoft Teams](teams-privacy.md), so you have all the same choices and rights when it comes to access and control.
 
-You can request copies of your feedback or ask for the feedback you provided to be deleted. For more info, click here <link to guidance>.
+You can request copies of your feedback or ask for the feedback you provided to be deleted. For more info, see XXX.
 
 When submitting feedback, we ask that you not include sensitive information, like phone numbers, addresses, or highly personal stories. Instead, please provide information on the specific issue you are experiencing with our app or your experience with the app. This will help us maintain your privacy as we review and take action based on your feedback.
 
