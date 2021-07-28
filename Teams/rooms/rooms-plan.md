@@ -51,7 +51,7 @@ Typically, the bundles and integrated units include preinstalled software, where
 
 You can deploy Microsoft Teams Rooms with Microsoft Teams, Skype for Business Online, or Skype for Business hybrid or on-premises deployments.  See the [Teams Meeting Room Licensing Update](rooms-licensing.md) for information on the needed licenses.
 
-|    |     |
+| &nbsp;   |  &nbsp;   |
 |-----------|------------|
 |![decide deployment](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Will you deploy Microsoft Teams Rooms in your organization? </li><li>How will you procure your Microsoft Teams Rooms systems—bundled, as separate components, or as an integrated unit?</li></ul> |
 | ![identify activities](../media/audio_conferencing_image9.png)<br/>Next steps | <ul><li>Identify who will undertake the key activities throughout your deployment.</li><li>Review the meeting rooms you have (and plan to set up) to understand where you want to deploy Microsoft Teams Rooms and the peripheral devices that would be appropriate for the room size.</li></ul> |
@@ -89,7 +89,7 @@ After you create an inventory of the equipment and capabilities in each existing
 
 As part of your discovery, it’s key to consider room acoustics and layout. For example, check that the chairs in the room won’t block the camera view. Verify that the room doesn’t have excessive echo or noisy air conditioning, and that it does have sufficient power for the screens and Microsoft Teams Rooms. There are many factors to consider that your audio-visual (AV) team or partner will be able to advise on. 
 
-|    |     |
+| &nbsp;   | &nbsp;    |
 |-----------|------------|
 | ![deplyment rooms](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Review the rooms in scope, and define Microsoft Teams Rooms configurations for them.</li></ul>|
 
@@ -110,7 +110,7 @@ Based on the vendor you prefer, use the information provided in the requirements
 
 **Pro Tip** – Some room types might not be applicable for your deployment.
 
-|    |     |
+| &nbsp;   |  &nbsp;   |
 |-----------|------------|
 | ![rooms in scope](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>From your inventory, which types of rooms are in scope for your deployment?</li><li>Which systems will you deploy for each room type?</li></ul>|
 | ![gather material](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to gather key operational material for your chosen systems, and engage your procurement team.</li></ul>|
@@ -134,7 +134,7 @@ You can acquire Microsoft Teams Rooms from a number of partners who are listed i
 
 Depending on your deployment scale and approach, you might decide to have the Microsoft Teams Rooms and supported peripheral devices shipped to a central location for initial configuration and assignment. This might be a good approach for a staged rollout across many sites. Or, you might choose to ship the bundles directly to your sites. 
 
-|    |     |
+|   &nbsp; |  &nbsp;   |
 |-----------|------------|
 | ![ship components](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Will you ship the components directly to a site or to a staging facility?</li><li>Who will manage the staging facility (if you decide to use one)?</li></ul>|
 | ![plan operations](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Plan for operations.</li><li>Plan for adoption and change management.</li></ul>|
@@ -147,7 +147,7 @@ Many organizations have an AV team or partner who manages their conference rooms
 
 Consider which helpdesk queue you’ll route Microsoft Teams Rooms֪–related calls to, and provide an FAQ to the helpdesk team so they can better understand how to use Microsoft Teams Rooms and the key troubleshooting steps they can take. A good starting point for this FAQ is the [user help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) and [Known issues](known-issues.md).
 
-|    |     |
+|  &nbsp;  |  &nbsp;   |
 |-----------|------------|
 | ![choose manager](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide who will manage Microsoft Teams Rooms.</li><li>Decide which helpdesk queue to route Microsoft Teams Rooms–related calls to.</li></ul>|
 | ![prepare host accounts](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Prepare to host accounts. </li></ul>|
