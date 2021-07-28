@@ -45,7 +45,7 @@ You can view every app including the following information about each app.
 - **Status**: Status of the app at the org level, which can be one of the following:
 - **Allowed**: The app is available for all users in your organization.
 - **Blocked**: The app is blocked and not available for any users in your organization.
-  - **Blocked org-wide**: The app is blocked in org-wide app settings.
+- **Blocked org-wide**: The app is blocked in org-wide app settings.
       It's important to know that this column represents the allowed and blocked status of apps that were formerly on the **Org-wide settings** pane. You now view, block, and allow apps at the org-wide on the **Manage apps** page.
 - **Licenses**: Indicates whether an app offers a Software as a Service (SaaS) subscription for purchase. This column applies only to third-party apps. Each third-party app will have one of the following values:
 - **Purchase now**: The app offers a SaaS subscription and is available to purchase.  
@@ -57,6 +57,7 @@ You can view every app including the following information about each app.
 - **- -**: The app doesn't have permissions that need consent.
 - **Categories**: Categories that apply to the app.
 - **Version**: App version.
+- **Admin can install in meetings**: Indicates whether an app can be installed by admins in Team meetings. [Learn more](teams-app-setup-policies.md#install-apps)
 
 To see the information that you want in the table, select **Edit Column** in the upper-right corner to add or remove columns to the table.
 
