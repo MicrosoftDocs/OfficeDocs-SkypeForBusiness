@@ -306,6 +306,8 @@ items:
           href: teams-privacy.md
         - name: Location of data in Teams
           href: location-of-data-in-teams.md
+        - name: Microsoft Teams feedback privacy
+          href: teams-privacy-feedback.md
         - name: Block access to Sharepoint Online for specific users
           href: block-access-sharepoint.md
         - name: Policy control overview
