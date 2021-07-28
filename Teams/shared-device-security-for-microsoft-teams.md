@@ -1,5 +1,5 @@
 ---
-title: Security guide for Microsoft Teams
+title: 'Security guide for Microsoft Teams: Use Teams securely on shared computers'
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
@@ -28,7 +28,7 @@ When possible, it is *recommended* Enterprises make use of a Zero Trust approach
 
 :::image type="content" source="media/tp_ZeroTrustPrinciples.PNG" alt-text="Zero trust picture showing verify explicitly, least privilege, and assume breach -- the core zero trust principles -- in blue circles.":::
 
-Administrators can create very secure conditions by *insisting* on verification, least privilege, and by assuming compromise -- standards that lead to actions that minimize risk to both users and data.
+Administrators can create secure conditions by *insisting* on verification, least privilege, and by assuming compromise--standards that lead to actions that minimize risk to both users and data.
 
 > [!TIP]
 > For a deeper examination of Zero Trust principles, see [these videos](/security/ciso-workshop/ciso-workshop-module-3#part-2-zero-trust-definition-and-models-1537).
@@ -46,9 +46,9 @@ Plans should be developed to adhere to guidelines as promptly as is possible.
     1. Use of [separate user accounts](https://support.microsoft.com/help/4026923/windows-10-create-a-local-user-or-administrator-account) for each user of the system is highly recommended.
     1. *Do not* grant, or use, administrator privileges for non-administrative functions (such as browsing the web, running Teams, et cetera).
 
-If the above guidance cannot be met, we recommend making use of additional browser security best practices:
+If the above guidance cannot be met, we recommend making use of other browser security best practices:
 
-1. Leverage browser security capabilities.
+1. Apply browser security capabilities.
     1. Use private browsing sessions to minimize data and history that persists to disk. For example, use [inPrivate browsing in Microsoft Edge](https://support.microsoft.com/help/4533513/microsoft-edge-browse-inprivate), [Incognito browsing in Google Chrome](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en), or the capabilities your specific browser for browsing privately. 
     1. Changing the system behavior to engage private browsing *by default* is recommended. 
 
@@ -59,13 +59,13 @@ If the above guidance cannot be met, we recommend making use of additional brows
     1. Close all browser tabs and windows.
     1. Sign out of the device.
 
-The items above are not a comprehensive list of best practices or security controls covering all cases, and there may be extra actions that can be taken in your environment, (for instance, security administrators may choose to use Safe Links and Safe Attachments for Teams if you have [Office 365 ATP Plan 1 or 2](/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide#office-365-atp-plan-1-and-plan-2)). However, these steps are a starting point for building guidance for using Teams from shared devices.
+The items above are not a comprehensive list of best practices or security controls covering all cases, and there may be extra actions that can be taken in your environment, (for instance, security administrators may choose to use Safe Links and Safe Attachments for Teams if you have [Office 365 ATP Plan 1 or 2](/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2)). However, these steps are a starting point for building guidance for using Teams from shared devices.
 
 ## More Information
 
-[Bitlocker in Configuration Manager](/mem/configmgr/protect/deploy-use/bitlocker/deploy-management-agent)
+[BitLocker in Configuration Manager](/mem/configmgr/protect/deploy-use/bitlocker/deploy-management-agent)
 
-[Bitlocker for Windows 10 in Intune](/mem/intune/protect/encrypt-devices)
+[BitLocker for Windows 10 in Intune](/mem/intune/protect/encrypt-devices)
 
 [Endpoint security in Intune](/mem/intune/protect/endpoint-security)
 

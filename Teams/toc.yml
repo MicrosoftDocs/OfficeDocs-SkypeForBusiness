@@ -1494,6 +1494,8 @@ items:
               href: class-insights.md
             - name: Sync SIS data with Insights
               href: education-insights-sis-data-sync.md
+            - name: Manage user access to Insights
+              href: education-insights-manage-access.md              
             - name: Get started with Reflect
               href: reflect.md      
         - name: Assignments in Teams for Education
@@ -1889,4 +1891,4 @@ items:
     - name: Upgrade discovery questionnaire
       href: upgrade-plan-journey-discovery-questionnaire.md
     - name: Release notes for Teams admin features
-      href: release-notes/release-notes.md
+      href: /OfficeUpdates/teams-admin
