@@ -1011,7 +1011,7 @@ items:
         - name: Manage phone numbers for Operator Connect
           href: operator-connect-configure.md#set-up-phone-numbers
         - name: Manage phone numbers for Direct Routing
-          href: direct-routing-enable-users.md
+          href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online
         - name: Getting phone numbers for your users
           href: getting-phone-numbers-for-your-users.md
         - name: How many phone numbers can you get?
