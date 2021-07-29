@@ -75,42 +75,6 @@ The following tables list the features supported in a hybrid deployment when int
 |Search archived content  <br/> |For more information, see at [Configure Exchange for SharePoint eDiscovery Center](/exchange/configure-exchange-for-sharepoint-ediscovery-center-exchange-2013-help) <br/> |
 |Voice mail  <br/> |For more information, see [Providing Lync Server 2013 Users Voice Mail on Hosted Exchange UM](/previous-versions/office/lync-server-2013/lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um).  <br/> |
 
- **Skype for Business Online and Exchange on premises**
-
-
-|**Feature**|**Notes**|
-|:-----|:-----|
-|Presence in Outlook  <br/> ||
-|Respond via IM, PSTN Call, Skype Call or Video Call from an Outlook email  <br/> ||
-|Schedule and join online meetings through Outlook  <br/> ||
-|IM/Presence in Mobile clients  <br/> ||
-|Join online meetings in Mobile clients  <br/> ||
-|Publish status based on Outlook calendar free/busy information  <br/> ||
-|Missed Conversations history and Call Logs are written to user's exchange mailbox  <br/> ||
-|High-resolution Contact Photo in Lync 2013 or Skype for Business client.  <br/> |Requires Exchange 2016 or Exchange 2013. This is not supported in Lync Web App when users are homed on Skype for Business Online.  <br/> |
-|Meeting delegation  <br/> |Supported only when both users are homed online in the same forest, or both are homed on-premises. For more information, see [Skype for Business hybrid solutions](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
-|Missed Conversations history and Call Logs are written to user's Exchange mailbox  <br/> ||
-|Server Side Conversation History  <br/> ||
-
- **Skype for Business Online and Exchange Online**
-
-
-|**Feature**|**Notes**|
-|:-----|:-----|
-|IM/Presence in Outlook  <br/> ||
-|Schedule and join online meetings through Outlook  <br/> ||
-|IM/Presence in Outlook Web App  <br/> ||
-|Schedule and join online meeting from Outlook Web App  <br/> ||
-|IM/Presence in Mobile Clients  <br/> ||
-|Join online meeting in Mobile clients  <br/> ||
-|Publish status based on Outlook calendar free/busy information  <br/> ||
-|Missed Conversations history and Call Logs are written to user's exchange mailbox  <br/> ||
-|Contact List (via Unified Contact Store)  <br/> |Lync Server 2013 or Skype for Business client required  <br/> |
-|High-resolution Contact Photo in Lync 2013, Skype for Business client, and Lync Web App  <br/> ||
-|Meeting delegation  <br/> |Supported only when both users are homed online in the same forest, or both are homed on-premises. For more information, see [Skype for Business hybrid solutions](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
-|Archiving Content (IM and Meeting) in Exchange  <br/> ||
-|Search archived content  <br/> ||
-|Voicemail  <br/> ||
 
 ## Integration with SharePoint
 
