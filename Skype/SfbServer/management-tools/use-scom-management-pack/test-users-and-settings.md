@@ -1,5 +1,5 @@
 ---
-title: "Configure watcher node test users and settings"
+title: How to configure watcher node test users and settings
 ms.reviewer: 
 ms.author: v-cichur
 author: cichur
@@ -16,7 +16,7 @@ ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: "Summary: Configure test user accounts and watcher node settings for Skype for Business Server synthetic transactions."
 ---
 
-# Configure watcher node test users and settings
+# How to configure watcher node test users and settings
  
 **Summary:** Configure test user accounts and watcher node settings for Skype for Business Server synthetic transactions.
   

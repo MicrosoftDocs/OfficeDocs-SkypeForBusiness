@@ -1,5 +1,5 @@
 ---
-title: "Advanced Edge Server DNS planning for Skype for Business Server"
+title: Plan Advanced Edge Server deployment for Skype for Business Server
 ms.reviewer: 
 ms.author: v-cichur
 author: cichur
@@ -18,7 +18,7 @@ ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: "Summary: Review scenarios for Skype for Business Server deployment options. Whether you want a single server or prefer a server pool with DNS or HLB, this topic should help."
 ---
 
-# Advanced Edge Server DNS planning for Skype for Business Server
+# Plan Advanced Edge Server deployment for Skype for Business Server
  
 **Summary:** Review scenarios for Skype for Business Server deployment options. Whether you want a single server or prefer a server pool with DNS or HLB, this topic should help.
   

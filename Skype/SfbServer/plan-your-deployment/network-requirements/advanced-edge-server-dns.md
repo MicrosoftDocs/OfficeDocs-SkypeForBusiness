@@ -224,7 +224,7 @@ For example, if there are three Front End Servers in a pool named pool01.contoso
   
 - Clients running Skype for Business query DNS for pool01.contoso.com. The query returns three IP addresses and caches them as follows (in some order):
     
-   |||
+   |&nbsp;|&nbsp;|
    |:-----|:-----|
    |pool01.contoso.com  <br/> |192.168.10.90  <br/> |
    |pool01.contoso.com  <br/> |192.168.10.91  <br/> |

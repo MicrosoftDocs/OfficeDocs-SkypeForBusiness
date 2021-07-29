@@ -1,5 +1,5 @@
 ---
-title: "Install and configure watcher nodes"
+title: How to install and configure watcher nodes
 ms.reviewer: 
 ms.author: v-cichur
 author: cichur
@@ -16,7 +16,7 @@ ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: "Summary: Install and configure watcher nodes for Skype for Business Server synthetic transactions."
 ---
 
-# Install and configure watcher nodes
+# How to install and configure watcher nodes
  
 **Summary:** Install and configure watcher nodes for Skype for Business Server synthetic transactions.
   
@@ -150,7 +150,7 @@ After the System Center Operations Manager agent files have been installed, you 
   
 When you configure a watcher node, you must also choose the type of authentication method to be employed by that node. Skype for Business Server 2015 enables you to choose one of two authentication methods: Trusted Server or Credential Authentication. The following table shows the differences between these two methods:
   
-||**Description**|**Locations supported**|
+|&nbsp;|**Description**|**Locations supported**|
 |:-----|:-----|:-----|
 |TrustedServer  <br/> |Uses a certificate to impersonate an internal server and bypass authentication challenges.  <br/> Useful for administrators who prefer to manage a single certificate, instead of many user passwords on each watcher node.  <br/> |Inside the enterprise.  <br/> With this method, the watcher node must be in the same domain as the pools being monitored. If the watcher node and the pools are in different domains, use Credential Authentication instead.  <br/> |
 |Negotiate  <br/> |Stores user names and passwords securely in Windows Credential Manager on each watcher node.  <br/> This mode requires more password management, but is the only option for watcher nodes outside the enterprise. These watcher nodes cannot be treated as an endpoint trusted for authentication.  <br/> |Outside the enterprise.  <br/> Inside the enterprise.  <br/> |
