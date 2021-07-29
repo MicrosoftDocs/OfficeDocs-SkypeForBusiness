@@ -13,10 +13,10 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
-description: "Summary: Install and configure watcher nodes for Skype for Business Server synthetic transactions."
+description: "How to install and configure watcher nodes for Skype for Business Server synthetic transactions."
 ---
 
-# How to install and configure watcher nodes
+# Learn how to install and configure watcher nodes
  
 **Summary:** Install and configure watcher nodes for Skype for Business Server synthetic transactions.
   
