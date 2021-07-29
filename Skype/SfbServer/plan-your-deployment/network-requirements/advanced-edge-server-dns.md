@@ -22,7 +22,7 @@ description: "Summary: Review scenarios for Skype for Business Server deployment
  
 **Summary:** Review scenarios for Skype for Business Server deployment options. Whether you want a single server or prefer a server pool with DNS or HLB, this topic should help.
   
-When it comes to Domain Name System (DNS) planning for Skype for Business Server, there are a lot of factors that may play into your decision. If your organization's domain structure's already in place, this may be a matter of reviewing how you're going to proceed. We'll begin with the topics found below:
+When it comes to Domain Name System (DNS) planning for Skype for Business Server, many factors may play into your decision. If your organization's domain structure's already in place, this may be a matter of reviewing how you're going to proceed. We'll begin with the topics found below:
   
 - [Walkthrough of Skype for Business clients locating services](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#WalkthroughOfSkype)
     
@@ -49,11 +49,11 @@ Skype for Business clients are similar to previous versions of Lync clients in h
     
 3. _sipinternaltls._tcp.\<domain\>
     
-     *This is a SRV record for internal TLS connections.* 
+     *This is an SRV record for internal TLS connections.* 
     
 4. _sip._tls.\<domain\>
     
-     *This is a SRV record for external TLS connections.* 
+     *This is an SRV record for external TLS connections.* 
     
 5. sipinternal.\<domain\>
     
@@ -72,13 +72,13 @@ The Autodiscover service is always favored as that's the preferred method for se
 > [!NOTE]
 > When you're creating SRV records, it's important to remember that they need to point to a DNS A (and AAAA if you're using IPv6 addressing) in the same domain in which the DNS SRV record's being created. For example, if they SRV record's in contoso.com, the A (and AAAA) record it points to can't be in fabrikam.com. 
   
-If you're inclined to do it, you can set your mobile device up for manual discovery of services. If that's what you're looking to do, each user needs to configure their mobile device settings with the full internal and external Autodiscover service URIs, including the protocol and path, as follows:
+If you're inclined to do it, you can set up your mobile device for manual discovery of services. If that's what you're looking to do, each user needs to configure their mobile device settings with the full internal and external Autodiscover service URIs, including the protocol and path, as follows:
   
 - For external access: https://\<ExtPoolFQDN\>/Autodiscover/autodiscoverservice.svc/Root
     
 - For internal access: https://\<IntPoolFQDN\>/AutoDiscover/AutoDiscover.svc/Root
     
-We do recommend you use automatic discovery as opposed to manual discovery. But if you're doing some troubleshooting or testing, manual settings can be very helpful.
+We do recommend you use automatic discovery as opposed to manual discovery. But if you're doing some troubleshooting or testing, manual settings can be helpful.
   
 ## Split-brain DNS
 <a name="SplitBrainDNS"> </a>
@@ -87,7 +87,7 @@ This is a DNS configuration where you have two DNS zones with the same namespace
   
 Why would a company do this? They may have a requirement to use the same namespace internally and externally, but of course this will lead to many DNS SRV and A records being unique to one zone or another, and where there is duplication, the IP addresses associated with these records would be unique.
   
-This presents some challenges. The most important is that split-brain DNS is **not supported** for Mobility. This is because of the LyncDiscover and LyncDiscoverInternal DNS records (LyncDiscover has to be defined on you external DNS server, while LyncDiscoverInternal has to be defined on your internal DNS server).
+This situation presents some challenges. The most important is that split-brain DNS is **not supported** for Mobility. This is because of the LyncDiscover and LyncDiscoverInternal DNS records (LyncDiscover has to be defined on you external DNS server, while LyncDiscoverInternal has to be defined on your internal DNS server).
   
 We'll list the DNS records for the internal and external zones here, but you can find detailed examples on the Edge Server environmental requirements section.
   
@@ -144,7 +144,7 @@ To take the example further, this would not work:
   
 - _sipinternaltls._tcp.litwareinc.com. 86400 IN SRV 0 0 5061 pool01.fabrikam.com
     
-     *A user signing in as tim@litwareinc.com won't work for automatic configuration, because his SIP domain (litwareinc.com) doesn't match the domain in the pool (fabrikam.com).* 
+     *A user signing in as tim@litwareinc.com won't work for automatic configuration, because their SIP domain (litwareinc.com) doesn't match the domain in the pool (fabrikam.com).* 
     
 So now that we know all that, if you need automatic requirement for your Skype for Business clients without split-brain DNS, you have these options:
   
@@ -198,7 +198,7 @@ So now that we know all that, if you need automatic requirement for your Skype f
 ## DNS disaster recovery
 <a name="DNSDR"> </a>
 
-To configure DNS to redirect Skype for Business Server web traffic to your disaster recover (DR) and failover sites, you need to use a DNS provider that supports GeoDNS. You can set up your DNS records to support disaster recover, so that features that use web services continue even if one entire Front End pool goes down. This DR feature supports the Autodiscover, Meet and Dial-in simple URLs.
+To configure DNS to redirect Skype for Business Server web traffic to your disaster recover (DR) and failover sites, you need to use a DNS provider that supports GeoDNS. You can set up your DNS records to support disaster recover, so that features that use web services continue even if one entire Front End pool goes down. This DR feature supports the Autodiscover, Meet, and Dial-in simple URLs.
   
 You define and configure additional DNS host A (AAAA if using IPv6) records for internal and external resolution of web services at your GeoDNS provider. The following details assume paired pools, geographically dispersed, and that the GeoDNS supported by your provider **either** has round-robin DNS **or** is configured to use Pool1 as primary and fails over to Pool2 in the event of any communications loss or power failure.
   
@@ -253,7 +253,7 @@ You can't use DNS load balancing for:
   
 - Client-to-server web traffic to your Front End Servers or a Director.
     
-To go a little more in-depth on how a DNS SRV record's selected when mutiple DNS records are returned by a query, the Access Edge service always picks the record with the lowest numeric priority and, if a tie-breaker is needed, the highest numeric weight. This is consistent with [Internet Engineering Task Force documentation](https://www.ietf.org/rfc/rfc2782.txt).
+To go a little more in-depth on how a DNS SRV record's selected when multiple DNS records are returned by a query, the Access Edge service always picks the record with the lowest numeric priority and, if a tie-breaker is needed, the highest numeric weight. This is consistent with [Internet Engineering Task Force documentation](https://www.ietf.org/rfc/rfc2782.txt).
   
 So, for example, if your first DNS SRV record has a weight of 20 and a priority of 40, and your second DNS SRV record has a weight of 10 and a priority of 50, the first record's going to be chosen because it has the lower priority of 40. Priority always goes first, and that's the host that a client will target first. What if there are two targets with the same priority? 
   
