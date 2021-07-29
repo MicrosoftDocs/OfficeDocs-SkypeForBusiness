@@ -260,43 +260,31 @@ The size of a 1-hour recording is 400 MB. Make sure you understand the capacity 
 
 Please see the below frequently asked questions for admins and end-users to gather insights into how auto-expiration of Teams meeting recordings will work, what actions you can take now, and what actions you can take after the feature launches. 
   
-<ol><li>
+## Frequently asked questions
   
   **What is the change?**
   
   We’re introducing a default 60-day expiration setting for all newly created Teams meeting recordings (TMRs). This means that by default, all TMRs created after we enable this feature will be deleted 60 days after their creation date. If admins want meeting recordings to expire sooner or later than the default, they can modify the expiration setting. The OneDrive and SharePoint systems will monitor the expiration date set on all meeting recordings and will automatically move them to the recycle bin on their expiration date. 
 
-<li>
-  
   **Who does this impact?**
   
   Anyone storing a Teams meeting recording (non-channel, channel, or ad-hoc meeting) in OneDrive or SharePoint. 
-  
-<li>
-  
+
   **Why should I use this feature?**
   
   You should use this feature to limit OneDrive or SharePoint storage consumed by Teams meeting recordings (note: they typically use around 400MB per hour of recording). 
-  
-<li>
   
   **Why are we introducing this change?**
   
   Customers have provided overwhelming feedback that they want more controls to reduce storage clutter created from Teams meeting recordings, 99% of which, on average, are never rewatched after 60 days.
   
-<li>
-  
   **Why is this being turned on by default?**
   
   We believe nearly all customers will benefit from the reduced storage load on their tenant by removing recordings that will likely never be rewatched after 60 days. It is our goal to provide as clean an experience as possible for all customers by default. 
   
-<li>
-  
   **How is the expiration date calculated?**
   
   The expiration date is calculated as the day the meeting recording is created plus the default number of days set in the Teams setting by the admin. 
-  
-<li>
   
   **How can an Admin change the expiration date?**
   
@@ -310,13 +298,9 @@ The maximum expiration days setting an Admin can apply is 99,999 days, or 273 ye
   Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays 50
   ```
   
-<li>
-  
   **What is the scope of control for the admin policy?**
   
   Both meetings and calls will be controlled by the same `CsTeamsMeetingPolicy` setting, `MeetingRecordingExpirationDays`. 
-  
-<li>
   
   **How can end users modify the expiration date on a specific TMR file?**
   
@@ -324,19 +308,13 @@ The maximum expiration days setting an Admin can apply is 99,999 days, or 273 ye
 
 The user can defer the expiration 14, 30, or 60 days, or they can choose a specific date in the future, or they can select that the file never be expired. 
   
-<li>
-  
   **Should admins rely on this feature for strict security and compliance adherence?**
   
   No, admins should not rely on this feature for legal protection since end users can modify the expiration date of any recordings they control. 
   
-<li>
-  
   **Will this feature enforce file retention?**
   
   No, files will not be retained due to this feature or its settings. If a user with delete permissions attempts to delete a TMR that has an expiration setting, that user’s delete action will be executed. 
-  
-<li>
   
   **Will a retention and/or deletion policy I have set in the security & compliance (S+C) center override the TMR expiration setting?**
   
@@ -345,13 +323,9 @@ Yes, any policies you have set in the S+C center will take full precedence. For 
 - If you have a policy that says all files in a site must be retained for 100 days, and the expiration setting for a TMR is 30 days, then the recording file will be retained for the full 100 days.  
 - If you have a deletion policy that says all TMRs will be deleted after 5 days and you have an expiration setting on a recording file of 30 days, then that file will be deleted after 5 days. 
   
-<li>
-  
   **What happens when a TMR “expires”?**
   
   On the expiration date, the TMR is moved into the OneDrive or SharePoint recycle bin and the expiration date field is cleared. This action by the system is exactly the same as if a user deleted the file. The recycle bin lifecycle will subsequently follow the normal path. If the user recovers the TMR from the recycle bin, the TMR will not be deleted by this feature again since the expiration date has been cleared, unless the end user sets a new expiration date on the file. 
-  
-<li>
   
   **How will I be notified about a file’s expiration?**
   
@@ -361,19 +335,13 @@ Yes, any policies you have set in the S+C center will take full precedence. For 
   
   The file owner will receive an email notification when the TMR expires and will be directed to the recycle bin to recover the TMR if they desire to do so.
   
-<li>
-  
   **What SKUs are required for this feature?**
   
   All SKUs will have this feature by default. A1 users will be defaulted to a 30-day expiration period and won’t be able to modify the expiration date
   
-<li>
-  
   **Is the file expiration an audited event and will I be able to see it in my audit logs?**
   
   Yes, file expirations will show up as system deletion events in the audit log. 
-  
-<li>
   
   **What if I want the admin to have full control over the lifecycle of TMRs and don’t want to give end users the ability to override the expiration date?**
   
@@ -381,17 +349,13 @@ Yes, any policies you have set in the S+C center will take full precedence. For 
 
 This feature is solely meant as a lightweight housekeeping mechanism to reduce storage clutter created from cold TMRs. 
   
-<li>
-  
   **When will the file be deleted?**
   
   The file will be deleted within 5 days of the expiration date, though this is not a strict guarantee. 
   
-<li>
-  
   **Will future TMRs migrated from Classic Stream after this feature is released have auto-expiration applied to them too?**
   
-  No, migrated TMRs will not come with an expiration set on them. Instead, we encourage admins to only migrate TMRs that they want to retain. More details will be provided in the migration documentation.</ol>
+  No, migrated TMRs will not come with an expiration set on them. Instead, we encourage admins to only migrate TMRs that they want to retain. More details will be provided in the migration documentation.
   
 ## Manage meeting recordings
 
@@ -412,7 +376,7 @@ Any future changes to the link between the transcript in Teams and the recording
 > [!NOTE]
 > There will be English-only closed captions (meeting transcription is not yet available in GCC).
 
-## Compliance and eDiscovery for meeting recordings
+## eDiscovery and Compliance for meeting recordings
 
 ### eDiscovery
 
