@@ -13,7 +13,7 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
-description: "Skype for Business Server 2015 web conferencing includes document collaboration, application sharing, and desktop sharing."
+description: "Web conferencing inSkype for Business Server 2015 includes document collaboration, application sharing, and desktop sharing."
 ---
 
 # Web Conferencing planning tool
