@@ -66,8 +66,16 @@ Advisor for Teams currently provides the following plans:
     - Forms user survey
     - Advisor for Teams bot
     - Designed for customers who are currently using Skype for Business Online or Skype for Business on-premises environments, the Skype for Business upgrade plan will help you take the guesswork out of your upgrade journey. Leveraging a proven success framework for implementing change, the plan will guide you through the step-by-step process whether you’re just getting started with Teams, already using Teams alongside Skype for Business, or ready to upgrade. The plan will also connect you to [online guidance and best practices](./upgrade-start-here.md),  [downloadable assets](https://aka.ms/UpgradeSuccessKit), [live 1:many planning workshops](./upgrade-workshops-landing-page.yml), and additional resources to support your success.
+1. Education (visible only to Educational organizations)
+    - Tenant assessment
+    - Planner plan, including adoption tasks
+    - Forms user survey
+    - Advisor for Teams bot
+    - Designed for Educational organizations, the Education plan will help you deploy, adopt, and manage Teams in your educational institution.
 
-We recommend that you start with the Chat, teams, channels, and apps plan. When you're done deploying that workload, go back to Advisor for Teams and select **Add channel** to start the next workload.
+For commercial organizations, we recommend that you start with the Chat, teams, channels, and apps plan. For educational organizations, we recommend that you start with Education plan. When you're done deploying that workload, go back to Advisor for Teams and select **Add channel** to start the next workload.
+
+
 
 ## Tenant assessment
 
