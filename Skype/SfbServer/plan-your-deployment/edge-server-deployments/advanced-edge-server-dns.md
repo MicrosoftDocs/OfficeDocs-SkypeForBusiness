@@ -22,7 +22,7 @@ description: "Summary: Review scenarios for Skype for Business Server deployment
  
 **Summary:** Review scenarios for Skype for Business Server deployment options. Whether you want a single server or prefer a server pool with DNS or HLB, this topic should help.
   
-When it comes to Domain Name System (DNS) planning for Skype for Business Server, there are a lot of factors that may play into your decision. If your organization's domain structure's already in place, this may be a matter of reviewing how you're going to proceed. We'll begin with the topics found below:
+When it comes to Domain Name System (DNS) planning for Skype for Business Server, many factors may play into your decision. If your organization's domain structure's already in place, this may be a matter of reviewing how you're going to proceed. We'll begin with the topics found below:
   
 - [Walkthrough of Skype for Business clients locating services](../../plan-your-deployment/network-requirements/advanced-edge-server-dns.md#WalkthroughOfSkype)
     
@@ -49,11 +49,11 @@ Skype for Business clients are similar to previous versions of Lync clients in h
     
 3. _sipinternaltls._tcp.\<domain\>
     
-     *This is a SRV record for internal TLS connections.* 
+     *This is an SRV record for internal TLS connections.* 
     
 4. _sip._tls.\<domain\>
     
-     *This is a SRV record for external TLS connections.* 
+     *This is an SRV record for external TLS connections.* 
     
 5. sipinternal.\<domain\>
     
@@ -200,7 +200,7 @@ So now that we know all that, if you need automatic requirement for your Skype f
 
 To configure DNS to redirect Skype for Business Server web traffic to your disaster recover (DR) and failover sites, you need to use a DNS provider that supports GeoDNS. You can set up your DNS records to support disaster recover, so that features that use web services continue even if one entire Front End pool goes down. This DR feature supports the Autodiscover, Meet and Dial-in simple URLs.
   
-You define and configure additional DNS host A (AAAA if using IPv6) records for internal and external resolution of web services at your GeoDNS provider. The following details assume paired pools, geographically dispersed, and that the GeoDNS supported by your provider **either** has round-robin DNS **or** is configured to use Pool1 as primary and fails over to Pool2 in the event of any communications loss or power failure.
+You define and configure additional DNS host A (AAAA if using IPv6) records for internal and external resolution of web services at your GeoDNS provider. The following details assume paired pools, geographically dispersed, and that the GeoDNS supported by your provider **either** has round-robin DNS **or** is configured to use Pool1 as primary and fails over to Pool2 if there's any communications loss or power failure.
   
 All the DNS records in this table are examples.
   
@@ -230,7 +230,7 @@ For example, if there are three Front End Servers in a pool named pool01.contoso
    |pool01.contoso.com  <br/> |192.168.10.91  <br/> |
    |pool01.contoso.com  <br/> |192.168.10.92  <br/> |
    
-- The client tries to establish a TCP connection to one of the IP addresses. If that fails, it'll try the next IP address it's cached from that list.
+- The client tries to establish a TCP connection to one of the IP addresses. If that fails, it will try the next IP address it's cached from that list.
     
 - If the TCP connection succeeds, the client negotiates TLS to connect to the primary registrar on pool01.contoso.com.
     
@@ -253,12 +253,12 @@ You can't use DNS load balancing for:
   
 - Client-to-server web traffic to your Front End Servers or a Director.
     
-To go a little more in-depth on how a DNS SRV record's selected when mutiple DNS records are returned by a query, the Access Edge service always picks the record with the lowest numeric priority and, if a tie-breaker is needed, the highest numeric weight. This is consistent with [Internet Engineering Task Force documentation](https://www.ietf.org/rfc/rfc2782.txt).
+To go a little more in-depth on how a DNS SRV record's selected when multiple DNS records are returned by a query, the Access Edge service always picks the record with the lowest numeric priority and, if a tie-breaker is needed, the highest numeric weight. This is consistent with [Internet Engineering Task Force documentation](https://www.ietf.org/rfc/rfc2782.txt).
   
 So, for example, if your first DNS SRV record has a weight of 20 and a priority of 40, and your second DNS SRV record has a weight of 10 and a priority of 50, the first record's going to be chosen because it has the lower priority of 40. Priority always goes first, and that's the host that a client will target first. What if there are two targets with the same priority? 
   
-In that case, weight comes into consideration. Larger weights should be given a high probability, in this circumstance, of being selected. DNS administrators should use weight 0 when there isn't any server selection to do. In the presence of records containing weights greater than 0, records with weight 0 have a very small chance of bring selected.
+In that case, weight comes into consideration. Larger weights should be given a high probability, in this circumstance, of being selected. DNS administrators should use weight 0 when there isn't any server selection to do. In the presence of records containing weights greater than 0, records with weight 0 have a small chance of bring selected.
   
-So, then, what happens if multiple DNS SRV records with equal priority and weight as returned? In this situation the Access Edge service will choose the SRV record that it got from the DNS server first.
+So, then, what happens if multiple DNS SRV records with equal priority and weight as returned? In this situation, the Access Edge service will choose the SRV record that it got from the DNS server first.
   
 
