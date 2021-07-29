@@ -51,6 +51,8 @@ The wizard sets up policies based on educational institution type (**Primary or 
 
 You only need to run the wizard one time. New students automatically get the Global (Org-wide default) policy definitions applied by the wizard and new staff that you add to the group you selected are automatically assigned the custom policies.
 
+Also, whenever a new feature is added to Teams, the appropriate EDU relevant default value of the policy for that feature will be automatically added to Global (Org-wide default) without requiring any admin's intervention. This helps make sure the right policies are in place to keep students secure and engaged.
+
 > [!NOTE]
 > See [Policies applied by the wizard](#policies-applied-by-the-wizard) for a detailed list of policy definitions applied by the wizard.
 
@@ -130,9 +132,9 @@ See [Keeping students safe while using Teams for distance learning](https://supp
 
 ### Step 3: Check Message Center for policy updates
 
-Currently, the wizard applies our recommended policies when you run it. It's important to know that as new policies  become available in Teams, the Global (Org-wide default) settings for student safety aren't automatically added by the wizard. This capability will be available in a future release.
+Currently, the wizard applies our recommended policies when you run it. It's important to know that as new policies  become available in Teams, the Global (Org-wide default) settings for student safety are automatically updated by the wizard. 
 
-Until this capability is available, check [Message Center](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) (in the Microsoft 365 admin center) frequently to stay up to date on new policies and policy settings in Teams. As new features become available, you may have to manually update your policies to keep your learning environment safe.
+But please do check [Message Center](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) (in the Microsoft 365 admin center) frequently to stay up to date on new features and their policies and policy settings in Teams. 
 
 ## Make changes in the wizard
 
