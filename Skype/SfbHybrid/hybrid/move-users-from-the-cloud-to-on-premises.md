@@ -40,22 +40,21 @@ If needed, you can move a user who was previously migrated from on-premises to T
 Once you move a user from the cloud back to on-premises:
 
 - The user interacts with your Skype for Business Server deployment for its functionality. 
-- Any contacts that existed in either Skype for Business Online or Teams are migrated  to Skype for Business Server. The two sets of contacts are merged and then migrated back to on-premises.  In addition, contacts that are pre-existing in Teams remain in Teams.
+- Any contacts that existed in Teams are migrated to Skype for Business Server. The two sets of contacts are merged and then migrated back to on-premises.  In addition, contacts that are pre-existing in Teams remain in Teams.
 - If the user also uses Teams, they will not have the ability to interoperate with Skype for Business users, nor will they be able to communicate with users in federated organizations.
-- Meetings in Skype for Business Online are *not* automatically migrated back to on-premises. Users should either reschedule their meetings or, if desired, use the [Meeting Migration Tool](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4).
 
 ### Move users with Move-CsUser
 
-Move-CsUser is available from an on-premises Skype for Business Management Shell PowerShell window. You must have sufficient privileges in both the on-premises environment as well as the cloud service organization (Microsoft 365 or Office 365), as described in [Required administrative credentials](move-users-between-on-premises-and-cloud.md#required-administrative-credentials). You can either use a single account that has privileges in both environments, or you can start an on-premises Skype for Business Server Management Shell window with on-premises credentials, and use the `-Credential` parameter to specify credentials for a Microsoft 365 or Office 365 account with the necessary administrative role.
+Move-CsUser is available from an on-premises Skype for Business Management Shell PowerShell window. You must have sufficient privileges in both the on-premises environment as well as the cloud service organization (Microsoft 365), as described in [Required administrative credentials](move-users-between-on-premises-and-cloud.md#required-administrative-credentials). You can either use a single account that has privileges in both environments, or you can start an on-premises Skype for Business Server Management Shell window with on-premises credentials, and use the `-Credential` parameter to specify credentials for a Microsoft 365  account with the necessary administrative role.
 
 To move a user to on-premises using Move-CsUser:
 
 - Specify the user to move using the Identity parameter.
 - Specify the -Target parameter with the fully qualified domain name of the desired on-premises pool that will host the user.
-- If you do not have one account with sufficient permissions in both on-premises and the cloud service (Microsoft 365 or Office 365), use the -credential parameter to supply an account with sufficient permissions in Microsoft 365 or Office 365.
-- If the account with permissions in Microsoft 365 or Office 365 does not end in “on.microsoft.com”, you must specify the -HostedMigrationOverrideUrl parameter, with the correct value as described in [Required administrative credentials](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
+- If you do not have one account with sufficient permissions in both on-premises and the cloud service (Microsoft 365), use the -credential parameter to supply an account with sufficient permissions in Microsoft 365.
+- If the account with permissions in Microsoft 365 does not end in “on.microsoft.com”, you must specify the -HostedMigrationOverrideUrl parameter, with the correct value as described in [Required administrative credentials](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
 
-The following cmdlet sequence can be used to move a user to Skype for Business Server, and assumes the Microsoft 365 or Office 365 credential is a separate account and supplied as input for the Get-Credential prompt.
+The following cmdlet sequence can be used to move a user to Skype for Business Server, and assumes the Microsoft 365 credential is a separate account and supplied as input for the Get-Credential prompt.
 
 ```PowerShell
 $cred=Get-Credential
@@ -70,7 +69,7 @@ Move-CsUser -Identity username@contoso.com -Target pool.corp.contoso.com -Creden
 3. Use **Find** to locate the user(s) you would like to move back to on-premises.
 4. Select the user(s), and then from the **Action** dropdown above the list, choose **Move selected users to on-premises**.
 5. In the wizard, select the user pool that will host the user and click **Next**.
-6. If prompted, sign in to Microsoft 365 or Office 365 with an account that ends in .onmicrosoft.com and has sufficient permissions.
+6. If prompted, sign in to Microsoft 365 with an account that ends in .onmicrosoft.com and has sufficient permissions.
 7. Click **Next**, and then **Next** one more time to move the user.
 8. Note that status messages regarding success or failure are provided at the top of the main Control Panel app, not in the wizard.
 
@@ -78,7 +77,7 @@ Move-CsUser -Identity username@contoso.com -Target pool.corp.contoso.com -Creden
 
 If you are using a version earlier than Skype for Business 2015 with CU8 and the user is being moved back to on-premises in TeamsOnly mode, you must remove the UpgradeToTeams instance of `TeamsUpgradePolicy` before you move the user on-premises. You can either explicitly grant a policy with a different mode or simply remove the existing policy assignment for that user to use the global policy (as long as your tenant’s global policy is not UpgradeToTeams).
 
-To remove the user’s assignment of TeamsUpgradePolicy, run the following cmdlet from a Skype for Business Online PowerShell window:
+To remove the user’s assignment of TeamsUpgradePolicy, run the following cmdlet from a Teams PowerShell window:
 
 `Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName $null`
 
