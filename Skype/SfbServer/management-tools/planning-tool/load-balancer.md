@@ -1,5 +1,5 @@
 ---
-title: "Load Balancer (Planning Tool)"
+title: Load Balancer planning tool
 ms.reviewer: 
 ms.author: v-cichur
 author: cichur
@@ -13,10 +13,10 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
-description: "If you have Front End pools, Director pools, or Edge Server pools, you need to deploy load balancing for these pools. Load balancing distributes the traffic among the servers in a pool. For details, see:"
+description: "If you have Front End pools, Director pools, or Edge Server pools, you need to deploy load balancing for these pools. Load balancing distributes the traffic among the servers in a pool."
 ---
 
-# Load Balancer (Planning Tool)
+# Load Balancer planning tool
  
 If you have Front End pools, Director pools, or Edge Server pools, you need to deploy load balancing for these pools. Load balancing distributes the traffic among the servers in a pool. For details, see:
   

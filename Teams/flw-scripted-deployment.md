@@ -208,7 +208,7 @@ Apps are pinned to the app bar. This is the bar on the side of the Teams desktop
 
 #### Create the frontline manager app setup policy
 
-The following settings can be customized to meet your business needs. We have chosen some recommended options based on best practices and to improve the ease of onboarding new users at scale. For more information, click [here](./teams-app-setup-policies.md#create-a-custom-app-setup-policy).
+The following settings can be customized to meet your business needs. We have chosen some recommended options based on best practices and to improve the ease of onboarding new users at scale. For more information, click [here](teams-app-setup-policies.md).
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
 2. Click **Add**.  
@@ -235,7 +235,7 @@ The following settings can be customized to meet your business needs. We have ch
 
 #### Create the frontline worker app setup policy
 
-The following settings can be customized to meet your business needs. We have chosen some recommended options based on best practices and to improve the ease of onboarding new users at scale. For more information, click [here](./teams-app-setup-policies.md#create-a-custom-app-setup-policy).
+The following settings can be customized to meet your business needs. We have chosen some recommended options based on best practices and to improve the ease of onboarding new users at scale. For more information, click [here](teams-app-setup-policies.md).
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
 2. Click **Add**.
