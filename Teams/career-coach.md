@@ -244,7 +244,7 @@ The following table shows the items to include in the course catalog:
 | sourceLink       | Required    | URL    | Website link to the course page.                                               |
 | description      | Recommended | string | Introduction text for the course.                                              |
 | language         | Recommended | string | Language of the course. Use standard language codes.                           |
-| format           | Recommended | string | Mode of teaching, e.g., online, video, in-person.                              |
+| format           | Recommended | string | Mode of teaching (online, video, in person).                              |
 | thumbnailLink    | Recommended | URL    | Thumbnail link to the course image.                                            |
 | thumbnailAltText | Recommended | string | Accessibility alt text for the image                                           |
 | educationLevel   | Recommended | string | Study level, ex. Undergraduate/Graduate.                                       |
@@ -355,7 +355,7 @@ Pinning Career Coach will make the app more accessible and visible for students.
 > [!NOTE]
 > Students will be notified in Microsoft Teams that Career Coach has been pinned.
 
-Reference [Manage app setup policies in Microsoft](/microsoftteams/teams-app-setup-policies) for additional details.
+Reference [Manage app setup policies in Microsoft](/microsoftteams/teams-app-setup-policies) for more details.
 
 ## Resources
 
