@@ -24,7 +24,7 @@ description: "Learn how to move users from Teams to on-premises."
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-If needed, you can move a user who was previously migrated from on-premises to Teams back to on-premises. To move users from either Skype for Business Online or TeamsOnly mode back to an on-premises deployment of Skype for Business Server, use either the Move-CsUser cmdlet or the Skype for Business Server Control Panel, both of which are on-premises tools. When you move a user back to an on-premises deployment, you must decide which pool to move the user to.
+If needed, you can move a user who was previously migrated from on-premises to Teams back to on-premises. To move users from TeamsOnly mode back to an on-premises deployment of Skype for Business Server, use either the Move-CsUser cmdlet or the Skype for Business Server Control Panel, both of which are on-premises tools. When you move a user back to an on-premises deployment, you must decide which pool to move the user to.
 
 > [!Important]
 > If the user was previously in TeamsOnly mode, and you are using an earlier version than Skype for Business Server 2015 with CU8, then you must also remove the TeamsOnly mode assignment of TeamsUpgradePolicy for that user. On-premises users must not have mode= TeamsOnly.  Subsequent versions of Skype for Business Server automatically remove this assignment. For more details, see [Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy).
