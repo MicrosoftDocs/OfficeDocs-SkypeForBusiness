@@ -1,5 +1,5 @@
 ---
-title: "Disaster Recovery (Planning Tool)"
+title: Disaster Recovery planning tool
 ms.reviewer: 
 ms.author: v-cichur
 author: cichur
@@ -13,10 +13,10 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
-description: "Skype for Business Server 2015 includes disaster recovery measures by enabling you to pair Front End pools located in two data centers."
+description: "Skype for Business Server 2015 includes disaster recovery measures by enabling pairing of front-end pools located in two data centers."
 ---
 
-# Disaster Recovery (Planning Tool)
+# Disaster Recovery planning tool
  
 Skype for Business Server 2015 includes disaster recovery measures by enabling you to pair Front End pools located in two data centers.
   
