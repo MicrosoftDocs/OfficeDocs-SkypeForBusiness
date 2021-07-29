@@ -31,7 +31,7 @@ After configuring the computer that will act as a watcher node, you must:
 
 Test accounts do not need to represent actual people, but they must be valid Active Directory accounts. In addition, these accounts must be enabled for Skype for Business Server, they must have valid SIP addresses, and they should be enabled for Enterprise Voice (to use the Test-CsPstnPeerToPeerCall synthetic transaction). 
   
-If you are using the TrustedServer authentication method, all you need to do is to make sure that these accounts exist and configure them as noted. You should assign at least two test users for each pool that you want to test. If you are using the Negotiate authentication method, you must also use the Set-CsTestUserCredential cmdlet and the Skype for Business Server Management Shell to enable these test accounts to work with the synthetic transactions. Do this by running a command similar to the following (these commands assume that the two Active Directory user accounts have been created and that these accounts are enabled for Skype for Business Server):
+If you are using the TrustedServer authentication method, all you need to do is to make sure that these accounts exist and configure them as noted. Assign at least two test users for each pool that you want to test. If you are using the Negotiate authentication method, you must also use the Set-CsTestUserCredential cmdlet and the Skype for Business Server Management Shell to enable these test accounts to work with the synthetic transactions. Do this by running a command similar to the following (these commands assume that the two Active Directory user accounts have been created and that these accounts are enabled for Skype for Business Server):
   
 ```PowerShell
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
@@ -47,7 +47,7 @@ Get-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com"
 Get-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com"
 ```
 
-Information similar to this will be returned for each user:
+Information similar to the following will be returned for each user:
   
 |**UserName**|**Password**|
 |:-----|:-----|
@@ -55,7 +55,7 @@ Information similar to this will be returned for each user:
    
 ### Configure a Basic Watcher Node with the Default Synthetic Transactions
 
-After the test users have been created, you can create a watcher node by using a command similar to this:
+After the test users have been created, you can create a watcher node by using a command similar to this one:
   
 ```PowerShell
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"}
@@ -269,7 +269,7 @@ Most synthetic transactions can run on a watcher node as-is. In most cases, as s
 
 If your watcher node computer is located outside your perimeter network, you will probably not be able to run the Data Conferencing Synthetic Transaction unless you first disable the Windows Internet Explorer® Internet browser proxy settings for the Network Service account by completing the following steps:
   
-1. On the watcher node computer, click **Start**, click **All Programs**, click **Accessories**, right click **Command Prompt**, and then click **Run as administrator**.
+1. On the watcher node computer, click **Start**, click **All Programs**, click **Accessories**, right-click **Command Prompt**, and then click **Run as administrator**.
     
 2. In the console window, type the following command and then press ENTER. 
     
@@ -308,7 +308,7 @@ $cred2 = Get-Credential "contoso\testUser2"
 Test-CsPersistentChatMessage -TargetFqdn pool0.contoso.com -SenderSipAddress sip:testUser1@contoso.com -SenderCredential $cred1 -ReceiverSipAddress sip:testUser2@contoso.com -ReceiverCredential $cred2 -TestUser1SipAddress sip:testUser1@contoso.com -TestUser2SipAddress sip:testUser2@contoso.com -Setup $true
 ```
 
-You must run this setup task must be run from inside the enterprise:
+Run this setup task must from inside the enterprise:
   
 - If run from a non-server machine, the user who executes the cmdlet must be a member of the CsPersistentChatAdministrators role for Role-Based Access Control (RBAC).
     
@@ -344,7 +344,7 @@ After these conditions are met, you can run the following Windows PowerShell cmd
 Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:testUser1@contoso.com -RegistrarPort 5061 -Authentication TrustedServer -Setup
 ```
 
-It may take some time for the test user contact lists to migrate to Exchange. To monitor the migration progress, the same command-line can be run without the -Setup flag:
+It may take some time for the test user contact lists to migrate to Exchange. To monitor the migration progress, the same command line can be run without the -Setup flag:
   
 ```PowerShell
 Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:testUser1@contoso.com -RegistrarPort 5061 -Authentication TrustedServer
@@ -365,7 +365,7 @@ Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"
 In this example, a Skype for Business Server rule will need to exist to route messages for litwareinc.com to an XMPP gateway.
 
 > [!NOTE]
-> XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019. See [Migrating XMPP federation](../../../SfBServer2019/migration/migrating-xmpp-federation.md) for more information. 
+> XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019. For more information, see [Migrating XMPP federation](../../../SfBServer2019/migration/migrating-xmpp-federation.md).
   
 ### Video Interop Server (VIS) Synthetic Transaction
 
@@ -373,7 +373,7 @@ The Video Interop Server (VIS) synthetic transaction requires that you download 
   
 To install VISSTSupportPackage.msi ensure the dependencies (under System Requirements) for the msi are already installed. Run VISSTSupportPackage.msi to do a simple installation. The .msi installs all the files in the following path: "%ProgramFiles%\VIS Synthetic Transaction Support Package".
   
-For more details on how to run the VIS Synthetic Transaction refer to the documentation for the [Test-CsP2PVideoInteropServerSipTrunkAV](/powershell/module/skype/Test-CsP2PVideoInteropServerSipTrunkAV) cmdlet.
+For more informatin about how to run the VIS Synthetic Transaction refer to the documentation for the [Test-CsP2PVideoInteropServerSipTrunkAV](/powershell/module/skype/Test-CsP2PVideoInteropServerSipTrunkAV) cmdlet.
   
 ## Changing the Run Frequency for Synthetic Transactions
 <a name="special_synthetictrans"> </a>
@@ -388,7 +388,7 @@ To change the frequency at which synthetic transactions run, follow these steps:
     
 2. In the Rules section, find the rule with the name "Main Synthetic Transaction Runner Performance Collection Rule".
     
-3. Right click the rule, and select Overrides, select Override the Rule, and then select "For All objects of class: Pool Watcher".
+3. Right-click the rule, and select Overrides, select Override the Rule, and then select "For All objects of class: Pool Watcher".
     
 4. In the Override Properties window, select Parameter Name "Frequency", and set the Override Value to the desired one.
     
@@ -397,7 +397,7 @@ To change the frequency at which synthetic transactions run, follow these steps:
 ## Using Rich Logging for Synthetic Transactions
 <a name="special_synthetictrans"> </a>
 
-Synthetic transactions prove extremely useful in helping to identify issues with the system. For example, the Test-CsRegistration cmdlet could alert administrators to the fact that users were having difficulty registering with Skype for Business Server. However, additional details may be needed to determine the actual cause of a failure.
+Synthetic transactions are very useful in helping to identify issues with the system. For example, the Test-CsRegistration cmdlet could alert administrators to the fact that users were having difficulty registering with Skype for Business Server. However, more details may be needed to determine the actual cause of a failure.
   
 For this reason, synthetic transactions provide rich logging. With rich logging, for each activity that a synthetic transaction undertakes, the following information is recorded:
   
