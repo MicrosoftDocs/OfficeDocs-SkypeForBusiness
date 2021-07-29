@@ -73,7 +73,7 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 ### 4.9.12.0 (7/28/2021)
 
 Introduced in this update:
-- Microsoft Teams only mode is now available in application settings, so you don’t need to setup Skype for Business account anymore. In this mode, Skype for Business meetings are joined as a guest user.
+- Microsoft Teams only mode is now available in application settings, so you don't need to set up a Skype for Business account anymore. In this mode, devices signed in to Teams only mode join Skype for Business meetings as a guest user.
 - Fix for HDMI audio causing lower call volume. HDMI audio feature is automatically enabled for all devices with application build 4.9.12.0.
 
 > [!NOTE]
