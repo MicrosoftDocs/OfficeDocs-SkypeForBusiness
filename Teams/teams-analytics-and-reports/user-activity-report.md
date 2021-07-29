@@ -37,7 +37,7 @@ You must be a Teams service admin to make these changes. See [Use Teams administ
 
 ## Interpret the report
 
-|Callout |Description  |
+| Callout |Description  |
 |--------|-------------|
 |**1**   |The Teams user activity report can be viewed for trends over the last 7 days, 30 or 90 days. |
 |**2**   |Each report has a date for when this report was generated. The reports usually reflect a 24-hour latency from time of activity. |
