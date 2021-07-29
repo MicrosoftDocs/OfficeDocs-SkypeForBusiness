@@ -13,7 +13,7 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
-description: "Summary: Configure test user accounts and watcher node settings for Skype for Business Server synthetic transactions."
+description: "How to configure test user accounts and watcher node settings for Skype for Business Server synthetic transactions."
 ---
 
 # How to configure watcher node test users and settings
