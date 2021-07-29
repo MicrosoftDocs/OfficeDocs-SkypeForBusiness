@@ -25,8 +25,6 @@ We recommend for users to remain signed in to the Microsoft Teams app to continu
 
 To sign out of Teams desktop client or from the browser, users can select their profile picture at the top of the app, and then select **Sign out**.
 
-<img src="c:\Users\v-cichur\GitHub\OfficeDocs-SkypeForBusiness-pr\Teams/media/image1.png" style="width:2.15329in;height:2.8426in" alt="Teams sign out screen" />
-
 For the desktop app, right-click the app icon in the taskbar, and then select **Log out**.
 
 | **Windows Taskbar**                                                                                                                   | **Windows Systray**                                                                                                                   | **Mac Dock**                                                                                                                                                                                                                |
@@ -137,41 +135,3 @@ Before you follow these steps, make sure that you don’t have Teams running (Qu
 </tbody>
 </table>
 
-APPENDIX – PLEASE IGNORE ANYTHING BELOW HERE
-
-**Signing out from another device**
-
-If a user has lost physical access to a device, either temporarily or permanently, they can use another device in their possession to sign out of the Teams client.
-
-**Work or school account**
-
-|     |
-|-----|
-|     |
-
-**Personal account**
-
-|     |
-|-----|
-|     |
-
-**IT admin managed re-authentications**
-
-Microsoft Identity also provides IT admins a set of tools that they can use to manage user sessions, including setting an expiry or revoking a token, which will require the end user to re-authenticate to the Teams client. Here’s a list of the most common tools:
-
--   Configurable token lifetime?
-
-> IT admins can configure the lifetime (validity) of an access, ID or SAML token issued by Microsoft Identity platform for work or school accounts.  
-> [Learn more about configurable token lifetimes](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-configurable-token-lifetimes).
-
--   Token Revocation V2?
-
--   Continuous Access Evaluation (CAE)?
-
-**Signing out from embedded apps**
-
--   LMS
-
--   OWA
-
--   ??
