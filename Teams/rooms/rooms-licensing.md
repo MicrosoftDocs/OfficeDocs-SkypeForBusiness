@@ -30,7 +30,7 @@ description: Learn about the available licenses for different types of calling a
 
 Microsoft has two dedicated SKUs for licensing meetings and calling on a per-device basis for meeting room devices (such as Microsoft Teams Rooms, Microsoft Surface Hub, and collaboration bars for Microsoft Teams).
 
-||Microsoft Teams Rooms Standard |Microsoft Teams Rooms Premium |
+|&nbsp;|Microsoft Teams Rooms Standard |Microsoft Teams Rooms Premium |
 |:--- |:---: |:---: |
 |Skype for Business |&#x2714;| &#x2714;|
 |Microsoft Teams|  &#x2714;|  &#x2714;|
@@ -59,7 +59,7 @@ The following table lists the features that are available in Microsoft Teams Roo
 > [!NOTE]
 > The room that is being set up needs to be a user object and have these licenses assigned to it.
 
-|  | You have Microsoft Teams or Skype for Business Online <br/> Here's what you need to buy:   |You have Skype for Business Server 2015/2019 (on-premises or hybrid). <br/> Here's what you need to buy:|
+| &nbsp; | You have Microsoft Teams or Skype for Business Online <br/> Here's what you need to buy:   |You have Skype for Business Server 2015/2019 (on-premises or hybrid). <br/> Here's what you need to buy:|
 |:-----|:-----|:-----|
 |Join a scheduled meeting  | Microsoft Teams Rooms Standard or Premium  |Skype for Business Server Standard CAL  |
 |Initiate an ad hoc meeting | Microsoft Teams Rooms Standard or Premium  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|
