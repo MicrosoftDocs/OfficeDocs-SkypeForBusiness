@@ -217,8 +217,6 @@ items:
               href: /SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud
             - name: Move users from on-premises to Teams
               href: /SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams
-            - name: Move users from on premises to Skype for Business Online
-              href: /SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online
             - name: Move users from the cloud to on premises
               href: /SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises
             - name: Manage meeting migration
