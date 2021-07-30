@@ -40,7 +40,7 @@ Available on Teams apps on Win, Mac, Linux, iOS, Android.
 
 ## Settings management
 
-Live components are built with Microsoft Fluid Framework supported across M365 suite and controlled from SharePoint Online and not from the Teams admin center.
+Live components are built with Microsoft Fluid Framework supported across Microsoft 365 suite and controlled from SharePoint Online and not from the Teams admin center.
 
 You'll need the latest version of [SharePoint Online PowerShell module](/office365/enterprise/powershell/manage-sharepoint-online-with-office-365-powershell) to enable or disable all Fluid Experiences across your Office 365 tenant. Microsoft Fluid Framework defaults to **ON** for all targeted release tenants. Because live components are designed for collaboration, the components are always shared as editable by others, even if your tenant is set to default to view-only for other file types. See the **Learn more** link next to the setting for more details.
 
