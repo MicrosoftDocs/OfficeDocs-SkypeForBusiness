@@ -68,10 +68,6 @@ When you use a supported version of Windows 10, you will always get the latest a
 > 
 > The devices with compatiablity issues are:
 > 
-> - HP Elite Slice
-> - HP Elite Slice G2 MS SRS Audio Ready
-> - HP Elite Slice MS SRS Partner Ready
-> - HP Elite Slice G2 with MS MTR
 > - Crestron UC-Engine (BIOS version/date contains "KYSKLI" - indicating a Skull Canyon BIOS) 
 
 ## Related topics
