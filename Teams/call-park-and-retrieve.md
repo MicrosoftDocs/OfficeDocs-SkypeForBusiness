@@ -48,7 +48,7 @@ To enable a call park policy
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Call park policies**.
 2. On the **Manage policies** tab, click **Add**.
-3. Give the policy a name, and then switch **Allow call park** to **On**.
+3. Give the policy a name, and then switch **Allow call park** to **On**. (Some settings are currently unavailable to be customized because call park doesn't support custom pickup ranges yet).
 
     ![Screenshot of call park policy settings](media/call-park-add-policy.png)
 
