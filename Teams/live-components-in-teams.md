@@ -32,9 +32,9 @@ Live components in Teams chat offer a new way to ideate, create, and make decisi
 
 ## Clients and platforms
 
-Available on Teams apps on Win, Mac, Linux, iOS, Android.
+Available on Teams apps on Windows, Mac, Linux, iOS, and Android.
 
-Starting in Early September, fluid chat will be available in WWMT/global. In late September it will be available for GCC-Mod
+Starting in Early September, live components will be available globally. In late September, it will be available for Government Community Cloud Mod (GCC)
 
 ## Settings management
 
@@ -42,7 +42,7 @@ Live components are built with Microsoft Fluid Framework supported across Micros
 
 You'll need the latest version of [SharePoint Online PowerShell module](/office365/enterprise/powershell/manage-sharepoint-online-with-office-365-powershell) to enable or disable all Fluid Experiences across your Office 365 tenant. Microsoft Fluid Framework defaults to **ON** for all targeted release tenants. Because live components are designed for collaboration, the components are always shared as editable by others, even if your tenant is set to default to view-only for other file types. See the **Learn more** link next to the setting for more details.
 
-Checking if the Fluid Framework is enabled through the SharePoint Online PowerShell Cmdlet.
+### Checking if the Fluid Framework is enabled through the SharePoint Online PowerShell Cmdlet.
 
 1. [Connect to SharePoint Online PowerShell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps#to-connect-with-a-user-name-and-password). 
 
@@ -50,7 +50,7 @@ Checking if the Fluid Framework is enabled through the SharePoint Online PowerSh
 
 3. Verify the value of IsFluidEnabled is**true**.
 
-Enabling the Fluid Framework through the SharePoint Online PowerShell Cmdlet. 
+### Enabling the Fluid Framework through the SharePoint Online PowerShell Cmdlet. 
 
 1. [Connect to SharePoint Online PowerShell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps#to-connect-with-a-user-name-and-password). 
 
@@ -60,7 +60,7 @@ Enabling the Fluid Framework through the SharePoint Online PowerShell Cmdlet. 
 
 The feature will be available on Teams Windows Desktop, Mac, iOS, Android. When enabled, users will see a new option for inserting live components in the message compose experience for these clients
 
-Disable Fluid Framework through SharePoint Online PowerShell Cmdlet. 
+### Disabling Fluid Framework through SharePoint Online PowerShell Cmdlet. 
 
 1. [Connect to SharePoint Online PowerShell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
 
