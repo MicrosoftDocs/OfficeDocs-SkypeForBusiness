@@ -9,7 +9,7 @@ audience: ITPro
 ms.service: msteams
 search.appverid: MET150 
 ms.reviewer: 
-description: Outlines the potential uses and benefits of Teams Rooms systems and devices in various spaces and setups for educators.
+description: Describes the support for Teams apps/LOB apps.
 ms.collection: 
   - M365-voice
   - M365-collaboration
