@@ -59,7 +59,7 @@ The following table provides a helpful quick reference to feature availability b
 
 <sup>6</sup> Only contacts in default contacts folder. Access to other contacts folders or sub-folders is not supported.
 
-<sup>7</sup> Teams honors the [Outlook on the web mailbox policy](/powershell/module/exchange/client-access/set-owamailboxpolicy) setting that's configured by tenant admins to control whether users can change their profile picture. If the **-SetPhotoEnabled** setting is turned off in the policy, users cannot add, change, or remove their profile picture, so the porfile picture wont be synced to teams if the admin changes the photo.
+<sup>7</sup> Teams honors the [Outlook on the web mailbox policy](/powershell/module/exchange/client-access/set-owamailboxpolicy) setting that's configured by tenant admins to control whether users can change their profile picture. If the **-SetPhotoEnabled** setting is turned off in the policy, users cannot add, change, or remove their profile picture, so the profile picture wont be synced to teams if the admin changes the photo.
 
 <sup>8</sup> You need to meet the requirements listed in the [Requirements to create and view meetings for mailboxes hosted on-premises](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) section.
 
