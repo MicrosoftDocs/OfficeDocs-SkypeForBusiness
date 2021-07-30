@@ -26,17 +26,15 @@ Live components in Teams chat offer a new way to ideate, create, and make decisi
 
 **Get tasks done faster together.** Crowd-source an agenda, track a group's action items, or take notes collectively. These are just a few scenarios made easier with live components.
 
-**Share components.** In this release, you can share live components into different Teams chats. Recipients can edit from wherever they are and see updates instantly no matter where the changes were made. In future releases, live components will be supported in Teams meeting notes and channels, Outlook, and eventually across all M365 applications.
+**Share components.** In this release, you can share live components into different Teams chats. Recipients can edit from wherever they are and see updates instantly no matter where the changes were made. In future releases, live components will be supported in Teams meeting notes and channels, Outlook, and eventually across all Microsoft 365 applications.
 
 **Start in chat, build from there.** Every component you create from Teams chat is automatically saved to a file in OneDrive. So, you might begin collaborating in chat then later move to the file, where you have a larger visual space for editing and can add as many components as you like.
 
 ## Clients and platforms
 
-- Early September: Available in WWMT/global
-
-- Late September: GCC-Mod
-
 Available on Teams apps on Win, Mac, Linux, iOS, Android.
+
+Starting in Early September, fluid chat will be available in WWMT/global. In late September it will be available for GCC-Mod
 
 ## Settings management
 
