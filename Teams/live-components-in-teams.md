@@ -1,5 +1,5 @@
 ---
-title: Use Fluid Framework for Teams chat
+title: Manage live components in Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
-description: Learn how to use the Fluid Framework in Teams chat.
+description: Learn how to Manage live components in Teams.
 f1.keywords:
 - CSH
 ms.custom: 
@@ -20,7 +20,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Set Fluid Experiences in Teams Chat
+# Manage live components in Teams
 
 Live components in Teams chat offer a new way to ideate, create, and make decisions together. Send a component—like a table, task list, or paragraph—that everyone in your chat can edit inline and see changes as they’re made. This means you can gather ideas and feedback from your team while holding fewer meetings and minimizing the need for long chat threads.
 
@@ -42,7 +42,7 @@ Live components are built with Microsoft Fluid Framework supported across Micros
 
 You'll need the latest version of [SharePoint Online PowerShell module](/office365/enterprise/powershell/manage-sharepoint-online-with-office-365-powershell) to enable or disable all Fluid Experiences across your Office 365 tenant. Microsoft Fluid Framework defaults to **ON** for all targeted release tenants. Because live components are designed for collaboration, the components are always shared as editable by others, even if your tenant is set to default to view-only for other file types. See the **Learn more** link next to the setting for more details.
 
-Check if Fluid Framework is enabled through SharePoint Online PowerShell Cmdlet.
+Checking if the Fluid Framework is enabled through the SharePoint Online PowerShell Cmdlet.
 
 1. [Connect to SharePoint Online PowerShell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps#to-connect-with-a-user-name-and-password). 
 
@@ -50,7 +50,7 @@ Check if Fluid Framework is enabled through SharePoint Online PowerShell Cmdlet.
 
 3. Verify the value of IsFluidEnabled is**true**.
 
-Enable th Fluid Framework through SharePoint Online PowerShell Cmdlet. 
+Enabling the Fluid Framework through the SharePoint Online PowerShell Cmdlet. 
 
 1. [Connect to SharePoint Online PowerShell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps#to-connect-with-a-user-name-and-password). 
 
