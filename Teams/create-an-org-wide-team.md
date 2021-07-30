@@ -19,15 +19,15 @@ appliesto:
 ms.custom: seo-marvel-apr2020
 ---
 
-# Create an org-wide team in Microsoft Teams
+# Create an organization-wide team in Microsoft Teams
 
-Org-wide teams provide an automatic way for everyone in a small-to-medium-sized organization to be a part of a single team for collaboration.
+Organization-wide teams provide an automatic way for everyone in a small-to-medium-sized organization to be part of a single and collaborative team.
 
 With org-wide teams, global admins can easily create a public team that has the following characteristics:
 - Pulls in every user in the organization 
 - Keeps the membership up to date with Active Directory as users join and leave the organization.
 
- Only global admins can create org-wide teams; currently, an org-wide team is limited to organizations with no more than 10,000 users. There's also a limit of five org-wide teams per tenant. If these requirements are met, global admins will see **Org-wide** as an option when they select **Build a team from scratch** when creating a team. 
+Only global admins can create org-wide teams. Currently, an org-wide team is limited to organizations with no more than 10,000 users. There's also a limit of five org-wide teams per tenant. When creating a team, if these requirements are met, global admins will see **Org-wide** as an option when they select **Build a team from scratch**. 
 
 ![Screenshot of the Org-wide option to create an org-wide team](media/create-org-wide-team.png "Screen shot of the Org-wide option to create an org-wide team")
 
@@ -51,15 +51,21 @@ As your organization's directory is updated to include new active users or to di
 
 ## Best practices
 
-To get the most out of your org-wide team, we recommend team owners do the following tasks:
+To get the most out of your org-wide team, we recommend that team owners do the following tasks:
 
 ### Allow only team owners to post to the General channel
 
-Reduce channel noise by having only team owners post to the General channel. Go to the team, locate the General channel, and then select **˙˙˙ More options** > **Manage channel**. On the **Channel settings** tab, click **Permissions**, and then select **Only owners can post messages**.
+Reduce channel noise by having only team owners post to the General channel. 
+
+1. Go to the team, locate the General channel, and then select **˙˙˙ More options** > **Manage channel**. 
+2. On the **Channel settings** tab, click **Permissions**, and then select **Only owners can post messages**.
 
 ### Turn off @team and @[team name] mentions
 
- Reduce @mentions to keep them from overloading the entire organization. Go to the team and click **˙˙˙ More options** > **Manage Team**. On the **Settings** tab, click <strong>@mentions</strong> > turn off **Show members the option to @team or @[team name]**. 
+Reduce @mentions to keep them from overloading the entire organization. 
+
+1. Go to the team and click **˙˙˙ More options** > **Manage Team**. 
+2. On the **Settings** tab, click <strong>@mentions</strong> > turn off **Show members the option to @team or @[team name]**. 
 
 ### Automatically show important channels
 
@@ -67,7 +73,14 @@ Show important channels to ensure everyone in your organization engages in speci
 
 ### Set up channel moderation
 
-Consider setting up channel moderation and giving moderator capabilities to certain team members. (When moderation is set up, team owners are given moderator capabilities automatically.) Moderators can control who can start a new post in a channel, add and remove moderators, control whether team members can reply to existing channel messages, and control whether bots and connectors can submit channel messages. For more information, see [Set up and manage channel moderation in Microsoft Teams](manage-channel-moderation-in-teams.md).
+Consider setting up channel moderation and giving moderator capabilities to certain team members. (When moderation is set up, team owners are given moderator capabilities automatically.) Moderators can:
+
+- Control who can start a new post in a channel
+- Add and remove moderators
+- Control whether team members can reply to existing channel messages
+- Control whether bots and connectors can submit channel messages.
+
+For more information, see [Set up and manage channel moderation in Microsoft Teams](manage-channel-moderation-in-teams.md).
 
 ### Remove accounts that might not belong
 
@@ -77,7 +90,9 @@ Even though members can't leave an org-wide team, as a team owner, you can manag
 
 ### Is there a way to create an org-wide team other than using the Teams client?
 
-Global admins only can create an org-wide team by using the Teams client. If your organization limits creating teams to using PowerShell, the recommended workaround is to add your global admins to the security group of users who can create a team. For more information, see [Manage who can create groups](/microsoft-365/admin/create-groups/manage-creation-of-groups).
+Global admins only can create an org-wide team by using the Teams client. If your organization limits creating teams to using PowerShell, the recommended workaround is to add your global admins to the security group of users who can create a team.
+
+For more information, see [Manage who can create groups](/microsoft-365/admin/create-groups/manage-creation-of-groups).
 
 If this workaround isn't an option, you can use PowerShell to create a public team and add a global admin as the team owner. Then, have the global admin click **More options** next to the team name, click **Edit team**, and then change the privacy to **Org-wide - Everyone in your organization will be automatically added**. 
 
