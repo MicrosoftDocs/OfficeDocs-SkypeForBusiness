@@ -132,7 +132,7 @@ See [Keeping students safe while using Teams for distance learning](https://supp
 
 ### Step 3: Check Message Center for policy updates
 
-Currently, the wizard applies our recommended policies when you run it. It's important to know that as new policies  become available in Teams, the Global (Org-wide default) settings for student safety are automatically updated by the wizard. 
+Currently, the wizard applies our recommended policies when you run it. It's important to know that as new policies become available in Teams, the Global (Org-wide default) settings for student safety are automatically updated by the wizard. 
 
 But do check the [Message Center](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) (in the Microsoft 365 admin center) frequently to stay up to date on new features and their policies and policy settings in Teams. 
 
