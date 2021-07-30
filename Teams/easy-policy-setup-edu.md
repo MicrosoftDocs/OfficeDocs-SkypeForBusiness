@@ -51,7 +51,7 @@ The wizard sets up policies based on educational institution type (**Primary or 
 
 You only need to run the wizard one time. New students automatically get the Global (Org-wide default) policy definitions applied by the wizard and new staff that you add to the group you selected are automatically assigned the custom policies.
 
-Also, whenever a new feature is added to Teams, the appropriate EDU relevant default value of the policy for that feature will be automatically added to Global (Org-wide default) without requiring any admin's intervention. This helps make sure the right policies are in place to keep students secure and engaged.
+Also, whenever a new feature is added to Teams, the appropriate EDU relevant default value of the policy for that feature will be automatically added to the Global (Org-wide default) without requiring any admin intervention. This helps to ensure that the right policies are in place to keep students secure and engaged.
 
 > [!NOTE]
 > See [Policies applied by the wizard](#policies-applied-by-the-wizard) for a detailed list of policy definitions applied by the wizard.
