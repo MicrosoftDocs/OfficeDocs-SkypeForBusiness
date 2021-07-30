@@ -697,8 +697,7 @@ You can download and easily import a sample task sequence and customize it to me
 
 12. Select **Close**.
 
-Validate and troubleshoot the solution
---------------------------------------
+**Validate and troubleshoot the solution**
 
 After you've completed the Microsoft Endpoint Configuration Manager task sequences, you'll need to perform a test run to validate that the task sequence can deploy and configure Microsoft Teams Rooms units.
 
