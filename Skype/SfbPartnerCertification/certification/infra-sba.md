@@ -22,7 +22,7 @@ description: "List of Survivable Branch Appliances that have been independently 
 ---
  
 # Survivable branch appliances (SBAs)
-The survivable branch appliances along with the relevant firmware shown in the table that follows have been independently qualified with Skype for Business Server. We recommend that you visit the vendor's web site for the latest information regarding protocol, capacity, country support and documentation including a quick start guide, release notes and any known issues.
+The survivable branch appliances along with the relevant firmware shown in the table that follows have been independently qualified with Skype for Business Server. We recommend you visit the vendor's web site for the latest information about protocol, capacity, country support and documentation, including a quick start guide, release notes, and any known issues.
 
 ## Qualified for Skype for Business Server 2015
 
@@ -76,6 +76,6 @@ The survivable branch appliances along with the relevant firmware shown in the t
 	</tr>
 </table>
 
-If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available progra
+If you're a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available program details.
 
 
