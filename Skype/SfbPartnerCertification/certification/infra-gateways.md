@@ -1,6 +1,6 @@
 ---
 title: "Skype for Business Certification Program - Gateways"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -21,7 +21,7 @@ ms.custom:
 description: "Information about certified gateways for Skype for Business."
 ---
 
-# Gateways
+# Skype for Business Certification Program - gateways
 Gateways along with the necessary firmware combinations that are certified for Skype for Business are listed in the table that follows. 
 
 We recommend that you visit the vendor's web site for the latest information regarding protocol, capacity, country support and documentation including a quick start guide, release notes and any known issues.

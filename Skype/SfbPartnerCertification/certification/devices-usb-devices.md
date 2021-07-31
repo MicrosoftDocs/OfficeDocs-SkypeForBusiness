@@ -1,6 +1,6 @@
 ---
 title: "Phones and Devices for Skype for Business and Lync"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand

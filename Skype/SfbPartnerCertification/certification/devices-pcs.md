@@ -1,6 +1,6 @@
 ---
 title: "Phones and Devices for Skype for Business - PCs"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand

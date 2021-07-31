@@ -1,6 +1,6 @@
 ---
-title: "Skype for Business Certification Program - Gateways"
-ms.author: dmaguire
+title: "Skype for Business Certification Program: Gateways"
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
