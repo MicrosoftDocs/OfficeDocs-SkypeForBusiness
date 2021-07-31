@@ -1,6 +1,6 @@
 ---
 title: "Skype for Business certification program - Network Pre-Assessment"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand

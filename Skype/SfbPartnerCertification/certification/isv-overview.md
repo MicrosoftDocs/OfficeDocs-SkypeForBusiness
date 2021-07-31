@@ -1,6 +1,6 @@
 ---
 title: "Skype for Business certification program - ISV"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -58,8 +58,9 @@ If you are a vendor seeking to join the certification program, see [How to Join]
 
 ## Solutions qualified for Skype for Business
 
-|Brand|Product Name	|Version Tested|
-|:--- |:--- |:--- |
+
+|Brand|Product Name|Version Tested|
+|---|---|---|
 |Actiance	|Vantage	|Compliance|
 |Active Communications	|ACS Lync appliance	||
 |Agat Software	|SphereShield Security and Compliance	|Compliance|
