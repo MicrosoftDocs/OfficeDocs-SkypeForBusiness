@@ -50,7 +50,9 @@ Currently, this *mobile browser join* experience is available for appointments t
 
 ### Appointments scheduled through the Bookings app
 
-In Bookings, you can set up appointment types and individual appointments to allow attendees to join from a mobile browser.
+In Bookings, you can turn on this feature for specific appointment types and individual appointments. 
+
+After you turn on the feature, attendees aren't prompted to download and install Teams when they join. The confirmation email or SMS text that’s sent to attendees will contain a meeting join link that opens Teams in a mobile browser. On Android devices, Teams opens in Chrome. On iOS devices, Teams opens in Safari. 
 
 #### Turn on mobile browser join for an appointment type
 
@@ -58,17 +60,16 @@ In Bookings, go to **Settings** > **Appointment types**, select an [appointment 
 
 :::image type="content" source="../media/mobile-browser-join-bookings-appointment-type.png" alt-text="Screenshot of the Allow attendees to join from a mobile browser setting for appointment types in the Bookings app":::
 
-After you turn on this setting, mobile browser join is enabled for all appointments of this type. Attendees aren't prompted to download and install Teams when they join. The confirmation email or SMS text that’s sent to attendees will contain a meeting join link that opens Teams in a mobile browser.
+After you do this, mobile browser join is enabled for all appointments of this type.
 
 #### Turn on mobile browser join for an individual appointment
 
 In Bookings, select **New booking**, and then turn on **Allow attendees to join from a mobile browser**.
-
 :::image type="content" source="../media/mobile-browser-join-bookings-form.png" alt-text="Screenshot of the Allow attendees to join from a mobile browser setting on the new booking form in the Bookings app":::
 
 ### Appointments scheduled through the Teams EHR connector
 
-No setup needed! You don't need to do anything for patients to join appointments scheduled through the Teams EHR connector on a mobile browser.
+No setup needed! You don't need to do anything for patients to join Teams EHR connector appointments on a mobile browser.
 
 The Teams EHR connector supports patients joining virtual visits through MyChart web and mobile. At the time of the appointment, patients can start a virtual visit from MyChart by using the **Begin virtual visit** button. The patient chooses the browser they want, and then Teams opens in that browser.
 
@@ -76,7 +77,7 @@ The Teams EHR connector supports patients joining virtual visits through MyChart
 
 Here are the mobile browsers that are currently supported. We support the latest version plus two previous versions, unless otherwise indicated.
 
-|Platform  |Google Chrome |Apple Safari |Microsoft Edge |
+|Platform  |Chrome |Safari |Edge (Chromium)|
 |---------|:---:|:---:|:---:|
 |Android   |   &#x2714;      |         |         |
 |iOS    |         |  &#x2714; &sup1;       |         |
