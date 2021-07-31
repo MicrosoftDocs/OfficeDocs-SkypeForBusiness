@@ -27,7 +27,7 @@ The Skype for Business ISV Certification program ensures that qualified business
 The certified ISV solutions are listed in our Skype for Business Certified Solutions Catalog. The ISV program for Skype for Business ISV certification accepts the following solution categories.
 
 ## Contact Centers
-Contact Center solution acts as a central point to let an enterprise manage all communications and customer contacts. To get certified for the Skype for Business ISV Program, contact centers have to successfully meet the interoperability requirements for Skype for Business and Skype for Business eco-System and Skype for Business eco-System interoperability requirements.
+Contact Center solution acts as a central point to let an enterprise manage all communications and customer contacts. To get certified for the Skype for Business ISV Program, contact centers have to meet the interoperability requirements for Skype for Business and Skype for Business eco-System and Skype for Business eco-System interoperability requirements.
 
 ### Contact Center requirements
 A Contact Center ISV seeking certification must meet all the Skype for Business functional requirements specified in the Contact Center test plan. 
@@ -53,7 +53,7 @@ A Call Recording & Compliance ISV seeking certification must meet all the Skype 
 ### Interoperability requirements for Call Recording & Compliance
 A Call Recording & Compliance ISV seeking certification must meet all the Skype for Business eco-system interoperability requirements of the ISV program specification document and the Call Recording & Compliance test plan.
 
-If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
+If you're a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 
 
 ## Solutions qualified for Skype for Business
