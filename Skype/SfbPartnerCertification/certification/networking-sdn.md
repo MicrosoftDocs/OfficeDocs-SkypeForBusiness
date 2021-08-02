@@ -1,5 +1,5 @@
 ---
-title: "Skype for Business software-defined networks"
+title: "Skype for Business - networking - wired"
 ms.author: serdars
 author: msdmaguire
 manager: serdars
@@ -15,10 +15,10 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-ms.custom:erprise voic
+ms.custom:
 - Skype for Business Certification
 - mt147899
-description: "Plan the optimal Skype for Business experience in a wired world."
+description: "Planning the optimal Skype for Business experience in a wired world."
 ---
 
 # SDN for Skype for Business 
