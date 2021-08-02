@@ -1,6 +1,6 @@
 ---
 title: "Skype for Business certification program - Reporting"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
