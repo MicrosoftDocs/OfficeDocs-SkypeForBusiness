@@ -27,7 +27,7 @@ The Skype for Business ISV Certification program ensures that qualified business
 The certified ISV solutions are listed in our Skype for Business Certified Solutions Catalog. The ISV program for Skype for Business ISV certification accepts the following solution categories.
 
 ## Contact Centers
-Contact Center solution acts as a central point to let an enterprise manage all communications and customer contacts. To get certified for the Skype for Business ISV Program, contact centers have to meet the interoperability requirements for Skype for Business and Skype for Business eco-System and Skype for Business eco-System interoperability requirements.
+Contact Center solution acts as a central point to let an enterprise manage all communications and customer contacts. To get certified for the Skype for Business ISV Program, contact centers have to meet the interoperability requirements for Skype for Business.
 
 ### Contact Center requirements
 A Contact Center ISV seeking certification must meet all the Skype for Business functional requirements specified in the Contact Center test plan. 
@@ -36,7 +36,7 @@ A Contact Center ISV seeking certification must meet all the Skype for Business 
 A Contact Center ISV seeking certification must meet all the Skype for Business Eco-System interoperability requirements of the ISV program specification document and the Contact Center test plan.
 
 ## Attendant Console
-Attendant Console solutions act as a central point in an enterprise for managing all attendant console applications. Attendant Console solutions must meet the Skype for Business and Skype for Business Eco-System interoperability requirements successfully to get certified for Skype for Business ISV program.
+Attendant Console solutions are a central point in an enterprise for managing all attendant console applications. Attendant Console solutions must meet the Skype for Business and Skype for Business Eco-System interoperability requirements successfully to get certified for Skype for Business ISV program.
 
 ### Attendant Console requirements
 An Attendant Console ISV that is seeking certification must meet all the Skype for Business functional requirements specified in the Attendant Console test plan.
@@ -45,7 +45,7 @@ An Attendant Console ISV that is seeking certification must meet all the Skype f
 An Attendant Console ISV seeking certification must meet all the Skype for Business Eco-System interoperability requirements of the ISV program specification document and the Attendant Console test plan.
 
 ## Call Recording & Compliance
-Call Recording & Compliance applications act as a central point in an enterprise for managing call recording and compliance. Call Recording & Compliance solutions must meet the Skype for Business and Skype for Business Eco-System interoperability requirements successfully to get certified for Skype for Business ISV program.
+Call Recording & Compliance applications are a central point in an enterprise for managing call recording and compliance. Call Recording & Compliance solutions must meet the Skype for Business and Skype for Business Eco-System interoperability requirements successfully to get certified for Skype for Business ISV program.
 
 ### Call Recording & Compliance requirements
 A Call Recording & Compliance ISV seeking certification must meet all the Skype for Business functional requirements specified in the Call Recording & Compliance test plan. 
