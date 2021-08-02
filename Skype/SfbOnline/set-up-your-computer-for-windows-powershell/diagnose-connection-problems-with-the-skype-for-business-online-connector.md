@@ -49,7 +49,7 @@ This topic provides information that will help you diagnose and resolve problems
 ## Import-Module error caused by Windows PowerShell execution policy
 <a name="BKMKPowerShellExecutionPolicy"> </a>
 
-The PowerShell execution policy helps to determine which configuration files can be loaded into the PowerShell console, and which scripts a user can run from that console. At a minimum, the Skype for Business Online Connector module can't be imported unless the execution policy has been set to RemoteSigned. If it hasn't, you'll get the following error message when you attempt to import the module:
+The PowerShell execution policy helps to determine which configuration files can be loaded into the PowerShell console, and which scripts a user can run from that console. At a minimum, you can't import the Skype for Business Online Connector module unless the execution policy has been set to RemoteSigned. If it hasn't, you'll get the following error message when you attempt to import the module:
   
 - **Error**: <em>Import-Module : File C:\\Program Files\\Common Files\\Microsoft Lync Server 2013\\Modules\\LyncOnlineConnector\\LyncOnlineConnectorStartup.psm1 cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at https://go.microsoft.com/fwlink/?LinkID=135170.</em>
 
@@ -86,7 +86,7 @@ There are typically three reasons why your connection attempt might fail with th
 
     If the service is running, you might be encountering problems with the network connection between your computer and the Microsoft Live ID Authentication Server. To check this, open Internet Explorer and navigate to [https://login.microsoftonline.com/.](https://login.microsoftonline.com/.) Try logging on to Microsoft 365 or Office 365 from there. If you can't, you're probably experiencing network connection issues.
   
-    Less commonly, it's possible that the Connection URI for Microsoft Live ID Authentication Server has been configured to the wrong value. If you've already determined that the Sign-In Assistant is running and that you're not experiencing network connectivity issues, this configuration might be the problem. In this case, contact Microsoft Support.
+    Less commonly, it's possible that the Connection URI for Microsoft Live ID Authentication Server has been configured to the wrong value. If you've already determined that the Sign-In Assistant is running and that you're not experiencing network issues, this configuration might be the problem. In this case, contact Microsoft Support.
   
 ## Failed to load Live ID module
 <a name="BKMKFailedLoad"> </a>
@@ -114,7 +114,7 @@ You cannot make a remote PowerShell connection toSkype for Business Online unles
 
 - **Error**: *New-PSSession : [admin.vdomain.com] Processing data from remote server admin.vdomain.com failed with the following error message: The user 'user@foo.com' does not have permission to manage this tenant. Permissions can be granted by assigning the user to the appropriate RBAC role. For more information, see the [Remote Troubleshooting](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting).*
 
-- **Resolution**: If you think that you are, or are supposed to be, a member of the Tenant Administrators group, you'll need to contact Microsoft Support.
+- **Resolution**: If you think that you are, or are supposed to be, a member of the Tenant Administrators group, contact Microsoft Support.
   
 ## Ability to connect to tenant has been disabled in Skype for Business Online
 <a name="BKMKAbilityConnect"> </a>
@@ -132,16 +132,16 @@ Each administrator is allowed a maximum of three simultaneous remote connections
 
 - **Error**: *New-PSSession : [admin\.vdomain.com] Connecting to remote server admin\.vdomain.com failed with the following error message : The WS-Management service cannot process the request. The maximum number of concurrent shells for this user has been exceeded. Close existing shells or raise the quota for this user. For more information, see the [Remote Troubleshooting](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting)*
 
-- **Resolution**: The only way to resolve this issue is to close one or more of the previous connections. When you're finished with a Skype for Business Online session, we recommend that you use the **Remove-PSSession** cmdlet to end the session. This will help you to prevent this issue.
+- **Resolution**: The only way to resolve this issue is to close one or more of the previous connections. When you're finished with a Skype for Business Online session, we recommend that you use the **Remove-PSSession** cmdlet to end the session. This action will help you prevent this issue.
   
 ## The maximum number of concurrent shells for this tenant in Skype for Business Online has been exceeded
 <a name="BKMKMaxNumberShellsTenant"> </a>
 
-Although each administrator is allowed to have as many as three simultaneous connections to a Skype for Business Online tenant, no single tenant is allowed to have more than 20 simultaneous connections. For example, six administrators might each have three open sessions. If a seventh administrator tries to open more than two connections (resulting in a total of 21 simultaneous connections), this attempt will fail, with the following error message:
+Although each administrator can have as many as three simultaneous connections to a Skype for Business Online tenant, no single tenant can have more than 20 simultaneous connections. For example, six administrators might each have three open sessions. If a seventh administrator tries to open more than two connections (resulting in a total of 21 simultaneous connections), this attempt will fail, with the following error message:
   
 - **Error**: *New-PSSession : [admin.vdomain.com] Connecting to remote server admin.vdomain.com failed with the following error message : The WS-Management service cannot process the request. The maximum number of concurrent shells for this tenant has been exceeded. Close existing shells or raise the quota for this tenant. For more information, see the [Remote Troubleshooting](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1*
 
-- **Resolution**: The only way to resolve this issue is to close one or more of the previous connections. When you're finished with a Skype for Business Online session, we recommend that you use the **Remove-PSSession** cmdlet to terminate that session. This will help you to prevent this issue.  
+- **Resolution**: The only way to resolve this issue is to close one or more of the previous connections. When you're finished with a Skype for Business Online session, we recommend that you use the **Remove-PSSession** cmdlet to terminate that session. This will help you prevent this issue.  
  
 ## Related topics
 [Set up your computer for skype for business online management using Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
