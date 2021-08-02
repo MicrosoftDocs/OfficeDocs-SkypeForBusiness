@@ -1,4 +1,4 @@
-\---
+---
 title: "Skype for Business certified gateways"
 ms.author: serdars
 author: msdmaguire
