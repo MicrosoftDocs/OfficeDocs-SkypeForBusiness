@@ -25,6 +25,9 @@ appliesto:
 
 Teams panels is adding support for Teams apps/Line of Business (LOB) apps. This will enable enterprises to add additional experiences on the panels to meet your organization’s needs. This release supports static web content.
 
+> [!IMPORTANT]
+> This feature is only available after updating your Teams panels device(s). You need to have the Teams app version 1449/1.0.97.2021070601 or newer to have app support within Teams panels.
+
 ## Set up and manage Teams panels apps in Teams admin center 
 
 Microsoft Teams apps bring key information, common tools, and trusted processes to where people gather, learn, and work. Teams apps work [through integrated capabilities](https://docs.microsoft.com/microsoftteams/platform/concepts/capabilities-overview). Now, as an IT administrator, you have the choice of which apps to include in your organization’s Teams panels device and customize permissions via the Teams admin center.
