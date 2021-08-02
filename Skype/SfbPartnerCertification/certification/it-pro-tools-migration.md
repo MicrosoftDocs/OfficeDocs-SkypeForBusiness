@@ -1,6 +1,6 @@
 ---
 title: "Skype for Business certification program - Migration"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -18,16 +18,16 @@ f1.keywords:
 ms.custom:
 - Skype for Business Certification
 - dn947964
-description: "Skype for Business Server migration tools perform a variety of tasks including analyzing the data, highlighting mismatches or duplicates, that help clean up the data."
+description: "Skype for Business Server migration tools do various tasks. These jobs include analyzing the data and highlighting mismatches or duplicates, that help clean up the data."
 ---
 
 # Migration
 
-Skype for Business Server 2015-certified migration tools let system integrators reduce time, cost and complexity during the planning, analysis, and provisioning phase of a migration from 3rd party PBXs. 
+Skype for Business Server 2015-certified migration tools let system integrators reduce time, cost and complexity during the planning, analysis, and provisioning phase of a migration from third-party PBXs. 
 
 These migration tools automate the otherwise manual process of data collection from the customer IP-PBX and Active Directory, including user data and configuration settings.
 
-The Skype for Business Server migration tools perform a variety of tasks including analyzing the data, highlighting mismatches or duplicates, that help clean up the data. This allows the creation of migration groups that are based on various parameters, such as phone number range, hunt group memberships, and so on, which allows the migration of preferred user groups along with preferred settings to Skype for Business Server.
+The Skype for Business Server migration tools do various tasks. These jobs include analyzing the data, highlighting mismatches or duplicates, that help clean up the data. This functionality enables creation of migration groups based on various parameters, such as phone number range and hunt group memberships. This action enables migration of preferred user groups along with preferred settings to Skype for Business Server.
 
 
 
@@ -39,5 +39,5 @@ The Skype for Business Server migration tools perform a variety of tasks includi
 
 
 
-If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
+If you're a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 
