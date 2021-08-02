@@ -126,10 +126,11 @@ We are working on a solution that will let the user access and reset a PIN witho
 
 For meeting participants and organizers:
 
-| Command Name | Command Keys | Description                                                     |
-|--------------|--------------|-----------------------------------------------------------------|
-| Command menu | \*1          | Press \*1 to play the descriptions of dial-pad commands that are available. |
-| Mute/unmute  | \*6          | Press \*6 to mute or unmute themselves.                         |
+| Command Name    | Command Keys | Description                                                                 |
+|--------------   |--------------|-----------------------------------------------------------------------------|
+| Command menu    | \*1          | Press \*1 to play the descriptions of dial-pad commands that are available. |
+| Raise/lower hand| \*5          | Press \*5 to raise or lower hand.                                           |  
+| Mute/unmute     | \*6          | Press \*6 to mute or unmute themselves.                                     |
 
 For meeting organizers only:
 
