@@ -1,5 +1,5 @@
 ---
-title: Skype for Business software defined networks
+title: "Skype for Business software-defined networks"
 ms.author: serdars
 author: msdmaguire
 manager: serdars
