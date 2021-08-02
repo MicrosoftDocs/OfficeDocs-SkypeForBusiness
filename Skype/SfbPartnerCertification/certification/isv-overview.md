@@ -33,7 +33,7 @@ Contact Center solution acts as a central point to let an enterprise manage all 
 A Contact Center ISV seeking certification must meet all the Skype for Business functional requirements specified in the Contact Center test plan. 
 
 ### Interoperability requirements for Contact Centers
-A Contact Center ISV seeking certification must meet all the Skype for Business Eco-System interoperability requirements ofthe ISV program specification document and the Contact Center test plan.
+A Contact Center ISV seeking certification must meet all the Skype for Business Eco-System interoperability requirements of the ISV program specification document and the Contact Center test plan.
 
 ## Attendant Console
 Attendant Console solutions act as a central point in an enterprise for managing all attendant console applications. Attendant Console solutions must meet the Skype for Business and Skype for Business Eco-System interoperability requirements successfully to get certified for Skype for Business ISV program.
