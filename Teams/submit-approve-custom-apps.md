@@ -45,7 +45,7 @@ The Microsoft Teams developer platform makes it easy for developers to integrate
 
 ### Submit the app
 
-When the app is ready for use in production, the developer can submit the app using the Teams App Submission API, which can be called from [Graph API](/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog), an integrated development environment (IDE) such as Visual Studio Code, or a platform such as Power Apps and Power Virtual Agents. Doing this makes the app available on the [Manage apps](/microsoftteams/manage-apps) page of the Microsoft Teams admin center, where you, the admin, can review and approve it.
+When the app is ready for use in production, the developer can submit the app using the Teams App Submission API, which can be called from [Graph API](/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog), an integrated development environment (IDE) such as Visual Studio Code, or a platform such as Power Apps and Power Virtual Agents. Doing this makes the app available on the [Manage apps](/microsoftteams/manage-apps) page of the Microsoft Teams admin center, where you can review and approve it.
 
 The Teams App Submission API, [built on Microsoft Graph](/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog), allows your organization to develop on the platform of your choice and automates the submission-to-approval process for custom apps on Teams.
 
@@ -139,7 +139,7 @@ Keep in mind the following:
 - When an app is approved, any one can submit an update to the app. This means other developers, including the developer who originally submitted the app, can submit an update to the app.
 - When a developer submits an app and the request is pending, only that same developer can submit an update to the app. Other developers can submit an update only after the app is approved.
 
-For more information about using the Graph API to update apps, see <a href="/graph/api/teamsapp-update?view=graph-rest-beta#example-2-update-a-previously-reviewed-and-published-application-to-the-teams-app-catalog" target="_blank">here</a>.
+For more information about using the Graph API to update apps, see <a href="/graph/api/teamsapp-update">here</a>.
 
 ## Related topics
 
