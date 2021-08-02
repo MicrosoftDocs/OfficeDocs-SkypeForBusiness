@@ -76,6 +76,13 @@ If you're a manufacturer and want to join the certification program, see [How to
 |EPOS/Sennheiser      |ADAPT 160T ANC                                             |6/24/2021       |Certified for Microsoft Teams                           |
 |Dell                 |Ultrasharp Webcam WB7022                                   |6/16/2021       |Certified for Microsoft Teams                           |
 |NEC                  |WD551 Windows Collaboration Display                        |5/21/2021       |Certified for Microsoft Teams                           |
+|Poly                 |EncorePro 520 and DA85-M                                   |4/26/2021       |Certified for Microsoft Teams                           |
+|Poly                 |EncorePro 510 and DA85-M                                   |4/26/2021       |Certified for Microsoft Teams                           |
+|Poly                 |EncorePro 525-M                                            |4/26/2021       |Certified for Microsoft Teams                           |
+|Poly                 |EncorePro 515-M                                            |4/26/2021       |Certified for Microsoft Teams                           |
+|Dell                 |WL7022 Premier Wireless ANC Headset                        |4/22/2021       |Certified for Microsoft Teams                           |
+|Dell                 |WL5022 Pro Wireless Headset                                |4/22/2021       |Certified for Microsoft Teams                           |
+|Dell                 |WH3022 Pro Wired Headset                                   |4/22/2021       |Certified for Microsoft Teams                           |
 |Logitech             |C920e Webcam                                               |4/22/2021       |Certified for Microsoft Teams                           |
 |Poly                 |Studio P5 Webcam                                           |4/22/2021       |Certified for Microsoft Teams                           |
 |Jabra                |Biz 2400 II                                                |4/22/2021       |Skype for Business with upgrade to Microsoft Teams      |

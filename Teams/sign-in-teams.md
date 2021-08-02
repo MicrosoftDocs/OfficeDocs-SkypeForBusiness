@@ -19,8 +19,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-Sign in to Microsoft Teams
-==========================
+# Sign in to Microsoft Teams
 
 ## Windows users
 

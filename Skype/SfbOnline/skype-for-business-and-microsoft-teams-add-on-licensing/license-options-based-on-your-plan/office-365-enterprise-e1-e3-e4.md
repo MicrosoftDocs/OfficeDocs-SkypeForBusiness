@@ -29,17 +29,18 @@ description: "Learn about add-on licenses, features, and how to buy for Office 3
 
 If you have already purchased the [Office 365 Enterprise E1](https://products.office.com/business/office-365-enterprise-e1-business-software), [E3](https://products.office.com/business/office-365-enterprise-e3-business-software), or E4 plan, here are the add-on licenses you need to buy to get more Skype for Business features.
 
-|||
+| To add this feature | Here's what you need to buy |
 |:-----|:-----|
-|**To add this feature** <br/> |**Here's what you need to buy** <br/> |
-|**Audio Conferencing** <br/> Buy 1 **Audio Conferencing** license for each person who is going to schedule or host a dial-in meeting. Attendees do not need licenses. <br/> |**Audio Conferencing** add-on <br/>Once you buy the license, Microsoft will be your audio conferencing provider. |
-|**Toll-free numbers for dial-in access to your meetings, and the ability to dial out from a meeting to add someone by calling any telephone number in the world** <br/> |[Communications Credits](/microsoftteams/add-funds-and-manage-communications-credits)|
-|**Phone System** <br/> |1. **Office 365 Phone System** add-on <br/> 2. Calling Plans: buy a [Calling Plan](/MicrosoftTeams/calling-plans-for-office-365) from Office 365. <br/>  Or, use the [telephone service from your existing provider](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
-|**Cloud Voicemail** <br/> |For E1 and E4 plans, buy Exchange Online Plan 2. <br/>Or, switch to an Office Suite that comes with Exchange Online Plan 2, such as Office 365 E3. |
-|**Calling Plans** <br/> |1. **Phone System** add-on <br/> 2. [Calling Plan](/MicrosoftTeams/calling-plans-for-office-365): you can only buy this after you buy the **Phone System** add-on. <br/> |
+|**Audio Conferencing** <br/> Buy 1 **Audio Conferencing** license for each person who is going to schedule or host a dial-in meeting. Attendees do not need licenses. |**Audio Conferencing** add-on <br/>Once you buy the license, Microsoft will be your audio conferencing provider. |
+|**Toll-free numbers for dial-in access to your meetings, and the ability to dial out from a meeting to add someone by calling any telephone number in the world** |[Communications Credits](/microsoftteams/add-funds-and-manage-communications-credits)|
+|**Phone System** |1. **Office 365 Phone System** add-on <br/> 2. Calling Plans: buy a [Calling Plan](/MicrosoftTeams/calling-plans-for-office-365) from Office 365. <br/>  Or, use the [telephone service from your existing provider](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  |
+|**Cloud Voicemail**<sup>1</sup> |For E1 and E4 plans, buy Exchange Online Plan 2. <br/>Or, switch to an Office Suite that comes with Exchange Online Plan 2, such as Office 365 E3. |
+|**Calling Plans** |1. **Phone System** add-on <br/> 2. [Calling Plan](/MicrosoftTeams/calling-plans-for-office-365): you can only buy this after you buy the **Phone System** add-on. |
+
+<sup>1</sup> For on-premises users. For more information, see [Plan Cloud Voicemail service for on-premises users](/skypeforbusiness/hybrid/plan-cloud-voicemail).
    
- > [!IMPORTANT]
- > Office 365 E4 licenses have been officially retired. Please see [Important information for Office 365 Enterprise E4 customers](https://support.office.com/article/important-information-for-office-365-enterprise-e4-customers-f9572348-43a2-43fa-a3d8-3b6c9c042147) for more details.
+> [!IMPORTANT]
+> Office 365 E4 licenses have been officially retired. Please see [Important information for Office 365 Enterprise E4 customers](https://support.office.com/article/important-information-for-office-365-enterprise-e4-customers-f9572348-43a2-43fa-a3d8-3b6c9c042147) for more details.
   
 ## E1 and E3 customers: How to see prices and buy
 <a name="bkmk_buypremium"> </a>

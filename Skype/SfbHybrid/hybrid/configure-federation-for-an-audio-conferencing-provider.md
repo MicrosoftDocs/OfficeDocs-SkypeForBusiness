@@ -22,6 +22,9 @@ description: "Summary: Learn how to configure federation for an audio conferenci
 
 # Configure federation for an audio conferencing provider in your hybrid deployment
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+
 **Summary:** Learn how to configure federation for an audio conferencing provider in Skype for Business Online.
 
 If you want to use an Audio Conferencing Provider (ACP) in your hybrid deployment (on-premises with online), you need to configure federation between your on-premises deployment and the ACP partner as an Allowed Partner Server. You can configure federation by adding the ACP partner domain and Edge server (this may also be called the Access Proxy) to the Federated Domains list for your on-premises deployment. Your ACP partner then needs to add the FQDN of your on-premises Edge Server pool to their allowed federated domains list. Contact your ACP provider for additional details. Your ACP partner then needs to add the FQDN of your on-premises Edge Server pool to their allowed federated domains list.
