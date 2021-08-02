@@ -15,18 +15,18 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-ms.custom:
+ms.custom:erprise voic
 - Skype for Business Certification
 - mt147899
 description: "Plan the optimal Skype for Business experience in a wired world."
 ---
 
 # SDN for Skype for Business 
-Skype for Business has been pioneering a whole new paradigm of software defined networks (SDN) called UC SDN, which lowers TCO while improving end-user experience. The guiding principles for UC SDN is improved visibility, control, automation, and agility.
+Skype for Business has been pioneering a whole new paradigm of software defined networks (SDN) called UC SDN, which lowers TCO while improving end-user experience. The guiding principles for UC SDN are improved visibility, control, automation, and agility.
 
-For anyone deploying enterprise voice and/or video this evolution of networking enables a whole new paradigm shift for how end-user apps and networks effectively communicate machine-to-machine (M2M).
+For anyone deploying enterprise voice or video, this evolution of networking enables a whole new paradigm shift for how end-user apps and networks effectively communicate machine-to-machine (M2M).
 
-UC SDN allows Skype for Business to dynamically interact with the network to ensure that application-level quality and performance requirements can be met. The UC SDN program enables scenarios such as automating diagnostics, QoS and orchestration.
+UC SDN allows Skype for Business to dynamically interact with the network to ensure that application-level quality and performance requirements can be met. The UC SDN program enables scenarios such as automating diagnostics, QoS, and orchestration.
 
 This table lists the SDN solutions certified for Skype for Business.
 
@@ -45,4 +45,4 @@ This table lists the SDN solutions certified for Skype for Business.
 
 All SDN solutions qualified on Lync 2013 will be considered certified for Skype for Business.
 
-If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
+If you're a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
