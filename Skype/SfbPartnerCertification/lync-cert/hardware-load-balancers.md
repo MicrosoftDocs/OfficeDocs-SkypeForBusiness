@@ -24,7 +24,7 @@ description: "Load balancer partner qualification requirements for Lync."
 # Load balancer partner qualification requirements for Lync Server
 
 ## Hardware load balancers for Lync Server
-Hardware load balancers listed in the table that follows have been tested by the vendor and reviewed by Microsoft to meet Lync Server requirements. We recommend that you visit the vendor's web site for the latest information regarding product specifications, capacity, country support and documentation including release notes and known issues. 
+Hardware load balancers listed in the table that follows have been tested by the vendor and reviewed by Microsoft to meet Lync Server requirements. We recommend you visit the vendor's web site for the latest information regarding product specifications, capacity, country support and documentation including release notes and known issues. 
 
 ### Usage
 
@@ -53,15 +53,15 @@ For qualification, Lync Server requires integrating hardware load balancers in t
 |[Radware](http://www.radware.com/) |  AppDirector  <br/><hr>  Alteon   |v.2.14.03<br/><hr> v.28.1.0   |[Radware AppDirector optimizing the delivery of Microsoft Lync 2010](http://www.radware.com/Partners/TechnologyPartners/Microsoft/)<br/><hr> |
 | |         |         ||
 
-Note that these devices are backwards compatible with Office Communications Server 2007 R2. 
+These devices are backwards compatible with Office Communications Server 2007 R2. 
 
-Please contact the vendor for more information on these products.
+Contact the vendor for more information on these products.
 
 Load balancer vendors interested in qualification of their load balancer solutions with Office Communications Server should contact <a href="mailto:msucoip@microsoft.com">msucoip@microsoft.com</a>.
 
 ## Software load balancers for Lync Server
 
-Software load balancers listed in the table that follows  have been tested by the vendor and reviewed by Microsoft to meet Lync Server requirements. We recommend that you visit the vendor's web site for the latest information regarding product specifications, capacity, country support and documentation including release notes and known issues. Please contact the vendor for more information on these products.
+Software load balancers listed in the table that follows  have been tested by the vendor and reviewed by Microsoft to meet Lync Server requirements. We recommend that you visit the vendor's web site for the latest information regarding product specifications, capacity, country support, and documentation including release notes and known issues. Please contact the vendor for more information on these products.
 
 ***Software load balancers for Lync Server***
 
@@ -74,7 +74,7 @@ Software load balancers listed in the table that follows  have been tested by th
 |[jetNEXUS](http://www.jetnexus.com/support/applications/microsoft-lync/) |  Accelerating Load Balancer (ALB)  <br/><hr>  Accelerating Load Balancer Extreme (ALB-X)    |  ALB 2.0   <br/><hr>3.42.1 (Build 1475)|[Advanced Load Balancing for Microsoft Lync 2010](http://www.jetnexus.com/support/applications/microsoft-lync/)|
 |[KEMP](http://www.kemptechnologies.com/) |LoadMaster VLM-100, VLM-1000|V5.1|[LoadMaster Deployment Guide for Microsoft Lync 2010](https://kemptechnologies.com/files/downloads/documentation/Lync/KEMP_Lync_2010_Deployment_Guide.pdf)|
 |[Loadbalancer.org](http://loadbalancer.org/)|Enterprise VA|v6.18, v7.4.1|[Microsoft Lync 2010 Deployment Guide](http://pdfs.loadbalancer.org/Microsoft_Lync_2010_Deployment_Guide.pdf)|
-|[Riverbed Technology](http://www.riverbed.com/) |Stingray Traffic Manager|8.x and up|[Riverbed Stingray and Microsft Lync 2010: Deployment Guide](https://splash.riverbed.com/docs/DOC-1335)|
+|[Riverbed Technology](http://www.riverbed.com/) |Stingray Traffic Manager|8.x and up|[Riverbed Stingray and Microsoft Lync 2010: Deployment Guide](https://splash.riverbed.com/docs/DOC-1335)|
 |     |         |         | |
 
 Load balancer vendors interested in qualification of their load balancer solutions with Office Communications Server should contact <a href="mailto:msucoip@microsoft.com">msucoip@microsoft.com</a>.
