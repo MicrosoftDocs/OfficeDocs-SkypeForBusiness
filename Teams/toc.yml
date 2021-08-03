@@ -831,8 +831,6 @@ items:
               href: rooms/rooms-operations.md
             - name: Known issues
               href: rooms/known-issues.md
-            - name: Set Microsoft Teams Android devices user interface
-              href: devices/Teams-Android-devices-user-interface.md
             - name: Devices with Azure Monitor
               href: rooms/azure-monitor-manage.md
             - name: Settings with an XML file
@@ -1622,6 +1620,8 @@ items:
           href: devices/usb-devices.md
         - name: Deploy Microsoft Teams Rooms on Android
           href: devices/collab-bar-deploy.md
+        - name: Set Microsoft Teams Android devices user interface
+          href: devices/Teams-Android-devices-user-interface.md
         - name: Meeting room devices and solutions
           href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Teams certified devices
