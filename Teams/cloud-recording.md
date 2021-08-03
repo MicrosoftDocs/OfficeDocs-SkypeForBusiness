@@ -286,6 +286,11 @@ We believe nearly all customers will benefit from the reduced storage load on th
   
 The expiration date is calculated as the day the meeting recording is created plus the default number of days set in the Teams setting by the admin. 
   
+**Is the expiry date visible as column in the list?**
+  
+Users with view access to the recording will see a red icon next to the file in the OneDrive or SharePoint folder 14 days before the file expires.
+ 
+  
 **How can an Admin change the expiration date?**
   
 Admins can change the default expiration setting in PowerShell today. When the feature launches, Admins can change this setting in the Teams admin center. Changing expiration settings will impact only newly created TMRs from that point forward. It will not impact any recordings made prior to that date. 
