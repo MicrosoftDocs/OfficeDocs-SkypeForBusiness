@@ -1502,6 +1502,8 @@ items:
           href: expand-teams-across-your-org/assignments-in-teams.md
         - name: Teams resources for Education admins
           href: resources-teams-edu.md
+        - name: Teams devices for Education
+          href: devices-for-education.md
         - name: Microsoft Education governance FAQ for admins
           href: plan-teams-governance-edu.md
         - name: Install Moodle integration
