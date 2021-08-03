@@ -1,6 +1,6 @@
 ---
 title: "Planning for Optimal Skype for Business Experience over Wi-Fi"
-ms.author: erdars
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -18,7 +18,7 @@ f1.keywords:
 ms.custom:
 - Skype for Business Certification
 - mt147901
-description: "Skype for Business certification program and Microsoft plans to test and certify IP phones for Skype for Business through the Skype for Business Certification Program."
+description: "Skype for Business certification program plans to test and certify IP phones  through the Skype for Business Certification Program."
 ---
 
 
