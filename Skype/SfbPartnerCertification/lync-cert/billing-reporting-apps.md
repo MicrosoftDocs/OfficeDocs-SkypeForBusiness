@@ -18,7 +18,7 @@ f1.keywords:
 ms.custom:
 - Lync Certification
 - dn788946
-description: "The Lync qualification program helps ensure that qualified applications meet customer expectations for specific scenarios"
+description: "The Lync qualification program helps make sure that qualified applications meet customer expectations for specific scenarios."
 ---
 
 # Billing and enhanced reporting applications
