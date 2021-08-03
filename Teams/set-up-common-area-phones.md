@@ -56,7 +56,7 @@ For more information on licenses, see [Microsoft Teams add-on licensing](./teams
 The Common Area Phone license supports: 
 
 
-|   |  Common Area Phone  |
+| &nbsp;  |  Common Area Phone  |
 |---------|---------|
 |Skype for Business |   &#x2714; |
 |Microsoft Teams |   &#x2714; |
@@ -87,7 +87,7 @@ The Common Area Phone license supports:
 
 6. Assign the licenses to the user. On the same page, click to expand **Product licenses**. Turn on the Common Area Phone and pick either a **Domestic Calling Plan** or a **Domestic and International Calling Plan**. 
 
-    ![Screenshot showing license assignment](media/set-up-common-area-phone-image2.png)
+    ![Screenshot showing license assignment with domestic calling plan and domestic and international plan options highlighted](media/set-up-common-area-phone-image2.png)
 
 > [!NOTE]
 > If you are using Microsoft Phone System Direct Routing, you do not need to assign a Calling Plan license.
@@ -108,7 +108,7 @@ Use the Teams admin center to assign a number to the user.
 
 6. Click **Save** and your user should look like this:
 
-   ![Screenshot showing license assignment](media/set-up-common-area-phone-image3.png)
+   ![Screenshot shows sample user license assignment](media/set-up-common-area-phone-image3.png)
 
 > [!NOTE]
 > Users will only show up if they have a Phone System license applied. If you just did this, then sometimes it takes a bit for the user to show up in the list.

@@ -62,11 +62,11 @@ How the affected content is managed after detection is up to the settings you've
 
 ### Safe Links
 
-While, at this time, Advanced Threat Protection (ATP) safe links are not available in Microsoft Teams, they are now in [public preview](/microsoft-365/security/office-365-security/atp-safe-links-for-teams?view=o365-worldwide) through our Technology Adoption Program (TAP), and while a release date for general availability isn't set, we'll update this article when that time arrives. Meanwhile, for information on Microsoft 365 or Office 365 Safe Links, please review [ATP Safe Links](/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection). ATP Safe links is available in both [ATP Plan 1 and ATP Plan 2](/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide).
+While, at this time, Advanced Threat Protection (ATP) safe links are not available in Microsoft Teams, they are now in [public preview](/microsoft-365/security/office-365-security/atp-safe-links-for-teams) through our Technology Adoption Program (TAP), and while a release date for general availability isn't set, we'll update this article when that time arrives. Meanwhile, for information on Microsoft 365 or Office 365 Safe Links, please review [ATP Safe Links](/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection). ATP Safe links is available in both [ATP Plan 1 and ATP Plan 2](/microsoft-365/security/office-365-security/office-365-atp).
 
 ### Safe Attachments
 
-Safe attachments is a feature designed to enhance user security by checking for, and detecting, malicious attachments. Global- or Security Administrators create [policies](/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide) for handling these suspected malicious attachments to prevent them from being sent to users, clicked, and acted upon. Safe attachment protection is available to SharePoint, OneDrive, and Microsoft Teams, and Microsoft 365 or Office 365 [Advanced Threat Protection Plan 1 and 2](/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) have this capability. Read more about Safe Attachments and how they can help protect your organization in [Safe Attachments in Microsoft Defender for Office 365](/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide).
+Safe attachments is a feature designed to enhance user security by checking for, and detecting, malicious attachments. Global- or Security Administrators create [policies](/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies) for handling these suspected malicious attachments to prevent them from being sent to users, clicked, and acted upon. Safe attachment protection is available to SharePoint, OneDrive, and Microsoft Teams, and Microsoft 365 or Office 365 [Advanced Threat Protection Plan 1 and 2](/microsoft-365/security/office-365-security/office-365-atp) have this capability. Read more about Safe Attachments and how they can help protect your organization in [Safe Attachments in Microsoft Defender for Office 365](/microsoft-365/security/office-365-security/atp-safe-attachments).
 
 ### Secure Score
 
@@ -130,7 +130,7 @@ We have a Teams-specific article for more information, [eDiscovery of guest-to-g
 
 Customers can leverage eDiscovery or [Advanced eDiscovery](/microsoft-365/compliance/office-365-advanced-ediscovery) per their requirements. The following table outlines the differences between the two:
 
-| |eDiscovery  |Advanced eDiscovery  |
+|&nbsp; |eDiscovery  |Advanced eDiscovery  |
 |---------|---------|---------|
 |Case Management     |X        |X         |
 |Access Control  |X         |X         |

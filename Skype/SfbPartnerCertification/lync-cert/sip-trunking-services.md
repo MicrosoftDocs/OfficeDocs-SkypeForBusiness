@@ -56,7 +56,6 @@ E-911 service providers provide routing of emergency calls from Lync to the corr
 |[Kordia](http://www.kordia.co.nz/)  | Onkor Voice | &#x2714; |
 |[Level 3](http://level3.com/lync)  |Level 3 Communications SIP Trunking  |  |
 |[Magnetic North](http://www.magneticnorth.com/cloud-pbx/sip-trunks)  |Cloud PBX  |  |
-|[Netstream](http://www.netstream.ch/index.php?id=506)  |Lync Connect  | &#x2714; |
 |[Masergy Communications](http://www.masergy.com/solutions/unified-communications)  | Intelligent SIP Trunk |  |
 |[One Source Networks](http://www.onesourcenetworks.com/lync-trunking/)  | Lync Trunking | &#x2714; |
 |[Orange Business Services](http://www.orange-business.com/en/products/business-talk)  | Business Talk (SIP Trunking) |  |
@@ -122,7 +121,6 @@ E-911 service providers provide routing of emergency calls from Lync to the corr
 |[Kvantel](http://kvantel.no/wggdmstmp/tjenester/telefoni/sip_connect_lync/) |Kvantel SIP Connect Lync | |
 |[Level 3](http://your.level3.com/2013DCLEADGSIPOSOLP1_SIPVoicePgFromOSRP_20130703?WT.tsrc=08202013SIPVoiceLPNomad911SIPVocCompPgFullWidthBanner) |Level 3 Communications SIP Trunking| |
 |[MyNetFone](https://www.mynetfone.com.au/Business/SIP-Trunking/Approved-Equipment/microsoft) |MyNetFone SIP Trunking| |
-|[Netstream](http://www.netstream.ch/index.php?id=482) |Lync Connect| |
 |[OneXS](http://www.onexs.com)     |OneConnect SIP Trunk| |
 |[Optimus](http://www.nos.pt/particulares/Pages/home.aspx) |SIP Trunk| |
 |[Orange Business Services](http://www.orange-business.com/en/voice-and-telephony) |SIP Trunking| |
