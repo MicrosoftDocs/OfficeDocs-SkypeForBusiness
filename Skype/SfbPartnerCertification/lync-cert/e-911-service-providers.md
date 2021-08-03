@@ -18,7 +18,7 @@ f1.keywords:
 ms.custom:
 - Lync Certification
 - dn788944
-description: "Partner qualification requirements for Lync."
+description: "Partner qualification requirements for Lync: E-911 services."
 ---
 
 # E-911 Services qualified for Lync
