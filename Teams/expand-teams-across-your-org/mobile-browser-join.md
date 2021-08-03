@@ -1,5 +1,5 @@
 ---
-title: Manage the join experience for Teams virtual visits and consultations in mobile browsers
+title: Manage the join experience for Teams virtual visits and consultations on mobile browsers
 author: lanachin
 ms.author: v-lanachin
 manager: samanro
