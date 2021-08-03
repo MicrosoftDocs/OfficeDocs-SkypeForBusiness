@@ -1,6 +1,6 @@
 ---
 title: :"Lync Server network infrastructure roadmap"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
