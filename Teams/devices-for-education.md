@@ -296,7 +296,7 @@ A room system with a large, projector-based front-of-room display, multiple touc
 
 Highly complex. A multi-purpose space as described requires a knowledgeable AV deployment partner to properly plan for and deploy the projector-based display and camera and audio solutions, as well as to correctly configure both the Microsoft Teams Room system and the associated Surface Hub 2 devices so that they work seamlessly for the end users in the space.
 
-## More Information
+## More information
 
 View the following pages to learn more about Teams devices and partners:
 
