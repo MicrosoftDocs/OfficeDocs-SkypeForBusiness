@@ -831,6 +831,8 @@ items:
               href: rooms/rooms-operations.md
             - name: Known issues
               href: rooms/known-issues.md
+            - name: Set Microsoft Teams Android devices user interface
+              href: devices/Teams-Android-devices-user-interface.md
             - name: Devices with Azure Monitor
               href: rooms/azure-monitor-manage.md
             - name: Settings with an XML file
