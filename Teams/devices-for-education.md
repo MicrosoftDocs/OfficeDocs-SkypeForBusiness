@@ -39,7 +39,7 @@ The modern, hybrid classroom will be boundaryless. Students and educators will b
 
 To ensure students and educators working remotely can fully participate in group collaboration and meetings, education workspaces will need technology to help bridge the divide between the old, in-person models and the new, hybrid and remote spaces.
 
-![Future technology render showing remote attendees displayed in a physical room.](../media/devices1.png)
+![Future technology render showing remote attendees displayed in a physical room.](media/devices1.png)
 *This image represents future technology.*
 
 ## Why choose a native Teams experience?
@@ -82,7 +82,7 @@ For new spaces, the intended use of the room should drive both furniture and tec
 
 The following pair of images illustrates optimized Teams setups in an existing classroom space (top) and in a new, multi-purpose space (bottom):
 
-![Render showing Teams devices in an existing classroom.](../media/devices2.png) ![Render showing a native Teams setup in a purposefully designed space.](../media/devices3.png)
+![Render showing Teams devices in an existing classroom.](media/devices2.png) ![Render showing a native Teams setup in a purposefully designed space.](media/devices3.png)
 
 ### What is the function of the space?
 
@@ -148,7 +148,7 @@ For a fully interactive experience, interactive displays (such as the Surface Hu
 
 A public space, such as a common room in a family home or a table at a library, usually means users have to contend with noise, a lack of a permanent workspace, and other potential distractions.
 
-![Image of a student working with a personal PC and headset.](../media/devices4.png)
+![Image of a student working with a personal PC and headset.](media/devices4.png)
 
 *The solution shown is:*
 
@@ -174,7 +174,7 @@ A personal space can be anything from a student’s bedroom to an educator’s o
 
 *Example A:*
 
-![Rendering of a personal PC setup with a personal speaker and Teams running on the desktop.](../media/devices5.png)
+![Rendering of a personal PC setup with a personal speaker and Teams running on the desktop.](media/devices5.png)
 
 *The solution shown is:*
 
@@ -194,7 +194,7 @@ A smaller, quieter, more focused personal space means the user doesn’t have th
 
 *Example B:*
 
-![A personal PC setup with an all-in-one soundbar.](../media/devicesnew1.png)
+![A personal PC setup with an all-in-one soundbar.](media/devicesnew1.png)
 
 *The solution shown is:*
 
@@ -218,7 +218,7 @@ Very easy. This can be handled entirely by end users by combing their PC with th
 
 Classrooms, including traditional and reverse classrooms, require active engagement from everyone present. Effective instruction, discussion, and collaboration among many parties is key.
 
-![Rendering of a classroom equipped with Teams devices.](../media/devicesnew2.jpg)
+![Rendering of a classroom equipped with Teams devices.](media/devicesnew2.jpg)
 
 *The solution shown is:*
 
@@ -248,7 +248,7 @@ Complex. This room features a physical installation, including wiring, that requ
 
 Much like classrooms, lecture halls contain numerous students who must focus on an educator and any information they’re presenting. However, lecture halls generally don’t require the same amount of interaction among students. The focus is on information, not collaboration.
 
-![Rendering of a lecture hall equipped with Teams devices.](../media/devices9.png)
+![Rendering of a lecture hall equipped with Teams devices.](media/devices9.png)
 
 *The solution shown is:*
 
@@ -276,7 +276,7 @@ Highly complex. This room features a physical installation that will require a k
 
 Teams can be implemented in almost any educational or multi-purpose space you can think of. Libraries, mixed-use presentation and collaboration spaces, café spaces, and open-air spaces can all be outfitted with a Teams system or Teams devices.
 
-![Image of a multi-purpose space with Teams devices.](../media/devices11.png)
+![Image of a multi-purpose space with Teams devices.](media/devices11.png)
 
 *This solution shown is:*
 
