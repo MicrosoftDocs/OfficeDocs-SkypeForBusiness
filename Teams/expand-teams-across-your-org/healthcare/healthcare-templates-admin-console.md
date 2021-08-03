@@ -1,5 +1,5 @@
 ---
-title: "Create a team using healthcare templates"
+title: "Use healthcare templates"
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -20,14 +20,14 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ms.reviewer: 
-description: Use team templates in the admin center or with Microsoft Graph to quickly and easily create teams by providing a predefined template of settings, channels, and apps.
+description: Use team templates in the admin center or with Microsoft Graph to quickly and easily create teams for your healthcare organization.
 ms.custom: seo-marvel-mar2020
 ---
-# Use a healthcare team templates
+# Use healthcare team templates
 
-Templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
+Team templates in Microsoft Teams allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
 
-For healthcare organizations, templates can be especially powerful, as they provide structure for users to become oriented with how to effectively use Microsoft Teams. Templates also allow administrators to deploy consistent teams across their organizations. This article is for you if you're responsible for planning, deploying, and managing multiple teams across your healthcare organization.
+For healthcare organizations, templates can be especially powerful, as they provide structure for users to become oriented with how to effectively use Teams. Templates also allow admins to deploy consistent teams across their organizations. This article is for you if you're responsible for planning, deploying, and managing multiple teams across your healthcare organization.
 
 Choose a method for creating teams with the team healthcare templates:
 
@@ -38,11 +38,11 @@ Choose a method for creating teams with the team healthcare templates:
 
 ## Use the team templates in the admin center
 
-Microsoft Teams admins can use the Teams admin center to create teams with the team templates. We currently offer two first-party healthcare templates that you can use for a variety of situations. To learn more about team templates in general, see [Get started with team templates in the admin center](../../get-started-with-teams-templates-in-the-admin-console.md).
+Here are the healthcare templates that are currently available in the Teams admin center. You can use these templates to create teams for a variety of situations within your healthcare organization. To learn more about team templates in general, see [Get started with team templates in the admin center](../../get-started-with-teams-templates-in-the-admin-console.md).
 
 ### Collaborate on patient care
 
- Streamline healthcare communication and collaboration within a ward, pod, or department. The template can be used to facilitate patient management and operational needs of a ward.
+ Streamline healthcare communication and collaboration within a ward, pod, or department. You can use this template to facilitate patient management and operational needs of a ward.
 
 | Base template type |baseTemplateId| Properties that come with this base template |
 | ------------------ |---|----------------------------------------------------- |
@@ -51,7 +51,7 @@ Microsoft Teams admins can use the Teams admin center to create teams with the t
 
 ### Hospital
 
-Streamline communication and collaboration between multiple wards, pods, and departments within a hospital. This template includes a set of base channels for hospital operations, and can be self-extended to include specialties, ad-hoc.
+Streamline communication and collaboration between multiple wards, pods, and departments within a hospital. This template includes a set of base channels for hospital operations, and can be self-extended to include specialties, ad hoc.
 
 | Base template type |baseTemplateId | Properties that come with this base template |
 | ------------------|-- |----------------------------------------------------- |
@@ -59,9 +59,9 @@ Streamline communication and collaboration between multiple wards, pods, and dep
 ||||
 
 
-## Use the team templates with the Microsoft Graph
+## Use team templates with Microsoft Graph
 
-Developers can use the Microsoft Graph to create teams with the team templates. We currently offer two first-party healthcare templates that you can use for a variety of situations. To learn more about team templates in general, see [Get started with team templates](../../get-started-with-teams-templates.md). And for information about team templates and the Microsoft Graph, see [Microsoft Teams API overview](/graph/teams-concept-overview?view=graph-rest-1.0) and [teamsTemplate resource type](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
+Developers can use Microsoft Graph to create teams with the team templates. We currently offer two built-in healthcare templates that you can use for a variety of situations. To learn more about team templates in general, see [Get started with team templates](../../get-started-with-teams-templates.md). And for information about team templates and Microsoft Graph, see [Microsoft Teams API overview](/graph/teams-concept-overview?view=graph-rest-1.0) and [teamsTemplate resource type](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
 
 ### Ward template
 
