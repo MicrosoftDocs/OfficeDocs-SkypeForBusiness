@@ -14,7 +14,7 @@ ms.collection:
   - M365-collaboration
 description: Learn how to set the user interface on Teams Android devices.
 ---
-# Setting Microsoft Teams Android devices user interface
+# Set Microsoft Teams Android devices user interface
 
 Microsoft Teams Android devices can display a specific user interface based on the type of license assigned to the signed-in account. You can override this behavior and control which interface is shown. This article details how the default user interface is chosen and how you can change the interface using a Powershell policy.
 
