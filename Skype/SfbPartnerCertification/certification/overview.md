@@ -19,7 +19,7 @@ f1.keywords:
 ms.custom:
 - Skype for Business Certification
 - Dn947481
-description: "Skype for Business certification program and Microsoft plans to test and certify IP phones for Skype for Business through the Skype for Business Certification Program."
+description: "The Skype for Business certification program and plans to test and certify IP phones for Skype for Business through the Skype for Business Certification Program."
 ---
 
 #  Skype for Business certification program
