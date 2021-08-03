@@ -1,5 +1,5 @@
 ---
-title: "Setting Microsoft Teams Android devices user interface"
+title: "Set Microsoft Teams Android devices user interface"
 ms.author: mitressl
 author: flinchbot
 manager: leopaiv
@@ -39,7 +39,7 @@ Finally, this image shows a user account with a [Microsoft Teams Rooms Standard 
 :::image type="content" source="../media/TeamsAndroidDevices-Meeting.jpg" alt-text="Meeting interface":::
 
 > [!NOTE]
-> Changing the user interface doesn't affect your ability to use other licensed features. For example, even thought the Team Rooms license's default view is the calendar view, you can still make and receive Public Switch Telephone Network (PSTN) phone calls if the account is correctly licensed and configured.
+> Changing the user interface doesn't affect your ability to use other licensed features. For example, even though the Team Rooms license's default view is the calendar view, you can still make and receive Public Switch Telephone Network (PSTN) phone calls if the account is correctly licensed and configured.
 
 > [!IMPORTANT]
 > There are other elements of the interface that change. For example, to prevent end-users from signing out of a common area phone or meeting room device, the "Sign out" option on these devices is moved to a part of the settings menu that requires administrator permissions to access.
