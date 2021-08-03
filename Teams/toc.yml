@@ -1617,7 +1617,7 @@ items:
               - name: Use Teams panels
                 href: devices/use-teams-panels.md
               - name: App support on Teams panels  
-                href: devices/app-support-on-Teams-panels.md
+                href: app-support-on-Teams-panels.md
         - name: Upgrade Teams phones to Teams displays
           href: devices/upgrade-phones-to-displays.md
         - name: Deploy Teams phones and Teams displays using Intune

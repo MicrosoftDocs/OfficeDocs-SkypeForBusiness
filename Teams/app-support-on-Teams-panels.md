@@ -46,11 +46,11 @@ After setting up apps, you can use [app permission policies](https://docs.micro
 
 Since Teams offers the capability to display a wide range of apps, admins can decide on which apps are most essential for the organization and pin only these for the Teams panels **Home** screen for quick access. If there are more than five pinned apps or any unpinned apps, they will appear under the **More** screen. Microsoft recommends creating a custom app setup policy specifically for Teams panels.
 
-![User interface screenshot of the app setup policies page.](../media/appsetup1.png) 
+![User interface screenshot of the app setup policies page.](media/appsetup1.png) 
 
 To manage pinned apps displayed on the Teams panels, sign in to the Teams admin center for your organization and navigate to **Teams apps** \> **Setup policies** \> **Select or Create a new policy** \> **Pinned apps**.
 
-![Screenshot of pinned apps section within the user interface.](../media/appsetup2.png) 
+![Screenshot of pinned apps section within the user interface.](media/appsetup2.png) 
 
 Microsoft recommends you turn off **Upload custom apps** and **Allow user pinning** for the best Teams app experience on Teams panels.
 
@@ -58,7 +58,7 @@ For more about pinning apps, see [Manage app setup policies](https://docs.micros
 
 ## Manage apps display order in Teams panels 
 
-![Screenshot of apps section within the user interface.](../media/appsetup3.png) 
+![Screenshot of apps section within the user interface.](media/appsetup3.png) 
 
 To manage the order in which apps are displayed on the Teams panels, sign in to the Teams admin center for your organization and navigate to **Teams apps** \> **Setup policies** \> **Select the Policy** \> **Pinned apps:** **Move-up/down**.
 
@@ -100,6 +100,6 @@ Not all apps can be pinned to Teams through an app setup policy. Some apps may n
 
 ### Why am I seeing an “Allow user pinning” pop-up in the setup policies panel after I turn off “Allow user pinning?”
 
-![Screenshot of the setup policy section within the user interface with a pop-up confirming user pinning is active.](../media/appsetup4.png) 
+![Screenshot of the setup policy section within the user interface with a pop-up confirming user pinning is active.](media/appsetup4.png) 
 
 This behavior is expected for a device in a shared space and helps prevent unintentional app pinning.
