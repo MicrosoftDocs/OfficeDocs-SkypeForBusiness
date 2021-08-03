@@ -1,5 +1,5 @@
 ---
-title: Manage the join experience for Teams meetings on mobile devices
+title: Manage the join experience for Teams virtual visits and consultations in mobile browsers
 author: lanachin
 ms.author: v-lanachin
 manager: samanro
@@ -18,12 +18,12 @@ ms.collection:
   - m365solution-healthcare
   - m365solution-scenario
 ms.reviewer: hafarmer
-description: Learn about the join experience for Teams meetings on mobile devices. 
+description: Learn about the join experience for Teams virtual visits and consultations on mobile browsers. 
 ---
 
 # Manage the join experience for Teams meetings on mobile devices
 
-Microsoft Teams makes it easy for people to join appointments on their mobile devices. For a more seamless experience, attendees can join appointments such as healthcare visits, financial consultations, educator office hours and so on from a mobile browser. Attendees don't need install the Teams mobile app on their Android or iOS mobile devices.
+Microsoft Teams makes it easy for people to join appointments on their mobile devices without having to download Teams. For a more seamless experience, attendees can join appointments such as healthcare visits, financial consultations, educator office hours and so on from a mobile browser. Attendees don't need install the Teams mobile app on their Android or iOS mobile devices.
 
 With mobile browser join, when an attendee joins an appointment from a mobile device, they aren't prompted to download Teams. Instead, Teams opens in a mobile browser, where the attendee can select **Join now** to join. With this feature, keep in mind that if Teams is already installed on an attendee's mobile device, Teams will open in a mobile browser and not in the app.
 
