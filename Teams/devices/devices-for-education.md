@@ -1,5 +1,5 @@
 ---
-title: Bringing Microsoft Teams devices to Education
+title: Teams devices for Education
 author: amandafrechinjackson
 ms.author: v-amandaf
 manager: jsarrasin
