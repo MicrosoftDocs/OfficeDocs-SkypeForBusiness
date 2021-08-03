@@ -498,6 +498,8 @@ items:
       href: teams-policies.md
     - name: Set up channel moderation in Teams
       href: manage-channel-moderation-in-teams.md
+    - name: Manage live components
+      href: live-components-in-teams.md
     - name: Teams and Outlook email integration
       href: teams-outlook-email-integration.md
     - name: Share to Teams from Outlook
