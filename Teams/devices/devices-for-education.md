@@ -218,7 +218,7 @@ Very easy. This can be handled entirely by end users by combing their PC with th
 
 Classrooms, including traditional and reverse classrooms, require active engagement from everyone present. Effective instruction, discussion, and collaboration among many parties is key.
 
-![Rendering of a classroom equipped with Teams devices.](../media/devicesnew2.png)
+![Rendering of a classroom equipped with Teams devices.](../media/devicesnew2.jpg)
 
 *The solution shown is:*
 
