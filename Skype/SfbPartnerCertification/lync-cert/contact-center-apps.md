@@ -1,6 +1,6 @@
 ---
-title: "Qualified Lync applications"
-ms.author: dmaguire
+title: "Qualified Lync apps"
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand

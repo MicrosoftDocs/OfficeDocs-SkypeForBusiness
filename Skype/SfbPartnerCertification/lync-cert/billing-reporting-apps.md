@@ -1,6 +1,6 @@
 ---
-title: "Qualified Lync applications"
-ms.author: dmaguire
+title: "Qualified Lync applications: Billing and enhanced reporting applications"
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -21,7 +21,7 @@ ms.custom:
 description: "The Lync qualificaton program helps ensure that qualified applications meet customer expectations for specific scenarios"
 ---
 
-# Billing & Enhanced Reporting Applications
+# Billing and enhanced reporting applications
 Billing and enhanced reporting applications enable organizations to monitor, track and report both financial and time information for an entire organization's communications stream.
 
 ## CA Unified Communications Monitor

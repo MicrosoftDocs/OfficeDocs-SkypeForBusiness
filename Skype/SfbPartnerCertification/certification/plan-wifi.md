@@ -1,6 +1,6 @@
 ---
 title: "Planning for Optimal Skype for Business Experience over Wi-Fi"
-ms.author: dmaguire
+ms.author: erdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand

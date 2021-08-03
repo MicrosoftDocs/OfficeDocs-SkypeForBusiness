@@ -1,6 +1,6 @@
 ---
-title: "Partner qualification for Lync"
-ms.author: dmaguire
+title: "Partner qualification for Lync: E-911 services"
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
