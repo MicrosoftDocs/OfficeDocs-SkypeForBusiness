@@ -1,6 +1,6 @@
 ---
 title: "Skype for Business Certification Program — Session Border Controllers"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -21,7 +21,7 @@ ms.custom:
 description: "List of Session Border Controllers that have been independently qualified with Skype for Business Server."
 ---
 
-# Session Border Controllers
+# Session border controllers
 
 These session border controllers that are certified for Skype for Business.
 
