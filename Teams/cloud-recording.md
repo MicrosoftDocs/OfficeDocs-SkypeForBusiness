@@ -300,7 +300,7 @@ No, playback does not impact the expiration date.
 
 The expiration date will be cleared upon re-upload, regardless of the user’s SKU.
   
-**What happens if I copy or the TMR to a different location or site?**
+**What happens if I copy or move the TMR to a different location or site?**
 
 The date is only retained for a moved TMR file. A copied file will not have the expiration date, just like a re-uploaded TMR.
   
