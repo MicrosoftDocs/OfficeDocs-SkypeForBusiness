@@ -162,7 +162,7 @@ Depending on how many Microsoft Teams Rooms devices your enterprise has and how 
 
 You are free to use any method you like so long as you can use it to transfer files and trigger a restart on the console device. The file must be readable, writable, and delete-able by the device's local user account. Preferably it is owned by and has full privileges granted to that user. If the file permissions are not set correctly, the software can fail to apply the settings, can fail to delete the file upon successful processing, and can even potentially crash.
   
-## Teams Only supported meeting mode App version 4.9
+## Supported Meeting modes App version 4.9
 
 | Setting Name                                    | XML Notation                | XML Value      |
 |:------------------------------------------------|:----------------------------|:---------------|
@@ -174,16 +174,16 @@ You are free to use any method you like so long as you can use it to transfer fi
 |                                                 |  \<SfbMeetingEnabled>       |   True         |
 |                                                 |  \<IsTeamsDefaultClient>    |   True         |
 |:------------------------------------------------|:----------------------------|:---------------|                                                      
-| Skype for Business only                         |   \<TeamsMeetingsEnabled>   |   False        |
-|                                                 |   \<SfbMeetingEnabled>      |   True         |
-|                                                 |   \<IsTeamsDefaultClient>   |   False        |
+| Skype for Business only                         |  \<TeamsMeetingsEnabled>    |   False        |
+|                                                 |  \<SfbMeetingEnabled>       |   True         |
+|                                                 |  \<IsTeamsDefaultClient>    |   False        |
 |:------------------------------------------------|:----------------------------|:---------------|
-| Microsoft Teams only                            |   \<TeamsMeetingsEnabled>   |   True         |
-|                                                 |   \<SfbMeetingEnabled>      |   False        |
-|                                                 |   \<IsTeamsDefaultClient>   |   True         |                       
+| Microsoft Teams only                            |  \<TeamsMeetingsEnabled>    |   True         |
+|                                                 |  \<SfbMeetingEnabled>       |   False        |
+|                                                 |  \<IsTeamsDefaultClient>    |   True         |                       
 |:------------------------------------------------|:----------------------------|:---------------|                                                       
                                                                                                            
-## Teams Only supported meeting mode App version 4.8 or lower
+## Supported Meeting modes App version 4.8 or lower
 
 | Setting Name                                    | XML Notation                | XML Value      |
 |:------------------------------------------------|:----------------------------|:---------------|
