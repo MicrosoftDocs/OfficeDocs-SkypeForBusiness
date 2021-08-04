@@ -1,5 +1,5 @@
 ---
-title: "Branch Sites planning tool"
+title: "Lync Server Branch Sites planning tool"
 ms.reviewer: 
 ms.author: v-cichur
 author: cichur
