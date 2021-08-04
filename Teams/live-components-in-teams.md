@@ -56,7 +56,7 @@ You'll need the latest version of [SharePoint Online PowerShell module](/office
 
 2. Enable Fluid using the cmdlet Set-SPOTenant -IsFluidEnabled $true 
    
-   The change should take approximately 60 minutes to apply across your tenancy. 
+   The change will take a short time to apply across your tenancy.
 
 The feature will be available on Teams Windows Desktop, Mac, iOS, Android. When enabled, users will see a new option for inserting live components in the message compose experience for these clients
 
@@ -66,7 +66,7 @@ The feature will be available on Teams Windows Desktop, Mac, iOS, Android. When 
 
 2. Disable Fluid using the Set-SPOTenant cmdlet Set-SPOTenant -IsFluidEnabled $false. 
 
-   The change should take approximately 60 minutes to apply across your tenancy. 
+   The change will take a short time to apply across your tenancy. 
 
 If you need to re-enable this capability, you can use SharePoint Online PowerShell Cmdlets.
 
