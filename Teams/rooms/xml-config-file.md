@@ -39,7 +39,6 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
     <SkypeSignInAddress>username@microsoft.com</SkypeSignInAddress>
     <ExchangeAddress>username@microsoft.com</ExchangeAddress>
     <DomainUsername>domain\username</DomainUsername>
-    <!--[SuppressMessage("Microsoft.Security", "CS002:SecretInNextLine", Justification="Unit Test")]-->
     <Password>Password!</Password>
     <ConfigureDomain>domain1, domain2</ConfigureDomain>
     <ModernAuthEnabled>true</ModernAuthEnabled>
