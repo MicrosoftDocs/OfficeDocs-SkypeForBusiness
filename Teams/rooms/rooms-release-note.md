@@ -85,7 +85,7 @@ Introduced in this update:
 - Windows 10 20H2 support 
 
 > [!NOTE]
-> HP Elite Slice and Crestron UC-Engine (BIOS version date containing "KYSKLi") Teams Rooms have compatibility issues and updated drivers will be provided by system OEMs in the near future. Windows 10 20H2 won't be offered to these devices. For more information about Windows version support, see [Windows 10 release support](./rooms-lifecycle-support.md#windows-10-release-support).
+> Crestron UC-Engine (BIOS version date containing "KYSKLi") Teams Rooms have compatibility issues and updated drivers will be provided by system OEMs in the near future. Windows 10 20H2 won't be offered to these devices. For more information about Windows version support, see [Windows 10 release support](./rooms-lifecycle-support.md#windows-10-release-support).
 
 ### 4.8.25.0 (04/22/2021)
 
