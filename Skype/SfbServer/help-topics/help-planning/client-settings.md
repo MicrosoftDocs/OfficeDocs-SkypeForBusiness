@@ -15,7 +15,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
-description: "The mobility feature in Skype for Business Server 2015 supports Skype for Business functionality on mobile devices. For details, see Planning for Mobility."
+description: "The Skype for Business Server mobility feature supports Skype functionality on mobile devices. For details, see Planning for Mobility."
 ---
 
 # Skype for Business Server Client Settings planning tool
