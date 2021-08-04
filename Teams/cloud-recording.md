@@ -335,6 +335,14 @@ Everyone with view access will see a red icon next to the file in your OneDrive 
   
 The file owner will receive an email notification when the TMR expires and will be directed to the recycle bin to recover the TMR if they desire to do so.
   
+**What happens if I move a recording to another location in OneDrive/SharePoint?**
+  
+TMR expiration tags follows the recording. On the expiration date, the recording will be moved to the OneDrive or SharePoint recycle bin. Users can choose to download the recording if they wish to save it, or anyone who has edit and delete permissions can modify and extend the expiration date.
+  
+**Will changes to expiration policies affect existing meeting recordings?**
+  
+No. Changes to expiration policies do not affect existing meeting recordings. Changing expiration settings will only impact newly created TMRs from that point forwards.
+  
 **What SKUs are required for this feature?**
   
 All SKUs will have this feature by default. A1 users will be defaulted to a 30-day expiration period and won’t be able to modify the expiration date
