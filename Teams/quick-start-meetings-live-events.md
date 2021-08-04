@@ -54,7 +54,7 @@ The following table briefly summarizes the three types of meetings, the number o
 
 **Considerations for large meetings, webinars, and live events** - When hosting large meetings, consider the following:
 
-- For the best experience in large meetings, webinars, and live events, Microsoft recommends using the Teams desktop client or Teams mobile clients. 
+- For the best experience in large meetings, webinars, and live events, Microsoft recommends using the latest version of the Teams desktop client or Teams mobile clients. 
 
 - Presenters in large meetings, webinars, and live events should use the Teams desktop client. 
 
