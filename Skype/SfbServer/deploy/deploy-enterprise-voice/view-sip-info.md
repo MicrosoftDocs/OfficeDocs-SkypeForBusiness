@@ -1,5 +1,5 @@
 ---
-title: "View information about individual SIP trunks in Skype for Business Server"
+title: "View information about SIP trunks in Skype for Business Server"
 ms.reviewer: 
 ms.author: v-cichur
 author: cichur
@@ -9,7 +9,7 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+localization_priority: Normal 
 ms.collection: 
 - IT_Skype16
 - Strat_SB_Admin
