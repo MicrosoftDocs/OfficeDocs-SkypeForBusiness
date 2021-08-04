@@ -164,7 +164,7 @@ A laptop running Teams ensures the user is not confined to one working area and 
 
 *Example* *devices:*
 
--   [HP Laptop – 14t-dq200](https://www.hp.com/us-en/shop/pdp/hp-laptop-14t-dq200-touch-optional-2d129av-1?jumpid=ma_intel-optane_product-tile_clamshell-laptops_1_2d129av-1_hp-laptop---14t-dq20)
+-   [HP Laptop – 14t-dq200](https://www.hp.com/shop/pdp/hp-laptop-14t-dq200-touch-optional-2d129av-1?jumpid=ma_intel-optane_product-tile_clamshell-laptops_1_2d129av-1_hp-laptop---14t-dq20)
 
 -   Alternate laptop options include:
 
@@ -248,7 +248,7 @@ A large display gives remote participants a physical presence within the room, a
 
 -   Camera and Audio - [Logitech Rally Plus kit](https://www.logitech.com/products/video-conferencing/room-solutions/rally-ultra-hd-conferencecam.html)
 
--   Touch Console for Room Control – [Logitech TAP](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/tap.html?crid=1691)
+-   Touch Console for Room Control – [Logitech TAP](https://www.logitech.com/products/video-conferencing/room-solutions/tap.html?crid=1691)
 
 *Installing or setting up this solution is:*
 
@@ -318,6 +318,6 @@ View the following pages to learn more about Teams devices and partners:
 
 [Certified devices for Microsoft Teams](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-sync-20/825) – A comprehensive list of devices certified for Microsoft Teams
 
-[Learn More about Microsoft Teams Rooms](https://docs.microsoft.com/microsoftteams/rooms/) – A guide to Microsoft Teams Rooms covering planning, deployment, and usage
+[Learn More about Microsoft Teams Rooms](/rooms/) – A guide to Microsoft Teams Rooms covering planning, deployment, and usage
 
 [Teams Meeting Room Partner Program](https://cloudpartners.transform.microsoft.com/teams-mrpp) – A list of worldwide partners available to assist with planning and deploying Teams Room systems
