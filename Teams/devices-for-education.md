@@ -25,13 +25,13 @@ appliesto:
 
 ## Overview
 
-*Hybrid and blended education is here to stay.*
+### Hybrid and blended education is here to stay
 
 Learning in the future will be hybrid and blended. Educators and students both require a fluid experience realized across a continuum of spaces, motivated by a need for flexibility when it comes to how and where learning takes place. Education won’t be confined to a physical classroom or strictly virtual environments; remote participation will be just as dynamic as in-person learning. The flexibility that hybrid and blended learning offers, while not new to all, will be new to many and will have far-reaching impact. 
 
 The modern, hybrid classroom will be boundaryless. Students and educators will be empowered by synchronous and asynchronous learning as well as interactive, multi-modal engagement designed to meet the needs of every student in every circumstance. Teams devices have been designed to support a range of spaces so that no voice goes unheard. 
 
-*Student and educators alike excel with Microsoft Teams Rooms*
+### Student and educators alike excel with Microsoft Teams Rooms
 
 -   Microsoft Teams Rooms enable safe, secure, student-focused learning, from classroom integration to breakout rooms for more focused collaboration, and even one-on-ones to address specific student needs and questions.
 
@@ -39,7 +39,7 @@ The modern, hybrid classroom will be boundaryless. Students and educators will b
 
 -   Teams functionality is not restricted to the classroom. Educators and administrators can easily connect with other faculty and staff within the same school or within the entire school district from their home, office, or wherever else they’ve optimized their environment. With Teams, professional development is accessible from anywhere.
 
-*Bring digital flexibility to physical spaces*
+### Bring digital flexibility to physical spaces
 
 To ensure students and educators working remotely can fully participate in group collaboration and meetings, education workspaces will need technology to help bridge the divide between the old, in-person models and the new, hybrid and remote spaces.
 
