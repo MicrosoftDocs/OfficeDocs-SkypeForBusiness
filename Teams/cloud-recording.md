@@ -298,7 +298,7 @@ No, playback does not impact the expiration date.
   
 **What happens to the expiration date if the TMR is downloaded and re-uploaded?**
 
-The expiration date will be cleared up re-upload, regardless of the user’s SKU.
+The expiration date will be cleared upon re-upload, regardless of the user’s SKU.
   
 **What happens if I copy or the TMR to a different location or site?**
 
