@@ -29,18 +29,18 @@ appliesto:
 
 ## Overview
 
-A team template in Microsoft Teams is a definition of a team's structure designed around a business need or project. Team templates can include pre-defined settings, channels, and pre-installed apps. Team templates allow users to quickly create rich collaboration spaces with channels for different topics and apps to pull-in mission-critical content and services. As an admin, you can use team templates to easily deploy consistent teams across your organization.
+A team template in Microsoft Teams is a definition of a team's structure designed around a business need or project. A team template can include predefined settings, channels, and preinstalled apps. As an admin, you can use templates to easily deploy consistent teams across your organization. Templates also help orient users to get started with using Teams effectively. Your users can quickly create rich collaboration spaces with channels for different topics and apps to pull-in mission-critical content and services.
 
-You manage team templates in the Microsoft Teams admin center or by using PowerShell. You can choose the built-in templates that we provide or you can create your own. You can also apply template policies to control which templates are available to your users.
+You manage team templates in the Microsoft Teams admin center or by using PowerShell. Use the built-in templates that we provide or create your own custom templates. You can also apply template policies to control which templates are available to your users in Teams.
 
-This article gives you an overview of working with team team templates in the Teams admin center. You'll learn about the properties that you can define in templates, base templates, template size limits, how to create and manage templates, and more.
+This article is for you if you're responsible for planning, deploying, and managing multiple teams across your organization. It gives you an overview of working with team templates in the Teams admin center. You'll learn about the properties that are supported in templates, the built-in templates that we provide, template size limits, how to create and manage templates, and more.
 
 > [!NOTE]
-> Your users can [create teams based on the built-in or custom team templates](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) by using the Teams app. Developers and system integrators can also use Microsoft Graph to create teams based on the built-in team templates. To learn more, see [Get started with team templates and Microsoft Graph](get-started-with-teams-templates.md).
+> Your users can [create teams based on the built-in or custom team templates](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) by using the Teams app. Developers and system integrators can also programmatically create teams based on the built-in team templates using Microsoft Graph. To learn more, see [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md).
 
 ## Team template capabilities
 
-Most properties in a team are included and supported by templates. But there are a few properties and features that aren't currently supported. The following table provides a quick summary of what's included and what's not included in team templates.
+Most properties in a team are included and supported by team templates. But there are a few properties and features that aren't currently supported. Here's a summary of what's included and what's not included in team templates.
 
 | **Team properties supported by team templates** | **Team properties not yet supported by team templates** |
 | ------------------------------------------------ | -------------------------------------------------------- |
@@ -56,14 +56,16 @@ Most properties in a team are included and supported by templates. But there are
 > [!NOTE]
 > We'll be adding more template capabilities in future releases of Microsoft Teams, so check back for the most up-to-date information on supported properties.
 
-## What are base template types
+## Built-in team templates in the Teams admin center
 
-Base template types are special templates that Microsoft created for specific industries. These base templates often contain proprietary apps that aren't available in the apps store.
+Built-in templates (also called base template types) are special templates that we created for specific industries. These templates often contain proprietary apps that aren't available in the apps store.
 
-Once a base template type is defined, you can extend or override these special templates with more properties that you'd like to specify. Some base template types contain properties that can't be overridden.
+CHECKTHIS (specific to Graph???): Once a base template type is defined, you can extend or override these special templates with more properties that you'd like to specify. Some base template types contain properties that can't be overridden.
+
+Here's a list of the built-in templates that are available in the Teams admin center. To view these templates, in the left navigation of the Teams admin center, go to **Manage Teams** > **Teams templates**.
 
 > [!NOTE]
-> Pre-defined base templates provided in Microsoft Teams can be duplicated but not edited.
+> You can duplicate but you can't edit these built-in templates.
 
 | Base template type | baseTemplateId | Properties that come with this base template |
 | ------------------ | -------------- | ----------------------------------------------------- |
@@ -81,16 +83,16 @@ Once a base template type is defined, you can extend or override these special t
 |Quality and safety |`com.microsoft.teams.template.QualitySafety`|Channels: <ul><li>General<li>Announcements</li><li>Line 1</li><li>Line 2</li><li>Line 3</li><li>Safety</li><li>Training</li><li>Maintenance</li><li>Fun stuff</li></ul> Apps: <ul><li>Wiki</li><li>Planner</li> <li>Issue Reporter</li> <li>Inspection</li> </ul>|
 |Retail for managers| `retailManagerCollaboration` |Channels: <ul><li>General<li>Operations</li><li>Learning</li></ul> Apps: <ul><li>Wiki</li><li>Planner</li></ul>|
 
-## Team templates by category
+### Team templates by category and industry
 
-For a list of team templates by category, see the following:
+For more information about ways to use the built-in templates in your industry, see:
 
-- [General templates](general-teams-templates-in-the-admin-console.md)
-- [Financial templates](financial-teams-templates-in-the-admin-console.md)
-- [Government templates](government-teams-templates-in-the-admin-console.md)
-- [Healthcare templates](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
-- [Manufacturing templates](manufacturing-teams-templates-in-the-admin-console.md)
-- [Retail templates](retail-teams-templates-in-the-admin-console.md)
+- [Financial team templates](financial-teams-templates-in-the-admin-console.md)
+- [General team templates](general-teams-templates-in-the-admin-console.md)
+- [Government team templates](government-teams-templates-in-the-admin-console.md)
+- [Healthcare team templates](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
+- [Manufacturing team templates](manufacturing-teams-templates-in-the-admin-console.md)
+- [Retail team templates](retail-teams-templates-in-the-admin-console.md)
 
 ## Team template size limits
 
@@ -106,13 +108,23 @@ Templates are limited to a specific number of channels, tabs, and apps.
 |Apps per template | 50|
 |||
 
-See [Limits and specifications of Teams](limits-specifications-teams.md) for more information.
+For more information, see [Limits and specifications of Teams](limits-specifications-teams.md).
 
 ## Manage team templates
 
 ### Manage team templates in the Teams admin center
 
+#### Create your own team templates
 
+You can create your own custom templates from scratch, from an existing team, and from an existing built-in template. To learn more, see:
+
+- [Create a custom team template](create-a-team-template.md)
+- [Create a team template from an existing team template](create-template-from-existing-template.md)
+- [Create a template from an existing team](create-template-from-existing-team.md)
+
+#### Apply template policies
+
+To control the templates that users see in Teams, you can set template policies and assign them to users and groups in your organization. To learn more, see [Manage team templates in the Teams admin center](templates-policies.md).
 
 ### Manage team templates using PowerShell
 
@@ -124,8 +136,6 @@ Use the following cmdlets to manage your templates in PowerShell.
 - [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate?view=teams-ps) 
 - [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate?view=teams-ps)
 
-## Related topics
+## Related articles
 
-- [Create a custom team template](create-a-team-template.md)
-- [Create a team template from an existing team template](create-template-from-existing-template.md)
-- [Create a template from an existing team](create-template-from-existing-team.md)
+[Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md)
