@@ -35,7 +35,7 @@ appliesto:
 
 Microsoft Teams has a new method for saving meeting recordings. As the first phase of a transition from classic Microsoft Stream to the [new Stream](/stream/streamnew/new-stream), this method stores recordings on Microsoft OneDrive for Business and SharePoint Online in Microsoft 365 and offers many benefits.
 
-Stream (classic) as a platform won't be deprecated in the near future. The videos that currently live in Stream (classic) will stay there until a future migration tool is available to move them to OneDrive and SharePoint Online. Check [Stream classic migration](/stream/streamnew/classic-migration) for more information on our future plans.
+Stream (classic) as a platform won't be deprecated in the near future. The videos that currently live in Stream (classic) will stay there until a future migration tool is available to move them to OneDrive and SharePoint Online. Check [Stream classic migration](/stream/streamnew/stream-classic-to-new-migration-overview) for more information on our future plans.
 
 > [!NOTE]
 > If a Teams meeting recording fails to successfully upload to OneDrive/SharePoint Online, the recording will instead be temporarily saved to Azure Media Services (AMS). Once stored in AMS, no retry attempts are made to automatically upload the recording to OneDrive/SharePoint Online or Stream.
