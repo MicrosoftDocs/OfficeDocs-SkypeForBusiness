@@ -1506,6 +1506,8 @@ items:
           href: expand-teams-across-your-org/assignments-in-teams.md
         - name: Teams resources for Education admins
           href: resources-teams-edu.md
+        - name: Teams devices for Education
+          href: devices-for-education.md
         - name: Microsoft Education governance FAQ for admins
           href: plan-teams-governance-edu.md
         - name: Install Moodle integration
@@ -1613,9 +1615,13 @@ items:
         - name: Teams displays
           href: devices/teams-displays.md
         - name: Teams panels
-          href: devices/teams-panels.md
-        - name: Use Teams panels
-          href: devices/use-teams-panels.md
+          items: 
+              - name: Teams panels
+                href: devices/teams-panels.md
+              - name: Use Teams panels
+                href: devices/use-teams-panels.md
+              - name: App support on Teams panels  
+                href: app-support-on-Teams-panels.md
         - name: Upgrade Teams phones to Teams displays
           href: devices/upgrade-phones-to-displays.md
         - name: Deploy Teams phones and Teams displays using Intune
