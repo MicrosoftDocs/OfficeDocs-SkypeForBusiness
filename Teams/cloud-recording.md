@@ -286,7 +286,7 @@ We believe nearly all customers will benefit from the reduced storage load on th
   
 Accessing the file does not change the expiration date. 
   
-**Is the expiry date visible as column in the list?**
+**Is the expiry date visible as a column in the list?**
 
 Users with view access to the recording will see a red icon next to the file in the OneDrive or SharePoint folder 14 days before the file expires. There is currently no way to add a column to a list with expire date.
   
