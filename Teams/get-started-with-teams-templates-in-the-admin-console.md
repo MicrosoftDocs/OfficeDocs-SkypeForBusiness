@@ -1,5 +1,5 @@
 ---
-title: Use team templates in the Teams admin center
+title: Get started with team templates in the Teams admin center
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -31,7 +31,7 @@ appliesto:
 
 A team template in Microsoft Teams is a definition of a team's structure designed around a business need or project. As an admin, you can use templates to easily deploy consistent teams across your organization. With templates, your users can quickly create rich collaboration spaces with predefined settings, channels, and apps.
 
-You manage team templates in the Microsoft Teams admin center or by using PowerShell. You can use the pre-built templates that we provide and create your own custom templates. You can also apply template policies to control which templates are available to your users in Teams.
+You manage team templates in the Microsoft Teams admin center or by using PowerShell. You can use the pre-built templates that we provide and you can also [create your own custom templates](#create-your-own-team-templates). You can also apply template policies to control which templates are available to your users in Teams.
 
 This article is for you if you're responsible for planning, deploying, and managing multiple teams across your organization. It gives you an overview of working with team templates in the Teams admin center. You'll learn about the properties that are supported in templates, the pre-built templates that we provide, template size limits, how to create and manage templates, and more.
 
@@ -56,13 +56,13 @@ Most properties in a team are included and supported by team templates. But ther
 > [!NOTE]
 > We'll be adding more template capabilities in future releases of Microsoft Teams, so check back for the most up-to-date information on supported properties.
 
-## Built-in team templates in the Teams admin center
+## Pre-built team templates in the Teams admin center
 
-Built-in templates (also called base template types) are special templates that we created for specific industries. These templates often contain proprietary apps that aren't available in the apps store.
+Pre-built templates (also called base template types) are special templates that we created for specific industries. These templates often contain proprietary apps that aren't available in the apps store.
 
 CHECKTHIS (specific to Graph???): Once a base template type is defined, you can extend or override these special templates with more properties that you'd like to specify. Some base template types contain properties that can't be overridden.
 
-Here's a list of the pre-built templates that are available in the Teams admin center. To view these templates, in the left navigation of the Teams admin center, go to **Manage Teams** > **Teams templates**.
+Here's the pre-built templates that are available in the Teams admin center. To view these templates, in the left navigation of the Teams admin center, go to **Manage Teams** > **Teams templates**.
 
 > [!NOTE]
 > You can duplicate but you can't edit these pre-built templates.

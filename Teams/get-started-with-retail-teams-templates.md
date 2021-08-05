@@ -1,5 +1,5 @@
 ---
-title: Get started with a team template in retail
+title: Use retail team templates
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -21,7 +21,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Create a team using retail team templates
+# Use retail team templates
 
 Microsoft team templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
 

@@ -42,7 +42,7 @@ This article is for you if you're responsible for planning, deploying, and manag
 
 As an admin, you can manage team templates in the Microsoft Teams admin center. Here, you can view details about each template. You can also [create and assign templates policies](../../templates-policies.md) to your staff to control which templates they see in Teams for [creating teams](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c). To learn more about team templates in general, see [Get started with team templates in the Teams admin center](../../get-started-with-teams-templates-in-the-admin-console.md).
 
-We currently offer the following two pre-built healthcare team templates. To view them, in the left navigation of the Teams admin center, go to **Manage Teams** > **Teams templates**.
+We currently offer the following pre-built healthcare team templates. To view them, in the left navigation of the Teams admin center, go to **Manage Teams** > **Teams templates**.
 ### Patient care
 
  This template is meant for communication and collaboration within a ward, pod, or department. You can use this template to facilitate patient management and the operational needs of a ward. For example, post ward announcements in the *Announcements* channel and manage shifts in the *Staffing* channel.
@@ -62,7 +62,7 @@ This template is meant for communication and collaboration between multiple ward
 ||||
 ## Use team templates with Microsoft Graph
 
-Developers can use Microsoft Graph to create teams from team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](../../get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview?view=graph-rest-1.0), and [teamsTemplate resource type](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
+Developers can use Microsoft Graph to create teams from pre-built team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](../../get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview?view=graph-rest-1.0), and [teamsTemplate resource type](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
 
 Here are the pre-built healthcare team templates.
 ### Ward template

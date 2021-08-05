@@ -36,7 +36,7 @@ This article is for you if you're:
 - A developer wanting to programmatically create a team with predefined channels and apps
 
 > [!NOTE]
-> You can't create teams using Microsoft Graph from custom team templates. For more information about working with custom team templates, see [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md).
+> With Microsoft Graph, you use the pre-built team templates to create teams. You can't use Microsoft Graph to create teams from custom team templates. For more information about working with custom team templates, see [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md).
 
 ## Team template capabilities
 
@@ -97,7 +97,7 @@ Use the following templates to create teams in the Teams client and Microsoft Gr
 
 ## Related articles
 
-- [Get started with team templates in the admin console](get-started-with-teams-templates-in-the-admin-console.md)
+- [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md)
 - [Create a team](/graph/api/team-post?view=graph-rest-beta) (in preview)
 - [New-Team](/powershell/module/teams/New-Team?view=teams-ps)
 - [Admin training for Microsoft Teams](itadmin-readiness.md)
