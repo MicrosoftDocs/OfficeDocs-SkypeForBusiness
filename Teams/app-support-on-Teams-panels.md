@@ -3,7 +3,7 @@ title: "Microsoft Teams apps/Line of Business (LOB) app support on Teams panels"
 author: amandafrechinjackson
 ms.author: v-amandaf
 manager: jsarrasin
-ms.date: 8/9/2021
+ms.date: 8/5/2021
 ms.topic: conceptual
 audience: ITPro
 ms.service: msteams
