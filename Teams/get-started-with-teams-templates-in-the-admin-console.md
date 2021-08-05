@@ -29,7 +29,7 @@ appliesto:
 
 ## Overview
 
-A team template in Microsoft Teams is a definition of a team's structure designed around a business need or project. A team template can include predefined settings, channels, and preinstalled apps. As an admin, you can use templates to easily deploy consistent teams across your organization. Templates also help orient users to get started with using Teams effectively. Your users can quickly create rich collaboration spaces with channels for different topics and apps to pull-in mission-critical content and services.
+A team template in Microsoft Teams is a definition of a team's structure designed around a business need or project. A team template can include predefined settings, channels, and preinstalled apps. As an admin, you can use templates to easily deploy consistent teams across your organization. With templates, your users can quickly create rich collaboration spaces with predefined channels for different topics and apps to pull-in mission-critical content and services.
 
 You manage team templates in the Microsoft Teams admin center or by using PowerShell. Use the built-in templates that we provide or create your own custom templates. You can also apply template policies to control which templates are available to your users in Teams.
 

@@ -1,5 +1,5 @@
 ---
-title: "Use healthcare templates"
+title: "Use healthcare team templates"
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -27,29 +27,35 @@ ms.custom: seo-marvel-mar2020
 
 Team templates in Microsoft Teams allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
 
-For healthcare organizations, templates can be especially powerful, as they provide structure for users to become oriented with how to effectively use Teams. Templates also allow admins to deploy consistent teams across their organizations. This article is for you if you're responsible for planning, deploying, and managing multiple teams across your healthcare organization.
+For healthcare organizations, templates can be especially powerful, as they help provide structure for staff to become oriented with how to effectively use Teams. As an admin, you can use templates to easily deploy consistent teams across your healthcare organization.
 
-Choose a method for creating teams with the team healthcare templates:
+We offer team templates designed specifically for healthcare organizations. Use these templates to quickly create teams for your staff to communicate and collaborate on patient care and operational needs within or between wards and departments. In this article, we introduce you to each of these templates and recommend how to use them.
 
-| Who | Method to use: |
+This article is for you if you're responsible for planning, deploying, and managing multiple teams across your healthcare organization. How you manage and work with team templates depends on whether you're an admin or developer.
+
+|If you're: | Then, you: |
 | ---- | --------- |
-| Admins and IT Professionals | [Use the Teams admin center](#use-the-team-templates-in-the-admin-center) to create teams based on the healthcare team templates.|
-| Developers and systems integrators | [Use the Microsoft Graph](#use-team-templates-with-microsoft-graph) to create a team based on the healthcare team templates. |
+| An admin or IT pro |[Manage team templates in the Teams admin center](#manage-team-templates-in-the-teams-admin-center) |
+| A developer | [Use Microsoft Graph](#use-team-templates-with-microsoft-graph) |
 
-## Use the team templates in the admin center
+## Manage team templates in the Teams admin center
 
-Here are the healthcare templates that are currently available in the Teams admin center. You can use these templates to create teams for a variety of situations within your healthcare organization. To learn more about team templates in general, see [Get started with team templates in the admin center](../../get-started-with-teams-templates-in-the-admin-console.md).
+As an admin, you can manage team templates in the Microsoft Teams admin center. Here, you can view details about each template. You can also apply template policies to control which templates your staff can see in Teams for creating teams. To learn more, see [Get started with team templates in the Teams admin center](../../get-started-with-teams-templates-in-the-admin-console.md).
 
-### Collaborate on patient care
+### Healthcare team templates
 
- Streamline healthcare communication and collaboration within a ward, pod, or department. You can use this template to facilitate patient management and operational needs of a ward.
+To view these templates, in the left navigation of the Teams admin center, go to **Manage Teams** > **Teams templates**.
+
+#### Patient care
+
+ Streamline healthcare communication and collaboration within a ward, pod, or department. You can use this template to facilitate patient management and the operational needs of a ward. This template is meant for communication and collaboration within a ward, pod, or department. 
 
 | Base template type |baseTemplateId| Properties that come with this base template |
 | ------------------ |---|----------------------------------------------------- |
-| Collaborate on patient care |`healthcareWard` | Channels:<ul><li>General</li><li>Announcements</li><li>Huddles</li><li>Rounds</li><li>Staffing</li><li>Training</li></ul> Apps: <ul><li>Wiki</li><li>Lists</li></ul>|
+| Patient care |`healthcareWard` | Channels:<ul><li>General</li><li>Announcements</li><li>Huddles</li><li>Rounds</li><li>Staffing</li><li>Training</li></ul> Apps: <ul><li>Wiki</li><li>Lists</li></ul>|
 ||||
 
-### Hospital
+#### Hospital
 
 Streamline communication and collaboration between multiple wards, pods, and departments within a hospital. This template includes a set of base channels for hospital operations, and can be self-extended to include specialties, ad hoc.
 
@@ -85,12 +91,12 @@ The hospital template is meant for communication and collaboration between multi
 
 \* Auto-favorited 
 
-### How to use first-party templates
+### How to use healthcare templates
 
-To use these templates, simply change the 'template@odata.bind' property in the request body from 'standard' to the TemplateIDs above.  For more information on how to deploy team templates, see the Microsoft Graph article on how to [create a Team](/graph/api/team-post?view=graph-rest-beta).
+To use these templates, change the 'template@odata.bind' property in the request body from 'standard' to the TemplateIDs above.  For more information on how to deploy team templates, see the Microsoft Graph article on how to [create a team](/graph/api/team-post?view=graph-rest-beta).
 
 > [!NOTE]
-> The channels in the template will automatically be created under the General Tab.
+> The channels in the template will be automatically created under the **General** tab.
 
 #### Example: Hospital template extension script
 
@@ -194,8 +200,8 @@ To use these templates, simply change the 'template@odata.bind' property in the 
 
 ```
 
-### Related topics
+### Related articles
 
-[Get started with team templates](../../get-started-with-teams-templates.md)
+[Get started with team templates using Microsoft Graph](../../get-started-with-teams-templates.md)
 
-[Get started with team for Healthcare organizations](teams-in-hc.md)
+[Get started with Team for Healthcare organizations](teams-in-hc.md)
