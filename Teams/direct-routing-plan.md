@@ -238,7 +238,7 @@ You need to open ports for all these IP address ranges in your firewall to allow
 > [!IMPORTANT]
 > As part of Teams Direct Routing expansion and service improvement, we have deployed new instances of Direct Routing infrastructure in Japan in May 2021. This is reflected in two additional IP addresses (52.114.36.156 and 52.114.32.169) to which the following FQDNs will be resolved for Japan customers – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com, and sip3.pstnhub.microsoft.com. You need to make sure these two IP addresses (52.114.36.156 and 52.114.32.169) are allowed in your IP Access Control Lists (ACLs) and ports are open for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.
 
-### Office DoD environment
+### Office GCC DoD environment
 
 The connection point for Direct Routing is the following FQDN:
 
