@@ -42,10 +42,6 @@ If you run the preceding three commands, you'll see that that the default port v
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
 </colgroup>
 <thead>
 <tr class="header">
