@@ -31,9 +31,6 @@ For example, suppose you have configured your Conferencing, Application, and Med
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
 </colgroup>
 <thead>
 <tr class="header">
