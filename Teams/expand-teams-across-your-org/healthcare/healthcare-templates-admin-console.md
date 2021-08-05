@@ -27,7 +27,7 @@ ms.custom: seo-marvel-mar2020
 
 Team templates in Microsoft Teams allow you to quickly and easily create teams by providing a predefined team structure of settings, channels, and pre-installed apps.
 
-For healthcare organizations, team templates can be especially powerful, as they help you to quickly deploy consistent teams across your organization. Templates also help staff to become oriented with how to effectively use Teams.
+For healthcare organizations, team templates can be especially powerful, as they help you to quickly deploy consistent teams across your organization. Templates also help staff to get oriented with how to effectively use Teams.
 
 Teams includes templates designed specifically for healthcare organizations. Use these pre-built templates to quickly create teams for staff to communicate and collaborate on patient care or operational needs. In this article, we introduce you to each of these templates and recommend how to use them.
 
@@ -40,7 +40,7 @@ This article is for you if you're responsible for planning, deploying, and manag
 
 ## Manage team templates in the Teams admin center
 
-As an admin, you can manage team templates in the Microsoft Teams admin center. Here, you can view details about each template. You can also [create and assign templates policies](../../templates-policies.md) to your staff to control which templates they see in Teams for creating teams. To learn more about team templates in general, see [Get started with team templates in the Teams admin center](../../get-started-with-teams-templates-in-the-admin-console.md).
+As an admin, you can manage team templates in the Microsoft Teams admin center. Here, you can view details about each template. You can also [create and assign templates policies](../../templates-policies.md) to your staff to control which templates they see in Teams for [creating teams](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c). To learn more about team templates in general, see [Get started with team templates in the Teams admin center](../../get-started-with-teams-templates-in-the-admin-console.md).
 
 We currently offer the following two pre-built healthcare team templates. To view them, in the left navigation of the Teams admin center, go to **Manage Teams** > **Teams templates**.
 ### Patient care
@@ -62,7 +62,7 @@ This template is meant for communication and collaboration between multiple ward
 ||||
 ## Use team templates with Microsoft Graph
 
-Developers can use Microsoft Graph to create teams from team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](../../get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview?view=graph-rest-1.0) and [teamsTemplate resource type](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
+Developers can use Microsoft Graph to create teams from team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](../../get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview?view=graph-rest-1.0), and [teamsTemplate resource type](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
 
 Here are the pre-built healthcare team templates.
 ### Ward template
