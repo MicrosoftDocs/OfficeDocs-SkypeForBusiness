@@ -345,7 +345,7 @@ No. Changes to expiration policies do not affect existing meeting recordings. Ch
   
 **What SKUs are required for this feature?**
   
-All SKUs will have this feature by default. A1 users will be defaulted to a 30-day expiration period and won’t be able to modify the expiration date
+All SKUs will have this feature by default. A1 users will be defaulted to a 30-day expiration period and won’t be able to modify the expiration date.
   
 **Is the file expiration an audited event and will I be able to see it in my audit logs?**
   
