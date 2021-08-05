@@ -40,12 +40,12 @@ The following table provides a helpful quick reference to feature availability b
 
 **Actions supported:**
 
-| User's mailbox is hosted in:                                        | eDiscovery       | Legal&nbsp;Hold    | Retention  | Team and Channel mgmt | Create and view meetings in Teams | Modify user profile picture | Call History | Manage Contacts | Access Outlook contacts | Voicemail  | Add and configure connectors | Add and configure tabs | Add and configure bots |
-|---------------------------------------------------------------------|------------------|--------------------|------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------|------------------------------|------------------------|------------------------|
-| **Exchange Online**                                                 | Yes <sup>1</sup> | Yes <sup>1</sup>   | Yes        | Yes                   | Yes                               | Yes<sup>7</sup>             | Yes          | Yes             | Yes <sup>6</sup>        | Yes        | Yes                          | Yes                    | Yes                    |
-| **Exchange Online Dedicated vNext**                                 | Yes <sup>1</sup> | Yes <sup>1</sup>   | Yes        | Yes                   | Yes                               | Yes<sup>7</sup>             | Yes          | Yes             | Yes <sup>6</sup>        | Yes        | Yes                          | Yes                    | Yes                    |
-| **Exchange Online Dedicated – Legacy** (Sync to Azure AD required)  | Yes <sup>1</sup> | Yes <sup>1,2</sup> | Yes <sup>3</sup> | Yes                   | No                                | No                          | Yes          | Yes             | No                      | Yes <sup>4</sup> | Yes <sup>5</sup>                   | Yes                    | Yes                    |
-| **Exchange On-premises** (Sync to Azure AD) | Yes <sup>1,9</sup> | Yes <sup>1</sup>   | Yes <sup>3</sup> | Yes                   | Yes <sup>8</sup>         | Yes                          | Yes          | Yes             | No                      | Yes <sup>4</sup> | Yes <sup>5</sup>                   | Yes                    | Yes                    |
+| User's mailbox is hosted in:                                       | eDiscovery         | Legal&nbsp;Hold    | Retention        | Team and Channel mgmt | Create and view meetings in Teams | Modify user profile picture | Call History | Manage Contacts | Access Outlook contacts | Voicemail        | Add and configure connectors | Add and configure tabs | Add and configure bots |
+|--------------------------------------------------------------------|--------------------|--------------------|------------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------------|------------------------------|------------------------|------------------------|
+| **Exchange Online**                                                | Yes <sup>1</sup>   | Yes <sup>1</sup>   | Yes              | Yes                   | Yes                               | Yes<sup>7</sup>             | Yes          | Yes             | Yes <sup>6</sup>        | Yes              | Yes                          | Yes                    | Yes                    |
+| **Exchange Online Dedicated vNext**                                | Yes <sup>1</sup>   | Yes <sup>1</sup>   | Yes              | Yes                   | Yes                               | Yes<sup>7</sup>             | Yes          | Yes             | Yes <sup>6</sup>        | Yes              | Yes                          | Yes                    | Yes                    |
+| **Exchange Online Dedicated – Legacy** (Sync to Azure AD required) | Yes <sup>1</sup>   | Yes <sup>1,2</sup> | Yes <sup>3</sup> | Yes                   | No                                | No                          | Yes          | Yes             | No                      | Yes <sup>4</sup> | Yes <sup>5</sup>             | Yes                    | Yes                    |
+| **Exchange On-premises** (Sync to Azure AD)                        | Yes <sup>1,9</sup> | Yes <sup>1</sup>   | Yes <sup>3</sup> | Yes                   | Yes <sup>8</sup>                  | Yes<sup>10</sup>            | Yes          | Yes             | No                      | Yes <sup>4</sup> | Yes <sup>5</sup>             | Yes                    | Yes                    |
 
 <sup>1</sup> eDiscovery and Legal Hold for compliance on channel messages is supported for all hosting options.
 
@@ -64,6 +64,8 @@ The following table provides a helpful quick reference to feature availability b
 <sup>8</sup> You need to meet the requirements listed in the [Requirements to create and view meetings for mailboxes hosted on-premises](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) section.
 
 <sup>9</sup> A minimum of an Exchange Online Plan 1 license is also required. For more information, see [Search for Teams chat data for on-premises users](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users).
+
+<sup>10</sup> On-premises users can use Teams to update their profile picture even if the `SetPhotoEnabled` Outlook on the Web mailbox policy is set to `false`.
 
 ## Requirements to get the most out of Microsoft Teams
 
