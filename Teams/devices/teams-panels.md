@@ -43,7 +43,7 @@ To learn more about these features and how to use them, see [Use Microsoft Teams
 You can acquire your Teams panels devices from one of the following partners:
 
 - Crestron
-- (Coming soon) Yealink
+- Yealink
 
 ## Teams panels requirements
 
