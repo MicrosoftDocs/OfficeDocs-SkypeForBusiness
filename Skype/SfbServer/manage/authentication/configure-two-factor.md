@@ -75,9 +75,9 @@ For computers equipped with a Trusted Platform Module (TPM) chip that meets spec
 
 5. Open the Trusted Platform Module (TPM) Management console by running the following command:
 
-  ```console
-  Tpm.msc
-  ```
+   ```console
+   Tpm.msc
+   ```
 
 6. From the TPM management console, verify that your TPM specification version is at least 1.2
 
@@ -167,10 +167,9 @@ For more information on enrolling on behalf of users as an enrollment agent, see
 
     > [!NOTE]
     >  If your certificate request fails with the error "This Web browser does not support the generation of certificate requests," there are three possible ways to resolve the issue:
-
-        a. Enable Compatibility View in Internet Explorer
-        b. Enable the Turn on Intranet settings option in Internet Explorer
-        c. Select the Reset all zones to default level setting under the Security tab in the Internet Explorer options menu.
+    >- Enable Compatibility View in Internet Explorer.
+    >- Enable the Turn on Intranet settings option in Internet Explorer.
+    >- Select the Reset all zones to default level setting under the Security tab in the Internet Explorer options menu.
 
 ## Configure Active Directory Federation Services (AD FS 2.0)
 
