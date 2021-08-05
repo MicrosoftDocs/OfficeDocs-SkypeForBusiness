@@ -73,9 +73,6 @@ In order to implement QoS, each of these port ranges will need to be unique. For
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -135,9 +132,6 @@ The following example uses this set of port ranges to create an audio policy and
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -218,7 +212,7 @@ For a file transfer policy:
 
 The new policies you have created will not take effect until Group Policy has been refreshed on your client computers. Although Group Policy periodically refreshes on its own, you can force an immediate refresh by running the following command on each computer where Group Policy needs to be refreshed:
 
-    Gpupdate.exe /force
+**Gpupdate.exe /force**
 
 This command can be run from any command window that is running under administrator credentials. To run a command window under administrator credentials, click **Start**, right-click **Command Prompt**, and then click **Run as administrator**.
 
