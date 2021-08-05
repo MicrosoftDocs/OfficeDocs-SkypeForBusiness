@@ -92,8 +92,8 @@ For computers equipped with a Trusted Platform Module (TPM) chip that meets spec
   TpmVscMgr create /name MyVSC /pin default /adminkey random /generate
   ```
 
-    > [!NOTE]
-    > To provide a custom PIN value when creating the virtual smart card, use /pin prompt instead.
+   > [!NOTE]
+   > To provide a custom PIN value when creating the virtual smart card, use /pin prompt instead.
 
 9. From the command prompt, open the Computer Management console by running the following command:
 
@@ -292,8 +292,8 @@ The following steps describe how to create a custom web service configuration fo
   New-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
   ```
 
-    > [!CAUTION]
-    > The value for the WsFedPassiveMetadataUri FQDN is the Federation Service Name of your AD FS 2.0 server. The Federation Service Name value can be found in the AD FS 2.0 Management Console by right-clicking on **Service** from the navigation pane and then selecting **Edit Federation Service Properties**.
+   > [!CAUTION]
+   > The value for the WsFedPassiveMetadataUri FQDN is the Federation Service Name of your AD FS 2.0 server. The Federation Service Name value can be found in the AD FS 2.0 Management Console by right-clicking on **Service** from the navigation pane and then selecting **Edit Federation Service Properties**.
 
 4. Verify that the UseWsFedPassiveAuth and WsFedPassiveMetadataUri values were set correctly by running the following command:
 
