@@ -120,11 +120,11 @@ To view team templates, in the left navigation of the Teams admin center, go to 
 
 #### Create your own team templates
 
-You can create your own custom templates from scratch, from an existing team, and from an existing pre-built template. To learn more, see:
+You can create your own custom templates from scratch, from an existing team, and from an existing template. To learn more, see:
 
 - [Create a custom team template](create-a-team-template.md)
-- [Create a team template from an existing team template](create-template-from-existing-template.md)
 - [Create a template from an existing team](create-template-from-existing-team.md)
+- [Create a team template from an existing team template](create-template-from-existing-template.md)
 
 #### Apply team template policies
 
@@ -142,5 +142,5 @@ Use the following cmdlets to manage your templates in PowerShell.
 
 ## Related articles
 
-[Create a team from a template](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)
-[Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md)
+- [Create a team from a template](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)
+- [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md)

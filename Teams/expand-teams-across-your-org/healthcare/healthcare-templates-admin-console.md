@@ -36,7 +36,7 @@ This article is for you if you're responsible for planning, deploying, and manag
 |If you're: | Then, you: |
 | ---- | --------- |
 | An admin or IT pro |[Manage healthcare team templates in the Teams admin center](#manage-team-templates-in-the-teams-admin-center). View team templates and apply templates policies to control which templates your staff can use in Teams for creating teams. |
-| A developer | [Use Microsoft Graph](#use-team-templates-with-microsoft-graph) to create teams from healthcare team templates. |
+| A developer | [Use Microsoft Graph](#use-team-templates-with-microsoft-graph) to create teams from  team templates. |
 
 ## Manage team templates in the Teams admin center
 
@@ -87,7 +87,7 @@ The hospital template is meant for communication and collaboration between multi
 
 \* Auto-favorited 
 
-### How to use the healthcare team templates
+### How to use team templates with Microsoft Graph
 
 To use these templates, change the 'template@odata.bind' property in the request body from 'standard' to the TemplateIds above. For more information on how to deploy team templates, see the Microsoft Graph article on how to [create a team](/graph/api/team-post?view=graph-rest-beta).
 
