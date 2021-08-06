@@ -137,7 +137,7 @@ Agents' Teams accounts need to be set to Teams-only mode. Agents who don't meet 
 > Conference mode is not supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location Based Routing.
 
 > [!TIP]
-> Setting **Conference mode** to **Auto** is the recommended setting.
+> Setting **Conference mode** to **On** is the recommended setting.
 
 **Routing method** determines the order in which agents receive calls from the queue. Choose from these options:
 
@@ -200,7 +200,7 @@ When you have selected your call timeout options, click **Save**.
 
 The following settings are recommended:
 
-- **Conference mode** to **Auto**
+- **Conference mode** to **On**
 - **Routing method** to **Round robin** or **Longest idle**
 - **Presence-based routing** to **On**
 - **Agent alert time:** to **20 seconds**
