@@ -200,7 +200,7 @@ When you have selected your call timeout options, click **Save**.
 
 The following settings are recommended:
 
-- **Conference mode** to **Auto**
+- **Conference mode** to **On**
 - **Routing method** to **Round robin** or **Longest idle**
 - **Presence-based routing** to **On**
 - **Agent alert time:** to **20 seconds**
