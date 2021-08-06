@@ -82,8 +82,8 @@ Once setup is complete, you should see the names of several hundred dimensions a
 
     ![Screenshot: Power BI Connector](media/CQD-power-bi-connector5-resize.png)
 
-> [!IMPORTANT]
-> Filters are only supported when applied to Dimensions. Filtering on the values of Measurements is not supported in Call Quality Dashboard.
+    > [!IMPORTANT]
+    > Filters are only supported when applied to Dimensions. Filtering on the values of Measurements is not supported in Call Quality Dashboard.
 
 4. Finally, select the *Format* tab within the *Visualizations* pane to style and format your query.
 
