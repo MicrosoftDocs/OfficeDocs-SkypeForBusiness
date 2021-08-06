@@ -89,7 +89,7 @@ None
 
 - Bots only have access to teams to which they've been added or to users who have installed them.
 
-- Bots can receive messages even without at mention. This data leaves the corporate network.
+- Bots can receive messages even without being @mentioned. This data leaves the corporate network.
  
 - Bots can only reply to conversations in which they're mentioned.
 
