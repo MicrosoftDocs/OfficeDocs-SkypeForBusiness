@@ -89,8 +89,8 @@ None
 
 - Bots only have access to teams to which they've been added or to users who have installed them.
 
-- Bots only receive messages in which they're explicitly mentioned by users. This data leaves the corporate network.
-
+- Bots can receive messages even without at mention. This data leaves the corporate network.
+ 
 - Bots can only reply to conversations in which they're mentioned.
 
 - After a user has conversed with a bot, if the bot stores that user's ID, it can send that user direct messages at any time.
