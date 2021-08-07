@@ -143,7 +143,7 @@ WebRTC logs can assist Microsoft Support by providing connection details for aud
   
 1.  Open a new tab and go to one of the following URLs:
     -   Edge (Chromium): "edge://webrtc-internals/"
-    -   Chrome: "[chrome://webrtc-internals/]"
+    -   Chrome: "chrome://webrtc-internals/"
   
 2.  Open the Teams Web application and reproduce the problem.
   
