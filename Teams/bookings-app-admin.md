@@ -1,6 +1,6 @@
 ---
 title: "Virtual visits with Microsoft Teams and the Bookings app"
-author: msdmaguire
+author: serdars
 ms.author: dmaguire
 manager: serdars
 audience: ITPro
