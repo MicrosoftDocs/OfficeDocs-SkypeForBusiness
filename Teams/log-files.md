@@ -142,14 +142,14 @@ After you’re signed in, select one of the following links, as appropriate for 
 WebRTC logs can assist Microsoft Support by providing connection details for audio and video calls. Follow the steps to access the WebRTC logs in Edge (Chromium) or Chrome: 
   
 1.  Open a new tab and access one of the following URLs:
-  - For Edge (Chromium): "edge://webrtc-internals/"
-  - For Chrome: "chrome://webrtc-internals/"
+    -   For Edge (Chromium): "edge://webrtc-internals/"
+    -   For Chrome: "chrome://webrtc-internals/"
   
 2.  Open the Teams Web application and reproduce the problem.
   
 3.  Go back to the tab accesed in step 1 and you will see at least two tabs:
-  - GetUserMedia Requests
-  - https://teams.microsoft.com/url
+    -   GetUserMedia Requests
+    -   https://teams.microsoft.com/url
 
 4.  Choose the tab with the name of the Teams application and save the page content.
 
