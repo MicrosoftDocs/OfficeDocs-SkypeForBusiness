@@ -1,5 +1,5 @@
 ---
-title:  Teams: Manage call notifications
+title: "Teams: Manage call notifications"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -45,4 +45,4 @@ The call won't be registered in the call detail records of Microsoft Phone Syste
 
 The diagram below illustrates the SIP ladder for Fork 1, explains the call flow, and the expected REASON in the Cancel message. 
 
-![Diagram showing forked Teams endpoints](media/direct-routing-call-notification-2.png)
+![Diagram shows forked Teams endpoints](media/direct-routing-call-notification-2.png)
