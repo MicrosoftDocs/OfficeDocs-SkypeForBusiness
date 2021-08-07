@@ -1,5 +1,5 @@
 ---
-title: Direct Routing Local Media Optimization
+title: Local media optimization for direct touting
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -18,7 +18,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Local Media Optimization for Direct Routing
+# Local media optimization for direct routing
 
 Public Switched Telephone Network (PSTN) voice is considered a business-critical application with high expectations for voice quality. Direct Routing lets you control media traffic flows to accommodate a multitude of network topologies and local telephony setups for various enterprises all over the world. 
 

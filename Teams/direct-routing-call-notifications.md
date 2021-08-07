@@ -1,5 +1,5 @@
 ---
-title:  Phone System Direct Routing
+title:  Teams: Manage call notifications
 author: CarolynRowe
 ms.author: crowe
 manager: serdars

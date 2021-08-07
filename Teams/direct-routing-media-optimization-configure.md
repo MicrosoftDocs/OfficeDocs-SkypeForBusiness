@@ -1,5 +1,5 @@
 ---
-title: Direct Routing Local Media Optimization
+title: Configure local media optimization for direct routing in Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
