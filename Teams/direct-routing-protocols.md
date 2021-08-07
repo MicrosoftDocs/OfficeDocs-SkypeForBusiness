@@ -14,7 +14,7 @@ ms.reviewer: nmurav
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Direct Routing protocols
+description: How Microsoft Phone System Direct Routing implements RFC standard protocols.
 appliesto:
 - Microsoft Teams
 ---
