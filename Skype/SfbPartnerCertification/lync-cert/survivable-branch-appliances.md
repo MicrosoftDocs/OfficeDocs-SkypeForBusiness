@@ -23,7 +23,7 @@ description: "Partner qualification requirements for Lync."
 
 # Lync: Survivable branch appliances
 
-Survivable branch appliances (SBAs) listed in the table that follows, along with the relevant firmware, has been independently qualified with Lync Server. We recommend that you visit the vendor's web site for the latest information regarding protocol, capacity, country support and documentation including a Quick Start Guide, release notes and any known issues.
+Survivable branch appliances (SBAs) listed in the table that follows, along with the relevant firmware, has been independently qualified with Lync Server. We recommend you visit the vendor's web site for the latest information about protocol, capacity, country support, and documentation that includes a Quick Start Guide, release notes, and any known issues.
 
 ## Qualified for Microsoft Lync Server 2013
 
@@ -105,7 +105,7 @@ Survivable branch appliances (SBAs) listed in the table that follows, along with
 		<td colspan="2" style="line-height:0;font-size:0;display:none;"> </td>
 	</tr>
 	<tr align="left" bgcolor="#F8F8F8" valign="top">
-		<td colspan="2">For more information on this configuration, please see <a href="https://www.microsoft.com/download/confirmation.aspx?id=28555">Deploying the Survivable Branch Appliance in Lync Server 2010 for Cisco Integrated Services Router / Service Ready Engine.</a></td>
+		<td colspan="2">For more information on this configuration, see <a href="https://www.microsoft.com/download/confirmation.aspx?id=28555">Deploying the Survivable Branch Appliance in Lync Server 2010 for Cisco Integrated Services Router / Service Ready Engine.</a></td>
 	</tr>
 	<tr align="left" valign="top">
 		<td><a href="http://www.dialogic.com/Solutions/Unified-Communications/UC-Connectivity/Microsoft-Lync.aspx">Dialogic</a></td>
@@ -137,4 +137,4 @@ Survivable branch appliances (SBAs) listed in the table that follows, along with
 	</tr>
 </table>
 
-For more information on Survivable Branch Appliance configurations with Lync Server, please see <a href="/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-branch-site-voice-resiliency">Planning for Branch-Site Voice Resiliency</a>.<!-- 2013 content yet to migrate  -->
+For more information on Survivable Branch Appliance configurations with Lync Server, see <a href="/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-branch-site-voice-resiliency">Planning for Branch-Site Voice Resiliency</a>.<!-- 2013 content yet to migrate  -->
