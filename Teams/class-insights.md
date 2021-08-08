@@ -214,7 +214,7 @@ By default, Insights is turned on, which enables us to collect analytics of stud
 
 * To turn off/on Insights all together, open the [SDS Admin Center](https://sds.microsoft.com/) and go to **Settings** > **Manage Education Insights**. Turn off/on  '**Collect activity data for Insights**' to disable/enable Insights.
 
-:::image type="content" source="media/insights-settings" alt-text="Turn Insights on or off":::
+:::image type="content" source="media/insights-settings.png" alt-text="Turn Insights on or off":::
 
 > [!NOTE]
 > When you opt-out, we *delete all the data collected* for Insights. Turn Insights back on, and we start collecting data from the time it's re-enabled. Deleted data on opt-out canot be restored. 
