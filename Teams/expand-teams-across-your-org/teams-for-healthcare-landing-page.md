@@ -4,6 +4,7 @@ description: Learn about the admin resources available for you to manage Teams f
 author: cichur
 ms.author: v-cichur
 manager: serdars
+ms.topic: article
 audience: admin
 f1.keywords:
 - NOCSH

@@ -1,5 +1,5 @@
 ---
-title: Manage teams in the Microsoft Teams admin center
+title: Manage Microsoft Teams in the Microsoft Teams admin center
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
