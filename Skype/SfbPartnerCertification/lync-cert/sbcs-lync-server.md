@@ -1,6 +1,6 @@
 ---
 title: "Session border controllers"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand

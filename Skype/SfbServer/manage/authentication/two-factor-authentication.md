@@ -76,11 +76,11 @@ If users are unintentionally prompted for credentials before they are prompted t
   
 To prevent the additional prompt for credentials, create the following registry entry on the local workstation or use the Skype for Business administrative template to apply to all users for a given pool using Group Policy:
   
-    HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Office\15.0\Lync
+HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Office\15.0\Lync
   
-    REG_DWORD: DisableNTCredentials
-  
-    Value: 0x0
+REG_DWORD: DisableNTCredentials
+
+Value: 0x0
   
 ### SavePassword
 
@@ -88,11 +88,11 @@ When a user signs in to Skype for Business for the first time, the user is promp
   
 The **SavePassword** registry setting should be disabled when Skype for Business is configured to support two-factor authentication. To prevent users from saving their passwords, change the following registry entry on the local workstation or use the Skype for Business administrative template to apply to all users for a given pool using Group Policy:
   
-    HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync
+HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync
   
-    REG_DWORD: SavePassword
+REG_DWORD: SavePassword
   
-    Value: 0x0
+Value: 0x0
   
 ## AD FS 2.0 Token Replay
 

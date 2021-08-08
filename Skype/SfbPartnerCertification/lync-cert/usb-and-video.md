@@ -1,6 +1,6 @@
 ---
-title: "Phones and devices qualified for Microsoft Lync - USB and Video Devices"
-ms.author: dmaguire
+title: "Lync: Phones and qualified devices - USB and video devices"
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand

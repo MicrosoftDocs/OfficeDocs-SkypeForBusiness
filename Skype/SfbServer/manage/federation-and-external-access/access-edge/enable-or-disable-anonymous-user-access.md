@@ -51,15 +51,11 @@ You can manage anonymous user access by using Windows PowerShell and the **Set-C
 
 ## To enable anonymous user access
 
-  - To enable anonymous user access, set the value of the **AllowAnonymousUsers** property to True ($True):
-    
-        Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
+  - To enable anonymous user access, set the value of the **AllowAnonymousUsers** property to True ($True):<br/><br/>Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
 
 ## To disable anonymous user access
 
-  - To disable anonymous user access, set the value of the **AllowAnonymousUsers** property to False ($False):
-    
-        Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
+  - To disable anonymous user access, set the value of the **AllowAnonymousUsers** property to False ($False):<br/><br/>Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
 
 
 ## See Also

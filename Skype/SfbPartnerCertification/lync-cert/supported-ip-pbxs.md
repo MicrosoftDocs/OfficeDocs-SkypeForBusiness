@@ -1,6 +1,6 @@
 ---
 title: "Partner qualification for Lync - IP PBXs"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand

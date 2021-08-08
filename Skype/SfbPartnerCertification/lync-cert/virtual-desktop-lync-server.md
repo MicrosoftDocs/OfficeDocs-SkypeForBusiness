@@ -1,6 +1,6 @@
 ---
 title: "Virtual Desktop Infrastructure for Lync Server 2013"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
