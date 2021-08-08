@@ -18,7 +18,7 @@ f1.keywords:
 ms.custom:
 - Lync Certification
 - dn788945
-description: "Partner qualification requirements for Lync."
+description: "Partner qualification requirements for Lync: Survivable branch appliances."
 ---
 
 # Lync: Survivable branch appliances
@@ -28,7 +28,7 @@ Survivable branch appliances (SBAs) listed in the table that follows, along with
 ## Qualified for Microsoft Lync Server 2013
 
 ***Table 1 - SBAs qualified for Lync Server 2013***
-<table border="1" cellpadding="5" cellspacing="" class="grid" width="100%" xmlns="http://www.w3.org/1999/xhtml">
+<table border="1" cellpadding="5" cellspacing="" class="grid" width="100%">]
 	<colgroup>
 		<col width="115" />
 		<col width="500" />
@@ -68,7 +68,7 @@ Survivable branch appliances (SBAs) listed in the table that follows, along with
 ## Qualified for Microsoft Lync Server 2010
 
 ***Table 2 - SBAs qualified for Lync Server 2010***
-<table border="1" cellpadding="5" cellspacing="" class="grid" width="100%" xmlns="http://www.w3.org/1999/xhtml">
+<table border="1" cellpadding="5" cellspacing="" class="grid" width="100%">
 	<colgroup>
 		<col width="115" />
 		<col width="500" />
