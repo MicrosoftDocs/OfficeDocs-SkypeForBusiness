@@ -25,7 +25,7 @@ ms.custom:
   - seo-marvel-apr2020
 description: Learn to manage meeting policy settings in Teams. Use policy settings to control the features available to meeting participants for meetings scheduled by users.
 ---
-# Manage meeting policies in Microsoft Teams
+# Manage meeting policies in Teams
 
 ::: zone target="docs"
 Use meeting policies to control the features that are available to meeting participants for meetings that are scheduled by users in your organization. You can use the global (Org-wide default) policy that's automatically created or create and assign custom policies. You manage meeting policies in the Microsoft Teams admin center or by using [PowerShell](teams-powershell-overview.md).
