@@ -30,7 +30,7 @@ Sufficient internal testing has been performed by Microsoft such that specific c
 ## Supported for Lync 2013
 ***Table 1 - Supported for Lync 2013***
 
-<table border="1" cellpadding="5" cellspacing="" class="grid" width="100%" xmlns="http://www.w3.org/1999/xhtml">
+<table border="1" cellpadding="5" cellspacing="" class="grid" width="100%">
 	<colgroup>
 		<col width="74" />
 		<col width="364" />
@@ -156,7 +156,7 @@ Sufficient internal testing has been performed by Microsoft such that specific c
 ## Supported in Lync 2010
 
 <strong><em>Table 2 - IP PBXs supported in Lync 2010</em></strong>
-<table border="1" cellpadding="5" cellspacing="" class="grid" width="100%" xmlns="http://www.w3.org/1999/xhtml">
+<table border="1" cellpadding="5" cellspacing="" class="grid" width="100%">
 	<thead>
 		<tr bgcolor="#DEDEDE">
 			<td align="center" valign="top"><strong>IP-PBX Vendor</strong></td>
