@@ -31,7 +31,7 @@ The Cumulative Updates for Lync Server 2013: July 2013 desktop client and the Sk
   
 ## Topology Requirements
 
-Customers are strongly encouraged to deploy two-factor authentication using dedicated Skype for Business Server with Edge, Director, and User Pools. To enable passive authentication for users, other authentication methods must be disabled for other roles and services, including the following:
+Customers are encouraged to deploy two-factor authentication using dedicated Skype for Business Server with Edge, Director, and User Pools. To enable passive authentication for users, other authentication methods must be disabled for other roles and services, including these:
   
 |**Configuration Type**|**Service Type**|**Server Role**|**Authentication Type to Disable**|
 |:-----|:-----|:-----|:-----|
@@ -48,7 +48,7 @@ DNS records used by internal and/or external clients to discover Skype for Busin
   
 ## Exchange Authentication
 
-Customers who have deployed two-factor authentication for Microsoft Exchange may find that certain features in the client are unavailable. This is currently by design, as the Skype for Business client does not support two-factor authentication for features that are dependent on Exchange integration.
+Customers who have deployed two-factor authentication for Microsoft Exchange may find that certain features in the client are unavailable. This behavior is by design, as the Skype for Business client doesn't support two-factor authentication for features that are dependent on Exchange integration.
   
 ## Contacts
 
@@ -100,7 +100,7 @@ AD FS 2.0 provides a feature referred to as token replay detection, by which mul
   
 This feature should be enabled in situations where security is a very high concern such as when using kiosks. For more information about token replay detection, see [Best Practices for Secure Planning and Deployment of AD FS 2.0](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ff630160(v=ws.10)).
   
-## External User Access
+## Guest User Access
 
 Configuring an ADFS Proxy or Reverse Proxy to support Skype for Business two-factor authentication from external networks is not covered in these topics.
   
