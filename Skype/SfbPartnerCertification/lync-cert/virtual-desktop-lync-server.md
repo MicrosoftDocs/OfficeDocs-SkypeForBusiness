@@ -18,7 +18,7 @@ f1.keywords:
 ms.custom:
 - Lync Certification
 - dn788944
-description: "Partner qualification requirements for Lync."
+description: "Partner qualification requirements for Lync: Virtual desktop infrastructure."
 ---
 
 # Virtual Desktop Infrastructure for Lync Server 2013
@@ -38,7 +38,7 @@ With the release of Lync Server 2013, Microsoft has worked closely with multiple
 ## VDI environments
 The following table lists the VDI partners and their products that have been tested with the Lync 2013 VDI plug-in. 
 
-<table border="1" cellpadding="0" cellspacing="0" class="grid" style="border-collapse:collapse;background-color:white;" width="100%" xmlns="http://www.w3.org/1999/xhtml">
+<table border="1" cellpadding="0" cellspacing="0" class="grid" width="100%">
 	<colgroup>
 		<col width="72" />
 		<col width="264" />
