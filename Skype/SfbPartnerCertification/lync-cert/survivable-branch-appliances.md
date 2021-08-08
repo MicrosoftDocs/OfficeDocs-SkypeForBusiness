@@ -28,7 +28,7 @@ Survivable branch appliances (SBAs) listed in the table that follows, along with
 ## Qualified for Microsoft Lync Server 2013
 
 ***Table 1 - SBAs qualified for Lync Server 2013***
-<table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" width="100%" xmlns="http://www.w3.org/1999/xhtml">
+<table border="1" cellpadding="5" cellspacing="" class="grid" width="100%" xmlns="http://www.w3.org/1999/xhtml">
 	<colgroup>
 		<col width="115" />
 		<col width="500" />
@@ -68,7 +68,7 @@ Survivable branch appliances (SBAs) listed in the table that follows, along with
 ## Qualified for Microsoft Lync Server 2010
 
 ***Table 2 - SBAs qualified for Lync Server 2010***
-<table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" width="100%" xmlns="http://www.w3.org/1999/xhtml">
+<table border="1" cellpadding="5" cellspacing="" class="grid" width="100%" xmlns="http://www.w3.org/1999/xhtml">
 	<colgroup>
 		<col width="115" />
 		<col width="500" />
@@ -102,7 +102,7 @@ Survivable branch appliances (SBAs) listed in the table that follows, along with
 		<td>SRE-900</td>
 	</tr>
 	<tr>
-		<td colspan="2" style="line-height:0;font-size:0;display:none;"> </td>
+		<td colspan="2"> </td>
 	</tr>
 	<tr align="left" bgcolor="#F8F8F8" valign="top">
 		<td colspan="2">For more information on this configuration, see <a href="https://www.microsoft.com/download/confirmation.aspx?id=28555">Deploying the Survivable Branch Appliance in Lync Server 2010 for Cisco Integrated Services Router / Service Ready Engine.</a></td>
