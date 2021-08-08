@@ -1,5 +1,5 @@
 ---
-title: Manage teams in the Microsoft Teams admin center
+title: Manage Microsoft Teams in the Microsoft Teams admin center
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -32,7 +32,7 @@ As an admin, you may need to view or update the teams that your organization set
 - Global Administrator
 - Teams Administrator
 
-You can learn more about admin roles in Teams in [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md), and you can read more about how to use the PowerShell cmdlets for managing teams in the [Microsoft Teams cmdlet reference](/powershell/teams/?view=teams-ps).
+You can learn more about admin roles in Teams in [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md), and you can read more about how to use the PowerShell cmdlets for managing teams in the [Microsoft Teams cmdlet reference](/powershell/teams/).
 
 
 
@@ -116,7 +116,7 @@ Some of your teams are missing from the list of teams in the Teams overview grid
 
 **Resolution: Manually set the property to the correct value via MS Graph**
 
-Replace **{groupid}** in the Query for the actual GroupId in question, which you can get via the Exchange Online PowerShell, with the **"[Get-UnifiedGroup](/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** cmdlet, as the "**ExternalDirectoryObjectId**" attribute.
+Replace **{groupid}** in the Query for the actual GroupId in question, which you can get via the Exchange Online PowerShell, with the **"[Get-UnifiedGroup](/powershell/module/exchange/users-and-groups/get-unifiedgroup)"** cmdlet, as the "**ExternalDirectoryObjectId**" attribute.
 
 1. Access [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer).
 
@@ -132,6 +132,6 @@ Replace **{groupid}** in the Query for the actual GroupId in question, which you
 
 ## Learn more
 
-- [Teams cmdlet reference](/powershell/teams/?view=teams-ps)  
+- [Teams cmdlet reference](/powershell/teams/)  
 - [Use Teams administrator roles to manage Teams](using-admin-roles.md)
 - [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
