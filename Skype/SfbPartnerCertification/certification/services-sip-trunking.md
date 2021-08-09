@@ -36,6 +36,7 @@ The following table lists the SIP trunking services that are certified for Skype
 |[Bandwidth](http://www.bandwidth.com/products/sip-voice-services) |SIP Voice Services|         |
 |[Brightlink IP](http://www.brightlinkip.com) |Brightlink IP SfB Enterprise |         |
 |[Broad-Connect](http://www.broadconnect.ca/ip-telephone/sip-trunking/)     |SIP Trunking |         |
+|[BroadSoft Adaption](http://www.adpt-tech.com/) |OfficeTrunk|         |
 |[BROKERTEAM](http://brokerteam.eu/microsoft-lync) | SIP Trunk Brokerteam - Winvision Voice|         |
 |[BT Global Services](http://www.globalservices.bt.com/uk/en/products/one_voice)|BT One Voice| |
 |[CallPlus Services Ltd.](http://www.callplus.co.nz/) |SIP Trunk|  |
@@ -63,7 +64,7 @@ The following table lists the SIP trunking services that are certified for Skype
 |[Magna5](https://www.magna5global.com/sip-trunking/) |Business SIP Trunk| |
 |[Magnetic North](http://www.magneticnorth.com/cloud-pbx/sip-trunks) |Cloud PBX| |
 |[Netstream](http://www.netstream.ch/index.php?id=506) |Lync Connect|&#x2714;|
-|[Nuwave Communications, Inc.](https://www.nuwave.com/) |NuWave Connect|&#x2714;|
+|[Nuwave Communications, Inc.](https://www.nuwave.com/integration/skype-for-business.html) |NuWave Connect|&#x2714;|
 |[Masergy Communications](http://www.masergy.com/solutions/unified-communications) |Intelligent SIP Trunk| |
 |[OneStream Networks](http://www.onestreamnetworks.com/Default.aspx?RD=3339) |Skype for Business SIP Trunking|&#x2714;|
 |[Orange Business Services](http://www.orange-business.com/en/voice-and-telephony) |Business Talk (SIP Trunking)| |
@@ -85,10 +86,10 @@ The following table lists the SIP trunking services that are certified for Skype
 |[TDC Erhverv](https://erhverv.tdc.dk/loesninger/skype-for-business) |Skype for Business Trunk|&#x2714; |
 |[Tele2 Sweden](http://tdc.se/) |Tele2 Business Trunk| |
 |[Telappliant](http://www.telappliant.com/sip-trunking#tab_overview) |talkAssure SIP Trunking for Microsoft Lync| |
-|[Telavox](http://www.telavox.com) |SIP Trunk|&#x2714;|
+|[Telavox](http://www.telavox.se/telefoni-for-vaxlar/#specification-5) |SIP Trunk|&#x2714;|
 |[Tele2](https://www.tele2.se/foretag/upptack/datanatstjanster/integration-services/allt-om-integration/unified-communication/skype-for-business) |VoIP Connect| |
 |[Telecom New Zealand / Gen-I](http://www.gen-i.co.nz/solutions/collaboration/voice-connect/) |Voice Connect| |
-|[Telefonica Business Solutions](https://www.globalsolutions.telefonica.com/) |SIP Trunking| |
+|[Telefonica Business Solutions](https://www.globalsolutions.telefonica.com/en/multinational/products-services/efficient-infrastructure/managed-voice-data-connectivity/) |SIP Trunking| |
 |[TeliaSonera Finland Oyj](http://www.sonera.fi/) |Sonera Business Voice Access| |
 |[Telio Telecom AS](http://www.telio.no/) |Telio SipTrunk| |
 |[Telkomsel](http://www.telkomsel.com/) |Telkomsel Connect| |
@@ -96,12 +97,12 @@ The following table lists the SIP trunking services that are certified for Skype
 |[Telus](http://business.telus.com/en/enterprise/on/business-voice-local/ip-trunking) |IP Trunking| |
 |[T-Mobile Netherlands B.V](https://www.t-mobile.nl/zakelijk/oplossingen/vast-op-mobiel) |Interoperability T-Mobile SIP Trunk| |
 |[Thinktel](http://www.thinktel.ca/en/sip-for-lync) |SIP Trunking| |
-|[toplink GmbH](http://www.toplink.de/) |tpl_sip.business LC|&#x2714;|
+|[toplink GmbH](http://www.toplink.de/lync-2013) |tpl_sip.business LC|&#x2714;|
 |[T-Systems International GmbH](http://www.t-systems.com/) |Corporate SIP Germany| |
 |[tw telecom](http://www.twtelecom.com/telecom-solutions/voice-solutions/business-voice-services/) |Managed SIP Services| |
 |[UPC Schweiz GmbH](http://www.upc.ch/business) |Business Voice IP-PBX| |
 |[Verizon Business](http://www.verizonbusiness.com/products/advanced-communications/) |IP Trunking Services | |
-|[Vodafone GmbH](https://www.vodafone.de/business.html) |IP Anlagen-Anschluss | |
+|[Vodafone GmbH](http://www.vodafone.de/business/firmenkunden/loesungen/ip-anlagen-anschluss.html) |IP Anlagen-Anschluss | |
 |[Vodafone Netherlands](https://www.vodafone.nl/zakelijk/midden-groot-bedrijf/) |Vodafone Office Voice (VoV) and Corporate Net over IP (CNoIP) | |
 |[Vodafone Next Generation Services Ltd](https://www.wxc.co.nz/sip-trunking-services/) |WXC SIPLink | |
 |[Voxbone SA](http://www.voxbone.com/microsoft-lync.jsf) |VoxDID, Vox800 | |

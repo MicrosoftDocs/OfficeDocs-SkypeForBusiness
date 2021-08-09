@@ -82,7 +82,7 @@ The Monitoring Pack for Skype for Business Server 2015 includes the following fi
 
 The following features are new to Skype for Business Server 2015 Management Packs.
 
-- **Changes in Sept 2019 update** Some alerts have had special characters removed. In some cases special characters interfere with the SCOM command channel notification feature.
+- **Changes in [Sept 2019 update](https://www.microsoft.com/en-in/download/details.aspx?id=47364)** Some alerts have had special characters removed. In some cases special characters interfere with the SCOM command channel notification feature.
 
 - **Automatic discovery for Client Sign-In** Client applications that sign-in to Skype for Business Server 2015 often automatically discover the server to sign-in to. Synthetic transactions now support verification that automatic discovery is configured correctly.
     
@@ -238,12 +238,15 @@ For additional information about Operations Manager, see the following blogs:
   
 - [Operations Manager Team Blog](https://blogs.technet.com/momteam/default.aspx)
     
+- [Kevin Holman's OpsMgr Blog](https://blogs.technet.com/kevinholman/default.aspx)
+    
 - [Thoughts on OpsMgr](https://thoughtsonopsmgr.blogspot.com/)
     
 - [Raphael Burri's blog](https://rburri.wordpress.com/)
     
 - [BWren's Management Space](https://blogs.technet.com/brianwren/default.aspx)
     
+- [Ops Mgr ++](https://blogs.msdn.com/boris_yanushpolsky/default.aspx)
     
 > [!IMPORTANT]
 > All information and content on non-Microsoft sites is provided by the owner or the users of the website. Microsoft makes no warranties, express, implied, or statutory, as to the information at this website. 
