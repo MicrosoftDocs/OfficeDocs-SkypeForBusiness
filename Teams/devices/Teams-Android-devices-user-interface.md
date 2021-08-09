@@ -2,7 +2,7 @@
 title: "Set Microsoft Teams Android devices user interface"
 ms.author: mitressl
 author: flinchbot
-manager: leopaiv
+manager: serdars
 audience: ITPro
 appliesto: 
   - Microsoft Teams
@@ -75,3 +75,16 @@ The following is an example of how to override automatic license detection. In t
    ```
 
 After granting the policy to the meeting room resource account, you'll need to wait for the policy assignment to replicate. You'll also need to sign out of the device and sign back in.
+
+## Impact on Microsoft Teams admin center
+
+Microsoft Teams admin center allows you to manage Microsoft Teams devices. For more information on managing devices using Teams admin center, see [Manage your devices in Microsoft Teams](device-management.md).
+
+
+ Teams admin center provides the ability to manage Teams phones. Phones are filtered into one of three categories based on the phones' function -  User phones, Common area phones, and Conference phones. This image shows this.
+
+ :::image type="content" source="../media/TeamsAdminCenter-IPPhonesHeader.png" alt-text="Phones header in Teams admin center.":::
+
+As with the user interface detection described above, Teams phones are categorized based on the license assigned to the account signing in to the phone. For example, if an account signs in to a phone and that account is assigned a common area phone license, then that phone will be shown in both the default **All phones** section as well as in the **Common area phones** section.
+
+If you would like a phone to appear in a different section, you can either assign a different license to the phone, or create and assign a Teams IP Phone policy as [described above](#override-automatic-user-interface-detection).
