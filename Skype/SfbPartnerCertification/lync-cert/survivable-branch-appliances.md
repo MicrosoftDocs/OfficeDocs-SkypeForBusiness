@@ -1,6 +1,6 @@
 ---
-title: "Partner qualification for Lync"
-ms.author: dmaguire
+title: "Lync: Partner qualification"
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -18,17 +18,17 @@ f1.keywords:
 ms.custom:
 - Lync Certification
 - dn788945
-description: "Partner qualification requirements for Lync."
+description: "Partner qualification requirements for Lync: Survivable branch appliances."
 ---
 
-# Survivable branch appliances
+# Lync: Survivable branch appliances
 
-Survivable branch appliances (SBAs) listed in the table that follows, along with the relevant firmware, has been independently qualified with Lync Server. We recommend that you visit the vendor's web site for the latest information regarding protocol, capacity, country support and documentation including a Quick Start Guide, release notes and any known issues.
+Survivable branch appliances (SBAs) listed in the table that follows, along with the relevant firmware, has been independently qualified with Lync Server. We recommend you visit the vendor's web site for the latest information about protocol, capacity, country support, and documentation that includes a Quick Start Guide, release notes, and any known issues.
 
 ## Qualified for Microsoft Lync Server 2013
 
 ***Table 1 - SBAs qualified for Lync Server 2013***
-<table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" width="100%" xmlns="http://www.w3.org/1999/xhtml">
+<table border="1" cellpadding="5" cellspacing="" class="grid" width="100%">]
 	<colgroup>
 		<col width="115" />
 		<col width="500" />
@@ -68,7 +68,7 @@ Survivable branch appliances (SBAs) listed in the table that follows, along with
 ## Qualified for Microsoft Lync Server 2010
 
 ***Table 2 - SBAs qualified for Lync Server 2010***
-<table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" width="100%" xmlns="http://www.w3.org/1999/xhtml">
+<table border="1" cellpadding="5" cellspacing="" class="grid" width="100%">
 	<colgroup>
 		<col width="115" />
 		<col width="500" />
@@ -102,10 +102,10 @@ Survivable branch appliances (SBAs) listed in the table that follows, along with
 		<td>SRE-900</td>
 	</tr>
 	<tr>
-		<td colspan="2" style="line-height:0;font-size:0;display:none;"> </td>
+		<td colspan="2"> </td>
 	</tr>
 	<tr align="left" bgcolor="#F8F8F8" valign="top">
-		<td colspan="2">For more information on this configuration, please see <a href="https://www.microsoft.com/download/confirmation.aspx?id=28555">Deploying the Survivable Branch Appliance in Lync Server 2010 for Cisco Integrated Services Router / Service Ready Engine.</a></td>
+		<td colspan="2">For more information on this configuration, see <a href="https://www.microsoft.com/download/confirmation.aspx?id=28555">Deploying the Survivable Branch Appliance in Lync Server 2010 for Cisco Integrated Services Router / Service Ready Engine.</a></td>
 	</tr>
 	<tr align="left" valign="top">
 		<td><a href="http://www.dialogic.com/Solutions/Unified-Communications/UC-Connectivity/Microsoft-Lync.aspx">Dialogic</a></td>
@@ -137,4 +137,4 @@ Survivable branch appliances (SBAs) listed in the table that follows, along with
 	</tr>
 </table>
 
-For more information on Survivable Branch Appliance configurations with Lync Server, please see <a href="/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-branch-site-voice-resiliency">Planning for Branch-Site Voice Resiliency</a>.<!-- 2013 content yet to migrate  -->
+For more information on Survivable Branch Appliance configurations with Lync Server, see <a href="/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-branch-site-voice-resiliency">Planning for Branch-Site Voice Resiliency</a>.<!-- 2013 content yet to migrate  -->

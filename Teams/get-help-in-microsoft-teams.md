@@ -19,8 +19,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-Get help in Microsoft Teams
-============================================
+# Get help in Microsoft Teams
 
 The Help button in Microsoft Teams is where your users and champions can find all the assistance they might need while using Teams.
 
