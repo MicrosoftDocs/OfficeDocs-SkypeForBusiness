@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams resources for Education admins
+title: Get started with Microsoft Teams for remote learning
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars

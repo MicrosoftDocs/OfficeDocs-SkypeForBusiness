@@ -217,8 +217,6 @@ items:
               href: /SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud
             - name: Move users from on-premises to Teams
               href: /SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams
-            - name: Move users from on premises to Skype for Business Online
-              href: /SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online
             - name: Move users from the cloud to on premises
               href: /SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises
             - name: Manage meeting migration
@@ -306,6 +304,8 @@ items:
           href: teams-privacy.md
         - name: Location of data in Teams
           href: location-of-data-in-teams.md
+        - name: Microsoft Teams feedback privacy
+          href: teams-privacy-feedback.md
         - name: Block access to Sharepoint Online for specific users
           href: block-access-sharepoint.md
         - name: Policy control overview
@@ -500,6 +500,8 @@ items:
       href: teams-policies.md
     - name: Set up channel moderation in Teams
       href: manage-channel-moderation-in-teams.md
+    - name: Manage live components
+      href: live-components-in-teams.md
     - name: Teams and Outlook email integration
       href: teams-outlook-email-integration.md
     - name: Share to Teams from Outlook
@@ -1494,6 +1496,8 @@ items:
               href: class-insights.md
             - name: Sync SIS data with Insights
               href: education-insights-sis-data-sync.md
+            - name: Manage user access to Insights
+              href: education-insights-manage-access.md              
             - name: Get started with Reflect
               href: reflect.md      
         - name: Assignments in Teams for Education
@@ -1510,13 +1514,13 @@ items:
           href: sku-reference-edu.md
     - name: Teams for Frontline Workers
       items: 
-        - name: Quickstart for Frontline Workers
+        - name: Frontline Worker quick start guide
           href: flw-quickstart.yml
-        - name: Frontline workers scripted deployment
+        - name: Frontline Workers scripted deployment
           href: flw-scripted-deployment.md
-        - name: Manage shift-based access for Frontline Workers
+        - name: Manage shift-based access for frontline workers
           href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
-        - name: RealWear for Microsoft Teams
+        - name: RealWear for Teams
           href: flw-realwear.md
         - name: Walkie Talkie
           href: walkie-talkie.md
@@ -1592,6 +1596,8 @@ items:
               href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
         - name: How SharePoint Online and OneDrive for Business interact with Teams
           href: sharepoint-onedrive-interact.md
+    - name: Teams devices for Education
+      href: devices-for-education.md
     - name: Supported devices
       items: 
         - name: Manage your devices in Teams
@@ -1607,9 +1613,13 @@ items:
         - name: Teams displays
           href: devices/teams-displays.md
         - name: Teams panels
-          href: devices/teams-panels.md
-        - name: Use Teams panels
-          href: devices/use-teams-panels.md
+          items: 
+              - name: Teams panels
+                href: devices/teams-panels.md
+              - name: Use Teams panels
+                href: devices/use-teams-panels.md
+              - name: App support on Teams panels  
+                href: app-support-on-Teams-panels.md
         - name: Upgrade Teams phones to Teams displays
           href: devices/upgrade-phones-to-displays.md
         - name: Deploy Teams phones and Teams displays using Intune
@@ -1618,6 +1628,8 @@ items:
           href: devices/usb-devices.md
         - name: Deploy Microsoft Teams Rooms on Android
           href: devices/collab-bar-deploy.md
+        - name: Set Microsoft Teams Android devices user interface
+          href: devices/Teams-Android-devices-user-interface.md
         - name: Meeting room devices and solutions
           href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Teams certified devices
@@ -1889,4 +1901,4 @@ items:
     - name: Upgrade discovery questionnaire
       href: upgrade-plan-journey-discovery-questionnaire.md
     - name: Release notes for Teams admin features
-      href: release-notes/release-notes.md
+      href: /OfficeUpdates/teams-admin

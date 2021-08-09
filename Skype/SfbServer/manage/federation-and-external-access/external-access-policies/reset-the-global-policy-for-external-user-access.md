@@ -14,23 +14,23 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: "You cannot completely delete a global policy. Using the **Delete** option on the global policy only resets the global policy to the default settings, which do not include support for any external user access options."
+description: "You can't completely delete a global policy. Using the **Delete** option on the global policy only resets the global policy to the default settings, which don't include support for any external user access options."
 ---
 
 
 # Reset the global policy for external user access in Skype for Business Server 
 
-If you have created or configured external user access policies that you no longer want to use, you can do the following:
+If you have created or configured external user access policies that you no longer want to use, you can use the following methods:
 
   - Delete any site or user policy that you created.
 
-  - Reset the global policy to the default settings. The default global policy settings deny any external user access. The global policy cannot be deleted.
+  - Reset the global policy to the default settings. The default global policy settings deny any external user access. The global policy can't be deleted.
 
-You cannot completely delete a global policy. Using the **Delete** option on the global policy only resets the global policy to the default settings, which do not include support for any external user access options.
+You can't completely delete a global policy. The **Delete** option on the global policy only resets the global policy to the default settings, which don't include support for any external user access options.
 
 ## To reset the global policy to the default settings
 
-1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.
+1.  From a user account that is a member of the RTCUniversalServerAdmins group or has equivalent user rights, or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.
 
 2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.
 
@@ -43,12 +43,10 @@ You cannot completely delete a global policy. Using the **Delete** option on the
 
 ## Resetting the Global External Access Policy by Using Windows PowerShell Cmdlets
 
-The global external access policy can be reset by using Windows PowerShell and the Remove-CsExternalAccessPolicy cmdlet. This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session Windows PowerShell. 
+The global external access policy can be reset by using Windows PowerShell and the Remove-CsExternalAccessPolicy cmdlet. You can run this cmdlet either from the Skype for Business Server Management Shell or from a remote session Windows PowerShell. 
 
 ## To reset the global external access policy
 
-  - This command resets the global external access policy:
-    
-        Remove-CsExternalAccessPolicy -Identity "global"
+  - This command resets the global external access policy:<br/><br/>Remove-CsExternalAccessPolicy -Identity "global"
 
 For more information, see the help topic for the [Remove-CsExternalAccessPolicy](/powershell/module/skype/Remove-CsExternalAccessPolicy) cmdlet.

@@ -1,5 +1,5 @@
 ---
-title: "Configure the Primary Management Server"
+title: How to configure the Primary Management Server
 ms.reviewer: 
 ms.author: v-cichur
 author: cichur
@@ -16,7 +16,7 @@ ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
 description: "Summary: Configure your primary management server, install System Center Operations Manager, and import management packs for Skype for Business Server 2015."
 ---
 
-# Configure the Primary Management Server
+# How to configure the Primary Management Server
 
 **Summary:** Configure your primary management server, install System Center Operations Manager, and import management packs for Skype for Business Server 2015.
 

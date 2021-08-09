@@ -1,6 +1,6 @@
 ---
 title: "Phones and devices qualified for Microsoft Lync - USB and Video Devices"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -34,7 +34,7 @@ Download the [Lync Video Hardware Comparison Tables](/previous-versions/office/l
 
 
 ***Video Endpoints***
-<table border="1" bordercolor="#CCCCCC" cellpadding="5" cellspacing="0" class="grid" style="border-collapse:collapse" width="720" xmlns="http://www.w3.org/1999/xhtml">
+<table border="1" bordercolor="#CCCCCC" cellpadding="5" cellspacing="0" class="grid" width="720">
 	<colgroup>
 		<col width="240" />
 		<col width="90" />
@@ -142,7 +142,7 @@ Download the [Lync Video Hardware Comparison Tables](/previous-versions/office/l
 
 ***LifeSize Video Endpoints***
 
-<table border="1" bordercolor="#CCCCCC" cellpadding="5" cellspacing="0" class="grid" style="border-collapse:collapse" width="62%" xmlns="http://www.w3.org/1999/xhtml">
+<table border="1" bordercolor="#CCCCCC" cellpadding="5" cellspacing="0" class="grid" width="62%">
 	<colgroup>
 		<col width="240" />
 		<col width="90" />
@@ -238,7 +238,7 @@ Download the [Lync Video Hardware Comparison Tables](/previous-versions/office/l
 
 ***Video Infrastructure***
 
-<table border="1" bordercolor="#CCCCCC" cellpadding="5" cellspacing="0" class="grid" style="border-collapse:collapse" width="62%" xmlns="http://www.w3.org/1999/xhtml">
+<table border="1" bordercolor="#CCCCCC" cellpadding="5" cellspacing="0" class="grid" width="62%">
 	<colgroup>
 		<col width="240" />
 		<col width="110" />

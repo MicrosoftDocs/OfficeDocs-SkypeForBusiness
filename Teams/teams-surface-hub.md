@@ -22,8 +22,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-Deploy Microsoft Teams for Surface Hub
-======================================
+# Deploy Microsoft Teams for Surface Hub
 
 Before you install Teams for Surface Hub, be sure to do the following:
 
