@@ -72,7 +72,7 @@ The first step in configuring Response Group is to create agent groups. Before y
 
 This section applies to you only if your organization needs to comply with Federal Information Processing Standards (FIPS).
 
-To be compliant with FIPS, you need to modify the application-level Web.config file to use a different cryptography algorithm after you install Web Services. You need to specify that ASP.NET use the Triple Data Encryption Standard (3DES) algorithm to process view state data. For the Response Group application, this requirement applies to the Response Group Configuration Tool and the agent sign-in and sign-out console. For details about this requirement, see Microsoft Knowledge Base article 911722, "You may receive an error message when you access ASP.NET webpages that have ViewState enabled after you upgrade from ASP.NET 1.1 to ASP.NET 2.0," at [https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkId=196183).
+To be compliant with FIPS, you need to modify the application-level Web.config file to use a different cryptography algorithm after you install Web Services. You need to specify that ASP.NET use the Triple Data Encryption Standard (3DES) algorithm to process view state data. For the Response Group application, this requirement applies to the Response Group Configuration Tool and the agent sign-in and sign-out console.
 
 To modify the Web.config file, do the following:
 
