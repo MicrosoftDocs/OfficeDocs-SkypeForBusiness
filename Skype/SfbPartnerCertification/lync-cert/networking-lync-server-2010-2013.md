@@ -23,13 +23,13 @@ description: "Partner qualification requirements for Lync."
 
 # Networking for Lync Server 2010 and 2013
 
-The tables that follows shows the network infrastructure solutions that have been tested by these partners and reviewed by Microsoft to meet Lync Server 2010 requirements. We recommend that you visit the partner’s web site for the latest information regarding product specifications, capacity, country support and documentation including release notes and known issues. 
+The tables that follow show the network infrastructure solutions that have been tested by these partners and reviewed by Microsoft to meet Lync Server 2010 requirements. We recommend that you visit the partner’s web site for the latest information regarding product specifications, capacity, country support, and documentation including release notes and known issues. 
 
-Additional information on networking with Microsoft Lync Server 2010, including Planning, QoS, Call Admission Control and Security can be found on the [Lync Server Network Infrastructure Roadmap](infra-roadmap.md). 
+Additional information on networking with Microsoft Lync Server 2010, including Planning, QoS, Call Admission Control, and Security can be found on the [Lync Server Network Infrastructure Roadmap](infra-roadmap.md). 
 
-For more information on optimizing Wi-Fi networks with Microsoft Lync, please see the white paper [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://www.microsoft.com/download/details.aspx?id=39084).
+For more information on optimizing Wi-Fi networks with Microsoft Lync, see the white paper [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://www.microsoft.com/download/details.aspx?id=39084).
 
-Please contact the listed partner for more information on these products.
+For more information about these products, contact the listed partner.
 
 ## WiFi
 
@@ -107,12 +107,12 @@ Please contact the listed partner for more information on these products.
 	<tr align="left" bgcolor="#F8F8F8" valign="top">
 		<td rowspan="2"><a href="https://www.extremenetworks.com/">Extreme Networks</a></td>
 		<td>IdentiFi Wireless Appliances and IdentiFi 802.11n Access Points</td>
-		<td>IdentiFi V2110 Virtual Controller on Vmware</td>
+		<td>IdentiFi V2110 Virtual Controller on VMware</td>
 		<td>9.01.01.0228</td>
 	</tr>
 	<tr align="left" bgcolor="#F8F8F8" valign="top">
 		<td>WS-AP3825e, WS-AP3825i, WS-AP3865 802.11ac Access Points</td>
-		<td>IdentiFi V2110 Virtual Controller on Vmware</td>
+		<td>IdentiFi V2110 Virtual Controller on VMware</td>
 		<td>09.12.01.0067</td>
 	</tr>
 	<tr align="left" valign="top">
