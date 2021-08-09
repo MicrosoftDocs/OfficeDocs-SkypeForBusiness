@@ -20,14 +20,14 @@ description: "You can delete any site or user policy that is listed in the Skype
 
 # Delete a site or user policy for external user access
 
-If you have created or configured external user access policies that you no longer want to use, you can do the following:
+If you have created or configured external user access policies that you no longer want to use, you can do the following method:
 
   - Delete any site or user policy that you created.
 
   - Reset the global policy to the default settings. The default global policy settings deny any external user access. The global policy cannot be deleted.
 
 
-You can delete any site or user policy that is listed in the Skype for Business Server Control Panel on the **External Access Policy** page. Deleting the global policy does not actually delete it, but only resets it to the default settings, which do not include support for any external user access options. For details about resetting the global policy, see [Reset the global policy for external user access](reset-the-global-policy-for-external-user-access.md).
+You can delete any site or user policy that is listed in the Skype for Business Server Control Panel on the **External Access Policy** page. Deleting the global policy doesn't actually delete it, but only resets it to the default settings, which don't include support for any external user access options. For details about resetting the global policy, see [Reset the global policy for external user access](reset-the-global-policy-for-external-user-access.md).
 
 
 ## To delete a site or user policy for external user access
