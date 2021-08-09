@@ -178,6 +178,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| EPOS EXPAND Vision 3T |1.2.2.21182.10   | 2021 Update #2 |
 | AudioCodes RXV80 |1.13.361   | 2021 Update #2 |
 | Yealink VC210 |118.15.0.54   | 2021 Update #2    |
 | Yealink MeetingBar A20 | 133.15.0.60     | 2021 Update #2    |
