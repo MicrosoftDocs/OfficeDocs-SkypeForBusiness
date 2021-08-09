@@ -14,7 +14,7 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: ""
+description: "How to enable and disable anonymous user access in Skype for Business Server."
 ---
 
 # Enable or disable anonymous user access in Skype for Business Server
@@ -51,7 +51,11 @@ You can manage anonymous user access by using Windows PowerShell and the **Set-C
 
 ## To enable anonymous user access
 
+<<<<<<< HEAD
   - To enable anonymous user access, set the value of the **AllowAnonymousUsers** property to True ($True):Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
+=======
+  - To enable anonymous user access, set the value of the **AllowAnonymousUsers** property to True ($True):<br/><br/>Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
+>>>>>>> 4a3355d4dde99cfff287de5861cc77760117004e
 
 ## To disable anonymous user access
 
@@ -60,4 +64,4 @@ You can manage anonymous user access by using Windows PowerShell and the **Set-C
 
 ## See Also
 
-[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy?view=skype-ps)  
+[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy)  
