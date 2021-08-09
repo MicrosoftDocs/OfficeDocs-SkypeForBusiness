@@ -28,7 +28,7 @@ appliesto:
 
 A team template in Microsoft Teams is a definition of a team's structure designed around a business need or project. With team templates, you can quickly and easily create rich collaboration spaces with predefined settings, channels, and apps. Team templates can help you to deploy consistent teams across your organization.
 
-With Microsoft Graph, you use the pre-built team templates that are included with Teams to create teams. In this article, we'll explain the properties that can be defined in templates, what base template types are, and how you can use a few sample requests to create a team from a template.
+With Microsoft Graph, you use the pre-built team templates that are included with Teams to create teams. In this article, we'll explain the properties that can be defined in templates, what base template types are, and how you can use a few sample requests to create a team from a template.???
 
 This article is for you if you're:
 
@@ -76,7 +76,7 @@ By default the base template is set to **Standard**, which doesn't contain any a
 |Healthcare -<br>Hospital | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('healthcareHospital')` |Channels:<ul><li>Announcements\*</li><li>Compliance\*</li><li>Custodial</li><li>Human Resources</li></li><li>Pharmacy</li></ul>\*Auto-favorited channel|
 |||
 
-Use the following templates to create teams in the Teams client and Microsoft Graph.
+Use the following templates to create teams in the Teams client and Microsoft Graph.???
 
 | Base template type | baseTemplateId | Properties that come with this base template |
 | ------------------ | -------------- | ----------------------------------------------------- |
