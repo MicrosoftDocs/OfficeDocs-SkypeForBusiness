@@ -41,7 +41,7 @@ For most businesses, buying a bundle of software in an Enterprise plan will resu
 
 For more cost information, see [How to see prices and buy add-on licenses](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_how) or one of the following:
 
-- [Pricing for Audio Conferencing](https://products.office.com/skype-for-business/audio-conferencing)
+- [Pricing for Audio Conferencing](https://www.microsoft.com/microsoft-teams/audio-conferencing)
 
 - [Pricing for Phone System](https://products.office.com/skype-for-business/phone-system)
 
@@ -54,7 +54,7 @@ Depending on which plan you already have, you can buy add-on licenses for the fo
 |||
 |:-----|:-----|
 |**Feature** <br/> |**Description** <br/> |
-|**Audio Conferencing** <br/> |Sometimes people in your organization will need to use a phone to call in to a Skype for Business meeting, instead of using their computer. Use the Audio Conferencing feature for this situation.  <br/> To find out whether Audio Conferencing is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). <br/> If you are looking for how much it costs, see [Requirements for Audio Conferencing](https://products.office.com/skype-for-business/audio-conferencing#requirements).  <br/> |
+|**Audio Conferencing** <br/> |Sometimes people in your organization will need to use a phone to call in to a Skype for Business meeting, instead of using their computer. Use the Audio Conferencing feature for this situation.  <br/> To find out whether Audio Conferencing is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). <br/> If you are looking for how much it costs, see [Set up audio conferencing in Microsoft Teams](https://docs.microsoft.com/microsoftteams/set-up-audio-conferencing-in-teams).<br/> |
 |**Toll free numbers for dial-in access to your conferences, and the ability to dial out from a conference to add someone by calling any telephone number in the world** <br/> |If you add Audio Conferencing, we recommend that you [Set up Communications Credits](/microsoftteams/set-up-communications-credits-for-your-organization). <br/> |
 |**Phone System** <br/> |A PBX is a telephone system in a business. Phone System is a hosted telephone service. It gives you both traditional and innovative PBX capabilities, but without the complicated and expensive equipment. [Here's what you get with Phone System](/MicrosoftTeams/here-s-what-you-get-with-phone-system).  <br/> If you are looking for how much it costs, see [Requirements for Phone System](https://products.office.com/skype-for-business/cloud-pbx#requirements).  <br/> |
 |**Calling Plans** <br/> |Calls to other Skype for Business users are free, but if you want your users to be able to call any phone numbers outside of your business, get a [Calling Plan](/MicrosoftTeams/calling-plans-for-office-365). There are Domestic Calling Plans and Domestic and International Calling Plans.  <br/> If you are looking for how much it costs, see [Requirements for Calling Plans](https://products.office.com/skype-for-business/pstn-calling-plans#requirements).  <br/> |

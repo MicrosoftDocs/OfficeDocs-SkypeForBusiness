@@ -95,7 +95,7 @@ Unless you use a unique SIP/SMTP/UPN for users from each forest, you can still r
     
 By placing an AD FS farm in each user forest and using a unique SIP/SMTP/UPN for each forest, we resolve both issues. Only the accounts in that specific user forest would be searched and matched during authentication attempts. This will help provide a more seamless authentication process. 
   
-This deployment will be a standard deployment of the Windows Server 2012 R2 AD FS and should be working before continuing. For instructions, see [How to Install AD FS 2012 R2 for Microsoft 365](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx). 
+This will be a standard deployment of the Windows Server 2012 R2 AD FS and should be working before continuing. 
   
 Once deployed, you need to edit the claims rule to match the Source Anchor selected earlier. In the AD FS MMC, under Relying Party Trusts, right-click **Microsoft 365 Identity Platform** or **Microsoft Office 365 Identity Platform**, and then select **Edit Claim Rules**. Edit the first rule, and change ObjectSID to **employeeNumber**. 
   
@@ -103,7 +103,7 @@ Once deployed, you need to edit the claims rule to match the Source Anchor selec
   
 ## Configure AAD Connect
 
-In resource forest topologies, it’s required that user attributes from both the resource forest and any account forests(s) are synchronized into Azure AD. Microsoft recommends that Azure AD Connect synchronize and merge user identities from *all* forests that have enabled user accounts and the forest that contains Skype for Business. For details see, [Configure Azure AD Connect for Skype for Business and Teams](configure-azure-ad-connect.md).
+In resource forest topologies, it’s required that user attributes from both the resource forest and any account forests are synchronized into Azure AD. The simplest and recommended way to do this is to have Azure AD Connect synchronize and merge user identities from *all* forests that have enabled user accounts and the forest that contains Skype for Business. For details see, [Configure Azure AD Connect for Skype for Business and Teams](configure-azure-ad-connect.md).
 
 Note that Azure AD Connect does not provide synchronization on premises between the account and resource forests. That must be configured by using Microsoft Identity Manager or a similar product, as described earlier.
   
@@ -142,7 +142,7 @@ Azure AD Connect should be installed using the defaults, except for the followin
     
 ## Configure hybrid connectivity for Skype for Business Server
 
-Follow the best practices for configuring Skype for Business hybrid. For more information information, see [Plan hybrid connectivity](plan-hybrid-connectivity.md) and [Configure hybrid connectivity](configure-hybrid-connectivity.md). 
+Follow the best practices for configuring Skype for Business hybrid. For more information, see [Plan hybrid connectivity](plan-hybrid-connectivity.md) and [Configure hybrid connectivity](configure-hybrid-connectivity.md). 
   
 ## Configure hybrid connectivity for Exchange Server
 
