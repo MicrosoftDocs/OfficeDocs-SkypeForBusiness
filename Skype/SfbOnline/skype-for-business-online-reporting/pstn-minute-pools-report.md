@@ -51,8 +51,6 @@ This report, along with the other Skype for Business reports, gives you details 
 You can get a view into your user's Skype for Business minute pools by looking at each of the columns that are displayed.
   
 This is what the report looks like.
-  
-## 
 
 ![Skype for Business PSTN minute pools report](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
   
