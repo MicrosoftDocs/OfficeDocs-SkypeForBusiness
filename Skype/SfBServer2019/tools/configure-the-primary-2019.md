@@ -38,7 +38,7 @@ When you install System Center Operations Manager, you will need to install all 
 - Data warehouse
 
 > [!IMPORTANT]
-> The "[Microsoft Report Viewer 2010 Redistributable Package](https://www.microsoft.com/download/details.aspx?id=6442)" needs to be installed before you install System Center Operations Manager 2012.
+> The Microsoft Report Viewer 2010 Redistributable Package needs to be installed before you install System Center Operations Manager 2012.
 
 For details about these products and their installation, see the following links:
 

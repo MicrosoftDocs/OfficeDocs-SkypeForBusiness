@@ -16,9 +16,9 @@ description: "Summary: Prepare your Skype for Business Server 2019 servers and d
 
 # System requirements for Skype for Business Server 2019
  
-**Summary:** Prepare to install Skype for Business Server 2019 with this topic. Hardware, OS, software, databases, certificates, Active Diretory, DNS, and fileshares are covered here. All the system requirements and recommendations are here to help ensure a successful install and deployment of your server farm.
+**Summary:** Prepare to install Skype for Business Server 2019 with this topic. Hardware, OS, software, databases, certificates, Active Directory, DNS, and fileshares are covered here. All the system requirements and recommendations are here to help ensure a successful install and deployment of your server farm.
   
-As you might expect, there are some preparations to make before you begin deploying Skype for Business Server 2019. This article will walk you through planning for the following:
+As you might expect, there are some preparations to make before you begin deploying Skype for Business Server 2019. This article will walk you through planning for the following topics:
   
 - [Hardware](system-requirements.md#Hardware)
   
@@ -40,35 +40,35 @@ As you might expect, there are some preparations to make before you begin deploy
 ## Hardware for Skype for Business Server 2019
 <a name="Hardware"> </a>
 
-After you have your topology down (and if you don't, you can check out the [Topology Basics for Skype for Business Server 2019](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) topic), it's time to think about servers. Skype for Business Server 2019 servers require 64-bit hardware. Our recommendations for hardware are below. These aren't requirements, but they reflect the requirements necessary for optimal performance. We have capacity planning documentation that will help you determine if you need more than this, depending on your circumstances.
+After you have your topology down (and if you don't, you can check out the [Topology Basics for Skype for Business Server 2019](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) topic), it's time to think about servers. Skype for Business Server 2019 servers require 64-bit hardware. Our recommendations for hardware are below. These items aren't requirements, but they reflect the requirements necessary for optimal performance. We have capacity planning documentation that will help you determine if you need more than this, depending on your circumstances.
   
 Recommended hardware for Standard Edition servers:
 
 |**Hardware component**|**Recommended**|
 |:-----|:-----|
-|CPU  <br/> |Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or higher.  <br/> Intel Itanium processors are not supported for Skype for Business Server 2019 roles.  <br/> |
+|CPU  <br/> |Intel Xeon E5-2673 v3 dual processor, six-core, 2.4-gigahertz (GHz) or higher.  <br/> Intel Itanium processors are not supported for Skype for Business Server 2019 roles.  <br/> |
 |Memory  <br/> |32 gigabytes (GB).  <br/> |
-|Disk  <br/> |EITHER:  <br/> • 8 or more 10000 RPM hard disk drives with at least 72 GB free disk space (two of the disks using RAID 1 and 6 using RAID 10).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to 8 10000 RPM mechanical disk drives.  <br/> |
-|Network  <br/> |1 dual-port network adapter, 1 Gbps or higher (2 network adapters can be used, but they need to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Front End Servers, Back End Servers, and Standard Edition servers. <br/> As long as they are not exposed to the operating system and are being used to monitor and manage server hardware, you can have out-of-band management systems, such as DRAC or ILO. This scenario doesn't constitute a multi-homed server, and it is supported.  <br/> |
+|Disk  <br/> |EITHER:  <br/> • Eight or more 10,000-RPM hard disk drives with at least 72-GB free disk space (two of the disks using RAID 1 and six using RAID 10).  <br/> OR  <br/> • Solid-state drives (SSDs) able to provide the same free space and similar performance to eight 10,000-RPM mechanical disk drives.  <br/> |
+|Network  <br/> |1 dual-port network adapter, 1 Gbps or higher (two network adapters can be used, but they need to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Front End Servers, Back End Servers, and Standard Edition servers. <br/> As long as they are not exposed to the operating system and are being used to monitor and manage server hardware, you can have out-of-band management systems, such as DRAC or ILO. This scenario doesn't constitute a multi-homed server, and it is supported.  <br/> |
 
 
 Recommended hardware for Front End Servers and Back End Servers:
   
 |**Hardware component**|**Recommended**|
 |:-----|:-----|
-|CPU  <br/> |Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or higher. <br/> Intel Itanium processors are not supported for Skype for Business Server 2019 roles.  <br/> |
+|CPU  <br/> |Intel Xeon E5-2673 v3 dual processor, six-core, 2.4-gigahertz (GHz) or higher. <br/> Intel Itanium processors are not supported for Skype for Business Server 2019 roles.  <br/> |
 |Memory  <br/> |64 gigabytes (GB).  <br/> |
-|Disk  <br/> |EITHER:  <br/> • 8 or more 10000 RPM hard disk drives with at least 72 GB free disk space (two of the disks using RAID 1 and 6 using RAID 10).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to 8 10000 RPM mechanical disk drives.  <br/> |
-|Network  <br/> |1 dual-port network adapter, 1 Gbps or higher (2 network adapters can be used, but they need to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Front End Servers, Back End Servers, and Standard Edition servers. <br/> As long as they are not exposed to the operating system and are being used to monitor and manage server hardware, you can have out-of-band management systems, such as DRAC or ILO. This scenario doesn't constitute a multi-homed server, and it is supported.  <br/> |
+|Disk  <br/> |EITHER:  <br/> • Eight or more 10,000-RPM hard disk drives with at least 72-GB free disk space (two of the disks using RAID 1 and six using RAID 10).  <br/> OR  <br/> • Solid-state drives (SSDs) able to provide the same free space and similar performance to eight 10,000-RPM mechanical disk drives.  <br/> |
+|Network  <br/> |1 dual-port network adapter, 1 Gbps or higher (two network adapters can be used, but they need to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Front End Servers, Back End Servers, and Standard Edition servers. <br/> As long as they are not exposed to the operating system and are being used to monitor and manage server hardware, you can have out-of-band management systems, such as DRAC or ILO. This scenario doesn't constitute a multi-homed server, and it is supported.  <br/> |
    
 Recommended hardware for Edge Servers, standalone Mediation Servers, and Directors:
   
 |**Hardware component**|**Recommended**|
 |:-----|:-----|
-|CPU  <br/> |Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or higher.  <br/> Intel Itanium processors are not supported for Skype for Business Server 2019 roles.  <br/> |
+|CPU  <br/> |Intel Xeon E5-2673 v3 dual processor, six-core, 2.4-gigahertz (GHz) or higher.  <br/> Intel Itanium processors are not supported for Skype for Business Server 2019 roles.  <br/> |
 |Memory  <br/> |32 gigabytes.  <br/> |
-|Disk  <br/> |EITHER:  <br/> • 4 or more 10000 RPM hard disk drives with at least 72 GB free disk space (the disks should be in a 2x RAID 1 configuration).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to 4 10000 RPM mechanical disk drives.  <br/> |
-|Network  <br/> |1 dual-port network adapter, 1 Gbps or higher (2 network adapters can be used, but they need to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Video Interop Servers and Directors. <br/> Edge servers will require two network interfaces that are dual-port network adapters, 1 Gbps or higher (or two paired network adapters, for a total of four, each pair being teamed with a single MAC address and a single IP address, for a total of two pairs).  <br/> On standalone Mediation Servers, the installation of additional network interface cards (NICs) to allow the configuration of a specific PSTN IP address is supported.  <br/> |
+|Disk  <br/> |EITHER:  <br/> • Four or more 10,000 RPM hard disk drives with at least 72-GB free disk space (the disks should be in a 2x RAID 1 configuration).  <br/> OR  <br/> • Solid-state drives (SSDs) able to provide the same free space and similar performance to four 10,000 RPM mechanical disk drives.  <br/> |
+|Network  <br/> |one dual-port network adapter, 1 Gbps or higher (two network adapters can be used, but they need to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Video Interop Servers and Directors. <br/> Edge servers will require two network interfaces that are dual-port network adapters, 1 Gbps or higher (or two paired network adapters, for a total of four, each pair being teamed with a single MAC address and a single IP address, for a total of two pairs).  <br/> On standalone Mediation Servers, the installation of additional network interface cards (NICs) to allow the configuration of a specific PSTN IP address is supported.  <br/> |
 
 
 > [!NOTE]
@@ -115,7 +115,7 @@ There are some things you're going to need to install or configure for any serve
 |**Software/role**|**Details**|
 |:-----|:-----|
 |Windows PowerShell 3.0  <br/> |All Skype for Business Server servers need Windows PowerShell 3.0 installed.  <br/> • This should be installed by default with Windows Server 2016.<br/> |
-|Microsoft .NET Framework  <br/> |WCF services is a **Feature** that's installed as a Windows feature, under **Server Manager**, initially no downloads needed. <br/> • You need to make sure, when you install this feature, or if it's already installed and you're checking on it, that the **HTTP Activation** option is also checked and installed, like so: <br/> ![Screenshot showing HTTP Activation option under the .NET Framework 4.5 Features.](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> Don't worry if you get an additional pop-up saying some other things need to be installed for HTTP Activation to be installed. That's normal; click OK and go ahead. If you don't get this pop-up, you can assume those things are already installed and go ahead.  <br/> Microsoft .NET Framework is usually installed when Windows Server 2016 is installed. Skype for Business Server requires Microsoft .NET Framework 4.7 or 4.8 though, so you'd probably need to update it. You can find the update [here](https://support.microsoft.com/help/3186497/the-net-framework-4-7-offline-installer-for-windows/)<br/> |
+|Microsoft .NET Framework  <br/> |WCF services is a **Feature** that's installed as a Windows feature, under **Server Manager**, initially no downloads needed. <br/> • You need to make sure, when you install this feature, or if it's already installed and you're checking on it, that the **HTTP Activation** option is also checked and installed, like so: <br/> ![Screenshot showing HTTP Activation option under the .NET Framework 4.5 Features.](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> Don't worry if you get an additional pop-up saying some other things need to be installed for HTTP Activation to be installed. That's normal; click OK and go ahead. If you don't get this pop-up, you can assume those things are already installed and go ahead.  <br/> Microsoft .NET Framework is usually installed when Windows Server 2016 is installed. Skype for Business Server requires Microsoft .NET Framework 4.7 or 4.8 though, so you'd probably need to update it. You can find the update [here](https://dotnet.microsoft.com/download/dotnet-framework)<br/> |
 |Media Foundation  <br/> |For Windows Server 2016, the Windows Media Format Runtime installs with Microsoft Media Foundation.  <br/> All Front End Servers and Standard Edition servers used for conferencing require Windows Media Format Runtime to run the Windows Media Audio (.wma) files that the Call Park, Announcement, and Response Group applications play for announcements and music.  <br/> |
 |Windows Identity Foundation  <br/> |We need Windows Identity Foundation 3.5 to support server-to-server authentication scenarios for Skype for Business Server 2019.  <br/> • For Windows Server 2016, there's no need to download anything. Open **Server Manager**, and go to the **Add Roles and Features Wizard**. **Windows Identity Foundation 3.5** is listed under the **Features** section. If it's selected, you're good. Otherwise select it and click **Next** to reach the **Install** button. <br/> |
 |Remote Server Administration Tools  <br/> |Role Administration Tools: AD DS and AD LDS tools  <br/> |
@@ -336,7 +336,7 @@ Clearly, if your AD infrastructure is in place, moving to this topology might no
 
 ![Multiple forests in a resource forest topology diagram](../../SfbServer/media/41efa3b6-d9e6-47df-992b-fefcfc39a80d.png)
   
-A resource forest topology is also supported; it's where a forest is dedicated to running your server applications, like Microsoft Exchange Server and Skype for Business Server 2019. This resource forests also hosts a synchronized representation of active user objects, but no logon-enabled user accounts. So the resource forest is a shared services environment for other forests in which user objects reside, and they have a forest-level trust relationship with the resource forest.
+A resource forest topology is also supported; it's where a forest is dedicated to running your server applications, like Microsoft Exchange Server and Skype for Business Server 2019. This resource forest also hosts a synchronized representation of active user objects, but no logon-enabled user accounts. So the resource forest is a shared services environment for other forests in which user objects reside, and they have a forest-level trust relationship with the resource forest.
   
 Note that Exchange Server can be deployed in the same resource forest as Skype for Business Server or in a different forest.
   
@@ -380,7 +380,7 @@ Skype for Business Server 2019 requires DNS, for the following reasons:
     
 - It associates simple URLs for conferences with the servers hosting those conferences.
     
-- DNS allows external users and client machines to connect to your Edge Servers, or the HTTP reverse proxy, for instant messaging (IM) or conferencing.
+- DNS allows guests and client machines to connect to your Edge Servers, or the HTTP reverse proxy, for instant messaging (IM) or conferencing.
     
 - It lets unified communications (UC) devices that aren't logged in discover the Front End pool or Standard Edition server that's running the Device Update web service to get updates and send logs.
     
@@ -390,7 +390,7 @@ Skype for Business Server 2019 requires DNS, for the following reasons:
     
 It's important to note that Skype for Business Server 2019 doesn't support internationalized domain names (IDNs).
   
-And it's extremely important to remember that any name in DNS be identical to the computer name configured on any server being used by Skype for Business Server 2019. Specifically, we can't have any short-names in the environment, and must have FQDNs for Topology Builder.
+And it's extremely important to remember that any name in DNS must be identical to the computer name configured on any server being used by Skype for Business Server 2019. Specifically, we can't have any short-names in the environment, and must have FQDNs for Topology Builder.
   
 This seems like it would be logical for any computer already joined to a domain, but if you have an Edge Server that's not joined to your domain, it may have a default of a short name, with no domain suffix. Make sure that's not the case, either in DNS or on the Edge Server, or any Skype for Business Server 2019 server or pool, for that matter.
   
@@ -413,7 +413,7 @@ These are some of the things that Skype for Business Server 2019 uses certificat
     
 - Remote user access for instant messaging (IM)
     
-- External user access to audio/video (AV) sessions, application sharing, and conferencing
+- Guest access to audio/video (AV) sessions, application sharing, and conferencing
     
 - Talking to web applications and Outlook Web Access (OWA)
     
@@ -423,7 +423,7 @@ So certificate planning is a must. Now, let's look at a list of some of the thin
     
 - All server certificates must contain a CRL Distribution Point (CDP).
     
-- All certificates must be signed using a signing algorithm supported by the operating system. Skype for Business Server 2019 supports the SHA-1 and SHA-2 suite of digest sizes (224, 256, 384 and 512-bit), and meets or exceeds the operating system requirements.
+- All certificates must be signed using a signing algorithm supported by the operating system. Skype for Business Server 2019 supports the SHA-1 and SHA-2 suite of digest sizes (224, 256, 384, and 512-bit), and meets or exceeds the operating system requirements.
     
 - Auto-enrollment is supported for internal servers running Skype for Business Server 2019.
     
@@ -450,7 +450,7 @@ To keep things straightforward, we've put the certificate requirements for Stand
   
 - Server enhanced key usage (EKU) is automatically configured when you use the certificate wizard to request certificates.
     
-- Each certificate friendly name has to be unique in the computer store.
+- Each certificate-friendly name has to be unique in the computer store.
     
 - As per the sample names below, if you've configured sipinternal.contoso.com or sipexternal.contoso.com in your DNS, they need to be added to the certificate's Subject Alternative Name (SAN).
     
@@ -490,7 +490,7 @@ Certificates for Survivable Branch Appliance (Specifically, Survivable Branch Ap
 |:-----|:-----|:-----|:-----|
 |Default  <br/> |FQDN of the appliance  <br/> |SIP.\<sipdomain\> (you need only one entry per SIP domain)  <br/> |SN=sba01.contoso.net; SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |
    
-### Certificates for external user access (Edge)
+### Certificates for guest access (Edge)
 
 Skype for Business Server 2019 supports the use of a **single public certificate** for access and web conferencing Edge external interfaces, plus the A/V Authentication service, which is all provided via the Edge Server(s). Your Edge internal interface will typically use a private certificate issued by your internal CA, but if you'd prefer, you can use a public certificate for this as well, if it's from a trusted CA.
   
@@ -510,7 +510,7 @@ You'll need SAN names for automatic discovery on the following certificates:
     
 The specifics are listed in the tables below.
   
-This is where a little pre-planning is good, but sometimes you've deployed Skype for Business Server 2019 without intending to deploy mobility, and that comes up later when you already have certificates in your environment. Reissuing them via an internal CA is typically pretty easy, but with public certificates from a public CA, that can be a little more pricy.
+This is where a little pre-planning is good, but sometimes you've deployed Skype for Business Server 2019 without intending to deploy mobility, and that comes up later when you already have certificates in your environment. Reissuing them via an internal CA is typically pretty easy, but with public certificates from a public CA, that can be a little more pricey.
   
 If that's what you're looking at, and if you have a lot of SIP domains (which would make adding SANS more expensive), you can configure your reverse proxy to use HTTP for the initial Autodiscover Service request, instead of using HTTPS (which is the default configuration). The [Plan for Mobility](../../SfbServer/plan-your-deployment/mobility.md) article has more information on this.
   
@@ -541,7 +541,7 @@ Skype for Business Server 2019 can use the same file share for all file storage.
   
 - A file share needs to be on either direct attached storage (DAS) or a storage area network (SAN), and this includes the Distributed File System (DFS) as well as a redundant array of independent disks (RAID) for file stores. For further reading on DFS for Windows Server 2012, check out [this DFS page](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)).
     
-- We recommend a shared cluster for the file share. If you're already using one, you should cluster Windows Server 2012 or higher versions
+- We recommend a shared cluster for the file share. If you're already using one, you should cluster Windows Server 2012 or later versions
 
 > [!Note]
 > **Why the latest Windows?** Older versions may not have the right permissions to enable all features. You can use Cluster Administrator to create the file shares. See this support article [How to create file shares on a cluster](https://support.microsoft.com/help/224967) for more details.

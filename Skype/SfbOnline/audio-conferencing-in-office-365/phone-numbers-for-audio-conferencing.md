@@ -29,7 +29,7 @@ description: "Learn what countries and regions have dial-in conferencing numbers
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!NOTE]
-> For information about phone numbers in Microsoft Teams, see [Phone numbers for Audio Conferencing in Microsoft Teams](/MicrosoftTeams/phone-numbers-for-audio-conferencing-in-teams).
+> For information about phone numbers in Microsoft Teams, see [Phone numbers for Audio Conferencing in Microsoft Teams](/microsoftteams/phone-numbers-for-audio-conferencing-in-teams).
 
 When you are setting up **Audio Conferencing** for Skype for Business, dial-in phone numbers are automatically assigned to your organization. You can see the phone numbers that are assigned to your audio conferencing bridge by going to the **Skype for Business admin center** > **Audio conferencing** > **Microsoft bridge**. See [See a list of Audio Conferencing numbers](see-a-list-of-audio-conferencing-numbers.md).
   

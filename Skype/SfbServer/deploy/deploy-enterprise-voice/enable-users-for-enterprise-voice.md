@@ -49,7 +49,7 @@ After you deploy Enterprise Voice or Call Via Work, you can use the following pr
     
 7. On the **Edit Skype for Business Server User** page, under **Telephony**, click **Enterprise Voice**.
     
-8. Click **Line URI**, and then type a unique, normalized phone number (for example, tel:+14255550200).
+8. Click **Line URI**, and then type a unique, normalized phone number (for example, `tel:+14255550200`).
     
 9. Click **Commit**.
     

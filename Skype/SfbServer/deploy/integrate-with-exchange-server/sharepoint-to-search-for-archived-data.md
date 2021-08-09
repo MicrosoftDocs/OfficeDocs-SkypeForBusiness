@@ -58,9 +58,9 @@ $service.Update()
 ```
 
 > [!NOTE]
-> Be sure and use the URI for your autodiscover service. Do not use the sample URI https://autodiscover.litwareinc.com/autodiscover/metadata/json/1. 
+> Be sure and use the URI for your autodiscover service. Do not use the sample URI `https://autodiscover.litwareinc.com/autodiscover/metadata/json/1`. 
   
-After you have created the token issuer and configured the token service, run these commands, making sure to substitute the URL of your SharePoint site for the sample URL http://atl-sharepoint-001:
+After you have created the token issuer and configured the token service, run these commands, making sure to substitute the URL of your SharePoint site for the sample URL `http://atl-sharepoint-001`:
   
 ```powershell
 $exchange = Get-SPTrustedSecurityTokenIssuer "Exchange"
@@ -107,7 +107,7 @@ When the new site is ready, the next step is to configure Exchange Server to act
     
 3. In the **New Result Source** pane enter a name for the new result source (for example, **Microsoft Exchange**) in the **Name** box. Select **Exchange** as the result source **Protocol**, and then enter the web services source URL for your Exchange server in the **Exchange Source URL** box. The source URL should look similar to this:
     
-    https://atl-exchange-001.litwareinc.com/ews/exchange.asmx
+    `https://atl-exchange-001.litwareinc.com/ews/exchange.asmx`
     
 4. Make sure that **Use Autodiscover** is not selected, and then click **OK**.
     
@@ -117,7 +117,7 @@ Finally, create a new eDiscovery case and a new eDiscovery set by completing the
     
 2. On the Site Contents: New SharePoint Site page, enter the user's email alias (for example, **kenmyer**) in the **Title** box, then add that same URL to the **Web Site Address** box. That will result in a URL similar to this:
     
-    https://atl-sharepoint-001/sites/eDiscovery/kenmyer
+    `https://atl-sharepoint-001/sites/eDiscovery/kenmyer`
     
 3. Click **Create**.
     
@@ -133,4 +133,3 @@ Finally, create a new eDiscovery case and a new eDiscovery set by completing the
     
 At this point you can search the specified mailbox (kenmyer) and/or enable In-Place holds the same way you would for any other SharePoint content or result source.
   
-

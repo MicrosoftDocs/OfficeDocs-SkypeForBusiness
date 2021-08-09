@@ -29,9 +29,6 @@ The following applications have been validated as using Lync 2013 APIs. The inde
 * * *
 Shorten Lync install and implementation times. Administer Lync in single and multi-forest environments without Active Directory schema changes. Centralize call-forwarding and automate user management.
 
-## [Aditi Distribution List Mirror](http://info.aditi.com/distribution-list-mirror)
-* * *
-Streamline organization-wide group email communications making them more meaningful, effective, and engaging by enabling their distribution through Lync persistent chat.
 
 ## [Astound Technologies GPower Point-Of-Care](http://www.astoundtech.com/)
 
@@ -56,7 +53,7 @@ Pick up other's calls, change settings for managers, BusyOnBusy options to avoid
 * * *
 Provide Manager/Admins and Team members with rich Presence information and one-click calling, pickup, and transferring to improve efficiency and productivity.
 
-## [Colima Cerebro](https://colima.de/en/products.html)
+## [Colima Cerebro](http://www.colima.de/)
 * * *
 Enhance communications productivity, with features like call pickup, busy on busy, manager assistance, black and allowlists, offline instant message, and expanded presence alerts.
 
@@ -71,13 +68,6 @@ Ensure rapid response to critical events with fully automated emergency callouts
 ## [Desire2Learn Online Rooms for Lync](http://www.desire2learn.com/)
 * * *
 Use existing course context and structure for the simple creation and management of online meetings within the Desire2Learn Learning Environment.
-
-## [Enabling Technologies CRM Sync](http://enablingtechcorp.com/LyncApps/ETCCRMSync.aspx)
-* * *
-Make Lync calls to a client and automatically log information including time, person called, and notes into CRM without having to open the CRM application.
-## [Enabling Technologies Iris](http://enablingtechcorp.com/LyncApps/ETCIris.aspx)
-* * *
-Bring IM window immediately into focus on message receipt. Automatically reply to IMs. And dial highlighted numbers with a hot key with this suite.
 
 ## [EventBuilder L+](https://www.eventbuilder.com/L-plus.asp)
 * * *
@@ -159,7 +149,7 @@ Bring situational awareness with complete integrated communication, resource man
 * * *
 Collect and process call records to support enterprise business decisions regarding security accountability and productivity.
 
-## [TE Systems ANYNODE](http://www.te-systems.de/index.php?id=168&L=2)
+## [TE Systems ANYNODE](https://www.anynode.de/anynode-and-microsoft-teams/)
 * * *
 Establishes interface between different SIP endpoints, acting and reacting like a port, with address information security support, routing, and call handling.
 
@@ -179,7 +169,7 @@ Securely identify, welcome, and connect visitors via a touchscreen kiosk. Offer 
 * * *
 Enable many alerting and call pickup use cases. Improve responsiveness by efficiently connecting callers to available resources.
 
-## [Viases PostOffice for Lync](http://www.viases.com/en/postoffice-for-lync/)
+## [Viases PostOffice for Lync](http://www.viases.com/)
 * * *
 Support various types of call transfers, and distribution models. Blocklist unwanted callers. Add flexibility to voicemail. Develop and deliver complex IVR flows with this complementary suite.
 
