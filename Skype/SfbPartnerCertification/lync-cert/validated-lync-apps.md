@@ -1,6 +1,6 @@
 ---
 title: "Validated Lync Applications"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand

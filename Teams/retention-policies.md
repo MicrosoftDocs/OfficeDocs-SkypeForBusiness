@@ -58,13 +58,17 @@ These two principles of retention address most conflicts that might arise when y
 
 In many cases, organizations consider private chat data as more of a liability than channel messages, which are typically more project-related conversations.
 
-You can set up separate retention policies for private chats (1:1 or 1:many chats) and channel messages. You can also configure unique policies that apply to specific users or teams in your organization. For Teams chats, you can select which users the policy applies to. For Teams channel messages, you can select which teams the policy applies to.
+You can very efficiently configure a single retention policy for all Teams messages. Or, for more fine-grained control, you can:
 
-For example, for channel messages, you can apply a retention policy to specific teams in your organization and that policy is configured with a delete action after 1 year. Then apply another retention policy to all other teams and that policy is configured with a delete action after 3 years.
+- Have separate retention policies for private chats (1:1 or 1:many chats), messages from standard channels, or messages from private channels.
+
+- Apply the policies only to specific users or teams in your organization. For Teams chats and private channels, you can select which users the policy applies to. For Teams channel messages, you can select which teams the policy applies to.
+
+For example, for standard channel messages: Create a retention policy for specific teams in your organization and configure that policy with a delete action after 1 year. Then create another retention policy for standard channel messages for all other teams and configure that policy with a delete action after 3 years.
 
 ## Create and manage retention policies for Teams
 
-To create or edit a retention policy for Teams chats and channel messages, use the instructions from [Retention policy for Teams locations](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations).
+To create or edit a retention policy for Teams messages, use the instructions from [Retention policy for Teams locations](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations).
 
 That page has additional information about creating and managing retention policies for other workloads in Microsoft 365. For example, you might want to also create a retention policy for Microsoft 365 Groups to retain and delete files that are accessed in Teams and stored in OneDrive or SharePoint.  
 

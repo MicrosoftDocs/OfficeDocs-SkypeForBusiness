@@ -14,8 +14,6 @@
       items: 
         - name: Move users from on-premises to Teams
           href: ../hybrid/move-users-from-on-premises-to-teams.md
-        - name: Move users from on premises to Skype for Business Online
-          href: ../hybrid/move-users-from-on-premises-to-skype-for-business-online.md
         - name: Move users from the cloud to on premises
           href: ../hybrid/move-users-from-the-cloud-to-on-premises.md
         - name: Manage meeting migration
@@ -26,8 +24,14 @@
           href: ../hybrid/decommission-on-prem-overview.md
         - name: Move users to the cloud
           href: ../hybrid/decommission-move-on-prem-users.md
-        - name: Disable hybrid to complete migration to the cloud
-          href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+        - name: Disable hybrid to complete migration to Teams Only
+          items:
+            - name: Disable hybrid to complete migration to Teams Only
+              href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+            - name: Update DNS entries
+              href: ../hybrid/decommission-manage-dns-entries.md
+            - name: Decide how to manage attributes after decommissioning
+              href: ../hybrid/cloud-consolidation-managing-attributes.md
         - name: Move application endpoints to the cloud
           href: ../hybrid/decommission-move-on-prem-endpoints.md
         - name: Remove your on-premises Skype for Business deployment

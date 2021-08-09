@@ -24,6 +24,7 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|4.9.12.0 |07/28/2021 |
 |4.8.31.0 |05/12/2021 |
 |4.8.25.0 |04/22/2021 |
 |4.8.19.0 |04/06/2021 |
@@ -69,13 +70,22 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
 
+### 4.9.12.0 (7/28/2021)
+
+Introduced in this update:
+- Microsoft Teams only mode is now available in application settings, so you don't need to set up a Skype for Business account anymore. In this mode, devices signed in to Teams only mode join Skype for Business meetings as a guest user.
+- Fix for HDMI audio causing lower call volume. HDMI audio feature is automatically enabled for all devices with application build 4.9.12.0.
+
+> [!NOTE]
+> With Skype for Business reaching end of life it is recommended to update to Teams only mode.
+
 ### 4.8.31.0 (05/12/2021)
 
 Introduced in this update:
 - Windows 10 20H2 support 
 
 > [!NOTE]
-> HP Elite Slice and Crestron UC-Engine (BIOS version date containing "KYSKLi") Teams Rooms have compatibility issues and updated drivers will be provided by system OEMs in the near future. Windows 10 20H2 won't be offered to these devices. For more information about Windows version support, see [Windows 10 release support](./rooms-lifecycle-support.md#windows-10-release-support).
+> Crestron UC-Engine (BIOS version date containing "KYSKLi") Teams Rooms have compatibility issues and updated drivers will be provided by system OEMs in the near future. Windows 10 20H2 won't be offered to these devices. For more information about Windows version support, see [Windows 10 release support](./rooms-lifecycle-support.md#windows-10-release-support).
 
 ### 4.8.25.0 (04/22/2021)
 

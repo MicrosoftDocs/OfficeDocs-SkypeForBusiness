@@ -48,7 +48,7 @@ Sentinel workbooks and runbooks can make security monitoring *systematic*. A goo
 
 ## Step 1: Collect Teams logs: Enable Audit logs in Microsoft 365
 
-Because Teams logs activity through Microsoft 365, audit logs aren't collected by default. Turn on this feature with [these steps](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off). Teams data is collected in the Microsoft 365 audit under *Audit.General*.
+Because Teams logs activity through Microsoft 365, audit logs aren't collected by default. Turn on this feature with [these steps](/microsoft-365/compliance/turn-audit-log-search-on-or-off). Teams data is collected in the Microsoft 365 audit under *Audit.General*.
 
 ## Step 2: Connect Office 365 logs to Azure Sentinel
 
@@ -223,6 +223,6 @@ You should also join (and contribute to) the [Azure Sentinel community](https://
 
 [Registering your application in Azure AD](/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
 
-[Turn audit log search on or off](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)
+[Turn audit log search on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off)
 
 [What is Azure Sentinel?](/azure/sentinel/overview)

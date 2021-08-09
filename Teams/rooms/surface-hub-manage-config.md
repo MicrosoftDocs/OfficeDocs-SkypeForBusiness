@@ -29,16 +29,16 @@ Windows Configuration Designer is a good option if you only have a few Surface H
 Teams configuration on a Surface Hub is defined using an XML file. The XML file contains all the settings that can be used to control how Teams works. Both Windows Configuration Designer and Microsoft Intune use the same XML syntax. Here's an example of the Teams configuration XML file:
 
 ```xml
-<SurfaceHubSettings>​
-    <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>​
-    <AutoAcceptProximateMeetingInvitations>true</AutoAcceptProximateMeetingInvitations>​
-    <CoordinatedMeetings enabled="true"> ​
-        <TrustedAccounts>​room@contoso.com</TrustedAccounts>​
-        <Settings> ​
-            <Audio default="false" enabled="false" />​
-            <Video default="false" enabled="true" /> ​
-        </Settings> ​
-    </CoordinatedMeetings>​
+<SurfaceHubSettings>
+    <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
+    <AutoAcceptProximateMeetingInvitations>true</AutoAcceptProximateMeetingInvitations>
+    <CoordinatedMeetings enabled="true"> 
+        <TrustedAccounts>room@contoso.com</TrustedAccounts>
+        <Settings> 
+            <Audio default="false" enabled="false" />
+            <Video default="false" enabled="true" /> 
+        </Settings> 
+    </CoordinatedMeetings>
 </SurfaceHubSettings>
 ```
 
