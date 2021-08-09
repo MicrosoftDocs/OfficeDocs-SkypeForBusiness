@@ -291,7 +291,19 @@ The expiration date is calculated as the day the meeting recording is created pl
 Admins can change the default expiration setting in PowerShell today. When the feature launches, Admins can change this setting in the Teams admin center. Changing expiration settings will impact only newly created TMRs from that point forward. It will not impact any recordings made prior to that date. 
 
 The maximum expiration days setting an Admin can apply is 99,999 days, or 273 years. Admins cannot change the expiration date on existing TMRs already uploaded to OneDrive or SharePoint before this feature was released. This protects the intent of the user that owns the TMR. 
+  
+**Does playing the recording change the expiration date?**
 
+No, playback does not impact the expiration date.
+  
+**What happens to the expiration date if the TMR is downloaded and re-uploaded?**
+
+The expiration date will be cleared upon re-upload, regardless of the user’s SKU.
+  
+**What happens if I copy or move the TMR to a different location or site?**
+
+The date is only retained for a moved TMR file. A copied file will not have the expiration date, just like a re-uploaded TMR.
+  
   Example PowerShell command: 
   
   ```powershell
