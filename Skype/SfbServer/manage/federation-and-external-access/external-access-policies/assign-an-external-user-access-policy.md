@@ -57,7 +57,7 @@ Per-user external access policies can be assigned by using Windows PowerShell an
 
 ## To assign a per-user external access policy to multiple users
 
-  - This command assigns the per-user external access policy USAExternalAccessPolicy to all the users who have accounts in the UnitedStates OU in Active Directory. For more information on the OU parameter used in this command, see the documentation for the [Get-CsUser](/powershell/module/skype/Get-CsUser) cmdlet.<br/><br/>Get-CsUser -OU "ou=UnitedStates,dc=litwareinc,dc=com" | Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
+  - This command assigns the per-user external access policy USAExternalAccessPolicy to all the users who have accounts in the UnitedStates OU in Active Directory. For more information on the OU parameter that's used in this command, see the documentation for the [Get-CsUser](/powershell/module/skype/Get-CsUser) cmdlet.<br/><br/>Get-CsUser -OU "ou=UnitedStates,dc=litwareinc,dc=com" | Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
 
 
 ## To unassign a per-user external access policy
