@@ -133,7 +133,7 @@ We recommend that you visit the vendor's web site for the latest information abo
 			</td>
 		</tr>
 		<tr align="left" valign="top">
-			<td rowspan="2"><a href="https://ipecs.com/site/lgericsson/menu/</a></td>
+			<td rowspan="2"><a href="https://www.ipecs.com/site/lgericsson/menu/157.do?scene=detail&amp;productNo=28">Ericsson-LG Enterprise</a></td>
 			<td>IPECS IP-PBX</td>
 			<td>IP-PBX</td>
 			<td>5.5Bd</td>
@@ -254,7 +254,7 @@ We recommend that you visit the vendor's web site for the latest information abo
 			<td align ="center" valign="middle">&#x2714;</td>
 		</tr>
 		<tr align="left" valign="top">
-			<td rowspan="4"><a href="https://www.sangoma.com/">Sangoma Technologies</a></td>
+			<td rowspan="4"><a href="https://www.sangoma.com/solutions/vega-gateways-for-microsoft-lync/">Sangoma Technologies</a></td>
 			<td>Netborder Express Gateway</td>
 			<td>4.4</td>
 			<td>Basic Gateway</td>
@@ -279,7 +279,7 @@ We recommend that you visit the vendor's web site for the latest information abo
 			<td align ="center" valign="middle">&#x2714;</td>
 		</tr>
 		<tr align="left" valign="top">
-			<td rowspan="2"><a href="https://ribboncommunications.com/">Sonus</a></td>
+			<td rowspan="2"><a href="https://www.sonus.net/solutions/enterprises/microsoft-lync">Sonus</a></td>
 			<td>SBC 1000/2000</td>
 			<td>2.2.1, V 3.1.1v285</td>
 			<td>Enhanced Gateway</td>
@@ -474,7 +474,7 @@ We recommend that you visit the vendor's web site for the latest information abo
 			</td>
 		</tr>
 		<tr>
-			<td>eSpace U1910, U1930, U1980</a></td>
+			<td>eSpace <a href="http://enterprise.huawei.com/en/products/coll-communication/union-comuni/ip_telephony/1en_u1910.htm">U1910</a>, <a href="http://enterprise.huawei.com/en/products/coll-communication/union-comuni/ip_telephony/1en_u1930.htm">U1930</a>, <a href="http://enterprise.huawei.com/en/products/coll-communication/union-comuni/ip_telephony/1en_u1980.htm">U1980</a></td>
 			<td>V100R001</td>
 			<td>IP-PBX </td>
 			<td align ="center" valign="middle">&#x2714;+S </td>
