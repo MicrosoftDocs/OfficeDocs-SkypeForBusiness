@@ -27,6 +27,10 @@ By associating resource accounts to auto attendants and call queues, you can add
 
 The sections in this article show you how to set up a resource account and then assign a phone number to it. Later on, you'll associate the resource account with an auto attendant.
 
+The following video shows you how to complete these steps in the Teams admin center.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OFYG]
+
 ## Obtain virtual user licenses
 
 Resource accounts require a license in order to work with auto attendants and call queues. You can use a free *Microsoft 365 Phone System - Virtual User* license.

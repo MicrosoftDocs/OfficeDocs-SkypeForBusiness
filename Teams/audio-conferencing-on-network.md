@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: 
   - Audio Conferencing
-description: "The following describes Open Preview functionality for On-network for Audio Conferencing."
+description: "The following describes On-network for Audio Conferencing."
 ---
 
-# Open Preview of On-network Conferencing for Audio Conferencing
+# On-network Conferencing for Audio Conferencing
 
-The Open Preview of On-network Conferencing is available to all customers. On-network Conferencing allows organizations to send inbound and outbound Audio Conferencing calls to Microsoft dial-in numbers through Direct Routing. This capability is not intended to extend the support of Audio Conferencing to third party dial-in numbers. On-network Conferencing is not supported if it is used to route inbound calls to the Audio Conferencing service through third party dial-in phone numbers or outbound calls to the PSTN from Microsoft Audio Conferencing Bridge. 
+On-network Conferencing allows organizations to send inbound and outbound Audio Conferencing calls to Microsoft dial-in numbers through Direct Routing. This capability is not intended to extend the support of Audio Conferencing to third party dial-in numbers. On-network Conferencing is not supported if it is used to route inbound calls to the Audio Conferencing service through third party dial-in phone numbers or outbound calls to the PSTN from Microsoft Audio Conferencing Bridge. 
 
 This article describes the prerequisites and configuration steps required to enable On-network Conferencing for your organization.
 
@@ -146,19 +146,6 @@ A dial plan is a set of normalization rules that translate dialed phone numbers 
 By default, Teams users can dial-out to PSTN numbers in E.164 format, that is, +\<country code\>\<number\>. However, dial plans can be used to allow users to dial phone numbers in other formats, for instance 4-digit extensions.
 
 If you would like to enable extension-based dialing through On-network conferencing, you can set up dial plans to match the extension dialing pattern to the phone number ranges of the phone number of your organization. To set up dial plans, see [Create and manage dial plans](create-and-manage-dial-plans.md).
-
-
-## Known issues in Open Preview
-
-The following is a list of known issues that are currently present in the Open Preview release of On-network conferencing. Microsoft is working on addressing these issues.
-
-| Issue | Workaround |
-| :--- | :--- |
-| Dial-in calls with anonymous/hidden caller IDs that are routed through On-network conferencing cannot be connected to the meeting. | If possible, set a configuration in your PBX or SBC to always send a caller ID for calls routed via On-network conferencing.|
-| In some cases, the welcome message that is played to users when they dial in to the service (“Welcome to the Audio Conferencing service…”) is truncated and users do not hear the “Welcome” word.| There are no workarounds for this issue at the moment. |
-
-
-
 
 ## Related topics
 

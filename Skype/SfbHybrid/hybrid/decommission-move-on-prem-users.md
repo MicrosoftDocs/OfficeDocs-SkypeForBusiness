@@ -22,13 +22,15 @@ description: "Move users before decommissioning a Skype for Business on-premises
 
 # Move required users before decommissioning your on-premises environment
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 This article describes how to move required users to the Microsoft cloud before decommissioning your on-premises Skype for Business environment. This is step 1 of the following steps to decommission your on-premises environment:
 
 - **Step 1. Move all required users from on-premises to online.** (This article)
 
 - Step 2. [Disable your hybrid configuration](cloud-consolidation-disabling-hybrid.md).
 
-- Step 3. [Move hybrid application endpoints from on-premises to online](decommission-move-on-prem-endpoints.md).
+- Step 3. [Migrate hybrid application endpoints from on-premises to online](decommission-move-on-prem-endpoints.md). Be aware that any existing hybrid application endpoints will not be discoverable between the time you perform Step 2 above until you complete this step. You should plan to do both steps 2 and 3 in the same maintenance window.
 
 - Step 4. [Remove your on-premises Skype for Business deployment](decommission-remove-on-prem.md).
 

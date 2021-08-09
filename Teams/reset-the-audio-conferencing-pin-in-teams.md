@@ -59,7 +59,7 @@ Meetings can be started when an authenticated user joins using the Microsoft Tea
     
 - Automatically sending emails to users is enabled by default, and users will receive an email with their PIN when they're enabled for audio conferencing or when the PIN is reset. But if you have disabled automatically sending emails, a PIN reset email won't be sent to a user and you will have to manually send the PIN information to the user.
     
-- When a meeting starts, all of the users in the lobby will automatically join it. For example, if two participants try to join a meeting before it has been started, they will be put in the lobby and will listen to music on hold, and when the meeting organizer joins using their PIN via phone, the meeting will start and the participants in the lobby will join the meeting.
+- When a meeting starts, the organizer needs to admit all PSTN users in the lobby to join the meeting. For example, if two PSTN participants try to join a meeting before it has started, they will be put in the lobby and will listen to music on hold, and when the meeting organizer joins using their PIN via phone, the meeting will start and the organizer can use the in-meeting command (press *21) to admit all PSTN users in the lobby.
     
 - The default setting is to not allow a meeting to be started by anonymous callers.
     

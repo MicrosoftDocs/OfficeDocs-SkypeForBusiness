@@ -1,5 +1,5 @@
 ---
-title: "Feature Overview (Planning Tool)"
+title: Feature Overview planning tool
 ms.reviewer: 
 ms.author: v-cichur
 author: cichur
@@ -13,10 +13,10 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
-description: "Skype for Business Server 2015 Planning Tool"
+description: "Descripbes the Skype for Business Server 2015 planning tool."
 ---
 
-# Feature Overview (Planning Tool)
+# Feature Overview planning tool
  
 Skype for Business Server 2015 Planning Tool
   

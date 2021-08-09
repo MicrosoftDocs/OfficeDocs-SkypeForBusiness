@@ -21,7 +21,7 @@ ms.custom:
   - ms.teamsadmincenter.liveevents.policies
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 ---
 
 # What are Microsoft Teams live events
@@ -97,6 +97,7 @@ The goal of eCDN is to take the video content from the internet and distribute t
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [Ramp](https://rampecdn.com)
 - [Riverbed](https://www.riverbed.com/solutions/office-365.html)
+- [Peer5](https://www.peer5.com/) (coming soon)
 
 ### Attendee experience
 

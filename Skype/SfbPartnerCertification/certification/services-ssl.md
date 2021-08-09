@@ -1,6 +1,6 @@
 ---
 title: "SSL Certificate providers for Skype for Business or Teams"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: rogupta

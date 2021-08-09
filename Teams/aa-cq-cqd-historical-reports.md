@@ -27,20 +27,21 @@ description: Learn about how to use Call Quality Dashboard Power BI report to vi
 
 The CQD Teams Auto Attendant & Call Queue Historical Report Power BI Template provides the following three reports:
 
-- Auto Attendant – showing analytics for calls coming into your Auto Attendants.
-- Call Queue – showing analytics for calls coming into your Call Queues.
-- Agent Timeline – showing a timeline view of agents being active in Call Queue calls.
+- [Auto Attendant](media/cqd-teams-aa-cq-historical-report-sample-aa.png) – showing analytics for calls coming into your Auto Attendants.
+- [Call Queue](media/cqd-teams-aa-cq-historical-report-sample-cq.png) – showing analytics for calls coming into your Call Queues.
+- [Agent Timeline](media/cqd-teams-aa-cq-historical-report-sample-at.png) – showing a timeline view of agents being active in Call Queue calls.
 
 These reports use data from the [Call Quality Dashboard](CQD-Power-BI-query-templates.md) data store. They allow organizations
 to report on the number of calls being processed by auto attendants and call queues.  They also provide insight to agent performance in the call queues.
 
-## What are the requirements? 
+## Prerequisites
 
+### Power BI Desktop
 You need to have Power BI Desktop installed. You can install it from the [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
 
 You can use the free version of Power BI Desktop. The minimum compatible version is 2.85.681.0 (September 2020).
 
-## Permissions to access the CQD pipeline
+### Permissions to access the CQD pipeline
 
 The account you use to view the AA & CQ Analytics historical report needs to have permissions to access the CQD data pipeline. For more information see [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 

@@ -15,6 +15,8 @@ description: "This topic covers what you need to consider when you decide to mig
 
 # Plan for Skype for Business Server and Exchange Server migration
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 This topic covers what you need to consider when you decide to migrate your existing Skype for Business Server or Exchange Server deployments to Exchange Online. What you can migrate, and when, heavily depends on what you've already got set up in your organization.
 
 ## Feature changes in Exchange 2019 and Skype for Business Server 2019
