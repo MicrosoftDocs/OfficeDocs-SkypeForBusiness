@@ -282,10 +282,22 @@ Customers have provided overwhelming feedback that they want more controls to re
   
 We believe nearly all customers will benefit from the reduced storage load on their tenant by removing recordings that will likely never be rewatched after 60 days. It is our goal to provide as clean an experience as possible for all customers by default. 
   
+**Will it be automatically deleted after 30 days even if the data is accessed or downloaded?**
+  
+Accessing the file does not change the expiration date. 
+  
+**Is the expiry date visible as a column in the list?**
+
+Users with view access to the recording will see a red icon next to the file in the OneDrive or SharePoint folder 14 days before the file expires. There is currently no way to add a column to a list with expire date.
+  
 **How is the expiration date calculated?**
   
 The expiration date is calculated as the day the meeting recording is created plus the default number of days set in the Teams setting by the admin. 
   
+**Can the expiration date be changed for each TMR, such as data A expiration date is 30 days and data B expiration date is 60 days?**
+
+Yes, the expiration date is set per file. Users can modify the expiration date in the details pane of a selected file in OneDrive or SharePoint.
+
 **How can an Admin change the expiration date?**
   
 Admins can change the default expiration setting in PowerShell today. When the feature launches, Admins can change this setting in the Teams admin center. Changing expiration settings will impact only newly created TMRs from that point forward. It will not impact any recordings made prior to that date. 
