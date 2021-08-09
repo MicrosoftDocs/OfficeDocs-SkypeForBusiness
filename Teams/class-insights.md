@@ -210,14 +210,14 @@ Material for **education leaders**:
 
 ## Turn Insights on or off
 
-By default, Insights is turned on, which enables us to collect analytics of students  activity within Teams, to be used in insights. You may decide to opt-out from Insights,in which case we *delete all the data collected* for Insights and stop collecting any future data. Turn Insights back on, and we start collecting data from the time it's re-enabled.
+By default, Insights is turned on, which enables us to collect analytics of students' activities within Teams, to be used in insights. You may decide to opt-out from Insights, in which case we *delete all the data collected* for Insights and stop collecting any future data. If you turn Insights back on, we start collecting data from the time it's re-enabled.
 
-* To turn off/on Insights all together, open the [SDS Admin Center](https://sds.microsoft.com/) and go to **Settings** > **Manage Education Insights**. Turn off/on  '**Collect activity data for Insights**' to disable/enable Insights.
+* To turn Insights on or off, open the [SDS Admin Center](https://sds.microsoft.com/) and go to **Settings** > **Manage Education Insights**. Turn **Collect activity data for Insights** off or on to disable or enable Insights.
 
-:::image type="content" source="media/insights-settings.png" alt-text="Turn Insights on or off":::
+:::image type="content" source="media/insights-settings.png" alt-text="A screenshot of the SDS Admin Center page where you have a settings option to turn Insights on or off.":::
 
 > [!NOTE]
-> When you opt-out, we *delete all the data collected* for Insights. Turn Insights back on, and we start collecting data from the time it's re-enabled. Deleted data on opt-out canot be restored. 
+> If you've turned Insights off, the data that's been collected is deleted. The deleted data on opt-out canot be restored at a later time, even if Insights is re-enabled.
 
 ### Turn SDS for Insights on or off
 
