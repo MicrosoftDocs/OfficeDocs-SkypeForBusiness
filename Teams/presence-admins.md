@@ -1,7 +1,7 @@
 ---
 title: User presence in Teams
-author: serdars
-ms.author: dmaguire
+author: dmaguire
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
