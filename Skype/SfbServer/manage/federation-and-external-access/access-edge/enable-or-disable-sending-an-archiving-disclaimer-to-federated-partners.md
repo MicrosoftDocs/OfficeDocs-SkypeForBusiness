@@ -14,7 +14,7 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: ""
+description: "Turn on or off sending an archiving disclaimer to federated partners in Skype for Business Server."
 ---
 
 # Enable or disable sending an Archiving disclaimer to federated partners in Skype for Business Server
