@@ -38,18 +38,18 @@ For example, the following sets the interval to three minutes.<br/><br/>Set-CsBa
 
 ## To get the Backup Service status for a particular pool
 
-Run the following cmdlet:<br/><br/>Get-CsBackupServiceStatus -PoolFqdn <pool-FQDN>
+Run the following cmdlet:<br/><br/>Get-CsBackupServiceStatus -PoolFqdn \<pool-FQDN>
 
 > [!NOTE]  
 > The Backup Service sync status is defined unidirectionally from a pool (P1) to its backup pool (P2). The sync status from P1 to P2 can be different than the one from P2 to P1. For P1 to P2, Backup Service is in a “steady” state if all the changes made in P1 are completely replicated over to P2 within the sync interval. It is in the “final” state if there are no more changes to be synchronized from P1 to P2. Both states indicate a snapshot of the Backup Service at the time the cmdlet is executed. It does not imply that the state returned will stay as is afterwards. In particular, the “final” state will continue to hold only if P1 does not generate any changes after the cmdlet is executed. This is true in the case of failing P1 over to P2 after P1 is placed into the read-only mode as part of the **Invoke-CsPoolfailover** execution logic.
 
 ## To get information about the backup relationship for a particular pool
 
-Run the following cmdlet:<br/><br/>Get-CsPoolBackupRelationship -PoolFQDN <poolFQDN>
+Run the following cmdlet:<br/><br/>Get-CsPoolBackupRelationship -PoolFQDN \<poolFQDN>
 
 ## To force a Backup Service sync
 
-Run the following cmdlet:<br/><br/>Invoke-CsBackupServiceSync -PoolFqdn <poolFqdn> [-BackupModule  {All|PresenceFocus|DataConf|CMSMaster}]
+Run the following cmdlet:<br/><br/>Invoke-CsBackupServiceSync -PoolFqdn \<poolFqdn> [-BackupModule  {All|PresenceFocus|DataConf|CMSMaster}]
 
 ## Restore conference contents using the Backup Service 
 
@@ -57,8 +57,8 @@ If the conference information stored in the file store of a Front End pool becom
 
 You must also perform this task if an entire pool has failed and you have to fail over its users to a backup pool. When these users are failed back over to their original pool, you must use this procedure to copy their conference content back to their original pool as well.
 
-Assume that Pool1 is paired with Pool2, and the conference data in Pool1 is lost. You can use the following cmdlet to invoke the Backup Service to restore the contents:<br/><br/>Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
+Assume that Pool1 is paired with Pool2, and the conference data in Pool1 is lost. You can use the following cmdlet to invoke the Backup Service to restore the contents:<br/><br/>Invoke-CsBackupServiceSync -PoolFqdn \<Pool2 FQDN> -BackupModule ConfServices.DataConf
 
-Restoring the conference contents may take some time, depending on their size. You can use the following cmdlet to check the process status:<br/><br/>Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
+Restoring the conference contents may take some time, depending on their size. You can use the following cmdlet to check the process status:<br/><br/>Get-CsBackupServiceStatus -PoolFqdn \<Pool2 FQDN> -BackupModule ConfServices.DataConf
 
 The process is done when this cmdlet returns a value of Steady State for the data conference module.
