@@ -1,6 +1,6 @@
 ---
 title: "How to use Microsoft Teams panels devices"
-ms.author: v-mdhiman
+ms.author: serdars
 author: ManikaDhiman
 manager: serdars
 ms.reviewer: weizxue
