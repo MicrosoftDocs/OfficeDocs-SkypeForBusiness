@@ -24,9 +24,11 @@ ms.custom:
 description: In this article, you will learn about different phone number types that Microsoft Teams uses.
 ---
 
-# Different kinds of phone numbers
+# Different types of phone numbers
 
-Microsoft Teams uses different telephone number types depending on the purpose for which you want to use the phone number. Teams uses **user** numbers, which can be assigned to users in your organization, and **service** numbers, which are assigned to services such as Audio Conferencing, auto attendants, or call queues. Service phone numbers have a *higher concurrent call capacity*  than user numbers. Service phone numbers are available but will vary by country/region and the type of number (whether it's a toll or toll-free number). If you need additional or other number types other than those numbers seen in the Microsoft Teams admin center, you can submit a phone number request to the [PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
+Microsoft Teams uses different telephone number types depending on the purpose for which you want to use the phone number. 
+
+Teams uses **user** numbers, which can be assigned to users in your organization, and **service** numbers, which are assigned to services such as Audio Conferencing, auto attendants, or call queues. Service phone numbers have a *higher concurrent call capacity*  than user numbers. Service phone numbers are available but will vary by country/region and the type of number (whether it's a toll or toll-free number). If you need additional or other number types other than those numbers seen in the Microsoft Teams admin center, you can submit a phone number request to the [PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
   
 - **User numbers**
     
