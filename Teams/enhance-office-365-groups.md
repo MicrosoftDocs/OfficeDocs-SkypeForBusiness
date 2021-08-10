@@ -20,8 +20,7 @@ appliesto:
 ms.custom: seo-marvel-mar2020
 ---
 
-Enhance existing Microsoft 365 groups with Microsoft Teams
-=======================================================
+# Enhance existing Microsoft 365 groups with Microsoft Teams
 
 Microsoft Teams users can enhance an existing Microsoft 365 Group with Teams functionality. When looking at enhancing a public Microsoft 365 Group, users can do that if the number of members is equal to or less than 5,000.
 

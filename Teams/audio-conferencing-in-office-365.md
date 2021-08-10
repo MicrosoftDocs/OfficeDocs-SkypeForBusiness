@@ -28,7 +28,7 @@ description: Learn about how Audio Conferencing in Microsoft 365 or Office 365 a
 ---
 
 # Audio Conferencing in Microsoft 365
-Audio Conferencing in Microsoft 365 and Office 365 enables users to call in to meetings from their phones. Audio Conferencing allows up to 250 phone attendees.
+Audio Conferencing in Microsoft 365 and Office 365 enables users to call in to meetings from their phones. Audio Conferencing allows up to 1000 phone attendees.
 
 ## What is Audio Conferencing?
 Calling in (dialing in) to meetings is very useful for users who are on the road and can't attend a meeting using the Skype for Business or Microsoft Teams app on their laptops or mobile devices. But there are other scenarios in which using a phone to attend a Skype for Business or Microsoft Teams meeting can be a better option than using an app on a computer:
