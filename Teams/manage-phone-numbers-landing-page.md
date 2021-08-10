@@ -31,6 +31,8 @@ description: Learn how to get and manage user (subscriber) and service (toll and
 
 # Manage phone numbers for your organization
 
+DRAFT
+
 Microsoft has two types of telephone numbers available: subscriber (user) numbers, which can be assigned to users in your organization, and service numbers, available as toll and toll-free service numbers. Service numbers have higher concurrent call capacity than subscriber numbers and can be assigned to services such as Audio Conferencing, Auto Attendants, or Call Queues.
 
 You will need to decide:
