@@ -60,7 +60,7 @@ Most properties in a team are included and supported by team templates. But ther
 
 Pre-built templates (also called base template types) are special templates that we created for specific industries. These templates often contain proprietary apps that aren't available in the apps store.
 
-CHECKTHIS (specific to Graph???): Once a base template type is defined, you can extend or override these special templates with more properties that you'd like to specify. Some base template types contain properties that can't be overridden.
+???Once a base template type is defined, you can extend or override these special templates with more properties that you'd like to specify. Some base template types contain properties that can't be overridden.
 
 Here are the pre-built templates that are available in the Teams admin center. To view these templates, in the left navigation of the Teams admin center, go to **Manage Teams** > **Teams templates**.
 
