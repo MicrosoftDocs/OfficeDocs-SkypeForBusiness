@@ -22,7 +22,7 @@ appliesto:
 
 # Manage live components in Teams
 
-Live components in Teams chat offer a new way to ideate, create, and make decisions together. Send a component—like a table, task list, or paragraph—that everyone in your chat can edit inline and see changes as they’re made. This means you can gather ideas and feedback from your team while holding fewer meetings and minimizing the need for long chat threads.
+Live components in Teams chat offer a new way to ideate, create, and make decisions together. Send a component—like a table, task list, or paragraph—where everyone in your chat can edit inline and see changes as they’re made. This means you can gather ideas and feedback from your team while holding fewer meetings and minimizing the need for long chat threads.
 
 **Get tasks done faster together.** Crowd-source an agenda, track a group's action items, or take notes collectively. These are just a few scenarios made easier with live components.
 
@@ -48,7 +48,7 @@ You'll need the latest version of [SharePoint Online PowerShell module](/office
 
 2. Check if Fluid Framework is enabled by running the Get-SPOTenant cmdlet without any arguments.
 
-3. Verify the value of IsFluidEnabled is**true**.
+3. Verify the value of IsFluidEnabled is **true**.
 
 ## Enabling the Fluid Framework through the SharePoint Online PowerShell Cmdlet 
 
@@ -56,9 +56,9 @@ You'll need the latest version of [SharePoint Online PowerShell module](/office
 
 2. Enable Fluid using the cmdlet Set-SPOTenant -IsFluidEnabled $true 
    
-   The change should take approximately 60 minutes to apply across your tenancy. 
+   The change will take a short time to apply across your tenancy. 
 
-The feature will be available on Teams Windows Desktop, Mac, iOS, Android. When enabled, users will see a new option for inserting live components in the message compose experience for these clients
+The feature will be available on Teams Windows Desktop, Mac, iOS, Android. When enabled, users will see a new option for inserting live components in the message compose experience for these clients.
 
 ## Disabling Fluid Framework through SharePoint Online PowerShell Cmdlet
 
@@ -66,7 +66,7 @@ The feature will be available on Teams Windows Desktop, Mac, iOS, Android. When 
 
 2. Disable Fluid using the Set-SPOTenant cmdlet Set-SPOTenant -IsFluidEnabled $false. 
 
-   The change should take approximately 60 minutes to apply across your tenancy. 
+   The change will take a short time to apply across your tenancy. 
 
 If you need to re-enable this capability, you can use SharePoint Online PowerShell Cmdlets.
 

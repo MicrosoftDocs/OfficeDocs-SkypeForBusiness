@@ -33,7 +33,7 @@ You can use the following procedure to view a network subnet. From the Skype for
 
 4.  On the **Subnet** page, click the subnet that you want to view.
  
-    > [!NOTE]  
+    > [!NOTE]
     > You can only view one subnet at a time.
 
 5.  On the **Edit** menu, click **Show details**.
@@ -46,15 +46,15 @@ Network subnet information can be viewed by using Windows PowerShell and the Get
 
   - To view information about all your network subnets, type the following command in the Skype for Business Server Management Shell and then press ENTER:
     
-        Get-CsNetworkSubnet
+    **Get-CsNetworkSubnet**
     
     That will return information similar to this:
     
-        Identity      : 172.11.15.0
-        MaskBits      : 28
-        Description   :
-        NetworkSiteID : Redmond
-        SubnetID      : 172.11.15.0
+    Identity      : 172.11.15.0<br/>
+    MaskBits      : 28<br/>
+    Description   :<br/>
+    NetworkSiteID : Redmond<br/>
+    SubnetID      : 172.11.15.0<br/>
 
 
 For more information, see the help topic for the [Get-CsNetworkSubnet](/powershell/module/skype/Get-CsNetworkSubnet) cmdlet.
