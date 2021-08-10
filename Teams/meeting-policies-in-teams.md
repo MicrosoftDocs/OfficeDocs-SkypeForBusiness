@@ -1,5 +1,5 @@
 ---
-title: Manage meeting policies
+title: "Teams: Manage meeting policies"
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
