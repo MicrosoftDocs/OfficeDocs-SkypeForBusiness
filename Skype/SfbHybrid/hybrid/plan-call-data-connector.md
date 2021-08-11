@@ -33,7 +33,7 @@ With Call Data Connector, you can perform the following tasks by using a single 
 
 With Call Data Connector, the Skype for Business Server pushes call data to the cloud service so that you can leverage the Skype for Business Online Call Analytics (CA) and Call Quality Dashboard (CQD) tools, as shown in the following diagram:
 
-![SfB Cloud Voicemail](../../sfbserver2019/media/call-data-connector-plan-1.png)
+![SfB Cloud Voicemail diagram.](../../sfbserver2019/media/call-data-connector-plan-1.png)
 
 The server pushes both Quality of Experience (QoE) and Call Detail Recording (CDR) data to the online service.
 
@@ -43,7 +43,7 @@ The Call Analytics and CQD tools enable you to monitor the quality of calls and 
 
 - Call Quality Dashboard focuses on network performance and issues across an organization. Skype for Business administrators and network engineers use this tool to troubleshoot and optimize network performance.
 
-For more information, see [Call Analytics and Call Quality Dashboard](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard).
+For more information, see [Call Analytics and Call Quality Dashboard diagram with Monitoring Server details.](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard).
 
 Of course, you might want to keep some call quality data on premises. This might be the case, for example, if you are using a third-party solution with customized reports and workflows.  Call Data Connector allows you to configure sending data to the online service while also keeping a copy of the data on your on-premises server, as shown in the following diagram:
 
