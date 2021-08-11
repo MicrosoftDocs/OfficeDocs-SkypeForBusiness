@@ -49,12 +49,11 @@ View this short video to learn more about best practices for creating teams and 
 
    > [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
 
-Membership, roles, and settings
-------------------------------
+## Membership, roles, and settings
 
 **Team membership**
 
-When Microsoft Teams is activated for your entire organization, designated team owners can invite any employee they work with to join their team. Microsoft Teams makes it easy for team owners to add people in the organization based on their name. Depending on your organization's settings guests who are team members but outside of your organization can also be added to your teams. See [Guest Access in Microsoft Teams](guest-access.md) for more information. 
+When Microsoft Teams is activated for your entire organization, designated team owners can invite any employee they work with to join their team. Microsoft Teams makes it easy for team owners to add people in the organization based on their name. Depending on your organization's settings people from outside of your organization can be added to your teams as guests. See [Guest Access in Microsoft Teams](guest-access.md) for more information. 
 
 Team owners can also create a team based on an existing Microsoft 365 group. Any changes made to the group will be synced with Microsoft Teams automatically. Creating a team based on an existing Microsoft 365 group not only simplifies the process of inviting and managing members, but also syncs group files inside of Microsoft Teams.
 
@@ -66,6 +65,9 @@ There are two main roles in Microsoft Teams:
 - **Team members** - The people who the owners invite to join their team.
 
 In addition, if moderation is set up, team owners and members can have moderator capabilities for a channel. Moderators can start new posts in the channel and control whether team members can reply to existing channel messages. Team owners can assign moderators within a channel. (Team owners have moderator capabilities by default.) Moderators within a channel can add or remove other moderators within that channel. For more information, see [Set up and manage channel moderation in Microsoft Teams](manage-channel-moderation-in-teams.md).
+
+> [!NOTE]
+> When you add a team owner, they are also added as a member, except when the team is created in the Teams admin center or when a team is added to a new or existing Microsoft 365 group.
 
 **Team settings** 
 
@@ -81,8 +83,7 @@ By default, all users have permissions to create a team within Microsoft Teams (
 
 One key early planning activity to engage users with Microsoft Teams is to help people think and understand how Teams can enhance collaboration in their day to day lives. Talk with people and help them select business scenarios where they are currently collaborating in fragmented ways. Bring them together in a channel with the relevant tabs that will help them get their work done. One of the most powerful use cases of Teams is any cross-organizational process. 
 
-Example Teams
---------------
+## Example Teams
 
 Below are a few functional examples of how different types of users may approach setting up their teams, channels, and apps (tabs/connectors/bots). This may be useful to help kick off a conversation about Microsoft Teams with your user community. As you think about how to implement Microsoft Teams in your organization, remember that you can provide guidance on how to structure their teams; however, users have control of how they can self-organize. These are just examples to help get teams to start thinking through the possibilities.
 

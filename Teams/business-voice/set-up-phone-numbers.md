@@ -32,6 +32,10 @@ Before you can set up users or auto attendants in your organization, you need to
 > [!NOTE]
 > It may take several hours for your new phone numbers to become available in Teams.
 
+The following video shows you how to complete these steps in the Teams admin center.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWENzQ]
+
 ## Set up a service number
 
 The service number you set up now will be used in a later step for your company's main phone number.

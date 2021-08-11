@@ -1,9 +1,9 @@
 ---
-title: "Languages for voicemail greetings and messages"
+title: "Teams languages for voicemail greetings and messages"
 author: dstrome
 ms.author: dstrome
 manager: serdars
-ms.reviewer: wasseemh
+ms.reviewer: colongma
 ms.topic: article
 ms.assetid: 4a57e3d0-8b08-494f-a195-b44afa9cbc0d
 ms.tgt.pltfrm: cloud
@@ -13,8 +13,7 @@ ms.collection:
   - M365-voice
 audience: Admin
 appliesto: 
-  - Skype for Business
-  - Microsoft Teams
+    - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -24,58 +23,66 @@ ms.custom:
 description: Learn which languages you can set in Skype for Business for the default system messages and voicemail greetings.
 ---
 
-# Languages for voicemail greetings and messages
+# Teams languages for voicemail greetings and messages
 
-You can set up Skype for Business to play its system voicemail greeting in one of the languages listed in this table.
+Teams supports the following languages for voicemail greetings.
   
-To change the language that Skype for Business uses for system voicemail greetings, see [Change the default language for voicemail greetings and emails in your organization](change-the-default-language-for-greetings-and-emails.md).
-  
-|||||||
-|:-----|:-----|:-----|:-----|:-----|:-----|
-|**Language** <br/> |**Country/region** <br/> |**Language code** <br/> |**Available for a user to see it in email?** <br/> |**Available when the user calls in?** <br/> |**Transcription available?** <br/> |
-|Arabic <br/> |Egypt  <br/> |ar-EG  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
-|Catalan  <br/> |Catalan  <br/> |ca-ES  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
-|Chinese (Simplified)  <br/> |China  <br/> |zh-hans  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
-|Chinese (Hong Kong)  <br/> |China  <br/> |zh-hk  <br/> |Yes, but Chinese (Traditional) (zh-hant) is used.  <br/> | Yes <br/> |Yes, but Chinese (Traditional) (zh-hant) is used.  <br/> |
-|Chinese (Traditional)  <br/> |Taiwan  <br/> |zh-hant  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
-|Croatian<br/> |Croatia  <br/> |hr-HR  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
-|Czech <br/> |Czech Republic  <br/> |cs-CZ  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
-|Danish  <br/> |Denmark  <br/> |da-DK  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
-|Dutch  <br/> |Netherlands  <br/> |nl-NL  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
-|English  <br/> |Australia  <br/> |en-AU  <br/> |Yes, but US English (en-US) is used.  <br/> |Yes  <br/> |Yes, but US English (en-US) is used.  <br/> |
-|English  <br/> |Canada  <br/> |en-CA  <br/> |Yes, but US English (en-US) is used.  <br/> |Yes  <br/> |Yes, but US English (en-US) is used.  <br/> |
-|English  <br/> |India  <br/> |en-IN  <br/> |Yes, but US English (en-US) is used.  <br/> |Yes  <br/> |Yes, but US English (en-US) is used.  <br/> |
-|English  <br/> |United Kingdom  <br/> |en-GB  <br/> |Yes, but US English (en-US) is used.  <br/> |Yes  <br/> |Yes, but US English (en-US) is used.  <br/> |
-|English  <br/> |United States  <br/> |en-US  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
-|Finnish  <br/> |Finland  <br/> |fi-Fl  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
-|French  <br/> |Canada  <br/> |fr-CA  <br/> |Yes, but France French (fr-FR) is used.  <br/> |Yes  <br/> |Yes, but France French (fr-FR) is used.  <br/> |
-|French  <br/> |France  <br/> |fr-FR  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
-|German  <br/> |Germany  <br/> |de-DE  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
-|Greek <br/> |Greece  <br/> |el-GR  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
-|Hungarian <br/> |Hungary  <br/> |hu-HU  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
-|Indonesian <br/> |Indonesia  <br/> |id-ID  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
-|Italian  <br/> |Italy  <br/> |it-IT  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
-|Japanese  <br/> |Japan  <br/> |ja-JP  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
-|Korean  <br/> |Korean  <br/> |ko-KR  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
-|Norwegian (Bokmal)  <br/> |Norway  <br/> |nb-NO  <br/> |Yes  <br/> |No  <br/> |No  <br/> |
-|Polish  <br/> |Poland  <br/> |pl-PL  <br/> |Yes  <br/> | Yes <br/> |No  <br/> |
-|Portuguese  <br/> |Brazil  <br/> |pt-BR  <br/> |Yes, but Portugal Portuguese (pt-PT) is used.  <br/> |Yes  <br/> |Yes  <br/> |
-|Portuguese  <br/> |Portugal  <br/> |pt-PT  <br/> |Yes  <br/> |Yes  <br/> |Yes, but Brazil Portuguese (pt-BR) is used.  <br/> |
-|Romanian<br/> |Romania  <br/> |ro-RO  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
-|Russian  <br/> |Russia  <br/> |ru-RU  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
-|Slovak <br/> |Slovakia  <br/> |sk-SK  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
-|Slovenian <br/> |Slovenia  <br/> |sl-SI  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
-|Spanish  <br/> |Spain  <br/> |es-ES  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
-|Spanish  <br/> |Mexico  <br/> |es-MX  <br/> |Yes, but Spain Spanish (es-ES) is used.  <br/> |Yes  <br/> |Yes, but Spain Spanish (es-ES) is used.  <br/> |
-|Swedish  <br/> |Sweden  <br/> |sv-SE  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
-|Thai <br/> |Thailand  <br/> |th-TH  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
-|Turkish  <br/> |Turkey  <br/> |tr-TR  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
-|Vietnamese <br/> |Vietnam  <br/> |vi-VN  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
-   
-## Related topics
-[Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+||||||
+|:-------------|:------------------|:--------------------------------------------|:-------------------------------------|:-----------------------------|
+|**Language**  |**Country/region** |**Available for a user to see it in email?** |**Available when the user calls in?** |**Transcription available?**  |
+|Arabic        |Egypt              |Yes                                          |Yes                                   |No  |
+|Arabic        |Saudi Arabia       |Yes, but Arabic (Egypt) is used.             |No                                    |No  |
+|Bulgarian     |Bulgaria           |Yes                                          |Yes                                   |No  |
+|Catalan       |Catalan            |Yes                                          |Yes                                   |No  |
+|Chinese (Simplified)   |China     |Yes                                          |Yes                                   |Yes |
+|Chinese (Hong Kong)    |China     |Yes, but Chinese (Traditional) is used.      |Yes                                   |Yes, but Chinese (Traditional) is used. |
+|Chinese (Traditional)  |Taiwan    |Yes                                          |Yes                                   |No  |
+|Croatian      |Croatia            |Yes                                          |Yes                                   |No  |
+|Czech         |Czech Republic     |Yes                                          |Yes                                   |No  |
+|Danish        |Denmark            |Yes                                          |Yes                                   |No  |
+|Dutch         |Belgium            |Yes, but Dutch (Netherlands) is used.        |Yes                                   |No  |
+|Dutch         |Netherlands        |Yes                                          |Yes                                   |No  |
+|English       |Australia          |Yes, but English (United States) is used.    |Yes                                   |Yes, but English (United States) is used. |
+|English       |Canada             |Yes, but English (United States) is used.    |Yes                                   |Yes, but English (United States) is used. |
+|English       |India              |Yes, but English (United States) is used.    |Yes                                   |Yes, but English (United States) is used. |
+|English       |Ireland            |Yes, but English (United States) is used.    |Yes                                   |No  |
+|English       |Philippines        |Yes, but English (United States) is used.    |No                                    |No  |
+|English       |South Africa       |Yes, but English (United States) is used.    |No                                    |No  |
+|English       |Great Britain      |Yes                                          |Yes                                   |Yes |
+|English       |United States      |Yes                                          |Yes                                   |Yes |
+|Estonian      |Estonia            |Yes                                          |Yes                                   |No  |
+|Finnish       |Finland            |Yes                                          |Yes                                   |No  |
+|French        |Belgium            |Yes, but French (France) is used.            |Yes                                   |No  |
+|French        |Canada             |Yes                                          |Yes                                   |Yes, but French (France) is used.   |
+|French        |France             |Yes                                          |Yes                                   |Yes |
+|French        |Switzerland        |Yes, but French (France) is used.            |Yes                                   |Yes |
+|German        |Austria            |Yes, but German (Germany) is used.           |Yes                                   |No  |
+|German        |Germany            |Yes                                          |Yes                                   |Yes |
+|German        |Switzerland        |Yes, but German (Germany) is used.           |Yes                                   |No  |
+|Greek         |Greece             |Yes                                          |Yes                                   |No  |
+|Hebrew        |Israel             |Yes                                          |No                                    |No  |
+|Hindi         |India              |Yes                                          |No                                    |No  |
+|Hungarian     |Hungary            |Yes                                          |No                                    |No  |
+|Indonesian    |Indonesia          |Yes                                          |Yes                                   |No  |
+|Italian       |Italy              |Yes                                          |Yes                                   |Yes |
+|Japanese      |Japan              |Yes                                          |Yes                                   |Yes |
+|Korean        |Korean             |Yes                                          |Yes                                   |No  |
+|Latvian       |Latvia             |Yes                                          |Yes                                   |No  |
+|Lithuanian    |Lithuania          |Yes                                          |Yes                                   |No  |
+|Norwegian (Bokmal)   |Norway      |Yes                                          |Yes                                   |No  |
+|Polish        |Poland             |Yes                                          |Yes                                   |No  |
+|Portuguese    |Brazil             |Yes, but Portuguese (Portugal) is used.      |Yes                                   |Yes |
+|Portuguese    |Portugal           |Yes                                          |Yes                                   |Yes, but Portuguese (Brazil) is used.  |
+|Romanian      |Romania            |Yes                                          |Yes                                   |No  |
+|Russian       |Russia             |Yes                                          |Yes                                   |No  |
+|Slovak        |Slovakia           |Yes                                          |Yes                                   |No  |
+|Slovenian     |Slovenia           |Yes                                          |Yes                                   |No  |
+|Spanish       |Spain              |Yes                                          |Yes                                   |Yes |
+|Spanish       |Mexico             |Yes                                          |Yes                                   |Yes, but Spanish (Spain) is used.   |
+|Swedish       |Sweden             |Yes                                          |Yes                                   |No  |
+|Thai          |Thailand           |Yes                                          |Yes                                   |No  |
+|Turkish       |Turkey             |Yes                                          |Yes                                   |No  |
+|Vietnamese    |Vietnam            |Yes                                          |Yes                                   |No  |
+|Welsh         |Wales              |Yes                                          |Yes                                   |No  |
 
-[Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md)
-  
-  
  

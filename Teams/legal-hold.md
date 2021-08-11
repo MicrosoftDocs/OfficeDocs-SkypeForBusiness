@@ -29,6 +29,7 @@ Within Microsoft Teams, an entire team or select users can be put on hold or leg
 
 > [!NOTE]
 > Placing a user on hold does not automatically place a group on hold or vice-versa.
+> Notifications sent in activity feed cannot be put under legal hold.
 
 To put a user or a team on legal hold:
 

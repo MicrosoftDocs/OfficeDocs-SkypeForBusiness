@@ -52,7 +52,7 @@ Important: When admins turn off call groups for users (after it has been turned 
 
 ## Limitations
 
-A tenant can contain a maximum of 32,768 call groups. There can be a maximum of 25 users in each call group. 
+Each configured call group can have a maximum of 25 users or 32,768 characters. 
 
 ## More information
 

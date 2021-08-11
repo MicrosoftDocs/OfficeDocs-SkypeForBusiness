@@ -44,7 +44,7 @@ After you plan the dial plans for your organization and figured out all the norm
 5. Arrange the normalization rules in the order that you want. Click **Move up** or **Move down** to change the position of rules in the list.
 
     > [!NOTE]
-    > Teams traverses the list of normalization rules from the top down and uses the first rule that matches the dialed number. If you set up a dial plan so that a dialed number can match more than one normalization rule, make sure the more restrictive rules are sorted above the less restrictive ones.
+    > Teams traverses the list of normalization rules from the top down and uses the first rule that matches the dialed number. If you set up a dial plan so that a dialed number can match more than one normalization rule, make sure the more restrictive rules are sorted above the less restrictive ones. If you set up a dial plan that normalizes a dialed number without a "+", the calling service will attempt to normalize the number again using Tenant and regional dial plan rules. To avoid double normalization, it's recommended that all normalization rules result in numbers starting with a "+". Direct Routing customers can use [trunk translation](direct-routing-translate-numbers.md) rules to remove the "+" if required. 
 
 6. Click **Save**.
 7. If you want to test the dial plan, under **Test dial plan**, enter a phone number, and then click **Test**.

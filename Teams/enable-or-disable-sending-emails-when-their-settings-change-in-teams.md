@@ -70,6 +70,14 @@ You can use Microsoft Teams or Windows PowerShell to enable or disable email sen
 
 **Using Windows PowerShell**
   
+You can also use the Microsoft Teams PowerShell module and run:
+
+```PowerShell
+Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
+```
+
+You can use the [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings) to manage other settings for your organization, including email.
+
 See the [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=teams-ps) for more information.
 
     

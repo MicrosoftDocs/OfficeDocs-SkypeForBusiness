@@ -18,8 +18,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-Configure the Skype Meetings App to work with Teams
-===================================================
+# Configure the Skype Meetings App to work with Teams
 
 After a user is upgraded to Microsoft Teams, admins can use the Microsoft Teams admin center to specify the preferred app that users will use to join Skype for Business meetings.
 

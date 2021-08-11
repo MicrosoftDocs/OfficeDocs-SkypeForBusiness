@@ -19,8 +19,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-Use Content search in Microsoft Teams
-=====================================
+# Use Content search in Microsoft Teams
 
 > [!NOTE]
 > Content search of messages and files in [private channels](private-channels.md) work differently than in standard channels. To learn more, see [Content search of private channels](#content-search-of-private-channels).

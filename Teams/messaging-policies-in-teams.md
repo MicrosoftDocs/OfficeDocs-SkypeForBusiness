@@ -81,12 +81,12 @@ Here are the messaging policy settings that you can configure.
 
 - **Chat**  Turn this setting on if you want users in your organization to be able to use the Teams app to chat with other people.
 - **Use Giphys in conversations**  If you turn on Giphys, users can include Giphys in chat conversations with other people. Giphy is an online database and search engine that allows users to search for and share animated GIF files. Each Giphy is assigned a content rating. In addition to turning on this setting, you need to enable [Optional Connected Experiences](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) to allow Giphys in conversations.
-- **Gipsy content rating**
+- **Giphy content rating**
     - **No restriction** This means that your users will be able to insert any Giphy in chats regardless of the content rating.
     - **Moderate**  This means that your users will be able to insert Giphys in chats, but will be moderately restricted from adult content.
     - **Strict**  This means that your users will be able to insert Giphys in chats, but will be strictly restricted from adult content.
 - **Use Memes in conversations** If you turn Memes on, users can include Memes in chat conversations with other people.
-- **Use Stickers in conversations. If you turn this on, users can include Stickers in chat conversations with other people.
+- **Use Stickers in conversations** If you turn this on, users can include Stickers in chat conversations with other people.
 - **Allow URL previews** Use this setting to turn automatic URL previewing on or off in messages.
 - **Allow users to translate messages** Turn this setting on to let users automatically translate Teams messages into the language specified by their personal language settings for Microsoft 365 or Office 365.
 - **Allow immersive reader for viewing messages** Turn this setting on to let users view messages in Microsoft Immersive Reader. Immersive Reader is a learning tool that provides a full screen reading experience to increase readability of text.

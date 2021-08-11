@@ -23,8 +23,8 @@ appliesto:
   - Microsoft Teams
 ---
 
-Admin settings for apps in Microsoft Teams
-==========================================
+# Admin settings for apps in Microsoft Teams
+
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 

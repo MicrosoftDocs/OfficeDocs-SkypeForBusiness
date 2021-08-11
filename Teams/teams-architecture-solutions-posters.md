@@ -28,7 +28,6 @@ This series of illustrations provides a view into the logical architecture of pr
 
 [![Thumb image for Teams logical architecture poster](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf)  <br/>[PDF](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.vsdx)
 
-
 ## Groups in Microsoft 365
 
 This is what IT architects need to know about groups in Microsoft 365. These illustrations detail the different types of groups, how they're created and managed, and a few governance recommendations.

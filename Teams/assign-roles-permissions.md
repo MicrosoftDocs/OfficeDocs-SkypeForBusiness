@@ -18,11 +18,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-Assign team owners and members in Microsoft Teams
-=================================================
-
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
+# Assign team owners and members in Microsoft Teams
 
 Within Microsoft Teams there are two user roles: **owner** and **member**. By default, a user who creates a new team is granted the owner status. In addition, owners and members can have moderator capabilities for a channel (provided that moderation has been set up). If a team is created from an existing Microsoft 365 Group, permissions are inherited.
 
@@ -71,9 +67,3 @@ To assign a user role, in Teams, select the team name and click **More options**
 ## Permissions to create teams
 
 By default, all users with a mailbox in Exchange Online have permissions to create Microsoft 365 groups and therefore a team within Microsoft Teams. You can have tighter control and restrict the creation of new teams and thus the creation of new Microsoft 365 groups by delegating group creation and management rights to a set of users. For instructions, see [Manage who can create Microsoft 365 Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
-
-
-|Icon|Title|Description|
-|---------|---------|---------|
-| ![An icon representing a decision point](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |Decision Point         |Will all Microsoft Teams users be able to create Teams (recommended)?         |
-| ![An icon representing the next steps](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |Next Steps         |Modify the default permissions for who can create Microsoft 365 groups if you need to limit who can create Teams         |

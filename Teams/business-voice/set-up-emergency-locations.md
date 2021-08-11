@@ -25,6 +25,10 @@ An emergency location is used when someone in your organization calls emergency 
 
 If you have users in multiple locations, such as home offices or offices in other cities, you can configure additional emergency locations. You can even configure specific places within a location. Places can be different buildings, floors, offices, or other places where users may be at a location. Additional locations and places can be added after you complete your initial setup of Business Voice.
 
+The following video shows you how to complete these steps in the Teams admin center.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEZGE]
+
 ## Add an emergency location
 
 1. Open the Microsoft Teams admin center and log in with a user that is a Global admin (this is usually the account you used to sign up for Microsoft 365).

@@ -22,6 +22,12 @@ description: Release notes for Microsoft Teams admin features.
 
 These release notes provide information about new admin features for Microsoft Teams.
 
+## April 30, 2021
+
+### Career coach
+
+Career Coach is a Microsoft Teams for Education app powered by LinkedIn that provides personalized guidance for higher education students to navigate their career journey. Career Coach offers educational institutions a unified career solution for students to discover their career path, grow real-world skills, and build their network all in one place. [Learn more](../career-coach.md).
+
 ## March 31, 2021
 
 ### Share to Teams from Outlook
@@ -247,7 +253,7 @@ Use Teams live events settings to configure settings for live events that are he
 
 ### Skype for Business Online Connector integrated to Teams PowerShell module
 
-The latest Teams PowerShell public release is integrated with Skype for Business Online Connector, providing a single module for Teams PowerShell management. [Learn more](../teams-powershell-overview.md#manage-teams-with-powershell).
+The latest Teams PowerShell public release is integrated with Skype for Business Online Connector, providing a single module for Teams PowerShell management.  [Learn more](../teams-powershell-overview.md).
 
 ## September 8, 2020
 
@@ -323,11 +329,11 @@ Developers can use the Teams App Submission API to submit custom apps directly t
 
 ### Enhanced Manageability using Device Tagging functionality
 
-As part of enhanced manageability, we are releasing Device Tagging functionality. It will enable IT admins to group-specific set of devices with user-generated Tags and perform actions on the same. [Learn more](/../../manage-device-tags.md).
+As part of enhanced manageability, we are releasing Device Tagging functionality. It will enable IT admins to group-specific set of devices with user-generated Tags and perform actions on the same. [Learn more](../devices/manage-device-tags.md).
 
 ### View-only in meetings
 
-View-only allows for up to 20,000 listen-only participants to join a meeting in which the organizer has a license for the Advanced Communications add-on SKU.1 This is a preview or early release feature. [Learn more](https://docs.microsoft.com/MicrosoftTeams/limits-specifications-teams-preview#meetings-and-calls).
+View-only allows for up to 20,000 listen-only participants to join a meeting in which the organizer has a license for the Advanced Communications add-on SKU.1 This is a preview or early release feature. [Learn more](../limits-specifications-teams.md#meetings-and-calls).
 
 ## July 28, 2020
 

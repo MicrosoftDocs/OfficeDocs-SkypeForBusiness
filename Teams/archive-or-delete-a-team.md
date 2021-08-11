@@ -21,8 +21,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-Archive or delete a team in Microsoft Teams
-===========================================
+# Archive or delete a team in Microsoft Teams
 
 Over time, a team created in Microsoft Teams might fall out of use or you might want to archive or delete a team at the end of a project. If you're a Microsoft Teams admin, follow the steps in this article to archive or delete a team that's no longer needed.
 

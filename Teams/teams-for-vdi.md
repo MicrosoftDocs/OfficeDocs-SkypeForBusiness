@@ -179,6 +179,11 @@ To learn more about Teams and Microsoft 365 Apps for enterprise, see [How to exc
     - Per-machine installation
 
         ```console
+        reg add "HKLM\SOFTWARE\Microsoft\Teams" /v IsWVDEnvironment /t REG_DWORD /d 1 /f
+        ```
+        This process adds a required registry key to the machine that lets the Teams installer know it is a VDI instance.  Without it, the installer will error out, stating: "Installation has failed.  Cannot install for all users when a VDI environment is not detected."
+
+        ```console
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
         ```
 
@@ -386,9 +391,10 @@ The following calling and meeting features are not supported:
 - Background blur and effects
 - Broadcast and live event producer and presenter roles
 - Location-Based Routing (LBR)
-- Call park
+- PSTN call ringback tone
 - Shared system audio/computer sound
 - Media bypass for Direct Routing
+- Call park
 - Zoom control 
 
 > [!NOTE]
@@ -397,8 +403,7 @@ The following calling and meeting features are not supported:
 The following are known issues and limitations for calling and meetings:
 
 - Interoperability with Skype for Business is limited to audio calls; there is no video modality.
-- Only a single incoming video stream is supported in meetings or group calls. When multiple people send video, only the dominant speaker's video is shown at any given time.
-- Incoming and outgoing video stream resolution is limited to 720p resolution. This is a WebRTC limitation.
+- Incoming and outgoing video stream resolution is limited to 720p resolution.
 - Only one video stream from an incoming camera or screen share stream is supported. When there's an incoming screen share, that screen share is shown, instead of the video of the dominant speaker.
 - Teams doesn't switch to use the last audio device that a user selected, if the device is disconnected, and then reconnected.
 - Outgoing screen sharing:

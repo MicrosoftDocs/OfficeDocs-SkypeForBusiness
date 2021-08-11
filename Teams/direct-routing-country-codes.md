@@ -32,7 +32,7 @@ Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com –MediaRelayRoutingLocationO
 Note that Microsoft only recommends setting this parameter if the call logs clearly indicate that the default assignment of the datacenter for the media path does not use the path closest to the SBC datacenter. 
 
 > [!NOTE]
-> -MediaRelayRoutingLocationOverride - this command is not available for use in direct routing scenarios.
+> MediaRelayRoutingLocationOverride parameter is reserved for use with managed carriers.
  
 ## Country code reference table
 
@@ -228,7 +228,7 @@ The following table shows the country code values for the -MediaRelayRoutingLoca
 | Russia          | RU |
 | Rwanda          | RW |
 | Saba            | XS |
-| Saint Barthelemy | BL |
+| Saint Barthélemy | BL |
 | Saint Kitts and Nevis | KN |
 | Saint Lucia     | LC |
 | Saint Martin    | MF |
@@ -292,4 +292,3 @@ The following table shows the country code values for the -MediaRelayRoutingLoca
 | Yemen           | YE |
 | Zambia          | ZM |
 | Zimbabwe        | ZW |
-
