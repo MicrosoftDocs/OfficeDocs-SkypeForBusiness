@@ -1,5 +1,5 @@
 ---
-title: Manage the Shifts app for your organization
+title: Manage schedule owners for shift management
 author: lanachin
 ms.author: v-lanachin
 ms.reviewer: aaku
@@ -11,7 +11,7 @@ search.appverid: MET150
 searchScope:
   - Microsoft Teams
   - Microsoft Cloud for Healthcare
-description: Learn how to set up and manage the Shifts app in Teams for frontline workers in your organization.
+description: Learn how to manage shift owners for schedule management. You can set a policy to elevate the permission of a team member to a schedule owner. 
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -24,7 +24,7 @@ appliesto:
 ms.custom: seo-marvel-mar2020
 ---
 
-# Schedule Owner for shift management
+# Manage schedule owners for shift management
 
 ## Overview
 
