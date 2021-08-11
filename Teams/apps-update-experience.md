@@ -27,7 +27,7 @@ In most cases, after app developers publish an app update, the new version autom
 * A bot was added or removed
 * An existing bot's "botId" property changed
 * An existing bot's "isNotificationOnly" property changed
-* A bot's SupportsCalling, SupportsVideo and SupportsFiles capability was added
+* A bot's SupportsCalling, SupportsVideo , and SupportsFiles capability was added
 * A messaging extension was added
 * A new connector was added
 * Properties inside "webApplicationInfo" changed
