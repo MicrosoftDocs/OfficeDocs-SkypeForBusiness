@@ -30,6 +30,9 @@ Teams panels is adding support for Teams apps/Line of Business (LOB) apps. This 
 
 ## Set up and manage Teams panels apps in Teams admin center 
 
+![Screenshot of the Teams admin center showing which section will allow users to navigate to apps.](media/tac1.png) 
+*The Teams admin center includes app navigation options.*
+
 Microsoft Teams apps bring key information, common tools, and trusted processes to where people gather, learn, and work. Teams apps work [through integrated capabilities](/platform/concepts/capabilities-overview). Now, as an IT administrator, you have the choice of which apps to include in your organization’s Teams panels device and customize permissions via the Teams admin center.
 
 You can now use the Teams apps on Teams panels and customize the user experience based on your organization’s needs. You can decide which web app your users can access and use and prioritize the app views. Some options, like the bot and messaging capabilities, are not supported at this time. Learn more about the Teams apps and how to manage your devices in Microsoft Teams.
@@ -52,13 +55,17 @@ To manage pinned apps displayed on the Teams panels, sign in to the Teams admin 
 
 ![Screenshot of pinned apps section within the user interface.](media/appsetup2.png) 
 
+*Apps included in this image are only examples and may not be available for use.*
+
 Microsoft recommends you turn off **Upload custom apps** and **Allow user pinning** for the best Teams app experience on Teams panels.
 
 For more about pinning apps, see [Manage app setup policies](/teams-app-setup-policies).
 
 ## Manage apps display order in Teams panels 
 
-![Screenshot of apps section within the user interface.](media/appsetup3.png) 
+![Screenshot of apps section within the user interface.](media/appsetup3.png)
+
+*Apps included in this image are only examples and may not be available for use.*
 
 To manage the order in which apps are displayed on the Teams panels, sign in to the Teams admin center for your organization and navigate to **Teams apps** \> **Setup policies** \> **Select the Policy** \> **Pinned apps:** **Move-up/down**.
 
@@ -100,6 +107,8 @@ Not all apps can be pinned to Teams through an app setup policy. Some apps may n
 
 ### Why am I seeing an “Allow user pinning” pop-up in the setup policies panel after I turn off “Allow user pinning?”
 
-![Screenshot of the setup policy section within the user interface with a pop-up confirming user pinning is active.](media/appsetup4.png) 
+![Screenshot of the setup policy section within the user interface with a pop-up confirming user pinning is active.](media/appsetup4.png)
+
+*Apps included in this image are only examples and may not be available for use.* 
 
 This behavior is expected for a device in a shared space and helps prevent unintentional app pinning.
