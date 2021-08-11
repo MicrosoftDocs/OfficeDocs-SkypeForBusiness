@@ -55,11 +55,11 @@ You work in a large organization where department managers report directly to th
 
 As an admin, you use policies to control schedule management ownership in your organization. You manage these policies by using the following PowerShell cmdlets:
 
-- [New-CsTeamsShiftsPolicy](powershell/module/teams/new-csteamsshiftspolicy?view=teams-ps)
-- [Get-CsTeamsShiftsPolicy](powershell/module/teams/get-csteamsshiftspolicy?view=teams-ps)
-- [Set-CsTeamsShiftsPolicy](powershell/module/teams/set-csteamsshiftspolicy?view=teams-ps)
-- [Grant-CsTeamsShiftsPolicy](powershell/module/teams/grant-csteamsshiftspolicy?view=teams-ps)
-- [Remove-CsTeamsShiftsPolicy](powershell/module/teams/remove-csteamsshiftspolicy?view=teams-ps)
+- [New-CsTeamsShiftsPolicy](/powershell/module/teams/new-csteamsshiftspolicy?view=teams-ps)
+- [Get-CsTeamsShiftsPolicy](/powershell/module/teams/get-csteamsshiftspolicy?view=teams-ps)
+- [Set-CsTeamsShiftsPolicy](/powershell/module/teams/set-csteamsshiftspolicy?view=teams-ps)
+- [Grant-CsTeamsShiftsPolicy](/powershell/module/teams/grant-csteamsshiftspolicy?view=teams-ps)
+- [Remove-CsTeamsShiftsPolicy](/powershell/module/teams/remove-csteamsshiftspolicy?view=teams-ps)
 
 ### Example 1
 
