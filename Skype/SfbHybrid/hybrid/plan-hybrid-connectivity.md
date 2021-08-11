@@ -40,7 +40,7 @@ After you have read this topic and are ready to configure hybrid connectivity, s
 ## Implications of the upcoming retirement of Skype for Business Online
 It's important to remember that both before and after retirement of Skype for Business Online, users homed in Skype for Business Server on-premises can use Teams, but they cannot be TeamsOnly. (By default users are in Islands mode). Users can only experience the full benefits of Teams, in particular federation and PSTN support, once they are in TeamsOnly mode. 
 
-The upcoming retirement of Skype for Business Online has no impact on the existing support lifecycle of Skype for Business Server or Lync Server 2013.  However, the upcoming retirement of Skype for Business Online will impact certain apsects of how customers with on-premises Skype for Business Server or Lync Server 2013, including existing hybrid organizations, transition to the cloud. What will not change after retirement is that the use of hybrid as the means to transition from on-premises to the cloud remains unchanged.
+The upcoming retirement of Skype for Business Online has no impact on the existing support lifecycle of Skype for Business Server or Lync Server 2013.  However, the upcoming retirement of Skype for Business Online will impact certain aspects of how customers with on-premises Skype for Business Server or Lync Server 2013, including existing hybrid organizations, transition to the cloud. What will not change after retirement is that the use of hybrid as the means to transition from on-premises to the cloud remains unchanged.
 
 Currently, and up until the retirement of Skype for Business Online, hybrid organizations can consist of three basic types of users: 
 - On-premises users (who may or may not use Teams, but not in Teams Only mode) 
@@ -48,7 +48,7 @@ Currently, and up until the retirement of Skype for Business Online, hybrid orga
 - TeamsOnly users.
 
 After the retirement of Skype for Business Online, however, hybrid organizations can only consist of two basic types of users: 
-- On-premises users (Who may or may use Teams, but not in TeamsOnly mode)
+- On-premises users (Who may or may not use Teams, but not in TeamsOnly mode)
 - Teams Only users. 
 
 For organizations to move from Skype for Business Server or Lync Server 2013 to Teams, they must still set up and configure hybrid using the same toolset, *exactly as before the retirement*. What has changed is when moving a user from on-premises to Teams, it is no longer required to specify the `-MoveToTeams` switch in `Move-CsUser` to move users directly from on-premises to TeamsOnly. Previously if this switch was not specified, users transitioned from being homed in Skype for Business Server on-premises to Skype for Business Online, and their mode remained unchanged. In preparation for retirement, when moving a user from on-premises to the cloud with `Move-CsUser`, users are now automatically assigned TeamsOnly mode and their meetings from on-premises are automatically converted to Teams meetings, just as if the `-MoveToTeams` switch had been specified, regardless of whether the switch is actually specified. (This includes migrations from Lync Server 2013, which never had the `MoveToTeams` switch.) 
