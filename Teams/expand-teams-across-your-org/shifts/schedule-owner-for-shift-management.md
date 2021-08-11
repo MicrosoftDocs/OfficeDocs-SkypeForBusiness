@@ -24,7 +24,7 @@ appliesto:
 ms.custom: seo-marvel-mar2020
 ---
 
-# Manage schedule owners for shift management
+# Schedule Owner for shift management
 
 ## Overview
 
