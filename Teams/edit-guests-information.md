@@ -26,6 +26,9 @@ ms.custom:
 
 You can edit guest information from the Microsoft 365 admin center or the Azure Active Directory portal.
 
+> [!NOTE]
+> In tenant user type conversation of existing guest users is currently not supported in Teams.
+
 ## Guest users in the Microsoft 365 admin
 
 1. To edit the guest information in the [Microsoft 365 admin center](https://admin.microsoft.com), select **Users** > **Guest Users**.
