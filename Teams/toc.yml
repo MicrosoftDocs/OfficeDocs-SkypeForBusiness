@@ -1032,7 +1032,7 @@ items:
               href: phone-number-calling-plans/port-order-status.md
         - name: Supported rate centers and coverage
           href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
-    - name: Call routing
+    - name: Voice routing
       items: 
         - name: What are dial plans?
           href: what-are-dial-plans.md
@@ -1066,7 +1066,7 @@ items:
               href: emergency-calling-labels.md
         - name: Manage emergency calling policies
           href: manage-emergency-calling-policies.md
-        - name: Manage emergency call routing policies for Direct Routing
+        - name: Manage emergency voice routing policies for Direct Routing
           href: manage-emergency-call-routing-policies.md
     - name: Manage voice and calling policies in Teams
       href: voice-and-calling-policies.md
