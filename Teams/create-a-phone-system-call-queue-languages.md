@@ -11,7 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
-  - m365initiative-voice
 audience: Admin
 appliesto: 
   - Skype for Business
@@ -35,7 +34,7 @@ The call queue supports the following languages for Text to Speech (TTS):
 |Chinese (Traditional, Hong Kong)        |
 |Chinese (Traditional, Taiwan)           |
 |Croatian (Croatia)                      |
-|Czech (Czeck Republic)                  |
+|Czech (Czech Republic)                  |
 |Danish (Denmark)                        |
 |Dutch (Netherlands)                     |
 |English (Australia)                     |
