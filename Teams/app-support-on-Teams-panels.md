@@ -30,8 +30,8 @@ Teams panels is adding support for Teams apps/Line of Business (LOB) apps. This 
 
 ## Set up and manage Teams panels apps in Teams admin center 
 
-![Screenshot of the Teams admin center showing which section will allow users to navigate to apps.](media/tac1.png) 
-*The Teams admin center includes app navigation options.*
+![Screenshot of the Teams admin center showing which section will allow users to navigate to apps.](media/tac1update.png) 
+*The Teams admin center includes app navigation options, outlined in the screenshot in red. Note that these are example icons and may not be available for use.*
 
 Microsoft Teams apps bring key information, common tools, and trusted processes to where people gather, learn, and work. Teams apps work [through integrated capabilities](/platform/concepts/capabilities-overview). Now, as an IT administrator, you have the choice of which apps to include in your organization’s Teams panels device and customize permissions via the Teams admin center.
 
