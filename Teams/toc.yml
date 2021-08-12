@@ -1520,6 +1520,8 @@ items:
           href: flw-scripted-deployment.md
         - name: Manage shift-based access for frontline workers
           href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
+        - name: Manage schedule owners for shift management
+          href: expand-teams-across-your-org/shifts/schedule-owner-for-shift-management.md
         - name: RealWear for Teams
           href: flw-realwear.md
         - name: Walkie Talkie
