@@ -1,5 +1,5 @@
 ---
-title: Edit guest user information
+title: Edit guest information
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -13,7 +13,7 @@ ms.reviewer: rafarhi
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: In this article, you will learn how an admin can edit information about guest users in the Azure Active Directory portal.
+description: In this article, you will learn how an admin can edit information about guests in the Azure Active Directory portal.
 localization_priority: Normal
 appliesto: 
   - Microsoft Teams
@@ -21,7 +21,7 @@ ms.custom:
   - seo-marvel-apr2020
 ---
 
-# Edit guest user information
+# Edit guest information
 
 You can edit guest information from the Microsoft 365 admin center or the Azure Active Directory portal.
 
@@ -41,4 +41,4 @@ You can edit guest information from the Microsoft 365 admin center or the Azure 
 
    ![Edit the guest user contact information](media/manage-guest-contact.png)
 
-You can also edit the guest user from the [Azure Active Directory portal](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers).
+You can also edit the guest from the [Azure Active Directory portal](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers).
