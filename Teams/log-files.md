@@ -119,7 +119,6 @@ To collect logs for Linux:
 Click on the Microsoft Teams icon in your system tray, and select **Get Logs**.
 The files will be available in ~/.config/Microsoft/Microsoft Teams/logs.txt.  
 
-
 ## Browser trace
 
 For some categories of errors, Microsoft Support might require you to collect a browser trace. This information can provide important details about the state of the Teams client when the error occurs.
@@ -137,7 +136,22 @@ After you’re signed in, select one of the following links, as appropriate for 
 -   [Firefox](/azure/azure-portal/capture-browser-trace#firefox?preserve-view=true#resolution)
 
 > [!NOTE]
-> In the steps, replace all references to the Azure portal with the Teams client. 
+> In the steps, replace all references to the Azure portal with the Teams client.
+  
+## WebRTC logs in browsers
+WebRTC logs can assist Microsoft Support by providing connection details for audio and video calls. Follow the steps to access the WebRTC logs in Edge (Chromium) or Chrome: 
+  
+1.  Open a new tab and go to one of the following URLs:
+    -   Edge (Chromium): "edge://webrtc-internals/"
+    -   Chrome: "chrome://webrtc-internals/"
+  
+2.  Open the Teams Web application and reproduce the problem.
+  
+3.  Go back to the tab that was accessed in step 1 and you will see at least two tabs:
+    -   GetUserMedia Requests
+    -   https://teams.microsoft.com/url
+
+4.  Choose the tab with the name of the Teams application and save the page content.
 
 ## Related topics
 
