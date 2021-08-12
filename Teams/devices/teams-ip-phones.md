@@ -219,6 +219,25 @@ When you install a new firmware version on your device, you can determine the co
 |Lenovo ThinkSmart View| CD-18781Y.210507.111 |2021 Update #2 |
 |Lenovo ThinkSmart View| CD-18781Y.210228.109 |2021 Update #1 |
 
+### Product release information for Teams Panels
+
+The following are the latest Microsoft Teams Panels app and firmware versions.
+
+#### App versions
+
+|Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
+|:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|2021 Update #1  |August 12th, 2021 |1449/1.0.97.2021070601|5.0.5211.0            |  268|
+
+#### Firmware versions
+
+When you install a new firmware version on your device, you can determine the corresponding Microsoft Teams app, Company Portal, and Admin Agent, versions that are installed by finding the product release in the **Included product release** column. Then look up the product release in the **App versions** table above.
+
+| Device model  | Firmware version | Included product release|
+|:--------------|:-----------------|:-------------------------|
+|Crestron -TSS770| 1.004.0115 |2021 Update #1 |
+|Crestron-TSS1070 | 1.004.0115 |2021 Update #1 |
+
 
 
 ## More resources
