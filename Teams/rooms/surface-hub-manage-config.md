@@ -75,7 +75,7 @@ Do the following to create the provisioning package in Windows Configuration Des
 
 1. Install Windows Configuration Designer from the Windows Store on your local computer and open it
 2. Select **Provision Surface Hub devices** and then **Switch to advanced editor**
-3. On the next screen, expand **WindowsTeamSettings** > **Teams** and select **Configurations**
+3. On the next screen, expand **SurfaceHub** > **Teams** and select **Configurations**
 4. In the field next to **Configurations** in the middle pane, paste the single line of XML you created above
 5. Select **Export** > **Provisioning package**
 6. Provide a name for the provisioning package in **Name** and select **Next** > **Next**
