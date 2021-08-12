@@ -67,15 +67,11 @@ Federation and public IM connectivity can also be managed by using Windows Power
 
 ## To enable federation and public IM connectivity
 
-  - To enable federation and public IM connectivity, set the value of the **AllowFederatedUsers** property to True ($True):
-    
-        Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
+  - To enable federation and public IM connectivity, set the value of the **AllowFederatedUsers** property to True ($True):<br/><br/>Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
 
 
 ## To disable federation and public IM connectivity
 
-  - To disable federation and public IM connectivity, set the value of the **AllowFederatedUsers** property to False ($False):
-    
-        Set-CsAccessEdgeConfiguration -AllowFederatedUsers $False
+  - To disable federation and public IM connectivity, set the value of the **AllowFederatedUsers** property to False ($False):<br/><br/>Set-CsAccessEdgeConfiguration -AllowFederatedUsers $False
 
