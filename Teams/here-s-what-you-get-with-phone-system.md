@@ -33,6 +33,10 @@ Clients are available for PC, Mac, and mobile, which provides features on device
 
  > [!Note]
 > For details about Teams phone systems on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
+
+To use Phone System features, your organization must have a Phone System license. For more information about licensing, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+
+Be aware that most features require you to enable the Phone System license and ensure that users are "voice enabled." To enable the license, use the [Set-CsUser cmdlet](https://docs.microsoft.com/en-us/powershell/module/skype/set-csuser?view=skype-ps) and set the enterprisevoiceenabled parameter to $true. A few features, such as cloud auto attendant, do not require a user to be voice enabled. Exceptions are called out in the table below.
   
 ## Phone System features
 
