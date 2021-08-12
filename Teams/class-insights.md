@@ -208,6 +208,7 @@ Feel free to distribute the following material to your **educators**:
 Material for **education leaders**:
 *	[Insights for education organizations support page](https://support.microsoft.com/office/8738d1b1-4e1c-49bd-9e8d-b5292474c347).
 
+### Turn Insights on or off
 
 By default, Insights is turned on, which enables us to collect analytics of students' activities within Teams, to be used in insights. You may decide to opt-out from Insights, in which case we *delete all the data collected* for Insights and stop collecting any future data. If you turn Insights back on, we start collecting data from the time it's re-enabled.
 
