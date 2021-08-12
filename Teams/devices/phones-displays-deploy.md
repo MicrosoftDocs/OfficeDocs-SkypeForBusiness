@@ -20,7 +20,7 @@ description: "This article provides an overview of and features supported by Mic
 
 # Deploy Teams phones, Teams displays, and Microsoft Teams Rooms on Android using Intune
 
-This article gives you an overview of how to deploy. Teams phones, Teams displays and Microsoft Teams Rooms on Android using Intune.
+This article gives you an overview of how to deploy Teams phones, Teams displays, and Microsoft Teams Rooms on Android using Intune.
 
 ## Conditional Access
 
