@@ -10,7 +10,6 @@ audience: admin
 ms.collection: 
   - Teams_ITAdmin_GuestAccess
   - M365-collaboration
-  - m365initiative-externalcollab
 ms.reviwer: rafarhi
 search.appverid: MET150
 f1.keywords:
