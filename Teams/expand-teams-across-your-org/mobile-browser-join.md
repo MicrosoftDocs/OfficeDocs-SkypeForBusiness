@@ -38,7 +38,7 @@ Currently, mobile browser join is available for appointments that are scheduled 
 
 Schedulers in your organization can turn on this feature for specific appointment types and for individual appointments in the Bookings app.
 
-After this feature is turned on, the confirmation email or SMS text that’s sent to attendees will contain a meeting join link that opens Teams in a mobile browser. On Android devices, Teams opens in Chrome. On iOS devices, Teams opens in Safari.
+After this feature is turned on, the confirmation email or SMS text that’s sent to attendees will contain a meeting join link that opens Teams in a mobile browser. On Android mobile devices, Teams opens in Chrome. On iOS mobile devices, Teams opens in Safari.
 
 #### Turn on mobile browser join for an appointment type
 
