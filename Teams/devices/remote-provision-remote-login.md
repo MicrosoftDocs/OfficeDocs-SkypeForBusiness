@@ -38,6 +38,8 @@ The following list shows the Android device firmware requirements.
 |Teams phones|	Poly Trio C60|	7.0.2.1071|
 |Teams phones|	CCX400/CCX500/CCX600	|7.0.2.1072|
 |Teams phones|	Audio Codes C448HD/C450HD/C470HD|	1.10.120|
+|Teams panels|	Crestron 770/1070|	1.004.0115|
+
 
 ## Add a device MAC address
 
