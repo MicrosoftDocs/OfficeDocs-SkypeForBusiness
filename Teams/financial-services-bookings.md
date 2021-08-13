@@ -63,10 +63,6 @@ Go to **Settings** > **Appointment types**, and then select **New appointment ty
 
 The information and links that you include are emailed to customers every time this type of appointment is booked. You can even set email reminders and whether customers can join from a mobile browser, without having to download Teams. To learn more, see [Create an appointment type](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887).
 
-To learn more, 
-
 ## Related articles
 
 [Bookings app in Teams help documentation](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Bookings)
-
-
