@@ -39,7 +39,7 @@ description: Read frequently asked questions (FAQ) and answers about Microsoft T
 
 [Why do my custom reports only return a maximum of 10,000 rows when I know there should be more entries?](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
-[Why do WiFi VPN connections show as Wired instead of WiFi?](#why-do-wifi-vpn-connections-show-as-wired-instead-of-wifi)
+[Why do Wi-Fi VPN connections show as Wired instead of Wi-Fi?](#why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi)
 
 ### Why does CQD mark a call as "Good" if one or more meeting participants had a poor experience?
 
