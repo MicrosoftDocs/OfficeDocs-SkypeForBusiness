@@ -32,7 +32,7 @@ Each virtual appointment includes a Teams meeting link that’s sent to attendee
 
 And with the Microsoft Bookings web app, you can publish an online booking page where your customers can see available booking times, giving them the flexibility to schedule a consultation at a time that works best for them. ???After you set up your booking page, your day-to-day scheduling can be done through the Bookings app in Teams.
 
-???Fold in other setup tasks in Microsoft Bookings (logo, business hours, scheduling policies etc) that aren't supported in the Bookings app in Teams?
+???How to fold in setup tasks in Microsoft Bookings (logo, business hours, scheduling policies, buffer times etc) that aren't supported in the Bookings app in Teams?
 
 This article gives you an overview of how to use the Bookings app in Teams to deliver remote sales and service.
 
@@ -57,7 +57,7 @@ The Bookings app syncs with Outlook. After you add staff, you’ll be able to vi
 
 ### Create appointment types
 
-Create appointment types to tailor the booking experience for your organization and customers.
+Create appointment types to represent the services offered by your organization and tailor the booking experience.
 
 In the booking calendar, go to **More options** > **Settings** > **Appointment types**, and then select **New appointment type**. Enter a name&mdash;for example, Account opening, Loan consultation, Tax preparation&mdash;and any other information and settings you want.
 
