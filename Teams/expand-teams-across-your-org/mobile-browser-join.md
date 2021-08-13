@@ -29,7 +29,7 @@ With mobile browser join, when an attendee joins an appointment from a mobile de
 
 Currently, mobile browser join is available for appointments that are scheduled through the following:
 
-- [Microsoft Bookings](/microsoft-365/bookings/bookings-overview)
+- [The Bookings app](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-us&rs=en-us&ad=us#PickTab=Bookings)
 - [Microsoft Teams Electronic Health Records (EHR) connector](healthcare/ehr-admin.md)
 
 ## Set up mobile browser join
