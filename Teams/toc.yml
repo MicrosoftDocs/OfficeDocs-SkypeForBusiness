@@ -369,7 +369,7 @@ items:
               href: guest-experience.md
             - name: Turn on guest access or turn off
               href: set-up-guests.md
-            - name: Add a guest to a team
+            - name: View guests in a team
               href: view-guests.md
             - name: Edit guest information
               href: edit-guests-information.md
