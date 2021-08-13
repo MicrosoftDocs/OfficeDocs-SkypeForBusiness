@@ -51,7 +51,7 @@ To learn more, see [Create a booking calendar](https://support.microsoft.com//of
 
 ### Add staff
 
-Next, go to **Settings** > **Staff**, and add staff members to the booking calendar. Assign a role to each person you add. 
+In the booking calendar, go to **More options** > **Settings**, and then select **Staff**. Add staff members and assign a role to each person you add.
 
 The Bookings app syncs with Outlook. After you add staff, you’ll be able to view that person’s calendar availability and schedule bookings for them. To learn more, see [Add staff and view a booking calendar](https://support.microsoft.com/office/add-staff-and-view-a-bookings-calendar-6c579f61-8adb-4514-9458-021de2023fa0).  
 
@@ -59,9 +59,12 @@ The Bookings app syncs with Outlook. After you add staff, you’ll be able to vi
 
 Create appointment types to tailor the booking experience for your organization and customers.
 
-Go to **Settings** > **Appointment types**, and then select **New appointment type**. Enter a name&mdash;for example, Account opening, Loan consultation, Tax preparation&mdash;and any other information and settings you want.
+In the booking calendar, go to **More options** > **Settings** > **Appointment types**, and then select **New appointment type**. Enter a name&mdash;for example, Account opening, Loan consultation, Tax preparation&mdash;and any other information and settings you want.
 
 The information and links that you include are emailed to customers every time this type of appointment is booked. You can even set email reminders and whether customers can join from a mobile browser, without having to download Teams. To learn more, see [Create an appointment type](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887).
+
+## Schedule a booking
+
 
 ## Related articles
 
