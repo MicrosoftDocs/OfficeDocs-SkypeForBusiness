@@ -30,7 +30,6 @@ In most cases, after app developers publish an app update, the new version autom
 * The bot's "supportsFiles" property changed
 * A messaging extension was added or removed
 * A new connector was added
-* A new static tab was added
 * A new configurable tab was added
 * Properties inside "webApplicationInfo" changed
 
