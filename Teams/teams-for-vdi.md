@@ -493,6 +493,7 @@ The following are known issues and limitations for calling and meetings:
 - Incoming and outgoing video stream resolution is limited to 720p resolution.
 - Only one video stream from an incoming camera or screen share stream is supported. When there's an incoming screen share, that screen share is shown, instead of the video of the dominant speaker.
 - Teams doesn't switch to use the last audio device that a user selected, if the device is disconnected, and then reconnected.
+- Live events are not optimized.
 - Outgoing screen sharing:
     - Application sharing is not supported.
 - Give control and take control:
