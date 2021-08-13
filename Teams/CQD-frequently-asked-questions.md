@@ -39,7 +39,7 @@ description: Read frequently asked questions (FAQ) and answers about Microsoft T
 
 [Why do my custom reports only return a maximum of 10,000 rows when I know there should be more entries?](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
-[Why do WiFi VPN connections show as Wired instead of WiFi?](#why-do-wifi-vpn-connections-show-as-wired-instead-of-wifi)
+[Why do Wi-Fi VPN connections show as Wired instead of Wi-Fi?](#why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi)
 
 ### Why does CQD mark a call as "Good" if one or more meeting participants had a poor experience?
 
@@ -78,13 +78,14 @@ To compute call count and user count measures, a distinct countif operation is p
 > As of July 1, 2020, the older CQD (CQD.lync.com) uses data from the latest CQD (CQD.Teams.microsoft.com). The older CQD data is no longer available, and you can't export your building or report data. You can still use CQD.lync.com (available from the Skype for Business admin center), but we'll turn off access to CQD.lync.com soon, so you should move to CQD.Teams.microsoft.com if you haven't already done so.
 
 
-If you're trying to compare data between the older CQD from the Skype for Business legacy portal (cqd.lync.com) and the latest CQD from the Teams admin center (cqd.teams.microsoft.com), you'll quickly notice that the data doesn't match. That's because the latest CQD reports on many additional calling scenarios. If you're still using reports from the older CQD, use this article to help you interpret those reports: [Call Quality Dashboard for Skype for Business Server](/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard).
+If you're trying to compare data between the older CQD from the Skype for Business legacy portal (cqd.lync.com) and the latest CQD from the Teams admin center (cqd.teams.microsoft.com), you'll quickly notice that the data doesn't match. That's because the latest CQD reports on many more calling scenarios. If you're still using reports from the older CQD, use this article to help you interpret those reports: [Call Quality Dashboard for Skype for Business Server](/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard).
 
 
   
 ### Why can't I see EUII in CQD?
 
 These admin roles can access CQD, but they can't view EUII (end-user identifiable information):
+
 - Microsoft 365 Reports Reader
 - Teams Communications Support Specialist
 
@@ -96,9 +97,9 @@ When you filter for Teams only in CQD reports (isTeams = 1), you're filtering fo
 
 CQDv2 and CQDv3 will always have different total counts since CQDv3 will have new scenarios that CQDv2 will not have. That’s why comparing Summary Total or Aggregated all-up numbers with no filters will have these expected differences.  
 
-Depending on Customers’ scenario, CQDv3 will include SFB 2019 on-premises calls (if SFB 2019 is used with a data connector), Skype Bot calls (AA, CVI, VDI), Live Events and PSTN calls. Scenarios/Features which are available for the customers, but their data are not in CQD V2.
+Depending on Customers’ scenario, CQDv3 will include SFB 2019 on-premises calls (if SFB 2019 is used with a data connector), Skype Bot calls (AA, CVI, VDI), Live Events, and PSTN calls. Scenarios/Features that are available for the customers, but their data are not in CQD V2.
 
-For instance, it is expected that your customers and you will see 200,000 audio streams, with 5000 failures in CQD V2 Summary Report; versus 300,000 audio streams with 5500 failures (coming from 2019 on-prem calls, CVI calls, PSTN calls, etc.) in CQD V3.
+For instance, it is expected that your customers and you will see 200,000 audio streams, with 5000 failures in CQD V2 Summary Report, versus 300,000 audio streams with 5500 failures (coming from 2019 on-prem calls, CVI calls, PSTN calls, and so on) in CQD V3.
 
 In order to determine, if there are any unexpected differences, you must look at various breakdowns of the overall data.  Compare with intent.  Slicing the data by User Agent Category Pair is one of the first things we recommend.  *First Product* and *Second Product* are also good slicers.  
 
@@ -106,11 +107,11 @@ In order to determine, if there are any unexpected differences, you must look at
 
 CQD is designed for summarized data queries, and is not designed for data export. We recommend restructuring your reports, where possible, to prevent the 10,000 row limit from being exceeded. Start by looking at your KPIs using broader, lower-cardinality dimensions, such as Month, Year, Date, Region, Country, etc. From there, you can drill down into increasingly higher-cardinality dimensions. The Helpdesk and Location-Enhanced Reports both provide good examples of this drill down workflow.
 
-### Why do WiFi VPN connections show as Wired instead of WiFi?
+### Why do Wi-Fi VPN connections show as Wired instead of Wi-Fi?
 
-This is expected. The VPN vendor created a virtual ethernet adapter which is treated like a wired connection. Since it's not properly labeled, the operating system doesn't know it's a WiFi connection and reports it as wired.
+This is expected. The VPN vendor created a virtual ethernet adapter that is treated like a wired connection. Since it's not properly labeled, the operating system doesn't know it's a WiFi connection and reports it as wired.
 
-## Related topics
+## Related articles
 
 [Improve and monitor call quality for Teams](monitor-call-quality-qos.md)
 
