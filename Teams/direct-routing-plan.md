@@ -274,6 +274,7 @@ You must use the following ports for Microsoft 365 or Office 365 environments wh
 |:--- |:--- |:--- |:--- |:--- |
 |SIP/TLS|SIP Proxy|SBC|1024 – 65535|Defined on the SBC (For Office 365 GCC High/DoD only port 5061 must be used)|
 SIP/TLS|SBC|SIP Proxy|Defined on the SBC|5061|
+SIP/TLS|SBC|SIP Proxy|Defined on the customer Firewall|5061 (Ensure that TCP 5061 is open on the firewall for inbound and outbound traffic)|
 ||||||
 
 ### Failover mechanism for SIP Signaling
