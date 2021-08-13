@@ -38,7 +38,7 @@ For more information, see [Manage phone numbers for your organization](manage-ph
 |Change a user's number to a service number.  <br/> |[Contact the PTSN Service Desk for instructions](contact-pstn-service-desk.md) regarding the list of user numbers you want to convert to service numbers. <br/> |
 |Make directory service updates to call queue or auto attendant numbers|To add or change call queue or auto attendant numbers, contact [the PTSN Service Desk for instructions](contact-pstn-service-desk.md). |
 |Know your customer|form|
-   
+
 ## Related topics
 
 [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
