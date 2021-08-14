@@ -32,11 +32,11 @@ NDI® technology is limited to a local network and should only be considered a p
 
 NDI® technology requires two steps to be turned on for a user.
 
-1. The tenant admin must enable the end user to have NDI turned on for their meeting policy. This can be done on an individual basis in the Teams Admin portal or via the Teams Powershell by the 'AllowNDIStreaming' property in CsTeamsMeetingPolicy.
+1. The tenant admin must enable the end user to have NDI turned on for their meeting policy. This can be done on an individual basis in the Teams Admin portal or via the Teams PowerShell by the _AllowNDIStreaming_ property in CsTeamsMeetingPolicy.
 
-```PowerShell
-Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
-```
+    ```PowerShell
+    Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
+    ```
 
 2. After this change has populated, the end user must turn on NDI® technology for their specific client from **Settings** > **Permissions**.
 
@@ -57,4 +57,4 @@ The banner has a link to the [Microsoft privacy policy](https://aka.ms/teamspriv
 
 NDI® technology is supported in all locales.
 
-Access to using NDI is detemined by the meeting policy for the user attempting to activate the feature. For the most secure solution, do not turn on the NDI policy as a global setting.
+Access to using NDI is determined by the meeting policy for the user attempting to activate the feature. For the most secure solution, do not turn on the NDI policy as a global setting.
