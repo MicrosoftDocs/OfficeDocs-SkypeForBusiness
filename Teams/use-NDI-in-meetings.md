@@ -34,9 +34,9 @@ NDI® technology requires two steps to be turned on for a user.
 
 1. The tenant admin must enable the end user to have NDI turned on for their meeting policy. This can be done on an individual basis in the Teams Admin portal or via the Teams PowerShell by the _AllowNDIStreaming_ property in CsTeamsMeetingPolicy.
 
-```PowerShell
-Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
-```
+    ```PowerShell
+    Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
+    ```
 
 2. After this change has populated, the end user must turn on NDI® technology for their specific client from **Settings** > **Permissions**.
 
