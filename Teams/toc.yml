@@ -270,7 +270,7 @@ items:
           href: /microsoft-365/security/office-365-security/atp-safe-links-for-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: AppLocker application control policies
           href: applocker-in-teams.md
-        - name: Block Access to Sharepoint
+        - name: Block Access to SharePoint
           href: block-access-sharepoint.md
     - name: Compliance
       items: 
@@ -306,7 +306,7 @@ items:
           href: location-of-data-in-teams.md
         - name: Microsoft Teams feedback privacy
           href: teams-privacy-feedback.md
-        - name: Block access to Sharepoint Online for specific users
+        - name: Block access to SharePoint Online for specific users
           href: block-access-sharepoint.md
         - name: Policy control overview
           href: policy-control-overview.md
