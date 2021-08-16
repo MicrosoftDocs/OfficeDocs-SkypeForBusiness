@@ -1,6 +1,5 @@
 ---
 title: Virtual consultations with Teams and the Bookings app for remote sales and service
-Overview
 author: lanachin
 ms.author: v-lanachin
 manager: samanro
