@@ -32,15 +32,17 @@ NDI® technology is limited to a local network and should only be considered a p
 
 NDI® technology requires two steps to be turned on for a user.
 
-1. The tenant admin must enable the 'AllowNDIStreaming' property in CsTeamsMeetingPolicy.
+1. The tenant admin must enable the end user to have NDI turned on for their meeting policy. This can be done on an individual basis in the Teams Admin portal or via the Teams PowerShell by the _AllowNDIStreaming_ property in CsTeamsMeetingPolicy.
 
-```PowerShell
-Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
-```
+    ```PowerShell
+    Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
+    ```
 
 2. After this change has populated, the end user must turn on NDI® technology for their specific client from **Settings** > **Permissions**.
 
-When a user joins a meeting, they'll see a message that notifies them that the meeting is being broadcast. If users don’t want to be included in the broadcast, they’ll need to drop from the meeting.
+After being turned on for a user and their particular client, the user can turn on NDI via the overflow menu and selecting "Broadcast over NDI."
+
+After starting the NDI and having an endpoint subscribe to an NDI feed, they'll see a message that notifies them that the meeting is being broadcast. If users don’t want to be included in the broadcast, they’ll need to drop from the meeting.
 
 The following image shows the banner message that a user sees in a Teams meeting.
 
@@ -49,16 +51,10 @@ The following image shows the banner message that a user sees in a Teams meeting
 The banner has a link to the [Microsoft privacy policy](https://aka.ms/teamsprivacy).
 
 > [!NOTE]
-> NDI® is activated per session only. On the next login, the user must activate it before using NDI®.
+> NDI® is activated per session only. In the next meeting, the user must activate it before using NDI®.
 
 ## Supported locales and user types
 
-NDI® technology is supported in all locales. The following users are included in an NDI® technology stream, but not all users can access the NDI® technology stream:
+NDI® technology is supported in all locales.
 
-- In-tenant – full support, delivered based on ring/tenantId/userId (controlled by Meetings Policy)
-- Federated – no stream access (even when they have NDI® technology on)<sup>1</sup>
-- Premium - no stream access
-- Anonymous – no stream access
-- Guest – no stream access  
-
-<sup>1</sup> Devices have an NDI® technology setting that is on by default. If a meeting participant is using a device with NDI® technology off, they'll need to turn on NDI® technology.
+Access to using NDI is determined by the meeting policy for the user attempting to activate the feature. For the most secure solution, do not turn on the NDI policy as a global setting.
