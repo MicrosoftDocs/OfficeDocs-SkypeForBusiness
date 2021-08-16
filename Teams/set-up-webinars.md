@@ -51,7 +51,7 @@ If you select **Everyone**, all users, including anonymous users, can register f
 
 ### Allow engagement report
 
-If you turn this on, organizers can see reports of who registered and attended the webinars they set up. This policy is enabled by default. For more information, see [Meeting policies in Teams - Allow engagement report](meeting-policies-in-teams-general.md#allow-engagement-report).
+If you turn this on, organizers can see reports of who registered and attended the webinars they set up. This policy is off by default. For more information, see [Meeting policies in Teams - Allow engagement report](meeting-policies-in-teams-general.md#allow-engagement-report).
 
 ## Allow users to schedule webinars using PowerShell
 
