@@ -23,7 +23,7 @@ appliesto:
 ---
 # Microsoft Teams apps/Line of Business (LOB) app support on Teams panels
 
-Teams panels is adding support for Teams apps/Line of Business (LOB) apps. This will enable enterprises to add additional experiences on the panels to meet your organization’s needs. This release supports static web content.
+Teams panels is adding support for [Teams apps/Line of Business (LOB) apps](/platform/overview). This will enable enterprises to add additional experiences on the panels to meet your organization’s needs. This release supports static web content.
 
 > [!IMPORTANT]
 > This feature is only available after updating your Teams panels device(s). You need to have the Teams app version 1449/1.0.97.2021070601 or newer to have app support within Teams panels.
