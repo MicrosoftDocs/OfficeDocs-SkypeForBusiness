@@ -24,7 +24,7 @@ ms.custom:
   - seo-marvel-apr2020
 description: Learn about how to turn on and use the Call Quality Dashboard and get summary reports of quality of calls.
 ---
-# Set up Call Quality Dashboard (CQD)
+# How to Set up Call Quality Dashboard
 
 Open the Microsoft Call Quality Dashboard (CQD) at [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (sign in with your admin credentials). Or go to the Teams admin center and select **Call Quality Dashboard**. 
 
@@ -45,7 +45,7 @@ Assign [roles](/microsoft-365/admin/add-users/about-admin-roles) for accessing C
 If you want non-admin users (such as support engineers and helpdesk agents) to use Call Quality Dashboard, you can assign those users one of the following roles, which gives access to CQD. 
 
 
-|  |View reports  |View EUII fields  |Create reports  |Upload building data  |
+|&nbsp;  |View reports  |View EUII fields  |Create reports  |Upload building data  |
 |---------|:-------:|:-------:|:-------:|:-------:|
 |Global Administrator     |Yes         |Yes         |Yes         |Yes         |
 |Teams Administrator     |Yes         |Yes         |Yes         |Yes         |
@@ -64,13 +64,8 @@ If you want non-admin users (such as support engineers and helpdesk agents) to u
 For more information about these roles, see [About Office 365 admin roles](/office365/admin/add-users/about-admin-roles).
 
 
-After the first time you sign in, CQD will begin collecting and processing data. As of December 2019, you can still access the older version of CQD (cqd.lync.com), although the legacy portal gives you a link to the latest CQD (cqd.teams.microsoft.com). Eventually, the older version of CQD will be decommissioned. As of July 1, 2020, the older version of CQD accesses data from the latest CQD.
+After the first time you sign in, CQD will begin collecting and processing data.
 
-
-## Migrate building data and reports from previous version of CQD
-
-> [!IMPORTANT]
-> As of July 1, 2020, you can no longer migrate building data and reports from the old CQD (https://CQD.lync.com). 
 
 
 

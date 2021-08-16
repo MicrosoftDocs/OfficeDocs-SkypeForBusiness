@@ -99,7 +99,7 @@ Review the [prerequisites for adding agents to a call queue](plan-auto-attendant
 
 You can add up to 200 agents via a Teams channel.
 
-If you want to [use a Teams channel to manage the queue](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e), select the **Choose a team** option and click **Add a channel**. Search for the team that you want to use, select it, and click **Add**. Select the channel that you want to use and click **Apply**. You must be a member of the team or the creator of or an owner of the channel.
+If you want to [use a Teams channel to manage the queue](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e), select the **Choose a team** option and click **Add a channel**. Search for the team that you want to use, select it, and click **Add**. Select the channel that you want to use (only standard channels are supported) and click **Apply**. You must be a member of the team or the creator of or an owner of the channel.
 
 The following clients are supported when using a Teams channel for call queues: 
 
@@ -137,7 +137,7 @@ Agents' Teams accounts need to be set to Teams-only mode. Agents who don't meet 
 > Conference mode is not supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location Based Routing.
 
 > [!TIP]
-> Setting **Conference mode** to **Auto** is the recommended setting.
+> Setting **Conference mode** to **On** is the recommended setting.
 
 **Routing method** determines the order in which agents receive calls from the queue. Choose from these options:
 
@@ -200,7 +200,7 @@ When you have selected your call timeout options, click **Save**.
 
 The following settings are recommended:
 
-- **Conference mode** to **Auto**
+- **Conference mode** to **On**
 - **Routing method** to **Round robin** or **Longest idle**
 - **Presence-based routing** to **On**
 - **Agent alert time:** to **20 seconds**
