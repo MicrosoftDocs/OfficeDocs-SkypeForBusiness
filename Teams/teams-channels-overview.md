@@ -74,7 +74,12 @@ If you are a Teams administrator in Microsoft 365, you have access to system-wid
 
 By default, all users have permissions to create a team. To modify this, see [Assign roles and permissions in Teams](assign-roles-permissions.md).
 
-One key early planning activity to engage users with Teams is to help people think and understand how Teams can enhance collaboration in their day to day lives. Talk with people and help them select business scenarios where they are currently collaborating in fragmented ways. Bring them together in a channel with the relevant tabs that will help them get their work done. One of the most powerful use cases of Teams is any cross-organizational process. 
+One key early planning activity to engage users with Teams is to help people think and understand how Teams can enhance collaboration in their day to day lives. Talk with people and help them select business scenarios where they are currently collaborating in fragmented ways. Bring them together in a channel with the relevant tabs that will help them get their work done. One of the most powerful use cases of Teams is any cross-organizational process.
+
+> [!NOTE]
+> When you create a new team or private channel in Microsoft Teams, a team site in SharePoint gets automatically created. To edit the site description or classification for this team site, go to the corresponding channel’s [settings in Microsoft Teams](https://support.microsoft.com/office/change-a-team-s-data-security-classification-in-teams-bf39798f-90d2-44fb-a750-55fa05a56f1d).
+>
+> Learn more about managing [Microsoft Teams connected teams sites](https://docs.microsoft.com/SharePoint/teams-connected-sites).
 
 ## Example Teams
 
