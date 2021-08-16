@@ -27,11 +27,9 @@ In most cases, after app developers publish an app update, the new version autom
 * A bot was added or removed
 * An existing bot's "botId" property changed
 * An existing bot's "isNotificationOnly" property changed
-* The bot's "supportsFiles" property changed
-* A messaging extension was added or removed
+* A bot's SupportsCalling, SupportsVideo , and SupportsFiles capability was added
+* A messaging extension was added
 * A new connector was added
-* A new static tab was added
-* A new configurable tab was added
 * Properties inside "webApplicationInfo" changed
 
 ![new version available](media/manage-your-custom-apps-update1.png)
