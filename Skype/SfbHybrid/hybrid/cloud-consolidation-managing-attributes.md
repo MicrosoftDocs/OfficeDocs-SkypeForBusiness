@@ -67,7 +67,7 @@ This option requires additional effort and proper planning because users who wer
 > This process is simplest for users who have a matching sip address and UserPrincipalName. For organizations that have users with non-matching values across these two attributes, extra care must be taken as noted below for a smooth transition.
 
 > [!NOTE]
-> If you have configured on-premises hybrid application endpoints for Auto Attendants or Call Queues, be sure to move these endpoints to Microsoft 365 before decommissioning Skype for Business Server.
+> If you have configured on-premises hybrid application endpoints for Auto Attendants or Call Queues, be sure to move these endpoints to Microsoft 365 before decommissioning Skype for Business Server. For details, see [Migrate hybrid application endpoints before decommissioning your on-premises environment](decommission-move-on-prem-endpoints.md).  
 
 
 1. Confirm the following on-premises Skype for Business PowerShell cmdlet returns an empty result. An empty result means no users are homed on-premises and have either been moved to Microsoft 365 or have been disabled:
