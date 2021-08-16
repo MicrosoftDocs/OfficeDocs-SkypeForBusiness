@@ -30,15 +30,18 @@ Virtual consultations are held through Microsoft Teams meetings, which offers ro
 
 Each virtual appointment includes a Teams meeting link that’s sent to attendees in email where they can easily join from a web browser or in Teams on any device. Automated email reminders help reduce no-shows and enhance customer engagement.
 
-And with the Microsoft Bookings web app, you can publish an online booking page where your customers can see available booking times, giving them the flexibility to schedule a consultation at a time that works best for them. ???After you set up your booking page, your day-to-day scheduling can be done through the Bookings app in Teams.
+> [!SCOPE_QUESTION]
+>Find out whether to include Microsoft Booking setup tasks that aren't supported in the Bookings apps in Teams. For example, self-serve online booking page for customers, logo, service details such as price, buffer times, custom fields, scheduling policies, etc) that aren't supported in the Bookings app in Teams?
 
-???How to fold in setup tasks in Microsoft Bookings (logo, service options, scheduling policies, buffer times etc) that aren't supported in the Bookings app in Teams?
+> And with the Microsoft Bookings web app, you can publish an online booking page where your customers can see available booking times, giving them the flexibility to schedule a consultation at a time that works best for them. ???After you set up your booking page, your day-to-day scheduling can be done through the Bookings app in Teams.
 
 This article gives you an overview of how to use the Bookings app in Teams to deliver remote sales and service.
 
 ## Before you get started
 
 If you’re an admin, see [Virtual visits with Teams and the Bookings app](bookings-app-admin.md) to learn about the prerequisites for using the Bookings app in Teams, how to control access to Bookings in your organization, and recommended policy and admin settings.
+
+Keep in mind that only schedulers in your organization need to have the Bookings app installed in Teams. Staff who conduct or participate in virtual appointments don't need the app. They join appointments from their Outlook or Teams calendar or by using the link in their booking confirmation email.
 
 ## Set up a new booking calendar
 
@@ -47,13 +50,16 @@ If you’re an admin, see [Virtual visits with Teams and the Bookings app](booki
 In Teams, go to **Bookings** > **Get started**, and then select **New booking calendar**. Complete the form and be sure to choose **Financial services** for the business type.
 
 If you’re a larger organization, consider creating more than one booking calendar if you want customers to receive a booking email from a specific department rather than your overall organization. 
-To learn more, see [Create a booking calendar](https://support.microsoft.com//office/create-a-bookings-calendar-921cfd26-a24d-4aca-9004-561594112148).
+To learn more, see [Create a Bookings calendar](https://support.microsoft.com//office/create-a-bookings-calendar-921cfd26-a24d-4aca-9004-561594112148).
+
+> [!NOTE]
+> If this isn't your first time in the Bookings app or if you want to work in an existing booking calendar, in Bookings, select the dropdown arrow next to your business name, and then choose **Existing booking calendar**. From here, you can search for the one you want.
 
 ### Add staff
 
 In the booking calendar, go to **More options** > **Settings**, and then select **Staff**. Add staff members and assign a role to each person you add.
 
-The Bookings app syncs with Outlook. After you add staff, you’ll be able to view that person’s calendar availability and schedule bookings for them. To learn more, see [Add staff and view a booking calendar](https://support.microsoft.com/office/add-staff-and-view-a-bookings-calendar-6c579f61-8adb-4514-9458-021de2023fa0).  
+The Bookings app syncs with Outlook. After you add staff, you’ll be able to view that person’s calendar availability and schedule bookings for them. To learn more, see [Add staff and view a Bookings calendar](https://support.microsoft.com/office/add-staff-and-view-a-bookings-calendar-6c579f61-8adb-4514-9458-021de2023fa0).  
 
 ### Create appointment types
 
@@ -61,10 +67,19 @@ Create appointment types to represent the services offered by your organization 
 
 In the booking calendar, go to **More options** > **Settings** > **Appointment types**, and then select **New appointment type**. Enter a name&mdash;for example, Account opening, Loan consultation, Tax preparation&mdash;and any other information and settings you want.
 
-The information and links that you include are emailed to customers every time this type of appointment is booked. You can even set email reminders and whether customers can join from a mobile browser, without having to download Teams. To learn more, see [Create an appointment type](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887).
+The information and links that you add are included in the email sent to customers every time this type of appointment is booked. You can even set email reminders and whether customers can join from a mobile browser, without having to download Teams. To learn more, see [Create an appointment type](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887).
 
-## Schedule a booking
+## Schedule a virtual consultation
 
+In the booking calendar, select **New booking**. Select an appointment type, and then fill out the relevant information.
+
+This includes customer contact information, the staff member who will be providing the service, internal notes that only staff can see, email reminders, and whether the customer can join from a mobile browser. To learn more, see [Schedule a booking in the Teams Bookings app](https://support.microsoft.com/office/schedule-a-booking-in-the-teams-bookings-app-e275049d-0d0f-4161-8526-461a9f29439f).
+
+The email confirmation sent to the customer includes the meeting link and an attachment so that they can add the virtual appointment to their calendar. Staff also receive an email confirmation and meeting invite.
+
+## Conduct a virtual consultation
+
+In your Teams or Outlook calendar, go to the booking, and then select **Join** or the Teams meeting link. Check your audio and video settings, and then select **Join now**. To learn more, see [Conduct a Bookings appointment](https://support.microsoft.com/office/conduct-a-bookings-appointment-a86a4007-e26c-4909-9893-f7036e2747cd).
 
 ## Related articles
 
