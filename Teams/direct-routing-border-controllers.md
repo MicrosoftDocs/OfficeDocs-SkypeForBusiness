@@ -16,11 +16,11 @@ appliesto:
 hideEdit: true
 f1.keywords:
 - NOCSH
-description: Admin can learn about which Session Border Controllers (SBCs) have been certified for Direct Routing.
+description: Learn about which Session Border Controllers (SBCs) have been certified for Direct Routing.
 ms.custom: seo-marvel-apr2020
 ---
 
-# List of Session Border Controllers certified for Direct Routing
+# Session Border Controllers certified for Direct Routing
 
 Microsoft partners with selected Session Border Controllers (SBC) vendors to certify that their SBCs work with Direct Routing.
 
