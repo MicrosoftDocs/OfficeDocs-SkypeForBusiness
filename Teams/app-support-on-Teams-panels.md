@@ -30,15 +30,19 @@ Teams panels is adding support for Teams apps/Line of Business (LOB) apps. This 
 
 ## Set up and manage Teams panels apps in Teams admin center 
 
-![Screenshot of the Teams admin center showing which section will allow users to navigate to apps.](media/tac1update.png) 
-*The Teams admin center includes app navigation options, outlined in the screenshot in red. Note that these are example icons and may not be available for use.*
-
-![Screenshot of the app canvas where apps can be added.](media/appscreen.png)
-*When an end-user clicks on one of the app icons, they will see the "your app content here" screen displayed in the screenshot. The gray rectangle in the screenshot is the canvas where app developers can add apps to display on the Teams panel. The app bar is fixed and part of the Teams panels app.*
-
 Microsoft Teams apps bring key information, common tools, and trusted processes to where people gather, learn, and work. Teams apps work [through integrated capabilities](/platform/concepts/capabilities-overview). Now, as an IT administrator, you have the choice of which apps to include in your organization’s Teams panels device and customize permissions via the Teams admin center.
 
 You can now use the Teams apps on Teams panels and customize the user experience based on your organization’s needs. You can decide which web app your users can access and use and prioritize the app views. Some options, like the bot and messaging capabilities, are not supported at this time. Learn more about the Teams apps and how to manage your devices in Microsoft Teams.
+
+## Teams app experience on Teams panels
+
+![Screenshot of the Teams admin center showing which section will allow users to navigate to apps.](media/tac1update.png) 
+
+*The Teams panels home screen includes app navigation options, outlined in the screenshot in red. Note that these are example icons and may not be available for use.*
+
+![Screenshot of the app canvas where apps can be added.](media/appscreen.png)
+
+*When an end-user taps on one of the app icons, they will see the Teams app screen displayed in the previous screenshot. The gray rectangle in the screenshot is where apps are displayed on the Teams panel. The app bar is fixed and part of the Teams panels app.*
 
 ## Manage apps on Teams panels in Teams admin center
 
