@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Rooms Premium managed service
+title: Microsoft Teams Rooms Premium-managed service
 author: v-smandalika
 ms.author: v-smandalika
 manager: dansimp
@@ -15,17 +15,17 @@ appliesto:
   - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Learn about how a Microsoft Teams Rooms account obtains a license to access the Microsoft Teams Rooms premium managed service.
+description: Learn about how a Microsoft Teams Rooms account obtains a license to access the Microsoft Teams Rooms premium-managed service.
 f1keywords: 
 ---
 
-# Getting started with Microsoft Teams Rooms Premium managed service
+# Getting started with Microsoft Teams Rooms Premium-managed service
 
-Microsoft recognizes that productive meetings are facilitated by behind-the-scenes efforts that involve ensuring conduciveness for excellent operations. The Microsoft Teams Rooms Premium managed services reduces complexity for your IT with a continuous service that delivers improved room operations, enhancing in-room meeting productivity.
+Microsoft recognizes that productive meetings are facilitated by behind-the-scenes efforts that involve ensuring conduciveness for excellent operations. The Microsoft Teams Rooms Premium-managed services reduces complexity for your IT with a continuous service that delivers improved room operations, enhancing in-room meeting productivity.
 
 ## Obtaining an assigning a license
 
-Microsoft Teams Rooms accounts require a Microsoft Teams Rooms Premium license to work with the Microsoft Teams Rooms Premium managed service.
+Microsoft Teams Rooms accounts require a Microsoft Teams Rooms Premium license to work with the Microsoft Teams Rooms Premium-managed service.
 
 To assign a license, perform the following steps:
 
@@ -40,6 +40,6 @@ To assign a license, perform the following steps:
 1. Enter existing **Microsoft Teams Rooms** accounts for **Teams Rooms Premium** license assignment. For more information about setting up new - or validating existing - Microsoft Teams Rooms accounts, see [Deploy Microsoft Teams Rooms with Microsoft 365 or Office 365](with-office-365.md). 
 1. Once account submission is completed, click **Assign** and click **Close**. The **Microsoft Teams Rooms Premium** licenses have been assigned to **Microsoft Teams Rooms** accounts. 
 
-You are now ready to enroll the accounts and the associated certified **Microsoft Teams Rooms** devices in the Microsoft Teams Rooms Premium managed service.
+You are now ready to enroll the accounts and the associated certified **Microsoft Teams Rooms** devices in the Microsoft Teams Rooms Premium-managed service.
 
 

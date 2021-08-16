@@ -26,15 +26,15 @@ To enroll a Microsoft Teams Rooms account into Microsoft Teams Rooms Premium (MT
 1. Log in to the [Teams Rooms Premium portal](https://portal.rooms.microsoft.com/) with the same administrator privileges as that used to log in to the Microsoft 365 admin center.
 1. Choose **Settings > Roles** in the left navigation pane to assign a **Managed Service Administrator**.  
 
-This **Managed Service Administrator** will own the day-to-day management and monitoring of the MTRP managed services portal.
+This **Managed Service Administrator** will own the day-to-day management and monitoring of the MTRP-managed services portal.
 
 For information on what instructions the **Managed Service Administrator** needs to follow, and how to access them, see [Managed Service Administrator tasks](#managed-service-administrator-tasks).
 
 ## Managed Service Administrator tasks
 
-The **Managed Service Administrator** must click on the **?** icon at the top right-hand corner of the portal, to launch the **Help** menu.
+The **Managed Service Administrator** must click on**?** icon at the top right-hand corner of the portal, to launch the **Help** menu.
 
-The **Help** menu provides a [Link to Installation guide](#link-to-installation-guide) which contains instructional content. For information on what the **Installation guide** contains, see [Link to Installation guide](#link-to-installation-guide).
+The **Help** menu provides a [Link to Installation guide](#link-to-installation-guide) that contains instructional content. For information on what the **Installation guide** contains, see [Link to Installation guide](#link-to-installation-guide).
 
 The **Help** menu also contains links that provide information on the Microsoft Teams Rooms Premium monitoring agent.
 
