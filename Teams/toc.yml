@@ -931,7 +931,7 @@ items:
               href: direct-routing-landing-page.md
             - name: Plan Direct Routing
               href: direct-routing-plan.md
-            - name: List of Session Border Controllers certified for Direct Routing
+            - name: Session Border Controllers certified for Direct Routing
               href: direct-routing-border-controllers.md
             - name: Configure Direct Routing
               items: 
