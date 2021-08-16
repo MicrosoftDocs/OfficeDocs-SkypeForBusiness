@@ -42,5 +42,5 @@ The **Help** menu also contains links that provide information on the Microsoft 
 
 The **Help** menu provides a link to the **Installation guide** which in turn provides the following information:
 
-- Instructions on URLs that need to be whitelisted to serve to allow room telemetry to be sent to the managed service.
+- Instructions on URLs that need to be allowlisted to serve to allow room telemetry to be sent to the managed service.
 - Instructions for applying the Microsoft Teams Rooms Premium monitoring agent to a device that is enrolled in the managed service.
