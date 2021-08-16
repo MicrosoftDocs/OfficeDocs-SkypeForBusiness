@@ -1,5 +1,5 @@
 ---
-title: Configure local media optimization for direct routing in Teams
+title: Configure Local Media Optimization for Direct Routing
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -47,9 +47,7 @@ To configure the user and the SBC sites, you will need to:
 
 ## Configure SBC(s) for Local Media Optimization according to the SBC vendor specification
 
-This article describes configuration for Microsoft components. For information on SBC configuration, see your SBC vendor documentation.
-
-Local Media Optimization is supported by the following SBC vendors:
+This article describes configuration for Microsoft components. For information on SBC configuration, see your SBC vendor documentation. For information on which SBC vendors support Local Media Optimization, see [Session Border Controllers Certified for Direct Routing](direct-routing-border-controllers.md).
 
 | Vendor | Product |	Software version |
 |:------------|:-------|:-------|
