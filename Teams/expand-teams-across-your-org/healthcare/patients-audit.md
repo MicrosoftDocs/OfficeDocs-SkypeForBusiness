@@ -62,7 +62,7 @@ The Patients app has its own logged activities, listed in the following table:
 | Added patient to list | PatientListAddPatient | A patient was added to a list of patients. |
 | Added note for patient | PatientNoteAdd | A note was added to a patient record. |
 | Created patient schema | PatientSchemaCreate | A set of columns used in the patient record was created. |
-| User initiated an export | ExportInitiation | Patient data was exported from the Patients app into an Excel file. The file will be saved in the Team sharepoint site. |
+| User initiated an export | ExportInitiation | Patient data was exported from the Patients app into an Excel file. The file will be saved in the Team SharePoint site. |
 | Created patient list | PatientListCreate | A user created a list of patients.|
 | Set default patient list| PatientListDefaultSet| A user set a particular list as the default list.|
 | Removed patient from list| PatientListRemovePatient | A patient was removed from a list of patients. |
