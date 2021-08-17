@@ -38,7 +38,7 @@ This article gives you an overview of how to use the Bookings app in Teams to de
 
 ## Before you get started
 
-If you’re an admin, see [Virtual visits with Teams and the Bookings app](bookings-app-admin.md) to learn about the prerequisites for using the Bookings app in Teams, how to control access to Bookings in your organization, and recommended policy and admin settings.
+If you’re an admin, see [Manage the Bookings app in Teams](bookings-app-admin.md) to learn about the prerequisites for using the Bookings app in Teams, how to control access to Bookings in your organization, and recommended policy and admin settings.
 
 Remember that only schedulers in your organization need to have the Bookings app installed in Teams. Staff who conduct or participate in virtual appointments don't need the app. They join appointments from their Outlook or Teams calendar or by using the link in their booking confirmation email.
 
