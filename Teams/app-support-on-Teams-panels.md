@@ -23,7 +23,7 @@ appliesto:
 ---
 # Microsoft Teams apps/Line of Business (LOB) app support on Teams panels
 
-Teams panels is adding support for [Teams apps/Line of Business (LOB) apps](/platform/overview). This will enable enterprises to add additional experiences on the panels to meet your organization’s needs. This release supports static web content.
+Teams panels is adding support for [Teams apps/Line of Business (LOB) apps](/microsoftteams/platform/overview). This will enable enterprises to add additional experiences on the panels to meet your organization’s needs. This release supports static web content.
 
 > [!IMPORTANT]
 > This feature is only available after updating your Teams panels device(s). You need to have the Teams app version 1449/1.0.97.2021070601 or newer to have app support within Teams panels.
@@ -40,17 +40,17 @@ Teams panels is adding support for [Teams apps/Line of Business (LOB) apps](/pla
 
 ## Set up and manage Teams panels apps in Teams admin center 
 
-Microsoft Teams apps bring key information, common tools, and trusted processes to where people gather, learn, and work. Teams apps work [through integrated capabilities](/platform/concepts/capabilities-overview). Now, as an IT administrator, you have the choice of which apps to include in your organization’s Teams panels device and customize permissions via the Teams admin center.
+Microsoft Teams apps bring key information, common tools, and trusted processes to where people gather, learn, and work. Teams apps work [through integrated capabilities](/microsoftteams/platform/concepts/capabilities-overview). Now, as an IT administrator, you have the choice of which apps to include in your organization’s Teams panels device and customize permissions via the [Teams admin center](https://admin.teams.microsoft.com/).
 
-You can now use the Teams apps on Teams panels and customize the user experience based on your organization’s needs. You can decide which web app your users can access and use and prioritize the app views. Some options, like the bot and messaging capabilities, are not supported at this time. Learn more about the Teams apps and how to manage your devices in Microsoft Teams.
+You can now use the Teams apps on Teams panels and customize the user experience based on your organization’s needs. You can decide which web app your users can access and use and prioritize the app views. Some options, like the bot and messaging capabilities, are not supported at this time. Learn more about [the Teams apps](/microsoftteams/platform/overview) and [how to manage your devices in Microsoft Teams](/microsoftteams/devices/device-management).
 
 ## Manage apps on Teams panels in Teams admin center
 
-**Note**: You must be a global admin or a Teams service admin to access the Teams admin center.
+**Note**: You must be a global admin or a Teams service admin to access the [Teams admin center](https://admin.teams.microsoft.com/).
 
-End users can view but not install apps on Teams panels. As an admin, you can view and manage all Teams apps for your organization via the Teams admin center. Learn more about how you can manage your apps in the Microsoft Teams admin center via the **Manage apps** page. The **Manage apps** page within the Teams admin center is also where you can upload [custom apps](/manage-apps#publish-a-custom-app-to-your-organizations-app-store).
+End users can view but not install apps on Teams panels. As an admin, you can view and manage all Teams apps for your organization via the Teams admin center. Learn more about how you can [manage your apps in the Microsoft Teams admin center](/microsoftteams/manage-apps) via the **Manage apps** page. The **Manage apps** page within the Teams admin center is also where you can upload [custom apps](/microsoftteams/manage-apps#publish-a-custom-app-to-your-organizations-app-store).
 
-After setting up apps, you can use [app permission policies](/teams-app-permission-policies) and [app setup policies](/teams-app-setup-policies) to configure the app experience for specific room accounts in your organization.
+After setting up apps, you can use [app permission policies](/microsoftteams/teams-app-permission-policies) and [app setup policies](/microsoftteams/teams-app-setup-policies) to configure the app experience for specific room accounts in your organization.
 
 ## Pin apps on Teams panels with app setup policies
 
@@ -66,7 +66,7 @@ To manage pinned apps displayed on the Teams panels, sign in to the Teams admin 
 
 Microsoft recommends you turn off **Upload custom apps** and **Allow user pinning** for the best Teams app experience on Teams panels.
 
-For more about pinning apps, see [Manage app setup policies](/teams-app-setup-policies).
+For more about pinning apps, see [Manage app setup policies](/microsoftteams/teams-app-setup-policies).
 
 ## Manage apps display order in Teams panels 
 
@@ -78,7 +78,7 @@ To manage the order in which apps are displayed on the Teams panels, sign in to 
 
 ## Assigning setup policies to a room resource account
 
-After creating the setup policy, the admin will need to assign this policy to the room resource account that will be signed into the Teams panels. For more information, refer to [Assign policies to users and groups](/assign-policies-users-and-groups).
+After creating the setup policy, the admin will need to assign this policy to the room resource account that will be signed into the Teams panels. For more information, refer to [Assign policies to users and groups](/microsoftteams/assign-policies-users-and-groups).
 
 ## FAQ
 
@@ -110,7 +110,7 @@ If apps were previously installed via other app policies or manually in the Team
 
 ### Why can't I find an app in the “Add pinned apps” pane?
 
-Not all apps can be pinned to Teams through an app setup policy. Some apps may not support this functionality. To find apps that can be pinned, search for the app in the **Add pinned apps** pane. For more information, please refer to [the FAQ in Working with app setup policies](/teams-app-setup-policies#why-cant-i-find-an-app-in-the-add-pinned-apps-pane).
+Not all apps can be pinned to Teams through an app setup policy. Some apps may not support this functionality. To find apps that can be pinned, search for the app in the **Add pinned apps** pane. For more information, please refer to [the FAQ in Working with app setup policies](/microsoftteams/teams-app-setup-policies#why-cant-i-find-an-app-in-the-add-pinned-apps-pane).
 
 ### Why am I seeing an “Allow user pinning” pop-up in the setup policies panel after I turn off “Allow user pinning?”
 
