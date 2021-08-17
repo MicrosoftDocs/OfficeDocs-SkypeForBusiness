@@ -251,7 +251,7 @@ We highly encourage migrating to the new solution as soon as possible as we will
 
 Please refer to the [SBC vendor instructions](#deploy-and-configure-the-sbc) on configuring sending the FQDN name of subdomains in the Contact header.
 
-## Considerations for setting up muti-tenant failover 
+## Considerations for setting up multi-tenant failover 
 
 To set up failover for a multi-tenant environment, you'll need to do the following:
 
