@@ -64,13 +64,8 @@ If you want non-admin users (such as support engineers and helpdesk agents) to u
 For more information about these roles, see [About Office 365 admin roles](/office365/admin/add-users/about-admin-roles).
 
 
-After the first time you sign in, CQD will begin collecting and processing data. As of December 2019, you can still access the older version of CQD (cqd.lync.com), although the legacy portal gives you a link to the latest CQD (cqd.teams.microsoft.com). Eventually, the older version of CQD will be decommissioned. As of July 1, 2020, the older version of CQD accesses data from the latest CQD.
+After the first time you sign in, CQD will begin collecting and processing data.
 
-
-## Migrate building data and reports from previous version of CQD
-
-> [!IMPORTANT]
-> As of July 1, 2020, you can no longer migrate building data and reports from the old CQD (https://CQD.lync.com). 
 
 
 
