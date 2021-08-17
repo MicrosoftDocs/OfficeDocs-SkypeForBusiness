@@ -27,7 +27,7 @@ description: "Infrastructure qualifications including PSTN gateways and IP PBX p
 
 The tables that follow list the PSTN gateways and IP-PBX products along with the necessary firmware combinations that have been independently qualified for use with Lync Server.
 
-We recommend that you visit the vendor's web site for the latest information regarding protocol, capacity, country support and documentation including a Quick Start Guide, release notes and any known issues.
+We recommend that you visit the vendor's web site for the latest information about protocol, capacity, country support, and documentation including a Quick Start Guide, release notes, and any known issues.
 
 ### Qualified for Lync 2013
 
@@ -106,8 +106,8 @@ We recommend that you visit the vendor's web site for the latest information reg
 				</ol>
 				<p>Known Limitations:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
-					<li>Analog devices connected to FXS ports do not support hold/resume. To support hold/resume, the FXS port needs to be controlled by a Cisco PBX.</li>
-					<li>No ringback is heard when call is forwarded from a Lync Endpoint to a PSTN Endpoint. This can be corrected by allowing 183 without SDP on the outbound dial-peers to Lync, but this will result in no ring back on regular inbound calls.</li>
+					<li>Analog devices connected to FXS ports don't support hold/resume. To support hold/resume, the FXS port needs to be controlled by a Cisco PBX.</li>
+					<li>No ringback is heard when call is forwarded from a Lync Endpoint to a PSTN Endpoint. This issue can be corrected by allowing 183 without SDP on the outbound dial-peers to Lync, but this will result in no ring back on regular inbound calls.</li>
 				</ol>
 			</td>
 		</tr>
@@ -127,7 +127,7 @@ We recommend that you visit the vendor's web site for the latest information reg
 				<p>Known Limitations:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
 					<li>Call Park on Lync Client fails. Lync Client drops the call as the Gateway responds with &quot;a=sendrecv&quot; to an INVITE from Lync to place the call on hold. This issue is documented under case number CSCuo44538 with Cisco Support.</li>
-					<li>As the Gateway overrides the progress indicator from Lync Server, PSTN calling party does not hear IVR when the Lync called party is set to simultaneous ring an IVR number with Early Media.</li>
+					<li>As the Gateway overrides the progress indicator from Lync Server, PSTN calling party doesn't hear IVR when the Lync called party is set to simultaneous ring an IVR number with Early Media.</li>
 					<li>Call Hold and transfer on Analog Endpoints fails with the recommended dial peer configuration on the ISR.</li>
 				</ol>
 			</td>
@@ -176,14 +176,14 @@ We recommend that you visit the vendor's web site for the latest information reg
 				<ol style="margin-left:20px;margin-top:-12px;">
 					<li>PBX is tested and is supported only with an AudioCodes Mediant 1000 Gateway v6.2</li>
 					<li>When a user configures simul-ring to a PSTN IVR number, the calling party will hear ring back not early media played from the IVR</li>
-					<li>PBX does not support DNS load balancing</li>
-					<li>PBX does not generate OPTIONS ping</li>
+					<li>PBX does'ot support DNS load balancing</li>
+					<li>PBX doesn't generate OPTIONS ping</li>
 				</ol>
 				<p>C2100 &amp; C20 Notes:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
 					<li>PBX is tested and is supported only with a Genband Quantix SBC v8.3.4.0</li>
-					<li>PBX does not support DNS Load Balancing,Media Bypass,or REFER</li>
-					<li>PBX does not generate OPTIONS ping</li>
+					<li>PBX doesn't support DNS Load Balancing, Media Bypass, or REFER</li>
+					<li>PBX doesn't generate OPTIONS ping</li>
 				</ol>
 			</td>
 		</tr>
@@ -238,11 +238,11 @@ We recommend that you visit the vendor's web site for the latest information reg
 			<td colspan="4">
 				<p>Configuration Notes:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
-					<li>On Lync Mediation Server, Media Bypass and REFER are set to disabled. Testing found Media Bypass does not work for inbound calls and REFER is not supported.</li>
+					<li>On Lync Mediation Server, Media Bypass and REFER are set to disabled. Testing found Media Bypass doesn't work for inbound calls and REFER isn't supported.</li>
 				</ol>
 				<p>Known Limitations:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
-					<li>DNS Load Balancing using the same FQDN for two IP addresses is not supported by the Samsung PBX.</li>
+					<li>DNS Load Balancing using the same FQDN for two IP addresses isn't supported by the Samsung PBX.</li>
 				</ol>
 			</td>
 		</tr>
@@ -330,8 +330,8 @@ We recommend that you visit the vendor's web site for the latest information reg
 			<td colspan="4">
 				<p>Configuration Notes:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
-					<li>On Lync Mediation Server, Enable Media Bypass and RTCP, but Disable REFER. Testing determined that REFER does not function.</li>
-					<li>MX-One does not support sending DTMF as a part of early media.</li>
+					<li>On Lync Mediation Server, Enable Media Bypass and RTCP, but Disable REFER. Testing determined that REFER doesn't function.</li>
+					<li>MX-One doesn't support sending DTMF as a part of early media.</li>
 				</ol>
 			</td>
 		</tr>
@@ -387,16 +387,16 @@ We recommend that you visit the vendor's web site for the latest information reg
 				<p>Configuration Notes:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
 					<li>Disable REFER on both Lync Mediation Server and Cisco GW.</li>
-					<li>On Lync Mediation Server, disable TLS and SRTP.  Secure connectivity is not supported. </li>
+					<li>On Lync Mediation Server, disable TLS and SRTP.  Secure connectivity isn't supported. </li>
 				</ol>
 				<p>Known Limitations:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
-					<li>Analog devices connected to FXS ports do not support hold/resume. To support hold/resume, the FXS port needs to be controlled by a Cisco PBX.</li>
+					<li>Analog devices connected to FXS ports don't support hold/resume. To support hold/resume, the FXS port needs to be controlled by a Cisco PBX.</li>
 				</ol>
 			</td>
 		</tr>
 		<tr align="left" valign="top">
-			<td rowspan="3"><a href="http://www.dialogic.com/Solutions/Unified-Communications/UC-Connectivity/Microsoft-Lync.aspx">Dialogic</a></td>
+			<td rowspan="3"><a href="https://www.dialogic.com/solutions">Dialogic</a></td>
 			<td>DMG1000</td>
 			<td>6.0 SU7</td>
 			<td>Enhanced Gateway</td>
@@ -441,12 +441,12 @@ We recommend that you visit the vendor's web site for the latest information reg
 			<td colspan="4">
 				<p>Configuration Notes:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
-					<li>Disable REFER, TLS and SRTP on Mediation Server. They are not supported by Genband.</li>
+					<li>Disable REFER, TLS, and SRTP on Mediation Server. They are not supported by Genband.</li>
 				</ol>
 				<p>Known Limitations:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
-					<li>Media Bypass is not supported.</li>
-					<li>DNS load balancing is not supported by the Genband C20, but load-balancing to multiple provisioned IP addresses is supported.</li>
+					<li>Media Bypass isn't supported.</li>
+					<li>DNS load balancing isn't supported by the Genband C20, but load-balancing to multiple provisioned IP addresses is supported.</li>
 				</ol>
 			</td>
 		</tr>
@@ -468,8 +468,8 @@ We recommend that you visit the vendor's web site for the latest information reg
 				</ol>
 				<p>Known Limitations:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
-					<li>DNS load balancing is not supported by Huawei.</li>
-					<li>Mediation Server Failover is not suppored by Huawei.</li>
+					<li>DNS load balancing isn't supported by Huawei.</li>
+					<li>Mediation Server Failover isn't supported by Huawei.</li>
 				</ol>
 			</td>
 		</tr>
@@ -486,7 +486,7 @@ We recommend that you visit the vendor's web site for the latest information reg
 			<td colspan="4">
 				<p>Configuration Notes:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
-					<li>Disable REFER on Mediation Server. It is not supported by Huawei.</li>
+					<li>Disable REFER on Mediation Server. It isn't supported by Huawei.</li>
 				</ol>
 			</td>
 		</tr>
@@ -510,7 +510,7 @@ We recommend that you visit the vendor's web site for the latest information reg
 				</ol>
 				<p>Known Limitations:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
-					<li>While the IP-PBX supports Comfort Noise negotiation, it does not generate CN packets itself.</li>
+					<li>While the IP-PBX supports Comfort Noise negotiation, it doesn't generate CN packets itself.</li>
 				</ol>
 			</td>
 		</tr>
@@ -542,12 +542,12 @@ We recommend that you visit the vendor's web site for the latest information reg
 			<td colspan="4">
 				<p>Configuration Notes:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
-					<li>On Lync Mediation Server, Enable Media Bypass and Disable REFER and RTCP. Testing determined that Mitel does not support REFER and RTCP.</li>
+					<li>On Lync Mediation Server, Enable Media Bypass and Disable REFER and RTCP. Testing determined that Mitel doesn't support REFER and RTCP.</li>
 				</ol>
 				<p>Known Limitations:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
-					<li>When a Mitel user calls a Lync user, there is no ring back tone provided for the Mitel user. Mitel is investigating adding RFC 3960 support in the future.</li>
-					<li>Mitel does not support comfort noise. As a result, comfort noise is not played on Microsoft Lync.</li>
+					<li>When a Mitel user calls a Lync user, there's no ring back tone provided for the Mitel user. Mitel is investigating adding RFC 3960 support in the future.</li>
+					<li>Mitel doesn't support comfort noise. As a result, comfort noise isn't played on Microsoft Lync.</li>
 				</ol>
 			</td>
 		</tr>
@@ -606,4 +606,4 @@ We recommend that you visit the vendor's web site for the latest information reg
 </table>
 
 
-For more information on Direct SIP configurations, please see [PSTN Connectivity Components](../../SfbServer/plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md).
+For more information on Direct SIP configurations, see [PSTN Connectivity Components](../../SfbServer/plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md).
