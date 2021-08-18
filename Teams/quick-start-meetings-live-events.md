@@ -43,16 +43,18 @@ The following table briefly summarizes the three types of meetings, the number o
 
 | Type of meeting | Number of participants | Interaction | Registration supported |
 |----------|--------|--------|-----|
-| Meetings  | Up to 20,000* <br> | -Participants up to 1,000 have fully interactive equal meeting capabilities. <br> -Participants over 1,000 up to 20,000 have [View-only](view-only-meeting-experience.md) capabilities.  | No |
+| Meetings  | Up to 1,000* <br> | -Participants up to 1,000* have fully interactive equal meeting capabilities.  | No |
 | Webinars | -Up to 1,000<br>-Increased limits with [View-only](view-only-meeting-experience.md) capabilities coming soon. |-Participants up to 1,000 have fully interactive capabilities. <br> -Audience interaction configurable. <br> -Can specify presenters. | Yes |
 | Live events | Up to 20,000** |-Broadcast to large audiences. <br>-Moderated Q&A for audience interaction. <br> -Can specify producers and presenters, including external presenters.<br>-Supports more advanced production capabilities. | No |
 ||||
 
-*The usual 10,000 is increased to 20,000 through December 31, 2021.<br>
+*For Meetings where more than 1,000 attendees unintentionally join, attendees will join in a View Only Experience ([View-only](view-only-meeting-experience.md)) and up to 20,000 such attendees may join. For meetings where you do intent to have over 1,000 users, we recommend using Teams Live Events. <br>
 
 **The usual 10,000 is increased to 20,000 through December 31, 2021. You can schedule even greater numbers with live events in Yammer and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365). Note that events over 20,000 attendees require the [Live Events Assistance Program](/stream/live-events-assistance). 
 
 **Considerations for large meetings, webinars, and live events** - When hosting large meetings, consider the following:
+
+- For meetings where you anticipate more than 1,000 participants, use Teams Live Events. 
 
 - For the best experience in large meetings, webinars, and live events, Microsoft recommends using the latest version of the Teams desktop client or Teams mobile clients. 
 
@@ -67,7 +69,7 @@ Note that NDI is fully supported in meetings, webinars, and live events, allowin
 
 ### Meetings
 
-**Meetings** in Teams include audio, video, and screen sharing for up to 1,000 people and [view-only capabilities](view-only-meeting-experience.md) for participants over 1,000. Participants don't need to be a member of an organization (or have a Teams account) to join a Teams meeting. They can join directly from the calendar invitation via the Join meeting link or call in via audio if available.  
+**Meetings** in Teams include audio, video, and screen sharing for up to 1,000 people. A [view-only experience](view-only-meeting-experience.md) for participants can be enabled for participants over 1,000 if you are uncertain if more than 1,000 participants may join. Participants don't need to be a member of an organization (or have a Teams account) to join a Teams meeting. They can join directly from the calendar invitation via the Join meeting link or call in via audio if available.  
 
 As the administrator, you'll configure meeting settings and control which meeting features are enabled for your organization by specifying meeting policies.  
 
