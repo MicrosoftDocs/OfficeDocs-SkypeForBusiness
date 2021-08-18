@@ -40,7 +40,7 @@ Teams panels is adding support for [Teams apps/Line of Business (LOB) apps](/mic
 
 ## Set up and manage Teams panels apps in Teams admin center 
 
-Microsoft Teams apps bring key information, common tools, and trusted processes to where people gather, learn, and work. Teams apps work [through integrated capabilities](/msteams-docs/msteams-platform/concepts/capabilities-overview). Now, as an IT administrator, you have the choice of which apps to include in your organization’s Teams panels device and customize permissions via the [Teams admin center](https://admin.teams.microsoft.com/).
+Microsoft Teams apps bring key information, common tools, and trusted processes to where people gather, learn, and work. Teams apps work [through integrated capabilities](/microsoftteams/platform/concepts/capabilities-overview). Now, as an IT administrator, you have the choice of which apps to include in your organization’s Teams panels device and customize permissions via the [Teams admin center](https://admin.teams.microsoft.com/).
 
 You can now use the Teams apps on Teams panels and customize the user experience based on your organization’s needs. You can decide which web app your users can access and use and prioritize the app views. Some options, like the bot and messaging capabilities, are not supported at this time. Learn more about [the Teams apps](/microsoftteams/platform/overview) and [how to manage your devices in Microsoft Teams](/microsoftteams/devices/device-management).
 
