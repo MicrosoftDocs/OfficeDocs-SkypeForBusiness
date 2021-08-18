@@ -15,7 +15,7 @@ description: "How to test topology rights in Skype for Business Server"
 
 # Testing admin topology rights in Skype for Business Server
 
-| | |
+|&nbsp; |&nbsp; |
 |--|--|
 |Verification schedule|After initial Skype for Business Server deployment. As needed if permission-related issues arise.|
 |Testing tool|Windows PowerShell|

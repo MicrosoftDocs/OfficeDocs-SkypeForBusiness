@@ -1,6 +1,6 @@
 ---
 title: "Skype for Business certification program - Network Pre-Assessment"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -18,15 +18,15 @@ f1.keywords:
 ms.custom:
 - Skype for Business Certification
 - dn947964
-description: "Skype for Business Network Pre-Assessment tools help customers determine if their network meets  connectivity and performance requirements to handle Skype for Business media traffic."
+description: "Skype for Business Network Pre-Assessment tools helps customers determine if their network meets connectivity and performance requirements to handle Skype for Business media traffic."
 ---
 
 # Network Pre-Assessment
 Network Pre-Assessment tools allow a customer to determine if their network meets the connectivity and performance requirements to handle Skype for Business media traffic.
 
-For an on-premises deployment readiness assessment, the tool assesses the performance of the customer’s Local Area Network and Wide Area Network against user defined thresholds for quality of experience.
+For an on-premises deployment readiness assessment, the tool assesses the performance of the customer’s Local Area Network and Wide Area Network against user-defined thresholds for quality of experience.
 
-For an online service network readiness assessment, the tool assesses the performance of the network connection between the customer’s site and the Microsoft Network Edge sites or between the customer’s site and the Microsoft Azure cloud. The tools assess against the network performance targets as defined in [Media Quality and Network Connectivity Performance in Skype for Business Online](https://support.office.com/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917).
+For an online service network readiness assessment, the tool assesses the performance of the network connection between the customer’s site and the Microsoft Network Edge sites. Or between the customer’s site and the Microsoft Azure cloud. The tools assess against the network performance targets as defined in [Media Quality and Network Connectivity Performance in Skype for Business Online](https://support.office.com/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917).
 
 <table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" width="617" xmlns="http://www.w3.org/1999/xhtml">
 	<colgroup>
@@ -75,6 +75,6 @@ For an online service network readiness assessment, the tool assesses the perfor
 	</tbody>
 </table>
 
-If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
+If you're a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 
 
