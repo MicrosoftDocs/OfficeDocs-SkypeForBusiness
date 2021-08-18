@@ -287,7 +287,7 @@ Customers have provided overwhelming feedback that they want more controls to re
   
 We believe nearly all customers will benefit from the reduced storage load on their tenant by removing recordings that will likely never be rewatched after 60 days. It is our goal to provide as clean an experience as possible for all customers by default. 
   
-**Will it be automatically deleted after 30 days even if the data is accessed or downloaded?**
+**Will it be automatically deleted even if the data is accessed or downloaded?**
   
 Accessing the file does not change the expiration date. 
   
