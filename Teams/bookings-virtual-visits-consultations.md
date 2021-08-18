@@ -21,7 +21,7 @@ description: Learn how to use the Bookings app in Teams for virtual visits and c
 
 ## Overview
 
-The [Bookings app](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) in Microsoft Teams gives you a simple way to schedule and manage virtual appointments for your staff and attendees. Use it to schedule and conduct virtual appointments such as healthcare visits, financial consultations, interviews, customer support, shopping experiences, education office hours, and much more.
+The [Bookings app](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) in Microsoft Teams gives you a simple way to schedule and manage virtual appointments for your staff and attendees. Use it to schedule and conduct virtual appointments such as healthcare visits, financial consultations, interviews, customer support, shopping experiences, education office hours, and more.
 
 The Bookings app makes it easy to manage complex scheduling demands of any organization. Schedulers can manage multiple department and staff calendars, as well as communications with internal and external attendees, from a single experience.
 
