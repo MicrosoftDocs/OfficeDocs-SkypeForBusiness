@@ -278,6 +278,8 @@ Support for notifications is enabled using the Teams client experiences. The exp
 - Audio conferencing
 - PSTN callers
 
+[!NOTE] Compliance Recording is not supported with Conference mode call queues. Please use Transfer mode call queues.
+
 ## Compliance recording for Teams certification programs
 
 In addition to publishing publicly available APIs allowing partners to develop and integrate CCaaS solutions with Teams, we have developed the compliance recording for Microsoft Teams certification program to provide customers with the assurance that each participating partner’s solution has been tested and verified to provide the quality, compatibility and reliability they expect from Microsoft solutions.  
