@@ -493,14 +493,14 @@ The following are known issues and limitations for calling and meetings:
 - Incoming and outgoing video stream resolution is limited to 720p resolution.
 - Only one video stream from an incoming camera or screen share stream is supported. When there's an incoming screen share, that screen share is shown, instead of the video of the dominant speaker.
 - Teams doesn't switch to use the last audio device that a user selected, if the device is disconnected, and then reconnected.
+- Live events are not optimized.
 - Outgoing screen sharing:
     - Application sharing is not supported.
 - Give control and take control:
     - Not supported during a screen sharing or application sharing session.
     - Supported during a PowerPoint sharing session.
 - Citrix-only limitations
-    - When screen sharing in a multi-monitor setup, only the main monitor is shared.
-    - High DPI scaling on CWA is not supported.
+   - High DPI scaling on CWA is not supported.
 
 For Teams known issues that aren't related to VDI, see [Support Teams in your organization](/MicrosoftTeams/troubleshoot/teams-welcome).
 

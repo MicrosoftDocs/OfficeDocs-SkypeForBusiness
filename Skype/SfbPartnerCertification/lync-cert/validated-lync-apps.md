@@ -117,7 +117,7 @@ Handle Lync calls with a single click.
 
 ## [MachPanel Lync Module from Machsol](http://www.machsol.com/products/lync/default.aspx)
 * * *
-Streamline cloud hosting of Lync along with Exchange, Sharepoint, CRM, BlackBerry, Hyper V, and Web Hosting with this control panel.
+Streamline cloud hosting of Lync along with Exchange, SharePoint, CRM, BlackBerry, Hyper V, and Web Hosting with this control panel.
 
 ## [Modality Systems Wallboard](http://www.modalitydev.net/2013/01/modality-wallboard-demo-video/)
 * * *
