@@ -212,7 +212,7 @@ To add a resource account, select **Add account** and search for the account tha
 
 When you have finished adding resource accounts, select **Submit** to complete auto attendant configuration.
 
-(See [Manage Teams resource accounts](/Teams/manage-resource-accounts) for more information.)
+See [Manage Teams resource accounts](/Teams/manage-resource-accounts) for more information.
 
 ## External phone number transfers - technical details
 
