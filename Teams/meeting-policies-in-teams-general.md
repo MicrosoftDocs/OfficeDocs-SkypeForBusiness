@@ -33,7 +33,9 @@ This article describes the following general policy settings for Teams meetings:
 - [Allow scheduling private meetings](#allow-scheduling-private-meetings)
 - [Allow Meet now in private meetings](#allow-meet-now-in-private-meetings)
 - [Designated presenter role mode](#designated-presenter-role-mode)
-- [Meeting attendance report](#meeting-attendance-report)
+- [Allow engagement report](#allow-engagement-report)
+- [Allow meeting registration](#allow-meeting-registration)
+- [Who can register](#who-can-register)
 - [Meeting provider for Islands mode](#meeting-provider-for-islands-mode)
 
 ## Allow Meet now in channels
@@ -113,15 +115,44 @@ To specify the default value of the **Who can present?** setting in Teams, set t
 
 Keep in mind that after you set the default value, meeting organizers can still change this setting in Teams and choose who can present in the meetings that they schedule.
 
-## Meeting attendance report
+## Allow engagement report
 
 This is a per-user policy. This setting controls whether meeting organizers can download the [meeting attendance report](teams-analytics-and-reports/meeting-attendance-report.md).
 
-Currently, you can only use PowerShell to configure this policy setting. You can edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
+This policy is off by default and allows your organizers to see who registered and attended the meetings and webinars they set up. To turn this on in the Teams admin center, go to **Meetings** > **Meeting policies**, and set the policy to **Enabled**.
 
-To enable a meeting organizer to download the meeting attendance report, set the **AllowEngagementReport** parameter to **Enabled**. When enabled, the option to download the report is displayed in the **Participants** pane. By default, this setting is enabled.
+You can edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
+
+To enable a meeting organizer to download the meeting attendance report, set the **AllowEngagementReport** parameter to **Enabled**. When enabled, the option to download the report is displayed in the **Participants** pane. By default, this setting is not enabled.
 
 To prevent a meeting organizer from downloading the report, set the parameter to **Disabled**.
+
+## Allow meeting registration
+
+This is a per-user policy. If you turn this on, users in your organization can set up webinars. This policy is enabled by default.
+
+To edit this policy in the Teams admin center, go to **Meetings** > **Meeting policies**. To turn off meeting registration, set the policy to **Off**.
+
+You can edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
+
+To turn on meeting registration, set the  **AllowMeetingRegistration** parameter to **True**. This is set to **True** by default.
+
+To turn off meeting registration and prevent users from scheduling webinars, set the parameter to **False**.
+
+## Who can register
+
+This policy controls which users can register and attend webinars. This policy has two options, which are only available if **Allow meeting registration** is turned on.
+
+- Set **Who can register** to **Everyone** if you want to allow everyone, including anonymous users, to register and attend webinars that users in your organization set up.
+- Set **Who can register** to **Everyone in the organization** if you want to allow only the users in your organization to register and attend webinars.
+
+By default, **Who can register** is set to **Everyone**. To edit this policy in the Teams admin center, go to **Meetings** > **Meeting policies**.
+
+You can edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
+
+To allow everyone, including anonymous users, to register and attend webinars, set the **WhoCanRegister** parameter to **Everyone**. This is set to **Everyone** by default.
+
+To allow only users in your organization to register and attend webinars, set the parameter to **EveryoneInCompany**.
 
 ## Meeting provider for Islands mode
 

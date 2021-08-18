@@ -43,7 +43,7 @@ The time needed to fully upgrade to Teams will vary based upon the unique charac
 
 Teams is available in most Microsoft 365 Business and Enterprise plans, and your existing licensing investments carry forward to Teams. Capabilities that are premium workloads in Skype for Business Online today will continue to be premium workloads in Teams. For example, if you have purchased Audio Conferencing standalone or as part of E5 with Skype for Business, Audio Conferencing will be enabled in Teams.
 
-The Skype consumer service and Skype for Business Server are not affected by the retirement of Skype for Business Online.
+The Skype consumer service and Skype for Business Server are not affected by the retirement of Skype for Business Online. Customers with hybrid deployments of Skype for Business Server or Lync Server 2013 should review [Implications of the upcoming retirement of Skype for Business Online](/skypeforbusiness/hybrid/plan-hybrid-connectivity#implications-of-the-upcoming-retirement-of-skype-for-business-online).
 
 ## How Microsoft is helping customers upgrade to Teams
 
@@ -79,9 +79,8 @@ For more information, see [Assisted Upgrades from Skype for Business Online to M
 
 ## What organizations with hybrid configurations (Skype for Business Online and on-premises Skype for Business Server) can expect when Skype for Business Online retires
 
-Hybrid customers with online and on-premises configurations will be required to upgrade online users from Skype for Business Online to Microsoft Teams by the July 31, 2021 retirement date.
-Microsoft will provide assisted upgrades to help upgrade remaining Skype for Business Online users to Teams Only mode after the retirement date.
+Hybrid customers with online and on-premises configurations will be required to upgrade online users from Skype for Business Online to Microsoft Teams by the July 31, 2021 retirement date. Microsoft will provide assisted upgrades to help upgrade remaining Skype for Business Online users to Teams Only mode after the retirement date.
 
 Organizations with a hybrid configuration can continue to use Skype for Business and Teams side-by-side until they're ready to move to Teams Only mode. After the Skype for Business Online retirement date, when a Skype for Business Server user is moved to the cloud, that user will be in Teams Only mode.
 
-For more information, see [Coexistence with Skype for Business](coexistence-chat-calls-presence.md) and [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+For more information, see [Implications of the upcoming retirement of Skype for Business Online](/skypeforbusiness/hybrid/plan-hybrid-connectivity#implications-of-the-upcoming-retirement-of-skype-for-business-online).
