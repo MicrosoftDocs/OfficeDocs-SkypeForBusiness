@@ -21,10 +21,7 @@ appliesto:
 # Teams view-only meeting experience
 
 > [!Note]
-> View-only broadcasts is available in Microsoft 365 E3/E5 and Microsoft 365 A3/A5. This feature will be enabled March 1, 2021 as default OFF. The feature in Microsoft 365 Government Community Cloud (GCC) will begin to roll out at the end of March 2021. Government Community Cloud High (GCCH) and Department of Defense (DoD) will roll out at a later date. You must change the default policy after that date if you want to have the feature be default ON. Use PowerShell to enable the policy `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled`.
-
-> [!Note]
-> If your meeting hits capacity, Teams will seamlessly scale to accommodate a 10,000-person view-only broadcast experience. Plus, during this time of increased remote work, take advantage of even larger 20,000-person broadcasts through the end of this year. Webinars currently don't support a view-only broadcast experience.
+> To get the most out of the View-Only Experience, we recommend using this product if you are unsure if your meeting will surpass 1,000 users and want a safeguard in case your meeting scales above 1,000. If you plan to host events with over 1,000 users, we recommend using Teams Live Events. 
 
 Microsoft Teams allows up to 10,000 attendees to join a Teams meeting. After the capacity of the main meeting has been reached (which is when 1000 users enter a meeting), additional attendees will join with a view-only experience.
 
@@ -33,6 +30,9 @@ Attendees who join the meeting first, up to the capacity of the main meeting, wi
 Attendees who join after the main meeting capacity has been reached will have a view-only experience.
 
 Attendees will be able to join the view-only experience through desktop, web, and Teams mobile (Android and iOS).
+
+> [!Note]
+> View-only broadcasts is available in Microsoft 365 E3/E5 and Microsoft 365 A3/A5. This feature will be enabled March 1, 2021 as default OFF. The feature in Microsoft 365 Government Community Cloud (GCC) will begin to roll out at the end of March 2021. Government Community Cloud High (GCCH) and Department of Defense (DoD) will roll out at a later date. You must change the default policy after that date if you want to have the feature be default ON. Use PowerShell to enable the policy `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled`.
 
 > [!Note]
 > The current limit capacity of the "main meeting", or in other words, the number of fully interactive users, is 1000 and includes GCC and webinars.
