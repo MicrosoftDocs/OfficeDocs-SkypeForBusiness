@@ -40,7 +40,7 @@ This article gives you an overview of how to use the Bookings app in Teams to de
 
 If you’re an admin, see [Manage the Bookings app in Teams](bookings-app-admin.md) to learn about the prerequisites for using the Bookings app in Teams, how to control access to Bookings in your organization, and recommended policy and admin settings.
 
-Remember that only schedulers in your organization need to have the Bookings app installed in Teams. Staff who conduct or participate in virtual appointments don't need the app. They join appointments from their Outlook or Teams calendar or by using the link in their booking confirmation email.
+Remember that only schedulers in your organization need to have the Bookings app installed in Teams. Staff who conduct or participate in virtual appointments don't need the app. They join appointments from their Teams or Outlook calendar or by using the meeting link in their booking confirmation email.
 
 ## Set up a new booking calendar
 
@@ -56,17 +56,17 @@ To learn more, see [Create a Bookings calendar](https://support.microsoft.com//o
 
 ### Add staff
 
-In the booking calendar, go to **More options** > **Settings**, and then select **Staff**. Add staff members and assign a role to each person you add.
+In the booking calendar, go to **More options** (...) > **Settings**, and then select **Staff**. Add staff members and assign a role to each person you add.
 
-The Bookings app syncs with Outlook. After you add staff, you’ll be able to view that person’s calendar availability and schedule bookings for them. To learn more, see [Add staff and view a Bookings calendar](https://support.microsoft.com/office/add-staff-and-view-a-bookings-calendar-6c579f61-8adb-4514-9458-021de2023fa0).  
+The Bookings app integrates with Outlook. After you add staff, you’ll be able to view that person’s calendar availability and schedule bookings for them. To learn more, see [Add staff and view a Bookings calendar](https://support.microsoft.com/office/add-staff-and-view-a-bookings-calendar-6c579f61-8adb-4514-9458-021de2023fa0).  
 
 ### Create appointment types
 
-Create appointment types to represent the services offered by your organization and to tailor the booking experience.
+Create specific appointment types to represent the services offered by your organization and to tailor the booking experience.
 
-In the booking calendar, go to **More options** > **Settings** > **Appointment types**, and then select **New appointment type**. Enter a name&mdash;for example, Account opening, Loan consultation, Tax preparation&mdash;and any other information and settings you want.
+In the booking calendar, go to **More options** (...) > **Appointment types**, and then select **New appointment type**. Enter a name&mdash;for example, Account opening, Loan consultation, Tax preparation&mdash;and any other information and settings you want.
 
-The information and links that you add are included in the email sent to customers every time this type of appointment is booked. You can even set email reminders and whether customers can join from a mobile browser, without having to download Teams. To learn more, see [Create an appointment type](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887).
+The information and links that you add are included in the email conformation that's sent to customers every time this type of appointment is booked. You can even set email reminders and other options such as whether customers can join from a mobile browser without having to download Teams. To learn more, see [Create an appointment type](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887).
 
 ## Schedule a virtual consultation
 
