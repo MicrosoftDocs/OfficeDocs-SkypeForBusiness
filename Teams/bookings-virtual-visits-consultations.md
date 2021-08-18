@@ -21,21 +21,21 @@ description: Learn how to use the Bookings app in Teams for virtual visits and c
 
 ## Overview
 
-The [Bookings app](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) in Microsoft Teams offers a simple way to schedule and manage virtual appointments, such as healthcare visits, financial consultations, interviews, customer support, education office hours, and much more.
+The [Bookings app](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) in Microsoft Teams gives you a simple way to schedule and manage virtual appointments for your staff and attendees. Use it to schedule and conduct virtual appointments such as healthcare visits, financial consultations, interviews, customer support, shopping experiences, education office hours, and much more.
 
-The Bookings app makes it easy to manage complex scheduling demands across your organization. Schedulers can manage multiple department and staff calendars, as well as communications with internal and external attendees, from a single experience.
+The Bookings app makes it easy to manage complex scheduling demands of any organization. Schedulers can manage multiple department and staff calendars, as well as communications with internal and external attendees, from a single experience.
 
-Virtual consultations are held through Microsoft Teams meetings, which offers robust videoconferencing capabilities. For example, a doctor can share their screen and review test results with a patient. Or, a banking advisor can request electronic signatures on documents, allowing them to close transactions remotely.
+Virtual visits and consultations are held through Microsoft Teams meetings, which offers robust video conferencing capabilities. For example, a doctor can share their screen and review test results with a patient. Or, a banking advisor can request electronic signatures on documents, allowing them to close transactions remotely.
 
-Each virtual appointment includes a Teams meeting link that’s sent to attendees in email where they can easily join from a web browser or in Teams on any device. Automated email reminders help reduce no-shows and enhance customer engagement.
+Each virtual appointment includes a Teams meeting link that’s sent to attendees in email where they can easily join from a web browser or in Teams on any device. Automated email reminders help reduce no-shows and enhance client and customer engagement.
 
-Here's some examples of how you can use the Bookings app in your organization:
+With Bookings, you get an experience that's tailored to your industry. Here's some examples of how you can use it in your organization:
 
 |Industry  ||
 |---------|---------|
-|Financial services    |  Virtual consultations for remote sales and service<br/>Enable bank relationship managers, financial advisors, and claims adjusters, just to name a few, to serve your customers with increased efficiency and convenience.  |
-|Healthcare   |  Virtual visits for patient care <br/> Enable your care team members to conduct virtual visits with patients.   |         |
-|Retail   | Virtual shopping  <br/>Enable your product experts and design consultants to conduct virtual shopping experiences with customers.   |         |
+|Financial services    |  Virtual consultations for remote sales and service<br/>Enable relationship managers, financial advisors, and claims adjusters, just to name a few, to serve your customers with increased efficiency and convenience.  |
+|Healthcare   |  Virtual visits for patient care <br/> Enable care team members to conduct virtual visits with patients.   |         |
+|Retail   | Virtual shopping  <br/>Enable sales associates, product experts, and design consultants to conduct virtual shopping experiences with customers.   |         |
 
 > [!SCOPE_QUESTION]
 >Find out whether to include Microsoft Booking setup tasks that aren't supported in the Bookings apps in Teams. For example, self-serve online booking page for customers, logo, service details such as price, buffer times, custom fields, scheduling policies, etc) that aren't supported in the Bookings app in Teams?
@@ -44,13 +44,11 @@ Here's some examples of how you can use the Bookings app in your organization:
 
 This article gives you an overview of how to use the Bookings app in Teams to schedule and manage virtual visits and consultations.
 
-
-
 ## Before you get started
 
 If you’re an admin, see [Manage the Bookings app in Teams](bookings-app-admin.md) to learn about the prerequisites for using the Bookings app in Teams, how to control access to Bookings in your organization, and recommended policy and admin settings.
 
-Remember that only schedulers in your organization need to have the Bookings app installed in Teams. Staff who conduct or participate in virtual appointments don't need the app. They join appointments from their Outlook or Teams calendar or by using the link in their booking confirmation email.
+Remember that only schedulers in your organization need to have the Bookings app installed in Teams. Staff who conduct or participate in virtual appointments don't need the app. They join appointments from their Teams or Outlook calendar or by using the meeting link in their booking confirmation email.
 
 ## Set up a new booking calendar
 
