@@ -200,6 +200,8 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 |  |        |Allow the Outlook add-in         |Off       |On|
 |  |        |Allow channel meeting scheduling        |Off      |On|
 |  |        |Allow scheduling private meetings       |Off      |On|
+|  |        |Allow meeting registration              |On       |On|
+|  |        |Who can register    |Everyone in the organization      |Everyone in the organization|
 |  |Audio & video        |Allow transcription        |On       |On|
 |  |        |Allow cloud recording         |Off      |On|
 |  |        |Mode for IP audio       |Outgoing and incoming audio enabled        |Outgoing and incoming audio enabled|
@@ -268,6 +270,8 @@ Here's a list of the custom policy definitions assigned to the educators and sta
 |  |        |Allow the Outlook add-in         |On       |On|
 |  |        |Allow channel meeting scheduling        |On      |On|
 |  |        |Allow scheduling private meetings       |On      |On|
+|  |        |Allow meeting registration              |On       |On|
+|  |        |Who can register    |Everyone in the organization      |Everyone in the organization|
 |  |Audio & video        |Allow transcription        |On       |On|
 |  |        |Allow cloud recording         |On      |On|
 |  |        |Mode for IP audio       |Outgoing and incoming audio enabled        |Outgoing and incoming audio enabled|
