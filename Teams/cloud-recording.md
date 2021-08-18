@@ -258,7 +258,7 @@ The size of a 1-hour recording is 400 MB. Make sure you understand the capacity 
 > 
 > We are providing information about how this feature will work in the FUTURE, so that you are able to plan for this change and modify the Teams policy settings in advance. 
 >
-> The CMD to preemptively change the MeetingExpirationDays setting in Teams is not yet available. It will be available for all tenants to set by September 1, before the expiration feature is enabled.
+> The CMD to preemptively change the MeetingExpirationDays setting in Teams is not yet available to be set.  We will publish an updated message center post when the setting is available for modification.
 >
 > You can use PowerShell to modify “MeetingRecordingExpirationDays.” This can be done after September 1, once the setting is present in PowerShell, even though the feature is not yet enabled. An example command is: "Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays 50.”
 >
@@ -305,7 +305,7 @@ Yes, the expiration date is set per file. Users can modify the expiration date i
 
 **How can an Admin change the expiration date?**
   
-Admins can change the default expiration setting in PowerShell today. When the feature launches, Admins can change this setting in the Teams admin center. Changing expiration settings will impact only newly created TMRs from that point forward. It will not impact any recordings made prior to that date. 
+Admins will be able to change the default expiration setting in PowerShell or the Teams Admin Center before the feature is released. The setting is not yet available for modification. We will publish an updated message center post when the setting is available for modification. When the feature launches, Admins can change this setting in the Teams admin center. Changing expiration settings will impact only newly created TMRs from that point forward. It will not impact any recordings made prior to that date. 
 
 The maximum expiration days setting an Admin can apply is 99,999 days, or 273 years. Admins cannot change the expiration date on existing TMRs already uploaded to OneDrive or SharePoint before this feature was released. This protects the intent of the user that owns the TMR. 
   
