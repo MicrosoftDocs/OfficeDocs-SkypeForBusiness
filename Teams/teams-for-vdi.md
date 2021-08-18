@@ -27,7 +27,7 @@ This article describes the requirements and limitations for using Microsoft Team
 
 Virtual Desktop Infrastructure (VDI) is virtualization technology that hosts a desktop operating system and applications on a centralized server in a data center. This enables a fully personalized desktop experience to users with a fully secured and compliant centralized source.
 
-Microsoft Teams in a virtualized environment supports chat and collaboration. And with the Windows Virtual Desktop, Citrix, and VMware platforms, calling and meeting functionality is also supported.
+Microsoft Teams in a virtualized environment supports chat and collaboration. And with the Azure Virtual Desktop, Citrix, and VMware platforms, calling and meeting functionality is also supported.
 
 Teams in a virtualized environment supports multiple configurations. These include VDI, dedicated, shared, persistent, and non-persistent modes. Features are in continuous development and are added on a regular basis, and functionality will expand in the coming months and years.
 
@@ -53,7 +53,7 @@ Using Teams in a virtualized environment requires the following components.
 
 The Teams desktop app was validated with leading virtualization solution providers. With multiple market providers, we recommend that you consult your virtualization solution provider to ensure that you meet the minimum requirements.
   
-Currently, Teams on VDI with audio/video (AV) optimization is certified with Windows Virtual Desktop, Citrix, and VMware. Review the information in this section to ensure that you meet all requirements for proper functionality.
+Currently, Teams on VDI with audio/video (AV) optimization is certified with Azure Virtual Desktop, Citrix, and VMware. Review the information in this section to ensure that you meet all requirements for proper functionality.
 
 ### Platforms certified for Teams
 
@@ -61,13 +61,13 @@ The following platforms have virtual desktop infrastructure solutions for Teams.
 
 |Platform|Solution|
 |----|---|
-|![The logo representing Microsoft](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Windows Virtual Desktop</a> |
+|![The logo representing Microsoft](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Azure Virtual Desktop</a> |
 |![The logo representing Citrix](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix Virtual Apps and Desktops</a> |
 |![The logo representing VMware](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
 
-### Windows Virtual Desktop
+### Azure Virtual Desktop
 
-Windows Virtual Desktop provides AV optimization for Teams on VDI. To learn more and requirements and installation, see [Use Teams on Windows Virtual Desktop](/azure/virtual-desktop/teams-on-wvd).
+Azure Virtual Desktop provides AV optimization for Teams on VDI. To learn more and requirements and installation, see [Use Teams on Azure Virtual Desktop](/azure/virtual-desktop/teams-on-wvd).
 
 ### Citrix Virtual Apps and Desktops requirements
 
@@ -465,7 +465,8 @@ if($cleanup){
 - With per-machine installation, Teams on VDI isn't automatically updated in the way that non-VDI Teams clients are. You have to update the VM image by installing a new MSI as described in the [Install or update the Teams desktop app on VDI](#install-or-update-the-teams-desktop-app-on-vdi) section. You must uninstall the current version to update to a newer version.
 - In Citrix environments, if the user disconnects from the Virtual Machine while Teams is running, Teams updates can result in the user to be in a non-optimized state for AV when they reconnect. We recommend that users quit Teams before they disconnect from Citrix Virtual Machine to avoid this scenario.
 - Teams should be deployed either per user or per machine. Deployment of Teams for concurrent per user and per machine is not supported. To migrate from either per machine or per user to one of these modes, follow the uninstall procedure and redeploy to either mode.
-- Windows Virtual Desktop doesn't support macOS and Linux-based clients at this time.
+- Azure Virtual Desktop doesn't support macOS and Linux-based clients at this time.
+- Fast tenant switch can result in calling-related issues on VDI. Restarting the client will mitigate these issues.
 
 ### Calling and meetings
 
@@ -492,14 +493,14 @@ The following are known issues and limitations for calling and meetings:
 - Incoming and outgoing video stream resolution is limited to 720p resolution.
 - Only one video stream from an incoming camera or screen share stream is supported. When there's an incoming screen share, that screen share is shown, instead of the video of the dominant speaker.
 - Teams doesn't switch to use the last audio device that a user selected, if the device is disconnected, and then reconnected.
+- Live events are not optimized.
 - Outgoing screen sharing:
     - Application sharing is not supported.
 - Give control and take control:
     - Not supported during a screen sharing or application sharing session.
     - Supported during a PowerPoint sharing session.
 - Citrix-only limitations
-    - When screen sharing in a multi-monitor setup, only the main monitor is shared.
-    - High DPI scaling on CWA is not supported.
+   - High DPI scaling on CWA is not supported.
 
 For Teams known issues that aren't related to VDI, see [Support Teams in your organization](/MicrosoftTeams/troubleshoot/teams-welcome).
 
@@ -519,4 +520,4 @@ Then, restart VDA. To learn more, see this Citrix support article, [Troubleshoot
 
 - [Install Microsoft Teams using MSI](msi-deployment.md)
 - [Teams PowerShell overview](teams-powershell-overview.md)
-- [Use Microsoft Teams on Windows Virtual desktop](/azure/virtual-desktop/teams-on-wvd)
+- [Use Microsoft Teams on Azure Virtual desktop](/azure/virtual-desktop/teams-on-wvd)

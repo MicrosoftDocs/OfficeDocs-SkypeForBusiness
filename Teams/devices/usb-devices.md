@@ -69,10 +69,12 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 ## Certified devices
 
-*Table Updated July 2021*
+*Table Updated August 2021*
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Poly                 |Voyager 4320                                               |8/6/2021        |Certified for Microsoft Teams                           |
+|Poly                 |Voyager 4310                                               |8/6/2021        |Certified for Microsoft Teams                           |
 |EPOS/Sennheiser      |ADAPT 160T ANC                                             |6/24/2021       |Certified for Microsoft Teams                           |
 |Dell                 |Ultrasharp Webcam WB7022                                   |6/16/2021       |Certified for Microsoft Teams                           |
 |NEC                  |WD551 Windows Collaboration Display                        |5/21/2021       |Certified for Microsoft Teams                           |

@@ -4,6 +4,7 @@ description: Learn about the admin resources available for you to manage Teams f
 author: cichur
 ms.author: v-cichur
 manager: serdars
+ms.topic: article
 audience: admin
 f1.keywords:
 - NOCSH
@@ -22,7 +23,7 @@ ms.custom: seo-marvel-apr2020
 
 Teams gives health teams and healthcare professionals a secure way to communicate, coordinate patient care, and improve operational efficiencies. Here you'll find the admin resources you need to manage Teams for healthcare teams in your organization.
 
-|               |               |
+|    &nbsp;           |         &nbsp;      |
 | ------------- | ------------- |
 | ![Screenshot of hand with a finger pointing at an arrow icon](../media/get-started-teams.svg)  |  [Get started with Teams for Healthcare organizations](./healthcare/teams-in-hc.md) |
 | ![Screenshot of a map icon](../media/walkthrough-map-teams.svg) | [Get started with Teams templates for Healthcare organizations](./healthcare/healthcare-templates-admin-console.md) |

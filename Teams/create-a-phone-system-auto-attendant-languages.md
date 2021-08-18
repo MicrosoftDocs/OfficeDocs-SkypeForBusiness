@@ -11,7 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
   - M365-voice
-  - m365initiative-voice
 audience: Admin
 appliesto: 
   - Skype for Business
@@ -35,7 +34,7 @@ The auto attendant supports the following languages for Text to Speech (TTS) and
 |Chinese (Traditional, Hong Kong)        |Y	                       |                                       |
 |Chinese (Traditional, Taiwan)           |Y                        |                                       |	
 |Croatian (Croatia)                      |Y                        |                                       |	
-|Czech (Czeck Republic)                  |Y                        |                                       |	
+|Czech (Czech Republic)                  |Y                        |                                       |	
 |Danish (Denmark)                        |Y                        |                                       |	
 |Dutch (Netherlands)                     |Y                        |                                       |	
 |English (Australia)                     |Y                        |Y                                      |

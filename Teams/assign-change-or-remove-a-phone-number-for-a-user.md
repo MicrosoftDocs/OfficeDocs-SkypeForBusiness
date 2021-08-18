@@ -46,10 +46,10 @@ To learn how to get Calling Plans in Teams and how much they cost, see [Teams ad
 5. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this is on. 
 6. Click **Save**.
 
-For a PowerShell example, see [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps).
+For a PowerShell example, see [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser).
 
-    > [!NOTE]
-    > Because of the latency between Microsoft 365 or Office 365 and Teams, it can take up to 24 hours for users to be enabled. If the phone number isn't assigned correctly after 24 hours, [contact support for business products - Admin Help](/microsoft-365/admin/contact-support-for-business-products). We're here to help!
+> [!NOTE]
+> Because of the latency between Microsoft 365 or Office 365 and Teams, it can take up to 24 hours for users to be enabled. If the phone number isn't assigned correctly after 24 hours, [contact support for business products - Admin Help](/microsoft-365/admin/contact-support-for-business-products). We're here to help!
 
   
 ## Change a phone number for a user
@@ -66,7 +66,7 @@ For a PowerShell example, see [Set-CsOnlineVoiceUser](/powershell/module/skype/s
 8. To assign or change the associated emergency location, under **Emergency location**, search for and then select the location.
 9. Click **Save**.
 
-For a PowerShell example, please see [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps).
+For a PowerShell example, please see [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser).
 
 ## Remove a phone number from a user
  
@@ -78,7 +78,7 @@ For a PowerShell example, please see [Set-CsOnlineVoiceUser](/powershell/module/
 4. In the **Edit** pane, under **Assigned to**, click the **X** to remove the user.
 5. Click **Save**.
 
-For a PowerShell example, please see [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps).
+For a PowerShell example, please see [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser).
 
 ## Related topics
 
@@ -90,6 +90,6 @@ For a PowerShell example, please see [Set-CsOnlineVoiceUser](/powershell/module/
 
 [Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
-[Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
+[Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)
 
 [Calling Plans for Microsoft 365](./calling-plans-for-office-365.md)
