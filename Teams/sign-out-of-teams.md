@@ -29,20 +29,20 @@ Modern operating systems allow sharing of accounts between different apps on a d
 
 SSO has an important impact on sign-out. When users sign out of Teams, the data associated with their account is removed from the Teams app, but other apps on the device continue to have access to their account. It also means that users might not be prompted to re-enter their credentials if they choose to sign back in to Teams with the same account.
 
-## Sign out of Teams after completing modern authentication
+## Sign out of Teams on desktop
 
-To sign out of Teams desktop client or from the browser, users can select their profile picture at the top of the app, and then select **Sign out**.
+To sign out of the Teams desktop client or from the browser, select your profile picture at the top of the app, and then select **Sign out**.
 
 For the desktop app, right-click the app icon in the taskbar, and then select **Log out**.
 
 If you have multiple accounts added, you'll need to sign out of your individual accounts. Once you've signed out of the accounts in Teams, you'll need to enter your credentials again on the next launch of the app to access your account.
 
-## Sign out of mobile devices
+## Sign out of Teams on mobile devices
 
-Mobile users can sign out of Teams by going to the menu, selecting the **More** menu, and then selecting Sign out. Once signed out, users will need to reenter their credentials the next time they launch the app.
+On mobile, you can sign out of Teams by going to the menu, selecting the **More** menu, and then selecting **Sign out**. Once signed out, you'll need to reenter their credentials the next time you launch the app.
 
 > [!Note]
-> Teams for Android uses SSO to simplify the sign in experience. Users should make sure to log out of all Microsoft apps, in addition to Teams, in order to completely log out on the Android platform.
+> Teams for Android uses SSO to simplify the sign-in experience. Users should make sure to log out of all Microsoft apps, in addition to Teams, in order to completely log out on the Android platform.
 
 ### Global sign in and sign out for Frontline workers
 
