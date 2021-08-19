@@ -278,7 +278,8 @@ Support for notifications is enabled using the Teams client experiences. The exp
 - Audio conferencing
 - PSTN callers
 
-[!NOTE] Compliance Recording is not supported with Conference mode call queues. Please use Transfer mode call queues.
+> [!NOTE]
+> Compliance Recording is not supported with Conference mode call queues. Please use Transfer mode call queues.
 
 ## Compliance recording for Teams certification programs
 
