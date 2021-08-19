@@ -210,7 +210,9 @@ To add a resource account, select **Add account** and search for the account tha
 
 ![Screenshot of resource account list showing resource account with assigned service number](media/auto-attendant-resource-account-assigned.png)
 
-When you have finished adding service accounts, select **Submit** to complete auto attendant configuration.
+When you have finished adding resource accounts, select **Submit** to complete auto attendant configuration.
+
+See [Manage Teams resource accounts](manage-resource-accounts.md) for more information.
 
 ## External phone number transfers - technical details
 

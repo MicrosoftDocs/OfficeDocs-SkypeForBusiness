@@ -91,11 +91,11 @@ You can deploy the Teams desktop app for VDI using a per-machine installation or
 
 For a dedicated persistent setup, either approach would work. However, for a non-persistent setup, Teams requires a per-machine installation in order to work efficiently. See the [Non-persistent setup](#non-persistent-setup) section.
 
-With per-machine installation, automatic updates is disabled. This means that to update the Teams app, you must uninstall the current version to update to a newer version. With per-user installation, automatic updates is enabled. For most VDI deployments, we recommend you deploy Teams using per-machine installation.
+With per-machine installation, automatic updates are disabled. This means that to update the Teams app, you must uninstall the current version to update to a newer version. With per-user installation, automatic updates are enabled. For most VDI deployments, we recommend you deploy Teams using per-machine installation.
 
 To update to the latest Teams version, start with the uninstall procedure followed by latest Teams version deployment.
 
-For Teams AV optimization in VDI environments to work properly, the thin client endpoint must have access to the internet. If internet access isn't available at the thin client endpoint, optimization startup won't be successful. This means that the user is in a non-optimized media state.
+For Teams AV optimization in VDI environments to work properly, the thin-client endpoint must have access to the internet. If internet access isn't available at the thin-client endpoint, optimization startup won't be successful. This means that the user is in a non-optimized media state.
 
 #### Dedicated persistent setup
 
@@ -466,7 +466,7 @@ if($cleanup){
 - In Citrix environments, if the user disconnects from the Virtual Machine while Teams is running, Teams updates can result in the user to be in a non-optimized state for AV when they reconnect. We recommend that users quit Teams before they disconnect from Citrix Virtual Machine to avoid this scenario.
 - Teams should be deployed either per user or per machine. Deployment of Teams for concurrent per user and per machine is not supported. To migrate from either per machine or per user to one of these modes, follow the uninstall procedure and redeploy to either mode.
 - Azure Virtual Desktop doesn't support macOS and Linux-based clients at this time.
-- Fast tenant switch can result in calling-related issues on VDI. Restarting the client will mitigate these issues.
+- Fast tenant switch can result in calling-related issues on VDI such as screen sharing not available, an incorrect participant list displayed etc. Restarting the client will mitigate these issues.
 
 ### Calling and meetings
 
@@ -493,14 +493,14 @@ The following are known issues and limitations for calling and meetings:
 - Incoming and outgoing video stream resolution is limited to 720p resolution.
 - Only one video stream from an incoming camera or screen share stream is supported. When there's an incoming screen share, that screen share is shown, instead of the video of the dominant speaker.
 - Teams doesn't switch to use the last audio device that a user selected, if the device is disconnected, and then reconnected.
+- Live events are not optimized.
 - Outgoing screen sharing:
     - Application sharing is not supported.
 - Give control and take control:
     - Not supported during a screen sharing or application sharing session.
     - Supported during a PowerPoint sharing session.
 - Citrix-only limitations
-    - When screen sharing in a multi-monitor setup, only the main monitor is shared.
-    - High DPI scaling on CWA is not supported.
+   - High DPI scaling on CWA is not supported.
 
 For Teams known issues that aren't related to VDI, see [Support Teams in your organization](/MicrosoftTeams/troubleshoot/teams-welcome).
 
@@ -520,4 +520,4 @@ Then, restart VDA. To learn more, see this Citrix support article, [Troubleshoot
 
 - [Install Microsoft Teams using MSI](msi-deployment.md)
 - [Teams PowerShell overview](teams-powershell-overview.md)
-- [Use Microsoft Teams on Azure Virtual desktop](/azure/virtual-desktop/teams-on-wvd)
+- [Use Microsoft Teams on Azure Virtual Desktop](/azure/virtual-desktop/teams-on-wvd)

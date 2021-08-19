@@ -1,5 +1,5 @@
 ---
-title: Local media optimization for direct touting
+title: Local Media Optimization for Direct Routing
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -18,7 +18,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Local media optimization for direct routing
+# Plan for Local Media Optimization for Direct Routing
 
 Public Switched Telephone Network (PSTN) voice is considered a business-critical application with high expectations for voice quality. Direct Routing lets you control media traffic flows to accommodate a multitude of network topologies and local telephony setups for various enterprises all over the world. 
 
@@ -38,6 +38,8 @@ This article describes feature functionality, and customer scenarios and solutio
 
   > [!NOTE]
   > If you want to keep media local within the boundaries of your intranet, Local Media Optimization is recommended. If you already have Media Bypass and you use only the public IP addresses of your SBCs, it is not mandatory to move to Local Media Optimization. You can continue to use Media Bypass. For more information, see [Plan Media Bypass](direct-routing-plan-media-bypass.md).
+
+For information on which SBC vendors support Local Media Optimization, see [Session Border Controllers Certified for Direct Routing](direct-routing-border-controllers.md).
 
 
 ## Supported customer scenarios
