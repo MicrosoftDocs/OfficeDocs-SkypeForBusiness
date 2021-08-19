@@ -25,23 +25,31 @@ description: "How to sigh up for an IP Relay account for Canada."
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-To get an IP Relay account set up for Canada, please complete the information in the table below and send it in email to [ptn@microsoft.com](mailto:ptn@microsoft.com).
+To get an IP Relay account set up for Canada, please complete the information in noted below and send it in email to [ptn@microsoft.com](mailto:ptn@microsoft.com).
 
-|||
-|:-----|:-----|
-|First & Last Name:||
-|Microsoft 365 or Office 365 Organization Domain Name: <br/>(Example: Contoso.com)||
-|Microsoft 365 or Office 365 User phone number: <br/>Example: +1 XXX XXX XXXX) ||
-|Password (8 to 16 characters): ||
-|Most likely physical address <br/>at the time of an emergency:||
-|Street Number & Name:||
-|Apartment / Suite:||
-|City:||
-|Province / State:||
-|Postal Code / Zip Code:||
-|Phone Number:||
-|Microsoft 365 or Office 365 Email Address:||
-|||
+- First & Last Name:
+
+- Microsoft 365 or Office 365 Organization Domain Name:(Example: Contoso.com)	
+
+- Microsoft 365 or Office 365 User phone number:(Example: +1 XXX XXX XXXX)
+
+- Password (8 to 16 characters):	
+
+- Most likely physical address at the time of an emergency:	
+
+- Street Number & Name:	
+
+- Apartment / Suite:	
+
+- City:	
+
+- Province / State:	
+
+- Postal Code / Zip Code:	
+
+- Phone Number:	
+
+- Microsoft 365 or Office 365 Email Address:
 
 > [!NOTE]
 > The email address above will receive messages left for you if you are not online when someone calls for you via IP Relay. 

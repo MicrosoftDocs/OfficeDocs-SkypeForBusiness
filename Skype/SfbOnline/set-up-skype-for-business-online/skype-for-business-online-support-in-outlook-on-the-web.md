@@ -29,9 +29,8 @@ Outlook on the web (Outlook Web App) in Microsoft 365 or Office 365 offers a bas
   
 The following table summarizes the different setups that you may have and the web client that is used.
   
-||||
-|:-----|:-----|:-----|
 |**User account is located** <br/> |**Vanity URL is configured or there is a dedicated organization** <br/> |**Skype for Business or Lync Experience?** <br/> |
+|:-----|:-----|:-----|
 |Online  <br/> |No  <br/> |Skype for Business web experience  <br/> |
 |Online  <br/> |Yes  <br/> |Lync web experience  <br/> |
 |Hybrid but homed online  <br/> |No  <br/> |Skype for Business web experience  <br/> |
