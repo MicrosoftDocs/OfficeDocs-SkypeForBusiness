@@ -62,7 +62,7 @@ Type a name for the call queue.
 
 Click **Add accounts**, search for the resource account that you want to use with this call queue, click **Add**, and then click **Add**. (Agents will see the resource account name when they receive an incoming call.)
 
-See [Manage Teams resource accounts](/Teams/manage-resource-accounts) for more information.
+See [Manage Teams resource accounts](manage-resource-accounts.md) for more information.
 
 ### Assign calling ID
 
