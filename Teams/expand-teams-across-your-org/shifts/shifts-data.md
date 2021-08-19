@@ -64,7 +64,7 @@ Shifts encryption of data at rest and in transit are verified yearly by the SOC2
 Shifts data is encrypted at rest by Azure Cosmos DB and Azure Storage. To learn more, see [Azure data encryption at rest](/azure/security/fundamentals/encryption-atrest) and
 [Data encryption in Azure Cosmos DB](/azure/cosmos-db/database-encryption-at-rest).
 
-Shifts data in transit uses Microsoft 365 guidelines. To learn more, see [Encryption for data-in-transit](compliance/assurance/assurance-encryption-in-transit).
+Shifts data in transit uses Microsoft 365 guidelines. To learn more, see [Encryption for data-in-transit](/compliance/assurance/assurance-encryption-in-transit).
 
 ## Data immutability
 
