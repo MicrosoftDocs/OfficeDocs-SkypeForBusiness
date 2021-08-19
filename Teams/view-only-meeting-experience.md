@@ -118,10 +118,12 @@ The view-only attendee won't be able to experience the following options in meet
 ## View-only feature limitations
 
 - View-only attendees will only be able to see Live Captions on Desktop and Web. Only English Captions are supported at this time.
+- View-only attendees cannot register for Webinars.
 - View-only attendees will be supported by streaming technology.
 - View-only attendees won't be included in the attendance report.
 - View-only attendees will have a single video experience. They can see either the active speaker or the content being shared, but not both.
-- We don't currently support **Gallery**, **Large gallery**, or **Together mode** layouts for view-only attendees.  
+- We don't currently support **Gallery**, **Large gallery**, or **Together mode** layouts for view-only attendees.
+- View-only attendees are only supported by the following lobby policies: 'Only You,' 'People in my organization and guests,' 'People in my organization and trusted organizations, and guests,' and 'Everyone.' If you use a lobby policy that does not support View-only attendees, View-only attendees will be rejected from the meeting. 
 - View-only attendees won't have the same latency as a regular attendee. <sup>1</sup>
 
   <sup>1</sup> View-only attendees will be at a 30-second video and audio delay in the meeting.  
