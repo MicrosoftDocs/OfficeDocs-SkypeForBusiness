@@ -61,7 +61,7 @@ Dewy Law LLC. is a relatively young firm and the attorneys and other staff membe
   
  **Distribution of users by locations and positions**
   
-||**Headquarters (NY)**|**Regional offices (3)**|**Large branch offices (24)**|**Small branch offices (50)**|
+|Staff |**Headquarters (NY)**|**Regional offices (3)**|**Large branch offices (24)**|**Small branch offices (50)**|
 |:-----|:-----|:-----|:-----|:-----|
 |Executive  <br/> |20  <br/> |10  <br/> |1  <br/> |1  <br/> |
 |Partners  <br/> |150  <br/> |50  <br/> |10  <br/> |5  <br/> |
@@ -352,7 +352,7 @@ The recommended association of Layer 3 to Layer 2 priorities is shown here:
   
  **Recommended Layer 3 to Layer 2 priority associations**
   
-||**Layer 3 markings**|**Layer 2 (PCP Value)**|**Wi-Fi (Access Category)**|
+|&nbsp; |**Layer 3 markings**|**Layer 2 (PCP Value)**|**Wi-Fi (Access Category)**|
 |:-----|:-----|:-----|:-----|
 |Network Control  <br/> |Per Hop Behavior (PHB) - Class Selector (CS) 6  <br/> |6  <br/> |1 (AC_VO)  <br/> |
 |DSCP Value -48  <br/> |
