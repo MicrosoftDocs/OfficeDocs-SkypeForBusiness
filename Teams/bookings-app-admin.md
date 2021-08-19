@@ -1,7 +1,7 @@
 ---
 title: "Virtual visits with Microsoft Teams and the Bookings app"
-author: cichur
-ms.author: v-cichur
+author: dmaguire
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: article 
