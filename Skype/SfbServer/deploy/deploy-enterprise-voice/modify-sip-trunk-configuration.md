@@ -1,5 +1,5 @@
 ---
-title: "Modify SIP trunk configuration in Skype for Business Server"
+title: "Skype for Business Server: Modify SIP trunk configuration settings"
 ms.reviewer: 
 ms.author: v-cichur
 author: cichur
@@ -18,7 +18,7 @@ ms.assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
 description: "Summary: Learn how to modify SIP trunk configuration settings by using the Skype for Business Server Control Panel."
 ---
 
-# Modify SIP trunk configuration  in Skype for Business Server
+# Skype for Business Server: Modify SIP trunk configuration settings 
  
 **Summary:** Learn how to modify SIP trunk configuration settings by using the Skype for Business Server Control Panel.
   

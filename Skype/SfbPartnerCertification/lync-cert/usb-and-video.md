@@ -1,6 +1,6 @@
 ---
-title: "Phones and devices qualified for Microsoft Lync - USB audio and video devices"
-ms.author: dmaguire
+title: "Lync: Phones and qualified devices - USB and video devices"
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -18,10 +18,10 @@ f1.keywords:
 ms.custom:
 - Lync Certification
 - dn788944
-description: "Use this page to find USB audio and video devices optimized for Lync, including desk phones, personal speakerphones, corded and wireless headsets, corded handsets, and HD webcams."
+description: "Find USB audio and video devices optimized for Lync, including desk phones, personal speakerphones, corded and wireless headsets, corded handsets, and HD webcams."
 ---
 
-# Devices qualified for Microsoft Lync - USB audio and video devices
+# USB audio and video devices
 
 ## USB audio and video devices
 Find USB audio and video devices that are optimized for Microsoft Lync, including desk phones, personal speakerphones, corded and wireless headsets, corded handsets, and HD webcams.

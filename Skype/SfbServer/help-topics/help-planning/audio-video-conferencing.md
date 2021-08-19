@@ -1,5 +1,5 @@
 ---
-title: "Skype for Business Server 2015 - Audio Video Conferencing (planning tool)"
+title: "Skype for Business Server Audio Video Conferencing planning tool"
 ms.reviewer: 
 ms.author: v-cichur
 author: cichur
@@ -15,10 +15,10 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
-description: "Audio/video (A/V) conferencing enables Skype for Business Server 2015  users to participate in real-time audio or video conferences."
+description: "Skype for Business Server 2015 Audio/video (A/V) conferencing enables users to participate in real-time audio or video conferences."
 ---
 
-# Skype for Business Server 2015 - Audio Video Conferencing (planning tool)
+# Skype for Business Server Audio Video Conferencing planning tool
  
 Skype for Business Server 2015 Audio/video (A/V) conferencing enables users to participate in real-time audio or video conferences.
   

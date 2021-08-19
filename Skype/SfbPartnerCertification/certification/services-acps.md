@@ -1,6 +1,6 @@
 ---
-title: "Meeting audio providers for Skype for Business Online"
-ms.author: dmaguire
+title: "Audio conferencing providers for Skype for Business Online"
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -18,16 +18,16 @@ f1.keywords:
 ms.custom:
 - Skype for Business Certification
 - dn947484
-description: "Skype for Business enables dial-in audio conferencing with third-party audio conferencing services."
+description: "Skype for Business dial-in audio conferencing is available through third-party audio conferencing services."
 ---
 
-# Meeting audio providers for Skype for Business Online
+# Skype for Business audio conferencing providers
 
 Dial-in audio conferencing, which is the ability to dial into scheduled Skype for Business Online meetings and conferences from fixed-line or mobile phones, can be achieved through interoperability with leading third-party audio conferencing services.
 
 Vendors listed in the following table have been certified with Skype for Business Online.
 
-<table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" xmlns="http://www.w3.org/1999/xhtml">
+<table border="1" cellpadding="5" cellspacing="" class="grid">
 	<colgroup>
 		<col width="100" />
 		<col />
@@ -59,7 +59,7 @@ Vendors listed in the following table have been certified with Skype for Busines
 			<td>Y</td>
 		</tr>
 		<tr>
-			<td><a href="http://www.btconferencing.com/products-and-services/bt-meetme-audio-conferencing/bt-conference-connect/">BT</a></td>
+			<td><a href="http://www.btconferencing.com">BT</a></td>
 			<td>Y</td>
 			<td>Y</td>
 			<td>N</td>

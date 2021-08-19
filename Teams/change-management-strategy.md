@@ -65,13 +65,13 @@ We recommend a regular meeting of these stakeholders to keep them up to date on 
 > [!TIP]
 > Those people who may be the biggest obstacles to change can become your best allies in a deployment of this kind. We encourage you to engage with these members of your organization early and often to hear their concerns and issues. Often, they have valuable feedback that will make your campaign more successful.
 
-### User profiles
+## User profiles
 
 It is equally important to understand the types of users in your environment. Do you have users who are primarily mobile? Some who are in constant meetings or giving presentations? Do you know which of your users have the most difficulty with your existing collaboration solutions? Segmenting your user community can help you find groups that are most open to change. They are often the best targets for your early business pilots and their feedback is extremely valuable.
 
 Understanding the day in the life of your users will help you to prioritize your business outcomes, design adoption goals appropriate for your deployment and sustain usage over time.
 
-### Champions
+## Champions
 
 Identifying the individuals who can become your collaboration champions provides you with an extended support team for your implementation. Create a community by providing them early insight and feedback to your plans. Any investment you make in this community whether it be time, attention or rewards will be returned to your implementation through their support and evangelism.
 

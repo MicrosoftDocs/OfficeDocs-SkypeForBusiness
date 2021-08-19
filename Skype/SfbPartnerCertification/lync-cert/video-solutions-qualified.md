@@ -1,6 +1,6 @@
 ---
-title: "Phones and devices qualified for Microsoft Lync - video devices"
-ms.author: dmaguire
+title: "Phones and devices qualified for Microsoft Lync - USB and Video Devices"
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -18,10 +18,10 @@ f1.keywords:
 ms.custom:
 - Lync Certification
 - dn788949
-description: "Find USB video devices optimized for Lync."
+description: "Use this page to find USB audio and video devices optimized for Lync, including desk phones, personal speakerphones, corded and wireless headsets, corded handsets, and HD webcams."
 ---
 
-# Devices qualified for Microsoft Lync - video solutions
+# Video solutions qualified for Lync
 
 Microsoft tests and qualifies video teleconference systems (VTCs), multipoint control unit (MCUs) or conferencing bridges, and gateways for interoperability with Lync through our Video Interoperability Program. Our Video Interoperability program tests:
 
@@ -36,7 +36,7 @@ Download the [Lync Video Hardware Comparison Tables](/previous-versions/office/l
 
 
 ***Video Endpoints***
-<table border="1" bordercolor="#CCCCCC" cellpadding="5" cellspacing="0" class="grid" style="border-collapse:collapse" width="720" xmlns="http://www.w3.org/1999/xhtml">
+<table border="1" bordercolor="#CCCCCC" cellpadding="5" cellspacing="0" class="grid" width="720">
 	<colgroup>
 		<col width="240" />
 		<col width="90" />
@@ -144,7 +144,7 @@ Download the [Lync Video Hardware Comparison Tables](/previous-versions/office/l
 
 ***LifeSize Video Endpoints***
 
-<table border="1" bordercolor="#CCCCCC" cellpadding="5" cellspacing="0" class="grid" style="border-collapse:collapse" width="62%" xmlns="http://www.w3.org/1999/xhtml">
+<table border="1" bordercolor="#CCCCCC" cellpadding="5" cellspacing="0" class="grid" width="62%">
 	<colgroup>
 		<col width="240" />
 		<col width="90" />
@@ -240,7 +240,7 @@ Download the [Lync Video Hardware Comparison Tables](/previous-versions/office/l
 
 ***Video Infrastructure***
 
-<table border="1" bordercolor="#CCCCCC" cellpadding="5" cellspacing="0" class="grid" style="border-collapse:collapse" width="62%" xmlns="http://www.w3.org/1999/xhtml">
+<table border="1" bordercolor="#CCCCCC" cellpadding="5" cellspacing="0" class="grid" width="62%">
 	<colgroup>
 		<col width="240" />
 		<col width="110" />

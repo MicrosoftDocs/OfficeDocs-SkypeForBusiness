@@ -219,7 +219,7 @@ The connection point for Direct Routing is the following FQDN:
 
 The FQDN sip.pstnhub.gov.teams.microsoft.us will be resolved to an IP address from the following subnet:
 
-- 52.127.64.0/21
+- 52.127.88.0/21
 
 You need to open ports for all these IP ranges in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.  If your firewall supports DNS names, the FQDN  sip.pstnhub.gov.teams.microsoft.us resolves to all these IP subnets. 
 

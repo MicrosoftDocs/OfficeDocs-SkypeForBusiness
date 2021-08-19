@@ -238,7 +238,7 @@ You need to open ports for all these IP address ranges in your firewall to allow
 > [!IMPORTANT]
 > As part of Teams Direct Routing expansion and service improvement, we have deployed new instances of Direct Routing infrastructure in Japan in May 2021. This is reflected in two additional IP addresses (52.114.36.156 and 52.114.32.169) to which the following FQDNs will be resolved for Japan customers – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com, and sip3.pstnhub.microsoft.com. You need to make sure these two IP addresses (52.114.36.156 and 52.114.32.169) are allowed in your IP Access Control Lists (ACLs) and ports are open for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.
 
-### Office 365 GCCH and DoD environment
+### Office GCC DoD environment
 
 The connection point for Direct Routing is the following FQDN:
 
@@ -258,7 +258,7 @@ The connection point for Direct Routing is the following FQDN:
 
 The FQDN sip.pstnhub.gov.teams.microsoft.us will be resolved to an IP address from the following subnet:
 
-- 52.127.64.0/21
+- 52.127.88.0/21
 
 You need to open ports for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling. If your firewall supports DNS names, the FQDN **sip-all.pstnhub.gov.teams.microsoft.us** resolves to all these IP addresses. This FQDN can also be used as Federated FQDN for inbound call classification.
 
@@ -330,7 +330,7 @@ Location of the media processors:
 Locations where both SIP proxy and media processor components deployed:
 - US (two in US West and US East datacenters)
 - Europe (Amsterdam and Dublin datacenters)
-- Asia (Singapore and Hong Kong datacenters)
+- Asia (Singapore datacenter)
 - Japan (JP East and West datacenters)
 - Australia (AU East and Southeast datacenters)
 

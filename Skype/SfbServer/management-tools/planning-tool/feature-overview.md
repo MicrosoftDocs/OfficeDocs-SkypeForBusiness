@@ -1,5 +1,5 @@
 ---
-title: "Feature Overview (planning tool)"
+title: Feature Overview planning tool
 ms.reviewer: 
 ms.author: v-cichur
 author: cichur
@@ -13,12 +13,12 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
-description: "Skype for Business Server 2015 Planning Tool"
+description: "Descripbes the Skype for Business Server 2015 planning tool."
 ---
 
-# Feature Overview (Planning Tool)
+# Feature Overview planning tool
  
-Skype for Business Server 2015 planning tool
+Skype for Business Server 2015 Planning Tool
   
 You can use the **Central Sites** page of the Planning Tool to design the Skype for Business Server deployment. You can create two either a centralized or distributed deployment. A centralized deployment only has one central site, which homes all Skype for Business users in your organization. A distributed deployment has more than one central site. If you deploy Skype for Business Server at multiple central sites, then you will enter the number of users at each central site in the Planning Tool.
   

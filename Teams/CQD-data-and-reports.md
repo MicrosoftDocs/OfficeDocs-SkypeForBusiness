@@ -391,8 +391,6 @@ When reviewing your data, you may see differences in data between Teams and Skyp
   - Teams has dynamic bandwidth management. Skype for Business doesn't.
 - Differences in [IP address ranges](Office-365-URLs-IP-address-ranges.md) between Teams and Skype for Business. The Teams IP ranges are newer, which could cause connectivity problems at the firewall.
 
-> [!IMPORTANT]
-> As of July 1, 2020, the legacy version of CQD (cqd.lync.com) accesses data from the new CQD (https://CQD.teams.microsoft.com), and you can no longer export building and report data. Effective July 31, 2021, coinciding with the retirement of Skype for Business Online, we'll turn off legacy CQD and you'll no longer be able to access it.
 
 
 ## Related topics

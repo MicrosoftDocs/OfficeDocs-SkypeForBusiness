@@ -1,6 +1,6 @@
 ---
-title: "Skype for Business Online Audio conferencing providers"
-ms.author: dmaguire
+title: Skype for Business Online audio conferencing providers
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -21,7 +21,7 @@ ms.custom:
 description: "Microsoft Lync supports the ability to dial into scheduled Skype for Business Online meetings and conferences from fixed-line or mobile phones."
 ---
 
-# Skype for Business Online Audio conferencing providers
+# Skype for Business Online audio conferencing providers
 Dial-in audio conferencing, which is the ability to dial into scheduled Skype for Business Online meetings and conferences from fixed-line or mobile phones, can be achieved through interoperability with leading third-party audio conferencing services.
 
 
@@ -60,7 +60,7 @@ Vendors listed in the following table have been certified for Skype for Business
 			<td>Y</td>
 		</tr>
 		<tr>
-			<td><a href="http://www.btconferencing.com/products-and-services/bt-meetme-audio-conferencing/bt-conference-connect/">BT</a></td>
+			<td><a href="https://www.btconferencing.com/">BT</a></td>
 			<td>Y</td>
 			<td>Y</td>
 			<td>N</td>
@@ -77,13 +77,13 @@ Vendors listed in the following table have been certified for Skype for Business
 
 <br/>
 
-If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
+If you're a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 
 ### Additional Resources
 Learn about [Skype for Business certification](../certification/overview.md) .
 
-For companies wishing to certify their Wi-Fi products, please contact Ixia, a third party vendor responsible for Skype for Business Wi-Fi certification: TestSkype@ixiacom.com
+For companies that want to certify their Wi-Fi products, contact Ixia, a third-party vendor responsible for Skype for Business Wi-Fi certification: TestSkype@ixiacom.com
 
-To learn more in-depth about managing the network infrastructure for Lync Server 2010 and 2013, please download: [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://www.microsoft.com/download/details.aspx?id=39084).
+To learn more in-depth about managing the network infrastructure for Lync Server 2010 and 2013, download [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://www.microsoft.com/download/details.aspx?id=39084).
 
 An Updated [Delivering Lync 2013 Real-Time Communications over Wi-Fi](https://www.microsoft.com/download/details.aspx?id=36494) is included in this version.

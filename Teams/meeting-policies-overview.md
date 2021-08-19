@@ -1,5 +1,5 @@
 ---
-title: Manage meeting policies 
+title: Manage meeting policies in Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,7 +20,7 @@ ms.custom:
   - seo-marvel-apr2020
 description: Learn to manage meeting policy settings in Teams and use them to control the features available to meeting participants for meetings scheduled by users.
 ---
-# Microsoft Teams: Manage meeting policies
+# Manage meeting policies in Microsoft Teams
 
 <a name="bkautomatically-admit-people"> </a>
 

@@ -1,5 +1,5 @@
 ---
-title: "Skype for Business Server 2015 Persistent Chat (planning tool)"
+title: "Skype for Business Server Persistent Chat planning tool"
 ms.reviewer: 
 ms.author: v-cichur
 author: cichur
@@ -15,10 +15,10 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec111e2e-15dd-4b9b-ba9c-6125139319a1
-description: "Skype for Business Server 2015 Persistent Chat Server enables users to participate in multiparty, topic-based conversations that persist over time."
+description: "Persistent Chat Server enables users to participate in multiparty, topic-based conversations that persist over time."
 ---
 
-# Skype for Business Server 2015 Persistent Chat (planning tool)
+# Skype for Business Server Persistent Chat planning tool
  
 Persistent Chat Server enables users to participate in multiparty, topic-based conversations that persist over time.
   

@@ -160,16 +160,16 @@ Both Windows Configuration Designer and Microsoft Intune are used to apply the C
 The following is the syntax of the Coordinated Meetings XML configuration file.
 
 ```xml
-<SurfaceHubSettings>​
-    <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>​
-    <AutoAcceptProximateMeetingInvitations>true</AutoAcceptProximateMeetingInvitations>​
-    <CoordinatedMeetings enabled="true"> ​
-        <TrustedAccounts>​room@contoso.com</TrustedAccounts>​
-        <Settings> ​
-            <Audio default="false" enabled="false" />​
-            <Video default="false" enabled="true" /> ​
-        </Settings> ​
-    </CoordinatedMeetings>​
+<SurfaceHubSettings>
+    <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
+    <AutoAcceptProximateMeetingInvitations>true</AutoAcceptProximateMeetingInvitations>
+    <CoordinatedMeetings enabled="true"> 
+        <TrustedAccounts>room@contoso.com</TrustedAccounts>
+        <Settings> 
+            <Audio default="false" enabled="false" />
+            <Video default="false" enabled="true" /> 
+        </Settings> 
+    </CoordinatedMeetings>
 </SurfaceHubSettings>
 ```
 

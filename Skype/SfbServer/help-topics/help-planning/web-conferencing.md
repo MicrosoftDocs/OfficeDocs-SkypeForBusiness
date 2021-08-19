@@ -1,5 +1,5 @@
 ---
-title: "Skype for Business Server 2015 Web Conferencing (planning tool)"
+title: "Skype for Business Server Web Conferencing planning tool"
 ms.reviewer: 
 ms.author: v-cichur
 author: cichur
@@ -15,10 +15,10 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
-description: "Web Conferencing to Skype for Business Server 2015 includes document collaboration, application sharing, and desktop sharing."
+description: "Skype for Business Server 2015 web conferencing includes document collaboration, application sharing, and desktop sharing."
 ---
 
-# Skype for Business Server 2015 Web Conferencing (planning tool)
+# Skype for Business Server Web Conferencing planning tool
  
 Skype for Business Server 2015 web conferencing includes document collaboration, application sharing, and desktop sharing.
   

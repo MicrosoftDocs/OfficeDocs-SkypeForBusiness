@@ -18,6 +18,8 @@ description: "Overview of using Skype for Business Online telemetry tools to mon
 
 ## Overview
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 This topic describes benefits, planning considerations, and requirements for implementing Skype for Business Server Call Data Connector. For more information on configuring Call Data Connector, see [Configure Call Data Connector](configure-call-data-connector.md).
 
 

@@ -20,14 +20,14 @@ description: "You can delete any site or user policy that is listed in the Skype
 
 # Delete a site or user policy for external user access
 
-If you have created or configured external user access policies that you no longer want to use, you can do the following:
+If you have created or configured external user access policies that you no longer want to use, you can do the following method:
 
   - Delete any site or user policy that you created.
 
   - Reset the global policy to the default settings. The default global policy settings deny any external user access. The global policy cannot be deleted.
 
 
-You can delete any site or user policy that is listed in the Skype for Business Server Control Panel on the **External Access Policy** page. Deleting the global policy does not actually delete it, but only resets it to the default settings, which do not include support for any external user access options. For details about resetting the global policy, see [Reset the global policy for external user access](reset-the-global-policy-for-external-user-access.md).
+You can delete any site or user policy that is listed in the Skype for Business Server Control Panel on the **External Access Policy** page. Deleting the global policy doesn't actually delete it, but only resets it to the default settings, which don't include support for any external user access options. For details about resetting the global policy, see [Reset the global policy for external user access](reset-the-global-policy-for-external-user-access.md).
 
 
 ## To delete a site or user policy for external user access
@@ -50,29 +50,17 @@ External access policies can be deleted by using Windows PowerShell and the Remo
 
 ## To remove a specific external access policy
 
-This command removes the external access policy applied to the Redmond site:
-
-```powershell
-Remove-CsExternalAccessPolicy -Identity "site:Redmond"
-```
+  - This command removes the external access policy applied to the Redmond site:<br/><br/>Remove-CsExternalAccessPolicy -Identity "site:Redmond"
 
 
 ## To remove all the external access policies applied to the per-user scope
 
-This command removes all the external access policies configured at the per-user scope:
-
-```powershell
-Get-CsExternalAccessPolicy -Filter "tag:*" | Remove-CsExternalAccessPolicy
-```
+  - This command removes all the external access policies configured at the per-user scope:<br/><br/>Get-CsExternalAccessPolicy -Filter "tag:*" | Remove-CsExternalAccessPolicy
 
 
 ## To remove all the external access policies where outside user access is disabled
 
-This command deletes all the external access policies where outside user access has been disabled:
-
-```powershell
-Get-CsExternalAccessPolicy | Where-Object {$_.EnableOutsideAccess -eq $False} | Remove-CsExternalAccessPolicy
-```
+  - This command deletes all the external access policies where outside user access has been disabled:<br/><br/>Get-CsExternalAccessPolicy | Where-Object {$_.EnableOutsideAccess -eq $False} | Remove-CsExternalAccessPolicy
 
 
 For more information, see the help topic for the [Remove-CsExternalAccessPolicy](/powershell/module/skype/Remove-CsExternalAccessPolicy) cmdlet.

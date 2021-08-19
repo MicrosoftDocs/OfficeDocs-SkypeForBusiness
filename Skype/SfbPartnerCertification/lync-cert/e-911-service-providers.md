@@ -1,6 +1,6 @@
 ---
-title: "Lync partner qualification requirements"
-ms.author: dmaguire
+title: "Partner qualification for Lync: E-911 services"
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -18,7 +18,7 @@ f1.keywords:
 ms.custom:
 - Lync Certification
 - dn788944
-description: "Lync partner qualification requirements."
+description: "Partner qualification requirements for Lync: E-911 services."
 ---
 
 # E-911 Services qualified for Lync

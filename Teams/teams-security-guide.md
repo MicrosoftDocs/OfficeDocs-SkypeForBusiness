@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams security guide
+title: Security guide for Microsoft Teams overview
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp

@@ -38,6 +38,9 @@ ms.custom: seo-marvel-may2020
 | ------------- | ------------- | ------------- |
 |  **[Plan](./rooms-plan.md)** |  **[Deploy](./rooms-deploy.md)** |  **[Manage](./rooms-manage.md)** |
 
+
+[:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Microsoft Teams Rooms Microsoft Mechanics video":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
+
 > [!NOTE]
 > Microsoft Teams Rooms is intended for use with Microsoft Teams, Skype for Business Online, Skype for Business Server 2019, or Skype for Business Server 2015.
 >

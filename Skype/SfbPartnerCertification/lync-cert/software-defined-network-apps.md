@@ -1,6 +1,6 @@
 ---
 title: "Validated Lync Applications"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -25,9 +25,9 @@ description: "Applications that have been validated as using Lync 2013 APIs."
 # Software Defined Networking Applications
 See Skype for Business SDN applications [here](../certification/networking-sdn.md).
 
-Applications built on the Lync SDN API provide the ability to quickly detect quality affecting issues on the network and deliver prescriptive resolutions and traffic prioritization. Manage the Lync experience with automated root-cause analysis of network issues. Access real time, session-level metrics for network events across modalities, sessions, and IP topology layers.
+Applications built on the Lync SDN API can quickly detect quality affecting issues on the network and deliver prescriptive resolutions and traffic prioritization. Manage the Lync experience with automated root-cause analysis of network issues. Access real time, session-level metrics for network events across modalities, sessions, and IP topology layers.
 
-Registration for the Lync SDN API Developer Program on the [Microsoft Connect web site](https://connect.microsoft.com/invitationentry.aspx) and use invitation ID: LSA-T882-JJYX. Finished applications are submitted for third party testing and then included here.
+Registration for the Lync SDN API Developer Program on the [Microsoft Connect web site](https://connect.microsoft.com/invitationentry.aspx) and use invitation ID: LSA-T882-JJYX. Finished applications are submitted for third-party testing and then included here.
 
 Developers can download the [Lync SDN API](https://www.microsoft.com/download/details.aspx?id=39714) from the Microsoft Download Center.
 
@@ -39,9 +39,9 @@ Developers can download the [Lync SDN API](https://www.microsoft.com/download/de
 
 [Aruba networks](http://arubanetworks.com)
 
-Like a high performance vehicle, Lync benefits from smooth network pavement on which to run. The new Lync SDN API ensures that Lync performs at its best, with both desktop and mobile devices, if problems do occur it expedites remediation. Used together with an Aruba controller-based Wi-Fi network, the Lync SDN API opens a window into Lync calls in flight.
+Like a high-performance vehicle, Lync benefits from smooth network pavement on which to run. The new Lync SDN API ensures that Lync performs at its best, with both desktop and mobile devices, if problems do occur it expedites remediation. Used together with an Aruba controller-based Wi-Fi network, the Lync SDN API opens a window into Lync calls in flight.
 
-Call set-up data pushed over the API enables an Aruba Wi-Fi to deliver Quality of service for all Lync flows, implement call admission control, and monitor UC performance in real-time. End-to-end call monitoring makes quick work of root cause failure analysis (pinpointing between which access points a roaming call failed), bottleneck identification (locating points of network congestion), and device performance (identifying which handsets and OS versions have performance problems).
+Call setup data pushed over the API enables an Aruba Wi-Fi to deliver Quality of service for all Lync flows, implement call admission control, and monitor UC performance in real time. End-to-end call monitoring makes quick work of root cause failure analysis (pinpointing between which access points a roaming call failed), bottleneck identification (locating points of network congestion), and device performance (identifying which handsets and OS versions have performance problems).
 
 With the Lync SDN API and Aruba Wi-Fi, you can deliver the quality, jitter-free user experience mandated by today's mobile enterprise.
 
@@ -53,9 +53,9 @@ With the Lync SDN API and Aruba Wi-Fi, you can deliver the quality, jitter-free 
 
 [Arrow Systems Integration](http://arrowsi.com)
 
-***Arrow Systems Integration*** PRISM OneView for Lync simplifies the job of the Lync administrator, providing the tools needed to maintain and improve the Lync UC environment. Leveraging the power of Microsoft’s SDN API, the user sees call sessions in real time with complete call quality metrics. Key values are easily pulled into dashboard widgets for ease of daily tracking, or graphed over time to identify performance trends. The health of all Lync servers is displayed graphically, with key performance indicators thresholded against the recommendations of Microsoft.
+***Arrow Systems Integration*** PRISM OneView for Lync simplifies the job of the Lync administrator, providing the tools needed to maintain and improve the Lync UC environment. By applying the power of Microsoft’s SDN API, the user sees call sessions in real time with complete call quality metrics. Key values are easily pulled into dashboard widgets for ease of daily tracking, or graphed over time to identify performance trends. The health of all Lync servers is displayed graphically, with key performance indicators thresholded against the recommendations of Microsoft.
 
-Common concerns such as certificate expiration, patch levels and database utilization are tracked. Service failures, performance degradation and other alert conditions may be configured to send notifications. Multi-vendor integration monitors crucial components such as session border controllers, and metrics from integrated voice switches (Avaya and others) are correlated for a unified view of call quality.
+Common concerns such as certificate expiration, patch levels, and database utilization are tracked. Service failures, performance degradation, and other alert conditions may be configured to send notifications. Multi-vendor integration monitors crucial components such as session border controllers, and metrics from integrated voice switches (Avaya and others) are correlated for a unified view of call quality.
 
 ## Dell Wi-Fi
 * * *
@@ -65,7 +65,7 @@ Common concerns such as certificate expiration, patch levels and database utiliz
 
 [Dell](http://dell.com)
 
-Together with a ***Dell Networking*** W-Series controller-based Wi-Fi network, the SDN API opens a window into Lync calls in flight. Call set-up data pushed over the API enables Dell W-Series Wi-Fi to deliver quality of service for all Lync flows, implement call admission control, and monitor UC performance in real-time.
+Together with a ***Dell Networking*** W-Series controller-based Wi-Fi network, the SDN API opens a window into Lync calls in flight. Call setup data that's pushed over the API enables Dell W-Series Wi-Fi to deliver quality of service for all Lync flows, implement call-admission control, and monitor UC performance in real-time.
 
 End-to-end call monitoring makes quick work of root cause failure analysis (pinpointing between which access points a roaming call failed), bottleneck identification (locating points of network congestion), and device performance (identifying which handsets and OS versions have performance problems). With the Lync SDN API and Dell W-Series Wi-Fi you can deliver the quality, jitter-free user experience mandated by today's mobile enterprise.
 
@@ -79,7 +79,7 @@ End-to-end call monitoring makes quick work of root cause failure analysis (pinp
 
 ***Extreme Networks*** integration with Lync includes in-depth analytics into Lync environments across wired and wireless networks, including connectivity, infrastructure, and endpoint performance; and SDN integration that resolves implementation challenges arising from Lync end system QoS provisioning and static network policies.
 
-The Lync SDN API relays detailed information regarding calls and sessions to Extreme Networks OneFabric Connect, where the data is utilized to provide control over the quality of audio/video and application sharing. Administrators leverage these analytics to gain in-depth visibility into application and network response times, enable predictive analysis that speeds troubleshooting and diagnostics, enabling IT to better support Lync throughout the organization.
+The Lync SDN API relays detailed information regarding calls and sessions to Extreme Networks OneFabric Connect, where the data is utilized to provide control over the quality of audio/video and application sharing. Administrators use these analytics to gain in-depth visibility into application and network response times, enable predictive analysis that speeds troubleshooting and diagnostics, enabling IT to better support Lync throughout the organization.
 
 ## HP Networking Optimizer
 * * *
@@ -115,9 +115,9 @@ When a desktop sharing, voice, or video session is initiated using a Lync client
 
 [Nectar Corp](http://nectarcorp.com)
 
-***Nectar's UC Diagnostics (UCD)*** module delivered via our Unified Communications Management Platform (UCMP) provides comprehensive insight for Lync UC environments. Nectar's UCD delivers real-time, end-to-end call performance of Lync voice, video, collaboration and conferencing sessions, providing fast issue isolation and resolution. Nectar was the first and most complete Lync monitoring solution to have been tested, qualified, and deployed with the Microsoft Lync Software Defined Network (SDN) API. UCD's tight integration with the Lync SDN API enables Nectar to fully leverage its entire product portfolio for real-time media analysis, network path awareness and root-cause analysis.
+***Nectar's UC Diagnostics (UCD)*** module delivered via our Unified Communications Management Platform (UCMP) provides comprehensive insight for Lync UC environments. Nectar's UCD delivers real-time, end-to-end call performance of Lync voice, video, collaboration and conferencing sessions, providing fast issue isolation and resolution. Nectar was the first and most complete Lync monitoring solution to have been tested, qualified, and deployed with the Microsoft Lync Software Defined Network (SDN) API. UCD's tight integration with the Lync SDN API enables Nectar to fully apply its entire product portfolio for real-time media analysis, network path awareness, and root-cause analysis.
 
-Nectar is able to dramatically reduce problem resolution time by more than 70% when compared to standard network assurance tools with just a few mouse clicks. Nectar also provides network assessment, health and performance monitoring of the entire Lync ecosystem, skills-based alarm management, SLA tracking, along with an Advanced Reporting & Analytics module in a true multi-tenant interface. All of which helps to ensure an optimal and efficient deployment and management of your Lync UC services.
+Nectar is able to dramatically reduce problem resolution time by more than 70% when compared to standard network assurance tools with just a few mouse clicks. Nectar also provides network assessment, health, and performance monitoring of the entire Lync ecosystem, skills-based alarm management, SLA tracking, along with an Advanced Reporting & Analytics module in a true multi-tenant interface. All of which helps to ensure an optimal and efficient deployment and management of your Lync UC services.
 
 ### Related resources
 [Microsoft Lync](https://lync.microsoft.com/en-us/Pages/unified-communications.aspx)
