@@ -41,8 +41,6 @@ If one or more of the following conditions are met, an audio stream is marked as
 |Jitter|ALL|> 30|Average jitter for stream in milliseconds.|
 ||||
 
-
-
 ### Video Classifier due to Freeze
 
 The video stream is marked  _Good_ or _Poor_ based on the value of a classifier score generated to estimate that the end user experienced Frozen Video. This classifier is available for Microsoft Teams product only.
