@@ -16,6 +16,7 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Learn about how to enroll Microsoft Teams Rooms accounts in Microsoft Teams Rooms Premium managed service.
+f1keywords: 
 ---
 
 # Enroll a device in the Microsoft Teams Rooms Premium managed service
@@ -34,7 +35,7 @@ Complete the following steps to assign users to the Managed Service Administrato
 
 Users who are assigned the Managed Service Administrator role are responsible for the day-to-day management and monitoring of the Teams Rooms Premium managed service portal.
 
-After you've assigned users to the Managed Service Administrator role, continue to the [Enroll a device](#enroll-a-device) section to add a Teams Rooms device to the managed service portal.
+After you've assigned users to the Managed Service Administrator role, continue to the [Enroll a device](#enroll-a-teams-rooms-device) section to add a Teams Rooms device to the managed service portal.
 
 ## Enroll a Teams Rooms device
 
