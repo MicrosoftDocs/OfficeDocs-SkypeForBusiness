@@ -41,3 +41,4 @@ The **Help** menu provides a link to the **Installation guide** which in turn pr
 
 - Instructions on URLs that need to be allowlisted to serve to enable room telemetry to be sent to the managed service.
 - Instructions for applying the Microsoft Teams Rooms Premium monitoring agent and unique XML key as part of enrolling a device in the managed service.
+- Troubleshooting instructions.
