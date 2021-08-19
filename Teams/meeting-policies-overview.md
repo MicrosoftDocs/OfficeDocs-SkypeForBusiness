@@ -94,12 +94,12 @@ When you select an existing policy on the **Meeting policies** page or select **
 
 - [General](meeting-policies-in-teams-general.md)
 - [Audio & video](meeting-policies-audio-and-video.md)
+- [Recording & transcription](meetings-policies-recording-and-transcription.md)
 - [Content sharing](meeting-policies-content-sharing.md)
 - [Participants & guests](meeting-policies-participants-and-guests.md)
-
 
 ## Related topics
 
 - [Teams PowerShell overview](teams-powershell-overview.md)
-- [Assign policies to your users in Teams](assign-policies.md)
+- [Assign policies to your users in Teams](policy-assignment-overview.md)
 - [Remove the RestrictedAnonymousAccess Teams meeting policy from users](meeting-policies-restricted-anonymous-access.md)
