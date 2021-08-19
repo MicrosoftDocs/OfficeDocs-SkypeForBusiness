@@ -79,8 +79,8 @@ notified, who controls access, and how retention is handled.
 
 Teams provides various capabilities for
 [convenient](./cloud-recording.md)
-and functional recording for meetings and live events. Organizational
-recording means enabling organizations adopting Teams for calling and
+and functional recording of meetings and live events. Organizational
+recording means enabling organizations that adopt Teams for calling and
 meetings to stipulate, by way of an administrative policy, when calls and online
 meetings should be automatically recorded and captured for subsequent
 processing and retention as required by relevant corporate or regulatory
@@ -145,7 +145,7 @@ shown in the following diagram:
 
 The core component of the compliance recording solution is the recorder.
 Recorders are built as scalable Azure-based services (bots) that
-[leverage Microsoft’s communications
+[use Microsoft’s communications
 platform](/graph/cloud-communications-concept-overview)
 and register as applications with Microsoft Graph. The recorder provides
 the direct interaction with the Teams calls and meetings
@@ -278,9 +278,12 @@ Support for notifications is enabled using the Teams client experiences. The exp
 - Audio conferencing
 - PSTN callers
 
+> [!NOTE]
+> Compliance Recording is not supported with Conference mode call queues. Please use Transfer mode call queues.
+
 ## Compliance recording for Teams certification programs
 
-In addition to publishing publicly available APIs allowing partners to develop and integrate CCaaS solutions with Teams, we have developed the compliance recording for Microsoft Teams certification program to provide customers with the assurance that each participating partner’s solution has been tested and verified to provide the quality, compatibility and reliability they expect from Microsoft solutions.  
+In addition to publishing publicly available APIs allowing partners to develop and integrate CCaaS solutions with Teams, we have developed the compliance recording for Microsoft Teams certification program to provide customers with the assurance that each participating partner’s solution has been tested and verified to provide the quality, compatibility, and reliability they expect from Microsoft solutions.  
 
 The following partners have certified their solution for Microsoft Teams.<br/><br/>
 
@@ -310,4 +313,4 @@ This list will be updated as more partners join and meet the certification crite
 
 ## Next steps
 
-If you are a vendor seeking to join the certification program, please mail  <a href= "mailto:Teamscategorypartner@microsoft.com">Teamscategorypartner@microsoft.com</a>.
+If you are a vendor seeking to join the certification program, send mail to [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com).
