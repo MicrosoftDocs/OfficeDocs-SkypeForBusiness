@@ -1,7 +1,7 @@
 ---
 title: Sign out of Microsoft Teams
 author: cichur
-ms.author: c-cichur
+ms.author: v-cichur
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -23,11 +23,11 @@ appliesto:
 
 We recommend for users to remain signed in to the Microsoft Teams app to continue receiving chats, incoming calls, and other activities. We understand that users might want to sign out of the Teams application at the end of the day to use another account on a shared device or for another reason.
 
-### Account residency
+### Account sharing between apps
 
-Modern Operating Systems allow sharing of accounts between different apps on a device. This Single Sign On design allow users to use multiple apps on their device without requiring them to sign in to every single app. Teams does not control this behavior, but it does take advantage of the convenience this design provides for the end-user experience.
+Modern operating systems allow sharing of accounts between different apps on a device. This single sign on (SSO) design allows users to use multiple apps on their device without requiring them to sign in to every single app. Teams doesn't control this behavior, but it does take advantage of the convenience this design provides for the end-user experience.
 
-This has an important impact on sign-out. When users sign out of Teams, the data associated with their account is removed from the Teams app, but other apps on the device continue to have access to their account. It also means that users may not be prompted to re-enter their credentials if they choose to sign back in to Teams with the same account.
+SSO has an important impact on sign-out. When users sign out of Teams, the data associated with their account is removed from the Teams app, but other apps on the device continue to have access to their account. It also means that users might not be prompted to re-enter their credentials if they choose to sign back in to Teams with the same account.
 
 ## Sign out of Teams after completing modern authentication
 
@@ -35,14 +35,14 @@ To sign out of Teams desktop client or from the browser, users can select their 
 
 For the desktop app, right-click the app icon in the taskbar, and then select **Log out**.
 
-If you have multiple accounts added, you'll need to sign out of your individual accounts. Once you've signed out of the accounts in Teams, you'll need to enter their credentials again on the next launch of the app to access your account.
+If you have multiple accounts added, you'll need to sign out of your individual accounts. Once you've signed out of the accounts in Teams, you'll need to enter your credentials again on the next launch of the app to access your account.
 
 ## Sign out of mobile devices
 
-Mobile users can sign out of Teams by going to the menu, selecting the More menu, and then selecting Sign out. Once signed out, users will need to reenter their credentials the next time they launch the app.
+Mobile users can sign out of Teams by going to the menu, selecting the **More** menu, and then selecting Sign out. Once signed out, users will need to reenter their credentials the next time they launch the app.
 
-> [Note]
-> Teams for Android uses single sign-on (SSO) to simplify the sign in experience. Users should make sure to log out of all Microsoft apps, in addition to Teams, in order to completely log out on the Android platform.
+> [!Note]
+> Teams for Android uses SSO to simplify the sign in experience. Users should make sure to log out of all Microsoft apps, in addition to Teams, in order to completely log out on the Android platform.
 
 ### Global sign in and sign out for Frontline workers
 
@@ -50,6 +50,6 @@ The Teams Android app now supports Global sign-in and sign-out, to provide a has
 
 ## Manual Cleanup
 
-While rare, it is possible that Teams might not be able to clean up after itself fully on sign out. Based on user reports, the common causes include files being locked by a service running on the system but there could be other reasons dependent on an individual’s device configurations or policies and user permissions applied to the device.
+While rare, it's possible that Teams might not be able to clean up after itself fully on sign out. Based on user reports, the common causes include files being locked by a service running on the system but there could be other reasons dependent on an individual’s device configurations or policies and user permissions applied to the device.
 
-One common manifestation of this problem is that Teams will try to automatically select an existing account to sign the user in. In situations like this, the user might want to manually clean up Teams’ local cache. Learn more [support article](url).
+One common manifestation of this problem is that Teams will try to automatically select an existing account to sign the user in. In situations like this, the user might want to manually clean up Teams’ local cache. Learn more [support article] link.
