@@ -156,8 +156,6 @@ foreach ($slackUser in $users) {
 
 $output | Export-Csv -Path .\SlackToAzureADIdentityMapping.csv -NoTypeInformation
 Write-Host "`n $(Get-Timestamp) Generated SlackToAzureADIdentityMapping.csv. Exiting..."
-$output | Export-Csv -Path .\SlackToAzureADIdentityMapping.csv -NoTypeInformation
-Write-Host "`n $(Get-Timestamp) Generated SlackToAzureADIdentityMapping.csv. Exiting..."
 ```
 
 When you’re done with this section, you should have:
