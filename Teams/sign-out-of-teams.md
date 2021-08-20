@@ -52,4 +52,4 @@ The Teams Android app now supports Global sign-in and sign-out, to provide a has
 
 While rare, it's possible that Teams might not be able to clean up after itself fully on sign-out. Based on user reports, the common causes include files being locked by a service running on the system but there could be other reasons dependent on an individual’s device configurations or policies and user permissions applied to the device.
 
-One common manifestation of this problem is that Teams will try to automatically select an existing account to sign the user in. In situations like this, the user might want to manually clean up Teams’ local cache. Learn more [support article] link.
+One common manifestation of this problem is that Teams will try to automatically select an existing account to sign the user in. In situations like this, the user might want to manually clean up Teams’ local cache. Learn more at [Sign in or remove an account from Teams](https://support.microsoft.com/office/sign-out-or-remove-an-account-from-teams-a6d76e69-e1dd-4bc4-8e5f-04ba48384487?ui=en-US&rs=en-US&ad=US).
