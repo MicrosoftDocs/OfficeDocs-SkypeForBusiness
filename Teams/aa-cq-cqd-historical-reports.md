@@ -291,6 +291,10 @@ Perform the following steps:
 |Date                                    |date                     |                                                    |
 
 
+> [!NOTE]
+> 1) This report shows the call counts from the agents' perspective and therefore the call count total on this report will typically be higher than the total number of calls on the **Cloud Call Queue Analytics** report. Each call in the queue may be presented to one or more agents at least once before it is answered. Every call queue call presented to an agent is counted on this report, even if it wasn't answered by the agent. The difference in the call counts between these two reports is more pronounced with the **Attendant routing** option which rings every agent for every call. 
+> 2) When a call first arrives at the first call queue, if the number of calls already waiting in that queue exceeds the **Call overflow handling** limit and if the redirect option sends calls to a second call queue then the agents in the second call queue will be shown as being in the first call queue on this report. 
+
 ## Known Issues
 
 - Call queue and auto attendants are shown by resource account's ID instead of call queue/auto attendant names.  To show all the traffic for an auto attendant or call queue you must select all the resource accounts assigned to the auto attendant or call queue.
