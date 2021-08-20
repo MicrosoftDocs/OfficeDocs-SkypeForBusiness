@@ -1522,6 +1522,8 @@ items:
           href: flw-onboarding-wizard.md  
         - name: Frontline Workers scripted deployment
           href: flw-scripted-deployment.md
+        - name: Manage the Shifts app
+          href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
         - name: Manage shift-based access for frontline workers
           href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
         - name: Manage schedule owners for shift management
@@ -1646,6 +1648,8 @@ items:
           href: alerts/teams-admin-alerts.md 
         - name: Teams device health monitoring
           href: alerts/device-health-status.md 
+        - name: Administrative unit functionality for device management
+          href: administrative-unit.md
     - name: Teams PowerShell
       items: 
         - name: Overview
