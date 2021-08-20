@@ -772,9 +772,9 @@ items:
             - name: Role-based access control
               href: rooms/microsoft-teams-rooms-premium-rbac.md
             - name: Obtain and assign a license
-              href: rooms/obtaining-and-assigning-a-license.md
+              href: rooms/obtaining-assigning-license.md
             - name: Enroll in MTRP managed service
-              href: rooms/enrolling-in-mtrp-managed-service.md
+              href: rooms/enrolling-mtrp-managed-service.md
 
              
 
