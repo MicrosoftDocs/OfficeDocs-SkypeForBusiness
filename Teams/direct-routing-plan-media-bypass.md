@@ -32,7 +32,7 @@ The diagrams below illustrate the difference in call flow with and without media
 Without media bypass, when a client makes or receives a call, both signaling and media flow between the SBC, the Microsoft Phone System, and the Teams client, as shown in the following diagram:
 
 > [!div class="mx-imgBorder"]
-> ![Shows signaling and media flow without media bypass](media/direct-routing-media-bypass-1.png)
+> ![Shows signaling and media flow without media bypass.](media/direct-routing-media-bypass-1.png)
 
 
 But let's assume that a user is in the same building or network as the SBC. For example, assume a user who is in a building in Frankfurt makes a call to a PSTN user: 
@@ -44,7 +44,7 @@ But let's assume that a user is in the same building or network as the SBC. For 
 - **With media bypass**, the media is kept directly between the Teams user and the SBC as shown in the following diagram:
 
   > [!div class="mx-imgBorder"]
-  > ![Shows signaling and media flow with media bypass](media/direct-routing-media-bypass-2.png)
+  > ![Shows signaling and media flow with media bypass.](media/direct-routing-media-bypass-2.png)
 
 Media bypass leverages protocols called Interactive Connectivity Establishment (ICE) on the Teams client and ICE lite on the SBC. These protocols enable Direct Routing to use the most direct media path for optimal quality. ICE and ICE Lite are WebRTC standards. For detailed information about these protocols, see RFC 5245.
 
@@ -70,7 +70,7 @@ The following diagram shows call flow when media bypass is enabled, the client i
 - The SIP signaling always takes paths 4 and 4' (depending on the direction of the traffic). Media stays local and takes path 5b.
 
 > [!div class="mx-imgBorder"]
-> ![Shows Call flow with Media Bypass enabled, client is internal](media/direct-routing-media-bypass-3.png)
+> ![Shows Call flow with Media Bypass enabled, client is internal.](media/direct-routing-media-bypass-3.png)
 
 
 ### Call flow if the user does not have access to the public IP address of the SBC
@@ -91,7 +91,7 @@ The following diagram shows call flow when media bypass is enabled, the client i
 - Media is relayed via paths 3, 3', 4 and 4'
 
 > [!div class="mx-imgBorder"]
-> ![Shows Call flow if user does not have access to public IP of the SBC](media/direct-routing-media-bypass-4.png)
+> ![Shows Call flow if user does not have access to public IP of the SBC.](media/direct-routing-media-bypass-4.png)
 
 
 ### Call flow if a user is outside the network and has access to the public IP of the SBC
@@ -106,7 +106,7 @@ The following diagram shows call flow when media bypass is enabled, the client i
 - The SIP signaling always takes paths 3 and 3' (depending on the direction of the traffic). Media flows using path 2.
 
 > [!div class="mx-imgBorder"]
-> ![Shows Call flow if user does not have access to public IP of the SBC](media/direct-routing-media-bypass-5.png)
+> ![Shows Call flow if user does not have access to public IP of the SBC.](media/direct-routing-media-bypass-5.png)
 
 
 ## Use of Media Processors and Transport Relays
@@ -131,7 +131,7 @@ The following diagram shows two call flows – one with media bypass enabled and
 - The SIP Proxy is a component that translates HTTP REST signaling used in Teams to SIP.    
 
 > [!div class="mx-imgBorder"]
-> ![Shows call flows with Media Bypass enabled and disabled](media/direct-routing-media-bypass-6.png)
+> ![Shows call flows with Media Bypass enabled and disabled.](media/direct-routing-media-bypass-6.png)
 
 
 The table below summarizes the difference between Media Processors and Transport Relays.
@@ -348,7 +348,7 @@ Users with media bypass trunk | 20 | sbc2.contoso.com:5060 | true |
 Both trunks can point to the same SBC with the same public IP address. The TLS signaling ports on the SBC must be different, as shown in the following diagram. Note you will need to make sure that your certificate supports both trunks. In SAN, you need to have two names (**sbc1.contoso.com** and **sbc2.contoso.com**) or have a wildcard certificate.
 
 > [!div class="mx-imgBorder"]
-> ![Shows both trunks can point to the same SBC with the same public IP](media/direct-routing-media-bypass-7.png)
+> ![Shows both trunks can point to the same SBC with the same public IP.](media/direct-routing-media-bypass-7.png)
 
 For information about how to configure two trunks on the same SBC, see the documentation provided by your SBC vendor:
 

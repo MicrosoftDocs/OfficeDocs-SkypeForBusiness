@@ -36,7 +36,7 @@ To edit or modify the settings for a SIP trunk, you do the following:
 
  **Associated Mediation Server port**: A required value, this is set to the value that the Mediation Server is configured to listen on.
 
-![Trunk Settings Expander](../../../media/Trunk_Settings_Expander.jpg)
+![Trunk Settings Expander.](../../../media/Trunk_Settings_Expander.jpg)
 
 ## See also
 

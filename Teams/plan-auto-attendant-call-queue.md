@@ -161,7 +161,7 @@ Calls redirected out of a queue can be sent to any of the call routing destinati
 
 The example below shows an example of call routing using auto attendants and call queues.
 
-![Diagram of call routing using auto attendants and call queues](media/attendant-and-queue-call-routing.png)
+![Diagram of call routing using auto attendants and call queues.](media/attendant-and-queue-call-routing.png)
 
 In the example above:
 

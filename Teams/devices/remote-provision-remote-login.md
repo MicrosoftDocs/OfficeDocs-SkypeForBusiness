@@ -55,7 +55,7 @@ In the **Provision new devices** window, you can either add the MAC address manu
 
 1. From the **Awaiting Activation** tab, select **Add MAC ID**.
 
-   ![manually add a device mac address](../media/remote-provision-6.png)
+   ![manually add a device mac address.](../media/remote-provision-6.png)
 
 1. Enter the MAC ID.
 1. Enter a location, which helps technicians identify where to install the devices.
@@ -83,15 +83,15 @@ When the device is powered on and connected to the network, the technician provi
 
 1. The technician selects **Provision device** from the **Settings**.  
 
-   ![Provision new device option from the Actions tab](../media/provision-device1.png)
+   ![Provision new device option from the Actions tab.](../media/provision-device1.png)
   
 2. The technician enters the device-specific verification code in the provided input field.
 
-   ![Provision new device verification](../media/provision-device-verification1.png)
+   ![Provision new device verification.](../media/provision-device-verification1.png)
 
    Once the device is provisioned successfully, the tenant name appears on the sign-in page.
 
-   ![Tenant name on sign-in page](../media/provision-code.png)
+   ![Tenant name on sign-in page.](../media/provision-code.png)
 
 ## Sign in remotely
 
@@ -103,7 +103,7 @@ The provisioned device appears in the **Awaiting sign in** tab. Start the remote
 
 2. Follow the instructions in **Sign in a user**, and then select **Close**.
 
-   ![the Sign in a user window for individual device](../media/sign-in-user.png)
+   ![the Sign in a user window for individual device.](../media/sign-in-user.png)
 
 ## Related article
 

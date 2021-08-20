@@ -24,7 +24,7 @@ For example, if you want to allow dial-in conferencing, you'll need to deploy a 
 
 **Conferencing capabilities and requirements**
 
-![Conferencing components](../../media/9359b98b-b3ab-46a1-acf0-93c7bab6fc67.png)
+![Conferencing components.](../../media/9359b98b-b3ab-46a1-acf0-93c7bab6fc67.png)
 
  For more information about topology considerations, see [Plan your conferencing topology for Skype for Business Server](conferencing-topology.md).
 

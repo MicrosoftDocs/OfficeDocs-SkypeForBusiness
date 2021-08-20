@@ -44,7 +44,7 @@ Visit [Country and region availability](country-and-region-availability-for-audi
   
 > [!IMPORTANT]
 > The country/region is based on the location of the user's license in the **Microsoft 365 admin center** > **Active users** and **NOT** the billing address listed under the **Organization Profile** in the **Microsoft 365 admin center**.   
-![Screen shot of user's license location](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
+![Screen shot of user's license location.](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
 For detailed information about usage limits and terms of use, see [Audio Conferencing complimentary dial-out period](complimentary-dial-out-period.md).
   

@@ -60,11 +60,11 @@ If you have previously defined that each app needs to be allowed, please go to t
 ## Where do educators find Reflect?
 Once you have enabled Reflect, educators go to the class and select **New Conversation**. They then select '**…**' to bring up messaging extensions and enter **Reflect** in the search bar. The dialog box guides them through defining the question and who can see what.
 
-:::image type="content" source="media/reflect-add-app.png" alt-text="Add Reflect to class team":::
+:::image type="content" source="media/reflect-add-app.png" alt-text="Add Reflect to class team.":::
 
 They can right-click on the Reflect icon and select **Pin** for easy access.
 
-:::image type="content" source="media/reflect-pin-app.png" alt-text="Pin the Reflect app":::
+:::image type="content" source="media/reflect-pin-app.png" alt-text="Pin the Reflect app.":::
 
 > [!TIP]
 > You can also locate the Reflect app through this link: [https://aka.ms/getReflect](https://aka.ms/getReflect)

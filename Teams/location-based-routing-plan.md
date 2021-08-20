@@ -86,7 +86,7 @@ This section describes different scenarios for restricting toll bypass by using 
 
 The following diagram shows the restrictions enabled by Location-Based Routing in each scenario. Users, network sites, and gateways that are enabled for Location-Based Routing have a border around them. Use the diagram as a guide to help you understand how Location-Based Routing works in each scenario.  
 
-![Diagram showing scenarios for Location-Based Routing](media/lbr-direct-routing.png "Diagram showing scenarios for Location-Based Routing")
+![Diagram showing scenarios for Location-Based Routing.](media/lbr-direct-routing.png "Diagram showing scenarios for Location-Based Routing")
 
 ### Teams user places an outbound call to the PSTN
 

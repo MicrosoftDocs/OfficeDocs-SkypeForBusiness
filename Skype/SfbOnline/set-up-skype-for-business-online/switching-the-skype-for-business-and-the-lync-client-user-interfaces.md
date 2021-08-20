@@ -56,7 +56,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 
 If you set the policy right, you will see:
   
-![PowerShell: SkypeUIEnabled](../images/b6b9d2e1-1a37-46df-9757-f81c6054e93b.png)
+![PowerShell: SkypeUIEnabled.](../images/b6b9d2e1-1a37-46df-9757-f81c6054e93b.png)
   
 To enable all of the users in your organization to use the Skype for Business (Lync) client, open the Remote PowerShell and type the following: 
   
@@ -66,7 +66,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 
 If you set the policy right, you will see:
   
-![PowerShell: SkypeUIDisabled](../images/f14ec3ce-4eb8-4a11-826e-6029043ed054.png)
+![PowerShell: SkypeUIDisabled.](../images/f14ec3ce-4eb8-4a11-826e-6029043ed054.png)
   
 To allow a single user in your organization to use the Skype for Business client, open the Remote PowerShell and type the following:
   
@@ -76,7 +76,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
 
 If you set the policy right, you will see:
   
-![Skype for Business Online - Enable UI](../images/596aef69-41dc-4e1e-b689-2b7009ae58a1.png)
+![Skype for Business Online - Enable UI.](../images/596aef69-41dc-4e1e-b689-2b7009ae58a1.png)
   
 To allow a single user in your organization to use the Skype for Business (Lync) client, open the Remote PowerShell and type the following:
   
@@ -86,7 +86,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI -Identity <username>
 
 If you set the policy right, you will see:
   
-![Skype for Business Online - UI Disabled](../images/61c645e0-67fc-4e03-803c-b7028a47dae3.png)
+![Skype for Business Online - UI Disabled.](../images/61c645e0-67fc-4e03-803c-b7028a47dae3.png)
   
 To allow multiple users in your organization to use the Skype for Business client, open the Remote PowerShell and type the following:
   

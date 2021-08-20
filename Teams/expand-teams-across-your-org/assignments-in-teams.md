@@ -95,12 +95,12 @@ The admin console is where you can create an integration and an API key associat
 
 Select **Integrations** from the side menu, then select **Add Integration** and give the integration a name.
 
-![Screenshot showing adding a new integration](./educationImages/Assignments_mopo_turnitin2.png)
+![Screenshot showing adding a new integration.](./educationImages/Assignments_mopo_turnitin2.png)
 
 The **TurnitinApiKey** will be given to you after you follow the prompts. 
 Copy the API key and paste it into the Microsoft Teams admin center.  This is the only time you can view the key.
 
-![Screenshot showing copying the API key](./educationImages/Assignments_mopo_turnitin3.png)
+![Screenshot showing copying the API key.](./educationImages/Assignments_mopo_turnitin3.png)
 
 Upon clicking the **Save** button in the admin center for this setting, allow a few hours for these settings to take effect.
 

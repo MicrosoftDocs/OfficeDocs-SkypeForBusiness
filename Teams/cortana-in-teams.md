@@ -85,7 +85,7 @@ Individual users can try Cortana voice assistance in different devices:
 
 You can control whether Cortana in Teams is enabled for your device by using a setting in the device.
 
-![shows the progression of mobile windows when you enable Cortana](media/cortana-mobile-sequence.png)
+![shows the progression of mobile windows when you enable Cortana.](media/cortana-mobile-sequence.png)
 
 ### Microsoft Teams Rooms on Windows
 

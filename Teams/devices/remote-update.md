@@ -67,7 +67,7 @@ To manually update remote devices, do the following:
 
 What you'll see depends on whether you have one, or multiple, devices selected. The left image below shows multiple devices selected while the image on the right shows a single device selected.
 
-:::image type="content" source="../media/device-update-status.png" alt-text="Single and multiple device views in device update status pane":::
+:::image type="content" source="../media/device-update-status.png" alt-text="Single and multiple device views in device update status pane.":::
 
 When you select multiple devices, you can choose which update types to apply to each selected device. Select the update types you want to apply and select **Update**.
 

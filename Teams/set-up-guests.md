@@ -43,7 +43,7 @@ description: Learn about how to turn on or turn off the guest access feature in 
 
 3. Set **Allow guest access in Microsoft Teams** to **On**.
 
-    ![Allow guest access switch set to On ](media/guest-access-setting.png)
+    ![Allow guest access switch set to On .](media/guest-access-setting.png)
 
 4. Under **Calling**, **Meeting**, and **Messaging**, select **On** or **Off** for each capability, depending on what you want to allow for guest users.
 
@@ -65,7 +65,7 @@ description: Learn about how to turn on or turn off the guest access feature in 
       - **Use memes in conversations** - Turn this setting **On** to allow guests to use Memes in conversations.
       - **Use Stickers in conversations** – Turn this setting **On** to allow guests to use stickers in conversations.
 
-    ![Guest permissions settings in Teams](media/manage-guest-access-image1.png)
+    ![Guest permissions settings in Teams.](media/manage-guest-access-image1.png)
 
 5. Select **Save**.
 

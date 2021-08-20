@@ -50,7 +50,7 @@ With Cloud Voicemail, your administration tasks are greatly simplified because:
 
 The following diagram shows Cloud Voicemail in a hybrid deployment:
 
-![SfB Cloud Voicemail](../../sfbserver2019/media/plan-cloud-voice-mail-server1.png)
+![SfB Cloud Voicemail.](../../sfbserver2019/media/plan-cloud-voice-mail-server1.png)
 
 Unanswered calls are handled as follows:  
 

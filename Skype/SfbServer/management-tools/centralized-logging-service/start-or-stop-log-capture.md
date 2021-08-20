@@ -116,7 +116,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    Show-CsClsLogging
    ```
 
-   ![Windows PowerShell console after calling Show-CsCl](../../media/Ops_Show_Stop_CsClsLogging.jpg)
+   ![Windows PowerShell console after calling Show-CsCl.](../../media/Ops_Show_Stop_CsClsLogging.jpg)
   
    The result of Show-CsClsLogging is a summary of the scenarios that are running and what scope they are running in. For details, see [Show-CsClsLogging](/powershell/module/skype/show-csclslogging?view=skype-ps).
     

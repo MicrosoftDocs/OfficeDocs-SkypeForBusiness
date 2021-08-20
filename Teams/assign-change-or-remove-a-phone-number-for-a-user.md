@@ -37,7 +37,7 @@ To learn how to get Calling Plans in Teams and how much they cost, see [Teams ad
   
 ## Assign a phone number to a user
  
-![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+![An icon showing the Microsoft Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
     
 1. In the left navigation, click **Voice** > **Phone numbers**.
 2. On the **Phone numbers** page, select an unassigned number in the list, and then click **Edit**.  
@@ -54,7 +54,7 @@ For a PowerShell example, see [Set-CsOnlineVoiceUser](/powershell/module/skype/s
   
 ## Change a phone number for a user
  
-![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+![An icon showing the Microsoft Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
     
 1. In the left navigation, click **Users**, locate and double-click the user you want, click **Account**, and then under **General information**, make a note of the phone number that's assigned to the user.
 2. In the left navigation, click **Voice** > **Phone numbers**.
@@ -70,7 +70,7 @@ For a PowerShell example, please see [Set-CsOnlineVoiceUser](/powershell/module/
 
 ## Remove a phone number from a user
  
-![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+![An icon showing the Microsoft Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
 1. In the left navigation, click **Users**, locate and double-click the user you want, click **Account**, and then under **General information**, make a note of the phone number that's assigned to the user.
 2. In the left navigation, click **Voice** > **Phone numbers**.

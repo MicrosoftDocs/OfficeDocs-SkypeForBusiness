@@ -98,7 +98,7 @@ A single large meeting requires at least one Front End Server and one Back End S
   
 **Large meeting topology**
 
-![Large meeting topology](../../media/06858900-a262-4a47-96d0-51abd6827064.png)
+![Large meeting topology.](../../media/06858900-a262-4a47-96d0-51abd6827064.png)
   
 The user who hosts the large meetings must have their user account homed in Front End pool. However, we do not recommend that you host other user accounts in this pool. Instead, use it only for the large meetings. The best practice is to create a special user account in this pool to be used only to host large meetings. Since the large meeting setting is optimized for performance, using it as a normal user could have problems such as the inability to promote a P2P session to a meeting when a PSTN endpoint is involved.
   

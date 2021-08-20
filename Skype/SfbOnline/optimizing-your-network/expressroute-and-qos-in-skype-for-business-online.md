@@ -306,7 +306,7 @@ Differentiated Services (DiffServ) is referred to as a "coarse grained" mechanis
    
  **IP Version 4 header**
   
-![IPv4 header](../images/c8a6a714-2784-4328-8297-2e62706f302d.png)
+![IPv4 header.](../images/c8a6a714-2784-4328-8297-2e62706f302d.png)
   
 ### Layer 2 QoS: IEEE 802.1p/Wi-Fi Multi-Media (IEEE 802.11e)
 

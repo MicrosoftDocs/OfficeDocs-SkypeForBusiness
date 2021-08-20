@@ -65,13 +65,13 @@ By default, external access is turned on in Teams, which means that your organiz
 
 ### Step 1 - Enable your organization to communicate with another Teams or Skype for Business organizations
 
-![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png)  **Using the Microsoft Teams admin center**
+![An icon showing the Microsoft Teams logo.](media/teams-logo-30x30.png)  **Using the Microsoft Teams admin center**
 
 1. In the left navigation, go to **Org-wide settings** > **External access**.
 
 2. Turn on the **Users can communicate with other Skype for Business and Teams users** setting.
 
-     ![Screenshot of Users can communicate with other Skype for Business and Teams users setting turned on](media/manage-external-access-2.png).
+     ![Screenshot of Users can communicate with other Skype for Business and Teams users setting turned on.](media/manage-external-access-2.png).
 
 3. If you want to allow all Teams organizations to communicate with users in your organization, skip to step 5.
 
@@ -104,13 +104,13 @@ To test your setup, you need a Teams user who's not behind your firewall.
 
 Follow these steps to let Teams users in your organization chat with and call Skype users. Teams users can then search for and start a one-on-one text-only conversation or an audio/video call with Skype users and vice versa.
 
-![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png)  **Using the Microsoft Teams admin center**
+![An icon showing the Microsoft Teams logo.](media/teams-logo-30x30.png)  **Using the Microsoft Teams admin center**
 
 1. In the left navigation, go to **Org-wide settings** > **External access**.
 
 2. Turn on the **Users can communicate with Skype users** setting.
 
-    ![Screenshot of Users can communicate with Skype setting turned on](media/manage-external-access-5.png).
+    ![Screenshot of Users can communicate with Skype setting turned on.](media/manage-external-access-5.png).
 
 To learn more about the ways that Teams users and Skype users can communicate, including limitations that apply, see [Teams and Skype interoperability](teams-skype-interop.md).
 

@@ -39,7 +39,7 @@ Sometimes Skype for Business users may need you to send them their Audio Confere
    
 Here is an example of the email that is sent:
   
-![Dial-in conferencing email](../images/audio-conferencing-info.png)
+![Dial-in conferencing email.](../images/audio-conferencing-info.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]

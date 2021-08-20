@@ -38,17 +38,17 @@ A user has one effective policy for each policy type. It's possible, or even lik
 
 If a user is directly assigned a policy (either individually or through a batch assignment), that policy takes precedence. In the following visual example, the user's effective policy is the Lincoln Square meeting policy, which is directly assigned to the user.
 
-![Diagram showing how a directly assigned policy takes precedence](media/assign-policies-example-directly-assigned.png)
+![Diagram showing how a directly assigned policy takes precedence.](media/assign-policies-example-directly-assigned.png)
 
 If a user isn't directly assigned a policy of a given type, the policy assigned to a group that the user is a member of takes precedence. If a user is a member of multiple groups, the policy that has the highest ([group assignment ranking](assign-policies-users-and-groups.md#group-assignment-ranking)) for the given policy type takes precedence.
 
 In this visual example, the user's effective policy is the Exec Teams and HD policy, which has the highest assignment ranking relative to other groups that the user is a member of and that are also assigned a policy of the same policy type.  
 
-![Diagram showing how a policy inherited from  group takes precedence](media/assign-policies-example-group.png)
+![Diagram showing how a policy inherited from  group takes precedence.](media/assign-policies-example-group.png)
 
 If a user isn't directly assigned a policy or isn't a member of any groups that are assigned a policy, the user gets the global (Org-wide default) policy for that policy type. Here's a visual example.
 
-![Diagram showing how a global policy takes precedence](media/assign-policies-example-global.png)
+![Diagram showing how a global policy takes precedence.](media/assign-policies-example-global.png)
 
 To learn more, see ([Precedence rules](assign-policies-users-and-groups.md#precedence-rules)).
 
@@ -77,7 +77,7 @@ Follow these steps to set the global (Org-wide default) policies for each policy
 2. Select the **Global (Org-wide default)** policy to view the current settings.
 3. Update the policy as needed, and then select **Apply**.
 
-![Update global policy in Teams admin center](media/assign-globalpolicy.png)
+![Update global policy in Teams admin center.](media/assign-globalpolicy.png)
 
 ### Using PowerShell
 
@@ -117,7 +117,7 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 
 When you assign policies to users in the Microsoft Teams admin center, you can view the status of those policy assignments in the Activity log. The Activity log shows policy assignments to batches of more than 20 users through the Microsoft Teams admin center from the last 30 days. Keep in mind that the Activity log doesn't show policy package assignments, policy assignments to batches of less than 20 users through the Microsoft Teams admin center, or policy assignments through PowerShell.
 
-![Screenshot of the Activity log page](media/activity-log.png)
+![Screenshot of the Activity log page.](media/activity-log.png)
 
 ## View your policy assignment activities in the Activity log
 
@@ -127,7 +127,7 @@ To view your policy assignments in the Activity log:
 2. You can view all policy assignments or filter the list by status to show only assignments that are **Not started**, **In progress**, or **Completed**. You'll see the following information about each assignment:
     - **Name**: The name of the policy assignment. Click the link to view more details. This includes the number of users the policy was assigned to and the number of assignments completed, in progress, and not started. You'll also see the list of users in the batch, and the status and result for each user. Here's an example:
 
-        ![Screenshot of the](media/activity-log-policy-assignment-detail.png)
+        ![Screenshot of the.](media/activity-log-policy-assignment-detail.png)
 
     - **Submitted**: Date and time the policy assignment was submitted.
     - **Completion time**: Date and time the policy assignment was completed.

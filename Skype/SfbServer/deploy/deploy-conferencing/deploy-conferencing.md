@@ -60,7 +60,7 @@ The dial-in conferencing flowchart shows the steps you must follow depending on 
 
 **Dial-in conferencing flowchart**
 
-![Deploy dial-in conferencing flow chart](../../media/95d2f963-7705-4930-90bc-df6a71a700bf.png)
+![Deploy dial-in conferencing flow chart.](../../media/95d2f963-7705-4930-90bc-df6a71a700bf.png)
 
 **Dial-in conferencing deployment checklist**
 

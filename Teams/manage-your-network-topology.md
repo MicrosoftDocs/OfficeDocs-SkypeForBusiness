@@ -38,7 +38,7 @@ You define network regions, network sites, and subnets on the **Network sites** 
 1. In the left navigation of the Microsoft Teams admin center, go to **Locations** > **Network topology**, and then click the **Network sites** tab.
 2. Click **Add**, and then enter a name and description for the site.
 
-    ![Screenshot of the Add network site page](media/manage-network-topology-add-site.png)
+    ![Screenshot of the Add network site page.](media/manage-network-topology-add-site.png)
 
 3. To associate the site with a network region, click **Add network region**, select an existing region or click **Add** to add a region, and then click **Link**.  
 4. To enable Location-Based Routing for the site, turn on **Location based routing**.
@@ -66,7 +66,7 @@ You manage external trusted IP addresses on the **Trusted IPs** tab on the **Net
 2. Click **New**.
 3. In the **Add trusted IP address** pane, specify the IP version, IP address, network range, add a description, and then click **Apply**.
 
-    ![Screenshot of the Add trusted IP address pane](media/manage-network-topology-add-trusted-ip.png)
+    ![Screenshot of the Add trusted IP address pane.](media/manage-network-topology-add-trusted-ip.png)
 
 #### Edit a trusted IP address
 

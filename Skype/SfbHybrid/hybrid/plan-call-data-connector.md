@@ -49,7 +49,7 @@ For more information, see [Call Analytics and Call Quality Dashboard diagram wit
 
 Of course, you might want to keep some call quality data on premises. This might be the case, for example, if you are using a third-party solution with customized reports and workflows.  Call Data Connector allows you to configure sending data to the online service while also keeping a copy of the data on your on-premises server, as shown in the following diagram:
 
-![SfB Cloud Voicemail](../../sfbserver2019/media/call-data-connector-plan-2.png)
+![SfB Cloud Voicemail.](../../sfbserver2019/media/call-data-connector-plan-2.png)
 
 ## Requirements
 

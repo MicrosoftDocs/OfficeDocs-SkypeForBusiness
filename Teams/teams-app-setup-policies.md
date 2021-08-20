@@ -42,7 +42,7 @@ Apps are pinned to the app bar, which is the bar on the side of the Teams deskto
 
 |Teams desktop client  |Teams mobile client |
 |---------|---------|
-|![The Teams desktop client](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![The Teams mobile client](media/mobile-app-ui.png)      |
+|![The Teams desktop client.](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![The Teams mobile client](media/mobile-app-ui.png)      |
 
 > [!NOTE]
 > If you have Teams for Education, it's important to know that the Assignments app is pinned by default in the global policy even though currently, you don't see it listed in the global policy. It will be the fourth app in the list of pinned apps on Teams clients.
@@ -68,7 +68,7 @@ To create an app setup policy to pin apps, do the following steps:
 
 8. Arrange the apps in the order that you want them to appear in Teams.
 
-   ![the Pinned apps section](media/app-setup-policies-new-policy-setup.png)
+   ![the Pinned apps section.](media/app-setup-policies-new-policy-setup.png)
 
 9. Select **Save**.
 
@@ -127,7 +127,7 @@ You manage app setup policies in the Microsoft Teams admin center. Use the globa
 
 You edit the settings in the global policy to include the apps that you want. To customize Teams for different groups of users in your organization, create and assign one or more custom policies.
 
-![the App setup policies page](media/app-setup-policies.png)
+![the App setup policies page.](media/app-setup-policies.png)
 
 ### Edit an app setup policy
 
@@ -188,7 +188,7 @@ To view all apps that are pinned for a user, users might have to do the followin
 |Teams desktop client |Teams mobile client |
 |---------|---------|
 |In the app bar on the side of Teams, select **... More apps**.| In the app bar near the bottom of Teams, swipe up.|
-|![More apps in the Teams desktop client](media/app-setup-policies-desktop-more-apps.png)<br>   |![more apps in the Teams mobile client](media/app-setup-policies-mobile-more-apps.png)  
+|![More apps in the Teams desktop client.](media/app-setup-policies-desktop-more-apps.png)<br>   |![more apps in the Teams mobile client](media/app-setup-policies-mobile-more-apps.png)  
 
 #### What do I need to know about the Teams mobile experience
 

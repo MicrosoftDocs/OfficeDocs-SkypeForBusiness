@@ -24,7 +24,7 @@ appliesto:
 
 # Understand Microsoft Teams and Skype for Business coexistence and interoperability
 
-![Upgrade journey diagram, emphasizing the Project Definition stage](media/upgrade-banner-project-definition.png "Stages of the upgrade journey, with emphasis on the Project Definition stage")
+![Upgrade journey diagram, emphasizing the Project Definition stage.](media/upgrade-banner-project-definition.png "Stages of the upgrade journey, with emphasis on the Project Definition stage")
 
 This article is part of the Project Definition stage of your upgrade journey. Complete after you create a sponsorship coalition and project team and define the scope, goals, and plan for your project. Before proceeding, confirm that you've completed the following activities:
 
@@ -82,7 +82,7 @@ When in **Teams Only** mode, Teams is the default app for the SIP/Tel protocol. 
 
 For extra considerations about moving to **Teams Only** mode, see [Teams Only mode considerations](teams-only-mode-considerations.md).
 
-![Screen shot of Teams confirmation message](media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "Skype for Business client running in a special mode after the user is upgraded as a Teams-only user")
+![Screen shot of Teams confirmation message.](media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "Skype for Business client running in a special mode after the user is upgraded as a Teams-only user")
 
 ### Skype for Business only
 
@@ -150,11 +150,11 @@ Depending on the coexistence modes assigned to users (as previously described), 
 
 Skype for Business users can chat one-on-one with Teams users, and vice versa. An interop chat needs to go through an interop gateway that's part of Teams cloud services (and therefore only exists online). Interop chats are plain text: rich text and emoticons aren't supported. Users in Teams and in Skype for Business are notified that the conversation is an interop conversation.
 
-<!--![Screen shot of Interop chat experience from Teams](media/Interop_chat_experience_from_Teams.png "Interop chat experience from Teams")-->
+<!--![Screen shot of Interop chat experience from Teams.](media/Interop_chat_experience_from_Teams.png "Interop chat experience from Teams")-->
 
 Skype for Business users can make one-on-one voice and video calls to Teams users, and Teams users can do the same.
 
-<!--![Screen shot of Interop calling experience from Teams](media/Interop_calling_experience_from_Teams.png "Interop calling experience from Teams")-->
+<!--![Screen shot of Interop calling experience from Teams.](media/Interop_calling_experience_from_Teams.png "Interop calling experience from Teams")-->
 
 > [!Important]
 > Interop experiences with an on-premises deployment of Skype for Business require that the on-premises environment is in hybrid mode with Microsoft 365 or Office 365 Skype for Business. For details, see [Migration and interoperability guidance](./migration-interop-guidance-for-teams-with-skype.md).
@@ -195,11 +195,11 @@ When the signaling indicated that the response came from (or through) the intero
 
 To prevent these false positives, the presence service is now informing the Skype for Business client when the other party is a **Teams Only** actual user. This allows Skype for Business to be aware that it needs to create an interop conversation ahead of it having been created, and the conversation window to be specific to interop.
 
-![Screen shot of Teams message to create interop conversation with a Skype for Business user](media/teams-and-skypeforbusiness-coexistence-and-interop-create-conversation-with-skype-user.png)
+![Screen shot of Teams message to create interop conversation with a Skype for Business user.](media/teams-and-skypeforbusiness-coexistence-and-interop-create-conversation-with-skype-user.png)
 
 If the Skype for Business user wants to share their desktop for example, they are informed that we will start a meeting and guided through the steps.
 
-![Screen shot of Teams message to start meeting with a Teams user](media/teams-and-skypeforbusiness-coexistence-and-interop-start-meeting-with-teams-user.png)
+![Screen shot of Teams message to start meeting with a Teams user.](media/teams-and-skypeforbusiness-coexistence-and-interop-start-meeting-with-teams-user.png)
 
 Meanwhile, the Teams user receives an incoming chat message with the link to the meeting and are guided to join.
 
@@ -215,7 +215,7 @@ In interoperability threads, and in federation interoperability threads, the Tea
 
 If the users were in a call, the menu also warns them that their current call between Teams and Skype for Business will be terminated as they are put into a Teams meeting. If they choose, they can warn the Skype for Business user prior to accepting.
 
-![Screen shot of Teams message to share meeting with a Skype for Business user](media/teams-and-skypeforbusiness-coexistence-and-interop-share-meeting-with-skype-user.png)
+![Screen shot of Teams message to share meeting with a Skype for Business user.](media/teams-and-skypeforbusiness-coexistence-and-interop-share-meeting-with-skype-user.png)
 
 Upon acceptance, they are put in the Teams meeting; they must start sharing from the sharing tray in the meeting.
 
@@ -283,15 +283,15 @@ These differences are shown in the following screenshots:
 
 A native Teams-to-Teams conversation with User G3 Test
 
-![Diagram showing a native Teams-to-Teams conversation](media/teams-upgrade-native-thread.png)
+![Diagram showing a native Teams-to-Teams conversation.](media/teams-upgrade-native-thread.png)
 
 An interop conversation with the same User G3 Test
 
-![Diagram showing an interop Teams-to-Teams conversation](media/teams-upgrade-interop-thread.png)
+![Diagram showing an interop Teams-to-Teams conversation.](media/teams-upgrade-interop-thread.png)
 
 Once a conversation thread is created, its type never changes. Once created, an interop thread in Teams will always route to the target user’s Skype for Business client. A native thread will always route to the target user’s Teams client.  If a recipient user’s mode changes, existing Teams threads to that user will no longer function and a note will be displayed on that chat with a link to start a new native conversation as shown in the following screenshot.
 
-![Diagram showing a chat with upgraded Skype for Business user](media/teams-upgrade-chat-with-upgraded-sfb-user.png)
+![Diagram showing a chat with upgraded Skype for Business user.](media/teams-upgrade-chat-with-upgraded-sfb-user.png)
 
 ### Presence
 

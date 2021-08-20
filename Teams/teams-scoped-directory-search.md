@@ -53,7 +53,7 @@ To learn how to use address book policies, read [Information Barrier policies in
 
 3. Under **Search**, next to **Scope directory search in Teams using an Exchange address book policy (ABP)**, turn the toggle **On**.
 
-    ![Scoped directory search in Microsoft Teams admin center](media/teams-scoped-directory-search-image1.png)
+    ![Scoped directory search in Microsoft Teams admin center.](media/teams-scoped-directory-search-image1.png)
 
 
 > [!IMPORTANT]

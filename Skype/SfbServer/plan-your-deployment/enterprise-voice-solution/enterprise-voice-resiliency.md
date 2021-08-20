@@ -217,7 +217,7 @@ The following figure shows the recommended topologies for branch-site resiliency
 
 **Branch site resiliency options**
 
-![Voice Branch Resiliency Options](../../media/Plan_OCS_Voice_BranchResiliencyOptions.jpg)
+![Voice Branch Resiliency Options.](../../media/Plan_OCS_Voice_BranchResiliencyOptions.jpg)
 
 #### Survivable Branch Appliance Details
 

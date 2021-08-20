@@ -48,21 +48,21 @@ To start customizing an app, complete the following steps:
 2. Expand **Teams Apps** and select **Manage apps**.
 3. Check the **Customizable** column of the apps list and sort by apps that are customizable.
 
-   ![The customize column that's sorted](media/customize-column.png)
+   ![The customize column that's sorted.](media/customize-column.png)
 
    There are three entry points to access the customize feature:
 
    - Select next to the app that you want to customize, and then select **Customize**.
 
-     ![The customize selection option 1](media/select-app-to-customize1.png)
+     ![The customize selection option 1.](media/select-app-to-customize1.png)
 
    - Select the app name and then **Customizable**.
 
-     ![The customize selection option 2](media/app-details-customizable.png)
+     ![The customize selection option 2.](media/app-details-customizable.png)
 
    - Select the app name, and then select **Customize** from the **Actions** dropdown.
 
-     ![The customize selection option 3](media/customize-action-menu.png)
+     ![The customize selection option 3.](media/customize-action-menu.png)
 
 4. Expand the **Details** section and customize the following fields:
 
@@ -73,7 +73,7 @@ To start customizing an app, complete the following steps:
     - Privacy policy URL
     - Terms of use URL
 
-   ![The customize settings](media/customize-settings.png)
+   ![The customize settings.](media/customize-settings.png)
 
 > [!Note]
 > Only the fields that the app developer has assigned as customizable will be visible.
@@ -86,7 +86,7 @@ To start customizing an app, complete the following steps:
 
    c. Select an app accent color that matches the icon.
 
-    ![Customize the icon panel color options](media/customize-app-colors.png)
+    ![Customize the icon panel color options.](media/customize-app-colors.png)
 
 6. Once your app has been customized, select **Apply**.
 
@@ -96,7 +96,7 @@ To start customizing an app, complete the following steps:
 
 Now your Teams end users can open their Teams client to see the customized app.
 
-   ![Customized app in Teams client](media/contoso-app.png)
+   ![Customized app in Teams client.](media/contoso-app.png)
 
 ### Special considerations for customizing an app
 
@@ -122,7 +122,7 @@ You might want to see the app details to review the information.
 
 4. View the app details, including the original app name **Short name from publisher**.
 
-   ![Customize the icon panel app name](media/original-app-version.png)
+   ![Customize the icon panel app name.](media/original-app-version.png)
 
    The **Short name from publisher** field is only visible if you've changed the app's short name.
 
@@ -138,7 +138,7 @@ At any time, you can reset the app details to the original settings.
 
 4. Select **Reset to default** from the **Actions** dropdown.
 
-   ![Select reset to default highlighted](media/select-reset.png)
+   ![Select reset to default highlighted.](media/select-reset.png)
 
 ## Frequently asked questions
 

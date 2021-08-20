@@ -52,7 +52,7 @@ For the Skype Room account, the following licensing is required:
 
 The following diagram provides an overview of the Skype Room System account provisioning flow.
   
-![Skype Room System Provisioning steps](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
+![Skype Room System Provisioning steps.](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
   
 ## Identify a new conference room
 

@@ -71,7 +71,7 @@ After you configure the client and sign in successfully, use the following tests
 
 1. In the Contacts list, tap a contact.
     
-2. In the contact card, tap the instant messaging (IM) ![Icon for instant messaging in Skype for Business](../../media/90f8d5fa-7968-4ef7-bf5b-dddf9b893905.png)icon.
+2. In the contact card, tap the instant messaging (IM) ![Icon for instant messaging in Skype for Business.](../../media/90f8d5fa-7968-4ef7-bf5b-dddf9b893905.png)icon.
     
 3. Verify that an IM window appears and that you can type and send an IM.
     

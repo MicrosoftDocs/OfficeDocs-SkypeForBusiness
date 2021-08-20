@@ -101,7 +101,7 @@ This article contains the following sections:
 
 With Cloud Connector Edition, you deploy a set of packaged VMs that contain a minimal Skype for Business Server topology—consisting of an Edge component, Mediation component, and a Central Management Store (CMS) role. You will also install a domain controller, which is required for the internal functioning of Cloud Connector. These services are configured for hybrid with your Microsoft 365 or Office 365 organization that includes Skype for Business Online services.
 
-![Cloud Connector Edition components](../../media/f2d4b8a7-c2f4-4cfc-8137-f187399c1298.png)
+![Cloud Connector Edition components.](../../media/f2d4b8a7-c2f4-4cfc-8137-f187399c1298.png)
 
 Cloud Connector components provide the following functionality:
 
@@ -177,7 +177,7 @@ When planning your topology, consider the following:
 
 The following diagram shows a single Cloud Connector Edition appliance within a single PSTN site. Note that Cloud Connector consists of four VMs installed on one physical host machine that is within a perimeter network for security purposes.
 
-![One Cloud Connector with One PSTN Site](../../media/7ffe6953-8c66-4323-940e-cd2e6c3c2a66.png)
+![One Cloud Connector with One PSTN Site.](../../media/7ffe6953-8c66-4323-940e-cd2e6c3c2a66.png)
 
 ### Multiple Cloud Connector appliances within a single PSTN site
 
@@ -195,7 +195,7 @@ The following diagram shows a single Cloud Connector Edition appliance within a 
 
     For the smaller version of Cloud Connector, N+2 boxes support 50\*N concurrent calls with 99.9% availability.
 
-![Two Cloud Connectors within 1 PSTN Site](../../media/fc0dc47f-5595-42cb-9432-9c8ff3e134e9.png)
+![Two Cloud Connectors within 1 PSTN Site.](../../media/fc0dc47f-5595-42cb-9432-9c8ff3e134e9.png)
 
 ### Multiple PSTN sites with one or more Cloud Connectors per site
 
@@ -203,7 +203,7 @@ You can also choose to have multiple PSTN sites with one or more Cloud Connector
 
 Multiple PSTN sites also allow you to provide connectivity to gateways that are closest to your users. For example, assume you have PSTN gateways in Seattle and Amsterdam. You can deploy two PSTN sites—one in Seattle, one in Amsterdam—and assign users to use the PSTN site that is closest to them. Users from Seattle will be routed to the Seattle PSTN site and gateways, while users in Amsterdam will be routed to the Amsterdam PSTN site and gateways:
 
-![Cloud Connector Edition Within 2 PSTN Sites](../../media/16ead6d3-67da-4e71-b4d5-d895b4c9384e.png)
+![Cloud Connector Edition Within 2 PSTN Sites.](../../media/16ead6d3-67da-4e71-b4d5-d895b4c9384e.png)
 
 ## Requirements for deployment
 <a name="BKMK_Requirements"> </a>
@@ -642,7 +642,7 @@ In the first diagram, an internal user places an outbound call as follows:
 
 6. The Mediation component sends the traffic to the PSTN gateway.
 
-![Outbound Media flow for Cloud Connector](../../media/c495a2bb-305c-46ef-b16d-b8f9f2b937a8.png)
+![Outbound Media flow for Cloud Connector.](../../media/c495a2bb-305c-46ef-b16d-b8f9f2b937a8.png)
 
 In the next diagram, an internal user receives an inbound call as follows:
 
@@ -658,7 +658,7 @@ In the next diagram, an internal user receives an inbound call as follows:
 
 6. Media traffic will be established between the gateway and Mediation component and between the Mediation component and the end point.
 
-![Inbound Media Flow for Cloud Connector](../../media/ba5da6f6-e357-43c6-9e8f-4bfdde97c176.png)
+![Inbound Media Flow for Cloud Connector.](../../media/ba5da6f6-e357-43c6-9e8f-4bfdde97c176.png)
 
 ## Monitoring and troubleshooting
 <a name="BKMK_Monitor"> </a>

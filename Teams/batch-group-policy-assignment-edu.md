@@ -46,7 +46,7 @@ Keep in mind that the Global policy will apply to all users in your school until
 
 In this tutorial, students will get the Global meeting policy and we'll assign a custom meeting policy named EducatorMeetingPolicy to staff and educators. We assume that you've edited the Global policy to tailor meeting settings for students and [created a custom policy](policy-packages-edu.md) that defines the meeting experience for staff and educators.
 
-![Screenshot of the Meeting policies page in the Teams admin center](media/batch-group-policy-assignment-edu-meeting-policies.png)
+![Screenshot of the Meeting policies page in the Teams admin center.](media/batch-group-policy-assignment-edu-meeting-policies.png)
 
 ## Assign a policy to a group
 
@@ -84,7 +84,7 @@ If you're unable to deploy SDS within your environment, use [this PowerShell scr
 2. Select the **Group policy assignment** tab.
 3. Select **Add group**, and then in the **Assign policy to group** pane, do the following:
 
-    ![Screenshot of the Edit settings pane, showing meeting policy](media/batch-group-policy-assignment-edu-group.png)
+    ![Screenshot of the Edit settings pane, showing meeting policy.](media/batch-group-policy-assignment-edu-group.png)
     1. In the **Select a group** box, search for and add the security group that contains your staff and educators.
     2. In the **Select rank** box, enter **1**.
     3. In the **Select a policy** box, select **EducatorMeetingPolicy**.

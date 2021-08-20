@@ -36,7 +36,7 @@ Watch this short video to learn how to manage template policies.
 
 3. Select **Add**.
 
-    ![The template policies is selected and Add is highlighted](media/template-policies-1.png)
+    ![The template policies is selected and Add is highlighted.](media/template-policies-1.png)
 
 1. In the **Templates Policies Settings** section, complete the following fields:
 
@@ -46,7 +46,7 @@ Watch this short video to learn how to manage template policies.
 
 2. In the **Viewable Templates** table, select the templates you want to hide and select **Hide**.
 
-    ![The selected templates with hide highlighted](media/template-policies-2.png)
+    ![The selected templates with hide highlighted.](media/template-policies-2.png)
 
     You can see the templates you've selected to hide in the **Hidden Templates** table.
 
@@ -54,7 +54,7 @@ Watch this short video to learn how to manage template policies.
 
 2. Select the templates to unhide, and then select **Show**.
 
-   ![The selected templates that aren't hidden](media/template-policies-3.png)
+   ![The selected templates that aren't hidden.](media/template-policies-3.png)
 
    The selected templates will appear in your **Viewable templates** table.
 3. Select **Save**.
@@ -69,7 +69,7 @@ Users assigned to a policy will only be able to view the viewable templates with
 
 2. Type the users to assign to this policy.
 
-   ![assign users to a template policy](media/template-policies-4.png)
+   ![assign users to a template policy.](media/template-policies-4.png)
 
 3. Select **Apply**.
 
@@ -116,7 +116,7 @@ A: In the Admin center:
 2. Select the filter in the Users list table and filter for the team template policy.
 3. Select **Apply**.
 
-![The selected template policy and view users](media/template-policies-5.png)
+![The selected template policy and view users.](media/template-policies-5.png)
 
 **Q: Can I manage templates policies via PowerShell?**
 

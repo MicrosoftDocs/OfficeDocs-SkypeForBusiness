@@ -31,7 +31,7 @@ See [Chromium Memory Usage](https://www.chromium.org/developers/memory-usage-bac
 
 The following image shows side-by-side memory usages of the Teams desktop app for Windows and the Teams Web app (in this example, running in Google Chrome).
 
-![Teams memory usage for the desktop app and Web app](media/teams-memory-clientweb.png)
+![Teams memory usage for the desktop app and Web app.](media/teams-memory-clientweb.png)
 
 ## Memory usage in Teams
 
@@ -45,7 +45,7 @@ In this way, similar Chromium workloads can utilize varying amounts of memory, d
 
 The following graph depicts memory usage by Teams on four separate systems, each with different amounts of memory available. Each of the systems is processing similar workloads (same apps open and running).
 
-![Teams memory usage across different systems](media/teams-memory-usage.png)
+![Teams memory usage across different systems.](media/teams-memory-usage.png)
 
 When computers have more memory, Teams will use that memory. In systems where memory is scarce, Teams will use less.
 
@@ -59,6 +59,6 @@ If you see one or more of the following symptoms on your computer, you could hav
 
 The following images show examples of views in Task Manager when system memory usage is abnormally high.
 
-![Teams memory usage view in Task Manager](media/teams-memory-high-mem-process-list.png)
+![Teams memory usage view in Task Manager.](media/teams-memory-high-mem-process-list.png)
 
-![Teams memory usage graph in Task Manager](media/teams-memory-high-mem-process-list2.png)
+![Teams memory usage graph in Task Manager.](media/teams-memory-high-mem-process-list2.png)

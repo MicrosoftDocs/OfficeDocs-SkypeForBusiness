@@ -32,7 +32,7 @@ The following activities will happen simultaneously, and they may involve all or
 
 To learn more, read [Plan for governance in Teams](plan-teams-governance.md) and [Plan for lifecycle management in Teams](plan-teams-lifecycle.md).
 
-## ![An icon representing a decision point](media/teams-adoption-decision-icon.png)Decisions
+## ![An icon representing a decision point.](media/teams-adoption-decision-icon.png)Decisions
 
 Make the following decisions (at this point, these decisions apply only to Phase 2):
 
@@ -67,4 +67,4 @@ In preparation for your broad deployment you may opt to use security labels to c
 
 A successful Teams implementation proceeds at a healthy pace to ensure appropriate momentum, focus, and learnings. We recommend that this phase of your project be 60 days in length to ensure that your early adopters complete sufficient business cycles. Extending experimentation for too lengthy a time increases the risk of a failed change program; however, this time will vary for every organization.  
 
-![An icon representing the next step](media/teams-adoption-next-icon.png) Next: [Define usage scenarios](teams-adoption-define-usage-scenarios.md)
+![An icon representing the next step.](media/teams-adoption-next-icon.png) Next: [Define usage scenarios](teams-adoption-define-usage-scenarios.md)

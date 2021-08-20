@@ -42,7 +42,7 @@ Tenant dial plans can be further broken into two scopes - tenant-scope or user-s
 
 The following is the inheritance model of dial plans in Teams.
 
-![How dial plans are inherited in Teams](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
+![How dial plans are inherited in Teams.](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
 
 The following are the possible effective dial plans:
 

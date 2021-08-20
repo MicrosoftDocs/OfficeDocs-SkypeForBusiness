@@ -131,7 +131,7 @@ Use the [Manage apps page](/microsoftteams/manage-apps) to view the Teams apps i
 
 4. Select **Career Coach**, and then select **Settings.**  
 
-    ![shows the Career Coach app selected with the Settings option showing](media/career-coach-app.png)
+    ![shows the Career Coach app selected with the Settings option showing.](media/career-coach-app.png)
 
 ### Configure the Career Coach app settings
 
@@ -157,7 +157,7 @@ Set your educational institution’s name, logo, and default language on the bra
 > [!NOTE]
 > This is a required section - Career Coach can not be enabled without the Brand and preferences submitted.
 
-![the Career Coach branding section of the admin center](media/career-coach-brand.png)
+![the Career Coach branding section of the admin center.](media/career-coach-brand.png)
 
 ##### Educational institution icon
 
@@ -192,17 +192,17 @@ Determine the educational institution's LinkedIn page. Find the LinkedIn page by
 
 2. Find the LinkedIn page by searching on LinkedIn and selecting School filter. Or connect with a career services staff member to determine the correct LinkedIn school page to use. [How to identify LinkedIn pages](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en)
 
-    ![linkedin search for school](media/career-coach-school-search.png)
+    ![linkedin search for school.](media/career-coach-school-search.png)
 
 3. Add the LinkedIn school page URL. The URL must be a school page and not a company page and are typically formatted as `https://www.linkedin.com/school/willow-university/`.
 
-   ![linkedin school page example](media/career-coach-linkedin-page-url.png)
+   ![linkedin school page example.](media/career-coach-linkedin-page-url.png)
 
 4. Select **Submit**.
 
 5. If successfully submitted, the page will be updated to show the **Verification link** and **Verification link expiration**. The verification link expires after 30 days.
 
-   ![linkedin connections for the career coach app](media/career-coach-linked-in.png)  
+   ![linkedin connections for the career coach app.](media/career-coach-linked-in.png)  
 
 6. Copy the verification link and share it with your educational institution’s LinkedIn page super admin. Learn more about the LinkedIn page super admin role at the [LinkedIn page admin documentation](https://www.linkedin.com/help/linkedin/answer/102672).
 
@@ -211,7 +211,7 @@ Determine the educational institution's LinkedIn page. Find the LinkedIn page by
 > [!NOTE]
 > The verification by the LinkedIn page super admin is required to complete the LinkedIn connection for Career Coach.
 
-   ![linkedin page verification in the linkedin developer portal](media/career-coach-linkedin-verification.png)
+   ![linkedin page verification in the linkedin developer portal.](media/career-coach-linkedin-verification.png)
 
 #### Course catalog
 
@@ -262,7 +262,7 @@ Including the recommended fields improves the experience for students by returni
 
 4. Select **Submit**.
 
-   ![the course catalog section of the career coach app](media/course-catalog.png)
+   ![the course catalog section of the career coach app.](media/course-catalog.png)
 
 #### Fields of study
 
