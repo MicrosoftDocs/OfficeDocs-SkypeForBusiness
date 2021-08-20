@@ -44,25 +44,26 @@ The following table briefly summarizes the three types of meetings, the number o
 | Type of meeting | Number of participants | Interaction | Registration supported |
 |----------|--------|--------|-----|
 | Meetings  | Up to 1,000* <br> | -Participants up to 1,000* have fully interactive equal meeting capabilities.  | No |
-| Webinars | -Up to 1,000<br>-Increased limits with [View-only](view-only-meeting-experience.md) capabilities coming soon. |-Participants up to 1,000 have fully interactive capabilities. <br> -Audience interaction configurable. <br> -Can specify presenters. | Yes |
-| Live events | Up to 20,000** |-Broadcast to large audiences. <br>-Moderated Q&A for audience interaction. <br> -Can specify producers and presenters, including external presenters.<br>-Supports more advanced production capabilities. | No |
+| Webinars | Up to 1,000<br> |-Participants up to 1,000 have fully interactive capabilities. <br> -Audience interaction configurable. <br> -Can specify presenters. | Yes |
+| Live events | Up to 20,000** |-View-only broadcast to large audiences. <br>-Moderated Q&A for audience interaction. <br> -Can specify producers and presenters, including external presenters.<br>-Supports more advanced production capabilities.<br>-Supports eCDN | No |
 ||||
 
-*For Meetings where more than 1,000 attendees unintentionally join, attendees will join in a View Only Experience ([View-only](view-only-meeting-experience.md)) and up to 20,000 such attendees may join. For meetings where you do intent to have over 1,000 users, we recommend using Teams Live Events. <br>
+\*For Meetings where more than 1,000 attendees join, attendees will join in a View Only Experience ([View-only](view-only-meeting-experience.md)) and up to 10,000** such attendees may join.<br>
 
-**The usual 10,000 is increased to 20,000 through December 31, 2021. You can schedule even greater numbers with live events in Yammer and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365). Note that events over 20,000 attendees require the [Live Events Assistance Program](/stream/live-events-assistance). 
+**We have temporarily extended the broadcast view-only experience to 20,000 attendees during COVID-19, and this will revert back to the original capacity of 10,000 attendees on December 31, 2020. Note that [Live Events Assistance Program](/stream/live-events-assistance) is available to help you host your next large meeting, Webinar, and Live Event. 
 
 **Considerations for large meetings, webinars, and live events** - When hosting large meetings, consider the following:
 
-- For meetings where you anticipate more than 1,000 participants, use Teams Live Events. 
+- For large events where you anticipate more than 1,000 participants, consider using Teams Live Events and take advantage of of broadast capabilities. 
 
 - For the best experience in large meetings, webinars, and live events, Microsoft recommends using the latest version of the Teams desktop client or Teams mobile clients. 
 
 - Presenters in large meetings, webinars, and live events should use the Teams desktop client. 
 
-- For more tips on hosting large meetings, see [Best practices for a large Teams meeting](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
-
-For information about the view-only meeting experience, see [Teams view-only meeting experience](view-only-meeting-experience.md).
+- For more tips on hosting large meetings, see: <br>
+  - [Best practices for a large Teams meeting](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)
+  - [Hosting Teams Live Events](https://docs.microsoft.com/en-us/microsoftteams/teams-live-events/what-are-teams-live-events)
+  - [Hosting Webinars](https://docs.microsoft.com/en-us/microsoftteams/set-up-webinars)
 
 Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
 
