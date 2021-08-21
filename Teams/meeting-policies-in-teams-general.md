@@ -179,5 +179,5 @@ Meeting reactions are Off by default. Turning off reactions for a user doesn't m
 ## Related topics
 
 - [Teams PowerShell overview](teams-powershell-overview.md)
-- [Assign policies to your users in Teams](assign-policies.md)
+- [Assign policies in Teams](policy-assignment-overview.md)
 - [Remove the RestrictedAnonymousAccess Teams meeting policy from users](meeting-policies-restricted-anonymous-access.md)

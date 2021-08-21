@@ -121,15 +121,14 @@ For optimal Skype for Business media quality, the following network performance 
   
 > [!CAUTION]
 > **Connectivity between a Skype for Business client on your company network to Microsoft 365 or Office 365 services must meet these following network performance requirements and thresholds.**
-  
-|||
-|:-----|:-----|
+
 |**Metric** <br/> |**Target** <br/> |
-|Latency (one way)  <br/> |< 50 ms  <br/> |
-|Latency (RTT or Round-trip Time)  <br/> |< 100 ms  <br/> |
-|Burst packet loss  <br/> |<10% during any 200-ms interval  <br/> |
-|Packet loss  <br/> |<1% during any 15-s interval  <br/> |
-|Packet inter-arrival Jitter  <br/> |<30ms during any 15-s interval  <br/> |
+|:-----|:-----|
+|Latency (one way)  <br/> |< 50ms  <br/> |
+|Latency (RTT or Round-trip Time)  <br/> |< 100ms  <br/> |
+|Burst packet loss  <br/> |<10% during any 200ms interval  <br/> |
+|Packet loss  <br/> |<1% during any 15s interval  <br/> |
+|Packet inter-arrival Jitter  <br/> |<30ms during any 15s interval  <br/> |
 |Packet reorder  <br/> |<0.05% out-of-order packets  <br/> |
    
  **Other performance target requirements:**
@@ -147,15 +146,14 @@ The following are the network performance targets or thresholds that are require
   
 > [!CAUTION]
 > **Connectivity between your company network Edge to the Microsoft network edge must meet these following network performance requirements and thresholds.**
-  
-|||
-|:-----|:-----|
+
 |**Metric** <br/> |**Target** <br/> |
-|Latency (one way)  <br/> |< 30 ms  <br/> |
-|Latency (RTT)  <br/> |< 60 ms  <br/> |
-|Burst packet loss  <br/> |<1% during any 200-ms interval  <br/> |
-|Packet loss  <br/> |<0.1% during any 15-s interval  <br/> |
-|Packet inter-arrival Jitter  <br/> |<15ms during any 15-s interval  <br/> |
+|:-----|:-----|
+|Latency (one way)  <br/> |< 30ms  <br/> |
+|Latency (RTT)  <br/> |< 60ms  <br/> |
+|Burst packet loss  <br/> |<1% during any 200 ms interval  <br/> |
+|Packet loss  <br/> |<0.1% during any 15s interval  <br/> |
+|Packet inter-arrival Jitter  <br/> |<15ms during any 15s interval  <br/> |
 |Packet reorder  <br/> |<0.01% out-of-order packets  <br/> |
    
  **Other performance target requirements:**
@@ -174,9 +172,9 @@ To measure the actual network performance, especially for latency and packet los
   
 For testing Internet connections to the Microsoft network, it is recommended that you test against the following VIPs of the Skype for Business media relays. The *Anycast VIP*  will resolve to an IP address of a Media Relay in a Microsoft network Edge site that is closest to the testing location.
   
-||||
+
+|**IP address** <br/> |**Type** <br/> |**Location** <br/>|
 |:-----|:-----|:-----|
-|**IP address** <br/> |**Type** <br/> |**Location** <br/> |
 |13.107.8.2  <br/> |VIP  <br/> |World Wide Anycast IP  <br/> |
    
  **Here are some high level recommendations to follow for assessing network performance:**
@@ -198,9 +196,10 @@ For those network assessment solutions based on Azure hosted testing services. W
   
 Below are the latency (RTT) targets for the Azure service-based network assessment setup. The one-way latency targets will be half of the corresponding RTT targets. The packet loss and jitter goals stay the same as those defined for Skype Media Relay based testing.
   
-|||||
-|:-----|:-----|:-----|:-----|
+
+
 |**Customer region** <br/> |**Azure region** <br/> |**Your network Edge - Azure Round-trip Time (RTT)** <br/> |**Your Site - Azure Round-trip Time (RTT)** <br/> |
+|:-----|:-----|:-----|:-----|
 |Central US  <br/> |Central US  <br/> |99  <br/> |139  <br/> |
 |East US  <br/> |East US  <br/> |86  <br/> |126  <br/> |
 |North Central US  <br/> |North Central US  <br/> |97  <br/> |137  <br/> |
