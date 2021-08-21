@@ -47,7 +47,7 @@ If you turn this on, users can schedule webinars. By default, this is turned on.
 If you select **Everyone**, all users, including anonymous users, can register for and attend webinars. If you select **Everyone in the organization**, only users in your organization can register for webinars. If meeting registration is turned off, this option will not be available and no one can register for webinars.
 
 > [!NOTE]
-> The default value for **Who can register** is **Everyone in the organization** in education tenants. For more information, see [Teams for Education Policy Wizard](/easy-policy-setup-edu).
+> The default value for **Who can register** is **Everyone in the organization** in education tenants. For more information, see [Teams for Education Policy Wizard](easy-policy-setup-edu.md).
 
 ### Allow engagement report
 
@@ -118,4 +118,4 @@ After enabling your environment for webinars, no further admin management is req
 
 - [Meeting policies in Teams - General](meeting-policies-in-teams-general.md)
 - [Set-CsTeamsMeetingPolicy documentation](/powershell/module/skype/set-csteamsmeetingpolicy)
-- [Teams for Education Policy Wizard](/easy-policy-setup-edu)
+- [Teams for Education Policy Wizard](easy-policy-setup-edu.md)

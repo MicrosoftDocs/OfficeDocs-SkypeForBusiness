@@ -40,7 +40,7 @@ This article describes the Approvals app requirements and roles.
 
 ## Required permissions and licenses
 
-To use the Approvals app, you need permission for the following items:
+To deploy the Approvals app, you need permission for the following items:
 
 - Permissions to create a Microsoft CDS database.
 
@@ -51,6 +51,8 @@ To use the Approvals app, you need permission for the following items:
 - License for a [Power Automate](/power-automate/get-started-approvals), an Office 365, or a Dynamics 365.
 
 - License for Microsoft Forms is required for users to set up new approval templates.
+
+To use the Approvals app, you need a license for Power Automate, and your account will be added automatically to the Approvals User role in the target environment on your first approval assignment.
 
 ## Storage with CDS
 
