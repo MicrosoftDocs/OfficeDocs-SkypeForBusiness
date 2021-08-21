@@ -1,0 +1,20 @@
+{
+	"$schema": "https://whatsnewapi.azurewebsites.net/schema",
+	"docSetProductName": "Microsoft Teams",
+	"rootDirectory": "Teams/",
+	"docLinkSettings": {
+		"linkFormat": "relative",
+		"relativeLinkPrefix": "/microsoftteams/"
+	},
+	"inclusionCriteria": {
+        "minAdditionsToFile": 1,
+		"maxFilesChanged": 500,
+		"omitPullRequestTitles": true
+		
+		
+	},
+	"areas": [{
+		"names": ["."],
+		"heading": "Teams"
+	}]
+}
