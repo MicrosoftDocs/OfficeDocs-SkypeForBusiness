@@ -92,7 +92,7 @@ To see which what fields have been changed, you can search the Microsoft 365 aud
 
 ### Can I access Shifts data using Microsoft Graph?
 
-You can use Shifts Graph APIs to integrate Shifts data with external workforce management systems. To learn more, see [Shifts Graph APIs](graph/api/resources/shift?view=graph-rest-1.0).
+You can use Shifts Graph APIs to integrate Shifts data with external workforce management systems. To learn more, see [Shifts Graph APIs](/graph/api/resources/shift?view=graph-rest-1.0).
 
 >### My organization uses an on-premises archiving system. Can we use Microsoft Graph to integrate with and access Shifts data?
 
