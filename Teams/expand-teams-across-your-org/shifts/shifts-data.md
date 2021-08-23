@@ -41,6 +41,13 @@ When you first set up Teams, you choose a country or region, which is set at the
 
 ## GDPR
 
+How can we identify and collect this information on behalf of the user (known in the regulation as data subjects) Being able to search and locate the data as well as the ability to collect.  
+
+Shifts is General Data Protection Regulation (GDPR) compliant. You can export or delete a user's personal data in Shifts in response to a request by a user. A formal request by a user (known as a data subject) to take an action on their personal data is called a Data Subject Request (DSR).
+
+Use the ???Content Search eDiscovery tool to find and export schedule and time clock data to Excel. For all other Shifts data, you can use take screenshots of the data.
+
+To learn more, see [Office 365 Data Subject Requests for the GDPR and CCPA](/microsoft-365/compliance/gdpr-dsr-office365).
 
 ## Can I recover a Shifts schedule that was deleted?
 
@@ -91,7 +98,11 @@ You can use Shifts Graph APIs to integrate Shifts data with external workforce m
 
 >### My organization uses an on-premises archiving system. Can we use Microsoft Graph to integrate with and access Shifts data?
 
-You can use Shifts Graph APIs to integrate Shifts data with external systems. To learn more, see [Shifts Graph APIs](graph/api/resources/shift?view=graph-rest-1.0).
+Shifts Graph APIs let you integrate Shifts data with external systems. To learn more, see [Shifts Graph APIs](graph/api/resources/shift?view=graph-rest-1.0).
+
+### Can Shifts data be deleted permanently after a specified period of time, for example, after three months?
+
+Today, we don't delete your Shifts data at all. Using [Shifts Graph APIs](graph/api/resources/shift?view=graph-rest-1.0), you can [create an app using Power Apps](powerapps/maker/) to retain data for a specified period of time. However, we don't support this natively.
 
 ## What happens to Shifts data if I turn off Shifts for my organization
 
