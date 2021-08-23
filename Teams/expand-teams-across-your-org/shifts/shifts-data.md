@@ -35,7 +35,7 @@ Shifts data is stored in data centers in the United States, European Union, and 
 
 Currently, Shifts offers data residency in Australia, Canada, France, Japan, and the United Kingdom. We're actively working to expand support to additional locations.
 
-## Can I choose where Shifts data is stored
+## Can I choose where Shifts data is stored?
 
 When you first set up Teams, you choose a country or region, which is set at the subscription level. Shifts honors this selection and uses the locale and region that's set in Teams if we support that region. If we aren't yet in that region, we store data in a nearby region that we support. In the future, we plan to migrate existing data, if stored in a nearby region, to the region that's provisioned in Teams.
 
@@ -58,7 +58,7 @@ To learn more about retention policies in Teams, see [Learn about retention for 
 
 Today, we don't offer the ability to retrieve data for a user whose license was revoked. This capability is something we're working towards.
 
-For specific customer escalation scenarios, we're able to provide access.
+We can provide access in specific customer escalation scenarios.
 
 ## Which tier of compliance is Shifts?
 
@@ -75,23 +75,27 @@ Shifts encryption of data at rest and in transit are verified yearly by the SOC2
 
 ## Can I access immutable copies of Shifts data
 
-We don't store immutable copies of Shifts data. For example, a manager can make changes to the schedule, such as add notes, change shift times, assign tasks, and so on. 
+We don't store immutable copies of Shifts data. For example, a manager can make changes to a schedule, such as add notes, change shift times, assign tasks, and so on.
 
 ## Data retrieval
 
-### Graph API
+### Can Shifts data be edited?
 
-### Ability to edit
+There are certain aspects of Shifts that can't be changed and certain aspects that can be changed. For example, Shifts details such as notes and colors can be edited similar to how they can be changed in the Shifts app. Shifts requests can't be edited unless the request is withdrawn.
 
-There are certain aspects of Shifts that can't be changed and certain aspects that can be changed. For example, Shifts details such as notes or colors can be edited similar to how they are in the Shifts app. Shifts requests can't be edited. \
+To see which what fields have been changed, you can search the Microsoft 365 audit log for Shifts events. To learn more about the events that are logged for Shifts activities in the Microsoft 365 audit log, see [Shifts in Teams activities](../../audit-log-events.md#shifts-in-teams-activities).
 
-To see which field have been changed, you an search the Microsoft 365 audit log for Shifts events. 
+### Can I access Shifts data using Microsoft Graph?
 
-To learn more about the events that are logged for Shifts activities in Teams in the Microsoft 365 audit log, see [Shifts in Teams activities](../../audit-log-events.md#shifts-in-teams-activities).
+You can use Shifts Graph APIs to integrate Shifts data with external workforce management systems. To learn more, see [Shifts Graph APIs](graph/api/resources/shift?view=graph-rest-1.0).
+
+>### My organization uses an on-premises archiving system. Can we use Microsoft Graph to integrate with and access Shifts data?
+
+You can use Shifts Graph APIs to integrate Shifts data with external systems. To learn more, see [Shifts Graph APIs](graph/api/resources/shift?view=graph-rest-1.0).
 
 ## What happens to Shifts data if I turn off Shifts for my organization
 
-Turning off Shifts in your organization does not delete data. If you turn off Shifts, and then later turn on Shifts, your Shifts data will still be available.
+Turning off Shifts in your organization *does not* delete data. If you turn off Shifts, and then later turn on Shifts, your Shifts data will still be available.
 
 If you delete your tenant, all Shifts data is deleted after the retention period ends.
 
@@ -99,6 +103,6 @@ There's no option to delete only Shifts data. If you delete a team in Teams, Shi
 
 ## Can Shifts data be moved in a tenant-to-tenant migration?
 
-Shifts data can be migrated from one tenant to another by the Shifts service team upon specific request. For example, if you're consolidating tenants and want to move your Shifts data in one tenant to another tenant.
+Shifts data can be migrated from one tenant to another tenant by the Shifts service team upon specific request.
 
 ## Related articles
