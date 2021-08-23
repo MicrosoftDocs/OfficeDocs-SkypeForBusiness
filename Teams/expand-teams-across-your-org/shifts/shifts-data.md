@@ -39,9 +39,7 @@ Currently, Shifts offers data residency in Australia, Canada, France, Japan, and
 
 When you first set up Teams, you choose a country or region, which is set at the subscription level. Shifts honors this selection and uses the locale and region that's set in Teams if we support that region. If we aren't yet in that region, we store data in a nearby region that we support. In the future, we plan to migrate existing data, if stored in a nearby region, to the region that's provisioned in Teams.
 
-## GDPR
-
-How can we identify and collect this information on behalf of the user (known in the regulation as data subjects) Being able to search and locate the data as well as the ability to collect.  
+## Data subject Requests for the GDPR
 
 Shifts is General Data Protection Regulation (GDPR) compliant. You can export or delete a user's personal data in Shifts in response to a request by a user. A formal request by a user (known as a data subject) to take an action on their personal data is called a Data Subject Request (DSR).
 
