@@ -21,28 +21,32 @@ appliesto:
 
 # Sign out of Microsoft Teams
 
-We recommend for users to remain signed in to the Microsoft Teams app to continue receiving chats, incoming calls, and other activities. We understand that users might want to sign out of the Teams application when they're finished to use another account on a shared device.
+We recommend for users to remain signed in to the Microsoft Teams app to continue receiving chats, incoming calls, and other activities.We understand that, at times, users might want to sign out of the Teams application for several reasons:
+
+- Because they're done using Teams for the day
+- They want to use a different account
+- Because they're on a device that they share with another person
 
 ## Account sharing between apps
 
-Modern operating systems allow sharing of accounts between different apps on a device. This single sign on (SSO) design allows users to use multiple apps on their device without requiring them to sign in to every single app. Teams doesn't control this behavior, but it does take advantage of the convenience this design provides for the end-user experience.
+Modern operating systems allow sharing of accounts between different apps on a device. This single sign-on (SSO) design allows users to use multiple apps on their device without requiring them to sign in to every single app. Teams doesn't control this behavior, but it does take advantage of the convenience this design provides for the end-user experience.
 
-SSO has an important impact on sign out. When users sign out of Teams, the data associated with their account is removed from the Teams app, but other apps on the device continue to have access to their account. It also means that users might not be prompted to reenter their credentials if they choose to sign back in to Teams with the same account.
+SSO has an important impact on sign out. When users sign out of Teams, the data associated with their account is removed from the Teams app, but other apps on the device could continue to have access to their account. It also means that users might not be prompted to reenter their credentials if they choose to sign back in to Teams with the same account.
 
 ## Sign out of Teams on desktop
 
 To sign out of the Teams desktop client or from the browser, select your profile picture at the top of the app, and then select **Sign out**.
 
-For the desktop app, right-click the app icon in the taskbar, and then select **Log out**.
+For the desktop app, you can also right-click the app icon in the taskbar, and then select **Sign out**.
 
-If you have multiple accounts added, you'll need to sign out of your individual accounts. Once you've signed out of the accounts in Teams, you'll need to enter your credentials again on the next launch of the app to access your account.
+If you have multiple accounts added, you'll need to sign out of each individual account. Once you've signed out of the accounts in Teams, you might need to enter your credentials again on the next launch of the app to access your account.
 
 ## Sign out of Teams on mobile devices
 
 On mobile, you can sign out of Teams by going to the menu, selecting the **More** menu, and then selecting **Sign out**. Once signed out, you'll need to reenter their credentials the next time you launch the app.
 
 > [!Note]
-> Teams for Android uses SSO to simplify the sign-in experience. Users should make sure to log out of all Microsoft apps, in addition to Teams, in order to completely log out on the Android platform.
+> Teams for mobile devices uses SSO to simplify the sign-in experience. Users should make sure to log out of all Microsoft apps, in addition to Teams, in order to completely log out on mobile devices.
 
 ### Global sign-in and sign-out for Frontline workers
 
