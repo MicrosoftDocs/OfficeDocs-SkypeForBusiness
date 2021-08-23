@@ -128,6 +128,8 @@ When you create a team from an existing team, any private channels in the existi
 
 Notifications from private channels are not included in missed activity emails at this time.
 
+You cannot manage permissions on a SharePoint Online site that is connected to a private channel directly. Instead, users have to be added as members to a private channel.
+
 ## Related topics
 
 [Overview of teams and channels in Teams](teams-channels-overview.md)
