@@ -21,11 +21,13 @@ appliesto:
 
 # Sign out of Microsoft Teams
 
-We recommend for users to remain signed in to the Microsoft Teams app to continue receiving chats, incoming calls, and other activities.We understand that, at times, users might want to sign out of the Teams application for several reasons:
+We recommend for users to remain signed in to the Microsoft Teams app to continue receiving chats, incoming calls, and other activities. We understand that, at times, users might want to sign out of the Teams application for several reasons:
 
 - Because they're done using Teams for the day
 - They want to use a different account
 - Because they're on a device that they share with another person
+
+For these reason and others, Teams allows you to sign out of the app and end your session.
 
 ## Account sharing between apps
 
@@ -45,9 +47,6 @@ If you have multiple accounts added, you'll need to sign out of each individual 
 
 On mobile, you can sign out of Teams by going to the menu, selecting the **More** menu, and then selecting **Sign out**. Once signed out, you'll need to reenter their credentials the next time you launch the app.
 
-> [!Note]
-> Teams for mobile devices uses SSO to simplify the sign-in experience. Users should make sure to log out of all Microsoft apps, in addition to Teams, in order to completely log out on mobile devices.
-
 ### Global sign-in and sign-out for Frontline workers
 
 The Teams Android app now supports Global sign-in and sign-out, to provide a hassle free sign-in and sign-out experience for Frontline Workers. Employees can pick a device from the shared device pool and do a single sign-in to "make it theirs" for the duration of their shift. At the end of their shift, they should be able to perform sign out to globally sign out on the device. This will remove all of their personal and company information from the device so they can return the device to the device pool. To get this capability, the device must be in shared mode. To learn how to set up a shared device, see [How to use a shared device mode in Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
@@ -57,3 +56,7 @@ The Teams Android app now supports Global sign-in and sign-out, to provide a has
 While rare, it's possible that Teams might not be able to clean up after itself fully on sign-out. Based on user reports, the common causes include files being locked by a service running on the system but there could be other reasons dependent on an individual’s device configurations or policies and user permissions applied to the device.
 
 One common manifestation of this problem is that Teams will try to automatically select an existing account to sign the user in. In situations like this, the user might want to manually clean up Teams’ local cache. Learn more at [Sign in or remove an account from Teams](https://support.microsoft.com/office/sign-out-or-remove-an-account-from-teams-a6d76e69-e1dd-4bc4-8e5f-04ba48384487?ui=en-US&rs=en-US&ad=US).
+
+## Related topics
+
+[Sign in or remove an account from Teams](https://support.microsoft.com/office/sign-out-or-remove-an-account-from-teams-a6d76e69-e1dd-4bc4-8e5f-04ba48384487?ui=en-US&rs=en-US&ad=US)
