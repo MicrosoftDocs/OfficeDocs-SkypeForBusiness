@@ -48,8 +48,6 @@ You can see the number of phone numbers you can get on the **Get phone numbers**
   
 ## Related topics
 
-[Types of phone numbers](different-kinds-of-phone-numbers-used-for-calling-plans.md)
-
 [Manage phone numbers for your organization](manage-phone-numbers-landing-page.md)
 
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)

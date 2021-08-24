@@ -31,9 +31,11 @@ description: Learn how to get and manage user (subscriber) and service (toll and
 
 # Manage phone numbers for your organization
 
-DRAFT
+Microsoft has two types of telephone numbers available: 
 
-Microsoft has two types of telephone numbers available: subscriber (user) numbers, which can be assigned to users in your organization, and service numbers, available as toll and toll-free service numbers. Service numbers have higher concurrent call capacity than subscriber numbers and can be assigned to services such as Audio Conferencing, Auto Attendants, or Call Queues.
+- **User numbers** also called subscriber numbers, which can be assigned to users in your organization.
+
+- **Service numbers**, which are assigned to services such as Audio Conferencing, auto attendants, or call queues.
 
 You will need to decide:
 
@@ -49,4 +51,34 @@ How you acquire and manage phone numbers differs depending on your PSTN connecti
 
 - For information about managing phone numbers for Direct Routing, see [Configure the phone number and enable enterprise voice and voicemail](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online).
 
+If you need additional or other number types other than those numbers seen in the Microsoft Teams admin center, you can submit a phone number request to the [PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
 
+## User phone numbers
+
+There are two types of user numbers, which can be assigned to users in your organization:  
+    
+- **Geographic numbers** Geographic numbers have a relationship to a geographic area and are the most common. For example, geographic phone numbers in most cases can only be used within a certain address, city, state, or region of the country.
+    
+- **Non-geographic numbers** Non-geographic numbers are national numbers that don't have a relationship to a geographic area within a country/region. For example, non-geographic numbers often have the same cost when calling the number from anywhere within the country/region. Also, some countries, such as Denmark, only have non-geographic numbers available.
+
+
+## Service phone numbers  
+
+There are two types of service phone numbers--toll and toll-free--which can be assigned to services such as Audio Conferencing, auto attendants, or call queues. Service numbers have a higher concurrent call capacity than user numbers. Service number availability varies by country/region and the type of number (whether it's a toll or toll-free number).
+    
+ - **Toll service numbers** - There are two types of toll service numbers, which may incur a toll cost to the caller:
+    
+   - **Geographic numbers** Geographic numbers have a relationship to a geographic area. For example, geographic phone numbers in most cases can only be used within a certain address, city, state, or region of the country.
+        
+   - **Non-geographic numbers** Non-geographic numbers are national numbers that don't have a relationship to a geographic area within a country/region. For example, non-geographic numbers often have the same cost when calling the number from anywhere within the country/region.
+   
+- **Toll-free service numbers** These service numbers don't typically incur a toll cost to the caller. Teams provides national toll-free numbers in over 60 countries/regions.
+    
+    > [!CAUTION]
+    > Some countries/regions and originating number types, such as calls originating from mobile phones, may in some cases incur a toll cost to the caller. 
+
+
+    
+  
+> [!NOTE]
+> If you need to get more phone numbers than this, [contact the PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).

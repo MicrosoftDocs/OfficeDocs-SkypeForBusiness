@@ -67,11 +67,8 @@ If you need some help with getting phone numbers, you can see [Manage phone numb
 10. When you return to the **Phone numbers** page, select the phone number or numbers that you want to assign and then click **Edit** to assign it to a user.  
 
 ## Related topics
-[Transferring phone numbers common questions](./phone-number-calling-plans/port-order-overview.md)
 
-[Different kinds of phone numbers used for Calling Plans](./different-kinds-of-phone-numbers-used-for-calling-plans.md)
-
-[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
+[Manage phone numbers for your organization](manage-phone-numbers-landing-page.md)
 
 [Emergency calling terms and conditions](./emergency-calling-terms-and-conditions.md)
 

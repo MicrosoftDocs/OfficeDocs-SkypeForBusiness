@@ -1,7 +1,7 @@
 ---
 title: "See a list of phone numbers in your organization"
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -117,11 +117,8 @@ Get-CsOnlineUser | Where-Object  { $_.LineURI -notlike $null } | ft DisplayName,
 ```
 
 ## Related topics
-[Transferring phone numbers common questions](./phone-number-calling-plans/port-order-overview.md)
 
-[Different kinds of phone numbers used for Calling Plans](./different-kinds-of-phone-numbers-used-for-calling-plans.md)
-
-[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
+[Manage phone numbers for your organization](manage-phone-numbers-landing-page.md)
 
 [Emergency calling terms and conditions](./emergency-calling-terms-and-conditions.md)
 
