@@ -27,7 +27,7 @@ description: Learn about how many phone numbers you can get in Microsoft Teams b
 
 # How many phone numbers can you get?
 
-When you are looking for and getting phone numbers for your organization, you can get more phone numbers than you have assigned licenses. But this depends on the types of phone numbers and types of licenses you have bought and assigned. You can click [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md) to find out about the different phone numbers that are used in Microsoft Teams.
+When you are looking for and getting phone numbers for your organization, you can get more phone numbers than you have assigned licenses. But this depends on the types of phone numbers and types of licenses you have bought and assigned. You can click [Types of phone numbers](different-kinds-of-phone-numbers-used-for-calling-plans.md) to find out about the different phone numbers that are used in Microsoft Teams.
   
 You can see the number of phone numbers you can get on the **Get phone numbers** page in the Microsoft Teams admin center, or you can run the [Get-CsOnlineTelephoneNumberAvailableCount](/powershell/module/skype/Get-CsOnlineTelephoneNumberAvailableCount) cmdlet.
   
@@ -47,11 +47,10 @@ You can see the number of phone numbers you can get on the **Get phone numbers**
 > If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
   
 ## Related topics
-[Transferring phone numbers common questions](./phone-number-calling-plans/port-order-overview.md)
 
-[Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Types of phone numbers](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Manage phone numbers for your organization](manage-phone-numbers-landing-page.md)
 
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 

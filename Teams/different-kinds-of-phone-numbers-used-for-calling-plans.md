@@ -24,7 +24,7 @@ ms.custom:
 description: In this article, you will learn about different phone number types that Microsoft Teams uses.
 ---
 
-# Different types of phone numbers
+# Types of phone numbers
 
 Microsoft Teams uses different telephone number types depending on the purpose for which you want to use the phone number. 
 
@@ -58,9 +58,7 @@ Teams uses **user** numbers, which can be assigned to users in your organization
 
 ## Related topics
 
-[Transferring phone numbers common questions](./phone-number-calling-plans/port-order-overview.md)
-
-[Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Manage phone numbers for your organization](manage-phone-numbers-landing-page.md)
 
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
