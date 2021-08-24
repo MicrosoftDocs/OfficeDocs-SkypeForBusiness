@@ -54,7 +54,7 @@ The following table briefly summarizes the three types of meetings, the number o
 
 **Considerations for large meetings, webinars, and live events** - When hosting large meetings, consider the following:
 
-- For large events where you anticipate more than 1,000 participants, consider using Teams Live Events and take advantage of of broadast capabilities. 
+- For large events where you anticipate more than 1,000 participants, consider using Teams live events and take advantage of broadcast capabilities. 
 
 - For the best experience in large meetings, webinars, and live events, Microsoft recommends using the latest version of the Teams desktop client or Teams mobile clients. 
 
