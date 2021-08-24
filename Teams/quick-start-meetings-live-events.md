@@ -50,7 +50,7 @@ The following table briefly summarizes the three types of meetings, the number o
 
 \*For Meetings where more than 1,000 attendees join, attendees will join in a View Only Experience ([View-only](view-only-meeting-experience.md)) and up to 10,000** such attendees may join.<br>
 
-**We have temporarily extended the broadcast view-only experience to 20,000 attendees during COVID-19, and this will revert back to the original capacity of 10,000 attendees on December 31, 2020. Note that [Live Events Assistance Program](/stream/live-events-assistance) is available to help you host your next large meeting, Webinar, and Live Event. 
+**We have temporarily extended the broadcast view-only experience to 20,000 attendees during COVID-19, and this will revert back to the original capacity of 10,000 attendees on December 31, 2020. Note that the [live events assistance program](/stream/live-events-assistance) is available to help you host your next large meeting, webinar, and live event. 
 
 **Considerations for large meetings, webinars, and live events** - When hosting large meetings, consider the following:
 
