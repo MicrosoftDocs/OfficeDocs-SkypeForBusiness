@@ -48,6 +48,8 @@ Remember that only schedulers in your organization need to have the Bookings app
 
 In Teams, go to **Bookings** > **Get started**, and then select **New booking calendar**. Complete the form and be sure to choose **Financial services** for the business type.
 
+:::image type="content" source="media/bookings-virtual-visits-consultations-new-booking-calendar.png" alt-text="Screenshot of new booking calendar screen showing business types":::
+
 If you’re a larger organization, consider creating more than one booking calendar if you want customers to receive a booking email from a specific department rather than your overall organization. 
 To learn more, see [Create a Bookings calendar](https://support.microsoft.com//office/create-a-bookings-calendar-921cfd26-a24d-4aca-9004-561594112148).
 
