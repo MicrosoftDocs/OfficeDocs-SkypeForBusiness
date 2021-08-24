@@ -29,11 +29,6 @@ Virtual consultations are held through Microsoft Teams meetings, which offers ro
 
 Each virtual appointment includes a Teams meeting link that’s sent to attendees in email where they can easily join from a web browser or in Teams on any device. Automated email reminders help reduce no-shows and enhance customer engagement.
 
-> [!SCOPE_QUESTION]
->Find out whether to include Microsoft Booking setup tasks that aren't supported in the Bookings apps in Teams. For example, self-serve online booking page for customers, logo, service details such as price, buffer times, custom fields, scheduling policies, etc) that aren't supported in the Bookings app in Teams?
-
-> And with the Microsoft Bookings web app, you can publish an online booking page where your customers can see available booking times, giving them the flexibility to schedule a consultation at a time that works best for them. ???After you set up your booking page, your day-to-day scheduling can be done through the Bookings app in Teams.
-
 This article gives you an overview of how to use the Bookings app in Teams to deliver remote sales and service.
 
 ## Before you get started
