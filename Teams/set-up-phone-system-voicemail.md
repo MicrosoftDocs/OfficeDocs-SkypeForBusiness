@@ -1,7 +1,7 @@
 ---
 title: "Set up Cloud Voicemail"
-author: dstrome
-ms.author: dstrome
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: wasseemh, phans
 ms.topic: article
@@ -36,10 +36,7 @@ This article is for the Microsoft 365 or Office 365 admin as described in [About
 
 ## Cloud-only environments: Set up Cloud Voicemail for Online Phone System users
 
-For Online Phone System users, Cloud Voicemail is automatically set up and provisioned for users after you assign a **Phone System** license to the users. 
-
-> [!NOTE]
-> For Online Skype for Business Phone System users with on-premises provided phone numbers, you may need to enable hosted voice mail with [Set-CsUser -HostedVoicemail $True](/powershell/module/skype/set-csuser?view=skype-ps). 
+For Teams Phone System users, Cloud Voicemail is automatically set up and provisioned for users. 
 
 ## Set up Cloud Voicemail for Exchange Server Mailbox Users
 
