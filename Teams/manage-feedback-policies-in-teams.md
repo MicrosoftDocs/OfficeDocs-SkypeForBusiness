@@ -23,12 +23,12 @@ description: Learn how to use feedback policies to control whether Teams users i
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Users in your organization can send feedback about Teams to Microsoft let us know how we're doing, directly from within the Teams desktop and web clients. We're continually improving the Teams experience and we use this feedback to make Teams better.
+Users in your organization can send feedback about Teams to Microsoft let us know how we're doing, directly from within the Teams desktop, web clients, and mobile. We're continually improving the Teams experience and we use this feedback to make Teams better.
 
 > [!NOTE]
 > Feedback policies aren't available in GCC, GCC High, or DOD deployments.
 
-**The Give feedback feature**
+**The **Give feedback** feature**
 
 Users can send comments and suggestions about Teams to us by going to **Help** > **Give feedback** in Teams. Data sent through **Give feedback** is considered as "Support Data" under your Microsoft 365 or Office 365 agreement, including information that would otherwise be considered "Customer Data" or "Personal Data".
 
@@ -55,6 +55,7 @@ To turn off and turn on the features, set the following parameters:
  - **Give feedback**: Set the **userInitiatedMode** parameter to **enabled** to allow users who are assigned the policy to give feedback. Setting the parameter to **disabled** turns off the feature and users who are assigned the policy don't have the option to give feedback.
  - **Surveys**: Set the **receiveSurveysMode** parameter to **enabled** to allow users who are assigned the policy to receive the survey. To have users receive the survey and allow them to opt out, set the parameter to **enabledUserOverride**. In Teams, users can then go to **Settings** > **Privacy** and choose whether they want to participate in surveys. Setting the parameter to **disabled** turns off the feature and users who are assigned the policy won't receive the survey.
  - **Email**: Use the **AllowEmailCollection** flag to add an email field.
+ - **Log collection**: An admin can control log collection (only applicable in mobile currently) suing the policy **AllowLogCollection**. [Learn more](https://go.microsoft.com/fwlink/?linkid=2168178).
 
 ## Create a custom feedback policy
 
