@@ -26,13 +26,13 @@ ms.custom: seo-marvel-mar2020
 
 # Shifts data FAQ
 
-This article covers frequently-asked questions about Shifts data, including where Shifts data is stored, data retention, data retrieval, and data encryption. 
+This article covers frequently-asked questions about Shifts data, including where Shifts data is stored, data retention, data retrieval, and encryption.
 
 ## Where is Shifts data stored?
 
 Shifts data is stored in data centers in Asia Pacific (APAC), the European Union (EU), and the United States. Each geo stores data in at least two Azure data center regions for HA/DR.??? Today, the United States geo uses data centers in North Central and South Central United States. To learn more, see [Where is Microsoft 365 customer data stored](/microsoft-365/enterprise/o365-data-locations).
 
-Currently, Shifts offers data residency in Australia, Canada, France, Japan, and the United Kingdom. We're actively working to expand support to additional locations.
+Currently, Shifts offers data residency in Australia, Canada, France, Japan, and the United Kingdom. We're actively working to expand support to more locations.
 
 ## Can I choose where Shifts data is stored?
 
@@ -42,7 +42,7 @@ When you first set up Teams, you choose a country or region, which is set at the
 
 Shifts is General Data Protection Regulation (GDPR) compliant. A formal request by a user (known as a data subject) to take an action on their personal data is called a Data Subject Request (DSR). You can export or delete a user's personal data in Shifts in response to a request by a user.
 
-Use the ???Content Search eDiscovery tool to find and export schedule and time clock data to Excel. For all other Shifts data, you can use take screenshots of the data.
+Use the ???Content Search eDiscovery tool to find and export schedule and time clock data to Excel. For all other Shifts data, you can take screenshots of the data.
 
 To learn more, see [Office 365 Data Subject Requests for the GDPR and CCPA](/microsoft-365/compliance/gdpr-dsr-office365).
 
@@ -56,9 +56,9 @@ There's no option to delete only Shifts data. If you delete a team in Teams, Shi
 
 ## Can I recover a Shifts schedule that was deleted?
 
-You can recover a deleted Shifts if the Microsoft 365 group that backs it (or the team in Teams) is restored.
+You can recover a deleted schedule if the Microsoft 365 Group that backs it (or the team in Teams) is restored.
 
-By default, a deleted Microsoft 365 group is retained for 30 days. This 30-day period is called "soft-delete" because you can restore the group. To learn more, see [Restore a deleted Microsoft 365 group](/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide&tabs=admin-center).
+By default, a deleted Microsoft 365 Group is retained for 30 days. This 30-day period is called "soft-delete" because you can restore the group. To learn more, see [Restore a deleted Microsoft 365 Group](/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide&tabs=admin-center).
 
 ## Can I use custom retention policies for Shifts data?
 
@@ -101,9 +101,9 @@ You can use Shifts Graph APIs to integrate Shifts data with external workforce m
 
 >## My organization uses an on-premises archiving system. Can we use Microsoft Graph to integrate with and access Shifts data?
 
-Shifts Graph APIs let you integrate Shifts data with external systems. To learn more, see [Shifts Graph APIs](graph/api/resources/shift?view=graph-rest-1.0).
+Shifts Graph APIs let you integrate Shifts data with external systems. To learn more, see [Shifts Graph APIs](/graph/api/resources/shift?view=graph-rest-1.0).
 
-## Can Shifts data be deleted permanently after a specified period of time, for example, after three months?
+## Can Shifts data be deleted permanently after a specified period of time?
 
 Today, we don't delete your Shifts data at all. Using [Shifts Graph APIs](/graph/api/resources/shift?view=graph-rest-1.0), you can [create an app using Power Apps](powerapps/maker/) to retain data for a specified period of time. However, we don't support this natively.
 
