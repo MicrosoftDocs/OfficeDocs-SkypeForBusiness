@@ -70,7 +70,7 @@ Note that NDI is fully supported in meetings, webinars, and live events, allowin
 
 ### Meetings
 
-**Meetings** in Teams include audio, video, and screen sharing for up to 1,000 people. A [view-only experience](view-only-meeting-experience.md) for participants can be enabled for participants over 1,000 if you are uncertain if more than 1,000 participants may join. Participants don't need to be a member of an organization (or have a Teams account) to join a Teams meeting. They can join directly from the calendar invitation via the Join meeting link or call in via audio if available.  
+**Meetings** in Teams include audio, video, and screen sharing for up to 1,000 people. A [view-only experience](view-only-meeting-experience.md) for participants can be enabled for more than 1,000 participants if you are uncertain if more than 1,000 participants will join. Participants don't need to be a member of an organization (or have a Teams account) to join a Teams meeting. They can join directly from the calendar invitation via the **Join meeting** link or call in via audio if available.  
 
 As the administrator, you'll configure meeting settings and control which meeting features are enabled for your organization by specifying meeting policies.  
 
