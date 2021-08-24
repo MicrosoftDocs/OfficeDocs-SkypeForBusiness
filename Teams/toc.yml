@@ -1018,8 +1018,6 @@ items:
       items: 
         - name: Manage phone numbers for your organization
           href: manage-phone-numbers-landing-page.md
-        - name: Types of phone numbers
-          href: different-kinds-of-phone-numbers-used-for-calling-plans.md
         - name: How many phone numbers can you get?
           href: how-many-phone-numbers-can-you-get.md
         - name: Search for phone numbers for users
