@@ -48,7 +48,7 @@ The following table briefly summarizes the three types of meetings, the number o
 | Live events | Up to 20,000** |-View-only broadcast to large audiences. <br>-Moderated Q&A for audience interaction. <br> -Can specify producers and presenters, including external presenters.<br>-Supports more advanced production capabilities.<br>-Supports eCDN | No |
 ||||
 
-\*For Meetings where more than 1,000 attendees join, attendees will join in a View Only Experience ([View-only](view-only-meeting-experience.md)) and up to 10,000** such attendees may join.<br>
+*For Meetings where more than 1,000 attendees join, attendees will join in a [view-only experience](view-only-meeting-experience.md) and up to 10,000** such attendees may join.<br>
 
 **We have temporarily extended the broadcast view-only experience to 20,000 attendees during COVID-19, and this will revert back to the original capacity of 10,000 attendees on December 31, 2020. Note that the [live events assistance program](/stream/live-events-assistance) is available to help you host your next large meeting, webinar, and live event. 
 
