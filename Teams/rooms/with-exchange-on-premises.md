@@ -21,7 +21,7 @@ description: "Read this topic for information on how to deploy Microsoft Teams R
 
 # Deploy Microsoft Teams Rooms with Exchange on premises
 
-Read this topic for information on how to deploy Microsoft Teams Rooms in a hybrid environment with Exchange on premises and Microsoft Teams.
+Read this topic for information on how to deploy Microsoft Teams Rooms in a hybrid environment with Exchange on-premises and Microsoft Teams.
   
 If your organization has a mix of services, with some hosted on premises and some hosted online, then your configuration will depend on where each service is hosted. This topic covers hybrid deployments for Microsoft Teams Rooms with Exchange hosted on premises. Because there are so many different variations in this type of deployment, it's not possible to provide detailed instructions for all of them. The following process will work for many configurations. If the process isn't right for your setup, we recommend that you use Windows PowerShell to achieve the same end result as documented here, and for other deployment options.
 
