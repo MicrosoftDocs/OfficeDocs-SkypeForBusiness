@@ -63,7 +63,7 @@ The following table briefly summarizes the three types of meetings, the number o
 - For more tips on hosting large meetings, see: <br>
   - [Best practices for a large Teams meeting](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)
   - [Hosting Teams Live Events](https://docs.microsoft.com/en-us/microsoftteams/teams-live-events/what-are-teams-live-events)
-  - [Hosting Webinars](https://docs.microsoft.com/en-us/microsoftteams/set-up-webinars)
+  - [Hosting webinars](/microsoftteams/set-up-webinars)
 
 Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
 
