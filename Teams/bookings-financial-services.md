@@ -29,7 +29,7 @@ Virtual consultations are held through Microsoft Teams meetings, which offers ro
 
 Each virtual appointment includes a Teams meeting link that’s sent to attendees in email where they can easily join from a web browser or in Teams on any device. Automated email reminders help reduce no-shows and enhance customer engagement.
 
-This article gives you an overview of how to use the Bookings app in Teams to deliver remote sales and service.
+This article gives you an overview of how to use the Bookings app in Teams to deliver remote sales and service in your financial services organization.
 
 ## Before you get started
 

@@ -37,11 +37,6 @@ With Bookings, you get an experience that's tailored to your industry. Here's so
 |Healthcare   |  Virtual visits for patient care <br/> Enable care team members to conduct virtual visits with patients or with other providers to discuss medical care.   |         |
 |Retail   | Virtual shopping  <br/>Enable sales associates, product experts, and design consultants to conduct virtual shopping experiences with customers.   |         | 
 
-> [!SCOPE_QUESTION]
->Find out whether to include Microsoft Booking setup tasks that aren't supported in the Bookings apps in Teams. For example, self-serve online booking page for customers, logo, service details such as price, buffer times, custom fields, scheduling policies, etc) that aren't supported in the Bookings app in Teams?
-
-> And with the Microsoft Bookings web app, you can publish an online booking page where your customers can see available booking times, giving them the flexibility to schedule a consultation at a time that works best for them. ???After you set up your booking page, your day-to-day scheduling can be done through the Bookings app in Teams.
-
 This article gives you an overview of how to use the Bookings app in Teams to schedule and manage virtual visits and consultations.
 
 ## Before you get started
