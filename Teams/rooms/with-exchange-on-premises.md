@@ -37,7 +37,7 @@ If you are deploying Microsoft Teams Rooms with Exchange on premises, you will b
 
 - Enable the remote mailbox and set properties.
 
-- Assign an Microsoft 365 or Office 365 license.
+- Assign a Microsoft 365 or Office 365 license.
 
 ### Create an account and synchronize with Azure Active Directory
 
