@@ -105,7 +105,7 @@ Shifts Graph APIs let you integrate Shifts data with external systems. To learn 
 
 ## Can Shifts data be deleted permanently after a specified period of time, for example, after three months?
 
-Today, we don't delete your Shifts data at all. Using [Shifts Graph APIs](graph/api/resources/shift?view=graph-rest-1.0), you can [create an app using Power Apps](powerapps/maker/) to retain data for a specified period of time. However, we don't support this natively.
+Today, we don't delete your Shifts data at all. Using [Shifts Graph APIs](/graph/api/resources/shift?view=graph-rest-1.0), you can [create an app using Power Apps](powerapps/maker/) to retain data for a specified period of time. However, we don't support this natively.
 
 ## Can Shifts data be moved in a tenant-to-tenant migration?
 
