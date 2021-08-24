@@ -40,7 +40,7 @@ When you first set up Teams, you choose a country or region, which is set at the
 
 ## Can I access and export or delete a user's personal data in Shifts?
 
-Shifts is General Data Protection Regulation (GDPR) compliant. A formal request by a user (known as a data subject) to take an action on their personal data is called a Data Subject Request (DSR). You can export or delete a user's personal data in Shifts in response to a request by a user.
+Shifts is General Data Protection Regulation (GDPR) compliant. A formal request by a user (known as a data subject) to take an action on their personal data is called a Data Subject Request (DSR). You can find and act on personal data in Shifts in response to a DSR.
 
 Use the ???Content Search eDiscovery tool to find and export schedule and time clock data to Excel. For all other Shifts data, you can take screenshots of the data.
 
@@ -105,7 +105,7 @@ Shifts Graph APIs let you integrate Shifts data with external systems. To learn 
 
 ## Can Shifts data be deleted permanently after a specified period of time?
 
-Today, we don't delete your Shifts data at all. Using [Shifts Graph APIs](/graph/api/resources/shift?view=graph-rest-1.0), you can [create an app using Power Apps]/(powerapps/maker/) to retain data for a specified period of time. However, we don't support this natively.
+Today, we don't delete your Shifts data at all. Using [Shifts Graph APIs](/graph/api/resources/shift?view=graph-rest-1.0), it's possible to [create an app using Power Apps]/(powerapps/maker/) to retain data for a specified period of time. However, we don't support this natively.
 
 ## Can Shifts data be moved in a tenant-to-tenant migration?
 
