@@ -45,7 +45,7 @@ You should familiarize yourself as necessary on how to use the Log Analytics Vie
 
 1. Once subscribed to Azure Monitor Log Analytics, create custom fields (as described in [Map custom fields](azure-monitor-deploy.md#Custom_fields)) needed to parse the information that will be sent from Microsoft Teams Rooms consoles. This includes understanding the JSON schema documented in [Understand the log entries](azure-monitor-manage.md#understand-the-log-entries).
     
-2. Develop a Microsoft Teams Rooms management view in Log Analytics. You can either [Create a Microsoft Teams Rooms dashboard by using the import method](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method) or [Create a Microsoft Teams Rooms dashboard manually](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-manually).
+2. Develop a Microsoft Teams Rooms management view in Log Analytics. You can [Create a Microsoft Teams Rooms dashboard manually](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-manually).
     
 ## Individual Microsoft Teams Rooms Console requirements
 
