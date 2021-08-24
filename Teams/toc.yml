@@ -266,6 +266,8 @@ items:
           href: identify-models-authentication.md
         - name: Sign in to Microsoft Teams 
           href: sign-in-teams.md
+        - name: Sign out of Microsoft Teams 
+          href: sign-out-of-teams.md
         - name: Safe Links in Teams
           href: /microsoft-365/security/office-365-security/atp-safe-links-for-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: AppLocker application control policies
