@@ -139,7 +139,7 @@ To learn more, see [How SharePoint Online and OneDrive for Business interact wit
  
 #### Is there integration between Shifts and the Outlook calendar? Can I export a schedule to a calendar?
  
-Frontline Workers can see their entire work schedule at a glance in Shifts. We'll be supporting native integration with Outlook calendar as part of our roadmap. In the meantime, use Microsoft Flow to set up integration with Shifts in Teams and Outlook and Google calendars.
+Frontline Workers can see their entire work schedule at a glance in Shifts. We'll be supporting native integration with Outlook calendar as part of our roadmap. In the meantime, use Power Automate to set up integration with Shifts in Teams and Outlook and Google calendars.
  
 #### What admin controls are available to manage whether users in my organization can use Shifts?  
   
