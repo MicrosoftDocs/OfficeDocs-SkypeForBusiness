@@ -92,7 +92,7 @@ If you have any questions about the SBC certification program for Direct Routing
 
 <br/>
 
-\* 911 service providers
+\* **911 service providers**
 
 - [Bandwidth Dynamic Location Routing](https://www.bandwidth.com/partners/microsoft-teams-direct-routing/)
 - [Intrado Emergency Routing Service (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
