@@ -1,5 +1,5 @@
 ---
-title: Virtual consultations with Teams and the Bookings app for remote sales and service
+title: Virtual visits with Teams and the Bookings app
 author: lanachin
 ms.author: v-lanachin
 manager: samanro
@@ -9,27 +9,31 @@ ms.service: msteams
 search.appverid: 
 searchScope:
   - Microsoft Teams
+  - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: 
+  - microsoftcloud-healthcare
+  - m365solution-healthcare
+  - m365solution-scenario
 ms.reviewer: 
-description: Learn how to use the Bookings app in Teams to schedule, manage, and conduct virtual consultations for  remote sales and service in your financial services organization. 
+description: Learn how to use the Bookings app in Teams to schedule, manage, and conduct virtual visits with patients and other healthcare providers.
 ---
 
-# Virtual consultations with Teams and the Bookings app for remote sales and service
+# Virtual visits with Teams and the Bookings app
 
 ## Overview
 
-The [Bookings app](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) in Microsoft Teams streamlines and simplifies remote sales and service for financial services organizations. You can schedule and manage virtual consultations, enabling bank relationship managers, financial advisors, and claims adjusters, just to name a few, to serve your customers with increased efficiency and convenience.
+The [Bookings app](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) in Microsoft Teams gives healthcare organizations a simple way to schedule and manage virtual appointments for staff and attendees. Use it to schedule and manage virtual visits for your care team members to meet with patients or other healthcare providers to discuss medical care.
 
-The Bookings app makes it easy to manage complex scheduling demands across your organization. Schedulers can manage multiple department and staff calendars, as well as communications with internal and external attendees, from a single experience.
+The Bookings app makes it easy to manage complex scheduling demands. Schedulers can manage multiple department and staff calendars, as well as communications with internal and external attendees, from a single experience.
 
-Virtual consultations are held through Microsoft Teams meetings, which offers robust videoconferencing capabilities. For example, a banking advisor can share their screen and request electronic signatures on documents, allowing them to close transactions remotely.
+Virtual visits are held through Microsoft Teams meetings, which offers robust videoconferencing capabilities. For example, a doctor can share their screen and show and discuss test results with a patient.
 
 Each virtual appointment includes a Teams meeting link that’s sent to attendees in email where they can easily join from a web browser or in Teams on any device. Automated email reminders help reduce no-shows and enhance customer engagement.
 
-This article gives you an overview of how to use the Bookings app in Teams to deliver remote sales and service in your financial services organization.
+This article gives you an overview of how to use the Bookings app in Teams to schedule, manage, and conduct virtual visits in your healthcare organization.
 
 ## Before you get started
 
@@ -41,7 +45,7 @@ Remember that only schedulers in your organization need to have the Bookings app
 
 ### Create the booking calendar
 
-In Teams, go to **Bookings** > **Get started**, and then select **New booking calendar**. Complete the form and be sure to choose **Financial services** for the business type.
+In Teams, go to **Bookings** > **Get started**, and then select **New booking calendar**. Complete the form and be sure to choose **Healthcare** for the business type.
 
 :::image type="content" source="media/bookings-virtual-visits-consultations-new-booking-calendar.png" alt-text="Screenshot of new booking calendar screen showing business types":::
 
@@ -59,13 +63,13 @@ The Bookings app integrates with Outlook. After you add staff, you’ll be able 
 
 ### Create appointment types
 
-Create specific appointment types to represent the services offered by your organization and to tailor the booking experience.
+Create specific appointment types to tailor the booking experience.
 
-In the booking calendar, go to **More options** (...) > **Appointment types**, and then select **New appointment type**. Enter a name&mdash;for example, Account opening, Loan consultation, Tax preparation&mdash;and any other information and settings you want.
+In the booking calendar, go to **More options** (...) > **Appointment types**, and then select **New appointment type**. Enter a name and any other information and settings you want.
 
 The information and links that you add are included in the email confirmation that's sent to attendees every time this type of appointment is booked. You can even set email reminders and other options such as whether attendees can join from a mobile browser without having to download Teams. To learn more, see [Create an appointment type](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887).
 
-## Schedule a virtual consultation
+## Schedule a virtual visit
 
 In the booking calendar, select **New booking**. Select an appointment type, and then fill out the relevant information.
 
@@ -73,7 +77,7 @@ This includes attendee contact information, the staff member who will be providi
 
 The email confirmation sent to the attendee includes the meeting link and an attachment so that they can add the virtual appointment to their calendar. Staff also receive an email confirmation and meeting invite.
 
-## Conduct a virtual consultation
+## Conduct a virtual visit
 
 In your Teams or Outlook calendar, go to the booking, and then select **Join** or the Teams meeting link. Check your audio and video settings, and then select **Join now**. To learn more, see [Conduct a Bookings appointment](https://support.microsoft.com/office/conduct-a-bookings-appointment-a86a4007-e26c-4909-9893-f7036e2747cd).
 
