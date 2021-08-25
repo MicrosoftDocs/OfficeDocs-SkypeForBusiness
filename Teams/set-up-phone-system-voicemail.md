@@ -34,17 +34,9 @@ This article is for the Microsoft 365 or Office 365 admin as described in [About
 > [!NOTE]
 > When a delegate answers a call on behalf of a delegator, notifications are not available in Cloud Voicemail. Users can receive notifications for missed calls.
 
-## Cloud Voicemail for Teams users and accounts
+## Cloud Voicemail for Teams users
 
-For Teams users, Cloud Voicemail is automatically set up and provisioned. Note the following:
-
-- A Phone System license is not required for Cloud Voicemail. Therefore, removing a Phone System license will not remove Cloud Voicemail. The latter is important to understand if, for some reason, you don't want users to have access to Cloud Voicemail.
-
-- Service and admin accounts that are assigned a Teams license automatically get Cloud Voicemail.
-
-- Auto Attendant and Call Queue resource accounts do not get Cloud Voicemail.
-
-- Common area phones and Teams Room System aren't treated the same way as named users because a mailbox needs to exist.
+For Teams users, Cloud Voicemail is automatically set up and provisioned. Note that a Phone System license is not required for Cloud Voicemail. 
 
 ## Set up Cloud Voicemail for Exchange Server Mailbox Users
 
