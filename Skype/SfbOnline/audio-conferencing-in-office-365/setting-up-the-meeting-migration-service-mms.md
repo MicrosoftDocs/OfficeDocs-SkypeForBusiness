@@ -178,6 +178,7 @@ If you see any migrations that have failed, take action to resolve these issues 
     - Have the users create new Skype meetings.
     - [Contact support](/microsoft-365/Admin/contact-support-for-business-products).
 
+The `Get-CsMeetingMigrationStatus` cmdlet can be used to retrieve status of migrations that were triggered within the past 150 days. Records for migrations older than 150 days are purged from the system.
 
 ### Enabling and disabling MMS
 
