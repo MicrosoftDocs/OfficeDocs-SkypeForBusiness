@@ -34,9 +34,9 @@ This article is for the Microsoft 365 or Office 365 admin as described in [About
 > [!NOTE]
 > When a delegate answers a call on behalf of a delegator, notifications are not available in Cloud Voicemail. Users can receive notifications for missed calls.
 
-## Cloud Voicemail for Teams Phone System users
+## Cloud Voicemail for Teams users
 
-For Teams Phone System users, Cloud Voicemail is automatically set up and provisioned for users. 
+For Teams users, Cloud Voicemail is automatically set up and provisioned for users. 
 
 ## Set up Cloud Voicemail for Exchange Server Mailbox Users
 
