@@ -1,5 +1,5 @@
 ---
-title: Virtual consultations with Teams and the Bookings app for remote sales and service
+title: Virtual consultations with Microsoft Teams and the Bookings app for remote sales and service
 author: lanachin
 ms.author: v-lanachin
 manager: samanro
@@ -17,7 +17,7 @@ ms.reviewer:
 description: Learn how to use the Bookings app in Teams to schedule, manage, and conduct virtual consultations for  remote sales and service in your financial services organization. 
 ---
 
-# Virtual consultations with Teams and the Bookings app for remote sales and service
+# Virtual consultations with Microsoft Teams and the Bookings app for remote sales and service
 
 ## Overview
 
@@ -25,7 +25,7 @@ The [Bookings app](https://support.microsoft.com/office/what-is-bookings-42d4e85
 
 The Bookings app makes it easy to manage complex scheduling demands across your organization. Schedulers can manage multiple department and staff calendars, as well as communications with internal and external attendees, from a single experience.
 
-Virtual consultations are held through Microsoft Teams meetings, which offers robust videoconferencing capabilities. For example, a banking advisor can share their screen and request electronic signatures on documents, allowing them to close transactions remotely.
+Virtual consultations are held through Microsoft Teams meetings, which offer robust videoconferencing capabilities. For example, a banking advisor can share their screen and request electronic signatures on documents, allowing them to close transactions remotely.
 
 Each virtual appointment includes a Teams meeting link that’s sent to attendees in email where they can easily join from a web browser or in Teams on any device. Automated email reminders help reduce no-shows and enhance customer engagement.
 

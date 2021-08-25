@@ -1,5 +1,5 @@
 ---
-title: Virtual visits with Teams and the Bookings app
+title: Virtual visits with Microsoft Teams and the Bookings app
 author: lanachin
 ms.author: v-lanachin
 manager: samanro
@@ -21,7 +21,7 @@ ms.reviewer:
 description: Learn how to use the Bookings app in Teams to schedule, manage, and conduct virtual visits with patients and other healthcare providers.
 ---
 
-# Virtual visits with Teams and the Bookings app
+# Virtual visits with Microsoft Teams and the Bookings app
 
 ## Overview
 
@@ -29,7 +29,7 @@ The [Bookings app](https://support.microsoft.com/office/what-is-bookings-42d4e85
 
 The Bookings app makes it easy to manage complex scheduling demands. Schedulers can manage multiple department and staff calendars, as well as communications with internal and external attendees, from a single experience.
 
-Virtual visits are held through Microsoft Teams meetings, which offers robust videoconferencing capabilities. For example, a doctor can share their screen and show and discuss test results with a patient.
+Virtual visits are held through Microsoft Teams meetings, which offer robust videoconferencing capabilities. For example, a doctor can share their screen and show and discuss test results with a patient.
 
 Each virtual appointment includes a Teams meeting link that’s sent to attendees in email where they can easily join from a web browser or in Teams on any device. Automated email reminders help reduce no-shows and enhance customer engagement.
 
