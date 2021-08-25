@@ -21,13 +21,13 @@ ms.custom:
 
 # Manage the health of Teams devices
 
-Administrators can monitor the health of devices installed with Microsoft Teams by using health status, which indicates the severity of issues. To reach the **Health status** section, you'll need to go to Teams admin center and then go to Devices, where Health status will be a menu option XXX NAV DETAILS SCREEN. Choosing **Health status** will open up a side panel with health status details.
+Administrators can monitor the health of devices installed with Microsoft Teams by using health status, which indicates the severity of issues. To check the health of a device, you can go to the device list present under the **Devices** section of the Teams admin center. Te health status column indicates the current health status of the device. Selecting that status opens the **Health status panel**, which provides more details about health issues.
 
 Many types of issues can contribute towards health, and the Teams admin center system evaluates the severity of these issues as they occur.
 
-The administrator managing the Teams devices for their organization may decide the severity of issues for them isn't the same as the default Teams settings. There's a way for the administrators to customize the severity and the impact on the health of their devices to match their organization's priorities.
+The administrator managing the Teams devices for their organization may decide the severity of issues for them isn't the same as the default configuration. There's a way for the administrators to customize the severity and the impact on the health of their devices to match their organization's priorities.
 
-WE NEED TO DEFINE WHAT A PERIPHERAL IS HERE STATE IT IN THIS SECTION BEFORE WE GET TO DETAILS XXX
+Teams Rooms devices have peripherals attached for providing a complete meeting experience, like Speaker, Microphone, Display, Camera. Details about them are available on the device page under the Peripherals and Health tabs. The connectivity of these peripherals impacts the health of the parent device.
 
 ## Feature details
 
