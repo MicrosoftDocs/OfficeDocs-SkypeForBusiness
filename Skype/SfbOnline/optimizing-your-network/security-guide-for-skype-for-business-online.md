@@ -91,14 +91,14 @@ The following tables list the data that is required for SfBO to operate.
 <!--start table here -->
 
 
-|                      |                                                                                            |   |
-|:---------------------|:-------------------------------------------------------------------------------------------|:--|
-| **Data**             | **Possible** **settings**                                                                  |   |
-| Personal Data        | Name, Title, Company, Email address, Time zone                                             |   |
-| Telephone Numbers    | Work, Mobile, Home                                                                         |   |
-| Calendar Information | Free/Busy, Out-of-town notice, meeting details (to those who have access to your calendar) |   |
-| Presence Status      | Away, Available, Busy, Do Not Disturb, Offline                                             |   |
-|                      |                                                                                            |   |
+
+| **Data**             | **Possible** **settings**                                                                  |
+|:---------------------|:-------------------------------------------------------------------------------------------|
+| Personal Data        | Name, Title, Company, Email address, Time zone                                             |
+| Telephone Numbers    | Work, Mobile, Home                                                                         |
+| Calendar Information | Free/Busy, Out-of-town notice, meeting details (to those who have access to your calendar) |
+| Presence Status      | Away, Available, Busy, Do Not Disturb, Offline                                             |
+|                      |                                                                                            |
 
 <!-- end of table -->
 
@@ -107,13 +107,12 @@ The following tables list the data that is required for SfBO to operate.
 <!--start table here -->
 
 
-|              |                                                                 |   |
-|:-------------|:----------------------------------------------------------------|:--|
-| **Category** | **Possible settings**                                           |   |
-| IP Address   | Actual address of computer or NATed address                     |   |
-| SIP URI      | <u>david.campbell@contoso.com</u>                               |   |
-| Name         | David Campbell (as defined in Active Directory Domain Services) |   |
-|              |                                                                 |   |
+| **Data**             | **Possible** **settings**                                                                  |
+|:---------------------|:-------------------------------------------------------------------------------------------|
+| IP Address   | Actual address of computer or NATed address                     |
+| SIP URI      | <u>david.campbell@contoso.com</u>                               |
+| Name         | David Campbell (as defined in Active Directory Domain Services) |
+|              |                                                                 |
 
 <!-- end of table -->
 
@@ -162,9 +161,10 @@ The following table summarizes the protocol used by SfBO.
 <!--start table here with header -->
 
 
-|||
-|:-----|:-----|
+
+
 |**Traffic type**|**Protected by**|
+|:-----|:-----|
 |Server-to-server|MTLS|
 |Client-to-server|TLS|
 |Instant messaging and presence|TLS (if configured for TLS)|
