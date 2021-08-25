@@ -40,11 +40,11 @@ For Teams users, Cloud Voicemail is automatically set up and provisioned. Note t
 
 - A Phone System license is not required for Cloud Voicemail. Therefore, removing a Phone System license will not remove Cloud Voicemail. The latter is important to understand if, for some reason, you don't want users to have access to Cloud Voicemail.
 
-- Common area phones and Teams Room System aren't treated the same way as named users because a mailbox needs to exist.
-
 - Service and admin accounts that are assigned a Teams license automatically get Cloud Voicemail.
 
-- Auto Attendant and Call Queue accounts don't get Cloud Voicemail tied to the resource account.
+- Auto Attendant and Call Queue resource accounts do not get Cloud Voicemail.
+
+- Common area phones and Teams Room System aren't treated the same way as named users because a mailbox needs to exist.
 
 ## Set up Cloud Voicemail for Exchange Server Mailbox Users
 
