@@ -38,17 +38,17 @@ By default all peripherals are set to have **Critical impact** on the device hea
 > [!NOTE]
 > The peripheral categories **HDMI ingest** and **Compute** aren't available for customization as they are crucial to the functioning of the parent device.
 
-### How does this work?
+## How does this work?
 
 1. An administrator can select the peripherals they want to change the health impact for. Then they can select **Manage health impact**. Alternatively they can also find the **Manage health impact** option under the **Peripherals** tab on each peripheral card.
 1. The **Health impact** panel will open, and the administrator can select the desired impact level for the selected peripherals and save it.
 
-#### OPTIONS
-
-- **Non-urgent** - If the impact is set to **Non-urgent** for a peripheral category (such as a display or a speaker) and it gets disconnected, the health status of the Teams Rooms device will become **Non-urgent** (instead of **Critical**). New issues will be categorized in the **Non-urgent** section of the health status panel.
-- **No impact** - If the impact is set to **No impact** for a peripheral category and it gets disconnected, the health status of the Teams Rooms device will stay **Healthy** (instead of **Critical**). This health issue won't show up in the health status panel.
-- **Critical** - If the impact is configured to be **Critical** for a peripheral category (such as a display or a speaker) and it gets disconnected, the health status of the Teams Rooms device will become **Critical**. New such issues will be categorized in the **Critical** section of the health status panel.
-- **Reset to default** - If the administrator selects **Reset to default**, the health impact will be reset to **Critical**. Once this choice is saved, the changes will be applied and health impact will reflect those changes going forward.
+| Settings Options | Description |
+|------------------|-------------|
+| **Non-urgent** | When set for a peripheral category (such as a display or a speaker) and the peripheral is disconnected, the health status of the Teams Rooms device will become **Non-urgent** (instead of **Critical**). New issues will be categorized in the **Non-urgent** section of the health status panel.|
+| **No Impact** | When set for a peripheral category and the peripheral is disconnected, the health status of the Teams Rooms device will stay **Healthy** (instead of **Critical**). This health issue won't show up in the health status panel.|
+| **Critical** | When set for a peripheral category and the peripheral is disconnected, the health status of the Teams Rooms device will become **Critical**. New such issues will be categorized in the **Critical** section of the health status panel.|
+| **Reset to default** | When set for a peripheral category, the health impact for that category will be reset to **Critical**. Once this choice is saved, the changes will be applied and health impact will reflect those changes going forward.|
 
 ## Applicable device categories
 
