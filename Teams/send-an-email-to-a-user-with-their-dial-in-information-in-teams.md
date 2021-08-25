@@ -50,7 +50,6 @@ Here is an example of the email that is sent:
 
 3. Under **Audio Conferencing**, click **Send conference info in email**.
 
-
 ## What else should you know about this email?
 
 - There are several emails that are sent to users in your organization after they are enabled for audio conferencing:
@@ -66,17 +65,6 @@ Here is an example of the email that is sent:
   - When the audio conferencing provider for a user is changed from Microsoft to another provider or **None**.
     
   - When the audio conferencing provider for a user is changed to Microsoft.
-  
-## Want to know more about Windows PowerShell?
-
-Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 by using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
-    
-  - [Why you need to use Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
-    
-  - [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](/previous-versions//dn568025(v=technet.10))
-    
-For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=teams-ps) for more information.
-    
   
 ## Related topics
 

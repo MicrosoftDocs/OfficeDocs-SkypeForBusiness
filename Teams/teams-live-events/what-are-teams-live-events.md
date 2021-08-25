@@ -13,7 +13,7 @@ ms.collection:
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
-description: Learn how live events enable users to broadcast video and content to large online audiences in Teams, Yammer, and Stream.
+description: Learn how live events enable users to broadcast video and content too large online audiences in Teams, Yammer, and Stream.
 f1.keywords: 
 - CSH
 ms.custom:
@@ -21,14 +21,14 @@ ms.custom:
   - ms.teamsadmincenter.liveevents.policies
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 ---
 
 # What are Microsoft Teams live events
 
 ## Overview
 
-With Teams lives events, users in your organization can broadcast video and meeting content to large online audiences.
+With Teams lives events, users in your organization can broadcast video and meeting content too large online audiences.
 
 Microsoft 365 live events bring live video streaming to a new level. Live events encourage connection throughout the entire engagement lifecycle with attendees before, during, and after live events. You can create a live event wherever your audience, team, or community resides, using Microsoft Stream, Teams, or Yammer.  
 
@@ -38,7 +38,7 @@ Teams live events are considered the next version of Skype Meeting Broadcast and
 
 So, let's get started. First, take a look at the following diagram that shows high level components involved in Microsoft 365 live events and how they're connected.
 
-![The key components of live events](../media/live-event-flow-diagram.png  "Key components of live events, scheduling, production, Stream platform, certified third-party eCDN providers")
+![The key components of live events](../media/live-events-flow-diagram.png  "Key components of live events, scheduling, production, Stream platform, certified third-party eCDN providers")
 
 > [!Note]
 > We would like to emphasize that Teams Live Events, given the nature of broadcast technology, often exceed normal (internal) meeting populations.
@@ -86,7 +86,7 @@ The video input is the foundation of the live event and it can vary from a singl
 
 The live event streaming platform is made up of the following pieces:
 
-- **Azure Media Services**:  [Azure Media Services](/azure/media-services/previous/) gives you broadcast-quality video streaming services to reach larger audiences on today’s most popular mobile devices. Media Services enhances accessibility, distribution, and scalability, and makes it easy and cost-effective to stream content to your local or worldwide audiences — all while protecting your content.
+- **Azure Media Services**:  [Azure Media Services](/azure/media-services/previous/) gives you broadcast-quality video streaming services to reach larger audiences on today’s most popular mobile devices. Media Services enhances accessibility, distribution, and scalability, and makes it easy and cost-effective to stream content to your local or worldwide audiences—all while protecting your content.
 - **Azure Content Delivery Network (CDN)**:  Once your stream goes live, it's delivered through the [Azure Content Delivery Network (CDN)](/azure/cdn/). Azure Media Services provides integrated CDN for streaming endpoints. This allows the streams to be viewed worldwide with no buffering.
 
 ### Enterprise Content Delivery Network (eCDN)
@@ -97,6 +97,7 @@ The goal of eCDN is to take the video content from the internet and distribute t
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [Ramp](https://rampecdn.com)
 - [Riverbed](https://www.riverbed.com/solutions/office-365.html)
+- [Peer5](https://www.peer5.com/) (coming soon)
 
 ### Attendee experience
 

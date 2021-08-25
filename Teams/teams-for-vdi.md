@@ -1,7 +1,7 @@
 ---
 title: Teams for Virtualized Desktop Infrastructure
-author: msdmaguire
-ms.author: dmaguire
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -27,7 +27,7 @@ This article describes the requirements and limitations for using Microsoft Team
 
 Virtual Desktop Infrastructure (VDI) is virtualization technology that hosts a desktop operating system and applications on a centralized server in a data center. This enables a fully personalized desktop experience to users with a fully secured and compliant centralized source.
 
-Microsoft Teams in a virtualized environment supports chat and collaboration. And with the Windows Virtual Desktop, Citrix, and VMware platforms, calling and meeting functionality is also supported.
+Microsoft Teams in a virtualized environment supports chat and collaboration. And with the Azure Virtual Desktop, Citrix, and VMware platforms, calling and meeting functionality is also supported.
 
 Teams in a virtualized environment supports multiple configurations. These include VDI, dedicated, shared, persistent, and non-persistent modes. Features are in continuous development and are added on a regular basis, and functionality will expand in the coming months and years.
 
@@ -53,7 +53,7 @@ Using Teams in a virtualized environment requires the following components.
 
 The Teams desktop app was validated with leading virtualization solution providers. With multiple market providers, we recommend that you consult your virtualization solution provider to ensure that you meet the minimum requirements.
   
-Currently, Teams on VDI with audio/video (AV) optimization is certified with Windows Virtual Desktop, Citrix, and VMware. Review the information in this section to ensure that you meet all requirements for proper functionality.
+Currently, Teams on VDI with audio/video (AV) optimization is certified with Azure Virtual Desktop, Citrix, and VMware. Review the information in this section to ensure that you meet all requirements for proper functionality.
 
 ### Platforms certified for Teams
 
@@ -61,13 +61,13 @@ The following platforms have virtual desktop infrastructure solutions for Teams.
 
 |Platform|Solution|
 |----|---|
-|![The logo representing Microsoft](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Windows Virtual Desktop</a> |
+|![The logo representing Microsoft](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Azure Virtual Desktop</a> |
 |![The logo representing Citrix](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix Virtual Apps and Desktops</a> |
 |![The logo representing VMware](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
 
-### Windows Virtual Desktop
+### Azure Virtual Desktop
 
-Windows Virtual Desktop provides AV optimization for Teams on VDI. To learn more and requirements and installation, see [Use Teams on Windows Virtual Desktop](/azure/virtual-desktop/teams-on-wvd).
+Azure Virtual Desktop provides AV optimization for Teams on VDI. To learn more and requirements and installation, see [Use Teams on Azure Virtual Desktop](/azure/virtual-desktop/teams-on-wvd).
 
 ### Citrix Virtual Apps and Desktops requirements
 
@@ -91,11 +91,11 @@ You can deploy the Teams desktop app for VDI using a per-machine installation or
 
 For a dedicated persistent setup, either approach would work. However, for a non-persistent setup, Teams requires a per-machine installation in order to work efficiently. See the [Non-persistent setup](#non-persistent-setup) section.
 
-With per-machine installation, automatic updates is disabled. This means that to update the Teams app, you must uninstall the current version to update to a newer version. With per-user installation, automatic updates is enabled. For most VDI deployments, we recommend you deploy Teams using per-machine installation.
+With per-machine installation, automatic updates are disabled. This means that to update the Teams app, you must uninstall the current version to update to a newer version. With per-user installation, automatic updates are enabled. For most VDI deployments, we recommend you deploy Teams using per-machine installation.
 
 To update to the latest Teams version, start with the uninstall procedure followed by latest Teams version deployment.
 
-For Teams AV optimization in VDI environments to work properly, the thin client endpoint must have access to the internet. If internet access isn't available at the thin client endpoint, optimization startup won't be successful. This means that the user is in a non-optimized media state.
+For Teams AV optimization in VDI environments to work properly, the thin-client endpoint must have access to the internet. If internet access isn't available at the thin-client endpoint, optimization startup won't be successful. This means that the user is in a non-optimized media state.
 
 #### Dedicated persistent setup
 
@@ -116,6 +116,7 @@ In a non-persistent setup, users' local operating system changes are not retaine
 For a non-persistent setup, the Teams desktop app must be installed per-machine to the golden image. (To learn more, see the [Install or update the Teams desktop app on VDI](#install-or-update-the-teams-desktop-app-on-vdi) section.) This ensures an efficient launch of the Teams app during a user session.
 
 Using Teams in a non-persistent setup also requires a profile-caching manager, for efficient Teams runtime data synchronization. Efficient data synchronization ensures that the appropriate user-specific information (such as a user's data, profile, or settings) is cached during the user's session. Make sure data in these two folders are synched:<br>
+
 - C:\Users\username\AppData\Local\Microsoft\IdentityCache (%localAppdata%\Microsoft\IdentityCache)
 - C:\Users\username\AppData\Roaming\Microsoft\Teams (%appdata%\Microsoft\Teams)
 
@@ -181,6 +182,7 @@ To learn more about Teams and Microsoft 365 Apps for enterprise, see [How to exc
         ```console
         reg add "HKLM\SOFTWARE\Microsoft\Teams" /v IsWVDEnvironment /t REG_DWORD /d 1 /f
         ```
+
         This process adds a required registry key to the machine that lets the Teams installer know it is a VDI instance.  Without it, the installer will error out, stating: "Installation has failed.  Cannot install for all users when a VDI environment is not detected."
 
         ```console
@@ -251,7 +253,7 @@ Teams on Chrome browser doesn't provide a replacement for the Teams desktop app 
 
 ## Teams on VDI with chat and collaboration
 
-If your organization wants to only use chat and collaboration features in Teams, you can set user-level policies to turn off calling and meeting functionality in Teams. 
+If your organization wants to only use chat and collaboration features in Teams, you can set user-level policies to turn off calling and meeting functionality in Teams.
 
 ### Set policies to turn off calling and meeting functionality
 
@@ -268,8 +270,8 @@ To assign the DisallowCalling calling policy and the AllOff meeting policy to a 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**.
 2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
 3. Do the following:
-    1.  Under **Calling policy**, click **DisallowCalling**.
-    2.  Under **Meeting policy**, click **AllOff**.
+    1. Under **Calling policy**, click **DisallowCalling**.
+    2. Under **Meeting policy**, click **AllOff**.
 4. Click **Apply**.
 
 To assign a policy to multiple users at a time:
@@ -313,7 +315,7 @@ If you have an existing implementation of Teams on VDI with chat and collaborati
 
 You can use the Microsoft Teams admin center or PowerShell to set and assign calling and meeting policies to your users. It can take some time (a few hours) for policy changes to propagate. If you don't see changes for a given account immediately, try again after a few hours.
 
-[**Calling polices**](teams-calling-policy.md): Calling policies in Teams control which calling features are available to users. Teams includes the built-in AllowCalling calling policy, in which all calling features are turned on. To turn on all calling features, assign the AllowCalling policy. Or, create a custom calling policy to turn on the calling features that you want and assign it to users. 
+[**Calling polices**](teams-calling-policy.md): Calling policies in Teams control which calling features are available to users. Teams includes the built-in AllowCalling calling policy, in which all calling features are turned on. To turn on all calling features, assign the AllowCalling policy. Or, create a custom calling policy to turn on the calling features that you want and assign it to users.
 
 [**Meeting policies**](meeting-policies-in-teams.md): Meeting policies in Teams control the types of meetings that users can create and the features that are available to meeting participants that are scheduled by users in your organization. Teams includes the built-in AllOn meeting policy, in which all meeting features are turned on. To turn on all meeting features, assign the AllOn policy. Or, create a custom meeting policy to turn on the meeting features that you want and assign it users.
 
@@ -324,8 +326,8 @@ To assign the AllowCalling calling policy and the AllOn meeting policy to a user
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**.
 2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
 3. Do the following:
-    1.  Under **Calling policy**, click **AllowCalling**.
-    2.  Under **Meeting policy**, click **AllOn**.
+    1. Under **Calling policy**, click **AllowCalling**.
+    2. Under **Meeting policy**, click **AllOn**.
 4. Click **Apply**.
 
 To assign a policy to multiple users at a time:
@@ -372,6 +374,90 @@ To disable fallback mode, set the value to **1**. To enable audio only, set the 
 
 This feature is available in Teams version 1.3.00.13565 and later.
 
+## Disable audio and video settings for VDI
+
+Teams VDI policies are available in the Microsoft Teams module. These policies are active and enforced on non-optimized VDI environments.
+
+- New-CsTeamsVdiPolicy  
+- Grant-CsTeamsVdiPolicy
+- Remove-CsTeamsVdiPolicy
+- Set-CsTeamsVdiPolicy
+
+> [!NOTE]
+> This is only for non-optimized environments.
+
+### Update a module name
+
+update-Module -Name MicrosoftTeams -AllowPrerelease
+
+```PowerShell
+<# Import and connect to online (CSOnline runs the policies) #>
+Import-Module microsoftTeams
+if( -not $sess){
+    $session = New-CsOnlineSession
+    $pss = Import-PSSession $session
+}
+<# Check out the commands #>
+Get-Command -Noun *VDI*
+<#
+```
+
+### Set policies to limit calling features
+
+When users with this VDI Policy setting -DisableCallsAndMeetings $true to sign in to Teams on VDI, they shouldn't be able to:
+
+- Make calls.
+- Join meetings.
+- Do a screen share from chat.
+
+All types of calling should be disabled.
+
+> [!NOTE]
+> This is only for non-optimized environments.
+
+```PowerShell
+#>
+New-CsTeamsVdiPolicy -Identity DisableCallsAndMeetingsTrue -DisableCallsAndMeetings $true -DisableAudioVideoInCallsAndMeetings $false
+<# Assign Policy #>
+$user = 'meganb@jvteams.xyz'
+Grant-CsTeamsVdiPolicy -Identity $user -PolicyName DisableCallsAndMeetingsTrue
+<# wait for some time until the policy is applied #>
+get-CSOnlineUser -identity $user | FL UserPrincipalName, *vdi*
+<#
+Show all Policies  
+#>
+Get-CsTeamsVdiPolicy | FT Iden*, Disable*
+<#
+```
+
+When users with the VDI Policy setting -DisableAudioVideoInCallsAndMeetings $true sign in to Teams on VDI, they should be able to:
+
+- Do a screen share from chat.
+- Join a meeting and share a screen. Move their audio to a phone.
+- Users shouldn't be able to do a person-to-person audio and video call from VDI.
+
+> [!NOTE]
+> This is only for non-optimized environments.
+
+```powershell
+#>
+$PolName = "DisableCallsAndMeetingsAV"
+New-CsTeamsVdiPolicy -Identity $PolName -DisableCallsAndMeetings $false -DisableAudioVideoInCallsAndMeetings $true
+Grant-CsTeamsVdiPolicy -Identity $user -PolicyName $PolName
+<# wait for some time until the policy is applied #>
+get-CSOnlineUser -identity $user | FL UserPrincipalName, *vdi*
+<# ## Cleanup afterwards #>
+$cleanup = $false
+if($cleanup){
+    "Doing cleanup"
+    # de-assign policy from user  
+    Grant-CsTeamsVdiPolicy -Identity $user -PolicyName $null
+    get-CSOnlineUser -identity $user | FL UserPrincipalName, *vdi*
+    # remove Policies
+    Get-CsTeamsVdiPolicy | ?{$_.identity -ne 'Global'} | remove-csTeamsVdiPolicy
+}
+```
+
 ## Known issues and limitations
 
 ### Client deployment, installation, and setup
@@ -379,7 +465,8 @@ This feature is available in Teams version 1.3.00.13565 and later.
 - With per-machine installation, Teams on VDI isn't automatically updated in the way that non-VDI Teams clients are. You have to update the VM image by installing a new MSI as described in the [Install or update the Teams desktop app on VDI](#install-or-update-the-teams-desktop-app-on-vdi) section. You must uninstall the current version to update to a newer version.
 - In Citrix environments, if the user disconnects from the Virtual Machine while Teams is running, Teams updates can result in the user to be in a non-optimized state for AV when they reconnect. We recommend that users quit Teams before they disconnect from Citrix Virtual Machine to avoid this scenario.
 - Teams should be deployed either per user or per machine. Deployment of Teams for concurrent per user and per machine is not supported. To migrate from either per machine or per user to one of these modes, follow the uninstall procedure and redeploy to either mode.
-- Windows Virtual Desktop doesn't support macOS and Linux-based clients at this time.
+- Azure Virtual Desktop doesn't support macOS and Linux-based clients at this time.
+- Fast tenant switch can result in calling-related issues on VDI such as screen sharing not available, an incorrect participant list displayed etc. Restarting the client will mitigate these issues.
 
 ### Calling and meetings
 
@@ -391,10 +478,11 @@ The following calling and meeting features are not supported:
 - Background blur and effects
 - Broadcast and live event producer and presenter roles
 - Location-Based Routing (LBR)
-- Call park
+- PSTN call ringback tone
 - Shared system audio/computer sound
 - Media bypass for Direct Routing
-- Zoom control 
+- Call park
+- Zoom control
 
 > [!NOTE]
 > We're working on adding calling and meeting features that are currently only available in non-VDI environments. These might include more admin control over quality, additional screen sharing scenarios, and advanced features recently added to Teams. Contact your Teams representative to learn more about upcoming features.
@@ -405,14 +493,14 @@ The following are known issues and limitations for calling and meetings:
 - Incoming and outgoing video stream resolution is limited to 720p resolution.
 - Only one video stream from an incoming camera or screen share stream is supported. When there's an incoming screen share, that screen share is shown, instead of the video of the dominant speaker.
 - Teams doesn't switch to use the last audio device that a user selected, if the device is disconnected, and then reconnected.
+- Live events are not optimized.
 - Outgoing screen sharing:
     - Application sharing is not supported.
 - Give control and take control:
     - Not supported during a screen sharing or application sharing session.
     - Supported during a PowerPoint sharing session.
 - Citrix-only limitations
-    - When screen sharing in a multi-monitor setup, only the main monitor is shared.
-    - High DPI scaling on CWA is not supported.
+   - High DPI scaling on CWA is not supported.
 
 For Teams known issues that aren't related to VDI, see [Support Teams in your organization](/MicrosoftTeams/troubleshoot/teams-welcome).
 
@@ -432,4 +520,4 @@ Then, restart VDA. To learn more, see this Citrix support article, [Troubleshoot
 
 - [Install Microsoft Teams using MSI](msi-deployment.md)
 - [Teams PowerShell overview](teams-powershell-overview.md)
-- [Use Microsoft Teams on Windows Virtual desktop](/azure/virtual-desktop/teams-on-wvd)
+- [Use Microsoft Teams on Azure Virtual Desktop](/azure/virtual-desktop/teams-on-wvd)

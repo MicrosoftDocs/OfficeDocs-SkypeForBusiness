@@ -55,7 +55,7 @@ Permission to publish depends on whether a user is a member of any teams in the 
 
 ### Guidelines
 
-* There can only be one hierarchy file applied per organization. However, you can include different parts of your organization together as distinct hierarchies of nodes within one CSV file. For example, Contoso Pharmaceuticals has a Pharmacy root node and a Retail root node. Both root nodes have multiple rows of descendants and there's no overlap between them.
+* There can only be one hierarchy file applied per organization. However, you can include different parts of your organization together as distinct hierarchies of nodes within one file. For example, Contoso Pharmaceuticals has a Pharmacy root node and a Retail root node. Both root nodes have multiple rows of descendants and there's no overlap between them.
 * Only leaf nodes can be recipients of a publication. Other nodes in the hierarchy are helpful for selecting recipients of a publication.
 * A team can only be represented one time in a hierarchy.
 * A hierarchy can contain up to 15,000 nodes. We plan to work with customers to raise this limit for larger organizations.
@@ -71,7 +71,7 @@ For example, in the following hierarchy, Recall, Communications, and HR can publ
 > [!NOTE]
 > The remainder of this article discusses setting up a team hierarchy in the context of publishing tasks to recipient teams. Refer to [Manage the Tasks app for your organization in Teams](./manage-tasks-app.md) for an overview of the Tasks app, where task publishing appears when enabled.
 
-The schema that defines your hierarchy is based on a comma-separated values (CSV) file. Each row in the CSV file corresponds to one node within the hierarchy of teams. Each row contains information that names the node within the hierarchy, optionally links it to a team, and includes attributes that can be used to filter teams in apps that support it.
+The schema that defines your hierarchy is based on a comma-separated values (CSV) file. The file must be in UTF-8 format. Each row in the CSV file corresponds to one node within the hierarchy of teams. Each row contains information that names the node within the hierarchy, optionally links it to a team, and includes attributes that can be used to filter teams in apps that support it.
 
 You can also define **buckets**, which are categories that the publishing team can use to organize content sent to recipient teams to make it easier for them to view, sort, and focus on relevant content.
 
@@ -144,6 +144,12 @@ Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,
 ```
 
 ## Apply your hierarchy
+
+> [!NOTE] 
+> To perform this step, you must install and use the Teams PowerShell public preview module from the PowerShell Gallery. For steps on how to install the module, see Install Teams PowerShell.
+
+> [!NOTE]
+> Government Community Cloud (GCC) customers must use [cmdlet preview version 2.4.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview) or later to ensure data is routed to the GCC environment, rather than the public cloud environment.
 
 After you've defined your hierarchy in the schema CSV file, you're ready to upload it to Teams. To do this, run the following command. You must be a global admin or Teams service admin to do this step.
 

@@ -1,6 +1,6 @@
 ---
-title: "Qualified Lync applications"
-ms.author: dmaguire
+title: "Qualified Lync applications: Billing and enhanced reporting applications"
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -18,11 +18,11 @@ f1.keywords:
 ms.custom:
 - Lync Certification
 - dn788946
-description: "The Lync qualificaton program helps ensure that qualified applications meet customer expectations for specific scenarios"
+description: "The Lync qualification program helps make sure that qualified applications meet customer expectations for specific scenarios."
 ---
 
-# Billing & Enhanced Reporting Applications
-Billing and enhanced reporting applications enable organizations to monitor, track and report both financial and time information for an entire organization's communications stream.
+# Billing and enhanced reporting applications
+Billing and enhanced reporting applications enable organizations to monitor, track, and report both financial and time information for an entire organization's communications stream.
 
 ## CA Unified Communications Monitor
 * * *
@@ -61,7 +61,7 @@ Armed with usage and trend data, your organization can maximize its adoption of 
 Prognosis 10 provides complete visibility and actionable insight to control complex, multi-vendor unified communications (UC) environments more effectively, when and where you want. Deliver superior performance and lower operational costs.
 
 **Use Actionable Insight to Improve Operations**<br/>
-Full visibility and analysis lets you proactively manage operations and respond to issues fast. This helps ensure your Lync environment sustains productivity, collaboration and quality of experience to drive competitive advantage.
+Full visibility and analysis lets you proactively manage operations and respond to issues fast. This information helps ensure your Lync environment sustains productivity, collaboration, and quality of experience to drive competitive advantage.
 
 **Achieve Fast Time to Value**<br/>
 Easily deploy using any standard HTML5 browser. Prognosis 10 delivers a rapid return on investment. It can easily scale to meet changing business needs, while a small footprint provides lower cost of ownership, whether on premise or in the cloud.
@@ -77,7 +77,7 @@ Avoid finger-pointing, with visibility and control of the entire communications 
 
 [ISI](http://isi-info.com)
 
-***Infortel Select from ISI Telemanagement Solutions*** presents customers with a ground-level view of all communications within their organization and identifies opportunities to improve productivity and reduce costs. It analyzes calling patterns, employee call handing performance, queue times, call volumes and network performance.
+***Infortel Select from ISI Telemanagement Solutions*** presents customers with a ground-level view of all communications within their organization and identifies opportunities to improve productivity and reduce costs. It analyzes calling patterns, employee call handing performance, queue times, call volumes, and network performance.
 
 Infortel Select uses an advanced GUI based on Microsoft Silverlight, and provides Executive Dashboards, Multi-Lingual Reports, Currency Conversion, and Automatic Reports Distribution.
 It builds on ISI Telemanagement Solutions' 30+ year tradition of assisting clients with all issues related to Telecom Management. ISI provides Call Accounting and Telecom Management solutions that optimize information, productivity, and costs involving data, wireless, voice, and unified communications.
@@ -92,9 +92,9 @@ It builds on ISI Telemanagement Solutions' 30+ year tradition of assisting clien
 
 ***PhonEX ONE*** web-based call accounting provides telecom traffic tracking and control for world-wide organizations as its architecture supports multiple currencies and languages or geographically dispersed data sources.
 
-A flexible and scalable application as it can be easily adjusted from a single site to monitoring calls traffic in multinational organizations. The automatic import option allows PhonEX ONE to easily accommodate and maintain multiple types of organization structures synchronized with various sources (file, ODBC and LDAP).
+A flexible and scalable application as it can be easily adjusted from a single site to monitoring calls traffic in multinational organizations. The automatic import option allows PhonEX ONE to easily accommodate and maintain multiple types of organization structures synchronized with various sources (file, ODBC, and LDAP).
 
-Reporting offers a quick and precise analysis of the unified communications usage, helping organizations to reduce costs and increase productivity while at-a-glance statistics are offered through an eye-catchy, flexible and practical dashboard interface. Information can be displayed in summarized or detailed report formats and an unlimited number of report templates are offered to suit user's needs.
+Reporting offers a quick and precise analysis of the unified communications usage, helping organizations to reduce costs and increase productivity while at-a-glance statistics are offered through an eye-catchy, flexible, and practical dashboard interface. Information can be displayed in summarized or detailed report formats and an unlimited number of report templates are offered to suit user's needs.
 Fraud detection module provides companies the possibility to track and alert any system misuse or urgent situations.
 
 ## Nectar UC Diagnostics
@@ -107,7 +107,7 @@ Fraud detection module provides companies the possibility to track and alert any
 
 Nectar's UC Diagnostics (UCD) module delivered via our Unified Communications Management Platform (UCMP) provides comprehensive insight for Lync UC environments. Nectar's UCD delivers real-time, end-to-end call performance of Lync voice, video, collaboration and conferencing sessions, providing fast issue isolation and resolution. Nectar was the first and most complete Lync monitoring solution to have been tested, qualified, and deployed with the Microsoft Lync Software Defined Network (SDN) API. UCD's tight integration with the Lync SDN API enables Nectar to fully leverage its entire product portfolio for real-time media analysis, network path awareness and root-cause analysis.
 
-Nectar is able to dramatically reduce problem resolution time by more than 70% when compared to standard network assurance tools with just a few mouse clicks. Nectar also provides network assessment, health and performance monitoring of the entire Lync ecosystem, skills-based alarm management, SLA tracking, along with an Advanced Reporting & Analytics module in a true multi-tenant interface. All of which helps to ensure an optimal and efficient deployment and management of your Lync UC services.
+Nectar is able to dramatically reduce problem resolution time by more than 70% when compared to standard network assurance tools with just a few mouse clicks. Nectar also provides network assessment, health, and performance monitoring of the entire Lync ecosystem, skills-based alarm management, SLA tracking, along with an Advanced Reporting & Analytics module in a true multi-tenant interface. All of which helps to ensure an optimal and efficient deployment and management of your Lync UC services.
 
 Optimize Lync UC service management and users' experience with:
 - Automatic correlation of all Lync session, content and topology data, for a unique view of the "entire" Lync user experience
@@ -141,14 +141,14 @@ cvt.com.au
 
 Periscope GC for Billing and Enhanced Reporting on Lync recognizes that Lync provides an opportunity to deliver more for our customers. Not only does Lync deliver a rich Unified Communications environment for users, but it coincides with the latest Microsoft technologies in operating system, database and web application development.
 
-Periscope GC takes advantage of these developments to deliver a rich web based user experience providing well established telecoms reporting features such as on-billing, Call Cost Accounting and service provider bill import and extending that further to drive business analytics around the Unified Communications play.
+Periscope GC takes advantage of these developments to deliver a rich web-based user experience providing well-established telecoms reporting features such as on-billing, call cost accounting, and service provider bill import and extending that further to drive business analytics around the Unified Communications play.
 
 Periscope GC is used by customers in all verticals delivering the full range of requirements including more than 100 standard report templates in multi-formats, scheduled reports, exception reports, monitoring dashboards and more. We look forward to discussing further with interested parties on how GC can benefit their operations.
 
 ## Proteus Call Accounting from CTI Group
 For Lync 2013
 
-**See a detailed optimisation and cost analysis of your communication systems.**
+**See a detailed optimization and cost analysis of your communication systems.**
 
 ctigroup.com
 
@@ -158,7 +158,7 @@ Cost and revenue optimization: Analyze telephone costs in real time. Respond to 
 Cost allocation within a company: Assign costs to departments and employees for chargeback. Schedule cost reports to finance and human resources teams.
 Service billing: Allocate costs to account codes and produce billing reports for client phone usage.
 
-Network optimization: Monitor effectiveness of network, network utilization, and network capacity in real time. Respond to real time triggers and trends. Identify over-utilized and under-utilized trunks. Monitor call-routing effectiveness, abandoned calls, agent utilization and many other network aspects.
+Network optimization: Monitor effectiveness of network, network utilization, and network capacity in real time. Respond to real-time triggers and trends. Identify over-utilized and under-utilized trunks. Monitor call-routing effectiveness, abandoned calls, agent utilization, and many other network aspects.
 
 Staff activity: Report on employee calling activities and patterns. Measure key performance indicators (KPIs).
 
@@ -169,13 +169,13 @@ For Lync 2013
 
 **Provide complete management for automated billing, reporting, and invoicing.**
 
-Singula Analytics has been specifically designed for Microsoft Lync, delivering a carrier class billing and reporting platform. Whether you're deploying Lync onsite or hosted, it provides a fully itemized, online billing solution that enables you to charge usage and calls back to individual users, departments, cost centers or customers.
+Singula Analytics has been specifically designed for Microsoft Lync, delivering a carrier class billing and reporting platform. Whether you're deploying Lync onsite or hosted, it provides a fully itemized, online billing solution that enables you to charge usage and calls back to individual users, departments, cost centers, or customers.
 
 Every single interaction is logged by Analytics to provide a clear audit trail of all activity within the system. Use this data to search for specific interactions or gain a greater understanding of the platform usage.
 
-Analytics has drill down capability, trending, heat mapping and forecasting. This enables management to make informed decisions and enhance the effectiveness and long term usage of Microsoft Lync.
+Analytics has drill down capability, trending, heat mapping and forecasting. This enables management to make informed decisions and enhance the effectiveness and long-term usage of Microsoft Lync.
 
-Singula Analytics creates a multi-tenanted view of your Lync deployment using information gathered from Active Directory. Use this view to navigate quickly between entities to view usage, bills and create reports.
+Singula Analytics creates a multi-tenanted view of your Lync deployment using information gathered from Active Directory. Use this view to navigate quickly between entities to view usage and bills and create reports.
 
 ## Tiger Communications Tiger 2020 Pro
 For Lync 2010, 2013
@@ -210,7 +210,7 @@ For Lync 2013
 
 unifysquare.com
 
-PowerSAT, a Lync IM cloud-based solution, helps organizations quickly and easily gather real-time Net User Satisfaction (NSAT) information about Lync. With PowerSAT, users can rate their satisfaction in a familiar Lync instant message (IM) based on their presence's availability. The presence and IM based solution increase the users' response rate significantly compared with other survey solutions. PowerSAT also includes a real-time reporting portal that allows IT Departments to monitor and track progress based on standard Net Satisfaction Score (NSAT) used by Microsoft and other enterprises.
+PowerSAT, a Lync IM cloud-based solution, helps organizations quickly and easily gather real-time Net User Satisfaction (NSAT) information about Lync. With PowerSAT, users can rate their satisfaction in a familiar Lync instant message (IM) based on their presence's availability. The presence and IM based solution increase the users' response rate compared with other survey solutions. PowerSAT also includes a real-time reporting portal that allows IT Departments to monitor and track progress based on standard Net Satisfaction Score (NSAT) used by Microsoft and other enterprises.
 
 ## Unify Square PowerView
 For Lync 2010, 2013
@@ -223,7 +223,7 @@ PowerView is a comprehensive reporting and billing solution for Lync that enable
 
 PowerView includes a scalable data warehouse that produces rich reports on the operation and management of Lync Server across an entire deployment over an unlimited period of time. Instant Messaging, voice, application sharing, audio and video conferencing, are all tracked and reported.
 
-Administrators can drill-down through more than 30 prepackaged reports to browse usage, view by department or geography, sort by total usage or costs, and navigate to individual user reports. Customized reports can also be created to meet specific requirements. Reporting subscriptions can enable automation of activities such as sending out monthly departmental billing summaries.
+Administrators can drill down through more than 30 prepackaged reports to browse usage, view by department or geography, sort by total usage or costs, and navigate to individual user reports. Customized reports can also be created to meet specific requirements. Reporting subscriptions can enable automation of activities such as sending out monthly departmental billing summaries.
 
 * * *
 ### Related resources

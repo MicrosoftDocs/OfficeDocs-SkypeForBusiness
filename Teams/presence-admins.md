@@ -1,7 +1,7 @@
 ---
 title: User presence in Teams
-author: msdmaguire
-ms.author: dmaguire
+author: dmaguire
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -29,6 +29,7 @@ Presence is part of a user's profile in Microsoft Teams (and throughout Microsof
  > [!NOTE]
  > Teams respects your privacy configuration so if you have enabled the privacy mode, your presence will not be visible to external users.
 ## Presence states in Teams
+
 
 |User configured|App configured|
 |:--- |:---|

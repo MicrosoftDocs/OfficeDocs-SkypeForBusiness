@@ -38,6 +38,18 @@ The following list shows the Android device firmware requirements.
 |Teams phones|	Poly Trio C60|	7.0.2.1071|
 |Teams phones|	CCX400/CCX500/CCX600	|7.0.2.1072|
 |Teams phones|	Audio Codes C448HD/C450HD/C470HD|	1.10.120|
+|Teams panels|	Crestron 770/1070|	1.004.0115|
+|Teams Rooms on Android|Logitech Rally Bar Mini|1.2.982|
+|Teams Rooms on Android|Logitech Rally Bar|1.2.982|
+|Teams Rooms on Android|AudioCodes RXV80|1.13.361|
+|Teams Rooms on Android|EPOS EXPAND Vision 3T|1.2.2.21182.10|
+|Teams Rooms on Android|Yealink MeetingBar A30|133.15.0.60|
+|Teams Rooms on Android|Yealink MeetingBar A20|133.15.0.60|
+|Teams Rooms on Android|Yealink CTP18 touch console|137.15.0.37|
+|Teams Rooms on Android|Poly Studio X30|3.5.0.344025|
+|Teams Rooms on Android|Poly Studio X50|3.5.0.344025|
+|Teams Rooms on Android|Poly TC8 touch console |3.5.0.210489|
+|Teams Rooms on Android|Yealink VC210|118.15.0.54|
 
 ## Add a device MAC address
 

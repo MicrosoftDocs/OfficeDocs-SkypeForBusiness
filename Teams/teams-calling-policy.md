@@ -1,5 +1,5 @@
 ---
-title: Calling policies in Microsoft Teams
+title: 'Calling policies in Microsoft Teams: Calling and call-forwarding features'
 author: SerdarSoysal
 ms.author: tonysmit
 manager: serdars
@@ -22,8 +22,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-Calling policies in Microsoft Teams
-===================================
+#  Calling and call-forwarding in Teams
 
 In Microsoft Teams, calling policies control which calling and call forwarding features are available to users. Calling policies determine whether a user can make private calls, use call forwarding or simultaneous ringing to other users or external phone numbers, route calls to voicemail, send calls to call groups, use delegation for inbound and outbound calls, and so on.
 
@@ -75,11 +74,11 @@ This setting enables inbound calls to be sent to voicemail. Valid options are:
 - **Disabled**  Voicemail is not available for inbound calls.
 - **User controlled** Users can determine whether they want voicemail to be available.
 
-### Inbound calls can be routed to call groups 
+### Inbound calls can be routed to call groups
 
 This setting controls whether incoming calls can be forwarded to a call group.
 
-### Allow delegation for inbound and outbound calls
+### Delegation for inbound and outbound calls
 
 This setting enables inbound calls to be routed to delegates, allowing delegates to make outbound calls on behalf of the users for whom they have delegated permissions. For more information, see [Share a phone line with a delegate](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8).
 
@@ -87,20 +86,24 @@ This setting enables inbound calls to be routed to delegates, allowing delegates
 
 Setting this to **On** will send calls through the PSTN and incur charges rather than sending them through the network and bypassing the tolls.
 
-### Busy on Busy is available while in a call
+### Busy on busy is available when in a call
 
-Busy on Busy (Busy Options) is a new setting that lets you configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. New or incoming calls can be rejected with a busy signal or can be routed accordingly to the user's unanswered settings. You can enable busy options at the tenant level or at the user level. Regardless of how their busy options are configured, users in a call or conference or those with a call on hold are not prevented from initiating new calls or conferences. This setting is disabled by default.
+Busy on Busy (Busy Options) lets you configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. New or incoming calls can be rejected with a busy signal or can be routed accordingly to the user's unanswered settings. You can enable busy options at the tenant level or at the user level. Regardless of how their busy options are configured, users in a call or conference or those with a call on hold are not prevented from initiating new calls or conferences. This setting is disabled by default.
 
-### Allow web PSTN calling
+### Web PSTN calling
 
 This setting enables users to call PSTN numbers using the Teams web client.
+
+### Incoming meeting invites are automatically answered
+
+This setting controls whether incoming meeting invites are automatically answered. It's turned off by default. Keep in mind that this setting applies only to incoming meeting invites. It doesn't apply to other types of calls.
 
 ### Allow music on hold
 
 This setting allows you to turn on or turn off music on hold when a PSTN caller is placed on hold. It's turned on by default. This setting doesn't apply to call park and boss delegate features, and is currently only available via PowerShell.
 
-## Related topics
+## Related articles
 
-[Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
+[Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
 [Assign policies to your users in Teams](assign-policies.md)

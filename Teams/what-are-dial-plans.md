@@ -26,7 +26,7 @@ description: "Learn what type of dial calling plans (PSTN Calling dial plans) ar
 
 # What are dial plans?
 
-A dial plan is a named set of normalization rules that translate dialed phone numbers by an individual user into an alternate format (typically E.164) for purposes of call authorization and call routing.
+A dial plan is a named set of normalization rules that translate dialed phone numbers by an individual user into an alternate format (typically E.164) for purposes of call authorization and voice routing.
 
 A dial plan consists of one or more normalization rules that define how phone numbers expressed in various formats are translated to an alternate format. The same dial string may be interpreted and translated differently in different dial plans, so depending on which dial plan is assigned to a given user, the same dialed number may be translated and routed differently. There can be a maximum of 1,000 tenant dial plans.
 
@@ -55,7 +55,7 @@ The following are the possible effective dial plans:
 See [Create and manage dial plans](create-and-manage-dial-plans.md) to create your tenant dial plans.
 
 > [!NOTE]
-> In the scenario where no dial plan normalization rules apply to a dialed number, the dialed string is still normalized to prepend "+CC" where CC is the country code of the dialing user's usage location. This applies to Calling Plans, Direct Routing and PSTN Conference dial-out scenarios.
+> In the scenario where no dial plan normalization rules apply to a dialed number, the dialed string is still normalized to prepend "+CC" where CC is the country code of the dialing user's usage location. This applies to Calling Plans, Direct Routing and PSTN Conference dial-out scenarios. Additionally, if a tenant dial plan normalization rule results in a number that does not start with "+", the calling service will attempt to normalize the number received from the Teams client based on the tenant dial plan, and if not matched, on the region dial plan. To avoid double normalization, it's recommended that Direct Routing customers normalize numbers to include a + and then remove the + using Trunk Translation rules. 
 
 ## Planning for tenant dial plans
 

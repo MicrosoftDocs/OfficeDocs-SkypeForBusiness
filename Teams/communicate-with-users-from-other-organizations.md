@@ -72,7 +72,7 @@ The following tables show the differences between using external access (federat
 | People outside your organization can | External access users | Guests |
 |---------|-----------------------|--------------------|
 | Access Teams resources | No | Yes |
-| Be added to a group chat | No | Yes |
+| Be added to a group chat | Yes | Yes |
 | Be invited to a meeting | Yes | Yes |
 | Make private calls | Yes | Yes<sup>5</sup> |
 | View the phone number for dial-in meeting participants | No<sup>4</sup> | Yes |
@@ -89,7 +89,7 @@ The following tables show the differences between using external access (federat
 
 <br>
 
-<sup>1</sup> Provided that the user has been added as a guest and is signed with the guest account.<br>
+<sup>1</sup> Provided that the user has been added as a guest and is signed in with the guest account.<br>
 <sup>2</sup> Only by email or Session Initiation Protocol (SIP) address.<br>
 <sup>3</sup> Supported for 1:1 chat for Teams Only to Teams Only users from two different organizations. <br>
 <sup>4</sup> By default, external participants can't see the phone numbers of dialed-in participants. If you want to maintain the privacy of these phone numbers, select **Tones** for **Entry/exit announcement type** (this prevents the numbers from being read out by Teams). To learn more, read [Turn on or off entry and exit announcements for meetings in Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md). <br>

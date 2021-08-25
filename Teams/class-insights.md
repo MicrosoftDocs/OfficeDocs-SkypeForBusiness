@@ -180,12 +180,12 @@ Viewing class-level Insights as the class educator *does not* require this becau
 To learn more, read [**Sync Student Information System (SIS) data with Education Insights**](education-insights-sis-data-sync.md).
 
 ## Manage permissions
-You need to provide permissions for education leaders, district leaders, school principals, head teachers, counselors, heads of learning areas, program directors, social workers, and psychologists. Educators are *automatically* given permission when they own a class team.
+As an IT admin you can provide permissions for education leaders, district leaders, school principals, head teachers, counselors, heads of learning areas, program directors, social workers, and psychologists. Educators are *automatically* given permission when they own a class team.
 
 To learn more, read [**Manage user access to Education Insights**](education-insights-manage-access.md).
 
 ## Manage the setup policy
-As IT Admin, you can use the app setup policy to install Insights by default for your educators and leaders when they start Teams. With the setup policy, you can customize Teams to highlight Insights and pin it on the apps bar.
+As an IT Admin, you can use the app setup policy to install Insights by default for your educators and leaders when they start Teams. With the setup policy, you can customize Teams to highlight Insights and pin it on the apps bar.
 
 If educators want direct access to each class, they can manually install the Insights tab on the top navigation menu. This tab enables the educator to directly access the relevant data when they are in that class in Teams to see the data in the class context. 
 
@@ -208,18 +208,26 @@ Feel free to distribute the following material to your **educators**:
 Material for **education leaders**:
 *	[Insights for education organizations support page](https://support.microsoft.com/office/8738d1b1-4e1c-49bd-9e8d-b5292474c347).
 
-## Turn Insights off or on
-By default, Insights is turned on. When you opt-out, we *delete all the data collected* for Insights. Turn Insights back on, and we start collecting data from the time it's re-enabled.
+### Turn Insights on or off
 
-### Turn off Insights using School Data Sync (SDS)
+By default, Insights is turned on, which enables us to collect analytics of students' activities within Teams, to be used in insights. You may decide to opt-out from Insights, in which case we *delete all the data collected* for Insights and stop collecting any future data. If you turn Insights back on, we start collecting data from the time it's re-enabled.
+
+* To turn Insights on or off, open the [SDS Admin Center](https://sds.microsoft.com/) and go to **Settings** > **Manage Education Insights**. Turn **Collect activity data for Insights** off or on to disable or enable Insights.
+
+:::image type="content" source="media/insights-settings.png" alt-text="A screenshot of the SDS Admin Center page where you have a settings option to turn Insights on or off.":::
+
+> [!NOTE]
+> If you've turned Insights off, the data that's been collected is deleted. The deleted data on opt-out canot be restored at a later time, even if Insights is re-enabled.
+
+### Turn SDS for Insights on or off
+
 School Data Sync (SDS) helps automate the import and synchronization of the Student Information System (SIS) data with Teams.
 
-The use of Insights *does not* require the use of SDS. However, you may choose to opt-out from Insights at any time. Open the [SDS Admin Center](https://sds.microsoft.com) and go to **Settings** > **Manage Education Insights**. Turn off '**Collect data for Insights**' to disable Insights. 
+The use of Insights *does not* require the use of SDS. However, you may choose to opt-out from Insights at any time. 
 
-:::image type="content" source="media/insights-sds-settings.png" alt-text="The on-off switch to enable or disable Insights.":::
+* To turn off Insights use of School Data Sync follow the instruction in [Disabling SDS for Insights](/schooldatasync/how-to-deploy-sds-for-insights#disabling-sds-for-insights).
 
-### Turn on Insights
-If you turned off Insights, you can quickly turn it on. Open the [SDS Admin Center](https://sds.microsoft.com) and go to **Settings** > **Manage Education Insights**. Turn on '**Collect data for Insights**' to enable Insights
+* To turn it back on follow the instructions in [How to deploy SDS for Insights](/schooldatasync/how-to-deploy-sds-for-insights).
 
 ### How to delete your data
 Insights stores student and educator actions performed in the context of a class team. This data is considered a comingled data set and therefore isn't automatically deleted from the service once student or educator user accounts are deleted from your organization.
@@ -236,7 +244,7 @@ If you don't have an account manager, please open a ticket. Go to the [Office 36
  
 Also, verify that data collection for Insights is enabled. While it’s on by default, IT Admin may have turned it off and therefore deleted all the data held by Insights.
 
-To verify this, open the [SDS Admin Center](https://sds.microsoft.com) and go to **Settings** > **Manage Education Insights**. Check the status of 'Collect data for Insights'.
+To verify this, open the [SDS Admin Center](https://sds.microsoft.com) and go to **Settings** > **Manage Education Insights**. Check the status of 'Collect activity data for Insights'.
 
 If it's turned off, turn it back on.  Insights starts to collect data, but it may take up to 24 hours to see it in the reports. 
 

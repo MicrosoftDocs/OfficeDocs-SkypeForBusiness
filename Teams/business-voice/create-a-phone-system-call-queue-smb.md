@@ -81,7 +81,9 @@ To add a channel
 
 1. In Teams, find the team you just created, click **More options** (...), and then click **Add channel**.
 
-2. Type a name and description for the channel, and then click **Add**.
+2. Type a name and description for the channel.
+
+3. Under **Privacy**, choose **Standard - Accessible to everyone on the team** and then click **Add**.
 
 > [!div class="nextstepaction"]
 > [Step 2 - Resource accounts >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=resource-account#steps)
@@ -151,7 +153,7 @@ Next, we'll start creating a new call queue and assign the resource account.
 
 # [Step 3<br>Call agents](#tab/call-agents)
 
-To add agents to the call queue, we'll add them to the team and channel that we created earlier.
+To add agents to the call queue, we'll add them to the team and channel that we created earlier. You need to be a member of the team to do this.
 
 1. Select the **Choose a team** option and click **Add a channel**.
 2. Type the name of the team that you created, select it, and click **Add**.

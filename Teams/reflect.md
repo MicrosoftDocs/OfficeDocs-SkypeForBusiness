@@ -40,7 +40,7 @@ The data belongs to the educational institution, and Microsoft only collects the
 
 The data is stored in Education Insights. By default, Education Insights is turned on. When you opt-out, we **delete all the data collected for Reflect**. Turn Education Insights back on, and we start collecting data from the time it's re-enabled.
 
-In the [IT Admin Guide to Education Insights](class-insights.md), you can read how Education Insights works (including storage locations) and [how to turn Education Insights off or on](class-insights.md#turn-insights-off-or-on) when you want to delete the data or enable the service.
+In the [IT Admin Guide to Education Insights](class-insights.md), you can read how Education Insights works (including storage locations) and [how to turn Education Insights off or on](class-insights.md#turn-insights-on-or-off) when you want to delete the data or enable the service.
 
 Data is collected from student in Reflect, though guest data is not collected. **If a student is defined as a guest, their data is not collected.** 
 

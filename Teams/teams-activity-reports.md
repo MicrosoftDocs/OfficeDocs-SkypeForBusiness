@@ -20,8 +20,7 @@ appliesto:
 ms.custom: seo-marvel-apr2020
 ---
 
-Use activity reports for Microsoft Teams 
-========================================
+# Use activity reports for Microsoft Teams 
 
 You can use activity reports in the Microsoft 365 admin center to see how users in your organization are using Microsoft Teams. For example, if some don't use Microsoft Teams yet, they might not know how to get started or understand how they can use Teams to be more productive and collaborative. Your organization can use the activity reports to decide where to prioritize training and communication efforts.
 

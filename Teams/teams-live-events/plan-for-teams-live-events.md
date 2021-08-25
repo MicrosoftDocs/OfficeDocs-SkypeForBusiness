@@ -101,7 +101,7 @@ The following table highlights core capabilities and features offered in live ev
 > [!IMPORTANT]
 > **Microsoft 365 live event limit increases**
 >
-> **To continue supporting our customers' needs, through January 2022, we will extend temporary limit increases for live events, including**:
+> **To continue supporting our customers' needs, through December 31, 2021, we will extend temporary limit increases for live events, including**:
 >
 >- Event support for up to 20,000 attendees
 >- 50 events can be hosted simultaneously across a tenant
@@ -134,7 +134,7 @@ The following table highlights core capabilities and features offered in live ev
 |Live captions and subtitles |&#x2714; |&#x2714; |&#x274C; |
 |Captions in live event recordings |&#x2714; |&#x2714; |&#x2714; |
 |Attendee DVR controls (pause, rewind) |&#x2714; |&#x2714; |&#x2714; |
-|Partner eCDN Support |&#x2714; (Kollective, Hive, Riverbed) |&#x2714; (Kollective, Hive, Riverbed) |&#x2714; (Hive, Kollective, Ramp, Riverbed) |
+|Partner eCDN Support |&#x2714; (Kollective, Hive, Riverbed) |&#x2714; (Kollective, Hive, Ramp, Riverbed) |&#x2714; (Hive, Kollective, Ramp, Riverbed) |
 |Post-broadcast attendance report for Producers |&#x2714; |&#x2714; |&#x274C; |
 |Audience Sentiment Analysis – Live voting & polls |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 

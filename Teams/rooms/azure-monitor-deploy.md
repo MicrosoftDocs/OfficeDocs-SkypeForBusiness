@@ -155,16 +155,9 @@ After data is collected and custom fields are mapped, you can use View Designer 
 
 > [!NOTE]
 > Previous steps in this guide should have been completed for the dashboard tiles to work properly.
-
-### Create a Microsoft Teams Rooms dashboard by using the import method
-
-You can import an :::no-loc text="Microsoft Teams Rooms"::: dashboard and start monitoring your devices quickly. Take the following steps to import the dashboard:
-
-1.  Get the [SkypeRoomSystems_v2.omsview](https://go.microsoft.com/fwlink/?linkid=835675) dashboard file.
-2.  Sign in to the [:::no-loc text="Microsoft Azure"::: portal](https://portal.azure.com) and go to :::no-loc text="Log Analytics"::: and select your workspace.
-3.  Open **View Designer**.
-4.  Select **Import**, and then select the **SkypeRoomSystems_v2.omsview** file.
-5.  Select **Save**.
+>
+> [!IMPORTANT]
+> [View Designer in Azure Monitor is retiring on 31 August 2023](https://azure.microsoft.com/updates/view-designer-in-azure-monitor-is-retiring-on-31-august-2023/) and create and clone functionalities have been disabled on 30 November 2020. Workbooks can be used instead. For more information on the view designer transitioning guide to workbooks, see [Quickstart with preset view designer templates](/azure/azure-monitor/visualize/view-designer-conversion-tasks#quickstart-with-preset-view-designer-templates).
 
 ### Create a Microsoft Teams Rooms dashboard manually
 
@@ -391,13 +384,13 @@ Configure an alert rule that checks for :::no-loc text="Microsoft Teams Rooms"::
 
 Repeat the same procedure but use the following query to list devices that have encountered application issues within the last hour.
 
-    ```
-    Event
-    | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h)
-    | summarize arg_max(TimeGenerated, *) by Computer
-    | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF
-    | sort by TimeGenerated desc
-    ```
+ ```
+ Event
+ | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h)
+ | summarize arg_max(TimeGenerated, *) by Computer
+ | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF
+ | sort by TimeGenerated desc
+ ```
 
 Now you've completed defining alerts. You can define additional alerts by using the examples above.
 
