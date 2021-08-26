@@ -14,7 +14,7 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 description: "Complete guidance for migrating from Slack to Microsoft Teams."

@@ -9,7 +9,7 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8f48b87f-a57f-4ed8-8c79-5c75b316b696
 description: "Summary: Read this topic to learn how to configure integration with Exchange storage in Skype for Business Server."
 ---

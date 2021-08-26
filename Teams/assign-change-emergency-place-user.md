@@ -13,7 +13,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: In this article, you will learn how to assign or change the place for an emergency location for users in your organization.

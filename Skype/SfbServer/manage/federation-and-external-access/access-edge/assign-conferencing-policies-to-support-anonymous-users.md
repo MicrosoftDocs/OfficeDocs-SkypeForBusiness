@@ -13,7 +13,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "You control who can invite anonymous users by configuring a conferencing policy to support anonymous users, and applying that conferencing policy to specific users."
 ---
 

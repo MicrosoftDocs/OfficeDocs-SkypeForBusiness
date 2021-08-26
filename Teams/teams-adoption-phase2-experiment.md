@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: In this article, you will learn about how to conduct the experimental phase of Microsoft Teams adoption. 
 f1.keywords:
