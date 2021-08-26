@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.NcsGlobalMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 93a17c91-816e-4de0-8065-7dec45203355
 description: "What do you want to do? Click the link to the task that you want to perform."
 ---

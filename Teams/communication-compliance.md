@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: anwara
 description: Learning about communication compliance, part of the insider risk solution set, from the Microsoft Teams perspective (this is part of the M365 communication compliance functionality).
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -41,7 +41,7 @@ Getting started with communication compliance in Microsoft Teams begins with [pl
 Teams administrators can configure communication compliance policies at the following levels:
 
 - **User level**: Policies at this level apply to an individual Teams user or may be applied to all Teams users in your organization. These policies cover messages that these users may send in 1:1 or group chats. Chat communications for the users are automatically monitored across all Microsoft Teams where the users are a member.
-- **Teams level**: Policies at this level apply to a Microsoft Team channel, including a Private channel. These policies cover messages sent in the Teams channel only.
+- **Teams level**: Policies at this level apply to a Microsoft Teams channel, including a Private channel. These policies cover messages sent in the Teams channel only.
 
 ### Act on inappropriate messages in Microsoft Teams
 

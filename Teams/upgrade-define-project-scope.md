@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: landerl
 description: Scope your upgrade project by refining your vision and goals to ensure all project stakeholders are aligned and working toward the same end results.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH

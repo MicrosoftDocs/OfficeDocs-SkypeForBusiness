@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: Learn how to view your policy assignment activities in the Activity log in the Microsoft Teams admin center.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 - ms.teamsadmincenter.dashboard.activitylog.overview

@@ -6,7 +6,7 @@ manager: serdars
 audience: ITPro
 ms.topic: hub-page
 ms.service: msteams
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
   - M365-collaboration
 appliesto: 

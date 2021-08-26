@@ -15,7 +15,7 @@ appliesto:
   - Microsoft Teams
 f1.keywords:
 ms.custom: 
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 searchScope:
   - Microsoft Teams

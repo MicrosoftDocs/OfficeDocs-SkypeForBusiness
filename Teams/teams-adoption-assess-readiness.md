@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Assess your stakeholders, identify early adopters, and evaluate if your organization is ready for the transition to Teams.
 f1.keywords:

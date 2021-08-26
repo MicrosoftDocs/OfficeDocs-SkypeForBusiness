@@ -12,7 +12,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to manage custom app policies and settings to control who in your organization can upload custom apps in Microsoft Teams.
 f1.keywords:

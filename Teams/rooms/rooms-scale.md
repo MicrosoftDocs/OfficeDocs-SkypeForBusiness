@@ -9,7 +9,7 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: 
  - Strat_SB_Admin
  - seo-marvel-apr2020

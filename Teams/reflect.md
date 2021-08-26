@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: karsmith
 description: An IT Admin guide to Reflect in Microsoft Teams for Education.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH

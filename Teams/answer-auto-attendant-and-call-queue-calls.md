@@ -11,7 +11,7 @@ ms.service: msteams
 description: Describes Cloud auto attendants and call queues, and explains how you can answer these calls in Teams.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice

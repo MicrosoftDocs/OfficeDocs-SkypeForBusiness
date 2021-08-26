@@ -21,7 +21,7 @@ ms.custom:
   - ms.teamsadmincenter.liveevents.policies
 appliesto: 
   - Microsoft Teams
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # What are Microsoft Teams live events

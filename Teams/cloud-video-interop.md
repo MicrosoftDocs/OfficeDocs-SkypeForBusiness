@@ -11,7 +11,7 @@ ms.reviewer: naforer
 f1.keywords:
 - NOCSH
 description: Use Cloud Video Interop as an intermediate solution to allow third-party meeting room devices to join Microsoft Teams meetings.
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
   - M365-collaboration

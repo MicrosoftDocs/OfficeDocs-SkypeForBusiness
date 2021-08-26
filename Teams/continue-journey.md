@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: landerl
 search.appverid: MET150
 description: Learn how to use Teams to monitor network health, to keep users engaged, and to prepare for new functionality.
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: 
 - Teams-upgrade-guidance
 - seo-marvel-mar2020

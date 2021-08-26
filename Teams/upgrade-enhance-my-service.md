@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: Regularly evaluate opportunities to enhance the Teams service after you upgrade, monitor the Teams roadmap for any interesting feature enhancements.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH

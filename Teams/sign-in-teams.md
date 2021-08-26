@@ -10,7 +10,7 @@ search.appverid: MET150
 ms.reviewer: anwara
 description: Learn how modern authentication works, how to switch accounts, and how to troubleshoot modern authentication. Includes how to tell Teams to ignore the pre-fill of the user's name (UPN) at sign-in.
 ms.custom: seo-marvel-apr2020
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
   - M365-collaboration
 f1.keywords:

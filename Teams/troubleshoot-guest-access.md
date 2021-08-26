@@ -14,7 +14,7 @@ search.appverid: MET150
 description: Get help troubleshooting and fixing problems with guest access in Microsoft Teams.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 appliesto: 
 - Microsoft Teams
 ---

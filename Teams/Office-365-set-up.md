@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: ritikag
 audience: admin
 description: Learn how to turn on Microsoft Teams for your Microsoft 365 or Office 365 organization, assign user licenses to control individual access, and allow or block content sources.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
   - CSH
 ms.custom: 

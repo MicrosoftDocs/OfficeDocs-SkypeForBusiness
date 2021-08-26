@@ -15,7 +15,7 @@ f1.keywords:
 - NOCSH
 appliesto: 
 - Microsoft Teams
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 description: Learn how to use and manage private channels in Microsoft Teams. 
 ---

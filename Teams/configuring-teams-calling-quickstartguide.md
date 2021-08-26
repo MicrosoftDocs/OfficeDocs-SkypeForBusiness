@@ -12,7 +12,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: Quick start guide for configuring calling plans in Microsoft Teams so you can get a set of users up and running.
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
   - M365-collaboration

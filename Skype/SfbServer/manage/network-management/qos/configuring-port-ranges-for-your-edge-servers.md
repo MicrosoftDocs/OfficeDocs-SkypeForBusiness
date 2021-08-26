@@ -13,7 +13,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "This article describes how to configure port ranges for Edge Servers and how to configure a Quality of Service policy for your A/V Edge Servers."
 ---
 

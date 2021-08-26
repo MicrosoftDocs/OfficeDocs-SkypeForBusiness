@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: v-rifer
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 MS.collection: 
 - M365-voice

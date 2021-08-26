@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: snigdhav
 search.appverid: MET150
 description: SharePoint & OneDrive interaction with Teams; private chat file storage & interaction between team, standard channel, & document library.
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - SPO_Content

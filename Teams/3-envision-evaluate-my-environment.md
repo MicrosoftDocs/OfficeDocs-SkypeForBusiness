@@ -12,7 +12,7 @@ ms.reviewer: rowille
 description: Use personas and network analysis to assess your organization's readiness, open the correct TCP and UDP ports, perform any network remediation.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
   - M365-collaboration

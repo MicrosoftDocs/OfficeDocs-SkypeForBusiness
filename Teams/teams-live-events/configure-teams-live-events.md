@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 - M365-collaboration
 - m365initiative-meetings

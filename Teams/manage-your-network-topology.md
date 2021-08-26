@@ -16,7 +16,7 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.networktopology.overview
 appliesto: 
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to configure network settings for cloud voice features in Microsoft Teams. 
 ---

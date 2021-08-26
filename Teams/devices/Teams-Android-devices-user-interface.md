@@ -9,7 +9,7 @@ appliesto:
 ms.reviewer: 
 ms.topic: article
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
   - M365-collaboration
 description: Learn how to set the user interface on Teams Android devices.

@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: rahulmi
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 MS.collection: 
 - M365-collaboration

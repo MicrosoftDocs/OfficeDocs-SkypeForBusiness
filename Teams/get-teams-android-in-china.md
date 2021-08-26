@@ -10,7 +10,7 @@ ms.collection:
   - M365-collaboration
   - Teams_ITAdmin_RemoteWorkers
 ms.reviewer: dansteve
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 description: Get links to download Microsoft Teams for Android from China.
 appliesto: 

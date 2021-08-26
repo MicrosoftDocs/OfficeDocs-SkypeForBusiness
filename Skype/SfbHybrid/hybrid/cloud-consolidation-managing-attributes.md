@@ -19,7 +19,7 @@ f1.keywords:
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "This article describes how to manage attributes after decommissioning your on-premises environment."
 ---
 

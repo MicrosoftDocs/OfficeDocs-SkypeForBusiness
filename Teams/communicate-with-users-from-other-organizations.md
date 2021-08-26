@@ -16,7 +16,7 @@ f1.keywords:
 - NOCSH
 appliesto: 
 - Microsoft Teams
-localization_priority: Priority
+ms.localizationpriority: high
 description: Learn how to call, chat, find, and add users from outside the organization in Microsoft Teams using external access (federation) and guest access.
 ---
 

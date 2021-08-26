@@ -14,7 +14,7 @@ ms.collection:
 - M365-voice
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 

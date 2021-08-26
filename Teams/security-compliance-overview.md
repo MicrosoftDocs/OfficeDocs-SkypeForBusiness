@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: anwara
 audience: admin
 description: An overview of Microsoft Teams security and compliance features including privacy and encryption, auditing and reporting, and more.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration

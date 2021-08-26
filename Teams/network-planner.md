@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: svemu
 audience: admin
 description: Admin can learn how to use the Network Planner to determine network requirements for Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration

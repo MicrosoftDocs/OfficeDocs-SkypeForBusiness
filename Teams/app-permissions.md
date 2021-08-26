@@ -15,7 +15,7 @@ ms.reviewer: rowille
 description: Admin can Learn what data and permissions Microsoft Teams apps are requesting from their organization.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-apr2020

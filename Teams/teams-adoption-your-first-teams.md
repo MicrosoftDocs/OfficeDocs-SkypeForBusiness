@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to drive Teams adoption by managing your Microsoft 365 or Office 365 deployment with Teams, including how to pin key resources as tabs in the appropriate channels.
 f1.keywords:

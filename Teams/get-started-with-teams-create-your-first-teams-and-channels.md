@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: serdars
 description: Learn how to create your first set of teams and channels in Microsoft Teams client or the Microsoft Teams admin center.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH

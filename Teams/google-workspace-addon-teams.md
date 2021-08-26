@@ -11,7 +11,7 @@ searchScope:
   - Microsoft Teams
 search.appverid: MET150
 description: Learn how to Set up Microsoft Teams meeting add-on for Google Workspace.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection: 

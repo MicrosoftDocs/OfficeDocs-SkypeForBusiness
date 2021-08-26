@@ -16,7 +16,7 @@ f1keywords:
 description: Learn how to manage your Teams apps on the Manage apps page of the Microsoft Teams admin center
 appliesto: 
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 # Manage your apps in the Microsoft Teams admin center
 

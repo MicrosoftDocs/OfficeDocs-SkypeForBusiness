@@ -11,7 +11,7 @@ ms.collection:
   - M365-collaboration
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Update Microsoft Teams phones, Teams panels, and collaboration bars remotely using the Teams admin center"
 ---
 

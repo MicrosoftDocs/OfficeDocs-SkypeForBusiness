@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: abybee
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn about Teams Policy-based Recording for Calling & Meetings
 f1.keywords:

@@ -14,7 +14,7 @@ f1.keywords:
 ms.collection: 
   - M365-voice
 search.appverid: MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Learn how to upgrade Teams phones to Teams displays in the Microsoft Teams admin center."
 ---
 

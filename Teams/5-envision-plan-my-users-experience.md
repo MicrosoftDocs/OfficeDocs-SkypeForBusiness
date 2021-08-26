@@ -12,7 +12,7 @@ ms.reviewer: rowille
 description: Choose Teams client apps, plan for endpoint quality, get recommendations for deploying Wi-Fi endpoints and choosing audio devices.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
   - M365-collaboration

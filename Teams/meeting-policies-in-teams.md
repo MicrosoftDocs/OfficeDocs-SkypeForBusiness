@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua, shalenc
 audience: admin
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration

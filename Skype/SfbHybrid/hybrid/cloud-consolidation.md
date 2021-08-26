@@ -19,7 +19,7 @@ f1.keywords:
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "This article describes how to achieve that consolidation for organizations with on-premises deployment(s) of Skype for Business (or Lync) who are looking to move to move their UC workload to Teams."
 ---
 

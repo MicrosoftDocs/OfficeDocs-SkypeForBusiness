@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl, bjwhalen
 description: Details of Skype for Business and Microsoft Teams coexistence options, and of possible upgrade journeys to Teams, with example scenarios. 
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH

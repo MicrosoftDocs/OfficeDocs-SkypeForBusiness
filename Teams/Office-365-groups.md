@@ -7,7 +7,7 @@ manager: serdars
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH

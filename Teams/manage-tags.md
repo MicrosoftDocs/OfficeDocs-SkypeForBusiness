@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn to manage how tags are used in your organization in Microsoft Teams. 
 ---

@@ -10,7 +10,7 @@ ms.service: msteams
 audience: Admin
 appliesto: 
   - Microsoft Teams
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - CSH
