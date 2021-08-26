@@ -38,7 +38,7 @@ With Bookings, you get an experience that's tailored to your industry. Here's a 
 |Industry  ||
 |---------|---------|
 |Financial services    |  Virtual visits for remote sales and service<br/>Schedule and manage virtual appointments for bank relationship managers, financial advisors, and claims adjusters, just to name a few, to serve your customers with increased efficiency and convenience.  |
-|Healthcare   |  Virtual visits for patient care <br/>Schedule and manage virtual visits for your care team members to meet with patients or with other healthcare providers to discuss medical care.   |         |
+|Healthcare   |  Virtual visits for patient care <br/>Schedule and manage virtual visits for your care team members to meet with patients or other healthcare providers to discuss medical care.   |         |
 |Retail   | Virtual shopping experiences <br/>Schedule and manage appointments for your sales associates, product experts, and design consultants to conduct virtual shopping experiences with customers.   |         |
 
 This article gives you an overview of how to use the Bookings app in Teams to schedule, manage, and conduct virtual visits.
