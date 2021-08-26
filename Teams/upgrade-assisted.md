@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: billkau
 audience: admin
 description: Overview of assisted upgrades from Skype for Business Online to Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH

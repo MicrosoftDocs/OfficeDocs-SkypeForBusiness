@@ -15,7 +15,7 @@ ms.collection:
   - Teams_ITAdmin_RemoteWorkers
   - remotework
   - m365initiative-meetings
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
@@ -97,7 +97,7 @@ Meetings settings are used to control whether anonymous users can join Teams mee
 
 ### Meeting policies
 
-Meeting policies are used to control what features are available to users when they join Teams meetings. You can use the default policy or create one or more custom meeting policies for people that host meetings in your organization. To learn more, see the [Meetings in Microsoft Team tutorial](tutorial-meetings-in-teams.yml).
+Meeting policies are used to control what features are available to users when they join Teams meetings. You can use the default policy or create one or more custom meeting policies for people that host meetings in your organization. To learn more, see the [Meetings in Microsoft Teams tutorial](tutorial-meetings-in-teams.yml).
 
 | Ask yourself | Action |
 |--------------|--------|

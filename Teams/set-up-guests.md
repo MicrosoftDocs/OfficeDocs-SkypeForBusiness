@@ -16,7 +16,7 @@ ms.custom:
   - NewAdminCenter_Update
   - seo-marvel-apr2020
   - ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 appliesto: 

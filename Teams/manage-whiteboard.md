@@ -10,7 +10,7 @@ audience: admin
 ms.reviewer: esmather
 search.appverid: MET150
 description: In this article, you will learn about how to manage and use the Whiteboard web app in Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 

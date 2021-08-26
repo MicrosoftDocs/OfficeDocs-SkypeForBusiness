@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Perform a system recovery for a Skype for Business Server pool server to test your documented disaster recovery process"
 ---
 

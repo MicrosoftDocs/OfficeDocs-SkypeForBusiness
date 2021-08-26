@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9af89d08-d35a-48e8-b56d-6df292f973cc
 description: "The Server table is a supporting table. Each record represents one server."
 ---

@@ -15,7 +15,7 @@ ms.collection:
 - M365-voice
 appliesto: 
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to use and manage emergency voice routing policies in Microsoft Teams to set up emergency numbers and specify how emergency calls are routed. 
 ms.custom: 

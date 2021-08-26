@@ -15,7 +15,7 @@ f1keywords:
 description: Learn how to purchase third-party apps for Teams in the Microsoft Teams admin center.
 appliesto: 
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 # Purchase third-party apps for Teams
 

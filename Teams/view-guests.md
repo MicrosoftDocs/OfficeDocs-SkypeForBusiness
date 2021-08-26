@@ -17,7 +17,7 @@ f1.keywords:
 ms.custom: 
    - ms.teamsadmincenter.orgwidesettings.guestaccess.viewguestusersarticle
    - seo-marvel-apr2020
-localization_priority: Normal
+ms.localizationpriority: medium
 appliesto: 
   - Microsoft Teams
 description: In this article, you will learn how an admin can view information about guests in Microsoft Teams.

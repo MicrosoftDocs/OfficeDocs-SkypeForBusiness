@@ -17,7 +17,7 @@ f1.keywords:
 ms.custom: 
 - ms.teamsadmincenter.policypackages.overview
 - seo-marvel-apr2020
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to use and manage policy packages in Microsoft Teams to simplify, streamline, and help provide consistency when managing policies for groups of users.
 ---

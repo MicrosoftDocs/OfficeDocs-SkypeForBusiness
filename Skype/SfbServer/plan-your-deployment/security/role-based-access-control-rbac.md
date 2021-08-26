@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d01fba36-eb7e-4de9-9bba-5102ae157820
 description: "Skype for Business Server includes Role-Based Access Control (RBAC) groups to enable you to delegate administrative tasks while maintaining high standards for security. These groups are created during forest preparation. For details about forest preparation, see Active Directory Domain Services for Skype for Business Server. For details about the specific groups created by forest preparation, see Changes made by forest preparation in Skype for Business Server in the Deployment documentation."
