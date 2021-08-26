@@ -14,7 +14,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: In this article, you will learn how an admin can edit information about guests in the Azure Active Directory portal.
-localization_priority: Normal
+ms.localizationpriority: medium
 appliesto: 
   - Microsoft Teams
 ms.custom: 

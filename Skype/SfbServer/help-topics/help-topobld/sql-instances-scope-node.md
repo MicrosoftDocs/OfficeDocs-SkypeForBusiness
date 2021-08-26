@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.SqlInstancesScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
 description: "The SQL stores node lists the SQL Server databases in your topology. You can perform the following action:"
 ---

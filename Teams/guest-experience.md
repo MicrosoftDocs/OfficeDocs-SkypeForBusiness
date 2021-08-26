@@ -10,7 +10,7 @@ ms.reviewer: rafarhi
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - Teams_ITAdmin_GuestAccess
   - M365-collaboration

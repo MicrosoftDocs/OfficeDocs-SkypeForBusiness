@@ -9,7 +9,7 @@ ms.service: msteams
 ms.collection: 
   - M365-collaboration
 ms.reviewer: lsomi
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Use this guidance to roll out Microsoft Teams as your first Microsoft 365 or Office 365 workload.
 ROBOTS: NOINDEX, NOFOLLOW

@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.UserViewMobility
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a6df69e2-c374-4a80-8197-5152b7d0b5d2
 description: "The View - Mobility Policy dialog displays the properties of the selected mobility policy."
 ---

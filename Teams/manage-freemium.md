@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: daryav
 search.appverid: MET150
 description: Learn about who can manage users in Teams free, and learn about the differences between the various Teams plans.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 

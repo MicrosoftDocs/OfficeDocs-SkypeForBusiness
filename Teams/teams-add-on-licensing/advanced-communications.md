@@ -8,7 +8,7 @@ audience: Admin
 ms.reviewer: nogaro
 ms.service: msteams
 search.appverid: MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Learn about the Advanced Communications add-on SKU for Microsoft Teams.
 f1.keywords:
   - NOCSH

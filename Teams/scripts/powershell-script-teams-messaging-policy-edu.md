@@ -10,7 +10,7 @@ audience: admin
 description: Use this PowerShell script to create a messaging policy in Teams and assign it to users in your organization.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration

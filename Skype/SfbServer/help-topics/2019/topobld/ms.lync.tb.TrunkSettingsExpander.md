@@ -11,7 +11,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.TrunkSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 ROBOTS: NOINDEX, NOFOLLOW
 description: "To edit or modify the settings for a SIP trunk, you do the following:"

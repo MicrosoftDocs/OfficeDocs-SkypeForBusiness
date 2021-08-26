@@ -11,7 +11,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f8813f25-eafa-4006-a186-94e4ebcc5ac7
 ROBOTS: NOINDEX, NOFOLLOW
 description: "To install and activate, or deactivate or uninstall Skype for Business Server components, you use Step 2: Setup or Remove Skype Server Components. You must be logged in as a local administrator on the computer that you are installing or modifying and must be able to read Active Directory Domain Services users and groups in the current domain. To begin, click Run. When you do this, the Central Management store-based topology definition is read. Necessary software components are installed and configured, according to the role as defined in the Central Management store. When the installation is complete, review the Summary, and click Finish."

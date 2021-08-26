@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: pawa
 description: Guidance for using Microsoft Teams securely from a shared computer in the workplace.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH

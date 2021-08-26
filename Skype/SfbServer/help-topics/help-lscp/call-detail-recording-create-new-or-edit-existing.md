@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.MonArchCdrEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d0e9b4d0-7110-4a29-b5e5-0e116ea6fa9c
 description: "What do you want to do? Click the link to the task that you want to perform."
 ---

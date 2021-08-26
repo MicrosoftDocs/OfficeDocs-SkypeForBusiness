@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.UserViewPersistentChat
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
 description: "Members of the CsPersistentChatAdministrator role (Persistent Chat Administrators) can grant chat room manager rights and permissions to other users and to themselves."
 ---

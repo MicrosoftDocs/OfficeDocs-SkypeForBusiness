@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b2b5aefb-a08d-4bec-9204-76597d413849
 description: "The Get-CcCredential cmdlet returns the credential of the current Skype for Business Cloud Connector Edition deployment."
 ---
