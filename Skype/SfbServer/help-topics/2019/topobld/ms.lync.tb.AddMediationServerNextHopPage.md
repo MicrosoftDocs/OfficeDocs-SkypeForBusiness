@@ -11,7 +11,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddMediationServerNextHopPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ede4123a-b863-4c53-916b-edf776948dd7
 ROBOTS: NOINDEX, NOFOLLOW
 description: "To define the next hop for a Mediation Server that you are defining, select from the Next hop pool drop-down list the Enterprise Edition server or Standard Edition server that will act as the next hop for the Mediation Server. Click Next to continue."

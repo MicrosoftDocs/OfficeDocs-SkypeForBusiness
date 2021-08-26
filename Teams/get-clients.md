@@ -10,7 +10,7 @@ ms.collection:
   - M365-collaboration
   - m365initiative-deployteams
 ms.reviewer: harij, rafarhi
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 description: Learn how to use the various clients available for Microsoft Teams which include web, desktop (Windows and Mac), and mobile (Android and iOS).
 f1.keywords:
@@ -49,7 +49,7 @@ Desktop clients can be downloaded and installed by end users directly from [http
 IT admins can choose their preferred method to distribute the installation files to computers in their organization. Some examples include Microsoft Endpoint Configuration Manager (Windows) or Jamf Pro (macOS). To get the MSI package for Windows distribution, see [Install Microsoft Teams using MSI](msi-deployment.md).
 
 > [!NOTE]
-> Distribution of the client via these mechanisms is only for the initial installation of Microsoft Team clients and not for future updates.
+> Distribution of the client via these mechanisms is only for the initial installation of Microsoft Teams clients and not for future updates.
 
 ### Windows
 

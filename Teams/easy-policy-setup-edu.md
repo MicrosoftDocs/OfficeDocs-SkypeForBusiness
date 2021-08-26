@@ -13,7 +13,7 @@ ms.collection:
   - remotework
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to use the Teams for Education policy wizard to easily apply policies for students and educators to keep your learning environment safe. 
 f1keywords: 

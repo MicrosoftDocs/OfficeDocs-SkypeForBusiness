@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: Learn about the different teams, channels, and apps available to a wide variety of requirements such as finance, event planning, sales, and more.
-localization_priority: Priority
+ms.localizationpriority: high
 f1.keywords:
 - CSH
 ms.custom: 
@@ -79,7 +79,7 @@ One key early planning activity to engage users with Teams is to help people thi
 > [!NOTE]
 > When you create a new team or private channel in Microsoft Teams, a team site in SharePoint gets automatically created. To edit the site description or classification for this team site, go to the corresponding channel’s [settings in Microsoft Teams](https://support.microsoft.com/office/change-a-team-s-data-security-classification-in-teams-bf39798f-90d2-44fb-a750-55fa05a56f1d).
 >
-> Learn more about managing [Microsoft Teams connected teams sites](https://docs.microsoft.com/SharePoint/teams-connected-sites).
+> Learn more about managing [Microsoft Teams connected teams sites](/SharePoint/teams-connected-sites).
 
 ## Example Teams
 

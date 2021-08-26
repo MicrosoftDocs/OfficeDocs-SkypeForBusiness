@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeMachineExternalIPv4Page
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0429444b-97cc-41a1-94e0-3e2e5fdfa9ca
 description: "In External IPv4, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service."
 ---

@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to use service health reviews in your Teams adoption to share insights on usage, health, capability/project roadmap, and other updates.
 f1.keywords:
