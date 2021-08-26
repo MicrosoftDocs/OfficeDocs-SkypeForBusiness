@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: olbesede
 description: Education admins can learn about the resources available in Microsoft Teams to enable remote learning.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH

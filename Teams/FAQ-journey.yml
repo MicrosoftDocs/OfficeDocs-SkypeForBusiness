@@ -9,7 +9,7 @@ metadata:
   audience: admin
   ms.reviewer: landerl
   description: Frequently asked questions about the upgrade journey from Skype for Business to Microsoft Teams.
-  localization_priority: Priority
+  ms.localizationpriority: high
   search.appverid: MET150
   f1.keywords:
   - CSH

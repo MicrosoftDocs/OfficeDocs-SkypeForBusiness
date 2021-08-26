@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: dstrome
 description: Set up Teams in your small business to enable your users to collaborate using chat and file sharing, set up and attend small and large meetings, and talk via video and voice.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH

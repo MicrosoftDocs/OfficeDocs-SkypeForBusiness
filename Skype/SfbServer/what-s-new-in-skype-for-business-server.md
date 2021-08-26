@@ -10,7 +10,7 @@ ms.topic: overview
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e62c9229-b738-45ef-b637-0b58ca8225a4
 description: "Summary: Read this topic to learn about new features in Skype for Business Server 2015. For detailed information about the new client experience, see Lync is now Skype for Business -- see what's new."

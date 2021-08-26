@@ -10,7 +10,7 @@ ms.reviewer: svemu
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.analyticsandreports.overview
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration

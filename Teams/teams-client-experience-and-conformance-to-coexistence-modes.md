@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: bjwhalen
 audience: admin
 description: Learn about Teams client experience and conformance to coexistence modes (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings).
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH

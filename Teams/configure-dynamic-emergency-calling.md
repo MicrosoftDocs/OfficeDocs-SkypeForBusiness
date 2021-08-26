@@ -10,7 +10,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
 ms.reviewer: roykuntz
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH

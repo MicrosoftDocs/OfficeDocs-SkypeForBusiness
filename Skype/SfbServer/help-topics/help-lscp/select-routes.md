@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceUsageSelRoute
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d136adcd-6659-4113-941c-cca75033318e
 description: "Use the Select Routes dialog box to find existing voice routes that you can use."
 ---

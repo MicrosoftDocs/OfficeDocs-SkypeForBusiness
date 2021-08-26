@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
 description: "Summary: Learn about the Peer-to-Peer Activity Summary Report in Skype for Business Server."
 ---

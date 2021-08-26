@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 27ff9453-53f2-4fae-b637-70a086c9df96
 description: "The IMReportSummaryTable provides an overall report on the instant messaging sessions held in an organization. This table was introduced in Microsoft Lync Server 2013."
 ---
