@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn more about structuring teams and channels in Microsoft Teams and how to use Teams to drive cross-organization collaboration.
 f1.keywords:

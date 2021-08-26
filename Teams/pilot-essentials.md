@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: Guidance for starting a Microsoft Teams pilot to explore all that Teams can offer your organization, while you continue to use Skype for Business 
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
 f1.keywords:
