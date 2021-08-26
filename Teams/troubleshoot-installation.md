@@ -13,7 +13,7 @@ f1.keywords:
 - NOCSH
 appliesto: 
 - Microsoft Teams
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 description: Learn how to troubleshoot installation and update issues for the Teams desktop client app on Windows. 
 ---

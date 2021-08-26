@@ -20,7 +20,7 @@ ms.custom:
 description: Your Teams or IT admin can configure external access for other domains (federation) to let users from those domains participate in Teams. 
 appliesto: 
   - Microsoft Teams
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Manage external access in Microsoft Teams

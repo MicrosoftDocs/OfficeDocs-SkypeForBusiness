@@ -10,7 +10,7 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH 
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: "Learn how to configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015."
 ---

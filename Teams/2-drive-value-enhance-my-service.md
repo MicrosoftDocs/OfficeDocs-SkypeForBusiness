@@ -12,7 +12,7 @@ audience: admin
 description: Regularly evaluate opportunities to enhance the Teams service, monitor the Teams roadmap for any interesting feature enhancements.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
   - M365-collaboration

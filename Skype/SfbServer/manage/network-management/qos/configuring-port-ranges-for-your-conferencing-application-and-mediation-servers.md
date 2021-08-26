@@ -13,7 +13,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "This article describes how to configure port ranges and a Quality of Service policy for your Conferencing, Application, and Mediation servers."
 ---
 

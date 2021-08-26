@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: stbyer
 description: Privacy guidance and information for Microsoft Teams.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH

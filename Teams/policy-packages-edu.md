@@ -18,7 +18,7 @@ appliesto:
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.policypackages.overview
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 description: Learn about policies in a educational or EDU setting, and how to use and manage policy packages in Microsoft Teams. 
 ---

@@ -11,7 +11,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PublishTopologyNextStepPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 29e4a215-80f9-4ac8-8069-b220f3ac251d
 ROBOTS: NOINDEX, NOFOLLOW
 description: "At the completion of the publishing of the topology, the Publish wizard complete page is displayed."

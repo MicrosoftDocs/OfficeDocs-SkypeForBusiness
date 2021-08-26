@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: rowille
 audience: admin
 description: In this article, you will learn about how to plan for implementing governance capabilities in Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH

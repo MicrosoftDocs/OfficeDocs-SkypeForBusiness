@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e0632b8d-e23a-4365-8a7a-6ca0957a46a9
 description: "The Pools table is a supporting table that stores information about the various pool. Each record in the table represents one pool."
 ---
