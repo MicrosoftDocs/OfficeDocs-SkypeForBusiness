@@ -12,7 +12,7 @@ ms.collection:
 f1.keywords:
 - CSH
 description: Learn how to manage and filter tags on your Microsoft Teams devices.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams

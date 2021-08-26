@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 92ded8fd-d0ad-4f8a-9e6f-2e8a690fda3a
 description: "The Pool table is a supporting table that stores information about the various Front End pools. Each record in the table represents one pool."
 ---

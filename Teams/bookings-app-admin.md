@@ -12,7 +12,7 @@ searchScope:
   - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - microsoftcloud-healthcare
   - m365solution-healthcare

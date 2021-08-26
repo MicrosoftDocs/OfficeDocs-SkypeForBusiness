@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: landerl
 description: Admin can learn about how to prepare for an upgrade to Microsoft Teams Only mode in the Microsoft Teams admin center. 
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH

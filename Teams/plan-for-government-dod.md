@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: daro
 audience: admin
 description: Guidance for IT pros to drive Office 365 deployments in entities that handle data subject to US government DoD regulation.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
   - CSH
