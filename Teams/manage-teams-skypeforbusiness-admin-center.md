@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: 
 search.appverid: MET150
 description: Learn how to manage tenant-wide and user settings for Teams during the transition from Teams in the Microsoft 365 admin center to the new Teams admin center.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 

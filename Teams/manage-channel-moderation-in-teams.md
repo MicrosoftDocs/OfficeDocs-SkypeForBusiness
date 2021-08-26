@@ -14,7 +14,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to set up channels for moderation in Microsoft Teams, including how to add team members as channel moderators.
 ms.custom: seo-marvel-mar2020
