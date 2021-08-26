@@ -11,7 +11,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PublishTopologyCreateMirrorDatabasePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f05ffca1-e972-4ee2-8370-2ef5df03e179
 ROBOTS: NOINDEX, NOFOLLOW
 description: "This is preliminary documentation and is subject to change. Blank topics are included as placeholders."

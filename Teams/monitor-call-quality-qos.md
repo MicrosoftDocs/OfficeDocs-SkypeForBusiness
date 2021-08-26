@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: vkorlep, siunies
 description: Use Quality of Service (QoS) settings and then Call Analytics and Call Quality Dashboard in Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice

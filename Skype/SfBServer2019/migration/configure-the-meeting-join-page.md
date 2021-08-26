@@ -9,7 +9,7 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "When a user clicks a meeting link in a meeting request, the meeting join page detects which client is already installed on the user's computer. If a client is already installed, that client opens and joins the meeting. If a client is not installed, by default the Web App opens."
 ---
 

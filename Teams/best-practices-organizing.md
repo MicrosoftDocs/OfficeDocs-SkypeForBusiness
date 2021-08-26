@@ -10,7 +10,7 @@ audience: admin
 description: Learn about best practices for organizing teams in Microsoft Teams to meet your organization's needs.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration

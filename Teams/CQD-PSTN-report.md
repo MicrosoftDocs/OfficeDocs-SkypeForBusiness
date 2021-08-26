@@ -13,7 +13,7 @@ search.appverid: MET150
 audience: Admin
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Use the Microsoft Teams Call Quality Dashboard (CQD)) PSTN Direct Routing report to monitor and troubleshoot PSTN calling in Microsoft Teams."
 ---
 

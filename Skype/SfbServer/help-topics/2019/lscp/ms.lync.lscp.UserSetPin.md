@@ -11,7 +11,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 611ba182-b25a-468d-b4de-9f0861f58293
 ROBOTS: NOINDEX, NOFOLLOW
 description: "To generate the user's PIN, select Automatically generate a valid PIN."

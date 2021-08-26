@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.BranchOfficeApplianceScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
 description: "This node shows the fully qualified domain name (FQDN), associated pools and servers, and resiliency information about this Survivable Branch Appliance. You can perform the following actions:"
 ---

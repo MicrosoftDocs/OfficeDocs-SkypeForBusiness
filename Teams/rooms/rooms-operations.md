@@ -11,7 +11,7 @@ ms.collection:
   - M365-collaboration
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Read this topic to learn about management of Microsoft Teams Rooms, the next generation of Skype Room Systems."
 ---
 
