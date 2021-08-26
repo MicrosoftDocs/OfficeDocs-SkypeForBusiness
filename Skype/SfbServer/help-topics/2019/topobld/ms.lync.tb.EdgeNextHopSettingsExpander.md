@@ -11,7 +11,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.EdgeNextHopSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7bb385b7-18c2-42a3-b8a9-cea7bf0c8fc9
 ROBOTS: NOINDEX, NOFOLLOW
 description: "To set or modify the Next hop pool that the Edge Servers will use to communicate to the internal infrastructure, select a Director, Director pool, Front End Server, or Front End Server pool, from the list. Only Directors or Front End Servers that have been configured in Topology Builder appear in the list."

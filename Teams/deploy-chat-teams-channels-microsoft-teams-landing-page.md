@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: Contains step-by-step guidance to configure Teams settings for chat, teams, apps, and channels in Microsoft Teams.
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
   - M365-collaboration
   - m365initiative-deployteams
