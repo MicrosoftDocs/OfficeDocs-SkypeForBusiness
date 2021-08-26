@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: 
 description: IT admin walkthrough of the Microsoft Teams for RealWear client.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH

@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: amitsri
 audience: admin
 description: Use Microsoft Endpoint Configuration Manager to bulk deploy Microsoft Teams to select users or computers.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
   - NOCSH

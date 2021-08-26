@@ -15,7 +15,7 @@ f1.keywords:
 - NOCSH
 appliesto: 
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn about how to block access to SharePoint for specific users
 ---

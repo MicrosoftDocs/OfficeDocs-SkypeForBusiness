@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: "Summary: Review this topic for information about how to integrate Skype for Business Server with Exchange Server 2016 or Exchange Server 2013."

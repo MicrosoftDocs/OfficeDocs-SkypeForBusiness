@@ -13,7 +13,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "You can delete any site or user policy that is listed in the Skype for Business Server Control Panel on the External Access Policy page."
 ---
 

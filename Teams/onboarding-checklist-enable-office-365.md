@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: rowille
 audience: admin
 description: Follow the core, to-do tasks and activities in this checklist when you configure Microsoft 365 or Office 365 for Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 search.appverid: MET150

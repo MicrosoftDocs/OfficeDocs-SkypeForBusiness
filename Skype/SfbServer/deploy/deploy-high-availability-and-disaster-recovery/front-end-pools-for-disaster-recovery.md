@@ -9,7 +9,7 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: "You may decide to use paired Front End pools to provide disaster recovery protection, but doing so is not a requirement."
 ---

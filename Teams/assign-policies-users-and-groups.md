@@ -12,7 +12,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn the different ways to assign policies to users and groups in Microsoft Teams.
 f1keywords: 

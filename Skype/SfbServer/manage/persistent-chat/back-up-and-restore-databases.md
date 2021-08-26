@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4f2b689b-7f15-48dc-a069-da7bc8527def
 description: "Summary: Learn how to back up and restore Persistent Chat Server databases in Skype for Business Server 2015."
 ---

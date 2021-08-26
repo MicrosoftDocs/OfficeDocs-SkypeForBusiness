@@ -17,7 +17,7 @@ f1.keywords:
 description: Direct Routing call notification
 appliesto:
 - Microsoft Teams
-localization_priority: Normal 
+ms.localizationpriority: medium 
 ---
 
 # Manage call notifications

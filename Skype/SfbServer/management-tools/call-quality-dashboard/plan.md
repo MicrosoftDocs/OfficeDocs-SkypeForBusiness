@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: "Summary: Learn about what to consider when you plan for the Call Quality Dashboard."

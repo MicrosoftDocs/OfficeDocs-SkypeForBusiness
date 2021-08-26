@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 description: "Summary: Read this topic to learn about capacity planning for Persistent Chat Server in Skype for Business Server 2015."
 ---

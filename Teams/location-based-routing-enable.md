@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: Learn how to enable Location-Based Routing for Direct Routing, including enabling it for users, network sites, gateway configurations, and calling policies.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection: 

@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: lsomi
 description: Learn about Meetings First, where users can create their meeting in Teams, while continuing to use Skype for Business for chat, calling, and presence.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH

@@ -19,7 +19,7 @@ ms.custom:
 appliesto: 
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to manage settings for Skype for Business features in the Microsoft Teams admin center. 
 ---

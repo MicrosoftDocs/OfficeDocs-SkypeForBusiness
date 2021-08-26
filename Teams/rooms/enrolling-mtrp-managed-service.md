@@ -13,7 +13,7 @@ ms.collection:
   - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn about how to enroll Microsoft Teams Rooms accounts in Microsoft Teams Rooms Premium managed service.
 f1keywords: 

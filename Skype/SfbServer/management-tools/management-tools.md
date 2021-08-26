@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4e956558-8cba-47d9-b96a-537d7f6ed938
 description: "Summary: Learn about the service management tools in Skype for Business Server 2015."

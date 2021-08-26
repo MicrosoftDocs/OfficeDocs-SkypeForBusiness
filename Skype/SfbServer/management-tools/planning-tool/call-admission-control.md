@@ -11,7 +11,7 @@ f1.keywords:
 - ms.lync.plan.CallAdmissionControl
 - ms.lync.plan.CallAdmissionControl
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7b73e678-3e5c-491c-bef1-0eb72cf60398
 description: "Call admission control (CAC) determines whether to allow real-time communications sessions such as voice or video calls to be established based on available network bandwidth."
 ---

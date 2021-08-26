@@ -10,7 +10,7 @@ feedback_system: None
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 -  m365initiative-meetings
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965

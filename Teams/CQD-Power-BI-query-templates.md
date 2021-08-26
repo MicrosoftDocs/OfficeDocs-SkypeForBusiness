@@ -14,7 +14,7 @@ search.appverid: MET150
 audience: Admin
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Use Power BI to analyze CQD data for Microsoft Teams."
 ---
 

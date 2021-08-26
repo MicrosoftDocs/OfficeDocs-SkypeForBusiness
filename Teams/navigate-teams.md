@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: 
 description: This article describes how to navigate through Teams.  
 f1.keywords:
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 ms.collection:
 ms.custom:

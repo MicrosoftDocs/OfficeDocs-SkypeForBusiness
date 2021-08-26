@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: keschm
 description: Guidance on using scripts to deploy or provision Microsoft Teams for Frontline Workers.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH

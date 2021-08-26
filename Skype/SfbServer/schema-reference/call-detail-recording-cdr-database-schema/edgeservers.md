@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aeda8c01-c88c-4f56-b3d0-bac475fae449
 description: "The EdgeServers table is a supporting table. Each record stores information about one Edge Server that is involved in calls that have records in the database."
 ---

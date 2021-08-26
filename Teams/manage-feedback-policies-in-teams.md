@@ -14,7 +14,7 @@ f1.keywords:
 - NOCSH
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to use feedback policies to control whether Teams users in your organization can submit feedback about Teams to Microsoft.
 ---

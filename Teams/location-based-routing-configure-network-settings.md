@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Learn how to create and set up network regions, sites, and subnets for Location-Based Routing for Direct Routing.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection: 

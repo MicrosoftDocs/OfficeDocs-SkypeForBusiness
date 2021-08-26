@@ -13,7 +13,7 @@ ms.collection:
   - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn about how a Microsoft Teams Rooms account obtains a license to access the Microsoft Teams Rooms premium-managed service.
 f1keywords: 

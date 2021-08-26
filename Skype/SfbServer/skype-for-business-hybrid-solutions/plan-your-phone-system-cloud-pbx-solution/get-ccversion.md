@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7d370abd-0c01-4490-88a1-55b42e51b663
 description: "Returns the version of the Cloud Connector appliance. Get-CCVersion can only be used on the host machine of Cloud Connector."
 ---

@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Read an overview of the steps you will need to learn to support the broad scale enablement of Teams for your organization.
 f1.keywords:

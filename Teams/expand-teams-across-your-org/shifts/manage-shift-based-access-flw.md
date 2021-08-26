@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Learn how to manage shift-based access in Teams for Frontline Workers in your organization.
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_FLW

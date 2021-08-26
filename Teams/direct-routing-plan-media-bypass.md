@@ -7,7 +7,7 @@ audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: article
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice

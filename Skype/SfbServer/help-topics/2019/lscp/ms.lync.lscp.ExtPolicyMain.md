@@ -11,7 +11,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 336ef724-ab2f-4215-b689-60248a90917f
 ROBOTS: NOINDEX, NOFOLLOW
 description: "What do you want to do? Click the link to the task that you want to perform."
