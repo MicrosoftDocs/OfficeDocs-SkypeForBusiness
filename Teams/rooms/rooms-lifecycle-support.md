@@ -11,7 +11,7 @@ ms.collection:
   - M365-collaboration
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Learn about lifecycle support for Microsoft Teams Rooms, including the dynamic support structure and its phases.
 ms.custom: seo-marvel-apr2020
 ---

@@ -12,7 +12,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn about app permission policies in Microsoft Teams and how to use them to control what apps are available for users in your organization.
 f1.keywords:

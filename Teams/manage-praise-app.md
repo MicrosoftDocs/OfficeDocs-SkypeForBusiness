@@ -7,7 +7,7 @@ ms.reviewer: jozhuan
 audience: admin 
 ms.topic: article 
 ms.service: msteams
-localization_priority: Normal 
+ms.localizationpriority: medium 
 description: Learn about admin settings in the Praise app in the Microsoft Teams admin center
 
 ---

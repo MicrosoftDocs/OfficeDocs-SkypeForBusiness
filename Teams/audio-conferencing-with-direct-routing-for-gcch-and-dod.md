@@ -17,7 +17,7 @@ appliesto:
   - Microsoft Teams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Admin can learn about how to use Audio Conferencing with Direct Routing in GCCH and DoD environments.
 ms.custom: seo-marvel-apr2020
 ---
