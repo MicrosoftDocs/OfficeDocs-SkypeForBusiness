@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 61e2db3c-9f10-4411-8e7e-c6950faf8533
 description: "Summary: Learn about the Location Trend Report in Skype for Business Server."
 ---

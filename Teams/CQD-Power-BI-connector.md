@@ -13,7 +13,7 @@ search.appverid: MET150
 audience: Admin
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Install Power BI Connector to use Call Quality Dashboard (CQD) query templates"
 ---
 

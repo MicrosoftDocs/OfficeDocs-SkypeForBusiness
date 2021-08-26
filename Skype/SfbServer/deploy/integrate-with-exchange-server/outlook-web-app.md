@@ -10,7 +10,7 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: "Summary: Integrate Skype for Business Server and Outlook Web App."

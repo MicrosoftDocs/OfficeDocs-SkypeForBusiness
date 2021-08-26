@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: "Because Skype for Business Server is an enterprise-class communications system, you should be aware of common security attacks that could affect its infrastructure and communications."

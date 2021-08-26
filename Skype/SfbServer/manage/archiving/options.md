@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 50399f26-58a3-4ce2-8229-32a8cafc7733
 description: "Summary: Learn how to configure archiving options for Skype for Business Server."
 ---

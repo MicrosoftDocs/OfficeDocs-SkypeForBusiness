@@ -13,7 +13,7 @@ ms.custom:
 - ms.lync.tb.AddSimpleUrlPage
 ms.prod: skype-for-business-itpro
 
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 description: "To add additional simple URLs to the definition of the deployment, specify the URL of the new simple URL."
 ---

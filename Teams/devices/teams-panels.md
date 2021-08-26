@@ -14,7 +14,7 @@ f1.keywords:
 ms.collection: 
   - M365-voice
 search.appverid: MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "This article provides an overview of and features supported by Microsoft Teams panels."
 ---
 

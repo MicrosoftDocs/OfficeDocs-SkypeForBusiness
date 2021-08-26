@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeMachineInternalIpPage2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 31b0ac1d-f320-4677-bd0f-b4b0dc84a6a2
 description: "Use this page to specify the internal IP address and the internal fully qualified domain name (FQDN) for the Edge Server."
 ---

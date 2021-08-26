@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6acf3b86-da61-4923-9812-300db6f66dec
 description: "The ErrorDef table stores information about each type of error that may occur. Each record is one type of error."
 ---

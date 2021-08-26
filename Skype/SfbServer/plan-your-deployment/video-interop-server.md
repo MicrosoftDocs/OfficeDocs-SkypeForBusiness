@@ -9,7 +9,7 @@ ms.topic: conceptual
 f1.keywords:
 - ms.lync.plan.VideoInterop
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
 description: "Summary: Review this topic while planning to integrate Skype for Business Server with third-party teleconferencing devices."
 ---

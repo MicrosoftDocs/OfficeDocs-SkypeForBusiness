@@ -15,7 +15,7 @@ ms.collection:
 appliesto: 
   - Skype for Business
   - Microsoft Teams
-localization_priority: None
+ms.localizationpriority: null
 f1.keywords:
 - CSH
 ms.custom: 
