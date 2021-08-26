@@ -45,7 +45,7 @@ This article gives you an overview of how to use the Bookings app in Teams to sc
 
 ## Before you get started
 
-If you’re an admin, see [Manage the Bookings app in Teams](bookings-app-admin.md) to learn about the prerequisites for using the Bookings app in Teams, how to control access to Bookings in your organization, and recommended policy and admin settings.
+If you’re an admin, see [Manage the Bookings app in Teams](../bookings-app-admin.md) to learn about the prerequisites for using the Bookings app in Teams, how to control access to Bookings in your organization, and recommended policy and admin settings.
 
 Remember that only schedulers in your organization need to have the Bookings app installed in Teams. Staff who conduct or participate in virtual appointments don't need the app. They join appointments from their Teams or Outlook calendar or by using the meeting link in their booking confirmation email.
 
@@ -55,7 +55,7 @@ Remember that only schedulers in your organization need to have the Bookings app
 
 In Teams, go to **Bookings** > **Get started**, and then select **New booking calendar**. Complete the form and be sure to choose the relevant business type for your organization.
 
-:::image type="content" source="media/bookings-virtual-visits-consultations-new-booking-calendar.png" alt-text="Screenshot of new booking calendar screen showing business types":::
+:::image type="content" source="media/bookings-virtual-visits-new-booking-calendar.png" alt-text="Screenshot of new booking calendar screen showing business types":::
 
 If you’re a larger organization, consider creating more than one booking calendar if you want attendees to receive a booking email from a specific department rather than your overall organization.
 To learn more, see [Create a Bookings calendar](https://support.microsoft.com//office/create-a-bookings-calendar-921cfd26-a24d-4aca-9004-561594112148).
