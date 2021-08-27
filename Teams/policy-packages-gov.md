@@ -14,7 +14,7 @@ appliesto:
   - Microsoft Teams
 f1.keywords:
 ms.custom: 
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to use and manage Teams policy packages for your government organization.
 ---

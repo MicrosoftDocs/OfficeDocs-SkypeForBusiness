@@ -1,7 +1,7 @@
 ---
 title: "Set up Cloud Voicemail"
-author: dstrome
-ms.author: dstrome
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: wasseemh, phans
 ms.topic: article
@@ -16,7 +16,7 @@ audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 
@@ -34,12 +34,9 @@ This article is for the Microsoft 365 or Office 365 admin as described in [About
 > [!NOTE]
 > When a delegate answers a call on behalf of a delegator, notifications are not available in Cloud Voicemail. Users can receive notifications for missed calls.
 
-## Cloud-only environments: Set up Cloud Voicemail for Online Phone System users
+## Cloud Voicemail for Teams users
 
-For Online Phone System users, Cloud Voicemail is automatically set up and provisioned for users after you assign a **Phone System** license to the users. 
-
-> [!NOTE]
-> For Online Skype for Business Phone System users with on-premises provided phone numbers, you may need to enable hosted voice mail with [Set-CsUser -HostedVoicemail $True](/powershell/module/skype/set-csuser?view=skype-ps). 
+For Teams users, Cloud Voicemail is automatically set up and provisioned. Note that a Phone System license is not required for Cloud Voicemail. 
 
 ## Set up Cloud Voicemail for Exchange Server Mailbox Users
 

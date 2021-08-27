@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: vkorlep, siunies
 audience: admin
 description: Learn about how to prepare your organization's network for Quality of Service (QoS) in Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
   - CSH
