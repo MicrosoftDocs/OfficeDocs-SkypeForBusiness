@@ -23,7 +23,7 @@ ms.custom: seo-marvel-mar2020
 
 Team templates in Microsoft Teams allow you to quickly and easily create teams by providing a predefined team structure of settings, channels, and pre-installed apps.
 
-For small and medium businesses, templates can be especially powerful, as they help you to quickly deploy Teams across your organization. Templates also help uses to get oriented with how to effectively use Teams. This article is for you if you're responsible for planning, deploying, and managing multiple teams across your organization.
+For small and medium businesses, templates can be especially powerful, as they help you to quickly deploy Teams across your organization. Templates also help users to get oriented with how to effectively use Teams. This article is for you if you're responsible for planning, deploying, and managing multiple teams across your organization.
 
 We currently offer three pre-built templates for small and medium businesses that you can use for a variety of situations. All templates create *private* teams. After you create the teams and are ready to roll out to your organization, you can set the privacy to *Org-Wide* or *Public*, as appropriate. To learn more about team templates in general, see [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md).
 
@@ -61,7 +61,7 @@ The Executive Team template is ideal for creating a team for company executives 
 
 *Auto-favorited channels<br>
 
-To create the Executives team by taking defaults from the pre-defined template, supply the JSON representation of the team object in the request body. To learn more about how to deploy team templates, see the Microsoft Graph [article on creating a Team](/graph/api/team-post?view=graph-rest-beta).
+To create the Executives team by taking default settings from the pre-defined template, supply the JSON representation of the team object in the request body. To learn more about how to deploy team templates, see the Microsoft Graph [article on creating a Team](/graph/api/team-post?view=graph-rest-beta).
 
 #### Request 
 ```http 
@@ -85,7 +85,7 @@ The Departmental team template can be used for creating a team for individual de
 
 *Auto-favorited channels
 
-To create the Finance team by taking defaults from the pre-defined template, supply the JSON representation of the team object in the request body. To learn more about how to deploy team templates, see the Microsoft Graph [article on creating a Team](/graph/api/team-post?view=graph-rest-beta).
+To create the Finance team by taking default settings from the pre-defined template, supply the JSON representation of the team object in the request body. To learn more about how to deploy team templates, see the Microsoft Graph [article on creating a Team](/graph/api/team-post?view=graph-rest-beta).
 
 #### Request 
 ```http 
