@@ -1,5 +1,5 @@
 ---
-title: Get started with a financial team template using the Team admin center
+title: Get started with financial team templates using the Team admin center
 author: cichur
 ms.author: v-cichur
 manager: serdars
