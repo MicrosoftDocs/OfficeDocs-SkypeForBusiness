@@ -1,5 +1,5 @@
 ---
-title: Get started with financial team templates using the Team admin center
+title: Get started with financial team templates in the Team admin center
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
   - M365-collaboration
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn how to use Teams templates to create team structures designed for financial needs by providing predefined settings, channels, and pre-installed apps using the admin center.
+description: Learn how to manage and use the financial services team templates in the Teams admin center. 
 f1.keywords:
 - CSH
 ms.custom: 
@@ -41,7 +41,7 @@ Team templates in Microsoft Teams allow you to quickly and easily create teams b
 
 For financial services organizations, team templates can be especially powerful, as they help you to quickly deploy consistent teams across your organization. Templates also help staff to get oriented with how to effectively use Teams.
 
-Teams includes templates designed specifically for financial services organizations. Use these pre-built templates to quickly create teams for staff to communicate and collaborate. In this article, we introduce you to each of these templates and recommend how to use them.
+Teams includes templates designed for financial services organizations. Use these pre-built templates to quickly create teams for staff to communicate and collaborate. In this article, we introduce you to each of these templates and recommend how to use them.
 
 This article is for you if you're responsible for planning, deploying, and managing multiple teams across your healthcare organization.
 

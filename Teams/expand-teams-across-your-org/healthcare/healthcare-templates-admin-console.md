@@ -20,7 +20,7 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ms.reviewer: 
-description: Use team templates in the admin center or with Microsoft Graph to quickly and easily create teams for your healthcare organization.
+description: Learn how to manage and use the healthcare team templates in the Teams admin center and with Microsoft Graph to easily and quickly create teams for your healthcare organization. 
 ms.custom: seo-marvel-mar2020
 ---
 # Use healthcare team templates
