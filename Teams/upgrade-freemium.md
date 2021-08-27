@@ -78,7 +78,7 @@ Keep the following limitations in mind:
 
 To upgrade to the full version of Teams, select **Upgrade** in Teams.
 
-![screenshot showing Upgrade button](media/teams-freemium-upgrade-image1.png)
+![screenshot showing Upgrade button.](media/teams-freemium-upgrade-image1.png)
 
 Enter the email address that you use to sign in to Teams, and then purchase an Microsoft 365 Business Standard plan. If you would like to purchase Microsoft 365 Business Basic or an Enterprise edition of Office 365, [contact support](https://portal.office.com/support/altusupport.aspx?app=teamsfreeupgrade).
 

@@ -73,7 +73,7 @@ In addition to enforcing Location-Based Routing to Skype for Business meetings, 
 
 **Consultative call transfer call flow**
 
-![Location-based routing for conferencing diagram](../../media/LocationBasedRoutingForConferencing.jpg)
+![Location-based routing for conferencing diagram.](../../media/LocationBasedRoutingForConferencing.jpg)
 
 When a user enabled for Location-Based Routing initiates a consultative call transfer of a PSTN endpoint (as shown in the preceding figure), this creates two active calls, one call between the PSTN user and Skype for Business user A, and the other between Skype for Business user A and Skype for Business user B. the following behavior is enforced by the Location-Based Routing for Conferencing application:
 

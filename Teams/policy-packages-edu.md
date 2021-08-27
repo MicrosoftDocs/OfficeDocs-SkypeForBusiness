@@ -143,7 +143,7 @@ Microsoft Teams currently includes the following policy packages:
 
 Each individual policy is given the name of the policy package so you can identify policies linked to a policy package. For example, when you assign the Education_Teacher policy package to educators in your educational institution, a policy named Education_Teacher is created for each policy in the package.
 
-![Screenshot of the Education_Teacher policy package](media/policy-packages-education_teacher.png)
+![Screenshot of the Education_Teacher policy package.](media/policy-packages-education_teacher.png)
 
 > [!NOTE]
 > If you decide that educators and administrative support staff need different policies, you can repurpose an existing package: identify a package you aren't currently using and change the settings to be appropriate for that group. You might have to make a note to yourself which group has which package, but that's the only impediment to repurposing a package.
@@ -173,7 +173,7 @@ Assign the policy package to users. If a user has a policy assigned, and then la
 
 To assign a policy package to one or multiple users, in the left navigation of the Microsoft Teams admin center, go to **Policy packages**, and then select **Manage users**.  
 
-![Screenshot of how to assign a policy package in the admin center](media/policy-packages-healthcare-assign.png)
+![Screenshot of how to assign a policy package in the admin center.](media/policy-packages-healthcare-assign.png)
 
 To learn more, see [Assign a policy package](manage-policy-packages.md#assign-a-policy-package).
 

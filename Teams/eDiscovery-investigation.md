@@ -79,7 +79,7 @@ Microsoft Teams data will appear as IM or Conversations in the Excel eDiscovery 
 
 When viewing the .pst file for the team, all conversations are located in the Team Chat folder under Conversation History. The title of the message contains the team name and channel name. For example, the image below shows a message from Bob who messaged the Project 7 standard channel of the Manufacturing Specs team.
 
-![Screenshot of a Team Chat folder in a user's mailbox in Outlook](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
+![Screenshot of a Team Chat folder in a user's mailbox in Outlook.](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
 
 Private chats in a user's mailbox are stored in the Team Chat folder under Conversation History.
 
@@ -199,11 +199,11 @@ When viewing card content in Content search results, the content appears as an a
 
 **Card content in Teams**
 
-![Card content in Teams channel message](media/CardContentTeams.png)
+![Card content in Teams channel message.](media/CardContentTeams.png)
 
 **Card content in search results**
   
-![Same card content in the results of a Content search](media/CardContentEdiscoverySearchResults.png)
+![Same card content in the results of a Content search.](media/CardContentEdiscoverySearchResults.png)
 
 > [!NOTE]
 > To display images from card content in search results at this time (such as the checkmarks in the previous screenshot), you have to be signed into Teams (at https://teams.microsoft.com) in a different tab in the same browser session that you use to view the search results. Otherwise, image placeholders are displayed.

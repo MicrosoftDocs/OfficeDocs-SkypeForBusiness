@@ -29,7 +29,7 @@ The Teams live event usage report in the Microsoft Teams admin center shows you 
 3. (Optional) Under **Organizer**, you can choose to show only live events organized by a specific user.
 4. Click **Run report**.  
 
-    ![Screenshot of the Teams live event usage report in the Teams admin center with callouts](../media/teams-live-event-usage-report-with-callouts.png "Screenshot of the Teams live event usage report in the Teams admin center with callouts")
+    ![Screenshot of the Teams live event usage report in the Teams admin center with callouts.](../media/teams-live-event-usage-report-with-callouts.png "Screenshot of the Teams live event usage report in the Teams admin center with callouts")
 
 ## Interpret the report
 
@@ -48,7 +48,7 @@ Showing up to 100 live events that match the current report criteria. To see mor
 
 The live event details page gives you a summary of the details of a live event and lists all the files, including transcripts and recordings, associated with the event. Click a file name to view or download the file.
 
-![Screenshot showing details of a live event](../media/teams-live-event-usage-report-event-detail.png)
+![Screenshot showing details of a live event.](../media/teams-live-event-usage-report-event-detail.png)
 
 If your organization is enabled for [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) eCDN or [Kollective](https://kollective.com) eCDN, you can get additional attendee analytics by clicking the partner report link.
 
