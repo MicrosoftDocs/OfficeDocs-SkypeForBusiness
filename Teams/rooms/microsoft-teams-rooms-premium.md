@@ -13,7 +13,7 @@ ms.collection:
   - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn about the Microsoft Teams Rooms managed service.
 f1keywords: 

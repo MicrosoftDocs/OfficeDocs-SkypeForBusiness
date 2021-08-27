@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: roykuntz
 search.appverid: MET150
 description: Learn how to plan Location-Based Routing for Direct Routing.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection: 

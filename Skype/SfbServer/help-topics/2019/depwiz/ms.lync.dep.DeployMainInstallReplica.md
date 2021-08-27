@@ -11,7 +11,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
 ROBOTS: NOINDEX, NOFOLLOW
 description: "To begin the installation of a new Skype for Business Server role server, you must first install the local SQL Server that will host the local configuration store. The local configuration store will act as a read-only replica of the Skype for Business Server Central Management store (CMS)."

@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: In this article, you will learn about the the startup, experiment, and enable phases of Microsoft Teams adoption.
 f1.keywords:

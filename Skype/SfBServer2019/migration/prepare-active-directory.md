@@ -9,7 +9,7 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Before you deploy Skype for Business Server 2019 in a coexistence state, you must perform some more Active Directory tasks to configure the schema, forest, and domain for Skype for Business Server 2019. The schema extensions add the Active Directory classes and attributes that are required by Skype for Business Server 2019. For more information, see the topic Preparing Active Directory Domain Services for Skype for Business Server 2019."
 ---
 

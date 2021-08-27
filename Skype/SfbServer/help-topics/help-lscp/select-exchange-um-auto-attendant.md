@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceFeaSelExchUM
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
 description: "Use the Select Exchange UM Auto Attendant dialog box to select an Exchange UM Auto Attendant that will handle incoming calls to a range of unassigned numbers."
 ---

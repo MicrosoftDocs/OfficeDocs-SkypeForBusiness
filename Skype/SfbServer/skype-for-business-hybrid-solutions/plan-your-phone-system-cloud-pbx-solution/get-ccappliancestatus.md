@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ddd80580-59b2-46ba-a8d7-f31b20384ad1
 description: "The Get-CcApplianceStatus cmdlet provides diagnostic information for the Skype for Business Cloud Connector Edition appliance."
 ---

@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 05b28f9b-4aba-4b69-ba8d-2ceeb6cbfaac
 description: "tblComplianceData contains the compliance events that have not been processed by the compliance adapter yet."
 ---

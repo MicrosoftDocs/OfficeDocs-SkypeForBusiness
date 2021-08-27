@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid:
 ms.collection: 
   - M365-collaboration
