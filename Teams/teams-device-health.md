@@ -21,11 +21,11 @@ ms.custom:
 
 # Manage the health of Teams devices
 
-Administrators can monitor the health of devices installed with Microsoft Teams by using health status, which indicates the severity of issues. To check the health of a device, you can go to the device list present under the **Devices** section of the Teams admin center. Te health status column indicates the current health status of the device. Selecting that status opens the **Health status panel**, which provides more details about health issues.
+Administrators can monitor the health of devices installed with Microsoft Teams by using health status, which indicates the severity of issues. To check the health of a device, you can go to the device list present under the **Devices** section of the Teams admin center. The health status column in this list indicates the current health status of the device. Selecting that status opens the **Health status panel**, which provides more details about health issues.
 
-Many types of issues can contribute towards health, and the Teams admin center system evaluates the severity of these issues as they occur.
+Many types of issues can contribute towards device health status, and the Teams admin center system evaluates the severity of these issues as they occur.
 
-The administrator managing the Teams devices for their organization may decide the severity of issues for them isn't the same as the default configuration. There's a way for the administrators to customize the severity and the impact on the health of their devices to match their organization's priorities.
+The administrator managing the Teams devices for their organization may decide the severity of issues for them isn't the same as the default configuration Teams provides. There's a way for the administrators to customize the severity and the impact on the health of their devices to match their organization's priorities.
 
 Teams Rooms devices have peripherals attached for providing a complete meeting experience, like Speaker, Microphone, Display, Camera. Details about them are available on the device page under the Peripherals and Health tabs. The connectivity of these peripherals impacts the health of the parent device.
 
