@@ -11,7 +11,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fb8e30aa-6b3c-4c8f-b22f-02db9e5fb8c0
 ROBOTS: NOINDEX, NOFOLLOW
 description: "On the Move Users page, you can select a destination pool to move the selected user to."

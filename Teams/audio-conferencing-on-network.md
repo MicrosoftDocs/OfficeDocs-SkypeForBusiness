@@ -13,7 +13,7 @@ ms.collection:
   - M365-voice
   - M365-collaboration
   - m365initiative-meetings
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom: 

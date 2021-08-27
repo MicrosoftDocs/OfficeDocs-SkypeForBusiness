@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c3da6271-b3c6-4898-894f-10456ec794d0
 description: "Each record in this table contains call details about one conference."
 ---

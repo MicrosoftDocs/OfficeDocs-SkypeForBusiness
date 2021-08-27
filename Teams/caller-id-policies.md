@@ -15,7 +15,7 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.voice.callinglineid.overview
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to use and manage caller ID policies in Microsoft Teams to change or block the caller ID of Teams users in your organization.
 ---

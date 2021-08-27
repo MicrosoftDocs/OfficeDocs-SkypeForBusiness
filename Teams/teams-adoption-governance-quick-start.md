@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Quick start that covers the key decisions you will need to make for phase 2 of your Microsoft Teams adoption plan.
 f1.keywords:

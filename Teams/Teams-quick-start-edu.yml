@@ -12,7 +12,7 @@ metadata:
   ms.reviewer: ninadara
   ms.service: msteams
   ms.topic: tutorial
-  localization_priority: Normal
+  ms.localizationpriority: medium
   search.appverid: MET150
   ms.collection:
   - M365-collaboration

@@ -8,7 +8,7 @@ ms.author: v-cichur
 audience: admin
 manager: serdars
 ms.service: msteams
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_RemoteWorkers

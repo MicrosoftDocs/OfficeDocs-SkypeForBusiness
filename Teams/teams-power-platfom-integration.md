@@ -14,7 +14,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn about Teams integration with Microsoft Power Platform tools, including Power BI, Power apps, Power automate, and Power Virtual Agents.
 ---

@@ -14,7 +14,7 @@ searchScope:
 description: Learn how to manage shift owners for schedule management. You can set a policy to elevate the permission of a team member to a schedule owner. 
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_FLW

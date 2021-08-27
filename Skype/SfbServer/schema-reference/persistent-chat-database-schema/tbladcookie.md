@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0a9102c4-47aa-40ea-8a0d-20e72ab09848
 description: "tblADCookie contains the current Lightweight Directory Access Protocol (LDAP) Sync cookies."
 ---
