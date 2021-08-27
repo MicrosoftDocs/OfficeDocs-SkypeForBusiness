@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8b88bed9-2b37-4caf-b119-48688076e06a
 description: "Summary: Learn how to delete an archiving policy for Skype for Business Server."
 ---

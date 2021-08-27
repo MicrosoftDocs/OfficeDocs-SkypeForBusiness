@@ -9,7 +9,7 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "This topic highlights configuration settings you should be aware of prior to deploying your Skype for Business Server 2019 Edge Server. The deployment and configuration processes for Skype for Business Server 2019 are very similar to Skype for Business Server 2015. This section only highlights key points you should consider as part of your pilot pool deployment. For detailed steps, see Deploying external user access in Skype for Business Server 2019 in the Deployment documentation, which describes the deployment process and also gives configuration information for external user access."
 ---
 

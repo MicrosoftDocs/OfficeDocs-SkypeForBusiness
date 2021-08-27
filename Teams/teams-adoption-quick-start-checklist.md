@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Use this quick-start checklist to ensure success as your organization starts to adopt Microsoft Teams. 
 f1.keywords:

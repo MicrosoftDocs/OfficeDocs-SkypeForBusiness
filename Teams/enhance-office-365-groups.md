@@ -11,7 +11,7 @@ audience: admin
 description: Learn to enhance Microsoft 365 groups with Microsoft Teams by inviting a distribution list to a team, add mail-enabled security groups, and more.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration

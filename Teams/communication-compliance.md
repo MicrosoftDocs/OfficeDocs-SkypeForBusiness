@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: anwara
 description: Learning about communication compliance, part of the insider risk solution set, from the Microsoft Teams perspective (this is part of the M365 communication compliance functionality).
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH

@@ -11,7 +11,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 ROBOTS: NOINDEX, NOFOLLOW
 description: "You can use the Save Voice Routing Test Case Information dialog box to save a temporary voice routing test case. In Save Voice Routing Test Case Information, type the name you want to give this test case in Name and then click OK."

@@ -9,7 +9,7 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: "Summary: Read this topic to learn how to configure dial-in conferencing in Skype for Business Server."
 ---

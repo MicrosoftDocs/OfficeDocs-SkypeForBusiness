@@ -11,7 +11,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3b513864-15c0-4afb-b934-bb050d5d2dcd
 ROBOTS: NOINDEX, NOFOLLOW
 description: "Use the Select Trunk dialog box to find an existing trunk that you can use."

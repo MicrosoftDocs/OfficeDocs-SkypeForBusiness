@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 description: "This article describes benefits, planning considerations, and requirements for implementing the Microsoft Cloud Voicemail service. For information on configuring Cloud Voicemail, see Configuring Cloud Voicemail."
 ---

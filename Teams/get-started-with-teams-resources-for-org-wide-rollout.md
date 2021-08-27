@@ -12,7 +12,7 @@ description: Once you've set up your first teams, learn how to deploy Microsoft 
 ms.custom: 
 - seo-marvel-apr2020
 - seo-marvel-mar2020
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH

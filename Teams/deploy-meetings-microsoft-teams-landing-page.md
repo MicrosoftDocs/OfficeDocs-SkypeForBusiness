@@ -15,7 +15,7 @@ ms.collection:
   - Teams_ITAdmin_RemoteWorkers
   - remotework
   - m365initiative-meetings
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams

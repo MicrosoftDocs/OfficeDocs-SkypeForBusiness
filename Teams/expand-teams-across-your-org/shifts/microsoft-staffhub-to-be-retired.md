@@ -11,7 +11,7 @@ search.appverid: MET150
 description: Find answers to FAQs about the retirement of Microsoft StaffHub and the transition to the Shifts app in Microsoft Teams.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_FLW
