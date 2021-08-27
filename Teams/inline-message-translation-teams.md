@@ -10,7 +10,7 @@ ms.service: msteams
 ms.collection: 
   - M365-collaboration
 ms.reviewer: salilda
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to turn on inline translation in Microsoft Teams using the Microsoft Teams admin center or PowerShell.
 f1.keywords:

@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection: 
   - M365-collaboration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Use team templates in the admin center or with Microsoft Graph to quickly and easily create teams for your retail organization.
 f1.keywords:

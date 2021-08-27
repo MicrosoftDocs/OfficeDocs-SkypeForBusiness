@@ -16,7 +16,7 @@ ms.collection:
 - m365initiative-meetings
 - m365initiative-meetings-enabler
 - enabler-strategic
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams

@@ -11,7 +11,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: "See what USB peripherals and devices (such as headsets, speakerphones, webcams, and monitors) are certified for Microsoft Teams."

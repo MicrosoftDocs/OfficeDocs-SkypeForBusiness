@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: stbyer
 description: Learn more about feedback privacy with Microsoft Teams.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH

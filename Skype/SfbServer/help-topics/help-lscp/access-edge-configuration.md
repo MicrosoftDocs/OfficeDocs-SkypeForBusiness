@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ExtEdgeMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1bd49911-df70-4f96-85bc-1f005ea65163
 description: "What do you want to do? Click the link to the task that you want to perform."
 ---

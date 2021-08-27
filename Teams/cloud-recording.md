@@ -12,7 +12,7 @@ ms.collection:
   - m365initiative-meetings
 ms.reviewer: nakulm
 search.appverid: MET150
-localization_priority: Priority
+ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 description: Practical guidance for deploying cloud voice features in Teams to record Teams meetings and group calls to capture audio, video, and screen sharing activity.
@@ -235,7 +235,7 @@ If a meeting recording isn't able to be uploaded to OneDrive for Business and Sh
 
 Meeting recordings may end up in this temporary storage for the following reasons:
 
-- For non-channel meetings if the user recording doesn't have a OneDrive for Business setup or the OneDrive for Business has reached its storage quota
+- For non-channel meetings if the user recording doesn't have a OneDrive for Business set up or the OneDrive for Business has reached its storage quota
 - For a channel meeting if the SharePoint Online site has reached its storage quota or the site wasn't provisioned yet
 - If specific OneDrive for Business and SharePoint Online policies are enabled restricting users from uploading files when not on specific IP ranges, etc.
 
@@ -286,7 +286,7 @@ Customers have provided overwhelming feedback that they want more controls to re
   
 We believe nearly all customers will benefit from the reduced storage load on their tenant by removing recordings that will likely never be rewatched after 60 days. It is our goal to provide as clean an experience as possible for all customers by default. 
   
-**Will it be automatically deleted after 30 days even if the data is accessed or downloaded?**
+**Will it be automatically deleted even if the data is accessed or downloaded?**
   
 Accessing the file does not change the expiration date. 
   
