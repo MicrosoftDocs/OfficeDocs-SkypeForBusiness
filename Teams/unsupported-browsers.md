@@ -11,7 +11,7 @@ MS.collection:
 ms.reviewer: nakulm
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how Teams supports audio and video in unsupported browsers.
 appliesto: 

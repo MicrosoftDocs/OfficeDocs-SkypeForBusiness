@@ -14,7 +14,7 @@ searchScope:
 description: Learn how to set up and manage the Shifts app in Teams for frontline workers in your organization.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_FLW

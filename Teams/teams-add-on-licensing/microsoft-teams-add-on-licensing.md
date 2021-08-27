@@ -14,7 +14,7 @@ appliesto:
   - Microsoft Teams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom:
   - Licensing
   - LIL_Placement

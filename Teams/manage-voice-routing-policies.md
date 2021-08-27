@@ -14,7 +14,7 @@ ms.collection:
 - M365-voice
 appliesto: 
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to create and manage voice routing policies in Microsoft Teams. 
 ---

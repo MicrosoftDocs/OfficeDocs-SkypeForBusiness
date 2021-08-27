@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.UserAssignPolicy
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f36a2699-5cf6-4995-9f6d-ec3519ca0903
 description: "What do you want to do? Click the link to the task that you want to perform."
 ---

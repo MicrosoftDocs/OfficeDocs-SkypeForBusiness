@@ -11,7 +11,7 @@ ms.topic: article
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
   - M365-collaboration
 description: Learn how to secure your Microsoft Teams Rooms devices.

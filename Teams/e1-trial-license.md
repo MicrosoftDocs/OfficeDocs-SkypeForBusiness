@@ -8,7 +8,7 @@ audience: Admin
 ms.reviewer: aytange
 ms.service: msteams
 search.appverid: MET150
-localization_priority: Priority
+ms.localizationpriority: high
 description: "If you don't have Microsoft Teams and need it in a hurry, roll out the Office 365 E1 Trial for your users who need to work remotely or from home (WFH) in response to the COVID-19 (coronavirus) outbreak."
 ms.collection: 
   - M365-collaboration

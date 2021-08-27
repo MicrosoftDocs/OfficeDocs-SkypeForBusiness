@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection: 
   - M365-collaboration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to use general team templates to create team structures by providing predefined settings, channels, and pre-installed apps using the admin center.
 f1.keywords:

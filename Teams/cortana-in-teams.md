@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: akshbhat
 search.appverid: MET150
 description: Learn how to use Cortana voice assistance with Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: 
 - Teams-upgrade-guidance
 f1.keywords:
