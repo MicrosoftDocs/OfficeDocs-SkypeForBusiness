@@ -304,7 +304,7 @@ Yes, the expiration date is set per file. Users can modify the expiration date i
 
 **How can an Admin change the expiration date?**
   
-Admins will be able to change the default expiration setting in PowerShell (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) or the Teams Admin Center before the feature is released. The setting is not yet available for modification. We will publish an updated message center post when the setting is available for modification. When the feature launches, Admins can change this setting in the Teams admin center. Changing expiration settings will impact only newly created TMRs from that point forward. It will not impact any recordings made prior to that date. 
+Admins will be able to change the default expiration setting in PowerShell (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) or the Teams Admin Center before the feature is released. **The setting is not yet available for modification**. We will publish an updated message center post when the setting is available for modification. When the feature launches, Admins can change this setting in the Teams admin center. Changing expiration settings will impact only newly created TMRs from that point forward. It will not impact any recordings made prior to that date. 
 
 The expiration days values can be set as follows:
   
@@ -328,12 +328,6 @@ The expiration date will be cleared upon re-upload, regardless of the user’s S
 **What happens if I copy or move the TMR to a different location or site?**
 
 The date is only retained for a moved TMR file. A copied file will not have the expiration date, just like a re-uploaded TMR.
-  
-  Example PowerShell command: 
-  
-  ```powershell
-  Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays 50
-  ```
   
 **What is the scope of control for the admin policy?**
   
@@ -374,7 +368,7 @@ The file owner will receive an email notification when the TMR expires and will 
   
 **What SKUs are required for this feature?**
   
-All SKUs will have this feature by default. A1 users will be defaulted to a 30-day expiration period and won’t be able to modify the expiration date
+All SKUs will have this feature by default. A1 users will be defaulted to a 30-day expiration period.
   
 **Is the file expiration an audited event and will I be able to see it in my audit logs?**
   
