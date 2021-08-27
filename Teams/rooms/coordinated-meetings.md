@@ -11,7 +11,7 @@ ms.collection:
   - M365-collaboration
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Configure Teams Rooms devices and Surface Hub to join meetings when one device or the other joins a meeting."
 ---
 

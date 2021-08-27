@@ -17,7 +17,7 @@ f1.keywords:
 description: Learn about the public preview in Microsoft Teams. Try out new features and provide feedback.
 appliesto: 
 - Microsoft Teams
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Microsoft Teams Public Preview

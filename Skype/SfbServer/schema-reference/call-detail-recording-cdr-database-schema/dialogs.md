@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 487a430b-af66-4ea6-b28e-4e33cfdb7f9e
 description: "The Dialogs table is a supporting table that stores the information about DialogIDs for peer-to-peer sessions."
 ---

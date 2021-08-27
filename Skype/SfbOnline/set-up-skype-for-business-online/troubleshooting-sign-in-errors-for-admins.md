@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 ms.custom:

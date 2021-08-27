@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f384d19b-0950-4ec6-9d93-2c5958b83e71
 description: "Summary: Learn how to assign conferencing policies in Skype for Business Server."
 ---
