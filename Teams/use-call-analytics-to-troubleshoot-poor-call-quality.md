@@ -1,5 +1,5 @@
 ---
-title: "Use call analytics to troubleshoot poor call quality"
+title: "Use Call Analytics to troubleshoot poor call quality"
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -21,26 +21,26 @@ ms.custom:
   - ms.teamsadmincenter.directrouting.callanalytics
   - ms.teamsadmincenter.users.activity.audioqualitycolumn
   - Reporting
-description: "Use per-user call analytics details about devices, networks, and connectivity to troubleshoot user problems with Microsoft Teams calls and meetings."
+description: "Use per-user Call Analytics details about devices, networks, and connectivity to troubleshoot user problems with Microsoft Teams calls and meetings."
 ---
 
-# Use call analytics to troubleshoot poor call quality
+# Use Call Analytics to troubleshoot poor call quality
 
-This article explains how to use call analytics to troubleshoot poor Microsoft Teams call or meeting quality for individual users if you're a Teams admin or a Teams communications support specialist or engineer.
+This article explains how to use Call Analytics to troubleshoot poor Microsoft Teams call or meeting quality for individual users if you hold the Teams Administrator, or Teams communications support specialist / engineer role.
 
 ## Call Analytics permissions
 
-This article assumes that you've already set up call analytics. If you haven't, read [Set up call analytics for Teams](set-up-call-analytics.md).
+This article assumes that you've already set up Call Analytics. If you haven't, read [Set up call analytics for Teams](set-up-call-analytics.md).
 
-## Introduction to call analytics
+## Introduction to Call Analytics
 
-Call analytics shows detailed information about Teams calls and meetings for each user in your Office 365 account. It includes information about devices, networks, connectivity, and call quality (any of these can be a factor in poor call or meeting quality). If you upload building, site, and tenant information, this information will also be shown for each call and meeting. Use call analytics to help you figure out why a user had a poor call or meeting experience.
+Call Analytics shows detailed information about Teams calls and meetings for each user in your Office 365 account. It includes information about devices, networks, connectivity, and call quality (any of these can be a factor in poor call or meeting quality). If you upload building, site, and tenant information, this information will also be shown for each call and meeting. Use Call Analytics to help you figure out why a user had a poor call or meeting experience.
 
-Call analytics shows you each leg of a call or meeting - for example, from one participant to a second participant. By analyzing these details, a Teams admin can isolate problem areas and identify the root cause for poor quality.
+Call Analytics shows you each leg of a call or meeting - for example, from one participant to a second participant. By analyzing these details, a Teams admin can isolate problem areas and identify the root cause for poor quality.
 
-As the Teams admin, you get full access to all call analytics data for each user. In addition, you can assign Azure Active Directory roles to support staff. To learn more about these roles, read [Give permission to support and helpdesk staff](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff). Don't miss [What does each Teams Support role do?](#what-does-each-teams-support-role-do) below.
+As the Teams admin, you get full access to all Call Analytics data for each user. In addition, you can assign Azure Active Directory roles to support staff. To learn more about these roles, read [Give permission to support and helpdesk staff](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff). Don't miss [What does each Teams Support role do?](#what-does-each-teams-support-role-do) below.
 
-## Where to find per-user call analytics
+## Where to find per-user Call Analytics
 
 To see all call information and data for a user, go to the [Teams admin center](https://admin.teams.microsoft.com). Under **Users**, select a user and then open the **Meetings & Calls** tab on the user's profile page. Here you'll find all calls and meetings for that user for the last 30 days.
 
@@ -52,7 +52,7 @@ To get additional information about a given session, including detailed media an
 
 ## What does each Teams Support role do?
 
-The **Teams communications support specialist** (Tier 1 support) handles basic call-quality problems. They don't investigate issues with meetings. Instead, they collect related information and then escalate to a communications support engineer.
+The **Teams communications support specialist** (Tier 1 support) handles basic call-quality problems. They don't investigate issues with meetings. Instead, they collect related information and then escalate to a Teams communications support engineer.
 
 The **Teams communications support engineer** (Tier 2 support) sees information in detailed call logs that are hidden from the Teams communications support specialist. The table below lists the information available to each Teams communication support role.
 
@@ -71,9 +71,12 @@ The following table tells you what per-user information is available for each co
 ||Session details|Session details shown with exceptions. Only the name of the user for whom the agent searched is shown. Other participants identified as Internal User or External User. Last three digits of telephone number obfuscated with asterisk symbols.|Session details shown. User names and session details shown. Last three digits of telephone number obfuscated with asterisk symbols.|
 ||||
 
+> [!NOTE]
+> The information contained in the Debug tab contains telemetry and service diagnostic data meant to assist Microsoft support engineers. Without the context of the additional data available to support engineers, it may appear to be redundant, inaccurate, or confusing. While we make it available for advanced users who are looking for another level of detail in troubleshooting call issues, we don't recommend making judgments based on this data without Microsoft support.
+
 ## Troubleshoot user call quality problems
 
-1. Open the Teams admin center (<https://admin.teams.microsoft.com>) and sign in with your Teams communications support or Teams admin credentials.
+1. Open the Teams admin center (<https://admin.teams.microsoft.com>) and sign in with your Teams communications support or Teams Administrator credentials.
 
 2. On the **Dashboard**, in **User Search**, start typing either the name or SIP address of the user whose calls you want to troubleshoot, or select **View users** to see a list of users.
 
