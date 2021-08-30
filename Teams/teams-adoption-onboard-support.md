@@ -32,4 +32,4 @@ To ensure that the early adopter and champions teams will have the appropriate s
 - [Known issues and troubleshooting](/MicrosoftTeams/troubleshoot/teams-welcome)
 - [Microsoft Teams training](./training-microsoft-teams-landing-page.md)
 
-![An icon representing the next step](media/teams-adoption-next-icon.png) Next: [Microsoft Teams adoption phase 3: Scale](teams-adoption-phase3-enable.md).
+![An icon representing the next step.](media/teams-adoption-next-icon.png) Next: [Microsoft Teams adoption phase 3: Scale](teams-adoption-phase3-enable.md).

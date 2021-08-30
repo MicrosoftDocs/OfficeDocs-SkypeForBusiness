@@ -21,7 +21,7 @@ appliesto:
 
 # Upgrade strategies for IT administrators
 
-![Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")
+![Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage.](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")
 
 This article is for IT administrators who want to implement their upgrade to Teams from Skype for Business.
 
@@ -89,7 +89,7 @@ Notes
 
 The diagram below shows the conceptual phases of select capabilities upgrade for an organization with no prior usage of Teams. The height of the bars represents number of users. During any phase of the upgrade, all users can communicate with each other.  Skype for Business users communicate with TeamsOnly users using Interop, and vice versa. Users in Islands mode must be sure to run both clients.
 
-![Diagram showing select capabilities upgrade with no prior use of Teams](media/teams-upgrade-1.png)
+![Diagram showing select capabilities upgrade with no prior use of Teams.](media/teams-upgrade-1.png)
 
 
 ## A select capabilities upgrade for an organization that is already using Teams in Islands mode
@@ -133,7 +133,7 @@ If some users in your organization are actively using Teams in Islands mode, you
 The diagram below shows the conceptual phases of a select capabilities transition in which there are active Islands users at the start. The height of the bars represents the number of users. During any phase of the upgrade, all users can communicate with each other.  Skype for Business users communicate with TeamsOnly users using interop, and vice versa. 
 
 
-![Diagram showing select capabilities upgrade with active users in Islands mode](media/teams-upgrade-2.png)
+![Diagram showing select capabilities upgrade with active users in Islands mode.](media/teams-upgrade-2.png)
 
    
 

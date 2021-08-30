@@ -48,8 +48,8 @@ For physical installation considerations, see the manufacturer's documentation a
 
 |    |     |
 |-----------|------------|
-| ![An icon depicting decision points](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Confirm that your sites meet the site readiness requirements for collaboration bars for Microsoft Teams.</li><li>Confirm that you've provided sufficient bandwidth for each site.</li></ul>|
-| ![An icon depicting next steps](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to plan your collaboration bar deployment and configuration.</li></ul>|
+| ![An icon depicting decision points.](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Confirm that your sites meet the site readiness requirements for collaboration bars for Microsoft Teams.</li><li>Confirm that you've provided sufficient bandwidth for each site.</li></ul>|
+| ![An icon depicting next steps.](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to plan your collaboration bar deployment and configuration.</li></ul>|
 
 ## Service readiness
 
@@ -69,8 +69,8 @@ For more information about Microsoft 365 resource accounts, see [Create a resour
 
 |    |     |
 |-----------|------------|
-| ![An icon depicting decision points](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide whether you want to make or receive external phone calls and identify licensing requirements for your resource accounts.</li></ul>|
-| ![An icon depicting next steps](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Prepare resource accounts.</li></ul>|
+| ![An icon depicting decision points.](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide whether you want to make or receive external phone calls and identify licensing requirements for your resource accounts.</li></ul>|
+| ![An icon depicting next steps.](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Prepare resource accounts.</li></ul>|
 
 ## Configuration and deployment
 
@@ -93,8 +93,8 @@ If you want to assign Teams Rooms to individual users for their private use, you
 
 |    |     |
 |-----------|------------|
-| ![An icon depicting decision points](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide the naming convention for your dedicated resource accounts.</li><li>Decide whether you’ll create individual accounts or use bulk-provisioning scripts.</li></ul>|
-| ![An icon depicting next steps](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to plan your device deployment.</li></ul>|
+| ![An icon depicting decision points.](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide the naming convention for your dedicated resource accounts.</li><li>Decide whether you’ll create individual accounts or use bulk-provisioning scripts.</li></ul>|
+| ![An icon depicting next steps.](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start to plan your device deployment.</li></ul>|
 
 ### Device deployment
 
@@ -102,8 +102,8 @@ Next, you need to create your plan to deliver the devices and their assigned per
 
 |    |     |
 |-----------|------------|
-| ![An icon depicting decision points](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide who will manage the site-by-site deployment.</li><li> Identify the resources who will install Teams Rooms on site and undertake the configuration and testing.</li></ul>|
-| ![An icon depicting next steps](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start device testing.</li></ul>|
+| ![An icon depicting decision points.](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide who will manage the site-by-site deployment.</li><li> Identify the resources who will install Teams Rooms on site and undertake the configuration and testing.</li></ul>|
+| ![An icon depicting next steps.](../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Start device testing.</li></ul>|
 
 ### Testing
 
