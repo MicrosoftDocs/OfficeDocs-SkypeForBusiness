@@ -9,7 +9,7 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: 
  - Strat_SB_Admin
  - seo-marvel-apr2020
@@ -28,7 +28,7 @@ With the easy-to-use methods provided by Configuration Manager, you can deploy t
 
 Use the approach illustrated below to guide you through your Configuration Manager configuration, and customize the sample packages and scripts provided throughout this guidance as needed for your organization.
 
-![Microsoft Teams Rooms deployment process using Configuration Manager](../media/room-systems-scale-image1.png)
+![Microsoft Teams Rooms deployment process using Configuration Manager.](../media/room-systems-scale-image1.png)
 
 > [!IMPORTANT]
 > This solution has only been tested with Surface Pro–based deployments. Follow the manufacturer's guidelines for configurations that aren't based on Surface Pro.
@@ -734,7 +734,7 @@ After you've completed the Microsoft Endpoint Configuration Manager task sequenc
 
 9.  After the deployment task sequence finishes configuring the device, you'll see the following configuration screen that asks you to configure the Microsoft Teams Rooms application settings.
 
-    ![Initial setup screen for Microsoft Teams Rooms application](../media/room-systems-scale-image2.png)
+    ![Initial setup screen for Microsoft Teams Rooms application.](../media/room-systems-scale-image2.png)
 
 10.  Plug the Surface Pro into the Microsoft Teams Rooms console, and configure the application settings.
 

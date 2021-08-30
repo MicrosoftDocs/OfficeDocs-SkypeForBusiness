@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 - Hybrid 
 - M365-voice
@@ -69,7 +69,7 @@ Co-existence modes will continue to exist after retirement of Skype for Business
 
 This type of configuration relies on shared SIP address space functionality, and is sometimes referred to as "split domain"--meaning users of a domain, such as contoso.com, are split between using Skype for Business Server on premises and Teams, as shown in the following diagram:
 
-![Skype for Business Hybrid connectivity - split domain](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
+![Skype for Business Hybrid connectivity - split domain.](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
 
 When shared SIP address space is configured:
 

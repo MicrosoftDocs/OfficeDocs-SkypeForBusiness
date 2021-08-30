@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-voice
 ms.assetid: 
 description: "Manage Windows Updates for Microsoft Teams Rooms"

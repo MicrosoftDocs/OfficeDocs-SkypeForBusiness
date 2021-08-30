@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: olbesede
 description: Education admins can learn about the resources available in Microsoft Teams to enable remote learning.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -35,9 +35,9 @@ Please read the [terms and conditions](https://github.com/MicrosoftDocs/OfficeDo
 
 |&nbsp; | &nbsp; |
 |---------|---------|
-|Posters - [customizable](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) and [print-ready](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![Photo of a poster](media/edu-adoption-posters.png)     |[Handouts](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![Photo of a handout](media/edu-adoption-handouts.png)|
-|[Flyers](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![Photo of a flyer](media/edu-adoption-flyers.png)   |[Book adverts](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![Photo of a book advert.](media/edu-adoption-book-adverts.png)         |
-|[Photo of Tips and Tricks booklet.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![Photo of sample booklet](media/edu-adoption-get-started.png)    |
+|Posters - [customizable](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) and [print-ready](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![Photo of a poster.](media/edu-adoption-posters.png)     |[Handouts](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![Photo of a handout](media/edu-adoption-handouts.png)|
+|[Flyers](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![Photo of a flyer.](media/edu-adoption-flyers.png)   |[Book adverts](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![Photo of a book advert.](media/edu-adoption-book-adverts.png)         |
+|[Photo of Tips and Tricks booklet.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![Photo of sample booklet.](media/edu-adoption-get-started.png)    |
 
 ### Digital assets
 
@@ -46,8 +46,8 @@ Be sure to check out the [Digital Toolkit Guidance](https://github.com/Microsoft
 | &nbsp; |&nbsp;  |
 |---------|---------|
 |[Email templates](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/email-templates.zip?raw=true)<br> ![Photo of sample handout.](media/edu-adoption-email-templates.png)    |[GIFs](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/gifs.zip?raw=true) <br> ![Screenshot from a GIF](media/edu-adoption-gifs.png)      |
-|[Web banners](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/web-banners.zip?raw=true)<br>![Photo of a sample web banner](media/edu-adoption-web-banners.png)    |[Videos](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/videos.zip?raw=true)<br>![Screenshot of sample video opener](media/edu-adoption-videos.png)          |
-|[Digital screen adverts](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-screen-adverts.zip?raw=true)<br>![Photo of a digital screen advert](media/edu-adoption-digital-screen-adverts.png)   |      |
+|[Web banners](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/web-banners.zip?raw=true)<br>![Photo of a sample web banner.](media/edu-adoption-web-banners.png)    |[Videos](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/videos.zip?raw=true)<br>![Screenshot of sample video opener](media/edu-adoption-videos.png)          |
+|[Digital screen adverts](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-screen-adverts.zip?raw=true)<br>![Photo of a digital screen advert.](media/edu-adoption-digital-screen-adverts.png)   |      |
 
 ## Call to action
 

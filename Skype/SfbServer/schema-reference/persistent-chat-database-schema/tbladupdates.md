@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ba19fa16-4d2d-4635-ac32-f93e09469546
 description: "tblADUpdates contains Active Directory Domain Services changes that have not yet been processed by the later Active Directory Sync steps."
 ---

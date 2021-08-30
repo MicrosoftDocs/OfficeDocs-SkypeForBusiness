@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
 description: "Summary: Read this topic to learn about hardware and software requirements for conferencing in Skype for Business Server."
 ---
@@ -24,7 +24,7 @@ For example, if you want to allow dial-in conferencing, you'll need to deploy a 
 
 **Conferencing capabilities and requirements**
 
-![Conferencing components](../../media/9359b98b-b3ab-46a1-acf0-93c7bab6fc67.png)
+![Conferencing components.](../../media/9359b98b-b3ab-46a1-acf0-93c7bab6fc67.png)
 
  For more information about topology considerations, see [Plan your conferencing topology for Skype for Business Server](conferencing-topology.md).
 

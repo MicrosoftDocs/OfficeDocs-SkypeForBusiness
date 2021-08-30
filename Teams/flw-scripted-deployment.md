@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: keschm
 description: Guidance on using scripts to deploy or provision Microsoft Teams for Frontline Workers.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -213,11 +213,11 @@ The following settings can be customized to meet your business needs. We have ch
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
 2. Click **Add**.  
 3. Enter a name and description for the policy. For example, Frontline manager app setup policy.
-    :::image type="content" source="media/flw-flm-app-setup-policy.png" alt-text="Screenshot of example name and description for frontline manager app setup policy":::
+    :::image type="content" source="media/flw-flm-app-setup-policy.png" alt-text="Screenshot of example name and description for frontline manager app setup policy.":::
 
 4. Turn off **Upload custom apps**.
 5. Turn off **Allow user pinning**.
-    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Screenshot of Allow user pinning setting":::
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Screenshot of Allow user pinning setting.":::
 
 6. If it's not already listed, add the **Shifts** app. For more information about Shifts, click [here](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md).
     :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Screenshot of the Add pinned apps screen, showing the Add button for the Shifts app":::
@@ -231,7 +231,7 @@ The following settings can be customized to meet your business needs. We have ch
     - Calendar
     - Shifts
 
-    :::image type="content" source="media/flw-manager-pinned-apps.png" alt-text="Screenshot of apps for frontline managers listed in order":::
+    :::image type="content" source="media/flw-manager-pinned-apps.png" alt-text="Screenshot of apps for frontline managers listed in order.":::
 
 #### Create the frontline worker app setup policy
 
@@ -240,11 +240,11 @@ The following settings can be customized to meet your business needs. We have ch
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
 2. Click **Add**.
 3. Enter a name and description for the policy. For example, Frontline worker app setup policy.
-    :::image type="content" source="media/flw-flw-app-setup-policy.png" alt-text="Screenshot of example name and description for frontline worker app setup policy":::
+    :::image type="content" source="media/flw-flw-app-setup-policy.png" alt-text="Screenshot of example name and description for frontline worker app setup policy.":::
 
 4. Turn off **Upload custom apps**.
 5. Turn off **Allow user pinning**.
-    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Screenshot of Allow user pinning setting":::
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Screenshot of Allow user pinning setting.":::
 
 6. If it's not already listed, add the **Shifts** app. For more information about Shifts, click [here](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md).
 
@@ -257,7 +257,7 @@ The following settings can be customized to meet your business needs. We have ch
     - Teams
     - Shifts
 
-    :::image type="content" source="media/flw-worker-pinned-apps.png" alt-text="Screenshot of apps for frontline workers listed in order":::
+    :::image type="content" source="media/flw-worker-pinned-apps.png" alt-text="Screenshot of apps for frontline workers listed in order.":::
 
 ### Create Teams app permission policies
 
@@ -272,7 +272,7 @@ The following settings can be customized to meet your business needs. These are 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
 2. Click **Add**.
 
-    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Screenshot of Add app permission policy page":::
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Screenshot of Add app permission policy page.":::
 
 3. Enter a name and description for the policy. For example, Frontline manager app permission policy.
 4. Under **Microsoft apps**, select **Allow all apps**.
@@ -287,7 +287,7 @@ The following settings can be customized to meet your business needs. These are 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
 2. Click **Add**.
 
-    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Screenshot of Add app permission policy page":::
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Screenshot of Add app permission policy page.":::
 
 3. Enter a name and description for the policy. For example, Frontline worker app permission policy.
 4. Under **Microsoft apps**, select **Allow all apps**.

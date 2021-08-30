@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn more about structuring teams and channels in Microsoft Teams and how to use Teams to drive cross-organization collaboration.
 f1.keywords:
@@ -51,10 +51,10 @@ Team access types determine who can join a team:
 
 It's a best practice to use teams to improve cross-organization collaboration, and many projects will lend themselves to this model. In addition, leaders or divisions inside of an organization might want a dedicated team for their own people. Consider the organizational and project models shown in the following illustration.
 
-![Organization and project models](media/teams-adoption-organization-project.png)
+![Organization and project models.](media/teams-adoption-organization-project.png)
 
 In an organizational team (shown on the left), key information about the way that organization runs its business, team events, core strategies, and other operational information, such as business reviews, might be shared. For the team shown on the right, the district's information is broken down into channels that represent the categories of work that are being accomplished by that team. Members of this team may or may not report to the same person, but they are all engaged in driving the results for the district.
   
 You will work more on the structure of your teams in [phase 2](teams-adoption-phase2-experiment.md) of your implementation.
 
-![An icon depicting the next step](media/teams-adoption-next-icon.png) Next: [Create your first teams](teams-adoption-your-first-teams.md)
+![An icon depicting the next step.](media/teams-adoption-next-icon.png) Next: [Create your first teams](teams-adoption-your-first-teams.md)

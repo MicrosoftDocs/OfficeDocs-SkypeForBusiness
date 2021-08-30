@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -52,7 +52,7 @@ When MMS is triggered for a given user, a migration request for that user is pla
 3. In the email message, it replaces the online meeting block in the meeting details.
 4. It sends the updated version of that meeting to all meeting recipients on behalf of the meeting organizer. Meeting invitees will receive a meeting update with updated meeting coordinates in their email. 
 
-    ![The meeting block that gets updated by MMS](../images/210a03ee-30c1-46f3-808f-4c2ebdaa3ea1.png)
+    ![The meeting block that gets updated by MMS.](../images/210a03ee-30c1-46f3-808f-4c2ebdaa3ea1.png)
 
 From the time MMS is triggered, it typically takes about 2 hours until the user’s meetings are migrated. However, if the user has a large number of meetings, it might take longer. If MMS encounters an error migrating one or more meetings for the user, it will periodically retry up to 9 times over the span of 24 hours.
 
@@ -178,6 +178,7 @@ If you see any migrations that have failed, take action to resolve these issues 
     - Have the users create new Skype meetings.
     - [Contact support](/microsoft-365/Admin/contact-support-for-business-products).
 
+The `Get-CsMeetingMigrationStatus` cmdlet can be used to retrieve status of migrations that were triggered within the past 150 days. Records for migrations older than 150 days are purged from the system.
 
 ### Enabling and disabling MMS
 

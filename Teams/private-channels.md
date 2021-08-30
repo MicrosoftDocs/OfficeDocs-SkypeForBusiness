@@ -15,7 +15,7 @@ f1.keywords:
 - NOCSH
 appliesto: 
 - Microsoft Teams
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 description: Learn how to use and manage private channels in Microsoft Teams. 
 ---
@@ -35,7 +35,7 @@ A lock icon indicates a private channel. Only members of private channels can se
 
 When a private channel is created, it's linked to the parent team and can't be moved to a different team. Additionally, private channels can't be converted to standard channels and vice versa.
 
-![Screenshot of private channels in a team](media/private-channels-in-teams.png)
+![Screenshot of private channels in a team.](media/private-channels-in-teams.png)
 
 ## Private channel creation
 
@@ -62,7 +62,7 @@ Each private channel has its own settings that the channel owner can manage, inc
 
 The private channel owner can click **Manage channel**, and then use the **Members** and **Settings** tabs to add or remove members and edit settings.
 
-![Screenshot of private channel settings](media/private-channels-in-teams-channel-settings.png)
+![Screenshot of private channel settings.](media/private-channels-in-teams-channel-settings.png)
 
 ## Private channel owner and member actions
 

@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: daro
 audience: admin
 description: Guidance for IT pros to drive Office 365 deployments in entities that handle data subject to US government DoD regulation.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
   - CSH
@@ -48,7 +48,7 @@ The [Office 365 US Government service description](/office365/servicedescription
 
 |    |     |
 |-----------|------------|
-| ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide whether Office 365 Government - DoD is appropriate for your organization.</li><li>Confirm that your organization meets eligibility requirements.</li></ul> |
+| ![An icon depicting decision points.](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide whether Office 365 Government - DoD is appropriate for your organization.</li><li>Confirm that your organization meets eligibility requirements.</li></ul> |
 
 > [!Note]
 > Office 365 Government - DoD is only available in the United States. Non–US Government customers can choose from a number of [Office 365 Government plans](https://products.office.com/en/government/compare-office-365-government-plans).
@@ -64,7 +64,7 @@ We recommend that you take time to carefully review your [admin and security set
 
 |    |     |
 |-----------|------------|
-| ![An icon depicting a decision point](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Decide whether you'll need to modify any of the default Office 365 Government - DoD security settings, resolving to first understand the impact of any changes you might make.</li></ul> |
+| ![An icon depicting a decision point.](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Decide whether you'll need to modify any of the default Office 365 Government - DoD security settings, resolving to first understand the impact of any changes you might make.</li></ul> |
 
 
 ## Step 4. Understand which Teams capabilities are currently available in Office 365 Government - DoD

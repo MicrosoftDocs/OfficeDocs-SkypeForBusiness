@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 description: "This article describes benefits, planning considerations, and requirements for implementing the Microsoft Cloud Voicemail service. For information on configuring Cloud Voicemail, see Configuring Cloud Voicemail."
 ---
@@ -50,7 +50,7 @@ With Cloud Voicemail, your administration tasks are greatly simplified because:
 
 The following diagram shows Cloud Voicemail in a hybrid deployment:
 
-![SfB Cloud Voicemail](../../sfbserver2019/media/plan-cloud-voice-mail-server1.png)
+![SfB Cloud Voicemail.](../../sfbserver2019/media/plan-cloud-voice-mail-server1.png)
 
 Unanswered calls are handled as follows:  
 

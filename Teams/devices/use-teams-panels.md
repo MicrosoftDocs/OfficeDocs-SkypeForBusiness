@@ -14,7 +14,7 @@ f1.keywords:
 ms.collection: 
   - M365-voice
 search.appverid: MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "This article provides guidance on how to use Teams panels devices."
 ---
 
@@ -49,7 +49,7 @@ From the Home screen, you can view location and meeting details, reserve a space
 
 The following screenshot shows different parts or tiles on the Teams panels Home screen:
 
-:::image type="content" source="../media/panels-home-screen-explanation.png" alt-text="This screenshot displays different areas on the Teams panels Home screen":::
+:::image type="content" source="../media/panels-home-screen-explanation.png" alt-text="This screenshot displays different areas on the Teams panels Home screen.":::
 
 Refer to the following table for a description of each tile:
 
@@ -68,7 +68,7 @@ The appearance of this tile and its capabilities vary depending on the meeting s
 
 The tile appears in purple for a meeting space that is reserved for a scheduled meeting (scheduled via Outlook or Teams). It displays meeting title in prominent text, meeting start and end times, and meeting organizer's name. For a Teams meeting, the Teams logo also appears. With meeting details prominently displayed, attendees can easily confirm they’re in the right meeting space, at the right time, and for the right meeting.
 
-:::image type="content" source="../media/panels-right-tile-scheduled-meeting.png" alt-text="Teams panels Home screen showing that the meeting space is reserved for a scheduled meeting":::
+:::image type="content" source="../media/panels-right-tile-scheduled-meeting.png" alt-text="Teams panels Home screen showing that the meeting space is reserved for a scheduled meeting.":::
 
 > [!NOTE]
 >
@@ -79,13 +79,13 @@ The tile appears in purple for a meeting space that is reserved for a scheduled 
 
 The tile appears in purple for a meeting space that is [reserved for an ad hoc meeting](#reserve-meeting-spaces-for-ad-hoc-meetings). It displays **Reserved** in prominent text along with the meeting start and end times. Ad-hoc meetings are automatically scheduled as Teams meetings, hence the Teams logo always appears on the screen.
 
-:::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Teams panels Home screen showing that the meeting space is reserved for an ad hoc meeting":::
+:::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Teams panels Home screen showing that the meeting space is reserved for an ad hoc meeting.":::
 
 #### Meeting space is available
 
 The tile appears in green for an available meeting space. It displays **Available** in prominent text, and a **Reserve** button also appears that you can tap to [reserve the meeting space for an ad hoc meeting](#reserve-meeting-spaces-for-ad-hoc-meetings). You can check the upcoming calendar of the meeting space (right bottom tile) to decide the end time for your ad hoc meeting.
 
-:::image type="content" source="../media/panels-right-tile-available-status.png" alt-text="This screenshot shows how the Teams panels Home screen appears when the meeting space is available":::
+:::image type="content" source="../media/panels-right-tile-available-status.png" alt-text="This screenshot shows how the Teams panels Home screen appears when the meeting space is available.":::
 
 ## Reserve meeting spaces for ad hoc meetings
 
@@ -99,10 +99,10 @@ For ad hoc meetings that are booked directly from panels:
 To reserve an available meeting space for an ad hoc meeting:
 
 1. On the Home screen, tap the **Reserve** button.
-    :::image type="content" source="../media/panels-reserve.png" alt-text="Teams panels Home screen showing the Reserve button":::
+    :::image type="content" source="../media/panels-reserve.png" alt-text="Teams panels Home screen showing the Reserve button.":::
 2. In the **Ad hoc meeting** screen, review the available end time choices. You can use the right or left arrows to browse the available end time choices.
 
-    :::image type="content" source="../media/panels-reserve-endtime.png" alt-text="Ad hoc meeting screen showing end time slots":::
+    :::image type="content" source="../media/panels-reserve-endtime.png" alt-text="Ad hoc meeting screen showing end time slots.":::
 
     > [!Note]
     >
@@ -113,10 +113,10 @@ To reserve an available meeting space for an ad hoc meeting:
 3. Tap the desired end time interval, and then tap **Reserve**.
 
     A confirmation window appears with a thumbs up emoji, meeting start and end time, and meeting space name.
-    :::image type="content" source="../media/panels-reserve-confirmation.png" alt-text="Ad hoc meeting confirmation message":::
+    :::image type="content" source="../media/panels-reserve-confirmation.png" alt-text="Ad hoc meeting confirmation message.":::
 The right tile on the Home screen now appears in purple and displays the **Reserved** text and the Teams logo. This indicates that the meeting space is now reserved for an ad hoc Teams meeting.
   
-    :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Home screen showing that meeting space is reserved for an ad hoc meeting":::
+    :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Home screen showing that meeting space is reserved for an ad hoc meeting.":::
 
     > [!NOTE]
     > If the meeting space is a Microsoft Teams Room, you can _join_ this Teams meeting with the in-room Microsoft Teams Room or Surface Hub devices.
@@ -180,7 +180,7 @@ To access the **Panels App Settings** option:
 5. Tap the **Panels App Settings** button on the right screen.
     The screen with the available **Panels App** settings is displayed.
 
-    :::image type="content" source="../media/panels-app-settings-screen.png" alt-text="This screenshot displays the screen with the available Panels app settings":::
+    :::image type="content" source="../media/panels-app-settings-screen.png" alt-text="This screenshot displays the screen with the available Panels app settings.":::
 
     Use this screen to update the following **Panels App** settings for your device:
 
@@ -194,7 +194,7 @@ Change the Home screen wallpaper image.
 1. [Access **Panels App Settings**](#access-panels-app-settings).
 2. Tap **Wallpapers**.
 3. From **Choose your image**, select an image to set as the Home screen background image. Preview the selected image under **Background**.
-:::image type="content" source="../media/panels-wallpapers-setting.png" alt-text="This screenshot displays the wallpaper settings screen":::
+:::image type="content" source="../media/panels-wallpapers-setting.png" alt-text="This screenshot displays the wallpaper settings screen.":::
 4. Go back to the Home screen and verify that the wallpaper is updated.
 
 #### Change the busy state LED color
@@ -204,7 +204,7 @@ Admins can choose either red or purple as the LED color to indicate that the mee
 1. [Access **Panels App Settings**](#access-panels-app-settings).
 2. Tap **LED Settings**.
 3. From **Choose your LED color**, select the desired color.
-:::image type="content" source="../media/panels-led-settings.png" alt-text="This screenshot displays the LED color busy state settings":::
+:::image type="content" source="../media/panels-led-settings.png" alt-text="This screenshot displays the LED color busy state settings.":::
 4. Go back to the Home screen and verify that the LED color for the busy state is updated. If the meeting space is currently available, try to schedule a test meeting to verify the change in LED color for the busy state.
 
 ## Frequently asked questions

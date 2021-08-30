@@ -15,7 +15,7 @@ ms.collection:
 audience: Admin
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 
@@ -51,7 +51,7 @@ Get one Audio Conferencing license for each person who will lead meetings. Use t
 2. Select **Microsoft 365 Audio Conferencing Adoption Promo** > **Details**, and then select **Get now**.
 3. Enter the number of licenses you need for your meeting organizers, and then complete your order.
 
-    :::image type="content" source="media/audio-conferencing-smb-add.png" alt-text="Screenshot of Audio Conferencing Adoption Promo license":::
+    :::image type="content" source="media/audio-conferencing-smb-add.png" alt-text="Screenshot of Audio Conferencing Adoption Promo license.":::
 
     > [!NOTE]
     > Clear or select the **Automatically assign to all of your users with no licenses**, depending on whether you want to automatically assign an Audio Conferencing license to all users who don't have this license.

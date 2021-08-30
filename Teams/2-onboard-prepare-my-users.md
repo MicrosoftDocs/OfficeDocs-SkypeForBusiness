@@ -12,7 +12,7 @@ ms.reviewer: rowille
 description: Create a plan to drive user adoption by defining your goals, understanding what acceptance looks like, and providing training and support.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
   - M365-collaboration
@@ -43,7 +43,7 @@ Setting your project vision enables your key stakeholders to see the big picture
 
 The following image is an example of a vision-to-value statement for a customer upgrading from Skype for Business to Teams.
 
-![Two-column table showing Vision and Value](media/prepare-my-users-new-image1.png "Two-column table with Vision - why are we doing this? (organization level) on the left, and Value - what's in it for me? (user level) on the right")
+![Two-column table showing Vision and Value.](media/prepare-my-users-new-image1.png "Two-column table with Vision - why are we doing this? (organization level) on the left, and Value - what's in it for me? (user level) on the right")
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Have you articulated the benefit and value to your users in a way that gains their buy-in for this new solution?</li></ul></td></tr>
@@ -123,7 +123,7 @@ For each persona group, discuss the following with your project team:
 
 The following image is an example of a persona table.
 
-![Values table listing persona details](media/prepare-my-users-image2.png "Table listing personas with their common roles, and communication and collaboration solution dependencies. The Executive persona is highlighted with details about the profile (day in the life), and the features, devices, and training an executive needs.")
+![Values table listing persona details.](media/prepare-my-users-image2.png "Table listing personas with their common roles, and communication and collaboration solution dependencies. The Executive persona is highlighted with details about the profile (day in the life), and the features, devices, and training an executive needs.")
 
 For each use case, discuss the following with your project team:
 
