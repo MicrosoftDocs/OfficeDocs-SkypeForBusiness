@@ -117,6 +117,39 @@ The Approvals app is available by default. You can disable the app in the Teams 
 
      ![shows the details for the Approvals app.](media/approvals-details.png)
 
+## Manage the Approvals app (NEW SECTION)
+
+### Enable or disable the Approvals app
+
+Approvals is enabled by default for all Teams users in your organization. You can turn off or turn on the app at the org level on the [Manage apps](manage-apps.md) page in the Microsoft Teams admin center.
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps** .
+2. Search for the Approvals app, and then select it.
+
+     ![shows the Admin center navigation with Teams Apps > Manage Apps highlighted.](media/manage-approval-apps.png)
+
+3. Do one of the following:
+
+    - To turn off Approvals for your organization, switch the toggle to **Block**.
+    - To turn on Approvals for your organization, switch the toggle to **Allowed**.
+
+### Enable or disable Approvals for specific users in your organization
+
+To allow or block specific users in your organization from using Approvals, make sure Approvals is turned on for your organization on the [Manage apps](manage-apps.md) page, and then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
+
+### Set the eSignature providers for approval requests
+
+You can control which eSignature providers your users can use to sign and share approval requests.
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps** .
+2. Search for the Approvals app, and then select it.
+3. Go to the **Settings** tab, and then do one or more of the following:
+
+    - To enable or disable Adobe Sign, switch to toggle to the **On** or **Off** position.
+    - To enable or disable DocuSign, switch the toggle to the **On** or **Off** position.
+
+4. Select **Submit**.
+
 ## Retention policy
 
 Approvals created from the Approvals App are stored in the default CDS environment, which doesn’t support backups at this time. Learn more about how to [Back up and restore environments - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
