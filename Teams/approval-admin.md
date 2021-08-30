@@ -94,7 +94,7 @@ Approval Template Permissions
 
 - All team owners can create an approval template for teams that they own.
 
-- When an Admin creates a template for their entire organization for the first time, it will automatically create a new Teams team for all admins of the tenant, including the global and Team’s service admins. These admins will be added as owners of the team, so they can co-manage organizational templates. Admins that are new to the organization after the team has been created need to be manually added as team owners so they have the same permissions to manage organization-wide templates.
+- When an admin creates a template for their entire organization for the first time, it will automatically create a new Teams team for all admins of the tenant, including the global and Teams service admins. These admins will be added as owners of the team, so they can co-manage organizational templates. Admins that are new to the organization after the team has been created need to be manually added as team owners so they have the same permissions to manage organization-wide templates.
 
 > [!Note]
 > If an admin deletes the team, you have one month to restore it within the Azure Active Directory (AAD) portal to restore all related data. After one month, or if the admin deletes this team within the recycle bin, you will lose all the related data.
@@ -137,7 +137,7 @@ Approvals is enabled by default for all Teams users in your organization. You ca
 
 To allow or block specific users in your organization from using Approvals, make sure Approvals is turned on for your organization on the [Manage apps](manage-apps.md) page, and then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
-### Set the eSignature providers for approval requests
+### Enable or disable eSignature providers for approval requests
 
 You can control which eSignature providers your users can use to sign and share approval requests.
 
@@ -145,14 +145,14 @@ You can control which eSignature providers your users can use to sign and share 
 2. Search for the Approvals app, and then select it.
 3. Go to the **Settings** tab, and then do one or more of the following:
 
-    - To enable or disable Adobe Sign, switch to toggle to the **On** or **Off** position.
-    - To enable or disable DocuSign, switch the toggle to the **On** or **Off** position.
+    - To enable or disable Adobe Sign, switch the toggle to **On** or **Off**.
+    - To enable or disable DocuSign, switch the toggle to **On** or **Off**.
 
 4. Select **Submit**.
 
 ## Retention policy
 
-Approvals created from the Approvals App are stored in the default CDS environment, which doesn’t support backups at this time. Learn more about how to [Back up and restore environments - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
+Approvals created from the Approvals app are stored in the default CDS environment, which doesn’t support backups at this time. Learn more about how to [Back up and restore environments - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
 
 Data stored in Forms will not be deleted until the team owners clean it up from the **deleted forms** tab in the Microsoft Forms web app.
 
