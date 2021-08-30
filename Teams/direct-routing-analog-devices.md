@@ -27,7 +27,7 @@ When a user makes a call from an analog device, the signaling and media flow thr
 In the following diagram, Direct Routing is configured so that any Teams calls to and from the numbers between +1425 4XX XX XX and +1425 5XX XX XX must take the red route (dotted line), and any PSTN call to and from numbers between +1425 4XX XX XX and any other number except number range +1425 5XX XX XX must take the blue route (solid line). 
 
 > [!div class="mx-imgBorder"]
-> ![Diagram showing Direct Routing configuration](media/direct-routing-analog-device.png)
+> ![Diagram showing Direct Routing configuration.](media/direct-routing-analog-device.png)
 
 ## Example:  How to configure the use of analog devices with Direct Routing
 
