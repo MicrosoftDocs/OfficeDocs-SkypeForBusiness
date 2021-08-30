@@ -56,7 +56,7 @@ To use the Approvals app, you need a license for Power Automate, and your accoun
 
 ## Storage with CDS
 
-The Common Data Model (CDM) is the shared data language used by business and analytical applications in the CDS. It consists of a set of a standardized, extensible data schemas published by Microsoft and our partners that enables consistency of data and its meaning across applications and business processes. Learn more about the [Common Data Model of the Microsoft Power Platform](/power-automate/get-started-approvals).
+The Common Data Model (CDM) is the shared data language used by business and analytical applications in the CDS. It consists of a set of a standardized, extensible data schemas published by Microsoft and our partners that enable consistency of data and its meaning across applications and business processes. Learn more about the [Common Data Model of the Microsoft Power Platform](/power-automate/get-started-approvals).
 
 Learn more about the [Approval workflow](/power-automate/modern-approvals).
 
@@ -139,7 +139,7 @@ To allow or block specific users in your organization from using Approvals, make
 
 ### Enable or disable eSignature providers for approval requests
 
-You can control which eSignature providers your users can use to sign and share approval requests.
+You can control which eSignature providers your users can use to sign and share approval requests.  When you disable an eSignature provider, your users won't have access to it when they create approvals. Your users also won't be able to view eSignature requests that were created using that provider.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps** .
 2. Search for the Approvals app, and then select it.
