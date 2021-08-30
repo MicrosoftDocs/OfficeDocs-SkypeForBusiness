@@ -304,7 +304,7 @@ Yes, the expiration date is set per file. Users can modify the expiration date i
 
 **How can an admin change the expiration date?**
   
-Admins will be able to change the default expiration setting in PowerShell (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) or the Teams Admin Center before the feature is released. **The setting is not yet available for modification**. We will publish an updated message center post when the setting is available for modification. When the feature launches, Admins can change this setting in the Teams admin center. Changing expiration settings will impact only newly created TMRs from that point forward. It will not impact any recordings made prior to that date. 
+Admins will be able to change the default expiration setting in PowerShell (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) or the Teams Admin Center before the feature is released. **The setting is not yet available for modification**. We will publish an updated message center post when the setting is available for modification. When the feature launches, admins can change this setting in the Teams admin center. Changing expiration settings will impact only newly created TMRs from that point forward. It will not impact any recordings made prior to that date. 
 
 The expiration days values can be set as follows:
   
