@@ -62,7 +62,7 @@ Pre-built templates (also called base template types) are special templates that
 
 ???CHECKTHIS-->: Once a base template type is defined, you can extend or override these special templates with more properties that you'd like to specify. Some base template types contain properties that can't be overridden.
 
-Here are the pre-built templates that are available in the Teams admin center. To view these templates, in the left navigation of the Teams admin center, go to **Manage Teams** > **Teams templates**.
+Here are the pre-built templates that are available in the Teams admin center. To view these templates, in the left navigation of the Teams admin center, go to * Teams** > **Team templates**.
 
 > [!NOTE]
 > You can duplicate but you can't edit these pre-built templates.
@@ -116,7 +116,7 @@ For more information, see [Limits and specifications of Teams](limits-specificat
 
 #### View team templates
 
-To view team templates, in the left navigation of the Teams admin center, go to **Manage Teams** > **Teams templates**. Select a template to see more details, including the channels and apps it contains.
+To view team templates, in the left navigation of the Teams admin center, go to **Teams** > **Team templates**. Select a template to see more details, including the channels and apps it contains.
 
 #### Create your own team templates
 
