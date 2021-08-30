@@ -41,13 +41,13 @@ When access is blocked, users will see an error message. Blocking access helps p
 
 3. In the **Unmanaged Devices** section,  select **Block Access** and select **Save**.
 
-   ![the Unmanaged devices section for Policies](media/no-sharepoint-access1.png)
+   ![the Unmanaged devices section for Policies.](media/no-sharepoint-access1.png)
 
 4. Open the [Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies) portal and navigate to **Conditional Access Policies**.
 
     You'll see a new policy has been created by SharePoint that's similar to this example:
 
-    ![a new policy that's named Use app-enforced Restrictions for browser access](media/no-sharepoint-access2.png)
+    ![a new policy that's named Use app-enforced Restrictions for browser access.](media/no-sharepoint-access2.png)
 
 5. Update the policy to target only specific users or a group.
 
