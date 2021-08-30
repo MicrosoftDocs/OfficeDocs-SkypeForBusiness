@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 - Hybrid 
 - M365-voice
@@ -115,7 +115,7 @@ To configure your deployment for hybrid with **Teams**, you need to have one of 
   - Lync Server 2013 and Skype for Business Server 2019
   - Lync Server 2013 and Skype for Business Server 2015
 
-*If hybrid voice is desired in any topology*, both the edge server that is designated as the Federation Edge as well as the pool associated with SIP federation must be running Skype for Business 2015 or later. Users can remain on a Lync 2013 Pool if one exists. For more details, see [Plan your voice solution](/MicrosoftTeams/cloud-voice-landing-page.md).
+*If hybrid voice is desired in any topology*, both the edge server that is designated as the Federation Edge as well as the pool associated with SIP federation must be running Skype for Business 2015 or later. Users can remain on a Lync 2013 Pool if one exists. For more details, see [Plan your voice solution](/MicrosoftTeams/cloud-voice-landing-page).
 
 > [!NOTE]
 > Lync Server 2010 is not supported with Teams.

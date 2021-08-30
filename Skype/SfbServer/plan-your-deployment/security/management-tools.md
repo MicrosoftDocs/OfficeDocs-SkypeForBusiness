@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6a285f7c-0ef5-4cab-9976-d03be276e35d
 description: "In Skype for Business Server, management tools are implemented using Windows PowerShell. Windows PowerShell includes a command-line environment, product-specific commands, and a full scripting language. Skype for Business Server tools that are implemented using Windows PowerShell include the following:"
 ---

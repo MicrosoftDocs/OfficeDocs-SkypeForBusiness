@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: ramesa
 audience: admin
 description: Learn about Microsoft Teams system memory usage, and why memory usage is the same between the desktop application and the web application.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
 - Teams_ITAdmin_PracticalGuidance

@@ -13,7 +13,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: "Learn how to add, change, or remove an emergency location for your organization in the Microsoft Teams admin center. "

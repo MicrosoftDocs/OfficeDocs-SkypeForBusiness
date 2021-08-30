@@ -8,7 +8,7 @@ audience: Admin
 ms.reviewer: 
 ms.service: msteams
 search.appverid: MET150
-localization_priority: Priority
+ms.localizationpriority: high
 description: "Upgrade users from a Teams Exploratory trial to a paid license."
 f1.keywords:
 - NOCSH

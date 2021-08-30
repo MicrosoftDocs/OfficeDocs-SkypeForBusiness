@@ -11,7 +11,7 @@ ms.reviewer: srividhc
 f1.keywords:
 - NOCSH
 description: This article explains how you can plan and set up Cloud Video Interop for users in your organization.
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
   - M365-collaboration

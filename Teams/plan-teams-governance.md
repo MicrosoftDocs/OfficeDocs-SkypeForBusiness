@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: rowille
 audience: admin
 description: In this article, you will learn about how to plan for implementing governance capabilities in Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -41,7 +41,7 @@ Your organization might require that you implement strict controls on how teams 
 > To help you plan ahead, [learn more about setting these policies and what licenses they require](/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings).
 > 
 > [!NOTE]
-> Limiting group and team creation can slow your users’ productivity, because many Microsoft 365 and Office 365 services require that groups be created for the service to function. For additional information, navigate to and expand [Why control who creates Microsoft 365 Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
+> Limiting group and team creation can slow your users’ productivity, because many Microsoft 365 and Office 365 services require that groups be created for the service to function. For additional information, visit [Plan for governance in Teams](/microsoft-365/solutions/manage-creation-of-groups).
 
 
 #### Additional information

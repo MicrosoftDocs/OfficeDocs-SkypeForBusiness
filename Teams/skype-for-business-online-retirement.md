@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: Learn about the retirement plan for Skype for Business Online, and how Microsoft is helping customers migrate to Teams. 
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
 - Teams_ITAdmin_JourneyFromSfB
