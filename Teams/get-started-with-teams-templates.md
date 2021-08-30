@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
-description: Learn how to use team templates in Microsoft Graph to create collaboration spaces with channels for different topics and preinstall apps to provide content and services.
+description: Learn how to use team templates in Microsoft Graph to create collaboration spaces with channels for different topics and preinstalled apps to provide content and services.
 f1.keywords:
 - CSH
 ms.custom: 
