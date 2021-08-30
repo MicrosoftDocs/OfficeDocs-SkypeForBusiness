@@ -153,7 +153,7 @@ Federation is required to enable Skype users to communicate with Skype for Busin
   
 Federation is required to enable Skype users to communicate with Skype for Business users in your organization. Public Instant Messaging Connectivity (PIC) is a class of federation, and it must be configured to enable your Skype for Business Server users to communicate with Skype users. Federation and PIC are configured by using the Edge configuration dialog of the Skype for Business Server Control Panel as shown in the figure.
   
-![Define New Edge Pool](../media/32d7f255-c6ad-426d-96c2-2ef4d81f3b51.png)
+![Define New Edge Pool.](../media/32d7f255-c6ad-426d-96c2-2ef4d81f3b51.png)
   
 > [!NOTE]
 > EnableSkypeIdRouting and EnableSkypeDirectorySearch attributes need to be set to true in the public provider settings (see later instructions) for Search to work. 
@@ -173,7 +173,7 @@ Using the Skype for Business Server Management Shell, an administrator must conf
   
 For new installations you can configure Skype Connectivity by enabling a Skype Public Provider using the Skype for Business Server Control Panel as shown in the figure.
   
-![SIP Federated Providers](../media/8fc7b566-72b5-4c43-961c-9249fdf7e575.png)
+![SIP Federated Providers.](../media/8fc7b566-72b5-4c43-961c-9249fdf7e575.png)
   
 > [!NOTE]
 > To configure Skype Connectivity when upgrading to Skype for Business Server you must remove and re-add the existing Skype public provider. 
