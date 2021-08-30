@@ -49,7 +49,7 @@ First, let's break down a few terms.
     
 So what this all means is we're in the process of moving all your Skype for Business Online users and service settings to another location that's closer to you. The closer the better. The good news is that after this short period of time, your Skype for Business Online service will improve.
   
-![Service Migration in Microsoft 365 or Office 365](../images/77502071-36fe-4833-a5ff-3b9ca7676542.png)
+![Service Migration in Microsoft 365 or Office 365.](../images/77502071-36fe-4833-a5ff-3b9ca7676542.png)
   
 ## What Skype for Business Online features will still work?
 

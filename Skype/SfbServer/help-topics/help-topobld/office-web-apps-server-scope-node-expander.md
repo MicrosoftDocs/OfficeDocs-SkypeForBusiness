@@ -25,7 +25,7 @@ You right click on **Office Web Apps Servers** in Topology Builder to perform th
     
 In addition to the New Office Web Apps Server option, you can perform the following general tasks:
   
-![Office WebApps Server Scope Node](../../media/OfficeWebApps_Server_Scope_Node.jpg)
+![Office WebApps Server Scope Node.](../../media/OfficeWebApps_Server_Scope_Node.jpg)
   
 - **Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.
     

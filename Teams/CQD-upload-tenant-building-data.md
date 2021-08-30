@@ -34,11 +34,11 @@ From the CQD Summary Reports dashboard, select **Tenant Data Upload** from the C
 
 1. Open CQD (from the Teams admin center, or at [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com)), then select the gear icon in the upper-right corner and choose **Tenant Data Upload** from the **Summary Reports** page.
 
-   ![Screenshot of dialog box that appears while data is being uploaded](media/qerguide-image-tenantdataupload.png)
+   ![Screenshot of dialog box that appears while data is being uploaded.](media/qerguide-image-tenantdataupload.png)
     
 2. Alternatively, if this is your first time visiting CQD, you'll be asked to upload building data. You can select **Upload Now** to quickly navigate to the **Tenant Data Upload** page.
 
-   ![Screenshot of  banner that notifies a user to upload building data](media/qerguide-image-buildingdatauploadbanner.png)
+   ![Screenshot of  banner that notifies a user to upload building data.](media/qerguide-image-buildingdatauploadbanner.png)
 
 3. On the **Tenant Data Upload** page, select **Browse** to choose a data file.
 
@@ -46,7 +46,7 @@ From the CQD Summary Reports dashboard, select **Tenant Data Upload** from the C
 
 5. After selecting **Start date**, select **Upload** to upload the file to CQD. <br><br>Before the file is uploaded, it's validated. If validation fails, an error message is displayed requesting that you correct the file. The following figure shows an error occurring when the number of columns in the data file is incorrect.
 
-   ![Example of dialog box displaying a building data upload error](media/qerguide-image-buildingdatauploaderror.png)
+   ![Example of dialog box displaying a building data upload error.](media/qerguide-image-buildingdatauploaderror.png)
  
 6. If no errors occur during validation, the file upload will succeed. You can then see the uploaded data file in the **My uploads** table, which shows the full list of all uploaded files for the current tenant at the bottom of that page.
 
@@ -141,11 +141,11 @@ The quality of experience (QoE) data that clients send to Microsoft 365 or Offic
 
 - Define a **Network Name** by entering "VPN" in this field for VPN subnets.
 
-  ![QCD report screenshot showing VPN using network name](media/qerguide-image-vpnnetworkname.png)
+  ![QCD report screenshot showing VPN using network name.](media/qerguide-image-vpnnetworkname.png)
 
 - Define a **Building Name** by entering "VPN" in this field for VPN subnets.
 
-  ![QCD report screenshot showing VPN using building name](media/qerguide-image-vpnbuildingname.png)
+  ![QCD report screenshot showing VPN using building name.](media/qerguide-image-vpnbuildingname.png)
 
 > [!NOTE]
 > VPN connections have been known to misidentify the network connection type as wired when the underlying connection is wireless. When looking at quality over VPN connections, you can't assume that the connection type has been accurately identified.

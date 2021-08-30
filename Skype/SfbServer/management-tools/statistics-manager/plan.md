@@ -117,7 +117,7 @@ In an on-premises deployment, a single server hosts all of the server-side Stati
 
 The following diagram shows an on-premises deployment, in which the Statistics Manager Website, Hub, Listener, and Redis caching system are hosted on a single machine. Statistics Manager is monitoring three Skype for Business servers, each of which have a single Agent transmitting data to the Listener. Users connect to a single Website to view all data aggregated by Statistics Manager:
 
-![Stats Manager On-premises deployment](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
+![Stats Manager On-premises deployment.](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
 
 ## Requirements
 <a name="BKMK_Requirements"> </a>
