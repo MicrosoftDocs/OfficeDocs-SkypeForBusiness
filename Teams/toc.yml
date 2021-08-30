@@ -1664,6 +1664,8 @@ items:
           href: alerts/teams-admin-alerts.md 
         - name: Teams device health monitoring
           href: alerts/device-health-status.md 
+        - name: Teams devices and peripherals
+          href: teams-device-health.md
         - name: Administrative unit functionality for device management
           href: administrative-unit.md
     - name: Teams PowerShell

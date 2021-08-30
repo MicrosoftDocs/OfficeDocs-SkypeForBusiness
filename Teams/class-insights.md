@@ -94,11 +94,11 @@ Both educators and education leaders can zoom in and see the data for individual
 * Search for **Insights** and select it.
 * A description screen will open. Click **Add**.
 
-:::image type="content" source="media/insights-add-personal-app.png" alt-text="Add Insights to Teams":::
+:::image type="content" source="media/insights-add-personal-app.png" alt-text="Add Insights to Teams.":::
 
 * Right click on the Insights icon and select **Pin**.
 
-:::image type="content" source="media/insights-pin-app.png" alt-text="Pin the Insights app":::
+:::image type="content" source="media/insights-pin-app.png" alt-text="Pin the Insights app.":::
 
 > [!TIP]
 > You can also locate the Insights app through this link: [https://aka.ms/addInsights](https://aka.ms/addInsights)
@@ -110,7 +110,7 @@ Insights supports learning communities throughout **the learning cycle**. With r
 *	**Discuss** findings with students and the school community to strengthen relationships, goal setting, self-review, spark collaboration, and improve outcomes.
 *	**Take Action** to develop interventions, provide feedback on growth areas, modify teaching strategies, and identify additional support required.
 
-:::image type="content" source="media/insights-learning-cycle.png" alt-text="Insights supports learning communities throughout the learning cycle":::
+:::image type="content" source="media/insights-learning-cycle.png" alt-text="Insights supports learning communities throughout the learning cycle.":::
 
 ## How Insights works?
 Insights produces powerful analytics to help educators deliver better learning outcomes. It does this by analyzing student activity within Teams and optionally leveraging the Student Information System (SIS) data that you provide to help contextualize and group that activity. 

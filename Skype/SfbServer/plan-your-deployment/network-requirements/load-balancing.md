@@ -154,7 +154,7 @@ The following diagram shows an example that includes both internal and external 
   
 **Edge network diagram using Public IPv4 addresses**
 
-![example of DNS network diagram](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
+![example of DNS network diagram.](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
   
 If you use DNS load balancing, you may also be able to purchase lower-cost hardware load balancers than if you used the hardware load balancers for all types of traffic. You should use load balancers that have passed interoperability qualification testing with Skype for Business Server. For details about load balancer interoperability testing, see [Lync Server 2010 Load Balancer Partners](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md). The content there applies to Skype for Business Server.
   

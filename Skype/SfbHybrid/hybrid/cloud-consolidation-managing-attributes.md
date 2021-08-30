@@ -52,7 +52,7 @@ If you want to make changes to a user’s sip address or to a user’s phone num
 
 - To modify a user’s phone number, modify `msRTCSIP-Line` *if it already has a value*.
 
-  ![Active Directory users and computers tool](../media/disable-hybrid-1.png)
+  ![Active Directory users and computers tool.](../media/disable-hybrid-1.png)
   
 -  If the user did not originally have a value for `msRTCSIP-Line` on-premises before the move, you can modify the phone number using the -`onpremLineUri` parameter in the [Set-CsUser cmdlet](/powershell/module/skype/set-csuser?view=skype-ps) in the Teams PowerShell module.
 

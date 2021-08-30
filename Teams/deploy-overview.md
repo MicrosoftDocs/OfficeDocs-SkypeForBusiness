@@ -27,7 +27,7 @@ Hi! Thanks for choosing Microsoft Teams. Whether you're a five-person law firm, 
 
 Because Teams supports such a wide array of organization types and starting points, there are several options for setting it up. To help you find the information you need, we've split up some articles into two audiences: **Small business** (fewer than 50 users) and **Medium/large business** (more than 50 users). When reading an article, choose the audience tab that best matches your organization. Here are what the tabs look like:
 
-:::image type="content" source="media/small-large-tabs-example.png" alt-text="Example showing small and large audience tabs that appear in some articles":::
+:::image type="content" source="media/small-large-tabs-example.png" alt-text="Example showing small and large audience tabs that appear in some articles.":::
 
 The following is a list of sections you can choose from in the **Get started** section and a short description of each.
 

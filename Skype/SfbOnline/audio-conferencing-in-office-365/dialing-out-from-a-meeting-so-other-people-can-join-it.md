@@ -47,7 +47,7 @@ In order to add other participants via dial-out to the meetings of your organiza
   
  **Step 2:** Enter the full phone number, including the country/region code in the box.
   
-![Dial-out phone number in Skype for Business](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
+![Dial-out phone number in Skype for Business.](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
   
 ## Supported countries and regions
 
