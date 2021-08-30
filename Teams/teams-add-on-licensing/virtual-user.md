@@ -29,7 +29,7 @@ Organizations with Phone System licensed users can assign either a free Microsof
 > [!TIP]
 > No license is needed for resource accounts that will be used with nested auto attendants or call queues that don't have a phone number assigned. See the following diagram for reference: 
 
-![Virtual User licenses](../media/resource-account.png)
+![Virtual User licenses.](../media/resource-account.png)
 
 ## Virtual User license allocation
 

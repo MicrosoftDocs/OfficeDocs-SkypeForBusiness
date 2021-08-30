@@ -38,8 +38,8 @@ We recommend rolling out Teams in stages, workload by workload, as your organiza
 - [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md)
 - [Cloud voice](cloud-voice-landing-page.md)
 
-> [!div class="mx-imgBorder"]
-> ![Diagram illustrating Teams deployment pathways](media/get-started-with-teams-quick-start-pathways.png)
+![Diagram illustrating Teams deployment pathways.](media/get-started-with-teams-quick-start-pathways.png)
+
 
 If you have a medium or large organization, [use Advisor for Teams to help you roll out Microsoft Teams](use-advisor-teams-roll-out.md) to help you plan the rollout of these workloads across your organization. The Advisor uses Teams itself to create a plan tasks and assign them to owners, share documents, and enable discussions amongst your deployment team.
 

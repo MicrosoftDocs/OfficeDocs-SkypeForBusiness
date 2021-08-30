@@ -41,7 +41,7 @@ Your organization might require that you implement strict controls on how teams 
 > To help you plan ahead, [learn more about setting these policies and what licenses they require](/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings).
 > 
 > [!NOTE]
-> Limiting group and team creation can slow your users’ productivity, because many Microsoft 365 and Office 365 services require that groups be created for the service to function. For additional information, navigate to and expand [Why control who creates Microsoft 365 Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
+> Limiting group and team creation can slow your users’ productivity, because many Microsoft 365 and Office 365 services require that groups be created for the service to function. For additional information, visit [Plan for governance in Teams](/microsoft-365/solutions/manage-creation-of-groups).
 
 
 #### Additional information
@@ -64,8 +64,8 @@ Your organization might have additional requirements for setting policies for ex
 
 |-          |-           |
 |-----------|------------|
-| ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Does your organization require specifying an expiration date for teams?</li><li>Does your organization require specific data retention policies be applied to teams?</li><li>Does your organization expect to require the ability to archive inactive teams to preserve the content in a read-only state?</li></ul>|
-| ![An icon depicting the next steps](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Document your organization’s requirements for team expiration, data retention, and archiving.</li><li>Plan to implement these requirements as part of your Teams rollout.</li><li>Communicate and publish your policies to inform Teams users of the behavior they can expect.</li></ul>|
+| ![An icon depicting decision points.](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Does your organization require specifying an expiration date for teams?</li><li>Does your organization require specific data retention policies be applied to teams?</li><li>Does your organization expect to require the ability to archive inactive teams to preserve the content in a read-only state?</li></ul>|
+| ![An icon depicting the next steps.](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Document your organization’s requirements for team expiration, data retention, and archiving.</li><li>Plan to implement these requirements as part of your Teams rollout.</li><li>Communicate and publish your policies to inform Teams users of the behavior they can expect.</li></ul>|
 
 > [!TIP]
 > Use the following table to capture your organization’s requirements.
@@ -125,8 +125,8 @@ Another important aspect of governance and lifecycle management for Teams is the
 
 |-        |-        |
 |---------|---------|
-| ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Does your organization require limiting Teams features for your entire tenant?</li><li>Does your organization require limiting Teams features for specific users?</li></ul>|
-| ![An icon depicting the next steps](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Document your organization’s requirements for limiting Teams features at the tenant and user level.</li><li>Plan to implement your specific requirements as part of your Teams rollout.</li><li>Communicate and publish your policies to inform Teams users of the behavior they can expect.</li></ul>|
+| ![An icon depicting decision points.](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Does your organization require limiting Teams features for your entire tenant?</li><li>Does your organization require limiting Teams features for specific users?</li></ul>|
+| ![An icon depicting the next steps.](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Document your organization’s requirements for limiting Teams features at the tenant and user level.</li><li>Plan to implement your specific requirements as part of your Teams rollout.</li><li>Communicate and publish your policies to inform Teams users of the behavior they can expect.</li></ul>|
 
 ### Teams feature management focus areas
 
