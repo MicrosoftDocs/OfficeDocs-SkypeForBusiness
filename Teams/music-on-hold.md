@@ -28,7 +28,7 @@ Note that PSTN callers can listen to Music On Hold in other scenarios as well; f
 
 To configure Music On Hold:
 
-1.	In the left navigation of the Microsoft Teams admin center, go to **Voice > Calling policies**.
+1.	In the left navigation of the Teams admin center, go to **Voice > Calling policies**.
 
 2.	On the **Manage policies** tab select one of the existing policies or create a new one.
 
@@ -95,9 +95,9 @@ To remove an uploaded audio file, use the Remove-CsOnlineAudioFile cmdlet. Befor
 
 - Music On Hold is only available when the user is in Teams Only deployment mode.
 
-- Music On Hold is not available, when the Microsoft Teams user does consultative transfer.
+- Music On Hold is not available, when the Teams user does consultative transfer.
 
-- If the called Microsoft Teams user is enabled for Location Based Routing, the Music On Hold cannot be played to the caller.
+- If the called Teams user is enabled for Location Based Routing, the Music On Hold cannot be played to the caller.
 
 -	Music On Hold will only be played to PSTN callers.
 
@@ -109,7 +109,7 @@ To remove an uploaded audio file, use the Remove-CsOnlineAudioFile cmdlet. Befor
   -	Microsoft Teams on the web
   -	Microsoft Teams for iOS
   - Microsoft Teams for Android
-  - You can’t export the audio file after it has been uploaded, you can only remove it.
+  - You can’t export the audio file after it has been uploaded; you can only remove it.
 
 ## Related topics
 
