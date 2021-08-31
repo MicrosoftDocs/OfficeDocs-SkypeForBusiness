@@ -59,12 +59,12 @@ $servicePrincipal = Get-AzureADServicePrincipal -Filter "appId eq '$appId'"
 if ($servicePrincipal) {
     # Service principal exists already, disable it
     Set-AzureADServicePrincipal -ObjectId $servicePrincipal.ObjectId -AccountEnabled $false
-    Write-Host "Disabled existing Service Principal \n"
+    Write-Host "Disabled existing Service Principal `n"
 } else {
     # Service principal does not yet exist, create it and disable it at the same time
-    New-AzureADServicePrincipal -AppId $appId -DisplayName $displayName
-    $servicePrincipal = New-AzureADServicePrincipal -AppId $appId -DisplayName $displayName -AccountEnabled $false
-    Write-Host "Created and disabled the Service Principal \n"
+    $servicePrincipal=New-AzureADServicePrincipal -AppId $appId -DisplayName $displayName
+    Set-AzureADServicePrincipal -ObjectId $servicePrincipal.ObjectId -AccountEnabled $false
+    Write-Host "Created and disabled the Service Principal `n"
 }
 ```
 
