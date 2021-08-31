@@ -101,12 +101,13 @@ To remove an uploaded audio file, use the Remove-CsOnlineAudioFile cmdlet. Befor
 -	Music On Hold is only available in commercial cloud.
 
 -	Music On Hold is only available when the Teams user called is using one of the following versions of the Teams client:
-  -	Microsoft Teams for Windows
-  -	Microsoft Teams for Mac
-  -	Microsoft Teams on the web
-  -	Microsoft Teams for iOS
-  - Microsoft Teams for Android
-  - You can’t export the audio file after it has been uploaded; you can only remove it.
+    -	Microsoft Teams for Windows
+    -	Microsoft Teams for Mac
+    -	Microsoft Teams on the web
+    -	Microsoft Teams for iOS
+    - Microsoft Teams for Android
+<br>
+- You can’t export the audio file after it has been uploaded; you can only remove it.
 
 ## Related topics
 
