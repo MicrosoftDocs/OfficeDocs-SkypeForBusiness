@@ -78,8 +78,8 @@ Once your test passes successfully, select **Submit** to save your changes. Once
 
 - **Severity**: The severity field in ServiceNow is used to organize incidents by priority. The values that designate priority are customizable. Severity is equivalent to the Ring field in the Teams Rooms Premium portal. To customize rings in the Teams Rooms Premium portal, go to **Updates** in the left navigation menu. Then go to the **Rings** tab and select **Add ring**.
 
-- **Comments**: Comments is an optional field in ServiceNow that is used to include custom required fields from your ServiceNow instance in your Teams Rooms Premium portal configuration.
+- **Comments**: Comments is an optional field in ServiceNow that is used to include custom required fields from your ServiceNow instance in your Teams Rooms Premium portal configuration. The equivalent of comments is a custom value in the Teams Rooms Premium portal.
 
-- **state (resolved)**: The state (resolved) field in ServiceNow is used to designate how an incident was resolved and is required to close an incident. The state (resolved) value is customizable. State (resolved) is a custom value in the Teams Rooms Premium portal.
+- **state (resolved)**: The state (resolved) field in ServiceNow is used to designate how an incident was resolved and is required to close an incident. The state (resolved) value is customizable. The equivalent of state (resolved) is a custom value in the Teams Rooms Premium portal.
 
-- **close_code**: A close code must be assigned to an incident once it's completely resolved. This value is customizable in ServiceNow. Close code is a custom value in the Teams Rooms Premium portal.
+- **close_code**: A close code must be assigned to an incident once it's completely resolved. This value is customizable in ServiceNow. The equivalent of close code is a custom value in the Teams Rooms Premium portal.
