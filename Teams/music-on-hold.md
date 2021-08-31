@@ -43,12 +43,11 @@ If a Teams user has a Teams Calling Policy with Music on Hold set to Disabled, t
 > [!NOTE]
 > This feature is available as a Public Preview release.
 
-In addition to playing default music to PSTN callers, you can also upload a custom audio file with music or other audio content and configure that audio file to be played to the PSTN caller.
-
-For example a department or organization might want to play a custom announcement or custom music when external PSTN callers are put on hold by Teams users.  
+In addition to playing default music to PSTN callers, you can upload a custom audio file with music or other audio content and configure that audio file to be played to the PSTN caller.
+For example a department or organization might want to play a custom announcement or custom music when external PSTN callers are put on hold.  
 
 > [!NOTE]
-> You are responsible for independently clearing and securing all necessary rights and permissions to use any music or audio file with your Microsoft Teams service, which may include intellectual property and other rights in any music, sound effects, audio, brands, names, and other content in the audio file from all relevant rights holders, which may include artists, actors, performers, musicians, songwriters, composers, record labels, music publishers, unions, guilds, rights societies, collective management organizations and any other parties who own, control or license the music copyrights, sound effects, audio and other intellectual property rights.
+> You are responsible for independently clearing and securing all necessary rights and permissions to use any music or audio file with your Microsoft Teams service. This may include intellectual property and other rights in any music, sound effects, audio, brands, names, and other content in the audio file from all relevant rights holders. Holders may include artists, actors, performers, musicians, songwriters, composers, record labels, music publishers, unions, guilds, rights societies, collective management organizations, and any other parties who own, control or license the music copyrights, sound effects, audio and other intellectual property rights.
 
 To configure custom Music On Hold, use the PowerShell cmdlets New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy and Import/Get/Remove-CsOnlineAudioFile in Teams PowerShell module 2.5.0 or later.
 
@@ -75,13 +74,13 @@ ApplicationId : TenantGlobal
 
 ### Reference the audio file in a Teams Call Hold Policy
 
-After you have uploaded the audio file you need to reference the file in a Teams Call Hold Policy. You do that by using the Id of the file, when you create or set a Teams Call Hold Policy. An example of this is below:
+After you have uploaded the audio file, you need to reference the file in a Teams Call Hold Policy by using the Id of the file when you create or set a Teams Call Hold Policy. For example:
 
 ```PowerShell
 C:\> New-CsTeamsCallHoldPolicy -Identity "CustomMoH1" -Description "Custom MoH using CustomMoH1.mp3" -AudioFileId $AudioFile.Id
 ```
 
-After you have created the new Teams Call Hold Policy you can then grant it to your users using Grant-CsTeamsCallHoldPolicy
+After you have created the new Teams Call Hold Policy, you can grant it to your users using Grant-CsTeamsCallHoldPolicy as follows:
 
 ```PowerShell
 C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contoso.com
@@ -93,13 +92,11 @@ To remove an uploaded audio file, use the Remove-CsOnlineAudioFile cmdlet. Befor
 
 ## Restrictions
 
-- Music On Hold is only available when the user is in Teams Only deployment mode.
+- Music On Hold is only available when the user is in Teams Only mode.
 
-- Music On Hold is not available, when the Teams user does consultative transfer.
+- Music On Hold is not available when the Teams user does consultative transfer.
 
-- If the called Teams user is enabled for Location Based Routing, the Music On Hold cannot be played to the caller.
-
--	Music On Hold will only be played to PSTN callers.
+- If the called Teams user is enabled for Location-Based Routing, Music On Hold cannot be played to the caller.
 
 -	Music On Hold is only available in commercial cloud.
 
