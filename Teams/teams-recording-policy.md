@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: abybee
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn about Teams Policy-based Recording for Calling & Meetings
 f1.keywords:
@@ -139,7 +139,7 @@ Compliance recording solutions are integrated with Teams as
 shown in the following diagram:
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing the team custom app setting](media/hp-compliance-recording-for-teams-calling-and-meetings.jpg "The images shows the flow when a Teams meeting or call is sent and received.")
+> ![Screenshot showing the team custom app setting.](media/hp-compliance-recording-for-teams-calling-and-meetings.jpg "The images shows the flow when a Teams meeting or call is sent and received.")
 
 ## Recorder
 

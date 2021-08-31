@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddFrontEndFeaturesPage2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d0bf5b86-51dc-41d4-aa61-303f81e05c66
 description: "Select each feature that you want to enable for the Front End pool. At a minimum, you must deploy instant messaging (IM), which is always enabled and cannot be deselected. You also have the option of deploying other features, such as conferencing, Enterprise Voice, and call admission control (CAC). Some features are dependent on your topology."
 ---

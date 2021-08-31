@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.HybridMoveUser
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: be38b89c-3e8e-4d40-af49-fb650785d9a3
 description: "Use the Move Users wizard to move user accounts homed on an on-premises pool to be homed on Skype for Business Online. For more information, see Use the Hybrid Manageability wizard."
 ---

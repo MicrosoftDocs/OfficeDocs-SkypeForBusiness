@@ -13,7 +13,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "You configure one or more external user access policies to control whether remote users can collaborate with internal Skype for Business Server users. To control remote user access, you can configure policies at the global, site, and user level."
 ---
 

@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Learn about Tenant Administration control for voice recognition (voice profile) in Teams meeting rooms.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection: 
@@ -57,11 +57,11 @@ An Intelligent Speaker should be placed at least 8 inches (20 cm) away from wall
 
    The diagram shows how the Intelligent Speaker is connected to the device if the device includes a data box.
 
-   ![The Intelligent Speaker setup with the speaker, the power and data box. One line goes to the USB port of the console, and the other line goes to power. ](../media/intelligent-speakers1.png)
+   ![The Intelligent Speaker setup with the speaker, the power and data box.One line goes to the USB port of the console, and the other line goes to power.](../media/intelligent-speakers1.png)
 
    The diagram shows how the Intelligent Speaker is connected to the device if the device doesn't include a data box.
 
-   ![The Intelligent Speaker setup with the speaker connecting directly to the console. ](../media/intelligent-speakers2.png)
+   ![The Intelligent Speaker setup with the speaker connecting directly to the console.](../media/intelligent-speakers2.png)
 
 > [!Note]
 > EPOS and Yealink devices should have "EPOS" or "Yealink" prefix and contain "UAC2_RENDER" in the speaker name and "UAC2_TEAMS" in the microphone name. If you don't find these microphone and speaker names in the dropdown menu, restart the Intelligent Speaker device.
@@ -83,7 +83,7 @@ The following are the required policies to set an Intelligent Speaker and user r
 
 In the Teams admin center, set the **Allow transcription** policy. Settings are **Off** by default.
 
-![the admin center with meeting policies highlighted and Allow transcription selected](../media/allow-transcription1.png)
+![the admin center with meeting policies highlighted and Allow transcription selected.](../media/allow-transcription1.png)
 
 ## Frequently asked questions (FAQ)
 

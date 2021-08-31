@@ -12,7 +12,7 @@ audience: Admin
 appliesto:
 - Lync Server
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:

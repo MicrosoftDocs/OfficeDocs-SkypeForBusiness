@@ -9,7 +9,7 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
 description: "Summary: Learn how to install and test Skype for Business on your Windows Phone."
 ---
@@ -71,7 +71,7 @@ After you configure the client and sign in successfully, use the following tests
 
 1. In the Contacts list, tap a contact.
     
-2. In the contact card, tap the instant messaging (IM) ![Icon for instant messaging in Skype for Business](../../media/90f8d5fa-7968-4ef7-bf5b-dddf9b893905.png)icon.
+2. In the contact card, tap the instant messaging (IM) ![Icon for instant messaging in Skype for Business.](../../media/90f8d5fa-7968-4ef7-bf5b-dddf9b893905.png)icon.
     
 3. Verify that an IM window appears and that you can type and send an IM.
     

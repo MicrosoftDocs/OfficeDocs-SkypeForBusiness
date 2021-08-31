@@ -15,7 +15,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business 
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -39,7 +39,7 @@ As a Microsoft 365 or Office 365 admin, you can edit the Audio Conferencing sett
     
 3. In the Skype for Business admin center, choose **Users**.
     
-4. Select the user for whom you want to manage settings, and then in the Action pane, click **Edit**![Shows the Edit icon](../images/4d8bea48-be68-4e0e-a54c-73decf7ea4ec.png).
+4. Select the user for whom you want to manage settings, and then in the Action pane, click **Edit**![Shows the Edit icon.](../images/4d8bea48-be68-4e0e-a54c-73decf7ea4ec.png).
     
 5. Choose **Audio conferencing** in the left navigation, and then on the **Properties** page for the user, modify any of the following:
     
@@ -55,7 +55,7 @@ As a Microsoft 365 or Office 365 admin, you can edit the Audio Conferencing sett
 |**Allow unauthenticated callers to be the first people in a meeting** <br/> |Select this option to allow unauthenticated callers to be the first to join meetings.  <br/> |
 |**Restrictions to dial-outs from meetings of this user** <br/> |Select an option in this list if you want to restrict dial-outs to domestic only, or if you want to prevent all dial-outs from meetings.  <br/> |
   
-![Shows the Audio Conferencing Properties page for a user](../images/228550f7-92be-416d-9ab1-7c2ef54dd4e6.png)
+![Shows the Audio Conferencing Properties page for a user.](../images/228550f7-92be-416d-9ab1-7c2ef54dd4e6.png)
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]

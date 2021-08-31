@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceRouteRegexEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fc0fd40d-77b0-40c1-94f4-1026f70bcf30
 description: "Type a .NET Framework regular expression to specify the matching pattern for destination phone numbers to which the route is applied."
 ---

@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: serdars
 description: Learn how to onboard early adopters to the first set of teams and channels that you created in Microsoft Teams.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH

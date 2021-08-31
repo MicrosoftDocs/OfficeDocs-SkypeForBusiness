@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: In this article, you will learn about how to conduct the experimental phase of Microsoft Teams adoption. 
 f1.keywords:
@@ -37,4 +37,4 @@ You will complete the following steps in this phase:
 5. [Set up your feedback channels](teams-adoption-onboard-early-adopters.md#gather-feedback).
 6. [Bring your support staff on board](teams-adoption-onboard-support.md).
 
-![An icon representing the next step](media/teams-adoption-next-icon.png) Next: [Create your champions program](teams-adoption-create-champions-program.md)
+![An icon representing the next step.](media/teams-adoption-next-icon.png) Next: [Create your champions program](teams-adoption-create-champions-program.md)

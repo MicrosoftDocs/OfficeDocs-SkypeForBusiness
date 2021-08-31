@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: daro
 audience: admin
 description: Guidance for IT pros to drive Microsoft 365 deployments in entities that handle data subject to US government regulation
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -61,7 +61,7 @@ The [Microsoft 365 US Government service description](/office365/servicedescript
 
 |    |     |
 |-----------|------------|
-| ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide whether Microsoft 365 Government - GCC is appropriate for your organization.</li><li>Confirm that your organization meets eligibility requirements.</li></ul> |
+| ![An icon depicting decision points.](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide whether Microsoft 365 Government - GCC is appropriate for your organization.</li><li>Confirm that your organization meets eligibility requirements.</li></ul> |
 
 > [!Note]
 > Microsoft 365 Government - GCC is only available in the United States. Non–US Government customers can choose from a number of [Microsoft 365 Government plans](https://products.office.com/en/government/compare-office-365-government-plans).
@@ -77,7 +77,7 @@ We recommend that you take time to carefully review your [admin and security set
 
 |    |     |
 |-----------|------------|
-| ![An icon depicting a decision point](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Decide whether you'll modify any of the default Microsoft 365 Government - GCC security settings, resolving to first understand the impact of any changes you might make.</li></ul> |
+| ![An icon depicting a decision point.](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Decide whether you'll modify any of the default Microsoft 365 Government - GCC security settings, resolving to first understand the impact of any changes you might make.</li></ul> |
 
 ## Step 4. Understand which capabilities are currently unavailable or disabled by default.
 
@@ -91,7 +91,7 @@ To accommodate the requirements of our government cloud customers, there are som
 
 |    |     |
 |-----------|------------|
-| ![An icon depicting a decision point](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Decide whether the Teams feature set meets your organization's needs.</li></ul> |
+| ![An icon depicting a decision point.](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Decide whether the Teams feature set meets your organization's needs.</li></ul> |
 
 ## Step 5. Plan for governance
 
@@ -99,7 +99,7 @@ Determine your requirements for governance and how you can meet them. Go to [Pla
 
 |    |     |
 |-----------|------------|
-| ![An icon depicting a decision point](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Determine and document your governance requirements, following the guidelines in [Plan for governance in Teams](plan-teams-governance.md).</li></ul> |
+| ![An icon depicting a decision point.](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Determine and document your governance requirements, following the guidelines in [Plan for governance in Teams](plan-teams-governance.md).</li></ul> |
 
 ## Step 6. Deploy Teams for collaboration
 

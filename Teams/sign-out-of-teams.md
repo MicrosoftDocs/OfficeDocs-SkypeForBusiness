@@ -10,7 +10,7 @@ search.appverid: MET150
 ms.reviewer: sbhatta
 description: Learn how to sign out of Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
   - M365-collaboration
 f1.keywords:

@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua, shalenc
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -62,11 +62,11 @@ This setting is a per-user policy. This setting controls whether the user can gi
 
 If this setting is turned on for the user, the **Give Control** option is displayed in the top bar in a sharing session.
 
-![Screenshot showing the Give Control option](media/meeting-policies-give-control.png)
+![Screenshot showing the Give Control option.](media/meeting-policies-give-control.png)
 
 If the setting is turned off for the user, the **Give Control** option isn't available.
 
-![Screenshot showing that the Give Control option is not available](media/meeting-policies-give-control-not-available.png)
+![Screenshot showing that the Give Control option is not available.](media/meeting-policies-give-control-not-available.png)
 
 Let's look at the following example.
 

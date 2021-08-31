@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: rowille
 audience: admin
 description: Use templates to send emails to users as you implement cloud voice capabilities in Teams or Skype for Business.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
