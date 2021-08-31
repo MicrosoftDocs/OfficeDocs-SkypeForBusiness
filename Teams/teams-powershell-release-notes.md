@@ -56,6 +56,6 @@ This page provides the latest Teams PowerShell change log for both General Avail
 
 [Managing Teams with Teams PowerShell](teams-powershell-managing-teams.md)
 
-[Microsoft Teams cmdlet reference](/powershell/teams/?view=teams-ps)
+[Microsoft Teams cmdlet reference](/powershell/teams/)
 
-[Skype for Business cmdlet reference](/powershell/skype/intro?view=skype-ps)
+[Skype for Business cmdlet reference](/powershell/skype/intro)
