@@ -65,7 +65,7 @@ The following tables show the differences between using external access (federat
 | Share files | No | Yes |
 | See the out-of-office message of someone in another organization | No | Yes |
 | Block someone in another organization  | No | Yes |
-| Use @mentions | Yes<sup>3</sup> | Yes |
+| Use @mentions | Yes<sup>3</sup> | Yes<sup>6</sup> |
 
 ### Things people outside your organization can do
 
@@ -85,7 +85,7 @@ The following tables show the differences between using external access (federat
 | Use memes in conversation | Yes<sup>3</sup> | Yes<sup>5</sup> |
 | Use stickers in conversation | Yes<sup>3</sup> | Yes<sup>5</sup> |
 | Presence is displayed | Yes | Yes |
-| Use @mentions | Yes<sup>3</sup> | Yes |
+| Use @mentions | Yes<sup>3</sup> | Yes<sup>6</sub> |
 
 <br>
 
@@ -94,6 +94,7 @@ The following tables show the differences between using external access (federat
 <sup>3</sup> Supported for 1:1 chat for Teams Only to Teams Only users from two different organizations. <br>
 <sup>4</sup> By default, external participants can't see the phone numbers of dialed-in participants. If you want to maintain the privacy of these phone numbers, select **Tones** for **Entry/exit announcement type** (this prevents the numbers from being read out by Teams). To learn more, read [Turn on or off entry and exit announcements for meetings in Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md). <br>
 <sup>5</sup> Allowed by default, but can be turned off by the Teams admin
+<sup>6</sup> Cross-tenant unread message count and at-mention notifications are updated about once per hour in the Teams desktop and web clients. 
 
 ## Related topics
 
