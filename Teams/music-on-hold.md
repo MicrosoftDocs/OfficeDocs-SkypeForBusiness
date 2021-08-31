@@ -1,6 +1,7 @@
 ---
 title: Music on Hold
 author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -112,13 +113,13 @@ To remove an uploaded audio file, use the Remove-CsOnlineAudioFile cmdlet. Befor
 
 ## Related topics
 
-[Assign polcies to users](assign-policies.md)
+- [Assign polcies to users](assign-policies.md)
 
-[Get-CsTeamsCallingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/get-csteamscallingpolicy)
+- [Get-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamscallingpolicy)
 
-[Set-CsTeamsCallingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamscallingpolicy)
+- [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy)
 
-[Import-CsOnlineAudioFile](https://docs.microsoft.com/en-us/powershell/module/skype/import-csonlineaudiofile?view=skype-ps)
+- [Import-CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csonlineaudiofile?view=skype-ps)
 
 
 
