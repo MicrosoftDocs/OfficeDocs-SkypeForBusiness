@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.SimpleUrlSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 description: "To specify new, remove existing, or to change the active the simple URLs, do the following:"
 ---

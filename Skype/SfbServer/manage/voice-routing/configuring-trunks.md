@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "As part of Enterprise Voice deployment, you can configure a trunk between a Mediation Server and one or more peers to provide public switched telephone network (PSTN) connectivity for Enterprise Voice clients and devices in your organization."
 ---
 

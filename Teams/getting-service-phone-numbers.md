@@ -15,7 +15,7 @@ ms.collection:
 audience: Admin
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 
@@ -44,7 +44,7 @@ There are three ways to get service numbers:
   
 ## Get new service numbers
 
-![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+![An icon showing the Microsoft Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
 1. In the left navigation, go to **Voice** > **Phone numbers**, and then click **Add**.
 2. Enter a name for the order and add a description.
@@ -68,7 +68,7 @@ If your country or region isn't listed in the porting wizard, you can [manually 
 
 ## View the phone numbers for your organization
 
-![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center** 
+![An icon showing the Microsoft Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center** 
 
 In the left navigation, go to **Voice** > **Phone numbers** to view the numbers for your organization, including location, number type, and status information.
 

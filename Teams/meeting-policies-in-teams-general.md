@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua, shalenc
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -42,13 +42,13 @@ This article describes the following general policy settings for Teams meetings:
 
 This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad hoc meeting in a Teams channel. If you turn this on, users can click the **Meet** button to start an ad hoc meeting or schedule a meeting in the channel. The default value is True.
 
-[ ![Screenshot showing the Meet now icon below a message](media/meeting-policies-meet-now.png) ](media/meeting-policies-meet-now.png#lightbox)
+[ ![Screenshot showing the Meet now icon below a message.](media/meeting-policies-meet-now.png) ](media/meeting-policies-meet-now.png#lightbox)
 
 ## Allow the Outlook add-in
 
 This is a per-user policy and applies before a meeting starts. This setting controls whether Teams meetings can be scheduled from within Outlook (Windows, Mac, web, and mobile).
 
-![Screenshot showing the ability to schedule a new meeting](media/meeting-policies-outlook-add-in.png)
+![Screenshot showing the ability to schedule a new meeting.](media/meeting-policies-outlook-add-in.png)
 
 If you turn this off, users are unable to schedule Teams meetings when they create a new meeting in Outlook. For example, in Outlook on Windows, the **New Teams Meeting** option won't show up in the ribbon.
 
@@ -60,7 +60,7 @@ If this policy is turned off, users will not be able to create new channel meeti
 
 Schedule a meeting will be disabled.
 
-![Screenshot showing the Schedule a meeting option in Teams](media/schedule-meeting-option.png)
+![Screenshot showing the Schedule a meeting option in Teams.](media/schedule-meeting-option.png)
 
 Channel selection is disabled.
 

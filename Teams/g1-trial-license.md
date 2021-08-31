@@ -8,7 +8,7 @@ audience: Admin
 ms.reviewer: aarimm
 ms.service: msteams
 search.appverid: MET150
-localization_priority: Priority
+ms.localizationpriority: high
 description: "For US government, if you don't have Microsoft Teams and need it in a hurry, roll out the Office 365 G1 Trial for your users who need to work remotely or from home (WFH) in response to the COVID-19 (coronavirus) outbreak."
 ms.collection: 
   - M365-collaboration

@@ -16,7 +16,7 @@ f1keywords:
 description: Learn how to manage your Teams apps on the Manage apps page of the Microsoft Teams admin center
 appliesto: 
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 # Manage your apps in the Microsoft Teams admin center
 
@@ -33,11 +33,11 @@ In the left navigation of the Microsoft Teams admin center, go to **Teams apps**
 
 You can view every app including the following information about each app.
 
-![Screenshot of the Managed apps page](media/manage-apps.png)
+![Screenshot of the Managed apps page.](media/manage-apps.png)
 
 - **Name**: The app name. Select the app name to go to the app details page to see more information about the app. This includes a description of the app, whether it's allowed or blocked, version, privacy policy, terms of use, categories that apply to the app, certification status, supported capabilities, and app ID. Here's an example:
 
-  ![Screenshot of the apps details page for an app](media/manage-apps-app-details.png)
+  ![Screenshot of the apps details page for an app.](media/manage-apps-app-details.png)
   
 - **Certification**: If the app has gone through certification, you'll see either **Microsoft 365 certified** or **Publisher attestation**. Select the link to view certification details for the app. If you see "**--**", we don't have certification information for the app. To learn more about certified apps in Teams, read [Microsoft 365 App Certification program](/teams-app-certification/all-apps).  
 - **Publisher**: Name of the publisher.
@@ -101,7 +101,7 @@ When you block or allow an app on the Manage apps page, that app is blocked or a
 
 You use the **Add to team** button to install an app to a team. Keep in mind that this is only for apps that can be installed in a team scope. The **Add to team** button isn't available for apps that can only be installed in the personal scope.
 
-![Screenshot of Add to team button](media/manage-apps-add-app-team.png)
+![Screenshot of Add to team button.](media/manage-apps-add-app-team.png)
 
 1. Search for the app you want, and then select the app by clicking to the left of the app name.
 2. Select **Add to team**.
@@ -132,7 +132,7 @@ Use org-wide app settings to control whether users can install third-party apps 
 
 1. On the Manage apps page, select **Org-wide app settings**. You can then configure the settings you want in the panel.
 
-    ![Screenshot of org-wide app settings](media/manage-apps-org-wide-app-settings.png)
+    ![Screenshot of org-wide app settings.](media/manage-apps-org-wide-app-settings.png)
 
 2. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps:
 
@@ -163,7 +163,7 @@ To access MCAS information, follow these steps:
 1. Choose a Microsoft 365 Certified app.
 1. Select the **Security and compliance** tab.
 
-![Screenshot of Teams admin center security and compliance tab](media/mcas.png)
+![Screenshot of Teams admin center security and compliance tab.](media/mcas.png)
 
 On this tab, you'll find information on security, compliance, and data protection. You can also expand each dropdown list to get more details about which capabilities are supported for the selected application.
 

@@ -11,7 +11,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.FileStoreSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4d316ae0-2a37-48b0-a3dc-468616ab4135
 ROBOTS: NOINDEX, NOFOLLOW
 description: "To edit the properties of the defined file stores:"

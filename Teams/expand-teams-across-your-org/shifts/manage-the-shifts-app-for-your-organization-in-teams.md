@@ -14,7 +14,7 @@ searchScope:
 description: Learn how to set up and manage the Shifts app in Teams for frontline workers in your organization.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_FLW
@@ -73,7 +73,7 @@ Teams includes a built-in FirstLineWorker app setup policy that you can assign t
 
 To view the FirstLineWorker policy, in the left navigation of the Microsoft Teams admin center, go to **Teams app** > **App setup policies**.
 
-![Screenshot of the FirstLineWorker app setup policy](../../media/firstline-worker-app-setup-policy.png "Screenshot of the FirstLineWorker app setup policy in the Microsoft Teams admin center")
+![Screenshot of the FirstLineWorker app setup policy.](../../media/firstline-worker-app-setup-policy.png "Screenshot of the FirstLineWorker app setup policy in the Microsoft Teams admin center")
 
 #### Assign the FirstLineWorker app setup policy to users
 

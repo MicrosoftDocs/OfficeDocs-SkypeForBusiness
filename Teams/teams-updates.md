@@ -9,7 +9,7 @@ audience: admin
 ms.date: 05/16/2019
 ms.reviewer: LolaJ
 description: This topic is a list of Microsoft Teams help topics that have been updated recently, including links to the updated topics.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration

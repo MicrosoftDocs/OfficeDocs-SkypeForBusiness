@@ -9,7 +9,7 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 26dff7d8-242a-4576-9870-d6d461758a37
 description: "Summary: Read this topic to learn how to deploy conferencing in Skype for Business Server."
 ---
@@ -60,7 +60,7 @@ The dial-in conferencing flowchart shows the steps you must follow depending on 
 
 **Dial-in conferencing flowchart**
 
-![Deploy dial-in conferencing flow chart](../../media/95d2f963-7705-4930-90bc-df6a71a700bf.png)
+![Deploy dial-in conferencing flow chart.](../../media/95d2f963-7705-4930-90bc-df6a71a700bf.png)
 
 **Dial-in conferencing deployment checklist**
 

@@ -12,7 +12,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn the different ways to assign policies to your users in Microsoft Teams.
 f1keywords: 
@@ -36,17 +36,17 @@ A user has one effective policy for each policy type. It's possible, or even lik
 
 If a user is directly assigned a policy (either individually or through a batch assignment), that policy takes precedence. In the following visual example, the user's effective policy is the Lincoln Square meeting policy, which is directly assigned to the user.
 
-![Diagram showing how a directly assigned policy takes precedence](media/assign-policies-example-directly-assigned.png)
+![Diagram showing how a directly assigned policy takes precedence.](media/assign-policies-example-directly-assigned.png)
 
 If a user isn't directly assigned a policy of a given type, the policy assigned to a group that the user is a member of takes precedence. If a user is a member of multiple groups, the policy that has the highest [group assignment ranking](#group-assignment-ranking) for the given policy type takes precedence.
 
 In this visual example, the user's effective policy is the Exec Teams and HD policy, which has the highest assignment ranking relative to other groups that the user is a member of and that are also assigned a policy of the same policy type.  
 
-![Diagram showing how a policy inherited from  group takes precedence](media/assign-policies-example-group.png)
+![Diagram showing how a policy inherited from  group takes precedence.](media/assign-policies-example-group.png)
 
 If a user isn't directly assigned a policy or isn't a member of any groups that are assigned a policy, the user gets the global (Org-wide default) policy for that policy type. Here's a visual example.
 
-![Diagram showing how a global policy takes precedence](media/assign-policies-example-global.png)
+![Diagram showing how a global policy takes precedence.](media/assign-policies-example-global.png)
 
 To learn more, see [Precedence rules](#precedence-rules).
 
@@ -471,7 +471,7 @@ When you assign the policy package, it's immediately assigned to the group. Howe
     
     1. Select **Apply**.
     
-    ![shows the group policy assignment](media/group-pkg-assignment.png)
+    ![shows the group policy assignment.](media/group-pkg-assignment.png)
 
 5. To manage ranking for a specific policy type, navigate to the specific policy page.
 

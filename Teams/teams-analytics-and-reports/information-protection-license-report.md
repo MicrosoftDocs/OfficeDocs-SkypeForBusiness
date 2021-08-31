@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: 
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: 
 ms.collection: 
   - M365-collaboration
@@ -32,7 +32,7 @@ You must be a Teams service admin to make these changes. See [Use Teams administ
 2. Under **Date range**, select a range.
 3. Under **Apps**, select an app and then select **Run report**.
 
-    ![Screenshot of the Teams information protection license report in the Teams admin center with callouts](../media/teams-info-protection-license-report-with-callouts.png "Screenshot of the Teams information protection license report in the Teams admin center with callouts")
+    ![Screenshot of the Teams information protection license report in the Teams admin center with callouts.](../media/teams-info-protection-license-report-with-callouts.png "Screenshot of the Teams information protection license report in the Teams admin center with callouts")
 
 ## Interpret the report
 

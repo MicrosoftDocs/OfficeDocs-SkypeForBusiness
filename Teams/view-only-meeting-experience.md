@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Learn about the Teams view-only meeting experience for admins, presenters, and attendees
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection: 
@@ -73,11 +73,11 @@ When the capacity of the main meeting has been reached, an attendee will be unab
 
 When the capacity of the main meeting has been reached, the meeting organizer and presenters will see a banner informing them that new attendees will join as view-only attendees.
 
-  ![the Teams client and banner message for organizers and presenters](media/chat-and-banner-message.png)
+  ![the Teams client and banner message for organizers and presenters.](media/chat-and-banner-message.png)
 
 When the capacity of the main meeting has been reached, meeting attendees will be informed on the pre-join screen that they're joining in view-only mode.
 
-  ![the Teams pre-join screen and the message for participants telling them that they will join in view-only mode](media/view-only-pre-join-screen.png)
+  ![the Teams pre-join screen and the message for participants telling them that they will join in view-only mode.](media/view-only-pre-join-screen.png)
 
 If there's space, a user will always join the main meeting. If the main meeting reaches capacity, and one or more attendees leave the main meeting, the main meeting has available capacity. Attendees who join (or rejoin) the meeting will join the main meeting until it reaches capacity again. Attendees who are in the view-only experience won't automatically be promoted to the main meeting and can't be manually promoted to the main meeting.
 

@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer:
 description: How to configure the Walkie Talkie app in Microsoft Teams, from an ITAdmin perspective.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
