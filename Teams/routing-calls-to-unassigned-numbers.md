@@ -34,7 +34,7 @@ As an administrator, you can route calls to unassigned numbers in your organizat
 
 - Route all calls to a given unassigned number to the the main switchboard.
 
-You can route calls to unassigned numbers to a user, to a resource account associated with an Auto Attendant or a Call Queue, or to an announcement service that will play a custom audio file to the caller.
+You can route calls to unassigned numbers to a user, to a resource account associated with an Auto Attendant or a Call Queue, or to an announcement service that will play a custom audio file to the caller. The audio file will play repeatedly until the caller hangs up.
 
 ## Configuration
 
