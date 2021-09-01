@@ -29,7 +29,7 @@ The Teams Meeting add-in lets users schedule a Teams meeting from Outlook. The a
 
 The Teams Meeting add-in is automatically installed for users who have Microsoft Teams and either Office 2013, Office 2016, or Office 2019 installed on their Windows PC. Users will see the Teams Meeting add-in on the Outlook Calendar ribbon.
 
-![Screenshot of Teams Meeting add-in on Outlook ribbon](media/Teams-add-in-for-Outlook.png)
+![Screenshot of Teams Meeting add-in on Outlook ribbon.](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
 > - There is **no direct URL** that links to the Teams add-in.
@@ -48,7 +48,7 @@ The meeting coordinates (the Teams join link and dial-in numbers) will be added 
 
 The Teams Meetings button in Outlook Web App will appear as part of new event creation if the user is on an early version of the new Outlook on the web. See the [Outlook Blog](https://techcommunity.microsoft.com/t5/Outlook-Blog/Designed-to-be-fast-The-Outlook-on-the-web-user-experience-gets/ba-p/234909?utm_source=t.co&utm_medium=referral) to learn about how users can try the early version of the new Outlook on the web.
 
-![Screenshot of Teams Meeting add-in in Outlook Web App](media/teams-meeting-add-in-web.png)
+![Screenshot of Teams Meeting add-in in Outlook Web App.](media/teams-meeting-add-in-web.png)
 
 The meeting coordinates (the Teams join link and dial-in numbers) will be added to the meeting invite after the user clicks **Send**.  
 
@@ -56,7 +56,7 @@ The meeting coordinates (the Teams join link and dial-in numbers) will be added 
 
 The Teams Meeting button shows up in latest builds of the Outlook iOS and Android app.
 
-![Screenshot of Teams Meeting add-in in Outlook mobile](media/teams-meeting-add-in-mobile.png)
+![Screenshot of Teams Meeting add-in in Outlook mobile.](media/teams-meeting-add-in-mobile.png)
 
 The meeting coordinates (the Teams join link and dial-in numbers) will be added to the meeting invite after the user clicks **Send**.  
 

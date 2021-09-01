@@ -66,7 +66,7 @@ To stop an existing scenario:
     
 4. The user interface will be enabled again once the Scenario has stopped, the details of the action will also be shown in the PowerShell Command Output area.
     
-![CLS Logger start and stop](../../media/2c4a36c2-b5db-4550-a3b3-41f18e0e2f0c.png)
+![CLS Logger start and stop.](../../media/2c4a36c2-b5db-4550-a3b3-41f18e0e2f0c.png)
   
 ## Search for logs
 
@@ -104,7 +104,7 @@ In order to search for logs, select the "Search CLS Logs" tab and click the "Sea
 > 
 > **Skip Network Logs** Skips searching any network logs if checked.
     
-![CLS Logger search logs](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)
+![CLS Logger search logs.](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)
   
 ## Create a scenario
 
@@ -119,7 +119,7 @@ In order to search for logs, select the "Search CLS Logs" tab and click the "Sea
     
 ## Modify a scenario
 
-![CLS Logger Screen shot, edit scenarios](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
+![CLS Logger Screen shot, edit scenarios.](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
   
 1. In the **Edit Scenarios** tab, find the desired scenario to modify.
     
