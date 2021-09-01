@@ -33,9 +33,9 @@ description: Learn how to get and manage user (subscriber) and service (toll and
 
 Microsoft has two types of telephone numbers available: 
 
-- **User numbers** also called subscriber numbers, which can be assigned to users in your organization.
+- [**User numbers**](#user-phone-numbers) also called subscriber numbers, which can be assigned to users in your organization.
 
-- **Service numbers**, which are assigned to services such as Audio Conferencing, auto attendants, or call queues.
+- **Service numbers**](#service-phone-numbers), which are assigned to services such as Audio Conferencing, Auto Attendants, or Call Queues.
 
 You will need to decide:
 
@@ -64,7 +64,9 @@ There are two types of user numbers, which can be assigned to users in your orga
 
 ## Service phone numbers  
 
-There are two types of service phone numbers--toll and toll-free--which can be assigned to services such as Audio Conferencing, auto attendants, or call queues. Service numbers have a higher concurrent call capacity than user numbers. Service number availability varies by country/region and the type of number (whether it's a toll or toll-free number).
+**This section describes service numbers available with Microsoft Calling Plans. For information about service numbers for Operator Connect and Direct Routing, contact your provider.**  
+
+There are two types of service phone numbers for Calling Plans--toll and toll-free--which can be assigned to services such as Audio Conferencing, Auto Attendants, or Call Queues. Service numbers have a higher concurrent call capacity than user numbers. Service number availability varies by country/region and the type of number (whether it's a toll or toll-free number).
     
  - **Toll service numbers** - There are two types of toll service numbers, which may incur a toll cost to the caller:
     
