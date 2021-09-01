@@ -29,16 +29,16 @@ You can edit guest information from the Microsoft 365 admin center or the Azure 
 
 1. To edit the guest information in the [Microsoft 365 admin center](https://admin.microsoft.com), select **Users** > **Guest Users**.
 
-   ![The guest user information being edited](media/access-guest-user.png)
+   ![The guest user information being edited.](media/access-guest-user.png)
 
 2. Select a user from **Guest users**.
 
 3. In guest user information, select **Manage contact information**.
 
-   ![Manage contact information ](media/guest-user-data1.png)
+   ![Manage contact information .](media/guest-user-data1.png)
 
 4. Edit any fields that you choose except for **Display name** in **Manage contact information**, and then select **Save changes**.
 
-   ![Edit the guest user contact information](media/manage-guest-contact.png)
+   ![Edit the guest user contact information.](media/manage-guest-contact.png)
 
 You can also edit the guest from the [Azure Active Directory portal](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers).

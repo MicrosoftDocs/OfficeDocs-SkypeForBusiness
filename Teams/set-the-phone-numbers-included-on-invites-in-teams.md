@@ -47,7 +47,7 @@ Once the user is enabled for the Audio Conferencing service, the default toll an
 
 ## Set or change the default audio conferencing phone number for a meeting organizer or user
 
-![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+![An icon showing the Microsoft Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
 You must be a Teams service admin to make these changes. See [Use Teams administrator roles to manage Teams](./using-admin-roles.md) to read about getting admin roles and permissions.
 
@@ -55,13 +55,13 @@ You must be a Teams service admin to make these changes. See [Use Teams administ
 
 2. In the left navigation, click **Users**.
 
-    ![Shows selecting users in the Microsoft Teams admin center](media/Admin-users.png)
+    ![Shows selecting users in the Microsoft Teams admin center.](media/Admin-users.png)
 
 3. Click the user name from the list of available users.
 
 4. Next to **Audio Conferencing**, click **Edit**.
 
-    ![Click Edit next to Audio conferencing](media/teams-set-phone-numbers-on-invites-image3.png)
+    ![Click Edit next to Audio conferencing.](media/teams-set-phone-numbers-on-invites-image3.png)
 
 5. Use the **Toll number** or **Toll-free number** fields to enter the numbers for the user.
 
@@ -76,8 +76,8 @@ Windows PowerShell is all about managing users and what users are allowed or not
 
 - [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
-For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=teams-ps) for more information.
-  
+To set or change the default audio conferencing phone number for a meeting organizer or user using [Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps), set the **`ServiceNumber`** or **`TollFreeServiceNumber`** parameters of the [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/set-CsOnlineDialInConferencingUser?view=skype-ps) cmdlet to one of the available numbers.
+
 ## Related topics
 
 [Try or purchase Audio Conferencing in Microsoft 365 or Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

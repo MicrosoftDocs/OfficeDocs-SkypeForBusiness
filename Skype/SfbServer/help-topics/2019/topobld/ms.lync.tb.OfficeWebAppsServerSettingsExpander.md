@@ -27,7 +27,7 @@ You edit the properties of the configured Office Web Apps Server. The following 
 
 Select the check box **Office Web Apps Server is deployed in an external network** if this server is deployed in your perimeter network or other network zone that is outside of your internal firewall separating the perimeter network, less trusted networks, and the Internet from your internal deployment.
 
-![Office Web Apps Settings Expander](../../../media/OfficeWebApps_Settings_Expander.jpg)
+![Office Web Apps Settings Expander.](../../../media/OfficeWebApps_Settings_Expander.jpg)
 
 ## See also
 

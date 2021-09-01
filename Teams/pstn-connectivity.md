@@ -51,7 +51,7 @@ Be aware that the option or options you choose affect how some Phone System feat
 
 Phone System with Calling Plan is Microsoft's all-in-the-cloud voice solution for Teams users. This is the simplest option that connects Phone System to the PSTN. With this option, Microsoft acts as your PSTN carrier, as shown in the following diagram:
 
-![Diagram 1 shows Phone System with Calling Plan](media/voice-solutions-simple.png)
+![Diagram 1 shows Phone System with Calling Plan.](media/voice-solutions-simple.png)
 
 If you answer yes to the following, then Phone System with Calling Plan is the right solution for you:
 
@@ -94,7 +94,7 @@ For information on the benefits and requirements of Operator Connect, and for a 
 
 This option connects Phone System to your telephony network by using Direct Routing, as shown in the following diagram: 
 
-![Diagram 5 shows Phone System with Direct Routing](media/voice-solution-with-direct-routing.png)
+![Diagram 5 shows Phone System with Direct Routing.](media/voice-solution-with-direct-routing.png)
 
 If you answer yes to the following questions, then Phone System with Direct Routing is the right solution for you:
 

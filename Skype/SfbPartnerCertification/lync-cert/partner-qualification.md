@@ -57,7 +57,7 @@ The timeline that follows shows the approximate timeline for the qualification p
 
 ***Partner qualification timeline for Microsoft Partner Program***
 
-![Qualification timeline for Skype for Business](../media/OIPpartneringTimeline.jpg)
+![Qualification timeline for Skype for Business.](../media/OIPpartneringTimeline.jpg)
 
 To begin the process, vendors should:
 - Download the trial versions of the product.
@@ -114,7 +114,7 @@ The diagram that follows displays the approximated timeline for the qualificatio
 
 ***Technical qualifications timeline***
 
-![timeline](../media/timeline4technicalqualification.png)
+![timeline.](../media/timeline4technicalqualification.png)
 
 ### How to engage
 Currently video qualification tests are performed by Microsoft Lync logo team. To introduce yourself and obtain more specifics, email LyncLogo.
