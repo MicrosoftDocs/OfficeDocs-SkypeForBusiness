@@ -168,7 +168,7 @@ Skype for Business threads do not persist beyond the 10 min. SIP session timeout
 Both the in-tenant and federated behaviors described above are available, with the following limitations:
 
 - External attendees whose tenants reside in a different GoLocal deployment or geography won't see IM chat while in a "federated" meeting
-- Federation and interop between Multitenant O365 and Office 365 running by 21vianet is supported with limited scenarios.
+- Federation and interop between multi-tenant Office 365 and Office 365 operated by 21Vianet is supported in limited scenarios.
 
 
 ## Presence
