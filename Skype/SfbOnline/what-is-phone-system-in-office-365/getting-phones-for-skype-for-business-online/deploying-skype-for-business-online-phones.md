@@ -166,17 +166,18 @@ You can find out more about Calling Plans by reading [Phone System and Calling P
   
 - **Supported deployments** The table below shows the supported authentication types for the currently supported deployment models including Exchange Integration, Modern authentication with Multi-factor Authentication (MFA), and Skype for Business Online and on-premises.
 
-<br/>  
   
-|**Skype for Business** <br/> |**Exchange** <br/> |**Phone Sign-In method** <br/> |**Skype for Business access** <br/> |**Exchange Access with Modern Auth and MFA disabled** <br/> |**Exchange Access with Modern Auth and MFA enabled** <br/> |
+ 
+ 
+|Skype for Business |Exchange |Phone Sign-In method |Skype for Business access |Exchange Access with Modern Auth and MFA disabled |Exchange Access with Modern Auth and MFA enabled |
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Online  <br/> |Online  <br/> |Web Sign-in  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
-|Online  <br/> |Online  <br/> |Username/Password  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
-|Online  <br/> |On-premises  <br/> |Web Sign-in  <br/> |Yes  <br/> |No  <br/> |No  <br/> |
-|Online  <br/> |On-Premises  <br/> |Username/Password  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
-|On-premises  <br/> |Online/On-Premises  <br/> |PIN Authentication  <br/> |Yes  <br/> |No  <br/> |No  <br/> |
-|On-premises  <br/> |Online/On-Premises  <br/> |Username/Password  <br/> |Yes  <br/> |Yes  <br/> |N/A  <br/> |
-|On-premises  <br/> |Online/On-Premises  <br/> |Sign-in via PC (BTOE)  <br/> |Yes  <br/> |Yes  <br/> |N/A  <br/> |
+|Online   |Online   |Web Sign-in   |Yes   |Yes   |Yes   |
+|Online   |Online   |Username/Password   |Yes   |Yes   |No   |
+|Online   |On-premises   |Web Sign-in   |Yes   |No   |No   |
+|Online   |On-Premises   |Username/Password   |Yes   |Yes   |No   |
+|On-premises   |Online/On-Premises   |PIN Authentication   |Yes   |No   |No   |
+|On-premises   |Online/On-Premises   |Username/Password   |Yes   |Yes   |N/A   |
+|On-premises   |Online/On-Premises   |Sign-in via PC (BTOE)  |Yes   |Yes   |N/A   |
    
 - **Phone features** The feature set may vary slightly based on the IP phone partner. For the complete feature set and for more information on the features for each phone manufacturer, see [Getting phones for Skype for Business Online](getting-phones-for-skype-for-business-online.md).
     
@@ -223,4 +224,3 @@ BToE can be configured to operate in two modes:  *Auto*  (default) and *Manual* 
 
 [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
-  
