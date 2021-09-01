@@ -48,7 +48,7 @@ When a tag is @mentioned in a channel conversation, team members associated with
 
 As an admin, you can control how tags are used across your organization in the Microsoft Teams admin center. Currently, you can't use PowerShell to manage tags.
 
-![Screenshot of tagging settings in the Microsoft Teams admin center](media/manage-tags-admin-settings.png)
+![Screenshot of tagging settings in the Microsoft Teams admin center.](media/manage-tags-admin-settings.png)
 
 A team can have up to 100 tags, up to 100 team members can be assigned to a tag, and up to 25 tags can be assigned to a single user. 
 
@@ -78,7 +78,7 @@ You can configure the following tags settings to control how custom tags are use
 
 If you turned on the **Let team owners override who can manage tags** setting in the Microsoft Teams admin center, team owners can set whether members can add tags at the team level. To do this, on the **Settings** tab for a team, go to **Tags**, and then choose who can add tags.
 
-![Screenshot of the tags setting at the team level](media/manage-tags-team-settings.png)
+![Screenshot of the tags setting at the team level.](media/manage-tags-team-settings.png)
 
 ## Use tags
 
@@ -88,7 +88,7 @@ Here's how to add custom tags and how to set up tagging by shift (if you're usin
 
 To create and assign custom tags, select **Teams** on the left side of the app, and then find your team in the list. Select **˙˙˙ More options**, and then choose **Manage tags**. Here, you can create tags and assign them to people on your team.
 
-![Screenshot of how to apply tags in the Teams client ](media/manage-tags-teams.png)
+![Screenshot of how to apply tags in the Teams client .](media/manage-tags-teams.png)
 
 To delete a tag, select **˙˙˙ More options** next to the tag, and then select **Delete tag**.
 

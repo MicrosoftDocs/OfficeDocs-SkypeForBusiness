@@ -44,11 +44,11 @@ Teams currently includes the following policy packages for government.
 |Frontline manager  |Frontline Managers in your government organization |Creates a set of policies and applies those settings to Frontline Managers in your organization.|
 |Frontline worker  |Frontline Workers in your government organization |Creates a set of policies and applies those settings to Frontline Workers in your organization.|
 
-![Screenshot of healthcare policy packages](media/policy-packages-gov.png)
+![Screenshot of healthcare policy packages.](media/policy-packages-gov.png)
 
 Each individual policy is given the name of the policy package so you can easily identify the policies that are linked to a policy package. For example, when you assign the Public safety officer policy package to users in your organization, a policy named PublicSafety_Officer is created for each policy in the package.
 
-![Screenshot of policies in the Healthcare clinical worker package](media/policy-packages-public-safety-officer.png)
+![Screenshot of policies in the Healthcare clinical worker package.](media/policy-packages-public-safety-officer.png)
 
 ## Manage policy packages
 
@@ -75,7 +75,7 @@ Assign the policy package to users. If a user has a policy assigned, and then la
 
 To assign a policy package to one or multiple users, in the left navigation of the Microsoft Teams admin center, go to **Policy packages**, and then select **Manage users**.  
 
-![Screenshot of how to assign a policy package in the admin center](media/policy-packages-healthcare-assign.png)
+![Screenshot of how to assign a policy package in the admin center.](media/policy-packages-healthcare-assign.png)
 
 To learn more, see [Assign a policy package](manage-policy-packages.md#assign-a-policy-package).
 

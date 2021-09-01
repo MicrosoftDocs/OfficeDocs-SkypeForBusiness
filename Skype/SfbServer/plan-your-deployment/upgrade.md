@@ -98,7 +98,7 @@ Use this method if you don't want to move users between user pools. During the u
   
 The following diagram shows an overview of this process.
   
-![Lync 2013 To Skype Users Offline](../media/e5511897-77bc-46aa-96be-85b126d7da79.png)
+![Lync 2013 To Skype Users Offline.](../media/e5511897-77bc-46aa-96be-85b126d7da79.png)
   
 > [!NOTE]
 > If you have paired pools, do not unpair them before the upgrade. 

@@ -24,4 +24,5 @@ Use the admin resources here to manage and get the most out of Teams for your re
 
 |&nbsp;|&nbsp;|
 | ------------- | ------------- |
-| ![walkthrough-map-teams](../media/walkthrough-map-teams-small.svg)  |  [Get started with Retail Teams templates](../get-started-with-retail-teams-templates.md) |
+| ![walkthrough-map-teams.](../media/walkthrough-map-teams-small.svg)  |  [Get started with Retail Teams templates](../get-started-with-retail-teams-templates.md) |
+

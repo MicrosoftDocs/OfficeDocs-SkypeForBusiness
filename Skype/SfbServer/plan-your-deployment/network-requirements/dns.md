@@ -77,7 +77,7 @@ The following diagram shows an example that includes both internal and external 
 
 **Edge network diagram using Public IPv4 addresses**
 
-![example of DNS network diagram](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
+![example of DNS network diagram.](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
 
 **Perimeter network DNS mappings (both internal and external interfaces)**
 

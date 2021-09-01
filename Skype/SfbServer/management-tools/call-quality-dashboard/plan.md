@@ -52,7 +52,7 @@ To summarize, CQD requires the following elements:
     
 - IIS hosts CQD Web Portal
     
-![CQD components](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
+![CQD components.](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
   
 The same CQD architecture supports Lync Server 2013 and Skype for Business. 
   
@@ -123,7 +123,7 @@ CQD comes with several components, and it helps to understand the requirements o
 > [!NOTE]
 > For QoE Archive and Cube, certain deployment options require Business Intelligence or Enterprise editions of Microsoft SQL Server. Refer to the [Infrastructure requirements for CQD](plan.md#Infrastructure_Req) section below for more details.
   
-![CQD Components](../../media/a52f2e6c-a4dd-4de3-879c-47295d2366c3.png)
+![CQD Components.](../../media/a52f2e6c-a4dd-4de3-879c-47295d2366c3.png)
   
 ### Single server configuration
 
@@ -141,11 +141,11 @@ In a multiserver configuration, The QoE Archive, Cube, and Portal can all be on 
     
   **Hosting CQD Web Portal and CQD Cube on different machines.** Organizations that might have requirements to separate the CQD Portal from the SQL Server installation or that might want to mix and match SQL Server editions for the SQL Server instance and SQL Server Analysis Services instance can choose to install the CQD Portal and CQD Cube on different machines. The QoE Archive component can also be the sole CQD component that is installed if the organization simply wants to have a sustainable method to archive the QoE data without reaching performance limits on the Monitoring Server.
   
-![Single Server CQD](../../media/f65be6f3-6bba-4c3d-b3ae-c05e03551b5b.png)
+![Single Server CQD.](../../media/f65be6f3-6bba-4c3d-b3ae-c05e03551b5b.png)
   
  **Hosting a "development" Portal separate from the "production" Portal.** Organizations that develop their own custom reports (via the REST APIs) might prefer to deploy additional (CQD) Portal instances alongside the production Portal that regular users access for call quality monitoring or investigations. The development Portal can isolate any modifications to the Portal from the production environment. The additional web portals can be deployed on different machines (shown below) or deployed onto different web directories on the same machine (not shown). To accomplish the latter, the additional CQD web portal must be copied to the production machine manually because the CQD setup process always deploys the CQD Web Portal to the default web site with predefined web application names.
   
-![Plan CQD Multi Server](../../media/2326e61e-b485-43e6-9f82-145237ba89cf.png)
+![Plan CQD Multi Server.](../../media/2326e61e-b485-43e6-9f82-145237ba89cf.png)
   
 ### Supported topologies
 
@@ -300,7 +300,7 @@ While not recommended, Standard edition is supported as well. Processing will be
   
 In all cases, "Database Engine Services" and "Analysis Services" must be installed. It is recommended but not required to also install the "Management Tools - Complete" feature, which adds SQL Server Management Studio support for Analysis Services. Feature selection screen should look like the figure.
   
-![SQL Server feature requirements](../../media/37f2f64b-49c8-4620-94ba-f6d1ae9abf83.png)
+![SQL Server feature requirements.](../../media/37f2f64b-49c8-4620-94ba-f6d1ae9abf83.png)
   
 When configuring the SSAS setup, in the Analysis Services Configuration, set "Server Mode" to "Multidimensional and Data Mining Mode". 
   
