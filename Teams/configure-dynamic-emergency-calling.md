@@ -87,9 +87,9 @@ The following clients are currently supported.  Check back often to see updates 
 
 > [!NOTE]
 > Subnet and WiFi-based locations are supported on all Teams clients. <br>
-> Ethernet/Switch (LLDP) is supported on 
-  - Windows versions 8.1 and later at this time
-  - Mac OS, which requires [LLDP enablement software](https://www.microsoft.com/en-us/download/details.aspx?id=103383) 
+> Ethernet/Switch (LLDP) is supported on:
+> - Windows versions 8.1 and later at this time<br>
+> - Mac OS, which requires [LLDP enablement software](https://www.microsoft.com/en-us/download/details.aspx?id=103383).
 
 ## Assign emergency addresses
 
