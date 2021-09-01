@@ -678,7 +678,7 @@ items:
           href: deploy-audio-conferencing-teams-landing-page.md
         - name: Audio Conferencing in Microsoft 365
           href: audio-conferencing-in-office-365.md
-        - name: "Open Preview: On-network Conferencing for Audio Conferencing"
+        - name: On-network Conferencing for Audio Conferencing
           href: audio-conferencing-on-network.md
         - name: Audio Conferencing common questions
           href: audio-conferencing-common-questions.md
