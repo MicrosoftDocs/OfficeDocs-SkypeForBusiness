@@ -224,7 +224,7 @@ In order to align presence and reachability in pre-existing threads, the target'
 
 In particular, if a recipient you previously had a persistent interop conversation thread with was upgraded to Teams, that thread will no longer reflect accurate presence and will no longer be routable. You should start a new thread.
 
-### Federation and interop with 21vianet
+### Federation and interop with Office 365 operated by 21Vianet
 
 Federation and interop between Multitenant O365 and 21vianet O365 is supported when the Multitenant O365 users are in TeamsOnly mode. In such a scenario, SFBO users in 21vianet will be able to communicate with TeamsOnly users in Multitenant O365 through chats and calls. The following table shows the supported scenarios in this configuration:
  
