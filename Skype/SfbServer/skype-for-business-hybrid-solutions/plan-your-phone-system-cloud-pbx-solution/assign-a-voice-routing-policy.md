@@ -32,10 +32,10 @@ Once a user is on Skype for Business Online and using Phone System with on-premi
   
 The other voice policy defines what calling features are available to the user; this voice policy is defined by Microsoft and is identical for all Phone System with on-premises PSTN connectivity users. It is automatically assigned to Phone System users.
   
-|&nbsp;|**On-premises user**|**Phone System with on-premises PSTN connectivity user**|
+|&nbsp;|On-premises user|Phone System with on-premises PSTN connectivity user|
 |:-----|:-----|:-----|
-|Calling features defined in  <br/> |Voice policy  <br/> |Pre-defined voice policy, assigned automatically when the user is licensed for Phone System.  <br/> |
-|PSTN usage records associated with  <br/> |Voice policy  <br/> |Voice routing policy, assigned while the user is still homed on-premises.  <br/> |
+|Calling features defined in   |Voice policy   |Pre-defined voice policy, assigned automatically when the user is licensed for Phone System.   |
+|PSTN usage records associated with   |Voice policy   |Voice routing policy, assigned while the user is still homed on-premises.   |
    
 You perform the following steps using your on-premises deployment, while the user is still homed in the on-premises deployment.
   
