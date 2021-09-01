@@ -178,7 +178,7 @@ The following diagram shows the traffic flow when a user is outside of the corpo
 
 Diagram 4. Traffic flow when the user is external with a proxy SBC and with connected downstream SBCs
 
-![Diagram again shows traffic flow Local Media Optimization](media/direct-routing-media-op-4.png "Traffic flow in case of proxy SBC with connected downstream SBCs when user is external")
+![Diagram again shows traffic flow Local Media Optimization.](media/direct-routing-media-op-4.png "Traffic flow in case of proxy SBC with connected downstream SBCs when user is external")
 
 ## Local Media Optimization modes
 
@@ -255,7 +255,7 @@ The following diagram shows the high-level traffic flow when the internal German
 
 Diagram 6.  Traffic flow with “Always Bypass” mode and the user is not in “home” site but in the internal network
 
-![A diagram shows traffic flow Local Media Optimization](media/direct-routing-media-op-6.png "Traffic flow with “Always Bypass” mode and user is not in “home” site but in internal network")
+![A diagram shows traffic flow Local Media Optimization.](media/direct-routing-media-op-6.png "Traffic flow with “Always Bypass” mode and user is not in “home” site but in internal network")
 
 ### Mode 2: Only for local users
 

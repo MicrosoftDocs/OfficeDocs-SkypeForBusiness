@@ -75,7 +75,7 @@ Teams for iOS and Android supports the use of multiple work or school and multip
 
 The following images show how users can add multiple accounts in Teams mobile applications.
 
-:::image type="content" source="media/sign-in-multiple-accounts.png" alt-text="Adding multiple accounts in Teams":::
+:::image type="content" source="media/sign-in-multiple-accounts.png" alt-text="Adding multiple accounts in Teams.":::
 
 ## Restrict sign in to Teams
 

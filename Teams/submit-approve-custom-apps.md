@@ -33,7 +33,7 @@ This article provides end-to-end guidance for how to take your Teams app from de
 
 We'll cover each step of the lifecycle, including how developers can use the Teams App Submission API to submit custom apps directly to the Microsoft Teams admin center for you to review and approve, how to set policies to manage apps for users in your organization, and how your users discover them in Teams.
 
-![Overview of your app from development to deployment](media/custom-app-lifecycle.png)
+![Overview of your app from development to deployment.](media/custom-app-lifecycle.png)
 
 This guidance focuses on the Teams aspects of the app and is intended for admins and IT pros. For information about developing Teams apps, see the [Teams developer documentation](/microsoftteams/platform).
 
@@ -51,7 +51,7 @@ The Teams App Submission API, [built on Microsoft Graph](/graph/api/teamsapp-pub
 
 Here's an example of what this app submission step looks like in Visual Studio Code:
 
-![submitting an app in Visual Studio Code](media/custom-app-lifecycle-submit-app.png)
+![submitting an app in Visual Studio Code.](media/custom-app-lifecycle-submit-app.png)
 
 Keep in mind that this doesn't publish the app to your organization's app store yet. This step submits the app to the Microsoft Teams admin center where you can approve it for publishing to your organization's app store.
 
@@ -75,11 +75,11 @@ The [Manage apps](/microsoftteams/manage-apps) page in the Microsoft Teams admin
 
 In the table, a newly submitted app automatically shows a **Publishing status** of **Submitted** and **Status** of **Blocked**. You can sort the **Publishing status** column in descending order to quickly find the app.
 
-![publishing status ](media/custom-app-lifecycle-validate-app.png)
+![publishing status .](media/custom-app-lifecycle-validate-app.png)
 
 Click the app name to go to the app details page. On the **About** tab, you can view details about the app, including description, status, submitter, and app ID.
 
-![app details page for a submitted app](media/custom-app-lifecycle-app-details.png)
+![app details page for a submitted app.](media/custom-app-lifecycle-app-details.png)
 
 For more information about using the Graph API to check the **Publishing status**, see [here](/graph/api/appcatalogs-list-teamsapps?tabs=http&view=graph-rest-beta#example-3-find-application-based-on-the-teams-app-manifest-id).
 
@@ -112,7 +112,7 @@ Before you can search the audit log, you have to first turn on auditing in the <
 
 Users who have permissions to the app can find it in your organization's app store. Go to **Built for *Your Organization Name*** on the Apps page to find your organization's custom apps.
 
-![Apps page showing published app ](media/custom-app-lifecycle-discovery.png)
+![Apps page showing published app .](media/custom-app-lifecycle-discovery.png)
 
 If you created and assigned an app setup policy, the app is pinned to the app bar in Teams for easy access for those users who were assigned the policy.
 
@@ -122,14 +122,14 @@ To update an app, developers should continue to follow the steps in the [Develop
 
 When the developer submits an update to a published custom app, you'll get notified in the **Pending approval** widget of the [Manage apps](/microsoftteams/manage-apps) page. In the table, the **Publishing status** of the app will be set to **Update submitted**. You'll also be notified in the **Admin Alerts and Notifications** team under the **App submission** channel if you turned on app submission notifications. The notification card will have a link to take you directly to the app in the Teams admin center. For more information on how to turn on app submission notifications, see [Notify](#notify).
 
-![Manage apps page showing pending requests and app status ](media/custom-app-lifecycle-update-submitted.png)
+![Manage apps page showing pending requests and app status .](media/custom-app-lifecycle-update-submitted.png)
 
 To review and publish an app update:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
 2. Click the app name to go to the app details page, and then select **Update available** to review details of the update.
 
-    ![app details page](media/custom-app-lifecycle-update-app.png)
+    ![app details page.](media/custom-app-lifecycle-update-app.png)
 3. When you're ready, select **Publish** to publish the update. Doing this replaces the existing app, updates the version number, and changes the **Publishing status** to **Published**. All app permission policies and app setup policies remain enforced for the updated app.
 
     If you reject the update, the earlier version of the app remains published.
