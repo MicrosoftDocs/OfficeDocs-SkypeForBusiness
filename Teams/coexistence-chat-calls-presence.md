@@ -226,7 +226,7 @@ In particular, if a recipient you previously had a persistent interop conversati
 
 ### Federation and interop with Office 365 operated by 21Vianet
 
-Federation and interop between Multitenant O365 and 21vianet O365 is supported when the Multitenant O365 users are in TeamsOnly mode. In such a scenario, SFBO users in 21vianet will be able to communicate with TeamsOnly users in Multitenant O365 through chats and calls. The following table shows the supported scenarios in this configuration:
+Federation and interop between multi-tenant Office 365 and Office 365 operated by 21Vianet are supported when the multi-tenant Office 365 users are in Teams Only mode. In such a scenario, Skype for Business Online users in Office 365 operated by 21Vianet will be able to communicate with Teams Only users in multi-tenant Office 365 through chats and calls. The following table shows the supported scenarios in this configuration:
  
 |Scenario|Origin|Recipient|Supported?|
 |---|---|---|---|
