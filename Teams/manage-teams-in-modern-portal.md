@@ -40,7 +40,7 @@ You can learn more about admin roles in Teams in [Use Microsoft Teams admin role
 
 Management tools for teams are under the **Teams** node in the Microsoft Teams admin center. (In the admin center, select **Teams** > **Manage teams**.) Each team is backed by a Microsoft 365 Group, and this node provides a view of groups that have been Microsoft Teams-enabled in your organization.
 
-![Screenshot of the Teams overview grid](media/manage-teams-in-modern-portal-grid.png)  
+![Screenshot of the Teams overview grid.](media/manage-teams-in-modern-portal-grid.png)  
 
 The grid displays the following properties:
 
@@ -89,7 +89,7 @@ You can navigate to the team profile page of any team from the main teams overvi
 - Add or remove channels (note that you can't remove the General channel).
 - Change team and group settings.
  
-![Screenshot of an example team profile](media/manage-teams-in-modern-portal-team-profile-page.png)
+![Screenshot of an example team profile.](media/manage-teams-in-modern-portal-team-profile-page.png)
 
 ## Making changes to teams
 

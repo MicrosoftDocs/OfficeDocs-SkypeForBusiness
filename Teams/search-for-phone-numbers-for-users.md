@@ -35,7 +35,7 @@ If you need some help with getting phone numbers, you can see [Manage phone numb
 
 **To search for phone numbers for your users**
 
-![An icon showing the Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+![An icon showing the Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
   
 1. Go to the **Microsoft Teams admin center**.
 

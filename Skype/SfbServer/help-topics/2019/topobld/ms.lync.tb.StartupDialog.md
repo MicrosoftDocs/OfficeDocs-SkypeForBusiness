@@ -27,5 +27,5 @@ You start Topology Builder to configure the properties and configuration of your
     
 - **New Topology** Select this option to begin the configuration of a new topology document. This option opens a new topology document that you configure to meet the requirements for the deployment that you will configure.
     
-![Topology Builder Startup Dialog](../../../media/Topology_Builder_Startup_Dialog.jpg)
+![Topology Builder Startup Dialog.](../../../media/Topology_Builder_Startup_Dialog.jpg)
   

@@ -84,7 +84,7 @@ Meetings organized by a user who has this policy setting enabled, allow video sh
 
 | Teams desktop and web client |Teams mobile client  |
 |:-------:|:-------:|
-|![Screenshot showing meeting join with audio/video settings on desktop](media/meeting-policies-audio-video-settings.png)    |![Screenshot showing meeting join sreen with audio/video settings on mobile](media/meeting-policies-mobile-join.png)          |
+|![Screenshot showing meeting join with audio/video settings on desktop.](media/meeting-policies-audio-video-settings.png)    |![Screenshot showing meeting join sreen with audio/video settings on mobile](media/meeting-policies-mobile-join.png)          |
 
 Let's look at the following example.
 
@@ -167,7 +167,7 @@ You can add custom background images to be used per tenant. This feature allows 
 
 2. Select **Meeting Policies** > **Customize meeting images**.
 
-   ![The meeting policies selection with the Customize meeting images button highlighted](media/custom-background-image-button.png)
+   ![The meeting policies selection with the Customize meeting images button highlighted.](media/custom-background-image-button.png)
 
 3. Select **On** from **Org wide background images**.
 

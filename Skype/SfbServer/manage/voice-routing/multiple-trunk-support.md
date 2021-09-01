@@ -28,4 +28,4 @@ The administrator must select a default trunk associated with a Mediation Server
 
 The following diagram illustrates the multiple trunks that are defined for each Mediation Server and gateway. 
 
-![Multiple trunk assignments](../../media/multiple-trunk-assignments.jpg)
+![Multiple trunk assignments.](../../media/multiple-trunk-assignments.jpg)
