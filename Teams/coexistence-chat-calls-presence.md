@@ -231,9 +231,9 @@ Federation and interop between multi-tenant Office 365 and Office 365 operated b
 |Scenario|Origin|Recipient|Supported?|
 |---|---|---|---|
 |Presence|Teams <br> Skype for Business <br> | Skype for Business <br> Teams|Yes<br>Yes|
-|Chat|Teams <br> Skype for Business <br> | Skype for Business <br> Teams|Yes (1:1 Only)<br>Yes(1:1 Only)|
-|Audio Calls|Teams <br> Skype for Business <br> | Skype for Business <br> Teams|Yes (1:1 Only)<br>Yes (1:1 Only)|
-|Video Calls|Teams <br> Skype for Business <br> | Skype for Business <br> Teams|Yes (1:1 Only)<br>Yes (1:1 Only)|
+|Chat|Teams <br> Skype for Business <br> | Skype for Business <br> Teams|Yes (1:1 only)<br>Yes(1:1 only)|
+|Audio Calls|Teams <br> Skype for Business <br> | Skype for Business <br> Teams|Yes (1:1 only)<br>Yes (1:1 only)|
+|Video Calls|Teams <br> Skype for Business <br> | Skype for Business <br> Teams|Yes (1:1 only)<br>Yes (1:1 only)|
 |Screen Sharing|Teams <br> Skype for Business <br> | Skype for Business <br> Teams |Yes (through a promoted Teams meeting)<br>Yes (through a promoted SfB meeting)|
 |||||
 
