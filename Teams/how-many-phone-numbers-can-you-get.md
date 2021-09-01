@@ -27,16 +27,18 @@ description: Learn about how many phone numbers you can get in Microsoft Teams b
 
 # How many phone numbers can you get?
 
-When you are looking for and getting phone numbers for your organization, you can get more phone numbers than you have assigned licenses. But this depends on the types of phone numbers and types of licenses you have bought and assigned. For more information about the types of phone numbers that are used in Microsoft Teams, see [Manage phone numbers for your organization](manage-phone-numbers-landing-page.md).
-  
+When you are looking for and getting phone numbers for your organization, you can get more phone numbers than you have assigned licenses. But this depends on the types of phone numbers and types of licenses you have bought and assigned. 
+
+How you acquire and manage phone numbers differs depending on your PSTN connectivity option: Calling Plans, Operator Connect, or Direct Routing. For more information, see [Manage phone numbers for your organization](manage-phone-numbers-landing-page.md).
+
+**The following table applies to Microsoft Calling Plans and voice apps, such as Call Queues and Auto Attendants.  For information about Operator Connect and Direct Routing, contact your service provider.** 
+
+**NOTE TO REVIEWERS: DO WE JUST SAY CONTACT PROVIDER?  DO WE PROVIDE INFO IN THIS TOPIC?  OR DO WE PROVIDE INFO IN SEPARATE TOPICS FOR DR AND OC?  DO I FOLLOW UP WITH MATTIA'S TEAM FOR DETAILS?**
+
 You can see the number of phone numbers you can get on the **Get phone numbers** page in the Microsoft Teams admin center, or you can run the [Get-CsOnlineTelephoneNumberAvailableCount](/powershell/module/skype/Get-CsOnlineTelephoneNumberAvailableCount) cmdlet.
-  
+
 > [!IMPORTANT]
 > The limits below don't include phone numbers you have ported or transferred to Microsoft. 
-  
-## How many phone numbers you can get?
-
-**The following table applies to Microsoft Calling Plans and voice apps, such as Call Queues and Auto Attendants.  For information about Operator Connect and Direct Routing, see...**  
 
 ||||
 |:-----|:-----|:-----|

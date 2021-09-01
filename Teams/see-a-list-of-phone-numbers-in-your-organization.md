@@ -25,20 +25,21 @@ ms.custom:
 description: Learn to use the Microsoft Teams admin center to see a list of all phone numbers in your organization and all numbers that are assigned to users or unassigned.
 ---
 
-# See a list of phone numbers in your organization
+# See a list of phone numbers 
 
-There are different types of phone numbers that you can assign to users or other services (service numbers), such as for Audio Conferencing in Microsoft 365 or Office 365.
+There are different types of phone numbers that you can assign to users or other services (service numbers). For more information, see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-landing-page).
+
+**This article applies to Calling Plans and Operator Connect. For information about Direct Routing, see ...  **
+
+**NOTE TO REVIEWERS: FOR DR, DO WE JUST SAY CONTACT PROVIDER?  DO WE PROVIDE INFO IN THIS TOPIC?  OR DO WE PROVIDE INFO IN SEPARATE TOPICS FOR DR AND OC?  DO I FOLLOW UP WITH MATTIA'S TEAM FOR DETAILS?**
   
-## To see a list of all phone numbers that you have for your organization
+## To see all phone numbers in your organization
 
-![An icon showing the Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+To see a list of all phone numbers in your organization:
 
 1. Go to the **Microsoft Teams admin center**.
 
 2. In the left navigation, go to **Voice** > **Phone numbers**.
-
-    > [!IMPORTANT]
-    > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
 
 3. To view the phone numbers that are assigned, see the **Status** column.
 
@@ -54,11 +55,9 @@ There are different types of phone numbers that you can assign to users or other
 
    - Phone number **status**.
 
-## To see all of the phone numbers that are assigned to users
+## To see all phone numbers that are assigned to users
 
 When you are setting up users, you might just want to see the list of the phone numbers that are already assigned to users and which phone numbers are available to be assigned to them.
-  
-![An icon showing the Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
 1. Go to the **Microsoft Teams admin center**.
 
@@ -75,18 +74,13 @@ When you are setting up users, you might just want to see the list of the phone 
 
    - **Unassigned**
 
-## To see the phone numbers that are assigned to voice users
+## To see all phone numbers that are assigned to voice users
 
-When you are setting up users in your organization to make and receive phone calls, you must first get the phone numbers and then assign them to your users. After you've gotten your phone numbers, you might just want to see the activation status of the number assignments.
-
-![An icon showing the Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center** !
+When you are setting up users in your organization to make and receive phone calls, you must first get the phone numbers and then assign them to your users. After you've gotten your phone numbers, you might want to see the activation status of the number assignments.
   
 1. Go to the **Microsoft Teams admin center**.
 
 2. In the left navigation, go to **Voice** > **Phone numbers**.
-
-    > [!IMPORTANT]
-    > For you to see the **Voice** option in the left navigation in the Microsoft Teams admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
 
 3. Click the filter icon to filter your view by **Activation state** You can filter by:
 

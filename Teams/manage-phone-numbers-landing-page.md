@@ -35,7 +35,7 @@ Microsoft has two types of telephone numbers available:
 
 - [**User numbers**](#user-phone-numbers) also called subscriber numbers, which can be assigned to users in your organization.
 
-- **Service numbers**](#service-phone-numbers), which are assigned to services such as Audio Conferencing, Auto Attendants, or Call Queues.
+- [**Service numbers**](#service-phone-numbers), which are assigned to services such as Audio Conferencing, Auto Attendants, or Call Queues.
 
 You will need to decide:
 
@@ -65,6 +65,8 @@ There are two types of user numbers, which can be assigned to users in your orga
 ## Service phone numbers  
 
 **This section describes service numbers available with Microsoft Calling Plans. For information about service numbers for Operator Connect and Direct Routing, contact your provider.**  
+
+**NOTE TO REVIEWERS: DO WE JUST SAY CONTACT PROVIDER?  DO WE PROVIDE INFO IN THIS TOPIC?  OR DO WE PROVIDE INFO IN SEPARATE TOPICS FOR DR AND OC?  DO I FOLLOW UP WITH MATTIA'S TEAM FOR DETAILS?**
 
 There are two types of service phone numbers for Calling Plans--toll and toll-free--which can be assigned to services such as Audio Conferencing, Auto Attendants, or Call Queues. Service numbers have a higher concurrent call capacity than user numbers. Service number availability varies by country/region and the type of number (whether it's a toll or toll-free number).
     

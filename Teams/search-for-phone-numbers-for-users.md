@@ -1,7 +1,7 @@
 ---
 title: "Search for phone numbers for users"
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark, oscarr
 ms.topic: article
@@ -28,14 +28,16 @@ description: "See how to search for phone numbers that you can assign to your us
 When you are setting up users in your organization to make and receive phone calls, you must use the **Microsoft Teams admin center** and first get phone numbers that can be assigned to users. The phone number you assign to a user will be a phone number that you have chosen for your organization and will be listed in the drop-down list when you edit the properties of the user and click **Assign**.
   
 Before you can assign phone numbers to your users, you must use the **Get new numbers** page to search for numbers that are available for you within an area. You can search by **Country or region**, **Number type**, and **Location**, and then enter the number of phone numbers you will need for your users. 
-  
-If you need some help with getting phone numbers, you can see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) or [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+
+**How you acquire and manage phone numbers differs depending on your PSTN connectivity option: Calling Plans, Operator Connect, or Direct Routing. For more information, see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-landing-page).**
+
+**This article applies to Calling Plans and Operator Connect. For information about Direct Routing, see ...  **
+
+**NOTE TO REVIEWERS: FOR DR, DO WE JUST SAY CONTACT PROVIDER?  DO WE PROVIDE INFO IN THIS TOPIC?  OR DO WE PROVIDE INFO IN SEPARATE TOPICS FOR DR AND OC?  DO I FOLLOW UP WITH MATTIA'S TEAM FOR DETAILS?**
   
 ## Search for phone numbers
 
-**To search for phone numbers for your users**
-
-![An icon showing the Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+To search for phone numbers for your users: 
   
 1. Go to the **Microsoft Teams admin center**.
 
