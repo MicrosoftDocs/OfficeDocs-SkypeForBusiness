@@ -27,9 +27,9 @@ description: Learn to use the Microsoft Teams admin center to see a list of all 
 
 # See a list of phone numbers 
 
-There are different types of phone numbers that you can assign to users or other services (service numbers). For more information, see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-landing-page).
+**There are different types of phone numbers that you can assign to users or other services (service numbers). For more information, see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-landing-page).**
 
-**This article applies to Calling Plans and Operator Connect. For information about Direct Routing, see ...  **
+**This article applies to Calling Plans and Operator Connect. For information about Direct Routing, see ...**
 
 **NOTE TO REVIEWERS: FOR DR, DO WE JUST SAY CONTACT PROVIDER?  DO WE PROVIDE INFO IN THIS TOPIC?  OR DO WE PROVIDE INFO IN SEPARATE TOPICS FOR DR AND OC?  DO I FOLLOW UP WITH MATTIA'S TEAM FOR DETAILS?**
   

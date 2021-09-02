@@ -31,7 +31,7 @@ Before you can assign phone numbers to your users, you must use the **Get new nu
 
 **How you acquire and manage phone numbers differs depending on your PSTN connectivity option: Calling Plans, Operator Connect, or Direct Routing. For more information, see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-landing-page).**
 
-**This article applies to Calling Plans and Operator Connect. For information about Direct Routing, see ...  **
+**This article applies to Calling Plans and Operator Connect. For information about Direct Routing, see ...**
 
 **NOTE TO REVIEWERS: FOR DR, DO WE JUST SAY CONTACT PROVIDER?  DO WE PROVIDE INFO IN THIS TOPIC?  OR DO WE PROVIDE INFO IN SEPARATE TOPICS FOR DR AND OC?  DO I FOLLOW UP WITH MATTIA'S TEAM FOR DETAILS?**
   
