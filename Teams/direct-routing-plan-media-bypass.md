@@ -252,8 +252,8 @@ The client must have access to the specified ports (see table) on the public IP 
 
 | Traffic | From | To | Source port | Destination port|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | Client | SBC | 3478-3481 and 49152 – 53247| Defined on the SBC |
-| UDP/SRTP | SBC | Client | Defined on the SBC | 3478-3481 and 49152 – 53247  |
+UDP/SRTP | Client | SBC | (By default) 50000 – 50019 | Defined on the SBC |
+| UDP/SRTP | SBC | Client | Defined on the SBC | (By default) 50000 – 50019 |
 
 
 > [!NOTE]
