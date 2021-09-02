@@ -9,7 +9,7 @@ audience: ITPro
 ms.service: msteams
 search.appverid: MET150 
 ms.reviewer: 
-description: A lookbook and guide for meeting room setups with Teams Room systems and devices.
+description: A lookbook and guide for meeting room optimization with Teams Room systems and devices.
 ms.collection: 
   - M365-voice
   - M365-collaboration
@@ -102,7 +102,7 @@ Audio considerations are critical to ensure both remote and in-room participants
 
 *What are the right audio devices for each space?*
 
-A single source of audio for a space is required to ensure that there are no audio issues in a meeting room. Even in spaces where or
+A single source of audio for a space is required to ensure that there are no audio issues in a meeting room. 
 
 Pairing the right microphone and speakers for each space will give the best possible results for being heard clearly without distraction.
 
