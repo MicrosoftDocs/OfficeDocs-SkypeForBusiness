@@ -1024,8 +1024,7 @@ items:
           href: search-for-phone-numbers-for-users.md
         - name: See a list of phone numbers in your organization
           href: see-a-list-of-phone-numbers-in-your-organization.md
-        - name: Getting service phone numbers
-          href: getting-service-phone-numbers.md
+
 
         - name: Manage phone numbers for Calling Plan
           items: 
@@ -1035,6 +1034,8 @@ items:
               href: getting-phone-numbers-for-your-users.md
             - name: Assign, change, or remove a phone number for a user
               href: assign-change-or-remove-a-phone-number-for-a-user.md
+            - name: Get service phone numbers
+              href: getting-service-phone-numbers.md
             - name: Transferring phone numbers
               items: 
                 - name: What's a port order?
@@ -1053,9 +1054,6 @@ items:
           
         - name: Manage phone numbers for Direct Routing
           href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online
-
-
-        
 
     - name: Voice routing
       items: 
