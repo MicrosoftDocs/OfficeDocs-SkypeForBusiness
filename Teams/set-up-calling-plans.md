@@ -17,7 +17,7 @@ audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 
@@ -74,7 +74,7 @@ Microsoft recommends sending mail or using your business's preferred communicati
  
 In **Microsoft Teams**, users can see their phone number by clicking **Calls** in the left navigation. The phone number is shown above the dial pad.
 
-![Screen shot of the options available after clicking Calls](media/teams-phone-number.png)
+![Screen shot of the options available after clicking Calls.](media/teams-phone-number.png)
 
 
 ## Do you want to automate assigning phone numbers?

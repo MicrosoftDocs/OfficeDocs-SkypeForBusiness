@@ -232,7 +232,7 @@ items:
                 - name: Disable hybrid to complete migration to Teams Only
                   href: /SkypeForBusiness//hybrid/cloud-consolidation-disabling-hybrid
                 - name: Update DNS entries
-                  ref: /SkypeForBusiness//hybrid/decommission-manage-dns-entries.md
+                  href: /SkypeForBusiness//hybrid/decommission-manage-dns-entries.md
                 - name: Decide how to manage attributes after decommissioning
                   href: /SkypeForBusiness//hybrid/cloud-consolidation-managing-attributes
             - name: Move application endpoints to the cloud
@@ -266,6 +266,8 @@ items:
           href: identify-models-authentication.md
         - name: Sign in to Microsoft Teams 
           href: sign-in-teams.md
+        - name: Sign out of Microsoft Teams 
+          href: sign-out-of-teams.md
         - name: Safe Links in Teams
           href: /microsoft-365/security/office-365-security/atp-safe-links-for-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: AppLocker application control policies
@@ -676,7 +678,7 @@ items:
           href: deploy-audio-conferencing-teams-landing-page.md
         - name: Audio Conferencing in Microsoft 365
           href: audio-conferencing-in-office-365.md
-        - name: "Open Preview: On-network Conferencing for Audio Conferencing"
+        - name: On-network Conferencing for Audio Conferencing
           href: audio-conferencing-on-network.md
         - name: Audio Conferencing common questions
           href: audio-conferencing-common-questions.md
@@ -771,6 +773,14 @@ items:
               href: rooms/microsoft-teams-rooms-premium.md
             - name: Role-based access control
               href: rooms/microsoft-teams-rooms-premium-rbac.md
+            - name: Obtain and assign a license
+              href: rooms/obtaining-assigning-license.md
+            - name: Enroll in MTRP managed service
+              href: rooms/enrolling-mtrp-managed-service.md
+
+             
+
+              
         - name: Plan
           items: 
             - name: Overview of Microsoft Teams Rooms planning
@@ -1520,6 +1530,8 @@ items:
           href: flw-onboarding-wizard.md  
         - name: Frontline Workers scripted deployment
           href: flw-scripted-deployment.md
+        - name: Manage the Shifts app
+          href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
         - name: Manage shift-based access for frontline workers
           href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
         - name: Manage schedule owners for shift management
@@ -1646,6 +1658,10 @@ items:
           href: alerts/teams-admin-alerts.md 
         - name: Teams device health monitoring
           href: alerts/device-health-status.md 
+        - name: Teams devices and peripherals
+          href: teams-device-health.md
+        - name: Administrative unit functionality for device management
+          href: administrative-unit.md
     - name: Teams PowerShell
       items: 
         - name: Overview

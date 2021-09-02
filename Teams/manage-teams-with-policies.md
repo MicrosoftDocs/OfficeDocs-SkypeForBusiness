@@ -9,7 +9,7 @@ ms.reviewer:
 search.appverid: 
 description: Lean about Teams policies.
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration

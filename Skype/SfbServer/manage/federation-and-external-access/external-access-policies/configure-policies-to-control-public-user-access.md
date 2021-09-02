@@ -13,7 +13,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "ublic instant messaging (IM) connectivity enables users in your organization to use IM to communicate with users of IM services provided by public IM service providers."
 ---
 

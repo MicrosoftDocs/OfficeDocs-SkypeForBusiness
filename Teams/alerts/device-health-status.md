@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: vapati
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection: 
@@ -28,7 +28,7 @@ Before you start, you'll need the teams/channel creation permissions in your ten
 
 1. In the left navigation of the Microsoft Teams admin center, select **Notifications & alerts** > **Rules**.
 
-   ![Rules section in admin center](../media/select-rules.png)
+   ![Rules section in admin center.](../media/select-rules.png)
 
 2. In the **Rules** Page, select **Device state rule**.
 

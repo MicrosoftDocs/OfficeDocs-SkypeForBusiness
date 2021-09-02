@@ -10,7 +10,7 @@ ms.service: msteams
 audience: Admin
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -30,6 +30,28 @@ This article will help you set up your organization to host webinars.
 Webinars are structured meetings where presenters and participants have clear roles, often used for training purposes or sales and marketing lead generation scenarios.
 
 After setting up webinars in your organization, your users can schedule webinars and open registration to attendees. Unlike traditional meetings that include many discussions and task assignment, webinars are meant for interactive presentations and provide tools for attendee analysis.
+
+## Allow users to schedule webinars in the Teams admin center
+
+You can use the Teams admin center to set up webinars for your organization. You'll find the policies to set up webinars in the Teams admin center under **Meetings** > **Meeting policies**.
+
+### Allow meeting registration
+
+If you turn this on, users can schedule webinars. By default, this is turned on. If you want to turn off meeting registration, set this policy to **Off**.
+
+> [!IMPORTANT]
+> **Allow scheduling private meetings** must be on for meeting registration to work. By default, this policy is turned on in the Teams admin center. For students in education tenants, this policy is turned off by default. For more information on how to enable private meeting scheduling for students, see [Teams for Education policies and policy packages](policy-packages-edu.md).
+
+### Who can register
+
+If you select **Everyone**, all users, including anonymous users, can register for and attend webinars. If you select **Everyone in the organization**, only users in your organization can register for webinars. If meeting registration is turned off, this option will not be available and no one can register for webinars.
+
+> [!NOTE]
+> The default value for **Who can register** is **Everyone in the organization** in education tenants. For more information, see [Teams for Education Policy Wizard](easy-policy-setup-edu.md).
+
+### Allow engagement report
+
+If you turn this on, organizers can see reports of who registered and attended the webinars they set up. This policy is off by default. For more information, see [Meeting policies in Teams - Allow engagement report](meeting-policies-in-teams-general.md#allow-engagement-report). For information on the end-user experience, see [View and download meeting attendance reports](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US).
 
 ## Allow users to schedule webinars using PowerShell
 
@@ -88,7 +110,7 @@ If you want organizers to analyze who registered and attended webinars, you'll n
 Set-CsTeamsMeetingPolicy -AllowEngagementReport Enabled
 ```
 
-### Configure webinar settings
+## Configure webinar settings
 
 After enabling your environment for webinars, no further admin management is required. The policy controls which options show up for webinar organizers.
 
@@ -96,3 +118,4 @@ After enabling your environment for webinars, no further admin management is req
 
 - [Meeting policies in Teams - General](meeting-policies-in-teams-general.md)
 - [Set-CsTeamsMeetingPolicy documentation](/powershell/module/skype/set-csteamsmeetingpolicy)
+- [Teams for Education Policy Wizard](easy-policy-setup-edu.md)

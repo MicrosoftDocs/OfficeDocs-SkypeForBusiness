@@ -10,7 +10,7 @@ ms.collection:
   - M365-voice
   - m365initiative-voice
 ms.reviewer: roykuntz
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -87,7 +87,9 @@ The following clients are currently supported.  Check back often to see updates 
 
 > [!NOTE]
 > Subnet and WiFi-based locations are supported on all Teams clients. <br>
-> Ethernet/Switch (LLDP) is only supported on Windows and only on Windows versions 8.1 and later at this time.
+> Ethernet/Switch (LLDP) is supported on:
+> - Windows versions 8.1 and later at this time.<br>
+> - Mac OS, which requires [LLDP enablement software](https://www.microsoft.com/download/details.aspx?id=103383).
 
 ## Assign emergency addresses
 

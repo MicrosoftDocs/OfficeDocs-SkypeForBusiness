@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 - Hybrid 
 - M365-voice
@@ -52,8 +52,8 @@ In each domain where you find any of the following records, update them as follo
 
 | Record type | Name | TTL | Priority | Weight | Port | Value |
 | :-----| :-----| :---- | :-----| :-----| :-----| :-----|
-| SRV | _sipfederationtls.tcp |	3600 |	100 | 1	| 5061	| sipfed.online.lync.com |
-| SRV | _sip.tls | 3600	 | 100 |	1	| 443	| sipdir.online.lync.com |
+| SRV | _sipfederationtls._tcp |	3600 |	100 | 1	| 5061	| sipfed.online.lync.com |
+| SRV | _sip._tls | 3600	 | 100 |	1	| 443	| sipdir.online.lync.com |
 | CNAME	| lyncdiscover |	3600 |	N/A |	N/A | 	N/A |	webdir.online.lync.com |
 | CNAME |	sip	| 3600 |	N/A |	N/A	 | N/A | 	sipdir.online.lync.com |
 |||||||

@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
@@ -80,7 +80,7 @@ When a call arrives at the Microsoft 365 or Office 365 Direct Routing interface,
 
 The following diagram summarizes the requirements to base domain, subdomains, and Contact header.
 
-![Diagram showing requirements to domains and Contact header](media/direct-routing-1-sbc-requirements.png)
+![Diagram showing requirements to domains and Contact header.](media/direct-routing-1-sbc-requirements.png)
 
 The SBC requires a certificate to authenticate the connections. For the SBC hosting scenario, the carrier needs to request a certificate with CN and/or SAN *\*.base_domain (for example, \*.customers.adatum.biz)*. This certificate can be used to authenticate connections to multiple tenants served from a single SBC.
 
@@ -118,21 +118,21 @@ For more information about admin roles and how to assign a role in Microsoft 365
 1. In the Microsoft 365 admin center, go to **Setup** > **Domains** > **Add domain**.
 2. In the **Enter a domain you own** box, type the FQDN of the base domain. In the following example, the base domain is *customers.adatum.biz*.
 
-    ![Screenshot showing the Add a domain page](media/direct-routing-2-sbc-add-domain.png)
+    ![Screenshot showing the Add a domain page.](media/direct-routing-2-sbc-add-domain.png)
 
 3. Click **Next**.
 4. In the example, the tenant already has adatum.biz as a verified domain name. The wizard will not ask for additional verification because customers.adatum.biz is a subdomain for the already registered name. However, if you add an FQDN that has not been verified before, you will need to go through the process of verification. The process of verification is [described below](#add-a-subdomain-to-the-customer-tenant-and-verify-it).
 
-    ![Screenshot showing confirmation of a verified domain name](media/direct-routing-3-sbc-verify-domain.png)
+    ![Screenshot showing confirmation of a verified domain name.](media/direct-routing-3-sbc-verify-domain.png)
 
 5. Click **Next**, and on the **Update DNS Settings** page, select **I'll add the DNS records myself** and click **Next**.
 6. On the next page, clear all values (unless you want to use the domain name for Exchange, SharePoint, or Teams/Skype for Business), click **Next**, and then click **Finish**. Make sure your new domain is in the Setup complete status.
 
-    ![Screenshot showing domains with status of Setup complete](media/direct-routing-14-sbc-setup-complete.png)
+    ![Screenshot showing domains with status of Setup complete.](media/direct-routing-14-sbc-setup-complete.png)
 
 ### Activate the domain name
 
-After you have registered a domain name, you need to activate it by adding at least one user with Phone System license and assigning a SIP address with the FQDN portion of the SIP address matching the created base domain. License can be revoked after the domain activation (it can take up to 24 hours).
+After you have registered a domain name, you need to activate it by adding at least one user with Phone System license and assigning a SIP address with the FQDN portion of the SIP address matching the created base domain.
 
 > [!NOTE]
 > The Carrier tenant must keep at least one Phone System license assigned to the tenant to avoid removal of the Skype for Business configuration. 
@@ -141,7 +141,7 @@ After you have registered a domain name, you need to activate it by adding at le
 
 For example: test@customers.adatum.biz
 
-![Screenshot of the base domain activation page](media/direct-routing-4-sbc-domain-activation.png)
+![Screenshot of the base domain activation page.](media/direct-routing-4-sbc-domain-activation.png)
 
 ## Register a subdomain name in a customer tenant
 
@@ -161,52 +161,52 @@ For more information about admin roles and how to assign a role in Microsoft 365
 1. In the Microsoft 365 admin center, go to **Setup** > **Domains** > **Add domain**.
 2. In the **Enter a domain you own** box, type the FQDN of the subdomain for this tenant. In the example below, the subdomain is sbc1.customers.adatum.biz.
 
-    ![Screenshot of the Add a domain page](media/direct-routing-5-sbc-add-customer-domain.png)
+    ![Screenshot of the Add a domain page.](media/direct-routing-5-sbc-add-customer-domain.png)
 
 3. Click **Next**.
 4. The FQDN has never been registered in the tenant. In the next step, you will need to verify the domain. Select **Add a TXT record instead**. 
 
-    ![Screenshot of the Verify domain page](media/direct-routing-6-sbc-verify-customer-domain.png)
+    ![Screenshot of the Verify domain page.](media/direct-routing-6-sbc-verify-customer-domain.png)
 
 5. Click **Next**, and note the TXT value generated to verify the domain name.
 
-    ![Screenshot of text records on the Verify domain page](media/direct-routing-7-sbc-verify-domain-txt.png)
+    ![Screenshot of text records on the Verify domain page.](media/direct-routing-7-sbc-verify-domain-txt.png)
 
 6. Create the TXT record with the value from the previous step in carrier's DNS hosting provider.
 
-    ![Screenshot showing creating the TXT record](media/direct-routing-8-sbc-txt-record.png)
+    ![Screenshot showing creating the TXT record.](media/direct-routing-8-sbc-txt-record.png)
 
     For more information, refer to [Create DNS records at any DNS hosting provider](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166).
 
 7. Go back to the customer's Microsoft 365 admin center and click **Verify**. 
 8. On the next page, select **I'll add the DNS records myself** and click **Next**.
 
-    ![Screenshot of options on the Update DNS settings page](media/direct-routing-9-sbc-update-dns.png)
+    ![Screenshot of options on the Update DNS settings page.](media/direct-routing-9-sbc-update-dns.png)
 
 9. On the **Choose your online services** page, clear all options and click **Next**.
 
-    ![Screenshot of the Choose your online services page](media/direct-routing-10-sbc-choose-services.png)
+    ![Screenshot of the Choose your online services page.](media/direct-routing-10-sbc-choose-services.png)
 
 10. Click **Finish** on the **Update DNS settings** page.
 
-    ![Screenshot of the Update DNS settings page](media/direct-routing-11-sbc-update-dns-finish.png)
+    ![Screenshot of the Update DNS settings page.](media/direct-routing-11-sbc-update-dns-finish.png)
 
 11. Ensure that the status is **Setup complete**. 
     
-    ![Screenshot of page showing status of Setup complete](media/direct-routing-12-sbc-setup-complete.png)
+    ![Screenshot of page showing status of Setup complete.](media/direct-routing-12-sbc-setup-complete.png)
     
 > [!NOTE]
 > The base URL and the subdomain for the individual client have to be on the same tenant to enable you to add a _direct route_ trunk.
 
 ### Activate the subdomain name
 
-After you register a domain name, you need to activate it by adding at least one user and assign a SIP address with the FQDN portion of the SIP address matching the created subdomain in the customer tenant. License can be revoked from user after the subdomain activation (it can take up to 24 hours).
+After you register a domain name, you need to activate it by adding at least one user and assign a SIP address with the FQDN portion of the SIP address matching the created subdomain in the customer tenant. 
 
 *Please review [Get help with Microsoft 365 or Office 365 domains](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) for more information about adding users in Microsoft 365 or Office 365 organizations.*
 
 For example: test@sbc1.customers.adatum.biz
 
-![Screenshot of the Activation of the subdomain page](media/direct-routing-13-sbc-activate-subdomain.png)
+![Screenshot of the Activation of the subdomain page.](media/direct-routing-13-sbc-activate-subdomain.png)
 
 ### Create a trunk and provision users
 

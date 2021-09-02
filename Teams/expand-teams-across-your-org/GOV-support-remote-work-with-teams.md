@@ -10,7 +10,7 @@ ms.collection:
   - M365-collaboration
   - Teams_ITAdmin_RemoteWorkers
 ms.reviewer: aytange
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 description: Use this guidance to help remote workers in your government organization to be productive using Microsoft Teams, especially when they're working from home (WFH) in response to the COVID-19 (Coronavirus) outbreak.
 appliesto: 

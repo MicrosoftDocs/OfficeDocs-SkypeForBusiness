@@ -11,7 +11,7 @@ searchScope:
   - Microsoft Teams
 search.appverid: MET150
 description: Learn about the Approvals application availability in Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection: 
@@ -25,11 +25,11 @@ appliesto:
 The Approvals app is available as a personal app for all Microsoft Teams users.
 The Approvals app provides a simple way to bring auditing, compliance, accountability, and workflows to both structured and unstructured Approvals in Teams.
 
- ![shows the approvals app](media/approvals-selection.png)
+ ![shows the approvals app.](media/approvals-selection.png)
 
 Users can pin the Approvals app to save it to the menu bar.
 
- ![shows the approvals app with the pin option](media/approvalApp-pin.png)
+ ![shows the approvals app with the pin option.](media/approvalApp-pin.png)
 
 The first approval created from the Approvals app will trigger the provisioning of the Approval Solution in the default Common Data Service (CDS) environment. Approvals created from the Approvals app will be stored in the default CDS environment.
 
@@ -40,7 +40,7 @@ This article describes the Approvals app requirements and roles.
 
 ## Required permissions and licenses
 
-To use the Approvals app, you need permission for the following items:
+To deploy the Approvals app, you need permission for the following items:
 
 - Permissions to create a Microsoft CDS database.
 
@@ -51,6 +51,8 @@ To use the Approvals app, you need permission for the following items:
 - License for a [Power Automate](/power-automate/get-started-approvals), an Office 365, or a Dynamics 365.
 
 - License for Microsoft Forms is required for users to set up new approval templates.
+
+To use the Approvals app, you need a license for Power Automate, and your account will be added automatically to the Approvals User role in the target environment on your first approval assignment.
 
 ## Storage with CDS
 
@@ -107,13 +109,13 @@ The Approvals app is available by default. You can disable the app in the Teams 
 
   3. Search for the Approvals app.
 
-     ![shows the Admin center navigation with Teams Apps > Manage Apps highlighted](media/manage-approval-apps.png)
+     ![shows the Admin center navigation with Teams Apps > Manage Apps highlighted.](media/manage-approval-apps.png)
 
   4. Select Approvals.
 
   5. Select the toggle to disable the app for your organization.
 
-     ![shows the details for the Approvals app](media/approvals-details.png)
+     ![shows the details for the Approvals app.](media/approvals-details.png)
 
 ## Retention policy
 

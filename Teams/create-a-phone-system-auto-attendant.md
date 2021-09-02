@@ -16,7 +16,7 @@ audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 
@@ -55,7 +55,7 @@ This video shows a basic example of how to create an auto attendant in Teams.
 
 ## General info
 
-![Screenshot of auto attendant settings for name, operator, time zone, language, and voice inputs](media/auto-attendant-general-info-page-new.png)
+![Screenshot of auto attendant settings for name, operator, time zone, language, and voice inputs.](media/auto-attendant-general-info-page-new.png)
 
 1. Type a name for the auto attendant in the box at the top.
 
@@ -74,7 +74,7 @@ This video shows a basic example of how to create an auto attendant in Teams.
 
 ## Call flow
 
-![Screenshot of greeting message settings](media/auto-attendant-call-flow-greeting-message.png)
+![Screenshot of greeting message settings.](media/auto-attendant-call-flow-greeting-message.png)
 
 Choose if you want to play a greeting when the auto attendant answers a call.
 
@@ -82,7 +82,7 @@ If you select **Play an audio file** you can use the **Upload file** button to u
 
 If you select **Type a greeting message** the system will read the text that you type (up to 1000 characters) when the auto attendant answers a call.
 
-![Screenshot of call routing settings](media/auto-attendant-call-flow-route-call-message.png)
+![Screenshot of call routing settings.](media/auto-attendant-call-flow-route-call-message.png)
 
 Choose how you want to route the call.
 
@@ -94,7 +94,7 @@ If you select **Play menu options**, you can choose to **Play an audio file** or
 
 ### Menu options
 
-![Screenshot of dial key options](media/auto-attendant-call-flow-menu-options-complete.png)
+![Screenshot of dial key options.](media/auto-attendant-call-flow-menu-options-complete.png)
 
 For dialing options, assign the 0-9 keys on the telephone keypad to one of the call routing destinations. (The keys \* (Repeat) and \# (Back) are reserved by the system and can't be reassigned.)
 
@@ -147,7 +147,7 @@ Once you have selected a **Directory search** option, select **Next**.
 
 ## Call flow for after hours
 
-![Screenshot of after hours day and time settings](media/auto-attendant-business-hours.png)
+![Screenshot of after hours day and time settings.](media/auto-attendant-business-hours.png)
 
 Business hours can be set for each auto attendant. If business hours aren't set, all days and all hours in the day are considered business hours because a 24/7 schedule is set by default. Business hours can be set with breaks in time during the day, and all of the hours that are not set as business hours are considered after-hours. You can set different incoming call-handling options and greetings for after-hours.
 
@@ -161,7 +161,7 @@ Select **Next** when you're done.
 
 ## Call flows during holidays
 
-![Screenshot of holiday and holiday greeting settings](media/auto-attendant-holiday-greeting.png)
+![Screenshot of holiday and holiday greeting settings.](media/auto-attendant-holiday-greeting.png)
 
 Your auto attendant can have a call flow for each [Holiday you've set up](set-up-holidays-in-teams.md). You can add up to 20 scheduled holidays to each auto attendant.
 
@@ -173,7 +173,7 @@ Your auto attendant can have a call flow for each [Holiday you've set up](set-up
 
 4. Choose the type of greeting that you want to use.
 
-    ![Screenshot of holiday call action settings](media/auto-attendant-holiday-actions.png)
+    ![Screenshot of holiday call action settings.](media/auto-attendant-holiday-actions.png)
 
 5. Choose if you want to **Disconnect** or **Redirect** the call.
 
@@ -181,7 +181,7 @@ Your auto attendant can have a call flow for each [Holiday you've set up](set-up
 
 7. Select **Save**.
 
-![Screenshot of holiday settings with holidays listed](media/auto-attendant-holiday-call-settings.png)
+![Screenshot of holiday settings with holidays listed.](media/auto-attendant-holiday-call-settings.png)
 
 Repeat the procedure as needed for each additional holiday.
 
@@ -189,7 +189,7 @@ When you've added all your holidays, select **Next**.
 
 ## Dial scope
 
-![Screenshot of dial scope include and exclude options](media/auto-attendant-dial-scope.png)
+![Screenshot of dial scope include and exclude options.](media/auto-attendant-dial-scope.png)
 
 The *dial scope* defines which users are available in the directory when a caller uses dial-by-name or dial-by-extension. The default of **All online users** includes all users in your organization that are Online users or hosted on-premises using Skype for Business Server.
 
@@ -204,13 +204,15 @@ When you're done setting the dial scope, select **Next**.
 
 All auto attendants must have an associated resource account.  First-level auto attendants will need at least one resource account that has an associated service number. If you wish, you can assign several resource accounts to an auto attendant, each with a separate service number.
 
-![Screenshot of resource account add accounts panel](media/auto-attendant-add-resource-account.png)
+![Screenshot of resource account add accounts panel.](media/auto-attendant-add-resource-account.png)
 
 To add a resource account, select **Add account** and search for the account that you want to add. Select **Add**, and then select **Add**.
 
-![Screenshot of resource account list showing resource account with assigned service number](media/auto-attendant-resource-account-assigned.png)
+![Screenshot of resource account list showing resource account with assigned service number.](media/auto-attendant-resource-account-assigned.png)
 
-When you have finished adding service accounts, select **Submit** to complete auto attendant configuration.
+When you have finished adding resource accounts, select **Submit** to complete auto attendant configuration.
+
+See [Manage Teams resource accounts](manage-resource-accounts.md) for more information.
 
 ## External phone number transfers - technical details
 

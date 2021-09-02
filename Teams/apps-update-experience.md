@@ -15,7 +15,7 @@ f1.keywords:
 - NOCSH
 appliesto: 
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to update apps in Microsoft Teams. 
 ---
@@ -32,9 +32,9 @@ In most cases, after app developers publish an app update, the new version autom
 * A new connector was added
 * Properties inside "webApplicationInfo" changed
 
-![new version available](media/manage-your-custom-apps-update1.png)
+![new version available.](media/manage-your-custom-apps-update1.png)
 
-![upgrade option for an app](media/manage-your-custom-apps-update2.png)
+![upgrade option for an app.](media/manage-your-custom-apps-update2.png)
 
 > [!NOTE] 
 > The update process applies to all app updates for Microsoft apps, custom apps, and third-party apps. 

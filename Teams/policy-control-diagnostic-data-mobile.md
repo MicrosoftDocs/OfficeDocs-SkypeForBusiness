@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: majaisin
 description: A list of mobile properties and events for the policy controls for Microsoft Teams.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -1365,7 +1365,7 @@ action.
 
 ## OnePlayer events
 > [!NOTE]
-> For OnePlayer events, only properties listed in [Property lists for OnePlayer events](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/212efdd56d2d52faacd03dd70d367ca0b5895e3a/Teams/policy-control-diagnostic-data-mobile.md#property-lists-for-oneplayer-events) apply.
+> For OnePlayer events, only properties listed in [Property lists for OnePlayer events](#property-lists-for-oneplayer-events) apply.
 ### OnePlayer user action events
 - **PlayerPlay** - Confirms if the user taps on the play button in the OnePlayer view.
 - **PlayerPause** - Confirms if the user taps on the pause button in the OnePlayer view.

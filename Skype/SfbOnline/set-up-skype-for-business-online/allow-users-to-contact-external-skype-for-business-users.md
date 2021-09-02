@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -48,7 +48,7 @@ Use the steps in this article when:
 
 You must have [admin permissions](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) in Microsoft 365 or Office 365 in both organizations to do this communication.
 
-![An icon showing the Microsoft Teams logo](../images/teams-logo-30x30.png) **Using the Teams admin center**
+![An icon showing the Microsoft Teams logo.](../images/teams-logo-30x30.png) **Using the Teams admin center**
   
 1. Sign in with your Microsoft 365 or Office 365 admin account.
 
@@ -78,7 +78,7 @@ You must have [admin permissions](https://support.office.com/article/da585eea-f5
 
 10. **WAIT UP TO 24 HOURS TO TEST**. When you change the external communications settings, it can take up to 24 hours for the changes to populate across all the data centers.
 
-![Skype](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) You can allow your users to search for and IM with everyone who uses Skype, the free consumer app! To learn more, see [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md).
+![Skype.](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) You can allow your users to search for and IM with everyone who uses Skype, the free consumer app! To learn more, see [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md).
   
 ## Test and troubleshoot
 
@@ -130,13 +130,13 @@ After you enable external communication for your entire business, you can turn i
 
 3. In the list of users, choose the user, and then, under **More Settings**, click **Edit Skype for Business properties**.
 
-    ![Choose Skype for Business](../images/2b0f9a7b-3fee-4f4b-968a-68c429eeb395.png)
+    ![Choose Skype for Business.](../images/2b0f9a7b-3fee-4f4b-968a-68c429eeb395.png)
   
 4. In the **Skype for Business admin center**, choose **External communications**.
 
     On the **Options** page, all of the choices will be selected. Clear the communications you want to disable. The following image shows that Jakob will be able to communicate with people in other trusted businesses, but not with other Skype users.
 
-    ![Choose External contacts](../images/4e546321-a065-48ed-8ac7-1e112a780eab.png)
+    ![Choose External contacts.](../images/4e546321-a065-48ed-8ac7-1e112a780eab.png)
   
 5. Choose **Save**.
 
