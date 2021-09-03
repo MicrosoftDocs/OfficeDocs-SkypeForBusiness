@@ -30,7 +30,7 @@ appliesto:
 
 *Will the activities in the space focus on collaborative cocreation?*
 
-Ease of cocreation lends itself to a layout and a technology deployment designed around user collaboration. The right space facilitates bridge users and the technology seamlessly and eliminate friction for even the most novice users. Teams devices are designed to be user-friendly enough for young students to navigate adeptly, and for educators to control and customize from first use.
+Ease of cocreation lends itself to a layout and a technology deployment designed around user collaboration. The right space bridges users and the technology seamlessly and eliminate friction for even the most novice users. Teams devices are designed to be user-friendly enough for young students to navigate adeptly, and for educators to control and customize from first use.
 
 *What about spaces where content sharing with both in-person and remote participants is the priority?*
 
