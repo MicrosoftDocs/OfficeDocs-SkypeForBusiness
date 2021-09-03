@@ -45,6 +45,9 @@ Here's a list of features that you can add with Teams add-on licenses. The add-o
 
 <sup>1</sup> If you're a small or medium-sized business who has a Microsoft 365 Enterprise plan, you can still buy add-on licenses for these voice features, however, we recommend that you consider a [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan and [Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice).
 
+> [!NOTE]
+> A Phone System license is not required for Cloud Voicemail.
+
 ## What voice features are available with my plan?
 
 See what add-on licenses you need to get voice features in Teams, depending on the plan you have.
