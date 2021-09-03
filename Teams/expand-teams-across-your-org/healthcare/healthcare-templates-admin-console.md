@@ -31,7 +31,7 @@ For healthcare organizations, team templates can be especially powerful, as they
 
 Teams includes templates designed specifically for healthcare organizations. Use these pre-built templates to quickly create teams for staff to communicate and collaborate on patient care or operational needs. In this article, we introduce you to each of these templates and recommend how to use them.
 
-This article is for you if you're responsible for planning, deploying, and managing multiple teams across your healthcare organization. How you manage and work with team templates depends on whether you're an admin or developer.
+How you manage and work with team templates depends on whether you're an admin or developer.
 
 |If you're: | Then, you: |
 | ---- | --------- |
