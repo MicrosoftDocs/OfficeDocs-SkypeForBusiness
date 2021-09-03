@@ -473,9 +473,13 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 |Auto Attendant Directory Search Method|Enumeration|The last address book search method used.||
 |Auto Attendant Count|Integer| Number of Auto Attendants involved in the call.||
 |Call Queue Identity|String|Name of the resource account attached to the Call Queue. ||
+|Call Queue Is Conference Mode|Boolean|If True, Call Queue is configured to use conference mode otherwise Call Queue is configured to use transfer mode. ||
+|Call Queue Agent Count|Integer|Number of agents configured in the queue. ||
+|Call Queue Agent Opt In Count|Integer|Number of configured agents that have opted into the queue. ||
 |Call Queue Target Type|Enumeration|The call redirection target type. ||
 |Call Queue Call Result|Enumeration|The Call Queue call final state. ||
 |Call Queue Final State Action|Enumeration|The Call Queue final action. ||
+|Call Queue Timed Out Time|Integer|The configured timed out value for the Call Queue. ||
 |Is Auto Attendant Involved|Boolean| If True, an Auto Attendant was involved in a given call or stream.||
 |Is Call Queue Involved|Boolean|If True, a Call Queue was involved in a given call or stream. ||
 |**Meeting**|||
