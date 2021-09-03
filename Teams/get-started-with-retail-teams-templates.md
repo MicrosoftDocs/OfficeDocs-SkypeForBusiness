@@ -33,7 +33,7 @@ How you manage and work with team templates depends on whether you're an admin o
 
 |If you're: | Then, you: |
 | ---- | --------- |
-| An admin or IT pro |[Manage retail team templates in the Teams admin center](#manage-team-templates-in-the-teams-admin-center). View team templates and apply templates policies to control which templates your staff can use in Teams for creating teams. |
+| An admin or IT pro |[Manage team templates in the Teams admin center](#manage-team-templates-in-the-teams-admin-center). View team templates and apply templates policies to control which templates your staff can use in Teams for creating teams. |
 | A developer | [Use Microsoft Graph](#use-team-templates-with-microsoft-graph) to create teams from  team templates. |
 
 ## Manage team templates in the Teams admin center
