@@ -26,15 +26,15 @@ appliesto:
 
 ## Meeting behaviors 
 
-### Usage - Co-creation and presentation
+### Usage - Cocreation and presentation
 
-*Will the activities in the space focus on collaborative co-creation?*
+*Will the activities in the space focus on collaborative cocreation?*
 
-Ease of co-creation lends itself to a layout and a technology deployment designed around user collaboration. The right space facilitates bridge users and the technology seamlessly and eliminate friction for even the most novice users. Teams devices are designed to be user-friendly enough for young students to navigate adeptly, and for educators to control and customize from first use.
+Ease of cocreation lends itself to a layout and a technology deployment designed around user collaboration. The right space facilitates bridge users and the technology seamlessly and eliminate friction for even the most novice users. Teams devices are designed to be user-friendly enough for young students to navigate adeptly, and for educators to control and customize from first use.
 
 *What about spaces where content sharing with both in-person and remote participants is the priority?*
 
-This type of room prioritizes presentation and discussion. Content sharing and remote co-creation lend themselves to different physical layouts and technology experiences. A presentation-optimized space facilitates discussion and makes it easy for everyone to see and review shared content. 
+This type of room prioritizes presentation and discussion. Content sharing and remote cocreation lend themselves to different physical layouts and technology experiences. A presentation-optimized space facilitates discussion and makes it easy for everyone to see and review shared content. 
 
 *What if I need to do both in a single space?*
 
@@ -46,13 +46,13 @@ Remember, both types of rooms can handle both types of experiences when needed. 
 
 Tables should be fixed and located in front-of-room displays. In smaller rooms, the tables may be attached to the wall, but in larger spaces, they must be separated to accommodate camera considerations.
 
-**Co-creation spaces**
+**Cocreation spaces**
 
-Tables and co-creation equipment can have flexible positions and should accommodate groups of people working at either the tables or the equipment.
+Tables and cocreation equipment can have flexible positions and should accommodate groups of people working at either the tables or the equipment.
 
-**Combination presentation and co-creation spaces**
+**Combination presentation and cocreation spaces**
 
-A combination of uses cases from other meeting scenarios can be combined to form multi-purpose rooms where presentation focused meetings as well as co-creation work can be achieved with equal efficiency, often simultaneously.
+A combination of uses cases from other meeting scenarios can be combined to form multi-purpose rooms where presentation focused meetings as well as cocreation work can be achieved with equal efficiency, often simultaneously.
 
 ## Experience
 
@@ -134,17 +134,14 @@ As important as good audio, high-quality video is a necessity for modern Teams c
 
 ### Private office with meeting space
 
-| **Usage**  | Presentation                               |                                              |
-|------------|--------------------------------------------|----------------------------------------------|
-|            |                                            |                                              |
-| **Layout** | Typical Capacity                           | 3-4 People                                   |
-|            | Typical Dimensions                         | 10ft x 10ft                                  |
-|            | Single or Dual Primary Display Recommended | Single                                       |
-|            |                                            |                                              |
-| **Audio**  | Recommended Audio                          | Single front-of-room or tabletop device      |
-|            |                                            |                                              |
-| **Video**  | Recommended Camera                         | Short distance with ultra-wide field of view |
-|            | Minimum Display Size                       | 46in                                         |
+|Usage: Presentation  |||
+|----------|-----------|------------|
+|**Layout**   |Typical Capacity       |3-4 people        |
+||Typical Dimensions  |10ft X 10ft|
+||Single or Dual Primary Display Recommended  |Single|
+|**Audio**    |Recommended Audio    |Single front-of-room or tabletop device|
+|**Video**    |Recommended Camera    |Short distance with ultra-wide field of view|
+||	Minimum Display Size    | 46in|
 
 Private offices are often designed with meeting spaces separate from the working area so that small meetings can be held with a mix of local and remote participants.
 
@@ -170,15 +167,12 @@ The room features a single display sized so that all participants can clearly se
 
 ### Open spaces 
 
-| **Usage**  | Co-Creation                                |                      |
+| **Usage: Cocreation**  ||                      |
 |------------|--------------------------------------------|----------------------|
-|            |                                            |                      |
 | **Layout** | Typical Capacity                           | 3-12 People          |
 |            | Typical Dimensions                         | Depends on the space |
 |            | Single or Dual Primary Display Recommended | Depends on the space |
-|            |                                            |                      |
 | **Audio**  | Recommended Audio                          | Depends on the space |
-|            |                                            |                      |
 | **Video**  | Recommended Camera                         | Depends on the space |
 |            | Minimum Display Size                       | Depends on the space |
 
@@ -202,17 +196,14 @@ The counter-height table is positioned with a large Surface Hub device for use o
 
 ### Focus/huddle room
 
-| **Usage**  | Presentation                               |                                              |
-|------------|--------------------------------------------|----------------------------------------------|
-|            |                                            |                                              |
-| **Layout** | Typical Capacity                           | 3-5 People                                   |
-|            | Typical Dimensions                         | 10ft x 10ft                                  |
-|            | Single or Dual Primary Display Recommended | Single                                       |
-|            |                                            |                                              |
-| **Audio**  | Recommended Audio                          | Single front-of-room or tabletop device      |
-|            |                                            |                                              |
-| **Video**  | Recommended Camera                         | Short distance with ultra-wide field of view |
-|            | Minimum Display Size                       | 46in                                         |
+|Usage: Presentation |||
+|----------|-----------|------------|
+|**Layout**   |Typical Capacity       |3-5 people        |
+||Typical Dimensions  |10ft X 10ft|
+||Single or Dual Primary Display Recommended  |Single|
+|**Audio**    |Recommended Audio    |Single front-of-room or tabletop device|
+|**Video**    |Recommended Camera    |Short distance with ultra-wide field of view|
+||	Minimum Display Size    | 46in|
 
 These spaces are ideal for small-group collaboration and discussion.
 
@@ -234,17 +225,14 @@ The table is attached to the wall, which maximizes the flexibility of the space 
 
 ### Small traditional meeting rooms
 
-| **Usage**  | Presentation                               |                                              |
-|------------|--------------------------------------------|----------------------------------------------|
-|            |                                            |                                              |
-| **Layout** | Typical Capacity                           | 5-7 People                                   |
-|            | Typical Dimensions                         | 10ft x 15ft                                  |
-|            | Single or Dual Primary Display Recommended | Single                                       |
-|            |                                            |                                              |
-| **Audio**  | Recommended Audio                          | Single front-of-room or tabletop device      |
-|            |                                            |                                              |
-| **Video**  | Recommended Camera                         | Short distance with ultra-wide field of view |
-|            | Minimum Display Size                       | 50in                                         |
+|Usage: Presentation |||
+|----------|-----------|------------|
+|**Layout**   |Typical Capacity       |5-7 people        |
+||Typical Dimensions  |10ft X 15ft|
+||Single or Dual Primary Display Recommended  |Single|
+|**Audio**    |Recommended Audio    |Single front-of-room or tabletop device|
+|**Video**    |Recommended Camera    |Short distance with ultra-wide field of view|
+||	Minimum Display Size    | 50in|
 
 These spaces are ideal for small-group collaboration and discussion.
 
@@ -268,17 +256,14 @@ A more traditional meeting-room layout can be designed just as much for purely i
 
 ### Medium traditional meeting rooms
 
-| **Usage**  | Presentation and Co-Creation               |                                                                                                            |
-|------------|--------------------------------------------|------------------------------------------------------------------------------------------------------------|
-|            |                                            |                                                                                                            |
-| **Layout** | Typical Capacity                           | 10-12 people                                                                                               |
-|            | Typical Dimensions                         | 15ft x 20ft                                                                                                |
-|            | Single or Dual Primary Display Recommended | Single or dual                                                                                             |
-|            |                                            |                                                                                                            |
-| **Audio**  | Recommended Audio                          | Installed audio with discrete tabletop or ceiling microphones and wall-mounted or ceiling-mounted speakers |
-|            |                                            |                                                                                                            |
-| **Video**  | Recommended Camera                         | Medium-long distance camera with Pan Tilt Zoom function and/or intelligent people-tracking capabilities    |
-|            | Minimum Display Size                       | 55in for dual, larger for single                                                                           |
+|Usage: Presentation and cocreation|||
+|----------|-----------|------------|
+|**Layout**   |Typical Capacity       |10-12 people        |
+||Typical Dimensions  |15ft X 20ft|
+||Single or Dual Primary Display Recommended  |Single or dual|
+|**Audio**    |Recommended Audio|Installed audio with discrete tabletop or ceiling microphones and wall-mounted or ceiling-mounted speakers|
+|**Video**    |Recommended Camera|Medium-long distance camera with Pan Tilt Zoom function and/or intelligent people-tracking capabilities|
+||	Minimum Display Size    | 55in for dual, larger for single|
 
 This medium room is ideal for conferences and group collaboration, especially in existing spaces that already feature a classic meeting-room layout.
 
@@ -302,17 +287,14 @@ A more traditional meeting-room layout can be designed just as much for purely i
 
 ### Large traditional meeting rooms
 
-| **Usage**  | Presentation and Co-Creation               |                                                                                                            |
-|------------|--------------------------------------------|------------------------------------------------------------------------------------------------------------|
-|            |                                            |                                                                                                            |
-| **Layout** | Typical Capacity                           | 12-20 People                                                                                               |
-|            | Typical Dimensions                         | 15ft x 30ft                                                                                                |
-|            | Single or Dual Primary Display Recommended | Single or Dual                                                                                             |
-|            |                                            |                                                                                                            |
-| **Audio**  | Recommended Audio                          | Installed audio with discrete tabletop or ceiling microphones and wall-mounted or ceiling-mounted speakers |
-|            |                                            |                                                                                                            |
-| **Video**  | Recommended Camera                         | Medium-long distance camera with Pan Tilt Zoom function and/or intelligent people-tracking capabilities    |
-|            | Minimum Display Size                       | 65in for dual, larger for single                                                                           |
+|Usage: Presentation and cocreation|||
+|----------|-----------|------------|
+|**Layout**   |Typical Capacity       |12-20 people        |
+||Typical Dimensions  |15ft X 30ft|
+||Single or Dual Primary Display Recommended  |Single or dual|
+|**Audio**    |Recommended Audio|Installed audio with discrete tabletop or ceiling microphones and wall-mounted or ceiling-mounted speakers|
+|**Video**    |Recommended Camera|Medium-long distance camera with Pan Tilt Zoom function and/or intelligent people-tracking capabilities|
+||	Minimum Display Size    | 65in for dual, larger for single|
 
 A large-sized room is ideal for conferences and group collaboration, especially in existing spaces that already feature a classic meeting-room layout.
 
@@ -336,17 +318,14 @@ A more traditional meeting-room layout can be designed just as much for purely i
 
 ### Extra-large traditional meeting rooms/boardrooms
 
-| **Usage**  | Presentation and Co-Creation               |                                                                                                  |
-|------------|--------------------------------------------|--------------------------------------------------------------------------------------------------|
-|            |                                            |                                                                                                  |
-| **Layout** | Typical Capacity                           | 25-40 people                                                                                     |
-|            | Typical Dimensions                         | 28ft x 33ft                                                                                      |
-|            | Single or Dual Primary Display Recommended | Single or dual                                                                                   |
-|            |                                            |                                                                                                  |
-| **Audio**  | Recommended Audio                          | Installed ceiling or table microphones and speakers with a Digital Signal Processor (DSP)        |
-|            |                                            |                                                                                                  |
-| **Video**  | Recommended Camera                         | Long-distance camera with Pan Tilt Zoom function and/or intelligent people-tracking capabilities |
-|            | Minimum Display Size                       | 75in for dual, larger for single                                                                 |
+|Usage: Presentation and cocreation|||
+|----------|-----------|------------|
+|**Layout**   |Typical Capacity       |25-40 people        |
+||Typical Dimensions  |28ft X 33ft|
+||Single or Dual Primary Display Recommended  |Single or dual|
+|**Audio**    |Recommended Audio|Installed ceiling or table microphones and speakers with a Digital Signal Processor (DSP)|
+|**Video**    |Recommended Camera|Long-distance camera with Pan Tilt Zoom function and/or intelligent people-tracking capabilities|
+||	Minimum Display Size    | 75in for dual, larger for single|
 
 This type of space typically includes an extra-large-sized layout featuring a meeting-room table as well as an audience seating area with dual front-of-room displays.
 
@@ -370,17 +349,14 @@ This space features a principal meeting-room table for many meeting participants
 
 ### Panoramic meeting rooms
 
-| **Usage**  | Presentation and Co-Creation               |                                                                                        |
-|------------|--------------------------------------------|----------------------------------------------------------------------------------------|
-|            |                                            |                                                                                        |
-| **Layout** | Typical Capacity                           | 6-12 People                                                                            |
-|            | Typical Dimensions                         | Depends on the space                                                                   |
-|            | Single or Dual Primary Display Recommended | Dual traditional displays or dual-edge blended projectors                              |
-|            |                                            |                                                                                        |
-| **Audio**  | Recommended Audio                          | Installed ceiling or table microphones and speakers that can support directional audio |
-|            |                                            |                                                                                        |
-| **Video**  | Recommended Camera                         | Long-distance camera with ultra-wide field of view and intelligent people tracking     |
-|            | Minimum Display Size                       | Depends on the space                                                                   |
+|Usage: Presentation and cocreation|||
+|----------|-----------|------------|
+|**Layout**   |Typical Capacity       |6-12 people        |
+||Typical Dimensions  |Depends on the space|
+||Single or Dual Primary Display Recommended  |Dual traditional displays or dual-edged blended projectors|
+|**Audio**    |Recommended Audio|Installed ceiling or table microphones and speakers that can support directional audio|
+|**Video**    |Recommended Camera|Long-distance camera with ultra-wide field of view and intelligent people tracking  |
+||	Minimum Display Size    | Depends on the space|
 
 This space is dedicated to the most immersive Teams meeting experience.
 
@@ -408,25 +384,14 @@ A panoramic table layout is designed for maximum visibility and engagement with 
 
 ### Multi-purpose spaces
 
-| **Usage**  | Presentation and Co-Creation               |                                                                                        |
-|------------|--------------------------------------------|----------------------------------------------------------------------------------------|
-|            |                                            |                                                                                        |
-| **Layout** | Typical Capacity                           | Custom                                                                                 |
-|            | Typical Dimensions                         | Custom                                                                                 |
-|            | Single or Dual Primary Display Recommended | Custom                                                                                 |
-|            |                                            |                                                                                        |
-| **Audio**  | Recommended Audio                          | Installed ceiling or table microphones and speakers that can support directional audio |
-|            |                                            |                                                                                        |
-| **Video**  | Recommended Camera                         | Long-distance camera with ultra-wide field of view and intelligent people tracking     |
-|            | Minimum Display Size                       | Custom                                                                                 |
-
-| **Typical Capacity**                           | **Custom**                                                                                    |
-|------------------------------------------------|-----------------------------------------------------------------------------------------------|
-| **Typical Dimensions**                         | **Custom**                                                                                    |
-| **Single or Dual Primary Display Recommended** | **Custom**                                                                                    |
-| **Minimum Display Size**                       | **Custom**                                                                                    |
-| **Recommended Audio**                          | **Installed ceiling or table microphones and speakers with a Digital Signal Processor (DSP)** |
-| **Recommended Camera**                         | **Long-distance camera with ultra-wide field of view and intelligent people tracking**        |
+|Usage: Presentation and cocreation|||
+|----------|-----------|------------|
+|**Layout**   |Typical Capacity       |Custom        |
+||Typical Dimensions  |Custom|
+||Single or Dual Primary Display Recommended  |Custom|
+|**Audio**    |Recommended Audio|Installed ceiling or table microphones and speakers that can support directional audio|
+|**Video**    |Recommended Camera|Long-distance camera with ultra-wide field of view and intelligent people tracking |
+||	Minimum Display Size    |Custom|
 
 Teams can be implemented in almost any educational or multi-purpose space you can think of. Libraries, mixed-use presentation and collaboration spaces, café spaces, and open-air spaces can all be outfitted with a Teams system or Teams devices.
 
@@ -446,17 +411,14 @@ A room system with a large, projector-based front-of-room display, multiple touc
 
 ### Classrooms
 
-| **Usage**  | Presentation and Co-Creation               |                                                                                                            |
-|------------|--------------------------------------------|------------------------------------------------------------------------------------------------------------|
-|            |                                            |                                                                                                            |
-| **Layout** | Typical Capacity                           | Custom                                                                                                     |
-|            | Typical Dimensions                         | Custom                                                                                                     |
-|            | Single or Dual Primary Display Recommended | Custom                                                                                                     |
-|            |                                            |                                                                                                            |
-| **Audio**  | Recommended Audio                          | Installed audio with discrete tabletop or ceiling microphones and wall-mounted or ceiling-mounted speakers |
-|            |                                            |                                                                                                            |
-| **Video**  | Recommended Camera                         | Medium-long distance camera with Pan Tilt Zoom function and/or intelligent people-tracking capabilities    |
-|            | Minimum Display Size                       | Custom                                                                                                     |
+|Usage: Presentation and cocreation|||
+|----------|-----------|------------|
+|**Layout**   |Typical Capacity       |Custom        |
+||Typical Dimensions  |Custom|
+||Single or Dual Primary Display Recommended  |Custom|
+|**Audio**    |Recommended Audio|Installed audio with discrete tabletop or ceiling microphones and wall-mounted or ceiling-mounted speakers|
+|**Video**    |Recommended Camera|Medium-long distance camera with Pan Tilt Zoom function and/or intelligent people-tracking capabilities|
+||	Minimum Display Size    |Custom|
 
 Classrooms, including traditional and reverse classrooms, require active engagement from everyone present. Effective instruction, discussion, and collaboration among many parties is key.
 
@@ -478,17 +440,14 @@ A large display gives remote participants a physical presence within the room, a
 
 ### Lecture halls and auditoriums
 
-| **Usage**  | Presentation and Co-Creation               |                                                                                                            |
-|------------|--------------------------------------------|------------------------------------------------------------------------------------------------------------|
-|            |                                            |                                                                                                            |
-| **Layout** | Typical Capacity                           | Custom                                                                                                     |
-|            | Typical Dimensions                         | Custom                                                                                                     |
-|            | Single or Dual Primary Display Recommended | Custom                                                                                                     |
-|            |                                            |                                                                                                            |
-| **Audio**  | Recommended Audio                          | Installed audio with discrete tabletop or ceiling microphones and wall-mounted or ceiling-mounted speakers |
-|            |                                            |                                                                                                            |
-| **Video**  | Recommended Camera                         | Medium-long distance camera with Pan Tilt Zoom function and/or intelligent people-tracking capabilities    |
-|            | Minimum Display Size                       | Custom                                                                                                     |
+|Usage: Presentation and cocreation|||
+|----------|-----------|------------|
+|**Layout**   |Typical Capacity       |Custom        |
+||Typical Dimensions  |Custom|
+||Single or Dual Primary Display Recommended  |Custom|
+|**Audio**    |Recommended Audio|Installed audio with discrete tabletop or ceiling microphones and wall-mounted or ceiling-mounted speakers|
+|**Video**    |Recommended Camera|Medium-long distance camera with Pan Tilt Zoom function and/or intelligent people-tracking capabilities|
+||	Minimum Display Size    |Custom|
 
 Much like classrooms, lecture halls contain numerous students who must focus on an educator and any information they’re presenting. However, lecture halls generally don’t require the same amount of interaction among students. The focus is on information, not collaboration.
 
