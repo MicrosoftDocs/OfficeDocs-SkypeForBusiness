@@ -139,11 +139,11 @@ The table below summarizes the difference between Media Processors and Transport
 
 |  &nbsp; | Media Processors | Transport Relays|
 | :--------------|:---------------|:------------|
-In media path for non-bypassed calls for end users | Always | If client cannot reach the Media Processor directly | 
-In media path for bypassed calls for end users | Never | If client cannot reach the SBC on the public IP address | 
-In media path for voice applications | Always | Never | 
-Can do transcoding (B2BUA)\* | Yes | No, only relays audio between endpoints | 
-Number of instances worldwide and location | 10 total: 2 in US East and West; 2 in Amsterdam and Dublin; 2 in Hong Kong and Singapore; 2 in Japan ; 2 in Australia East and Southeast | Multiple
+|In media path for non-bypassed calls for end users | Always | If client cannot reach the Media Processor directly |
+|In media path for bypassed calls for end users | Never | If client cannot reach the SBC on the public IP address |
+|In media path for voice applications | Always | Never |
+|Can do transcoding (B2BUA)\* | Yes | No, only relays audio between endpoints |
+|Number of instances worldwide and location | 10 total: 2 in US East and West; 2 in Amsterdam and Dublin; 2 in Hong Kong and Singapore; 2 in Japan ; 2 in Australia East and Southeast | Multiple|
 
 The IP ranges are:
 - 52.112.0.0/14 (IP addresses from 52.112.0.1 to 52.115.255.254)
@@ -236,7 +236,7 @@ You must use the following ports:
 
 | Traffic | From | To | Source port | Destination port|
 | :-------- | :-------- |:-----------|:--------|:---------|
-SIP/TLS| SIP Proxy | SBC | 1024 - 65535 | Defined on the SBC |
+| SIP/TLS| SIP Proxy | SBC | 1024 - 65535 | Defined on the SBC |
 | SIP/TLS | SBC | SIP Proxy | Defined on the SBC | 5061 |
 
 
@@ -253,7 +253,7 @@ The client must have access to the specified ports (see table) on the public IP 
 
 | Traffic | From | To | Source port | Destination port|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | Client | SBC | 3478-3481 and 49152 – 53247| Defined on the SBC |
+| UDP/SRTP | Client | SBC | 3478-3481 and 49152 – 53247| Defined on the SBC |
 | UDP/SRTP | SBC | Client | Defined on the SBC | 3478-3481 and 49152 – 53247  |
 
 
@@ -282,7 +282,7 @@ The port range of the Teams Transport Relays (applicable to all environments) is
 
 | Traffic | From | To | Source port | Destination port|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | Transport Relay | SBC | 50 000 -59 999    | Defined on the SBC |
+| UDP/SRTP | Transport Relay | SBC | 50 000 -59 999    | Defined on the SBC |
 | UDP/SRTP | SBC | Transport Relay | Defined on the SBC | 50 000 – 59 999, 3478-3481     |
 
 
@@ -320,7 +320,7 @@ The port range of the Media Processors (applicable to all environments) is shown
 
 | Traffic | From | To | Source port | Destination port|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | Media Processor | SBC | 3478-3481 and 49 152 – 53 247    | Defined on the SBC |
+| UDP/SRTP | Media Processor | SBC | 3478-3481 and 49 152 – 53 247    | Defined on the SBC |
 | UDP/SRTP | SBC | Media Processor | Defined on the SBC | 3478-3481 and 49 152 – 53 247     |
 
 ## Configure separate trunks for media bypass and non-media bypass  
@@ -343,8 +343,8 @@ The example below illustrates this logic.
 
 | Set of users | Number of users | Trunk FQDN assigned in OVRP | Media bypass enabled |
 | :------------ |:----------------- |:--------------|:--------------|
-Users with non-media bypass trunk | 980 | sbc1.contoso.com:5061 | false |
-Users with media bypass trunk | 20 | sbc2.contoso.com:5060 | true | 
+| Users with non-media bypass trunk | 980 | sbc1.contoso.com:5061 | false |
+| Users with media bypass trunk | 20 | sbc2.contoso.com:5060 | true | 
 
 Both trunks can point to the same SBC with the same public IP address. The TLS signaling ports on the SBC must be different, as shown in the following diagram. Note you will need to make sure that your certificate supports both trunks. In SAN, you need to have two names (**sbc1.contoso.com** and **sbc2.contoso.com**) or have a wildcard certificate.
 
