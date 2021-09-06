@@ -1,6 +1,6 @@
 ---
 title: "Lync qualified applications"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand

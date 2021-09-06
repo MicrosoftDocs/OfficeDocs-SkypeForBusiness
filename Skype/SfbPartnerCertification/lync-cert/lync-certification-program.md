@@ -1,6 +1,6 @@
 ---
 title: "Solutions qualified with Lync Online Dedicated"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
