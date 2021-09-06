@@ -29,7 +29,7 @@ By default, users in Microsoft 365 can create and manage groups. For more inform
 
 ## How Microsoft 365 Groups work with Teams
 
-When you create a team, a Microsoft 365 group is created to manage team membership. The group's related services, such as a SharePoint site, Power BI workspace, etc. are created at the same time.
+When you create a team, a Microsoft 365 group is created to manage team membership. The group's related services, such as a SharePoint site, Power BI workspace, etc. (Except Planner) are created at the same time.
 
 People who create teams can choose to use an existing Microsoft 365 group if they are an owner of that group. Each channel in the team has a separate folder in the document library. Creating folders directly in the document library does not create channels in the team.
 
