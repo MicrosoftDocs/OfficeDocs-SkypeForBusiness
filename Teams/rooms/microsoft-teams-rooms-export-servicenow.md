@@ -16,7 +16,7 @@ description: Learn about exporting a ServiceNow instance to the Teams Rooms mana
 f1keywords: 
 ---
 
-# Export a ServiceNow instance to the Teams Rooms Managed Services
+# Export a ServiceNow instance to the Teams Rooms Premium Managed Services
 
 This article will provide the prerequisites and configuration steps to integrate ServiceNow IT service management into the Microsoft Teams Rooms Premium portal.
 
