@@ -54,7 +54,7 @@ In Bookings, select **New booking**, and then turn on **Allow attendees to join 
 
 ### Appointments scheduled through the Teams EHR connector
 
-No setup is needed by you or your staff!
+No set up is needed by you or your staff!
 
 The Teams EHR connector supports patients joining virtual visits through MyChart web and mobile. At the time of the appointment, patients can start a virtual visit from MyChart by using the **Begin virtual visit** button. The patient chooses the browser they want, and then Teams opens in that browser.
 
