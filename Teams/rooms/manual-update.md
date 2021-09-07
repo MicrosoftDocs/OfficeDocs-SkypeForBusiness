@@ -70,3 +70,13 @@ You can also run the script by using Remote PowerShell. For more information abo
 If the script runs successfully, the device will reboot into the Teams Rooms app.
 
 If the script encounters a problem, it will indicate what the problem is on the command line and record its output to a file. Follow any instructions that the script provides. If you need to contact Microsoft Support, make sure to include the log file along with the support request. The script will provide you with the path to the log file.
+
+> [!NOTE]
+> It's essential that Windows Updates are run after manually updating the Teams Room app since the Teams Room app might fail to launch if the required Windows Updates are not installed.
+
+Do the following to check for updates:
+
+1. Switch to Admin Mode
+2. Click the Start icon, type **Windows Update**, and then select **Open**
+3. Select **Check for updates**
+4. If updates are found, select **Install now**
