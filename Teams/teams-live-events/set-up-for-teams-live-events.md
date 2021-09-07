@@ -45,11 +45,11 @@ Live events policies are used to control who in your organization can hold live 
 
 <a name="bkcreatepolicy"> </a>
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Live events policies**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Live events policies** > **Manage Policies** tab.
 2. Do one of the following options:
 
     - If you want to edit the existing default policy, choose **Global (Org-wide default)**.
-    - If you want to create a new custom policy, choose **Add**.
+    - If you want to create a new custom policy, choose **+Add**.
     - If you want to edit a custom policy, select the policy, and then choose **Edit**.
 
     Here are the settings you can change to fit the needs of your organization.
