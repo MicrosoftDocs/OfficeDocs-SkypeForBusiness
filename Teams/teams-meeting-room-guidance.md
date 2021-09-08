@@ -22,7 +22,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Meeting room gudiance for Teams
+# Meeting room guidance for Teams
 
 This article is intended to guide users on how to optimize meeting spaces with Microsoft Teams Rooms solutions and devices. It includes information on Teams Rooms device and solution uses, layouts, and specifications.
 
