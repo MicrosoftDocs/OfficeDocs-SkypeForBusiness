@@ -1457,6 +1457,8 @@ items:
               href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
             - name: Virtual visits with Bookings and Teams
               href: bookings-app-admin.md
+            - name: Manage the join experience on mobile browsers
+              href: expand-teams-across-your-org/mobile-browser-join.md              
         - name: View and assign policy packages
           href: policy-packages-healthcare.md
         - name: Secure messaging
