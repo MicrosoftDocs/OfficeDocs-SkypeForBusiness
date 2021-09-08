@@ -1,5 +1,5 @@
 ---
-title: Export your ServiceNow configuration to the Teams Rooms Premium portal
+title: Export a ServiceNow instance to the Teams Rooms Premium portal
 author: cazawideh
 ms.author: czawideh
 manager: serdars
@@ -10,11 +10,11 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
-description: Learn about exporting a ServiceNow configuration to the Teams Rooms Premium portal
+description: Learn about exporting a ServiceNow instance to the Teams Rooms Premium portal
 f1keywords: 
 ---
 
-# Export your ServiceNow configuration to the Teams Rooms Premium Managed Services
+# Export a ServiceNow configuration to the Teams Rooms Premium Managed Services
 
 This article will provide the prerequisites and configuration steps to integrate ServiceNow IT service management into the Microsoft Teams Rooms Premium portal.
 
