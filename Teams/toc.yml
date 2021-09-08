@@ -1616,6 +1616,8 @@ items:
           href: sharepoint-onedrive-interact.md
     - name: Teams devices for Education
       href: devices-for-education.md
+    - name: Meeting room guidance for Teams
+      href: teams-meeting-room-guidance.md
     - name: Supported devices
       items: 
         - name: Manage your devices in Teams
