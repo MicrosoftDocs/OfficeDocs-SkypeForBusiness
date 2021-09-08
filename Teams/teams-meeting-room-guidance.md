@@ -149,7 +149,7 @@ This section explores some examples of how to tackle the various spaces found th
 
 ### Private office with meeting space
 
-| **Usage**        | **Layout**                                         | **Audio**                                                  | **Video**                                                        |
+| Usage | Layout | Audio | Video |
 |------------------|----------------------------------------------------|------------------------------------------------------------|------------------------------------------------------------------|
 | Meet and Present | Typical capacity: 3-4 people                       | Recommended audio: Single front-of-room or tabletop device | Recommended camera: Short distance with ultra-wide field of view |
 |                  | Typical dimensions: 10 ft x 10 ft                  |                                                            | Minimum display size: 46in                                       |
@@ -179,7 +179,7 @@ The room features a single display sized so that all participants can clearly se
 
 ### Open spaces
 
-| **Usage**          | **Layout**                               | **Audio**                               | **Video**                                  |
+| Usage | Layout | Audio | Video |
 |--------------------|------------------------------------------|-----------------------------------------|--------------------------------------------|
 | Meet and Co-create | Typical capacity: 3-13 people            | Recommended audio: Depends on the space | Recommended camera: Depends on the space   |
 |                    | Typical dimensions: Depends on the space |                                         | Minimum display size: Depends on the space |
@@ -205,7 +205,7 @@ The counter-height table is positioned with a large Surface Hub device for use o
 
 ### Focus/huddle room
 
-| **Usage**        | **Layout**                                         | **Audio**                                                  | **Video**                                                        |
+| Usage | Layout | Audio | Video |
 |------------------|----------------------------------------------------|------------------------------------------------------------|------------------------------------------------------------------|
 | Meet and Present | Typical capacity: 3-5 people                       | Recommended audio: Single front-of-room or tabletop device | Recommended camera: Short distance with ultra-wide field of view |
 |                  | Typical dimensions: 10 ft x 10 ft                  |                                                            | Minimum display size: 46in                                       |
@@ -231,7 +231,7 @@ The table is attached to the wall, which maximizes the flexibility of the space 
 
 ### Small traditional meeting rooms
 
-| **Usage**        | **Layout**                                         | **Audio**                                                  | **Video**                                                        |
+| Usage | Layout | Audio | Video |
 |------------------|----------------------------------------------------|------------------------------------------------------------|------------------------------------------------------------------|
 | Meet and Present | Typical capacity: 5-7 people                       | Recommended audio: Single front-of-room or tabletop device | Recommended camera: Short distance with ultra-wide field of view |
 |                  | Typical dimensions: 10 ft x 15 ft                  |                                                            | Minimum display size: 50in                                       |
@@ -259,7 +259,7 @@ A more traditional meeting-room layout can be designed just as much for purely i
 
 ### Medium traditional meeting rooms
 
-| **Usage**                    | **Layout**                                                 | **Audio**                                                                                                                     | **Video**                                                                                                                   |
+| Usage | Layout | Audio | Video |
 |------------------------------|------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
 | Meet and present + co-create | Typical capacity: 10-12 people                             | Recommended audio: Installed audio with discrete tabletop or ceiling microphones and wall-mounted or ceiling-mounted speakers | Recommended camera: Medium-long distance camera with Pan Tilt Zoom function and/or intelligent people-tracking capabilities |
 |                              | Typical dimensions: 15 ft x 20 ft                          |                                                                                                                               | Minimum display size: 55in for dual, larger for single                                                                      |
@@ -287,7 +287,7 @@ A more traditional meeting-room layout can be designed just as much for purely i
 
 ### Large traditional meeting rooms
 
-| **Usage**                    | **Layout**                                                 | **Audio**                                                                                                                     | **Video**                                                                                                                   |
+| Usage | Layout | Audio | Video |
 |------------------------------|------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
 | Meet and present + co-create | Typical capacity: 12-20 people                             | Recommended audio: Installed audio with discrete tabletop or ceiling microphones and wall-mounted or ceiling-mounted speakers | Recommended camera: Medium-long distance camera with Pan Tilt Zoom function and/or intelligent people-tracking capabilities |
 |                              | Typical dimensions: 15 ft x 30 ft                          |                                                                                                                               | Minimum display size: 65in for dual, larger for single                                                                      |
@@ -315,7 +315,7 @@ A more traditional meeting-room layout can be designed just as much for purely i
 
 ### Extra-large traditional meeting rooms/boardrooms
 
-| **Usage**                    | **Layout**                                                 | **Audio**                                                                                                    | **Video**                                                                                                            |
+| Usage | Layout | Audio | Video |
 |------------------------------|------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | Meet and present + co-create | Typical capacity: 25-40 people                             | Recommended audio: Installed ceiling or table microphones and speakers with a Digital Signal Processor (DSP) | Recommended camera: Long-distance camera with Pan Tilt Zoom function and/or intelligent people-tracking capabilities |
 |                              | Typical dimensions: 28 ft x 33 ft                          |                                                                                                              | Minimum display size: 75in for dual, larger for single                                                               |
@@ -343,7 +343,7 @@ This space features a principal meeting-room table for many meeting participants
 
 ### Panoramic meeting rooms
 
-| **Usage**                    | **Layout**                                                                                             | **Audio**                                                                                                 | **Video**                                                                                              |
+| Usage | Layout | Audio | Video |
 |------------------------------|--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Meet and present + co-create | Typical capacity: 6-12 people                                                                          | Recommended audio: Installed ceiling or table microphones and speakers that can support directional audio | Recommended camera: Long-distance camera with ultra-wide field of view and intelligent people tracking |
 |                              | Typical dimensions: Depends on the space                                                               |                                                                                                           | Minimum display size: Depends on the space                                                             |
@@ -374,7 +374,7 @@ A panoramic table layout is designed for maximum visibility and engagement with 
 
 ### Multi-purpose spaces
 
-| **Usage**                    | **Layout**                                         | **Audio**                                                                                                 | **Video**                                                                                              |
+| Usage | Layout | Audio | Video |
 |------------------------------|----------------------------------------------------|-----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Meet and present + co-create | Typical capacity: Custom                           | Recommended audio: Installed ceiling or table microphones and speakers that can support directional audio | Recommended camera: Long-distance camera with ultra-wide field of view and intelligent people tracking |
 |                              | Typical dimensions: Custom                         |                                                                                                           | Minimum display size: Custom                                                                           |
@@ -398,7 +398,7 @@ A Teams Rooms solution with a large, projector-based front-of-room display, mult
 
 ### Classrooms
 
-| **Usage**                    | **Layout**                                         | **Audio**                                                                                                                     | **Video**                                                                                                                   |
+| Usage | Layout | Audio | Video |
 |------------------------------|----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
 | Meet and present + co-create | Typical capacity: Custom                           | Recommended audio: Installed audio with discrete tabletop or ceiling microphones and wall-mounted or ceiling-mounted speakers | Recommended camera: Medium-long distance camera with Pan Tilt Zoom function and/or intelligent people-tracking capabilities |
 |                              | Typical dimensions: Custom                         |                                                                                                                               | Minimum display size: Custom                                                                                                |
@@ -424,7 +424,7 @@ A large display gives remote participants a physical presence within the room, a
 
 ### Lecture halls and auditoriums
 
-| **Usage**                    | **Layout**                                         | **Audio**                                                                                                                     | **Video**                                                                                                                |
+| Usage | Layout | Audio | Video |
 |------------------------------|----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Meet and present + co-create | Typical capacity: Custom                           | Recommended audio: Installed audio with discrete tabletop or ceiling microphones and wall-mounted or ceiling-mounted speakers | Recommended camera: Medium-long distance camera with Pan Tilt Zoom function and/or intelligent people-tracking abilities |
 |                              | Typical dimensions: Custom                         |                                                                                                                               | Minimum display size: Custom                                                                                             |
