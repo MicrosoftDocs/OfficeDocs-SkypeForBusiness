@@ -26,7 +26,7 @@ appliesto:
 
 This article is intended to guide users on how to optimize meeting spaces with Microsoft Teams Rooms solutions and devices. It includes information on Teams Rooms device and solution uses, layouts, and specifications.
 
-The Example spaces section of this article includes specifications and rendered room layouts and is a great way to visualize and plan a Teams device and/or Teams Rooms solution deployment.
+The [Example spaces](#example-spaces) section of this article includes specifications and rendered room layouts and is a great way to visualize and plan a Teams device and/or Teams Rooms solution deployment.
 
 ## Meeting room uses and layouts
 
