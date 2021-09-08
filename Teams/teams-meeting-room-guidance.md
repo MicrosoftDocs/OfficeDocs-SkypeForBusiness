@@ -36,7 +36,7 @@ Microsoft Teams Rooms solutions offer flexibility of purpose and even flexibilit
 
 Meet and present meetings are the first bucket, and this meeting is generally more formal. Audio-visual is a priority, and there is a focus on presenting content. The device is typically fixed, allowing users to remain seated while interacting with the device from a center-of-table console.
 
-Meet and present spaces prioritize presentation and discussion, which means the layout and technology must be optimized for content sharing and remote co-creation. Everyone needs need to be involved in the discussion and must be able to see and interact with shared content.
+Meet and present spaces prioritize presentation and discussion, which means the layout and technology must be optimized for content sharing and remote co-creation. Everyone needs to be involved in the discussion and must be able to see and interact with shared content.
 
 **Meet and present** **space layouts:** Tables should be fixed and located in front-of-room displays. In smaller rooms, the tables may be attached to the wall, but in larger spaces, they must be separated to accommodate camera considerations.
 
@@ -52,7 +52,7 @@ The right space bridges users and the technology seamlessly and eliminates frict
 
 Remember, both types of rooms can handle both types of experiences when needed. Rooms can also be designed to accommodate both easily by having technology for each use. The important thing to remember is that no matter what space you are equipping, from a private office to a lecture hall, it needs to be Teams enabled.
 
-**Combination presentation and co-creation space layouts:** A combination of use cases from other meeting scenarios can be combined to form multi-purpose rooms where presentation-focused meetings as well as co-creation work can be achieved with equal efficiency, often simultaneously.
+**Combination presentation and co-creation space layouts:** A combination of use cases from other meeting scenarios can be combined to form multi-purpose rooms where presentation-focused meetings, as well as co-creation work, can be achieved with equal efficiency, often simultaneously.
 
 ## Optimizing the meeting experience
 A great meeting experience is the result of using the best possible technology for a meeting space in ways that facilitate the exchange of ideas without being intrusive.
@@ -87,11 +87,11 @@ You can start with this plan by addressing all your non-AV or non-collaboration-
 
 If you install Teams Rooms solutions or if you already have rooms that have already been deployed with appropriate Teams Rooms devices for their respective spaces, then you are well on your way to having great meeting experiences.
 
-*Audio:* Audio for these meetings spaces will be handled by the Teams Rooms solution and its Microsoft-certified audio devices.
+*Audio:* Audio for these meeting spaces will be handled by the Teams Rooms solution and its Microsoft-certified audio devices.
 
 *Video:* Video in these spaces will be handled by the Teams Rooms solution and its Microsoft-certified cameras.
 
-*Engagement:* Your end users will be able to take advantage of the complete Teams Rooms experience for their meetings, ensuring that everyone is able to join meetings easily and have great and audio and video.
+*Engagement:* Your end users will be able to take advantage of the complete Teams Rooms experience for their meetings, ensuring that everyone can join meetings easily and have great and audio and video.
 
 #### Best experience – Teams Rooms solutions used in conjunction with personal devices
 
@@ -99,7 +99,7 @@ Training your users to use technology in coordination leads to the most efficien
 
 *Audio:* Most meeting-room connectivity and audio-video work will be handled by the Teams Rooms solution, while individual users can join the same meeting with cameras on and audio off for a completely immersive experience.
 
-*Video:* Remote users will be able to see everyone clearly take part in the meeting beyond just speaking and content sharing. A remote user can turn on personal video to gain a view from anywhere in the room with the ability to focus in on any participant.
+*Video:* Remote users will be able to see everyone take part in the meeting beyond just speaking and content sharing. A remote user can turn on personal video to gain a view from anywhere in the room with the ability to focus in on any participant.
 
 *Engagement:* Chat can remain dynamic with all participants, local and remote, involved and engaged. Video sharing from both Teams Rooms and via individual cameras allows remote participants to feel engaged with everyone.
 
@@ -135,7 +135,7 @@ Video is equally important as audio. Capturing physical, non-verbal communicat
 
 As important as good audio, high-quality video is a necessity for modern Teams collaboration. Technology for cameras has advanced significantly with high-quality cameras now available for all spaces.
 
--   Included cameras in devices like laptops and tablets should be used in all meetings to ensure that everyone is seen and hear. For users looking to bring a richer video experience to **a** **personal space**, external cameras represent a step up from embedded devices and can be used in a greater number of scenarios and configurations, ensuring that call participants share the best quality view of themselves. These devices easily install with simple USB connection found on every PC.
+-   Included cameras in devices like laptops and tablets should be used in all meetings to ensure that everyone is seen and heard. For users looking to bring a richer video experience to **a** **personal space**, external cameras represent a step up from embedded devices and can be used in a greater number of scenarios and configurations, ensuring that call participants share the best quality view of themselves. These devices easily install with simple USB connection found on every PC.
 
 -   In shared spaces, the options and features expand. **Smaller rooms** may be covered by cameras included within all-in-one audio devices, such as soundbars. These cameras typically feature a wide field of view, ensuring that they capture every participant in the space in a single shot. Many of these cameras also feature things like intelligent framing of the image, so that the camera only shows the people in the meeting and not empty chairs, or people counting, to track and understand space utilization.
 
@@ -157,7 +157,7 @@ This section explores some examples of how to tackle the various spaces found th
 
 Private offices are often designed with meeting spaces separate from the working area so that small meetings can be held with a mix of local and remote participants.
 
-![Render of private working space with separate meeting and work space.](media/look1.png) 
+![Render of private working space with separate meeting and workspace.](media/look1.png) 
 
 *The solution shown is:*
 
@@ -366,7 +366,7 @@ A panoramic table layout is designed for maximum visibility and engagement with 
 
 -   Surface Hub 2 for annotation and whiteboarding
 
--   Installed audio-visual components featuring ceiling-mounted and front-of-room audio devices for maximum coverage of participants throughout the space with a consideration for spatial audio
+-   Installed audio-visual components featuring ceiling-mounted and front-of-room audio devices for maximum coverage of participants throughout the space with consideration for spatial audio
 
 -   An intelligent, ultrawide-angle front-of-room camera to capture every participant in the space
 
@@ -414,7 +414,7 @@ A classroom designed for both in-person and remote student participants with a l
 
 *Why this layout and device type?*
 
-A large display gives remote participants a physical presence within the room, along with front-of-the-room speakers that allow their voices to be heard by all, even by those at desks furthest from the source. Microphones are situated at the front of the room and throughout the space so teachers and students can move around the room and still be heard. A presentation screen is dedicated to content for both in-room and remote participants.
+A large display gives remote participants a physical presence within the room, along with front-of-the-room speakers that allow their voices to be heard by all, even by those at desks furthest from the source. Microphones are situated at the front of the room and throughout the space, so teachers and students can move around the room and still be heard. A presentation screen is dedicated to content for both in-room and remote participants.
 
 *Pictured here:*
 
