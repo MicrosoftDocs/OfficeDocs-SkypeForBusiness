@@ -1,5 +1,5 @@
 ---
-title: Export a ServiceNow instance to the Teams Rooms Premium portal
+title: Configure ServiceNow for Teams Rooms
 author: cazawideh
 ms.author: czawideh
 manager: serdars
@@ -10,32 +10,32 @@ audience: Admin
 appliesto: 
   - Microsoft Teams
 localization_priority: Normal
-description: Learn about exporting a ServiceNow instance to the Teams Rooms Premium portal
+description: Learn about configuring ServiceNow in the Teams Rooms Premium portal 
 f1keywords: 
 ---
 
-# Export a ServiceNow configuration to the Teams Rooms Premium Managed Services
+# Configure ServiceNow for Teams Rooms
 
-This article will provide the prerequisites and configuration steps to integrate ServiceNow IT service management into the Microsoft Teams Rooms Premium portal.
+This article describes the prerequisites and steps to configure your ServiceNow environment in the Teams Rooms Premium portal.
 
 ## Before you begin
 
 ### Teams Rooms prerequisites
 
-- An assigned Service Administrator role. For more information, see [Role-based access control with the Microsoft Teams Rooms Managed Services](microsoft-teams-rooms-premium-rbac.md).
+- You must have an assigned Service Administrator role. For more information, see [Role-based access control with the Microsoft Teams Rooms Managed Services](microsoft-teams-rooms-premium-rbac.md).
 
 ### ServiceNow prerequisites
 
-- A Basic Authorization sign-in, OR an OAuth sign-in
+- A Basic Authorization sign-in, OR an OAuth sign-in. For more information, see [Creating Credentials](https://developer.servicenow.com/dev.do#!/learn/learning-plans/rome/servicenow_application_developer/app_store_learnv2_rest_rome_creating_credentials) in ServiceNow.
 - A service now instance and its Instance Host name and API URI
 - A role of incident_manager or higher
 - A software version of ServiceNow that supports Table API
 
 ## Configure your Teams Rooms Premium environment
 
-How your environment is configured is highly customizable and will depend on your business needs. The following steps walk through how to copy your existing configuration in ServiceNow to the Teams Rooms Premium portal.
+How your environment is configured is highly customizable and will depend on your organization's needs. The following steps walk through how to copy your existing configuration in ServiceNow to the Teams Rooms Premium portal.
 
-1. Open the ServiceNow instance you want to export. You'll need to reference this as you complete the configuration form in the Teams Rooms Premium portal.
+1. Open the ServiceNow instance you want to copy. You'll need to reference this as you complete the configuration form in the Teams Rooms Premium portal.
 2. In a new browser tab, go to the [Teams Rooms Premium portal](https://portal.rooms.microsoft.com/) and go to **Settings**. Then, select **ServiceNow** in the left navigation menu to open the configuration form.
 3. Select an authentication method to sign in and enter your ServiceNow Instance Host and API URI.
 4. All required items in the ServiceNow Field column of the Field Mapping section should be pre-filled. The table below contains each ServiceNow field and its corresponding Microsoft Teams Rooms field. Complete the action for each row of the Field Mapping section. For definitions of each ServiceNow field, see [ServiceNow field definitions](#servicenow-field-definitions).

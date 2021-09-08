@@ -777,8 +777,8 @@ items:
               href: rooms/obtaining-assigning-license.md
             - name: Enroll in MTRP managed service
               href: rooms/enrolling-mtrp-managed-service.md
-            - name: Export a ServiceNow instance to the Teams Rooms Premium portal
-              href: rooms/microsoft-teams-rooms-export-servicenow.md
+            - name: Configure ServiceNow for Teams Rooms
+              href: rooms/microsoft-teams-rooms-configure-servicenow.md
 
              
 
