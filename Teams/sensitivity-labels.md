@@ -1,9 +1,9 @@
 ---
 title: Sensitivity labels for Microsoft Teams
-ms.author: mikeplum
+ms.author: cabailey
 author: cabailey
 manager: laurawi
-ms.reviewer: abgupta
+ms.reviewer: shubjain
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
