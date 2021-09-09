@@ -88,7 +88,7 @@ Messaging policies control which chat and channel messaging features are availab
 
 ### External access
 
-External access (formerly known as federation) lets your Teams and Skype for Business users communicate with users who are outside of your organization. By turning this on and adding domains to the allowed list, your users can communicate with users in other domains and organizations. External access differs from guest access in that an entire domain is given access permission, not an individual. External access is turned off by default.
+External access (formerly known as federation) lets your Teams and Skype for Business users communicate with users who are outside of your organization. By turning this on and adding domains to the allowed list, your users can communicate with users in other domains and organizations. External access differs from guest access in that an entire domain is given access permission, not an individual. External access is turned on by default.
 
 |Ask yourself|Action |
 |------------|-------|
@@ -97,7 +97,7 @@ External access (formerly known as federation) lets your Teams and Skype for Bus
 
 ### Guest access
 
-Guest access in Teams lets individuals outside your organization access teams and channels. You can use the guest access settings to control which features guest users can or can't use. Guest access is turned off by default. To learn more, see [Guest access in Teams](./guest-access.md).
+Guest access in Teams lets individuals outside your organization access teams and channels. You can use the guest access settings to control which features guest users can or can't use. Guest access is turned on by default. To learn more, see [Guest access in Teams](./guest-access.md).
 
 > [!NOTE]
 > For more on External access and Guest access see here - [Communicate with users from other organizations in Microsoft Teams](communicate-with-users-from-other-organizations.md)
