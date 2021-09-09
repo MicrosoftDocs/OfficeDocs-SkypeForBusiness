@@ -178,7 +178,7 @@ The following diagram shows the traffic flow when a user is outside of the corpo
 
 Diagram 4. Traffic flow when the user is external with a proxy SBC and with connected downstream SBCs
 
-![Diagram again shows traffic flow Local Media Optimization](media/direct-routing-media-op-4.png "Traffic flow in case of proxy SBC with connected downstream SBCs when user is external")
+![Diagram again shows traffic flow Local Media Optimization.](media/direct-routing-media-op-4.png "Traffic flow in case of proxy SBC with connected downstream SBCs when user is external")
 
 ## Local Media Optimization modes
 
@@ -255,7 +255,7 @@ The following diagram shows the high-level traffic flow when the internal German
 
 Diagram 6.  Traffic flow with “Always Bypass” mode and the user is not in “home” site but in the internal network
 
-![A diagram shows traffic flow Local Media Optimization](media/direct-routing-media-op-6.png "Traffic flow with “Always Bypass” mode and user is not in “home” site but in internal network")
+![A diagram shows traffic flow Local Media Optimization.](media/direct-routing-media-op-6.png "Traffic flow with “Always Bypass” mode and user is not in “home” site but in internal network")
 
 ### Mode 2: Only for local users
 
@@ -337,3 +337,4 @@ The following is a list of known issues that are currently present in Local Medi
 | Call escalations result in dropped calls when the Teams client is identified as internal.| Disable Local Media Optimization on the Direct Routing SBC.|
 | Call escalations from 1 to 1 call between internal customers to multiparty call with external customer/resource result in dropped calls | Work in progress on a fix. Alternatively, disable Local Media Optimization on the Direct Routing SBC.|
 | Teams user puts the call On Hold. Music plays on the PSTN end and Local Media Optimization is working. The Teams user resumes the call. The call to PSTN resumes but Local Media Optimization is not working and the call continues via Central (Proxy) SBC | When a user parks a call to initiate music on hold (MoH), it is being escalated from 1:1 to a multiparty call by the Call Controller to invoke Media Controller and Media Processor (serving as AVMCU mixer) through which MoH reaches a user who has been put on hold. De-escalation to a 1:1 call after the call resumes never happens as per design. Disable Local Media Optimization on the Direct Routing SBC.|
+|While a call is being established for a few seconds, the user might hear silence.| Due to the complexity of Local Media Optimization architecture, this might occur in some cases.|

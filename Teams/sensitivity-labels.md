@@ -1,9 +1,9 @@
 ---
 title: Sensitivity labels for Microsoft Teams
-ms.author: mikeplum
+ms.author: cabailey
 author: cabailey
 manager: laurawi
-ms.reviewer: abgupta
+ms.reviewer: shubjain
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -48,22 +48,22 @@ For example, you create and publish a sensitivity label named "Confidential" tha
 
 When a user creates a new team and selects the **Confidential** label, the only privacy option that's available to the user is **Private**. Other privacy options such as Public and Org-wide aren't available for the user to select:
 
-![Screenshot of Confidential sensitivity label](media/sensitivity-labels-confidential-example.png)
+![Screenshot of Confidential sensitivity label.](media/sensitivity-labels-confidential-example.png)
 
 Similarly, you create and publish a sensitivity label named "General" that has the label privacy option configured as **Public**. When a user creates a new team, they can only create public or org-wide teams when they select this label:
 
-![Screenshot of General sensitivity label](media/sensitivity-labels-general-example.png)
+![Screenshot of General sensitivity label.](media/sensitivity-labels-general-example.png)
 
 When the team is created, the sensitivity label is visible in the upper-right corner of channels in the team. 
 
 > [!NOTE]
 > If you are using hierarchical parent-child labels such as "Confidential\Finance", then only the parent label will be shown in the channel header.
 
-![Screenshot of sensitivity label in team channel](media/sensitivity-labels-channel.png)
+![Screenshot of sensitivity label in team channel.](media/sensitivity-labels-channel.png)
 
 A team owner can change the sensitivity label and the privacy setting of the team at any time by going to the team, and then click **Edit team**.
 
-![Screenshot of sensitivity label in team properties](media/sensitivity-labels-edit-team.png)
+![Screenshot of sensitivity label in team properties.](media/sensitivity-labels-edit-team.png)
 
 ### Control guest access to teams
 

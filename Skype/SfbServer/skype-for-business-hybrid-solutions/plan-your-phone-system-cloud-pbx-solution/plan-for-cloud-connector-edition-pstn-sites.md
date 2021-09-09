@@ -69,7 +69,7 @@ Because user A in Redmond (Data Center A) and user B in Bellevue (Data Center B)
   
 Consequently, users A and B, and the Cloud Connector trunks for Bellevue and Redmond, can likely be in the same Cloud Connector PSTN site as shown in the following diagram. Emergency calls from users in one office can be routed to trunks in the other. You should, however, check with your carrier that this will work.
   
-![How to set up PSTN sites](../../media/2659caa7-9c18-4d4f-9c7a-61d0e6a07dc3.png)
+![How to set up PSTN sites.](../../media/2659caa7-9c18-4d4f-9c7a-61d0e6a07dc3.png)
   
 Consider the following examples as well:
   

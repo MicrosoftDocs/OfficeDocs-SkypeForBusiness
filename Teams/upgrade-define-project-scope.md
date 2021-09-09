@@ -24,7 +24,7 @@ appliesto:
 
 # Define your project scope
 
-![Upgrade journey diagram, highlighting the Project Definition stage](media/upgrade-banner-project-definition.png "Stages of the upgrade journey, with emphasis on the Project Definition stage")
+![Upgrade journey diagram, highlighting the Project Definition stage.](media/upgrade-banner-project-definition.png "Stages of the upgrade journey, with emphasis on the Project Definition stage")
 
 This article is part of the Project Definition stage of your upgrade journey, an activity you complete after you create a sponsorship coalition and project team from the stakeholders you've identified are key to your project's success. Before proceeding, confirm that you've completed the following activities:
 
@@ -34,8 +34,8 @@ Taking time to define your project vision, scope, goals, and governance will hel
 
 | &nbsp;| &nbsp;|
 |---|---|
-| ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>What do you want to accomplish with this project (in other words, why are you doing it)?</li><li>What does success look like?</li><li>What are the risks, and what's your plan to mitigate those risks?</li></ul> |
-| ![An icon depicting the next steps](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Discuss the following sections with your project team and sponsors.</li><li>Document your vision, scope, goals, and risks for this project.</li><li>Revisit your project team to validate that you've engaged the right team.</li></ul>|
+| ![An icon depicting decision points.](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>What do you want to accomplish with this project (in other words, why are you doing it)?</li><li>What does success look like?</li><li>What are the risks, and what's your plan to mitigate those risks?</li></ul> |
+| ![An icon depicting the next steps.](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Discuss the following sections with your project team and sponsors.</li><li>Document your vision, scope, goals, and risks for this project.</li><li>Revisit your project team to validate that you've engaged the right team.</li></ul>|
 
 ## Project vision
 

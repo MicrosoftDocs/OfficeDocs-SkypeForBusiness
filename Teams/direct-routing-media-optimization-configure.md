@@ -31,7 +31,7 @@ To configure Local Media Optimization, the following steps are required. You can
 
 The following diagram shows the network setup used in the examples throughout this article.
 
-![Diagram showing network setup for examples](media/direct-routing-media-op-9.png "Network setup for examples")
+![Diagram showing network setup for examples.](media/direct-routing-media-op-9.png "Network setup for examples")
 
 
 ## Configure the user and the SBC sites
@@ -202,7 +202,7 @@ The following table shows the end user configuration and action:
 
 The following diagram shows the SIP ladder for an outbound call with Always bypass mode, and the user in the same location as the SBC.
 
-![Diagram showing outbound calls](media/direct-routing-media-op-10.png "Outbound calls")
+![Diagram showing outbound calls.](media/direct-routing-media-op-10.png "Outbound calls")
 
 The following table shows the X-MS headers sent by Direct Routing:
 
