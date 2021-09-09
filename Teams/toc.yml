@@ -1453,7 +1453,7 @@ items:
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
         - name: Bookings in Teams
           items: 
-            - name: Virtual visits with Teams and the Bookings app
+            - name: Virtual visits with Teams and Bookings
               href: expand-teams-across-your-org/bookings-virtual-visits.md
             - name: Manage the Bookings app
               href: bookings-app-admin.md
