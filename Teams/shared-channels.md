@@ -108,3 +108,5 @@ Notifications from shared channels are not included in missed activity emails.
 ## Related topics
 
 [Overview of teams and channels in Teams](teams-channels-overview.md)
+
+[Private channels in Microsoft Teams](/microsoftteams/private-channels)
