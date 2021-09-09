@@ -69,7 +69,7 @@ Your organization or a partner contracted by your organization must be prepared 
 
 The Microsoft Teams Rooms managed service is supported through a dedicated Microsoft Teams Rooms managed service SOC. The primary mode for communication from the Microsoft Teams Rooms managed service SOC to customers is through the Microsoft Teams Rooms managed service portal. The Microsoft Teams Rooms managed service SOC provides first response and appropriate escalation on tickets raised by the system or by your organization.
 
-|  |  |
+|  | Description |
 |---------|---------|
 |**Scope**   |Incidents related to the meeting room app, room devices, and peripherals are included in Microsoft Teams Rooms managed service support.|
 |**Audience**  |IT Operations only         |
@@ -106,7 +106,7 @@ The Microsoft Teams Rooms Premium license is available in all countries and regi
 |**Meeting experience**   |         |         |
 |Investigating issues within the meeting settings on Microsoft Teams Rooms app and guidance for properly configuring Quality of Service on the device is provided at request.      |Root cause analysis or investigations for call-quality issues or network-related issues are excluded from this scope.         |Microsoft mainstream support         |
 |**Remediation, onboarding, and ongoing**     |         |         |
-|Customers receive guidance to bring their rooms to standards that are recommended by Microsoft Teams Rooms managed service at onboarding    |Investigations with respect to in-house custom software images or non-compliant with recommended software version guidance from Microsoft Teams Rooms managed service aren't in scope.          |         |
+|Customers receive guidance to bring their rooms to standards that are recommended by Microsoft Teams Rooms managed service at onboarding    |Investigations with respect to in-house custom software images or non-compliant with recommended software version guidance from Microsoft Teams Rooms managed service aren't in scope.          
 
 ## Data collection
 
