@@ -151,7 +151,7 @@ The connector supports patients joining virtual visits through MyChart web and m
 
 Key features of the patient experience:
 
-- Patients can join virtual visits from modern web browsers on desktop and mobile without app installation.
+- Patients can join virtual visits from modern web browsers on desktop and [mobile without app installation](../mobile-browser-join.md).
 
 - Patients can join virtual visits with a single click and there is no other account or sign-in required.
 
