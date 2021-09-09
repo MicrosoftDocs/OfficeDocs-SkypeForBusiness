@@ -97,7 +97,7 @@ External access (formerly known as federation) lets your Teams and Skype for Bus
 
 ### Guest access
 
-Guest access in Teams lets individuals outside your organization access teams and channels. You can use the guest access settings to control which features guest users can or can't use. Guest access is turned on by default. To learn more, see [Guest access in Teams](./guest-access.md).
+Guest access in Teams lets individuals outside your organization access teams and channels. You can use the guest access settings to control which features guests can or can't use. Guest access is turned on by default. To learn more, see [Guest access in Teams](./guest-access.md).
 
 > [!NOTE]
 > For more on External access and Guest access see here - [Communicate with users from other organizations in Microsoft Teams](communicate-with-users-from-other-organizations.md)
@@ -221,7 +221,7 @@ Teams relies heavily on Exchange Online, SharePoint Online, and Skype for Busine
 
 | Ask yourself | Action |
 |--------------|--------|
-|<br>Will I need to configure conditional access for Teams?|<ul><li>To understand how access policies work, see [How do conditional access policies work for Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)</li><li>To set up multi-factor authentication (MFA) for Teams, see:<ul><li>[Quickstart: Require MFA for specific apps with Azure Active Directory conditional access](/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Azure Active Directory conditional access settings reference](/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
+|<br>Will I need to configure conditional access for Teams?|<ul><li>To understand how access policies work, see [How do conditional access policies work for Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)</li><li>To set up multifactor authentication (MFA) for Teams, see:<ul><li>[Quickstart: Require MFA for specific apps with Azure Active Directory conditional access](/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Azure Active Directory conditional access settings reference](/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
 |||
 
 
