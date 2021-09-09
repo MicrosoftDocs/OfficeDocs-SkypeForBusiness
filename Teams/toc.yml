@@ -484,6 +484,8 @@ items:
       href: teams-channels-overview.md
     - name: Overview of private channels
       href: private-channels.md
+    - name: Overview of shared channels
+      href: shared-channels.md
     - name: Manage the life cycle of private channels
       href: private-channels-life-cycle-management.md
     - name: Assign team owners and members in Teams
