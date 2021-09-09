@@ -22,115 +22,89 @@ description: Learn how to use and manage shared channels in Microsoft Teams.
 
 # Shared channels in Microsoft Teams
 
-Private channels in Microsoft Teams create focused spaces for collaboration within your teams. Only the users on the team who are owners or members of the private channel can access the channel. Anyone, including guests, can be added as a member of a private channel as long as they are already members of the team.
+Shared channels in Microsoft Teams create collaboration spaces where you can invite people who are not in the team. Only the users who are owners or members of the shared channel can access the channel. While guests can't be added to a shared channel, you can invite people outside your organization to participate in a shared channel by using Azure AD B2B direct connect.
 
-You might want to use a private channel if you want to limit collaboration to those who have a need to know or if you want to facilitate communication between a group of people assigned to a specific project, without having to create an additional team to manage.
+You might want to use a shared channel if you want to collaborate with a group of people who are all members of different teams. For example, people from engineering, sales, and support who all work on different aspects of the same project or product could use a shared channel to collaborate.
 
-For example, a private channel is useful in these scenarios:
+Only members of shared channels can see and participate in shared channels that they are added to. Other members of the team to which the shared channel is connected won't see the channel.
 
-- A group of people in a team want a focused space to collaborate without having to create a separate team.
-- A subset of people in a team want a private channel to discuss sensitive information, such as budgets, resourcing, strategic positioning, and so on.
+When a shared channel is created, it's linked to the parent team and can't be moved to a different team. Additionally, shared channels can't be converted to standard channels and vice versa.
 
-A lock icon indicates a private channel. Only members of private channels can see and participate in private channels that they are added to.
+## Shared channel creation
 
-When a private channel is created, it's linked to the parent team and can't be moved to a different team. Additionally, private channels can't be converted to standard channels and vice versa.
+By default, any team owner or team member can create a shared channel. Guests can't create them. The ability to create shared channels can be managed at the team level and at the organization level. Use [policies](teams-policies.md) to control which users in your organization are allowed to create shared channels. Once you've set the policies, team owners can turn off or turn on the ability for members to create shared channels in the **Settings** tab for a team.
 
-![Screenshot of private channels in a team.](media/private-channels-in-teams.png)
+The person who creates a shared channel is the shared channel owner and only the shared channel owner can directly add or remove people from it. A shared channel owner can add anyone from the organization to a shared channel they created. Members of a shared channel have a secure conversation space, and when new 
+members are added, they can see all conversations (even old conversations) in that shared channel.
 
-## Private channel creation
+Team owners can see the names of all shared channels in their team and can also delete any shared channel in the team. (A deleted shared channel can be restored within 30 days after it's deleted). Team owners can't see the files in a shared channel or the conversations and member list of a shared channel unless they are members of that shared channel.
 
-By default, any team owner or team member can create a private channel. Guests can't create them. The ability to create private channels can be managed at the team level and at the organization level. Use [policies](teams-policies.md) to control which users in your organization are allowed to create private channels. Once you've set the policies, team owners can turn off or turn on the ability for members to create private channels in the **Settings** tab for a team.
-
-The person who creates a private channel is the private channel owner and only the private channel owner can directly add or remove people from it. A private channel owner can add any team member to a private channel they created, including guests. Members of a private channel have a secure conversation space, and when new 
-members are added, they can see all conversations (even old conversations) in that private channel.
-
-Team owners can see the names of all private channels in their team and can also delete any private channel in the team. (A deleted private channel can be restored within 30 days after it's deleted). Team owners can't see the files in a private channel or the conversations and member list of a private channel unless they are members of that private channel.
-
-Team members can only see private channels that they've been added to.
+Team members can only see shared channels that they've been added to.
 
 ## Adding and removing owners and members
 
-A private channel owner can't be removed through the Teams client if they are the last owner of one or more private channels.
+A shared channel owner can't be removed through the Teams client if they are the last owner of one or more shared channels.
 
-If a private channel owner leaves your organization or if they are removed from the Microsoft 365 group associated with the team, a member of the private channel is automatically promoted to be the private channel owner.
-
-If a team member leaves or is removed from a team, that user will also leave or be removed from all private channels in the team. If the user is added back to the team, they must be added back to the private channels in the team.
+If a shared channel owner leaves your organization or if they are removed from the Microsoft 365 group associated with the team, a member of the shared channel is automatically promoted to be the shared channel owner.
 
 ## Channel owner settings
 
-Each private channel has its own settings that the channel owner can manage, including the ability to add and remove members, add tabs, and @mentioning for the entire channel. These settings are independent of the parent team settings. When a private channel is created, it inherits settings from the parent team, after which its settings can be changed independently of the parent team settings.
+Each shared channel has its own settings that the channel owner can manage, including the ability to add and remove members, add tabs, and @mentioning for the entire channel. These settings are independent of the parent team settings. When a shared channel is created, it inherits settings from the parent team, after which its settings can be changed independently of the parent team settings.
 
-The private channel owner can click **Manage channel**, and then use the **Members** and **Settings** tabs to add or remove members and edit settings.
+The shared channel owner can click **Manage channel**, and then use the **Members** and **Settings** tabs to add or remove members and edit settings.
 
-![Screenshot of private channel settings.](media/private-channels-in-teams-channel-settings.png)
+## Shared channel owner and member actions
 
-## Private channel owner and member actions
+The following table outlines what actions owners, members, and guests can do in shared channels.
 
-The following table outlines what actions owners, members, and guests can do in private channels.
-
-|Action  |Team owner|Team member|Team guest|Private channel owner|Private channel member|Private channel guest|
+|Action  |Team owner|Team member|Team guest|Shared channel owner|Shared channel member|Shared channel external participant|
 |---------|---------|---------|---------|---------|---------|---------|
-|Create private channel|Admin controlled|Admin and team owner controlled|No|N/A|N/A|N/A|
-|Delete private channel|Yes|No|No|Yes|No|No|
-|Leave private channel|N/A|N/A|N/A|Yes unless they are the last owner|Yes|Yes|
-|Edit private channel|No|N/A|N/A|Yes|No|No|
-|Restore deleted private channel|Yes|No|No|Yes|No|No|
+|Create shared channel|Admin controlled|Admin and team owner controlled|No|Yes|No|No|
+|Delete shared channel|Yes|No|No|Yes|No|No|
+|Leave shared channel|N/A|N/A|N/A|Yes unless they are the last owner|Yes|Yes|
+|Edit shared channel|No|N/A|N/A|Yes|No|No|
+|Restore deleted shared channel|Yes|No|No|Yes|No|No|
 |Add members|No|N/A|N/A|Yes|No|No|
 |Edit settings|No|N/A|N/A|Yes|No|No|
 |Manage tabs and apps|No|N/A|N/A|Yes, apps must be installed for the team|Channel owner controlled|No|
 
-## Manage the lifecycle of private channels
+## Shared channel SharePoint sites
 
-See [Manage the lifecycle of private channels in Teams](private-channels-life-cycle-management.md) for guidance on how to manage the lifecycle of private channels in your organization. This includes how to control whether users in your organization can create private channels, how to create a private channel on behalf of a team owner, how to get a list of all private channel messages for archiving and auditing purposes, and other management tasks.  
-
-## Private channel SharePoint sites
-
-Each private channel has its own SharePoint site. The separate site is to ensure access to private channel files is restricted to only members of the private channel. These sites are created with a document library by default, and can be easily enhanced to a full-featured site through the [site management interface](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Each site is created in the same geographic region as the site for the parent team. These lightweight sites have a custom template ID, "TEAMCHANNEL#0", for easier management through PowerShell and Graph API. 
+Each shared channel has [its own SharePoint site](/SharePoint/teams-connected-sites). The separate site is to ensure access to shared channel files is restricted to only members of the shared channel. These sites are created with a document library by default, and can be easily enhanced to a full-featured site through the [site management interface](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Each site is created in the same geographic region as the site for the parent team. These lightweight sites have a custom template ID, "TEAMCHANNEL#0", for easier management through PowerShell and Graph API. 
 
 > [!NOTE]
-> Only users with owner or member permissions granted in Microsoft Teams will have access to content in the private channel site.
-> Private channel SharePoint sites aren't included in the Active sites page of the new SharePoint admin center.
-> Private channel SharePoint sites created after June 28, 2021 will have the custom template ID TEAMCHANNEL#1.
+> Only users with owner or member permissions in the channel will have access to content in the shared channel site.
 
-A private channel site syncs data classification and inherits guest access permissions from the site of the parent team. Membership to the site owner and member groups are kept in sync with the membership of the private channel within Teams. Site permissions for a private channel site can't be managed independently through SharePoint. 
+A shared channel site syncs data classification from the site of the parent team. Membership to the site owner and member groups are kept in sync with the membership of the shared channel. Site permissions for a shared channel site can't be managed independently through SharePoint. 
 
-Teams manages the lifecycle of the private channel site. If the site is deleted outside of Teams, a background job restores the site within four hours as long as the private channel is still active. If the site is permanently deleted, a new site is provisioned for the private channel.
+Teams manages the lifecycle of the shared channel site. If the site is deleted outside of Teams, it is restored automatically within four hours as long as the shared channel is still active. If the site is permanently deleted, a new site is provisioned for the shared channel.
 
-If a private channel or a team containing a private channel is restored, the sites are restored with it. If a private channel site is restored and it's beyond the 30-day soft delete window for the private channel, the site operates as a standalone site.
+If a shared channel or a team containing a shared channel is restored, the sites are restored with it. If a shared channel site is restored and it's beyond the 30-day soft delete window for the shared channel, the site operates as a standalone site.
 
-> [!NOTE]
-> When you create a new team or private channel in Microsoft Teams, a team site in SharePoint gets automatically created. To edit the site description or classification for this team site, go to the corresponding channel’s [settings in Microsoft Teams](https://support.microsoft.com/office/change-a-team-s-data-security-classification-in-teams-bf39798f-90d2-44fb-a750-55fa05a56f1d).
->
-> Learn more about managing [Microsoft Teams connected teams sites](/SharePoint/teams-connected-sites).
+## Shared channel message compliance records
 
-## Private channel message compliance records
+Records for messages sent in a shared channel are delivered to the mailbox of all shared channel members, rather than to a group mailbox. The titles of the records are formatted to indicate which shared channel they were sent from.
 
-Records for messages sent in a private channel are delivered to the mailbox of all private channel members, rather than to a group mailbox. The titles of the records are formatted to indicate which private channel they were sent from.
+For more information about performing an eDiscovery search for shared channel messages, see [Conduct an eDiscovery investigation of content in Microsoft Teams](ediscovery-investigation.md).
 
-For more information about performing an eDiscovery search for private channel messages, see [eDiscovery of private channels](ediscovery-investigation.md#ediscovery-of-private-channels).
+## Considerations around file access in shared channels
 
-## Considerations around file access in private channels
+Files, folders, and OneNote notebooks in a shared channel can be shared with people outside the channel by using [standard SharePoint file sharing](https://support.microsoft.com/office/1fe37332-0f9a-4719-970e-d2578da4941c).
 
-When a new OneNote notebook is created in a private channel, additional users can still get access to the notebook because the behavior is the same as sharing access to any other item in a private channel SharePoint site with a user.
+If a user is granted access to a file, folder, or notebook in a shared channel through SharePoint, removing the user from the team or shared channel won't remove the user's access to the file, folder, or notebook.
 
-If a user is granted access to a notebook in a private channel through SharePoint, removing the user from the team or private channel won't remove the user's access to the notebook.
+If an existing notebook is added as a tab to a shared channel, access to the shared channel isn't changed and the notebook retains its existing permissions.
 
-If an existing notebook is added as a tab to a private channel, access to the private channel isn't changed and the notebook retains its existing permissions.
+## Shared channel limitations
 
-## Private channel limitations
+Currently, shared channels support connectors and tabs (except Stream, Planner, and Forms).
 
-Currently, private channels support connectors and tabs (except Stream, Planner, and Forms). We're working on full apps support for private channels, including messaging extensions and bots.
+Each team can have a maximum of 30 shared channels and each shared channel can have a maximum of 250 members. The 30 shared channel limit is in addition to the 200 standard channel limit per team. 
 
-Each team can have a maximum of 30 private channels and each private channel can have a maximum of 250 members. The 30 private channel limit is in addition to the 200 standard channel limit per team. 
+When you create a team from an existing team, any shared channels in the existing team won't be copied over.
 
-When you create a team from an existing team, any private channels in the existing team won't be copied over.
-
-Notifications from private channels are not included in missed activity emails at this time.
+Notifications from shared channels are not included in missed activity emails.
 
 ## Related topics
 
 [Overview of teams and channels in Teams](teams-channels-overview.md)
-
-[Teams PowerShell overview](teams-powershell-overview.md)
-
-[Use the Microsoft Graph API to work with Teams](/graph/api/resources/teams-api-overview)
