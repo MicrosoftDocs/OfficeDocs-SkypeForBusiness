@@ -26,7 +26,7 @@ appliesto:
 
 # Overview of teams and channels in Microsoft Teams
 
-Let’s get started by thinking about how Microsoft Teams allows individual teams to self-organize and collaborate across business scenarios:
+Let's get started by thinking about how Microsoft Teams allows individual teams to self-organize and collaborate across business scenarios:
 
 - **Teams** are a collection of people, content, and tools surrounding different projects and outcomes within an organization.
 
@@ -35,22 +35,18 @@ Let’s get started by thinking about how Microsoft Teams allows individual team
     
     A team is designed to bring together a group of people who work closely to get things done. Teams can be dynamic for project-based work (for example, launching a product, creating a digital ship room), as well as ongoing, to reflect the internal structure of your organization (for example, departments and office locations). Conversations, files and notes across team channels are only visible to members of the team.
 
-- **Channels** are dedicated sections within a team to keep conversations organized by specific topics, projects, disciplines—-whatever works for your team! Files that you share in a channel (on the Files tab) are stored in SharePoint. To learn more, read [How SharePoint Online and OneDrive for Business  interact with Teams](SharePoint-OneDrive-interact.md).
+- **Channels** are dedicated sections within a team to keep conversations organized by specific topics, projects, disciplines—-whatever works for your team. Files that you share in a channel (on the Files tab) are stored in SharePoint. To learn more, read [How SharePoint Online and OneDrive for Business  interact with Teams](SharePoint-OneDrive-interact.md).
 
-    - Channels are places where conversations happen and where the work actually gets done. Channels can be open to all team members or, if you need a more select audience, they can be private. Standard channels are for conversations that everyone in a team can participate in and [private channels](private-channels.md) limit communication to a subset of people in a team.
+    - Channels are places where conversations happen and where the work actually gets done. Channels can be open to all team members (standard channels), selected team members ([private channels](private-channels.md)), or people both inside and outside the team ([shared channels](shared-channels.md)).
     - Channels are most valuable when extended with apps that include tabs, connectors, and bots that increase their value to the members of the team. To learn more, see [Apps, bots, & connectors in Teams](deploy-apps-microsoft-teams-landing-page.md).
     
-For help using teams and channels, check out [Teams and channels](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
-
-View this short video to learn more about best practices for creating teams and channels:
-
-- [TechTip: Guidance for Creating Teams & Channels including Private Channels in Microsoft Teams](https://youtu.be/WkAVgNKn0hs) (21:08 min)
+For help using teams and channels, check out [Teams and channels](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499).
 
 ## Membership, roles, and settings
 
 **Team membership**
 
-When Teams is activated for your entire organization, team owners can invite anyone at your organization they work with to join their team. Teams makes it easy for team owners to add people in the organization based on their name. Depending on your organization's settings people from outside of your organization can be added to your teams as guests. See [Guest Access in Microsoft Teams](guest-access.md) for more information. 
+When Teams is activated for your entire organization, team owners can invite anyone at your organization they work with to join their team. Teams makes it easy for team owners to add people in the organization based on their name. Depending on your organization's settings people from outside of your organization can be added to your teams as guests or as external participants in shared channels. See [Guest Access in Microsoft Teams](guest-access.md) for more information. 
 
 Team owners can also create a team based on an existing Microsoft 365 group. Any changes made to the group membership will be synced with Teams automatically.
 
