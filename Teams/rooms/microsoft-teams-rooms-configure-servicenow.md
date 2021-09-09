@@ -40,7 +40,7 @@ How your environment is configured is highly customizable and will depend on you
 3. Select an authentication method to sign in and enter your ServiceNow Instance Host and API URI.
 4. All required items in the ServiceNow Field column of the Field Mapping section should be pre-filled. The table below contains each ServiceNow field and its corresponding Microsoft Teams Rooms field. Complete the action for each row of the Field Mapping section. For definitions of each ServiceNow field, see [ServiceNow field definitions](#servicenow-field-definitions).
 
-| **ServiceNow field** | **Microsoft Teams Rooms field** | **Action** |
+| ServiceNow field | Microsoft Teams Rooms field | Action |
 | --- | --- | --- |
 | short_description | Incident description | No action needed. The Teams Rooms field is auto-filled. |
 | description | First Message | No action needed. The Teams Rooms field is auto-filled. |
