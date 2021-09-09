@@ -154,6 +154,9 @@ Agents' Teams accounts need to be set to Teams-only mode. Agents who don't meet 
 > [!TIP]
 > Setting **Routing Method** to **Round robin** or **Longest idle** is the recommended setting.
 
+> [!NOTE]
+> If [Compliance recording](teams-recording-policy.md) is enabled on the agents, the combination of **Conference mode** and **Attendant routing** is not supported. If you need to use **Conference mode**, select **Serial Routing**, **Round robin**, or **Longest idle** as the **Routing method**. If you need to use **Attendant routing**, set **Conference mode** to **Off**.
+
 ![Screenshot of routing, opt out, and alert time settings.](media/call-queue-presence-agents-time.png)
 
 **Presence-based routing** uses the availability status of call agents to determine whether an agent should be included in the call routing list for the selected routing method. Call agents whose availability status is set to **Available** are included in the call routing list and can receive calls. Agents whose availability status is set to any other status are excluded from the call routing list and won't receive calls until their availability status changes back to **Available**. 
