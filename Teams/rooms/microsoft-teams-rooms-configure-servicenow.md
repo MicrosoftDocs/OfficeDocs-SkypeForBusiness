@@ -27,7 +27,7 @@ This article describes the prerequisites and steps to configure your ServiceNow 
 ### ServiceNow prerequisites
 
 - A Basic Authorization sign-in, OR an OAuth sign-in. For more information, see [Creating Credentials](https://developer.servicenow.com/dev.do#!/learn/learning-plans/rome/servicenow_application_developer/app_store_learnv2_rest_rome_creating_credentials) in ServiceNow.
-- A service now instance and its Instance Host name and API URI
+- A ServiceNow instance and its instance host name and API URI
 - A role of incident_manager or higher
 - A software version of ServiceNow that supports Table API
 
@@ -61,7 +61,7 @@ To add additional required fields to Resolve Incident section, select **Add**.
 
 After completing the configuration form, select **Test** at the bottom of the page. Testing is required to submit your configuration.
 
-Once your test passes successfully, select **Submit** to save your changes. Once you're ready to enable service now for your organization, switch the **Do you want to enable ServiceNow?** toggle to **On**.
+Once your test passes successfully, select **Submit** to save your changes. Once you're ready to enable ServiceNow for your organization, switch the **Do you want to enable ServiceNow?** toggle to **On**.
 
 ## ServiceNow field definitions
 
