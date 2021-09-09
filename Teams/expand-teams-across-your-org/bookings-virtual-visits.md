@@ -75,7 +75,7 @@ Create specific appointment types to represent the services offered by your orga
 
 In the booking calendar, go to **More options** (...) > **Appointment types**, and then select **New appointment type**. Enter a name&mdash;for example, Account opening, Prescription renewal, Loan consultation, Tax preparation&mdash;and any other information and settings you want.
 
-The information and links that you add are included in the email confirmation that's sent to attendees every time this type of appointment is booked. You can even set email reminders and other options such as whether attendees can join from a mobile browser without having to download Teams. To learn more, see [Create an appointment type](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887).
+The information and links that you add are included in the email confirmation that's sent to attendees every time this type of appointment is booked. You can even set email reminders and other options such as whether attendees can [join from a mobile browser](mobile-browser-join.md) without having to download Teams. To learn more, see [Create an appointment type](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887).
 
 ## Schedule a virtual visit
 
@@ -97,6 +97,8 @@ To learn more, see [Microsoft Bookings](/microsoft-365/bookings/bookings-overvie
 
 ## Related articles
 
-[Bookings app in Teams help documentation](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Bookings)
+[Manage the join experience for Teams virtual visits on mobile browsers](mobile-browser-join.md)
 
 [Get started with Teams for healthcare organizations](healthcare/teams-in-hc.md)
+
+[Bookings app in Teams help documentation](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Bookings)
