@@ -31,7 +31,7 @@ This article describes the prerequisites and steps to configure your ServiceNow 
 - A role of incident_manager or higher
 - A software version of ServiceNow that supports Table API
 
-## Set up ServiceNow configuration in Teams Rooms
+## Configure your environment
 
 How your environment is configured is highly customizable and will depend on your organization's needs. The following steps walk through how to copy your existing configuration in ServiceNow to the Teams Rooms Premium portal.
 
