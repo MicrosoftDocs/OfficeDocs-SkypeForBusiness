@@ -77,7 +77,7 @@ In the booking calendar, go to **More options** (...) > **Appointment types**, a
 
 The information and links that you add are included in the email confirmation that's sent to attendees every time this type of appointment is booked. You can even set email reminders and other options such as whether attendees can join from a mobile browser without having to download Teams. To learn more, see [Create an appointment type](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887).
 
-## Schedule a virtual consultation
+## Schedule a virtual visit
 
 In the booking calendar, select **New booking**. Select an appointment type, and then fill out the relevant information.
 
@@ -85,7 +85,7 @@ This includes attendee contact information, the staff member who will be providi
 
 The email confirmation sent to the attendee includes the meeting link and an attachment so that they can add the virtual appointment to their calendar. Staff also receive an email confirmation and meeting invite.
 
-## Conduct a virtual consultation
+## Conduct a virtual visit
 
 In your Teams or Outlook calendar, go to the booking, and then select **Join** or the Teams meeting link. Check your audio and video settings, and then select **Join now**. To learn more, see [Conduct a Bookings appointment](https://support.microsoft.com/office/conduct-a-bookings-appointment-a86a4007-e26c-4909-9893-f7036e2747cd).
 
