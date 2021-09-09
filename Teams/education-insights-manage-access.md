@@ -59,7 +59,7 @@ If you use [SDS V2.1 file format](/schooldatasync/sds-v2.1-csv-file-format) or [
   
   :::image type="content" source="media/insights-role-based-permissions.png" alt-text="Role-based permissions.":::
   
-  If there is a role at more than one org level, that role appears multiple times, once for each level. In the screenshot, we have principals at both the school and district level, so there are two lines for 'principal'.
+  If there is a role at more than one org level, that role appears multiple times, once for each level. In the screenshot, we have principals at the school, district and department level, so there are three lines for 'principal'.
   
 * For each role, click the pencil icon to select the permission level. The default is the role has no permission to see Insights.
 * Select the permission level – **View data for their organization** or **None**.
