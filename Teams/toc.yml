@@ -601,6 +601,8 @@ items:
               href: meeting-policies-in-teams-general.md
             - name: Audio and video policies
               href: meeting-policies-audio-and-video.md
+            - name: Recording and transcription policies
+              href: meetings-policies-recording-and-transcription.md
             - name: Content and screen sharing policies
               items:
                 - name: Content sharing
@@ -777,6 +779,8 @@ items:
               href: rooms/obtaining-assigning-license.md
             - name: Enroll in MTRP managed service
               href: rooms/enrolling-mtrp-managed-service.md
+            - name: Configure ServiceNow for Teams Rooms
+              href: rooms/microsoft-teams-rooms-configure-servicenow.md
 
              
 
@@ -1468,6 +1472,8 @@ items:
               href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
             - name: Virtual visits with Bookings and Teams
               href: bookings-app-admin.md
+            - name: Manage the join experience on mobile browsers
+              href: expand-teams-across-your-org/mobile-browser-join.md              
         - name: View and assign policy packages
           href: policy-packages-healthcare.md
         - name: Secure messaging
@@ -1625,6 +1631,8 @@ items:
           href: sharepoint-onedrive-interact.md
     - name: Teams devices for Education
       href: devices-for-education.md
+    - name: Meeting room guidance for Teams
+      href: teams-meeting-room-guidance.md
     - name: Supported devices
       items: 
         - name: Manage your devices in Teams

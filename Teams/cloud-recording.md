@@ -34,13 +34,13 @@ When a meeting is recorded, it's automatically:
 - Added to various file lists across Microsoft 365: Shared with me, office.com, Recommended, Recent, etc.
 - Indexed for Microsoft 365 Search
 
-Related: [Teams meeting recording end user documentation](https://aka.ms/recordmeeting)
+Related: [Teams meeting recording end user documentation](https://support.microsoft.com/en-us/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24)
 
 >[!Note]
 > The change from using Microsoft Stream (classic) to OneDrive for Business and SharePoint Online for meeting recordings will automatically happen in August 2021. For detailed information, see [Use OneDrive for Business and SharePoint Online or Stream for meeting recordings](tmr-meeting-recording-change.md).
 
 > [!NOTE]
-> For information about using roles in Teams meetings, and how to change users' roles, see [Roles in a Teams meeting](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us). For live events recording options, see [Live event recording policies in Teams](teams-live-events/live-events-recording-policies.md).
+> For information about using roles in Teams meetings, and how to change users' roles, see [Roles in a Teams meeting](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019). For live events recording options, see [Live event recording policies in Teams](teams-live-events/live-events-recording-policies.md).
 
 ## Prerequisites for Teams cloud meeting recording
 
@@ -68,20 +68,20 @@ For a Teams user's meetings to be recorded, OneDrive for Business and SharePoint
 
 ## Set up Teams cloud meeting recording for users in your organization
 
-This section explains how you can set up and plan for recording Teams meetings via [Teams meeting policies](./assign-policies.md).
+This section explains how you can set up and plan for recording Teams meetings via [Teams meeting policies](policy-assignment-overview.md).
 
 ### Turn on or turn off cloud recording
 
 You can use the Microsoft Teams admin center or PowerShell to set a Teams meeting policy to control whether user's meetings can be recorded.
 
-In the Microsoft Teams admin center, turn on or turn off the **Allow cloud recording** setting in the meeting policy. To learn more, see [Meeting policy settings for audio and video](meeting-policies-audio-and-video.md#allow-cloud-recording).
+In the Microsoft Teams admin center, turn on or turn off the **Allow cloud recording** setting in the meeting policy. To learn more, see [Meeting policy settings for audio and video](meetings-policies-recording-and-transcription.md#allow-cloud-recording).
 
 Using PowerShell, you configure the AllowCloudRecording setting in TeamsMeetingPolicy. To learn more, see [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) and [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
 Both the meeting organizer and the recording initiator need to have the recording permissions to record the meeting. Unless you have assigned a custom policy to the users, users get the Global policy, which has AllowCloudRecording enabled by default.
 
 > [!NOTE]
-> For more information about using Teams roles to configure who has permission to record a meeting, see [Roles in a Teams meeting](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
+> For more information about using Teams roles to configure who has permission to record a meeting, see [Roles in a Teams meeting](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
 
 For a user to fall back to the Global policy, use the following cmdlet to remove a specific policy assignment for a user:
 
@@ -106,7 +106,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true
 <a name="bd-channel"></a>
 ### Block or allow download of channel meeting recordings
 
-This setting controls if channel meetings are saved to a "Recordings" folder or a "Recordings\View only" folder in the channel. The setting applies to the policy of the user who selects record for the channel meeting. 
+This setting controls if channel meetings are saved to a "Recordings" folder or a "Recordings\View only" folder in the channel. The setting applies to the policy of the user who selects record for the channel meeting.
 
 The two values for this setting are:
 
@@ -146,7 +146,7 @@ This setting controls whether captions and transcription features are available 
 
 You can use the Microsoft Teams admin center or PowerShell to set a Teams meeting policy to control whether the recording initiator gets a choice to transcribe the meeting recording.
 
-In the Microsoft Teams admin center, turn on or turn off the **Allow transcription** setting in the meeting policy. To learn more, see [Meeting policy settings for audio and video](meeting-policies-audio-and-video.md#allow-transcription).
+In the Microsoft Teams admin center, turn on or turn off the **Allow transcription** setting in the meeting policy. To learn more, see [Meeting policy settings for audio and video](meetings-policies-recording-and-transcription.md#allow-transcription).
 
 Using PowerShell, you configure the AllowTranscription setting in TeamsMeetingPolicy. To learn more, see [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) and [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
@@ -195,7 +195,7 @@ Meeting recordings are stored in OneDrive for Business and SharePoint Online clo
 
 If `Set-CsTeamsMeetingPolicy -ChannelRecordingDownload` is set to Allow (default):
 
-- The recording is stored in the Teams site documentation library in a folder named **Recordings**. 
+- The recording is stored in the Teams site documentation library in a folder named **Recordings**.
 
   Example:  <i>Teams name - Channel name</i>/**Documents**/**Recordings**
 
@@ -252,31 +252,31 @@ The size of a 1-hour recording is 400 MB. Make sure you understand the capacity 
  <a name="auto-expiration"></a>
 ### Auto-expiration of Teams meeting recordings: 
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 >
-> The auto-expiration feature discussed in this article is not yet launched. Please refer to [the roadmap (Feature ID: 84580)](https://www.microsoft.com/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580) for more information on its delivery date. 
+> The auto-expiration feature discussed in this article is not yet launched. Please refer to [the roadmap (Feature ID: 84580)](https://www.microsoft.com/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580) for more information on its delivery date.
 > 
-> We are providing information about how this feature will work in the FUTURE, so that you are able to plan for this change and modify the Teams policy settings in advance. 
+> We are providing information about how this feature will work in the FUTURE, so that you are able to plan for this change and modify the Teams policy settings in advance.
 >
-> The CMD to preemptively change the MeetingExpirationDays setting in Teams (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) isn't yet available to be set.  We'll publish an updated message center post when the setting is available for modification.
+> The CMD to preemptively change the default expiration setting in Teams isn't yet available to be set.  We'll publish an updated message center post when the setting is available for modification.
 >
 >
 
-See the frequently asked questions for admins and end users to gather insights into how auto-expiration of Teams meeting recordings will work, what actions you can take now, and what actions you can take after the feature launches. 
+See the frequently asked questions for admins and end users to gather insights into how auto-expiration of Teams meeting recordings will work, what actions you can take now, and what actions you can take after the feature launches.
   
 ## Frequently asked questions
 
 **What is the change?**
   
-We’re introducing a default 60-day expiration setting for all newly created Teams meeting recordings (TMRs). This means that by default, all TMRs created after we enable this feature will be deleted 60 days after their creation date. If admins want meeting recordings to expire sooner or later than the default, they can modify the expiration setting. The OneDrive and SharePoint systems will monitor the expiration date set on all meeting recordings and will automatically move them to the recycle bin on their expiration date. 
+We’re introducing a default 60-day expiration setting for all newly created Teams meeting recordings (TMRs). This means that by default, all TMRs created after we enable this feature will be deleted 60 days after their creation date. If admins want meeting recordings to expire sooner or later than the default, they can modify the expiration setting. The OneDrive and SharePoint systems will monitor the expiration date set on all meeting recordings and will automatically move them to the recycle bin on their expiration date.
 
 **Who does this impact?**
   
-Anyone storing a Teams meeting recording (non-channel, channel, or ad-hoc meeting) in OneDrive or SharePoint. 
+Anyone storing a Teams meeting recording (non-channel, channel, or ad-hoc meeting) in OneDrive or SharePoint.
 
 **Why should I use this feature?**
   
-You should use this feature to limit OneDrive or SharePoint storage consumed by Teams meeting recordings (note: they typically use around 400 MB per hour of recording). 
+You should use this feature to limit OneDrive or SharePoint storage consumed by Teams meeting recordings (note: they typically use around 400 MB per hour of recording).
   
 **Why are we introducing this change?**
   
@@ -284,11 +284,11 @@ Customers have provided overwhelming feedback that they want more controls to re
   
 **Why is this being turned on by default?**
   
-We believe nearly all customers will benefit from the reduced storage load on their tenant by removing recordings that will likely never be rewatched after 60 days. It is our goal to provide as clean an experience as possible for all customers by default. 
+We believe nearly all customers will benefit from the reduced storage load on their tenant by removing recordings that will likely never be rewatched after 60 days. It is our goal to provide as clean an experience as possible for all customers by default.
   
 **Will it be automatically deleted even if the data is accessed or downloaded?**
   
-Accessing the file does not change the expiration date. 
+Accessing the file does not change the expiration date.
   
 **Is the expiry date visible as a column in the list?**
 
@@ -296,26 +296,26 @@ Users with view access to the recording will see a red icon next to the file in 
   
 **How is the expiration date calculated?**
   
-The expiration date is calculated as the day the meeting recording is created plus the default number of days set in the Teams setting by the admin. 
+The expiration date is calculated as the day the meeting recording is created plus the default number of days set in the Teams setting by the admin.
   
 **Can the expiration date be changed for each TMR, such as data A expiration date is 30 days and data B expiration date is 60 days?**
 
 Yes, the expiration date is set per file. Users can modify the expiration date in the details pane of a selected file in OneDrive or SharePoint.
 
-**How can an Admin change the expiration date?**
+**How can an admin change the expiration date?**
   
-Admins will be able to change the default expiration setting in PowerShell (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) or the Teams Admin Center before the feature is released. The setting is not yet available for modification. We will publish an updated message center post when the setting is available for modification. When the feature launches, Admins can change this setting in the Teams admin center. Changing expiration settings will impact only newly created TMRs from that point forward. It will not impact any recordings made prior to that date. 
+Admins will be able to change the default expiration setting in PowerShell or the Teams Admin Center before the feature is released. The setting is not yet available for modification. We will publish an updated message center post when the setting is available for modification. When the feature launches, Admins can change this setting in the Teams admin center. Changing expiration settings will impact only newly created TMRs from that point forward. It will not impact any recordings made prior to that date.
 
 The expiration days values can be set as follows:
   
-- Value can be from 1 to 99,999 (273 years Max).
-- Value can also be -1 to set TMR to never expire. 
- 
-Admins cannot change the expiration date on existing TMRs already uploaded to OneDrive or SharePoint before this feature was released. This protects the intent of the user that owns the TMR. 
+- Value can be from 1 to 99,999 days (273 years max).
+- Value can also be -1 to set TMR to never expire.
+
+Admins can't change the expiration date on existing TMRs already uploaded to OneDrive or SharePoint before this feature was released. This protects the intent of the user that owns the TMR.
   
 **Can an admin set TMR's to never expire?**
   
- Yes, administrators can set TMR's to never expire via the following PowerShell cmdlet: (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays -1)
+ Yes, administrators can set TMR's to never expire.
   
 **Does playing the recording change the expiration date?**
 
@@ -329,46 +329,36 @@ The expiration date will be cleared upon re-upload, regardless of the user’s S
 
 The date is only retained for a moved TMR file. A copied file will not have the expiration date, just like a re-uploaded TMR.
   
-  Example PowerShell command: 
-  
-  ```powershell
-  Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays 50
-  ```
-  
-**What is the scope of control for the admin policy?**
-  
-Both meetings and calls will be controlled by the same `CsTeamsMeetingPolicy` setting, `MeetingRecordingExpirationDays`. 
-  
 **How can end users modify the expiration date on a specific TMR file?**
   
-Anyone who has edit and delete permissions on a TMR can modify the expiration date in the file’s details pane in OneDrive or SharePoint. 
+Anyone who has edit and delete permissions on a TMR can modify the expiration date in the file’s details pane in OneDrive or SharePoint.
 
-The user can defer the expiration 14, 30, or 60 days, or they can choose a specific date in the future, or they can select that the file never be expired. 
+The user can defer the expiration 14, 30, or 60 days, or they can choose a specific date in the future, or they can select that the file never be expired.
   
 **Should admins rely on this feature for strict security and compliance adherence?**
   
-No, admins should not rely on this feature for legal protection since end users can modify the expiration date of any recordings they control. 
+No, admins should not rely on this feature for legal protection since end users can modify the expiration date of any recordings they control.
   
 **Will this feature enforce file retention?**
   
 No, files will not be retained due to this feature or its settings. If a user with delete permissions attempts to delete a TMR that has an expiration setting, that user’s delete action will be executed.
- 
+
 **Will a retention and/or deletion policy I have set in the security & compliance (S+C) center override the TMR expiration setting?**
   
-Yes, any policies you have set in the S+C center will take full precedence. For example: 
+Yes, any policies you have set in the S+C center will take full precedence. For example:
   
 - If you have a policy that says all files in a site must be retained for 100 days, and the expiration setting for a TMR is 30 days, then the recording file will be retained for the full 100 days.  
-- If you have a deletion policy that says all TMRs will be deleted after 5 days and you have an expiration setting on a recording file of 30 days, then that file will be deleted after five days. 
+- If you have a deletion policy that says all TMRs will be deleted after 5 days and you have an expiration setting on a recording file of 30 days, then that file will be deleted after five days.
 
 **What happens when a TMR “expires”?**
   
-On the expiration date, the TMR is moved into the OneDrive or SharePoint recycle bin and the expiration date field is cleared. This action by the system is exactly the same as if a user deleted the file. The recycle bin lifecycle will subsequently follow the normal path. If the user recovers the TMR from the recycle bin, the TMR will not be deleted by this feature again since the expiration date has been cleared, unless the end user sets a new expiration date on the file. 
+On the expiration date, the TMR is moved into the OneDrive or SharePoint recycle bin and the expiration date field is cleared. This action by the system is exactly the same as if a user deleted the file. The recycle bin lifecycle will subsequently follow the normal path. If the user recovers the TMR from the recycle bin, the TMR will not be deleted by this feature again since the expiration date has been cleared, unless the end user sets a new expiration date on the file.
   
 **How will I be notified about a file’s expiration?**
   
-Everyone with view access will see a notification about the expiration date in the recording chiclet in the Teams chat window. 
+Everyone with view access will see a notification about the expiration date in the recording chiclet in the Teams chat window.
   
-Everyone with view access will see a red icon next to the file in your OneDrive or SharePoint folder 14 days before the file expires. 
+Everyone with view access will see a red icon next to the file in your OneDrive or SharePoint folder 14 days before the file expires.
   
 The file owner will receive an email notification when the TMR expires and will be directed to the recycle bin to recover the TMR if they desire to do so.
   
@@ -378,17 +368,17 @@ All SKUs will have this feature by default. A1 users will be defaulted to a 30-d
   
 **Is the file expiration an audited event and will I be able to see it in my audit logs?**
   
-Yes, file expirations will show up as system deletion events in the audit log. 
+Yes, file expirations will show up as system deletion events in the audit log.
   
 **What if I want the admin to have full control over the lifecycle of TMRs and don’t want to give end users the ability to override the expiration date?**
   
-We recommend using the S+C retain and/or delete policies available as part of the E5 compliance SKU. That offering is targeted to solve complex policy and SLA-driven administrative legal concerns. 
+We recommend using the S+C retain and/or delete policies available as part of the E5 compliance SKU. That offering is targeted to solve complex policy and SLA-driven administrative legal concerns.
 
-This feature is solely meant as a lightweight housekeeping mechanism to reduce storage clutter created from cold TMRs. 
+This feature is solely meant as a lightweight housekeeping mechanism to reduce storage clutter created from cold TMRs.
   
 **When will the file be deleted?**
   
-The file will be deleted within 5 days of the expiration date, though this is not a strict guarantee. 
+The file will be deleted within 5 days of the expiration date, though this is not a strict guarantee.
   
 **Will future TMRs migrated from Classic Stream after this feature is released have auto-expiration applied to them too?**
   
