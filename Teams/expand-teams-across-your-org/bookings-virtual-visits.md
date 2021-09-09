@@ -35,7 +35,7 @@ Each virtual appointment includes a Teams meeting link that’s sent to attendee
 
 With Bookings, you get an experience that's tailored to your industry. Here's a few examples of how you can use it in your organization:
 
-|Industry  ||
+|Industry | Examples |
 |---------|---------|
 |Financial services    |  Virtual visits for remote sales and service<br/>Schedule and manage virtual appointments for bank relationship managers, financial advisors, and claims adjusters, just to name a few, to serve your customers with increased efficiency and convenience.  |
 |Healthcare   |  Virtual visits for patient care <br/>Schedule and manage virtual visits for your care team members to meet with patients or other healthcare providers to discuss medical care.   |         |
