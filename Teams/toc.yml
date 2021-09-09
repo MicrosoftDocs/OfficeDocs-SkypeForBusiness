@@ -601,6 +601,8 @@ items:
               href: meeting-policies-in-teams-general.md
             - name: Audio and video policies
               href: meeting-policies-audio-and-video.md
+            - name: Recording and transcription policies
+              href: meetings-policies-recording-and-transcription.md
             - name: Content and screen sharing policies
               items:
                 - name: Content sharing
