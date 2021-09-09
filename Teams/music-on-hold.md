@@ -92,13 +92,13 @@ To remove an uploaded audio file, use the Remove-CsOnlineAudioFile cmdlet. Befor
 
 ## Restrictions
 
+- Music On Hold is only available in commercial cloud.
+
 - Music On Hold is only available when the user is in Teams Only mode.
 
 - Music On Hold is not available when the Teams user does consultative transfer.
 
 - If the called Teams user is enabled for Location-Based Routing, Music On Hold cannot be played to the caller.
-
--	Music On Hold is only available in commercial cloud.
 
 -	Music On Hold is only available when the Teams user called is using one of the following versions of the Teams client:
     -	Microsoft Teams for Windows
@@ -109,9 +109,15 @@ To remove an uploaded audio file, use the Remove-CsOnlineAudioFile cmdlet. Befor
 <br>
 - You can’t export the audio file after it has been uploaded; you can only remove it.
 
+- Custom Music On Hold is not available for users configured for Shared Line Appearance (delegation) and when Call Park is used. The standard Music On Hold will be played.
+
+- In some scenarios, a Direct Routing media bypass call will be converted to non-media bypass for playing Music on Hold and the call will stay as non-media bypass until the call is terminated.
+
+
+
 ## Related topics
 
-- [Assign polcies to users](assign-policies.md)
+- [Assign policies to users](assign-policies.md)
 
 - [Get-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamscallingpolicy)
 
