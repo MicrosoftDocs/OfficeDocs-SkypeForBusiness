@@ -777,6 +777,8 @@ items:
               href: rooms/obtaining-assigning-license.md
             - name: Enroll in MTRP managed service
               href: rooms/enrolling-mtrp-managed-service.md
+            - name: Configure ServiceNow for Teams Rooms
+              href: rooms/microsoft-teams-rooms-configure-servicenow.md
 
              
 
@@ -1616,6 +1618,8 @@ items:
           href: sharepoint-onedrive-interact.md
     - name: Teams devices for Education
       href: devices-for-education.md
+    - name: Meeting room guidance for Teams
+      href: teams-meeting-room-guidance.md
     - name: Supported devices
       items: 
         - name: Manage your devices in Teams
