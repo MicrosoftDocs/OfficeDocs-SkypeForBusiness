@@ -1,9 +1,9 @@
 ---
-title: Private channels in Microsoft Teams
+title: Shared channels in Microsoft Teams
 author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
-ms.reviewer: suchakr
+ms.reviewer: arundas
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -17,10 +17,10 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
-description: Learn how to use and manage private channels in Microsoft Teams. 
+description: Learn how to use and manage shared channels in Microsoft Teams. 
 ---
 
-# Private channels in Microsoft Teams
+# Shared channels in Microsoft Teams
 
 Private channels in Microsoft Teams create focused spaces for collaboration within your teams. Only the users on the team who are owners or members of the private channel can access the channel. Anyone, including guests, can be added as a member of a private channel as long as they are already members of the team.
 
