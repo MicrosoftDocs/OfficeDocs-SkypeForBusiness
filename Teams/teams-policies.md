@@ -28,11 +28,22 @@ description: Learn how to use and manage teams policies in your organization to 
 
 # Manage teams policies in Microsoft Teams
 
-As an admin, you can use teams policies in Microsoft Teams to control what users in your organization can do in teams and channels. For example, you can set whether users are allowed to create private channels.
+As an admin, you can use policies in Microsoft Teams to control what users in your organization can do in teams and channels. For example, you can set whether users are allowed to create private or shred channels.
 
 You manage teams policies by going to **Teams** > **Teams policies** in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create and assign custom policies. Users in your organization will automatically get the global policy unless you create and assign a custom policy.
 
 You can edit the global policy or create and assign a custom policy. After you edit the global policy or assign a policy, it can take a few hours for changes to take effect.
+
+## Channel policies
+
+The following policies are availble for teams channels:
+
+|Policy|Description|
+|:-----|:----------|
+|Create private channels|When **On**, team owners and members can create private channels. (Team owners can control if members can create private channels in each team.)|
+|Create shared channels|When **On**, team owners and members can create shared channels. (Team owners can control if members can create shared channels in each team.)|
+|Share channels with external users|When **On**, owners and members of shared channels can invite external participants from organizations where a cross-organization trust has been configured.|
+|Participate in cross-organization shared channels|When **On**, users can participate in shared channels created by other organizations where a cross-organization trust has been configured.|
 
 ## Create a custom teams policy
 
@@ -41,7 +52,7 @@ You can edit the global policy or create and assign a custom policy. After you e
 3. Enter a name and description for the policy.
 
     ![Screenshot of teams policy settings.](media/teams-policies.png)
-4. Turn on or turn off **Create private channels**, <a name="createchannels"> </a> depending on whether you want to allow users to create private channels.
+4. Turn on or turn off the settings that you want, and then click **Save**.
 
 5. Click **Save**.
 
