@@ -42,9 +42,8 @@ Be aware that most features require you to assign the Phone System license and e
 
 Phone System provides the following features. Unless otherwise noted, features are available in both Teams and Skype for Business Online.
   
-|&nbsp;|&nbsp;|
-|:-----|:-----|
 |Phone System feature  |Description |
+|:-----|:-----|
 |[Cloud auto attendants](what-are-phone-system-auto-attendants.md)  |Lets you create a menu system that enables external and internal callers to locate and place or transfer calls to company users or departments in your organization.  <br/> Note that users *do not* need to be voice enabled to receive calls from the auto attendant. |
 |[Cloud call queues](create-a-phone-system-call-queue.md) <br> |Lets you configure how call queues are managed for your organization: for example, set up greetings and music on hold, search for the next available call agent to handle the call, and so on.  <br/> Note that users *do* need to be voice enabled to receive calls from a call queue.|
 |Music on hold | Plays default music defined by the service when an external call from the Public Switched Telephone Network (PSTN) is placed on hold. This feature works for one-to-one PSTN-to-Teams calls in addition to calls made to a call queue. This feature provides on-hold notification parity with other platforms. This feature is configurable by the administrator but [currently only via PowerShell](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Hold music is also not supported in consultative transfer of a PSTN call.|
