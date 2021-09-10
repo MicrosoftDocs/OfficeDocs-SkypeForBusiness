@@ -106,7 +106,7 @@ The Microsoft Teams Rooms Premium license is available in all countries and regi
 |**Meeting experience**   |         |         |
 |Investigating issues within the meeting settings on Microsoft Teams Rooms app and guidance for properly configuring Quality of Service on the device is provided at request.      |Root cause analysis or investigations for call-quality issues or network-related issues are excluded from this scope.         |Microsoft mainstream support         |
 |**Remediation, onboarding, and ongoing**     |         |         |
-|Customers receive guidance to bring their rooms to standards that are recommended by Microsoft Teams Rooms managed service at onboarding    |Investigations with respect to in-house custom software images or non-compliant with recommended software version guidance from Microsoft Teams Rooms managed service aren't in scope.          
+|Customers receive guidance to bring their rooms to standards that are recommended by Microsoft Teams Rooms managed service at onboarding    |Investigations with respect to in-house custom software images or non-compliant with recommended software version guidance from Microsoft Teams Rooms managed service aren't in scope.   | |       
 
 ## Data collection
 
