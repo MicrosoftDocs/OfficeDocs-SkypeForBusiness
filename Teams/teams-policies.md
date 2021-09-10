@@ -1,7 +1,7 @@
 ---
-title: Manage teams policies in Microsoft Teams
-author: cichur
-ms.author: v-cichur
+title: Manage channel policies in Microsoft Teams
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -23,10 +23,10 @@ ms.custom:
   - ms.teamsadmincenter.teamsandchannelpolicies.overview
   - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
   - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-description: Learn how to use and manage teams policies in your organization to control what users can do in teams and channels.
+description: Learn how to use and manage teams channel policies in your organization to control what users can do in teams and channels.
 ---
 
-# Manage teams policies in Microsoft Teams
+# Manage channel policies in Microsoft Teams
 
 As an admin, you can use policies in Microsoft Teams to control what users in your organization can do in teams and channels. For example, you can set whether users are allowed to create private or shred channels.
 
