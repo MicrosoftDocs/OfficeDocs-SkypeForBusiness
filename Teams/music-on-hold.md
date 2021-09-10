@@ -119,7 +119,7 @@ To remove an uploaded audio file, use the Remove-CsOnlineAudioFile cmdlet. Befor
 
 - [Assign policies to users](assign-policies.md)
 
-- [Get-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamscallingpolicy?view=skype-ps)
+- [Get-CsTeamsCallingPolicy](/powershell/module/skype/get-csteamscallingpolicy?view=skype-ps)
 
 - [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
 
