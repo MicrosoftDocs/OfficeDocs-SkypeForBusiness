@@ -136,7 +136,7 @@ Here's a list of all events that are logged for user and admin activities in Tea
 |Deleted channel     |ChannelDeleted         |A user deletes a channel from a team.         |
 |Deleted team  |TeamDeleted            |A team owner deletes a team.      |
 |Edited a message with a URL link in Teams     |MessageEditedHasLink         |A user edits a message and adds a URL link to it in Teams.         |
-|Exported messages <sup>1, </sup> <sup>2</sup> |	MessagesExported |Chat or channel messages were exported|.
+|Exported messages <sup>1, </sup> <sup>2</sup> |	MessagesExported |Chat or channel messages were exported.|
 |Fetched chat <sup>1, </sup> <sup>2</sup>	|ChatRetrieved	|A Microsoft Teams chat was retrieved.|
 |Fetched all hosted content of a message<sup>1, </sup> <sup>2</sup>	|MessageHostedContentsListed	|All hosted content in  a message, such as images or code snippets, was retrieved.|
 |Installed app |AppInstalled         |An app was installed.   |
