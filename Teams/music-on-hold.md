@@ -119,23 +119,23 @@ To remove an uploaded audio file, use the Remove-CsOnlineAudioFile cmdlet. Befor
 
 - [Assign policies to users](assign-policies.md)
 
-- [Get-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamscallingpolicy)
+- [Get-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamscallingpolicy?view=skype-ps)
 
-- [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy)
+- [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
 
-- [Get-CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/get-csonlineaudiofile)
+- [Get-CsOnlineAudioFile](/powershell/module/skype/get-csonlineaudiofile?view=skype-ps)
 
-- [Remove-CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/remove-csonlineaudiofile)
+- [Remove-CsOnlineAudioFile](/powershell/module/skype/remove-csonlineaudiofile?view=skype-ps)
 
-- [New-CsTeamsCallHoldPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallholdpolicy)
+- [New-CsTeamsCallHoldPolicy](/powershell/module/skype/new-csteamscallholdpolicy?view=skype-ps)
 
-- [Get-CsTeamsCallHoldPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamscallholdpolicy)
+- [Get-CsTeamsCallHoldPolicy](/powershell/module/skype/get-csteamscallholdpolicy?view=skype-ps)
 
-- [Grant-CsTeamsCallHoldPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallholdpolicy)
+- [Grant-CsTeamsCallHoldPolicy](/powershell/module/skype/grant-csteamscallholdpolicy?view=skype-ps)
 
-- [Remove-CsTeamsCallHoldPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamscallholdpolicy)
+- [Remove-CsTeamsCallHoldPolicy](/powershell/module/skype/remove-csteamscallholdpolicy?view=skype-ps)
 
-- [Import-CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csonlineaudiofile)
+- [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile?view=skype-ps)
 
 
 
