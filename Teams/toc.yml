@@ -920,6 +920,8 @@ items:
           href: shared-line-appearance.md
         - name: Dial pad configuration
           href: dial-pad-configuration.md
+        - name: Music on Hold
+          href: music-on-hold.md
 
     - name: PSTN connectivity options
       items:
