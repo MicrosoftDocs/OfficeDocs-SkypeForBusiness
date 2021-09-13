@@ -46,15 +46,11 @@ The wizard is available to all organizations that have at least one Microsoft 36
 
     :::image type="content" source="media/flw-onboarding-wizard-add-users.png" alt-text="Screenshot of the Add users page of the wizard where you add users and groups to your team":::
 
-5. Assign one of the following roles to each team member.
-
-    - Frontline worker
-    - Frontline manager
-    - None
+5. Assign one of the following roles to each team member: Frontline Worker, Frontline Manager, None. 
   
     :::image type="content" source="media/flw-onboarding-wizard-assign-roles.png" alt-text="Screenshot of the Assign job roles page of the wizard where you assign roles, locations, and licenses to team members":::
 
-    By assigning a Frontline worker or Frontline manager role, that user will receive an experience in Teams that's tailored to their role. This experience includes pre-pinned apps and policies for healthy frontline worker and manager communication and collaboration.
+    By assigning a Frontline Worker or Frontline Manager role, that user will receive an experience in Teams that's tailored to their role. This experience includes pre-pinned apps and policies for healthy frontline worker and manager communication and collaboration.
 
     Next, select a location and assign a Microsoft 365 F license to each team member. If you don’t have enough licenses, you can select **Buy more licenses** to purchase more licenses.  
 
