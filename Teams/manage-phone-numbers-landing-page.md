@@ -31,13 +31,13 @@ description: Learn how to get and manage user (subscriber) and service (toll and
 
 # Manage phone numbers for your organization
 
-Microsoft has two types of telephone numbers available: 
+Currently, Microsoft supports two telephone number types: 
 
-- [**User numbers**](#user-phone-numbers) also called subscriber numbers, which can be assigned to users in your organization.
+- [**User numbers**](#user-phone-numbers), also called subscriber numbers, which can be assigned to users in your organization.
 
 - [**Service numbers**](#service-phone-numbers), which are assigned to services such as Audio Conferencing, Auto Attendants, or Call Queues.
 
-You will need to decide:
+Microsoft is working to simplify number types, but for now you will need to decide:
 
 - Which user locations need new phone numbers from Microsoft?
 - Which type of telephone number (subscriber or service) do I need?
@@ -51,7 +51,7 @@ How you acquire and manage phone numbers differs depending on your PSTN connecti
 
 - For information about managing phone numbers for Direct Routing, see [Configure the phone number and enable enterprise voice and voicemail](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online).
 
-If you need additional or other number types other than those numbers seen in the Microsoft Teams admin center, you can submit a phone number request to the [PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
+If you need additional or other number types other than those numbers seen in the Microsoft Teams admin center, you can submit a phone number request to the [Phone Number Service Center](https://pstnsd.powerappsportals.com/).
 
 ## User phone numbers
 
@@ -59,16 +59,16 @@ There are two types of user numbers, which can be assigned to users in your orga
     
 - **Geographic numbers** Geographic numbers have a relationship to a geographic area and are the most common. For example, geographic phone numbers in most cases can only be used within a certain address, city, state, or region of the country.
     
-- **Non-geographic numbers** Non-geographic numbers are national numbers that don't have a relationship to a geographic area within a country/region. For example, non-geographic numbers often have the same cost when calling the number from anywhere within the country/region. Also, some countries, such as Denmark, only have non-geographic numbers available.
+- **Non-geographic numbers** Non-geographic numbers are known as national numbers or sometimes VoIP numbers. These numbers don't have a relationship to a geographic area within a country/region. For example, non-geographic numbers often have the same cost when calling the number from anywhere within the country/region. Also, some countries, such as Denmark, only have non-geographic numbers available.
 
 
 ## Service phone numbers  
 
-**This section describes service numbers available with Microsoft Calling Plans. For information about service numbers for Operator Connect and Direct Routing, contact your provider.**  
+**This section describes service numbers available from Microsoft that are included in your licensing. with Microsoft Calling Plans. For information about service numbers provided by Operator Connect or Direct Routing, contact your provider.**  
 
 **NOTE TO REVIEWERS: DO WE JUST SAY CONTACT PROVIDER?  DO WE PROVIDE INFO IN THIS TOPIC?  OR DO WE PROVIDE INFO IN SEPARATE TOPICS FOR DR AND OC?  DO I FOLLOW UP WITH MATTIA'S TEAM FOR DETAILS?**
 
-There are two types of service phone numbers for Calling Plans--toll and toll-free--which can be assigned to services such as Audio Conferencing, Auto Attendants, or Call Queues. Service numbers have a higher concurrent call capacity than user numbers. Service number availability varies by country/region and the type of number (whether it's a toll or toll-free number).
+There are two types of service phone numbers provided by Microsoft--toll and toll-free--which can be assigned to services such as Audio Conferencing, Auto Attendants, or Call Queues. Service numbers have a higher concurrent call capacity than user numbers. Service number availability varies by country/region and the type of number (whether it's a toll or toll-free number) based on Microsoft’s telephony licenses in each country/region which dictates what the number can be used for.
     
  - **Toll service numbers** - There are two types of toll service numbers, which may incur a toll cost to the caller:
     
@@ -85,4 +85,4 @@ There are two types of service phone numbers for Calling Plans--toll and toll-fr
     
   
 > [!NOTE]
-> If you need to get more phone numbers than this, [contact the PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
+> If you need to get more phone numbers than this, contact the [Phone Number Service Center](https://pstnsd.powerappsportals.com/).
