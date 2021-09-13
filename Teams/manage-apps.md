@@ -13,7 +13,7 @@ ms.reviewer: vaibhava
 search.appverid: MET150
 f1keywords: 
 - ms.teamsadmincenter.manageapps.overview
-description: Learn how to manage your Teams apps on the Manage apps page of the Microsoft Teams admin center
+description: Learn how to manage your Teams apps on the Manage apps page of the Microsoft Teams admin center.
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: medium
@@ -23,7 +23,7 @@ ms.localizationpriority: medium
 As an admin, you can view and manage all Teams apps for your organization. On the Manage apps page in the Teams admin center you can:
 
 - [Allow or block apps at the org level](#allow-and-block-apps)
-- [Allow or block apps hidden by publishers](#allow-and-block-apps-hidden-by-publishers)
+- [Apps blocked by publishers](#apps-blocked-by-publishers)
 - [Add apps to teams](#add-an-app-to-a-team)
 - [Approve or upload new custom apps to your organization's app store](#publish-a-custom-app-to-your-organizations-app-store)
 - [View permissions requested by apps](#view-resource-specific-consent-permissions)
@@ -109,7 +109,7 @@ When you block or allow an app on the Manage apps page, that app is blocked or a
  > [!NOTE]
  > To uninstall an app, right-click the app, and then click **Uninstall** or use the **More apps** menu on the left side.
 
-## Allow and block apps hidden by publishers
+## Apps blocked by publishers
 
 When an ISV publishes an app to the global app store, they might need admins to configure or customize the app experience. The admin can make it available to end-users when the app is fully set up.
 
