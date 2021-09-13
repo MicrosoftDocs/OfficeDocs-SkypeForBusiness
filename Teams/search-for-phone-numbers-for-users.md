@@ -25,15 +25,15 @@ description: "See how to search for phone numbers that you can assign to your us
 
 # Search for phone numbers for users
 
-When you are setting up users in your organization to make and receive phone calls using Microsoft-supplied telephone numbers, you must first use the **Microsoft Teams admin center** and acquire telephone phone numbers to be assigned to users. The telephone number you assign to a user will be a telephone number that you have previously acquired for your organization; the number will be listed in the drop-down list when you edit the properties of the user and click **Assign**.
+When you are setting up users in your organization to make and receive phone calls using Microsoft-supplied telephone numbers, you must first use the **Microsoft Teams admin center** and acquire telephone numbers to be assigned to users. The telephone number you assign to a user will be a telephone number that you have previously acquired for your organization; the number will be listed in the drop-down list when you edit the properties of the user and click **Assign**.
   
 Before you can assign Microsoft-supplied telephone numbers to your users, you must use the **Get new numbers** page to search for telephone numbers that are available for you. You can search by **Country (Market)**, **Number type**, and **Location**, and then enter the quantity of telephone numbers you will need for your users. The page will automatically limit the quantity based on how many you still have available to acquire. 
 
-**How you acquire and manage phone numbers differs depending on your PSTN connectivity option: Microsoft Calling Plans, Operator Connect, or Direct Routing. For more information, see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-landing-page).**
+How you acquire and manage phone numbers differs depending on your PSTN connectivity option: Microsoft Calling Plans, Operator Connect, or Direct Routing. 
 
-**This article only applies to Microsoft Calling Plans. For information about Opertor Connect or Direct Routing, see ...**
+This article only applies to Microsoft Calling Plans. For more information about all options, see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-landing-page).
 
-**NOTE TO REVIEWERS: FOR DR, DO WE JUST SAY CONTACT PROVIDER?  DO WE PROVIDE INFO IN THIS TOPIC?  OR DO WE PROVIDE INFO IN SEPARATE TOPICS FOR DR AND OC?  DO I FOLLOW UP WITH MATTIA'S TEAM FOR DETAILS?**
+
   
 ## Search for phone numbers
 

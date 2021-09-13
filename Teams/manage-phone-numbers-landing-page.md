@@ -45,9 +45,9 @@ Microsoft is working to simplify number types, but for now you will need to deci
 
 How you acquire and manage phone numbers differs depending on your PSTN connectivity option.
 
-- For information about managing phone numbers for Calling Plan, see [Manage phone numbers for Calling Plan](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+- For information about managing phone numbers for Microsoft Calling Plan, see [Manage phone numbers for Calling Plan](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
-- For information about managing phone numbers with Operator Connect, see [Set up phone numbers with Operator Connect](operator-connect-configure.md#set-up-phone-numbers).
+- For information about managing phone numbers for Operator Connect, see [Set up phone numbers with Operator Connect](operator-connect-configure.md#set-up-phone-numbers).
 
 - For information about managing phone numbers for Direct Routing, see [Configure the phone number and enable enterprise voice and voicemail](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online).
 
@@ -64,11 +64,9 @@ There are two types of user numbers, which can be assigned to users in your orga
 
 ## Service phone numbers  
 
-**This section describes service numbers available from Microsoft that are included in your licensing. with Microsoft Calling Plans. For information about service numbers provided by Operator Connect or Direct Routing, contact your provider.**  
+This section describes service numbers available from Microsoft that are included in your licensing. For information about service numbers provided by Operator Connect or Direct Routing, contact your provider. 
 
-**NOTE TO REVIEWERS: DO WE JUST SAY CONTACT PROVIDER?  DO WE PROVIDE INFO IN THIS TOPIC?  OR DO WE PROVIDE INFO IN SEPARATE TOPICS FOR DR AND OC?  DO I FOLLOW UP WITH MATTIA'S TEAM FOR DETAILS?**
-
-There are two types of service phone numbers provided by Microsoft--toll and toll-free--which can be assigned to services such as Audio Conferencing, Auto Attendants, or Call Queues. Service numbers have a higher concurrent call capacity than user numbers. Service number availability varies by country/region and the type of number (whether it's a toll or toll-free number) based on Microsoft’s telephony licenses in each country/region which dictates what the number can be used for.
+There are two types of service phone numbers provided by Microsoft--toll and toll-free--which can be assigned to services such as Audio Conferencing, Auto Attendants, or Call Queues. Service numbers have a higher concurrent call capacity than user numbers. Service number availability varies by country/region and the type of number (whether it's a toll or toll-free number) based on Microsoft’s telephony licenses in each country/region that dictate what the number can be used for.
     
  - **Toll service numbers** - There are two types of toll service numbers, which may incur a toll cost to the caller:
     
