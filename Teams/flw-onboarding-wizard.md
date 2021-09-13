@@ -38,7 +38,7 @@ The wizard is available to all organizations that have at least one Microsoft 36
 
 2. When you're ready, select **Get started** to run the wizard.
 
-3. Enter a name for your team, add one or more team owners, and choose a privacy setting. Then, choose whether to create your team from scratch or from a team template. Team templates come with predefined channels and tabs, which optimize the team for a particular business need or project.
+3. Enter a name for your team, add one or more team owners, and select a privacy setting. Then, choose whether to create your team from scratch or from a team template. Team templates come with predefined channels and tabs, which optimize the team for a particular business need or project.
 
     :::image type="content" source="media/flw-onboarding-wizard-set-up-team.png" alt-text="Screenshot of the Set up a team page of the wizard":::
 
@@ -52,7 +52,7 @@ The wizard is available to all organizations that have at least one Microsoft 36
     - Frontline manager
     - None
   
-    :::image type="content" source="media/flw-onboarding-wizard-assign-roles.png" alt-text="Screenshot of the Assign roles page of the wizard where you assign roles, locations, and licenses to team members":::
+    :::image type="content" source="media/flw-onboarding-wizard-assign-roles.png" alt-text="Screenshot of the Assign job roles page of the wizard where you assign roles, locations, and licenses to team members":::
 
     By assigning a Frontline worker or Frontline manager role, that user will receive an experience in Teams that's tailored to their role. This experience includes pre-pinned apps and policies for healthy frontline worker and manager communication and collaboration.
 
