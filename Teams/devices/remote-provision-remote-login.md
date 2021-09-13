@@ -123,9 +123,9 @@ To sign out of a device, go to **Devices > Phones**.
 
 1. Select the device you want to sign out.
 
-2. Go to the **Actions** menu and select **Sign out**.
+2. Go to the **Actions** menu, and select **Sign out**.
 
-To sign in a device that has been signed out, select **Sign in a user** from the actions menu. 
+To sign in a device that has been signed out, select **Sign in a user** from the **Actions** menu.
 
 ## Related article
 
