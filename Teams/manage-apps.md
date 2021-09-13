@@ -1,7 +1,7 @@
 ---
 title: Manage your apps in the Microsoft Teams admin center
-author: cichur
-ms.author: v-cichur
+author: KarliStites
+ms.author: kastites
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,7 +20,18 @@ ms.localizationpriority: medium
 ---
 # Manage your apps in the Microsoft Teams admin center
 
-As an admin, the Manage apps page in the Microsoft Teams admin center is where you view and manage all Teams apps for your organization. Here, you can see the org-level status and properties of apps, approve or upload new custom apps to your organization's app store, block or allow apps at the org level, add apps to teams, purchase services for third-party apps, view permissions requested by apps, grant admin consent to apps, and manage org-wide app settings.
+As an admin, you can view and manage all Teams apps for your organization. On the Manage apps page in the Teams admin center you can:
+
+- [Allow or block apps at the org level](#allow-and-block-apps)
+- [Allow or block apps hidden by publishers](#allow-and-block-apps-hidden-by-publishers)
+- [Add apps to teams](#add-an-app-to-a-team)
+- [Approve or upload new custom apps to your organization's app store](#publish-a-custom-app-to-your-organizations-app-store)
+- [View permissions requested by apps](#view-resource-specific-consent-permissions)
+- [Grant consent to apps](#grant-admin-consent-to-apps)
+- [Purchase service for third-party apps](#purchase-services-for-third-party-apps)
+- [See org-level status and properties of apps](#view-apps)
+- [Manage org-wide app settings](#manage-org-wide-app-settings)
+- [View security and compliance information for Microsoft 365 Certified apps](#view-security-and-compliance-information-for-microsoft-365-certified-apps)
 
 The Manage apps page gives you a view into all available apps, providing you with the information you need to decide which apps to allow or block across your organization. You can then use [app permission policies](teams-app-permission-policies.md), [app setup policies](teams-app-setup-policies.md), and [custom app policies and settings](teams-custom-app-policies-and-settings.md) to configure the app experience for specific users in your organization.
 
@@ -43,12 +54,13 @@ You can view every app including the following information about each app.
 - **Publisher**: Name of the publisher.
 - **Publishing status**: Publishing status of custom apps.
 - **Status**: Status of the app at the org level, which can be one of the following:
-- **Allowed**: The app is available for all users in your organization.
-- **Blocked**: The app is blocked and not available for any users in your organization.
-- **Blocked org-wide**: The app is blocked in org-wide app settings.
+    - **Allowed**: The app is available for all users in your organization.
+    - **Blocked**: The app is blocked and not available for any users in your organization.
+    - **Blocked by publisher**: The app is blocked by the publisher and is hidden from end-users by default. After you set up the app using the publisher's guidance, you can allow or block the app to make it available to end-users.
+    - **Blocked org-wide**: The app is blocked in org-wide app settings.
       It's important to know that this column represents the allowed and blocked status of apps that were formerly on the **Org-wide settings** pane. You now view, block, and allow apps at the org-wide on the **Manage apps** page.
 - **Licenses**: Indicates whether an app offers a Software as a Service (SaaS) subscription for purchase. This column applies only to third-party apps. Each third-party app will have one of the following values:
-- **Purchase now**: The app offers a SaaS subscription and is available to purchase.  
+- **Purchase**: The app offers a SaaS subscription and is available to purchase.  
 - **Purchased**: The app offers a SaaS subscription and you've purchased licenses for it.
 - **- -**: The app doesn't offer a SaaS subscription.
 - **Custom app**: Whether the app is a custom app.
@@ -96,6 +108,12 @@ When you block or allow an app on the Manage apps page, that app is blocked or a
 
  > [!NOTE]
  > To uninstall an app, right-click the app, and then click **Uninstall** or use the **More apps** menu on the left side.
+
+## Allow and block apps hidden by publishers
+
+When an ISV publishes an app to the global app store, they might need admins to configure or customize the app experience. The admin can make it available to end-users when the app is fully set up.
+
+For example, Contoso Electronics is an ISV that built a help desk app for Microsoft Teams. Contoso Electronics wants its customers to set up certain properties of the app so that when users interact with it the app, it functions as expected. Before an admin can allow or block the application, it will show as **Blocked by publisher** in the Teams admin center and will be hidden from end-users by default. After following the publisher's guidance to set up the app, you can makes it available to users by changing to status to **Allowed**, or block users from using the app by changing the status to **Blocked**.
 
 ## Add an app to a team
 
