@@ -103,7 +103,7 @@ When the device is powered on and connected to the network, the technician provi
 
    ![Tenant name on sign-in page.](../media/provision-code.png)
 
-## Sign in remotely
+## First time remote sign in
 
 The provisioned device appears in the **Awaiting sign in** tab. Start the remote sign-in process by selecting the individual device.
 
@@ -114,6 +114,18 @@ The provisioned device appears in the **Awaiting sign in** tab. Start the remote
 2. Follow the instructions in **Sign in a user**, and then select **Close**.
 
    ![the Sign in a user window for individual device.](../media/sign-in-user.png)
+
+## Remote sign out
+
+After the device is signed in for the first time, it will appear on the **Phones** page of the Teams admin center.
+
+To sign out of a device, go to **Devices > Phones**.
+
+1. Select the device you want to sign out.
+
+2. Go to the **Actions** menu and select **Sign out**.
+
+To sign in a device that has been signed out, select **Sign in a user** from the actions menu. 
 
 ## Related article
 
