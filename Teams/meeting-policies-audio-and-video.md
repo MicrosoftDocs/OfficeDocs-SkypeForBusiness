@@ -29,40 +29,12 @@ description: Learn to manage meeting policy settings in Teams for audio and vide
 
 This article describes the meeting policy settings specific to audio and video. These include the following:
 
-- [Allow transcription](#allow-transcription)
-- [Allow cloud recording](#allow-cloud-recording)
 - [Mode for IP audio](#mode-for-ip-audio)
 - [Mode for IP video](#mode-for-ip-video)
 - [Allow IP video](#allow-ip-video)
 - [Media bit rate (Kbs)](#media-bit-rate-kbs)
 - [Video filters mode](#video-filters-mode)
 - [Allow custom background settings](#allow-custom-background-settings)
-
-### Allow transcription
-
-This is a combination of a per-organizer and per-user policy. This setting controls whether captions and transcription features are available during playback of meeting recordings. If you turn this off, the **Search** and **CC** options won't be available during playback of a meeting recording. The person who started the recording needs this setting turned on so that the recording also includes transcription.
-
-Note that transcription for recorded meetings is currently only supported for users who have the language in Teams set to English and when English is spoken in the meeting.
-
-### Allow cloud recording
-
-This is a combination of a per-organizer and per-user policy. This setting controls whether this user's meetings can be recorded. The recording can be started by the meeting organizer or by another meeting participant if the policy setting is turned on for the participant and if they're an authenticated user from the same organization.
-
-People outside your organization, such as federated and anonymous users, can't start the recording. Guest users can't start or stop the recording.
-
-![Screenshot showing recording options.](media/meeting-policies-recording.png)
-
-Let's look at the following example.
-
-|User |Meeting policy  |Allow cloud recording |
-|---------|---------|---------|
-|Daniela | Global   | Off |
-|Amanda | Location1MeetingPolicy | On|
-|John (external user) | Not applicable | Not applicable|
-
-Meetings organized by Daniela can't be recorded and Amanda, who has the policy setting enabled, can't record meetings organized by Daniela. Meetings organized by Amanda can be recorded, however,  Daniela, who has the policy setting disabled and John who is an external user, can't record meetings organized by Amanda.
-
-To learn more about cloud meeting recording, see [Teams cloud meeting recording](cloud-recording.md).
 
 ### Mode for IP audio
 
@@ -224,4 +196,4 @@ The meeting attendees will see a selection of background images that they can us
 ## Related topics
 
 - [Teams PowerShell overview](teams-powershell-overview.md)
-- [Assign policies to your users in Teams](assign-policies.md)
+- [Assign policies to your users in Teams](policy-assignment-overview.md)
