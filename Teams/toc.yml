@@ -920,6 +920,8 @@ items:
           href: shared-line-appearance.md
         - name: Dial pad configuration
           href: dial-pad-configuration.md
+        - name: Music on Hold
+          href: music-on-hold.md
 
     - name: PSTN connectivity options
       items:
@@ -1385,6 +1387,8 @@ items:
       href: deploy-apps-microsoft-teams-landing-page.md
     - name: Apps from Microsoft
       items:
+        - name: Manage the Bookings app
+          href: bookings-app-admin.md
         - name: Manage the Lists app 
           href: manage-lists-app.md
         - name: Manage the Tasks app
@@ -1393,7 +1397,7 @@ items:
           href: manage-praise-app.md
         - name: Manage the Teams Approvals app
           href: approval-admin.md
-        - name: Manage the Shifts app for your organization in Teams
+        - name: Manage the Shifts app
           href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
           
     - name: Third-party apps
@@ -1458,8 +1462,14 @@ items:
         - name: Shifts for Teams
           href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
           items: 
-            - name: Manage the Shifts app for your organization in Teams
+            - name: Manage the Shifts app
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+        - name: Bookings in Teams
+          items: 
+            - name: Virtual visits with Teams and Bookings
+              href: expand-teams-across-your-org/bookings-virtual-visits.md
+            - name: Manage the Bookings app
+              href: bookings-app-admin.md
     - name: Teams for Healthcare
       items: 
         - name: Get started with Teams for healthcare organizations
@@ -1470,8 +1480,8 @@ items:
               href: expand-teams-across-your-org/healthcare/ehr-admin.md
             - name: EHR admin reports
               href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
-            - name: Virtual visits with Bookings and Teams
-              href: bookings-app-admin.md
+            - name: Virtual visits with Teams and Bookings
+              href: expand-teams-across-your-org/bookings-virtual-visits.md
             - name: Manage the join experience on mobile browsers
               href: expand-teams-across-your-org/mobile-browser-join.md              
         - name: View and assign policy packages
