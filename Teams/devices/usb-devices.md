@@ -73,6 +73,7 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Logitech             |Zone Wired Earbuds                                         |9/2/2021        |Certified for Microsoft Teams                           |
 |AudioCodes           |RXVCam10                                                   |8/26/2021       |Certified for Microsoft Teams                           |
 |Poly                 |Voyager 4320                                               |8/6/2021        |Certified for Microsoft Teams                           |
 |Poly                 |Voyager 4310                                               |8/6/2021        |Certified for Microsoft Teams                           |
