@@ -1,9 +1,8 @@
 ---
 title: Remote provisioning and sign in for Teams Android devices
-author: cichur
-ms.author: v-cichur
+author: czawideh
+ms.author: cazawideh
 manager: serdars
-ms.reviewer: prgholve
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -115,19 +114,8 @@ The provisioned device appears in the **Awaiting sign in** tab. Start the remote
 
    ![the Sign in a user window for individual device.](../media/sign-in-user.png)
 
-## Remote sign out
-
-After the device is signed in for the first time, it will appear on the **Phones** page of the Teams admin center.
-
-To sign out of a device, go to **Devices > Phones**.
-
-1. Select the device you want to sign out.
-
-2. Go to the **Actions** menu, and select **Sign out**.
-
-To sign in a device that has been signed out, select **Sign in a user** from the **Actions** menu.
-
-## Related article
+## Related articles
 
 - [Manage your devices in Teams](device-management.md)
+- [Remote sign-in and sign-out](remote-sign-in-and-sign-out.md)
 - [Update Teams devices remotely](remote-update.md)
