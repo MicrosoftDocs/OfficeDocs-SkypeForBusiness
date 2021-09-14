@@ -90,6 +90,7 @@ KB 4470124 is the master KB for Skype for Business Server 2019 which has all the
 
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
+|Lync Server 2013 Cumulative Update 10 Hotfix 5 |[KB 2809243](https://support.microsoft.com/kb/2809243)|Sept 2021|
 |Lync Server 2013 Cumulative Update 10 Hotfix 4 |[KB 4515509](https://support.microsoft.com/kb/4515509)|July 2020|
 |Lync Server 2013 Cumulative Update 10 Hotfix 3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|September 2019|
 |Lync Server 2013 Cumulative Update 10 Hotfix 2 |[KB 4501392](https://support.microsoft.com/kb/4501392)|June 2019|
