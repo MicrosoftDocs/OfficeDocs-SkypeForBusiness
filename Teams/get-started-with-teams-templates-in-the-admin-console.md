@@ -62,12 +62,12 @@ Pre-built templates (also called base template types) are special templates that
 
 You can duplicate pre-built templates but you can't edit them. If you want to change the properties in a pre-built template, you can create a new template from an existing one, and then add or remove the properties that you want. Keep in mind that certain properties in some templates can't be changed..
 
-Here are the pre-built templates that are available in the Teams admin center. To view these templates, in the left navigation of the Teams admin center, go to * Teams** > **Team templates**.
+Here are the pre-built templates that are available in the Teams admin center. To view these templates, in the left navigation of the Teams admin center, go to **Teams** > **Team templates**.
 
 | Base template type | baseTemplateId | Properties that come with this base template |
 | ------------------ | -------------- | ----------------------------------------------------- |
 | Adopt Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Channels: <ul><li>General</li> <li>Announcements</li> <li>Champions corner</li> <li>Team forms</li><li>Calendar</li></ul> Apps: <ul><li>Wiki</li>  <li>Channel calendar</li> <li>Milestones</li><li>Bulletins</li></ul>|
-| Manage a project |`com.microsoft.teams.template.ManageAProject`| Channels: <ul><li>General</li> <li>Announcements</li> <li>Resources</li> <li>Planning</li></ul> Apps:<ul><li>Wiki</li><li>OneNote</li><li>Tasks</li><li>Lists</li> <li>Power Automate</li> </ul> |
+| Manage a project |`com.microsoft.teams.template.ManageAProject`| Channels: <ul><li>General</li> <li>Announcements</li> <li>Resources</li> <li>Planning</li></ul> Apps:<ul><li>Wiki</li><li>OneNote</li><li>Tasks<li><li>Lists</li><li>Power Automate</li></ul> |
 | Manage an event|`com.microsoft.teams.template.ManageAnEvent` | Channels: <ul><li>General</li> <li>Announcements</li> <li>Budget</li> <li>Content</li><li>Logistics</li> <li>Planning</li> <li> Marketing and PR</li></ul> Apps:<ul><li>Wiki</li><li>Website</li> <li>YouTube</li> <li>Tasks</li> <li>OneNote</li> <li>Employee ideas</li> <li>Issue Reporter</li><li>Power Automate</li><li>Bulletins</li><li>Milestones</li></ul> |
 |Onboard employees|`com.microsoft.teams.template.OnboardEmployees` | Channels: <ul><li>General</li> <li>Announcements</li> <li>Employee chat</li> <li>Training</li></ul>Apps:<ul><li>Wiki</li><li>Communities</li><li>Tasks</li><li>Employee ideas</li><li>Power Automate</li><li>Bulletins</li><li>Milestones</li></ul>|
 |Organize help desk| `com.microsoft.teams.template.OrganizeHelpDesk`|Channels:<ul><li>General</li><li>Announcements</li><li>FAQ</li></ul>Apps:<ul><li>Wiki</li><li>OneNote</li><li>Tasks </li><li>Praise</li><li>Issue Reporter</li><li>Power Automate</li><li>Bulletins</li></ul> |

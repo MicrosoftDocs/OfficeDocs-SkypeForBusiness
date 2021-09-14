@@ -1,17 +1,17 @@
 ---
 title: Get started with team templates using Microsoft Graph
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: phlouie
-ms.localizationpriority: medium
+ms.reviewer: yinchang
+ms.localizationpriority: high
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
-description: Learn how to use team templates in Microsoft Graph to create collaboration spaces with channels for different topics and preinstalled apps to provide content and services.
+description: Learn how to use team templates with Microsoft Graph. to create teams with predefined settings, channels, and apps. 
 f1.keywords:
 - CSH
 ms.custom: 
