@@ -131,6 +131,7 @@ Currently, data is collected from the following areas in class teams:
 | **Files** |	Uploading, downloading, accessing, modifying, commenting on, and sharing a file (not including file content).|
 | **OneNote Class Notebook** |	Editing a page or section in a notebook (not including page content).|
 | **Meetings** |	Attendance (not including meeting content).|
+| **[Reading Progress](https://support.microsoft.com/topic/e71705a2-a79a-4d7e-bcef-a1e0aa336017)** |	Accuracy rate, most challenging words, and words per minute.  |
 | **[Reflect](reflect.md)** |	Check-ins (including values).|
 
 > [!NOTE]
