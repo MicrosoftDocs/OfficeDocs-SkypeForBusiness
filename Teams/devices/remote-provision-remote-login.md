@@ -1,7 +1,7 @@
 ---
 title: Remote provisioning and sign in for Teams Android devices
-author: czawideh
-ms.author: cazawideh
+author: cazawideh
+ms.author: czawideh
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
