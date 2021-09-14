@@ -34,13 +34,17 @@ Here, you can also purchase licenses for services offered by third-party apps fo
     - **Purchase**: The app offers a SaaS subscription and is available to purchase.  
     - **Purchased**: The app offers a SaaS subscription and you've purchased licenses for it.
     - **- -**: The app doesn't offer a SaaS subscription.
-3. When you find the app, click **Purchase** to go to the **Plans and pricing** tab of the app details page. Review the plans and pricing information for the SaaS offer for the app. If you need more information, select **Learn more** to go to the app's page on [AppSource](https://appsource.microsoft.com/).  
+3. When you find the app, click **Purchase** to go to the **Plans and pricing** tab of the app details page. Review the plans and pricing information for the SaaS offer for the app. If you need more information, select **Learn more** to go to the app's page on [AppSource](https://appsource.microsoft.com/).
+
+> [!NOTE]
+> Private plans may also be listed for purchase, which include special pricing that your organization has previously negotiated with an ISV. These plans will have the label **Private plan** under the plan name.
+
 4. To subscribe to an app, choose the plan you want, and select **Purchase**. The checkout flow will open directly in the Teams admin center.
 5. Select the number of user licenses you want to buy.
 6. Check that the billing account and sold-to address is correct. If you don't already have one, add a new one by selecting **Add**. For more information on billing accounts, see [Understand billing accounts](/microsoft-365/commerce/manage-billing-accounts).
 7. Check that the correct billing profile is selected. If you don't already have one, add a new one by selecting **Add new**. You have the option to pay with a credit card, debit card, or with invoice billing. The billing profile also lets you add a purchase order number to identify your order later. For more information on billing profiles, see [Understand billing profiles](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles).
 8. Select **Place order**.
-9. Select **Set up** to activate your subscription on the publisher's website. If you don't set up your subscription after your purchase, you can do it later through the **Manage license** link.
+9. Select **Set up** to activate your subscription on the publisher's website. If you don't set up your subscription after your purchase, you can do it later by selecting **Manage licenses**.
 
 After you've purchased the SaaS offer associated with the Teams app, you can view the following purchase details on the **Plans and pricing** tab of the app details page.
 
