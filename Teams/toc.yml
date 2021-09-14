@@ -1638,6 +1638,8 @@ items:
           href: devices/device-management.md
         - name: Remote provisioning and sign-in
           href: devices/remote-provision-remote-login.md
+        - name: Remote sign in and sign out for Teams Android devices
+          href: devices/remote-sign-in-and-sign-out.md
         - name: Update your devices remotely
           href: devices/remote-update.md
         - name: Manage Teams device tags
