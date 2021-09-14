@@ -117,5 +117,5 @@ The provisioned device appears in the **Awaiting sign in** tab. Start the remote
 ## Related articles
 
 - [Manage your devices in Teams](device-management.md)
-- [Remote sign-in and sign-out](remote-sign-in-and-sign-out.md)
+- [Remote sign in and sign out](remote-sign-in-and-sign-out.md)
 - [Update Teams devices remotely](remote-update.md)
