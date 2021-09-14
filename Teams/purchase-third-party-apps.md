@@ -28,7 +28,7 @@ The [Manage apps](manage-apps.md) page in the Microsoft Teams admin center is wh
 
 Here, you can also purchase licenses for services offered by third-party apps for users in your organization. The **Licenses** column in the table indicates whether an app offers a SaaS subscription for purchase.
 
-:::image type="content" source="media/purchase-third-party-apps-list.png" alt-text="Screenshot showing third-party apps that have SaaS subscriptions.":::
+![Screenshot of purchase licenses manage apps page.](media/manage-apps-new-page.png)
 
 ## Purchase apps in the Teams admin center
 
@@ -37,7 +37,7 @@ Here, you can also purchase licenses for services offered by third-party apps fo
     - **Purchase**: The app offers a SaaS subscription and is available to purchase.  
     - **Purchased**: The app offers a SaaS subscription and you've purchased licenses for it.
     - **- -**: The app doesn't offer a SaaS subscription.
-3. When you find the app, click **Purchase** to go to the **Plans and pricing** tab of the app details page. Review the plans and pricing information for the SaaS offer for the app. If you need more information, select the **learn more** link to go to the app's page on [AppSource](https://appsource.microsoft.com/).  
+3. When you find the app, click **Purchase** to go to the **Plans and pricing** tab of the app details page. Review the plans and pricing information for the SaaS offer for the app. If you need more information, select **Learn more** to go to the app's page on [AppSource](https://appsource.microsoft.com/).  
 4. To subscribe to an app, choose the plan you want, and select **Purchase**. The checkout flow will open directly in the Teams admin center.
 5. Select the number of user licenses you want to buy.
 6. Check that the billing account and sold-to address is correct. If you don't already have one, add a new one by selecting **Add**. For more information on billing accounts, see [Understand billing accounts](/microsoft-365/commerce/manage-billing-accounts).
@@ -67,4 +67,4 @@ Third-party app developers can go to [Create a SaaS offer](/azure/marketplace/pa
 - [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
 - [Create a SaaS offer](/azure/marketplace/partner-center-portal/create-new-saas-offer)
 - [Azure AD built-in roles](/azure/active-directory/roles/permissions-reference)
-- [M365 admin roles](/microsoft-365/admin/add-users/about-admin-roles)
+- [Microsoft 365 admin roles](/microsoft-365/admin/add-users/about-admin-roles)
