@@ -31,7 +31,7 @@ We currently offer three pre-built templates for small and medium businesses tha
 
 The Company-Wide template is meant for communication and collaboration for the entire company. You can use the General channel for company-wide announcements, industry news or executive posts. The Human Resources channel is a great place to consolidate all HR-related activities like job posts, new employee onboarding, training, and development. The Fun Stuff channel provides a social platform for all random and fun posts.
 
-| Base template type  | baseTemplateId | Properties that come with this base template |
+| Template type  | TemplateId | Properties that come with this template |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
 | SMB - <br>Company-wide | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessOrgWide')`| Channels <ul><li>General\*</li><li>Human Resources\*</li><li>Fun Stuff\*</li></ul><br> Apps<ul><li>Company Portal (Website pinned to the **Human Resources** channel) </li> </UL><br>Team properties <ul><li>Team visibility set to Private</li></ul> |
 
@@ -55,7 +55,7 @@ Content-Type: application/json
 
 The Executive Team template is ideal for creating a team for company executives to communicate and collaborate on company initiatives like annual priorities, fiscal budgets, strategic initiatives, and top clients. This template comes with a *private* channel to invite select users for specific topics.
 
-| Base template type  | baseTemplateId | Properties that come with this base template |
+| Template type  | TemplateId | Properties that come with this template |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
 | SMB - <br>Executives Team | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessExecutive')` | Channels <ul><li>General\*</li><li>Private \*</li></ul> Apps<ul><li>OneNote (pinned to the **Private** channel)</li> <li>Planner (pinned to the **Private** channel) </li></ul><br>Team properties <ul><li>Team visibility set to Private</li></ul> | 
 
@@ -79,7 +79,7 @@ Content-Type: application/json
 
 The Departmental team template can be used for creating a team for individual departments or for projects. The Finance team template is ideal for all posts, announcements, and daily collaboration and communication within the Finance team members and executive team members as appropriate. The template comes with a *private* channel to invite select users for specific topics. We also provide the script below for the Finance team that can be used to extend the template to additional departments or specific projects by adding, deleting from, or editing to your liking. For example, if you have a *Marketing* department, then the script can be adapted by renaming the team from *Finance* to *Marketing* to create a new Marketing team
 
-| Base template type | baseTemplateId | Properties that come with this base template |
+| Template type | TemplateId | Properties that come with this template |
 |:------------------ | :-------------- | :----------------------------------------------------- | 
 | SMB - <br>Finance  | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessFinance')`| Channels <ul><li>General\*</li><li>Private \*</li></ul><br> Apps<ul><li>OneNote (pinned to the **Private** channel)</li> <li>Planner (pinned to the **Private** channel) </li> </ul><br>Team properties <ul><li>Team visibility set to Private</li></ul> | 
 

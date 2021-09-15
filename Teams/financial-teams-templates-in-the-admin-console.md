@@ -23,20 +23,6 @@ appliesto:
 
 # Use financial team templates in the Teams admin center
 
-## OLD
-
-Team templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
-
-Team templates have pre-built definitions of team structures designed around financial needs. You can also extend the team templates to create teams that are tailored to your specific organizational needs.
-
-In this article, we'll introduce each of the team templates and recommend how to use them.
-
-This article is for you if you're responsible for planning, deploying, and managing multiple teams across your financial organization. You've already deployed Teams service in your organization. If you haven't yet rolled out Teams, start by reading the [How to roll out Microsoft Teams](./deploy-overview.md).
-
-To learn more about team templates in general, refer to [Get started with team templates](get-started-with-teams-templates-in-the-admin-console.md).
-
-## NEW
-
 Team templates in Microsoft Teams allow you to quickly and easily create teams by providing a predefined team structure of settings, channels, and pre-installed apps.
 
 For financial services organizations, team templates can be especially powerful, as they help you to quickly deploy consistent teams across your organization. Templates also help staff to get oriented with how to effectively use Teams.
@@ -51,20 +37,20 @@ As an admin, you can manage team templates in the Microsoft Teams admin center. 
 
 We currently offer the following pre-built team templates for financial services organizations. To view them, in the left navigation of the Teams admin center, go to **Teams** > **Team templates**.
 
-## Global crisis or event
+## Crisis communication
 
 Centralize collaboration for your crisis team across business units and help create business continuity plans, share remote working tips, track customer communications, and keep everyone in the loop with announcements and news.
 
-| Base template type|baseTemplateId | Properties that come with this base template |
+| Template type|TemplateId | Properties that come with this template |
 | ------------------|-- |----------------------------------------------------- |
-| Collaborate on global crisis or event|`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Channels: <ul><li>General<li>Announcements</li><li>World news</li><li>Business continuity</li><li>Remote working</li><li>Internal comms</li><li>External comms</li><li>Approvals request</li><li>Customer complaints</li><li>Kudos</li><li>Executive update</li></ul>Apps: <ul><li>Praise</li><li>Wiki</li><li>Website</li><li>Planner</li></ul>|
+| Crisis communication |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Channels: <ul><li>General<li>Announcements</li><li>World news</li><li>Internal comms</li><li>External comms</li><li>Approvals request</li><li>Customer escalations</li><li>Executive update</li><li>Planning</li><li>Logistics</li></ul>Apps: <ul><li>Website</li><li>Tasks</li><li>Issue Reporter</li><li>Approvals</li><li>Bulletins</li><li>OneNote</li><li>Power Automate</li><li>SharePoint</li></ul>|
 ||||
 
 ## Collaborate within a bank branch
 
 Centralize collaboration for your bank branch employees across huddles, customer meetings, business processes such as mortgage collaboration, and keep everyone in the loop with announcements and kudos.
 
-| Base template type |baseTemplateId| Properties that come with this base template |
+| Template type |TemplateId| Properties that come with this template |
 | ------------------ |--|----------------------------------------------------- |
-|Collaborate within a bank branch|`com.microsoft.teams.template.CollaborateWithinABankBranch` |Channels: <ul><li>General<li>Announcements</li><li>Huddles</li><li>Customer meetings</li><li>Approvals Request</li><li>Coaching</li><li>Skills development</li><li>Loan processing</li><li>Customer complaints</li><li>Kudos</li><li>Fun stuff</li><li>Compliance</li></ul>Apps:<ul><li>Praise</li></ul>|
+|Bank branch| `com.microsoft.teams.template.CollaborateWithinABankBranch`|Channels: <ul><li>General<li>Announcements</li><li>Huddles</li><li>Customer meetings</li><li>Approvals Request </li><li>Coaching</li><li>Skills development</li><li>Loan processing</li><li>Customer complaints</li><li>Kudos</li><li>Fun stuff</li><li>Compliance</li></ul>Apps:<ul><li>Praise </li><li>Issue Reporter</li><li>Wiki</li><li>Calendar</li><li>Approvals</li><li>Bulletins</li><li>Ideas</li></ul>|
 ||||
