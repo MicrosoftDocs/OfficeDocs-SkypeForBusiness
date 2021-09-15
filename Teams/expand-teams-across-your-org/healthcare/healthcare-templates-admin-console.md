@@ -81,7 +81,9 @@ The ward template is meant for communication and collaboration within a ward, po
 
 ### Hospital template
 
-The hospital template is meant for communication and collaboration between multiple wards, pods, and departments within a hospital. This template includes several operational channels such as *Announcements*, *Custodial*, and *Pharmacy*. We also provide a script below that extends the template with a variety of additional department or specialty-centric channels that you can add to, delete from, or edit to your liking. For example, if you have an *Endocrinology* department, but don't need a channel for *Ophthalmology*, the script can be adapted to include an *Endocrinology* channel and remove the *Ophthalmology* channel. We recommend that these specialty or ward-modeled channels not be auto-favorited to avoid notification saturation. Users generally favorite any channels that they find relevant.
+The hospital template is meant for communication and collaboration between multiple wards, pods, and departments within a hospital. This template includes several operational channels such as *Announcements*, *Custodial*, and *Pharmacy*. We also provide a script that you can use to extend the template with additional departments or specialty channels. You can edit it to fit your needs.
+
+For example, if you have an *Endocrinology* department, but don't need a channel for *Ophthalmology*, the script can be adapted to include an *Endocrinology* channel and remove the *Ophthalmology* channel. We recommend that these specialty or ward-modeled channels not be auto-favorited to avoid notification saturation. Users generally favorite any channels that they find relevant.
 
 |Template type |TemplateId |Template channels|
 |:--- |:---|:---|

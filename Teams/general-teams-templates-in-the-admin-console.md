@@ -27,7 +27,7 @@ Team templates in Microsoft Teams allow you to quickly and easily create teams b
 
 Use team templates to deploy consistent teams across your organization. Templates can also help users get oriented with how to effectively use Teams. You can also extend the templates to create teams that are tailored to your specific organizational needs.
 
-Teams includes pre-built templates that we created for specific business needs, projects, and industries. In this article, we introduce you to the general category of templates that you can use in your organization for a variety of scenarios.
+Teams includes pre-built templates that we created for specific business needs and projects. In this article, we introduce you to the general category of templates that you can use in your organization for a variety of scenarios.
 
 To learn more about team templates in general, see [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md).
 

@@ -88,7 +88,7 @@ Recommended ways to customize the Store template for your organization:
 
 ### Manager Collaboration template
 
-The Manager Collaboration template is another one of the team templates designed around retailer needs. The Manager Collaboration template is ideal for creating a team for a set of managers to collaborate across stores/regions, and more. For example, if your organization has regions, you might create a Manager Collaboration team for the California Region and include all the store managers in that region, as well as the regional manager for that region.
+The Manager Collaboration template is ideal for creating a team for a set of managers to collaborate across stores, regions, and so on. For example, if your organization has regions, you might create a Manager Collaboration team for the California region and include all the store managers in that region, along with the regional manager for that region.
 
 | Template type | TemplateId | Properties that come with this template |
 | ------------------ | -------------- | ----------------------------------------------------- |
