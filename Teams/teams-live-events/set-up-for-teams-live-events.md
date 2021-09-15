@@ -54,7 +54,7 @@ Live events policies are used to control who in your organization can hold live 
 
     Here are the settings you can change to fit the needs of your organization.
 
-    ![Screen shot of live events policy settings.](../media/teams-live-events-policies.png "Screen shot of live events policy settings in the Microsoft Teams admin center")
+    ![Screen shot of live events policy settings.](../media/teams-live-events-policies-new.png "Screen shot of live events policy settings in the Microsoft Teams admin center")
 
 |Setting  |Description  |
 |---------|---------|
