@@ -29,7 +29,7 @@ Use team templates to deploy consistent teams across your organization. Template
 
 Teams includes pre-built templates that we created for specific business needs, projects, and industries. In this article, we introduce you to the general category of templates that you can use in your organization for a variety of scenarios.
 
-To learn more about team templates in general, refer to [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md).
+To learn more about team templates in general, see [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md).
 
 ## Adopt Office 365
 
@@ -39,7 +39,6 @@ Help build, grow, and sustain your Champions community rollout by evangelizing a
 > | Template type |TemplateId| Properties that come with this template |
 > | ------------------|--|-----------------------------------------------------------|
 > | Adopt Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Channels: <ul><li>General</li> <li>Announcements</li> <li>Champions corner</li> <li>Team forms</li><li>Calendar</li></ul> Apps: <ul><li>Wiki</li>  <li>Channel calendar</li> <li>Milestones</li><li>Bulletins</li></ul>|
-| Manage a project |`com.microsoft.teams.template.ManageAProject`| Channels: <ul><li>General</li> <li>Announcements</li> <li>Resources</li> <li>Planning</li></ul> Apps:<ul><li>Wiki</li><li>OneNote</li><li>Tasks</li><li>Lists</li><li>Power Automate</li></ul> |
 > ||||
 
 ## Manage a project
@@ -47,7 +46,7 @@ Help build, grow, and sustain your Champions community rollout by evangelizing a
 Manage tasks, share documents, conduct project meetings and document risks and decisions with this template for general project management.
 
 > [!div class="mx-tdBreakAll"]
-> | Base template type| baseTemplateId| Properties that come with this base template |
+> | Template type| TemplateId| Properties that come with this template |
 > | ------------------|--|-----------------------------------------------------------|
 > | Manage a project |`com.microsoft.teams.template.ManageAProject`| Channels: <ul><li>General</li> <li>Announcements</li> <li>Resources</li> <li>Planning</li></ul> Apps:<ul><li>Wiki</li><li>OneNote</li><li>Tasks</li><li>Lists</li><li>Power Automate</li></ul> |
 > ||||
@@ -78,7 +77,7 @@ Improve your culture and streamline your employee onboarding with this central t
 Collaborate on documentation, policy, and processes that support your helpdesk. Integrate your existing ticketing system or use our template to manage requests.
 
 > [!div class="mx-tdBreakAll"]
-> | Base template type |baseTemplateId| Properties that come with this base template |
+> | Template type |TemplateId| Properties that come with this template |
 > | ------------------|--|------------------------------------------------------------|
 > |Organize help desk| `com.microsoft.teams.template.OrganizeHelpDesk`|Channels:<ul><li>General</li><li>Announcements</li><li>FAQ</li></ul>Apps:<ul><li>Wiki</li><li>OneNote</li><li>Tasks </li><li>Praise</li><li>Issue Reporter</li><li>Power Automate</li><li>Bulletins</li></ul> |
 > ||||
@@ -88,7 +87,7 @@ Collaborate on documentation, policy, and processes that support your helpdesk. 
 Centralize collaboration for your crisis team across business units and help create business continuity plans, share remote working tips, track customer communications, and keep everyone in the loop with announcements and news.
 
 > [!div class="mx-tdBreakAll"]
-> | Base template type |baseTemplateId| Properties that come with this base template |
+> | Template type |TemplateId| Properties that come with this template |
 > | ------------------ |--|----------------------------------------------------------|
 > | Crisis communication |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Channels: <ul><li>General<li>Announcements</li><li>World news</li><li>Internal comms</li><li>External comms</li><li>Approvals request</li><li>Customer escalations</li><li>Executive update</li><li>Planning</li><li>Logistics</li></ul>Apps: <ul><li>Website</li><li>Tasks</li><li>Issue Reporter</li><li>Approvals</li><li>Bulletins</li><li>OneNote</li><li>Power Automate</li><li>SharePoint</li></ul>|
 > ||||
