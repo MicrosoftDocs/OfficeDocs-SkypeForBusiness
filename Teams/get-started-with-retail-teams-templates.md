@@ -11,7 +11,7 @@ ms.collection:
   - M365-collaboration
 ms.localizationpriority: high
 search.appverid: MET150
-description: Learn about retail team templates, how to manage them in the Teams admin center, and how to use them with Microsoft Graph to quickly and easily create teams for your retail organization.
+description: Learn how to manage and use the retail team templates in the Teams admin center and with Microsoft Graph to easily and quickly create teams for your retail organization. 
 f1.keywords:
 - CSH
 ms.custom: 
@@ -75,7 +75,7 @@ The Store template is ideal for creating a team to represent an individual retai
 
 | Template type | TemplateId | Properties that come with this template |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Retail - <br>Store | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')`| Channels <ul><li>Shifts handoff&sup2;</li><li>Learning&sup2;</li></ul>Team properties <ul><li>Team visibility set to Public</li></ul> <br>Member permissions <ul><li>Can't create/update/delete channels </li><li>Can't add/remove apps </li><li>Can't create/update/remove tabs</li><li>Can't create/update/remove connectors</li><ul>|
+| Retail - <br>Store | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')`| Channels <ul><li>Shift handoff&sup2;</li><li>Learning&sup2;</li></ul>Team properties <ul><li>Team visibility set to Public</li></ul> <br>Member permissions <ul><li>Can't create/update/delete channels </li><li>Can't add/remove apps </li><li>Can't create/update/remove tabs</li><li>Can't create/update/remove connectors</li><ul>|
 ||||
 
 &sup2;Auto-favorited channels
@@ -101,7 +101,7 @@ Recommended ways to customize the Manager Collaboration template for your organi
 
 - If your organization has any internal websites, such as a SharePoint site, that are relevant for managers, consider pinning them as tabs in a relevant team channel.
 
-### How to use retail team templates
+### How to use team templates with Microsoft Graph
 
 To use these templates, change the 'template@odata.bind' property in the request body from 'standard' to the TemplateIds above.  For more information on how to deploy team templates, see the Microsoft Graph article on how to [create a team](/graph/api/team-post?view=graph-rest-beta).
 
