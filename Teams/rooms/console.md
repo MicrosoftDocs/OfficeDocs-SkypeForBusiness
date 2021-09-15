@@ -241,7 +241,17 @@ Use the following checklist while doing a final verification that the console an
 |☐   |Audio peripheral firmware version is correct (if applicable)   |
 |☐   |Audio input device functional and optimally positioned   |
 |☐   |Audio output device functional and optimally positioned   |
-   
+
+**Dock**
+
+|Completed |Check |
+|:-----:|:-----|
+|☐   |Cables are secure and not pinched   |
+|☐   |Audio ingest over HDMI is functional   |
+|☐   |Video ingest over HDMI is functional   |
+|☐   |Dock can swivel freely   |
+|☐   |Display brightness is acceptable for environment   |
+
 **Dock**
 
 |Completed |Check |
