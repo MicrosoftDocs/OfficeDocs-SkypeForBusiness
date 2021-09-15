@@ -75,7 +75,7 @@ The Store template is ideal for creating a team to represent an individual retai
 
 | Template type | TemplateId | Properties that come with this template |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Retail - <br>Store | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')`| Channels <ul><li>Shift handoff&sup2;</li><li>Learning&sup2;</li></ul>Team properties <ul><li>Team visibility set to Public</li></ul> <br>Member permissions <ul><li>Can't create/update/delete channels </li><li>Can't add/remove apps </li><li>Can't create/update/remove tabs</li><li>Can't create/update/remove connectors</li><ul>|
+| Retail - <br>Store | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')`| Channels <ul><li>Shift handoff&sup2;</li><li>Store readiness</li><li>Learning&sup2;</li></ul>Team properties <ul><li>Team visibility set to Public</li></ul> <br>Member permissions <ul><li>Can't create/update/delete channels </li><li>Can't add/remove apps </li><li>Can't create/update/remove tabs</li><li>Can't create/update/remove connectors</li><ul>|
 ||||
 
 &sup2;Auto-favorited channels
