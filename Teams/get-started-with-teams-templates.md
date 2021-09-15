@@ -11,7 +11,7 @@ ms.localizationpriority: high
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
-description: Learn how to use team templates with Microsoft Graph. to create teams with predefined settings, channels, and apps. 
+description: Learn about the team templates that are available only with Microsoft Graph. 
 f1.keywords:
 - CSH
 ms.custom: 

@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: yinchang
-ms.localizationpriority: medium
+ms.localizationpriority: high
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -58,11 +58,11 @@ Most properties in a team are included and supported by team templates. But ther
 
 ## Pre-built team templates in the Teams admin center
 
-Here are the pre-built templates that are available in the Teams admin center. Pre-built templates are templates that we created for specific industries. To view these templates, in the left navigation of the Teams admin center, go to **Teams** > **Team templates**.
+Here are the pre-built team templates that are available in the Teams admin center. Pre-built templates are templates that we created for specific industries. To view these templates, in the left navigation of the Teams admin center, go to **Teams** > **Team templates**.
 
 You can duplicate pre-built templates but you can't edit them. If you want to change the properties in a pre-built template, you can create a new template from an existing one, and then add or remove the properties that you want. Keep in mind that certain properties in some templates can't be changed.
 
-| Template type | baseTemplateId | Properties that come with this  template |
+| Template type | TemplateId | Properties that come with this template |
 | ------------------ | -------------- | ----------------------------------------------------- |
 | Adopt Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Channels: <ul><li>General</li> <li>Announcements</li> <li>Champions corner</li> <li>Team forms</li><li>Calendar</li></ul> Apps: <ul><li>Wiki</li>  <li>Channel calendar</li> <li>Milestones</li><li>Bulletins</li></ul>|
 | Manage a project |`com.microsoft.teams.template.ManageAProject`| Channels: <ul><li>General</li> <li>Announcements</li> <li>Resources</li> <li>Planning</li></ul> Apps:<ul><li>Wiki</li><li>OneNote</li><li>Tasks</li><li>Lists</li><li>Power Automate</li></ul> |
@@ -75,8 +75,8 @@ You can duplicate pre-built templates but you can't edit them. If you want to ch
 |Incident response| `com.microsoft.teams.template.CoordinateIncidentResponse`|Channels: <ul><li>General<li>Announcements</li><li>Logistics</li><li>Planning</li><li>Recovery</li><li>Urgent</li></ul> Apps: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Tasks</li> <li>Approvals</li> <li>Inspection</li> <li>Power Automate</li><li>Bulletins</li><li>Milestones</li></ul>|
 |Hospital| `healthcareHospital` |Channels: <ul><li>General</li><li>Announcements</li><li>Compliance</li><li>Custodial</li><li>Human resources</li><li>Pharmacy</li></ul> Apps: <ul><li>Wiki</li><li>Lists</li><li>Tasks</li><li>Approvals</li><li>Shifts</li><li>Bulletins</li><li>Inspection</li><li>Ideas</li></ul>|
 |Organize a store| `retailStore` |Channels: <ul><li>General<li>Shift handoff</li><li>Store readiness</li><li>Learning</li></ul> Apps: <ul><li>Wiki</li><li>Tasks</li><li>Shifts</li><li>Inspection</li></ul>|
-|Quality and safety |`com.microsoft.teams.template.QualitySafety`|Channels: <ul><li>General<li>Announcements</li><li>Leadership</li><li>Maintenance</li><li>Production Line 1</li><li>Production Line 2</li><li>Production Line 3</li><li>Health and Safety</li><li>Training</li><li>Fun stuff</li></ul> Apps: <ul><li>Wiki</li><li>Tasks</li> <li>Issue Reporter</li> <li>Inspection</li> </ul>|
 |Retail for managers| `retailManagerCollaboration` |Channels: <ul><li>General<li>Operations</li><li>Learning</li></ul> Apps: <ul><li>Wiki</li><li>Tasks</li><li>Inspection</li></ul>|
+|Quality and safety |`com.microsoft.teams.template.QualitySafety`|Channels: <ul><li>General<li>Announcements</li><li>Leadership</li><li>Maintenance</li><li>Production Line 1</li><li>Production Line 2</li><li>Production Line 3</li><li>Health and Safety</li><li>Training</li><li>Fun stuff</li></ul> Apps: <ul><li>Wiki</li><li>Tasks</li> <li>Issue Reporter</li> <li>Inspection</li> </ul>|
 
 ### Team templates by category and industry
 
