@@ -27,7 +27,8 @@ The audit log can help you investigate specific activities across Microsoft 365 
 - Team creation
 - Team deletion
 - Added channel
-- Changed setting
+- Deleted channel
+- Changed channel setting
 
 For a complete list of Teams activities that are audited, see [Teams activities](#teams-activities) and [Shifts in Teams activities (in preview)](#shifts-in-teams-activities).
 
