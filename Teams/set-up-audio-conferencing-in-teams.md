@@ -58,7 +58,7 @@ Go to [Country and region availability for Audio Conferencing and Calling Plans]
 ## Step 3: Get service numbers for your conferencing bridges
 <a name="__top"> </a>
 
-For Audio Conferencing, you can’t use phone numbers for users; you will need to get service numbers. You can get either toll or toll-free service numbers for your conferencing bridges. There are three ways to get toll and toll-free service numbers: 
+For Audio Conferencing, you can’t use phone numbers for users; you will need to get service numbers. You can get either toll or toll-free service numbers for your conferencing bridges. There are three ways to get toll and toll-free service numbers:
   
 - **Use the Microsoft Teams admin center**. For some countries/regions, you can get service numbers for your conferencing bridges using the Microsoft Teams admin center. See [Getting service phone numbers](./getting-service-phone-numbers.md).
     

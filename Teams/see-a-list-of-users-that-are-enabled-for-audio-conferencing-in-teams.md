@@ -35,7 +35,6 @@ After you have enabled Microsoft Teams users in your organization for Audio Conf
 
 - In the Microsoft Teams admin center, in the left navigation, click **Users**.
 
-
 ## What else should I know?
 
 - When you view the list of users that are enabled, you can select a user from the list to edit the audio conferencing settings for that user.

@@ -41,7 +41,6 @@ A dynamic conference ID is included at the bottom of meeting invitations along w
 3. Under **Audio Conferencing** click **Reset conference ID**.
 
 2. In the **Reset conference ID** window, click **Reset**. A conference ID will be automatically created and an email sent to the user with the new conference ID. By default, emails are sent to users, but this can be turned off.   
-
     
 > [!NOTE]
 > After you reset the conference ID, an email with the new conference ID will be sent to the user. This email will be sent to the primary email address, in many cases, their Microsoft 365 or Office 365 mailbox. The email contains the new conference ID, default dial-in phone number(s) and instructions for updating existing meetings. 
