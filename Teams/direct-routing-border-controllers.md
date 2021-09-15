@@ -98,6 +98,8 @@ If you have any questions about the SBC certification program for Direct Routing
 - [Bandwidth Dynamic Location Routing](https://www.bandwidth.com/partners/microsoft-teams-direct-routing/)
 - [Intrado Emergency Routing Service (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
 - [Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
+- [Inteliquent](https://www.inteliquent.com/services/emergency-services/e911)
+
 <br/>
 
 ## Support for Local Media Optimization
