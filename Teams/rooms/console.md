@@ -252,15 +252,7 @@ Use the following checklist while doing a final verification that the console an
 |☐   |Dock can swivel freely   |
 |☐   |Display brightness is acceptable for environment   |
 
-**Dock**
 
-|Completed |Check |
-|:-----:|:-----|
-|☐   |Cables are secure and not pinched   |
-|☐   |Audio ingest over HDMI is functional   |
-|☐   |Video ingest over HDMI is functional   |
-|☐   |Dock can swivel freely   |
-|☐   |Display brightness is acceptable for environment   |
    
 ## See also
 <a name="Checklist"> </a>
