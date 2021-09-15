@@ -306,11 +306,6 @@ Yes, the expiration date is set per file. Users can modify the expiration date i
   
 Admins will be able to change the default expiration setting in PowerShell or the Teams Admin Center before the feature is released. The setting is not yet available for modification. We will publish an updated message center post when the setting is available for modification. When the feature launches, Admins can change this setting in the Teams admin center. Changing expiration settings will impact only newly created TMRs from that point forward. It will not impact any recordings made prior to that date.
 
-The expiration days values can be set as follows:
-  
-- Value can be from 1 to 99,999 days (273 years max).
-- Value can also be -1 to set TMR to never expire.
-
 Admins can't change the expiration date on existing TMRs already uploaded to OneDrive or SharePoint before this feature was released. This protects the intent of the user that owns the TMR.
   
 **Can an admin set TMR's to never expire?**
