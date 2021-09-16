@@ -1,5 +1,5 @@
 ---
-title: "See a list of phone numbers in your organization"
+title: "See a list of telephone numbers in your organization"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -22,26 +22,26 @@ f1.keywords:
 ms.custom: 
   - Calling Plans
   - seo-marvel-mar2020
-description: Learn to use the Microsoft Teams admin center to see a list of all phone numbers in your organization and all numbers that are assigned to users or unassigned.
+description: Learn to use the Microsoft Teams admin center to see a list of all telephone numbers in your organization and all numbers that are assigned to users or unassigned.
 ---
 
-# See a list of phone numbers 
+# See a list of telephone numbers 
 
-**There are different types of phone numbers that you can assign to users or other services (service numbers). For more information, see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-landing-page).**
+**There are different types of telephone numbers that you can assign to users or other services (service numbers). For more information, see [Manage telephone numbers for your organization](/microsoftteams/manage-phone-numbers-landing-page).**
 
 **This article applies to Calling Plans and Operator Connect. For information about Direct Routing, see ...**
 
 **NOTE TO REVIEWERS: FOR DR, DO WE JUST SAY CONTACT PROVIDER?  DO WE PROVIDE INFO IN THIS TOPIC?  OR DO WE PROVIDE INFO IN SEPARATE TOPICS FOR DR AND OC?  DO I FOLLOW UP WITH MATTIA'S TEAM FOR DETAILS?**
   
-## To see all phone numbers in your organization
+## To see all telephone numbers in your organization
 
-To see a list of all phone numbers in your organization:
+To see a list of all telephone numbers in your organization:
 
 1. Go to the **Microsoft Teams admin center**.
 
 2. In the left navigation, go to **Voice** > **Phone numbers**.
 
-3. To view the phone numbers that are assigned, see the **Status** column.
+3. To view the telephone numbers that are assigned, see the **Status** column.
 
 4. To filter your view, click the filter icon. On the **Filter** pane, you can use the drop-down list to filter your view by:
 
@@ -55,9 +55,9 @@ To see a list of all phone numbers in your organization:
 
    - Phone number **status**.
 
-## To see all phone numbers that are assigned to users
+## To see all telephone numbers that are assigned to users
 
-When you are setting up users, you might just want to see the list of the phone numbers that are already assigned to users and which phone numbers are available to be assigned to them.
+When you are setting up users, you might just want to see the list of the telephone numbers that are already assigned to users and which telephone numbers are available to be assigned to them.
 
 1. Go to the **Microsoft Teams admin center**.
 
@@ -66,7 +66,7 @@ When you are setting up users, you might just want to see the list of the phone 
     > [!IMPORTANT]
     > For you to see the **Voice** option in the left navigation in the Microsoft Teams admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
 
-3. To quickly sort the numbers so that you can see which are assigned, click the **Status** column heading. Or, you can click the filter icon and then filter your view to see phone numbers that are already assigned to users or unassigned numbers that you can assign to a user. You can filter by:
+3. To quickly sort the numbers so that you can see which are assigned, click the **Status** column heading. Or, you can click the filter icon and then filter your view to see telephone numbers that are already assigned to users or unassigned numbers that you can assign to a user. You can filter by:
 
    - **Assigned to user**
 
@@ -74,9 +74,9 @@ When you are setting up users, you might just want to see the list of the phone 
 
    - **Unassigned**
 
-## To see all phone numbers that are assigned to voice users
+## To see all telephone numbers that are assigned to voice users
 
-When you are setting up users in your organization to make and receive phone calls, you must first get the phone numbers and then assign them to your users. After you've gotten your phone numbers, you might want to see the activation status of the number assignments.
+When you are setting up users in your organization to make and receive telephone calls, you must first get the telephone numbers and then assign them to your users. After you've gotten your telephone numbers, you might want to see the activation status of the number assignments.
   
 1. Go to the **Microsoft Teams admin center**.
 
@@ -98,13 +98,13 @@ When you are setting up users in your organization to make and receive phone cal
 
 You can use the Teams PowerShell module to get the same information from the previous sections, but version 1.1.6 or later is required, which includes the integration of the Skype for Business Online connector. For more information about the module, see [Microsoft Teams PowerShell Overview](teams-powershell-overview.md).
 
-You can see a list of all phone numbers that you have for your organization by using the [Get-CsOnlineTelephoneNumber](/powershell/module/skype/get-csonlinetelephonenumber) cmdlet. For example, you can run the following command to see each phone number and their state:
+You can see a list of all telephone numbers that you have for your organization by using the [Get-CsOnlineTelephoneNumber](/powershell/module/skype/get-csonlinetelephonenumber) cmdlet. For example, you can run the following command to see each telephone number and their state:
 
 ```PowerShell
 Get-CsOnlineTelephoneNumber | ft Id,ActivationState
 ```
 
-You can see all of the phone numbers that are assigned to users by using the [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser) cmdlet. For example, you can run the following command to see all the users with a phone number assigned:
+You can see all of the telephone numbers that are assigned to users by using the [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser) cmdlet. For example, you can run the following command to see all the users with a telephone number assigned:
 
 ```PowerShell
 Get-CsOnlineUser | Where-Object  { $_.LineURI -notlike $null } | ft DisplayName,UserPrincipalName,LineURI
@@ -112,7 +112,7 @@ Get-CsOnlineUser | Where-Object  { $_.LineURI -notlike $null } | ft DisplayName,
 
 ## Related topics
 
-[Manage phone numbers for your organization](manage-phone-numbers-landing-page.md)
+[Manage telephone numbers for your organization](manage-phone-numbers-landing-page.md)
 
 [Emergency calling terms and conditions](./emergency-calling-terms-and-conditions.md)
 
