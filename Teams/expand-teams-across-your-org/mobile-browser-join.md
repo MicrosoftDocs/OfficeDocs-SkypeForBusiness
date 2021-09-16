@@ -77,7 +77,7 @@ Here are the mobile browsers that are currently supported. We support the latest
 
 ## Related articles
 
-- [Virtual visits with Teams and the Bookings app](../bookings-app-admin.md)
+- [Virtual visits with Teams and the Bookings app](bookings-virtual-visits.md)
 - [Create an Bookings appointment type](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)
 - [Join a Bookings appointment as an attendee](https://support.microsoft.com/office/join-a-bookings-appointment-as-an-attendee-95cea12d-2220-421f-a663-6efb20913c7f)
 - [Virtual visits with Teams - Integration into EHR](healthcare/ehr-admin.md)
