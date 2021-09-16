@@ -168,7 +168,8 @@ Skype for Business threads do not persist beyond the 10 min. SIP session timeout
 Both the in-tenant and federated behaviors described above are available, with the following limitations:
 
 - External attendees whose tenants reside in a different GoLocal deployment or geography won't see IM chat while in a "federated" meeting
-- Federation and interop between Multitenant O365 and Sovereign Clouds is not supported
+- Federation and interop between multi-tenant Office 365 and Office 365 operated by 21Vianet is supported in limited scenarios.
+
 
 ## Presence
 
@@ -222,6 +223,20 @@ The table below describes the Publisher's presence that will be seen by a Watche
 In order to align presence and reachability in pre-existing threads, the target's presence exposed in that thread needs to be aligned with the routing of the thread, assuming routing is possible.
 
 In particular, if a recipient you previously had a persistent interop conversation thread with was upgraded to Teams, that thread will no longer reflect accurate presence and will no longer be routable. You should start a new thread.
+
+### Federation and interop with Office 365 operated by 21Vianet
+
+Federation and interop between multi-tenant Office 365 and Office 365 operated by 21Vianet are supported when the multi-tenant Office 365 users are in Teams Only mode. In such a scenario, Skype for Business Online users in Office 365 operated by 21Vianet will be able to communicate with Teams Only users in multi-tenant Office 365 through chats and calls. The following table shows the supported scenarios in this configuration:
+ 
+|Scenario|Origin|Recipient|Supported?|
+|---|---|---|---|
+|Presence|Teams <br> Skype for Business <br> | Skype for Business <br> Teams|Yes<br>Yes|
+|Chat|Teams <br> Skype for Business <br> | Skype for Business <br> Teams|Yes (1:1 only)<br>Yes(1:1 only)|
+|Audio Calls|Teams <br> Skype for Business <br> | Skype for Business <br> Teams|Yes (1:1 only)<br>Yes (1:1 only)|
+|Video Calls|Teams <br> Skype for Business <br> | Skype for Business <br> Teams|Yes (1:1 only)<br>Yes (1:1 only)|
+|Screen Sharing|Teams <br> Skype for Business <br> | Skype for Business <br> Teams |Yes (through a promoted Teams meeting)<br>Yes (through a promoted SfB meeting)|
+|||||
+
 
 ## Related Links
 [Migration and interoperability guidance for organizations using Teams together with Skype for Business](./migration-interop-guidance-for-teams-with-skype.md)

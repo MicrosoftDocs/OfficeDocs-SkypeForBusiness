@@ -49,7 +49,7 @@ Public preview is enabled on a per-user basis, and the option to turn on public 
  
    - **Not enabled**: Teams Public Preview features will not be available to end users.
 
-    ![shows the preview settings dialog](media/public-preview-policy.png)  
+    ![shows the preview settings dialog.](media/public-preview-policy.png)  
 
 You can also set the policy using the PowerShell `Set-CsTeamsUpdateManagementPolicy` cmdlet with the `-AllowPublicPreview` parameter.
 

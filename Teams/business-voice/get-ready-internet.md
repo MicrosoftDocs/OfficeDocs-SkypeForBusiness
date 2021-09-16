@@ -59,22 +59,22 @@ Follow these steps:
 2. Open **Planning** and select **Network planner**.
 3. Under **Network plans**, select **Add**. Enter a name for your plan, and then select **Apply**. Your network plan should look like this:
 
-    ![Network planner main screen](../media/network-planner-main.png)
+    ![Network planner main screen.](../media/network-planner-main.png)
 1. Select the name of your network plan. (It's **Main office** in the preceding picture.)
 2. On the next page, select **Add a network site** on the **Network sites** tab.
 3. Fill in only the fields that are indicated in the following screenshot, and then select **Save**. Leave the other fields on this screen blank, and don't select the **ExpressRoute** or **Connected to WAN** options.
 
-    ![Network planner site information](../media/network-planner-site-info.png)
+    ![Network planner site information.](../media/network-planner-site-info.png)
 1. On the **Report** tab, select **Start a report**.
 1. Enter the following information, and then select **Generate report** to create a report that shows the bandwidth requirements for Teams. We show you how to read the report in the next section.
 
-    ![Network planner report information](../media/network-planner-report-info.png)
+    ![Network planner report information.](../media/network-planner-report-info.png)
 
 ### Find your minimum Internet connection speed
 
 When you select **Generate report**, Microsoft 365 or Office 365 creates a report that looks like this:
 
-![Network planner report detail](../media/network-planner-report.png)
+![Network planner report detail.](../media/network-planner-report.png)
 
 The highlighted number shows how much of your Internet connection Teams and Business Voice will use. We recommend that this number is no more than 30 percent of your total Internet connection speed. For example, if your Internet connection is 60 Mbps, Teams and Business Voice should use no more than 18 Mbps.
 
@@ -82,7 +82,7 @@ Use this equation to determine your minimum Internet connection speed: *\<highli
 
 If Teams and Business Voice will use more than 30 percent of your total Internet connection speed, the highlighted number will appear red. In that case, you may need to upgrade your Internet connection.
 
-![Connection speed warning](../media/network-planner-report-speed-warning.png)
+![Connection speed warning.](../media/network-planner-report-speed-warning.png)
 
 ## Make sure the computers and devices on your network can reach Microsoft 365
 
