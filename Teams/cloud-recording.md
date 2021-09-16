@@ -308,9 +308,9 @@ Admins will be able to change the default expiration setting in PowerShell (Set-
 
 The expiration days values can be set as follows:
   
-- Value can be from 1 to 99,999 days (273 years max).
-- Value can also be -1 to set TMR to never expire.
-
+- Value can be from 1 to 9,999.
+- Value can also be -1 to set TMR to never expire. 
+ 
 Admins can't change the expiration date on existing TMRs already uploaded to OneDrive or SharePoint before this feature was released. This protects the intent of the user that owns the TMR.
   
 **Can an admin set TMR's to never expire?**
