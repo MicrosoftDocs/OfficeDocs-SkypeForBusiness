@@ -253,6 +253,37 @@ You can also use PowerShell to create and set up auto attendants. Here are the c
 - [Import-CsAutoAttendantHolidays](/powershell/module/skype/import-csautoattendantholidays)
 - [New-CsAutoAttendantCallableEntity](/powershell/module/skype/New-CsAutoAttendantCallableEntity)
 
+
+## More information
+
+If you have followed these steps, but have issues with the Auto Attendant, Microsoft has developed Teams-specific diagnostic scenarios that may help. 
+
+### Non-administrators
+
+Please contact your [Microsoft 365 Administrator](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true). 
+
+### Administrators
+
+> [!NOTE]
+> This feature is not available for Microsoft 365 Government, Microsoft 365 operated by 21Vianet, or Microsoft 365 Germany.
+
+While you’re logged in as an administrator, visit your Microsoft 365 admin center. In the navigation pane, select Show all > Support > New service request. After you briefly describe your issue (for example, “Teams Auto Attendant Troubleshooting”), the system determines whether a diagnostic scenario matches your issue.
+Or you can click this link to get to the diagnostic directly!
+
+1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center. 
+
+    > [Run Tests: Teams Auto Attendant](https://aka.ms/TeamsAADiag)
+
+2. In the diagnostic form, enter your Auto Attendant Resource email address, and then select **Run Tests**.
+![image](https://user-images.githubusercontent.com/11858030/133628641-c5277c02-89f8-4599-9c3c-1cf9a064c73f.png)
+
+
+3. If the test detects configuration issues, it will display links to help resolve those issues.
+
+![image](https://user-images.githubusercontent.com/11858030/133628705-e04d84f9-a468-4189-b3a8-9ac11a8b6bec.png)
+
+
+
 ## Related topics
 
 [Here's what you get with Phone System](./here-s-what-you-get-with-phone-system.md)
