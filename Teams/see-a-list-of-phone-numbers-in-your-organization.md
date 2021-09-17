@@ -27,9 +27,9 @@ description: Learn to use the Microsoft Teams admin center to see a list of all 
 
 # See a list of telephone numbers 
 
-There are different types of telephone numbers that you can assign to users or voice applications like Audio Conferencing or Call Queues. For more information, see [Manage telephone numbers for your organization](/microsoftteams/manage-phone-numbers-landing-page).
+There are different types of telephone numbers that you can assign to users or voice applications like [Audio Conferencing](deploy-audio-conferencing-teams-landing-page.md) or [Call Queues](plan-auto-attendant-call-queue.md). For more information, see [Manage telephone numbers for your organization](/microsoftteams/manage-phone-numbers-landing-page).
 
-This article applies to Calling Plans and Operator Connect. For information about Direct Routing, see [Configure the telephone number and enable enterprise voice and voicemail](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online).**
+This article applies to Calling Plans and Operator Connect. For information about Direct Routing, see [Configure the telephone number and enable enterprise voice and voicemail](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online).
   
 ## To see all telephone numbers in your organization
 
@@ -67,11 +67,8 @@ When you are setting up users, you might just want to see the list of the teleph
 3. To quickly sort the numbers so that you can see which are assigned, click the **Assignment Status** column heading. Or, you can click the filter icon and then filter your view to see telephone numbers that are already assigned to users or unassigned numbers that you can assign to a user. You can filter by:
 
    - **Assigned to user**
-
    - **Assigned to conference bridge** 
-
    - **Assigned to Voice app (Auto Attendant/Call Queue)**
-
    - **Unassigned**
 
 ## To see all telephone numbers that are assigned to voice users

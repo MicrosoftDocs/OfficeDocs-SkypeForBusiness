@@ -3,7 +3,7 @@ title: "How many telephone numbers can you get?"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: mikedav, roykuntz, jastark
+ms.reviewer: davlick, roykuntz, jastark
 ms.topic: conceptual
 ms.assetid: 61dfb27c-5bfa-4481-a930-9c026e73ff3a
 ms.tgt.pltfrm: cloud
@@ -31,7 +31,7 @@ When you are looking for and getting Microsoft-supplied telephone numbers for yo
 
 How you acquire and manage telephone numbers differs depending on your PSTN connectivity option: Microsoft Calling Plans, Operator Connect, or Direct Routing. For more information, see [Manage telephone numbers for your organization](manage-phone-numbers-landing-page.md).
 
-The following table applies to Microsoft Calling Plans, Audio Conferencing, and voice apps, such as Call Queues and Auto Attendants.  For information about Operator Connect and Direct Routing, contact your service provider.
+The following table applies to Microsoft Calling Plans, [Audio Conferencing](deploy-audio-conferencing-teams-landing-page.md), and voice apps, such as [Call Queues and Auto Attendants](plan-auto-attendant-call-queue.md). For information about Operator Connect and Direct Routing, contact your service provider.
 
 You can see the quantity of telephone numbers you can get from Microsoft during the search and aquire process in the Microsoft Teams admin center (**Get phone numbers**).
 

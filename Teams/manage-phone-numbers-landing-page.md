@@ -35,7 +35,7 @@ Currently, Microsoft supports two telephone number types:
 
 - [**User numbers**](#user-telephone-numbers), also called subscriber numbers, which can be assigned to users in your organization.
 
-- [**Service numbers**](#service-telephone-numbers), which are assigned to services such as Audio Conferencing, Auto Attendants, or Call Queues.
+- [**Service numbers**](#service-telephone-numbers), which are assigned to services such as [Audio Conferencing](deploy-audio-conferencing-teams-landing-page.md), [Auto Attendants](plan-auto-attendant-call-queue.md), or [Call Queues](plan-auto-attendant-call-queue.md).
 
 Microsoft is working to simplify number types, but for now you will need to decide:
 
