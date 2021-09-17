@@ -270,7 +270,7 @@ Please contact your [Microsoft 365 Administrator](/microsoft-365/admin/add-users
 While you’re logged in as an administrator, visit your Microsoft 365 admin center. In the navigation pane, select Show all > Support > New service request. After you briefly describe your issue (for example, “Teams Auto Attendant Troubleshooting”), the system determines whether a diagnostic scenario matches your issue.
 Or you can select the following link to get to the diagnostic directly.
 
-1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center. 
+1. Select the **Run Tests** link that follows, which will populate the diagnostic in the Microsoft 365 admin center. 
 
     > [Run Tests: Teams Auto Attendant](https://aka.ms/TeamsAADiag)
 
