@@ -33,7 +33,7 @@ Listed below are the session border controllers (SBCs) along with the necessary 
 		<td width="396px"><strong>Software Version Tested</strong></td>
 	</tr>
 	<tr align="left" valign="top">
-		<td rowspan="6"><a href="https://www.audiocodes.com/solutions/microsoft/lync-sbc">Audiocodes</a></td>
+		<td rowspan="6"><a href="https://www.audiocodes.com/">Audiocodes</a></td>
 		<td>Mediant 800/850 E-SBC</td>
 		<td>6.60A.024.008</td>
 	</tr>
@@ -146,7 +146,7 @@ Listed below are the session border controllers (SBCs) along with the necessary 
 		<td>4.1.1</td>
 	</tr>
 	<tr align="left" bgcolor="#F8F8F8" valign="top">
-		<td><a href="https://www.anynode.de/features/anynode-and-microsoft-lync/">TE-SYSTEMS</a></td>
+		<td><a href="https://www.anynode.de/">TE-SYSTEMS</a></td>
 		<td>anynode - The Software SBC</td>
 		<td>1.1.122</td>
 	</tr>
@@ -223,7 +223,7 @@ Listed below are the session border controllers (SBCs) along with the necessary 
 		<td>1.3.2v83</td>
 	</tr>
 	<tr align="left" bgcolor="#F8F8F8" valign="top">
-		<td><a href="https://www.anynode.de/features/anynode-and-microsoft-lync/">TE-SYSTEMS</a></td>
+		<td><a href="https://www.anynode.de/">TE-SYSTEMS</a></td>
 		<td width="344px">anynode - The Software SBC</td>
 		<td width="396px">1.0.35</td>
 	</tr>

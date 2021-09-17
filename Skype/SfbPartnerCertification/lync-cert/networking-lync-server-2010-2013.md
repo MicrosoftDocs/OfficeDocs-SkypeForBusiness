@@ -148,13 +148,13 @@ For more information about these products, contact the listed partner.
 		<td>WiNG 5.5.0.0</td>
 	</tr>
 	<tr align="left" valign="top">
-		<td><a href="http://a030f85c1e25003d7609-b98377aee968aad08453374eb1df3398.r40.cf2.rackcdn.com/other/bpcg-lync-ruckus.pdf">Ruckus</a></td>
+		<td><a href="https://www.commscope.com/ruckus">Ruckus</a></td>
 		<td>ZoneFlex R500, R600, T300 802.11ac Access Points</td>
 		<td>Zone Director 1200, 3000, 5000</td>
 		<td>9.9.0/0 build 118</td>
 	</tr>
 	<tr align="left" bgcolor="#F8F8F8" valign="top">
-		<td><a href="http://a030f85c1e25003d7609-b98377aee968aad08453374eb1df3398.r40.cf2.rackcdn.com/other/bpcg-lync-ruckus.pdf">Ruckus Wireless</a></td>
+		<td><a href="https://www.commscope.com/ruckus">Ruckus</a></td>
 		<td>Ruckus Wireless LAN Controllers and 802.11n Access Points</td>
 		<td>SCG-200</td>
 		<td>SCG 2.5</td>
