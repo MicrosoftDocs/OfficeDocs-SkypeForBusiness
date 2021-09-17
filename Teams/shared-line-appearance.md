@@ -58,10 +58,10 @@ Shared line appearance is currently supported by the following apps and devices.
 | Receive calls on behalf of another | Yes | Yes | Yes | Yes | Yes |
 | Call a phone number on behalf of another | Yes | Yes | Yes | Yes | Yes |
 | Call a Teams user on behalf of another | Yes | Yes | Yes | Yes | Yes |
-| See the administrative view of shared lines | Yes | Yes | Yes | No | No |
-| See the administrative view of manager's call activities | Yes | Yes | Yes | No | No |
+| See the delegate view of shared lines | Yes | Yes | Yes | No | No |
+| See the delegate view of manager's call activities | Yes | Yes | Yes | No | No |
 | See the manager view of delegates | Yes | Yes | Yes | No | No |
-| Admin or manager can hold or resume | Yes | Yes | Yes | No | No |
+| Delegate or manager can hold or resume | Yes | Yes | Yes | No | No |
 
 ## Limitations
 
