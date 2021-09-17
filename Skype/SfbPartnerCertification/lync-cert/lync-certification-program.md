@@ -1,5 +1,5 @@
 ---
-title: "Solutions qualified with Lync Online Dedicated"
+title: "Solutions that are qualified with Lync Online Dedicated"
 ms.author: dmaguire
 author: msdmaguire
 manager: serdars
@@ -21,7 +21,7 @@ ms.custom:
 description: "Partner qualification requirements for Lync."
 ---
 
-# Solutions qualified with Lync Online Dedicated
+# Solutions that are qualified with Lync Online Dedicated
 
 Customers deployed with Lync Online Dedicated have Lync running in data centers hosted and managed by Microsoft with infrastructure provisioned specifically for their deployment.
 
