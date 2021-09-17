@@ -85,7 +85,7 @@ Listed in the table that follows are Wi-Fi infrastructure solutions that have be
 			<td>3507P26</td>
 		</tr>
 		<tr align="left" valign="top">
-			<td rowspan="3"><a href="https://www.cisco.com/c/dam/en/us/products/collateral/wireless/lync.pdf">Cisco Systems</a></td>
+			<td rowspan="3"><a href="https://support.ruckuswireless.com/">Cisco Systems</a></td>
 			<td>Aironet 802.11n</td>
 			<td>AIR-CT5508-K9</td>
 			<td>SW 7.6</td>
@@ -157,7 +157,7 @@ Listed in the table that follows are Wi-Fi infrastructure solutions that have be
 			<td>WiNG 5.5.0.0</td>
 		</tr>
 		<tr align="left" valign="top">
-			<td rowspan="2"><a href="http://a030f85c1e25003d7609-b98377aee968aad08453374eb1df3398.r40.cf2.rackcdn.com/other/bpcg-lync-ruckus.pdf">Ruckus</a></td>
+			<td rowspan="2"><a href="https://www.commscope.com/ruckus">Ruckus</a></td>
 			<td>ZoneFlex R500, R600, T300 802.11ac</td>
 			<td>Zone Director 1200, 3000, 5000</td>
 			<td>9.9.0/0 build 118</td>

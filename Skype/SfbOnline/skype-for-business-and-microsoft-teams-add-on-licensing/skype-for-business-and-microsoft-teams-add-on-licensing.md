@@ -41,11 +41,11 @@ For most businesses, buying a bundle of software in an Enterprise plan will resu
 
 For more cost information, see [How to see prices and buy add-on licenses](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_how) or one of the following:
 
-- [Pricing for Audio Conferencing](https://products.office.com/skype-for-business/audio-conferencing)
+- [Pricing for Audio Conferencing](https://www.microsoft.com/microsoft-teams/audio-conferencing)
 
 - [Pricing for Phone System](https://products.office.com/skype-for-business/phone-system)
 
-- [Pricing for Calling Plans](https://products.office.com/skype-for-business/calling-plans)
+- [Pricing for Calling Plans](https://docs.microsoft.com/en-us/microsoftteams/set-up-audio-conferencing-in-team)
 
 ## What features can I get with add-on licenses?
 

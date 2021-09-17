@@ -238,15 +238,8 @@ For additional information about Operations Manager, see the following blogs:
   
 - [Operations Manager Team Blog](https://blogs.technet.com/momteam/default.aspx)
     
-- [Kevin Holman's OpsMgr Blog](https://blogs.technet.com/kevinholman/default.aspx)
-    
 - [Thoughts on OpsMgr](https://thoughtsonopsmgr.blogspot.com/)
     
-- [Raphael Burri's blog](https://rburri.wordpress.com/)
-    
-- [BWren's Management Space](https://blogs.technet.com/brianwren/default.aspx)
-    
-- [Ops Mgr ++](https://blogs.msdn.com/boris_yanushpolsky/default.aspx)
     
 > [!IMPORTANT]
 > All information and content on non-Microsoft sites is provided by the owner or the users of the website. Microsoft makes no warranties, express, implied, or statutory, as to the information at this website. 
