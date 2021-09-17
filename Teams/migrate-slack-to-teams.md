@@ -190,7 +190,7 @@ Third-party solutions have usage statistics to help you assess how active the ch
 > Retain only what is required in your approach to determine which channels to recreate in Teams. To learn more, read [Overview of teams and channels](teams-channels-overview.md). 
 
 #### Team Planning
-Using the Channel inventory you compiled in the Planning section above, work with your Slack owners and admins to figure out which channels should become teams and which ones should become channels in a team. Use either Excel or PowerBI to help with this analysis - both can provide additional insights to help drive these discussions on which channels to retain.
+Using the Channel inventory you compiled in the Planning section above, work with your Slack owners and admins to figure out which channels should become teams and which ones should become channels in a team. Use either Excel or Power BI to help with this analysis - both can provide additional insights to help drive these discussions on which channels to retain.
 
 > [!TIP]
 > Teams currently has a 200-channel limit per team. If your list of channels is getting close to that limit, you should figure out a way to split them into two separate teams.
