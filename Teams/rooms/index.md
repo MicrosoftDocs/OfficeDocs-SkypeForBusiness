@@ -42,8 +42,9 @@ ms.custom: seo-marvel-may2020
 [:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Microsoft Teams Rooms Microsoft Mechanics video.":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
 
 > [!NOTE]
-> Microsoft Teams Rooms is intended for use with Microsoft Teams, Skype for Business Online, Skype for Business Server 2019, or Skype for Business Server 2015.
+> Microsoft Teams Rooms is intended for use with Microsoft Teams. If you are migrating from Skype for Business server to Microsoft Teams, you can also use Microsoft Teams room to connect to Skype for Business Server 2019, or Skype for Business Server 2015.
 >
+> Skype for Business online is now retired and is not expected to work with Microsoft Teams Rooms. 
 > Earlier platforms like Lync Server 2013 aren't expected to work with Microsoft Teams Rooms.
 
 These articles are intended for people tasked with planning, deploying, and managing these devices, and not for the users of the system. Users will be more interested in the Microsoft Teams Rooms [online help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
