@@ -277,7 +277,6 @@ Or you can select the following link to get to the diagnostic directly.
 2. In the diagnostic form, enter your Auto Attendant Resource email address, and then select **Run Tests**.
 ![image](https://user-images.githubusercontent.com/11858030/133628641-c5277c02-89f8-4599-9c3c-1cf9a064c73f.png)
 
-
 3. If the test detects configuration issues, it will display links to help resolve those issues.
 
 ![image](https://user-images.githubusercontent.com/11858030/133628705-e04d84f9-a468-4189-b3a8-9ac11a8b6bec.png)
