@@ -14,7 +14,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to upload your custom apps to your organization's app store in the Microsoft Teams admin center. 
 ---
@@ -26,7 +26,7 @@ description: Learn how to upload your custom apps to your organization's app sto
 
 This article provides end-to-end guidance for how to take your Teams app from development to deployment to discovery. This guidance focuses on the Teams aspects of the app and is intended for admins and IT pros. For more information about developing Teams apps, see the <a href="/microsoftteams/platform" target="_blank">Teams developer documentation</a>.
 
-![Overview of your app from development to deployment](media/upload-custom-apps.png)
+![Overview of your app from development to deployment.](media/upload-custom-apps.png)
 
 ## Develop
 
@@ -72,7 +72,7 @@ To make the app available to users in your organization's app store, upload the 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
 2. Click **Upload**, click **Select a file**, and then select the app package that you received from the developer.
 
-   ![Screenshot of uploading an app in the admin center](media/manage-your-lob-apps-upload-new-app.png) 
+   ![Screenshot of uploading an app in the admin center.](media/manage-your-lob-apps-upload-new-app.png) 
 
 ## Set up and manage
 
@@ -94,7 +94,7 @@ Before you can search the audit log, you have to first turn on auditing in the <
 
 Users who have permissions to the app can find it in your organization's app store. Go to **Built for *Your Organization Name*** on the Apps page to find your organization's custom apps.
 
-![Screenshot of Apps page showing published app ](media/custom-app-lifecycle-discovery.png)
+![Screenshot of Apps page showing published app .](media/custom-app-lifecycle-discovery.png)
 
 If you created and assigned an app setup policy, the app is pinned to the app bar in Teams for easy access for those users who were assigned the policy.
 
@@ -118,9 +118,9 @@ In most cases, after you complete an app update the new version automatically ap
 * A new configurable tab was added
 * Properties inside "webApplicationInfo" changed
 
-![Screenshot of apps list, showing apps that have a new version available](media/manage-your-custom-apps-update1.png)
+![Screenshot of apps list, showing apps that have a new version available.](media/manage-your-custom-apps-update1.png)
 
-![Screenshot of upgrade option for an app](media/manage-your-custom-apps-update2.png)
+![Screenshot of upgrade option for an app.](media/manage-your-custom-apps-update2.png)
 
 ## Related topics
 

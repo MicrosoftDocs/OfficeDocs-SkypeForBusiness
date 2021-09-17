@@ -18,7 +18,7 @@ ms.custom:
   - ms.teamsadmincenter.assignments.tooltip.makecode
   - ms.teamsadmincenter.assignments.tooltip.turnitin
 description: Learn how to manage assignments in the Microsoft Teams admin center in Teams for Education.
-localization_priority: Normal
+ms.localizationpriority: medium
 appliesto: 
   - Microsoft Teams
 ---
@@ -95,11 +95,18 @@ The admin console is where you can create an integration and an API key associat
 
 Select **Integrations** from the side menu, then select **Add Integration** and give the integration a name.
 
-![Screenshot showing adding a new integration](./educationImages/Assignments_mopo_turnitin2.png)
+![Screenshot showing adding a new integration.](./educationImages/Assignments_mopo_turnitin2.png)
 
 The **TurnitinApiKey** will be given to you after you follow the prompts. 
 Copy the API key and paste it into the Microsoft Teams admin center.  This is the only time you can view the key.
 
-![Screenshot showing copying the API key](./educationImages/Assignments_mopo_turnitin3.png)
+![Screenshot showing copying the API key.](./educationImages/Assignments_mopo_turnitin3.png)
 
 Upon clicking the **Save** button in the admin center for this setting, allow a few hours for these settings to take effect.
+
+### Removing Assignments and Grades
+You can use Teams policies to remove Assignments and Grades for a specific user or for your entire tenant. 
+
+To remove Assignments and Grades for an individual user, go to **Teams Admin Center** and navigate to **Teams apps > Permission policies** to create a new app permission policy definition.  When creating the new policy definition, set the **Microsoft apps** policy to _Block specific apps and allow all others_ and add **Assignments** to the list of blocked applications. Once your new policy definition is saved, assign it to the appropriate users.
+
+To remove Assignments and Grades for your entire tenant, go to **Teams Admin Center**, navigate to **Teams apps > Manage apps**, and search for and select **Assignments** from the application list. Change the status setting within the Assignment application settings page to _Blocked_. 

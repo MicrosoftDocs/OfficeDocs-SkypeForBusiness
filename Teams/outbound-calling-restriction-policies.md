@@ -14,7 +14,7 @@ audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
   - CSH
 ms.custom: 
@@ -44,7 +44,7 @@ To find out which countries and regions are considered Zone A, see [Country and 
 
 ## Restrict audio conferencing outbound calls
 
-![the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+![the Microsoft Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
 1. In the left navigation, select **Users**, and then select the display name of the user from the list of available users.
 
@@ -54,7 +54,7 @@ To find out which countries and regions are considered Zone A, see [Country and 
 
 5. Select **Save**.
 
-![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo.](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Users**, and then select the user from the list of available users.
 
@@ -62,7 +62,7 @@ To find out which countries and regions are considered Zone A, see [Country and 
 
 3.  Under **Restrictions to dial-outs from meetings of this user**, select the dial-out restriction option you want.
 
-      ![The Restrictions to dial-outs options](media/restrictions-to-dial-outs.png)
+      ![The Restrictions to dial-outs options.](media/restrictions-to-dial-outs.png)
 
 4. Select **Save**.
 

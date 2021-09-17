@@ -20,7 +20,7 @@ ms.custom:
 description: Your Teams or IT admin can configure external access for other domains (federation) to let users from those domains participate in Teams. 
 appliesto: 
   - Microsoft Teams
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Manage external access in Microsoft Teams
@@ -45,6 +45,9 @@ Use external access when:
 By default, external access is turned on in Teams, which means that your organization can communicate with all external domains. If you add blocked domains, all other domains will be allowed; and if you add allowed domains, all other domains will be blocked. The exception to this rule is if anonymous participants are allowed in meetings. There are three scenarios for setting up external access in the Teams admin center (**Org-wide settings** > **External access**):
 
 > [!NOTE]
+> Teams users can add apps when they host meetings or chats with people from other organizations. They can also use apps shared by people in other organizations when they join meetings or chats hosted by those organizations. The data policies of the hosting user's organization, as well as the data sharing practices of any third-party apps shared by that user's organization, are applied.
+
+> [!NOTE]
 > If you turn off external access in your organization, external users can still join meetings through anonymous join. To learn more, see [Manage meeting settings in Teams](./meeting-settings-in-teams.md).
 
 - **Open federation**: This is the default setting in Teams, and it lets people in your organization find, call, chat, and set up meetings with people external to your organization in any domain.
@@ -62,13 +65,13 @@ By default, external access is turned on in Teams, which means that your organiz
 
 ### Step 1 - Enable your organization to communicate with another Teams or Skype for Business organizations
 
-![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png)  **Using the Microsoft Teams admin center**
+![An icon showing the Microsoft Teams logo.](media/teams-logo-30x30.png)  **Using the Microsoft Teams admin center**
 
 1. In the left navigation, go to **Org-wide settings** > **External access**.
 
 2. Turn on the **Users can communicate with other Skype for Business and Teams users** setting.
 
-     ![Screenshot of Users can communicate with other Skype for Business and Teams users setting turned on](media/manage-external-access-2.png).
+     ![Screenshot of Users can communicate with other Skype for Business and Teams users setting turned on.](media/manage-external-access-2.png).
 
 3. If you want to allow all Teams organizations to communicate with users in your organization, skip to step 5.
 
@@ -101,13 +104,13 @@ To test your setup, you need a Teams user who's not behind your firewall.
 
 Follow these steps to let Teams users in your organization chat with and call Skype users. Teams users can then search for and start a one-on-one text-only conversation or an audio/video call with Skype users and vice versa.
 
-![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png)  **Using the Microsoft Teams admin center**
+![An icon showing the Microsoft Teams logo.](media/teams-logo-30x30.png)  **Using the Microsoft Teams admin center**
 
 1. In the left navigation, go to **Org-wide settings** > **External access**.
 
 2. Turn on the **Users can communicate with Skype users** setting.
 
-    ![Screenshot of Users can communicate with Skype setting turned on](media/manage-external-access-5.png).
+    ![Screenshot of Users can communicate with Skype setting turned on.](media/manage-external-access-5.png).
 
 To learn more about the ways that Teams users and Skype users can communicate, including limitations that apply, see [Teams and Skype interoperability](teams-skype-interop.md).
 
@@ -119,7 +122,7 @@ The following sections describe how to enable federation for common external acc
 
 To enable users in your organization to communicate with users in another organization, both organizations must enable federation. The steps to enable federation for a given organization depend on whether the organization is purely online, hybrid, or purely on-premises.
 
-|**If your organization is** |**Enable federation as follows**  |
+| If your organization is | Enable federation as follows |
 |:---------|:-----------------------|
 |Online with no Skype for Business on-premises. This includes organizations that have TeamsOnly users and/or Skype for Business Online users.| If using Teams Admin Center: <br>-	Make sure the **Users can communicate with other Skype for Business and Teams users** setting is enabled in External Access.<br>- If you are not using open federation (which allows federation with any other domain), then add the external domain to the Allowed list.<br><br>If using PowerShell:<br>- Ensure the tenant is enabled for federation: `Get-CsTenantFederationConfiguration` must show `AllowFederatedUsers=true`. <br>- Ensure the user’s effective value of `CsExternalAccessPolicy` has `EnableFederationAccess=true`.<br>- If you are not using open federation, ensure the target domain is listed in `AllowedDomains` of `CsTenantFederationConfiguration`. |
 |Pure on-premises | In on-premises tools: <br>- Ensure federation is enabled in `CsAccessEdgeConfiguration`.<br>- Ensure federation for the user is enabled through `ExternalAccessPolicy` (either through the global policy, site policy, or user assigned policy). <br> - If you are not using open federation, ensure the target domain is listed in `AllowedDomains`. |
@@ -129,7 +132,7 @@ To enable users in your organization to communicate with users in another organi
 
 Incoming chats and calls from a federation organization will land in the user’s Teams or Skype for Business client depending on the recipient user’s mode in TeamsUpgradePolicy.
 
-|**If you want to** |**Do this:**  |
+| If you want to | Do this: |
 |:---------|:-----------------------|
 | Ensure incoming federated chats and calls arrive in the user’s Teams client: | Configure your users to be TeamsOnly.
 | Ensure incoming federated chats and calls arrive in the user’s Skype for Business client | Configure your users to be in any mode other than TeamsOnly. |
@@ -139,7 +142,7 @@ Incoming chats and calls from a federation organization will land in the user’
 
 To enable federation between users in your organization and consumer users of Skype:
 
-|**If your organization is** |**Enable consumer federation as follows**  |
+| If your organization is | Enable consumer federation as follows |
 |:---------|:-----------------------|
 | Pure online with no Skype for Business on-premises.  This includes organizations that have TeamsOnly users and/or Skype for Business Online users. | If using Teams Admin Center: <br>-Make sure **Users can communicate with Skype users** is enabled in External Access.<br><br>If using PowerShell: <br>-Ensure the tenant is enabled for federation: `Get-CsTenantFederationConfiguration` must show `AllowPublicUsers=true`. <br> - Ensure the user’s effective value of `CsExternalAccessPolicy` has `EnablePublicCloudAccess=true`. |
 | Pure on-premises | In on-premises tools: <br> - Ensure Skype is enabled as a federated partner. <br> - Ensure `EnablePublicCloudAccess=true` for the user through `ExternalAccessPolicy` (either via global policy, site policy, or user assigned policy).|

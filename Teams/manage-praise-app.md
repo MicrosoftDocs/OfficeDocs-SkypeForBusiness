@@ -7,7 +7,7 @@ ms.reviewer: jozhuan
 audience: admin 
 ms.topic: article 
 ms.service: msteams
-localization_priority: Normal 
+ms.localizationpriority: medium 
 description: Learn about admin settings in the Praise app in the Microsoft Teams admin center
 
 ---
@@ -21,7 +21,7 @@ The Praise app in Microsoft Teams helps users show appreciation to members of th
 
 Admins can control what badges are available to their organization from the Microsoft Teams admin center. In the left navigation, go to **Teams apps > Manage apps**. In the list of apps, click **Praise**, and then select **Settings**.  From here, you can choose to enable default and built-in badge sets and create custom badges.
 
-![Screenshot of Settings tab for the Praise app](media/manage-praise-app-settings.png)
+![Screenshot of Settings tab for the Praise app.](media/manage-praise-app-settings.png)
 
 > [!NOTE]
 > The Praise app feature isn't available for U.S. government clouds.
@@ -36,7 +36,7 @@ Built-in sets are collections of badges designed by Microsoft for the Praise app
 
 The default badge set is designed to help Teams users recognize their peers for going above and beyond with their work.
 
-![Preview of default badge set](media/default-set-praise.png)
+![Preview of default badge set.](media/default-set-praise.png)
 
 <a name="sel-edu-badges"></br></a>
 
@@ -44,7 +44,7 @@ The default badge set is designed to help Teams users recognize their peers for 
 
 Educators can recognize individual students for social and emotional learning (SEL) achievements and behaviors with badges that illustrate these concepts.
 
-![Preview of the Social and emotional learning badges for  education](media/sel-edu-set-praise.png)
+![Preview of the Social and emotional learning badges for  education.](media/sel-edu-set-praise.png)
 
 <a name="create-your-own-badges"></br></a>
 
@@ -52,7 +52,7 @@ Educators can recognize individual students for social and emotional learning (S
 
 Select **Create a custom badge**. From here, you can design a custom badge in the side panel. You can create up to 25 custom badges. 
 
-![Screenshot of Create a custom badge pane](media/manage-praise-app-create-custom-badge.png)
+![Screenshot of Create a custom badge pane.](media/manage-praise-app-create-custom-badge.png)
 
 1. Enter a badge name. This is the name that will appear on the badge when users send praise.
 
@@ -62,7 +62,7 @@ Select **Create a custom badge**. From here, you can design a custom badge in th
    > If you’re new to hex values, this article includes a [quick introduction](#hex-colors-intro) to show you how to use them.
 
 3. Upload a badge image. The accepted file type is .PNG. The image file must be less than 40 KB with maximum dimensions of 216 X 216 pixels.
-![Badge with background, text, and image fields labeled](media/praise-app-badge-fields.png)
+![Badge with background, text, and image fields labeled.](media/praise-app-badge-fields.png)
 
 4. Localize your badge name: Under **Localized badge names**, select **Add**. Select the desired locale from the drop-down list. Then enter the badge name in the designated language.
 
@@ -89,12 +89,12 @@ Below is a list of example colors to get you started:
 
 |Color  |Hex value|
 |-------|---------|
-|![hex color #FF6666](media/hexColor1.png)|  #FF6666   |
-|![hex color #7FFFD4](media/hexColor2.png)|  #7FFFD4   |
-|![hex color #FF75F0](media/hexColor3.png)|  #FF75F0   |
-|![hex color #00BFFF](media/hexColor4.png)|  #00BFFF   |
-|![hex color #800080](media/hexColor5.png)|  #800080   |
-|![hex color #000000](media/hexColor6.png)|  #000000   |
+|![hex color #FF6666.](media/hexColor1.png)|  #FF6666   |
+|![hex color #7FFFD4.](media/hexColor2.png)|  #7FFFD4   |
+|![hex color #FF75F0.](media/hexColor3.png)|  #FF75F0   |
+|![hex color #00BFFF.](media/hexColor4.png)|  #00BFFF   |
+|![hex color #800080.](media/hexColor5.png)|  #800080   |
+|![hex color #000000.](media/hexColor6.png)|  #000000   |
 
 <a name="best-practices"></br></a>
 
@@ -108,7 +108,7 @@ Below is a list of example colors to get you started:
 
 **If your badge image isn’t rectangular, make the image transparent.** You’ll need to do this before uploading the image file to Praise.
 
-![Left: badge with non-transparent image, right: badge with transparent image](media/praise-app-best-practices.png)
+![Left: badge with non-transparent image, right: badge with transparent image.](media/praise-app-best-practices.png)
 
 ## Badge set assets
 

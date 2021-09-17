@@ -15,7 +15,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business 
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -36,7 +36,7 @@ If you disable sending emails, Audio Conferencing emails won't be sent to your u
   
 Here is an example of the email that is sent to users when they are enabled for Audio Conferencing:
   
-![Audio Conferencing email](../images/audio-conferencing-user-enabled.png)
+![Audio Conferencing email.](../images/audio-conferencing-user-enabled.png)
   
 ## When are emails being sent to your users?
 
@@ -60,7 +60,7 @@ Here is an example of the email that is sent to users when they are enabled for 
 You can use the Skype for Business admin center or Windows PowerShell to enable or disable email sent to users.
 
  
-![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo.](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
     
 1. In the **Skype for Business admin center**, in the left navigation, click **Audio conferencing**.
     

@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -31,7 +31,7 @@ Microsoft Teams lets organizations provide custom views of the directory to thei
 > [!NOTE]
 > In Exchange hybrid environments, this feature only works with Exchange Online mailboxes, and not with on-premises mailboxes.
 
-See also [Address book policies in Exchange Online](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies).
+See also [Address book policies in Exchange Online](/exchange/address-books/address-book-policies/address-book-policies).
 
 ## When should you use scoped directory searches?
 
@@ -53,7 +53,7 @@ To learn how to use address book policies, read [Information Barrier policies in
 
 3. Under **Search**, next to **Scope directory search in Teams using an Exchange address book policy (ABP)**, turn the toggle **On**.
 
-    ![Scoped directory search in Microsoft Teams admin center](media/teams-scoped-directory-search-image1.png)
+    ![Scoped directory search in Microsoft Teams admin center.](media/teams-scoped-directory-search-image1.png)
 
 
 > [!IMPORTANT]

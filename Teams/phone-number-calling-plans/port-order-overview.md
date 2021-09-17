@@ -11,11 +11,11 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords: 
 - CSH
 ms.custom:
-- ms.teamsadmincenter.voice.phonenumbers.porting.overview​
+- ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: Get an overview of what port orders are and how to transfer phone numbers from your service provider to Teams. 
 ---

@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "You can configure links between two network regions as part of call admission control (CAC). "
 ---
 
@@ -33,7 +33,7 @@ You can view links between two network regions as part of call admission control
 
 4.  On the **Region Link** page, click the region link that you want to view.
     
-    > [!NOTE]  
+    > [!NOTE]
     > You can only view information about one region link at a time.
 
 5.  From the **Edit** menu, select **Show details**.
@@ -47,15 +47,15 @@ You can view network region links by using Windows PowerShell and the **Get-CsNe
 
   - To view information about all your network region links, type the following command in the Skype for Business Server Management Shell, and then press ENTER:
     
-        Get-CsNetworkRegionLink
+    **Get-CsNetworkRegionLink**
     
     This command returns information similar to the following:
     
-        Identity            : NorthwestToCalifornia
-        BWPolicyProfileID   :
-        NetworkRegionLinkID : NorthwestToCalifornia
-        NetworkRegionID1    : Pacific Northwest
-        NetworkRegionID2    : California
+       Identity            : NorthwestToCalifornia
+       BWPolicyProfileID   :
+       NetworkRegionLinkID : NorthwestToCalifornia
+       NetworkRegionID1    : Pacific Northwest
+       NetworkRegionID2    : California
 
 
 For details, see [Get-CsNetworkRegionLink](/powershell/module/skype/Get-CsNetworkRegionLink).

@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceImportViewGateway
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0cdb0a42-c682-42f7-907e-667f934cb7e0
 description: "In Deployed gateway, click the gateway where you want to import the voice configuration file that you selected."
 ---

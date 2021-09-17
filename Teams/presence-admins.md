@@ -1,7 +1,7 @@
 ---
 title: User presence in Teams
-author: msdmaguire
-ms.author: dmaguire
+author: dmaguire
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: rakayala
 description: Learn the Presence states in Teams and the administrative settings for the Presence feature.
 ms.custom: seo-marvel-apr2020
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -30,23 +30,24 @@ Presence is part of a user's profile in Microsoft Teams (and throughout Microsof
  > Teams respects your privacy configuration so if you have enabled the privacy mode, your presence will not be visible to external users.
 ## Presence states in Teams
 
+
 |User configured|App configured|
 |:--- |:---|
-| ![Solid green check mark, indicates Presence Available](media/Presence_Available.png) Available|![Solid green check mark, indicates Presence Available](media/Presence_Available.png) Available|
-|| ![Open green check mark, indicates available oof](media/Presence_Available_OOF.png) Available, Out of Office. Note: Out of office is automatically set for the periods of time where the user sets "automatic replies". If the user is using the app during these periods of time, a dual presence might be shown, such as "Out of office, available". |
-|  ![Solid red circle, indicates Busy](media/Presence_Busy.png) Busy |  ![Solid red circle, indicates Busy](media/Presence_Busy.png) Busy  |
-|| ![Solid red circle, indicates Busy in a call](media/Presence_Busy.png) In a call|
-|| ![Solid red circle, indicates Busy in a meeting](media/Presence_Busy.png) In a meeting |
-|| ![Open red circle, indicates Busy](media/Presence_Busy_OOF.png) On a call, out of office|
-|  ![Red circle with white line, indicates Do Not Disturb](media/Presence_DND.png) Do not disturb ||
-|| ![Red circle with white line, indicates Presenting](media/Presence_DND.png) Presenting|
-|| ![Red circle with white line, indicates Focusing](media/Presence_DND.png) Focusing. Focus happens when the users schedule focus time in MyAnalytics/Insights in their calendars.|
-| ![Yellow clock icon, indicates away](media/Presence_Away.png) Away| ![Yellow clock icon, indicates away](media/Presence_Away.png) Away|
+| ![Solid green check mark, indicates Presence Available.](media/Presence_Available.png) Available|![Solid green check mark, indicates Presence Available](media/Presence_Available.png) Available|
+|| ![Open green check mark, indicates available oof.](media/Presence_Available_OOF.png) Available, Out of Office. Note: Out of office is automatically set for the periods of time where the user sets "automatic replies". If the user is using the app during these periods of time, a dual presence might be shown, such as "Out of office, available". |
+|  ![Solid red circle, indicates Busy.](media/Presence_Busy.png) Busy |  ![Solid red circle, indicates Busy](media/Presence_Busy.png) Busy  |
+|| ![Solid red circle, indicates Busy in a call.](media/Presence_Busy.png) In a call|
+|| ![Solid red circle, indicates Busy in a meeting.](media/Presence_Busy.png) In a meeting |
+|| ![Open red circle, indicates Busy.](media/Presence_Busy_OOF.png) On a call, out of office|
+|  ![Red circle with white line, indicates Do Not Disturb.](media/Presence_DND.png) Do not disturb ||
+|| ![Red circle with white line, indicates Presenting.](media/Presence_DND.png) Presenting|
+|| ![Red circle with white line, indicates Focusing.](media/Presence_DND.png) Focusing. Focus happens when the users schedule focus time in MyAnalytics/Insights in their calendars.|
+| ![Yellow clock icon, indicates away.](media/Presence_Away.png) Away| ![Yellow clock icon, indicates away.](media/Presence_Away.png) Away|
 || ![Yellow clock icon, indicates away](media/Presence_Away.png) Away Last Seen *time*|
-|![Yellow clock icon, indicates away, be right back](media/Presence_Away.png) Be right back| |
-|![Gray circle with x, indicates Offline](media/Presence_Offline.png) Appear offline|![Gray circle with x, indicates Offline](media/Presence_Offline.png) Offline.  When users aren't logged in on any of their devices for a few minutes, they appear offline. | |
-|| ![Open gray circle, indicates status unknown](media/Presence_Unknown.png) Status unknown|
-|| ![Purple circle with arrow, indicates Out of office](media/Presence_OOF.png) Out of Office. Out of Office is used when an automatic reply is set. |
+|![Yellow clock icon, indicates away, be right back.](media/Presence_Away.png) Be right back| |
+|![Gray circle with x, indicates Offline.](media/Presence_Offline.png) Appear offline|![Gray circle with x, indicates Offline](media/Presence_Offline.png) Offline.  When users aren't logged in on any of their devices for a few minutes, they appear offline. | |
+|| ![Open gray circle, indicates status unknown.](media/Presence_Unknown.png) Status unknown|
+|| ![Purple circle with arrow, indicates Out of office.](media/Presence_OOF.png) Out of Office. Out of Office is used when an automatic reply is set. |
 |||
  > [!NOTE]
  > For users that have their mailbox hosted on-prem, presence delays of one hour (maximum) are expected.

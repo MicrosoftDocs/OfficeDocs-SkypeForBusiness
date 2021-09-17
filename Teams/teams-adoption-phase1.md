@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: In this article, you will learn about the activities in the startup phase of Microsoft Teams adoption. Understand best practices on Microsoft Teams setup and team planning.
 f1.keywords:
@@ -69,4 +69,4 @@ The [Microsoft Technical Community](https://aka.ms/TechCommunity) delivers peer-
 - [Champions Program](https://aka.ms/O365Champions) and the Driving Adoption community – Learn from your peers about how to best drive adoption of Microsoft 365 or Office 365 workloads such as Teams, SharePoint, Yammer, and other products. Open to IT Pros, business users, the “accidental” developer, and anyone interested in driving adoption of cloud services.  
 
 
-![An icon representing the next step](media/teams-adoption-next-icon.png) Next: [Understand teams and channels](teams-adoption-understand-teams-and-channels.md)
+![An icon representing the next step.](media/teams-adoption-next-icon.png) Next: [Understand teams and channels](teams-adoption-understand-teams-and-channels.md)

@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
@@ -51,7 +51,7 @@ The following figure shows the generic topology for deployment of Enterprise Voi
 
 **Incremental deployment option**
 
-![Departmental Migration Option diagram](../../media/Fig28_Departmental_migration_option.jpg)
+![Departmental Migration Option diagram.](../../media/Fig28_Departmental_migration_option.jpg)
 
 > [!NOTE]
 > If you are connecting your Skype for Business Server deployment to a certified Direct SIP partner, a public switched telephone network (PSTN) gateway between the Mediation Server and the PBX is not required. For a list of certified Direct SIP partners, see the  [Microsoft Unified Communications Open Interoperability Program](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md).
@@ -92,7 +92,7 @@ The following figure shows a typical topology for a VoIP-only deployment.
 
 **VoIP-only deployment option**
 
-![Greenfidle deployment option](../../media/Fig29_Greenfield_deployment_option.jpg)
+![Greenfidle deployment option.](../../media/Fig29_Greenfield_deployment_option.jpg)
 
 > [!NOTE]
 > The media path shown in this figure has media bypass enabled (the recommended configuration). If you opt to disable media bypass, the media path is routed through the Mediation Server.

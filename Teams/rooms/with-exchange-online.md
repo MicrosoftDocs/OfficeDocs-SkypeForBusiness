@@ -9,7 +9,7 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
 ms.custom: seo-marvel-apr2020
@@ -32,7 +32,7 @@ Before you deploy Microsoft Teams Rooms with Exchange Online, be sure you have m
 To deploy Microsoft Teams Rooms with Exchange Online, follow the steps below. Be sure you have the right permissions to run the associated cmdlets. 
 
    > [!NOTE]
-   >  The [Azure Active Directory Module for Windows PowerShell cmdlets](/powershell/azure/active-directory/overview?view=azureadps-1.0) in this section (for example,  Set-MsolUser) have been tested in setting up accounts for Microsoft Teams Rooms devices. It's possible that other cmdlets may work, however, they haven't been tested in this specific scenario.
+   >  The [Azure Active Directory Module for Windows PowerShell cmdlets](/powershell/azure/active-directory/overview) in this section (for example,  Set-MsolUser) have been tested in setting up accounts for Microsoft Teams Rooms devices. It's possible that other cmdlets may work, however, they haven't been tested in this specific scenario.
 
 If you deployed Active Directory Federation Services (AD FS), you may have to convert the user account to a managed user before you follow these steps, and then convert the user back to a federated user after you complete these steps.
   
@@ -79,14 +79,14 @@ If you deployed Active Directory Federation Services (AD FS), you may have to co
     > Selecting **Password never expires** is a requirement for Skype for Business Server on Microsoft Teams Rooms. Your domain rules may prohibit passwords that don't expire. If so, you'll need to create an exception for each Microsoft Teams Rooms user account.
   
 4. Click **Finish** to create the account.
-5. After you have created the account, run a directory synchronization. This can be accomplished by using [Set-MsolDirSyncConfiguration](/powershell/module/msonline/set-msoldirsyncconfiguration?view=azureadps-1.0) in PowerShell. When that is complete, go to the users page and verify that the two accounts created in the previous steps have merged.
+5. After you have created the account, run a directory synchronization. This can be accomplished by using [Set-MsolDirSyncConfiguration](/powershell/module/msonline/set-msoldirsyncconfiguration) in PowerShell. When that is complete, go to the users page and verify that the two accounts created in the previous steps have merged.
 
 ### Assign a Microsoft 365 or Office 365 license
 
-1. First, connect to Azure AD to apply some account settings. You can run this cmdlet to connect. For details about Active Directory, see [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0).
+1. First, connect to Azure AD to apply some account settings. You can run this cmdlet to connect. For details about Active Directory, see [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview).
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0) is not supported.
+   > [Azure Active Directory PowerShell 2.0](/powershell/azure/active-directory/overview) is not supported.
 
     ``` PowerShell
    Connect-MsolService -Credential $cred
@@ -112,19 +112,22 @@ If you deployed Active Directory Federation Services (AD FS), you may have to co
 
 ### Enable the user account with Skype for Business Server
 
+> [!NOTE]
+> If you're setting up Teams Rooms to only join Microsoft Teams meetings, you don't need to do the following steps. The following steps are only required if you want to enable support for Skype for Business.
+
 1. Create a remote Windows PowerShell session from a PC as follows:
 
-> [!NOTE]
-> Skype for Business Online Connector is currently part of the latest Teams PowerShell module.
->
-> If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
+   > [!NOTE]
+   > Skype for Business Online Connector is currently part of the latest Teams PowerShell module.
+   >
+   > If you're using the latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/), you don't need to install the Skype for Business Online Connector.
 
-    ``` Powershell
-    # When using Teams PowerShell Module
-    Import-Module MicrosoftTeams
-    $credential = Get-Credential
-    Connect-MicrosoftTeams -Credential $credential
-    ```
+   ``` Powershell
+   # When using Teams PowerShell Module
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+   ```
 
 2. To enable your Microsoft Teams Rooms account for Skype for Business Server, run this command:
 
@@ -139,6 +142,9 @@ If you deployed Active Directory Federation Services (AD FS), you may have to co
    ```
 
 ### Assign a Skype for Business Server license to your Microsoft Teams Rooms account
+
+> [!NOTE]
+> If you're setting up Teams Rooms to only join Microsoft Teams meetings, you don't need to do the following steps. The following steps are only required if you want to enable support for Skype for Business.
 
 1. Log in as a tenant administrator, open the Microsoft 365 admin center, and click on the Admin app.
 2. Click on **Users and Groups** and then click **Add users, reset passwords, and more**.

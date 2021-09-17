@@ -12,7 +12,7 @@ audience: Admin
 appliesto:
 - Lync
 - Skype for Business 
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -23,13 +23,13 @@ description: "Partner qualification requirements for Lync."
 
 # Networking for Lync Server 2010 and 2013
 
-The tables that follows shows the network infrastructure solutions that have been tested by these partners and reviewed by Microsoft to meet Lync Server 2010 requirements. We recommend that you visit the partner’s web site for the latest information regarding product specifications, capacity, country support and documentation including release notes and known issues. 
+The tables that follow show the network infrastructure solutions that have been tested by these partners and reviewed by Microsoft to meet Lync Server 2010 requirements. We recommend that you visit the partner’s web site for the latest information regarding product specifications, capacity, country support, and documentation including release notes and known issues. 
 
-Additional information on networking with Microsoft Lync Server 2010, including Planning, QoS, Call Admission Control and Security can be found on the [Lync Server Network Infrastructure Roadmap](infra-roadmap.md). 
+Additional information on networking with Microsoft Lync Server 2010, including Planning, QoS, Call Admission Control, and Security can be found on the [Lync Server Network Infrastructure Roadmap](infra-roadmap.md). 
 
-For more information on optimizing Wi-Fi networks with Microsoft Lync, please see the white paper [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://www.microsoft.com/download/details.aspx?id=39084).
+For more information on optimizing Wi-Fi networks with Microsoft Lync, see the white paper [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://www.microsoft.com/download/details.aspx?id=39084).
 
-Please contact the listed partner for more information on these products.
+For more information about these products, contact the listed partner.
 
 ## WiFi
 
@@ -46,7 +46,7 @@ Please contact the listed partner for more information on these products.
 		<td><strong>Firmware Version Tested</strong></td>
 	</tr>
 	<tr align="left" valign="top">
-		<td><a href="http://www.aerohive.com/products/overview/access-points.html">Aerohive Networks</a></td>
+		<td><a href="https://www.aerohiveworks.com/?hsa_tgt=kwd-78752607582570:loc-190&hsa_grp=1260040457835392&hsa_src=o&hsa_net=adwords&hsa_mt=e&hsa_ver=3&hsa_ad=&hsa_acc=9041622380&hsa_kw=aerohive%20networks&hsa_cam=56560501&msclkid=ab9fbb28c5ca1ded0656dbfec64a3df8&utm_source=bing&utm_medium=cpc&utm_campaign=Aerohive%20%20Networks%20*219&utm_term=aerohive%20networks&utm_content=Aerohive%20Specific">Aerohive Networks</a></td>
 		<td>AP350 &amp; AP330 Access Points</td>
 		<td> </td>
 		<td>HiveOS 6.4r1</td>
@@ -107,12 +107,12 @@ Please contact the listed partner for more information on these products.
 	<tr align="left" bgcolor="#F8F8F8" valign="top">
 		<td rowspan="2"><a href="https://www.extremenetworks.com/product/microsoft-lync-solutions">Extreme Networks</a></td>
 		<td>IdentiFi Wireless Appliances and IdentiFi 802.11n Access Points</td>
-		<td>IdentiFi V2110 Virtual Controller on Vmware</td>
+		<td>IdentiFi V2110 Virtual Controller on VMware</td>
 		<td>9.01.01.0228</td>
 	</tr>
 	<tr align="left" bgcolor="#F8F8F8" valign="top">
 		<td>WS-AP3825e, WS-AP3825i, WS-AP3865 802.11ac Access Points</td>
-		<td>IdentiFi V2110 Virtual Controller on Vmware</td>
+		<td>IdentiFi V2110 Virtual Controller on VMware</td>
 		<td>09.12.01.0067</td>
 	</tr>
 	<tr align="left" valign="top">
@@ -202,8 +202,7 @@ Please contact the listed partner for more information on these products.
 		<td>HP 2610, 2910al, 3500yl, 5400zl, 8200zl</td>
 	</tr>
 	<tr align="left" valign="top">
-		<td><a href="http://www.juniper.net/us/en/dm/microsoft-lync/">Juniper Networks</a></td>
+		<td><a href="http://www.juniper.net/">Juniper Networks</a></td>
 		<td>Juniper 10.2R2.11</td>
 	</tr>
 </table>
-

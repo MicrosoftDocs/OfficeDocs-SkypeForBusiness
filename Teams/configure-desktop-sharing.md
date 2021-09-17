@@ -19,8 +19,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-Configure desktop sharing in Microsoft Teams
-============================================
+# Configure desktop sharing in Microsoft Teams
 
 Desktop sharing lets users present a screen or app during a meeting or chat. Admins can configure screen sharing in Microsoft Teams to let users share an entire screen, an app, or a file. You can let users give or request control, allow PowerPoint sharing, add a whiteboard, and allow shared notes. You can also configure whether anonymous or external users can request control of the shared screen. External participants in Teams meetings can be categorized as follows:
 
@@ -35,11 +34,11 @@ To configure screen sharing, you create a new meetings policy and then assign it
 
 1. Select **Meetings** > **Meeting policies**.
 
-    ![Meeting policies selected](media/configure-desktop-sharing-image1.png)
+    ![Meeting policies selected.](media/configure-desktop-sharing-image1.png)
 
 2. On the **Meeting policies** page, select **Add**.
 
-    ![The Meeting policies message](media/addMeeting.png)
+    ![The Meeting policies message.](media/addMeeting.png)
 
 3. Give your policy a unique title and enter a brief description.
 
@@ -49,7 +48,7 @@ To configure screen sharing, you create a new meetings policy and then assign it
    - **Single application** – lets users limit screen sharing to a single active application.
    - **Disabled** – Turns off screen sharing.
 
-    ![The sharing mode options](media/configure-desktop-sharing-image3.png)
+    ![The sharing mode options.](media/configure-desktop-sharing-image3.png)
 
   > [!Note]
   > You don't have to enable the calling policy in order for users to use screen share from chat. However, their audio is turned off until they unmute themselves. In addition, the user sharing the screen can click **Add Audio** to enable audio. If the calling policy is disabled, users won't be able to add audio to the screen share from a chat session.

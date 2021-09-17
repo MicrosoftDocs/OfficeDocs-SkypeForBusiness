@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -27,6 +27,10 @@ Before users can use Teams to make or receive phone calls to or from regular pho
 
 > [!NOTE]
 > If you don't see any phone numbers, please wait. It may take several hours for your new phone numbers to become available in Teams.
+
+The following video shows you how to complete these steps in the Teams admin center.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OFYO]
 
 1. Open the Microsoft Teams admin center and log in with a user that is a Global admin (this is usually the account you used to sign up for Microsoft 365).
 1. In the left navigation pane, go to <a href="https://admin.teams.microsoft.com/phone-numbers" target="_blank">**Voice** > **Phone numbers**</a>.

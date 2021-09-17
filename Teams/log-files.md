@@ -43,8 +43,16 @@ Right-click on the Teams icon in the system tray and choose **Collect support fi
 Mac:
 Select the Help menu and choose **Collect support files**.
 
-Debug, Desktop, and Media logs will be collected in one folder with the name MSTeams Diagnostics Log <local data and time>. This folder can be compressed and shared when you open a support request with Microsoft Support. The folder will contain folders for Desktop, Meeting (Media), and Debug (web). 
-  
+
+Debug, Desktop, and Media logs will be collected in one folder with the name MSTeams Diagnostics Log <local data and time>. This folder can be compressed and shared when you open a support request with Microsoft Support. The folder will contain folders for Desktop, Meeting (Media), and Debug (web). You can collect the files using the following keyboard shortcuts:
+
+Windows:
+Ctrl + Alt + Shift + 1
+
+Mac:
+Option + Command + Shift + 1
+
+
 Media logging is turned off by default. To enable Media logging, users must turn on the option in the Teams client. Go to **Settings** > **General**, and select **Enable logging for meeting diagnostics (requires restarting Teams)**. The Teams client must be restarted for logging to begin.
 
 If a problem occurs with a specific meeting or live event, it's helpful to have the URL associated with the meeting. This provides additional information to help pinpoint the exact meeting or live event in the logs. This information can be collected from any participant for a meeting or from presenter or producer for a live event. This URL can be captured by hovering over the join URL and choosing **Copy Hyperlink**.
@@ -93,7 +101,7 @@ To collect logs for Linux:
       The files will be available in ~/Downloads
 
 To collect logs for Browser:
-      Keyboard shortcut: Crtl + Alt + Shift + 1
+      Keyboard shortcut: Ctrl + Alt + Shift + 1
       The files will be available in %userprofile%\Downloads
 
 ## Media logs
@@ -125,7 +133,6 @@ To collect logs for Linux:
 Click on the Microsoft Teams icon in your system tray, and select **Get Logs**.
 The files will be available in ~/.config/Microsoft/Microsoft Teams/logs.txt.  
 
-
 ## Browser trace
 
 For some categories of errors, Microsoft Support might require you to collect a browser trace. This information can provide important details about the state of the Teams client when the error occurs.
@@ -143,7 +150,22 @@ After you’re signed in, select one of the following links, as appropriate for 
 -   [Firefox](/azure/azure-portal/capture-browser-trace#firefox?preserve-view=true#resolution)
 
 > [!NOTE]
-> In the steps, replace all references to the Azure portal with the Teams client. 
+> In the steps, replace all references to the Azure portal with the Teams client.
+  
+## WebRTC logs in browsers
+WebRTC logs can assist Microsoft Support by providing connection details for audio and video calls. Follow the steps to access the WebRTC logs in Edge (Chromium) or Chrome: 
+  
+1.  Open a new tab and go to one of the following URLs:
+    -   Edge (Chromium): "edge://webrtc-internals/"
+    -   Chrome: "chrome://webrtc-internals/"
+  
+2.  Open the Teams Web application and reproduce the problem.
+  
+3.  Go back to the tab that was accessed in step 1 and you will see at least two tabs:
+    -   GetUserMedia Requests
+    -   https://teams.microsoft.com/url
+
+4.  Choose the tab with the name of the Teams application and save the page content.
 
 ## Related topics
 

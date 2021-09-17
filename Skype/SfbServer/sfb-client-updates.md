@@ -9,7 +9,7 @@ ms.topic: reference
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: "Provides IT Pros with links to the latest update information for perpetual versions of Skype for Business 2016, Skype for Business 2015, and Lync 2013 clients"
 ---

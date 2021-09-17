@@ -19,8 +19,7 @@ appliesto:
 ms.custom: seo-marvel-mar2020
 ---
 
-Issues receiving messages and calls on legacy systems
-==============================================================
+# Issues receiving messages and calls on legacy systems
 
 Users might have issues receiving messages or calls if they are using older versions of Teams or have logged in with other applications.
 

@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 - Hybrid 
 - M365-voice
@@ -21,6 +21,9 @@ description: "Summary: Learn how to configure federation for an audio conferenci
 ---
 
 # Configure federation for an audio conferencing provider in your hybrid deployment
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 
 **Summary:** Learn how to configure federation for an audio conferencing provider in Skype for Business Online.
 

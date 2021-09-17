@@ -17,7 +17,7 @@ appliesto:
   - Microsoft Teams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Admin can learn about how to use Audio Conferencing with Direct Routing in GCCH and DoD environments.
 ms.custom: seo-marvel-apr2020
 ---
@@ -165,8 +165,6 @@ To change the set of phone numbers that are included in the meeting invites of t
 The following are Audio Conferencing capabilities that are not supported in Audio Conferencing with Direct Routing for GCC High and DoD:
 
 - Entry and exit notifications using name recording. For Audio Conferencing with Direct Routing, entry and exit notifications are played in the meeting as tones.
-
-- Outbound calling restriction policies for Audio Conferencing. User-level controls to restrict outbound calls aren't applicable to meeting dial-out calls routed via Direct Routing.
 
 - Disable the usage of toll-free numbers for the meetings specific organizer. User-level controls to restrict the usage of toll-free numbers to join the meetings of your organization aren't applicable to calls routed via Direct Routing.
 

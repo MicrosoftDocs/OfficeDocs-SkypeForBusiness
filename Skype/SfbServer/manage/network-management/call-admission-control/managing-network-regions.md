@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Network region* are the network hubs or backbones used in the configuration of call admission control, E9-1-1, and media bypass."
 ---
 
@@ -48,17 +48,17 @@ You can view network region information by using Windows PowerShell and the **Ge
 
   - To view information about all your network regions, type the following command in the Skype for Business Server Management Shell, and then press ENTER:
     
-        Get-CsNetworkRegion
+    **Get-CsNetworkRegion**
     
     That will return information similar to this:
     
-        Identity         : Pacific Northwest
-        Description      :
-        BypassID         : 3b232b84-2c1d-4da2-8181-e9330bafebe9
-        CentralSite      : Site:Redmond1
-        BWAlternatePaths : {BWPolicyModality=Audio;AlternatePath=True, 
-                           BWPolicyModality=Video;AlternatePath=True}
-        NetworkRegionID  : Pacific Northwest
+    Identity         : Pacific Northwest<br/>
+    Description      :<br/>
+    BypassID         : 3b232b84-2c1d-4da2-8181-e9330bafebe9<br/>
+    CentralSite      : Site:Redmond1<br/>
+    BWAlternatePaths : {BWPolicyModality=Audio;AlternatePath=True, <br/>
+                       BWPolicyModality=Video;AlternatePath=True}<br/>
+    NetworkRegionID  : Pacific Northwest<br/>
 
 For more information, see the help topic for the [Get-CsNetworkRegion](/powershell/module/skype/Get-CsNetworkRegionLink) cmdlet.
 

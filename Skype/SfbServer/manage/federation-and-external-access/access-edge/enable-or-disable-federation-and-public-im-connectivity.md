@@ -13,7 +13,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Support for federation is required to enable users who have an account with a trusted customer or partner organization, including partner domains and users of public instant messaging (IM) provider users that you support, to collaborate with users in your organization."
 ---
 
@@ -67,15 +67,11 @@ Federation and public IM connectivity can also be managed by using Windows Power
 
 ## To enable federation and public IM connectivity
 
-  - To enable federation and public IM connectivity, set the value of the **AllowFederatedUsers** property to True ($True):
-    
-        Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
+  - To enable federation and public IM connectivity, set the value of the **AllowFederatedUsers** property to True ($True):<br/><br/>Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
 
 
 ## To disable federation and public IM connectivity
 
-  - To disable federation and public IM connectivity, set the value of the **AllowFederatedUsers** property to False ($False):
-    
-        Set-CsAccessEdgeConfiguration -AllowFederatedUsers $False
+  - To disable federation and public IM connectivity, set the value of the **AllowFederatedUsers** property to False ($False):<br/><br/>Set-CsAccessEdgeConfiguration -AllowFederatedUsers $False
 

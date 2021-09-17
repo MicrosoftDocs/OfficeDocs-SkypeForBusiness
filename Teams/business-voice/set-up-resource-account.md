@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -26,6 +26,10 @@ Resource accounts aren't assigned to any specific user. Instead, resource accoun
 By associating resource accounts to auto attendants and call queues, you can add one or more toll or toll-free phone numbers to them. For example, you could associate one resource account with a toll number to an auto attendant for local callers. For long distance calls, you could associate another resource account with a toll-free number to the same auto attendant.
 
 The sections in this article show you how to set up a resource account and then assign a phone number to it. Later on, you'll associate the resource account with an auto attendant.
+
+The following video shows you how to complete these steps in the Teams admin center.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OFYG]
 
 ## Obtain virtual user licenses
 
@@ -51,7 +55,7 @@ Resource accounts require a license in order to work with auto attendants and ca
 
 After you've received your *Microsoft 365 Phone System - Virtual User* license, you can create your resource account.
 
-![Screenshot of add resource account user interface](../media/resource-account-add.png)
+![Screenshot of add resource account user interface.](../media/resource-account-add.png)
 
 1. Open the Microsoft Teams admin center and log in with a user that is a Global admin (this is usually the account you used to sign up for Microsoft 365).
 2. In the left navigation pane, go to <a href="https://admin.teams.microsoft.com/company-wide-settings/resource-accounts" target="_blank">**Org-wide settings** > **Resource accounts**</a>.
@@ -60,13 +64,13 @@ After you've received your *Microsoft 365 Phone System - Virtual User* license, 
 5. In **Resource account type**, select **Auto attendant**.
 6. Select **Save**.
 
-![Screenshot of a list of resource accounts](../media/resource-accounts-auto-attendant-only-page.png)
+![Screenshot of a list of resource accounts.](../media/resource-accounts-auto-attendant-only-page.png)
 
 ## Assign a license
 
 After you've created your resource account, you need to assign a *Microsoft 365 Phone System - Virtual User* license or *Phone System* license.
 
-![Screenshot of assign licenses user interface in the Microsoft 365 admin center](../media/resource-account-assign-virtual-user-license.png)
+![Screenshot of assign licenses user interface in the Microsoft 365 admin center.](../media/resource-account-assign-virtual-user-license.png)
 
 1. Open the Microsoft 365 admin center and log in with a user that is a Global admin (this is usually the account you used to sign up for Microsoft 365).
 1. In the left navigation pane, go to <a href="https://admin.microsoft.com/Adminportal/Home#/users" target="_blank">**Users** > **Active users**</a>.
@@ -76,7 +80,7 @@ After you've created your resource account, you need to assign a *Microsoft 365 
 
 ## Assign a service number
 
-![Screenshot of the assign service number user interface](../media/resource-account-assign-phone-number.png)
+![Screenshot of the assign service number user interface.](../media/resource-account-assign-phone-number.png)
 
 1. Open the Microsoft Teams admin center and log in with a user that is a Global admin (this is usually the account you used to sign up for Microsoft 365).
 1. In the left navigation pane, go to <a href="https://admin.teams.microsoft.com/company-wide-settings/resource-accounts" target="_blank">**Org-wide settings** > **Resource accounts**</a>.

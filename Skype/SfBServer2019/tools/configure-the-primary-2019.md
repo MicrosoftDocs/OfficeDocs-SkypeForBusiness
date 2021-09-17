@@ -1,5 +1,5 @@
 ---
-title: "Configure the Primary Management Server"
+title: "Configure the primary management server"
 ms.reviewer: 
 ms.author: v-cichur
 author: cichur
@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: "Summary: Configure your primary management server, install System Center Operations Manager, and import management packs for Skype for Business Server 2019."
 ---
 
-# Configure the Primary Management Server
+# Skype for Business Server: Configure the primary management server
 
 **Summary:** Configure your primary management server, install System Center Operations Manager, and import management packs for Skype for Business Server 2019.
 

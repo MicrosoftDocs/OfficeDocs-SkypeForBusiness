@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: rowille
 audience: admin
 description: In this article, you will learn about how to plan for implementing lifecycle management capabilities in Teams.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -148,8 +148,8 @@ Use these links to get more information about organizing your teams:
 
 |    |     |
 |-----------|------------|
-| ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>What's the purpose of the team?</li><li>Who belongs on the team?</li><li>Will the team be private or public?</li><li>Can new members add themselves or do team owners add them?</li><li>Who will have permissions to create channels or add tabs, bots, and connectors?</li></ul> |
-| ![An icon depicting the next steps](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Create the team.</li><li>Plan for channels.</li></ul>|
+| ![An icon depicting decision points.](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>What's the purpose of the team?</li><li>Who belongs on the team?</li><li>Will the team be private or public?</li><li>Can new members add themselves or do team owners add them?</li><li>Who will have permissions to create channels or add tabs, bots, and connectors?</li></ul> |
+| ![An icon depicting the next steps.](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Create the team.</li><li>Plan for channels.</li></ul>|
 
 
 #### Set up channels
@@ -162,8 +162,8 @@ Consider channel names before creating them as renaming a channel in the team wi
 
 |    |     |
 |-----------|------------|
-| ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>What initial channels will be added to the team?</li><li>What guidance, if any, will be provided for adding new channels? (Will they be set up by project, by topic, or ...?)</li></ul> |
-| ![An icon depicting the next steps](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Create initial channels.</li><li>Post a welcome message.</li><li>Start collaborating.</li></ul>|
+| ![An icon depicting decision points.](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>What initial channels will be added to the team?</li><li>What guidance, if any, will be provided for adding new channels? (Will they be set up by project, by topic, or ...?)</li></ul> |
+| ![An icon depicting the next steps.](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Create initial channels.</li><li>Post a welcome message.</li><li>Start collaborating.</li></ul>|
 
 ### Stage 2: Middle
 
@@ -183,14 +183,14 @@ Because teams are living organisms, they occasionally need to be checked on and 
 
 |    |     |
 |-----------|------------|
-| ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Who will monitor usage to identify problems?</li><li>What metrics will be used to determine whether a team is healthy?</li><li>Identify any teams that have reached the end of their useful life.</li><li>Identify unhealthy teams that still serve a purpose but need revitalizing.</li></ul> |
-| ![An icon depicting the next step](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Implement a process to monitor individual team health.</li></ul>|
+| ![An icon depicting decision points.](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Who will monitor usage to identify problems?</li><li>What metrics will be used to determine whether a team is healthy?</li><li>Identify any teams that have reached the end of their useful life.</li><li>Identify unhealthy teams that still serve a purpose but need revitalizing.</li></ul> |
+| ![An icon depicting the next step.](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Implement a process to monitor individual team health.</li></ul>|
 
 ### Stage 3: End
 
 When the work of a team has run its course, it's important to formally acknowledge that it's over. This gives team members a sense of closure and also prevents anyone from accessing outdated, stale information. You can use the team itself to conduct closure rituals like postmortems and executive summaries.
 
-You can delete teams that you know you don't need (for example, a team created purely for testing or a team that contains sensitive data). Teams are actually deleted with a "soft delete" that IT can reverse for up to 21 days (30 days for Microsoft 365 Groups). Deleting teams doesn't affect any chats or content that were retained in accordance with compliance policies. Channels also have a "soft delete" and can be reversed for up to 21 days after deletion. Deleting a channel will not delete the folder or its contents from the SharePoint document library.
+You can delete teams that you know you don't need (for example, a team created purely for testing or a team that contains sensitive data). Teams are actually deleted with a "soft delete" that IT can reverse for up to 30 days. Deleting teams doesn't affect any chats or content that were retained in accordance with compliance policies. Channels also have a "soft delete" and can be reversed for up to 21 days after deletion. Deleting a channel will not delete the folder or its contents from the SharePoint document library.
 
 You can also use expiration and retention policies in addition to archiving capabilities to reduce exposure from teams that aren't active any longer or whose owners have left the organization.
 
@@ -200,8 +200,8 @@ For information about setting up expiration and retention policies, see [Overvie
 
 |    |     |
 |-----------|------------|
-| ![An icon depicting decision points](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Define what the end of a team's life looks like.</li><li>Decide whether to keep the content of a team available, and for how long.</li></ul> |
-| ![An icon depicting the next steps](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Document best practices and lessons learned.</li><li>Archive data, if necessary.</li></ul>|
+| ![An icon depicting decision points.](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Define what the end of a team's life looks like.</li><li>Decide whether to keep the content of a team available, and for how long.</li></ul> |
+| ![An icon depicting the next steps.](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Document best practices and lessons learned.</li><li>Archive data, if necessary.</li></ul>|
 
 ## Related topics
 

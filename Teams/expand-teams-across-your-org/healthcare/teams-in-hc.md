@@ -12,7 +12,7 @@ searchScope:
   - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Healthcare
@@ -58,16 +58,16 @@ The following scenarios are available for healthcare organizations:
 | [Teams templates](#teams-templates-for-healthcare-organizations) | Create teams that include a predefined template of settings, channels, and pre-installed apps for communication and collaboration within a ward, pod, or department, or between multiple wards, pods, and departments within a hospital. | Users must have an appropriate license*.  |
 | [Care coordination and collaboration](#care-coordination-and-collaboration) | Clinicians and staff can collaborate internally on schedules, documents, tasks, and so on.| Users must have an appropriate license*. |
 
-*Office 365 A3, A5, E3, and E5, as well as Microsoft 365 Business Standard, A3, A5, E3, and E5 are supported. For more information about general Teams licensing, see [Manage user access to Teams](../../user-access.md).
+*Office 365 A3, A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3, and E5, Business Standard are supported. For more information about general Teams licensing, see [Manage user access to Teams](../../user-access.md).
 
 ## Virtual visits and Electronic Healthcare Record (EHR) integration
 
 Use the complete meetings platform in Microsoft Teams to schedule, manage, and conduct virtual visits with patients.
 
 - If your organization already uses Electronic Health Records, or EHR, you can integrate Microsoft Teams for a more seamless experience. Microsoft Teams Electronic Health Record (EHR) Connector makes it easy for clinicians to launch a virtual patient visit or consultation with another provider in Teams directly from the EHR system. To learn more, see [Virtual visits with Teams - Integration into EHR](ehr-admin.md).
-- If you aren't using a supported EHR, you can use Microsoft Bookings and the Bookings app in Teams. To learn more, see [Bookings app and virtual visits in Microsoft Teams](../../bookings-app-admin.md).
+- If you aren't using a supported EHR, you can use Microsoft Bookings and the Bookings app in Teams. To learn more, see [Virtual visits with Teams and the Bookings app](../bookings-virtual-visits.md).
 
-![Virtual visits with Microsoft Teams](../../media/virtual-visits-teams.png)
+![Virtual visits with Microsoft Teams.](../../media/virtual-visits-teams.png)
 
 ## Teams policy packages
 
@@ -100,7 +100,7 @@ New templates for creating Teams were developed to apply to a Hospital setting, 
 
 Bring your health team together to coordinate care and collaborate with Microsoft Teams.
 
-![Healthcare: Collaborate with your health team in Teams](../../media/teams-healthcare-collaborate-in-teams.png)
+![Healthcare: Collaborate with your health team in Teams.](../../media/teams-healthcare-collaborate-in-teams.png)
 
 Microsoft Teams enables physicians, clinicians, nurses, and other staff to collaborate efficiently with included collaboration features in Microsoft Teams, such as:
 
@@ -129,7 +129,7 @@ For example, a charge nurse creates a patient list in a team that includes all h
 
 Here's an example list which was set up for patient rounding.
 
-:::image type="content" source="../../media/lists-patients-example.png" alt-text="Screenshot of example list for patient rounding":::
+:::image type="content" source="../../media/lists-patients-example.png" alt-text="Screenshot of example list for patient rounding.":::
 
 To learn more, see [Manage the Lists app for your organization in Teams](../../manage-lists-app.md).
 

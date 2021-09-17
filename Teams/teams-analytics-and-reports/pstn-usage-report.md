@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: v-rifer
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 MS.collection: 
 - M365-voice
@@ -36,7 +36,7 @@ The **Calling Plans** tab shows information including the number of minutes that
 
 ### Calling Plans
 
-[ ![Screenshot of the Calling Plans PSTN usage report report in the admin center](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "Screenshot of the PSTN usage report in the Microsoft Teams admin center with numbered callouts") ](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png#lightbox)
+[ ![Screenshot of the Calling Plans PSTN usage report report in the admin center](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "Screenshot of the PSTN usage report in the Microsoft Teams admin center with numbered callouts."](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png#lightbox)
 
 |Callout |Description  |
 |--------|-------------|
@@ -51,7 +51,7 @@ The **Calling Plans** tab shows information including the number of minutes that
 
 ### Direct Routing
 
-[ ![Screenshot of the Direct Routing PSTN usage report report in the admin center](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "Screenshot of the Direct Routing PSTN usage report in the Microsoft Teams admin center with numbered callouts") ](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png#lightbox)
+[ ![Screenshot of the Direct Routing PSTN usage report report in the admin center](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "Screenshot of the Direct Routing PSTN usage report in the Microsoft Teams admin center with numbered callouts."](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png#lightbox)
 
 |Callout |Description  |
 |--------|-------------|
@@ -121,7 +121,7 @@ The first row of the CSV contains column names. All dates are UTC and in [ISO 86
 > | 13 | Start Time | `datetimeoffset` | Call start time |
 > | 14 | End Time | `datetimeoffset` | Call end time |
 > | 15 | Duration Seconds | `int` | How long the call was connected |
-> | 16 | Connection Fee | `numeric(16, 2)` | ​Connection fee price |
+> | 16 | Connection Fee | `numeric(16, 2)` | Connection fee price |
 > | 17 | Charge | `numeric(16, 2)` | Amount of money or cost of the call that is charged to your account |
 > | 18 | Currency | `nvarchar(3)` | Type of currency used to calculate the cost of the call ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
 > | 19 | Capability | `nvarchar(32)` | The license used for the call |

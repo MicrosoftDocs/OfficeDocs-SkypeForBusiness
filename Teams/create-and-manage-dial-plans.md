@@ -14,7 +14,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -25,7 +25,7 @@ description: Learn how to use the Microsoft Teams admin center or Windows PowerS
 
 # Create and manage dial plans
 
-After you plan the dial plans for your organization and figured out all the normalization rules that need to be created for call routing, you're ready to create the dial plans. With an administrator account that has a valid Teams license, you can use the Microsoft Teams admin center or Windows PowerShell to create and manage dial plans.  
+After you plan the dial plans for your organization and figured out all the normalization rules that need to be created for voice routing, you're ready to create the dial plans. With an administrator account that has a valid Teams license, you can use the Microsoft Teams admin center or Windows PowerShell to create and manage dial plans.  
 
 ## Using the Microsoft Teams admin center
 
@@ -33,7 +33,7 @@ After you plan the dial plans for your organization and figured out all the norm
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Dial plan**.
 2. Click **Add**, and then enter a name and description for the dial plan.
-    ![Screenshot showing the Add page for creating a dial plan](media/create-dial-plan.png)
+    ![Screenshot showing the Add page for creating a dial plan.](media/create-dial-plan.png)
 3. Under **Dial plan details**, specify an external dialing prefix if users need to dial one or more additional leading digits (for example, 9) to get an external line. To do this:
     1. In the **External dialing prefix** box, enter an external dialing prefix. The prefix can be up to four characters (#,*, and 0-9).
     2. Turn on **Optimized device dialing**. If you specify an external dialing prefix, you must also turn on this setting to apply the prefix so calls can be made outside your organization.
@@ -44,7 +44,7 @@ After you plan the dial plans for your organization and figured out all the norm
 5. Arrange the normalization rules in the order that you want. Click **Move up** or **Move down** to change the position of rules in the list.
 
     > [!NOTE]
-    > Teams traverses the list of normalization rules from the top down and uses the first rule that matches the dialed number. If you set up a dial plan so that a dialed number can match more than one normalization rule, make sure the more restrictive rules are sorted above the less restrictive ones.
+    > Teams traverses the list of normalization rules from the top down and uses the first rule that matches the dialed number. If you set up a dial plan so that a dialed number can match more than one normalization rule, make sure the more restrictive rules are sorted above the less restrictive ones. If you set up a dial plan that normalizes a dialed number without a "+", the calling service will attempt to normalize the number again using Tenant and regional dial plan rules. To avoid double normalization, it's recommended that all normalization rules result in numbers starting with a "+". Direct Routing customers can use [trunk translation](direct-routing-translate-numbers.md) rules to remove the "+" if required. 
 
 6. Click **Save**.
 7. If you want to test the dial plan, under **Test dial plan**, enter a phone number, and then click **Test**.

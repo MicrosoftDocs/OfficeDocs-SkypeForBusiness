@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: Learn how to set up the Call me feature in Teams so that users can join the audio portion by phone when using their computer for audio might not be possible.
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
 f1.keywords:
@@ -36,19 +36,19 @@ In Microsoft Teams, the **Call me** feature gives users a way to join the audio 
 
 Click **Join** to join a meeting, then **Phone audio** on the **Choose your video and audio options** screen, and click **Join now**. From here, users can have the meeting call and join them or dial in manually to the meeting.
 
-![Screen shot of the Phone audio option](media/set-up-the-call-me-feature-for-your-users-phone-audio.png)
+![Screen shot of the Phone audio option.](media/set-up-the-call-me-feature-for-your-users-phone-audio.png)
 
 **Let the Teams meeting call**
 
 On the **Use phone for audio** screen, the user enters their phone number, and then clicks **Call me**. The meeting calls the user and joins them to the meeting.
 
-![Screen shot of the Call me option on the Use phone for audio screen](media/set-up-the-call-me-feature-for-your-users-call-me.png)
+![Screen shot of the Call me option on the Use phone for audio screen.](media/set-up-the-call-me-feature-for-your-users-call-me.png)
 
 **Dial in manually**
 
 Another way to join is to dial in directly to the meeting. On the **Use phone for audio** screen, click **Dial in manually** to get a list of phone numbers to use to dial in to the meeting.
 
-![Screen shot of the Dial in manually option](media/set-up-the-call-me-feature-for-your-users-dial-in.png)
+![Screen shot of the Dial in manually option.](media/set-up-the-call-me-feature-for-your-users-dial-in.png)
 
 ### Get a call back when something goes wrong with audio during a meeting
 
@@ -56,7 +56,7 @@ If a user experiences audio issues when using their computer during a meeting, t
 
 Here's an example of the message and the **Call me back** option that's displayed when Teams doesn't detect a microphone.
 
-![Screen shot of the Call me back option](media/set-up-the-call-me-feature-for-your-users-no-mic.PNG)
+![Screen shot of the Call me back option.](media/set-up-the-call-me-feature-for-your-users-no-mic.PNG)
 
 The user clicks **Call me back**, which brings up the **Use phone for audio** screen. From here, they can enter their phone number and have the Teams meeting call and join them to the meeting or dial in manually to the meeting.
 

@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -31,6 +31,10 @@ Before you can set up users or auto attendants in your organization, you need to
 
 > [!NOTE]
 > It may take several hours for your new phone numbers to become available in Teams.
+
+The following video shows you how to complete these steps in the Teams admin center.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWENzQ]
 
 ## Set up a service number
 

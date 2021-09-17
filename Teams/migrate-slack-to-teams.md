@@ -14,7 +14,7 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 description: "Complete guidance for migrating from Slack to Microsoft Teams."
@@ -28,7 +28,7 @@ When planning your organization’s move to Teams from Slack, it's important to 
 
 The diagram below shows the Slack architecture at a high level.
 
-![Image that slows Slack architecture at a high level](media/migrate-slack-to-teams-image1.png)
+![Image that slows Slack architecture at a high level.](media/migrate-slack-to-teams-image1.png)
 
 ## Plan your migration from Slack
 ### What you can and can’t migrate
@@ -154,8 +154,6 @@ foreach ($slackUser in $users) {
     $output.Add($user)
 }
 
-$output | Export-Csv -Path .\SlackToAzureADIdentityMapping.csv -NoTypeInformation
-Write-Host "`n $(Get-Timestamp) Generated SlackToAzureADIdentityMapping.csv. Exiting..."
 $output | Export-Csv -Path .\SlackToAzureADIdentityMapping.csv -NoTypeInformation
 Write-Host "`n $(Get-Timestamp) Generated SlackToAzureADIdentityMapping.csv. Exiting..."
 ```

@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: karsmith
 description: An IT Admin guide to Reflect in Microsoft Teams for Education.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -40,7 +40,7 @@ The data belongs to the educational institution, and Microsoft only collects the
 
 The data is stored in Education Insights. By default, Education Insights is turned on. When you opt-out, we **delete all the data collected for Reflect**. Turn Education Insights back on, and we start collecting data from the time it's re-enabled.
 
-In the [IT Admin Guide to Education Insights](class-insights.md), you can read how Education Insights works (including storage locations) and [how to turn Education Insights off or on](class-insights.md#turn-insights-off-or-on) when you want to delete the data or enable the service.
+In the [IT Admin Guide to Education Insights](class-insights.md), you can read how Education Insights works (including storage locations) and [how to turn Education Insights off or on](class-insights.md#turn-insights-on-or-off) when you want to delete the data or enable the service.
 
 Data is collected from student in Reflect, though guest data is not collected. **If a student is defined as a guest, their data is not collected.** 
 
@@ -60,11 +60,11 @@ If you have previously defined that each app needs to be allowed, please go to t
 ## Where do educators find Reflect?
 Once you have enabled Reflect, educators go to the class and select **New Conversation**. They then select '**…**' to bring up messaging extensions and enter **Reflect** in the search bar. The dialog box guides them through defining the question and who can see what.
 
-:::image type="content" source="media/reflect-add-app.png" alt-text="Add Reflect to class team":::
+:::image type="content" source="media/reflect-add-app.png" alt-text="Add Reflect to class team.":::
 
 They can right-click on the Reflect icon and select **Pin** for easy access.
 
-:::image type="content" source="media/reflect-pin-app.png" alt-text="Pin the Reflect app":::
+:::image type="content" source="media/reflect-pin-app.png" alt-text="Pin the Reflect app.":::
 
 > [!TIP]
 > You can also locate the Reflect app through this link: [https://aka.ms/getReflect](https://aka.ms/getReflect)

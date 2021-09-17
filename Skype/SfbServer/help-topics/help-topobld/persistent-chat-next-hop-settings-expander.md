@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PersistentChatNextHopSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 91423153-746a-4f8a-9c7f-4102d3fdbb8a
 description: "You configure the Persistent Chat Next hop pool by selecting a Front End Server or Front End pool from the list."
 ---
