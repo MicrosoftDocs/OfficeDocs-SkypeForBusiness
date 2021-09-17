@@ -15,7 +15,7 @@ f1.keywords:
 - NOCSH
 appliesto: 
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn about how to block access to SharePoint for specific users
 ---
@@ -25,7 +25,7 @@ description: Learn about how to block access to SharePoint for specific users
 Applying any Conditional Access (CA) policy on SharePoint in Microsoft 365 is also applied to Teams. However, some organizations want to block access to SharePoint files (upload, download, view, edit, create) yet allow their employees to use Teams desktop, mobile, and web clients on unmanaged devices. Under the CA policy rules, blocking SharePoint would lead to blocking Teams as well. This article explains how you can work around this limitation and allow your employees to continue using Teams while completely blocking access to files stored in SharePoint.
 
 > [!Note]
-> Blocking or limiting access on unmanaged devices relies on Azure AD conditional access policies. Learn about [Azure AD licensing](https://azure.microsoft.com/pricing/details/active-directory/). For an overview of conditional access in Azure AD, see [Conditional access in Azure Active Directory](/azure/active-directory/conditional-access/overview). For info about recommended SharePoint Online access policies, see [Policy recommendations for securing SharePoint sites and files](/microsoft-365/enterprise/sharepoint-file-access-policies). If you limit access on unmanaged devices, users on managed devices must use one of the [supported OS and browser combinations](/azure/active-directory/conditional-access/technical-reference#client-apps-condition), or they will also have limited access.
+> Blocking or limiting access on unmanaged devices relies on Azure AD conditional access policies. Learn about [Azure AD licensing](https://azure.microsoft.com/pricing/details/active-directory/). For an overview of conditional access in Azure AD, see [Conditional access in Azure Active Directory](/azure/active-directory/conditional-access/overview). For info about recommended SharePoint Online access policies, see [Policy recommendations for securing SharePoint sites and files](/microsoft-365/enterprise/sharepoint-file-access-policies). If you limit access on unmanaged devices, users on managed devices must use one of the [supported OS and browser combinations](/azure/active-directory/conditional-access/concept-conditional-access-conditions#supported-browsers), or they will also have limited access.
 
 You can block or limit access for:
 
@@ -41,13 +41,13 @@ When access is blocked, users will see an error message. Blocking access helps p
 
 3. In the **Unmanaged Devices** section,  select **Block Access** and select **Save**.
 
-   ![the Unmanaged devices section for Policies](media/no-sharepoint-access1.png)
+   ![the Unmanaged devices section for Policies.](media/no-sharepoint-access1.png)
 
 4. Open the [Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies) portal and navigate to **Conditional Access Policies**.
 
     You'll see a new policy has been created by SharePoint that's similar to this example:
 
-    ![a new policy that's named Use app-enforced Restrictions for browser access](media/no-sharepoint-access2.png)
+    ![a new policy that's named Use app-enforced Restrictions for browser access.](media/no-sharepoint-access2.png)
 
 5. Update the policy to target only specific users or a group.
 

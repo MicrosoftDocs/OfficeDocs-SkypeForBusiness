@@ -14,7 +14,7 @@ ms.collection:
 - M365-voice
 appliesto: 
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to create and manage voice routing policies in Microsoft Teams. 
 ---
@@ -34,7 +34,7 @@ It's important to know that assigning a voice routing policy to a user doesn't e
 ### Using the Microsoft Teams admin center
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Voice routing policies**, and then click **Add**.<br>
-    ![Screenshot of the Add voice routing policy page in the Microsoft Teams admin center ](media/manage-voice-routing-policies.png) 
+    ![Screenshot of the Add voice routing policy page in the Microsoft Teams admin center .](media/manage-voice-routing-policies.png) 
 2. Enter a name and description for the policy.
 3. Under **PSTN usage records**, click **Add PSTN usage**, and then select the records that you want to add. If you need to create a new PSTN usage record, click **Add**.
 4. If you added multiple PSTN usage records, arrange them in the order that you want.

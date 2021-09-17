@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua, shalenc
 audience: admin
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -113,13 +113,13 @@ Select an existing policy on the **Meeting policies** page or select **Add** to 
 
 Allow **Meet now** is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an unplanned meeting in a Teams channel. If you turn on this setting, users can select the **Meet** button to start an unplanned meeting or schedule a meeting in the channel. The default value is True.
 
-![Screenshot showing the Meet now icon below a message](media/meeting-policies-meet-now.png)
+![Screenshot showing the Meet now icon below a message.](media/meeting-policies-meet-now.png)
 
 ### Allow the Outlook add-in
 
 Allow the Outlook add-in is a per-user policy and applies before a meeting starts. This setting controls whether Teams meetings can be scheduled from within Outlook (Windows, Mac, web, and mobile).
 
-![Screenshot showing the ability to schedule a new meeting](media/meeting-policies-outlook-add-in.png)
+![Screenshot showing the ability to schedule a new meeting.](media/meeting-policies-outlook-add-in.png)
 
 If you turn off this feature, users are unable to schedule. Teams meetings when they create a new meeting in Outlook. For example, in Outlook on Windows, the **New Teams Meeting** option won't show up in the ribbon.
 
@@ -131,7 +131,7 @@ If this policy is turned off, users can't create new channel meetings. However, 
 
 Schedule a meeting will be disabled.
 
- ![The Schedule a meeting option in Teams](media/schedule-meeting-option.png)
+ ![The Schedule a meeting option in Teams.](media/schedule-meeting-option.png)
 
 Channel selection is disabled.
 
@@ -140,15 +140,15 @@ Channel selection is disabled.
 In the channel posts page, the following features will be disabled:
 
 - **Schedule a meeting** button on the channel reply compose box.
-  ![schedule a meeting button reply compose box](media/schedule-meeting-disabled-in-chat2.png)
+  ![schedule a meeting button reply compose box.](media/schedule-meeting-disabled-in-chat2.png)
   
 - **Schedule a meeting** button on the channel header.
-  ![schedule a meeting button in the channel header](media/schedule-now-in-header.png)
+  ![schedule a meeting button in the channel header.](media/schedule-now-in-header.png)
 
 In the channel calendar:
 
 - **Add new event** button on channel calendar header will be disabled.
-  ![button on channel calendar header disabled](media/add-new-event-disabled.png)
+  ![button on channel calendar header disabled.](media/add-new-event-disabled.png)
 
 - Users can't drag and select a time block on the channel calendar to create a channel meeting.
 
@@ -158,7 +158,7 @@ In the admin center:
 
 The channel calendar app will show up in the **Microsoft apps** section on the app permission policies page.
 
- ![the app permissions policy in the Teams admin center](media/manage-microsoft-apps-policy.png)
+ ![the app permissions policy in the Teams admin center.](media/manage-microsoft-apps-policy.png)
 
 ### Allow scheduling private meetings
 
@@ -185,7 +185,7 @@ This is a per-user policy and applies before a meeting starts. This setting cont
 
 This policy turns on Live transcription. Allow transcription is a per-user policy. This setting controls whether this specific Team's meeting can be transcribed.
 
-![transcription options in meeting policies](media/live-transcription.png)
+![transcription options in meeting policies.](media/live-transcription.png)
 
 Live transcription shows speech-to-text of spoken content during a Teams meeting in near real time. The text appears alongside the meeting video, including the speaker's name and a time stamp. To learn more, see [View live transcription in a Teams meeting](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-dc1a8f23-2e20-4684-885e-2152e06a4a8b).
 
@@ -206,7 +206,7 @@ Allow cloud recording is controlled at a per-user policy. This setting controls 
 
 People outside your organization, such as federated and anonymous users, can't start the recording. Guest users can't start or stop the recording.
 
-![the recording options](media/meeting-policies-recording.png)
+![the recording options.](media/meeting-policies-recording.png)
 
 To learn more about cloud meeting recording, see [Teams cloud meeting recording](cloud-recording.md).
 
@@ -258,7 +258,7 @@ Meetings organized by a user who has this policy setting enabled, allow video sh
 
 | Teams desktop and web client |Teams mobile client  |
 |:-------:|:-------:|
-|![Screenshot showing meeting join with audio/video settings on desktop](media/meeting-policies-audio-video-settings.png)    |![Screenshot showing meeting join sreen with audio/video settings on mobile](media/meeting-policies-mobile-join.png)          |
+|![Screenshot showing meeting join with audio/video settings on desktop.](media/meeting-policies-audio-video-settings.png)    |![Screenshot showing meeting join sreen with audio/video settings on mobile](media/meeting-policies-mobile-join.png)          |
 
 Let's look at the following example.
 
@@ -352,11 +352,11 @@ This is a per-user policy. This setting controls whether the user can give contr
 
 If this setting is turned on for the user, the **Give Control** option is displayed in the top bar in a sharing session.
 
-![Screenshot showing the Give Control option](media/meeting-policies-give-control.png)
+![Screenshot showing the Give Control option.](media/meeting-policies-give-control.png)
 
 If the setting is turned off for the user, the **Give Control** option isn't available.
 
-![Screenshot showing that the Give Control option is not available](media/meeting-policies-give-control-not-available.png)
+![Screenshot showing that the Give Control option is not available.](media/meeting-policies-give-control-not-available.png)
 
 Let's look at the following example.
 
@@ -453,7 +453,7 @@ This is a per-organizer policy that allows for leaderless conferencing meetings.
 
 This is a per-organizer policy. This setting controls whether people join a meeting directly or wait in the lobby until they are admitted by an authenticated user. This setting does not apply to dial-in users.
 
-![Screenshot showing a meeting with a user in the lobby](media/meeting-policies-lobby.png)
+![Screenshot showing a meeting with a user in the lobby.](media/meeting-policies-lobby.png)
 
  Meeting organizers can select **Meeting Options** in the meeting invitation to change this setting for each meeting they schedule.
 
@@ -483,7 +483,7 @@ Meeting policies have a setting for letting team members bypass the meeting lobb
 
 This is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on and turn off live captions in meetings that the user attends.  
 
-![Screenshot showing the Turn on live captions option](media/meeting-policies-live-captions.png)
+![Screenshot showing the Turn on live captions option.](media/meeting-policies-live-captions.png)
 
 |Setting value |Behavior  |
 |---------|---------|
@@ -514,7 +514,7 @@ To specify the default value of the **Who can present?** setting in Teams, set t
 
 Additionally, you can edit this policy in the Teams admin center.
 
-![Screenshot of Teams admin center](media/designated-presenter-role.png)
+![Screenshot of Teams admin center.](media/designated-presenter-role.png)
 
 Keep in mind that after you set the default value, meeting organizers can still change this setting in Teams and choose who can present in the meetings that they schedule.
 
@@ -541,7 +541,7 @@ To specify which meeting add-in you want to be available to users, set the **Pre
 - Set the parameter to **TeamsAndSfB** to enable both the Teams Meeting add-in and Skype for Business add-in in Outlook. This is the default value.
 - Set the parameter to **Teams** to enable only the Teams Meeting add-in in Outlook. This policy setting ensures that all future meetings have a Teams meeting join link. It doesn't migrate existing Skype for Business meeting join links to Teams. This policy setting doesn't affect presence, chat, PSTN calling, or any other capabilities in Skype for Business, which means that users will continue to use Skype for Business for these capabilities.
 
-  If you set the parameter to **Teams**, and then switch back to **TeamsAndSfB**, both meeting add-ins are enabled. Existing Teams meeting join links **won't** be migrated to Skype for Business. Only Skype for Business meetings scheduled after the change will have a Skype for Business meeting join link.
+If you set the parameter to **Teams**, and then switch back to **TeamsAndSfB**, both meeting add-ins are enabled. Existing Teams meeting join links **won't** be migrated to Skype for Business. Only Skype for Business meetings scheduled after the change will have a Skype for Business meeting join link.
 
 ## Meeting policy settings - Video filters mode
 
@@ -575,3 +575,4 @@ Meeting reactions are Off by default. Turning off reactions for a user doesn't m
 - [Teams PowerShell overview](teams-powershell-overview.md)
 - [Assign policies to your users in Teams](assign-policies.md)
 - [Remove the RestrictedAnonymousAccess Teams meeting policy from users](meeting-policies-restricted-anonymous-access.md)
+- [Set up for webinars in Microsoft Teams](set-up-webinars.md)

@@ -15,7 +15,7 @@ audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords: 
   - CSH
 ms.custom: 
@@ -102,13 +102,13 @@ You can create a resource account in the Teams admin center.
 
 3. In the **Add resource account** pane, fill out **Display name**, **Username**, and choose **Call queue** for the **Resource account type**. Agents will see the display name when they receive an incoming call from the queue.
 
-    ![Screenshot of add resource account user interface](../media/resource-account-add-cq.png)
+    ![Screenshot of add resource account user interface.](../media/resource-account-add-cq.png)
 
 4. Click **Save**.
 
    The new account will appear in the list of accounts.
 
-   ![Screenshot of a list of resource accounts](../media/resource-accounts-page.png)
+   ![Screenshot of a list of resource accounts.](../media/resource-accounts-page.png)
 
 ### Assign a license
 
@@ -120,7 +120,7 @@ You must assign a *Microsoft 365 Phone System - Virtual User* license to the res
 
 3. Click **Save changes**.
 
-    ![Screenshot of assign licenses user interface in the Microsoft 365 admin center](../media/resource-account-assign-virtual-user-license.png)
+    ![Screenshot of assign licenses user interface in the Microsoft 365 admin center.](../media/resource-account-assign-virtual-user-license.png)
 
 ### Create a call queue
 
@@ -134,11 +134,11 @@ Next, we'll start creating a new call queue and assign the resource account.
 
 3. (Optional) Under **Assign calling ID**, click **Add**, search for the resource accounts that you created for your auto attendant, click **Add**, and then click **Add**. This will give your call agents the caller ID of your main line when they call out.
 
-    ![Screenshot of calling ID settings](../media/call-queue-assign-calling-id.png)
+    ![Screenshot of calling ID settings.](../media/call-queue-assign-calling-id.png)
 
 3. Choose a language. This language will be used for system-generated voice prompts and voicemail transcription (if you enable them).
 
-    ![Screenshot of resource account settings](../media/call-queue-name-language.png)
+    ![Screenshot of resource account settings.](../media/call-queue-name-language.png)
 
 4. Specify if you want to play a greeting to callers when they arrive in the queue. You must upload an MP3, WAV, or WMA file containing the greeting that you want to play.
 
@@ -160,7 +160,7 @@ To add agents to the call queue, we'll add them to the team and channel that we 
 3. Select the channel that you created for the queue.
 3. Click **Apply**.
 
-    ![Screenshot of users and groups settings for call queues](../media/call-queue-users-groups.png)
+    ![Screenshot of users and groups settings for call queues.](../media/call-queue-users-groups.png)
 
 > [!NOTE]
 > When new users are added to the team, it can take up to eight hours for their first call to arrive.
@@ -184,7 +184,7 @@ Choose the call routing method that you want to use.
 
     - **Longest idle** routes each call to the agent who has been idle the longest time. (Agents whose presence state has been Away for more than 10 minutes are not included.)
 
-    ![Screenshot of conference mode and routing method settings](../media/call-queue-conference-mode-routing-method.png)
+    ![Screenshot of conference mode and routing method settings.](../media/call-queue-conference-mode-routing-method.png)
 
 3. Turn **Presence-based routing** on. This routes calls to agents whose presence status is **Available**.
 
@@ -192,7 +192,7 @@ Choose the call routing method that you want to use.
 
 5. Set an **Agent alert time** to specify how long an agent's phone will ring before the queue redirects the call to the next agent.
 
-    ![Screenshot of routing, opt out, and alert time settings](../media/call-queue-presence-agents-time.png)
+    ![Screenshot of routing, opt out, and alert time settings.](../media/call-queue-presence-agents-time.png)
 
 > [!div class="nextstepaction"]
 > [Step 5 - Call overflow >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-overflow#steps)
@@ -209,7 +209,7 @@ Choose how you want to handle calls that exceed the maximum in the queue.
     - **External phone number** - any phone number. Use this format: +[country code][area code][phone number]
     - **Voicemail** - you can use the voice mailbox of the team that you created.
 
-    ![Screenshot of call overflow settings](../media/call-queue-overflow-handling.png)
+    ![Screenshot of call overflow settings.](../media/call-queue-overflow-handling.png)
 
 > [!div class="nextstepaction"]
 > [Step 6 - Call timeout >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-timeout#steps)
@@ -226,7 +226,7 @@ Choose what you want to happen when calls have been waiting in the queue for too
     - **External phone number** - any phone number. Use this format: +[country code][area code][phone number]
     - **Voicemail** - you can use the voice mailbox of the team that you created.
 
-    ![Screenshot of call timeout settings](../media/call-queue-timeout-handling.png)
+    ![Screenshot of call timeout settings.](../media/call-queue-timeout-handling.png)
 
 3. Click **Save**.
 

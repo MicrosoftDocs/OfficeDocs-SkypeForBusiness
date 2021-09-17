@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: snigdhav
 search.appverid: MET150
 description: SharePoint & OneDrive interaction with Teams; private chat file storage & interaction between team, standard channel, & document library.
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - SPO_Content
@@ -48,7 +48,7 @@ The default SharePoint site and document library can't be replaced with a differ
 
 For every user, the OneDrive folder **Microsoft Teams Chat Files** is used to store all files shared within private chats with other users (1:1 or 1:many), with permissions configured automatically to restrict access to the intended user only.
 
-![Diagram of the OneDrive folder named Microsoft Teams Chat Files](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
+![Diagram of the OneDrive folder named Microsoft Teams Chat Files.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
 
 Note that for public teams, the SharePoint team site is provisioned with "Everyone except external users" access. The public team isn't displayed in Teams for people who aren't members of that team. However, they can access content on the SharePoint team site using the URL of the SharePoint team site. 
 

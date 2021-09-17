@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.reviewer: rafarhi
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: seo-marvel-mar2020
 appliesto: 
   - Microsoft Teams

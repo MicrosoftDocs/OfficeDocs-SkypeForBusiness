@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 description: "Overview of using a Cloud auto attendant with Skype for Business Server 2019"
 ---
@@ -29,7 +29,7 @@ An auto attendant is a cloud service that accepts customer calls and plays greet
 
 An incoming call to a Cloud auto attendant can take one of several paths, as shown here:
 
-![Diagram for auto attendants](../../SfBServer2019/media/AA-plan-concept.png)
+![Diagram for auto attendants.](../../SfBServer2019/media/AA-plan-concept.png)
 
 1. Via Skype for Business Server 2019
 2. Via a [Session Border Controller](/MicrosoftTeams/direct-routing-border-controllers.md) and [Direct Routing](/MicrosoftTeams/direct-routing-plan.md)

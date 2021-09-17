@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua, shalenc
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -49,7 +49,7 @@ This setting is a per-organizer policy that allows for leaderless dial-in confer
 
 This is a per-organizer policy. This setting controls whether people join a meeting directly or wait in the lobby until they are admitted by an authenticated user. This setting does not apply to dial-in users.
 
-![Screenshot showing a meeting with a user in the lobby](media/meeting-policies-lobby.png)
+![Screenshot showing a meeting with a user in the lobby.](media/meeting-policies-lobby.png)
 
  Meeting organizers can click **Meeting Options** in the meeting invitation to change this setting for each meeting they schedule.
 
@@ -76,7 +76,7 @@ This is a per-organizer policy. This setting controls whether people who dial in
 
 This setting is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on and turn off live captions in meetings that the user attends.  
 
-![Screenshot showing the Turn on live captions option](media/meeting-policies-live-captions.png)
+![Screenshot showing the Turn on live captions option.](media/meeting-policies-live-captions.png)
 
 |Setting value |Behavior  |
 |---------|---------|

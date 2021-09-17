@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: karsmith
 description: An IT Admin guide to Insights in Microsoft Teams for Education.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -94,11 +94,11 @@ Both educators and education leaders can zoom in and see the data for individual
 * Search for **Insights** and select it.
 * A description screen will open. Click **Add**.
 
-:::image type="content" source="media/insights-add-personal-app.png" alt-text="Add Insights to Teams":::
+:::image type="content" source="media/insights-add-personal-app.png" alt-text="Add Insights to Teams.":::
 
 * Right click on the Insights icon and select **Pin**.
 
-:::image type="content" source="media/insights-pin-app.png" alt-text="Pin the Insights app":::
+:::image type="content" source="media/insights-pin-app.png" alt-text="Pin the Insights app.":::
 
 > [!TIP]
 > You can also locate the Insights app through this link: [https://aka.ms/addInsights](https://aka.ms/addInsights)
@@ -110,7 +110,7 @@ Insights supports learning communities throughout **the learning cycle**. With r
 *	**Discuss** findings with students and the school community to strengthen relationships, goal setting, self-review, spark collaboration, and improve outcomes.
 *	**Take Action** to develop interventions, provide feedback on growth areas, modify teaching strategies, and identify additional support required.
 
-:::image type="content" source="media/insights-learning-cycle.png" alt-text="Insights supports learning communities throughout the learning cycle":::
+:::image type="content" source="media/insights-learning-cycle.png" alt-text="Insights supports learning communities throughout the learning cycle.":::
 
 ## How Insights works?
 Insights produces powerful analytics to help educators deliver better learning outcomes. It does this by analyzing student activity within Teams and optionally leveraging the Student Information System (SIS) data that you provide to help contextualize and group that activity. 
@@ -131,6 +131,7 @@ Currently, data is collected from the following areas in class teams:
 | **Files** |	Uploading, downloading, accessing, modifying, commenting on, and sharing a file (not including file content).|
 | **OneNote Class Notebook** |	Editing a page or section in a notebook (not including page content).|
 | **Meetings** |	Attendance (not including meeting content).|
+| **[Reading Progress](https://support.microsoft.com/topic/e71705a2-a79a-4d7e-bcef-a1e0aa336017)** |	Accuracy rate, most challenging words, and words per minute.  |
 | **[Reflect](reflect.md)** |	Check-ins (including values).|
 
 > [!NOTE]
@@ -169,6 +170,8 @@ Insights has been designed to support both students and educators in the digital
 
 ### Licensing
 To access Insights, users must have an A1, A3, or A5 faculty license for Microsoft 365.
+
+*Education Insights Premium* is a paid upgrade which provides education leaders an organizational level view of Education Insights data as well as expanded access to historical data views for educators. Eligible educational institutions can purchase an *Education Insights Premium* add-on license through Enrollment for Education Solutions (EES), Cloud Service Providers (CSP), and Microsoft 365 admin center (web direct).
 
 ## Student Information System (SIS) integration
 The more data is fed into Insights, the better educators can support their students, and education leaders can support the educators.

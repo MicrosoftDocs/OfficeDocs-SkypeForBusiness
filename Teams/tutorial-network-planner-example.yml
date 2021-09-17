@@ -12,7 +12,7 @@ metadata:
   ms.reviewer: rowille
   ms.service: msteams
   ms.topic: tutorial
-  localization_priority: Normal
+  ms.localizationpriority: medium
   ms.collection: 
   - M365-collaboration
   ms.custom: seo-marvel-apr2020

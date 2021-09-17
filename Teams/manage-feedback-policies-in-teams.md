@@ -14,7 +14,7 @@ f1.keywords:
 - NOCSH
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to use feedback policies to control whether Teams users in your organization can submit feedback about Teams to Microsoft.
 ---
@@ -32,13 +32,13 @@ Users in your organization can send feedback about Teams to Microsoft let us kno
 
 Users can send comments and suggestions about Teams to us by going to **Help** > **Give feedback** in Teams. Data sent through **Give feedback** is considered as "Support Data" under your Microsoft 365 or Office 365 agreement, including information that would otherwise be considered "Customer Data" or "Personal Data".
 
-![Screenshot of the Give feedback option in Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
+![Screenshot of the Give feedback option in Teams.](media/manage-feedback-policies-in-teams-give-feedback.png)
 
 **Surveys**
 
 Users can also rate their experience with Teams and send us details about the rating they give. This pop-up survey is displayed to users from time-to-time in Teams. When a user selects **Provide feedback** in the notification, the survey is displayed for them to complete.
 
-![the survey notification and form in Teams](media/manage-feedback-policies-in-teams-survey.png)
+![the survey notification and form in Teams.](media/manage-feedback-policies-in-teams-survey.png)
 
 ## Set whether users can send feedback about Teams to Microsoft
 

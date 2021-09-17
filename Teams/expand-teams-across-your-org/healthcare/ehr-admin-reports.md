@@ -12,7 +12,7 @@ searchScope:
   - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Healthcare
@@ -33,7 +33,7 @@ You can see the Microsoft Teams EHR connector admin report by going to the Micro
 
 Access the report from the Microsoft Teams Admin Center dashboard.
 
- ![a dialog of the virtual visits allocations and limits](../../media/admin-connector-report.png)
+ ![a dialog of the virtual visits allocations and limits.](../../media/admin-connector-report.png)
 
 The dialog provides the following data:
 

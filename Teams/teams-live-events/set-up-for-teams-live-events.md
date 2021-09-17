@@ -10,7 +10,7 @@ audience: admin
 search.appverid: MET150
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 - M365-collaboration
 - m365initiative-meetings
@@ -54,7 +54,7 @@ Live events policies are used to control who in your organization can hold live 
 
     Here are the settings you can change to fit the needs of your organization.
 
-    ![Screen shot of live events policy settings](../media/teams-live-events-policies.png "Screen shot of live events policy settings in the Microsoft Teams admin center")
+    ![Screen shot of live events policy settings.](../media/teams-live-events-policies.png "Screen shot of live events policy settings in the Microsoft Teams admin center")
 
 |Setting  |Description  |
 |---------|---------|
@@ -80,7 +80,7 @@ For users to schedule events produced with an external app or device, you must a
    >[!Note]
    > The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](../tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings. Learn more about how you can [**assign licenses to users**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) so that users can access Stream. Ensure Stream isn't blocked for the users as defined in [**this article**](/stream/disable-user-organization).
 
-2. Ensure users have live event creation permission in Stream. By default, administrators can create events with an external app or device. Stream administrator can [enable additional users for live event creation](/stream/live-event-administration#enabling-and-restricting-users-to-creating) in Stream.
+2. Ensure users have live event creation permission in Stream. By default, administrators can create events with an external app or device. Stream administrator can [enable additional users for live event creation](/stream/live-event-administration#restrict-who-can-create-events) in Stream.
 
 3. Ensure live event organizers have consented to the company policy set by Stream admin. If a Stream administrator has [set up a company guidelines policy](/stream/company-policy-and-consent) and requires employees to accept this policy before saving content, then users must do so before creating a live event (with an external app or device) in Teams. Before you roll out the live events feature in the organization, make sure users who will be creating these live events have consented to the policy.
 
