@@ -256,7 +256,7 @@ You can also use PowerShell to create and set up auto attendants. Here are the c
 
 ## More information
 
-If you have followed these steps, but have issues with the Auto Attendant, Microsoft has developed Teams-specific diagnostic scenarios that may help. 
+If you have followed these steps, but have issues with the auto attendant, we have developed Teams-specific diagnostic scenarios that may help. 
 
 ### Non-administrators
 
