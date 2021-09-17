@@ -274,7 +274,8 @@ Or you can select the following link to get to the diagnostic directly.
 
     > [Run Tests: Teams Auto Attendant](https://aka.ms/TeamsAADiag)
 
-2. In the diagnostic form, enter your Auto Attendant Resource email address, and then select **Run Tests**.
+2. In the diagnostic form, enter your auto attendant resource email address, and then select **Run Tests**.
+
 ![image](https://user-images.githubusercontent.com/11858030/133628641-c5277c02-89f8-4599-9c3c-1cf9a064c73f.png)
 
 3. If the test detects configuration issues, it will display links to help resolve those issues.
