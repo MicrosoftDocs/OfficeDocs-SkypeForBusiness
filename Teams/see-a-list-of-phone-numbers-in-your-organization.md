@@ -79,16 +79,12 @@ When you are setting up users in your organization to make and receive telephone
 
 2. In the left navigation, go to **Voice** > **Phone numbers**.
 
-3. Click the filter icon to filter your view by **Activation state** You can filter by:
+3. Click the filter icon to filter your view by **Activation state**. You can filter by:
 
    - **Activated**
-
    - **Assignment pending**
-
    - **Assignment failed**
-
    - **Update pending**
-
    - **Update failed**
 
 ## Using the Teams PowerShell module
@@ -101,7 +97,7 @@ To see a list of all telephone numbers that you have for your organization, use 
 Get-CsOnlineTelephoneNumber | ft Id,ActivationState
 ```
 
-To see all of the telephone numbers that are assigned to users, use the [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser) cmdlet. For example, to see all the users with a telephone number assigned, run the following command:
+To see all of the telephone numbers that are assigned to users, use the [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser) cmdlet. For example, to see all users with a telephone number assigned, run the following command:
 
 ```PowerShell
 Get-CsOnlineUser | Where-Object  { $_.LineURI -notlike $null } | ft DisplayName,UserPrincipalName,LineURI
