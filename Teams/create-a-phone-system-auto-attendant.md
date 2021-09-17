@@ -281,8 +281,6 @@ Or you can select the following link to get to the diagnostic directly.
 
 ![image](https://user-images.githubusercontent.com/11858030/133628705-e04d84f9-a468-4189-b3a8-9ac11a8b6bec.png)
 
-
-
 ## Related topics
 
 [Here's what you get with Phone System](./here-s-what-you-get-with-phone-system.md)
