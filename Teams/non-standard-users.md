@@ -66,8 +66,8 @@ External users can't install, update, or delete apps into any context, such as a
 - Users in the hosting organization can add apps in meeting chats with people from other organizations. People from other organizations cannot add apps in meeting chats but can interact with bots, tabs and message extensions once added to the chat.
 - After a bot is installed in a meeting chat, it can proactively communicate with people from other organizations in that chat and those people can communicate with bot.
 - The data policies of the hosting organization, as well as the data sharing practices of any third-party apps shared by that user's organization, are applied.
-- Apps usage with federated users is only available in meetings chats
-- LOB/Custom apps are not available for use in scenarios with federated users
+- Apps usage with federated users is only available in meetings chats.
+- Line-of-business (LOB) and custom apps are not available for use in scenarios with federated users.
 
 ## Anonymous users
 
