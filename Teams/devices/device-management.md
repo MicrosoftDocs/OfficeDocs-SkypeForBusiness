@@ -45,13 +45,13 @@ You can manage any device that's certified for, and enrolled in, Teams. A device
 - [Teams displays](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices/devices/category?devicetype=34)
 - [Teams panels](teams-panels.md)
 
-To manage devices, in the left navigation of the [Microsoft Teams admin center](https://admin.teams.microsoft.com), go to **Devices**, and then select the device type. Each type of device has its own respective section, which lets you manage them separately.
+To manage devices, in the left navigation of the [Microsoft Teams admin center](https://admin.teams.microsoft.com), go to **Teams Devices**, and then select the device type. Each type of device has its own respective section, which lets you manage them separately.
 
 ## Manage Teams Rooms devices
 
 You can use the Teams admin center to view and remotely manage your Teams Rooms devices across your organization. The Teams admin center makes it easy to see, at a glance, which devices are healthy and which need attention, and lets you focus on specific devices to see detailed information about device health, meeting performance, call quality, and peripherals. 
 
-Here are some things you can do to manage your Teams Rooms devices. Teams Rooms devices can be found in the [Microsoft Teams admin center](https://admin.teams.microsoft.com) under **Devices** > **Teams Rooms**.
+Here are some things you can do to manage your Teams Rooms devices. Teams Rooms devices can be found in the [Microsoft Teams admin center](https://admin.teams.microsoft.com) under **Teams Devices** > **Teams Rooms**.
 
 For details about how to manage your Teams Rooms devices, see [Manage Microsoft Teams Rooms](../rooms/rooms-manage.md).
 
@@ -89,7 +89,7 @@ Use configuration profiles to manage settings and features for different Teams d
 
 To create a configuration profile for a Teams device type:
 
-1. In the left navigation, go to **Devices** > select the Teams device type > **Configuration profiles**. For example, select **Devices** > **Teams panels** > **Configuration profiles** to create a new configuration profile for Teams panels.
+1. In the left navigation, go to **Teams Devices** > select the Teams device type > **Configuration profiles**. For example, select **Teams Devices** > **Teams panels** > **Configuration profiles** to create a new configuration profile for Teams panels.
 2. Click **Add**.
 3. Enter a name for the profile and optionally add a friendly description.
 4. Specify the settings you want for the profile, and then click **Save**.
@@ -98,7 +98,7 @@ To create a configuration profile for a Teams device type:
 #### Assign a configuration profile
 After creating a configuration profile for a Teams device type, assign it to one or more devices.
 
-1. In the left navigation, go to **Devices** > select the Teams device type. For example, to assign a configuration profile to a Teams panels device, select **Devices** > **Teams panels**.
+1. In the left navigation, go to **Teams Devices** > select the Teams device type. For example, to assign a configuration profile to a Teams panels device, select **Teams Devices** > **Teams panels**.
 2. Select one or more devices, and then click **Assign configuration**.  
 3. In the **Assign a configuration** pane, search for configuration profile to assign to the selected devices.
 4. Click **Apply**.

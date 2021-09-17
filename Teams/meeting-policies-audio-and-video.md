@@ -165,7 +165,7 @@ You can add custom background images to be used per tenant. This feature allows 
 
 1. Sign in to the Teams admin center.
 
-2. Select **Meeting Policies** > **Customize meeting images**.
+2. Select **Meetings** > **Meeting Policies** > **Customize meeting images**.
 
    ![The meeting policies selection with the Customize meeting images button highlighted.](media/custom-background-image-button.png)
 
