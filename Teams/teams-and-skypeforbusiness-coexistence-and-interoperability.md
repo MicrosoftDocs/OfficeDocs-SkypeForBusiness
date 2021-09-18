@@ -67,7 +67,7 @@ To avoid a confusing or regressed Skype for Business experience, the Skype for B
 Phone System isn't supported in Teams in **Islands** mode. **Islands** mode doesn't support Enterprise Voice client is Skype for Business.
 
 > [!Important]
-> In **Islands** mode, all messages and calls from federated users (people outside your organization) are delivered to Skype for Business. After upgrading to **Teams Only** mode, all messages and calls from outside your organization are delivered to Teams.
+> In **Islands** mode, all messages and calls from federated users (people outside your organization) are delivered to the same client from which they were sent. After upgrading to **Teams Only** mode, all messages and calls from outside your organization are delivered to Teams.
 
 > [!Tip]
 > Skype for Business Online customers recommended path is to start with the default **Islands** mode, drive Teams adoption saturation in the organization, and then move to **Teams Only** mode rapidly. On premises and hybrid customers, especially complex ones, might benefit from deploying the **Skype for Business with Teams Collaboration** mode as a starting point rather than **Islands** mode, and progress from there to **Skype for Business with Teams Collaboration and Meetings** mode (that is, Meetings First), if appropriate, and to **Teams Only** mode when the organization is ready to adopt Teams.
@@ -310,17 +310,13 @@ For example, Assume User A is in Islands mode. If User A is active in Teams but 
 
 ### Federation
 
-Federation from Teams to another user using Skype for Business requires the Teams user to be homed online in Skype for Business. TeamsUpgradePolicy governs routing for incoming federated chats and calls. Federated routing behavior is the same as for same-tenant scenarios, except in Islands mode. When recipients are in Islands mode:
-
-- Chats and calls initiated from Teams land in Skype for Business if the recipient is in a federated tenant.
-- Chats and calls initiated from Teams land in Teams if the recipient is in the same tenant.
-- Chats and calls initiated from Skype for Business always land in Skype for Business.
+Federation from Teams to another user using Skype for Business requires the Teams user to be homed online in Skype for Business. TeamsUpgradePolicy governs routing for incoming federated chats and calls. Federated routing behavior is the same as for same-tenant scenarios.
 
 A federated chat can either be a native thread or an interop thread. See [Interop versus native conversation threads](#interop-versus-native-conversation-threads).
 
-- If the receiver and sender are both in TeamsOnly upgrade mode, the conversation will be a native chat experience which includes all the rich messaging and calling capabilities. To learn more, read [Native chat experience for external (federated) users in Teams](native-chat-for-external-users.md). 
+- If the receiver and sender are in TeamsOnly upgrade or Islands mode, the conversation will be a native chat experience which includes all the rich messaging and calling capabilities. To learn more, read [Native chat experience for external (federated) users in Teams](native-chat-for-external-users.md). 
 
-- If either of the conversation participants is NOT in TeamsOnly upgrade mode, the conversation remains an interop experience with text-only messages. The user interface exposes federated chats in a similar manner to same-tenant interop threads, except there is a note indicating the user is external.
+- If either of the conversation participants is on SfB* upgrade mode, the conversation remains an interop experience with text-only messages. The user interface exposes federated chats in a similar manner to same-tenant interop threads, except there is a note indicating the user is external.
 
 For more details, see [Manage external access in Microsoft Teams](manage-external-access.md) and [Native chat experience for external (federated) users in Teams](native-chat-for-external-users.md).
 
