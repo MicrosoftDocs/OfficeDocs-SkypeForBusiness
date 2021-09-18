@@ -51,7 +51,7 @@ The parameters that determine the thread routing method are:
   - Teams to Teams communication is always possible in-tenant.
 
 > [!NOTE]
-> If the receiver and sender are both in TeamsOnly upgrade mode, the conversation will be a native chat experience which includes all the rich messaging and calling capabilities. To learn more, read [Native chat experience for external (federated) users in Teams](native-chat-for-external-users.md). If either of the  conversation participants is NOT in TeamsOnly upgrade mode, the conversation remains an interop experience with text-only messages.
+> If the receiver and sender are in TeamsOnly upgrade or Islands upgrade mode, the conversation will be a native chat experience which includes all the rich messaging and calling capabilities. To learn more, read [Native chat experience for external (federated) users in Teams](native-chat-for-external-users.md). If either of the  conversation participants is NOT in TeamsOnly upgrade mode, the conversation remains an interop experience with text-only messages.
 
 ## Chat and call routing
 
@@ -106,12 +106,7 @@ In the tables that follow:
 
 The tables below capture routing of federated calls and chats, and are valid for new calls or chats. They describe which client will receive a new call or chat, if originated by a user on the left, to a federated target user on the right.
 
-In summary, if the conversation is possible as described above, messages sent to TeamsOnly users will always land in Teams; messages sent to SfB\* users will always land in Skype for Business; messages sent to Islands users will always land in Skype for Business regardless of the client from which they were sent. Routing for federated chats and calls differs from in-tenant routing in that Islands users will always receive a federated communication in Skype for Business.
-
-This is because we cannot assume that a federated Skype for Business partner already uses Teams if they are in Islands mode. Islands is the default mode, however we can't assume all Islands users run Teams. By routing to Skype for Business we ensure that no communication to an Islands user fails. If we routed to Teams, that communication could be missed if the target did not use Teams. Routing to Skype for Business ensures the message will always be received.
-
-> [!NOTE]
-> Current implementation of Teams federation is based upon Skype for Business federation, therefore it leverages the interoperability infrastructure (which requires the tenant of the originator to be either pure online or Skype for Business hybrid) and provides a reduced set of capabilities compared to a native thread. We expect to provide native Teams to Teams federation in the future, at which point the thread will be native and provide full capabilities.
+In summary, if the conversation is possible as described above, messages sent to TeamsOnly users will always route to Teams; messages sent to SfB\* users will always route to Skype for Business, if the conversation is possible as described above, and messages sent to Islands users will always route to the same client from which they were sent.
 
 The tables below describe which client will receive a call from the originator (three leftmost columns), depending on the originator's mode, client chosen, and where their Skype for Business client is homed (on-prem or online).
 
@@ -121,9 +116,9 @@ The tables below describe which client will receive a call from the originator (
 
 |<br><br>Mode|Originator<br><br>Client|<br><br>SfB homed|<br><br>Route-->|Recipient<br><br>Islands|
 |---|---|---|:---:|---|
-|Islands|Teams <br> Skype for Business <br> Teams <br> Skype for Business|Online <br> Online <br> On-prem <br> On-prem|&boxv;<br>&boxv;<br>&boxv;<br>&boxv;|*Skype for Business* <br> Skype for Business <br> **Not Possible** <br> Skype for Business|
+|Islands|Teams <br> Skype for Business <br> Teams <br> Skype for Business|Online <br> Online <br> On-prem <br> On-prem|&boxv;<br>&boxv;<br>&boxv;<br>&boxv;|Teams <br> Skype for Business <br> **Not Possible** <br> Skype for Business|
 |SfB\*|Skype for Business <br> Skype for Business|Online <br> On-prem|&boxv;<br>&boxv;|Skype for Business <br> Skype for Business|
-|TeamsOnly|Teams|Online|&boxv;|*Skype for Business*|
+|TeamsOnly|Teams|Online|&boxv;|Teams|
 |||||
 
 #### Table 2b: federated new chat or call routing to a recipient in an SfB\* mode
@@ -215,7 +210,7 @@ The table below describes the Publisher's presence that will be seen by a Watche
 |Watcher<br><br>Client|<br><br>Route-->|<br><br>Islands|Publisher<br><br>SfB\*|<br><br>Teams Only|
 |---|:---:|---|---|---|
 |Skype for Business|&boxv;|Skype for Business|Skype for Business|Teams|
-|Teams|&boxv;|Skype for Business|Skype for Business|Teams|
+|Teams|&boxv;|Teams|Skype for Business|Teams|
 ||||||
 
 ### Presence in pre-existing threads
