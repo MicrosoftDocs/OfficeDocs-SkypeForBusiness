@@ -52,8 +52,8 @@ Go to [Country and region availability for Audio Conferencing and Calling Plans]
     
 3. We also recommend that you assign Communications Credits licenses (they don’t cost anything) to the same people you assigned licenses to in the previous step. To learn how to set up Communications Credits, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).
     
-> [!NOTE]
-> You can also set up [pay-per-minute Audio Conferencing](audio-conferencing-pay-per-minute.md).
+   > [!NOTE]
+   > You can also set up [pay-per-minute Audio Conferencing](audio-conferencing-pay-per-minute.md).
 
 ## Step 3: Get service numbers for your conferencing bridges
 <a name="__top"> </a>
