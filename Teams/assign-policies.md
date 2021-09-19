@@ -460,7 +460,7 @@ When you assign the policy package, it's immediately assigned to the group. Howe
 3. Select the Group package assignment tab.
 4. Select **Add group**, and then in the Assign a policy package to group pane, do the following:
 
-    a. Search for and add the group you want to assign the policy package to.
+   - Search for and add the group you want to assign the policy package to.
 
 2. In the left navigation, go to the policy package page.
 
