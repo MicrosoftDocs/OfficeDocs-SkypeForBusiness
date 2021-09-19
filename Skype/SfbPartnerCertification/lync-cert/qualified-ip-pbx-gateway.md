@@ -133,7 +133,7 @@ We recommend that you visit the vendor's web site for the latest information abo
 			</td>
 		</tr>
 		<tr align="left" valign="top">
-			<td rowspan="2"><a href="https://www.ipecs.com/site/lgericsson/menu/157.do?scene=detail&amp;productNo=28">Ericsson-LG Enterprise</a></td>
+			<td rowspan="2"><a href=" https://ipecs.com/site/lgericsson/menu/">Ericsson-LG Enterprise</a></td>
 			<td>IPECS IP-PBX</td>
 			<td>IP-PBX</td>
 			<td>5.5Bd</td>

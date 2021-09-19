@@ -117,7 +117,7 @@ Listed in the table that follows are Wi-Fi infrastructure solutions that have be
 			<td>4.0.0.7 and higher</td>
 		</tr>
 		<tr align="left" valign="top">
-			<td rowspan="3"><a href="https://www.extremenetworks.com/product/microsoft-lync-solutions">Extreme Networks</a></td>
+			<td rowspan="3"><a href="https://www.extremenetworks.com/">Extreme Networks</a></td>
 			<td>IdentiFi Wireless Appliances and IdentiFi 802.11n</td>
 			<td>IdentiFi V2110 Virtual Controller on Vmware</td>
 			<td>9.01.01.0228</td>
