@@ -151,7 +151,7 @@ Package Name |Release Date|
 | Lync Connectivity Analyzer (64-bit) RETIRED |June 2017 |
 | Lync Server 2013 Best Practices Analyzer |October 2012 |
 |[Lync Server 2013 Capacity Calculator](https://www.microsoft.com/download/details.aspx?id=36828) |July 2013 |
-|[Lync Server 2013 Debugging Tools](https://www.microsoft.com/download/details.aspx?id=35453) |January 2014 |
+|Lync Server 2013 Debugging Tools |January 2014 |
 | Lync Server 2013 Management Pack |May 2016 |
 | Lync Server 2013 Persistent Chat Resource Kit |July 2013 |
 | Lync Server 2013 Planning Tool |July 2013 |
