@@ -32,7 +32,7 @@ An incoming call to a Cloud auto attendant can take one of several paths, as sho
 ![Diagram for auto attendants.](../../SfBServer2019/media/AA-plan-concept.png)
 
 1. Via Skype for Business Server 2019
-2. Via a [Session Border Controller](MicrosoftTeams/direct-routing-border-controllers) and [Direct Routing](/MicrosoftTeams/direct-routing-plan)
+2. Via a [Session Border Controller](MicrosoftTeams/direct-routing-border-controllers) and [Direct Routing](https://docs.microsoft.com/microsoftteams/direct-routing-plan-media-bypass.md)
 3. Via a number homed online in Microsoft 365 or Office 365.
 
 Also see:
