@@ -89,9 +89,9 @@ You can control whether Cortana in Teams is enabled for your device by using a s
 
 ### Microsoft Teams Rooms on Windows
 
-Making changes at the device level is available if Cortana is enabled at the tenant level. Cortana will be released OFF by default.
+Making changes at the device level is available if Cortana is enabled at the tenant level. Cortana wake word detection is turned OFF by default.
 
-To enable Cortana at the device level, these XML attributes must be added in the SkypeSettings XML file:
+To configure Cortana at the device level, these XML attributes must be added in the SkypeSettings XML file:
 
 ```xml
 <SkypeSettings>  
