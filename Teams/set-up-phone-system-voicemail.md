@@ -56,6 +56,7 @@ When someone leaves a voicemail message for a user in your organization, the voi
 
 For more information about message encryption, see [Email encryption](/microsoft-365/compliance/email-encryption?view=o365-worldwide).
 
+
 To set up protected voicemail, do the following:
 
 1. Go to https://admin.microsoft.com and sign in using an account with global administrator permissions.
@@ -69,6 +70,10 @@ To set up protected voicemail, do the following:
     > - [Set up new Message Encryption capabilities](/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
     > - [Configuring and managing templates for Azure Information Protection](/information-protection/deploy-use/configure-policy-templates)
     > - [Do Not Forward option for emails](/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)
+
+    > [!NOTE]
+    > For users, enterprises, and organizations that want the Voicemail form to appear, the following registry key needs to be set: 
+    > [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Outlook\Addins] "AllowVoicemailForm"=dword:00000001                           
 
 ## Help your users learn Teams voicemail features
 
