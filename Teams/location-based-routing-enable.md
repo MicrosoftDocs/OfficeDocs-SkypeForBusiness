@@ -123,11 +123,8 @@ To learn more, see [Calling policies in Teams](teams-calling-policy.md).
     The following table shows the sites enabled for Location-Based Routing in this example.
 
     |&nbsp;|Site 1 (Delhi)  |Site 2 (Hyderabad)  |
-
     |---------|---------|---------|
-
-|Site name    |Site 1 (Delhi)    |Site 2 (Hyderabad)
-   
+    |Site name    |Site 1 (Delhi)    |Site 2 (Hyderabad)|
     |EnableLocationBasedRouting    |True    |True    |
     |Subnets     |Subnet 1 (Delhi)     |Subnet 2 (Hyderabad)     |
 

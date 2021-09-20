@@ -47,7 +47,7 @@ Whereas the Audio Conferencing per-user license offer includes dial-in usage and
 - Outbound calls placed to external phone numbers from within a meeting of your organization.
     
 > [!NOTE]
-> You can find the dial-in and dial-out rates associated to these types of calls by reviewing the **See rates for where you want to call section** in [Audio Conferencing](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates).
+> You can find the dial-in and dial-out rates associated to these types of calls by reviewing the **Audio Conferencing rates** section in [Audio Conferencing](https://www.microsoft.com/microsoft-teams/audio-conferencing).
   
   
 Pay-per-minute requires your organization to have [Communications Credits](what-are-communications-credits.md) set up. If you want more details, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md) and/or [Microsoft Teams add-on licensing](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
