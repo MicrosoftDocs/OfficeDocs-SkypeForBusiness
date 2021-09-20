@@ -48,7 +48,7 @@ To deploy the Approvals app, you need permission for the following items:
 
 - Administrator Role in the target environment.
 
-- License for a [Power Automate](/power-automate/get-started-approvals), an Office 365, or a Dynamics 365.
+- License for [Power Automate](/power-automate/get-started-approvals), Office 365, or Dynamics 365.
 
 - License for Microsoft Forms is required for users to set up new approval templates.
 
