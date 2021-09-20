@@ -18,7 +18,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Broadcast meeting content
+# Broadcast meeting content - **REVIEW**
 
 Teams provides two options for broadcasting Teams meeting content: NewTek NDI® (Network Device Interface) and SDI (serial digital interface):
 
