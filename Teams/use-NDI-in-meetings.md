@@ -1,5 +1,5 @@
 ---
-title: Use NDI in Microsoft Teams
+title: Broadcast meeting content
 author: CarolynRowe
 ms.author: crowe
 ms.reviewer: aaglick
@@ -18,7 +18,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Use NDI® and SDI technology in Microsoft Teams
+# Use NDI® and SDI technology to broadcast meeting content
 
 Teams provides two options for broadcasting Teams meeting content, NewTek NDI® (Network Device Interface) and SDI (serial digital interface):
 
@@ -30,10 +30,11 @@ Teams provides two options for broadcasting Teams meeting content, NewTek NDI® 
   NDI® technology is limited to a local network and should only be considered a part of the production workflow, not a broadcast solution.
 
 - SDI has been used in broadcast productions since 1989 and is supported on most legacy studio hardware devices. Hardware devices from AJA Video Systems and Blackmagic Design  provide connectivity to legacy broadcast devices that use SDI.
+**SHOULD WE MENTION AJA and Blackmagic**?
 
 NDI® and SDI technology is supported in all locales.
 
-Access to using NDI and SDI is determined by the meeting policy for the user attempting to activate the feature. For the most secure solution, do not turn on the local streaming parameter as a global setting.
+Access to using NDI and SDI is determined by the meeting policy for the user attempting to activate the feature. For the most secure solution, do not turn on local streaming parameter as a global setting.
 
 
 ## Enable broadcast features
@@ -55,7 +56,7 @@ To use PowerShell, use the Set-CsTeamsMeetingPolicy cmdlet as follows:
 Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowLocalStreaming $true
 ```
 
-After this change has populated, the end user must turn on local streaming for their specific client from **Settings** > **Permissions**.  For more information, see ...  LINK TO END USER CONTENT.
+After this change has populated, the end user must turn on local streaming for their specific client from **Settings** > **Permissions**.  For more information, see [Broadcasting audio and video from Teams](https://support.microsoft.com/office/broadcasting-audio-and-video-from-teams-with-ndi-technology-e91a0adb-96b9-4dca-a2cd-07181276afa3).
 
 
 
