@@ -51,10 +51,23 @@ Ctrl + Alt + Shift + 1
 Mac:
 Option + Command + Shift + 1
 
+
 Media logging is turned off by default. To enable Media logging, users must turn on the option in the Teams client. Go to **Settings** > **General**, and select **Enable logging for meeting diagnostics (requires restarting Teams)**. The Teams client must be restarted for logging to begin.
+
+If a problem occurs with a specific meeting or live event, it's helpful to have the URL associated with the meeting. This provides additional information to help pinpoint the exact meeting or live event in the logs. This information can be collected from any participant for a meeting or from presenter or producer for a live event. This URL can be captured by hovering over the join URL and choosing **Copy Hyperlink**.
 
 > [!NOTE]
 > If Media logging is enabled, there will be additional files included in the Meeting folder which are necessary for investigating audio and video issues. If Media logging is not enabled, there will be a limited number of logs available.
+  
+> [!NOTE]
+> The debug logs were previously collecting using the keyboard shortcuts below. These still function and will complete the same log capture as the **Collect support files** option.
+
+> Windows:
+> Crtl + Alt + Shift + 1
+
+> Mac:
+> Option + Command + Shift + 1
+
 
 The following table outlines the various clients and their associated logs. Log files are stored in locations specific to the client and operating system.
 
