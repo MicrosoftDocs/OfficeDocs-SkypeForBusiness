@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Learn how to use NDI in Microsoft Teams.
+description: Learn how to use NDI and SDI to broadcast meeting content in Microsoft Teams.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -18,9 +18,9 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Use NDI® and SDI technology to broadcast meeting content
+# Broadcast meeting content
 
-Teams provides two options for broadcasting Teams meeting content, NewTek NDI® (Network Device Interface) and SDI (serial digital interface):
+Teams provides two options for broadcasting Teams meeting content: NewTek NDI® (Network Device Interface) and SDI (serial digital interface):
 
 - NewTek NDI® (Network Device Interface) technology is a modern solution for connecting media devices (such as a studio camera and mixer). Instead of using physical connections, NDI® technology enables connectivity over a local intranet, including on a local machine.
 
