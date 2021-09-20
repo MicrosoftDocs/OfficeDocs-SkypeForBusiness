@@ -138,7 +138,7 @@ The files will be available in ~/.config/Microsoft/Microsoft Teams/logs.txt.
   
 To collect logs for Windows:
 Click on the Microsoft Teams icon in your system tray, and select **Get Logs**.
-The files will be available in %userprofile%\Downloads\logs.txt.    
+The logs.txt file will be opened in Notepad automatically.    
 
 ## Browser trace
 
