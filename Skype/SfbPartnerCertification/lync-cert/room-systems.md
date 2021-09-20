@@ -91,7 +91,7 @@ Lync Room Systems are designed to extend the Lync meeting experience to the conf
 		</tr>
 		<tr align="left" valign="top">
 			<td>SMART Technologies</td>
-			<td><a href="http://smarttech.com/us/Solutions/Business+Solutions/Solutions+for+Microsoft+Lync" onclick="window.open(this.href);return false;" onkeypress="window.open(this.href);return false;" title="SMART Room System">SMART Room System</a></td>
+			<td><a href="https://www.unifiedcommunications.com/p-4863-smart-technologies-srs-lync-m-smart-room-system-for-microsoft-lync.aspx" onclick="window.open(this.href);return false;" onkeypress="window.open(this.href);return false;" title="SMART Room System">SMART Room System</a></td>
 			<td>SMART Room System for Large  (SRS-Lync-L), or Small  (SRS-Lync-S) Meeting Rooms</td>
 			<td>August 2013</td>
 			<td>SMART CP311 Console<br /> SMART AM70-L Lync appliance<br /> SMART CAM301 Camera<br /> SMART MIC500 Table Microphone<br /> SMART CSR500 Speakers<br /> SMART WM-SBID-501 Wall Mount<br /> SMART WSK-SINGLE Wall Stand<br /> SMART Board 8070i interactive flat panel - Large 70 inch Dual Display or Small 70 inch Single Display</td>

@@ -40,7 +40,7 @@ Survivable branch appliances (SBAs) listed in the table that follows, along with
 		<td><strong>Qualified Firmware</strong></td>
 	</tr>
 	<tr align="left" valign="top">
-		<td><a href="https://www.audiocodes.com/SBA">Audiocodes</a></td>
+		<td><a href="https://www.audiocodes.com/">Audiocodes</a></td>
 		<td>Mediant 800/1000/2000 SBA</td>
 		<td>SBA 1.1.11.40 / GW 6.60A.022.003</td>
 	</tr>
@@ -50,7 +50,7 @@ Survivable branch appliances (SBAs) listed in the table that follows, along with
 		<td>HP MSR OAP SBA Version 1.0.2217.0<br />HP MSR OAP SBA Version 2.0</td>
 	</tr>
 	<tr align="left" valign="top">
-		<td><a href="http://www.ferrari-electronic.com/en/products/uc-hardware/survivable-branch-appliance.html">Ferrari electronic</a></td>
+		<td><a href="https://www.f5.com/partners/technology-alliances/microsoft">Ferrari electronic</a></td>
 		<td>OfficeMaster SBA</td>
 		<td>SBA 2.0.4 / GW 4.0-1</td>
 	</tr>
@@ -118,7 +118,7 @@ Survivable branch appliances (SBAs) listed in the table that follows, along with
 		<td>3.3</td>
 	</tr>
 	<tr align="left" valign="top">
-		<td rowspan="2"><a href="http://h17007.www1.hp.com/us/en/networking/index.aspx#.U6LBUHlOVaQ">HP</a></td>
+		<td rowspan="2"><a href="https://www.extremenetworks.com/">HP</a></td>
 		<td>HP MSR Small Survivable Branch Communication MIM Module powered by Microsoft Lync (JG587A)<br />HP MSR Medium Survivable Branch Communication MIM Module powered by Microsoft Lync (JG588A)<br />HP MSR Large Survivable Branch Communication FIC Module powered by Microsoft Lync (JG589A)</td>
 		<td>HP MSR OAP SBA Version 1.0.2217.0</td>
 	</tr>

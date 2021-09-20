@@ -105,7 +105,7 @@ For more information about these products, contact the listed partner.
 		<td>4.0.0.7 and higher</td>
 	</tr>
 	<tr align="left" bgcolor="#F8F8F8" valign="top">
-		<td rowspan="2"><a href="https://www.extremenetworks.com/product/microsoft-lync-solutions">Extreme Networks</a></td>
+		<td rowspan="2"><a href="https://www.extremenetworks.com/">Extreme Networks</a></td>
 		<td>IdentiFi Wireless Appliances and IdentiFi 802.11n Access Points</td>
 		<td>IdentiFi V2110 Virtual Controller on VMware</td>
 		<td>9.01.01.0228</td>
@@ -148,13 +148,13 @@ For more information about these products, contact the listed partner.
 		<td>WiNG 5.5.0.0</td>
 	</tr>
 	<tr align="left" valign="top">
-		<td><a href="http://a030f85c1e25003d7609-b98377aee968aad08453374eb1df3398.r40.cf2.rackcdn.com/other/bpcg-lync-ruckus.pdf">Ruckus</a></td>
+		<td><a href="https://www.commscope.com/ruckus">Ruckus</a></td>
 		<td>ZoneFlex R500, R600, T300 802.11ac Access Points</td>
 		<td>Zone Director 1200, 3000, 5000</td>
 		<td>9.9.0/0 build 118</td>
 	</tr>
 	<tr align="left" bgcolor="#F8F8F8" valign="top">
-		<td><a href="http://a030f85c1e25003d7609-b98377aee968aad08453374eb1df3398.r40.cf2.rackcdn.com/other/bpcg-lync-ruckus.pdf">Ruckus Wireless</a></td>
+		<td><a href="https://www.commscope.com/ruckus">Ruckus</a></td>
 		<td>Ruckus Wireless LAN Controllers and 802.11n Access Points</td>
 		<td>SCG-200</td>
 		<td>SCG 2.5</td>
@@ -181,7 +181,7 @@ For more information about these products, contact the listed partner.
 		<td>Brocade MLX, SX, ICX, VDX, 5120</td>
 	</tr>
 	<tr align="left" bgcolor="#F8F8F8" valign="top">
-		<td rowspan="2"><a href="https://www.dell.com/learn/us/en/04/campaigns/networking?c=us%26l=en%26s=bsd">Dell, Inc.</a></td>
+		<td rowspan="2"><a href="https://www.dell.com/">Dell, Inc.</a></td>
 		<td>
 			<p>Dell Networking OS9.5 and higher with Dell Networking Switch Models:</p>
 			<p>S4810, S6000, S5000, S4820T, Z9500, Z9000, M I/0 aggregator, MXL 10/40 GbE</p>
@@ -194,7 +194,7 @@ For more information about these products, contact the listed partner.
 		</td>
 	</tr>
 	<tr align="left" valign="top">
-		<td><a href="https://www.extremenetworks.com/partners/tsp/convergence/microsoft-lync">Extreme Networks</a></td>
+		<td><a href="https://www.extremenetworks.com/">Extreme Networks</a></td>
 		<td>ExtremeXOS 15.3.14</td>
 	</tr>
 	<tr align="left" bgcolor="#F8F8F8" valign="top">
