@@ -38,7 +38,7 @@ For more information about admin roles in Teams, see [Use Teams administrator ro
 
 You can manage any device that's certified for, and enrolled in, Teams. A device is automatically enrolled the first time a user signs in to Teams on the device. For a list of certified devices that can be managed, see:
 
-- [Collaboration bars](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices/devices/category?devicetype=16)
+- [Collaboration bars](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20?rtc=1)
 - [Conference phones](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=73)
 - [Desk phones](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=34)
 - [Microsoft Teams Rooms](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices/devices/category?devicetype=20)
