@@ -55,7 +55,7 @@ Permission to publish depends on whether a user is a member of any teams in the 
 
 ### Guidelines
 
-* There can only be one hierarchy file applied per organization. However, you can include different parts of your organization together as distinct hierarchies of nodes within one file. For example, Contoso Pharmaceuticals has a Pharmacy root node and a Retail root node. Both root nodes have multiple rows of descendants and there's no overlap between them.
+* There can only be one hierarchy file applied per organization. However, you can include different parts of your organization together as distinct hierarchies of nodes within one file. For example, Contoso Pharmaceuticals has a Pharmacy parent node and a Retail parent node. Both parent nodes have multiple rows of descendants and there's no overlap between them.
 * Only leaf nodes can be recipients of a publication. Other nodes in the hierarchy are helpful for selecting recipients of a publication.
 * A team can only be represented one time in a hierarchy.
 * A hierarchy can contain up to 15,000 nodes. We plan to work with customers to raise this limit for larger organizations.
@@ -82,7 +82,7 @@ The CSV file must contain the following three columns, in the following order, s
 | Column name   | Required | Description   |
 ----------------|----------|---------------|
 | DisplayName    | Yes      | This field is the name of the node. The name can be up to 100 characters long and contain only the characters A-Z, a-z, and 0-9. Node names must be unique. |
-| ParentName    | Yes       | This is the name of the parent node. The value you specify here must match the value in the **DisplayName** field of the parent node exactly. If you want to add more than one parent node, separate each parent node name with a semicolon (;). You can add up to 25 parent nodes, and each parent node name can be up to 2500 characters long. A node can have multiple parent nodes only if the parent nodes are root nodes.   <br><br>**IMPORTANT** Be careful not to create a loop where a parent higher up in the hierarchy references a child node lower in the hierarchy. This isn't supported. |
+| ParentName    | Yes       | This is the name of the parent node. The value you specify here must match the value in the **DisplayName** field of the parent node exactly. If you want to add more than one parent node, separate each parent node name with a semicolon (;). You can add up to 25 parent nodes, and each parent node name can be up to 2500 characters long. A node can have multiple parent nodes.   <br><br>**IMPORTANT** Be careful not to create a loop where a parent higher up in the hierarchy references a child node lower in the hierarchy. This isn't supported. |
 | TeamId        | Yes, if the team publishes tasks or receives tasks from a parent node       | This contains the ID of the team you want to link a node to. Each node must refer to a unique team, so each TeamId value may appear only once in the hierarchy file. To get the ID of a team you want to link a node to, run the following PowerShell command: `Get-Team | Export-Csv TeamList.csv`. This command lists the teams in your organization and includes the name and ID for each team. Find the name of the team you want to link to, and then copy the ID into this field.|
 
 > [!NOTE]
