@@ -72,7 +72,7 @@ To set up protected voicemail, do the following:
     > - [Do Not Forward option for emails](/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)
 
     > [!NOTE]
-    > For users, enterprises, and organizations that want the Voicemail form to appear, the following registry key needs to be set: 
+    > You need to set the following registry key for users, enterprises, and organizations that want the Voicemail form to appear: 
     > [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Outlook\Addins] "AllowVoicemailForm"=dword:00000001                           
 
 ## Help your users learn Teams voicemail features
