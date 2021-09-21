@@ -18,6 +18,8 @@ appliesto:
   - Microsoft Teams
 ---
 
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
+
 # deploying the parents app in Microsoft Teams
 
 Enabling the parents app in Microsoft Teams is a straightforward process for admins, delivering a secure method for educators to communicate to students and their contacts that remains in-tenant, and which will scale across your educator organization.
