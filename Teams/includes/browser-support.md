@@ -16,7 +16,7 @@ Teams fully supports the following Internet browsers, with noted exceptions for 
 
 <sup>2</sup> Blur my background isn't available when you run Teams in a browser. This feature is only available in the Teams desktop client.
 
-<sup>3</sup> Teams meetings on browsers are limited to a single incoming video feed of active speaker.
+<sup>3</sup> Teams meetings on browsers are limited to a single stream. Either incoming video feed of active speaker or Screen Sharing.
 
 <sup>4</sup> Edge RS2 or later doesn't support sending real-time audio and video traffic through HTTP proxies.
 
