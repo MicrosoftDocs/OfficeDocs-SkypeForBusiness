@@ -145,7 +145,7 @@ For meetings that need the highest-quality video experience, such as CEO board m
 
 This is a per-user policy. This setting controls whether users can customize their video background in a meeting.
 
-You can use both Teams Admin Center and PowerShell to set this policy. You can edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet, and then assign the policy to users.
+You can use both Teams admin center and PowerShell to set this policy. You can edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet, and then assign the policy to users.
 
 To specify whether users can customize their video background in a meeting, set the **VideoFiltersMode** parameter (**Select video filters** setting in Teams Admin Center) as follows:
 
