@@ -28,7 +28,7 @@ Enabling the parents app in Microsoft Teams is a straightforward process for adm
 ## Requirements
 
 - SDS (School data sync) - You'll need to upload related contacts associated with your students into SDS using the CSV option. Check out [Configure CSV for SDS](/schooldatasync/set-up-your-sds-flow) and [Update relatedContacts](/graph/api/relatedcontact-update) for more information.
-- In Teams admin center, the Class Owner must have **Chat** enabled, and **Federated chat** with **Teams accounts not management by an organization**
+- In Teams admin center, the Class Owner must have **Chat** enabled, and **Federated chat** with **Teams accounts not management by an organization**.
 
 If you need to enable federated chat on a per-user basis, the steps are below.
 
