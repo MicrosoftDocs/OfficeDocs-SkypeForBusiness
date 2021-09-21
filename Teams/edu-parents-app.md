@@ -36,36 +36,36 @@ If you need to enable federated chat on a per-user basis, the steps are below.
 
 1. Install the latest Microsoft Teams PowerShell module preview
 
-```powershell
-Install-Module -Name PowerShellGet -Force -AllowClobber
-Install-Module -Name MicrosoftTeams -AllowPrerelease -Force -AllowClobber
-```
-
+    ```powershell
+    Install-Module -Name PowerShellGet -Force -AllowClobber
+    Install-Module -Name MicrosoftTeams -AllowPrerelease -Force -AllowClobber
+    ```
+    
 2. Run in a command window using credentials that have admin privileges
 
-```powershell
-$credential = Get-Credential
-Connect-MicrosoftTeams -Credential $credential
-```
-
+    ```powershell
+    $credential = Get-Credential
+    Connect-MicrosoftTeams -Credential $credential
+    ```
+    
 3. Turn off and on at the global group/user level configuration or tenant level configuration
 
-```powershell
-#Retrieves tenant level configuration
-Get-CsTenantFederationConfiguration
-#Turn OFF tenant level configuration
-Set-CsTenantFederationConfiguration -AllowTeamsConsumer $false
-#Turn ON tenant level configuration
-Set-CsTenantFederationConfiguration -AllowTeamsConsumer $true
-#Turn OFF Global GROUP/USER level configuration
-Set-CsExternalAccessPolicy -EnableTeamsConsumerAccess $false
-#Turn ON Global GROUP/USER level configuration
-Set-CsExternalAccessPolicy -EnableTeamsConsumerAccess $false
-```
-
-> [!NOTE]
-> When running this PowerShell, changes can take an hour or more to complete.
-
+    ```powershell
+    #Retrieves tenant level configuration
+    Get-CsTenantFederationConfiguration
+    #Turn OFF tenant level configuration
+    Set-CsTenantFederationConfiguration -AllowTeamsConsumer $false
+    #Turn ON tenant level configuration
+    Set-CsTenantFederationConfiguration -AllowTeamsConsumer $true
+    #Turn OFF Global GROUP/USER level configuration
+    Set-CsExternalAccessPolicy -EnableTeamsConsumerAccess $false
+    #Turn ON Global GROUP/USER level configuration
+    Set-CsExternalAccessPolicy -EnableTeamsConsumerAccess $false
+    ```
+        
+    > [!NOTE]
+    > When running this PowerShell, changes can take an hour or more to complete.
+    
 ## More information
 
 - [CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy)
