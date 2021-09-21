@@ -20,8 +20,8 @@ appliesto:
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-# deploying the parents app in Microsoft Teams
-
+# Deploying the parents app in Microsoft Teams
+S
 Enabling the parents app in Microsoft Teams is a straightforward process for admins, delivering a secure method for educators to communicate to students and their contacts that remains in-tenant, and which will scale across your educator organization.
 
 ## Requirements
@@ -67,5 +67,5 @@ Set-CsExternalAccessPolicy -EnableTeamsConsumerAccess $false
 
 ## More information
 
-[CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy)
-[Assigning your policy to a user](/powershell/module/skype/grant-csexternalaccesspolicy)
+- [CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy)
+- [Assigning your policy to a user](/powershell/module/skype/grant-csexternalaccesspolicy)
