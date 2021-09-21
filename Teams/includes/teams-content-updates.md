@@ -2,6 +2,7 @@
 
 
 
+<<<<<<< Updated upstream
 ## Week of May 10, 2021
 
 
@@ -227,6 +228,9 @@
 
 
 ## Week of April 12, 2021
+=======
+## Week of September 06, 2021
+>>>>>>> Stashed changes
 
 
 | Published On |Topic title | Change |
