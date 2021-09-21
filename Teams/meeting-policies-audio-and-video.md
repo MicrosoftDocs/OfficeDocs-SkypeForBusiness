@@ -149,7 +149,7 @@ You can use both Teams Admin Center and PowerShell to set this policy. You can e
 
 To specify whether users can customize their video background in a meeting, set the **VideoFiltersMode** parameter (**Select video filters** setting in Teams Admin Center) as follows:
 
-|Setting value in PowerShell|Setting value in Teams Admin Center |Behavior  |
+|Setting value in PowerShell|Setting value in Teams admin center |Behavior  |
 |---------|---------|---------|
 |**NoFilters** |**No filter**    |User can't customize their video background.|
 |**BlurOnly**     |**Background blur only**|User has the option to blur their video background. |
