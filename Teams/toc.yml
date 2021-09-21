@@ -769,6 +769,8 @@ items:
       items: 
         - name: Overview
           href: rooms/index.md
+        - name: Meeting room guidance for Teams
+          href: teams-meeting-room-guidance.md
         - name: Microsoft Teams Rooms managed service
           items: 
             - name: Plan management
@@ -1641,8 +1643,6 @@ items:
           href: sharepoint-onedrive-interact.md
     - name: Teams devices for Education
       href: devices-for-education.md
-    - name: Meeting room guidance for Teams
-      href: teams-meeting-room-guidance.md
     - name: Supported devices
       items: 
         - name: Manage your devices in Teams
