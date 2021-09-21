@@ -154,7 +154,7 @@ To specify whether users can customize their video background in a meeting, set 
 |**NoFilters** |**No filter**    |User can't customize their video background.|
 |**BlurOnly**     |**Background blur only**|User has the option to blur their video background. |
 |**BlurandDefaultBackgrounds**|**Background blur and default images**     |User has the option to blur their video background or choose from the default set of images to use as their background. |
-|**AllFilters**|**All filters**     |Use has the option to blur their video background, choose from the default set of images, or upload custom images to use as their background. |
+|**AllFilters**|**All filters**     |User has the option to blur their video background, choose from the default set of images, or upload custom images to use as their background. |
 
 > [!NOTE]
 > Images uploaded by users aren't screened by Teams. When you use the **AllFilters** setting, you should have internal organization policies to prevent users from uploading offensive or inappropriate images, or images your organization don't have rights to use for Teams meeting backgrounds.
