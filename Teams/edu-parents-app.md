@@ -9,6 +9,7 @@ audience: admin
 ms.reviewer: 
 description: Microsoft Teams for EDU article document prerequisites and PowerShell set-up for the Parents app.
 ms.localizationpriority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
 search.appverid: MET150
 f1.keywords:
 - NOCSH
