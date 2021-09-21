@@ -62,3 +62,8 @@ Set-CsExternalAccessPolicy -EnableTeamsConsumerAccess $false
 
 > [!NOTE]
 > When running this PowerShell, changes can take an hour or more to complete.
+
+## More information
+
+[CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy)
+[Assigning your policy to a user](/powershell/module/skype/grant-csexternalaccesspolicy)
