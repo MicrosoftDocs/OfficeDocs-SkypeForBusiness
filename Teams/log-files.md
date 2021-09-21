@@ -43,8 +43,7 @@ Right-click on the Teams icon in the system tray and choose **Collect support fi
 Mac:
 Select the Help menu and choose **Collect support files**.
 
-
-Debug, Desktop, and Media logs will be collected in one folder with the name MSTeams Diagnostics Log <local data and time>. This folder can be compressed and shared when you open a support request with Microsoft Support. The folder will contain folders for Desktop, Meeting (Media), and Debug (web). You can collect the files using the following keyboard shortcuts:
+Debug, Desktop, and Media logs will be collected in one folder with the name _MSTeams Diagnostics Log \<local data and time\>_. This folder can be compressed and shared when you open a support request with Microsoft Support. The folder will contain folders for Desktop, Meeting (Media), and Debug (web). You can collect the files using the following keyboard shortcuts:
 
 Windows:
 Ctrl + Alt + Shift + 1
