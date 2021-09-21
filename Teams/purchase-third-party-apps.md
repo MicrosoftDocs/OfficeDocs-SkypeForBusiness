@@ -58,7 +58,7 @@ Select **Manage licenses** to go to the Microsoft 365 admin center to view and m
 Global admins can add more licenses, remove licenses, and cancel subscriptions for purchases made by anyone in the organization. Teams service admins can perform the same actions for purchases made by themselves. However, if a Teams service admin also has the Billing admin role, they can manage purchases made by anyone in the organization.
 
 > [!NOTE]
-> If a global admin wants to manage a subscription purchased by another global admin, they need to be in the same billing account.
+> If a global admin wants to manage a subscription purchased by another global admin, they need to be in the same billing account. You can give another global admin access to a subscription you purchased by selecting the app in the Microsoft 365 admin center. From there, go to **View billing profile** > **Select billing account** > **Assign roles** > **Add other global admins**.
 
 ## Have a SaaS offer for a Teams app that you want to list and sell in the Microsoft Teams admin center and AppSource?
 
