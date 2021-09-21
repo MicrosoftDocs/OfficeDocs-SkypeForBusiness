@@ -1,5 +1,5 @@
 ---
-title: ITAdmins set-up for the EDU Microsoft Parents app
+title: Admin set-up for the EDU Microsoft Parents app
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -34,14 +34,14 @@ If you need to enable federated chat on a per-user basis, the steps are below.
 
 ## Enabling federated chat on a per-user basis
 
-1. Install latest MicrosoftTeams powershell module preview
+1. Install the latest Microsoft Teams PowerShell module preview
 
 ```powershell
 Install-Module -Name PowerShellGet -Force -AllowClobber
 Install-Module -Name MicrosoftTeams -AllowPrerelease -Force -AllowClobber
 ```
 
-2. Run in powershell window using credentials that have admin privileges
+2. Run in a command window using credentials that have admin privileges
 
 ```powershell
 $credential = Get-Credential
