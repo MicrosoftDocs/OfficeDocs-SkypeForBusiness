@@ -30,7 +30,7 @@ Teams provides two options for broadcasting Teams meeting content: NewTek NDI® 
 
 NDI® and SDI technology is supported in all locales.
 
-Access to using NDI and SDI is determined by the meeting policy for the user attempting to activate the feature. For the most secure solution, do not turn on local streaming parameter as a global setting.
+Access to using NDI and SDI is determined by the meeting policy for the user attempting to activate the feature. For the most secure solution, do not turn on the local streaming parameter as a global setting.
 
 
 ## Enable broadcast features
