@@ -94,21 +94,21 @@ No, playback doesn't impact the expiration date.
 
 ### How can an Admin change the default expiration date in their tenant?
 
-Admins can edit the default expiration setting in PowerShell or their Teams policy console. That change will affect only newly created TMRs from that point forward. It won't impact any recordings created before that date.
-
-Admins can't change the expiration date on existing TMRs. This is done to protect the decision of the user that owns the TMR.
-
-Example PowerShell command:
-
-`PowerShellCopy`
-
-`Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50`
+Admins can edit the default expiration setting in PowerShell or the Teams admin center. That change will affect only newly created TMRs from that point forward. It won't impact any recordings created before that date. Admins can't change the expiration date on existing TMRs. This is done to protect the decision of the user that owns the TMR.
 
 The expiration date value can be set as follows:
 
 - Minimum value: **1 day**
-- Maximum value: **9,999 days**
+- Maximum value: **99,999 days**
 - You can also set the expiration date to **-1** so the recordings never expire.
+
+Example PowerShell command:
+
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
+```
+
+You can set the expiration date in the Teams admin center under **Meeting policies.** After you turn on **Allow meeting recordings to expire,** you'll get the option to set a recording expiration.
 
 ### What is the scope of control for the admin policy?
 
