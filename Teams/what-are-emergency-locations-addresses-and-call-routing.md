@@ -46,7 +46,7 @@ This article describes concepts you'll need to know to manage emergency calling&
 - **Registered address** - **An emergency address that is assigned to each user; it is sometimes referred to as a static emergency address or address of record.**  **TRUE FOR ALL?** 
 
 >[!Note]
->There are some differences in how you manage emergency calling depending on whether you are using Phone System Calling Plans or Phone System Direct Routing for your PSTN connectivity. These considerations are described throughout this article.
+>There are some differences in how you manage emergency calling depending on whether you are using **Microsoft Calling Plans, Operator Connect, or Direct Routing** for your PSTN connectivity. These considerations are described throughout this article.
 
 ## Emergency address validation
 

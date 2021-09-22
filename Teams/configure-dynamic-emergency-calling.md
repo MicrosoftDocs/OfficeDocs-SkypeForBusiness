@@ -22,9 +22,13 @@ appliesto:
 
 # Plan and configure dynamic emergency calling 
 
-Dynamic emergency calling for Microsoft Calling Plans and Phone System Direct Routing provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client.  
+Dynamic emergency calling for **Microsoft Calling Plans and Direct Routing** provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client.  
+
+**WHAT DO WE SAY ABOUT OC HERE? PROVIDED BY OPERATOR??**
 
 Based on the network topology that the tenant administrator defines, the Teams client provides network connectivity information in a request to the Location Information Service (LIS). If there's a match, the LIS returns a location to the client. This location data is transmitted back to the client.  
+
+**Order of preference that client obtains a location is LIS, Client/End User saved, Static.**
 
 The Teams client includes location data as part of an emergency call. This data is then used by the emergency service provider to determine the appropriate Public Safety Answering Point (PSAP) and to route the call to that PSAP, which allows the PSAP dispatcher to obtain the caller's location.  
 
