@@ -36,7 +36,7 @@ For dynamic emergency calling, the following must occur:
 
 1. The network administrator configures network settings and the LIS to create a network/emergency location map.
 
-   For Direct Routing, additional configuration is required for routing emergency calls and possibly for partner connectivity. The administrator must configure connection to an Emergency Routing Service (ERS) provider (United States) **OR** configure the Session Border Controller (SBC) for an Emergency Location Identification Number (ELIN) application.
+   For Direct Routing, additional configuration is required for routing emergency calls and possibly for partner connectivity. The administrator must configure connection to an Emergency Routing Service (ERS) provider (United States) **OR** configure the Session Border Controller (SBC) for an Emergency Location Identification Number (ELIN) application. **For information about ERS providers, see [Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).**
 
 2. During startup and periodically afterwards, or when a network connection is changed, the Teams client sends a location request that contains its network connectivity information to the network settings and the LIS.
 
@@ -99,6 +99,8 @@ The following clients are currently supported.  Check back often to see updates 
 
 You can assign emergency addresses to both Calling Plan users and to the network identifiers that are required for dynamically obtaining a location. (Subnet and WiFi AP are supported. Ethernet switch/port is supported on Windows 8.1 and later at this time).
 
+**You can assign emergency addresses to Operator Connect users depending upon the setting on the number from the carrier.**
+
 To support automated routing of emergency calls within the United States, you must ensure that the emergency locations that are assigned to network identifiers include the associated geo codes. (Emergency addresses without geo codes can't be assigned to the network identifiers that are required for dynamic locations.)
 
 Azure Maps is used for location-based services.  When you enter an emergency address by using the Microsoft Teams admin center, Teams checks Azure Maps for the address:
@@ -137,7 +139,7 @@ You configure network settings in the Microsoft Teams admin center or by using P
 
 Note that it can take some time (up to a couple of hours) for some changes to network settings (such as a new address, network identifier, and so on) to propagate and be available to Teams clients.  
 
-**For Calling Plan users:**
+**For Calling Plan and Operator Connect users:**
 
 - If dynamic configuration of security desk notification is required, you must configure both trusted IP addresses and network sites.
 
@@ -184,7 +186,7 @@ Use the following policies to configure emergency calling. You can manage these 
 
 - **Emergency call routing policy** – Applies only to Direct Routing. This policy configures the emergency numbers, masks per number if desired, and the PSTN route per number.  You can assign this policy to users, to network sites, or to both. (Calling Plans Teams clients are automatically enabled for emergency calling with the emergency numbers from the country based upon their Microsoft 365 or Office 365 usage location.)  To  learn more, see [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md).
 
-- **Emergency calling policy** - Applies to Calling Plans and Direct Routing. This policy configures the security desk notification experience when an emergency call is made. You can set who to notify and how they are notified. For example, to automatically notify your organization's security desk and have them listen in on emergency calls.  This policy can either be assigned to users or network sites or both. To learn more, see [Manage emergency calling policies in Teams](manage-emergency-calling-policies.md).
+- **Emergency calling policy** - Applies to Calling Plans, **Operator Connect**, and Direct Routing. This policy configures the security desk notification experience when an emergency call is made. You can set who to notify and how they are notified. For example, to automatically notify your organization's security desk and have them listen in on emergency calls.  This policy can either be assigned to users or network sites or both. To learn more, see [Manage emergency calling policies in Teams](manage-emergency-calling-policies.md).
 
 ## Enable users and sites
 
@@ -227,7 +229,7 @@ If you assigned an emergency calling policy to a network site and to a user, and
 
 Some Emergency Routing Service Providers (ERSPs) in the United States offer an emergency calling test bot.
 
-- **Calling Plan users in the United States** can use the predefined test emergency number 933 to validate their emergency calling configuration. This number is routed to a bot, which then echoes back the caller phone number (calling line ID), emergency address or location, and whether the call would be automatically routed to the PSAP or screened first.
+- **Calling Plan and Operator Connect users in the United States or Canada** can use the predefined test emergency number 933 to validate their emergency calling configuration. This number is routed to a bot, which then echoes back the caller phone number (calling line ID), emergency address or location, and whether the call would be automatically routed to the PSAP or screened first.
 
 - **Direct Routing customers in the United States** should coordinate with their ERSP for a test service.
 
