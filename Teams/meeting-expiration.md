@@ -74,11 +74,11 @@ If you want people to access meetings that were previously scheduled or started 
 
 ### What is the change?
 
-We are introducing a default 30-day expiration setting for *all* newly created Teams meeting recordings (TMRs). This is on by default for all tenants. This means that by default, all TMRs created after we enable this feature will be deleted 30 days after their creation date. If admins want meeting recordings to expire sooner or later than the default, they can modify the expiration setting. The OneDrive and SharePoint system will monitor the expiration date set on all TMRs and will automatically move TMRs to the recycle bin on their expiration date.
+We are introducing a default 60-day expiration setting for *all* newly created Teams meeting recordings (TMRs). This is on by default for all tenants. This means that by default, all TMRs created after we enable this feature will be deleted 60 days after their creation date. If admins want meeting recordings to expire sooner or later than the default, they can modify the expiration setting. The OneDrive and SharePoint system will monitor the expiration date set on all TMRs and will automatically move TMRs to the recycle bin on their expiration date.
 
 ### Why are we introducing this change?
 
-We've answered your requests for the meeting recording expiration feature. This is a lightweight housekeeping mechanism to reduce storage clutter created by older TMRs. On average, across all customers, 99% of TMRs aren't watched after 30 days.
+We've answered your requests for the meeting recording expiration feature. This is a lightweight housekeeping mechanism to reduce storage clutter created by older TMRs. On average, across all customers, 99% of TMRs aren't watched after 60 days.
 
 ### Why is this being turned on by default?
 
@@ -158,7 +158,7 @@ On the expiration date, the TMR is moved into the OneDrive or SharePoint recycle
 ### What SKUs are required for this feature?
 
 - All SKUs will have this feature by default.
-- A1 users will be defaulted to a 30-day expiration period and won't be able to modify the expiration date.
+- A1 users will be defaulted to a 30-day expiration period, but they can change the expiration date as needed.
 
 ### Is the file expiration an audited event and will I be able to see it in my audit logs?
 
