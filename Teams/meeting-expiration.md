@@ -92,7 +92,7 @@ The expiration date is calculated as the day it's created plus the default numbe
 
 No, playback doesn't impact the expiration date.
 
-### How can an Admin change the default expiration date in their tenant?
+### How can an admin change the default expiration date in their tenant?
 
 Admins can edit the default expiration setting in PowerShell or the Teams admin center. That change will affect only newly created TMRs from that point forward. It won't impact any recordings created before that date. Admins can't change the expiration date on existing TMRs. This is done to protect the decision of the user that owns the TMR.
 
@@ -126,7 +126,7 @@ Anyone who has edit and delete permissions on a TMR can modify the expiration da
 
 ### Why should I use this feature?
 
-You should use this to limit the OneDrive or SharePoint for Cloud storage consumption driven by Teams meeting records. A typical meeting recording consumes around 400 MB per hour of recording.
+You should use this to limit the OneDrive or SharePoint for cloud storage consumption driven by Teams meeting records. A typical meeting recording consumes around 400 MB per hour of recording.
 
 ### Should I rely on this feature for strict security and compliance adherence?
 
@@ -151,7 +151,7 @@ On the expiration date, the TMR is moved into the OneDrive or SharePoint recycle
 
 ### How will end users be notified about a file’s expiration?
 
-- Everyone will see a notification about the expiration date in the recording chiclet in the Teams chat window.
+- Everyone will see a notification about the expiration date in the recording area in the Teams chat window.
 - Everyone can see the TMR’s expiration date in the details pane of the TMR file.
 - The file owner will receive an email notification when the recording expires and will be directed to the recycle bin to recover the recording.
 
