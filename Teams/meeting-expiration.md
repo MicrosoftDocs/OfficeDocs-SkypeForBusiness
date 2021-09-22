@@ -113,11 +113,11 @@ No, files won't be retained due to this feature or its settings. If a user with 
 
 ### Security and compliance
 
-**Should I rely on this feature for strict security and compliance adherence?**
+#### Should I rely on this feature for strict security and compliance adherence?
 
 No, you shouldn't rely on this for legal protection since end users can modify the expiration date of any recordings they control.
 
-**Will a retention and/or deletion policy I've set in the Security & Compliance center override the Teams meeting recording expiration setting?**
+#### Will a retention and/or deletion policy I've set in the Security & Compliance center override the Teams meeting recording expiration setting?
 
 Yes, any policies you have set in the compliance center will take full precedence.
 
@@ -128,11 +128,11 @@ For example:
 
 ### TMR expiration
 
-**What happens when a TMR expires?**
+#### What happens when a TMR expires?
 
 On the expiration date, the TMR is moved into the OneDrive or SharePoint recycle bin and the expiration date field is cleared. This action by the system is exactly the same as if a user deleted the file. The recycle bin lifecycle will then follow the normal path. If the user recovers the TMR from the recycle bin, the TMR will not be deleted by this feature again since the expiration date has been cleared, unless the end user sets a new expiration date on the file.
 
-**How will end users be notified about a file’s expiration?**
+#### How will end users be notified about a file’s expiration?
 
 - Everyone will see a notification about the expiration date in the recording area in the Teams chat window.
 - Everyone can see the TMR’s expiration date in the details pane of the TMR file.
