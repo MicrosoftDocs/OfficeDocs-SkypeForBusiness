@@ -26,7 +26,6 @@ description: Learn how to get new phone numbers and port or transfer existing nu
 
 # Service phone numbers for Calling Plans
 
-
 In addition to [getting phone numbers for your users](./getting-phone-numbers-for-your-users.md), you can get toll or toll-free phone numbers for services such as Audio Conferencing (for conference bridges), Auto Attendants, and Call Queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers. For example, a service number can handle hundreds of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously.
   
 > [!NOTE]
