@@ -43,9 +43,7 @@ This article describes concepts you'll need to know to manage emergency calling&
 
   When you assign an emergency location to a user or site, it's this unique location ID that's associated with the user or site.
 
-- **Registered address** - An emergency address that is assigned to each Calling Plan user; it is sometimes referred to as a static emergency address or address of record.  (Registered addresses do not apply to Direct Routing users.)
-
-You create emergency addresses for Calling Plan users by using the Teams admin center.  
+- **Registered address** - **An emergency address that is assigned to each user; it is sometimes referred to as a static emergency address or address of record.**  **TRUE FOR ALL?** 
 
 >[!Note]
 >There are some differences in how you manage emergency calling depending on whether you are using Phone System Calling Plans or Phone System Direct Routing for your PSTN connectivity. These considerations are described throughout this article.
@@ -81,6 +79,7 @@ When the location must be associated to the telephone number depends on the coun
 - In the United States and Canada, for example, an emergency location is required when a number is assigned to a user.
 
 - For other countries--such as in Europe, the Middle East, and Africa (EMEA)--an emergency location is required when you get the phone number from Microsoft 365 or Office 365, or when it's transferred from another service provider or carrier.
+
 
 ### Dynamic emergency calling
 
@@ -132,6 +131,23 @@ For more information, see:
 
 - [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
+## Considerations for Operator Connect
+
+If Microsoft Calling Plans are not available in your area, and your existing carrier is a participant in the Microsoft Operator Connect program, your carrier can manage PSTN calling and Session Border Controllers (SBCs) for you. With Operator Connect:
+
+- Emergency calls are routed automatically to your carrier for a given number.
+
+- **Registered addresses: The ability for a tenant admin to set a registered address will depend upon the capabilities assigned to the number when the carrier uploads them into a customer's inventory. Depending on the setting, the tenant administrator may or may not be able to set, modify, and/or delete the emergency location on a user.**  
+
+- In the US and Canada, dynamic routing is part of the carrier’s service. You do not need to procure this service from another service provider.  
+
+- In the US and Canada, the automated routed to the PSAP is the same.
+
+- **If a dynamic location from either the LIS or client is not acquired, then a static one will be sent if it is configured on the user.**
+
+- Some carriers and markets will require that emergency addresses and phone numbers are coordinated between the tenant and the carrier. This means it may not be possible to modify the emergency address on a number or even have one which is required. 
+
+
 ## Considerations for Direct Routing
 
 If Calling Plans are not available in your area or you want to keep your existing carrier, consider [Direct Routing](direct-routing-landing-page.md). For more information, see [Configure Direct Routing](direct-routing-configure.md) and [Manage emergency call routing policies](manage-emergency-call-routing-policies.md).
@@ -142,11 +158,15 @@ You must define emergency calling policies for Direct Routing users by using a T
 
 You can assign an emergency call routing policy  to a Teams Direct Routing user account, a network site, or both. When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located as follows:
 
+- **Registered addresses: As the tenant admininstrator, you can optionally set the registered address.**
+
 - If an emergency call routing policy is associated with the site, then the site policy is used to configure emergency calling.
 
 - If there is no emergency call routing policy associated with the site, if the client is connected at an undefined site, or if the dialed number does not match any of the emergency numbers defined in the emergency call routing policy associated with the site, then the emergency call routing policy associated with the user account is used to configure emergency calling. 
 
 - If the Teams client is unable to obtain an emergency call routing policy, then the user is not enabled for emergency calling.
+
+- **If a dynamic location from either the LIS or client is not acquired, then a static one will be sent if it is configured on the user.**
 
 ### Dynamic emergency calling
 
@@ -205,6 +225,8 @@ An emergency calling policy can be granted to a Teams user account, assigned to 
 - If the Teams client is unable to obtain an emergency calling policy, then the user is not enabled for security desk notification.
 
 During an emergency call, a security desk is conferenced into the call and the experience of the security desk user is controlled based upon the Teams emergency calling policy. A group chat is started with each security desk member, and the location of the emergency caller is shared via an important message notification.  If a conference option is configured as part of the policy, each security desk user is additionally called as part of the conference.
+
+
 
     
 ## Related topics
