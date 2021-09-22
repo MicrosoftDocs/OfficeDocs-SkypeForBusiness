@@ -86,7 +86,7 @@ The following table lists the SIP trunking services that are certified for Skype
 |[Tele2 Sweden](https://www.tele2.com/) |Tele2 Business Trunk| |
 |[Telappliant](http://www.telappliant.com/sip-trunking#tab_overview) |talkAssure SIP Trunking for Microsoft Lync| |
 |[Telavox](https://telavox.com/) |SIP Trunk|&#x2714;|
-|[Tele2](https://www.tele2.se/foretag/upptack/datanatstjanster/integration-services/allt-om-integration/unified-communication/skype-for-business) |VoIP Connect| |
+|[Tele2](https://www.tele2.se/) |VoIP Connect| |
 |[Telecom New Zealand / Gen-I](http://www.gen-i.co.nz/solutions/collaboration/voice-connect/) |Voice Connect| |
 |[Telefonica Business Solutions](https://www.globalsolutions.telefonica.com/) |SIP Trunking| |
 |[TeliaSonera Finland Oyj](http://www.sonera.fi/) |Sonera Business Voice Access| |
