@@ -24,9 +24,7 @@ ms.custom:
 description: Learn how to get new phone numbers and port or transfer existing numbers for Audio Conferencing, Auto Attendants, and Call Queues (service numbers) for Teams.
 ---
 
-# Srvice phone numbers for Calling Plans
-
-**NOTE TO REVIEWERS: THIS SEEMS SPECIFIC TO CALLING PLANS. SHOULD I MOVE IT UNDER THE CALLING PLANS NODE?**
+# Service phone numbers for Calling Plans
 
 In addition to [getting phone numbers for your users](./getting-phone-numbers-for-your-users.md), you can get toll or toll-free phone numbers for services such as Audio Conferencing (for conference bridges), Auto Attendants, and Call Queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers. For example, a service number can handle hundreds of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously.
   
