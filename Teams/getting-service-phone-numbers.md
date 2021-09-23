@@ -24,7 +24,7 @@ ms.custom:
 description: Learn how to get new phone numbers and port or transfer existing numbers for Audio Conferencing, Auto Attendants, and Call Queues (service numbers) for Teams.
 ---
 
-# Srvice phone numbers for Calling Plans
+# Service phone numbers for Calling Plans
 
 **NOTE TO REVIEWERS: THIS SEEMS SPECIFIC TO CALLING PLANS. SHOULD I MOVE IT UNDER THE CALLING PLANS NODE?**
 
