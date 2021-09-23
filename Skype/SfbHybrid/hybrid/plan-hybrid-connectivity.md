@@ -59,7 +59,7 @@ Co-existence modes continue to exist after retirement of Skype for Business Onli
 
 > [!Important]
 > - Existing hybrid organizations with users homed in Skype for Business Online who are NOT TeamsOnly should focus on upgrading these users to Teams Only mode as soon as possible. If your organization still has users homed in Skype for Business Online who are not TeamsOnly, you may be scheduled for a Microsoft-assisted upgrade to transition these users to TeamsOnly. This will not impact users who are homed in Skype for Business Server on-premises. Scheduling notifications will be sent in advance to hybrid customers with users homed in Skype for Business Online before these online, non-TeamsOnly users are upgraded to Teams.
-> - It is soon no longer be possible to assign a mode other than TeamsOnly to a user that is homed online.
+> - It is no longer possible to assign a mode other than TeamsOnly to a user that is homed online.
 
 ## About Shared SIP Address Space functionality
 
