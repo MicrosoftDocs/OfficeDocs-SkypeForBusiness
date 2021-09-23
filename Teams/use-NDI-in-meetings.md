@@ -20,13 +20,18 @@ appliesto:
 
 # Broadcast meeting content 
 
-Teams provides two options for broadcasting Teams meeting content: NewTek NDI® (Network Device Interface) and SDI (serial digital interface):
 
-- NewTek NDI® (Network Device Interface) technology is a modern solution for connecting media devices (such as a studio camera and mixer). Instead of using physical connections, NDI® technology enables connectivity over a local intranet, including on a local machine.
+
+Teams provides two options for broadcasting Teams meeting content: Network Device Interface (NewTek NDI®) and Serial Digital Interface (SDI):
+
+- NewTek NDI® technology is a modern solution for connecting media devices (such as a studio camera and mixer). Instead of using physical connections, NDI® technology enables connectivity over a local intranet, including on a local machine.
 
   NDI® technology has become a standard industry solution for producing live content for streams and has gained significant awareness and adoption in the professional broadcast world.
 
-- SDI has been used in broadcast productions since 1989 and is supported on most legacy studio hardware devices. Hardware devices from AJA Video Systems and Blackmagic Design  provide connectivity to legacy broadcast devices that use SDI.
+- SDI has been used in broadcast productions since 1989 and is supported on most legacy studio hardware devices. Hardware devices from AJA Video Systems and Blackmagic Design provide connectivity to legacy broadcast devices that use SDI.
+
+> [!NOTE]
+> [The Video Hardware Out feature the supports SDI is currently in Preview release.]
 
 NDI® and SDI technology is supported in all locales.
 
