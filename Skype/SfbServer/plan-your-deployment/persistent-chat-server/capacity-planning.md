@@ -60,36 +60,36 @@ The following sample table can help you plan for managing chat room access in a 
   
 **Managing chat room access sample**
 
-|&nbsp;|**Small Chat Rooms**|**Medium Chat Rooms**|**Large Chat Rooms**|**Total**|
+|&nbsp;|Small Chat Rooms|Medium Chat Rooms|Large Chat Rooms|Total|
 |:-----|:-----|:-----|:-----|:-----|
-|Size of chat rooms (number of users connected)  <br/> |30 per room  <br/> |150 per room  <br/> |16,000 per room  <br/> ||
-|Chat rooms  <br/> |32,000  <br/> |1,067  <br/> |10  <br/> |33,077  <br/> |
-|% of rooms that are auditorium  <br/> |1%  <br/> |1%  <br/> |50%  <br/> ||
-|% of rooms that are open  <br/> |3%  <br/> |3%  <br/> |50%  <br/> ||
-|Open rooms (no explicit membership)  <br/> |960  <br/> |32  <br/> |5  <br/> |997  <br/> |
-|Non-open rooms (regular rooms with explicit membership)  <br/> |31,040  <br/> |1.035  <br/> |5  <br/> |32,080  <br/> |
-|Auditorium rooms (additional presenters entry)  <br/> |0  <br/> |32  <br/> |5  <br/> ||
-|Rooms managed by direct membership  <br/> |50%  <br/> |10%  <br/> |0%  <br/> ||
-|Rooms managed by user groups  <br/> |50%  <br/> |90%  <br/> |100%  <br/> ||
-|User groups in each chat room's membership list for open rooms (not specified explicitly)  <br/> |0  <br/> |0  <br/> |0  <br/> ||
-|Users in each chat room's membership list for non-open rooms  <br/> |30  <br/> |150  <br/> |16,000  <br/> ||
-|User groups in each chat room's membership list for non-open rooms  <br/> |3  <br/> |5  <br/> |10  <br/> ||
-|Users and user groups in each chat room's manager list (for open and non-open rooms)  <br/> |6  <br/> |6  <br/> |6  <br/> ||
-|Users and user groups in each auditorium chat room's presenters list (for open and non-open rooms)  <br/> |6  <br/> |6  <br/> |6  <br/> ||
-|User-based membership entities across all non-open rooms  <br/> |465,600  <br/> |15,520  <br/> |-  <br/> ||
-|User-group-based membership entities across all non-open rooms  <br/> |46,560  <br/> |4656  <br/> |50  <br/> ||
-|Users and user groups based entities across all auditorium chat rooms  <br/> |0  <br/> |192  <br/> |50  <br/> ||
-|Users and user groups based manager entities across all chat rooms manager lists  <br/> |192,000  <br/> |6,400  <br/> |60  <br/> ||
-|Active users per chat room  <br/> |30  <br/> |150  <br/> |16,000  <br/> ||
-|Chat rooms per user  <br/> |12  <br/> |2  <br/> |2  <br/> |16  <br/> |
-|User groups in each chat room's membership list  <br/> |10  <br/> |10  <br/> |15  <br/> ||
-|Rooms managed by user groups  <br/> |50%  <br/> |50%  <br/> |50%  <br/> ||
-|User-group-based membership entities across all chat rooms  <br/> |155,200  <br/> |5173  <br/> |68  <br/> ||
-|User-based membership entities across all chat rooms  <br/> |465,600  <br/> |77,600  <br/> |72,000  <br/> ||
-|Users and user groups in each chat room's manager, presenter, and scope lists  <br/> |6  <br/> |6  <br/> |6  <br/> ||
-|Users and user groups across all chat rooms' manager, presenter, and scope lists  <br/> |192,000  <br/> |6400  <br/> |60  <br/> ||
-|Access control entries  <br/> |704,160  <br/> |26,768  <br/> |160  <br/> |731,088  <br/> |
-|Maximum access control entries  <br/> ||||2,000,000  <br/> |
+|Size of chat rooms (number of users connected)   |30 per room   |150 per room   |16,000 per room   ||
+|Chat rooms   |32,000   |1,067   |10   |33,077   |
+|% of rooms that are auditorium   |1%   |1%   |50%   ||
+|% of rooms that are open   |3%   |3%   |50%   ||
+|Open rooms (no explicit membership)   |960   |32   |5   |997   |
+|Non-open rooms (regular rooms with explicit membership)   |31,040   |1.035   |5   |32,080   |
+|Auditorium rooms (additional presenters entry)   |0   |32   |5   ||
+|Rooms managed by direct membership   |50%   |10%   |0%   ||
+|Rooms managed by user groups   |50%   |90%   |100%   ||
+|User groups in each chat room's membership list for open rooms (not specified explicitly)   |0   |0   |0   ||
+|Users in each chat room's membership list for non-open rooms   |30   |150   |16,000   ||
+|User groups in each chat room's membership list for non-open rooms   |3   |5   |10   ||
+|Users and user groups in each chat room's manager list (for open and non-open rooms)   |6   |6   |6   ||
+|Users and user groups in each auditorium chat room's presenters list (for open and non-open rooms)   |6   |6   |6   ||
+|User-based membership entities across all non-open rooms   |465,600   |15,520   |-   ||
+|User-group-based membership entities across all non-open rooms   |46,560   |4656   |50   ||
+|Users and user groups based entities across all auditorium chat rooms   |0   |192   |50   ||
+|Users and user groups based manager entities across all chat rooms manager lists   |192,000   |6,400   |60   ||
+|Active users per chat room   |30   |150   |16,000   ||
+|Chat rooms per user   |12   |2   |2   |16   |
+|User groups in each chat room's membership list   |10   |10   |15   ||
+|Rooms managed by user groups   |50%   |50%   |50%   ||
+|User-group-based membership entities across all chat rooms   |155,200   |5173   |68   ||
+|User-based membership entities across all chat rooms   |465,600   |77,600   |72,000   ||
+|Users and user groups in each chat room's manager, presenter, and scope lists   |6   |6   |6   ||
+|Users and user groups across all chat rooms' manager, presenter, and scope lists   |192,000   |6400   |60   ||
+|Access control entries   |704,160   |26,768   |160   |731,088   |
+|Maximum access control entries   ||||2,000,000   |
    
 In the preceding sample, when you deploy the Persistent Chat Servers according to the recommended guidelines, they can handle up to 80,000 active users across a four-server pool with compliance enabled.
   
@@ -117,21 +117,21 @@ The sample data in the following table assumes that, on the **Chat room settings
   
 **Chat room access by invitation sample**
 
-|&nbsp;|**Small Chat Rooms**|**Medium Chat Rooms**|**Large Chat Rooms**|**Total**|
+|&nbsp;|Small Chat Rooms|Medium Chat Rooms|Large Chat Rooms|Total|
 |:-----|:-----|:-----|:-----|:-----|
-|Users who can access chat room  <br/> |30 per room  <br/> |150 per room  <br/> |16,000 per room  <br/> ||
-|Percentage of rooms that have invitations  <br/> |50%  <br/> |50%  <br/> |50%  <br/> ||
-|Chat rooms configured to send invitations  <br/> |16,000  <br/> |533  <br/> |5  <br/> ||
-|Users who can access the chat room  <br/> |60  <br/> |225  <br/> |16,000  <br/> ||
-|Invitations generated by Persistent Chat Server  <br/> |960,000  <br/> |120,000  <br/> |80,000  <br/> |1,160,000  <br/> |
-|Maximum allowable number of invitations  <br/> ||||2,000,000  <br/> |
-|Model 1 - Start with expected number of messages per room per day  <br/> |||||
-|Chat Rate Per Room (per day)  <br/> |50  <br/> |500  <br/> |100  <br/> |650  <br/> |
-|Chat rate (per second) across all rooms  <br/> |55.56  <br/> |18.52  <br/> |0.03  <br/> |74  <br/> |
-|Model 2 - Start with number of messages posted per user per day  <br/> |||||
-|Chat rate per user per day  <br/> |15  <br/> |5  <br/> |0.1  <br/> |20  <br/> |
-|Chat rate per room (per day)  <br/> |38  <br/> |375  <br/> |800  <br/> |1,213  <br/> |
-|Chat rate (per second) across all rooms  <br/> |41.67  <br/> |13.89  <br/> |0.28  <br/> |56  <br/> |
+|Users who can access chat room   |30 per room   |150 per room   |16,000 per room   ||
+|Percentage of rooms that have invitations   |50%   |50%   |50%   ||
+|Chat rooms configured to send invitations   |16,000   |533   |5   ||
+|Users who can access the chat room   |60   |225   |16,000   ||
+|Invitations generated by Persistent Chat Server   |960,000   |120,000   |80,000   |1,160,000   |
+|Maximum allowable number of invitations   ||||2,000,000   |
+|Model 1 - Start with expected number of messages per room per day   |||||
+|Chat Rate Per Room (per day)   |50   |500   |100   |650   |
+|Chat rate (per second) across all rooms   |55.56   |18.52   |0.03   |74   |
+|Model 2 - Start with number of messages posted per user per day   |||||
+|Chat rate per user per day   |15   |5   |0.1   |20   |
+|Chat rate per room (per day)   |38   |375   |800   |1,213   |
+|Chat rate (per second) across all rooms   |41.67   |13.89   |0.28   |56   |
    
 ### Plan capacity for Persistent Chat Server performance
 

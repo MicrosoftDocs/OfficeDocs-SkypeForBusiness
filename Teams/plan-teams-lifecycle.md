@@ -60,49 +60,7 @@ Team user types determine how much control a team member has:
 > [!Note]
 > You can learn more about team owner and team member capabilities in the article [Assign role and permissions in Microsoft Teams](assign-roles-permissions.md).
 
-Teams admin roles determine what capabilities each admin role holder has. These are described in the following table.
-
-<table>
- <thead>
-  <tr>
-    <th width="0.5%"></th>
-    <th width="15.5%">Role&nbsp;&nbsp;</th>
-    <th width="25%">Description</th>
-    <th width="60%">Can do the following tasks, using tools as noted</th>
-  </tr>
-</thead>
-<tbody>
-   <tr>
-    <td valign="top" colspan="2">Teams Administrator</td>
-    <td valign="top">Manage the Teams service, and create and manage Microsoft 365 Groups</td>
-    <td valign="top">Manage meetings, including meeting policies, configurations, and conference bridges<sup>1</sup><br><br>Manage voice, including calling policies, phone number inventory and assignment, call queues, and auto attendants<sup>1</sup><br><br>Manage messaging, including messaging policies<sup>1</sup><br><br>Manage all org-wide settings, including federation, Teams upgrade, and Teams client settings<sup>1</sup><br><br>Manage the teams in the organization and their associated settings, including membership<sup>2</sup><br><br>View the user profile page and troubleshoot user call quality problems by using advanced troubleshooting toolset<sup>3</sup></td>
-</tr>
-<tr>
-<td valign="top" colspan="2">Teams Communications Administrator</td>
-<td valign="top">Manage calling and meetings features within the Microsoft Teams service</td>
-<td valign="top">Manage meetings, including meeting policies, configurations, and conference bridges<sup>1</sup><br><br>Manage voice, including calling policies, phone number inventory and assignment, call queues, and auto attendants<sup>1</sup><br><br>View user profile page and troubleshoot user call quality problems using advanced troubleshooting toolset<sup>1</sup></td>
-</tr>
-<tr>
-<td valign="top" colspan="2">Teams Communications Specialist</td>
-<td valign="top">Troubleshoot communications issues within Teams by using basic tools</td>
-<td valign="top">Access to the user profile page for troubleshooting calls in Call Analytics. Can only view user information for the specific user being searched for.<sup>3</sup></td>
-</tr>
-<tr>
-<td valign="top" colspan="2">Teams Communications Support Engineer</td>
-<td valign="top">Troubleshoot communications issues within Teams by using advanced tools</td>
-<td valign="top">Access to the user profile page for troubleshooting calls in Call Analytics. Can view the full call record information.<sup>3</sup></td>
-</tr>
-<tr>
-</tbody>
-<tfoot>
-<tr><td align="right"><sup>1</sup></td><td colspan="3"><a href="/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell
-">PowerShell—Skype for Business module</a> or <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams admin center</a></td></tr>
-<tr><td align="right"><sup>2</sup></td><td colspan="3"><a href="https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3">PowerShell—Microsoft Teams module</a> or <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams admin center</a></td></tr>
-<tr><td align="right"><sup>3</sup></td><td colspan="3"><a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams admin center</a> only</td>
-</tr>
-</tfoot>
-</table>
-
+Teams admin roles determine what capabilities each admin role holder has. These are described in the following article: [Use Microsoft Teams administrator roles to manage Teams](using-admin-roles.md).
 
 ## IT decisions to make before getting started
 

@@ -51,8 +51,8 @@ Go to [Country and region availability for Audio Conferencing and Calling Plans]
     
 3. We also recommend that you assign Communications Credits licenses (they don’t cost anything) to the same people you assigned licenses to in the previous step. To learn how to set up Communications Credits, see [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization).
     
-> [!NOTE]
-> You can also set up [pay-per-minute Audio Conferencing](/microsoftteams/audio-conferencing-pay-per-minute).
+   > [!NOTE]
+   > You can also set up [pay-per-minute Audio Conferencing](/microsoftteams/audio-conferencing-pay-per-minute).
 
 ## Step 3: Get service numbers for your conferencing bridges
 <a name="__top"> </a>
@@ -87,7 +87,7 @@ Next, you want to [Set auto attendant languages for Audio Conferencing](../audio
 
 ![An icon showing the Microsoft Teams logo.](../images/teams-logo-30x30.png) **Using the Microsoft Teams admin center**:
 
-1. From the Dashboard, go to **Meetings** > **Conference bridges**.
+1. From Home, go to **Meetings** > **Conference bridges**.
 2. Select the conferencing bridge phone number, click **Edit**, and then choose the default language.
 
 ![An icon showing the Skype for Business logo.](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**:
@@ -103,7 +103,7 @@ After setting up your conferencing bridge, verify that the default settings such
 
 ![An icon showing the Microsoft Teams logo.](../images/teams-logo-30x30.png) **Using the Microsoft Teams admin center**:
 
-1. From the Dashboard, go to **Meetings** > **Conference bridges**.
+1. From Home, go to **Meetings** > **Conference bridges**.
 2. Select **Bridge settings**. This will open the **Bridge settings** pane. 
 
 For more details, see [Change the settings for an Audio Conferencing bridge](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge).
@@ -123,7 +123,7 @@ You will need to do this for all of the people in your organization who lead or 
 
 ![An icon showing the Microsoft Teams logo.](../images/teams-logo-30x30.png) **Using the Microsoft Teams admin center**:
 
-1. From the Dashboard, click **Users**, select the user from the list, and select **Edit**.
+1. From Home, click **Users**, select the user from the list, and select **Edit**.
 2. Select **Edit** next to **Audio Conferencing**, and then in the **Audio Conferencing** pane, choose a number in the **Toll number** and **Toll-free** number lists.
 
 ![An icon showing the Skype for Business logo.](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center:**

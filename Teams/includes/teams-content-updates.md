@@ -1,5 +1,39 @@
 <!-- This file is generated automatically each week. Changes made to this file will be overwritten.-->
-
+
+
+
+
+
+## Week of September 13, 2021
+
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/13/2021 | [Introduction to Teams Policy-based Recording for Calling & Meetings](/MicrosoftTeams/teams-recording-policy) | modified |
+| 9/13/2021 | [IT Admin Guide to Education Insights in Microsoft Teams](/MicrosoftTeams/class-insights) | modified |
+| 9/13/2021 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | modified |
+| 9/13/2021 | [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps) | modified |
+| 9/14/2021 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | modified |
+| 9/14/2021 | [Microsoft Teams Rooms requirements](/MicrosoftTeams/rooms/requirements) | modified |
+| 9/15/2021 | [Manage the join experience for Teams virtual visits on mobile browsers](/MicrosoftTeams/expand-teams-across-your-org/mobile-browser-join) | modified |
+| 9/16/2021 | [Country/region availability - Audio Conferencing, Calling Plans](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | modified |
+| 9/16/2021 | [Teams: Manage meeting policies](/MicrosoftTeams/meeting-policies-in-teams) | modified |
+| 9/17/2021 | [Audio Conferencing pay-per-minute](/MicrosoftTeams/audio-conferencing-pay-per-minute) | modified |
+| 9/17/2021 | [Teams cloud meeting recording](/MicrosoftTeams/cloud-recording) | modified |
+| 9/17/2021 | [Country/region availability - Audio Conferencing, Calling Plans](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | modified |
+| 9/17/2021 | [Teams: Manage meeting policies](/MicrosoftTeams/meeting-policies-in-teams) | modified |
+| 9/17/2021 | [Quick start - Meetings, webinars, and live events](/MicrosoftTeams/quick-start-meetings-live-events) | modified |
+| 9/17/2021 | [See a list of Audio Conferencing numbers](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams) | modified |
+| 9/17/2021 | [Set up for live events in Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | modified |
+| 9/17/2021 | [Manage phone numbers for your organization](/MicrosoftTeams/manage-phone-numbers-landing-page) | added |
+| 9/17/2021 | [Get service phone numbers for Calling Plans](/MicrosoftTeams/getting-service-phone-numbers) | modified |
+| 9/17/2021 | [How many telephone numbers can you get?](/MicrosoftTeams/how-many-phone-numbers-can-you-get) | modified |
+| 9/17/2021 | [Manage phone numbers for Calling Plan](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) | modified |
+| 9/17/2021 | [Migrate from Slack to Microsoft Teams](/MicrosoftTeams/migrate-slack-to-teams) | modified |
+| 9/17/2021 | [Microsoft Teams Rooms](/MicrosoftTeams/rooms/index) | modified |
+| 9/17/2021 | [Search for telephone numbers for users](/MicrosoftTeams/search-for-phone-numbers-for-users) | modified |
+| 9/17/2021 | [See a list of telephone numbers in your organization](/MicrosoftTeams/see-a-list-of-phone-numbers-in-your-organization) | modified |
 
 
 ## Week of September 06, 2021

@@ -57,7 +57,7 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 
 |Name|Data type|Description|Possible Reasons for blank values|
 |:---|:---|:---|:---|
-|**Endpoint**|||
+|**Endpoint**||||
 | First CPU Name  | String  | Name of the CPU used by the first endpoint. <br/> **Example value:** Contoso CPU X11 @ 1.80 GHz | <br/>&bull; This data was not reported by the endpoint   |
 | Second CPU Name  | String  | Name of the CPU used by the second endpoint. <br/> **Example value:** Contoso CPU X11 @ 1.80 GHz | <br/>&bull; This data was not reported by the endpoint     |
 | First CPU Number Of Cores  | Number of cores  | Number of CPU cores available on the first endpoint. <br/> **Example value:** 8  | <br/>&bull; This data was not reported by the endpoint    |
@@ -96,7 +96,7 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 | Second ASN City|String|City name for the Autonomous System Number determined for the second endpoint. <br/> **Example value:** Redmond  | <br/>&bull; Network data was not available to determine endpoint ASN |
 | First ASN State|String|State name for the Autonomous System Number determined for the first endpoint. <br/> **Example value:** WA  | <br/>&bull; Network data was not available to determine endpoint ASN |
 | Second ASN State|String|State name for the Autonomous System Number determined for the second endpoint. <br/> **Example value:** WA  | <br/>&bull; Network data was not available to determine endpoint ASN |
-|**Building**| | |
+|**Building**| | | |
 | First Network | String | Subnet used for media stream by the first endpoint if the subnet exists in subnet to tenant building data. <br/> **Example value:** 10.0.1.12.0 | &bull; Network data was not reported by the endpoint <br/>&bull; Network is not defined in subnet-mapping data.  |
 | First Network Name  | String  | Name of network used for media stream by first endpoint. Based on mapping subnet to tenant building data. <br/> **Example value:** USA/WA/REDMOND | &bull; Network data was not reported by the endpoint <br/>&bull; Network is not defined in subnet-mapping data  |
 | First Network Range  | String  | Network prefix/range of the subnet used for the media stream by the first endpoint, based on data-mapping subnet to tenant building. <br/> **Example value:** 24 | &bull; Network data was not reported by the endpoint <br/>&bull; Network is not defined in subnet-mapping data |
@@ -116,7 +116,7 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 | Second Network Range  | String  | Network prefix/range of the subnet used for the media stream by the second endpoint, based on mapping subnet to tenant building data. <br/> **Example value:** 24  | &bull; Network data not reported by the endpoint <br/>&bull; Network does not have a network range defined in subnet-mapping data  |
 | Second Building Name  | String  | Name of the building where the second endpoint was located based on mapping subnet to tenant building data. <br/> **Example value:** Main | <br/>&bull; Network data not reported by the endpoint<br/>&bull; Network is not within corporate network <br/>&bull; Network does not have a building name defined in subnet-mapping data |
 | Second Ownership Type  | String  | Ownership type of building where the second endpoint was located based on mapping subnet to tenant building data. <br/> **Example value:** Contoso — IT | &bull; Network data not reported by the endpoint<br/>&bull; Network is not within corporate network <br/>&bull; Network does not have ownership defined in subnet-mapping data |
-| Second Building Type  | String  | Type of building where the second endpoint was located based on mapping subnet to tenant building data. <br/> **Example value:** Open Office | <br/>&bull; Network data not reported by the endpoint<br/>&bull; Network is not within corporate network <br/>&bull; Network building type is not defined in subnet-mapping data   |
+| Second Building Type  | String  | Type of building where the second endpoint was located based on mapping subnet to tenant building data. <br/> **Example value:** Open Office | <br/>&bull; Network data not reported by the endpoint<br/>&bull; Network is not within corporate network <br/>&bull; Network building type is not defined in subnet-mapping data  |
 | Second Building Office Type  | String  | Office building type where the second endpoint was located based on mapping subnet to tenant building data. <br/> **Example value:** Office  | <br/>&bull; Network data not reported by the endpoint<br/>&bull; Network is not within corporate network <br/>&bull; Network does not have a building office type defined in subnet-mapping data.  |
 | Second City  | String  | City where the second endpoint was located based on mapping subnet to tenant building data. <br/> **Example value:** Redmond |  <br/>&bull; Network data not reported by the endpoint  <br/>&bull; Network is not within corporate network  <br/>&bull; Network does not have a city defined in subnet-mapping data   |
 | Second Zip Code  | String  | Zip/Postal code where the second endpoint was located based on mapping subnet to tenant building data. <br/> **Example value:** 98052  | <br/>&bull; Network data not reported by the endpoint <br/>&bull; Network is not within corporate network <br/>&bull; Network does not have a zip code defined in subnet-mapping data |
@@ -130,7 +130,7 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 |**Deployment**| | | |
 | First Tenant Id  | String  | Tenant ID for the first endpoint. <br/> **Example value:** 00000000 — 0000 -0000 - 0000 — 000000000000  | <br/>&bull; Tenant id for the first endpoint could not be determined. This may indicate that the endpoint was signed in to an on-premise Skype for Business Server deployment.  |
 | Second Tenant Id  | String  | Tenant ID for the second endpoint. <br/> **Example value:** 00000000 — 0000 - 0000 - 0000 — 000000000000  |  <br/>&bull; Tenant id for the second endpoint could not be determined. This may indicate that the endpoint was signed in to an on-premise Skype for Business Server deployment.  |
-| First Pool  | String  | Skype for Business Online pool FQDN assigned to the first endpoint. <br/> **Example value:** pool1<span></span>.lync<span></span>.com  | <br/>&bull;  Indicates that the endpoint was signed in to a Microsoft Teams or Skype for Business . This field will only be populated for streams using on-premise Skype for Business Server deployments. |
+| First Pool  | String  | Skype for Business Online pool FQDN assigned to the first endpoint. <br/> **Example value:** pool1<span></span>.lync<span></span>.com  | <br/>&bull;  Indicates that the endpoint was signed in to a Microsoft Teams or Skype for Business. This field will only be populated for streams using on-premise Skype for Business Server deployments. |
 | Second Pool  | String  | Skype for Business Online pool FQDN assigned to the second endpoint. <br/> **Example value:** <span>pool1.lync.com</span>   | &bull; Skype for Business Online pool could not be determined for the second endpoint. This may indicate that the endpoint was signed in to an on-premise Skype for Business Server deployment.  |
 | Is Federated  | Boolean  | True if streams were between two federated tenants, False otherwise.   | <br/>&bull; It could not be determined if this was a federated stream <br/>&bull; Some signaling data was not collected   |
 |Region | String   |  Region where the deployment was located based on the home region of the tenant. <br/> **Example value:** North America | <br/>&bull; Network data not reported <br/>&bull; Network is not within corporate network <br/>&bull; Network does not have region defined in subnet-mapping data. |
@@ -153,7 +153,7 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 | Is Teams  | Boolean  | True indicates that the first or second user agent for the stream is a Microsoft Teams endpoint. <br/> False indicates that the user agents are Skype for Business endpoints. |  |
 | Duration (Minutes)  | Range (minutes)  | Duration of stream in minutes. Values grouped by range. <br/> **Example value:** 065: [3–4) ||
 | Duration (Seconds)  | Range (seconds) | Duration of stream in seconds. Values grouped by range. <br/> **Example value:** 062: [1 -2)||
-|**Date**|||
+|**Date**||| |
 |End Time|  String| Time of day the call ended.|&bull; Call setup failed or was not established (see CDR Response Reason) |
 | Year  | Integer  | Year of the end of the stream. Values are reported in the UTC time zone. <br/> **Example value:** 2018 | |
 | Month  | Integer  | Month of the end of the stream. Values are reported in the UTC time zone. <br/> **Example value:** 2 | |
@@ -169,7 +169,7 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 | Month Year  | String  | Month and year of the end of the stream. Values are reported in the UTC time zone. <br/> **Example value:** 2017-02 | |
 | Full Month  | Date time  | Full Month of the end of the stream. Values are reported in the UTC time zone. <br/> **Example value:** 2017-02-01T00:00:00 | |
 |Start time|String  |Time of day the call started.|&bull; Call setup failed or was not established (see CDR Response Reason) |
-|**UserAgent** | | |
+|**UserAgent** | | | |
 | First Domain  | String  | Domain of the first endpoint's user. If the first endpoint is a conference server, it uses the domain of the organizer of the meeting. May also be the domain of service accounts used in scenario.  <br/> **Example value:** contoso<span></span>.com | |
 | Second Domain  | String  | Domain of the second endpoint's user. If the second endpoint is a conference server, it uses the domain of the organizer of the meeting. May also be the domain of service accounts used in scenario. <br/> **Example value:** contoso<span></span>.com  | |
 | First User Agent Category  | String  | Category of the user agent of the first endpoint. <br/> **Example value:** OC | &bull; A user agent does not currently have a mapping    |
@@ -181,7 +181,7 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 | First Client App Version  | String  | Version of the application used for the first endpoint. Data is parsed from the user agent string. <br/> **Example value:** 16.0.7766.2047 | &bull; The version string could not be parsed <br/>&bull; The value was not reported.   |
 | Second Client App Version  | String  | Version of the application used for the second endpoint. Data is parsed from the user agent string. <br/> **Example value:** 16.0.7766.2047 | &bull; The version string could not be parsed <br/>&bull; The value was not reported. |
 |Meeting Id |String |The identifier for the meeting, generated when the meeting was created.  <br/> **Example value:** 19:meeting_MzB...zIw@thread.v2| |
-|**Network**||| 
+|**Network**||| |
 | Transport  | Enumeration <br/>**Possible values:** <br/>&bull; UDP <br/>&bull; TCP <br/>&bull; Unrecognized  | Network transport type used by stream.  Unrecognized indicates that the system could not determine if the transport type was TCP or UDP.  | &bull; Transport type was not reported <br/>&bull; The media path was not established  |
 | First Connectivity Ice  | Enumeration <br/>**Possible values:** <br/>&bull; DIRECT= Direct network path <br/>&bull; RELAY = through relay <br/>&bull; HTTP = through HTTP proxy <br/>&bull; FAILED = connectivity failed | ICE connectivity type used by the first endpoint.  |&bull; Transport type was not reported <br/>&bull; The media path was not established   |
 | Second Connectivity Ice  | Enumeration <br/>**Possible values:** <br/>&bull; DIRECT= Direct network path <br/>&bull; RELAY = through relay <br/>&bull; HTTP = through HTTP proxy <br/>&bull; FAILED = connectivity failed  | ICE connectivity type used by the second endpoint.    | &bull; Transport type was not reported <br/>&bull; The media path was not established    |
@@ -241,7 +241,7 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 | Second Render Dev  | String  | Name of the render device used by the second endpoint. For: <br/> Audio streams - device used for the speaker <br/> Video and video-based-screen-sharing streams - device used for the display <br/> App sharing streams - blank <br/> **Example value:** Headset Earphone (Microsoft LifeChat LX-6000) | <br/>&bull; This data was not reported by the endpoint, <br/>&bull; Media path was not established <br/>&bull; The stream was application sharing     |
 | First Render Dev Driver  | String  | Name of the render device driver used by the first endpoint. For: <br/> Audio streams - driver used for the speaker <br/> Video and video-based-screen-sharing streams - driver used for the display <br/> App sharing streams - blank  <br/> **Example value:** Microsoft: 10.0.14393.0 | <br/>&bull; This data was not reported by the endpoint <br/>&bull; Media path was not established <br/>&bull; The stream was application sharing    |
 | Second Render Dev Driver  | String  | Name of the render device driver used by the second endpoint. For: <br/> Audio streams - driver used for the speaker <br/> Video and video-based-screen-sharing streams - driver used for the display <br/> App sharing streams - blank <br/> **Example value:** Microsoft: 10.0.14393.0  | <br/>&bull; This data was not reported by the endpoint <br/>&bull; Media path was not established <br/>&bull; The stream was application sharing   |
-|**WiFi**|||
+|**WiFi**||||
 | First Wi-Fi Microsoft Driver  | String  | Name of Microsoft WiFi driver used reported by the first endpoint. Value may be localized based on the language used by endpoint. <br/> **Example value:** Microsoft Hosted Network Virtual Adapter  | <br/>&bull; WiFi wasn't used by the endpoint <br/>&bull; The driver information was not reported|
 | Second Wi-Fi Microsoft Driver  | String  | Name of Microsoft WiFi driver used reported by the second endpoint. Value may be localized based on the language used by endpoint. <br/> **Example value:** Microsoft Hosted Network Virtual Adapter  | <br/>&bull; WiFi wasn't used by the endpoint <br/>&bull; The driver information was not reported|
 | First Wi-Fi Vendor Driver  | String  | Vendor and name of WiFi driver reported by the first endpoint. <br/> **Example value:** Contoso Dual Band Wireless-AC Driver  | <br/>&bull; WiFi wasn't used by the endpoint <br/>&bull; The driver information was not reported |
@@ -262,7 +262,7 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 | Second Wi-Fi Signal Strength  | String  | WiFi signal strength in percentage [0-100] reported by the second endpoint. <br/> **Example value:** 081: [90 - 100)  | <br/>&bull; The value was not computed by the endpoint <br/>&bull; The value was not reported  |
 | First Wi-Fi Battery Charge  | Range (percentage)  | Estimated remaining battery charge in percentage [0-99] reported by the first endpoint. Values grouped by range. 0 indicates that the device was plugged in. <br/> **Example value:** 081: [90 - 100) | &bull; WiFi was not used <br/>&bull; The charge value was not reported   |
 | Second Wi-Fi Battery Charge  | Range (percentage)  | Estimated remaining battery charge in percentage [0-99] reported by the second endpoint. Values grouped by range. 0 indicates that the device was plugged in.  <br/> **Example value:** 081: [90 - 100) | &bull; WiFi was not used <br/>&bull; The charge value was not reported  |
-|**Metrics**|||
+|**Metrics**||||
 | Audio Degradation Avg  | Range (Mean opinion score 0-5) | Average Network Mean Opinion Score degradation for stream. Represents how much the network loss and jitter have impacted the quality of received audio. Not for use with SATIN or WebRTC/VDI. Values grouped by range. <br/> **Example value:** 015: [0.01 - 0.02) | &bull; No network MOS degradation was reported by the endpoint receiving the stream <br/>&bull; The stream is not an audio stream.   |
 | Jitter  | Range (millisecond)  | Average jitter for stream in milliseconds. Values grouped by range. <br/> **Example value:** 065: [2 - 3)  | &bull; No jitter data was reported by the endpoint receiving the stream |
 | Jitter Max  | Range (millisecond)  | Maximum jitter for stream in milliseconds. Values grouped by range. <br/> **Example value:** 065: [2 - 3) | &bull; No jitter data was reported by the endpoint receiving the stream   |
@@ -277,14 +277,14 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 | Healer FEC Packet Used Ratio| Range (ratio)  |Ratio of used Forward Error Correction (FEC) packets over total number of received FEC packets. See [2.2.1.12.1 Child Elements](/openspecs/office_protocols/ms-qoe/56d41628-26d5-44c8-8f79-6bac4b0355a5) for more information.  | |
 | Round Trip  | Range (milliseconds)  | Average network propagation round-trip time computed as specified in RFC3550 in milliseconds. Values grouped by range. <br/> **Example value:** 070: [15 - 20)  | <br/>&bull; The value was not computed by the endpoint <br/>&bull; The value was not reported  |
 | Round Trip Max  | Range (milliseconds)  | Maximum network propagation round-trip time computed as specified in RFC3550 in milliseconds. Values grouped by range. <br/>**Example value:** 098: [350 - 375)   | <br/>&bull; The value was not computed by the endpoint <br/>&bull; The value was not reported |
-| Packet Utilization | Number (Packets) |Number of Real-Time Transport Protocol (RTP) packets sent in the session.|
+| Packet Utilization | Number (Packets) |Number of Real-Time Transport Protocol (RTP) packets sent in the session.||
 | Jitter Buffer Size Avg|Number (Range) |Average size of jitter buffer during session.| |
-| Jitter Buffer Size Max|Number (Range)|Maximum size of jitter buffer during session. |
-| Jitter Buffer Size Min|Number (Range)|Minimum size of jitter buffer during session.|
-|Relative OneWay Gap Duration| Duration of gaps in the relative one way delay of the peer.||
+| Jitter Buffer Size Max|Number (Range)|Maximum size of jitter buffer during session. ||
+| Jitter Buffer Size Min|Number (Range)|Minimum size of jitter buffer during session.||
+|Relative OneWay Gap Duration| Duration of gaps in the relative one way delay of the peer.|||
 | Audio Post FECPLR|  Number |Reports packet loss rate after FEC has been applied for audio. Value between 0.00 and 1.00.| |
 | Network Jitter Avg  | Range (milliseconds)  | Average of network jitter in milliseconds computed over 20 second windows during the session. Values grouped by range. <br/> **Example value:** 066: [3–4)  | <br/>&bull; The stream was not an audio stream <br/>&bull; Data was not reported by the endpoint receiving the stream  |
-|Network Jitter Max|Number of events|Maximum of network jitter computed over 20 second windows during the session.|
+|Network Jitter Max|Number of events|Maximum of network jitter computed over 20 second windows during the session.||
 | Network Jitter Min|Number of events|Minimum of network jitter computed over 20 second window during the session.| |
 | Video Post FECPLR  | Range (ratio)  | Packet loss rate after FEC has been applied for aggregated across all video streams and codecs. Values grouped by range. <br/> **Example value:** 014: [0 - 0.01) | <br/>&bull; The stream was not a video or video-based-screen-sharing stream  <br/>&bull; Data was not reported by the endpoint receiving the stream   |
 | Video Local Frame Loss Percentage Avg  | Range (percentage)  | Average percentage of video frames lost as displayed to the user. Values grouped by range. This includes frames recovered from network losses. <br/> **Example value:** 160: [80 - 85) | <br/>&bull; The stream was not a video or video-based-screen-sharing stream  <br/>&bull; Data was not reported by the endpoint receiving the stream   |
@@ -300,17 +300,17 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 | Second Network Delay Event Ratio  | Range (ratio)  | Fraction of the call that the second endpoint detected the network delay was significant enough to impact the ability to have real-time two-way communication. Values grouped by range. <br/> **Example value:** 016: [0.02 - 0.03)  | &bull; Indicates a non-audio stream <br/>&bull; Data was not reported by the second endpoint |
 | First Network Bandwidth Low Event Ratio  | Range (ratio)  | Fraction of the call that the first endpoint detected the available bandwidth or bandwidth policy was low enough to cause poor quality of the audio sent. Values grouped by range. <br/> **Example value:** 016: [0.02 - 0.03) | &bull; This was a non-audio stream <br/>&bull; Data was not reported by first endpoint  |
 | Second Network Bandwidth Low Event Ratio  | Range (ratio)  | Fraction of the call that the second endpoint detected the available bandwidth or bandwidth policy was low enough to cause poor quality of the audio sent. Values grouped by range. <br/> **Example value:** 016: [0.02 - 0.03) | &bull; Indicates a non-audio stream <br/>&bull; Data was not reported by the second endpoint |
-| First Mic Glitch Rate| Number |Average glitches per 5 minutes for the microphone capture of the first endpoint. See [2.2.1.12.1 Child Elements](/openspecs/office_protocols/ms-qoe/56d41628-26d5-44c8-8f79-6bac4b0355a5) for more information. |
-| Second Mic Glitch Rate|Number |Average glitches per 5 minutes for the microphone capture of the second endpoint. See [2.2.1.12.1 Child Elements](/openspecs/office_protocols/ms-qoe/56d41628-26d5-44c8-8f79-6bac4b0355a5) for more information. |
+| First Mic Glitch Rate| Number |Average glitches per 5 minutes for the microphone capture of the first endpoint. See [2.2.1.12.1 Child Elements](/openspecs/office_protocols/ms-qoe/56d41628-26d5-44c8-8f79-6bac4b0355a5) for more information. ||
+| Second Mic Glitch Rate|Number |Average glitches per 5 minutes for the microphone capture of the second endpoint. See [2.2.1.12.1 Child Elements](/openspecs/office_protocols/ms-qoe/56d41628-26d5-44c8-8f79-6bac4b0355a5) for more information. ||
 | First Speaker Glitch Rate|Number of events|Average glitches per 5 minutes for the first loudspeaker rendering.| |
 | Second Speaker Glitch Rate|Number of events|Average glitches per 5 minutes for the second loudspeaker rendering.| |
-|**Audio**|||
+|**Audio**||||
 | Audio FEC Used  | Boolean  | True indicates that audio forward error correction (FEC) was used at some point during the call. False otherwise     | &bull; The stream was not an audio stream <br/>&bull; The data was not reported by the endpoint sending the stream  |
 | First Audio Render Device In Use  | String  | Indicates which hardware device was used for playback of the audio stream on the first endpoint.  | <br/>&bull; The data was not reported by the endpoint  |
 | Second Audio Render Device In Use  | String  | Indicates which hardware device was used for playback of the audio stream on the second endpoint.  | <br/>&bull; The data was not reported by the endpoint  |
 | First Audio Capture Device In Use  | String  | Indicates which hardware device was used for capture of the audio stream on the first endpoint.  | <br/>&bull; The data was not reported by the endpoint  |
 | Second Audio Capture Device In Use  | String  | Indicates which hardware device was used for capture of the audio stream on the second endpoint.  | <br/>&bull; The data was not reported by the endpoint  |
-|**Measure**|||
+|**Measure**||||
 | ClassifiedPoorCall  | Boolean  | True if one or more streams in the call were classified as poor based on the metrics listed in [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md).   | &bull; The call did not have sufficient metrics reported to be classified as good or poor   |
 | Video Poor Due To VideoPostFecplr  | Boolean  | True if the stream was classified as poor based on the Video Post FEC PLR metric threshold listed here: [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md). Will always be False for non-video streams.   | &bull; The endpoint did not report this data  <br/>&bull; The stream was not a video stream.  |
 | Video Poor Due To VideoLocalFrameLossPercentageAvg  | Boolean  | True if the video stream was classified as poor based on the Video Local Frame Loss Percentage Avg metric threshold listed here: [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md). Will always be False for non-video streams.   | &bull; The endpoint did not report this data  <br/>&bull; The stream was not a video stream. |
@@ -332,7 +332,7 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 | Good  | Boolean  | True if the stream has sufficient data to be classified as good or poor and stream is classified as good. False otherwise.   |   |
 | Unclassified  | Boolean  | False if the stream has sufficient data to be classified as good or poor. True otherwise. <br/>**Example value:** 1 |   |
 | OnePercent PacketLoss  | Boolean  | True if packet loss exceeded 1%, False otherwise.  |   |
-|**Rating**|||
+|**Rating**||||
 | First Feedback Rating  | User rating (1-5)  | Rating of the call associated with the stream by the first endpoint on 1-5 scale (5 = excellent). 0 indicates the user was shown the call rating survey but did not rate their experience.  <br/> **Example value:** 5 | &bull; No survey was shown to the first endpoint  |
 | Second Feedback Rating  | User rating (1-5)  | Rating of the call associated with the stream by the second endpoint on 1-5 scale (5 = excellent). 0 indicates the user was shown the call rating survey but did not rate their experience. <br/> **Example value:** 5 | &bull; No survey was shown to the second endpoint   |
 | First Feedback Tokens  | String  | String containing list of feedback tokens with boolean flag that indicates if token was set by the user providing feedback from the first endpoint. <br/> **Example value:** {DistortedSpeech:1; ElectronicFeedback:1; BackgroundNoise:1; MuffledSpeech:1; Echo:1;}  | &bull; No feedback was provided by the user of the first endpoint  |
@@ -343,7 +343,7 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 | Second Feedback Has Video Issue  | Boolean  | True if feedback tokens from second endpoint indicate stream had a video issue, False otherwise.    | |
 | First Feedback Has AppSharing Issue  | Boolean  | True if feedback tokens from first endpoint indicate stream had an  app sharing issue. False otherwise. | |  
 | Second Feedback Has Appsharing Issue  | Boolean  | True if feedback tokens from second endpoint indicate stream had an app sharing issue. False otherwise. | |  
-|**Audio Signal**|||
+|**Audio Signal**||||
 | First Echo Event Causes  | Flags  | Flags that indicate the reasons the DeviceEchoEvent was raised on the first endpoint. There may be multiple flags for a single stream. Flags include: <br/> BAD_TIMESTAMP - audio sample timestamps from capture or render device used were poor quality <br/> POSTAEC_ECHO - high level of echo remained after echo cancellation <br/> MIC_CLIPPING - signal level from capture device had significant instances of maximum signal level <br/> EVENT_ANLP - audio samples from capture contain high noise. <br/> **Example value:** BAD_TIMESTAMP | &bull; This was a non-audio stream <br/>&bull; No event causes were reported by the first endpoint  |
 | Second Echo Event Causes  | Flags  | Flags that indicate the reasons the DeviceEchoEvent was raised on the second endpoint. There may be multiple flags for a single stream. Flags include: <br/> BAD_TIMESTAMP - audio sample timestamps from capture or render device used were poor quality <br/> POSTAEC_ECHO - high level of echo remained after echo cancellation <br/> MIC_CLIPPING - signal level from capture device had significant instances of maximum signal level <br/> EVENT_ANLP - audio samples from capture contain high noise. <br/> **Example value:** BAD_TIMESTAMP   | &bull; This was a non-audio stream <br/>&bull; No event causes were reported by the first endpoint |
 | First Echo Percent Mic In  | Range (percentage)  | Percentage of time when echo is detected in the audio from the capture or microphone device prior to echo cancellation by the first endpoint. Values grouped by range.  <br/> **Example value:** 068: [5 - 10)  | &bull; This was a non-audio stream <br/>&bull; Data was not reported by first endpoint |
@@ -366,7 +366,7 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 | Second RxAGC Noise Level|Range (dB decibels)|Noise level received at the automatic gain control (AGC) for the second inbound audio stream.||
 | First Render Loopback Signal Level |Range (dB decibels)| Loopback signal level for the first inbound audio stream. ||
 | Second Render Loopback Signal Level |Range (dB decibels)|Loopback signal level for the Second inbound audio stream.||
-|**Client Event** |||
+|**Client Event** ||||
 | First Network Send Quality Event Ratio  | Range (ratio)  | Fraction of the call that the first endpoint detected the network was causing poor quality of the audio sent. Values grouped by range. <br/> **Example value:** 015: [0.01 - 0.02)   | &bull; Indicates a non-audio stream <br/>&bull; Data was not reported by the first endpoint|
 | Second Network Send Quality Event Ratio  | Range (ratio)  | Fraction of the call that the second endpoint detected the network was causing poor quality of the audio sent. Values grouped by range. <br/> **Example value:** 015: [0.01 - 0.02)  | &bull; Indicates a non-audio stream <br/>&bull; Data was not reported by the second endpoint |
 | First Network Receive Quality Event Ratio  | Range (ratio)  | Fraction of the call that the first endpoint detected the network was causing poor quality of the audio received. Values grouped by range. <br/> **Example value:** 015: [0.01 - 0.02)  | &bull; This was a non-audio stream <br/>&bull; Data was not reported by first endpoint |
@@ -399,14 +399,14 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 | Second Device Multiple Endpoints Event Count  | Range (ratio)  | Number of times during the call that the second endpoint detected multiple endpoints in the same room or acoustic environment. Values grouped by range. <br/> **Example value:** 016: [0.02 - 0.03)  | &bull; Indicates a non-audio stream <br/>&bull; Data was not reported by the second endpoint |
 | First Device Howling Event Count  | Range (ratio)  | Number of times during the call that the first endpoint detected two or more endpoints in the same room that caused poor quality audio in the form of howling or screeching audio. Values grouped by range. <br/> **Example value:** 016: [0.02 - 0.03)  | &bull; This was a non-audio stream <br/>&bull; Data was not reported by first endpoint |
 | Second Device Howling Event Count  | Range (ratio)  | Number of times during the call that the second endpoint detected two or more endpoints in the same room or acoustic environment that caused poor quality audio in the form of howling or screeching audio. Values grouped by range. <br/> **Example value:** 016: [0.02 - 0.03)  | &bull; Indicates a non-audio stream <br/>&bull; Data was not reported by the second endpoint |
-|**Call Diagnostic**|||
+|**Call Diagnostic**||||
 | Error Report Sender  | String  | Indicates which endpoint sent the call error report for the stream. This report contains additional telemetry and may indicate call setup or call drop issue with the call. <br/> **Example value:** First | &bull; Indicates no call error report was sent.  |
 | Is Media Error  | String  | Indicates if the call error report for the stream was a media level error or not. This report contains additional telemetry and may indicate call setup or call drop issue with the call.    | &bull; Indicates no call error report was sent. |
 | Media Failure Type  | Enumeration <br/>**Possible values:** <br/>&bull; Midcall <br/>&bull;  CallSetup <br/>&bull;  NotMediaFailure. | The type of media failure associated with the stream.   | &bull; Indicates no call error report was sent.   |
 | Call Classification| Enumeration |Reliability Classification assigned to the call. **Possible values**: Success, Failure, ClassificationUnavailable | |
 | Classification Reason|String|Reason the classification was assigned to the stream.| |
-| Test Call Type|Enumeration|Indicates whether this call is a regular call or a test call. If it's a test call, this indicates the type of test call. <br/>**Possible Values:** NonTest, Silent, UserInitiated, Synthetic <br/>**Meanings:** <br/> NonTest – Regular Call <br/> Silent – Silent Test Call <br/> UserInitiated – User initiated test call <br/>Synthetic – ST endpoint-initiated call|
-|**Session**|||
+| Test Call Type|Enumeration|Indicates whether this call is a regular call or a test call. If it's a test call, this indicates the type of test call. <br/>**Possible Values:** NonTest, Silent, UserInitiated, Synthetic <br/>**Meanings:** <br/> NonTest – Regular Call <br/> Silent – Silent Test Call <br/> UserInitiated – User initiated test call <br/>Synthetic – ST endpoint-initiated call||
+|**Session**||||
 | RTP RTCP Mux  | Boolean  | True indicates that RTP and RTCP were multiplexed on the same ports. False otherwise.    | <br/>&bull; Data was not reported by the endpoint  |
 | Stun Version  | Integer  | Version of STUN protocol used for establishing the call.  | <br/>&bull; Data was not reported by the endpoint <br/> **Example value:** 2  |
 | Media Relay  | String  | IP address for Media relay(s) used for the session. May report a pair of relay separated by a '+' if the stream. <br/> **Example value:** "13.107.8.2 + 13.107.8.2"  | &bull; This data was not reported by the endpoints  |
@@ -414,8 +414,8 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 | Has Media Diagnostic Blob  | Boolean  | True if session had media diagnostics data, False otherwise.   | &bull; Some signaling data was not collected for this stream   |
 | Call Setup Failure Reason  | Enumeration  | Classification of why media connection could not be established for a call. <br/>**Possible values:** <br/> **Missing FW Deep Packet Inspection Exemption Rule** - indicates that network equipment along the path likely prevented the media path from being established due to deep packet inspection rules. This may be due to proxy or firewall rules not being correctly configured. <br/> **Missing FW IP Block Exemption Rule** - indicates that network equipment along the path likely prevented the media path from being established to the Office 365 network. This may be due to proxy or firewall rules not being correctly configured to allow access to IP addresses and ports used for Skype for Business traffic. <br/> **Other** - indicates the media path for the call could not be established but the root cause could not be classified. <br/> Not Media Failure - indicates no issue was detected with the establishment of the media path.  | &bull; Call set up failed due to an unknown media issue  |
 | Session Type  | Enumeration <br/>**Possible values:** <br/> Conf, P2P  | Indicates if the call session type was a meeting (Conf) or peer-to-peer call (P2P) scenario. <br/> **Example value:** Conf | |
-| CDR Response Reason  | Enumeration <br/>**Possible values:** <br/> 0 or 200 = "OK" <br/> 410 = "MediaConnectivityErrors"<br/> 480 = "UserUnavailable"<br/> 487 = "PickupTimedOut" <br/> 603 = "CallDeclined" | All other CDR codes = "Other" | Provides the reason for a call session concluding, whether the call was successful or not, and allows for differentiation between incomplete calls (no answer, busy, declined) and failed calls (media establishment). <br/> **Example value:** OK | <br/>&bull; A value of "Other" implies response code is not diagnostically useful outside of Microsoft's engineering teams |
-|**DNS**|||
+| CDR Response Reason  | Enumeration <br/>**Possible values:** <br/> 0 or 200 = "OK" <br/> 410 = "MediaConnectivityErrors"<br/> 480 = "UserUnavailable"<br/> 487 = "PickupTimedOut" <br/> 603 = "CallDeclined" <br/> All other CDR codes = "Other" | Provides the reason for a call session concluding, whether the call was successful or not, and allows for differentiation between incomplete calls (no answer, busy, declined) and failed calls (media establishment). <br/> **Example value:** OK | <br/>&bull; A value of "Other" implies response code is not diagnostically useful outside of Microsoft's engineering teams |
+|**DNS**||||
 | Used DNS Resolve Cache  | Boolean  | True if endpoint used DNS cache to resolve media relay address, False otherwise.    | <br/>&bull; This data was not reported by the endpoint    |
 |**UserData**| |||
 | First User ObjectId|String|The Active Directory object ID of the first endpoint's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.  | |
@@ -429,25 +429,25 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 | First UPN|String|The user principal name (UPN) of the first endpoint's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| &bull; Not all UserTypes have UPNs; include the Second UserType or Second User ObjectId dimensions to learn more about these endpoints. |
 | Second UPN|String|The user principal name (UPN) of the second endpoint's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| &bull; Not all UserTypes have UPNs; include the Second UserType or Second User ObjectId dimensions to learn more about these endpoints. |
 | First Feedback Text|String|Verbatim feedback text, if any, provided by first endpoint's user at the end of a call. Only available for the past 28 days of data and only visible to users with roles allowing EUII access. | |
-| Second Feedback Text|String| Verbatim feedback text, if any, provided by second endpoint's user at the end of a call. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.|
-| First Client Endpoint Name|String|The machine name of the first endpoint. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.|
-| Second Client Endpoint Name|String|The machine name of the second endpoint. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.|
-| First Endpoint Product Name|String|The product name of the first endpoint (either Skype for Business or Microsoft Teams).|
-| Second Endpoint Product Name|String|The product name of the second endpoint (either Skype for Business or Microsoft Teams).|
+| Second Feedback Text|String| Verbatim feedback text, if any, provided by second endpoint's user at the end of a call. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.||
+| First Client Endpoint Name|String|The machine name of the first endpoint. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.||
+| Second Client Endpoint Name|String|The machine name of the second endpoint. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.||
+| First Endpoint Product Name|String|The product name of the first endpoint (either Skype for Business or Microsoft Teams).||
+| Second Endpoint Product Name|String|The product name of the second endpoint (either Skype for Business or Microsoft Teams).||
 | First UserType|Enumeration string|The type of user on the first endpoint. <br/> **Possible values:** User, Server, Anonymous, Application, PSTN, Voicemail, Unknown <br/> <br/>**Unknown** -   the default value if UserType can't be determined based on the info received. <br/>**PSTN** - a PSTN User. <br/>**Anonymous** - a Teams user or Skype for Business visitor. <br/>**Application** - a bot. <br/>**User** - an AAD User, can be either Skype for Business User or Teams User. <br/>**Server** - for conferences, at least one side is a server. <br/>**Voicemail** - the endpoint was answered by the voicemail service.||
 | Second UserType|Enumeration string|The type of user on the second endpoint. <br/> **Possible values:** User, Server, Anonymous, Application, PSTN, Voicemail, Unknown <br/> <br/>**Unknown** -   the default value if UserType can't be determined based on the info received. <br/>**PSTN** - a PSTN User. <br/>**Anonymous** - a Teams user or Skype for Business visitor. <br/>**Application** - a bot. <br/>**User** - an AAD User, can be either Skype for Business User or Teams User. <br/>**Server** - for conferences, at least one side is server. <br/>**Voicemail** - the endpoint was answered by voicemail service.||
 | Organizer ObjectId|String|The Active Directory object ID of the meeting organizer's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.  | &bull; User does not have permissions to view EUII. &bull; Record is older than 28 days. |
 | Organizer UPN|String|The user principal name (UPN) of the meeting organizer's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| &bull; User does not have permissions to view EUII. &bull; Record is older than 28 days. |
-| Organizer Sip Uri|String|The Session Initiation Protocol (SIP) URI of the meeting organizer's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| &bull; Populated only for Skype for Business endpoints. <br/>&bull; User does not have permissions to view EUII. &bull; Record is older than 28 days. |
-|**Devices**|||
+| Organizer Sip Uri|String|The Session Initiation Protocol (SIP) URI of the meeting organizer's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| &bull; Populated only for Skype for Business endpoints. <br/>&bull; User does not have permissions to view EUII. &bull; Record is older than 28 days.|
+|**Devices**||||
 | First Capture Device Form Factor|Enumeration string|The form factor of the audio capture device (microphone) on the first endpoint. | &bull; Not reported by the endpoint. |
 | Second Capture Device Form Factor|Enumeration string|The form factor of the audio capture device (microphone) on the first endpoint. | &bull; Not reported by the endpoint. |
 | First Render Device Form Factor|Enumeration string|The form factor of the audio capture device (speakers) on the first endpoint. | &bull; Not reported by the endpoint. |
 | Second Render Device Form Factor|Enumeration string|The form factor of the audio capture device (speakers) on the first endpoint. | &bull; Not reported by the endpoint. |
-|**Video**|||
+|**Video**||||
 | First Video Duration Seconds |Range (seconds)| Duration of the first endpoint's video stream, measured in seconds and displayed as a range. <br/>**Example value:** 254: [1000 - 1500] | &bull; Not reported by the endpoint. |
 | Second Video Duration Seconds |Range (seconds)| Duration of the second endpoint's video stream, measured in seconds and displayed as a range. <br/>**Example value:** 254: [1000 - 1500] | &bull; Not reported by the endpoint. |
-|**PSTN**|||
+|**PSTN**||||
 |First PSTN Country Region|String|If FirstIsCaller is true, First PSTN Country Region is the caller's country. If it is false, then Second PSTN Country region is the caller's country.<br/>**Example:** US||
 |Second PSTN Country Region|String|If FirstIsCaller is false, Second PSTN Country Region is the caller's country. If it is true, then First PSTN Country region is the caller's country.<br/>**Example:** US||
 |PSTN Trunk FQDN|String|FQDN is the fully qualified domain name (FQDN) of the Session Border Controller (SBC).<br/>**Example:** sbcgw.contoso.com||
@@ -481,9 +481,9 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 |Call Queue Timed Out Time|Integer|The configured timed out value for the Call Queue. ||
 |Is Auto Attendant Involved|Boolean| If True, an Auto Attendant was involved in a given call or stream.||
 |Is Call Queue Involved|Boolean|If True, a Call Queue was involved in a given call or stream. ||
-|**Meeting**|||
+|**Meeting**||||
 |Scheduling Source App Id|String |The AppID of the first or third-party scheduling client that booked the meeting.|The scheduling client has not provided this parameter through its telemetry.|
-|**Datapair**|||
+|**Datapair**||||
 | Network Connection Detail Pair  | Enumerated pair <br/>**Possible values:** <br/> wifi : wifi <br/> wifi : wired <br/> Wired : wifi <br/> Wired : Wired <br/> MobileBB : MobileBB <br/> MobileBB : Other <br/> MobileBB : Tunnel <br/> MobileBB : wifi <br/> MobileBB : Wired <br/> Other : Other <br/> Other : wifi <br/> Other : Wired <br/> Tunnel : Tunnel <br/> Tunnel : wifi <br/> Tunnel : Wired <br/> : MobileBB <br/> : Other <br/> : Tunnel <br/> : wifi <br/> : Wired <br/> :  | Pair of network connection detail for the first and second endpoint.  | &bull; Endpoint network connectivity type was unknown. This may happen if the call could not be established.   |
 | User Agent Category Pair  | Enumerated pair  | Pair of User Agent Category for first and second endpoint. <br/> **Example value:** AV-MCU : OC  | &bull; Endpoint user agent was not a known type  |
 | Is Server Pair  | Enumerated pair <br/>**Possible values:** Client : Client <br/> Client : Server <br/> Server : Server  | Pair of identification of first and second endpoints as either Client or Server.  | no Blank values   |
@@ -492,9 +492,9 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 | Tenant Id Pair  | Enumerated pair  | Pair of the tenant ids for first and second endpoint. <br/> **Example value:** 00000000 — 0000 - 0000 - 0000 — 000000000000 : 00000000 — 0000 - 0000 - 0000 — 000000000000  |  &bull; The tenant identifier could not be determined. This may happen if endpoint is signed in to an on-premise Skype for Business Server deployment.  |
 | Building Name Pair  | Enumerated pair  | Pair of the building name for the first and second endpoint.  | &bull; The building name for an endpoint could not be determined. This could be because the endpoint is located outside the corporate network, or is accessing the network from a site without a subnet mapping. <br/> **Example value:** Main Building : Branch Site Building |
 | Inside Corp Pair  | Enumerated pair <br/>**Possible values:** <br/> Inside : Inside <br/> Inside : Outside <br/> Outside : Outside | Pair showing if the endpoints were located inside or outside the corporate network based on the subnet mapping.   |   |
-|**Scenario**|||
+|**Scenario**||||
 | Scenario Pair  | Enumerated pair  | Pair showing if the endpoints were located inside or outside the corporate network based on the subnet mapping and the network connection detail. <br/> **Note:** The pairs are separated by '--'. <br/> **Example value:** Client-Inside--Client-Inside-wifi  | &bull; The network connectivity type was unknown for either or both endpoints.  |
-||||
+
 
 
 ### Notes on dimension data type/units
@@ -572,8 +572,8 @@ Many Measurement values can also be used as filters. The following table lists t
 |Firewall DPI Media Failure Percentage |Percentage |Percentage of streams that failed to be established due to network equipment blocking access due to deep packet inspection not allowing Skype for Business traffic. These failures typically indicate a proxy, firewall or other network security device is not correctly configured to access the IP address and ports used by Skype for Business in Microsoft 365 or Office 365. |
 |Media Failed Due To Firewall IP Blocked Stream Count |Number of streams |Number of streams that failed to be established due to network equipment blocking access to Skype for Business servers. These failures typically indicate a proxy, firewall or other network security device is not correctly configured to access the IP address and ports used by Skype for Business in Microsoft 365 or Office 365. |
 |Firewall IP Blocked Media Failure Percentage |Percentage |Percentage of streams that failed to be established because network equipment blocked access to Skype for Business servers. These failures typically indicate a proxy, firewall, or other network security device is not correctly configured to access the IP address and ports used by Skype for Business in Microsoft 365 or Office 365. |
-| Media Failed Due To Other Stream Count|Number of streams| Number of streams where media path could not be established between the endpoints due to an undetermined/unclassified reason.| |
-| Other Media Failure Percentage|Percentage| Percentage of streams where media path could not be established between the endpoints due to an undetermined/unclassified reason. ||
+| Media Failed Due To Other Stream Count|Number of streams| Number of streams where media path could not be established between the endpoints due to an undetermined/unclassified reason.|
+| Other Media Failure Percentage|Percentage| Percentage of streams where media path could not be established between the endpoints due to an undetermined/unclassified reason. |
 | Total CDR Available Call Count|Number of streams|Total number of media streams with reliability/diagnostics information available. There is an up to 0.2% error for this measure. See note below for details.|
 | Total Media Failed Call Count|Number of streams|Number of streams where media path could not be established between the endpoints. There is an up to 0.2% error for this measure. See note below for details.|
 |Audio Stream Count |Number of streams |Number of audio streams. |
@@ -645,11 +645,11 @@ Many Measurement values can also be used as filters. The following table lists t
 |Avg First Echo Percent Send |Percentage |Average percentage of time during the stream that the first endpoints detected echo in the audio from the capture or microphone device after echo cancellation. |
 |Avg Second Echo Percent Send |Percentage |Average percentage of time during the stream that the second endpoints detected echo in the audio from the capture or microphone device after echo cancellation. |
 | Avg First Initial Signal Level RMS| Range (Decibels) |Average of the root-mean-square (RMS) of the received signal for the first 30 seconds of the call for the first endpoint.  See [2.2.1.28.1 Child Elements](/openspecs/office_protocols/ms-qoe/3c78f383-73fe-49f6-89cb-614e7aa8b2e7) for more information|
-| Avg Second Initial Signal Level RMS|Range (Decibels) |Average of the root-mean-square (RMS) of the received signal for the first 30 seconds of the call for the second endpoint.||
-| Avg First RxAGC Signal Level|Range (Decibels)  |Average signal level received at the automatic gain control for the first inbound audio stream. | |
-| Avg Second RxAGC Signal Level|Range (Decibels) |Average signal level received at the automatic gain control for the second inbound audio stream.| |
-| Avg First RxAGC Noise Level|Range (Decibels) |Average noise level received at the automatic gain control for the first inbound audio stream.||
-| Avg Second RxAGC Noise Level|Range (Decibels) |Average noise level received at the automatic gain control for the second inbound audio stream.| |
+| Avg Second Initial Signal Level RMS|Range (Decibels) |Average of the root-mean-square (RMS) of the received signal for the first 30 seconds of the call for the second endpoint.|
+| Avg First RxAGC Signal Level|Range (Decibels)  |Average signal level received at the automatic gain control for the first inbound audio stream. |
+| Avg Second RxAGC Signal Level|Range (Decibels) |Average signal level received at the automatic gain control for the second inbound audio stream.|
+| Avg First RxAGC Noise Level|Range (Decibels) |Average noise level received at the automatic gain control for the first inbound audio stream.|
+| Avg Second RxAGC Noise Level|Range (Decibels) |Average noise level received at the automatic gain control for the second inbound audio stream.|
 | Avg First Render Loopback Signal Level|Range (Decibels) | Average level of first speaker loopback signal (after any device offload effects have been applied).|
 | Avg Second Render Loopback Signal Level|Range (Decibels) | Average level of second speaker loopback signal (after any device offload effects have been applied).|
 |Avg First Audio Send Signal Level |Decibels |Average energy level of sent audio for audio classified as mono speech, or left channel of stereo speech sent by first endpoints. |
@@ -680,27 +680,27 @@ Many Measurement values can also be used as filters. The following table lists t
 | Avg Send Listen MOS |Number |Average of the prediction of the Wideband Listening Quality Mean Opinion Score (MOS-LQ) of the audio stream that is being sent from the user. <br/>See "Avg. sending MOS" at [Lync Monitoring Reports Decoder](https://gallery.technet.microsoft.com/Lync-Reports-Decoder-001ba287)|
 |Avg Overall Avg Network MOS |Mean Opinion Score (0-5) |Average or average network Mean Opinion Score for streams. Represents the average predicted quality of received audio factoring in network loss, jitter, and codec. |
 |Avg Ratio Concealed Samples |Ratio |Average of average ratio of the number of audio frames with samples generated by packet loss concealment to the total number of audio frames for streams. 0.1 indicates 10% of frames contained concealed samples. |
-| Avg Conceal Ratio Max| Ratio |Average of the maximum ratios of the number of audio frames with samples generated by packet loss concealment to the total number of audio frames for streams. 0.1 indicates 10% of frames contained concealed samples.| |
+| Avg Conceal Ratio Max| Ratio |Average of the maximum ratios of the number of audio frames with samples generated by packet loss concealment to the total number of audio frames for streams. 0.1 indicates 10% of frames contained concealed samples.|
 |Avg Ratio Stretched Samples |Ratio |Average of average ratio of the number of audio frames with samples that have been stretched to compensate for jitter or loss to the total number of audio frames for streams. 0.1 indicates 10% audio frames contained stretched samples. |
-| Avg Healer Packet Drop Ratio|Range (Ratio)|Average ratio of audio packets dropped by healer over total number of audio packets received by healer. | |
+| Avg Healer Packet Drop Ratio|Range (Ratio)|Average ratio of audio packets dropped by healer over total number of audio packets received by healer. |
 | Avg Healer FEC Packet Used Ratio|Range (Ratio)|Average ratio of used FEC packets over total number of received FEC packets.|
 |Avg Round Trip |Milliseconds |Average of average network propagation round-trip time computed as specified in RFC3550 in milliseconds for streams. |
 |Avg Round Trip Max |Milliseconds |Average of maximum network propagation round-trip time computed as specified in RFC3550 in milliseconds for streams. |
  Avg Packet Utilization|Number of packets|Average number of Real-Time Transport Protocol (RTP) packets sent per second in the session.|
 |Avg Network Jitter |Milliseconds |   Average of network jitter computed over 20 second windows during the session. |
-| Avg Network Jitter Max|Milliseconds |Average of maximum network jitter in milliseconds computed over 20 second windows during the session.  ||
-| Avg Network Jitter Min|Milliseconds|Average of minimum network jitter values in milliseconds computed over 20 second windows during the session for streams.| |
-| Avg Jitter Buffer Size Max|Milliseconds|Maximum size of jitter buffer during session.| |
-| Avg Jitter Buffer Size Min|Milliseconds|Minimum size of jitter buffer during session.| |
-| Avg Relative OneWay |Milliseconds|Average computed relative one way delay of the peer.| |
-| Avg Relative OneWay Gap Occurrences|Milliseconds|Average number of instances of gaps in the relative one way delay of the peer.| |
-| Avg Relative OneWay Gap Density|Milliseconds|Average density of gaps in the relative one way delay of the peer.| |
-| Avg Relative OneWay Gap Duration|Number (Milliseconds)|Average duration of gaps in the relative one way delay of the peer.| |
+| Avg Network Jitter Max|Milliseconds |Average of maximum network jitter in milliseconds computed over 20 second windows during the session.  |
+| Avg Network Jitter Min|Milliseconds|Average of minimum network jitter values in milliseconds computed over 20 second windows during the session for streams.|
+| Avg Jitter Buffer Size Max|Milliseconds|Maximum size of jitter buffer during session.|
+| Avg Jitter Buffer Size Min|Milliseconds|Minimum size of jitter buffer during session.|
+| Avg Relative OneWay |Milliseconds|Average computed relative one way delay of the peer.|
+| Avg Relative OneWay Gap Occurrences|Milliseconds|Average number of instances of gaps in the relative one way delay of the peer.|
+| Avg Relative OneWay Gap Density|Milliseconds|Average density of gaps in the relative one way delay of the peer.|
+| Avg Relative OneWay Gap Duration|Number (Milliseconds)|Average duration of gaps in the relative one way delay of the peer.|
 |Avg Audio Post FECPLR |Ratio |Average of packet loss rate after FEC has been applied for aggregated across all audio streams and codecs for streams. |
 |Avg Video Post FECPLR |Ratio |Average of packet loss rate after FEC has been applied for aggregated across all video streams and codecs for streams. |
 |Avg Video Local Frame Loss Percentage |Percentage |Average percentage of video frames lost as displayed to the user for streams. This includes frames recovered from network losses. |
- |Avg Video Received Frame Rate Average |Frames per second |Average of average frames per second received for all video streams computed over the duration of the session for streams. |
- |Avg Video Low Frame Rate Call Percent |Percentage |Average of percentage of time of the call where frame rate is less than 7.5 frames per second for streams. |
+|Avg Video Received Frame Rate Average |Frames per second |Average of average frames per second received for all video streams computed over the duration of the session for streams. |
+|Avg Video Low Frame Rate Call Percent |Percentage |Average of percentage of time of the call where frame rate is less than 7.5 frames per second for streams. |
 |Avg Video Packet Loss Rate |Ratio |Average of average fraction of packets lost, as specified in [RFC3550](https://tools.ietf.org/html/rfc3550), computed over the duration of the session for streams. |
 |Avg Video Frame Rate |Frames per second |Average frames per second received for a video stream, computed over the duration of the session. Values grouped by range. |
 |Avg Video Dynamic Capability Percent |Milliseconds |Average of percentage of time that the client is running < 70% expected video processing capability for this type of CPU for streams. |
@@ -711,8 +711,8 @@ Many Measurement values can also be used as filters. The following table lists t
 |Avg Second Device Capture Not Functioning Event Ratio |Ratio |Average of the fraction of the call that the second endpoint detected the capture device was not working properly. |
 |Avg First Device Render Not Functioning Event Ratio |Ratio |Average of the fraction of the call that the first endpoint detected the render device was not working properly. |
 |Avg Second Device Render Not Functioning Event Ratio |Ratio |Average of the fraction of the call that the second endpoint detected the render device was not working properly. |
-|Avg First Mic Glitch Rate| Number of glitches|Average First Mic Glitch Rate (glitches per 5 minutes for the endpoint microphone) for the stream.  ||
-| Avg Second Mic Glitch Rate|Number of glitches|Average Second Mic Glitch Rate (glitches per 5 minutes for the endpoint microphone) for the stream. ||
+|Avg First Mic Glitch Rate| Number of glitches|Average First Mic Glitch Rate (glitches per 5 minutes for the endpoint microphone) for the stream.  |
+| Avg Second Mic Glitch Rate|Number of glitches|Average Second Mic Glitch Rate (glitches per 5 minutes for the endpoint microphone) for the stream. |
 | Avg First Speaker Glitch Rate|Number of glitches|Average First Speaker Glitch Rate (glitches per 5 minutes for the endpoint loudspeaker) for the stream. |
 | Avg Second Speaker Glitch Rate|Number of glitches|Average Second Speaker Glitch Rate (glitches per 5 minutes for the endpoint loudspeaker) for the stream. |
 | First User Count|Number | Number of unique or distinct first endpoint users. Only available for the past 28 days of data. There is an up to 0.2% error for this measure. See note below for details.|
@@ -740,7 +740,7 @@ Many Measurement values can also be used as filters. The following table lists t
 |PSTN Outgoing Post Dial Delay| Milliseconds | The delay that occurs on outgoing calls measured from the time a number has been dialed until the caller or called party hears ringing.|
 |PSTN Incoming Post Dial Delay | Milliseconds | The time or delay that occurs on incoming calls measured from the time a number has been dialed until the caller or called party hears ringing.|
 |PSTN NER Good Percentage | Percentage | The NER measures the ability of a network to deliver calls by measuring the number of calls sent versus the number of calls delivered to a recipient.<br/>NER = (Answered calls + User Busy + Ring no Answer + Terminal Reject Seizures）/ Total Attempt Calls x 100.There is an up to 0.2% error for this measure. See note below for details.|
-||||
+
 
 ### Notes on measurements
 

@@ -2,6 +2,14 @@
 
 
 
+## Week of September 13, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/15/2021 | [Skype for Business Server updates](/SkypeForBusiness/sfb-server-updates) | modified |
+
+
 ## Week of August 23, 2021
 
 
