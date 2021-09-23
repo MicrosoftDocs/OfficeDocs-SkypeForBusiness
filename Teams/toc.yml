@@ -328,8 +328,6 @@ items:
       href: manage-teams-overview.md
     - name: Administrator roles
       href: using-admin-roles.md
-    - name: Manage Teams during the transition to the new Microsoft Teams admin center
-      href: manage-teams-skypeforbusiness-admin-center.md
     - name: Manage Teams in the Microsoft Teams admin center
       href: manage-teams-in-modern-portal.md
     - name: Manage Teams settings for your organization
