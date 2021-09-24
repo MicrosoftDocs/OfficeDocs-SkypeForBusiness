@@ -67,7 +67,7 @@ If you define an emergency address by using the address map search feature in th
 >To assign an emergency location to a network identifier for dynamic emergency calling, the emergency address must contain an appropriate geo code.
 
 
-## Considerations for Microsoft Calling Plans
+## Considerations for Calling Plans
 
 To find out whether Calling Plans are available in your area, see [Country and region availability for Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
