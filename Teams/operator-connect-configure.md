@@ -26,7 +26,7 @@ appliesto:
 # Configure Operator Connect
 
 >[!NOTE]
->Operator Connect is currently available only in **public preview**. Public preview allows you to test upcoming features and provide feedback. Features included in public preview may not be complete, may undergo changes, and are not supported in Office 365 Government Clouds.
+>Operator Connect is currently available only in **public preview**. Public preview allows you to test upcoming features and provide feedback. Features included in public preview may not be complete, may undergo changes, and are not supported in Office 365 Government Clouds. 
 
 This article describes how to configure Operator Connect. Before configuring Operator Connect, be sure to read [Plan for Operator Connect](operator-connect-plan.md) for information about prerequisites and licensing.
 
@@ -139,22 +139,3 @@ From the My operators tab, you can view your operators and their status and make
 
 > [!NOTE]
 > Before removing an operator from your organization or from a country, you must remove all phone numbers assigned to users in the organization or country and contact the operator to release the numbers.
-
-## Operators
-
-You can acquire phone numbers from the following operators by going to the websites linked here:
-
-
-|Operator  |Operator website  |
-|---------|---------|
-|`BT`     | 	https://www.globalservices.bt.com/en/aboutus/operator-connect        |
-|`Deutsche Telekom`     |   https://cloud.telekom.de/de/blog/cloud-software/microsoft-teams-operator-connect      |
-|`Intrado`     | https://insight.intrado.com/operator-connect       |
-|`NTT`     |  https://www.hello.global.ntt/operator-connect       |
-|`NuWave`     |   https://ipilot.io/microsoft-operator-connect/   |
-|`Orange Business Services`     | https://www.orange-business.com/en/blogs/operator-connect-orange-and-microsoft-streamline-calling-for-teams-users        |
-|`Pure IP`    | https://info.pure-ip.com/operator-connect        |
-|`Rogers`    | https://www.rogers.com/business/products-and-solutions/microsoft-365-business-voice        |
-|`TATA Communications`     |  https://www.tatacommunications.com/solutions/unified-communications/unified-communications-as-a-service/microsoft-teams-solutions/       |
-|`Telenor`     | https://www.telenor.no/bedrift/telefoni/teams/operator-connect        |
-|`Verizon`     |  https://www.verizon.com/business/resources/lp/operator-connect       |
