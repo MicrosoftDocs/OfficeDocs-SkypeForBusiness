@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4d93424f-9072-43f5-83c2-3d539e3e9ca6
 description: "The Dialog table is a supporting table; each record represents one Session Initiation Protocol (SIP) dialog."
 ---

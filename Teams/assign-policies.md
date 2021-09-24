@@ -12,7 +12,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn the different ways to assign policies to your users in Microsoft Teams.
 f1keywords: 
@@ -36,17 +36,17 @@ A user has one effective policy for each policy type. It's possible, or even lik
 
 If a user is directly assigned a policy (either individually or through a batch assignment), that policy takes precedence. In the following visual example, the user's effective policy is the Lincoln Square meeting policy, which is directly assigned to the user.
 
-![Diagram showing how a directly assigned policy takes precedence](media/assign-policies-example-directly-assigned.png)
+![Diagram showing how a directly assigned policy takes precedence.](media/assign-policies-example-directly-assigned.png)
 
 If a user isn't directly assigned a policy of a given type, the policy assigned to a group that the user is a member of takes precedence. If a user is a member of multiple groups, the policy that has the highest [group assignment ranking](#group-assignment-ranking) for the given policy type takes precedence.
 
 In this visual example, the user's effective policy is the Exec Teams and HD policy, which has the highest assignment ranking relative to other groups that the user is a member of and that are also assigned a policy of the same policy type.  
 
-![Diagram showing how a policy inherited from  group takes precedence](media/assign-policies-example-group.png)
+![Diagram showing how a policy inherited from  group takes precedence.](media/assign-policies-example-group.png)
 
 If a user isn't directly assigned a policy or isn't a member of any groups that are assigned a policy, the user gets the global (Org-wide default) policy for that policy type. Here's a visual example.
 
-![Diagram showing how a global policy takes precedence](media/assign-policies-example-global.png)
+![Diagram showing how a global policy takes precedence.](media/assign-policies-example-global.png)
 
 To learn more, see [Precedence rules](#precedence-rules).
 
@@ -131,7 +131,7 @@ Or, you can also do the following:
 
 ### Use PowerShell
 
-Each policy type has its own set of cmdlets for managing it. Use the ```Grant-``` cmdlet for a given policy type to assign the policy. For example, use the ```Grant-CsTeamsMeetingPolicy``` cmdlet to assign a Teams meeting policy to users. These cmdlets are included in the Teams PowerShell module and are documented in the [Skype for Business cmdlet reference](/powershell/skype/intro?view=skype-ps).
+Each policy type has its own set of cmdlets for managing it. Use the `Grant-` cmdlet for a given policy type to assign the policy. For example, use the `Grant-CsTeamsMeetingPolicy` cmdlet to assign a Teams meeting policy to users. These cmdlets are included in the Teams PowerShell module and are documented in the [Skype for Business cmdlet reference](/powershell/skype/intro?view=skype-ps&preserve-view=true).
 
 Download and install the [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/) (if you haven't already), and then run the following to connect.
 
@@ -303,7 +303,7 @@ Set-CsGroupPolicyAssignment -GroupId 566b8d39-5c5c-4aaa-bc07-4f36278a1b38 -Polic
 
 Here's an example of how to change the effective policy for a user who is directly assigned a policy.
 
-First, we use the [Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment) cmdlet together with the `PolicySource` parameter to get details of the Teams meeting broadcast policies associated with the user.
+First, we use the [Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment) cmdlet together with the ```PolicySource``` parameter to get details of the Teams meeting broadcast policies associated with the user.
 
 ```powershell
 Get-CsUserPolicyAssignment -Identity daniel@contoso.com -PolicyType TeamsMeetingBroadcastPolicy | select -ExpandProperty PolicySource
@@ -389,7 +389,7 @@ When you're prompted, sign in using the same admin credentials that you used to 
 
 #### Assign a setup policy to a batch of users
 
-In this example, we use the [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet to assign an app setup policy named HR App Setup Policy to a batch of users listed in the Users_ids.txt file.
+In this example, we use the [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet to assign an app setup policy named HR App Setup Policy to a batch of users listed in the Users_ids.text file.
 
 ```powershell
 $users_ids = Get-Content .\users_ids.txt
@@ -456,6 +456,11 @@ When you assign the policy package, it's immediately assigned to the group. Howe
 ### Assign a policy package to a group of users in the admin center
 
 1. Sign in to the Teams admin center.
+2. In the left navigation, go to the policy package page.
+3. Select the Group package assignment tab.
+4. Select **Add group**, and then in the Assign a policy package to group pane, do the following:
+
+   - Search for and add the group you want to assign the policy package to.
 
 2. In the left navigation, go to the policy package page.
 
@@ -471,7 +476,7 @@ When you assign the policy package, it's immediately assigned to the group. Howe
     
     1. Select **Apply**.
     
-    ![shows the group policy assignment](media/group-pkg-assignment.png)
+    ![shows the group policy assignment.](media/group-pkg-assignment.png)
 
 5. To manage ranking for a specific policy type, navigate to the specific policy page.
 

@@ -9,7 +9,7 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: "Summary: Read this topic to learn how to configure the client experience for Skype for Business users."
 ---
@@ -197,12 +197,10 @@ Next, you'll need to link the GPO you created to the group of users that you wan
     
 3. On the target user's computer, open a command prompt and type the following command:
        
-```console
-gpupdate /target:user
-```
-
-    
-    The message "Updating policy..." is displayed while the GPO is applied. When it is completed, the message "User Policy update has completed successfully" is displayed.
+   ```console
+   pupdate /target:user
+   ```
+     The message "Updating policy..." is displayed while the GPO is applied. When it is completed, the message "User Policy update has completed successfully" is displayed.
     
 4. At the command prompt, type the following command:
     

@@ -33,13 +33,13 @@ You can create a resource account in the Teams admin center.
 
 3. In the **Add resource account** pane, fill out **Display name**, **Username**, and choose **Auto attendant** for the **Resource account type**
 
-    ![Screenshot of add resource account user interface](../media/resource-account-add.png)
+    ![Screenshot of add resource account user interface.](../media/resource-account-add.png)
 
 4. Click **Save**.
 
     The new account will appear in the list of accounts.
 
-    ![Screenshot of a list of resource accounts](../media/resource-accounts-page.png)
+    ![Screenshot of a list of resource accounts.](../media/resource-accounts-page.png)
 
 ### Assign a license
 
@@ -51,7 +51,7 @@ You must assign a *Microsoft 365 Phone System - Virtual User* license to the res
 
 3. Click **Save changes**.
 
-    ![Screenshot of assign licenses user interface in the Microsoft 365 admin center](../media/resource-account-assign-virtual-user-license.png)
+    ![Screenshot of assign licenses user interface in the Microsoft 365 admin center.](../media/resource-account-assign-virtual-user-license.png)
 
 ### Assign a service number
 
@@ -63,7 +63,7 @@ If you need this auto attendant to be reachable by a phone number, then assign t
 
 3. In the **Assigned phone number** box, search for the number you want to use and click **Add**.
 
-    ![Screenshot of the assign service number user interface](../media/resource-account-assign-phone-number.png)
+    ![Screenshot of the assign service number user interface.](../media/resource-account-assign-phone-number.png)
 
 4. Click **Save**.
 
@@ -86,7 +86,7 @@ To set up an auto attendant
 
 6. Choose if you want to enable voice inputs. When enabled, the name of every menu option becomes a speech-recognition keyword. For example, callers can say "One" to select the menu option mapped to key 1, or they can say "Sales" to select the menu option named "Sales."
 
-    ![Screenshot of auto attendant settings for name, operator, time zone, language, and voice inputs](../media/auto-attendant-general-info-page-new.png)
+    ![Screenshot of auto attendant settings for name, operator, time zone, language, and voice inputs.](../media/auto-attendant-general-info-page-new.png)
 
 7. Click **Next**.
 
@@ -103,7 +103,7 @@ Choose your call flow options
 
     If you select **Type a greeting message** the system will read the text you the text that you type (up to 1000 characters) when the auto attendant answers a call.
 
-    ![Screenshot of greeting message settings](../media/auto-attendant-call-flow-greeting-message.png)
+    ![Screenshot of greeting message settings.](../media/auto-attendant-call-flow-greeting-message.png)
 
 2. Choose how you want to route the call.
 
@@ -113,7 +113,7 @@ Choose your call flow options
 
     If you select **Play menu options**, you can choose to **Play an audio file** or **Type in a greeting message** and then choose between menu options and directory search.
 
-    ![Screenshot of call routing settings](../media/auto-attendant-call-flow-route-call-message.png)
+    ![Screenshot of call routing settings.](../media/auto-attendant-call-flow-route-call-message.png)
 
 3. If you want callers to use dial keys to navigate, then under **Set menu options**, choose what you want to happen when callers press a dial key. (If you're creating this auto attendant as a company directory, leave the dial key options blank.)
 
@@ -135,7 +135,7 @@ Choose your call flow options
 
     - **Redirect to** - where you want the call to go when callers choose this option. If you are redirecting to an auto attendant or call queue, choose the resource account associated with it.
 
-    ![Screenshot of dial key options](../media/auto-attendant-call-flow-menu-options-complete.png)
+    ![Screenshot of dial key options.](../media/auto-attendant-call-flow-menu-options-complete.png)
 
 4. If you want to use this auto attendant as a company directory, then under **Directory search**, select **Dial by name**. When you enable this option, callers can say the user's name or type it on the telephone keypad. Any online user with a Phone System license is an eligible user and can be found with Dial by name. 
 
@@ -154,7 +154,7 @@ Depending on how you have configured your auto attendants and call queues, you m
 
 If you want separate call routing for after-hours callers, then specify your business hours for each day. Click **Add new time** to specify multiple sets of hours for a given day, for example, to specify a lunch break.
 
-![Screenshot of after hours day and time settings](../media/auto-attendant-business-hours.png)
+![Screenshot of after hours day and time settings.](../media/auto-attendant-business-hours.png)
 
 Once you have specified your business hours, then choose your call routing options for after hours. The same options are available as for the business hours call routing that you specified in **Step 3 - Call flow**.
 
@@ -177,19 +177,19 @@ Your auto attendant can have a call flow for each holiday you've set up. You can
 
 4. Choose the type of greeting that you want to use.
 
-    ![Screenshot of holiday and holiday greeting settings](../media/auto-attendant-holiday-greeting.png)
+    ![Screenshot of holiday and holiday greeting settings.](../media/auto-attendant-holiday-greeting.png)
 
 5. Choose if you want to **Disconnect** or **Redirect** the call.
 
 6. If you chose to redirect, choose the call routing destination for the call.
 
-    ![Screenshot of holiday call action settings](../media/auto-attendant-holiday-actions.png)
+    ![Screenshot of holiday call action settings.](../media/auto-attendant-holiday-actions.png)
 
 7. Click **Save**.
 
     Repeat the procedure as needed for each additional holiday.
 
-    ![Screenshot of holiday settings with holidays listed](../media/auto-attendant-holiday-call-settings.png)
+    ![Screenshot of holiday settings with holidays listed.](../media/auto-attendant-holiday-call-settings.png)
 
     When you've added all your holidays, click **Next**.
 
@@ -202,7 +202,7 @@ The *dial scope* defines which users are available in the directory when a calle
 
 You can include or exclude specific users by selecting **Custom user group** under **Include** or **Exclude** and choosing one or more Microsoft 365 groups, distribution lists, or security groups. For example, you might want to exclude executives in your organization from the dialing directory. (If a user is in both lists, they will be excluded from the directory.)
 
-![Screenshot of dial scope include and exclude options](../media/auto-attendant-dial-scope.png)
+![Screenshot of dial scope include and exclude options.](../media/auto-attendant-dial-scope.png)
 
 > [!NOTE]
 > It might take up to 36 hours for a new user to have their name listed in the directory.
@@ -220,11 +220,11 @@ To add a resource account
 
 1. Click **Add** and search for the account that you want to add. Click **Add**, and then click **Add**.
 
-    ![Screenshot of resource account add accounts panel](../media/auto-attendant-add-resource-account.png)
+    ![Screenshot of resource account add accounts panel.](../media/auto-attendant-add-resource-account.png)
 
 2. When you have finished adding service accounts, click **Submit**.
 
-    ![Screenshot of resource account list showing resource account with assigned service number](../media/auto-attendant-resource-account-assigned.png)
+    ![Screenshot of resource account list showing resource account with assigned service number.](../media/auto-attendant-resource-account-assigned.png)
 
     This completes the auto attendant configuration.
 

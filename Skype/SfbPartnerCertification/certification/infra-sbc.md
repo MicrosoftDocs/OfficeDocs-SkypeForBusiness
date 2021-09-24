@@ -1,6 +1,6 @@
 ---
 title: "Skype for Business Certification Program — Session Border Controllers"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -12,7 +12,7 @@ audience: Admin
 appliesto:
 - Lync
 - Skype for Business 
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -21,7 +21,7 @@ ms.custom:
 description: "List of Session Border Controllers that have been independently qualified with Skype for Business Server."
 ---
 
-# Session Border Controllers
+# Session border controllers
 
 These session border controllers that are certified for Skype for Business.
 
@@ -34,7 +34,7 @@ These session border controllers that are certified for Skype for Business.
 | | Mediant 4000B SBC | | 7.00A.021.013 |
 | | Mediant 9000 SBC | | 7.00A.044.007 |
 | |Mediant Virtual Edition SBC | &#x2714; | 7.20A.000.042 |
-|[Nuera](http://www.nuera.com/microsoft-uc.htm) | GX 500 E-SBC | |7.00A.021.013 |
+|[Nuera](http://www.nuera.com/) | GX 500 E-SBC | |7.00A.021.013 |
 | | GX 800 E-SBC | | 7.00A.021.013 |
 | | GX 1K SBC | | 7.00A.021.013 |
 | | GX 2600 SBC | |7.00A.021.013 |

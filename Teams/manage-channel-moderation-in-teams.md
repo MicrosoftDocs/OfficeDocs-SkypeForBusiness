@@ -14,7 +14,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to set up channels for moderation in Microsoft Teams, including how to add team members as channel moderators.
 ms.custom: seo-marvel-mar2020
@@ -61,7 +61,7 @@ Channel moderation is a per-channel setting. There's no tenant-level setting for
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 
-![preferences for managing-channel-moderation-in-teams](media/manage-channel-moderation-in-teams-preferences.png)
+![preferences for managing-channel-moderation-in-teams.](media/manage-channel-moderation-in-teams-preferences.png)
 
 ### Turn on or turn off moderation for a channel
 

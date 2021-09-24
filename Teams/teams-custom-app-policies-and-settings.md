@@ -12,7 +12,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to manage custom app policies and settings to control who in your organization can upload custom apps in Microsoft Teams.
 f1.keywords:
@@ -37,7 +37,7 @@ As an admin, you can use custom app policies and settings to control who in your
 
 Users can add a custom app to Teams by uploading an app package (in a .zip file) directly to a team or in the personal context. This is different from how apps are added through the Teams app store. Adding a custom app by uploading an app package, also known as sideloading, lets you test an app as it's being developed, before it's ready to be widely distributed. It also lets you build an app for internal use only and share it with your team without submitting it to the Teams app catalog in the Teams app store.
 
-![Screenshot showing the upload a custom app option in the app store](media/teams-custom-app-policy-and-settings-upload-app.png)
+![Screenshot showing the upload a custom app option in the app store.](media/teams-custom-app-policy-and-settings-upload-app.png)
 
 ## Custom app policy and settings
 
@@ -94,7 +94,7 @@ If this setting is turned on:
 2. Click **Settings**, and then expand **Member permissions**.
 3. Select or clear the **Allow members to upload custom apps** check box.
 
-    ![Screenshot showing the team custom app setting](media/teams-custom-app-policy-and-settings-team.png)
+    ![Screenshot showing the team custom app setting.](media/teams-custom-app-policy-and-settings-team.png)
 
 ### Org-wide custom app setting
 
@@ -106,13 +106,14 @@ The **Allow interaction with custom apps** org-wide custom app setting on the [M
 2. Click **Org-wide app settings**.
 3. Under **Custom apps**, turn on or turn off **Allow interaction with custom apps**.
 
-    ![Screenshot showing the org-wide custom app settings](media/teams-custom-app-policy-and-settings-org-wide.png)
+    ![Screenshot showing the org-wide custom app settings.](media/teams-custom-app-policy-and-settings-org-wide.png)
 
 ## How custom app policies and settings work together
 
 This table summarizes the custom app policy and settings, how they work together, and their combined effect on controlling who in your organization can upload custom apps to Teams.
 
 Say, for example, you want to allow only team owners to upload custom apps to specific teams. You would set the following:
+
 - Turn on the **Allow interaction with custom apps** setting in the Microsoft Teams admin center.
 - Turn off the **Allow members to upload custom apps** for every team to which you want to restrict access.
 - Create and assign a custom app setup policy in the Microsoft Teams admin center with the **Upload custom apps** setting turned on, and assign it to the team owners.
@@ -129,7 +130,7 @@ Say, for example, you want to allow only team owners to upload custom apps to sp
 | On    | On        | On        | The user can upload custom apps to the team, regardless of whether the user is a team owner. The user can upload custom apps in the personal context.       |
 
 ## Related topics
- 
+
 [Admin settings for apps in Teams](admin-settings.md)
 
-[Assign policies to your users in Teams](assign-policies.md)
+[Assign policies to your users in Teams](assign-policies-users-and-groups.md)

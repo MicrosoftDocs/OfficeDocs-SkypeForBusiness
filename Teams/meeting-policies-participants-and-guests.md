@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua, shalenc
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -36,7 +36,7 @@ These settings control which meeting participants wait in the lobby before they 
 - [Allow chat in meetings](#allow-chat-in-meetings)
 
 > [!NOTE]
->Options to join a meeting will vary, depending on the settings for each Teams group, and the connection method. If your group has audio conferencing, and uses it to connect, see [Audio Conferencing](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). If your Teams group doesn't have audio conferencing, refer to [Join a meeting in Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
+>Options to join a meeting will vary, depending on the settings for each Teams group, and the connection method. If your group has audio conferencing, and uses it to connect, see [Audio Conferencing](/microsoftteams/audio-conferencing-in-office-365). If your Teams group doesn't have audio conferencing, refer to [Join a meeting in Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
 
 ## Let anonymous people start a meeting
 
@@ -49,7 +49,7 @@ This setting is a per-organizer policy that allows for leaderless dial-in confer
 
 This is a per-organizer policy. This setting controls whether people join a meeting directly or wait in the lobby until they are admitted by an authenticated user. This setting does not apply to dial-in users.
 
-![Screenshot showing a meeting with a user in the lobby](media/meeting-policies-lobby.png)
+![Screenshot showing a meeting with a user in the lobby.](media/meeting-policies-lobby.png)
 
  Meeting organizers can click **Meeting Options** in the meeting invitation to change this setting for each meeting they schedule.
 
@@ -59,11 +59,11 @@ This is a per-organizer policy. This setting controls whether people join a meet
 |Setting value  |Join behavior |
 |---------|---------|
 |**Everyone**   |All meeting participants join the meeting directly without waiting in the lobby. This includes authenticated users, external users from trusted organizations (federated), guests, and anonymous users.     |
-|**People in my organization and guests**     |Authenticated users within the organization, including guest users, join the meeting directly without waiting in the lobby.  Anonymous users wait in the lobby.   |
+|**People in my organization and guests**     |Authenticated users within the organization, including guest users, join the meeting directly without waiting in the lobby. Users from trusted organizations, and anonymous users wait in the lobby. This is the default setting.    |
 |**People in my organization, trusted organizations, and guests**     |Authenticated users within the organization, including guest users and the users from trusted organizations, join the meeting directly without waiting in the lobby.  Anonymous users wait in the lobby.   |
-|**Everyone in my organization**    |Authenticated users from within the organization, including guest users, join the meeting directly without waiting in the lobby.  Users from trusted organizations and anonymous users wait in the lobby. This is the default setting.           |
-|**Organizer only**    |Only meeting organizers can join the meeting directly without waiting in the lobby. Everyone else, including authenticated users within the organization, guest users, users from trusted organizations, and anonymous users must wait in the lobby.           |
-|**Invited users only**    |Only invited users and meeting organizers can join the meeting directly without waiting in the lobby. Everyone else, including authenticated users within the organization, guest users, users from trusted organizations, and anonymous users must wait in the lobby.           |
+|**People in my organization**    |Authenticated users from within the organization join the meeting directly without waiting in the lobby.  Users from trusted organizations, guest users, and anonymous users wait in the lobby.          |
+|**Organizer only**    |Only meeting organizers can join the meeting directly without waiting in the lobby. Everyone else, including authenticated users within the organization, guest users, users from trusted organizations, and anonymous users must wait in the lobby. On the Teams client meeting options page, it appears as "Only me".          |
+|**Invited users only**    |Only invited users and meeting organizers can join the meeting directly without waiting in the lobby. Everyone else, including authenticated users within the organization, guest users, users from trusted organizations, and anonymous users must wait in the lobby. On the Teams client meeting options page, it appears as "People I invite".          |
 
 ## Allow dial-in users to bypass the lobby
 
@@ -76,7 +76,7 @@ This is a per-organizer policy. This setting controls whether people who dial in
 
 This setting is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on and turn off live captions in meetings that the user attends.  
 
-![Screenshot showing the Turn on live captions option](media/meeting-policies-live-captions.png)
+![Screenshot showing the Turn on live captions option.](media/meeting-policies-live-captions.png)
 
 |Setting value |Behavior  |
 |---------|---------|

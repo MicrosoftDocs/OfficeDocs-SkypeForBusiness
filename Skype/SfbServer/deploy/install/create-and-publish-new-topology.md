@@ -10,7 +10,7 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 - IT_Skype16
 - Strat_SB_Admin
@@ -25,7 +25,7 @@ description: "Summary: Learn how to create, publish, and verify a new topology b
   
 Before you can install the Skype for Business Server system on each of the servers in the topology, you must create a topology and publish it. When you publish a topology, you are loading the topology information into the Central Management Store database. If this is an Enterprise Edition pool, you are creating the Central Management Store database the first time you publish a new topology. If this is Standard Edition, you will need to run the Prepare First Standard Edition Server process from the Deployment Wizard before you publish a topology. This prepares for Standard Edition by installing a SQL Server Express Edition instance and creating the Central Management Store. You can do steps 1 through 5 in any order. However, you must do steps 6, 7, and 8 in order, and after steps 1 through 5, as outlined in the diagram. How to create and publish a new topology is described in step 6 of 8.
   
-![Overview diagram](../../media/c5c09ba2-c98b-4194-9857-7c3087c5560e.png)
+![Overview diagram.](../../media/c5c09ba2-c98b-4194-9857-7c3087c5560e.png)
   
 ## Create and publish new topology
 

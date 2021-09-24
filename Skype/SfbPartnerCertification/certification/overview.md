@@ -1,6 +1,6 @@
 ---
 title: "Skype for Business and Teams certification program"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -13,13 +13,13 @@ appliesto:
 - Lync
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Skype for Business Certification
 - Dn947481
-description: "Skype for Business certification program and Microsoft plans to test and certify IP phones for Skype for Business through the Skype for Business Certification Program."
+description: "The Skype for Business certification program and plans to test and certify IP phones for Skype for Business through the Skype for Business Certification Program."
 ---
 
 #  Skype for Business certification program

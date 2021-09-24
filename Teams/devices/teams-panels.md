@@ -1,6 +1,6 @@
 ---
 title: "Microsoft Teams panels"
-ms.author: v-mdhiman
+ms.author: serdars
 author: ManikaDhiman
 manager: serdars
 ms.reviewer: weizxue
@@ -14,7 +14,7 @@ f1.keywords:
 ms.collection: 
   - M365-voice
 search.appverid: MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "This article provides an overview of and features supported by Microsoft Teams panels."
 ---
 
@@ -43,7 +43,7 @@ To learn more about these features and how to use them, see [Use Microsoft Teams
 You can acquire your Teams panels devices from one of the following partners:
 
 - Crestron
-- (Coming soon) Yealink
+- Yealink
 
 ## Teams panels requirements
 

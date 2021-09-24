@@ -9,7 +9,7 @@ ms.service: msteams
 ms.collection: 
   - M365-collaboration
 ms.reviewer: lsomi
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Use this guidance to roll out Microsoft Teams as your first Microsoft 365 or Office 365 workload.
 ROBOTS: NOINDEX, NOFOLLOW
@@ -43,7 +43,7 @@ To get started with your Teams First deployment you will need to meet at minimum
 4.  Organization's network prepared for Teams  
     To understand network preparation, read [Prepare your organization's network for Teams](prepare-network.md).
 
-5.  Allow network access to Exchange, Sharepoint, and OneDrive for Business in Microsoft 365 or Office 365: [Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges).
+5.  Allow network access to Exchange, SharePoint, and OneDrive for Business in Microsoft 365 or Office 365: [Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges).
 
 > [!NOTE]
 > Tenants created after September 1, 2019 are provisioned in Teams Only mode.
@@ -108,7 +108,8 @@ This starting point assumes that your organization does not utilize Skype for Bu
 <td><p>Able to create internal and external meetings via Outlook add-in.</p>
 <p>PSTN Dial in and Dial out capability is available with the Audio Conferencing licenses.</p>
 <p>Teams calendar access requires Exchange 2016 CU3+ on-premises deployed with Exchange hybrid established: <a href="/exchange/hybrid-deployment/deploy-hybrid">Create a hybrid deployment with the Hybrid Configuration wizard.</a> </p>
-<p>In addition to Exchange hybrid configuration, establish Exchange OAuth authentication: <a href="https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help">Configure OAuth authentication between Exchange and Exchange Online organizations".</p>
+
+In addition to Exchange hybrid configuration, establish Exchange OAuth authentication: [Configure OAuth authentication between Exchange and Exchange Online organizations](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). 
 
 </p></td>
 </tr>
@@ -187,7 +188,7 @@ This starting point assumes that your organization utilizes Skype for Business 2
 <p>PSTN Dial in and Dial out capability is available with the Audio Conferencing licenses.</p>
 <p>Teams calendar access requires Exchange 2016 CU3+ on-premises deployed with Exchange hybrid established:<br />
 <a href="/exchange/hybrid-deployment/deploy-hybrid">Create a hybrid deployment with the Hybrid Configuration wizard.</a></p>
-<p>Administrator can control the Skype for Business Outlook add-in via the Teams meeting policy’s PreferredMeetingProviderForIslandsMode attribute:<a href="/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps">
+<p>Administrator can control the Skype for Business Outlook add-in via the Teams meeting policy’s PreferredMeetingProviderForIslandsMode attribute:<a href="/powershell/module/skype/set-csteamsmeetingpolicy">
 set-csteamsmeetingpolicy</a>.</p> 
 </td>
 </tr>

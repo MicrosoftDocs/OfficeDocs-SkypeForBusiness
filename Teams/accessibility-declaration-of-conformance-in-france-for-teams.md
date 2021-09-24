@@ -1,5 +1,5 @@
 ---
-title: "Accessibility Declaration of Conformance - France"
+title: "Microsoft Teams: Accessibility Declaration of Conformance - France"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,7 +12,7 @@ ms.collection:
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
-localization_priority: None
+ms.localizationpriority: null
 f1.keywords:
 - CSH
 ms.custom: 
@@ -22,7 +22,7 @@ hideEdit: true
 description: "Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui intègre toutes les personnes, contenus et outils dont votre équipe a besoin pour être plus impliquée et efficace. "
 ---
 
-# EN 301 549 Déclaration de conformité en matière d'accessibilité
+# Microsoft Teams: EN 301 549 Déclaration de conformité en matière d'accessibilité
 
 Date : 2 octobre 2018
 
@@ -104,7 +104,7 @@ Cette section ne s'applique pas à Microsoft Teams.
 
 ## Section 11 Logiciel
 
-| **Critères** <br/>| **Fonctionnalités prises en charge** <br/>| **Remarques et explications** <br/> |
+| **Critères** | **Fonctionnalités prises en charge** | **Remarques et explications** |
 | --- | --- | --- |
 |**11.1.1.1.1 Contenu non textuel (lecture d'écran prise en charge)**<br/>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui prend en charge l'accès aux technologies d'assistance pour la lecture d'écran, elle remplit les Critères de Succès WCAG 2.1 indiqués dans le Tableau 1.1.1 Contenu non textuel<br/>|Pris en charge <br/> | |
 |**11.1.2.1.1 Audio seulement et vidéo seulement (préenregistré)**<br/>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui prend en charge l'accès aux technologies d'assistance pour la lecture d'écran et où aucune information sonore préenregistrée n'est nécessaire pour permettre l'utilisation des fonctions fermées de la TIC, elle remplit les Critères de Succès WCAG 2.1 indiqués dans le Tableau 1.2.1 Audio seulement et vidéo seulement (préenregistré).<br/>|Non-applicable<br/>| |

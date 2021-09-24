@@ -10,7 +10,7 @@ audience: admin
 ms.reviewer: esmather
 search.appverid: MET150
 description: In this article, you will learn about how to manage and use the Whiteboard web app in Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 
@@ -22,8 +22,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-Manage the Whiteboard in Microsoft Teams
-==========================================
+# Manage the Whiteboard in Microsoft Teams
 
 Microsoft Whiteboard is a free-form, digital canvas where people, content, and ideas come together. Whiteboard integration in Microsoft Teams meetings is powered by the Whiteboard web app, which lets Teams meeting participants draw, sketch, and write together on a shared digital canvas.
 

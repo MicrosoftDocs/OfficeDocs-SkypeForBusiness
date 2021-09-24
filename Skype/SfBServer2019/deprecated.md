@@ -9,7 +9,7 @@ ms.topic: overview
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: "Summary: These features have been removed from Skype for Business Server 2019."
 ---
@@ -22,7 +22,7 @@ Some de-emphasized features are included in Skype for Business Server 2019 for c
 
 ## Features deprecated in Skype for Business Server 2019 
 
-    The following features and functionality have been deprecated in Skype for Business Server 2019.
+The following features and functionality have been deprecated in Skype for Business Server 2019.
 
 ### XMPP Gateways for Skype for Business Server
 
@@ -30,7 +30,7 @@ Skype for Business Server 2015 and its predecessors allowed you to configure an 
 
 ### Persistent Chat for Skype for Business Server
 
-Persistent Chat Server is an optional role that lets multiple users in your organization participate in chat room conversations that persist over time. Persistent chat can't be deployed with Skype for Business Server 2019. This server role is removed from Topology Builder, as well as from the code. 
+Persistent Chat Server is an optional role that lets multiple users in your organization participate in chat room conversations that persist over time. Persistent chat can't be deployed with Skype for Business Server 2019. This server role is removed from Topology Builder and from the code. 
 
 The same functionality is available in Teams. For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here).
 
@@ -40,11 +40,9 @@ SQL Mirroring can't be deployed with Skype for Business Server 2019. Other optio
 
 ### In-place upgrades 
 
-In-place upgrades were available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019. Side by side upgrade and coexistance is supported, see [Migration to Skype for Business Server 2019](migration/migration-to-skype-for-business-server-2019.md) for more information.
+In-place upgrades were available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019. Side-by-side upgrade and coexistence is supported. For more information, see [Migration to Skype for Business Server 2019](migration/migration-to-skype-for-business-server-2019.md).
 
 ### Mobility Service (Mcx)
-
-Mobility Service support used by legacy mobile clients is no longer available in Skype for Business Server 2019. This was previously announced in Skype for Business Server 2015.
 
 All current Skype for Business mobile clients already use Unified Communications Web API (UCWA) to support instant messaging (IM), presence, and contacts. Users with legacy clients using Mcx will need to upgrade to a current client.
 
@@ -52,7 +50,7 @@ For more details, see [Plan for Mobility for Skype for Business Server](../SfbSe
 
 ## Tools
 
-The following tools will not be available for use at the initial release of Skype for Business Server 2019:
+The following tools won't be available for use at the initial release of Skype for Business Server 2019:
 
 - Skype for Business Server Capacity Planning Calculator
 - Skype for Business Server Debugging Tools
@@ -61,7 +59,7 @@ The following tools will not be available for use at the initial release of Skyp
     - Lookup user console
     - Unassigned number Announcement Migration
 
-The following tools are not supported with Skype for Business Server 2019:
+The following tools aren't supported with Skype for Business Server 2019:
 
 - Call Quality Methodology (but not Call Quality Dashboard)
 - Microsoft Call Quality Methodology Scorecard, v1.5

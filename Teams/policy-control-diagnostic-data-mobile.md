@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: majaisin
 description: A list of mobile properties and events for the policy controls for Microsoft Teams.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -33,6 +33,7 @@ For more information about diagnostic data, including how to control what diagno
 > [!NOTE]
 > For information on the properties of PanelAction events, see [Properties sent with panelaction events](#properties-sent-with-panelaction-events).
 
+- **acceptUser** - The user has accepted a 1:1 chat.
 - **accessibilityUserConfiguration** - When a user toggles an accessibility feature.
 - **acknowledgeSettingChange** - Acknowledge an update in the we updated a notification setting dialog. This is a feature success metrics used to acknowledge update notifications and to determine overall notification reliability.
 - **actionComposeMenu**
@@ -63,6 +64,7 @@ For more information about diagnostic data, including how to control what diagno
 - **admitAll** - The number of times the **Admit all** button is selected from the lobby section.
 - **admitParticipant** - The number of times someone is admitted into a meeting from the meeting roster.
 - **alertsNavAlert** - Tapping on a feed item.
+- **aliasDiscoverabilitySettingOpened** - Entry point to discoverabaility settings.
 - **android: null** - Mute or unmute a bot chat. This is enhancing existing telemetry around chats only adds application information.
 - **anonymousMeetingJoin** - **Join meeting** is selected on an anonymous join provide name page or **OK** is tapped in the name dialog.
 - **anonymousMeetingJoinWelcome** - **Join as guest** is selected on an anonymous join meeting landing page.
@@ -444,6 +446,8 @@ For more information about diagnostic data, including how to control what diagno
 - **detailsTabClicked** - The **Details** tab is selected on the meeting.
 - **deviceAddressBookSync** - Fired when address book sync is turned on from the settings page.
 - **deviceAddressBookUnsync** - Fired when address book sync is turned off from the settings page.
+- **deviceSyncEnabled** - Device sync enabled.
+- **deviceSyncDisabled** - Device sync disabled.
 - **dialIn** - A user chooses to Dial in into a meeting (various locations).
 - **dialInBadNetworkBanner** - **Dial in** is selected for a poor connection banner.
 - **dialInBadNetworkBannerCancel** - The **Dial in** is cancelled on the native dialog.
@@ -589,6 +593,7 @@ For more information about diagnostic data, including how to control what diagno
 - **hide** - Hide chat.
 - **hideChannel** - Hide a channel from the teams and channel list.
 - **image** - Image.
+- **inAppNotification**- Triggered when a notification is tapped while the user is active in the app.
 - **immediateCallForward** - Immediate call forward target is set, or enabling immediate call forwarding (Calls ring me is disabled).
 - **importanceToggleClicked** - Triggers when the **!** field is toggled inside task item details.
 - **importantMessage_select** - A user selects an important message from the priority context menu.
@@ -622,6 +627,7 @@ For more information about diagnostic data, including how to control what diagno
 - **launchLinksGallery** - When a user enters the links gallery from the dashboard.
 - **launchSlideshow** - User Launches Slideshow full screen image viewer from one of three possible app feature locations. 
 - **Launch source such as direct, link, appShortcut** - Launches directly or via link (recording Mobile Application Management (MAM) or Mobile Device Management (MDM) telemetry on app launch to collect data for active users).
+- **lastSearchableAliasTurnedOff** - The user has disabled all searchable aliases for account.
 - **leaveChat** - Confirm leaving chat.
 - **legacyChatLink** - A link is selected to a legacy chat.
 - **link** - User initiated redeem of invite link by entering Teams application.
@@ -717,6 +723,7 @@ For more information about diagnostic data, including how to control what diagno
 - **meetingUserGuest** - A guest user joined the meeting.
 - **meetingUserTenant** - An in-tenant user joined the meeting.
 - **memeGenerated** - When a meme is generated given a user input of image and text data. 
+- **meProfileFetch** - Indicates a successful profile fetch and creation.
 - **messageCopyMessage** - Copy Message.
 - **messageDelete** - Message delete.
 - **messageEditMessage** - Edit message.
@@ -731,6 +738,7 @@ For more information about diagnostic data, including how to control what diagno
 - **MicrosoftWhiteboardClicked** - Microsoft whiteboard is selected on the **Channel Files** tab or the **Meeting Chat Files** tab.
 - **moreOptionsClicked** - Triggers when **...** menu on the top-right is selected on the task item editor screen.
 - **moveTaskClicked** - Option inside task item more options list.
+- **msaAddDeleteAliasLinkClicked** - Link to setup an alias on MSA Profile page.
 - **multiCallEndFromUFD** - Number of times a user ends the call on hold in a multi-call scenario.
 - **multiCallResumeFromUFD** - Number of times a user selects to resume a call from hold.
 - **multiCallSwitch** - Number of times a user selects an option to switch the call and list of calls on hold shows up.
@@ -785,6 +793,7 @@ For more information about diagnostic data, including how to control what diagno
 - **notBlockedDevice** - A user doesn't reach the threshold for background activity failures in 30 days.
 - **notNow** - **Not now** is selected in reminder.
 - **notNowUpdate** - UpdateDefer.
+- **notification/ notification_clicked** – Triggered when a notification is tapped.
 - **notificationNavChannelConversation** - Launch the app using a notification for a channel conversation.
 - **notificationNavChannelThreadConversation** - Launch the app using a notification for a specific message in a channel conversation.
 - **notificationSettingTurnedOff** - Turn off push notifications for the Teams Android app.
@@ -843,6 +852,7 @@ For more information about diagnostic data, including how to control what diagno
 - **parental_consent_grant** - A user grants permission for a minor in their MSFamily to use the Live Location feature in TFL.
 - **parental_consent_remove** - A user revokes permission for a minor in their MSFamily to use the Live Location feature in TFL.
 - **pauseVoicemail** - **Pause** tapped on a voicemail item.
+- **peoplePickerDismissed** - Indicates the People Picker has been dismissed.
 - **peoplePickerInvoked** - People Picker is used across seven places in Teams mobile, including (but not limited to):
   - New chat picker.
   - Forward a message.
@@ -885,6 +895,7 @@ For more information about diagnostic data, including how to control what diagno
 - **privateMeetingJoin** - **Meeting Join** button tapped from Private meeting chat.
 - **processInBG** - Process incoming notification in the background (Android).
 - **processInFG** - Process incoming notification in the foreground (Android).
+- **profileNameSaved** - Profile name was updated.
 - **progressItemClicked** - Confirms a user has successfully opened the progress picker for a task.
 - **promotedToPresenter** - User promotes an attendee - **Change** button in the dialog box.
 - **provideFeedbackDismiss** - Dismiss the prompt that asks whether the user would like to send feedback about why they didn't like the app.
@@ -1038,14 +1049,17 @@ For more information about diagnostic data, including how to control what diagno
 - **showCard** - Tap on card buttons. Cards are key platform constructs and measuring their usage and pattern is necessary to understand platform usage and keep a look out for potential issues on the client side.
 - **shownReadReceiptNotice** - The user shown feature notice with settings options.
 - **signIn** - **Sign in** is selected on welcome page, or the **Sign In** button is tapped.
+- **SignInWithOTP** - User selects the option to sign in as a guest with one time passcode (OTP). 
 - **signUp** - **Create a free account** or **Sign up for free** is selected.
+- **SignUpFromSignIn**- User taps on **Create a new account** option from sign-in.
 - **simultaneousCallForward** - Triggered when:
   - Simultaneous call forward target is set.
   - Simultaneous call forwarding is enabled (Calls ring me is enabled & Also ring is set).
-- **skipVerificationForLink** - Thw user chose to skip verification.
+- **skipVerificationForLink** - The user chose to skip verification.
 - **smartReply** - Smart reply toggle button is clicked.
 - **SMSSendMessage** - The user sends a SMS message.
 - **sortChanged** - Triggers when user changes sort order while viewing a tasklist.
+- **SSOAccountListItem**: Triggered when the user taps on an SSO account to sign in.
 - **startEditing** - **Edit** button selected.
 - **startPresentPhoto** - Start presenting photo.
 - **startPresentVideo** - Start presenting video.
@@ -1073,6 +1087,7 @@ For more information about diagnostic data, including how to control what diagno
 - **stuckOnConnectingRetrySelected** - **Retry** is selected on the drawer.
 - **stuckOnConnectingShownDismissed** - A user dismissed the drawer.
 - **suggested_place_selected** - A user shares a static location by selecting a suggested place.
+- **Switching**- Tenant or account is switched from the app. This is required to measure account/tenant switch issues proactively and provides a smooth account/tenant switch experience.
 - **switchTeamAction** - A user switches teams within the time clock. This should fire after the user selects which team they want to switch to.
 - **switchTeamsDialogTriggered** - A user views the **Shifts** tab.
 - **tabActionCopyLink** - How users discover and use the tab copy link on mobile.
@@ -1206,6 +1221,7 @@ action.
 > [!NOTE]
 > For information on the properties of PanelView events, see [Properties sent with panelview events](#properties-sent-with-panelview-events).
 
+- **appInstall**: Triggered when a user opens the app for the first time after installation.
 - **fileDeleteFailed** - Triggered when a file delete operation fails.
 - **fileDeleteSuccess** - Triggered when a file delete operation succeeds.
 - **filePreview** - Triggered in following scenarios:
@@ -1232,21 +1248,35 @@ action.
 - **meetingFiles** - Triggered when meeting files screen is opened.
 - **meetNowActionSheet** - Triggered when user creates a Meet Now meeting.
 - **navPersonalFiles** - Triggered when navigation to files screen is performed.
+- **signInSSOPage**: Triggered when the user views a single sign-on page while signed in.
+-- **signInError**: Triggered when the user hits any error while signed in. This is needed to proactively identify and fix issues that users face during sign-in. 
+-- **TfLSignInSuccessful**: Triggered when the user successfully signs in to a personal Microsoft account. This is needed to understand sign-in and sign-up reliability and proactively identify and fix issues.
+-- **TfWFreemiumSignInSuccessful**: Triggered when the user successfully signs in to a freemium account. This is needed to understand sign-in and sign-up reliability and proactively identify and fix issues.
+-- **TfWSignInSuccessful**: Triggered when the user successfully signs in to a work or school account. This is needed to understand sign-in and sign-up reliability and proactively identify and fix issues.
+- **appDrawer** - Triggered when app drawer is opened successfully.
+- **appPolicyChange** - Triggered when a user resets and save new tabs order locally.
+- **app_stageview** - Triggered when a stage view is successfully rendered.
 
 ### Scenario
 
 > [!NOTE]
 > For information on the properties of PanelAction events, see [Properties sent with scenario events](#properties-sent-with-scenario-events).
-
-- **app_incremental_sync_launch** Confirms that the pill count gets updated successfully for cold launch.
-- **app_incremental_sync_resume** Confirms that the pill count gets updated successfully for warm/hot launch.
-- **app_start_cold** To monitor cold app launch (Android only).
-- **app_start_hot** To monitor hot app launch (Android only).
-- **app_start_warm** To monitor warm app launch (Android only).
+> 
+- **acquire_resource_token_interactive**- Required service call which is triggered when an authentication token is acquired by interactive sign-in. 
+- **acquire_resource_token_silent**- Required service call which is triggered when an authentication token is acquired by silent sign-in.
+- **add_buddy** - Captures status of adding a contact.
+- **app_crash2** – Triggered when the app is crashed unexpectedly. Provides information on how frequently the Teams app is crashing. 
+- **app_incremental_sync_launch** - Confirms that the pill count gets updated successfully for cold launch.
+- **app_incremental_sync_resume** - Confirms that the pill count gets updated successfully for warm/hot launch.
+- **app_start_cold** - To monitor cold app launch (Android only).
+- **app_start_hot** - To monitor hot app launch (Android only).
+- **app_start_warm** - To monitor warm app launch (Android only).
+- **auth_adal_tokens**- Required service call to do silent authentication. Triggered when a user starts the app, or the token is refreshed on expiry.
 - **chat_add_giphy** - Confirms that the Giphy GIF rendering action succeeded or failed.
-- **cortanaError** To monitor Cortana error happens.
+- **chat_send_message_sfc**- Triggered when a chat message is sent in SfC interop chat.
+- **cortanaError** - To monitor Cortana error happens.
 - **cortanaView** - To monitor Cortana canvas appear.
-- **cortanaRestart** To monitor Cortana restart.
+- **cortanaRestart** - To monitor Cortana restart.
 - **cortanaSetNewConversation** To monitor Cortana sets new conversation.
 - **cortanaSpeechRecognization** To monitor Cortana speech recognization latency.
 - **cortanaStart** To monitor Cortana backend start.
@@ -1263,6 +1293,7 @@ action.
 - **cortana_skill_action_delay** - Confirms the start of delay action.
 - **cortana_watchdog** - To monitor Cortana watchdog recovery process.
 - **create_default_plan_and_nav_to_view** - Confirms successful creation of a default shared task list and how long it took for a user to land on the resulting view after action.
+- **create_new_chat_thread_sfc**- Triggered when a new chat thread is created for an SfC interop chat.
 - **create_personal_plan_and_nav_to_view** - Confirms successful creation of a personal task list and how long it took for a user to land on the resulting view after action.
 - **create_personal_task** - Confirms successful creation of a personal task item.
 - **create_planner_plan_and_nav_to_view** - Confirms successful creation of shared task list and how long it took for a user to land on resulting view after action.
@@ -1272,7 +1303,13 @@ action.
 - **delete_personal_task** - Confirms the successful deletion of a personal task item.
 - **delete_planner_plan** - Confirms the successful deletion of a shared task list.
 - **delete_planner_task** - Confirms the successful deletion of a shared task item.
-- **get_sender_sub_scenario** - get sender sub scenario in activity.
+- **json_parse_failure**- Provides information on the frequently of JSON parsing issues.
+- **fetch_me_profile** - The users profile creation status.
+- **getProfilePicture**- Necessary service call to get user profile picture. 
+- **get_resource_token_async**: Required service call to acquire tokens for Azure Active Directory resources asynchronously.
+- **get_resource_token_sync**: Required service call to acquires tokens for Azure Active Directory resources synchronously.
+- **get_sender_sub_scenario** - Get sender sub scenario in activity.
+- **interactiveAuthNopa2** – Triggered when no password user is interrupted to do interactive authentication.
 - **load_chat_plans_list** - Confirms the successful fetching of planner plans for a chat's plan view.
 - **load_home_page** - Confirms the successful fetching of both personal and shared tasklists for the main home view.
 - **load_personal_task_list** - Confirms the successful fetching of a personal tasklist's tasks for the tasklist view.
@@ -1287,7 +1324,8 @@ action.
 - **rename_personal_plan** - Confirms the successful renaming of a personal task list.
 - **rename_planner_plan** - Confirms the successful renaming of a shared task list.
 - **save_image** Confirms that the image save action succeeded or failed.
-- **share_image** Confirms that the image share action succeeded or failed.
+- **saveMeProfile**- Required service call that gets triggered when user saves the profile
+- **share_image** - Confirms that the image share action succeeded or failed.
 - **smart_reply_enabled** - Confirms that smart reply is enabled for current user.
 - **smart_reply_received** - Confirms that a smart reply suggestion is received.
 - **smart_reply_banned** - Confirms that smart reply cannot be displayed for current user.
@@ -1308,9 +1346,45 @@ action.
 - **server_fetch_date_picker_view** Confirms that the calendar event sync using the Outlook REST API has succeeded or failed.
 - **server_fetch_agenda_view_group** Confirms that the calendar event sync using the Middle Tier API for the TFL group has succeeded or failed.
 - **server_fetch_date_picker_view_incremental** Confirms that the calendar event incremental sync using the Outlook REST API has succeeded or failed.
-- **meeting_details** Confirms that the meeting details sync has succeeded or failed.
-- **show_meeting_participants** Confirms that showing the meeting participant list has succeeded or failed.
-- **search** Confirms that the whole search session has succeeded or failed.
+- **meeting_details** - Confirms that the meeting details sync has succeeded or failed.
+- **show_meeting_participants** - Confirms that showing the meeting participant list has succeeded or failed.
+- **search** - Confirms that the whole search session has succeeded or failed.
+- **time_based_retention_shared_channel** – Captures performance data for pruning the database.
+- **toggle_searchability** - Captures status of network call for stamping/unstamping an alias.
+- **sync_user_entitlements_and_app_definitions** -  Required service call to fetch aggregatedEntitlements.
+- **bots_load_mediacards** - Captures instanced when Connector cards are configured in chat and channel.
+- **bots_load_one_card** - Captures if at least one card is present and loaded when chatting with a bot.
+- **load_assignments** - Captures exceptional handling for loading assignment app.
+- **load_channel_tab** - Captures loading of channel tab. (Android  only)
+- **load_messaging_extension_results** - Captures loading of messaging extension search/query result. (Android  only)
+- **load_static_tab** - Captures loading of static tab. (Android  only)
+- **app_authenticated** - Confirms that the authentication is sucessful and a token is fetched. (Android  only)
+- **blocked_by_conditional_access** - When receive conditional access blocked error code in authentication. (we try to force refresh the primary token in that case). (Android  only)
+- **get_resource_token_sync** - Triggered when we attempt to fetch token for app resources synchronously. (Android  only)
+- **get_resource_token_async** - Triggered when we attempt to fetch token for app resources asynchronously. (Android  only)
+
+## OnePlayer events
+> [!NOTE]
+> For OnePlayer events, only properties listed in [Property lists for OnePlayer events](#property-lists-for-oneplayer-events) apply.
+### OnePlayer user action events
+- **PlayerPlay** - Confirms if the user taps on the play button in the OnePlayer view.
+- **PlayerPause** - Confirms if the user taps on the pause button in the OnePlayer view.
+- **PlayerSeek** - Confirms if the user seeks the video either using the seek bar or forward/backward buttons in the OnePlayer view (iOS only).
+- **VideoPlayerSeekForward** - Confirms if the user seeks the video either using the seek bar or forward buttons in the OnePlayer view (Android only).
+- **VideoPlayerSeekBackward** - Confirms if the user seeks the video either using the seek bar or backward buttons in the OnePlayer view (Android only).
+- **ChangePlaybackSpeed** - Confirms if the user has selected a new playback speed.
+- **changePlaybackQuality** - Confirms if the user has selected a new video quality for playback.
+- **ShareVideo** - Confirms if the user has tapped on the share icon.
+- **PlayerClose** - Confirms if the user has tapped on the close icon.
+- **VideoCaptionsOn** - Confirms if the user has switched on the captions.
+- **VideoCaptionsOff** - Confirms if the user has switched off the captions.
+- **ChangePlayerOrientation** - Confirms if the user has changed the orientation of the device.
+- **OpenPlayerSettingsMenu** - Confirms if the user has opened the settings menu.
+- **OpenPlaybackSpeedMenu** - Confirms if the user has opened the playback speed menu.
+- **PlayerAction** - Custom action provided by the host app.
+
+### OnePlayer playback events
+- **PlayerHeartbeat** - This is a recurring event that sends the current status of the player and playback to a log.
 
 ## Property lists
 
@@ -1409,3 +1483,101 @@ action.
 | Property name | Description                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
 | Trace_message | Contains error string and details about the reasons due to which a failure might have happened |
+
+## Property lists for OnePlayer events
+
+### 1. Properties sent with all OnePlayer events
+##### 1.1 Standard properties
+| Property name | Description                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| eventType | Type of event (AppLogic, ErrorAlert, Performance, UserAction) |
+| accountType   | Type of user account (for example, business) |
+| component     | OnePlayer |
+| language      | Locale/language of the app |
+| platform      | Platform of OnePlayer (iOS/Android) |
+| tenantId      | Tenant ID|
+| version       | Version of the OnePlayer being used |
+| aadUserId     | User ID |                                
+
+##### 1.2 Player properties
+| Property name | Description                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| engineName    | Underlying player name (AVFoundation for iOS/ExoPlayer for Android) |
+| engineVersion | Operating System version |
+| loadMode      | Load mode of the player |
+| playbackSessionId | Session ID for playback |
+
+##### 1.3 Host properties 
+| Property name | Description                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| hostIntegrationType | Host integration type (for example, Package, OneUp) |
+| hostPlatform  | Platform for host app |
+| hostProperties| Host properties, if any (iOS only) |
+| hostApp       | Name of the host app |
+| hostVersion   | Version of the host app |
+
+##### 1.4 Experimentation properties
+| Property name | Description                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| ring          | Ring to which the user belongs |
+| hostSettings  | Attributes set by the host app (moreOptionsEnabled, shareFeatureEnabled, playbackQualityFeatureEnabled, playbackSpeedFeatureEnabled) |
+| flightFilters | Description |
+| flightsOverridden | Bool for flights overridden or not |
+
+##### 1.5 Service properties
+| Property name | Description                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| contentType   | Type of content being served |
+| environment   | Environment name  |
+| mediaService  | Which media service is being used (SPO, ODB, ODC, IC3-AMS, Unknown) |
+| mediaType     | Type of the media being played  |
+| playbackTech  | Playback tech of the media  |
+| correlationId | Correlation ID for the media, if any |
+
+### 2. Properties sent with all OnePlayer User Action Events 
+| Property name | Description                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| actionType    | Type of action being performed, such as tap, drag, and flick( iOS only)|
+| isIntentional | Boolean value if the action is intentional or not (iOS only) |
+
+#### 2.1 Properties sent with changePlaybackQuality Event
+| Property name | Description                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| currentPlaybackQuality | current playback quality |
+
+#### 2.2 Properties sent with ChangePlaybackSpeed Event
+| Property name | Description |
+|---------------|------------------------------------------------------------------------------------------------|
+| previousPlaybackRate  | Previous playback rate of the video (iOS only) |
+| currentPlaybackRate   | Current playback rate of the video |
+
+#### 2.3 Properties sent with PlayerSeek Event (iOS only)
+| Property name | Description |
+|---------------|------------------------------------------------------------------------------------------------|
+| seekSource    | Source of seek (seekbar, forwardButton, backwardButton) |
+| seekValue     | Seek position |
+
+### 3. Properties sent with OnePlayer Heartbeat Event
+| Property name | Description |
+|---------------|------------------------------------------------------------------------------------------------|
+| mediaCurrentTime | Current playback time of the media (iOS only)|
+| isLoaded | Is media loaded |
+| loadTimeMs | Load time taken in milliseconds |
+| numberOfStalls | Number of stalls during playback (iOS only) |
+| bufferingCount | Number of stalls during playback (Android only) |
+| observedBitrate | Observed bit rate during playback (iOS only) |
+| avgBitrateBitsPerSecond | Observed bit rate during playback (Android only) |
+| playedSeconds | Played seconds till the event |
+| rebufferingSeconds | Rebuffering seconds during playback |
+| timeSinceSourceSetMs | Time since source was set (ms) |
+| triggerType | Trigger type (buffering, error, errorLog, canPlayThrough, intervalHeartbeat, sourceset, unload) |
+| errorId | Error ID for the error, if any |
+| errorCorrelationId | Error correlation ID for the error, if any |
+| errorLog | Error log for the error, if any |
+| errorType | Error type for the error, if any |
+| errorMessage | Error message for the error, if any |
+| errorStack | Extended error info for the error, if any |
+| metaUrl | Meta URL for media |
+| odspDocId | ODSP doc ID for media |
+| siteId | Site ID for media |
+| teamsCallId | Teams call ID for media, if any |

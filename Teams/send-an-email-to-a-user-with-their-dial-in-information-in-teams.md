@@ -14,7 +14,7 @@ ms.collection:
 audience: Admin
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -35,21 +35,20 @@ Sometimes Microsoft Teams users may need you to send them their Audio Conferenci
    
 Here is an example of the email that is sent:
   
-![Example of a dial-in conferencing email message](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
+![Example of a dial-in conferencing email message.](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## Send an email with audio conferencing information to a user
 
-### ![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) Using the Microsoft Teams admin center
+### ![An icon showing the Microsoft Teams logo.](media/teams-logo-30x30.png) Using the Microsoft Teams admin center
 
 1. In the left navigation, click **Users**, and then select the user from the list of available users.
 
 2. At the top of the page, click **Edit**.
 
 3. Under **Audio Conferencing**, click **Send conference info in email**.
-
 
 ## What else should you know about this email?
 
@@ -66,17 +65,6 @@ Here is an example of the email that is sent:
   - When the audio conferencing provider for a user is changed from Microsoft to another provider or **None**.
     
   - When the audio conferencing provider for a user is changed to Microsoft.
-  
-## Want to know more about Windows PowerShell?
-
-Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 by using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
-    
-  - [Why you need to use Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
-    
-  - [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](/previous-versions//dn568025(v=technet.10))
-    
-For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=teams-ps) for more information.
-    
   
 ## Related topics
 

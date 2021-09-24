@@ -17,7 +17,7 @@ audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 
@@ -33,6 +33,10 @@ Clients are available for PC, Mac, and mobile, which provides features on device
 
  > [!Note]
 > For details about Teams phone systems on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
+
+To use Phone System features, your organization must have a Phone System license. For more information about licensing, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+
+Be aware that most features require you to assign the Phone System license and ensure that users are "voice enabled." To assign the license, use the [Set-CsUser cmdlet](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) and set the **enterprisevoiceenabled** parameter to $true. A few features, such as cloud auto attendant, do not require a user to be voice enabled. Exceptions are called out in the table below.
   
 ## Phone System features
 
@@ -57,8 +61,8 @@ Phone System provides the following features. Unless otherwise noted, features a
 |[Integrated dial pad](https://support.office.com/article/use-the-dial-pad-in-teams-27bc60b5-74c0-4e9c-808b-da4db9514d89) <br/> | Lets users dial by name or by number anywhere in the search bar and in the dial pad, speeding up the process of making outbound calls. <br/> |
 |Federated calling  <br/> |Lets users securely connect, communicate, and collaborate with users in federated tenants.  <br/> |
 |[Make and receive a video call](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | If the user's account is enabled for video calls, the user can make face-to-face video calls with their contacts. All they need is a camera, their computer’s speakers and microphone. Users can also use a headset if their computer doesn’t have a built-in audio device.<br/> |
-|[Cloud voicemail*](set-up-phone-system-voicemail.md) <br/> | When a user receives a voicemail, it is delivered to their Exchange mailbox as an email with the voicemail message as an attachment. Users can listen to their messages on their certified desktop phone, and on all Teams or Skype for Business applications. Support for voicemail transcription has been added as of March 2017 and is enabled by default for all organizations and users.   <br/> |
-|[Cloud voicemail user settings*](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | Lets users configure their client settings for voicemail greetings, call answering rules, and greeting language, including out-of-office greetings.   |
+|[Cloud Voicemail](set-up-phone-system-voicemail.md) <br/> | When a user receives a voicemail, it is delivered to their Exchange mailbox as an email with the voicemail message as an attachment. Users can listen to their messages on their certified desktop phone, and on all Teams or Skype for Business applications. Support for voicemail transcription has been added as of March 2017 and is enabled by default for all organizations and users. <br> Note that users *do not* need a Phone System license, *nor* do they need to be voice enabled to use Cloud Voicemail features.   <br/> |
+|[Cloud Voicemail user settings](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | Lets users configure their client settings for voicemail greetings, call answering rules, and greeting language, including out-of-office greetings. <br> Note that users *do not* need a Phone System license, *nor* do they need to be voice enabled to use Cloud Voicemail features.  |
 |[Secondary ringer](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) <br/> | Users with multiple speaker devices connected to their PC can choose to set a secondary device to ring in addition to their default speaker. For example, a user with a headset connected to the PC and desk speakers can choose to have both headset and desk speakers ring when a call comes in so that they don’t miss a call.  |
 |[Distinctive ring alerts](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) (Teams only)<br/> |Lets users choose separate ringtones for  normal calls, forwarded calls, and delegated calls so they can distinguish the type of call.  <br/> |
 |[Shared Line Appearance](shared-line-appearance.md) <br/> | Lets users share their phone line so that another user can make and receive calls on their behalf.|
@@ -67,8 +71,6 @@ Phone System provides the following features. Unless otherwise noted, features a
 |[Common Area Phones](set-up-common-area-phones.md) <br/> | A common area phone is typically placed in an area like a lobby or conference room making it available to multiple people. Common area phones are set up as devices rather than users, and can automatically sign into a network.|
 |[Media bypass support](direct-routing-plan-media-bypass.md) (for Teams Direct Routing only) <br/> | For better performance, media is kept between the Session Border Controller (SBC) and the client instead of sending it via the Microsoft Phone System. |
 
-
-\* Users do not need to be voice enabled to use the voicemail features.
 
 ## Availability in GCC High and DoD clouds
 <a name="bkmk_setup"> </a>

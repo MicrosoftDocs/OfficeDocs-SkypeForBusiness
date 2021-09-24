@@ -13,7 +13,7 @@ metadata:
   manager: serdars
   ms.service: msteams
   ms.topic: tutorial
-  localization_priority: Normal
+  ms.localizationpriority: high
   search.appverid: MET150
   ms.collection: 
   - M365-collaboration

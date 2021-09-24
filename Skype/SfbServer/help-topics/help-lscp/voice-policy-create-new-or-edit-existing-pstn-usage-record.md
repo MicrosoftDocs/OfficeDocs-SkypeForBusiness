@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoicePolicyUsageEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1f9b1f38-3255-43d0-8db6-e5790d4cfda9
 description: "UNRESOLVED_TOKEN_VAL(¤bigfin_UI_help_intro)"
 ---
