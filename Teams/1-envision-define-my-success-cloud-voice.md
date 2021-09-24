@@ -15,7 +15,7 @@ ms.collection:
   - M365-collaboration
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020

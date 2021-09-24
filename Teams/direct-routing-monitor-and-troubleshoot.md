@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: troubleshooting
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
@@ -41,7 +41,7 @@ For example, if, for a specific user, there are several SBCs available to route 
 
 The following diagram shows an example of the configuration: 
 
-![SIP options configuration example](media/sip-options-config-example.png)
+![SIP options configuration example.](media/sip-options-config-example.png)
 
 When a user makes a call to number +1 425 \<any seven digits>, Direct Routing evaluates the route. There are two SBCs in the route: sbc1.contoso.com and sbc2.contoso.com. Both SBCs have equal priority in the route. Before picking an SBC, the routing mechanism evaluates the health of the SBCs based on when the SBC sent the SIP options last time. 
 
@@ -78,6 +78,6 @@ The Call Quality Dashboard provides information about call quality and reliabili
 
 In case of call failures, Call Analytics provides standard SIP codes to help you with troubleshooting. 
 
-![Sample SIP code for call failure](media/failed-response-code.png)
+![Sample SIP code for call failure.](media/failed-response-code.png)
 
 However, Call Analytics can only help when calls reach the internal components of Direct Routing and fail. In case of issues with SBC pairing or issues where SIP "Invite" was rejected (for example, the name of the trunk FQDN is misconfigured), Call Analytics will not help. In this case, refer to the SBC logs. Direct Routing sends a detailed description of issues to the SBCs; these issues can be read from the SBC logs.

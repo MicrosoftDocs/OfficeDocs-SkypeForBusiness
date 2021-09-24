@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Learn about Tenant Administration control for voice recognition (voice profile) in Teams meeting rooms.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection: 
@@ -57,11 +57,11 @@ An Intelligent Speaker should be placed at least 8 inches (20 cm) away from wall
 
    The diagram shows how the Intelligent Speaker is connected to the device if the device includes a data box.
 
-   ![The Intelligent Speaker setup with the speaker, the power and data box. One line goes to the USB port of the console, and the other line goes to power. ](../media/intelligent-speakers1.png)
+   ![The Intelligent Speaker setup with the speaker, the power and data box.One line goes to the USB port of the console, and the other line goes to power.](../media/intelligent-speakers1.png)
 
    The diagram shows how the Intelligent Speaker is connected to the device if the device doesn't include a data box.
 
-   ![The Intelligent Speaker setup with the speaker connecting directly to the console. ](../media/intelligent-speakers2.png)
+   ![The Intelligent Speaker setup with the speaker connecting directly to the console.](../media/intelligent-speakers2.png)
 
 > [!Note]
 > EPOS and Yealink devices should have "EPOS" or "Yealink" prefix and contain "UAC2_RENDER" in the speaker name and "UAC2_TEAMS" in the microphone name. If you don't find these microphone and speaker names in the dropdown menu, restart the Intelligent Speaker device.
@@ -77,13 +77,13 @@ The following are the required policies to set an Intelligent Speaker and user r
 |Policy|Description|Values and Behavior|
 |-|-|-|
 |enrollUserOverride|Use to set voice profile capture, or enrollment, in Teams settings for a tenant. |**Disabled**<br><ul><li> Users who have never enrolled can't view, enroll, or re-enroll.<li>The entry point to the enrollment flow will be hidden.<li>If users select a link to the enrollment page, they'll see a message that states this feature isn't enabled for their organization.  <li>Users who have enrolled can view and remove their voice profile in the Teams settings. Once they remove their voice profile, they won't be able to view, access, or complete the enrollment flow.</li></ul><br>**Enabled**<br><ul><li> Users can view, access, and complete the enrollment flow.<li>The entry point will show on Teams settings page under the **Recognition** tab.</li></ul>|
-|roomAttributeUserOverride|Control the voice-based user identification in meeting rooms. This setting is required for Teams Rooms accounts.| **Off**<br><ul><li>The Teams Rooms device won't send audio stream-saving bandwidth from the room. <li>Meeting room users won't be attributed or distinguished, and their voice signatures won't be retrieved or used at all.<li>Meeting room users are unknown.</li></ul> <br>**Attribute**<br><ul><li>Rooms users will be attributed based on their enrollment status.<li>Users who are enrolled are shown with their name in the transcription.  <li>Users who aren't enrolled show as Speaker n.<li>The Teams Rooms device will send seven audio streams from the room.</ul> <br>**Distinguish**<br> *This setting will be available at a later date.*|
+|roomAttributeUserOverride|Control the voice-based user identification in meeting rooms. This setting is required for Teams Rooms accounts.| **Off**<br><ul><li>The Teams Rooms device won't send audio stream-saving bandwidth from the room. <li>Meeting room users won't be attributed or distinguished, and their voice signatures won't be retrieved or used at all.<li>Meeting room users are unknown.</li></ul> <br>**Attribute**<br><ul><li>Rooms users will be attributed based on their enrollment status.<li>Users who are enrolled are shown with their name in the transcription.  <li>Users who aren't enrolled show as Speaker \<n>.<li>The Teams Rooms device will send seven audio streams from the room.</ul> <br>**Distinguish**<br> <ul><li>Rooms users will be distinguished and separated as speaker 1, speaker 2, ....speaker \<n> in the transcription.</li><li>Irrespective of enrollment status of the user, their name will not show in the transcription.</li><li>The Teams Rooms device will send seven audio streams from the room.</li></ul>
 |AllowTranscription|Required for user and Teams rooms accounts.|**True** and **False**|
 ||||
 
 In the Teams admin center, set the **Allow transcription** policy. Settings are **Off** by default.
 
-![the admin center with meeting policies highlighted and Allow transcription selected](../media/allow-transcription1.png)
+![the admin center with meeting policies highlighted and Allow transcription selected.](../media/allow-transcription1.png)
 
 ## Frequently asked questions (FAQ)
 

@@ -13,7 +13,7 @@ ms.collection:
 audience: Admin
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords: 
  - CSH
 ms.custom: 
@@ -50,7 +50,7 @@ To enable a call park policy
 2. On the **Manage policies** tab, click **Add**.
 3. Give the policy a name, and then switch **Allow call park** to **On**. (The call pickup range and timeout can't be customized.)
 
-    ![Screenshot of call park policy settings](media/call-park-add-policy.png)
+    ![Screenshot of call park policy settings.](media/call-park-add-policy.png)
 
 4. Select **Save**.
 
@@ -65,7 +65,7 @@ To assign a call park policy to a group
 3. Choose a rank compared to other group assignments.
 4. Under **Select a policy**, choose the policy that you want to assign this group to.
 
-    ![park policies image](media/call-park-assign-policy-to-group.png)
+    ![park policies image.](media/call-park-assign-policy-to-group.png)
 
 5. Select **Apply**.
 

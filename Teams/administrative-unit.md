@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Learn how to use administrative unit functionality in Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection: 
@@ -29,17 +29,17 @@ With the administrative unit concept, you’ll ensure access to a specific set o
 
 As an example, Contoso has operations across different geographies. Alice is a Global IT admin in London, while Prashant is an IT admin for India. Today, when Prashant signs into the Teams admin center with the Device Administrator role, they get to see devices across the globe. Alice wants to restrict Prashant’s access only to those devices that are present in India. The administrative units concept helps solve this problem. Learn more [administrative unit concept](/azure/active-directory/roles/administrative-units).
 
-![a diagram that shows scenarios](media/au-diagram.png)
+![a diagram that shows scenarios.](media/au-diagram.png)
 
 ## Creation of Administrative Units
 
 Create administrative units in Azure portal and assign admins for respective administrative units. Learn more about assigning administrative units at [manage admin units](/azure/active-directory/roles/admin-units-manage).
 
-![an example company administrative units](media/au-example.png)
+![an example company administrative units.](media/au-example.png)
 
 Once created, Global IT admin can then add device users who correspond to that administrative unit.
 
-![an example company with users preview](media/au-example2.png)
+![an example company with users preview.](media/au-example2.png)
 
 The assignment of the role can be done through PowerShell using the [Add-AzureADMSScopedRoleMembership](/powershell/module/azuread/add-azureadmsscopedrolemembership?view=azureadps-2.0) cmdlet.
 

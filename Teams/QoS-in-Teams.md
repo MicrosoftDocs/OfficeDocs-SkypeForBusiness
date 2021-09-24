@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: vkorlep, siunies
 audience: admin
 description: Learn about how to prepare your organization's network for Quality of Service (QoS) in Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
   - CSH
@@ -40,7 +40,7 @@ For QoS to be effective, you must apply consistent QoS settings throughout your 
 
 _Figure 1. The relationship between an organization's networks and Microsoft 365 or Office 365 services_
 
-![Illustration of the relationship between networks and services](media/Qos-in-Teams-Image1.png "The relationship between an organization's networks and Microsoft 365 or Office 365 services: on-premises network and devices connect with an interconnect network, which in turn connects with Microsoft 365 or Office 365 Cloud Voice and Audio Conferencing services.")
+![Illustration of the relationship between networks and services.](media/Qos-in-Teams-Image1.png "The relationship between an organization's networks and Microsoft 365 or Office 365 services: on-premises network and devices connect with an interconnect network, which in turn connects with Microsoft 365 or Office 365 Cloud Voice and Audio Conferencing services.")
 
 ## QoS implementation checklist
 
@@ -97,7 +97,7 @@ When you implement QoS, you define multiple queues using one of several congesti
 
 _Figure 2. Examples of QoS queues_
 
-![Illustration of QoS queues and bandwidth division](media/Qos-in-Teams-Image2.png "Total available bandwidth is divided among multiple queues—audio, video, and other traffic—that have been assigned different priorities.")
+![Illustration of QoS queues and bandwidth division.](media/Qos-in-Teams-Image2.png "Total available bandwidth is divided among multiple queues—audio, video, and other traffic—that have been assigned different priorities.")
 
 A simple analogy is that QoS creates virtual "carpool lanes" in your data network so some types of data never or rarely encounter a delay. Once you create those lanes, you can adjust their relative size and much more effectively manage the connection bandwidth you have, while still delivering business-grade experiences for your organization's users.
 

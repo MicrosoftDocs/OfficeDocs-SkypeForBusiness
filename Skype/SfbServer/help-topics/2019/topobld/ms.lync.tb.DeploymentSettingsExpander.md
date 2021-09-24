@@ -11,7 +11,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.DeploymentSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 ROBOTS: NOINDEX, NOFOLLOW
 description: "You can edit the properties for an existing deployment with the following sections:"

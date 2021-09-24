@@ -11,7 +11,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AvMcusScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 76edf3b8-10c6-4c61-bbef-395f56d298ed
 ROBOTS: NOINDEX, NOFOLLOW
 description: "The A/V Conferencing pools node lists the A/V Conferencing pools in your topology. You can perform the following action:"

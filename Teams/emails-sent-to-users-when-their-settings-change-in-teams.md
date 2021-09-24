@@ -14,7 +14,7 @@ ms.collection:
 audience: Admin
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 
@@ -38,7 +38,7 @@ By default, there are four types of email that will be sent to your users who ar
 
     Here is an example of this email:
 
-     ![Skype for Business Verify License](media/teams-emails-sent-to-users-when-settings-change-image1.png)
+     ![Skype for Business Verify License.](media/teams-emails-sent-to-users-when-settings-change-image1.png)
 
     To find out more about licensing, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
@@ -81,7 +81,7 @@ When you disable sending emails to users, email won't be sent even when a user g
 
 By default, emails will be sent to your users, but if you want to prevent them from receiving email for audio conferencing, you can use Microsoft Teams or Windows PowerShell. 
 
-![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+![An icon showing the Microsoft Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
 1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
 

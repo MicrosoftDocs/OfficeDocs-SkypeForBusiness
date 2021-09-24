@@ -7,7 +7,7 @@ audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: conceptual
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
@@ -27,7 +27,7 @@ description: Learn how Microsoft Phone System Direct Routing lets you connect a 
 
 Microsoft Phone System Direct Routing lets you connect a supported, customer-provided Session Border Controller (SBC) to Microsoft Phone System.  With this capability, for example, you can configure on-premises Public Switched Telephone Network (PSTN) connectivity with Microsoft Teams client, as shown in the following diagram: 
 
-![Diagram showing configuration of on-premises PSTN connectivity](media/PlanDirectRouting1-PSTNwithTeams.png "Configuration of on-premises PSTN connectivity with Microsoft Teams client")
+![Diagram showing configuration of on-premises PSTN connectivity.](media/PlanDirectRouting1-PSTNwithTeams.png "Configuration of on-premises PSTN connectivity with Microsoft Teams client")
 
   > [!NOTE]
   > Skype for Business Online also lets you pair a customer-provided SBC, but this requires an on-premises Skype for Business Server deployment or a special edition of Skype for Business, called Cloud Connector, in between the SBC and the Microsoft Cloud. This scenario is known as hybrid voice. In contrast, Direct Routing allows a direct connection between the supported SBC and the Microsoft Cloud.
@@ -231,12 +231,6 @@ The FQDNs – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com and sip3.pst
 - 52.120.0.0/14
 
 You need to open ports for all these IP address ranges in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.  If your firewall supports DNS names, the FQDN **sip-all.pstnhub.microsoft.com** resolves to all these IP subnets. 
-
-> [!IMPORTANT]
-> As part of Teams Direct Routing expansion and service improvement, we have deployed new instances of Direct Routing infrastructure in Australia in November 2020. This is reflected in two additional IP addresses (52.114.16.74 and 52.114.20.29) to which the following FQDNs will be resolved for Australian customers – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com, and sip3.pstnhub.microsoft.com. You need to make sure these two IP addresses (52.114.16.74 and 52.114.20.29) are allowed in your IP Access Control Lists (ACLs) and ports are open for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.
-
-> [!IMPORTANT]
-> As part of Teams Direct Routing expansion and service improvement, we have deployed new instances of Direct Routing infrastructure in Japan in May 2021. This is reflected in two additional IP addresses (52.114.36.156 and 52.114.32.169) to which the following FQDNs will be resolved for Japan customers – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com, and sip3.pstnhub.microsoft.com. You need to make sure these two IP addresses (52.114.36.156 and 52.114.32.169) are allowed in your IP Access Control Lists (ACLs) and ports are open for all these IP addresses in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.
 
 ### Office GCC DoD environment
 

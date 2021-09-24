@@ -1,5 +1,5 @@
 ---
-title: "Types of phone numbers used for Calling Plans"
+title: "Types of phone numbers used for Teams"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -14,19 +14,21 @@ ms.collection:
 audience: Admin
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords: 
  - CSH
 ms.custom: 
   - Calling Plans
   - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
   - seo-marvel-apr2020
-description: In this article, you will learn about different phone number types that Microsoft Teams uses for Calling Plans.
+description: In this article, you will learn about different phone number types that Microsoft Teams uses.
 ---
 
-# Different kinds of phone numbers used for Calling Plans
+# Types of phone numbers
 
-Microsoft Teams uses different telephone number types depending on the purpose for which you want to use the phone number. Teams uses **user** numbers, which can be assigned to users in your organization, and **service** numbers, which are assigned to services such as Audio Conferencing, auto attendants, or call queues. Service phone numbers have a *higher concurrent call capacity*  than user numbers. Service phone numbers are available but will vary by country/region and the type of number (whether it's a toll or toll-free number). If you need additional or other number types other than those numbers seen in the Microsoft Teams admin center, you can submit a phone number request to the [PSTN service desk help](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
+Microsoft Teams uses different telephone number types depending on the purpose for which you want to use the phone number. 
+
+Teams uses **user** numbers, which can be assigned to users in your organization, and **service** numbers, which are assigned to services such as Audio Conferencing, auto attendants, or call queues. Service phone numbers have a *higher concurrent call capacity*  than user numbers. Service phone numbers are available but will vary by country/region and the type of number (whether it's a toll or toll-free number). If you need additional or other number types other than those numbers seen in the Microsoft Teams admin center, you can submit a phone number request to the [PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
   
 - **User numbers**
     
@@ -56,9 +58,7 @@ Microsoft Teams uses different telephone number types depending on the purpose f
 
 ## Related topics
 
-[Transferring phone numbers common questions](./phone-number-calling-plans/port-order-overview.md)
-
-[Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Manage phone numbers for your organization](manage-phone-numbers-landing-page.md)
 
 [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 

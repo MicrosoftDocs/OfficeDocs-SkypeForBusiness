@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: Prepare for and implement disabling TLS 1.0 and 1.1 in your environments.
 ---
@@ -457,7 +457,7 @@ Alternatively, you can use Internet Explorer to test TLS connections to web serv
 7. Go back into Internet Explorer and disable the option to **Use TLS 1.2** only.
 8. Browse the Internal Web Service URL of your SfB 2015 pool again (should fail to connect).
 
-![Internet Options](../../media/internet-options.jpg)
+![Internet Options.](../../media/internet-options.jpg)
 
 ## Advanced deployment scenarios
 
@@ -516,14 +516,14 @@ Because some dependency prerequisites are required to support TLS 1.2 in Skype f
 8. Install Local Configuration Store (Step 1): 
      - Open the Deployment Wizard, click Install or Update Skype for Business Server System, and click on **Run** at Step 1: Install Local Configuration Store.
      - Click **Next** in the **Install Local Configuration Store** dialog box.
-     ![Install Local Configuration Store dialog box](../../media/local-configuration-store.png)
+     ![Install Local Configuration Store dialog box.](../../media/local-configuration-store.png)
      - Review the results, and ensure that the Task Status is Completed. Review the resulting log file by clicking **View Log**.
-     ![Task status shows as Completed](../../media/local-configuration-task-completed.png)
+     ![Task status shows as Completed.](../../media/local-configuration-task-completed.png)
      - Click **Finish**.
 9. Set up or remove Skype for Business Server Components (Step 2):
     - Open the Deployment Wizard, click **Install or Update Skype for Business Server System**, and click **Run** at Step 2: Set up or Remove Skype for Business Server Components
     - Click **Next** in the Set Up Skype for Business Server Components dialog box.
-    ![the Set Up Skype for Business Server Components window](../../media/set-up-skype-for-business-server-components-window.png)
+    ![the Set Up Skype for Business Server Components window.](../../media/set-up-skype-for-business-server-components-window.png)
     - Review the log using View Log, and validate that setup completed without issues. 
     - Click **Finish**.
 10. Proceed with additional installation and configuration as required (you can resume normal installation procedures at this point).

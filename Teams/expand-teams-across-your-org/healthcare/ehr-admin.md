@@ -12,7 +12,7 @@ searchScope:
   - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Healthcare
@@ -143,7 +143,7 @@ Key features of the provider experience:
 
 - Provider can see real-time updates of participants connect and disconnect for a given appointment. The provider can see when the patient is connected to a virtual visit.
 
-  ![Provider experience of a virtual visit with patient](../../media/ehc-provider-experience-6.png)
+  ![Provider experience of a virtual visit with patient.](../../media/ehc-provider-experience-6.png)
 
 ### Patient experience
 
@@ -151,7 +151,7 @@ The connector supports patients joining virtual visits through MyChart web and m
 
 Key features of the patient experience:
 
-- Patients can join virtual visits from modern web browsers on desktop and mobile without app installation.
+- Patients can join virtual visits from modern web browsers on desktop and [mobile without app installation](../mobile-browser-join.md).
 
 - Patients can join virtual visits with a single click and there is no other account or sign-in required.
 
@@ -161,7 +161,7 @@ Key features of the patient experience:
 
 - Testing of the video and microphone is available in the lobby before joining the virtual visit.
 
-  ![Patient experience of the virtual visit](../../media/ehc-virtual-visit-5.png)
+  ![Patient experience of the virtual visit.](../../media/ehc-virtual-visit-5.png)
 
 > [!Note]
 > Epic, MyChart, Haiku, and Canto are trademarks of Epic Systems Corporation.
