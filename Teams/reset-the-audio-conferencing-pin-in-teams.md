@@ -47,7 +47,7 @@ Meetings can be started when an authenticated user joins using the Microsoft Tea
    
 ## Have a user reset their own PIN
 
-1. Have the user go to [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing).
+1. Have the user go to [https://dialin.teams.microsoft.com/usp](https://dialin.teams.microsoft.com/usp).
 2. Click **Reset PIN**. 
 
 > [!NOTE]
