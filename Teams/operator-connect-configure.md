@@ -105,8 +105,6 @@ To acquire numbers for new Teams users, follow these steps:
 
 4. Once your operator completes the order, they'll upload numbers to your tenant. You can view the numbers and the provider in the Teams admin center by going to **Voice > Phone numbers**. Assign Operator Connect numbers to users by using the Teams admin center or by using  PowerShell. For more information, see [Assign numbers](#assign-numbers).
 
-   
-
 ### Assign numbers
 
 Whether you're adding new Teams users or moving existing users to Operator Connect, the steps for assigning numbers are as follows:
