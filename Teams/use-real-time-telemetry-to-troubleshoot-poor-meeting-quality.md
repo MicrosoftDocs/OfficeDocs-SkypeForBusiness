@@ -1,0 +1,86 @@
+---
+title: "Use Real-time telemetry to troubleshoot poor Meeting quality"
+ms.author: serdars
+author: SerdarSoysal
+manager: serdars
+ms.reviewer: mikedav, vkorlep
+ms.topic: article
+ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
+ms.tgt.pltfrm: cloud
+ms.service: msteams
+ms.collection:
+  - M365-voice
+search.appverid: MET150
+audience: Admin
+appliesto:
+  - Microsoft Teams
+ms.localizationpriority: medium
+f1.keywords:
+- CSH
+ms.custom:
+  - ms.teamsadmincenter.directrouting.callanalytics
+  - ms.teamsadmincenter.users.activity.audioqualitycolumn
+  - Reporting
+description: Use real-time telemetry with details about devices, networks, and connectivity to troubleshoot user problems with Microsoft Teams scheduled meetings.
+---
+
+# Use Real-time telemetry to troubleshoot poor Meeting quality
+
+This article explains how to use real-time telemetry to troubleshoot poor Microsoft Teams meeting quality for individual users. You can see real-time telemetry if you have one of the following roles:
+
+- Teams Administrator
+- Teams Communications Support Specialist
+- Teams Communications Support Engineer
+
+For more information on Teams admin roles, see [Use Microsoft Teams administrator roles to manage Teams](/MicrosoftTeams/using-admin-roles).
+
+Real-time telemetry lets IT admins look at their important users’ scheduled meetings and see audio, video, content sharing, and network related issues. As an admin, you can use telemetry to investigate these issues during meetings and troubleshoot in real-time.
+
+## What is real-time telemetry?
+
+Today, individual meeting troubleshooting is available for Teams administrators through [call analytics](use-call-analytics-to-troubleshoot-poor-call-quality.md) after a meeting ends. Real-time telemetry lets admins troubleshoot scheduled meetings while they're in progress.
+
+Real-time telemetry shows detailed information about Teams meetings for each user in your Office 365 account updated in real-time. It includes information about devices, network, connectivity, audio, video, and content sharing issues which will help admin troubleshoot call quality more effectively.
+
+As a Teams admin, you get full access to all real-time telemetry data for each user. In addition, you can assign Azure Active Directory roles to support staff. To learn more about these roles, see [Give permission to support and help desk staff](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff).
+
+## Where to find per-user real-time troubleshooting telemetry
+
+To see all meeting information and data for a user, go to the [Teams admin center](https://admin.teams.microsoft.com). Under **Users** > **Manage users**, select a user and then open the **Meetings & calls** tab on the user's profile page. Under **Recent meetings**, you'll see a list of meetings the user has attended within the past 24 hours *for which real-time telemetry is available*, including any in progress meetings. If the meeting is not in progress or doesn't have real-time telemetry data, it will show up in **Past meetings**.
+
+![Screenshot of all analytics user data.](media/UserCallHistoryWith-Real-time-telemtry.png)
+
+To get additional information about participants of a meeting that's in progress, including their device, network, and audio statistics, find the meeting in **Recent meetings** and select the link under the **Participants** column.
+
+![Screenshot of call analytics user session data.](media/MeetingParticipantPage-Real-time-telemtry.png)
+
+To look at real-time telemetry of a given user for an in-progress meeting, including information around device, network, audio, video, and content sharing details, select the **Meeting ID**.
+
+![Screenshot of call analytics user session data.](media/UserTelemetry-Real-time-telemetry.png)
+
+## Platforms supported for real-time telemetry
+
+- Windows
+- MacOS
+- Linux
+- Android
+- iOS
+
+## Teams devices support with real-time telemetry
+
+- MTR - Surface Hub
+- MTR - Teams Display
+- MTR - Collaboration bar
+- IP Phone devices
+
+## Limitations
+
+- Real-time telemetry is only available for scheduled meetings. For Ad-hoc meetings like Meet Now, PSTN, 1:1 calls, and group calls, real-time telemetry won't work.
+- Real-time telemetry is only available for presenters of scheduled live event. It's currently not available for live event attendees.
+- Real-time telemetry data is available for a meeting under **Recent meetings** for 24 hours after the meeting has ended. After 24 hours, you can't access the data and the meeting moves to **Past meetings**. Real-time data is only available for latest 3 hour duration of a meeting.
+- Telemetry doesn't work with older versions of Teams. If no telemetry is available, try updating your client.
+- If external participants or anonymous users join a meeting, their display name will show as **unavailable** to retain cross-tenant privacy.
+
+## Related topics
+
+[Set up per-user call analytics](set-up-call-analytics.md)
