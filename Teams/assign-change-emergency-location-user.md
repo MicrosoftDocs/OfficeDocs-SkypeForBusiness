@@ -24,7 +24,7 @@ ms.custom: seo-marvel-apr2020
 
 **DOES THE FOLLOWING APPLY TO ALL 3?**
 
-**An emergency location needs to be assigned to each phone number or user. For more about emergency addresses and locations, see [What are emergency locations, places, and call routing?](./what-are-emergency-locations-addresses-and-call-routing.md).**
+**An emergency location needs to be assigned to each phone number or user. For more information about emergency addresses and locations, see [What are emergency locations, places, and call routing?](./what-are-emergency-locations-addresses-and-call-routing.md).**
 
 **For Microsoft Calling Plans, in European countries, the emergency location is associated with the phone number when you get it from Microsoft 365 or when you transfer a phone number over to Microsoft 365. In the United States, the emergency location is associated with the phone number when it's assigned to the user. The emergency address can be changed if the user that it's assigned to moves to a new location.**
 
