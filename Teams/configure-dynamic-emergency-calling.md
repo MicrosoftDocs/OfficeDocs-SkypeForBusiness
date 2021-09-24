@@ -22,13 +22,9 @@ appliesto:
 
 # Plan and configure dynamic emergency calling 
 
-Dynamic emergency calling for **Microsoft Calling Plans and Direct Routing** provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client.  
+Dynamic emergency calling for **Microsoft Calling Plans, Operator Connect, and Direct Routing** provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client.  
 
-**WHAT DO WE SAY ABOUT OC HERE? PROVIDED BY OPERATOR??**
-
-Based on the network topology that the tenant administrator defines, the Teams client provides network connectivity information in a request to the Location Information Service (LIS). If there's a match, the LIS returns a location to the client. This location data is transmitted back to the client.  
-
-**Order of preference that client obtains a location is LIS, Client/End User saved, Static.**
+Based on the network topology that the tenant administrator defines, the Teams client provides network connectivity information in a request to the Location Information Service (LIS). If there's a match, the LIS returns a location to the client. This location data is transmitted back to the client.  **The order of preference in which the client obtains a location is LIS, Client/End User saved, Static.**
 
 The Teams client includes location data as part of an emergency call. This data is then used by the emergency service provider to determine the appropriate Public Safety Answering Point (PSAP) and to route the call to that PSAP, which allows the PSAP dispatcher to obtain the caller's location.  
 
@@ -97,9 +93,9 @@ The following clients are currently supported.  Check back often to see updates 
 
 ## Assign emergency addresses
 
-You can assign emergency addresses to both Calling Plan users and to the network identifiers that are required for dynamically obtaining a location. (Subnet and WiFi AP are supported. Ethernet switch/port is supported on Windows 8.1 and later at this time).
+You can assign emergency addresses to both Calling Plan users and to the network identifiers that are required for dynamically obtaining a location. (Subnet and WiFi AP are supported. Ethernet switch/port is supported on Windows 8.1 and later at this time.)
 
-**You can assign emergency addresses to Operator Connect users depending upon the setting on the number from the carrier.**
+**Whether you can assign emergency addresses to Operator Connect users depends on the capabilities assigned to the number when the carrier uploads them into a customers inventory.**  
 
 To support automated routing of emergency calls within the United States, you must ensure that the emergency locations that are assigned to network identifiers include the associated geo codes. (Emergency addresses without geo codes can't be assigned to the network identifiers that are required for dynamic locations.)
 
