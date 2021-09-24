@@ -41,15 +41,15 @@ The following table lists the tasks required to configure Skype for Business hyb
 
 ## DNS implications for on-premises organizations that become hybrid
 
-By default, tenants are created as TeamsOnly mode. Administrators cannot change this configuration. However, hybrid organizations must not be TeamsOnly mode because this would break federation for their on-premises users. Teams has a built-in mechanism to ensure the tenant-wide TeamsOnly configuration is not applied for new hybrid tenants, nor is it removed from existing tenants that become hybrid. This mechanism is based on the value of a LyncDiscover DNS record for any verified Microsoft 365 domain (because a Skype for Business Server on-premises deployment will in most cases have that record), as described below.
+By default, tenants are created as TeamsOnly mode. Administrators cannot change this configuration. However, hybrid organizations must not be TeamsOnly mode because this would break federation for their on-premises users. Teams has a built-in mechanism to ensure the tenant-wide TeamsOnly configuration is not applied for new hybrid tenants, and also that tenant-wide TeamsOnly configuration is *removed from existing tenants that become hybrid*. This mechanism is based on the value of the LyncDiscover DNS record for any verified Microsoft 365 domain (because a Skype for Business Server on-premises deployment will in most cases have that record), as described below.
 
 When a new Microsoft 365 subscription is first processed, the following occurs:
 - If there are not yet any verified Microsoft 365 domains, the tenant is created as TeamsOnly mode. The value is set through the TeamsUpgradeOverridePolicy, which can only be set by Microsoft. If the policy value is UpgradeToTeams, it takes precedence over any value of TeamsUpgradePolicy.
-- If there are verified Microsoft 365 domains, but there are no public DNS lyncDiscover records detected, or if any LyncDiscover records that are detected all point to Microsoft 365 (sipfed.online.lync.com, sipfed.online.gov.skypeforbusiness.us, etc), the tenant is created as TeamsOnly mode (through the TeamsUpgradeOverridePolicy).
+- If there are verified Microsoft 365 domains, but there are no public DNS LyncDiscover records detected, or if any LyncDiscover records that are detected all point to Microsoft 365 (sipfed.online.lync.com, sipfed.online.gov.skypeforbusiness.us, etc), the tenant is created as TeamsOnly mode (via the TeamsUpgradeOverridePolicy).
 - If there is at least one verified Microsoft 365 domain for which a LyncDiscover record is detected, and that record points somewhere other than Microsoft 365, the tenant is created as Islands mode.
 
 When an existing Microsoft 365 tenant is re-provisioned (typically because of a change in verified domains or in subscription details), the following occurs:
-- If a LyncDiscover record is found for one or more of the Microsoft 365 verified domains, and that record does not point to Microsoft 365, the tenant-wide TeamsOnly mode (through the TeamsUpgradeOverridePolicy) is removed. The tenant mode will revert to whatever is specified at the tenant level for TeamsUpgradePolicy, which, by default, is Islands mode.
+- If a LyncDiscover record is found for one or more of the Microsoft 365 verified domains, and that record does not point to Microsoft 365, the tenant-wide TeamsOnly mode (through the TeamsUpgradeOverridePolicy) is removed. The tenant mode will revert to whatever is specified at the tenant level for TeamsUpgradePolicy, which by default, is Islands mode.
 
 
 There are some limitations for this automatic detection mechanism:
