@@ -49,7 +49,7 @@ When a new Microsoft 365 subscription is first processed, the following occurs:
 - If there is at least one verified Microsoft 365 domain for which a LyncDiscover record is detected, and that record points somewhere other than Microsoft 365, the tenant is created as Islands mode.
 
 When an existing Microsoft 365 tenant is re-provisioned (typically because of a change in verified domains or in subscription details), the following occurs:
-- If a LyncDiscover record is found for one or more of the Microsoft 365 verified domains, and that record does not point to Microsoft 365, the tenant-wide TeamsOnly mode (through the TeamsUpgradeOverridePolicy) is removed. The tenant mode will revert to whatever is specified at the tenant level for TeamsUpgradePolicy, which by default, is Islands mode.
+- If a LyncDiscover record is found for one or more of the Microsoft 365 verified domains, and that record does not point to Microsoft 365, the tenant-wide TeamsOnly mode (through the TeamsUpgradeOverridePolicy) is removed. The tenant mode will revert to whatever is specified at the tenant level for TeamsUpgradePolicy, which, by default, is Islands mode.
 
 
 There are some limitations for this automatic detection mechanism:
