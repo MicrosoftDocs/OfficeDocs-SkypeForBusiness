@@ -43,7 +43,7 @@ This article describes concepts you'll need to know to manage emergency calling&
 
   When you assign an emergency location to a user or site, it's this unique location ID that's associated with the user or site.
 
-- **Registered address** - **An emergency address that is assigned to each user; it is sometimes referred to as a static emergency address or address of record.**  **TRUE FOR ALL?** 
+- **Registered address** - **An emergency address that is assigned to each user. A registered address is sometimes referred to as a static emergency address or address of record. Note that registered addresses do not currently apply to Direct Routing users.)  DIRECT ROUTING COMING LATER...?  APPLIES TO OC BUT WHETHER ADMIN SETS IT DEPENDS ON OPERATOR CONFIGURATION OF NUMBER?**
 
 >[!Note]
 >There are some differences in how you manage emergency calling depending on whether you are using **Microsoft Calling Plans, Operator Connect, or Direct Routing** for your [PSTN connectivity](pstn.connectivity.md). These considerations are described throughout this article.
@@ -85,14 +85,15 @@ When the location must be associated to the telephone number depends on the coun
 
 Dynamic emergency calling for Calling Plans provides the capability to configure and route emergency calls based on the current location of the Teams client. The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) or to notify security desk personnel varies depending on the country of usage of the Teams user.  
 
-For Calling Plan users, dynamic location for routing emergency calls is only supported in the United States as follows. 
+Dynamic location for routing emergency calls is supported in the United States as follows. 
 
 - If a Teams client for a United States Calling Plan user dynamically acquires an emergency address within the United States, that address is used for emergency routing instead of the registered address, and the call will be automatically routed to the PSAP in the serving area of the address.
 
 - If a Teams client for a United States Calling Plan user doesn't dynamically acquire an emergency address within the United States, then the registered emergency address is used to help screen and route the call. However, the call will be screened to determine if an updated address is required before connecting the caller to the appropriate PSAP.
 
-In the United States, you must configure the civic address that is part of the emergency locations that are assigned to network identifiers&mdash;and include the associated geo codes. For more information, see [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).
+- In the United States, you must configure the civic address that is part of the emergency locations that are assigned to network identifiers&mdash;and include the associated geo codes. For more information, see [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).
 
+**Dynamic location for routing emergency calls is supported in Canada the same as in the United States with the following exceptions:  all emergency calls will be screened nationally before transferred to the PSAP.**
 
 ### Emergency call routing
 
@@ -114,6 +115,9 @@ When a Teams Calling Plan user dials an emergency number, how the call is routed
 
   **In Canada, Ireland, and the United Kingdom**, emergency calls are first screened to determine the current location of the user before connecting the call to the appropriate dispatch center. 
 
+**ISN'T THE FOLLOWING COVERED IN THE BULLET ABOVE?**
+  **In Canada, emergency calls are screened nationally before being transferred to the PSAP.**
+
   **In France, Germany, and Spain**, emergency calls are routed directly to the PSAP serving the emergency address associated with the number regardless of the location of the caller.
 
   **In the Netherlands**, emergency calls are routed directly to the PSAP for the local area code of the number regardless of the location of the caller.
@@ -132,19 +136,50 @@ For more information, see:
 
 ## Considerations for Operator Connect
 
-If Microsoft Calling Plans are not available in your area, and your existing carrier is a participant in the Microsoft Operator Connect program, your carrier can manage PSTN calling and Session Border Controllers (SBCs) for you. For more information, see [Plan for Operator Connect](operator-connect-plan.md] and [Configure Operator Connect](operator-connect-configure.md). With Operator Connect:
+If Microsoft Calling Plans are not available in your area, and your existing carrier is a participant in the Microsoft Operator Connect program, your carrier can manage PSTN calling and Session Border Controllers (SBCs) for you. For more information, see [Plan for Operator Connect](operator-connect-plan.md] and [Configure Operator Connect](operator-connect-configure.md). 
 
-- Emergency calls are routed automatically to your carrier for a given number.
+### Emergency call enablement
 
-- **Registered addresses: The ability for a tenant admin to set a registered address will depend upon the capabilities assigned to the number when the carrier uploads them into a customer's inventory. Depending on the setting, the tenant administrator may or may not be able to set, modify, and/or delete the emergency location on a user.**  
+**Each user is automatically enabled for emergency calling and is required to have a registered emergency address associated with their assigned telephone number. Emergency calls are routed automatically to the Operator Connect carrier for a given number.**
+
+**The ability for a tenant admin to set the registered address will depend upon the capabilities assigned to the number when the carrier uploads them into a customers inventory. Based upon this setting, the tenant administrator may or may not be required or able to set, modify, or delete the emergency location on a user.** 
+
+**When the location must be associated to the telephone number depends on the country/region:**
+
+- **In the United States and Canada, for example, an emergency location is required when a number is assigned to a user.**
+
+- **For other countries--such as in Europe, the Middle East, and Africa (EMEA)--an emergency location is required when you get the phone number your operator.**
+
+### Dynamic emergency calling
+
+**Dynamic emergency calling for Operator Connect provides the capability to configure and route emergency calls based on the current location of the Teams client. The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) or to notify security desk personnel varies depending on the country of usage of the Teams user.** 
+
+**Dynamic location for routing emergency calls is supported in the United States as follows.** 
+
+- **If a Teams client for a United States user dynamically acquires an emergency address within the United States, that address is used for emergency routing instead of the registered address, and the call will be automatically routed to the PSAP in the serving area of the address.**
+
+- **If a Teams client for a United States user doesn't dynamically acquire an emergency address within the United States, then the registered emergency address is used to help screen and route the call. However, the call will be screened to determine if an updated address is required before connecting the caller to the appropriate PSAP.**
+
+- **In the United States, you must configure the civic address that is part of the emergency locations that are assigned to network identifiers&mdash;and include the associated geo codes. For more information, see [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).**
+
+- **Dynamic location for routing emergency calls is supported in Canada the same as in the United States with the following exceptions:  all emergency calls will be screened nationally before transferred to the PSAP.**
+
+
+### Emergency call routing
+
+**When a Teams user dials an emergency number, how the call is routed to the PSAP depends on the following:**
+
+- **Whether the emergency address is dynamically determined by the Teams client.**
+
+- **Whether the emergency address is the registered address associated with the user's phone number.**
+
+- **The emergency calling network of that country.**
 
 - In the United States and Canada, dynamic routing is part of the carrier’s service. You do not need to procure this service from another service provider.  
 
 - In the United States and Canada, the automated routed to the PSAP is the same.
 
 - **If a dynamic location from either the LIS or client is not acquired, then a static one will be sent if it is configured on the user.**
-
-- Some carriers and markets will require that emergency addresses and phone numbers are coordinated between the tenant and the carrier. This means it may not be possible to modify the emergency address on a number or even have one which is required. 
 
 
 ## Considerations for Direct Routing
