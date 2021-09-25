@@ -54,4 +54,4 @@ To enable phone number assignments with Operator Connect, make sure your users a
 - Teams Phone licensed. To learn more, see [What is Phone System?](what-is-phone-system-in-office-365.md) and [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 - In TeamsOnly mode. To learn more, see [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
-For more information
+For a list of operators participating in the Microsoft Operator Connect program and the countries or regions where their service is available, see the [Microsoft 365 Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory).
