@@ -84,7 +84,7 @@ For more information on emergency calling, see [Manage emergency calling](what-a
 
 ### Move numbers from Calling Plans to Operator Connect
 
-1. Contact your operator to port your numbers to Operator Connect. See [Operators](#operators) to find your operator's website.
+1. Contact your operator to port your numbers to Operator Connect. See [Microsoft 365 Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory) to find your operator's website.
 
 2. After your operator completes the porting order, you can unassign your users' Calling Plan phone numbers, and remove the Calling Plan License. Then, your operator can upload the numbers to your tenant.
 
