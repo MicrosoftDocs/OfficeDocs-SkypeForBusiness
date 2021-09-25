@@ -31,7 +31,7 @@ Teams provides two options for broadcasting Teams meeting content: Network Devic
 - SDI has been used in broadcast productions since 1989 and is supported on most legacy studio hardware devices. Hardware devices from AJA Video Systems and Blackmagic Design provide connectivity to legacy broadcast devices that use SDI.
 
 > [!NOTE]
-> [The Video Hardware Out feature the supports SDI is currently in Preview release.]
+> The Video Hardware Out feature the supports SDI is currently in Preview release.
 
 NDI® and SDI technology is supported in all locales.
 
