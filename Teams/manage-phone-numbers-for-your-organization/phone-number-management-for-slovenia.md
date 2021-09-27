@@ -1,9 +1,8 @@
 ---
 title: "Phone number management for Slovenia"
-author: cichur
-ms.author: v-cichur
+author: cazawideh
+ms.author: czawideh
 manager: serdars
-ms.reviewer: davlick,krkilaru
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
