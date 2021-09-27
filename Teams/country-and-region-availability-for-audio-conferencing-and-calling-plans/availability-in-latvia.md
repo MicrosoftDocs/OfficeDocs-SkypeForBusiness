@@ -24,7 +24,7 @@ ms.custom:
   - Audio Conferencing
   - Phone System
   - Calling Plans
-description: "Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Latvia."
+description: "Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Latvia."
 ---
 
 # Availability in Latvia
@@ -57,7 +57,7 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
 |Calling Plans are available to purchase?  <br/> |Yes  <br/> |
 |Minutes available for Calling Plans. |There are four plan options available per calendar month: <ul><li>120-minute Domestic Calling Plan </li><li>240-minute Domestic Calling Plan</li></li><li>1200-minute Domestic Calling Plan </li></li><li>Domestic and International Calling Plan:  1200 minutes of domestic -OR- 600 minutes of international calling (whichever is reached first in the calendar month)</li></li></ul>|
 |Can make outbound calls to premium numbers?  <br/> | Not supported at this time. <br/> |
-|Can make outbound calls to?  <br/> | To 196 countries or regions, including [these](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
+|Can make outbound calls to?  <br/> | [To 196 countries or regions](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## Toll and toll-free numbers for services
 
