@@ -59,14 +59,14 @@ To acquire numbers for new Teams users, follow these steps:
 
 1. **Assign a Phone System license.** You can assign a Phone System license to your users from the Microsoft 365 admin center or using PowerShell. For more information, see [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
-2. Users that will be assigned phone numbers acquired with Operator Connect need to be in Teams only mode. If your organization in is Teams only mode, then all your users are in Teams only mode. To check this, in the Teams admin center, go to **Org-wide settings > Teams upgrade**. If your organization is in Islands mode, check if specific users are in Teams only mode. Go to **Users** and select a user account. In the **Account** tab, under **Teams upgrade,** the coexistence mode should be set to 'Teams only.'
+2. Users that will be assigned phone numbers acquired with Operator Connect need to be in TeamsOnly mode. If your organization is in TeamsOnly mode, then all your users are in TeamsOnly mode. To check this, in the Teams admin center, go to **Org-wide settings > Teams upgrade**. If your organization is in Islands mode, check if specific users are in TeamsOnly mode. Go to **Users** and select a user account. In the **Account** tab, under **Teams upgrade,** the coexistence mode should be set to 'TeamsOnly.'
 
 3. **Acquire numbers.** Go to your operator's website to order and acquire phone numbers. For a list of operator websites, go to the [Microsoft 365 Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory). You'll need to provide your tenant ID. If you don't know your tenant ID, see [Find your Microsoft 365 tenant ID](/onedrive/find-your-office-365-tenant-id) for more information.
 
 4. **Assign numbers.** Once your operator completes the order, they'll upload numbers to your tenant. You can view the numbers and the provider in the Teams admin center by going to **Voice > Phone numbers**. Assign numbers to users from the Teams admin center or by using PowerShell. For more information, see [Assign numbers](#assign-numbers).
 
 > [!NOTE]
-> In addition to [getting phone numbers for your users](getting-phone-numbers-for-your-users.md), you can get toll or toll-free phone numbers for services such as Audio Conferencing (for conference bridges), Auto Attendants, and Call Queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers. For example, a service number can handle hundreds of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously.  
+> In addition to [getting phone numbers for your users](getting-phone-numbers-for-your-users.md), you can get toll or toll-free phone numbers for services such as Audio Conferencing (for conference bridges), Auto Attendants, and Call Queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers. For example, a service number can handle hundreds of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously. To get service numbers, contact your operator.
 
 ### Emergency addresses
 
@@ -80,7 +80,7 @@ To assign numbers to emergency addresses, your operator will implement one of th
 
 - The operator assigns phone numbers to the emergency address, and doesn't allow you to change them. In this scenario, you'll need to contact your operator to make changes to emergency addresses and their assigned phone numbers.
 
-For more information on emergency calling, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
+For more information on emergency calling, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md) and [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).
 
 ### Move numbers from Calling Plans to Operator Connect
 
@@ -136,7 +136,7 @@ For more information about how to assign phone numbers to your users, see [Assig
 
 ## Manage your operators
 
-From the My operators tab, you can view your operators and their status and make the following changes to your selections:  
+From the **My operators** tab, you can view your operators and their status and make the following changes to your selections:  
 
 - Manage operator services by country
 - Suspend an operator
@@ -147,8 +147,8 @@ From the My operators tab, you can view your operators and their status and make
 
 ## Release numbers
 
-To release phone numbers from the Teams admin center, go to the **Phone numbers** page and select a number. 
+To release phone numbers from the Teams admin center, go to the **Phone numbers** page and select a number.
 
-If the phone number isn't assigned to a user, select **Release**. 
+- If the phone number isn't assigned to a user, select **Release**.
 
-If the phone number is assigned to a user, you'll need to unassign the number. Select **Edit**, then **Remove user**. After you save your changes, select **Release**.
+- If the phone number is assigned to a user, you'll need to unassign the number. Select **Edit**, then **Remove user**. After you save your changes, select **Release**.

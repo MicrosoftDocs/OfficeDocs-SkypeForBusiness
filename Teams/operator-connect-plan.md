@@ -25,9 +25,9 @@ appliesto:
 
 # Plan for Operator Connect
 
-Operator Connect is another option for providing Public Switched Telephone Network (PSTN) connectivity with Teams and Phone System.  
+Operator Connect is another option for providing Public Switched Telephone Network (PSTN) connectivity with Teams and Phone System. For more information about Teams voice solutions and PSTN connectivity options, see [Plan your Teams voice solution](cloud-voice-landing-page.md) and [PSTN connectivity options](pstn-connectivity.md).
 
-This article describes benefits and requirements, and lists the operators participating in the Operator Connect Program.  If you decide Operator Connect is the right solution for your organization, after reading this article, see [Configure Operator Connect](operator-connect-configure.md).  
+This article describes benefits and requirements, and provides a link to the operators participating in the Operator Program.  If you decide Operator Connect is the right solution for your organization, after reading this article, see [Configure Operator Connect](operator-connect-configure.md).  
 
 ## Benefits
 
@@ -37,7 +37,7 @@ With Operator Connect, if your existing operator is a participant in the Microso
 
 - **Operator-managed infrastructure.** Your operator manages the PSTN calling services and Session Border Controllers (SBCs), allowing you to save on hardware purchase and management.
 
-- **Faster, easier deployment.** You can quickly connect to your operator and assign phone numbers to users -– all from the Teams Admin Center.
+- **Faster, easier deployment.** You can quickly connect to your operator and assign phone numbers to users -– all from the Teams admin center.
 
 - **Enhanced support and reliability.** Operators provide technical support and shared service level agreements to improve support service, while direct peering powered by Azure creates a one-to-one network connection for enhanced reliability.
 
