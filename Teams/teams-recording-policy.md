@@ -141,7 +141,7 @@ shown in the following diagram:
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing the team custom app setting.](media/hp-compliance-recording-for-teams-calling-and-meetings.jpg "The images shows the flow when a Teams meeting or call is sent and received.")
 
-> [!Note]
+> [!NOTE]
 > This solution is designed specifically to enable policy-based compliance recording with Teams. Any other use of this solution will not be supported.
 
 
