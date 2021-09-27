@@ -77,7 +77,7 @@ To look at real-time telemetry of a given user for an in-progress meeting, inclu
 
 - Real-time telemetry is only available for scheduled meetings. For Ad-hoc meetings like Meet Now, PSTN, 1:1 calls, and group calls, real-time telemetry won't work.
 - Real-time telemetry is only available for presenters of scheduled live event. It's currently not available for live event attendees.
-- Real-time telemetry data is available for a meeting under **Recent meetings** for 24 hours after the meeting has ended. After 24 hours, you can't access the data and the meeting moves to **Past meetings**. Real-time data is only available for latest 3 hour duration of a meeting.
+- Real-time telemetry data is available for a meeting under **Recent meetings** for 24 hours after the meeting has ended. After 24 hours, you can't access the data and the meeting moves to **Past meetings**. If a meeting is longer than 3 hours, real-time telemetry will only be available for the *last 3 hours*.
 - Telemetry doesn't work with older versions of Teams. If no telemetry is available, try updating your client.
 - If external participants or anonymous users join a meeting, their display name will show as **unavailable** to retain cross-tenant privacy.
 
