@@ -95,7 +95,8 @@ Configurations are buckets of settings maintained in the service that can't be s
 - ``Get-Cs<ConfigurationName>`` (for example, ``Get-CsTeamsClientConfiguration``):
 
 - SET commands (for example, ``Set-CsTeamsClientConfiguration``): set properties in the configuration of that type. Specify the parameters that you want to modify.
-   > You can reference the configuration that you’re modifying in one of two ways: by specifying -**Identity Global**, or by running ``Get-Cs<ConfigurationName>`` | ``Set-Cs<ConfigurationName>``.
+    > [!NOTE]
+    > You can reference the configuration that you’re modifying in one of two ways: by specifying -**Identity Global**, or by running ``Get-Cs<ConfigurationName>`` | ``Set-Cs<ConfigurationName>``.
 
 ## What can each admin role do?
 
