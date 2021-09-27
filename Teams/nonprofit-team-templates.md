@@ -27,7 +27,7 @@ Team templates in Microsoft Teams allow you to quickly and easily create teams b
 
 For nonprofit organizations, team templates can be especially powerful, as they help you to quickly deploy consistent teams across your organization. Templates also help staff to get oriented with how to effectively use Teams.
 
-Teams includes a template designed specifically for nonprofit needs. Use this pre-built template to quickly create teams for staff to communicate and collaborate. In this article, we introduce you to this template and recommend how to use it.
+Teams includes a template designed specifically for nonprofit needs. Use this pre-built template to quickly create teams for staff to communicate and collaborate on volunteer management activities. In this article, we introduce you to this template and recommend how to use it.
 
 How you manage and work with team templates depends on whether you're an admin or developer.
 
@@ -44,7 +44,7 @@ We currently offer the following pre-built nonprofit team templates. To view the
 
 ### Manage volunteers
 
-Bring your staff together to communicate and collaborate on volunteer management tasks and activities. This template includes channels and apps designed to streamline volunteer management activities. Staff can organize and share onboarding materials and frequently used documents, view reporting, stay up to date on important team and event announcements, and more. The template also integrates with Volunteer Management, which enables staff to manage volunteer engagement opportunities, without ever leaving Teams.
+Bring your staff together to communicate and collaborate on volunteer management tasks and activities. Staff can organize and share onboarding materials and frequently used documents, view reporting, stay up to date on important team and event announcements, and more. The template also integrates with Volunteer Management, which enables staff to manage volunteer engagement opportunities, without ever leaving Teams.
 
 | Template type |TemplateId | Properties that come with this template |
 | ------------------|-- |----------------------------------------------------- |
