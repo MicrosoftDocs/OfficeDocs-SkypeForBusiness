@@ -29,7 +29,7 @@ This article describes how to configure Operator Connect. Before configuring Ope
 
 ## Enable an operator
 
-You can enable, edit, and remove operators in the Teams Admin Center. In the left navigation pane, go to **Voice > Operators**.
+You can enable, edit, and remove operators in the Teams admin center. In the left navigation pane, go to **Voice > Operators**.
 
 To enable an operator:
 
