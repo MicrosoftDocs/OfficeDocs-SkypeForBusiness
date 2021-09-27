@@ -1,6 +1,6 @@
 ---
 title: "Qualified Lync applications for persistent chat"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -18,7 +18,7 @@ f1.keywords:
 ms.custom:
 - Lync Certification
 - dn788946
-description: "The Lync qualificaton program helps ensure that qualified applications for persistent chat meet customer expectations for specific scenarios"
+description: "The Lync qualification program helps ensure that qualified applications for persistent chat meet customer expectations for specific scenarios"
 ---
 
 # Qualified Lync applications for persistent chat
