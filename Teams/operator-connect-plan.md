@@ -31,7 +31,7 @@ This article describes benefits and requirements, and provides a link to the ope
 
 ## Benefits
 
-With Operator Connect, if your existing operator is a participant in the Microsoft Operator Connect program, they can manage the service for bringing PSTN calling to Teams. The Operator Connect program provides the following benefits:
+With Operator Connect, if your existing operator is a participant in the Microsoft Operator Connect Program, they can manage the service for bringing PSTN calling to Teams. The Operator Connect program provides the following benefits:
 
 - **Leverage existing contracts, or find a new operator.** You keep your preferred operator and contracts, or choose a new one from a selection of participating operators to meet your business needs.
 
@@ -46,7 +46,7 @@ With Operator Connect, if your existing operator is a participant in the Microso
  Operator Connect might be the right solution for your organization if:
 
 - Microsoft Calling Plan isn't available in your geographic location.
-- Your preferred operator is a participant in the Microsoft Operator Connect program.
+- Your preferred operator is a participant in the Microsoft Operator Connect Program.
 - You want to find a new operator to enable calling in Teams.
 
 To enable phone number assignments with Operator Connect, make sure your users are:
@@ -54,4 +54,4 @@ To enable phone number assignments with Operator Connect, make sure your users a
 - Teams Phone licensed. To learn more, see [What is Phone System?](what-is-phone-system-in-office-365.md) and [Assign Teams add-on licenses to users](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 - In TeamsOnly mode. To learn more, see [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
-For a list of operators participating in the Microsoft Operator Connect program and the countries or regions where their service is available, see the [Microsoft 365 Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory).
+For a list of operators participating in the Microsoft Operator Connect Program and the countries or regions where their service is available, see the [Microsoft 365 Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory).
