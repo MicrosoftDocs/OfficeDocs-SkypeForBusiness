@@ -18,7 +18,7 @@ f1.keywords:
 ms.custom:
 - Lync Certification
 - dn788947
-description: "Partner qualification requirements for Lync."
+description: "Lync partner qualification requirements."
 ---
 
 # Solutions qualified with Lync Online Dedicated
