@@ -33,6 +33,7 @@ Teams are backed by Office 365 Groups, so when you create a team, you create a g
 New-Team -DisplayName "Contoso Marketing" -Description "Collaboration space for Contoso's Marketing department"
 ```
 
+> [!NOTE]
 > The **GroupId** used in the Microsoft Teams PowerShell module cmdlets is the same as the **Identity** property returned by ``Get-UnifiedGroup`` in the Exchange PowerShell module.
 
 ## Manage Teams with Teams Cloud Shell
@@ -57,9 +58,7 @@ After you've completed those steps, you're ready to run any Teams PowerShell com
 ## Manage policies via PowerShell
 
 > [!NOTE]
->
 > - Skype for Business Online Connector is being consolidated into Teams PowerShell. It is currently available in public preview. In time, Skype for Business Online cmdlets that apply to Teams will be natively available in the Teams PowerShell module. Installation steps are available in the [Install Teams PowerShell](teams-powershell-install.md) article.
->
 > - The cmdlets will be available in your PowerShell session once you connect to Skype for Business Online. For more information, please see [Manage Skype for Business Online with Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
 Find the cmdlets for managing policies in the [Skype for Business cmdlet module](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell).
