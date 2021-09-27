@@ -37,7 +37,9 @@ New-Team -DisplayName "Contoso Marketing" -Description "Collaboration space for 
 
 ## Manage Teams with Teams Cloud Shell
 
-Cloud Shell is an interactive, authenticated, browser-accessible shell that lets you manage your resources. To access the Teams Cloud Shell and use PowerShell to manage Teams, sign in to the Teams admin center.
+Cloud Shell is an interactive, authenticated, browser-accessible shell that lets you manage your resources. For more information on Cloud Shell, see [Azure Cloud Shell](/azure/cloud-shell/overview.)
+
+To access the Teams Cloud Shell and use PowerShell to manage Teams, sign in to the Teams admin center.
 
 1. Select the Cloud Shell icon in the top right corner.
 1. When prompted, choose **PowerShell**.
