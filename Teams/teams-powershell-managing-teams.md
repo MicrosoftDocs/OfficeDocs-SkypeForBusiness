@@ -21,6 +21,8 @@ This article shows you how to use Microsoft Teams PowerShell to manage Teams and
 
 Use this guidance in conjunction with the [Microsoft Teams cmdlet reference](/powershell/teams/?view=teams-ps) and [Skype for Business cmdlet reference](/powershell/skype/intro?view=skype-ps).
 
+To manage Teams in the Teams admin center, see [Manage Teams with Teams Cloud Shell](#manage-teams-with-teams-cloud-shell).
+
 ## Create and manage teams using PowerShell
 
 The cmdlets for creating and managing teams are in the [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams/).
@@ -32,6 +34,23 @@ New-Team -DisplayName "Contoso Marketing" -Description "Collaboration space for 
 ```
 
 > The **GroupId** used in the Microsoft Teams PowerShell module cmdlets is the same as the **Identity** property returned by ``Get-UnifiedGroup`` in the Exchange PowerShell module.
+
+## Manage Teams with Teams Cloud Shell
+
+Cloud Shell is an interactive, authenticated, browser-accessible shell that lets you manage your resources. To access the Teams Cloud Shell and use PowerShell to manage Teams, sign in to the Teams admin center.
+
+1. Select the Cloud Shell icon in the top right corner.
+1. When prompted, choose **PowerShell**.
+
+    [Screenshot of Azure Cloud Shell prompt.](\media\azure-cloud-shell.png)
+
+1. Run the following command to start the Teams PowerShell session:
+
+    ```powershell
+    Connect-MicrosoftTeams
+    ```
+
+After you've completed those steps, you're ready to run any Teams PowerShell commands.
 
 ## Manage policies via PowerShell
 
