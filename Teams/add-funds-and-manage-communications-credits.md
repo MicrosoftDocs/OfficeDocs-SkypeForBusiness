@@ -55,7 +55,7 @@ Auto-recharge automatically tops off your balance when it falls below the trigge
   
 You can update your payment options at any time. On the **Subscriptions** page, select **Communications Credits**, and make your updates.
   
-Funds will be applied only to Communications Credits at Microsoft's published rates when the services are used. Any funds not used within twelve (12) months of the purchase date will expire and be forfeited.
+Funds will be applied only to Communications Credits at Microsoft's published rates when the services are used. Any funds not used within 12 months of the purchase date will expire and be forfeited.
   
 > [!TIP]
 > We'll send you email notifications when funds are added via auto-recharge, when auto-recharge fails (for example, when a credit card expires), and when your balance reaches zero.
@@ -74,7 +74,7 @@ You can see the plans and pricing by visiting one of the following links:
 
 You can also see information by signing in to the Microsoft 365 admin center and going to **Billing** > **Subscriptions** > **Add subscriptions**.
   
-To see a table with the license or licenses you will need for each feature, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+To see a table with the license or licenses you'll need for each feature, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## Related topics
 
