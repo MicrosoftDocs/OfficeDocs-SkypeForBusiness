@@ -30,53 +30,86 @@ When you set up Calling Plans **or Operator Connect**, you assign phone numbers 
 
 **Before you assign a number for a Calling Plan or Operator Connect user, you must get numbers for your users. For more information, see [Get numbers for Calling Plan users](getting-phone-numbers-for-your-users.md) or [Set up numbers for Operator Connect users](operator-connect-configure.md#set-up-phone-numbers).**
 
-When you're setting up users so they can make and receive phone calls, you must first use the Microsoft Teams admin center and assign a phone number. You can change or remove the phone number if you need to.
   
 > [!NOTE]
 > One way to see whether a user has a license assigned is by going to the Microsoft Teams admin center > **Users**. If a license is assigned, it will be indicated on the page.  You can also use the Microsoft 365 admin center.
   
 ## Assign a phone number to a user
+
+To assign a number by using the Teams admin center:
     
 1. In the left navigation, click **Voice** > **Phone numbers**.
+
 2. On the **Phone numbers** page, select an unassigned number in the list, and then click **Edit**.  
+
 3. In the **Edit** pane, under **Assigned to**, search for the user by display name or user name, and then click **Assign**.
+
 4. To assign or change the associated emergency location, under **Emergency location**, search for and then select the location.
    > [!NOTE]
    > [**If you are assigning numbers to Operator Connect users, you may or may not be able to assign or change the associated emergency location. This functionality will depend on your Operator. Contact your Operator for more information.**]
+
 5. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this is on. 
+
 6. Click **Save**.
 
-For a PowerShell example, see [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser).
+To assign numbers by using PowerShell, use the [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser) cmdlet as follows:
+
+
+``PowerShell
+Set-CsOnlineVoiceUser -Identity <user>  -TelephoneNumber <phone number> 
+```
+
+For example:
+
+```PowerShell
+Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
+```
 
 > [!NOTE]
-> Because of the latency between Microsoft 365 and Teams, it can take up to 24 hours for users to be enabled. If the phone number isn't assigned correctly after 24 hours, [contact support for business products - Admin Help](/microsoft-365/admin/contact-support-for-business-products). We're here to help!
+> Because of the latency between Microsoft 365 and Teams, it can take up to 24 hours for users to be enabled. If the phone number isn't assigned correctly after 24 hours, see [Phone Number Service Center](https://pstnsd.powerappsportals.com/). 
 
   
 ## Change a phone number for a user
+
+To change a phone number for a user by using the Teams admin center:
     
 1. In the left navigation, click **Users**, locate and double-click the user you want, click **Account**, and then under **General information**, make a note of the phone number that's assigned to the user.
+
 2. In the left navigation, click **Voice** > **Phone numbers**.
+
 3. On the **Phone numbers** page, select the number that you identified in step 1, and then click **Edit**.  
+
 4. In the **Edit** pane, under **Assigned to**, click the **X** to remove the user.
+
 5. Click **Save**.
+
 6. On the **Phone numbers** page, select an unassigned number in the list, and then click **Edit**.  
+
 7. In the **Edit** pane, under **Assigned to**, search for the user by display name or user name, and then click **Assign**.
+
 8. To assign or change the associated emergency location, under **Emergency location**, search for and then select the location.
       > [!NOTE]
    > [**If you are changing numbers for Operator Connect users, you may or may not be able to assign or change the associated emergency location. This functionality will depend on your Operator. Contact your Operator for more information.**]
+
 9. Click **Save**.
 
-For a PowerShell example, please see [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser).
+For a PowerShell example, see [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser).
 
 ## Remove a phone number from a user
 
+To remove a phone number by using the Teams admin center:
+
 1. In the left navigation, click **Users**, locate and double-click the user you want, click **Account**, and then under **General information**, make a note of the phone number that's assigned to the user.
+
 2. In the left navigation, click **Voice** > **Phone numbers**.
+
 3. On the **Phone numbers** page, select the number that you identified in step 2, and then click **Edit**.  
+
 4. In the **Edit** pane, under **Assigned to**, click the **X** to remove the user.
+
 5. Click **Save**.
 
-For a PowerShell example, please see [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser).
+For a PowerShell example, see [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser).
 
 ## Related topics
 
