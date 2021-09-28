@@ -1,17 +1,17 @@
 ---
 title: Use general team templates in the admin center
-author: cichur
-ms.author: v-cichur
-manager: serdars
+author: lanachin
+ms.author: v-lanachin
+manager: samanro
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: phecda louie
+ms.reviewer: yinchang
 ms.collection: 
   - M365-collaboration
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn how to use general team templates to create team structures by providing predefined settings, channels, and pre-installed apps using the admin center.
+description: Learn how to manage and use general team templates in the Teams admin center to quickly and easily create teams.
 f1.keywords:
 - CSH
 ms.custom: 

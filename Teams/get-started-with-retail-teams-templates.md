@@ -11,7 +11,7 @@ ms.collection:
   - M365-collaboration
 ms.localizationpriority: high
 search.appverid: MET150
-description: Learn how to manage and use the retail team templates in the Teams admin center and with Microsoft Graph to easily and quickly create teams for your retail organization. 
+description: Learn how to manage and use the retail team templates in the Teams admin center and with Microsoft Graph to quickly and easily create teams for your retail organization. 
 f1.keywords:
 - CSH
 ms.custom: 

@@ -1,17 +1,17 @@
 ---
 title: Use financial team templates
-author: cichur
-ms.author: v-cichur
-manager: serdars
+author: lanachin
+ms.author: v-lanachin
+manager: samanro
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: phecda louie
+ms.reviewer: yinchang
 ms.collection: 
   - M365-collaboration
-ms.localizationpriority: medium
+ms.localizationpriority: high
 search.appverid: MET150
-description: Learn how to manage and use financial team templates in the Teams admin center and with Microsoft Graph to easily and quickly create teams for your financial services organization. 
+description: Learn how to manage and use financial team templates in the Teams admin center and with Microsoft Graph to quickly and easily create teams for your financial services organization. 
 f1.keywords:
 - CSH
 ms.custom: 

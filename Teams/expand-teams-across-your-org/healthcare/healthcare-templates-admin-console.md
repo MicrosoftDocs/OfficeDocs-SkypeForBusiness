@@ -12,7 +12,7 @@ searchScope:
   - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
-ms.localizationpriority: medium
+ms.localizationpriority: high
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Healthcare
@@ -20,7 +20,7 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ms.reviewer: yinchang
-description: Learn how to manage and use the healthcare team templates in the Teams admin center and with Microsoft Graph to easily and quickly create teams for your healthcare organization. 
+description: Learn how to manage and use the healthcare team templates in the Teams admin center and with Microsoft Graph to quickly and easily create teams for your healthcare organization. 
 ms.custom: seo-marvel-mar2020
 ---
 # Use healthcare team templates
