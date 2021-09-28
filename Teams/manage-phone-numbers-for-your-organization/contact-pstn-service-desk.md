@@ -57,7 +57,6 @@ From the Phone Number Service Center, you can create new cases, view existing ca
 
 - **[Your Name]** – Update your profile page. 
 
-
 ## Create a new case
 
 To creat a new case, follow these steps:
