@@ -114,25 +114,7 @@ For more information on emergency calling, see [Manage emergency calling](what-a
 
 ### Assign numbers
 
-Whether you're adding new Teams users or moving existing users to Operator Connect, the steps for assigning numbers are as follows:
-
-To assign numbers from the **Phone numbers** page of the Teams admin center, the steps are the same as assigning numbers for Calling Plans. For more information, see [Assign a phone number to a user](assign-change-or-remove-a-phone-number-for-a-user.md).
-
-To assign numbers from the **Users** page of the Teams admin center, go to **Users > Manage users** and select an account. Under **General information**, select **Operator Connect** and choose a number from the dropdown menu.
-
-To assign numbers by using PowerShell, use the Set-CsOnlineVoiceUser cmdlet as follows:
-
-```
-Set-CsOnlineVoiceUser -Identity <user>  -TelephoneNumber <phone number> 
-```
-
-For example:
-
-```
-Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
-```
-
-For more information about how to assign phone numbers to your users, see [Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md).
+For information on how to assign phone numbers to your users, see [Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md).
 
 ## Manage your operators
 
@@ -152,3 +134,7 @@ To release phone numbers from the Teams admin center, go to the **Phone numbers*
 - If the phone number isn't assigned to a user, select **Release**.
 
 - If the phone number is assigned to a user, you'll need to unassign the number. Select **Edit**, then **Remove user**. After you save your changes, select **Release**.
+
+## Related topics
+
+- [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md)
