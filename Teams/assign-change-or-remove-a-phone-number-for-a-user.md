@@ -46,7 +46,7 @@ To assign a number by using the Teams admin center:
 
 4. To assign or change the associated emergency location, under **Emergency location**, search for and then select the location.
    > [!NOTE]
-   > [**If you are assigning numbers to Operator Connect users, you may or may not be able to assign or change the associated emergency location. This functionality will depend on your Operator. Contact your Operator for more information.**]
+   > **If you are assigning numbers to Operator Connect users, you may or may not be able to assign or change the associated emergency location. This functionality will depend on your Operator. Contact your Operator for more information.**
 
 5. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this is on. 
 
@@ -89,7 +89,7 @@ To change a phone number for a user by using the Teams admin center:
 
 8. To assign or change the associated emergency location, under **Emergency location**, search for and then select the location.
       > [!NOTE]
-   > [**If you are changing numbers for Operator Connect users, you may or may not be able to assign or change the associated emergency location. This functionality will depend on your Operator. Contact your Operator for more information.**]
+      > **If you are changing numbers for Operator Connect users, you may or may not be able to assign or change the associated emergency location. This functionality will depend on your Operator. Contact your Operator for more information.**
 
 9. Click **Save**.
 
