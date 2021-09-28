@@ -25,7 +25,9 @@ Team templates in Microsoft Teams allow you to quickly and easily create teams b
 
 For small and medium businesses, templates can be especially powerful, as they help you to quickly deploy Teams across your organization. Templates also help users to get oriented with how to effectively use Teams. This article is for you if you're responsible for planning, deploying, and managing multiple teams across your organization.
 
-We currently offer three pre-built templates for small and medium businesses that you can use for various situations. All templates create *private* teams. After you create the teams and are ready to roll out to your organization, you can set the privacy to *Org-Wide* or *Public*, as appropriate. To learn more about team templates in general, see [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md).
+We currently offer three pre-built templates for small and medium businesses that you can use for various situations. All templates create *private* teams. After you create the teams and are ready to roll out to your organization, you can set the privacy to *Org-Wide* or *Public*, as appropriate.
+
+To learn more about team templates in general, see [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md).
 
 ## Company-Wide template
 
@@ -77,7 +79,9 @@ Content-Type: application/json
 
 ## Departmental Team template
 
-The Departmental team template can be used for creating a team for individual departments or for projects. The Finance team template is ideal for all posts, announcements, and daily collaboration and communication within the Finance team members and executive team members as appropriate. The template comes with a *private* channel to invite select users for specific topics. We also provide the script below for the Finance team that can be used to extend the template to additional departments or specific projects by adding, deleting from, or editing to your liking. For example, if you have a *Marketing* department, then the script can be adapted by renaming the team from *Finance* to *Marketing* to create a new Marketing team
+The Departmental team template can be used for creating a team for individual departments or for projects. The Finance team template is ideal for all posts, announcements, and daily collaboration and communication within the Finance team members and executive team members as appropriate. The template comes with a *private* channel to invite select users for specific topics.
+
+We also provide the script below for the Finance team that can be used to extend the template to additional departments or specific projects by adding, deleting from, or editing to your liking. For example, if you have a *Marketing* department, then the script can be adapted by renaming the team from *Finance* to *Marketing* to create a new Marketing team
 
 | Template type | TemplateId | Properties that come with this template |
 |:------------------ | :-------------- | :----------------------------------------------------- | 
