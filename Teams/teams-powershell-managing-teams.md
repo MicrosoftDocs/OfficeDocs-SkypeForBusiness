@@ -21,7 +21,7 @@ This article shows you how to use Microsoft Teams PowerShell to manage Teams and
 
 Use this guidance in conjunction with the [Microsoft Teams cmdlet reference](/powershell/teams/?view=teams-ps) and [Skype for Business cmdlet reference](/powershell/skype/intro?view=skype-ps).
 
-To manage Teams in the Teams admin center, see [Manage Teams with Teams Cloud Shell](#manage-teams-with-teams-cloud-shell).
+To manage Teams in the Teams admin center, see [Manage Teams with Azure Cloud Shell](#manage-teams-with-azure-cloud-shell).
 
 ## Create and manage teams using PowerShell
 
