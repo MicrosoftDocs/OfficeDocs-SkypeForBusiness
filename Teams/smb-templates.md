@@ -1,5 +1,5 @@
 ---
-title: Teams templates for small and medium businesses built with Microsoft Graph
+title: Team templates for small and medium businesses built with Microsoft Graph
 author: serdarsoysal
 ms.author: serdars
 manager: serdars
@@ -19,7 +19,7 @@ description: Use Microsoft Teams predefined templates built in Microsoft Graph t
 ms.custom: seo-marvel-mar2020
 ---
 
-# Teams templates built in Microsoft Graph for small and medium businesses
+# Team templates built in Microsoft Graph for small and medium businesses
 
 Team templates in Microsoft Teams allow you to quickly and easily create teams by providing a predefined team structure of settings, channels, and pre-installed apps.
 

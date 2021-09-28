@@ -66,4 +66,5 @@ Centralize collaboration for your bank branch employees across huddles, customer
 |Bank branch|`https://graph.microsoft.com/beta/teamsTemplates('CollaborateWithinABankBranch')`|General<br>Announcements<br>Huddles<br>Customer meetings<br>Approvals request<br>Coaching<br>Skills development<br>Loan processing<br>Customer complaints<br>Kudos<br>Fun stuff<br>Compliance|
 ||||
 
-For additional templates that apply to financial services organization, see [Teams templates built in Microsoft Graph for small and medium businesses](smb-templates.md).
+> [!NOTE]
+> For additional templates that apply to financial services organization, see [Team templates built in Microsoft Graph for small and medium businesses](smb-templates.md).
