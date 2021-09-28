@@ -184,12 +184,14 @@ Information barriers mode  help strengthen who can be added to or removed from a
 - **Open**: This configuration is the default IB mode for all existing groups that were provisioned before information barriers were enabled. In this mode, there are no IB policies applicable.
 - **Implicit**: This configuration is the default IB mode when a Team is provisioned after enabling Information barriers. Implicit mode allows you to add all compatible users in the group.
 
-Microsoft 365 Groups created before activating an information barrier policy are automatically set to Open mode by default. Once you activate IB policies on your tenant, you would be required to update mode that will reevaluate groups and sites and result in non-compliant users being automatically removed from these groups and sites. If you need to change the Open mode configuration on existing groups to meet compliance requirements for your organization, you'll need to update the IB modes as applicable.
+Microsoft 365 Groups created before activating an information barrier policy are automatically set to *Open* mode by default. Once you activate IB policies on your tenant, you would be required to update mode that will reevaluate groups and sites and result in non-compliant users being automatically removed from these groups and sites. If you need to change the *Open* mode configuration on existing Teams-connected groups to meet compliance requirements for your organization, you'll need to [update the IB modes](/sharepoint/information-barriers.md#view-and-manage-IB-mode-as-an-administrator-with-SharePoint-PowerShell) for SharePoint sites connected to the Teams team.
 
-Use the Set-UnifiedGroup cmdlet with the *InformationBarrierMode* parameter that corresponds to the mode you want to use for your segments. Allowed list of values for the *InformationBarrierMode* parameter are *Open*, *OwnerModerated*, *Implicit*, and *Explicit*. For example, to configure the *Implicit* mode for a Microsoft 365 Group, you'll use the following PowerShell command:
+Use the *Set-UnifiedGroup* cmdlet with the *InformationBarrierMode* parameter that corresponds to the mode you want to use for your segments. Allowed list of values for the *InformationBarrierMode* parameter are *Open* and *Implicit*.
+
+For example, to configure the *Implicit* mode for a Microsoft 365 Group, you'll use the following PowerShell command:
 
 ```powershell
-Set-UnifiedGroup -InformationBarrierMode 'Implicit'
+Set-UnifiedGroup -InformationBarrierMode Implicit
 ```
 
 >[!NOTE]
