@@ -36,14 +36,14 @@ New-Team -DisplayName "Contoso Marketing" -Description "Collaboration space for 
 > [!NOTE]
 > The **GroupId** used in the Microsoft Teams PowerShell module cmdlets is the same as the **Identity** property returned by ``Get-UnifiedGroup`` in the Exchange PowerShell module.
 
-## Manage Teams with Teams Cloud Shell
+## Manage Teams with Azure Cloud Shell
 
 Cloud Shell is an interactive, authenticated, browser-accessible shell that lets you manage your resources. For more information on Cloud Shell, see [Azure Cloud Shell](/azure/cloud-shell/overview).
 
-To access the Teams Cloud Shell and use PowerShell to manage Teams, sign in to the Teams admin center.
+To access the Azure Cloud Shell and use PowerShell to manage Teams, sign in to the Teams admin center.
 
 1. Select the Cloud Shell icon in the top right corner.
-    
+
     ![Screenshot of Teams admin center header with Cloud Shell icon.](media/cloud-shell-icon-select.png)
 
 1. When prompted, choose **PowerShell**.
@@ -57,6 +57,9 @@ To access the Teams Cloud Shell and use PowerShell to manage Teams, sign in to t
     ```
 
 After you've completed those steps, you're ready to run any Teams PowerShell commands.
+
+> [!IMPORTANT]
+> If you want to use Cs* cmdlets, you'll have to run ``Connect-MicrosoftTeams -DeviceAuth``.
 
 ## Manage policies via PowerShell
 
