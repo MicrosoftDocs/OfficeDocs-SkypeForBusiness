@@ -41,13 +41,13 @@ Let them know that there's no changes to their data or preferences after the upg
 
 ### What happens after the upgrade?
 
-After you upgrade a Teams phone to a Teams display device, the device is listed on the **Teams displays** page in the **Devices** section of the Microsoft Teams admin center. You manage it in the same way that you manage any other Teams device. To learn more, see [Manage your devices in Teams](device-management.md).
+After you upgrade a Teams phone to a Teams display device, the device is listed on the **Teams displays** page in the **Teams Devices** section of the Microsoft Teams admin center. You manage it in the same way that you manage any other Teams device. To learn more, see [Manage your devices in Teams](device-management.md).
 
 Keep in mind that after you upgrade a Teams phone to a Teams display device, the action can't be reversed. We recommend you first run a pilot with a group of early adopters before you upgrade your entire organization. 
 
 ## Upgrade your Teams phones to Teams displays
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Devices** > **Phones**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams Devices** > **Phones**.
 2. Select the Teams phones you want to upgrade, and then select **Upgrade**.
 
     :::image type="content" source="../media/upgrade-phones-to-displays-select.png" alt-text="Screenshot showing Teams phones selected for upgrade to Teams displays.":::
