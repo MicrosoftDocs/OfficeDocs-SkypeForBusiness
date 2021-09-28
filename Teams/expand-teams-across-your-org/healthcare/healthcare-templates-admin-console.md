@@ -70,7 +70,7 @@ This template is meant for communication and collaboration between multiple ward
 Developers can use Microsoft Graph to create teams from pre-built team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](../../get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview?view=graph-rest-1.0), and [teamsTemplate resource type](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
 
 Here are the pre-built healthcare team templates.
-### Ward template
+### Ward
 
 The ward template is meant for communication and collaboration within a ward, pod, or department. The template can be used to facilitate patient management and operational needs of a ward. For example, ward announcements can be posted in the *Announcements* channel and shifts can be managed in *Staffing*. If you're looking to streamline your ward operations, then this template is for you.
 
@@ -81,7 +81,7 @@ The ward template is meant for communication and collaboration within a ward, po
 
 &sup2;Auto-favorited channels
 
-### Hospital template
+### Hospital
 
 The hospital template is meant for communication and collaboration between multiple wards, pods, and departments within a hospital. This template includes several operational channels such as *Announcements*, *Custodial*, and *Pharmacy*. We also provide a script that you can use to extend the template with additional departments or specialty channels. You can edit it to fit your needs.
 

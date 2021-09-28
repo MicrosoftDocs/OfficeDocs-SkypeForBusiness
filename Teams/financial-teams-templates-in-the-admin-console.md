@@ -44,7 +44,7 @@ To learn more about team templates in general, see [Get started with team templa
 
 We currently offer the following pre-built team templates for financial services organizations. To view them, in the left navigation of the Teams admin center, go to **Teams** > **Team templates**.
 
-## Collaborate within a bank branch
+### Collaborate within a bank branch
 
 Centralize collaboration for your bank branch employees across huddles, customer meetings, business processes such as mortgage collaboration, and keep everyone in the loop with announcements and kudos.
 
@@ -57,7 +57,7 @@ Centralize collaboration for your bank branch employees across huddles, customer
 
 Developers can use Microsoft Graph to create teams from pre-built team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview?view=graph-rest-1.0), and [teamsTemplate resource type](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
 
-## Bank branch
+### Bank branch
 
 Centralize collaboration for your bank branch employees across huddles, customer meetings, business processes such as mortgage collaboration, and keep everyone in the loop with announcements and kudos.
 

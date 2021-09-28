@@ -71,7 +71,7 @@ Developers can use Microsoft Graph to create teams from pre-built team templates
 
 Here are the pre-built retail team templates.
 
-### Store template
+### Store
 
 The Store template is ideal for creating a team to represent an individual retail store location. Using the Store template, you can create a team for each retail store location in your organization.
 
@@ -88,7 +88,7 @@ Recommended ways to customize the Store template for your organization:
 
 - If your organization has any internal websites (for example, a SharePoint site), consider pinning them as tabs in the relevant team channel.
 
-### Manager Collaboration template
+### Manager Collaboration
 
 The Manager Collaboration template is ideal for creating a team for a set of managers to collaborate across stores, regions, and so on. For example, if your organization has regions, you might create a Manager Collaboration team for the California region and include all the store managers in that region, along with the regional manager for that region.
 
