@@ -43,6 +43,9 @@ Cloud Shell is an interactive, authenticated, browser-accessible shell that lets
 To access the Teams Cloud Shell and use PowerShell to manage Teams, sign in to the Teams admin center.
 
 1. Select the Cloud Shell icon in the top right corner.
+    
+    ![Screenshot of Teams admin center header with Cloud Shell icon.](media/cloud-shell-icon-select.png)
+
 1. When prompted, choose **PowerShell**.
 
     ![Screenshot of Azure Cloud Shell prompt.](media/cloud-shell.png)
