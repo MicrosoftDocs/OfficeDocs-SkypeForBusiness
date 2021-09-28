@@ -1127,10 +1127,14 @@ items:
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md
             - name: Phone number management for Canada
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md
+            - name: Phone number management for Croatia
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-croatia.md
             - name: Phone number management for the Czech Republic
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-czech-republic.md
             - name: Phone number management for Denmark
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md
+            - name: Phone number management for Estonia
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-estonia.md
             - name: Phone number management for Finland
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-finland.md
             - name: Phone number management for France
@@ -1145,6 +1149,10 @@ items:
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md
             - name: Phone number management for Japan
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md
+            - name: Phone number management for Latvia
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-latvia.md
+            - name: Phone number management for Lithuania
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-lithuania.md
             - name: Phone number management for Luxembourg
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg.md
             - name: Phone number management for New Zealand
@@ -1161,6 +1169,8 @@ items:
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-singapore.md
             - name: Phone number management for Slovakia
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-slovakia.md
+            - name: Phone number management for Slovenia
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-slovenia.md
             - name: Phone number management for Spain
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md
             - name: Phone number management for the Netherlands
@@ -1570,7 +1580,7 @@ items:
     - name: Teams for Retail
       href: expand-teams-across-your-org/teams-for-retail-landing-page.md
       items:
-        - name: Get started with Retail team templates
+        - name: Use retail team templates
           href: get-started-with-retail-teams-templates.md
     - name: Teams for Government
       href: expand-teams-across-your-org/teams-for-government-landing-page.md
