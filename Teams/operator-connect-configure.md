@@ -74,11 +74,11 @@ The emergency address is a static location associated with a number. Once you cr
 
 To assign numbers to emergency addresses, your operator will implement one of three scenarios:
 
-- The operator assigns phone numbers to the emergency addresses and allows you to change them later in the Teams admin center.
+- The operator assigns emergency addresses to the phone numbers and allows you to change them later in the Teams admin center.
 
-- The operator doesn't assign numbers and allows you to assign numbers to the emergency addresses in the Teams admin center. 
+- The operator doesn't assign addresses and allows you to assign emergency addresses to the phone numbers in the Teams admin center.
 
-- The operator assigns phone numbers to the emergency address, and doesn't allow you to change them. In this scenario, you'll need to contact your operator to make changes to emergency addresses and their assigned phone numbers.
+- The operator assigns emergency addresses to the phone numbers, and doesn't allow you to change them. In this scenario, you'll need to contact your operator to make changes to phone numbers and their assigned emergency address.
 
 For more information on emergency calling, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md) and [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).
 
