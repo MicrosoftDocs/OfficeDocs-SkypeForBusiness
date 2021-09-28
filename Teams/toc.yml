@@ -1028,6 +1028,8 @@ items:
           href: how-many-phone-numbers-can-you-get.md
         - name: Search for phone numbers for users
           href: search-for-phone-numbers-for-users.md
+        - name: Assign, change, or remove a phone number for a user
+          href: assign-change-or-remove-a-phone-number-for-a-user.md
         - name: See a list of phone numbers in your organization
           href: see-a-list-of-phone-numbers-in-your-organization.md
 
@@ -1038,8 +1040,6 @@ items:
               href: manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
             - name: Getting phone numbers for your users
               href: getting-phone-numbers-for-your-users.md
-            - name: Assign, change, or remove a phone number for a user
-              href: assign-change-or-remove-a-phone-number-for-a-user.md
             - name: Get service phone numbers
               href: getting-service-phone-numbers.md
             - name: Transferring phone numbers
