@@ -107,7 +107,7 @@ Next, you need to create your plan to deliver the devices and their assigned per
 
 ### Testing
 
-After you have deployed Teams Rooms, you should test them. Sign in to Teams Rooms and check that the expected capabilities are working. We highly recommend that you verify that they are appearing in the **Collaboration bars** section under the **Devices** tab of Microsoft Teams admin center. It's also important that you make a number of test calls and meetings to check quality and performance.
+After you have deployed Teams Rooms, you should test them. Sign in to Teams Rooms and check that the expected capabilities are working. We highly recommend that you verify that they are appearing in the **Collaboration bars** section under the **Teams Devices** tab of Microsoft Teams admin center. It's also important that you make a number of test calls and meetings to check quality and performance.
 
 We recommend that as part of the general Microsoft Teams rollout, you configure building files for Call Quality Dashboard (CQD), monitor quality trends, and engage in the Quality of Experience Review process. For more information, see the [Quality of Experience Review Guide](../quality-of-experience-review-guide.md).
 
