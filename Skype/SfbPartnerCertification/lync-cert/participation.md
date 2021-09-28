@@ -1,6 +1,6 @@
 ---
-title: "Lync ISV Qualification Program overview"
-ms.author: dmaguire
+title: "Lync ISV Qualification Program"
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand

@@ -1,6 +1,6 @@
 ---
-title: "Persistent chat: qualified Lync applications"
-ms.author: dmaguire
+title: "Qualified Lync applications for persistent chat"
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand

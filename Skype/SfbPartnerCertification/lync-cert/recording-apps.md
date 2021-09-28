@@ -1,6 +1,6 @@
 ---
-title: "Qualified Microsoft Lync recording applications"
-ms.author: dmaguire
+title: "Qualified Lync recording applications"
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand

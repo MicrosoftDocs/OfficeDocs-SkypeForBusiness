@@ -1,6 +1,6 @@
 ---
-title: "Qualified Lync extensibility applications"
-ms.author: dmaguire
+title: "Lync extensibility applications"
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand

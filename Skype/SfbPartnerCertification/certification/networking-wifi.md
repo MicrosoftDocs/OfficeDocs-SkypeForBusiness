@@ -1,6 +1,6 @@
 ---
 title: "Skype for Business - Networking Wi-Fi"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
