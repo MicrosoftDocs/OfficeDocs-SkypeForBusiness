@@ -68,7 +68,7 @@ All current Microsoft Teams Room devices and bundles are available in the [Room 
   |[HP Elite Slice for Meeting Rooms G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 GB |128 GB |
   |[HP Elite Slice G2 Audio Ready with Microsoft Teams Rooms](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 GB |128 GB |
   |[HP Slice Partner Ready with Logitech TAP]( https://www.logitech.com/video-collaboration/partners/hp.html)|Core i5|8 GB|128 GB| 
-  |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8 GB |128 GB |
+  | Lenovo ThinkSmart Hub 500 |Core i5 |8 GB |128 GB |
   |[Lenovo ThinkSmart Hub](https://news.lenovo.com/pressroom/press-releases/new-thinksmart-hub-collaboration-solution-from-lenovo-helps-organizations-embrace-hybrid-working-model/) |Core i5 |8 GB |128 GB|
   |Lenovo ThinkSmart Core Kit |Core i5|8 GB|128 GB|
   |[Logitech Tap with Intel NUC](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 GB |128 GB |
@@ -121,6 +121,7 @@ These devices are available at the [Room System Accessories product showcase](ht
 |[Aver CAM 520 Pro](https://www.averusa.com/products/conference-camera/cam520pro) |0.0.1000.73 |
 |[Aver CAM 520 Pro 2](https://www.averusa.com/products/conference-camera/cam520pro2) |0.0.7200.3 |
 |[Aver CAM 130](https://www.averusa.com/products/conference-camera/cam130) |0.0.7400.03 |
+|[Aver VB130 Camera Soundbar](https://www.averusa.com/products/conference-camera/vb130) |0.0.7300.71 |
 |[Bose Video Bar VB1](https://pro.bose.com/en_us/products/conferencing/videobars/bose-videobar-vb1.html?mc=25_PS_VB_BO_00_BI_&&msclkid=fc99b79880f714727a63e86ea0e5642a&utm_source=bing&utm_medium=cpc&utm_campaign=US%20-%20Brand_Videobar%20VB1_Exact&utm_term=bose%20videobar%20vb1&utm_content=Bose%20Videobar%20VB1&gclid=fc99b79880f714727a63e86ea0e5642a&gclsrc=3p.ds) |19.2|
 |[Biamp Devio SCR-20CX Web-Based Conferencing Hub with Ceiling Microphone](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
 |[Biamp Devio SCR-20TX Web-Based Conferencing Hub with Tabletop Microphone](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9 |
@@ -144,6 +145,7 @@ These devices are available at the [Room System Accessories product showcase](ht
 |[Logitech Group](https://www.logitech.com/product/conferencecam-group)   |8.5.778   |
 |[Logitech PTZ Pro](https://www.logitech.com/product/conferencecam-ptz-pro)   | 1.1.219   |
 |[Logitech PTZ Pro 2](https://www.logitech.com/product/conferencecam-ptz-pro2)   |
+|[Logitech Scribe](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/scribe.960-001332.html) | 1.1.1 | &#x2714; |
 |[Nureva HDL300](https://www.nureva.com/audio-conferencing/hdl300) |2.3.6|
 |[Poly Eagle Eye Cube Camera](https://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.html)  |1.2.0 |
 |[Polycom EagleEye IV](https://www.poly.com/us/en/products/video-conferencing/eagleeye/eagleeye-iv)   |1.0.0   |
@@ -165,6 +167,7 @@ These devices are available at the [Room System Accessories product showcase](ht
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710)   |1.8.0   |
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810)   |1.2.23   |
 |[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/)   |100c   |
+|[Yamaha YVC-1000MS](https://uc.yamaha.com/products/conference-phones/usb-bluetooth/) |1.0.0 |
 |[Yealink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
 |[Yealink UVC30](https://www.yealink.com/product/microsoft-teams-room-system-uvc30)| 105.420.0.11 |  &#x2714; |
 |[Yealink UVC40 All-in-one Video bar](https://www.yealink.com/product/usb-videobar-uvc40) |128.410.0.10|  
@@ -182,7 +185,7 @@ These devices are available at the [Room System Accessories product showcase](ht
 |[Bose ControlSpace EX-440C DSP + </br>Bose P2600A AmpLink Amplifier + Sennheiser TCC2 Ceiling Microphone + </br> Bose DesignMax DM2C-P Ceiling Speaker](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  |  |
 |[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink Amplifier +</br> [Sennheiser TCC2 Ceiling Microphone](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [DesignMax DM2C -LP  Ceiling Speaker](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/designmax/designmax_dm2c_lp.html#v=designmax_dm2c_lp_black) | Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  | 
 |[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink Amplifier+</br> [Sennheiser TCC2 Ceiling Microphone](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [EdgeMax EM180 Ceiling Speaker](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/edgemax/edgemax_em180.html#v=edgemax_em180_white) | Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  |
-|QSC Q-SYS Core ([110f](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-110f/), [8 Flex](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-8-flex/), [Nano](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-nano/), or [NV-32-H](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/nv-32-h-core-capable/)) + </br> [Sennheiser TCC2 Ceiling Microphone](https://en-us.sennheiser.com/tcc2) + </br> QSC Amplifier ([SPA series](https://www.qsc.com/solutions-products/power-amplifiers/installed/non-network/low-power-applications/spa-series/) or [CX-Q series](https://www.qsc.com/solutions-products/power-amplifiers/installed/network/cx-q-series/)) + </br> [QSC Acoustic Design Series Speakers](https://www.qsc.com/solutions-products/loudspeakers/installed/passive/solutions/acousticdesigntm-series-solutions/) + QSC IP Camera ([PTZ-IP 20x60](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/), [PTZ-IP 12x72](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/) optional + </br> [QSC Q-SYS I/O USB Bridge](https://www.qsc.com/solutions-products/q-sys-ecosystem/audio-io-peripherals/io-usb-bridge/) optional | QSC Q-SYS Core, PTZ-IP Camera, and I/O USB Bridge: QSC Q-SYS Designer 9.0.1-2104.022 </br> Sennheiser TCC2 Ceiling Microphone: TCC2 - 1.5.1, Dante 1.2.0 </br> QSC Amplifiers: N/A </br> QSC AcousticDesign Series Loudspeakers: N/A | 
+|QSC Q-SYS Core ([110f](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-110f/), [8 Flex](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-8-flex/), [Nano](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-nano/), or [NV-32-H](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/nv-32-h-core-capable/)) + </br> [Sennheiser TCC2 Ceiling Microphone](https://en-us.sennheiser.com/tcc2) + </br> QSC Amplifier ([SPA series](https://www.qsc.com/solutions-products/power-amplifiers/installed/non-network/low-power-applications/spa-series/) or [CX-Q series](https://www.qsc.com/solutions-products/power-amplifiers/installed/network/cx-q-series/)) + </br> [QSC AcousticDesign Series Speakers](https://www.qsc.com/solutions-products/loudspeakers/installed/passive/solutions/acousticdesigntm-series-solutions/) + </br> QSC IP Camera ([PTZ-IP 20x60](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/), [PTZ-IP 12x72](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/)) optional + </br> [QSC Q-SYS I/O USB Bridge](https://www.qsc.com/solutions-products/q-sys-ecosystem/audio-io-peripherals/io-usb-bridge/) optional | QSC Q-SYS Core, PTZ-IP Camera, and I/O USB Bridge: QSC Q-SYS Designer 9.0.1-2104.022 </br> Sennheiser TCC2 Ceiling Microphone: TCC2 - 1.5.1, Dante 1.2.0 </br> QSC Amplifiers: N/A </br> QSC AcousticDesign Series Loudspeakers: N/A | 
 
 
 &Dagger; Customers may choose either the Dante interface or the network switch recommended by Biamp/Sennheiser for this bundle.
@@ -204,21 +207,21 @@ The following tables provide recommendations for peripherals based on room size:
 
 **Microsoft Teams Rooms Certified Audio Peripherals**
 
-|Room Type|Number of People|Recommended maximum distance from microphone to speaker|Device by maximum room size|Comments|
-|:-----|:-----|:-----|:-----|:-----|
-|**Focus** <br/> 10' x 9'   |2–4  |1.5 m  |Logitech Connect  |Logitech Connect devices include a camera that must be positioned at the front of the room (not center of table) to capture local meeting attendees. |
-|**Small** <br/> 16' x 16'  |4–6  |2.0 m  |Jabra 510 <br/> Sennheiser SP20  |Playback volume can be limited for larger rooms.  |
-|**Medium** <br/> 18' x 20'  |6–12  |2.4 m  |Jabra 710 <br/> Jabra 810 <br/> Logitech MeetUp <br/> Logitech Group <br/> Polycom Trio <br/> Polycom CX5100 <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS  |The Logitech MeetUp includes a camera so it must be positioned at the front of room (not center of table to capture local meeting attendees). <br/> In general, rooms with long rectangular or u-shaped tables may benefit from satellite microphones. <br/> SP 220 MS must be used in daisy-chain configuration.  |
-|**Large** <br/> 15' x 32'  |12–16  |3 m <br/> This distance also applies to the area covered by each connected satellite microphone.  |Logitech Group + satellite mics <br/> Polycom Trio+ satellite mics <br/> Polycom CX5100 + satellite mics <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS + satellite mics  |All audio devices listed in this row support satellite microphone options. <br/> CX5100 includes a built-in 360-degree camera so that the device can be positioned in the center of table. <br/> SP 220 MS must be used in daisy-chain configuration.  |
+|Room Type|Number of People|Recommended maximum distance from microphone to speaker|
+|:-----|:-----|:-----|
+|**Focus** <br/> 10' x 9'   |2–4  |1.5 m  |
+|**Small** <br/> 16' x 16'  |4–6  |2.0 m  |
+|**Medium** <br/> 18' x 20'  |6–12  |2.4 m  |
+|**Large** <br/> 15' x 32'  |12–16  |3 m <br/> This distance also applies to the area covered by each connected satellite microphone.  |
 
 **Microsoft Teams Rooms Certified Video Peripherals**
 
-|Room Type|Number of People|Device by Optimal room size|Comments|
-|:-----|:-----|:-----|:-----|
-|**Focus** <br/> 10' x 9'  |2–4  |Logitech Connect <br/> Logitech MeetUp <br/> Polycom CX5100  ||
-|**Small** <br/> 16' x 16'  |4–6  |Logitech C930e <br/> Logitech MeetUp <br/> Logitech BRIO <br/> Logitech PTZ Pro <br/> Polycom MSR <br/> Polycom CX5100  |Logitech PTZ Pro often bundled with Logitech Group  |
-|**Medium** <br/> 18' x 20'  |6–12  |Logitech MeetUp <br/> Logitech BRIO <br/> Logitech PTZ Pro <br/> Polycom MSR <br/> Polycom CX5100  ||
-|**Large** <br/> 15' x 32'  |12–16  |Logitech PTZ Pro <br/> Polycom MSR <br/> Polycom CX5100  ||
+|Room Type|Number of People|
+|:-----|:-----|
+|**Focus** <br/> 10' x 9'  |2–4  |
+|**Small** <br/> 16' x 16'  |4–6  |
+|**Medium** <br/> 18' x 20'  |6–12  |
+|**Large** <br/> 15' x 32'  |12–16  |
 
  > [!NOTE]
  > Front of room display resolution should be set to no greater than 1920x1080p.

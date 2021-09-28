@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: sonua, shalenc
 audience: admin
 ms.localizationpriority: high
-search.appverid: MET150
+ROBOTS: NOINDEX, NOFOLLOW
 ms.collection: 
   - M365-collaboration
   - m365initiative-meetings
@@ -541,7 +541,7 @@ To specify which meeting add-in you want to be available to users, set the **Pre
 - Set the parameter to **TeamsAndSfB** to enable both the Teams Meeting add-in and Skype for Business add-in in Outlook. This is the default value.
 - Set the parameter to **Teams** to enable only the Teams Meeting add-in in Outlook. This policy setting ensures that all future meetings have a Teams meeting join link. It doesn't migrate existing Skype for Business meeting join links to Teams. This policy setting doesn't affect presence, chat, PSTN calling, or any other capabilities in Skype for Business, which means that users will continue to use Skype for Business for these capabilities.
 
-  If you set the parameter to **Teams**, and then switch back to **TeamsAndSfB**, both meeting add-ins are enabled. Existing Teams meeting join links **won't** be migrated to Skype for Business. Only Skype for Business meetings scheduled after the change will have a Skype for Business meeting join link.
+If you set the parameter to **Teams**, and then switch back to **TeamsAndSfB**, both meeting add-ins are enabled. Existing Teams meeting join links **won't** be migrated to Skype for Business. Only Skype for Business meetings scheduled after the change will have a Skype for Business meeting join link.
 
 ## Meeting policy settings - Video filters mode
 
@@ -575,3 +575,4 @@ Meeting reactions are Off by default. Turning off reactions for a user doesn't m
 - [Teams PowerShell overview](teams-powershell-overview.md)
 - [Assign policies to your users in Teams](assign-policies.md)
 - [Remove the RestrictedAnonymousAccess Teams meeting policy from users](meeting-policies-restricted-anonymous-access.md)
+- [Set up for webinars in Microsoft Teams](set-up-webinars.md)

@@ -131,6 +131,7 @@ Currently, data is collected from the following areas in class teams:
 | **Files** |	Uploading, downloading, accessing, modifying, commenting on, and sharing a file (not including file content).|
 | **OneNote Class Notebook** |	Editing a page or section in a notebook (not including page content).|
 | **Meetings** |	Attendance (not including meeting content).|
+| **[Reading Progress](https://support.microsoft.com/topic/e71705a2-a79a-4d7e-bcef-a1e0aa336017)** |	Accuracy rate, most challenging words, and words per minute.  |
 | **[Reflect](reflect.md)** |	Check-ins (including values).|
 
 > [!NOTE]
@@ -169,6 +170,8 @@ Insights has been designed to support both students and educators in the digital
 
 ### Licensing
 To access Insights, users must have an A1, A3, or A5 faculty license for Microsoft 365.
+
+*Education Insights Premium* is a paid upgrade which provides education leaders an organizational level view of Education Insights data as well as expanded access to historical data views for educators. Eligible educational institutions can purchase an *Education Insights Premium* add-on license through Enrollment for Education Solutions (EES), Cloud Service Providers (CSP), and Microsoft 365 admin center (web direct).
 
 ## Student Information System (SIS) integration
 The more data is fed into Insights, the better educators can support their students, and education leaders can support the educators.
