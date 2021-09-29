@@ -28,9 +28,10 @@ The Frontline Worker onboarding wizard in the Microsoft 365 admin center simplif
 
 The wizard sets up a team for your frontline workers and assigns licenses and [policy packages](manage-policy-packages.md) to each team member. You can create your team from scratch or from a [team template](get-started-with-teams-templates-in-the-admin-console.md), and then you add users and assign roles. The role determines the policy package that the wizard assigns to each user.
 
-The wizard is available to all organizations that have at least one Microsoft 365 F license. You can run the wizard as many times as you need to roll out Teams to your frontline workforce in different locations or sites across your organization.
 
 Currently, the wizard supports adding 100 users each time you run it. We're working on increasing the number of users per run soon. Check back here for the latest updates.
+
+The wizard is available to all organizations that have at least one Microsoft 365 F license. You can run the wizard as many times as you need to roll out Teams to your frontline workforce in different locations or sites across your organization.
 
 > [!NOTE]
 > This wizard lets you quickly onboard your frontline workers to Teams through the Microsoft 365 admin center. For more information about how deploy Teams to your frontline workers using scripts, see [How to provision Teams at scale for Frontline Workers](flw-scripted-deployment.md).
