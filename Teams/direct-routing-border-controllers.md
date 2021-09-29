@@ -109,13 +109,13 @@ The following table describes which SBC vendors support [Local Media Optimizatio
 | Vendor | Product |	Software version |
 |:------------|:-------|:-------|
 | [Audiocodes](https://www.audiocodes.com/media/13253/connecting-audiocodes-sbc-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf) |	Mediant 500 SBC |	7.20A.256 |	
-|            |	Mediant 800 SBC |	7.20A.256 |	
-|            |	Mediant 2600 SBC |	7.20A.256 |	
-|            |	Mediant 4000 SBC |	7.20A.256 |	
+|            |	Mediant 800 SBC |	7.40A.100 |	
+|            |	Mediant 2600 SBC |	7.40A.100 |	
+|            |	Mediant 4000 SBC |	7.40A.100 |	
 |            |	Mediant 1000B SBC |	7.20A.256 |	
-|            |	Mediant 9000 SBC |	7.20A.256 |	
-|            |	Mediant Virtual Edition SBC |	7.20A.256 |	
-|            |	Mediant Cloud Edition SBC |	7.20A.256 |
+|            |	Mediant 9000 SBC |	7.40A.100 |	
+|            |	Mediant Virtual Edition SBC |	7.40A.100 |	
+|            |	Mediant Cloud Edition SBC |	7.40A.100 |
 | [Ribbon SBC Core](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)  |  SBC 5110         | 8.2  |
 |            |  SBC 5210         | 8.2  |
 |            |  SBC 5400         | 8.2  |
