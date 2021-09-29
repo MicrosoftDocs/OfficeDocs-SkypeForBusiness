@@ -37,7 +37,7 @@ Bring your staff together to communicate and collaborate on volunteer management
 
 This template includes channels and apps designed to streamline volunteer management activities. Staff can organize and share onboarding materials and frequently used documents, view reporting, stay up to date on important team and event announcements, and more. The template also integrates with Volunteer Management, an app that's part of Microsoft Cloud for Nonprofit, enabling staff to manage volunteer engagement opportunities, without ever leaving Teams.
 
-Here's a list of the predefined channels and apps that come with the Manage volunteers team template.
+Here's the channels and apps that come with the Manage volunteers team template.
 
 | Template type |TemplateId | Properties that come with this template |
 | ------------------|-- |----------------------------------------------------- |
@@ -45,14 +45,16 @@ Here's a list of the predefined channels and apps that come with the Manage volu
 
 &sup1;App added to the channel as a tab
 
-## Create a team from the Manage volunteers template
+You can duplicate this template but you can't edit it. If you want to change the properties in the template, [you can create a new team template from an existing one](create-template-from-existing-template.md), and then add or remove the properties that you want. Keep in mind that certain properties can't be changed.
 
-It takes only a few steps to create a team from the Manage volunteers template. To learn how, see [Create a team with team templates](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
-## View and manage the Manage volunteers team template in the Teams admin center
+## Create a team using the Manage volunteers team template
+
+It takes only a few quick steps to create a team using the Manage volunteers template. To learn how, see [Create a team with a team template](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b).
+## View and manage team templates in the Teams admin center
 
 As an admin, you can view and manage team templates in the Microsoft Teams admin center. To view the Manage volunteers template, in the left navigation of the Teams admin center, go to **Teams** > **Team templates**.
 
-You can also [create and assign templates policies](templates-policies.md) to your staff to control which templates they see in Teams for [creating teams](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c).
+You can also [create and assign templates policies](templates-policies.md) to your staff to control which templates they see in Teams for creating teams.
 
 To learn more about team templates in general, see [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md).
 ## Related articles
