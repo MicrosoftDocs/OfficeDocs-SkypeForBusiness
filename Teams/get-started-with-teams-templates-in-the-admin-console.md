@@ -25,7 +25,7 @@ appliesto:
 **The ability to create custom templates is not yet supported for EDU customers.**
 
 > [!NOTE]
-> Private channels and sensitivity labels are currently not supported in team templates. Private channel creation is not included in template definitions. The sensitivity label option in **Create team from template** flow will not be applied to the team.
+> Private channels are currently not supported in team templates. Private channel creation is not included in template definitions.
 
 ## Overview
 
