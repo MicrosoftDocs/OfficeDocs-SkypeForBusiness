@@ -26,6 +26,9 @@ description: Use real-time telemetry with details about devices, networks, and c
 
 # Use real-time telemetry to troubleshoot poor meeting quality
 
+> [!NOTE]
+> This feature is currently in public preview.
+
 This article explains how to use real-time telemetry to troubleshoot poor Microsoft Teams meeting quality for individual users. You can see real-time telemetry if you have one of the following roles:
 
 - Teams Administrator
