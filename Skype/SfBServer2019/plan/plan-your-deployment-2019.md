@@ -31,7 +31,7 @@ Writers update articles on a continuing basis as new information becomes availab
 
 View the following resources for information about how to plan for your Skype for Business Server deployment.
   
-||Content|Description|
+|&nbsp;|Content|Description|
 |:--- |:--- |:--- |
 |![Icon for videos.](../media/get_started.png)|<UL><LI>[Skype for Business: A quick introduction](https://www.youtube.com/watch?v=PRJqMuwW5yc&amp;feature=youtu.be) </li><li>  [Skype for Business: Step-by-step guide for new users](https://www.youtube.com/watch?v=7_c4zVJ739M&amp;feature=youtu.be)</li></ul>   |Discover video presentations and training for Skype for Business.    |
    
@@ -58,4 +58,4 @@ The following resources about how to plan for Skype for Business Server are avai
 |:--- |:--- |:--- |
 |![Icon for DMC.](../media/paragraph_writing.png)| [Skype for Business Server for IT pros](../../Hub/index.yml)   |Visit docs.microsoft.com and resource centers to access videos, community sites, documentation, downloads, and more.    |
 |![Icon for developer content.](../media/developer.png)|[Skype Developer Platform](/skype-sdk/skypedeveloperplatform)   | Find developer resources for Skype for Business Server, including code samples, training, and SDKs.    |
-|![Icon for news, blogs, and so on.](../media/blog_site.png) | <UL><LI>[Change management and adoption](https://go.microsoft.com/fwlink/p/?LinkId=532796) </LI><LI>   [Office Blogs](https://go.microsoft.com/fwlink/p/?LinkId=528899) </li><li>[Microsoft 365 Technical Blog](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) </li><li>  [Skype team blog](https://go.microsoft.com/fwlink/p/?LinkId=532818) </li></ul>  |Keep up with news from the teams that create and document Skype for Business Server.    |
+|![Icon for news, blogs, and so on.](../media/blog_site.png) | <UL><LI>   [Office Blogs](https://go.microsoft.com/fwlink/p/?LinkId=528899) </li><li>[Microsoft 365 Technical Blog](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) </li><li>  [Skype team blog](https://go.microsoft.com/fwlink/p/?LinkId=532818) </li></ul>  |Keep up with news from the teams that create and document Skype for Business Server.    |
