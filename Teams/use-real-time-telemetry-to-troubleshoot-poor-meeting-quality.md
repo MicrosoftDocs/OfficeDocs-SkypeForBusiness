@@ -51,11 +51,11 @@ As a Teams admin, you get full access to all real-time telemetry data for each u
 
 To see all meeting information and data for a user, go to the [Teams admin center](https://admin.teams.microsoft.com). Under **Users** > **Manage users**, select a user and then open the **Meetings & calls** tab on the user's profile page. Under **Recent meetings**, you'll see a list of meetings the user has attended within the past 24 hours *for which real-time telemetry is available*, including any in progress meetings. If the meeting is not in progress or doesn't have real-time telemetry data, it will show up in **Past meetings**.
 
-![Screenshot of all analytics user data.](media/recent-meetings.png)
+![Screenshot of recent meetings table.](media/recent-meetings.png)
 
 To get additional information about participants of a meeting that's in progress, including their device, network, and audio statistics, find the meeting in **Recent meetings** and select the link under the **Participants** column.
 
-![Screenshot of call analytics user session data.](media/participant-details.png)
+![Screenshot of participant details table.](media/participant-details.png)
 
 To look at real-time telemetry of a given user for an in-progress meeting, including information around device, network, audio, video, and content sharing details, select the **Meeting ID**.
 
