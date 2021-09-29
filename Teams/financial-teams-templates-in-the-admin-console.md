@@ -67,4 +67,4 @@ Centralize collaboration for your bank branch employees across huddles, customer
 ||||
 
 > [!NOTE]
-> For additional templates that apply to financial services organization, see [Team templates built in Microsoft Graph for small and medium businesses](smb-templates.md).
+> For additional team templates that apply to financial services organizations, see [Team templates built in Microsoft Graph for small and medium businesses](smb-templates.md).
