@@ -52,6 +52,10 @@ You can also [create and assign templates policies](templates-policies.md) to yo
 
 To learn more about team templates in general, see [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md).
 
+## Create a team from the Manage volunteers template
+
+It takes only a few steps to create a team from the Manage volunteers template. To learn how, see [Create a team with team templates](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
+
 ## Related articles
 
 - [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md)
