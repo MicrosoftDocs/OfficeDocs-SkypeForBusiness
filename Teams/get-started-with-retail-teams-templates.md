@@ -38,7 +38,7 @@ How you manage and work with team templates depends on whether you're an admin o
 
 ## Manage team templates in the Teams admin center
 
-As an admin, you can manage team templates in the Microsoft Teams admin center. Here, you can view details about each template. You can also [create and assign templates policies](templates-policies.md) to your staff to control which templates they see in Teams for [creating teams](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c). 
+As an admin, you can manage team templates in the Microsoft Teams admin center. Here, you can view details about each template. You can also [create and assign templates policies](templates-policies.md) to your staff to control which templates they see in Teams for [creating teams](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b).
 
 To learn more about team templates in general, see [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md).
 
@@ -52,7 +52,7 @@ Bring your retail employees together in one central experience to manage tasks, 
 | ------------------|-- |----------------------------------------------------- |
 |Organize a store| `retailStore` |Channels: <ul><li>General<li>Shift handoff</li><li>Store readiness<ul><li>Inspection&sup1;</li></ul></li><li>Learning</li></ul> Apps: <ul><li>Wiki</li><li>Tasks</li><li>Shifts</li><li>Inspection</li></ul>|
 
-&sup1;App added to the channel as a tab.
+&sup1;App added to the channel as a tab
 
 ### Manager Collaboration
 
@@ -63,7 +63,7 @@ The Manager Collaboration template is ideal for creating a team for a set of man
 |Retail for managers|`retailManagerCollaboration` |Channels: <ul><li>General<li>Operations<ul><li>Tasks (Operations Tasks)&sup1;</li><li>Inspection&sup1;</li></ul></li><li>Learning<ul><li>Tasks (Learning Tasks)&sup1;</li></ul></li></ul> Apps: <ul><li>Wiki</li><li>Tasks</li><li>Inspection</li></ul>|
 ||||
 
-&sup1;App added to the channel as a tab.
+&sup1;App added to the channel as a tab
 
 ## Use team templates with Microsoft Graph
 
@@ -129,5 +129,5 @@ To use these templates, change the 'template@odata.bind' property in the request
 ## Related articles
 
 - [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md)
-- [Create a team from a template in the Teams app](https://support.microsoft.com/en-us/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)
+- [Create a team from a template](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
 - [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md)

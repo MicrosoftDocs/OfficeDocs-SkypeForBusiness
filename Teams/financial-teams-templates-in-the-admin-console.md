@@ -38,7 +38,7 @@ How you manage and work with team templates depends on whether you're an admin o
 
 ## Manage team templates in the Teams admin center
 
-As an admin, you can manage team templates in the Microsoft Teams admin center. Here, you can view details about each template. You can also [create and assign templates policies](templates-policies.md) to your staff to control which templates they see in Teams for [creating teams](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c).
+As an admin, you can manage team templates in the Microsoft Teams admin center. Here, you can view details about each template. You can also [create and assign templates policies](templates-policies.md) to your staff to control which templates they see in Teams for [creating teams](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b).
 
 To learn more about team templates in general, see [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md).
 
@@ -67,4 +67,10 @@ Centralize collaboration for your bank branch employees across huddles, customer
 ||||
 
 > [!NOTE]
-> For additional templates that apply to financial services organization, see [Team templates built in Microsoft Graph for small and medium businesses](smb-templates.md).
+> For additional team templates that apply to financial services organizations, see [Team templates built in Microsoft Graph for small and medium businesses](smb-templates.md).
+
+## Related articles
+
+- [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md)
+- [Create a team from a template](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
+- [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md)

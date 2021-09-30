@@ -24,9 +24,9 @@ ms.custom:
   - seo-marvel-apr2020
 description: Learn about how to turn on and use the Call Quality Dashboard and get summary reports of quality of calls.
 ---
-# Set up Microsoft Call Quality Dashboard
+# Set up Call Quality Dashboard
 
-Open the Microsoft Call Quality Dashboard (CQD) at [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (sign in with your admin credentials). Or go to the Teams admin center and select **Call Quality Dashboard**. 
+Open the Microsoft Call Quality Dashboard (CQD) at [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (sign in with your admin credentials). Or go to the Teams admin center and select **Analytics & reports** > **Call Quality Dashboard**.
 
 :::image type="content" source="media/turning-on-and-using-call-quality-dashboard3.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center.":::
 
@@ -66,15 +66,11 @@ For more information about these roles, see [About Office 365 admin roles](/offi
 
 After the first time you sign in, CQD will begin collecting and processing data.
 
-
-
-
 ## Use Power BI to analyze CQD data
 
 New in January 2020: [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Customizable Power BI templates you can use to analyze and report your CQD data.
 
 Read [Use Power BI to analyze CQD data](CQD-Power-BI-query-templates.md) to learn more.
-
 
 ## Related topics
 
