@@ -54,7 +54,7 @@ We currently offer the following pre-built healthcare team templates. To view th
 | Patient care |`healthcareWard` | Channels:<ul><li>General</li><li>Announcements<ul><li>Bulletins&sup1;</li></ul></li><li>Huddles<ul><li>Lists (Patient list)&sup1;</li></ul></li><li>Rounds<ul><li>Inspection&sup1;</li></ul></li><li>Staffing</li><li>Training</li></ul> Apps: <ul><li>Wiki</li><li>Lists</li><li>Tasks</li><li>Approvals</li><li>Shifts</li><li>Bulletins</li><li>Inspection</li></ul>|
 ||||
 
-&sup1;App added to the channel as a tab.
+&sup1;App added to the channel as a tab
 ### Hospital
 
 This template is meant for communication and collaboration between multiple wards, pods, and departments within a hospital. This template includes a set of channels for hospital operations, and can be extended for further customization.
@@ -64,7 +64,7 @@ This template is meant for communication and collaboration between multiple ward
 |Hospital|`healthcareHospital`|Channels: <ul><li>General<ul><li>Lists&sup1;</li></ul></li><li>Announcements<ul><li>Bulletins&sup1;</li></ul></li><li>Compliance</li><ul><li>Inspection&sup1;</li></ul></li><li>Custodial</li><li>Human resources<ul><li>Ideas&sup1;</li></ul></li><li>Pharmacy</li></ul> Apps: <ul><li>Wiki</li><li>Tasks</li><li>Lists</li><li>Approvals</li><li>Shifts</li><li>Bulletins</li><li>Inspection</li><li>Ideas</li></ul>|
 ||||
 
-&sup1;App added to the channel as a tab.
+&sup1;App added to the channel as a tab
 ## Use team templates with Microsoft Graph
 
 Developers can use Microsoft Graph to create teams from pre-built team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](../../get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview?view=graph-rest-1.0), and [teamsTemplate resource type](/graph/api/resources/teamstemplate?view=graph-rest-1.0).

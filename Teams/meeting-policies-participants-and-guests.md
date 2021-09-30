@@ -93,9 +93,6 @@ This setting is a per-participant setting. This setting controls whether meeting
 
 
 
-
-
-
 ## Related topics
 
 - [Teams PowerShell overview](teams-powershell-overview.md)
