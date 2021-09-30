@@ -200,7 +200,7 @@ As an admin, you can use app setup policies to do the following:
 
 Apps are pinned to the app bar. This is the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients (iOS and Android).
 
-|Teams desktop client  |         |Teams mobile client  |
+|Teams desktop client  | &nbsp; |Teams mobile client  |
 |---------|---------|---------|
 |![Screenshot of the Teams desktop client with apps pinned to the app bar.](media/flw-teams-desktop-client.png)         |         |![Screenshot of the Teams mobile client with apps pinned to the bottom bar.](media/flw-teams-mobile-client.png) |
 

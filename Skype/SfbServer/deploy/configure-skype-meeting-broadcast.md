@@ -43,12 +43,10 @@ To enable federation with Skype for Business Online resources, you need to confi
     
 3. Configure the new provider with the following settings:
     
-|||
-|:-----|:-----|
-|**Enable communications with this provider:** <br/> |Selected  <br/> |
-|**Provider name:** <br/> |LyncOnlineResources  <br/> |
-|**Access Edge service (FQDN):** <br/> |sipfed.resources.lync.com  <br/> |
-|**Default verification level:** <br/> |Allow users to communicate with everyone using this provider.  <br/> |
+   - **Enable communications with this provider:** Selected
+   - **Provider name:** LyncOnlineResources
+   - **Access Edge service (FQDN):** sipfed.resources.lync.com
+   - **Default verification level:** Allow users to communicate with everyone using this provider. 
    
 You can also enable federation with Skype for Business Online resources by running the following cmdlet in the Skype for Business Server Management Shell:
   
