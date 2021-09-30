@@ -11,7 +11,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a609f1b0-ae13-44ca-a467-b7fb14ff18a1
 ROBOTS: NOINDEX, NOFOLLOW
 description: "When making a certificate request to an online certification authority (CA) (typically, these are servers that are on your internal network) on the Choose a Certification Authority (CA) page, you are presented with two options:"

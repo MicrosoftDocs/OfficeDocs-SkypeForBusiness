@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddFrontEndSqlStorePage2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 84bbd899-4ce1-4b3b-9bdb-a08cefb626d3
 description: "You define the properties of the SQL Server stores for the new Front End pool that you are configuring."
 ---

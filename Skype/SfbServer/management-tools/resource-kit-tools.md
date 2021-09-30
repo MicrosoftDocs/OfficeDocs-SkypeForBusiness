@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: "This article describes the tools in the Skype for Business Server 2015 Resource Kit, including the purpose of each tool, and examples of its use. The Skype for Business Server 2015 Resource Kit helps to make routine tasks easier for IT administrators who deploy and manage Skype for Business Server 2015. For example, the Web Conf Data tool can be used to easily control data that is uploaded by users during an online meeting. The SEFAUtil tool can be used to set up delegate call forwarding and answering for users. We encourage IT administrators to use these tools to more effectively manage Skype for Business Server 2015."
 ---
@@ -251,7 +251,7 @@ Logging the timeline allows the tool user to specify the following as shown in t
 
 2. **End date** This is the end date of the timeline that the report is to be generated for; for example, September 30, 2010.
 
-     ![Start and End dates in the Bandwidth Utilization A](../media/Reskit_2012_Tools_Documentation_Image4.jpg)
+     ![Start and End dates in the Bandwidth Utilization A.](../media/Reskit_2012_Tools_Documentation_Image4.jpg)
 
 #### Step 2 - Specify the file directories
 
@@ -261,7 +261,7 @@ The following file directories can be specified by the user as shown.
 
 - **Temporary file storage location** The temporary file location where intermediate files are stored while the report is being generated.
 
-	![File directories in the Bandwidth Utilization Anal](../media/Reskit_2012_Tools_Documentation_Image5.jpg)
+	![File directories in the Bandwidth Utilization Anal.](../media/Reskit_2012_Tools_Documentation_Image5.jpg)
 
 	> [!NOTE]
 	> Ensure that sufficient file access to the server logs and the temporary file store folder is provided to the tool user.
@@ -270,11 +270,11 @@ The following file directories can be specified by the user as shown.
 
 To collect the logs and start the report viewer, click **Execute** as shown below. This step collects the required data.
 
-![Collecting data in the Bandwidth Utilization Analy](../media/Reskit_2012_Tools_Documentation_Image6.jpg)
+![Collecting data in the Bandwidth Utilization Analy.](../media/Reskit_2012_Tools_Documentation_Image6.jpg)
 
 When the input validation is successful, the message shown below is displayed.
 
-![Logs collected notification in the Bandwidth Utili](../media/Reskit_2012_Tools_Documentation_Image7.jpg)
+![Logs collected notification in the Bandwidth Utili.](../media/Reskit_2012_Tools_Documentation_Image7.jpg)
 
 Click **OK**. BandwidthUtilizationAnalyzer.xlsm is automatically started. Follow the instructions in the message box. For details, see **Using BandwidthUtilizationAnalyzer.xlsm** in the next section.
 
@@ -283,7 +283,7 @@ Click **OK**. BandwidthUtilizationAnalyzer.xlsm is automatically started. Follow
 
 1. When BandwidthUtilizationAnalyzer.xlsm is automatically started, click **Refresh** as shown below.
 
-     ![BandwidthUtilizationAnalyzer.xlsm](../media/Reskit_2012_Tools_Documentation_Image8.jpg)
+     ![BandwidthUtilizationAnalyzer.xlsm.](../media/Reskit_2012_Tools_Documentation_Image8.jpg)
 
 2. When a file folder is opened, select consolidated.csv from the location that is specified in the message box as shown below. It also shows the location as **C:\Temp**.
 
@@ -897,7 +897,7 @@ Save and Store CAC network topology diagram in JPG or BMP format: Skype for Busi
 
  **Define custom connectors for CAC network topology links (such as site-to-region, region-to-region, and site-to-site links):** Skype for Business Server 2015 administrators can define custom graphical connectors for CAC network configuration WAN links by using the Settings option as shown below. This helps differentiate between various types of network links that are provisioned in the network configuration.
 
-![Tools](../media/Reskit_2012_Tools_Documentation_Image29.jpg)
+![Tools.](../media/Reskit_2012_Tools_Documentation_Image29.jpg)
 
  **View CAC network topology site information, region information, and provisioned bandwidth policies:** Skype for Business Server 2015 administrators can view related CAC network region information, site information, and CAC bandwidth provisioning information by using options shown below. (For example, click **Info** in a network region or network site object.)
 
@@ -1429,7 +1429,7 @@ Prior to running the SYSPrep.ps1 script, you must copy the prerequisite files to
 | Microsoft .NET Framework 4.5  <br/>             | <https://go.microsoft.com/?linkid=9816306>  <br/>                       |
 | Microsoft SQL Server Express 2008 R2  <br/>     | <https://www.microsoft.com/download/details.aspx?id=23650>  <br/> |
 | Windows PowerShell version 3.0  <br/>           | <https://www.microsoft.com/download/details.aspx?id=34595>  <br/> |
-| Visual C++ 2010 Redistributable  <br/>          | <https://www.microsoft.com/download/details.aspx?id=5555>  <br/>  |
+| Visual C++ 2010 Redistributable  <br/>          | <https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0>  <br/>  |
 | Internet Information Server Updates  <br/>      | <https://www.microsoft.com/download/details.aspx?id=34869>  <br/> |
 | Windows Identity Foundation  <br/>              | <https://www.microsoft.com/download/details.aspx?id=17331>  <br/> |
 | Skype for Business Server 2015 Setup.exe  <br/> | Copy from Skype for Business Server 2015 media  <br/>                   |

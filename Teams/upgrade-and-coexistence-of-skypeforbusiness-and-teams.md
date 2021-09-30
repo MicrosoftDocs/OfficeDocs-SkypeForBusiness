@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl, bjwhalen
 description: Details of Skype for Business and Microsoft Teams coexistence options, and of possible upgrade journeys to Teams, with example scenarios. 
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -25,7 +25,7 @@ appliesto:
 
 # Choose your upgrade journey from Skype for Business to Teams
 
-![Upgrade journey diagram, emphasizing the Project Definition stage](media/upgrade-banner-project-definition.png "Stages of the upgrade journey, with emphasis on the Project Definition stage")
+![Upgrade journey diagram, emphasizing the Project Definition stage.](media/upgrade-banner-project-definition.png "Stages of the upgrade journey, with emphasis on the Project Definition stage")
 
 This article is part of the Project Definition stage of your upgrade journey. Before proceeding, confirm that you've completed the following activities:
 

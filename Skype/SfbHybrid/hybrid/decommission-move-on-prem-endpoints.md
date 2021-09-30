@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 - Hybrid 
 - M365-voice
@@ -21,6 +21,8 @@ description: "Migrate hyrid application endpoints before decommissioning a Skype
 ---
 
 # Migrate hybrid application endpoints before decommissioning your on-premises environment
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 This article describes how to move required hybrid application endpoints to the Microsoft cloud before decommissioning your on-premises Skype for Business environment. This is step 3 of the following steps to decommission your on-premises environment:
 
@@ -51,7 +53,7 @@ Before you can move these endpoints to online, you must ensure you have updated 
    ```PowerShell
    Get-CsHybridApplicationEndpoint -Filter {LineURI -ne $null} | Set-CsHybridApplicationEndpoint -LineURI ""
    ```
-5. Because it's possible that phone numbers for these accounts were managed in Microsoft 365 instead of on-premises, run the following command in Skype for Business Online PowerShell:
+5. Because it's possible that phone numbers for these accounts were managed in Microsoft 365 instead of on-premises, run the following command in Teams PowerShell:
 
    ```PowerShell
    $endpoints = import-csv "c:\backup\HybridEndpoints.csv"
@@ -66,7 +68,7 @@ Before you can move these endpoints to online, you must ensure you have updated 
    }
    ```
 
-6. Assign phone numbers to the new Resource Accounts created in Step 2. For more information about how to assign a phone number to a resource account, see the following article: [Assign a service number](/microsoftteams/manage-resource-accounts#assign-a-service-number).
+6. Assign phone numbers to the new Resource Accounts created in Step 2. For more information about how to assign a phone number to a resource account, see the following article: [Assign a service number](/microsoftteams/manage-resource-accounts).
 
 7. Delete the on-premises endpoints by executing the following on-premises Skype for Business Server PowerShell command:
 

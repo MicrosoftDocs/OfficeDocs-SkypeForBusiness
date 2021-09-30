@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.RootScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d190f1f0-7741-432a-84ac-9530bb00abef
 description: "The Lync Server node lists the central sites in your topology. You can perform the following actions:"
 ---

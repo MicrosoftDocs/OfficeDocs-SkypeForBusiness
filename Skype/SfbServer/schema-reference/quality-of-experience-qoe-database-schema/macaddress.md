@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a32e68c5-3f95-4217-aff4-cb3d1cc70505
 description: "The MacAddress table is a supporting table. Each record represents one source."
 ---

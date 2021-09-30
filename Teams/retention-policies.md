@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 description: Use retention policies for Microsoft Teams to keep messages that your organization needs to comply with internal policies, industry regulations, or legal requirements, and to delete messages that are considered a liability or has no legal business value.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -76,16 +76,16 @@ That page has additional information about creating and managing retention polic
 
 For private chats (1:1 chats) or group chats, users will see that chats older than the retention policy configuration are deleted and an automatically generated message stating "We've deleted older messages due to your org's retention policy" is shown on top of yet undeleted messages. For example:
 
-:::image type="content" source="media/retention-policies-image1.png" alt-text="User informed in Teams that chat message are deleted because of a Teams retention policy":::
+:::image type="content" source="media/retention-policies-image1.png" alt-text="User informed in Teams that chat message are deleted because of a Teams retention policy.":::
 
 
-:::image type="content" source="media/retention-policies-image2.png" alt-text="User in Teams explaining messages are deleted as a result of a Teams retention policy":::
+:::image type="content" source="media/retention-policies-image2.png" alt-text="User in Teams explaining messages are deleted as a result of a Teams retention policy.":::
 
 For Channel messages, users (channel members) will see the deleted messages disappear from view after messages expire. If the deleted message was a parent message of a threaded conversation, then, in place of parent message, a message stating "This message has been deleted because of a Retention Policy" will be displayed. For example:
 
-:::image type="content" source="media/retention-policies-image3.png" alt-text="Screenshot of channel before retention":::
+:::image type="content" source="media/retention-policies-image3.png" alt-text="Screenshot of channel before retention.":::
 
-:::image type="content" source="media/retention-policies-image4.png" alt-text="Screenshot of channel after retention":::
+:::image type="content" source="media/retention-policies-image4.png" alt-text="Screenshot of channel after retention.":::
 
 > [!NOTE]
 > The displayed messages that users see as a result of deleted messages are not configurable at this time.

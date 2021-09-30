@@ -1,6 +1,6 @@
 ---
 title: "Virtual Desktop Infrastructure for Lync Server 2013"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -12,13 +12,13 @@ audience: Admin
 appliesto:
 - Lync
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Lync Certification
 - dn788944
-description: "Partner qualification requirements for Lync."
+description: "Partner qualification requirements for Lync: Virtual desktop infrastructure."
 ---
 
 # Virtual Desktop Infrastructure for Lync Server 2013
@@ -27,7 +27,7 @@ The Virtual Desktop Infrastructure (VDI) Partner platforms and client hardware p
 
 ## About VDI
 
-With the release of Lync Server 2013, Microsoft has worked closely with multiple partners to bring enterprise-grade audio and video communication support using Lync to thin clients running in a Virtual Desktop Infrastructure (VDI) environment. This is done through a combination of the Lync rich client running in the datacenter along with a Lync VDI plug-in running in the local client hardware. The solution is extensible and designed to work on both VDI Partner platforms such as VMware and client hardware platforms such as Dell Wyse and HP.
+With the release of Lync Server 2013, Microsoft has worked closely with multiple partners to bring enterprise-grade audio and video communication support using Lync to thin clients running in a Virtual Desktop Infrastructure (VDI) environment. This functionality works through a combination of the Lync rich client running in the datacenter along with a Lync VDI plug-in running in the local client hardware. The solution is extensible and designed to work on both VDI Partner platforms such as VMware and client hardware platforms such as Dell Wyse and HP.
 
 ### Related resources
 
@@ -36,9 +36,9 @@ With the release of Lync Server 2013, Microsoft has worked closely with multiple
 [Troubleshooting the Lync VDI Plug-in](/previous-versions/office/lync-server-2013/lync-server-2013-troubleshooting-the-lync-vdi-plug-in) <!-- 2013 yet to migrate -->
 
 ## VDI environments
-The following table lists the VDI partners and their products which have been tested with the Lync 2013 VDI plug-in. 
+The following table lists the VDI partners and their products that have been tested with the Lync 2013 VDI plug-in. 
 
-<table border="1" cellpadding="0" cellspacing="0" class="grid" style="border-collapse:collapse;background-color:white;" width="100%" xmlns="http://www.w3.org/1999/xhtml">
+<table border="1" cellpadding="0" cellspacing="0" class="grid" width="100%">
 	<colgroup>
 		<col width="72" />
 		<col width="264" />
@@ -101,7 +101,7 @@ The following table lists the VDI partners and their products which have been te
 
 ## Client hardware platforms
 
-The Lync 2013 VDI Plug-in must be installed on the local machine in combination with the VDI Partner's local client. The Plug-in uses the local machine's processing, memory and network resources to provide an optimal media experience for the end-user. 
+The Lync 2013 VDI Plug-in must be installed on the local machine in combination with the VDI Partner's local client. The Plug-in uses the local machine's processing, memory, and network resources to provide an optimal media experience for the end user. 
 
 The Lync 2013 VDI Plug-in is available in 32-bit and 64-bit versions and is supported on clients meeting following requirements.
 
@@ -114,7 +114,7 @@ The Lync 2013 VDI Plug-in is available in 32-bit and 64-bit versions and is supp
 ***Minimum system requirements***:
 
 - CPU: 1.5 GHz processor
-- Memory: 2 gigabyte (GB) of RAM
+- Memory: 2 gigabytes (GB) of RAM
 - Space required: 32 bit: ~700 MB, 64 bit: ~900 MB
 
 Clients which do not meet the preceding requirements are not supported by Microsoft.

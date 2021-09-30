@@ -1,6 +1,6 @@
 ---
 title: "Skype for Business certification program"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -12,13 +12,13 @@ audience: Admin
 appliesto:
 - Lync
 - Skype for Business 
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Skype for Business  Certification
 - dn947964
-description: "Skype for Business certification program and Microsoft plans to test and certify IP phones for Skype for Business through the Skype for Business Certification Program."
+description: "Plans to test and certify IP phones for Skype for Business through the Skype for Business Certification Program."
 ---
 
 # IT Pro Tools for Skype for Business

@@ -7,7 +7,7 @@ audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: article
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
@@ -32,7 +32,7 @@ The diagrams below illustrate the difference in call flow with and without media
 Without media bypass, when a client makes or receives a call, both signaling and media flow between the SBC, the Microsoft Phone System, and the Teams client, as shown in the following diagram:
 
 > [!div class="mx-imgBorder"]
-> ![Shows signaling and media flow without media bypass](media/direct-routing-media-bypass-1.png)
+> ![Shows signaling and media flow without media bypass.](media/direct-routing-media-bypass-1.png)
 
 
 But let's assume that a user is in the same building or network as the SBC. For example, assume a user who is in a building in Frankfurt makes a call to a PSTN user: 
@@ -44,7 +44,7 @@ But let's assume that a user is in the same building or network as the SBC. For 
 - **With media bypass**, the media is kept directly between the Teams user and the SBC as shown in the following diagram:
 
   > [!div class="mx-imgBorder"]
-  > ![Shows signaling and media flow with media bypass](media/direct-routing-media-bypass-2.png)
+  > ![Shows signaling and media flow with media bypass.](media/direct-routing-media-bypass-2.png)
 
 Media bypass leverages protocols called Interactive Connectivity Establishment (ICE) on the Teams client and ICE lite on the SBC. These protocols enable Direct Routing to use the most direct media path for optimal quality. ICE and ICE Lite are WebRTC standards. For detailed information about these protocols, see RFC 5245.
 
@@ -70,7 +70,7 @@ The following diagram shows call flow when media bypass is enabled, the client i
 - The SIP signaling always takes paths 4 and 4' (depending on the direction of the traffic). Media stays local and takes path 5b.
 
 > [!div class="mx-imgBorder"]
-> ![Shows Call flow with Media Bypass enabled, client is internal](media/direct-routing-media-bypass-3.png)
+> ![Shows Call flow with Media Bypass enabled, client is internal.](media/direct-routing-media-bypass-3.png)
 
 
 ### Call flow if the user does not have access to the public IP address of the SBC
@@ -91,7 +91,7 @@ The following diagram shows call flow when media bypass is enabled, the client i
 - Media is relayed via paths 3, 3', 4 and 4'
 
 > [!div class="mx-imgBorder"]
-> ![Shows Call flow if user does not have access to public IP of the SBC](media/direct-routing-media-bypass-4.png)
+> ![Shows Call flow if user does not have access to public IP of the SBC.](media/direct-routing-media-bypass-4.png)
 
 
 ### Call flow if a user is outside the network and has access to the public IP of the SBC
@@ -106,7 +106,8 @@ The following diagram shows call flow when media bypass is enabled, the client i
 - The SIP signaling always takes paths 3 and 3' (depending on the direction of the traffic). Media flows using path 2.
 
 > [!div class="mx-imgBorder"]
-> ![Shows Call flow if user does not have access to public IP of the SBC](media/direct-routing-media-bypass-5.png)
+> ![Shows Call flow if user does not have access to public IP of the SBC.](media/direct-routing-media-bypass-5.png)
+
 
 
 ## Use of Media Processors and Transport Relays
@@ -131,18 +132,18 @@ The following diagram shows two call flows – one with media bypass enabled and
 - The SIP Proxy is a component that translates HTTP REST signaling used in Teams to SIP.    
 
 > [!div class="mx-imgBorder"]
-> ![Shows call flows with Media Bypass enabled and disabled](media/direct-routing-media-bypass-6.png)
+> ![Shows call flows with Media Bypass enabled and disabled.](media/direct-routing-media-bypass-6.png)
 
 
 The table below summarizes the difference between Media Processors and Transport Relays.
 
-|    | Media Processors | Transport Relays|
+|  &nbsp; | Media Processors | Transport Relays|
 | :--------------|:---------------|:------------|
-In media path for non-bypassed calls for end users | Always | If client cannot reach the Media Processor directly | 
-In media path for bypassed calls for end users | Never | If client cannot reach the SBC on the public IP address | 
-In media path for voice applications | Always | Never | 
-Can do transcoding (B2BUA)\* | Yes | No, only relays audio between endpoints | 
-Number of instances worldwide and location | 10 total: 2 in US East and West; 2 in Amsterdam and Dublin; 2 in Hong Kong and Singapore; 2 in Japan ; 2 in Australia East and Southeast | Multiple
+|In media path for non-bypassed calls for end users | Always | If client cannot reach the Media Processor directly |
+|In media path for bypassed calls for end users | Never | If client cannot reach the SBC on the public IP address |
+|In media path for voice applications | Always | Never |
+|Can do transcoding (B2BUA)\* | Yes | No, only relays audio between endpoints |
+|Number of instances worldwide and location | 10 total: 2 in US East and West; 2 in Amsterdam and Dublin; 2 in Hong Kong and Singapore; 2 in Japan ; 2 in Australia East and Southeast | Multiple|
 
 The IP ranges are:
 - 52.112.0.0/14 (IP addresses from 52.112.0.1 to 52.115.255.254)
@@ -219,7 +220,7 @@ The connection point for Direct Routing is the following FQDN:
 
 The FQDN sip.pstnhub.gov.teams.microsoft.us will be resolved to an IP address from the following subnet:
 
-- 52.127.64.0/21
+- 52.127.88.0/21
 
 You need to open ports for all these IP ranges in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.  If your firewall supports DNS names, the FQDN  sip.pstnhub.gov.teams.microsoft.us resolves to all these IP subnets. 
 
@@ -235,7 +236,7 @@ You must use the following ports:
 
 | Traffic | From | To | Source port | Destination port|
 | :-------- | :-------- |:-----------|:--------|:---------|
-SIP/TLS| SIP Proxy | SBC | 1024 - 65535 | Defined on the SBC |
+| SIP/TLS| SIP Proxy | SBC | 1024 - 65535 | Defined on the SBC |
 | SIP/TLS | SBC | SIP Proxy | Defined on the SBC | 5061 |
 
 
@@ -252,7 +253,7 @@ The client must have access to the specified ports (see table) on the public IP 
 
 | Traffic | From | To | Source port | Destination port|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | Client | SBC | 3478-3481 and 49152 – 53247| Defined on the SBC |
+| UDP/SRTP | Client | SBC | 3478-3481 and 49152 – 53247| Defined on the SBC |
 | UDP/SRTP | SBC | Client | Defined on the SBC | 3478-3481 and 49152 – 53247  |
 
 
@@ -281,7 +282,7 @@ The port range of the Teams Transport Relays (applicable to all environments) is
 
 | Traffic | From | To | Source port | Destination port|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | Transport Relay | SBC | 50 000 -59 999    | Defined on the SBC |
+| UDP/SRTP | Transport Relay | SBC | 50 000 -59 999    | Defined on the SBC |
 | UDP/SRTP | SBC | Transport Relay | Defined on the SBC | 50 000 – 59 999, 3478-3481     |
 
 
@@ -319,7 +320,7 @@ The port range of the Media Processors (applicable to all environments) is shown
 
 | Traffic | From | To | Source port | Destination port|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | Media Processor | SBC | 3478-3481 and 49 152 – 53 247    | Defined on the SBC |
+| UDP/SRTP | Media Processor | SBC | 3478-3481 and 49 152 – 53 247    | Defined on the SBC |
 | UDP/SRTP | SBC | Media Processor | Defined on the SBC | 3478-3481 and 49 152 – 53 247     |
 
 ## Configure separate trunks for media bypass and non-media bypass  
@@ -342,13 +343,13 @@ The example below illustrates this logic.
 
 | Set of users | Number of users | Trunk FQDN assigned in OVRP | Media bypass enabled |
 | :------------ |:----------------- |:--------------|:--------------|
-Users with non-media bypass trunk | 980 | sbc1.contoso.com:5061 | false |
-Users with media bypass trunk | 20 | sbc2.contoso.com:5060 | true | 
+| Users with non-media bypass trunk | 980 | sbc1.contoso.com:5061 | false |
+| Users with media bypass trunk | 20 | sbc2.contoso.com:5060 | true | 
 
 Both trunks can point to the same SBC with the same public IP address. The TLS signaling ports on the SBC must be different, as shown in the following diagram. Note you will need to make sure that your certificate supports both trunks. In SAN, you need to have two names (**sbc1.contoso.com** and **sbc2.contoso.com**) or have a wildcard certificate.
 
 > [!div class="mx-imgBorder"]
-> ![Shows both trunks can point to the same SBC with the same public IP](media/direct-routing-media-bypass-7.png)
+> ![Shows both trunks can point to the same SBC with the same public IP.](media/direct-routing-media-bypass-7.png)
 
 For information about how to configure two trunks on the same SBC, see the documentation provided by your SBC vendor:
 

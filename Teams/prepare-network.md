@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: jastark, kojika
 audience: admin
 description: Learn about preparing your organization's network for Microsoft Teams, including network requirements, network optimization, and bandwidth requirements.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -148,7 +148,7 @@ This table describes how Teams uses bandwidth. Teams is always conservative on b
       **Modality**
    :::column-end:::
    :::column span="3":::
-      **Bandwidth requirements (bitrate KB/s up/down)**
+      **Bandwidth requirements (bitrate Kb/s up/down)**
    :::column-end:::
 :::row-end:::
 :::row:::

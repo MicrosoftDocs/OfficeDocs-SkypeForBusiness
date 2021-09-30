@@ -17,7 +17,7 @@ audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 
@@ -47,6 +47,7 @@ If Calling Plans are not available for your country or region, consider using Di
 Before you can set up users in your organization to make and receive phone calls, you must get phone numbers for them.
 
 You have three ways of getting numbers for your users:
+
 - Get new numbers using the Teams admin center.
 - Get new numbers that aren't available in the Teams admin center.
 - Port or transfer your existing numbers from your current service provider or phone carrier to Microsoft 365 or Office 365.

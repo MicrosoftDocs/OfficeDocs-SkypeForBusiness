@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Skype for Business Server functionality supports multiple associations between gateways and Mediation Servers. These associations are made by defining a trunk, which is a logical association between a Mediation Server pool and a public switched telephone network (PSTN) gateway, Session Border Controller (SBC), or IP-PBX. Use the Topology Builder to associate gateways with Mediation Servers (that is, trunks)."
 ---
 
@@ -28,4 +28,4 @@ The administrator must select a default trunk associated with a Mediation Server
 
 The following diagram illustrates the multiple trunks that are defined for each Mediation Server and gateway. 
 
-![Multiple trunk assignments](../../media/multiple-trunk-assignments.jpg)
+![Multiple trunk assignments.](../../media/multiple-trunk-assignments.jpg)

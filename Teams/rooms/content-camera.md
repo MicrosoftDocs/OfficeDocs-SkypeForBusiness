@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
 ms.custom:
@@ -43,7 +43,7 @@ Ideal placement of a content camera is centered vertically and horizontally on t
 
 You can install the camera up to 6 in. (152 mm) higher than the top of the whiteboard, and centered on the white board as shown. Make sure that the camera image includes at least a 6 in. (152 mm) border on both sides horizontally. You can use the camera preview in the Microsoft Teams Rooms app to determine final placement of the camera.
 
-![Content camera placement diagram](../media/Magic-whiteboard.png)
+![Content camera placement diagram.](../media/Magic-whiteboard.png)
 
 ### Camera distances
 
@@ -60,7 +60,7 @@ The distance of the camera from the whiteboard combines with the camera resoluti
 | 100°        | 1.26 ft. (0.38 m)| 2.52 ft. (0.77 m)   | 3.78 ft. (1.15 m)   |5.03 ft. (1.53 m)   |5.29 ft. (1.61 m) |
 | 110°        | 1.05 ft. (0.32 m)| 2.10 ft. (0.64 m)   | 3.15 ft. (0.96 m)   |4.2 ft. (1.28 m)    |4.41 ft. (1.31 m) |
 | 120°        | 0.87 ft. (0.26 m)| 1.73 ft. (0.52 m)   | 2.60 ft. (0.79 m)   |3.46 ft. (1.05 m)   |3.64 ft. (1.10 m) |
-|             |               |                  |                  |        |                    |                  |
+             
 
 The distance between the content camera and the wall the whiteboard is mounted on depends on the HFoV for that model of camera, which varies. Install cameras with a larger HFoV (120 degrees for example) closer to the wall, and cameras with a narrower HFoV farther away from the wall. Check the HFoV before you start to install the chosen camera.
 
@@ -83,12 +83,12 @@ Or, refer to the Microsoft Teams devices marketplace for supported Content Camer
 
 Once the camera is installed in the room, set it up on that room's Microsoft Teams Rooms console:
 
-1. Select **Settings** ![Settings icon](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png),  log in as Admin, and select **Device Settings**.
+1. Select **Settings** ![Settings icon.](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png),  log in as Admin, and select **Device Settings**.
 2. In the **Camera Defaults** section, select the content camera and make sure that the **Content enhancements** option is selected.
 3. (Optional) If the camera was installed upside down because the camera was mounted from the ceiling, check the **Rotate content camera 180°** option.
 4. Select **Save and exit**.
 
-![Content camera setup](../media/content-camera.png)
+![Content camera setup.](../media/content-camera.png)
 
 You can also adjust these settings remotely using an [XML configuration file](xml-config-file.md).
 

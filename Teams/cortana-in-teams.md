@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: akshbhat
 search.appverid: MET150
 description: Learn how to use Cortana voice assistance with Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: 
 - Teams-upgrade-guidance
 f1.keywords:
@@ -84,6 +84,8 @@ Individual users can try Cortana voice assistance in different devices:
 - Say "Cortana" on Microsoft Teams displays devices.
 
 You can control whether Cortana in Teams is enabled for your device by using a setting in the device.
+
+![shows the progression of mobile windows when you enable Cortana.](media/cortana-mobile-sequence.png)
 
 ### Microsoft Teams Rooms on Windows
 

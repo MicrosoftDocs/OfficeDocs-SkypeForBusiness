@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
-description: "Summary: Configure test user accounts and watcher node settings for Skype for Business Server synthetic transactions."
+description: "Configure test user accounts and watcher node settings for Skype for Business Server synthetic transactions."
 ---
 
-# Configure watcher node test users and settings
+# Skype for Business Server: Configure watcher node test users and settings
  
 **Summary:** Configure test user accounts and watcher node settings for Skype for Business Server synthetic transactions.
   
@@ -30,7 +30,7 @@ After configuring the computer that will act as a watcher node, you must:
 
 Test accounts do not need to represent actual people, but they must be valid Active Directory accounts. In addition, these accounts must be enabled for Skype for Business Server, they must have valid SIP addresses, and they should be enabled for Enterprise Voice (to use the Test-CsPstnPeerToPeerCall synthetic transaction). 
   
-If you are using the TrustedServer authentication method, all you need to do is to make sure that these accounts exist and configure them as noted. You should assign at least three test users for each pool that you want to test. If you are using the Negotiate authentication method, you must also use the Set-CsTestUserCredential cmdlet and the Skype for Business Server Management Shell to enable these test accounts to work with the synthetic transactions. Do this by running a command similar to the following (these commands assume that the three Active Directory user accounts have been created and that these accounts are enabled for Skype for Business Server):
+If you are using the TrustedServer authentication method, all you need to do is to make sure that these accounts exist and configure them as noted. Assign at least three test users for each pool that you want to test. If you are using the Negotiate authentication method, you must also use the Set-CsTestUserCredential cmdlet and the Skype for Business Server Management Shell to enable these test accounts to work with the synthetic transactions. Do this by running a command similar to the following (these commands assume that the three Active Directory user accounts have been created and that these accounts are enabled for Skype for Business Server):
   
 ```PowerShell
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
@@ -38,7 +38,7 @@ Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "li
 Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "litwareinc\watcher3" -Password "P@ssw0rd"
 ```
 
-You must include not only the SIP address, but also the user name and password. If you do not include the password, the Set-CsTestUserCredential cmdlet will prompt you to enter that information. The user name can be specified by using the domain name\user name format shown in the preceding code block.
+Include not only the SIP address, but also the user name and password. If you do not include the password, the Set-CsTestUserCredential cmdlet will prompt you to enter that information. The user name can be specified by using the domain name\user name format shown in the preceding code block.
   
 To verify that the test user credentials were created, run these commands from the Skype for Business Server Management Shell:
   
@@ -56,7 +56,7 @@ Information similar to this will be returned for each user:
    
 ### Configure a Basic Watcher Node with the Default Synthetic Transactions
 
-After the test users have been created, you can create a watcher node by using a command similar to this:
+After the test users have been created, you can create a watcher node by using a command similar to this one:
   
 ```PowerShell
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"}
@@ -72,7 +72,7 @@ New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.l
 
 ### Configuring Extended Tests
 
-If you want to enable the PSTN test, which verifies connectivity with the public switched telephone network, you need to do some additional configuration when setting up the watcher node. First, you must associate your test users with the PSTN test type by running a command similar to this from the Skype for Business Server Management Shell:
+If you want to enable the PSTN test, which verifies connectivity with the public switched telephone network, you need to do some more configuration when setting up the watcher node. First, you must associate your test users with the PSTN test type by running a command similar to this one from the Skype for Business Server Management Shell:
   
 ```PowerShell
 $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"  -Name "Contoso Provider Test" -TestType PSTN
@@ -153,11 +153,11 @@ Multiple tests can be added by separating the test names by using commas. For ex
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage","DataConference","UnifiedContactStore"}
 ```
 
-An error will occur if one or more of these tests (for example, DataConference) has already been enabled on the watcher node. In this case, you will receive an error message similar to the following:
+An error will occur if one or more of these tests (for example, DataConference) has already been enabled on the watcher node. In this case, you will receive an error message similar to the following message:
   
 Set-CsWatcherNodeConfiguration : There is a duplicate key sequence 'DataConference' for the 'urn:schema:Microsoft.Rtc.Management.Settings.WatcherNode.2010:TestName' key or unique identity constraint.
   
-When this error occurs, no changes will be applied. The command should be re-run with the duplicate test removed.
+When this error occurs, no changes will be applied. The command should be rerun with the duplicate test removed.
   
 To remove a synthetic transaction from a watcher node, use the Remove method. For example, this command removes the ABWQ test from a watcher node:
   
@@ -165,7 +165,7 @@ To remove a synthetic transaction from a watcher node, use the Remove method. Fo
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Remove="ABWQ"}
 ```
 
-You can use the Replace method to replace all the currently-enabled tests with one or more new tests. For example, if you want a watcher node only to run the IM test, you can configure that by using this command:
+You can use the Replace method to replace all the currently enabled tests with one or more new tests. For example, if you want a watcher node only to run the IM test, you can configure that by using this command:
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Replace="IM"}
@@ -175,13 +175,13 @@ When you run this command, all synthetic transactions on the specified watcher n
   
 ### Viewing and Testing the Watcher Node Configuration
 
-If you want to view the tests that have been assigned to a watcher node, use a command similar to this:
+If you want to view the tests that have been assigned to a watcher node, use a command similar to this one:
   
 ```PowerShell
 Get-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Object -ExpandProperty Tests
 ```
 
-This command will return information similar to this, depending on the synthetic transactions that have been assigned to the node:
+This command will return information similar to the following, depending on the synthetic transactions that have been assigned to the node:
   
 Registration IM GroupIM P2PAV AvConference Presence PersistentChatMessage DataConference
 > [!TIP]
@@ -301,7 +301,7 @@ $cred2 = Get-Credential "contoso\testUser2"
 Test-CsPersistentChatMessage -TargetFqdn pool0.contoso.com -SenderSipAddress sip:testUser1@contoso.com -SenderCredential $cred1 -ReceiverSipAddress sip:testUser2@contoso.com -ReceiverCredential $cred2 -TestUser1SipAddress sip:testUser1@contoso.com -TestUser2SipAddress sip:testUser2@contoso.com -Setup $true
 ```
 
-You must run this setup task must be run from inside the enterprise:
+Run this setup task from inside the enterprise:
   
 - If run from a non-server machine, the user who executes the cmdlet must be a member of the CsPersistentChatAdministrators role for Role-Based Access Control (RBAC).
     
@@ -337,7 +337,7 @@ After these conditions are met, you can run the following Windows PowerShell cmd
 Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:testUser1@contoso.com -RegistrarPort 5061 -Authentication TrustedServer -Setup
 ```
 
-It may take some time for the test user contact lists to migrate to Exchange. To monitor the migration progress, the same command-line can be run without the -Setup flag:
+It may take some time for the test user contact lists to migrate to Exchange. To monitor the migration progress, the same command line can be run without the -Setup flag:
   
 ```PowerShell
 Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:testUser1@contoso.com -RegistrarPort 5061 -Authentication TrustedServer
@@ -364,16 +364,16 @@ In this example, a Skype for Business Server rule will need to exist to route me
 
 The Video Interop Server (VIS) synthetic transaction requires that you download and install the synthetic transaction support files ([VISSTSupportPackage.msi](https://www.microsoft.com/download/details.aspx?id=46921)). 
   
-To install VISSTSupportPackage.msi ensure the dependencies (under System Requirements) for the msi are already installed. Run VISSTSupportPackage.msi to do a simple installation. The .msi installs all the files in the following path: "%ProgramFiles%\VIS Synthetic Transaction Support Package".
+To install VISSTSupportPackage.msi, ensure the dependencies (under System Requirements) for the msi are already installed. Run VISSTSupportPackage.msi to do a simple installation. The .msi installs all the files in the following path: "%ProgramFiles%\VIS Synthetic Transaction Support Package".
   
-For more details on how to run the VIS Synthetic Transaction refer to the documentation for the [Test-CsP2PVideoInteropServerSipTrunkAV](/powershell/module/skype/Test-CsP2PVideoInteropServerSipTrunkAV) cmdlet.
+For more information on how to run the VIS Synthetic Transaction refer to the documentation for the [Test-CsP2PVideoInteropServerSipTrunkAV](/powershell/module/skype/Test-CsP2PVideoInteropServerSipTrunkAV) cmdlet.
   
 ## Changing the Run Frequency for Synthetic Transactions
 <a name="special_synthetictrans"> </a>
 
 By default, synthetic transactions will run with the configured users every 15 minutes. Synthetic transactions are run sequentially within a set of users to avoid two synthetic transactions from conflicting with each other. A longer interval is needed to provide time for all synthetic transactions to complete.
   
-If it is desirable to run synthetic transactions more frequently, the number of synthetic transactions run with a given set of users should be decreased so that the tests can complete in the desired time range with some buffer for occasional network delays. If running more synthetic transactions is desirable, create more user sets to run additional synthetic transactions.
+If it is desirable to run synthetic transactions more frequently, the number of synthetic transactions run with a given set of users should be decreased so that the tests can complete in the desired time range with some buffer for occasional network delays. If running more synthetic transactions is desirable, create more user sets to run more synthetic transactions.
   
 To change the frequency at which synthetic transactions run, follow these steps:
   
@@ -381,7 +381,7 @@ To change the frequency at which synthetic transactions run, follow these steps:
     
 2. In the Rules section, find the rule with the name "Main Synthetic Transaction Runner Performance Collection Rule"
     
-3. Right click the rule, and select Overrides, select Override the Rule, and then select "For All objects of class: Pool Watcher"
+3. Right-click the rule, and select Overrides, select Override the Rule, and then select "For All objects of class: Pool Watcher"
     
 4. In the Override Properties window, select Parameter Name "Frequency", and set the Override Value to the desired one.
     
@@ -390,7 +390,7 @@ To change the frequency at which synthetic transactions run, follow these steps:
 ## Using Rich Logging for Synthetic Transactions
 <a name="special_synthetictrans"> </a>
 
-Synthetic transactions prove extremely useful in helping to identify issues with the system. For example, the Test-CsRegistration cmdlet could alert administrators to the fact that users were having difficulty registering with Skype for Business Server. However, additional details may be needed to determine the actual cause of a failure.
+Synthetic transactions are useful in helping to identify issues with the system. For example, the Test-CsRegistration cmdlet could alert administrators to the fact that users were having difficulty registering with Skype for Business Server. However, more details may be needed to determine the actual cause of a failure.
   
 For this reason, synthetic transactions provide rich logging. With rich logging, for each activity that a synthetic transaction undertakes, the following information is recorded:
   

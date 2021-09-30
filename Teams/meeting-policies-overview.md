@@ -1,5 +1,5 @@
 ---
-title: Manage meeting policies 
+title: Manage meeting policies in Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua, shalenc
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -20,7 +20,7 @@ ms.custom:
   - seo-marvel-apr2020
 description: Learn to manage meeting policy settings in Teams and use them to control the features available to meeting participants for meetings scheduled by users.
 ---
-# Manage meeting policies in Teams
+# Manage meeting policies in Microsoft Teams
 
 <a name="bkautomatically-admit-people"> </a>
 
@@ -94,12 +94,12 @@ When you select an existing policy on the **Meeting policies** page or select **
 
 - [General](meeting-policies-in-teams-general.md)
 - [Audio & video](meeting-policies-audio-and-video.md)
+- [Recording & transcription](meetings-policies-recording-and-transcription.md)
 - [Content sharing](meeting-policies-content-sharing.md)
 - [Participants & guests](meeting-policies-participants-and-guests.md)
-
 
 ## Related topics
 
 - [Teams PowerShell overview](teams-powershell-overview.md)
-- [Assign policies to your users in Teams](assign-policies.md)
+- [Assign policies to your users in Teams](policy-assignment-overview.md)
 - [Remove the RestrictedAnonymousAccess Teams meeting policy from users](meeting-policies-restricted-anonymous-access.md)

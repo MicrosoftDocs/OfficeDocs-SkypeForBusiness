@@ -10,7 +10,7 @@ audience: admin
 description: Use this PowerShell script to export a list of managers and their directs for your organization, in preparation for creating a team for each manager with their directs as team members.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration

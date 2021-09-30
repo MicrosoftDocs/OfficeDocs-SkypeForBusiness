@@ -12,7 +12,7 @@ ms.collection:
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
-localization_priority: None
+ms.localizationpriority: null
 f1.keywords:
 - CSH
 ms.custom: 
@@ -22,7 +22,7 @@ hideEdit: true
 description: "Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui intègre toutes les personnes, contenus et outils dont votre équipe a besoin pour être plus impliquée et efficace. "
 ---
 
-# EN 301 549 Déclaration de conformité en matière d'accessibilité
+#  EN 301 549 Déclaration de conformité en matière d'accessibilité
 
 
 ### Section 1 Champ d’application
@@ -752,7 +752,6 @@ Cette section ne s’applique pas à Skype Entreprise 2016.
 
 Cette section ne s’applique pas à Skype Entreprise2016.
 
-## 
 
 © 2017 Microsoft Corporation. Tous droits réservés. Les noms des
 sociétés et des produits mentionnés dans le présent document peuvent

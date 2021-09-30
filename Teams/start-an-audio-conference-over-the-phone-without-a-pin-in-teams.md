@@ -15,7 +15,7 @@ ms.collection:
 audience: Admin
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 
@@ -37,7 +37,7 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
   
 ## Enable or disable anonymous callers from joining a meeting
 
-![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+![An icon showing the Microsoft Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
 1. In the left navigation, click **Users**. 
 

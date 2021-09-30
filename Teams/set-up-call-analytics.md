@@ -14,7 +14,7 @@ search.appverid: MET150
 audience: Admin
 appliesto: 
     - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 
@@ -48,7 +48,7 @@ You can add building, site, and tenant information to per-user call analytics by
 
 If you're a Teams or Skype for Business admin, you can use an existing tenant and building data file from the Teams or Skype for Business Call Quality Dashboard (CQD). First, you download the file from CQD, then upload it to call analytics. 
 
-- To download an existing data file, go to **Microsoft Teams admin center** > **Call Quality Dashboard** > **Upload now**. In the **My uploads** list, click **Download** next to the file you want. 
+- To download an existing data file, go to **Microsoft Teams admin center** > **Analytics & reports** > **Call Quality Dashboard** > **Upload now**. In the **My uploads** list, click **Download** next to the file you want. 
 
 - To upload the new file, go to **Microsoft Teams admin center** > **Locations**, and then select **Upload location data** or **Replace location data**.
   

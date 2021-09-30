@@ -15,7 +15,7 @@ ms.collection:
 audience: Admin
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 
@@ -144,7 +144,7 @@ You can assign an emergency call routing policy  to a Teams Direct Routing user 
 
 - If an emergency call routing policy is associated with the site, then the site policy is used to configure emergency calling.
 
-- If there is no emergency call routing policy associated with the site, or if the client is connected at an undefined site, then the emergency call routing policy associated with the user account is used to configure emergency calling. 
+- If there is no emergency call routing policy associated with the site, if the client is connected at an undefined site, or if the dialed number does not match any of the emergency numbers defined in the emergency call routing policy associated with the site, then the emergency call routing policy associated with the user account is used to configure emergency calling. 
 
 - If the Teams client is unable to obtain an emergency call routing policy, then the user is not enabled for emergency calling.
 

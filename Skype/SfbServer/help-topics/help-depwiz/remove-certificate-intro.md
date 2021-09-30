@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertRemoveIntro
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ba7a948c-304d-4dce-ac97-7fdfcccd09d1
 description: "On the Remove Certificate introduction page, read the information carefully about the implications of removing a certificate. After you have read this information, click Next to continue."
 ---

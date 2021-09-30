@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams resources for Education admins
+title: Get started with Microsoft Teams for remote learning
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: karsmith, lakuan
 description: Remote learning startup guidance for Microsoft Teams for EDU.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -121,7 +121,7 @@ We'll step through various options to help you choose the right deployment path 
 
 #### Automatic team creation using SDS
 
-Automating team creation saves both IT admins and educators time. It ensures that educators have all their class teams created and ready to set up upon sign in. [School Data Sync (SDS)](/SchoolDataSync) is a free Office 365 Education tool that reads the data from an educational institution's system of record, for example a Student Information System (SIS) or Learning Management system (LMS). SDS uses the data to enrich Office 365 setup in many ways, including creating class teams in bulk and staying in sync with your information system to keep your instructor and student membership updated as enrollment changes. SDS can import data from any system of record and has built-in connectors to many of the world’s existing [SIS vendors](/schooldatasync/what-sis-and-mis-vendors-does-school-data-sync-support). We highly recommend using SDS, as it provides the following benefits.  
+Automating team creation saves both IT admins and educators time. It ensures that educators have all their class teams created and ready to set up upon sign in. [School Data Sync (SDS)](/SchoolDataSync) is a free Office 365 Education tool that reads the data from an educational institution's system of record, for example a Student Information System (SIS) or Learning Management system (LMS). SDS uses the data to enrich Office 365 setup in many ways, including creating class teams in bulk and staying in sync with your information system to keep your instructor and student membership updated as enrollment changes. SDS can import data from any system of record and has built-in connectors to many of the world’s existing [SIS vendors](/schooldatasync/frequently-asked-questions#what-sismis-vendors-does-school-data-sync-support). We highly recommend using SDS, as it provides the following benefits.  
 
 ###### Benefits
 
@@ -152,7 +152,7 @@ Educator-led team creation is a great deployment option if you want to make it e
 
 This hybrid approach allows you to either use SDS to create groups for each class (recommended) or use [Graph API](/graph/api/educationroot-post-classes) to create them on your own. After class groups are prepared, educators can convert their groups into teams by using the **Suggested classes** icon.
 
-:::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="Screenshot showing Suggested classes icon":::
+:::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="Screenshot showing Suggested classes icon.":::
 
 ##### Benefits
 

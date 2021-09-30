@@ -15,7 +15,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business 
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -51,8 +51,8 @@ Go to [Country and region availability for Audio Conferencing and Calling Plans]
     
 3. We also recommend that you assign Communications Credits licenses (they don’t cost anything) to the same people you assigned licenses to in the previous step. To learn how to set up Communications Credits, see [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization).
     
-> [!NOTE]
-> You can also set up [pay-per-minute Audio Conferencing](/microsoftteams/audio-conferencing-pay-per-minute).
+   > [!NOTE]
+   > You can also set up [pay-per-minute Audio Conferencing](/microsoftteams/audio-conferencing-pay-per-minute).
 
 ## Step 3: Get service numbers for your conferencing bridges
 <a name="__top"> </a>
@@ -72,7 +72,7 @@ Once you get your toll and/or toll-free phone numbers for your conferencing brid
 
 To assign a new phone number to your audio conferencing bridge:
 
-![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center:**
+![An icon showing the Skype for Business logo.](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center:**
 
  1. Go to the **Microsoft 365 admin center** > **Admin centers** > **Teams** > **Legacy portal**.
  2. Select **Voice** > **Phone numbers**.
@@ -85,12 +85,12 @@ For more details, see [Change the phone numbers on your audio conferencing bridg
 
 Next, you want to [Set auto attendant languages for Audio Conferencing](../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md) that the conferencing auto attendant uses to greet callers when they dial in to a phone number for Audio Conferencing. 
 
-![An icon showing the Microsoft Teams logo](../images/teams-logo-30x30.png) **Using the Microsoft Teams admin center**:
+![An icon showing the Microsoft Teams logo.](../images/teams-logo-30x30.png) **Using the Microsoft Teams admin center**:
 
-1. From the Dashboard, go to **Meetings** > **Conference bridges**.
+1. From Home, go to **Meetings** > **Conference bridges**.
 2. Select the conferencing bridge phone number, click **Edit**, and then choose the default language.
 
-![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**:
+![An icon showing the Skype for Business logo.](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**:
 
 1. Go to the admin center > **Admin centers** > **Teams** > **Legacy portal**.
 2. Select **Audio conferencing** > **Microsoft bridge**. 
@@ -101,14 +101,14 @@ Next, you want to [Set auto attendant languages for Audio Conferencing](../audio
     
 After setting up your conferencing bridge, verify that the default settings such as entry/exit notifications and PIN length are the ones you want to use; if they're not, you can change them. 
 
-![An icon showing the Microsoft Teams logo](../images/teams-logo-30x30.png) **Using the Microsoft Teams admin center**:
+![An icon showing the Microsoft Teams logo.](../images/teams-logo-30x30.png) **Using the Microsoft Teams admin center**:
 
-1. From the Dashboard, go to **Meetings** > **Conference bridges**.
+1. From Home, go to **Meetings** > **Conference bridges**.
 2. Select **Bridge settings**. This will open the **Bridge settings** pane. 
 
 For more details, see [Change the settings for an Audio Conferencing bridge](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge).
 
-![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center:**
+![An icon showing the Skype for Business logo.](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center:**
 
 1. Go to the **Microsoft 365 admin center** > **Admin centers** > **Teams** > **Legacy portal**.
 2. Select **Audio conferencing** > **Microsoft bridge settings**. This will open the **Microsoft bridge settings** page. 
@@ -121,12 +121,12 @@ After you have created an Audio Conferencing bridge, you need to set the toll an
 
 You will need to do this for all of the people in your organization who lead or schedule meetings. 
 
-![An icon showing the Microsoft Teams logo](../images/teams-logo-30x30.png) **Using the Microsoft Teams admin center**:
+![An icon showing the Microsoft Teams logo.](../images/teams-logo-30x30.png) **Using the Microsoft Teams admin center**:
 
-1. From the Dashboard, click **Users**, select the user from the list, and select **Edit**.
+1. From Home, click **Users**, select the user from the list, and select **Edit**.
 2. Select **Edit** next to **Audio Conferencing**, and then in the **Audio Conferencing** pane, choose a number in the **Toll number** and **Toll-free** number lists.
 
-![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center:**
+![An icon showing the Skype for Business logo.](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center:**
 
 1. Go to the **Microsoft 365 admin center** > **Teams** > **Legacy portal**.
 2. Select **Audio conferencing** > **Users**, and then select the user from the list and click **Edit**. 
