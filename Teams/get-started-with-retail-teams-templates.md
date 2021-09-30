@@ -129,5 +129,5 @@ To use these templates, change the 'template@odata.bind' property in the request
 ## Related articles
 
 - [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md)
-- [Create a team from a template in the Teams app](https://support.microsoft.com/en-us/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)
+- [Create a team from a template](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
 - [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md)

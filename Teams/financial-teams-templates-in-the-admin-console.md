@@ -68,3 +68,9 @@ Centralize collaboration for your bank branch employees across huddles, customer
 
 > [!NOTE]
 > For additional team templates that apply to financial services organizations, see [Team templates built in Microsoft Graph for small and medium businesses](smb-templates.md).
+
+## Related articles
+
+- [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md)
+- [Create a team from a template](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
+- [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md)
