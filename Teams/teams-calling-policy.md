@@ -58,6 +58,10 @@ Here's the settings that you can configure for calling policies.
 
 This setting controls all calling capabilities in Teams. Turn this off to turn off all calling functionality in Teams.
 
+### Cloud recording for calling
+
+This settings controls whether cloud recording is allowed in a user's 1:1 call.
+
 ### Call forwarding and simultaneous ringing to people in your organization
 
 This setting controls whether incoming calls can be forwarded to other users or can ring another person at the same time. 
