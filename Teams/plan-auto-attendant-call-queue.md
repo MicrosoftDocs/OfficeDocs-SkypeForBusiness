@@ -70,7 +70,7 @@ To configure auto attendants and call queues, you need the following resources:
  - The service number may be a toll or toll-free number
 
 > [!NOTE]
-> Resource accounts are disabled for sign in and must remain so. Therefore, it is expected that Chat and Presence is not avaialble for these accounts.<br>
+> Resource accounts are disabled for sign in and must remain so. Chat and presence are not avaialble for these accounts.
 
 Agents who receive calls from the call queues must be Enterprise Voice enabled online or on-premise users. In addition, if the call queues are using Direct Routing numbers, agents who need to conference or transfer calls also require:
 
