@@ -240,15 +240,15 @@ Package Name|KB Number|Release Date|
 
 ### Lync Phone Edition clients on Download Center
 
-Package Name|Release Date|
-|:--- |:--- |:--- |
+| Package Name | Release Date|
+|:--- |:--- |
 |[Lync Phone Edition for HP 4110 and HP 4120](https://www.microsoft.com/download/en/details.aspx?id=28158) | April 2017 |
 |[Lync Phone Edition for Polycom CX500, Polycom CX600 and Polycom CX3000](https://www.microsoft.com/download/en/details.aspx?id=23866) | April 2017 |
 |[Lync Phone Edition for Polycom CX700 and LG-Nortel IP Phone 8540](https://www.microsoft.com/download/en/details.aspx?id=21644) | December 2015 |
 
 ### Lync Basic 2013 Software
 
-Package Name|Release Date|
+|Package Name|Release Date| |
 |:--- |:--- |:--- |
 |[Lync Basic 2013 (32-bit)](https://www.microsoft.com/download/details.aspx?id=35451) | October 2012 |
 |[Lync Basic 2013 (64-bit)](https://www.microsoft.com/download/details.aspx?id=35450) | October 2012 |
