@@ -24,11 +24,15 @@ description: "Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui 
 
 # Microsoft Teams: EN 301 549 Déclaration de conformité en matière d'accessibilité
 
-Date : 2 octobre 2018
+Date : 23 juin 2021
 
 Nom du produit : Microsoft Teams
 
-Description du produit : Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui intègre toutes les personnes, contenus et outils dont votre équipe a besoin pour être plus impliquée et efficace.
+Description du produit : Microsoft Teams, Teams for Work et Teams for Education sont des plateformes qui permettent à toutes les personnes de chatter, de créer des canaux, de suivre les activités, de partager des calendriers et de passer des appels/ faire des réunions, ainsi que d'utiliser une console d'administrateur.
+
+Cette déclaration de conformité ne couvre pas les extensions de fonctionnalités qui peuvent être installées et déployées au sein de la plateforme Teams (par exemple, les applications Office 365 telles que Word, PowerPoint, Excel, OneNote, les listes de fichiers de SharePoint, et autres), dont beaucoup font l’objet de déclarations de conformité distinctes dans les rapports de conformité des produits Microsoft.
+
+Remarque : Teams ne prend pas en charge tous les paramètres de Windows, mais prend en charge un zoom intégré jusqu'à 200 %.
 
 Plate-forme : Win32
 
@@ -37,7 +41,6 @@ Version du produit : 1.2.00.6412
 Site web en matière d'accessibilité : [Microsoft Accessibility](https://www.microsoft.com/accessibility/)
 
 Pour obtenir de l'aide sur ce rapport, veuillez [nous envoyer un email](mailto:edad@microsoft.com?subject=Conformance%20Statement).
-
 
 ## Section 1 Champ d'application
 
@@ -61,7 +64,7 @@ La présente attestation de conformité à la norme [EN 301 549 v2.1.2](http://w
 |**5.4 Préservation des informations d'accessibilité pendant la conversion**<br/> Dans le cas où la TIC convertit des informations ou une communication, elle préserve toutes les informations non exclusives documentées qui sont fournies pour l'accessibilité dans la mesure où ces informations peuvent être contenues dans le format de destination ou prises en charge par ce dernier.<br/> |Non applicable <br/> | |
 |**5.5.1 Mode de fonctionnement**<br/> Dans le cas où la TIC présente des éléments actionnables qui doivent être actionnés en les prenant, en les pinçant ou en exerçant une torsion du poignet, un autre mode de fonctionnement accessible qui ne nécessite pas ces gestes est proposé.<br/> |Non applicable <br/> | |
 |**5.5.2 Discernabilité des éléments actionnables**<br/> Dans le cas où la TIC a des éléments actionnables, elle propose un moyen de discerner chaque élément actionnable sans que la vision ne soit nécessaire et sans accomplir le geste associé à cet élément actionnable.<br/> |Non applicable <br/> | |
-|**5.6.1 Statut tactile ou auditif**<br/> DDans le cas où la TIC est dotée d'une commande de verrouillage et où cette commande est présentée visuellement à l'utilisateur, la TIC propose au moins un mode de fonctionnement avec lequel il est possible de déterminer le statut de la commande par le son ou par le toucher sans actionner la commande.<br/> |Non applicable <br/> | |
+|**5.6.1 Statut tactile ou auditif**<br/> Dans le cas où la TIC est dotée d'une commande de verrouillage et où cette commande est présentée visuellement à l'utilisateur, la TIC propose au moins un mode de fonctionnement avec lequel il est possible de déterminer le statut de la commande par le son ou par le toucher sans actionner la commande.<br/> |Non applicable <br/> | |
 |**5.6.2 Statut visuel**<br/> Dans le cas où la TIC est dotée d'une commande de verrouillage et où cette commande n'est pas présentée visuellement à l'utilisateur, la TIC propose au moins un mode de fonctionnement avec lequel il est possible de déterminer visuellement le statut de la commande lorsque la commande est présentée.<br/> |Non applicable <br/> | |
 |**5.7 Répétition automatique des touches**<br/> Dans le cas où la TIC est dotée de la fonction répétition automatique des touches et où cette fonction ne peut être désactivée :<br/> a) le délai avant la répétition automatique est réglable jusqu'à au moins 2 secondes ; et<br/> b) la vitesse de répétition peut être réduite jusqu'à un caractère par intervalle de 2 secondes.<br/>|Non applicable <br/> | |
 |**5.8 Acceptation des doubles frappes sur le clavier**<br/> Dans le cas où un clavier est fourni, le délai, après une frappe sur le clavier, pendant lequel une autre frappe ne sera pas acceptée si elle est identique à la frappe précédente est réglable jusqu'à au moins 0,5 seconde.<br/> |Non applicable <br/> | |
