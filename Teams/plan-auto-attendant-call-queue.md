@@ -124,7 +124,7 @@ If you have an existing auto attendant and call queue infrastructure and you're 
 *Conference mode* is an option in call queues that significantly reduces the amount of time it takes to connect Teams VOIP calls and PSTN calls to an agent. For conference mode to work, agents in the call queue must use one of the following clients:
 
 - The latest version of the Microsoft Teams desktop client, Android app, or iOS app
-  - Microsoft Teams phone version 1449/1.0.94.2020051601 or later
+  - Microsoft Teams Phone version 1449/1.0.94.2020051601 or later
   
 Set Agents' Teams accounts to Teams-only mode. Agents who don't meet the requirements aren't included in the call routing list.
 
