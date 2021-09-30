@@ -69,6 +69,9 @@ To configure auto attendants and call queues, you need the following resources:
 - At least one [Microsoft service number](getting-service-phone-numbers.md), Operator Connect number, Direct Routing number, or a hybrid number for each resource account that you want to be directly dialable
  - The service number may be a toll or toll-free number
 
+> [!NOTE]
+> Resource accounts are disabled for sign in and must remain so. Therefore, it is expected that Chat and Presence is not avaialble for these accounts.<br>
+
 Agents who receive calls from the call queues must be Enterprise Voice enabled online or on-premise users. In addition, if the call queues are using Direct Routing numbers, agents who need to conference or transfer calls also require:
 
 - An online voice routing policy assigned if the call queue uses transfer mode
