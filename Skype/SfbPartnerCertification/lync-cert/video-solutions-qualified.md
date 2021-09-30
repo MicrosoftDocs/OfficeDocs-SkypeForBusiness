@@ -30,8 +30,6 @@ Microsoft tests and qualifies video teleconference systems (VTCs), multipoint co
 
 *Always check if your Lync version was tested to interoperate with the video systems.*
 
-For more information on which products are currently under test read the *UC Communications Team blog* February 23, 2011 [Choice, innovation, and quality of experience from Lync audio and video device partners](http://choice-innovation-and-quality-of-experience-from-lync-audio-and-video-device-partners.aspx).
-
 Download the [Lync Video Hardware Comparison Tables](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables).
 
 
@@ -385,7 +383,6 @@ Download the [Lync Video Hardware Comparison Tables](/previous-versions/office/l
 
 [Polycom](https://www.polycom.com/solutions/solutions-by-business-uc-environment/solutions-for-microsoft/lync-interoperable-solutions.html)
 
-[Radvision](http://www.radvision.com/Unified-Communications/Gateway/)
 
 * * *
 This program qualifies devices for Windows; for more information on device compatibility with Mac, please read our blog topic: [What devices have been certified for Mac?](/archive/blogs/uc/what-devices-have-been-certified-for-mac)

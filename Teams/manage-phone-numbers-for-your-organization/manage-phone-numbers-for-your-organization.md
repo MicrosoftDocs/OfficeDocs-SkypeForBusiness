@@ -1,9 +1,8 @@
 ---
 title: "Manage phone numbers for Calling Plan"
-author: CarolynRowe
-ms.author: crowe
+author: cazawideh
+ms.author: czawideh
 manager: serdars
-ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: conceptual
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
@@ -51,8 +50,10 @@ If you know what kind of forms you are looking for, use the drop-down to select 
 > - [Austria](phone-number-management-for-austria.md)
 > - [Belgium](phone-number-management-for-belgium.md)
 > - [Canada](phone-number-management-for-canada.md)
+> - [Croatia](phone-number-management-for-croatia.md)
 > - [Czech Republic](phone-number-management-for-czech-republic.md)
 > - [Denmark](phone-number-management-for-denmark.md)
+> - [Estonia](phone-number-management-for-estonia.md)
 > - [Finland](phone-number-management-for-finland.md)
 > - [France](phone-number-management-for-france.md)
 > - [Germany](phone-number-management-for-germany.md)
@@ -60,6 +61,8 @@ If you know what kind of forms you are looking for, use the drop-down to select 
 > - [Ireland](phone-number-management-for-ireland.md)
 > - [Italy](phone-number-management-for-italy.md)
 > - [Japan](phone-number-management-for-japan.md)
+> - [Latvia](phone-number-management-for-latvia.md)
+> - [Lithuania](phone-number-management-for-lithuania.md)
 > - [Luxembourg](phone-number-management-for-luxembourg.md)
 > - [New Zealand](phone-number-management-for-new-zealand.md)
 > - [Norway](phone-number-management-for-norway.md)
@@ -68,6 +71,7 @@ If you know what kind of forms you are looking for, use the drop-down to select 
 > - [Romania](phone-number-management-for-romania.md)
 > - [Singapore](phone-number-management-for-singapore.md)
 > - [Slovakia](phone-number-management-for-slovakia.md)
+> - [Slovenia](phone-number-management-for-slovenia.md)
 > - [Spain](phone-number-management-for-spain.md)
 > - [Sweden](phone-number-management-for-sweden.md)
 > - [Switzerland](phone-number-management-for-switzerland.md)

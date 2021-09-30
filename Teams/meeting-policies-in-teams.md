@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: sonua, shalenc
 audience: admin
 ms.localizationpriority: high
-search.appverid: MET150
+ROBOTS: NOINDEX, NOFOLLOW
 ms.collection: 
   - M365-collaboration
   - m365initiative-meetings

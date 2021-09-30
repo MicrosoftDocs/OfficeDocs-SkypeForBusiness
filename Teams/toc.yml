@@ -328,8 +328,6 @@ items:
       href: manage-teams-overview.md
     - name: Administrator roles
       href: using-admin-roles.md
-    - name: Manage Teams during the transition to the new Microsoft Teams admin center
-      href: manage-teams-skypeforbusiness-admin-center.md
     - name: Manage Teams in the Microsoft Teams admin center
       href: manage-teams-in-modern-portal.md
     - name: Manage Teams settings for your organization
@@ -417,6 +415,8 @@ items:
               href: set-up-call-analytics.md
             - name: Use call analytics to troubleshoot poor call quality
               href: use-call-analytics-to-troubleshoot-poor-call-quality.md
+            - name: Use real-time telemetry to troubleshoot poor meeting quality
+              href: use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md
         - name: Quality of Service (QoS)
           items: 
             - name: Set up QoS in Teams
@@ -769,6 +769,8 @@ items:
       items: 
         - name: Overview
           href: rooms/index.md
+        - name: Meeting room guidance for Teams
+          href: teams-meeting-room-guidance.md
         - name: Microsoft Teams Rooms managed service
           items: 
             - name: Plan management
@@ -1028,6 +1030,8 @@ items:
           href: how-many-phone-numbers-can-you-get.md
         - name: Search for phone numbers for users
           href: search-for-phone-numbers-for-users.md
+        - name: Assign, change, or remove a phone number for a user
+          href: assign-change-or-remove-a-phone-number-for-a-user.md
         - name: See a list of phone numbers in your organization
           href: see-a-list-of-phone-numbers-in-your-organization.md
 
@@ -1038,8 +1042,6 @@ items:
               href: manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
             - name: Getting phone numbers for your users
               href: getting-phone-numbers-for-your-users.md
-            - name: Assign, change, or remove a phone number for a user
-              href: assign-change-or-remove-a-phone-number-for-a-user.md
             - name: Get service phone numbers
               href: getting-service-phone-numbers.md
             - name: Transferring phone numbers
@@ -1127,10 +1129,14 @@ items:
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md
             - name: Phone number management for Canada
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md
+            - name: Phone number management for Croatia
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-croatia.md
             - name: Phone number management for the Czech Republic
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-czech-republic.md
             - name: Phone number management for Denmark
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md
+            - name: Phone number management for Estonia
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-estonia.md
             - name: Phone number management for Finland
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-finland.md
             - name: Phone number management for France
@@ -1145,6 +1151,10 @@ items:
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md
             - name: Phone number management for Japan
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md
+            - name: Phone number management for Latvia
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-latvia.md
+            - name: Phone number management for Lithuania
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-lithuania.md
             - name: Phone number management for Luxembourg
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg.md
             - name: Phone number management for New Zealand
@@ -1161,6 +1171,8 @@ items:
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-singapore.md
             - name: Phone number management for Slovakia
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-slovakia.md
+            - name: Phone number management for Slovenia
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-slovenia.md
             - name: Phone number management for Spain
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md
             - name: Phone number management for the Netherlands
@@ -1570,7 +1582,7 @@ items:
     - name: Teams for Retail
       href: expand-teams-across-your-org/teams-for-retail-landing-page.md
       items:
-        - name: Get started with Retail team templates
+        - name: Use retail team templates
           href: get-started-with-retail-teams-templates.md
     - name: Teams for Government
       href: expand-teams-across-your-org/teams-for-government-landing-page.md
@@ -1641,8 +1653,6 @@ items:
           href: sharepoint-onedrive-interact.md
     - name: Teams devices for Education
       href: devices-for-education.md
-    - name: Meeting room guidance for Teams
-      href: teams-meeting-room-guidance.md
     - name: Supported devices
       items: 
         - name: Manage your devices in Teams

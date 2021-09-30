@@ -145,16 +145,16 @@ For meetings that need the highest-quality video experience, such as CEO board m
 
 This is a per-user policy. This setting controls whether users can customize their video background in a meeting.
 
-Currently, you can only use PowerShell to set this policy. You can edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet, and then assign the policy to users.
+You can use both Teams admin center and PowerShell to set this policy. You can edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet, and then assign the policy to users.
 
-To specify whether users can customize their video background in a meeting, set the **VideoFiltersMode** parameter as follows:
+To specify whether users can customize their video background in a meeting, set the **VideoFiltersMode** parameter (**Select video filters** setting in Teams admin center) as follows:
 
-|Setting value in PowerShell |Behavior  |
-|---------|---------|
-|**NoFilters**     |User can't customize their video background.|
-|**BlurOnly**     |User has the option to blur their video background. |
-|**BlurandDefaultBackgrounds**     |User has the option to blur their video background or choose from the default set of images to use as their background. |
-|**AllFilters**     |Use has the option to blur their video background, choose from the default set of images, or upload custom images to use as their background. |
+|Setting value in PowerShell|Setting value in Teams admin center |Behavior  |
+|---------|---------|---------|
+|**NoFilters** |**No filter**    |User can't customize their video background.|
+|**BlurOnly**     |**Background blur only**|User has the option to blur their video background. |
+|**BlurandDefaultBackgrounds**|**Background blur and default images**     |User has the option to blur their video background or choose from the default set of images to use as their background. |
+|**AllFilters**|**All filters**     |User has the option to blur their video background, choose from the default set of images, or upload custom images to use as their background. |
 
 > [!NOTE]
 > Images uploaded by users aren't screened by Teams. When you use the **AllFilters** setting, you should have internal organization policies to prevent users from uploading offensive or inappropriate images, or images your organization don't have rights to use for Teams meeting backgrounds.
@@ -165,7 +165,7 @@ You can add custom background images to be used per tenant. This feature allows 
 
 1. Sign in to the Teams admin center.
 
-2. Select **Meeting Policies** > **Customize meeting images**.
+2. Select **Meetings** > **Meeting Policies** > **Customize meeting images**.
 
    ![The meeting policies selection with the Customize meeting images button highlighted.](media/custom-background-image-button.png)
 
