@@ -74,9 +74,9 @@ This setting controls whether incoming calls can be forwarded to an external num
 
 This setting enables inbound calls to be sent to voicemail. Valid options are:
 
-- **Enabled** Voicemail is always available for inbound calls.
-- **Disabled**  Voicemail is not available for inbound calls.
-- **User controlled** Users can determine whether they want voicemail to be available.
+- **Enabled:** Voicemail is always available for inbound calls.
+- **Disabled:** Voicemail is not available for inbound calls.
+- **User controlled:** Users can determine whether they want voicemail to be available.
 
 ### Inbound calls can be routed to call groups
 
@@ -94,9 +94,9 @@ Setting this to **On** will send calls through the PSTN and incur charges rather
 
 This setting allows you to enable or disable music on hold when a PSTN caller is placed on hold. It's enabled by default. This setting doesn't apply to call park and boss delegate features. Valid options are:
 
-- **Enabled** Music on hold is always available when a PSTN caller is placed on hold.
-- **Disabled**  Music on hold is not available when a PSTN caller is placed on hold.
-- **User controlled** Users can determine whether they want music on hold to be available.
+- **Enabled:** Music on hold is always available when a PSTN caller is placed on hold.
+- **Disabled:** Music on hold is not available when a PSTN caller is placed on hold.
+- **User controlled:** Users can determine whether they want music on hold to be available.
 
 ### Busy on busy when in a call
 
