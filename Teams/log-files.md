@@ -96,11 +96,11 @@ Debug logs show the following data flows:
 -   Call/conversation
 
 To collect logs for Linux:
-      Keyboard shortcut: Ctrl + Alt + Shift + 1
+      Keyboard shortcut: Ctrl + Alt + Shift + 1  
       The files will be available in ~/Downloads
 
-To collect logs for Browser:
-      Keyboard shortcut: Ctrl + Alt + Shift + 1
+To collect logs for Browser and Windows:
+      Keyboard shortcut: Ctrl + Alt + Shift + 1  
       The files will be available in %userprofile%\Downloads
 
 ## Media logs
@@ -111,8 +111,11 @@ Media logging is turned off by default. To log diagnostic data for Teams meeting
 
 When you send the log files to Microsoft support, please verify the timestamp of the log files to ensure the logs cover the time frame when you reproduced the issue.
 
-To collect logs for Linux:
-The files will be available in ~/.config/Microsoft/Microsoft Teams/media-stack/*.blog and ~/.config/Microsoft/Microsoft Teams/skylib/*.blog.
+To collect logs for Linux:  
+The files will be available in ~/.config/Microsoft/Microsoft Teams/media-stack/\*\.blog and ~/.config/Microsoft/Microsoft Teams/skylib/\*\.blog.
+
+To collect logs for Windows:  
+The files will be available in %userprofile%\Downloads\MSTeams Diagnostics Log\meeting\media-stack\\\*\.blog and %userprofile%\Downloads\MSTeams Diagnostics Log\meeting\skylib\\\*\.blog.  
 
 Here's a list of the log files that are generated and the information they contain.
 
@@ -130,7 +133,11 @@ See the _Collect and enable logging_ section for Windows and Mac instructions. D
 
 To collect logs for Linux:
 Click on the Microsoft Teams icon in your system tray, and select **Get Logs**.
-The files will be available in ~/.config/Microsoft/Microsoft Teams/logs.txt.  
+The files will be available in ~/.config/Microsoft/Microsoft Teams/logs.txt.
+  
+To collect logs for Windows:
+Click on the Microsoft Teams icon in your system tray, and select **Get Logs**.
+The logs.txt file will be opened in Notepad automatically.    
 
 ## Browser trace
 

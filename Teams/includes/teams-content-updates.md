@@ -1,5 +1,41 @@
 <!-- This file is generated automatically each week. Changes made to this file will be overwritten.-->
-
+
+
+
+
+## Week of September 20, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/20/2021 | [View your policy assignments in the Activity log in the Microsoft Teams admin center](/MicrosoftTeams/activity-log) | modified |
+| 9/20/2021 | [Approvals application availability in Teams](/MicrosoftTeams/approval-admin) | modified |
+| 9/20/2021 | [Assign policies to your users in Microsoft Teams](/MicrosoftTeams/assign-policies) | modified |
+| 9/20/2021 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | modified |
+| 9/20/2021 | [Teams for Education Policy Wizard to easily apply policies for safe learning](/MicrosoftTeams/easy-policy-setup-edu) | modified |
+| 9/20/2021 | [Get clients for Microsoft Teams](/MicrosoftTeams/get-clients) | modified |
+| 9/20/2021 | [Guest access in Microsoft Teams](/MicrosoftTeams/guest-access) | modified |
+| 9/20/2021 | [Use log files in troubleshooting Microsoft Teams](/MicrosoftTeams/log-files) | modified |
+| 9/20/2021 | [Migrate from Slack to Microsoft Teams](/MicrosoftTeams/migrate-slack-to-teams) | modified |
+| 9/20/2021 | [Plan for lifecycle management](/MicrosoftTeams/plan-teams-lifecycle) | modified |
+| 9/20/2021 | [Prepare your organization's network for Teams](/MicrosoftTeams/prepare-network) | modified |
+| 9/20/2021 | [Set up Audio Conferencing for Microsoft Teams](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | modified |
+| 9/20/2021 | [Set up for webinars in Microsoft Teams](/MicrosoftTeams/set-up-webinars) | modified |
+| 9/20/2021 | [Microsoft Teams PowerShell Overview](/MicrosoftTeams/teams-powershell-overview) | modified |
+| 9/20/2021 | [Use OneDrive for Business and SharePoint for meeting recordings](/MicrosoftTeams/tmr-meeting-recording-change) | modified |
+| 9/20/2021 | [Microsoft Teams Rooms](/MicrosoftTeams/rooms/index) | modified |
+| 9/20/2021 | [Microsoft Teams Rooms requirements](/MicrosoftTeams/rooms/requirements) | modified |
+| 9/21/2021 | [Admin set-up for the EDU Microsoft Parents app](/MicrosoftTeams/edu-parents-app) | added |
+| 9/21/2021 | [Teams: Manage meeting policies](/MicrosoftTeams/meeting-policies-in-teams) | modified |
+| 9/22/2021 | [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan) | modified |
+| 9/22/2021 | [Use log files in troubleshooting Microsoft Teams](/MicrosoftTeams/log-files) | modified |
+| 9/22/2021 | [Manage meeting policies for audio and video](/MicrosoftTeams/meeting-policies-audio-and-video) | modified |
+| 9/22/2021 | [Set up Cloud Voicemail](/MicrosoftTeams/set-up-phone-system-voicemail) | modified |
+| 9/23/2021 | [Get service phone numbers for Calling Plans](/MicrosoftTeams/getting-service-phone-numbers) | modified |
+| 9/23/2021 | [Manage Teams transitioning to the new Teams admin center](/MicrosoftTeams/manage-teams-skypeforbusiness-admin-center) | modified |
+| 9/23/2021 | [Search for telephone numbers for users](/MicrosoftTeams/search-for-phone-numbers-for-users) | modified |
+| 9/23/2021 | [Sensitivity labels for Microsoft Teams](/MicrosoftTeams/sensitivity-labels) | modified |
+| 9/24/2021 | [Microsoft Teams PowerShell Release Notes](/MicrosoftTeams/teams-powershell-release-notes) | modified |
 
 
 ## Week of September 13, 2021
