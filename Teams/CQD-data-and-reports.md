@@ -33,7 +33,7 @@ Microsoft Call Quality Dashboard (CQD) uses a near-real-time (NRT) data feed. Ca
 
 You can access CQD data by several different avenues. Pick the one that best meets your needs:
 
-|  |  |
+|&nbsp;|&nbsp;|
 |---------|---------|
 |Teams admin center [(https://admin.teams.microsoft.com)](https://admin.teams.microsoft.com)    | CQD data is included on the **Users** page in the Teams admin center, showing the most common data you need in an easy-to-read format. You can't customize CQD data that you find under **Users**.  |
 |CQD portal [(https://cqd.teams.microsoft.com)](https://cqd.teams.microsoft.com)     | Robust summary and detailed reports that meet most needs, with drill-through filtering. You can also customize reports in the CQD portal. <br><br>Get two [CQD report templates](#import-the-cqd-report-templates) to help you analyze data in the CQD portal.       |
