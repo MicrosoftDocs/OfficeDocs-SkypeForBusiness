@@ -23,7 +23,7 @@ appliesto:
 ---
 
 # Teams devices for shared spaces feature comparison between Windows and Android 
-This document compares the features of Teams devices between Windows and Android versions. These features and specifications are current as of September, 2021.
+This document compares the features of Teams devices between Windows and Android versions. These features and specifications are current as of September 2021.
 
 **Table key:** 
 
