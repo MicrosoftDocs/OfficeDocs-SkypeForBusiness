@@ -134,7 +134,7 @@ This document compares the features of Teams devices between Windows and Android
 ||DSP (digital signal processor) audio devices |●  |◔ |
 ||IP audio devices |●  |◔ |
 ||Audio-video partner peripherals |● |Aver, EPOS, Biamp, Bose, Huddly, Jabra, Lenovo, Logitech, Nureva, Poly, QSC, Shure, Sennheiser, Yamaha, Yealink [(details)](/microsoftteams/rooms/requirements) |
-||USB content cameras |Logitech, Huddy, Crestron, Yealink, Jabra |◔ |
+||USB content cameras |Logitech, Huddly, Crestron, Yealink, Jabra |◔ |
 ||HDMI outputs |2 outputs |1 or 2 outputs |
 ||HDMI ingests |1 ingest |Varies with OEM |
 ||USB 3.0 ports |4 ports |At least 2 ports |
@@ -142,8 +142,8 @@ This document compares the features of Teams devices between Windows and Android
 ||Ethernet (LAN of GbE) |1 |1 |
 ||CPU |Dual core, 1.6+ GHz with Turbo boost, 15W+ TDP  |64-bit ARMv8-A architecture CPU with 8 or more cores, 70K DMIPS or higher |
 ||GPU |Hardware accelerated H/264 decoding/encoding, MJPEG decoding support, and DXVA compatible |4x1080P/30fps H.264 decoding, 2x1080P/30 + 2x720P/30 encoding |
-||RAM |8GB+ |4GB or above |
-||Storage |120GB+ SSD |8GB or above |
+||RAM |8 GB+ |4 GB or above |
+||Storage |120 GB+ SSD |8 GB or above |
 ||Touchscreen console |7”+ with a minimum resolution of 1280x800 |7” to 11” with 1280x720 or higher resolution |
 ||Motion sensor |● |● |
 ||Bluetooth |Bluetooth 4.1+ with dual mode (BR/EDR + LE) |Bluetooth 5.0 with dual mode (BR/EDR + LE) |
