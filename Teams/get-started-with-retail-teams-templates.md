@@ -52,7 +52,7 @@ Bring your retail employees together in one central experience to manage tasks, 
 | ------------------|-- |----------------------------------------------------- |
 |Organize a store| `retailStore` |Channels: <ul><li>General<li>Shift handoff</li><li>Store readiness<ul><li>Inspection&sup1;</li></ul></li><li>Learning</li></ul> Apps: <ul><li>Wiki</li><li>Tasks</li><li>Shifts</li><li>Inspection</li></ul>|
 
-&sup1;App added to the channel as a tab.
+&sup1;App added to the channel as a tab
 
 ### Manager Collaboration
 
@@ -63,7 +63,7 @@ The Manager Collaboration template is ideal for creating a team for a set of man
 |Retail for managers|`retailManagerCollaboration` |Channels: <ul><li>General<li>Operations<ul><li>Tasks (Operations Tasks)&sup1;</li><li>Inspection&sup1;</li></ul></li><li>Learning<ul><li>Tasks (Learning Tasks)&sup1;</li></ul></li></ul> Apps: <ul><li>Wiki</li><li>Tasks</li><li>Inspection</li></ul>|
 ||||
 
-&sup1;App added to the channel as a tab.
+&sup1;App added to the channel as a tab
 
 ## Use team templates with Microsoft Graph
 
