@@ -45,7 +45,7 @@ This article will provide further information about Teams-specific security and 
 
 ## Security
 
-Teams enforces team-wide and organization-wide two-factor authentication, single sign-on through Active Directory, and encryption of data in transit and at rest. Files are stored in SharePoint and are backed by SharePoint encryption. Notes are stored in OneNote and are backed by OneNote encryption. The OneNote data is stored in the team SharePoint site. The Wiki tab can also be used for note taking and its content is also stored within the team SharePoint site.
+Teams enforces team-wide and organization-wide two-factor authentication, single sign-on through Active Directory, and encryption of data in transit and at rest. Files are stored in SharePoint and are backed by SharePoint encryption. Notes are stored in OneNote and are backed by OneNote encryption. The OneNote data is stored in the team SharePoint site. The Wiki tab can also be used for note-taking, and its content is also stored within the team SharePoint site.
 
 Read [Identity models and authentication](identify-models-authentication.md) for more insight into authentication and Teams, and [How modern authentication works](sign-in-teams.md) will help with modern authentication in particular.
 
@@ -58,7 +58,7 @@ Because Teams works in partnership with SharePoint, OneNote, Exchange, and more,
 
 Advanced Threat protection (ATP) is available for Microsoft Teams, along with SharePoint and OneDrive, applications that integrate with Teams for content management. ATP allows you to determine if content in these applications is malicious in nature, and block this content from user access.
 
-How the affected content is managed after detection is up to the settings you've selected in Microsoft 365 or Office 365. We strongly recommend you consider all applications when it comes to configuring ATP, and for further reading, [ATP for SharePoint, OneDrive, and Microsoft Teams](/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams) will have detailed information on how to get started.
+How the affected content is managed after detection is up to the settings you've selected in Microsoft 365 or Office 365. We strongly recommend you consider all applications when configuring ATP, and for further reading, [ATP for SharePoint, OneDrive, and Microsoft Teams](/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams) will have detailed information on how to get started.
 
 ### Safe Links
 
@@ -70,7 +70,7 @@ Safe attachments is a feature designed to enhance user security by checking for,
 
 ### Secure Score
 
-Microsoft Secure Score is a measurement of an organization's security posture, with a higher number indicating more improvement actions taken. It can be found in the [Microsoft 365 security center](https://security.microsoft.com/securescore). Following the Secure Score recommendations can protect your organization from threats. From a centralized dashboard in the Microsoft 365 security center, organizations can monitor and work on the security of their Microsoft 365 identities, apps, and devices. Microsoft Teams now has recommendations on Secure Score and administrators are encouraged to monitor their security stance on the platform.
+Microsoft Secure Score measures an organization's security posture, with a higher number indicating more improvement actions taken. It can be found in the [Microsoft 365 security center](https://security.microsoft.com/securescore). Following the Secure Score recommendations can protect your organization from threats. From a centralized dashboard in the Microsoft 365 security center, organizations can monitor and work on the security of their Microsoft 365 identities, apps, and devices. Microsoft Teams now has recommendations on Secure Score, and administrators are encouraged to monitor their security stance on the platform.
 
 Secure Score helps organizations:
 - Report on the current state of the organization's security posture.
@@ -82,7 +82,7 @@ Secure Score helps organizations:
 
 Microsoft Teams relies heavily on Exchange Online, SharePoint, and Skype for Business Online for core productivity scenarios, like meetings, calendars, interop chats, and file sharing. Conditional access policies that are set for these cloud apps apply to Microsoft Teams when a user directly signs in to Microsoft Teams - on any client.
 
-Microsoft Teams is supported separately as a cloud app in Azure Active Directory conditional access policies. Conditional access policies that are set for the Microsoft Teams cloud app apply to Microsoft Teams when a user signs in. However, without the correct policies on other apps like Exchange Online and SharePoint, users may still be able to access those resources directly. For more information about setting up a conditional access policy in the Azure portal, see [Azure Active Directory Quickstart](/azure/active-directory/active-directory-conditional-access-azure-portal-get-started).
+Microsoft Teams is supported separately as a cloud app in Azure Active Directory conditional access policies. Conditional Access policies set for the Microsoft Teams cloud app apply only to Microsoft Teams when a user signs in. However, without the correct policies on other apps like Exchange Online and SharePoint, users may still be able to access those resources directly. For more information about setting up a conditional access policy in the Azure portal, see [Azure Active Directory Quickstart](/azure/active-directory/active-directory-conditional-access-azure-portal-get-started).
 
 Microsoft Teams desktop clients for Windows and Mac support modern authentication. Modern authentication brings sign-in based on the Azure Active Directory Authentication Library (ADAL) to Microsoft Office client applications across platforms.
 
@@ -90,21 +90,21 @@ Microsoft Teams desktop application supports AppLocker.  For more information ab
 
 ## Compliance
 
-Teams has a wide range of information to help you with compliance areas, including communication compliance for channels, chats, and attachments, retention policies, Data Loss Protection (DLP), eDiscovery and legal hold for channels, chats and files, audit log search, as well as mobile application management with Microsoft Intune. We've provided some information on all these topics below, and you can go to the [Microsoft 365 compliance center](https://compliance.microsoft.com) to manage these settings.
+Teams has a wide range of options for compliance controls, including communication compliance, retention policies, Data Loss Protection (DLP), eDiscovery, and legal hold for channels, chats, and files. Additional controls include the audit log search, mobile application management and mobile device management with Microsoft Intune/Microsoft Endpoint Manager, and many more options. We've provided some information on all these topics below. You can go to the [Microsoft 365 compliance center](https://compliance.microsoft.com) to manage these settings.
 
 ### Information Barriers
 
-Information barriers are policies put in-place by Teams administrators to do things like keep people or groups from communicating with one another (when there is no business need for them to do so, or a regulatory reason to block them from doing so), and it also allows you to set policies relating to things like lookups and eDiscovery (covered below). These policies can impact users in 1:1 chats, group chats, or at a team-level. The Information Barrier feature is available in the public cloud and starting January 2021 it has been rolled out to the GCC cloud.
+Information barriers are policies put in place by Teams Administrators to do things like keep people or groups from communicating with one another, when there is a business need for them or a regulatory reason to block them from doing so. It also allows you to set policies relating to things like lookups and eDiscovery (covered below). These policies can impact users in 1:1 chats, group chats, or at a team level. The Information Barrier feature is available in the public and GCC clouds.
 
 For further reading on this topic, go to [Information barriers in Microsoft Teams](information-barriers-in-teams.md).
 
 ### Communication compliance
 
-Communication compliance in Microsoft 365 allows you to add users to in-scope policies that can be configured to examine Microsoft Teams communications for offensive language, sensitive information, and information related to internal and regulatory standards. Chat communications and associated attachments in both public and private Teams channels, individual chats, and attachments can be scanned to help minimize communication risks in your organization. For more information on how you can configure policies to help you detect, capture, and take action for inappropriate Teams communications, see [Communication compliance in Microsoft 365](/microsoft-365/compliance/communication-compliance).
+Communication compliance in Microsoft 365 allows you to add users to inscope policies that can be configured to examine Microsoft Teams communications for offensive language, sensitive information, and information related to internal and regulatory standards. Chat communications and associated attachments in both public and private Teams channels, individual chats, and attachments can be scanned to help minimize communication risks in your organization. For more information on how you can configure policies to help you detect, capture, and take action for inappropriate Teams communications, see [Communication compliance in Microsoft 365](/microsoft-365/compliance/communication-compliance).
 
 ### Retention policies
 
-Retention policies in Microsoft Teams allows you to both retain data that's important for your organization to keep, for regulatory, legal, business, or other reasons, and also to remove content and communications that are not relevant to be retained. You can also use retention policies to keep data for a period of time and then delete it. For further information, review [Retention policies in Microsoft Teams](retention-policies.md).
+Retention policies in Microsoft Teams allow you to both retain data that's important for your organization to keep, for regulatory, legal, business, or other reasons, and also to remove content and communications that are not relevant to be retained. You can also use retention policies to keep data for a period of time and then delete it. For further information, review [Retention policies in Microsoft Teams](retention-policies.md).
 
 ## Sensitivity labels
 
@@ -118,7 +118,7 @@ For information on Data Loss Prevention in Teams, please review [DLP for Microso
 
 ### eDiscovery
 
-Electronic discovery, or eDiscovery, is the electronic aspect of identifying, collecting and producing electronically stored information (ESI) in response to a request for production in a law suit or investigation. Capabilities include case management, preservation, search, analysis, and export of Teams data. This includes chat, messaging and files, meeting and call summaries. For Teams meetings and Calls, a summary of the events that happened in the meeting and call are created and made available in eDiscovery.
+Electronic discovery, or eDiscovery, is the electronic aspect of identifying, collecting, and producing electronically stored information (ESI) in response to a request for production in a lawsuit or investigation. Capabilities include case management, preservation, search, analysis, and export of Teams data. This includes chat, messaging and files, meeting and call summaries. For Teams meetings and calls, a summary of the events that happened in the meeting and call is created and made available in eDiscovery.
 
 For more details about how to do Microsoft 365 or Office 365 eDiscovery in the security center and compliance center and run compliance content search for Teams content, please go to the links below:
 
