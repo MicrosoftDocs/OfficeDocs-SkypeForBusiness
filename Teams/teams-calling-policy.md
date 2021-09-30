@@ -90,7 +90,15 @@ This setting enables inbound calls to be routed to delegates, allowing delegates
 
 Setting this to **On** will send calls through the PSTN and incur charges rather than sending them through the network and bypassing the tolls.
 
-### Busy on busy is available when in a call
+### Music on hold for PSTN callers
+
+This setting allows you to enable or disable music on hold when a PSTN caller is placed on hold. It's enabled by default. This setting doesn't apply to call park and boss delegate features. Valid options are:
+
+- **Enabled** Music on hold is always available when a PSTN caller is placed on hold.
+- **Disabled**  Music on hold is not available when a PSTN caller is placed on hold.
+- **User controlled** Users can determine whether they want music on hold to be available.
+
+### Busy on busy when in a call
 
 Busy on Busy (Busy Options) lets you configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. New or incoming calls can be rejected with a busy signal or can be routed accordingly to the user's unanswered settings. You can enable busy options at the tenant level or at the user level. Regardless of how their busy options are configured, users in a call or conference or those with a call on hold are not prevented from initiating new calls or conferences. This setting is disabled by default.
 
@@ -98,13 +106,13 @@ Busy on Busy (Busy Options) lets you configure how incoming calls are handled wh
 
 This setting enables users to call PSTN numbers using the Teams web client.
 
-### Incoming meeting invites are automatically answered
+### Real-time captions in Teams calls
+
+This setting determines whether real-time captions are available for the user in Teams calls.
+
+### Automatically answer incoming meeting invites
 
 This setting controls whether incoming meeting invites are automatically answered. It's turned off by default. Keep in mind that this setting applies only to incoming meeting invites. It doesn't apply to other types of calls.
-
-### Allow music on hold
-
-This setting allows you to turn on or turn off music on hold when a PSTN caller is placed on hold. It's turned on by default. This setting doesn't apply to call park and boss delegate features, and is currently only available via PowerShell.
 
 ## Related articles
 
