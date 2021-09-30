@@ -96,7 +96,7 @@ Each call queue that you create requires a resource account. This is similar to 
 
 You can create a resource account in the Teams admin center.
 
-1. In the Teams admin center, expand **Org-wide settings**, and then click **Resource accounts**.
+1. In the Teams admin center, expand **Voice**, and then click **Resource accounts**.
 
 2. Click **Add**.
 
