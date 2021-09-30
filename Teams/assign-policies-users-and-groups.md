@@ -50,7 +50,7 @@ Or, you can also do the following:
 
 ### Use PowerShell
 
-Each policy type has its own set of cmdlets for managing it. Use the ```Grant-``` cmdlet for a given policy type to assign the policy. For example, use the ```Grant-CsTeamsMeetingPolicy``` cmdlet to assign a Teams meeting policy to users. These cmdlets are included in the Teams PowerShell module and are documented in the [Skype for Business cmdlet reference](/powershell/skype).
+Each policy type has its own set of cmdlets for managing it. Use the `Grant-` cmdlet for a given policy type to assign the policy. For example, use the `Grant-CsTeamsMeetingPolicy` cmdlet to assign a Teams meeting policy to users. These cmdlets are included in the Teams PowerShell module and are documented in the [Skype for Business cmdlet reference](/powershell/skype).
 
  Download and install the [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/) (if you haven't already), and then run the following to connect.
 
@@ -220,7 +220,7 @@ Set-CsGroupPolicyAssignment -GroupId 566b8d39-5c5c-4aaa-bc07-4f36278a1b38 -Polic
 
 Here's an example of how to change the effective policy for a user who is directly assigned a policy.
 
-First, we use the [Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment) cmdlet together with the ```PolicySource``` parameter to get details of the Teams meeting broadcast policies associated with the user.
+First, we use the [Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment) cmdlet together with the `PolicySource` parameter to get details of the Teams meeting broadcast policies associated with the user.
 
 ```powershell
 Get-CsUserPolicyAssignment -Identity daniel@contoso.com -PolicyType TeamsMeetingBroadcastPolicy | select -ExpandProperty PolicySource
@@ -320,13 +320,13 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMessagingPolicy -PolicyNam
 
 #### Get the status of a batch assignment
 
-Run the following to get the status of a batch assignment, where OperationId is the operation ID that's returned by the ```New-CsBatchPolicyAssignmentOperation``` cmdlet for a given batch.
+Run the following to get the status of a batch assignment, where OperationId is the operation ID that's returned by the `New-CsBatchPolicyAssignmentOperation` cmdlet for a given batch.
 
 ```powershell
 $Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
 ```
 
-If the output shows that an error occurred, run the following to get more information about errors, which are in the ```UserState``` property.
+If the output shows that an error occurred, run the following to get more information about errors, which are in the `UserState` property.
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState
