@@ -109,13 +109,13 @@ The following table describes which SBC vendors support [Local Media Optimizatio
 | Vendor | Product |	Software version |
 |:------------|:-------|:-------|
 | [Audiocodes](https://www.audiocodes.com/media/13253/connecting-audiocodes-sbc-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf) |	Mediant 500 SBC |	7.20A.256 |	
-|            |	Mediant 800 SBC |	7.20A.256 |	
-|            |	Mediant 2600 SBC |	7.20A.256 |	
-|            |	Mediant 4000 SBC |	7.20A.256 |	
+|            |	Mediant 800 SBC |	7.40A.100 |	
+|            |	Mediant 2600 SBC |	7.40A.100 |	
+|            |	Mediant 4000 SBC |	7.40A.100 |	
 |            |	Mediant 1000B SBC |	7.20A.256 |	
-|            |	Mediant 9000 SBC |	7.20A.256 |	
-|            |	Mediant Virtual Edition SBC |	7.20A.256 |	
-|            |	Mediant Cloud Edition SBC |	7.20A.256 |
+|            |	Mediant 9000 SBC |	7.40A.100 |	
+|            |	Mediant Virtual Edition SBC |	7.40A.100 |	
+|            |	Mediant Cloud Edition SBC |	7.40A.100 |
 | [Ribbon SBC Core](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)  |  SBC 5110         | 8.2  |
 |            |  SBC 5210         | 8.2  |
 |            |  SBC 5400         | 8.2  |
@@ -152,6 +152,12 @@ The following table lists devices that are verified for interoperability between
 | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  VME Software Version 8.3.0.1.2 |     &#10004;     |
 | [Ribbon](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 1000. Software version: 8.1.1 (build 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
 | [Ribbon](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 2000. Software version: 8.1.1 (build 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
+| [Ribbon](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 302. Software version: 16.2.0](https://support.sonus.net/display/VOSDOC162/Configuring+VOS+for+Microsoft+Teams+Direct+Routing)   |     &#10004;     |
+| [Ribbon](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 304. Software version: 16.2.0](https://support.sonus.net/display/VOSDOC162/Configuring+VOS+for+Microsoft+Teams+Direct+Routing)   |     &#10004;     |
+| [Ribbon](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 2900A. Software version: 16.2.0](https://support.sonus.net/display/VOSDOC162/Configuring+VOS+for+Microsoft+Teams+Direct+Routing)   |     &#10004;     |
+| [Ribbon](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 4806. Software version: 16.2.0](https://support.sonus.net/display/VOSDOC162/Configuring+VOS+for+Microsoft+Teams+Direct+Routing)   |     &#10004;     |
+| [Ribbon](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 4808. Software version: 16.2.0](https://support.sonus.net/display/VOSDOC162/Configuring+VOS+for+Microsoft+Teams+Direct+Routing)   |     &#10004;     |
+| [Ribbon](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 6000. Software version: 16.2.0](https://support.sonus.net/display/VOSDOC162/Configuring+VOS+for+Microsoft+Teams+Direct+Routing)   |     &#10004;     |
 | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  anynode with Grandstream GXW42xx (V1.0.7.10) |     &#10004;     |
   
 To give us product feedback about Teams, such as ideas for new features, see [Uservoice](https://microsoftteams.uservoice.com).

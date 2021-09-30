@@ -29,7 +29,7 @@ With Microsoft Teams Admin Center, you can:
 - Review current and past meeting activity (such as details about call quality, network health and connectivity, and number of participants)
 - See peripherals (such as cameras and projectors) connected to a Microsoft Teams Room device
 
-To manage Teams Rooms devices, open the [Microsoft Teams admin center](https://admin.teams.microsoft.com) and go to **Devices** > **Teams Rooms**.
+To manage Teams Rooms devices, open the [Microsoft Teams admin center](https://admin.teams.microsoft.com) and go to **Teams Devices** > **Teams Rooms**.
 
 :::image type="content" source="../media/teams-rooms-summary.png" alt-text="Teams Rooms summary pages in Teams admin center.":::
 
@@ -104,7 +104,7 @@ If you remove a device and it's still configured with a valid username and passw
 
 To remove one or more devices, do the following:
 
-1. Go to **Devices** > **Teams Rooms** and select the devices you want to remove.
+1. Go to **Teams Devices** > **Teams Rooms** and select the devices you want to remove.
 1. Select **Remove**.
 
 ## Download device logs
@@ -113,7 +113,7 @@ You can download a copy of a device's diagnostic log files if requested to do so
 
 To download logs from a Teams Rooms device to your computer, do the following:
 
-1. Go to **Devices** > **Teams Rooms** and select the name of the device you want to download logs from.
+1. Go to **Teams Devices** > **Teams Rooms** and select the name of the device you want to download logs from.
 1. Select **Download device logs**. It can take several minutes for device logs to become available.
 1. Select the **History** tab and then select log file link under **Diagnostics file**. A zip file containing your device's diagnostic log files will be downloaded to your browser's default Downloads folder.
 
