@@ -1,7 +1,7 @@
 ---
 title: Manage the Shifts app for your organization
-author: cichur
-ms.author: v-cichur
+author: serdarsoysal
+ms.author: serdars
 ms.reviewer: lisawu,gumariam
 manager: serdars
 ms.topic: article

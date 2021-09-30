@@ -1,7 +1,7 @@
 ---
 title: Set up for live events in Microsoft Teams
-author: cichur
-ms.author: v-cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams

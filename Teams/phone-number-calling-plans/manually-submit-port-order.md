@@ -1,7 +1,7 @@
 ---
 title: Manually submit a port order
-ms.author: v-cichur
-author: cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
