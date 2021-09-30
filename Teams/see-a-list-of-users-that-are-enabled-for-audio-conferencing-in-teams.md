@@ -35,7 +35,6 @@ After you have enabled Microsoft Teams users in your organization for Audio Conf
 
 - In the Microsoft Teams admin center, in the left navigation, click **Users**.
 
-
 ## What else should I know?
 
 - When you view the list of users that are enabled, you can select a user from the list to edit the audio conferencing settings for that user.
@@ -53,7 +52,7 @@ Windows PowerShell is all about managing users and what users are allowed or not
     
   - [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=teams-ps) for more information.
+For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=teams-ps&preserve-view=true) for more information.
     
 ## Related topics
 
