@@ -37,6 +37,7 @@ This article describes the following general policy settings for Teams meetings:
 - [Allow meeting registration](#allow-meeting-registration)
 - [Who can register](#who-can-register)
 - [Meeting provider for Islands mode](#meeting-provider-for-islands-mode)
+- [Allow Meeting Coach](#allow-meeting-coach)
 
 ## Allow Meet now in channels
 
@@ -54,7 +55,7 @@ If you turn this off, users are unable to schedule Teams meetings when they crea
 
 ## Allow channel meeting scheduling
 
-Use the existing AllowChannelMeetingScheduling policy to control the types of events that can be created on the team channel calendars. This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule a meeting in a Teams channel. By default, this setting is turned on. 
+Use the existing AllowChannelMeetingScheduling policy to control the types of events that can be created on the team channel calendars. This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule a meeting in a Teams channel. By default, this setting is turned on.
 
 If this policy is turned off, users will not be able to create new channel meetings. However, existing channel meetings can be edited by the organizer of the event.
 
@@ -175,6 +176,13 @@ The AllowMeetingReactions setting can only be applied using PowerShell. There is
 
 Meeting reactions are Off by default. Turning off reactions for a user doesn't mean that a user can't use reactions in meetings they schedule. The meeting organizer can still turn on reactions from the meeting option page, regardless of the default setting.
 
+## Allow Meeting Coach
+
+Meeting Coach listens to the audio of a user while they present during a Teams meeting and provides feedback and suggestions for improvement in real-time. The user can save and export a report of their feedback after the meeting, but admins won't have access to any of this data.
+
+Currently, you can only set and edit this policy in PowerShell. by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
+
+This setting is enabled by default. To turn it off, set **AllowMeetingCoach** to **Disabled**.
 
 ## Related topics
 
