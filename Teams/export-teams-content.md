@@ -75,6 +75,22 @@ Here are some examples on how you can use these export APIs:
     - *ChannelMessage.Read.All*: enables access to all channel messages  
     - *User.Read.All*: enables access to the list of users for a tenant
 
+## License requirements for Teams Export APIs
+
+Export API supports Security and Compliance (S+C) and general usage scenarios through a model query parameter. S+C scenarios (Model A) include seeded capacity and require an E5 subscription and general usage scenarios (Model B) are available for all subscriptions and is consumption only. For more information about seeded capacity and consumption fees, see [Licensing and payment requirements for Microsoft Graph Teams APIs](/graph/teams-licenses).
+
+### S+C/Model A scenarios
+
+Restricted to applications performing security and/or compliance functions, users must have specific E5 licenses to use this functionality and receive seeded capacity. Seeded capacity is per user and is calculated per month and is aggregated at the tenant level. For usage beyond the seeded capacity, app owners are billed for API consumption. Model A can only access messages from users with an assigned E5 license.
+
+### General usage/Model B scenarios
+
+Available for all non-S+C related scenarios, there are no license requirements or seeded capacity. When consumption meters become available, app owners will be charged for all monthly API calls. 
+
+### Evaluation Mode (default)
+
+No model declaration enables access to APIs with limited usage per each requesting application for evaluation purposes. 
+
 ## JSON representation
 
 The following example is a JSON representation of the resource:
