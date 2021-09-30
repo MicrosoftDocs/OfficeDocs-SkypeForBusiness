@@ -45,6 +45,7 @@ To assign a number by using the Teams admin center:
 3. In the **Edit** pane, under **Assigned to**, search for the user by display name or user name, and then click **Assign**.
 
 4. To assign or change the associated emergency location, under **Emergency location**, search for and then select the location.
+
    > [!NOTE]
    > **If you are assigning numbers to Operator Connect users, you may or may not be able to assign or change the associated emergency location. This functionality will depend on your Operator. Contact your Operator for more information.**
 
@@ -88,6 +89,7 @@ To change a phone number for a user by using the Teams admin center:
 7. In the **Edit** pane, under **Assigned to**, search for the user by display name or user name, and then click **Assign**.
 
 8. To assign or change the associated emergency location, under **Emergency location**, search for and then select the location.
+
       > [!NOTE]
       > **If you are changing numbers for Operator Connect users, you may or may not be able to assign or change the associated emergency location. This functionality will depend on your Operator. Contact your Operator for more information.**
 

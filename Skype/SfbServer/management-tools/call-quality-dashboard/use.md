@@ -114,7 +114,7 @@ The data used for these tables are defined as follows:
 |InsideCorp |bit |Yes |Bit indicates whether the building is part of the corporate network. |
 |BuildingOfficeType |nvarchar(150) |Yes |Description of the building office type. |
 |Region |varchar(25) |Yes |Region where the building is located. |
-|||||
+
 
 **CqdNetwork**
 
@@ -125,7 +125,7 @@ The data used for these tables are defined as follows:
 |NetworkNameID |int |Yes |Optionally maps to a row in CqdNetworkName table. |
 |BuildingKey |int |Yes |Foreign key, matches one of the entries in the CqdBuilding table. |
 |UpdatedDate |datetime |No |Datetime for when the entry was last updated. |
-||||||
+
 
 By default this next table has one entry (0, 'Unknown').
 
@@ -135,7 +135,7 @@ By default this next table has one entry (0, 'Unknown').
 |:-----|:-----|:-----|:-----|
 |BuildingTypeId |int |No |Primary key for the CqdBuildingType table. |
 |BuildingTypeDesc |char(18) |No |Building type description. |
-|||||
+
 
 By default this next table has one entry (0, 'Unknown', 0, null).
 
@@ -147,7 +147,7 @@ By default this next table has one entry (0, 'Unknown', 0, null).
 |OwnershipTypeDesc |varchar(25) |No |Ownership type description. |
 |LeaseInd |tinyint |Yes |Index referencing another row in the CqdBuildingOwnershipType table, used for identifying leased buildings. |
 |Owner |varchar(50) |Yes |Building owner. |
-|||||
+
 
 By default this next table has one entry (0, 'Unknown', 0, null).
 
@@ -160,7 +160,7 @@ By default this next table has one entry (0, 'Unknown', 0, null).
 |phy |nvarchar(50) |Yes |Phy information. |
 |ap |nvarchar(50) |Yes |Wifi Access Point Name. |
 |Building |nvarchar(500) |Yes |The Building Name the WiFi Access Point is located in. |
-||||
+
 
 ## CQD Streams
 
@@ -181,7 +181,7 @@ A CQD stream is considered good, poor, or unclassified. CQM 1.5 now uses the fol
 |PacketLossRate |Greater than 0.1 (10%) |
 |JitterInterArrival |Greater than 30 |
 |RatioConcealedSamplesAvg |Greater than 0.07 |
-|||
+
 
 JPDR definition = Poor call definition minus RatioConcealedSamplesAvg
 
@@ -200,7 +200,7 @@ CQD doesn't use Caller/Callee fields, instead it uses "First" and "Second" becau
 |2 (AVMCU) |4 (Skype for Business) |Endpoint 1 |Endpoint 2 |
 |2 (AVMCU) |1 (mMediationServer) |Endpoint 2 |Endpoint 1 |
 |4 (Skype for Business) |4 (Skype for Business) |The Caller in MediaLine |The Callee in MMediaLine |
-|||||
+
 
 If both endpoints are the same type, CQD makes the Caller entry First and the Callee Second. For more information about endpoint names, see [this blog](/archive/blogs/jenstr/call-quality-dashboard-tips-and-tricks).
 
