@@ -27,9 +27,9 @@ This document compares the features of Teams devices between Windows and Android
 
 **Table key:** 
 
-● Available today 
+● Available
 
-◔ Coming Soon 
+◔ Coming soon 
 
 ○ Not available  
 
