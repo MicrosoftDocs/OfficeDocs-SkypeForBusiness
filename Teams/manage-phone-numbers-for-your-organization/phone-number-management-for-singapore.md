@@ -1,7 +1,7 @@
 ---
 title: "Phone number management for Singapore"
-author: cichur
-ms.author: v-cichur
+author: cazawideh
+ms.author: czawideh
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
 ms.topic: reference
