@@ -15,7 +15,7 @@ appliesto:
 - Skype for Business 
 - Skype for Business Online
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -91,14 +91,14 @@ The following tables list the data that is required for SfBO to operate.
 <!--start table here -->
 
 
-|                      |                                                                                            |   |
-|:---------------------|:-------------------------------------------------------------------------------------------|:--|
-| **Data**             | **Possible** **settings**                                                                  |   |
-| Personal Data        | Name, Title, Company, Email address, Time zone                                             |   |
-| Telephone Numbers    | Work, Mobile, Home                                                                         |   |
-| Calendar Information | Free/Busy, Out-of-town notice, meeting details (to those who have access to your calendar) |   |
-| Presence Status      | Away, Available, Busy, Do Not Disturb, Offline                                             |   |
-|                      |                                                                                            |   |
+
+| **Data**             | **Possible** **settings**                                                                  |
+|:---------------------|:-------------------------------------------------------------------------------------------|
+| Personal Data        | Name, Title, Company, Email address, Time zone                                             |
+| Telephone Numbers    | Work, Mobile, Home                                                                         |
+| Calendar Information | Free/Busy, Out-of-town notice, meeting details (to those who have access to your calendar) |
+| Presence Status      | Away, Available, Busy, Do Not Disturb, Offline                                             |
+|                      |                                                                                            |
 
 <!-- end of table -->
 
@@ -107,13 +107,12 @@ The following tables list the data that is required for SfBO to operate.
 <!--start table here -->
 
 
-|              |                                                                 |   |
-|:-------------|:----------------------------------------------------------------|:--|
-| **Category** | **Possible settings**                                           |   |
-| IP Address   | Actual address of computer or NATed address                     |   |
-| SIP URI      | <u>david.campbell@contoso.com</u>                               |   |
-| Name         | David Campbell (as defined in Active Directory Domain Services) |   |
-|              |                                                                 |   |
+| **Data**             | **Possible** **settings**                                                                  |
+|:---------------------|:-------------------------------------------------------------------------------------------|
+| IP Address   | Actual address of computer or NATed address                     |
+| SIP URI      | <u>david.campbell@contoso.com</u>                               |
+| Name         | David Campbell (as defined in Active Directory Domain Services) |
+|              |                                                                 |
 
 <!-- end of table -->
 
@@ -162,9 +161,10 @@ The following table summarizes the protocol used by SfBO.
 <!--start table here with header -->
 
 
-|||
-|:-----|:-----|
+
+
 |**Traffic type**|**Protected by**|
+|:-----|:-----|
 |Server-to-server|MTLS|
 |Client-to-server|TLS|
 |Instant messaging and presence|TLS (if configured for TLS)|
@@ -223,7 +223,7 @@ TCP 50,000 outbound is used for SfBO, including for application and desktop shar
 Enabling external users and internal users to exchange media requires an Access Edge service to handle the SIP signaling that is necessary to set up and tear down a session. It also requires an A/V Edge service to act as a relay for the transfer of the media. The call sequence is illustrated in the following figure.
 
 
-![Call sequence in Meeting Join](media/sfbo-call-sequence-security.png) 
+![Call sequence in Meeting Join.](media/sfbo-call-sequence-security.png) 
 
 1. A user receives an email containing an invitation to join an SfBO meeting. The email contains a conference key and a HTTP-based URL linking to the conference. Both the key and the URL are unique for a particular meeting.<p>The user initiates the join procedure by clicking the meeting URL in the email which initiates a client detection process on the user’s machine. If the client is detected, this client is launched. If it is not detected, the user is redirected to the web client.<p/>
 2. The SfBO client sends a SIP INVITE containing the user’s credentials. A federated or remote user joins a conference using their enterprise credentials. For a federated user, the SIP INVITE is first sent to his or her home server, which authenticates the user and forwards the INVITE to SfBO. An anonymous user is required to pass digest authentication.<p>SfBO authenticates the remote or anonymous user and notifies the client. As mentioned in step 2, federated users joining a conference are authenticated by their enterprise.<p/>

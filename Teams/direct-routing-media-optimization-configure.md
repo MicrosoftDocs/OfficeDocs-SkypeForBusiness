@@ -1,5 +1,5 @@
 ---
-title: Direct Routing Local Media Optimization
+title: Configure Local Media Optimization for Direct Routing
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -31,7 +31,7 @@ To configure Local Media Optimization, the following steps are required. You can
 
 The following diagram shows the network setup used in the examples throughout this article.
 
-![Diagram showing network setup for examples](media/direct-routing-media-op-9.png "Network setup for examples")
+![Diagram showing network setup for examples.](media/direct-routing-media-op-9.png "Network setup for examples")
 
 
 ## Configure the user and the SBC sites
@@ -47,36 +47,7 @@ To configure the user and the SBC sites, you will need to:
 
 ## Configure SBC(s) for Local Media Optimization according to the SBC vendor specification
 
-This article describes configuration for Microsoft components. For information on SBC configuration, see your SBC vendor documentation.
-
-Local Media Optimization is supported by the following SBC vendors:
-
-| Vendor | Product |	Software version |
-|:------------|:-------|:-------|
-| [Audiocodes](https://www.audiocodes.com/media/13253/connecting-audiocodes-sbc-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf) |	Mediant 500 SBC |	7.20A.256 |	
-|            |	Mediant 800 SBC |	7.20A.256 |	
-|            |	Mediant 2600 SBC |	7.20A.256 |	
-|            |	Mediant 4000 SBC |	7.20A.256 |	
-|            |	Mediant 1000B SBC |	7.20A.256 |	
-|            |	Mediant 9000 SBC |	7.20A.256 |	
-|            |	Mediant Virtual Edition SBC |	7.20A.256 |	
-|            |	Mediant Cloud Edition SBC |	7.20A.256 |
-| [Ribbon SBC Core](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)  |  SBC 5110         | 8.2  |
-|            |  SBC 5210         | 8.2  |
-|            |  SBC 5400         | 8.2  |
-|            |  SBC 7000         | 8.2  |
-|            |  SBC SWe          | 8.2  |
-| [Ribbon SBC Edge](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)  |  SBC SWe Lite | 8.1.5 |
-|               | SBC 1000 | 8.1.5  |
-|               | SBC 2000 | 8.1.5  |
-| [TE-SYSTEMS](https://www.anynode.de/local_media_optimization/) |  anynode          | 4.0.1+ |
-| [Oracle](https://www.oracle.com/industries/communications/enterprise-communications/session-border-controller/microsoft.html) | AP 1100 | 8.4.0.0.0 |
-|        | AP 3900 | 8.4.0.0.0 |
-|        | AP 4600 | 8.4.0.0.0 | 
-|        | AP 6300 | 8.4.0.0.0 |
-|        | AP 6350 | 8.4.0.0.0 | 
-|        | VME     | 8.4.0.0.0 |
-
+This article describes configuration for Microsoft components. For information on SBC configuration, see your SBC vendor documentation. For information on which SBC vendors support Local Media Optimization, see [Session Border Controllers Certified for Direct Routing](direct-routing-border-controllers.md).
 
 ## Manage external trusted IP addresses
 
@@ -106,7 +77,7 @@ All parameters are case sensitive so you need to ensure that you use the same ca
 
 ### Define network regions
 
-To define network regions, use the New-CsTenantNetworkRegion cmdlet. The RegionID parameter is a logical name that represents the geography of the region and has no dependencies or restrictions. The CentralSite <site ID> parameter is optional.
+To define network regions, use the New-CsTenantNetworkRegion cmdlet. The RegionID parameter is a logical name that represents the geography of the region and has no dependencies or restrictions. The CentralSite `<site ID>` parameter is optional.
 
 ```
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
@@ -231,7 +202,7 @@ The following table shows the end user configuration and action:
 
 The following diagram shows the SIP ladder for an outbound call with Always bypass mode, and the user in the same location as the SBC.
 
-![Diagram showing outbound calls](media/direct-routing-media-op-10.png "Outbound calls")
+![Diagram showing outbound calls.](media/direct-routing-media-op-10.png "Outbound calls")
 
 The following table shows the X-MS headers sent by Direct Routing:
 
@@ -257,7 +228,7 @@ Note: Given that a user can have multiple endpoints, support of 183 is not possi
 
 The following diagram shows the SIP ladder for in inbound call with AlwaysBypass mode, and the user is in the same location as the SBC.
 
-![Diagram showing SIP ladder](media/direct-routing-media-op-11.png)
+![Diagram showing SIP ladder.](media/direct-routing-media-op-11.png)
 
 
 #### Outbound calls and the user is external with Always Bypass
@@ -269,7 +240,7 @@ AlwaysBypass |	External |	N/A | Outbound |
 
 The following diagram shows the SIP ladder for an outbound call with AlwaysBypass mode, and the user is external:
 
-![Diagram showing SIP ladder](media/direct-routing-media-op-12.png)
+![Diagram shows SIP ladder.](media/direct-routing-media-op-12.png)
 
 The following table shows the X-MS headers sent by the Direct Routing service:
 
@@ -289,7 +260,7 @@ For an inbound call, the SBC connected to Direct Routing needs to send a re-invi
 
 The following diagram shows the SIP ladder for an inbound call with AlwaysBypass mode, and the user is external.
 
-![Diagram showing SIP ladder](media/direct-routing-media-op-13.png)
+![Diagram again showing SIP ladder.](media/direct-routing-media-op-13.png)
 
 
 ### Only for local users mode
@@ -317,7 +288,7 @@ The following table shows end user configuration and action:
 
 The following diagram shows an outbound call with OnlyForLocalUsers mode, and the user is in the same location as the SBC. This is the same flow shown in [Outbound calls when the user is in the same location as the SBC](#outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass).
 
-![Diagram showing SIP ladder](media/direct-routing-media-op-14.png)
+![Diagram again shows SIP ladder.](media/direct-routing-media-op-14.png)
 
 
 #### Inbound calls and the user is in the same location as the SBC with Only for local users
@@ -328,7 +299,7 @@ The following diagram shows an outbound call with OnlyForLocalUsers mode, and th
 
 The following diagram shows an inbound call with OnlyForLocalUsers mode, and the user is in the same location as the SBC. This is the same flow as shown in [Inbound calls when the user is in the same location as the SBC](#inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass).
 
-![Diagram showing SIP ladder](media/direct-routing-media-op-15.png)
+![Another diagram showing SIP ladder.](media/direct-routing-media-op-15.png)
 
 
 #### User is not at the same location as the SBC but is in the corporate network with Only for local users
@@ -342,7 +313,7 @@ Direct routing calculates X-MediaPath based on the reported location of the user
 
 The following diagram shows an outbound call with OnlyForLocalUsers mode, and an internal user who is not at the same location as the SBC.
 
-![Diagram showing SIP ladder](media/direct-routing-media-op-16.png)
+![Another diagram shows SIP ladder.](media/direct-routing-media-op-16.png)
 
 
 #### Inbound call and the user is internal but is not at the same location as the SBC with Only for local users
@@ -353,7 +324,7 @@ The following diagram shows an outbound call with OnlyForLocalUsers mode, and an
 
 The following diagram shows an inbound call with OnlyForLocalUsers mode, and an internal user who is not at the same location as the SBC.
 
-![Diagram showing SIP ladder](media/direct-routing-media-op-17.png)
+![Yet another diagram showing SIP ladder.](media/direct-routing-media-op-17.png)
 
 
 

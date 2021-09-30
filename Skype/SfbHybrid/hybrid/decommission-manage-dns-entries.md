@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 - Hybrid 
 - M365-voice
@@ -21,6 +21,8 @@ description: "Instructions for how to manage DNS entries when decommissioning yo
 ---
 
 # Update DNS entries to enable your organization to be all Teams Only
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Organizations that previously had on-premises deployments of Skype for Business Server or Lync Server may still have DNS entries that point to an on-premises Skype for Business deployment. These records are required if your organization includes on-premises Skype for Business users. However, once your organization no longer has any on-premises Skype for Business or Lync Server users, these original records are no longer required by the on-premises deployment and **these DNS entries must be updated to point to Microsoft 365 (or in some cases removed)** as part of your migration from on-premises to Teams Only. *Microsoft cannot update these DNS records on your behalf.*
 
@@ -50,8 +52,8 @@ In each domain where you find any of the following records, update them as follo
 
 | Record type | Name | TTL | Priority | Weight | Port | Value |
 | :-----| :-----| :---- | :-----| :-----| :-----| :-----|
-| SRV | _sipfederationtls.tcp |	3600 |	100 | 1	| 5061	| sipfed.online.lync.com |
-| SRV | _sip.tls | 3600	 | 100 |	1	| 443	| sipdir.online.lync.com |
+| SRV | _sipfederationtls._tcp |	3600 |	100 | 1	| 5061	| sipfed.online.lync.com |
+| SRV | _sip._tls | 3600	 | 100 |	1	| 443	| sipdir.online.lync.com |
 | CNAME	| lyncdiscover |	3600 |	N/A |	N/A | 	N/A |	webdir.online.lync.com |
 | CNAME |	sip	| 3600 |	N/A |	N/A	 | N/A | 	sipdir.online.lync.com |
 |||||||

@@ -9,7 +9,7 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: "Summary: Read this topic to learn how to configure dial-in conferencing in Skype for Business Server."
 ---
@@ -152,7 +152,7 @@ Before you can create dial-in access numbers, you must first plan your dial-in c
     
 6. In **Display name**, type a description for the dial-in access number. This is the name that is associated with the dial-in access number in Skype for Business search results. This name is displayed in the client when a user calls the access number. 
     
-7. In **Line URI**, type the E.164 number of the dial-in access number in TEL URI format, including the + symbol before the number and excluding spaces. For example, tel:+14255550200.
+7. In **Line URI**, type the E.164 number of the dial-in access number in TEL URI format, including the + symbol before the number and excluding spaces. For example, `tel:+14255550200`.
     
     > [!NOTE]
     > The same Line URI cannot be reused by another dial-in conferencing access number. 

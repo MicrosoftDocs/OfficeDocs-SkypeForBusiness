@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertRequestSanDesc
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3485f663-e114-43d7-8fe3-fcc4e5ae71ce
 description: "The Subject Name / Subject Alternative Names page presents a summary of the subject name and all subject alternative names that will populate the certificate. The names presented for subject name and subject alternative names are gathered from the definition document, as it was created when you defined the deployment in Topology Builder."
 ---

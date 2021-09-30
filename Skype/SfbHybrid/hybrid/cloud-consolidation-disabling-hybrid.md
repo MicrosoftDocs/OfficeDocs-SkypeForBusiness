@@ -19,11 +19,14 @@ f1.keywords:
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "This article includes detailed steps for disabling hybrid as part of cloud consolidation for Teams and Skype for Business."
 ---
 
 # Disable your hybrid configuration to complete migration to Teams Only 
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 
 This article describes how to disable your hybrid configuration before decommissioning your on-premises Skype for Business environment. This is step 2 of the following steps to decommission your on-premises environment:
 

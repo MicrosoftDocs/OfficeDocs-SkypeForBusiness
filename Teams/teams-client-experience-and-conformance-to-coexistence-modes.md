@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: bjwhalen
 audience: admin
 description: Learn about Teams client experience and conformance to coexistence modes (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings).
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -45,11 +45,11 @@ The available functionality in Teams depends on the user's coexistence mode, as 
 
 The following screenshots illustrate the difference between **Teams Only** or **Islands** mode and all other modes. Note that the chat and calling icons are available by default with **Teams Only** or **Islands** mode (left screenshot), but not with the other modes (right screenshot):
 
-![A side-by-side comparison of Teams modes](media/teams-mode-comparison.png)
+![A side-by-side comparison of Teams modes.](media/teams-mode-comparison.png)
 
 In addition, self presence is not available in the other modes, as shown here.
 
-![Screenshot of self presence in Meetings First](media/meetings-first-no-self-presence-general.png)
+![Screenshot of self presence in Meetings First.](media/meetings-first-no-self-presence-general.png)
  
 **Note:**
 <sup>1</sup> At this time, SfBwithTeamsCollab and SfBOnly behave the same, but the intent is for SfBOnly mode to also disable Channels and Files functionality in Teams. In the interim, Channels can be hidden using the App Permissions policy.

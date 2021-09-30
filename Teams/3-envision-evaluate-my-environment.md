@@ -12,7 +12,7 @@ ms.reviewer: rowille
 description: Use personas and network analysis to assess your organization's readiness, open the correct TCP and UDP ports, perform any network remediation.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
   - M365-collaboration
@@ -89,7 +89,7 @@ Teams uses audio and video technology (codecs) that can adapt to—and therefore
 perform better under—most network conditions. To ensure optimal and consistent
 performance, you should prepare your network for Teams.
 
-![Diagram describing the three components of quality](media/evaluate-my-environment-image1.png "Diagram describing the three components of quality, and how service management overlaps all three components. With a focus on the network.")
+![Diagram describing the three components of quality.](media/evaluate-my-environment-image1.png "Diagram describing the three components of quality, and how service management overlaps all three components. With a focus on the network.")
 
 ## Key takeaways
 

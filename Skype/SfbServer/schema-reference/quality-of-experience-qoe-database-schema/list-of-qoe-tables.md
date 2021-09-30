@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 176194d7-d184-4e23-94bb-cb62b4db47f5
 description: "The database schema consists of the following tables."
 ---

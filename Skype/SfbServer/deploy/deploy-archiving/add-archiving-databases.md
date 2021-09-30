@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
 description: "Summary: Read this topic to learn how to add archiving databases to your Skype for Business Server deployment."
 ---

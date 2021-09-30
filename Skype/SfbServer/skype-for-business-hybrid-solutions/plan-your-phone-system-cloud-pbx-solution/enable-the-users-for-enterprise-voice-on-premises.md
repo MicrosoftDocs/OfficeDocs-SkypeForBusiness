@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
@@ -46,7 +46,7 @@ For a user to use Phone System (Cloud PBX), you must first enable them for Enter
     
 7. Under **Telephony**, click **Enterprise Voice**.
     
-8. Click **Line URI**, and type a unique, normalized phone number (for example, tel:+14255550200). Then click **Commit**.
+8. Click **Line URI**, and type a unique, normalized phone number (for example, `tel:+14255550200`). Then click **Commit**.
     
 ## Special considerations when enabling users for Enterprise Voice on premises
 

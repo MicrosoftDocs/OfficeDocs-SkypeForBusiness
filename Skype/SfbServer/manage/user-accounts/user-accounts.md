@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
 description: "The sections in this article describe how to enable, temporarily disable, or remove Active Directory users from Skype for Business Server."
 ---
@@ -69,7 +69,7 @@ You can search for users by using the Skype for Business Server Control Panel or
 
 After enabling a user account in Active Directory Users and Computers, you can use Skype for Business Server Control Panel to create and enable new Skype for Business Server user accounts by adding an Active Directory user to Skype for Business Server.
 
-You can also use a cmdlet, specifically [Enable-CsUser](/powershell/module/skype/enable-csuser?view=skype-ps).
+You can also use a cmdlet, specifically [Enable-CsUser](/powershell/module/skype/enable-csuser).
 
 1. From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.
 
@@ -110,7 +110,7 @@ You can use the following procedure to disable a previously enabled user account
 
 ### Use Windows Powershell to Disable or Re-enable User Accounts
 
-User accounts can be temporarily disabled, and then later re-enabled, by using the **Set-CsUser** cmdlet. You can run this cmdlet either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Skype for Business Server, see the blog article ["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). The process is the same in Skype for Business Server.
+User accounts can be temporarily disabled, and then later re-enabled, by using the **Set-CsUser** cmdlet. You can run this cmdlet either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Skype for Business Server, see [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). The process is the same in Skype for Business Server.
 
 ### To disable a user account
 
@@ -128,7 +128,7 @@ User accounts can be temporarily disabled, and then later re-enabled, by using t
   Set-CsUser -Identity "Ken Myer" -Enabled $True
   ```
 
-For more information, see the help topic for the [Set-CsUser](/powershell/module/skype/set-csuser?view=skype-ps) cmdlet.
+For more information, see the help topic for the [Set-CsUser](/powershell/module/skype/set-csuser) cmdlet.
 
 ## Disable a user for Enterprise Voice
 <a name="Disable_EV"> </a>
@@ -181,7 +181,7 @@ You can use the following procedure to remove a previously added user account in
 
 ### Remove user accounts with Windows Powershell cmdlets
 
-You can remove user accounts by using the Disable-CsUser cmdlet. This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session Windows PowerShell. For details about using remote Windows PowerShell to connect to Skype for Business Server, see the blog article ["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). The process is the same in Skype for Business Server.
+You can remove user accounts by using the Disable-CsUser cmdlet. This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session Windows PowerShell. For details about using remote Windows PowerShell to connect to Skype for Business Server, see [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). The process is the same in Skype for Business Server.
 
 ### To remove a user account
 To remove a user account, use the Disable-CsUser cmdlet. For example:
@@ -190,13 +190,13 @@ To remove a user account, use the Disable-CsUser cmdlet. For example:
   Disable-CsUser -Identity "Ken Myer"
   ```
 
-    After this command has run there is no way to re-enable the account and its previous settings. Instead, you will need to use the Enable-CsUser cmdlet to create a brand-new account for Ken Myer.
+After this command has run there is no way to re-enable the account and its previous settings. Instead, you will need to use the Enable-CsUser cmdlet to create a brand-new account for Ken Myer.
 
-For more information, see the help topic for the [Disable-CsUser](/powershell/module/skype/disable-csuser?view=skype-ps) cmdlet.
+For more information, see the help topic for the [Disable-CsUser](/powershell/module/skype/disable-csuser) cmdlet.
 
 ## See also
 <a name="Remove"> </a>
 
-[Enable-CsUser](/powershell/module/skype/enable-csuser?view=skype-ps)
+[Enable-CsUser](/powershell/module/skype/enable-csuser)
 
-[Disable-CsUser](/powershell/module/skype/disable-csuser?view=skype-ps)
+[Disable-CsUser](/powershell/module/skype/disable-csuser)

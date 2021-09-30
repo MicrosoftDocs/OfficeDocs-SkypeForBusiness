@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: serdars
 description: Find the right path to rolling out Microsoft Teams in your organization. Learn about the Teams infrastructure and using Teams with Microsoft 365 or Office 365.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -51,7 +51,6 @@ To customize and extend Teams, add third-party apps through [apps, bots, and con
 
 > [!TIP]
 > For a deep dive into Teams architecture, watch the videos on the [Teams Platform Academy](https://aka.ms/TeamsPlatformAcademy).
-
 
 ## Managing Teams
 

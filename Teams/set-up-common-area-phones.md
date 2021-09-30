@@ -14,7 +14,7 @@ ms.collection:
 audience: Admin
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 
@@ -37,7 +37,7 @@ First, you need to purchase a Common Area Phone (CAP) license and make sure that
 
 1. In the Microsoft 365 admin center, go to **Billing** > **Purchase services** and then expand **Other plans**.
 
-    ![Screenshot showing the Common Area Phone tile](media/set-up-common-area-phone-image1.png)
+    ![Screenshot showing the Common Area Phone tile.](media/set-up-common-area-phone-image1.png)
 
 2. Select **Common Area Phone** > **Buy now**.
 
@@ -56,7 +56,7 @@ For more information on licenses, see [Microsoft Teams add-on licensing](./teams
 The Common Area Phone license supports: 
 
 
-|   |  Common Area Phone  |
+| &nbsp;  |  Common Area Phone  |
 |---------|---------|
 |Skype for Business |   &#x2714; |
 |Microsoft Teams |   &#x2714; |
@@ -87,7 +87,7 @@ The Common Area Phone license supports:
 
 6. Assign the licenses to the user. On the same page, click to expand **Product licenses**. Turn on the Common Area Phone and pick either a **Domestic Calling Plan** or a **Domestic and International Calling Plan**. 
 
-    ![Screenshot showing license assignment](media/set-up-common-area-phone-image2.png)
+    ![Screenshot showing license assignment with domestic calling plan and domestic and international plan options highlighted.](media/set-up-common-area-phone-image2.png)
 
 > [!NOTE]
 > If you are using Microsoft Phone System Direct Routing, you do not need to assign a Calling Plan license.
@@ -100,7 +100,7 @@ Use the Teams admin center to assign a number to the user.
 
 1. In the Teams admin center, select **Voice** > **Phone numbers**.
 
-3.    Select a number from the list of phone numbers and click **Assign**.
+3. Select a number from the list of phone numbers and click **Assign**.
 
 4. On the **Assign** page, in the Voice user box, type the name of the user who will be using the phone, and then select the user in the **Select a voice user** drop-down list.
 
@@ -108,7 +108,7 @@ Use the Teams admin center to assign a number to the user.
 
 6. Click **Save** and your user should look like this:
 
-   ![Screenshot showing license assignment](media/set-up-common-area-phone-image3.png)
+   ![Screenshot shows sample user license assignment.](media/set-up-common-area-phone-image3.png)
 
 > [!NOTE]
 > Users will only show up if they have a Phone System license applied. If you just did this, then sometimes it takes a bit for the user to show up in the list.

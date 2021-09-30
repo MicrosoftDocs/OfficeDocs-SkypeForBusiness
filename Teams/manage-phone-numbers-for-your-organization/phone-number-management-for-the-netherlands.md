@@ -15,7 +15,7 @@ audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom: 
@@ -31,11 +31,11 @@ For more information, see [Manage phone numbers for your organization](manage-ph
   
 |**What you want to do?**|**Download the correct forms**|
 |:-----|:-----|
-|Get new user or service phone numbers that aren't listed in the Microsoft Teams admin center.   <br/> | Download one of these forms.</br> [New phone number request for the Netherlands (v.5.0) (nl-nl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(v.5.0)-(nl-nl).pdf?raw=true) <br/>  [New phone number request for the Netherlands (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>  Fill it out and [send it to us](mailto:ptneu@microsoft.com).  <br/> |
-|Get phone numbers transferred to us.  <br/> |Download one of these forms: <br/> [Letter of Authorization (LOA) for the Netherlands (all numbers) (v.6.0) (nl-nl)](https://download.microsoft.com/download/c/7/0/c70c4dcd-f23a-4935-aa31-fc13aba33ee5/letter-of-authorization-(loa)-for-the-netherlands-(all-numbers)-(v.6.0)-(nl-nl).pdf) <br/> <br/>  Fill it out and [send it to us](mailto:ptneu@microsoft.com).  <br/> |
-|Publish/unpublish phone number(s) in the national phone directory.  <br/> |[Send us](mailto:ptneu@microsoft.com) the list of phone numbers you want to publish/unpublish. <br/> |
-|Change a user's number to a service number.  <br/> |[Send us](mailto:ptneu@microsoft.com) the list of user numbers you want to convert to service numbers. <br/> |
-|Make directory service updates to call queue or auto attendant numbers|To add or change call queue or auto attendant numbers, contact [the PSTN service desk](contact-pstn-service-desk.md). |
+|Get new user or service phone numbers that aren't listed in the Microsoft Teams admin center.   <br/> | Download one of these forms.</br> [New phone number request for the Netherlands (v.5.0) (nl-nl)](https://download.microsoft.com/download/d/5/9/d5937e19-e9f7-4a08-9631-e5d456068726/new-phone-number-request-for-the-netherlands-(v.5.0)-(nl-nl).pdf) <br/>  [New phone number request for the Netherlands (v.5.0) (en-us)](https://download.microsoft.com/download/9/f/4/9f42be90-1977-4ba7-887a-3772757e12fa/new-phone-number-request-for-the-netherlands-(v.5.0)-(en-us).pdf)<br/><br/>  Fill it out and [contact the PTSN Service Desk for instructions](contact-pstn-service-desk.md).  <br/> |
+|Get phone numbers transferred to us.  <br/> |Download one of these forms: <br/> [Letter of Authorization (LOA) for the Netherlands (all numbers) (v.6.0) (nl-nl)](https://download.microsoft.com/download/c/7/0/c70c4dcd-f23a-4935-aa31-fc13aba33ee5/letter-of-authorization-(loa)-for-the-netherlands-(all-numbers)-(v.6.0)-(nl-nl).pdf) <br/> <br/>  Fill it out and [contact the PTSN Service Desk for instructions](contact-pstn-service-desk.md).  <br/> |
+|Publish/unpublish phone number(s) in the national phone directory.  <br/> |[Contact the PTSN Service Desk for instructions](contact-pstn-service-desk.md) regarding the list of phone numbers you want to publish/unpublish. <br/> |
+|Change a user's number to a service number.  <br/> |[Contact the PTSN Service Desk for instructions](contact-pstn-service-desk.md) regarding the list of user numbers you want to convert to service numbers. <br/> |
+|Make directory service updates to call queue or auto attendant numbers|To add or change call queue or auto attendant numbers, contact [the PTSN Service Desk for instructions](contact-pstn-service-desk.md). |
 
 ## Related topics
 

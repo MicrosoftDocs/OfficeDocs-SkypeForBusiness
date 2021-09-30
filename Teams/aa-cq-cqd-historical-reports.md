@@ -14,7 +14,7 @@ audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords: 
   - CSH
 ms.custom: 
@@ -59,7 +59,7 @@ Perform the following steps:
 
 - You will be prompted to select the CQD data pipeline region. Select the region where your tenant is located.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Screenshot selecting the CQD data pipeline region":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Screenshot selecting the CQD data pipeline region.":::
 
 - The region where your tenant is located can be obtained by using the [Get-CsTenant](/powershell/module/skype/get-cstenant) cmdlet.
 
@@ -76,11 +76,11 @@ Perform the following steps:
  
  - To see your own data, select **Refresh** in the Home tab under Queries in Power BI Desktop.
 
-   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Screenshot selecting the refresh option":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Screenshot selecting the refresh option.":::
 
 - You will then be prompted to sign in. Select **Organization account** and then select **Sign in**.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Screenshot showing login":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Screenshot showing login.":::
 
 - Select **Connect** and watch the data refresh.
 
@@ -103,11 +103,11 @@ The following steps assume you have already completed the Installation steps.
 Perform the following steps:
 - Select **View tab** on the ribbon.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Screenshot selecting view tab to change color scheme":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Screenshot selecting view tab to change color scheme.":::
 
 - Select the color schema from the drop-down list.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Screenshot showing various color schemes":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Screenshot showing various color schemes.":::
   
 ## Auto Attendant and Call Queue Historical Reports Definitions
 
@@ -290,6 +290,10 @@ Perform the following steps:
 |Call Queue Name                         |text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com** then this value will be: **cq_test** |
 |Date                                    |date                     |                                                    |
 
+
+> [!NOTE]
+> 1) This report shows the call counts from the agents' perspective and therefore the call count total on this report will typically be higher than the total number of calls on the **Cloud Call Queue Analytics** report. Each call in the queue may be presented to one or more agents at least once before it is answered. Every call queue call presented to an agent is counted on this report, even if it wasn't answered by the agent. The difference in the call counts between these two reports is more pronounced with the **Attendant routing** option which rings every agent for every call. 
+> 2) When a call first arrives at the first call queue, if the number of calls already waiting in that queue exceeds the **Call overflow handling** limit and if the redirect option sends calls to a second call queue then the agents in the second call queue will be shown as being in the first call queue on this report. 
 
 ## Known Issues
 

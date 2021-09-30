@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid:
 ms.collection: 
   - M365-collaboration
@@ -39,7 +39,7 @@ For Microsoft Teams Rooms to use modern authentication with Skype for Business a
 
 ### Using device settings
 
-1. On the Microsoft Team Rooms device, go to **More** (**...**).
+1. On the Microsoft Teams Rooms device, go to **More** (**...**).
     
 2. Select **Settings**, and then enter the device administrator username and password.
 3. Go to the **Account** tab, turn on **Modern Authentication**, and then select **Save and exit**.

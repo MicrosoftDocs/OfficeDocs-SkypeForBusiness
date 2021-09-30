@@ -1,6 +1,6 @@
 ---
 title: "Meeting room devices and solutions"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -15,7 +15,7 @@ appliesto:
 - Lync
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords: 
 - CSH
 ms.custom:
