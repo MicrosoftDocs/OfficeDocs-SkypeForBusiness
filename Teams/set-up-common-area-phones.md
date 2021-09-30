@@ -100,7 +100,7 @@ Use the Teams admin center to assign a number to the user.
 
 1. In the Teams admin center, select **Voice** > **Phone numbers**.
 
-3.    Select a number from the list of phone numbers and click **Assign**.
+3. Select a number from the list of phone numbers and click **Assign**.
 
 4. On the **Assign** page, in the Voice user box, type the name of the user who will be using the phone, and then select the user in the **Select a voice user** drop-down list.
 
