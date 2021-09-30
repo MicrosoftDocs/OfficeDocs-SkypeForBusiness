@@ -77,6 +77,11 @@ You can duplicate pre-built templates but you can't edit them. If you want to ch
 |Organize a store| `com.microsoft.teams.template.retailStore` |Channels: <ul><li>General<li>Shift handoff</li><li>Store readiness</li><li>Learning</li></ul> Apps: <ul><li>Wiki</li><li>Tasks</li><li>Shifts</li><li>Inspection</li></ul>|
 |Retail for managers| `com.microsoft.teams.template.retailManagerCollaboration` |Channels: <ul><li>General<li>Operations</li><li>Learning</li></ul> Apps: <ul><li>Wiki</li><li>Tasks</li><li>Inspection</li></ul>|
 |Quality and safety |`com.microsoft.teams.template.QualitySafety`|Channels: <ul><li>General<li>Announcements</li><li>Leadership</li><li>Maintenance</li><li>Production Line 1</li><li>Production Line 2</li><li>Production Line 3</li><li>Health and Safety</li><li>Training</li><li>Fun stuff</li></ul> Apps: <ul><li>Wiki</li><li>Tasks</li> <li>Issue Reporter</li> <li>Inspection</li> </ul>|
+|Manage volunteers| `ManageVolunteers` |Channels: <ul><li>General<ul><li>Website&sup1;</li></ul><li>Announcements</li><li>Reporting<ul><li>Power BI&sup1;</li></ul></li><li>Volunteer Management<ul><li>Power Apps&sup1;</li></ul></li><li>Engagement Opportunities<ul><li>Tasks&sup1;</li></ul></li><li>Volunteer Onboarding<ul><li>SharePoint&sup1;</li><li>OneNote&sup1;</li></ul></li></ul> Apps: <ul><li>Website</li><li>YouTube</li><li>Power BI</li><li>Power Apps</li><li>Tasks</li><li>SharePoint</li><li>OneNote</li></ul>|
+||||
+
+&sup1;App added to the channel as a tab.
+
 
 ### Team templates by category and industry
 
