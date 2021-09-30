@@ -60,7 +60,7 @@ This setting controls all calling capabilities in Teams. Turn this off to turn o
 
 ### Cloud recording for calling
 
-This settings controls whether cloud recording is allowed in a user's 1:1 call.
+This setting controls whether cloud recording is allowed in a user's 1:1 call.
 
 ### Call forwarding and simultaneous ringing to people in your organization
 
