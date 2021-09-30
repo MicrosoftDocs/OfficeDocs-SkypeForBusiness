@@ -1991,6 +1991,11 @@
       "redirect_document_id": true
     },
     {
+      "source_path": "Skype/SfbOnline/set-up-your-network-for-skype-meeting-broadcast/skype-meeting-broadcast-preview-settings.md",
+      "redirect_url": "/microsoftteams/teams-live-events/what-are-teams-live-events",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/index.md",
       "redirect_url": "/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing",
       "redirect_document_id": true
