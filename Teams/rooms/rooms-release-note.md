@@ -79,7 +79,7 @@ Introduced in this update:
 - Chat bubbles provide notifications for in meeting chat to bring attention to what's being said using meeting chat *
 - Large gallery and Together mode support is now available in GCC High
 - New Skills added to Cortana, Add person by name to the meeting and Call by name 
-- Cortana Push to Talk is enabled by default on all devices. To learn more see [Cortana voice assistance in Teams](https://docs.microsoft.com/en-us/microsoftteams/cortana-in-teams).
+- Cortana Push to Talk is enabled by default on all devices. To learn more see [Cortana voice assistance in Teams](cortana-in-teams.md).
 
 > [!NOTE]
 > Deprecated 19H1 support. Min OS version supported by 4.10 is 19H2.
