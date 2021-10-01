@@ -127,7 +127,7 @@ When you create a team from an existing team, any private channels in the existi
 
 Notifications from private channels are not included in missed activity emails at this time.
 
-Channel meetings can't be scheduled, currently.
+Channel meetings can't be scheduled.
 
 ## Related topics
 
