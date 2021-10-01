@@ -50,13 +50,13 @@ To access the Azure Cloud Shell and use PowerShell to manage Teams, sign in to t
 
     ![Screenshot of Azure Cloud Shell prompt.](media/cloud-shell.png)
 
-1. Run the following command to start the Teams PowerShell session:
+1. Run the following command to start a Teams PowerShell session:
 
     ```powershell
     Connect-MicrosoftTeams
     ```
 
-After you've completed those steps, you're ready to run any Teams PowerShell commands.
+After you've completed these steps, you're ready to run Teams PowerShell commands.
 
 > [!IMPORTANT]
 > If you want to use Cs* cmdlets, you first need to connect to Teams by using the ``Connect-MicrosoftTeams -UseDeviceAuthentication`` command.
