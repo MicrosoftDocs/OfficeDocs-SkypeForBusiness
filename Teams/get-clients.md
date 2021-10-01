@@ -56,7 +56,7 @@ IT admins can choose their preferred method to distribute the installation files
 The Microsoft Teams installation for Windows provides downloadable installers in 32-bit and 64-bit architecture.
 
 > [!NOTE]
-> The architecture (32-bit vs. 64-bit) of Microsoft Teams is agnostic to the architecture of Windows and Office that is installed.
+> The architecture (32-bit vs. 64-bit) of Microsoft Teams is agnostic to the architecture of Windows and Office that is installed. We recommend the 64-bit version of Microsoft Teams on 64-bit systems.
 
 The Windows client is deployed to the AppData folder located in the user’s profile. Deploying to the user’s local profile allows the client to be installed without requiring elevated rights. The Windows client leverages the following locations:
 
@@ -200,11 +200,11 @@ Supported mobile platforms for Microsoft Teams mobile apps are the following:
 
 Mobile apps are distributed and updated through the respective mobile platform’s app store only. Distribution of the mobile apps via MDM or side-loading is not supported by Microsoft. Once the mobile app has been installed on a supported mobile platform, the Teams Mobile App itself will be supported provided the version is within three months of the current release.
 
-| | | |
+|&nbsp; |&nbsp; |&nbsp; |
 |---|---|---|
 |![An icon depicting a decision point.](media/Get_clients_for_Microsoft_Teams_image4.png)|Decision Point|Are there any restrictions preventing users from installing the appropriate Microsoft Teams client on their devices?|
 |![An icon depicting the next steps.](media/Get_clients_for_Microsoft_Teams_image5.png)|Next Steps|If your organization restricts software installation, make sure that process is compatible with Microsoft Teams. Note: Admin rights are not required for PC client installation but are required for installation on a Mac.|
-|
+
 
 ## Client update management
 
