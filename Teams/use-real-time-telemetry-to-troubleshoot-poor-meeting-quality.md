@@ -27,7 +27,7 @@ description: Use real-time telemetry with details about devices, networks, and c
 # Use real-time telemetry to troubleshoot poor meeting quality
 
 > [!NOTE]
-> This feature is currently in public preview until the end of 2021. After this time, the Advanced Communications add-on for Microsoft Teams will be required for each user whose telemetry you wish to view in real-time. For more information, see [Advanced Communications add-on for Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/advanced-communications).
+> This feature is currently in public preview until the end of 2021. After this time, the Advanced Communications add-on for Microsoft Teams will be required for each user whose telemetry you wish to view in real time. For more information, see [Advanced Communications add-on for Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/advanced-communications).
 
 This article explains how to use Real-Time Analytics (RTA) to troubleshoot poor Microsoft Teams meeting quality for individual users. You can access Real-Time Analytics if you have one of the following roles:
 
