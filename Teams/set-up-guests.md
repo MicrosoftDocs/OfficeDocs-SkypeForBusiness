@@ -64,7 +64,7 @@ description: Learn about how to turn on or turn off the guest access feature in 
           - **Strict** – Guests can insert Giphys in chats, but will be restricted from inserting adult content.
       - **Memes in conversations** - Turn this setting **On** to allow guests to use Memes in conversations.
       - **Stickers in conversations** – Turn this setting **On** to allow guests to use stickers in conversations.
-      - **Immersive reader for messages** - Turn this setting **On** to let guests to view messages in Microsoft Immersive Reader.
+      - **Immersive reader for messages** - Turn this setting **On** to allow guests to view messages in Microsoft Immersive Reader.
 
     ![Guest permissions settings in Teams.](media/manage-guest-access-image1.png)
 
