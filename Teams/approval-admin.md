@@ -130,7 +130,7 @@ Approvals is enabled by default for all Teams users in your organization. You ca
 
 3. Do one of the following:
 
-    - To turn off Approvals for your organization, switch the toggle to **Block**.
+    - To turn off Approvals for your organization, switch the toggle to **Blocked**.
     - To turn on Approvals for your organization, switch the toggle to **Allowed**.
 
 ### Enable or disable Approvals for specific users in your organization
