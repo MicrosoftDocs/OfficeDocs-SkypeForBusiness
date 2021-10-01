@@ -63,13 +63,6 @@ The following table shows recommended and supported versions of Windows 10 that 
 
 When you use a supported version of Windows 10, you will always get the latest application updates for the Microsoft Teams Rooms app.  
 
-> [!IMPORTANT]
-> The Windows 10 20H2 update isn't available yet for the following Teams Rooms devices due to compatibility issues. Device OEMs are working to resolving these issues as soon as possible. Windows 10 20H2 won't be offered on these devices. Please don't manually update these devices to 20H2 by overriding group policy objects (GPOs) or mobile device management (MDM). 
-> 
-> The devices with compatiablity issues are:
-> 
-> - Crestron UC-Engine (BIOS version/date contains "KYSKLI" - indicating a Skull Canyon BIOS) 
-
 ## Related topics
 
 [Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
