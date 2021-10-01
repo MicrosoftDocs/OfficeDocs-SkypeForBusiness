@@ -24,6 +24,7 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|4.10.10.0 |10/1/2021 |
 |4.9.12.0 |07/28/2021 |
 |4.8.31.0 |05/12/2021 |
 |4.8.25.0 |04/22/2021 |
@@ -69,6 +70,25 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 |RTM (1.0.8) |12/7/2016 |
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
+
+### 4.10.10.0 (10/1/2021)
+
+Introduced in this update:
+- Room remote allows users to control basic functionality of the room using Teams on their mobile *
+- Logitech scribe content camera support for BLE button for sharing into meeting
+- Chat bubbles provide notifications for in meeting chat to bring attention to what's being said using meeting chat *
+- Large gallery and Together mode support is now available in GCC High
+- New Skills added to Cortana, Add person by name to the meeting and Call by name 
+- Cortana Push to Talk is enabled by default on all devices. To learn more see [Cortana voice assistance in Teams](https://docs.microsoft.com/en-us/microsoftteams/cortana-in-teams).
+
+> [!NOTE]
+> Deprecated 19H1 support. Min OS version supported by 4.10 is 19H2.
+
+> [!NOTE]
+> *These features are rolled out using Teams service and will work with all application versions greater than 4.9.
+
+> [!NOTE]
+> To join the scheduled meeting both from Teams Mobile app and MTR-W find the room account in roster on the Teams Mobile app and press "Control this room" menu and you can control Call controls from the app.
 
 ### 4.9.12.0 (7/28/2021)
 
