@@ -52,7 +52,7 @@ Here's the channels and apps that come with the Manage volunteers team template.
 It takes only a few quick steps to create a team from the Manage volunteers template.
 
 1. In Teams, go to **Teams** > **Join or create a team** > **Create team**.
-2. Choose the Manage volunteers team template.
+2. Choose the **Manage volunteers** team template.
 3. Choose a privacy level:
     - **Private**: People need permission from the team owner to join the team.
     - **Public**: Anyone in your organization can join the team.
@@ -65,7 +65,7 @@ To learn more, see [Create a team with a team template](https://support.microsof
 
 To use the Volunteer Management app in Teams, add it to the Power Apps tab in the Volunteer Management channel. 
 
-1. In Teams, go to the team you created, choose the **Volunteer Management** channel, and then select the **Power Apps** tab.
+1. In Teams, go to the team you created, choose the Volunteer Management channel, and then select the **Power Apps** tab.
 2. In the drop-down list, select **Model-driven apps**, and then search for and select **Volunteer Management**.
 3. Select **Save**.
 
