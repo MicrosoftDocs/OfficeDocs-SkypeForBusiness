@@ -66,7 +66,7 @@ The following table provides a helpful quick reference to feature availability b
 <sup>9</sup> A minimum of an Exchange Online Plan 1 license is also required. For more information, see [Search for Teams chat data for on-premises users](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users).
 
 <sup>10</sup> On-premises users can use Teams to update their profile picture even if the `SetPhotoEnabled` Outlook on the Web mailbox policy is set to `false`.
-
+<sup>11</sup> Time-zone preference is not supported in a on-prem mailbox scenario
 ## Requirements to get the most out of Microsoft Teams
 
 Microsoft Teams works with several Microsoft 365 and Office 365 services to provide users with rich experience. To support this experience, you need to enable certain features or services and assign licenses.
