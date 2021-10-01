@@ -67,7 +67,7 @@ The following table provides a helpful quick reference to feature availability b
 
 <sup>10</sup> On-premises users can use Teams to update their profile picture even if the `SetPhotoEnabled` Outlook on the Web mailbox policy is set to `false`.
  > [!NOTE]
- > Setting OOF via the teams client is currently not supported for users that their mailbox is hosted onprem, users should perform this action via the outlook client.
+ > Setting Out of Office (OOF) via the Teams client is currently not supported for users whose mailboxes are hosted on-premises; these users should perform this action via the Outlook client.
 ## Requirements to get the most out of Microsoft Teams
 
 Microsoft Teams works with several Microsoft 365 and Office 365 services to provide users with rich experience. To support this experience, you need to enable certain features or services and assign licenses.
