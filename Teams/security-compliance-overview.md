@@ -90,7 +90,7 @@ Microsoft Teams desktop application supports AppLocker.  For more information ab
 
 ## Compliance
 
-Teams has a wide range of options for compliance controls, including communication compliance, retention policies, Data Loss Protection (DLP), eDiscovery, and legal hold for channels, chats, and files. Additional controls include the audit log search, mobile application management and mobile device management with Microsoft Intune/Microsoft Endpoint Manager, and many more options. We've provided some information on all these topics below. You can go to the [Microsoft 365 compliance center](https://compliance.microsoft.com) to manage these settings.
+Teams has a wide range of options for compliance control, including communication compliance, retention policies, Data Loss Protection (DLP), eDiscovery, and legal hold for channels, chats, and files. Additional controls include the audit log search, mobile application management and mobile device management with Microsoft Intune/Microsoft Endpoint Manager, and many more options. We've provided some information on all these topics below. You can go to the [Microsoft 365 compliance center](https://compliance.microsoft.com) to manage these settings.
 
 ### Information Barriers
 
