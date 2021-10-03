@@ -118,7 +118,7 @@ For information on Data Loss Prevention in Teams, please review [DLP for Microso
 
 ### eDiscovery
 
-Electronic discovery, or eDiscovery, is the electronic aspect of identifying, collecting, and producing electronically stored information (ESI) in response to a request for production in a lawsuit or investigation. Capabilities include case management, preservation, search, analysis, and export of Teams data. This includes chat, messaging and files, meeting and call summaries. For Teams meetings and calls, a summary of the events that happened in the meeting and call is created and made available in eDiscovery.
+Electronic discovery, or eDiscovery, is the electronic aspect of identifying, collecting, and producing electronically stored information (ESI) in response to a request for production in a lawsuit or investigation. Capabilities include case management, preservation, search, analysis, and export of Teams data. This includes chat, messaging and files, and meeting and call summaries. For Teams meetings and calls, a summary of the events that happened in the meeting and call is created and made available in eDiscovery.
 
 For more details about how to do Microsoft 365 or Office 365 eDiscovery in the security center and compliance center and run compliance content search for Teams content, please go to the links below:
 
