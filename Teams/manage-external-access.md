@@ -37,9 +37,6 @@ Use external access when:
 
 - You want anyone else in the world who uses Teams to be able to find and contact you, using your email address. 
 
-> [!IMPORTANT]
-> To use the Teams client to communicate with an external user (whether that user is using Teams or Skype for Business), the Teams user must be homed in Skype for Business Online.
-
 ## Plan for external access
 
 By default, external access is turned on in Teams, which means that your organization can communicate with all external domains. If you add blocked domains, all other domains will be allowed; and if you add allowed domains, all other domains will be blocked. The exception to this rule is if anonymous participants are allowed in meetings. There are three scenarios for setting up external access in the Teams admin center (**Users** > **External access**):
