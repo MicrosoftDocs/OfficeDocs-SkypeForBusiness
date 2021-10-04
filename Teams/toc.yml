@@ -300,6 +300,8 @@ items:
           href: audit-log-events.md
         - name: Customer key
           href: /microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Export API for Teams content
+          href: export-teams-content.md
     - name: Privacy
       items: 
         - name: Privacy and Microsoft Teams
