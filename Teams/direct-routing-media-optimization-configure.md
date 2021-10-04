@@ -46,8 +46,8 @@ To configure the user and the SBC sites, you will need to:
 
 > [!NOTE]
 > Local Media Optimization logic relies on client addresses being configured as external or internal, relative to corporate networks with reach to a Direct Routing certified Session Border Controller (SBC) internal interface. Client location (internal/external) is determined during each call’s processing, by observing the address used to reach transport relays. 
-In split-tunnel VPN scenarios where relays are reachable via ISP, client ‘best-route’ logic  prefers local interface’s default route (e.g., public WiFi). This causes Microsoft to signal to the SBC the client is external, even though it can reach the internal interface of the customer’s DR SBC. Direct Routing customers using Local Media Optimization may experience prolonged call setup times and in some cases  no audio when receiving calls from the PSTN.
-To avoid this, VPN administrators must block access between remote VPN users and Direct Routing SBC internal interface.
+In split-tunnel VPN scenarios where relays are reachable through the ISP, client best-route logic prefers the local interface default route (for example, public WiFi). This causes Microsoft to signal to the SBC that the client is external, even though it can reach the internal interface of the customer’s Direct Routing SBC. Direct Routing customers using Local Media Optimization may experience prolonged call setup times and in some cases no audio when receiving calls from the PSTN.
+To avoid this, VPN administrators must block access between remote VPN users and the Direct Routing SBC internal interface.
 
 
 
