@@ -44,14 +44,14 @@ If you have any questions about the SBC certification program for Direct Routing
 
 |                                                       Vendor                                                        |       Product       | Non-media bypass | Media bypass | Software version | 911 Service Provider Capable* | ELIN capable |  
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|  
-| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  Supported 7.40A.100 (Recommended 7.40A.100)   | &#10004;   |  &#10004;  |  
-|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  Supported 7.40A.100 (Recommended 7.40A.100)   | &#10004;   |  &#10004;  |  
-|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  Supported 7.40A.100 (Recommended 7.40A.100)   |   &#10004;   |  &#10004;  |
-|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  Supported 7.40A.100 (Recommended 7.40A.100)   |  &#10004;   |  &#10004;  |
+| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  Supported 7.20A.258 (Recommended 7.40A.100)   | &#10004;   |  &#10004;  |  
+|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  Supported 7.20A.258 (Recommended 7.40A.100)   | &#10004;   |  &#10004;  |  
+|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  Supported 7.20A.258 (Recommended 7.40A.100)   |   &#10004;   |  &#10004;  |
+|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  Supported 7.20A.258 (Recommended 7.40A.100)   |  &#10004;   |  &#10004;  |
 |                                                                                                                     | Mediant 1000B  SBC  |     &#10004;     |   &#10004;     |  Supported 7.20A.250 (Recommended 7.20A.258)  |  &#10004;   |  &#10004;  |
-|                                                                                                                     | Mediant 9000  SBC  |     &#10004;     |   &#10004;     |  Supported 7.40A.100 (Recommended 7.40A.100)   | &#10004;     |  &#10004;  |
-|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  Supported 7.40A.100 (Recommended 7.40A.100) |  &#10004;    |  &#10004;  |   
-|                                                                                                                     | Mediant Cloud Edition SBC  |     &#10004;     |   &#10004;     |  Supported 7.40A.100 (Recommended 7.40A.100) |  &#10004;    |  &#10004;  |
+|                                                                                                                     | Mediant 9000  SBC  |     &#10004;     |   &#10004;     |  Supported 7.20A.258 (Recommended 7.40A.100)   | &#10004;     |  &#10004;  |
+|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  Supported 7.20A.258 (Recommended 7.40A.100) |  &#10004;    |  &#10004;  |   
+|                                                                                                                     | Mediant Cloud Edition SBC  |     &#10004;     |   &#10004;     |  Supported 7.20A.258 (Recommended 7.40A.100) |  &#10004;    |  &#10004;  |
 |  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5100/5110       |     &#10004;     |   &#10004;    |       Supported 8.2 and 7.2 (Recommended 9.2)       | &#10004;   |     |
 |                                                                                                                     |      SBC 5200/5210       |     &#10004;     |  &#10004;    |       Supported 8.2 and 7.2 (Recommended 9.2)       |   &#10004; |    |
 |                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       Supported 8.2 and 7.2 (Recommended 9.2)       |   &#10004;  | |
@@ -109,13 +109,13 @@ The following table describes which SBC vendors support [Local Media Optimizatio
 | Vendor | Product |	Software version |
 |:------------|:-------|:-------|
 | [Audiocodes](https://www.audiocodes.com/media/13253/connecting-audiocodes-sbc-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf) |	Mediant 500 SBC |	7.20A.256 |	
-|            |	Mediant 800 SBC |	7.40A.100 |	
-|            |	Mediant 2600 SBC |	7.40A.100 |	
-|            |	Mediant 4000 SBC |	7.40A.100 |	
+|            |	Mediant 800 SBC |	7.20A.258 |	
+|            |	Mediant 2600 SBC |	7.20A.258 |	
+|            |	Mediant 4000 SBC |	7.20A.258 |	
 |            |	Mediant 1000B SBC |	7.20A.256 |	
-|            |	Mediant 9000 SBC |	7.40A.100 |	
-|            |	Mediant Virtual Edition SBC |	7.40A.100 |	
-|            |	Mediant Cloud Edition SBC |	7.40A.100 |
+|            |	Mediant 9000 SBC |	7.20A.258 |	
+|            |	Mediant Virtual Edition SBC |	7.20A.258 |	
+|            |	Mediant Cloud Edition SBC |	7.20A.258 |
 | [Ribbon SBC Core](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)  |  SBC 5110         | 8.2  |
 |            |  SBC 5210         | 8.2  |
 |            |  SBC 5400         | 8.2  |
