@@ -94,11 +94,8 @@ The Common Area Phone license supports:
 
 For more information, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
 
- [!NOTE]
-> If you are using custom Setup Policies that unpins the calling app, the dial pad will not appear on the Common Area Phone.  
-
-For more information on Teams Setup Policies, see https://docs.microsoft.com/en-us/microsoftteams/teams-app-setup-policies
-
+> [!NOTE]
+> If you are using custom setup policies that unpins the calling app, the dial pad will not appear on the Common Area Phone. For more information on Teams setup policies, see [Manage app setup policies in Microsoft Teams](/microsoftteams/teams-app-setup-policies).
 
 ## Step 3 - Assign a phone number to the Common Area Phone user account
 
