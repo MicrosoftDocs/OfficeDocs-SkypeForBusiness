@@ -45,11 +45,11 @@ description: Learn about how to turn on or turn off the guest access feature in 
 
     ![Allow guest access switch set to On .](media/guest-access-setting.png)
 
-4. Under **Calling**, **Meeting**, and **Messaging**, select **On** or **Off** for each capability, depending on what you want to allow for guest users.
+4. Under **Calling**, **Meeting**, and **Messaging**, select **On** or **Off** for each capability, depending on what you want to allow for guests.
 
       - **Make private calls** – Turn this setting **On** to allow guests to make peer-to-peer calls.
       - **IP video** - Turn this setting **On** to allow guests to use video in their calls and meetings.
-      - **Screen sharing mode** – This setting controls the availability of screen sharing for guest users.
+      - **Screen sharing mode** – This setting controls the availability of screen sharing for guests.
           - Turn this setting to **Disabled** to remove the ability for guests to share their screens in Teams.
           - Turn this setting to **Single application** to allow sharing of individual applications.
           - Turn this setting to **Entire screen** to allow complete screen sharing.
@@ -78,6 +78,6 @@ description: Learn about how to turn on or turn off the guest access feature in 
 
 [Set up secure collaboration with Microsoft 365](/microsoft-365/solutions/setup-secure-collaboration-with-teams)
 
-[Block guest users from a specific team](/microsoft-365/solutions/per-group-guest-access)
+[Block guests from a specific team](/microsoft-365/solutions/per-group-guest-access)
 
 [Set-CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)
