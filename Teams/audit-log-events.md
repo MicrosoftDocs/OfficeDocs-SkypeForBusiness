@@ -59,12 +59,12 @@ The length of time that an audit record is retained and searchable in the audit 
 
 Here are tips for searching for Teams activities in the audit log.
 
-![Screenshot of Audit Log Page](https://user-images.githubusercontent.com/5260172/135183755-1f037a21-248b-4ad7-9133-20c138dce6b3.png)
+![Screenshot of Audit Log Page](media/audit-log-search-page.png)
 
 
 - You can select specific activities to search for by clicking the activity name. Or you can search for all activities in a group (such as **File and folder activities**) by clicking the group name. If an activity is selected, you can click it to cancel the selection. You can also use the search box to display the activities that contain the keyword that you type.
 
-  ![Screenshot of Audit Log Search Activities List](https://user-images.githubusercontent.com/5260172/135183904-78df8eb7-09b8-46c4-afe0-7e6eca1bdb76.png)
+  ![Screenshot of Audit Log Search Activities List](media/audit-log-search.png)
 
 - To display events for activities run using cmdlets, select **Show results for all activities** in the **Activities** list. If you know the name of the operation for these activities, search for all activities, and then filter the results by typing the name of the operation in the box in the **Activity** column. To learn more, see [Step 3: Filter the search results](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-filter-the-search-results).
 
