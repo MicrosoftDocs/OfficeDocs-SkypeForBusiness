@@ -56,7 +56,7 @@ To use the Approvals app, you need a license for Power Automate, and your accoun
 
 ## Storage with CDS
 
-The Common Data Model (CDM) is the shared data language used by business and analytical applications in the CDS. It consists of a set of a standardized, extensible data schemas published by Microsoft and our partners that enable consistency of data and its meaning across applications and business processes. Learn more about the [Common Data Model of the Microsoft Power Platform](/power-automate/get-started-approvals).
+The Common Data Model (CDM) is the shared data language used by business and analytical applications in the CDS. It consists of a set of standardized, extensible data schemas published by Microsoft and our partners that enables consistency of data and its meaning across applications and business processes. Learn more about the [Common Data Model of the Microsoft Power Platform](/power-automate/get-started-approvals).
 
 Learn more about the [Approval workflow](/power-automate/modern-approvals).
 
@@ -94,7 +94,7 @@ Approval Template Permissions
 
 - All team owners can create an approval template for teams that they own.
 
-- When an admin creates a template for their entire organization for the first time, it will automatically create a new Teams team for all admins of the tenant, including the global and Teams service admins. These admins will be added as owners of the team, so they can co-manage organizational templates. Admins that are new to the organization after the team has been created need to be manually added as team owners so they have the same permissions to manage organization-wide templates.
+- When an admin creates a template for their entire organization for the first time, it will automatically create a new team in Teams for all admins of the tenant, including the global and Teams service admins. These admins will be added as owners of the team, so they can co-manage organizational templates. Admins that are new to the organization after the team has been created need to be manually added as team owners so they have the same permissions to manage organization-wide templates.
 
 > [!Note]
 > If an admin deletes the team, you have one month to restore it within the Azure Active Directory (AAD) portal to restore all related data. After one month, or if the admin deletes this team within the recycle bin, you will lose all the related data.
@@ -105,50 +105,17 @@ The Approvals app is available by default. You can disable the app in the Teams 
 
   1. Sign in to the Teams admin center.
 
-  2. Expand **Teams apps** and select **Manage apps**.
+  2. Go to **Teams apps** > **Manage apps**.
 
   3. Search for the Approvals app.
 
      ![shows the Admin center navigation with Teams Apps > Manage Apps highlighted.](media/manage-approval-apps.png)
 
-  4. Select Approvals.
+  4. Select **Approvals**.
 
   5. Select the toggle to disable the app for your organization.
 
      ![shows the details for the Approvals app.](media/approvals-details-new.png)
-
-## Manage the Approvals app (NEW SECTION)
-
-### Enable or disable the Approvals app
-
-Approvals is enabled by default for all Teams users in your organization. You can turn off or turn on the app at the org level on the [Manage apps](manage-apps.md) page in the Microsoft Teams admin center.
-
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps** .
-2. Search for the Approvals app, and then select it.
-
-     ![shows the Admin center navigation with Teams Apps > Manage Apps highlighted.](media/manage-approval-apps.png)
-
-3. Do one of the following:
-
-    - To turn off Approvals for your organization, switch the toggle to **Blocked**.
-    - To turn on Approvals for your organization, switch the toggle to **Allowed**.
-
-### Enable or disable Approvals for specific users in your organization
-
-To allow or block specific users in your organization from using Approvals, make sure Approvals is turned on for your organization on the [Manage apps](manage-apps.md) page, and then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
-
-### Enable or disable eSignature providers for approval requests
-
-You can control which eSignature providers your users can use to sign and share approval requests.  When you disable an eSignature provider, your users won't have access to it when they create approvals. Your users also won't be able to view eSignature requests that were created using that provider.
-
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps** .
-2. Search for the Approvals app, and then select it.
-3. Go to the **Settings** tab, and then do one or more of the following:
-
-    - To enable or disable Adobe Sign, switch the toggle to **On** or **Off**.
-    - To enable or disable DocuSign, switch the toggle to **On** or **Off**.
-
-4. Select **Submit**.
 
 ## Retention policy
 
@@ -236,5 +203,6 @@ You can use the Teams admin center to control which third-party e-signature prov
 
     - To enable or disable Adobe Sign, switch the toggle to **On** or **Off**.
     - To enable or disable DocuSign, switch the toggle to **On** or **Off**.
+4. Select **Submit**.
 
-E-signature approvals created from the Approvals app are stored in the provider's cloud environment. To export data about e-signatures, you'll need to go to the provider's site. For more information about storage and retention of e-signature agreements, see the provider's documentation.
+E-signature approvals created from the Approvals app are stored in the selected provider's cloud environment. To export data about e-signatures, you'll need to go to the provider's site. For more information about storage, export, and retention of e-signature agreements, see the provider's documentation.
