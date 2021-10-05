@@ -57,7 +57,7 @@ description: Learn about how to turn on or turn off the guest access feature in 
       - **Edit sent messages** - Turn this setting **On** to allow guests to edit messages they previously sent.
       - **Delete sent messages** – Turn this setting **On** to allow guests to delete messages they previously sent.
       - **Chat** – Turn this setting **On** to give guests the ability to use chat in Teams.
-      - **Giphys in conversations** – Turn this setting **On** to allow guests to use Giphys in conversations. Giphy is an online database and search engine that allows users to search for and share animated GIF files. Each Giphy is assigned a content rating.
+      - **Giphy in conversations** – Turn this setting **On** to allow guests to use Giphys in conversations. Giphy is an online database and search engine that allows users to search for and share animated GIF files. Each Giphy is assigned a content rating.
       - **Giphy content rating** –  Select a rating from the drop-down list:
           - **Allow all content** - Guests will be able to insert all Giphys in chats, regardless of the content rating.
           - **Moderate** - Guests will be able to insert Giphys in chats, but will be moderately restricted from adult content.

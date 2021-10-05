@@ -61,6 +61,19 @@ To look at the telemetry of a given user for an in-progress meeting, including i
 
 ![Screenshot of call analytics user session data.](media/real-time-telemetry.png)
 
+## Measures available in Real-Time Analytics
+
+|Measure Name |Units |Good Threshold |Description |
+|:---|:---|:---|:---|
+|Jitter |Milliseconds |Less than 30 ms |Jitter is a measure of the variation in packet delay for a data stream. When this is too high, audio can become choppy. | 
+|Packet Loss |Percentage |Less than 5% |Packet loss occurs when data packets fail to reach their destination. The percentage of packets lost is based on the total number of packets sent. |
+|Round Trip Time |Milliseconds |Less than 500 ms |Round trip time is the time it takes for a single packet to travel from the client to the remote endpoint and back to the client. High round trip time can cause delays in stream playback. An example of this is when two people in a meeting are unintentionally speaking over each other due to the delay. |
+|Bitrate (Audio) |Kilobits per second (Kbps) |Greater than 24 Kbps |Throughput of the audio stream expressed in kilobits per second. |
+|Bitrate (Video & App sharing) |Megabits per second (Mbps) | Information only |Throughput of the video stream expressed in megabits per second. |
+|Frame Rate (Video) |Frames per second |360p or better: 25-30 FPS <br/> 270p or lower: 7-15 FPS |For outbound video streams, frame rate (FPS) is the number of frames per second of video the client is sending. Lower than expected values here may suggest system resource constraints, insufficient network bandwidth, or misbehaving video capture devices. Different resolutions have different acceptable FPS ranges. |
+|Frame Rate (App sharing) |Frames per second (FPS) |Information only |For app sharing, frame rate is content-aware to ensure as many frames as necessary are sent to ensure a good experience while avoiding sending frames if they're not needed. For example, sharing a text document on-screen only requires 1 frame-per-second to produce a good experience, whereas sharing a video or content with more activity will increase frames per second to a maximum of 30 FPS to produce a smoother experience. |
+
+
 ## Client platforms supported for real-time telemetry
 
 - Windows
