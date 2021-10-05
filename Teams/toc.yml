@@ -111,8 +111,6 @@ items:
               href: teams-for-vdi.md
             - name: Teams for Remote Desktop environment (RDP)
               href: teams-on-rdp.md
-            - name: Deploy Teams for Surface Hub
-              href: teams-surface-hub.md
             - name: Teams client updates
               href: teams-client-update.md
             - name: Troubleshoot installation and update issues
@@ -300,6 +298,8 @@ items:
           href: audit-log-events.md
         - name: Customer key
           href: /microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Export API for Teams content
+          href: export-teams-content.md
     - name: Privacy
       items: 
         - name: Privacy and Microsoft Teams
