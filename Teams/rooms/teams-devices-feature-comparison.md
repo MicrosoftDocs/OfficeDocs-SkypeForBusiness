@@ -35,8 +35,7 @@ To help guide you as to what features are coming to which platform when, see the
 ### Feature comparison between Windows and Android
 (September 2021) 
 	
-           ● Available              ◔ Coming soon                           ○ Not available
-
+● Available              ◔ Coming soon                           ○ Not available
 
 |                       |Features |Windows|Android|
 |-----------------------|---------|--------|--------|
