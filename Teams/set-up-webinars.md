@@ -32,7 +32,7 @@ Webinars are structured meetings where presenters and participants have clear ro
 After setting up webinars in your organization, your users can schedule webinars and open registration to attendees. Unlike traditional meetings that include many discussions and task assignment, webinars are meant for interactive presentations and provide tools for attendee analysis.
 
 > [!IMPORTANT]
-> To allow users to create new webinars, Microsoft lists must be configured in SharePoint by enabling the creation of personal lists. To learn more, see [Control settings for Microsoft Lists](/sharepoint/control-lists).
+> To let users set up webinars, Microsoft Lists must be configured in SharePoint by enabling the creation of personal lists. To learn more, see [Control settings for Microsoft Lists](/sharepoint/control-lists).
 
 ## Allow users to schedule webinars in the Teams admin center
 
