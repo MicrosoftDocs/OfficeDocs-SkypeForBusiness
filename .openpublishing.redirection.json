@@ -2517,7 +2517,7 @@
     },
     {
      "source_path": "Teams/teams-surface-hub.md",
-     "redirect_url":"https://docs.microsoft.com/MicrosoftTeams/",
+     "redirect_url": "/MicrosoftTeams/",
      "redirect_document_id": false 
     }
   ] 
