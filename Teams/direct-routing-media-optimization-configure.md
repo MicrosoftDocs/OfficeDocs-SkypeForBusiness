@@ -143,7 +143,7 @@ Note the following:
    - If the customer has a single SBC, the -ProxySBC parameter must be either mandatory $null or SBC FQDN value (Central SBC with centralized trunks scenario).
    - The -MediaBypass parameter must be set to $true in order to support Local Media Optimization.
    - If the SBC doesn’t have the -BypassMode parameter set, X-MS headers will not be sent. 
-   - All parameters are case sensitive so you need to ensure that you use the same case that was used used during setup.  (For example, GatewaySiteID values “Vietnam” and “vietnam” will be treated as different sites.)
+   - All parameters are case sensitive so you need to ensure that you use the same case that was used during setup.  (For example, GatewaySiteID values “Vietnam” and “vietnam” will be treated as different sites.)
 
 The following example adds three SBCs to the network sites Vietnam, Indonesia, and Singapore in the APAC region with mode Always bypass:
 
