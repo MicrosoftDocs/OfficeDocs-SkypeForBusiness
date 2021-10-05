@@ -37,7 +37,7 @@ For a complete list of Teams activities that are audited, see [Teams activities]
 
 ## Turn on auditing in Teams
 
-Before you can look at audit data, you have to first turn on auditing in the [Security & Compliance Center](https://protection.office.com). For help with turning on auditing, read [Turn audit log search on or off](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
+Before you can look at audit data, you have to first turn on auditing in the Microsoft 365 compliance center. For more information, see [Turn auditing on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off).
 
 > [!IMPORTANT]
 > Audit data is only available from the point at which you turned on auditing.
