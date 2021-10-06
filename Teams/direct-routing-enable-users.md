@@ -100,7 +100,7 @@ After you have created the user and assigned a license, the next step is to conf
     Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<phone number>
     ```
     > [!NOTE]
-    > By executing this cmdlet successfully to configure the user's phone number for Direct Routing, will be set OnPremLineUriManuallySet to True.
+    > By executing this cmdlet successfully to configure the user's phone number for Direct Routing, OnPremLineUriManuallySet will be set to True.
 
     For example, to add a phone number for user "Spencer Low," enter the following: 
 
