@@ -50,7 +50,7 @@ To help guide you as to what features are coming to which platform when, see the
 ||Pin multiple participants |●  |◔ |
 ||Spotlight multiple participants |● |◔ |
 ||Live reactions |●  |◔ |
-||Companion mode |PENDING |PENDING |
+||Companion mode |● |● |
 ||Live closed captions |●  |● |
 ||Cloud recording and meeting transcription |●  |● |
 ||Coordinated meetings with Surface Hub |● |○ |
@@ -74,7 +74,7 @@ To help guide you as to what features are coming to which platform when, see the
 ||Connected peripheral health monitoring |●  |◔ |
 ||Remote configuration (restart, settings, Log collection) |●  |● |
 ||Automatic Teams app updates |●  |● |
-||Device auto-enrollment |PENDING |PENDING |
+||Device auto-enrollment |● |◔ |
 ||Call quality analytics |●  |● |
 |**Good for / Space**|Focus (2-4 people) |●  |● |
 ||Small (4-6 people) |●  |● |
