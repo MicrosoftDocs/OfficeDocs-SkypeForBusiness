@@ -3,7 +3,7 @@ title: "Teams devices for Shared Spaces feature comparison between Windows and A
 author: amandafrechinjackson
 ms.author: v-amandaf
 manager: jsarrasin
-ms.date: 10/05/2021
+ms.date: 10/06/2021
 ms.topic: conceptual
 audience: ITPro
 ms.service: msteams
@@ -25,7 +25,7 @@ appliesto:
 # Teams devices for shared spaces feature comparison between Windows and Android 
 Microsoft Teams Rooms experiences are designed with customers in mind. Every customer has unique needs, which is why Microsoft offers a breadth of options, including Teams Rooms on Windows and on Android. 
 
-Overall, you will see that core functionality is available on both platforms so that end users can always have great audio and video experiences, can use one-touch join to join meetings, and can access inclusive features such as captions and raise hands. 
+Overall, you will see that core functionality is available on both platforms so that end users can always have great audio and video experiences, can use one-touch join to join meetings, and can access inclusive features such as captions and raise hand. 
 
 As Microsoft brings new features to Teams and to Teams Rooms, we strive to bring them to all platforms, but you may see these features roll out at different times due to a number of factors, including things like technical feasibility and what customers are asking for on which platforms. This means you may see some features rolling out on Windows before they come to the Android platform. 
 
