@@ -31,7 +31,7 @@ As Microsoft brings new features to Teams and to Teams Rooms, we strive to bring
 
 To help guide you as to what features are available on different platforms you can refer to the chart below, which will be updated periodically. Not all Teams Rooms features will be included on this list; please continue to consult the [Microsoft 365 roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap) and Microsoft sales representatives for additional details.    
 
-## Teams Devices for Shared Spaces
+## Teams devices for shared spaces
 ### Feature comparison between Windows and Android
 (September 2021) 
 	
@@ -44,7 +44,7 @@ To help guide you as to what features are available on different platforms you c
 ||Meet now |●  |● |
 ||Direct guest join |●  |◔ |
 |**Meeting engagement and collaboration**|Intuitive, purpose-built app experience |●  |● |
-||Video and content layouts (such as Together Mode, large gallery, gallery only, and gallery and content) |●  |● |
+||Video and content layouts (for example, Together Mode, large gallery, gallery only, and gallery and content) |●  |● |
 ||Chat bubbles|● |◔ |
 ||Raise hand, lower all hands |●  |● |
 ||Pin multiple participants |●  |◔ |
@@ -56,7 +56,7 @@ To help guide you as to what features are available on different platforms you c
 ||Coordinated meetings with Surface Hub |● |○ |
 ||Microsoft Whiteboard (on-screen inking available with touchscreen display) |●  |● |
 ||Intelligent content capture |●  |◔ |
-|**Meeting and device controls**|Room remote |●  |● |
+|**Meeting and device controls**|Room remote controls on mobile |●  |● |
 ||Wireless sharing |●  |● |
 ||Cast from mobile |●  |● |
 ||Video and content resolution: 1080p, 30 FPS |●  |● |
