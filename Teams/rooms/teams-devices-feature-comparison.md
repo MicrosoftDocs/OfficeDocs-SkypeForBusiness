@@ -3,7 +3,7 @@ title: "Teams devices for Shared Spaces feature comparison between Windows and A
 author: amandafrechinjackson
 ms.author: v-amandaf
 manager: jsarrasin
-ms.date: 10/06/2021
+ms.date: 10/07/2021
 ms.topic: conceptual
 audience: ITPro
 ms.service: msteams
@@ -25,11 +25,11 @@ appliesto:
 # Teams devices for shared spaces feature comparison between Windows and Android 
 Microsoft Teams Rooms experiences are designed with customers in mind. Every customer has unique needs, which is why Microsoft offers a breadth of options, including Teams Rooms on Windows and on Android. 
 
-Overall, you will see that core functionality is available on both platforms so that end users can always have great audio and video experiences, can use one-touch join to join meetings, and can access inclusive features such as captions and raise hand. 
+Core functionality is available on both platforms so end users can always have great audio and video experiences, can use one-touch join to join meetings, and can access inclusive features such as live captions and raise hand. 
 
-As Microsoft brings new features to Teams and to Teams Rooms, we strive to bring them to all platforms, but you may see these features roll out at different times due to a number of factors, including things like technical feasibility and what customers are asking for on which platforms. This means you may see some features rolling out on Windows before they come to the Android platform. 
+As Microsoft brings new features to Teams and to Teams Rooms, we strive to bring them to all platforms, but features may roll out at different times due to a number of factors, including things like technical feasibility and customer feedback for each platform. This means you may see some features rolling out on Windows before they come to the Android platform. 
 
-To help guide you as to what features are coming to which platform when, see the following chart, which will be updated periodically.    
+To help guide you as to what features are available on different platforms you can refer to the chart below, which will be updated periodically. Not all Teams Rooms features will be included on this list; please continue to consult the [Microsoft 365 roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap) and Microsoft sales representatives for additional details.    
 
 ## Teams Devices for Shared Spaces
 ### Feature comparison between Windows and Android
@@ -54,7 +54,7 @@ To help guide you as to what features are coming to which platform when, see the
 ||Live closed captions |●  |● |
 ||Cloud recording and meeting transcription |●  |● |
 ||Coordinated meetings with Surface Hub |● |○ |
-||Microsoft Whiteboard (touchscreen required) |●  |● |
+||Microsoft Whiteboard (on-screen inking available with touchscreen display) |●  |● |
 ||Intelligent content capture |●  |◔ |
 |**Meeting and device controls**|Room remote |●  |● |
 ||Wireless sharing |●  |● |
