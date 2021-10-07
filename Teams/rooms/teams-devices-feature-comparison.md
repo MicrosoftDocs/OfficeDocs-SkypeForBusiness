@@ -37,7 +37,7 @@ To help guide you as to what features are available on different platforms, you 
 	
 ● Available              ◔ Coming soon                           ○ Not available
 
-|                       |Features |Windows|Android|
+||Features |Windows|Android|
 |-----------------------|---------|--------|--------|
 |**Meeting join**|One-touch-join |●  |● |
 ||Proximity join |●  |● |
