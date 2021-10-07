@@ -104,7 +104,7 @@ You can add up to 200 agents via a Teams channel.
 If you want to [use a Teams channel to manage the queue](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e), select the **Choose a team** option and click **Add a channel**. Search for the team that you want to use, select it, and click **Add**. Select the channel that you want to use (only standard channels are supported) and click **Apply**. 
 
 > [!NOTE]
-> You must be a member of the team or the creator of or an owner of the channel.
+> You must be a member of the team or the creator or an owner of the channel to add a channel to the queue.
 
 The following clients are supported when using a Teams channel for call queues: 
 
