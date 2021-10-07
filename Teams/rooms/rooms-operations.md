@@ -164,7 +164,7 @@ By default, Microsoft Teams Rooms attempts to connect to the Windows Store to ge
   
 By default, Microsoft Teams Rooms connects to Windows Update to retrieve operating system and USB peripheral device firmware updates, and installs them outside of configured business hours. You can configure business hours by signing into the administrator account and running the Settings app.
   
-If you want to manage updates manually, and are unable to follow the normal procedure for [Microsoft Store for Business](https://businessstore.microsoft.com/store) to [Distribute offline apps](/microsoft-store/distribute-offline-apps), you can acquire and run the latest MTR-Update script here [Manually update a Microsoft Teams Rooms device](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/rooms/manual-update.md)
+If you want to manage updates manually, and are unable to follow the normal procedure for [Microsoft Store for Business](https://businessstore.microsoft.com/store) to [Distribute offline apps](/microsoft-store/distribute-offline-apps), you can acquire and run the latest MTR-Update script from [Manually update a Microsoft Teams Rooms device](/microsoftteams/rooms/manual-update).
 
 ## Admin mode and device management
 <a name="AdminMode"> </a>
