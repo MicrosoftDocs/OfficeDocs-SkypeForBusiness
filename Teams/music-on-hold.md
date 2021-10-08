@@ -20,7 +20,7 @@ ms.custom: Learn how to manage the Music on Hold feature in Phone System.
 
 When a Microsoft Teams user places an incoming call from the Public Switched Telephone Network (PSTN) on hold, the PSTN caller can listen to selected music.
 
-The music that is played is either the default music provided by Microsoft or custom music that you upload and configure. As the tenant administrator, you configure whether Music on Hold is available by using the Teams Calling Policy and assigning the policy to the Teams user. 
+The music that is played is either the default music provided by Microsoft or custom music that you upload and configure. As the tenant administrator, you configure whether Music on Hold is available by creating a Teams calling policy and assigning the policy to the Teams user. 
 
 Note that PSTN callers can listen to Music on Hold in other scenarios as well; for example, when they call into a Cloud Call Queue or when their call is parked by a Microsoft Teams user. These scenarios are not covered or controlled by the features mentioned in this article. 
 
@@ -36,7 +36,7 @@ To configure Music on Hold:
 
 You can also configure Music on Hold by using the Teams PowerShell module. In the TeamsCallingPolicy, change the MusicOnHoldEnabledType parameter to Enabled and then grant that policy instance to one or more users.
 
-If a Teams user has a Teams Calling Policy with Music on Hold set to Disabled, then no music will be played when the Teams user places the call on hold.
+If a Teams user has a Teams calling policy with Music on Hold set to Disabled, then no music will be played when the Teams user places the call on hold.
 
 ## Configure custom music
 
@@ -52,7 +52,7 @@ For example a department or organization might want to play a custom announcemen
 To configure custom Music on Hold, use the PowerShell cmdlets New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy and Import/Get/Remove-CsOnlineAudioFile in Teams PowerShell module 2.5.0 or later.
 
 
-1. Ensure that the Teams user has Music on hold for PSTN callers set to Enabled in the Teams Calling Policy. 
+1. Ensure that the Teams user has Music on hold for PSTN callers set to Enabled in the Teams calling policy. 
 
 2. Upload the custom audio file.
 
