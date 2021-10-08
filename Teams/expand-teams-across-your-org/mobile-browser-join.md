@@ -72,6 +72,10 @@ Here are the mobile browsers that are currently supported. We support the latest
 
 &sup2; Safari 14+ and macOS 11+ is needed for outgoing video support.
 
+## Things to consider
+
+The staff member who conducts the virtual visit can share their screen from their Teams desktop, mobile, or web client with an attendee who joins from a mobile browser. However, keep in mind that attendees can't share their screen from a mobile browser.
+
 > [!NOTE]
 > We're adding more capabilities to the meeting join experience in future releases of Teams, so check back for the most up-to-date information. To stay on top of upcoming Teams features, check out the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
 
