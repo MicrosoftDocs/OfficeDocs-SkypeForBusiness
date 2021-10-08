@@ -37,7 +37,7 @@ The Teams app usage report in the Microsoft Teams admin center provides you with
 
 |Callout |Description  |
 |--------|-------------|
-|**1** | The Teams Apps usage report can be viewed for trends over the last 7, 30 or 90 days. |
+|**1** | The Teams Apps usage report can be viewed for trends over the last 7, 30, or 90 days. |
 |**2** | Each report has a date for when the report was generated. The reports usually reflect a 24-hour latency from the time an app was opened. <br><br>![Screenshot of the Apps Usage report showing date ranges.](media/app-usage-report3.png)|
 |**3** | <ul><li>The X axis on the charts is the selected date range for the specific report.</li><li>The Y axis is the number of users who, for the given day, hovered over the chart and those users who have opened an app at least once and by doing so are considered an Active User and accrue towards the total seen on mouse hover over.</li></ul>|
 |**4** | Hover over the dot representing an Apps Usage on a given date to see the number of instances of that App’s Total Active Users on that given date.  |
