@@ -52,7 +52,6 @@ To customize and extend Teams, add third-party apps through [apps, bots, and con
 > [!TIP]
 > For a deep dive into Teams architecture, watch the videos on the [Teams Platform Academy](https://aka.ms/TeamsPlatformAcademy).
 
-
 ## Managing Teams
 
 As the admin, you'll manage Teams through the Microsoft Teams admin center. For a quick orientation, watch the Manage Teams using the Teams admin center video (3:03 min):

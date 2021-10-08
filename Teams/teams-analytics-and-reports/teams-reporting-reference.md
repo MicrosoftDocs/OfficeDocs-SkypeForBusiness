@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams analytics and reporting
-author: cichur
-ms.author: v-cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: conceptual
@@ -28,7 +28,7 @@ A new analytics and reporting experience for Microsoft Teams is available in the
 
 To access the reports, you must be a global admin in Microsoft 365 or Office 365, global reader in Microsoft 365 or Office 365, Teams service admin, or Skype for Business admin. To learn more about Teams admin roles and which reports each admin role can access, see [Use Teams administrator roles to manage Teams](../using-admin-roles.md).
 
-Go to the Microsoft Teams admin center, in the left navigation, select **Analytics & reports**, and then under **Report**, choose the report you want to run.
+Go to the Microsoft Teams admin center, in the left navigation, select **Analytics & reports**, and then under **View Reports**, choose the report you want to run.
 
 > [!NOTE]
 > The reports in the Microsoft Teams admin center are separate from the activity reports for Teams that are part of the Microsoft 365 reports in the Microsoft 365 admin center. For more information about the activity reports in the Microsoft 365 admin center, see [Teams activity reports in the Microsoft 365 admin center](../teams-activity-reports.md)

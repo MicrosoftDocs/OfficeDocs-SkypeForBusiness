@@ -1,9 +1,9 @@
 ---
 title: "Availability in Poland"
-ms.author: crowe
-author: CarolynRowe
+ms.author: czawideh
+author: cazawideh
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer:
 ms.topic: reference
 ms.assetid: c5dcb36b-9700-46c8-8499-d5cadb218a37
 ms.tgt.pltfrm: cloud
@@ -52,15 +52,12 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
    
 ## Calling Plans
 
-> [!IMPORTANT]
-> We are currently facing unexpected delays in Poland in fulfilling new phone number orders and porting orders. You can continue placing orders, but please note that we expect this delay to be resolved by September, at which time all pending orders will be fulfilled.
-
 |**Feature**|**Details**|
 |:-----|:-----|
 |Calling Plans are available to purchase?  <br/> |Yes  <br/> |
-|Minutes available for Calling Plans. |There are four plan options available per calendar month: <ul><li>120 minute Domestic Calling Plan </li><li>240 minute Domestic Calling Plan</li></li><li>1200 minute Domestic Calling Plan </li></li><li>Domestic and International Calling Plan:  1200 minutes of domestic -OR- 600 minutes of international calling (whichever is reached first in the calendar month)</li></li></ul>|
+|Minutes available for Calling Plans. |There are four plan options available per calendar month: <ul><li>120-minute Domestic Calling Plan </li><li>240-minute Domestic Calling Plan</li></li><li>1200-minute Domestic Calling Plan </li></li><li>Domestic and International Calling Plan:  1200 minutes of domestic -OR- 600 minutes of international calling (whichever is reached first in the calendar month)</li></li></ul>|
 |Can make outbound calls to premium numbers?  <br/> | Not supported at this time. <br/> |
-|Can make outbound calls to?  <br/> | To 196 countries, including [these](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
+|Can make outbound calls to?  <br/> | To 196 countries or regions, including [these](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## Toll and toll-free numbers for services
 
