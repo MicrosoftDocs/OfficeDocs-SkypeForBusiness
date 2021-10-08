@@ -99,7 +99,7 @@ Review the [prerequisites for adding agents to a call queue](plan-auto-attendant
 
 ##### Teams channel
 
-You can add up to 200 agents via a Teams channel. You must be a member of the team or the creator or an owner of the channel to add a channel to the queue.
+You can add up to 200 agents via a Teams channel. Note that you must be a member of the team or the creator or an owner of the channel to add a channel to the queue.
 
 If you want to [use a Teams channel to manage the queue](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e), select the **Choose a team** option and click **Add a channel**. Search for the team that you want to use, select it, and click **Add**. Select the channel that you want to use (only standard channels are supported) and click **Apply**. 
 
