@@ -1,6 +1,6 @@
 ---
 title: "Plan the Skype for Business 2015 client experience for your users"
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars

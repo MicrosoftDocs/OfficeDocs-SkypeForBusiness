@@ -1,6 +1,6 @@
 ---
 title: "Toll-free dialing restrictions in Sweden"
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: davlick, krkilaru

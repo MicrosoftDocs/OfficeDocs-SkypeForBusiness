@@ -1,7 +1,7 @@
 ---
 title: "Phone number management for Denmark"
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: davlick,krkilaru
 ms.topic: reference

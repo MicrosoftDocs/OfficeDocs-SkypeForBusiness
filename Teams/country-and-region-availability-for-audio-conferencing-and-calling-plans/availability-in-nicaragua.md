@@ -1,7 +1,7 @@
 ---
 title: "Availability in Nicaragua"
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference

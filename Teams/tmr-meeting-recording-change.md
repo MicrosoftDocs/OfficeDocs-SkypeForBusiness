@@ -1,7 +1,7 @@
 ---
 title: Use OneDrive for Business and SharePoint for meeting recordings
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: debhag
 manager: serdars
 ms.topic: article

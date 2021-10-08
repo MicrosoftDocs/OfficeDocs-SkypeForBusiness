@@ -1,7 +1,7 @@
 ---
 title: "Skype for Business Server Persistent Chat planning tool"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015

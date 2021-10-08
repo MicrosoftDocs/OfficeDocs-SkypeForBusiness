@@ -1,7 +1,7 @@
 ---
 title: Manage your network topology for cloud voice features in Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: Network settings for cloud voice features
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
 ms.reviewer: roykuntz

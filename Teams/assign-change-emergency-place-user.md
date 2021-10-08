@@ -1,7 +1,7 @@
 ---
 title: "Assign, change places for emergency locations for users"
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article

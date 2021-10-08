@@ -1,6 +1,6 @@
 ---
 title: "Manage Windows Updates for Microsoft Teams Rooms"
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: sohailta
 manager: serdars

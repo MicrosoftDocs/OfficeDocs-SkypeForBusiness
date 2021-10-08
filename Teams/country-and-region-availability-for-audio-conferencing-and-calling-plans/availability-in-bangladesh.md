@@ -1,7 +1,7 @@
 ---
 title: "Availability in Bangladesh"
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference

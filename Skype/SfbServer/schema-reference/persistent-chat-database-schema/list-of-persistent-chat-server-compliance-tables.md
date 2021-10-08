@@ -1,7 +1,7 @@
 ---
 title: "List of Persistent Chat Server compliance tables in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015

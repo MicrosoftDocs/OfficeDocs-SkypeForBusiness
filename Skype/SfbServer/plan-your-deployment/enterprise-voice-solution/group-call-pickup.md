@@ -1,7 +1,7 @@
 ---
 title: "Plan for Group Call Pickup in Skype for Business"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
