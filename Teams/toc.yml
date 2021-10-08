@@ -111,8 +111,6 @@ items:
               href: teams-for-vdi.md
             - name: Teams for Remote Desktop environment (RDP)
               href: teams-on-rdp.md
-            - name: Deploy Teams for Surface Hub
-              href: teams-surface-hub.md
             - name: Teams client updates
               href: teams-client-update.md
             - name: Troubleshoot installation and update issues
@@ -300,6 +298,8 @@ items:
           href: audit-log-events.md
         - name: Customer key
           href: /microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Export API for Teams content
+          href: export-teams-content.md
     - name: Privacy
       items: 
         - name: Privacy and Microsoft Teams
@@ -657,10 +657,12 @@ items:
               href: cloud-video-interop.md
             - name: View-only meeting experience
               href: view-only-meeting-experience.md
+            - name: Stream Teams meetings
+              href: stream-teams-meetings.md
         - name: Set up the Meeting Migration Service (MMS)
           href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Set up for webinars in Microsoft Teams
-          href: set-up-webinars.md 
+          href: set-up-webinars.md
 
         - name: Live events
           items: 
@@ -793,6 +795,8 @@ items:
           items: 
             - name: Overview of Microsoft Teams Rooms planning
               href: rooms/rooms-plan.md
+            - name: Teams devices feature comparison between Windows and Android
+              href: rooms/teams-devices-feature-comparison.md   
             - name: Version support
               href: rooms/rooms-lifecycle-support.md
             - name: Release notes
@@ -1699,8 +1703,6 @@ items:
           href: alerts/device-health-status.md 
         - name: Teams devices and peripherals
           href: teams-device-health.md
-        - name: Administrative unit functionality for device management
-          href: administrative-unit.md
     - name: Teams PowerShell
       items: 
         - name: Overview

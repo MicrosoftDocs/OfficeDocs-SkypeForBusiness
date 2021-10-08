@@ -37,18 +37,20 @@ For a complete list of Teams activities that are audited, see [Teams activities]
 
 ## Turn on auditing in Teams
 
-Before you can look at audit data, you have to first turn on auditing in the [Security & Compliance Center](https://protection.office.com). For help with turning on auditing, read [Turn audit log search on or off](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
+Before you can look at audit data, you have to first turn on auditing in the Microsoft 365 compliance center. For more information, see [Turn auditing on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off).
 
 > [!IMPORTANT]
 > Audit data is only available from the point at which you turned on auditing.
 
 ## Retrieve Teams data from the audit log
 
-1. To retrieve audit logs, go to the [Security & Compliance Center](https://go.microsoft.com/fwlink/?linkid=855775). Under **Search**, select **Audit log search**.
+1. To retrieve audit logs for Teams activities, go to <https://compliance.microsoft.com> and select **Audit**.
 
-2. Use **Search** to filter by the activities, dates, and users you want to audit.
+2. On the **Search** page, filter the activities, dates, and users you want to audit.
 
 3. Export your results to Excel for further analysis.
+
+For step-by-step instructions, see [Search the audit log in the compliance center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#search-the-audit-log).
 
 > [!IMPORTANT]
 > Audit data is only visible in the audit log if auditing is turned on.
@@ -59,17 +61,17 @@ The length of time that an audit record is retained and searchable in the audit 
 
 Here are tips for searching for Teams activities in the audit log.
 
-![Screenshot of audit log search page.](media/audit-log-search-page.png)
+![Screenshot of the audit log search page in the compliance center](media/audit-log-search-page.png)
 
-- You can select specific activities to search for by clicking the activity name. Or you can search for all activities in a group (such as **File and folder activities**) by clicking the group name. If an activity is selected, you can click it to cancel the selection. You can also use the search box to display the activities that contain the keyword that you type.
+- You can select specific activities to search for by clicking the checkbox next to one or more activities. If an activity is selected, you can click it to cancel the selection. You can also use the search box to display the activities that contain the keyword that you type.
 
-  ![Screenshot of audit log search.](media/audit-log-search.png)
+  ![Screenshot of activities dropdown list on the audit log search page](media/audit-log-search.png)
 
-- To display events for activities run using cmdlets, select **Show results for all activities** in the **Activities** list. If you know the name of the operation for these activities, search for all activities, and then filter the results by typing the name of the operation in the box in the **Activity** column. To learn more, see [Step 3: Filter the search results](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-filter-the-search-results).
+- To display events for activities run using cmdlets, select **Show results for all activities** in the **Activities** list. If you know the name of the operation for these activities, type it in the search box to display the activity and then select it.
 
-- To clear the current search criteria, click **Clear**. The date range returns to the default of the last seven days. You can also click **Clear all to show results for all activities** to cancel all selected activities.
+- To clear the current search criteria, click **Clear all**. The date range returns to the default of the last seven days.
 
-- If 5,000 results are found, you can probably assume that there are more than 5,000 events that met the search criteria. You can refine the search criteria and rerun the search to return fewer results, or you can export all the search results by selecting **Export** > **Download all results**.
+- If 5,000 results are found, you can probably assume that there are more than 5,000 events that met the search criteria. You can refine the search criteria and rerun the search to return fewer results, or you can export all the search results by selecting **Export** > **Download all results**. For step-by-step instructions to export audit logs, see [Export the search results to a file](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-export-the-search-results-to-a-file).
 
 Check out [this video](https://www.youtube.com/embed/UBxaRySAxyE) for using audio log search. Join Ansuman Acharya, a program manager for Teams, as he demonstrates how to do an audit log search for Teams.
 

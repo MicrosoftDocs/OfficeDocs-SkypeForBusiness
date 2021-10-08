@@ -2514,6 +2514,16 @@
       "source_path": "Teams/release-notes/release-notes.md",
       "redirect_url": "/OfficeUpdates/teams-admin",
       "redirect_document_id": false
-    }
+    },
+    {
+     "source_path": "Teams/teams-surface-hub.md",
+     "redirect_url": "/MicrosoftTeams/",
+     "redirect_document_id": false 
+    },
+    {
+      "source_path": "Teams/administrative-unit.md",
+      "redirect_url": "/MicrosoftTeams/",
+      "redirect_document_id": false 
+     }
   ] 
 }
