@@ -68,8 +68,9 @@ When a call queue agents receives a call on their mobile device, calls may go on
 
 ## Related topics
 
--    [What is Phone System in Microsoft 365 or Office 365](what-is-phone-system-in-office-365.md)
--    [Create a Cloud call queue](create-a-phone-system-call-queue.md)
--    [What are Cloud auto attendants?](what-are-phone-system-auto-attendants.md)
--    [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md)
+[Create a Cloud call queue](create-a-phone-system-call-queue.md)
+
+[What are Cloud auto attendants?](what-are-phone-system-auto-attendants.md)
+
+[Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md)
 

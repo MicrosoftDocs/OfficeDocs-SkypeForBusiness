@@ -255,7 +255,7 @@ You can also use PowerShell to create and set up auto attendants. Here are the c
 
 ## Related topics
 
-[Here's what you get with Phone System](./here-s-what-you-get-with-phone-system.md)
+[Here's what you get with Teams Phone](./here-s-what-you-get-with-phone-system.md)
 
 [Getting service phone numbers](./getting-service-phone-numbers.md)
 

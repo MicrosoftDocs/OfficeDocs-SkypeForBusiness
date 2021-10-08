@@ -119,8 +119,6 @@ The following voice commands are available for speech recognition:
 
 ## Related topics
 
-[Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md)
-
 [Getting service phone numbers for Skype for Business and Microsoft Teams](./getting-service-phone-numbers.md)
 
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
