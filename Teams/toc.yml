@@ -111,8 +111,6 @@ items:
               href: teams-for-vdi.md
             - name: Teams for Remote Desktop environment (RDP)
               href: teams-on-rdp.md
-            - name: Deploy Teams for Surface Hub
-              href: teams-surface-hub.md
             - name: Teams client updates
               href: teams-client-update.md
             - name: Troubleshoot installation and update issues
@@ -300,6 +298,8 @@ items:
           href: audit-log-events.md
         - name: Customer key
           href: /microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Export API for Teams content
+          href: export-teams-content.md
     - name: Privacy
       items: 
         - name: Privacy and Microsoft Teams
@@ -328,8 +328,6 @@ items:
       href: manage-teams-overview.md
     - name: Administrator roles
       href: using-admin-roles.md
-    - name: Manage Teams during the transition to the new Microsoft Teams admin center
-      href: manage-teams-skypeforbusiness-admin-center.md
     - name: Manage Teams in the Microsoft Teams admin center
       href: manage-teams-in-modern-portal.md
     - name: Manage Teams settings for your organization
@@ -417,6 +415,8 @@ items:
               href: set-up-call-analytics.md
             - name: Use call analytics to troubleshoot poor call quality
               href: use-call-analytics-to-troubleshoot-poor-call-quality.md
+            - name: Use real-time telemetry to troubleshoot poor meeting quality
+              href: use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md
         - name: Quality of Service (QoS)
           items: 
             - name: Set up QoS in Teams
@@ -655,10 +655,12 @@ items:
               href: cloud-video-interop.md
             - name: View-only meeting experience
               href: view-only-meeting-experience.md
+            - name: Stream Teams meetings
+              href: stream-teams-meetings.md
         - name: Set up the Meeting Migration Service (MMS)
           href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Set up for webinars in Microsoft Teams
-          href: set-up-webinars.md 
+          href: set-up-webinars.md
 
         - name: Live events
           items: 
@@ -769,6 +771,8 @@ items:
       items: 
         - name: Overview
           href: rooms/index.md
+        - name: Meeting room guidance for Teams
+          href: teams-meeting-room-guidance.md
         - name: Microsoft Teams Rooms managed service
           items: 
             - name: Plan management
@@ -789,6 +793,8 @@ items:
           items: 
             - name: Overview of Microsoft Teams Rooms planning
               href: rooms/rooms-plan.md
+            - name: Teams devices feature comparison between Windows and Android
+              href: rooms/teams-devices-feature-comparison.md   
             - name: Version support
               href: rooms/rooms-lifecycle-support.md
             - name: Release notes
@@ -920,6 +926,8 @@ items:
           href: shared-line-appearance.md
         - name: Dial pad configuration
           href: dial-pad-configuration.md
+        - name: Music on Hold
+          href: music-on-hold.md
 
     - name: PSTN connectivity options
       items:
@@ -1021,33 +1029,44 @@ items:
     - name: Phone numbers
       items: 
         - name: Manage phone numbers for your organization
-          href: manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
-        - name: Types of phone numbers used for Calling Plan
-          href: different-kinds-of-phone-numbers-used-for-calling-plans.md
-        - name: Getting phone numbers for your users
-          href: getting-phone-numbers-for-your-users.md
+          href: manage-phone-numbers-landing-page.md
         - name: How many phone numbers can you get?
           href: how-many-phone-numbers-can-you-get.md
         - name: Search for phone numbers for users
           href: search-for-phone-numbers-for-users.md
-        - name: See a list of phone numbers in your organization
-          href: see-a-list-of-phone-numbers-in-your-organization.md
         - name: Assign, change, or remove a phone number for a user
           href: assign-change-or-remove-a-phone-number-for-a-user.md
-        - name: Getting service phone numbers
-          href: getting-service-phone-numbers.md
-        - name: Transferring phone numbers
+        - name: See a list of phone numbers in your organization
+          href: see-a-list-of-phone-numbers-in-your-organization.md
+
+
+        - name: Manage phone numbers for Calling Plan
           items: 
-            - name: What's a port order?
-              href: phone-number-calling-plans/port-order-overview.md
-            - name: Transfer phone numbers to Teams
-              href: phone-number-calling-plans/transfer-phone-numbers-to-teams.md
-            - name: Manually submit a port order
-              href: phone-number-calling-plans/manually-submit-port-order.md
-            - name: What's the status of your port orders?
-              href: phone-number-calling-plans/port-order-status.md
-        - name: Supported rate centers and coverage
-          href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
+            - name: Overview
+              href: manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
+            - name: Getting phone numbers for your users
+              href: getting-phone-numbers-for-your-users.md
+            - name: Get service phone numbers
+              href: getting-service-phone-numbers.md
+            - name: Transferring phone numbers
+              items: 
+                - name: What's a port order?
+                  href: phone-number-calling-plans/port-order-overview.md
+                - name: Transfer phone numbers to Teams
+                  href: phone-number-calling-plans/transfer-phone-numbers-to-teams.md
+                - name: Manually submit a port order
+                  href: phone-number-calling-plans/manually-submit-port-order.md
+                - name: What's the status of your port orders?
+                  href: phone-number-calling-plans/port-order-status.md
+            - name: Supported rate centers and coverage
+              href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
+        
+        - name: Manage phone numbers for Operator Connect
+          href: operator-connect-configure.md#set-up-phone-numbers
+          
+        - name: Manage phone numbers for Direct Routing
+          href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online
+
     - name: Voice routing
       items: 
         - name: What are dial plans?
@@ -1114,10 +1133,14 @@ items:
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md
             - name: Phone number management for Canada
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md
+            - name: Phone number management for Croatia
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-croatia.md
             - name: Phone number management for the Czech Republic
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-czech-republic.md
             - name: Phone number management for Denmark
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md
+            - name: Phone number management for Estonia
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-estonia.md
             - name: Phone number management for Finland
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-finland.md
             - name: Phone number management for France
@@ -1132,6 +1155,10 @@ items:
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md
             - name: Phone number management for Japan
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md
+            - name: Phone number management for Latvia
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-latvia.md
+            - name: Phone number management for Lithuania
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-lithuania.md
             - name: Phone number management for Luxembourg
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg.md
             - name: Phone number management for New Zealand
@@ -1148,6 +1175,8 @@ items:
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-singapore.md
             - name: Phone number management for Slovakia
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-slovakia.md
+            - name: Phone number management for Slovenia
+              href: manage-phone-numbers-for-your-organization/phone-number-management-for-slovenia.md
             - name: Phone number management for Spain
               href: manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md
             - name: Phone number management for the Netherlands
@@ -1374,6 +1403,8 @@ items:
       href: deploy-apps-microsoft-teams-landing-page.md
     - name: Apps from Microsoft
       items:
+        - name: Manage the Bookings app
+          href: bookings-app-admin.md
         - name: Manage the Lists app 
           href: manage-lists-app.md
         - name: Manage the Tasks app
@@ -1382,7 +1413,7 @@ items:
           href: manage-praise-app.md
         - name: Manage the Teams Approvals app
           href: approval-admin.md
-        - name: Manage the Shifts app for your organization in Teams
+        - name: Manage the Shifts app
           href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
           
     - name: Third-party apps
@@ -1447,8 +1478,14 @@ items:
         - name: Shifts for Teams
           href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
           items: 
-            - name: Manage the Shifts app for your organization in Teams
+            - name: Manage the Shifts app
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+        - name: Bookings in Teams
+          items: 
+            - name: Virtual visits with Teams and Bookings
+              href: expand-teams-across-your-org/bookings-virtual-visits.md
+            - name: Manage the Bookings app
+              href: bookings-app-admin.md
     - name: Teams for Healthcare
       items: 
         - name: Get started with Teams for healthcare organizations
@@ -1459,8 +1496,8 @@ items:
               href: expand-teams-across-your-org/healthcare/ehr-admin.md
             - name: EHR admin reports
               href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
-            - name: Virtual visits with Bookings and Teams
-              href: bookings-app-admin.md
+            - name: Virtual visits with Teams and Bookings
+              href: expand-teams-across-your-org/bookings-virtual-visits.md
             - name: Manage the join experience on mobile browsers
               href: expand-teams-across-your-org/mobile-browser-join.md              
         - name: View and assign policy packages
@@ -1549,7 +1586,7 @@ items:
     - name: Teams for Retail
       href: expand-teams-across-your-org/teams-for-retail-landing-page.md
       items:
-        - name: Get started with Retail team templates
+        - name: Use retail team templates
           href: get-started-with-retail-teams-templates.md
     - name: Teams for Government
       href: expand-teams-across-your-org/teams-for-government-landing-page.md
@@ -1620,8 +1657,6 @@ items:
           href: sharepoint-onedrive-interact.md
     - name: Teams devices for Education
       href: devices-for-education.md
-    - name: Meeting room guidance for Teams
-      href: teams-meeting-room-guidance.md
     - name: Supported devices
       items: 
         - name: Manage your devices in Teams
@@ -1666,8 +1701,6 @@ items:
           href: alerts/device-health-status.md 
         - name: Teams devices and peripherals
           href: teams-device-health.md
-        - name: Administrative unit functionality for device management
-          href: administrative-unit.md
     - name: Teams PowerShell
       items: 
         - name: Overview

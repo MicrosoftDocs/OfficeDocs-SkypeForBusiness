@@ -52,13 +52,13 @@ Go to [Country and region availability for Audio Conferencing and Calling Plans]
     
 3. We also recommend that you assign Communications Credits licenses (they don’t cost anything) to the same people you assigned licenses to in the previous step. To learn how to set up Communications Credits, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).
     
-> [!NOTE]
-> You can also set up [pay-per-minute Audio Conferencing](audio-conferencing-pay-per-minute.md).
+   > [!NOTE]
+   > You can also set up [pay-per-minute Audio Conferencing](audio-conferencing-pay-per-minute.md).
 
 ## Step 3: Get service numbers for your conferencing bridges
 <a name="__top"> </a>
 
-For Audio Conferencing, you can’t use phone numbers for users; you will need to get service numbers. You can get either toll or toll-free service numbers for your conferencing bridges. There are three ways to get toll and toll-free service numbers: 
+For Audio Conferencing, you can’t use phone numbers for users; you will need to get service numbers. You can get either toll or toll-free service numbers for your conferencing bridges. There are three ways to get toll and toll-free service numbers:
   
 - **Use the Microsoft Teams admin center**. For some countries/regions, you can get service numbers for your conferencing bridges using the Microsoft Teams admin center. See [Getting service phone numbers](./getting-service-phone-numbers.md).
     
@@ -87,7 +87,7 @@ Next, you want to [Set auto attendant languages for Audio Conferencing in Micros
 
 ![An icon showing the Microsoft Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**:
 
-1. From the Dashboard, go to **Meetings** > **Conference bridges**.
+1. From the Home, go to **Meetings** > **Conference bridges**.
 2. Select the conferencing bridge phone number, click **Edit**, and then choose the default language.
 
 ## Step 6: Set your conferencing bridge settings
@@ -97,7 +97,7 @@ After setting up your conferencing bridge, verify that the default settings such
 
 ![An icon showing the Microsoft Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**:
 
-1. From the Dashboard, go to **Meetings** > **Conference bridges**.
+1. From the Home, go to **Meetings** > **Conference bridges**.
 2. Select **Bridge settings**. This will open the **Bridge settings** pane. 
 
 For more details, see [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).
@@ -110,7 +110,7 @@ You will need to do this for all of the people in your organization who lead or 
 
 ![An icon showing the Microsoft Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**:
 
-1. From the Dashboard, click **Users**, select the user from the list, and select **Edit**.
+1. From the Home, click **Users**, select the user from the list, and select **Edit**.
 2. Select **Edit** next to **Audio Conferencing**, and then in the **Audio Conferencing** pane, choose a number in the **Toll number** and **Toll-free** number lists.
 
 If you need more details, see [Assign Microsoft as the audio conferencing provider](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).

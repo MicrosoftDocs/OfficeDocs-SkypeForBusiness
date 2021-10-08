@@ -99,9 +99,9 @@ Review the [prerequisites for adding agents to a call queue](plan-auto-attendant
 
 ##### Teams channel
 
-You can add up to 200 agents via a Teams channel.
+You can add up to 200 agents via a Teams channel. Note that you must be a member of the team or the creator or an owner of the channel to add a channel to the queue.
 
-If you want to [use a Teams channel to manage the queue](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e), select the **Choose a team** option and click **Add a channel**. Search for the team that you want to use, select it, and click **Add**. Select the channel that you want to use (only standard channels are supported) and click **Apply**. You must be a member of the team or the creator of or an owner of the channel.
+If you want to [use a Teams channel to manage the queue](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e), select the **Choose a team** option and click **Add a channel**. Search for the team that you want to use, select it, and click **Add**. Select the channel that you want to use (only standard channels are supported) and click **Apply**. 
 
 The following clients are supported when using a Teams channel for call queues: 
 
@@ -131,7 +131,7 @@ To add a group to the queue, click **Add groups**, search for the group, click *
 **Conference mode** significantly reduces the amount of time it takes for a caller to be connected to an agent, after the agent accepts the call. For conference mode to work, agents in the call queue must use one of the following clients:
 
   - The latest version of the Microsoft Teams desktop client, Android app, or iOS app
-  - Microsoft Teams phone version 1449/1.0.94.2020051601 or later
+  - Microsoft Teams Phone version 1449/1.0.94.2020051601 or later
   
 Agents' Teams accounts need to be set to Teams-only mode. Agents who don't meet the requirements aren't included in the call routing list. We recommend enabling conference mode for your call queues if your agents are all using compatible clients.
 
@@ -153,6 +153,9 @@ Agents' Teams accounts need to be set to Teams-only mode. Agents who don't meet 
 
 > [!TIP]
 > Setting **Routing Method** to **Round robin** or **Longest idle** is the recommended setting.
+
+> [!NOTE]
+> If [Compliance recording](teams-recording-policy.md) is enabled on the agents, the combination of **Conference mode** and **Attendant routing** is not supported. If you need to use **Conference mode**, select **Serial Routing**, **Round robin**, or **Longest idle** as the **Routing method**. If you need to use **Attendant routing**, set **Conference mode** to **Off**.
 
 ![Screenshot of routing, opt out, and alert time settings.](media/call-queue-presence-agents-time.png)
 
@@ -241,7 +244,7 @@ You can also use Windows PowerShell to create and set up call queues. Here are t
 
 ## Related topics
 
-[Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md)
+[Here's what you get with Microsoft Teams Phone](here-s-what-you-get-with-phone-system.md)
 
 [Getting service phone numbers](getting-service-phone-numbers.md)
 

@@ -90,6 +90,7 @@ KB 4470124 is the master KB for Skype for Business Server 2019 which has all the
 
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
+|Lync Server 2013 Cumulative Update 10 Hotfix 5 |[KB 2809243](https://support.microsoft.com/kb/2809243)|Sept 2021|
 |Lync Server 2013 Cumulative Update 10 Hotfix 4 |[KB 4515509](https://support.microsoft.com/kb/4515509)|July 2020|
 |Lync Server 2013 Cumulative Update 10 Hotfix 3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|September 2019|
 |Lync Server 2013 Cumulative Update 10 Hotfix 2 |[KB 4501392](https://support.microsoft.com/kb/4501392)|June 2019|
@@ -151,7 +152,7 @@ Package Name |Release Date|
 | Lync Connectivity Analyzer (64-bit) RETIRED |June 2017 |
 | Lync Server 2013 Best Practices Analyzer |October 2012 |
 |[Lync Server 2013 Capacity Calculator](https://www.microsoft.com/download/details.aspx?id=36828) |July 2013 |
-|[Lync Server 2013 Debugging Tools](https://www.microsoft.com/download/details.aspx?id=35453) |January 2014 |
+|Lync Server 2013 Debugging Tools |January 2014 |
 | Lync Server 2013 Management Pack |May 2016 |
 | Lync Server 2013 Persistent Chat Resource Kit |July 2013 |
 | Lync Server 2013 Planning Tool |July 2013 |
@@ -270,4 +271,4 @@ Software updates include any update, update rollup, service pack, feature pack, 
 - [Install Skype for Business Server 2015](./deploy/install/install.md)
 - [Upgrade to  Skype for Business Server 2015](./deploy/upgrade-to-skype-for-business-server.md)
 - [Latest updates for versions of Skype for Business that use Windows Installer (MSI)](sfb-client-updates.md)
-- 
+

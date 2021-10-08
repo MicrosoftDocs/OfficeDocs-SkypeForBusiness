@@ -1,9 +1,8 @@
 ---
-title: "Manage phone numbers for your organization"
-author: CarolynRowe
-ms.author: crowe
+title: "Manage phone numbers for Calling Plan"
+author: cazawideh
+ms.author: czawideh
 manager: serdars
-ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: conceptual
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
@@ -29,9 +28,9 @@ ms.custom:
 description: Learn how to get and manage user (subscriber) and service (toll and toll-free) phone numbers for Microsoft Teams for your organization.
 ---
 
-# Manage phone numbers for your organization
+# Manage phone numbers for Calling Plan
 
-There are four ways to get user (subscriber) and service (toll and toll-free) phone numbers for your organization:
+There are four ways to get user (subscriber) and service (toll and toll-free) phone numbers for Calling Plan:
 
 - [Getting new user phone numbers in the Microsoft Teams admin center](../getting-phone-numbers-for-your-users.md#get-new-phone-numbers-for-your-users).
 - [Getting new service phone numbers in the Microsoft Teams Admin Center](../getting-service-phone-numbers.md#get-new-service-numbers).
@@ -51,8 +50,10 @@ If you know what kind of forms you are looking for, use the drop-down to select 
 > - [Austria](phone-number-management-for-austria.md)
 > - [Belgium](phone-number-management-for-belgium.md)
 > - [Canada](phone-number-management-for-canada.md)
+> - [Croatia](phone-number-management-for-croatia.md)
 > - [Czech Republic](phone-number-management-for-czech-republic.md)
 > - [Denmark](phone-number-management-for-denmark.md)
+> - [Estonia](phone-number-management-for-estonia.md)
 > - [Finland](phone-number-management-for-finland.md)
 > - [France](phone-number-management-for-france.md)
 > - [Germany](phone-number-management-for-germany.md)
@@ -60,6 +61,8 @@ If you know what kind of forms you are looking for, use the drop-down to select 
 > - [Ireland](phone-number-management-for-ireland.md)
 > - [Italy](phone-number-management-for-italy.md)
 > - [Japan](phone-number-management-for-japan.md)
+> - [Latvia](phone-number-management-for-latvia.md)
+> - [Lithuania](phone-number-management-for-lithuania.md)
 > - [Luxembourg](phone-number-management-for-luxembourg.md)
 > - [New Zealand](phone-number-management-for-new-zealand.md)
 > - [Norway](phone-number-management-for-norway.md)
@@ -68,6 +71,7 @@ If you know what kind of forms you are looking for, use the drop-down to select 
 > - [Romania](phone-number-management-for-romania.md)
 > - [Singapore](phone-number-management-for-singapore.md)
 > - [Slovakia](phone-number-management-for-slovakia.md)
+> - [Slovenia](phone-number-management-for-slovenia.md)
 > - [Spain](phone-number-management-for-spain.md)
 > - [Sweden](phone-number-management-for-sweden.md)
 > - [Switzerland](phone-number-management-for-switzerland.md)
@@ -77,7 +81,9 @@ If you know what kind of forms you are looking for, use the drop-down to select 
 
 ***
 
-## Here's a bit more information about these number request forms
+## Number request forms
+
+The following sections describe request forms for new numbers and for transferring existing numbers.
 
 ### Request forms for new phone numbers
 
@@ -87,9 +93,9 @@ Sometimes (depending on your country or region) you won't be able to get new use
 
 If so, you will need to download the correct PDF LOA form (per country or region and type of phone numbers) and send it back to us. Our service desk will take it from there and start processing your request.
 
-### Letters of Authorization (LOAs) to transfer/port existing phone numbers from another service provider to Microsoft Teams
+### Letters of Authorization (LOAs) to transfer/port existing phone numbers 
 
-If you need to transfer/port your existing phone numbers, you will need to download, fill and send us a Letter of Authorization (LOA), which gives us permission to request and transfer, on your behalf, those existing numbers from a different service provider into Microsoft Teams.
+If you need to transfer/port your existing phone numbers from another service provider to Teams, you will need to download, fill, and send us a Letter of Authorization (LOA). The LOA gives Microsoft permission to request and transfer, on your behalf, those existing numbers from a different service provider into Teams.
 
 Please send us an **LOA** if you currently have the following with another carrier:
 
@@ -102,7 +108,7 @@ Once you have your **filled and signed** LOA, please [contact our PSTN Service D
 
 ## Still need assistance?
 
-[Please contact our PSTN Service Desk](./contact-pstn-service-desk.md) and we will assist you as soon as possible.
+If you need assistance, please [contact the PSTN Service Desk](./contact-pstn-service-desk.md).
 
 ## Additional resources
 
