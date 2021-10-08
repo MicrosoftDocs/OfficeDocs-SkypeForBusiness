@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
-description: "Summary: Configure test user accounts and watcher node settings for Skype for Business Server synthetic transactions."
+description: "Configure test user accounts and watcher node settings for Skype for Business Server synthetic transactions."
 ---
 
 # Skype for Business Server: Configure watcher node test users and settings
