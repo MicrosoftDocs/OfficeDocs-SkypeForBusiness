@@ -225,10 +225,3 @@ PowerView includes a scalable data warehouse that produces rich reports on the o
 
 Administrators can drill down through more than 30 prepackaged reports to browse usage, view by department or geography, sort by total usage or costs, and navigate to individual user reports. Customized reports can also be created to meet specific requirements. Reporting subscriptions can enable automation of activities such as sending out monthly departmental billing summaries.
 
-* * *
-### Related resources
-[Microsoft Lync](https://lync.microsoft.com/en-us/Pages/unified-communications.aspx)
-
-Microsoft Premier Support for Lync Partners on:
-- [Microsoft Premier](https://www.microsoft.com/microsoftservices/en/us/lync_for_partners.aspx)
-- [Microsoft Partner Network](https://partner.microsoft.com/global/40168229)

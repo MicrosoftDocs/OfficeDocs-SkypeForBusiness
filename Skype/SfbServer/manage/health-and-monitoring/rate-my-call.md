@@ -62,7 +62,7 @@ Data from users is collected in two tables in the monitoring database.
 
 Token definitions are coded as follows:
 
-|||
+|#|Definition|
 |:-----|:-----|
 |1  <br/> |DistortedSpeech  <br/> |
 |2  <br/> | ElectronicFeedback <br/> |
