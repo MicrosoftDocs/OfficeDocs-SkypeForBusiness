@@ -1,7 +1,7 @@
 ---
 title: "Set up an auto attendant for Microsoft Teams"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article

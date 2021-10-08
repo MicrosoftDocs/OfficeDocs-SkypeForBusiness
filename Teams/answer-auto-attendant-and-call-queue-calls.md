@@ -1,8 +1,8 @@
 ---
 title: Answer auto attendant and call queue calls
 ms.reviewer: colongma
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 audience: ITPro
 ms.date: 09/20/2018
