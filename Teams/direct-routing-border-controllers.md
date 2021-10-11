@@ -37,9 +37,10 @@ Microsoft works with each vendor to:
   > The certification is granted to specific SBC firmware versions. Any SBC firmware version documented below is both certified and supported. Firmware versions that are higher than what is documented are supported as long as the major.minor version is the same.
   >
   > Example:
-  > - Supported 6.10.258 - in this case, we also support firmware versions 6.10.(258 or higher)
-  > - Recommended 6.20.100 - in this case, we also recommend firmware versions 6.20.(100 or higher)
-  > - For supportability questions about specific version reach out to your SBC vendor.
+  >
+  > - Supported 6.10.258 - in this case, we also support firmware versions 6.10.(258 or higher).
+  > - Recommended 6.20.100 - in this case, we also recommend firmware versions 6.20.(100 or higher).
+  > - For supportability questions about specific version, reach out to your SBC vendor.
 
 The tables that follow list devices certified for Direct Routing. (For information about which SBC vendors support Local Media Optimization, see [Configure Local Media Optimization for Direct Routing](direct-routing-media-optimization-configure.md).)
 
