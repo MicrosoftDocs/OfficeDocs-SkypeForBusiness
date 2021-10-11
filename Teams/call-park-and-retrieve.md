@@ -48,7 +48,7 @@ You can specify a timeout as the number of seconds to wait before ringing back w
 
 To set the custom park range and park timeout, use the New- and Set-CsTeamsCallParkPolicy cmdlets available in Teams PowerShell Module 2.6.0 or later. (Custom park range and park timeout changes are not manageable in the Teams admin center. Note that the Teams admin center will continue to show the default values.)
 
-To enable a call park policy
+To enable a call park policy:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Call park policies**.
 2. On the **Manage policies** tab, click **Add**.
