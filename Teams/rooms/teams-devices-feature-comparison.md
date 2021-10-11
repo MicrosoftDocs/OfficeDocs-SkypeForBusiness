@@ -74,7 +74,7 @@ To help guide you as to what features are available on different platforms, you 
 ||Connected peripheral health monitoring |●  |◔ |
 ||Remote configuration (restart, settings, Log collection) |●  |● |
 ||Automatic Teams app updates |●  |● |
-||Device auto-enrollment |● |◔ |
+||Device auto-enrollment |● |● |
 ||Call quality analytics |●  |● |
 |**Good for / Space**|Focus (2-4 people) |●  |● |
 ||Small (4-6 people) |●  |● |
