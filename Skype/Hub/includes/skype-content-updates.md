@@ -2,6 +2,15 @@
 
 
 
+## Week of October 04, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/6/2021 | [Using the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms) | modified |
+| 10/6/2021 | [Phones and Devices for Skype for Business and Lync](/SkypeForBusiness/certification/devices-usb-devices) | modified |
+
+
 ## Week of September 27, 2021
 
 

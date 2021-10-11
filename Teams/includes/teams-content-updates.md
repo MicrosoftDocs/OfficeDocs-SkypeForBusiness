@@ -2,6 +2,46 @@
 
 
 
+## Week of October 04, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/5/2021 | [Stream Teams meetings](/MicrosoftTeams/stream-teams-meetings) | added |
+| 10/5/2021 | Use administrative unit functionality in Microsoft Teams | removed |
+| 10/5/2021 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | modified |
+| 10/5/2021 | [Configure Local Media Optimization for Direct Routing](/MicrosoftTeams/direct-routing-media-optimization-configure) | modified |
+| 10/5/2021 | [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan) | modified |
+| 10/5/2021 | [Manage external access (federation)](/MicrosoftTeams/manage-external-access) | modified |
+| 10/5/2021 | Deploy Microsoft Teams for Surface Hub | removed |
+| 10/5/2021 | [Search the audit log for events in Microsoft Teams](/MicrosoftTeams/audit-log-events) | modified |
+| 10/5/2021 | [Manage resource accounts in Teams](/MicrosoftTeams/manage-resource-accounts) | modified |
+| 10/5/2021 | [Native chat experience for external (federated) users in Microsoft Teams](/MicrosoftTeams/native-chat-for-external-users) | modified |
+| 10/5/2021 | [Microsoft Teams Rooms requirements](/MicrosoftTeams/rooms/requirements) | modified |
+| 10/5/2021 | [Turn on or turn off guest access to Microsoft Teams](/MicrosoftTeams/set-up-guests) | modified |
+| 10/5/2021 | [Set up for webinars in Microsoft Teams](/MicrosoftTeams/set-up-webinars) | modified |
+| 10/5/2021 | [Use real-time telemetry to troubleshoot poor meeting quality](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | modified |
+| 10/6/2021 | [Search the audit log for events in Microsoft Teams](/MicrosoftTeams/audit-log-events) | modified |
+| 10/6/2021 | [Use supervised chats](/MicrosoftTeams/supervise-chats-edu) | modified |
+| 10/7/2021 | [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan) | modified |
+| 10/7/2021 | [Teams devices for Shared Spaces feature comparison between Windows and Android](/MicrosoftTeams/rooms/teams-devices-feature-comparison) | added |
+| 10/8/2021 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
+| 10/8/2021 | [Auto Attendant & Call Queue Historical Report](/MicrosoftTeams/aa-cq-cqd-historical-reports) | modified |
+| 10/8/2021 | [Answer auto attendant and call queue calls](/MicrosoftTeams/answer-auto-attendant-and-call-queue-calls) | modified |
+| 10/8/2021 | [Set up an auto attendant for Microsoft Teams - small business tutorial](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | modified |
+| 10/8/2021 | [Create a call queue in Microsoft Teams - small business tutorial](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | modified |
+| 10/8/2021 | [Call park and retrieve in Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | modified |
+| 10/8/2021 | [Set up an auto attendant for Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modified |
+| 10/8/2021 | [Microsoft Teams call queue supported languages](/MicrosoftTeams/create-a-phone-system-call-queue-languages) | modified |
+| 10/8/2021 | [Auto attendant and call queue dialing and voice recognition reference](/MicrosoftTeams/dial-voice-reference) | modified |
+| 10/8/2021 | [Manage the join experience for Teams virtual visits on mobile browsers](/MicrosoftTeams/expand-teams-across-your-org/mobile-browser-join) | modified |
+| 10/8/2021 | [Manage resource accounts in Teams](/MicrosoftTeams/manage-resource-accounts) | modified |
+| 10/8/2021 | [Configure Operator Connect](/MicrosoftTeams/operator-connect-configure) | modified |
+| 10/8/2021 | [Operator Connect](/MicrosoftTeams/operator-connect-plan) | modified |
+| 10/8/2021 | [Plan for Teams auto attendants and call queues](/MicrosoftTeams/plan-auto-attendant-call-queue) | modified |
+| 10/8/2021 | [Set up holidays in Microsoft Teams](/MicrosoftTeams/set-up-holidays-in-teams) | modified |
+
+
 ## Week of September 27, 2021
 
 
