@@ -90,6 +90,17 @@ To get information about your uploaded audio files, use the Get-CsOnlineAudioFil
 
 To remove an uploaded audio file, use the Remove-CsOnlineAudioFile cmdlet. Before removing an audio file, check that you are not using that audio file in a TeamsCallHoldPolicy.
 
+## Feature availability
+
+The following table indicates which features on which clients and devices support Music on Hold and Custom Music on Hold. Microsoft continues to add feature support, so check back often for additional availability.
+
+For example: Teams Desktop supports both default Music on Hold and Custom Music on Hold; Teams Mobile only supports default Music on Hold.
+
+| Feature | Desktop <br> Windows/Mac OS | Browser | Mobile <br> iOS | Mobile <br> Android | Teams Phone |
+| :------------| :------- | :------- | :------- | :------- | :------- |
+| Hold on 1:1 PSTN call | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | Music on Hold | Music on Hold |
+| Hold on Consultative Transfer on 1:1 PSTN call |-Music on Hold<br>-Custom Music on Hold | | | | |
+
 ## Restrictions
 
 - Music on Hold is only available in commercial cloud.
@@ -111,16 +122,7 @@ To remove an uploaded audio file, use the Remove-CsOnlineAudioFile cmdlet. Befor
 
 - In some scenarios, a Direct Routing media bypass call will be converted to non-media bypass for playing Music on Hold and the call will stay as non-media bypass until the call is terminated.
 
-## Feature availability
 
-The following table indicates which features on which clients support Music on Hold and Custom Music on Hold. Microsoft continues to add feature support, so check back often for additional availability.
-
-For example: Teams Desktop supports both default Music on Hold and Custom Music on Hold; Teams Mobile only supports default Music on Hold.
-
-| Feature | Desktop <br> Windows/Mac OS | Teams <br> Web | Mobile <br> iOS |
-| :------------| :------- | :------- | :------- |
-| Hold on 1:1 PSTN call | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | 
-| Hold on Consultative Transfer on 1:1 PSTN call |-Music on Hold<br>-Custom Music on Hold | | |
 
 
 
