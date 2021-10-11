@@ -23,7 +23,7 @@ description: Learn about the join experience for Teams virtual visits on mobile 
 
 # Manage the join experience for Teams virtual visits on mobile browsers
 
-Microsoft Teams makes it easy for people to join appointments on their mobile devices without having to download Teams. For a more seamless experience, attendees can join appointments such as healthcare visits, financial consultations, educator office hours and so on from a mobile browser. Attendees don't need to install the Teams mobile app on their Android or iOS mobile devices.
+Microsoft Teams makes it easy for people to join appointments on their mobile devices without having to download Teams. For a more seamless experience, attendees can join appointments such as healthcare visits, financial consultations, educator office hours, and so on, from a mobile browser. Attendees don't need to install the Teams mobile app on their Android or iOS mobile devices.
 
 With mobile browser join, when an attendee joins an appointment from a mobile device, they aren't prompted to download Teams. Instead, Teams opens in a mobile browser, where the attendee can select **Join now** to join. With this feature, keep in mind that if Teams is already installed on an attendee's mobile device, Teams will open in a mobile browser and not in the app.
 
@@ -71,6 +71,10 @@ Here are the mobile browsers that are currently supported. We support the latest
 &sup1; iOS apps on Safari can't select microphone and speaker devices. For example, Bluetooth devices. This is a limitation of the operating system, which controls the default device selection.
 
 &sup2; Safari 14+ and macOS 11+ is needed for outgoing video support.
+
+## Things to consider
+
+The staff member who conducts the virtual visit can share their screen from their Teams desktop, mobile, or web client with an attendee who joins from a mobile browser. However, attendees can't share their screen from a mobile browser.
 
 > [!NOTE]
 > We're adding more capabilities to the meeting join experience in future releases of Teams, so check back for the most up-to-date information. To stay on top of upcoming Teams features, check out the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
