@@ -69,10 +69,11 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 ## Certified devices
 
-*Table Updated September 2021*
+*Table Updated October 2021*
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |Evolve 2 75 Headset                                        |10/8/2021       |Certified for Microsoft Teams                           |
 |Logitech             |Zone Wired Earbuds                                         |9/2/2021        |Certified for Microsoft Teams                           |
 |AudioCodes           |RXVCam10                                                   |8/26/2021       |Certified for Microsoft Teams                           |
 |Poly                 |Voyager 4320                                               |8/6/2021        |Certified for Microsoft Teams                           |
