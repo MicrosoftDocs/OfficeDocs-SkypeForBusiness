@@ -110,6 +110,9 @@ Before you perform these steps, install the [SharePoint Online Management Shell 
     foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url}
     ```
 
+> [!NOTE]
+> Private channel SharePoint sites created after June 28, 2021 will have the custom template ID TEAMCHANNEL#1.
+
 3. For each team or group ID, run the following PowerShell script to identify all relevant private channel sites, where $groupID is the group ID of the team.
 
     ```PowerShell
