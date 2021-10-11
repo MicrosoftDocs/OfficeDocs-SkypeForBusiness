@@ -94,7 +94,6 @@ To remove an uploaded audio file, use the Remove-CsOnlineAudioFile cmdlet. Befor
 
 The following table indicates which features on which clients and devices support Music on Hold and Custom Music on Hold. Microsoft continues to add feature support, so check back often for additional availability.
 
-For example: Teams Desktop supports both default Music on Hold and Custom Music on Hold; Teams Mobile only supports default Music on Hold.
 
 | Feature | Desktop <br> Windows/Mac OS | Browser | Mobile <br> iOS | Mobile <br> Android | Teams Phone |
 | :------------| :------- | :------- | :------- | :------- | :------- |
