@@ -17,12 +17,12 @@ description: "Summary: Skype for Business Server Control panel to Cmdlet mapping
 
 ## Client Version Policy
 
- Returns information about which clients are supported in your Skype for Business Server environment. Client version policies enable you to specify which clients will be able to log on to your Skype for Business Server system.
+ Returns information about the clients that are supported in your Skype for Business Server environment. Client version policies enable you to specify those clients who will be able to log on to your Skype for Business Server system.
 
-Let us consider various  scenarios and how do they map to Skype for Business cmdlets.
+Let us consider various scenarios and how do they map to Skype for Business cmdlets.
 
 ---
-> **Scenario 1 :** Lists all the client version policies
+> **Scenario 1 :** List all the client version policies
 
 ![Client Version Policy](../media/ClientVersionPolicy-1.png)
 
@@ -145,12 +145,12 @@ Let us consider various  scenarios and how do they map to Skype for Business cmd
 ---
 ## Client Version Configuration
 
- Returns information about which clients are supported in your Skype for Business Server environment. Client version policies enable you to specify which clients will be able to log on to your Skype for Business Server system.
+ Returns information about the clients that are supported in your Skype for Business Server environment. Client version policies enable you to specify those clients who will be able to log on to your Skype for Business Server system.
 
 Let us consider various  scenarios and how do they map to Skype for Business cmdlets.
 
 ---
-> **Scenario 1 :** Lists all the client version configurations
+> **Scenario 1 :** List all the client version configurations
 
 ![Client Version Configuration](../media/ClientVersionConfiguration-1.png)
 
@@ -212,7 +212,7 @@ Let us consider various  scenarios and how do they map to Skype for Business cmd
  Remove-CsClientVersionConfiguration -Identity site:Redmond
 ```
 
-> **Scenario 5 :** Update client version configuration
+> **Scenario 5 :** Update client version configurations
 
 ![Client Version Configuration](../media/ClientVersionConfiguration-5.png)
 
@@ -228,7 +228,7 @@ Get-CsClientVersionConfiguration | Set-CsClientVersionConfiguration -DefaultURL 
 
 ---
 
-> **Scenario 6 :** Enable/disable client version configuration
+> **Scenario 6 :** Enable/disable client version configurations
 
 [Set-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csclientversionconfiguration?view=skype-ps)
 
@@ -245,7 +245,7 @@ Test devices provide a way for administrators to test firmware updates before th
 Let us consider various  scenarios and how do they map to Skype for Business cmdlets.
 
 ---
-> **Scenario 1 :** Lists all the test device
+> **Scenario 1 :** Lists all the test devices
 
 ![Client Version Configuration](../media/TestDevice-1.png)
 
@@ -293,7 +293,7 @@ Let us consider various  scenarios and how do they map to Skype for Business cmd
 
 ---
 
-> **Scenario 4 :** Delete selected test device
+> **Scenario 4 :** Delete a selected test device
 
 ![Test Device](../media/TestDevice-4.png)
 ***Cmdlet***
@@ -306,7 +306,7 @@ Let us consider various  scenarios and how do they map to Skype for Business cmd
  Remove-CsTestDevice -Identity site:Redmond
 ```
 
-> **Scenario 5 :** Update test device
+> **Scenario 5 :** Update a test device
 
 ![Test Device](../media/TestDevice-5.png)
 
@@ -329,7 +329,7 @@ These settings help manage the Device Update Web service, a Skype for Business S
 Let us consider various  scenarios and how do they map to Skype for Business cmdlets.
 
 ---
-> **Scenario 1 :** Lists all the device log configurations
+> **Scenario 1 :** List all the device log configurations
 
 ![Device Log Configuration](../media/Device-Log-Configuration-1.png)
 
@@ -345,7 +345,7 @@ Let us consider various  scenarios and how do they map to Skype for Business cmd
 
 ---
 
-> **Scenario 2 :** Create a new device log configurations
+> **Scenario 2 :** Create a new device log configuration
 
 ![Device Log Configuration](../media/Device-Log-Configuration-2.png)
 
@@ -361,7 +361,7 @@ Let us consider various  scenarios and how do they map to Skype for Business cmd
 
 ---
 
-> **Scenario 3 :** Get details of a selected device log configurations
+> **Scenario 3 :** Get details of a selected device log configuration
 
 ![Device Log Configuration](../media/Device-Log-Configuration-3.png)
 
@@ -380,6 +380,7 @@ Let us consider various  scenarios and how do they map to Skype for Business cmd
 > **Scenario 4 :** Delete selected device log configurations
 
 ![Device Log Configuration](../media/Device-Log-Configuration-4.png)
+
 ***Cmdlet***
 
 [Remove-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csdeviceupdateconfiguration?view=skype-ps)
