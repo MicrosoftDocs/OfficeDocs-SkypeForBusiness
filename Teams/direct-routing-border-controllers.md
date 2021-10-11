@@ -42,7 +42,7 @@ Microsoft works with each vendor to:
 The tables that follow list devices certified for Direct Routing. (For information about which SBC vendors support Local Media Optimization, see [Configure Local Media Optimization for Direct Routing](direct-routing-media-optimization-configure.md).)
 
 [Learn more about Direct Routing](https://aka.ms/dr).
-If you have any questions about the SBC certification program for Direct Routing, please contact drsbccertification@microsoft.com. Please note, that we are not accepting any new nominations for the certification till further notice.
+If you have any questions about the SBC certification program for Direct Routing, please contact drsbccertification@microsoft.com. Please note: we are not accepting new nominations for certification until further notice.
 <br/>
 
 ## Certified SBC vendors
