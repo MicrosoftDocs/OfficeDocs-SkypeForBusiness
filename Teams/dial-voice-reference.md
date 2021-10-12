@@ -1,7 +1,7 @@
 ---
 title: Auto attendant and call queue dialing and voice recognition reference
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -118,8 +118,6 @@ The following voice commands are available for speech recognition:
 |Nine  |Press 9.|
 
 ## Related topics
-
-[Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md)
 
 [Getting service phone numbers for Skype for Business and Microsoft Teams](./getting-service-phone-numbers.md)
 
