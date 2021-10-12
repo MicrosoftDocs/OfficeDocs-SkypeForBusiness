@@ -19,9 +19,6 @@ appliesto:
 
 # Use the Frontline Worker onboarding wizard to get your frontline workforce up and running
 
-> [!NOTE]
-> Don't see this feature yet? It's currently being rolled out and might not be available in your organization yet. To stay on top of upcoming Teams features, check out the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
-
 ## Overview
 
 The Frontline Worker onboarding wizard in the Microsoft 365 admin center simplifies onboarding frontline workers to your organization. The wizard lets you quickly deploy an experience in Microsoft Teams that's tailored to your frontline workforce. Using the wizard, you can easily kick off your pilot deployment of Teams for the frontline workers in your organization.
@@ -31,6 +28,9 @@ The wizard sets up a team for your frontline workers and assigns licenses and [p
 Currently, the wizard supports adding 100 users each time you run it. We're working on increasing the number of users per run soon. Check back here for the latest updates.
 
 The wizard is available to all organizations that have at least one Microsoft 365 F license. You can run the wizard as many times as you need to roll out Teams to your frontline workforce in different locations or sites across your organization.
+
+> [!NOTE]
+> The wizard doesn't support [sensitivity labels](sensitivity-labels.md). If your organization requires sensitivity labels to create a team, you won't see the wizard in the Microsoft 365 admin center.
 
 > [!NOTE]
 > This wizard lets you quickly onboard your frontline workers to Teams through the Microsoft 365 admin center. For more information about how deploy Teams to your frontline workers using scripts, see [How to provision Teams at scale for Frontline Workers](flw-scripted-deployment.md).
