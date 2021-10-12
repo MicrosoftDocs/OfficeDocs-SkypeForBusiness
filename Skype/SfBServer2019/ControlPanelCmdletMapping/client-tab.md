@@ -17,7 +17,7 @@ description: "Summary: Skype for Business Server Control panel to Cmdlet mapping
 
 ## Client Version Policy
 
- Returns information about the clients who are supported in your Skype for Business Server environment. Client version policies enable you to specify those clients who will be able to log on to your Skype for Business Server system.
+ Client Version Policy returns information about the clients who are supported in your Skype for Business Server environment. Client version policies enable you to specify those clients who will be able to log on to your Skype for Business Server system.
 
 Let us consider various scenarios and how they map to Skype for Business cmdlets.
 
@@ -147,7 +147,7 @@ Let us consider various scenarios and how they map to Skype for Business cmdlets
 ---
 ## Client Version Configuration
 
- Returns information about the clients who are supported in your Skype for Business Server environment. Client version policies enable you to specify those clients who will be able to log on to your Skype for Business Server system.
+ Client Version Configuration returns information about the clients who are supported in your Skype for Business Server environment. Client version policies enable you to specify those clients who will be able to log on to your Skype for Business Server system.
 
 Let us consider various scenarios and how they map to Skype for Business cmdlets.
 
@@ -244,6 +244,8 @@ Get-CsClientVersionConfiguration | Set-CsClientVersionConfiguration -DefaultURL 
 Set-CsClientVersionConfiguration -Identity site:Redmond -Enabled $False
 ```
 
+---
+
 ## Test Device
 
 Test devices provide a way for administrators to test firmware updates before those updates are distributed to all the devices in an organization.
@@ -312,6 +314,7 @@ Let us consider various scenarios and how they map to Skype for Business cmdlets
 ```powershell
  Remove-CsTestDevice -Identity site:Redmond
 ```
+---
 
 > **Scenario 5 :** Update a test device
 
@@ -397,6 +400,8 @@ Let us consider various scenarios and how they map to Skype for Business cmdlets
 ```powershell
  Remove-CsTestDevice -Identity site:Redmond
 ```
+
+---
 
 > **Scenario 5 :** Update device log configurations
 
