@@ -1,7 +1,7 @@
 ---
 title: "Set up an auto attendant for Microsoft Teams"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -218,13 +218,13 @@ See [Manage Teams resource accounts](manage-resource-accounts.md) for more infor
 
 Refer to the [Prerequisites](plan-auto-attendant-call-queue.md#prerequisites) in order to allow auto attendants to transfer calls externally.  In addition:
 
-- For a resource account with a [Calling Plan license](calling-plans-for-office-365.md), the external transfer phone number must be entered in E.164 format (+[country code][area code][phone number]).
+- For a resource account with a [Calling Plan license](calling-plans-for-office-365.md) or [Operator Connect](operator-connect-plan.md) number, the external transfer phone number must be entered in E.164 format (+[country code][area code][phone number]).
 
 - For a resource account with a Phone System License and Direct Routing online voice routing policy, the external transfer phone number format is dependant on the [Session Border Controller (SBC)](direct-routing-connect-the-sbc.md) settings.
 
 The outbound phone number that's displayed is determined as follows:
 
-  - For Calling Plan numbers, the original caller's phone number is displayed.
+  - For Calling Plan and Operator Connect numbers, the original caller's phone number is displayed.
   - For Direct Routing numbers, the number sent is based on the P-Asserted-Identity (PAI) setting on the SBC, as follows:
     - If set to Disabled, the original caller's phone number is displayed. This is the default and recommended setting.
     - If set to Enabled, the resource account phone number is displayed.
@@ -255,7 +255,7 @@ You can also use PowerShell to create and set up auto attendants. Here are the c
 
 ## Related topics
 
-[Here's what you get with Phone System](./here-s-what-you-get-with-phone-system.md)
+[Here's what you get with Teams Phone](./here-s-what-you-get-with-phone-system.md)
 
 [Getting service phone numbers](./getting-service-phone-numbers.md)
 

@@ -96,8 +96,6 @@ To remove an uploaded audio file, use the Remove-CsOnlineAudioFile cmdlet. Befor
 
 - Music On Hold is only available when the user is in Teams Only mode.
 
-- Music On Hold is not available when the Teams user does consultative transfer.
-
 - If the called Teams user is enabled for Location-Based Routing, Music On Hold cannot be played to the caller.
 
 -	Music On Hold is only available when the Teams user called is using one of the following versions of the Teams client:

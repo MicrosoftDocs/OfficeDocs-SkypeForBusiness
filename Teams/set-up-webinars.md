@@ -31,6 +31,9 @@ Webinars are structured meetings where presenters and participants have clear ro
 
 After setting up webinars in your organization, your users can schedule webinars and open registration to attendees. Unlike traditional meetings that include many discussions and task assignment, webinars are meant for interactive presentations and provide tools for attendee analysis.
 
+> [!IMPORTANT]
+> To let users set up webinars, Microsoft Lists must be configured in SharePoint by enabling the creation of personal lists. To learn more, see [Control settings for Microsoft Lists](/sharepoint/control-lists).
+
 ## Allow users to schedule webinars in the Teams admin center
 
 You can use the Teams admin center to set up webinars for your organization. You'll find the policies to set up webinars in the Teams admin center under **Meetings** > **Meeting policies**.
@@ -68,10 +71,10 @@ Read [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolic
 
 ### Allow users to schedule webinars
 
-You can restrict registration to users only in your organization or open it up to everyone both inside and outside your tenant. By default, **WhoCanRegister** is enabled and set to **Everyone**. If you want to turn off meeting registration, set **AllowMeetingRegistration** to **False**.
+You can restrict registration to users only in your organization or open it up to everyone both inside and outside your tenant. By default, **WhoCanRegister** is enabled and set to **Everyone** for the **Global (Org-wide default)** policy. If you want to turn off meeting registration, set **AllowMeetingRegistration** to **False**.
 
 > [!IMPORTANT]
-> **AllowPrivateMeetingScheduling** must be set to **True** for **AllowMeetingRegistration** to work. Additionally, Microsoft Lists needs to be set up in SharePoint. To learn more, see [Control settings for Microsoft Lists](/sharepoint/control-lists).
+> **AllowPrivateMeetingScheduling** must be set to **True** for **AllowMeetingRegistration** to work.
 
 1. Turn on meeting registration
 
