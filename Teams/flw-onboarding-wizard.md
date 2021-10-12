@@ -30,10 +30,10 @@ Currently, the wizard supports adding 100 users each time you run it. We're work
 The wizard is available to all organizations that have at least one Microsoft 365 F license. You can run the wizard as many times as you need to roll out Teams to your frontline workforce in different locations or sites across your organization.
 
 > [!NOTE]
-> The wizard doesn't support [sensitivity labels](sensitivity-labels.md). If your organization requires sensitivity labels to create a team, you won't see the wizard in the Microsoft 365 admin center.
+> This wizard lets you quickly onboard your frontline workers to Teams through the Microsoft 365 admin center. For information about how deploy Teams to your frontline workers using scripts, see [How to provision Teams at scale for Frontline Workers](flw-scripted-deployment.md).
 
 > [!NOTE]
-> This wizard lets you quickly onboard your frontline workers to Teams through the Microsoft 365 admin center. For more information about how deploy Teams to your frontline workers using scripts, see [How to provision Teams at scale for Frontline Workers](flw-scripted-deployment.md).
+> The wizard doesn't support [sensitivity labels](sensitivity-labels.md). If your organization requires sensitivity labels to create a team, you won't see the wizard in the Microsoft 365 admin center.
 
 ## Run the wizard
 
