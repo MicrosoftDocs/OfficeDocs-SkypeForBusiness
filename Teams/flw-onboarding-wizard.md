@@ -33,7 +33,7 @@ The wizard is available to all organizations that have at least one Microsoft 36
 > This wizard lets you quickly onboard your frontline workers to Teams through the Microsoft 365 admin center. For information about how deploy Teams to your frontline workers using scripts, see [How to provision Teams at scale for Frontline Workers](flw-scripted-deployment.md).
 
 > [!NOTE]
-> The wizard doesn't support [sensitivity labels](sensitivity-labels.md). If your organization requires sensitivity labels to create a team, you won't see the wizard in the Microsoft 365 admin center.
+> The wizard doesn't support [sensitivity labels](sensitivity-labels.md) yet. If your organization requires sensitivity labels to create a team, you won't see the wizard in the Microsoft 365 admin center.
 
 ## Run the wizard
 
