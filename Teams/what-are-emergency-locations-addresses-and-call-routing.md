@@ -69,7 +69,7 @@ Microsoft recommends that you create emergency addresses by using the map search
 
 ## Considerations for Calling Plans
 
-The following sections describe how to manage emergency calling for Microsoft Calling Plan users. To find out if Microsoft Calling Plans are the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md).
+**The following sections describe how to manage emergency calling for Microsoft Calling Plan users. To find out if Microsoft Calling Plans are the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md).**
 
 
 ### Emergency call enablement for Calling Plans
@@ -109,27 +109,28 @@ When a Teams Calling Plan user dials an emergency number, how the call is routed
 
 - The emergency calling network of that country.
 
-For example: 
+**For example:**
 
 **In the United States:**
 
-- If a Teams client is located at a tenant-defined dynamic emergency location, emergency calls from that client are automatically routed to the PSAP serving that geographic location. 
+- **If a Teams client is located at a tenant-defined dynamic emergency location, emergency calls from that client are automatically routed to the PSAP serving that geographic location.**
 
-- If a Teams client is not located at a tenant-defined dynamic emergency location, emergency calls from that client are screened by a national call center to determine the location of the caller before transferring the call to the PSAP serving that geographic location.
+- **If a Teams client is not located at a tenant-defined dynamic emergency location, emergency calls from that client are screened by a national call center to determine the location of the caller before transferring the call to the PSAP serving that geographic location.**
 
-- If an emergency caller is unable to update their emergency location to the screening center, the call will be transferred to the PSAP serving the caller's registered address.
+- **If an emergency caller is unable to update their emergency location to the screening center, the call will be transferred to the PSAP serving the caller's registered address.**
 
-**In Canada, Ireland, and the United Kingdom**, emergency calls are first screened to determine the current location of the user before connecting the call to the appropriate dispatch center. 
+**In Canada, Ireland, and the United Kingdom**, **emergency calls are first screened to determine the current location of the user before connecting the call to the appropriate dispatch center.**
 
-**In France, Germany, and Spain**, emergency calls are routed directly to the PSAP serving the emergency address associated with the number regardless of the location of the caller.**
+**In France, Germany, and Spain**, **emergency calls are routed directly to the PSAP serving the emergency address associated with the number regardless of the location of the caller.**
 
-**In the Netherlands**, emergency calls are routed directly to the PSAP for the local area code of the number regardless of the location of the caller.
+**In the Netherlands**, **emergency calls are routed directly to the PSAP for the local area code of the number regardless of the location of the caller.**
 
-**In Australia**, emergency addresses are configured and routed by the carrier partner.
+**In Australia**, **emergency addresses are configured and routed by the carrier partner.**
 
-**In Japan**, emergency calling is not supported.
+**In Japan**, **emergency calling is not supported.**
 
 **For complete information about emergency calling support, see ...**
+**IT WILL PROBABLY TAKE SOME TIME TO GET ALL THIS INFO IN A TABLE. FOR NOW, SHOULD WE JUST SAY FOR EXAMPLE, AND THEN INCLUDE A REFERENCE TO MORE INFO WHEN WE HAVE THE UPDATED TABLES?**
 
 
 For more information, see:
@@ -141,7 +142,7 @@ For more information, see:
 
 ## Considerations for Operator Connect
 
-The following sections describe how to manage emergency calling for Operator Connect users. To find out whether Operator Connect is the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md).
+**The following sections describe how to manage emergency calling for Operator Connect users. To find out whether Operator Connect is the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md).**
 
 ### Emergency call enablement for Operator Connect
 
@@ -161,6 +162,8 @@ The following sections describe how to manage emergency calling for Operator Con
 
 - **In the United States, you must configure the civic address.**
 
+**DID I GET THE LAST BULLET RIGHT?  JUST THIS SENTENCE? NUKED THIS PART: that is part of the emergency locations that are assigned to network identifiers—and include the associated geo codes.**
+
 **Dynamic location for routing emergency calls is supported in Canada the same as in the United States with the following exceptions: all emergency calls will be screened nationally before transferred to the PSAP.**
 
 For more information, see [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).
@@ -179,20 +182,20 @@ For more information, see [Plan and configure dynamic emergency calling](configu
 
 **In the United States and Canada:** 
 
-- If a Teams client is located at a tenant-defined dynamic emergency location, emergency calls from that client are automatically routed to the PSAP serving that geographic location. 
+- **If a Teams client is located at a tenant-defined dynamic emergency location, emergency calls from that client are automatically routed to the PSAP serving that geographic location.**
 
-- If a Teams client is not located at a tenant-defined dynamic emergency location, emergency calls from that client are screened by a national call center to determine the location of the caller before transferring the call to the PSAP serving that geographic location. 
+- **If a Teams client is not located at a tenant-defined dynamic emergency location, emergency calls from that client are screened by a national call center to determine the location of the caller before transferring the call to the PSAP serving that geographic location.**
 
-- If an emergency caller is unable to update their emergency location to the screening center, the call will be transferred to the PSAP serving the caller's registered address. 
+- **If an emergency caller is unable to update their emergency location to the screening center, the call will be transferred to the PSAP serving the caller's registered address.**
 
 
 ## Considerations for Direct Routing
 
-The following sections describe how to manage emergency calling for Direct Routing users.To find out whether Direct Routing is the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md).
+**The following sections describe how to manage emergency calling for Direct Routing users.To find out whether Direct Routing is the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md).**
 
 ### Emergency call enablement for Direct Routing
 
-For Direct Routing, you must define emergency calling policies for users by using a Teams emergency call routing policy (TeamsEmergencyCallRoutingPolicy) to define emergency numbers and their associated routing destination. (Currently, registered emergency locations are not supported for Direct Routing users.)  
+For Direct Routing, you must define emergency calling policies for users by using a Teams emergency call routing policy (TeamsEmergencyCallRoutingPolicy) to define emergency numbers and their associated routing destination. **(Currently, registered emergency locations are not supported for Direct Routing users.)**
 
 You can assign an emergency call routing policy to a Direct Routing user account, a network site, or both. When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located as follows:
 
@@ -215,8 +218,8 @@ The emergency call routing policy references an online PSTN usage, which must ha
 
 The ability to dynamically route emergency calls for Direct Routing users varies depending on the emergency calling network within a given country. There are two solutions available:
 
-- Emergency Routing Service Providers (US only) 
-- Emergency Location Identification Number (ELIN) gateway applications
+- [Emergency Routing Service Providers (US only)](#emergency-routing-service-providers)
+- [Emergency Location Identification Number applications](#emergency-location-identification-number-elin-applications)
 
 #### Emergency Routing Service Providers
 
@@ -229,7 +232,7 @@ In the United States, there are numerous certified Emergency Routing Service Pro
 For more information, see [Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).
 
 
-#### Emergency Location Identification Number (ELIN) applications
+#### Emergency Location Identification Number applications
 
 Session Border Controllers (SBCs) can include Emergency Location Identification Number (ELIN) applications. If an SBC ELIN application is integrated into a Direct Routing deployment, you must configure the emergency addresses and associated telephone numbers in the ELIN application, and then upload the ELIN records to the emergency calling database in the respective PSTN.  Teams emergency locations with an ELIN identifier must match those within the ELIN application.
 
