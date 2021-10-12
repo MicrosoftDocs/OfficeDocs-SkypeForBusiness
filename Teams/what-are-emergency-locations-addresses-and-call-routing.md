@@ -67,7 +67,7 @@ If you define an emergency address by using the address map search feature in th
 
 ## Considerations for Calling Plans
 
-To find out whether Microsoft Calling Plans are the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md).
+The following sections describe how to manage emergency calling for Microsoft Calling Plan users. To find out if Microsoft Calling Plans are the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md).
 
 
 ### Emergency call enablement for Calling Plans
@@ -95,7 +95,7 @@ Dynamic location for routing emergency calls is supported in the United States a
 
 **Dynamic location for routing emergency calls is supported in Canada the same as in the United States with the following exception: all emergency calls will be screened nationally before being transferred to the PSAP.**
 
-For more information, see [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md)
+For more information, see [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).
 
 ### Emergency call routing for Calling Plans
 
@@ -139,7 +139,7 @@ For more information, see:
 
 ## Considerations for Operator Connect
 
-To find out whether Operator Connect is the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md).
+The following sections describe how to manage emergency calling for Operator Connect users. To find out whether Operator Connect is the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md).
 
 ### Emergency call enablement for Operator Connect
 
@@ -186,7 +186,7 @@ For more information, see [Plan and configure dynamic emergency calling](configu
 
 ## Considerations for Direct Routing
 
-To find out whether Direct Routing is the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md).
+The following sections describe how to manage emergency calling for Direct Routing users.To find out whether Direct Routing is the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md).
 
 ### Emergency call enablement for Direct Routing
 
