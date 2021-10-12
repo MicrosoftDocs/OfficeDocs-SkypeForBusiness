@@ -35,7 +35,7 @@ This article describes concepts you'll need to know to manage emergency calling&
 
   For example, the address  *12345 North Main Street, Redmond, WA 98052* is used to route emergency calls to the appropriate dispatch authorities and to assist in locating the emergency caller.
 
-- **Place** - Typically a floor, building, wing, or office number. Place is associated with an emergency address to give a more exact location within a building. You can have an unlimited number of places associated with an emergency address. For example, if your organization has multiple buildings, you might want to include place information for each building and for every floor within each building.  
+- **Place** - Typically a floor, building, wing, or office number. Place is associated with an emergency address to give a more exact location within a building. You can have an unlimited number of places associated with an emergency address. For example, if your organization has multiple buildings, you might want to include place information for each building and every floor within each building.  
 
 - **Emergency location** - A location is a civic address&mdash;with an optional place. If your business has more than one physical location, it's likely that you'll need more than one emergency location. 
 
@@ -43,7 +43,7 @@ This article describes concepts you'll need to know to manage emergency calling&
 
   When you assign an emergency location to a user or site, it's this unique location ID that's associated with the user or site.
 
-- **Registered address** - **An emergency address that is assigned to each user. A registered address is sometimes referred to as a static emergency address or address of record.**
+- **Registered address** - **An emergency address that is assigned to each user. A registered address is sometimes referred to as a static emergency address or address of record. (Currently, registered addresses are not supported for Direct Routing. Check back soon for updates.)**
 
 >[!Note]
 >There are some differences in how you manage emergency calling depending on whether you are using **Microsoft Calling Plans, Operator Connect, or Direct Routing** for your [PSTN connectivity](pstn-connectivity.md). These considerations are described throughout this article.
@@ -59,7 +59,9 @@ If you define an emergency address by using the address map search feature in th
 
 Each emergency address can have a geo code (latitude and longitude) associated with it. These geo codes are used in some countries to assist in routing emergency calls with dynamic locations. 
 
-If you define an emergency address by using the address map search feature in the Teams admin center, the geo code is automatically associated with an emergency address. You can also associate geo codes with an address if you define the address by using PowerShell. Microsoft recommends that you create emergency addresses by using the map search feature in Teams admin center, which will ensure that the addresses are formatted, validated, and have the appropriate geo codes. 
+If you define an emergency address by using the address map search feature in the Teams admin center, the geo code is automatically associated with an emergency address. You can also associate geo codes with an address if you define the address by using PowerShell. 
+
+Microsoft recommends that you create emergency addresses by using the map search feature in Teams admin center, which will ensure that the addresses are formatted, validated, and have the appropriate geo codes. 
 
 >[!Important]
 >To assign an emergency location to a network identifier for dynamic emergency calling, the emergency address must contain an appropriate geo code.
@@ -190,9 +192,7 @@ The following sections describe how to manage emergency calling for Direct Routi
 
 ### Emergency call enablement for Direct Routing
 
-For Direct Routing, you must define emergency calling policies for users by using a Teams emergency call routing policy (TeamsEmergencyCallRoutingPolicy) to define emergency numbers and their associated routing destination. (Note that registered emergency locations are not supported for Direct Routing users.)  **UPDATE WHEN REGISTERED LOCATIONS SUPPORTED.**
-
-**ADD LATER:  As the tenant admininstrator, you can optionally set the registered address.**
+For Direct Routing, you must define emergency calling policies for users by using a Teams emergency call routing policy (TeamsEmergencyCallRoutingPolicy) to define emergency numbers and their associated routing destination. (Currently, registered emergency locations are not supported for Direct Routing users.)  
 
 You can assign an emergency call routing policy to a Direct Routing user account, a network site, or both. When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located as follows:
 
@@ -202,7 +202,6 @@ You can assign an emergency call routing policy to a Direct Routing user account
 
 - If the Teams client is unable to obtain an emergency call routing policy, then the user is not enabled for emergency calling.
 
-- If a dynamic location from either the LIS or client is not acquired, then a static one will be sent if it is configured on the user.   **ADD WHEN SUPPORTED.**
 
 ### Dynamic emergency calling for Direct Routing
 
@@ -212,7 +211,7 @@ Teams clients for Direct Routing users can acquire a dynamic emergency address, 
 
 The emergency call routing policy references an online PSTN usage, which must have the appropriate Direct Routing configuration to properly route the emergency calls to the appropriate PSTN gateway(s). In particular, you must ensure that there is an OnlineVoiceRoute for the emergency dial string. For more information, see [Configure Direct Routing](direct-routing-configure.md). 
 
-**(Note: Teams clients no longer prepend the "+" sign in front of emergency numbers; that is, +911. Consequently, Teams emergency calls will no longer be sending a "+" preceding the 911 number. Be sure your voice route patterns reflect this change.)**
+**Note: Teams clients no longer prepend the "+" sign in front of emergency numbers; that is, +911. Consequently, Teams emergency calls will no longer be sending a "+" preceding the 911 number. Be sure your voice route patterns reflect this change.**
 
 The ability to dynamically route emergency calls for Direct Routing users varies depending on the emergency calling network within a given country. There are two solutions available:
 
