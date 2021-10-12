@@ -20,7 +20,7 @@ ms.custom: seo-marvel-apr2020
  
 The Microsoft Teams Rooms app gets updates quarterly through the Windows store. An out of band update can be made in between to fix urgent issues. Microsoft Teams Room app uses an evergreen product lifecycle and only the current and the last version of the app are supported at any given time. The Microsoft Teams Room app bundles a specific version of the Teams desktop app that is modified for room use. The Teams desktop app updates every two weeks. Learn more about the [Teams update process](../teams-client-update.md). This means Teams Rooms app current-1 version can be up to six Teams desktop app updates behind, so it's recommended to keep the Teams Room application updated to the latest version of the Teams Rooms app at all times. 
 
-The support structure for Teams Rooms is dynamic and depends on the availability of the latest version. When you encounter a code defect in a version of the application that's not the latest, you must also have the latest version installed to receive a fix.
+The support structure for Teams Rooms is dynamic and depends on the availability of the latest version. When you encounter a code defect in a version of the application that's not the latest, you must install the latest version to receive a fix.
 
 All releases are listed in the [Microsoft Teams Rooms release notes](rooms-release-note.md).
 
