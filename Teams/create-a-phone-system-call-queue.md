@@ -157,7 +157,7 @@ Agents' Teams accounts need to be set to Teams-only mode. Agents who don't meet 
 > [!NOTE]
 > If [Compliance recording](teams-recording-policy.md) is enabled on the agents, the combination of **Conference mode** and **Attendant routing** is not supported. If you need to use **Conference mode**, select **Serial Routing**, **Round robin**, or **Longest idle** as the **Routing method**. If you need to use **Attendant routing**, set **Conference mode** to **Off**.
 > 
-> When using **Longest idle** there may be times when an agent receives a call from the queue shortly after becoming unavailable or there being a short delay in receiving a call from the queue when becoming availalbe.
+> When using **Longest idle** there may be times when an agent receives a call from the queue shortly after becoming unavailable or if there is a short delay in receiving a call from the queue after becoming available.
 
 ![Screenshot of routing, opt out, and alert time settings.](media/call-queue-presence-agents-time.png)
 
