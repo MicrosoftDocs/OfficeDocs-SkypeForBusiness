@@ -24,7 +24,7 @@ description: "Learn about how to assign free Phone System–Virtual User license
 
 # Microsoft 365 Phone System – Virtual User license
 
-Organizations with Phone System licensed users can assign either a free Microsoft 365 Phone System – Virtual User license or a paid Phone System user license to resource accounts. A Calling Plan isn't required. All auto attendants or call queues require an associated resource account. Resource accounts that require a phone number need a free Microsoft 365 Phone System – Virtual User license or a paid Phone System user license before a phone number can be applied to the resource account.
+Organizations with Phone System licensed users can assign either a free Microsoft 365 Phone System – Virtual User license or a paid Phone System user license to resource accounts. A Calling Plan isn't always required (see [Plan for Teams Auto attendant and call queues](../plan-auto-attendant-call-queue.md#prerequisites) for prerequisites when transferring calls to an external phone number). All auto attendants or call queues require an associated resource account. Resource accounts that require a phone number need a free Microsoft 365 Phone System – Virtual User license or a paid Phone System user license before a phone number can be applied to the resource account.
 
 > [!TIP]
 > No license is needed for resource accounts that will be used with nested auto attendants or call queues that don't have a phone number assigned. See the following diagram for reference: 
