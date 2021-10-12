@@ -24,7 +24,7 @@ appliesto:
 
 Dynamic emergency calling for **Microsoft Calling Plans, Operator Connect, and Direct Routing** provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client.  
 
-Based on the network topology that the tenant administrator defines, the Teams client provides network connectivity information in a request to the Location Information Service (LIS). If there's a match, the LIS returns a location to the client. This location data is transmitted back to the client.  **The order of preference in which the client obtains a location is LIS, Client/End User saved, Static.**
+Based on the network topology that the tenant administrator defines, the Teams client provides network connectivity information in a request to the Location Information Service (LIS). If there's a match, the LIS returns a location to the client. This location data is transmitted back to the client.  
 
 The Teams client includes location data as part of an emergency call. This data is then used by the emergency service provider to determine the appropriate Public Safety Answering Point (PSAP) and to route the call to that PSAP, which allows the PSAP dispatcher to obtain the caller's location.  
 
@@ -32,7 +32,9 @@ For dynamic emergency calling, the following must occur:
 
 1. The network administrator configures network settings and the LIS to create a network/emergency location map.
 
-   For Direct Routing, additional configuration is required for routing emergency calls and possibly for partner connectivity. The administrator must configure connection to an Emergency Routing Service (ERS) provider (United States) **OR** configure the Session Border Controller (SBC) for an Emergency Location Identification Number (ELIN) application. **For information about ERS providers, see [Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).**
+   **Microsoft Calling Plans provides emergency routing services. Operator Connect provides emergency routing services through the PSTN providers in the United States and Canada.**
+
+   For Direct Routing, however, additional configuration is required for routing emergency calls and possibly for partner connectivity. The administrator must configure connection to an Emergency Routing Service (ERS) provider (United States) **OR** configure the Session Border Controller (SBC) for an Emergency Location Identification Number (ELIN) application. **For information about ERS providers, see [Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).**
 
 2. During startup and periodically afterwards, or when a network connection is changed, the Teams client sends a location request that contains its network connectivity information to the network settings and the LIS.
 
