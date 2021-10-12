@@ -1,10 +1,10 @@
 ---
 title: "Skype for Business Server Control panel to Cmdlet mapping"
 ms.reviewer: 
-ms.author: ankum
-author: ankum
-manager: ravrao
-ms.date: 5/10/21
+ms.author: v-smandalika
+author: v-smandalika
+manager: dansimp
+ms.date: 10/12/221
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -17,9 +17,9 @@ description: "Summary: Skype for Business Server Control panel to Cmdlet mapping
 
 ## Client Version Policy
 
- Returns information about the clients that are supported in your Skype for Business Server environment. Client version policies enable you to specify those clients who will be able to log on to your Skype for Business Server system.
+ Returns information about the clients who are supported in your Skype for Business Server environment. Client version policies enable you to specify those clients who will be able to log on to your Skype for Business Server system.
 
-Let us consider various scenarios and how do they map to Skype for Business cmdlets.
+Let us consider various scenarios and how they map to Skype for Business cmdlets.
 
 ---
 > **Scenario 1 :** List all the client version policies
@@ -84,7 +84,9 @@ Let us consider various scenarios and how do they map to Skype for Business cmdl
  Remove-CsClientVersionPolicy -Identity site:Redmond
 ```
 
-> **Scenario 5 :** Update client version policy
+---
+
+> **Scenario 5 :** Update a client version policy
 
 ![Client Version Policy](../media/ClientVersionPolicy-5678.png)
 
@@ -145,9 +147,9 @@ Let us consider various scenarios and how do they map to Skype for Business cmdl
 ---
 ## Client Version Configuration
 
- Returns information about the clients that are supported in your Skype for Business Server environment. Client version policies enable you to specify those clients who will be able to log on to your Skype for Business Server system.
+ Returns information about the clients who are supported in your Skype for Business Server environment. Client version policies enable you to specify those clients who will be able to log on to your Skype for Business Server system.
 
-Let us consider various  scenarios and how do they map to Skype for Business cmdlets.
+Let us consider various scenarios and how they map to Skype for Business cmdlets.
 
 ---
 > **Scenario 1 :** List all the client version configurations
@@ -212,6 +214,8 @@ Let us consider various  scenarios and how do they map to Skype for Business cmd
  Remove-CsClientVersionConfiguration -Identity site:Redmond
 ```
 
+---
+
 > **Scenario 5 :** Update client version configurations
 
 ![Client Version Configuration](../media/ClientVersionConfiguration-5.png)
@@ -230,6 +234,8 @@ Get-CsClientVersionConfiguration | Set-CsClientVersionConfiguration -DefaultURL 
 
 > **Scenario 6 :** Enable/disable client version configurations
 
+***Cmdlet***
+
 [Set-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csclientversionconfiguration?view=skype-ps)
 
 ***Example***
@@ -240,12 +246,12 @@ Set-CsClientVersionConfiguration -Identity site:Redmond -Enabled $False
 
 ## Test Device
 
-Test devices provide a way for administrators to test firmware updates before those updates are distributed to all the devices in an organization
+Test devices provide a way for administrators to test firmware updates before those updates are distributed to all the devices in an organization.
 
-Let us consider various  scenarios and how do they map to Skype for Business cmdlets.
+Let us consider various scenarios and how they map to Skype for Business cmdlets.
 
 ---
-> **Scenario 1 :** Lists all the test devices
+> **Scenario 1 :** List all the test devices
 
 ![Client Version Configuration](../media/TestDevice-1.png)
 
@@ -296,6 +302,7 @@ Let us consider various  scenarios and how do they map to Skype for Business cmd
 > **Scenario 4 :** Delete a selected test device
 
 ![Test Device](../media/TestDevice-4.png)
+
 ***Cmdlet***
 
 [Remove-CsTestDevice](https://docs.microsoft.com/en-us/powershell/module/skype/remove-cstestdevice?view=skype-ps)
@@ -326,7 +333,7 @@ Set-CsTestDevice -Identity site:Redmond/UCPhone -IdentifierType SerialNumber -Id
 
 These settings help manage the Device Update Web service, a Skype for Business Server component that enables administrators to distribute firmware updates to telephones and other devices running Skype for Business.
 
-Let us consider various  scenarios and how do they map to Skype for Business cmdlets.
+Let us consider various scenarios and how they map to Skype for Business cmdlets.
 
 ---
 > **Scenario 1 :** List all the device log configurations
