@@ -183,7 +183,9 @@ Use the following cmdlets to add ports, switches, subnets, and WAPs to the LIS.
 
 Use the following policies to configure emergency calling. You can manage these policies in the Microsoft Teams admin center or by using PowerShell.
 
-- **Emergency call routing policy – Applies only to Direct Routing**. **This policy configures the emergency numbers, masks per number if desired, and the PSTN route per number. You can assign this policy to users, to network sites, or to both. To  learn more, see [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md).  (Calling Plan and Operator Connect users are automatically enabled for emergency calling with the emergency numbers from the country based upon their Microsoft 365 or Office 365 usage location.)**
+- **Emergency call routing policy – Applies only to Direct Routing**. **This policy configures the emergency numbers, masks per number if desired, and the PSTN route per number. You can assign this policy to users, to network sites, or to both. To  learn more, see [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md).  
+
+   (Calling Plan and Operator Connect users are automatically enabled for emergency calling with the emergency numbers from the country based upon their Microsoft 365 or Office 365 usage location.)**
 
 - **Emergency calling policy - Applies to Calling Plans, Operator Connect, and Direct Routing.** This policy configures the security desk notification experience when an emergency call is made. You can set who to notify and how they are notified. For example, to automatically notify your organization's security desk and have them listen in on emergency calls.  This policy can either be assigned to users or network sites or both. To learn more, see [Manage emergency calling policies in Teams](manage-emergency-calling-policies.md).
 
