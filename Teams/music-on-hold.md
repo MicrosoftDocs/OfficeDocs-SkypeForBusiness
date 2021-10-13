@@ -108,23 +108,11 @@ The following table indicates which features on which clients and devices suppor
 
 - If the called Teams user is enabled for Location-Based Routing, Music on Hold cannot be played to the caller.
 
--	Music on Hold is only available when the Teams user called is using one of the following versions of the Teams client:
-    -	Microsoft Teams for Windows
-    -	Microsoft Teams for Mac
-    -	Microsoft Teams on the web
-    -	Microsoft Teams for iOS
-    - Microsoft Teams for Android
-<br>
 - You can’t export the audio file after it has been uploaded; you can only remove it.
 
 - Custom Music on Hold is not available for users configured for Shared Line Appearance (delegation) and when Call Park is used. The standard Music on Hold will be played.
 
 - In some scenarios, a Direct Routing media bypass call will be converted to non-media bypass for playing Music on Hold and the call will stay as non-media bypass until the call is terminated.
-
-
-
-
-
 
 
 ## Related topics
