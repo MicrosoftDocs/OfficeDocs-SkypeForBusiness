@@ -256,10 +256,6 @@ The size of a 1-hour recording is 400 MB. Make sure you understand the capacity 
 >
 > The auto-expiration feature discussed in this article is not yet launched. Please refer to [the roadmap (Feature ID: 84580)](https://www.microsoft.com/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580) for more information on its delivery date.
 > 
-> We are providing information about how this feature will work in the FUTURE, so that you are able to plan for this change and modify the Teams policy settings in advance.
->
-> The CMD to preemptively change the default expiration setting in Teams isn't yet available to be set.  We'll publish an updated message center post when the setting is available for modification.
->
 >
 
 See the frequently asked questions for admins and end users to gather insights into how auto-expiration of Teams meeting recordings will work, what actions you can take now, and what actions you can take after the feature launches.
@@ -302,9 +298,19 @@ The expiration date is calculated as the day the meeting recording is created pl
 
 Yes, the expiration date is set per file. Users can modify the expiration date in the details pane of a selected file in OneDrive or SharePoint.
 
-**How can an admin change the expiration date?**
   
-Admins will be able to change the default expiration setting in PowerShell or the Teams admin center before the feature is released. **The setting is not yet available for modification**. We will publish an updated message center post when the setting is available for modification. When the feature launches, admins can change this setting in the Teams admin center. Changing expiration settings will impact only newly created TMRs from that point forward. It will not impact any recordings made prior to that date. 
+ **How can an admin change the expiration date?**
+  
+Admins may use ```Set-CsTeamsMeetingPolicy``` with ```NewMeetingRecordingExpirationDays``` parameter specified to update expiration settings.
+
+Example:
+```
+Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 90
+```
+
+This sets expiration policy to 90 days.
+
+Changing expiration settings will impact only newly created TMRs from that point forward. It will not impact any recordings made prior to that date. 
 
 The expiration days values can be set as follows:
   
@@ -312,10 +318,26 @@ The expiration days values can be set as follows:
 - Value can also be -1 to set TMR to never expire. 
  
 Admins can't change the expiration date on existing TMRs already uploaded to OneDrive or SharePoint before this feature was released. This protects the intent of the user that owns the TMR.
+ 
+**How can the admin confirm currently active expiration date?**
+  
+Admins may use the following command to confirm currently applied expiration date:
+  
+```
+Geet-CsTeamsMeetingPolicy -Identity Global | fl NewMeetingRecordingExpirationDays  
+```
+
+Output is going to be as follows:
+![image](https://user-images.githubusercontent.com/5260172/137217795-a90803f3-dd3a-4dca-919f-fd70d77a68ea.png)
+
+Admins can use the same command to ensure changing exiration date is successful.
   
 **Can an admin set TMR's to never expire?**
   
- Yes, administrators can set TMR's to never expire.
+ Yes, administrators can set TMR's to never expire running command below:
+```
+Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays -1
+```
   
 **Does playing the recording change the expiration date?**
 
@@ -332,7 +354,7 @@ The date is only retained for a moved TMR file. A copied file will not have the 
 
 **What is the scope of control for the admin policy?**
   
-Both meetings and calls will be controlled by the same `CsTeamsMeetingPolicy` setting, `MeetingRecordingExpirationDays`. 
+Both meetings and calls will be controlled by the same `CsTeamsMeetingPolicy` parameter, `NewMeetingRecordingExpirationDays`. 
   
 **How can end users modify the expiration date on a specific TMR file?**
   
