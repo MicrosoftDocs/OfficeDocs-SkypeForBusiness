@@ -54,7 +54,7 @@ To configure Skype for Business server users for Cloud Voicemail, please see [Pl
 
 When someone leaves a voicemail message for a user in your organization, the voicemail is delivered to the user's mailbox as an email message attachment. Using mail flow rules to apply message encryption, you can prevent those voicemail messages from being forwarded to other recipients. When you enable protected voicemail, users can listen to protected voicemail messages by calling into their voicemail mailbox or by opening the message in Outlook, Outlook on the web, or in Outlook for Android or iOS. Protected voicemail messages can't be opened in Skype for Business or Microsoft Teams.
 
-For more information about message encryption, see [Email encryption](/microsoft-365/compliance/email-encryption?view=o365-worldwide).
+For more information about message encryption, see [Email encryption](/microsoft-365/compliance/email-encryption).
 
 > [!NOTE]
 > We apply encryption to the voicemail only when the call is from an internal user. If the call is from an external user, the voicemail will not be encrypted.
@@ -71,7 +71,7 @@ To set up protected voicemail, do the following:
     > [!NOTE]
     > If the **RMS template** list is empty, you need to set up Message Encryption. For more information about setting up Message Encryption, see the following articles:
     >
-    > - [Set up new Message Encryption capabilities](/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
+    > - [Set up new Message Encryption capabilities](/microsoft-365/compliance/set-up-new-message-encryption-capabilities)
     > - [Configuring and managing templates for Azure Information Protection](/information-protection/deploy-use/configure-policy-templates)
     > - [Do Not Forward option for emails](/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)
 
