@@ -24,7 +24,7 @@ Let us consider the various tasks a user can do on the **Client Version Policy**
 ---
 > **Task 1**: List all the client version policies
 
-![Client Version Policy](./media/ClientVersionPolicy-1.png)
+  ![Client Version Policy](./media/ClientVersionPolicy-1.png)
 
 ***Cmdlet***
 
@@ -40,7 +40,7 @@ Let us consider the various tasks a user can do on the **Client Version Policy**
 
 > **Task 2**: Create a new client version policy
 
-![Client Version Policy](./media/ClientVersionPolicy-2.png)
+  ![Client Version Policy](./media/ClientVersionPolicy-2.png)
 
 ***Cmdlet***
 
@@ -56,7 +56,7 @@ Let us consider the various tasks a user can do on the **Client Version Policy**
 
 > **Task 3**: Get details of a chosen client version policy
 
-![Client Version Policy](./media/ClientVersionPolicy-3.png)
+  ![Client Version Policy](./media/ClientVersionPolicy-3.png)
 
 ***Cmdlet***
 
@@ -72,7 +72,7 @@ Let us consider the various tasks a user can do on the **Client Version Policy**
 
 > **Task 4**: Delete chosen client version policies
 
-![Client Version Policy](./media/ClientVersionPolicy-4.png)
+  ![Client Version Policy](./media/ClientVersionPolicy-4.png)
 
 ***Cmdlet***
 
@@ -88,7 +88,7 @@ Let us consider the various tasks a user can do on the **Client Version Policy**
 
 > **Task 5**: Update a client version policy
 
-![Client Version Policy](./media/ClientVersionPolicy-5678.png)
+  ![Client Version Policy](./media/ClientVersionPolicy-5678.png)
 
 - **Step 1**
 
@@ -154,7 +154,7 @@ Let us consider the various tasks a user can do on the **Client Version Configur
 ---
 > **Task 1**: List all the client version configurations
 
-![Client Version Configuration](./media/ClientVersionConfiguration-1.png)
+  ![Client Version Configuration](./media/ClientVersionConfiguration-1.png)
 
 ***Cmdlet***
 
@@ -170,7 +170,7 @@ Let us consider the various tasks a user can do on the **Client Version Configur
 
 > **Task 2**: Create a new client version configuration
 
-![Client Version Configuration](./media/ClientVersionConfiguration-2.png)
+  ![Client Version Configuration](./media/ClientVersionConfiguration-2.png)
 
 ***Cmdlet***
 
@@ -186,7 +186,7 @@ Let us consider the various tasks a user can do on the **Client Version Configur
 
 > **Task 3**: Get details of a chosen client version configuration
 
-![Client Version Configuration](../media/ClientVersionConfiguration-3.png)
+  ![Client Version Configuration](../media/ClientVersionConfiguration-3.png)
 
 ***Cmdlet***
 
@@ -202,7 +202,7 @@ Let us consider the various tasks a user can do on the **Client Version Configur
 
 > **Task 4**: Delete chosen client version configurations
 
-![Client Version Configuration](../media/ClientVersionConfiguration-4.png)
+  ![Client Version Configuration](../media/ClientVersionConfiguration-4.png)
 
 ***Cmdlet***
 
@@ -218,7 +218,7 @@ Let us consider the various tasks a user can do on the **Client Version Configur
 
 > **Task 5**: Update client version configurations
 
-![Client Version Configuration](../media/ClientVersionConfiguration-5.png)
+  ![Client Version Configuration](../media/ClientVersionConfiguration-5.png)
 
 ***Cmdlet***
 
@@ -255,7 +255,7 @@ Let us consider the various tasks a user can do on the **Test Device** component
 ---
 > **Task 1**: List all the test devices
 
-![Test Device](./media/TestDevice-1.png)
+  ![Test Device](./media/TestDevice-1.png)
 
 ***Cmdlet***
 
@@ -271,7 +271,7 @@ Let us consider the various tasks a user can do on the **Test Device** component
 
 > **Task 2**: Create a new test device
 
-![Test Device](./media/TestDevice-2.png)
+  ![Test Device](./media/TestDevice-2.png)
 
 ***Cmdlet***
 
@@ -287,7 +287,7 @@ Let us consider the various tasks a user can do on the **Test Device** component
 
 > **Task 3**: Get details of a chosen test device
 
-![Test Device](./media/TestDevice-3.png)
+  ![Test Device](./media/TestDevice-3.png)
 
 ***Cmdlet***
 
@@ -303,7 +303,7 @@ Let us consider the various tasks a user can do on the **Test Device** component
 
 > **Task 4**: Delete a chosen test device
 
-![Test Device](./media/TestDevice-4.png)
+  ![Test Device](./media/TestDevice-4.png)
 
 ***Cmdlet***
 
@@ -318,7 +318,7 @@ Let us consider the various tasks a user can do on the **Test Device** component
 
 > **Task 5**: Update a test device
 
-![Test Device](./media/TestDevice-5.png)
+  ![Test Device](./media/TestDevice-5.png)
 
 ***Cmdlet***
 
@@ -341,7 +341,7 @@ Let us consider the various tasks a user can do on the **Device Log Configuratio
 ---
 > **Task 1**: List all the device log configurations
 
-![Device Log Configuration](./media/Device-Log-Configuration-1.png)
+  ![Device Log Configuration](./media/Device-Log-Configuration-1.png)
 
 ***Cmdlet***
 
@@ -357,7 +357,7 @@ Let us consider the various tasks a user can do on the **Device Log Configuratio
 
 > **Task 2**: Create a new device log configuration
 
-![Device Log Configuration](./media/Device-Log-Configuration-2.png)
+  ![Device Log Configuration](./media/Device-Log-Configuration-2.png)
 
 ***Cmdlet***
 
@@ -373,7 +373,7 @@ Let us consider the various tasks a user can do on the **Device Log Configuratio
 
 > **Task 3**: Get details of a chosen device log configuration
 
-![Device Log Configuration](./media/Device-Log-Configuration-3.png)
+  ![Device Log Configuration](./media/Device-Log-Configuration-3.png)
 
 ***Cmdlet***
 
@@ -389,7 +389,7 @@ Let us consider the various tasks a user can do on the **Device Log Configuratio
 
 > **Task 4**: Delete chosen device log configurations
 
-![Device Log Configuration](./media/Device-Log-Configuration-4.png)
+  ![Device Log Configuration](./media/Device-Log-Configuration-4.png)
 
 ***Cmdlet***
 
@@ -405,7 +405,7 @@ Let us consider the various tasks a user can do on the **Device Log Configuratio
 
 > **Task 5**: Update device log configurations
 
-![Device Log Configuration](./media/Device-Log-Configuration-5.png)
+  ![Device Log Configuration](./media/Device-Log-Configuration-5.png)
 
 ***Cmdlet***
 
