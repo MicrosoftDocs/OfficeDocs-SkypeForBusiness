@@ -15,54 +15,54 @@ ms.collection:
 description: "This article provides an overview of the Admin Control Panel."
 ---
 
-# Control Panel
+# Modern Admin Control Panel
 
-Control Panel is a platform (or portal) in the Skype for Business module that facilitates administrative activities. These administrative activities involve configuration of features for the users. The administrator uses tabs to configure the features. In other words, the administrators use tabs to configure activate or set the features for users.
-The Control Panel has undergone the following releases:
+Modern Admin Control Panel (MACP) is a component of Skype for Business Server which helps manage the configuration of servers, users, clients, and devices in the environment of organization.
 
 1. **Phase 1 (July 2019)**: 
 
 In this release, the following features were introduced, available as tabs:
+
 - **Home**
 - **Users**
 
-1. **Phase 2 (March 2020)**: 
+2. **Phase 2 (March 2020)**: 
 
 In this release, the following features were introduced:
 
 - **Conferencing** 
+
+> [!NOTE]
+> This tab was introduced in this release, with a few of its sub-tabs - such as **Dial-In-Access Number** - being introduced in subsequent releases.
+
 - **Federation and External Access**
 
-1. **Cumulative Update (March 2021)**: 
+3. **Cumulative Update (March 2021)**: 
 
 In this release, the following features were introduced, in addition to the features in the **Phase 1** and **Phase 2** releases: 
 
 - **Voice Routing**
 - **Voice Features**
 - **Response Group**
-- **Conferencing** (**Dial-In-Access Number** sub-tab)
 
-The Control Panel is classified into:
+## Accessing information of tabs not in New Control Panel
 
-- **Old Control Panel**: Refers to the portal that contains tabs for all the features from the releases till date.
+The New Control Panel does not have a few tabs present in the Old Control Panel. However, the users can access the information pertaining to those tabs through the use of PowerShell-related cmdlets. For information on the tabs that are not there in the New Control Panel, see [Tabs not available in New Control Panel](#tabs-not-available-in-new-control-panel).
 
-- **New Control Panel**: Refers to the portal in which some tabs are missing for the features from the releases till date. For information on how to access information in tabs present in the Old Control Panel, see [Accessing missing information](#accessing-missing-information).
-
-## Accessing missing information
-
-Users can access information pertaining to tabs that are missing in the New Control Panel through PowerShell-related cmdlets. For information on missing tabs in the New Control Panel, see [Missing tabs](#missing-tabs).
-
-## Missing tabs
+## Tabs not available in New Control Panel
 
 This section describes the tabs missing in the New Control Panel. For information regarding the missing tabs, its sub-tabs, and the data embedded in it, see the table below.
 
+## Client
 
-|Parent Tab  |Sub-tab  |Source of Information for cmdlet  |
-|---------|---------|---------|
-|Client    |Client Version Policy         |    [Client Version Policy](use-powershell-client-tab.md#client-version-policy)     |
-|Client |   Client Version Configuration      |  [Client Version Configuration](use-powershell-client-tab.md#client-version-configuration)       |
-|Client   |    Test Device     | [Test Device](use-powershell-client-tab.md#test-device)        |
-|Client    |Device Log Configuration         |    [Device Log Configuration](use-powershell-client-tab.md#device-log-configuration)     |
+The **Client** tab is one of the tabs that is not available on the New Control Panel. This tab comprises sub-tabs that facilitate various functionalities which are described in the table below.
+
+|Sub-tab  |Source of Information for cmdlet  |
+|---------|---------|
+|Client Version Policy         |    [Client Version Policy](use-powershell-client-tab.md#client-version-policy)     |
+|Client Version Configuration      |  [Client Version Configuration](use-powershell-client-tab.md#client-version-configuration)       |
+|Test Device     | [Test Device](use-powershell-client-tab.md#test-device)        |
+|Device Log Configuration         |    [Device Log Configuration](use-powershell-client-tab.md#device-log-configuration)     |
 
 
 
@@ -71,13 +71,3 @@ This section describes the tabs missing in the New Control Panel. For informatio
 
 
 
-
-
-
-
-
-
-
-## New Control Panel
-
-The New Control Panel is the 
