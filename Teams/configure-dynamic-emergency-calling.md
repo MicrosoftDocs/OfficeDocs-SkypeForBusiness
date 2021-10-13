@@ -22,6 +22,8 @@ appliesto:
 
 # Plan and configure dynamic emergency calling 
 
+DRAFT
+
 Dynamic emergency calling for **Microsoft Calling Plans, Operator Connect, and Direct Routing** provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client.  
 
 Based on the network topology that the tenant administrator defines, the Teams client provides network connectivity information in a request to the Location Information Service (LIS). If there's a match, the LIS returns a location to the client. This location data is transmitted back to the client.  
