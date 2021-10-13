@@ -219,7 +219,7 @@ The emergency call routing policy references an online PSTN usage, which must ha
 The ability to dynamically route emergency calls for Direct Routing users varies depending on the emergency calling network within a given country. There are two solutions available:
 
 - [Emergency Routing Service Providers (US only)](#emergency-routing-service-providers)
-- [Emergency Location Identification Number applications](#emergency-location-identification-number-elin-applications)
+- [Emergency Location Identification Number applications](#emergency-location-identification-number-applications)
 
 #### Emergency Routing Service Providers
 
