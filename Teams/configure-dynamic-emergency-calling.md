@@ -93,9 +93,13 @@ The following clients are currently supported.  Check back often to see updates 
 
 ## Assign emergency addresses
 
-You can assign emergency addresses to both Calling Plan users and to the network identifiers that are required for dynamically obtaining a location. (Subnet and WiFi AP are supported. Ethernet switch/port is supported on Windows 8.1 and later at this time.)
+**You can assign emergency addresses as follows:**
 
-**Whether you can assign emergency addresses to Operator Connect users depends on the capabilities assigned to the number when the carrier uploads them into a customer's inventory.**  
+- **To Calling Plan users**
+
+- **To Operator Connect users--depending  on the capabilities assigned to the number when the carrier uploads them into a customer's inventory.**
+
+- **To the network identifiers that are required for dynamically obtaining a location.** 
 
 To support automated routing of emergency calls within the United States, you must ensure that the emergency locations that are assigned to network identifiers include the associated geo codes. (Emergency addresses without geo codes can't be assigned to the network identifiers that are required for dynamic locations.)
 
@@ -105,7 +109,8 @@ Azure Maps is used for location-based services.  When you enter an emergency add
 
 - If a match isn't found, you will have the opportunity to manually create an emergency address. You can use the PIN drop feature to do this. 
 
-This means that if an existing emergency location that is created for assigning to Calling Plan users is intended for a dynamic location, the same address needs to be re-created to include the geo codes. To distinguish between the two locations, you should include a different description. The new emergency location can be assigned to the users who have the old location. When fully migrated, the old location can be deleted.
+> [!NOTE]
+> **Emergency addresses that are more than a couple of years old cannot be assigned to network identifiers. You will need to re-create older addresses.** 
 
 You add and assign emergency addresses in the Microsoft Teams admin center or by using PowerShell. For more information, see [Add an emergency location for your organization](add-change-remove-emergency-location-organization.md) and [Assign an emergency location for a user](assign-change-emergency-location-user.md).
 
@@ -115,31 +120,27 @@ Network settings are used to determine the location of a Teams client, and to dy
 
 Network settings include sites that include a collection of subnets and these are used exclusively for dynamic policy assignment to users. For example, an emergency calling policy and an emergency call routing policy might be assigned to the "Redmond site" so that any user that roams from home or another Microsoft location is configured with emergency numbers, routing, and security desk specific to Redmond.  
 
+**Trusted IP addresses contain a collection of the internet external IP addresses of the enterprise network and are used to determine if the user's endpoint is inside the corporate network. An attempt to obtain a dynamic policy or location will only be made if the user's external IP address matches an IP address in the trusted IP address.**
+
+**For more information about IP addresses, network regions, sites, and subnet addresses,  see [Network settings for cloud voice features](cloud-voice-network-settings.md).**
+
+**You configure network settings in the Microsoft Teams admin center or by using PowerShell. To learn more, see [Manage your network topology for cloud voice features](manage-your-network-topology.md).**
+
+Note that it can take some time (up to a couple of hours) for some changes to network settings (such as a new address, network identifier, and so on) to propagate and be available to Teams clients.  
+
 > [!Note]
 > Subnets can also be defined in LIS and can be associated with an emergency location.  LIS subnets must be defined by the Network ID matching the subnet IP range assigned to clients. For example, the network ID for a client IP/mask of 10.10.10.150/25 is **10.10.10.128**. For more information, see [Understand TCP/IP addressing and subnetting basics](/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting).
 
 > [!Important]
 > Network configuration setting lookups are not supported with cloud proxy service deployments that modify the source IP addresses from Teams clients.
 
-Keep the following definitions in mind. For more information, see [Network settings for cloud voice features](cloud-voice-network-settings.md).
 
-- Trusted IP addresses contain a collection of the internet external IP addresses of the enterprise network and are used to determine if the user's endpoint is inside the corporate network. An attempt to obtain a dynamic policy or location will only be made if the user's external IP address matches an IP address in the trusted IP address. A match can be made against either IPv4 or IPv6 IP addresses and is dependent upon the format of the IP packet sent to the network settings.  (If a public IP address has both IPv4 and IPv6, you need to add both as trusted IP addresses.)
-
-- A network region contains a collection of network sites. 
-
-- A network site represents a location where your organization has a physical value, such as an office, a set of buildings, or a campus. These sites are defined as a collection of IP subnets.
-
-- A network subnet must be associated with a specific network site. A client's location is determined based on the network subnet and the associated network site.  
-
-You configure network settings in the Microsoft Teams admin center or by using PowerShell. To learn more, see [Manage your network topology for cloud voice features](manage-your-network-topology.md).
-
-Note that it can take some time (up to a couple of hours) for some changes to network settings (such as a new address, network identifier, and so on) to propagate and be available to Teams clients.  
 
 **For Calling Plan and Operator Connect users:**
 
 - If dynamic configuration of security desk notification is required, you must configure both trusted IP addresses and network sites.
 
-- If only dynamic locations are required, you must configure only trusted IP addresses.
+- If only dynamic locations are required, you must configure only trusted IP addresses; **configuring network settings isn't required.**
 
 - If neither are required, configuring network settings isn't required. 
 
@@ -147,14 +148,14 @@ Note that it can take some time (up to a couple of hours) for some changes to ne
 
 - If dynamic enablement of emergency calling or dynamic configuration of security desk notification is required, then you must configure both Trusted IP addresses and network sites.
 
-- If only dynamic locations are required, you must configure only trusted IP addresses.
+- If only dynamic locations are required, you must configure only trusted IP addresses; **configuring metwork settings isn't required.**
 
 - If neither are required, configuring network settings isn't required.
 
 
 ## Configure Location Information Service
 
-A Teams client obtains emergency addresses from the locations associated with different network identifiers. Both subnets and wireless access points (WAPs) are supported. Ethernet switch/port is supported on Windows 8.1 and later at this time.
+A Teams client obtains emergency addresses from the locations associated with different network identifiers. 
 
 For a client to obtain a location, you must populate the LIS with network identifiers (subnets, WAPs, switches, ports) and emergency locations. You can do this in the Microsoft Teams admin center or by using PowerShell.
 
@@ -180,13 +181,13 @@ Use the following cmdlets to add ports, switches, subnets, and WAPs to the LIS.
 
 Use the following policies to configure emergency calling. You can manage these policies in the Microsoft Teams admin center or by using PowerShell.
 
-- **Emergency call routing policy – Applies only to Direct Routing**. This policy configures the emergency numbers, masks per number if desired, and the PSTN route per number.  You can assign this policy to users, to network sites, or to both. (Calling Plans Teams clients are automatically enabled for emergency calling with the emergency numbers from the country based upon their Microsoft 365 or Office 365 usage location.)  To  learn more, see [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md).
+- **Emergency call routing policy – Applies only to Direct Routing**. **This policy configures the emergency numbers, masks per number if desired, and the PSTN route per number. You can assign this policy to users, to network sites, or to both. To  learn more, see [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md).  (Calling Plan and Operator Connect users are automatically enabled for emergency calling with the emergency numbers from the country based upon their Microsoft 365 or Office 365 usage location.)**
 
 - **Emergency calling policy - Applies to Calling Plans, Operator Connect, and Direct Routing.** This policy configures the security desk notification experience when an emergency call is made. You can set who to notify and how they are notified. For example, to automatically notify your organization's security desk and have them listen in on emergency calls.  This policy can either be assigned to users or network sites or both. To learn more, see [Manage emergency calling policies in Teams](manage-emergency-calling-policies.md).
 
 ## Enable users and sites
 
-You can assign emergency call routing policies and emergency calling policies to users and to sites. Keep in mind that emergency call routing policies apply to Direct Routing only. (Although it's possible to assign this policy to a Calling Plan user, the policy will have no effect.)
+You can assign emergency call routing policies and emergency calling policies to users and to sites. Keep in mind that emergency call routing policies apply to Direct Routing only. (Although it's possible to assign this policy to a Calling Plan **or Operator Connect** user, the policy will have no effect.)
 
 You assign policies in the Microsoft Teams admin center or by using PowerShell. To learn more, see:
 
