@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-description: "Summary: Skype for Business Server Control panel to Cmdlet mapping."
+description: "This article provides an overview of the Admin Control Panel."
 ---
 
 # Control Panel
@@ -50,11 +50,9 @@ The Control Panel is classified into:
 
 ## Accessing missing information
 
-Users can access information pertaining to tabs that are missing in the New Control Panel through PowerShell.
+Users can access information pertaining to tabs that are missing in the New Control Panel through PowerShell-related cmdlets. For information on missing tabs in the New Control Panel, see [Missing tabs](#missing-tabs).
 
-The PowerShell console provides a platform for a user to access information in missing tabs through cmdlets. For information on missing tabs in the New Control Panel, see.
-
-## Missing Tabs
+## Missing tabs
 
 This section describes the tabs missing in the New Control Panel. For information regarding the missing tabs, its sub-tabs, and the data embedded in it, see the table below.
 
