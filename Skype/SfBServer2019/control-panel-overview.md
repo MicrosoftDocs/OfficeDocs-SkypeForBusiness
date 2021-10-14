@@ -26,7 +26,7 @@ The MACP had the following releases:
     - **Home**
     - **Users**
 
-2. **Phase 2 (March 2020)** - Introduced the following features as tabs, in addition to the features introduced in **Phase 1**:
+2. **Phase 2 (March 2020)** - Introduced the following features as tabs, in addition to the features of **Phase 1**:
 
     - **Conferencing** 
 
@@ -35,7 +35,7 @@ The MACP had the following releases:
 
     - **Federation and External Access**
 
-3. **Cumulative Update (March 2021)** - Introduced the following features as tabs, in addition to the features introduced in **Phase 1** and **Phase 2**: 
+3. **Cumulative Update (March 2021)** - Introduced the following features as tabs, in addition to the features of **Phase 1** and **Phase 2**: 
 
     - **Voice Routing**
     - **Voice Features**
