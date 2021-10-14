@@ -237,6 +237,7 @@ When you install a new firmware version on your device, you can determine the co
 |:--------------|:-----------------|:-------------------------|
 |Crestron -TSS770| 1.004.0115 |2021 Update #1 |
 |Crestron-TSS1070 | 1.004.0115 |2021 Update #1 |
+|Yealink RoomPanel | 147.15.0.17 |2021 Update #1 |
 
 
 
