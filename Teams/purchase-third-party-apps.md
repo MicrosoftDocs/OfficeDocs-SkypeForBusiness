@@ -50,6 +50,10 @@ Here, you can also purchase licenses for services offered by third-party apps fo
 > You have to be a global admin to add a new billing account.
 
 7. Check that the correct billing profile is selected. If you don't already have one, add a new one by selecting **Add new**. You have the option to pay with a credit card, debit card, or with invoice billing. The billing profile also lets you add a purchase order number to identify your order later. For more information on billing profiles, see [Understand billing profiles](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles).
+
+> [!NOTE]
+> Invoice billing is only available for transactions over $500.
+
 8. Select **Place order**.
 9. Select **Set up** to activate your subscription on the publisher's website. If you don't set up your subscription after your purchase, you can do it later by selecting **Manage licenses**.
 
