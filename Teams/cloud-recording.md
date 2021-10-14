@@ -332,7 +332,7 @@ Admins can use the same command to ensure changing exiration date is successful.
   
 **Can an admin set TMRs to never expire?**
   
- Yes, administrators can set TMR's to never expire running command below:
+ Yes, administrators can set TMRs to never expire by running the following command:
 ```
 Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays -1
 ```
