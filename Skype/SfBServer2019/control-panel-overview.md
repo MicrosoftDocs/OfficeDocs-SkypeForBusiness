@@ -19,6 +19,9 @@ description: "This article provides an overview of the Admin Control Panel."
 
 Modern Admin Control Panel (MACP) is a modern version of the existing [Control Panel](../SfbServer/management-tools/install-and-open-administrative-tools.md) that helps manage the configuration of servers, users, clients, and devices in the environment of an organization. The Old Control Panel relies on the Silverlight technology that has reached end of support on October 12, 2021.
 
+> [!NOTE]
+> Navigate to the section **Skype for Business Server Control Panel** in the page to which you are redirected by clicking the link for **Control Panel** above.
+
 ## Access MACP
 
 To launch MACP in the browser, enter **https://[your pool FQDN]/macp** or **https://admin.[your-domain].com**.
