@@ -317,7 +317,7 @@ The expiration days values can be set as follows:
  
 Admins can't change the expiration date on existing TMRs already uploaded to OneDrive or SharePoint before this feature was released. This protects the intent of the user that owns the TMR.
  
-**How can the admin confirm currently active expiration date?**
+**How can the admin confirm the currently active expiration date?**
   
 Admins may use the following command to confirm currently applied expiration date:
   
