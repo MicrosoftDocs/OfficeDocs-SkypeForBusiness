@@ -90,7 +90,9 @@ Let us consider the various tasks a user can do on **CLIENT VERSION POLICY**, an
 
    ![Client Version Policy](./media/ClientVersionPolicy-5678.png)
 
-- **Step 1**
+- **Annotation 1 - Result**
+
+    This annotation on the image indicates a result, that is, the data being retrieved and displayed.
 
     ***Cmdlet***
 
@@ -102,7 +104,9 @@ Let us consider the various tasks a user can do on **CLIENT VERSION POLICY**, an
     Get-CsClientVersionPolicyRule -Filter "Global/*"
     ```
 
-- **Step 2**
+- **Annotation 2 - Option (for the user)**
+
+    This annotation on the image indicates an option for the user to implement, that is, to get the details of the client version policy rules.
 
     ***Cmdlet***
 
@@ -114,7 +118,9 @@ Let us consider the various tasks a user can do on **CLIENT VERSION POLICY**, an
     Get-CsClientVersionPolicyRule -Identity "Global/2336c611-a243-4c5d-994b-eea8a524d0e4"
     ```
 
-- **Step 3**
+- **Annotation 3 - Option (for the user)**
+
+    This annotation on the image indicates an option for the user to implement, that is, to create a new client version policy rule.
 
     ***Cmdlet***
 
@@ -128,7 +134,9 @@ Let us consider the various tasks a user can do on **CLIENT VERSION POLICY**, an
     New-CsClientVersionPolicyRule -Parent "site:Redmond" -RuleId $x -MajorVersion 4 -UserAgent InHouse
     ```
 
-- **Step 4**
+- **Annotation 4 - Option (for the user)**
+
+    This annotation on the image indicates an option for the user to implement, that is, to commit/save the newly created client version policy rule.
 
     ***Cmdlet***
 
