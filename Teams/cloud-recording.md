@@ -319,7 +319,7 @@ Admins can't change the expiration date on existing TMRs already uploaded to One
  
 **How can the admin confirm the currently active expiration date?**
   
-Admins may use the following command to confirm currently applied expiration date:
+Admins can use the following command to confirm the currently applied expiration date:
   
 ```
 Geet-CsTeamsMeetingPolicy -Identity Global | fl NewMeetingRecordingExpirationDays  
