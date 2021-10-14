@@ -43,7 +43,7 @@ The MACP had the following releases:
 
 ## Accessing information of tabs not in New Control Panel
 
-The New Control Panel doesn't have a few tabs present in the Old Control Panel. However, the users can access the information pertaining to those tabs through PowerShell-related cmdlets. For information on the tabs not there in the New Control Panel, see [Tabs not available in New Control Panel](#tabs-not-available-in-new-control-panel).
+The New Control Panel doesn't have a few tabs that are present in the Old Control Panel. However, the users can access the information pertaining to those tabs through PowerShell-related cmdlets. For information on the tabs not there in the New Control Panel, see [Tabs not available in New Control Panel](#tabs-not-available-in-new-control-panel).
 
 ## Tabs not available in New Control Panel
 
