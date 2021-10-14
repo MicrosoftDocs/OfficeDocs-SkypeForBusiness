@@ -51,7 +51,7 @@ This section describes the tabs missing in the New Control Panel. For informatio
 
 ## Client
 
-The **Client** tab is one of the tabs that is not available on the New Control Panel. This tab comprises sub-tabs that facilitate various functionalities. These sub-tabs have been described in the table below.
+The **Client** tab is one of the tabs that isn't available on the New Control Panel. This tab comprises sub-tabs that facilitate various functionalities. These sub-tabs have been described in the table below.
 
 |Sub-tab  |Source of Information for cmdlet  |
 |---------|---------|
