@@ -24,11 +24,11 @@ Modern Admin Control Panel (MACP) is a modern version of the existing [Control P
 
 ## Access MACP
 
-To launch MACP in the browser, enter **https://[your pool FQDN]/macp** or **https://admin.[your-domain].com**.
+To launch MACP in the browser, enter **https://&lt;pool-FQDN&gt;/macp** or a configured simple URL such as **https://admin.&lt;your-domain&gt;.com**.
 
-## Retrieving data in functionalities from Old to New Control Panel through cmdlets
+## Accessing data from tabs unavailable in MACP through cmdlets
 
-The MACP includes commonly used functionalities and covers most of the needs of the organization. There are a few functionalities from Old Control Panel that are unavailable in MACP. However, the MACP provides for access of those functionalities through PowerShell-related cmdlets. For more information on the functionalities that can be access through the cmdlets, see the table in the **Client** section, below.
+The MACP includes commonly used tabs which cover most of the needs of the organization. There are a few tabs from old Control Panel that are unavailable in MACP. However, there is an option for the user to avail the functionalities of those tabs through PowerShell cmdlets. For more information, see the table below.
 
 ## Client
 
