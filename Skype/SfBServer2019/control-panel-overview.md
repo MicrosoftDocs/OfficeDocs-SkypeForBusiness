@@ -28,7 +28,7 @@ To launch MACP in the browser, enter **https://[your pool FQDN]/macp** or **http
 
 ## Retrieving data in functionalities from Old to New Control Panel through cmdlets
 
-The MACP includes commonly used functionalities and covers most of the needs of the organization. There are a few functionalities from Old Control Panel that are unavailable in MACP. However, the MACP provides for access of those functionalities through PowerShell-related cmdlets. For more information on the functionalities that can be access through the cmdlets, see the table in [Client](#client).
+The MACP includes commonly used functionalities and covers most of the needs of the organization. There are a few functionalities from Old Control Panel that are unavailable in MACP. However, the MACP provides for access of those functionalities through PowerShell-related cmdlets. For more information on the functionalities that can be access through the cmdlets, see the table in the **Client** section, below.
 
 ## Client
 
