@@ -306,7 +306,7 @@ Admins may use ```Set-CsTeamsMeetingPolicy``` with the ```NewMeetingRecordingExp
 Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 90
 ```
 
-This sets expiration policy to 90 days.
+This sets the expiration policy to 90 days.
 
 Changing expiration settings will impact only newly created TMRs from that point forward. It will not impact any recordings made prior to that date. 
 
