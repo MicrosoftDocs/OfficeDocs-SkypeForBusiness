@@ -28,8 +28,8 @@ Modern Admin Control Panel (MACP) is a component of Skype for Business Server th
 
     - **Conferencing** 
 
-        > [!NOTE]
-        > This tab was introduced in this release, with a few of its sub-tabs - such as **Dial-In-Access Number** - being introduced in subsequent releases.
+      > [!NOTE]
+      > This tab was introduced in this release, with a few of its sub-tabs - such as **Dial-In-Access Number** - being introduced in subsequent releases.
 
     - **Federation and External Access**
 
