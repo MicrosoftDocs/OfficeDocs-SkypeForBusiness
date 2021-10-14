@@ -24,7 +24,7 @@ Modern Admin Control Panel (MACP) is a modern version of the existing [Control P
 
 ## Access MACP
 
-To launch MACP in the browser, enter **https://&lt;pool-FQDN&gt;/macp** or a configured simple URL such as **https://admin.&lt;your-domain&gt;.com**.
+To launch MACP in the browser, enter https://&lt;pool-FQDN&gt;/macp or a configured simple URL such as https://admin.&lt;your-domain&gt;.com.
 
 ## Accessing data from tabs unavailable in MACP through cmdlets
 
