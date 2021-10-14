@@ -17,14 +17,16 @@ description: "This article provides an overview of the Admin Control Panel."
 
 # Modern Admin Control Panel
 
-Modern Admin Control Panel (MACP) is a component of Skype for Business Server that helps manage the configuration of servers, users, clients, and devices in the environment of organization.
+Modern Admin Control Panel (MACP) is a component of Skype for Business Server that helps manage the configuration of servers, users, clients, and devices in the environment of an organization.
 
-1. **Phase 1 (July 2019)** release introduced the following features as tabs:
+The MACP had the following releases:
+
+1. **Phase 1 (July 2019)** - Introduced the following features as tabs:
 
     - **Home**
     - **Users**
 
-2. **Phase 2 (March 2020)** release introduced the following features as tabs, including the existing features (introduced in **Phase 1**):
+2. **Phase 2 (March 2020)** - Introduced the following features as tabs, in addition to the features introduced in **Phase 1**:
 
     - **Conferencing** 
 
@@ -33,7 +35,7 @@ Modern Admin Control Panel (MACP) is a component of Skype for Business Server th
 
     - **Federation and External Access**
 
-3. **Cumulative Update (March 2021)** release introduced the following features as tabs, including the existing features (introduced in **Phase 1** and **Phase 2**): 
+3. **Cumulative Update (March 2021)** - Introduced the following features as tabs, in addition to the features introduced in **Phase 1** and **Phase 2**: 
 
     - **Voice Routing**
     - **Voice Features**
