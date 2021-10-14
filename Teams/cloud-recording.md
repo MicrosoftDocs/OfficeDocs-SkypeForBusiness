@@ -329,11 +329,6 @@ The expiration date will be cleared upon re-upload, regardless of the user’s S
 
 The date is only retained for a moved TMR file. A copied file will not have the expiration date, just like a re-uploaded TMR.
   
-
-**What is the scope of control for the admin policy?**
-  
-Both meetings and calls will be controlled by the same `CsTeamsMeetingPolicy` setting, `MeetingRecordingExpirationDays`. 
-  
 **How can end users modify the expiration date on a specific TMR file?**
   
 Anyone who has edit and delete permissions on a TMR can modify the expiration date in the file’s details pane in OneDrive or SharePoint.
