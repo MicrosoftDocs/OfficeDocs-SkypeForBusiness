@@ -17,41 +17,17 @@ description: "This article provides an overview of the Admin Control Panel."
 
 # Modern Admin Control Panel
 
-Modern Admin Control Panel (MACP) is a component of Skype for Business Server that helps manage the configuration of servers, users, clients, and devices in the environment of an organization.
+Modern Admin Control Panel (MACP) is a modern version of the existing Control Panel that helps manage the configuration of servers, users, clients, and devices in the environment of an organization. The Old Control Panel relies on the Silverlight technology that has reached end of support on October 12, 2021.
 
-The MACP had the following releases:
+## Access MACP
 
-1. **Phase 1 (July 2019)** - Introduced the following features as tabs:
+To launch MACP in the browser, enter **https://[your pool FQDN]/macp** or **https://admin.[your-domain].com**.
 
-    - **Home**
-    - **Users**
+## Retreiving data in functionalities from Old to New Control Panel through cmdlets
 
-2. **Phase 2 (March 2020)** - Introduced the following features as tabs, in addition to the features of **Phase 1**:
-
-    - **Conferencing** 
-
-      > [!NOTE]
-      > This tab was introduced in this release, with a few of its sub-tabs - such as **Dial-In-Access Number** - being introduced in subsequent releases.
-
-    - **Federation and External Access**
-
-3. **Cumulative Update (March 2021)** - Introduced the following features as tabs, in addition to the features of **Phase 1** and **Phase 2**: 
-
-    - **Voice Routing**
-    - **Voice Features**
-    - **Response Group**
-
-## Accessing information of tabs not in New Control Panel
-
-The New Control Panel doesn't have a few tabs that are present in the Old Control Panel. However, the users can access the information pertaining to those tabs through PowerShell-related cmdlets. For information on the tabs not there in the New Control Panel, see [Tabs not available in New Control Panel](#tabs-not-available-in-new-control-panel).
-
-## Tabs not available in New Control Panel
-
-This section describes the tabs missing in the New Control Panel. For information about the missing tabs, its subtabs, and the data embedded in it, see the table below.
+The MACP includes commonly used functionalities and covers most of the needs of the organization. There are a few functionalities from Old Control Panel that are unavailable in MACP. However, the MACP provides for access of those functionalities through PowerShell-related cmdlets. For more information on the functionalities that can be access through the cmdlets, see the table in [Client](#client).
 
 ## Client
-
-The **Client** tab is one of the tabs that isn't available on the New Control Panel. This tab comprises sub-tabs that facilitate various functionalities. These sub-tabs have been described in the table below.
 
 |Sub-tab  |Source of Information for cmdlet  |
 |---------|---------|
@@ -59,11 +35,4 @@ The **Client** tab is one of the tabs that isn't available on the New Control Pa
 |Client Version Configuration      |  [Client Version Configuration](use-powershell-client-tab.md#client-version-configuration)       |
 |Test Device     | [Test Device](use-powershell-client-tab.md#test-device)        |
 |Device Log Configuration         |    [Device Log Configuration](use-powershell-client-tab.md#device-log-configuration)     |
-
-
-
-
-  
-
-
 
