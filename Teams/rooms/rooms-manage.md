@@ -84,6 +84,24 @@ If you select more than one device, settings that support bulk editing show the 
 | *Theming*                                                    |                                                        |                    |
 |                                                              | Default<br>No theme<br>Custom<br>List of built-in themes   | Yes                |
 
+## Cortana settings 
+Cortana, whether _Voice Activation_ or _Push to talk_, can be enabled:
+-	At the tenant and group level via Powershell commands.
+-	At the device level via Powershell commands, via XML settings or via Teams Admin Center TAC 
+
+At the device level, Cortana can be configured to be activated for:
+- _Push to talk_ via Powershell commands 
+  - How to turn it on: Cortana _Push to talk_ is enabled by default for all devices that are set up with locale en-us independently of the geographic region
+  - How to turn it off: use the Powershell command. 
+- _Voice Activation_ via XML settings or TAC.
+  - How to turn it on: set <CortanaWakeWord>true</> in the XML settings file or use the TAC setting
+  - How to turn it off: Cortana Voice Activation will be set off by default 
+    Three conditions must be met to have Cortana _Voice Activation_ on your device:
+    1. Your tenant must have Cortana enabled
+    2. Your device must be set up with locale en-au, en-ca, en-gb, en-in, en-us
+    3. You must have a Cortana certified device connected to your Teams Room [Learn More](/microsoftteams/cortana-in-teams)   
+
+
 ### Device restart options
 
 Changes to device settings will only take effect after the devices have been restarted. When you make changes that need a restart, you can choose whether to restart the devices immediately or schedule a restart. Here are the available restart options:
