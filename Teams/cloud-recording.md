@@ -325,7 +325,8 @@ Admins can use the following command to confirm the currently applied expiration
 Geet-CsTeamsMeetingPolicy -Identity Global | fl NewMeetingRecordingExpirationDays  
 ```
 
-Output is going to be as follows:
+The output will be as follows:
+
 ![image](https://user-images.githubusercontent.com/5260172/137217795-a90803f3-dd3a-4dca-919f-fd70d77a68ea.png)
 
 Admins can use the same command to ensure changing exiration date is successful.
