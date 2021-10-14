@@ -330,7 +330,7 @@ Output is going to be as follows:
 
 Admins can use the same command to ensure changing exiration date is successful.
   
-**Can an admin set TMR's to never expire?**
+**Can an admin set TMRs to never expire?**
   
  Yes, administrators can set TMR's to never expire running command below:
 ```
