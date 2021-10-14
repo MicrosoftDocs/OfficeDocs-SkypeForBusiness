@@ -17,45 +17,39 @@ description: "This article provides an overview of the Admin Control Panel."
 
 # Modern Admin Control Panel
 
-Modern Admin Control Panel (MACP) is a component of Skype for Business Server which helps manage the configuration of servers, users, clients, and devices in the environment of organization.
+Modern Admin Control Panel (MACP) is a component of Skype for Business Server that helps manage the configuration of servers, users, clients, and devices in the environment of organization.
 
-1. **Phase 1 (July 2019)**: 
+1. **Phase 1 (July 2019)** release introduced the following features as tabs:
 
-In this release, the following features were introduced, available as tabs:
+    - **Home**
+    - **Users**
 
-- **Home**
-- **Users**
+2. **Phase 2 (March 2020)** release introduced the following features as tabs, including the existing features (introduced in **Phase 1**):
 
-2. **Phase 2 (March 2020)**: 
+    - **Conferencing** 
 
-In this release, the following features were introduced:
+        > [!NOTE]
+        > This tab was introduced in this release, with a few of its sub-tabs - such as **Dial-In-Access Number** - being introduced in subsequent releases.
 
-- **Conferencing** 
+    - **Federation and External Access**
 
-> [!NOTE]
-> This tab was introduced in this release, with a few of its sub-tabs - such as **Dial-In-Access Number** - being introduced in subsequent releases.
+3. **Cumulative Update (March 2021)** release introduced the following features as tabs, including the existing features (introduced in **Phase 1** and **Phase 2**): 
 
-- **Federation and External Access**
-
-3. **Cumulative Update (March 2021)**: 
-
-In this release, the following features were introduced, in addition to the features in the **Phase 1** and **Phase 2** releases: 
-
-- **Voice Routing**
-- **Voice Features**
-- **Response Group**
+    - **Voice Routing**
+    - **Voice Features**
+    - **Response Group**
 
 ## Accessing information of tabs not in New Control Panel
 
-The New Control Panel does not have a few tabs present in the Old Control Panel. However, the users can access the information pertaining to those tabs through the use of PowerShell-related cmdlets. For information on the tabs that are not there in the New Control Panel, see [Tabs not available in New Control Panel](#tabs-not-available-in-new-control-panel).
+The New Control Panel doesn't have a few tabs present in the Old Control Panel. However, the users can access the information pertaining to those tabs through PowerShell-related cmdlets. For information on the tabs not there in the New Control Panel, see [Tabs not available in New Control Panel](#tabs-not-available-in-new-control-panel).
 
 ## Tabs not available in New Control Panel
 
-This section describes the tabs missing in the New Control Panel. For information regarding the missing tabs, its sub-tabs, and the data embedded in it, see the table below.
+This section describes the tabs missing in the New Control Panel. For information about the missing tabs, its subtabs, and the data embedded in it, see the table below.
 
 ## Client
 
-The **Client** tab is one of the tabs that is not available on the New Control Panel. This tab comprises sub-tabs that facilitate various functionalities which are described in the table below.
+The **Client** tab is one of the tabs that is not available on the New Control Panel. This tab comprises sub-tabs that facilitate various functionalities, which are described in the table below.
 
 |Sub-tab  |Source of Information for cmdlet  |
 |---------|---------|
