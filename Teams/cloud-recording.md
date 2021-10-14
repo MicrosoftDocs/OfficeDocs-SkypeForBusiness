@@ -301,7 +301,7 @@ Yes, the expiration date is set per file. Users can modify the expiration date i
   
  **How can an admin change the expiration date?**
   
-Admins may use ```Set-CsTeamsMeetingPolicy``` with the ```NewMeetingRecordingExpirationDays``` parameter specified to update expiration settings, for example:
+Admins can use ```Set-CsTeamsMeetingPolicy``` with the ```NewMeetingRecordingExpirationDays``` parameter specified to update expiration settings, for example:
 ```
 Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 90
 ```
