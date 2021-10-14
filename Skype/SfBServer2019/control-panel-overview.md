@@ -17,7 +17,7 @@ description: "This article provides an overview of the Admin Control Panel."
 
 # Modern Admin Control Panel
 
-Modern Admin Control Panel (MACP) is a modern version of the existing Control Panel that helps manage the configuration of servers, users, clients, and devices in the environment of an organization. The Old Control Panel relies on the Silverlight technology that has reached end of support on October 12, 2021.
+Modern Admin Control Panel (MACP) is a modern version of the existing [Control Panel](../SfbServer/management-tools/install-and-open-administrative-tools.md) that helps manage the configuration of servers, users, clients, and devices in the environment of an organization. The Old Control Panel relies on the Silverlight technology that has reached end of support on October 12, 2021.
 
 ## Access MACP
 
