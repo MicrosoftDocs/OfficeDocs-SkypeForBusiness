@@ -155,7 +155,7 @@ Set your educational institution’s name, logo, and default language on the bra
 
 1. Sign in to the **[Teams admin center](https://admin.teams.microsoft.com)**.
 
-2. Select **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps))** > **Career Coach** > **Brand and preferences**.
+2. Select **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** > **Career Coach** > **Brand and preferences**.
 
 3. Upload the **educational institution icon**.
 
@@ -189,7 +189,7 @@ The LinkedIn configuration connects Career Coach with public alumni data from Li
   
 1. Sign in to the **[Teams admin center](https://admin.teams.microsoft.com)**.
 
-2. Select **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps))** > **Career Coach** > **LinkedIn connection**.
+2. Select **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** > **Career Coach** > **LinkedIn connection**.
 
 3. Find the LinkedIn page by searching on LinkedIn and selecting School filter. Or connect with a career services staff member to determine the correct LinkedIn school page to use. [How to identify LinkedIn pages](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en).
 
@@ -233,7 +233,7 @@ To create the course catalog, put together a list of all courses taught at your 
 
 1. Sign in to the **[Teams admin center](https://admin.teams.microsoft.com)**.
 
-1. Select **Teams apps** &gt; **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps))** &gt; **Career Coach** &gt; **Settings** &gt;  **Course catalog**.
+1. Select **Teams apps** &gt; **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **Career Coach** &gt; **Settings** &gt;  **Course catalog**.
 
 2. Upload courses in CSV format with the required columns: courseId, title, sourceLink. Each row must be include data for each of the required columns.
 
@@ -275,7 +275,7 @@ The fields of study are synonymous with major areas of interest, academic major,
 ##### Add the fields of study
 
 1. Sign in to the **[Teams admin center](https://admin.teams.microsoft.com)**.
-1. Select **Teams apps** &gt; **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps))** &gt; **Career Coach** &gt; **Settings** &gt;  **Fields of study**.
+1. Select **Teams apps** &gt; **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **Career Coach** &gt; **Settings** &gt;  **Fields of study**.
 
 2. Upload field of study in CSV format.
 
@@ -302,7 +302,7 @@ Career Coach can be customized to be unique to your educational institution. The
 
 1. Sign in to the **[Teams admin center](https://admin.teams.microsoft.com)**.
 
-1. Select **Teams apps** &gt; **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps))** &gt; **Career Coach** > **Settings** &gt; **Customization**.
+1. Select **Teams apps** &gt; **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **Career Coach** > **Settings** &gt; **Customization**.
 
 2. Add each title, URL, and short description.  
   
