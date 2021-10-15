@@ -36,7 +36,8 @@ For Teams users, Cloud Voicemail is automatically set up and provisioned. Note t
 
 We have the following information for your users on managing their voicemail settings as well as other calling features in Teams:
 
-- [Manage your call settings in Teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f). This article explains how to manage all end-user Teams calling features.
+- [Check your voicemail in Teams](https://support.microsoft.com/office/check-your-voicemail-in-teams-f8d568ce-7329-4fe2-a6a2-325ec2e2b419)
+- [Manage your call settings in Teams](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
 
 ## Setting up Cloud Voicemail to work with on-premises users
 
