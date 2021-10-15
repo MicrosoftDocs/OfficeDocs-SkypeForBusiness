@@ -69,11 +69,9 @@ To enable Career Coach for your educational institution, review what you need to
 - Educational instituion's logo and graphical assets in the require format.
 
 - Course catalog data.
-Reference the [catalog document schema](#course-catalog-documents-formatting-and-schema).
 
 - List of fields of study offered.
-Reference the [fields of study document schema](#fields-of-study-document-format-and-schema).
-
+.
 - Educational institution’s [LinkedIn page](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en).
 
 - Educational institution links to career services, student job postings, and other career related resources.
@@ -112,26 +110,9 @@ Career Coach **requires** your educational institution’s users to have the abi
    - Select **Selected group** to enable the service for only a group of selected users in your educational institution.
 
 Learn how to [Integrate LinkedIn account connections in Azure Active Directory](/azure/active-directory/enterprise-users/linkedin-integration)
-
-## Configure Career Coach in the Teams admin center
-
-Using the admin settings in the Microsoft Teams admin center, you can configure Career Coach for your educational institution and enable it for users.
-
-**Things to consider and troubleshooting**
-
-- The following __sections are required__ to be complete before Career Coach can be used - [Brand and preferences](#brand-and-preferences), [LinkedIn connection](#linkedin-connection), [Course catalog](#course-catalog), and [Fields of study](#fields-of-study)
-
-- CSVs for course catalog and field of study have required formats and a maximum size of 18 MB.
-
-- If you're seeing "Career Coach is currently being set up for you to use soon" in the Career Coach app __the required sections have not been completed__.
-
-- On settings pages with required fields, if the fields are not completed the page will not submit. Users will not see a warning message, the page will simply not submit.
-
-- When first configuring Career Coach, an error banner reading "We can't update the app's settings. Try again." may appear. This is likely due to the tenant still provisioning. If this happens wait 15 minutes before submitting again. 
-
 ## Access the Career Coach app settings
 
-Use the [Manage apps page](/microsoftteams/manage-apps) to view the Teams apps in your educational institution’s app catalog.
+Use Microsoft Teams admin center to configure Career Coach for your educational institution and enable it for users.
 
 1. Sign in to the **[Teams admin center](https://admin.teams.microsoft.com)**.
 
@@ -388,6 +369,16 @@ If you are unsure which policy to use you can refer the (Microsoft Teams Policy 
 > Students will be notified in Microsoft Teams that Career Coach has been pinned.
 
 Reference [Manage app setup policies in Microsoft](/microsoftteams/teams-app-setup-policies) for more details.
+
+## Troubleshooting
+
+- If you're seeing "Career Coach is currently being set up for you to use soon" in the Career Coach app __the required sections have not been completed__. - The following __sections are required__ to be complete before Career Coach can be used - [Brand and preferences](#brand-and-preferences), [LinkedIn connection](#linkedin-connection), [Course catalog](#course-catalog), and [Fields of study](#fields-of-study).
+
+- CSVs for course catalog and field of study have required formats and a maximum size of 18 MB. - Reference the Career Coach [course catalog document schema](#course-catalog-documents-formatting-and-schema) and Career Coach [fields of study document schema](#fields-of-study-document-format-and-schema) to ensure proper configuration.
+
+- On settings pages with required fields, if the fields are not completed the page will not submit. Users will not see a warning message, the page will simply not submit.
+
+- When first configuring Career Coach, an error banner may appear stating "We can't update the app's settings. Try again." This is likely due to the tenant provisioning the Career Coacha app, which can take up to 15 minutes. If this happens wait 15 minutes before submitting again.
 
 ## Resources
 
