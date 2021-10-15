@@ -22,21 +22,15 @@ appliesto:
 
 # Plan and configure dynamic emergency calling 
 
-DRAFT
-
 Dynamic emergency calling for **Microsoft Calling Plans, Operator Connect, and Direct Routing** provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client.  
 
-Based on the network topology that the tenant administrator defines, the Teams client provides network connectivity information in a request to the Location Information Service (LIS). If there's a match, the LIS returns a location to the client. This location data is transmitted back to the client.  
+**Based on the network topology (network elements associated with emergency addresses) that the tenant administrator defines, the Teams client provides network connectivity information in a request to the Location Information Service (LIS). If there's a match, the LIS returns a location to the client.**
 
 The Teams client includes location data as part of an emergency call. This data is then used by the emergency service provider to determine the appropriate Public Safety Answering Point (PSAP) and to route the call to that PSAP, which allows the PSAP dispatcher to obtain the caller's location.  
 
 For dynamic emergency calling, the following must occur:
 
 1. The network administrator configures network settings and the LIS to create a network/emergency location map.
-
-   **Microsoft Calling Plans provides emergency routing services. Operator Connect provides emergency routing services through the PSTN providers in the United States and Canada.**
-
-   For Direct Routing, however, additional configuration is required for routing emergency calls and possibly for partner connectivity. The administrator must configure connection to an Emergency Routing Service (ERS) provider (United States) **OR** configure the Session Border Controller (SBC) for an Emergency Location Identification Number (ELIN) application. **For information about ERS providers, see [Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).**
 
 2. During startup and periodically afterwards, or when a network connection is changed, the Teams client sends a location request that contains its network connectivity information to the network settings and the LIS.
 
@@ -50,6 +44,12 @@ For dynamic emergency calling, the following must occur:
 
 3. When the Teams client makes an emergency call, the emergency location is conveyed to the PSTN network.
 
+**The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) varies depending on the country of usage of the Teams user.**
+
+**Microsoft Calling Plans provides emergency routing services. Operator Connect provides emergency routing services through the PSTN providers in the United States and Canada.**
+
+**For Direct Routing, however, additional configuration is required for routing emergency calls and possibly for partner connectivity. The administrator must configure connection to an Emergency Routing Service (ERS) provider (United States) **OR** configure the Session Border Controller (SBC) for an Emergency Location Identification Number (ELIN) application. **For information about ERS providers, see [Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).**
+
 This article contains the following sections.
 
 - [Configure emergency addresses](#assign-emergency-addresses)
@@ -58,8 +58,6 @@ This article contains the following sections.
 - [Configure emergency policies](#configure-emergency-policies)
 - [Enable users and sites](#enable-users-and-sites)
 - [Test emergency calling](#test-emergency-calling)
-
-The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) varies depending on the country of usage of the Teams user.
 
 For more information about emergency calling, including information about emergency addresses and emergency call routing, information specific to countries, and information about network settings and network topology, see the following:
 
