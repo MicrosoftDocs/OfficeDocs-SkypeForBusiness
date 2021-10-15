@@ -89,9 +89,9 @@ You can enable Cortana for _Voice Activation_ or _Push to talk_ using PowerShell
 -	At the organization and group level, you must use PowerShell.
 -	At the device level, you have a few options. You can use PowerShell, edit the  XML configuration file, or change the settings in Teams admin center. 
 
-To learn more about using PowerShell to configure Cortana, see [Admin control and limitations for Cortana in Teams](https://docs.microsoft.com/en-us/microsoftteams/cortana-in-teams#admin-control-and-limitations).
+To learn more about using PowerShell to configure Cortana, see [Admin control and limitations for Cortana in Teams](/microsoftteams/cortana-in-teams#admin-control-and-limitations).
 
-To learn more about configuring your device using the XML configuration file, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](https://docs.microsoft.com/en-us/microsoftteams/rooms/xml-config-file#manage-console-settings-with-an-xml-configuration-file).
+To learn more about configuring your device using the XML configuration file, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](/microsoftteams/rooms/xml-config-file#manage-console-settings-with-an-xml-configuration-file).
 
 At the device level, you can configure Cortana to be activated for:
 - _Push to talk_ using PowerShell  
