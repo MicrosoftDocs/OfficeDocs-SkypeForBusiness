@@ -76,7 +76,7 @@ To enable Career Coach for your educational institution, review what you need to
 
 - Educational institution's privacy policy URL.
 
-- Educational institution links to career related resources like: career services, and student job postings. (optional).
+- Educational institution links to career related resources like: career services, and student job postings (optional).
 
 - LinkedIn Learning campus subscription (preferred).
 
@@ -102,8 +102,8 @@ Career Coach **requires** your educational institution’s users to have the abi
 
     ![Integrate LinkedIn account connections in the organization](/azure/active-directory/enterprise-users/media/linkedin-integration/linkedin-integration.png)
 
-    > [!NOTE]
-    > No data is shared until users consent to connect their accounts.
+> [!NOTE]
+> No data is shared until users consent to connect their accounts.
 
    - Select **Yes** to enable the service for all users in your educational institution.
 
@@ -114,8 +114,8 @@ More information on [LinkedIn account connections in Azure Active Directory](/az
 
 Use Microsoft Teams admin center to configure Career Coach for your educational institution and enable it for users.
 
-    > [!IMPORTANT]
-    > You must be a global admin or Teams service admin to access the page.
+> [!IMPORTANT]
+> You must be a global admin or Teams service admin to access the page.
 
 1. Sign in to the **[Teams admin center](https://admin.teams.microsoft.com)**.
 
@@ -198,7 +198,7 @@ The LinkedIn configuration connects Career Coach with public alumni data from Li
 #### Verify the LinkedIn page 
 
 > [!IMPORTANT]
-> The verification must be complete by the LinkedIn page super admin of the educational institution
+> The verification must be complete by the LinkedIn page super admin of the educational institution.
 
 1. If successfully submitted, the page will be updated to show the **Verification link** and **Verification link expiration**. The verification link expires after 30 days.
 
@@ -239,10 +239,10 @@ To create the course catalog, put together a list of all courses taught at your 
 
 #### Course catalog document format and schema
 
-The document needs to be in CSV format with a maximum size of 18 MB. The document must contain the required fields **course title**, **course ID**, and **course URL**. Including the recommended fields improves the experience for students by returning better search results and skill identification.
+The document needs to be in CSV format with a maximum size of 18 MB. The document must contain the required fields **course title**, **course ID**, and **course URL**. 
 
 > [!TIP]
-> Start with the [sample course catalog]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) document to ensure proper formatting.
+> Start with the [sample course catalog]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) document to ensure proper formatting. _Including the recommended fields improves the experience for students by returning better search results and skill identification._
 
 The following table shows the items to include in the course catalog:
 
