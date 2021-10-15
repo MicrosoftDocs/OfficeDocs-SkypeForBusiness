@@ -89,18 +89,18 @@ You can control whether Cortana in Teams is enabled for your device by using a s
 
 Making changes at the device level is available only if Cortana is enabled at the tenant level. 
 
-At the device level, Cortana can be configured to be used in two different ways, both at the same time or just either one: 
-- by tapping on a microphone or what is called Cortana _Push to talk_
-- by saying "Hey, Cortana" or what is called _Cortana Voice Activation_
+At the device level, you can configure Cortana to be used in two different ways. You can enable either option, or both at the same time: 
+- by tapping on a microphone, which is called Cortana _Push to talk_
+- by saying "Hey, Cortana", which is called _Cortana Voice Activation_
 
-Cortana _Push to talk_ is enabled by default if your device is set up to use locale en-us. [Learn More.](/MicrosoftTeams/rooms/console#to-apply-your-desired-language)  Cortana icon will displace the _Present_ button under the _More…_ menu in your Teams Room console. To disable Cortana _Push to talk_ use the Powershell commands.[Learn More.](/powershell/module/skype/new-csteamscortanapolicy?view=skype-ps#example-1)
+Cortana _Push to talk_ is enabled by default if your device is set up to use locale en-us. [Learn More.](/MicrosoftTeams/rooms/console#to-apply-your-desired-language)  Cortana icon will displace the _Present_ button under the _More…_ menu in your Teams Room console. To disable Cortana _Push to talk_ use Powershell.[Learn More.](/powershell/module/skype/new-csteamscortanapolicy?view=skype-ps#example-1)
 
 To enable Cortana _Voice Activation_, these conditions must be met:
 - a Cortana certified device must be connected to your Teams Room. Learn More (that takes to list of certified devices)
 - the Teams Room must be set up to use locale en-us. More languages will be available soon.
-- one of these changes in settings must be made:
-  - TAC setting can be turned on [Learn More.](/microsoftteams/rooms/rooms-manage)
-  - these XML attribute must be added in the SkypeSettings XML file:
+- one of the following configuration changes must be made:
+  - turn on the feature in Teams admin center [Learn More.](/microsoftteams/rooms/rooms-manage)
+  - add the following XML attribute to the SkypeSettings XML file:
 ```xml
 <SkypeSettings>  
         <CortanaWakewordEnabled>true</CortanaWakewordEnabled>  
