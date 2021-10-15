@@ -431,7 +431,8 @@ You can apply DLP policies to meeting recording files also by the ProgID propert
 
 To learn more about DLP see the article [Learn about data loss prevention](/microsoft-365/compliance/dlp-learn-about-dlp)
 
-## Meeting Recording Diagnostic Tool
+## Meeting Recording Diagnostic Tools
+  ### User cannot record meetings
 
 If you're an administrator, you can use the following diagnostic tool to validate that the user is properly configured to record a meeting in Teams:
 
@@ -440,9 +441,22 @@ If you're an administrator, you can use the following diagnostic tool to validat
    > [!div class="nextstepaction"]
    > [Run Tests: Meeting Recording](https://aka.ms/MeetingRecordingDiag)
 
-2. In the Run diagnostic pane, enter the Resource Account in the **Username or Email** field, and then select **Run Tests**.
+2. In the Run diagnostic pane, enter the email of the user who cannot record meetings in the **Username or Email** field, and then select **Run Tests**.
 
 3. The tests will return the best next steps to address any tenant or policy configurations to validate that the user is properly configured to record a meeting in Teams.
+  
+  ### Meeting record is missing
+
+If you're an administrator, you can use the following diagnostic tool to validate that the meeting recording completed successfully and it was uploaded to Stream or OneDrive, based on the meeting ID and recording start time:
+
+1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center. 
+
+   > [!div class="nextstepaction"]
+   > [Run Tests: Missing Meeting Recording](https://aka.ms/MissingRecordingDiag)
+
+2. In the Run diagnostic pane, enter the URL of the meeting in the **URL of the meeting that was recorded** field (usually found in the meeting invitation) as well as the date of the meeting in the **When was the meeting recorded? ** field and then select **Run Tests**.
+
+3. The tests will validate that the meeting recording completed successfully and it was uploaded to Stream or OneDrive.
 
 ## Related topics
 
