@@ -60,7 +60,7 @@ This setting controls all calling capabilities in Teams. Turn this off to turn o
 
 ### Call forwarding and simultaneous ringing to people in your organization
 
-This setting controls whether incoming calls can be forwarded to other users or can ring another person at the same time. 
+This setting controls whether incoming calls can be forwarded to other users or can ring another person at the same time.
 
 ### Call forwarding and simultaneous ringing to external phone numbers
 
