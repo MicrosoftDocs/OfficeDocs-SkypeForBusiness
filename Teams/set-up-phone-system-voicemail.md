@@ -30,11 +30,11 @@ This article is for the Microsoft 365 or Office 365 admin as described in [About
 
 ## Cloud Voicemail for Teams users
 
-For Teams users, Cloud Voicemail is automatically set up and provisioned. Note that a Phone System license is not required for Cloud Voicemail.
+For Teams users, Cloud Voicemail is automatically set up and provisioned. A Microsoft Teams Phone license is not required for Cloud Voicemail.
 
 ## Help your users learn Teams voicemail features
 
-We have the following information for your users on managing their voicemail settings as well as other calling features in Teams:
+We have the following information for your users on using and managing voicemail in Teams:
 
 - [Check your voicemail in Teams](https://support.microsoft.com/office/check-your-voicemail-in-teams-f8d568ce-7329-4fe2-a6a2-325ec2e2b419)
 - [Manage your call settings in Teams](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
@@ -45,15 +45,15 @@ You can use Cloud Voicemail to provide voice mail functionality to your users wh
 
 ### Set up Cloud Voicemail for Exchange Server Mailbox Users
 
-The following information is about configuring Cloud Voicemail to work with users who are online for Phone System but have their mailbox on Exchange Server.
+The following information is about configuring Cloud Voicemail to work with Microsoft Teams Phone users who have their mailbox on Exchange Server.
 
-1. Voicemail messages are delivered to users' Exchange mailbox via SMTP routed through Exchange Online Protection. To enable successful delivery of these messages, please be sure that Exchange Connectors are configured correctly between your Exchange servers and Exchange Online Protection; [Use Connectors to Configure Mail Flow](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow).
+1. Voicemail messages are delivered to users' Exchange mailbox via SMTP routed through Exchange Online Protection. To enable successful delivery of these messages, be sure that Exchange Connectors are configured correctly between your Exchange servers and Exchange Online Protection; [Use Connectors to Configure Mail Flow](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow).
 
 2. To enable Voicemail features such as customizing greetings and visual voicemail in Skype for Business clients, connectivity from Microsoft 365 or Office 365 to the Exchange server mailbox via Exchange Web Services is required. To enable this connectivity, you must configure the new Exchange Oauth authentication protocol described in [Configure OAuth authentication between Exchange and Exchange Online organizations](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help), or run the Exchange Hybrid Wizard from Exchange 2013 CU5 or greater. Additionally, you must configure integration and Oauth between Skype for Business Online and Exchange server described in [Configure Integration and OAuth between Skype for Business Online and Exchange Server](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises).
 
 ### Set up Cloud Voicemail for Skype for Business Server Users
 
-To configure Skype for Business server users for Cloud Voicemail, please see [Plan Cloud Voicemail service for on-premises users](/skypeforbusiness/hybrid/plan-cloud-voicemail).
+To configure Skype for Business server users for Cloud Voicemail, see [Plan Cloud Voicemail service for on-premises users](/skypeforbusiness/hybrid/plan-cloud-voicemail).
 
 ## Enabling protected voicemail in your organization
 
