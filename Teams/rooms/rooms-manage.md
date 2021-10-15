@@ -98,7 +98,7 @@ At the device level, you can configure Cortana to be activated for:
   - How to turn it on: Cortana _Push to talk_ is enabled by default for all devices that are set up with locale en-us regardless of the geographic region
   - How to turn it off: use Powershell. 
 - _Voice Activation_ using XML configuration file or Teams admin center.
-  - How to turn it on: set <CortanaWakeWord>true</> in the XML configuration file or use the corresponding setting in Teams admin center
+  - How to turn it on: set `<CortanaWakeWord>true</>` in the XML configuration file or use the corresponding setting in Teams admin center
   - How to turn it off: Cortana Voice Activation is off by default 
   
   Keep in mind that three conditions must be met to have Cortana _Voice Activation_ on your device:
