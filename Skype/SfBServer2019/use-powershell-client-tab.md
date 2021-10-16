@@ -17,7 +17,7 @@ description: "Summary: Skype for Business Server Control panel to Cmdlet mapping
 
 # Client Version Policy
 
- The **CLIENT VERSION POLICY** component of the **Client** tab returns information about the clients supported in Skype for Business Server environment. A client version policy enables you to specify those clients who can sign in to Skype for Business Server system.
+TODO The **CLIENT VERSION POLICY** component of the **Client** tab returns information about the clients supported in Skype for Business Server environment. A client version policy enables you to specify those clients who can sign in to Skype for Business Server system.
 
 Let us consider the various tasks a user can do on **CLIENT VERSION POLICY**, and the Skype for Business cmdlets those tasks map to.
 
