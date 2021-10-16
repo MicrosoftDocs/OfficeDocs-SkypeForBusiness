@@ -46,7 +46,7 @@ This article describes concepts you'll need to know to manage emergency calling&
 - **Registered address** - An emergency address that is assigned to each user. A registered address is sometimes referred to as a static emergency address or address of record. (Currently, registered addresses are not supported for Direct Routing. Check back soon for updates.)
 
 >[!Note]
->There are some differences in how you manage emergency calling depending on whether you are using **Microsoft Calling Plans, Operator Connect, or Direct Routing** for your [PSTN connectivity](pstn-connectivity.md). These considerations are described throughout this article.
+>There are some differences in how you manage emergency calling depending on whether you are using Microsoft Calling Plans, Operator Connect, or Direct Routing for your [PSTN connectivity](pstn-connectivity.md). These considerations are described throughout this article.
 
 ## Emergency address validation
 
@@ -143,7 +143,7 @@ The following sections describe how to manage emergency calling for Operator Con
 
 Each Operator Connect user is automatically enabled for emergency calling. Emergency calls are routed automatically to the Operator Connect carrier for a given number.
 
-The ability for a tenant admin to set the registered address will depend upon the capabilities assigned to the number when the carrier uploads them into a customers inventory. Based upon this setting, the tenant administrator may or may not be required&mdash;or able&mdash;to set, modify, or delete the emergency location of a user. 
+The ability for a tenant admin to set the registered address for an Operator Connect user will depend upon the capabilities assigned to the number when the carrier uploads them into a customers inventory. Based upon this setting, the tenant administrator may or may not be required&mdash;or able&mdash;to set, modify, or delete the emergency location of a user. 
 
 ### Dynamic emergency calling for Operator Connect
 

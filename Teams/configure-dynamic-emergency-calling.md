@@ -44,13 +44,13 @@ For dynamic emergency calling, the following must occur:
 
 3. When the Teams client makes an emergency call, the emergency location is conveyed to the PSTN network.
 
-**ROY: DID I PLACE THE FOLLOWING PARAGRAPHS IN THE RIGHT PLACE? You had said move after the third bullet, but after the third number seemed to make more sense...??**
+**ROY: DID I GET THIS RIGHT AND DID I PLACE THE FOLLOWING PARAGRAPHS IN THE RIGHT PLACE?**
 
 **The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) varies depending on the country of usage of the Teams user.**
 
 **Microsoft Calling Plans provides emergency routing services. Operator Connect provides emergency routing services through the PSTN providers in the United States and Canada.**
 
-**For Direct Routing, however, additional configuration is required for routing emergency calls and possibly for partner connectivity. The administrator must configure connection to an Emergency Routing Service (ERS) provider (United States) **OR** configure the Session Border Controller (SBC) for an Emergency Location Identification Number (ELIN) application. **For information about ERS providers, see [Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).**
+**For Direct Routing, however, additional configuration is required for routing emergency calls and possibly for partner connectivity. The administrator must configure connection to an Emergency Routing Service (ERS) provider (United States) **OR** configure the Session Border Controller (SBC) for an Emergency Location Identification Number (ELIN) application. For information about ERS providers, see [Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).**
 
 This article contains the following sections.
 
@@ -112,7 +112,7 @@ Azure Maps is used for location-based services. When you enter an emergency addr
 - If a match isn't found, you will have the opportunity to manually create an emergency address. You can use the PIN drop feature to do this. 
 
 > [!NOTE]
-> **Emergency addresses that are more than a couple of years old cannot be assigned to network identifiers. You will need to re-create older addresses.** 
+> Emergency addresses that are more than a couple of years old cannot be assigned to network identifiers. You will need to re-create older addresses.
 
 You add and assign emergency addresses in the Microsoft Teams admin center or by using PowerShell. For more information, see [Add an emergency location for your organization](add-change-remove-emergency-location-organization.md) and [Assign an emergency location for a user](assign-change-emergency-location-user.md).
 
@@ -183,7 +183,7 @@ Use the following cmdlets to add ports, switches, subnets, and WAPs to the LIS.
 
 Use the following policies to configure emergency calling. You can manage these policies in the Microsoft Teams admin center or by using PowerShell.
 
-- **Emergency call routing policy – Applies only to Direct Routing**. **This policy configures the emergency numbers, masks per number if desired, and the PSTN route per number. You can assign this policy to users, to network sites, or to both. To  learn more, see [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md).  
+- **Emergency call routing policy – Applies only to Direct Routing**. This policy configures the emergency numbers, masks per number if desired, and the PSTN route per number. You can assign this policy to users, to network sites, or to both. To  learn more, see [Manage emergency call routing policies for Direct Routing](manage-emergency-call-routing-policies.md).  
 
    (Calling Plan and Operator Connect users are automatically enabled for emergency calling with the emergency numbers from the country based upon their Microsoft 365 or Office 365 usage location.)**
 
