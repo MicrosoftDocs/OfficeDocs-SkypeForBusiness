@@ -15,69 +15,27 @@ ms.collection:
 description: "This article provides an overview of the Admin Control Panel."
 ---
 
-# Control Panel
+# Modern Admin Control Panel
 
-Control Panel is a platform (or portal) in the Skype for Business module that facilitates administrative activities. These administrative activities involve configuration of features for the users. The administrator uses tabs to configure the features. In other words, the administrators use tabs to configure activate or set the features for users.
-The Control Panel has undergone the following releases:
+Modern Admin Control Panel (MACP) is a modern version of the existing [Control Panel](../SfbServer/management-tools/install-and-open-administrative-tools.md) that helps manage the configuration of servers, users, clients, and devices in the environment of an organization. The Old Control Panel relies on the Silverlight technology that has reached the end-of-support stage on October 12, 2021.
 
-1. **Phase 1 (July 2019)**: 
+> [!NOTE]
+> Navigate to the section **Skype for Business Server Control Panel** in the page to which you are redirected by clicking the link for **Control Panel** above.
 
-In this release, the following features were introduced, available as tabs:
-- **Home**
-- **Users**
+## Access MACP
 
-1. **Phase 2 (March 2020)**: 
+To launch MACP in the browser, enter https://&lt;pool-FQDN&gt;/macp or a configured simple URL.
 
-In this release, the following features were introduced:
+## Accessing data from tabs unavailable in MACP through cmdlets
 
-- **Conferencing** 
-- **Federation and External Access**
+The MACP includes commonly used tabs which cover most of the needs of the organization. There are a few tabs from old Control Panel that are unavailable in MACP. However, there is an option for the user to avail the functionalities of those tabs through PowerShell cmdlets. For more information, see the table below.
 
-1. **Cumulative Update (March 2021)**: 
+## Client
 
-In this release, the following features were introduced, in addition to the features in the **Phase 1** and **Phase 2** releases: 
+|Sub-tab  |Source of Information for cmdlet  |
+|---------|---------|
+|Client Version Policy         |    [Client Version Policy](use-powershell-client-tab.md#client-version-policy)     |
+|Client Version Configuration      |  [Client Version Configuration](use-powershell-client-tab.md#client-version-configuration)       |
+|Test Device     | [Test Device](use-powershell-client-tab.md#test-device)        |
+|Device Log Configuration         |    [Device Log Configuration](use-powershell-client-tab.md#device-log-configuration)     |
 
-- **Voice Routing**
-- **Voice Features**
-- **Response Group**
-- **Conferencing** (**Dial-In-Access Number** sub-tab)
-
-The Control Panel is classified into:
-
-- **Old Control Panel**: Refers to the portal that contains tabs for all the features from the releases till date.
-
-- **New Control Panel**: Refers to the portal in which some tabs are missing for the features from the releases till date. For information on how to access information in tabs present in the Old Control Panel, see [Accessing missing information](#accessing-missing-information).
-
-## Accessing missing information
-
-Users can access information pertaining to tabs that are missing in the New Control Panel through PowerShell-related cmdlets. For information on missing tabs in the New Control Panel, see [Missing tabs](#missing-tabs).
-
-## Missing tabs
-
-This section describes the tabs missing in the New Control Panel. For information regarding the missing tabs, its sub-tabs, and the data embedded in it, see the table below.
-
-
-|Parent Tab  |Sub-tab  |Source of Information for cmdlet  |
-|---------|---------|---------|
-|Client    |Client Version Policy         |    [Client Version Policy](use-powershell-client-tab.md#client-version-policy)     |
-|Client |   Client Version Configuration      |  [Client Version Configuration](use-powershell-client-tab.md#client-version-configuration)       |
-|Client   |    Test Device     | [Test Device](use-powershell-client-tab.md#test-device)        |
-|Client    |Device Log Configuration         |    [Device Log Configuration](use-powershell-client-tab.md#device-log-configuration)     |
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-## New Control Panel
-
-The New Control Panel is the 

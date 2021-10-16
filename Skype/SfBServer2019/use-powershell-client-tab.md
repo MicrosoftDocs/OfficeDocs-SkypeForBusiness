@@ -17,15 +17,15 @@ description: "Summary: Skype for Business Server Control panel to Cmdlet mapping
 
 # Client Version Policy
 
- The **Client Version Policy** component of the **Client** tab, and it returns information about the clients supported in your Skype for Business Server environment. A client version policy enable you to specify those clients who will be able to log on to your Skype for Business Server system.
+ The **CLIENT VERSION POLICY** component of the **Client** tab returns information about the clients supported in Skype for Business Server environment. A client version policy enables you to specify those clients who can sign in to Skype for Business Server system.
 
-Let us consider the various tasks a user can do on the **Client Version Policy** component, and the Skype for Business cmdlets those tasks map to.
+Let us consider the various tasks a user can do on **CLIENT VERSION POLICY**, and the Skype for Business cmdlets those tasks map to.
 
 ---
-> **Task 1**: List all the client version policies
+> **Functionality 1**: Lists all the client version policies
 
-  ![Client Version Policy](./media/ClientVersionPolicy-1.png)
-
+   ![Client Version Policy](./media/ClientVersionPolicy-1.png)
+ 
 ***Cmdlet***
 
 [Get-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/get-csclientversionpolicy?view=skype-ps)
@@ -38,9 +38,9 @@ Let us consider the various tasks a user can do on the **Client Version Policy**
 
 ---
 
-> **Task 2**: Create a new client version policy
+> **Functionality 2**: Creates a new client version policy
 
-  ![Client Version Policy](./media/ClientVersionPolicy-2.png)
+   ![Client Version Policy](./media/ClientVersionPolicy-2.png)
 
 ***Cmdlet***
 
@@ -54,9 +54,9 @@ Let us consider the various tasks a user can do on the **Client Version Policy**
 
 ---
 
-> **Task 3**: Get details of a chosen client version policy
+> **Functionality 3**: Gets details of a chosen client version policy
 
-  ![Client Version Policy](./media/ClientVersionPolicy-3.png)
+   ![Client Version Policy](./media/ClientVersionPolicy-3.png)
 
 ***Cmdlet***
 
@@ -70,9 +70,9 @@ Let us consider the various tasks a user can do on the **Client Version Policy**
 
 ---
 
-> **Task 4**: Delete chosen client version policies
+> **Functionality 4**: Deletes chosen client version policies
 
-  ![Client Version Policy](./media/ClientVersionPolicy-4.png)
+   ![Client Version Policy](./media/ClientVersionPolicy-4.png)
 
 ***Cmdlet***
 
@@ -86,11 +86,13 @@ Let us consider the various tasks a user can do on the **Client Version Policy**
 
 ---
 
-> **Task 5**: Update a client version policy
+> **Functionality 5**: Updates a client version policy
 
-  ![Client Version Policy](./media/ClientVersionPolicy-5678.png)
+   ![Client Version Policy](./media/ClientVersionPolicy-5678.png)
 
-- **Step 1**
+- **Annotation 1 - Result**
+
+    This annotation on the image indicates a result, that is, the data being retrieved and displayed.
 
     ***Cmdlet***
 
@@ -102,7 +104,9 @@ Let us consider the various tasks a user can do on the **Client Version Policy**
     Get-CsClientVersionPolicyRule -Filter "Global/*"
     ```
 
-- **Step 2**
+- **Annotation 2 - Option (for the user)**
+
+    This annotation on the image indicates an option for the user to implement, that is, to get the details of the client version policy rules.
 
     ***Cmdlet***
 
@@ -114,7 +118,9 @@ Let us consider the various tasks a user can do on the **Client Version Policy**
     Get-CsClientVersionPolicyRule -Identity "Global/2336c611-a243-4c5d-994b-eea8a524d0e4"
     ```
 
-- **Step 3**
+- **Annotation 3 - Option (for the user)**
+
+    This annotation on the image indicates an option for the user to implement, that is, to create a new client version policy rule.
 
     ***Cmdlet***
 
@@ -128,7 +134,9 @@ Let us consider the various tasks a user can do on the **Client Version Policy**
     New-CsClientVersionPolicyRule -Parent "site:Redmond" -RuleId $x -MajorVersion 4 -UserAgent InHouse
     ```
 
-- **Step 4**
+- **Annotation 4 - Option (for the user)**
+
+    This annotation on the image indicates an option for the user to implement, that is, to commit/save the newly created client version policy rule.
 
     ***Cmdlet***
 
@@ -147,14 +155,14 @@ Let us consider the various tasks a user can do on the **Client Version Policy**
 ---
 ## Client Version Configuration
 
- The **Client Version Configuration** component returns information about the clients supported in your Skype for Business Server environment.
+ The **CLIENT VERSION CONFIGURATION** component returns information about the clients supported in Skype for Business Server environment.
 
-Let us consider the various tasks a user can do on the **Client Version Configuration** component, and the Skype for Business cmdlets those tasks map to.
+Let us consider the various tasks a user can do on **CLIENT VERSION CONFIGURATION**, and the Skype for Business cmdlets those tasks map to.
 
 ---
-> **Task 1**: List all the client version configurations
+> **Functionality 1**: Lists all the client version configurations
 
-  ![Client Version Configuration](./media/ClientVersionConfiguration-1.png)
+   ![Client Version Configuration](./media/ClientVersionConfiguration-1.png)
 
 ***Cmdlet***
 
@@ -168,9 +176,9 @@ Let us consider the various tasks a user can do on the **Client Version Configur
 
 ---
 
-> **Task 2**: Create a new client version configuration
+> **Functionality 2**: Creates a new client version configuration
 
-  ![Client Version Configuration](./media/ClientVersionConfiguration-2.png)
+   ![Client Version Configuration](./media/ClientVersionConfiguration-2.png)
 
 ***Cmdlet***
 
@@ -184,9 +192,9 @@ Let us consider the various tasks a user can do on the **Client Version Configur
 
 ---
 
-> **Task 3**: Get details of a chosen client version configuration
+> **Functionality 3**: Gets details of a chosen client version configuration
 
-  ![Client Version Configuration](../media/ClientVersionConfiguration-3.png)
+   ![Client Version Configuration](./media/ClientVersionConfiguration-3.png)
 
 ***Cmdlet***
 
@@ -200,9 +208,9 @@ Let us consider the various tasks a user can do on the **Client Version Configur
 
 ---
 
-> **Task 4**: Delete chosen client version configurations
+> **Functionality 4**: Deletes chosen client version configurations
 
-  ![Client Version Configuration](../media/ClientVersionConfiguration-4.png)
+   ![Client Version Configuration](./media/ClientVersionConfiguration-4.png)
 
 ***Cmdlet***
 
@@ -216,9 +224,9 @@ Let us consider the various tasks a user can do on the **Client Version Configur
 
 ---
 
-> **Task 5**: Update client version configurations
+> **Functionality 5**: Updates client version configurations
 
-  ![Client Version Configuration](../media/ClientVersionConfiguration-5.png)
+   ![Client Version Configuration](./media/ClientVersionConfiguration-5.png)
 
 ***Cmdlet***
 
@@ -232,7 +240,7 @@ Get-CsClientVersionConfiguration | Set-CsClientVersionConfiguration -DefaultURL 
 
 ---
 
-> **Task 6**: Enable/disable client version configurations
+> **Functionality 6**: Enables/disables client version configurations
 
 ***Cmdlet***
 
@@ -248,14 +256,14 @@ Set-CsClientVersionConfiguration -Identity site:Redmond -Enabled $False
 
 ## Test Device
 
-The **Test Device** component provides a way for administrators to test firmware updates before those updates are distributed to all the devices in an organization.
+The **TEST DEVICE** component provides a way for administrators to test firmware updates before those updates are distributed to all the devices in an organization.
 
-Let us consider the various tasks a user can do on the **Test Device** component, and the Skype for Business cmdlets those tasks map to.
+Let us consider the various tasks a user can do on **TEST DEVICE**, and the Skype for Business cmdlets those tasks map to.
 
 ---
-> **Task 1**: List all the test devices
+> **Functionality 1**: Lists all the test devices
 
-  ![Test Device](./media/TestDevice-1.png)
+   ![Test Device](./media/TestDevice-1.png)
 
 ***Cmdlet***
 
@@ -269,9 +277,9 @@ Let us consider the various tasks a user can do on the **Test Device** component
 
 ---
 
-> **Task 2**: Create a new test device
+> **Functionality 2**: Creates a new test device
 
-  ![Test Device](./media/TestDevice-2.png)
+   ![Test Device](./media/TestDevice-2.png)
 
 ***Cmdlet***
 
@@ -285,9 +293,9 @@ Let us consider the various tasks a user can do on the **Test Device** component
 
 ---
 
-> **Task 3**: Get details of a chosen test device
+> **Functionality 3**: Gets details of a chosen test device
 
-  ![Test Device](./media/TestDevice-3.png)
+   ![Test Device](./media/TestDevice-3.png)
 
 ***Cmdlet***
 
@@ -301,9 +309,9 @@ Let us consider the various tasks a user can do on the **Test Device** component
 
 ---
 
-> **Task 4**: Delete a chosen test device
+> **Functionality 4**: Deletes a chosen test device
 
-  ![Test Device](./media/TestDevice-4.png)
+   ![Test Device](./media/TestDevice-4.png)
 
 ***Cmdlet***
 
@@ -316,9 +324,9 @@ Let us consider the various tasks a user can do on the **Test Device** component
 ```
 ---
 
-> **Task 5**: Update a test device
+> **Functionality 5**: Updates a test device
 
-  ![Test Device](./media/TestDevice-5.png)
+   ![Test Device](./media/TestDevice-5.png)
 
 ***Cmdlet***
 
@@ -334,14 +342,14 @@ Set-CsTestDevice -Identity site:Redmond/UCPhone -IdentifierType SerialNumber -Id
 
 ## Device Log Configuration
 
-**Device Log Configuration** component's settings help manage the Device Update Web service, a Skype for Business Server component that enables administrators to distribute firmware updates to telephones and other devices that run Skype for Business.
+**DEVICE LOG CONFIGURATION** component's settings help manage the Device Update Web service, a Skype for Business Server component that enables administrators to distribute firmware updates to telephones and other devices that run Skype for Business.
 
-Let us consider the various tasks a user can do on the **Device Log Configuration** component, and the Skype for Business cmdlets those tasks map to.
+Let us consider the various tasks a user can do on **DEVICE LOG CONFIGURATION**, and the Skype for Business cmdlets those tasks map to.
 
 ---
-> **Task 1**: List all the device log configurations
+> **Functionality 1**: Lists all the device log configurations
 
-  ![Device Log Configuration](./media/Device-Log-Configuration-1.png)
+   ![Device Log Configuration](./media/Device-Log-Configuration-1.png)
 
 ***Cmdlet***
 
@@ -355,9 +363,9 @@ Let us consider the various tasks a user can do on the **Device Log Configuratio
 
 ---
 
-> **Task 2**: Create a new device log configuration
+> **Functionality 2**: Creates a new device log configuration
 
-  ![Device Log Configuration](./media/Device-Log-Configuration-2.png)
+   ![Device Log Configuration](./media/Device-Log-Configuration-2.png)
 
 ***Cmdlet***
 
@@ -371,9 +379,9 @@ Let us consider the various tasks a user can do on the **Device Log Configuratio
 
 ---
 
-> **Task 3**: Get details of a chosen device log configuration
+> **Functionality 3**: Gets details of a chosen device log configuration
 
-  ![Device Log Configuration](./media/Device-Log-Configuration-3.png)
+   ![Device Log Configuration](./media/Device-Log-Configuration-3.png)
 
 ***Cmdlet***
 
@@ -387,9 +395,9 @@ Let us consider the various tasks a user can do on the **Device Log Configuratio
 
 ---
 
-> **Task 4**: Delete chosen device log configurations
+> **Functionality 4**: Deletes chosen device log configurations
 
-  ![Device Log Configuration](./media/Device-Log-Configuration-4.png)
+   ![Device Log Configuration](./media/Device-Log-Configuration-4.png)
 
 ***Cmdlet***
 
@@ -403,9 +411,9 @@ Let us consider the various tasks a user can do on the **Device Log Configuratio
 
 ---
 
-> **Task 5**: Update device log configurations
+> **Functionality 5**: Updates device log configurations
 
-  ![Device Log Configuration](./media/Device-Log-Configuration-5.png)
+   ![Device Log Configuration](./media/Device-Log-Configuration-5.png)
 
 ***Cmdlet***
 
