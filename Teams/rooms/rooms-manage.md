@@ -141,7 +141,7 @@ To download logs from a Teams Rooms device to your computer, do the following:
 
 ## View device information
 
-From the Teams admin center, you an view the overall status of all devices in your organization and view details of each device individually.
+From the Teams admin center, you can view the overall status of all devices in your organization and view details of each device individually.
 
 ### Teams Rooms system dashboard
 
