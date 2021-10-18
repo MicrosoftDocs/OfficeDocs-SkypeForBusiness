@@ -138,7 +138,7 @@ Career Coach has five configuration categories:
 
 - [Course catalog](#course-catalog) - required
 
-- [Fields of study](#fields-of-study) - Requred
+- [Fields of study](#fields-of-study) - required
 
 - [Customization](#customization)
 
