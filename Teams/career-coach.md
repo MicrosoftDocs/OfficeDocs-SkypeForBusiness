@@ -367,7 +367,7 @@ Reference [Manage app setup policies in Microsoft](/microsoftteams/teams-app-set
 
 - CSVs for course catalog and field of study have required formats and a maximum size of 18 MB. - Reference the Career Coach [course catalog document schema](#course-catalog-documents-formatting-and-schema) and Career Coach [fields of study document schema](#fields-of-study-document-format-and-schema) to ensure proper configuration.
 
-- On settings pages with required fields, if the fields are not completed the page will not submit. Users will not see a warning message, the page will simply not submit.
+- On settings pages with required fields, if the fields are not completed, the page will not submit. You will not see a warning message; the page will simply not submit.
 
 - When first configuring Career Coach, an error banner may appear stating "We can't update the app's settings. Try again." This is likely due to the tenant provisioning the Career Coacha app, which can take up to 15 minutes. If this happens wait 15 minutes before submitting again.
 
