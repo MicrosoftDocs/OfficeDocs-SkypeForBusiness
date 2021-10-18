@@ -3,7 +3,7 @@ title: Configure Operator Connect
 author: cazawideh
 ms.author: czawideh
 manager: serdars
-ms.date: 04/12/2021
+ms.date: 09/30/2021
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -103,7 +103,7 @@ For more information on emergency calling, see [Manage emergency calling](what-a
    Remove the On-prem Line URI by running the following PowerShell command:  
 
    ```
-   Set-CsUser -identity <user> - OnPremLineURI $null 
+   Set-CsUser -Identity <user> -OnPremLineURI $null 
    ```
 
 2. Remove any PSTNUsage associated with your users, otherwise calls will be routed to the gateway specified in the PSTN Usage. To learn how to remove PSTN usage, see [Set-CsOnlinePstnUsage](/powershell/module/skype/set-csonlinepstnusage?view=skype-ps).
