@@ -134,7 +134,7 @@ Career Coach has five configuration categories:
 
 - [Brand and preferences](#brand-and-preferences) - Requred
 
-- [LinkedIn connection](#linkedin-connection) - Requred
+- [LinkedIn connection](#linkedin-connection) - required
 
 - [Course catalog](#course-catalog) - required
 
