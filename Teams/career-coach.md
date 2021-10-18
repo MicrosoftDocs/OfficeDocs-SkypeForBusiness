@@ -66,7 +66,7 @@ To enable Career Coach for your educational institution, review what you need to
 
 **Data and files from your educational institution**
 
-- Educational instituion's logo and graphical assets in the require format.
+- Educational institution's logo and graphical assets in the required format.
 
 - Course catalog data.
 
