@@ -364,7 +364,7 @@ Reference [Manage app setup policies in Microsoft](/microsoftteams/teams-app-set
 
 ## Troubleshooting
 
-- If you're seeing "Career Coach is currently being set up for you to use soon" in the Career Coach app __the required sections have not been completed__. - The following __sections are required__ to be complete before Career Coach can be used - [Brand and preferences](#brand-and-preferences), [LinkedIn connection](#linkedin-connection), [Course catalog](#course-catalog), and [Fields of study](#fields-of-study).
+- If you see "Career Coach is currently being set up for you to use soon" in the Career Coach app __the required sections have not been completed__. The following __sections are required__ to be complete before Career Coach can be used: [Brand and preferences](#brand-and-preferences), [LinkedIn connection](#linkedin-connection), [Course catalog](#course-catalog), and [Fields of study](#fields-of-study).
 
 - CSVs for course catalog and field of study have required formats and a maximum size of 18 MB. - Reference the Career Coach [course catalog document schema](#course-catalog-documents-formatting-and-schema) and Career Coach [fields of study document schema](#fields-of-study-document-format-and-schema) to ensure proper configuration.
 
