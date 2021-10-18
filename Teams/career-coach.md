@@ -132,7 +132,7 @@ Use Microsoft Teams admin center to configure Career Coach for your educational 
 
 Career Coach has five configuration categories:
 
-- [Brand and preferences](#brand-and-preferences) - Requred
+- [Brand and preferences](#brand-and-preferences) - required
 
 - [LinkedIn connection](#linkedin-connection) - required
 
