@@ -159,6 +159,20 @@ To enable federation between users in your organization and consumer users of Sk
 > [!IMPORTANT]
 > You don't have to add any **Skype domains** as allowed domains in order to enable Teams or Skype for Business Online users to communicate with Skype users inside or outside your organization. All **Skype domains** are allowed.
 
+## Federation Diagnostic Tool
+
+If you're an administrator, you can use the following diagnostic tool to validate a Teams user can communicate with a federated Teams user:
+
+1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center. 
+
+   > [!div class="nextstepaction"]
+   > [Run Tests: Teams Federation](https://aka.ms/TeamsFederationDiag)
+
+2. In the Run diagnostic pane, enter the **Session Initiation Protocol (SIP) Address** and the **Federated tenant's domain name**, and then select **Run Tests**.
+
+3. The tests will return the best next steps to address any tenant or policy configurations that are preventing communication with the federated user.
+
+
 ## Related topics
 
 - [Native chat experience for external (federated) users](native-chat-for-external-users.md)
