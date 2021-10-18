@@ -244,6 +244,19 @@ You can also use Windows PowerShell to create and set up call queues. Here are t
 
 - [Remove-CsCallQueue](/powershell/module/skype/remove-CsCallQueue)
 
+## Call Queue Diagnostic Tool
+
+If you're an administrator, you can use the following diagnostic tool to validate that a call queue is able to receive calls:
+
+1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center. 
+
+   > [!div class="nextstepaction"]
+   > [Run Tests: Teams Call Queue](https://aka.ms/TeamsCallQueueDiag)
+
+2. In the Run diagnostic pane, enter the Resource Account in the **Username or Email** field, and then select **Run Tests**.
+
+3. The tests will return the best next steps to address any tenant, policy, and resource account configurations to validate that the call queue is able to receive calls.
+
 ## Related topics
 
 [Here's what you get with Microsoft Teams Phone](here-s-what-you-get-with-phone-system.md)
