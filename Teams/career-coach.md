@@ -205,7 +205,7 @@ The LinkedIn configuration connects Career Coach with public alumni data from Li
 
    ![linkedin connections for the career coach app.](media/career-coach-linked-in.png)  
 
-2. Copy the verification link and share it with your educational institution’s LinkedIn page super admin. Learn more about the LinkedIn page super admin role at the [LinkedIn page admin documentation](https://www.linkedin.com/help/linkedin/answer/102672).
+2. Copy the verification link and share it with your educational institution’s LinkedIn page super admin. Learn more about the LinkedIn page super admin role in the [LinkedIn page admin documentation](https://www.linkedin.com/help/linkedin/answer/102672).
 
 3. The LinkedIn page super admin, will use the unique verification link to associate Career Coach with your school's page. [Additional documentation about LinkedIn page verification](https://www.linkedin.com/help/linkedin/answer/102672).
 
