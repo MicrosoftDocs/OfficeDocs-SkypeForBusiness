@@ -76,7 +76,7 @@ To enable Career Coach for your educational institution, review what you need to
 
 - Educational institution's privacy policy URL.
 
-- Educational institution links to career related resources like: career services, and student job postings (optional).
+- Educational institution links to career-related resources such as career services and student job postings (optional).
 
 - LinkedIn Learning campus subscription (preferred).
 
