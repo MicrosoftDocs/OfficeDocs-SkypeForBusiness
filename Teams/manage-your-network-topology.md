@@ -1,7 +1,7 @@
 ---
 title: Manage your network topology for cloud voice features in Microsoft Teams
-author: cichur
-ms.author: v-cichur
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -29,8 +29,6 @@ You configure network settings on the **Network topology** page of the Microsoft
 
 ## Configure network settings in the Microsoft Teams admin center
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
 You define network regions, network sites, and subnets on the **Network sites** tab of the **Network topology** page. Here, you can create or modify a network site, associate a site with a network region, associate a subnet to the site, turn on Location-based Routing, and assign emergency policies to the site. You can also add network regions that can be used globally for all sites.
 
 #### Add and configure a network site
@@ -44,8 +42,8 @@ You define network regions, network sites, and subnets on the **Network sites** 
 4. To enable Location-Based Routing for the site, turn on **Location based routing**.
 5. To assign emergency services policies to the site, do one or both of the following:
 
-    - If your organization uses Calling Plans or deployed Phone System Direct Routing, under **Emergency calling policy**, select the policy that you want.
-    - If your organization deployed Phone System Direct Routing, under **Emergency call routing policy**, select the  policy that you want.
+    - If your organization uses Calling Plans, Operator Connect, or Direct Routing, under **Emergency calling policy**, select the policy that you want.
+    - If your organization deployed Direct Routing, under **Emergency call routing policy**, select the  policy that you want.
 
 6. To associate a subnet to the site, under **Subnets**, click **Add subnets**. Specify the IP version, IP address, network range, add a description, and then click **Apply**. Each subnet must be associated with a specific site.
 7. Click **Save**.
