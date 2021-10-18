@@ -124,7 +124,7 @@ If you're using Quality of Service (QoS) to prioritize network traffic, you can 
     - To allow DSCP markings to be used for QoS, turn on **Insert Quality of Service (QoS) markers for real-time media traffic**. You only have the option of using markers or not; you can't set custom markers for each traffic type. See [Select a QoS implementation method](QoS-in-Teams.md#select-a-qos-implementation-method) for more on DSCP markers.
 
         > [!IMPORTANT]
-        > It should be noted that enabling QoS is only performed on the endpoints for tagging packets leaving the client.  It is still recommended to apply matching QoS rules on all internal network devices for incoming traffic.
+        > Note that enabling QoS is only performed on the endpoints for tagging packets leaving the client. We still recommend applying matching QoS rules on all internal network devices for incoming traffic.
         
         > [!NOTE]
         > DSCP tagging is typically done via Source Ports and UDP traffic will route to Transport Relay with destination port of 3478 by default. If your company requires tagging on destination ports, please contact support to enable communication to the Transport Relay with UDP ports 3479 (Audio), 3480 (Video), and 3481 (Sharing).
