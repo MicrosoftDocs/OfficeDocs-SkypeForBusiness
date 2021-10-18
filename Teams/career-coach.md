@@ -349,7 +349,7 @@ Pinning Career Coach will make the app more accessible and visible for students.
 1. Sign in to the **[Teams admin center](https://admin.teams.microsoft.com)**.
 
 2. Select **Teams apps** &gt;**Setup policies** &gt; and select your preferred policy.
-If you are unsure which policy to use you can refer the (Microsoft Teams Policy management documentation)[https://docs.microsoft.com/en-us/microsoftteams/policy-packages-edu] or utilize the (Education Policy Wizard)[https://docs.microsoft.com/en-us/microsoftteams/easy-policy-setup-edu?tabs=students%2Cstudent-settings] to configure a policy for Microsoft Teams.
+If you are unsure which policy to use you can refer to the [Microsoft Teams Policy management documentation](/microsoftteams/policy-packages-edu) or utilize the [Education Policy Wizard](/microsoftteams/easy-policy-setup-edu?tabs=students%2Cstudent-settings) to configure a policy for Microsoft Teams.
 
 3. Under **Pinned apps**, choose **Add apps**.
 
