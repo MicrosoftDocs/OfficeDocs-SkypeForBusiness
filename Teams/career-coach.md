@@ -199,7 +199,7 @@ The LinkedIn configuration connects Career Coach with public alumni data from Li
 #### Verify the LinkedIn page 
 
 > [!IMPORTANT]
-> The verification must be complete by the LinkedIn page super admin of the educational institution.
+> The verification must be completed by your educational institution’s LinkedIn page super admin.
 
 1. If successfully submitted, the page will be updated to show the **Verification link** and **Verification link expiration**. The verification link expires after 30 days.
 
