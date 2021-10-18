@@ -142,7 +142,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Block
 This setting controls whether captions and transcription features are available during playback of meeting recordings. If you turn this off, the **Search** and **CC** options won't be available during playback of a meeting recording. The person who started the recording needs this setting turned on so that the recording also includes transcription.
 
 > [!NOTE]
-> That transcription for recorded meetings is currently only supported for users who have the language in Teams set to English and when English is spoken in the meeting. They are stored together with the meeting recordings in OneDrive for Business and SharePoint Online cloud storage.
+> That transcription for recorded meetings is currently only supported for English (US), English (Canada), English (India), English (United Kingdom), English (Australia), English (New Zealand), German (Germany), Portuguese (Brazil), Dutch (Netherlands), Dutch (Belgium), French (France), Spanish (Spain), Japanese (Japan), French (Canada), Chinese (Cantonese, Traditional), Chinese (Mandarin, Simplified), Hindi (India), Italian (Italy), Korean (Korea), Spanish (Mexico), Swedish (Sweden), Polish (Poland), Arabic (United Arab Emirates), Arabic (Saudi Arabia), Danish (Denmark), Finnish (Finland), Norwegian (Norway), and Russian (Russia). They are stored together with the meeting recordings in OneDrive for Business and SharePoint Online cloud storage.
 
 You can use the Microsoft Teams admin center or PowerShell to set a Teams meeting policy to control whether the recording initiator gets a choice to transcribe the meeting recording.
 
@@ -304,7 +304,7 @@ Yes, the expiration date is set per file. Users can modify the expiration date i
 
 **How can an admin change the expiration date?**
   
-Admins will be able to change the default expiration setting in PowerShell (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) or the Teams Admin Center before the feature is released. **The setting is not yet available for modification**. We will publish an updated message center post when the setting is available for modification. When the feature launches, admins can change this setting in the Teams admin center. Changing expiration settings will impact only newly created TMRs from that point forward. It will not impact any recordings made prior to that date. 
+Admins will be able to change the default expiration setting in PowerShell or the Teams admin center before the feature is released. **The setting is not yet available for modification**. We will publish an updated message center post when the setting is available for modification. When the feature launches, admins can change this setting in the Teams admin center. Changing expiration settings will impact only newly created TMRs from that point forward. It will not impact any recordings made prior to that date. 
 
 The expiration days values can be set as follows:
   
@@ -406,7 +406,7 @@ Today closed captions for the recording video file are linked to the Teams meeti
 Any future changes to the link between the transcript in Teams and the recording will be clarified here and in message center notifications. If we make any changes in the future, we will ensure recording files less than 60 days old display the transcript from the meeting as captions.
 
 > [!NOTE]
-> There will be English-only closed captions (meeting transcription is not yet available in GCC).
+> Meeting transcription is not yet available in GCC.
 
 ## eDiscovery and Compliance for meeting recordings
 
@@ -430,6 +430,33 @@ You can apply DLP policies to meeting recording files also by the ProgID propert
 - Value = *Media.Meeting*
 
 To learn more about DLP see the article [Learn about data loss prevention](/microsoft-365/compliance/dlp-learn-about-dlp)
+
+## Meeting Recording Diagnostic Tools
+  ### User cannot record meetings
+
+If you're an administrator, you can use the following diagnostic tool to validate that the user is properly configured to record a meeting in Teams:
+
+1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center. 
+
+   > [!div class="nextstepaction"]
+   > [Run Tests: Meeting Recording](https://aka.ms/MeetingRecordingDiag)
+
+2. In the Run diagnostic pane, enter the email of the user who cannot record meetings in the **Username or Email** field, and then select **Run Tests**.
+
+3. The tests will return the best next steps to address any tenant or policy configurations to validate that the user is properly configured to record a meeting in Teams.
+  
+  ### Meeting record is missing
+
+If you're an administrator, you can use the following diagnostic tool to validate that the meeting recording completed successfully and it was uploaded to Stream or OneDrive, based on the meeting ID and recording start time:
+
+1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center. 
+
+   > [!div class="nextstepaction"]
+   > [Run Tests: Missing Meeting Recording](https://aka.ms/MissingRecordingDiag)
+
+2. In the Run diagnostic pane, enter the URL of the meeting in the **URL of the meeting that was recorded** field (usually found in the meeting invitation) as well as the date of the meeting in the **When was the meeting recorded? ** field and then select **Run Tests**.
+
+3. The tests will validate that the meeting recording completed successfully and it was uploaded to Stream or OneDrive.
 
 ## Related topics
 
