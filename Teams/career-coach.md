@@ -109,7 +109,8 @@ Career Coach **requires** your educational institution’s users to have the abi
 
    - Select **Selected group** to enable the service for only a group of selected users in your educational institution.
 
-More information on [LinkedIn account connections in Azure Active Directory](/azure/active-directory/enterprise-users/linkedin-integration)
+For more information, see [LinkedIn account connections in Azure Active Directory](/azure/active-directory/enterprise-users/linkedin-integration).
+
 ## Access the Career Coach app settings
 
 Use Microsoft Teams admin center to configure Career Coach for your educational institution and enable it for users.
