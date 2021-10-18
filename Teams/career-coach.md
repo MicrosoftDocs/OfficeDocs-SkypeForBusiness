@@ -326,7 +326,7 @@ After you complete the configuration, enable the app for students and licensed u
 ### Add Career Coach as an installed app
 
 > [!IMPORTANT]
-> This step ensures 1) that Career Coach is properly configured for your organization 2) that students find Career Coach.
+> This step ensures that Career Coach is properly configured for your organization and that students find Career Coach.
 
 1. Sign in to the **[Teams admin center](https://admin.teams.microsoft.com)**.
 
