@@ -136,7 +136,7 @@ Career Coach has five configuration categories:
 
 - [LinkedIn connection](#linkedin-connection) - Requred
 
-- [Course catalog](#course-catalog) - Requred
+- [Course catalog](#course-catalog) - required
 
 - [Fields of study](#fields-of-study) - Requred
 
