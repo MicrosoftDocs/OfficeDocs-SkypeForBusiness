@@ -187,7 +187,7 @@ The LinkedIn configuration connects Career Coach with public alumni data from Li
 
 2. Select **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** > **Career Coach** > **LinkedIn connection**.
 
-3. Find the LinkedIn page by searching on LinkedIn and selecting School filter. Or connect with a career services staff member to determine the correct LinkedIn school page to use. [How to identify LinkedIn pages](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en).
+3. Find the LinkedIn page by searching on LinkedIn and selecting the **School** filter. Or connect with a career services staff member to determine the correct LinkedIn school page to use. For more information, see [How to identify LinkedIn pages](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en).
 
     ![linkedin search for school.](media/career-coach-school-search.png)
 
