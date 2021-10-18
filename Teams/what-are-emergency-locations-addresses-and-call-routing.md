@@ -3,7 +3,7 @@ title: Plan and manage emergency calling
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: mikedav, roykuntz, jastark
+ms.reviewer: roykuntz, jastark
 ms.topic: article
 ms.assetid: 589bf5f5-490a-4215-8588-99bab7d33e31
 ms.tgt.pltfrm: cloud
@@ -199,15 +199,15 @@ You can assign an emergency call routing policy to a Direct Routing user account
 
 ### Dynamic emergency calling for Direct Routing
 
-**Dynamic emergency calling for Direct Routing provides the capability to configure and route emergency calls based on the current location of the Teams client. The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) or to notify security desk personnel varies depending on the country of usage of the Teams user.**
+Dynamic emergency calling for Direct Routing provides the capability to configure and route emergency calls based on the current location of the Teams client. The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) or to notify security desk personnel varies depending on the country of usage of the Teams user.
 
-**For Direct Routing users, dynamic location for routing emergency calls is only supported in the United States as follows:** 
+For Direct Routing users, dynamic location for routing emergency calls is only supported in the United States as follows:
 
--	**If a Teams client for a United States Direct Routing user dynamically acquires an emergency address within the United States, that address is used for emergency routing, and the call will be automatically routed to the PSAP in the serving area of the address.**
+-	If a Teams client for a United States Direct Routing user dynamically acquires an emergency address within the United States, that address is used for emergency routing, and the call will be automatically routed to the PSAP in the serving area of the address.
 
--	**If a Teams client for a United States Direct Routing user doesn't dynamically acquire an emergency address within the United States, the call will be screened to determine if an updated address is required before connecting the caller to the appropriate PSAP.**
+-	If a Teams client for a United States Direct Routing user doesn't dynamically acquire an emergency address within the United States, the call will be screened to determine if an updated address is required before connecting the caller to the appropriate PSAP.
 
-**Dynamic location for routing emergency calls is supported in Canada the same as in the United States with the following exception: all emergency calls will be screened nationally before being transferred to the PSAP.**
+Dynamic location for routing emergency calls is supported in Canada the same as in the United States with the following exception: all emergency calls will be screened nationally before being transferred to the PSAP.
 
 For more information, see [Configure dynamic emergency calling](configure-dynamic-emergency-calling.md).
 
@@ -254,7 +254,7 @@ For more information, see [Session Border Controllers certified for Direct Routi
 
 Security desk notification is available with both Microsoft Calling Plans, Operator Connect, and Direct Routing.
 
-You use a Teams emergency calling policy (TeamsEmergencyCallingPolicy) to configure who should be notified during an emergency call and how they are notified: chat only, conferenced in and muted, or conferenced in and muted but with the ability to unmute. You can also specify an external PSTN number of a user or group to call and join the emergency call. **Note that the PSTN party is not allowed to unmute.**
+You use a Teams emergency calling policy (TeamsEmergencyCallingPolicy) to configure who should be notified during an emergency call and how they are notified: chat only, conferenced in and muted, or conferenced in and muted but with the ability to unmute. You can also specify an external PSTN number of a user or group to call and join the emergency call. Note that the PSTN party is not allowed to unmute.
 
 An emergency calling policy can be granted to a Teams user account, assigned to a network site, or both.  When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located:
 

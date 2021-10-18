@@ -24,7 +24,7 @@ appliesto:
 
 Dynamic emergency calling for Microsoft Calling Plans, Operator Connect, and Direct Routing provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client.  
 
-**Based on the network topology (network elements associated with emergency addresses) that the tenant administrator defines, the Teams client provides network connectivity information in a request to the Location Information Service (LIS). If there's a match, the LIS returns a location to the client.**
+Based on the network topology (network elements associated with emergency addresses) that the tenant administrator defines, the Teams client provides network connectivity information in a request to the Location Information Service (LIS). If there's a match, the LIS returns a location to the client.
 
 The Teams client includes location data as part of an emergency call. This data is then used by the emergency service provider to determine the appropriate Public Safety Answering Point (PSAP) and to route the call to that PSAP, which allows the PSAP dispatcher to obtain the caller's location.  
 
@@ -44,13 +44,11 @@ For dynamic emergency calling, the following must occur:
 
 3. When the Teams client makes an emergency call, the emergency location is conveyed to the PSTN network.
 
-**ROY: DID I GET THIS RIGHT AND DID I PLACE THE FOLLOWING PARAGRAPHS IN THE RIGHT PLACE?**
+The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) varies depending on the country of usage of the Teams user.
 
-**The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) varies depending on the country of usage of the Teams user.**
+Microsoft Calling Plans and Operator Connect partners include dynamic emergency routing services for users in the United States and Canada.
 
-**Microsoft Calling Plans provides emergency routing services. Operator Connect provides emergency routing services through the PSTN providers in the United States and Canada.**
-
-**For Direct Routing, however, additional configuration is required for routing emergency calls and possibly for partner connectivity. The administrator must configure connection to an Emergency Routing Service (ERS) provider (United States) **OR** configure the Session Border Controller (SBC) for an Emergency Location Identification Number (ELIN) application. For information about ERS providers, see [Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).**
+For Direct Routing, however, additional configuration is required for routing emergency calls and possibly for partner connectivity. The administrator must configure connection to an Emergency Routing Service (ERS) provider (United States and Canada) **OR** configure the Session Border Controller (SBC) for an Emergency Location Identification Number (ELIN) application. For information about ERS providers, see [Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).
 
 This article contains the following sections.
 
@@ -131,7 +129,7 @@ You configure network settings in the Microsoft Teams admin center or by using P
 Note that it can take some time (up to a couple of hours) for some changes to network settings (such as a new address, network identifier, and so on) to propagate and be available to Teams clients.  
 
 > [!Note]
-> Subnets can also be defined in LIS and can be associated with an emergency location.  LIS subnets must be defined by the Network ID matching the subnet IP range assigned to clients. For example, the network ID for a client IP/mask of 10.10.10.150/25 is **10.10.10.128**. For more information, see [Understand TCP/IP addressing and subnetting basics](/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting).
+> Subnets can also be defined in LIS and can be associated with an emergency location.  LIS subnets must be defined by the Network ID matching the subnet IP range assigned to clients. For example, the network ID for a client IP/mask of 10.10.10.150/25 is 10.10.10.128. For more information, see [Understand TCP/IP addressing and subnetting basics](/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting).
 
 > [!Important]
 > Network configuration setting lookups are not supported with cloud proxy service deployments that modify the source IP addresses from Teams clients.
