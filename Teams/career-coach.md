@@ -370,7 +370,7 @@ Reference [Manage app setup policies in Microsoft](/microsoftteams/teams-app-set
 
 - On settings pages with required fields, if the fields are not completed, the page will not submit. You will not see a warning message; the page will simply not submit.
 
-- When first configuring Career Coach, an error banner may appear stating "We can't update the app's settings. Try again." This is likely due to the tenant provisioning the Career Coacha app, which can take up to 15 minutes. If this happens wait 15 minutes before submitting again.
+- When first configuring Career Coach, an error banner may appear stating "We can't update the app's settings. Try again." This is likely due to the tenant provisioning the Career Coach app, which can take up to 15 minutes. If this happens, wait 15 minutes before submitting again.
 
 - If the Career Coach app is not showing in Microsoft Teams, the policy changes may not have taken effect. Policy changes can take a few hours to update. The Career Coach app will not be available in Microsoft Teams until the changes are complete.
 
