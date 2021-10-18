@@ -38,4 +38,6 @@ The MACP includes commonly used tabs which cover most of the needs of the organi
 |Client Version Configuration      |  [Client Version Configuration](use-powershell-client-tab.md#client-version-configuration)       |
 |Test Device     | [Test Device](use-powershell-client-tab.md#test-device)        |
 |Device Log Configuration         |    [Device Log Configuration](use-powershell-client-tab.md#device-log-configuration)     |
-
+|Device Configuration         |    [Device Configuration](use-powershell-client-tab.md#device-configuration)     |
+|Mobility Policy         |    [Mobility Policy](use-powershell-client-tab.md#mobility-policy)     |
+|Push Notification Configuration        |    [Push Notification Configuration](use-powershell-client-tab.md#push-notification-configuration)     |
