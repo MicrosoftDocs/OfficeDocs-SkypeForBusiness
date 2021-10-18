@@ -313,7 +313,7 @@ The expiration days values can be set as follows:
  
 Admins can't change the expiration date on existing TMRs already uploaded to OneDrive or SharePoint before this feature was released. This protects the intent of the user that owns the TMR.
   
-To change the default auto-expiration behavior for your tenant, modify the following attribute in PowerShell. In the below example, the default is being changed to 50 days.
+To change the default auto-expiration behavior for your tenant, modify the following attribute in PowerShell. In this example, the default is changed to 50 days.
  
 Set-CsTeamsMeetingPolicy -Identity Global -**New**MeetingRecordingExpirationDays 50
 
