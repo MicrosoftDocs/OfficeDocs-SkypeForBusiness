@@ -50,6 +50,11 @@ Guest access in Teams requires configuring other settings in Microsoft 365, incl
 
 Guest access in Teams is an organization-wide setting and is turned on by default. You can control guest access to individual teams by using [sensitivity labels](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
+> [!NOTE]
+> If you're an administrator, and you're having trouble with Guest Access in Microsoft Teams, select **Run Tests** below, which will populate the Guest Access diagnostic in the Microsoft 365 Admin Center. These tests will check your configuration and quickly recommend next steps to enable Guest Access for your tenant.
+>> [!div class="nextstepaction"]
+>> [Run Tests: Guest Access](https://aka.ms/TeamsGuestAccessDiagDMC)
+
 ### Turning guest access off
 
 If you turn guest access off in Teams, existing guests lose access to their team. However, they are not removed from the team. They are still visible to the team members and can be @mentioned. If you turn Teams guest access on again, they will regain access.
