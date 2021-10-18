@@ -20,7 +20,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Calling Plans
-description: "Learn how to route calls to unassigned numbers in your organization. "
+description: "Learn how to route calls to unassigned numbers in your organization."
 ---
 
 # Routing calls to unassigned numbers
@@ -40,7 +40,7 @@ You can route calls to unassigned numbers to a user, to a resource account assoc
 
 To route calls to an unassigned number, use the New/Get/Set/Remove-CsTeamsUnassignedNumberTreatment cmdlet available in Teams PowerShell module 2.5.1 or later.
 
-You will need to specify the called number or range of numbers and the associated routing for calls to these numbers. For example, the following command specifies that all calls to the number +1 (555) 222-3333 will be routed to the resource account aa@contoso.com:
+You need to specify the called number or range of numbers and the associated routing for calls to these numbers. For example, the following command specifies that all calls to the number +1 (555) 222-3333 will be routed to the resource account aa@contoso.com:
 
 ``` PowerShell
 $RAObjectId = (Get-CsOnlineApplicationInstance -Identity aa@contoso.com).ObjectId
