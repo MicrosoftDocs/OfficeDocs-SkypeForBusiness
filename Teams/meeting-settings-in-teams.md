@@ -104,16 +104,14 @@ You can customize Teams meeting invitations to meet your organization's needs. Y
 If you're using Quality of Service (QoS)to prioritize network traffic, you can enable QoS markers and set port ranges for each type of media traffic. Setting port ranges for different traffic types is only one step in handling real-time media; see [Quality of Service (QoS) in Teams](qos-in-teams.md) for much more detail.
 
 > [!IMPORTANT]
-> Apple-based systems : The only case we know of when Apple-based devices actually set the dscp value is when all following conditions are met.
-> - iOS
-> - WiFi network
-> - Cisco Switches
-> - Network administrator has added teh app into the approved list
-
-> [!IMPORTANT]
-> Android-based systems : No known limitations
-
-> [!IMPORTANT]
+> Apple-based systems: The only instance that we know of where Apple-based devices actually set the DSCP value is if all the following conditions are met:
+> - iOS.
+> - WiFi network.
+> - Cisco switches.
+> - The network administrator has added the app to the approved list.
+>
+> Android-based systems: There are no known limitations.
+>
 > If you enable QoS or change settings in the Microsoft Teams admin center for the Teams service, you'll also need to [apply matching settings to all user devices](QoS-in-Teams-clients.md) and all internal network devices to fully implement the changes to QoS in Teams.
 
  ![An icon showing the Microsoft Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
