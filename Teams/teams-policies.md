@@ -28,7 +28,7 @@ description: Learn how to use and manage teams channel policies in your organiza
 
 # Manage channel policies in Microsoft Teams
 
-As an admin, you can use policies in Microsoft Teams to control what users in your organization can do in teams and channels. For example, you can set whether users are allowed to create private or shred channels.
+As an admin, you can use policies in Microsoft Teams to control what users in your organization can do in teams and channels. For example, you can set whether users are allowed to create private or shared channels.
 
 You manage teams policies by going to **Teams** > **Teams policies** in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create and assign custom policies. Users in your organization will automatically get the global policy unless you create and assign a custom policy.
 

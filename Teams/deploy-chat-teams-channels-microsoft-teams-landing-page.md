@@ -31,9 +31,7 @@ To get started, watch our short Teams chat, teams, and channels video (4:30 minu
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
 
-*New in November 2019*
- - You can now [use Advisor for Teams (preview) to help you roll out Microsoft Teams](use-advisor-teams-roll-out.md). Advisor for Teams (preview) walks you through your Teams rollout. It assesses your Microsoft 365 or Office 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams.
- - [Microsoft Teams Essentials for IT YouTube channel](https://aka.ms/MicrosoftTeamsforIT), including short (8-10 minute) videos that show you how to roll out, configure, and manage Teams.
+You can use [Advisor for Teams](use-advisor-teams-roll-out.md) to help you roll out Microsoft Teams. Advisor for Teams walks you through your Teams rollout. It assesses your Microsoft 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams.
 
 > [!TIP]
 > We recommend that you include our featured apps -- such as Planner -- in your initial Teams rollout. Add other [apps, bots, and connectors](deploy-apps-microsoft-teams-landing-page.md) as you drive Teams adoption.
@@ -88,11 +86,11 @@ Messaging policies control which chat and channel messaging features are availab
 
 ### External access
 
-External access (formerly known as federation) lets your Teams and Skype for Business users communicate with users who are outside of your organization. By turning this on and adding domains to the allowed list, your users can communicate with users in other domains and organizations. External access differs from guest access in that an entire domain is given access permission, not an individual. External access is turned on by default.
+External access (federation) lets your users communicate with people outside of your organization via chat. By turning this on and adding domains to the allowed list, your users can communicate with users in other domains and organizations. External access is turned on by default.
 
 |Ask yourself|Action |
 |------------|-------|
-|<ul><li>Will I turn on external access for my organization?</li><li>If enabled, will I limit which domains my organization can communicate with?</li></ul> |<br>To turn on external access, see [Plan for external access](manage-external-access.md#plan-for-external-access).|
+|<ul><li>Will I turn off external access for my organization?</li><li>If enabled, will I limit which domains my organization can communicate with?</li></ul> |<br>To turn external access on or off, see [Plan for external access](manage-external-access.md#plan-for-external-access).|
 |||
 
 ### Guest access
@@ -105,9 +103,26 @@ Guest access in Teams lets individuals outside your organization access teams an
 
 |Ask yourself|Action |
 |------------|-------|
-|Will I turn on guest access for my organization?|To turn on guest access, see [Turn on or off guest access in Teams](set-up-guests.md).|
+|Will I turn off guest access for my organization?|To turn guest access on or off, see [Turn on or off guest access in Teams](set-up-guests.md).|
 |If enabled, will I customize the features available to guests in my organization?|To customize guest access feature availability, see [Authorize guest access in Teams](teams-dependencies.md).|
 |||
+
+### Private channels
+
+Private channels allow a subset of team members to collaborate in a private space that other team members can't see or access. Anyone, including guests, can be added as a member of a private channel as long as they are already members of the team.
+
+|Ask yourself|Action |
+|------------|-------|
+|Do I want to allow team owners and members to create private channels?|To set private channels policy for your organization, see [Manage channel policies in Microsoft Teams](teams-policies.md)|
+
+### Shared channels
+
+Shared channels allow you to add people who are not members of a team to a channel. This includes people who are outside your organization. Shared channels provide advantages over guest access in that people outside your organization no not require a guest account in your directory.
+
+|Ask yourself|Action |
+|------------|-------|
+|When do I use shared channels versus guest access?|See [Shared channels in Microsoft Teams](shared-channels.md).|
+|<ul><li>Will I allow team owners to create shared channels?</li><li>Will I allow team owners to share channels with people outside the organization?</li><li>Will I allow users to participate in shared channels that are outside the organization?</li></ul> |<br>To set shared channels policy for your organization, see [Manage channel policies in Microsoft Teams](teams-policies.md).|
 
 ### Teams settings
 
@@ -134,7 +149,7 @@ The Global Admin, Teams Service Admin, and Reports Readers roles can view Teams 
 
 |Ask yourself|Action |
 |------------|-------|
-|<br> Who needs to see the Teams usage reports, and do they have the correct role to view them? |<ul><li>If the user isn't an admin, [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) to learn how to assign admin roles in Azure Active Directory. |
+|<br> Who needs to see the Teams usage reports, and do they have the correct role to view them? |<ul><li>If the user isn't an admin, [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) to learn how to assign admin roles in Azure Active Directory.|
 |||
 
 ### Teams default apps 
@@ -149,7 +164,7 @@ You may want to change these settings, based on your organization's needs and co
 
 ### Teams licensing
 
-Teams is provided as part of many Microsoft 365 or Office 365 licenses. To learn more about Teams licensing, see [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
+Teams is provided as part of many Microsoft 365 licenses.
 
 |Ask yourself|Action |
 |------------|-------|
@@ -158,11 +173,11 @@ Teams is provided as part of many Microsoft 365 or Office 365 licenses. To learn
 
 ### Exchange and SharePoint interoperability
 
-For the full Teams experience, every user should be enabled for Exchange Online, SharePoint Online, and Microsoft 365 group creation. The following articles outline information related to Exchange mailboxes hosted in various environments, how Exchange and Teams interact, and similar considerations for SharePoint and OneDrive for Business.
+For the full Teams experience, every user should be enabled for Exchange, SharePoint, and Microsoft 365 group creation. The following articles outline information related to Exchange mailboxes hosted in various environments, how Exchange and Teams interact, and similar considerations for SharePoint and OneDrive.
 
 |Ask yourself|Action |
 |------------|-------|
-| Will I be able to deploy the Teams features that I require with the current Exchange and SharePoint deployments? |For more information about Exchange and SharePoint in Teams, see:<ul><li> [How Exchange and Teams interact](exchange-teams-interact.md)</li><li>[How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)|
+| Will I be able to deploy the Teams features that I require with the current Exchange and SharePoint deployments? |For more information about Exchange and SharePoint in Teams, see:<ul><li> [How Exchange and Teams interact](exchange-teams-interact.md)</li><li>[How SharePoint Online and OneDrive interact with Teams](sharepoint-onedrive-interact.md)|
 |||
 
 ### Teams limits and specifications 
@@ -176,7 +191,7 @@ When planning an enterprise deployment of Teams, you should take into account an
 
 ### URLs and ports
 
-Organizations that maintain fine-grained control of their internet traffic should read [URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges) for an up-to-date list of the URLs, IP addresses, ports, and protocols that must be correctly configured for Teams. Microsoft is continuously improving the Microsoft 365 and Office 365 services and adding new functionality, which means the required ports, URLs, and IP addresses may change over time. We recommend that you subscribe via RSS to receive notifications when this information is updated or changed. At a minimum, make sure you've opened the ports listed above in [Chat deployment prerequisites](#chat-deployment-prerequisites).
+Organizations that maintain fine-grained control of their internet traffic should read [URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges) for an up-to-date list of the URLs, IP addresses, ports, and protocols that must be correctly configured for Teams. Microsoft is continuously improving the Microsoft 365 services and adding new functionality, which means the required ports, URLs, and IP addresses may change over time. We recommend that you subscribe via RSS to receive notifications when this information is updated or changed. At a minimum, make sure you've opened the ports listed above in [Chat deployment prerequisites](#chat-deployment-prerequisites).
 
 |Ask yourself|Action |
 |------------|-------|
@@ -217,7 +232,7 @@ Your organization might require that you implement controls on how teams are arc
 
 ### Conditional access 
 
-Teams relies heavily on Exchange Online, SharePoint Online, and Skype for Business Online for core productivity scenarios, including meetings, calendars, interop chats, and file sharing. Conditional access policies that are set for these cloud apps apply to Teams when a user signs in directly to Teams, on any client. Conditional access policies that are set for the Teams cloud app control aspects such as whether users can access Teams services from certain networks.
+Teams relies heavily on Exchange and SharePoint for core productivity scenarios, including meetings, calendars, interop chats, and file sharing. Conditional access policies that are set for these cloud apps apply to Teams when a user signs in directly to Teams, on any client. Conditional access policies that are set for the Teams cloud app control aspects such as whether users can access Teams services from certain networks.
 
 | Ask yourself | Action |
 |--------------|--------|
