@@ -74,7 +74,7 @@ If you need to check which user-level external access policies exist and who the
     Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq “<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
     ```
 
-### Further Powershell options
+### Further PowerShell options
 
 Since all user-level external access policies have EnableTeamsConsumerAccess set to true by default, if you would like to update any of these policies to adjust the EnableTeamsConsumerAccess setting, you can create new external access policies with adjusted settings, or reassign users to new or existing policies, through the following PowerShell:
 
