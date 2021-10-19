@@ -97,13 +97,22 @@ If an existing notebook is added as a tab to a shared channel, access to the sha
 
 ## Shared channel limitations
 
-Currently, shared channels support connectors and tabs (except Stream, Planner, and Forms).
+The following table describes the maximum number of channels and members.
 
-Each team can have a maximum of 30 shared channels and each shared channel can have a maximum of 250 members. The 30 shared channel limit is in addition to the 200 standard channel limit per team. 
+|Maximum...|Value|Notes|
+|:---------|:----|:----|
+|Members in a team|25,000|Includes all users in the team and direct members in shared channels.|
+|Shared channels per team|200|Hosted and shared with the team. (Includes deleted channels.)|
+|Teams a channel can be shared with|50|Excluding parent team|
+|Members in a shared channel|5,000 direct members, including up to 50 teams (and all team members)|Only 25,000 users will appear in the channel list.|
 
-When you create a team from an existing team, any shared channels in the existing team won't be copied over.
+The following limitations also apply:
 
-Notifications from shared channels are not included in missed activity emails.
+- Shared channels support connectors and tabs (except Stream, Planner, and Forms).
+
+- When you create a team from an existing team, any shared channels in the existing team won't be copied over.
+
+- Notifications from shared channels are not included in missed activity emails.
 
 ## Related topics
 
