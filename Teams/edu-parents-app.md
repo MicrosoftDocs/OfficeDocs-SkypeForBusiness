@@ -58,7 +58,7 @@ Enabling the parents app in Microsoft Teams is a straightforward process for adm
     Connect-MicrosoftTeams -Credential $credential
     ```
 
-By default, the tenant-level setting which controls Teams consumer external access for the tenant (AllowTeamsConsumer) is disabled. However, the policy setting which enables Teams consumer external access at the user level (EnableTeamsConsumerAccess) is enabled by default for all user-level external access policies. Both the tenant-level setting and the user-level policy setting need to be enabled for a user to have Teams consumer external access. If you don't want everyone in your tenant to have Teams consumer external access enabled, you should update the user-level external access policies assigned to your users prior to enabling the tenant-level setting.
+By default, the tenant-level setting that controls Teams consumer external access for the tenant (AllowTeamsConsumer) is disabled. However, the policy setting that enables Teams consumer external access at the user level (EnableTeamsConsumerAccess) is enabled by default for all user-level external access policies. Both the tenant-level setting and the user-level policy setting need to be enabled for a user to have Teams consumer external access. If you don't want everyone in your tenant to have Teams consumer external access enabled, you should update the user-level external access policies assigned to your users prior to enabling the tenant-level setting.
 
 If you need to check which user-level external access policies exist and who they are assigned to, you can use the following steps:
     
