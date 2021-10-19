@@ -1,7 +1,7 @@
 ---
 title: "Set up an auto attendant for Microsoft Teams"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -253,9 +253,22 @@ You can also use PowerShell to create and set up auto attendants. Here are the c
 - [Import-CsAutoAttendantHolidays](/powershell/module/skype/import-csautoattendantholidays)
 - [New-CsAutoAttendantCallableEntity](/powershell/module/skype/New-CsAutoAttendantCallableEntity)
 
+## Auto Attendant Diagnostic Tool
+
+If you're an administrator, you can use the following diagnostic tool to validate that an auto attendant is able to receive calls:
+
+1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center. 
+
+   > [!div class="nextstepaction"]
+   > [Run Tests: Teams Federation](https://aka.ms/TeamsAADiag)
+
+2. In the Run diagnostic pane, enter the Resource Account in the **Username or Email** field, and then select **Run Tests**.
+
+3. The tests will identify tenant, policy, or resource account configurations that are preventing the auto attendant from being able to receive calls and provide steps to fix any problems identified.
+
 ## Related topics
 
-[Here's what you get with Phone System](./here-s-what-you-get-with-phone-system.md)
+[Here's what you get with Teams Phone](./here-s-what-you-get-with-phone-system.md)
 
 [Getting service phone numbers](./getting-service-phone-numbers.md)
 

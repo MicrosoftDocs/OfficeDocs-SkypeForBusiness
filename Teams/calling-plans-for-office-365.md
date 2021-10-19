@@ -43,7 +43,11 @@ All users in the same country/region (this is the user country location defined 
 Visit [Country and region availability](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) to find out about monthly minutes available for each organization in each country/region.
   
 > [!IMPORTANT]
-> The country/region is based on the location of the user's license in the **Microsoft 365 admin center** > **Active users** and **NOT** the billing address listed under the **Organization Profile** in the **Microsoft 365 admin center**.   
+> The country/region is based on the location of the user's license in the **Microsoft 365 admin center** > **Active users** and **NOT** the billing address listed under the **Organization Profile** in the **Microsoft 365 admin center**. 
+
+> [!NOTE]
+> Pooling is only available on identical calling plans.
+
 ![Screen shot of user's license location.](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
 For detailed information about usage limits and terms of use, see [Audio Conferencing complimentary dial-out period](complimentary-dial-out-period.md).
