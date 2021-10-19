@@ -23,7 +23,7 @@ appliesto:
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Enabling the parents app in Microsoft Teams is a straightforward process for admins, delivering a secure method for educators to communicate to students and their contacts that remains in-tenant, and which will scale across your educator organization.
+Enabling the parents app in Microsoft Teams is a straightforward process for admins, delivering a secure method for educators to communicate to students and their contacts that remain in-tenant, and which will scale across your educator organization.
 
 ## Requirements
 
