@@ -89,7 +89,6 @@ Each private channel has its own SharePoint site. The separate site is to ensure
 
 > [!NOTE]
 > Only users with owner or member permissions granted in Microsoft Teams will have access to content in the private channel site.
-> Private channel SharePoint sites aren't included in the Active sites page of the new SharePoint admin center.
 > Private channel SharePoint sites created after June 28, 2021 will have the custom template ID TEAMCHANNEL#1.
 
 A private channel site syncs data classification and inherits guest access permissions from the site of the parent team. Membership to the site owner and member groups are kept in sync with the membership of the private channel within Teams. Site permissions for a private channel site can't be managed independently through SharePoint. 
