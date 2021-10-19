@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: Guidance for starting a Microsoft Teams pilot to explore all that Teams can offer your organization, while you continue to use Skype for Business 
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
 f1.keywords:
@@ -22,7 +22,7 @@ appliesto:
 
 # Conduct a user pilot
 
-![Upgrade journey diagram, highlighting Deployment and Implementation](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")
+![Upgrade journey diagram, highlighting Deployment and Implementation.](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")
 
 This article is part of Deployment and Implementation stage of your upgrade journey, and shares insights for running an effective pilot. Before proceeding, confirm that you've completed the following activities:
 
@@ -37,10 +37,10 @@ By deploying new technologies, your organization can realize business value such
 
 To achieve the most realistic results, the pilot should involve actual users, mimic how they communicate and collaborate, and verify both technical and user experiences. Whether your organization is considering running Skype for Business and Teams side by side, upgrading to Teams in the future, or deploying new functionality such a calling or conferencing, a pilot can help identify the right path forward for your organization. Sometimes considered Phase 1 of a rollout, the ideal pilot leverages the preparation you've already started and implements your defined plan with a targeted group of users.
 
-| | |
+|&nbsp; | &nbsp;|
 |---|---|
-| ![An icon depicting a decision point](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>How will you use a pilot to inform project direction?</li></ul> |
-| ![An icon depicting the next step](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Use the guidance below to design and execute your formal pilot.</li></ul>|
+| ![An icon depicting a decision point.](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>How will you use a pilot to inform project direction?</li></ul> |
+| ![An icon depicting the next step.](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Use the guidance below to design and execute your formal pilot.</li></ul>|
 
 > [!Tip]
 > Use the sample [pilot resources](https://aka.ms/UpgradeSuccessKit) to help design your communications, test plan, and feedback survey.

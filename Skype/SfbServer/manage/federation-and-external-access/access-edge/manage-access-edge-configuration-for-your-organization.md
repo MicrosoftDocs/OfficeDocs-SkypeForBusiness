@@ -13,7 +13,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "After deploying one or more Edge Servers, you must enable the types of external domain or provider access, remote user access, and anonymous user access to conferences through the Edge Servers that will be supported for your organization."
 ---
 
@@ -48,23 +48,23 @@ These options include the following types of access that can be configured throu
     
     That will return information similar to this:
     
-        Identity                               : Global
-        AllowAnonymousUsers                    : False
-        AllowFederatedUsers                    : False
-        AllowOutsideUsers                      : True
-        BeClearingHouse                        : False
-        EnablePartnerDiscovery                 : False
-        EnableArchivingDisclaimer              : False
-        EnableUserReplicator                   : True
-        KeepCrlsUpToDateForPeers               : True
-        MarkSourceVerifiableOnOutgoingMessages : True
-        OutgoingTlsCountForFederatedPartners   : 4
-        DiscoveredPartnerStandardRate          : 20
-        EnableDiscoveredPartnerContactsLimit   : True
-        MaxContactsPerDiscoveredPartner        : 1000
-        DiscoveredPartnerReportPeriodMinutes   : 60
-        MaxAcceptedCertificatesStored          : 1000
-        MaxRejectedCertificatesStored          : 500
-        CertificatesDeletedPercentage          : 20
-        RoutingMethod                          : UseDnsSrvRouting
+    Identity                               : Global<br/>
+    AllowAnonymousUsers                    : False<br/>
+    AllowFederatedUsers                    : False<br/>
+    AllowOutsideUsers                      : True<br/>
+    BeClearingHouse                        : False<br/>
+    EnablePartnerDiscovery                 : False<br/>
+    EnableArchivingDisclaimer              : False<br/>
+    EnableUserReplicator                   : True<br/>
+    KeepCrlsUpToDateForPeers               : True<br/>
+    MarkSourceVerifiableOnOutgoingMessages : True<br/>
+    OutgoingTlsCountForFederatedPartners   : 4<br/>
+    DiscoveredPartnerStandardRate          : 20<br/>
+    EnableDiscoveredPartnerContactsLimit   : True<br/>
+    MaxContactsPerDiscoveredPartner        : 1000<br/>
+    DiscoveredPartnerReportPeriodMinutes   : 60<br/>
+    MaxAcceptedCertificatesStored          : 1000<br/>
+    MaxRejectedCertificatesStored          : 500<br/>
+    CertificatesDeletedPercentage          : 20<br/>
+    RoutingMethod                          : UseDnsSrvRouting<br/>
 

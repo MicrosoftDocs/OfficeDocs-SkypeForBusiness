@@ -9,7 +9,7 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
 ms.custom: seo-marvel-apr2020
@@ -223,34 +223,36 @@ Use the following checklist while doing a final verification that the console an
   
 **Application settings**
 
-|||
-|:-----|:-----|
-|☐  <br/> |Room account name and phone # (if PSTN enabled) are correctly displayed in top right of console screen  <br/> |
-|☐  <br/> |Windows computer name is set correctly (useful for remote administration)  <br/> |
-|☐  <br/> |Administrator account password set and verified  <br/> |
-|☐  <br/> |All firmware updates have been applied  <br/> |
+|Completed |Check |
+|:-----:|:-----|
+|☐   |Room account name and phone # (if PSTN enabled) are correctly displayed in top right of console screen   |
+|☐   |Windows computer name is set correctly (useful for remote administration)   |
+|☐   |Administrator account password set and verified   |
+|☐   |All firmware updates have been applied   |
    
 **Audio/video peripherals**
 
-|||
-|:-----|:-----|
-|☐  <br/> |Camera peripheral firmware version is correct (if applicable)  <br/> |
-|☐  <br/> |Camera functional and positioned optimally  <br/> |
-|☐  <br/> |Settings for Playback Default Device and Playback Default Communications Device set to intended audio peripheral  <br/> |
-|☐  <br/> |Settings for Recording Default Communication Device set to the intended audio peripheral  <br/> |
-|☐  <br/> |Audio peripheral firmware version is correct (if applicable)  <br/> |
-|☐  <br/> |Audio input device functional and optimally positioned  <br/> |
-|☐  <br/> |Audio output device functional and optimally positioned  <br/> |
-   
+|Completed |Check |
+|:-----:|:-----|
+|☐   |Camera peripheral firmware version is correct (if applicable)   |
+|☐   |Camera functional and positioned optimally   |
+|☐   |Settings for Playback Default Device and Playback Default Communications Device set to intended audio peripheral   |
+|☐   |Settings for Recording Default Communication Device set to the intended audio peripheral   |
+|☐   |Audio peripheral firmware version is correct (if applicable)   |
+|☐   |Audio input device functional and optimally positioned   |
+|☐   |Audio output device functional and optimally positioned   |
+
 **Dock**
 
-|||
-|:-----|:-----|
-|☐  <br/> |Cables are secure and not pinched  <br/> |
-|☐  <br/> |Audio ingest over HDMI is functional  <br/> |
-|☐  <br/> |Video ingest over HDMI is functional  <br/> |
-|☐  <br/> |Dock can swivel freely  <br/> |
-|☐  <br/> |Display brightness is acceptable for environment  <br/> |
+|Completed |Check |
+|:-----:|:-----|
+|☐   |Cables are secure and not pinched   |
+|☐   |Audio ingest over HDMI is functional   |
+|☐   |Video ingest over HDMI is functional   |
+|☐   |Dock can swivel freely   |
+|☐   |Display brightness is acceptable for environment   |
+
+
    
 ## See also
 <a name="Checklist"> </a>

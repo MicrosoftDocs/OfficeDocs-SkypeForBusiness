@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ImpFileEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2f6e54ef-2ff5-4cac-a3d4-80a101e8d177
 description: "What do you want to do? Click the link to the task that you want to perform."
 ---

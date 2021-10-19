@@ -1,7 +1,7 @@
 ---
 title: "Set up holidays in Microsoft Teams"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -13,7 +13,7 @@ ms.collection:
 audience: Admin
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 
@@ -55,7 +55,7 @@ To create a holiday
 
 10. Select **Save**.
 
-    ![Screenshot of holidays user interface with dates set up for three years](media/holidays-set-up.png)
+    ![Screenshot of holidays user interface with dates set up for three years.](media/holidays-set-up.png)
 
 ## Change a holiday
 

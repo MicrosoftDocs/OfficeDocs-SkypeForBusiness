@@ -1,6 +1,6 @@
 ---
 title: "E-911 services for Skype for Business"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -12,7 +12,7 @@ audience: Admin
 appliesto:
 - Lync
 - Skype for Business 
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:

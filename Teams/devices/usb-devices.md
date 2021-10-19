@@ -11,7 +11,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: "See what USB peripherals and devices (such as headsets, speakerphones, webcams, and monitors) are certified for Microsoft Teams."
@@ -69,12 +69,25 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 ## Certified devices
 
-*Table Updated June 2021*
+*Table Updated October 2021*
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |Evolve 2 75 Headset                                        |10/8/2021       |Certified for Microsoft Teams                           |
+|Logitech             |Zone Wired Earbuds                                         |9/2/2021        |Certified for Microsoft Teams                           |
+|AudioCodes           |RXVCam10                                                   |8/26/2021       |Certified for Microsoft Teams                           |
+|Poly                 |Voyager 4320                                               |8/6/2021        |Certified for Microsoft Teams                           |
+|Poly                 |Voyager 4310                                               |8/6/2021        |Certified for Microsoft Teams                           |
+|EPOS/Sennheiser      |ADAPT 160T ANC                                             |6/24/2021       |Certified for Microsoft Teams                           |
 |Dell                 |Ultrasharp Webcam WB7022                                   |6/16/2021       |Certified for Microsoft Teams                           |
 |NEC                  |WD551 Windows Collaboration Display                        |5/21/2021       |Certified for Microsoft Teams                           |
+|Poly                 |EncorePro 520 and DA85-M                                   |4/26/2021       |Certified for Microsoft Teams                           |
+|Poly                 |EncorePro 510 and DA85-M                                   |4/26/2021       |Certified for Microsoft Teams                           |
+|Poly                 |EncorePro 525-M                                            |4/26/2021       |Certified for Microsoft Teams                           |
+|Poly                 |EncorePro 515-M                                            |4/26/2021       |Certified for Microsoft Teams                           |
+|Dell                 |WL7022 Premier Wireless ANC Headset                        |4/22/2021       |Certified for Microsoft Teams                           |
+|Dell                 |WL5022 Pro Wireless Headset                                |4/22/2021       |Certified for Microsoft Teams                           |
+|Dell                 |WH3022 Pro Wired Headset                                   |4/22/2021       |Certified for Microsoft Teams                           |
 |Logitech             |C920e Webcam                                               |4/22/2021       |Certified for Microsoft Teams                           |
 |Poly                 |Studio P5 Webcam                                           |4/22/2021       |Certified for Microsoft Teams                           |
 |Jabra                |Biz 2400 II                                                |4/22/2021       |Skype for Business with upgrade to Microsoft Teams      |

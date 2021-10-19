@@ -8,7 +8,7 @@ audience: Admin
 ms.reviewer: aarimm
 ms.service: msteams
 search.appverid: MET150
-localization_priority: Priority
+ms.localizationpriority: high
 description: "For US government, if you don't have Microsoft Teams and need it in a hurry, roll out the Office 365 G1 Trial for your users who need to work remotely or from home (WFH) in response to the COVID-19 (coronavirus) outbreak."
 ms.collection: 
   - M365-collaboration
@@ -17,8 +17,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-Manage the Office 365 G1 Trial for US government 
-==============================
+# Manage the Office 365 G1 Trial for US government 
 
 As of July 1, 2020, the Office 365 E1 Trial license is no longer available. If you need to license users for Microsoft Teams, read the [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description) for a list of paid subscriptions that include Teams. 
 

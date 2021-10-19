@@ -11,7 +11,7 @@ audience: admin
 description: Learn to enhance Microsoft 365 groups with Microsoft Teams by inviting a distribution list to a team, add mail-enabled security groups, and more.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -20,8 +20,7 @@ appliesto:
 ms.custom: seo-marvel-mar2020
 ---
 
-Enhance existing Microsoft 365 groups with Microsoft Teams
-=======================================================
+# Enhance existing Microsoft 365 groups with Microsoft Teams
 
 Microsoft Teams users can enhance an existing Microsoft 365 Group with Teams functionality. When looking at enhancing a public Microsoft 365 Group, users can do that if the number of members is equal to or less than 5,000.
 

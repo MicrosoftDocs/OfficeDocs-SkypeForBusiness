@@ -1,6 +1,6 @@
 ---
 title: "Skype for Business certification program - Monitoring and Troubleshooting"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -12,19 +12,19 @@ audience: Admin
 appliesto:
 - Skype for Business Server
 - Skype for Business 
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Skype for Business Certification
 - dn947964
-description: "Skype for Business Server Monitoring and Troubleshooting tools validate tool provides real time visibility into complex multi-vendor networks and platforms that can cause issues with the user’s audio, video or collaboration experience."
+description: "Skype for Business Server Monitoring and Troubleshooting tools provides real-time visibility into complex multi-vendor networks and platforms that can cause issues with the user’s audio, video, or collaboration experience."
 ---
 
 # Monitoring and Troubleshooting
-Monitoring and troubleshooting tools certified for Skype for Business Server provide customers with real time visibility into complex multi-vendor networks and platforms that can cause issues with the user’s audio, video or collaboration experience. 
+Monitoring and troubleshooting tools that are certified for Skype for Business Server provide customers with real-time visibility into complex multi-vendor networks and platforms that can cause issues with the user’s audio, video, or collaboration experience. 
 
-The tools provide network performance visibility as well as server KPI (Key Performance Indicator) analysis and alerting against user defined thresholds allowing customers to reduce MTTD (Mean Time to Detect) and MTTR (Mean Time to Resolve).
+The tools provide network performance visibility and server-KPI (key performance indicator) analysis. They also alert against user-defined threshold, which enables customers to reduce MTTD (Mean Time to Detect) and MTTR (Mean Time to Resolve).
 
 
 |Vendor  |Tool Version Certified |Certified For |Certification Date  |
@@ -34,5 +34,5 @@ The tools provide network performance visibility as well as server KPI (Key Perf
 |     |         |         |         |
 
 
-If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
+If you're a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 

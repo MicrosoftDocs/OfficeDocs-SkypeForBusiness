@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
 description: The article is for IT administrators and describes strategies for implementing their upgrade from Skype for Business to Teams  
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -21,7 +21,7 @@ appliesto:
 
 # Upgrade strategies for IT administrators
 
-![Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")
+![Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage.](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")
 
 This article is for IT administrators who want to implement their upgrade to Teams from Skype for Business.
 
@@ -82,16 +82,14 @@ Following are the key commands:
 Notes
  
 - Instead of setting the tenant-wide policy to SfbWithTeamsCollab, you could set it to SfbWithTeamsCollabAndMeetings. This causes all users to schedule all new meetings in Teams.
-- `Move-CsUser` is a cmdlet in the on-premises tools. The `MoveToTeams` switch requires Skype for Business Server 2019 or Skype for Business Server 2015 with CU8 or later. If you are using a prior version, you can first move the user to Skype for Business Online, and then grant TeamsOnly mode to that user.
 - By default, Skype for Business meetings are migrated to Teams when upgrading to TeamsOnly mode or when assigning SfbWithTeamsCollabAndMeetings mode.  
 
 > [!NOTE]
-> In preparation for the upcoming retirement of Skype for Business Online, Microsoft will be simplifying how organizations move to Teams in the near future. When moving a user from on-premises to Teams, it will soon no longer be required to specify the `-MoveToTeams` switch in `Move-CsUser` to move users directly from on-premises to TeamsOnly. Currently if this switch is not specified, users transition from being homed in Skype for Business Server on-premises to Skype for Business Online, and their mode remains unchanged. After retirement, when moving a user from on-premises to the cloud with `Move-CsUser`, users will automatically be assigned TeamsOnly mode and their meetings from on-premises will be automtically converted to Teams meetings, just as if the `-MoveToTeams switch had been specified`, regardless of whether the switch is actually specified. We expect to release this functionality before the actual retirement of July 31, 2021.
-
+> In preparation for the upcoming retirement of Skype for Business Online, Microsoft has simplified how organizations move to Teams. It is no longer required to specify the `-MoveToTeams` switch in `Move-CsUser` to move users directly from on-premises directly to TeamsOnly. Previously, if this switch was not specified, users transitioned from being homed in Skype for Business Server on-premises to Skype for Business Online, and their mode remained unchanged. Now when moving a user from on-premises to the cloud with `Move-CsUser`, users are automatically assigned TeamsOnly mode and their meetings from on-premises are automtically converted to Teams meetings, just as if the `-MoveToTeams switch had been specified`, regardless of whether the switch is actually specified. This behavior is available on all versions of Skype For Business Server and Lync Server 2013 (which never had support for `-MoveToTeams`).
 
 The diagram below shows the conceptual phases of select capabilities upgrade for an organization with no prior usage of Teams. The height of the bars represents number of users. During any phase of the upgrade, all users can communicate with each other.  Skype for Business users communicate with TeamsOnly users using Interop, and vice versa. Users in Islands mode must be sure to run both clients.
 
-![Diagram showing select capabilities upgrade with no prior use of Teams](media/teams-upgrade-1.png)
+![Diagram showing select capabilities upgrade with no prior use of Teams.](media/teams-upgrade-1.png)
 
 
 ## A select capabilities upgrade for an organization that is already using Teams in Islands mode
@@ -135,7 +133,7 @@ If some users in your organization are actively using Teams in Islands mode, you
 The diagram below shows the conceptual phases of a select capabilities transition in which there are active Islands users at the start. The height of the bars represents the number of users. During any phase of the upgrade, all users can communicate with each other.  Skype for Business users communicate with TeamsOnly users using interop, and vice versa. 
 
 
-![Diagram showing select capabilities upgrade with active users in Islands mode](media/teams-upgrade-2.png)
+![Diagram showing select capabilities upgrade with active users in Islands mode.](media/teams-upgrade-2.png)
 
    
 

@@ -9,13 +9,13 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "How to test topology rights in Skype for Business Server"
 ---
 
 # Testing admin topology rights in Skype for Business Server
 
-| | |
+|&nbsp; |&nbsp; |
 |--|--|
 |Verification schedule|After initial Skype for Business Server deployment. As needed if permission-related issues arise.|
 |Testing tool|Windows PowerShell|

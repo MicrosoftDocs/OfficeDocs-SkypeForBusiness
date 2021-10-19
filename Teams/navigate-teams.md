@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: 
 description: This article describes how to navigate through Teams.  
 f1.keywords:
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 ms.collection:
 ms.custom:
@@ -37,7 +37,7 @@ The functionality of Kaizala action cards currently exists within Microsoft Team
 
 You can share important updates and information with your workforce with [Announcements in Teams](https://support.microsoft.com/office/send-an-announcement-to-a-channel-8f244ea6-235a-4dcc-9143-9c5b801b4992).
 
-Create and send messages intended for multiple teams or large number of employees over chat with the [company communicator](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator) app. Its easy interface allows designated users to create, preview, collaborate and send messages in a targeted manner. Build custom targeted communication capabilities such as custom telemetry on how many users acknowledged or interacted with a message with insights directly tied to management decisions.
+Create and send messages intended for multiple teams or large number of employees over chat with the [company communicator](/microsoftteams/platform/samples/app-templates#company-communicator) app. Its easy interface allows designated users to create, preview, collaborate and send messages in a targeted manner. Build custom targeted communication capabilities such as custom telemetry on how many users acknowledged or interacted with a message with insights directly tied to management decisions.
 
 ### Check-ins
 
@@ -53,7 +53,7 @@ Use Teams to make training easy for your organization. You can simplify onboardi
 
 ### IT Professionals
 
-Make the administrative transition from the Kaizala Management portal​ to the Microsoft Teams Admin Center. The Teams admin center is primarily for use of administrator roles only.
+Make the administrative transition from the Kaizala Management portal to the Microsoft Teams Admin Center. The Teams admin center is primarily for use of administrator roles only.
 
 Administrators can manage the entire Teams workload, or they can have delegated permissions for troubleshooting call quality problems or managing your organization's telephony needs.
 
@@ -75,7 +75,7 @@ To enable [extensions](/microsoftteams/platform/messaging-extensions/what-are-me
 
 To view usage, activity, and overall adoption reports, Team owners can access reports for their teams by navigating from the menu (…) to manage team > analytics.
 
-## Kaizala Group Dissolution​
+## Kaizala Group Dissolution
 
 As you transition to Teams channels and chats, you may consider Kaizala group dissolution to ensure your organization has one central place for communication.  Deleting a Kaizala group removes the group from the Chats list. If you are the only admin in the group, you will need to assign the admin role to at least one person in the group before deleting.
 
@@ -85,11 +85,11 @@ To delete a group:
 
  • Tap Delete group.
 
-## Kaizala Tenant Data export​
+## Kaizala Tenant Data export
 
 While using Teams, you can still maintain control of your corporate data in Kaizala. For more information, see [Export tenant data from the management portal](/office365/kaizala/export-or-delete-your-data).
 
-## Collaborating with External Users(Vendors/suppliers/Partners)​
+## Collaborating with External Users(Vendors/suppliers/Partners)
 
 Collaborating with vendors, suppliers, partners, and other external users are easier than ever in Microsoft Teams. Begin communicating externally with Microsoft Teams using external access and guest access. Determine which type of access suits your organization’s collaboration needs with external users.
 

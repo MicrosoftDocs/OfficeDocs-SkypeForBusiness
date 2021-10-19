@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams PSTN minute pools report
-author: cichur    
-ms.author: v-cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: v-rifer
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 MS.collection: 
 - M365-voice
@@ -24,9 +24,9 @@ The Teams PSTN minute pools report in the Microsoft Teams admin center gives you
 
 ## View the PSTN minute pools report
 
-In the left navigation of the Microsoft Teams admin center, click **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **PSTN minute pools**, and then click **Run report**.
+In the left navigation of the Microsoft Teams admin center, click **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **PSTN minute and SMS(preview) pools**, and then click **Run report**.
 
-![Screenshot of the Teams PSTN minute pools report in the admin center](../media/teams-reports-pstn-minute-pools-with-callouts.png "Screenshot of the Teams PSTN minute pools report in the Microsoft Teams admin center with numbered callouts")
+![Screenshot of the Teams PSTN minute pools report in the admin center.](../media/teams-reports-pstn-minute-pools-with-callouts.png "Screenshot of the Teams PSTN minute pools report in the Microsoft Teams admin center with numbered callouts")
 
 ## Interpret the report
 

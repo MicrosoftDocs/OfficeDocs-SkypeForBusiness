@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: snigdhav
 search.appverid: MET150
 description: SharePoint & OneDrive interaction with Teams; private chat file storage & interaction between team, standard channel, & document library.
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - SPO_Content
@@ -25,7 +25,7 @@ ms.custom: seo-marvel-mar2020
 > [!Tip]
 > Watch the following session to learn how Teams interacts with Azure Active Directory (AAD), Microsoft 365 Groups, Exchange, SharePoint and OneDrive: [Foundations of Microsoft Teams](https://aka.ms/teams-foundations)
 
-Each team in Microsoft Teams has a team site in SharePoint, and each standard channel in a team gets a folder within the default team site document library. Each [private channel](private-channels.md) gets its own, separate SharePoint site.
+Each team in Microsoft Teams has a team site in SharePoint, and each standard channel in a team gets a folder within the default team site document library. Each [private channel](private-channels.md) gets its own, separate SharePoint site. To learn more about these team sites and channel sites, see [Manage Teams connected sites and channel sites](/sharepoint/teams-connected-sites).
 
 Files shared within a conversation are automatically added to the document library, and permissions and file security options set in SharePoint are automatically reflected within Teams. To see the impact of changing a site address in SharePoint, read [Change a site address](/sharepoint/change-site-address).
 
@@ -48,7 +48,7 @@ The default SharePoint site and document library can't be replaced with a differ
 
 For every user, the OneDrive folder **Microsoft Teams Chat Files** is used to store all files shared within private chats with other users (1:1 or 1:many), with permissions configured automatically to restrict access to the intended user only.
 
-![Diagram of the OneDrive folder named Microsoft Teams Chat Files](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
+![Diagram of the OneDrive folder named Microsoft Teams Chat Files.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
 
 Note that for public teams, the SharePoint team site is provisioned with "Everyone except external users" access. The public team isn't displayed in Teams for people who aren't members of that team. However, they can access content on the SharePoint team site using the URL of the SharePoint team site. 
 
@@ -73,6 +73,8 @@ The **Files** tab in Teams closely resembles the SharePoint documents view. On t
 The type of sharing link shown by default when a user shared a file is set in the SharePoint admin center. See [Change the default link type when users get links for sharing](/sharepoint/change-default-sharing-link) for information.
 
 ## Related topics
+
+[Manage Teams connected sites and channel sites](/SharePoint/teams-connected-sites)
 
 [SharePoint and Teams: better together](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593).
 

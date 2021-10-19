@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployForestPrepIntro
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 71314efe-136b-4970-a411-6282d1cb5b87
 description: "To begin the Prepare Forest task, click Next. Running the Prepare Forest task creates global settings and creates universal groups for use by Skype for Business Server 2015."
 ---

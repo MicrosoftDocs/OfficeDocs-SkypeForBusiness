@@ -12,7 +12,7 @@ ms.reviewer: rowille
 description: Choose Teams client apps, plan for endpoint quality, get recommendations for deploying Wi-Fi endpoints and choosing audio devices.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
   - M365-collaboration
@@ -46,7 +46,7 @@ idle.
 As you can see from the diagram below, endpoints are an important building block
 in providing a quality experience for users.
 
-![Diagram describing the three components of quality](media/plan-my-users-experience-image1.png "Diagram describing the three components of quality, and how service management overlaps all three components. With a focus on endpoints.")
+![Diagram describing the three components of quality.](media/plan-my-users-experience-image1.png "Diagram describing the three components of quality, and how service management overlaps all three components. With a focus on endpoints.")
 
 Teams endpoints can run on many devices, including PCs, Macs, tablets,
 and mobile devices. Part of the experience not only encompasses the device, but

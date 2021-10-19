@@ -104,7 +104,3 @@ You can use the following methods to control what's available in Teams in your o
 | Scripted deployment | Quickly provision users and teams and assign all relevant policies with a scripted deployment. <!-- add delegated user management when ready and provisioning users from a workforce management or HR system --> | [Scripted deployment for frontline worksers](../flw-scripted-deployment.md)|
 | Shift-based access (Preview) | The presence of Frontline Workers is often less predictable than other staff as their working hours are typically not the same each day. As an admin, you can configure Teams to show a set of shift-based presence states for the Frontline Workers in your organization to indicate when they are on and off shift. | [Manage shift-based access for Frontline Workers](shifts/manage-shift-based-access-flw.md) |
 
-<!-- ## Manage devices for retail teams
-
-- Shared devices
-- SMS sign-in -->

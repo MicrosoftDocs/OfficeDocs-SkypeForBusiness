@@ -8,7 +8,7 @@ audience: Admin
 ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
-localization_priority: Priority
+ms.localizationpriority: high
 description: "Microsoft 365 or Office 365 users who are not licensed for Microsoft Teams can initiate an Exploratory Teams license."
 f1.keywords:
 - NOCSH
@@ -40,7 +40,7 @@ The service plans that an admin will see as part of the Teams Exploratory experi
 - Mobile Device Management for Microsoft 365 or Office 365
 - Office Mobile Apps for Office 365
 - Office Online
-- PowerApps for Microsoft 365 or Office 365
+- Power Apps for Microsoft 365 or Office 365
 - SharePoint Online (Plan 1)
 - Sway
 - To-Do (Plan 1)
@@ -64,7 +64,7 @@ Users must be enabled to sign up for apps and trials (in the Microsoft 365 admin
 
 Users don't fit the criteria if they:
 
-- Currently or previously had Teams from a paid, unpaid, or trial license
+- Currently have Teams from a paid license or trial license, or previously had trial license
 - Are in a tenant that used/received at least one special COVID offer.
 
 Your organization isn't eligible for this offer if you're a Syndication Partner Customer or a GCC, GCC High, DoD, or EDU customer.
@@ -87,11 +87,11 @@ You can turn off a user's ability to install trial apps and services, which woul
 
 1. From the Microsoft 365 admin center, go to **Settings** > **Org settings**, select **Services**, and then select **User owned apps and services**.
 
-    ![the Services page in the admin center](media/iw-trial-services.png)
+    ![the Services page in the admin center.](media/iw-trial-services.png)
 
 2. Clear the check mark from **Let users install trial apps and services**.
 
-    ![the User owned apps and services page in admin center](media/iw-trial-user-owned-apps-services.png)
+    ![the User owned apps and services page in admin center.](media/iw-trial-user-owned-apps-services.png)
 
     > [!NOTE]
     > If your organization is ineligible for the Teams Exploratory experience, you won't see the **Let users install trial apps and services** option.
@@ -154,7 +154,7 @@ See [Microsoft 365 subscription information](/microsoft-365/commerce/subscriptio
 
 ## How long does the Teams Exploratory experience last
 
-As of early 2021, Teams Exploratory is available as a 12 month subscription (from initial user sign-up) for all new customers. The new Teams Exploratory subscription starts when the first user in an organization signs-up for Teams Exploratory and it will expire after 12 months. The expiry date will apply to all users in the same tenant as the 12-month term begins on the first user's sign-up date.
+Teams Exploratory is available as a 12 month subscription (from initial user sign-up) for all new customers. The new Teams Exploratory subscription starts when the first user in an organization signs-up for Teams Exploratory and it will expire after 12 months. The expiry date will apply to all users in the same tenant as the 12-month term begins on the first user's sign-up date.
 
 > [!NOTE]
 > The end date for the experience is configured at an organization level, meaning it will apply to all users in the same organization. For example, User 1 signs up for the subscription on January 1, 2021. This initiates a subscription end-date of December 31, 2021. Another user, User 2, signs up for the subscription on October 1, 2021. User 2 can use Teams Exploratory for two months, as their end-date will be December 31, 2021 because they're under the same organization's subscription as User 1.

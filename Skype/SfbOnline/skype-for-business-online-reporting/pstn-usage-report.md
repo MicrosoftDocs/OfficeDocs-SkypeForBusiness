@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -36,7 +36,7 @@ This report, along with the other Skype for Business reports, gives you details 
   
 ## How to get to the Skype for Business PSTN usage details report
 
-![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo.](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 - Go to the admin center > **Admin centers** > **Skype for Business admin center** > **Reports** > **PSTN usage details**.
     
@@ -49,10 +49,10 @@ You can get a view into your user's Skype for Business PSTN usage by looking at 
   
 This is what the report looks like.
   
-[ ![Skype for Business PSTN usage report](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png) ](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png#lightbox)
+[ ![Skype for Business PSTN usage report.](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png) ](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png#lightbox)
 
 ***
-![Number 1](../images/sfbcallout1.png)<br/>The table shows you a breakdown of the all PSTN usage per user. This shows all users that have Skype for Business assigned to them and their PSTN usage. You can add/remove columns to the table.
+![Number 1.](../images/sfbcallout1.png)<br/>The table shows you a breakdown of the all PSTN usage per user. This shows all users that have Skype for Business assigned to them and their PSTN usage. You can add/remove columns to the table.
 *    **Call ID** is the call ID for a call. It is an identifier for the call that is used when calling Microsoft service support.
 *    **User ID** is the user's sign in name.
 *    **Phone number** is the Skype for Business phone number that received the call for inbound calls or the number dialed for outbound calls.
@@ -102,7 +102,7 @@ This is what the report looks like.
 > [!NOTE]
 > If you have a Telstra or Softbank calling plan, you will not see any call detail records in the PSTN usage report. Please contact Telstra or Softbank for your reporting needs. 
 ***
-![Number 2](../images/sfbcallout2.png)<br/>Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns.
+![Number 2.](../images/sfbcallout2.png)<br/>Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns.
  ***
 
 ## Exporting PSTN usage report
@@ -142,7 +142,7 @@ Exported file contains additional fields that are not available in the online re
 > | 13 | Start Time | `datetimeoffset` | Call start time (UTC, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
 > | 14 | End Time | `datetimeoffset` | Call end time (UTC, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
 > | 15 | Duration Seconds | `int` | How long the call was connected |
-> | 16 | Connection Fee | `numeric(16, 2)` | ​Connection fee price |
+> | 16 | Connection Fee | `numeric(16, 2)` | Connection fee price |
 > | 17 | Charge | `numeric(16, 2)` | Amount of money or cost of the call that is charged to your account |
 > | 18 | Currency | `nvarchar(3)` | Type of currency used to calculate the cost of the call ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
 > | 19 | Capability | `nvarchar(32)` | The license used for the call |

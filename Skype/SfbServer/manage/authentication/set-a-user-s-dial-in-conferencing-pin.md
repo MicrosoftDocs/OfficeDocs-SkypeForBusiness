@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 description: "Summary: Set a user's dial-in conferencing PIN for Skype for Business Server."
@@ -76,7 +76,7 @@ To join a dial-in conference as an authenticated user, a Skype for Business Serv
     
 ## Assigning a User PIN by Using Windows PowerShell Cmdlets
 
-You can assign PIN numbers can also be assigned by using the Set-CsClientPin cmdlet. You can run this cmdlet either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Skype for Business Server, see the blog article ["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). The process is the same in Skype for Business Server. 
+You can assign PIN numbers can also be assigned by using the Set-CsClientPin cmdlet. You can run this cmdlet either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Skype for Business Server, see [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). 
   
 ### To auto-assign a PIN number to a user
 

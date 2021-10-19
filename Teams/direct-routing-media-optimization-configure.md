@@ -1,5 +1,5 @@
 ---
-title: Direct Routing Local Media Optimization
+title: Configure Local Media Optimization for Direct Routing
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -31,7 +31,8 @@ To configure Local Media Optimization, the following steps are required. You can
 
 The following diagram shows the network setup used in the examples throughout this article.
 
-![Diagram showing network setup for examples](media/direct-routing-media-op-9.png "Network setup for examples")
+> [!div class="mx-imgBorder"]
+> ![Diagram showing network setup for examples.](media/direct-routing-media-op-9.png "Network setup for examples")
 
 
 ## Configure the user and the SBC sites
@@ -44,39 +45,16 @@ To configure the user and the SBC sites, you will need to:
 
 3. [Define the virtual network topology](#define-the-virtual-network-topology) by assigning SBC(s) to site(s) with relevant modes and proxy SBC values.
 
+> [!NOTE]
+> Local Media Optimization relies on client locations being detected as external or internal relative to the company networks with reach to a Direct Routing (DR) Session Border Controller (SBC) internal interface.
+> In split-tunnel VPN scenarios when the client endpoint is detected as external to the customer's network, Microsoft will signal the external location to the SBC even though the client can reach the internal interface of the customer's Direct Routing SBC. Direct Routing customers using Local Media Optimization may experience prolonged call setup times and in some cases no audio when receiving calls from the PSTN.
+> To avoid this, VPN administrators must block access between remote VPN users and Direct Routing SBC internal interface.
+
+
 
 ## Configure SBC(s) for Local Media Optimization according to the SBC vendor specification
 
-This article describes configuration for Microsoft components. For information on SBC configuration, see your SBC vendor documentation.
-
-Local Media Optimization is supported by the following SBC vendors:
-
-| Vendor | Product |	Software version |
-|:------------|:-------|:-------|
-| [Audiocodes](https://www.audiocodes.com/media/13253/connecting-audiocodes-sbc-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf) |	Mediant 500 SBC |	7.20A.256 |	
-|            |	Mediant 800 SBC |	7.20A.256 |	
-|            |	Mediant 2600 SBC |	7.20A.256 |	
-|            |	Mediant 4000 SBC |	7.20A.256 |	
-|            |	Mediant 1000B SBC |	7.20A.256 |	
-|            |	Mediant 9000 SBC |	7.20A.256 |	
-|            |	Mediant Virtual Edition SBC |	7.20A.256 |	
-|            |	Mediant Cloud Edition SBC |	7.20A.256 |
-| [Ribbon SBC Core](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)  |  SBC 5110         | 8.2  |
-|            |  SBC 5210         | 8.2  |
-|            |  SBC 5400         | 8.2  |
-|            |  SBC 7000         | 8.2  |
-|            |  SBC SWe          | 8.2  |
-| [Ribbon SBC Edge](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)  |  SBC SWe Lite | 8.1.5 |
-|               | SBC 1000 | 8.1.5  |
-|               | SBC 2000 | 8.1.5  |
-| [TE-SYSTEMS](https://www.anynode.de/local_media_optimization/) |  anynode          | 4.0.1+ |
-| [Oracle](https://www.oracle.com/industries/communications/enterprise-communications/session-border-controller/microsoft.html) | AP 1100 | 8.4.0.0.0 |
-|        | AP 3900 | 8.4.0.0.0 |
-|        | AP 4600 | 8.4.0.0.0 | 
-|        | AP 6300 | 8.4.0.0.0 |
-|        | AP 6350 | 8.4.0.0.0 | 
-|        | VME     | 8.4.0.0.0 |
-
+This article describes configuration for Microsoft components. For information on SBC configuration, see your SBC vendor documentation. For information on which SBC vendors support Local Media Optimization, see [Session Border Controllers Certified for Direct Routing](direct-routing-border-controllers.md).
 
 ## Manage external trusted IP addresses
 
@@ -106,15 +84,15 @@ All parameters are case sensitive so you need to ensure that you use the same ca
 
 ### Define network regions
 
-To define network regions, use the New-CsTenantNetworkRegion cmdlet. The RegionID parameter is a logical name that represents the geography of the region and has no dependencies or restrictions. The CentralSite <site ID> parameter is optional.
+To define network regions, use the New-CsTenantNetworkRegion cmdlet. The RegionID parameter is a logical name that represents the geography of the region and has no dependencies or restrictions. The CentralSite `<site ID>` parameter is optional.
 
-```
+```powershell
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
 ```
 
 The following example creates a network region named APAC:
 
-```
+```powershell
 New-CsTenantNetworkRegion -NetworkRegionID "APAC"  
 ```
 
@@ -122,13 +100,13 @@ New-CsTenantNetworkRegion -NetworkRegionID "APAC"
 
 To define network sites, use the New-CsTenantNetworkSite cmdlet. Each network site must be associated with a network region.
 
-```
+```powershell
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 ```
 
 The following example creates three new network sites, Vietnam, Indonesia, and Singapore in the APAC region:
 
-```
+```powershell
 New-CsTenantNetworkSite -NetworkSiteID "Vietnam" -NetworkRegionID "APAC"
 New-CsTenantNetworkSite -NetworkSiteID "Indonesia" -NetworkRegionID "APAC"
 New-CsTenantNetworkSite -NetworkSiteID "Singapore" -NetworkRegionID "APAC"
@@ -138,13 +116,13 @@ New-CsTenantNetworkSite -NetworkSiteID "Singapore" -NetworkRegionID "APAC"
 
 To define network subnets and associate them to network sites, use the New-CsTenantNetworkSubnet cmdlet. Each network subnet can only be associated with one site. 
 
-```
+```powershell
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
 ```
 
 The following example defines three network subnets and associates them with the three network sites:  Vietnam, Indonesia, and Singapore:
 
-```
+```powershell
 New-CsTenantNetworkSubnet -SubnetID 192.168.1.0 -MaskBits 24 -NetworkSiteID “Vietnam”
 New-CsTenantNetworkSubnet -SubnetID 192.168.2.0 -MaskBits 24 -NetworkSiteID “Indonesia”
 New-CsTenantNetworkSubnet -SubnetID 192.168.3.0 -MaskBits 24 -NetworkSiteID “Singapore”
@@ -155,7 +133,7 @@ New-CsTenantNetworkSubnet -SubnetID 192.168.3.0 -MaskBits 24 -NetworkSiteID “S
 First, the tenant administrator creates a new SBC configuration for each relevant SBC by using the New-CsOnlinePSTNGateway cmdlet.
 The tenant administrator defines the virtual network topology by specifying the network sites for the PSTN gateway objects using the Set-CsOnlinePSTNGateway cmdlet:
 
-```
+```powershell
 PS C:\> Set-CsOnlinePSTNGateway -Identity <Identity> -GatewaySiteID <site ID> -MediaBypass <true/false> -BypassMode <Always/OnlyForLocalUsers> -ProxySBC  <proxy SBC FQDN or $null>
 ```
 
@@ -163,11 +141,11 @@ Note the following:
    - If the customer has a single SBC, the -ProxySBC parameter must be either mandatory $null or SBC FQDN value (Central SBC with centralized trunks scenario).
    - The -MediaBypass parameter must be set to $true in order to support Local Media Optimization.
    - If the SBC doesn’t have the -BypassMode parameter set, X-MS headers will not be sent. 
-   - All parameters are case sensitive so you need to ensure that you use the same case that was used used during setup.  (For example, GatewaySiteID values “Vietnam” and “vietnam” will be treated as different sites.)
+   - All parameters are case sensitive so you need to ensure that you use the same case that was used during setup.  (For example, GatewaySiteID values “Vietnam” and “vietnam” will be treated as different sites.)
 
 The following example adds three SBCs to the network sites Vietnam, Indonesia, and Singapore in the APAC region with mode Always bypass:
 
-```
+```powershell
 Set-CSOnlinePSTNGateway -Identity “proxysbc.contoso.com” -GatewaySiteID “Singapore” -MediaBypass $true -BypassMode “Always” -ProxySBC $null
 
 Set-CSOnlinePSTNGateway -Identity “VNsbc.contoso.com” -GatewaySiteID “Vietnam” -MediaBypass $true -BypassMode “Always” -ProxySBC “proxysbc.contoso.com”
@@ -175,7 +153,8 @@ Set-CSOnlinePSTNGateway -Identity “VNsbc.contoso.com” -GatewaySiteID “Viet
 Set-CSOnlinePSTNGateway -Identity “IDsbc.contoso.com” -GatewaySiteID “Indonesia” -MediaBypass $true -BypassMode “Always” -ProxySBC “proxysbc.contoso.com”
 ```
 
-Note: To ensure uninterrupted operations when Local Media Optimization and Location-Based Routing (LBR) are configured at the same time, downstream SBCs must be enabled for LBR by setting the GatewaySiteLbrEnabled parameter to $true for each downstream SBC. (This setting is not mandatory for the proxy SBC.)
+> [!NOTE]
+> To ensure uninterrupted operations when Local Media Optimization and Location-Based Routing (LBR) are configured at the same time, downstream SBCs must be enabled for LBR by setting the GatewaySiteLbrEnabled parameter to $true for each downstream SBC. (This setting is not mandatory for the proxy SBC.)
 
 Based on the information above, Direct Routing will include three proprietary SIP Headers to SIP Invites and Re-invites as shown  in the following table.
 
@@ -231,7 +210,8 @@ The following table shows the end user configuration and action:
 
 The following diagram shows the SIP ladder for an outbound call with Always bypass mode, and the user in the same location as the SBC.
 
-![Diagram showing outbound calls](media/direct-routing-media-op-10.png "Outbound calls")
+> [!div class="mx-imgBorder"]
+> ![Diagram showing outbound calls.](media/direct-routing-media-op-10.png "Outbound calls")
 
 The following table shows the X-MS headers sent by Direct Routing:
 
@@ -257,7 +237,8 @@ Note: Given that a user can have multiple endpoints, support of 183 is not possi
 
 The following diagram shows the SIP ladder for in inbound call with AlwaysBypass mode, and the user is in the same location as the SBC.
 
-![Diagram showing SIP ladder](media/direct-routing-media-op-11.png)
+> [!div class="mx-imgBorder"]
+> ![Diagram showing SIP ladder.](media/direct-routing-media-op-11.png)
 
 
 #### Outbound calls and the user is external with Always Bypass
@@ -269,7 +250,8 @@ AlwaysBypass |	External |	N/A | Outbound |
 
 The following diagram shows the SIP ladder for an outbound call with AlwaysBypass mode, and the user is external:
 
-![Diagram showing SIP ladder](media/direct-routing-media-op-12.png)
+> [!div class="mx-imgBorder"]
+> ![Diagram shows SIP ladder.](media/direct-routing-media-op-12.png)
 
 The following table shows the X-MS headers sent by the Direct Routing service:
 
@@ -289,7 +271,8 @@ For an inbound call, the SBC connected to Direct Routing needs to send a re-invi
 
 The following diagram shows the SIP ladder for an inbound call with AlwaysBypass mode, and the user is external.
 
-![Diagram showing SIP ladder](media/direct-routing-media-op-13.png)
+> [!div class="mx-imgBorder"]
+> ![Diagram again showing SIP ladder.](media/direct-routing-media-op-13.png)
 
 
 ### Only for local users mode
@@ -317,7 +300,8 @@ The following table shows end user configuration and action:
 
 The following diagram shows an outbound call with OnlyForLocalUsers mode, and the user is in the same location as the SBC. This is the same flow shown in [Outbound calls when the user is in the same location as the SBC](#outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass).
 
-![Diagram showing SIP ladder](media/direct-routing-media-op-14.png)
+> [!div class="mx-imgBorder"]
+> ![Diagram again shows SIP ladder.](media/direct-routing-media-op-14.png)
 
 
 #### Inbound calls and the user is in the same location as the SBC with Only for local users
@@ -328,7 +312,8 @@ The following diagram shows an outbound call with OnlyForLocalUsers mode, and th
 
 The following diagram shows an inbound call with OnlyForLocalUsers mode, and the user is in the same location as the SBC. This is the same flow as shown in [Inbound calls when the user is in the same location as the SBC](#inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass).
 
-![Diagram showing SIP ladder](media/direct-routing-media-op-15.png)
+> [!div class="mx-imgBorder"]
+> ![Another diagram showing SIP ladder.](media/direct-routing-media-op-15.png)
 
 
 #### User is not at the same location as the SBC but is in the corporate network with Only for local users
@@ -342,7 +327,8 @@ Direct routing calculates X-MediaPath based on the reported location of the user
 
 The following diagram shows an outbound call with OnlyForLocalUsers mode, and an internal user who is not at the same location as the SBC.
 
-![Diagram showing SIP ladder](media/direct-routing-media-op-16.png)
+> [!div class="mx-imgBorder"]
+> ![Another diagram shows SIP ladder.](media/direct-routing-media-op-16.png)
 
 
 #### Inbound call and the user is internal but is not at the same location as the SBC with Only for local users
@@ -353,13 +339,6 @@ The following diagram shows an outbound call with OnlyForLocalUsers mode, and an
 
 The following diagram shows an inbound call with OnlyForLocalUsers mode, and an internal user who is not at the same location as the SBC.
 
-![Diagram showing SIP ladder](media/direct-routing-media-op-17.png)
-
-
-
-
-
-
-
-
+> [!div class="mx-imgBorder"]
+> ![Yet another diagram showing SIP ladder.](media/direct-routing-media-op-17.png)
 

@@ -1,7 +1,7 @@
 ---
 title: "Call park and retrieve in Microsoft Teams"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: srividhc
 ms.topic: article
@@ -13,7 +13,7 @@ ms.collection:
 audience: Admin
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords: 
  - CSH
 ms.custom: 
@@ -42,15 +42,19 @@ To park and retrieve calls, a user must be an Enterprise Voice user and must be 
 
 You must be a Teams admin to configure call park and retrieve. It is disabled by default. You can enable it for users and create user groups using the call park policy. When you apply the same policy to a set of users, they can park and retrieve calls among themselves.
 
-The range of call pickup numbers is predefined to be from 10-99 and cannot be modified. The first parked call will be rendered a pickup code of 10, the next parked call will be rendered a pickup code of 11, etc. until 99 is rendered as a pickup code. After which, the rendered pickup codes start over from 10 once again.  If there are more than 89 active parked calls, the rendered pickup codes will keep incrementing beyond 99 such that the 90th active parked call would be rendered 100 for a pickup code, the 91st active parked call would be rendered a pickup code of 101.
+By default, the range of call pickup numbers is from 10-99. You can also create your own custom range between 10-9999. The first parked call will be rendered a pickup code of the start of range (for instance 10). The next parked call will be rendered a pickup code incremented by 1; that is, 11, and so on, until the end of the range is rendered as a pickup code. After which, the rendered pickup codes start over from the start of the range once again. 
 
-To enable a call park policy
+You can specify a timeout as the number of seconds to wait before ringing back when the parked call hasn't been picked up. The allowed range is 120-1800 seconds, and the default value is 300 seconds.
+
+To set the custom park range and park timeout, use the New- and Set-CsTeamsCallParkPolicy cmdlets available in Teams PowerShell Module 2.6.0 or later. (Custom park range and park timeout changes are not manageable in the Teams admin center. Note that the Teams admin center will continue to show the default values.)
+
+To enable a call park policy:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Call park policies**.
 2. On the **Manage policies** tab, click **Add**.
-3. Give the policy a name, and then switch **Allow call park** to **On**.
+3. Give the policy a name, and then switch **Allow call park** to **On**. (The call pickup range and timeout can't be customized.)
 
-    ![Screenshot of call park policy settings](media/call-park-add-policy.png)
+    ![Screenshot of call park policy settings.](media/call-park-add-policy.png)
 
 4. Select **Save**.
 
@@ -65,7 +69,7 @@ To assign a call park policy to a group
 3. Choose a rank compared to other group assignments.
 4. Under **Select a policy**, choose the policy that you want to assign this group to.
 
-    ![park policies image](media/call-park-assign-policy-to-group.png)
+    ![park policies image.](media/call-park-assign-policy-to-group.png)
 
 5. Select **Apply**.
 
@@ -75,8 +79,8 @@ To assign a call park policy to a group
 
 [Assign policies to your users in Teams](assign-policies.md)
 
-[New-CsTeamsCallParkPolicy](/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps)
+[New-CsTeamsCallParkPolicy](/powershell/module/skype/new-csteamscallparkpolicy)
 
-[Set-CsTeamsCallParkPolicy](/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps)
+[Set-CsTeamsCallParkPolicy](/powershell/module/skype/set-csteamscallparkpolicy)
 
-[Grant-CsTeamsCallParkPolicy](/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps)
+[Grant-CsTeamsCallParkPolicy](/powershell/module/skype/grant-csteamscallparkpolicy)

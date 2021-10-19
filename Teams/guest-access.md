@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: rafarhi
 audience: admin
 search.appverid: MET150
-localization_priority: Priority
+ms.localizationpriority: high
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
@@ -48,7 +48,18 @@ Guest access in Teams requires configuring other settings in Microsoft 365, incl
 - To configure guest access for Teams for general use, see [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team).
 - To collaborate with a partner organization that uses Azure Active Directory and allow guests to self-enroll for team access, see [Create a B2B extranet with managed guests](/microsoft-365/solutions/b2b-extranet).
 
-Guest access in Teams is an organization-wide setting and is turned off by default. You can control guest access to individual teams by using [sensitivity labels](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+Guest access in Teams is an organization-wide setting and is turned on by default. You can control guest access to individual teams by using [sensitivity labels](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+
+> [!NOTE]
+> If you're an administrator, and you're having trouble with Guest Access in Microsoft Teams, select **Run Tests** below, which will populate the Guest Access diagnostic in the Microsoft 365 Admin Center. These tests will check your configuration and quickly recommend next steps to enable Guest Access for your tenant.
+>> [!div class="nextstepaction"]
+>> [Run Tests: Guest Access](https://aka.ms/TeamsGuestAccessDiagDMC)
+
+### Turning guest access off
+
+If you turn guest access off in Teams, existing guests lose access to their team. However, they are not removed from the team. They are still visible to the team members and can be @mentioned. If you turn Teams guest access on again, they will regain access.
+
+If you plan to leave guest access off, you may want to advise your team owners to manually remove the guest accounts from their teams. While these guests won't have access, having their accounts visible in the team could lead to confusion for other team members.
 
 ## How a guest becomes a member of a team
 
@@ -67,10 +78,7 @@ Guests can leave the team at any time from within Teams. For details, see  [How 
 
 ## Licensing for guest access
 
-Guest access is included with all Microsoft 365 Business Standard, Microsoft 365 Enterprise, and Microsoft 365 Education subscriptions. No additional Microsoft 365 license is necessary. Teams doesn't restrict the number of guests you can add. However, the total number of guests that can be added to your tenant may be restricted by the paid features of Azure AD. For more information, see [Billing model for Azure AD External Identities](/azure/active-directory/b2b/licensing-guidance).
-
-> [!NOTE]
-> Users in your organization who have standalone Microsoft 365 subscription plans only, such as Exchange Online Plan 2, cannot be invited as guests to your organization because Teams considers these users to belong to the same organization. For these users to use Teams, they must be assigned an Microsoft 365 Business Standard, Office 365 Enterprise, or Office 365 Education subscription. 
+Guest access can be used with all Microsoft 365 Business Standard, Microsoft 365 Enterprise, and Microsoft 365 Education subscriptions. No additional Microsoft 365 license is necessary. The [billing model for Azure AD External Identities](/azure/active-directory/b2b/licensing-guidance) applies to guests in Microsoft 365. Only people from outside your organization can be invited as guests.
 
 ## Guest access reviews
 

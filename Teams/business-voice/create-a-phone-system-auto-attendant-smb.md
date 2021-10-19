@@ -1,7 +1,7 @@
 ---
 title: "Set up an auto attendant for Microsoft Teams - small business tutorial"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: dobro
 ms.topic: article
@@ -15,7 +15,7 @@ audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 

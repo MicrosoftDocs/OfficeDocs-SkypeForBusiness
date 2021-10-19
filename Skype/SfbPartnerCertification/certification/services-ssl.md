@@ -1,6 +1,6 @@
 ---
 title: "SSL Certificate providers for Skype for Business or Teams"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: rogupta
@@ -12,7 +12,7 @@ audience: Admin
 appliesto:
 - Lync
 - Skype for Business 
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -29,7 +29,7 @@ The following table includes the names and websites for the certification author
 
 |Certification authority  |Website  |
 |:---       |:--- |
-|Comodo     |  http://www.comodo.com/msexchange       |
+|Comodo     |  http://www.comodo.com/       |
 |DigiCert   |  http://www.digicert.com/unified-communications-ssl-tls.htm |
 |GeoTrust   |  http://www.geotrust.com/ssl/ssl-certificates-san-uc/ |
 |GlobalSign |  http://www.globalsign.com/ssl/buy-ssl-certificates/unified-communications-ssl/   |

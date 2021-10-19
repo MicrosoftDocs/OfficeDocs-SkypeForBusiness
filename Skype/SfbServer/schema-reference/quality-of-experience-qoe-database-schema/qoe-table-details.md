@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
 description: "These sections detail the columns in each of the Quality of Experience (QoE) database schema tables."
 ---

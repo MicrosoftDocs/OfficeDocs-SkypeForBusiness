@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: vkorlep, siunies
 description: Use Quality of Service (QoS) settings and then Call Analytics and Call Quality Dashboard in Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
@@ -19,7 +19,7 @@ appliesto:
 ms.custom: seo-marvel-mar2020
 ---
 
-# Monitor and improve call quality for Microsoft Teams
+# Microsoft Teams: Monitor and improve call quality
 
 This article introduces three key tools you can use to monitor, troubleshoot, manage, and improve call quality in Microsoft Teams. 
 

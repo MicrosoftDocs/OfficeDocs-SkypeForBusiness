@@ -1,5 +1,5 @@
 ---
-title: Direct Routing Local Media Optimization
+title: Local Media Optimization for Direct Routing
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -18,7 +18,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Local Media Optimization for Direct Routing
+# Plan for Local Media Optimization for Direct Routing
 
 Public Switched Telephone Network (PSTN) voice is considered a business-critical application with high expectations for voice quality. Direct Routing lets you control media traffic flows to accommodate a multitude of network topologies and local telephony setups for various enterprises all over the world. 
 
@@ -38,6 +38,8 @@ This article describes feature functionality, and customer scenarios and solutio
 
   > [!NOTE]
   > If you want to keep media local within the boundaries of your intranet, Local Media Optimization is recommended. If you already have Media Bypass and you use only the public IP addresses of your SBCs, it is not mandatory to move to Local Media Optimization. You can continue to use Media Bypass. For more information, see [Plan Media Bypass](direct-routing-plan-media-bypass.md).
+
+For information on which SBC vendors support Local Media Optimization, see [Session Border Controllers Certified for Direct Routing](direct-routing-border-controllers.md).
 
 
 ## Supported customer scenarios
@@ -79,11 +81,12 @@ To build a solution where PSTN services are provided to all local branch offices
 
 Table 1. Example network parameters for SBCs 
 
+
 | Location | SBC FQDN | Internal subnet | External NAT (Trusted IP) | SBC external IP address | SBC internal IP address |
 |:------------|:-------|:-------|:-------|:-------|:-------|
 | Amsterdam | centralsbc.contoso.com | 192.168.5.0/24 | 172.16.76.73 | 172.16.76.71 | 192.168.5.5 |
 | Germany | Not deployed | 192.168.6.0/24 | 172.16.76.74 | Not deployed |  Not deployed |
-| France | Not deployed | 192.168.7.0/24 | 172.16.76.75 | Not deployed |  Not deployed ||||
+| France | Not deployed | 192.168.7.0/24 | 172.16.76.75 | Not deployed |  Not deployed |
 
 
 ### Internal user
@@ -100,7 +103,7 @@ While on premises, the user is assigned to the local branch office in Germany. T
 
 Diagram 1. Traffic flow when the user is in the ‘home’ site with a centralized SBC and with a connected centralized SIP Trunk
 
-![Diagram showing traffic flow Local Media Optimization](media/direct-routing-media-op-1.png "Traffic flow when user is in ‘home’ site with centralized SBC with connected centralized SIP Trunk")
+![Diagram showing traffic flow Local Media Optimization.](media/direct-routing-media-op-1.png "Traffic flow when user is in ‘home’ site with centralized SBC with connected centralized SIP Trunk")
 
 
 ### External user
@@ -117,7 +120,7 @@ In this case, the behavior is similar whether the user is local to the branch of
 
 Diagram 2. Traffic flow when the user is external with a centralized SBC and with a connected centralized SIP Trunk
 
-![Diagram showing traffic flow Local Media Optimization](media/direct-routing-media-op-2.png "Traffic flow when user is external in case of centralized SBC with connected centralized SIP Trunk")
+![Diagram shows traffic flow Local Media Optimization.](media/direct-routing-media-op-2.png "Traffic flow when user is external in case of centralized SBC with connected centralized SIP Trunk")
 
 ## Proxy SBC with connected downstream SBCs
 
@@ -157,7 +160,7 @@ For more information on possible modes and relevant behavior, see Configure Loca
 
 Diagram 3. Traffic flow when the user is in the “home” network with a proxy SBC and with connected downstream SBCs 
 
-![Diagram showing traffic flow Local Media Optimization](media/direct-routing-media-op-3.png "Traffic flow in case of proxy SBC with connected downstream SBCs when user is in the “home” network")
+![Diagram again showing traffic flow Local Media Optimization.](media/direct-routing-media-op-3.png "Traffic flow in case of proxy SBC with connected downstream SBCs when user is in the “home” network")
 
 ### External user
 
@@ -175,7 +178,7 @@ The following diagram shows the traffic flow when a user is outside of the corpo
 
 Diagram 4. Traffic flow when the user is external with a proxy SBC and with connected downstream SBCs
 
-![Diagram showing traffic flow Local Media Optimization](media/direct-routing-media-op-4.png "Traffic flow in case of proxy SBC with connected downstream SBCs when user is external")
+![Diagram again shows traffic flow Local Media Optimization.](media/direct-routing-media-op-4.png "Traffic flow in case of proxy SBC with connected downstream SBCs when user is external")
 
 ## Local Media Optimization modes
 
@@ -229,7 +232,7 @@ The diagram below shows the high-level traffic flow for the internal user in Ger
 
 Diagram 5.  Traffic flow with “Always Bypass” mode and the user is in the “home” site
 
-![Diagram showing traffic flow Local Media Optimization](media/direct-routing-media-op-5.png "Traffic flow with “Always Bypass” mode and user is in the “home” site")
+![A diagram showing traffic flow Local Media Optimization.](media/direct-routing-media-op-5.png "Traffic flow with “Always Bypass” mode and user is in the “home” site")
 
 
 #### Scenario 2: The user and gateways are in different sites
@@ -252,7 +255,7 @@ The following diagram shows the high-level traffic flow when the internal German
 
 Diagram 6.  Traffic flow with “Always Bypass” mode and the user is not in “home” site but in the internal network
 
-![Diagram showing traffic flow Local Media Optimization](media/direct-routing-media-op-6.png "Traffic flow with “Always Bypass” mode and user is not in “home” site but in internal network")
+![A diagram shows traffic flow Local Media Optimization.](media/direct-routing-media-op-6.png "Traffic flow with “Always Bypass” mode and user is not in “home” site but in internal network")
 
 ### Mode 2: Only for local users
 
@@ -292,7 +295,7 @@ In the following diagram, a user assigned to the local branch office in Vietnam,
 
 Diagram 7. Traffic flow with “Only For Local Users” mode and the user is in “home” site
 
-![Diagram showing traffic flow Local Media Optimization](media/direct-routing-media-op-7.png "Traffic flow with “Only For Local Users” mode and user is in “home” site")
+![Another diagram showing traffic flow Local Media Optimization.](media/direct-routing-media-op-7.png "Traffic flow with “Only For Local Users” mode and user is in “home” site")
 
 
 #### Scenario 2. The user and gateways are in different sites
@@ -322,7 +325,7 @@ In the following diagram, the internal user, while on premises in the Indonesian
 
 Diagram 8.  Traffic flow with “Only For Local Users” mode, and the user is not in “home” site but in the internal network
 
-![Diagram showing traffic flow Local Media Optimization](media/direct-routing-media-op-8.png "Traffic flow with “Only For Local Users” mode, user is not in “home” site but in internal network")
+![Another diagram shows traffic flow Local Media Optimization.](media/direct-routing-media-op-8.png "Traffic flow with “Only For Local Users” mode, user is not in “home” site but in internal network")
 
 ## Known issues
 
@@ -330,7 +333,8 @@ The following is a list of known issues that are currently present in Local Medi
 
 | Issue | Workaround |
 | :--- | :--- |
-| Teams client is not identified as **internal** when the Teams client Public IP matches the customer Trusted IP list. | Local Media Optimization requires that the Teams client subnet matches a tenant configured [network subnet](/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps)|
+| Teams client is not identified as **internal** when the Teams client Public IP matches the customer Trusted IP list. | Local Media Optimization requires that the Teams client subnet matches a tenant configured [network subnet](/powershell/module/skype/new-cstenantnetworksubnet)|
 | Call escalations result in dropped calls when the Teams client is identified as internal.| Disable Local Media Optimization on the Direct Routing SBC.|
 | Call escalations from 1 to 1 call between internal customers to multiparty call with external customer/resource result in dropped calls | Work in progress on a fix. Alternatively, disable Local Media Optimization on the Direct Routing SBC.|
 | Teams user puts the call On Hold. Music plays on the PSTN end and Local Media Optimization is working. The Teams user resumes the call. The call to PSTN resumes but Local Media Optimization is not working and the call continues via Central (Proxy) SBC | When a user parks a call to initiate music on hold (MoH), it is being escalated from 1:1 to a multiparty call by the Call Controller to invoke Media Controller and Media Processor (serving as AVMCU mixer) through which MoH reaches a user who has been put on hold. De-escalation to a 1:1 call after the call resumes never happens as per design. Disable Local Media Optimization on the Direct Routing SBC.|
+|While a call is being established for a few seconds, the user might hear silence.| Due to the complexity of Local Media Optimization architecture, this might occur in some cases.|

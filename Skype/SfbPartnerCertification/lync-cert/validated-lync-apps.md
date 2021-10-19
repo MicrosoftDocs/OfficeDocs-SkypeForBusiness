@@ -1,6 +1,6 @@
 ---
 title: "Validated Lync Applications"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -12,7 +12,7 @@ ms.collection: Lync
 audience: Admin
 appliesto:
 - Lync 2013
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -29,7 +29,7 @@ The following applications have been validated as using Lync 2013 APIs. The inde
 * * *
 Shorten Lync install and implementation times. Administer Lync in single and multi-forest environments without Active Directory schema changes. Centralize call-forwarding and automate user management.
 
-## [Aditi Distribution List Mirror](http://info.aditi.com/distribution-list-mirror)
+## Aditi Distribution List Mirror
 * * *
 Streamline organization-wide group email communications making them more meaningful, effective, and engaging by enabling their distribution through Lync persistent chat.
 
@@ -39,11 +39,11 @@ Streamline organization-wide group email communications making them more meaning
 
 Share live video and data between primary care physicians, specialists, and medical teams anywhere, at any time.
 
-## [BluePosition Lync Search](http://go.blueposition.com/?id=4003)
+## [BluePosition Lync Search](http://go.blueposition.com/)
 * * *
 Extend Lync toast, by displaying other relevant information about the incoming caller, including location data, maps, and directory and CRM lookups.
 
-## [BluePosition UC Mobile Status](http://go.blueposition.com/?id=4002)
+## [BluePosition UC Mobile Status](http://go.blueposition.com/)
 * * *
 Integrate mobile device presence with Lync. See when a mobile contact is busy on the phone. Extend the devices that can provide presence data.
 
@@ -56,7 +56,7 @@ Pick up other's calls, change settings for managers, BusyOnBusy options to avoid
 * * *
 Provide Manager/Admins and Team members with rich Presence information and one-click calling, pickup, and transferring to improve efficiency and productivity.
 
-## [Colima Cerebro](https://colima.de/en/products.html)
+## [Colima Cerebro](https://colima.de/)
 * * *
 Enhance communications productivity, with features like call pickup, busy on busy, manager assistance, black and allowlists, offline instant message, and expanded presence alerts.
 
@@ -72,13 +72,6 @@ Ensure rapid response to critical events with fully automated emergency callouts
 * * *
 Use existing course context and structure for the simple creation and management of online meetings within the Desire2Learn Learning Environment.
 
-## [Enabling Technologies CRM Sync](http://enablingtechcorp.com/LyncApps/ETCCRMSync.aspx)
-* * *
-Make Lync calls to a client and automatically log information including time, person called, and notes into CRM without having to open the CRM application.
-## [Enabling Technologies Iris](http://enablingtechcorp.com/LyncApps/ETCIris.aspx)
-* * *
-Bring IM window immediately into focus on message receipt. Automatically reply to IMs. And dial highlighted numbers with a hot key with this suite.
-
 ## [EventBuilder L+](https://www.eventbuilder.com/L-plus.asp)
 * * *
 Manage, promote, and deliver events and training with Lync. Broadcast to large audiences, collect registration fees, add pass/fail grading for participants, and much more.
@@ -91,33 +84,33 @@ Use video door phones in combination with Lync. Identify the person at the door,
 * * *
 Integrate incompatible phone devices fully into Lync. They then act like any other registered phone.
 
-## [Fujitsu SAP BCM Presence integration](http://www.fujitsu.com/fi/english/)
+## [Fujitsu SAP BCM Presence integration](https://www.fujitsu.com/global/)
 * * *
 Synchronize presence information from Lync to SAP BCM Contact Center. Give customer service and switchboard agents better employee presence information for greater efficiency and reachability.
 
-## [Groupo Unika Coolab](http://www.grupounika.com.mx/coolab)
+## [Groupo Unika Coolab](https://www.c3ntro.com/)
 * * *
 Automate business processes with a plug-in interface for workflow controls, documents review, workflow rendering; all of those features with the same experience as sending instant messages.
 
-## [HotelMagix Lync Edition](http://www.ipmagix.com/products-detais.php?id=376)
+## [HotelMagix Lync Edition](http://www.ipmagix.com/)
 * * *
 Offer guest access to hotel services and information anytime, anywhere, wakeup call, DND, valet, and other requests with one-click from an IP phone or mobile.
 
-## [Insource Technology Virtual Receptionist](http://www.insource.com/solutions/unified-communications/insource-virtual-assistant)
+## [Insource Technology Virtual Receptionist](http://www.insource.com/)
 * * *
 Allow visitors to serve themselves with a touch-screen in a lobby or entrance. Selecting the appropriate option places a call to the desired person.
 
-## [Kuando Busylight](http://www.busylight.com/busylight-lync.html)
+## [Kuando Busylight](http://www.busylight.com/)
 * * *
 Increase productivity with a powerful LED light that shows Lync presence status in the office. Choose from eight different ringtones for incoming calls.
 
-## [Landis Computer Attendant Pro for Lync](http://landiscomputer.com/pages/attendantpro.aspx)
+## [Landis Computer Attendant Pro for Lync](https://landistechnologies.com/attendantpro/)
 * * *
 Handle Lync calls with a single click.
 
 ## [MachPanel Lync Module from Machsol](http://www.machsol.com/products/lync/default.aspx)
 * * *
-Streamline cloud hosting of Lync along with Exchange, Sharepoint, CRM, BlackBerry, Hyper V, and Web Hosting with this control panel.
+Streamline cloud hosting of Lync along with Exchange, SharePoint, CRM, BlackBerry, Hyper V, and Web Hosting with this control panel.
 
 ## [Modality Systems Wallboard](http://www.modalitydev.net/2013/01/modality-wallboard-demo-video/)
 * * *
@@ -159,7 +152,7 @@ Bring situational awareness with complete integrated communication, resource man
 * * *
 Collect and process call records to support enterprise business decisions regarding security accountability and productivity.
 
-## [TE Systems ANYNODE](http://www.te-systems.de/index.php?id=168&L=2)
+## [TE Systems ANYNODE](https://www.anynode.de/anynode-and-microsoft-teams/)
 * * *
 Establishes interface between different SIP endpoints, acting and reacting like a port, with address information security support, routing, and call handling.
 
@@ -179,7 +172,7 @@ Securely identify, welcome, and connect visitors via a touchscreen kiosk. Offer 
 * * *
 Enable many alerting and call pickup use cases. Improve responsiveness by efficiently connecting callers to available resources.
 
-## [Viases PostOffice for Lync](http://www.viases.com/en/postoffice-for-lync/)
+## [Viases PostOffice for Lync](http://www.viases.com/)
 * * *
 Support various types of call transfers, and distribution models. Blocklist unwanted callers. Add flexibility to voicemail. Develop and deliver complex IVR flows with this complementary suite.
 

@@ -1,7 +1,7 @@
 ---
 title: Manage your network topology for cloud voice features in Microsoft Teams
-author: cichur
-ms.author: v-cichur
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -16,7 +16,7 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.networktopology.overview
 appliesto: 
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to configure network settings for cloud voice features in Microsoft Teams. 
 ---
@@ -29,8 +29,6 @@ You configure network settings on the **Network topology** page of the Microsoft
 
 ## Configure network settings in the Microsoft Teams admin center
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
 You define network regions, network sites, and subnets on the **Network sites** tab of the **Network topology** page. Here, you can create or modify a network site, associate a site with a network region, associate a subnet to the site, turn on Location-based Routing, and assign emergency policies to the site. You can also add network regions that can be used globally for all sites.
 
 #### Add and configure a network site
@@ -38,14 +36,14 @@ You define network regions, network sites, and subnets on the **Network sites** 
 1. In the left navigation of the Microsoft Teams admin center, go to **Locations** > **Network topology**, and then click the **Network sites** tab.
 2. Click **Add**, and then enter a name and description for the site.
 
-    ![Screenshot of the Add network site page](media/manage-network-topology-add-site.png)
+    ![Screenshot of the Add network site page.](media/manage-network-topology-add-site.png)
 
 3. To associate the site with a network region, click **Add network region**, select an existing region or click **Add** to add a region, and then click **Link**.  
 4. To enable Location-Based Routing for the site, turn on **Location based routing**.
 5. To assign emergency services policies to the site, do one or both of the following:
 
-    - If your organization uses Calling Plans or deployed Phone System Direct Routing, under **Emergency calling policy**, select the policy that you want.
-    - If your organization deployed Phone System Direct Routing, under **Emergency call routing policy**, select the  policy that you want.
+    - If your organization uses Calling Plans, Operator Connect, or Direct Routing, under **Emergency calling policy**, select the policy that you want.
+    - If your organization deployed Direct Routing, under **Emergency call routing policy**, select the  policy that you want.
 
 6. To associate a subnet to the site, under **Subnets**, click **Add subnets**. Specify the IP version, IP address, network range, add a description, and then click **Apply**. Each subnet must be associated with a specific site.
 7. Click **Save**.
@@ -66,7 +64,7 @@ You manage external trusted IP addresses on the **Trusted IPs** tab on the **Net
 2. Click **New**.
 3. In the **Add trusted IP address** pane, specify the IP version, IP address, network range, add a description, and then click **Apply**.
 
-    ![Screenshot of the Add trusted IP address pane](media/manage-network-topology-add-trusted-ip.png)
+    ![Screenshot of the Add trusted IP address pane.](media/manage-network-topology-add-trusted-ip.png)
 
 #### Edit a trusted IP address
 
@@ -111,7 +109,7 @@ New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
 
 The following table shows the network sites defined in this example.
 
-||Site 1 |Site 2 |
+|&nbsp;|Site 1 |Site 2 |
 |---------|---------|---------|
 |Site ID    |    Site 1 (Delhi)     |  Site 2 (Hyderabad)       |
 |Region ID  |     Region 1 (India)    |   Region 1 (India)      |
@@ -135,7 +133,7 @@ New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskB
 
 The following table shows the subnets defined in this example.
 
-||Site 1 |Site 2 |
+|&nbsp;|Site 1 |Site 2 |
 |---------|---------|---------|
 |Subnet ID   |    192.168.0.0     |  2001:4898:e8:25:844e:926f:85ad:dd8e     |
 |Mask  |     24    |   120      |

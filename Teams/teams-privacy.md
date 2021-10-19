@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: stbyer
 description: Privacy guidance and information for Microsoft Teams.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -61,7 +61,7 @@ The [Teams Security Guide](./security-compliance-overview.md#compliance-standard
 
 Personal data is transferred and stored as set forth in the [Online Service Terms](https://go.microsoft.com/fwlink/p/?linkid=2050263).
 
-For transfers of personal data from the EEA, EU, Switzerland, and the UK, Microsoft is certified to the EU-U.S. and Swiss-U.S. Privacy Shield Frameworks and the commitments they entail. Its Privacy Shield certificate is [at this url](https://www.privacyshield.gov/participant?id=a2zt0000000KzNaAAK&status=Active).
+For transfers of personal data from the EEA, EU, Switzerland, and the UK, Microsoft is certified to the EU-U.S. and Swiss-U.S. Privacy Shield Frameworks and the commitments they entail, although Microsoft does not rely on the EU-U.S. Privacy Shield Framework as a legal basis for transfers of Personal Data in light of the judgment of the Court of Justice of the EU in Case C-311/18.
 
 We have information on the [Location of data in Microsoft Teams](location-of-data-in-teams.md) if you need to learn more.
 

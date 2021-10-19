@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Learn about the Teams view-only meeting experience for admins, presenters, and attendees
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection: 
@@ -24,7 +24,7 @@ appliesto:
 > View-only broadcasts is available in Microsoft 365 E3/E5 and Microsoft 365 A3/A5. This feature will be enabled March 1, 2021 as default OFF. The feature in Microsoft 365 Government Community Cloud (GCC) will begin to roll out at the end of March 2021. Government Community Cloud High (GCCH) and Department of Defense (DoD) will roll out at a later date. You must change the default policy after that date if you want to have the feature be default ON. Use PowerShell to enable the policy `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled`.
 
 > [!Note]
-> If your meeting hits capacity, Teams will seamlessly scale to accommodate a 10,000-person view-only broadcast experience. Plus, during this time of increased remote work, take advantage of even larger 20,000-person broadcasts through the end of this year.
+> If your meeting hits capacity, Teams will seamlessly scale to accommodate a 10,000-person view-only broadcast experience. Plus, during this time of increased remote work, take advantage of even larger 20,000-person broadcasts through the end of this year. Webinars currently don't support a view-only broadcast experience.
 
 Microsoft Teams allows up to 10,000 attendees to join a Teams meeting. After the capacity of the main meeting has been reached (which is when 1000 users enter a meeting), additional attendees will join with a view-only experience.
 
@@ -35,7 +35,7 @@ Attendees who join after the main meeting capacity has been reached will have a 
 Attendees will be able to join the view-only experience through desktop, web, and Teams mobile (Android and iOS).
 
 > [!Note]
-> The current limit capacity of the "main meeting", or in other words, the number of fully interactive users, is 1000 and includes GCC.
+> The current limit capacity of the "main meeting", or in other words, the number of fully interactive users, is 1000 and includes GCC and webinars.
 
 ## Teams view-only experience controls
 
@@ -73,11 +73,11 @@ When the capacity of the main meeting has been reached, an attendee will be unab
 
 When the capacity of the main meeting has been reached, the meeting organizer and presenters will see a banner informing them that new attendees will join as view-only attendees.
 
-  ![the Teams client and banner message for organizers and presenters](media/chat-and-banner-message.png)
+  ![the Teams client and banner message for organizers and presenters.](media/chat-and-banner-message.png)
 
 When the capacity of the main meeting has been reached, meeting attendees will be informed on the pre-join screen that they're joining in view-only mode.
 
-  ![the Teams pre-join screen and the message for participants telling them that they will join in view-only mode](media/view-only-pre-join-screen.png)
+  ![the Teams pre-join screen and the message for participants telling them that they will join in view-only mode.](media/view-only-pre-join-screen.png)
 
 If there's space, a user will always join the main meeting. If the main meeting reaches capacity, and one or more attendees leave the main meeting, the main meeting has available capacity. Attendees who join (or rejoin) the meeting will join the main meeting until it reaches capacity again. Attendees who are in the view-only experience won't automatically be promoted to the main meeting and can't be manually promoted to the main meeting.
 
@@ -118,10 +118,12 @@ The view-only attendee won't be able to experience the following options in meet
 ## View-only feature limitations
 
 - View-only attendees will only be able to see Live Captions on Desktop and Web. Only English Captions are supported at this time.
+- View-only attendees cannot register for Webinars.
 - View-only attendees will be supported by streaming technology.
 - View-only attendees won't be included in the attendance report.
 - View-only attendees will have a single video experience. They can see either the active speaker or the content being shared, but not both.
-- We don't currently support **Gallery**, **Large gallery**, or **Together mode** layouts for view-only attendees.  
+- We don't currently support **Gallery**, **Large gallery**, or **Together mode** layouts for view-only attendees.
+- View-only attendees are only supported by the following lobby policies: 'Only You,' 'People in my organization and guests,' 'People in my organization and trusted organizations, and guests,' and 'Everyone.' If you use a lobby policy that does not support View-only attendees, View-only attendees will be rejected from the meeting. 
 - View-only attendees won't have the same latency as a regular attendee. <sup>1</sup>
 
   <sup>1</sup> View-only attendees will be at a 30-second video and audio delay in the meeting.  

@@ -1,7 +1,7 @@
 ---
 title: Purchase third-party apps for Teams
-author: cichur
-ms.author: v-cichur
+author: KarliStites
+ms.author: kastites
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -15,13 +15,9 @@ f1keywords:
 description: Learn how to purchase third-party apps for Teams in the Microsoft Teams admin center.
 appliesto: 
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
-Purchase third-party apps for Teams
-======================================================
-
-> [!NOTE]
-> This feature is currently only available in the United States.
+# Purchase third-party apps for Teams
 
 Teams apps are free to install and some may require purchasing service subscriptions to experience the app's full functionality and scope. These service subscriptions are called Software as a Service (SaaS) offers, which are available for purchase through [AppSource](https://appsource.microsoft.com/) and now through the Microsoft Teams admin center.
 
@@ -29,41 +25,61 @@ The [Manage apps](manage-apps.md) page in the Microsoft Teams admin center is wh
 
 Here, you can also purchase licenses for services offered by third-party apps for users in your organization. The **Licenses** column in the table indicates whether an app offers a SaaS subscription for purchase.
 
-:::image type="content" source="media/purchase-third-party-apps-list.png" alt-text="Screenshot showing third-party apps that have SaaS subscriptions":::
+![Screenshot of purchase licenses manage apps page.](media/manage-apps-new-page.png)
 
-## Search for and purchase services for a third-party app
+## Purchase apps in the Teams admin center
+
+> [!IMPORTANT]
+> If you want to block your users from purchasing an app through the Teams app store, you have to block the app. For more information on how to block an app, see [Manage app policies](app-policies.md) or [learn how to block an app at the org-level](manage-apps.md#allow-and-block-apps).
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. You must be a global admin or Teams service admin to access the page.
 2. Search for the app that you want. To identify apps that have a paid SaaS subscription, look in the **Licenses** column. Each app will have one of the following values:
-    - **Purchase now**: The app offers a SaaS subscription and is available to purchase.  
+    - **Purchase**: The app offers a SaaS subscription and is available to purchase.  
     - **Purchased**: The app offers a SaaS subscription and you've purchased licenses for it.
     - **- -**: The app doesn't offer a SaaS subscription.
-3. When you find the app, click **Purchase now** to go to the **Plans and pricing** tab of the app details page. Review the plans and pricing information for the SaaS offer for the app. If you need more information, click the **learn more** link to go to the app's page on [AppSource](https://appsource.microsoft.com/).  
-4. To buy a plan, click **Purchase now**. You'll be redirected to the purchase experience for the offer associated with the Teams app. This is where you'll complete your purchase of the service or SaaS offer.
-5. Choose the plan that you want. If the SaaS offer includes more than one plan, click **Change** to see the list of available plans.
-6. Select your billing term (either **Monthly** or **Yearly**), and then enter the number of user licenses that you want to buy.
-7. Enter your payment method.
-8. When you're ready, select **Place order**.
-9. Click **Configure now** to activate your subscription on the publisher's website.
+3. When you find the app, click **Purchase** to go to the **Plans and pricing** tab of the app details page. Review the plans and pricing information for the SaaS offer for the app. If you need more information, select **Learn more** to go to the app's page on [AppSource](https://appsource.microsoft.com/).
+
+> [!NOTE]
+> Private plans may also be listed for purchase, which include special pricing that your organization has previously negotiated with an ISV. These plans will have the label **Private plan** under the plan name.
+
+4. To subscribe to an app, choose the plan you want, and select **Purchase**. The checkout flow will open directly in the Teams admin center.
+5. Select the number of user licenses you want to buy.
+6. Check that the billing account and sold-to address is correct. If you don't already have one, add a new one by selecting **Add**. For more information on billing accounts, see [Understand billing accounts](/microsoft-365/commerce/manage-billing-accounts).
+
+> [!NOTE]
+> You have to be a global admin to add a new billing account.
+
+7. Check that the correct billing profile is selected. If you don't already have one, add a new one by selecting **Add new**. You have the option to pay with a credit card, debit card, or with invoice billing. The billing profile also lets you add a purchase order number to identify your order later. For more information on billing profiles, see [Understand billing profiles](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles).
+
+> [!NOTE]
+> Invoice billing is only available for transactions over $500.
+
+8. Select **Place order**.
+9. Select **Set up** to activate your subscription on the publisher's website. If you don't set up your subscription after your purchase, you can do it later by selecting **Manage licenses**.
 
 After you've purchased the SaaS offer associated with the Teams app, you can view the following purchase details on the **Plans and pricing** tab of the app details page.
 
 - **License activation date**: Date on which your license was activated. If your account isn't yet set up, this shows as **Subscription pending activation**.
 - **Licenses**: Number of licenses you purchased.
 
-:::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="Screenshot of Plans and pricing tab of app details page":::
+:::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="Screenshot of Plans and pricing tab of app details page.":::
 
-Select **Manage licenses** to go to the Microsoft 365 admin center to view and manage the licenses you purchased and to manage license assignments for users.
+Select **Manage licenses** to go to the Microsoft 365 admin center to view and manage the licenses you purchased.
 
-Global admins can view the purchases made by anyone in the organization whereas Teams service admins can only view the purchases made by themselves.  
+Global admins can add more licenses, remove licenses, and cancel subscriptions for purchases made by anyone in the organization. Teams service admins can perform the same actions for purchases made by themselves. However, if a Teams service admin also has the Billing admin role, they can manage purchases made by anyone in the organization.
+
+> [!NOTE]
+> If a global admin wants to manage a subscription purchased by another global admin, they need to be in the same billing account. You can give another global admin access to a subscription you purchased by selecting the app in the Microsoft 365 admin center. From there, go to **View billing profile** > **Select billing account** > **Assign roles** > **Add other global admins**.
 
 ## Have a SaaS offer for a Teams app that you want to list and sell in the Microsoft Teams admin center and AppSource?
 
 Developers can create SaaS offers associated with their Teams apps. These offers are published through [Partner Center](https://partner.microsoft.com) and are available for organizations to purchase through [AppSource](https://appsource.microsoft.com/) and the Microsoft Teams admin center.
- 
+
 Third-party app developers can go to [Create a SaaS offer](/azure/marketplace/partner-center-portal/create-new-saas-offer) for more information.
 
 ## Related topics
 
 - [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
 - [Create a SaaS offer](/azure/marketplace/partner-center-portal/create-new-saas-offer)
+- [Azure AD built-in roles](/azure/active-directory/roles/permissions-reference)
+- [Microsoft 365 admin roles](/microsoft-365/admin/add-users/about-admin-roles)
