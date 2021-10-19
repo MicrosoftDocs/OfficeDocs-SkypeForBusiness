@@ -110,13 +110,15 @@ Before you perform these steps, install the [SharePoint Online Management Shell 
     foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url}
     ```
 
-3. For each team or group ID, run the following PowerShell script to identify all relevant private channel sites, where $groupID is the group ID of the team.
+3. For each team or group ID, run the following PowerShell script to identify all relevant private channel sites, where `$groupID` is the group ID of the team.
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
     $groupID = "e8195240-4a70-4830-9106-80193cf717cb"
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
+> [!NOTE]
+> SharePoint sites for private channels created after June 28, 2021 use the value `teamchannel#1` for the custom template ID. So for private channels created after this date, use the value `teamchannel#1` when running the previous two scripts.
 
 ### Include private channel messages in an eDiscovery search
 
