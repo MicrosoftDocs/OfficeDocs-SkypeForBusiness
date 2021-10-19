@@ -109,6 +109,9 @@ Channel names can't contain the following characters or words:
 |Words     | forms, CON, CONIN$, CONOUT$, PRN, AUX, NUL, COM1 to COM9, LPT1 to LPT9, desktop.ini,  &#95;vti&#95;|
 
 Channel names also can't start with an underscore (_) or period (.), or end with a period (.).
+  
+> [!NOTE]
+> Channel names are limited to 50 characters.
 
 ## Meetings and calls
 
