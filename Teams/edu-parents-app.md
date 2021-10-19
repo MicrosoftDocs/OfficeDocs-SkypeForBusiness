@@ -33,8 +33,8 @@ Enabling the parents app in Microsoft Teams is a straightforward process for adm
   - [Deploy SDS](/schooldatasync/how-to-deploy-sds-using-sds-v2.1-csv-files)
 
 - If you need assistance in setting up SDS and enabling Parent Contacts in your tenant, contact the EDU Customer Success team by:
-  - completing the RFA process at [FastTrack](https://www.microsoft.com/fasttrack?rtc=1).
-  - opening a ticket at [Support](https://aka.ms/sdssupport).
+  - Completing the RFA process at [FastTrack](https://www.microsoft.com/fasttrack?rtc=1).
+  - Opening a ticket at [Support](https://aka.ms/sdssupport).
 
 ### Teams Admins Center - Policies​
 
