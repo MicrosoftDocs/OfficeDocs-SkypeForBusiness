@@ -21,7 +21,8 @@ ms.custom: seo-marvel-apr2020
 
 # Microsoft Teams information protection license report
 
-The Teams information protection license report gives insight into apps that have [subscribed](/graph/api/resources/subscription?view=graph-rest-1.0) to [change notification](/graph/api/resources/webhooks?view=graph-rest-1.0) events to listen to created, updated, or deleted messages at tenant level (that is, /teams/getAllMessage or /chats/getAllMessages). A change notification corresponding to the message is sent successfully only when the user has the [required license](/graph/teams-licenses).  You can see how many change notifications was triggered by a given user.
+
+Teams information protection license report gives API usage insight of [Microsoft Graph API which has license and payment requirements](https://docs.microsoft.com/en-us/graph/teams-licenses). This report higlights all the app which are using these API in [model A](https://docs.microsoft.com/en-us/graph/teams-licenses#modela-requirements), it does not show usage when API is used in model is [model B](https://docs.microsoft.com/en-us/graph/teams-licenses#modelb-requirements) or [evaluation mode](https://docs.microsoft.com/en-us/graph/teams-licenses#evaluation-mode-default-requirements). 
 
 
 ## View the information protection license report
@@ -32,17 +33,47 @@ You must be a Teams service admin to make these changes. See [Use Teams administ
 2. Under **Date range**, select a range.
 3. Under **Apps**, select an app and then select **Run report**.
 
-    ![Screenshot of the Teams information protection license report in the Teams admin center with callouts.](../media/teams-info-protection-license-report-with-callouts.png "Screenshot of the Teams information protection license report in the Teams admin center with callouts")
+    ![Screenshot of the Teams information protection license report in the Teams admin center with callouts.](../media/teams-info-protection-license-report-chart-with-callouts.png "Screenshot of the Teams information protection license report in the Teams admin center with callouts")
+    
+    ![Screenshot of the Teams information protection license report in the Teams admin center with callouts.](../media/teams-info-protection-license-report-change-notification-with-callouts.png "Screenshot of the Teams information protection license report in the Teams admin center with callouts")
+    
+    ![Screenshot of the Teams information protection license report in the Teams admin center with callouts.](../media/teams-info-protection-license-report-patch-api-tab-with-callouts.png "Screenshot of the Teams information protection license report in the Teams admin center with callouts")
+    
+    ![Screenshot of the Teams information protection license report in the Teams admin center with callouts.](../media/teams-info-protection-license-report-chat-export-api-tab-with-callouts.png "Screenshot of the Teams information protection license report in the Teams admin center with callouts")
+    
+    ![Screenshot of the Teams information protection license report in the Teams admin center with callouts.](../media/teams-info-protection-license-report-team-export-api-tab-with-callouts.png "Screenshot of the Teams information protection license report in the Teams admin center with callouts")
+
+
+    
 
 ## Interpret the report
 
 |Callout |Description  |
 |--------|-------------|
-|**1**   |The information protection license report can be viewed for trends over the last 7 days, 30, or 90 days. |
-|**2**   |App name will display a list of all apps that have subscribed to change notification events of messages in the last n days as selected in the date range. |
-|**3**   |The table gives you a breakdown of usage per user for the selected app.<ul><li>**Display name** is the display name of the user. Select the display name to go to the user's details page in the Microsoft Teams admin center.</li><li>**Has Required License** is yes if the user has one of the required licenses as defined (here)[https://docs.microsoft.com/en-us/graph/teams-licenses]. If the user does not have the required license, the _Assign license_ link is displayed which navigated to the user's license detail page in the Microsoft admin center (**Users** > **Active Users** > select username).</li><li>**License Protected Events** is the number of unique change notification events sent to the app against a message which was created, updated or deleted by that user.</li></ul> |
-|**4**   |Export the report to a CSV file for offline analysis. Select **Export to Excel**, and then the **Downloads** tab. Select **Download** to download the report when it's ready. |
-|**5**   |Export the report to a CSV file for offline analysis. Select **Export to Excel**, and then the **Downloads** tab. Select **Download** to download the report when it's ready. When you view the report in Excel, you'll also see an **Id** and **email** column, which represents the User ID and email address of the user. |
+|**1**   |The information protection license report can be viewed for trends over the last 3 months. |
+|**2**   |App name will display a list of all apps that have used [Microsoft Graph API which has license and payment requirements](https://docs.microsoft.com/en-us/graph/teams-licenses) during the selected time period.|
+|**3**   |No of user who has valid [license](https://docs.microsoft.com/en-us/graph/teams-licenses#required-licenses-for-modela).  |
+|**4**   |No. of users who does not have any valid [license](https://docs.microsoft.com/en-us/graph/teams-licenses#required-licenses-for-modela).  |
+|**5**   |Total API call volume allowed to an app beyond which a consumption fee per API call will be charged to app. |
+|**6**   |Total API call volume used by app for the given date range. |
+|**7**   |Select any particular label to show  or hide it in chart. |
+|**8**   |Each tab displays usage of a particualar set of APIs namely [change notification](/graph/api/resources/webhooks?view=graph-rest-1.0), [export API](/microsoftteams/export-teams-content), [update message API](/graph/api/message-update). Select a tab to view usage details of that API. |
+|**9**   |(Change Notification API) - Display name of user against which a change notification was trigerred. |
+|**10**   |(Change Notification API) - Whether the given user has required license to succesfully send change notification to the app |
+|**11**   |(Change Notification API) - Total change notification that was trigerred because of this user.|
+|**12**   |(Change Notification API) - Total change notification that was sent to the app, this will less than total change notification trigerred if user doesnot have valid license.|
+|**13**|(Patch API) - Display name of user Where an attempt to update the message was done. |
+|**14**|(Patch API) - Whether the given user has required license to for the message to get succssfully updated. |
+|**15**|(Patch API) - Total attempts to update messages.|
+|**16**|(Patch API) - Total message that was successfully updated.|
+|**17**|(Chat Export API) - Display name of user where an attempt to export user's chat message was done. |
+|**18**|(Chat Export API) - Whether the given user has required license to for the message to get succssfully exported. |
+|**19**|(Chat Export API) - Total attempts to export chat messages.|
+|**20**|(Chat Export API) - Total attempts where chat message was successfully exported.|
+|**21**|(Team Export API) - Display name of team where an attempt to export that team's message was done. |
+|**22**|(Team Export API) - Total attempts to eport team messages.|
+|**23**|(Team Export API) - Total attempts where team message was successfully exported.|
+
 
 ## Make the user-specific data anonymous
 
