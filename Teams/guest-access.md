@@ -23,6 +23,9 @@ description: Guest access in Microsoft Teams allows teams in your organization t
 
 # Guest access in Microsoft Teams
 
+> [!IMPORTANT]
+> Guest access in Teams is an organization-wide setting and is turned on by default.
+
 With guest access, you can provide access to teams, documents in channels, resources, chats, and applications to people outside your organization, while maintaining control over your corporate data. See [Set up secure collaboration with Microsoft 365 and Microsoft Teams](/microsoft-365/solutions/setup-secure-collaboration-with-teams).
 
 > [!NOTE]
