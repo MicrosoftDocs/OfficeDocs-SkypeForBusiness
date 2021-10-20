@@ -55,7 +55,7 @@ For more information, see [Set-CsTeamsMeetingBroadcastConfiguration](/powershell
 
 If you purchased and set up a software defined network (SDN) solution or enterprise content delivery network (eCDN) solution through a Microsoft video delivery partner, configure the provider for live events in Teams. 
 
-### ![An icon showing the Microsoft Teams logo.](../) Using the Microsoft Teams admin center,
+### Using the Microsoft Teams admin center
 
 1. In the left navigation, go to **Meetings** > **Live event settings**.
 2. Under **Third-party video distribution providers**, complete the following: 
