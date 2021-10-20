@@ -62,7 +62,7 @@ By default, the tenant-level setting that controls Teams consumer external acces
 
 If you need to check which user-level external access policies exist and who they are assigned to, you can use the following steps:
     
-3. Check which user-level external access policies exist​.
+3. Check what user-level external access policies exist​.
 
     ```powershell
     Get-CsExternalAccessPolicy -Include All​
@@ -78,40 +78,20 @@ If you need to check which user-level external access policies exist and who the
 
 Since all user-level external access policies have EnableTeamsConsumerAccess set to true by default, if you would like to update any of these policies to adjust the EnableTeamsConsumerAccess setting, you can create new external access policies with adjusted settings, or reassign users to new or existing policies, through the following PowerShell:
 
-- Create a new external access policy (this creates a new external access policy and define the settings​):
+- Create a new external access policy (this creates a new external access policy and define the settings​): [New-CsExternalAccessPolicy](/powershell/module/skype/new-csexternalaccesspolicy)
 
-    ```powershell
-    New-CsExternalAccessPolicy (SkypeForBusiness) | Microsoft Docs
-    ```
-
-- Customize an existing external access policy (Modifies the settings of an existing external access policy, including the Global policy)):
-
-    ```powershell
-    Set-CsExternalAccessPolicy (SkypeForBusiness) | Microsoft Docs
-    ```
+- Customize an existing external access policy (Modifies the settings of an existing external access policy, including the Global policy)): [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy)
 
 > [!NOTE]
 > The following subscription defaults cannot be modified: “FederationAndPICDefault”, “FederationOnly”, “NoFederationAndPIC”. If you need to change the policy settings for users who have these policies assigned, assign different policies with the correct settings to these users.​
 
-- Assign an external access policy to a single user:
+- Assign an external access policy to a single user: [Grant-CsExternalAccessPolicy](/powershell/module/skype/grant-csexternalaccesspolicy)
 
-    ```powershell
-    Grant-CsExternalAccessPolicy (SkypeForBusiness) | Microsoft Docs​
-    ```
-
-- Assign a policy to a set of users:
-
-    ```powershell
-    New-CsBatchPolicyAssignmentOperation (MicrosoftTeamsPowerShell) | Microsoft Docs​
-    ```
+- Assign a policy to a set of users: [New-CsBatchPolicyAssignmentOperation](/powershell/module/skype/new-csbatchpolicyassignmentoperation)
 
 Once you feel confident that your user-level external access policies are set correctly for all your users, you can enable the tenant-level setting which controls Teams consumer external access for the tenant using the following cmdlet:​
 
-- Set the federation configuration settings for your tenant (Setting AllowTeamsConsumer to true):
-
-    ```powershell
-    Set-CsTenantFederationConfiguration (SkypeForBusiness) | Microsoft Docs​
-    ```
+- Set the federation configuration settings for your tenant (Setting AllowTeamsConsumer to true): [Set-CsTenantFederationConfiguration (SkypeForBusiness)](/powershell/module/skype/set-cstenantfederationconfiguration)
 
 ### Disabling the Parents App
 
