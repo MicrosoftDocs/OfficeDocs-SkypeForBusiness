@@ -47,7 +47,7 @@ Once the user is enabled for the Audio Conferencing service, the default toll an
 
 ## Set or change the default audio conferencing phone number for a meeting organizer or user
 
-![An icon showing the Microsoft Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+ **Using the Microsoft Teams admin center**
 
 You must be a Teams service admin to make these changes. See [Use Teams administrator roles to manage Teams](./using-admin-roles.md) to read about getting admin roles and permissions.
 
