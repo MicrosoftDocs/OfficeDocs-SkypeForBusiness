@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Devices Monitoring and Alerting
-author: cichur
-ms.author: v-cichur
+author: cazawideh
+ms.author: czawideh
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -67,7 +67,7 @@ All the sign-in devices used by the selected list of users will be monitored for
 
 ## Notifications in Teams client
 
-The notifications are delivered in the auto-created **MonitoringAlerts** channel of the **Admin Alerts and Notifications** Team.
+The notifications are delivered in the auto-created **MonitoringAlerts** channel of the **Admin Alerts and Notifications** Team. You'll receive an alert within 15 minutes of the device going offline. 
 
 A device offline notification can include the following information:
 
