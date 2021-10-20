@@ -44,7 +44,7 @@ To find out which countries and regions are considered Zone A, see [Country and 
 
 ## Restrict audio conferencing outbound calls
 
-![the Microsoft Teams logo.]() **Using the Microsoft Teams admin center**
+**Using the Microsoft Teams admin center**
 
 1. In the left navigation, select **Users**, and then select the display name of the user from the list of available users.
 
