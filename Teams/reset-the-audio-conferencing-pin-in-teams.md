@@ -32,7 +32,7 @@ Meetings can be started when an authenticated user joins using the Microsoft Tea
 
 ## Reset a user's PIN
 
-![An icon showing the Microsoft Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+ **Using the Microsoft Teams admin center**
 
 1. In the left navigation, click **Users**, and then select the user from the list of available users.
 
