@@ -52,7 +52,7 @@ Team members can only see private channels that they've been added to.
 
 A private channel owner can't be removed through the Teams client if they are the last owner of one or more private channels.
 
-If a private channel owner leaves your organization or if they are removed from the Microsoft 365 group associated with the team, a member of the private channel is automatically promoted to be the private channel owner.
+If a private channel owner leaves your organization or if they are removed from the Microsoft 365 Group associated with the team, a member of the private channel is automatically promoted to be the private channel owner.
 
 If a team member leaves or is removed from a team, that user will also leave or be removed from all private channels in the team. If the user is added back to the team, they must be added back to the private channels in the team.
 

@@ -29,6 +29,8 @@ Teams provides a great out-of-the-box collaboration experience for your organiza
 
 To get started, watch our short Teams chat, teams, and channels video (4:30 minutes):
 
+<br/>
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
 
 You can use [Advisor for Teams](use-advisor-teams-roll-out.md) to help you roll out Microsoft Teams. Advisor for Teams walks you through your Teams rollout. It assesses your Microsoft 365 environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams.
@@ -206,7 +208,7 @@ Your organization might require that you implement controls on how teams are nam
 | Ask yourself | Action |
 |--------------|--------|
 |Will I need to implement controls on who can create teams?| Read [Plan for governance in Teams](plan-teams-governance.md).|
-|Will I need to implement controls on how teams are named?|Read [Enforce a naming policy for Microsoft 365 groups in Azure AD](/azure/active-directory/users-groups-roles/groups-naming-policy).|
+|Will I need to implement controls on how teams are named?|Read [Enforce a naming policy for Microsoft 365 Groups in Azure AD](/azure/active-directory/users-groups-roles/groups-naming-policy).|
 |||
 
 ### Teams application policy (side-rail control)
