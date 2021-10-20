@@ -32,7 +32,7 @@ When attempting to grant TeamsOnly to the entire tenant, Teams will check DNS to
 ## How to identify stale DNS records
 
 To identify any DNS records that prevent your organization from becoming all Teams Only, you can use the Teams admin center to change the coexistence mode to TeamsOnly. Go to
-**Org-wide setting** -> **Teams Upgrade**. Any DNS records that prevent the organization from becoming Teams Only will be included in the error message.  In the event no DNS records are found, the coexistence mode for your organization will be changed to TeamsOnly.   
+**Teams** -> **Teams upgrade settings**. Any DNS records that prevent the organization from becoming Teams Only will be included in the error message.  In the event no DNS records are found, the coexistence mode for your organization will be changed to TeamsOnly.   
 
 Alternatively, you can use Teams PowerShell to do the same thing, as shown below:
 
