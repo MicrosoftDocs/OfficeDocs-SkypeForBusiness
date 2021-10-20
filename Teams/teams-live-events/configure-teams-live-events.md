@@ -36,7 +36,7 @@ You can easily manage these settings in the Microsoft Teams admin center. In the
 
 This URL is shown to live event attendees. Add the support URL for your organization to give attendees a way to contact support during a live event.
 
-### ![An icon showing the Microsoft Teams logo.](../) Using the Microsoft Teams admin center
+### Using the Microsoft Teams admin center
 
 1. In the left navigation, go to **Meetings** > **Live event settings**.
 2. Under **Support URL**, enter your organization's support URL.
