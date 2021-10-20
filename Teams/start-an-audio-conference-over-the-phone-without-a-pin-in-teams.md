@@ -67,7 +67,7 @@ See the [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=te
     
   - If the meeting hasn't started (there's no one in the meeting yet): A caller won't be prompted if she's the organizer, and she'll never be prompted for the PIN. Because the setting of the organizer is set to off, the meeting will start and the anonymous callers will join the meeting.
     
-  - If the meeting already started (someone else is already in the meeting): A caller won't be prompted if she's the organizer, and she'll never be prompted for the PIN,;the meeting is already started, and the caller will join it.
+  - If the meeting already started (someone else is already in the meeting): A caller won't be prompted if she's the organizer, and she'll never be prompted for the PIN; the meeting is already started, and the caller will join it.
     
 ## Want to know more about Windows PowerShell?
 
