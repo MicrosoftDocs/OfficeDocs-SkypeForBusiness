@@ -72,7 +72,7 @@ See the [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=te
   
 ## Reset the meeting conference ID
 
-![An icon showing the Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+![An icon showing the Teams logo.]() **Using the Microsoft Teams admin center**
 
 1. In the left navigation, click **Users**, and then select the user from the list of available users.
 
