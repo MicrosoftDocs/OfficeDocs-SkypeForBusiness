@@ -1,7 +1,7 @@
 ---
 title: "Assign, change places for emergency locations for users"
-author: cichur
-ms.author: v-cichur
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -22,9 +22,9 @@ ms.custom: seo-marvel-apr2020
 
 # Assign or change the place for an emergency location for a user
 
-Each active phone number must have an associated emergency location when you assign the phone number to a user. (You associate the address when you get a phone number in Office 365 or when you transfer a phone number.) When you associate the number with an emergency location, you can also add a place to provide a more exact location within a physical location. A place can be the floor, building wing, or office number where the user is located. You can have an unlimited number of places for a given emergency location, and you can change the place if the user moves to a different office or building. For example, if the user moves from floor 34 to floor 35.
-  
-To learn how to get Calling Plans and how much they cost, see [Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Each active phone number must have an associated emergency location when you assign the phone number to a user. You associate the address when you get a phone number in Microsoft 365, when you transfer a phone number to Microsoft 365, or when you get a phone number from your provider.
+
+When you associate the number with an emergency location, you can also add a place to provide a more exact location within a physical location. A place can be the floor, building wing, or office number where the user is located. You can have an unlimited number of places for a given emergency location, and you can change the place if the user moves to a different office or building. For example, if the user moves from floor 34 to floor 35.
   
 You can assign or change the place for an emergency location for a user in the Microsoft Teams admin center or by using PowerShell.
 
