@@ -256,6 +256,93 @@ Set-CsClientVersionConfiguration -Identity site:Redmond -Enabled $False
 
 ---
 
+## Device Update
+
+**DEVICE UPDATE** rules are used to associate firmware updates with devices that run Skype for Business Phone Edition.
+
+Let us consider the various tasks a user can do on **DEVICE UPDATE**, and the Skype for Business cmdlets those tasks map to.
+
+---
+> **Functionality 1**: Lists all the device updates
+
+   ![Device Update](./media/Device-Update-1.png)
+
+***Cmdlet***
+
+[Get-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/csdeviceupdaterule?view=skype-ps)
+
+***Example***
+
+```powershell
+ Get-CsDeviceUpdateRule
+```
+
+---
+
+> **Functionality 2**: Delete device update
+
+   ![Device Update](./media/Device-Update-2.png)
+
+***Cmdlet***
+
+[Remove-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csdeviceupdaterule?view=skype-ps)  
+
+***Example***
+
+```powershell
+ Remove-CsDeviceUpdateRule -Identity service:WebServer:atl-cs-001.litwareinc.com/d5ce3c10-2588-420a-82ac-dc2d9b1222ff9
+```
+
+---
+
+> **Functionality 3**: Cancel device update
+
+   ![Device Update](./media/Device-Update-3.png)
+
+***Cmdlet***
+
+[Clear-CsDeviceUpdateFile](https://docs.microsoft.com/en-us/powershell/module/skype/clear-csdeviceupdatefile?view=skype-ps)
+
+***Example***
+
+```powershell
+ Clear-CsDeviceUpdateFile -Identity "service:WebServer:atl-cs-001.litwareinc.com"
+```
+
+---
+
+> **Functionality 4**: Approve device update
+
+   ![Device Update](./media/Device-Update-4.png)
+
+***Cmdlet***
+
+[Approve-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/approve-csdeviceupdaterule?view=skype-ps)
+
+***Example***
+
+```powershell
+ Approve-CsDeviceUpdateRule -Identity service:WebServer:atl-cs-001.litwareinc.com/d5ce3c10-2588-420a-82ac-dc2d9b1222ff9
+```
+
+---
+
+> **Functionality 5**: Restore device update
+
+   ![Device Update](./media/Device-Update-5.png)
+
+***Cmdlet***
+
+[Restore-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/restore-csdeviceupdaterule?view=skype-ps)
+
+***Example***
+
+```powershell
+ Restore-CsDeviceUpdateRule -Identity service:WebServer:atl-cs-001.litwareinc.com/d5ce3c10-2588-420a-82ac-dc2d9b1222ff9
+```
+
+---
+
 ## Test Device
 
 The **TEST DEVICE** component provides a way for administrators to test firmware updates before those updates are distributed to all the devices in an organization.
