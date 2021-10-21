@@ -1,8 +1,8 @@
 ---
 title: Answer auto attendant and call queue calls
 ms.reviewer: colongma
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 audience: ITPro
 ms.date: 09/20/2018
@@ -68,8 +68,9 @@ When a call queue agents receives a call on their mobile device, calls may go on
 
 ## Related topics
 
--    [What is Phone System in Microsoft 365 or Office 365](what-is-phone-system-in-office-365.md)
--    [Create a Cloud call queue](create-a-phone-system-call-queue.md)
--    [What are Cloud auto attendants?](what-are-phone-system-auto-attendants.md)
--    [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md)
+[Create a Cloud call queue](create-a-phone-system-call-queue.md)
+
+[What are Cloud auto attendants?](what-are-phone-system-auto-attendants.md)
+
+[Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md)
 

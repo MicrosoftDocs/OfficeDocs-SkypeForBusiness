@@ -40,7 +40,7 @@ There are three ways to get user numbers:
   
 ## Get new phone numbers for your users
 
-![An icon showing the Microsoft Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+ **Using the Microsoft Teams admin center**
 
 You must be a Teams service admin to make these changes. See [Use Teams administrator roles to manage Teams](./using-admin-roles.md) to read about getting admin roles and permissions.
 
@@ -72,7 +72,7 @@ You must be a Teams service admin to make these changes. See [Use Teams administ
 
 ## View the phone numbers for your organization
 
-![An icon showing the Microsoft Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+ **Using the Microsoft Teams admin center**
 
 In the left navigation of the admin center, go to **Voice** > **Phone numbers** to view the numbers for your organization, including location, number type, and status information.
   
