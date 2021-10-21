@@ -63,13 +63,13 @@ You can use the Get-CSOnlineDialOutPolicy cmdlet to view the outbound calling po
 
 **Set the policy on a per-user level with the following cmdlet**. (The Grant cmdlet doesn't contain the word "Online" as the Get cmdlet does.)
 
-```
+```powershell
 Grant-CsDialoutPolicy -Identity <username> -PolicyName <policy name>    
 ```
 
 **Set the policy on the tenant level with the following cmdlet**.
 
-```
+```powershell
 Grant-CsDialoutPolicy  -Tenant <guid> -PolicyName <policy name>  -Global 
 ```
 
