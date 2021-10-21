@@ -1,7 +1,7 @@
 ---
 title: Plan for Teams auto attendants and call queues
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -69,6 +69,9 @@ To configure auto attendants and call queues, you need the following resources:
 - At least one [Microsoft service number](getting-service-phone-numbers.md), Operator Connect number, Direct Routing number, or a hybrid number for each resource account that you want to be directly dialable
  - The service number may be a toll or toll-free number
 
+> [!NOTE]
+> Resource accounts are disabled for sign in and must remain so. Chat and presence are not avaialble for these accounts.
+
 Agents who receive calls from the call queues must be Enterprise Voice enabled online or on-premise users. In addition, if the call queues are using Direct Routing numbers, agents who need to conference or transfer calls also require:
 
 - An online voice routing policy assigned if the call queue uses transfer mode
@@ -83,8 +86,10 @@ When transferring calls to an external phone number, the resource account perfor
 - An [online voice routing policy](manage-voice-routing-policies.md) (phone number assignment is optional when using Direct Routing)
 
 > [!NOTE]
-> Direct Routing service numbers for auto attendant and call queues are supported for Microsoft Teams users and call agents only.<br>
-> Transfers between Calling Plan, Operator Connect, and Direct Routing trunks aren't supported.<br>
+> Direct Routing service numbers for auto attendant and call queues are supported for Microsoft Teams users and call agents only.
+> 
+> Transfers between Calling Plan, Operator Connect, and Direct Routing trunks aren't supported.
+> 
 > In a Hybrid scenario, the resource account must be created on-premises. For more information, see [Plan Cloud call queues](/skypeforbusiness/hybrid/plan-call-queue).
 
 ## Business decisions
@@ -112,7 +117,7 @@ Agents can be added to call queues in the following ways:
 - Security groups, including mail-enabled security groups
 - Microsoft 365 Groups or Teams
 
-You can use a combination of these options for each queue if needed. Groups that have an email address can be used for voicemail. Using Teams offers a number of advantages, including shared file storage and chat between agents, a common mailbox where voicemails can be received, and an extensible platform that can include integration with your line of business applications or Power Apps.
+You can use a combination of these options for each queue if needed. Groups that have an email address can be used for voicemail. Using Teams offers a number of advantages, including shared file storage and chat between agents, a common mailbox where voicemails can be received, and an extensible platform that can include integration with your line-of-business applications or Power Apps.
 
 We recommend choosing a strategy for adding call agents to queues before you start your configuration.
 
@@ -121,7 +126,7 @@ If you have an existing auto attendant and call queue infrastructure and you're 
 *Conference mode* is an option in call queues that significantly reduces the amount of time it takes to connect Teams VOIP calls and PSTN calls to an agent. For conference mode to work, agents in the call queue must use one of the following clients:
 
 - The latest version of the Microsoft Teams desktop client, Android app, or iOS app
-  - Microsoft Teams phone version 1449/1.0.94.2020051601 or later
+- Microsoft Teams Phone version 1449/1.0.94.2020051601 or later
   
 Set Agents' Teams accounts to Teams-only mode. Agents who don't meet the requirements aren't included in the call routing list.
 

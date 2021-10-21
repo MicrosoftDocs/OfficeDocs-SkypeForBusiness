@@ -123,7 +123,7 @@ You can create your own custom templates from scratch, from an existing team, an
 
 #### Apply team template policies
 
-To control the templates that users see in Teams for creating teams, you can set templates policies and assign them to users and groups in your organization. To learn more, see [Manage team templates in the Teams admin center](templates-policies.md).
+To control the templates that users see in Teams for [creating teams](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b), you can set templates policies and assign them to users and groups in your organization. To learn more, see [Manage team templates in the Teams admin center](templates-policies.md).
 
 ### Manage team templates using PowerShell
 
@@ -137,5 +137,6 @@ Use the following cmdlets to manage your templates in PowerShell.
 
 ## Related articles
 
-- [Create a team from a template](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)
-- [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md) 
+- [Create a team from a template](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
+- [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md)
+- [Clone a team](/graph/api/team-clone?view=graph-rest-1.0&tabs=http)
