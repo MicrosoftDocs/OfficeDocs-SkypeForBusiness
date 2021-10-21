@@ -48,7 +48,7 @@ To deploy the Approvals app, you need permission for the following items:
 
 - Administrator Role in the target environment.
 
-- License for a [Power Automate](/power-automate/get-started-approvals), an Office 365, or a Dynamics 365.
+- License for [Power Automate](/power-automate/get-started-approvals), Office 365, or Dynamics 365.
 
 - License for Microsoft Forms is required for users to set up new approval templates.
 
@@ -115,7 +115,7 @@ The Approvals app is available by default. You can disable the app in the Teams 
 
   5. Select the toggle to disable the app for your organization.
 
-     ![shows the details for the Approvals app.](media/approvals-details.png)
+     ![shows the details for the Approvals app.](media/approvals-details-new.png)
 
 ## Retention policy
 

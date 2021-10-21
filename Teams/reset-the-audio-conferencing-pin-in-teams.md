@@ -32,7 +32,7 @@ Meetings can be started when an authenticated user joins using the Microsoft Tea
 
 ## Reset a user's PIN
 
-![An icon showing the Microsoft Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+ **Using the Microsoft Teams admin center**
 
 1. In the left navigation, click **Users**, and then select the user from the list of available users.
 
@@ -47,11 +47,12 @@ Meetings can be started when an authenticated user joins using the Microsoft Tea
    
 ## Have a user reset their own PIN
 
-1. Have the user go to [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing).
+1. Have the user go to [https://dialin.teams.microsoft.com/usp](https://dialin.teams.microsoft.com/usp).
 2. Click **Reset PIN**. 
 
 > [!NOTE]
-> For GCCH go to: https://webdir2g.online.gov.skypeforbusiness.us/lscp/usp/pstnconferencing.
+> For GCCH go to: https://dialin.cpc.gov.teams.microsoft.us/usp.
+> For DoD go to: https://dialin.cpc.dod.teams.microsoft.us/usp.
 
 ## What else should you know about PINs?
 

@@ -48,7 +48,12 @@ Guest access in Teams requires configuring other settings in Microsoft 365, incl
 - To configure guest access for Teams for general use, see [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team).
 - To collaborate with a partner organization that uses Azure Active Directory and allow guests to self-enroll for team access, see [Create a B2B extranet with managed guests](/microsoft-365/solutions/b2b-extranet).
 
-Guest access in Teams is an organization-wide setting and is turned off by default. You can control guest access to individual teams by using [sensitivity labels](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+Guest access in Teams is an organization-wide setting and is turned on by default. You can control guest access to individual teams by using [sensitivity labels](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+
+> [!NOTE]
+> If you're an administrator, and you're having trouble with Guest Access in Microsoft Teams, select **Run Tests** below, which will populate the Guest Access diagnostic in the Microsoft 365 Admin Center. These tests will check your configuration and quickly recommend next steps to enable Guest Access for your tenant.
+>> [!div class="nextstepaction"]
+>> [Run Tests: Guest Access](https://aka.ms/TeamsGuestAccessDiagDMC)
 
 ### Turning guest access off
 
