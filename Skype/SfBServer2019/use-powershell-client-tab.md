@@ -269,7 +269,7 @@ Let us consider the various tasks a user can do on **DEVICE UPDATE**, and the Sk
 
 ***Cmdlet***
 
-[Get-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/csdeviceupdaterule?view=skype-ps)
+[Get-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/get-csdeviceupdaterule?view=skype-ps)
 
 ***Example***
 
@@ -356,7 +356,7 @@ Let us consider the various tasks a user can do on **TEST DEVICE**, and the Skyp
 
 ***Cmdlet***
 
-[Get-CsTestDevice](https://docs.microsoft.com/en-us/powershell/module/skype/get-cstestdevice?view=skype-ps)
+[Get-CsTestDevice](https://docs.microsoft.com/en-us/powershell/module/skype/get-csdeviceupdaterule?view=skype-ps)
 
 ***Example***
 
@@ -496,7 +496,7 @@ Let us consider the various tasks a user can do on **DEVICE LOG CONFIGURATION**,
 ***Example***
 
 ```powershell
- Remove-CsTestDevice -Identity site:Redmond
+ Remove-CsDeviceUpdateConfiguration -Identity site:Redmond
 ```
 
 ---
