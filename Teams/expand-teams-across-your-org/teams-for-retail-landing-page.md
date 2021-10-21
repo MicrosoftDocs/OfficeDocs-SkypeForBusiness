@@ -31,10 +31,13 @@ Retail environments, with their rotating schedules and on-the-go staff, have ver
 1. **Understand user license types** - Use the appropriate license for people in your organization who:
     - Work primarily from a desktop or laptop computer in an office (enterprise information workers).
     - Work primarily on mobile devices or face-to-face with customers (frontline workers).
+    - More information: [Understand frontline worker user types and licensing](flw-licensing-options.md)
 1. **Learn about the ways to control what's available in Teams** - Answer questions such as: 
     - What apps do you want to make available?
     - What policies should you have in place?
     - Should you create custom templates for your teams?
+
+<!-- Additional capabilities for retail environments are available with the Microsoft Cloud for Retail, which includes capabilities from Dynamics 365 and Microsoft Azure as well as the Microsoft 365 features. For more information, see [Microsoft Cloud for Retail](https://www.microsoft.com/industry/retail/microsoft-cloud-for-retail). -->
 
 ## Choose the scenarios you want to support for your retail business
 
@@ -60,35 +63,6 @@ Now that you know what scenarios you want to implement, you need to gather your 
 | ![Administrator symbol.](/office/media/icons/administrator.png) | IT Administrator | Work with operations and retail management staff to define scenarios and how they'll work for the organization. <br><br>Configure settings in the Teams admin center, such as policies and templates, and enable apps. <br><br>Set up app settings (such as global Shifts settings) for the organization. <br><br>Add and license users.  | IT department |
 | ![User monitor symbol.](/office/media/icons/user-monitor.png) | Operations staff | Work with Administrators to define scenarios, and determine which settings, policies, templates, and apps are needed for Teams. <br><br>Create regional or divisional teams from templates. <br><br>Set up tasks, lists, and approval flows for coordination between stores within a region, or between stores and headquarters. <br><br>Set up learning framework for staff. | Central operations |
 | ![Presenter symbol.](/office/media/icons/presenter-teams.png) | Store manager | Work with Administrators and Operations staff to define scenarios. <br><br>Create teams for the store from templates. <br><br>Set up channels and apps for the teams, as needed. For example: a channel for shift handovers. <br><br>Set up store schedules in Shifts. <br><br>Set up tasks, lists, and approval flows that are specific to the store. <br><br>Set up learning tasks for staff. | Store management |
-
-## Understand retail user types and licensing
-
-In retail environments, you most likely have a mix of user types in your organization:
-
-- Information workers, who probably have desktop or laptop computers, and likely work more on documents than directly with customers, such as headquarters staff.
-- Frontline workers, who work on tablets or phones, and work either directly with customers or in store operations, such as store managers, sales associates, stockers, and pickers.
-
-Microsoft 365 and Microsoft Teams have features and a licensing model to support both types of users for your Retail organization. [Microsoft 365 for Frontline Workers](https://www.microsoft.com/microsoft-365/enterprise/frontline) is optimized for a mobile workforce that primarily interacts with customers, but also needs to stay connected to the rest of your organization.
-
-### Assign appropriate licenses to support frontline worker and information worker user types
-
-If it makes sense for your organization, you can assign different licenses to these different types of users. The following illustration shows one way to apply licenses and policies for Retail workers:
-
-:::image type="content" source="../media/retail-license-options.png" alt-text="Mix license types to support the different roles in your organization. Use Enterprise licenses for your information workers, such as headquarters staff, and Frontline Worker licenses for mobile workers, such as store managers, sales associates, shipping staff, stockers, and pickers.":::
-
-With this example, you can mix license types for the two types of workers in your organization, like in the following table:
-
-| Information workers have an Enterprise license and can: | Frontline workers have a Frontline Worker license and can: |
-| ----- | ----- |
-| Use full Office apps on desktops or laptops, as well as mobile apps on phones and tablets | Use mobile apps on phones or tablets (not desktops or laptops) |
-| Use all Teams functionality (depending on the specific license) | Use Teams to: chat, meet, see notifications, use Lists, use Shifts and store documents |
-| Use all included Microsoft 365 services (depending on the specific license) | Use SharePoint, OneDrive, Yammer, Stream |
-
-For a detailed comparison of what's included in Microsoft 365 with various licenses, see this [Comparison table](https://go.microsoft.com/fwlink/?linkid=2139145).
-
-<!-- Additional capabilities for retail environments are available with the Microsoft Cloud for Retail, which includes capabilities from Dynamics 365 and Microsoft Azure as well as the Microsoft 365 features. For more information, see [Microsoft Cloud for Retail](https://www.microsoft.com/industry/retail/microsoft-cloud-for-retail). -->
-
-Of course, for simplicity, or if your workers all need access to the full capabilities of Microsoft 365, you can use the same Enterprise license for all of your worker types, and still target capabilities to different user roles using Teams policy packages, such as the Frontline Worker [policy package](../manage-policy-packages.md).
 
 ## Manage Teams for Retail
 
