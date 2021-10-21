@@ -254,11 +254,11 @@ The size of a 1-hour recording is 400 MB. Make sure you understand the capacity 
 
 > [!IMPORTANT]
 >
-> The auto-expiration feature discussed in this article is not yet launched. Please refer to [the roadmap (Feature ID: 84580)](https://www.microsoft.com/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580) for more information on its delivery date.
+> The auto-expiration feature discussed in this article is not yet launched. Please refer to [the roadmap (Feature ID: 84580)](/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580) for more information on its delivery date.
 > 
-> We are providing information about how this feature will work in the FUTURE, so that you are able to plan for this change and modify the Teams policy settings in advance.
+> We're providing information about how this feature will work in the future, so that you're able to plan for this change and modify the Teams policy settings in advance.
 >
-> The CMD to preemptively change the default expiration setting in Teams isn't yet available to be set.  We'll publish an updated message center post when the setting is available for modification.
+> The command to preemptively change the default expiration setting in Teams is currently in deployment, but you may be able to see the attribute in PowerShell. The setting is not currently available in the Teams admin centers. These settings will be available and communicated in a message center post at least 30 days before we launch the feature.
 >
 >
 
@@ -304,14 +304,20 @@ Yes, the expiration date is set per file. Users can modify the expiration date i
 
 **How can an admin change the expiration date?**
   
-Admins will be able to change the default expiration setting in PowerShell or the Teams admin center before the feature is released. **The setting is not yet available for modification**. We will publish an updated message center post when the setting is available for modification. When the feature launches, admins can change this setting in the Teams admin center. Changing expiration settings will impact only newly created TMRs from that point forward. It will not impact any recordings made prior to that date. 
+Admins can change the default expiration setting in PowerShell or the Teams admin center before the feature is released. Changing expiration settings will only impact newly created TMRs from that point forward. It won't impact any recordings made prior to that date. New recordings will not auto-expire until the feature is released, even though you can set the policy attribute before it's released.
 
-The expiration days values can be set as follows:
+The expiration days value can be set as follows:
   
 - Value can be from 1 to 9,999.
 - Value can also be -1 to set TMR to never expire. 
  
 Admins can't change the expiration date on existing TMRs already uploaded to OneDrive or SharePoint before this feature was released. This protects the intent of the user that owns the TMR.
+  
+To change the default auto-expiration behavior for your tenant, modify the following attribute in PowerShell. In this example, the default is changed to 50 days.
+ 
+Set-CsTeamsMeetingPolicy -Identity Global -**New**MeetingRecordingExpirationDays 50
+
+The ability to change the default setting in the Teams admin center will be deployed at a later time, at least 30 days before we turn on the auto-expiration feature by default.
   
 **Can an admin set TMR's to never expire?**
   
