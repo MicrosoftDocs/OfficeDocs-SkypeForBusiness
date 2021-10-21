@@ -38,7 +38,7 @@ In addition to the phone numbers already assigned to your conferencing bridge, y
 
 ### Step 1 - Assign the new phone number to your audio conferencing bridge
 
-![An icon showing the Microsoft Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+ **Using the Microsoft Teams admin center**
 
 1. On the left navigation pane, go to **Voice** > **Phone numbers**.
 
@@ -52,7 +52,7 @@ The default phone number of your conference bridge defines the caller ID that wi
 
 Only a service toll number can be set as the default number for your conferencing bridge; **service toll-free numbers can't be set as the default number of your conferencing bridge**. If you are assigning a service toll number and you would like to set it as the new default number for your audio conferencing bridge, perform these steps:
 
-![An icon showing the Microsoft Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+ **Using the Microsoft Teams admin center**
 
 1. On the left navigation pane, go to **Meetings** > **Conference bridges**.
 
@@ -64,7 +64,7 @@ Only a service toll number can be set as the default number for your conferencin
 
 The default phone numbers of a user are the ones that are included on their meeting invites when they schedule a meeting. For more information, including how the default phone numbers are assigned for new users, see [Set the phone numbers included on invites in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) or [Set the phone numbers included on invites in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
 
-![An icon showing the Microsoft Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+ **Using the Microsoft Teams admin center**
 
 1. On the left navigation pane, go to **Users** and click the Display name of the desired user on the list.
 

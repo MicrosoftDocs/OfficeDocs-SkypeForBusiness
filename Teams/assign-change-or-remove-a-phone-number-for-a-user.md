@@ -24,17 +24,19 @@ description: "Learn how to assign, change, or remove a work phone number for you
 
 # Assign, change, or remove a phone number for a user
 
-When you set up Calling Plans **or Operator Connect**, you assign phone numbers to your users. In Microsoft Teams, the phone number that you assign is listed when a user clicks **Calls**. 
+When you set up Calling Plans or Operator Connect, you assign phone numbers to your users. In Microsoft Teams, the phone number that you assign is listed when a user clicks **Calls**. 
 
-**This article applies to Calling Plans and Operator Connect.** For information about assigning, changing, or removing a phone number from a user in a Direct Routing scenario, see [Enable users for Direct Routing, voice, and voicemail](./direct-routing-enable-users.md).
+This article applies to Calling Plans and Operator Connect. For information about assigning, changing, or removing a phone number from a user in a Direct Routing scenario, see [Enable users for Direct Routing, voice, and voicemail](./direct-routing-enable-users.md).
 
-**Before you assign a number for a Calling Plan or Operator Connect user, you must get numbers for your users. For more information, see [Get numbers for Calling Plan users](getting-phone-numbers-for-your-users.md) or [Set up numbers for Operator Connect users](operator-connect-configure.md#set-up-phone-numbers).**
+Before you assign a number for a Calling Plan or Operator Connect user, you must get numbers for your users. For more information, see [Get numbers for Calling Plan users](getting-phone-numbers-for-your-users.md) or [Set up numbers for Operator Connect users](operator-connect-configure.md#set-up-phone-numbers).
 
   
 > [!NOTE]
 > One way to see whether a user has a license assigned is by going to the Microsoft Teams admin center > **Users**. If a license is assigned, it will be indicated on the page.  You can also use the Microsoft 365 admin center.
   
 ## Assign a phone number to a user
+
+When assigning a phone number to a user, make sure the phone number and the usage location of the user are of the same country.
 
 To assign a number by using the Teams admin center:
     
@@ -47,7 +49,7 @@ To assign a number by using the Teams admin center:
 4. To assign or change the associated emergency location, under **Emergency location**, search for and then select the location.
 
    > [!NOTE]
-   > **If you are assigning numbers to Operator Connect users, you may or may not be able to assign or change the associated emergency location. This functionality will depend on your Operator. Contact your Operator for more information.**
+   > If you are assigning numbers to Operator Connect users, you may or may not be able to assign or change the associated emergency location. This functionality will depend on your Operator. Contact your Operator for more information.
 
 5. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this is on. 
 
@@ -91,7 +93,7 @@ To change a phone number for a user by using the Teams admin center:
 8. To assign or change the associated emergency location, under **Emergency location**, search for and then select the location.
 
       > [!NOTE]
-      > **If you are changing numbers for Operator Connect users, you may or may not be able to assign or change the associated emergency location. This functionality will depend on your Operator. Contact your Operator for more information.**
+      > If you are changing numbers for Operator Connect users, you may or may not be able to assign or change the associated emergency location. This functionality will depend on your Operator. Contact your Operator for more information.
 
 9. Click **Save**.
 

@@ -32,7 +32,7 @@ As an admin, you use Teams meetings settings to control whether anonymous users 
 
 With anonymous join, anyone can join the meeting as an anonymous user by clicking the link in the meeting invitation. To learn more, see [Join a meeting without a Teams account](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508).
 
-![An icon showing the Microsoft Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+ **Using the Microsoft Teams admin center**
 
 You must be a Teams service admin to make these changes. See [Use Teams administrator roles to manage Teams](./using-admin-roles.md) to read about getting admin roles and permissions.
 
@@ -54,7 +54,7 @@ Anonymous users will now inherit the user-level global default permission policy
 > [!IMPORTANT]
 > By default, the setting to allow anonymous users to interact with apps in meetings is enabled.
 
-![An icon showing the Microsoft Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+ **Using the Microsoft Teams admin center**
 
 You must be a Teams service admin to access this setting. See [Use Teams administrator roles to manage Teams](./using-admin-roles.md) to read about getting admin roles and permissions.
 
@@ -81,7 +81,7 @@ You can customize Teams meeting invitations to meet your organization's needs. Y
 
 ### Customize your meeting invitations
 
-![An icon showing the Microsoft Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+ **Using the Microsoft Teams admin center**
 
 1. Go to the admin center.
 2. In the left navigation, go to **Meetings** > **Meeting settings**.
@@ -106,7 +106,7 @@ If you're using Quality of Service (QoS)to prioritize network traffic, you can e
 > [!IMPORTANT]
 > If you enable QoS or change settings in the Microsoft Teams admin center for the Teams service, you'll also need to [apply matching settings to all user devices](QoS-in-Teams-clients.md) and all internal network devices to fully implement the changes to QoS in Teams.
 
- ![An icon showing the Microsoft Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+  **Using the Microsoft Teams admin center**
 1. Go to the admin center.
 2. In the left navigation, go to **Meetings** > **Meeting settings**.
 3. Under **Network**, do the following:
