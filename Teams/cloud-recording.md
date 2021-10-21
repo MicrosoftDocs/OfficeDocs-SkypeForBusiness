@@ -254,11 +254,11 @@ The size of a 1-hour recording is 400 MB. Make sure you understand the capacity 
 
 > [!IMPORTANT]
 >
-> The auto-expiration feature discussed in this article is not yet launched. Please refer to [the roadmap (Feature ID: 84580)](https://www.microsoft.com/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580) for more information on its delivery date.
+> The auto-expiration feature discussed in this article is not yet launched. Please refer to [the roadmap (Feature ID: 84580)](/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580) for more information on its delivery date.
 > 
-> We are providing information about how this feature will work in the FUTURE, so that you are able to plan for this change and modify the Teams policy settings in advance.
+> We're providing information about how this feature will work in the future, so that you're able to plan for this change and modify the Teams policy settings in advance.
 >
-> The CMD to preemptively change the default expiration setting in Teams is currently in deployment, you may be able to see the attribute in PowerShell. The setting is not yet available in the Teams admin center and we will update this documentation as soon as it is. These settings will be available and communicated via a message center post at least 30 days before we launch the feature.
+> The command to preemptively change the default expiration setting in Teams is currently in deployment, but you may be able to see the attribute in PowerShell. The setting is not currently available in the Teams admin centers. These settings will be available and communicated in a message center post at least 30 days before we launch the feature.
 >
 >
 
