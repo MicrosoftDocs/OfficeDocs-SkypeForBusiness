@@ -54,20 +54,6 @@ To find out which countries and regions are considered Zone A, see [Country and 
 
 5. Select **Save**.
 
-![An icon showing the Skype for Business logo.](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
-
-1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Users**, and then select the user from the list of available users.
-
-2. In the Action pane, select **Edit**.
-
-3.  Under **Restrictions to dial-outs from meetings of this user**, select the dial-out restriction option you want.
-
-      ![The Restrictions to dial-outs options.](media/restrictions-to-dial-outs.png)
-
-4. Select **Save**.
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 **Using PowerShell**
 
