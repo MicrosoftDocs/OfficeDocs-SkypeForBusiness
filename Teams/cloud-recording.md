@@ -304,9 +304,9 @@ Yes, the expiration date is set per file. Users can modify the expiration date i
 
 **How can an admin change the expiration date?**
   
-Admins can change the default expiration setting in PowerShell today or the Teams admin center before the feature is released. Changing expiration settings will impact only newly created TMRs from that point forward. It will not impact any recordings made prior to that date. Note that new recordings will not be auto-expired until we turn the feature on, even though you are setting the policy attribute now.
+Admins can change the default expiration setting in PowerShell or the Teams admin center before the feature is released. Changing expiration settings will only impact newly created TMRs from that point forward. It won't impact any recordings made prior to that date. New recordings will not auto-expire until the feature is released, even though you can set the policy attribute before it's released.
 
-The expiration days values can be set as follows:
+The expiration days value can be set as follows:
   
 - Value can be from 1 to 9,999.
 - Value can also be -1 to set TMR to never expire. 
