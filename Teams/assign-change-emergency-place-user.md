@@ -22,7 +22,7 @@ ms.custom: seo-marvel-apr2020
 
 # Assign or change the place for an emergency location for a user
 
-Each active phone number must have an associated emergency location when you assign the phone number to a user. **You associate the address when you get a phone number in Microsoft 365, when you transfer a phone number to Microsoft 365, or when you get a phone number from your provider.**
+Each active phone number must have an associated emergency location when you assign the phone number to a user. You associate the address when you get a phone number in Microsoft 365, when you transfer a phone number to Microsoft 365, or when you get a phone number from your provider.
 
 When you associate the number with an emergency location, you can also add a place to provide a more exact location within a physical location. A place can be the floor, building wing, or office number where the user is located. You can have an unlimited number of places for a given emergency location, and you can change the place if the user moves to a different office or building. For example, if the user moves from floor 34 to floor 35.
   
