@@ -34,7 +34,7 @@ We recommend that you visit the vendor's web site for the latest information abo
 ***Table 1 - Qualified IP PBXs & Gateways  for Lync 2013***
 
  &#x2714;= Qualified&nbsp;&nbsp;&nbsp;&nbsp;&#x2714;+S = Qualified with SRTP & TLS
-<table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" width="100%" xmlns="http://www.w3.org/1999/xhtml">
+<table border="1" cellpadding="5" cellspacing="" class="grid"" width="100%" xmlns="http://www.w3.org/1999/xhtml">
 	<colgroup>
 		<col width="140" />
 		<col width="270" />
