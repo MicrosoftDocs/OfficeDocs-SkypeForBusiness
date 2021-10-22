@@ -258,7 +258,7 @@ The size of a 1-hour recording is 400 MB. Make sure you understand the capacity 
 > 
 > We're providing information about how this feature will work in the future, so that you're able to plan for this change and modify the Teams policy settings in advance.
 >
-> The command to preemptively change the default expiration setting in Teams is currently in deployment, but you may be able to see the attribute in PowerShell. The setting is not currently available in the Teams admin centers. These settings will be available and communicated in a message center post at least 30 days before we launch the feature.
+> The command to preemptively change the default expiration setting in Teams is currently in deployment (Set-CsTeamsMeetingPolicy -NewMeetingRecordingExpirationDays), but you may be able to see the attribute in PowerShell. This parameter is available to be set, but will not be effective until this feature gets general availability.  The setting is not currently available in the Teams admin centers. These settings will be available and communicated in a message center post at least 30 days before we launch the feature.
 >
 >
 
