@@ -32,15 +32,15 @@ Before an incoming or outbound call can be processed, OPTIONS messages are excha
 | Request-URI | OPTIONS sip:sip.pstnhub.microsoft.com:5061 SIP /2.0 |
 | Via Header | Via: SIP/2.0/TLS sbc1.adatum.biz:5058;alias;branch=z9hG4bKac2121518978 | 
 | Max-Forwards header | Max-Forwards:68 |
-| From Header | From Header From: <sip:sbc1.adatum.biz:5058> |
+| From Header | From: <sip:sbc1.adatum.biz:5058> |
 | To Header | To: <sip:sip.pstnhub.microsoft.com:5061> |
 | CSeq header | CSeq: 1 INVITE | 
-| Contact Header | Contact: <sip:sbc1.adatum.biz:50588;transport=tls> |
+| Contact Header | Contact: <sip:sbc1.adatum.biz:5058;transport=tls> |
 
 > [!NOTE]
-> The SIP headers do not contain userinfo in the SIP URI in use. As per [RFC 3261, section 19.1.1](https://tools.ietf.org/html/rfc3261#section-19.1.1), the userinfo part of a URI is optional and MAY be absent when the destination host does not have a notion of users or when the hosst itself is the resource being identified. If the @ sign is present in a SIP URI, the user field MUST NOT be empty.
+> The SIP headers do not contain userinfo in the [SIP URI](https://datatracker.ietf.org/doc/html/rfc3261#section-19.1) in use. As per [RFC 3261, section 19.1.1](https://tools.ietf.org/html/rfc3261#section-19.1.1), the userinfo part of a URI is optional and MAY be absent when the destination host does not have a notion of users or when the host itself is the resource being identified. If the @ sign is present in a SIP URI, the user field MUST NOT be empty.
 
-On an incoming call, the SIP proxy needs to find the tenant to which the call is destined and find the specific user within this tenant. The tenant administrator might configure non-DID numbers, for example +1001, in multiple tenants. Therefore, it is important to find the specific tenant on which to perform the number lookup because the non-DID numbers might be the same in multiple Microsoft 365 or Office 365 organizations.  
+On an incoming call, the SIP proxy needs to find the tenant to which the call is destined and, find the specific user within this tenant. The tenant administrator might configure non-DID numbers, for example +1001, in multiple tenants. Therefore, it is important to find the specific tenant on which to perform the number lookup because the non-DID numbers might be the same in multiple Microsoft 365 or Office 365 organizations.  
 
 This section describes how the SIP proxy finds the tenant and the user, and performs authentication of the SBC on the incoming connection.
 
@@ -51,10 +51,10 @@ The following is an example of the SIP Invite message on an incoming call:
 | Request-URI | INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0 |
 | Via Header | Via: SIP/2.0/TLS sbc1.adatum.biz:5058;alias;branch=z9hG4bKac2121518978 | 
 | Max-Forwards header | Max-Forwards:68 |
-| From Header | From Header From: <sip:7168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679 |
+| From Header | From: <sip:+7168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679 |
 | To Header | To: sip:+183338006777@sbc1.adatum.biz | 
 | CSeq header | CSeq: 1 INVITE | 
-| Contact Header | Contact: <sip: 68712781@sbc1.adatum.biz:5058;transport=tls> | 
+| Contact Header | Contact: <sip:+7168712781@sbc1.adatum.biz:5058;transport=tls> | 
 
 On receiving the invite, the SIP proxy performs the following steps:
 
@@ -62,7 +62,7 @@ On receiving the invite, the SIP proxy performs the following steps:
 
    - Option 1. The full FQDN name presented in the Contact header must match the Common Name/Subject Alternative name of the presented certificate.  
 
-   - Option 2. The domain portion of the FQDN name presented in the Contact header (for example adatum.biz of the FQDN name sbc1.adatum.biz) must match the wildcard value in Common Name/Subject Alternative Name (for example *.adatum.biz).
+   - Option 2. The domain portion of the FQDN name presented in the Contact header (for example adatum.biz of the FQDN name sbc1.adatum.biz) must match the wildcard value in Common Name or Subject Alternative Name entry (for example *.adatum.biz).
 
 2. Try to find a tenant using the full FQDN name presented in the Contact header.  
 
@@ -80,61 +80,65 @@ On receiving the invite, the SIP proxy performs the following steps:
 
    The requirements for the two lookups (steps 2 and 3) needed for the scenario where one SBC is interconnected to many tenants (carrier scenario) are covered later in this article.
 
-### Detailed requirements for Contact header and Request-URI
+### Detailed requirements for Contact header, Request-URI, To and From SIP headers
 
-#### Contact header
+#### [Contact header](https://datatracker.ietf.org/doc/html/rfc3261#section-8.1.1.8)
 
-For all incoming SIP messages (OPTIONS, INVITE) to the Microsoft SIP proxy, the Contact header must have the paired SBC FQDN in the URI hostname as follows:
+The Contact header provides a SIP URI that can be used  to contact a specific instance of the UA for subsequent requests. For all incoming SIP messages (OPTIONS, INVITE) to the Microsoft SIP proxy, the Contact header must have the paired SBC FQDN in the URI hostname as follows:
 
-Syntax: Contact:  <sip:phone or sip address@FQDN of the SBC;transport=tls> 
+Syntax: Contact:  <sip:E.164phone or sip address@FQDN of the SBC:port;transport=tls> - if willing to transmit the address of record (phone or sip address) of the resource the caller is trying to reach out to (recommended).
+
+Syntax: Contact: <sip:FQDN of the SBC:port;transport=tls> - if simply referring to the specific instance of the SBC to be used for subsequent requests. (normally used with REFER SIP messages)
 
 As per [RFC 3261, section 11.1](https://tools.ietf.org/html/rfc3261#section-11.1), a Contact header field MAY be present in an OPTIONS message. In Direct Routing the contact header is required. For INVITE messages in format above, for OPTIONS messages the userinfo can be removed from SIP URI and only FQDN sent in format as follows:
 
-Syntax: Contact:  <sip:FQDN of the SBC;transport=tls>
+Syntax: Contact:  <sip:FQDN of the SBC:port;transport=tls>
 
-This name (FQDN) must also be in the Common Name or Subject Alternative name field(s) of the presented certificate. Microsoft supports using wildcard values of the name(s) in the Common Name or Subject Alternative Name fields of the certificate.   
+A fully qualified domain name (FQDN) defined in the Common Name, must match a Subject Alternative name entry of the SBC's (Session Border Controller) public certificate connecting to Teams SIP Proxy. Microsoft also supports using a wildcard value in the Common Name of the certificate as explained below. The wildcard value must be present as a Subject Alternative Name entry on the certificate.     
 
 The support for wildcards is described in [RFC 2818, section 3.1](https://tools.ietf.org/html/rfc2818#section-3.1). Specifically:
 
 *"Names may contain the wildcard character \* which is considered to match any single domain name component or component fragment. E.g., \*.a.com matches foo.a.com but not bar.foo.a.com. f\*.com matches foo.com but not bar.com."*
 
-If more than one value in the Contact header presented in a SIP message is sent by the SBC, only the FQDN portion of the first value of the Contact header is used.
+Teams works over [sip: using TLS over TCP](https://datatracker.ietf.org/doc/html/rfc3261#section-19.1.2), hence requires that the SBC FQDN to be used to populate the SIP URI contained in the Contact, Record-Route and Request-URI SIP headers. An incoming INVITE or OPTIONS message to SIP Proxy with a Contact header where hostname is represented by IP and not FQDN, results in refused connection with 403 Forbidden.
 
-As rule of thumb for Direct Routing, it is important that FQDN is used to populate SIP URI instead of IP. An incoming INVITE or OPTIONS message to SIP Proxy with Contact header where hostname is represented by IP and not FQDN, the connection will be refused with 403 Forbidden.
+#### Request-URI, To and From headers
 
-#### Request-URI 
+For a new incoming call, per [RFC3261](https://datatracker.ietf.org/doc/html/rfc3261#section-8.1.1.1) the initial Request-URI of the message SHOULD be set to the value of the SIP URI in the To header field. One notable exception is the REGISTER method (not applicable here).
 
-For all incoming calls, the Request-URI is used to match the phone number to a user.   
+The [To](https://datatracker.ietf.org/doc/html/rfc3261#section-8.2.2.1) header as per RFC, specifies the desired "logical" recipient of the request, or the address-of-record of the user or resource that is the target of the SIP request.
 
-Currently The phone number must contain a plus sign (+) as shown in the following example. 
+The affinity between To and Request-Uri headers can be defined too, by looking into the same [RFC3261](https://datatracker.ietf.org/doc/html/rfc3261#section-8.2.2.1):
+The To header field identifies the original recipient of the request as defined by the user identified in the From field. The original recipient may or may not be the UAS processing the request, due to call forwarding or other proxy operations, however the Request-URI identifies the UAS that is to process the SIP request specified.
+ 
+The [From](https://datatracker.ietf.org/doc/html/rfc3261#section-8.1.1.3) header field indicates the logical identity of the initiator of the request, possibly the user's address-of-record. (...) The From header field allows for a display name. A UAC SHOULD use the display name "Anonymous", along with a syntactically correct, but otherwise meaningless URI (like sip:thisis@anonymous.invalid), if the identity of the caller is to remain hidden. Usually, the value that populates the From header field in requests generated by a particular UA is pre-provisioned by the user or by the administrators of the user's local domain (in this case the users enabled for Direct Routing, or for example a mobile phone caller calling a Direct Routing enabled Teams user).
+
+The phone number (address of record) must be in E.164 format, as shown in the following example: 
 
 ```console
 INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
 ```
+If using non-DID number like 1001, admins can either use the reference at [Configure the phone number and enable enterprise voice and voicemail online](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-enable-users#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online) and set <tel:+E.164phonenumber;ext=1001@SBC FQDN>, or assign the non-DID directly using the same cmdlet hwoever with the value <tel:+1001>.
+
 
 ## Contact and Record-Route headers considerations
 
-The SIP proxy needs to calculate the next hop FQDN for new in-dialog client transactions (for example Bye or Re-Invite), and when replying to SIP Options. Either Contact or Record-Route are used. 
+To calculate the next hop FQDN for new in-dialog client transactions (for example Bye or Re-Invite) or when replying to SIP Options, the Contact or Record-Route SIP headers are used. 
 
-According to [RFC 3261, section 8.1.1.8](https://tools.ietf.org/html/rfc3261#section-8.1.1.8), Contact header is required in any request that can result in a new dialog. The Record-Route is only required if a proxy wants to stay on the path of future requests in a dialog. If a proxy SBC is in use with [Local Media Optimization for Direct Routing](./direct-routing-media-optimization.md), a record route will need to be configured as the proxy SBC needs to stay in the route. 
+According to [RFC 3261, section 8.1.1.8](https://tools.ietf.org/html/rfc3261#section-8.1.1.8):
+The Contact header field provides a SIP URI that can be used to contact that specific instance of the UA for subsequent requests. The Contact header field MUST be present and contain exactly one SIP URI in any request that can result in the establishment of a dialog.
 
-Microsoft recommends using only Contact header if a proxy SBC is not used:
+The [Record-Route](https://tools.ietf.org/html/rfc3261#section-20.30) header field is inserted by proxies in a request to force future requests in the dialog to be routed through the proxy. This is the case with [Local Media Optimization for Direct Routing (LMO)](./direct-routing-media-optimization.md), where a Record-Route header value will be populated with the proxy SBC FQDN, forcing that same proxy SBC to stay on the path of future requests in the dialog.
 
-- Per [RFC 3261, section 20.30](https://tools.ietf.org/html/rfc3261#section-20.30), Record-Route is used if a proxy wants to stay on the path of future requests in a dialog, which is not essential if no proxy SBC is configured as all traffic goes between the Microsoft SIP proxy and the paired SBC. 
+Microsoft recommends using Contact header only when LMO is not used. To calculate the next hop, the Microsoft Teams SIP proxy uses:
 
-- The Microsoft SIP proxy uses only Contact header (not Record-Route) to determine the next hop when sending outbound ping Options. Configuring only one parameter (Contact) instead of two (Contact and Record-Route) simplifies the administration if a proxy SBC is not in use. 
+- Priority 1. Record-Route. If a Record-Route header contains the SBC FQDN, that SBC FQDN is used to make the secured outbound in-dialog connection.
 
-To calculate the next hop, the SIP proxy uses:
+- Priority 2. Contact header. If a Record-Route does not exist, the SIP proxy will look at the SIP URI of the Contact header and use the FQDN (Right-hand side of @ symbol in the URI), to make the secured outbound connection to the SBC. (This is the recommended configuration.)
 
-- Priority 1. Top-level Record-Route. If the top-level Record-Route contains the FQDN name, the FQDN name is used to make the outbound in-dialog connection.
+If both Contact and Record-Route are used in a non-LMO scenario, the SBC administrator must keep their values identical, which may cause administrative overhead. 
 
-- Priority 2. Contact header. If Record-Route does not exist, the SIP proxy will look up the value of the Contact header to make the outbound connection. (This is the recommended configuration.)
-
-If both Contact and Record-Route are used, the SBC administrator must keep their values identical, which causes administrative overhead. 
-
-### Use of FQDN name in Contact or Record-Route
-
-Use of an IP address is not supported in either Record-Route or Contact. The only supported option is an FQDN, which must match either the Common Name or Subject Alternative Name of the SBC certificate (wildcard values in the certificate are supported).
+Use of an IP address is not supported in either Record-Route or Contact. The only supported option is a SIP URI containing a FQDN, which must match either the Common Name or a Subject Alternative Name entry of the publicly published SBC certificate.
 
 - If an IP address is presented in Record-route or Contact, the certificate check fails and the call fails.
 
