@@ -2,7 +2,7 @@
 title: "Manage locations for ELIN gateways in Skype for Business Server"
 ms.reviewer: 
 ms.author: v-cichur
-author: cichur
+author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: conceptual

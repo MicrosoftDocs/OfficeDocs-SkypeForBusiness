@@ -1,8 +1,8 @@
 ---
 title: "Disaster recovery testing in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: article

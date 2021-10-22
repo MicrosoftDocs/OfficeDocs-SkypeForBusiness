@@ -10,7 +10,7 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: "SIP trunk configuration settings define the relationship and capabilities between a Mediation Server and the public switched telephone network (PSTN) gateway, an IP-public branch exchange (PBX), or a Session Border Controller (SBC) at the service provider."
+description: "SIP trunk configuration settings define the relationship and capabilities between a Mediation Server and the public switched telephone network gateway, an IP-public branch exchange, or a Session Border Controller at the service provider."
 ---
 
 # Skype for Business Server - Delete an existing collection of SIP trunk configuration settings

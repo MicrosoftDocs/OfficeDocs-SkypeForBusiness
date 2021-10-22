@@ -1,8 +1,8 @@
 ---
 title: "Configure Exchange Server Unified Messaging for Skype for Business Server voice mail"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: serdars
 manager: serdars
 ms.date: 2/11/2019
 audience: ITPro
@@ -84,14 +84,14 @@ Enable-UMMailbox -Extensions 100 -SIPResourceIdentifier "kenmyer@litwareinc.com"
 
 In the preceding command, the Extensions parameter represents the telephone extension number for the user. In this example, the user has the extension number 100.
   
-After you have enabled his mailbox, the user kenmyer@litwareinc.com should be able to use Exchange unified messaging. You can verify that the user can connect to Exchange UM by running the [Test-CsExUMConnectivity](/powershell/module/skype/test-csexumconnectivity?view=skype-ps) cmdlet from within the Skype for Business Server Management Shell:
+After you have enabled his mailbox, the user kenmyer@litwareinc.com should be able to use Exchange unified messaging. You can verify that the user can connect to Exchange UM by running the [Test-CsExUMConnectivity](/powershell/module/skype/test-csexumconnectivity) cmdlet from within the Skype for Business Server Management Shell:
   
 ```powershell
 $credential = Get-Credential "litwareinc\kenmyer"
 Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 ```
 
-If you have a second user who has been enabled for unified messaging you can use the [Test-CsExUMVoiceMail](/powershell/module/skype/test-csexumvoicemail?view=skype-ps) cmdlet to verify that this second user can leave a voicemail message for the first user.
+If you have a second user who has been enabled for unified messaging you can use the [Test-CsExUMVoiceMail](/powershell/module/skype/test-csexumvoicemail) cmdlet to verify that this second user can leave a voicemail message for the first user.
   
 ```powershell
 $credential = Get-Credential "litwareinc\pilar"
