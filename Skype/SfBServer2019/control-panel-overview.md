@@ -17,13 +17,9 @@ description: "This article provides an overview of the new Control Panel."
 
 # Control Panel
 
-The new Control Panel is an updated and concurrent version of the legacy Control Panel, implying that both the control panels exist in tandem. The new Control Panel has come into effect from the Cumulative Update of July 2019. It helps manage the configuration of servers, users, clients, and devices in the environment of an organization.
+The current Control Panel is a new version of the legacy Control Panel, with which it exists in tandem. The new Control Panel came into existence from the Cumulative Update of July 2019. It helps manage the configuration of servers, users, clients, and devices in the environment of an organization.
 
-The new Control Panel has come into effect in tandem with the legacy Control Panel that relies on the Silverlight technology.
-
-The switch to the new Control Panel can be attributed to:
-
-- The Silverlight technology's end-of-support stage from October 12, 2021, for the legacy control panel.
+The switch to the new Control Panel can be attributed to the Silverlight technology's end of support on October 12, 2021. For more information, see [Silverlight End of Support](https://support.microsoft.com/windows/silverlight-end-of-support-0a3be3c7-bead-e203-2dfd-74f0a64f1788).
 
 > [!NOTE]
 > For information on the legacy Control Panel, see [Control Panel](../SfbServer/management-tools/install-and-open-administrative-tools.md), and navigate to the section **Skype for Business Server Control Panel**.
@@ -37,7 +33,7 @@ To launch the new Control Panel in the browser, enter https://&lt;pool-FQDN&gt;/
 The new Control Panel includes commonly used menu items that cover most of the needs of the organization. There are a few menu items from the legacy Control Panel that are unavailable in the new Control Panel. However, there is an option for the user to avail the functionalities in those menu items through PowerShell cmdlets. For more information, see the table below.
 
 > [!NOTE]
-> There are other menus items which will be made available in future releases in a phased manner. 
+> The documentation for other menus items will be made available subsequently in a phased manner.
 
 ## Client
 
