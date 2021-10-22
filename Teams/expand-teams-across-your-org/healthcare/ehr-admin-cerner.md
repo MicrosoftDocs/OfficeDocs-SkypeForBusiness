@@ -130,7 +130,7 @@ You'll be presented with integration records for patient and provider launch. Th
 
 After completing the EHR connector steps and Cerner configuration steps, your organization is ready to support video visits with Teams.
 
-### Prerequisites
+### Virtual visits prerequisites
 
 - Your systems must meet all [software and browser requirements](../../hardware-requirements-for-the-teams-app.md) for Teams.
 - You completed the integration setup between the Cerner organization and your Microsoft 365 organization.
