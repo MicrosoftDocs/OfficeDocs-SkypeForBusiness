@@ -14,10 +14,9 @@ ms.localizationpriority: medium
 ms.collection:
 description: "Summary: Skype for Business Server Control panel to Cmdlet mapping."
 ---
-
 # Client Version Policy
 
- The **CLIENT VERSION POLICY** component of the **Client** tab returns information about the clients supported in Skype for Business Server environment. A client version policy enables you to specify those clients who can sign in to Skype for Business Server system.
+The **CLIENT VERSION POLICY** sub tab under **Client** tab returns information about the clients supported in Skype for Business Server environment. A client version policy enables you to specify those clients who can sign in to Skype for Business Server system.
 
 Let us consider the various tasks a user can do on **CLIENT VERSION POLICY**, and the Skype for Business cmdlets those tasks map to.
 
@@ -25,7 +24,7 @@ Let us consider the various tasks a user can do on **CLIENT VERSION POLICY**, an
 > **Scenario 1**: Lists all the client version policies
 
    ![Client Version Policy](./media/ClientVersionPolicy-1.png)
- 
+
 ***Cmdlet***
 
 [Get-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/get-csclientversionpolicy?view=skype-ps)
@@ -88,7 +87,7 @@ Let us consider the various tasks a user can do on **CLIENT VERSION POLICY**, an
 
 > **Scenario 5**: Updates a client version policy
 
-   ![Client Version Policy](./media/ClientVersionPolicy-5678.png)
+   ![Client Version Policy](./media/ClientVersionPolicy-5.png)
 
 - **Annotation 1 - Result**
 
@@ -153,9 +152,10 @@ Let us consider the various tasks a user can do on **CLIENT VERSION POLICY**, an
     ```
 
 ---
+
 ## Client Version Configuration
 
- The **CLIENT VERSION CONFIGURATION** component returns information about the clients supported in Skype for Business Server environment.
+ The **CLIENT VERSION CONFIGURATION** sub tab returns information about the clients supported in Skype for Business Server environment.
 
 Let us consider the various tasks a user can do on **CLIENT VERSION CONFIGURATION**, and the Skype for Business cmdlets those tasks map to.
 
@@ -242,6 +242,8 @@ Get-CsClientVersionConfiguration | Set-CsClientVersionConfiguration -DefaultURL 
 
 > **Scenario 6**: Enables/disables client version configurations
 
+![Client Version Configuration](./media/ClientVersionConfiguration-6.png)
+
 ***Cmdlet***
 
 [Set-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csclientversionconfiguration?view=skype-ps)
@@ -250,6 +252,93 @@ Get-CsClientVersionConfiguration | Set-CsClientVersionConfiguration -DefaultURL 
 
 ```powershell
 Set-CsClientVersionConfiguration -Identity site:Redmond -Enabled $False
+```
+
+---
+
+## Device Update
+
+**DEVICE UPDATE** rules are used to associate firmware updates with devices that run Skype for Business Phone Edition.
+
+Let us consider the various tasks a user can do on **DEVICE UPDATE**, and the Skype for Business cmdlets those tasks map to.
+
+---
+> **Functionality 1**: Lists all the device updates
+
+   ![Device Update](./media/Device-Update-1.png)
+
+***Cmdlet***
+
+[Get-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/get-csdeviceupdaterule?view=skype-ps)
+
+***Example***
+
+```powershell
+ Get-CsDeviceUpdateRule
+```
+
+---
+
+> **Functionality 2**: Delete device update
+
+   ![Device Update](./media/Device-Update-2.png)
+
+***Cmdlet***
+
+[Remove-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csdeviceupdaterule?view=skype-ps)  
+
+***Example***
+
+```powershell
+ Remove-CsDeviceUpdateRule -Identity service:WebServer:atl-cs-001.litwareinc.com/d5ce3c10-2588-420a-82ac-dc2d9b1222ff9
+```
+
+---
+
+> **Functionality 3**: Cancel device update
+
+   ![Device Update](./media/Device-Update-3.png)
+
+***Cmdlet***
+
+[Clear-CsDeviceUpdateFile](https://docs.microsoft.com/en-us/powershell/module/skype/clear-csdeviceupdatefile?view=skype-ps)
+
+***Example***
+
+```powershell
+ Clear-CsDeviceUpdateFile -Identity "service:WebServer:atl-cs-001.litwareinc.com"
+```
+
+---
+
+> **Functionality 4**: Approve device update
+
+   ![Device Update](./media/Device-Update-4.png)
+
+***Cmdlet***
+
+[Approve-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/approve-csdeviceupdaterule?view=skype-ps)
+
+***Example***
+
+```powershell
+ Approve-CsDeviceUpdateRule -Identity service:WebServer:atl-cs-001.litwareinc.com/d5ce3c10-2588-420a-82ac-dc2d9b1222ff9
+```
+
+---
+
+> **Functionality 5**: Restore device update
+
+   ![Device Update](./media/Device-Update-5.png)
+
+***Cmdlet***
+
+[Restore-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/restore-csdeviceupdaterule?view=skype-ps)
+
+***Example***
+
+```powershell
+ Restore-CsDeviceUpdateRule -Identity service:WebServer:atl-cs-001.litwareinc.com/d5ce3c10-2588-420a-82ac-dc2d9b1222ff9
 ```
 
 ---
@@ -267,7 +356,7 @@ Let us consider the various tasks a user can do on **TEST DEVICE**, and the Skyp
 
 ***Cmdlet***
 
-[Get-CsTestDevice](https://docs.microsoft.com/en-us/powershell/module/skype/get-cstestdevice?view=skype-ps)
+[Get-CsTestDevice](https://docs.microsoft.com/en-us/powershell/module/skype/get-csdeviceupdaterule?view=skype-ps)
 
 ***Example***
 
@@ -322,6 +411,7 @@ Let us consider the various tasks a user can do on **TEST DEVICE**, and the Skyp
 ```powershell
  Remove-CsTestDevice -Identity site:Redmond
 ```
+
 ---
 
 > **Scenario 5**: Updates a test device
@@ -342,7 +432,7 @@ Set-CsTestDevice -Identity site:Redmond/UCPhone -IdentifierType SerialNumber -Id
 
 ## Device Log Configuration
 
-**DEVICE LOG CONFIGURATION** component's settings help manage the Device Update Web service, a Skype for Business Server component that enables administrators to distribute firmware updates to telephones and other devices that run Skype for Business.
+**DEVICE LOG CONFIGURATION** helps manage the Device Update Web service, a Skype for Business Server component that enables administrators to distribute firmware updates to telephones and other devices that run Skype for Business.
 
 Let us consider the various tasks a user can do on **DEVICE LOG CONFIGURATION**, and the Skype for Business cmdlets those tasks map to.
 
@@ -406,7 +496,7 @@ Let us consider the various tasks a user can do on **DEVICE LOG CONFIGURATION**,
 ***Example***
 
 ```powershell
- Remove-CsTestDevice -Identity site:Redmond
+ Remove-CsDeviceUpdateConfiguration -Identity site:Redmond
 ```
 
 ---
@@ -434,6 +524,7 @@ Set-CsDeviceUpdateConfiguration -Identity global -MaxLogFileSize 2048000 -MaxLog
 Let us consider the various tasks a user can do on **DEVICE CONFIGURATION**, and the Skype for Business cmdlets those tasks map to.
 
 ---
+
 > **Scenario 1**: Lists all the mobility policies
 
    ![Device Configuration](./media/Device-Configuration-1.png)
@@ -521,6 +612,7 @@ Let us consider the various tasks a user can do on **DEVICE CONFIGURATION**, and
 Let us consider the various tasks a user can do on **MOBILITY POLICY**, and the Skype for Business cmdlets those tasks map to.
 
 ---
+
 > **Scenario 1**: Lists all the mobility policies
 
    ![Mobility Policy](./media/Mobility-Policy-1.png)
@@ -608,6 +700,7 @@ The **PUSH NOTIFICATION SERVICE** (Apple Push Notification Service and Microsoft
 Let us consider the various tasks a user can do on **PUSH NOTIFICATION CONFIGURATION**, and the Skype for Business cmdlets those tasks map to.
 
 ---
+
 > **Scenario 1**: Lists all the mobility policies
 
    ![Push Notification Configuration](./media/Push-Notification-Config-1.png)
@@ -687,3 +780,4 @@ Let us consider the various tasks a user can do on **PUSH NOTIFICATION CONFIGURA
 ```
 
 ---
+
