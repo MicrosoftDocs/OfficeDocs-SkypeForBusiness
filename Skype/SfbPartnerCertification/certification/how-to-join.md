@@ -91,7 +91,7 @@ Programs that are not listed below are currently closed.
 		<tr align="left" valign="top">
 			<td>Meeting Room Devices and Solutions</td>
 			<td>Not seeking partners</td>
-			<td"><br />Available on admission to program</td>
+			<td><br />Available on admission to program</td>
 		</tr>
 		<tr align="left" valign="top">
 			<td rowspan="5"><strong>Infrastructure</strong></td>
