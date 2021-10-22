@@ -16,7 +16,7 @@ ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: "Learn to install and configure watcher nodes for Skype for Business Server synthetic transactions."
 ---
 
-# Install and configure watcher nodes
+# Learn to install and configure watcher nodes
  
 **Summary:** Install and configure watcher nodes for Skype for Business Server synthetic transactions.
   
