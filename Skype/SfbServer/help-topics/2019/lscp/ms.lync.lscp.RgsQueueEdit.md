@@ -1,7 +1,7 @@
 ---
 title: "Response Groups Queue Create New or Edit Existing"
-ms.reviewer: v-mahoffman 
-ms.author: v-cichur
+ms.reviewer:   
+ms.author: v-mahoffman
 author: serdars
 manager: serdars
 audience: ITPro
