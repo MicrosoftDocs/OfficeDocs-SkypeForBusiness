@@ -1,0 +1,164 @@
+---
+title: Virtual visits with Teams - Integration into Cerner EHR
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
+audience: ITPro
+ms.topic: conceptual
+ms.service: msteams
+search.appverid: MET150
+searchScope:
+  - Microsoft Teams
+  - Microsoft Cloud for Healthcare
+f1.keywords:
+- NOCSH
+ms.localizationpriority: high
+ms.collection: 
+  - M365-collaboration
+  - Teams_ITAdmin_Healthcare
+  - microsoftcloud-healthcare
+  - m365solution-healthcare
+  - m365solution-scenario
+appliesto: 
+  - Microsoft Teams
+ms.reviewer: ansantam 
+description: Learn how to integrate the Teams EHR connector to enable healthcare providers in your organization to conduct virtual visits with patients or other providers in Teams directly from the Cerner EHR system. 
+---
+
+# Virtual visits with Teams - Integration into Cerner EHR
+
+The Microsoft Teams Electronic Health Record (EHR) connector makes it easy for clinicians to conduct a virtual visit with a patient or consult with another provider in Microsoft Teams directly from your Cerner EHR system. Built on the Microsoft 365 cloud, Teams enables simple, secure collaboration and communication with chat, video, voice, and healthcare tools in a single hub that supports compliance with HIPAA, HITECH certification, and more.
+
+The communication and collaboration platform of Teams makes it easy for clinicians to cut through the clutter of fragmented systems so they can focus on providing the best possible care. With the Teams EHR connector, you can:
+
+- Conduct Teams virtual visits from your Cerner EHR system with an integrated clinical workflow.
+- Enable patients to join Teams virtual visits from email or SMS notifications.
+- View consumption data reports and customizable Call Quality information for EHR connected visits.
+
+This article describes how to set up and configure the Teams EHR connector to integrate with the Cerner platform and gives you an overview of the Teams virtual visits experience from the Cerner EHR system.
+
+## Before you begin
+
+> [!NOTE]
+> Make sure you talk to your Cerner representative and review your Cerner integration guide before you enable the integration.
+
+### Prerequisites
+
+Before you integrate the Teams EHR connector in your healthcare organization, you must have the following:
+
+- An active subscription to Microsoft Teams EHR connector standalone offer (only enforced while testing in a production EHR environment).
+- An appropriate Microsoft 365 or Office 365 license that includes Teams meetings.
+- Teams is adopted and used in your healthcare organization.
+- Your systems meet all [software and browser requirements](../../hardware-requirements-for-the-teams-app.md) for Teams.
+- Cerner version November 2018 or later
+
+## Set up the Teams EHR connector
+
+The connector setup requires that you:
+
+- [Launch the EHR connector configuration portal](#launch-the-ehr-connector-configuration-portal)
+- [Enter configuration information](#enter-configuration-information)
+- [Enable SMS notifications (optional)](#enable-sms-notifications-optional)
+- [Review and finish the configuration](ehr-admin-cerner.md#review-and-finish-the-configuration)
+
+> [!IMPORTANT]
+> These steps must be completed by the Microsoft 365 global admin in your organization.  
+
+### Launch the EHR connector configuration portal
+
+To get started, your Microsoft 365 admin launches the EHR connector configuration portal and signs in using their Microsoft credentials.
+  
+The URL of the EHR connector configuration portal is https://ehrconnector.teams.microsoft.com.
+
+Your Microsoft 365 admin can configure a single department or multiple departments to test the integration. Configure the test and production URL in the configuration portal. Make sure to test the integration from the Cerner test environment before moving to production.
+
+### Enter configuration information
+
+Next, to set up the integration, your Microsoft 365 admin adds the Fast Health Interoperability Resources (FHIR) base URL from Cerner and specifies the environment.
+
+- The FHIR base URL is a static address that corresponds to your server FHIR API endpoint. An example URL is https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST.
+
+- You can set up the integration for test and production environments. For initial set up, we encourage you to configure the connector from a test environment before moving to production.
+
+Your Microsoft 365 admin can configure as many FHIR base URLs as needed, depending on your organization’s needs and the environments you want to test.
+
+After the FHIR base URL is validated and the environment is selected, choose **Done**. You can then add more FHIR base URLs for other environments, as needed.
+
+Select **Next** to go to the next step.
+
+### Enable SMS notifications (optional)
+
+Complete this step if your organization wants Microsoft to manage SMS notifications for your patients. When you enable SMS notifications, your patients will receive confirmation and reminder messages for scheduled virtual visits.
+
+To enable SMS notifications, your Microsoft 365 admin does the following:
+
+1. Select the consent checkbox that allows Microsoft to send notifications on behalf of your organization. [Link to Privacy message].
+2. Provision a phone number for your organization by selecting **Generate phone number**. Doing this starts the process to request and generate new phone number, which can take up to 2 minutes.
+
+    After the phone number is generated, it's displayed on the screen. This number will be used to send SMS confirmations and reminders to your patients. The number has been provisioned but isn’t linked to the FHIR base URL yet. You do that in the next step.
+
+    Choose **Done**, and then select **Next**.
+
+3. To link the phone number to a FHIR base URL, under **Phone number** in the **SMS configuration** section, select the number. Do this for each FHIR base URL for which you want to enable SMS notifications.
+
+    If this is the first time you’re configuring the connector, you’ll see the FHIR base URL that was entered in the earlier step. The same phone number can be linked to multiple FHIR base URLs, which means that patients will receive SMS notifications from the same phone number for different organizations and/or departments.
+
+4. Select SMS setup next to each FHIR base URL to set up the types of SMS notifications to send to your patients.
+
+    - **Confirmation SMS**: Notifications are sent to patients when an appointment is scheduled, rescheduled, or canceled in the EHR system.
+    - **Reminder SMS**: Notifications are sent to patients according to the time interval you specify and the scheduled appointment time.
+
+    Choose **Save**, and then select **Next**.
+
+### Review and finish the configuration
+
+You'll be presented with integration records for patient and provider launch. These records are necessary to complete the virtual visit configuration in Cerner. See the Cerner-Microsoft Teams Telehealth Integration guide for more details.
+
+> [!NOTE]
+> At any time, your Microsoft 365 admin can sign in to the configuration portal to view integration records and change configuration settings, if needed.
+
+## Launch Teams virtual visits
+
+After completing the EHR connector steps and Cerner configuration steps, your organization is ready to support video visits with Teams.
+
+### Prerequisites
+
+- Your systems must meet all [software and browser requirements](../../hardware-requirements-for-the-teams-app.md) for Teams.
+- You completed the integration setup between the Cerner organization and your Microsoft 365 organization.
+
+### Provider experience
+
+Healthcare providers in your organization can join virtual visits using Teams from the PowerChart portal. The provider must navigate to the patient board where the Teams option is available.
+
+From there, the provider can view virtual visit information, join virtual visits, and send the meeting link. After the one-time sign-in, the provider is taken directly to the virtual appointment in Teams.
+
+Key features of the provider experience:
+
+- Providers can join virtual visits using supported browsers or the Teams app.
+- Providers can use all supported Teams meeting features, including screen sharing, custom background, and recording.
+- Providers can see real-time updates of patients connecting to a virtual visit for a given appointment in PowerChart.
+- Provider information isn’t visible to patients during the virtual visit.
+
+### Patient experience
+
+The connector supports patients joining virtual visits through a link in the SMS text message or the Cerner patient portal. At the time of the appointment, patients can start a virtual visit by tapping the link in the SMS text message. Patients can also join a visit from the patient portal by clicking the Microsoft Teams button.
+
+Key features of the patient experience:
+
+- Patients can join virtual visits from modern web browsers on desktop and [mobile without having to install the Teams app](../mobile-browser-join.md).
+- Patients can join virtual visits with a single click and no other account or sign-in is required.
+- Patients aren't required to create a Microsoft account or sign in to launch a virtual visit.
+- Patients are placed in a lobby until the provider joins the appointment and admits them to the virtual visit.
+- Patients can test their video and microphone in the lobby before joining the virtual visit.
+
+## Privacy and location of data
+
+Teams integration into EHR systems optimizes the amount of data that’s used and stored during integration and virtual visit flows. The solution follows the overall Teams privacy and data management principles and guidelines outlined in Teams Privacy.
+The Teams EHR connector doesn't store or transfer any identifiable personal data or any health records of patients or healthcare providers from the EHR system. The only data that the EHR connector stores is the EHR user’s unique ID, which is used during Teams meeting setup.
+
+The EHR user’s unique ID is stored in one of the three geographic regions described in [Where your Microsoft 365 customer data is stored](/microsoft-365/enterprise/o365-data-locations). All chats, recordings, and other data shared in Teams by meeting participants are stored according to existing storage policies. To learn more about the location of data in Teams, see [Locations of data in Teams](../../location-of-data-in-teams.md).
+
+## Related articles
+
+[Teams EHR connector admin reports](ehr-admin-reports.md)
+[Get started with Teams for healthcare organizations](teams-in-hc.md)
