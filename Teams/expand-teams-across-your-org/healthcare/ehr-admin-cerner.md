@@ -27,7 +27,7 @@ description: Learn how to integrate the Teams EHR connector to enable healthcare
 
 # Virtual visits with Teams - Integration into Cerner EHR
 
-The Microsoft Teams Electronic Health Record (EHR) connector makes it easy for clinicians to conduct a virtual visit with a patient or consult with another provider in Microsoft Teams directly from your Cerner EHR system. Built on the Microsoft 365 cloud, Teams enables simple, secure collaboration and communication with chat, video, voice, and healthcare tools in a single hub that supports compliance with HIPAA, HITECH certification, and more.
+The Microsoft Teams Electronic Health Record (EHR) connector makes it easy for clinicians to launch a virtual visit with a patient or consult with another provider in Microsoft Teams directly from your Cerner EHR system. Built on the Microsoft 365 cloud, Teams enables simple, secure collaboration and communication with chat, video, voice, and healthcare tools in a single hub that supports compliance with HIPAA, HITECH certification, and more.
 
 The communication and collaboration platform of Teams makes it easy for clinicians to cut through the clutter of fragmented systems so they can focus on providing the best possible care. With the Teams EHR connector, you can:
 
@@ -103,7 +103,7 @@ To enable SMS notifications, your Microsoft 365 admin does the following:
 
     If this is the first time you’re configuring the connector, you’ll see the FHIR base URL that was entered in the earlier step. The same phone number can be linked to multiple FHIR base URLs, which means that patients will receive SMS notifications from the same phone number for different organizations and/or departments.
 
-4. Select SMS setup next to each FHIR base URL to set up the types of SMS notifications to send to your patients.
+4. Select **SMS setup** next to each FHIR base URL to set up the types of SMS notifications to send to your patients.
 
     - **Confirmation SMS**: Notifications are sent to patients when an appointment is scheduled, rescheduled, or canceled in the EHR system.
     - **Reminder SMS**: Notifications are sent to patients according to the time interval you specify and the scheduled appointment time.

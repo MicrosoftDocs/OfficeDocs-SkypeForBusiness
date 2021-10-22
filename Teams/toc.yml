@@ -1494,7 +1494,9 @@ items:
           href: expand-teams-across-your-org/healthcare/teams-in-hc.md
         - name: Virtual visits
           items: 
-            - name: Virtual visits with Teams - Integration into EHR
+            - name: Virtual visits with Teams - Integration into Cerner EHR
+              href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
+            - name: Virtual visits with Teams - Integration into Epic EHR
               href: expand-teams-across-your-org/healthcare/ehr-admin.md
             - name: EHR admin reports
               href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
