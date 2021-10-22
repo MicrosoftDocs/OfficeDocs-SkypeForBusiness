@@ -128,7 +128,7 @@ Programs that are not listed below are currently closed.
 			<td>SIP Trunks</td>
 			<td>No admission review required:<br />Contact labs for testing</td>
 			<td><a href="https://download.microsoft.com/download/8/7/5/8752C5DB-C318-4066-AE09-362D7D51D5FE/TDS_SfB_Server_2015_Infrastructure_Interoperability_Program_DOCUMENTS_ALL.zip">SIP Trunk Specs (download)</a></td>
-			<td" valign="top">
+			<td>
 				<p><a href="http://www.tekvizion.com/premier-tenants/microsoft">Tekvizion</a></p>
 				<p><a href="http://www.taas.wipro.com/user/certifications-and-qualifications-testing/unified-communications-open-interoperability-program-lync-server-rfp.aspx">Wipro</a></p>
 			</td>
@@ -140,12 +140,12 @@ Programs that are not listed below are currently closed.
 			<td rowspan="2">
 				<p>Available on admission to program</p>
 			</td>
-			<td">N/A</td>
+			<td>N/A</td>
 		</tr>
 		<tr align="left" valign="top">
 			<td>Migration</td>
 			<td>Not seeking partners</td>
-			<td">
+			<td>
 				<p><a href="http://www.tekvizion.com/premier-tenants/microsoft">Tekvizion</a></p>
 				<p><a href="http://www.taas.wipro.com/user/certifications-and-qualifications-testing/unified-communications-open-interoperability-program-lync-server-rfp.aspx">Wipro</a></p>
 			</td>
@@ -153,9 +153,9 @@ Programs that are not listed below are currently closed.
 		<tr align="left" valign="top">
 			<td><strong>Video</strong></td>
 			<td>Video Infrastructure</td>
-			<td">Not seeking partners</td>
-			<td">Available on admission to program</td>
-			<td">Coming<br />Soon</td>
+			<td>Not seeking partners</td>
+			<td>Available on admission to program</td>
+			<td>Coming<br />Soon</td>
 		</tr>
 		<tr align="left" valign="top">
 			<td rowspan="3"><strong>ISV</strong></td>
