@@ -1,7 +1,7 @@
 ---
 title: Auto Attendant & Call Queue Historical Report
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
