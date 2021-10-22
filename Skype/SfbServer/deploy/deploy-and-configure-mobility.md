@@ -312,7 +312,7 @@ We have two main things to consider:
     
    - **Accept requests**, but it should be for the domain name.
     
-   - For the **Name**, you should enter **lyncdiscover.** <sipdomain> (this is the external Autodiscover Service URL). Now, if you're creating a rule for the external Web Services URL on the Front End pool, you'll need to type the FQDN for the external Web Services on your Front End pool (for example, lyncwebextpool01.contoso.com).
+   - For the **Name**, you should enter **lyncdiscover.**\<sipdomain> (this is the external Autodiscover Service URL). Now, if you're creating a rule for the external Web Services URL on the Front End pool, you'll need to type the FQDN for the external Web Services on your Front End pool (for example, lyncwebextpool01.contoso.com).
     
    - There will be a **Path** option, and you'll need to enter **/\\*** here.
     
@@ -358,7 +358,7 @@ We have two main things to consider:
     
    - **Accept requests**, but it should be for the domain name.
     
-   - For the **Name**, you should enter **lyncdiscover.** <sipdomain> (this is the external Autodiscover Service URL).
+   - For the **Name**, you should enter **lyncdiscover.**\<sipdomain> (this is the external Autodiscover Service URL).
     
    - There will be a **Path** option, and you'll need to enter **/\\*** here.
     

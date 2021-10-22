@@ -150,7 +150,7 @@ When you’re integrating Microsoft Skype for Business Server with Exchange Unif
 - Creates a UM hunt group for each UM IP gateway. The pilot identifier of each hunt group specifies the UM SIP URI dial plan used by the Skype for Business Server Front End pool or Standard Edition server that’s associated with the UM IP gateway.
 - Grants Skype for Business Server permission to read Active Directory UM container objects such as UM dial plans, auto attendants, UM IP gateways, and UM hunt groups.
   > [!IMPORTANT]
-  > Each UM forest must be configured to trust the forest in which Skype for Business Server is deployed, and the forest in which Skype for Business Server 2013 is deployed must be configured to trust each UM forest. If Exchange UM is installed in multiple forests, the Exchange Server integration steps must be performed for each UM forest or you’ll have to specify the Skype for Business Server domain. For example, ExchUcUtil.ps1 –Forest:<lync-domain-controller-fqdn>. 
+  > Each UM forest must be configured to trust the forest in which Skype for Business Server is deployed, and the forest in which Skype for Business Server 2013 is deployed must be configured to trust each UM forest. If Exchange UM is installed in multiple forests, the Exchange Server integration steps must be performed for each UM forest or you’ll have to specify the Skype for Business Server domain. For example, ExchUcUtil.ps1 –Forest:\<lync-domain-controller-fqdn>. 
 
 ### Use the Shell to run the ExchUcUtil.ps1 script
 

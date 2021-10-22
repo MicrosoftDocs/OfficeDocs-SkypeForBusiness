@@ -61,7 +61,7 @@ Watch the video steps for **create a file share**:
 > [!NOTE]
 >If the file store is hosted on a DFS share, the following warning will be received:
 
-Warning: Unable to access share permissions for "\\<domain>\<share>".
+`Warning: Unable to access share permissions for "\\<domain>\<share>".`
 
 >This is expected if you are not an administrator on the file server, or if this is a Distributed File System (DFS) share. If the share permissions have already been configured, this warning can be ignored. If it is a new share, refer to the documentation for details on manually configuring share permissions.
 
