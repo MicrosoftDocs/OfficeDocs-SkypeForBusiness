@@ -28,7 +28,7 @@ Dial-in audio conferencing, which is the ability to dial into scheduled Skype fo
 
 Vendors listed in the following table have been certified for Skype for Business Online.
 
-<table border="1" cellpadding="5" cellspacing="" class="grid";background-color:white;" >
+<table border="1" cellpadding="5" cellspacing="" class="grid" >
 	<colgroup>
 		<col width="100" />
 		<col />

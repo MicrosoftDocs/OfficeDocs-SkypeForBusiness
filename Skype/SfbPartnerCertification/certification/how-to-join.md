@@ -49,7 +49,7 @@ Vendors that meet the general requirements for partners above may follow the pro
 ## Current programs
 Programs that are not listed below are currently closed.
 
-<table border="1" cellpadding="1" cellspacing="" class="grid";background-color:white width=" width="750" xmlns="http://www.w3.org/1999/xhtml">
+<table border="1" cellpadding="1" cellspacing="" class="grid">
 		<colgroup>
 			<col width="115" />
 			<col width="200" />
@@ -68,7 +68,7 @@ Programs that are not listed below are currently closed.
 			<td rowspan="4"><strong>Devices</strong></td>
 			<td>IP Phones</td>
 			<td>Not seeking partners</td>
-			<td">Available on admission to program</td>
+			<td>Available on admission to program</td>
 			<td>
 				<p><a href="http://www.tekvizion.com/premier-tenants/microsoft">Tekvizion</a></p>
 				<p><a href="http://www.taas.wipro.com/user/certifications-and-qualifications-testing/unified-communications-open-interoperability-program-lync-server-rfp.aspx">Wipro</a></p>

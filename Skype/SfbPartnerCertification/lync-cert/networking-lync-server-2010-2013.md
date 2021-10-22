@@ -1,7 +1,7 @@
 ---
 title: "Partner qualification for Lync"
 ms.author: v-cichur
-author: cichur
+author: v-mahoffman
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -33,7 +33,7 @@ For more information about these products, contact the listed partner.
 
 ## WiFi
 
-<table border="1" cellpadding="5" cellspacing="" class="grid";" width="100%">
+<table>
 	<colgroup>
 		<col width="138" />
 		<col width="510" />
