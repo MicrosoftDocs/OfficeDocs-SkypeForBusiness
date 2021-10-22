@@ -73,9 +73,10 @@ Once you get your toll and/or toll-free phone numbers for your conferencing brid
 
 Follow these steps to assign a new phone number to your audio conferencing bridge.
 
- 1. Go to the **Microsoft Teams admin center**.
- 2. Select **Voice** > **Phone numbers**.
- 3. Select the phone number, and click **Assign**.
+ **Using the Microsoft Teams admin center**:
+
+ 1. From the Home, go to **Voice** > **Phone numbers**.
+ 2. Select the phone number, and click **Assign**.
 
 For more details, see [Change the phone numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
 
