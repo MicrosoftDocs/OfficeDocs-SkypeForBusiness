@@ -41,6 +41,11 @@ To get the latest Session Border Controller firmware with the embedded Survivabl
 - The SBC needs to be configured for Media Bypass to ensure that the Microsoft Teams client in the branch site can have media flowing directly with the SBC. 
 
 - TLS1.2 should be enabled on the SBA VM OS.
+- Ports 3443, 4444 and 8443 are used by Microsoft SBA Server to communicate with Teams client and should be allowed on the Firewall. 
+- Port 5061 (or the one configured on the SBC) is used by Microsoft SBA Server to communicate with SBC and should be allowed on the Firewall. 
+- UDP Port 123 is used by Microsoft SBA Server to communicate with NTP server and should be allowed on the Firewall.
+- Port 443 is used by Microsoft SBA Server to communicate with Microsoft 365 and should be allowed on the Firewall.
+- Azure IP Ranges and Service Tags for the Public Cloud should be defined according to the guidelines described at: https://www.microsoft.com/en-us/download/details.aspx?id=56519
 
 ## Supported Teams clients
 
