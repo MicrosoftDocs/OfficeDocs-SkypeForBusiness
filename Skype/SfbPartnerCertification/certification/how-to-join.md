@@ -76,7 +76,7 @@ Programs that are not listed below are currently closed.
 		</tr>
 		<tr align="left" valign="middle">
 			<td>PCs</td>
-			<td" valign="top">Not seeking partners</td>
+			<td>Not seeking partners</td>
             <td><a href="test-spec.md" data-raw-source="[Skype and Lync test specifications for USB peripherals, PCs, and Lync room systems](test-spec.md)">Skype and Lync test specifications for USB peripherals, PCs, and Lync room systems</a> </td>
 			<td rowspan="3">
 				<p><a href="http://www.asttechlabs.com/">AST</a></p>
