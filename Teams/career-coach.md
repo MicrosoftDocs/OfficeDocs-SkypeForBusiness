@@ -232,7 +232,7 @@ To create the course catalog, put together a list of all courses taught at your 
 
 1. Select **Teams apps** &gt; **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **Career Coach** &gt; **Settings** &gt;  **Course catalog**.
 
-2. Upload courses in CSV format with the required columns: courseId, title, sourceLink. Each row must be include data for each of the required columns. _Including the recommended fields improves the experience for students by returning better search results and skill identification._
+2. Upload courses in CSV format with the required columns: courseId, title, and sourceLink. Each row must include data for each of the required columns. _Including the recommended fields improves the experience for students by returning better search results and skill identification._
 
 4. Select **Submit**.
 
