@@ -19,7 +19,7 @@ appliesto:
 
 # Get started with Teams for Retail
 
-Retail environments, with their rotating schedules and on-the-go staff, have very different needs than other organizations, and the way that you approach using Microsoft Teams in this environment differs as well. 
+Retail environments, with their rotating schedules and on-the-go staff, have very different needs than other organizations, and the way that you approach using Microsoft Teams in this environment differs as well.
 
 1. [Set up fundamentals](#set-up-the-fundamentals) - Support your workforce with the fundamentals: managing accounts and devices, and making sure that the appropriate Teams policies are applied.
 1. [Choose the scenarios](#choose-your-scenarios) you want to implement for your business.
@@ -35,11 +35,11 @@ Lay the right foundation for your workers by choosing appropriate licenses for t
 
 ### Licensing
 
-Retail staff is typically a mobile workforce: frontline workers and managers who aren't tied to computers all day, unlike corporate staff. So the tools and apps they need are different. Microsoft 365 for Frontline Workers provides a feature set tailored to this audience. See more at [Licensing options for frontline workers](flw-licensing-options.md).
+Retail staff is typically a mobile workforce: frontline workers and managers who aren't tied to computers all day, unlike corporate staff. So the tools and apps they need are different. Microsoft 365 for Frontline Workers provides a feature set tailored to this audience. See more at [Licensing options for frontline workers](../flw-licensing-options.md).
 
 ### Accounts
 
-With high turnover, the ability to add and remove accounts quickly, and get the right policies assigned is key. Get started with the Frontline Worker Onboarding wizard in the Microsoft 365 admin center. The wizard sets up a team for your frontline workers and assigns licenses and policy packages to each team member. For more information, see [Use the Frontline Worker onboarding wizard to get your frontline workforce up and running](flw-onboarding-wizard.md).
+With high turnover, the ability to add and remove accounts quickly, and get the right policies assigned is key. Get started with the Frontline Worker Onboarding wizard in the Microsoft 365 admin center. The wizard sets up a team for your frontline workers and assigns licenses and policy packages to each team member. For more information, see [Use the Frontline Worker onboarding wizard to get your frontline workforce up and running](../flw-onboarding-wizard.md).
 
 If you have a lot of users to add (more than 100), you can quickly provision users and teams and assign all relevant policies with a [scripted deployment for frontline worksers](../flw-scripted-deployment.md).
 
@@ -47,13 +47,13 @@ The presence of Frontline Workers is often less predictable than other staff as 
 
 ### Devices
 
-Because the workforce is largely mobile, managing accounts and devices is a key fundamental for retail environments. You need to set a secure, compliant baseline with managed devices for your workforce to use, whether that's a shared device or an employee's own device. See more at [TBD](). Point to Azure AD, InTune, RealWear info.
+Because the workforce is largely mobile, managing accounts and devices is a key fundamental for retail environments. You need to set a secure, compliant baseline with managed devices for your workforce to use, whether that's a shared device or an employee's own device. See more at [TBD - Point to Azure AD, InTune, RealWear info.]().
 
 ### Policies
 
-Ensure that your sales associates and other frontline workers have the appropriate access to Teams functionality by configuring the appropriate policy packages. Teams policies help control what users in specific roles can do. The [Frontline worker and Frontline manager policy packages](/manage-policy-packages.md#policy-packages-included-in-teams) are tailored to be appropriate for frontline workforces like those in retail stores.
+Ensure that your sales associates and other frontline workers have the appropriate access to Teams functionality by configuring the appropriate policy packages. Teams policies help control what users in specific roles can do. The [Frontline worker and Frontline manager policy packages](../manage-policy-packages.md#policy-packages-included-in-teams) are tailored to be appropriate for frontline workforces like those in retail stores.
 
-Microsoft Teams integrates with the Shifts app and Frontline Worker, which can be used to coordinate shift staffing features and more. For example, in Shifts, store managers can set up and coordinate schedules for their staff, and employees can check schedules and swap shifts. Teams includes a built-in Frontline Worker app setup policy that you can assign to Frontline Workers in your organization. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. This policy controls behavior for these apps, for example, pinning the Shifts app to the app bar so the team can quickly access it. To learn more, see [Manage the Shifts app for your organization in Microsoft Teams](/shifts/manage-the-shifts-app-for-your-organization-in-teams.md).
+Microsoft Teams integrates with the Shifts app and Frontline Worker, which can be used to coordinate shift staffing features and more. For example, in Shifts, store managers can set up and coordinate schedules for their staff, and employees can check schedules and swap shifts. Teams includes a built-in Frontline Worker app setup policy that you can assign to Frontline Workers in your organization. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. This policy controls behavior for these apps, for example, pinning the Shifts app to the app bar so the team can quickly access it. To learn more, see [Manage the Shifts app for your organization in Microsoft Teams](shifts/manage-the-shifts-app-for-your-organization-in-teams.md).
 
 ## Choose your scenarios
 
@@ -63,37 +63,54 @@ Microsoft 365 and Microsoft Teams offer several capabilities that can help retai
 
 Bring in-store associates and management together to collaborate and streamline operations with Microsoft Teams and Teams apps.
 
-Key apps: Shifts, Walkie Talkie, Tasks, Approvals, Chat, Praise, Lists, Files
-Additional products: Power Platform and Power Apps
+**Key apps:** Shifts, Walkie Talkie, Tasks, Approvals, Chat, Praise, Lists, Files
+
+**Additional products:** Power Platform and Power Apps
 
 ### Cross-store communication and collaboration
 
-Key apps: Shifts, Walkie Talkie, Tasks, Approvals, Chat, Praise, Lists, Files
-Additional products: Power Platform and Power Apps
+Staff members can communicate and collaboration across multiple stores in a region, or with headquarters using the same tools and apps you use within your store.
+
+**Key apps:** Shifts, Walkie Talkie, Tasks, Approvals, Chat, Praise, Lists, Files
+
+**Additional products:** Power Platform and Power Apps
 
 ### Customer virtual visits
 
-Key apps: Meet, Bookings
+The Bookings app in Microsoft Teams gives organizations a simple way to schedule and manage virtual appointments for staff and attendees. Use it to schedule virtual appointments such virtual shopping experiences.
+
+**Key apps:** Meet, Bookings
+
 More information: [Virtual visits with Microsoft Teams and the Bookings app](bookings-virtual-visits.md)
 
 ### Curbside pickup
 
 Use Teams to help your store employees communicate and deliver products directly to customers when they come to pick them up.
 
-Key apps: Tasks, Approvals, Chat, Walkie Talkie
+**Key apps:** Tasks, Approvals, Chat, Walkie Talkie
 
 ### Corporate communications
 
-Additional products: Viva Connections, SharePoint, Yammer
+Employee engagement is a significant contributor to workplace satisfaction, loyalty, and productivity at any organization. Learn how to keep everyone informed and engaged using SharePoint, Microsoft Teams, Yammer, Stream, and Viva Connections.
+
+**Additional products:** Viva Connections, SharePoint, Stream, Yammer
+
+More information: [Organizational communications: Guidance, methods, and products](/sharepoint/corporate-communications-overview)
 
 ### Onboarding new employees
 
-Additional products: Viva Learning, SharePoint, Yammer
+Make new employee onboarding (NEO) a great experience by fostering an all-in-one hybrid work environment where new employees can find important resources, meet people in their organization, and prepare to be successful in their new role.
 
+**Key apps:** Lists, Live Meetings
+
+**Additional products:** Viva Learning, SharePoint, Yammer
+
+More information: [Onboard new employees](/sharepoint/onboard-employees)
 
 <!-- These scenarios are also part of the Microsoft Cloud for Retail. You can do more with these scenarios when you also use other capabilities from the Microsoft Cloud for Retail, such as Microsoft Dynamics 365. Learn more about using this solution, which brings together capabilities from Azure, Dynamics 365, and Microsoft 365 at [Microsoft Cloud for Retail](/industry/retail). -->
 
-For all of these capabilities, users must have an appropriate license. Office 365 A3, A5, E3, and E5, as well as Microsoft 365 Business Standard, Business Premium, A3, A5, E3, and E5 are supported. You can also use Microsoft 365 Frontline Worker F1 and F3 or Office 365 F3. For more information about general Teams licensing, see Manage user access to Teams. See [Licensing options for frontline workers](flw-licensing-options.md) for more about using Microsoft 365 Frontline Worker in combination with other licenses.
+> [!NOTE]
+> For all of these capabilities, users must have an appropriate license. Office 365 A3, A5, E3, and E5, as well as Microsoft 365 Business Standard, Business Premium, A3, A5, E3, and E5 are supported. You can also use Microsoft 365 Frontline Worker F1 and F3 or Office 365 F3. For more information about general Teams licensing, see [Manage user access to Teams](../user-access.md). See [Licensing options for frontline workers](../flw-licensing-options.md) for more about using Microsoft 365 Frontline Worker in combination with other licenses.
 
 ## Set up Teams and apps
 
