@@ -437,6 +437,7 @@ Set-CsTestDevice -Identity site:Redmond/UCPhone -IdentifierType SerialNumber -Id
 Let us consider the various tasks a user can do on **DEVICE LOG CONFIGURATION**, and the Skype for Business cmdlets those tasks map to.
 
 ---
+
 > **Scenario 1**: Lists all the device log configurations
 
    ![Device Log Configuration](./media/Device-Log-Configuration-1.png)
