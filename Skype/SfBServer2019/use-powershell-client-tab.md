@@ -21,7 +21,7 @@ The **CLIENT VERSION POLICY** sub tab under **Client** tab returns information a
 Let us consider the various tasks a user can do on **CLIENT VERSION POLICY**, and the Skype for Business cmdlets those tasks map to.
 
 ---
-> **Functionality 1**: Lists all the client version policies
+> **Scenario 1**: Lists all the client version policies
 
    ![Client Version Policy](./media/ClientVersionPolicy-1.png)
 
@@ -37,7 +37,7 @@ Let us consider the various tasks a user can do on **CLIENT VERSION POLICY**, an
 
 ---
 
-> **Functionality 2**: Creates a new client version policy
+> **Scenario 2**: Creates a new client version policy
 
    ![Client Version Policy](./media/ClientVersionPolicy-2.png)
 
@@ -53,7 +53,7 @@ Let us consider the various tasks a user can do on **CLIENT VERSION POLICY**, an
 
 ---
 
-> **Functionality 3**: Gets details of a chosen client version policy
+> **Scenario 3**: Gets details of a chosen client version policy
 
    ![Client Version Policy](./media/ClientVersionPolicy-3.png)
 
@@ -69,7 +69,7 @@ Let us consider the various tasks a user can do on **CLIENT VERSION POLICY**, an
 
 ---
 
-> **Functionality 4**: Deletes chosen client version policies
+> **Scenario 4**: Deletes chosen client version policies
 
    ![Client Version Policy](./media/ClientVersionPolicy-4.png)
 
@@ -85,7 +85,7 @@ Let us consider the various tasks a user can do on **CLIENT VERSION POLICY**, an
 
 ---
 
-> **Functionality 5**: Updates a client version policy
+> **Scenario 5**: Updates a client version policy
 
    ![Client Version Policy](./media/ClientVersionPolicy-5.png)
 
@@ -160,7 +160,7 @@ Let us consider the various tasks a user can do on **CLIENT VERSION POLICY**, an
 Let us consider the various tasks a user can do on **CLIENT VERSION CONFIGURATION**, and the Skype for Business cmdlets those tasks map to.
 
 ---
-> **Functionality 1**: Lists all the client version configurations
+> **Scenario 1**: Lists all the client version configurations
 
    ![Client Version Configuration](./media/ClientVersionConfiguration-1.png)
 
@@ -176,7 +176,7 @@ Let us consider the various tasks a user can do on **CLIENT VERSION CONFIGURATIO
 
 ---
 
-> **Functionality 2**: Creates a new client version configuration
+> **Scenario 2**: Creates a new client version configuration
 
    ![Client Version Configuration](./media/ClientVersionConfiguration-2.png)
 
@@ -192,7 +192,7 @@ Let us consider the various tasks a user can do on **CLIENT VERSION CONFIGURATIO
 
 ---
 
-> **Functionality 3**: Gets details of a chosen client version configuration
+> **Scenario 3**: Gets details of a chosen client version configuration
 
    ![Client Version Configuration](./media/ClientVersionConfiguration-3.png)
 
@@ -208,7 +208,7 @@ Let us consider the various tasks a user can do on **CLIENT VERSION CONFIGURATIO
 
 ---
 
-> **Functionality 4**: Deletes chosen client version configurations
+> **Scenario 4**: Deletes chosen client version configurations
 
    ![Client Version Configuration](./media/ClientVersionConfiguration-4.png)
 
@@ -224,7 +224,7 @@ Let us consider the various tasks a user can do on **CLIENT VERSION CONFIGURATIO
 
 ---
 
-> **Functionality 5**: Updates client version configurations
+> **Scenario 5**: Updates client version configurations
 
    ![Client Version Configuration](./media/ClientVersionConfiguration-5.png)
 
@@ -240,7 +240,7 @@ Get-CsClientVersionConfiguration | Set-CsClientVersionConfiguration -DefaultURL 
 
 ---
 
-> **Functionality 6**: Enables/disables client version configurations
+> **Scenario 6**: Enables/disables client version configurations
 
 ![Client Version Configuration](./media/ClientVersionConfiguration-6.png)
 
@@ -350,7 +350,7 @@ The **TEST DEVICE** component provides a way for administrators to test firmware
 Let us consider the various tasks a user can do on **TEST DEVICE**, and the Skype for Business cmdlets those tasks map to.
 
 ---
-> **Functionality 1**: Lists all the test devices
+> **Scenario 1**: Lists all the test devices
 
    ![Test Device](./media/TestDevice-1.png)
 
@@ -366,7 +366,7 @@ Let us consider the various tasks a user can do on **TEST DEVICE**, and the Skyp
 
 ---
 
-> **Functionality 2**: Creates a new test device
+> **Scenario 2**: Creates a new test device
 
    ![Test Device](./media/TestDevice-2.png)
 
@@ -382,7 +382,7 @@ Let us consider the various tasks a user can do on **TEST DEVICE**, and the Skyp
 
 ---
 
-> **Functionality 3**: Gets details of a chosen test device
+> **Scenario 3**: Gets details of a chosen test device
 
    ![Test Device](./media/TestDevice-3.png)
 
@@ -398,7 +398,7 @@ Let us consider the various tasks a user can do on **TEST DEVICE**, and the Skyp
 
 ---
 
-> **Functionality 4**: Deletes a chosen test device
+> **Scenario 4**: Deletes a chosen test device
 
    ![Test Device](./media/TestDevice-4.png)
 
@@ -414,7 +414,7 @@ Let us consider the various tasks a user can do on **TEST DEVICE**, and the Skyp
 
 ---
 
-> **Functionality 5**: Updates a test device
+> **Scenario 5**: Updates a test device
 
    ![Test Device](./media/TestDevice-5.png)
 
@@ -437,7 +437,7 @@ Set-CsTestDevice -Identity site:Redmond/UCPhone -IdentifierType SerialNumber -Id
 Let us consider the various tasks a user can do on **DEVICE LOG CONFIGURATION**, and the Skype for Business cmdlets those tasks map to.
 
 ---
-> **Functionality 1**: Lists all the device log configurations
+> **Scenario 1**: Lists all the device log configurations
 
    ![Device Log Configuration](./media/Device-Log-Configuration-1.png)
 
@@ -453,7 +453,7 @@ Let us consider the various tasks a user can do on **DEVICE LOG CONFIGURATION**,
 
 ---
 
-> **Functionality 2**: Creates a new device log configuration
+> **Scenario 2**: Creates a new device log configuration
 
    ![Device Log Configuration](./media/Device-Log-Configuration-2.png)
 
@@ -469,7 +469,7 @@ Let us consider the various tasks a user can do on **DEVICE LOG CONFIGURATION**,
 
 ---
 
-> **Functionality 3**: Gets details of a chosen device log configuration
+> **Scenario 3**: Gets details of a chosen device log configuration
 
    ![Device Log Configuration](./media/Device-Log-Configuration-3.png)
 
@@ -485,7 +485,7 @@ Let us consider the various tasks a user can do on **DEVICE LOG CONFIGURATION**,
 
 ---
 
-> **Functionality 4**: Deletes chosen device log configurations
+> **Scenario 4**: Deletes chosen device log configurations
 
    ![Device Log Configuration](./media/Device-Log-Configuration-4.png)
 
@@ -501,7 +501,7 @@ Let us consider the various tasks a user can do on **DEVICE LOG CONFIGURATION**,
 
 ---
 
-> **Functionality 5**: Updates device log configurations
+> **Scenario 5**: Updates device log configurations
 
    ![Device Log Configuration](./media/Device-Log-Configuration-5.png)
 
@@ -519,12 +519,13 @@ Set-CsDeviceUpdateConfiguration -Identity global -MaxLogFileSize 2048000 -MaxLog
 
 ## Device Configuration
 
-**DEVICE CONFIGURATION** helps administer information regarding management options for UC phones. This includes such things as the required security mode and whether or not the phone should automatically be locked after a specified period of inactivity.
+**DEVICE CONFIGURATION** helps administer information regarding management options for UC phones. These options include the required security mode and whether or not the phone should automatically be locked after a specified period of inactivity.
 
 Let us consider the various tasks a user can do on **DEVICE CONFIGURATION**, and the Skype for Business cmdlets those tasks map to.
 
 ---
-> **Functionality 1**: Lists all the mobility policies
+
+> **Scenario 1**: Lists all the mobility policies
 
    ![Device Configuration](./media/Device-Configuration-1.png)
 
@@ -540,7 +541,7 @@ Let us consider the various tasks a user can do on **DEVICE CONFIGURATION**, and
 
 ---
 
-> **Functionality 2**: Creates a new device configuration
+> **Scenario 2**: Creates a new device configuration
 
    ![Device Configuration](./media/Device-Configuration-2.png)
 
@@ -556,7 +557,7 @@ Let us consider the various tasks a user can do on **DEVICE CONFIGURATION**, and
 
 ---
 
-> **Functionality 3**: Gets details of a chosen device configuration
+> **Scenario 3**: Gets details of a chosen device configuration
 
    ![Device Configuration](./media/Device-Configuration-3.png)
 
@@ -572,7 +573,7 @@ Let us consider the various tasks a user can do on **DEVICE CONFIGURATION**, and
 
 ---
 
-> **Functionality 4**: Deletes chosen device configuration
+> **Scenario 4**: Deletes a chosen device configuration
 
    ![Device Configuration](./media/Device-Configuration-4.png)
 
@@ -588,7 +589,7 @@ Let us consider the various tasks a user can do on **DEVICE CONFIGURATION**, and
 
 ---
 
-> **Functionality 5**: Updates device configuration
+> **Scenario 5**: Updates a device configuration
 
    ![Device Configuration](./media/Device-Configuration-5.png)
 
@@ -606,12 +607,13 @@ Let us consider the various tasks a user can do on **DEVICE CONFIGURATION**, and
 
 ## Mobility Policy
 
-**MOBILITY POLICY** determine whether or not a user can use Skype for Business Mobile. These policies also manage a user's ability to employ Call via Work, a feature that enables users to make and receive phone calls on their mobile phone by using their work phone number instead of their mobile phone number. Mobility policies can also be used to require Wi-Fi connections when making or receiving calls.
+**MOBILITY POLICY** determines whether or not a user can use Skype for Business Mobile. These policies also manage a user's ability to employ Call via Work, a feature that enables users to make and receive phone calls on their mobile phone by using their work phone number instead of their mobile phone number. Mobility policies can also be used to make Wi-Fi connections a requirement when making or receiving calls.
 
 Let us consider the various tasks a user can do on **MOBILITY POLICY**, and the Skype for Business cmdlets those tasks map to.
 
 ---
-> **Functionality 1**: Lists all the mobility policies
+
+> **Scenario 1**: Lists all the mobility policies
 
    ![Mobility Policy](./media/Mobility-Policy-1.png)
 
@@ -627,7 +629,7 @@ Let us consider the various tasks a user can do on **MOBILITY POLICY**, and the 
 
 ---
 
-> **Functionality 2**: Creates a new mobility policy
+> **Scenario 2**: Creates a new mobility policy
 
    ![Mobility Policy](./media/Mobility-Policy-2.png)
 
@@ -643,7 +645,7 @@ Let us consider the various tasks a user can do on **MOBILITY POLICY**, and the 
 
 ---
 
-> **Functionality 3**: Gets details of a chosen mobility policy
+> **Scenario 3**: Gets details of a chosen mobility policy
 
    ![Mobility Policy](./media/Mobility-Policy-3.png)
 
@@ -659,7 +661,7 @@ Let us consider the various tasks a user can do on **MOBILITY POLICY**, and the 
 
 ---
 
-> **Functionality 4**: Deletes chosen mobility policy
+> **Scenario 4**: Deletes a chosen mobility policy
 
    ![Mobility Policy](./media/Mobility-Policy-4.png)
 
@@ -675,7 +677,7 @@ Let us consider the various tasks a user can do on **MOBILITY POLICY**, and the 
 
 ---
 
-> **Functionality 5**: Updates mobility policy
+> **Scenario 5**: Updates a mobility policy
 
    ![Mobility Policy](./media/Mobility-Policy-5.png)
 
@@ -693,12 +695,13 @@ Set-CsMobilityPolicy -Identity "site:Redmond" -EnableOutsideVoice $False
 
 ## Push Notification Configuration
 
-The **PUSH NOTIFICATION SERVICE** (Apple Push Notification Service and Microsoft Push Notification Service) provides a way to send notifications about events such as new instant messages or new voice mail to mobile devices such as iPhones and Windows Phones, even if the Skype for Business application on those devices is currently suspended or running in the background.
+The **PUSH NOTIFICATION SERVICE** (Apple Push Notification Service and Microsoft Push Notification Service) provides a way to send notifications about events such as new instant messages or new voice mail to mobile devices such as iPhones and Windows Phones. These notifications are configured to be sent even if the Skype for Business application on those devices is currently suspended or running in the background.
 
 Let us consider the various tasks a user can do on **PUSH NOTIFICATION CONFIGURATION**, and the Skype for Business cmdlets those tasks map to.
 
 ---
-> **Functionality 1**: Lists all the mobility policies
+
+> **Scenario 1**: Lists all the mobility policies
 
    ![Push Notification Configuration](./media/Push-Notification-Config-1.png)
 
@@ -714,7 +717,7 @@ Let us consider the various tasks a user can do on **PUSH NOTIFICATION CONFIGURA
 
 ---
 
-> **Functionality 2**: Creates a new push notification configuration
+> **Scenario 2**: Creates a new push notification configuration
 
    ![Push Notification Configuration](./media/Push-Notification-Config-2.png)
 
@@ -730,7 +733,7 @@ Let us consider the various tasks a user can do on **PUSH NOTIFICATION CONFIGURA
 
 ---
 
-> **Functionality 3**: Gets details of a chosen push notification configuration
+> **Scenario 3**: Gets details of a chosen push notification configuration
 
    ![Push Notification Configuration](./media/Push-Notification-Config-3.png)
 
@@ -746,7 +749,7 @@ Let us consider the various tasks a user can do on **PUSH NOTIFICATION CONFIGURA
 
 ---
 
-> **Functionality 4**: Deletes chosen push notification configuration
+> **Scenario 4**: Deletes a chosen push notification configuration
 
    ![Push Notification Configuration](./media/Push-Notification-Config-4.png)
 
@@ -762,7 +765,7 @@ Let us consider the various tasks a user can do on **PUSH NOTIFICATION CONFIGURA
 
 ---
 
-> **Functionality 5**: Updates push notification configuration
+> **Scenario 5**: Updates a push notification configuration
 
    ![Push Notification Configuration](./media/Push-Notification-Config-5.png)
 
@@ -777,3 +780,4 @@ Let us consider the various tasks a user can do on **PUSH NOTIFICATION CONFIGURA
 ```
 
 ---
+
