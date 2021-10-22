@@ -12,7 +12,7 @@ searchScope:
   - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Healthcare
@@ -27,7 +27,7 @@ description: Learn how to integrate the Teams EHR connector to enable healthcare
 
 # Virtual visits with Teams - Integration into Cerner EHR
 
-The Microsoft Teams Electronic Health Record (EHR) connector makes it easy for clinicians to launch a virtual visit with a patient or consult with another provider in Microsoft Teams directly from your Cerner EHR system. Built on the Microsoft 365 cloud, Teams enables simple, secure collaboration and communication with chat, video, voice, and healthcare tools in a single hub that supports compliance with HIPAA, HITECH certification, and more.
+The Microsoft Teams Electronic Health Record (EHR) connector makes it easy for clinicians to launch a virtual visit with a patient or consult with another provider in Microsoft Teams directly from the Cerner EHR system. Built on the Microsoft 365 cloud, Teams enables simple, secure collaboration and communication with chat, video, voice, and healthcare tools in a single hub that supports compliance with HIPAA, HITECH certification, and more.
 
 The communication and collaboration platform of Teams makes it easy for clinicians to cut through the clutter of fragmented systems so they can focus on providing the best possible care. With the Teams EHR connector, you can:
 
@@ -74,15 +74,15 @@ Your Microsoft 365 admin can configure a single department or multiple departmen
 
 ### Enter configuration information
 
-Next, to set up the integration, your Microsoft 365 admin adds the Fast Health Interoperability Resources (FHIR) base URL from Cerner and specifies the environment.
+Next, to set up the integration, your Microsoft 365 admin adds a Fast Health Interoperability Resources (FHIR) base URL from Cerner and specifies the environment. Configure as many FHIR base URLs as needed, depending on your organization’s needs and the environments you want to test.
 
-- The FHIR base URL is a static address that corresponds to your server FHIR API endpoint. An example URL is https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST.
+- The FHIR base URL is a static address that corresponds to your server FHIR API endpoint. An example URL is `https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST`.
 
 - You can set up the integration for test and production environments. For initial set up, we encourage you to configure the connector from a test environment before moving to production.
 
-Your Microsoft 365 admin can configure as many FHIR base URLs as needed, depending on your organization’s needs and the environments you want to test.
+    :::image type="content" source="../../media/ehr-admin-cerner-configuration.png" alt-text="Screenshot of the Configuration information page of the Teams EHR connector configuration portal.":::
 
-After the FHIR base URL is validated and the environment is selected, choose **Done**. You can then add more FHIR base URLs for other environments, as needed.
+After the FHIR base URL is validated and the environment is selected, choose **Done**. Then, add more FHIR base URLs for other environments, as needed.
 
 Select **Next** to go to the next step.
 
@@ -93,17 +93,26 @@ Complete this step if your organization wants Microsoft to manage SMS notificati
 To enable SMS notifications, your Microsoft 365 admin does the following:
 
 1. Select the consent checkbox that allows Microsoft to send notifications on behalf of your organization. [Link to Privacy message].
-2. Provision a phone number for your organization by selecting **Generate phone number**. Doing this starts the process to request and generate new phone number, which can take up to 2 minutes.
+
+    :::image type="content" source="../../media/ehr-admin-cerner-sms-notifications.png" alt-text="Screenshot of the SMS notifications page, showing consent check boxes and phone number generation option.":::
+
+1. Provision a phone number for your organization by selecting **Generate phone number**. Doing this starts the process to request and generate new phone number. This process might take up to 2 minutes to complete.
 
     After the phone number is generated, it's displayed on the screen. This number will be used to send SMS confirmations and reminders to your patients. The number has been provisioned but isn’t linked to the FHIR base URL yet. You do that in the next step.
 
+    :::image type="content" source="../../media/ehr-admin-cerner-phone-number.png" alt-text="Screenshot of the screen showing an example of the phone number that's generated.":::
+
     Choose **Done**, and then select **Next**.
 
-3. To link the phone number to a FHIR base URL, under **Phone number** in the **SMS configuration** section, select the number. Do this for each FHIR base URL for which you want to enable SMS notifications.
+1. To link the phone number to a FHIR base URL, under **Phone number** in the **SMS configuration** section, select the number. Do this for each FHIR base URL for which you want to enable SMS notifications.
+
+    :::image type="content" source="../../media/ehr-admin-cerner-link-phone-number.png" alt-text="Screenshot  showing how to link a phone number to a FHIR base URL. ":::
 
     If this is the first time you’re configuring the connector, you’ll see the FHIR base URL that was entered in the earlier step. The same phone number can be linked to multiple FHIR base URLs, which means that patients will receive SMS notifications from the same phone number for different organizations and/or departments.
 
-4. Select **SMS setup** next to each FHIR base URL to set up the types of SMS notifications to send to your patients.
+1. Select **SMS setup** next to each FHIR base URL to set up the types of SMS notifications to send to your patients.
+
+    :::image type="content" source="../../media/ehr-admin-cerner-sms-setup.png" alt-text="Screenshot of the SMS setup pane, showing SMS setup options. ":::
 
     - **Confirmation SMS**: Notifications are sent to patients when an appointment is scheduled, rescheduled, or canceled in the EHR system.
     - **Reminder SMS**: Notifications are sent to patients according to the time interval you specify and the scheduled appointment time.
@@ -112,7 +121,7 @@ To enable SMS notifications, your Microsoft 365 admin does the following:
 
 ### Review and finish the configuration
 
-You'll be presented with integration records for patient and provider launch. These records are necessary to complete the virtual visit configuration in Cerner. See the Cerner-Microsoft Teams Telehealth Integration guide for more details.
+You'll be presented with integration records for patient and provider launch. These records are necessary to complete the virtual visit configuration in Cerner. For more information, see the Cerner-Microsoft Teams Telehealth Integration guide.
 
 > [!NOTE]
 > At any time, your Microsoft 365 admin can sign in to the configuration portal to view integration records and change configuration settings, if needed.
@@ -143,7 +152,7 @@ Key features of the provider experience:
 
 The connector supports patients joining virtual visits through a link in the SMS text message or the Cerner patient portal. At the time of the appointment, patients can start a virtual visit by tapping the link in the SMS text message. Patients can also join a visit from the patient portal by clicking the Microsoft Teams button.
 
-Key features of the patient experience:
+Key features of the patient experience
 
 - Patients can join virtual visits from modern web browsers on desktop and [mobile without having to install the Teams app](../mobile-browser-join.md).
 - Patients can join virtual visits with a single click and no other account or sign-in is required.
@@ -154,11 +163,12 @@ Key features of the patient experience:
 ## Privacy and location of data
 
 Teams integration into EHR systems optimizes the amount of data that’s used and stored during integration and virtual visit flows. The solution follows the overall Teams privacy and data management principles and guidelines outlined in Teams Privacy.
+
 The Teams EHR connector doesn't store or transfer any identifiable personal data or any health records of patients or healthcare providers from the EHR system. The only data that the EHR connector stores is the EHR user’s unique ID, which is used during Teams meeting setup.
 
 The EHR user’s unique ID is stored in one of the three geographic regions described in [Where your Microsoft 365 customer data is stored](/microsoft-365/enterprise/o365-data-locations). All chats, recordings, and other data shared in Teams by meeting participants are stored according to existing storage policies. To learn more about the location of data in Teams, see [Locations of data in Teams](../../location-of-data-in-teams.md).
 
 ## Related articles
 
-[Teams EHR connector admin reports](ehr-admin-reports.md)
-[Get started with Teams for healthcare organizations](teams-in-hc.md)
+- [Teams EHR connector admin reports](ehr-admin-reports.md)
+- [Get started with Teams for healthcare organizations](teams-in-hc.md)
