@@ -363,8 +363,6 @@ items:
           items: 
             - name: About guest access
               href: guest-access.md
-            - name: Guest access checklist
-              href: /microsoft-365/solutions/collaborate-as-team
             - name: Guest experience
               href: guest-experience.md
             - name: Turn on guest access or turn off
@@ -1073,6 +1071,8 @@ items:
           href: what-are-dial-plans.md
         - name: Create and manage dial plans
           href: create-and-manage-dial-plans.md
+        - name: Route calls to unassigned numbers
+          href: routing-calls-to-unassigned-numbers.md
         - name: Add and update reporting labels
           href: learn-more-about-site-upload.md
     - name: Network settings and topology
