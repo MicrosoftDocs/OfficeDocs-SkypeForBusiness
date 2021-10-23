@@ -86,7 +86,7 @@ Once you’ve finished setting up the policy, assign the policy to users, groups
 
 ### Use Microsoft PowerShell to configure end-to-end encryption
 
-You can manage end-to-end encryption policies via Microsoft PowerShell in addition to the Teams admin center. Several end-to-end encryption cmdlets are included in the Teams PowerShell module and documented in the Skype for Business cmdlet reference. This article includes a list of the cmdlets you can use and some example use scenarios. For more information about using Microsoft PowerShell with Teams, see [Manage policies via PowerShell](teams-powershell-managing-teams.md#manage-policies-via-powershell).
+You can manage end-to-end encryption policies using Microsoft PowerShell and the Teams admin center. Several end-to-end encryption cmdlets are included in the Teams PowerShell module and documented in the [Microsoft Teams cmdlet reference](/powershell/teams/?view=teams-ps). This article lists the cmdlets you can use and provides example configurations. Complete information about for these cmdlets is provided in the cmdlet reference.
 
 End-to-end encryption PowerShell cmdlets:
 
@@ -100,22 +100,41 @@ End-to-end encryption PowerShell cmdlets:
 
 - [Set-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Set-CsTeamsEnhancedEncryptionPolicy)
 
-#### PowerShell examples
+You'll need a work or school account that has been assigned the Teams or global administrator role to use PowerShell to configure end-to-end encryption for Teams.
 
-Using a work or school account that has been assigned the Teams or global administrator role, 
+#### To turn on end-to-end encryption for your entire tenant
 
-To turn on end-to-end encryption for a single user:
+By default, the global, organization-wide policy specifies that end-to-end encryption is disabled. To enable end-to-end encryption for the entire tenant by setting the default global policy, run the [Set-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Set-CsTeamsEnhancedEncryptionPolicy) cmdlet as follows.
 
-Grant-CsTeamsEnhancedEncryptionPolicy -Identity "kenmeyer@contoso.onmicrosoft.com" -policyname Tag:UserControlled
-
-To turn it on for entire tenant:
+```powershell
 Set-CsTeamsEnhancedEncryptionPolicy -Identity Global -CallingEndtoEndEncryptionEnabledType DisabledUserOverride
+```
 
-To turn it off for a single user (this is true even if the user is a member of a group or the tenant)
+#### To turn on end-to-end encryption for a single user
+
+To enable end-to-end encryption for the entire tenant by setting the default global policy, run the [Grant-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Grant-CsTeamsEnhancedEncryptionPolicy) cmdlet as follows.
+
+```powershell
+Grant-CsTeamsEnhancedEncryptionPolicy -Identity "username" -PolicyName "policyname"
+```
+
+For example:
+
+```powershell
+Grant-CsTeamsEnhancedEncryptionPolicy -Identity "kenmeyerteam@contoso.onmicrosoft.com" -PolicyName "KMeyerTeam_EnhancedEncryptionPolicy"
+```
+
+Example: To turn off end-to-end encryption for a single user. This example works even if the user is a member of a group or tenant for which end-to-end encryption has been turned on
+
+```powershell
 Grant-CsTeamsEnhancedEncryptionPolicy -Identity "kenmeyer@contoso.onmicrosoft.com" CallingEndtoEndEncryptionEnabledType DisabledUserOverride
+```
 
-To turn it off for the entire tenant.
+Example: To turn off end-to-end encryption for the entire tenant
+
+```powershell
 Grant-CsTeamsEnhancedEncryptionPolicy -Identity "kenmeyer@contoso.onmicrosoft.com" CallingEndtoEndEncryptionEnabledType Disabled
+```
 
 ## Switch on end-to-end encryption on your device
 
