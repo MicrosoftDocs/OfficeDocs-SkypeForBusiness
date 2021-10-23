@@ -3,7 +3,7 @@ title: Security guide for Microsoft Teams overview
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
-ms.date: 10/12/2021
+ms.date: 10/23/2021
 ms.topic: reference
 ms.service: msteams
 audience: admin
@@ -31,11 +31,11 @@ Microsoft Teams, as part of the Microsoft 365 and Office 365 services, follows a
 
 ## Trustworthy by design
 
-Teams is designed and developed in compliance with the Microsoft Trustworthy Computing Security Development Lifecycle (SDL), which is described at [Microsoft Security Development Lifecycle (SDL)](https://www.microsoft.com/sdl/default.aspx). The first step in creating a more secure unified communications system was to design threat models and test each feature as it was designed. Multiple security-related improvements were built into the coding process and practices. Build-time tools detect buffer overruns and other potential security threats before the code is checked in to the final product. Of course, it is impossible to design against all unknown security threats. No system can guarantee complete security. However, because product development embraced secure design principles from the start, Teams incorporates industry standard security technologies as a fundamental part of its architecture.
+Teams is designed and developed in compliance with the Microsoft Trustworthy Computing Security Development Lifecycle (SDL), which is described at [Microsoft Security Development Lifecycle (SDL)](https://www.microsoft.com/sdl/default.aspx). The first step in creating a more secure unified communications system was to design threat models and test each feature as it was designed. Multiple security-related improvements were built into the coding process and practices. Build-time tools detect buffer overruns and other potential security threats before the code is checked in to the final product. It's impossible to design against all unknown security threats. No system can guarantee complete security. However, because product development embraced secure design principles from the start, Teams incorporates industry standard security technologies as a fundamental part of its architecture.
 
 ## Trustworthy by default
 
-Network communications in Teams are encrypted by default. By requiring all servers to use certificates and by using OAUTH, TLS, and Secure Real-Time Transport Protocol (SRTP), all Teams data is protected on the network.
+Network communications in Teams are encrypted by default. By requiring all servers to use certificates and by using OAUTH, Transport Layer Security (TLS), and Secure Real-Time Transport Protocol (SRTP), all Teams data is protected on the network.
 
 ## How Teams handles common security threats
 
@@ -43,7 +43,7 @@ This section identifies the more common threats to the security of the Teams Ser
 
 ### Compromised-key attack
 
-Teams uses the PKI features in the Windows Server operating system to protect the key data used for encryption for the Transport Layer Security (TLS) connections. The keys used for media encryptions are exchanged over TLS connections.
+Teams uses the PKI features in the Windows Server operating system to protect the key data used for encryption for the TLS connections. The keys used for media encryptions are exchanged over TLS connections.
 
 ### Network denial-of-service attack
 
@@ -67,13 +67,13 @@ The TURN protocol is used for real-time media purposes. The TURN protocol doesn'
 
 Spoofing occurs when the attacker identifies and then uses an IP address of a network, computer, or network component without being authorized to do so. A successful attack allows the attacker to operate as if the attacker is the entity normally identified by the IP address.
 
-TLS authenticates all parties and encrypts all traffic. Using TLS prevents an attacker from performing IP address spoofing on a specific connection (for example, mutual TLS connections). An attacker could still spoof the address of the DNS server. However, because authentication in Teams is performed with certificates, an attacker would not have a valid certificate required to spoof one of the parties in the communication.
+TLS authenticates all parties and encrypts all traffic. Using TLS prevents an attacker from performing IP address spoofing on a specific connection (for example, mutual TLS connections). An attacker could still spoof the address of the Domain Name System (DNS) server. However, because authentication in Teams is performed with certificates, an attacker would not have a valid certificate required to spoof one of the parties in the communication.
 
 ### Man-in-the-middle attack
 
-A man-in-the-middle attack occurs when an attacker reroutes communication between two users through the attacker's computer without the knowledge of the two communicating users. The attacker can monitor and read the traffic before sending it on to the intended recipient. Each user in the communication unknowingly sends traffic to and receives traffic from the attacker, all while thinking they are communicating only with the intended user. This can happen if an attacker can modify Active Directory Domain Services to add his or her server as a trusted server or modify Domain Name System (DNS) configuration to get clients to connect through the attacker on their way to the server.
+A man-in-the-middle attack occurs when an attacker reroutes communication between two users through the attacker's computer without the knowledge of the two communicating users. The attacker can monitor and read the traffic before sending it on to the intended recipient. Each user in the communication unknowingly sends traffic to and receives traffic from the attacker, all while thinking they are communicating only with the intended user. This scenario can happen if an attacker can modify Active Directory Domain Services to add their server as a trusted server or modify DNS configuration to get clients to connect through the attacker on their way to the server.
 
-Man-in-the-middle attacks on media traffic between two endpoints participating in Teams audio, video, and application sharing, is prevented by using SRTP to encrypt the media stream. Cryptographic keys are negotiated between the two endpoints over a proprietary signaling protocol (Teams Call Signaling protocol) which uses TLS 1.2 and AES-256 (in GCM mode) encrypted UDP / TCP channel.
+Man-in-the-middle attacks on media traffic between two endpoints participating in Teams audio, video, and application sharing, is prevented by using SRTP to encrypt the media stream. Cryptographic keys are negotiated between the two endpoints over a proprietary signaling protocol (Teams Call Signaling protocol) which uses TLS 1.2 and AES-256 (in GCM mode) encrypted UDP/TCP channel.
 
 ### Real-time Transport Protocol (RTP) replay attack
 
@@ -85,7 +85,7 @@ Spim is unsolicited commercial instant messages or presence subscription request
 
 ### Viruses and worms
 
-A virus is a unit of code whose purpose is to reproduce more, similar code units. To work, a virus needs a host, such as a file, email, or program. Like a virus, a worm is a unit of code that is coded to reproduce more, similar code units, but that unlike a virus doesn't need a host. Viruses and worms primarily show up during file transfers between clients or when URLs are sent from other users. If a virus is on your computer, it can, for example, use your identity and send instant messages on your behalf. Standard client security best practices such as periodically scanning for viruses can mitigate this issue.
+A virus is a unit of code whose purpose is to reproduce more, similar code units. To work, a virus needs a host, such as a file, email, or program. Like a virus, a worm is a unit of code that reproduces more, similar code units, but that unlike a virus doesn't need a host. Viruses and worms primarily show up during file transfers between clients or when URLs are sent from other users. If a virus is on your computer, it can, for example, use your identity and send instant messages on your behalf. Standard client security best practices such as periodically scanning for viruses can mitigate this issue.
 
 ## Security Framework for Teams
 
@@ -94,7 +94,7 @@ This section gives an overview of fundamental elements that form a security fram
 Core elements are:
 
 - Azure Active Directory (Azure AD), which provides a single trusted back-end repository for user accounts. User profile information is stored in Azure AD through the actions of Microsoft Graph.
-  - Be advised that there may be multiple tokens issued which you may see if tracing your network traffic. This includes Skype tokens you might see in traces while looking at chat and audio traffic.
+  - There may be multiple tokens issued which you may see if tracing your network traffic. Including Skype tokens you might see in traces while looking at chat and audio traffic.
 - Transport Layer Security (TLS), and mutual TLS (MTLS) which encrypt instant message traffic and enable endpoint authentication. Point-to-point audio, video, and application sharing streams are encrypted and integrity checked using Secure Real-Time Transport Protocol (SRTP). You may also see OAuth traffic in your trace, particularly around negotiating permissions while switching between tabs in Teams, for example to move from Posts to Files. For an example of the OAuth flow for tabs, [see this document](/microsoftteams/platform/tabs/how-to/authentication/auth-flow-tab).
 - Teams uses industry-standard protocols for user authentication, wherever possible.
 
@@ -104,9 +104,9 @@ The next sections discuss some of these core technologies.
 
 Azure Active Directory functions as the directory service for Microsoft 365 and Office 365. It stores all user directory information and policy assignments.
 
-#### CRL Distribution Points
+#### Certificate Revocation List (CRL) Distribution Points
 
-Microsoft 365 and Office 365 traffic takes place over TLS/HTTPS encrypted channels, meaning that certificates are used for encryption of all traffic. Teams requires all server certificates to contain one or more Certificate Revocation List (CRL) distribution points. CRL distribution points (CDPs) are locations from which CRLs can be downloaded for purposes of verifying that the certificate has not been revoked since the time it was issued and the certificate is still within the validity period. A CRL distribution point is noted in the properties of the certificate as a URL and is secure HTTP. The Teams service checks CRL with every certificate authentication.
+Microsoft 365 and Office 365 traffic takes place over TLS/HTTPS encrypted channels, meaning that certificates are used for encryption of all traffic. Teams requires all server certificates to contain one or more CRL distribution points. CRL distribution points (CDPs) are locations from which CRLs can be downloaded for purposes of verifying that the certificate hasn't been revoked since the time it was issued and the certificate is still within the validity period. A CRL distribution point is noted in the properties of the certificate as a URL and is secure HTTP. The Teams service checks CRL with every certificate authentication.
 
 #### Enhanced Key Usage
 
@@ -122,19 +122,21 @@ Server-to-server connections rely on mutual TLS (MTLS) for mutual authentication
 
 TLS and MTLS help prevent both eavesdropping and man-in-the middle attacks. In a man-in-the-middle attack, the attacker reroutes communications between two network entities through the attacker's computer without the knowledge of either party. TLS and Teams' specification of trusted servers mitigate the risk of a man-in-the middle attack partially on the application layer by using encryption that is coordinated using the Public Key cryptography between the two endpoints. An attacker would have to have a valid and trusted certificate with the corresponding private key and issued to the name of the service to which the client is communicating to decrypt the communication.
 
-Teams data is encrypted in transit and at rest in Microsoft datacenters. Microsoft uses industry standard technologies such as TLS and SRTP to encrypt all data in transit between users' devices and Microsoft datacenters, and between Microsoft datacenters. Data in transit includes messages, files, meetings, and other content. Enterprise data is also encrypted at rest in Microsoft datacenters so that organizations can decrypt the content if needed, to meet security and compliance obligations through methods such as eDiscovery. For more information about encryption in Microsoft 365, see [Encryption in Microsoft 365](/microsoft-365/compliance/encryption)
+Teams data is encrypted in transit and at rest in Microsoft data centers. Microsoft uses industry standard technologies such as TLS and SRTP to encrypt all data in transit between users' devices and Microsoft data centers, and between Microsoft data centers. Data in transit includes messages, files, meetings, and other content. Enterprise data is also encrypted at rest in Microsoft data centers so that organizations can decrypt the content if needed, to meet security and compliance obligations through methods such as eDiscovery. For more information about encryption in Microsoft 365, see [Encryption in Microsoft 365](/microsoft-365/compliance/encryption)
 
 ### Encryption in Teams
 
-All server-to-server traffic requires MTLS, regardless of whether the traffic is confined to the internal network or crosses the internal network perimeter. This table summarizes the protocols used by Teams.
+There are multiple layers of encryption at work within Microsoft 365. Encryption in Teams works with the rest of Microsoft 365 encryption to protect your organization's content. This article describes encryption technologies that are specific to Teams. For an overview of encryption in Microsoft 365, see [Encryption in Microsoft 365](/microsoft-365/compliance/encryption).
 
-***Traffic Encryption***
+#### Traffic encryption
+
+All server-to-server traffic requires MTLS, regardless of whether the traffic is confined to the internal network or crosses the internal network boundary. This table summarizes the protocols used by Teams.
 
 |**Traffic type**|**Encrypted by**|
 |:-----|:-----|
 |Server-to-server|MTLS|
-|Client-to-server (for example, instant messaging and presence)|TLS|
-|Media flows (for example, audio and video sharing of media)|TLS|
+|Client-to-server, for example, instant messaging and presence|TLS|
+|Media flows, for example, audio and video sharing of media|TLS|
 |Audio and video sharing of media|SRTP/TLS|
 |Signaling|TLS|
 |Client-to-client enhanced encryption (for example, end-to-end encryption calls)|SRTP/DTLS|
@@ -144,25 +146,15 @@ Teams uses TLS and MTLS to encrypt instant messages.
 
 #### Media encryption
 
-Media traffic is encrypted using Secure RTP (SRTP), a profile of Real-time Transport Protocol (RTP) that provides confidentiality, authentication, and replay attack protection to RTP traffic. SRTP uses a session key generated by using a secure random number generator and exchanged using the signaling TLS channel. In most cases, client to client media traffic is negotiated through a client to server connection signaling, and is encrypted using SRTP when going directly from Client to Client. In the case of End-to-End Encrypted 1-1 calls, the media streams between the endpoints are encrypted using DTLS-SRTP using keys negotiated from per-call certificates generated and held on the clients.
+Call flows in Teams are based on the [Session Description Protocol (SDP) RFC 4566](https://tools.ietf.org/html/rfc4566) offer and answer model over HTTPS. Once the callee accepts an incoming call, the caller and callee agree on the session parameters.
+
+Media traffic is encrypted by, and flows between, the caller and callee using Secure RTP (SRTP), a profile of Real-time Transport Protocol (RTP) that provides confidentiality, authentication, and replay attack protection to RTP traffic. SRTP uses a session key generated by a secure random number generator and exchanged using the signaling TLS channel. In most cases, client to client media traffic is negotiated through client to server connection signaling, and is encrypted using SRTP when going directly from client to client.
+
+In normal call flows, negotiation of the encryption key occurs over the call signaling channel. In an end-to-end encrypted call, the signaling flow is the same as a regular one-to-one Teams call. However, Teams uses DTLS to derive an encryption key based on per-call certificates generated on both client endpoints. Since DTLS derives the key based on the client certificates, the key is opaque to Microsoft. Once both clients agree upon the key, the media begins to flow using this DTLS-negotiated encryption key over SRTP.
+
+To protect against a man-in-the-middle attack between the caller and callee, Teams derives a 20-digit security code from the SHA-256 thumbprints of the caller’s and callee’s endpoint call certificates. The caller and callee can validate the 20-digit security codes by reading them to each other to see if they match. If the codes don’t match, then the connection between the caller and callee has been intercepted by a man-in-the-middle attack. If the call has been compromised, users can end the call manually.
 
 Teams uses a credentials-based token for secure access to media relays over TURN. Media relays exchange the token over a TLS-secured channel.
-
-------------
-dtls = tls over udp. tls adds encryption and udp is the media layer connection. srtp
-
-we implemented dtls as web interop years ago. this change involved key negotiation change to allow client to client key negotiation instead of having the server involved. srtp-sdes was the old way.
-
-this feature is *not* about security, it's about... confidentiality.
-
-by changing the negotiation technique (microsoft removed), you control the negotiation method on the clients. microsoft now only sees opaque bits traveling back 'n forth.
-
-
-****
-
-key negotiation is different. same media pathways, 
-
-*** link to the new enhanced encryption stuff *** -------------
 
 #### Federal Information Processing Standard (FIPS)
 
