@@ -3,7 +3,7 @@ title: End-to-end encryption for Microsoft Teams
 author: kccross
 ms.author: krowley
 manager: laurawi
-ms.date: 10/22/2021
+ms.date: 10/23/2021
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -100,9 +100,12 @@ End-to-end encryption PowerShell cmdlets:
 
 - [Set-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Set-CsTeamsEnhancedEncryptionPolicy)
 
-To enable or disable end-to-end encryption using Microsoft PowerShell
+#### PowerShell examples
 
-To turn it on for a single user:
+Using a work or school account that has been assigned the Teams or global administrator role, 
+
+To turn on end-to-end encryption for a single user:
+
 Grant-CsTeamsEnhancedEncryptionPolicy -Identity "kenmeyer@contoso.onmicrosoft.com" -policyname Tag:UserControlled
 
 To turn it on for entire tenant:
