@@ -104,7 +104,7 @@ Your work or school account needs the Teams or global administrator role to conf
 
 #### To enable end-to-end encryption for your entire tenant using the global policy
 
-By default, end-to-end encryption is disabled. To enable end-to-end encryption for the entire tenant by setting the default global policy, run the `[Set-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Set-CsTeamsEnhancedEncryptionPolicy)` cmdlet as follows.
+By default, end-to-end encryption is disabled. To enable end-to-end encryption for the entire tenant by setting the default global policy, run the [Set-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Set-CsTeamsEnhancedEncryptionPolicy) cmdlet as follows.
 
 ```powershell
 Set-CsTeamsEnhancedEncryptionPolicy -Identity Global -CallingEndtoEndEncryptionEnabledType DisabledUserOverride
@@ -118,7 +118,7 @@ Where:
 
 #### To disable end-to-end encryption for your entire tenant using the global policy
 
-By default, end-to-end encryption is disabled. If you've made changes to the global policy, you can change the setting back by running the `[Grant-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Grant-CsTeamsEnhancedEncryptionPolicy)` cmdlet as follows.
+By default, end-to-end encryption is disabled. If you've made changes to the global policy, you can change the setting back by running the [Grant-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Grant-CsTeamsEnhancedEncryptionPolicy) cmdlet as follows.
 
 ```powershell
 Grant-CsTeamsEnhancedEncryptionPolicy -Identity Global -CallingEndtoEndEncryptionEnabledType Disabled
@@ -144,7 +144,7 @@ Where:
 
 - *`policyname`* is the name you want to use for the policy. Policy names can't contain spaces, for example, ContosoE2EEUserPolicy.
 
-Users still need to switch on end-to-end encrypted calling in their Teams settings before they can make an end-to-end encrypted call. For instructions, see [Switch on end-to-end encryption on your device](#switch-on-end-to-end-encryption-on-your-device).
+Users still need to switch on end-to-end encrypted calling in their Teams settings before they can make an end-to-end encrypted call. For instructions, see [Use end-to-end encryption for Teams calls](https://support.microsoft.com/office/1274b4d2-b5c5-4b24-a376-606fa6728a90).
 
 For example:
 
