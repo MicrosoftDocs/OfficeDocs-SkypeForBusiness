@@ -90,15 +90,15 @@ You can manage end-to-end encryption policies using Microsoft PowerShell and the
 
 End-to-end encryption PowerShell cmdlets:
 
-- `[Get-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Get-CsTeamsEnhancedEncryptionPolicy)` returns information about the Teams enhanced encryption policies in your organization.
+- [Get-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Get-CsTeamsEnhancedEncryptionPolicy) returns information about the Teams enhanced encryption policies in your organization.
 
-- `[Grant-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Grant-CsTeamsEnhancedEncryptionPolicy)` assigns and unassigns existing enhanced encryption policies to a user. Use `$NULL` to unassign all policies from a user.
+- [Grant-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Grant-CsTeamsEnhancedEncryptionPolicy) assigns and unassigns existing enhanced encryption policies to a user. Use `$NULL` to unassign all policies from a user.
 
-- `[New-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/New-CsTeamsEnhancedEncryptionPolicy)` creates a new Teams enhanced encryption policy.
+- [New-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/New-CsTeamsEnhancedEncryptionPolicy) creates a new Teams enhanced encryption policy.
 
-- `[Remove-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Remove-CsTeamsEnhancedEncryptionPolicy)` deletes an enhanced encryption policy from your organization. You can't delete the global, default policy.
+- [Remove-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Remove-CsTeamsEnhancedEncryptionPolicy) deletes an enhanced encryption policy from your organization. You can't delete the global, default policy.
 
-- `[Set-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Set-CsTeamsEnhancedEncryptionPolicy)` updates values in an existing Teams enhanced encryption policy.
+- [Set-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Set-CsTeamsEnhancedEncryptionPolicy) updates values in an existing Teams enhanced encryption policy.
 
 Your work or school account needs the Teams or global administrator role to configure end-to-end encryption.
 
