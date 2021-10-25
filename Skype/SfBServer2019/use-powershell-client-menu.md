@@ -2,8 +2,8 @@
 title: "Use PowerShell for tasks on Client menu"
 ms.reviewer: 
 ms.author: v-smandalika
-author: v-smandalika
-manager: dansimp
+author: v-smandalika, Anoop Kumar
+manager: dansimp, ravrao
 ms.date: 10/12/2021
 audience: ITPro
 ms.topic: article
