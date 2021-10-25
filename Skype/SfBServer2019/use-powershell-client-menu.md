@@ -2,7 +2,7 @@
 title: "Use PowerShell for tasks on Client menu"
 ms.reviewer: 
 ms.author: v-smandalika
-author: v-smandalika, Anoop Kumar
+author: v-smandalika, ankum
 manager: dansimp, ravrao
 ms.date: 10/12/2021
 audience: ITPro
@@ -18,16 +18,17 @@ description: "Summary: Skype for Business Server Control panel to Cmdlet mapping
 
 This article describes how similar results as that of the **Client** menu item in the legacy Control Panel can be achieved using cmdlets.
 
-This article describes the following sub-menu items of the **Client** menu item on the new Control Panel:
+This article describes the following sub-menus :
 
-- [Client Version Policy](#client-version-policy)
-- [Client Version Configuration](#client-version-configuration)
-- [Device Update](#device-update)
-- [Test Device](#test-device)
-- [Device Log Configuration](#device-log-configuration)
-- [Device Configuration](#device-configuration)
-- [Mobility Policy](#mobility-policy)
-- [Push Notification Configuration](#push-notification-configuration)
+- [Client](#client)
+  - [Client Version Policy](#client-version-policy)
+  - [Client Version Configuration](#client-version-configuration)
+  - [Device Update](#device-update)
+  - [Test Device](#test-device)
+  - [Device Log Configuration](#device-log-configuration)
+  - [Device Configuration](#device-configuration)
+  - [Mobility Policy](#mobility-policy)
+  - [Push Notification Configuration](#push-notification-configuration)
 
 ## Client Version Policy
 
