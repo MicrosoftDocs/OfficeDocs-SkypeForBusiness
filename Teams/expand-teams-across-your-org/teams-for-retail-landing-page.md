@@ -19,49 +19,22 @@ appliesto:
 
 # Get started with Teams for Retail
 
-Retail environments, with their rotating schedules and on-the-go staff, have very different needs than other organizations, and the way that you approach using Microsoft Teams in this environment differs as well.
+Retail environments, with their rotating schedules and on-the-go staff, have very different needs than other organizations. To get the most benefit for your retail organization, you first choose which scenarios Teams can help you with in your day to day business operations, and then make sure that you prepare your teams environment with the right fundamentals, teams, and apps to support those scenarios.
 
-1. [Set up fundamentals](#set-up-the-fundamentals) - Support your workforce with the fundamentals: managing accounts and devices, and making sure that the appropriate Teams policies are applied.
 1. [Choose the scenarios](#choose-your-scenarios) you want to implement for your business.
+:::image type="content" source="../media/retail-teams-scenarios.png" alt-text="Diagram of Teams scenarios for retail.":::
+1. [Set up fundamentals](#set-up-the-fundamentals) - Support your workforce with the fundamentals: managing accounts and devices, and making sure that the appropriate Teams policies are applied.
+:::image type="content" source="../media/retail-teams-fundamentals.png" alt-text="Diagram of teams, team templates and apps that can be included.":::
 1. [Set up teams and apps](#set-up-teams-and-apps) - Use team templates to set up the teams you need quickly, including the channels and apps you need for your business. Add in other apps from Microsoft as needed to support your scenarios.
-
-:::image type="content" source="../media/retail-scenarios-and-fundamentals.png" alt-text="Diagram of Retail scenarios, Teams and apps, and the Fundamentals that support them, such as Teams policies and Accounts and devices.":::
+:::image type="content" source="../media/retail-teams-apps.png" alt-text="Diagram of teams, team templates and apps that can be included.":::
 
 <!-- Additional capabilities for retail environments are available with the Microsoft Cloud for Retail, which includes capabilities from Dynamics 365 and Microsoft Azure as well as the Microsoft 365 features. For more information, see [Microsoft Cloud for Retail](https://www.microsoft.com/industry/retail/microsoft-cloud-for-retail). -->
-
-## Set up the fundamentals
-
-Lay the right foundation for your workers by choosing appropriate licenses for them, managing their accounts, and managing their devices so that you can provide a secure, compliant way to get their work done.
-
-### Licensing
-
-Retail staff is typically a mobile workforce: frontline workers and managers who aren't tied to computers all day, unlike corporate staff. So the tools and apps they need are different. Microsoft 365 for Frontline Workers provides a feature set tailored to this audience. See more at [Licensing options for frontline workers](../flw-licensing-options.md).
-
-### Accounts
-
-With high turnover, the ability to add and remove accounts quickly, and get the right policies assigned is key. Get started with the Frontline Worker Onboarding wizard in the Microsoft 365 admin center. The wizard sets up a team for your frontline workers and assigns licenses and policy packages to each team member. For more information, see [Use the Frontline Worker onboarding wizard to get your frontline workforce up and running](../flw-onboarding-wizard.md).
-
-If you have a lot of users to add (more than 100), you can quickly provision users and teams and assign all relevant policies with a [scripted deployment for frontline worksers](../flw-scripted-deployment.md).
-
-The presence of Frontline Workers is often less predictable than other staff as their working hours are typically not the same each day. As an admin, you can configure Teams with Shift-based access (Preview) to show a set of shift-based presence states for the Frontline Workers in your organization to indicate when they are on and off shift. For more information, see [Manage shift-based access for Frontline Workers](shifts/manage-shift-based-access-flw.md).
-
-### Devices
-
-Because the workforce is largely mobile, managing accounts and devices is a key fundamental for retail environments. You need to set a secure, compliant baseline with managed devices for your workforce to use, whether that's a shared device or an employee's own device. See more at [TBD - Point to Azure AD, InTune, RealWear info.]().
-
-### Policies
-
-Ensure that your sales associates and other frontline workers have the appropriate access to Teams functionality by configuring the appropriate policy packages. Teams policies help control what users in specific roles can do. The [Frontline worker and Frontline manager policy packages](../manage-policy-packages.md#policy-packages-included-in-teams) are tailored to be appropriate for frontline workforces like those in retail stores.
-
-Microsoft Teams integrates with the Shifts app and Frontline Worker, which can be used to coordinate shift staffing features and more. For example, in Shifts, store managers can set up and coordinate schedules for their staff, and employees can check schedules and swap shifts. Teams includes a built-in Frontline Worker app setup policy that you can assign to Frontline Workers in your organization. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. This policy controls behavior for these apps, for example, pinning the Shifts app to the app bar so the team can quickly access it. To learn more, see [Manage the Shifts app for your organization in Microsoft Teams](shifts/manage-the-shifts-app-for-your-organization-in-teams.md).
 
 ## Choose your scenarios
 
 Microsoft 365 and Microsoft Teams offer several capabilities that can help retail organizations with their daily operations and digital transformation. We recommend the following scenarios for retail organizations:
 
-[![In-store communication and collaboration.](../media/retail-scenarios-in-store.png)](#in-store-communication-and-collaboration) [![Cross-store communication and collaboration.](../media/retail-scenarios-cross-store.png)](#cross-store-communication-and-collaboration) [![Customer virtual visits.](../media/retail-scenarios-virtual-visits.png)](#customer-virtual-visits) [![Curbside pickup.](../media/retail-scenarios-curbside-pickup.png)](#curbside-pickup) 
-
-[![Corporate communications.](../media/retail-scenarios-corp-comms.png)](#corporate-communications) [![Onboarding new employees.](../media/retail-scenarios-onboarding.png)](#onboarding-new-employees)
+[![In-store communication and collaboration.](../media/retail-scenarios-in-store.png)](#in-store-communication-and-collaboration) [![Cross-store communication and collaboration.](../media/retail-scenarios-cross-store.png)](#cross-store-communication-and-collaboration) [![Customer virtual visits.](../media/retail-scenarios-virtual-visits.png)](#customer-virtual-visits) [![Curbside pickup.](../media/retail-scenarios-curbside-pickup.png)](#curbside-pickup) [![Corporate communications.](../media/retail-scenarios-corp-comms.png)](#corporate-communications) [![Onboarding new employees.](../media/retail-scenarios-onboarding.png)](#onboarding-new-employees)
 
 
 ### In-store communication and collaboration
@@ -117,7 +90,39 @@ More information: [Onboard new employees](/sharepoint/onboard-employees)
 > [!NOTE]
 > For all of these capabilities, users must have an appropriate license. Office 365 A3, A5, E3, and E5, as well as Microsoft 365 Business Standard, Business Premium, A3, A5, E3, and E5 are supported. You can also use Microsoft 365 Frontline Worker F1 and F3 or Office 365 F3. For more information about general Teams licensing, see [Manage user access to Teams](../user-access.md). See [Licensing options for frontline workers](../flw-licensing-options.md) for more about using Microsoft 365 Frontline Worker in combination with other licenses.
 
+## Set up the fundamentals
+
+Lay the right foundation for your workers by choosing appropriate licenses for them, managing their accounts, and managing their devices so that you can provide a secure, compliant way to get their work done.
+
+:::image type="content" source="../media/retail-teams-fundamentals.png" alt-text="Diagram of the Fundamentals that support scenarios for Teams, such as Teams policies and Accounts and devices.":::
+
+### Licensing
+
+Retail staff is typically a mobile workforce: frontline workers and managers who aren't tied to computers all day, unlike corporate staff. So the tools and apps they need are different. Microsoft 365 for Frontline Workers provides a feature set tailored to this audience. See more at [Licensing options for frontline workers](../flw-licensing-options.md).
+
+### Accounts
+
+With high turnover, the ability to add and remove accounts quickly, and get the right policies assigned is key. Get started with the Frontline Worker Onboarding wizard in the Microsoft 365 admin center. The wizard sets up a team for your frontline workers and assigns licenses and policy packages to each team member. For more information, see [Use the Frontline Worker onboarding wizard to get your frontline workforce up and running](../flw-onboarding-wizard.md).
+
+If you have a lot of users to add (more than 100), you can quickly provision users and teams and assign all relevant policies with a [scripted deployment for frontline worksers](../flw-scripted-deployment.md).
+
+The presence of Frontline Workers is often less predictable than other staff as their working hours are typically not the same each day. As an admin, you can configure Teams with Shift-based access (Preview) to show a set of shift-based presence states for the Frontline Workers in your organization to indicate when they are on and off shift. For more information, see [Manage shift-based access for Frontline Workers](shifts/manage-shift-based-access-flw.md).
+
+### Devices
+
+Because the workforce is largely mobile, managing accounts and devices is a key fundamental for retail environments. You need to set a secure, compliant baseline with managed devices for your workforce to use, whether that's a shared device or an employee's own device. See more at [TBD - Point to Azure AD, InTune, RealWear info.]().
+
+### Policies
+
+Ensure that your sales associates and other frontline workers have the appropriate access to Teams functionality by configuring the appropriate policy packages. Teams policies help control what users in specific roles can do. The [Frontline worker and Frontline manager policy packages](../manage-policy-packages.md#policy-packages-included-in-teams) are tailored to be appropriate for frontline workforces like those in retail stores.
+
+Microsoft Teams integrates with the Shifts app and Frontline Worker, which can be used to coordinate shift staffing features and more. For example, in Shifts, store managers can set up and coordinate schedules for their staff, and employees can check schedules and swap shifts. Teams includes a built-in Frontline Worker app setup policy that you can assign to Frontline Workers in your organization. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. This policy controls behavior for these apps, for example, pinning the Shifts app to the app bar so the team can quickly access it. To learn more, see [Manage the Shifts app for your organization in Microsoft Teams](shifts/manage-the-shifts-app-for-your-organization-in-teams.md).
+
+
+
 ## Set up Teams and apps
+
+:::image type="content" source="../media/retail-teams-apps.png" alt-text="Diagram of teams, team templates and apps that can be included.":::
 
 ### Microsoft 365 and Teams apps and products for retail
 
@@ -154,12 +159,14 @@ Aside from teams templates, you can also set up other sites and services to help
 - Use the SharePoint site templates to...
 - Use Viva Connections to bring it all together...
 
-## Identify roles and responsibilities
+## Get ready to roll out your scenarios - identify roles and responsibilities for scenarios
 
-Now that you know what scenarios you want to implement, you need to gather your team so you can plan, roll out, and monitor how they're working in your organization. For example, the following roles might be needed in your organization:
+Now that you know what scenarios you want to implement and what you need to support them, you can gather your team so you can plan, roll out, and monitor how they're working in your organization. For example, the following roles might be needed to roll out these scenarios in your organization:
 
 | Image | Role | Responsibilities | Department |
 | ---- | ---- | ----- | ----- |
 | ![Administrator symbol.](/office/media/icons/administrator.png) | IT Administrator | Work with operations and retail management staff to define scenarios and how they'll work for the organization. <br><br>Configure settings in the Teams admin center, such as policies and templates, and enable apps. <br><br>Set up app settings (such as global Shifts settings) for the organization. <br><br>Add and license users.  | IT department |
 | ![User monitor symbol.](/office/media/icons/user-monitor.png) | Operations staff | Work with Administrators to define scenarios, and determine which settings, policies, templates, and apps are needed for Teams. <br><br>Create regional or divisional teams from templates. <br><br>Set up tasks, lists, and approval flows for coordination between stores within a region, or between stores and headquarters. <br><br>Set up learning framework for staff. | Central operations |
 | ![Presenter symbol.](/office/media/icons/presenter-teams.png) | Store manager | Work with Administrators and Operations staff to define scenarios. <br><br>Create teams for the store from templates. <br><br>Set up channels and apps for the teams, as needed. For example: a channel for shift handovers. <br><br>Set up store schedules in Shifts. <br><br>Set up tasks, lists, and approval flows that are specific to the store. <br><br>Set up learning tasks for staff. | Store management |
+
+For more about successfully implementing and adopting Teams, see [Adopt Microsoft Teams](./adopt-microsoft-teams-landing-page.md).
