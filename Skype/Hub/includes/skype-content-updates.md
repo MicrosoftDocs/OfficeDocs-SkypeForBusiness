@@ -2,6 +2,15 @@
 
 
 
+## Week of October 18, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/20/2021 | [Set up Audio Conferencing for Skype for Business](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) | modified |
+| 10/20/2021 | [Allow users to contact external Skype for Business users](/SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users) | modified |
+
+
 ## Week of October 04, 2021
 
 
@@ -178,11 +187,3 @@
 | 9/23/2021 | [Configure hybrid connectivity \| Deploy Skype for Business Server 2019 connect](/SkypeForBusiness/hybrid/configure-hybrid-connectivity) | modified |
 | 9/23/2021 | [Plan hybrid connectivity \| Skype for Business Server and Teams](/SkypeForBusiness/hybrid/plan-hybrid-connectivity) | modified |
 | 9/24/2021 | [Configure hybrid connectivity \| Deploy Skype for Business Server 2019 connect](/SkypeForBusiness/hybrid/configure-hybrid-connectivity) | modified |
-
-
-## Week of September 13, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 9/15/2021 | [Skype for Business Server updates](/SkypeForBusiness/sfb-server-updates) | modified |
