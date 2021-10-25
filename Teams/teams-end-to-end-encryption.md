@@ -70,7 +70,7 @@ Complete these tasks so your users can place end-to-end encrypted calls.
 
 ### Use the Teams admin center to configure end-to-end encryption
 
-The global, organization-wide, default policy specifies that end-to-end encryption is disabled. To enable end-to-end encryption, create a new encryption policy or modify the global default policy. To enable end-to-end encryption using the Teams admin center, complete these steps.
+The global, organization-wide, default policy specifies that end-to-end encryption is disabled. Users in your organization will automatically get the global policy unless you create and assign a custom policy. To enable end-to-end encryption, create a new encryption policy or modify the global default policy. To enable end-to-end encryption using the Teams admin center, complete these steps.
 
 1. Using a work or school account that has been assigned the Teams or global administrator role, sign in to the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
