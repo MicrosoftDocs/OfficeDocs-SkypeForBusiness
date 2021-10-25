@@ -45,6 +45,8 @@ Bring in-store associates and management together to collaborate and streamline 
 
 **Additional products:** Power Platform and Power Apps
 
+More information: [Retail team collaboration](retail-team-collaboration.md)
+
 ### Cross-store communication and collaboration
 
 Staff members can communicate and collaboration across multiple stores in a region, or with headquarters using the same tools and apps you use within your store.
@@ -52,6 +54,8 @@ Staff members can communicate and collaboration across multiple stores in a regi
 **Key apps:** Shifts, Walkie Talkie, Tasks, Approvals, Chat, Praise, Lists, Files
 
 **Additional products:** Power Platform and Power Apps
+
+More information: [Retail team collaboration](retail-team-collaboration.md)
 
 ### Customer virtual visits
 
@@ -66,6 +70,8 @@ More information: [Virtual visits with Microsoft Teams and the Bookings app](boo
 Use Teams to help your store employees communicate and deliver products directly to customers when they come to pick them up.
 
 **Key apps:** Tasks, Approvals, Chat, Walkie Talkie
+
+More information: [Retail curbside delivery](retail-curbside.md)
 
 ### Corporate communications
 
@@ -117,8 +123,6 @@ Because the workforce is largely mobile, managing accounts and devices is a key 
 Ensure that your sales associates and other frontline workers have the appropriate access to Teams functionality by configuring the appropriate policy packages. Teams policies help control what users in specific roles can do. The [Frontline worker and Frontline manager policy packages](../manage-policy-packages.md#policy-packages-included-in-teams) are tailored to be appropriate for frontline workforces like those in retail stores.
 
 Microsoft Teams integrates with the Shifts app and Frontline Worker, which can be used to coordinate shift staffing features and more. For example, in Shifts, store managers can set up and coordinate schedules for their staff, and employees can check schedules and swap shifts. Teams includes a built-in Frontline Worker app setup policy that you can assign to Frontline Workers in your organization. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. This policy controls behavior for these apps, for example, pinning the Shifts app to the app bar so the team can quickly access it. To learn more, see [Manage the Shifts app for your organization in Microsoft Teams](shifts/manage-the-shifts-app-for-your-organization-in-teams.md).
-
-
 
 ## Set up Teams and apps
 
