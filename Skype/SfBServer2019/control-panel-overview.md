@@ -28,8 +28,6 @@ The switch to the new Control Panel can be attributed to the Silverlight technol
 
 To launch the new Control Panel in the browser, enter https://&lt;pool-FQDN&gt;/macp or a configured simple URL.
 
-## Accessing data from menu items unavailable in new Control Panel through cmdlets
-
 The new Control Panel includes commonly used menu items that cover most of the needs of the organization. There are a few menu items from the legacy Control Panel that are unavailable in the new Control Panel. However, there is an option for the user to avail the functionalities in those menu items through PowerShell cmdlets. For more information, see the table below.
 
 > [!NOTE]

@@ -16,9 +16,9 @@ description: "Summary: Skype for Business Server Control panel to Cmdlet mapping
 ---
 # Client
 
-This article describes components of the **Client** menu item. It emphasizes on how data can be extracted using cmdlets from these components.
+This article describes how similar results as that of the **Client** menu item in the legacy Control Panel can be achieved using cmdlets.
 
-This article describes the following components (or sub-menu items):
+This article describes the following sub-menu items of the **Client** menu item on the new Control Panel:
 
 - [Client Version Policy](#client-version-policy)
 - [Client Version Configuration](#client-version-configuration)
