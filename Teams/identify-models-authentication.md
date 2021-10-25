@@ -55,7 +55,7 @@ To provide an additional level of security for sign-ins, use multi-factor authen
 - The Microsoft Authenticator smart phone app.
 - Other methods available with hybrid identity and federated authentication.
 
-MFA is supported with any Microsoft 365 or Office 365 plan that includes Microsoft Teams. It is highly recommended that at a minimum you require MFA for that accounts that are [assigned administrator roles](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide), such as Teams service admin.
+MFA is supported with any Microsoft 365 or Office 365 plan that includes Microsoft Teams. It is highly recommended that at a minimum you require MFA for that accounts that are [assigned administrator roles](/microsoft-365/admin/add-users/about-admin-roles), such as Teams service admin.
 
 You should also roll out MFA to your users. Once your users are enrolled for MFA, the next time they sign in, they will see a message that asks them to set up their additional verification method. 
 
