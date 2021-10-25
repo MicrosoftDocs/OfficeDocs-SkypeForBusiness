@@ -14,6 +14,21 @@ ms.localizationpriority: medium
 ms.collection:
 description: "Summary: Skype for Business Server Control panel to Cmdlet mapping."
 ---
+# Client
+
+This article describes components of the **Client** menu item. It emphasizes on how data can be extracted using cmdlets from these components.
+
+This article describes the following components (or sub-menu items):
+
+- [Client Version Policy](#client-version-policy)
+- [Client Version Configuration](#client-version-configuration)
+- [Device Update](#device-update)
+- [Test Device](#test-device)
+- [Device Log Configuration](#device-log-configuration)
+- [Device Configuration](#device-configuration)
+- [Mobility Policy](#mobility-policy)
+- [Push Notification Configuration](#push-notification-configuration)
+
 ## Client Version Policy
 
 The **CLIENT VERSION POLICY** sub-menu item under **Client** menu returns information about the clients supported in Skype for Business Server environment. A client version policy enables you to specify those clients who can sign in to Skype for Business Server system.
