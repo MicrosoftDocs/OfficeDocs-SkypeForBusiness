@@ -19,7 +19,7 @@ description: "This article provides an overview of the new Control Panel."
 
 The current Control Panel is a new version of the legacy Control Panel, with which it exists in tandem. The new Control Panel came into existence from the Cumulative Update of July 2019. It helps manage the configuration of servers, users, clients, and devices in the environment of an organization.
 
-The switch to the new Control Panel can be attributed to the Silverlight technology's end of support on October 12, 2021. For more information, see [Silverlight End of Support](https://support.microsoft.com/windows/silverlight-end-of-support-0a3be3c7-bead-e203-2dfd-74f0a64f1788).
+The legacy Control Panel may not work because its Silverlight technology has reached the "end-of-support" stage on October 12, 2021. For more information, see [Silverlight End of Support](https://support.microsoft.com/windows/silverlight-end-of-support-0a3be3c7-bead-e203-2dfd-74f0a64f1788).
 
 > [!NOTE]
 > For information on the legacy Control Panel, see [Control Panel](../SfbServer/management-tools/install-and-open-administrative-tools.md), and navigate to the section **Skype for Business Server Control Panel**.
