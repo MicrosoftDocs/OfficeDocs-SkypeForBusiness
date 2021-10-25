@@ -363,8 +363,6 @@ items:
           items: 
             - name: About guest access
               href: guest-access.md
-            - name: Guest access checklist
-              href: /microsoft-365/solutions/collaborate-as-team
             - name: Guest experience
               href: guest-experience.md
             - name: Turn on guest access or turn off

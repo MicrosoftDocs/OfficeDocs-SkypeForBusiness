@@ -1,7 +1,7 @@
 ---
 title: "Add, change, remove places for emergency locations"
-author: cichur
-ms.author: v-mahoffman
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
