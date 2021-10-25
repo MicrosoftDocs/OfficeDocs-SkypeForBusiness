@@ -35,7 +35,7 @@ The Teams app usage report in the Microsoft Teams admin center provides you with
 ## Interpret the report
 <br>
 
-![Screenshot of the Teams app usage report in the Teams admin center with callouts.](media/app-usage-report5.png "Screenshot of the Teams app usage report in the Teams admin center with callouts")<br><br>
+![Screenshot of the Teams app usage report in the Teams admin center with callouts.](media/app-usage-report5.png "Screenshot of the Teams app usage report in the Teams admin center with callouts")<br><br><br>
 
 |Report feature |Description  |
 |--------|-------------|
@@ -46,8 +46,8 @@ The Teams app usage report in the Microsoft Teams admin center provides you with
 |**5**   |To select other apps, at the upper right, click the **Filter** icon, select or type new criteria, and then click **Apply**.|
 |**6**   |The table at the bottom of the report shows active users and teams by app name.<br><ul><li>**App name** is the display name of the app used in Teams.</li><li>**Active users** is the number of users who opened the app at least once during the specified time period.</li><li>**App type** is a static value of either “Microsoft” or “Third Party”.</li><li>**Active teams** is the number of teams who have opened the app by at least one member of the team and during the specified time periods.</li><li>**Publisher** is the software publisher of the app.</li><li>**Version** is the software version of the app, from the app publisher.</li></ul><b> Note:</b> **Active users** and **Active teams** are calculated for apps used in channels only.|
 |**7**  |To add or remove columns in the table, at the upper right, click the **Edit columns** icon, on the **Edit columns** tab, select new criteria, and then click **Apply**.<br><br>|
-|**8**  |To export the report to a CSV file for offline analysis, at the upper right, select the **Export to Excel** icon, and then on the **Downloads** tab under **Status**, click **Download**.<br><br>![Screenshot of Downloads page.](media/app-usage-report7.png "Screenshot of Downloads page.")|
-|**9**   |When you view the report in Excel, you'll also see an **Id** column, which represents the app ID, typically an alphanumeric string. If the **Id** is **\n****, this means that a user asked that their information be deleted.<br><br>![Screenshot of the downloaded Excel report.](media/app-usage-report8.png "Screenshot of the downloaded Excel report.")|
+|**8**  |To export the report to a CSV file for offline analysis, at the upper right, select the **Export to Excel** icon, and then on the **Downloads** tab under **Status**, click **Download**.|
+|**9**   |When you view the report in Excel, you'll also see an **Id** column, which represents the app ID, typically an alphanumeric string. If the **Id** is **\n****, this means that a user asked that their information be deleted.|
 
 ## Related topics
 
