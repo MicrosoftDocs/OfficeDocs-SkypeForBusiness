@@ -24,6 +24,7 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|Teams Web-Client release | October 2021 |
 |4.10.10.0 |10/1/2021 |
 |4.9.12.0 |07/28/2021 |
 |4.8.31.0 |05/12/2021 |
@@ -70,6 +71,23 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 |RTM (1.0.8) |12/7/2016 |
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
+
+### Teams Rooms Web client update (October 2021)
+
+Introduced in this update:
+- Unified roster control with Teams desktop client with structured meetings grouping, meeting options and controls for presenters/ attendees, riase hand sort order and ability to invite users from Chat or meeting invite directly from roster 
+- Universal bar call controls alignment with desktop client in meeting call controls, Layout button and meeting status information
+- Dynamic gallery support for single and dual front of room displays
+- Unified layout picker for front of room layout option consolidated
+- Spotlight or Pin mulitple participants in Teams meetings
+- Large meetings support with presenter/ attendees controls accessible by tapping participant from roster
+- Ability to lock a meeting for meetings where room is orgniazer, as well as awareness of meeting that is locked
+- Presenter mode (weatherman) consumption support when a remote user shares content with presenter view option
+- Reaction support in Teams meetings 
+
+
+> [!NOTE]
+> Web client updates are available to all Teams Rooms with application versions 4.10 and 4.9. Admins will be able to enroll in Teams Rooms public preview program to get sneak peak of the web client features soon.
 
 ### 4.10.10.0 (10/1/2021)
 
