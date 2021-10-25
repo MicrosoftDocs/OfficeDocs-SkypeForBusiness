@@ -260,7 +260,7 @@ If you're an administrator, you can use the following diagnostic tool to validat
 1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center. 
 
    > [!div class="nextstepaction"]
-   > [Run Tests: Teams Federation](https://aka.ms/TeamsAADiag)
+   > [Run Tests: Teams Auto Attendant](https://aka.ms/TeamsAADiag)
 
 2. In the Run diagnostic pane, enter the Resource Account in the **Username or Email** field, and then select **Run Tests**.
 
