@@ -59,6 +59,11 @@ Microsoft Teams integrates with the Shifts app and Frontline Worker, which can b
 
 Microsoft 365 and Microsoft Teams offer several capabilities that can help retail organizations with their daily operations and digital transformation. We recommend the following scenarios for retail organizations:
 
+[![In-store communication and collaboration.](../media/retail-scenarios-in-store.png)](#in-store-communication-and-collaboration) [![Cross-store communication and collaboration.](../media/retail-scenarios-cross-store.png)](#cross-store-communication-and-collaboration) [![Customer virtual visits.](../media/retail-scenarios-virtual-visits.png)](#customer-virtual-visits) [![Curbside pickup.](../media/retail-scenarios-curbside-pickup.png)](#curbside-pickup) 
+
+[![Corporate communications.](../media/retail-scenarios-corp-comms.png)](#corporate-communications) [![Onboarding new employees.](../media/retail-scenarios-onboarding.png)](#onboarding-new-employees)
+
+
 ### In-store communication and collaboration
 
 Bring in-store associates and management together to collaborate and streamline operations with Microsoft Teams and Teams apps.
