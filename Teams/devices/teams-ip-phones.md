@@ -59,7 +59,6 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 | Yealink MP54 | 122.15.0.27| November 2020 |
 | Yealink MP56 | 122.15.0.6 | March 2020    |
 | Yealink VP59 | 91.15.0.16 | June 2019     |
-| Yealink T55  | 58.15.0.36 | May 2019      |
 
 ## Currently certified Teams Rooms on Android
 
