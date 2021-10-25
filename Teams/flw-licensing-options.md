@@ -18,7 +18,7 @@ appliesto:
 
 # Understand frontline worker user types and licensing
 
-Many industries, such as retail, manufacturing, hospitality, and more, organizations have a mix of user types:
+Organizations in many industries, such as retail, manufacturing, hospitality, and more, have a mix of user types:
 
 - Information workers, who probably have desktop or laptop computers, and likely work more on documents than directly with customers, such as headquarters staff.
 - Frontline workers, who often work on tablets or phones, and work either directly with customers, such as factory workers, retail associates, healthcare clinicians and nursing staff, and so on.
