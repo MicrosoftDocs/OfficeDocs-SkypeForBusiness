@@ -67,6 +67,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Release date  | Room size                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
+| EPOS EXPAND 80T | 1.2.2.21182.10 | October 2021 | Bundled with the EPOS Vision 3T
 | Logitech Tap Device     | 1.2.982     |      August 2021   | Compatible with Logitech Rally Bar and Rally Bar Mini |
 | Logitech Rally Bar Mini | 1.2.982     |      August 2021   |    Small Meeting Room (4.5m x 4.5m) |
 | Logitech Rally Bar      | 1.2.788     |       June 2021    |    Medium size room (4.5m x 6m)       |
