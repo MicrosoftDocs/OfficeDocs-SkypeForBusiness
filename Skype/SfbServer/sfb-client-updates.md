@@ -248,7 +248,7 @@ Package Name|KB Number|Release Date|
 
 ### Lync Basic 2013 Software
 
-|Package Name|Release Date| |
+|Package Name|Release Date|&nbsp;|
 |:--- |:--- |:--- |
 |[Lync Basic 2013 (32-bit)](https://www.microsoft.com/download/details.aspx?id=35451) | October 2012 |
 |[Lync Basic 2013 (64-bit)](https://www.microsoft.com/download/details.aspx?id=35450) | October 2012 |
