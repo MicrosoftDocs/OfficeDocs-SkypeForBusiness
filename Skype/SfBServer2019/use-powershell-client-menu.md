@@ -43,7 +43,7 @@ Let us consider the various tasks a user can do on **CLIENT VERSION POLICY**, an
 
 ***Cmdlet***
 
-[Get-CsClientVersionPolicy](/powershell/module/skype/get-csclientversionpolicy?view=skype-ps&preserve-view=true)
+[Get-CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/get-csclientversionpolicy?view=skype-ps&preserve-view=true)
 
 ***Example***
 
@@ -59,7 +59,7 @@ Let us consider the various tasks a user can do on **CLIENT VERSION POLICY**, an
 
 ***Cmdlet***
 
-[New-CsClientVersionPolicy](/powershell/module/skype/new-csclientversionpolicy?view=skype-ps&preserve-view=true)  
+[New-CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/new-csclientversionpolicy?view=skype-ps&preserve-view=true)  
 
 ***Example***
 
@@ -75,7 +75,7 @@ Let us consider the various tasks a user can do on **CLIENT VERSION POLICY**, an
 
 ***Cmdlet***
 
-[Get-CsClientVersionPolicy](/powershell/module/skype/get-csclientversionpolicy?view=skype-ps&preserve-view=true)
+[Get-CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/get-csclientversionpolicy?view=skype-ps&preserve-view=true)
 
 ***Example***
 
@@ -91,7 +91,7 @@ Let us consider the various tasks a user can do on **CLIENT VERSION POLICY**, an
 
 ***Cmdlet***
 
-[Remove-CsClientVersionPolicy](/powershell/module/skype/remove-csclientversionpolicy?view=skype-ps&preserve-view=true)
+[Remove-CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csclientversionpolicy?view=skype-ps&preserve-view=true)
 
 ***Example***
 
@@ -111,7 +111,7 @@ Let us consider the various tasks a user can do on **CLIENT VERSION POLICY**, an
 
     ***Cmdlet***
 
-    [Get-CsClientVersionPolicyRule](/powershell/module/skype/get-csclientversionpolicyrule?view=skype-ps&preserve-view=true)
+    [Get-CsClientVersionPolicyRule](https://docs.microsoft.com/powershell/module/skype/get-csclientversionpolicyrule?view=skype-ps&preserve-view=true)
 
     ***Example***
 
@@ -125,7 +125,7 @@ Let us consider the various tasks a user can do on **CLIENT VERSION POLICY**, an
 
     ***Cmdlet***
 
-    [Get-CsClientVersionPolicyRule](/powershell/module/skype/get-csclientversionpolicyrule?view=skype-ps&preserve-view=true)
+    [Get-CsClientVersionPolicyRule](https://docs.microsoft.com/powershell/module/skype/get-csclientversionpolicyrule?view=skype-ps&preserve-view=true)
 
     ***Example***
 
@@ -139,7 +139,7 @@ Let us consider the various tasks a user can do on **CLIENT VERSION POLICY**, an
 
     ***Cmdlet***
 
-    [New-CsClientVersionPolicyRule](/powershell/module/skype/new-csclientversionpolicyrule?view=skype-ps&preserve-view=true)
+    [New-CsClientVersionPolicyRule](https://docs.microsoft.com/powershell/module/skype/new-csclientversionpolicyrule?view=skype-ps&preserve-view=true)
 
     ***Example***
 
@@ -155,7 +155,7 @@ Let us consider the various tasks a user can do on **CLIENT VERSION POLICY**, an
 
     ***Cmdlet***
 
-    [Set-CsClientVersionPolicy](/powershell/module/skype/set-csclientversionpolicy?view=skype-ps&preserve-view=true)
+    [Set-CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientversionpolicy?view=skype-ps&preserve-view=true)
 
     ***Example***
 
@@ -182,7 +182,7 @@ Let us consider the various tasks a user can do on **CLIENT VERSION CONFIGURATIO
 
 ***Cmdlet***
 
-[Get-CsClientVersionConfiguration](/powershell/module/skype/get-csclientversionconfiguration?view=skype-ps&preserve-view=true)
+[Get-CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csclientversionconfiguration?view=skype-ps&preserve-view=true)
 
 ***Example***
 
@@ -198,7 +198,7 @@ Let us consider the various tasks a user can do on **CLIENT VERSION CONFIGURATIO
 
 ***Cmdlet***
 
-[New-CsClientVersionConfiguration](/powershell/module/skype/new-csclientversionconfiguration?view=skype-ps&preserve-view=true)  
+[New-CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csclientversionconfiguration?view=skype-ps&preserve-view=true)  
 
 ***Example***
 
@@ -214,7 +214,7 @@ Let us consider the various tasks a user can do on **CLIENT VERSION CONFIGURATIO
 
 ***Cmdlet***
 
-[Get-CsClientVersionConfiguration](/powershell/module/skype/get-csclientversionconfiguration?view=skype-ps&preserve-view=true)
+[Get-CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csclientversionconfiguration?view=skype-ps&preserve-view=true)
 
 ***Example***
 
@@ -230,7 +230,7 @@ Let us consider the various tasks a user can do on **CLIENT VERSION CONFIGURATIO
 
 ***Cmdlet***
 
-[Remove-CsClientVersionConfiguration](/powershell/module/skype/remove-csclientversionconfiguration?view=skype-ps&preserve-view=true)
+[Remove-CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csclientversionconfiguration?view=skype-ps&preserve-view=true)
 
 ***Example***
 
@@ -246,7 +246,7 @@ Let us consider the various tasks a user can do on **CLIENT VERSION CONFIGURATIO
 
 ***Cmdlet***
 
-[Set-CsClientVersionConfiguration](/powershell/module/skype/set-csclientversionconfiguration?view=skype-ps&preserve-view=true)
+[Set-CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclientversionconfiguration?view=skype-ps&preserve-view=true)
 
 ***Example***
 
@@ -262,7 +262,7 @@ Get-CsClientVersionConfiguration | Set-CsClientVersionConfiguration -DefaultURL 
 
 ***Cmdlet***
 
-[Set-CsClientVersionConfiguration](/powershell/module/skype/set-csclientversionconfiguration?view=skype-ps&preserve-view=true)
+[Set-CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclientversionconfiguration?view=skype-ps&preserve-view=true)
 
 ***Example***
 
@@ -285,7 +285,7 @@ Let us consider the various tasks a user can do on **DEVICE UPDATE**, and the Sk
 
 ***Cmdlet***
 
-[Get-CsDeviceUpdateRule](/powershell/module/skype/get-csdeviceupdaterule?view=skype-ps&preserve-view=true)
+[Get-CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/get-csdeviceupdaterule?view=skype-ps&preserve-view=true)
 
 ***Example***
 
@@ -301,7 +301,7 @@ Let us consider the various tasks a user can do on **DEVICE UPDATE**, and the Sk
 
 ***Cmdlet***
 
-[Remove-CsDeviceUpdateRule](/powershell/module/skype/remove-csdeviceupdaterule?view=skype-ps&preserve-view=true)  
+[Remove-CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/remove-csdeviceupdaterule?view=skype-ps&preserve-view=true)  
 
 ***Example***
 
@@ -317,7 +317,7 @@ Let us consider the various tasks a user can do on **DEVICE UPDATE**, and the Sk
 
 ***Cmdlet***
 
-[Clear-CsDeviceUpdateFile](/powershell/module/skype/clear-csdeviceupdatefile?view=skype-ps&preserve-view=true)
+[Clear-CsDeviceUpdateFile](https://docs.microsoft.com/powershell/module/skype/clear-csdeviceupdatefile?view=skype-ps&preserve-view=true)
 
 ***Example***
 
@@ -333,7 +333,7 @@ Let us consider the various tasks a user can do on **DEVICE UPDATE**, and the Sk
 
 ***Cmdlet***
 
-[Approve-CsDeviceUpdateRule](/powershell/module/skype/approve-csdeviceupdaterule?view=skype-ps&preserve-view=true)
+[Approve-CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/approve-csdeviceupdaterule?view=skype-ps&preserve-view=true)
 
 ***Example***
 
@@ -349,7 +349,7 @@ Let us consider the various tasks a user can do on **DEVICE UPDATE**, and the Sk
 
 ***Cmdlet***
 
-[Restore-CsDeviceUpdateRule](/powershell/module/skype/restore-csdeviceupdaterule?view=skype-ps&preserve-view=true)
+[Restore-CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/restore-csdeviceupdaterule?view=skype-ps&preserve-view=true)
 
 ***Example***
 
@@ -372,7 +372,7 @@ Let us consider the various tasks a user can do on **TEST DEVICE**, and the Skyp
 
 ***Cmdlet***
 
-[Get-CsTestDevice](/powershell/module/skype/get-csdeviceupdaterule?view=skype-ps&preserve-view=true)
+[Get-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/get-csdeviceupdaterule?view=skype-ps&preserve-view=true)
 
 ***Example***
 
@@ -388,7 +388,7 @@ Let us consider the various tasks a user can do on **TEST DEVICE**, and the Skyp
 
 ***Cmdlet***
 
-[New-CsTestDevice](/powershell/module/skype/new-cstestdevice?view=skype-ps&preserve-view=true)  
+[New-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps&preserve-view=true)  
 
 ***Example***
 
@@ -404,7 +404,7 @@ Let us consider the various tasks a user can do on **TEST DEVICE**, and the Skyp
 
 ***Cmdlet***
 
-[Get-CsTestDevice](/powershell/module/skype/get-cstestdevice?view=skype-ps&preserve-view=true)
+[Get-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/get-cstestdevice?view=skype-ps&preserve-view=true)
 
 ***Example***
 
@@ -420,7 +420,7 @@ Let us consider the various tasks a user can do on **TEST DEVICE**, and the Skyp
 
 ***Cmdlet***
 
-[Remove-CsTestDevice](/powershell/module/skype/remove-cstestdevice?view=skype-ps&preserve-view=true)
+[Remove-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/remove-cstestdevice?view=skype-ps&preserve-view=true)
 
 ***Example***
 
@@ -436,7 +436,7 @@ Let us consider the various tasks a user can do on **TEST DEVICE**, and the Skyp
 
 ***Cmdlet***
 
-[Set-CsTestDevice](/powershell/module/skype/set-cstestdevice?view=skype-ps&preserve-view=true)
+[Set-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/set-cstestdevice?view=skype-ps&preserve-view=true)
 
 ***Example***
 
@@ -459,7 +459,7 @@ Let us consider the various tasks a user can do on **DEVICE LOG CONFIGURATION**,
 
 ***Cmdlet***
 
-[Get-CsDeviceUpdateConfiguration](/powershell/module/skype/get-csdeviceupdateconfiguration?view=skype-ps&preserve-view=true)
+[Get-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csdeviceupdateconfiguration?view=skype-ps&preserve-view=true)
 
 ***Example***
 
@@ -475,7 +475,7 @@ Let us consider the various tasks a user can do on **DEVICE LOG CONFIGURATION**,
 
 ***Cmdlet***
 
-[New-CsDeviceUpdateConfiguration](/powershell/module/skype/new-csdeviceupdateconfiguration?view=skype-ps&preserve-view=true)  
+[New-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdeviceupdateconfiguration?view=skype-ps&preserve-view=true)  
 
 ***Example***
 
@@ -491,7 +491,7 @@ Let us consider the various tasks a user can do on **DEVICE LOG CONFIGURATION**,
 
 ***Cmdlet***
 
-[Get-CsDeviceUpdateConfiguration](/powershell/module/skype/get-csdeviceupdateconfiguration?view=skype-ps&preserve-view=true)
+[Get-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csdeviceupdateconfiguration?view=skype-ps&preserve-view=true)
 
 ***Example***
 
@@ -507,7 +507,7 @@ Let us consider the various tasks a user can do on **DEVICE LOG CONFIGURATION**,
 
 ***Cmdlet***
 
-[Remove-CsDeviceUpdateConfiguration](/powershell/module/skype/remove-csdeviceupdateconfiguration?view=skype-ps&preserve-view=true)
+[Remove-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csdeviceupdateconfiguration?view=skype-ps&preserve-view=true)
 
 ***Example***
 
@@ -523,7 +523,7 @@ Let us consider the various tasks a user can do on **DEVICE LOG CONFIGURATION**,
 
 ***Cmdlet***
 
-[Set-CsDeviceUpdateConfiguration](/powershell/module/skype/set-csdeviceupdateconfiguration?view=skype-ps&preserve-view=true)
+[Set-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdeviceupdateconfiguration?view=skype-ps&preserve-view=true)
 
 ***Example***
 
@@ -547,7 +547,7 @@ Let us consider the various tasks a user can do on **DEVICE CONFIGURATION**, and
 
 ***Cmdlet***
 
-[Get-CsUCPhoneConfiguration](/powershell/module/skype/get-csucphoneconfiguration?view=skype-ps&preserve-view=true)
+[Get-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csucphoneconfiguration?view=skype-ps&preserve-view=true)
 
 ***Example***
 
@@ -563,7 +563,7 @@ Let us consider the various tasks a user can do on **DEVICE CONFIGURATION**, and
 
 ***Cmdlet***
 
-[New-CsUCPhoneConfiguration](/powershell/module/skype/new-csucphoneconfiguration?view=skype-ps&preserve-view=true)  
+[New-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csucphoneconfiguration?view=skype-ps&preserve-view=true)  
 
 ***Example***
 
@@ -579,7 +579,7 @@ Let us consider the various tasks a user can do on **DEVICE CONFIGURATION**, and
 
 ***Cmdlet***
 
-[Get-CsUCPhoneConfiguration](/powershell/module/skype/get-csucphoneconfiguration?view=skype-ps&preserve-view=true)
+[Get-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csucphoneconfiguration?view=skype-ps&preserve-view=true)
 
 ***Example***
 
@@ -595,7 +595,7 @@ Let us consider the various tasks a user can do on **DEVICE CONFIGURATION**, and
 
 ***Cmdlet***
 
-[Remove-CsUCPhoneConfiguration](/powershell/module/skype/remove-csucphoneconfiguration?view=skype-ps&preserve-view=true)
+[Remove-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csucphoneconfiguration?view=skype-ps&preserve-view=true)
 
 ***Example***
 
@@ -611,7 +611,7 @@ Let us consider the various tasks a user can do on **DEVICE CONFIGURATION**, and
 
 ***Cmdlet***
 
-[Set-CsUCPhoneConfiguration](/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps&preserve-view=true)
+[Set-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps&preserve-view=true)
 
 ***Example***
 
@@ -635,7 +635,7 @@ Let us consider the various tasks a user can do on **MOBILITY POLICY**, and the 
 
 ***Cmdlet***
 
-[Get-CsMobilityPolicy](/powershell/module/skype/get-csmobilitypolicy?view=skype-ps&preserve-view=true)
+[Get-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/get-csmobilitypolicy?view=skype-ps&preserve-view=true)
 
 ***Example***
 
@@ -651,7 +651,7 @@ Let us consider the various tasks a user can do on **MOBILITY POLICY**, and the 
 
 ***Cmdlet***
 
-[New-CsMobilityPolicy](/powershell/module/skype/new-csmobilitypolicy?view=skype-ps&preserve-view=true)  
+[New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps&preserve-view=true)  
 
 ***Example***
 
@@ -667,7 +667,7 @@ Let us consider the various tasks a user can do on **MOBILITY POLICY**, and the 
 
 ***Cmdlet***
 
-[Get-CsMobilityPolicy](/powershell/module/skype/get-csmobilitypolicy?view=skype-ps&preserve-view=true)
+[Get-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/get-csmobilitypolicy?view=skype-ps&preserve-view=true)
 
 ***Example***
 
@@ -683,7 +683,7 @@ Let us consider the various tasks a user can do on **MOBILITY POLICY**, and the 
 
 ***Cmdlet***
 
-[Remove-CsMobilityPolicy](/powershell/module/skype/remove-csmobilitypolicy?view=skype-ps&preserve-view=true)
+[Remove-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csmobilitypolicy?view=skype-ps&preserve-view=true)
 
 ***Example***
 
@@ -699,7 +699,7 @@ Let us consider the various tasks a user can do on **MOBILITY POLICY**, and the 
 
 ***Cmdlet***
 
-[Set-CsMobilityPolicy](/powershell/module/skype/set-csmobilitypolicy?view=skype-ps&preserve-view=true)
+[Set-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/set-csmobilitypolicy?view=skype-ps&preserve-view=true)
 
 ***Example***
 
@@ -723,7 +723,7 @@ Let us consider the various tasks a user can do on **PUSH NOTIFICATION CONFIGURA
 
 ***Cmdlet***
 
-[Get-CsPushNotificationConfiguration](/powershell/module/skype/get-cspushnotificationconfiguration?view=skype-ps&preserve-view=true)
+[Get-CsPushNotificationConfiguration](https://docs.microsoft.com/powershell/module/skype/get-cspushnotificationconfiguration?view=skype-ps&preserve-view=true)
 
 ***Example***
 
@@ -739,7 +739,7 @@ Let us consider the various tasks a user can do on **PUSH NOTIFICATION CONFIGURA
 
 ***Cmdlet***
 
-[New-CsPushNotificationConfiguration](/powershell/module/skype/new-cspushnotificationconfiguration?view=skype-ps&preserve-view=true)  
+[New-CsPushNotificationConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cspushnotificationconfiguration?view=skype-ps&preserve-view=true)  
 
 ***Example***
 
@@ -755,7 +755,7 @@ Let us consider the various tasks a user can do on **PUSH NOTIFICATION CONFIGURA
 
 ***Cmdlet***
 
-[Get-CsPushNotificationConfiguration](/powershell/module/skype/get-cspushnotificationconfiguration?view=skype-ps&preserve-view=true)
+[Get-CsPushNotificationConfiguration](https://docs.microsoft.com/powershell/module/skype/get-cspushnotificationconfiguration?view=skype-ps&preserve-view=true)
 
 ***Example***
 
@@ -771,7 +771,7 @@ Let us consider the various tasks a user can do on **PUSH NOTIFICATION CONFIGURA
 
 ***Cmdlet***
 
-[Remove-CsPushNotificationConfiguration](/powershell/module/skype/remove-cspushnotificationconfiguration?view=skype-ps&preserve-view=true)
+[Remove-CsPushNotificationConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cspushnotificationconfiguration?view=skype-ps&preserve-view=true)
 
 ***Example***
 
@@ -787,7 +787,7 @@ Let us consider the various tasks a user can do on **PUSH NOTIFICATION CONFIGURA
 
 ***Cmdlet***
 
-[Set-CsPushNotificationConfiguration](/powershell/module/skype/set-cspushnotificationconfiguration?view=skype-ps&preserve-view=true)
+[Set-CsPushNotificationConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cspushnotificationconfiguration?view=skype-ps&preserve-view=true)
 
 ***Example***
 
