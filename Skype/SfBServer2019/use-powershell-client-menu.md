@@ -372,7 +372,7 @@ Let us consider the various tasks a user can do on **TEST DEVICE**, and the Skyp
 
 ***Cmdlet***
 
-[Get-CsTestDevice](/powershell/module/skype/get-csdeviceupdaterule)
+[Get-CsTestDevice](/powershell/module/skype/get-cstestdevice)
 
 ***Example***
 
