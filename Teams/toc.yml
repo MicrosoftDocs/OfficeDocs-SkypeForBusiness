@@ -258,6 +258,8 @@ items:
       items: 
         - name: Security Guide
           href: teams-security-guide.md
+        - name: End-to-end encryption
+          href: teams-end-to-end-encryption.md
         - name: Azure Sentinel and Teams
           href: teams-sentinel-guide.md
         - name: Identity models and authentication
