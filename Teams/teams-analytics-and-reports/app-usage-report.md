@@ -33,17 +33,39 @@ The Teams app usage report in the Microsoft Teams admin center provides you with
 
 ## Interpret the report
 
-![Screenshot of the Teams app usage report in the Teams admin center with callouts.](media/app-usage-report5.png "Screenshot of the Teams app usage report in the Teams admin center with callouts")<br>
+:::image type="content" alt-text="Screenshot of the Teams app usage report in the Teams admin center with callouts." source="media/app-usage-report5.png" lightbox="media/app-usage-report5.png":::
 
 1. Each report has a date at the upper left that shows when the report was created. Reports usually reflect a 24-hour latency from the time an app was opened.
+
 2. The Y axis on the chart is the number of users who for the date you selected by hovering over the chart are considered active users because the have opened an app at least once.
+
 3. The X axis on the chart is the date range that you selected for the report.
+
 4. Hover over the dot representing an app's usage on any date to see the total number of that app’s active users on that date.
+
 5. To select other apps, at the upper right, click the **Filter** icon, select or type new criteria, and then click **Apply**.
-6. The table at the bottom of the report shows active users and teams by app name.<br><ul><li>**App name** is the display name of the app used in Teams.</li><li>**Active users** is the number of users who opened the app at least once during the specified time period.</li><li>**App type** is a static value of either “Microsoft” or “Third Party”.</li><li>**Active teams** is the number of teams who have opened the app by at least one member of the team and during the specified time periods.</li><li>**Publisher** is the software publisher of the app.</li><li>**Version** is the software version of the app, from the app publisher.</li></ul><b> Note:</b> **Active users** and **Active teams** are calculated for apps used in channels only.
+
+6. The table at the bottom of the report shows active users and teams by app name.
+
+   - **App name** is the display name of the app used in Teams.
+   - **Active users** is the number of users who opened the app at least once during the specified time period.
+   - **App type** is a static value of either “Microsoft” or “Third Party”.
+   - **Active teams** is the number of teams who have opened the app by at least one member of the team and during the specified time periods.
+   - **Publisher** is the software publisher of the app.
+   - **Version** is the software version of the app, from the app publisher.
+
+   > [!NOTE]
+   > **Active users** and **Active teams** are calculated for apps used in channels only.
+
 7. To add or remove columns in the table, at the upper right, click the **Edit columns** icon, on the **Edit columns** tab, select new criteria, and then click **Apply**.
-8. To export the report to a CSV file for offline analysis, at the upper right, select the **Export to Excel** icon, and then on the **Downloads** tab under **Status**, click **Download**.<br><br>![Screenshot of Downloads pane.](media/app-usage-report7.png "Screenshot of Downloads pane")
-9. When you view the report in Excel, you'll also see an **Id** column, which represents the app ID, typically an alphanumeric string. If the **Id** is **\n****, this means that a user asked that their information be deleted.<br><br>![Screenshot of the downloaded Excel report.](media/app-usage-report8.png "Screenshot of the downloaded Excel report.")
+
+8. To export the report to a CSV file for offline analysis, at the upper right, select the **Export to Excel** icon, and then on the **Downloads** tab under **Status**, click **Download**.
+
+   :::image type="content" alt-text="Screenshot of Downloads pane." source="media/app-usage-report7.png" lightbox="media/app-usage-report7.png":::
+
+9. When you view the report in Excel, you'll also see an **Id** column, which represents the app ID, typically an alphanumeric string. If the **Id** is **\n**, this means that a user asked that their information be deleted.
+
+   ![Screenshot of the downloaded Excel report.](media/app-usage-report8.png "Screenshot of the downloaded Excel report.")
 
 ## Related topics
 
