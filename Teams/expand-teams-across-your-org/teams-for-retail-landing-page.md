@@ -122,7 +122,7 @@ Because the workforce is largely mobile, managing accounts and devices is a key 
 
 Ensure that your sales associates and other frontline workers have the appropriate access to Teams functionality by configuring the appropriate policy packages. Teams policies help control what users in specific roles can do. The [Frontline worker and Frontline manager policy packages](../manage-policy-packages.md#policy-packages-included-in-teams) are tailored to be appropriate for frontline workforces like those in retail stores.
 
-Microsoft Teams integrates with the Shifts app and Frontline Worker, which can be used to coordinate shift staffing features and more. For example, in Shifts, store managers can set up and coordinate schedules for their staff, and employees can check schedules and swap shifts. Teams includes a built-in Frontline Worker app setup policy that you can assign to Frontline Workers in your organization. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. This policy controls behavior for these apps, for example, pinning the Shifts app to the app bar so the team can quickly access it. To learn more, see [Manage the Shifts app for your organization in Microsoft Teams](shifts/manage-the-shifts-app-for-your-organization-in-teams.md).
+Microsoft Teams integrates with the Shifts app and Frontline Worker, which can be used to coordinate shift staffing features and more. For example, in Shifts, store managers can set up and coordinate schedules for their staff, and employees can check schedules and swap shifts.
 
 ## Set up Teams and apps
 
@@ -153,15 +153,15 @@ For retail environments, the following apps and products can help you transform 
 
 Create teams that include a predefined set of settings, channels, tabs, and pre-installed apps for communication and collaboration within an individual store, with a region, or between headquarters and your staff wherever they are. 
 
-- The Retail **Organize a store** template includes channels for General, Shift Handoff, and Learning, and includes the Approvals, Tasks, and Wiki apps. 
+- The Retail **Organize a store** template includes channels for General, Shift Handoff, Store Readiness, and Learning, and includes the Approvals, Tasks, and Wiki apps.
 - The **Retail for managers** template includes channels for General, Operations, and Learning, and includes a Wiki tab.
 
 You can also [create a custom template](create-a-team-template.md) to include the apps your store needs. More information: [Get started with Retail teams templates](../get-started-with-retail-teams-templates.md)
 
 Aside from teams templates, you can also set up other sites and services to help with communication: SharePoint sites and Viva Connections.
 
-- Use the SharePoint site templates to...
-- Use Viva Connections to bring it all together...
+- Set up SharePoint sites to create a home page for your organization, distribute news across your company, and provide a place with resources for onboarding users. Learn more about using SharePoint sites for corporate communications scenarios at [/sharepoint/corporate-communications-overview](/sharepoint/corporate-communications-overview).
+- Use Viva Connections to bring it all together. With Viva Connections as your employee's home in Teams, they can get updates on their tasks, organizational news, and more. For more information, see [Overview: Viva Connections (Preview)](/sharepoint/viva-connections-overview) and [Add the Viva Connections app in the Teams Admin Center (Preview)](/sharepoint/add-viva-connections-app.md).
 
 ## Get ready to roll out your scenarios - identify roles and responsibilities for scenarios
 
