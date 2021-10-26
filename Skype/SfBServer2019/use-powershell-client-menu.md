@@ -631,7 +631,7 @@ Let us consider the various tasks a user can do on **MOBILITY POLICY**, and the 
 
 > **Scenario 1**: List all the mobility policies
 
-   ![List Mobility Policy](./media/mobility-policy-1.png)
+   ![List Mobility Policy](media/mobility-policy-1.png)
 
 ***Cmdlet***
 
