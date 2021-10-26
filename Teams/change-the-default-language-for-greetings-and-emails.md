@@ -33,7 +33,7 @@ If you are a [Global Admin](https://support.office.com/article/da585eea-f576-4f5
   
 - **The languages that are available to you are determined by the location of your organization**. For example, if your organization is located in the United States, you can set the default language to English or Spanish. If your organization is located in Canada, you can choose between English and French. For a list of supported languages in Teams and Skype for Business, see the following:
   - [Microsoft Teams supported languages](languages-for-voicemail-greetings-and-messages.md)
-  - [Skype for Business supported languages](./Skype/SfbOnline/what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages.md)
+  - [Skype for Business supported languages](/Skype/SfbOnline/what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages.md)
 
 - **Changing languages for individual user's voicemail greeting and voicemail messages.** You can change the preferred language for users, which will change the language of their voicemail greeting and voicemail messages sent to their Outlook mailbox. For more information, see [How to set language and region settings for Office 365](/office365/troubleshoot/access-management/set-language-and-region).
 
