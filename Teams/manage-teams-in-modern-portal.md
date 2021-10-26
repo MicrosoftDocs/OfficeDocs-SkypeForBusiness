@@ -112,7 +112,7 @@ The changes that you make to a team are logged. If you're modifying group settin
 
 Some of your teams are missing from the list of teams in the Teams overview grid.
 
-**Cause**: This issue occurs when the team was incorrectly (or not yet) profiled by the system which can lead to a missing property for it to be recognized.
+**Cause**: This issue occurs when the team was incorrectly (or not yet) profiled by the system, which can lead to a missing property for it to be recognized.
 
 **Resolution: Manually set the property to the correct value via MS Graph**
 
