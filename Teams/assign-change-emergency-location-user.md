@@ -22,9 +22,11 @@ ms.custom: seo-marvel-apr2020
 
 # Assign or change an emergency location for a user
 
-An emergency location needs to be assigned to each phone number or user. For more information about emergency addresses and locations, see [What are emergency locations, places, and call routing?](./what-are-emergency-locations-addresses-and-call-routing.md).
+An emergency location needs to be assigned to each phone number or user.
 
-For Microsoft Calling Plans, in European countries, the emergency location is associated with the phone number when you get it from Microsoft 365 or when you transfer a phone number over to Microsoft 365. In the United States, the emergency location is associated with the phone number when it's assigned to the user. The emergency address can be changed if the user that it's assigned to moves to a new location.
+**There are some differences in how you manage emergency locations depending on whether you are using Microsoft Calling Plans, Operator Connect, or Direct Routing for your PSTN connectivity. For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).**
+
+**This article applies to Calling Plans and Operator Connect.**
   
 You can assign or change an emergency location for a user in the Microsoft Teams admin center or by using PowerShell.
 
