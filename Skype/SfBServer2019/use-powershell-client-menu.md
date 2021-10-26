@@ -39,7 +39,7 @@ Let us consider the various tasks a user can do on **CLIENT VERSION POLICY**, an
 ---
 > **Scenario 1**: List all the client version policies
 
-   ![List Client Version Policy](./media/ClientVersionPolicy-1.png)
+   ![List Client Version Policy](./media/clientversionpolicy-1.png)
 
 ***Cmdlet***
 
@@ -55,7 +55,7 @@ Let us consider the various tasks a user can do on **CLIENT VERSION POLICY**, an
 
 > **Scenario 2**: Create a new client version policy
 
-   ![New Client Version Policy](./media/ClientVersionPolicy-2.png)
+   ![New Client Version Policy](./media/clientversionpolicy-2.png)
 
 ***Cmdlet***
 
@@ -71,7 +71,7 @@ Let us consider the various tasks a user can do on **CLIENT VERSION POLICY**, an
 
 > **Scenario 3**: Get details of a chosen client version policy
 
-   ![Get Client Version Policy](./media/ClientVersionPolicy-3.png)
+   ![Get Client Version Policy](./media/clientversionpolicy-3.png)
 
 ***Cmdlet***
 
@@ -87,7 +87,7 @@ Let us consider the various tasks a user can do on **CLIENT VERSION POLICY**, an
 
 > **Scenario 4**: Delete chosen client version policies
 
-   ![Delete Client Version Policy](./media/ClientVersionPolicy-4.png)
+   ![Delete Client Version Policy](./media/clientversionpolicy-4.png)
 
 ***Cmdlet***
 
@@ -103,7 +103,7 @@ Let us consider the various tasks a user can do on **CLIENT VERSION POLICY**, an
 
 > **Scenario 5**: Update a client version policy
 
-   ![Update Client Version Policy](./media/ClientVersionPolicy-5.png)
+   ![Update Client Version Policy](./media/clientversionpolicy-5.png)
 
 - **Annotation 1 - Result**
 
@@ -281,7 +281,7 @@ Let us consider the various tasks a user can do on **DEVICE UPDATE**, and the Sk
 ---
 > **Scenario 1**: List all the device updates
 
-   ![List Device Update](./media/Device-Update-1.png)
+   ![List Device Update](./media/device-update-1.png)
 
 ***Cmdlet***
 
@@ -297,7 +297,7 @@ Let us consider the various tasks a user can do on **DEVICE UPDATE**, and the Sk
 
 > **Scenario 2**: Delete device updates
 
-   ![Delete Device Update](./media/Device-Update-2.png)
+   ![Delete Device Update](./media/device-update-2.png)
 
 ***Cmdlet***
 
@@ -313,7 +313,7 @@ Let us consider the various tasks a user can do on **DEVICE UPDATE**, and the Sk
 
 > **Scenario 3**: Cancel device updates
 
-   ![Cancel Device Update](./media/Device-Update-3.png)
+   ![Cancel Device Update](./media/device-update-3.png)
 
 ***Cmdlet***
 
@@ -329,7 +329,7 @@ Let us consider the various tasks a user can do on **DEVICE UPDATE**, and the Sk
 
 > **Scenario 4**: Approve device updates
 
-   ![Approve Device Update](./media/Device-Update-4.png)
+   ![Approve Device Update](./media/device-update-4.png)
 
 ***Cmdlet***
 
@@ -345,7 +345,7 @@ Let us consider the various tasks a user can do on **DEVICE UPDATE**, and the Sk
 
 > **Scenario 5**: Restore device updates
 
-   ![Restore Device Update](./media/Device-Update-5.png)
+   ![Restore Device Update](./media/device-update-5.png)
 
 ***Cmdlet***
 
@@ -368,7 +368,7 @@ Let us consider the various tasks a user can do on **TEST DEVICE**, and the Skyp
 ---
 > **Scenario 1**: List all the test devices
 
-   ![List Test Device](./media/TestDevice-1.png)
+   ![List Test Device](./media/testdevice-1.png)
 
 ***Cmdlet***
 
@@ -384,7 +384,7 @@ Let us consider the various tasks a user can do on **TEST DEVICE**, and the Skyp
 
 > **Scenario 2**: Create a new test device
 
-   ![Create Test Device](./media/TestDevice-2.png)
+   ![Create Test Device](./media/testdevice-2.png)
 
 ***Cmdlet***
 
@@ -400,7 +400,7 @@ Let us consider the various tasks a user can do on **TEST DEVICE**, and the Skyp
 
 > **Scenario 3**: Get details of a chosen test device
 
-   ![Get Test Device](./media/TestDevice-3.png)
+   ![Get Test Device](./media/testdevice-3.png)
 
 ***Cmdlet***
 
@@ -416,7 +416,7 @@ Let us consider the various tasks a user can do on **TEST DEVICE**, and the Skyp
 
 > **Scenario 4**: Delete chosen test devices
 
-   ![Delete Test Device](./media/TestDevice-4.png)
+   ![Delete Test Device](./media/testdevice-4.png)
 
 ***Cmdlet***
 
@@ -432,7 +432,7 @@ Let us consider the various tasks a user can do on **TEST DEVICE**, and the Skyp
 
 > **Scenario 5**: Update a test device
 
-   ![Update Test Device](./media/TestDevice-5.png)
+   ![Update Test Device](./media/testdevice-5.png)
 
 ***Cmdlet***
 
@@ -455,7 +455,7 @@ Let us consider the various tasks a user can do on **DEVICE LOG CONFIGURATION**,
 ---
 > **Scenario 1**: List all the device log configurations
 
-   ![List Device Log Configuration](./media/Device-Log-Configuration-1.png)
+   ![List Device Log Configuration](./media/device-log-configuration-1.png)
 
 ***Cmdlet***
 
@@ -471,7 +471,7 @@ Let us consider the various tasks a user can do on **DEVICE LOG CONFIGURATION**,
 
 > **Scenario 2**: Create a new device log configuration
 
-   ![Create Device Log Configuration](./media/Device-Log-Configuration-2.png)
+   ![Create Device Log Configuration](./media/device-log-configuration-2.png)
 
 ***Cmdlet***
 
@@ -487,7 +487,7 @@ Let us consider the various tasks a user can do on **DEVICE LOG CONFIGURATION**,
 
 > **Scenario 3**: Get details of a chosen device log configuration
 
-   ![Get Device Log Configuration](./media/Device-Log-Configuration-3.png)
+   ![Get Device Log Configuration](./media/device-log-configuration-3.png)
 
 ***Cmdlet***
 
@@ -503,7 +503,7 @@ Let us consider the various tasks a user can do on **DEVICE LOG CONFIGURATION**,
 
 > **Scenario 4**: Delete chosen device log configurations
 
-   ![Delete Device Log Configuration](./media/Device-Log-Configuration-4.png)
+   ![Delete Device Log Configuration](./media/device-log-configuration-4.png)
 
 ***Cmdlet***
 
@@ -519,7 +519,7 @@ Let us consider the various tasks a user can do on **DEVICE LOG CONFIGURATION**,
 
 > **Scenario 5**: Update a device log configuration
 
-   ![Update Device Log Configuration](./media/Device-Log-Configuration-5.png)
+   ![Update Device Log Configuration](./media/device-log-configuration-5.png)
 
 ***Cmdlet***
 
@@ -543,7 +543,7 @@ Let us consider the various tasks a user can do on **DEVICE CONFIGURATION**, and
 
 > **Scenario 1**: List all the mobility policies
 
-   ![List Device Configuration](./media/Device-Configuration-1.png)
+   ![List Device Configuration](./media/device-configuration-1.png)
 
 ***Cmdlet***
 
@@ -559,7 +559,7 @@ Let us consider the various tasks a user can do on **DEVICE CONFIGURATION**, and
 
 > **Scenario 2**: Create a new device configuration
 
-   ![Create Device Configuration](./media/Device-Configuration-2.png)
+   ![Create Device Configuration](./media/device-configuration-2.png)
 
 ***Cmdlet***
 
@@ -575,7 +575,7 @@ Let us consider the various tasks a user can do on **DEVICE CONFIGURATION**, and
 
 > **Scenario 3**: Get details of a chosen device configuration
 
-   ![Get Device Configuration](./media/Device-Configuration-3.png)
+   ![Get Device Configuration](./media/device-configuration-3.png)
 
 ***Cmdlet***
 
@@ -591,7 +591,7 @@ Let us consider the various tasks a user can do on **DEVICE CONFIGURATION**, and
 
 > **Scenario 4**: Delete chosen device configurations
 
-   ![Delete Device Configuration](./media/Device-Configuration-4.png)
+   ![Delete Device Configuration](./media/device-configuration-4.png)
 
 ***Cmdlet***
 
@@ -607,7 +607,7 @@ Let us consider the various tasks a user can do on **DEVICE CONFIGURATION**, and
 
 > **Scenario 5**: Updates a device configuration
 
-   ![Update Device Configuration](./media/Device-Configuration-5.png)
+   ![Update Device Configuration](./media/device-configuration-5.png)
 
 ***Cmdlet***
 
@@ -631,7 +631,7 @@ Let us consider the various tasks a user can do on **MOBILITY POLICY**, and the 
 
 > **Scenario 1**: List all the mobility policies
 
-   ![List Mobility Policy](./media/Mobility-Policy-1.png)
+   ![List Mobility Policy](./media/mobility-policy-1.png)
 
 ***Cmdlet***
 
@@ -647,7 +647,7 @@ Let us consider the various tasks a user can do on **MOBILITY POLICY**, and the 
 
 > **Scenario 2**: Create a new mobility policy
 
-   ![Create Mobility Policy](./media/Mobility-Policy-2.png)
+   ![Create Mobility Policy](./media/mobility-policy-2.png)
 
 ***Cmdlet***
 
@@ -663,7 +663,7 @@ Let us consider the various tasks a user can do on **MOBILITY POLICY**, and the 
 
 > **Scenario 3**: Get details of a chosen mobility policy
 
-   ![Get Mobility Policy](./media/Mobility-Policy-3.png)
+   ![Get Mobility Policy](./media/mobility-policy-3.png)
 
 ***Cmdlet***
 
@@ -679,7 +679,7 @@ Let us consider the various tasks a user can do on **MOBILITY POLICY**, and the 
 
 > **Scenario 4**: Delete chosen mobility policies
 
-   ![Delete Mobility Policy](./media/Mobility-Policy-4.png)
+   ![Delete Mobility Policy](./media/mobility-policy-4.png)
 
 ***Cmdlet***
 
@@ -695,7 +695,7 @@ Let us consider the various tasks a user can do on **MOBILITY POLICY**, and the 
 
 > **Scenario 5**: Update a mobility policy
 
-   ![Update Mobility Policy](./media/Mobility-Policy-5.png)
+   ![Update Mobility Policy](./media/mobility-policy-5.png)
 
 ***Cmdlet***
 
@@ -719,7 +719,7 @@ Let us consider the various tasks a user can do on **PUSH NOTIFICATION CONFIGURA
 
 > **Scenario 1**: List all the mobility policies
 
-   ![List Push Notification Configuration](./media/Push-Notification-Config-1.png)
+   ![List Push Notification Configuration](./media/push-notification-config-1.png)
 
 ***Cmdlet***
 
@@ -735,7 +735,7 @@ Let us consider the various tasks a user can do on **PUSH NOTIFICATION CONFIGURA
 
 > **Scenario 2**: Create a new push notification configuration
 
-   ![Create Push Notification Configuration](./media/Push-Notification-Config-2.png)
+   ![Create Push Notification Configuration](./media/push-notification-config-2.png)
 
 ***Cmdlet***
 
@@ -751,7 +751,7 @@ Let us consider the various tasks a user can do on **PUSH NOTIFICATION CONFIGURA
 
 > **Scenario 3**: Get details of a chosen push notification configuration
 
-   ![Get Push Notification Configuration](./media/Push-Notification-Config-3.png)
+   ![Get Push Notification Configuration](./media/push-notification-config-3.png)
 
 ***Cmdlet***
 
@@ -767,7 +767,7 @@ Let us consider the various tasks a user can do on **PUSH NOTIFICATION CONFIGURA
 
 > **Scenario 4**: Delete chosen push notification configurations
 
-   ![Delete Push Notification Configuration](./media/Push-Notification-Config-4.png)
+   ![Delete Push Notification Configuration](./media/push-notification-config-4.png)
 
 ***Cmdlet***
 
@@ -783,7 +783,7 @@ Let us consider the various tasks a user can do on **PUSH NOTIFICATION CONFIGURA
 
 > **Scenario 5**: Update a push notification configuration
 
-   ![Update Push Notification Configuration](./media/Push-Notification-Config-5.png)
+   ![Update Push Notification Configuration](./media/push-notification-config-5.png)
 
 ***Cmdlet***
 
