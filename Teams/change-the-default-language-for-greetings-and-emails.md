@@ -52,13 +52,13 @@ If you are a [Global Admin](https://support.office.com/article/da585eea-f576-4f5
 
      ![Screenshot showing choosing Settings and then Organization profile.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
-4. Choose **Organization information**.
+3. Choose **Organization information**.
 
     ![Screenshot showing the Edit option.](media/e4a0b09d-2b68-4bc8-a0d3-230939843ee2.png)
   
-5. Select a language from the **Preferred language** list for everyone in your organization.
+4. Select a language from the **Preferred language** list for everyone in your organization.
 
-6. Choose **Save**.
+5. Choose **Save**.
 
 ## Related articles for the admin
 
