@@ -144,7 +144,6 @@ shown in the following diagram:
 > [!NOTE]
 > This solution is designed specifically to enable policy-based compliance recording with Teams. Any other use of this solution will not be supported.
 
-
 ## Recorder
 
 The core component of the compliance recording solution is the recorder.
@@ -154,7 +153,7 @@ platform](/graph/cloud-communications-concept-overview)
 and register as applications with Microsoft Graph. The recorder provides
 the direct interaction with the Teams calls and meetings
 [communications platform
-APIs](/graph/api/resources/communications-api-overview?view=graph-rest-1.0)
+APIs](/graph/api/resources/communications-api-overview)
 and provides the endpoint for media ingestion.
 
 A [sample compliance recorder application is
@@ -169,9 +168,9 @@ states](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a39
 and [removing the user who is being
 recorded](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L121-L126).
 Graph documentation on the specific APIs can be found here for
-[updateRecordingStatus](/graph/api/call-updaterecordingstatus?tabs=http&view=graph-rest-1.0)
+[updateRecordingStatus](/graph/api/call-updaterecordingstatus?tabs=http)
 and
-[incomingContext](/graph/api/resources/incomingcontext?view=graph-rest-1.0).
+[incomingContext](/graph/api/resources/incomingcontext).
 
 The exact implementation of the recorder service will vary by partner
 but must be designed to support multiple recorders in order to achieve
@@ -248,7 +247,7 @@ policies](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group).
    -ComplianceRecordingApplications @(New-CsTeamsComplianceRecordingApplication -Id 5069aae5-c451-4983-9e57-9455ced220b7 -Parent TestComplianceRecordingPolicy)
    ```
 
-   See [Set-CsTeamsComplianceRecordingPolicy](/powershell/module/skype/set-csteamscompliancerecordingpolicy?view=skype-ps).
+   See [Set-CsTeamsComplianceRecordingPolicy](/powershell/module/skype/set-csteamscompliancerecordingpolicy).
 
 3. Assign the Compliance Recording policy to a user.
 
@@ -256,7 +255,7 @@ policies](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group).
    PS C:\> Grant-CsTeamsComplianceRecordingPolicy -Identity testuser@contoso.onmicrosoft.com -PolicyName TestComplianceRecordingPolicy
    ```
 
-   See [Grant-CsTeamsComplianceRecordingPolicy](/powershell/module/skype/grant-csteamscompliancerecordingpolicy?view=skype-ps).
+   See [Grant-CsTeamsComplianceRecordingPolicy](/powershell/module/skype/grant-csteamscompliancerecordingpolicy).
 
    ```powershell
    PS C:\> Get-CsOnlineUser testuser@contoso.onmicrosoft.com | select SipAddress, TenantId, TeamsComplianceRecordingPolicy | fl

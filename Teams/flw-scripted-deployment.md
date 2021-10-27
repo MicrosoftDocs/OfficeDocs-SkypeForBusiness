@@ -384,7 +384,7 @@ Minimal error handling has been implemented in these sample scripts. There are t
 
 ## Further reading
 
-- [New Team Channel (PowerShell)](/powershell/module/teams/new-teamchannel?view=teams-ps)
-- [New Teams Messaging Policy (PowerShell)](/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)
+- [New Team Channel (PowerShell)](/powershell/module/teams/new-teamchannel)
+- [New Teams Messaging Policy (PowerShell)](/powershell/module/skype/new-csteamsmessagingpolicy)
 - [Assign policies to your users in Microsoft Teams](policy-assignment-overview.md)
 - [Assign licenses and user accounts with Office 365 PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
