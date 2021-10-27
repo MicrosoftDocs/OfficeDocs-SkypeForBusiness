@@ -57,7 +57,7 @@ Follow these steps to create a security group for your staff and educators, and 
 > [!IMPORTANT]
 > When you assign a policy to a group, the policy assignment is propagated to members of the group according to precedence rules. For example, if a user is directly assigned a policy (either individually or through a batch assignment), that policy takes precedence over a policy that's inherited from a group. This also means that if a user has a meeting policy that was directly assigned to them, you'll have to remove that meeting policy from the user before they can inherit a meeting policy from a security group.
 
-Before you get started, it's important to understand [precedence rules](policy-assignment-overview.md#which-policy-takes-precedence?) and [group assignment ranking](policy-assignment-overview.md#group-assignment-ranking). **Make sure that you read and understand the concepts in [What you need to know about policy assignment to groups](policy-assignment-overview.md#what-you-need-to-know-about-policy-assignment-to-groups)**.
+Before you get started, it's important to understand [precedence rules](policy-assignment-overview.md#which-policy-takes-precedence) and [group assignment ranking](assign-policies-users-and-groups.md#group-assignment-ranking). **Make sure that you read and understand the concepts in [What you need to know about policy assignment to groups](assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)**.
 
 You'll need to complete all these steps for your staff and educators to inherit a meeting policy from a security group.
 

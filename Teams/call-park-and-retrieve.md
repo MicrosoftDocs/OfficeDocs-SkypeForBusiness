@@ -60,7 +60,7 @@ To enable a call park policy:
 
 You can edit the policy by selecting it in the list and clicking **Edit**.
 
-In order for the policy to work, it must be assigned to users. You can [assign the policy to users individually](assign-policies-to-users-and-groups.md) or assign them to a group.
+In order for the policy to work, it must be assigned to users. You can [assign the policy to users individually](assign-policies-users-and-groups.md) or assign them to a group.
 
 To assign a call park policy to a group
 
