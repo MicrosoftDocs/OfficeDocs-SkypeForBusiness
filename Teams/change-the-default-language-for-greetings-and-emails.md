@@ -38,7 +38,7 @@ If you are a [Global admin](https://support.office.com/article/da585eea-f576-4f5
 - **Changing languages for individual user's voicemail greeting and voicemail messages.** You can change the preferred language for users, which will change the language of their voicemail greeting and voicemail messages sent to their Outlook mailbox. For more information, see [How to set language and region settings for Office 365](/office365/troubleshoot/access-management/set-language-and-region).
 
   > [!NOTE]
-  > Users can change their own greeting language through their settings after they sign in. For more information, see [Change your display language and time zone in Microsoft 365 for Business](https://support.office.com/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b)
+  > Users can change their own greeting language through their settings after they sign in. For more information, see [Change your display language and time zone in Microsoft 365 for Business](https://support.office.com/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b).
   
 - **Do you want to record your outgoing voicemail message?** See [Check Skype for Business voicemail and options](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8). For Microsoft Teams - Users can change their voicemail settings from the [Manage your call settings in Teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
 
