@@ -28,7 +28,7 @@ description: Learn about policies in a educational or EDU setting, and how to us
 [!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
-> For the larger story on policies in Microsoft Teams, please review [Assign policies to your users in Microsoft Teams](assign-policies.md).
+> For the larger story on policies in Microsoft Teams, please review [Assign policies to your users in Microsoft Teams](policy-assignment-overview.md).
 
 ## Admins: Getting started with Microsoft Teams policy management
 
@@ -185,13 +185,13 @@ If a user has a policy assigned, and then later you assign a different policy, t
 
 Policy package assignment to groups let you assign multiple policies to a group of users, such as a security group or distribution list. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly. This method is recommended for groups of up to 50,000 users but will also work with larger groups.
 
-To learn more, see [Assign a policy package to a group](assign-policies.md#assign-a-policy-package-to-a-group).
+To learn more, see [Assign a policy package to a group](assign-policy-packages.md#assign-a-policy-package-to-a-group).
 
 #### Assign a policy package to a large set (batch) of users
 
 Use batch policy package assignment to assign a policy package to large sets of users at a time. You use the [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) cmdlet to submit a batch of users and the policy package that you want to assign. The assignments are processed as a background operation and an operation ID is generated for each batch.
 
-A batch can contain up to 5,000 users. You can specify users by their object Id, UPN, SIP address, or email address. To learn more, see [Assign a policy package to a batch of users](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
+A batch can contain up to 5,000 users. You can specify users by their object Id, UPN, SIP address, or email address. To learn more, see [Assign a policy package to a batch of users](assign-policies-users-and-groups.md#assign-a-policy-package-to-a-batch-of-users).
 
 ## Policies that should be assigned for student safety
 

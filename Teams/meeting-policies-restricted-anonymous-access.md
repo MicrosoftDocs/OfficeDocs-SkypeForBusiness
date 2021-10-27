@@ -61,7 +61,7 @@ Get-CsOnlineUser |? TeamsMeetingPolicy -eq "RestrictedAnonymousAccess" | Select-
 
 ### Use the New-CsBatchPolicyAssignmentOperation cmdlet
 
-With [batch policy assignment](assign-policies.md#assign-a-policy-to-a-batch-of-users), the maximum number of users for which you can remove or update policies is 5,000 at a time. For example, if you have more than 5,000 users, you'll need to submit multiple batches. For best results, do not submit multiple batches at a time. Allow batches to complete processing before submitting more batches.
+With [batch policy assignment](assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users), the maximum number of users for which you can remove or update policies is 5,000 at a time. For example, if you have more than 5,000 users, you'll need to submit multiple batches. For best results, do not submit multiple batches at a time. Allow batches to complete processing before submitting more batches.
 
 > [!NOTE]
 > The [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) cmdlet is in the Teams PowerShell module. Before you follow these steps, install and connect to the [Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams). For step-by-step guidance, see [Install Microsoft Teams PowerShell](teams-powershell-install.md).
@@ -90,4 +90,4 @@ Make sure the **ErrorCount** is **0** (zero) and **OverallStatus** is **Complete
 
 - [Manage meeting policies in Teams](meeting-policies-overview.md)
 - [Teams PowerShell overview](teams-powershell-overview.md)
-- [Assign policies to your users in Teams](assign-policies.md)
+- [Assign policies to your users in Teams](policy-assignment-overview.md)

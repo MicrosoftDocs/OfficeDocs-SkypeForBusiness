@@ -83,7 +83,7 @@ Add additional descriptive text, as appropriate.
 
   - **Temporarily disable for Lync Server** Disables the user account in Skype for Business Server until you re-enable it, without removing the user account.
 
-  - **Assign Policies** Opens the [Users: Assign Policies](users-assign-policies.md) dialog, where you can configure the policies assigned to the user.
+  - **Assign Policies** Opens the [Users: Assign Policies](assign-policies-users-and-groups.md) dialog, where you can configure the policies assigned to the user.
 
   - **View PIN status** Opens the [Users: View PIN Status](users-view-pin-status.md) dialog, which displays the PIN data for the selected user.
 

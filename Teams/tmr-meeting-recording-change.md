@@ -182,7 +182,7 @@ See [How to auto-apply a retention label](/microsoft-365/compliance/apply-retent
 
 **How do I assign policies to my users in Microsoft Teams and which policies take precedence?**
 
-See [Which policy takes precedence?](./assign-policies.md#which-policy-takes-precedence).
+See [Which policy takes precedence?](./policy-assignment-overview.md#which-policy-takes-precedence).
 
 **Where does the recording go if the user doesn't have OneDrive for Business or SharePoint, or the storage quota is full?**
 

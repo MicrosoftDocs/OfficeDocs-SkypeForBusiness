@@ -60,7 +60,7 @@ To enable a call park policy:
 
 You can edit the policy by selecting it in the list and clicking **Edit**.
 
-In order for the policy to work, it must be assigned to users. You can [assign the policy to users individually](assign-policies.md) or assign them to a group.
+In order for the policy to work, it must be assigned to users. You can [assign the policy to users individually](assign-policies-to-users-and-groups.md) or assign them to a group.
 
 To assign a call park policy to a group
 
@@ -77,7 +77,7 @@ To assign a call park policy to a group
 
 [Park a call in Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
 
-[Assign policies to your users in Teams](assign-policies.md)
+[Assign policies to your users in Teams](policy-assignment-overview.md)
 
 [New-CsTeamsCallParkPolicy](/powershell/module/skype/new-csteamscallparkpolicy)
 

@@ -106,7 +106,7 @@ A: Yes.
 1. In the Users list table, select the users you want to assign to a certain templates policy.
 1. Select Edit settings, and change the Templates policies field.
 1. Select apply.
-   Learn more [Assign policies to your users in Microsoft Teams - Microsoft Teams \| Microsoft Docs](./assign-policies.md#assign-a-policy-to-a-batch-of-users).
+   Learn more [Assign policies to your users in Microsoft Teams - Microsoft Teams \| Microsoft Docs](./assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users).
 
 **Q: How do I view all users assigned to a specific policy?**
 
@@ -136,6 +136,6 @@ A: No, template policies for EDU isn't supported.
 
 - [Create a team template from an existing team template](./create-template-from-existing-template.md)
 
-- [Assign policies to your users in Microsoft Teams - Microsoft Teams \| Microsoft Docs](./assign-policies.md)
+- [Assign policies to your users in Microsoft Teams - Microsoft Teams \| Microsoft Docs](./policy-assignment-overview.md)
 
 - [Batch assign users to a policy](/powershell/module/teams/new-csbatchpolicyassignmentoperation)

@@ -150,4 +150,4 @@ For app permission policies assigned to specific users, if an app with bot or co
 
 [Admin settings for apps in Teams](admin-settings.md)
 
-[Assign policies to your users in Teams](assign-policies.md)
+[Assign policies to your users in Teams](policy-assignment-overview.md)

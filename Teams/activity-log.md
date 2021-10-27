@@ -46,4 +46,4 @@ To view your policy assignments in the Activity log:
 
 ## Related topics
 
-- [Assign policies to users](assign-policies.md)
+- [Assign policies to users](policy-assignment-overview.md)

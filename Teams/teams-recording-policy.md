@@ -211,7 +211,7 @@ organization. You can find more information on Microsoft Docs for
 policies](./meeting-policies-in-teams.md),
  [calling
 policies](./teams-calling-policy.md) and  [group
-policies](./assign-policies.md#assign-a-policy-to-a-group).
+policies](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group).
 
 1. Create an application instance in your tenant.
 

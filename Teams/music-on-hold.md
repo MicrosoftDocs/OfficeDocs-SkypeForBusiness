@@ -117,7 +117,7 @@ The following table indicates which features on which clients and devices suppor
 
 ## Related topics
 
-- [Assign policies to users](assign-policies.md)
+- [Assign policies to users](policy-assignment-overview.md)
 
 - [Get-CsTeamsCallingPolicy](/powershell/module/skype/get-csteamscallingpolicy?view=skype-ps)
 

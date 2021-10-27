@@ -73,6 +73,6 @@ If you want people to access meetings that were previously scheduled or started 
 
 [Manage meeting policies in Teams](meeting-policies-overview.md)
 
-[Assign policies to your users in Teams](assign-policies.md)
+[Assign policies to your users in Teams](policy-assignment-overview.md)
 
 [Teams PowerShell overview](teams-powershell-overview.md)
