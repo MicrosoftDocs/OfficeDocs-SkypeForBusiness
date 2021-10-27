@@ -68,7 +68,7 @@ An Intelligent Speaker should be placed at least 8 inches (20 cm) away from wall
 
 ## Enable an Intelligent Speaker user recognition
 
-Voice profile data can be used in any meeting with an Intelligent Speaker. See [Teams meetings policies](../meetings-policies-recording-and-transcription.md#allow-transcription) and the [PowerShell meeting cmdlets](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) for information on the meeting settings.
+Voice profile data can be used in any meeting with an Intelligent Speaker. See [Teams meetings policies](../meetings-policies-recording-and-transcription.md#allow-transcription) and the [PowerShell meeting cmdlets](/powershell/module/skype/set-csteamsmeetingpolicy) for information on the meeting settings.
 
 The voice profile data of the user is created when the policy is set to distinguish or a non-meeting invitee walks in during the meeting. The voice profile data is dismissed at the end of the meeting.
 
