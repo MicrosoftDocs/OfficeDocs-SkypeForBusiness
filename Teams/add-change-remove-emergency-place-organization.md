@@ -16,7 +16,7 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: "Learn how to add, change, or remove a place for an emergency location for your organization in the Microsoft Teams admin center."
+description: "Learn how to add, change, or remove a place for an emergency location for your organization."
 ms.custom: seo-marvel-mar2020
 ---
 
@@ -24,12 +24,11 @@ ms.custom: seo-marvel-mar2020
 
 **Depending on the number of physical locations in your organization, you can add places for buildings, floors, and offices to create a more specific emergency location.**
 
-**There are some differences in how you manage emergency calling depending on whether you are using Microsoft Calling Plans, Operator Connect, or Direct Routing for your PSTN connectivity. For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).**
+**However, depending on your PSTN connectivity option, how you manage emergency locations and location requirements may vary.  For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).**
+
+**This article describes how to add, change, or remove a place for an emergency location.**
 
 **This article applies to Calling Plans and Operator Connect.**
-
-
-See [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md) for more information.
 
 You manage emergency locations for your organization in the Microsoft Teams admin center or by using PowerShell.
   
