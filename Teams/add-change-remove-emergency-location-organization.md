@@ -26,7 +26,7 @@ ms.custom: seo-marvel-mar2020
 
 **However, depending on your PSTN connectivity option, how you manage emergency locations and location requirements may vary. For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).**
 
-**This article describes how to add, change, or remove an emergency location for your oranization.** 
+**This article describes how to add, change, or remove an emergency location for your organization.** 
 
 **This article applies to Microsoft Calling Plans, Operator Connect, and Direct Routing.**
 

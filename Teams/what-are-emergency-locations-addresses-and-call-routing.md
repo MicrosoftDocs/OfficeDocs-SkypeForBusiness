@@ -182,7 +182,7 @@ In the United States and Canada:
 
 ## Considerations for Direct Routing
 
-The following sections describe how to manage emergency calling for Direct Routing users.To find out whether Direct Routing is the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md).
+The following sections describe how to manage emergency calling for Direct Routing users. To find out whether Direct Routing is the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md).
 
 ### Emergency call enablement for Direct Routing
 
