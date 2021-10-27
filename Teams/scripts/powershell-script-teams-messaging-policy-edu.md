@@ -1,7 +1,7 @@
 ---
 title: PowerShell script sample - Create & assign messaging policy
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: ritikag

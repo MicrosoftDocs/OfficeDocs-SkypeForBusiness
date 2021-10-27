@@ -1,7 +1,7 @@
 ---
 title: Tenant Administration control for voice recognition (voice profile) in Teams Rooms 
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 ms.reviewer: parisataheri
 manager: serdars
 ms.topic: article
