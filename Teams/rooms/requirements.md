@@ -74,6 +74,7 @@ All current Microsoft Teams Room devices and bundles are available in the [Room 
   |Lenovo ThinkSmart Core Kit |Core i5|8 GB|128 GB|
   |[Logitech Tap with Intel NUC](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 GB |128 GB |
   |Logitech Tap and Intel Tiger Canyon NUC PC |Core i5|8 GB|128 GB|
+  |Logitech TAP Console with Lenovo Core Compute |Core i5|8 GB|128 GB|
   |[Logitech Tap and Lenovo ThinkSmart Tiny](https://www.logitech.com/video-collaboration/partners/lenovo.html)|Core i5|8 GB |128 GB|
   |[Poly G10-T with Lenovo ThinkSmart Tiny](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8 GB | 128 GB|
   |[Yealink MVC300 with Intel NUC](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
