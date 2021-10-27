@@ -2,6 +2,84 @@
 
 
 
+## Week of October 18, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/18/2021 | [Teams cloud meeting recording](/MicrosoftTeams/cloud-recording) | modified |
+| 10/18/2021 | [Cortana voice assistance in Microsoft Teams](/MicrosoftTeams/cortana-in-teams) | modified |
+| 10/18/2021 | [Set up an auto attendant for Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modified |
+| 10/18/2021 | [Create a call queue in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modified |
+| 10/18/2021 | [Monitor and troubleshoot Direct Routing](/MicrosoftTeams/direct-routing-monitor-and-troubleshoot) | modified |
+| 10/18/2021 | [Guest access in Microsoft Teams](/MicrosoftTeams/guest-access) | modified |
+| 10/18/2021 | [Manage external access (federation)](/MicrosoftTeams/manage-external-access) | modified |
+| 10/18/2021 | [Manage Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-manage) | modified |
+| 10/18/2021 | [Set up Cloud Voicemail](/MicrosoftTeams/set-up-phone-system-voicemail) | modified |
+| 10/18/2021 | [Shared line appearance in Microsoft Teams](/MicrosoftTeams/shared-line-appearance) | modified |
+| 10/18/2021 | [Routing calls to unassigned numbers](/MicrosoftTeams/routing-calls-to-unassigned-numbers) | added |
+| 10/18/2021 | [Add, change, remove places for emergency locations](/MicrosoftTeams/add-change-remove-emergency-place-organization) | modified |
+| 10/18/2021 | [Assign or change an emergency location for a user](/MicrosoftTeams/assign-change-emergency-location-user) | modified |
+| 10/18/2021 | [Assign, change places for emergency locations for users](/MicrosoftTeams/assign-change-emergency-place-user) | modified |
+| 10/18/2021 | [Configure dynamic emergency calling](/MicrosoftTeams/configure-dynamic-emergency-calling) | modified |
+| 10/18/2021 | [Here's what you get with Phone System](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | modified |
+| 10/18/2021 | [Information barriers in Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | modified |
+| 10/18/2021 | [Limits and specifications for Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modified |
+| 10/18/2021 | [Manage emergency voice routing policies for Direct Routing](/MicrosoftTeams/manage-emergency-call-routing-policies) | modified |
+| 10/18/2021 | [Manage emergency calling policies in Microsoft Teams](/MicrosoftTeams/manage-emergency-calling-policies) | modified |
+| 10/18/2021 | [Manage your network topology for cloud voice features in Microsoft Teams](/MicrosoftTeams/manage-your-network-topology) | modified |
+| 10/18/2021 | [Plan and manage emergency calling](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing) | modified |
+| 10/19/2021 | [Chat, teams, channels, & apps in Microsoft Teams](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | modified |
+| 10/19/2021 | [Admin set-up for the EDU Microsoft Parents app](/MicrosoftTeams/edu-parents-app) | modified |
+| 10/19/2021 | [Private channels in Microsoft Teams](/MicrosoftTeams/private-channels) | modified |
+| 10/20/2021 | [Search the audit log for events in Microsoft Teams](/MicrosoftTeams/audit-log-events) | modified |
+| 10/20/2021 | [Admin set-up for the EDU Microsoft Parents app](/MicrosoftTeams/edu-parents-app) | modified |
+| 10/20/2021 | [Routing calls to unassigned numbers](/MicrosoftTeams/routing-calls-to-unassigned-numbers) | modified |
+| 10/20/2021 | [Add, change, remove emergency locations](/MicrosoftTeams/add-change-remove-emergency-location-organization) | modified |
+| 10/20/2021 | [Add, change, remove places for emergency locations](/MicrosoftTeams/add-change-remove-emergency-place-organization) | modified |
+| 10/20/2021 | [Tools and Downloads for Adoption](/MicrosoftTeams/adopt-tools-and-downloads) | modified |
+| 10/20/2021 | [Assign or change an emergency location for a user](/MicrosoftTeams/assign-change-emergency-location-user) | modified |
+| 10/20/2021 | [Assign, change places for emergency locations for users](/MicrosoftTeams/assign-change-emergency-place-user) | modified |
+| 10/20/2021 | [Assign, change, or remove a phone number for a user](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | modified |
+| 10/20/2021 | [Change phone numbers on Audio Conferencing bridge](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | modified |
+| 10/20/2021 | [Change the settings for an Audio Conferencing bridge](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge) | modified |
+| 10/20/2021 | [Emails sent to users when their settings change](/MicrosoftTeams/emails-sent-to-users-when-their-settings-change-in-teams) | modified |
+| 10/20/2021 | [Email options when Audio Conferencing settings change](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams) | modified |
+| 10/20/2021 | [Enable users to record their name for a meeting](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams) | modified |
+| 10/20/2021 | [Getting phone numbers for your users](/MicrosoftTeams/getting-phone-numbers-for-your-users) | modified |
+| 10/20/2021 | [Manage emergency calling policies in Microsoft Teams](/MicrosoftTeams/manage-emergency-calling-policies) | modified |
+| 10/20/2021 | [Manage external access (federation)](/MicrosoftTeams/manage-external-access) | modified |
+| 10/20/2021 | [Manage Audio Conferencing settings for users](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams) | modified |
+| 10/20/2021 | [Manage Audio Conferencing settings](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams) | modified |
+| 10/20/2021 | [Manage meeting settings](/MicrosoftTeams/meeting-settings-in-teams) | modified |
+| 10/20/2021 | [Outbound call restrictions - Audio Conferencing & PSTN calls](/MicrosoftTeams/outbound-calling-restriction-policies) | modified |
+| 10/20/2021 | [Reset a conference ID for a user in Microsoft Teams](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams) | modified |
+| 10/20/2021 | [Reset the Audio Conferencing PIN in Microsoft Teams](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams) | modified |
+| 10/20/2021 | [See a list of Audio Conferencing numbers](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams) | modified |
+| 10/20/2021 | [See, change, and reset a user's conference ID](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams) | modified |
+| 10/20/2021 | [Email a user their Audio Conferencing information](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams) | modified |
+| 10/20/2021 | [Set Audio Conferencing auto attendant languages](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams) | modified |
+| 10/20/2021 | [Set the phone numbers included on invites](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams) | modified |
+| 10/20/2021 | [Set the PIN length for Audio Conferencing meetings](/MicrosoftTeams/set-the-pin-length-for-audio-conferencing-meetings-in-teams) | modified |
+| 10/20/2021 | [Set up Audio Conferencing for Microsoft Teams](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | modified |
+| 10/20/2021 | [Set your coexistence and upgrade settings](/MicrosoftTeams/setting-your-coexistence-and-upgrade-settings) | modified |
+| 10/20/2021 | [Start Audio Conference over the phone without a PIN in Teams](/MicrosoftTeams/start-an-audio-conference-over-the-phone-without-a-pin-in-teams) | modified |
+| 10/20/2021 | [Configure live event settings in Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | modified |
+| 10/20/2021 | [Microsoft Teams PowerShell Release Notes](/MicrosoftTeams/teams-powershell-release-notes) | modified |
+| 10/20/2021 | [Turn on or off entry and exit announcements for meetings in Teams](/MicrosoftTeams/turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams) | modified |
+| 10/21/2021 | [Teams cloud meeting recording](/MicrosoftTeams/cloud-recording) | modified |
+| 10/21/2021 | [Microsoft Teams Devices Monitoring and Alerting](/MicrosoftTeams/alerts/device-health-status) | modified |
+| 10/21/2021 | [Outbound call restrictions - Audio Conferencing & PSTN calls](/MicrosoftTeams/outbound-calling-restriction-policies) | modified |
+| 10/21/2021 | [Set up Audio Conferencing for Microsoft Teams](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | modified |
+| 10/21/2021 | [Sign in to Microsoft Teams](/MicrosoftTeams/sign-in-teams) | modified |
+| 10/22/2021 | [Set up an auto attendant for Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modified |
+| 10/22/2021 | [Direct Routing SBA](/MicrosoftTeams/direct-routing-survivable-branch-appliance) | modified |
+| 10/22/2021 | [Guest access in Microsoft Teams](/MicrosoftTeams/guest-access) | modified |
+| 10/22/2021 | [Overview of teams and channels in Microsoft Teams](/MicrosoftTeams/teams-channels-overview) | modified |
+| 10/22/2021 | [Microsoft Teams PowerShell Release Notes](/MicrosoftTeams/teams-powershell-release-notes) | modified |
+| 10/22/2021 | [Set up Audio Conferencing for Microsoft Teams](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | modified |
+
+
 ## Week of October 11, 2021
 
 
@@ -250,34 +328,3 @@
 | 9/23/2021 | [Search for telephone numbers for users](/MicrosoftTeams/search-for-phone-numbers-for-users) | modified |
 | 9/23/2021 | [Sensitivity labels for Microsoft Teams](/MicrosoftTeams/sensitivity-labels) | modified |
 | 9/24/2021 | [Microsoft Teams PowerShell Release Notes](/MicrosoftTeams/teams-powershell-release-notes) | modified |
-
-
-## Week of September 13, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 9/13/2021 | [Introduction to Teams Policy-based Recording for Calling & Meetings](/MicrosoftTeams/teams-recording-policy) | modified |
-| 9/13/2021 | [IT Admin Guide to Education Insights in Microsoft Teams](/MicrosoftTeams/class-insights) | modified |
-| 9/13/2021 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | modified |
-| 9/13/2021 | [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps) | modified |
-| 9/14/2021 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | modified |
-| 9/14/2021 | [Microsoft Teams Rooms requirements](/MicrosoftTeams/rooms/requirements) | modified |
-| 9/15/2021 | [Manage the join experience for Teams virtual visits on mobile browsers](/MicrosoftTeams/expand-teams-across-your-org/mobile-browser-join) | modified |
-| 9/16/2021 | [Country/region availability - Audio Conferencing, Calling Plans](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | modified |
-| 9/16/2021 | [Teams: Manage meeting policies](/MicrosoftTeams/meeting-policies-in-teams) | modified |
-| 9/17/2021 | [Audio Conferencing pay-per-minute](/MicrosoftTeams/audio-conferencing-pay-per-minute) | modified |
-| 9/17/2021 | [Teams cloud meeting recording](/MicrosoftTeams/cloud-recording) | modified |
-| 9/17/2021 | [Country/region availability - Audio Conferencing, Calling Plans](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | modified |
-| 9/17/2021 | [Teams: Manage meeting policies](/MicrosoftTeams/meeting-policies-in-teams) | modified |
-| 9/17/2021 | [Quick start - Meetings, webinars, and live events](/MicrosoftTeams/quick-start-meetings-live-events) | modified |
-| 9/17/2021 | [See a list of Audio Conferencing numbers](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams) | modified |
-| 9/17/2021 | [Set up for live events in Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | modified |
-| 9/17/2021 | [Manage phone numbers for your organization](/MicrosoftTeams/manage-phone-numbers-landing-page) | added |
-| 9/17/2021 | [Get service phone numbers for Calling Plans](/MicrosoftTeams/getting-service-phone-numbers) | modified |
-| 9/17/2021 | [How many telephone numbers can you get?](/MicrosoftTeams/how-many-phone-numbers-can-you-get) | modified |
-| 9/17/2021 | [Manage phone numbers for Calling Plan](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) | modified |
-| 9/17/2021 | [Migrate from Slack to Microsoft Teams](/MicrosoftTeams/migrate-slack-to-teams) | modified |
-| 9/17/2021 | [Microsoft Teams Rooms](/MicrosoftTeams/rooms/index) | modified |
-| 9/17/2021 | [Search for telephone numbers for users](/MicrosoftTeams/search-for-phone-numbers-for-users) | modified |
-| 9/17/2021 | [See a list of telephone numbers in your organization](/MicrosoftTeams/see-a-list-of-phone-numbers-in-your-organization) | modified |
