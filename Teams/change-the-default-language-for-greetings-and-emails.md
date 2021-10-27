@@ -46,7 +46,7 @@ If you are a [Global admin](https://support.office.com/article/da585eea-f576-4f5
 
 ## Change the system language for everyone in your organization
 
-1. Sign in with your [Global Admin](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) account at [https://admin.microsoft.com/](https://admin.microsoft.com/).
+1. Sign in with your [Global admin](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) account at [https://admin.microsoft.com/](https://admin.microsoft.com/).
 
 2. In the Microsoft 365 admin center, choose **Settings** > **Org settings** > **Organization profile**.
 
