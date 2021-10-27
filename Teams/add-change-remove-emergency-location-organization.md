@@ -24,7 +24,7 @@ ms.custom: seo-marvel-mar2020
 
 **Regardless of the [PSTN connectivity option](pstn-connectivity.md) you choose--Microsoft Calling Plans, Operator Connect, or Direct Routing--emergency locations can be associated with a phone number. However, depending on your PSTN connectivity option, location requirements may vary.**
 
-**There are some differences in how you manage emergency calling depending on whether you are using Microsoft Calling Plans, Operator Connect, or Direct Routing for your PSTN connectivity. For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).**
+**There are some differences in how you manage emergency locations depending on whether you are using Microsoft Calling Plans, Operator Connect, or Direct Routing for your PSTN connectivity. For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).**
 
 **This article applies to Calling Plans and Operator Connect.**
 
