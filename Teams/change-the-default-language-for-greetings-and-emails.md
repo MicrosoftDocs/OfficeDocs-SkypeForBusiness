@@ -27,7 +27,7 @@ description: Learn how to set up Microsoft Teams and Skype for Business to use a
 
 # Change the default language for greetings and emails
 
-If you are a [Global Admin](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d), you can set up Skype for Business Online or Microsoft Teams to play its default voicemail greeting in another language. The default system greeting is something like, "Please leave a message for John Smith. After the tone, please record your message. When you finish recording, hang up, or press the pound key for more options."
+If you are a [Global admin](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d), you can set up Skype for Business Online or Microsoft Teams to play its default voicemail greeting in another language. The default system greeting is something like, "Please leave a message for John Smith. After the tone, please record your message. When you finish recording, hang up, or press the pound key for more options."
   
  **First, read this important info:**
   
