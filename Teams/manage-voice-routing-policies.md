@@ -73,4 +73,4 @@ See also [Grant-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/grant-csonl
 
 [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md)
 
-[Assign policies to your users in Teams](assign-policies.md)
+[Assign policies to your users in Teams](policy-assignment-overview.md)
