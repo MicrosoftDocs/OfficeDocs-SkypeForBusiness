@@ -19,7 +19,7 @@ description: Learn how to remove the RestrictedAnonymousAccess Teams meeting pol
 ---
 # Remove the RestrictedAnonymousAccess Teams meeting policy from users
 
-[Meeting policies](meeting-policies-in-teams.md) in Microsoft Teams are used to control the features that are available to meeting participants for meetings that are scheduled by users in your organization. 
+[Meeting policies](meeting-policies-overview.md) in Microsoft Teams are used to control the features that are available to meeting participants for meetings that are scheduled by users in your organization. 
 
 Teams includes a built-in policy named RestrictedAnonymousAccess, which contains pre-defined settings that include restricting anonymous users from starting a meeting. (Anonymous users are users who haven't been authenticated.) The predefined settings in the meeting policy can't be edited or changed by admins.
 
@@ -88,6 +88,6 @@ Make sure the **ErrorCount** is **0** (zero) and **OverallStatus** is **Complete
 
 ## Related topics
 
-- [Manage meeting policies in Teams](meeting-policies-in-teams.md)
+- [Manage meeting policies in Teams](meeting-policies-overview.md)
 - [Teams PowerShell overview](teams-powershell-overview.md)
 - [Assign policies to your users in Teams](assign-policies.md)

@@ -101,7 +101,7 @@ Meeting policies are used to control what features are available to users when t
 
 | Ask yourself | Action |
 |--------------|--------|
-|<ul><li>Will I customize the initial meeting policies?</li><li>Do I require multiple meeting policies?</li><li>How will I determine which groups of users get which meetings policy applied?</li></ul>|<br>Read [Manage meeting policies in Teams](meeting-policies-in-teams.md).|
+|<ul><li>Will I customize the initial meeting policies?</li><li>Do I require multiple meeting policies?</li><li>How will I determine which groups of users get which meetings policy applied?</li></ul>|<br>Read [Manage meeting policies in Teams](meeting-policies-overview.md).|
 |||
 
 ### Audio Conferencing

@@ -91,7 +91,7 @@ The meeting recording option is a setting at the Teams policy level. The followi
    ```
 
 > [!Note]
-> If some of your users have assigned a per-organizer or per-user policy, you must set this setting on this policy if you want them to also store the meeting recordings in OneDrive for Business and SharePoint. For more information, see [Manage meeting policies in Teams](meeting-policies-in-teams.md).
+> If some of your users have assigned a per-organizer or per-user policy, you must set this setting on this policy if you want them to also store the meeting recordings in OneDrive for Business and SharePoint. For more information, see [Manage meeting policies in Teams](meeting-policies-overview.md).
 
 ## Opt out of OneDrive for Business and SharePoint to continue using Stream
 

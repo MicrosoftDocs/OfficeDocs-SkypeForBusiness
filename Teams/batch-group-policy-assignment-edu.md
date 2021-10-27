@@ -321,4 +321,4 @@ For an overview of using PowerShell to manage Teams, see [Teams PowerShell overv
 
 - [Assign policies to your users](assign-policies.md)
 - [Teams policies and policy packages for Education](policy-packages-edu.md)
-- [Manage meeting policies in Teams](meeting-policies-in-teams.md)
+- [Manage meeting policies in Teams](meeting-policies-overview.md)
