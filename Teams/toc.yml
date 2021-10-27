@@ -688,6 +688,12 @@ items:
           href: audio-conferencing-common-questions.md
         - name: Try or purchase Audio Conferencing in Microsoft 365
           href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
+        - name: Operator Connect for Audio Conferencing
+          items:
+            - name: Overview
+              href: operator-connect-conferencing-plan.md
+            - name: Configure Operator Connect for Audio Conferencing
+              href: operator-connect-conferencing-configure.md
         - name: Extended dial-out minutes for US and Canada
           href: dial-out-minutes-canada-us.md
         - name: Audio Conferencing Complimentary Dial Out Period
