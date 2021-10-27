@@ -1,5 +1,5 @@
 ---
-title: "Assign, change places for emergency locations for users"
+title: "Assign or change places for emergency locations for users"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
