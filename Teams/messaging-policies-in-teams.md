@@ -104,7 +104,7 @@ Here are the messaging policy settings that you can configure.
 - **Chat permission role** Use this setting to define the supervised chat role of the user.  Learn more about [supervised chat](supervise-chats-edu.md).
 
 > [!NOTE]
-> Some of these settings, such using Giphys, can also be configured at the team level by team owners and at the private channel level by private channel owners.
+> Some of these settings, such using Giphys, can also be configured at the team level by team owners and at the private or shared channel level by channel owners.
 
 ### Related topics
 

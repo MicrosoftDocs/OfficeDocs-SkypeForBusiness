@@ -196,6 +196,9 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 |Policy area |Sub-area  |Policy setting  |Primary or Secondary |Higher education |
 |---------|---------|---------|---------|---------|
 |Teams policy   |         |Create private channels         |Off       |On|
+|               |         |Create shared channels         |Off       |On|
+|               |         |Share channel with external participants         |Off       |On|
+|               |         |Participate in an external shared channel         |Off       |On|
 |Meetings policy    |General         |Allow Meet now in channels         |Off      |On|
 |  |        |Allow the Outlook add-in         |Off       |On|
 |  |        |Allow channel meeting scheduling        |Off      |On|

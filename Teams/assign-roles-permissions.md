@@ -37,6 +37,9 @@ The table below shows the difference in permissions between an owner and a membe
 |          ***Add private channel**          |    Yes     |    Yes<sup>2</sup>|
 | ***Edit private channel name/description** |    No     |    N/A|
 |        ***Delete private channel**         |    Yes     |    No|
+|          **Add shared channel**          |    Yes     |    No|
+| **Edit shared channel name/description** |    No     |    No|
+|        **Delete shared channel**         |    Yes     |    No|
 |          **Add members**          |  Yes<sup>3</sup>   |     No<sup>4</sup>    |
 |          **Request to add members**          |  N/A   |     Yes<sup>5</sup>     |
 |           **Add apps**            |    Yes     |    Yes<sup>2</sup>|
