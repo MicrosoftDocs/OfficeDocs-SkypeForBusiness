@@ -100,7 +100,7 @@ In Teams, for a given policy area, a policy can be applied to a user in the foll
 - Assignment to a group the user is a member of
 - If the user isn't directly assigned a policy or isn't a member of any group that's assigned a policy, the user automatically gets the Global (Org-wide default) policy
 
-If more than one of these policy assignments exist for a user, Teams uses the following order to determine which policy assignment takes effect. For more info, see [Which policy takes precedence?](policy-assignment-overview.md#which-policy-takes-precedence) [Precedence rules for groups](assign-policies-users-and-groups.md#precedence-rules).
+If more than one of these policy assignments exist for a user, Teams uses the following order to determine which policy assignment takes effect. For more info, see [Which policy takes precedence](policy-assignment-overview.md#which-policy-takes-precedence) or [Precedence rules for groups](assign-policies-users-and-groups.md#precedence-rules).
 
 |Policy assignments of a user|Policy that takes effect |
 |---------|---------|

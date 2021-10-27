@@ -207,7 +207,7 @@ PowerShell](./teams-powershell-overview.md)
 and can be applied at the tenant, per-user, and security group level for each
 organization. You can find more information on Microsoft Docs for
 [Meeting
-policies](./meeting-policies-in-teams.md),
+policies](./meeting-policies-overview.md),
  [calling
 policies](./teams-calling-policy.md) and  [group
 policies](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group).

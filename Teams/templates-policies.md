@@ -105,8 +105,7 @@ A: Yes.
 1. In the Admin center, go to **Users**.
 1. In the Users list table, select the users you want to assign to a certain templates policy.
 1. Select Edit settings, and change the Templates policies field.
-1. Select apply.
-   Learn more [Assign policies to your users in Microsoft Teams - Microsoft Teams \| Microsoft Docs](./assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users).
+1. Select apply. [Learn more](./assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users).
 
 **Q: How do I view all users assigned to a specific policy?**
 

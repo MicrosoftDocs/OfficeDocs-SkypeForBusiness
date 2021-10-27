@@ -36,7 +36,7 @@ Microsoft Teams allows users to do things like attend online meetings or live ev
 
 Here's a list of the main policy areas you will find in Microsoft Teams. To learn more about the policies in each area and the capabilities they control, use the links below:
 
-- [Meetings](meeting-policies-in-teams.md)
+- [Meetings](meeting-policies-overview.md)
 - [Live events](teams-live-events/configure-teams-live-events.md)
 - [Calling](teams-calling-policy.md) 
 - [Messaging](messaging-policies-in-teams.md)
@@ -116,7 +116,7 @@ A policy package in Teams collects predefined policies and policy settings that 
 
 Educational institutions in general have many users with unique needs, depending partly on the age and maturity of the students. For example, you may want to grant educators and staff full access to Microsoft Teams, but want to limit Microsoft Teams capabilities for students to encourage a safe and focused learning environment. You can use policy packages to tailor settings based on the needs of different cohorts in your educational institute community.
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > Our primary recommendation is that you use the Global (Org-wide default) policy definition for students instead of a policy package. This ensures that new users in your organizations always have the strictest set of policies appropriate for students. If this recommendation does not meet the needs of your institution, one of the student policy packages below may be a good alternative. 
 
 Just like the policy list earlier in this article, policy packages predefine policies for:
@@ -175,7 +175,7 @@ To assign a policy package to one or multiple users, in the left navigation of t
 
 ![Screenshot of how to assign a policy package in the admin center.](media/policy-packages-healthcare-assign.png)
 
-To learn more, see [Assign a policy package](manage-policy-packages.md#assign-a-policy-package).
+To learn more, see [Assign a policy package](assign-policy-packages.md).
 
 If a user has a policy assigned, and then later you assign a different policy, the most recent assignment will take priority.
 

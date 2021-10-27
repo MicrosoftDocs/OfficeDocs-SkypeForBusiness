@@ -90,7 +90,7 @@ To assign a policy package to one or multiple users, in the left navigation of t
 
 ![Screenshot of how to assign a policy package in the admin center.](media/policy-packages-healthcare-assign.png)
 
-To learn more, see [Assign a policy package](manage-policy-packages.md#assign-a-policy-package).
+To learn more, see [Assign a policy package](assign-policy-packages.md).
 
 If a user has a policy assigned, and then later you assign a different policy, the most recent assignment will take priority.
 

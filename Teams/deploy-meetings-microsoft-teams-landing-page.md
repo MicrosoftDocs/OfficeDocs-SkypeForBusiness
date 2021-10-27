@@ -135,12 +135,12 @@ Use activity reports to see how users in your organization are using Teams. For 
 
 You may want to change these settings, based on your organization's needs and configuration.
 
-### Bandwidth planning 
+### Bandwidth planning
 
 Bandwidth planning lets organizations estimate the bandwidth that will be required to support meetings across their wide area networks and internet links so they can confirm that the network is correctly provisioned to support a scaled out meeting service.
 
 > [!IMPORTANT]
-> Teams won't let users schedule meetings or live events when they're offline or running with limited bandwidth. 
+> Teams won't let users schedule meetings or live events when they're offline or running with limited bandwidth.
 
 | Ask yourself | Action |
 |--------------|--------|
@@ -158,7 +158,7 @@ To learn more, see [Teams cloud meeting recording](cloud-recording.md).
 
 | Ask yourself | Action |
 |--------------|--------|
-| Will I turn on the meeting transcription service?|See [Turn on or turn off recording transcription](cloud-recording.md#turn-on-or-turn-off-cloud-recording)|
+| Will I turn on the meeting transcription service?|See [Turn on or turn off recording transcription](meetings-policies-recording-and-transcription.md#allow-transcription)|
 |||
 
 
