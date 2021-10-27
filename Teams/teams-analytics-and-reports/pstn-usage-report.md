@@ -36,7 +36,7 @@ The **Calling Plans** tab shows information including the number of minutes that
 
 ### Calling Plans
 
-[ ![Screenshot of the Calling Plans PSTN usage report report in the admin center](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "Screenshot of the PSTN usage report in the Microsoft Teams admin center with numbered callouts."](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png#lightbox)
+ ![Screenshot of the Calling Plans PSTN usage report report in the admin center](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png)
 
 |Callout |Description  |
 |--------|-------------|
