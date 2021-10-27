@@ -24,7 +24,7 @@ ms.custom: seo-marvel-apr2020
 
 **Regardless of the [PSTN connectivity option](pstn-connectivity.md) you choose--Microsoft Calling Plans, Operator Connect, or Direct Routing--an emergency location needs to be assigned to each phone number or user.**
 
-**However, depending on your PSTN connectivity option, how you manage and assign emergency locations may vary. For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).**
+**Depending on your PSTN connectivity option, however, how you manage and assign emergency locations for a user may vary. For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).**
 
 **This article describes how to assign or change an emergency location for a user.** 
 
