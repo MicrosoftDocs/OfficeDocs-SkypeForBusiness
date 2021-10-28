@@ -32,7 +32,11 @@ Operator Connect Conferencing enables customers to use phone numbers from their 
 >
 >To see if your operator participates in the Microsoft Operator Connect program, see the [Microsoft 365 Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory).
 
-This article describes the benefits, requirements, and licensing of Operator Connect Conferencing.
+This article describes Operator Connect Conferencing:
+
+- [Benefits](#benefits)
+- [Requirements](#requirements)
+- [Licensing and Billings](#licensing-and-billing)
 
 ## Benefits
 
