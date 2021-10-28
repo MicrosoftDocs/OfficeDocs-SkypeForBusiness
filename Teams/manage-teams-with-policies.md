@@ -58,7 +58,7 @@ The following policies can be managed with Microsoft Teams.
 Policy type | Description
 ------------|------------
 [Policy packages](manage-policy-packages.md) | A policy package in Microsoft Teams is a collection of predefined policies and settings you can assign to users who have similar roles in your organization.
-[Meeting policies](meeting-policies-in-teams.md) | A meeting policy is used to control the features that are available to meeting participants for meetings scheduled by users in your organization. Meeting policies include the following topics.<br> - Audio and video policies<br> - Content and screen sharing policies<br> - Participants, guests, and access policies<br> - General policies
+[Meeting policies](meeting-policies-overview.md) | A meeting policy is used to control the features that are available to meeting participants for meetings scheduled by users in your organization. Meeting policies include the following topics.<br> - Audio and video policies<br> - Content and screen sharing policies<br> - Participants, guests, and access policies<br> - General policies
 [Voice and calling policies](voice-and-calling-policies.md)| Voice and calling policies manage these settings through teams such as emergency calling, call routing, and caller ID.
 [App policies](app-policies.md)| App policies are used to control applications in Microsoft Teams. Admins can allow or block which apps users can install, pin applications to a user's Teams app bar, and install application on behalf of your users.
 [Messaging policies](messaging-policies-in-teams.md)| Messaging policies control chat and channel feature availability.
