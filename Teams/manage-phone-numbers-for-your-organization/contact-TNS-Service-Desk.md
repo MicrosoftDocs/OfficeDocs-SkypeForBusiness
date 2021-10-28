@@ -18,8 +18,8 @@ ms.localizationpriority: medium
 f1.keywords: 
 - CSH
 ms.custom:
-  - ms.teamsadmincenter.voice.TNSservicedesk
-  - ms.teamsadmincenter.voice.contactTNSsupport
+  - ms.teamsadmincenter.voice.tnsservicedesk
+  - ms.teamsadmincenter.voice.contacttnssupport
   - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: "When you get phone numbers or port (transfer) numbers for your organization, you might need to get help and support at the TNS service desk."
