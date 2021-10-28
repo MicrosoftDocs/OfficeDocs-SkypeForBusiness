@@ -30,7 +30,7 @@ Operator Connect Conferencing enables customers to use phone numbers from their 
 >[!NOTE]
 >A telephone number provider that is part of the Microsoft Operator Connect program is referenced in this article as an "operator."
 >
->To see if your operator participates in the Microsoft Operator Connect program, see [**Country and region availability for Audio Conferencing and Calling Plans**](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+>To see if your operator participates in the Microsoft Operator Connect program, see the [Microsoft 365 Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory).
 
 This article describes the benefits, requirements, and licensing of Operator Connect Conferencing.
 
