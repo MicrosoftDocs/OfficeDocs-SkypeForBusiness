@@ -35,7 +35,7 @@ The audio conferencing bridge answers a call for people who are dialing in to a 
   
 ## Setting the PIN length
 
-![An icon showing the Microsoft Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+ **Using the Microsoft Teams admin center**
 
 1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
 

@@ -149,13 +149,15 @@ Agents' Teams accounts need to be set to Teams-only mode. Agents who don't meet 
 
 - **Round robin** balances the routing of incoming calls so that each call agent gets the same number of calls from the queue. This may be desirable in an inbound sales environment to assure equal opportunity among all the call agents.
 
-- **Longest idle** routes each call to the agent who has been idle the longest time. An agent is considered idle if their presence state is Available or if their presence state has been Away for less than 10 minutes. Agents whose presence state has been Away for more than 10 minutes are not considered idle and will not be eligible to receive calls until they change their presence to Available. 
+- **Longest idle** routes each call to the agent who has been idle the longest time. An agent is considered idle if their presence state is Available. Agents whose presence state is not Available will not be eligible to receive calls until they change their presence to Available. 
 
 > [!TIP]
 > Setting **Routing Method** to **Round robin** or **Longest idle** is the recommended setting.
 
 > [!NOTE]
 > If [Compliance recording](teams-recording-policy.md) is enabled on the agents, the combination of **Conference mode** and **Attendant routing** is not supported. If you need to use **Conference mode**, select **Serial Routing**, **Round robin**, or **Longest idle** as the **Routing method**. If you need to use **Attendant routing**, set **Conference mode** to **Off**.
+> 
+> When using **Longest idle** there may be times when an agent receives a call from the queue shortly after becoming unavailable or if there is a short delay in receiving a call from the queue after becoming available.
 
 ![Screenshot of routing, opt out, and alert time settings.](media/call-queue-presence-agents-time.png)
 
@@ -241,6 +243,19 @@ You can also use Windows PowerShell to create and set up call queues. Here are t
 - [Get-CsCallQueue](/powershell/module/skype/get-CsCallQueue)
 
 - [Remove-CsCallQueue](/powershell/module/skype/remove-CsCallQueue)
+
+## Call Queue Diagnostic Tool
+
+If you're an administrator, you can use the following diagnostic tool to validate that a call queue is able to receive calls:
+
+1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center. 
+
+   > [!div class="nextstepaction"]
+   > [Run Tests: Teams Call Queue](https://aka.ms/TeamsCallQueueDiag)
+
+2. In the Run diagnostic pane, enter the Resource Account in the **Username or Email** field, and then select **Run Tests**.
+
+3. The tests will return the best next steps to address any tenant, policy, and resource account configurations to validate that the call queue is able to receive calls.
 
 ## Related topics
 
