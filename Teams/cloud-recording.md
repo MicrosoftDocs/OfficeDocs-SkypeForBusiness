@@ -213,7 +213,7 @@ If `Set-CsTeamsMeetingPolicy -ChannelRecordingDownload` is set to Block:
 
 - Channel members will have view only access without ability to download.
 
-For more info on specific meeting types, see the following table:
+### For more info on specific meeting types, see the following table:
 
 | Meeting type  | Who clicked on Record?| Where does the recording land? | Who has access? R/W, R, or sharing  |
 |-------------|-----------------------|------------------------|------------------------|
