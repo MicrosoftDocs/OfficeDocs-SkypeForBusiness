@@ -82,4 +82,3 @@ To learn more about team templates in general, see [Get started with team templa
 ## Related articles
 
 - [Teams help documentation](https://support.microsoft.com/teams)
-- [Microsoft Cloud for Nonprofit documentation](https://docs.microsoft.com/industry/nonprofit/)
