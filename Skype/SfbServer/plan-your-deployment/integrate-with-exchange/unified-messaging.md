@@ -1,8 +1,8 @@
 ---
 title: "Plan for Exchange Unified Messaging integration in Skype for Business"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro

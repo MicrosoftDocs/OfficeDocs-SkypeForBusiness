@@ -1,6 +1,6 @@
 ---
 title: Meeting policies and meeting expiration in Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: serdars
 manager: serdars
 ms.topic: article

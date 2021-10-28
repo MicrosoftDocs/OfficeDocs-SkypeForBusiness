@@ -1,6 +1,6 @@
 ---
 title: Teams for Virtualized Desktop Infrastructure
-author: cichur
+author: HowlinWolf-92
 ms.author: serdars
 manager: serdars
 ms.topic: article

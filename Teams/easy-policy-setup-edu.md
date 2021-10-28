@@ -1,6 +1,6 @@
 ---
 title: Teams for Education Policy Wizard to easily apply policies for safe learning
-author: cichur
+author: HowlinWolf-92
 ms.author: serdars
 manager: serdars
 ms.reviewer: shajohri, angch

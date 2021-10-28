@@ -1,6 +1,6 @@
 ---
 title: Manage team templates in the admin center
-author: cichur
+author: HowlinWolf-92
 ms.author: serdars
 manager: serdars
 ms.reviewer: yinchang

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams user activity report
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: article

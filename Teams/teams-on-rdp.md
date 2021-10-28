@@ -1,6 +1,6 @@
 ---
 title: Use Teams with remote desktop services
-author: cichur
+author: HowlinWolf-92
 ms.author: serdars
 ms.reviewer: alivano
 manager: serdars
