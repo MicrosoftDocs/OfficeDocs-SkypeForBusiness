@@ -20,9 +20,9 @@ appliesto:
 
 # Teams for Nonprofit organizations
 
-Nonprofit organizations have a lot of unique business needs that Microsoft 365 and Microsoft Teams can help with. In particular, nonprofits often rely on a large volume of volunteers to help achieve their mission outcomes. So coordinating and communicating with an organization's internal staff and external, often unpaid, volunteer staff is key.
+Nonprofit organizations have a lot of unique business needs that Microsoft 365 and Microsoft Teams can help with. In particular, nonprofits often rely on a large volume of volunteers to help achieve their mission outcomes. So coordinating and communicating with internal staff and volunteers is key.
 
-The following templates are designed specifically for nonprofit organization to empower staff and volunteers.
+The following templates are designed specifically for nonprofit organizations. Use these templates to empower your staff and engage volunteers.
 
 - Use the [Manage volunteers team template](../team-templates-nonprofit.md) to quickly and easily set up teams in Teams for your staff to communicate and collaborate on volunteer management tasks and activities. This template includes settings, channels, and apps designed to streamline volunteer management activities.
 
