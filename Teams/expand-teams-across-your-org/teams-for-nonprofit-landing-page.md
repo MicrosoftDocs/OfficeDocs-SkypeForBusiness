@@ -2,14 +2,13 @@
 title: Teams for Nonprofit organizations
 description: Learn about the admin resources available to manage and get the most out of Teams for your nonprofit organization.
 ms.topic: conceptual
-author: samanro
-ms.author: samanro
+author: v-lanachin
+ms.author: LanaChin
 audience: admin
-manager: serdars
+manager: samanro
 f1.keywords:
 - NOCSH
 ms.localizationpriority: high
-ms.date: 11/01/2021
 ms.service: msteams
 search.appverid: MET150
 searchScope:
