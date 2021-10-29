@@ -65,8 +65,8 @@ You can edit the global policy or any custom policies that you create.
 
 ## Related topics
 
-[New-CsCallingLineIdentity](/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
+[New-CsCallingLineIdentity](/powershell/module/skype/new-cscallinglineidentity)
 
-[Set-CsCallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity?view=skype-ps)
+[Set-CsCallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity)
 
-[Assign policies to your users in Teams](assign-policies.md)
+[Assign policies to your users in Teams](policy-assignment-overview.md)
