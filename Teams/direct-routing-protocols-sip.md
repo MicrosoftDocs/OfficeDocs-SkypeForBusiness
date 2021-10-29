@@ -51,7 +51,7 @@ The following is an example of the SIP Invite message on an incoming call:
 | Request-URI | INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0 |
 | Via Header | Via: SIP/2.0/TLS sbc1.adatum.biz:5058;alias;branch=z9hG4bKac2121518978 | 
 | Max-Forwards header | Max-Forwards:68 |
-| From Header | From Header From: <sip:7168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679 |
+| From Header | From Header From: <sip:+17168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679 |
 | To Header | To: sip:+183338006777@sbc1.adatum.biz | 
 | CSeq header | CSeq: 1 INVITE | 
 | Contact Header | Contact: <sip: 68712781@sbc1.adatum.biz:5058;transport=tls> | 
@@ -110,6 +110,15 @@ Currently The phone number must contain a plus sign (+) as shown in the followin
 
 ```console
 INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
+```
+#### From Header
+
+For all incoming calls, the From Header is used to match the caller's phone number against callee's blocked phone number list.
+
+The phone number must contain a + as shown in the following example.
+
+```console
+From: <sip:+17168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679
 ```
 
 ## Contact and Record-Route headers considerations
