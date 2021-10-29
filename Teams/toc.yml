@@ -774,17 +774,25 @@ items:
         - name: Meeting room guidance for Teams
           href: teams-meeting-room-guidance.md
         - name: Microsoft Teams Rooms managed service
-          items: 
+          items:
+            - name: Overview
+              href: rooms/rooms-managed-services-rbac.md
+            - name: Installation
+              href: monitoring-software-installation-guide.md
             - name: Plan management
               href: rooms/microsoft-teams-rooms-premium.md
             - name: Role-based access control
               href: rooms/microsoft-teams-rooms-premium-rbac.md
+            - name: Managed services roles
+              href: rooms/rooms-managed-services-rbac.md
             - name: Obtain and assign a license
               href: rooms/obtaining-assigning-license.md
             - name: Enroll in MTRP managed service
               href: rooms/enrolling-mtrp-managed-service.md
             - name: Configure ServiceNow for Teams Rooms
               href: rooms/microsoft-teams-rooms-configure-servicenow.md
+            - name: Monitoring and maintaining Rooms
+              href: managed-meetings-rooms-portal-guide.md
 
              
 

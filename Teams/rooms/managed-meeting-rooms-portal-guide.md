@@ -1,9 +1,8 @@
 ﻿---
-title: Microsoft Teams Rooms Premium-managed service
-author: v-donnahill
-ms.author: donnah007
+title: Microsoft Teams Rooms Portal
+ms.author: v-donnahill
 manager: serdars
-ms.reviewer:  
+ms.reviewer: dstrome 
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -15,13 +14,13 @@ appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: provide a view of the health of your meeting rooms.
+description: Provide a view of the health of your meeting rooms.
 f1keywords: 
 ---
 
 
 
-# Microsoft Managed Meeting Rooms Portal Guide) 
+# Microsoft Managed Meeting Rooms Portal 
 
 ## Overview 
 The Managed Meeting Rooms Portal (“Rooms Portal”) is meant to provide a view of the health of your meeting rooms. This portal is used for providing support to you as part of Meeting Rooms Trial program. We are releasing a customer view of this portal for your visibility and feedback. This is meant to facilitate your existing monitoring tools/practices. 
@@ -54,17 +53,17 @@ This is quick review of the frequently used terms in the portal. We would love t
 |Term |Meaning |
 | :- | :- |
 |**Monitoring Software** |Refers to the monitoring agent that is deployed in each of the Microsoft Teams Room devices. |
-|**App** |App refers to the Microsoft Teams Room system app (regardless of whether it uses Skype for Business or Microsoft Teams as the collaboration service. |
-|**Room/Device** |This refers to the certified Microsoft Teams Room system device. |
+|**App** |Refers to the Microsoft Teams Room system app (regardless of whether it uses Skype for Business or Microsoft Teams as the collaboration service. |
+|**Room/Device** |Refers to the certified Microsoft Teams Room system device. |
 |**Disconnected** |<p>The Microsoft monitoring software deployed as part of Managed Rooms pilot is disconnected from Managed Room cloud services. </p><p>We are not receiving telemetry about the device. </p>|
 |<p>**Healthy /** </p><p>**Unhealthy** </p>|If we detect abnormalities in device / peripheral, it will be shown as unhealthy. |
 |**Incident** |This conveys an issue affecting meeting experiences of your end users that needs action. |
-|**Misconfigured** |This conveys that the configuration detected does not seem correct / commonly used. |
-|**Support Ticket** |This is an internal Microsoft tracking identifier with which we track all communications / actions regarding an incident. |
+|**Misconfigured** |Conveys that the configuration detected does not seem correct / commonly used. |
+|**Support Ticket** |An internal Microsoft tracking identifier with which we track all communications / actions regarding an incident. |
 
 # Incidents View 
 This is an overview of the Incidents tab in your Managed Rooms Portal. This is the default home page of the portal.  
-### Top Level Summary 
+### Top-Level Summary 
 ![Figure 1](media/Aspose.Words.da1b9d68-10a1-4530-a577-d13141e957d0.001.jpeg) 
 
 The top-level summary shows at a glance the issues affecting your rooms and what you need to do, what Microsoft is doing about them: 

@@ -1,7 +1,7 @@
 ﻿---
 title: Microsoft Teams Rooms Premium-managed service
-author: v-donnahill
-ms.author: donnah007
+author: donnah007 
+ms.author: v-donnahill
 manager: serdars
 ms.reviewer:  
 ms.topic: article
@@ -15,7 +15,7 @@ appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: provide a view of the health of your meeting rooms.
+description: proactive monitoring of your meeting rooms.
 f1keywords: 
 ---
 

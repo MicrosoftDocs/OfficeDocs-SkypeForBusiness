@@ -22,9 +22,9 @@ f1keywords:
 
 
 
-# MICROSOFT TEAMS ROOMS MANAGED SERVICES 
+# Microsoft Teams Rooms Managed Services 
 
-## OVERVIEW 
+## Overview 
 The Microsoft Teams Rooms Managed Service (“managed services”) is a cloud-based IT management and monitoring service that keeps Microsoft Teams Rooms devices and their peripherals up to date and proactively monitored, supporting an environment optimized for a great user experience.  
 
 
@@ -52,7 +52,7 @@ Rich analytics, reporting and proven learnings at scale across many customers.
 
 
 This document provides help on the managed services portal and other features.  
-## TERMINOLOGY 
+## Terminology 
 This is quick review of the frequently used terms in the portal. We would love to have feedback if any of these terms do not make sense. 
 
 
@@ -72,7 +72,7 @@ This is quick review of the frequently used terms in the portal. We would love t
 
 
 
-## ROLE BASED ACCESS CONTROL 
+## Role Based Access Control 
 Role-based access control (RBAC) in the Microsoft Teams Rooms managed service helps you manage user access to room resource data in your organization. By assigning roles to your service portal users, you can limit what they can see and change. Each role has a set of permissions that determine what users with that role can access and change within your organization. 
 
 To create, edit, or assign roles, your account must have one of the following permissions: 
@@ -80,19 +80,35 @@ To create, edit, or assign roles, your account must have one of the following pe
 - Global Administrator through Azure Active Directory (Azure AD) 
 - Managed Service Administrator through the Microsoft Teams Rooms managed service portal. 
 
-WHAT IS A ROLE? 
-
-A role defines the set of permissions granted to users assigned to that role. For now, the 
-
-Microsoft Teams Rooms managed service has three built-in roles: **Managed Service Administrator**, **Site Lead**, and **Site Tech**. They cover some common scenarios for users in your organization that may be involved in managing your rooms. 
-
-To see roles, in the left navigation of the Microsoft Teams Rooms managed service portal, go to **Roles**, and then select any of the roles to see the role’s properties, permissions, and assignments. 
-
-- **Properties**: The name, role type, and description 
-- **Permissions**: Lists features and level of permissions to which the role has access. 
-- **Assignments**: A list of role assignments defining which users have the configured permissions over the scope of room resource accounts. A role can have multiple assignments, and a user can be in multiple assignments. 
 
 
+# Adding MMR Admin Roles
+<!-- This section needs to be updated. -->
+
+The following procedure is supplemental to [Microsoft Teams Rooms managed service](microsoft-teams-rooms-premium) and [Microsoft Teams Rooms Portal](managed-meeting-rooms-portal-guide). 
+
+
+1. Log in with your tenant user account to service portal. 
+1. Navigate to the settings panel. 
+1. You will see a new component for adding MMR Administrator role for MMR users for your tenant.  
+
+![alt text](media/premium-rbac.003.jpg) 
+
+
+
+4. Clicking on the "MMR Administrator" text takes you to the following experience.  
+
+
+
+![alt text](media/premium-rbac.004.jpg) 
+
+
+
+
+
+5. You can click on "Add Member" link the experience to add the email address of the users you want to add to this role. You must do this one user at a time.  
+
+![alt text](media/premium-rbac.005.jpg) 
 
 
 
