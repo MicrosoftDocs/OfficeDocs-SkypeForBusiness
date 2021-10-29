@@ -30,7 +30,7 @@ With mobile browser join, when an attendee joins an appointment from a mobile de
 Currently, mobile browser join is available for appointments that are scheduled through the following:
 
 - [The Bookings app](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-us&rs=en-us&ad=us#PickTab=Bookings)
-- [Microsoft Teams Electronic Health Records (EHR) connector](healthcare/ehr-admin.md)
+- Microsoft Teams Electronic Health Records (EHR) connector, integration with [Cerner EHR](healthcare/ehr-admin-cerner.md) and [Epic EHR](healthcare/ehr-admin.md)
 
 ## Set up mobile browser join
 
@@ -56,7 +56,9 @@ In Bookings, select **New booking**, and then turn on **Allow attendees to join 
 
 No set up is needed by you or your staff!
 
-The Teams EHR connector supports patients joining virtual visits through MyChart web and mobile. At the time of the appointment, patients can start a virtual visit from MyChart by using the **Begin virtual visit** button. The patient chooses the browser they want, and then Teams opens in that browser.
+Cerner EHR: 
+
+Epic EHR: The Teams EHR connector supports patients joining virtual visits through MyChart web and mobile. At the time of the appointment, patients can start a virtual visit from MyChart by using the **Begin virtual visit** button. The patient chooses the browser they want, and then Teams opens in that browser.
 
 ## Supported mobile browsers
 

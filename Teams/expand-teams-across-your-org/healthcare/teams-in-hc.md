@@ -38,7 +38,7 @@ Microsoft Teams offers a number of telemedicine features useful for hospitals an
 - Teams templates
 - Care coordination and collaboration
 
-This functionality is part of the Microsoft Cloud for Healthcare. Learn more about using this solution, which brings together capabilities from Azure, Dynamics 365, and Microsoft 365 at [Microsoft Cloud for Healthcare](/industry/healthcare).
+This functionality is part of Microsoft Cloud for Healthcare. Learn more about using this solution, which brings together capabilities from Azure, Dynamics 365, and Microsoft 365 at [Microsoft Cloud for Healthcare](/industry/healthcare).
 
 Watch the following video to learn more about using the healthcare collection to enhance health team collaboration in Microsoft Teams.
 
@@ -51,7 +51,7 @@ The following scenarios are available for healthcare organizations:
 
 | Scenario | Description | Requirements |
 | -------- | -------- | -------- |
-| [Virtual visits with Electronic Healthcare Record (EHR) integration](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | Schedule, manage, and conduct virtual visits with patients. This scenario connects Microsoft Teams and the Epic platform to support virtual visits. | Active subscription to Microsoft Cloud for Healthcare or subscription to Microsoft Teams EHR Connector standalone offer. <br> Users must have an appropriate Microsoft 365 or Office 365 license that includes Microsoft Teams meetings*. <br> Organizations must have with Epic version November 2018 or later. <br>[Details for EHR requirements](ehr-admin.md#before-you-begin) |
+| [Virtual visits with Electronic Healthcare Record (EHR) integration](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | Schedule, manage, and conduct virtual visits with patients. This scenario connects Microsoft Teams and the Cerner or Epic platform to support virtual visits. | Active subscription to Microsoft Cloud for Healthcare or subscription to Microsoft Teams EHR Connector standalone offer. <br> Users must have an appropriate Microsoft 365 or Office 365 license that includes Microsoft Teams meetings*. <br> Organizations must have Cerner version November 2018 or later or Epic version November 2018 or later. <br>Details for [Cerner EHR](ehr-admin-cerner.md#before-you-begin) and [Epic EHR](ehr-admin.md#before-you-begin) requirements] |
 | [Virtual visits with Microsoft Bookings and the Bookings app](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | Schedule, manage, and conduct virtual visits with patients. This scenario relies on Microsoft Bookings to support virtual visits. | Microsoft Bookings must be turned on for the organization. <br> All users of the Bookings app and all staff participating in meetings must have a license that supports Teams Meeting scheduling*. <br>[Details for Bookings requirements](../../bookings-app-admin.md#prerequisites-for-using-the-bookings-app-in-teams)|
 | [Teams policy packages](#teams-policy-packages)| Ensure that clinical workers, information workers, and patient room devices have the appropriate access to Teams functionality.| Users must have an appropriate license*. |
 | [Secure messaging](#secure-messaging) | Get quicker attention to urgent messages and have confidence that the message was received and read. | Users must have an appropriate license*.  |
@@ -64,7 +64,7 @@ The following scenarios are available for healthcare organizations:
 
 Use the complete meetings platform in Microsoft Teams to schedule, manage, and conduct virtual visits with patients.
 
-- If your organization already uses Electronic Health Records, or EHR, you can integrate Microsoft Teams for a more seamless experience. Microsoft Teams Electronic Health Record (EHR) Connector makes it easy for clinicians to launch a virtual patient visit or consultation with another provider in Teams directly from the EHR system. To learn more, see [Virtual visits with Teams - Integration into EHR](ehr-admin.md).
+- If your organization already uses Electronic Health Records, or EHR, you can integrate Microsoft Teams for a more seamless experience. Microsoft Teams Electronic Health Record (EHR) Connector makes it easy for clinicians to launch a virtual patient visit or consultation with another provider in Teams directly from the EHR system. To learn more, see [Virtual visits with Teams - Integration into Cerner EHR](ehr-admin-cerner.md) and [Virtual visits with Teams - Integration into Epic EHR](ehr-admin.md).
 - If you aren't using a supported EHR, you can use Microsoft Bookings and the Bookings app in Teams. To learn more, see [Virtual visits with Teams and the Bookings app](../bookings-virtual-visits.md).
 
 ![Virtual visits with Microsoft Teams.](../../media/virtual-visits-teams.png)
