@@ -140,5 +140,5 @@ Daniela can take notes in Amanda's meetings and Amanda can't take notes in any m
 ## Related topics
 
 - [Teams PowerShell overview](teams-powershell-overview.md)
-- [Assign policies to your users in Teams](assign-policies.md)
+- [Assign policies to your users in Teams](policy-assignment-overview.md)
 - [Remove the RestrictedAnonymousAccess Teams meeting policy from users](meeting-policies-restricted-anonymous-access.md)
