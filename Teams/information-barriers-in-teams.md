@@ -194,9 +194,6 @@ For example, to configure the *Implicit* mode for a Microsoft 365 Group, you'll 
 Set-UnifiedGroup -InformationBarrierMode Implicit
 ```
 
->[!NOTE]
->If the global administrator updates the IB mode of an existing Microsoft 365 group connected to Microsoft Teams to *Implicit*, make sure to update the IB mode of the Teams connected site to *Implicit*. For more information, see [Get started with information barriers](/microsoft-365/compliance-information-barriers.md#information-barriers-modes-preview)]
-
 For more information about how users may be automatically removed from groups, see the [Information barriers compliance assistant (preview)](/sharepoint/information-barriers-compliance-assistant) article.
 
 ## Required licenses and permissions
