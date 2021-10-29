@@ -44,13 +44,13 @@ Operator Connect Conferencing provides the following benefits:
 
 - **Keep your contracts with your existing telephone number provider.** You keep your preferred operator and contracts.
 
-- **Flexible allocation of phone numbers between your operator and Microsoft.** You can use phone numbers from both Microsoft and your operator (with a Microsoft Audio Conferencing Standard subscription only), or only use phone numbers from your operator (with either a Microsoft Audio Conferencing Standard subscription or Operator Connect Conferencing licenses).
+- **Flexible allocation of phone numbers between your operator and Microsoft.** You can use phone numbers from both Microsoft and your operator (with a Microsoft Audio Conferencing Standard subscription only), or only use phone numbers from your operator (with either a Microsoft Audio Conferencing Standard subscription or Operator Connect Conferencing license).
 
-- **Operator-managed infrastructure.** Your operator manages the Session Border Controllers (SBCs) and the interconnectivity with Microsoft, allowing you to save on hardware purchases and management.
+- **Operator-managed infrastructure.** Your operator manages the Session Border Controllers (SBCs) and the interconnectivity with Microsoft, saving you from additional hardware purchases and management.
 
 - **Faster, easier deployment.** You can quickly connect to your operator and assign phone numbers to your Audio Conferencing bridge from the Teams admin center.
 
-- **Enhanced support and reliability.** Operators provide technical support and shared service level agreements to improve service support, while direct peering powered by Azure creates a one-to-one network connection for enhanced reliability.
+- **Enhanced support and reliability.** Operators provide technical support and shared service level agreements to improve service support, and direct peering powered by Azure creates a one-to-one network connection for enhanced reliability.
 
 Operator Connect Conferencing might be the right solution for your organization if:
 
@@ -78,7 +78,7 @@ The following is required to enable Operator Connect Conferencing for your organ
 
 Microsoft offers two types of licenses that include Operator Connect Conferencing:
 
-- **Audio Conferencing Standard Subscription:** The Audio Conferencing Standard subscription allows subscribers to use phone numbers from Microsoft and from an operator. In addition to the phone numbers provided by Microsoft, subscribers can expand their Audio Conferencing bridge by adding phone numbers from an operator. Subscribers can also decide which outbound calls from Teams meetings to route via Microsoft and which calls to route via an operator. For additional information, see [**Configure Operator Connect Conferencing**](operator-connect-conferencing-configure.md).
+- **Audio Conferencing Standard Subscription license:** The Audio Conferencing Standard subscription allows subscribers to use phone numbers from Microsoft and from an operator. In addition to the phone numbers provided by Microsoft, subscribers can expand their Audio Conferencing bridge by adding phone numbers from an operator. Subscribers can also decide which outbound calls from Teams meetings to route via Microsoft and which calls to route via an operator. For additional information, see [**Configure Operator Connect Conferencing**](operator-connect-conferencing-configure.md).
 
     If your organization already has Audio Conferencing Standard Subscription licenses, your organization is automatically equipped for Operator Connect Conferencing. The Audio Conferencing Standard Subscription license is included in Microsoft 365 E5 and Office 365 E5. Additionally, it can be added as an add-on to a Microsoft Teams subscription.
 
