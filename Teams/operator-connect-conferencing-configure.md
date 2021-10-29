@@ -86,9 +86,14 @@ With an Operator Connect Conferencing license, outbound calls can only go throug
 
 An Audio Conferencing Routing policy can be applied at a user level, meaning that only the outbound calls from Teams meetings organized by the users with the associated policy will be routed via your operator, or at the global level, meaning that the outbound calls from Teams meetings organized by all users in your organization will be routed via your operator.
 
-Audio Conferencing Routing policies can only be created using PowerShell. To create an Audio Conferencing Routing policy and specify an operator as the primary route for outbound calls from Teams meetings, you can use the following PowerShell commands:
+Audio Conferencing Routing policies can only be created using PowerShell. To create an Audio Conferencing Routing policy and specify an operator as the primary route for outbound calls from Teams meetings, follow the steps below using the PowerShell commands indicated:
 
-### Add a new string to the Online PSTN Usage policy
+1. [Step 1: Add a new string to the Online PSTN Usage policy](#step-1-add-a-new-string-to-the-online-pstn-usage-policy)
+2. [Step 2: Create a new Online Voice Route policy](#step-2-create-a-new-online-voice-route-policy)
+3. [Step 3: Create a new Online Audio Conferencing Routing policy](#step-3-create-a-new-online-audio-conferencing-routing-policy)
+4. [Step 4: Assign the new policy to users](#step-4-assign-the-new-policy-to-users)
+
+### Step 1: Add a new string to the Online PSTN Usage policy
 
 Read [Set-CsOnlinePstnUsage](/powershell/module/skype/set-csonlinepstnusage) for more information on using this cmdlet.
 
@@ -96,7 +101,7 @@ Read [Set-CsOnlinePstnUsage](/powershell/module/skype/set-csonlinepstnusage) for
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
 ```
 
-### Create a new Online Voice Route policy
+### Step 2: Create a new Online Voice Route policy
 
 Read [Set-CsOnlineVoiceRoute](/powershell/module/skype/set-csonlinevoiceroute) for more information on using this cmdlet.
 
@@ -104,7 +109,7 @@ Read [Set-CsOnlineVoiceRoute](/powershell/module/skype/set-csonlinevoiceroute) f
 New-CsOnlineVoiceRoute -Identity "International" -NumberPattern "\d+" -OnlinePstnUsages "International" -BridgeSourcePhoneNumber <an Operator Connect Conferencing number assigned to your Audio Conferencing bridge>
 ```
 
-### Create a new Online Audio Conferencing Routing policy
+### Step 3: Create a new Online Audio Conferencing Routing policy
 
 Read [New-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/new-csonlinevoiceroutingpolicy) for more information on using this cmdlet.
 
@@ -112,7 +117,7 @@ Read [New-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/new-csonlinevoice
 New-CsOnlineAudioConferencingRoutingPolicy "International Policy" -OnlinePstnUsages "International"
 ```
 
-### Assign the new policy to users
+### Step 4: Assign the new policy to users
 
 Read [Grant-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/grant-csonlinevoiceroutingpolicy) for more information on using this cmdlet.
 
