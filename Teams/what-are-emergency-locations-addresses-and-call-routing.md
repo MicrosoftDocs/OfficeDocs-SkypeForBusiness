@@ -182,11 +182,11 @@ In the United States and Canada:
 
 ## Considerations for Direct Routing
 
-The following sections describe how to manage emergency calling for Direct Routing users.To find out whether Direct Routing is the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md).
+The following sections describe how to manage emergency calling for Direct Routing users. To find out whether Direct Routing is the right solution for your business, see [PSTN connectivity options](pstn-connectivity.md).
 
 ### Emergency call enablement for Direct Routing
 
-For Direct Routing, you must define emergency calling policies for users by using a Teams emergency call routing policy (TeamsEmergencyCallRoutingPolicy) to define emergency numbers and their associated routing destination. (Currently, registered emergency locations are not supported for Direct Routing users.)
+For Direct Routing, you must define emergency calling policies for users by using a [Teams emergency call routing policy](manage-emergency-call-routing-policies.md) to define emergency numbers and their associated routing destination. (Currently, registered emergency locations are not supported for Direct Routing users.)
 
 You can assign an emergency call routing policy to a Direct Routing user account, a network site, or both. When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located as follows:
 
