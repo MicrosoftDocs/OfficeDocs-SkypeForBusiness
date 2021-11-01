@@ -25,11 +25,15 @@ appliesto:
 
 # Configure Operator Connect for Audio Conferencing
 
-This article describes how to configure Operator Connect for Audio Conferencing. Before configuring Operator Connect for Audio Conferencing, be sure to read [Plan for Operator Connect Conferencing](operator-connect-conferencing-plan.md) for information about prerequisites and licensing.
+The Microsoft Audio Conferencing service allows participants to join Microsoft Teams meetings by dialing in to an audio conferencing bridge using their PSTN phone number or by dialing out of the audio conferencing bridge to a PSTN phone number during a meeting.
 
-The topics covered below include:
+Operator Connect Conferencing gives organizations the option to use phones numbers provided by a non-Microsoft operator. This article describes how to configure Operator Connect for Audio Conferencing.
 
-- [Enable an operator](#enable-an-operator)
+Before configuring Operator Connect for Audio Conferencing, be sure to read [Plan for Operator Connect Conferencing](operator-connect-conferencing-plan.md) for information about prerequisites and licensing.
+
+The topics covered in this article include:
+
+- [Set up an operator](#set-up-an-operator)
 - [Acquire numbers for your Audio Conferencing bridge](#acquire-numbers-for-your-audio-conferencing-bridge)
 - [Change the default phone numbers that are included in the meeting invites of users](#change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users)
 - [Sending outbound calls from Microsoft Teams meetings via an operator](#sending-outbound-calls-from-microsoft-teams-meetings-via-an-operator)
@@ -37,15 +41,15 @@ The topics covered below include:
 - [Release numbers from your Audio Conferencing bridge](#release-numbers-from-your-audio-conferencing-bridge)
 - [Additional information on Microsoft Audio Conferencing](#additional-information-on-microsoft-audio-conferencing)
 
-## Enable an operator
+## Set up an operator
 
-You can enable, edit, and remove operators in the Teams admin center. In the left navigation pane, go to **Voice > Operators**.
+You can set up, edit, and remove operators in the Teams admin center. In the left navigation pane, go to **Voice > Operators**.
 
-To enable an operator:
+To set up an operator:
 
-1. **Choose an operator.** In the **All operators** tab, filter available operators by region or service to find the right operator for your voice needs. Then, select the operator you want to enable. For Operator Connect Conferencing, verify that your operator has **Conferencing** listed as an available product.
+1. **Choose an operator.** In the **All operators** tab, filter available operators by region or service to find the right operator for your voice needs. Then, select the operator you want to use. For Operator Connect Conferencing, verify that your operator has **Conferencing** listed as an available product.
 
-2. **Select countries.** Under **Operator settings**, select the countries you want to enable with your selected operator.
+2. **Select countries.** Under **Operator settings**, select the countries you want to implement with your selected operator.
 
 3. **Provide contact information** Your contact information, including your full name and email address, will be shared automatically with your operator. You can change this information later. Additionally, you'll need to provide company size, and you'll have the option to provide your phone number. Operators will use this information to contact you with more details about Operator Connect Conferencing.
 
@@ -55,7 +59,7 @@ To enable an operator:
 
 ## Acquire numbers for your Audio Conferencing bridge
 
-The Audio Conferencing bridge of your organization includes the phone numbers that are available to all users in your organization to join Microsoft Teams meetings via phone numbers. You can see the phone numbers that are associated to the Audio Conferencing bridge of your organization in the Teams Admin Center under **Meetings > Conference Bridges**.
+Your organization's audio conferencing bridge includes phone numbers available to all users in your organization to join Microsoft Teams meetings with external phone numbers. You can see the phone numbers associated with your organization's Audio Conferencing bridge in the Teams Admin Center under **Meetings > Conference Bridges**.
 
 To acquire phone numbers for your Audio Conferencing bridge, follow these steps:
 
@@ -151,7 +155,7 @@ To release phone numbers from your Audio Conferencing bridge from the Teams admi
 
 ## Additional information on Microsoft Audio Conferencing
 
-The Microsoft Audio Conferencing service enables participants to join Microsoft Teams meetings by dialing in via a phone number or by dialing out to a phone number. The Microsoft Audio Conferencing service has multiple capabilities to meet the needs of your organization. For additional information on how the Microsoft Audio Conferencing service works and the capabilities available to your organization, please refer to the following articles.
+The Microsoft Audio Conferencing service allows participants to join Microsoft Teams meetings by dialing in via a phone number or by dialing out to a phone number. The Microsoft Audio Conferencing service has multiple capabilities to meet the needs of your organization. For additional information on how the Microsoft Audio Conferencing service works and the capabilities available to your organization, please refer to the following articles.
 
 - Overview of the Microsoft Audio Conferencing service: [Audio Conferencing in Microsoft 365](audio-conferencing-in-office-365.md)
 
