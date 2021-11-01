@@ -56,9 +56,9 @@ In Bookings, select **New booking**, and then turn on **Allow attendees to join 
 
 No set up is needed by you or your staff!
 
-**Cerner EHR**: The Teams EHR connector support patients joining virtual visits through the Cerner patient portal and mobile. At the time of the appointment, patients can join a virtual visit by tapping the link in the SMS text message or from the patient portal by using the Microsoft Teams button. The patient chooses the browser they want, and then Teams opens in that browser.
+**Integration with Cerner EHR**: The Teams EHR connector supports patients joining virtual visits through the Cerner patient portal and mobile. At the time of the appointment, patients can join a virtual visit by tapping the link in the SMS text message or from the patient portal by using the Microsoft Teams button. The patient chooses the browser they want, and then Teams opens in that browser.
 
-**Epic EHR**: The Teams EHR connector supports patients joining virtual visits through MyChart web and mobile. At the time of the appointment, patients can start a virtual visit from MyChart by using the **Begin virtual visit** button. The patient chooses the browser they want, and then Teams opens in that browser.
+**Integration with Epic EHR**: The Teams EHR connector supports patients joining virtual visits through MyChart web and mobile. At the time of the appointment, patients can start a virtual visit from MyChart by using the **Begin virtual visit** button. The patient chooses the browser they want, and then Teams opens in that browser.
 
 ## Supported mobile browsers
 
