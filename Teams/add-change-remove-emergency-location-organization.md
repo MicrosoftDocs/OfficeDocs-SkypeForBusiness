@@ -16,21 +16,23 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: "Learn how to add, change, or remove an emergency location for your organization in the Microsoft Teams admin center. "
+description: "Learn how to add, change, or remove an emergency location for your organization. "
 ms.custom: seo-marvel-mar2020
 ---
 
 # Add, change, or remove an emergency location for your organization
 
-Regardless of the [PSTN connectivity option](pstn-connectivity.md) you choose--Microsoft Calling Plans, Operator Connect, or Direct Routing--emergency locations can be associated with a phone number. However, depending on your PSTN connectivity option, location requirements may vary.
+Regardless of the [PSTN connectivity option](pstn-connectivity.md) you choose&mdash;Microsoft Calling Plans, Operator Connect, or Direct Routing&mdash;emergency locations can be associated with a phone number.
 
-**For Calling Plans,** an emergency location must be associated with a phone number, but when this happens can vary between countries and regions. For example, in the United States, you need to associate an emergency location when you assign the phone number to the user. In the United Kingdom, you need to associate an emergency location to the phone number when you get the phone numbers from Microsoft 365 or transfer phone numbers from your current service provider.
+However, depending on your PSTN connectivity option, how you manage emergency locations and location requirements may vary. For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
 
-No matter which country or region you are in, you can add a place or places to an emergency location and remove an emergency location. Depending on the number of physical locations in your organization, you can create places for buildings, floors, and offices. See [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
+This article describes how to add, change, or remove an emergency location for your organization. 
+
+This article applies to Microsoft Calling Plans, Operator Connect, and Direct Routing.
 
 You manage emergency locations for your organization in the Microsoft Teams admin center or by using PowerShell.
 
-To assign an emergency location, users, phone numbers, and emergency locations all need to be in the same country.  For more information, see [Assign or change an emergency location for a user](assign-change-emergency-location-user.md).
+To assign an emergency location, users, phone numbers, and emergency locations all need to be in the same country. For more information, see [Assign or change an emergency location for a user](assign-change-emergency-location-user.md).
   
 ## Add an emergency location
 
