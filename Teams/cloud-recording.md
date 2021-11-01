@@ -308,7 +308,7 @@ Admins can change the default expiration setting in PowerShell or the Teams admi
 
 The expiration days value can be set as follows:
   
-- Value can be from 1 to 9,999.
+- Value can be from 1 to 99,999.
 - Value can also be -1 to set TMR to never expire. 
  
 Admins can't change the expiration date on existing TMRs already uploaded to OneDrive or SharePoint before this feature was released. This protects the intent of the user that owns the TMR.
