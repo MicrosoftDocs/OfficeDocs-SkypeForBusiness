@@ -40,7 +40,7 @@ SBCs can be designated as active and backup. When the SBC that is configured as 
  
 Call routing is made up of the following elements: 
 
-- **Voice routing policy** – A container for PSTN usages, which can be assigned to a user or to multiple users. 
+- **Call routing policy** – Also called a voice routing policy. A container for PSTN usages, which can be assigned to a user or to multiple users. 
 
 - **PSTN usages** – A container for voice routes and PSTN usages, which can be shared in different voice routing policies. 
 
