@@ -357,6 +357,18 @@ Pinning Career Coach will make the app more accessible and visible for students.
 
 Reference [Manage app setup policies in Microsoft](/microsoftteams/teams-app-setup-policies) for more details.
 
+## Removing your tenant data
+
+Your tenant data includes information that's uploaded or generated as a part of application configuration. To delete all data within a Career Coach tenant, have your tenant’s global administrator [open a support ticket](https://edusupport.microsoft.com/support?product_id=career_coach) requesting that the tenant’s data be permanently deleted. Be aware that this process isn't reversible. After the data removal is complete, the Career Coach application will return to its pre-configured, non-personalized state for all users and a Teams administrator will need to set up the application again to continue using it.
+
+The following explains the process for deletion:
+
+- A support ticket must be filed by a tenant global admin clearly stating the request for your tenant’s data to be permanently deleted. **There's no ability to limit the data set or time window of the deletion**.
+
+- Once filed, the support ticket will be addressed after one week to meet compliance's minimal retention policy. You can cancel the operation during this time.
+
+- After one week, the Career Coach team ensures all data related to the tenant is deleted. Microsoft support monitors the ticket and will notify you once the deletion process is complete, **in no more than 30 days**.
+
 ## Resources
 
 The following resources will help you plan your Career Coach app.
