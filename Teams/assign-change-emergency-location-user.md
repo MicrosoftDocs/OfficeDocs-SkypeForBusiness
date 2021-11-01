@@ -22,11 +22,11 @@ ms.custom: seo-marvel-apr2020
 
 # Assign or change an emergency location for a user
 
-**Regardless of the [PSTN connectivity option](pstn-connectivity.md) you choose--Microsoft Calling Plans, Operator Connect, or Direct Routing--an emergency location needs to be assigned to each phone number or user.**
+Regardless of the [PSTN connectivity option](pstn-connectivity.md) you choose&mdash;Microsoft Calling Plans, Operator Connect, or Direct Routing&mdash;an emergency location needs to be assigned to each phone number or user.
 
-**Depending on your PSTN connectivity option, however, how you manage and assign emergency locations for a user may vary. For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).**
+Depending on your PSTN connectivity option, however, how you manage and assign emergency locations for a user may vary. For more information, see [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).
 
-**This article describes how to assign or change an emergency location for a user.** 
+This article describes how to assign or change an emergency location for a user. 
 
 **This article applies to Calling Plans and Operator Connect.**
   
@@ -57,8 +57,7 @@ See [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser).
 
 - [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Add, change, or remove an emergency location for your organization](add-change-remove-emergency-location-organization.md)
-- [Add, change, or remove a place for an emergency location in your organization](add-change-remove-emergency-place-organization.md)
 - [Assign or change a place for an emergency location for a user](assign-change-emergency-place-user.md)
+- [Add, change, or remove a place for an emergency location in your organization](add-change-remove-emergency-place-organization.md)
 - [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [Emergency calling terms and conditions](./emergency-calling-terms-and-conditions.md)
-- [Teams PowerShell overview](teams-powershell-overview.md)
