@@ -542,8 +542,6 @@ items:
           href: general-teams-templates-in-the-admin-console.md
         - name: Manufacturing category team templates
           href: manufacturing-teams-templates-in-the-admin-console.md
-        - name: Nonprofit category team templates
-          href: team-templates-nonprofit.md
         - name: Manage team template policies
           href: templates-policies.md
     - name: Work with people outside the organization
