@@ -46,13 +46,9 @@ To login the device as administrator (local administrator):
 
 1. Tap on **Settings** followed by tapping on the **Windows Settings** button to access windows as local administrator.  
 
-![Graphical user interface, application
+![alt text](media/software-installation.003.jpg) 
 
-Description automatically generated](media/software-installation.003.jpg) 
-
-From the list of users displayed in the Windows login screen, select the **Administrator** 
-
-(or the respective local administrator of your device) 
+1. From the list of users displayed in the Windows login screen, select the **Administrator** (or the respective local administrator of your device). 
 
 ![alt text](software-installation.004.jpg) 
 
@@ -65,7 +61,7 @@ To return to the Microsoft Teams Room app after performing the necessary adminis
 1. From the Windows ***start menu***, sign out from the Admin account. 
 1. Return to Microsoft Teams Room by selecting the user account icon on the far left side of the screen and then selecting **Skype**. 
 
-Please note: If the Skype user is not listed, you might have to select other user and enter ***.\skype*** as the user name, and sign in. 
+ [!NOTE] If the Skype user is not listed, you might have to select other user and enter ***.\skype*** as the user name, and sign in. 
 
 
 # Pre-requisites 
@@ -138,7 +134,7 @@ There are two modes of installation – individual local machine install and mas
 
 Due to the many varied ways in which customers can run MSI applications in mass deployment mode this document will only walk through installation in individual mode.  
 
-**NOTE:** The installer program flow is the same, no matter what mode is being run. The only slight difference is that the install does not request a user to press the next and close buttons in mass deploy mode.  
+ [!NOTE] The installer program flow is the same, no matter what mode is being run. The only slight difference is that the install does not request a user to press the next and close buttons in mass deploy mode.  
 
 
 # Individual Device - Domain Joined Walkthrough  

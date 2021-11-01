@@ -20,9 +20,9 @@ f1keywords:
 ---
 
 
-# MICROSOFT TEAMS ROOMS MANAGED SERVICES 
+# Microsoft Teams Rooms Managed Services 
 
-## OVERVIEW 
+## Overview 
 The Microsoft Teams Rooms Managed Service (“managed services”) is a cloud-based IT management and monitoring service that keeps Microsoft Teams Rooms devices and their peripherals up to date and proactively monitored, supporting an environment optimized for a great user experience.  
 
 
@@ -52,51 +52,29 @@ Rich analytics, reporting and proven learnings at scale across many customers.
 This document describes how managed updates work in Microsoft Teams Rooms Managed Services. 
 
 
-## UPDATE MANAGEMENT 
+## Update Management 
 A modern meeting room is equipped with a Microsoft Teams Rooms device and other peripherals such as a camera, microphone, or speaker, and potentially more devices to create an inclusive and effective meeting experience. Equipment from different kinds of OEMs provides the exact organizational experience desired, but at the same time, they need to be maintained with software and firmware on an ongoing basis.  
 
 Managed Services for Microsoft Teams Rooms provides the assurance that each room in your organization will be maintained at recommended levels to deliver a room that is always ready and works great. While you are always welcome to look under the hood, our goal is to reduce complexity and legwork for your operational staff with intelligence and automation. If something needs troubleshooting or diagnostics, we will take it on for you to get your room up as quickly as possible. 
 
 
-### MANAGING ROOM SOFTWARE STACK  
+### Managing Room Software Stack  
 In every room, different parts of the software stack all work together to deliver the experience. At a high level, they can be summarized as follows: 
 
-Microsoft Teams Rooms App
-
-
-3rd Party Apps (incl. management, security)
-
-
-Camera Firmware
-
-
-Audio Firmware
-
-BIOS update
-
-OS
-
-
-(Feature, Quality, Security updates)
-
-
-Drivers, Other PC Related 
-
-Firmware
-
+![alt text](media/update-management.006.jpg)
 
 To ensure a great meeting experience every day in every room, it is important to **standardize every piece of software** running on each of the rooms and roll out fixes in the rooms depending on the configuration. It is also common to see customers set up their own validation process: to gain confidence over any pending fixes by verifying that it really fixes an issue they might be experiencing; or preview features to make the organization ready for the change.  
 
 Managed Services for Microsoft Teams Rooms handles all the above so that you do not have to worry about getting an update or troubleshooting issues with an update. In this section, we will describe how managed software updates work.  
-## UPDATE PORTFOLIO 
+## Update Portfolio 
 Managed Updates for Certified Teams Rooms devices [Update Portfolio](https://microsoft.sharepoint-df.com/:b:/t/DevicesPartnerEngineering/EXnjbJrslvRMoWuBrOKke1YB_1l5B7Y4xlku8JC_vcUcQg?e=bDLLWt)[ ](https://microsoft.sharepoint-df.com/:b:/t/DevicesPartnerEngineering/EXnjbJrslvRMoWuBrOKke1YB_1l5B7Y4xlku8JC_vcUcQg?e=bDLLWt)
-## MANAGING WINDOWS OS UPDATES: 
+## managing windows os updates: 
 Teams Rooms Managed Services will be launching management of Windows OS Feature Updates to ensure that Windows 10 20H2 (OS Build 19042.572) and future feature updates roll out to your rooms through the same update rings you have already set up. The launch date will be aligned with the MTR start of support of 20H2. 
 
 As always, we recommend not deploying any management of OS Feature Updates to MTR. MTR already includes mechanisms, shipped together with app updates, to help get and keep the MTR at the latest supported OS version. Managed Services will be building upon those to add additional validation both before and as the update rolls through Rings. If you are applying any OS Update related policies through MDM (MOBILE DEVICE MANAGEMENT) or GPO (Group Policy Objects), for the best chance of success, we highly recommend removing those policies before Managed Services begins the rollout of 20H2. Regardless, MTR Managed Services will attempt to manage and install this update, but the results may vary. Unless your organization manages OS Feature Updates through MDM, GPO or SCCM (Systems Center Configuration Manager) you can just sit back and wait until you see the update on the Updates page of the Managed Services portal, just like existing peripheral updates. 
 
 
-## MANAGING TO A GOOD STATE 
+## managing to a good state 
 Our main goal is to keep rooms running and available for your organization. Managed Services experts are constantly working on your behalf to curate, validate and deploy updates to your production rooms. In certain cases, it may mean that we prioritize room health over new features and releases to be validated before they are rolled out. 
 
 Most importantly, it means that you do not have to worry about investing time to learn the details of these updates and validate them yourself. If there are issues with any specific update and any specific room, we will work with you to troubleshoot and resolve them.  
@@ -111,7 +89,7 @@ The process of rolling out updates, therefore, can be broken down into the follo
 
 
 
-### TRANSITIONING A DEVICE TO MANAGED SERVICES 
+### Transitioning A Device To Managed Services 
 Room devices onboarding to Managed Services usually have a change management history and practice that is different from our guidance.  
 
 - To truly benefit from Managed Services, you will need to transition **change management for all updates under Managed Services portfolio.**  
@@ -122,7 +100,7 @@ Room devices onboarding to Managed Services usually have a change management his
 
 
 
-### TRANSITIONING DEVICES: BASIC READINESS CHECKS 
+### Transitioning Devices: Basic Readiness Checks 
 Most of the unexpected failures arise from changes in the base image with uncertain history of change management. 
 
 Following simple readiness checks are recommended:**  
@@ -135,7 +113,7 @@ In the following sections, we will go into more detail about how it all works.
 
 
 
-## READINESS CHECKS   
+## Readiness Checks   
 There are a few pre-requisites for receiving managed services updates: 
 
 |Software |Guidance |
@@ -149,7 +127,7 @@ There are a few pre-requisites for receiving managed services updates:
 
 
 
-## MANAGED UPDATES – HOW IT WORKS 
+## Managed Updates – How It Works 
 There are two primary ways how updates are managed:**  
 
 - **Automatically Managed**: You get updates installed in your room device based on Managed Services assessment. No intervention is required by you for the updates managed in our portfolio. 
@@ -170,7 +148,7 @@ Services and the options available to customize it for your organization. Even w
 As new types of software and firmware become available in the portfolio, there will be announcements on the portal home page and within the Managed Services documentation. Since Managed Services experts are reviewing update versions daily across our portfolio of devices, they address specific issues and target updates based on need.  
 
 
-### MANAGED UPDATES – SCHEDULING 
+### Managed Updates – Scheduling 
 Managed updates are scheduled for rooms based on the equipment in the room and if they are not meeting Managed Services standards for applicable software and firmware.  
 
 - To help our customers meet change management requirements, update deployment start on 
@@ -185,7 +163,7 @@ Managed updates are scheduled for rooms based on the equipment in the room and i
 
 
 
-#### MICROSOFT TEAMS ROOM APP UPDATE LIFECYCLE POLICY 
+#### Microsoft Teams Room App Update Lifecycle Policy 
 The MTR engineering team’s support policy states that all support ends after the twelve (12) month lifecycle for a version has expired or if more than two updates have been released since then. Then, customers must update to a supported version. Please reference [Microsoft Teams Rooms app version support ](https://docs.microsoft.com/en-us/MicrosoftTeams/rooms/rooms-lifecycle-support)[- ](https://docs.microsoft.com/en-us/MicrosoftTeams/rooms/rooms-lifecycle-support)[Microsoft Teams | Microsoft ](https://docs.microsoft.com/en-us/MicrosoftTeams/rooms/rooms-lifecycle-support)[Docs](https://docs.microsoft.com/en-us/MicrosoftTeams/rooms/rooms-lifecycle-support)[ ](https://docs.microsoft.com/en-us/MicrosoftTeams/rooms/rooms-lifecycle-support)for detailed service description. 
 
 To maintain a uniform standard across all our managed rooms and to allow us to efficiently identify trending issues, we will support and deploy the two latest Major or Minor Releases (N, N-1) of the MTR App software as per the Support and Subscription Services Terms and Conditions. We will automatically bring non-compliant rooms up to date, bypassing update rings as necessary. 
@@ -193,14 +171,12 @@ To maintain a uniform standard across all our managed rooms and to allow us to e
 The N-1 policy also applies to third-party software.  
 
 
-## UPDATE MANAGEMENT EXPERIENCE WALK THROUGH  
+## Update Management Experience Walk Through  
 To view updates, login to the Managed Services portal and navigate to the Updates page. (Below)  
 
 
 
-![Graphical user interface, text, application
-
-Description automatically generated](Aspose.Words.9297433e-df75-4643-bc1c-bb8ea8f2575a.001.jpeg) 
+![alt text](media/update-management.001.jpeg) 
 
 
 
@@ -243,9 +219,7 @@ The Rooms tab shows all the rooms in your tenant and to which ring they belong.
 
 
 
-![Graphical user interface, text, application
-
-Description automatically generated](Aspose.Words.9297433e-df75-4643-bc1c-bb8ea8f2575a.002.jpeg) 
+![alt text](media/update-management.002.jpeg) 
 
 
 
@@ -260,9 +234,7 @@ In the detailed room view, you will see the relevant updates and their status un
 
 
 
-![Graphical user interface, text, application
-
-Description automatically generated](Aspose.Words.9297433e-df75-4643-bc1c-bb8ea8f2575a.003.jpeg) 
+![alt text](media/update-management.003.jpeg) 
 
 
 
@@ -360,7 +332,7 @@ Creating Custom Rings
 
 
 
-Move rooms 
+**Move rooms** 
 
 Moving rooms from one ring to another is possible in two ways: 
 
@@ -379,17 +351,15 @@ Moving rooms from one ring to another is possible in two ways:
 
 
 
-1. Open the room details for the room you wish to move (either through Incidents, Rooms, or 
-
-Updates -> Rooms)   
+1. Open the room details for the room you wish to move (either through Incidents, Rooms, or Updates -> Rooms).   
 
 1. Click the “Updates” tab.  
 1. Under “Assigned Ring” click “Change”  4. From the dropdown, select the new ring.  
 
-\5. Click “Assign”. 
+1. Click “Assign”. 
 
 
-## MANAGED UPDATES: VISIBILITY AND CONTROL  
+## Managed Updates: Visibility And Control  
 Managed services orchestrate updates throughout your organization. However, you have the visibility and control to intervene if needed. As shown below, here are the ways: 
 
 
@@ -401,59 +371,47 @@ Managed services orchestrate updates throughout your organization. However, you 
 
 
 
-![Graphical user interface, text, application, email
+![alt text](media/update-management.004.jpeg)  
 
-Description automatically generated](Aspose.Words.9297433e-df75-4643-bc1c-bb8ea8f2575a.004.jpeg)  
-
-o Please note that **we do not recommend “Force Updates”** as a general update management strategy. If you push an update that is still in our validation pass, you might encounter issues we already know about. In such cases, incident resolution for such rooms will be on a best-effort basis.  
+![NOTE] **We do not recommend “Force Updates”** as a general update management strategy. If you push an update that is still in our validation pass, you might encounter issues we already know about. In such cases, incident resolution for such rooms will be on a best-effort basis.  
 
 - Further, to ensure good change management practices, we will log every force update internally in the service. In the future, we expect to make that visible to you as well. 
 
 
 
-![](Aspose.Words.9297433e-df75-4643-bc1c-bb8ea8f2575a.005.jpeg) 
+![alt text](media/update-management.005.jpeg) 
 
 
-## MANAGED UPDATES: FAQS 
+## Managed Updates: FAQS 
 1. **An update was announced, but I don’t see it on my Updates tab.** 
 
 Updates roll out through our update rings. It won’t display in your tab until the update has passed the staging ring. 
 
 
 
-1. **Will my new rooms automatically get updated?** 
+2. **Will my new rooms automatically get updated?** 
 
 Yes. We catch up with any new rooms on the necessary updates. 
 **
 
 
-1. **What if I have an Anti-virus running? Do I need to add exclusions?** 
+3. **What if I have an Anti-virus running? Do I need to add exclusions?** 
 
 Suppose you are using an anti-virus or just started using a new anti-virus. In that case, it might cause failures to launch meetings in the room console by interfering with the launch of related software libraries and executables from Teams or Skype for Business. Please contact our support team to get assistance on this issue. 
 
-1. **I reimaged a room. Will the updates automatically get installed?** 
+4. **I reimaged a room. Will the updates automatically get installed?** 
 
 Unfortunately, not at this time. Previous updates need to be manually reinstalled. We are working on a feature to address this scenario. 
 
-1. **I see an update failed. What action should I take to make it successful?** 
+5. **I see an update failed. What action should I take to make it successful?** 
 
 Our 24/7 operations team troubleshoot all update failures and will contact you if you need to take any action.  
 
-1. **What updates can we force?** 
+6. **What updates can we force?** 
 
 Any and all active updates can be forced. 
 
-1. **When is my update starting?** 
+7. **When is my update starting?** 
 
 Staging rings start on Wednesday. We are making improvements to the portal so you can see what day each of your rings starts depending on your configuration. If a critical update is required, we will bypass this schedule and release the update as soon as it’s available. 
-
-
-
-
-
-
-
-
-vJune2021 
-
 

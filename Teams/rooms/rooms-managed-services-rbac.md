@@ -58,7 +58,7 @@ This is quick review of the frequently used terms in the portal. We would love t
 
 
 |Term |Meaning |
-| :-: | :-: |
+| :- | :- |
 |**Monitoring Software** |Refers to the monitoring agent that is deployed in each of the Microsoft Teams Room devices. |
 |**App** |App refers to the Microsoft Teams Room system app (regardless of whether it uses Skype for Business or Microsoft Teams as the collaboration service. |
 |**Room/Device** |This refers to the certified Microsoft Teams Room system device. |
