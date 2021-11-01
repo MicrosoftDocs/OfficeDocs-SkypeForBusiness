@@ -30,7 +30,10 @@ With mobile browser join, when an attendee joins an appointment from a mobile de
 Currently, mobile browser join is available for appointments that are scheduled through the following:
 
 - [The Bookings app](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-us&rs=en-us&ad=us#PickTab=Bookings)
-- Microsoft Teams Electronic Health Records (EHR) connector, integration with [Cerner EHR](healthcare/ehr-admin-cerner.md) and [Epic EHR](healthcare/ehr-admin.md)
+- Microsoft Teams Electronic Health Records (EHR) connector
+
+  - Integration with [Cerner EHR](healthcare/ehr-admin-cerner.md)
+  - Integration [Epic EHR](healthcare/ehr-admin.md)
 
 ## Set up mobile browser join
 
