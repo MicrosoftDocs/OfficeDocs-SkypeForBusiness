@@ -61,7 +61,7 @@ Managed Services for Microsoft Teams Rooms provides the assurance that each room
 ### Managing Room Software Stack  
 In every room, different parts of the software stack all work together to deliver the experience. At a high level, they can be summarized as follows: 
 
-![alt text](media/update-management.006.jpg)
+![alt text6](media/update-management.006.jpg)
 
 To ensure a great meeting experience every day in every room, it is important to **standardize every piece of software** running on each of the rooms and roll out fixes in the rooms depending on the configuration. It is also common to see customers set up their own validation process: to gain confidence over any pending fixes by verifying that it really fixes an issue they might be experiencing; or preview features to make the organization ready for the change.  
 
@@ -177,7 +177,7 @@ To view updates, login to the Managed Services portal and navigate to the Update
 
 
 
-![alt text](media/update-management.001.jpg) 
+![alt text1](media/update-management.001.jpg) 
 
 
 
@@ -220,7 +220,7 @@ The Rooms tab shows all the rooms in your tenant and to which ring they belong.
 
 
 
-![alt text](media/update-management.002.jpg) 
+![alt text2](media/update-management.002.jpg) 
 
 
 
@@ -235,7 +235,7 @@ In the detailed room view, you will see the relevant updates and their status un
 
 
 
-![alt text](media/update-management.003.jpg) 
+![alt text3](media/update-management.003.jpg) 
 
 
 
@@ -372,7 +372,7 @@ Managed services orchestrate updates throughout your organization. However, you 
 
 
 
-![alt text](media/update-management.004.jpg)  
+![alt text4](media/update-management.004.jpg)  
 
 ![NOTE] **We do not recommend “Force Updates”** as a general update management strategy. If you push an update that is still in our validation pass, you might encounter issues we already know about. In such cases, incident resolution for such rooms will be on a best-effort basis.  
 
@@ -380,7 +380,7 @@ Managed services orchestrate updates throughout your organization. However, you 
 
 
 
-![alt text](media/update-management.005.jpg) 
+![alt text5](media/update-management.005.jpg) 
 
 
 ## Managed Updates: FAQS 

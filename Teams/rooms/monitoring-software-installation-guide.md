@@ -38,19 +38,19 @@ To log in the device as administrator (local administrator):
 1. Ensure you Hang up any ongoing calls and return to the home screen. 
 1. In the Microsoft Teams Room user interface, click the **More** icon then click **Settings** icon where you'll be prompted for the local Administrator password on the device (the default password is ***sfb***). 
 
-![alt text0](media/software-installation.001.jpg) 
+![alt text1](media/software-installation.001.jpg) 
 
 
 
-![alt text1](media/software-installation.002.jpg) 
+![alt text2](media/software-installation.002.jpg) 
 
 1. Tap on **Settings** followed by tapping on the **Windows Settings** button to access windows as local administrator.  
 
-![alt text2](media/software-installation.003.jpg) 
+![alt text3](media/software-installation.003.jpg) 
 
 1. From the list of users displayed in the Windows login screen, select the **Administrator** (or the respective local administrator of your device). 
 
-![alt text3](media/software-installation.004.jpg) 
+![alt text4](media/software-installation.004.jpg) 
 
 **Note**: If the computer is *domain joined*, choose **Other User**, then use **.\admin** as the user name – or the user name of the local administrator configured in the device.  
 

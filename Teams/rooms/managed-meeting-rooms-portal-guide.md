@@ -179,7 +179,7 @@ In addition to the Incidents view, Managed Rooms Portal also provides a room hea
 ### Room: Healthy, Unhealthy, Disconnected 
 The top panel on the Rooms view provides a quick snapshot of how many of your devices are in a good state(“Healthy”), how many are affected by issues(“Unhealthy”), how many are not providing telemetry (“Disconnected”), and how many devices are suppressed from alerting (as an override). 
 
-![Figure 7](rooms-portal-guide.007.jpg) 
+![Figure 7](media/rooms-portal-guide.007.jpg) 
 
 Rooms are being monitored for health using an evolving criteria and heuristics. The goal is to reflect the reality of the user experience in the room as accurately as possible and make it actionable. 
 
@@ -241,7 +241,7 @@ The room activity tab is meant to provide visibility into any activity performed
 ![Figure 14](media/rooms-portal-guide.014.jpg) 
 
 
-#### Access Control for the Portal: Set Policy 
+## Access Control for the Portal: Set Policy 
 Important: Please review this section and make sure that access to the portal is limited based on your business needs. 
 
 1. Navigate to Azure Portal and click on Azure Active Directory 
@@ -273,6 +273,7 @@ Important: Please review this section and make sure that access to the portal is
 1. Navigate to “Users and Groups” to control access to the application. Currently, role assignment is not relevant to the program and does NOT have any effect on user privileges. 
 
 ![Figure 19](media/rooms-portal-guide.019.jpg) 
+
 # FAQ 
 ### How often is the data refreshed? 
 Data about devices is updated roughly every 5-10 minutes by our cloud services. You will need to refresh the portal in order to get fresh status. Incidents that are assigned to you goes through investigation process and may take longer. 
