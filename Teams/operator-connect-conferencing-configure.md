@@ -155,7 +155,7 @@ To release phone numbers from your Audio Conferencing bridge from the Teams admi
 
 ## Additional information on Microsoft Audio Conferencing
 
-The Microsoft Audio Conferencing service allows participants to join Microsoft Teams meetings by dialing in via a phone number or by dialing out to a phone number. The Microsoft Audio Conferencing service has multiple capabilities to meet the needs of your organization. For additional information on how the Microsoft Audio Conferencing service works and the capabilities available to your organization, please refer to the following articles.
+The Microsoft Audio Conferencing service allows participants to join Microsoft Teams meetings by dialing in via a phone number or by dialing out to a phone number. The Microsoft Audio Conferencing service has multiple capabilities to meet the needs of your organization. For additional information on how the Microsoft Audio Conferencing service works and the capabilities available to your organization, please refer to the following articles:
 
 - Overview of the Microsoft Audio Conferencing service: [Audio Conferencing in Microsoft 365](audio-conferencing-in-office-365.md)
 
