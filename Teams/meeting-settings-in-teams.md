@@ -101,9 +101,17 @@ You can customize Teams meeting invitations to meet your organization's needs. Y
 
 <a name="bknetwork"> </a>
 
-If you're using Quality of Service (QoS)to prioritize network traffic, you can enable QoS markers and set port ranges for each type of media traffic. Setting port ranges for different traffic types is only one step in handling real-time media; see [Quality of Service (QoS) in Teams](qos-in-teams.md) for much more detail.
+If you're using Quality of Service (QoS) to prioritize network traffic, you can enable QoS markers and set port ranges for each type of media traffic. Setting port ranges for different traffic types is only one step in handling real-time media; see [Quality of Service (QoS) in Teams](qos-in-teams.md) for much more detail.
 
 > [!IMPORTANT]
+> Apple-based systems: The only instance that we know of where Apple-based devices actually set the DSCP value is if all the following conditions are met:
+> - iOS.
+> - WiFi network.
+> - Cisco switches.
+> - The network administrator has added the app to the approved list.
+>
+> Android-based systems: There are no known limitations.
+>
 > If you enable QoS or change settings in the Microsoft Teams admin center for the Teams service, you'll also need to [apply matching settings to all user devices](QoS-in-Teams-clients.md) and all internal network devices to fully implement the changes to QoS in Teams.
 
   **Using the Microsoft Teams admin center**
@@ -114,6 +122,10 @@ If you're using Quality of Service (QoS)to prioritize network traffic, you can e
     ![Screenshot of the network settings for meetings in the admin center.](media/meeting-settings-network.png "Screenshot of the network settings for Teams meetings in the Microsoft Teams admin center")
 
     - To allow DSCP markings to be used for QoS, turn on **Insert Quality of Service (QoS) markers for real-time media traffic**. You only have the option of using markers or not; you can't set custom markers for each traffic type. See [Select a QoS implementation method](QoS-in-Teams.md#select-a-qos-implementation-method) for more on DSCP markers.
+
+        > [!IMPORTANT]
+        > Note that enabling QoS is only performed on the endpoints for tagging packets leaving the client. We still recommend applying matching QoS rules on all internal network devices for incoming traffic.
+        
         > [!NOTE]
         > DSCP tagging is typically done via Source Ports and UDP traffic will route to Transport Relay with destination port of 3478 by default. If your company requires tagging on destination ports, please contact support to enable communication to the Transport Relay with UDP ports 3479 (Audio), 3480 (Video), and 3481 (Sharing).
     - To specify port ranges, next to **Select a port range for each type of real-time media traffic**, select  **Specify port ranges**, and then enter the starting and ending ports for audio, video, and screen sharing. Selecting this option is required to implement QoS. 
