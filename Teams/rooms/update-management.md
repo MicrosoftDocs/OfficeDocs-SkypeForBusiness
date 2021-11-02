@@ -20,7 +20,7 @@ f1keywords:
 ---
 
 
-# Microsoft Teams Rooms Managed Services 
+# Microsoft Teams Rooms Managed Services Updates 
 
 ## Overview 
 The Microsoft Teams Rooms Managed Service (“managed services”) is a cloud-based IT management and monitoring service that keeps Microsoft Teams Rooms devices and their peripherals up to date and proactively monitored, supporting an environment optimized for a great user experience.  
@@ -106,7 +106,7 @@ Most of the unexpected failures arise from changes in the base image with uncert
 Following simple readiness checks are recommended:**  
 
 - **Base Image: The base image must be from** the specific OEM. If the device has been rebuilt in the past and shows unexpected failures or behaviors on common tasks, the base image must be restored. We can provide assistance but cannot remotely rebuild the room device, so you will need a local site technician.  
-- **Base OS, Edition:** The base OS and edition must match the requirements of Microsoft Teams Rooms devices. If this is not so, it must be corrected as part of onboarding. Microsoft Teams Rooms requires the Windows 10 IoT Enterprise or Windows 10 Enterprise SKUs under Semi-Annual Channel servicing options. Consult the official MTR guidance for more information [https://docs.microsoft.com/en](https://docs.microsoft.com/en-us/microsoftteams/rooms/rooms-lifecycle-support#windows-10-release-support)[](https://docs.microsoft.com/en-us/microsoftteams/rooms/rooms-lifecycle-support#windows-10-release-support)[us/microsoftteams/rooms/rooms](https://docs.microsoft.com/en-us/microsoftteams/rooms/rooms-lifecycle-support#windows-10-release-support)[-](https://docs.microsoft.com/en-us/microsoftteams/rooms/rooms-lifecycle-support#windows-10-release-support)[lifecycle](https://docs.microsoft.com/en-us/microsoftteams/rooms/rooms-lifecycle-support#windows-10-release-support)[-](https://docs.microsoft.com/en-us/microsoftteams/rooms/rooms-lifecycle-support#windows-10-release-support)[support#windows](https://docs.microsoft.com/en-us/microsoftteams/rooms/rooms-lifecycle-support#windows-10-release-support)[-](https://docs.microsoft.com/en-us/microsoftteams/rooms/rooms-lifecycle-support#windows-10-release-support)[10](https://docs.microsoft.com/en-us/microsoftteams/rooms/rooms-lifecycle-support#windows-10-release-support)[-](https://docs.microsoft.com/en-us/microsoftteams/rooms/rooms-lifecycle-support#windows-10-release-support)[release](https://docs.microsoft.com/en-us/microsoftteams/rooms/rooms-lifecycle-support#windows-10-release-support)[-](https://docs.microsoft.com/en-us/microsoftteams/rooms/rooms-lifecycle-support#windows-10-release-support)[support](https://docs.microsoft.com/en-us/microsoftteams/rooms/rooms-lifecycle-support#windows-10-release-support)[ ](https://docs.microsoft.com/en-us/microsoftteams/rooms/rooms-lifecycle-support#windows-10-release-support) 
+- **Base OS, Edition:** The base OS and edition must match the requirements of Microsoft Teams Rooms devices. If this is not so, it must be corrected as part of onboarding. Microsoft Teams Rooms requires the Windows 10 IoT Enterprise or Windows 10 Enterprise SKUs under Semi-Annual Channel servicing options. Consult the official [MTR guidance](rooms-lifecycle-support#windows-10-release-support) for more information.
 
 In the following sections, we will go into more detail about how it all works.  
 
@@ -176,7 +176,7 @@ To view updates, login to the Managed Services portal and navigate to the Update
 
 
 
-![alt text](media/update-management.001.jpeg) 
+![alt text](media/update-management.001.jpg) 
 
 
 
@@ -219,7 +219,7 @@ The Rooms tab shows all the rooms in your tenant and to which ring they belong.
 
 
 
-![alt text](media/update-management.002.jpeg) 
+![alt text](media/update-management.002.jpg) 
 
 
 
@@ -234,7 +234,7 @@ In the detailed room view, you will see the relevant updates and their status un
 
 
 
-![alt text](media/update-management.003.jpeg) 
+![alt text](media/update-management.003.jpg) 
 
 
 
@@ -371,7 +371,7 @@ Managed services orchestrate updates throughout your organization. However, you 
 
 
 
-![alt text](media/update-management.004.jpeg)  
+![alt text](media/update-management.004.jpg)  
 
 ![NOTE] **We do not recommend “Force Updates”** as a general update management strategy. If you push an update that is still in our validation pass, you might encounter issues we already know about. In such cases, incident resolution for such rooms will be on a best-effort basis.  
 
@@ -379,7 +379,7 @@ Managed services orchestrate updates throughout your organization. However, you 
 
 
 
-![alt text](media/update-management.005.jpeg) 
+![alt text](media/update-management.005.jpg) 
 
 
 ## Managed Updates: FAQS 

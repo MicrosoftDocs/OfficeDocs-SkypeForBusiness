@@ -778,7 +778,7 @@ items:
             - name: Overview
               href: rooms/rooms-managed-services-rbac.md
             - name: Installation
-              href: monitoring-software-installation-guide.md
+              href: rooms/monitoring-software-installation-guide.md
             - name: Plan management
               href: rooms/microsoft-teams-rooms-premium.md
             - name: Role-based access control
@@ -792,7 +792,7 @@ items:
             - name: Configure ServiceNow for Teams Rooms
               href: rooms/microsoft-teams-rooms-configure-servicenow.md
             - name: Monitoring and maintaining Rooms
-              href: managed-meetings-rooms-portal-guide.md
+              href: rooms/managed-meetings-rooms-portal-guide.md
 
              
 

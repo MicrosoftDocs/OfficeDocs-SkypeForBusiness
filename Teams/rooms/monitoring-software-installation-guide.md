@@ -19,21 +19,21 @@ description: Onboarding Teams Rooms devices to managed services
 f1keywords: 
 ---
 
+
+
+# General Information  
 This guide intends to provide detailed guidance for onboarding Microsoft Teams Rooms devices to the Microsoft Teams Rooms – Managed Services. Microsoft Teams Rooms – Managed Services It’s a cloud-based operations service managed by Microsoft experts and operated 24x7x365. 
 
 
 
-
-# General Information  
-
 ## Supported Devices  
-Please note that the Microsoft Teams Rooms – Managed Services monitoring service agent is for use with certified Microsoft Teams Room (MTR) systems and peripherals. 
+**Note** The Microsoft Teams Rooms – Managed Services monitoring service agent is for use with certified Microsoft Teams Room (MTR) systems and peripherals. 
 
 
 ## Performing operations as the Admin user of the MTR device 
-Throughout this document, some configuration/installation procedures require you to login to the device as administrator. 
+Throughout this document, some configuration/installation procedures require you to log in to the device as administrator. 
 
-To login the device as administrator (local administrator): 
+To log in the device as administrator (local administrator): 
 
 1. Ensure you Hang up any ongoing calls and return to the home screen. 
 1. In the Microsoft Teams Room user interface, click the **More** icon then click **Settings** icon where you'll be prompted for the local Administrator password on the device (the default password is ***sfb***). 
@@ -50,9 +50,9 @@ To login the device as administrator (local administrator):
 
 1. From the list of users displayed in the Windows login screen, select the **Administrator** (or the respective local administrator of your device). 
 
-![alt text](software-installation.004.jpg) 
+![alt text](media/software-installation.004.jpg) 
 
-Please note: If the computer is *domain joined*, choose **Other User**, then use **.\admin** as the user name – or the user name of the local administrator configured in the device.  
+**Note**: If the computer is *domain joined*, choose **Other User**, then use **.\admin** as the user name – or the user name of the local administrator configured in the device.  
 
 
 
@@ -67,9 +67,9 @@ To return to the Microsoft Teams Room app after performing the necessary adminis
 # Pre-requisites 
 
 ## Adding Proxy Settings (optional) 
-1. Be sure you login as administrator – ensure the *Performing operations as the Admin user of the MTR device* steps are followed. 
+1. Be sure you log in as administrator – ensure the *Performing operations as the Admin user of the MTR device* steps are followed. 
 1. In the Windows ***Search*** *box* (bottom-left section of the screen), type in **cmd** (either long press the screen or right click, and choose ***Run as administrator***).  
-1. Run the following command (double quotes at end of command are important):  
+1. Run the following command (double quotes at end of command are important:
    1. If using single ***proxy server***:  bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL\_PROXY <proxyserver>:<port> "" 
 
 *Example:* bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL\_PROXY contosoproxy.corp.net:8080 ""* 
@@ -93,11 +93,11 @@ You may find that the TPM setting on an Intel NUC device is disabled. Below are 
 
 
 ## URLs Required for Communication  
-**Please note:** All network traffic between the MTR devices agent and the Microsoft Teams Rooms – Managed Services service portal is SSL over port 443*.* 
+**Note:** All network traffic between the MTR devices agent and the Microsoft Teams Rooms – Managed Services service portal is SSL over port 443*.* 
 
 
 
-The following hosts need to be allowed if you have traffic allowlist enabled within your enterprise environment: 
+The following hosts must be allowed if you have traffic allowlist enabled within your enterprise environment: 
 
 agent.rooms.microsoft.com<br>
 global.azure-devices-provisioning.net<br> 
@@ -120,7 +120,7 @@ The Enrollment process involves a few steps:
 1. On the left navigation bar of the Microsoft Teams Rooms – Managed Services portal [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/), expand **Settings** and select **General**.  
 1. Under *Self-Enrollment keys* section of the page, click **Download installer** hyperlink [(](https://aka.ms/serviceportalagentmsi)<https://aka.ms/serviceportalagentmsi>[)](https://aka.ms/serviceportalagentmsi) to download the monitoring agent software. 
 1. Also under *Self-Enrollment keys* section, click **Download Key**. Place the key file under the **C:\Rigel** folder on each device you are enrolling.  
-1. ***Optional*:** Setup proxy settings for the agent *– see* *previous section Adding Proxy Settings (optional)* 
+1. ***Optional*:** Set up proxy settings for the agent *– see* *previous section Adding Proxy Settings (optional)* 
 1. Install the agent installer (downloaded in step 2) on Microsoft Teams Room (MTR) units, either by running the MSI locally on a Microsoft Teams Room device or via your normal means of publishing MSI applications on mass to devices within your environment (Group-Policy etc.)  
 1. The room will appear in the portal within 5-10 minutes, if not please contact managedroomsupport@microsoft.com.  
 
@@ -130,14 +130,14 @@ The Enrollment process involves a few steps:
 ## Installation  
 After downloading the installer from Microsoft (either from the portal or by using the AKA.ms URL provided above), unzip its contents and you will find the **ManagedRoomsInstaller.msi**. 
 
-There are two modes of installation – individual local machine install and mass deploy mode (usually via group policy of similar method). We recommend individual install for non-domain joined machines or for machines which you have no way of running MSI installers remotely.  
+There are two modes of installation – individual local machine install and mass deploy mode (usually via group policy of similar method). We recommend individual install for non-domain joined machines or for machines that you have no way of running MSI installers remotely.  
 
 Due to the many varied ways in which customers can run MSI applications in mass deployment mode this document will only walk through installation in individual mode.  
 
  [!NOTE] The installer program flow is the same, no matter what mode is being run. The only slight difference is that the install does not request a user to press the next and close buttons in mass deploy mode.  
 
 
-# Individual Device - Domain Joined Walkthrough  
+## Individual Device - Domain Joined Walkthrough  
 As primary step, you must log in the device as administrator – ensure the *Performing operations as the Admin user of the device* steps are followed. 
 
 Next, as mentioned previously, copy the following files to the MTR device: 
@@ -211,10 +211,10 @@ For any questions or issues, please open a customer reported incident in the por
 # Unenroll and Uninstalling the monitoring software  
 To unenroll the device, remove the monitoring agent from the MTR device: 
 
-1. On the device being monitored, login the device as administrator – ensure the *Performing operations as the Admin user of the device* steps are followed. 
-1. Download reset script from [aka.ms/MTRPDeviceOffBoarding](http://aka.ms/MTRPDeviceOffBoarding)[ ](http://aka.ms/MTRPDeviceOffBoarding)
+1. On the device being monitored, log in the device as administrator – ensure the *Performing operations as the Admin user of the device* steps are followed. 
+1. Download reset script from [aka.ms/MTRPDeviceOffBoarding](https://aka.ms/MTRPDeviceOffBoarding).
 1. Extract the script somewhere on the device and copy path 
-1. Open PowerShell as administrator: In the Windows ***Search*** *box* (bottom left section of the screen), type ‘Powershell’ and right click ***Windows PowerShell*** and select *“Run as Administrator”* and accept UAC prompt.* 
+1. Open PowerShell as administrator: In the Windows ***Search*** *box* (bottom-left section of the screen), type ‘Powershell’ and right click ***Windows PowerShell*** and select *“Run as Administrator”* and accept UAC prompt.* 
 1. Type *Set-ExecutionPolicy –ExecutionPolicy RemoteSigned* and press enter then Y on next prompt.*  
 1. Paste or type the full path to the unzipped offboarding script into the PowerShell window and press Enter. For example: 
 

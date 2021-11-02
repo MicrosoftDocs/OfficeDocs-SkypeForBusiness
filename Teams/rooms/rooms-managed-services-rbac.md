@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rooms Premium-managed service
-author: v-donnahill
-ms.author: donnah007
+author: donnah007
+ms.author: v-donnahill
 manager: serdars
 ms.reviewer:  
 ms.topic: article
@@ -85,7 +85,7 @@ To create, edit, or assign roles, your account must have one of the following pe
 # Adding MMR Admin Roles
 <!-- This section needs to be updated. -->
 
-The following procedure is supplemental to [Microsoft Teams Rooms managed service](microsoft-teams-rooms-premium) and [Microsoft Teams Rooms Portal](managed-meeting-rooms-portal-guide). 
+The following procedure is supplemental to [Microsoft Teams Rooms Managed Service](microsoft-teams-rooms-premium.md) and [Microsoft Teams Rooms Portal](managed-meeting-rooms-portal-guide.md). 
 
 
 1. Log in with your tenant user account to service portal. 
