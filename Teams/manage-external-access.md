@@ -106,6 +106,22 @@ Follow these steps to let Teams users in your organization chat with and call Sk
 
 To learn more about the ways that Teams users and Skype users can communicate, including limitations that apply, see [Teams and Skype interoperability](teams-skype-interop.md).
 
+## Block unsolicited contact with external unmanaged Teams users
+
+Follow these steps to keep Teams users in your organization from unsolicited contact with external Teams users whose accounts are not managed by an organization.
+
+  **Using the Microsoft Teams admin center**
+
+1. In the left navigation, go to **Users** > **External access**.
+
+2. Follow one of these steps:
+
+    - To block Teams users in your organization from communicating with external Teams users whose accounts are not managed by an organization, turn off the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting and clear the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
+
+    - To let Teams users in your organization communicate with external Teams users whose accounts are not managed by an organization if your Teams users have initiated the contact, turn on the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting and clear the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
+
+    - To let Teams users in your organization communicate with external Teams users whose accounts are not managed by an organization and receive requests to communicate with those external Teams users, turn on the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting and select the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
+
 ## Test access
 
 To test your setup, you need a Teams user who's not behind your firewall.
