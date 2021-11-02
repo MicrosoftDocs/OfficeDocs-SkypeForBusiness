@@ -1587,6 +1587,11 @@ items:
           href: flw-realwear.md
         - name: Walkie Talkie
           href: walkie-talkie.md
+    - name: Teams for Nonprofit
+      href: expand-teams-across-your-org/teams-for-nonprofit-landing-page.md
+      items:
+        - name: Use nonprofit team templates
+          href: team-templates-nonprofit.md
     - name: Teams for Retail
       href: expand-teams-across-your-org/teams-for-retail-landing-page.md
       items:
