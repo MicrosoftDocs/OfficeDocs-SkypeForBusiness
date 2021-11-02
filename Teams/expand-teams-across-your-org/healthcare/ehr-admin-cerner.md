@@ -97,7 +97,7 @@ To enable SMS notifications, your Microsoft 365 admin does the following:
 
     :::image type="content" source="../../media/ehr-admin-cerner-sms-notifications.png" alt-text="Screenshot of the SMS notifications page, showing consent check boxes and phone number generation option.":::
 
-1. Under **Your phone numbers**, select **Generate phone number** to generate a phone number for your organization. Doing this starts the process to request and generate new phone number. This process might take up to 2 minutes to complete.
+1. Under **Your phone numbers**, select **Generate a new phone number** to generate a phone number for your organization. Doing this starts the process to request and generate new phone number. This process might take up to 2 minutes to complete.
 
     After the phone number is generated, it's displayed on the screen. This number will be used to send SMS confirmations and reminders to your patients. The number has been provisioned but isn’t linked to the FHIR base URL yet. You do that in the next step.
 
@@ -111,7 +111,7 @@ To enable SMS notifications, your Microsoft 365 admin does the following:
 
     If this is the first time you’re configuring the connector, you’ll see the FHIR base URL that was entered in the earlier step. The same phone number can be linked to multiple FHIR base URLs, which means that patients will receive SMS notifications from the same phone number for different organizations and/or departments.
 
-     Choose **Save**, and then select **Next**.
+     Select **Next**.
 
 ### Review and finish the configuration
 
