@@ -973,7 +973,7 @@ items:
                   href: direct-routing-connect-the-sbc.md
                 - name: "Step 2: Enable users"
                   href: direct-routing-enable-users.md
-                - name: "Step 3: Configure voice routing"
+                - name: "Step 3: Configure call routing"
                   href: direct-routing-voice-routing.md
                 - name: "Step 4: Translate phone numbers"
                   href: direct-routing-translate-numbers.md
@@ -981,7 +981,7 @@ items:
                   href: direct-routing-sbc-multiple-tenants.md
                 - name: How to use analog devices with Direct Routing
                   href: direct-routing-analog-devices.md
-                - name: Manage voice routing policies
+                - name: Manage call routing policies
                   href: manage-voice-routing-policies.md
                 - name: Manage call notifications
                   href: direct-routing-call-notifications.md
@@ -1111,7 +1111,7 @@ items:
               href: emergency-calling-labels.md
         - name: Manage emergency calling policies
           href: manage-emergency-calling-policies.md
-        - name: Manage emergency voice routing policies for Direct Routing
+        - name: Manage emergency call routing policies for Direct Routing
           href: manage-emergency-call-routing-policies.md
     - name: Manage voice and calling policies in Teams
       href: voice-and-calling-policies.md
