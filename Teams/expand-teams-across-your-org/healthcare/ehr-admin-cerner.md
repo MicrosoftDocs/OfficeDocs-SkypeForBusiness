@@ -90,11 +90,14 @@ Complete this step if your organization wants Microsoft to manage SMS notificati
 
 To enable SMS notifications, your Microsoft 365 admin does the following:
 
-1. Select the consent checkbox that allows Microsoft to send notifications on behalf of your organization. [Link to Privacy message].
+1. Select the following:
+
+    - The checkbox that allows Microsoft to send SMS notifications to patients on behalf of your organization.
+    - The checkbox that acknowledges that you will ensure attendees have consented to send and receive SMS messages.
 
     :::image type="content" source="../../media/ehr-admin-cerner-sms-notifications.png" alt-text="Screenshot of the SMS notifications page, showing consent check boxes and phone number generation option.":::
 
-1. Select **Generate phone number** to generate a phone number for your organization. Doing this starts the process to request and generate new phone number. This process might take up to 2 minutes to complete.
+1. Under **Your phone numbers**, select **Generate phone number** to generate a phone number for your organization. Doing this starts the process to request and generate new phone number. This process might take up to 2 minutes to complete.
 
     After the phone number is generated, it's displayed on the screen. This number will be used to send SMS confirmations and reminders to your patients. The number has been provisioned but isn’t linked to the FHIR base URL yet. You do that in the next step.
 
@@ -108,14 +111,7 @@ To enable SMS notifications, your Microsoft 365 admin does the following:
 
     If this is the first time you’re configuring the connector, you’ll see the FHIR base URL that was entered in the earlier step. The same phone number can be linked to multiple FHIR base URLs, which means that patients will receive SMS notifications from the same phone number for different organizations and/or departments.
 
-1. Select **SMS setup** next to each FHIR base URL to set up the types of SMS notifications to send to your patients.
-
-    :::image type="content" source="../../media/ehr-admin-cerner-sms-setup.png" alt-text="Screenshot of the SMS setup pane, showing SMS setup options. ":::
-
-    - **Confirmation SMS**: Notifications are sent to patients when an appointment is scheduled, rescheduled, or canceled in the EHR system.
-    - **Reminder SMS**: Notifications are sent to patients according to the time interval you specify and the scheduled appointment time.
-
-    Choose **Save**, and then select **Next**.
+     Choose **Save**, and then select **Next**.
 
 ### Review and finish the configuration
 
@@ -148,7 +144,7 @@ Key features of the provider experience:
 
 ### Patient experience
 
-The connector supports patients joining virtual visits through a link in the SMS text message or the Cerner patient portal. At the time of the appointment, patients can start a virtual visit by tapping the link in the SMS text message. Patients can also join a virtual visit from the patient portal by clicking the Microsoft Teams button.
+The connector supports patients joining virtual visits through a link in the SMS text message. At the time of the appointment, patients can start a virtual visit by tapping the link in the SMS text message.
 
 Key features of the patient experience
 
