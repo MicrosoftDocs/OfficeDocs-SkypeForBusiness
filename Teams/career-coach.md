@@ -362,9 +362,10 @@ If you are unsure which policy to use you can refer to the [Microsoft Teams Poli
 
 Reference [Manage app setup policies in Microsoft](/microsoftteams/teams-app-setup-policies) for more details.
 
+
 ## Troubleshooting
 
-- If you see "Career Coach is currently being set up for you to use soon" in the Career Coach app __the required sections have not been completed__. The following __sections are required__ to be complete before Career Coach can be used: [Brand and preferences](#brand-and-preferences), [LinkedIn connection](#linkedin-connection), [Course catalog](#course-catalog), and [Fields of study](#fields-of-study).
+- If you see "Career Coach is currently being set up for you to use soon" in the Career Coach app, __the required sections have not been completed__. The following __sections are required__ to be complete before Career Coach can be used: [Brand and preferences](#brand-and-preferences), [LinkedIn connection](#linkedin-connection), [Course catalog](#course-catalog), and [Fields of study](#fields-of-study).
 
 - CSVs for course catalog and field of study have required formats and a maximum size of 18 MB. Reference the Career Coach [course catalog document schema](#course-catalog-documents-formatting-and-schema) and Career Coach [fields of study document schema](#fields-of-study-document-format-and-schema) to ensure proper configuration.
 
@@ -373,6 +374,19 @@ Reference [Manage app setup policies in Microsoft](/microsoftteams/teams-app-set
 - When first configuring Career Coach, an error banner may appear stating "We can't update the app's settings. Try again." This is likely due to the tenant provisioning the Career Coach app, which can take up to 15 minutes. If this happens, wait 15 minutes before submitting again.
 
 - If the Career Coach app is not showing in Microsoft Teams, the policy changes may not have taken effect. Policy changes can take a few hours to update. The Career Coach app will not be available in Microsoft Teams until the changes are complete.
+
+## Removing your tenant data
+
+Your tenant data includes information that's uploaded or generated as a part of application configuration. To delete all data within a Career Coach tenant, have your tenant’s global administrator [open a support ticket](https://edusupport.microsoft.com/support?product_id=career_coach) requesting that the tenant’s data be permanently deleted. Be aware that this process isn't reversible. After the data removal is complete, the Career Coach application will return to its pre-configured, non-personalized state for all users and a Teams administrator will need to set up the application again to continue using it.
+
+The following explains the process for deletion:
+
+- A support ticket must be filed by a tenant global admin clearly stating the request for your tenant’s data to be permanently deleted. **There's no ability to limit the data set or time window of the deletion**.
+
+- Once filed, the support ticket will be addressed after one week to meet compliance's minimal retention policy. You can cancel the operation during this time.
+
+- After one week, the Career Coach team ensures all data related to the tenant is deleted. Microsoft support monitors the ticket and will notify you once the deletion process is complete, **in no more than 30 days**.
+
 
 ## Resources
 
