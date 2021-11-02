@@ -67,14 +67,15 @@ To ensure a great meeting experience every day in every room, it is important to
 
 Managed Services for Microsoft Teams Rooms handles all the above so that you do not have to worry about getting an update or troubleshooting issues with an update. In this section, we will describe how managed software updates work.  
 ## Update Portfolio 
-Managed Updates for Certified Teams Rooms devices [Update Portfolio](https://microsoft.sharepoint-df.com/:b:/t/DevicesPartnerEngineering/EXnjbJrslvRMoWuBrOKke1YB_1l5B7Y4xlku8JC_vcUcQg?e=bDLLWt)[ ](https://microsoft.sharepoint-df.com/:b:/t/DevicesPartnerEngineering/EXnjbJrslvRMoWuBrOKke1YB_1l5B7Y4xlku8JC_vcUcQg?e=bDLLWt)
-## managing windows os updates: 
+<!--Next line needs new link -->
+Managed Updates for Certified Teams Rooms devices [Update Portfolio](https://microsoft.sharepoint-df.com)
+## Managing Windows OS updates: 
 Teams Rooms Managed Services will be launching management of Windows OS Feature Updates to ensure that Windows 10 20H2 (OS Build 19042.572) and future feature updates roll out to your rooms through the same update rings you have already set up. The launch date will be aligned with the MTR start of support of 20H2. 
 
 As always, we recommend not deploying any management of OS Feature Updates to MTR. MTR already includes mechanisms, shipped together with app updates, to help get and keep the MTR at the latest supported OS version. Managed Services will be building upon those to add additional validation both before and as the update rolls through Rings. If you are applying any OS Update related policies through MDM (MOBILE DEVICE MANAGEMENT) or GPO (Group Policy Objects), for the best chance of success, we highly recommend removing those policies before Managed Services begins the rollout of 20H2. Regardless, MTR Managed Services will attempt to manage and install this update, but the results may vary. Unless your organization manages OS Feature Updates through MDM, GPO or SCCM (Systems Center Configuration Manager) you can just sit back and wait until you see the update on the Updates page of the Managed Services portal, just like existing peripheral updates. 
 
 
-## managing to a good state 
+## Managing to a good state 
 Our main goal is to keep rooms running and available for your organization. Managed Services experts are constantly working on your behalf to curate, validate and deploy updates to your production rooms. In certain cases, it may mean that we prioritize room health over new features and releases to be validated before they are rolled out. 
 
 Most importantly, it means that you do not have to worry about investing time to learn the details of these updates and validate them yourself. If there are issues with any specific update and any specific room, we will work with you to troubleshoot and resolve them.  
@@ -100,20 +101,20 @@ Room devices onboarding to Managed Services usually have a change management his
 
 
 
-### Transitioning Devices: Basic Readiness Checks 
+### Transitioning Devices: Basic readiness checks 
 Most of the unexpected failures arise from changes in the base image with uncertain history of change management. 
 
 Following simple readiness checks are recommended:**  
 
 - **Base Image: The base image must be from** the specific OEM. If the device has been rebuilt in the past and shows unexpected failures or behaviors on common tasks, the base image must be restored. We can provide assistance but cannot remotely rebuild the room device, so you will need a local site technician.  
-- **Base OS, Edition:** The base OS and edition must match the requirements of Microsoft Teams Rooms devices. If this is not so, it must be corrected as part of onboarding. Microsoft Teams Rooms requires the Windows 10 IoT Enterprise or Windows 10 Enterprise SKUs under Semi-Annual Channel servicing options. Consult the official [MTR guidance](rooms-lifecycle-support#windows-10-release-support) for more information.
+- **Base OS, Edition:** The base OS and edition must match the requirements of Microsoft Teams Rooms devices. If this is not so, it must be corrected as part of onboarding. Microsoft Teams Rooms requires the Windows 10 IoT Enterprise or Windows 10 Enterprise SKUs under Semi-Annual Channel servicing options. Consult the official [MTR guidance](rooms-lifecycle-support.md#windows-10-release-support) for more information.
 
 In the following sections, we will go into more detail about how it all works.  
 
 
 
 
-## Readiness Checks   
+## Readiness checks   
 There are a few pre-requisites for receiving managed services updates: 
 
 |Software |Guidance |
@@ -133,13 +134,13 @@ There are two primary ways how updates are managed:**
 - **Automatically Managed**: You get updates installed in your room device based on Managed Services assessment. No intervention is required by you for the updates managed in our portfolio. 
 - **Ring Validated**: You setup a ring system to preview updates on specific devices so that you can monitor them without having to do the associated leg work. Ring setup provides an additional layer of due diligence before broad rollouts.  
 
-Automatically Managed 
+### Automatically Managed 
 
 If you choose to be automatically managed, then no action is needed for the updates on your part. However, you should review the current portfolio of updates supported by Managed Services. The portfolio is constantly getting new additions, and it is our priority to cover the most frequent and impactful updates to ensure your room stability. Check the current list (under the “Update Management” section of this doc) to plan any additional change management needed for your organization.  
 
 **Recommendation:** We recommend that you do not install updates that are covered by Managed Services on any managed device on your own. If you encounter any issues, please report an incident in the portal, and we will be in touch. 
 
-Ring Validation 
+### Ring Validation 
 
 When choosing to do ring validation, you should review the details below on how rings work in Managed 
 
@@ -164,7 +165,7 @@ Managed updates are scheduled for rooms based on the equipment in the room and i
 
 
 #### Microsoft Teams Room App Update Lifecycle Policy 
-The MTR engineering team’s support policy states that all support ends after the twelve (12) month lifecycle for a version has expired or if more than two updates have been released since then. Then, customers must update to a supported version. Please reference [Microsoft Teams Rooms app version support ](https://docs.microsoft.com/en-us/MicrosoftTeams/rooms/rooms-lifecycle-support)[- ](https://docs.microsoft.com/en-us/MicrosoftTeams/rooms/rooms-lifecycle-support)[Microsoft Teams | Microsoft ](https://docs.microsoft.com/en-us/MicrosoftTeams/rooms/rooms-lifecycle-support)[Docs](https://docs.microsoft.com/en-us/MicrosoftTeams/rooms/rooms-lifecycle-support)[ ](https://docs.microsoft.com/en-us/MicrosoftTeams/rooms/rooms-lifecycle-support)for detailed service description. 
+The MTR engineering team’s support policy states that all support ends after the twelve (12) month lifecycle for a version has expired or if more than two updates have been released since then. Then, customers must update to a supported version. Please reference [Microsoft Teams Rooms app version support - Microsoft Teams | Microsoft Docs ](rooms-lifecycle-support.md)for detailed service description. 
 
 To maintain a uniform standard across all our managed rooms and to allow us to efficiently identify trending issues, we will support and deploy the two latest Major or Minor Releases (N, N-1) of the MTR App software as per the Support and Subscription Services Terms and Conditions. We will automatically bring non-compliant rooms up to date, bypassing update rings as necessary. 
 

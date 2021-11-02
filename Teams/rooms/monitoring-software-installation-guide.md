@@ -38,19 +38,19 @@ To log in the device as administrator (local administrator):
 1. Ensure you Hang up any ongoing calls and return to the home screen. 
 1. In the Microsoft Teams Room user interface, click the **More** icon then click **Settings** icon where you'll be prompted for the local Administrator password on the device (the default password is ***sfb***). 
 
-![alt text](media/software-installation.001.jpg) 
+![alt text0](media/software-installation.001.jpg) 
 
 
 
-![alt text](media/software-installation.002.jpg) 
+![alt text1](media/software-installation.002.jpg) 
 
 1. Tap on **Settings** followed by tapping on the **Windows Settings** button to access windows as local administrator.  
 
-![alt text](media/software-installation.003.jpg) 
+![alt text2](media/software-installation.003.jpg) 
 
 1. From the list of users displayed in the Windows login screen, select the **Administrator** (or the respective local administrator of your device). 
 
-![alt text](media/software-installation.004.jpg) 
+![alt text3](media/software-installation.004.jpg) 
 
 **Note**: If the computer is *domain joined*, choose **Other User**, then use **.\admin** as the user name – or the user name of the local administrator configured in the device.  
 
@@ -114,7 +114,7 @@ mmrprodnoamiot.azure-devices.net<br>
 mmrprodnoamstor.blob.core.windows.net<br> 
 
 
-# Process  
+## Process  
 The Enrollment process involves a few steps:  
 
 1. On the left navigation bar of the Microsoft Teams Rooms – Managed Services portal [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/), expand **Settings** and select **General**.  
@@ -127,7 +127,7 @@ The Enrollment process involves a few steps:
 ![alt text](media/software-installation.005.jpg) 
 
 
-## Installation  
+### Installation  
 After downloading the installer from Microsoft (either from the portal or by using the AKA.ms URL provided above), unzip its contents and you will find the **ManagedRoomsInstaller.msi**. 
 
 There are two modes of installation – individual local machine install and mass deploy mode (usually via group policy of similar method). We recommend individual install for non-domain joined machines or for machines that you have no way of running MSI installers remotely.  
@@ -226,7 +226,7 @@ To unenroll the device, remove the monitoring agent from the MTR device:
 8. In the list of rooms provided, ***Click*** in the room you want to unenroll and click **Unenroll** button to stop getting incident alerts, investigation tickets, or to report an incident for the room. 
 
 
-# Troubleshooting Table  
+## Troubleshooting Table  
 **Note**: *All Microsoft Teams Rooms – Managed Services monitoring errors are logged on a specific Event Log file named **Microsoft Managed Rooms**.*  
 ### ***Application runtime log file location*** =  
 C:\Windows\ServiceProfiles\LocalService\AppData\Local\ServicePortalAgent\ app-x.x.x\ServicePortalAgent\ServicePortal\_Verbose\_LogFile.log (Note: x.x.x = app version number)  

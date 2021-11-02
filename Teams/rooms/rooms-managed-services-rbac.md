@@ -92,7 +92,7 @@ The following procedure is supplemental to [Microsoft Teams Rooms Managed Servic
 1. Navigate to the settings panel. 
 1. You will see a new component for adding MMR Administrator role for MMR users for your tenant.  
 
-![alt text](media/premium-rbac.003.jpg) 
+![alt text1](media/premium-rbac.003.jpg) 
 
 
 
@@ -100,7 +100,7 @@ The following procedure is supplemental to [Microsoft Teams Rooms Managed Servic
 
 
 
-![alt text](media/premium-rbac.004.jpg) 
+![alt text2](media/premium-rbac.004.jpg) 
 
 
 
@@ -108,7 +108,7 @@ The following procedure is supplemental to [Microsoft Teams Rooms Managed Servic
 
 5. You can click on "Add Member" link the experience to add the email address of the users you want to add to this role. You must do this one user at a time.  
 
-![alt text](media/premium-rbac.005.jpg) 
+![alt text3](media/premium-rbac.005.jpg) 
 
 
 
