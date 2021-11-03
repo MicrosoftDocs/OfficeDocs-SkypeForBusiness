@@ -1,7 +1,7 @@
 ---
 title: Assignments for Teams
-author: cichur
-ms.author: v-cichur
+author: danieasmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
