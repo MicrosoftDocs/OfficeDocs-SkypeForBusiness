@@ -78,7 +78,7 @@ Next, to set up the integration, your Microsoft 365 admin adds a Fast Health Int
 
 - You can set up the integration for test and production environments. For initial set up, we encourage you to configure the connector from a test environment before moving to production.
 
-    :::image type="content" source=":::image type="content" source="media/ehr-admin-cerner-configuration.png" alt-text="Screenshot of the Configuration information page of the Teams EHR connector configuration portal.":::
+    :::image type="content" source="media/ehr-admin-cerner-configuration.png" alt-text="Screenshot of the Configuration information page of the Teams EHR connector configuration portal.":::
 
 After the FHIR base URL is validated and the environment is selected, choose **Done**. Then, add more FHIR base URLs for other environments, as needed.
 
