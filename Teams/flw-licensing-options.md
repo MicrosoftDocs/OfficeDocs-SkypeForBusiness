@@ -21,7 +21,7 @@ appliesto:
 Organizations in many industries, such as retail, manufacturing, hospitality, and more, have a mix of user types:
 
 - Information workers, who probably have desktop or laptop computers and likely work more on documents than directly with customers, such as headquarters staff.
-- Frontline workers, who often work on tablets or phones and work either directly with customers, such as factory workers, retail associates, healthcare clinicians and nursing staff, and so on.
+- Frontline workers, who often work on tablets or phones and work either directly with customers or the general public providing services, support, and selling products, or are employees directly involved in the manufacturing and distribution of products and services. For example: factory workers, retail associates, healthcare clinicians and nursing staff, and so on.
 
 Microsoft 365 and Microsoft Teams have features and a licensing model to support both types of users for your organization. [Microsoft 365 for Frontline Workers](https://www.microsoft.com/microsoft-365/enterprise/frontline) is optimized for a frequently mobile workforce that primarily interacts with customers, but also needs to stay connected to the rest of your organization.
 
