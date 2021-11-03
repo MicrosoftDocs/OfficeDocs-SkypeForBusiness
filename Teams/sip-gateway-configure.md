@@ -25,7 +25,7 @@ appliesto:
 
 # Configure SIP Gateway
 
-
+DRAFT
 
 
 
