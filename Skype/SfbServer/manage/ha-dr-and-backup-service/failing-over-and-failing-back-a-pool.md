@@ -2,7 +2,7 @@
 title: 'Failing over and failing back a pool'
 ms.reviewer: 
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: "Add Edge Machine NAT IP 2010"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018

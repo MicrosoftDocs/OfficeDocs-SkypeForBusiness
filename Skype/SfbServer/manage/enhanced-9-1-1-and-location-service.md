@@ -1,7 +1,7 @@
 ---
 title: "Manage enhanced 9-1-1 and the Location service"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro

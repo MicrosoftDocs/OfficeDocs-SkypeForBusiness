@@ -1,7 +1,7 @@
 ---
 title: Apps update experience in Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: v-tbasra
 ms.topic: article
