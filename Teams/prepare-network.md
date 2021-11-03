@@ -132,6 +132,10 @@ For an in-depth discussion of network optimization, including guidance for ident
 </ul>
 <p>Each wireless vendor has its own recommendations for deploying its wireless solution. Consult your WiFi vendor for specific guidance.</p></td>
 </tr>
+<tr class="odd">
+<td>Allow WebSocket protocol</td>
+<td><p>Teams utilizes long-living bidirectional WebSocket connections to efficiently deliver chat updates, call notifications and signaling, presence status changes and other real-time notifications from cloud services to the client. If establishing WebSocket connections is not possible, a traditional HTTP long-polling transport is used as a fallback, resulting in increased bandwidth and latency. Enabling WebSocket traffic is recommended for optimal operation.</p></td>
+</tr>
 </tbody>
 </table>
 
