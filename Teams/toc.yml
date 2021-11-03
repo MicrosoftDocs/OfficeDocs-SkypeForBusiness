@@ -1570,6 +1570,8 @@ items:
     - name: Teams for Frontline Workers
       items: 
         - name: Get started with Teams for frontline workers
+          href: flw-landing-page-2.yml
+        - name: Get started with Teams for frontline workers
           href: flw-landing-page.md
         - name: Licensing options for frontline workers
           href: flw-licensing-options.md
