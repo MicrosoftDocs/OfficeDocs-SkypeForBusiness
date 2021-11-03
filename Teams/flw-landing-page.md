@@ -25,7 +25,7 @@ Frontline workers are employees whose primary function is to work directly with 
 In this section:
 
 - [Use the Frontline Worker onboarding wizard to get your frontline workforce up and running](flw-onboarding-wizard.md)
-- [How to provision Teams at scale for Frontline Workers](https://docs.microsoft.com/en-us/microsoftteams/flw-scripted-deployment)
+- [How to provision Teams at scale for Frontline Workers](flw-scripted-deployment.md)
 - [Policy packages for frontline workers and managers](/manage-policy-packages.md)
 - Apps for frontline workers:
   - [Shifts](/expand-teams-across-your-org/shifts-for-teams-landing-page.md)
