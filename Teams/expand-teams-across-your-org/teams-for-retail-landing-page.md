@@ -34,7 +34,7 @@ Retail environments, with their rotating schedules and on-the-go staff, have ver
 
 Microsoft 365 and Microsoft Teams offer several capabilities that can help retail organizations with their daily operations and digital transformation. We recommend the following scenarios for retail organizations:
 
-[![In-store communication and collaboration.](../media/retail-scenarios-in-store.png)](#in-store-communication-and-collaboration) [![Cross-store communication and collaboration.](../media/retail-scenarios-cross-store.png)](#cross-store-communication-and-collaboration) [![Virtual fittings and consultations.](../media/retail-scenarios-virtual-visits.png)](#customer-virtual-visits) [![Curbside pickup.](../media/retail-scenarios-curbside-pickup.png)](#curbside-pickup) [![Corporate communications.](../media/retail-scenarios-corp-comms.png)](#corporate-communications) [![Onboarding new employees.](../media/retail-scenarios-onboarding.png)](#onboarding-new-employees)
+[![In-store communication and collaboration.](../media/retail-scenarios-in-store.png)](#in-store-communication-and-collaboration) [![Cross-store communication and collaboration.](../media/retail-scenarios-cross-store.png)](#cross-store-communication-and-collaboration) [![Virtual fittings and consultations.](../media/retail-scenarios-virtual-visits.png)](#virtual-fittings-and-consultations) [![Curbside pickup.](../media/retail-scenarios-curbside-pickup.png)](#curbside-pickup) [![Corporate communications.](../media/retail-scenarios-corp-comms.png)](#corporate-communications) [![Onboarding new employees.](../media/retail-scenarios-onboarding.png)](#onboarding-new-employees)
 
 ### In-store communication and collaboration
 
@@ -146,7 +146,7 @@ For retail environments, the following apps and services can help you transform 
 | Viva Learning | Provide training when needed, right in the flow of their work. | [Manage Viva Learning](/microsoft-365/learning/) | [Use Viva Learning (Preview)](https://support.microsoft.com/office/viva-learning-preview-01bfed12-c327-41e0-a68f-7fa527dcc98a) |
 | Bookings | Enable virtual fittings and consultations. | [Virtual visits with Microsoft Teams and the Bookings app](bookings-virtual-visits.md) | [Use Bookings](https://support.microsoft.com/en-us/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) |
 | Yammer | Connect your organization and allow communication across departments and regions with Yammer. | [Manage Yammer](/yammer) | [Use Yammer](https://support.microsoft.com/office/what-is-yammer-1b0f3b3e-89ee-4b66-aac5-30def12f287c) |
-| Power Apps and the Power Platform | Integrate business processes and enable quick updates to data, such as store inventory, sales numbers, incident reports, and more. | [Teams integration with Microsoft Power Platform](../teams-power-platfom-integration.md) and [Manage Microsoft Power Platform apps in the Microsoft Teams admin center](../manage-power-platform-apps) | -  |
+| Power Apps and the Power Platform | Integrate business processes and enable quick updates to data, such as store inventory, sales numbers, incident reports, and more. | [Teams integration with Microsoft Power Platform](../teams-power-platfom-integration.md) and [Manage Microsoft Power Platform apps in the Microsoft Teams admin center](../manage-power-platform-apps.md) | -  |
 
 ### Use templates to set up teams
 
