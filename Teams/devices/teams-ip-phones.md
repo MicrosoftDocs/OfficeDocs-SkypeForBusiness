@@ -27,11 +27,7 @@ description: Learn which desk and conference phones are certified for Microsoft 
 
 The Microsoft Teams certification programs ensure that customers who use certified desk phones and conference phones will experience high-quality audio calls and meetings experience.
 
-Microsoft Teams Certification programs ensure a higher-quality bar with higher performance targets and audio quality metrics. Partners are actively working to meet this higher bar and are qualifying devices against certification requirements. Some of our partners are also working to provide support for the Skype for Business service on the same hardware as the Teams phones. Benefits from Microsoft Teams certified devices include:
-
-- Native Teams experience with hardware button integration and LED notifications
-- Calendar integration and one-touch meeting join
-- Deployed and managed via Teams Admin Center with Intune integration
+Microsoft Teams Certification programs ensure a higher-quality bar with higher performance targets and audio quality metrics. Partners are actively working to meet this higher bar and are qualifying devices against certification requirements. Some of our partners are also working to provide support for the Skype for Business service on the same hardware as the Teams phones. 
 
 ## Currently certified Teams phones
 
