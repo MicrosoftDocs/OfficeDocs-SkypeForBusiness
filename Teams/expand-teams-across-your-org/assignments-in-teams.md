@@ -123,7 +123,7 @@ IT admins can use the Content Search tool to search for student files (Student W
 
 #### Files associated with the teacher:
 
-IT admins can use the Content Search tool to search for teacher files (Student Work, Class Files or other 1st-party integration files) that are related to assignments as well as files distributed to students by the teachers within a class on assignments. For example, an admin could search all SharePoint sites in the organization and use the teacher's name and class or assignment name in the search query to find data relevant to a DSR.
+IT admins can use the Content Search tool to search for teacher files (Student Work, Class Files, or other 1st-party integration files) that are related to assignments as well as files distributed to students by the teachers within a class on assignments. For example, an admin could search all SharePoint sites in the organization and use the teacher's name and class or assignment name in the search query to find data relevant to a DSR.
 
 ### Assignments data outside of SharePoint document libraries
 
@@ -134,7 +134,7 @@ Some data related to Assignments isn’t stored in the class team SharePoint sit
 - Assignment details like Due Date, etc...
 - First-party integration data like Reading Progress passages or student pronunciation data
 
-For this type of data, an IT admin or data owner, such as a teacher, may have to go into the Assignment in the class team to find data relevant to a DSR. The admin can add themselves as an owner to the class and view all the assignments for that class team. 
+For this type of data, an IT admin or data owner, such as a teacher, may have to go into the Assignment in the class team to find data relevant to a DSR. The admin can add themselves as an owner to the class and view all the assignments for that class team.
 
 >[!NOTE]
 >If a student is no longer part of the class, their data might still be present in the class as "no longer enrolled." The student will have to provide the tenant admin the list of such classes that they were ever a part of.
@@ -143,7 +143,9 @@ For this type of data, an IT admin or data owner, such as a teacher, may have to
 
 #### For a student:
 
-To bulk export a single student's data, before removing the student from the classes they are part of, [run the script](/microsoft-365/education/deploy/configure-assignments-for-teams) and provide the userId. If the student has been removed from the site, either the admin can add the student back to the class before running the script, or the admin can provide the userId and the classId that the student was ever a part of. The data about the student submissions will be exported.
+To bulk export a single student's data, before removing the student from the classes they're part of, [run the script](/microsoft-365/education/deploy/configure-assignments-for-teams) and provide the userId. If the student has been removed from the site, either the admin can add the student back to the class before running the script, or the admin can provide the userId and the classId that the student was ever a part of.
+
+The data about the student submissions will be exported.
 
 #### For a teacher:
 
@@ -153,7 +155,9 @@ Bulk Export assignment data works the same way for a student, but all submission
 
 #### For a student:
 
-To bulk delete a single student's data, before removing the student from the classes they are part of, [run the script](/microsoft-365/education/deploy/configure-assignments-for-teams) and provide the userId. If the student has been removed from the site, either the admin can add the student back to the class before running the script, or the admin can provide the userId and the classId that the student was ever a part of. Providing a ClassId will allow the admin to only delete information about the student from a specific class.
+To bulk delete a single student's data, before removing the student from the classes they're part of, [run the script](/microsoft-365/education/deploy/configure-assignments-for-teams) and provide the userId. If the student has been removed from the site, either the admin can add the student back to the class before running the script, or the admin can provide the userId and the classId that the student was ever a part of.
+
+Providing a ClassId will allow the admin to only delete information about the student from a specific class.
 
 #### For a teacher:
 
