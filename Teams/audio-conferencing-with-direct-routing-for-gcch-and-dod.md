@@ -1,7 +1,7 @@
 ---
 title: "Audio Conferencing with Direct Routing, GCCH and DoD"
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article

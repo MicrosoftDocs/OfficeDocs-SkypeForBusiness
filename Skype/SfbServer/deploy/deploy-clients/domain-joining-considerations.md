@@ -1,6 +1,6 @@
 ---
 title: "Skype Room System domain joining considerations"
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro

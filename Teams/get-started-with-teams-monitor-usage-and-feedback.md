@@ -1,7 +1,7 @@
 ---
 title: Monitor usage and feedback in Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 03/20/2019
 ms.topic: article

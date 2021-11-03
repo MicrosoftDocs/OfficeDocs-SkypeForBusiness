@@ -1,7 +1,7 @@
 ---
 title: "Availability in Saint Kitts and Nevis"
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference

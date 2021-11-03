@@ -1,7 +1,7 @@
 ---
 title: "Assign a server-to-server authentication certificate to Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro

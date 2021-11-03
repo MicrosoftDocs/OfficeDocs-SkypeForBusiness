@@ -1,7 +1,7 @@
 ---
 title: "Plan for security in Skype For Business Server"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro

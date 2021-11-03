@@ -1,7 +1,7 @@
 ---
 title: "MediaList table"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/12/2016

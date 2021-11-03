@@ -1,7 +1,7 @@
 ---
 title: "Control Panel - updated User Search"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 5/21/2015

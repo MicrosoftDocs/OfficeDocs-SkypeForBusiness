@@ -1,7 +1,7 @@
 ---
 title: Upgrade checklist| Skype Business to Teams Upgrade | Basic Steps
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
