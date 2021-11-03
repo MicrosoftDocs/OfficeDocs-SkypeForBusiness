@@ -90,7 +90,7 @@ Complete this step if your organization wants Microsoft to manage SMS notificati
 
 To enable SMS notifications, your Microsoft 365 admin does the following:
 
-1. Select both consent checkboxes to:
+1. On the SMS notifications page, select both consent checkboxes to:
 
     - Allow Microsoft to send SMS notifications to patients on behalf of your organization.
     - Acknowledge that you'll ensure attendees have consented to send and receive SMS messages.
