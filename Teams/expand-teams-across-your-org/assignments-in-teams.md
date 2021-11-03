@@ -131,7 +131,7 @@ Some data related to Assignments isn’t stored in the class team SharePoint sit
 
 - Student grades and feedback from the teacher
 - The list of documents submitted for an assignment by each student
-- Assignment details like Due Date, etc...
+- Assignment details like Due Date, etc.
 - First-party integration data like Reading Progress passages or student pronunciation data
 
 For this type of data, an IT admin or data owner, such as a teacher, may have to go into the Assignment in the class team to find data relevant to a DSR. The admin can add themselves as an owner to the class and view all the assignments for that class team.
