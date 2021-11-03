@@ -1,7 +1,7 @@
 ---
 title: "Web Service Security Settings Create New or Modify Existing"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
