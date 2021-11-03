@@ -1,7 +1,7 @@
 ### YamlMime:Landing
 
 title: Get started with Teams for frontline workers # < 60 chars
-summary: Frontline workers work directly with customers or the general public providing services, support, and selling products, or are directly involved in the manufacturing and distribution of products and services. Microsoft 365 for Frontline Workers is optimized for a mobile workforce that primarily interacts with customers, but also needs to stay connected to the rest of your organization. # < 160 chars
+summary: Frontline workers work directly with customers or the general public providing services, support, and selling products, or are directly involved in the manufacturing and distribution of products and services. Microsoft 365 for frontline workers is optimized for a mobile workforce that primarily interacts with customers, but also needs to stay connected to the rest of your organization. # < 160 chars
 
 metadata:
   title: Get started with Teams for frontline workers # Required; page title displayed in search results. Include the brand. < 60 chars.
@@ -23,18 +23,14 @@ landingContent:
 # Cards and links should be based on top customer tasks or top subjects
 # Start card title with a verb
   # Card (optional)
-  - title: About Teams for Frontline Workers
+  - title: Learn about and set up Teams for frontline workers
     linkLists:
       - linkListType: overview
         links:
-          - text: Microsoft 365 for Frontline Workers
+          - text: Information about Microsoft 365 for frontline workers
             url: https://www.microsoft.com/microsoft-365/enterprise/frontline
           - text: Licensing options for frontline workers
             url: flw-licensing-options.md
-
-  # Card (optional)
-  - title: Get started
-    linkLists:
       - linkListType: deploy
         links:
           - text: Use the Frontline Worker onboarding wizard to get your frontline workforce up and running
