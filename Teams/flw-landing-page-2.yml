@@ -23,7 +23,7 @@ landingContent:
 # Cards and links should be based on top customer tasks or top subjects
 # Start card title with a verb
   # Card (optional)
-  - title: Learn about and set up Teams for frontline workers
+  - title: Learn about Teams for frontline workers
     linkLists:
       - linkListType: overview
         links:
@@ -31,6 +31,10 @@ landingContent:
             url: https://www.microsoft.com/microsoft-365/enterprise/frontline
           - text: Licensing options for frontline workers
             url: flw-licensing-options.md
+
+  # Card (optional)
+  - title: Set up Teams for frontline workers
+    linkLists:
       - linkListType: deploy
         links:
           - text: Use the Frontline Worker onboarding wizard to get your frontline workforce up and running
