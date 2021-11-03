@@ -1,7 +1,7 @@
 ---
 title: Manage custom app policies and settings
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: akino
 ms.topic: article

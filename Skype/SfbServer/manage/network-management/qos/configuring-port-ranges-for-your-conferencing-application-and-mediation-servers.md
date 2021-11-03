@@ -5,7 +5,7 @@ ms:assetid: 4d6eaa5d-0127-453f-be6a-e55384772d83
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204872(v=OCS.15)
 ms:contentKeyID: 48184074
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro

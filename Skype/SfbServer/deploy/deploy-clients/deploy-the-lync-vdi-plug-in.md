@@ -1,6 +1,6 @@
 ---
 title: "Deploy the Lync VDI plug-in with Skype for Business Server"
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: krishra

@@ -1,6 +1,6 @@
 ---
 title: "Plan for clients and devices"
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars

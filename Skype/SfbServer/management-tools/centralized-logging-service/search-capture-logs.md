@@ -1,7 +1,7 @@
 ---
 title: "Search capture logs created by the Centralized Logging Service in Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 12/20/2018

@@ -21,7 +21,7 @@ ms.custom:
 description: "Lync partner qualification requirements."
 ---
 
-# Solutions qualified with Lync Online Dedicated
+# Solutions that are qualified with Lync Online Dedicated
 
 Customers deployed with Lync Online Dedicated have Lync running in data centers hosted and managed by Microsoft with infrastructure provisioned specifically for their deployment.
 

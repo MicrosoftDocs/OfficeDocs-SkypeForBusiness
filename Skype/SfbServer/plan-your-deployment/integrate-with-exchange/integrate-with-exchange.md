@@ -1,7 +1,7 @@
 ---
 title: "Plan to integrate Skype for Business and Exchange"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro

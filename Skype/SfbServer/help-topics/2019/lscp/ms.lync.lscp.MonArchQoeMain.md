@@ -1,7 +1,7 @@
 ---
 title: "Quality of Experience (QoE) Data"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro

@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Teams: Resources for Education admins"
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: reference
 ms.service: msteams

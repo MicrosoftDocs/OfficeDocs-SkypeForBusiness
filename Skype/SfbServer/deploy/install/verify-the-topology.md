@@ -1,7 +1,7 @@
 ---
 title: "Verify the topology in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/14/2018
