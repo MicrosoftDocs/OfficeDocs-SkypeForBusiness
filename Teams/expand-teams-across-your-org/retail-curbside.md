@@ -2,8 +2,8 @@
 title: Retail curbside delivery scenario
 description: Learn how your retail teams can manage curbside delivery tasks with apps and communication in Microsoft Teams.
 ms.topic: conceptual
-author: matteva
-ms.author: matteva
+author: samanro
+ms.author: samanro
 audience: admin
 manager: pamgreen
 f1.keywords:
@@ -16,6 +16,8 @@ search.appverid: MET150
 appliesto: 
   - Microsoft Teams
 ---
+
+# Retail curbside delivery scenario
 
 You can use Teams to help your store employees communicate and deliver products directly to customers when they come to pick them up.
 
