@@ -1,7 +1,7 @@
 ---
 title: "Translation Rule Type a Regular Expression"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro

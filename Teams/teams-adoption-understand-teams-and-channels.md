@@ -1,7 +1,7 @@
 ---
 title: Understand teams and channels in Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin

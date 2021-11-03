@@ -1,7 +1,7 @@
 ---
 title: "Back End Server high availability in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro

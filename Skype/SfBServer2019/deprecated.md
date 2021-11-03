@@ -1,7 +1,7 @@
 ---
 title: "What's deprecated from Skype for Business Server 2019"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro

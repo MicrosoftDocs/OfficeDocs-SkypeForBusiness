@@ -1,7 +1,7 @@
 ---
 title: "test"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 1/1/2010
 manager: serdars
