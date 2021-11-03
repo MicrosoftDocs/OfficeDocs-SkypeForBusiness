@@ -200,7 +200,7 @@ As an admin, you can use app setup policies to do the following:
 
 Apps are pinned to the app bar. This is the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients (iOS and Android).
 
-|Teams desktop client  |         |Teams mobile client  |
+|Teams desktop client  | &nbsp; |Teams mobile client  |
 |---------|---------|---------|
 |![Screenshot of the Teams desktop client with apps pinned to the app bar.](media/flw-teams-desktop-client.png)         |         |![Screenshot of the Teams mobile client with apps pinned to the bottom bar.](media/flw-teams-mobile-client.png) |
 
@@ -384,7 +384,7 @@ Minimal error handling has been implemented in these sample scripts. There are t
 
 ## Further reading
 
-- [New Team Channel (PowerShell)](/powershell/module/teams/new-teamchannel?view=teams-ps)
-- [New Teams Messaging Policy (PowerShell)](/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)
-- [Assign policies to your users in Microsoft Teams](assign-policies.md#install-and-connect-to-the-microsoft-teams-powershell-module)
+- [New Team Channel (PowerShell)](/powershell/module/teams/new-teamchannel)
+- [New Teams Messaging Policy (PowerShell)](/powershell/module/skype/new-csteamsmessagingpolicy)
+- [Assign policies to your users in Microsoft Teams](policy-assignment-overview.md)
 - [Assign licenses and user accounts with Office 365 PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)

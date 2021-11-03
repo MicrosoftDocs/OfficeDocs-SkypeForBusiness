@@ -1,7 +1,7 @@
 ---
 title: "Manage services in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -72,7 +72,7 @@ RoleName                                  Status
 {MediationServer}                         Running
 ```
 
-For details, see [Get-CsWindowsService](/powershell/module/skype/Get-CsWindowsService).
+For details, see [Get-CsWindowsService](/powershell/module/skype/get-cswindowsservice).
 
 ## Start or stop Skype for Business services
 

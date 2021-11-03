@@ -5,7 +5,7 @@ author: cichur
 ms.date: 09/21/2020
 ms.topic: article
 ms.service: msteams
-ms.author: v-cichur
+ms.author: v-mahoffman
 audience: admin
 manager: serdars
 ---
@@ -28,14 +28,14 @@ manager: serdars
 |[Reimagining work with the Microsoft 365 Platform](https://aka.ms/IG20-DB146)|The Microsoft 365 platform helps organizations tailor every facet of their environment to help people work and collaborate better. Discover how every app can go further by adding insights and relevant data from Microsoft Graph. Learn how every app can integrate with the flow of work across apps, including Microsoft Teams. See how apps can deliver unique, engaging experiences across devices. Take advantage of key building blocks that can speed app creation.|Yina Arenas, Mike Ammerlaan|
 |[Simplify work with low-code solutions for Microsoft Teams & Microsoft 365](https://aka.ms/IG20-DB141) |Teams and Microsoft 365 are platforms for everyone, even if you don't have any professional development experience.  Come see how low-code innovations for Teams and Microsoft 365 are making it easier for teams to build and use custom apps, bots, automation, and data to address challenging business processes.|Karan Nigam, Weston Lander|
 |[Managing Security and Compliance in Microsoft Teams](https://aka.ms/IG20-OD268) | Enabling secure, remote work is important. In this session, learn about the latest Teams features and functionalities across security and compliance. We'll cover how to use the intelligence and strength of Microsoft 365 within Teams to keep your organization secure and compliant. Topics include keeping your information protected against data leaks, enabling safe and inclusive meetings, and maintaining a compliant organization across world-wide regulations and business requirements.|John Gruszczyk|
-||                                                     |                                                                                     |
+
 
 ## Pre-recorded sessions
 
 ### Meetings, Calling, and Devices
 
 | Title | Abstract            | Level| Speakers  |
-|---|----------|---|---|---|
+|---|----------|---|---|
 |[Innovation in Teams meetings and devices with intelligence](https://aka.ms/PR104) |We're continuously innovating and reimagining meetings. Learn how we're bringing more intelligence in meetings and our latest innovation in devices that bring intelligence to life.  |200|Shalendra Chhabra|
 |[Advanced calling capabilities](https://aka.ms/IG20-OD265)|Go deeper with Calling as we explore the new calling experience. Receive further information on Collaborative Calling, e911, Location-Based Routing and other features. Learn how Calling is ready for your advanced scenarios no matter the size of your company. |200|Alan Xie, Roy Kuntz|
 |[Microsoft Teams devices for shared spaces](https://aka.ms/IG20-OD261) |Microsoft Teams devices are designed to help people maximize the power of Teams and bridge the gap between remote and shared workspaces. With Teams meetings features, customer-centric room experiences, and industry-leading hardware, users benefit from low-friction, inclusive, and interactive meetings. Meeting features are available whether users join remotely or in the meeting room. Learn how shared space devices like Microsoft Teams Rooms, collaboration bars and Surface Hub can help your teams stay connected and collaborative across the hybrid workplace.|200|Greg Baribault, Kendra Baker, Sandhya Rao|
@@ -46,12 +46,12 @@ manager: serdars
 |[Microsoft Teams Calling and Meetings as a platform](https://aka.ms/PR111) |Learn about Teams Calling and Meetings platform capabilities with updates to Microsoft Graph Cloud Communications APIs, Contact Center, and Compliance Recording. We'll share coming news in other platform experiences. |200|Srividhya Chandrasekaran, Mansoor Malik|
 |[Leverage Teams to deliver engaging virtual events for your employees, customers, and communities](https://aka.ms/PR112) |Join this session to learn how Microsoft Teams can seamlessly scale to help deliver events of all types. Imagine company townhalls, training webinars, and online conferences. We'll also share vision and roadmap for features to help scale and customize your virtual meetings and events. |200|Christina Torok, Ashwin Appiah|
 |[Best practices for delivering more efficient and impactful meetings with Microsoft Teams](https://aka.ms/IG20-OD267)|Teams Meetings are evolving and integrating deeply in the continuum of collaboration. We make meetings more productive, secure, and inclusive. Innovation in Teams will help you better prepare, execute, and streamline meetings.  In this session, we'll showcase hints to help you get the most of your meetings and stay in the flow of work.|200|Shiraz Cupola|
-|||||
+
 
 ### Deployment, Management, and Security
 
 | Title | Abstract            | Level| Speakers |
-|---|----------|---|---|---|
+|---|----------|---|---|
 |[Driving Adoption with Virtual Events: Best practices for organizers and producers](https://aka.ms/PR101)|This real world lessons session will review our Virtual Event Playbook for event organizers and IT professionals.  Learn from Karuana Gatimu, technical producer of key flagship events for Microsoft Teams Engineering during the initial stages of the pandemic. Hear guidance gathered from the Microsoft transition to virtual events. You can use Teams Meetings and Live Events to deliver compelling events that keep your organization connected.  |300|Karuana Gatimu, Ashwin Appiah|
 |[Deep dive on governance for Office 365 Groups and Microsoft Teams](https://aka.ms/PR102)|View this hands-on demonstration of governance capabilities and tools that will manage your end-users experience of Microsoft Teams. You'll feel confident about the security and compliance of your information. Includes configuration of Azure Active Director add-on capabilities. |300|Karuana Gatimu|
 |[Driving Industry Adoption - Special scenarios and features for Frontline, non-profit, healthcare, and more.](https://aka.ms/PR121)|This scenario-driven session reviews features, both existing and new, in the context of the IT professionals who must deliver on them.  The session includes end-user and ITPro templates and mobile features|200|Karuana Gatimu, Kathy Minnis|
@@ -61,21 +61,21 @@ manager: serdars
 |[Managing Security and Compliance in Microsoft Teams](https://aka.ms/OD268)|Delivering a secure collaboration experience is essential. Review the security and compliance features for Microsoft Teams from an ITPro perspective. Policy management, content management, retention procedures, and communication compliances will be covered. See the full compliment of capabilities for secure, compliant collaboration!|300|John Gruszczyk|
 |[Microsoft Teams Device Management Essentials](https://aka.ms/PR144) |The Windows AI Platform provides ML professionals with the OS infrastructure they need in order to successfully build and deploy ML experiences on Windows. Windows ML, the platform's inferencing API, is revolutionizing how Windows developers deploy and execute ML models. Windows ML has an easy-to-use interface that simply works on any Windows device. Use the newly available Windows ML redistributable package and leverage DirectML in your ONNX Runtime usage on Windows. Get the info you need to set up the preview enabling GPU-based ML training workloads inside the Windows Subsystem for Linux.|200|Kyle Spiess, Sid Roy|
 |[Create devops workspaces in Microsoft Teams](https://aka.ms/PR128)|See how you can use Microsoft Teams and apps to build a hub for your DevOps teams.|200|Sid Uppal|
-|||||
+
 
 ### Collaboration
 
-| Title | Abstract            | Level| Speakers|
-|---|----------|---|---|---|
+| Title | Abstract | Level| Speakers|
+|---|----------|---|---|
 |[Microsoft Teams Mobile App: What's new & What's Next](https://aka.ms/OD255)|Check out what's new and what's coming next across the Microsoft Teams mobile clients.|100|Marissa Salazar|
 |[Driving wellbeing and inclusion with Microsoft Teams](https://aka.ms/PR140)|People need to feel included. People need to be encouraged to be present during their personal time. People need to be empowered with the right tools to set them up for success in their role. Learn how Teams empowers inclusive teamwork by ensuring everyone collaborates in the way that works best for them and balance work and life. |100|Chris Bryan, Ali Oberg|
 |[Collaborate inside and outside your organization with chat and channels in Microsoft Teams](https://aka.ms/PR142) |Instant messaging remains one of the most efficient means of communication. Without appropriate planning, instant messaging can limit who can participate. Learn how to apply chat and channel conversations to foster more open collaboration with people inside and outside your organization. We’ll discuss the differences, best practices, and upcoming features in this area.|200|Karuana Gatimu, Luis Escobar Reyes, Somak Bhattacharyya|
-||||||
+
 
 ### Platform
 
-| Title | Abstract            | Level| Speakers |
-|---|----------|---|---|---|
+| Title | Abstract    | Level| Speakers |
+|---|----------|---|---|
 |[Digitize and transform business processes with no-code building blocks and app templates in Microsoft Teams](https://aka.ms/PR130)|Organizations are transforming approvals, task management, and crowd sourcing the organization for top ideas.  Use embedded building blocks and production-ready app templates to digitize and streamline key processes. In this session, we’ll share how customers are using these solutions without any custom development required. See how some recent innovations can help simplify these processes.|200|Wes Lander, Aditya Challapally, Christopher Bryan|
 |[Build richer meetings experiences with Microsoft Teams apps using new meetings extensibility points](https://aka.ms/OD250) |Learn how developers can use new meetings extensibility points to integrate their Teams apps across the meetings surfaces. Apps are used throughout the meetings lifecycle (pre, during, post). Apps provide users a richer collaboration experience within meetings.|300|Rajesh Rangarajan, Isabella Lubin|
 |[Navigating the Teams app lifecycle](https://aka.ms/PR132) |Understand the tools you need to securely and efficiently manage the Teams app lifecycle. The lifecycle starts with developers and IT admins and continues to end users. We'll cover Teams app development, validation, submission, configuration, permissions, and deployment that will help you navigate app management and adoption.|300|Joey Glocke, Vaibhav Agarwal|
@@ -84,25 +84,25 @@ manager: serdars
 |[Elevate user experiences with Teams and Adaptive Card](https://aka.ms/PR135)|Teams platform with Adaptive Cards enables building beautifully integrated and actionable user experiences in Teams. In this session, we'll cover how developers can leverage new capabilities to build contextual and compliant experiences that elevate collaboration in Teams.|300|Suryamanohar Mallela, Shubham Chauhan|
 |[Tips and Tricks: Best practices and common challenges when building Microsoft Teams apps](https://aka.ms/PR136) |We cover some common challenges developers run into as they build Teams apps. Developers will leave this session with tips and insights they can use as they continue their Teams app development journey.|400|Adrian Solis, Erin Bailie|
 |[Building friction-free apps & enabling seamless adoption using authorization and authentication capabilities and Microsoft Graph](https://aka.ms/PR137)|Develop apps with powerful capabilities like Single Sign-On (SSO), Resource-Specific Consent (RSC), and granular permissions. IT Admins can learn how to leverage Graph APIs to automate app lifecycle/management.|400|Nick Kramer|
-||||||
+
 
 ### Industry
 
 | Title | Abstract            | Level| Speakers |
-|---|----------|---|---|---|
+|---|----------|---|---|
 |[Deployment and governance of Teams for Education](https://aka.ms/PR103) |Understand  holistic governance for your educational institution. This session covers chat policies, meeting policies, app policies, assignments through groups, how to configure student safety, and methods for automating team class creation. |300|Jethro Seghers|
 |[Virtual health and collaboration with Microsoft Teams in healthcare](https://aka.ms/PR116)|Healthcare organizations can use Microsoft Teams to empower health teams. This session will focus on virtual health and health team collaboration. Dive deep into areas like the latest announcements for Teams in healthcare, virtual visits, customer stories, and more. You'll also learn how to use Microsoft Teams as a platform for addressing many current healthcare scenarios.|200|Evan Westenberger, Tom McGuinness, Kristina Behr, Daniel Canning|
 |[Tailor Microsoft Teams for your Industry](https://aka.ms/PR117)|We'll share details about how to bootstrap your collaboration experiences with Templates. Use our Industry Gallery. Customize those templates to your organization needs. Deploy templates to various parts of our organization. Manage through policy packages.|200|Prem Kuchi, Aaron Glick|
 |[Collaboration and Communication using Microsoft Teams in Government](https://aka.ms/PR118) |State, local and federal agencies use Microsoft Teams to collaborate and improve response times and citizen engagement. Learn to maximize your use of existing features. Discover what's coming next and our future vision for Microsoft Teams in government. |200|Rima Reyes, Karuana Gatimu, Roxy Ndebumadu, Sarah Gilbert|
 |[Integrate with Microsoft Teams for Education App Platform](https://aka.ms/PR120)|Teams is an open platform for educational institutions to integrate apps and create custom workflows. We’ll cover how the Teams app store is used across classroom teaching to integration with IT help desks. Learn about third-party app governance, open-source app templates. View a hands-on example of App Studio to create a quick custom website app for your institution.|300|Dominic Williamson|
 |[Remote and hybrid learning with Teams for Education](https://aka.ms/PR139)|We go in depth on everything you need to know for remote and hybrid learning. We include how to create online meetings with the right meetings options and policies. See how to create class teams through automation. Learn how to support collaborative classroom environments.|200|Juliano Menegazzo Souza|
-||||||
+
 
 ### Frontline Worker
 
 | Title | Abstract            | Level|  Speakers|
-|---|----------|---|---|---|
+|---|----------|---|---|
 |[Enable Business Continuity for your Frontline Workforce with Microsoft Teams](https://aka.ms/OD258)|As organizations continue to adjust their operations and workforce to maintain business continuity, new capabilities in Microsoft Teams help Frontline Workers stay focused on meeting customer needs. This session will focus on Shifts, Tasks, and core communication along with Walkie Talkie capabilities to create a secure and centralized user experience that saves you time and money.|200|Scott Morrison, Zoe Hawtof|
 |[Deploy and Manage Teams Enabled Devices to Meet the Diverse Needs of your Frontline Workforce](https://aka.ms/PR114)|Learn how to deploy Frontline specific devices that enable new ways for workers to focus on the job in front of them.  This walkthrough will include scenarios for Teams Walkie Talkie and hands-free collaboration. |200|Abid Chaudhry, James Ellis|
 |[Manage Distributed Frontline Workforces with Capabilities in the Microsoft 365 Admin Center](https://aka.ms/PR115)|Discover best practices and practical guidance around popular IT deployment and management scenarios in Microsoft 365 for Frontline Workers. Learn how to build the right experience in Microsoft Teams and successfully rollout the solution to support your Frontline workforce.|300|Irina Parsina, Zoe Hawtof|  
-|||||
+

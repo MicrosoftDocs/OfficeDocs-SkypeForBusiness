@@ -1,7 +1,7 @@
 ---
 title: Use supervised chats for non-educational tenants
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: angch
 ms.topic: article

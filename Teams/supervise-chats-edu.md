@@ -1,7 +1,7 @@
 ---
 title: Use supervised chats
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: angch
 ms.topic: article
@@ -63,7 +63,7 @@ Roles can't be assigned to guests in your tenant. Guests are assigned the limite
 
 ### Allow supervised chat
 
-Supervised chat is disabled by default for your tenant. After you've set chat permission roles for your users, you can enable supervised chat within your tenant by going to **Org-wide settings** &gt; **Teams Settings** and setting **Role-based chat permissions** policy to *On.* You can also use PowerShell to enable Supervised Chat by setting AllowRoleBasedChatPermissions to True. This cmdlet is under CsTeamsClientConfiguration.
+Supervised chat is disabled by default for your tenant. After you've set chat permission roles for your users, you can enable supervised chat within your tenant by going to **Teams** &gt; **Teams settings** and setting **Role-based chat permissions** policy to *On.* You can also use PowerShell to enable Supervised Chat by setting AllowRoleBasedChatPermissions to True. This cmdlet is under CsTeamsClientConfiguration.
 
 Supervised chat must be enabled for all users in the tenant and cannot be enabled for only a portion of your users.
 

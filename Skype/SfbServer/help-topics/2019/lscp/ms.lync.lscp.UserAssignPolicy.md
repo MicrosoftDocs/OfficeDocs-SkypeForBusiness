@@ -1,7 +1,7 @@
 ---
 title: "Users Assign Policies"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro

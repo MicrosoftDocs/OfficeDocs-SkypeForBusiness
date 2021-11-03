@@ -60,7 +60,7 @@ The distance of the camera from the whiteboard combines with the camera resoluti
 | 100°        | 1.26 ft. (0.38 m)| 2.52 ft. (0.77 m)   | 3.78 ft. (1.15 m)   |5.03 ft. (1.53 m)   |5.29 ft. (1.61 m) |
 | 110°        | 1.05 ft. (0.32 m)| 2.10 ft. (0.64 m)   | 3.15 ft. (0.96 m)   |4.2 ft. (1.28 m)    |4.41 ft. (1.31 m) |
 | 120°        | 0.87 ft. (0.26 m)| 1.73 ft. (0.52 m)   | 2.60 ft. (0.79 m)   |3.46 ft. (1.05 m)   |3.64 ft. (1.10 m) |
-|             |               |                  |                  |        |                    |                  |
+             
 
 The distance between the content camera and the wall the whiteboard is mounted on depends on the HFoV for that model of camera, which varies. Install cameras with a larger HFoV (120 degrees for example) closer to the wall, and cameras with a narrower HFoV farther away from the wall. Check the HFoV before you start to install the chosen camera.
 

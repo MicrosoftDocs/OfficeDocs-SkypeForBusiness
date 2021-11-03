@@ -1,6 +1,6 @@
 ---
 title: "Skype Room System and Skype for Business federated partners"
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro

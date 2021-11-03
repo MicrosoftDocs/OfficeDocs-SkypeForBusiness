@@ -1,7 +1,7 @@
 ---
 title: Exchange Unified Messaging planning tool
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 12/20/2018
@@ -13,7 +13,7 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
-description: "Skype for Business Server 2015 supports integration with Exchange Unified Messaging (UM) for combining voice messaging and email messaging into a single messaging infrastructure."
+description: "Skype for Business Server 2015 supports integration with Exchange Unified Messaging for combining voice messaging and email messaging into a single infrastructure."
 ---
 
 # Exchange Unified Messaging planning tool

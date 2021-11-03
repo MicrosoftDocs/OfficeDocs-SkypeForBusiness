@@ -1,7 +1,7 @@
 ---
 title: Teams for Education Policy Wizard to easily apply policies for safe learning
-author: cichur
-ms.author: v-cichur
+author: serdars
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: shajohri, angch
 ms.topic: article
@@ -64,7 +64,7 @@ Now, let's get started!
 
 Follow these steps to run the wizard.
 
-1. If you're new to Teams, the wizard automatically starts. Otherwise, you can start the wizard any time from the dashboard. In the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then in the **Easy policy setup for a safe learning environment** tile, select **Quick setup**.
+1. If you're new to Teams, the wizard automatically starts. Otherwise, you can start the wizard any time from the dashboard. In the left navigation of the Microsoft Teams admin center, go to **Home**, and then in the **Easy policy setup for a safe learning environment** tile, select **Quick setup**.
 
     :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="Screenshot of the wizard in the dashboard.":::
 
@@ -100,21 +100,21 @@ In Teams, for a given policy area, a policy can be applied to a user in the foll
 - Assignment to a group the user is a member of
 - If the user isn't directly assigned a policy or isn't a member of any group that's assigned a policy, the user automatically gets the Global (Org-wide default) policy
 
-If more than one of these policy assignments exist for a user, Teams uses the following order to determine which policy assignment takes effect. For more info, see [Which policy takes precedence?](assign-policies.md#which-policy-takes-precedence) and [Precedence rules](assign-policies.md#precedence-rules).
+If more than one of these policy assignments exist for a user, Teams uses the following order to determine which policy assignment takes effect. For more info, see [Which policy takes precedence](policy-assignment-overview.md#which-policy-takes-precedence) or [Precedence rules for groups](assign-policies-users-and-groups.md#precedence-rules).
 
 |Policy assignments of a user|Policy that takes effect |
 |---------|---------|
 |Policy assigned to group: No<br/>Policy assigned directly to user: No    |Global (Org-wide) default policy      |
 |Policy assigned to group: No<br/>Policy assigned directly to user: Yes    |Policy assigned directly to user         |
 |Policy assigned to group: Yes<br/>Policy assigned directly to user: Yes     |Policy assigned directly to user         |
-|Policy assigned to group: Yes<br/>Policy assigned directly to user: No     |Policy assigned to group<br/><br/>If the user is a member of multiple groups and each group is assigned a policy of the same policy area, the policy that has the highest [group assignment ranking](assign-policies.md#group-assignment-ranking) takes effect.       |
+|Policy assigned to group: Yes<br/>Policy assigned directly to user: No     |Policy assigned to group<br/><br/>If the user is a member of multiple groups and each group is assigned a policy of the same policy area, the policy that has the highest [group assignment ranking](assign-policies-users-and-groups.md#group-assignment-ranking) takes effect.       |
 
 Because of this order, the policies created by the wizard won't take effect if a user has existing direct assignments or group assignments. This means that you'll have to remove the existing policy assignments from the user so the policy applied by the wizard takes effect.
 
 For each [policy area applied by the wizard](#policies-applied-by-the-wizard), do the following:
 
 - Remove all existing direct assignments and group assignments from your students so that the Global (Org-wide default) policy definition applied by the wizard takes effect.
-- Remove any conflicting direct assignments for your educators and staff so that the custom policy definition created by the wizard takes effect. Use the above table to determine the scenarios that apply to you. <br/><br/>Keep in mind that the wizard assigns policies to your educators and staff group using a [group assignment ranking](assign-policies.md#group-assignment-ranking) of 1, which is the highest ranking. If your educators and staff group has an existing policy of the same policy area assigned to it, that existing policy is moved to a lower ranking and the policy assigned by the wizard takes effect.
+- Remove any conflicting direct assignments for your educators and staff so that the custom policy definition created by the wizard takes effect. Use the above table to determine the scenarios that apply to you. <br/><br/>Keep in mind that the wizard assigns policies to your educators and staff group using a [group assignment ranking](assign-policies-users-and-groups.md#group-assignment-ranking) of 1, which is the highest ranking. If your educators and staff group has an existing policy of the same policy area assigned to it, that existing policy is moved to a lower ranking and the policy assigned by the wizard takes effect.
 
 [Learn more](batch-group-policy-assignment-edu.md#remove-a-policy-that-was-directly-assigned-to-users) about how to remove policies that are directly assigned to users.
 
@@ -142,7 +142,7 @@ But do check the [Message Center](https://admin.microsoft.com/AdminPortal/Home?#
 
 If you need to make changes after you run the wizard, you can re-run it and change your selections.
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then in the **Easy policy setup for a safe learning environment** tile, select **Change**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Home**, and then in the **Easy policy setup for a safe learning environment** tile, select **Change**.
 2. From here, continue through each page of the wizard to make your changes. You can change your institution type, the group of educators and staff to which you want to assign policies, or both.
 
 The following table summarizes what happens when you make a change in the wizard.

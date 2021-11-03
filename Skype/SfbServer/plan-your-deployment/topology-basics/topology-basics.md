@@ -1,7 +1,7 @@
 ---
 title: "Topology Basics for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -78,28 +78,28 @@ Additional information on collocation for these servers can be found below.
 
 All the Front End pools and Standard Edition servers deployed at your central site share the following, assuming you've deployed them:
 
-||||
+|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
-|Director or Director pool  <br/> |Stand-alone Mediation Server or Mediation Server pool  <br/> |Office Web Apps Server  <br/> |
-|Edge Server or Edge pool  <br/> |Persistent Chat Server or Persistent Chat Server pool  <br/> |Monitoring  <br/> |
+|Director or Director pool   |Stand-alone Mediation Server or Mediation Server pool   |Office Web Apps Server   |
+|Edge Server or Edge pool   |Persistent Chat Server or Persistent Chat Server pool   |Monitoring   |
 
 Where is Exchange Unified Messaging (UM) Server in this list? Well, you can certainly use it with Skype for Business Server if you want to integrate with Exchange UM, but it's not a component of the Skype for Business Server site, so we're not mentioning it here.
 
 You may be planning to have multiple central site, and if that's so, they can share the following servers and roles, if they're deployed on your central site:
 
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
-|Stand-alone Mediation Server or Mediation Server pool  <br/> |Edge Server or Edge pool  <br/> |
-|Persistent Chat Server or Persistent Chat Server pool  <br/> |Monitoring  <br/> |
+|Stand-alone Mediation Server or Mediation Server pool   |Edge Server or Edge pool   |
+|Persistent Chat Server or Persistent Chat Server pool   |Monitoring   |
 
 Just like the last list, we aren't including the Exchange UM Server here because it's not part of the Skype for Business Server deployment, but it falls into the same category here, too.
 
 There are some other components and options that go into deployments, of course.
 
-|||||
+|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|:-----|
-|Firewalls  <br/> |PSTN gateways (if you deploy Enterprise Voice  <br/> |Exchange UM Server (if you want to integrate with Exchange UM)  <br/> |DNS load balancing  <br/> |
-|Hardware load balancers  <br/> |SQL Server databases  <br/> |File shares  <br/> ||
+|Firewalls   |PSTN gateways (if you deploy Enterprise Voice   |Exchange UM Server (if you want to integrate with Exchange UM)   |DNS load balancing   |
+|Hardware load balancers   |SQL Server databases   |File shares   ||
 
 ## Server roles
 

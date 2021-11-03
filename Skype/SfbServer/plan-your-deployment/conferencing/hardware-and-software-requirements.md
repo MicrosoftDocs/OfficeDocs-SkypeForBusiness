@@ -1,7 +1,7 @@
 ---
 title: "Hardware and software requirements for conferencing in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -103,8 +103,6 @@ Conferencing Attendant application and Conferencing Announcement application req
 ### Audio file requirements for dial-in conferencing
 
 Skype for Business Server does not support customization of voice prompts and music for dial-in conferencing. However, if you have a strong business need that requires you to change the default audio files, see Microsoft Knowledge Base article 961177, [How to customize voice prompts or music files for dial-in audio conferencing](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=961177).
-
-You can also use the [Microsoft Lync Server Conferencing Attendant Custom Voice Prompts](https://go.microsoft.com/fwlink/p/?LinkId=396880) management utility, which enables administrators to replace the default voice prompts used when a phone caller joins a Skype for Business meeting with custom prompts to provide a different meeting entry experience. The custom voice prompts can be installed on either an Enterprise or Standard Edition server.
 
 Conferencing Attendant application and Conferencing Announcement application have the following requirements for music on hold, recorded name, and audio prompt files:
 

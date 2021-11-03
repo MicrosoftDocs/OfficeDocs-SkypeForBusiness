@@ -1,7 +1,7 @@
 ---
 title: "Rate my Call in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -62,7 +62,7 @@ Data from users is collected in two tables in the monitoring database.
 
 Token definitions are coded as follows:
 
-|||
+|#|Definition|
 |:-----|:-----|
 |1  <br/> |DistortedSpeech  <br/> |
 |2  <br/> | ElectronicFeedback <br/> |

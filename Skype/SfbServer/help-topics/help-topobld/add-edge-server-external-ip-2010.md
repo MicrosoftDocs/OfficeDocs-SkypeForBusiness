@@ -1,7 +1,7 @@
 ---
 title: "Add Edge Server External IP 2010"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018

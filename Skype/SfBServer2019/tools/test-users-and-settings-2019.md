@@ -1,7 +1,7 @@
 ---
 title: "Configure watcher node test users and settings"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/13/2018
@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
-description: "Summary: Configure test user accounts and watcher node settings for Skype for Business Server synthetic transactions."
+description: "Configure test user accounts and watcher node settings for Skype for Business Server synthetic transactions."
 ---
 
 # Skype for Business Server: Configure watcher node test users and settings
