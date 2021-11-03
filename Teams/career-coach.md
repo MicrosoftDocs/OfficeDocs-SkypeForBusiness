@@ -100,10 +100,10 @@ Career Coach **requires** your educational institution’s users to have the abi
 
 4. **LinkedIn account connections** must be set to **Yes** or **Selected group** for Career Coach to be properly configured.
 
-    ![Integrate LinkedIn account connections in the organization](/azure/active-directory/enterprise-users/media/linkedin-integration/linkedin-integration.png)
+   ![Integrate LinkedIn account connections in the organization](/azure/active-directory/enterprise-users/media/linkedin-integration/linkedin-integration.png)
 
-> [!NOTE]
-> No data is shared until users consent to connect their accounts.
+   > [!NOTE]
+   > No data is shared until users consent to connect their accounts.
 
    - Select **Yes** to enable the service for all users in your educational institution.
 
@@ -367,7 +367,7 @@ Reference [Manage app setup policies in Microsoft](/microsoftteams/teams-app-set
 
 - If you see "Career Coach is currently being set up for you to use soon" in the Career Coach app, __the required sections have not been completed__. The following __sections are required__ to be complete before Career Coach can be used: [Brand and preferences](#brand-and-preferences), [LinkedIn connection](#linkedin-connection), [Course catalog](#course-catalog), and [Fields of study](#fields-of-study).
 
-- CSVs for course catalog and field of study have required formats and a maximum size of 18 MB. Reference the Career Coach [course catalog document schema](#course-catalog-documents-formatting-and-schema) and Career Coach [fields of study document schema](#fields-of-study-document-format-and-schema) to ensure proper configuration.
+- CSVs for course catalog and field of study have required formats and a maximum size of 18 MB. Reference the Career Coach [course catalog document schema](#course-catalog-document-format-and-schema) and Career Coach [fields of study document schema](#fields-of-study-document-format-and-schema) to ensure proper configuration.
 
 - On settings pages with required fields, if the fields are not completed, the page will not submit. You will not see a warning message; the page will simply not submit.
 
