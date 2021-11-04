@@ -1,7 +1,7 @@
 ---
 title: "Deployment Wizard Using the Admin Tools"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro

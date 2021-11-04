@@ -1,6 +1,6 @@
 ---
 title: "Partner qualification for Lync"
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: dougand

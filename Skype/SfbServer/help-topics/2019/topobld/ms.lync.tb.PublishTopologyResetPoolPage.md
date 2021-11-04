@@ -1,7 +1,7 @@
 ---
 title: "Publish Topology Reset Pool Page"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro

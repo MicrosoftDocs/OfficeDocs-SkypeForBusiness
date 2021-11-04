@@ -1,7 +1,7 @@
 ---
 title: "Configure the client experience with Skype for Business 2015"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro

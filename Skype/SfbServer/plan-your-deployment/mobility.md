@@ -1,7 +1,7 @@
 ---
 title: "Plan for Mobility for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 2/17/2018
 manager: serdars
