@@ -119,7 +119,7 @@ Students' files associated with a Submission for Assignment are stored in a docu
 
 #### Files associated with the student
 
-IT admins can use the Content Search tool to search for student files (*Student Work*, *Class Files*, or other 1st-party integration files) that are related to assignment submissions and files that are related to assignments. For example, an admin could search all SharePoint sites in the organization and use the student’s name and class or assignment name in the search query to find data relevant to a DSR.
+IT admins can use the Content Search tool to search for student files (*Student Work*, *Class Files*, or other 1st-party integration files) that are related to assignment submissions and files that are related to assignments. For example, an admin could search all SharePoint sites in the organization and use the student’s name and class or assignment name in the search query to find data relevant to a data subject request (DSR).
 
 #### Files associated with the teacher
 
