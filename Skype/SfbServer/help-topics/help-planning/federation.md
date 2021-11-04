@@ -1,7 +1,7 @@
 ---
 title: "Lync Server Federation planning tool"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/8/2016

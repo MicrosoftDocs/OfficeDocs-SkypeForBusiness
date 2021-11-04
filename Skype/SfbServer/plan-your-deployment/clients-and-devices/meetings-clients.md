@@ -1,6 +1,6 @@
 ---
 title: "Plan for Meetings clients (Web App and Meetings App)"
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars

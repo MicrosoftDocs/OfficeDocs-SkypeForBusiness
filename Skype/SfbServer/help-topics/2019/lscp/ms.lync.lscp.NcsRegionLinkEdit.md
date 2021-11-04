@@ -1,7 +1,7 @@
 ---
 title: "Configure a Network Region Link Create New or Edit Existing"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro

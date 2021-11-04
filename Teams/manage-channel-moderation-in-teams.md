@@ -1,7 +1,7 @@
 ---
 title: Set up and manage channel moderation
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: jotaing
 ms.topic: article

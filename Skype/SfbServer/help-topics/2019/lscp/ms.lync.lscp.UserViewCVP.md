@@ -1,7 +1,7 @@
 ---
 title: "Users View or Configure Client Version Policy"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro

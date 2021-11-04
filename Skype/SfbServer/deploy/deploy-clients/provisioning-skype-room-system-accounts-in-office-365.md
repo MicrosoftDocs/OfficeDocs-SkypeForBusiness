@@ -1,6 +1,6 @@
 ---
 title: "Provisioning Skype Room System accounts in Microsoft 365 and Office 365"
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro

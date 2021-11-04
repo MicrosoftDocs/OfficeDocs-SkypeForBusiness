@@ -1,7 +1,7 @@
 ---
 title: "Client Version Rule"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/23/2015

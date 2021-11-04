@@ -1,7 +1,7 @@
 ---
 title: "Patch or update a Back End Server or Standard Edition server in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
