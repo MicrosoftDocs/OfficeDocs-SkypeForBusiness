@@ -118,7 +118,6 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model        | Firmware version     | Included product release  |
 |:--------------------|:---------------------|:-------------------------|
-
 |Audiocodes C448HD  | C448HD_TEAMS_1.14.449 | 2021 Update #3  |
 |Audiocodes C450HD  | C450HD_TEAMS_1.14.449 | 2021 Update #3  |
 |Audiocodes C470HD  | C470HD_TEAMS_1.14.449 | 2021 Update #3  |
