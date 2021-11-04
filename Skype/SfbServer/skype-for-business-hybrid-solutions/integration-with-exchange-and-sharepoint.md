@@ -1,7 +1,7 @@
 ---
 title: "Integration with Exchange and SharePoint"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/13/2018

@@ -1,7 +1,7 @@
 ---
 title: "Skype for Business Server: Prepare Active Directory"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/7/2018

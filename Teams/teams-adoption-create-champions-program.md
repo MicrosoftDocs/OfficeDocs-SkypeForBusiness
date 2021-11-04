@@ -1,7 +1,7 @@
 ---
 title: Create your champions program for Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 10/30/2018
 audience: Admin

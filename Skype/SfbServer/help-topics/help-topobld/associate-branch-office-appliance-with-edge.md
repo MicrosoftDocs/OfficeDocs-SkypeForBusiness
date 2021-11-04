@@ -1,7 +1,7 @@
 ---
 title: "Associate Branch Office Appliance With Edge"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/14/2015

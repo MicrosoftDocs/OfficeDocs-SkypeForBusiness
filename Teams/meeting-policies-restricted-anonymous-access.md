@@ -1,7 +1,7 @@
 ---
 title: Remove the RestrictedAnonymousAccess Teams meeting policy from users 
-author: cichur
-ms.author: serdars
+author: serdars
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams

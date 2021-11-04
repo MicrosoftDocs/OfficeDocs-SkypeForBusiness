@@ -1,7 +1,7 @@
 ---
 title: "ErrorReport table in Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/15/2015

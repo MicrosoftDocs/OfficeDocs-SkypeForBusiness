@@ -1,7 +1,7 @@
 ---
 title: "Virtualization support for Skype for Business Server 2019 "
 ms.reviewer: corbinm
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 06/04/2020

@@ -1,7 +1,7 @@
 ---
 title: How to configure watcher node test users and settings
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/13/2018

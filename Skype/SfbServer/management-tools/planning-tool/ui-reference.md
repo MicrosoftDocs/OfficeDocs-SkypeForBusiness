@@ -1,7 +1,7 @@
 ---
 title: "Planning Tool UI Reference"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 12/20/2018
 manager: serdars

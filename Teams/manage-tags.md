@@ -1,7 +1,7 @@
 ---
 title: Manage tags in Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: acolonna, salu
 ms.topic: article
