@@ -1,7 +1,7 @@
 ---
 title: "Users New Lync Server User"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018

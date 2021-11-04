@@ -1,7 +1,7 @@
 ---
 title: "Centralized Logging Service in Skype for Business 2015"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018

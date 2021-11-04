@@ -1,6 +1,6 @@
 ---
 title: "Set up Audio Conferencing for small and medium businesses"
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: jonorton, tonysmit

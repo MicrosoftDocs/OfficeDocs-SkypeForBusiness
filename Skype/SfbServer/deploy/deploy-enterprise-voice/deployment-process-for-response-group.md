@@ -1,7 +1,7 @@
 ---
 title: "Deployment process for Response Group in Skype for Business"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
