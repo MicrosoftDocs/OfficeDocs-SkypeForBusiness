@@ -1,7 +1,7 @@
 ---
 title: "Network Configuration Edit Global Setting"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro

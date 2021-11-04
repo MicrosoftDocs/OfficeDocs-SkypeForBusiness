@@ -1,6 +1,6 @@
 ---
 title: "Microsoft Teams add-on licenses"
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: mikedav

@@ -1,6 +1,6 @@
 ---
 title: "Use Config.xml to perform installation tasks in Skype for Business clients"
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro

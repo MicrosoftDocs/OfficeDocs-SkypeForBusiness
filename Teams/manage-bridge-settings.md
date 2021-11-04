@@ -1,7 +1,7 @@
 ---
 title: Manage bridge settings in Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: 
 ms.topic: article

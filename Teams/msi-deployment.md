@@ -1,7 +1,7 @@
 ---
 title: Install Teams using Microsoft Endpoint Configuration Manager
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams

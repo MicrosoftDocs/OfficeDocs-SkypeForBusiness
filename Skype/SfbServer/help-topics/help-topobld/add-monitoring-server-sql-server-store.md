@@ -1,7 +1,7 @@
 ---
 title: "Add Monitoring Server SQL Server Store"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018

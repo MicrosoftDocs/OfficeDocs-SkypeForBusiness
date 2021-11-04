@@ -1,7 +1,7 @@
 ---
 title: "Edge Server environmental requirements in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 audience: ITPro
 ms.topic: conceptual
