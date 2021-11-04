@@ -1,7 +1,7 @@
 ---
 title: "Skype for Business Server - View information about individual SIP trunks"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro

@@ -1,7 +1,7 @@
 ---
 title: "Install Local Configuration Store"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/13/2015

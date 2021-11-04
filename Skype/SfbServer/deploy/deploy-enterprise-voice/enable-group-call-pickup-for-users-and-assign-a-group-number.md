@@ -1,7 +1,7 @@
 ---
 title: "Enable Group Call Pickup for users and assign a group number in Skype for Business"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro

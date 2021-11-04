@@ -1,7 +1,7 @@
 ---
 title: "Components and topologies for call admission control in Skype for Business"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro

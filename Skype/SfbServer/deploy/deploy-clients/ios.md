@@ -1,6 +1,6 @@
 ---
 title: "Install and test Skype for Business for iOS"
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro

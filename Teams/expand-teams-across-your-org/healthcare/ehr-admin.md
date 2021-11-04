@@ -1,7 +1,7 @@
 ---
 title: Teams for Virtual visits
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
