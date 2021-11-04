@@ -13,17 +13,15 @@ ROBOTS: NOINDEX, NOFOLLOW
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-ms.collection: 
+ms.collection:
   - M365-collaboration
-appliesto: 
+appliesto:
   - Microsoft Teams
 ---
 
 # Deploying the parents app in Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
-Enabling the parents app in Microsoft Teams is a straightforward process for admins, delivering a secure method for educators to communicate to students and their contacts that remain in-tenant, and which will scale across your educator organization.
+The Parent App helps educators securely connect and engage with the parents and guardians of the students in their classes using Teams chat, which will scale across the educator organization. All parent and guardian data is provisioned using School Data Sync, allowing educators and IT staff to smoothly set things up.
 
 ## Requirements
 
@@ -40,7 +38,7 @@ Enabling the parents app in Microsoft Teams is a straightforward process for adm
 
 - Class Owner must have Chat enabled​
 - Class Owner must have External Access with **Teams accounts not managed by an organization** enabled. ​
-  - This setting can be found in Org-wide settings > External Access for the tenant level, or if you’d like to enable for a certain set of users, see the PowerShell below.​
+  - This setting can be found in Users > External Access for the tenant level, or if you’d like to enable for a certain set of users, see the PowerShell below.​
 
 ## Enabling federated chat on a per-user basis
 
@@ -58,7 +56,7 @@ Enabling the parents app in Microsoft Teams is a straightforward process for adm
     Connect-MicrosoftTeams -Credential $credential
     ```
 
-By default, the tenant-level setting that controls Teams consumer external access for the tenant (AllowTeamsConsumer) is disabled. However, the policy setting that enables Teams consumer external access at the user level (EnableTeamsConsumerAccess) is enabled by default for all user-level external access policies. Both the tenant-level setting and the user-level policy setting need to be enabled for a user to have Teams consumer external access. If you don't want everyone in your tenant to have Teams consumer external access enabled, you should update the user-level external access policies assigned to your users prior to enabling the tenant-level setting.
+The policy setting that enables Teams consumer external access at the user level (EnableTeamsConsumerAccess) is enabled by default for all user-level external access policies. Both the tenant-level setting (AllowTeamsConsumer) and the user-level policy setting need to be enabled for a user to have Teams consumer external access. If you don't want everyone in your tenant to have Teams consumer external access enabled, you should update the user-level external access policies assigned to your users prior to enabling the tenant-level setting.
 
 If you need to check which user-level external access policies exist and who they are assigned to, you can use the following steps:
     
@@ -71,7 +69,7 @@ If you need to check which user-level external access policies exist and who the
 4. For each policy other than the ‘Global’ policy, check which users have the policy assigned. Note: any users who do not have a specific policy assigned will fall back to the ‘Global’ policy​
 
     ```powershell
-    Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq “<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
+    Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq "<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
     ```
 
 ### Further PowerShell options
