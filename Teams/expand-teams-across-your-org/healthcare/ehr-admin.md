@@ -174,4 +174,4 @@ The Microsoft Teams EHR connector doesn't store nor transfer any identifiable pe
 
 ## Related topics
 
-[Teams virtual visits](ehr-admin-reports.md)
+[Teams EHR connector admin reports](ehr-admin-reports.md)
