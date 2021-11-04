@@ -19,7 +19,7 @@ f1.keywords:
 - NOCSH
 search.appverid: MET150
 ms.topic: landing-page
-ms.author: v-cichur
+ms.author: v-mahoffman
 ---
 # Admin training for Microsoft Teams
 

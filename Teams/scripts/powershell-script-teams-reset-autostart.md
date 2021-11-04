@@ -1,7 +1,7 @@
 ---
 title: PowerShell script sample - Reset the autostart setting in Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.reviewer: amitsri

@@ -1,7 +1,7 @@
 ---
 title: Posters for Skype for Business Server 2015 | Voice PSTN
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro

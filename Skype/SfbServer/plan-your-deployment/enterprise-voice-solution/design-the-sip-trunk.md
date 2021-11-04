@@ -1,7 +1,7 @@
 ---
 title: "Design the SIP trunk for E9-1-1 in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
