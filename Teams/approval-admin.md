@@ -193,7 +193,7 @@ From the Teams Approvals app, users have access to create new Approvals and view
 ## Approvals e-signature integration
 
 To use the Approvals app e-signature feature, you need a license for the specific e-signature provider that you want to use. To obtain a license for your organization, you'll need to go to the provider’s site.
-### Enable or disable eSignature providers
+### Enable or disable e-signature providers
 
 You can use the Teams admin center to control which third-party e-signature providers are available to your users in the Approvals app. By default, e-signature providers are enabled in the Approvals app. When you disable an e-signature provider, your users won't have access to that provider when they create approvals. Your users also won't be able to view e-signature requests that were created using that provider.
 
