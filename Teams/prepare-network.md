@@ -134,7 +134,7 @@ For an in-depth discussion of network optimization, including guidance for ident
 </tr>
 <tr class="odd">
 <td>Allow WebSocket protocol</td>
-<td><p>Teams utilizes long-living bidirectional WebSocket connections to efficiently deliver chat updates, call notifications and signaling, presence status changes and other real-time notifications from cloud services to the client. If establishing WebSocket connections is not possible, a traditional HTTP long-polling transport is used as a fallback, resulting in increased bandwidth and latency. Enabling WebSocket traffic is recommended for optimal operation.</p></td>
+<td><p>Teams utilizes long-living bidirectional WebSocket connections to efficiently deliver chat updates, call notifications and signaling, presence status changes, and other real-time notifications from cloud services to the client. If establishing WebSocket connections is not possible, a traditional HTTP long-polling transport is used as a fallback, resulting in increased bandwidth and latency. We recommend that you enable WebSocket traffic for optimal operation.</p></td>
 </tr>
 </tbody>
 </table>
