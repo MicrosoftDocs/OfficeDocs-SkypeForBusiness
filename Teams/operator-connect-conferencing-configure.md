@@ -1,5 +1,5 @@
 ---
-title: Configure Operator Connect for Audio Conferencing
+title: Configure Operator Connect Conferencing
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -15,7 +15,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: Learn more about how to configure Operator Connect for Audio Conferencing.
+description: Learn more about how to configure Operator Connect Conferencing.
 ms.custom: 
  - seo-marvel-apr2020
  - seo-marvel-jun2020
@@ -23,7 +23,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Configure Operator Connect for Audio Conferencing
+# Configure Operator Connect Conferencing
 
 Microsoft Audio Conferencing provides the ability to dial into a conference and dial out from a conference using Public Switched Telephone Network (PSTN) phone numbers.  Participants join Microsoft Teams meetings using audio-only conferencing bridges.
 
@@ -31,7 +31,7 @@ With Operator Connect Conferencing capabilities, organizations can use phone num
 
 Without Operator Connect Conferencing capabilities, organizations can only use phone numbers provided by Microsoft for their Audio Conferencing bridges.
 
-Before configuring Operator Connect for Audio Conferencing, be sure to read [Plan for Operator Connect Conferencing](operator-connect-conferencing-plan.md) for information about benefits and licensing requirements.
+Before configuring Operator Connect Conferencing, be sure to read [Plan for Operator Connect Conferencing](operator-connect-conferencing-plan.md) for information about benefits and licensing requirements.
 
 The topics covered in this article include:
 
@@ -65,7 +65,7 @@ Your organization's Audio Conferencing bridges include phone numbers available t
 
 To acquire phone numbers for your Audio Conferencing bridges, follow these steps:
 
-1. **Audio Conferencing or Operator Connect Conferencing license.** Users that need Operator Connect Conferencing numbers to join the meetings that they organize need to have an Audio Conferencing Standard subscription license or an Operator Connect Conferencing license assigned to them. For more information, see [Plan for Operator Connect Conferencing](operator-connect-conferencing-plan.md).
+1. **Audio Conferencing Standard subscription or Operator Connect Conferencing license.** Users that need Operator Connect Conferencing numbers to join the meetings that they organize need to have an Audio Conferencing Standard subscription license or an Operator Connect Conferencing license assigned to them. For more information, see [Plan for Operator Connect Conferencing](operator-connect-conferencing-plan.md).
 
 2. **Acquire numbers.** Go to your operator's website to order and acquire phone numbers. For a list of operator websites, go to the [Microsoft 365 Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory). You'll need to provide your tenant ID. If you don't know your tenant ID, see [Find your Microsoft 365 tenant ID](/onedrive/find-your-office-365-tenant-id). Once your operator completes the order, they'll upload numbers to your tenant. You can view the numbers and the provider in the Teams admin center by going to **Voice > Phone numbers**.
 

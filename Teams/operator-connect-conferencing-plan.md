@@ -1,5 +1,5 @@
 ---
-title: Operator Connect for Audio Conferencing
+title: Plan for Operator Connect Conferencing
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -15,7 +15,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: Learn more about Operator Connect for Audio Conferencing, such as requirements and planning for deployment.
+description: Learn more about Operator Connect Conferencing, such as requirements and planning for deployment.
 ms.custom: 
  - seo-marvel-apr2020
  - seo-marvel-jun2020
@@ -23,7 +23,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Plan for Operator Connect for Audio Conferencing
+# Plan for Operator Connect Conferencing
 
 Microsoft Audio Conferencing provides the ability to dial into a conference and dial out from a conference using Public Switched Telephone Network (PSTN) phone numbers.  Participants join Microsoft Teams meetings using audio-only conferencing bridges.
 
@@ -41,7 +41,7 @@ This article describes Operator Connect Conferencing:
 - [Benefits](#benefits)
 - [Licensing requirements and billing](#licensing-requirements-and-billing)
 
-For information about configuring Operator Connect Conferencing, see [Configure Operator Connect for Audio Conferencing](operator-connect-conferencing-configure.md).
+For information about configuring Operator Connect Conferencing, see [Configure Operator Connect Conferencing](operator-connect-conferencing-configure.md).
 
 ## Benefits
 
