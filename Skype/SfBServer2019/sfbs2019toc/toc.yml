@@ -981,6 +981,11 @@
               href: ../../SfbServer/manage/conferencing/meeting-join-page.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Management Shell
           href: ../../SfbServer/manage/management-shell.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: Control Panel
+          href: ../../SfbServer2019/control-panel-overview.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items: 
+            - name: Client
+              href: ../../SfbServer2019/use-powershell-client-menu.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Authentication
           href: ../../SfbServer/manage/authentication/authentication.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items: 
