@@ -153,3 +153,11 @@ Built-in badge sets can't be modified, so when a built-in set is enabled, all ba
 |Self-awareness    |[Self-awareness PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-awareness-badge.png)|#FFFFFF    |#1680E5|
 |Self-management   |[Self-management PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-management-badge.png)|#FFFFFF    |#4C144D|
 |Thoughtfulness    |[Thoughtfulness PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/thoughtfulness-badge.png)|#FFFFFF    |#EE4086|
+
+## Upcoming changes
+
+Starting in January 2022, what's currently available for educational praise badges will change. There are few badges that will no longer be available, such as for Self-awareness and Self-management.
+
+The **Create a custom badge** option will also no longer be available as of January 2022.
+
+However, user can view the history of any praise they sent or received in the past six months with any of these newly unavailable badges or options.
