@@ -49,11 +49,11 @@ The following sections describe the coexistence modes that are available when yo
 We recommend that you review the following coexistence modes to help determine which path is right for your organization.
 
 > [!Important]
-> Coexistence modes will continue to exist after retirement of Skype for Business Online on July 31, 2021, but will only be relevant for organizations with on-premises deployments of Skype for Business Server. Just before the retirement, users homed in the on-premises deployment can be assigned any mode other than TeamsOnly. However, after retirement of Skype for Business Online, users homed in the cloud can only be TeamsOnly.
+> Coexistence modes still exist now that Skype for Business Online has been retired. However, users homed in the cloud can only be TeamsOnly and it is no longer possible to change the mode of an online user to something other than TeamsOnly.  However, as was the case prior to retirement of Skype for Business Online, users homed in on-premises can be assigned any mode other than Teams Only.
 
 ### Islands mode
 
-By default, users can run Teams alongside Skype for Business as two separate solutions that deliver similar and overlapping capabilities. The capabilities include presence, chat, calling, and meetings. Teams users also can take advantage of new collaboration capabilities such as teams and channels, access to files in Microsoft 365 or Office 365, and applications.
+By default, users can run Teams alongside Skype for Business as two separate solutions that deliver similar and overlapping capabilities. The capabilities include presence, chat, calling, and meetings. Teams users also can take advantage of new collaboration capabilities such as teams and channels, access to files in Microsoft 365, and applications.
 
 In this coexistence mode, called **Islands**, each of the client applications operates as a separate island. Skype for Business talks to Skype for Business, and Teams talks to Teams. Users are expected to run both clients at all times and can communicate natively in the client from which the communication was started. As such, there's no need for interoperability in **Islands** mode.
 
@@ -67,10 +67,7 @@ To avoid a confusing or regressed Skype for Business experience, the Skype for B
 Phone System isn't supported in Teams in **Islands** mode. **Islands** mode doesn't support Enterprise Voice client is Skype for Business.
 
 > [!Important]
-> In **Islands** mode, all messages and calls from federated users (people outside your organization) are delivered to Skype for Business. After upgrading to **Teams Only** mode, all messages and calls from outside your organization are delivered to Teams.
-
-> [!Tip]
-> Skype for Business Online customers recommended path is to start with the default **Islands** mode, drive Teams adoption saturation in the organization, and then move to **Teams Only** mode rapidly. On premises and hybrid customers, especially complex ones, might benefit from deploying the **Skype for Business with Teams Collaboration** mode as a starting point rather than **Islands** mode, and progress from there to **Skype for Business with Teams Collaboration and Meetings** mode (that is, Meetings First), if appropriate, and to **Teams Only** mode when the organization is ready to adopt Teams.
+> In **Islands** mode, all messages and calls from federated users (people outside your organization) are delivered to the Skype for Business client. After upgrading to **Teams Only** mode, all messages and calls from outside your organization are delivered to Teams.
 
 ### Teams Only
 
@@ -157,7 +154,7 @@ Skype for Business users can make one-on-one voice and video calls to Teams user
 <!--![Screen shot of Interop calling experience from Teams.](media/Interop_calling_experience_from_Teams.png "Interop calling experience from Teams")-->
 
 > [!Important]
-> Interop experiences with an on-premises deployment of Skype for Business require that the on-premises environment is in hybrid mode with Microsoft 365 or Office 365 Skype for Business. For details, see [Migration and interoperability guidance](./migration-interop-guidance-for-teams-with-skype.md).
+> Interop experiences with an on-premises deployment of Skype for Business require that the on-premises environment is in hybrid mode with Teams. For details, see [Configure hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](/SkypeForBusiness/hybrid/configure-hybrid-connectivity).
 
 These interop experiences are available to and between users who have one of the following coexistence modes assigned: **Skype for Business with Teams Collaboration**, **Skype for Business with Teams Collaboration and meetings**, **Skype for Business Only**, or **Teams Only**. There is no interoperability to users in **Islands** mode.
 
@@ -207,7 +204,7 @@ This escalation to a Skype for Business meeting is available for both in-tenant 
 
 #### Interop escalation from Teams
 
-Interop escalation from Teams to a Teams meeting is now available when the Teams user selects the desktop sharing button in an in-tenant interop thread with a Skype for Business user or in a cross-tenant interop federation thread. Interop escalation is supported from a 1:1 chat conversation or from a 1:1 call.
+Interop escalation from Teams to a Teams meeting is available when the Teams user selects the desktop sharing button in an in-tenant interop thread with a Skype for Business user or in a cross-tenant interop federation thread. Interop escalation is supported from a 1:1 chat conversation or from a 1:1 call.
 
 The capability is supported in the Teams desktop client for Windows, in the Teams desktop client for Mac, and in the Teams web client on browsers where content sharing is supported, while in communication with any Skype for Business client version.
 
