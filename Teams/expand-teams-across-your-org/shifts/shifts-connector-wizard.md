@@ -48,7 +48,7 @@ You'll also need your Blue Yonder service account name and password and service 
 
     1. Give your connection a name.
     2. Enter your Blue Yonder service account name and password and service URLs.
-    3. Select **Next** to test the connection using the settings.
+    3. Select **Next** to test the connection.
 
 1. On the Sync settings page, you choose the information that you want to sync from Blue Yonder to Shifts, how often the data is retrieved, and whether Shifts users can make changes to the data.
     1. Enter your Microsoft 365 system account.
@@ -71,11 +71,9 @@ You'll also need your Blue Yonder service account name and password and service 
 
     1. Select the check box next to the site name.
     2. In the pane, choose **Create a new team**, and then:
-
         1. Enter a name for your team, choose a privacy setting, and add one or more team owners.
         2. Add users to the team. You can also add groups.
         3. Choose whether to create your team from scratch or from a team template. Team templates come with predefined channels and tabs, which optimize the team for a particular business need or project.
-
     3. Choose the time zone and closest city.
 
 
