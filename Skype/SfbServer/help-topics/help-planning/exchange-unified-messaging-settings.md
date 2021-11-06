@@ -2,7 +2,7 @@
 title: "Skype for Business Server Exchange Unified Messaging Settings planning tool"
 ms.reviewer: 
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro

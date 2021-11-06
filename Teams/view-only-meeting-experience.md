@@ -1,6 +1,6 @@
 ---
 title: View-only meeting experience
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: christi.balaki
 manager: serdars
