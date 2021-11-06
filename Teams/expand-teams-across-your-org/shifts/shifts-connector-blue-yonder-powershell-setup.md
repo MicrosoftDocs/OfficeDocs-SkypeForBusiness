@@ -76,9 +76,6 @@ appliesto:
 The script tests your connection settings, configures the Shifts connector, applies sync settings, creates the connection, and maps Blue Yonder sites to teams.
 
 
-
-
-
 ## Related topics
 
 - [Manage the Shifts app for your organization in Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
