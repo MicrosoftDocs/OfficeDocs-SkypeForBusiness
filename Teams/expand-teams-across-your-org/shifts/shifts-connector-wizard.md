@@ -82,7 +82,7 @@ You'll also need your Blue Yonder service account name and password and service 
 
     The wizard sets up and creates the connection and maps the sites to the teams you selected. It may take some time to complete, after which the recipients you chose receive status emails.
 
-    Select **Done**.
+    Select **Done** to exit the wizard.
 
 1. You’re on your way but you’re not done yet! Next, check out the [What to do after running the wizard](#what-to-do-after-running-the-wizard) section of this article.
 
