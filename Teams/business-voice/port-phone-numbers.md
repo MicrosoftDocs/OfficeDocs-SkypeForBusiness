@@ -43,9 +43,8 @@ If you need help, let us know! We're here to help you get your phone numbers mov
 - The authorizing person on your account
 - A description of the issue or question that you have
 
-For help with phone numbers in Canada and the United States, send your request to [ptn@microsoft.com](mailto:ptn@microsoft.com).
+For help with phone numbers, check out [Telephone Number Services (TNS) - Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
 
-For help with phone numbers in Europe, send your request to [ptneu@microsoft.com](mailto:ptneu@microsoft.com).
 
 > [!div class="nextstepaction"]
 > [Next step: Finish Business Voice setup](set-up-finish.md)
