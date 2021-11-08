@@ -1,7 +1,7 @@
 ---
 title: "Partner qualification for Lync"
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article

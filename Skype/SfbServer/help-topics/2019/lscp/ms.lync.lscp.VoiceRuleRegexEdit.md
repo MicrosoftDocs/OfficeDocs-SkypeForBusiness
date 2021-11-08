@@ -2,7 +2,7 @@
 title: "Translation Rule Type a Regular Expression"
 ms.reviewer: 
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
