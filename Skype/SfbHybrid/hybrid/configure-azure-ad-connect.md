@@ -46,12 +46,14 @@ For customers with an on-premises deployment of Skype for Business Server (or Ly
 
 If you choose to customize the synchronizations settings in Azure AD Connect, you must, at a bare minimum, ensure the following attributes are sync'd for user objects:
 </br>
+
 |Attribute|Description|
 |---|---|
 |msRTCSIP-PrimaryUserAddress| The user's sip address in the on-premises environment|
 |msRTCSIP-DeploymentLocator| Indicates if the user is homed on-premises or in the cloud|
 |msRTCSIP-UserEnabled| Whether the user is enabled for SIP functionality|
 |||
+
 </br>
 </br>
 In addition, if you will be managing phone system attributes via your on-premises deployment, you must also synchronize the following attributes:
