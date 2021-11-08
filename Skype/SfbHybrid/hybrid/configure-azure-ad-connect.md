@@ -53,6 +53,7 @@ If you choose to customize the synchronizations settings in Azure AD Connect, yo
 |msRTCSIP-UserEnabled| Whether the user is enabled for SIP functionality|
 |||
 </br>
+</br>
 In addition, if you will be managing phone system attributes via your on-premises deployment, you must also synchronize the following attributes:
 </br>
 </br>
