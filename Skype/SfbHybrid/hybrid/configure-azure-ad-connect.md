@@ -57,11 +57,10 @@ In addition, if you will be managing phone system attributes via your on-premise
 </br>
 |Attribute|Description|
 |---|---|
-|msRTCSIP-Line| The user's phone number.|
+|msRTCSIP-Line| The user's phone number|
 |msRTCSIP-OptionFlags| Indicates if the user is enabled for voice functionality|
 |msRTCSIP-OwnerUrn| Used to identify hybrid application end points|
 |||
-</br>
 </br>
 </br>
 Microsoft recommends that you synchronize all forests that contain user identities as well as any forests that contain Skype for Business Server.  If users’ identities exist across multiple forests, Azure AD Connect should do the merge. When this guidance is followed, Azure AD Connect will automatically synchronize the correct attributes, provided you do not modify either the Connectors or Sync Rules in Azure AD Connect. 
