@@ -1,7 +1,7 @@
 ---
 title: Advanced Communications add-on for Microsoft Teams
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: reference
 audience: Admin

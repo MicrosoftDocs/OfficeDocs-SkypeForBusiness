@@ -1,7 +1,7 @@
 ---
 title: Create an organization-wide team in Microsoft Teams
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 ms.reviewer: phlouie
 manager: serdars
 ms.topic: article

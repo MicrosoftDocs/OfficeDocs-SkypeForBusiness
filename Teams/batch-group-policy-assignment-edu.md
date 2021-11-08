@@ -1,7 +1,7 @@
 ---
 title: Assign policies to large sets of users in your school
-author: cichur
-ms.author: serdars
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: karsmith, angch, cebulnes
 ms.topic: article
