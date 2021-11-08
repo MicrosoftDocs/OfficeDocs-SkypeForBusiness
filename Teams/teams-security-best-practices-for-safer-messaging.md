@@ -23,7 +23,7 @@ appliesto:
 ---
 # Security best practices for Microsoft Teams
 
-Collaboration capabilities like instant messaging and video conferencing have allowed many industries and schools to continue their work during the pandemic. However, online real-time collaboration at such a broad scale also comes with *risks* that must be addressed. Otherwise, bad actors take advantage of this change in work and life to bring **phishing** and **spam** campaigns to new and seasoned adopters alike. The numbered reference list in this article acts as a primer for general security when using Teams to message others, and is training guidance for people new to Teams, or any Instant Messaging.
+Collaboration through instant messaging and video conferencing have allowed many industries and schools to continue their work during the pandemic. However, online real-time collaboration at such a broad scale also comes with *risks* that must be addressed. Otherwise, bad actors take advantage of this change in work and life with **phishing** and **spam** campaigns. The numbered reference list in this article acts as a primer for general security when using Teams to message others, and is training guidance for people new to Teams, or to any Instant Messaging, security.
 
 The same phishing risks that exist in email exist in instant messaging and collaboration apps so the same user-awareness and guidance should be applied to safeguard Teams users.
 
