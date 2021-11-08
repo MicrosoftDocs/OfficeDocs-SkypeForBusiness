@@ -51,5 +51,5 @@ The new Control Panel includes commonly used menu items that cover most of the n
 |Sub-menu  |Source of Information for cmdlet  |
 |---------|---------|
 |Registrar         |    [Registrar](use-powershell-security-menu.md#registrar)     |
-|Web Service      |  [Client Version Configuration](use-powershell-security-menu.md#web-service)       |
-|PIN Policy    | [Device Update](use-powershell-security-menu.md#pin-policy)        |
+|Web Service      |  [Web Service](use-powershell-security-menu.md#web-service)       |
+|PIN Policy    | [PIN Policy](use-powershell-security-menu.md#pin-policy)        |
