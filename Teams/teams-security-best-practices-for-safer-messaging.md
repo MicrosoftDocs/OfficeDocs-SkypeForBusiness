@@ -47,4 +47,4 @@ It is important to maintain your vigilance and not take your security, and the s
 Finally, it's also critical to recognize that everyone makes mistakes. Users can be prone to clicking when in a hurry, for example, or when tired. Admins should make sure the resources to escalate problem link clicks and other security incidents to are clearly known to users in their organization, so that, if a mistake is made, the user has recourse, and further security actions can be taken.
 
 > [!TIP]
-> Check the Profile card of any contact you’re not sure about, particularly if their email is external to your company (here, for example, blueco.com). Below, a careful user verifies Carianne is a welcome Guest! She has been expressly invited to participate.
+> Check the Profile card of any contact you’re not sure about, particularly if the email is external to your company (for example, an account ending in *@litware.com* if your organization is not *Litware*). A user can verify that people they don't know are welcome Guests to a meeting by checking the Profile card for **(GUEST)**. Guests are expressly invited to participate.
