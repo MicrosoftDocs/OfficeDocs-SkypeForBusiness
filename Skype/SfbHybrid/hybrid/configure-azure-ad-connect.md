@@ -57,9 +57,9 @@ In addition, if you will be managing phone system attributes via your on-premise
 </br>
 |Attribute|Description|
 |---|---|
-|msRTCSIP-Line| The user's phone number|
+|msRTCSIP-Line| The user's hpone number|
 |msRTCSIP-OptionFlags| Indicates if the user is enabled for voice functionality|
-|msRTCSIP-OwnerUrn| Used to identify hybrid application end points|
+|msRTCSIP-OwnerUrn| Used to identify hybrid application endpoints|
 |||
 </br>
 </br>
