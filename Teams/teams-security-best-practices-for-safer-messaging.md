@@ -31,7 +31,7 @@ At a user level, some measures can be simple, and users should feel empowered to
 
 The Teams collaboration feature set allows messaging, file collaboration, meetings, whiteboards, and many other opportunities to connect. These features work across Teams for Enterprise, Teams for Life, Skype, Skype for Business, Azure Communication Services (ACS), and more. That also means it’s necessary to protect yourself, your peers, and your customers across the breadth of these capabilities. Here, again, every user should be empowered to make the safest decision for themselves, their peers, and their customers.
 
-## Just as with email, online safety guidance must be practiced in Microsoft Teams
+## Just as with email, online safety must be practiced in Microsoft Teams messaging
 
 Standard safety measures should become ingrained while working in Teams.
 
