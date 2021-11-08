@@ -1,5 +1,5 @@
 ---
-title: "Contact the PSTN service desk"
+title: "Contact the Telephone Number Services team"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -18,16 +18,16 @@ ms.localizationpriority: medium
 f1.keywords: 
 - CSH
 ms.custom:
-  - ms.teamsadmincenter.voice.pstnservicedesk
-  - ms.teamsadmincenter.voice.contactPSTNsupport
+  - ms.teamsadmincenter.voice.tnsservicedesk
+  - ms.teamsadmincenter.voice.contacttnssupport
   - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
-description: "When you get phone numbers or port (transfer) numbers for your organization, you might need to get help and support at the PSTN service desk."
+description: "When you get phone numbers or port (transfer) numbers for your organization, you might need to get help and support at the TNS service desk."
 ---
 
-# PSTN Service Desk 
+# Telephone Number Services (TNS) - Service Desk 
 
-There is a new process to interact with the PSTN service desk. You can now open tickets, view tickets, and track communication in a single place that is integrated with the Teams Admin Center. This article describes everything you need to know to contact the service desk.
+There is a new process to interact with the Telephone Number Services (TNS) service desk. You can now open tickets, view tickets, and track communication in a single place that is integrated with the Teams Admin Center. This article describes everything you need to know to contact the service desk.
 
 > [!NOTE]
 > As of July 22, 2021, the current email system has been retired.
@@ -176,7 +176,7 @@ For example, you want to place a port-in order and you want two other colleagues
 
 #### Description
 
-Describe what you are trying to achieve and list your questions for the Microsoft PSTN Service desk.  
+Describe what you are trying to achieve and list your questions for the Microsoft Telephone Number Services (TNS) Service desk.  
 
 #### Additional supporting documents
 
@@ -188,9 +188,9 @@ You can view your cases by selecting **View my existing cases** and selecting th
 
 - **Filter your cases** by selecting **Open cases**,  **All cases**, or **Closed cases**.
 
-- **Communicate with the PSTN service desk** regarding your case by opening an existing case, scrolling down, and selecting **Add comment**. A new window will appear. Enter your message in the comment box. Attach any supporting documents (if available) that may assist with your request, and select **Submit**.  
+- **Communicate with the TNS service desk** regarding your case by opening an existing case, scrolling down, and selecting **Add comment**. A new window will appear. Enter your message in the comment box. Attach any supporting documents (if available) that may assist with your request, and select **Submit**.  
 
-  Responses from the PSTN service desk will be displayed under the same timeline. When there is an update on your case, you will receive an automated email notification of the update. 
+  Responses from the **TNS service desk** will be displayed under the same timeline. When there is an update on your case, you will receive an automated email notification of the update. 
 
 - **Cancel a case** by navigating to an existing case, scrolling down, and selecting **Cancel case.** Select a reason for the cancellation from the drop-down list and then select **Cancel**.  
 

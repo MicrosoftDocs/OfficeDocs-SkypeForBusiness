@@ -2,7 +2,7 @@
 title: How to install and configure watcher nodes
 ms.reviewer: 
 ms.author: v-mahoffman
-author: serdars
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/20/2015
 audience: ITPro

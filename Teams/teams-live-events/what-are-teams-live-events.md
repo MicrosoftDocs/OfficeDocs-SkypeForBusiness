@@ -1,7 +1,7 @@
 ---
 title: What are Microsoft Teams live events?
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams

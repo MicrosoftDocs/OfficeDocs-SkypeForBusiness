@@ -27,11 +27,7 @@ description: Learn which desk and conference phones are certified for Microsoft 
 
 The Microsoft Teams certification programs ensure that customers who use certified desk phones and conference phones will experience high-quality audio calls and meetings experience.
 
-Microsoft Teams Certification programs ensure a higher-quality bar with higher performance targets and audio quality metrics. Partners are actively working to meet this higher bar and are qualifying devices against certification requirements. Some of our partners are also working to provide support for the Skype for Business service on the same hardware as the Teams phones. Benefits from Microsoft Teams certified devices include:
-
-- Native Teams experience with hardware button integration and LED notifications
-- Calendar integration and one-touch meeting join
-- Deployed and managed via Teams Admin Center with Intune integration
+Microsoft Teams Certification programs ensure a higher-quality bar with higher performance targets and audio quality metrics. Partners are actively working to meet this higher bar and are qualifying devices against certification requirements. Some of our partners are also working to provide support for the Skype for Business service on the same hardware as the Teams phones. 
 
 ## Currently certified Teams phones
 
@@ -105,6 +101,7 @@ The following are the latest Teams phone app and firmware versions.
 
 | Product release | Release date  | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| 2021 Update #3  | Nov 03, 2021   | 1449/1.0.94.2021101205 | 5.0.5304.0 | 298 |
 | 2021 Update #2A | June 10, 2021  |`1449/1.0.94.2021052803`|  `5.0.5088.0` |  `1.0.0.202103160138.product (256)` |
 | 2021 Update #2  | June 8, 2021  |`1449/1.0.94.2021051303`|  `5.0.5088.0` |  `1.0.0.202103160138.product (256)` |
 | 2021 Update #1A | April 5, 2021  |`1449/1.0.94.2021033002`|  `5.0.5045.0` |  `1.0.0.202101280722.product (253)` |
@@ -121,6 +118,16 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model        | Firmware version     | Included product release  |
 |:--------------------|:---------------------|:-------------------------|
+|Audiocodes C448HD  | C448HD_TEAMS_1.14.449 | 2021 Update #3  |
+|Audiocodes C450HD  | C450HD_TEAMS_1.14.449 | 2021 Update #3  |
+|Audiocodes C470HD  | C470HD_TEAMS_1.14.449 | 2021 Update #3  |
+|Poly Trio C60      | 7.1.3.0985            | 2021 Update #3  |
+|Poly CCX400/CCX500/CCX600 | 7.1.3.0991     | 2021 Update #3  |
+|Crestron UC-2      | 1.0.4.57              | 2021 Update #3  |
+|Yealink T55A/T56A/T58A   | 58.15.0.143     | 2021 Update #3  |
+|Yealink MP54/MP56/MP58   | 122.15.0.60     | 2021 Update #3  |
+|Yealink VP59             | 91.15.0.77      | 2021 Update #3  |
+|Yealink CP960            | 73.15.0.139     | 2021 Update #3  |
 | Poly Trio C60   | `7.0.3.0517`  | 2021 Update #2                        |
 | Poly CCX400/CCX500/CCX600   | `7.0.3.0515` | 2021 Update #2                     |
 | Audio Codes C448HD/C450HD/C470HD   | `1.10.143`  | 2021 Update #2           |
