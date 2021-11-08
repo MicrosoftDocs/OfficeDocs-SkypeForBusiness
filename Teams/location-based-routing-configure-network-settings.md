@@ -1,6 +1,6 @@
 ---
 title: Configure network settings - Location-based routing
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article

@@ -2,7 +2,7 @@
 title: "Quality of Experience (QoE) Data Create New or Edit Existing"
 ms.reviewer: 
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro

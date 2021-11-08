@@ -2,7 +2,7 @@
 title: "Create Skype for Business Server Control Panel Administrators"
 ms.reviewer: 
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro

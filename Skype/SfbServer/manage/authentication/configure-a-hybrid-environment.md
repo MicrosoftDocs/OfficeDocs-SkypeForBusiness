@@ -2,7 +2,7 @@
 title: "Configure server-to-server authentication for a Skype for Business Server hybrid environment"
 ms.reviewer: 
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
