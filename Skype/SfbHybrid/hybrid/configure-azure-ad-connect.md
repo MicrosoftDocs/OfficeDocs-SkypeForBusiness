@@ -55,6 +55,7 @@ If you choose to customize the synchronizations settings in Azure AD Connect, yo
 </br>
 In addition, if you will be managing phone system attributes via your on-premises deployment, you must also synchronize the following attributes:
 </br>
+</br>
 |Attribute|Description|
 |---|---|
 |msRTCSIP-Line| The user's hpone number|
