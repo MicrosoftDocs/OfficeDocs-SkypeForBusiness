@@ -330,7 +330,7 @@ items:
       href: manage-teams-overview.md
     - name: Administrator roles
       href: using-admin-roles.md
-    - name: Manage Teams in the Microsoft Teams admin center
+    - name: Manage teams in Teams admin center
       href: manage-teams-in-modern-portal.md
     - name: Manage Teams settings for your organization
       href: enable-features-office-365.md
@@ -542,6 +542,8 @@ items:
           href: general-teams-templates-in-the-admin-console.md
         - name: Manufacturing category team templates
           href: manufacturing-teams-templates-in-the-admin-console.md
+        - name: Nonprofit category team templates
+          href: team-templates-nonprofit.md
         - name: Manage team template policies
           href: templates-policies.md
     - name: Work with people outside the organization
@@ -965,7 +967,7 @@ items:
                   href: direct-routing-connect-the-sbc.md
                 - name: "Step 2: Enable users"
                   href: direct-routing-enable-users.md
-                - name: "Step 3: Configure voice routing"
+                - name: "Step 3: Configure call routing"
                   href: direct-routing-voice-routing.md
                 - name: "Step 4: Translate phone numbers"
                   href: direct-routing-translate-numbers.md
@@ -973,7 +975,7 @@ items:
                   href: direct-routing-sbc-multiple-tenants.md
                 - name: How to use analog devices with Direct Routing
                   href: direct-routing-analog-devices.md
-                - name: Manage voice routing policies
+                - name: Manage call routing policies
                   href: manage-voice-routing-policies.md
                 - name: Manage call notifications
                   href: direct-routing-call-notifications.md
@@ -1103,7 +1105,7 @@ items:
               href: emergency-calling-labels.md
         - name: Manage emergency calling policies
           href: manage-emergency-calling-policies.md
-        - name: Manage emergency voice routing policies for Direct Routing
+        - name: Manage emergency call routing policies for Direct Routing
           href: manage-emergency-call-routing-policies.md
     - name: Manage voice and calling policies in Teams
       href: voice-and-calling-policies.md
@@ -1585,6 +1587,11 @@ items:
           href: flw-realwear.md
         - name: Walkie Talkie
           href: walkie-talkie.md
+    - name: Teams for Nonprofit
+      href: expand-teams-across-your-org/teams-for-nonprofit-landing-page.md
+      items:
+        - name: Use nonprofit team templates
+          href: team-templates-nonprofit.md
     - name: Teams for Retail
       href: expand-teams-across-your-org/teams-for-retail-landing-page.md
       items:

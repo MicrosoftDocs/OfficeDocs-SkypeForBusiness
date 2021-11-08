@@ -1,6 +1,6 @@
 ---
 title: "Manage Skype Room System accounts"
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro

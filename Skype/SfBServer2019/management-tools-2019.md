@@ -1,7 +1,7 @@
 ---
 title: "Skype for Business Server 2019 Management Tools"
 ms.reviewer: 
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/26/2018

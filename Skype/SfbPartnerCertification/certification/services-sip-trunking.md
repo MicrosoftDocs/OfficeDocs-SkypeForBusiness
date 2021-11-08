@@ -1,6 +1,6 @@
 ---
 title: "Services for Skype for Business"
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: dougand

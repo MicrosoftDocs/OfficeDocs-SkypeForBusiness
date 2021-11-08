@@ -24,6 +24,7 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|Teams Web-Client release | October 2021 |
 |4.10.10.0 |10/1/2021 |
 |4.9.12.0 |07/28/2021 |
 |4.8.31.0 |05/12/2021 |
@@ -71,6 +72,23 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
 
+### Teams Rooms Web client update (October 2021)
+
+Introduced in this update:
+- Unified roster control with Teams desktop client with structured meetings grouping, meeting options and controls for presenters/ attendees, raise hand sort order and ability to invite users from Chat or meeting invite directly from roster 
+- Universal bar call controls alignment with desktop client in meeting call controls, Layout button and meeting status information
+- Dynamic gallery support for single and dual front of room displays
+- Unified layout picker for front of room layout option consolidated
+- Spotlight or Pin multiple participants in Teams meetings
+- Large meetings support with presenter/ attendees controls accessible by tapping participant from roster
+- Ability to lock a meeting for meetings where room is organizer, as well as awareness of meeting that is locked
+- Presenter mode (weatherman) consumption support when a remote user shares content with presenter view option
+- Reaction support in Teams meetings 
+
+
+> [!NOTE]
+> Web client updates are available to all Teams Rooms with application versions 4.10 and 4.9. Admins will be able to enroll in Teams Rooms public preview program to get sneak peak of the web client features soon.
+
 ### 4.10.10.0 (10/1/2021)
 
 Introduced in this update:
@@ -79,7 +97,7 @@ Introduced in this update:
 - Chat bubbles provide notifications for in meeting chat to bring attention to what's being said using meeting chat *
 - Large gallery and Together mode support is now available in GCC High
 - New Skills added to Cortana, Add person by name to the meeting and Call by name 
-- Cortana Push to Talk is enabled by default on all devices. To learn more see [Cortana voice assistance in Teams](../cortana-in-teams.md).
+- Cortana Push to Talk is enabled by default on all devices. To learn more, see [Cortana voice assistance in Teams](../cortana-in-teams.md).
 
 > [!NOTE]
 > Deprecated 19H1 support. Min OS version supported by 4.10 is 19H2.
@@ -164,7 +182,7 @@ Introduced in this update:
 Introduced in this update:
 
 - Coordinated Meetings between Microsoft Teams and Surface Hub 2S
-- Fix for Skype For Business sign in failure when [Windows 10 update KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) or [Windows 10 update KB4571709](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709) is installed
+- Fix for Skype For Business sign-in failure when [Windows 10 update KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) or [Windows 10 update KB4571709](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709) is installed
 
 ### 4.5.35.0 (07/23/2020)
 
@@ -226,7 +244,7 @@ Introduced in this update:
 
 Introduced in this update:
 
-- Auto-answer proximity based calls and admin setting to control this
+- Auto-answer proximity-based calls and admin setting to control this
 - Device Admin Settings UI refresh with addition of device configuration under About tab
 - Room control back to main screen
 - Meeting Room SKU available in GCC
@@ -246,7 +264,7 @@ Introduced in this update:
 - A new content camera feature that enables users to intelligently include a traditional whiteboard into their Teams meeting
 - Additional improvements to the Console UI to reduce clutter and moved Settings into a new side bar that is accessed via More on the console
 - Disabled share tray button if local content cable is not connected or a content camera is not connected
-- Fixed an issue with the touch keyboard where it failed appear the first time only after a MTR system restart
+- Fixed an issue with the touch keyboard where it failed to appear the first time only after an MTR system restart
 - Quality and reliability fixes
 
 ### 4.0.105.0 (07/10/2019)
@@ -255,7 +273,7 @@ Introduced in this update:
 
 - Skype Room System store app rebrand to "Microsoft Teams Rooms"
 - Microsoft Teams Rooms console user interface realigned to Microsoft Teams
-- Theme update: only keep custom background image on front of room displays, while making console background a neutral color to ensure console UI controls meet color contrast — accessibility requirements
+- Theme update: only keep custom background image on front of room displays, while making console background a neutral color to ensure console UI controls meet color contrast—accessibility requirements
 - Universal bar for in-meeting call controls for Teams calls/ meetings to provide consistent experience with Microsoft Teams PC/ Web/ Mobile clients<sup>1</sup>
 - Call quality feedback rating after Teams calls/ meetings<sup>1</sup>
 - Receive/render Microsoft Whiteboard on Microsoft Teams Rooms front of room display when shared from PC/ Web/ Mobile Teams client<sup>1</sup> <sup>2</sup>
@@ -454,7 +472,7 @@ Introduced in this update:
 - Reuse existing investments in your front of room display or projectors
 - Works in all types of meeting spaces from huddle spaces to large conference rooms
 - Certified Skype for Business audio and video devices are available for various room sizes
-- Built-in wired ingest for to project desktop sharing to the room and to the Skype Meeting
+- Built-in wired ingest to project desktop sharing to the room and to the Skype Meeting
 
  **Easy to Deploy, Simple to Manage**
 

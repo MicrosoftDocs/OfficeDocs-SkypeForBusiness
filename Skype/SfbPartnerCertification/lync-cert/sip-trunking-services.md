@@ -1,6 +1,6 @@
 ---
 title: "SIP Trunking and E-911 services partner qualification for Lync"
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: dougand

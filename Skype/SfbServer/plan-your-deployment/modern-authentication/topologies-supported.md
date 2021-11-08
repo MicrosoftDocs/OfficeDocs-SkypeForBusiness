@@ -1,7 +1,7 @@
 ---
 title: "Skype for Business topologies supported with Modern Authentication"
 ms.reviewer:
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro

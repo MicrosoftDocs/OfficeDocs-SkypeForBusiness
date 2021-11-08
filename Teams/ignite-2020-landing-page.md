@@ -5,7 +5,7 @@ author: cichur
 ms.date: 09/21/2020
 ms.topic: article
 ms.service: msteams
-ms.author: v-cichur
+ms.author: v-mahoffman
 audience: admin
 manager: serdars
 ---

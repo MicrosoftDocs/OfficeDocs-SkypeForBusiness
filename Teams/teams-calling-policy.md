@@ -22,6 +22,7 @@ appliesto:
   - Microsoft Teams
 ---
 
+
 # Calling and call-forwarding in Teams
 
 In Microsoft Teams, calling policies control which calling and call forwarding features are available to users. Calling policies determine whether a user can make private calls, use call forwarding or simultaneous ringing to other users or external phone numbers, route calls to voicemail, send calls to call groups, use delegation for inbound and outbound calls, and so on.
@@ -82,7 +83,7 @@ This setting controls whether incoming calls can be forwarded to a call group.
 
 This setting enables inbound calls to be routed to delegates, allowing delegates to make outbound calls on behalf of the users for whom they have delegated permissions. For more information, see [Share a phone line with a delegate](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8).
 
-### Prevent toll bypass and send calls through the PSTN 
+### Prevent toll bypass and send calls through the PSTN
 
 Setting this to **On** will send calls through the PSTN and incur charges rather than sending them through the network and bypassing the tolls.
 
@@ -106,4 +107,4 @@ This setting allows you to turn on or turn off music on hold when a PSTN caller 
 
 [Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
-[Assign policies to your users in Teams](assign-policies.md)
+[Assign policies to your users in Teams](policy-assignment-overview.md)

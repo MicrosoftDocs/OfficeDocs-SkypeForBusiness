@@ -1,7 +1,7 @@
 ---
 title: Create an organization-wide team in Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: phlouie
 manager: serdars
 ms.topic: article
@@ -90,7 +90,7 @@ Even though members can't leave an organization-wide team, as a team owner, you 
 
 ### Is there a way to create an organization-wide team other than using the Teams client?
 
-Global admins only can create an organization-wide team by using the Teams client. If your organization limits creating teams to using PowerShell, the recommended workaround is to add your global admins to the security group of users who can create a team.
+Only global admins can create an organization-wide team by using the Teams client. If your organization limits creating teams to using PowerShell, the recommended workaround is to add your global admins to the security group of users who can create a team.
 
 For more information, see [Manage who can create groups](/microsoft-365/admin/create-groups/manage-creation-of-groups).
 
