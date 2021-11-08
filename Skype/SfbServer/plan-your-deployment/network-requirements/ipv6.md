@@ -2,7 +2,7 @@
 title: "Plan for IPv6 in Skype for Business"
 ms.reviewer: 
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
