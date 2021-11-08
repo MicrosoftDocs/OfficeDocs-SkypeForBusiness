@@ -41,20 +41,20 @@ If you've deployed Skype for Business Server or Microsoft Lync on-premises and y
 Before you begin, IT Pros and administrators should review the [Important considerations for organizations with Skype for Business Server on-premises](#important-considerations-for-organizations-with-skype-for-business-server-on-premises) later in this article.
 
 > [!IMPORTANT]
-> Skype for Business Online will be retired on July 31, 2021, after which it will no longer be accessible or supported. To maximize benefit realization and ensure your organization has proper time to implement your upgrade, we encourage you to begin your journey to Microsoft Teams today. Remember that a successful upgrade aligns technical and user readiness, so be sure to leverage the guidance herein as you navigate your journey to Microsoft Teams.
+> Skype for Business Online will be retired on July 31, 2021, after which it will no longer be accessible or supported. To maximize benefit realization and ensure your organization has proper time to implement your upgrade, we encourage you to begin your journey to Microsoft Teams today. Remember that a successful upgrade aligns technical and user readiness, so be sure to leverage this guidance as you navigate your journey to Microsoft Teams.
 
 ## Step 1: Configure hybrid connectivity 
 
 The key prerequisite for upgrading your on-premises users to Teams is to configure hybrid connectivity for your Skype for Business Server on-premises deployment. 
 
-Start by reading [Plan hybrid connectivity](/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=%2fSkypeForBusiness%2fsfbhybridtoc%2ftoc.json) and then follow the tasks outlined in [Configure hybrid connectivity](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity).
+Start by reading [Plan hybrid connectivity](/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=%2fSkypeForBusiness%2fsfbhybridtoc%2ftoc.json), and then follow the tasks outlined in [Configure hybrid connectivity](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity).
 
 
 ## Step 2: Set transitional coexistence mode (optional)
 
-Coexistence and interoperability between Skype for Business and Teams clients and users are defined by Teams Upgrade modes.  Hybrid organizations as well as any organization created prior to Sept 3, 2019 is by default in Islands mode, which allows users to use both Teams and Skype for Business clients side by side. For an organization moving to Teams, TeamsOnly mode is the final destination for each user--though not all users need to be assigned TeamsOnly (or any other mode) at the same time.
+Coexistence and interoperability between Skype for Business and Teams clients and users are defined by Teams Upgrade modes.  Hybrid organizations, as well as any organization created prior to Sept 3, 2019, are by default in Islands mode. Islands mode allows users to use both Teams and Skype for Business clients side by side. For an organization moving to Teams, TeamsOnly mode is the final destination for each user--though not all users need to be assigned TeamsOnly (or any other mode) at the same time.
 
-Prior to users reaching TeamsOnly mode, organizations can optionally use any of the Skype for Business coexistence modes to ensure predictable communication between users who are in TeamsOnly mode and users who aren't yet.  The purpose of the Skype for Business coexistence modes (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) is to provide a simple, predictable experience for end users as organizations transition from Skype for Business to Teams. User homed in Skype for Business Server on-premises can be assigned any mode other than TeamsOnly. Once a user is moved to the cloud, they are TeamsOnly and cloud only users cannot be assigned a mode other than TeamsOnly. (However, they can be moved back to on-premises which would result in them receiving the tenant's global policy of TeamsUpgradePolicy.)
+Prior to users reaching TeamsOnly mode, organizations can optionally use any of the Skype for Business coexistence modes to ensure predictable communication between users who are in TeamsOnly mode and users who aren't yet.  The purpose of the Skype for Business coexistence modes (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) is to provide a simple, predictable experience for end users as organizations transition from Skype for Business to Teams. A user homed in Skype for Business Server on-premises can be assigned any mode other than TeamsOnly. Once a user is moved to the cloud, they are TeamsOnly.  Cloud-only users cannot be assigned a mode other than TeamsOnly. (However, they can be moved back to on-premises, which would result in them receiving the tenant's global policy of TeamsUpgradePolicy.)
 
 When a user is in any of the Skype for Business modes, all incoming chats and calls are routed to the user's Skype for Business client. To avoid end-user confusion and ensure proper routing, calling and chat functionality in the Teams client is disabled when a user is in any of the Skype for Business modes. Similarly, meeting scheduling in Teams is explicitly disabled when users are in the SfBOnly or SfBWithTeamsCollab modes, and explicitly enabled when a user is in the SfBWithTeamsCollabAndMeetings mode.
 
@@ -63,7 +63,7 @@ Depending on your requirements, you can assign the appropriate coexistence mode 
 
 ## Step 3: Move users from Skype for Business on-premises to Teams Only
 
-Microsoft has recently simplified the process to move users to TeamsOnly and this is now a single step, regardless of which version of Skype for Business Server or Lync Server 2013 you are using.  For more information, see [Move users between on-premises and the cloud](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud) and [Move users from on-premises to Teams](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams). 
+Microsoft has recently simplified the process to move users to TeamsOnly. This process is now a single step, regardless of which version of Skype for Business Server or Lync Server 2013 you are using. For more information, see [Move users between on-premises and the cloud](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud) and [Move users from on-premises to Teams](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams). 
 
 ## Step 4: Disable hybrid to complete your migration to the cloud
 
