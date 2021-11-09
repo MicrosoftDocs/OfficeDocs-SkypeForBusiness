@@ -2,7 +2,7 @@
 title: Teams for Retail
 description: Learn about the admin resources available to manage and get the most out of Teams for your retail stores and workforce.
 ms.topic: conceptual
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 audience: admin
 manager: serdars

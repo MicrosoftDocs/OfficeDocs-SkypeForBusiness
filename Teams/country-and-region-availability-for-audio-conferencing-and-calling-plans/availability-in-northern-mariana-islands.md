@@ -1,6 +1,6 @@
 ---
 title: "Availability in Northern Mariana Islands"
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: fafan

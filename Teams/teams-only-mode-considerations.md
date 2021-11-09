@@ -1,6 +1,6 @@
 ---
 title: Teams Only mode considerations
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 01/09/2019

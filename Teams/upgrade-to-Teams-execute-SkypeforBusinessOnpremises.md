@@ -1,6 +1,6 @@
 ---
 title: Upgrade Skype for Business on-premises to Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
