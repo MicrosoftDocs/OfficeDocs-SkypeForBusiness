@@ -2,7 +2,7 @@
 title: "Configure the Skype for Business Server computers that will be monitored"
 ms.reviewer: 
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro

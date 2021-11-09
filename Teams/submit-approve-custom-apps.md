@@ -1,6 +1,6 @@
 ---
 title: Use the Teams App Submission API to submit and approve your custom apps
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: joglocke, vaibhava
