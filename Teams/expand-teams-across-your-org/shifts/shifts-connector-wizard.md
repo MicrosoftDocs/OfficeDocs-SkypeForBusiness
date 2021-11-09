@@ -21,14 +21,16 @@ appliesto:
 
 ## Overview
 
-The Shifts connector wizard in the Microsoft 365 admin center makes it easy to integrate the Shifts app in Microsoft Teams with your workforce management system. After setup, your frontline workers can seamlessly view and manage their schedules from your workforce management system using Shifts in Teams.
+The Shifts connector wizard in the Microsoft 365 admin center makes it easy to integrate the Shifts app in Microsoft Teams with your workforce management (WFM) system. After setup, your frontline workers can seamlessly view and manage their schedules from your WFM system using Shifts.
 
-The wizard configures the Shifts connector, creates a connection to your workforce management system, and applies the sync settings and team mappings that you specify. With your workforce management system as the system of record, your frontline workers can see their shifts, swap shifts, manage their availability, and request time off directly in Shifts on their devices.
+The wizard configures the Shifts connector, creates a connection to your WFM system, and applies the sync settings and team mappings that you choose. Sync settings determine the schedule information that's synced between your WFM system and Shifts. Team mappings define the sync relationship between your WFM sites and teams in Teams. You can map to existing teams and new teams, which you can create in the wizard.
 
-You can run the wizard as many times as you need, and you can set up multiple connections, each using different settings.
+You can set up multiple connections, each with different sync settings. For example, if your organization has multiple locations, you can create a connection with unique sync settings for each location. Keep in mind that one WFM site can be mapped to one team.
+
+With your WFM system as the system of record, your frontline workers can see their shifts, swap shifts, manage their availability, and request time off directly in Shifts on their devices.
 
 > [!NOTE]
-> We currently support [Blue Yonder](https://blueyonder.com/solutions/workforce-management). We’re working with our partners to support additional workforce management systems.
+> We currently support [Blue Yonder](https://blueyonder.com/solutions/workforce-management). We’re working with our partners to support additional WFM systems.
 
 This article walks you through how to run the wizard to connect Shifts to Blue Yonder.
 
@@ -55,7 +57,7 @@ You'll also need to know your Blue Yonder service account name and password and 
     2. Enter your Blue Yonder service account name and password and service URLs.
     3. Select **Next** to test the connection.
 
-1. On the Sync settings page, you choose the information that you want to sync from Blue Yonder to Shifts, whether Shifts users can make changes to the data, and how often the data is retrieved.
+1. On the Sync settings page, you choose the information to sync from Blue Yonder to Shifts, whether Shifts users can make changes to the data, and how often the data is retrieved.
     1. Enter your Microsoft 365 system account.
     2. Choose who receives email notifications about this connection. You can add individual users and groups. The email notifications contain information about connection setup status. Use this information to troubleshoot any errors that may occur.
     3. Under **Requests**, choose the types of requests that Shifts users can see and create.
