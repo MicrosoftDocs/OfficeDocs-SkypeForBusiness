@@ -79,7 +79,7 @@ Automatic meeting expiration is a lightweight housekeeping mechanism to reduce s
 Use meeting expiration to limit the OneDrive or SharePoint for cloud storage consumption driven by Teams meeting records. A typical meeting recording consumes around 400 MB per hour of recording.
 
 > [!NOTE]
-> The default expiration date for A1 users is 30 days.
+> The maximum default expiration date for A1 users is 30 days.
 
 ### Expiration date
 
@@ -106,10 +106,6 @@ You can set the expiration date in the Teams admin center under **Meeting polici
 
 ![Admin center screenshot of meeting expiration policy.](media/meeting-expiration-policy.jpg)
 
-### Will this feature enforce file retention?
-
-No, files won't be retained due to this feature or its settings. If a user with delete permissions attempts to delete a TMR that has an expiration setting, that user’s delete action will be executed.
-
 ### Security and compliance
 
 #### Should I rely on this feature for strict security and compliance adherence?
@@ -124,6 +120,10 @@ For example:
 
 - If you have a policy that says all files in a site must be retained for 100 days, and the expiration setting for a Teams meeting recording is 30 days, then the recording will be retained for the full 100 days.
 - If you have a deletion policy that says all Teams meeting recordings will be deleted after five days and you have an expiration setting for a Teams meeting recording of 30 days, then the recording will be deleted after five days.
+
+### Will this feature enforce file retention?
+
+No, files won't be retained due to this feature or its settings. If a user with delete permissions attempts to delete a TMR that has an expiration setting, that user’s delete action will be executed.
 
 ### What SKUs are required for this feature?
 
