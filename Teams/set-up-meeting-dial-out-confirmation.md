@@ -1,6 +1,6 @@
 ---
 title: Set up meeting dial-out-confirmation for your users in Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: oscarr
 manager: serdars

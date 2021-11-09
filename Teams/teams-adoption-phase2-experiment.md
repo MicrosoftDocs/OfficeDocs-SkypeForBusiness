@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams adoption phase 2 - Experiment
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018

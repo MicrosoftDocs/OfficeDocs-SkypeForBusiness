@@ -1,6 +1,6 @@
 ---
 title: Feedback surveys in Teams or Skype for Business
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 03/31/2018
