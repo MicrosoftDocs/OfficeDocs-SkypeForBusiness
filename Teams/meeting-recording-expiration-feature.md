@@ -44,17 +44,6 @@ Admins can edit the default expiration setting in their Teams policy console. Th
 
 Admins can't change the expiration date on existing TMRs. This is done to protect the decision of the user that owns the TMR.
 
-![settings for saving a recording](media/defer-expiration.png)
-
-**What is the scope of control for the admin policy?**
-NOTE FROM AUTHOR: add information about the granularity of policy application
-
-**How can end users modify the expiration date?**
-
- Anyone who has edit and delete permissions on a TMR can modify the expiration date in the file’s details pane in Microsoft OneDrive and SharePoint.
-
- Users can defer the expiration 14, 30, or 60 days, or they can choose a specific date in the future. Another option is that they can select that the file never expires.
-
 **Whom does this impact?**
 
 Anyone storing TMRs in OneDrive or SharePoint.
@@ -70,7 +59,7 @@ No, you shouldn't rely on this for legal protection since end users can modify t
 
 **Will a retention and/or deletion policy I've set in the Security & Compliance center override the Teams meeting recording expiration setting?**
 
-Yes, any policies you have set in the compliance center will take full precedence. 
+Yes, any policies you have set in the compliance center will take full precedence.
 
 For example:
 
