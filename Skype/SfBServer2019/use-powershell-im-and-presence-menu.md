@@ -1,5 +1,5 @@
 ---
-title: "Use PowerShell for tasks on Security menu"
+title: "Use PowerShell for tasks on IM and Presence menu"
 ms.reviewer: 
 ms.author: ankum
 author: ankum
