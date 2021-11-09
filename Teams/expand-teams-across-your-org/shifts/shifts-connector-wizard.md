@@ -25,18 +25,23 @@ The Shifts connector wizard in the Microsoft 365 admin center makes it easy to i
 
 The wizard configures the Shifts connector, creates a connection to your workforce management system, and applies the sync settings and team mappings that you specify. With your workforce management system as the system of record, your frontline workers can see their shifts, swap shifts, manage their availability, and request time off directly in Shifts on their devices.
 
+You can run the wizard as many times as you need, and you can set up multiple connections, each using different settings.
+
 > [!NOTE]
-> We currently support Blue Yonder. We’re working with our partners to support additional workforce management systems.
+> We currently support [Blue Yonder](https://blueyonder.com/solutions/workforce-management). We’re working with our partners to support additional workforce management systems.
+
+This article walks you through how to run the wizard to connect Shifts to Blue Yonder.
 
 ## Before you begin
 
-You must be a Microsoft 365 global admin to run the wizard. Before you get started, make sure you meet the following prerequisites:
+You must be a Microsoft 365 global admin or Shifts admin to run the wizard. Before you get started, make sure you meet the following prerequisites:
 
 - Blue Yonder version 2020.3 and 2021.
 - At least one team set up in Teams.
 - Licenses?
+- Remove existing shift schedules in teams?
 
-You'll also need your Blue Yonder service account name and password and service URLs. If you don’t have this information, contact your Blue Yonder delivery partner or technical account manager.
+You'll also need to know your Blue Yonder service account name and password and service URLs. If you don’t have this information, contact your Blue Yonder delivery partner or technical account manager.
 
 ## Run the wizard
 
@@ -50,7 +55,7 @@ You'll also need your Blue Yonder service account name and password and service 
     2. Enter your Blue Yonder service account name and password and service URLs.
     3. Select **Next** to test the connection.
 
-1. On the Sync settings page, you choose the information that you want to sync from Blue Yonder to Shifts, how often the data is retrieved, and whether Shifts users can make changes to the data.
+1. On the Sync settings page, you choose the information that you want to sync from Blue Yonder to Shifts, whether Shifts users can make changes to the data, and how often the data is retrieved.
     1. Enter your Microsoft 365 system account.
     2. Choose who receives email notifications about this connection. You can add individual users and groups. The email notifications contain information about connection setup status. Use this information to troubleshoot any errors that may occur.
     3. Under **Requests**, choose the types of requests that Shifts users can see and create.
@@ -75,7 +80,6 @@ You'll also need your Blue Yonder service account name and password and service 
         2. Add users to the team. You can also add groups.
         3. Choose whether to create your team from scratch or from a team template. Team templates come with predefined channels and tabs, which optimize the team for a particular business need or project.
     3. Choose the time zone and closest city.
-
 
 1. Review your settings, and then select **Finish**.
 1. You’ll see a message to confirm that we received your request and are working on it, along with an operation ID. Make a note of the operation ID for future reference. We refer to it in the status emails.

@@ -19,12 +19,17 @@ appliesto:
 
 # Use PowerShell to connect Shifts to your Blue Yonder workforce management system
 
-## Overview
+The script tests and verifies the connection to Blue Yonder, configures the Shifts connector, applies sync settings, creates the connection, and maps Blue Yonder sites to teams.
 
+## Before you begin
 
-1. Tests your connection settings
-1. Configures the Shifts connector for Blue Yonder, applies sync settings, and creates the connection.
-1. Maps Blue Yonder sites to teams
+You must be a Microsoft 365 global admin. Before you get started, make sure you meet the following prerequisites:
+
+- Blue Yonder version 2020.3 and 2021
+- At least one team set up in Teams
+- Licenses?
+
+You'll also need to know your Blue Yonder service account name and password and service URLs. If you don’t have this information, contact your Blue Yonder delivery partner or technical account manager.
 
 ## Set up your environment
 
@@ -71,9 +76,16 @@ appliesto:
 
 ## Remove existing Shifts schedules in teams
 
-## Run the Shifts connector script to create the connection
+## Run the Shifts connector to Blue Yonder script
 
-The script tests your connection settings, configures the Shifts connector, applies sync settings, creates the connection, and maps Blue Yonder sites to teams.
+Run the Shifts connector script to connect Shifts to Blue Yonder. The script does the following:
+
+1. Tests and verifies the connection using the Blue Yonder connection details that you enter.
+1. Configures the Shifts connector, applies sync settings that you specify, and creates the connection.
+1. Maps Blue Yonder sites to teams that you specify.
+
+We have two scripts that you can use, depending on whether you want to create a new team in Teams when the connection is created.
+
 
 
 ## Related topics
