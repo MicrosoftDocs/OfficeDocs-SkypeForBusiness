@@ -2,7 +2,7 @@
 title: "Start or stop CLS log capture in Skype for Business Server 2015"
 ms.reviewer: 
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro

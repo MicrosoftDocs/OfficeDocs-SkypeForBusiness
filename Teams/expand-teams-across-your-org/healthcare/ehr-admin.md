@@ -1,8 +1,8 @@
 ---
 title: Virtual visits with Teams - Integration into Epic EHR
-author: cichur
-ms.author: v-mahoffman
-manager: serdars
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams

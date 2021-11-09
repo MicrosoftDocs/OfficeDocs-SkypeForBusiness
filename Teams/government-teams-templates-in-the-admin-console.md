@@ -1,6 +1,6 @@
 ---
 title: Use government team templates in the admin center
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: Admin

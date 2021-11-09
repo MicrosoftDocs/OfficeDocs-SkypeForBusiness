@@ -2,7 +2,7 @@
 title: "Using Monitoring Reports in Skype for Business Server"
 ms.reviewer: 
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article

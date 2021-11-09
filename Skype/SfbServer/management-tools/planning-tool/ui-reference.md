@@ -2,7 +2,7 @@
 title: "Planning Tool UI Reference"
 ms.reviewer: 
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.date: 12/20/2018
 manager: serdars
 audience: ITPro

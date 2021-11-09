@@ -1,6 +1,6 @@
 ---
 title: Teams client experience and conformance to coexistence modes
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual

@@ -45,3 +45,11 @@ The new Control Panel includes commonly used menu items that cover most of the n
 |Device Configuration         |    [Device Configuration](use-powershell-client-menu.md#device-configuration)     |
 |Mobility Policy         |    [Mobility Policy](use-powershell-client-menu.md#mobility-policy)     |
 |Push Notification Configuration         |    [Push Notification Configuration](use-powershell-client-menu.md#push-notification-configuration)     |
+
+## Security
+
+|Sub-menu  |Source of Information for cmdlet  |
+|---------|---------|
+|Registrar         |    [Registrar](use-powershell-security-menu.md#registrar)     |
+|Web Service      |  [Web Service](use-powershell-security-menu.md#web-service)       |
+|PIN Policy    | [PIN Policy](use-powershell-security-menu.md#pin-policy)        |
