@@ -25,25 +25,25 @@ description: "Instructions for configuring Azure AD Connect in a hybrid environm
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
  
-To use Teams, organizations with an on-premises deployment of Skype for Business Server or Lync Server 2013 must configure Azure AD Connect to synchronize their on-premises directory with Microsoft 365. Organizations with Skype for Business Server on-premises must ensure that the proper msRTCSIP attributes are synchronized into Azure AD. In this article, any reference to "Skype for Business Server" also applies to Lync Server 2013.
+To use Teams, organizations with an on-premises deployments of Skype for Business Server or Lync Server 2013 must configure Azure AD Connect to synchronize their on-premises directory with Microsoft 365. Organizations with Skype for Business Server on-premises must ensure that the proper msRTCSIP attributes are synchronized into Azure AD. In this article, any reference to "Skype for Business Server" also applies to Lync Server 2013.
 
 > [!NOTE]
-> - To get full functionality, existing Teams users who also have Skype for Business on-premises will need to have their Skype for Business on-premises account moved to the cloud. For example, to get functionality such as the ability to interoperate with Skype for Business users, and to communicate with users in federated organizations. Even if the on-premises user will only be using Teams, you must move the user to the cloud to provide full Teams functionality as a TeamsOnly user. For this migration to take place, you must ensure that Azure AD Connect is properly configured so that you can enable hybrid.
-> - Even if you are not planning to move users from on-premises to the cloud any time soon, you must configure Azure AD Connect so that the Teams and the Skype for Business Server accounts coexist.
+> - To get full functionality, existing Teams users who also have Skype for Business on-premises will need to have their Skype for Business on-premises account moved to the cloud. For example, to get functionality such as the ability to interoperate with Skype for Business users, and to communicate with users in federated organizations. If the on-premises user will only be using Teams, you must still move the user to the cloud to provide full Teams functionality as a TeamsOnly user. For this migration to take place, you must configure Azure AD Connect so that you can enable hybrid.
+> - If you are not planning to move users from on-premises to the cloud any time soon, you must still configure Azure AD Connect so that the Teams and the Skype for Business Server accounts coexist.
  
 
 ## Background information
 
-Azure Active Directory Connect keeps your on-premises Active Directory continuously synchronized with Microsoft 365. Your on-premises directory remains the authoritative source of identity, and changes from your on-premises environment are synchronized into Azure AD. For more information, see [Azure AD Connect Sync](/azure/active-directory/hybrid/how-to-connect-sync-whatis).  *Users in your organization will be represented in both your on-premises and online directories.*  All users who use Teams or Skype for Business on-premises must be synchronized from on-premises into Azure AD to ensure coexistence of these accounts. In addition, you may faciliate communication between on-premises and online users via Skype for Business hybrid connectivity, which also requires configuration of Azure AD Connect.
+Azure Active Directory Connect keeps your on-premises Active Directory continuously synchronized with Microsoft 365. Your on-premises directory remains the authoritative source of identity, while changes from your on-premises environment are synchronized into Azure AD. For more information, see [Azure AD Connect Sync](/azure/active-directory/hybrid/how-to-connect-sync-whatis).  *Users in your organization will be represented in both your on-premises and online directories.*  All users who use Teams or Skype for Business on-premises must be synchronized from on-premises into Azure AD to ensure coexistence of these accounts. In addition, you may faciliate communication between on-premises and online users via Skype for Business hybrid connectivity, which also requires configuration of Azure AD Connect.
 
 
 ## Configuring Azure AD when you have Skype for Business Server 
 
 ### General requirements 
 
-For an on-premises deployment of Skype for Business Server to co-exist with Teams properly, certain Active Directory attributes from the on-premises deployment must be synchronized into Azure AD using Azure AD Connect. Setup for Azure AD Connect automatically configures the required attributes to be synchronized by default when it detects the presense of Skype for Business Server in your on-premises environment. These attributes include general identity attributes such as user principal name, as well as attributes prefaced with "msRTCSIP," which are specific to Skype For Business Server. The full set of attributes is listed at [Azure AD Connect sync: Attributes synchronized to Azure Active Directory](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized#teams-and-skype-for-business-online).
+For an on-premises deployment of Skype for Business Server to co-exist with Teams, certain Active Directory attributes from the on-premises deployment must be synchronized into Azure AD using Azure AD Connect. Setup for Azure AD Connect automatically configures the required attributes to be synchronized by default when it detects the presense of Skype for Business Server in your on-premises environment. These attributes include general identity attributes, such as user principal name, as well as attributes prefaced with "msRTCSIP," which are specific to Skype For Business Server. The full set of attributes is listed at [Azure AD Connect sync: Attributes synchronized to Azure Active Directory](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized#teams-and-skype-for-business-online).
 
-If you choose to customize the synchronization settings in Azure AD Connect, you must, at a bare minimum, ensure the following attributes are synchronized for user objects:
+If you choose to customize the synchronization settings in Azure AD Connect, you must ensure that the following attributes are synchronized for user objects:
 </br>
 
 |Attribute|Description|
@@ -65,13 +65,13 @@ In addition, if you are managing phone system attributes through your on-premise
 |||
 
 </br>
-Microsoft recommends that you synchronize all forests that contain user identities as well as any forests that contain Skype for Business Server.  If users’ identities exist across multiple forests, Azure AD Connect should do the merge. When this guidance is followed, Azure AD Connect will automatically synchronize the correct attributes, provided you do not modify either the Connectors or Sync Rules in Azure AD Connect. 
+Microsoft recommends that you synchronize all forests that contain user identities as well as any forests that contain Skype for Business Server. If users’ identities exist across multiple forests, Azure AD Connect should do the merge. When this guidance is followed, Azure AD Connect will automatically synchronize the correct attributes, provided you do not modify either the Connectors or Sync Rules in Azure AD Connect. 
   
 If you do not synchronize from all forests that contain user identities and the Skype for Business Server deployment, you must ensure the relevant identity and Skype for Business attributes are correctly populated into Azure AD for any user using Teams or Skype for Business (whether on-premises or online). This will likely require additional on-premises directory synchronization. For more information, see [Azure AD Connect sync: Attributes synchronized to Azure Active Directory](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized).
 
-In such scenarios, it is the customer’s responsibility to ensure proper configuration for populating the attributes into Azure AD. Keep the following in mind: 
+It is the customer’s responsibility to ensure proper configuration for populating the attributes into Azure AD. Keep the following in mind: 
 
-- Using a non-standard configuration for synchronizing to Azure AD is risky because it could lead to misconfiguration, which could cause data corruption in your online directory.
+- Using a non-standard configuration for synchronizing to Azure AD is risky. Nonstandard configurations could cause data corruption in your online directory.
 
 - As products evolve, Microsoft will continue to verify standard synchronization configurations in which all relevant forests are synchronized. Customers with custom synchronization configurations are responsible for ensuring their configurations deliver the correct attributes and values into Azure AD. 
 
