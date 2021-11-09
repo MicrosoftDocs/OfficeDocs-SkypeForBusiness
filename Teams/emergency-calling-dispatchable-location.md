@@ -24,6 +24,8 @@ ms.custom: seo-marvel-mar2020
 
 This article describes Microsoft's support for ensuring that a caller's location information sent to the Public Safety Answering Point (PSAP) is accurate regardless of the caller's location--onsite or working from home.
 
+In addition to 
+
 In particular, Microsoft has made changes to support the following:  
 
 - Off-premises devices associated with an Multi-Line-Telephone-Syste (MLTS) must provide to the appropriate PSAP automated dispatchable location if technically feasible
@@ -86,6 +88,16 @@ Enhancements to location requests;
 | Direct to PSAP |
 | Emergency address statically assigned to the user/number | Screened and Transferred to PSAP |
 | Null |  Screened and Transferred to PSAP |
+
+
+## Notes
+
+WFH experience described is for Teams desktop on Windows and Mac
+Teams mobile supports automatic location detection but not the user entered / confirmed / stored experience described
+Teams phones do not support the WFH experience
+Privacy settings can conflict with automatic location detection - Mobile Device Management systems can be leveraged
+Teams Emergency Policy will support a customizable disclaimer
+The location refresh timer is ~2 minutes when roaming between networks
 
 
 
