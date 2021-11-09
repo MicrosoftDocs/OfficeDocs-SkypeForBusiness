@@ -58,5 +58,5 @@ The new Control Panel includes commonly used menu items that cover most of the n
 
 |Sub-menu  |Source of Information for cmdlet  |
 |---------|---------|
-|File Filter         |    [Registrar](use-powershell-im-and-presence-menu.md#file-filter)     |
-|URL Filter      |  [Web Service](use-powershell-im-and-presence-menu.md#url-filter)       |
+|File Filter         |    [File Filter](use-powershell-im-and-presence-menu.md#file-filter)     |
+|URL Filter      |  [URL Filter](use-powershell-im-and-presence-menu.md#url-filter)       |
