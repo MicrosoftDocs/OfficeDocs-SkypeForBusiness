@@ -1,6 +1,6 @@
 ---
 title: "Plan for Skype for Business in VDI environments"
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: krishra
 manager: serdars
