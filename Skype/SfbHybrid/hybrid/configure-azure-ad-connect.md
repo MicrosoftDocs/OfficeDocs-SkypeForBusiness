@@ -25,17 +25,16 @@ description: "Instructions for configuring Azure AD Connect in a hybrid environm
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
  
-To use Teams, organizations with an on-premises deployment of Skype for Business Server or Lync Server 2013 must configure Azure AD Connect to synchronize their on-premises directory with Microsoft 365. Organizations with Skype for Business Server on-premises must ensure that the proper msRTCSIP attributes are synchronized into Azure AD. In this specific article, any use of Skype for Business Server also applies to Lync Server 2013.
+To use Teams, organizations with an on-premises deployment of Skype for Business Server or Lync Server 2013 must configure Azure AD Connect to synchronize their on-premises directory with Microsoft 365. Organizations with Skype for Business Server on-premises must ensure that the proper msRTCSIP attributes are synchronized into Azure AD. In this specific article, any reference to "Skype for Business Server" also applies to Lync Server 2013.
 
 > [!NOTE]
-> Existing Teams users who also have Skype for Business on-premises will need to have their Skype for Business on-premises account moved to the cloud in order to get full functionality--such as the ability to interoperate with Skype for Business users, and to communicate with users in federated organizations. Even if the user will only be using Teams, this online Skype for Business account is required by the infrastructure to deliver the additional functionality. For this migration to take place, you must ensure that Azure AD Connect is properly configured so that you can enable hybrid.
+> - Existing Teams users who also have Skype for Business on-premises will need to have their Skype for Business on-premises account moved to the cloud in order to get full functionality--such as the ability to interoperate with Skype for Business users, and to communicate with users in federated organizations. Even if the on-premises user will only be using Teams, it is required to move the user to the cloud to provide them full Teams functionality as TeamsOnly user. For this migration to take place, you must ensure that Azure AD Connect is properly configured so that you can enable hybrid.
+> - Even if you are not planning to move users from on-premises to the cloud any time soon, Azure AD Connect must be properly configured so that the Teams and the Skype for Business Server accounts coexist.
  
 
 ## Background information
 
-Azure Active Directory Connect keeps your on-premises Active Directory continuously synchronized with Microsoft 365. Your on-premises directory remains the authoritative source of identity, and changes from your on-premises environment are synchronized into Azure AD. For more information, see [Azure AD Connect Sync](/azure/active-directory/hybrid/how-to-connect-sync-whatis).  
-
-If you are not moving all users from on-premises to the cloud, all users that use Teams or Skype for Business on-premises must be synchronized from on-premises into Azure AD to ensure communication between on-premises and online users. *Users in your organization will be represented in both your on-premises and online directories.*
+Azure Active Directory Connect keeps your on-premises Active Directory continuously synchronized with Microsoft 365. Your on-premises directory remains the authoritative source of identity, and changes from your on-premises environment are synchronized into Azure AD. For more information, see [Azure AD Connect Sync](/azure/active-directory/hybrid/how-to-connect-sync-whatis).  *Users in your organization will be represented in both your on-premises and online directories.*  All users who use Teams or Skype for Business on-premises must be synchronized from on-premises into Azure AD to ensure coexistence of these accounts. In addition, you may faciliate communication between on-premises and online users via Skype for Business hybrid connectivity, which also requires Azure AD Connect to be configured.
 
 
 ## Configuring Azure AD when you have Skype for Business Server 
