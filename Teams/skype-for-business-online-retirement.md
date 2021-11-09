@@ -70,8 +70,9 @@ Take advantage of the resources available to help plan your Teams deployment and
 If you’re a current Skype for Business Online customer, start planning your upgrade to Teams today. We’re excited for you to experience its powerful communication and collaboration capabilities, and we’re committed to helping along the way.
 
 ## What to expect post-retirement
+It is no longer possible for users homed in the cloud to be assigned a mode other than TeamsOnly. Users that are TeamsOnly cannot be assigned any other coexistence mode.
 
-Microsoft will provide assisted upgrades for Skype for Business Online users not in Teams Only mode at retirement. Customers will receive notifications in both the Teams admin center, and the Microsoft 365 Message Center, 90 days before their scheduled upgrade date to allow time for technical and user readiness.
+In addition, Microsoft will provide assisted upgrades for Skype for Business Online users not in Teams Only mode at retirement. Customers will receive notifications in both the Teams admin center, and the Microsoft 365 Message Center, 90 days before their scheduled upgrade date to allow time for technical and user readiness.
 
 After the assisted upgrade is complete, all online users will be in Teams Only mode. Users in Teams Only mode receive incoming chats and calls, and schedule meetings, in Teams. Users in Teams Only mode will not be able to initiate chats or calls or schedule meetings in Skype for Business Online. Teams Only users will still be able to join Skype for Business meetings scheduled by users still using Skype for Business Server.
 

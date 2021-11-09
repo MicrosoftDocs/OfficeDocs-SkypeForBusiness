@@ -1,6 +1,6 @@
 ---
 title: Approvals application availability in Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: farhazk
 manager: serdars

@@ -1,7 +1,7 @@
 ---
 title: "Partner qualification for Lync"
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -33,7 +33,7 @@ For more information about these products, contact the listed partner.
 
 ## WiFi
 
-<table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" width="100%" xmlns="http://www.w3.org/1999/xhtml">
+<table>
 	<colgroup>
 		<col width="138" />
 		<col width="510" />
@@ -163,7 +163,7 @@ For more information about these products, contact the listed partner.
 
 ## Wired
 
-<table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" width="100%" xmlns="http://www.w3.org/1999/xhtml">
+<table border="1" cellpadding="5" cellspacing="" class="grid" width="100%">
 	<colgroup>
 		<col width="138" />
 		<col width="684" />

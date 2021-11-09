@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-description: "Summary: Skype for Business Server Control panel to Cmdlet mapping."
+description: "Summary: Skype for Business Server Control panel to Cmdlet mapping for Client menu."
 ---
 # Client
 
