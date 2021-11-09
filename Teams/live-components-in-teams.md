@@ -23,6 +23,8 @@ appliesto:
 # Manage live components in Teams
 
 Live components in Teams chat offer a new way to ideate, create, and make decisions together. Send a component—like a table, task list, or paragraph—where everyone in your chat can edit inline and see changes as they’re made. This means you can gather ideas and feedback from your team while holding fewer meetings and minimizing the need for long chat threads.
+> [!Note]
+> Live components is the first feature of the [Microsoft Loop app](https://www.microsoft.com/en-us/microsoft-loop) to become available in Teams. Please note that "Live components" will be renamed "Loop components" in early 2022.
 
 **Get tasks done faster together.** Crowd-source an agenda, track a group's action items, or take notes collectively. These are just a few scenarios made easier with live components.
 
@@ -33,8 +35,6 @@ Live components in Teams chat offer a new way to ideate, create, and make decisi
 ## Clients and platforms
 
 Available on Teams apps on Windows, Mac, Linux, iOS, and Android.
-
-Starting in Early September, live components will be available globally. In late September, it will be available for Government Community Cloud Mod (GCC).
 
 ## Settings management
 
@@ -79,18 +79,31 @@ Url: <https://a830edad9050849822e21011208-admin.sharepoint.com/>
 PS C:\\WINDOWS\\system32&gt; set-SPOTenant -isFluidEnabled $false
 PS C:\\WINDOWS\\system32&gt;
 ```
+## Known issues
+
+- Live component in chat cannot be edited via Office app when using Teams on Android.
+
+- If tenant default file permissions are set to **Specific people**, and the sender removes a user via the permissions dialog when creating a component, that user will still have access to edit the content as long as they are members in the chat.
 
 ## Known limitations
 
-- Creating a table or a task list as the first component after the Teams app is restarted may take some extra time.
+- Searching for live components in Teams search will return a link to the component in office.com, not the chat message itself.
 
-- Other chat members will receive an email notification when mentioned with an at (@) symbol. (At-mentions notifications in the Teams activity feed will be available soon.)
+- Live components are disabled in federated chats.
 
-- Searching for live components within Teams search will return a link to the component in office.com, not the chat message itself.
+- Guest users (using Azure B2B) can only collaborate on components shared with them in chat; they cannot create new components in Teams chat if they don't have OneDrive for Business access or license from the tenant, nor edit them in office.com.
 
-- Live components are disabled in federated chats and enabled for regular chats with a Guest account using Azure B2B.
+- Teams Web client full support of Live components will be available soon.
 
-- While you can share a component in Teams channels and other Microsoft 365 apps, recipients get a link in most places at this time. Inline editing is planned for more experiences in the future.
+- While you can share a component in Teams channels and other Microsoft 365 apps, recipients simply get a link in most places at this time. Inline editing is planned for more experiences in the future.
+
+- With tenant default file permissions set to “Specific people”, copying link to live component and pasting in another chat requires the sender to use manage access options and add the recipient using specific people permissions to get access to live component.
+
+- With tenant default file permissions set to “Specific people”, creating a live component in group chat with more than 20 members will require the sender to manually select the permission options for the component.
+
+- Renaming the original file and pasting the link back to chat won't allow the user to change the file permissions on chat compose.
+
+- Live component messages will not be loaded in Teams chats if its file is moved to different location on OneDrive for Business.
 
 ## Storage of `.fluid` files
 
