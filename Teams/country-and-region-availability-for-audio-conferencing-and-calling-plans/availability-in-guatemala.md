@@ -1,7 +1,7 @@
 ---
 title: "Availability in Guatemala"
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
@@ -64,7 +64,7 @@ If Calling Plans are not available to purchase, consider using [Phone System Dir
 |**Feature**|**Details**|
 |:-----|:-----|
 |What capitals or major cities can you get toll numbers for?   | Cuidad de Guatemala<br/> |
-|Are toll numbers available?  <br/> |Yes ([on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> Toll numbers are only accessible from within the country.|
+|Are toll numbers available?  <br/> |Yes ([on request](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> Toll numbers are only accessible from within the country.|
 |Are toll free numbers available?  <br/> |No  <br/> |
 
  If you want to get toll and toll free phone numbers for Audio Conferencing, Auto attendants and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](../getting-service-phone-numbers.md).
