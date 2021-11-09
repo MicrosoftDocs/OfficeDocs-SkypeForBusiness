@@ -1,6 +1,6 @@
 ---
 title: "Availability in Jamaica"
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
