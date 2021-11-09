@@ -53,3 +53,10 @@ The new Control Panel includes commonly used menu items that cover most of the n
 |Registrar         |    [Registrar](use-powershell-security-menu.md#registrar)     |
 |Web Service      |  [Web Service](use-powershell-security-menu.md#web-service)       |
 |PIN Policy    | [PIN Policy](use-powershell-security-menu.md#pin-policy)        |
+
+## IM and Presence
+
+|Sub-menu  |Source of Information for cmdlet  |
+|---------|---------|
+|File Filter         |    [Registrar](use-powershell-im-and-presence-menu.md#file-filter)     |
+|URL Filter      |  [Web Service](use-powershell-im-and-presence-menu.md#url-filter)       |
