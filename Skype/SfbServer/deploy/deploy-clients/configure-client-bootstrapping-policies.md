@@ -2,7 +2,7 @@
 title: "Configure client bootstrapping policies"
 ms.reviewer: 
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart

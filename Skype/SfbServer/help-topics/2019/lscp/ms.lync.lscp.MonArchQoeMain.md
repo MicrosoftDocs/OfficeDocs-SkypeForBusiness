@@ -2,7 +2,7 @@
 title: "Quality of Experience (QoE) Data"
 ms.reviewer: 
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
