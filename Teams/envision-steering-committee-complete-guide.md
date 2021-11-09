@@ -1,6 +1,6 @@
 ---
 title: Steering committee for cloud voice deployment
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 03/13/2018

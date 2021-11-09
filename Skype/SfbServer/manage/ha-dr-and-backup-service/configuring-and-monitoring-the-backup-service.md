@@ -1,7 +1,7 @@
 ---
 title: 'Configuring and monitoring the Backup Service'
 ms.reviewer: 
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: ITPro

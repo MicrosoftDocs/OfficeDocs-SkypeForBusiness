@@ -1,6 +1,6 @@
 ---
 title: Set up Microsoft Teams meeting add-on for Google Workspace
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: aravin
 manager: serdars

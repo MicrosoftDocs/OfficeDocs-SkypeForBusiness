@@ -38,7 +38,7 @@ You can access CQD data by several different avenues. Pick the one that best mee
 |Teams admin center [(https://admin.teams.microsoft.com)](https://admin.teams.microsoft.com)    | CQD data is included on the **Users** page in the Teams admin center, showing the most common data you need in an easy-to-read format. You can't customize CQD data that you find under **Users**.  |
 |CQD portal [(https://cqd.teams.microsoft.com)](https://cqd.teams.microsoft.com)     | Robust summary and detailed reports that meet most needs, with drill-through filtering. You can also customize reports in the CQD portal. <br><br>Get two [CQD report templates](#import-the-cqd-report-templates) to help you analyze data in the CQD portal.       |
 |Power BI     | Use direct queries to view your CQD data in Power BI using [customizable Power BI templates](CQD-Power-BI-query-templates.md). [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true).<br><br>You can also [use the REST API to access CQD data](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) through Power BI. Use this method if you want to download your CQD data so you can work on it offline. The benefit of using this method is better performance, especially useful for large data sets that bog down in Power BI when you're online.       |
-|Graph API     | Access call quality data yourself using the [Graph API](/graph/api/resources/callrecords-api-overview?view=graph-rest-beta). This is the most complex method, but it gives you the most control and flexibility in analyzing your call quality data. For example, if you need to join it with other data for your organization, you can use the Graph API to create a data model and incorporate call quality data.        |
+|Graph API     | Access call quality data yourself using the [Graph API](/graph/api/resources/callrecords-api-overview). This is the most complex method, but it gives you the most control and flexibility in analyzing your call quality data. For example, if you need to join it with other data for your organization, you can use the Graph API to create a data model and incorporate call quality data.        |
 
 ## Import the CQD report templates
 
@@ -101,9 +101,9 @@ The URL Date parameter accepts a Day field. Rolling-day reports use dates specif
 
 |URL| End date of Rolling Day Trend|
 |:---|:---|
-|<span>https://<cqdv3>/spd/#/Dashboard/<reportid>/2019-02/</span>   |Current Day of Feb 2019|
-|<span>https://<cqdv3>/spd/#/Dashboard/<reportid>/2019-02-15/</span>|Feb 15, 2019|
-|<span>https://<cqdv3>/spd/#/Dashboard/<reportid>/00/</span>        |Current Day|
+|<span>https://\<cqdv3>/spd/#/Dashboard/\<reportid>/2019-02/</span>   |Current Day of Feb 2019|
+|<span>https://\<cqdv3>/spd/#/Dashboard/\<reportid>/2019-02-15/</span>|Feb 15, 2019|
+|<span>https://\<cqdv3>/spd/#/Dashboard/\<reportid>/00/</span>        |Current Day|
 |||
 
 By default, the current day of the month is used as the last day of the Rolling Day Trend.

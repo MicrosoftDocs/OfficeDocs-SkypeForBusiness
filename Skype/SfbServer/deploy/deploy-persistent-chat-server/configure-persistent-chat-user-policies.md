@@ -2,7 +2,7 @@
 title: "Configure Persistent Chat user policies in Skype for Business Server 2015"
 ms.reviewer: 
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro

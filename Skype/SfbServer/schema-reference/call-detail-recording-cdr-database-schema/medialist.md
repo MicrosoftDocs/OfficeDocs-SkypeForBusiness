@@ -2,7 +2,7 @@
 title: "MediaList table"
 ms.reviewer: 
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/12/2016
 audience: ITPro
