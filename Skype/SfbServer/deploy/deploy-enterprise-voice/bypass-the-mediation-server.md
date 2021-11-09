@@ -1,8 +1,8 @@
 ---
 title: "Configure media bypass in Skype for Business Server to always bypass the Mediation Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart

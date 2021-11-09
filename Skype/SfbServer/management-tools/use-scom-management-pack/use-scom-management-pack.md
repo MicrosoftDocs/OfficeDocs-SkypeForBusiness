@@ -1,8 +1,8 @@
 ---
 title: "Manage Skype for Business Server 2015 using SCOM Management pack"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/13/2018
 audience: ITPro
