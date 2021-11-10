@@ -3,7 +3,7 @@ title: Teams security best practices for safer messaging
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
-ms.date: 11/08/2021
+ms.date: 11/10/2021
 ms.topic: reference
 ms.service: msteams
 audience: admin
