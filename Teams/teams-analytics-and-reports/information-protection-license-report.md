@@ -22,7 +22,7 @@ ms.custom: seo-marvel-apr2020
 # Microsoft Teams information protection license report
 
 
-Teams information protection license report gives API usage insight of [Microsoft Graph API which has license and payment requirements](https://docs.microsoft.com/en-us/graph/teams-licenses). This report higlights all the app which are using these API in [model A](https://docs.microsoft.com/en-us/graph/teams-licenses#modela-requirements), it does not show usage when API is used in model is [model B](https://docs.microsoft.com/en-us/graph/teams-licenses#modelb-requirements) or [evaluation mode](https://docs.microsoft.com/en-us/graph/teams-licenses#evaluation-mode-default-requirements). 
+Teams information protection license report gives API usage insight of [Microsoft Graph APIs that have license and payment requirements](/graph/teams-licenses). This report highlights all the apps that are using these APIs in [model=A](/graph/teams-licenses#modela-requirements). It does not show usage when APIs are used in [model=B](/graph/teams-licenses#modelb-requirements) or [evaluation mode](/graph/teams-licenses#evaluation-mode-default-requirements). 
 
 
 ## View the information protection license report
