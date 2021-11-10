@@ -24,7 +24,7 @@ ms.custom: seo-marvel-mar2020
 
 This article describes Microsoft's support for ensuring that the most precise emergency location information possible is provided for Teams users. Regardless of the caller's location--onsite or working from home--a  caller's location information sent to the Public Safety Answering Point (PSAP) must be accurate.
 
-This article includes information about how Microsoft is adhering to the Ray Baum’s Act compliance date for Multi Line Telephone Systems (Jan 6th, 2022). The Ray Baum act extends the Kari’s Law requirements, which went into effect in early 2021. For more information about the Ray Baum Act and Kari's Law, see [Dispatchable Location for 911 Calls](https://www.fcc.gov/911-dispatchable-location).
+This article includes information about how Microsoft is adhering to the RAY BAUM’S Act for Multi Line Telephone Systems (compliance date Jan 6th, 2022). The RAY BAUM'S Act extends the Kari’s Law requirements, which went into effect in early 2021. For more information about the RAY BAUM'S Act and Kari's Law, see [Dispatchable Location for 911 Calls](https://www.fcc.gov/911-dispatchable-location) and [Multi-line Telephone Systems – Kari’s Law and RAY BAUM’S Act 911 Direct Dialing, Notification, and Dispatchable Location Requirements](https://www.fcc.gov/mlts-911-requirements). 
 
 This article also describes how you can configure user policies so that your end users working from home can now set their own emergency addresses if applicable.
 
@@ -47,7 +47,7 @@ Microsoft has made changes to support the following:
 
 - Enhanced location information may be coordinate-based, and it must consist of the best available location that can be obtained from any available technology or combination of technologies at reasonable cost.
 
-- Allow users to roam without being required to constantly update their location.
+- Users must be allowed to roam without having to constantly update their location.
 
 To support these requirements, Microsoft is using information and location services provided by:
 
@@ -59,16 +59,20 @@ To support these requirements, Microsoft is using information and location servi
 
 The following enhancements have been made to location requests:
 
-- A new setting in Teams Calling Policy that enables the off-premises location experience.
+- A new setting in Teams Calling Policy that enables the off-premises work-from-home location experience for end users.
 
-- Teams clients will continue to send location requests to the service with IP address, BSSID, and LLDP network information.
+- Teams clients will continue to send location requests to the service with IP address, Basic Service Set Identifiers (BSSID), and (Link Layer Discovery Protocol (LLDP) network information.
 
 - If given permission, location requests will now include geo codes from the operating system.
 
+**QUESTION FOR ROY:  We keep saying "the service"...   Should we just say Teams instead?**
+
 - The service returns a single emergency address with the following precedence:
 
-   - Derived from the tenant-admin-defined emergency addresses associated with either the IP address, BSSID, or LLDP.
+   - Derived from the tenant-admin-defined emergency addresses associated with either the IP address, BSSID, or LLDP. For more information on tenant-admin-defined dynamic addresses, see [Plan and configure dynamic emergency calling](configure-dynamic-emergency-calling.md).
+
    - Derived from the geocodes (if available).
+
    - Derived from the user/phone number when statically assigned.
 
 If there is no match, then no emergency address is returned.
