@@ -35,7 +35,7 @@ The communication and collaboration platform of Teams makes it easy for clinicia
 - Enable patients to join Teams virtual visits from email or SMS notifications.
 - View consumption data reports and customizable Call Quality information for EHR-connected visits.
 
-This article describes how to set up and configure the Teams EHR connector to integrate with the Cerner platform and gives you an overview of the Teams virtual visits experience from the Cerner EHR system.
+This article describes how to set up and configure the Teams EHR connector to integrate with the Cerner platform. It also gives you an overview of the Teams virtual visits experience from the Cerner EHR system.
 
 ## Before you begin
 
@@ -76,7 +76,7 @@ Next, to set up the integration, your Microsoft 365 admin adds a Fast Health Int
 
 - The FHIR base URL is a static address that corresponds to your server FHIR API endpoint. An example URL is `https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST`.
 
-- You can set up the integration for test and production environments. For initial set up, we encourage you to configure the connector from a test environment before moving to production.
+- You can set up the integration for test and production environments. For initial setup, we encourage you to configure the connector from a test environment before moving to production.
 
     :::image type="content" source="media/ehr-admin-cerner-configuration.png" alt-text="Screenshot of the Configuration information page of the Teams EHR connector configuration portal.":::
 
@@ -97,7 +97,7 @@ To enable SMS notifications, your Microsoft 365 admin does the following:
 
     :::image type="content" source="media/ehr-admin-cerner-sms-notifications.png" alt-text="Screenshot of the SMS notifications page, showing consent check boxes and phone number generation option.":::
 
-1. Under **Your phone numbers**, select **Generate a new phone number** to generate a phone number for your organization. Doing this starts the process to request and generate new phone number. This process might take up to 2 minutes to complete.
+1. Under **Your phone numbers**, select **Generate a new phone number** to generate a phone number for your organization. Doing this starts the process to request and generate a new phone number. This process might take up to 2 minutes to complete.
 
     After the phone number is generated, it's displayed on the screen. This number will be used to send SMS confirmations and reminders to your patients. The number has been provisioned but isn’t linked to the FHIR base URL yet. You do that in the next step.
 
@@ -149,7 +149,7 @@ The connector supports patients joining virtual visits through a link in the SMS
 Key features of the patient experience
 
 - Patients can join virtual visits from modern web browsers on desktop and [mobile without having to install the Teams app](../mobile-browser-join.md).
-- Patients can join virtual visits with a single click and no other account or sign in is required.
+- Patients can join virtual visits with a single click and no other account or sign-in is required.
 - Patients aren't required to create a Microsoft account or sign in to launch a virtual visit.
 - Patients are placed in a lobby until the provider joins the appointment and admits them to the virtual visit.
 - Patients can test their video and microphone in the lobby before joining the virtual visit.

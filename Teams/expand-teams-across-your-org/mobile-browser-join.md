@@ -33,7 +33,7 @@ Currently, mobile browser join is available for appointments that are scheduled 
 - Microsoft Teams Electronic Health Records (EHR) connector
 
   - Integration with [Cerner EHR](healthcare/ehr-admin-cerner.md)
-  - Integration [Epic EHR](healthcare/ehr-admin.md)
+  - Integration with [Epic EHR](healthcare/ehr-admin.md)
 
 ## Set up mobile browser join
 
