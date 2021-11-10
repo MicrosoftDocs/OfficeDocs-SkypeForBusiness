@@ -16,6 +16,7 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
+search.appverid: MET150
 description: Plan to implement hybrid connectivity between Skype for Business Server and Teams by configuring Skype for Business hybrid mode.
 ms.custom: seo-marvel-jun2020
 ---
