@@ -54,7 +54,7 @@ You must be a Teams service admin to make these changes. See [Use Teams administ
 |**2**   |App name will display a list of all apps that have used [Microsoft Graph API which has license and payment requirements](https://docs.microsoft.com/en-us/graph/teams-licenses) during the selected time period.|
 |**3**   |Number of users who have valid [licenses](/graph/teams-licenses#required-licenses-for-modela).  |
 |**4**   |Number of users who do not have a valid [license](/graph/teams-licenses#required-licenses-for-modela).  |
-|**5**   |Total API call volume allowed to an app beyond which a consumption fee per API call will be charged to app. |
+|**5**   |Total API call volume allowed to an app beyond which a consumption fee per API call will be charged to the app. |
 |**6**   |Total API call volume used by app for the given date range. |
 |**7**   |Export the report to a CSV file for offline analysis. Select Export to Excel, and then the Downloads tab. Select Download to download the report when it's ready. Export will export the current selected tab only.|
 |**8**   |Select any particular label to show  or hide it in chart. |
