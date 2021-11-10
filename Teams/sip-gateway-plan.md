@@ -56,10 +56,6 @@ If you have a 3PIP or SIP phone, you must have:
 
 You must also have PSTN capability through a Microsoft Calling Plan, Direct Routing, or Operator Connect. Any Common-area devices you use must have a Common Area Phone license.
 
-### Policy requirements
-
-TBD
-
 ## Devices supported by SIP Gateway
 
 |Vendor	   |Model      |Minimum firmware version|Approved firmware version|Remarks|Links|
@@ -95,12 +91,19 @@ TBD
 |          |VVX600     |5.9.5       |5.9.6.2327 |   |   |
 |          |VVX601     |5.9.5       |6.3.1.8427 |   |   |
 |**Yealink**|          |            |           |   |[Yealink support](https://support.yealink.com/)|
+|          |T40P       |83          |54.84.0.125|   |   |
+|          |T41S       |83          |66.85.0.5  |   |   |
+|          |T41S       |83          |66.85.0.5  |   |   |
 |          |T41S       |83          |66.85.0.5  |   |   |
 |          |T42G       |83          |29.83.0.130|   |   |
 |          |T42S       |83          |66.85.0.5  |   |   |
+|          |T42U       |83          |108.86.0.20|   |   |
+|          |T43U       |83          |108.86.0.20|   |   |
 |          |T46S       |83          |66.85.0.5  |   |   |
+|          |T46U       |83          |108.86.0.20|   |   |
 |          |T48S       |83          |66.85.0.5  |   |   |
 |          |T48G       |83          |35.83.0.130|   |   |
+|          |T48U       |83          |108.86.0.20|   |   |
 |          |T53        |83          |96.85.0.5  |   |   |
 |          |T53W       |83          |96.85.0.5  |   |   |
 |          |T54W       |83          |96.85.0.5  |   |   |

@@ -27,6 +27,63 @@ appliesto:
 
 This article explains how to configure SIP Gateway so that your organization can use compatible SIP phones with Microsoft Teams. Be sure to read [Plan for SIP Gateway](sip-gateway-plan.md) first.
 
+## Enable SIP Gateway for your tenant
+
+There are two ways you can enable SIP Gateway for your tenant: by using a PowerShell commandlet, or in the Teams admin center. 
+
+### Enable SIP Gateway by using a PowerShell commandlet
+
+To enable SIP Gateway by using a PowerShell commandlet, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). [Do we need to explain what they need to do with this?]
+
+### Enable SIP Gateway in the Teams admin center
+
+To enable SIP Gateway in the Teams admin center, follow these steps:
+
+1. Go to the [Teams admin center](https://admin-teams.microsoft.net/)
+
+2. At the left, under **Voice**, select **Calling policies**.
+
+3. At the right under **Manage policies**, select the appropriate calling policy assigned to users or, if necessary, create a new calling policy and assign it to the required users.
+
+4. Select **Manage policies**, select a policy, and then select **Edit**.
+
+5. Turn on the setting for **SIP devices can be used for calls**, and then select **Save**.
+
+## Support a multi-language user interface
+
+The IP phone user interface can display information in many languages. The language setting affects the phones interface, including softkeys and Sign-in/Sign-out system messages.
+
+### Set the UI language
+
+Setting the language is done in the provisioning server, using DHCP server, or manually by appending a code string in the URL as in the following examples.
+
+How to set German for Polycom, AudioCodes, and Yealink phones:
+- http://emea.ipp.sdg.teams.microsoft.com/lang_de
+
+How to set Japanese for Cisco phones:
+- http://emea.ipp.sdg.teams.microsoft.com/lang_ja/$PSN.xml 
+
+#### Supported languages
+
+|Language name|Language code]
+|-------------|-------------|
+|English (default)|en       |
+|Spanish      |es           |
+|Japanese     |ja           |
+|German       |de           |
+|French       |fr           |
+|Portuguese   |pt           |
+
+> [!Note]
+> - Japanese is not supported by Yealink and partially supported by Polycom VVX.
+> - The system defaults to English if the selected language is not supported by the SIP endpoint.
+> - When the **lang_xx** parameter is not set via the provisioning URL, English is used as the default language.
+> - If **Sign in to make an emergency call** text is not translated to other languages, an abbreviated version in English only will be presented on **Press Sign In** on the following IP phone models due to a screensize limitations:
+>    - Poly VVX 150, VVX 201
+>    - Cisco CP-6821, CP-7811, CP-7821, CP-7841, CP-7861
+> - Voice Mail softkey label is hardcoded with **VM** text across all languages for Poly VVX due to limitation of string length.
+
+
 ## Verify that SIP Gateway is available for your tenant
 
 1. Log in to the [Teams admin center](https://admin-teams.microsoft.net/).
