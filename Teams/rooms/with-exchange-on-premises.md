@@ -78,7 +78,7 @@ If you are deploying Microsoft Teams Rooms with Exchange on-premises, you will b
 
    - AddAdditionalResponse: $true (The text specified by the AdditionalResponse parameter is added to meeting requests.)
 
-   - AdditionalResponse: "This is a Microsft Teams Meeting room!" (The additional text to add to the meeting request.)
+   - AdditionalResponse: "This is a Microsoft Teams Meeting room!" (The additional text to add to the meeting request.)
 
    This example configures these settings on the room mailbox named Project-Rigel-01.
 
