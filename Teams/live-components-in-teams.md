@@ -76,14 +76,16 @@ cmdlet Connect-SPOService at command pipeline position 1
 
 Supply values for the following parameters:
 Url: <https://a830edad9050849822e21011208-admin.sharepoint.com/>
-PS C:\\WINDOWS\\system32&gt; set-SPOTenant -isFluidEnabled $false
+PS C:\\WINDOWS\\system32&gt; set-SPOTenant -isFluidEnabled $true
 PS C:\\WINDOWS\\system32&gt;
 ```
 ## Known issues
 
-- Live component in chat cannot be edited via Office app when using Teams on Android.
+- Live components in chat cannot be edited via Office app when using Teams on Android.
 
-- If tenant default file permissions are set to **Specific people**, and the sender removes a user via the permissions dialog when creating a component, that user will still have access to edit the content as long as they are members in the chat.
+- If tenant default file permissions are set to **Specific people (only the people the user specifies)**, and the sender removes some users from the Specific people list in the permissions dialog when creating a component, those users may still have access to the content. This issue is due to the access management limitation of the permission dialog and will be fixed in the future release.
+
+- If the tenant's Conditional Access Policy settings prevent client network to connect to [https://pushchannel.1drv.ms](https://pushchannel.1drv.ms),  live components will not work as expected for saving real time changes to the service.
 
 ## Known limitations
 
@@ -91,19 +93,25 @@ PS C:\\WINDOWS\\system32&gt;
 
 - Live components are disabled in federated chats.
 
-- Guest users (using Azure B2B) can only collaborate on components shared with them in chat; they cannot create new components in Teams chat if they don't have OneDrive for Business access or license from the tenant, nor edit them in office.com.
+- B2B guests will not be able to collaborate on live component that is shared with them via Company Share Link unless tenant sets external access option to allow B2B guests have same access level as tenant members.
 
 - Teams Web client full support of Live components will be available soon.
 
-- While you can share a component in Teams channels and other Microsoft 365 apps, recipients simply get a link in most places at this time. Inline editing is planned for more experiences in the future.
+- Live components are not supported in Teams channels yet, but their inline editing in channels is planned for more experiences in the future.
 
-- With tenant default file permissions set to “Specific people”, copying link to live component and pasting in another chat requires the sender to use manage access options and add the recipient using specific people permissions to get access to live component.
+- With tenant default file permissions set to **Specific people (only the people the user specifies)**, copying link to live component and pasting in another chat requires the sender to use permissions dialog and add the recipients in the Specific people option to grant access properly.
 
-- With tenant default file permissions set to “Specific people”, creating a live component in group chat with more than 20 members will require the sender to manually select the permission options for the component.
+- With tenant default file permissions set to **Specific people (only the people the user specifies)**, creating a live component in group chat with more than 20 members will require the sender to manually select the permission options for the component.
 
-- Renaming the original file and pasting the link back to chat won't allow the user to change the file permissions on chat compose.
+- Live components in chat will not load only if file was moved to different library. If file is moved to different folder then it will continue to load in chat.
 
-- Live component messages will not be loaded in Teams chats if its file is moved to different location on OneDrive for Business.
+## How to check your tenant's default file permissions
+
+1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com/).
+
+2. At the left, under **Admin centers**, select **SharePoint**.
+
+3. Select **Policies** > **Sharing**, and under **File and folder links**, view your tenant's default file permissions.
 
 ## Storage of `.fluid` files
 
