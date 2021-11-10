@@ -2,7 +2,7 @@
 title: "Plan for Busy Options for Skype for Business Server"
 ms.reviewer: 
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual

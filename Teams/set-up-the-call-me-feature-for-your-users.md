@@ -1,6 +1,6 @@
 ---
 title: Set up the Call me feature for your users
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: macai, phedry
 manager: serdars

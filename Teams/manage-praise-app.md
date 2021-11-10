@@ -1,6 +1,6 @@
 ---
 title: Manage the Praise app in the Teams admin center
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: jozhuan
@@ -24,7 +24,7 @@ Admins can control what badges are available to their organization from the Micr
 ![Screenshot of Settings tab for the Praise app.](media/manage-praise-app-settings.png)
 
 > [!NOTE]
-> The Praise app feature isn't available for U.S. government clouds.
+> The Praise app is available for GCC cloud environment, but not for GCC High or DoD.
 
 ## Use built-in badge sets
 

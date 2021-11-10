@@ -2,7 +2,7 @@
 title: "Add archiving databases to an existing deployment in Skype for Business Server"
 ms.reviewer: 
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 f1.keywords:

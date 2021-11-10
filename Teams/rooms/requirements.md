@@ -77,7 +77,7 @@ All current Microsoft Teams Room devices and bundles are available in the [Room 
   |[Logitech Tap and Lenovo ThinkSmart Tiny](https://www.logitech.com/video-collaboration/partners/lenovo.html)|Core i5|8 GB |128 GB|
   |[Poly G10-T with Lenovo ThinkSmart Tiny](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8 GB | 128 GB|
   |Poly GC10-T with Lenovo Thinksmart Core|Core i5|8 GB|128 GB|
-  |Poly GC10-T with Dell 7080|Core i5|8 GB|128 GB|
+  |Poly GC8 Console with Dell Optiplex 7080|Core i5|8 GB|128 GB|
   |[Yealink MVC300 with Intel NUC](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
   |[Yealink MVC500 with Intel NUC](https://www.yealink.com/products_126.html)|Core i5|8 GB |128 GB |
   |[Yealink MVC800 with Intel NUC](https://www.yealink.com/products_125.html)|Core i5|8 GB|128 GB|

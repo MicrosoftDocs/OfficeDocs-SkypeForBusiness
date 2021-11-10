@@ -1,6 +1,6 @@
 ---
 title: Manage the Lists app for your organization
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: anach,v-jasuk
 manager: serdars

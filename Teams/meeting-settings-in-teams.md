@@ -1,6 +1,6 @@
 ---
 title: Manage meeting settings
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: sonua
