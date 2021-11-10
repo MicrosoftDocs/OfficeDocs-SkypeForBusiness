@@ -16,6 +16,7 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
+search.appverid: MET150
 ms.custom: 
 description: "Summary: Learn how to migrate user settings and move users to Teams."
 ---
