@@ -44,6 +44,7 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 | AudioCodes C470HD                      | `1.8.293`                                                  | January 2021                 |
 | AudioCodes C450HD                      | `C450HD_TEAMS_0.225`                                       | March 2019                   |
 | AudioCodes C448HD (CAP mode only)      | `C450HD_TEAMS_0.225`                                       | March 2019                   |
+| AudioCodes C455HD                      | `1.14.404`                                                 | November 2021                |
 | Crestron UC-2                          |`1.0.1.46`                                                 | July 2020                    |
 | Lenovo ThinkSmart View                 | `CD-18781Y.200410.067`                                     | April 2020                   |
 | Poly Trio C60, Trio C60 NR, Trio C60 ND | `5.9.3.6155`                                              | April 2020                   |
