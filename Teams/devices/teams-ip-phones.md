@@ -41,8 +41,6 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 | Crestron UC-P8-C-T (with and without handset)   | `1.0.0.80`       | May 2021                     |
 | Yealink MP52                           | `145.15.0.6 `                                              | April 2021                   |
 | AudioCodes C435HD                      | `1.12.33`                                                  | April 2021                   |
-| AudioCodes C470HD                      | `1.8.293`                                                  | January 2021                 |
-| AudioCodes C450HD                      | `C450HD_TEAMS_0.225`                                       | March 2019                   |
 | AudioCodes C448HD (CAP mode only)      | `C450HD_TEAMS_0.225`                                       | March 2019                   |
 | AudioCodes C455HD                      | `1.14.404`                                                 | November 2021                |
 | Crestron UC-2                          |`1.0.1.46`                                                 | July 2020                    |
@@ -102,7 +100,7 @@ The following are the latest Teams phone app and firmware versions.
 
 | Product release | Release date  | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
-| 2021 Update #3  | Nov 03, 2021   | 1449/1.0.94.2021101205 | 5.0.5304.0 | 298 |
+| 2021 Update #3  | Nov 03, 2021   | `1449/1.0.94.2021101205` | `5.0.5304.0` | `298` |
 | 2021 Update #2A | June 10, 2021  |`1449/1.0.94.2021052803`|  `5.0.5088.0` |  `1.0.0.202103160138.product (256)` |
 | 2021 Update #2  | June 8, 2021  |`1449/1.0.94.2021051303`|  `5.0.5088.0` |  `1.0.0.202103160138.product (256)` |
 | 2021 Update #1A | April 5, 2021  |`1449/1.0.94.2021033002`|  `5.0.5045.0` |  `1.0.0.202101280722.product (253)` |
