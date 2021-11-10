@@ -41,8 +41,6 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 | Crestron UC-P8-C-T (with and without handset)   | `1.0.0.80`       | May 2021                     |
 | Yealink MP52                           | `145.15.0.6 `                                              | April 2021                   |
 | AudioCodes C435HD                      | `1.12.33`                                                  | April 2021                   |
-| AudioCodes C470HD                      | `1.8.293`                                                  | January 2021                 |
-| AudioCodes C450HD                      | `C450HD_TEAMS_0.225`                                       | March 2019                   |
 | AudioCodes C448HD (CAP mode only)      | `C450HD_TEAMS_0.225`                                       | March 2019                   |
 | Crestron UC-2                          |`1.0.1.46`                                                 | July 2020                    |
 | Lenovo ThinkSmart View                 | `CD-18781Y.200410.067`                                     | April 2020                   |
