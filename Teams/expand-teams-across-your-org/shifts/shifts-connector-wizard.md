@@ -32,7 +32,7 @@ With your WFM system as the system of record, your frontline workers can see and
 > [!NOTE]
 > We currently support [Blue Yonder](https://blueyonder.com/solutions/workforce-management). We’re working with our partners to support additional WFM systems.
 
-This article walks you through how to run the wizard to create a Shifts to Blue Yonder connection.
+In this article, we walk you through how to run the wizard to create a Shifts to Blue Yonder connection.
 
 ## Before you begin
 
@@ -47,7 +47,7 @@ You'll also need to know your Blue Yonder service account name and password and 
 ## Run the wizard
 
 1. In the left navigation of the [Microsoft 365 admin center](https://admin.microsoft.com/), choose **Setup**, and then select the **Frontline workers** collection or go to the **Apps and updates** section.
-1. Under **Connect you workforce management system**, select **View.** Here, you can learn more about Shifts connectors and the frontline worker and manager experience when you connect Shifts to your workforce management system.
+1. Under **Connect you workforce management system**, select **View.** Here, you can learn more about Shifts connectors and the frontline worker and manager experience when you connect Shifts to your WFM system.
 1. When you're ready, select **Get started**.
 1. Select **Next** to create a Blue Yonder connection.
 1. On the Connection details page:
@@ -93,20 +93,23 @@ You'll also need to know your Blue Yonder service account name and password and 
 
 1. Review your settings. If you need to make changes to any site mappings, choose **Edit** to do so. <br/>
  When you're ready, select **Finish**.
-1. You’ll see a message to confirm that we received your request and are working on it, along with an operation ID. Make a note of the operation ID for future reference. We refer to it in the email notifications.
+1. You’ll see a message to confirm that we received your request along with an operation ID. Make a note of the operation ID for future reference.
 
-    The wizard sets up and creates the connection and maps the sites to the teams you selected. It may take some time to complete. The recipients you chose will receive email notifications about connection setup status.
+    The wizard sets up and creates the connection and maps the sites to the teams you selected. This process may take some time to complete. The recipients you chose will receive email notifications about connection setup status.
 
     Select **Done** to exit the wizard.
 
 1. You’re on your way but you’re not done yet! Next, check out the [What to do after running the wizard](#what-to-do-after-running-the-wizard) section of this article.
 
-
 ## What to do after running the wizard
 
-After you run the wizard:
+After you run the wizard, check your email. You'll receive a confirmation that we received your request along with a link to how you can check the connection setup status.
 
-- Check your email. You'll receive a confirmation that we received your request along with a link to how you can check the status. If an error occurred, you'll get notified. Follow the instructions in the email to troubleshoot the issue.
+If an error occurred, you'll get notified in a separate email. Follow the instructions in the email to troubleshoot the issue.
+
+## If you need to make changes to a connection
+
+If you need to make changes to a connection after it's successfully set up, see [Link to PowerShell article](). You can use PowerShell to update connection settings and disable a connection.
 
 ## Related articles
 
