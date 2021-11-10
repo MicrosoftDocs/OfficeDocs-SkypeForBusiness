@@ -50,7 +50,7 @@ You must be a Teams service admin to make these changes. See [Use Teams administ
 
 |Callout |Description  |
 |--------|-------------|
-|**1**   |The information protection license report can be viewed for trends over the last 3 months. |
+|**1**   |The information protection license report can be viewed for trends over the last three months. |
 |**2**   |App name will display a list of all apps that have used [Microsoft Graph API which has license and payment requirements](https://docs.microsoft.com/en-us/graph/teams-licenses) during the selected time period.|
 |**3**   |No of user who has valid [license](https://docs.microsoft.com/en-us/graph/teams-licenses#required-licenses-for-modela).  |
 |**4**   |No. of users who does not have any valid [license](https://docs.microsoft.com/en-us/graph/teams-licenses#required-licenses-for-modela).  |
