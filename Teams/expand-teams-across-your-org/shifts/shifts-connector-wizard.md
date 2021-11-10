@@ -65,7 +65,7 @@ You'll also need to know your Blue Yonder service account name and password and 
 
     3. Select **Next** to test the connection with the settings you entered.
 
-1. On the Sync settings page, you choose the information to sync from Blue Yonder to Shifts, whether Shifts users can make changes to the data, and how often the data is retrieved.
+1. On the Sync settings page, you choose the information to sync from Blue Yonder to Shifts, whether Shifts users can make changes to the data, and the sync frequency.
     1. Enter your Microsoft 365 system account.
     2. Choose who receives email notifications about this connection. You can add individual users and groups. The email notifications contain information about connection setup status. Use this information to troubleshoot any errors that may occur.
     3. Under **Requests**, choose the types of requests that Shifts users can see and create.
@@ -104,9 +104,9 @@ You'll also need to know your Blue Yonder service account name and password and 
 
 ## What to do after running the wizard
 
-After you run the wizard: 
+After you run the wizard:
 
-- Check your email. You'll receive a confirmation that we received your request, along with the operation ID and a link to how you can check the status. If an error occurred during setup, you'll get notified. Follow the instructions in the email to troubleshoot the issue.
+- Check your email. You'll receive a confirmation that we received your request along with a link to how you can check the status. If an error occurred, you'll get notified. Follow the instructions in the email to troubleshoot the issue.
 
 ## Related articles
 
