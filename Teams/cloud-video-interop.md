@@ -70,7 +70,8 @@ The following diagram shows the high-level architecture of our partner solutions
 
 ![Diagram describing a Teams Cloud Video Interop partner solution.](media/teams-cloud-video-interop-partner-solution.png)
 
-> [!Note] CVI is limited to audio, video and screen sharing in meetings only. PowerPoint and document sharing is not support with CVI integration.
+> [!NOTE]
+>  CVI is limited to audio, video, and screen sharing in meetings only. PowerPoint and document sharing are not supported with CVI integration.
 
 ## Deploy Cloud Video Interop
 
