@@ -50,7 +50,7 @@ You'll need the latest version of [SharePoint Online PowerShell module](/office
 
 3. Verify the value of IsFluidEnabled is **true**.
 
-## Enabling the Fluid Framework through the SharePoint Online PowerShell Cmdlet 
+## Enabling the Fluid Framework through the SharePoint Online PowerShell Cmdlet
 
 1. [Connect to SharePoint Online PowerShell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps#to-connect-with-a-user-name-and-password). 
 
