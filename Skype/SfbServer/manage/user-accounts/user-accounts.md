@@ -104,11 +104,7 @@ You can also use a cmdlet, specifically [Enable-CsUser](/powershell/module/skype
  
 2. Log in using a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role.
 
-3. In the left navigation bar, click **Users**.
-
-4. On the **Users** page, click **Enable Users**.
-
-5. On the **Enable User(s)** page that appears, click **Add**.
+3. Navigate to **Users** > **Enable Users**, and click **Add**.
 
 6. In the **Search** box, type all or the first portion of the display name and click **Find**.
 7. (Optional) To specify additional user criteria, click **+ Add filter**, select the required user property, select the operator, and enter the value. Click **Find**.
@@ -126,11 +122,7 @@ You can also use a cmdlet, specifically [Enable-CsUser](/powershell/module/skype
 
 2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.
 
-3. In the left navigation bar, click **Users**.
-
-4. Click **Enable users**.
-
-5. On the **New Lync Server User** dialog, click **Add**.
+3. Navigate to **Users** > **Enable users** > **New Lync Server User**, and click **Add.**
 
 6. In the **Search users** box, type all or the first portion of the name, display name, first name, last name, Security Accounts Manager (SAM) account name, email address, User Principal Name (UPN), or phone number of the Active Directory user account that you want, and then click **Find**.
 
@@ -224,7 +216,7 @@ Use the following procedure to disable Enterprise Voice for a user account that 
 
 6. In the panel that appears, click the pencil icon next to **Assigned Policies**.
 
-7. In the **Assigned Policies** panel, under **Telephony**, click any option except **Enterprise Voice** from the drop-down list.
+7. In the **Assigned Policies** panel, under **Telephony**, click any option except **Enterprise Voice** in the drop-down list.
 
 8. Click **Save**.
 
@@ -256,8 +248,9 @@ The user is now unable to use the Enterprise Voice feature.
     > To restrict a user from making audio or video calls by using Lync, under **Telephony**, click **Audio/video disabled**.
 
 8. Click **Commit**.
+The user is now unable to use the Enterprise Voice feature.
 
-The user is now unable to use the Enterprise Voice feature. Related information: <br/>[Enterprise Voice and mobility](/previous-versions/office/lync-server-2013/lync-server-2013-managing-enterprise-voice-for-users)<br/> [Enable users for Enterprise Voice in Skype for Business Server](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [Skype for Business Server Management Shell](../management-shell.md)
+Related information: <br/>[Enterprise Voice and mobility](/previous-versions/office/lync-server-2013/lync-server-2013-managing-enterprise-voice-for-users)<br/> [Enable users for Enterprise Voice in Skype for Business Server](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [Skype for Business Server Management Shell](../management-shell.md)
 
 ## Remove a user account with the Skype for Business Server Management Shell
 <a name="Remove"> </a>
