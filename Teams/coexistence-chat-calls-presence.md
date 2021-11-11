@@ -22,11 +22,11 @@ description: Coexistence behavior between Teams & Skype for Business, including 
 
 # Coexistence with Skype for Business
 
-Coexistence and interoperability between Skype for Business and Teams clients and users is controlled by coexistence modes, described in [Migration and interoperability guidance for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md). Since the retirement of Skype for Business Online on July 31, 2021, any user homed in the cloud is a TeamsOnly user, and it is no longer possible to assign a coexistence mode other than TeamsOnly to an online user. Coexistence modes other than TeamsOnly are only relevant for organizations with on-premises deployments of Skype for Business Server or Lync Server 2013.
+Coexistence and interoperability between Skype for Business and Teams clients is controlled by coexistence modes, described in [Migration and interoperability guidance for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md). After the retirement of Skype for Business Online on July 31, 2021, users homed in the cloud are always TeamsOnly users. It is no longer possible to assign a coexistence mode other than TeamsOnly to an online user. Coexistence modes other than TeamsOnly are only relevant for organizations with on-premises deployments of Skype for Business Server or Lync Server 2013.
 
 
 ## Determining a user's coexistence mode
-All users in organizations without any on-premises deployment of Skype for Business Server or Lync Server 2013 will be TeamsOnly mode, and the tenant's effective mode will also be TeamsOnly. This can be confirmed by looking at TeamsUpgradeEffectiveMode property on the tenant or the user using Teams PowerShell.   Prior to the retirement of Skype for Business Online on July 31, 2021, organizations had the ability to change the coexistence mode for either the user or the tenant. This is no longer possible except for organizations with an on-premises deployment of Skype for Business Server, which must not have tenant-wide mode of TeamsOnly.   You can confirm that coexistence mode can no longer be changed if TeamsUpgradePolicyIsReadOnly = "ModeAndNotifications" on either the user or tenant.  (TeamsUpgradePolicyIsReadOnly on any user will have the same value as the tenant's value.)  
+All users in organizations without any on-premises deployment of Skype for Business Server or Lync Server 2013 are TeamsOnly mode, and the tenant's effective mode is also TeamsOnly. This can be confirmed by looking at TeamsUpgradeEffectiveMode property on the tenant or the user using Teams PowerShell.   Prior to the retirement of Skype for Business Online on July 31, 2021, organizations had the ability to change the coexistence mode for either the user or the tenant. This is no longer possible except for organizations with an on-premises deployment of Skype for Business Server, which must not have tenant-wide mode of TeamsOnly.   You can confirm that coexistence mode can no longer be changed if TeamsUpgradePolicyIsReadOnly = "ModeAndNotifications" on either the user or tenant.  (TeamsUpgradePolicyIsReadOnly on any user will have the same value as the tenant's value.)  
 
 
  ```powershell
@@ -45,13 +45,11 @@ TeamsUpgradeEffectiveMode  : TeamsOnly
 TeamsUpgradePolicyIsReadOnly: ModeAndNotifications
  ```
 
-In an organization with an on-premises deployment of Skype for Business Server, both the tenant global policy and a user's assignment of TeamsUpgradePolicy can be any mode *other than TeamsOnly*. The possible modes for on-premises users are: *SfBOnly*, *SfBWithTeamsCollab*, and *SfBWithTeamsCollabAndMeetings*. If a user is not explicitly assigned an instance of TeamsUpgradePolicy, the user receives the value from the tenant global policy.
+In an organization with an on-premises deployment of Skype for Business Server, both the tenant global policy and a user's assignment of TeamsUpgradePolicy can be any mode *other than TeamsOnly*. The possible modes for the tenant, as well as on-premises users are: *SfBOnly*, *SfBWithTeamsCollab*, and *SfBWithTeamsCollabAndMeetings*. If a user is not explicitly assigned an instance of TeamsUpgradePolicy, the user receives the value from the tenant global policy. Note that online users in a hybrid organization are TeamsOnly.
 
 ## Routing parameters
 
-The coexistence mode of the recipient determines the behavior of chats, calls, and presence, both within a tenant and across federated tenants.
-
-If the sender is using Teams, the routing decision is made when creating a new conversation thread.  Once a conversation thread is created, its routing does not change and it retains the routing method determined when the thread was created.
+The coexistence mode of the recipient determines the behavior of chats, calls, and presence, both within a tenant and across federated tenants. If the sender is using Teams, the routing decision is made when creating a new conversation thread.  Once a conversation thread is created, its routing does not change and it retains the routing method determined when the thread was created.
 
 Thread routing methods are:
 
@@ -66,7 +64,7 @@ Thread routing methods are:
 > - Federated communications between TeamsOnly users in mult-tenant clouds and special cloud environments (for example, governemnt clouds) will appear as interop federation chats.
 
 
-When creating a new conversation, the parameters that determine the thread routing method are:
+When creating a new conversation, the factors that determine the thread routing method are:
 
 - The coexistence mode of the recipient
 - The client used by the sender
@@ -74,6 +72,14 @@ When creating a new conversation, the parameters that determine the thread routi
 - Whether the conversation is possible.  If a user has a Skype for Business account homed on-premises, that user can't use the Teams client for in-tenant interoperability or for federation. That user can only use the Skype for Business client for interoperability and federation. Note that Teams to Teams communication is always possible in-tenant.
 
 ## Chat and call routing
+The tables below show which client in a given mode will receive a call from the originator (three leftmost columns), depending on the originator's mode, client chosen, and where their Skype for Business account is homed (on-prem or online).
+
+In the tables that follow:
+
+- **SfB\*** represents any of the following modes: *SfBOnly*, *SfBWithTeamsCollab*, *SfBWithTeamsCollabAndMeetings*.
+- *Italic text* highlights an interop conversation.
+- **Not Possible** represents a situation in which the chat or call is not possible. The originator must use Skype for Business instead in these cases. This is one of the reasons why Microsoft's prescriptive guidance to on-prem/hybrid customers is to use a mode other than Islands (typically SfBWithTeamsCollab) as the starting point of their upgrade journey to Teams.
+
 
 ### In-tenant routing for new chats or calls
 
@@ -81,13 +87,6 @@ The tables below capture routing of in-tenant chat and calls, and are valid for 
 
 Messages sent to TeamsOnly users will always route to Teams. Messages sent to SfB\* users will always route to Skype for Business, if the conversation is possible as described above. Messages sent to Islands users will always route to the same client from which they were sent.
 
-The tables below show which client in a given mode will receive a call from the originator (three leftmost columns), depending on the originator's mode, client chosen, and where their Skype for Business client is homed (on-prem or online).
-
-In the tables that follow:
-
-- **SfB\*** represents any of the following modes: *SfBOnly*, *SfBWithTeamsCollab*, *SfBWithTeamsCollabAndMeetings*.
-- *Italic text* highlights an interop conversation.
-- **Not Possible** represents a situation in which the chat or call is not possible. The originator must use Skype for Business instead in these cases. This is one of the reasons why Microsoft's prescriptive guidance to on-prem/hybrid customers is to use a mode other than Islands (typically SfBWithTeamsCollab) as the starting point of their upgrade journey to Teams.
 
 #### Table 1a: in-tenant new chat or call routing to a TeamsOnly mode recipient
 
@@ -131,7 +130,6 @@ In summary, if the conversation is possible as described above, messages sent to
 
 This is because we cannot assume that a federated Skype for Business partner already uses Teams if they are in Islands mode. Islands is the default mode, however we can't assume all Islands users run Teams. By routing to Skype for Business we ensure that no communication to an Islands user fails. If we routed to Teams, that communication could be missed if the target did not use Teams. Routing to Skype for Business ensures the message will always be received.
 
-The tables below describe which client will receive a call from the originator (three leftmost columns), depending on the originator's mode, client chosen, and where their Skype for Business client is homed (on-prem or online).
 #### Table 2a: federated new chat or call routing to a TeamsOnly mode recipient
 
 <br>
