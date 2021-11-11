@@ -519,10 +519,10 @@ For example, the Duration (Minutes) dimension represents the call duration in se
 |066: [3–4) |3 minutes < = stream duration < 4 minutes |
 |  | |
 
-The \<sort order string> is used to control the sort order when presenting the data and can be used for filtering. For example, a filter on Duration (Minutes) < "065", would show streams with duration less than 2 minutes (The leading '0' is needed for the filter to work as expected).
+The \<sort order string> is used to control the sort order when presenting the data and can be used for filtering. For example, a filter on Duration (Minutes) < "065", would show streams with duration less than 2 minutes (The leading '0' is needed for the filter to work as expected). The actual value of the sort order string isn't significant.
 
 > [!NOTE]
-> The actual value of the sort order string isn't significant.
+> You may notice ranges that seem to be invalid for a given dimension. An example would be Wifi Signal Strength showing calls in the 082: [100 - 110) range when 100 is the maximum possible value for Wifi Signal Strength. This is due to how numbers are assigned to ranges in CQD's data model. If a whole number value is 99, it will be counted in the 081: [90 - 100) range. If that value is 100, it will be counted in the 082: [100 - 110) range. This does not indicate that there are Wifi Signal Strength values greater than 100% being reported.
 
 #### Enumeration strings
 
