@@ -21,13 +21,13 @@ appliesto:
 
 ## Overview
 
-The Shifts connector wizard in the Microsoft 365 admin center makes it easy to integrate the Shifts app in Microsoft Teams with your workforce management (WFM) system. After the connection is set up, your frontline workers can seamlessly view and manage their schedules from your WFM system using Shifts.
+The Shifts connector wizard in the Microsoft 365 admin center makes it easy to integrate the Shifts app in Microsoft Teams with your workforce management (WFM) system. After the connection is set up, your frontline workers can seamlessly view and manage their schedules in your WFM system from within Shifts.
 
 The wizard configures the Shifts connector, creates a connection to your WFM system, and applies the sync settings and team mappings that you choose. Sync settings determine the features that are enabled in Shifts and schedule information that's synced between your WFM system and Shifts. Team mappings define the relationship between your WFM sites and teams in Teams. You can map to existing teams and new teams, which you can create in the wizard.
 
-You can set up multiple connections, each with different sync settings. For example, if your organization has multiple locations with different schedule requirements, create a connection with unique sync settings for each location. Keep in mind that a WFM site can only be mapped to one team at any given time. If a WFM site is already mapped to a team, that site can't be mapped to another team.
+You can set up multiple connections, each with different sync settings. For example, if your organization has multiple locations with different schedule requirements, create a connection with unique sync settings for each location. Keep in mind that a WFM site can only be mapped to one team at any given time. If a WFM site is already mapped to a team, it can't be mapped to another team.
 
-With your WFM system as the system of record, your frontline workers can see and swap shifts, manage their availability, and request time off in Shifts on their devices. Frontline managers can continue to use your WFM system or Shifts to set up schedules.
+With your WFM system as the system of record, your frontline workers can see and swap shifts, manage their availability, and request time off in Shifts on their devices. Frontline managers can use your WFM system or Shifts to set up schedules.
 
 > [!NOTE]
 > We currently support [Blue Yonder](https://blueyonder.com/solutions/workforce-management). We’re working with our partners to support additional WFM systems.
@@ -38,7 +38,7 @@ In this article, we walk you through how to run the wizard to create a Shifts to
 
 You must be a Microsoft 365 global admin or Shifts connector admin to run the wizard. Before you get started, make sure you meet the following prerequisites:
 
-- Blue Yonder version 2020.3 and 2021
+- Blue Yonder version 2020.3 or 2021
 - At least one team set up in Teams
 - If a team has an existing schedule, you'll have to remove the schedule from the team before you can map it. Otherwise, you'll see duplicate schedules.  
 

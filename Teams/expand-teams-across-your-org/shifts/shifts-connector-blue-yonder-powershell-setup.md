@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Integrate Shifts with your Blue Yonder workforce management system using PowerShell.
-ms.localizationpriority: high
+ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_FLW
@@ -19,15 +19,27 @@ appliesto:
 
 # Use PowerShell to connect Shifts to your Blue Yonder workforce management system
 
-The script tests and verifies the connection to Blue Yonder, configures the Shifts connector, applies sync settings, creates the connection, and maps Blue Yonder sites to teams.
+## Overview
+
+The Shifts to Blue Yonder connector makes it easy to integrate the Shifts app in Microsoft Teams with your Blue Yonder workforce management (WFM) system. After the connection is set up, your frontline workers can seamlessly view and manage their schedules in Blue Yonder from within Shifts.
+
+In this article, we walk you through how to use PowerShell to set up and configure the connector to integrate Shifts with Blue Yonder.
+
+To set up the connection, you run a PowerShell script. The script configures the connector, applies sync settings, creates the connection, and maps Blue Yonder sites to teams. Sync settings determine the features enabled in Shifts and the schedule information that's synced between Blue Yonder and Shifts. Mappings define the relationship between your Blue Yonder sites and teams in Teams. You can map to existing teams and new teams. We provide two scripts. You can use either script, depending on whether you want to map to existing teams or create new teams to map to.
+
+You can set up multiple connections, each with different sync settings. For example, if your organization has multiple locations with different schedule requirements, create a connection with unique sync settings for each location. Keep in mind that a Blue Yonder site can only be mapped to one team at any given time. If a site is already mapped to a team, it can't be mapped to another team.
+
+With Blue Yonder as the system of record, your frontline workers can see and swap shifts, manage their availability, and request time off in Shifts on their devices. Frontline managers can use Blue Yonder or Shifts to set up schedules.
+
+> [!NOTE]
+> You can also use the Shifts connector wizard in the Microsoft 365 admin center to connect Shifts to Blue Yonder. To learn more, see [Use the Shifts connector wizard to connect your workforce management system](shifts-connector-wizard.md).
 
 ## Before you begin
 
-You must be a Microsoft 365 global admin. Before you get started, make sure you meet the following prerequisites:
+You must be a Microsoft 365 global admin or Shifts connector admin. Before you get started, make sure you meet the following prerequisites:
 
-- Blue Yonder version 2020.3 and 2021
+- Blue Yonder version 2020.3 or 2021
 - At least one team set up in Teams
-- Licenses?
 
 You'll also need to know your Blue Yonder service account name and password and service URLs. If you don’t have this information, contact your Blue Yonder delivery partner or technical account manager.
 
@@ -62,7 +74,7 @@ You'll also need to know your Blue Yonder service account name and password and 
     Get-Command -Module MicrosoftTeams -Name *teamsshiftsconnection* 
     ```
 
-1. Set Powershell to exit if an error occurs when running the script.
+1. Set PowerShell to exit if an error occurs when running the script.
 
     ```powershell
     $ErrorActionPreference = "Stop" 
@@ -74,21 +86,39 @@ You'll also need to know your Blue Yonder service account name and password and 
     Set-ExecutionPolicy bypass 
     ```
 
-## Remove existing Shifts schedules in teams
+## Run the script
 
-## Run the Shifts connector to Blue Yonder script
+Run the script:
 
-Run the Shifts connector script to connect Shifts to Blue Yonder. The script does the following:
+- To set up a connection *with* the option to create new teams, download and run [this script]().
+- To set up a connection *without* the option to create new teams, download and run [this script]().
 
-1. Tests and verifies the connection using the Blue Yonder connection details that you enter.
-1. Configures the Shifts connector, applies sync settings that you specify, and creates the connection.
-1. Maps Blue Yonder sites to teams that you specify.
+The script does the following actions. You'll be prompted to enter setup and configuration details.
 
-We have two scripts that you can use, depending on whether you want to create a new team in Teams when the connection is created.
+1. Tests and verifies the connection to Blue Yonder using the Blue Yonder service account credentials and service URLs that you enter.
+1. Configures the Shifts connector.
+1. Applies sync settings that you specify. These settings include the schedule information to sync between Blue Yonder and Shifts and sync frequency.
+1. Creates the connection.
+1. Maps the Blue Yonder sites that you specify to the teams that you want.
 
+## What to do after you set up the connection
 
+## Shifts connector cmdlets
 
-## Related topics
+- [New-CsTeamsShiftsConnectionInstance](/powershell/module/teams/new-csteamsshiftsconnectioninstance?view=teams-ps)
+- [Get-CsTeamsShiftsConnectionInstance](/powershell/module/teams/get-csteamsshiftsconnectioninstance?view=teams-ps)
+- [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance?view=teams-ps)
+- [Remove-CsTeamsShiftsConnectionInstance](/powershell/module/teams/remove-csteamsshiftsconnectioninstance?view=teams-ps)
+- [Test-CsTeamsShiftsConnectionValidate](/powershell/module/teams/test-csteamsshiftsconnectionvalidate?view=teams-ps)
+- [New-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/new-csteamsshiftsconnectionteammap?view=teams-ps)
+- [Get-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/get-csteamsshiftsconnectionteammap?view=teams-ps)
+- [Remove-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/remove-csteamsshiftsconnectionteammap?view=teams-ps)
+- [Get-CsTeamsShiftsConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector?view=teams-ps)
+- [Get-CsTeamsShiftsConnectionSyncResult](/powershell/module/teams/get-csteamsshiftsconnectionsyncresult?view=teams-ps)
+- [Get-CsTeamsShiftsConnectionUser](/powershell/module/teams/get-csteamsshiftsconnectionuser?view=teams-ps)
+- [Get-CsTeamsShiftsConnectionWfmTeam](/powershell/module/teams/get-csteamsshiftsconnectionwfmteam?view=teams-ps)
 
-- [Manage the Shifts app for your organization in Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
+## Related articles
+
+- [Manage the Shifts app](manage-the-shifts-app-for-your-organization-in-teams.md)
 - [Teams PowerShell overview](../../teams-powershell-overview.md)
