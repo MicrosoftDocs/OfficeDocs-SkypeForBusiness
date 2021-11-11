@@ -26,7 +26,7 @@ Coexistence and interoperability between Skype for Business and Teams clients an
 
 
 ## Determining a user's coexistence mode
-All users in organizations without any on-premises deployment of Skype for Business Server or Lync Server 2013 will be TeamsOnly mode, and the tenant's effective mode will also be TeamsOnly. This can be confirmed by looking at TeamsUpgradeEffectiveMode property on the tenant or the user using Teams PowerShell.   Prior to the retirement of Skype for Business Online on July 31, 2021, organizations had the ability to change the coexistence mode for either the user or the teant. This is no longer possible except for organizations with an on-premises deployment of Skype for Business Server, which must not have tenant-wide mode of TeamsOnly.   You can confirm that coexistence mode can no longer be changed if TeamsUpgradePolicyIsReadOnly = "ModeAndNotifications" on either the user or tenant.  (TeamsUpgradePolicyIsReadOnly on any user will have the same value as the tenant's value.)  
+All users in organizations without any on-premises deployment of Skype for Business Server or Lync Server 2013 will be TeamsOnly mode, and the tenant's effective mode will also be TeamsOnly. This can be confirmed by looking at TeamsUpgradeEffectiveMode property on the tenant or the user using Teams PowerShell.   Prior to the retirement of Skype for Business Online on July 31, 2021, organizations had the ability to change the coexistence mode for either the user or the tenant. This is no longer possible except for organizations with an on-premises deployment of Skype for Business Server, which must not have tenant-wide mode of TeamsOnly.   You can confirm that coexistence mode can no longer be changed if TeamsUpgradePolicyIsReadOnly = "ModeAndNotifications" on either the user or tenant.  (TeamsUpgradePolicyIsReadOnly on any user will have the same value as the tenant's value.)  
 
 
  ```powershell
@@ -45,30 +45,33 @@ TeamsUpgradeEffectiveMode  : TeamsOnly
 TeamsUpgradePolicyIsReadOnly: ModeAndNotifications
  ```
 
-In an organization that has an on-premises deployment of Skype for Business Server, both the tenant global policy and any user's assignment of TeamsUpgradePolicy can be any mode other than TeamsOnly. The possible modes for on-premises users are: *SfBOnly*, *SfBWithTeamsCollab*, and *SfBWithTeamsCollabAndMeetings*. If a user is not assigned an explicit instance of TeamsUpgradePolicy the user receives the value from the tenant global policy.
+In an organization with an on-premises deployment of Skype for Business Server, both the tenant global policy and a user's assignment of TeamsUpgradePolicy can be any mode *other than TeamsOnly*. The possible modes for on-premises users are: *SfBOnly*, *SfBWithTeamsCollab*, and *SfBWithTeamsCollabAndMeetings*. If a user is not explicitly assigned an instance of TeamsUpgradePolicy, the user receives the value from the tenant global policy.
 
 ## Routing parameters
 
-The TeamsUpgrade mode of the recipient is key in determining the behavior of chats, calls, and presence, both within a tenant and across federated tenants.
+The coexistence mode of the recipient determines the behavior of chats, calls, and presence, both within a tenant and across federated tenants.
 
-If the sender is using Teams, the routing decision is made when creating a new conversation thread. Existing conversation threads in Teams always retain the routing method determined when the thread was created: Teams supports persistent threads.
+If the sender is using Teams, the routing decision is made when creating a new conversation thread.  Once a conversation thread is created, its routing does not change and it retains the routing method determined when the thread was created.
 
- Thread routing methods are:
+Thread routing methods are:
 
 - *native* for a Teams to Teams conversation in-tenant
 - *interop* for a Teams to Skype for Business conversation in-tenant
-- *native federated* for a federated conversation across tenants when both users have TeamsOnly mode
+- *native federated* for a federated conversation across tenants when both users have TeamsOnly mode. 
 - *interop federated* for a federated conversation across tenants that relies on interop between Skype for Business and Teams.
 
-Routing of conversation threads is determined when a new thread is created. Once a conversation thread is created, its routing does not change. The parameters that determine the thread routing method are:
+> [!NOTES]
+> - Native conversations, whether in same tenant or federated scenarios, occur when both the receiver and sender have TeamsOnly mode. The conversation will be a native chat experience which includes all the rich messaging and calling capabilities. To learn more, read [Native chat experience for external (federated) users in Teams](native-chat-for-external-users.md). 
+> - If either of the conversation participants does NOT have TeamsOnly mode, the conversation is an interop experience with text-only messages.
+> - Federated communications between TeamsOnly users in mult-tenant clouds and special cloud environments (for example, governemnt clouds) will appear as interop federation chats.
+
+
+When creating a new conversation, the parameters that determine the thread routing method are:
 
 - The coexistence mode of the recipient
 - The client used by the sender
 - Whether the conversation is in-tenant or federated
 - Whether the conversation is possible.  If a user has a Skype for Business account homed on-premises, that user can't use the Teams client for in-tenant interoperability or for federation. That user can only use the Skype for Business client for interoperability and federation. Note that Teams to Teams communication is always possible in-tenant.
-
-> [!NOTE]
-> Native conversations, whether in same tenant or federated scenarios, occur when both the receiver and sender have TeamsOnly mode. The conversation will be a native chat experience which includes all the rich messaging and calling capabilities, whether the conversation is same . To learn more, read [Native chat experience for external (federated) users in Teams](native-chat-for-external-users.md). If either of the conversation participants does NOT have TeamsOnly mode, the conversation is an interop experience with text-only messages.
 
 ## Chat and call routing
 
@@ -93,7 +96,7 @@ In the tables that follow:
 |<br><br>Mode|Originator<br><br>Client|<br><br>SfB&nbsp;homed|<br><br>Route-->|TeamsOnly Recipient|
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|Online|&boxv;|Teams|
-|Islands|Teams <br> Teams <br> Skype for Business|Online <br> On-prem <br> On-prem|&boxv;<br>&boxv;<br>&boxv;|Teams <br> Teams <br> *Teams*|
+|Islands|Teams <br> Skype for Business| On-prem <br> On-prem|&boxv;<br>&boxv;|Teams <br> *Teams*|
 |SfB\*|Skype for Business | On-prem|&boxv;|*Teams*|
 ||||||
 
@@ -104,7 +107,7 @@ In the tables that follow:
 |<br><br>Mode|Originator<br><br>Client|<br><br>SfB&nbsp;homed|<br><br>Route-->|Islands Recipient|
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|Online|&boxv;|Teams|
-|Islands|Teams <br> Teams <br> Skype for Business|Online <br> On-prem<br>On-prem|&boxv;<br>&boxv;<br>&boxv;|Teams <br> Teams <br> Skype for Business|
+|Islands| Teams <br> Skype for Business|On-prem<br>On-prem|&boxv;<br>&boxv;| Teams <br> Skype for Business|
 |SfB\*|Skype for Business | On-prem|&boxv;| Skype for Business|
 ||||||
 
@@ -115,7 +118,7 @@ In the tables that follow:
 |<br><br>Mode|Originator<br><br>Client|<br><br>SfB&nbsp;homed|<br><br>Route-->|SfB\* Recipient|
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|Online|&boxv;|*Skype for Business*|
-|Islands|Teams <br> Teams <br> Skype for Business|Online <br> On-prem <br> On-prem|&boxv;<br>&boxv;<br>&boxv;|*Skype for Business* <br> **Not Possible** <br> Skype for Business|
+|Islands|Teams <br> Skype for Business| On-prem <br> On-prem|&boxv;<br>&boxv;| **Not Possible** <br> Skype for Business|
 |SfB\*| Skype for Business| On-prem|&boxv;|Skype for Business|
 ||||||
 
@@ -135,9 +138,9 @@ The tables below describe which client will receive a call from the originator (
 
 |<br><br>Mode|Originator<br><br>Client|<br><br>SfB homed|<br><br>Route-->|TeamsOnly Recipient|
 |---|---|---|:---:|---|
-|Islands|Teams <br> Skype for Business <br> Teams <br> Skype for Business|Online <br> Online <br> On-prem <br> On-prem|&boxv;<br>&boxv;<br>&boxv;<br>&boxv;|Teams <br> *Teams* <br> **Not Possible** <br> *Teams*|
-|SfB\*|Skype for Business <br> Skype for Business|Online <br> On-prem|&boxv;<br>&boxv;|*Teams* <br> *Teams*|
 |TeamsOnly|Teams|Online|&boxv;|Teams|
+|Islands|Teams <br> Skype for Business|On-prem <br> On-prem|&boxv;<br>&boxv;|**Not Possible** <br> *Teams*|
+|SfB\*|Skype for Business|On-prem|&boxv;| *Teams*|
 ||||||
 
 
@@ -147,9 +150,9 @@ The tables below describe which client will receive a call from the originator (
 
 |<br><br>Mode|Originator<br><br>Client|<br><br>SfB homed|<br><br>Route-->|Islands Recipient|
 |---|---|---|:---:|---|
-|Islands|Teams <br> Skype for Business <br> Teams <br> Skype for Business|Online <br> Online <br> On-prem <br> On-prem|&boxv;<br>&boxv;<br>&boxv;<br>&boxv;|*Skype for Business* <br> Skype for Business <br> **Not Possible** <br> Skype for Business|
-|SfB\*|Skype for Business <br> Skype for Business|Online <br> On-prem|&boxv;<br>&boxv;|Skype for Business <br> Skype for Business|
 |TeamsOnly|Teams|Online|&boxv;|*Skype for Business*|
+|Islands|Teams <br> Skype for Business| On-prem <br> On-prem|&boxv;<br>&boxv;| **Not Possible** <br> Skype for Business|
+|SfB\*|Skype for Business| On-prem|&boxv;| Skype for Business|
 |||||
 
 #### Table 2c: federated new chat or call routing to a recipient in an SfB\* mode
@@ -158,9 +161,9 @@ The tables below describe which client will receive a call from the originator (
 
 |<br><br>Mode|Originator<br><br>Client|<br><br>SfB homed|<br><br>Route-->|SfB\* Recipient|
 |---|---|---|:---:|---|
-|Islands|Teams <br> Skype for Business <br> Teams <br> Skype for Business|Online <br> Online <br> On-prem <br> On-prem|&boxv;<br>&boxv;<br>&boxv;<br>&boxv;|*Skype for Business* <br> Skype for Business <br> **Not Possible** <br> Skype for Business|
-|SfB\*|Skype for Business <br> Skype for Business|Online <br> On-prem|&boxv;<br>&boxv;|Skype for Business <br> Skype for Business|
 |TeamsOnly|Teams|Online|&boxv;|*Skype for Business*|
+|Islands|Teams <br> Skype for Business| On-prem <br> On-prem|&boxv;<br>&boxv;|**Not Possible** <br> Skype for Business|
+|SfB\*|Skype for Business|On-prem|&boxv;<br>&boxv;|Skype for Business|
 ||||||
 
 
@@ -169,9 +172,7 @@ The tables below describe which client will receive a call from the originator (
 
 ### From Teams
 
-Calls or chats started from a pre-existing persistent thread in Teams will be routed in the same manner as that thread, if that routing option is still available.
-
-If the pre-existing persistent thread in Teams was a native thread (i.e. routed to Teams), additional chat messages and calls from that thread will go to Teams. If it was an interop thread (i.e. routed to Skype for Business), additional chat messages and calls will go to Skype for Business (again assuming routing options are available).
+Calls or chats started from a pre-existing persistent thread in Teams will be routed in the same manner as that thread, if that routing option is still available. If the pre-existing persistent thread in Teams was a native thread (i.e. routed to Teams), additional chat messages and calls from that thread will go to Teams. If it was an interop thread (i.e. routed to Skype for Business), additional chat messages and calls will go to Skype for Business (again assuming routing options are available).
 
 > [!NOTE]
 > It's possible for pre-existing threads in Teams to no longer be routable, such as when the thread was an interop thread to a user that is now upgraded to Teams. Since it was created as an interop thread, the thread would route to Skype for Business, but that user no longer can use Skype for Business for chat and calling. In that case, the thread will be disabled and not permit further communication.
@@ -179,14 +180,6 @@ If the pre-existing persistent thread in Teams was a native thread (i.e. routed 
 ### From Skype for Business
 
 Skype for Business threads do not persist beyond the 10 min. SIP session timeout. Chats and calls from an existing thread in Skype for Business prior to expiration of the SIP session will be routed in the same manner as the thread. Calls and chats from an existing thread in Skype for Business beyond the SIP session timeout will be routed to the remote party's Skype for Business, regardless of which client the original thread came from on the other party's side.
-
-### Availability
-
-Both the in-tenant and federated behaviors described above are available, with the following limitations:
-
-- External attendees whose tenants reside in a different GoLocal deployment or geography won't see IM chat while in a "federated" meeting
-- Federation and interop between multi-tenant Office 365 and Office 365 operated by 21Vianet is supported in limited scenarios.
-
 
 ## Presence
 
