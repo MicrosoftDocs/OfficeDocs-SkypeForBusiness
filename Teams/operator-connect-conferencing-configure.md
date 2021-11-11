@@ -118,15 +118,11 @@ New-CsOnlineVoiceRoute -Identity "International" -NumberPattern "\d+" -OnlinePst
 
 ### Step 3: Create a new Online Audio Conferencing Routing policy
 
-Read [New-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/new-csonlinevoiceroutingpolicy) for more information on using this cmdlet.
-
 ```powershell
 New-CsOnlineAudioConferencingRoutingPolicy "International Policy" -OnlinePstnUsages "International"
 ```
 
 ### Step 4: Assign the new policy to users
-
-Read [Grant-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/grant-csonlinevoiceroutingpolicy) for more information on using this cmdlet.
 
 ```powershell
 Grant-CsOnlineAudioConferencingRoutingPolicy -Identity <identity of the organizer of the meeting> -PolicyName "International Policy”
