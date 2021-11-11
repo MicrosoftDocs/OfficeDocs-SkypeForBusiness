@@ -26,7 +26,7 @@ Coexistence and interoperability between Skype for Business and Teams clients is
 
 
 ## Determining a user's coexistence mode
-All users in organizations without any on-premises deployment of Skype for Business Server or Lync Server 2013 are TeamsOnly mode, and the tenant's effective mode is also TeamsOnly. This can be confirmed by looking at TeamsUpgradeEffectiveMode property on the tenant or the user using Teams PowerShell.   Prior to the retirement of Skype for Business Online on July 31, 2021, organizations had the ability to change the coexistence mode for either the user or the tenant. This is no longer possible except for organizations with an on-premises deployment of Skype for Business Server, which must not have tenant-wide mode of TeamsOnly.   You can confirm that coexistence mode can no longer be changed if TeamsUpgradePolicyIsReadOnly = "ModeAndNotifications" on either the user or tenant.  (TeamsUpgradePolicyIsReadOnly on any user will have the same value as the tenant's value.)  
+All users in organizations without any on-premises deployment of Skype for Business Server or Lync Server 2013 are TeamsOnly mode, and the tenant's effective mode is also TeamsOnly. This can be confirmed by looking at TeamsUpgradeEffectiveMode property on the tenant or the user using Teams PowerShell.   Prior to the retirement of Skype for Business Online on July 31, 2021, organizations had the ability to change the coexistence mode for either the user or the tenant. This is no longer possible except for organizations with an on-premises deployment of Skype for Business Server, which must not have tenant-wide mode of TeamsOnly. You can confirm that coexistence mode can no longer be changed if TeamsUpgradePolicyIsReadOnly = "ModeAndNotifications" on either the user or tenant.  (TeamsUpgradePolicyIsReadOnly on any user will have the same value as the tenant's value.)  
 
 
  ```powershell
@@ -76,9 +76,9 @@ The tables below show which client in a given mode will receive a call from the 
 
 In the tables that follow:
 
-- **SfB\*** represents any of the following modes: *SfBOnly*, *SfBWithTeamsCollab*, *SfBWithTeamsCollabAndMeetings*.
+- **Skype for Business*** represents any of the following modes: *SfBOnly*, *SfBWithTeamsCollab*, *SfBWithTeamsCollabAndMeetings*.
 - *Italic text* highlights an interop conversation.
-- **Not Possible** represents a situation in which the chat or call is not possible. The originator must use Skype for Business instead in these cases. This is one of the reasons why Microsoft's prescriptive guidance to on-prem/hybrid customers is to use a mode other than Islands (typically SfBWithTeamsCollab) as the starting point of their upgrade journey to Teams.
+- **Not Possible** represents a situation in which the chat or call is not possible. The originator must use Skype for Business instead in these cases. This is one of the reasons why Microsoft's prescriptive guidance to on-premesis and hybrid customers is to use a mode other than Islands (typically SfBWithTeamsCollab) as the starting point for their upgrade journey to Teams.
 
 
 ### In-tenant routing for new chats or calls
@@ -96,7 +96,7 @@ Messages sent to TeamsOnly users will always route to Teams. Messages sent to Sk
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|Online|&boxv;|Teams|
 |Islands|Teams <br> Skype for Business| On-prem <br> On-prem|&boxv;<br>&boxv;|Teams <br> *Teams*|
-|SfB\*|Skype for Business | On-prem|&boxv;|*Teams*|
+|Skype for Business | Skype for Business | On-prem|&boxv;|*Teams*|
 ||||||
 
 #### Table 1b: in-tenant new chat or call routing to an islands mode recipient
@@ -107,7 +107,7 @@ Messages sent to TeamsOnly users will always route to Teams. Messages sent to Sk
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|Online|&boxv;|Teams|
 |Islands| Teams <br> Skype for Business|On-prem<br>On-prem|&boxv;<br>&boxv;| Teams <br> Skype for Business|
-|SfB\*|Skype for Business | On-prem|&boxv;| Skype for Business|
+|Skype for Business |Skype for Business | On-prem|&boxv;| Skype for Business|
 ||||||
 
 #### Table 1c: in-tenant new chat or call routing to a recipient in a Skype for Business mode
@@ -118,7 +118,7 @@ Messages sent to TeamsOnly users will always route to Teams. Messages sent to Sk
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|Online|&boxv;|*Skype for Business*|
 |Islands|Teams <br> Skype for Business| On-prem <br> On-prem|&boxv;<br>&boxv;| **Not Possible** <br> Skype for Business|
-|SfB\*| Skype for Business| On-prem|&boxv;|Skype for Business|
+|Skype for Business | Skype for Business| On-prem|&boxv;| Skype for Business|
 ||||||
 
 
@@ -126,7 +126,7 @@ Messages sent to TeamsOnly users will always route to Teams. Messages sent to Sk
 
 The tables below capture routing of federated calls and chats, and are valid for new calls or chats. They describe which client will receive a new call or chat, if originated by a user on the left, to a federated target user on the right.
 
-In summary, if the conversation is possible as described above, messages sent to TeamsOnly users will always land in Teams; messages sent to SfB\* users will always land in Skype for Business; messages sent to Islands users will always land in Skype for Business regardless of the client from which they were sent. Routing for federated chats and calls differs from in-tenant routing in that Islands users will always receive a federated communication in Skype for Business.
+In summary, if the conversation is possible as described above, messages sent to TeamsOnly users will always land in Teams; messages sent to Skype for Business mode users will always land in Skype for Business; messages sent to Islands users will always land in Skype for Business regardless of the client from which they were sent. Routing for federated chats and calls differs from in-tenant routing in that Islands users will always receive a federated communication in Skype for Business.
 
 This is because we cannot assume that a federated Skype for Business partner already uses Teams if they are in Islands mode. Islands is the default mode, however we can't assume all Islands users run Teams. By routing to Skype for Business we ensure that no communication to an Islands user fails. If we routed to Teams, that communication could be missed if the target did not use Teams. Routing to Skype for Business ensures the message will always be received.
 
@@ -134,11 +134,11 @@ This is because we cannot assume that a federated Skype for Business partner alr
 
 <br>
 
-|<br><br>Mode|Originator<br><br>Client|<br><br>SfB homed|<br><br>Route-->|TeamsOnly Recipient|
+|<br><br>Mode|Originator<br><br>Client|<br><br>Skype for Business homed|<br><br>Route-->|TeamsOnly Recipient|
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|Online|&boxv;|Teams|
 |Islands|Teams <br> Skype for Business|On-prem <br> On-prem|&boxv;<br>&boxv;|**Not Possible** <br> *Teams*|
-|SfB\*|Skype for Business|On-prem|&boxv;| *Teams*|
+|Skype for Business |Skype for Business|On-prem|&boxv;| *Teams*|
 ||||||
 
 
@@ -150,7 +150,7 @@ This is because we cannot assume that a federated Skype for Business partner alr
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|Online|&boxv;|*Skype for Business*|
 |Islands|Teams <br> Skype for Business| On-prem <br> On-prem|&boxv;<br>&boxv;| **Not Possible** <br> Skype for Business|
-|SfB\*|Skype for Business| On-prem|&boxv;| Skype for Business|
+|Skype for Business |Skype for Business| On-prem|&boxv;| Skype for Business|
 |||||
 
 #### Table 2c: federated new chat or call routing to a recipient in an Skype for Business mode
@@ -161,7 +161,7 @@ This is because we cannot assume that a federated Skype for Business partner alr
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|Online|&boxv;|*Skype for Business*|
 |Islands|Teams <br> Skype for Business| On-prem <br> On-prem|&boxv;<br>&boxv;|**Not Possible** <br> Skype for Business|
-|SfB\*|Skype for Business|On-prem|&boxv;<br>&boxv;|Skype for Business|
+|Skype for Business |Skype for Business|On-prem|&boxv;<br>&boxv;|Skype for Business|
 ||||||
 
 
@@ -204,7 +204,7 @@ The table describes the Publisher's presence that will be seen by a Watcher, dep
 
 <br>
 
-|Watcher<br><br>Client|<br><br>Route-->|<br><br>Islands|Publisher<br><br>SfB\*|<br>Teams Only|
+|Watcher<br><br>Client|<br><br>Route-->|<br><br>Islands|Publisher<br><br>Skype for Business|<br>Teams Only|
 |---|:---:|---|---|---|
 |Skype for Business|&boxv;|Skype for Business|Skype for Business|Teams|
 |Teams|&boxv;|Teams|Skype for Business|Teams|
@@ -220,7 +220,7 @@ The table below describes the Publisher's presence that will be seen by a Watche
 
 <br>
 
-|Watcher<br><br>Client|<br><br>Route-->|<br><br>Islands|Publisher<br><br>SfB\*|<br><br>Teams Only|
+|Watcher<br><br>Client|<br><br>Route-->|<br><br>Islands|Publisher<br><br>Skype for Business|<br><br>Teams Only|
 |---|:---:|---|---|---|
 |Skype for Business|&boxv;|Skype for Business|Skype for Business|Teams|
 |Teams|&boxv;|Skype for Business|Skype for Business|Teams|
@@ -242,11 +242,11 @@ Federation and interop between multi-tenant Office 365 and Office 365 operated b
 |Chat|Teams <br> Skype for Business <br> | Skype for Business <br> Teams|Yes (1:1 only)<br>Yes(1:1 only)|
 |Audio Calls|Teams <br> Skype for Business <br> | Skype for Business <br> Teams|Yes (1:1 only)<br>Yes (1:1 only)|
 |Video Calls|Teams <br> Skype for Business <br> | Skype for Business <br> Teams|Yes (1:1 only)<br>Yes (1:1 only)|
-|Screen Sharing|Teams <br> Skype for Business <br> | Skype for Business <br> Teams |Yes (through a promoted Teams meeting)<br>Yes (through a promoted SfB meeting)|
+|Screen Sharing|Teams <br> Skype for Business <br> | Skype for Business <br> Teams |Yes (through a promoted Teams meeting)<br>Yes (through a promoted Skype for Business meeting)|
 |||||
 
 
 ## Related Links
 [Migration and interoperability guidance for organizations using Teams together with Skype for Business](./migration-interop-guidance-for-teams-with-skype.md)
 
-[Video: Manage Coexistence and Interoperability between SfB and Teams](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)
+[Video: Manage Coexistence and Interoperability between Skype for Business and Teams](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)
