@@ -23,6 +23,15 @@ ms.custom:
 description: "Learn how to set up Common Area Phones for lobbies, reception areas, and conference rooms "
 ---
 
+## Account and Security Considerations
+
+We recommend that Office 365 accounts that are created for use on Common Area Phones have password expiry disabled.
+
+While common area phone licensing does not include an Intune license, you may choose to assign an Intune license to a common area phone account, so that the device may register within Intune.
+
+Just like other Office 365 user accounts, accounts used on Common Area Phones support multi-factor authentication. If you choose to enable MFA for your Common Area Phone accounts, plan how you will receive and enter the MFA authentication code on each handset during sign-in. Ensure you register each account for MFA prior to signing in to each phone handset.
+
+
 # Set up the Common Area Phone license for Microsoft Teams
 > [!NOTE]
 > Common area phones do not support voicemail.
@@ -31,7 +40,13 @@ A common area phone is typically placed in an area like a lobby or another area 
 
 In the steps below, we'll help you set up an account for Phone System to deploy common area phones for your organization. For a more complete meeting room experience, including audio conferencing, consider purchasing the dedicated Meeting Room license with a meeting room device. 
 
-First, you need to purchase a Common Area Phone (CAP) license and make sure that you have a certified phone. To search for and learn more about certified phones, go to [Microsoft Teams devices](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1). 
+First, you need to purchase a Common Area Phone (CAP) license and make sure that you have a certified phone. To search for and learn more about certified phones, go to [Microsoft Teams devices](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1).
+
+
+## Licensing
+
+Common area phones require an Office 365 user account with sufficient licensing. You can either purchase and assign a **Common Area Phone** license, or assign one of your existing **E5**, or **E3 with Phone system** licenses.
+
 
 ## Step 1 - Buy the licenses
 
