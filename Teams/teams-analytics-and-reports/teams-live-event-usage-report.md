@@ -44,7 +44,7 @@ The Teams live event usage report in the Microsoft Teams admin center shows you 
 ## Notes
 We show up to 100 live events that match the current report criteria. To see more live events, apply date filters to reduce the list size. 
 
-Everybody who watches the recording of the event or the event on demand will not be included in the view count. 
+Anybody who watches the recording of the event or the event on demand will not be included in the view count. 
 
 ## View event details
 
