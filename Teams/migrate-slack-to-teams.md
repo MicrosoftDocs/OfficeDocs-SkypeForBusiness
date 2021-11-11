@@ -32,7 +32,7 @@ The diagram below shows the Slack architecture at a high level.
 
 ## Plan your migration from Slack
 ### What you can and can’t migrate
-Your Slack service plan will determine what you can and can’t migrate. For example, some Slack service plans only let you export public channels history and files, other require a DocuSign request to include Private and Shared Channels and Direct Messages. 
+Your Slack service plan will determine what you can and can’t migrate. For example, some Slack service plans only let you export public channels history and files, other require a DocuSign request to include Private Channels and Direct Messages. 
 
 To determine your Slack Workspace service level, log into Slack and note your plan type on the **About this Workspace** page.
 
@@ -60,7 +60,7 @@ If you’re a member of the Slack Workspaces you want to migrate, you can analyz
 In Slack, users join a channel which is part of a Slack Workspace, whereas in Teams users join a team which is a collection of channels. We recommend that you use Slack analytics to see how much activity happens in each channel to help you decide which channels to move. You’ll use the resulting list to figure out how to group your Slack channels into teams in Teams as well as who should be members of each team.
 
 If you have a paid Slack service plan (anything other than Free), you can use Slack’s analytics (\<your Slack workspace\>.slack.com/admin/stats#channels) to see how active a channel is, when it was last used, and how many people are members. This can help you decide whether to migrate the channel. 
-By default, public channels content (messages and files) can be exported. Depending on your Slack service plan and whether you’ve requested Private and Shared Channels and Direct Messages from Slack, those can be exported.
+By default, public channels content (messages and files) can be exported. Depending on your Slack service plan and whether you’ve requested Private Channels and Direct Messages from Slack, those can be exported.
 
 To learn more about Slack export options, go to the Slack website: https://get.slack.help/hc/articles/204897248-Guide-to-Slack-import-and-export-tools 
 
@@ -195,7 +195,7 @@ Using the Channel inventory you compiled in the Planning section above, work wit
 
 ### Channel History
 
-There are both free solutions on GitHub and paid solutions you can use, depending on your organization’s requirements to retain Channel History of Public and Private and Shared channels. Additionally, this could be scripted into Teams.
+There are both free solutions on GitHub and paid solutions you can use, depending on your organization’s requirements to retain Channel History of Public and Private channels. Additionally, this could be scripted into Teams.
 
 Once you’ve set up your new team and channel structure in Teams, you can copy the exported files into the appropriate document libraries in your Teams channels.
 
