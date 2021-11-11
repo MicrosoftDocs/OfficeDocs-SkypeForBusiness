@@ -78,7 +78,7 @@ In the tables that follow:
 
 - **Skype for Business*** represents any of the following modes: *SfBOnly*, *SfBWithTeamsCollab*, *SfBWithTeamsCollabAndMeetings*.
 - *Italic text* highlights an interop conversation.
-- **Not Possible** represents a situation in which the chat or call is not possible. The originator must use Skype for Business instead in these cases. This is one of the reasons why Microsoft's prescriptive guidance to on-premesis and hybrid customers is to use a mode other than Islands (typically SfBWithTeamsCollab) as the starting point for their upgrade journey to Teams.
+- **Not Possible** represents a situation in which the chat or call is not possible. The originator must use Skype for Business instead in these cases. This is one of the reasons why Microsoft's prescriptive guidance to on-premises and hybrid customers is to use a mode other than Islands (typically SfBWithTeamsCollab) as the starting point for their upgrade journey to Teams.
 
 
 ### In-tenant routing for new chats or calls
@@ -93,8 +93,8 @@ The tables below capture routing of in-tenant chat and calls, and are valid for 
 |<br><br>Mode|Originator<br><br>Client|<br><br>Skype for Business&nbsp;homed|<br><br>Route-->|TeamsOnly Recipient|
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|Online|&boxv;|Teams|
-|Islands|Teams <br> Skype for Business| On-prem <br> On-prem|&boxv;<br>&boxv;|Teams <br> *Teams*|
-|Skype for Business | Skype for Business | On-prem|&boxv;|*Teams*|
+|Islands|Teams <br> Skype for Business| On-premises <br> On-premises|&boxv;<br>&boxv;|Teams <br> *Teams*|
+|Skype for Business | Skype for Business | On-premises|&boxv;|*Teams*|
 ||||||
 
 #### Table 1b: in-tenant new chat or call routing to an islands mode recipient
@@ -104,8 +104,8 @@ The tables below capture routing of in-tenant chat and calls, and are valid for 
 |<br><br>Mode|Originator<br><br>Client|<br><br>Skype for Business&nbsp;homed|<br><br>Route-->|Islands Recipient|
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|Online|&boxv;|Teams|
-|Islands| Teams <br> Skype for Business|On-prem<br>On-prem|&boxv;<br>&boxv;| Teams <br> Skype for Business|
-|Skype for Business |Skype for Business | On-prem|&boxv;| Skype for Business|
+|Islands| Teams <br> Skype for Business|On-premises<br>On-premises|&boxv;<br>&boxv;| Teams <br> Skype for Business|
+|Skype for Business |Skype for Business | On-premises|&boxv;| Skype for Business|
 ||||||
 
 #### Table 1c: in-tenant new chat or call routing to a recipient in a Skype for Business mode
@@ -115,8 +115,8 @@ The tables below capture routing of in-tenant chat and calls, and are valid for 
 |<br><br>Mode|Originator<br><br>Client|<br><br>Skype for Business&nbsp;homed|<br><br>Route-->|Skype for Business Recipient|
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|Online|&boxv;|*Skype for Business*|
-|Islands|Teams <br> Skype for Business| On-prem <br> On-prem|&boxv;<br>&boxv;| **Not Possible** <br> Skype for Business|
-|Skype for Business | Skype for Business| On-prem|&boxv;| Skype for Business|
+|Islands|Teams <br> Skype for Business| On-premises <br> On-premises|&boxv;<br>&boxv;| **Not Possible** <br> Skype for Business|
+|Skype for Business | Skype for Business| On-premises|&boxv;| Skype for Business|
 ||||||
 
 
@@ -133,8 +133,8 @@ Routing for federated chats and calls differs from in-tenant routing in that Isl
 |<br><br>Mode|Originator<br><br>Client|<br><br>Skype for Business homed|<br><br>Route-->|TeamsOnly Recipient|
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|Online|&boxv;|Teams|
-|Islands|Teams <br> Skype for Business|On-prem <br> On-prem|&boxv;<br>&boxv;|**Not Possible** <br> *Teams*|
-|Skype for Business |Skype for Business|On-prem|&boxv;| *Teams*|
+|Islands|Teams <br> Skype for Business|On-premises <br> On-premises|&boxv;<br>&boxv;|**Not Possible** <br> *Teams*|
+|Skype for Business |Skype for Business|On-premises|&boxv;| *Teams*|
 ||||||
 
 
@@ -145,8 +145,8 @@ Routing for federated chats and calls differs from in-tenant routing in that Isl
 |<br><br>Mode|Originator<br><br>Client|<br><br>Skype for Business homed|<br><br>Route-->|Islands Recipient|
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|Online|&boxv;|*Skype for Business*|
-|Islands|Teams <br> Skype for Business| On-prem <br> On-prem|&boxv;<br>&boxv;| **Not Possible** <br> Skype for Business|
-|Skype for Business |Skype for Business| On-prem|&boxv;| Skype for Business|
+|Islands|Teams <br> Skype for Business| On-premises <br> On-premises|&boxv;<br>&boxv;| **Not Possible** <br> Skype for Business|
+|Skype for Business |Skype for Business| On-premises|&boxv;| Skype for Business|
 |||||
 
 #### Table 2c: federated new chat or call routing to a recipient in an Skype for Business mode
@@ -156,8 +156,8 @@ Routing for federated chats and calls differs from in-tenant routing in that Isl
 |<br><br>Mode|Originator<br><br>Client|<br><br>Skype for Business homed|<br><br>Route-->|Skype for Business Recipient|
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|Online|&boxv;|*Skype for Business*|
-|Islands|Teams <br> Skype for Business| On-prem <br> On-prem|&boxv;<br>&boxv;|**Not Possible** <br> Skype for Business|
-|Skype for Business |Skype for Business|On-prem|&boxv;<br>&boxv;|Skype for Business|
+|Islands|Teams <br> Skype for Business| On-premises <br> On-premises|&boxv;<br>&boxv;|**Not Possible** <br> Skype for Business|
+|Skype for Business |Skype for Business|On-premises|&boxv;<br>&boxv;|Skype for Business|
 ||||||
 
 
