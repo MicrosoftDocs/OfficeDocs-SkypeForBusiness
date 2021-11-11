@@ -74,8 +74,8 @@ The maximum length of time depends on who is in the meeting and the type of auth
   
 |**Meeting attendees**|**Meeting end time**|
 |:-----|:-----|
-|Users have joined using the Skype for Business or Microsoft Teams app or have dialed in to the meeting.  <br/> |The meeting ends if there are no changes to the attendee list after 24 hours.  <br/> |
-|All of the users are dialed in to the meeting but someone has used a PIN to enter the meeting.  <br/> |The meeting ends after 24 hours.  <br/> |
+|Users have joined using the Skype for Business or Microsoft Teams app or have dialed in to the meeting.  <br/> |The meeting ends if there are no changes to the attendee list after 30 hours.  <br/> |
+|All of the users are dialed in to the meeting but someone has used a PIN to enter the meeting.  <br/> |The meeting ends after 30 hours.  <br/> |
 |All of the users are dialed in to the meeting but there wasn't anyone who used a PIN to enter the meeting.  <br/> | If anonymous users are allowed to start meetings, the meeting ends after four hours. If anonymous users aren't allowed to start meetings and all authenticated participants have left the meeting, the meeting ends 90 minutes after the last authenticated participant left. <br/> |
    
 ## How many total phone participants can I have in meetings?
