@@ -67,7 +67,7 @@ You can search for users by using the Skype for Business Server Control Panel or
 6. The search results appear on the **Users** page. You can select any or all of the users in the list and perform configuration tasks on the users you select.
 
 > [!NOTE]
-> The new Control Panel is not available for Skype for Business Server 2015
+> The new Control Panel is not available for Skype for Business Server 2015.
 
 ### Search for users using legacy Control Panel 
 
@@ -152,7 +152,7 @@ You can use the following procedure to disable a previously enabled user account
     - To re-enable the user account for Skype for Business Server, in the panel, click **Re-enable User**. In the next panel that appears, click **Save**.
 
 > [!NOTE]
-> The new Control Panel is not available for Skype for Business Server 2015
+> The new Control Panel is not available for Skype for Business Server 2015.
 
 
 ### Disable or re-enable a user account using legacy Control Panel
@@ -175,13 +175,13 @@ You can use the following procedure to disable a previously enabled user account
    - To enable the user account for Skype for Business Server, click **Re-enable for Lync Server**.
 
   
-### Use Windows Powershell to Disable or Re-enable User Accounts
+### Use Windows Powershell to disable or re-enable user accounts
 
 User accounts can be temporarily disabled, and then later re-enabled, by using the **Set-CsUser** cmdlet. You can run this cmdlet either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Skype for Business Server, see [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). The process is the same in Skype for Business Server.
 
 ### To disable a user account
 
-- To temporarily disable a user account, set the value of the Enabled property to False ($False). For example:
+- To temporarily disable a user account, set the value of the enabled property to False ($False). For example:
 
   ```PowerShell
   Set-CsUser -Identity "Ken Myer" -Enabled $False
@@ -189,7 +189,7 @@ User accounts can be temporarily disabled, and then later re-enabled, by using t
 
 ### To re-enable a user account
 
-- To re-enable a disabled user account, set the value of the Enabled property to True ($True). For example:
+- To re-enable a disabled user account, set the value of the enabled property to True ($True). For example:
 
   ```PowerShell
   Set-CsUser -Identity "Ken Myer" -Enabled $True
