@@ -35,7 +35,7 @@ This article provides a roadmap to the content you'll need to successfully manag
 
 - [Communicate with users from other organizations](communicate-with-users-from-other-organizations.md). Read this article to understand the differences between guest and external access and what functionality is available with both. Additional articles in this section describe how to manage guest and external access.
 
-- [Manage policies](assign-policies.md). Read this article to understand how to define and assign policies to manage users, permissions, and Teams functionality.
+- [Manage policies](policy-assignment-overview.md). Read this article to understand how to define and assign policies to manage users, permissions, and Teams functionality.
 
 - [Monitor and manage call quality](monitor-call-quality-qos.md). Read this article to understand how to use the tools available for monitoring and improving call quality for your organization.
 

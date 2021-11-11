@@ -1,7 +1,7 @@
 ---
 title: What's a port order?
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
