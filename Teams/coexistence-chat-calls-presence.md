@@ -22,7 +22,7 @@ description: Coexistence behavior between Teams & Skype for Business, including 
 
 # Coexistence with Skype for Business
 
-Coexistence and interoperability between Skype for Business and Teams clients is controlled by coexistence modes, described in [Migration and interoperability guidance for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md). After the retirement of Skype for Business Online on July 31, 2021, users homed in the cloud are always TeamsOnly users. It is no longer possible to assign a coexistence mode other than TeamsOnly to an online user. Coexistence modes other than TeamsOnly are only relevant for organizations with on-premises deployments of Skype for Business Server or Lync Server 2013.
+Coexistence and interoperability between Skype for Business and Teams clients is controlled by coexistence modes. For more information, see [Migration and interoperability guidance for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md). After the retirement of Skype for Business Online on July 31, 2021, users homed in the cloud are always TeamsOnly users. It is no longer possible to assign a coexistence mode other than TeamsOnly to an online user. Coexistence modes other than TeamsOnly are only relevant for organizations with on-premises deployments of Skype for Business Server or Lync Server 2013.
 
 
 ## Determining a user's coexistence mode
@@ -45,11 +45,11 @@ TeamsUpgradeEffectiveMode  : TeamsOnly
 TeamsUpgradePolicyIsReadOnly: ModeAndNotifications
  ```
 
-In an organization with an on-premises deployment of Skype for Business Server, both the tenant global policy and a user's assignment of TeamsUpgradePolicy can be any mode *other than TeamsOnly*. The possible modes for the tenant, as well as on-premises users are: *SfBOnly*, *SfBWithTeamsCollab*, and *SfBWithTeamsCollabAndMeetings*. If a user is not explicitly assigned an instance of TeamsUpgradePolicy, the user receives the value from the tenant global policy. Note that online users in a hybrid organization are TeamsOnly.
+In an organization with an on-premises deployment of Skype for Business Server, both the tenant global policy and a user's assignment of TeamsUpgradePolicy can be any mode *other than TeamsOnly*. The possible modes for the tenant, as well as on-premises users are: *SfBOnly*, *SfBWithTeamsCollab*, and *SfBWithTeamsCollabAndMeetings*. If a user is not assigned an instance of TeamsUpgradePolicy, the user receives the value from the tenant global policy. Note that online users in a hybrid organization are TeamsOnly.
 
 ## Routing parameters
 
-The coexistence mode of the recipient determines the behavior of chats, calls, and presence, both within a tenant and across federated tenants. If the sender is using Teams, the routing decision is made when creating a new conversation thread.  Once a conversation thread is created, its routing does not change and it retains the routing method determined when the thread was created.
+The coexistence mode of the recipient determines the behavior of chats, calls, and presence, both within a tenant and across federated tenants. If the sender is using Teams, the routing decision is made when creating a new conversation thread. Once a conversation thread is created, its routing does not change, and it retains the routing method determined when the thread was created.
 
 Thread routing methods are:
 
@@ -59,8 +59,8 @@ Thread routing methods are:
 - *interop federated* for a federated conversation across tenants that relies on interop between Skype for Business and Teams.
 
 > [!NOTES]
-> - Native conversations, whether in same tenant or federated scenarios, occur when both the receiver and sender have TeamsOnly mode. The conversation will be a native chat experience which includes all the rich messaging and calling capabilities. To learn more, read [Native chat experience for external (federated) users in Teams](native-chat-for-external-users.md). 
-> - If either of the conversation participants does NOT have TeamsOnly mode, the conversation is an interop experience with text-only messages.
+> - Native conversations, whether in the same tenant or federated scenarios, occur when both the receiver and sender have TeamsOnly mode. The conversation will be a native chat experience, which includes all the rich messaging and calling capabilities. To learn more, read [Native chat experience for external (federated) users in Teams](native-chat-for-external-users.md). 
+> - If either of the conversation participants do NOT have TeamsOnly mode, the conversation is an interop experience with text-only messages.
 > - Federated communications between TeamsOnly users in mult-tenant clouds and special cloud environments (for example, governemnt clouds) will appear as interop federation chats.
 
 
@@ -69,10 +69,10 @@ When creating a new conversation, the factors that determine the thread routing 
 - The coexistence mode of the recipient
 - The client used by the sender
 - Whether the conversation is in-tenant or federated
-- Whether the conversation is possible.  If a user has a Skype for Business account homed on-premises, that user can't use the Teams client for in-tenant interoperability or for federation. That user can only use the Skype for Business client for interoperability and federation. Note that Teams to Teams communication is always possible in-tenant.
+- Whether the conversation is possible. If a user has a Skype for Business account homed on-premises, that user can't use the Teams client for in-tenant interoperability or for federation. That user can only use the Skype for Business client for interoperability and federation. Note that Teams to Teams communication is always possible in-tenant.
 
 ## Chat and call routing
-The tables below show which client in a given mode will receive a call from the originator (three leftmost columns), depending on the originator's mode, client chosen, and where their Skype for Business account is homed (on-prem or online).
+The tables below show which client in a given mode will receive a call from the originator (three leftmost columns). Which cient receives the call depends on the originator's mode, the client chosen, and where the Skype for Business account is homed (on-prem or online).
 
 In the tables that follow:
 
@@ -85,14 +85,14 @@ In the tables that follow:
 
 The tables below capture routing of in-tenant chat and calls, and are valid for new calls or chats that are not started from a pre-existing thread. It describes which client will receive a new call or chat, if originated by a user on the left, to an in-tenant recipient user on the right.
 
-Messages sent to TeamsOnly users will always route to Teams. Messages sent to SfB\* users will always route to Skype for Business, if the conversation is possible as described above. Messages sent to Islands users will always route to the same client from which they were sent.
+Messages sent to TeamsOnly users will always route to Teams. Messages sent to Skype for Business users will always route to Skype for Business, if the conversation is possible as described above. Messages sent to Islands users will always route to the same client from which they were sent.
 
 
 #### Table 1a: in-tenant new chat or call routing to a TeamsOnly mode recipient
 
 <br>
 
-|<br><br>Mode|Originator<br><br>Client|<br><br>SfB&nbsp;homed|<br><br>Route-->|TeamsOnly Recipient|
+|<br><br>Mode|Originator<br><br>Client|<br><br>Skype for Business&nbsp;homed|<br><br>Route-->|TeamsOnly Recipient|
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|Online|&boxv;|Teams|
 |Islands|Teams <br> Skype for Business| On-prem <br> On-prem|&boxv;<br>&boxv;|Teams <br> *Teams*|
@@ -103,18 +103,18 @@ Messages sent to TeamsOnly users will always route to Teams. Messages sent to Sf
 
 <br>
 
-|<br><br>Mode|Originator<br><br>Client|<br><br>SfB&nbsp;homed|<br><br>Route-->|Islands Recipient|
+|<br><br>Mode|Originator<br><br>Client|<br><br>Skype for Business&nbsp;homed|<br><br>Route-->|Islands Recipient|
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|Online|&boxv;|Teams|
 |Islands| Teams <br> Skype for Business|On-prem<br>On-prem|&boxv;<br>&boxv;| Teams <br> Skype for Business|
 |SfB\*|Skype for Business | On-prem|&boxv;| Skype for Business|
 ||||||
 
-#### Table 1c: in-tenant new chat or call routing to a recipient in an SfB\* mode
+#### Table 1c: in-tenant new chat or call routing to a recipient in a Skype for Business mode
 
 <br>
 
-|<br><br>Mode|Originator<br><br>Client|<br><br>SfB&nbsp;homed|<br><br>Route-->|SfB\* Recipient|
+|<br><br>Mode|Originator<br><br>Client|<br><br>Skype for Business&nbsp;homed|<br><br>Route-->|Skype for Business Recipient|
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|Online|&boxv;|*Skype for Business*|
 |Islands|Teams <br> Skype for Business| On-prem <br> On-prem|&boxv;<br>&boxv;| **Not Possible** <br> Skype for Business|
@@ -146,18 +146,18 @@ This is because we cannot assume that a federated Skype for Business partner alr
 
 <br>
 
-|<br><br>Mode|Originator<br><br>Client|<br><br>SfB homed|<br><br>Route-->|Islands Recipient|
+|<br><br>Mode|Originator<br><br>Client|<br><br>Skype for Business homed|<br><br>Route-->|Islands Recipient|
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|Online|&boxv;|*Skype for Business*|
 |Islands|Teams <br> Skype for Business| On-prem <br> On-prem|&boxv;<br>&boxv;| **Not Possible** <br> Skype for Business|
 |SfB\*|Skype for Business| On-prem|&boxv;| Skype for Business|
 |||||
 
-#### Table 2c: federated new chat or call routing to a recipient in an SfB\* mode
+#### Table 2c: federated new chat or call routing to a recipient in an Skype for Business mode
 
 <br>
 
-|<br><br>Mode|Originator<br><br>Client|<br><br>SfB homed|<br><br>Route-->|SfB\* Recipient|
+|<br><br>Mode|Originator<br><br>Client|<br><br>Skype for Business homed|<br><br>Route-->|Skype for Business Recipient|
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|Online|&boxv;|*Skype for Business*|
 |Islands|Teams <br> Skype for Business| On-prem <br> On-prem|&boxv;<br>&boxv;|**Not Possible** <br> Skype for Business|
@@ -188,7 +188,7 @@ For example, if an originator's chat or call should land on the target's Skype f
 In order to know what behavior to expect, you'll need to understand that Presence is shared based on a user's coexistence mode:
 
 - If a user is in TeamsOnly mode, then any other user (whether in Teams or Skype for Business) will see that TeamsOnly user's Teams presence
-- If a user is in any of the SfB\* modes (SfbOnly, SfbWithTeamsCollab, SfbWithTeamsCollabAndMeetings), then any other user (whether in Teams or Skype for Business) will see that SfB\* user's Skype for Business presence
+- If a user is in any of the Skype for Business modes (SfbOnly, SfbWithTeamsCollab, SfbWithTeamsCollabAndMeetings), then any other user (whether in Teams or Skype for Business) will see that Skype for Business user's Skype for Business presence
 - If a user is in Islands (or Legacy) mode, presence in Teams and presence in Skype for Business are independent (the values need not match) and other users will see one or the other presence of the Islands user, depending on whether they are in the same tenant or in a federated tenant and which client they use
   - From Teams, any other user within the same tenant will see the Islands user's Teams presence; this is aligned with the in-tenant routing table above
   - From Teams, any other user in a federated tenant will see the Islands user's Skype for Business presence; this is aligned with the federated routing table above
@@ -196,7 +196,7 @@ In order to know what behavior to expect, you'll need to understand that Presenc
 
 ### In-tenant presence
 
-Messages sent to TeamsOnly users will always land in Teams. Messages sent to SfB\* users will always land in Skype for Business, if the conversation is possible as described above. Messages sent to Islands users will always land in the client from which they were originated.
+Messages sent to TeamsOnly users will always land in Teams. Messages sent to Skype for Business mode users will always land in Skype for Business, if the conversation is possible as described above. Messages sent to Islands users will always land in the client from which they were originated.
 
 The table describes the Publisher's presence that will be seen by a Watcher, depending on the mode of the Publisher and the client of the Watcher (for a new thread).
 
