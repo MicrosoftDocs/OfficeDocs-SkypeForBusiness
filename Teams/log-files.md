@@ -61,10 +61,10 @@ If a problem occurs with a specific meeting or live event, it's helpful to have 
   
 > [!NOTE]
 > The debug logs were previously collecting using the keyboard shortcuts below. These still function and will complete the same log capture as the **Collect support files** option.
-
+>
 > Windows:
 > Crtl + Alt + Shift + 1
-
+>
 > Mac:
 > Option + Command + Shift + 1
 
