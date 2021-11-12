@@ -322,7 +322,7 @@ The certificate requirements for the Edge Server can be found in the Edge Certif
     
 &nbsp;&nbsp;&nbsp;j. On the **Subject Name/Subject Alternate Names** page, the needed information should be auto-populated by the wizard.
     
-&nbsp;&nbsp;&nbsp;k. On the **SIP Domain Setting on Subject Alternate Names (SANs)** page, check the domain checkbox to add a sip.<sipdomain> entry to the subject alternative names list.
+&nbsp;&nbsp;&nbsp;k. On the **SIP Domain Setting on Subject Alternate Names (SANs)** page, check the domain checkbox to add a sip.\<sipdomain> entry to the subject alternative names list.
     
 &nbsp;&nbsp;&nbsp;l. On the **Configure Additional Subject Alternate Names** page, you need to add any additional subject alternative names that you need.
     
