@@ -1,4 +1,4 @@
- ---
+---
 title: Microsoft Teams live event usage report
 author: HowlinWolf-92
 ms.author: v-mahoffman
