@@ -105,6 +105,8 @@ The script does the following actions. You'll be prompted to enter setup and con
 1. Creates the connection.
 1. Maps Blue Yonder sites to teams based on the Blue Yonder site IDs and team IDs that you enter.
 
+A Success message on the screen indicates that your connection is successfully set up. 
+
 ## What to do after you set up the connection
 
 ## Shifts connector cmdlets
