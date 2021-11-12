@@ -1603,8 +1603,8 @@ items:
       items:
         - name: Retail team collaboration
           href: expand-teams-across-your-org/retail-team-collaboration.md
-        - name: Retail curbside delivery
-          href: expand-teams-across-your-org/retail-curbside.md
+        - name: Simplify business processes in Retail
+          href: expand-teams-across-your-org/retail-business-processes.md
         - name: Use retail team templates
           href: get-started-with-retail-teams-templates.md
         - name: Frontline Worker onboarding wizard
