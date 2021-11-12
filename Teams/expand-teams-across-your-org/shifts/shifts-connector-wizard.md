@@ -34,6 +34,9 @@ With your WFM system as the system of record, your frontline workers can see and
 
 In this article, we walk you through how to run the wizard to create a Shifts to Blue Yonder connection.
 
+> [!NOTE]
+> You can also use PowerShell integrate Shifts with your WFM system. To learn more, see [Use PowerShell to connect Shifts to your Blue Yonder workforce management system](shifts-connector-blue-yonder-powershell-setup.md).
+
 ## Before you begin
 
 You must be a Microsoft 365 global admin or Shifts connector admin to run the wizard. Before you get started, make sure you meet the following prerequisites:

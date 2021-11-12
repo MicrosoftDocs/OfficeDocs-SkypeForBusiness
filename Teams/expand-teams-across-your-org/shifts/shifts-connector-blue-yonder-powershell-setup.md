@@ -90,20 +90,26 @@ You'll also need to know your Blue Yonder service account name and password and 
 
 Run the script:
 
-- To set up a connection *with* the option to create new teams, download and run [this script]().
-- To set up a connection *without* the option to create new teams, download and run [this script]().
+- To set up a connection *with* the option to create new teams, [download and run this script]().
+- To set up a connection *without* the option to create new teams, [download and run this script]().
 
 The script does the following actions. You'll be prompted to enter setup and configuration details.
 
 1. Tests and verifies the connection to Blue Yonder using the Blue Yonder service account credentials and service URLs that you enter.
 1. Configures the Shifts connector.
-1. Applies sync settings that you specify. These settings include the schedule information to sync between Blue Yonder and Shifts and sync frequency.
+1. Applies the sync settings that you specify. Sync settings include the sync frequency (in minutes) and the schedule information that's synced between Blue Yonder and Shifts. This information is defined in the following parameters:
+
+    - **enabledConnectorScenarios**: This parameter defines data that's synced from Blue Yonder to Shifts. The options are  `"Shift"`, `"SwapRequest"`, `"UserShiftPreferences"`, `"OpenShift"`, `"OpenShiftRequest"`, `"TimeOff"`, `"TimeOffRequest"`.
+    - **enabledWfiScenarios**: This parameter defines data that's synced from Shifts to Blue Yonder. The options are `"SwapRequest"`, `"OpenShiftRequest"`, `"TimeOffRequest"`, `"UserShiftPreferences"`.
+
 1. Creates the connection.
-1. Maps the Blue Yonder sites that you specify to the teams that you want.
+1. Maps Blue Yonder sites to teams based on the Blue Yonder site IDs and team IDs that you enter.
 
 ## What to do after you set up the connection
 
 ## Shifts connector cmdlets
+
+To learn more about Shifts connector cmdlets, see:
 
 - [New-CsTeamsShiftsConnectionInstance](/powershell/module/teams/new-csteamsshiftsconnectioninstance?view=teams-ps)
 - [Get-CsTeamsShiftsConnectionInstance](/powershell/module/teams/get-csteamsshiftsconnectioninstance?view=teams-ps)
@@ -122,3 +128,4 @@ The script does the following actions. You'll be prompted to enter setup and con
 
 - [Manage the Shifts app](manage-the-shifts-app-for-your-organization-in-teams.md)
 - [Teams PowerShell overview](../../teams-powershell-overview.md)
+- [Teams PowerShell cmdlet reference](../../powershell/teams/?view=teams-ps)
