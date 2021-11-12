@@ -34,7 +34,7 @@ Retail environments, with their rotating schedules and on-the-go staff, have ver
 
 Microsoft 365 and Microsoft Teams offer several capabilities that can help retail organizations with their daily operations and digital transformation. We recommend the following scenarios for retail organizations:
 
-[![In-store communication and collaboration.](../media/retail-scenarios-in-store.png)](#in-store-communication-and-collaboration) [![Cross-store communication and collaboration.](../media/retail-scenarios-cross-store.png)](#cross-store-communication-and-collaboration) [![Virtual fittings and consultations.](../media/retail-scenarios-virtual-visits.png)](#virtual-fittings-and-consultations) [![Simplify business processes.](../media/retail-scenarios-curbside-pickup.png)](#simplify-business-processes) [![Corporate communications.](../media/retail-scenarios-corp-comms.png)](#corporate-communications) [![Onboarding new employees.](../media/retail-scenarios-onboarding.png)](#onboarding-new-employees)
+[![In-store communication and collaboration.](../media/retail-scenarios-in-store.png)](#in-store-communication-and-collaboration) [![Cross-store communication and collaboration.](../media/retail-scenarios-cross-store.png)](#cross-store-communication-and-collaboration) [![Virtual fittings and consultations.](../media/retail-scenarios-virtual-visits.png)](#virtual-fittings-and-consultations) [![Simplify business processes.](../media/retail-scenarios-business-processes.png)](#simplify-business-processes) [![Corporate communications.](../media/retail-scenarios-corp-comms.png)](#corporate-communications) [![Onboarding new employees.](../media/retail-scenarios-onboarding.png)](#onboarding-new-employees)
 
 ### In-store communication and collaboration
 
