@@ -25,7 +25,7 @@ description: "Learn how to set up Common Area Phones for lobbies, reception area
 
 ## Account and security considerations
 
-We recommend that Office 365 accounts that are created for use on Common Area Phones have password expiry disabled.
+We recommend that password expiry be disabled in Office 365 accounts that are created for use on common area phones.
 
 While common area phone licensing does not include an Intune license, you may choose to assign an Intune license to a common area phone account, so that the device may register within Intune.
 
