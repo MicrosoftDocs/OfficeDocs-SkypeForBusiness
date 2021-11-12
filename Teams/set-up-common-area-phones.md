@@ -23,7 +23,7 @@ ms.custom:
 description: "Learn how to set up Common Area Phones for lobbies, reception areas, and conference rooms "
 ---
 
-## Account and Security Considerations
+## Account and security considerations
 
 We recommend that Office 365 accounts that are created for use on Common Area Phones have password expiry disabled.
 
