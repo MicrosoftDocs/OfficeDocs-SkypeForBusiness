@@ -34,7 +34,7 @@ Retail environments, with their rotating schedules and on-the-go staff, have ver
 
 Microsoft 365 and Microsoft Teams offer several capabilities that can help retail organizations with their daily operations and digital transformation. We recommend the following scenarios for retail organizations:
 
-[![In-store communication and collaboration.](../media/retail-scenarios-in-store.png)](#in-store-communication-and-collaboration) [![Cross-store communication and collaboration.](../media/retail-scenarios-cross-store.png)](#cross-store-communication-and-collaboration) [![Virtual fittings and consultations.](../media/retail-scenarios-virtual-visits.png)](#virtual-fittings-and-consultations) [![Curbside pickup.](../media/retail-scenarios-curbside-pickup.png)](#curbside-pickup) [![Corporate communications.](../media/retail-scenarios-corp-comms.png)](#corporate-communications) [![Onboarding new employees.](../media/retail-scenarios-onboarding.png)](#onboarding-new-employees)
+[![In-store communication and collaboration.](../media/retail-scenarios-in-store.png)](#in-store-communication-and-collaboration) [![Cross-store communication and collaboration.](../media/retail-scenarios-cross-store.png)](#cross-store-communication-and-collaboration) [![Virtual fittings and consultations.](../media/retail-scenarios-virtual-visits.png)](#virtual-fittings-and-consultations) [![Simplify business processes.](../media/retail-scenarios-curbside-pickup.png)](#simplify-business-processes) [![Corporate communications.](../media/retail-scenarios-corp-comms.png)](#corporate-communications) [![Onboarding new employees.](../media/retail-scenarios-onboarding.png)](#onboarding-new-employees)
 
 ### In-store communication and collaboration
 
@@ -64,13 +64,19 @@ The Bookings app in Microsoft Teams gives organizations a simple way to schedule
 
 More information: [Virtual visits with Microsoft Teams and the Bookings app](bookings-virtual-visits.md)
 
-### Curbside pickup
+### Simplify business processes
 
-Use Teams to help your store employees communicate and deliver products directly to customers when they come to pick them up.
+You can use Teams apps, Power Apps, and Power BI to simplify business processes. For example, you can:
 
-**Key apps:** Tasks, Approvals, Chat, Walkie Talkie
+- Set and maintain schedules for your employees with Shifts.
+- Conduct store walks and inventories with Power Apps.
+- Track key performance indicators (KPIs) with Power BI reports.
 
-More information: [Retail curbside delivery](retail-curbside.md)
+**Key apps:** Shifts, Tasks, Lists, Approvals
+
+**Additional services:** Power Platform with Power Apps and Power BI
+
+More information: [Simplify business processes](retail-business-processes.md)
 
 ### Corporate communications
 
