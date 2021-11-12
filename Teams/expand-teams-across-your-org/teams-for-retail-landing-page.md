@@ -121,7 +121,11 @@ The presence of Frontline Workers is often less predictable than other staff as 
 
 ### Devices
 
-Because the workforce is largely mobile, managing accounts and devices is a key fundamental for retail environments. You need to set a secure, compliant baseline with managed devices for your workforce to use, whether that's a shared device or an employee's own device. See more at [TBD - Point to Azure AD, InTune, RealWear info.]().
+Because the workforce is largely mobile, managing accounts and devices is a key fundamental for retail environments. You need to set a secure, compliant baseline with managed devices for your workforce to use, whether that's a shared device or an employee's own device. See more at:
+
+- [Plan your Azure Active Directory device deployment](/azure/active-directory/devices/plan-device-deployment)
+- [Microsoft Intune overview](/mem/intune/fundamentals/what-is-intune#manage-devices)
+- [Microsoft Teams for RealWear](../flw-realwear.md)
 
 ### Policies
 
