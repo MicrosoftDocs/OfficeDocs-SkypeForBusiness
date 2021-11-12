@@ -42,7 +42,6 @@ In the steps below, we'll help you set up an account for Phone System to deploy 
 
 First, you need to purchase a Common Area Phone (CAP) license and make sure that you have a certified phone. To search for and learn more about certified phones, go to [Microsoft Teams devices](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1).
 
-
 ## Licensing
 
 Common area phones require an Office 365 user account with the required license. You can either purchase and assign a **Common Area Phone** license or assign one of your existing **E5** or **E3 with Phone System** licenses.
