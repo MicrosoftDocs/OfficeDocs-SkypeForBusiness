@@ -54,6 +54,9 @@ Follow these steps to edit an existing calling policy.
 
 Here are the settings that you can configure for calling policies.
 
+> [!NOTE]
+> SIP devices can be used for calls.
+
 ### Make private calls
 
 This setting controls all calling capabilities in Teams. Turn this off to turn off all calling functionality in Teams.
