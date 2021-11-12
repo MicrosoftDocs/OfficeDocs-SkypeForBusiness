@@ -29,7 +29,7 @@ We recommend that password expiry be disabled in Office 365 accounts that are cr
 
 While common area phone licensing does not include an Intune license, you may choose to assign an Intune license to a common area phone account, so that the device may register within Intune.
 
-Just like other Office 365 user accounts, accounts used on Common Area Phones support multi-factor authentication. If you choose to enable MFA for your Common Area Phone accounts, plan how you will receive and enter the MFA authentication code on each handset during sign-in. Ensure you register each account for MFA prior to signing in to each phone handset.
+Just like other Office 365 user accounts, accounts used on common area phones support multifactor authentication (MFA). If you choose to enable MFA for your Common Area Phone accounts, plan how you will receive and enter the MFA code on each handset during sign-in. Ensure that you register each account for MFA prior to signing in to each phone handset.
 
 
 # Set up the Common Area Phone license for Microsoft Teams
