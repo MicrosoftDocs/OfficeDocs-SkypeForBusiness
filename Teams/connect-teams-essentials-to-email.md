@@ -188,7 +188,7 @@ To add multiple users at the same time, follow the recommend steps at [Add users
 
 3. Choose an email header that uniquely identifies mail coming from your M365 tenant. (For example, X-MS-Exchange-CrossTenant-id: 92f60fc7-eab3-403b-9d7d-9d683bf0a4b5)
 
-4. Go to **Google Admin console** at https://admin.google.com
+4. Go to **Google Admin console** at <https://admin.google.com>
 
 5. Go to **Apps** > **Google Workspace** > **Gmail** > **Compliance**
 
@@ -198,28 +198,28 @@ To add multiple users at the same time, follow the recommend steps at [Add users
 
 8. Under **email messages to affect** check Inbound
 
-9.	Under **Add expressions that describe the content you want to search for in each message** select **if ANY of the following match the message**
+9. Under **Add expressions that describe the content you want to search for in each message** select **if ANY of the following match the message**
 
-10.	Under **Expressions**, select **Add**
-xi.	Under **Add setting**, choose **Advanced content match**
+10. Under **Expressions**, select **Add**
+xi. Under **Add setting**, choose **Advanced content match**
 
-11.	Under **Location** choose **Full Headers**
+11. Under **Location** choose **Full Headers**
 
-12.	Under **Match Type** choose **Full Text**
+12. Under **Match Type** choose **Full Text**
 
-13.	Under content, enter the the email header that uniquely identifies email coming from your M365 tenant (For example, X-MS-Exchange-CrossTenant-id: 92f60fc7-eab3-403b-9d7d-9d683bf0a4b5)
+13. Under content, enter the the email header that uniquely identifies email coming from your M365 tenant (For example, X-MS-Exchange-CrossTenant-id: 92f60fc7-eab3-403b-9d7d-9d683bf0a4b5)
 
-14.	Click **Save**
+14. Click **Save**
 
-15.	In the **If the above expressions match, do the following** field > **Modify Message** and  check **Bypass spam filter for this message** under **Spam**.
+15. In the **If the above expressions match, do the following** field > **Modify Message** and  check **Bypass spam filter for this message** under **Spam**.
 
-16.	Click **Save**
+16. Click **Save**
 
 **Step Four: Configure Microsoft 365 settings for the integration**
 
 *Configure connector to route mail from M365 to Gmail:*
 
-1. Go to the **Microsoft Admin Center** at https://admin.microsoft.com/AdminPortal 
+1. Go to the **Microsoft Admin Center** at <https://admin.microsoft.com/AdminPortal>
 
 2. Select **Show all** in the left hand navigation menu.
 
@@ -237,19 +237,19 @@ xi.	Under **Add setting**, choose **Advanced content match**
 
 9. In the Routing section, enter the appropriate smart mail host (For example, aspmx.l.google.com), select **+**, and then proceed **Next**.
 
-10.	In the Security restrictions section, accept the default settings by selecting Next
+10. In the Security restrictions section, accept the default settings by selecting Next
 
-11.	In the Validation email section,  enter a valid email address for the Gmail system (For example, johannal@g.contosolandscaping2.m365master.com), click the plus sign (+), and then select Validate
+11. In the Validation email section,  enter a valid email address for the Gmail system (For example, johannal@g.contosolandscaping2.m365master.com), click the plus sign (+), and then select Validate
 
-12.	Wait for validation to complete and if successful press Next
+12. Wait for validation to complete and if successful press Next
 
-13.	Under **Review connector**, verify configuration is correct and press Create Connector
+13. Under **Review connector**, verify configuration is correct and press Create Connector
 
-14.	When you see the Connector created notification, press **Done**
+14. When you see the Connector created notification, press **Done**
 
-*Forward mail from Microsoft 365 mailboxes to Gmail* 
+*Forward mail from Microsoft 365 mailboxes to Gmail*
 
-1. Use the **Microsoft 365 Admin Center** to update each mailbox or you can use a **PowerShell**script, such as the following: 
+1. Use the **Microsoft 365 Admin Center** to update each mailbox or you can use a **PowerShell**script, such as the following:
 
     ```powershell
     $forwardingDomain = "g.contosolandscaping2.m365master.com"
@@ -278,7 +278,7 @@ xi.	Under **Add setting**, choose **Advanced content match**
 
 1. Disable outlook on the web for mailboxes by following the instructions at [Disable Outlook on the web for a mailbox in Exchange Online](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)
 
-2.	This can be done in the **Exchange Admin Center** or **PowerShell**. You may use the following PowerShell example to disable Outlook on the web for all mailboxes:
+2. This can be done in the **Exchange Admin Center** or **PowerShell**. You may use the following PowerShell example to disable Outlook on the web for all mailboxes:
 
     ```powershell
     Connect-ExchangeOnline
@@ -292,19 +292,19 @@ xi.	Under **Add setting**, choose **Advanced content match**
 
 This step ensures that email is sent to third-party system for final resolution.
 
-1.	Go to the **Microsoft Admin Center** at https://admin.microsoft.com/AdminPortal 
+1. Go to the **Microsoft Admin Center** at <https://admin.microsoft.com/AdminPortal>
 
-2.	In left hand navigation, click **Show all**
+2. In left hand navigation, click **Show all**
 
-3.	Under **Admin Centers**, click **Exchange** to open Exchange admin center in a new tab
+3. Under **Admin Centers**, click **Exchange** to open Exchange admin center in a new tab
 
-4.	In **Exchange admin center**, on left hand navigation click **Mail flow**, then **Accepted domains**
+4. In **Exchange admin center**, on left hand navigation click **Mail flow**, then **Accepted domains**
 
-5.	Click on the domain name configured in the third-party system (For example, contosoLandscaping2.m365master.com)
+5. Click on the domain name configured in the third-party system (For example, contosoLandscaping2.m365master.com)
 
     :::image type="content" source="media/essentials-internalrelay1.png" alt-text="Image depicting the Exchange admin center settings for Mail flow. ":::
 
-6.	Select **Internal Relay**, then click **Save**
+6. Select **Internal Relay**, then click **Save**
 
     :::image type="content" source="media/essentials-internalrelay2.png" alt-text="Image depicting the act of saving internal relay setting.":::
 
@@ -320,14 +320,13 @@ This step ensures that email is sent to third-party system for final resolution.
 
 ### Connect Teams Essentials to third-party email not using vanity domain (Gmail example)
 
-You can schedule and join a Teams meeting directly from Google Workspace by connecting a consumer Gmail account to Teams Essentials with primary reliance on the [Teams G Suite Add On](https://support.microsoft.com/en-us/office/install-the-teams-meeting-add-on-for-google-workspace-bba2dfbe-0b2b-4ee7-be10-261ad80ddb60). This gives you the opportunity to schedule video and audio conferencing with screen sharing, meeting chat, digital whiteboards, and more. 
+You can schedule and join a Teams meeting directly from Google Workspace by connecting a consumer Gmail account to Teams Essentials with primary reliance on the [Teams G Suite Add On](https://support.microsoft.com/en-us/office/install-the-teams-meeting-add-on-for-google-workspace-bba2dfbe-0b2b-4ee7-be10-261ad80ddb60). This gives you the opportunity to schedule video and audio conferencing with screen sharing, meeting chat, digital whiteboards, and more.
 
 You will configure Gmail to pull email from Exchange Online to ensure mail generated in Microsoft 365 and Teams arrive successfully in Gmail. Security defaults may need to be disabled to accomplish this, which makes using a strong unique password essential. A custom domain is not required for this scenario. However, it can be configured in Microsoft 365 for use in Gmail if you’d like to use one.
 
-
 :::image type="content" source="media/essentials-gmail.png" alt-text="Image depiciting the mail flow between Teams Essentials and Gmail":::
 
-**Ensure that you have a Gmail account set up.** 
+**Ensure that you have a Gmail account set up.**
 
 If you already have an existing account, proceed to the next step. If you do not have an account, visit [Create new Google account](https://accounts.google.com/SignUp?hl=en) to set up a new account.
 
@@ -335,37 +334,38 @@ If you already have an existing account, proceed to the next step. If you do not
 
 *Configure Teams AAD users*
 
-1. Follow the guidance at[ Add users and assign licenses](/microsoft-365/admin/add-users/add-users?view=o365-worldwide) to add multiple users
+1. Follow the guidance at[Add users and assign licenses](/microsoft-365/admin/add-users/add-users?view=o365-worldwide) to add multiple users
 
 *Configure identity protection*
 
-1.	Disable Security defaults if it is active
+1. Disable Security defaults if it is active
 
-2.	Configure MFA for users
+2. Configure MFA for users
 
-3.	If using conditional access, make exception for POP access to mailbox
+3. If using conditional access, make exception for POP access to mailbox
 
 *Add domain to Microsoft 365 Admin Center (optional)*
-1.	Under navigation, select Settings > Domain, then select Add domain 
 
-2.	Enter your domain name in the appropriate field
+1. Under navigation, select Settings > Domain, then select Add domain
 
-3.	Follow the instructions on screen to verify  your domain with TXT record
+2. Enter your domain name in the appropriate field
 
-4.	Allow Microsoft to configure DNS
+3. Follow the instructions on screen to verify  your domain with TXT record
 
-5.	Complete the instructions to verify MX record route to Microsoft 365
+4. Allow Microsoft to configure DNS
 
-6.	Configure SPF TXT record to include Microsoft 365
+5. Complete the instructions to verify MX record route to Microsoft 365
 
-7.	Complete the instructions for configuring DKIM TXT records for Microsoft 365
+6. Configure SPF TXT record to include Microsoft 365
 
-8.	Verify DKIM is enabled by logging out and signing back into the Admin center.
+7. Complete the instructions for configuring DKIM TXT records for Microsoft 365
 
-**3.	Configure Gmail**
+8. Verify DKIM is enabled by logging out and signing back into the Admin center.
 
-1.	Configure Gmail to pull Exchange Online mail into its system
+**3. Configure Gmail**
 
-2.	Configure Teams Calendar add-in
+1. Configure Gmail to pull Exchange Online mail into its system
+
+2. Configure Teams Calendar add-in
 
 3. Enable Gmail to use business domain (optional)
