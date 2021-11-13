@@ -23,7 +23,14 @@ appliesto:
 
 Shifts connectors enable you to easily integrate the Shifts app in Microsoft Teams with your workforce management (WFM) system. Connectors sync schedule data between your WFM system and Shifts, bringing your organization's schedules and business rules into Teams.
 
-After a connection is set up, your frontline workers can seamlessly view and manage their schedules in your WFM system from within Shifts.
+With your WFM system as the system of record, your frontline workers can seamlessly view and manage their schedules from within Shifts on their devices. For example, they can:
+
+- See their assigned shifts
+- Swap shifts
+- Set availability
+- Offer shifts
+- Request open shifts
+- Request time off
 
 ## Related articles
 
