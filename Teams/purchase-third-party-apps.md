@@ -32,7 +32,7 @@ Here, you can also purchase licenses for services offered by third-party apps fo
 > [!IMPORTANT]
 > If you want to block your users from purchasing an app through the Teams app store, you have to block the app. For more information on how to block an app, see [Manage app policies](app-policies.md) or [learn how to block an app at the org-level](manage-apps.md#allow-and-block-apps).
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. You must be a global admin or Teams service admin to access the page.
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. You must be a Global admin or Teams service admin to access the page.
 2. Search for the app that you want. To identify apps that have a paid SaaS subscription, look in the **Licenses** column. Each app will have one of the following values:
     - **Purchase**: The app offers a SaaS subscription and is available to purchase.  
     - **Purchased**: The app offers a SaaS subscription and you've purchased licenses for it.
@@ -47,13 +47,9 @@ Here, you can also purchase licenses for services offered by third-party apps fo
 6. Check that the billing account and sold-to address is correct. If you don't already have one, add a new one by selecting **Add**. For more information on billing accounts, see [Understand billing accounts](/microsoft-365/commerce/manage-billing-accounts).
 
 > [!NOTE]
-> You have to be a global admin to add a new billing account.
+> You have to be a Global admin to add a new billing account.
 
-7. Check that the correct billing profile is selected. If you don't already have one, add a new one by selecting **Add new**. You have the option to pay with a credit card, debit card, or with invoice billing. The billing profile also lets you add a purchase order number to identify your order later. For more information on billing profiles, see [Understand billing profiles](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles).
-
-> [!NOTE]
-> Invoice billing is only available for transactions over $500.
-
+7. Check that the correct billing profile is selected. If you don't already have one, add a new one by selecting **Add new**. You have the option to pay with a credit card, debit card, or with [invoice billing](#invoice-billing). The billing profile also lets you add a purchase order number to identify your order later. For more information on billing profiles, see [Understand billing profiles](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles).
 8. Select **Place order**.
 9. Select **Set up** to activate your subscription on the publisher's website. If you don't set up your subscription after your purchase, you can do it later by selecting **Manage licenses**.
 
@@ -69,7 +65,14 @@ Select **Manage licenses** to go to the Microsoft 365 admin center to view and m
 Global admins can add more licenses, remove licenses, and cancel subscriptions for purchases made by anyone in the organization. Teams service admins can perform the same actions for purchases made by themselves. However, if a Teams service admin also has the Billing admin role, they can manage purchases made by anyone in the organization.
 
 > [!NOTE]
-> If a global admin wants to manage a subscription purchased by another global admin, they need to be in the same billing account. You can give another global admin access to a subscription you purchased by selecting the app in the Microsoft 365 admin center. From there, go to **View billing profile** > **Select billing account** > **Assign roles** > **Add other global admins**.
+> If a Global admin wants to manage a subscription purchased by another global admin, they need to be in the same billing account. You can give another Global admin access to a subscription you purchased by selecting the app in the Microsoft 365 admin center. From there, go to **View billing profile** > **Select billing account** > **Assign roles** > **Add other Global admins**.
+
+### Invoice billing
+
+- Invoice billing is available as a payment option for some transactions.
+- A credit review is required the first time you use invoice billing, which can take up to 24 to 48 hours for approval. Invoice billing won't be available until the credit check is complete. You can place your order with a credit card or try again later after your credit review is approved.
+- Invoice billing is only available for Global admins or an admin with both Teams service admin and Billing admin permissions.
+- Invoice billing isn't available when purchasing a plan with a 30-day free trial.
 
 ## Have a SaaS offer for a Teams app that you want to list and sell in the Microsoft Teams admin center and AppSource?
 

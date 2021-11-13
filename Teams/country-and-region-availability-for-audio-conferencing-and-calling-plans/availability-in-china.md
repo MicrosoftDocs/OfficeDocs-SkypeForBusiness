@@ -66,7 +66,7 @@ If Calling Plans are not available to purchase, consider using [Phone System Dir
 |:-----|:-----|
 |What capitals or major cities can you get toll numbers for?  <br/> |Beijing  <br/> |
 |Are toll numbers available?  <br/> |Yes  <br/> |
-|Are toll-free numbers available?  <br/> |Yes ([on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)), except for customers who purchase the service from China. Toll-free numbers are not available for customers who purchase the service from China. <br/> |
+|Are toll-free numbers available?  <br/> |Yes ([on request](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)), except for customers who purchase the service from China. Toll-free numbers are not available for customers who purchase the service from China. <br/> |
    
  If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](../getting-service-phone-numbers.md).
   

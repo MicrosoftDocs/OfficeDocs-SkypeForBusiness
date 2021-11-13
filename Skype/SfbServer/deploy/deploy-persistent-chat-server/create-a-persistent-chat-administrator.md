@@ -1,8 +1,8 @@
 ---
 title: "Create a Persistent Chat administrator in Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
