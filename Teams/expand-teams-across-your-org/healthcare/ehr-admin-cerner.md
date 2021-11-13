@@ -74,11 +74,11 @@ Your Microsoft 365 admin can configure a single department or multiple departmen
 
 Next, to set up the integration, your Microsoft 365 admin adds a Fast Health Interoperability Resources (FHIR) base URL from Cerner and specifies the environment. Configure as many FHIR base URLs as needed, depending on your organization’s needs and the environments you want to test.
 
+:::image type="content" source="media/ehr-admin-cerner-configuration.png" alt-text="Screenshot of the Configuration information page of the Teams EHR connector configuration portal." lightbox="media/ehr-admin-cerner-configuration.png":::
+
 - The FHIR base URL is a static address that corresponds to your server FHIR API endpoint. An example URL is `https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST`.
 
 - You can set up the integration for test and production environments. For initial setup, we encourage you to configure the connector from a test environment before moving to production.
-
-    :::image type="content" source="media/ehr-admin-cerner-configuration.png" alt-text="Screenshot of the Configuration information page of the Teams EHR connector configuration portal." lightbox="media/ehr-admin-cerner-configuration.png":::
 
 After the FHIR base URL is validated and the environment is selected, choose **Done**. Then, add more FHIR base URLs for other environments, as needed.
 
