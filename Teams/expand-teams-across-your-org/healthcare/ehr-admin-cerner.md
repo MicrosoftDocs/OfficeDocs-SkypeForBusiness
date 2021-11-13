@@ -95,7 +95,7 @@ To enable SMS notifications, your Microsoft 365 admin does the following:
     - Allow Microsoft to send SMS notifications to patients on behalf of your organization.
     - Acknowledge that you'll ensure attendees have consented to send and receive SMS messages.
 
-    :::image type="content" source="media/ehr-admin-cerner-sms-notifications.png" alt-text="Screenshot showing consent check boxes and the option to generate a new phone number." lightbox="media/ehr-admin-cerner-sms-notifications.png":::
+    :::image type="content" source="media/ehr-admin-cerner-sms-notifications.png" alt-text="Screenshot of the SMS notifications page, showing consent check boxes and the option to generate a phone number." lightbox="media/ehr-admin-cerner-sms-notifications.png":::
 
 1. Under **Your phone numbers**, select **Generate a new phone number** to generate a phone number for your organization. Doing this starts the process to request and generate a new phone number. This process might take up to 2 minutes to complete.
 
