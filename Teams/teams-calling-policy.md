@@ -55,7 +55,7 @@ Follow these steps to edit an existing calling policy.
 Here are the settings that you can configure for calling policies.
 
 > [!NOTE]
-> SIP devices can be used for calls.
+> You can use SIP devices for calls.
 
 ### Make private calls
 
