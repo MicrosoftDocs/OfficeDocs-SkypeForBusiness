@@ -74,11 +74,11 @@ Your Microsoft 365 admin can configure a single department or multiple departmen
 
 Next, to set up the integration, your Microsoft 365 admin adds a Fast Health Interoperability Resources (FHIR) base URL from Cerner and specifies the environment. Configure as many FHIR base URLs as needed, depending on your organization’s needs and the environments you want to test.
 
+:::image type="content" source="media/ehr-admin-cerner-configuration.png" alt-text="Screenshot of the Configuration information page of the Teams EHR connector configuration portal." lightbox="media/ehr-admin-cerner-configuration.png":::
+
 - The FHIR base URL is a static address that corresponds to your server FHIR API endpoint. An example URL is `https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST`.
 
 - You can set up the integration for test and production environments. For initial setup, we encourage you to configure the connector from a test environment before moving to production.
-
-    :::image type="content" source="media/ehr-admin-cerner-configuration.png" alt-text="Screenshot of the Configuration information page of the Teams EHR connector configuration portal.":::
 
 After the FHIR base URL is validated and the environment is selected, choose **Done**. Then, add more FHIR base URLs for other environments, as needed.
 
@@ -95,19 +95,19 @@ To enable SMS notifications, your Microsoft 365 admin does the following:
     - Allow Microsoft to send SMS notifications to patients on behalf of your organization.
     - Acknowledge that you'll ensure attendees have consented to send and receive SMS messages.
 
-    :::image type="content" source="media/ehr-admin-cerner-sms-notifications.png" alt-text="Screenshot of the SMS notifications page, showing consent check boxes and phone number generation option.":::
+    :::image type="content" source="media/ehr-admin-cerner-sms-notifications.png" alt-text="Screenshot of the SMS notifications page, showing consent check boxes and the option to generate a phone number." lightbox="media/ehr-admin-cerner-sms-notifications.png":::
 
 1. Under **Your phone numbers**, select **Generate a new phone number** to generate a phone number for your organization. Doing this starts the process to request and generate a new phone number. This process might take up to 2 minutes to complete.
 
     After the phone number is generated, it's displayed on the screen. This number will be used to send SMS confirmations and reminders to your patients. The number has been provisioned but isn’t linked to the FHIR base URL yet. You do that in the next step.
 
-    :::image type="content" source="media/ehr-admin-cerner-phone-number.png" alt-text="Screenshot of the screen showing an example of the phone number that's generated.":::
+    :::image type="content" source="media/ehr-admin-cerner-phone-number.png" alt-text="Screenshot showing an example of the phone number that's generated." lightbox="media/ehr-admin-cerner-phone-number.png":::
 
     Choose **Done**, and then select **Next**.
 
 1. To link the phone number to a FHIR base URL, under **Phone number** in the **SMS configuration** section, select the number. Do this for each FHIR base URL for which you want to enable SMS notifications.
 
-    :::image type="content" source="media/ehr-admin-cerner-link-phone-number.png" alt-text="Screenshot  showing how to link a phone number to a FHIR base URL. ":::
+    :::image type="content" source="media/ehr-admin-cerner-link-phone-number.png" alt-text="Screenshot showing how to link a phone number to a FHIR base URL." lightbox="media/ehr-admin-cerner-link-phone-number.png":::
 
     If this is the first time you’re configuring the connector, you’ll see the FHIR base URL that was entered in the earlier step. The same phone number can be linked to multiple FHIR base URLs, which means that patients will receive SMS notifications from the same phone number for different organizations and/or departments.
 
