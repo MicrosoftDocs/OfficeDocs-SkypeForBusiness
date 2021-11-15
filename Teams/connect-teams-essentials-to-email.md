@@ -28,7 +28,6 @@ Microsoft Teams Essentials (AAD Identity) brings together the best of Teams with
 
 Once connected, you can see responses to scheduled meetings and invitations to collaborate in your mailbox and Microsoft Teams. You can also view and interact with incoming meetings from your calendar using Teams and third-party meeting software like Google Workspace.
 
-
 ## Prerequisites
 
 The configuration steps in this article involve the process of automatically forwarding items from Exchange Online. By default, automatic forwarding is disabled by the anti-spam outbound policy. This policy must be enabled to connect Teams Essentials to an existing mailbox and calendar system.
@@ -39,7 +38,7 @@ To enable automatic forwarding:
 2. Under the left navigation menu, go to **Email & collaboration** > **Policies & rules** > **Threat policies** > **Anti-spam** in the Policies section
 3. On the **Anti-spam policies** page, select **Anti-spam outbound policy (Default)** from the list
 4. In the policy details flyout that appears, select **Edit protection settings** to modify the autoforwarding rule.
-5. Under **Forwarding rules**, change the automatic forwarding condition to **On – forwarding is enabled** and save your changes. 
+5. Under **Forwarding rules**, change the automatic forwarding condition to **On – forwarding is enabled** and save your changes.
 
 :::image type="content" source="media/essentials-antispam.png" alt-text="Image showing the Microsoft Defender Portal anti-spam outbound policy flyout with "On - forwarding is enabled" selected under Forwarding rules." lightbox="media/essentials-antispam.png":::
 
@@ -87,7 +86,7 @@ These examples rely on the [Connect-ExchangeOnline](/powershell/module/exchange/
 
 9. In the navigation panel on the left, select **Setup** > **Domains**
 
-10. Using the checkbox, select your existing non-Microsoft domain (ex: JohannaL@contosolandscapting2.m365master.com) from the current lists of domains. 
+10. Using the checkbox, select your existing non-Microsoft domain (ex: JohannaL@contosolandscapting2.m365master.com) from the current lists of domains.
 
 11. Select the button with **three vertical dots** to open a menu.
 
@@ -129,10 +128,10 @@ To add multiple users at the same time, follow the recommend steps at [Add users
     - Go to Apps > Google Workspace > Gmail > Hosts.
     - Enter a route name. (For example, Microsoft 365)
     - Choose ‘Single host’ and enter the MX record specified for domain in Microsoft 365 (For example:  ContosoLandscaping2-m365master-com.mail.protection.outlook.com)
-    
+
     **Smart host method to resolve ATTR35 response code when mail is sent to Exchange on premises/Exchange Online :**
-    - Choose ‘Single host’ and enter the MX record for the initial domain of the tenant as the smart host. The initial domain is in the format <GUID>.onmicrosoft.com. <GUID> is a unique value that's provided to every organization as part of their enrollment in the service.
-    -  You can use command line: nslookup -type MX  <GUID>.onmicrosoft.com to resolve the MX record (For example:  contosolandscaping2.mail.protection.outlook.com)
+    - Choose ‘Single host’ and enter the MX record for the initial domain of the tenant as the smart host. The initial domain is in the format GUID.onmicrosoft.com. A GUID is a unique value that's provided to every organization as part of their enrollment in the service. A GUID is a 128-bit integer (16 bytes) that can be used across all computers and networks wherever a unique identifier is required.
+    - You can use command line: nslookup -type MX  GUID.onmicrosoft.com to resolve the MX record (For example:  contosolandscaping2.mail.protection.outlook.com)
     - Choose **Port:25**
     - Proceed with recommended options
 
@@ -282,7 +281,7 @@ xi. Under **Add setting**, choose **Advanced content match**
 
 *Disable Outlook on the web for mailboxes*
 
-1. Follow the instructions at [Disable Outlook on the web for a mailbox in Exchange Online](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app&preserve-view=true) to disable Outlook on the web for mailboxes. 
+1. Follow the instructions at [Disable Outlook on the web for a mailbox in Exchange Online](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app&preserve-view=true) to disable Outlook on the web for mailboxes.
 
 2. You can disable Outlook on the web using the **Exchange Admin Center** or **PowerShell**. You may use the following PowerShell example to disable Outlook on the web for all mailboxes:
 
