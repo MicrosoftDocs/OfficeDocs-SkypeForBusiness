@@ -21,23 +21,23 @@ f1keywords:
 
 
 
-# Microsoft Managed Meeting Rooms Portal 
+# Microsoft managed meeting rooms portal 
 
 ## Overview 
 The Managed Meeting Rooms Portal (“Rooms Portal”) provides a view of the health of your meeting rooms. This portal is for supporting you as part of Meeting Rooms Trial program. We are releasing a customer view of this portal for your visibility and feedback, and to facilitate your existing monitoring tools/practices. 
 
 The scope of the current release is: 
 
-**View of Incidents** 
+**View of incidents** 
 
 - Top issues affecting your rooms 
-- Actions you need to take to restore rooms to healthy status 
-- Issues that are being acted on/being investigated by Microsoft 
+- Actions required to restore rooms to healthy status 
+- Issues that are under investigation by Microsoft 
 
-**View of Microsoft Teams Room Devices** 
+**View of Microsoft Teams Room devices** 
 
-- Snapshot of status at MTR device level 
-- Basic history, details for every device 
+- Snapshot of status at Microsoft Teams Rooms (MTR) device level 
+- Basic history and details for every device 
 
 This document provides an overview of the Managed Meeting Rooms Portal (Private Preview) functionality for the current release. 
 
@@ -46,29 +46,36 @@ Important Reminder:
 - Review this section and make sure that access to the portal is limited based on your business needs. 
 
 
+
+
 ## Terminology 
-The following table lists frequently used terms in the portal. We appreciate feedback if any of these terms do not make sense. 
+This is a quick review of the frequently used terms in the portal. 
 
 
 
 |Term |Meaning |
 | :- | :- |
-|**Monitoring Software** |Refers to the monitoring agent that is deployed in each of the Microsoft Teams Room devices. |
-|**App** |Refers to the Microsoft Teams Room system app (regardless of whether it uses Skype for Business or Microsoft Teams as the collaboration service. |
-|**Room/Device** |Refers to the certified Microsoft Teams Room system device. |
-|**Disconnected** |<p>The Microsoft monitoring software deployed as part of Managed Rooms pilot is disconnected from Managed Room cloud services. </p><p>We are not receiving telemetry about the device. </p>|
-|<p>**Healthy /** </p><p>**Unhealthy** </p>|If we detect abnormalities in device / peripheral, it will be shown as unhealthy. |
-|**Incident** |This conveys an issue affecting meeting experiences of your end users that needs action. |
-|**Misconfigured** |Conveys that the configuration detected does not seem correct / commonly used. |
-|**Support Ticket** |An internal Microsoft tracking identifier with which we track all communications / actions regarding an incident. |
+|**Monitoring Software** |Monitoring agent that is deployed in each of the Microsoft Teams Room devices. |
+|**App** |Microsoft Teams Room system app (regardless of whether it uses Skype for Business or Microsoft Teams as the collaboration service. |
+|**Room/Device** |The certified Microsoft Teams Room system device. |
+|**Unmonitored** | Microsoft monitoring software deployed as part of managed services is not able to connect to the cloud services. We are not receiving telemetry about the device. |
+|<p>**Healthy /** </p><p>**Unhealthy** </p>|Abnormalities in device / peripheral. |
+|**Suppressed** |If a device is known to be in maintenance, and its alerts should be ignored, the device can be suppressed deliberately.  |
+|**Onboarding** |The state of a room device while it is getting setup added, but is not ready as a regularly supported room.  |
+|**Incident** |An issue affecting meeting experiences of end users that needs action. |
+|**Misconfigured** |Configuration detected is not  correct / commonly used. |
+|**Support Ticket** |Internal Microsoft tracking identifier that tracks all communications / actions regarding an incident. |
 
-# Incidents View 
+
+# Incidents view 
 This view is an overview of the Incidents tab in your Managed Rooms Portal. This page is the default home page of the portal.  
 
-## Top-Level Summary 
-![Figure 1](media/rooms-portal-guide.001.jpg) 
+### Top-level summary 
+The top-level summary shows at a glance the issues affecting your rooms, what you need to do, and what Microsoft is doing about them: 
 
-The top-level summary shows at a glance the issues affecting your rooms and what you need to do, what Microsoft is doing about them: 
+
+![Figure 1](media/rooms-portal-guide.001new.png) 
+
 
 
 
@@ -78,27 +85,27 @@ The top-level summary shows at a glance the issues affecting your rooms and what
 | :- | :- |
 |1 |Types of incidents affecting your rooms |
 |2 |**NEED ACTION**: Items that require your intervention to resolve. |
-|3 |**ASSIGNED TO MICROSOFT**: Items being investigated by Microsoft personnel. |
+|3 |**ASSIGNED TO MICROSOFT**: Items currently investigated by Microsoft personnel. |
 |4 |Items in the queue to be investigated by Microsoft personnel. |
 
 
 Incidents are expected to be in one of three states: 
 
-- **Need Action**: Assigned to you to act on 
+- **Need Action**: Assigned to you for action 
 - **Assigned to Microsoft**: Assigned to Microsoft for the next action 
 - **Pending Investigation**: Under investigation for next steps 
 
 
-#### Reviewing Incidents 
-The table below lists all the incidents that are currently active in your rooms. The ones that are assigned to you *are on the top* – these are what you need to look at for next steps. In addition, the ones assigned to Microsoft or pending investigation have details that you can use to intervene. 
+### Reviewing Incidents 
+The following table  lists all the incidents that are currently active in your rooms. The ones that are assigned to you *are on the top* – these are what you need to look at for next steps. In addition, the ones assigned to Microsoft or pending investigation have details that you can use to intervene. 
 
-![Fiure 2](media/rooms-portal-guide.002.jpg) 
+![Figure 2](media/rooms-portal-guide.002new b.png) 
 
 If you click on any of items that have status “**Needs action**”, you will see additional details about the incident. 
 
 ![Figure 3](media/rooms-portal-guide.003.jpg) 
 ## Types of Incidents 
-We have classified incidents into two broad severity buckets: 
+incidents are classified into two broad severity buckets: 
 
 - **Important** – these are likely causing problems in meetings and should be taken care of on priority. 
 - **Warning** – these are notifications to plan maintenance actions. If these are not taken care of, then over time the rooms are more likely to hit an issue. Warnings are intended to give you time to plan and orchestrate support. 
@@ -116,8 +123,7 @@ Incidents classified as **“warning”** severity do not affect the health stat
 Following are some of the types of incidents that you might see and the explanations for each type. For each type, the action associated with the incident will be more specific depending on the issue. 
 
 
-### Incidents with Severity = “Important” 
-
+### Incidents with “Important” Severity
 
 |Type |Explanation |
 | :- | :- |
@@ -127,9 +133,8 @@ Following are some of the types of incidents that you might see and the explanat
 |**HDMI Ingest** |HDMI Ingest is not healthy. |
 |**Sign-In** (Exchange) |Microsoft Teams Room app accesses calendar information from Exchange and any issue with sign-in success will be reported with a sign-in incident. |
 |**Sign-In** (Teams) |Microsoft Teams Room app signs into the device and failure to sign-in will be reported with this incident (if the customer is using Teams). |
-|**Sign-In** (Skype for Business) |Microsoft Teams Room app signs into the device and failure to sign-in will be reported with this incident (if the customer is |
-| |using Skype for Business) |
-|**Proximity Sensor** |Microsoft Teams Room app invites attendees to join a meeting if they are in the proximity. Failures in this feature will be reported under this incident. |
+|**Sign-In** (Skype for Business) |Microsoft Teams Room app signs into the device, and failure to sign in will be reported with this incident (if the customer is using Skype for Business) |
+|**Proximity Sensor** |Microsoft Teams Room app invites attendees to join a meeting if they are in proximity. Failures in this feature will be reported under this incident. |
 
 
 Incidents with Severity = “Warning” 
@@ -143,9 +148,9 @@ Incidents with Severity = “Warning”
 |**Network** |This will be removed as a type of warning in the near term due to additional work required after evaluation. |
 
 
-Responding to Incidents 
+## Responding to Incidents 
 
-“Needs Action” Incidents 
+### “Needs Action” Incidents 
 
 Incidents that have status set to **“Needs Action”** are assigned to you to take a corrective action. 
 
@@ -159,7 +164,7 @@ Each such incident will have an action field with a recommended action from Micr
 - It is also possible that the notification is incorrect based on your review. In that case, please provide that feedback and assign back to Microsoft. 
 - Finally, if you want to add a comment to provide additional context for your own team or for Microsoft team, post the message without turning on “Assign to Microsoft“. 
 
-**Note:** It is possible that due to your corrective action, the actual issue is addressed, and things go back to normal. It is possible that Managed Rooms monitoring might detect that things are back to normal and clear that incident of your list. In the above situation, you might not get a chance to resolve the issue and assign it back to Microsoft. In a future release, we will address this issue. 
+![NOTE] It is possible that due to your corrective action, the actual issue is addressed, and things go back to normal. It is possible that Managed Rooms monitoring might detect that things are back to normal and clear that incident of your list. In the above situation, you might not get a chance to resolve the issue and assign it back to Microsoft. In a future release, we will address this issue. 
 
 
 
@@ -227,7 +232,7 @@ The room activity tab is meant to provide visibility into any activity performed
 1. Navigate to the settings panel 
 1. You will see a new component for adding MMR Administrator role for MMR users for your tenant.  
 
-![Figure 12](media/rooms-portal-guide.012.jpg)  
+<![Figure 12](media/rooms-portal-guide.012.jpg) 
 
 4. Clicking on the "MMR Administrator" text takes you to the following experience.   
 
@@ -246,7 +251,7 @@ Important: Please review this section and make sure that access to the portal is
 
 1. Navigate to Azure Portal and click on Azure Active Directory 
 
-![](rooms-portal-guide.015.jpg) 
+![Figure 15](rooms-portal-guide.015.jpg) 
 
 
 
@@ -273,12 +278,5 @@ Important: Please review this section and make sure that access to the portal is
 1. Navigate to “Users and Groups” to control access to the application. Currently, role assignment is not relevant to the program and does NOT have any effect on user privileges. 
 
 ![Figure 19](media/rooms-portal-guide.019.jpg) 
-
-# FAQ 
-### How often is the data refreshed? 
-Data about devices is updated roughly every 5-10 minutes by our cloud services. You will need to refresh the portal in order to get fresh status. Incidents that are assigned to you goes through investigation process and may take longer. 
-### Do you have 24x7 support? 
-Yes. 
-Microsoft Confidential 
 
 

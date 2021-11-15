@@ -22,7 +22,7 @@ f1keywords:
 
 
 # General Information  
-This guide intends to provide detailed guidance for onboarding Microsoft Teams Rooms devices to the Microsoft Teams Rooms – Managed Services. Microsoft Teams Rooms – Managed Services It’s a cloud-based operations service managed by Microsoft experts and operated 24x7x365. 
+This document provides detailed guidance for onboarding Microsoft Teams Rooms devices to the Microsoft Teams Rooms – Managed Services, a cloud-based operations service managed by Microsoft experts and operated 24x7x365. 
 
 
 
@@ -31,46 +31,48 @@ This guide intends to provide detailed guidance for onboarding Microsoft Teams R
 
 
 ## Performing operations as the Admin user of the MTR device 
-Throughout this document, some configuration/installation procedures require you to log in to the device as administrator. 
+Throughout this document, some configuration/installation procedures require you to log in to the device as Administrator. 
 
-To log in the device as administrator (local administrator): 
+To log in to the device as Administrator (local administrator): 
 
-1. Ensure you Hang up any ongoing calls and return to the home screen. 
+1. Ensure you hang up any ongoing calls and return to the home screen. 
 1. In the Microsoft Teams Room user interface, click the **More** icon then click **Settings** icon where you'll be prompted for the local Administrator password on the device (the default password is ***sfb***). 
 
 ![alt text1](media/software-installation.001.jpg) 
 
 
 
+
 ![alt text2](media/software-installation.002.jpg) 
 
-1. Tap on **Settings** followed by tapping on the **Windows Settings** button to access windows as local administrator.  
+1. Click **Settings**, then click the **Windows Settings** button to access Windows as local administrator.  
 
 ![alt text3](media/software-installation.003.jpg) 
 
-1. From the list of users displayed in the Windows login screen, select the **Administrator** (or the respective local administrator of your device). 
+1. From the list of users displayed in the Windows login screen, select  **Administrator** (or the respective local administrator of your device). 
 
 ![alt text4](media/software-installation.004.jpg) 
 
-**Note**: If the computer is *domain joined*, choose **Other User**, then use **.\admin** as the user name – or the user name of the local administrator configured in the device.  
+**Note**: If the computer is *domain joined*, choose **Other User**, then use **.\admin**, or the user name of the local administrator configured in the device,as the user name.  
 
 
 
 To return to the Microsoft Teams Room app after performing the necessary administrative tasks: 
 
-1. From the Windows ***start menu***, sign out from the Admin account. 
+1. From the Windows ***Start menu***, sign out from the Admin account. 
 1. Return to Microsoft Teams Room by selecting the user account icon on the far left side of the screen and then selecting **Skype**. 
 
- [!NOTE] If the Skype user is not listed, you might have to select other user and enter ***.\skype*** as the user name, and sign in. 
+ [!NOTE] If the Skype user is not listed, select Other User and enter ***.\skype*** as the user name, and sign in. 
 
 
 # Pre-requisites 
 
-## Adding Proxy Settings (optional) 
-1. Be sure you log in as administrator – ensure the *Performing operations as the Admin user of the MTR device* steps are followed. 
-1. In the Windows ***Search*** *box* (bottom-left section of the screen), type in **cmd** (either long press the screen or right click, and choose ***Run as administrator***).  
+## Adding proxy settings (optional) 
+1. Log in as administrator
+  - Ensure the *Performing operations as the Admin user of the MTR device* steps are followed. 
+1. In the Windows ***Search*** box (bottom-left section of the screen), enter **cmd** (either long press the screen or right click, and choose ***Run as administrator***).  
 1. Run the following command (double quotes at end of command are important:
-   1. If using single ***proxy server***:  bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL\_PROXY <proxyserver>:<port> "" 
+   -. If using single ***proxy server***:  bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL\_PROXY <proxyserver>:<port> "" 
 
 *Example:* bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL\_PROXY contosoproxy.corp.net:8080 ""* 
 
@@ -79,17 +81,17 @@ To return to the Microsoft Teams Room app after performing the necessary adminis
 *Example:* bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT http://contosoproxy.corp.net/proxy.pac "" 
 
 
-## Enabling TPM Settings  
-You may find that the TPM setting on an Intel NUC device is disabled. Below are instructions to enable TPM on these devices.  
+## Enabling TPM settings  
+If TPM setting on an Intel NUC device is disabled,enable TPM on these devices as follows.  
 
-1. Plug in keyboard to NUC device  
-1. Restart device  
-1. Rapidly press **F2** key to display BIOS screen  
-1. Select **Advanced** option  
-1. Select **Security** option  
-1. On the right-hand side under security features, Enable **Intel Platform Trust Technology** option  
-1. Press **F10** to save your settings  
-1. Select **Yes** to the confirmation box  
+1. Plug in the keyboard to a NUC device.  
+1. Restart device.  
+1. To display the BIOS screen, rapidly press **F2**.  
+1. Select **Advanced**.  
+1. Select **Security**.  
+1. On the right-hand side beneath Security Features, enable **Intel Platform Trust Technology**.  
+1. To save your settings, press **F10**.  
+1. In the confirmation box, select **Yes**.  
 
 
 ## URLs Required for Communication  
@@ -97,7 +99,7 @@ You may find that the TPM setting on an Intel NUC device is disabled. Below are 
 
 
 
-The following hosts must be allowed if you have traffic allowlist enabled within your enterprise environment: 
+The following hosts must be allowed if you have **traffic allowlist** enabled within your enterprise environment: 
 
 agent.rooms.microsoft.com<br>
 global.azure-devices-provisioning.net<br> 
