@@ -39,9 +39,11 @@ To enable automatic forwarding:
 2. Under the left navigation menu, go to **Email & collaboration** > **Policies & rules** > **Threat policies** > **Anti-spam** in the Policies section
 3. On the **Anti-spam policies** page, select **Anti-spam outbound policy (Default)** from the list
 4. In the policy details flyout that appears, select **Edit protection settings** to modify the autoforwarding rule.
-5. Under **Forwarding rules**, change the automatic forwarding condition to **On – forwarding is enabled** and save your changes. :::image type="content" source="media/essentials-antispam.png" alt-text="Image showing the Microsoft Defender Portal anti-spam outbound policy flyout with "On - forwarding is enabled" selected under Forwarding rules." lightbox="media/essentials-antispam.png":::
+5. Under **Forwarding rules**, change the automatic forwarding condition to **On – forwarding is enabled** and save your changes. 
 
-To learn more about configuring outbound spam policies, visit [Configure outbound spam filtering - Office 365 | Microsoft Docs](/microsoft-365/security/office-365-security/configure-the-outbound-spam-policy?view=o365-worldwide).
+:::image type="content" source="media/essentials-antispam.png" alt-text="Image showing the Microsoft Defender Portal anti-spam outbound policy flyout with "On - forwarding is enabled" selected under Forwarding rules." lightbox="media/essentials-antispam.png":::
+
+To learn more about configuring outbound spam policies, visit [Configure outbound spam filtering - Office 365 | Microsoft Docs](/microsoft-365/security/office-365-security/configure-the-outbound-spam-policy?view=o365-worldwide&preserve-view=true).
 
 ## Connect Teams Essentials to Exchange Online with Exchange on-premises
 
@@ -63,7 +65,7 @@ All email generated in Microsoft 365 is forwarded to Google Workspace so that us
 
 :::image type="content" source="media/essentials-googleworkspace.png" alt-text="Image depicting a diagram of the mail flow between EXO and Gmail":::
 
-These examples rely on the [Connect-ExchangeOnline](/powershell/module/exchange/connect-exchangeonline?view=exchange-ps) PowerShell commandlet that is part of the [Exchange Online PowerShell V2 module](/powershell/exchange/exchange-online-powershell-v2). If you get an error when running Connect-ExchangeOnline, ensure that you’ve followed the recommended instructions for installing the module using [Install the EXO V2 module](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps). When Connect-ExchangeOnline prompts for credentials, be sure to use a tenant administrator account.
+These examples rely on the [Connect-ExchangeOnline](/powershell/module/exchange/connect-exchangeonline?view=exchange-ps&preserve-view=true) PowerShell commandlet that is part of the [Exchange Online PowerShell V2 module](/powershell/exchange/exchange-online-powershell-v2&preserve-view=true). If you get an error when running Connect-ExchangeOnline, ensure that you’ve followed the recommended instructions for installing the module using [Install the EXO V2 module](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps&preserve-view=true). When Connect-ExchangeOnline prompts for credentials, be sure to use a tenant administrator account.
 
 **Step One: Set up a new Microsoft 365 tenant domain**
 
@@ -71,7 +73,7 @@ These examples rely on the [Connect-ExchangeOnline](/powershell/module/exchange/
 
 2. Go to **Set Up** > **Domains**  and select **Add domain** to add your existing domain. If you don't add a domain, people in your organization will use the onmicrosoft.com domain for their email addresses until you do. Be sure to add your domain before adding users, so you don't have to set them up twice.
 
-3. Verify the domain with a TXT record by following the steps at [Verify with a TXT Record](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider?view=o365-worldwide).
+3. Verify the domain with a TXT record by following the steps at [Verify with a TXT Record](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider?view=o365-worldwide&preserve-view=true).
 
 4. When prompted, select **Do not allow Microsoft 365 to configure DNS**.
 
@@ -79,7 +81,7 @@ These examples rely on the [Connect-ExchangeOnline](/powershell/module/exchange/
 
 6. Update the existing SPF TXT record to include Microsoft 365.
 
-7. Configure DomainKeys Identified Mail (DKIM) for Microsoft 365 by following these steps to manually [set up DKIM](/microsoft-365/security/office-365-security/use-dkim-to-validate-outbound-email?view=o365-worldwide).
+7. Configure DomainKeys Identified Mail (DKIM) for Microsoft 365 by following these steps to manually [set up DKIM](/microsoft-365/security/office-365-security/use-dkim-to-validate-outbound-email?view=o365-worldwide&preserve-view=true).
 
 8. Sign back into the Microsoft 365 admin center at <https://admin.microsoft.com/AdminPortal/> to enable DKIM
 
@@ -113,7 +115,7 @@ These examples rely on the [Connect-ExchangeOnline](/powershell/module/exchange/
 
 6. Select **Next**, review your new user's settings, make any other changes if necessary, then select **Finish adding**, then close.
 
-To add multiple users at the same time, follow the recommend steps at [Add users and assign licenses - Microsoft 365 admin | Microsoft Docs](/microsoft-365/admin/add-users/add-users?view=o365-worldwide)
+To add multiple users at the same time, follow the recommend steps at [Add users and assign licenses - Microsoft 365 admin | Microsoft Docs](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true)
 
 **Step Three: Configure Google Workspace**
 
@@ -280,7 +282,7 @@ xi. Under **Add setting**, choose **Advanced content match**
 
 *Disable Outlook on the web for mailboxes*
 
-1. Follow the instructions at [Disable Outlook on the web for a mailbox in Exchange Online](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app) to disable Outlook on the web for mailboxes. 
+1. Follow the instructions at [Disable Outlook on the web for a mailbox in Exchange Online](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app&preserve-view=true) to disable Outlook on the web for mailboxes. 
 
 2. You can disable Outlook on the web using the **Exchange Admin Center** or **PowerShell**. You may use the following PowerShell example to disable Outlook on the web for all mailboxes:
 
@@ -338,11 +340,11 @@ If you already have an existing account, you can proceed to the next step. If no
 
 *Configure Teams AAD users*
 
-1. Follow the guidance at[Add users and assign licenses](/microsoft-365/admin/add-users/add-users?view=o365-worldwide) to add multiple users
+1. Follow the guidance at[Add users and assign licenses](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true) to add multiple users
 
 *Configure identity protection*
 
-1. Disable Security defaults if active
+1. Disable Security defaults if active.
 
 2. Configure multifactor authentication for users
 
@@ -354,9 +356,9 @@ If you already have an existing account, you can proceed to the next step. If no
 
 2. Enter your domain name in the appropriate field
 
-3. Follow the instructions on screen to verify  your domain with TXT record
+3. Follow the instructions on screen to verify your domain with TXT record
 
-4. Allow Microsoft to configure DNS
+4. When prompted, allow Microsoft to configure DNS
 
 5. Complete the instructions to verify MX record route to Microsoft 365
 
@@ -364,12 +366,12 @@ If you already have an existing account, you can proceed to the next step. If no
 
 7. Complete the instructions for configuring DKIM TXT records for Microsoft 365
 
-8. Verify DKIM is enabled by logging out and signing back into the Admin center.
+8. Verify DKIM is enabled by logging out and signing back into the Admin center
 
 **3. Configure Gmail**
 
 1. Configure Gmail to pull Exchange Online mail into its system
 
-2. Configure Teams Calendar add-in
+2. Configure the Teams Calendar add-in
 
 3. Enable Gmail to use business domain (optional)
