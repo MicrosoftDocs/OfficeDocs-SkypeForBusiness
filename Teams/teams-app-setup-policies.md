@@ -212,7 +212,7 @@ Admin pins always take precedence. If the **User pinning** option is turned on, 
 
 Make sure that you follow the logo guidelines before you submit the app. To learn more, see [Checklist for Seller Dashboard submission](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview).
 
-## Related topics
+## Related articles
 
 [Admin settings for apps in Teams](admin-settings.md)
 
