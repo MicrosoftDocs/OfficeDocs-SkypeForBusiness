@@ -40,7 +40,7 @@ To enable automatic forwarding:
 4. In the policy details flyout that appears, select **Edit protection settings** to modify the autoforwarding rule.
 5. Under **Forwarding rules**, change the automatic forwarding condition to **On – forwarding is enabled** and save your changes.
 
-:::image type="content" source="media/essentials-antispam.png" alt-text="Image showing the Microsoft Defender Portal anti-spam outbound policy flyout with "On - forwarding is enabled" selected under Forwarding rules." :::
+:::image type="content" source="media/essentials-antispam.png" alt-text="Image showing the Microsoft Defender Portal anti-spam outbound policy flyout with On, forwarding is enabled condition under Forwarding rules." :::
 
 To learn more about configuring outbound spam policies, visit [Configure outbound spam filtering - Office 365 | Microsoft Docs](/microsoft-365/security/office-365-security/configure-the-outbound-spam-policy?view=o365-worldwide&preserve-view=true).
 
