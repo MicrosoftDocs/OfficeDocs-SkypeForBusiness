@@ -310,7 +310,7 @@ This step ensures that email is sent to third-party system for final resolution.
 
 6. Select **Internal Relay**, then click **Save**
 
-    :::image type="content" source="media/essentials-internalrelay2.png" alt-text="Image depicting the act of saving internal relay setting.":::
+    :::image type="content" source="media/essentials-internalrelay2.png" alt-text="Image showing the act of saving internal relay setting.":::
 
 **Step Six: Create a rule to delete all inbound mail to Exchange Online except for Calendaring**
 
