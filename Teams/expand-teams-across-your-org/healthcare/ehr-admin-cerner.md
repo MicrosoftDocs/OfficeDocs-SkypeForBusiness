@@ -105,9 +105,9 @@ To enable SMS notifications, your Microsoft 365 admin does the following:
 
     Choose **Done**, and then select **Next**.
 
-1. To link the phone number to an FHIR base URL, under **Phone number** in the **SMS configuration** section, select the number. Do this for each FHIR base URL for which you want to enable SMS notifications.
+1. To link the phone number to a FHIR base URL, under **Phone number** in the **SMS configuration** section, select the number. Do this for each FHIR base URL for which you want to enable SMS notifications.
 
-    :::image type="content" source="media/ehr-admin-cerner-link-phone-number.png" alt-text="Screenshot showing how to link a phone number to an FHIR base URL." lightbox="media/ehr-admin-cerner-link-phone-number.png":::
+    :::image type="content" source="media/ehr-admin-cerner-link-phone-number.png" alt-text="Screenshot showing how to link a phone number to a FHIR base URL." lightbox="media/ehr-admin-cerner-link-phone-number.png":::
 
     If this is the first time you’re configuring the connector, you’ll see the FHIR base URL that was entered in the earlier step. The same phone number can be linked to multiple FHIR base URLs, which means that patients will receive SMS notifications from the same phone number for different organizations and/or departments.
 
