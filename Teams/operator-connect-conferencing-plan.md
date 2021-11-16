@@ -40,8 +40,11 @@ This article describes Operator Connect Conferencing:
 
 - [Benefits](#benefits)
 - [Licensing requirements and billing](#licensing-requirements-and-billing)
+- [Additional information on Microsoft Audio Conferencing](#additional-information-on-microsoft-audio-conferencing)
 
 For information about configuring Operator Connect Conferencing, see [Configure Operator Connect Conferencing](operator-connect-conferencing-configure.md).
+
+If some of your organization's users need to make external calls to PSTN phone numbers, you still need a calling plan. To learn about using a third-party operator for external PSTN connectivity, see [Plan for Operator Connect](operator-connect-plan.md).
 
 ## Benefits
 
@@ -93,3 +96,7 @@ For more information, see [**Configure Operator Connect Conferencing**](operator
 With Operator Connect Conferencing, Microsoft bills your organization according to the type of Audio Conferencing license used by your organization, Microsoft Audio Conferencing or Operator Connect Conferencing, and the use of any phone numbers provided by Microsoft.
 
 Your operator bills your organization for the use of Operator Connect Conferencing numbers they provide.
+
+## Additional information on Microsoft Audio Conferencing
+
+Microsoft Audio Conferencing allows participants to join Microsoft Teams meetings by dialing in with a PSTN phone number or by dialing out to a PSTN phone number. For more information on Microsoft Audio Conferencing capabilities available to your organization, see [Audio Conferencing in Microsoft 365](audio-conferencing-in-office-365.md).
