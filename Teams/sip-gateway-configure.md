@@ -29,11 +29,11 @@ This article explains how to configure SIP Gateway so that your organization can
 
 ## Enable SIP Gateway for your tenant
 
-There are two ways you can enable SIP Gateway for your tenant: by using a PowerShell cmndlet, or in the Teams admin center.
+There are two ways you can enable SIP Gateway for your tenant: by using a PowerShell cmdlet, or in the Teams admin center.
 
-### Enable SIP Gateway by using a PowerShell cmndlet
+### Enable SIP Gateway by using a PowerShell cmdlet
 
-To enable SIP Gateway by using a PowerShell cmndlet, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). [Do we need to explain what they need to do with this?]
+To enable SIP Gateway by using a PowerShell cmdlet, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). **(What do they do with this?)**
 
 ### Enable SIP Gateway in the Teams admin center
 
