@@ -49,7 +49,7 @@ To learn how to use address book policies, read [Information Barrier policies in
 
 1. Use Information Barrier policies to configure your organization into virtual subgroups. For more information, see [Define Information Barrier policies](/microsoft-365/compliance/information-barriers-policies).
 
-2. In the Microsoft Teams admin center, select **Org-wide settings** > **Teams settings**.
+2. In the Microsoft Teams admin center, select **Teams** > **Teams settings**.
 
 3. Under **Search**, next to **Scope directory search in Teams using an Exchange address book policy (ABP)**, turn the toggle **On**.
 
