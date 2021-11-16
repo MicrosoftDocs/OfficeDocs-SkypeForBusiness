@@ -13,16 +13,17 @@ ms.reviewer: roykuntz
 appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
-ms.custom: Learn how to manage the Music on Hold feature in Phone System.
+ms.custom:
+description: Learn how to manage the Music on Hold feature in Phone System.
 ---
 
 # Music on Hold
 
 When a Microsoft Teams user places an incoming call from the Public Switched Telephone Network (PSTN) on hold, the PSTN caller can listen to selected music.
 
-The music that is played is either the default music provided by Microsoft or custom music that you upload and configure. As the tenant administrator, you configure whether Music on Hold is available by creating a Teams calling policy and assigning the policy to the Teams user. 
+The music that is played is either the default music provided by Microsoft or custom music that you upload and configure. As the tenant administrator, you configure whether Music on Hold is available by creating a Teams calling policy and assigning the policy to the Teams user.
 
-Note that PSTN callers can listen to Music on Hold in other scenarios as well; for example, when they call into a Cloud Call Queue or when their call is parked by a Microsoft Teams user. These scenarios are not covered or controlled by the features mentioned in this article. 
+Note that PSTN callers can listen to Music on Hold in other scenarios as well; for example, when they call into a Cloud Call Queue or when their call is parked by a Microsoft Teams user. These scenarios are not covered or controlled by the features mentioned in this article.
 
 ## Configure Music on Hold
 
@@ -39,9 +40,6 @@ You can also configure Music on Hold by using the Teams PowerShell module. In th
 If a Teams user has a Teams calling policy with Music on Hold set to Disabled, then no music will be played when the Teams user places the call on hold.
 
 ## Configure custom music
-
-> [!NOTE]
-> This feature is available as a Public Preview release.
 
 In addition to playing default music to PSTN callers, you can upload a custom audio file with music or other audio content and configure that audio file to be played to the PSTN caller.
 For example a department or organization might want to play a custom announcement or custom music when external PSTN callers are put on hold.  
@@ -114,30 +112,24 @@ The following table indicates which features on which clients and devices suppor
 
 - In some scenarios, a Direct Routing media bypass call will be converted to non-media bypass for playing Music on Hold and the call will stay as non-media bypass until the call is terminated.
 
-
 ## Related topics
 
-- [Assign policies to users](assign-policies.md)
+- [Assign policies to users](policy-assignment-overview.md)
 
-- [Get-CsTeamsCallingPolicy](/powershell/module/skype/get-csteamscallingpolicy?view=skype-ps)
+- [Get-CsTeamsCallingPolicy](/powershell/module/skype/get-csteamscallingpolicy)
 
-- [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
+- [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
-- [Get-CsOnlineAudioFile](/powershell/module/skype/get-csonlineaudiofile?view=skype-ps)
+- [Get-CsOnlineAudioFile](/powershell/module/skype/get-csonlineaudiofile)
 
-- [Remove-CsOnlineAudioFile](/powershell/module/skype/remove-csonlineaudiofile?view=skype-ps)
+- [Remove-CsOnlineAudioFile](/powershell/module/skype/remove-csonlineaudiofile)
 
-- [New-CsTeamsCallHoldPolicy](/powershell/module/skype/new-csteamscallholdpolicy?view=skype-ps)
+- [New-CsTeamsCallHoldPolicy](/powershell/module/skype/new-csteamscallholdpolicy)
 
-- [Get-CsTeamsCallHoldPolicy](/powershell/module/skype/get-csteamscallholdpolicy?view=skype-ps)
+- [Get-CsTeamsCallHoldPolicy](/powershell/module/skype/get-csteamscallholdpolicy)
 
-- [Grant-CsTeamsCallHoldPolicy](/powershell/module/skype/grant-csteamscallholdpolicy?view=skype-ps)
+- [Grant-CsTeamsCallHoldPolicy](/powershell/module/skype/grant-csteamscallholdpolicy)
 
-- [Remove-CsTeamsCallHoldPolicy](/powershell/module/skype/remove-csteamscallholdpolicy?view=skype-ps)
+- [Remove-CsTeamsCallHoldPolicy](/powershell/module/skype/remove-csteamscallholdpolicy)
 
-- [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile?view=skype-ps)
-
-
-
-
-
+- [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)

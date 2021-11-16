@@ -25,16 +25,13 @@ description: "Learn how to route calls to unassigned numbers in your organizatio
 
 # Routing calls to unassigned numbers
 
-> [!NOTE]
-> This feature is available as a Public Preview release.
-
 As an administrator, you can route calls to unassigned numbers in your organization. For example, you might want to route calls to unassigned numbers as follows: 
 
 - Route all calls to a given unassigned number to a custom announcement.
 
 - Route all calls to a given unassigned number to the the main switchboard.
 
-You can route calls to unassigned numbers to a user, to a resource account associated with an Auto Attendant or a Call Queue, or to an announcement service that will play a custom audio file to the caller. The audio file will play repeatedly until the caller hangs up.
+You can route calls to unassigned numbers to a user, to a resource account associated with an Auto Attendant or a Call Queue, or to an announcement service that will play a custom audio file to the caller.
 
 ## Configuration
 
@@ -46,7 +43,7 @@ You need to specify the called number or range of numbers and the associated rou
 $RAObjectId = (Get-CsOnlineApplicationInstance -Identity aa@contoso.com).ObjectId
 
 
-New-CsTeamsUnassignedNumberTreatment -Identity MainAA -Pattern "^\+15552223333$" -TargetType ResourceAccount -Target $RAObjectId -Priority 1
+New-CsTeamsUnassignedNumberTreatment -Identity MainAA -Pattern "^\+15552223333$" -TargetType ResourceAccount -Target $RAObjectId -TreatmentPriority 1
 ```
 
 The next example specifies that all calls to the number range +1 (555) 333-0000 to +1 (555) 333-9999 will be routed to the announcement service, which will play the audio file MainAnnouncement.wav to the caller.
@@ -58,7 +55,7 @@ $AudioFile = Import-CsOnlineAudioFile -FileName "MainAnnouncement.wav" -Content 
 
 $fid = [System.Guid]::Parse($AudioFile.Id)
 
-New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -TargetType Announcement -Target $fid.Guid -Priority 2
+New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -TargetType Announcement -Target $fid.Guid -TreatmentPriority 2
 ```
 
 ## Notes
