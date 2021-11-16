@@ -25,14 +25,14 @@ description: Learn about how to use Call Quality Dashboard Power BI report to vi
 ---
 # Auto Attendant & Call Queue Historical Report
 
-The CQD Teams Auto Attendant & Call Queue Historical Report Power BI Template provides the following three reports:
+The Teams Auto Attendant & Call Queue Historical Report Power BI Template provides the following three reports:
 
 - [Auto Attendant](media/cqd-teams-aa-cq-historical-report-sample-aa.png) – showing analytics for calls coming into your Auto Attendants.
 - [Call Queue](media/cqd-teams-aa-cq-historical-report-sample-cq.png) – showing analytics for calls coming into your Call Queues.
 - [Agent Timeline](media/cqd-teams-aa-cq-historical-report-sample-at.png) – showing a timeline view of agents being active in Call Queue calls.
 
-These reports use data from the [Call Quality Dashboard](CQD-Power-BI-query-templates.md) data store. They allow organizations
-to report on the number of calls being processed by auto attendants and call queues.  They also provide insight to agent performance in the call queues.
+These reports use data from the [Call Quality Dashboard](CQD-Power-BI-query-templates.md) data store. The reports allow organizations
+to report on the number of calls being processed by auto attendants and call queues.  The reports also provide insight to agent performance in the call queues.
 
 ## Prerequisites
 
@@ -43,11 +43,11 @@ You can use the free version of Power BI Desktop. The minimum compatible version
 
 ### Permissions to access the CQD pipeline
 
-The account you use to view the AA & CQ Analytics historical report needs to have permissions to access the CQD data pipeline. For more information see [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
+The account you use to view the historical report needs to have permissions to access the CQD data pipeline. For more information, see [CQD access role](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 
 ## Installation 
 
-The following steps assume you have already installed Power BI Desktop on the computer and that your account has the necessary permissions to access the CQD data pipeline.
+The following steps assume you have already installed Power BI Desktop on the computer, and that your account has the necessary permissions to access the CQD data pipeline.
 
 Perform the following steps:
 
@@ -55,7 +55,7 @@ Perform the following steps:
 
 - Double-click on the zip file to open it.
 
-- Double-click on the "CQ and AA combined Analytics 20201105.pbit" template file and Power BI Desktop should launch.
+- Double-click on the "CQ and AA combined Analytics 20201105.pbit" template file. The Power BI Desktop should launch.
 
 - You will be prompted to select the CQD data pipeline region. Select the region where your tenant is located.
 
@@ -98,7 +98,7 @@ You cannot add additional data fields to the report.
 
 ### Change color schema 
 
-The following steps assume you have already completed the Installation steps.
+The following steps assume you have already completed the installation steps.
 
 Perform the following steps:
 - Select **View tab** on the ribbon.
