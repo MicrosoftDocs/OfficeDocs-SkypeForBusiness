@@ -301,4 +301,6 @@ Perform the following steps:
 
 - Only 28 days of history is available in the dashboard as call queue/auto attendant data is considered personal data and is subject to data privacy retention policies.
 
+- In some scenarios the agent answered call count on the Cloud Call Queue Agent Timeline report may be different than the number of calls shown in the Teams client call history. The Teams client call history is correct. Support is investigating but there is no estimated time to repair available at this time.
+
 - <sup>1</sup> **Incoming call source** in the auto attendant and call queue graphs show the final call leg source rather than the initial call leg source. For example, if an auto attendant receives an external call and transfers the call to another auto attendant or call queue, the **Incoming call source** will be reported as Internal.
