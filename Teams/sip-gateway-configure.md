@@ -29,11 +29,11 @@ This article explains how to configure SIP Gateway so that your organization can
 
 ## Enable SIP Gateway for your tenant
 
-There are two ways you can enable SIP Gateway for your tenant: by using a PowerShell commandlet, or in the Teams admin center. 
+There are two ways you can enable SIP Gateway for your tenant: by using a PowerShell cmndlet, or in the Teams admin center.
 
-### Enable SIP Gateway by using a PowerShell commandlet
+### Enable SIP Gateway by using a PowerShell cmndlet
 
-To enable SIP Gateway by using a PowerShell commandlet, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). [Do we need to explain what they need to do with this?]
+To enable SIP Gateway by using a PowerShell cmndlet, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). [Do we need to explain what they need to do with this?]
 
 ### Enable SIP Gateway in the Teams admin center
 
@@ -101,7 +101,9 @@ For each SIP device, configure the following SIP Gateway provisioning server URL
 - Americas: [http://noam.ipp.sdg.teams.microsoft.com](http://noam.ipp.sdg.teams.microsoft.com)
 
 > [!NOTE]
-> - Only compatible SIP devices can be onboarded to SIP Gateway. Users who work from home must manually configure the provisioning server URL above into their SIP device. **[How?]**
+> - Only compatible SIP devices can be onboarded to SIP Gateway. Users who work from home must manually configure the provisioning server URL above into their SIP device. To do that, they must perform either of the following steps:
+> - - Open a browser window, enter the device’s IP address, and configure the provisioning server’s URL. This is the easiest method.
+> - - Under **Settings** or **Advanced settings** on the device, set the provisioning server’s URL.
 > - Cisco IP phones must be flashed to multiplatform firmware before they can be onboarded. Read this guide to learn how:|[Cisco firmware conversion guide](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-7800-series/guide-c07-742786.html)| 
 > - Some Yealink models also require a license to migrate from Skype for Business firmware to SIP.
 
@@ -111,10 +113,39 @@ Make sure the firewall on your network opens traffic to Office 365 and Teams as 
 
 ## Enroll SIP devices
 
-A Teams administrator can provision SIP devices in the Teams admin center either individually or in batches by uploading a list of devices to be provisioned. [How?] The administrator can generate a one-time password for each onboarded device. [How?] A technician can enroll an onboarded device by dialing a feature code followed by the one-time password. For example:,if the feature code for enrollment is *55*, and the one-time password is 123456, the technician would dial *55*123456 to enroll the device. [We need step-by-step details here.] Once the device is successfully enrolled,t shows up in Teams admin Center inventory and is enabled for remote sign-in.
+A Teams administrator can provision SIP devices in the Teams admin center either individually, or in batches by uploading a csv file that contains a list of devices to be provisioned. To do the latter, follow these steps:
+
+1. Log in to the [**Teams admin center**](https://admin.teams.microsoft.net/).
+
+2. Select **Teams devices** > **SIP devices**.
+
+3. At the upper right, select **Actions** > **Provision devices**.
+
+4. Under **Waiting on activation**, do either of the following:
+
+- To provision one device:
+
+a. Select the MAC address of a SIP device, and then select **Edit**.
+
+b. In the **Edit MAC addresses** pane under **MAC address**, enter the MAC address of the device, and then select **Apply**.
+
+- To provision many devices:
+
+a. At the right, select **Export** (the Microsoft Excel icon). 
+
+b. In the downloaded csv file, enter the MAC ID, Verification Code, Assigned, and Location. 
+
+c. Under **Waiting on Activation**, select **Upload**, select **Select a file**, and select the csv file. 
+
+
+Under **Waiting on activation** in the steps above, an administrator can select **Generate verification code** to generate a one-time verification code for each onboarded device. An administrator can enroll an onboarded device by dialing a feature code followed by the one-time verification code. For example,if the feature code for enrollment is *55*, and the one-time verification code is *123456*, the administrator would dial *55*123456 to enroll the device. Once the device is successfully enrolled, it shows up in the Teams admin center inventory and is enabled for remote sign-in.
 
 > [!NOTE]
 > A SIP device must be onboarded before it can be enrolled.
+
+## Remote sign-in
+
+TBD
 
 ## Sign in and pair
 
