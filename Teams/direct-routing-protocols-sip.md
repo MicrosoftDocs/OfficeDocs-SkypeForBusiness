@@ -40,7 +40,7 @@ Before an incoming or outbound call can be processed, OPTIONS messages are excha
 > [!NOTE]
 > The SIP headers do not contain userinfo in the SIP URI in use. As per [RFC 3261, section 19.1.1](https://tools.ietf.org/html/rfc3261#section-19.1.1), the userinfo part of a URI is optional and MAY be absent when the destination host does not have a notion of users or when the hosst itself is the resource being identified. If the @ sign is present in a SIP URI, the user field MUST NOT be empty.
 > Please note, that SIPS URI should not be used with Direct Routing as it is not supported.
-> Check your Session Border Controller configuration and make share that you are not using "Replaces" headers in SIP requests. Direct Routing  will be rejecting SIP requests that have Replaces headers defined.
+> Check your Session Border Controller configuration and make sure that you are not using "Replaces" headers in SIP requests. Direct Routing  will reject SIP requests that have Replaces headers defined.
 
 On an incoming call, the SIP proxy needs to find the tenant to which the call is destined and find the specific user within this tenant. The tenant administrator might configure non-DID numbers, for example +1001, in multiple tenants. Therefore, it is important to find the specific tenant on which to perform the number lookup because the non-DID numbers might be the same in multiple Microsoft 365 or Office 365 organizations.  
 
