@@ -1,7 +1,7 @@
 ---
 title: Issues receiving messages and calls on legacy systems in Teams
 ms.reviewer: 
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 05/29/2020

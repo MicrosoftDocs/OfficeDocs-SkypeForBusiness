@@ -2,7 +2,7 @@
 title: "Configure SharePoint Server to search for archived Skype for Business data"
 ms.reviewer: 
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
