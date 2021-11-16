@@ -183,6 +183,10 @@ SIP Gateway authenticates SIP Phones with Azure Active Directory, so if your ten
 -   EMEA region:
     - North EU: 40.112.71.149
     - North EU: 40.112.71.149
+    - West EU: 40.113.112.67
+-   APAC region:
+    - APAC cluster 1: <IP address>
+    - APAC cluster 2: <IP address>
 
 For more information, see [IP address ranges](https://docs.microsoft.com/en-in/azure/active-directory/conditional-access/location-condition#ip-address-ranges)
 
