@@ -212,4 +212,4 @@ User details and policies will be fetched to SIP devices when users sign in. Any
 
 ## Report problems to Microsoft
 
-- To report problems, contact [Microsoft Support](https://support.microsoft.com)
+- To report problems, contact [Microsoft Support](https://support.microsoft.com).

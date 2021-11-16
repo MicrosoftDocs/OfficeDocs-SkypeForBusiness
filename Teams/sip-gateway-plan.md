@@ -122,7 +122,7 @@ You must also have PSTN capability through a Microsoft Calling Plan, Direct Rout
 |          |T40G       |83          |76.84.0.125|   |   |
 |          |T41P       |83          |36.83.0.120|   |   |
 |          |T46G       |83          |28.83.0.130|   |   |
-|**AudioCodes**|       |            |           |Some AudioCodes Skype for Business devices need a provisioning URL setting. Download and install upgrade files for the affected AudioCodes devices at the right. |[Downloadable files for affected devices at AudioCodes](https://audiocodes.sharefile.com/share/view/sc9cdf17f9ec45d09/fo19ecda-cf14-4a53-842b-5eab33a0b9b0)|
+|**AudioCodes**|       |            |           |Some AudioCodes SIP devices need a provisioning URL setting. Download and install upgrade files for the affected AudioCodes devices at the right. |[Downloadable files for affected devices at AudioCodes](https://audiocodes.sharefile.com/share/view/sc9cdf17f9ec45d09/fo19ecda-cf14-4a53-842b-5eab33a0b9b0)|
 |          |405         |2.2.8      |2.2.16.525 |   |   |
 |          |405HD       |3.2.1      |2.2.16.525 |   |   |
 |          |420HD       |3.2.1      |2.2.16.525 |   |   |
