@@ -23,15 +23,13 @@ appliesto:
 
 Shifts connectors enable you to integrate Shifts, the schedule management tool in Microsoft Teams, with your workforce management (WFM) system. After a connection is set up, your frontline workers can seamlessly view and manage their schedules in your WFM system from within Shifts.
 
-Connecting your WFM system empowers your frontline workforce to manage schedules more effectively and streamlines everyday processes for higher engagement and productivity. Frontline workers can manage their scheduling needs in Shifts and use the rich communication and collaboration features of Teams to get work done, from anywhere, on any device.
+Connecting your WFM system empowers your frontline workforce to manage schedules more effectively and streamlines everyday processes for higher engagement and productivity. Frontline workers can manage their scheduling needs in Shifts and use the rich communication and collaboration features of Teams to get work done, from anywhere, on any device. *Your frontline workers have one place for their scheduling, communication, and collaboration needs to get work done, from anywhere, on any device.*
 
-*Your frontline workers have one place for their scheduling, communication, and collaboration needs to get work done, from anywhere, on any device.*
-
-We offer managed and open-source Shifts connectors. This article gives you an overview of these connectors, how they work, and how to connect Shifts with your WFM system.
+We offer managed and open-source Shifts connectors. This article gives you an overview of these connectors and how to connect Shifts with your WFM system.
 
 ## How Shifts connectors work
 
-Connectors sync schedule data between your WFM system and Shifts, bringing your organization’s schedules and business rules into Teams. Your WFM is the system of record and enforces all business rules.
+Connectors sync schedule data between your WFM system and Shifts, bringing your organization’s schedules and business rules into Teams. Your WFM system is the system of record and enforces all business rules.
 
 Schedule data flows both ways. Schedules in your WFM system are synced to Shifts. Any changes made in Shifts are synced back to your WFM system to ensure schedules are always up to date.
 
@@ -61,7 +59,7 @@ For step-by-step guidance, see:
 
 ### Shifts to Zebra-Reflexis connector
 
-The Shifts to Zebra-Reflexis connector is hosted and managed by Zebra.
+The Shifts to Zebra-Reflexis connector, currently in private preview, is hosted and managed by Zebra.
 
 ## Open-source Shifts connectors
 
