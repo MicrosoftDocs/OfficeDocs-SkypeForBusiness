@@ -31,7 +31,7 @@ To configure SIP Gateway, you must ensure the following requirements are met:
 
 - **Devices are reset to factory default settings.** You or your users will need to ensure that each SIP device used with SIP Gateway is reset to factory default settings. For information on how to reset devices, see the manufacturer’s instructions.
 
-- **Port requirements are met.** You must ensure that the firewall on your network opens traffic to Microsoft 365 and Teams as specified in [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges). 
+- **Port requirements are met.** You must ensure that the firewall on your network opens traffic to Microsoft 365 and Teams as specified in [Office 365 URLs and IP address ranges](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges). 
 
   You must also open UDP ports in the range 49152 to 53247 and TCP port 5061 for IP range 52.112.0.0/14 to 52.120.0.0/14.
 
@@ -63,7 +63,7 @@ There are two ways you can enable SIP Gateway for your tenant: by using the Team
 5. Turn on the setting for **SIP devices can be used for calls**, and then select **Save**.
 
 
-**By using PowerShell.** To enable SIP Gateway by using a PowerShell cmdlet, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). **(What do they do with this?)**
+**By using PowerShell.** To enable SIP Gateway by using a PowerShell cmdlet, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). **(What do they do with this?)**
 
 
 ## Verify that SIP Gateway is available for your tenant
@@ -88,7 +88,7 @@ Users who work from home must manually configure the provisioning server URL int
 
 > [!NOTE]
 > - Only compatible SIP devices can be onboarded to SIP Gateway. 
-> - Cisco IP phones must be flashed to multiplatform firmware before they can be onboarded. Read this guide to learn how: [Cisco firmware conversion guide](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-7800-series/guide-c07-742786.html)| 
+> - Cisco IP phones must be flashed to multiplatform firmware before they can be onboarded. Read this guide to learn how: [Cisco firmware conversion guide](https://www.cisco.com/c/products/collateral/collaboration-endpoints/unified-ip-phone-7800-series/guide-c07-742786.html)| 
 > - Some Yealink models also require a license to migrate from Skype for Business firmware to SIP.
 
 
@@ -143,7 +143,7 @@ To pair a SIP device after the user authenticates using corporate credentials, t
 3. Enter the pairing code displayed on the SIP phone into the web authorization app to pair the SIP phone with the user's account. On a successful sign-in, which might take a while, the SIP phone will display the phone number and username if the device supports that. 
 
 > [!NOTE]
-> The location of the device shown on the Azure Active Directory web authorization app is the SIP Gateway datacenter to which the device is connected. SIP phones in scope are not OAuth-capable, so SIP Gateway authenticates the user through the web authorization app and then pairs the device with the user’s credentials. Learn more here: [Microsoft identity platform and the OAuth 2.0 device authorization grant flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-device-code).
+> The location of the device shown on the Azure Active Directory web authorization app is the SIP Gateway datacenter to which the device is connected. SIP phones in scope are not OAuth-capable, so SIP Gateway authenticates the user through the web authorization app and then pairs the device with the user’s credentials. Learn more here: [Microsoft identity platform and the OAuth 2.0 device authorization grant flow](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-device-code).
 
 ### Sign out
 
@@ -232,7 +232,7 @@ SIP Gateway authenticates SIP devices with Azure Active Directory, so if your te
     - APAC cluster 1: <IP address>
     - APAC cluster 2: <IP address>
 
-For more information, see [IP address ranges](https://docs.microsoft.com/en-in/azure/active-directory/conditional-access/location-condition#ip-address-ranges).
+For more information, see [IP address ranges](https://docs.microsoft.com/azure/active-directory/conditional-access/location-condition#ip-address-ranges).
 
 
 ## Report problems to Microsoft
