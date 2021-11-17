@@ -41,9 +41,6 @@ If a Teams user has a Teams calling policy with Music on Hold set to Disabled, t
 
 ## Configure custom music
 
-> [!NOTE]
-> This feature is available as a Public Preview release.
-
 In addition to playing default music to PSTN callers, you can upload a custom audio file with music or other audio content and configure that audio file to be played to the PSTN caller.
 For example a department or organization might want to play a custom announcement or custom music when external PSTN callers are put on hold.  
 
