@@ -49,7 +49,7 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 | Poly CCX400                            | `1.0.0.0200`                                               | January 2020                 |
 | Poly CCX600                            | `5.9.12.1122`                                              | January 2020                 |
 | Poly CCX500                            | `5.9.12.1122`                                              | December 2019                |                                                                                                                                                           
-| Yealink EXP50 supported on T56, T58, MP56, MP58, VP59| For each supported device model, see update #7 firmware version | January 2021 |
+| Yealink EXP50 supported on MP56, MP58, VP59| For each supported device model, see update #7 firmware version | January 2021 |
 | Yealink MP58 | `122.15.0.27`| December 2020 |
 | Yealink MP54 | `122.15.0.27`| November 2020 |
 | Yealink MP56 | `122.15.0.6` | March 2020    |
