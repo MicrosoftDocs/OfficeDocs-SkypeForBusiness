@@ -41,7 +41,7 @@ The following sections describe the tasks you must perform as an administrator t
 
 2. [Enable SIP Gateway for the users in your tenant](#enable-sip-gateway-for-the-users-in-your-tenant).
 
-3. [For each SIP device, set the SIP Gateway provisioning server URL](#for-each-sip-device,-set-the-sip-gateway-provisioning-server-url).
+3. [For each SIP device, set the SIP Gateway provisioning server URL](#for-each-sip-device-set-the-sip-gateway-provisioning-server-url).
 
 4. [Onboard SIP devices](#onboard-sip-devices).
 
