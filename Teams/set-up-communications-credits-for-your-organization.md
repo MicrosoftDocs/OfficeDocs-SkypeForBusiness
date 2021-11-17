@@ -74,15 +74,15 @@ For more information, see [Microsoft Teams add-on licensing](./teams-add-on-lice
       > [!NOTE]
      > Funds will be applied only to Communications Credits at Microsoft published rates when the services are used. Any funds not used within 12 months of the purchase date will expire and be forfeited. 
      > 
-     > When using the auto-recharge function, invoicing for Communication Credits is generated when the trigger amount is reached and a recharge transaction is processed. Communication credit amounts are used in a first in first out manner. To learn how to check your monthly usage, read [Skype for Business PSTN usage report](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
+     > When using the auto-recharge function, invoicing for Communication Credits is generated when the trigger amount is reached and a recharge transaction is processed. Communication credit amounts are used in a first in first out manner. To learn how to check your monthly usage, read [Microsoft Teams PSTN usage report](/microsoftteams/teams-analytics-and-reports/pstn-usage-report).
     
 5. Enter your payment information and click **Place order**.
     >[!IMPORTANT]
     >If you are a volume licensing customer, you may choose your enterprise agreement number for payment. If you have multiple enterprise agreement numbers, you will be able to select which enterprise agreement you would like to use for payment. You will also be given an opportunity to specify a purchase order number to associate with the enterprise agreement number (if applicable).
     
-Each organization will have a different usage of Calling Plan volume and rates to consider. You will need to get this type of usage data from your current service provider. Organizations already using Skype for Business Online already as their service provider can get usage data by reviewing it in the **Microsoft Teams admin center** > **Analytics & reports** > **Usage reports** > **PSTN and SMS (preview) usage** report.
+Each organization will have a different usage of Calling Plan volume and rates to consider. You will need to get this type of usage data from your current service provider. Organizations already using Skype for Business Online or Microsoft Teams as their service provider can get usage data by reviewing it in the **Microsoft Teams admin center** > **Analytics & reports** > **Usage reports** > **PSTN and SMS (preview) usage** report.
   
-When you are setting up Communications Credits, you will need to investigate call usage for your organization to determine the amounts you need. You can get call usage information by reviewing the **PSTN and SMS (preview) usage** report. This report lets you export the call data records to Excel if you need to store the data or create custom reports. To learn how to see usage, read [PSTN usage report](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report).
+When you are setting up Communications Credits, you will need to investigate call usage for your organization to determine the amounts you need. You can get call usage information by reviewing the **PSTN and SMS (preview) usage** report. This report lets you export the call data records to Excel if you need to store the data or create custom reports. To learn how to see usage, read [Microsoft Teams PSTN usage report](/microsoftteams/teams-analytics-and-reports/pstn-usage-report).
   
 ## Step 3: Assign a Communications Credits license to users
 
