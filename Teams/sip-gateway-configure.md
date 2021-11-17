@@ -219,7 +219,8 @@ How to set Japanese for Cisco phones:
 
 ## Other considerations
 
-SIP Gateway authenticates SIP Phones with Azure Active Directory, so if your tenant uses conditional access for devices in the corporate network, then it should exclude the following IP addresses: 
+SIP Gateway authenticates SIP devices with Azure Active Directory, so if your tenant uses conditional access for devices in the corporate network, then it should exclude the following IP addresses: 
+
 - North America:
     - East US: 52.170.38.140
     - West US: 40.112.144.212
