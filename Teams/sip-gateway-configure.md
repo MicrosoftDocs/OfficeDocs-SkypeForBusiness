@@ -49,10 +49,9 @@ This article also describes how to:
 
 - [Enroll SIP devices either individually or in batches for your convenience](#enroll-sip-devices).  
 
-- [View and monitor your SIP devices](#view-and-monitor-sip-devices)
+- [View and monitor your SIP devices.](#view-and-monitor-sip-devices)
 
-- [Enable support for a multi-language user interface](#support-a-multi---language-user-interface)
-
+- [Enable support for a multi-language user interface.](#support-a-multi---language-user-interface)
 
 
 
@@ -208,10 +207,10 @@ The IP phone user interface can display information in many languages. The langu
 Setting the language is done in the provisioning server, using DHCP server, or manually by appending a code string in the URL as in the following examples.
 
 How to set German for Polycom, AudioCodes, and Yealink phones:
-- http://emea.ipp.sdg.teams.microsoft.com/lang_de
+- `http://emea.ipp.sdg.teams.microsoft.com/lang_de`
 
 How to set Japanese for Cisco phones:
-- http://emea.ipp.sdg.teams.microsoft.com/lang_ja/$PSN.xml 
+- `http://emea.ipp.sdg.teams.microsoft.com/lang_ja/$PSN.xml` 
 
 ### Supported languages
 
