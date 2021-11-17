@@ -37,16 +37,30 @@ To configure SIP Gateway, you must ensure the following requirements are met:
 
 The following sections describe the tasks you must perform as an administrator to configure SIP Gateway.
 
-1. [Enable SIP Gateway for your tenant](#enable-sip-gateway-for-your-tenant).
+1. [Verify that SIP Gateway is available for your tenant](#verify-that-sip-gateway-is-available-for-your-tenant).
 
-2. [Verify that SIP Gateway is available for your tenant](#verify-that-sip-gateway-is-available-for-your-tenant).
+2. [Enable SIP Gateway for the users in your tenant](#enable-sip-gateway-for-the-users-in-your-tenant).
 
-3. Ensure your users know how to [configure the SIP Gateway provisioning server for each SIP device](#for-each-sip-device,-set-the-sip-gateway-provisioning-server-url).
+3. [For each SIP device, set the SIP Gateway provisioning server URL](#for-each-sip-device,-set-the-sip-gateway-provisioning-server-url).
 
-4. [Enroll SIP devices](#enroll-sip-devices).
+4. [Onboard SIP devices](#onboard-sip-devices).
+
+This article also describes how to:
+
+- [Enroll SIP devices either individually or in batches for your convenience](#enroll-sip-devices).  
+
+- [Support for a multi-language user interface](#support-a-multi---language-user-interface)
+
+- [View and monitor your SIP devices](#view-and-monitor-sip-devices)
 
 
-## Enable SIP Gateway for your tenant
+## Verify that SIP Gateway is available for your tenant
+
+1. Log in to the [Teams admin center](https://admin-teams.microsoft.net/).
+
+2. At the left, select **Teams devices** and see if the **SIP devices** tab is visible. If it is, the SIP Gateway service is enabled for your tenant.
+
+## Enable SIP Gateway for the users in your tenant
 
 There are two ways you can enable SIP Gateway for your tenant: by using the Teams admin center or by using the Set-CsTeamsCallingPolicy PowerShell cmdlet.
 
@@ -66,19 +80,14 @@ There are two ways you can enable SIP Gateway for your tenant: by using the Team
 **By using PowerShell.** To enable SIP Gateway by using a PowerShell cmdlet, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). **(What do they do with this?)**
 
 
-## Verify that SIP Gateway is available for your tenant
-
-1. Log in to the [Teams admin center](https://admin-teams.microsoft.net/).
-
-2. At the left, select **Teams devices** and see if the **SIP devices** tab is visible. If it is, the SIP Gateway service is enabled for your tenant.
-
-
 ## For each SIP device, set the SIP Gateway provisioning server URL
 
-For each SIP device, you, or your users, must set one of the following SIP Gateway provisioning server URLs: 
+For each SIP device, you must set one of the following SIP Gateway provisioning server URLs: 
 
 - EMEA: [http://emea.ipp.sdg.teams.microsoft.com](http://emea.ipp.sdg.teams.microsoft.com)
 - Americas: [http://noam.ipp.sdg.teams.microsoft.com](http://noam.ipp.sdg.teams.microsoft.com)
+
+**WHAT ARE THE ADMIN INSTRUCTIONS?**
 
 Users who work from home must manually configure the provisioning server URL into their SIP device by using one of the following steps:
 
@@ -91,10 +100,17 @@ Users who work from home must manually configure the provisioning server URL int
 > - Cisco IP phones must be flashed to multiplatform firmware before they can be onboarded. Read this guide to learn how: [Cisco firmware conversion guide](https://www.cisco.com/c/products/collateral/collaboration-endpoints/unified-ip-phone-7800-series/guide-c07-742786.html)| 
 > - Some Yealink models also require a license to migrate from Skype for Business firmware to SIP.
 
+## Onboard SIP devices
+
+You add SIP devices to your Teams tenant by configuring the SIP Gateway provisioning server URL in your DHCP server, or by manually configuring every phone through its web utility. Onboarding and provisioning include updating the SIP firmware, ...default config and UX push.
+
+**WHAT ARE THE SPECIFIC ADMIN INSTRUCTIONS? SEE THE SOURCE DOCUMENT.**
+
+A successfully onboarded device will display the Teams logo and sign-in button. 
 
 ## Enroll SIP devices
 
-An administrator can provision SIP devices in the Teams admin center either individually, or in batches by uploading a csv file that contains a list of devices to be provisioned. To do that, follow these steps:
+To streamline your tasks, you can provision SIP devices in the Teams admin center either individually or in batches. To enroll multiple SIP devices in batches, you can upload a csv file that contains a list of devices to be provisioned.
 
 1. Log in to the [**Teams admin center**](https://admin.teams.microsoft.net/).
 
@@ -104,22 +120,22 @@ An administrator can provision SIP devices in the Teams admin center either indi
 
 4. Under **Waiting on activation**, do either of the following:
 
-- To provision one device:
+   - To provision one device:
 
-   a. Select the MAC address of a SIP device, and then select **Edit**.
+     a. Select the MAC address of a SIP device, and then select **Edit**.
 
-   b. In the **Edit MAC addresses** pane under **MAC address**, enter the MAC address of the device, and then select **Apply**.
+     b. In the **Edit MAC addresses** pane under **MAC address**, enter the MAC address of the device, and then select **Apply**.
 
-- To provision many devices at once:
+   - To provision many devices at once:
 
-    a. At the right, select **Export** (the Microsoft Excel icon). 
+     a. At the right, select **Export** (the Microsoft Excel icon). 
 
-    b. In the downloaded csv file, enter the **MAC ID**, **Verification Code**, **Assigned**, and **Location**.
+     b. In the downloaded csv file, enter the **MAC ID**, **Verification Code**, **Assigned**, and **Location**.
 
-   c. Under **Waiting on Activation**, select **Upload**, select **Select a file**, and select the csv file.
+     c. Under **Waiting on Activation**, select **Upload**, select **Select a file**, and select the csv file.
 
 
-Under **Waiting on activation** in the steps above, an administrator can select **Generate verification code** to generate a one-time verification code for each onboarded device. An administrator can enroll that onboarded device by dialing a feature code followed by the verification code. For example, if the feature code for enrollment is *55*, and the verification code is *123456*, the administrator would dial *5512345* to enroll the device. Once the device is successfully enrolled, it shows up in the Teams admin center inventory and is enabled for remote sign-in. **(Please walk me through these steps so I can describe them better.)**
+In the steps above, under **Waiting on activation**, you can select **Generate verification code** to generate a one-time verification code for each onboarded device. You can enroll that onboarded device by dialing a feature code followed by the verification code. For example, if the feature code for enrollment is *55*, and the verification code is *123456*, the administrator would dial *5512345* to enroll the device. Once the device is successfully enrolled, it shows up in the Teams admin center inventory and is enabled for remote sign-in. **(Please walk me through these steps so I can describe them better.)**
 
 > [!NOTE]
 > A SIP device must be onboarded before it can be enrolled.
