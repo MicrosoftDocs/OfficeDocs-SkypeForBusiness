@@ -49,9 +49,11 @@ This article also describes how to:
 
 - [Enroll SIP devices either individually or in batches for your convenience](#enroll-sip-devices).  
 
-- [Support for a multi-language user interface](#support-a-multi---language-user-interface)
-
 - [View and monitor your SIP devices](#view-and-monitor-sip-devices)
+
+- [Enable support for a multi-language user interface](#support-a-multi---language-user-interface)
+
+
 
 
 ## Verify that SIP Gateway is available for your tenant
@@ -174,7 +176,6 @@ To sign out a device remotely on the Teams admin center, an administrator can:
 2. Select **Teams devices** > **SIP devices**.
 
 3. At the right, select the device, and then select **Sign out**. **(Is that right? I can't see it in the UI because I don't have any devices on my test page.)**
-
 
 
 ## View and monitor SIP devices
