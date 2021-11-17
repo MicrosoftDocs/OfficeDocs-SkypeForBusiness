@@ -50,9 +50,7 @@ The following sections describe the tasks you must perform as an administrator t
 
 There are two ways you can enable SIP Gateway for your tenant: by using the Teams admin center or by using the Set-CsTeamsCallingPolicy PowerShell cmdlet.
 
-### Enable SIP Gateway by using the Teams admin center
-
-To enable SIP Gateway in the Teams admin center, follow these steps:
+**By using Teams admin center.** To enable SIP Gateway in the Teams admin center, follow these steps:
 
 1. Go to the [Teams admin center](https://admin-teams.microsoft.net/)
 
@@ -64,9 +62,8 @@ To enable SIP Gateway in the Teams admin center, follow these steps:
 
 5. Turn on the setting for **SIP devices can be used for calls**, and then select **Save**.
 
-### Enable SIP Gateway by using the Set-CsTeamsCallingPolicy cmdlet
 
-To enable SIP Gateway by using a PowerShell cmdlet, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). **(What do they do with this?)**
+**By using PowerShell.** To enable SIP Gateway by using a PowerShell cmdlet, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). **(What do they do with this?)**
 
 
 ## Verify that SIP Gateway is available for your tenant
@@ -83,10 +80,14 @@ For each SIP device, you, or your users, must set one of the following SIP Gatew
 - EMEA: [http://emea.ipp.sdg.teams.microsoft.com](http://emea.ipp.sdg.teams.microsoft.com)
 - Americas: [http://noam.ipp.sdg.teams.microsoft.com](http://noam.ipp.sdg.teams.microsoft.com)
 
+Users who work from home must manually configure the provisioning server URL into their SIP device by using one of the following steps:
+
+- Open a browser window, enter the device’s IP address, and configure the provisioning server’s URL. 
+
+- Under **Settings** or **Advanced settings** on the device, set the provisioning server’s URL.
+
 > [!NOTE]
-> - Only compatible SIP devices can be onboarded to SIP Gateway. Users who work from home must manually configure the provisioning server URL above into their SIP device. To do that, they must perform either of the following steps:
->   - Open a browser window, enter the device’s IP address, and configure the provisioning server’s URL. 
->   - Under **Settings** or **Advanced settings** on the device, set the provisioning server’s URL.
+> - Only compatible SIP devices can be onboarded to SIP Gateway. 
 > - Cisco IP phones must be flashed to multiplatform firmware before they can be onboarded. Read this guide to learn how: [Cisco firmware conversion guide](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-7800-series/guide-c07-742786.html)| 
 > - Some Yealink models also require a license to migrate from Skype for Business firmware to SIP.
 
@@ -133,7 +134,7 @@ TBD
 
 ### Pair a device and sign in through a web authorization app
 
-To pair a SIP phone after the user authenticates his or her corporate credentials, the user must:
+To pair a SIP device after the user authenticates using corporate credentials, the user must:
 
 1. Press **Sign-in** on the SIP phone to display the authorization URL and pairing code [**Is this the one-time verification code that we discuss above?**]. The pairing code is time-sensitive. If it expires, the user must press **Back** on the phone and start the sign-in process again.
 
