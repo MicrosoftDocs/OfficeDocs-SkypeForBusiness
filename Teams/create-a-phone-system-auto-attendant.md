@@ -98,6 +98,9 @@ If you select **Play menu options**, you can choose to **Play an audio file** or
 
 For dialing options, assign the 0-9 keys on the telephone keypad to one of the call routing destinations. (The keys \* (Repeat) and \# (Back) are reserved by the system and can't be reassigned.)
 
+> [!NOTE]
+> The # key only backs up to the most recent auto attendant, once the boundary is crossed to a new auto attendant, the # key will not be able to take you to the previous one.
+
 Key mappings don't have to be continuous. It's possible to create a menu with keys 0, 1, and 3 mapped to options, while the number 2 key isn't used.
 
 We recommend mapping the zero key to the operator if you've configured one. If the operator isn't set to any key, the voice command "Operator" is also disabled.
