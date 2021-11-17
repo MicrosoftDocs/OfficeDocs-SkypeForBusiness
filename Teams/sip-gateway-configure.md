@@ -51,7 +51,7 @@ This article also describes how to:
 
 - [View and monitor your SIP devices.](#view-and-monitor-sip-devices)
 
-- [Enable support for a multi-language user interface.](#support-a-multi---language-user-interface)
+- [Enable support for a multi-language user interface.](#support-a-multi-language-user-interface)
 
 
 
