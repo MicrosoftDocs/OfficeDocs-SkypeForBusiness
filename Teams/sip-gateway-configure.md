@@ -78,7 +78,9 @@ There are two ways you can enable SIP Gateway for your tenant: by using the Team
 5. Turn on the setting for **SIP devices can be used for calls**, and then select **Save**.
 
 
-**By using PowerShell.** To enable SIP Gateway by using a PowerShell cmdlet, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). **(What do they do with this?)**
+**By using PowerShell.** You can also enable SIP Gateway by using the [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) cmdlet. **(What do they do with this?)**
+
+**AT A MINIMUM, WE NEED TO TELL THEM WHAT ATTRIBUTE THEY ARE SETTING IN THE CMDLET.**
 
 
 ## For each SIP device, set the SIP Gateway provisioning server URL
