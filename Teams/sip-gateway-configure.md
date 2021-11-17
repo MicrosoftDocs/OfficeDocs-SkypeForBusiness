@@ -84,8 +84,8 @@ There are two ways you can enable SIP Gateway for your tenant: by using the Team
 
 For each SIP device, you must set one of the following SIP Gateway provisioning server URLs: 
 
-- EMEA: [http://emea.ipp.sdg.teams.microsoft.com](http://emea.ipp.sdg.teams.microsoft.com)
-- Americas: [http://noam.ipp.sdg.teams.microsoft.com](http://noam.ipp.sdg.teams.microsoft.com)
+- EMEA: `http://emea.ipp.sdg.teams.microsoft.com`
+- Americas: `http://noam.ipp.sdg.teams.microsoft.com`
 
 **WHAT ARE THE ADMIN INSTRUCTIONS?**
 
