@@ -102,13 +102,10 @@ You'll also need to know your Blue Yonder service account name and password and 
 
     Select **Done** to exit the wizard.
 
-1. You’re on your way but you’re not done yet! Next, check out the [What to do after running the wizard](#what-to-do-after-running-the-wizard) section of this article.
+1. You’re on your way but you’re not done yet! Check your email. You'll receive a confirmation that we received your request along with a link to how you can check setup status.
 
-## What to do after running the wizard
-
-After you run the wizard, check your email. You'll receive a confirmation that we received your request along with a link to how you can check the connection setup status.
-
-If an error occurred, you'll get notified in a separate email. Follow the instructions in the email to troubleshoot the issue.
+> [!NOTE]
+> If an issue occurs in a connection after it's successfully set up, you'll get notified in email. Follow the instructions in the email to troubleshoot the issue.
 
 ## If you need to make changes to a connection
 
