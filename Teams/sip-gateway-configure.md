@@ -41,7 +41,7 @@ The following sections describe the tasks you must perform as an administrator t
 
 2. [Verify that SIP Gateway is available for your tenant](#verify-that-sip-gateway-is-available-for-your-tenant).
 
-3. Ensure your users know how to [configure the SIP Gateway provisioning server for each SIP device](#configure-sip-gateway-provisioning-server-for-each-sip-device).
+3. Ensure your users know how to [configure the SIP Gateway provisioning server for each SIP device](#for-each-sip-device,-set-the-sip-gateway-provisioning-server-url).
 
 4. [Enroll SIP devices](#enroll-sip-devices).
 
