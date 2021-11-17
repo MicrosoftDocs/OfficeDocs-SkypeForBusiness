@@ -77,10 +77,13 @@ The Admin account isn't required for proper operation of Teams Rooms devices and
 
 You can also import domain accounts into the local Windows Administrator group. You can do this for Azure AD accounts by using Intune. For more information, see [Policy CSP – RestrictedGroups.](/windows/client-management/mdm/policy-csp-restrictedgroups).
 
+> [!NOTE]
+> If you are using Crestron consoles, be sure to also update the Admin password on the console as well as on the compute module. For more information, please contact Crestron.
+
 > [!CAUTION]
 > If you delete or disable the Admin account before granting local Administrator permissions to another local or domain account, you may lose the ability to administer the Teams Rooms device. If this happens, you'll need to reset the device back to its original settings and complete the setup process again.
->
-> Don't grant local Administrator permissions to the Skype user account.
+
+Don't grant local Administrator permissions to the Skype user account.
 
 Windows Configuration Designer can be used to create Windows 10 provisioning packages. Along with changing the local Admin password, you can also do things like changing the machine name and enrolling into Azure Active Directory. For more information on creating a Windows Configuration Designer provisioning package, see [Provisioning packages for Windows 10](/windows/configuration/provisioning-packages/provisioning-packages).
 
