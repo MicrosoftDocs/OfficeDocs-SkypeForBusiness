@@ -25,17 +25,32 @@ appliesto:
 
 # Configure SIP Gateway
 
-This article explains how to configure SIP Gateway so that your organization can use compatible SIP phones with Microsoft Teams. Be sure to read [Plan for SIP Gateway](sip-gateway-plan.md) first.
+This article explains how to configure SIP Gateway so that your organization can use compatible SIP devices with Microsoft Teams. Be sure to read [Plan for SIP Gateway](sip-gateway-plan.md) first.
+
+To configure SIP Gateway, you must ensure the following requirements are met:
+
+- **Devices are reset to factory default settings.** You or your users will need to ensure that each SIP device used with SIP Gateway is reset to factory default settings. For information on how to reset devices, see the manufacturer’s instructions.
+
+- **Port requirements are met.** You must ensure that the firewall on your network opens traffic to Microsoft 365 and Teams as specified in [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges). 
+
+  You must also open UDP ports in the range 49152 to 53247 and TCP port 5061 for IP range 52.112.0.0/14 to 52.120.0.0/14.
+
+The following sections describe the tasks you must perform as an administrator to configure SIP Gateway.
+
+1. [Enable SIP Gateway for your tenant](#enable-sip-gateway-for-your-tenant).
+
+2. [Verify that SIP Gateway is available for your tenant](verify-that-sip-gateway-is-available-for-your-tenant).
+
+3. Ensure your users know how to [configure the SIP Gateway provisioning server for each SIP device](#configure-sip-gateway-provisioning-server-for-each-sip-device).
+
+4. [Enroll SIP devices](#enroll-sip-devices).
+
 
 ## Enable SIP Gateway for your tenant
 
-There are two ways you can enable SIP Gateway for your tenant: by using a PowerShell cmdlet, or in the Teams admin center.
+There are two ways you can enable SIP Gateway for your tenant: by using the Teams admin center or by using the Set-CsTeamsCallingPolicy PowerShell cmdlet.
 
-### Enable SIP Gateway by using a PowerShell cmdlet
-
-To enable SIP Gateway by using a PowerShell cmdlet, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). **(What do they do with this?)**
-
-### Enable SIP Gateway in the Teams admin center
+### Enable SIP Gateway by using the Teams admin center
 
 To enable SIP Gateway in the Teams admin center, follow these steps:
 
@@ -49,39 +64,9 @@ To enable SIP Gateway in the Teams admin center, follow these steps:
 
 5. Turn on the setting for **SIP devices can be used for calls**, and then select **Save**.
 
-## Support a multi-language user interface
+### Enable SIP Gateway by using the Set-CsTeamsCallingPolicy cmdlet
 
-The IP phone user interface can display information in many languages. The language setting affects the phones interface, including softkeys and sign-in/sign-out system messages.
-
-### Set the UI language
-
-Setting the language is done in the provisioning server, using DHCP server, or manually by appending a code string in the URL as in the following examples.
-
-How to set German for Polycom, AudioCodes, and Yealink phones:
-- http://emea.ipp.sdg.teams.microsoft.com/lang_de
-
-How to set Japanese for Cisco phones:
-- http://emea.ipp.sdg.teams.microsoft.com/lang_ja/$PSN.xml 
-
-#### Supported languages
-
-|Language name|Language code]
-|-------------|-------------|
-|English (default)|en       |
-|Spanish      |es           |
-|Japanese     |ja           |
-|German       |de           |
-|French       |fr           |
-|Portuguese   |pt           |
-
-> [!Note]
-> - Japanese is not supported by Yealink and partially supported by Polycom VVX.
-> - The system defaults to English if the selected language is not supported by the SIP endpoint.
-> - When the **lang_xx** parameter is not set via the provisioning URL, English is used as the default language.
-> - If **Sign in to make an emergency call** text is not translated to other languages, an abbreviated version in English only will be presented on **Press Sign In** on the following IP phone models due to a screensize limitations:
->   - Poly VVX 150, VVX 201
->   - Cisco CP-6821, CP-7811, CP-7821, CP-7841, CP-7861
->   - Voice mail softkey label is hardcoded with **VM** text across all languages for Poly VVX because of a limitation of string length.
+To enable SIP Gateway by using a PowerShell cmdlet, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). **(What do they do with this?)**
 
 
 ## Verify that SIP Gateway is available for your tenant
@@ -90,13 +75,11 @@ How to set Japanese for Cisco phones:
 
 2. At the left, select **Teams devices** and see if the **SIP devices** tab is visible. If it is, the SIP Gateway service is enabled for your tenant.
 
-## Reset each SIP phone to factory defaults
 
-Each SIP device used with SIP Gateway must be reset to its factory default settings. Users should see the device manufacturer’s instructions to find out how.
+## For each SIP device, set the SIP Gateway provisioning server URL
 
-## Configure SIP Gateway provisioning server for each SIP device
+For each SIP device, you, or your users, must set one of the following SIP Gateway provisioning server URLs: 
 
-For each SIP device, configure the following SIP Gateway provisioning server URL: 
 - EMEA: [http://emea.ipp.sdg.teams.microsoft.com](http://emea.ipp.sdg.teams.microsoft.com)
 - Americas: [http://noam.ipp.sdg.teams.microsoft.com](http://noam.ipp.sdg.teams.microsoft.com)
 
@@ -107,9 +90,6 @@ For each SIP device, configure the following SIP Gateway provisioning server URL
 > - Cisco IP phones must be flashed to multiplatform firmware before they can be onboarded. Read this guide to learn how: [Cisco firmware conversion guide](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-7800-series/guide-c07-742786.html)| 
 > - Some Yealink models also require a license to migrate from Skype for Business firmware to SIP.
 
-## Port requirements
-
-Make sure the firewall on your network opens traffic to Office 365 and Teams as specified in [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges). Also open UDP ports in the range 49152 to 53247 and TCP port 5061 for IP range 52.112.0.0/14 to 52.120.0.0/14.
 
 ## Enroll SIP devices
 
@@ -143,11 +123,15 @@ Under **Waiting on activation** in the steps above, an administrator can select 
 > [!NOTE]
 > A SIP device must be onboarded before it can be enrolled.
 
-## Remote sign-in
+## How to sign in and sign out
 
-**TBD**
+Only manual sign-in and sign-out are supported.
 
-## Pair a device and sign in through a web authorization app
+### Rmote sign in
+
+TBD
+
+### Pair a device and sign in through a web authorization app
 
 To pair a SIP phone after the user authenticates his or her corporate credentials, the user must:
 
@@ -160,11 +144,11 @@ To pair a SIP phone after the user authenticates his or her corporate credential
 > [!NOTE]
 > The location of the device shown on the Azure Active Directory web authorization app is the SIP Gateway datacenter to which the device is connected. SIP phones in scope are not OAuth-capable, so SIP Gateway authenticates the user through the web authorization app and then pairs the device with the user’s credentials. Learn more here: [Microsoft identity platform and the OAuth 2.0 device authorization grant flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-device-code).
 
-## Sign out
+### Sign out
 
 To sign out, a user can:
 
-- Press **Sign-Out** on the SIP phone and follow the steps described on the SIP phone. Only manual sign-in and sign-out are supported.
+- Press **Sign-Out** on the SIP phone and follow the steps described on the SIP phone. 
 
 To sign out a device remotely on the Teams admin center, an administrator can:
 
@@ -173,6 +157,64 @@ To sign out a device remotely on the Teams admin center, an administrator can:
 2. Select **Teams devices** > **SIP devices**.
 
 3. At the right, select the device, and then select **Sign out**. **(Is that right? I can't see it in the UI because I don't have any devices on my test page.)**
+
+
+
+## View and monitor SIP devices
+
+You can view and monitor your SIP device inventory in the Teams admin center after the devices' users sign in at least once. Here's how:
+
+1. Log in to the [Teams admin center](https://admin-teams.microsoft.net/).
+
+2. Select **Teams devices** > **SIP devices**. All signed-in SIP devices are listed on the right.
+
+## Restart a SIP device
+
+1. Log in to the [Teams admin center](https://admin-teams.microsoft.net/).
+
+2. Select **Teams devices** > **SIP devices**. 
+
+3. On the right, select the SIP device that you want to restart, and then select **Restart**.
+
+## Sync policy changes to SIP devices to enforce policies
+
+User details and policies will be fetched to SIP devices when users sign in. Any policy changes thereafter for signed-in users will be synced to the device within one hour. Sync will be triggered with registration refresh. [What does this mean?]
+
+
+## Support a multi-language user interface
+
+The IP phone user interface can display information in many languages. The language setting affects the phones interface, including softkeys and sign-in/sign-out system messages.
+
+### Set the UI language
+
+Setting the language is done in the provisioning server, using DHCP server, or manually by appending a code string in the URL as in the following examples.
+
+How to set German for Polycom, AudioCodes, and Yealink phones:
+- http://emea.ipp.sdg.teams.microsoft.com/lang_de
+
+How to set Japanese for Cisco phones:
+- http://emea.ipp.sdg.teams.microsoft.com/lang_ja/$PSN.xml 
+
+### Supported languages
+
+|Language name|Language code]
+|-------------|-------------|
+|English (default)|en       |
+|Spanish      |es           |
+|Japanese     |ja           |
+|German       |de           |
+|French       |fr           |
+|Portuguese   |pt           |
+
+> [!Note]
+> - Japanese is not supported by Yealink and partially supported by Polycom VVX.
+> - The system defaults to English if the selected language is not supported by the SIP endpoint.
+> - When the **lang_xx** parameter is not set via the provisioning URL, English is used as the default language.
+> - If **Sign in to make an emergency call** text is not translated to other languages, an abbreviated version in English only will be presented on **Press Sign In** on the following IP phone models due to a screensize limitations:
+>   - Poly VVX 150, VVX 201
+>   - Cisco CP-6821, CP-7811, CP-7821, CP-7841, CP-7861
+>   - Voice mail softkey label is hardcoded with **VM** text across all languages for Poly VVX because of a limitation of string length.
+
 
 ## Other considerations
 
@@ -188,28 +230,9 @@ SIP Gateway authenticates SIP Phones with Azure Active Directory, so if your ten
     - APAC cluster 1: <IP address>
     - APAC cluster 2: <IP address>
 
-For more information, see [IP address ranges](https://docs.microsoft.com/en-in/azure/active-directory/conditional-access/location-condition#ip-address-ranges)
+For more information, see [IP address ranges](https://docs.microsoft.com/en-in/azure/active-directory/conditional-access/location-condition#ip-address-ranges).
 
-## View and monitor your SIP devices
-
-Teams administrators can view and monitor their SIP device inventory in the Teams admin center after the devices' users sign in at least once. Here's how:
-
-1. Log in to the [Teams admin center](https://admin-teams.microsoft.net/).
-
-2. Select **Teams devices** > **SIP devices**. All signed-in SIP devices are listed on the right.
-
-## Sync policy changes to SIP devices to enforce policies
-
-User details and policies will be fetched to SIP devices when users sign in. Any policy changes thereafter for signed-in users will be synced to the device within one hour. Sync will be triggered with registration refresh. [What does this mean?]
-
-## Restart a SIP device
-
-1. Log in to the [Teams admin center](https://admin-teams.microsoft.net/).
-
-2. Select **Teams devices** > **SIP devices**. 
-
-3. On the right, select the SIP device that you want to restart, and then select **Restart**.
 
 ## Report problems to Microsoft
 
-- To report problems, contact [Microsoft Support](https://support.microsoft.com).
+To report problems, contact [Microsoft Support](https://support.microsoft.com).
