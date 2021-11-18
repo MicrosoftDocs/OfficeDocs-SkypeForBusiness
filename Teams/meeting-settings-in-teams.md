@@ -28,17 +28,17 @@ description: Learn how to manage settings for Teams meetings that users schedule
 
 As an admin, you use Teams meetings settings to control whether anonymous users can join Teams meetings, customize meeting invitations, and if you want to enable Quality of Service (QoS), set port ranges for real-time traffic. These settings apply to all Teams meetings that users schedule in your organization. You manage these settings from **Meetings** > **Meeting settings** in the Microsoft Teams admin center.
 
-As of November 2021, a Teams admin can also control whether specific users or groups of users can let anonymous users join the meetings they organize. This per-organizer policy is more restrictive than and overrides the tenant-wide anonymous user settings below that admins manage in the Teams admin center.
+As of November 2021, admins can also control whether specific users or groups of users can let anonymous users join the meetings they organize. This per-organizer policy is more restrictive than and overrides the organization-wide anonymous user settings below that admins manage in the Teams admin center.
 
 ## Allow anonymous users to join meetings
 
 With anonymous join, anyone can join the meeting as an anonymous user by clicking the link in the meeting invitation. To learn more, see [Join a meeting without a Teams account](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508).
 
- **Using the Microsoft Teams admin center**
+ ### Using the Microsoft Teams admin center
 
-You must be a Teams service admin to make these changes. See [Use Teams administrator roles to manage Teams](./using-admin-roles.md) to read about getting admin roles and permissions.
+You must be a Teams admin to make these changes. See [Use Teams administrator roles to manage Teams](./using-admin-roles.md) to read about getting admin roles and permissions.
 
-1. Go to the admin center.
+1. Go to the [Teams admin center](https://admin.teams.microsoft.net).
 
 2. In the left navigation, go to **Meetings** > **Meeting settings**.
 
@@ -48,6 +48,19 @@ You must be a Teams service admin to make these changes. See [Use Teams administ
 
 > [!CAUTION]
 > If you don't want anonymous users to join meetings scheduled by users in your organization, turn off this setting.
+
+### Using the anonymous join policy
+
+Admins can now control whether specific users or groups of users can let anonymous users join the meetings they organize. This new per-organizer policy is controlled by using the **-AllowAnonymousUsersToJoinMeeting** parameter in [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps). This comes with Teams PowerShell version 2.6.0 and later.
+
+You can use either policy ([organization-wide](https://docs.microsoft.com/en-us/microsoftteams/meeting-settings-in-teams#allow-anonymous-users-to-join-meetings) or per-organizer) to manage anonymous join. We recommend that you implement the per-organizer policy. The [organization-wide](https://docs.microsoft.com/en-us/microsoftteams/meeting-settings-in-teams#allow-anonymous-users-to-join-meetings) policy setting will be deprecated in the future and the per-organizer policy will be the only way to control anonymous join.
+
+During the initial phase of this policy change, the experience for users depends on both the value of **-DisableAnonymousJoin** (the [organization-wide](https://docs.microsoft.com/en-us/microsoftteams/meeting-settings-in-teams#allow-anonymous-users-to-join-meetings) setting) and **-AllowAnonymousUsersToJoinMeeting** (the new per-organizer policy). The most restrictive of the two settings becomes the user experience, so the only way to let anonymous users join a meeting is to configure both parameters to allow anonymous join.
+
+> [!NOTE]
+> Setting the [organization-wide](https://docs.microsoft.com/en-us/microsoftteams/meeting-settings-in-teams#allow-anonymous-users-to-join-meetings) setting **-DisableAnonymousJoin** to **True** *disables* anonymous join. Setting the new policy **-AllowAnonymousUsersToJoinMeeting** to **True** *enables* anonymous join.
+
+To use the new per-organizer policy for organizations with anonymous join disabled [organization-wide](https://docs.microsoft.com/en-us/microsoftteams/meeting-settings-in-teams#allow-anonymous-users-to-join-meetings), admins need to create a new policy, assign it to users, and then change **-DisableAnonymousJoin** to **False**. To learn how to create a new policy and assign it to users, see [Manage meeting policies in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/meeting-policies-overview).
 
 ## Allow anonymous users to interact with apps in meetings
 

@@ -38,18 +38,6 @@ These settings control which meeting participants wait in the lobby before they 
 > [!NOTE]
 >Options to join a meeting will vary, depending on the settings for each Teams group, and the connection method. If your group has audio conferencing, and uses it to connect, see [Audio Conferencing](/microsoftteams/audio-conferencing-in-office-365). If your Teams group doesn't have audio conferencing, refer to [Join a meeting in Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
 
-## Anonymous join policy
-
-A Teams administrator can now control whether specific users or groups of users can let anonymous users join the meetings they organize. This new per-organizer policy is controlled by using the **-AllowAnonymousUsersToJoinMeeting** parameter in [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps). This comes with Teams PowerShell version 2.6.0 and later.
-
-You can use either policy ([tenant-wide](https://docs.microsoft.com/en-us/microsoftteams/meeting-settings-in-teams#allow-anonymous-users-to-join-meetings) or per-organizer) to manage anonymous join. We recommend that you implement the per-organizer policy. The [tenant-wide](https://docs.microsoft.com/en-us/microsoftteams/meeting-settings-in-teams#allow-anonymous-users-to-join-meetings) policy setting will be deprecated in the future and the new per-organizer policy will be the only way to control anonymous join.
-
-During the initial phase of this policy change, the experience for users depends on both the value of **-DisableAnonymousJoin** (the [tenant-wide](https://docs.microsoft.com/en-us/microsoftteams/meeting-settings-in-teams#allow-anonymous-users-to-join-meetings) setting) and **-AllowAnonymousUsersToJoinMeeting** (the new per-organizer policy). The most restrictive of the two settings becomes the user experience, so the only way to let anonymous users join a meeting is to configure both parameters to allow anonymous join.
-
-> [!NOTE]
-> Setting the [tenant-wide](https://docs.microsoft.com/en-us/microsoftteams/meeting-settings-in-teams#allow-anonymous-users-to-join-meetings) setting **-DisableAnonymousJoin** to **True** *disables* anonymous join. Setting the new policy **-AllowAnonymousUsersToJoinMeeting** to **True** *enables* anonymous join.
-
-To use the new per-organizer policy for tenants with anonymous join disabled [tenant-wide](https://docs.microsoft.com/en-us/microsoftteams/meeting-settings-in-teams#allow-anonymous-users-to-join-meetings), admins need to create a new policy, assign it to users, and then change **-DisableAnonymousJoin** to **False**. To learn how to create a new policy and assign it to users, see [Manage meeting policies in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/meeting-policies-overview).
 
 ## Let anonymous people start a meeting
 
