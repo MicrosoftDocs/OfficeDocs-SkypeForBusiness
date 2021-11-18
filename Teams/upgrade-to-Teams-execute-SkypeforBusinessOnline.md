@@ -58,7 +58,7 @@ Follow these steps to upgrade all of your users to Teams at one time.
 
 ### Step 2: Set the coexistence mode to TeamsOnly for the organization
 
-1. In the Microsoft Teams admin center, select **Teams** > **Teams upgrade settings**..
+1. In the Microsoft Teams admin center, select **Teams** > **Teams upgrade settings**.
 2. Select **Teams Only** mode from the **Coexistence mode** drop-down list.
 
 ## Upgrade users in stages
