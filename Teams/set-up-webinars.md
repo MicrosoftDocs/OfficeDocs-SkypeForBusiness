@@ -38,7 +38,7 @@ After setting up webinars in your organization, your users can schedule webinars
 
 You can use the Teams admin center to set up webinars for your organization. You'll find the policies to set up webinars in the Teams admin center under **Meetings** > **Meeting policies**.
 
-### Allow meeting registration
+### Meeting registration
 
 If you turn this on, users can schedule webinars. By default, this is turned on. If you want to turn off meeting registration, set this policy to **Off**.
 
@@ -52,9 +52,9 @@ If you select **Everyone**, all users, including anonymous users, can register f
 > [!NOTE]
 > The default value for **Who can register** is **Everyone in the organization** in education tenants. For more information, see [Teams for Education Policy Wizard](easy-policy-setup-edu.md).
 
-### Allow engagement report
+### Engagement report
 
-If you turn this on, organizers can see reports of who registered and attended the webinars they set up. This policy is off by default. For more information, see [Meeting policies in Teams - Allow engagement report](meeting-policies-in-teams-general.md#allow-engagement-report). For information on the end-user experience, see [View and download meeting attendance reports](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US).
+If you turn this on, organizers can see reports of who registered and attended the webinars they set up. This policy is off by default. For more information, see [Meeting policies in Teams - Engagement report](meeting-policies-in-teams-general.md#engagement-report). For information on the end-user experience, see [View and download meeting attendance reports](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US).
 
 ## Allow users to schedule webinars using PowerShell
 
@@ -74,7 +74,7 @@ Read [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolic
 You can restrict registration to users only in your organization or open it up to everyone both inside and outside your tenant. By default, **WhoCanRegister** is enabled and set to **Everyone** for the **Global (Org-wide default)** policy. If you want to turn off meeting registration, set **AllowMeetingRegistration** to **False**.
 
 > [!IMPORTANT]
-> **AllowPrivateMeetingScheduling** must be set to **True** for **AllowMeetingRegistration** to work.
+> **PrivateMeetingScheduling** must be set to **True** for **MeetingRegistration** to work.
 
 1. Turn on meeting registration
 
