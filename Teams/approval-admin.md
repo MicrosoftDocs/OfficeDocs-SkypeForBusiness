@@ -94,10 +94,10 @@ Approval Template Permissions
 
 - All team owners can create an approval template for teams that they own.
 
-- When an admin creates a template for their entire organization for the first time, it will automatically create a new team in Teams for all admins of the tenant, including the global and Teams service admins. These admins will be added as owners of the team, so they can co-manage organizational templates. Admins that are new to the organization after the team has been created need to be manually added as team owners so they have the same permissions to manage organization-wide templates.
+- When an admin creates a template for their entire organization for the first time, it will automatically create a new Azure Active Directory (AAD) group for all admins of the tenant, including the global and Teams service admins. These admins will be added as owners of the group, so they can co-manage organizational templates. Admins that are new to the organization after the team has been created need to be manually added as group owners so they have the same permissions to manage organization-wide templates.
 
 > [!Note]
-> If an admin deletes the team, you have one month to restore it within the Azure Active Directory (AAD) portal to restore all related data. After one month, or if the admin deletes this team within the recycle bin, you will lose all the related data.
+> If an admin deletes the group, you have one month to restore it within the Azure Active Directory (AAD) portal to restore all related data. After one month, or if the admin deletes this group within the recycle bin, you will lose all related data.
 
 ## Disable the Approvals app
 
