@@ -23,7 +23,7 @@ Bring in-store associates and management together to communicate, collaborate, a
 
 Microsoft Teams enables in-store sales associates, managers, and other staff to collaborate efficiently with included collaboration features and apps. Your frontline workforce can use Teams on either personal or shared devices depending on the needs of your organization.
 
-![Infographic showing the different functions available in Teams and as Teams apps as described in the list below](../media/retail-teams-collaborate-core.png)
+![Infographic showing the core collaboration functions available in Teams and as Teams apps as described in the list below](../media/retail-teams-collaborate-core.png)
 
 | Task | Description | Manage this capability | End-user training |
 | ---- | ---- | ---- | ---- |
