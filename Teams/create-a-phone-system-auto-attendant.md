@@ -1,7 +1,7 @@
 ---
 title: "Set up an auto attendant for Microsoft Teams"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -218,13 +218,13 @@ See [Manage Teams resource accounts](manage-resource-accounts.md) for more infor
 
 Refer to the [Prerequisites](plan-auto-attendant-call-queue.md#prerequisites) in order to allow auto attendants to transfer calls externally.  In addition:
 
-- For a resource account with a [Calling Plan license](calling-plans-for-office-365.md), the external transfer phone number must be entered in E.164 format (+[country code][area code][phone number]).
+- For a resource account with a [Calling Plan license](calling-plans-for-office-365.md) or [Operator Connect](operator-connect-plan.md) number, the external transfer phone number must be entered in E.164 format (+[country code][area code][phone number]).
 
 - For a resource account with a Phone System License and Direct Routing online voice routing policy, the external transfer phone number format is dependant on the [Session Border Controller (SBC)](direct-routing-connect-the-sbc.md) settings.
 
 The outbound phone number that's displayed is determined as follows:
 
-  - For Calling Plan numbers, the original caller's phone number is displayed.
+  - For Calling Plan and Operator Connect numbers, the original caller's phone number is displayed.
   - For Direct Routing numbers, the number sent is based on the P-Asserted-Identity (PAI) setting on the SBC, as follows:
     - If set to Disabled, the original caller's phone number is displayed. This is the default and recommended setting.
     - If set to Enabled, the resource account phone number is displayed.
@@ -253,9 +253,22 @@ You can also use PowerShell to create and set up auto attendants. Here are the c
 - [Import-CsAutoAttendantHolidays](/powershell/module/skype/import-csautoattendantholidays)
 - [New-CsAutoAttendantCallableEntity](/powershell/module/skype/New-CsAutoAttendantCallableEntity)
 
+## Auto Attendant Diagnostic Tool
+
+If you're an administrator, you can use the following diagnostic tool to validate that an auto attendant is able to receive calls:
+
+1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center. 
+
+   > [!div class="nextstepaction"]
+   > [Run Tests: Teams Auto Attendant](https://aka.ms/TeamsAADiag)
+
+2. In the Run diagnostic pane, enter the Resource Account in the **Username or Email** field, and then select **Run Tests**.
+
+3. The tests will identify tenant, policy, or resource account configurations that are preventing the auto attendant from being able to receive calls and provide steps to fix any problems identified.
+
 ## Related topics
 
-[Here's what you get with Phone System](./here-s-what-you-get-with-phone-system.md)
+[Here's what you get with Teams Phone](./here-s-what-you-get-with-phone-system.md)
 
 [Getting service phone numbers](./getting-service-phone-numbers.md)
 

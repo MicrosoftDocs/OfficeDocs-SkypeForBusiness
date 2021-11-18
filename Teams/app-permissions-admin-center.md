@@ -1,7 +1,7 @@
 ---
 title: View app permissions and grant admin consent in the Microsoft Teams admin center
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 ms.reviewer: vaibhava
 manager: serdars
 ms.topic: article
@@ -54,7 +54,7 @@ To grant org-wide consent to an app, follow these steps:
 
 After you accept the permissions, you'll see a message under **Org-wide permissions** on the app details page to let you know that consent was granted. To view details about the app's permissions, click the **Azure Active Directory** link to go to the app's page in the Azure AD portal.
 
-:::image type="content" source="media/app-perm-admin-center-org-wide-accepted.png" alt-text="Screenshot of message displayed when consent granted.":::
+:::image type="content" source="media/app-perm-admin-center-org-wide-accepted-new.png" alt-text="Screenshot of message displayed when consent granted.":::
 
 If users in your organization are allowed to grant consent and if one or more users granted consent to a particular app, you'll also see the same message to let you know that consent was granted and the Azure Active Directory link to the app's page in the Azure AD portal.
 
@@ -75,7 +75,7 @@ To view RSC permissions for an app, follow these steps:
 2. Search for the app you want, click the app name to go to the app details page, and then select the **Permissions** tab.
 3. Under **Microsoft Graph resource-specific consent (RSC) permissions**, review the RSC permissions requested by the app.
 
-    :::image type="content" source="media/app-perm-admin-center-rsc.png" alt-text="Screenshot of RSC permissions for an app.":::
+    :::image type="content" source="media/app-perm-admin-center-rsc-new.png" alt-text="Screenshot of RSC permissions for an app.":::
 
 ## Known issues
 

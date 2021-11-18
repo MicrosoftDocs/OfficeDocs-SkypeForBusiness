@@ -55,16 +55,16 @@ The following list shows the Android device firmware requirements.
 Complete the following steps to provision a new device.
 
 1. Sign in to the Teams admin center.
-2. Expand **Devices**.
+2. Expand **Teams Devices**.
 3. Select **Provision new device** from the **Actions** tab.
 
 In the **Provision new devices** window, you can either add the MAC address manually or upload a file.
 
 ### Manually add a device MAC address
 
-1. From the **Awaiting Activation** tab, select **Add MAC ID**.
+1. From the **Waiting on activation** tab, select **Add MAC ID**.
 
-   ![manually add a device mac address.](../media/remote-provision-6.png)
+   ![manually add a device mac address.](../media/remote-provision-6-new.png)
 
 1. Enter the MAC ID.
 1. Enter a location, which helps technicians identify where to install the devices.
@@ -72,7 +72,7 @@ In the **Provision new devices** window, you can either add the MAC address manu
 
 ### Upload a file to add a device MAC address
 
-1. From the **Awaiting Activation** tab, select **Upload MAC IDs**.
+1. From the **Waiting on activation** tab, select **Upload MAC IDs**.
 2. Download the file template.
 3. Enter the MAC ID and location, and then save the file.
 4. **Select file**, and then select **Upload**.
@@ -81,7 +81,7 @@ In the **Provision new devices** window, you can either add the MAC address manu
 
 You need a verification code for the devices. The verification code is generated in bulk or at the device level and is valid for 24 hours.
 
-1. From the **Awaiting Activation** tab, select an existing MAC ID.
+1. From the **Waiting on activation** tab, select an existing MAC ID.
    A password is created for the MAC address and is shown in the **Verification Code** column.
 
 2. Provide the list of MAC IDs and verification codes to the field technicians. You can export the detail directly in a file and share the file with the technician who is doing the actual installation work.
@@ -104,9 +104,9 @@ When the device is powered on and connected to the network, the technician provi
 
 ## First time remote sign in
 
-The provisioned device appears in the **Awaiting sign in** tab. Start the remote sign-in process by selecting the individual device.
+The provisioned device appears in the **Waiting for sign in** tab. Start the remote sign-in process by selecting the individual device.
 
-1. Select a device from the **Awaiting sign in** tab.
+1. Select a device from the **Waiting for sign in** tab.
 
    ![The window with a list of devices ready for sign in.](../media/remote-device1.png)
 

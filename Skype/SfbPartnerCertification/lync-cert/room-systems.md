@@ -1,6 +1,6 @@
 ---
 title: "Lync Room Systems"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -31,7 +31,7 @@ Lync Room Systems are designed to extend the Lync meeting experience to the conf
 
 ***Table - Qualified Lync Room Systems***
 
-<table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" width="100%" xmlns="http://www.w3.org/1999/xhtml">
+<table border="1" cellpadding="5" cellspacing="" class="grid"  width="100%">
 	<colgroup>
 		<col />
 		<col />
@@ -75,7 +75,7 @@ Lync Room Systems are designed to extend the Lync meeting experience to the conf
 		</tr>
 		<tr align="left" valign="top">
 			<td rowspan="2">Polycom</td>
-			<td rowspan="2"><a href="https://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx8000.html" onclick="window.open(this.href);return false;" onkeypress="window.open(this.href);return false;" title="Polycom CX8000">Polycom CX8000</a></td>
+			<td rowspan="2"><a href="https://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx8000.html" title="Polycom CX8000">Polycom CX8000</a></td>
 			<td>CX8000 Front of Room Single or Dual Display</td>
 			<td>September 2013</td>
 			<td>Crestron RL2 console<br />Front of room camera - Logitech C930e webcam<br />Crestron Speaker<br />Crestron 10 inch Touch Screen<br />Display options include:<br />Sharp 80 inch Interactive LED display (PN-L802B), LG 55 inch multi-touch display (55WT30MS-B)</td>
@@ -91,7 +91,7 @@ Lync Room Systems are designed to extend the Lync meeting experience to the conf
 		</tr>
 		<tr align="left" valign="top">
 			<td>SMART Technologies</td>
-			<td><a href="http://smarttech.com/us/Solutions/Business+Solutions/Solutions+for+Microsoft+Lync" onclick="window.open(this.href);return false;" onkeypress="window.open(this.href);return false;" title="SMART Room System">SMART Room System</a></td>
+			<td><a href="https://www.unifiedcommunications.com/p-4863-smart-technologies-srs-lync-m-smart-room-system-for-microsoft-lync.aspx" title="SMART Room System">SMART Room System</a></td>
 			<td>SMART Room System for Large  (SRS-Lync-L), or Small  (SRS-Lync-S) Meeting Rooms</td>
 			<td>August 2013</td>
 			<td>SMART CP311 Console<br /> SMART AM70-L Lync appliance<br /> SMART CAM301 Camera<br /> SMART MIC500 Table Microphone<br /> SMART CSR500 Speakers<br /> SMART WM-SBID-501 Wall Mount<br /> SMART WSK-SINGLE Wall Stand<br /> SMART Board 8070i interactive flat panel - Large 70 inch Dual Display or Small 70 inch Single Display</td>

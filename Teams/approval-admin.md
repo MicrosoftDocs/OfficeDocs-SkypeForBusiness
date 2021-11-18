@@ -1,7 +1,7 @@
 ---
 title: Approvals application availability in Teams
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 ms.reviewer: farhazk
 manager: serdars
 ms.topic: article
@@ -48,7 +48,7 @@ To deploy the Approvals app, you need permission for the following items:
 
 - Administrator Role in the target environment.
 
-- License for a [Power Automate](/power-automate/get-started-approvals), an Office 365, or a Dynamics 365.
+- License for [Power Automate](/power-automate/get-started-approvals), Office 365, or Dynamics 365.
 
 - License for Microsoft Forms is required for users to set up new approval templates.
 
@@ -94,10 +94,10 @@ Approval Template Permissions
 
 - All team owners can create an approval template for teams that they own.
 
-- When an Admin creates a template for their entire organization for the first time, it will automatically create a new Teams team for all admins of the tenant, including the global and Team’s service admins. These admins will be added as owners of the team, so they can co-manage organizational templates. Admins that are new to the organization after the team has been created need to be manually added as team owners so they have the same permissions to manage organization-wide templates.
+- When an Admin creates a template for their entire organization for the first time, it will automatically create a new Azure Active Directory(AAD) group for all admins of the tenant, including the global and Team’s service admins. These admins will be added as owners of the group, so they can co-manage organizational templates. Admins that are new to the organization after the team has been created need to be manually added as group owners so they have the same permissions to manage organization-wide templates.
 
 > [!Note]
-> If an admin deletes the team, you have one month to restore it within the Azure Active Directory (AAD) portal to restore all related data. After one month, or if the admin deletes this team within the recycle bin, you will lose all the related data.
+> If an admin deletes the group, you have one month to restore it within the Azure Active Directory (AAD) portal to restore all related data. After one month, or if the admin deletes this group within the recycle bin, you will lose all related data.
 
 ## Disable the Approvals app
 
@@ -115,7 +115,7 @@ The Approvals app is available by default. You can disable the app in the Teams 
 
   5. Select the toggle to disable the app for your organization.
 
-     ![shows the details for the Approvals app.](media/approvals-details.png)
+     ![shows the details for the Approvals app.](media/approvals-details-new.png)
 
 ## Retention policy
 

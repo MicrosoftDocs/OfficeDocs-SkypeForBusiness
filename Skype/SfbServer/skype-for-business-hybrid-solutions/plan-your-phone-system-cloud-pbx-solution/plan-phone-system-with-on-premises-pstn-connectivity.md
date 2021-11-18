@@ -101,7 +101,7 @@ In addition you must ensure the following:
 
     If you are using Lync Server 2013, see [Planning for Enterprise Voice in Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-enterprise-voice) and [Deploying Enterprise Voice in Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-enterprise-voice).
 
-- **Active Directory synchronization** You must configure Active Directory synchronization using Azure AD Connect. For more information, see [Managing Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-whats-next/).
+- **Active Directory synchronization** You must configure Active Directory synchronization using Azure AD Connect. For more information, see [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-install-custom).
 
     > [!NOTE]
     > The version of AAD Connect you use must be version 1.0.9125.0 or later. If you are using an earlier version of AAD Connect tools or DirSync, please upgrade to the supported version. You can upgrade your current installation and maintain any custom rules you have defined in your environment. 

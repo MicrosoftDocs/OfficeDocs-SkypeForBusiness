@@ -1,7 +1,7 @@
 ---
 title: "Country/region availability - Audio Conferencing, Calling Plans"
-ms.author: crowe
-author: CarolynRowe
+ms.author: czawideh
+author: czawideh
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
 ms.topic: reference
@@ -151,7 +151,7 @@ You can select a country or region to see what cloud voice features are availabl
 > - [Venezuela](availability-in-venezuela.md)
 > - [Vietnam](availability-in-vietnam.md)
 
-**If you're looking for a spreadsheet with all countries and regions, download and save the [Cloud voice feature country/region availability spreadsheet](https://download.microsoft.com/download/d/b/6/db6992c5-ec9a-4b02-8742-59df17dd90a7/country-and-region-availability-(v-06162021)-(en-us).xlsx)**.
+**If you're looking for a spreadsheet with all countries and regions, download and save the [Cloud voice feature country/region availability spreadsheet](https://download.microsoft.com/download/d/b/6/db6992c5-ec9a-4b02-8742-59df17dd90a7/country-and-region-availability-(v-19OCT2021)-(en-us).xlsx)**.
 
 ***
 
@@ -191,7 +191,7 @@ With Phone System, you create auto attendants and call queues (with a toll or to
 
 The availability of toll phone numbers from some of these locations might vary at any given time depending on inventory levels. In addition to getting phone numbers for individual users, it's also possible to search and acquire toll or toll free phone numbers for services such as Audio Conferencing (for conference bridges), auto attendants and call queues. These are called service numbers. See [Getting service phone numbers](../getting-service-phone-numbers.md) to get phone numbers. But for your users, after you assign a Calling Plan to them, you can assign a user phone number so they can make and receive phone calls. To find those phone numbers, go to [Getting phone numbers for your users](../getting-phone-numbers-for-your-users.md). You can also see [Assign, change, or remove a phone number for a user](../assign-change-or-remove-a-phone-number-for-a-user.md).
 
-[Pricing for Phone System](https://products.office.com/skype-for-business/phone-system#Requirements)
+[Pricing for Phone System](https://www.microsoft.com/microsoft-teams/voice-calling?#office-StandaloneSKU-pkdogb9)
 
 > [!NOTE]
 > The availability of toll phone numbers from some of these locations might vary at any given time depending on inventory levels.
