@@ -86,7 +86,7 @@ After you've created your resource account, you need to assign a *Microsoft 365 
 1. In the left navigation pane, go to <a href="https://admin.teams.microsoft.com/company-wide-settings/resource-accounts" target="_blank">**Voice** > **Resource accounts**</a>.
 1. Select the resource account you just created, and then click **Assign/unassign**.
 1. In the **Phone number type** dropdown, choose **Online**.
-1. In the **Assigned phone number** box, search for the number you want to use and click **Add**. Be sure to include the country code (for example, **+1** 250 555 0012)
+1. In the **Assigned phone number** box, search for the number you want to use and click **Add**. Be sure to include the country code (for example, **+1** 250 555 0012).
 1. Click **Save**.
 
 > [!div class="nextstepaction"]
