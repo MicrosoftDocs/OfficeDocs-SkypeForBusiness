@@ -23,29 +23,34 @@ appliesto:
 
 The Shifts connector wizard in the Microsoft 365 admin center makes it easy to integrate the Shifts app in Microsoft Teams with your workforce management (WFM) system. After the connection is set up, your frontline workers can seamlessly view and manage their schedules in your WFM system from within Shifts.
 
-The wizard configures the Shifts connector, creates a connection to your WFM system, and applies the sync settings and team mappings that you choose. Sync settings determine the features that are enabled in Shifts and schedule information that's synced between your WFM system and Shifts. Team mappings define the relationship between your WFM sites and teams in Teams. You can map to existing teams and new teams, which you can create in the wizard.
+The wizard configures the [Shifts connector](shifts-connectors.md), creates a connection to your WFM system, and applies the sync settings and team mappings that you choose. Sync settings determine the features that are enabled in Shifts and schedule information that's synced between your WFM system and Shifts. Team mappings define the relationship between your WFM sites and teams in Teams. You can map to existing teams and new teams, which you can create in the wizard.
 
 You can set up multiple connections, each with different sync settings. For example, if your organization has multiple locations with different schedule requirements, create a connection with unique sync settings for each location. Keep in mind that a WFM site can only be mapped to one team at any given time. If a WFM site is already mapped to a team, it can't be mapped to another team.
 
-With your WFM system as the system of record, your frontline workers can see and swap shifts, manage their availability, and request time off in Shifts on their devices. Frontline managers can use your WFM system or Shifts to set up schedules.
+With your WFM system as the system of record, your frontline workers can see and swap shifts, manage their availability, and request time off in Shifts on their devices. Frontline managers can continue to use your WFM system or use Shifts to set up schedules.
 
 > [!NOTE]
 > We currently support [Blue Yonder](https://blueyonder.com/solutions/workforce-management). We’re working with our partners to support additional WFM systems.
 
-In this article, we walk you through how to run the wizard to create a Shifts to Blue Yonder connection.
+In this article, we walk you through how to run the wizard to set up a Shift to Blue Yonder connection.
 
 > [!NOTE]
 > You can also use PowerShell integrate Shifts with your WFM system. To learn more, see [Use PowerShell to connect Shifts to your Blue Yonder workforce management system](shifts-connector-blue-yonder-powershell-setup.md).
 
 ## Before you begin
 
-You must be a Microsoft 365 global admin or Shifts connector admin to run the wizard. Before you get started, make sure you meet the following prerequisites:
+You must be a Microsoft 365 global admin or Shifts connector admin to run the wizard. Before you get started, make sure you have the following prerequisites:
 
-- Blue Yonder version 2020.3 or 2021
-- At least one team set up in Teams
-- If a team has an existing schedule, you'll have to remove the schedule from the team before you can map it. Otherwise, you'll see duplicate schedules.  
+- You have Blue Yonder version 2020.3 or 2021.
+- Federated SSO authentication is set up in Blue Yonder.
+- At least one team is set up in Teams.
+- The teams you want to map don't have any existing schedules. If a team has an existing schedule, [remove the schedule from the team](#remove-schedules-from-teams-you-want-to-map) before you map a Blue Yonder site to it. Otherwise, you'll see duplicate schedules.
 
-You'll also need to know your Blue Yonder service account name and password and service URLs. If you don’t have this information, contact your Blue Yonder delivery partner or technical account manager.
+You also need to know your Blue Yonder service account name and password and service URLs. If you don’t have this information, contact your Blue Yonder delivery partner or technical account manager.
+
+## Prepare to run the wizard
+
+### Remove schedules from teams you want to map
 
 ## Run the wizard
 
@@ -98,19 +103,20 @@ You'll also need to know your Blue Yonder service account name and password and 
  When you're ready, select **Finish**.
 1. You’ll see a message to confirm that we received your request along with an operation ID. Make a note of the operation ID for future reference.
 
-    The wizard sets up and creates the connection and maps the sites to the teams you selected. This process may take some time to complete. The recipients you chose will receive email notifications about connection setup status.
+    The wizard sets up and creates the connection and maps the sites to the teams you selected. This process may take some time to complete. The recipients you chose will receive email notifications about setup status.
 
     Select **Done** to exit the wizard.
 
 1. You’re on your way but you’re not done yet! Check your email. You'll receive a confirmation that we received your request along with a link to how you can check setup status.
 
 > [!NOTE]
-> If an issue occurs in a connection after it's successfully set up, you'll get notified in email. Follow the instructions in the email to troubleshoot the issue.
+> If an issue or error occurs in a connection after it's set up, you'll get notified in email. Follow the instructions in the email to troubleshoot the issue.
 
 ## If you need to make changes to a connection
 
-If you need to make changes to a connection after it's successfully set up, see [Link to PowerShell article](). You can use PowerShell to update connection settings and disable a connection.
+You can use PowerShell to make changes to a connection after it's set up. For example, you can update sync settings, team mappings, or disable a connection. For step-by-step guidance, see [Link to PowerShell article]().
 
 ## Related articles
 
+- [Shifts connectors](shifts-connectors.md)
 - [Manage the Shifts app in Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
