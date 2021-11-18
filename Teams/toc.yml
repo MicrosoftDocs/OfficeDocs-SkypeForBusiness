@@ -777,11 +777,9 @@ items:
           href: teams-meeting-room-guidance.md
         - name: Microsoft Teams Rooms managed service
           items:
-            - name: Overview
-              href: rooms/rooms-managed-services-rbac.md
             - name: Installation
               href: rooms/monitoring-software-installation-guide.md
-            - name: Plan management
+            - name: Overview
               href: rooms/microsoft-teams-rooms-premium.md
             - name: Role-based access control
               href: rooms/microsoft-teams-rooms-premium-rbac.md
@@ -863,6 +861,8 @@ items:
               href: rooms/rooms-manage.md
             - name: Maintenance and operations
               href: rooms/rooms-operations.md
+            - name: Managed updates
+              href: rooms/update-management0.md
             - name: Known issues
               href: rooms/known-issues.md
             - name: Devices with Azure Monitor
@@ -871,7 +871,8 @@ items:
               href: rooms/xml-config-file.md
             - name: Use the recovery tool
               href: rooms/recovery-tool.md
-
+        - name: Reference
+          href: rooms/update-management-reference.md
 - name: Voice - Phone System and PSTN connectivity
   items: 
     - name: Plan your Teams voice solution
