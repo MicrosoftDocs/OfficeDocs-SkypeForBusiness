@@ -38,17 +38,9 @@ If you deployed Active Directory Federation Services (AD FS), you may have to co
   
 ### Create an account and set Exchange properties
 
-1. Start a remote Windows PowerShell session on a PC and connect to Exchange Online as follows:
+1. [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell)
 
-    ``` Powershell
-    Set-ExecutionPolicy Unrestricted
-    $org = 'contoso.microsoft.com'
-    $cred = Get-Credential $admin@$org
-    $sess = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $cred -Authentication Basic -AllowRedirection
-    Import-PSSession $sess -DisableNameChecking
-    ```
-
-2. After establishing a session, you'll either create a new mailbox and enable it as a RoomMailboxAccount, or change the settings for an existing room mailbox. This will allow the account to authenticate into Microsoft Teams Rooms.
+2. After connect, you'll either create a new mailbox and enable it as a RoomMailboxAccount, or change the settings for an existing room mailbox. This will allow the account to authenticate into Microsoft Teams Rooms.
 
    If you're changing an existing resource mailbox:
 
