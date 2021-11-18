@@ -41,6 +41,7 @@ With Blue Yonder as the system of record, your frontline workers can see and swa
 You must be a Microsoft 365 global admin or Shifts connector admin. Before you get started, make sure you have the following prerequisites:
 
 - You have Blue Yonder version 2020.3 or 2021.
+- Federated SSO authentication is enabled in your Blue Yonder environment.
 - At least one team is set up in Teams.
 
 You'll also need to know your Blue Yonder service account name and password and service URLs. If you don’t have this information, contact your Blue Yonder delivery partner or technical account manager.
@@ -88,42 +89,45 @@ You'll also need to know your Blue Yonder service account name and password and 
     Set-ExecutionPolicy bypass 
     ```
 
-## Get the team IDs of the teams you want to map
+## Identify the teams you want to map
 
 > [!NOTE]
-> Complete this step if you're mapping Blue Yonder sites to existing teams. If you're creating new teams to map to, you can skip this step. 
+> Complete this step if you're mapping Blue Yonder sites to existing teams. If you're creating new teams to map to, you can skip this step.
+
+You'll need to know the team IDs of the teams you want to map. Run the following command to retrieve a list of team IDs of teams in your organization.
+
+Take note of the team IDs you want to map. The script will prompt you to enter this information.
+
+> [!NOTE]
+> If one or more teams have an existing schedule, the script will remove the schedules from those teams. Otherwise, you'll see duplicate schedules in the team.
 
 ## Run the script
 
 Run the script:
 
-- To set up a connection by creating new teams to map to, [download and run this script]().
-- To set up a connection by mapping to existing teams, [download and run this script]().
-
-    It's important to know that if one or more teams have an existing schedule, the script removes the schedules from those teams. Otherwise, you'll see duplicate schedules in the team.
+- To set up a connection and create new teams to map, [download and run this script]().
+- To set up a connection and map to existing teams, [download and run this script]().
 
 The script does the following actions. You'll be prompted to enter setup and configuration details.
 
 1. Tests and verifies the connection to Blue Yonder using the Blue Yonder service account credentials and service URLs that you enter.
 1. Configures the Shifts connector.
-1. Applies sync settings. Sync settings include the sync frequency (in minutes) and the schedule information that's synced between Blue Yonder and Shifts. 
+1. Applies sync settings. These settings include the sync frequency (in minutes) and the schedule data that's synced between Blue Yonder and Shifts. Schedule data is defined in the following parameters:
+
+    - The **enabledConnectorScenarios** parameter defines data that's synced from Blue Yonder to Shifts. Options are `Shift`, `SwapRequest`, `UserShiftPreferences`, `OpenShift`, `OpenShiftRequest`, `TimeOff`, `TimeOffRequest`.
+    - The **enabledWfiScenarios** parameter defines data that's synced from Shifts to Blue Yonder. Options are `SwapRequest`, `OpenShiftRequest`,  `TimeOffRequest`, `UserShiftPreferences`.
 
     > [!IMPORTANT]
-    > The script enables all sync settings. If you want to change these settings, you can do so after the connection is set up. To learn more, see [Link to PowerShell config doc]().
-    >
-    > Sync settings are defined in the following parameters:
-    >
-    > - **enabledConnectorScenarios**: This parameter defines data that's synced from Blue Yonder to Shifts. The options are  `"Shift"`, `"SwapRequest"`, `"UserShiftPreferences"`, `"OpenShift"`, `"OpenShiftRequest"`, `"TimeOff"`, `"TimeOffRequest"`.
-    > - **enabledWfiScenarios**: This parameter defines data that's synced from Shifts to Blue Yonder. The options are `"SwapRequest"`, `"OpenShiftRequest"`, > `"TimeOffRequest"`, `"UserShiftPreferences"`.
+    > The script enables sync for all these options. If you want to change these settings, you can do so after the connection is set up. To learn more, see [Link to PowerShell config doc]().
 
 1. Creates the connection.
-1. Maps Blue Yonder sites to teams. The mappings are based on the Blue Yonder site IDs and team IDs that you enter or the new teams you create, depending on the script that you run.
+1. Maps Blue Yonder sites to teams. Mappings are based on the Blue Yonder site IDs and team IDs that you enter or new teams you create, depending on the script that you run. If a team has an existing schedule, the script removes the schedule.
 
 A Success message on the screen indicates that your connection is successfully set up.
 
+## If you need to make changes to a connection
 
-
-## What to do after you set up the connection
+To make changes to a connection after it's set up, see [Link to PowerShell article](). For example, you can update sync settings, team mappings, or disable a connection.
 
 ## Shifts connector cmdlets
 

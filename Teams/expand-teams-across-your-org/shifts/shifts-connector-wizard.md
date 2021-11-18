@@ -42,15 +42,18 @@ In this article, we walk you through how to run the wizard to set up a Shift to 
 You must be a Microsoft 365 global admin or Shifts connector admin to run the wizard. Before you get started, make sure you have the following prerequisites:
 
 - You have Blue Yonder version 2020.3 or 2021.
-- Federated SSO authentication is set up in Blue Yonder.
+- Federated SSO authentication is enabled in your Blue Yonder environment.
 - At least one team is set up in Teams.
-- The teams you want to map don't have any existing schedules. If a team has an existing schedule, [remove the schedule from the team](#remove-schedules-from-teams-you-want-to-map) before you map a Blue Yonder site to it. Otherwise, you'll see duplicate schedules.
+- The teams you want to map do not have any schedules. If a team has an existing schedule, [remove the schedule from the team](#remove-schedules-from-teams-you-want-to-map) before you map a Blue Yonder site to it. Otherwise, you'll see duplicate schedules.
 
 You also need to know your Blue Yonder service account name and password and service URLs. If you don’t have this information, contact your Blue Yonder delivery partner or technical account manager.
 
 ## Prepare to run the wizard
 
 ### Remove schedules from teams you want to map
+
+> [!NOTE]
+> Complete this step if you're mapping Blue Yonder sites to existing teams that have schedules. If you're creating new teams to map to, you can skip this step.
 
 ## Run the wizard
 
