@@ -21,18 +21,14 @@ description: Read this article to learn about how to deploy Microsoft Teams Room
 
 Deployment of Microsoft Teams Rooms essentially breaks down into phases:
 
-- Confirming that your deployment locations (rooms) meet the deployment dependencies
+- Confirming that your deployment locations (spaces) meet the deployment dependencies
 - Creating Microsoft Teams or Skype for Business and Exchange accounts and assigning them to the console devices (see [Configure accounts for Microsoft Teams Rooms](rooms-configure-accounts.md))
-- Reimaging Microsoft Surface tablets to work as Microsoft Teams Rooms consoles (see [Configure a Microsoft Teams Rooms console](console.md) or [Deploy Microsoft Teams Rooms mass deployment guide](rooms-scale.md))
-- (Optional) Setting up Microsoft Operations Management Suite for your systems (see [Deploy Microsoft Teams Rooms management with Azure Monitor](azure-monitor-deploy.md)
-- Setting up consoles in meeting rooms and connecting the peripheral devices you need (see the OEM documentation for your set of devices)
-
-AV techs can be used for the last task, but your organization's IT department will need to do the other parts of the process. 
-
+- (Optional) Setting up Azure Monitor for your systems (see [Deploy Microsoft Teams Rooms management with Azure Monitor](azure-monitor-deploy.md)
+- Setting up Teams Rooms in meeting spaces and connecting the peripheral devices you need (see the OEM documentation for your set of devices)
 
 ## Site readiness 
 
-While the ordered devices are being delivered to your organization, work with your networking and facilities and AV teams to make sure that deployment dependencies are met and each site and room is ready in terms of power, networking, and display. In addition, make sure the physical installation requirements are met. For physical installation considerations, visit the vendor's site and leverage the experience of your AV team when installing and mounting screens and running cabling.
+While the ordered devices are being delivered to your organization, work with your networking, facilities, and AV teams to make sure that deployment dependencies are met and each site and space is ready in terms of power, networking, and display. In addition, make sure the physical installation requirements are met. For physical installation considerations, consult with your vendor and leverage the experience of your AV team when installing and mounting screens and running cabling.
 
 You can find out more about these dependencies in the planning guidance links below:
 
@@ -40,7 +36,7 @@ You can find out more about these dependencies in the planning guidance links be
 -   [Certificates](rooms-prep.md#certificates)
 -   [Proxy](rooms-prep.md#proxy)
 
-**Pro Tip** - If you intend to use proxy servers to provide access to Teams or Skype for Business Online, first [review this article](../proxy-servers-for-skype-for-business-online.md). When it comes to Skype for Business traffic over proxy servers, we recommend bypassing proxy servers altogether. Skype for Business traffic is already encrypted, so proxy servers don't make it more secure. As part of your wider deployment, we recommend that you follow the guidance in [Prepare your network for Teams](../prepare-network.md) for bandwidth planning and assessing your network's suitability for real-time traffic.
+**Pro Tip** - If you must use proxy servers to provide access to Teams, first [review this article](../proxy-servers-for-skype-for-business-online.md). When it comes to Microsoft Teams real-time media traffic over proxy servers, we recommend bypassing proxy servers altogether. Microsoft Teams traffic is already encrypted, so proxy servers don't make it more secure. As part of your wider deployment, we recommend that you follow the guidance in [Prepare your network for Teams](../prepare-network.md) for bandwidth planning and assessing your network's suitability for real-time traffic.
 
 |  &nbsp;  | &nbsp;    |
 |-----------|------------|
@@ -51,16 +47,17 @@ You can find out more about these dependencies in the planning guidance links be
 
 To prepare for your Microsoft Teams Rooms deployment, do the following key, central tasks:
 
--   Define Microsoft Teams Rooms service account features.
--   Prepare an organizational unit and Active Directory group to hold your Microsoft Teams Rooms machine and service accounts, and—optionally—prepare Group Policy objects (GPOs) to enable PowerShell remoting.
+-   Define Microsoft Teams Rooms resource accounts.
+-   If joining Teams Room to Azure Active Directory, prepare an Azure AD group with dynamic membership to hold all of the Teams Rooms resource accounts. This will simplify future management, such as applying Conditional Access policies.
+-   If joining Teams Room to Active Directory, prepare an organizational unit and Active Directory group to hold your Microsoft Teams Rooms machine and service accounts, and—optionally—prepare Group Policy objects (GPOs) to enable PowerShell remoting.
 
-### Define Microsoft Teams Rooms service account features 
+### Define Microsoft Teams Rooms resource account features 
 
-Depending on the collaboration scenarios that you've decided to enable with your Microsoft Teams Rooms deployment, you'll need to determine the features and capabilities that you assign to each Microsoft Teams Rooms service account that you enable.
+Depending on the collaboration scenarios that you've decided to enable with your Microsoft Teams Rooms deployment, you'll need to determine the features and capabilities that you assign to each Microsoft Teams Room that you enable.
 
 | **Scenario** | **Description** | **Microsoft Teams Rooms service account feature** |
 |---------- |------------- | --- |
-| Interactive meetings            | Using voice, video, and screen sharing; making the Microsoft Teams Rooms a bookable resource                     | Enabled for Skype for Business, enabled for Exchange (Resource Mailbox) |
+| Interactive meetings            | Using voice, video, and screen sharing; making the Microsoft Teams Rooms a bookable resource                     | Enabled for Microsoft Teams or Skype for Business; enabled for Exchange (Resource Mailbox) |
 | Dial-in conferencing            | Enable meetings started *directly* from the Microsoft Teams Rooms console with dial-in conferencing coordinates | Enabled for Audio Conferencing                                          |
 | Outbound/inbound PSTN Calling | Enable the Microsoft Teams Rooms console to make and receive PSTN calls                                         | Enabled for Phone System                                                |
 
