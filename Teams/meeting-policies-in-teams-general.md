@@ -29,12 +29,12 @@ This article describes the following general policy settings for Teams meetings:
 
 - [Meet now in channels](#meet-now-in-channels)
 - [Outlook add-in](#outlook-add-in)
-- [Allow channel meeting scheduling](#allow-channel-meeting-scheduling)
-- [Allow scheduling private meetings](#allow-scheduling-private-meetings)
+- [Channel meeting scheduling](#channel-meeting-scheduling)
+- [Private meeting scheduling](#private-meeting-scheduling)
 - [Allow Meet now in private meetings](#allow-meet-now-in-private-meetings)
 - [Designated presenter role mode](#designated-presenter-role-mode)
-- [Allow engagement report](#allow-engagement-report)
-- [Allow meeting registration](#allow-meeting-registration)
+- [Engagement report](#engagement-report)
+- [Meeting registration](#meeting-registration)
 - [Who can register](#who-can-register)
 - [Meeting provider for Islands mode](#meeting-provider-for-islands-mode)
 
@@ -52,7 +52,7 @@ This is a per-user policy and applies before a meeting starts. This setting cont
 
 If you turn this off, users are unable to schedule Teams meetings when they create a new meeting in Outlook. For example, in Outlook on Windows, the **New Teams Meeting** option won't show up in the ribbon.
 
-## Allow channel meeting scheduling
+## Channel meeting scheduling
 
 Use the existing AllowChannelMeetingScheduling policy to control the types of events that can be created on the team channel calendars. This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule a meeting in a Teams channel. By default, this setting is turned on. 
 
@@ -89,7 +89,7 @@ The channel calendar app will show up in the **Microsoft apps** section on the a
 
 ![Screenshot showing the app permissions policy in the Teams admin center.](media/manage-microsoft-apps-policy.png)
 
-## Allow scheduling private meetings
+## Private meeting scheduling
 
 This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule private meetings in Teams. A meeting is private when it's not published to a channel in a team.
 
@@ -115,7 +115,7 @@ To specify the default value of the **Who can present?** setting in Teams, set t
 
 Keep in mind that after you set the default value, meeting organizers can still change this setting in Teams and choose who can present in the meetings that they schedule.
 
-## Allow engagement report
+## Engagement report
 
 This is a per-user policy. This setting controls whether meeting organizers can download the [meeting attendance report](teams-analytics-and-reports/meeting-attendance-report.md).
 
@@ -127,7 +127,7 @@ To enable a meeting organizer to download the meeting attendance report, set the
 
 To prevent a meeting organizer from downloading the report, set the parameter to **Disabled**.
 
-## Allow meeting registration
+## Meeting registration
 
 This is a per-user policy. If you turn this on, users in your organization can set up webinars. This policy is enabled by default.
 
@@ -135,13 +135,13 @@ To edit this policy in the Teams admin center, go to **Meetings** > **Meeting po
 
 You can edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
 
-To turn on meeting registration, set the  **AllowMeetingRegistration** parameter to **True**. This is set to **True** by default.
+To turn on meeting registration, set the  **MeetingRegistration** parameter to **True**. This is set to **True** by default.
 
 To turn off meeting registration and prevent users from scheduling webinars, set the parameter to **False**.
 
 ## Who can register
 
-This policy controls which users can register and attend webinars. This policy has two options, which are only available if **Allow meeting registration** is turned on.
+This policy controls which users can register and attend webinars. This policy has two options, which are only available if **Meeting registration** is turned on.
 
 - Set **Who can register** to **Everyone** if you want to allow everyone, including anonymous users, to register and attend webinars that users in your organization set up.
 - Set **Who can register** to **Everyone in the organization** if you want to allow only the users in your organization to register and attend webinars.
