@@ -28,7 +28,7 @@ description: Learn to manage general meeting policy settings in Teams.
 This article describes the following general policy settings for Teams meetings:
 
 - [Meet now in channels](#meet-now-in-channels)
-- [Allow the Outlook add-in](#allow-the-outlook-add-in)
+- [Outlook add-in](#outlook-add-in)
 - [Allow channel meeting scheduling](#allow-channel-meeting-scheduling)
 - [Allow scheduling private meetings](#allow-scheduling-private-meetings)
 - [Allow Meet now in private meetings](#allow-meet-now-in-private-meetings)
@@ -44,7 +44,7 @@ This is a per-user policy and applies before a meeting starts. This setting cont
 
 [ ![Screenshot showing the Meet now icon below a message.](media/meeting-policies-meet-now.png) ](media/meeting-policies-meet-now.png#lightbox)
 
-## Allow the Outlook add-in
+## Outlook add-in
 
 This is a per-user policy and applies before a meeting starts. This setting controls whether Teams meetings can be scheduled from within Outlook (Windows, Mac, web, and mobile).
 
