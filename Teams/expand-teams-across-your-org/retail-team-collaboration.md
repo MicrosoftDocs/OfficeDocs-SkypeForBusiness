@@ -19,13 +19,13 @@ appliesto:
 
 # Retail team collaboration
 
-Bring in-store associates and management together to communicate, collaborate and streamline operations with Microsoft Teams.
+Bring in-store associates and management together to communicate, collaborate, and streamline operations with Microsoft Teams.
 
 Microsoft Teams enables in-store sales associates, managers, and other staff to collaborate efficiently with included collaboration features and apps. Your frontline workforce can use Teams on either personal or shared devices depending on the needs of your organization.
 
 ![Infographic showing the different functions available in Teams and as Teams apps as described in the list below](../media/retail-teams-collaborate-core.png)
 
-| Task | Description | Manage this capability | End user training |
+| Task | Description | Manage this capability | End-user training |
 | ---- | ---- | ---- | ---- |
 | Set up teams and channels for your store teams and managers with pre-built or custom templates | Use channels with tabs to share news, keep employees in touch across shifts, and build community. <br><br>You can use teams templates to set up teams with similar structures (such as channels and tabs) across stores or regions.| [Set up your teams, channels, and apps](#set-up-your-teams-channels-and-apps) | [Create a team with templates](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b) |
 | Chat, post messages, and communicate | Your in-store associates can seamlessly communicate across departments to fulfill orders, get help for customers, and manage stock needs. <br><br>Teams provides a great out-of-the-box collaboration experience for your organization, and most organizations find that the default settings work for them. | [Chat, teams, channels, & apps in Microsoft Teams](../deploy-chat-teams-channels-microsoft-teams-landing-page.md) | [Start chats](https://support.microsoft.com/office/start-and-pin-chats-a864b052-5e4b-4ccf-b046-2e26f40e21b5) and [Work with posts and messages](https://support.microsoft.com/office/create-and-format-a-post-e66777da-636b-49eb-9408-b0d88b212885) |
@@ -36,7 +36,7 @@ In addition, your team can use [apps](#manage-apps) in Teams to coordinate and c
 
 ![Infographic showing the different functions available in Teams and as Teams apps as described in the list below](../media/retail-teams-collaborate.png)
 
-| Task | App | Description | Manage this app | End user training |
+| Task | App | Description | Manage this app | End-user training |
 | ---- | ---- | ---- | ---- | ---- |
 | Create, manage, and share schedules| Shifts | Use Shifts to seamlessly manage and share schedules. Managers can create custom groups such as cashiers or greeters, assign shifts to employees, add custom labeling and breaks, and add open shifts that employees can request to take. Employees can use Shifts to set their availability, view their schedules, swap shifts with coworkers, and clock in and out. | [Manage Shifts](/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams)|[Shifts video training](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821)|
 | Keep in touch | Walkie Talkie | The Walkie Talkie app provides instant push-to-talk communication. By using Walkie Talkie, employees and managers can communicate from anywhere in the store. For example, if a customer on one side of the store asks an employee if an item is in stock on the other side of the store, the employee can use Walkie Talkie to contact someone who works near the item. Because Walkie Talkie doesn’t have limited range, employees can also easily consult with experts in other stores or corporate offices. | [Manage Walkie Talkie](../walkie-talkie.md)  | [Walkie Talkie video training](https://support.microsoft.com/office/use-walkie-talkie-in-teams-884a008a-761e-4b62-99f8-15671d9a2f69) |
@@ -47,7 +47,7 @@ In addition, your team can use [apps](#manage-apps) in Teams to coordinate and c
 
 ## Set up your teams, channels, and apps
 
-The easiest way to create a team for collaboration in Teams is to start with a template. The **Organize a store** and **Retail for managers** [templates](/microsoftteams/get-started-with-retail-teams-templates) are pre-made templates that include channels and apps designed for retail. You can also create a template based off of an existing team. Even when you start with a template, you can customize the team and channels, and add additional apps to suit your team's needs.
+The easiest way to create a team for collaboration in Teams is to start with a template. The **Organize a store** and **Retail for managers** [templates](/microsoftteams/get-started-with-retail-teams-templates) are pre-made templates that include channels and apps designed for retail. You can also create a template based off of an existing team. Even when you start with a template, you can customize the team and channels, and add more apps to suit your team's needs.
 
 ### Create a team based on a template
 
