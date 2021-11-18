@@ -21,7 +21,9 @@ f1keywords:
 ---
 
 
-
+# Microsoft Teams Rooms Managed Services 
+## Overview 
+The Microsoft Teams Rooms Managed Service (“managed services”) is a cloud-based IT management and monitoring service that keeps Microsoft Teams Rooms devices and their peripherals up to date and proactively monitored, supporting an environment optimized for a great user experience.  
 
 
 
