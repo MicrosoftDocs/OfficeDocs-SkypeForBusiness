@@ -43,7 +43,7 @@ In addition, your team can use [apps](#manage-apps) in Teams to coordinate and c
 | Boost morale | Praise | The Praise app allows management and in-store associates to congratulate each other and share appreciation by sending pre-made or custom badges. Praise helps employees feel recognized for achievements such as making sales goals and going above and beyond to help customers. | [Manage the Praise app](../manage-praise-app.md) |[Praise video training](https://support.microsoft.com/office/communication-and-praise-7d37ef80-542b-42e5-aa01-0fabbaa634b6) |
 | Track and monitor tasks | Tasks | Use Tasks in Teams to track to-do items for your whole retail team. Store managers and employees can create, assign, and schedule tasks, categorize tasks, and update status at any time from any device running Teams. IT pros and admins can also publish tasks to specific teams for your organization. For example, you could publish a set of tasks for daily cleaning or steps to set up a new display.| [Manage the Tasks app](/microsoftteams/manage-tasks-app) |[Tasks video training](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070) |
 | Streamline approvals | Approvals | Use Approvals to streamline requests and processes with your team. Create, manage, and share approvals directly from your hub for teamwork. Start an approval flow from the same place you send a chat, in a channel conversation, or from the Approvals app itself. Just select an approval type, add details, attach files, and choose approvers. Once submitted, approvers are notified and can review and act on the request.<br>You can allow the Approvals app for your organization and add it to Teams. | [Teams Approvals app availability](/microsoftteams/approval-admin) | [Approvals video training](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3?wt.mc_id=otc_microsoft_teams)|
-| Engage and inform workers | Viva Connections | Viva Connections creates a hub in Teams where your retail associates can view a tailored news feed from your organization and a personalized dashboard with resources they need. When employees use Viva Connections, they’re able to get important information faster, meaning that managers don’t have to spend valuable time relaying updates.  | [Overview of Viva Connections](/sharepoint/viva-connections-overview)| |
+| Engage and inform workers | Viva Connections | Viva Connections creates a hub in Teams where your retail associates can view a tailored news feed from your organization and a personalized dashboard with resources they need. When employees use Viva Connections, they’re able to get important information faster, meaning that managers don’t have to spend valuable time relaying updates.  | [Overview of Viva Connections](/sharepoint/viva-connections-overview)| [Your intranet is now in Microsoft Teams](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b) |
 
 ## Set up your teams, channels, and apps
 
@@ -63,7 +63,7 @@ Your users can add any apps that you have allowed to their teams. Share this tra
 
 ## Use Teams for corporate communications
 
-You can use Microsoft Teams and Viva Connections to:
+You can use Microsoft Teams, Viva Connections, and other Teams apps to:
 
 - Onboard new employees [Learn how](/sharepoint/onboard-employees)
 - Connect leadership teams with frontline workers [Learn how](/sharepoint/leadership-connection)
