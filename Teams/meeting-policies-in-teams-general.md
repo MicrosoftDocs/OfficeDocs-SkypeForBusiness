@@ -27,7 +27,7 @@ description: Learn to manage general meeting policy settings in Teams.
 
 This article describes the following general policy settings for Teams meetings:
 
-- [Allow Meet now in channels](#allow-meet-now-in-channels)
+- [Meet now in channels](#meet-now-in-channels)
 - [Allow the Outlook add-in](#allow-the-outlook-add-in)
 - [Allow channel meeting scheduling](#allow-channel-meeting-scheduling)
 - [Allow scheduling private meetings](#allow-scheduling-private-meetings)
@@ -38,7 +38,7 @@ This article describes the following general policy settings for Teams meetings:
 - [Who can register](#who-can-register)
 - [Meeting provider for Islands mode](#meeting-provider-for-islands-mode)
 
-## Allow Meet now in channels
+## Meet now in channels
 
 This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad hoc meeting in a Teams channel. If you turn this on, users can click the **Meet** button to start an ad hoc meeting or schedule a meeting in the channel. The default value is True.
 
