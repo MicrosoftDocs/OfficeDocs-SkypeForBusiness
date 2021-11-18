@@ -25,26 +25,24 @@ appliesto:
 
 # Plan for SIP Gateway
 
-SIP Gateway lets your organization use any compatible SIP device with Microsoft Teams to preserve your investments in SIP devices. Now you can sign-in to Teams with your corporate credentials and make and receive calls with a compatible SIP device. Compatible devices can be Skype for Business IP devices with standard SIP firmware, Cisco IP devices with multiplatform SIP firmware, or SIP devices from vendors such as Poly, Yealink, and AudioCodes. To find out how to configure your SIP devices for SIP Gateway, see [Configure SIP Gateway](sip-gateway-configure.md)
+SIP Gateway lets your organization use any compatible SIP device with Microsoft Teams to preserve your investments in SIP devices. Now you can sign-in to Teams with your corporate credentials and make and receive calls with a compatible SIP device. Compatible devices can be Skype for Business IP devices with standard SIP firmware, Cisco IP devices with multiplatform SIP firmware, or SIP devices from vendors such as Poly, Yealink, and AudioCodes. To find out how to configure your SIP devices for SIP Gateway, see [Configure SIP Gateway](sip-gateway-configure.md).
 
 ## Benefits of SIP Gateway
 
-SIP Gateway connects compatible SIP devices not certified by Microsoft Teams to Teams to help your users migrate seamlessly to Teams telephony. Using SIP Gateway, your users can do all of the following:
+SIP Gateway connects compatible SIP devices to Teams to help your users migrate seamlessly to Teams telephony. Using SIP Gateway, your users can do all of the following:
 
 - **Make calls:** SIP device users can make calls to the PSTN, to other SIP devices, and to Teams and Skype for Business users. SIP device users can only call users who have phone numbers.
 - **Receive calls:** SIP device users can receive a call from the PSTN, from Teams or Skype for Business users who have SIP devices, and from Teams and Skype for Business client applications. The SIP device acts as a Teams endpoint. Inbound calls will also be forked to the user’s SIP device.
 - **Multiple simultaneous calls:** A SIP device user in a call can put the call on hold to make or receive other calls. A SIP device user can also conference two calls.
 - **Do not disturb:** A SIP device user can set do not disturb on the device so that the device will not ring for incoming calls. This has no impact on the user’s status on all other Teams endpoints.
-- **Hold/Mute and Mute/Unmute:** A SIP device user can hold and resume or mute and unmute a call by using the features for those actions on the device.
+- **Hold/Resume and Mute/Unmute:** A SIP device user can hold and resume or mute and unmute a call by using the features for those actions on the device.
 - **Voicemail:** SIP device users can listen to electronically stored voice messages that callers leave for them.
 - **Message waiting indicator:** SIP device users can receive notifications that alert them when they have new voicemail messages.
 - **Sign-in and sign-out:** SIP devices users can sign in and sign out of Teams on the device.
 - **Dual-tone multi-frequency:** SEIP device users can press number keys to provide input during interactive voice response calls.
-- **Teams meetings:** A SIP device user can join a Teams meeting by dialing the meeting access number. Dialing out to a same tenant user’s phone number is not supported. However, guest users from another tenant can be added to a Teams meeting by a participant who dials out to a guest user’s number to include that guest. **NOTE:** Adding a Teams meeting participant via “request to join” won’t alert a SIP device during the preview period.
-- **Blind transfer:** SIP device users can transfer calls. Only single-step blind transfers, where the user doesn’t check with the call transferee before transferring the call, are supported during the preview period. Consulted transfers, where the user can check with the call transferee before transferring the call, will be added at General Availability.
+- **Teams meetings:** A SIP device user can join a Teams meeting by dialing the meeting access number. Dialing out to a same tenant user’s phone number is currently not supported. However, guest users from another tenant can be added to a Teams meeting by a participant who dials out to a guest user’s number to include that guest. **NOTE:** Adding a Teams meeting participant via “request to join” currently won’t alert a SIP device.
+- **Blind transfer:** SIP device users can transfer calls. Only single-step blind transfers, where the user doesn’t check with the call transferee before transferring the call, are currently supported.
 - **Local call forwarding:** A SIP device user can set forwarding rules (always, on timeout, and busy) for the device. If the device is connected to the SIP Gateway, then the call will be redirected to the target address based on the rule that the device user set.
-
-For more information about what you can do with SIP devices, see [?](https://www.whatarticle?)
 
 
 ## Requirements to use SIP Gateway
@@ -54,10 +52,9 @@ Teams users must have an phone number with PTSN calling enabled to use SIP Gatew
 ### Hardware, software, and licenses
 
 If you have a 3PIP or SIP device, you must have: 
-- An Office 365 E5 plan, or
-- An Office 365 E3 or Office 365 E1 plan plus a Phone System license. 
-
-You must also have PSTN capability through a Microsoft Calling Plan, Direct Routing, or Operator Connect. Any Common-area devices you use must have a Common Area Phone license.
+- A license for Phone System (via E5 or a standalone license)
+- PTSN enablement (i.e., a phone number) via a Microsoft Teams Calling Plan, Direct Routing, or Operator Connect
+- A Common Area Phone license for any common area devices
 
 ## Compatible devices
 
