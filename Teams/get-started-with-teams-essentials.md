@@ -20,9 +20,8 @@ appliesto:
 
 # Teams Essentials QuickStart guide for small businesses
 
-Microsoft Teams Essentials is a new subscription plan for small and medium-sized businesses. Whether you're a multi-city bakery, or a nine-person event agency, Microsoft Teams Essentials can bring your business together through a connected experience with online meetings, chats, and seamless collaboration in Teams.
+Microsoft Teams Essentials is a new subscription plan for small and medium-sized businesses. As your business adapts to the increased need for virtual connections and remote working, you can use Teams Essentials to securely collaborate with employees, partners, suppliers, and customers. Whether you're a multi-city bakery, or a nine-person event agency, Microsoft Teams Essentials can bring your business together through a connected experience with online meetings, chats, and seamless collaboration.
 
-As your business adapts to the increased need for virtual connections and remote working, you can use Teams Essentials to securely collaborate with employees, partners, suppliers, and customers.
 
 > [!IMPORTANT]
 > This guide is for small and medium-sized businesses using a Microsoft Teams Essentials subscription plan **purchased directly from  [Microsoft.com](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options)** and doesn't apply to Teams Essentials managed through a [Cloud Solution Provider](https://partner.microsoft.com/en-US/membership/cloud-solution-provider/find-a-provider).
@@ -39,15 +38,15 @@ To get started with Teams Essentials, follow these steps:
 
 When you've completed these tasks, you're ready to plan, deploy, and use the Teams app.
 
-To do that, complete these three simple steps:
+To do that, complete these three steps:
 
 1.  **Install the Teams app.** Install the Teams client on your PC or mobile device by going here: [Download Microsoft Teams](https://www.microsoft.com/microsoft-teams/download-app).
 
-2. **Get Familiar with Teams.** The best way to become familiar with Teams is to start using it right away. Take some time to explore the application so you have a better understanding of its capability.  get a better understanding 
+2. **Get Familiar with Teams.** The best way to become familiar with Teams is to start using it right away. Take some time to explore the application so you have a better understanding of its capabilities.
 
-3. **Plan for adoption.** For small businesses, planning for user adoption can be as simple as individually showing your users how to use Teams. Often, small business customers don't consider this step for new applications which can negatively affects the application's success and adoption.
+3. **Plan for adoption.** For small businesses, planning for user adoption can be as simple as individually showing your users how to use Teams. Often, small business customers don't consider this step for new applications, which negatively affects the application's success and adoption.
 
-3.  **Manage Teams Essentials.** Similar to the free version of Microsoft Teams, you have a limited admin role as the first person to sign up for Teams Essentials in your organization. With this limited role, you can add and remove team members and specify whether anyone can invite additional members, but you won't have  advanced administrative capabilities or access to the Microsoft Teams admin center.
+3.  **Manage Teams Essentials.** Similar to the free version of Microsoft Teams, you have a limited admin role as the first person to sign up for Teams Essentials in your organization. You can add and remove team members and specify whether anyone can invite another members with this role, but you won't have  advanced administrative capabilities or access to the Microsoft Teams admin center.
 
 To get the full set of Teams features, including enhanced administration, you'll need to upgrade to the full version of Teams by purchasing an appropriate [Microsoft 365 or Office 365 subscription plan](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options) for your users.
 
@@ -63,7 +62,7 @@ If your organization is using the free version of Microsoft Teams, you can easil
 
 #### Upgrade Requirements
 
-You can upgrade to Microsoft Teams Essentials if you are the person who signed up for the existing Teams free subscription. In Microsoft Teams free, the first person who signed up for Teams in your organization has a limited admin role.
+You can upgrade to Microsoft Teams Essentials if you're the person who signed up for the existing Teams free subscription. In Microsoft Teams free, the first person who signed up for Teams in your organization has a limited admin role.
 
 > [!NOTE]
 > To upgrade and transfer your data, you have to buy your subscription through the Teams application [upgrade process](#how-do-i-upgrade-my-organization) outlined in this section.
@@ -76,9 +75,9 @@ Keep the following limitations in mind:
 
 - You can't merge multiple Teams free tenants into a single paid tenant.
 
-- All users must be in the same domain. (All users will get a sign-in in the format *username*@*domain.com*.)
+- All users must be in the same domain. (All users will get a login in the format *username*@*domain.com*.)
 
-- All users must be upgraded: a mix of Teams free and paid subscription users in the same tenant is not supported.
+- All users must be upgraded: a mix of Teams free and paid subscription users in the same tenant isn't supported.
 
 #### How do I upgrade my organization?
 
