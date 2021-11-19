@@ -43,7 +43,7 @@ Follow these steps to archive a team. You must be a Teams service admin to make 
     ![Screenshot of Teams archive message.](media/teams-archive-message.png)
 
 4. To prevent people from editing the content in the SharePoint site and Wiki tab associated with the team, select **Make the SharePoint site read-only for team members**. (Teams owners will still be able to edit this content.)
-5. Select **Archive** to archive the team. The team’s status will change to **Archived**.
+5. Select **Archive** to archive the team. The team’s status will change to **Archived**, it will be moved inside **Hidden teams** located at the bottom of the teams list and a small icon representing the archived stated will be added next to it.
 
 ## Make an archived team active
 
@@ -51,7 +51,7 @@ Follow these steps to make an archived team active again.
 
 1. In the admin center, select **Teams**.
 2. Select a team by clicking the team name.
-3. Select **Unarchive**. The team’s status will change to **Active**.
+3. Select **Restore**. The team’s status will change to **Active**, be aware that it will not be moved back inside **Your teams** automatically.
 
 ## Delete a team
 
