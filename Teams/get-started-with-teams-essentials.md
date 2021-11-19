@@ -1,7 +1,7 @@
 ---
 title: Teams Essentials QuickStart guide for small businesses 
-author: adjoseph
-ms.author: adjoseph
+author: adeejoseph
+ms.author: adeejoseph
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -21,7 +21,6 @@ appliesto:
 # Teams Essentials QuickStart guide for small businesses
 
 Microsoft Teams Essentials is a new subscription plan for small and medium-sized businesses. As your business adapts to the increased need for virtual connections and remote working, you can use Teams Essentials to securely collaborate with employees, partners, suppliers, and customers. Whether you're a multi-city bakery, or a nine-person event agency, Microsoft Teams Essentials can bring your business together through a connected experience with online meetings, chats, and seamless collaboration.
-
 
 > [!IMPORTANT]
 > This guide is for small and medium-sized businesses using a Microsoft Teams Essentials subscription plan **purchased directly from  [Microsoft.com](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options)** and doesn't apply to Teams Essentials managed through a [Cloud Solution Provider](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider).
