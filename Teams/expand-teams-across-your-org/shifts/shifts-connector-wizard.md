@@ -53,7 +53,7 @@ You also need to know your Blue Yonder service account name and password and ser
 ### Remove schedules from teams you want to map
 
 > [!NOTE]
-> Complete this step if you're mapping Blue Yonder sites to existing teams that have schedules. If you're creating new teams to map to, you can skip this step.
+> Complete this step if you're mapping Blue Yonder sites to existing teams that have. If you're creating new teams to map to, you can skip this step.
 
 ## Run the wizard
 
@@ -110,7 +110,7 @@ You also need to know your Blue Yonder service account name and password and ser
 
     Select **Done** to exit the wizard.
 
-1. You’re on your way but you’re not done yet! Check your email. You'll receive a confirmation that we received your request along with a link to how you can check setup status.
+You’re on your way but you’re not done yet! Be sure to check your email. You'll receive a confirmation that we received your request along with a link to how you can check setup status.
 
 > [!NOTE]
 > If an issue or error occurs in a connection after it's set up, you'll get notified in email. Follow the instructions in the email to troubleshoot the issue.
