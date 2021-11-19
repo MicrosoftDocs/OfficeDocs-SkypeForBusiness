@@ -196,13 +196,13 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 |Policy area |Sub-area  |Policy setting  |Primary or Secondary |Higher education |
 |---------|---------|---------|---------|---------|
 |Teams policy   |         |Create private channels         |Off       |On|
-|Meetings policy    |General         |Allow Meet now in channels         |Off      |On|
+|Meetings policy    |General         |Meet now in channels         |Off      |On|
 |  |        |Outlook add-in         |Off       |On|
 |  |        |Channel meeting scheduling        |Off      |On|
 |  |        |Private meeting scheduling       |Off      |On|
 |  |        |Meeting registration              |On       |On|
 |  |        |Who can register    |Everyone in the organization      |Everyone in the organization|
-|  |Audio & video        |Allow transcription        |On       |On|
+|  |Audio & video        |Transcription        |On       |On|
 |  |        |Cloud recording         |Off      |On|
 |  |        |Mode for IP audio       |Outgoing and incoming audio enabled        |Outgoing and incoming audio enabled|
 |  |        |Mode for IP video         |Outgoing and incoming video enabled     |Outgoing and incoming video enabled|
@@ -222,8 +222,8 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 |  |       |Meet now in private meetings        |Off         |On|
 |  |       |Live captions       |Disabled but user can override         |Disabled but user can override|
 |  |       |Chat in meetings         |On         |On|
-|Live events policy  |       |Allow scheduling         |Off         |Off|
-|  |       |Allow transcription for attendees          |On       |On|
+|Live events policy  |       |Live events scheduling         |Off         |Off|
+|  |       |Transcription for attendees          |On       |On|
 |  |       |Who can join scheduled live events        |Everyone in organization        |Everyone in organization|
 |  |       |Who can record an event         |Always         |Always|
 |Messaging policy  |       |Owners can delete sent messages         |Off|On|
@@ -231,10 +231,10 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 |  |       |Edit sent messages         |Off         |On|
 |  |       |Read receipts         |User controlled         |User controlled|
 |  |       |Chat         |Off         |On|
-|  |       |Use Giphys in conversations         |Off         |On|
+|  |       |Giphys in conversations         |Off         |On|
 |  |       |Giphy content rating         |Strict        |Strict|
-|  |       |Use Memes in conversations         |On         |On|
-|  |       |Use Stickers in conversations         |On         |On|
+|  |       |Memes in conversations         |On         |On|
+|  |       |Stickers in conversations         |On         |On|
 |  |       |Allow URL previews        |On         |On|
 |  |       |Translate messages         |On         |On|
 |  |       |Allow immersive reader for viewing messages        |On      |On|
