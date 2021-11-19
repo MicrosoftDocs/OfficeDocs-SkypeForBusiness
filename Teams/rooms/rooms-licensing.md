@@ -48,6 +48,8 @@ Microsoft has two dedicated SKUs for licensing meetings and calling on a per-dev
 
 &sup3; For more information and availability, see [Microsoft Teams Rooms managed service](microsoft-teams-rooms-premium.md).
 
+Both licenses contain entitlements for Skype for Business Online, which was retired on July 31, 2021.
+
 The following table lists the features that are available in Microsoft Teams Rooms and what licenses you need to buy to get them.
   
 > [!NOTE]
