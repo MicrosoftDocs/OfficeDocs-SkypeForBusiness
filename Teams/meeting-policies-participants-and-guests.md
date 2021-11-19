@@ -33,7 +33,7 @@ These settings control which meeting participants wait in the lobby before they 
 - [Automatically admit people](#automatically-admit-people)
 - [Allow dial-in users to bypass the lobby](#allow-dial-in-users-to-bypass-the-lobby)
 - [Live captions](#live-captions)
-- [Allow chat in meetings](#allow-chat-in-meetings)
+- [Chat in meetings](#chat-in-meetings)
 
 > [!NOTE]
 >Options to join a meeting will vary, depending on the settings for each Teams group, and the connection method. If your group has audio conferencing, and uses it to connect, see [Audio Conferencing](/microsoftteams/audio-conferencing-in-office-365). If your Teams group doesn't have audio conferencing, refer to [Join a meeting in Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
@@ -85,7 +85,7 @@ This setting is a per-user policy and applies during a meeting. This setting con
 
 <a name="bkcontentsharing"> </a>
 
-## Allow chat in meetings
+## Chat in meetings
 
 This setting is a per-participant setting. This setting controls whether meeting chat is allowed in the user's meeting.
 
