@@ -21,7 +21,7 @@ appliesto:
 
 # Configure desktop sharing in Microsoft Teams
 
-Desktop sharing lets users present a screen or app during a meeting or chat. Admins can configure screen sharing in Microsoft Teams to let users share an entire screen, an app, or a file. You can let users give or request control, allow PowerPoint sharing, add a whiteboard, and allow shared notes. You can also configure whether anonymous or external users can request control of the shared screen. External participants in Teams meetings can be categorized as follows:
+Desktop sharing lets users present a screen or app during a meeting or chat. Admins can configure screen sharing in Microsoft Teams to let users share an entire screen, an app, or a file. You can let users give or request control, PowerPoint sharing, add a whiteboard, and Shared notes. You can also configure whether anonymous or external users can request control of the shared screen. External participants in Teams meetings can be categorized as follows:
 
 - Anonymous user
 - Guest users
@@ -57,9 +57,9 @@ To configure screen sharing, you create a new meetings policy and then assign it
 
     - **Allow a participant to give or request control** – lets members of the team give or request control of the presenter's desktop or application.
     - **Allow an external participant to give or request control** – This is a per-user policy. Whether an organization has this set for a user doesn't control what external participants can do, regardless of what the meeting organizer has set. This parameter controls whether external participants can be given control or request control of the sharer's screen, depending on what the sharer has set within their organization's meeting policies.
-    - **Allow PowerPoint sharing** - lets users create meetings that allow PowerPoint presentations to be uploaded and shared.
-    - **Allow whiteboard** – lets users share a whiteboard.
-    - **Allow shared notes** – lets users take shared notes.
+    - **PowerPoint sharing** - lets users create meetings that allow PowerPoint presentations to be uploaded and shared.
+    - **Whiteboard** – lets users share a whiteboard.
+    - **Shared notes** – lets users take shared notes.
 
 6. Click **Save**.
 
