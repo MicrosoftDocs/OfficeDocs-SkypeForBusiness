@@ -23,7 +23,7 @@ appliesto:
 
 Shifts connectors enable you to integrate Shifts, the schedule management tool in Microsoft Teams, with your workforce management (WFM) system. After you set up a connection, your frontline workers can seamlessly view and manage their schedules in your WFM system from within Shifts.
 
-Connecting your WFM system empowers your frontline workforce to manage schedules more effectively and streamlines everyday processes for higher engagement and productivity. Frontline workers can manage their scheduling needs and use the rich communication and collaboration features of Teams to get work done, from anywhere, on any device. *Your frontline workers have one place for their scheduling, communication, and collaboration needs to get work done, from anywhere, on any device.*
+Connecting your WFM system to Teams empowers your frontline workforce to manage schedules more effectively and streamlines everyday processes for higher engagement and productivity. Your frontline workers have one place for their scheduling, communication, and collaboration needs to get work done, from anywhere, on any device.
 
 We offer managed and open-source Shifts connectors. In this article, you'll learn about Shifts connectors and how they work.
 
@@ -32,17 +32,6 @@ We offer managed and open-source Shifts connectors. In this article, you'll lear
 Connectors sync schedule data between your WFM system and Shifts, bringing your organization’s schedules into Teams. Shifts is where your frontline workers engage for their scheduling needs. Your WFM system is the system of record and source of truth for business rules, compliance, and intelligence.
 
 Data flows via the connector both ways to ensure schedules are always up to date. Schedules in your WFM system are synced to Shifts. Changes made to schedules in Shifts are synced back to your WFM system. As the system of record, all business rules are enforced by your WFM system before data is saved to Shifts.
-
-Frontline workers can easily view their schedule, swap shifts, and request schedule changes from within Shifts in Teams. For example, they can:
-
-- See their assigned shifts
-- Swap shifts
-- Set availability
-- Offer shifts
-- Request open shifts
-- Request time off
-
-Frontline managers can see workers' schedules and review requests for time off, shift swaps, and offers.
 
 ## Managed Shifts connectors
 
@@ -68,6 +57,18 @@ After you set up a connection, you can update and change connection settings at 
 - FLW requests time off. Request is sent to BY through the connector, BY ensures that the request can be processed. FLM gets notified, sees request in BY, and approves the request. Approval is synced back to Teams. FLW is notified that request is approved, and their schedule is updated. 
 Any updates in BY is synced to Teams.
 - FLW wants to swap shift with a coworker. Select from a list of shifts that qualify for a swap based on rules in BY. Coworker gets notified and accepts request in Teams. Manager sees request and approves in BY or Shifts. FLW's request is completed and schedule updated in Shifts.
+
+
+Frontline workers can easily view their schedule, swap shifts, and request schedule changes from within Shifts in Teams. For example, they can:
+
+- See their assigned shifts
+- Swap shifts
+- Set availability
+- Offer shifts
+- Request open shifts
+- Request time off
+
+Frontline managers can see workers' schedules and review requests for time off, shift swaps, and offers.
 
 ### Shifts to Zebra-Reflexis connector
 
