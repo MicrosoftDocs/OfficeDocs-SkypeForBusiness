@@ -400,10 +400,10 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 | First Device Howling Event Count  | Range (ratio)  | Number of times during the call that the first endpoint detected two or more endpoints in the same room that caused poor quality audio in the form of howling or screeching audio. Values grouped by range. <br/> **Example value:** 016: [0.02 - 0.03)  | &bull; This was a non-audio stream <br/>&bull; Data was not reported by first endpoint |
 | Second Device Howling Event Count  | Range (ratio)  | Number of times during the call that the second endpoint detected two or more endpoints in the same room or acoustic environment that caused poor quality audio in the form of howling or screeching audio. Values grouped by range. <br/> **Example value:** 016: [0.02 - 0.03)  | &bull; Indicates a non-audio stream <br/>&bull; Data was not reported by the second endpoint |
 |**Call Diagnostic**||||
-| Error Report Sender  | String  | Indicates which endpoint sent the call error report for the stream. This report contains additional telemetry and may indicate call setup or call drop issue with the call. <br/> **Example value:** First | &bull; Indicates no call error report was sent.  |
-| Is Media Error  | String  | Indicates if the call error report for the stream was a media level error or not. This report contains additional telemetry and may indicate call setup or call drop issue with the call.    | &bull; Indicates no call error report was sent. |
-| Media Failure Type  | Enumeration <br/>**Possible values:** <br/>&bull; Midcall <br/>&bull;  CallSetup <br/>&bull;  NotMediaFailure. | The type of media failure associated with the stream.   | &bull; Indicates no call error report was sent.   |
-| Call Classification| Enumeration |Reliability Classification assigned to the call. **Possible values**: Success, Failure, ClassificationUnavailable | |
+| Error Report Sender  | String  | Indicates which endpoint sent the call error report for the stream. This report contains additional telemetry and may indicate call setup or call drop issue with the call. <br/> **Example value:** First | &bull; Indicates no call error report was received.  |
+| Is Media Error  | String  | Indicates if the call error report for the stream was a media level error or not. This report contains additional telemetry and may indicate call setup or call drop issue with the call.    | &bull; Indicates no call error report was received. |
+| Media Failure Type  | Enumeration <br/>**Possible values:** <br/>&bull; Midcall <br/>&bull;  CallSetup <br/>&bull;  NotMediaFailure. | The type of media failure associated with the stream. <br/> Note: "NotMediaFailure" does not indicate a non-media failure occurred, only that no media failures occurred.   | &bull; Indicates no call error report was received.   |
+| Call Classification| Enumeration |Reliability Classification assigned to the call. <br/> **Possible values**: Success, Failure, ClassificationUnavailable | |
 | Classification Reason|String|Reason the classification was assigned to the stream.| |
 | Test Call Type|Enumeration|Indicates whether this call is a regular call or a test call. If it's a test call, this indicates the type of test call. <br/>**Possible Values:** NonTest, Silent, UserInitiated, Synthetic <br/>**Meanings:** <br/> NonTest – Regular Call <br/> Silent – Silent Test Call <br/> UserInitiated – User initiated test call <br/>Synthetic – ST endpoint-initiated call||
 |**Session**||||
@@ -519,10 +519,10 @@ For example, the Duration (Minutes) dimension represents the call duration in se
 |066: [3–4) |3 minutes < = stream duration < 4 minutes |
 |  | |
 
-The \<sort order string> is used to control the sort order when presenting the data and can be used for filtering. For example, a filter on Duration (Minutes) < "065", would show streams with duration less than 2 minutes (The leading '0' is needed for the filter to work as expected).
+The \<sort order string> is used to control the sort order when presenting the data and can be used for filtering. For example, a filter on Duration (Minutes) < "065", would show streams with duration less than 2 minutes (The leading '0' is needed for the filter to work as expected). The actual value of the sort order string isn't significant.
 
 > [!NOTE]
-> The actual value of the sort order string isn't significant.
+> You may notice ranges that seem to be invalid for a given dimension. An example would be Wifi Signal Strength showing calls in the 082: [100 - 110) range when 100 is the maximum possible value for Wifi Signal Strength. This is due to how numbers are assigned to ranges in CQD's data model. If a whole number value is 99, it will be counted in the 081: [90 - 100) range. If that value is 100, it will be counted in the 082: [100 - 110) range. This does not indicate that there are Wifi Signal Strength values greater than 100% being reported.
 
 #### Enumeration strings
 

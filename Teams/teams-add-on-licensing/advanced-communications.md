@@ -1,7 +1,7 @@
 ---
 title: Advanced Communications add-on for Microsoft Teams
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: reference
 audience: Admin
@@ -40,7 +40,7 @@ Advanced Communications is available in all Microsoft 365 markets as an add-on t
 > [!NOTE]
 > Advanced Communications isn't yet available for Microsoft 365 GCC High or Department of Defense (DoD) environments.
 
-These features are available now in preview until the end of the year at which time a per user Advanced Communications license will be needed to continue using these features.
+These features are available now in preview.
 
 ## Related articles
 

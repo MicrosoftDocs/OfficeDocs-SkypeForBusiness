@@ -1,7 +1,7 @@
 ---
 title: "Create a call queue in Microsoft Teams - small business tutorial"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: dobro
 ms.topic: article

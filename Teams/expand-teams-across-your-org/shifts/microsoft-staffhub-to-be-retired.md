@@ -1,7 +1,7 @@
 ---
 title: Microsoft StaffHub has been retired
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 ms.reviewer: lisawu, gumariam
 manager: serdars
 audience: admin

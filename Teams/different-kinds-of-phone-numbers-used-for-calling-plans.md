@@ -28,7 +28,7 @@ description: In this article, you will learn about different phone number types 
 
 Microsoft Teams uses different telephone number types depending on the purpose for which you want to use the phone number. 
 
-Teams uses **user** numbers, which can be assigned to users in your organization, and **service** numbers, which are assigned to services such as Audio Conferencing, auto attendants, or call queues. Service phone numbers have a *higher concurrent call capacity*  than user numbers. Service phone numbers are available but will vary by country/region and the type of number (whether it's a toll or toll-free number). If you need additional or other number types other than those numbers seen in the Microsoft Teams admin center, you can submit a phone number request to the [PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
+Teams uses **user** numbers, which can be assigned to users in your organization, and **service** numbers, which are assigned to services such as Audio Conferencing, auto attendants, or call queues. Service phone numbers have a *higher concurrent call capacity*  than user numbers. Service phone numbers are available but will vary by country/region and the type of number (whether it's a toll or toll-free number). If you need additional or other number types other than those numbers seen in the Microsoft Teams admin center, you can submit a phone number request to the [TNS Service Desk](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
   
 - **User numbers**
     
@@ -54,7 +54,7 @@ Teams uses **user** numbers, which can be assigned to users in your organization
     > Some countries/regions and originating number types, such as calls originating from mobile phones, may in some cases incur a toll cost to the caller. 
   
 > [!NOTE]
-> If you need to get more phone numbers than this, [contact the PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
+> If you need to get more phone numbers than this, [contact the TNS Service Desk](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
 
 ## Related topics
 

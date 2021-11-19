@@ -2,6 +2,35 @@
 
 
 
+## Week of October 25, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/26/2021 | [Control Panel - Overview](/SkypeForBusiness/control-panel-overview) | added |
+| 10/26/2021 | [Use PowerShell for tasks on Client menu](/SkypeForBusiness/use-powershell-client-menu) | added |
+| 10/26/2021 | [Use PowerShell for tasks on Client menu](/SkypeForBusiness/use-powershell-client-menu) | modified |
+| 10/26/2021 | [Manage DNS entries when decommissioning your on-premises environment](/SkypeForBusiness/hybrid/decommission-manage-dns-entries) | modified |
+
+
+## Week of October 18, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/20/2021 | [Set up Audio Conferencing for Skype for Business](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) | modified |
+| 10/20/2021 | [Allow users to contact external Skype for Business users](/SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users) | modified |
+
+
+## Week of October 04, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/6/2021 | [Using the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms) | modified |
+| 10/6/2021 | [Phones and Devices for Skype for Business and Lync](/SkypeForBusiness/certification/devices-usb-devices) | modified |
+
+
 ## Week of September 27, 2021
 
 
@@ -157,23 +186,3 @@
 | 9/29/2021 | [Plan for Skype for Business Cloud Connector Edition](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition) | modified |
 | 9/29/2021 | [Skype for Business Server 2015 documentation # < 60 chars](/SkypeForBusiness/skype-for-business-server-2015) | modified |
 | 10/1/2021 | [Phones and Devices for Skype for Business and Lync](/SkypeForBusiness/certification/devices-usb-devices) | modified |
-
-
-## Week of September 20, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 9/20/2021 | [Set up Audio Conferencing for Skype for Business](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) | modified |
-| 9/22/2021 | [Plan hybrid connectivity \| Skype for Business Server and Teams](/SkypeForBusiness/hybrid/plan-hybrid-connectivity) | modified |
-| 9/23/2021 | [Configure hybrid connectivity \| Deploy Skype for Business Server 2019 connect](/SkypeForBusiness/hybrid/configure-hybrid-connectivity) | modified |
-| 9/23/2021 | [Plan hybrid connectivity \| Skype for Business Server and Teams](/SkypeForBusiness/hybrid/plan-hybrid-connectivity) | modified |
-| 9/24/2021 | [Configure hybrid connectivity \| Deploy Skype for Business Server 2019 connect](/SkypeForBusiness/hybrid/configure-hybrid-connectivity) | modified |
-
-
-## Week of September 13, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 9/15/2021 | [Skype for Business Server updates](/SkypeForBusiness/sfb-server-updates) | modified |

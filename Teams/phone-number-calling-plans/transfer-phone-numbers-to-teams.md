@@ -1,7 +1,7 @@
 ---
 title: Transfer phone numbers to Microsoft Teams
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: tonysmit
 ms.topic: article
@@ -82,7 +82,7 @@ Before you start, we recommend that you review the information in [What's a port
 
 ## What happens next?
 
-When we receive your port order, you'll get an email that verifies your request. Your request is checked and updated daily and you'll be notified of its progress and status in email. If your port request is rejected by the losing carrier, contact the [PSTN service desk](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
+When we receive your port order, you'll get an email that verifies your request. Your request is checked and updated daily and you'll be notified of its progress and status in email. If your port request is rejected by the losing carrier, contact the [TNS Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
 
 To view the status of your port order, in the left navigation of the Microsoft Teams admin center, go to  > **Voice** > **Port orders**, and then click **Order history**. Each port order status is listed in the **Status** column. To learn more, see [What's the status of your port orders?](port-order-status.md)
 

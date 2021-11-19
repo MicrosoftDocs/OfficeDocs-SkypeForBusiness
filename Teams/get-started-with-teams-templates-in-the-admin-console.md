@@ -77,6 +77,11 @@ You can duplicate pre-built templates but you can't edit them. If you want to ch
 |Organize a store| `com.microsoft.teams.template.retailStore` |Channels: <ul><li>General<li>Shift handoff</li><li>Store readiness</li><li>Learning</li></ul> Apps: <ul><li>Wiki</li><li>Tasks</li><li>Shifts</li><li>Inspection</li></ul>|
 |Retail for managers| `com.microsoft.teams.template.retailManagerCollaboration` |Channels: <ul><li>General<li>Operations</li><li>Learning</li></ul> Apps: <ul><li>Wiki</li><li>Tasks</li><li>Inspection</li></ul>|
 |Quality and safety |`com.microsoft.teams.template.QualitySafety`|Channels: <ul><li>General<li>Announcements</li><li>Leadership</li><li>Maintenance</li><li>Production Line 1</li><li>Production Line 2</li><li>Production Line 3</li><li>Health and Safety</li><li>Training</li><li>Fun stuff</li></ul> Apps: <ul><li>Wiki</li><li>Tasks</li> <li>Issue Reporter</li> <li>Inspection</li> </ul>|
+|Manage volunteers| `com.microsoft.teams.template.ManageVolunteers` |Channels: <ul><li>General<li>Announcements</li><li>Reporting</li><li>Volunteer Management</li><li>Engagement Opportunities</li><li>Volunteer Onboarding</li></ul> Apps: <ul><li>Website</li><li>YouTube</li><li>Power BI</li><li>Power Apps</li><li>Tasks</li><li>SharePoint</li><li>OneNote</li></ul>|
+||||
+
+&sup1;App added to the channel as a tab.
+
 
 ### Team templates by category and industry
 
@@ -87,6 +92,7 @@ For more information about ways to use the pre-built templates in your industry,
 - [Government team templates](government-teams-templates-in-the-admin-console.md)
 - [Healthcare team templates](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 - [Manufacturing team templates](manufacturing-teams-templates-in-the-admin-console.md)
+- [Nonprofit team templates](team-templates-nonprofit.md)
 - [Retail team templates](retail-teams-templates-in-the-admin-console.md)
 
 ## Team template size limits
@@ -139,3 +145,4 @@ Use the following cmdlets to manage your templates in PowerShell.
 
 - [Create a team from a template](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
 - [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md)
+- [Clone a team](/graph/api/team-clone?view=graph-rest-1.0&tabs=http)
