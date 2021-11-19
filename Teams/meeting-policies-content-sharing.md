@@ -32,8 +32,8 @@ This article describes the following meeting policy settings related to content 
 - [Allow a participant to give or request control](#allow-a-participant-to-give-or-request-control)
 - [Allow an external participant to give or request control](#allow-an-external-participant-to-give-or-request-control)
 - [PowerPoint sharing](#powerpoint-sharing)
-- [Allow whiteboard](#allow-whiteboard)
-- [Allow shared notes](#allow-shared-notes)
+- [Whiteboard](#whiteboard)
+- [Shared notes](#shared-notes)
 
 ## Screen sharing mode
 
@@ -108,26 +108,26 @@ Let's look at the following example.
 
 Amanda can't share PowerPoint slide decks in meetings even if she's the meeting organizer. Daniela can share PowerPoint slide decks even if the meeting is organized by Amanda. Amanda can view the PowerPoint slide decks shared by others in the meeting, even though she can't share PowerPoint slide decks.
 
-## Allow whiteboard
+## Whiteboard
 
 This setting is a per-user policy. This setting controls whether a user can share the whiteboard in a meeting. External users, including anonymous, B2B, and federated users, inherit the policy of the meeting organizer.
 
 Let's look at the following example.
 
-|User |Meeting policy  |Allow whiteboard|
+|User |Meeting policy  |Whiteboard|
 |---------|---------|---------|
 |Daniela   | Global   | On       |
 |Amanda   | Location1MeetingPolicy        | Off   |
 
 Amanda can't share the whiteboard in a meeting even if she's the meeting organizer. Daniela can share the whiteboard even if a meeting is organized by Amanda.  
 
-## Allow shared notes
+## Shared notes
 
 This setting is a per-user policy. This setting controls whether a user can create and share notes in a meeting. External users, including anonymous, B2B, and federated users, inherit the policy of the meeting organizer. The **Meeting Notes** tab is currently only supported in meetings that have fewer than 20 participants.
 
 Let's look at the following example.
 
-|User |Meeting policy  |Allow shared notes |
+|User |Meeting policy  |Shared notes |
 |---------|---------|---------|
 |Daniela   | Global   | On       |
 |Amanda   | Location1MeetingPolicy | Off |
