@@ -64,8 +64,8 @@ Under **Audio & video**:
 Under **Content sharing**:
 
 - Disable screen sharing mode.
-- Turn off Allow whiteboard.
-- Turn off Allow shared notes.
+- Turn off Whiteboard.
+- Turn off Shared notes.
 
 Then assign the policy to the users.
 
