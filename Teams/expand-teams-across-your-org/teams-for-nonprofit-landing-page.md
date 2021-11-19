@@ -13,6 +13,7 @@ ms.service: msteams
 search.appverid: MET150
 searchScope:
   - Microsoft Teams
+  - Microsoft Cloud for Nonprofit
 appliesto: 
   - Microsoft Teams
 ---
