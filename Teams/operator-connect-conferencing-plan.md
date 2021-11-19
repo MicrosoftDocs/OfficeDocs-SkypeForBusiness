@@ -25,11 +25,11 @@ appliesto:
 
 # Plan for Operator Connect Conferencing
 
-Microsoft Audio Conferencing provides the ability to dial into a conference and dial out from a conference using Public Switched Telephone Network (PSTN) phone numbers.  Participants join Microsoft Teams meetings using audio-only conferencing bridges.
+Microsoft Audio Conferencing provides the ability to dial into a conference and dial out from a conference using Public Switched Telephone Network (PSTN) phone numbers.  Participants join Microsoft Teams meetings using an audio-only conferencing bridge.
 
-With Operator Connect Conferencing capabilities, organizations can use phone numbers from a third-party operator to join Microsoft Teams meetings. If your current operator is part of the Microsoft Operator Connect program, you can add phone numbers from your operator to your Audio Conferencing bridges and use them to join meetings.
+With Operator Connect Conferencing capabilities, organizations can use phone numbers from a third-party operator to join Microsoft Teams meetings. If your current operator is part of the Microsoft Operator Connect program, you can add phone numbers from your operator to your Audio Conferencing bridge and use them to join meetings.
 
-Without Operator Connect Conferencing capabilities, organizations can only use phone numbers provided by Microsoft for their audio conferencing bridges.
+Without Operator Connect Conferencing capabilities, organizations can only use phone numbers provided by Microsoft for their audio conferencing bridge.
 
 >[!NOTE]
 >A telephone number provider that is part of the Microsoft Operator Connect program is referenced in this article as an "operator."
@@ -50,7 +50,7 @@ If some of your organization's users need to make external calls to PSTN phone n
 
 Operator Connect Conferencing provides the following benefits:
 
-- **Flexible allocation of phone numbers between your operator and Microsoft.** Use phone numbers from both Microsoft and your operator (with a Microsoft Audio Conferencing Standard subscription only), or only use phone numbers from your operator (with either a Microsoft Audio Conferencing Standard subscription or Operator Connect Conferencing license).
+- **Flexible allocation of phone numbers between your operator and Microsoft.** Use phone numbers from both Microsoft and your operator (with a Microsoft Audio Conferencing Standard subscription only), or only use phone numbers from your operator (with an Operator Connect Conferencing license only).
 
 - **Operator-managed infrastructure.** Your operator manages the Session Border Controllers (SBCs) and the interconnectivity with Microsoft, saving you from extra hardware purchases and management.
 
@@ -60,15 +60,15 @@ Operator Connect Conferencing provides the following benefits:
 
 Operator Connect Conferencing might be the right solution for your organization if:
 
-- **Microsoft Audio Conferencing isn't available in your geographic location**.
+- You want to **keep your contracts** with your existing telephone number provider
 
-- You want to **keep your contracts** with your existing telephone number provider.
+- You want to **expand the global coverage** of your existing Microsoft Audio Conferencing bridge
 
-- You want to **source phone numbers for Audio Conferencing** from a new telephone number provider.
+- You want to **source phone numbers for Audio Conferencing** from a new telephone number provider
 
-- You want to **expand the global coverage** of your existing Microsoft Audio Conferencing bridge.
+- **Microsoft Audio Conferencing isn't available in your geographic location**
 
-- You want to **leverage an operator for Audio Conferencing services with a pay-per-minute model**, such as use toll-free numbers and make outbound calls from Teams meetings to phone numbers in countries not included in your subscription.
+- You want to **leverage an operator for Audio Conferencing services with a pay-per-minute model**, such as use toll-free numbers and make outbound calls from Teams meetings to phone numbers in countries not included in your subscription
 
 ## Licensing requirements and billing
 
@@ -84,7 +84,7 @@ For more information, see [**Configure Operator Connect Conferencing**](operator
 
 ### Operator Connect Conferencing license
 
-A Microsoft Operator Connect Conferencing license can be purchased as an add-on to a Microsoft Teams license.
+A Microsoft Operator Connect Conferencing license can be acquired as an add-on to a Microsoft Teams license.
 
 The Operator Connect Conferencing license allows subscribers to use phone numbers from an operator, but it doesn't include phone numbers from Microsoft. All outbound calls from Teams meetings must be routed via an operator.
 

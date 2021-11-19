@@ -57,9 +57,9 @@ To set up an operator:
 
 ## Acquire numbers for your Audio Conferencing bridge
 
-Your organization's Audio Conferencing bridges include phone numbers available to all users in your organization to join Microsoft Teams meetings with PSTN phone numbers. You can see the phone numbers associated with your organization's Audio Conferencing bridges in the Teams Admin Center under **Meetings > Conference Bridges**.
+Your organization's Audio Conferencing bridge includes phone numbers available to all users in your organization to join Microsoft Teams meetings with PSTN phone numbers. You can see the phone numbers associated with your organization's Audio Conferencing bridge in the Teams Admin Center under **Meetings > Conference Bridges**.
 
-To acquire phone numbers for your Audio Conferencing bridges, follow these steps:
+To acquire phone numbers for your Audio Conferencing bridge, follow these steps:
 
 1. **Audio Conferencing Standard subscription or Operator Connect Conferencing license.** Users that need Operator Connect Conferencing numbers to join the meetings that they organize need to have an Audio Conferencing Standard subscription license or an Operator Connect Conferencing license assigned to them. For more information, see [Plan for Operator Connect Conferencing](operator-connect-conferencing-plan.md).
 
@@ -78,14 +78,14 @@ To acquire phone numbers for your Audio Conferencing bridges, follow these steps
 
 The default phone numbers of a user are the ones included in their meeting invites when they schedule a meeting. You can update the phone numbers included in the meeting invites of users in the Teams Admin Center under **Users > Manage users**. To update the phone numbers included in the meeting invites of users, select the user, and select **Edit** in the **Audio Conferencing** section.
 
-After the changes have been applied, meeting invites of organizers will include the new default phone numbers.
+After the changes have been applied, new meeting invites of organizers will include the new default phone numbers. However, existing meeting invites that were scheduled before the change will keep the original default numbers.
 
 ## Sending outbound calls from Microsoft Teams meetings through an operator
 
-If you have a Microsoft Audio Conferencing Standard subscription, you can configure the Audio Conferencing service to route all or a set of outbound calls from Teams meetings through your operator by setting up an Audio Conferencing Routing policy.
+If you have a Microsoft Audio Conferencing Standard subscription or an Operator Connect Conferencing license, you can configure the Audio Conferencing service to route all or a set of outbound calls from Teams meetings through your operator by setting up an Audio Conferencing Routing policy.
 
 >[!NOTE]
->With an Operator Connect Conferencing license, outbound calls can only go through your operator.
+>With an Operator Connect Conferencing license, outbound calls can only go through your operator. If you have Operator Connect Conferencing licenses, you need to configure the service as described below to enable outbound calls from Teams meetings to telephone numbers.
 
 You can apply Audio Conferencing Routing policies at the user level, meaning that your operator routes only the outbound calls from Teams meetings organized by users with the associated policy. You can also apply these policies at the global level, meaning that your operator routes outbound calls from Teams meetings organized by all users in your organization.
 
@@ -127,7 +127,7 @@ Grant-CsOnlineAudioConferencingRoutingPolicy -Identity <identity of the organize
 >[!NOTE]
 >To set an Audio Conferencing Routing policy as global and apply it to all users in your organization, you can use the ``-Global`` parameter instead of the ``-Identity`` parameter. For example, ``Grant-CsOnlineAudioConferencingRoutingPolicy -Global -PolicyName "International Policy”``.
 
-When you create an Audio Conferencing Routing policy and apply it to a user, the operator that provides the phone number specified in the ``BridgeSourcePhoneNumber`` parameter routes the outbound calls from Microsoft Teams meetings. Additionally, the ``BridgeSourcePhoneNumber`` parameter specifies the phone number to use as the calling line identification phone number of outbound calls from Microsoft Teams meetings.
+When you create an Audio Conferencing Routing policy and apply it to a user, the operator that provides the phone number specified in the ``BridgeSourcePhoneNumber`` parameter routes Teams outbound calls to PSTN phone numbers. Additionally, the ``BridgeSourcePhoneNumber`` parameter specifies the phone number to use as the calling line identification phone number of outbound calls to PSTN phone numbers.
 
 The pattern specified in the ``NumberPattern`` is of regex form, and it specifies which calls to route through your operator. The ``"\d+"`` pattern in the example above matches all outbound calls from Teams meetings. You can also set the NumberPattern parameter as  ``“^\+1(425|206)(\d{7})$”``, which matches dialed numbers with the following formats: +1 425 XXX XX XX or +1 206 XXX XX XX, or ``“^\+1(\d{10})$”``, which matches dialed numbers with the following format: +1 425 XXX XX XX.
 
@@ -142,7 +142,7 @@ From the **My operators** tab, you can view your operators, their status, an
 - Remove an operator
 
 >[!NOTE]
->Before removing an operator from your organization or from a country, you must remove all phone numbers assigned to the users and your Audio Conferencing bridges, then contact the operator to release the numbers.
+>Before removing an operator from your organization or from a country, you must remove all phone numbers assigned to the users and your Audio Conferencing bridge, then contact the operator to release the numbers.
 
 ## Release numbers from your Audio Conferencing bridge
 
