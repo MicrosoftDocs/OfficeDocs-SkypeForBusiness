@@ -1,5 +1,5 @@
 ---
-title: "Support for dispatchable location information"
+title: "Support for emergency calling location information"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,30 +16,30 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: "Learn how MIcrosoft supports dispatchable location information to support emergency calling."
+description: "Learn how Microsoft supports dispatchable location information to support emergency calling."
 ms.custom: seo-marvel-mar2020
 ---
 
-# Dispatchable location information for emergency calling
+# Support for emergency calling location information in the United States
 
-This article describes Microsoft's support for ensuring that the most precise emergency location information possible is provided for Teams users making emergency calls. Regardless of the caller's location--onsite or working from home--a  caller's location information sent to the Public Safety Answering Point (PSAP) must be accurate.
+This article describes Microsoft's support for 911 emergency calling location information in the United States. This support ensures that the most precise dispatchable location information possible is provided for Teams users making emergency calls. Regardless of the caller's location--onsite or working from home--a  caller's location information sent to the Public Safety Answering Point (PSAP) must be accurate.
 
 This article includes information about Microsoft's compliance with the RAY BAUM’S Act for Multi Line Telephone Systems (MLTS). The RAY BAUM'S Act extends the Kari’s Law requirements, which went into effect in early 2021. For more information about the RAY BAUM'S Act and Kari's Law, see [Dispatchable Location for 911 Calls](https://www.fcc.gov/911-dispatchable-location) and [Multi-line Telephone Systems – Kari’s Law and RAY BAUM’S Act 911 Direct Dialing, Notification, and Dispatchable Location Requirements](https://www.fcc.gov/mlts-911-requirements). 
 
-This article also describes how you can configure user policies so that your end users working from home can now set their own emergency addresses if applicable.
+Users working at home can now set their own emergency addresses if applicable. This article describes how you can configure user policies so that your end users can set their emergency addresses.
 
-**QUESTION FOR ROY: RAY BAUM ACT IS FOR U.S. 911 CALLING...  Note that this information only applies to emergency 911 calling in the United States.  (True?)   but does some of this apply to Canada, etc.  What should the disclaimer say?**
+Although this information applies to emergency 911 calling in the United States, note that user-entered locations will be conveyed to the screening center in Canada as well.
 
 This article contains the following sections:
 
-- [Support for dispatchable location information for emergency calling](#support-for-dispatchable-location-information-for-emergency-calling)
+- [Support for emergency calling location information](#support-for-emergency-calling-location-information)
 - [Enhancements to location requests](#enhancements-to-location-requests)
 - [Emergency address classification and routing](#emergency-address-classification-and-routing)
 - [Enable end users to configure their emergency address](#enable-end-users-to-configure-their-emergency-address)
 - [Notes and restrictions](#notes-and-restrictions)
 
 
-## Support for dispatchable location information for emergency calling
+## Support for emergency calling location information
 
 Microsoft has made changes to support the following:  
 
@@ -115,13 +115,12 @@ Note that while safeguards are in place, automatic geo code based addresses are 
 
 - It is possible to save a location against many BSSID’s, such as might be present in an office building. **(BUT MICROSOFT DOES NOT RECOMMNEND DOING THIS?  ie NOT PRACTICAL?)**
 
+
 ## Enable end users to configure their emergency address
 
-Teams users who are working at home--outside of the defined emergency addresses on the corporate network--can now configure their emergency address in Microsoft Teams.   
+Teams users who are working at home--outside of the defined emergency addresses on the corporate network--can now configure their emergency address in Microsoft Teams. 
 
-The emergency address is stored locally on the device and used when the user makes an emergency call.
-
-On the Calls tab, the user can enter the emergency address and display the address after it is set. Teams uses the appropriate geo location services to assist the user in entering their emergency address.
+The Teams client stores the address locally on the device and maps it to the local network. On the next sign-in from the same network location, the client will automatically display the registered address. 
 
 To enable this feature for your end users, you must use PowerShell to configure the 
 TeamsEmergencyCallingPolicy for the user and set the ExternalLocationLookupMode parameter to Enabled, as shown in the following example:
@@ -135,14 +134,28 @@ New-CsTeamsEmergencyCallingPolicy -Identity E911WFH -ExternalLocationLookupMode 
 Grant-CsTeamsEmergencyCallingPolicy -PolicyName E911WFH -Identity user@contoso.com
 ```
 
+After enabling this feature for your end users, from the Calls tab, the user can add, edit, or confirm an emergency address and display the address after it is set. 
+
+Teams uses the appropriate geo location services to assist the user in entering their emergency address as follows:
+
+- If the Teams client is connected to Microsoft 365 on a network location not defined as an emergency address on the corporate network, the Teams client will prompt the user to Add an emergency address. This address will then appear on the Calls tab for that user.
+
+- If no emergency address is configured by the user for this network location, Teams will use the Azure Maps service to try to locate an address based on information on the client; that is, using the Windows Location Service and the default location. If Teams can locate an address, it will display the address, and the user can edit or confirm the location.
+
+- If the Teams client is connected to the corporate network with a defined emergency address, Teams will show that emergency address, indicating that it is a work location and cannot be edited.
+
+On Windows, you can manage the Windows Location Service and whether applications have access to the location by using group policy or by using [mobile device management (MDM)](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesslocation).
+
+
+
 
 ## Notes and restrictions
 
 Please keep the following in mind:
 
-- The WFH experience described is for Teams desktop on Windows and Mac.
+- The work-from-home experience described is for Teams desktop on Windows and Mac.
 
-- Teams phones do not support the WFH experience.
+- Teams phones do not support the work-from-home experience.
 
 - Teams mobile supports automatic location detection but not the user entered experience described.
 
@@ -151,21 +164,6 @@ Please keep the following in mind:
 - Teams Emergency Policy will support a customizable disclaimer.
 
 - The location refresh timer is approximately two minutes when roaming between networks.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Related topics
 
