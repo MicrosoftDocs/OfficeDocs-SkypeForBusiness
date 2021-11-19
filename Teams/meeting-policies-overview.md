@@ -58,14 +58,14 @@ For example, say you have a bunch of users and you want to limit the amount of b
 
 Under **Audio & video**:
 
-- Turn off Allow cloud recording.
-- Turn off Allow IP video.
+- Turn off Cloud recording.
+- Turn off IP video.
 
 Under **Content sharing**:
 
 - Disable screen sharing mode.
-- Turn off Allow whiteboard.
-- Turn off Allow shared notes.
+- Turn off Whiteboard.
+- Turn off Shared notes.
 
 Then assign the policy to the users.
 
