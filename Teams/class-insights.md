@@ -173,6 +173,8 @@ To access Insights, users must have an A1, A3, or A5 faculty license for Microso
 
 *Education Insights Premium* is a paid upgrade which provides education leaders an organizational level view of Education Insights data as well as expanded access to historical data views for educators. Eligible educational institutions can purchase an *Education Insights Premium* add-on license through Enrollment for Education Solutions (EES), Cloud Service Providers (CSP), and Microsoft 365 admin center (web direct).
 
+The Education Insights Premium add-on will be available for organizations based on purchasing licenses for all digitally active students in the tenant.
+
 ## Student Information System (SIS) integration
 The more data is fed into Insights, the better educators can support their students, and education leaders can support the educators.
 
@@ -267,3 +269,7 @@ Also, check that students did *not* [join the class meeting without a Teams acco
 
 > [!NOTE]
 > If your question is still unanswered, please [open a support ticket](https://aka.ms/edusupport). Include the relevant screenshots representing the problem and the date the problem occurred. Add any additional data you think might help us to resolve the issue.
+
+### What licenses do I need to activate Education Insights Premium?
+In order for Education Insights Premium to be enabled for your organization, the tenant must purchase licenses based on the number of the digitally active students in the organization's tenant. That is, for all students who use a Teams class as part of their school work for activities such as meetings, communication, chat, assignments, editing files, Class Notebook or Reflect.
+
