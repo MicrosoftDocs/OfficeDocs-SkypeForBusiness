@@ -151,4 +151,4 @@ To learn more about Shifts connector cmdlets, see:
 - [Shifts connectors](shifts-connectors.md)
 - [Manage the Shifts app](manage-the-shifts-app-for-your-organization-in-teams.md)
 - [Teams PowerShell overview](../../teams-powershell-overview.md)
-- [Teams PowerShell cmdlet reference](../../powershell/teams/?view=teams-ps)
+- [Teams PowerShell cmdlet reference](/powershell/teams/intro?view=teams-ps)
