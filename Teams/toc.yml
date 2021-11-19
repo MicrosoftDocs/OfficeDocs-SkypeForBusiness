@@ -783,8 +783,6 @@ items:
               href: rooms/microsoft-teams-rooms-premium.md
             - name: Role-based access control
               href: rooms/microsoft-teams-rooms-premium-rbac.md
-            - name: Managed services roles
-              href: rooms/rooms-managed-services-rbac.md
             - name: Obtain and assign a license
               href: rooms/obtaining-assigning-license.md
             - name: Enroll in MTRP managed service
@@ -805,6 +803,8 @@ items:
               href: rooms/teams-devices-feature-comparison.md   
             - name: Version support
               href: rooms/rooms-lifecycle-support.md
+            - name: Managed updates
+              href: rooms/update-management.md
             - name: Release notes
               href: rooms/rooms-release-note.md
             - name: Prepare your environment
@@ -823,6 +823,8 @@ items:
               href: rooms/rooms-deploy.md
             - name: Configure accounts
               href: rooms/rooms-configure-accounts.md
+            - name: Software installation
+              href: rooms/monitoring-software-installation-guide.md              
             - name: Surface Hub
               items: 
                 - name: Set up Coordinated Meetings
@@ -861,8 +863,7 @@ items:
               href: rooms/rooms-manage.md
             - name: Maintenance and operations
               href: rooms/rooms-operations.md
-            - name: Managed updates
-              href: rooms/update-management0.md
+ 
             - name: Known issues
               href: rooms/known-issues.md
             - name: Devices with Azure Monitor
@@ -871,8 +872,9 @@ items:
               href: rooms/xml-config-file.md
             - name: Use the recovery tool
               href: rooms/recovery-tool.md
-        - name: Reference
-          href: rooms/update-management-reference.md
+            - name: Reference
+              href: rooms/update-management-reference.md
+
 - name: Voice - Phone System and PSTN connectivity
   items: 
     - name: Plan your Teams voice solution
