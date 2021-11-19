@@ -58,7 +58,7 @@ For example, say you have a bunch of users and you want to limit the amount of b
 
 Under **Audio & video**:
 
-- Turn off Allow cloud recording.
+- Turn off Cloud recording.
 - Turn off IP video.
 
 Under **Content sharing**:
