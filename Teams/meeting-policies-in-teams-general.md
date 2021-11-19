@@ -31,7 +31,7 @@ This article describes the following general policy settings for Teams meetings:
 - [Outlook add-in](#outlook-add-in)
 - [Channel meeting scheduling](#channel-meeting-scheduling)
 - [Private meeting scheduling](#private-meeting-scheduling)
-- [Allow Meet now in private meetings](#allow-meet-now-in-private-meetings)
+- [Meet now in private meetings](#meet-now-in-private-meetings)
 - [Designated presenter role mode](#designated-presenter-role-mode)
 - [Engagement report](#engagement-report)
 - [Meeting registration](#meeting-registration)
@@ -95,7 +95,7 @@ This is a per-user policy and applies before a meeting starts. This setting cont
 
 Note that if you turn off **Allow scheduling private meetings** and **Allow channel meeting scheduling**,  the **Add required attendees** and **Add channel** options are disabled for users in Teams. By default, this setting is turned on.
 
-## Allow Meet now in private meetings
+## Meet now in private meetings
 
 This is a per-user policy and applies before a meeting starts. This setting controls whether a user can start an ad hoc private meeting.  By default, this setting is turned on.
 
