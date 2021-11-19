@@ -51,7 +51,7 @@ You must be a Teams admin to make these changes. See [Use Teams administrator ro
 
 ### Using PowerShell
 
-Admins can now control whether specific users or groups of users can let anonymous users join the meetings they organize. This new per-organizer policy is controlled by using the **-AllowAnonymousUsersToJoinMeeting** parameter in [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps). This comes with Teams PowerShell version 2.6.0 and later.
+Admins can now control whether specific users or groups of users can let anonymous users join the meetings they organize. This new per-organizer policy is controlled by using the **-AllowAnonymousUsersToJoinMeeting** parameter in [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps). This comes with Teams PowerShell version 2.6.0 and later.
 
 You can use either policy, organization-wide or per-organizer, to manage anonymous join. We recommend that you implement the per-organizer policy. The organization-wide policy setting will be deprecated in the future and the per-organizer policy will be the only way to control anonymous join.
 
@@ -62,7 +62,7 @@ Since both the organization-wide and per-organizer policies control anonymous jo
 
 Any other combination of values will prevent anonymous users from joining meetings.
 > [!NOTE]
-> To use the per-organizer policy for organizations with anonymous join turned off per organization, admins need to create a policy and then assign it to users. To learn how to do that, see [Manage meeting policies in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/meeting-policies-overview).
+> To use the per-organizer policy for organizations with anonymous join turned off per organization, admins need to create a policy and then assign it to users. To learn how to do that, see [Manage meeting policies in Microsoft Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-overview).
 
 
 ## Allow anonymous users to interact with apps in meetings
