@@ -31,25 +31,17 @@ Some configuration/installation procedures require you to log in to the device a
 To log in to the device as Administrator (local administrator): 
 
 1. Ensure you hang up any ongoing calls and return to the home screen. 
-1. In the Microsoft Teams Room user interface, click the **More** icon then click **Settings** icon where you'll be prompted for the local Administrator password on the device (the default password is ***sfb***). 
+1. In the Microsoft Teams Room user interface, select  **More** <insert icon here> then select **Settings** <insert icon here> where you'll be prompted for the local Administrator password on the device (the default password is ***sfb***). 
+ 
 
-![alt text1](media/software-installation.001.jpg) 
+1. Select **Settings**, then select  **Windows Settings**  to access Windows as local administrator.  
 
-
-
-
-![alt text2](media/software-installation.002.jpg) 
-
-1. Click **Settings**, then click the **Windows Settings** button to access Windows as local administrator.  
-
-![alt text3](media/software-installation.003.jpg) 
 
 1. From the list of users displayed in the Windows login screen, select  **Administrator** (or the respective local administrator of your device). 
 
-![alt text4](media/software-installation.004.jpg) 
 
-**Note**: If the computer is *domain joined*, choose **Other User**, then use **.\admin**, or the user name of the local administrator configured in the device as the user name.  
-
+[!NOTE] 
+ If the computer is *domain joined*, choose **Other User**, then use **.\admin**, or the user name of the local administrator configured in the device as the user name.  
 
 
 To return to the Microsoft Teams Room app after performing the necessary administrative tasks: 
@@ -57,21 +49,23 @@ To return to the Microsoft Teams Room app after performing the necessary adminis
 1. From the Windows ***Start menu***, sign out from the Admin account. 
 1. Return to Microsoft Teams Room by selecting the user account icon on the far left side of the screen and then selecting **Skype**. 
 
- [!NOTE] If the Skype user is not listed, select Other User and enter ***.\skype*** as the user name, and sign in. 
+ [!NOTE] 
+ If the Skype user is not listed, select Other User and enter ***.\skype*** as the user name, and sign in. 
 
 
 ## Prerequisites 
-Follow these procedures to set up your hardware before attempting the enrollment proces:
+Follow these procedures to set up your hardware before attempting the enrollment process:
 
 ### Adding proxy settings (optional) 
 1. Log in as administrator by following [Performing operations as the Admin user of the MTR device](#performing-operations-as-the admin-user-of-the-mtr-device). 
-1. In the Windows ***Search*** field (bottom-left section of the screen), enter **cmd** (either long press the screen or right click, and choose ***Run as administrator***).  
+1. In the Windows ***Search*** field (bottom-left section of the screen), enter **cmd** (either long press the screen or right select, and choose ***Run as administrator***).  
 1. Run the following command (double quotes at end of command are important:
-   -. If using single ***proxy server***:  bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL\_PROXY <proxyserver>:<port> "" 
+   
+  - If using single ***proxy server***:  bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL\_PROXY <proxyserver>:<port> "" 
 
     *Example:* bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL\_PROXY contosoproxy.corp.net:8080 ""* 
 
-1. If using a ***pac*** file:  bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT <pac file url> "" 
+ - If using a ***pac*** file:  bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT <pac file url> "" 
 
     *Example:* bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT http://contosoproxy.corp.net/proxy.pac "" 
 
@@ -115,8 +109,8 @@ mmrprodnoamstor.blob.core.windows.net<br>
 The Enrollment process involves a few steps:  
 
 1. On the left navigation bar of the Microsoft Teams Rooms – Managed Services portal [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/), expand **Settings** and select **General**.  
-1. Under *Self-Enrollment keys*, click **Download installer** hyperlink https://aka.ms/serviceportalagentmsi to download the monitoring agent software. 
-1. Also under *Self-Enrollment keys* section, click **Download Key**. Place the key file under the **C:\Rigel** folder on each device you are enrolling.  
+1. Under *Self-Enrollment keys*, select **Download installer** hyperlink https://aka.ms/serviceportalagentmsi to download the monitoring agent software. 
+1. Also under *Self-Enrollment keys* section, select **Download Key**. Place the key file under the **C:\Rigel** folder on each device you are enrolling.  
 1. ***Optional*:** Set up proxy settings for the agent *– see* *previous section Adding Proxy Settings (optional)* 
 1. Install the agent installer (downloaded in step 2) on MTR units, either by running the MSI locally on an MTR device or via your normal means of publishing MSI applications en masse to devices within your environment (Group-Policy etc.)  
 1. The room appears in the portal within 5-10 minutes. If it does not, contact managedroomsupport@microsoft.com.  
@@ -124,59 +118,40 @@ The Enrollment process involves a few steps:
 ![alt text](media/software-installation.005.jpg) 
 
 
-### Installation  
+## Installation  
 After downloading the installer from Microsoft (either from the portal or by using the AKA.ms URL provided above), unzip its contents to access the file **ManagedRoomsInstaller.msi**. 
 
-There are two modes of installation —  individual local machine install and mass deploy mode (usually via group policy of similar method). We recommend individual install for non-domain joined machines or for machines that you have no way of running MSI installers remotely.  
+There are two modes of installation—individual local machine install and mass deploy mode (usually via group policy of similar method). We recommend individual install for non-domain joined machines or for machines that you have no way of running MSI installers remotely.  
 
 Due to the many varied ways in which customers can run MSI applications in mass deployment mode this document will only walk through installation in individual mode.  
 
- [!NOTE] The installer program flow is the same, no matter what mode is being run. The only slight difference is that the install does not request a user to press the next and close buttons in mass deploy mode.  
+ [!NOTE]
+ The installer program flow is the same, no matter what mode is being run. The only slight difference is that the install does not request a user to press the next and close buttons in mass deploy mode.  
 
 
-## Individual Device&mdash;  Domain Joined Walkthrough  
-As primary step, you must log in the device as administrator – ensure the *Performing operations as the Admin user of the device* steps are followed. 
+## Individual Device&mdash; Domain-joined walkthrough  
+1. Log in the device as administrator – ensure the *Performing operations as the Admin user of the device* steps are followed. 
 
-Next, as mentioned previously, copy the following files to the MTR device: 
+1. Copy the following files to the MTR device: 
 
 - Place the ‘Self-Enrollment key’ (previously downloaded from the portal) on the **C:\Rigel** directory of the device. 
-- Copy the **ManagedRoomsInstaller.msi** (previously downloaded from the portal or from the AKA.MS) to the device  
+- Copy the **ManagedRoomsInstaller.msi** (previously downloaded from the portal or from the AKA.MS) to the device. 
 
 
 
-On running the ***ManagedRoomsInstaller.msi***, you will see a License Agreement screen. After reading the agreement, check ***I accept the terms in the License Agreement*** and press the **Install** button.  
+3. On running the ***ManagedRoomsInstaller.msi***, you will see a License Agreement screen. After reading the agreement, check ***I accept the terms in the License Agreement*** and press the **Install** button.  
 
+    This begins the Microsoft Teams Rooms – Managed Services monitoring software install. A prompt for elevation (run as administrator) is displayed.
+    
+ 1. Select ***Yes***. 
+ 
+    The installation will continue. During the installation procedure, a console window opens and begins the final stage of the Microsoft Teams Rooms – Managed Services monitoring software installation.  
+    
+    [!NOTE]
 
+    Do not close the window. Once the installation is complete, the wizard displays a “Finish” button.   
 
-
-
-
-
-
-
-This will begin the Microsoft Teams Rooms – Managed Services monitoring software install. You will see a prompt for elevation (run as administrator). Select ***Yes*** button. The install will continue.  
-
-
-
-
-
-
-
-
-
-
-
-During the installation procedure, a console window will open and begin the final stage of the Microsoft Teams Rooms – Managed Services monitoring software install.  Please allow this window to close on its own.  
-
-
-
-
-
-
-
-Once the installation is complete, the wizard should display a “Finish” button.   
-
-Press **Finish**.  
+1. Press **Finish**.  
 
 
 
@@ -194,37 +169,34 @@ After the install is complete, wait 5-10 minutes and refresh the portal and the 
 
 In *Onboarding* state, the status of the room is displayed and updated but it won't raise any alerts or create investigation tickets. 
 
-***Click*** in the room and click **Enroll** button to start getting incident alerts, investigation tickets, or to report an incident: 
-
-
-
-
-
-
+Choose the room and select **Enroll**  to start getting incident alerts, investigation tickets, or to report an incident. 
 
 For any questions or issues, please open a customer reported incident in the portal or contact managedroomsupport@microsoft.com. 
 
 
 # Unenrolling and uninstalling the monitoring software  
-To unenroll the device, remove the monitoring agent from the MTR device: 
+To unenroll the device, remove the monitoring agent from the MTR device as follows: 
 
 1. On the device being monitored, log in the device as administrator – ensure the *Performing operations as the Admin user of the device* steps are followed. 
 1. Download reset script from [aka.ms/MTRPDeviceOffBoarding](https://aka.ms/MTRPDeviceOffBoarding).
 1. Extract the script somewhere on the device and copy path 
-1. Open PowerShell as administrator: In the Windows ***Search*** *box* (bottom-left section of the screen), type ‘Powershell’ and right click ***Windows PowerShell*** and select *“Run as Administrator”* and accept UAC prompt.* 
-1. Type *Set-ExecutionPolicy –ExecutionPolicy RemoteSigned* and press Enter, then Y on next prompt.*  
+1. Open PowerShell as administrator: In the Windows ***Search*** field (bottom-left section of the screen), enter ‘Powershell’ and right-click ***Windows PowerShell*** 
+1. Select *“Run as Administrator”* and accept UAC prompt. 
+1. Enter *Set-ExecutionPolicy –ExecutionPolicy RemoteSigned* , then press **Y** on next prompt.  
 1. Paste or type the full path to the unzipped offboarding script into the PowerShell window and press Enter. For example: 
 
-*C:\Users\admin\Downloads\MTRP\_Device\_Offboarding\MTRP\_Device\_Offboarding.ps1*  
+   *C:\Users\admin\Downloads\MTRP\_Device\_Offboarding\MTRP\_Device\_Offboarding.ps1*  
 
-  >>This resets the device to user standard MTR updates and remove the MTRP monitoring agent and files 
+   This resets the device to user standard MTR updates and removes the MTRP monitoring agent and files. 
 
-7. From the left menu in the Microsoft Teams Rooms – Managed Services portal, select **Rooms**.  
-8. In the list of rooms provided, ***Click*** in the room you want to unenroll and click **Unenroll** button to stop getting incident alerts, investigation tickets, or to report an incident for the room. 
+7. From the left-hand menu in the Microsoft Teams Rooms – Managed Services portal, select **Rooms**.  
+8. In the list of rooms provided, choose the room you want to unenroll and select **Unenroll** to stop getting incident alerts or investigation tickets, or to report an incident for the room. 
 
 
 ## Troubleshooting table  
-**Note**: All Microsoft Teams Rooms – Managed Services monitoring errors are logged on a specific Event Log file named **Microsoft Managed Rooms**.  
+[!NOTE]
+
+All Microsoft Teams Rooms – Managed Services monitoring errors are logged on a specific Event Log file named **Microsoft Managed Rooms**.  
 ### ***Application runtime log file location*** =  
 C:\Windows\ServiceProfiles\LocalService\AppData\Local\ServicePortalAgent\ app-x.x.x\ServicePortalAgent\ServicePortal\_Verbose\_LogFile.log (Note: x.x.x = app version number)  
 
