@@ -146,7 +146,7 @@ When a recording fails to upload to OneDrive or SharePoint, the Teams applicatio
 
 ## Related topics
 
-[Change meeting expiration date - User-level Controls](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date)
+[Change meeting expiration date - end-user controls](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date)
 
 [Manage meeting policies in Teams](meeting-policies-overview.md)
 
