@@ -24,9 +24,9 @@ f1keywords:
 # Microsoft managed meeting rooms portal 
 
 ## Overview 
-The Managed Meeting Rooms Portal (“Rooms Portal”) provides a view of the health of your meeting rooms. This portal is for supporting you as part of Meeting Rooms Trial program. We are releasing a customer view of this portal for your visibility and feedback, and to facilitate your existing monitoring tools/practices. 
+The Managed Meeting Rooms Portal (“Rooms Portal”) provides a view of the health of your meeting rooms. A customer view of this portal is for your visibility and feedback, and to facilitate your existing monitoring tools/practices. 
 
-The scope of the current release is: 
+These two views are the scope of the current release: 
 
 **View of incidents** 
 
@@ -39,17 +39,16 @@ The scope of the current release is:
 - Snapshot of status at Microsoft Teams Rooms (MTR) device level 
 - Basic history and details for every device 
 
-This document provides an overview of the Managed Meeting Rooms Portal (Private Preview) functionality for the current release. 
 
 Important Reminder: 
 
-- Review this section and make sure that access to the portal is limited based on your business needs. 
+- Review [Access control: Adding Managed Service Administrator roles in the service portal](#access-control-adding-managed-service-administrator-roles-in-service-portal) and make sure that access to the portal is limited to your business needs. 
 
 
 
 
 ## Terminology 
-This is a quick review of the frequently used terms in the portal. 
+Here are frequently used terms in the portal. 
 
 
 
@@ -62,12 +61,12 @@ This is a quick review of the frequently used terms in the portal.
 |<p>**Healthy /** </p><p>**Unhealthy** </p>|Abnormalities in device / peripheral. |
 |**Suppressed** |If a device is known to be in maintenance, and its alerts should be ignored, the device can be suppressed deliberately.  |
 |**Onboarding** |The state of a room device while it is getting setup added, but is not ready as a regularly supported room.  |
-|**Incident** |An issue affecting meeting experiences of end users that needs action. |
+|**Incident** |An issue affecting meeting experiences of end users that need action. |
 |**Misconfigured** |Configuration detected is not  correct / commonly used. |
 |**Support Ticket** |Internal Microsoft tracking identifier that tracks all communications / actions regarding an incident. |
 
 
-# Incidents view 
+## Incidents view 
 This view is an overview of the Incidents tab in your Managed Rooms Portal. This page is the default home page of the portal.  
 
 ### Top-level summary 
@@ -99,9 +98,9 @@ Incidents are expected to be in one of three states:
 ### Reviewing Incidents 
 The following table  lists all the incidents that are currently active in your rooms. The ones that are assigned to you *are on the top* – these are what you need to look at for next steps. In addition, the ones assigned to Microsoft or pending investigation have details that you can use to intervene. 
 
-![Figure 2](media/rooms-portal-guide.002new b.png) 
 
-If you click on any of items that have status “**Needs action**”, you will see additional details about the incident. 
+
+If you select on any of items that have status “**Needs action**”, you will see additional details about the incident. 
 
 ![Figure 3](media/rooms-portal-guide.003.jpg) 
 ## Types of Incidents 
@@ -149,6 +148,7 @@ Incidents with Severity = “Warning”
 
 
 ## Responding to Incidents 
+Incidents fall into three categories: Needs Action, Pending Investigation, or Assigned to Microsoft.
 
 ### “Needs Action” Incidents 
 
@@ -156,11 +156,11 @@ Incidents that have status set to **“Needs Action”** are assigned to you to 
 
 Each such incident will have an action field with a recommended action from Microsoft as follows: 
 
-![Figure 5](media/rooms-portal-guide.005.jpg) 
+<!--![Figure 5](media/rooms-portal-guide.005.jpg) -->
 
 
 
-- If you have taken the action, you can respond to the incident with your notes in the Respond box, then click “Assign to Microsoft” before posting. 
+- If you have taken the action, you can respond to the incident with your notes in the Respond box, then choose “Assign to Microsoft” before posting. 
 - It is also possible that the notification is incorrect based on your review. In that case, please provide that feedback and assign back to Microsoft. 
 - Finally, if you want to add a comment to provide additional context for your own team or for Microsoft team, post the message without turning on “Assign to Microsoft“. 
 
@@ -176,7 +176,7 @@ For the incidents under investigation, the description field holds information a
 ### “Assigned to Microsoft” Incidents 
 For the incidents assigned to Microsoft, the “Action” field will contain brief details about corrective steps either planned or progressed. These steps might need collaboration with your team and extended collaboration will be done through email/calls as needed. Once these issues are resolved, they will disappear from the portal and in future, there will be history to track such incidents and their resolution. 
 
-![Figure 6](media/rooms-portal-guide.006.jpg) 
+<!--![Figure 6](media/rooms-portal-guide.006.jpg) -->
 ## Rooms View 
 Each device is a proxy for a room and its connected peripherals. A healthy device represents a healthy room and an unhealthy device represents a room likely causing problems during meetings. 
 
@@ -184,7 +184,7 @@ In addition to the Incidents view, Managed Rooms Portal also provides a room hea
 ### Room: Healthy, Unhealthy, Disconnected 
 The top panel on the Rooms view provides a quick snapshot of how many of your devices are in a good state(“Healthy”), how many are affected by issues(“Unhealthy”), how many are not providing telemetry (“Disconnected”), and how many devices are suppressed from alerting (as an override). 
 
-![Figure 7](media/rooms-portal-guide.007.jpg) 
+<!--![Figure 7](media/rooms-portal-guide.007.jpg)  -->
 
 Rooms are being monitored for health using an evolving criteria and heuristics. The goal is to reflect the reality of the user experience in the room as accurately as possible and make it actionable. 
 
@@ -206,11 +206,12 @@ The device *Status* tab provides a consolidated view of status of a device, all 
 
 
 
-![Figure 8](media/rooms-portal-guide.008.jpg)
-### Room: Incident History 
-To see the incident history, click on each incident type. This meant to provide a view of currently active incidents and history of these symptoms on the device. Repeated incidents point usually to an unresolved underlying root cause. 
+<!--![Figure 8](media/rooms-portal-guide.008.jpg) -->
 
-![Figure 9](media/rooms-portal-guide.009.jpg) 
+### Room: Incident History 
+To see the incident history, select each incident type. This meant to provide a view of currently active incidents and history of these symptoms on the device. Repeated incidents point usually to an unresolved underlying root cause. 
+
+<!--![Figure 9](media/rooms-portal-guide.009.jpg)  -->
 
 
 
@@ -218,65 +219,62 @@ To see the incident history, click on each incident type. This meant to provide 
 ### Room: Device details 
 The *Room details* tab provides helpful context about the device to help in troubleshooting. It is meant to help with sending the right support experts to a room if needed, or to detect patterns of repeated failure. 
 
-![Figure 10](media/rooms-portal-guide.010.jpg) 
+<!--![Figure 10](media/rooms-portal-guide.010.jpg) --> 
+
 ### Room: Activity 
 The room activity tab is meant to provide visibility into any activity performed by the Managed Rooms service on the device. Initially, it will show the logs collected from the device for audit purposes. You can download these logs from the portal as well. 
 
 
 
-![Figure 11](media/rooms-portal-guide.011.jpg) 
-# Access Control: Adding MMR Admin Roles in Service Portal 
+<!--![Figure 11](media/rooms-portal-guide.011new.png) --> 
+### Access control: Adding Managed Service Administator roles in the service portal 
 
 
-1. Log in with your tenant user account to service portal 
-1. Navigate to the settings panel 
-1. You will see a new component for adding MMR Administrator role for MMR users for your tenant.  
-
-<![Figure 12](media/rooms-portal-guide.012.jpg) 
-
-4. Clicking on the "MMR Administrator" text takes you to the following experience.   
+1. Log in with your tenant user account to ervice portal. 
+1. Navigate to the Settings panel.
+1. Click "Managed Service Administrator" text takes you to the following experience.   
 
 
 ![Figure 13](media/rooms-portal-guide.013.jpg) 
 
 
 
-5. You can click on "Add Member" link the experience to add the email address of the users you want to add to this role. You must do this one user at a time.  
+5. Select  "Add Member"  to add the email address of the users you want to add to this role. You must do this one user at a time.  
 
-![Figure 14](media/rooms-portal-guide.014.jpg) 
+<![Figure 14](media/rooms-portal-guide.014.jpg)  -->
 
 
-## Access Control for the Portal: Set Policy 
+### Access control for the portal: Set Policy 
 Important: Please review this section and make sure that access to the portal is limited based on your business needs. 
 
-1. Navigate to Azure Portal and click on Azure Active Directory 
+1. Navigate to Azure portal and select Azure Active Directory. 
 
-![Figure 15](rooms-portal-guide.015.jpg) 
-
-
-
-1. Select Enterprise Applications 
-
-![Figure 16](media/rooms-portal-guide.016.jpg) 
+![Figure 15](media/rooms-portal-guide.015.jpg) 
 
 
 
-1. Select FastTrack Rooms in the Application List 
+1. Select Enterprise Applications.
+
+![Figure 16](media/rooms-portal-guide.016.jpg)  
 
 
 
-![Figure 17](rooms-portal-guide.017.jpeg)
+1. Select FastTrack Rooms in the Application List.
+
+
+
+![Figure 17](media/rooms-portal-guide.017.jpg) 
 
 
 
 ![Figure 18](media/rooms-portal-guide.018.jpg) 
 
-1. Within FastTrack Rooms, go to the "Properties" tab, and check "User Assignment Required" 
+1. Within FastTrack Rooms, select the **Properties** tab, and check **User Assignment Required**. 
 
 
 
 1. Navigate to “Users and Groups” to control access to the application. Currently, role assignment is not relevant to the program and does NOT have any effect on user privileges. 
 
-![Figure 19](media/rooms-portal-guide.019.jpg) 
+<!--![Figure 19](media/rooms-portal-guide.019.jpg) -->
 
 
