@@ -24,7 +24,7 @@ Microsoft Teams Essentials is a new subscription plan for small and medium-sized
 
 
 > [!IMPORTANT]
-> This guide is for small and medium-sized businesses using a Microsoft Teams Essentials subscription plan **purchased directly from  [Microsoft.com](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options)** and doesn't apply to Teams Essentials managed through a [Cloud Solution Provider](https://partner.microsoft.com/en-US/membership/cloud-solution-provider/find-a-provider).
+> This guide is for small and medium-sized businesses using a Microsoft Teams Essentials subscription plan **purchased directly from  [Microsoft.com](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options)** and doesn't apply to Teams Essentials managed through a [Cloud Solution Provider](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider).
 
 ### Getting started with Microsoft Teams Essentials
 
@@ -34,7 +34,7 @@ To get started with Teams Essentials, follow these steps:
 
 1. **Purchase the subscription.** Go to [Microsoft Teams Essentials for small business](https://www.microsoft.com/microsoft-teams/free) and select **Buy now** under Microsoft Teams Essentials.
 2. **Sign up with your existing email address.** Use an existing email address and follow the instructions to purchase user licenses.
-3. **Review Teams service description.** Visit [Microsoft Teams service description](office365/servicedescriptions/teams-service-description) to learn more about Microsoft Teams.
+3. **Review Teams service description.** Visit [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description) to learn more about Microsoft Teams.
 
 When you've completed these tasks, you're ready to plan, deploy, and use the Teams app.
 
