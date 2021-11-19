@@ -31,7 +31,7 @@ This article describes the following meeting policy settings related to content 
 - [Screen sharing mode](#screen-sharing-mode)
 - [Allow a participant to give or request control](#allow-a-participant-to-give-or-request-control)
 - [Allow an external participant to give or request control](#allow-an-external-participant-to-give-or-request-control)
-- [Allow PowerPoint sharing](#allow-powerpoint-sharing)
+- [PowerPoint sharing](#powerpoint-sharing)
 - [Allow whiteboard](#allow-whiteboard)
 - [Allow shared notes](#allow-shared-notes)
 
@@ -95,13 +95,13 @@ Whether federated users can give control to external users while sharing is cont
 
 To use PowerShell to control whether external participants can give control or accept requests for control, use the AllowExternalParticipantGiveRequestControl cmdlet.
 
-### Allow PowerPoint sharing
+### PowerPoint sharing
 
 This is a per-user policy. This setting controls whether the user can share PowerPoint slide decks in a meeting. External users, including anonymous, guest, and federated users, inherit the policy of the meeting organizer.
 
 Let's look at the following example.
 
-|User |Meeting policy  |Allow PowerPoint sharing |
+|User |Meeting policy  |PowerPoint sharing |
 |---------|---------|---------|
 |Daniela   | Global   | On       |
 |Amanda   | Location1MeetingPolicy        | Off   |
