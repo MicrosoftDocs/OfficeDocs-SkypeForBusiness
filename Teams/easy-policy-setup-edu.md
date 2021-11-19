@@ -197,31 +197,31 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 |---------|---------|---------|---------|---------|
 |Teams policy   |         |Create private channels         |Off       |On|
 |Meetings policy    |General         |Allow Meet now in channels         |Off      |On|
-|  |        |Allow the Outlook add-in         |Off       |On|
-|  |        |Allow channel meeting scheduling        |Off      |On|
-|  |        |Allow scheduling private meetings       |Off      |On|
-|  |        |Allow meeting registration              |On       |On|
+|  |        |Outlook add-in         |Off       |On|
+|  |        |Channel meeting scheduling        |Off      |On|
+|  |        |Private meeting scheduling       |Off      |On|
+|  |        |Meeting registration              |On       |On|
 |  |        |Who can register    |Everyone in the organization      |Everyone in the organization|
 |  |Audio & video        |Allow transcription        |On       |On|
-|  |        |Allow cloud recording         |Off      |On|
+|  |        |Cloud recording         |Off      |On|
 |  |        |Mode for IP audio       |Outgoing and incoming audio enabled        |Outgoing and incoming audio enabled|
 |  |        |Mode for IP video         |Outgoing and incoming video enabled     |Outgoing and incoming video enabled|
-|  |       |Allow IP video         |On         |On|
+|  |       |IP video         |On         |On|
 |  |       |Allow NDI streaming         |Off         |Off|
 |  |       |Media bit rate (Kbs)         |50,000         |50,000|
 |  |Content sharing       |Screen sharing mode         |Entire screen         |Entire screen|
 |  |       |Allow a participant to give or request control         |On         |On|
 |  |       |Allow an external participant to give or request control         |On         |On|
-|  |       |Allow PowerPoint sharing        |On         |On|
-|  |       |Allow whiteboard         |On         |On|
-|  |       |Allow shared notes         |On        |On|
+|  |       |PowerPoint sharing        |On         |On|
+|  |       |Whiteboard         |On         |On|
+|  |       |Shared notes         |On        |On|
 |  |Participants & guests       |Let anonymous people start a meeting       |Off         |On|
 |  |       |Roles that have presenter rights in meetings        |EveryoneUserOverride         |EveryoneUserOverride|
 |  |       |Automatically admit people        |EveryoneInCompany|EveryoneInCompany|
 |  |       |Allow dial-in users to bypass the lobby        |Off         |Off|
-|  |       |Allow Meet now in private meetings        |Off         |On|
-|  |       |Enable live captions       |Disabled but user can override         |Disabled but user can override|
-|  |       |Allow chat in meetings         |On         |On|
+|  |       |Meet now in private meetings        |Off         |On|
+|  |       |Live captions       |Disabled but user can override         |Disabled but user can override|
+|  |       |Chat in meetings         |On         |On|
 |Live events policy  |       |Allow scheduling         |Off         |Off|
 |  |       |Allow transcription for attendees          |On       |On|
 |  |       |Who can join scheduled live events        |Everyone in organization        |Everyone in organization|
@@ -246,7 +246,7 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 |  |       |Third-party apps         |Allow all apps         |Allow all apps|
 |  |       |Custom apps         |Allow all apps         |Allow all apps|
 |App setup policy  |           |Upload custom apps           |Off         |Off|
-|  |       |Allow user pinning |On         |On|
+|  |       |User pinning |On         |On|
 |  |       |Installed apps         |None         |None|
 |  |       |Pinned apps         |Activity, Calendar, Teams         |Activity, Chats, Teams, Calendar, Calling, File
 |Calling policy  |       |Make private calls         |Off        |On|
