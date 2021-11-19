@@ -373,8 +373,6 @@ items:
               href: view-guests.md
             - name: Edit guest information
               href: edit-guests-information.md
-            - name: Troubleshoot guest access
-              href: troubleshoot-guest-access.md
     - name: Monitor and manage call quality
       items: 
         - name: Monitor and improve call quality
