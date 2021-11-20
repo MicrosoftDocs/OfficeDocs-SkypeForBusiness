@@ -165,6 +165,8 @@ You can use Teams live events in multiple regions across the world. The followin
 - Germany
 - India
 - Japan
+- Norway
+- Singapore
 - South Africa
 - South Korea
 - Switzerland
@@ -173,7 +175,6 @@ You can use Teams live events in multiple regions across the world. The followin
 
 **These countries/regions and clouds aren't supported**
 
-- Norway
 - Government Community Cloud (GCC)-H
 - Department of Defense (DOD)
 
