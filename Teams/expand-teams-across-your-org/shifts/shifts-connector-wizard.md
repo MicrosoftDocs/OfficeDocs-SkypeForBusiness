@@ -39,7 +39,7 @@ In this article, we walk you through how to run the wizard to set up a Shift to 
 
 ## Before you begin
 
-You must be a Microsoft 365 global admin or Shifts connector admin to run the wizard. Before you get started, make sure you have the following prerequisites:
+You must be a Microsoft 365 global admin to run the wizard. Before you get started, make sure you have the following prerequisites:
 
 - You have Blue Yonder version 2020.3 or 2021.
 - Federated SSO authentication is enabled in your Blue Yonder environment.

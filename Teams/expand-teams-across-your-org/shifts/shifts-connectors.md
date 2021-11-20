@@ -35,41 +35,42 @@ Data flows via the connector both ways to ensure schedules are always up to date
 
 ## Managed Shifts connectors
 
-Managed Shifts connectors are connectors that we built in collaboration with our partners. Managed connectors are owned, hosted, and managed either by us or our partners. With managed connectors, integration is easy as only minimal setup is needed.
+Managed Shifts connectors are connectors that we build in collaboration with our partners. Managed connectors are hosted and managed either by us or our partners. With managed connectors, integration is easy as only minimal setup is needed.
 
 ### Shifts to Blue Yonder connector
 
-The Shifts to Blue Yonder connector is hosted and managed by us and supports Blue Yonder 2020.3 and later versions.
+The Shifts to Blue Yonder connector is hosted and managed by Microsoft. With the connector, you can integrate Shifts with Blue Yonder 2020.3 and later versions to manage your schedules and keep them up to date.
 
-With this connector, integrating Shifts with Blue Yonder takes just a few steps.  You can use the Shifts connector wizard in the Microsoft 365 admin center to quickly and easily set up a connection. The wizard configures the connector, creates the connection, and applies the sync settings and team mappings that you choose. If you prefer to use PowerShell, we also provide PowerShell scripts that you can use to get connected.
+Frontline managers can:
+
+- Publish shifts and schedules in Blue Yonder and view them in Shifts.
+- Create, manage, and assign open shifts in Blue Yonder and view them in Shifts.
+- Create, edit, and delete time off in Blue Yonder and view them in Shifts.
+- View schedule requests from workers and approve them in Blue Yonder and in Shifts.
+- Create and update worker availability in Blue Yonder.
+
+Frontline workers can:
+
+- See their own and their team's shifts and schedules in Shifts.
+- Request time off, open shifts, and swap shifts in Shifts.
+- Set their availability in Shifts.
+
+#### Example scenario
+
+Eden, a manager, publishes a schedule in Blue Yonder, which is synced to Shifts in Teams through the connector. Alex, a staff member, gets notified in Teams on his mobile device, and views his schedule and assigned shifts.
+
+Alex needs to take some time off and requests a day off using Shifts. The request is sent to Blue Yonder. Blue Yonder ensures that the request is compliant with business rules and the request is created. Eden sees and approves the request in Blue Yonder. (Eden can also see and approve the request in Shifts). Alex is notified in Shifts that his request is approved, and views his updated schedule.
+
+#### Set up a Shifts to Blue Yonder connection
+
+Integrating Shifts with Blue Yonder takes just a few steps.  You can use the Shifts connector wizard in the Microsoft 365 admin center to quickly and easily set up a connection. The wizard configures the connector, creates the connection, and applies the sync settings and team mappings that you choose. If you prefer to use PowerShell, we also provide PowerShell scripts that you can use to get connected.
 
 For step-by-step guidance, see:
 
 - [Use the Shifts connector wizard to connect your workforce management system](shifts-connector-wizard.md)
 - [Use PowerShell to connect Shifts to your Blue Yonder workforce management system](shifts-connector-blue-yonder-powershell-setup.md)
 
-After you set up a connection, you can update and change connection settings at any time, as needed. As for the connector itself, you don't need to worry about upgrades or maintenance. We take care of that.
-
-#### Scenarios
-
-- Frontline manager creates and publishes schedules in Blue Yonder. Schedules are synced to Teams through the connector. Frontline manager views copy of schedule in Teams.
-- Frontline worker gets notified of published schedule from Teams on their mobile device and views and manage manage their schedule in Teams. Any updates in BY are refreshed in Team, and FLW gets notified.
-- FLW requests time off. Request is sent to BY through the connector, BY ensures that the request can be processed. FLM gets notified, sees request in BY, and approves the request. Approval is synced back to Teams. FLW is notified that request is approved, and their schedule is updated. 
-Any updates in BY is synced to Teams.
-- FLW wants to swap shift with a coworker. Select from a list of shifts that qualify for a swap based on rules in BY. Coworker gets notified and accepts request in Teams. Manager sees request and approves in BY or Shifts. FLW's request is completed and schedule updated in Shifts.
-
-
-Frontline workers can easily view their schedule, swap shifts, and request schedule changes from within Shifts in Teams. For example, they can:
-
-- See their assigned shifts
-- Swap shifts
-- Set availability
-- Offer shifts
-- Request open shifts
-- Request time off
-
-Frontline managers can see workers' schedules and review requests for time off, shift swaps, and offers.
-
+After the connection is set up, you can update and change connection settings at any time, as needed. As for the connector itself, you don't need to worry about upgrades or maintenance. We take care of that.
 ### Shifts to Zebra-Reflexis connector
 
 The Shifts to Zebra-Reflexis connector, currently in private preview, is hosted and managed by Zebra.
