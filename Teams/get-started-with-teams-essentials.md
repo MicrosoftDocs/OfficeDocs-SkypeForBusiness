@@ -27,7 +27,7 @@ Microsoft Teams Essentials is a new subscription plan for small and medium-sized
 
 ### Getting started with Microsoft Teams Essentials
 
-Is your business new to Microsoft Teams? Thanks for choosing Microsoft! To get started, you'll want to start by purchasing Teams Essentials licenses for everyone. 
+Is your business new to Microsoft Teams? Thanks for choosing Microsoft! 
 
 To get started with Teams Essentials, follow these steps:
 
@@ -45,17 +45,70 @@ To do that, complete these three steps:
 
 3. **Plan for adoption.** For small businesses, planning for user adoption can be as simple as individually showing your users how to use Teams. Often, small business customers don't consider this step for new applications, which negatively affects the application's success and adoption.
 
-3.  **Manage Teams Essentials.** Similar to the free version of Microsoft Teams, you have a limited admin role as the first person to sign up for Teams Essentials in your organization. You can add and remove team members and specify whether anyone can invite another members with this role, but you won't have  advanced administrative capabilities or access to the Microsoft Teams admin center. To get the full set of Teams features, including enhanced administration, you'll need to upgrade to the full version of Teams by purchasing an appropriate [Microsoft 365 or Office 365 subscription plan](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options) for your users.
+3.  **Manage Teams Essentials.** Similar to the free version of Microsoft Teams, you have a limited admin role as the first person to sign up for Teams Essentials in your organization. You can add and remove team members and specify whether anyone can invite another members with this role, but you won't have  advanced administrative capabilities or access to the Microsoft Teams admin center.
 
 ## Limits and specifications for Microsoft Teams Essentials
 
 This section describes some of the limits and specifications that apply to Teams Essentials.
 
+### How does Microsoft Teams Essentials compare to other Microsoft Teams plans? 
+
+The following table lists the major Microsoft Teams features available across plans. Certain caveats apply. See the footnotes for further information. This table may change without notice. For the most up-to-date, complete list of features, visit  [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
+
+ 
+| | [**Microsoft Teams Free**](manage-freemium.md#manage-the-free-version-of-microsoft-teams) | [**Microsoft Teams Essentials** ](#getting-started-with-microsoft-teams-essentials) | [**Microsoft 365 Business Basic**](/microsoft-365/admin/setup/setup-business-basic?view=o365-worldwide)  |
+|---------|---------|---------|---------|
+|***Feature***     |         |         |         |
+| **Meeting and Calling** | Yes| Yes| Yes |
+| Unlimited group meetings |     Yes    |   Yes      |   Yes      |
+| Unlimited 1:1 calls |    Yes     |    Yes     |   Yes      |
+| Group meeting participant capacity |  100       |     300    |   300      |
+| Group meeting duration |    60 minutes     |    30 hours     |    30 hours     |
+| Screen sharing |   Yes      |    Yes     |    Yes     |
+| Customized Backgrounds |    Yes     |    Yes     |    Yes     |
+| Live transcription |    Yes     |    Yes     |   Yes      |
+| Schedule meetings |    Yes     |   Yes      |     Yes    |
+| Calendar app |    Yes     |      Yes   |     Yes    |
+| Together mode |     Yes   |      Yes   |     Yes    |
+| Live reaction |   Yes      |    Yes     |   Yes      |
+| Noise suppression |    Yes     |    Yes     |   Yes      |
+| Meeting attendees can join meetings without an account | Yes  |    Yes     |     No    |
+| Send meeting invites to a phone number |         |         |         |
+| Meeting recordings & transcripts |         |         |   Yes      |
+| Real-time translation |         |         |    Yes     |
+| Breakout rooms |         |         |   Yes      |
+| Whiteboard |         |         |  Yes       |
+| Host webinars that include attendee registration pages, email confirmations, and reporting. |     |     |   Yes    |
+| **Chat and collaboration**     |         |         |         |
+| Unlimited chat (private & group) |     Yes    |   Yes      |   Yes      |  
+| Real-time collaboration in Office apps |     Yes    |   Yes      |   Yes      |
+| Guest access: Chat w/anyone inside & outside your company|     Yes    |   Yes      |   Yes      |
+| Polls |     Yes    |   Yes      |   Yes      |
+| Group chat templates |     Yes    |   Yes      |   |
+| Teams and Channels |     |   |   Yes      |
+| **Productivity apps and services** |         |         |         |
+| File & document cloud storage (per user) |     5 GB    |   10 GB      |   1 TB     |
+| Word, Excel, PowerPoint web & mobile apps |     Yes   |   Yes      |   Yes      |
+| Google calendar sync |     Yes    |   Yes      |   Yes&sup1;      |
+| App Extensibility (250+ integrated apps & services) |     |        |   Yes      |
+| Exchange email hosting with customer email domain address |    |   |   50 GB|
+|**Security and compliance**     |         |         |         |
+| Microsoft Teams data encryption at rest and in transit |     Yes    |   Yes      |   Yes      |
+| Single sign-on to all services |         |     |   Yes      |
+|**Administration and support**     |         |         |         |
+| Administration tools for managing users, apps, settings & policies  |     |   |   Yes      |
+| Migrate existing data & users to Microsoft 365  |     |   |   |
+| Ability to add-on services including Audio Conferencing & Teams Phone |     |   |   Yes      |
+
+<sup>1</sup> Provides connection to Google Calendar and other 3rd party calendars with the following configuration: [Connect Google Calendar to Microsoft Teams](https://support.microsoft.com/en-us/office/use-google-calendar-in-teams-free-04efe2a4-bad6-439e-9ff1-85b0282b6a6a)
+
+> [!IMPORTANT] 
+> To get the full set of Teams features, including enhanced administration, you'll need to upgrade to the full version of Teams by purchasing an appropriate [Microsoft 365 or Office 365 subscription plan](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options) for your users.
 
 
-## Upgrade from Microsoft Teams free to Microsoft Teams Essentials
+## Upgrade from a free version of Microsoft Teams to Microsoft Teams Essentials
 
-If your organization is using the free version of Microsoft Teams, you can easily upgrade to the Teams Essentials version by purchasing a plan for your users directly in Teams.
+If your organization is using a free version of Microsoft Teams, you can easily upgrade to the Teams Essentials version by purchasing a plan for your users directly in Teams.
 
 #### Upgrade Requirements
 
@@ -64,25 +117,35 @@ You can upgrade to Microsoft Teams Essentials if you're the person who signed up
 > [!NOTE]
 > To upgrade and transfer your data, you have to buy your subscription through the Teams application [upgrade process](#how-do-i-upgrade-my-organization) outlined in this section.
 
+#### How do I upgrade my organization?
+
+Before you upgrade, you'll need to determine what version of Microsoft Teams free your organization is currently running. You can find this information by going into Teams and selecting your name icon from the top navigation bar. Once your name is selected, a drop down menu will appear with your version of Teams free highlighted at the top.
+
+![screenshot showing Upgrade button.](media/teams-freemium-upgrade-image1.png)
+
+To upgrade to the Microsoft Teams Essentials version of Teams, select the **Upgrade** button at the bottom of the drop down menu. Next, continue on to the steps for your specific version of Microsoft Teams free later in this section.
+
+##### Teams free (classic)
+
+After selecting the **Upgrade** button in Teams, you'll be directed here: [Compare Microsoft Teams Plans](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options)
+
+##### Teams free
+
+After selecting the **Upgrade** button in Teams, you'll be directed here: [Microsoft Teams for Small Business](https://www.microsoft.com/en-us/microsoft-teams/upgrade)
+
+Enter the current email address you use to sign into Teams, and then purchase the Microsoft Teams Essentials plan.
+
 #### Limitations
 
 Keep the following limitations in mind:
 
-- You can't switch back to Teams free after you upgrade.
+- You can't switch back to Teams free (classic) or Teams free after you upgrade.
 
-- You can't merge multiple Teams free tenants into a single paid tenant.
+- You can't merge multiple Teams free (classic) or Teams free tenants into a single paid tenant.
 
 - All users must be in the same domain. (All users will get a login in the format *username*@*domain.com*.)
 
-- All users must be upgraded: a mix of Teams free and paid subscription users in the same tenant isn't supported.
-
-#### How do I upgrade my organization?
-
-To upgrade to the Microsoft Teams Essentials version of Teams, select **Upgrade** in Teams.
-
-![screenshot showing Upgrade button.](media/teams-freemium-upgrade-image1.png)
-
-Enter the email address that you use to sign in to Teams, and then purchase the Microsoft Teams Essentials plan.
+- All users must be upgraded: a mix of Teams free (classic), Teams free, and paid subscription users in the same tenant isn't supported.
 
 
 ## More information
