@@ -1,7 +1,7 @@
 ---
 title: Teams Essentials QuickStart guide for small businesses 
 author: adeejoseph
-ms.author: adeejoseph
+ms.author: adjoseph
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -52,7 +52,7 @@ To do that, complete these three steps:
 The following table lists the major Microsoft Teams features available across plans. Certain caveats apply. See the footnotes for further information. This table may change without notice. For the most up-to-date, complete list of features, visit  [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
 
  
-| | [**Microsoft Teams Free**](manage-freemium.md#manage-the-free-version-of-microsoft-teams) | [**Microsoft Teams Essentials** ](#getting-started-with-microsoft-teams-essentials) | [**Microsoft 365 Business Basic**](/microsoft-365/admin/setup/setup-business-basic?view=o365-worldwide)  |
+|Microsoft Teams Plan | [**Microsoft Teams Free**](manage-freemium.md#manage-the-free-version-of-microsoft-teams) | [**Microsoft Teams Essentials** ](#getting-started-with-microsoft-teams-essentials) | [**Microsoft 365 Business Basic**](/microsoft-365/admin/setup/setup-business-basic?)  |
 |---------|---------|---------|---------|
 |***Feature***     |         |         |         |
 | **Meeting and Calling** | Yes| Yes| Yes |
