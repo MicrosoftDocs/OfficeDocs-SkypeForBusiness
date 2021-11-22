@@ -25,11 +25,11 @@ description: Learn how to use meeting policy settings to control meeting expirat
 
 The meeting policy settings that control whether users can start and schedule meetings and also control expiration of meetings scheduled by users. When a meeting join link and conference ID for a meeting expires, no one can join the meeting. The following meeting policy settings determine whether users can start and schedule meetings in Teams. We discuss the meeting settings in this article.
 
-- [Allow Meet now in channels](meeting-policies-in-teams-general.md#meet-now-in-channels): Controls whether a user can start an impromptu meeting in a channel.
-- [Allow channel meeting scheduling](meeting-policies-in-teams-general.md#channel-meeting-scheduling): Controls whether a user can schedule a meeting in a channel.
-- [Allow scheduling private meetings](meeting-policies-in-teams-general.md#private-meeting-scheduling): Controls whether a user can schedule a private meeting in Teams. A meeting is private when it's not published to a channel in a team.
-- [Allow the Outlook add in](meeting-policies-in-teams-general.md#outlook-add-in): Controls whether a user can schedule a private meeting from Outlook. A meeting is private when it's not published to a channel in a team.
-- [Allow Meet now in private meetings](meeting-policies-in-teams-general.md#meet-now-in-private-meetings): Controls whether a user can start an impromptu private meeting.
+- [Meet now in channels](meeting-policies-in-teams-general.md#meet-now-in-channels): Controls whether a user can start an impromptu meeting in a channel.
+- [Channel meeting scheduling](meeting-policies-in-teams-general.md#channel-meeting-scheduling): Controls whether a user can schedule a meeting in a channel.
+- [Private meeting scheduling](meeting-policies-in-teams-general.md#private-meeting-scheduling): Controls whether a user can schedule a private meeting in Teams. A meeting is private when it's not published to a channel in a team.
+- [Outlook add in](meeting-policies-in-teams-general.md#outlook-add-in): Controls whether a user can schedule a private meeting from Outlook. A meeting is private when it's not published to a channel in a team.
+- [Meet now in private meetings](meeting-policies-in-teams-general.md#meet-now-in-private-meetings): Controls whether a user can start an impromptu private meeting.
 
 By default, these settings are on. When any of these settings are turned off, any user who is assigned the policy can't start or schedule new meetings of that type. At the same time, the meeting join links and conference IDs of all existing meetings of that type that the user previously started or scheduled expire.
 
@@ -57,10 +57,10 @@ Here's a summary of how meeting expiration works for each of the meeting policy 
 
 |If you want to...&nbsp;&nbsp; |Do this&nbsp;&nbsp;&nbsp;&nbsp;  |Meeting join behavior&nbsp;&nbsp;&nbsp;&nbsp;  |
 |---------------------------|---------------------|---------|
-|Expire private Meet now meetings started by a user&nbsp;&nbsp;|Turn off **Allow Meet now in private meetings**.&nbsp;&nbsp;|No one can join private **Meet now** meetings started by the user.|
-|Expire private meetings scheduled by a user&nbsp;&nbsp;|Turn off **Allow scheduling private meetings** _and_ turn off **Allow the Outlook add-in**. &nbsp;&nbsp;|No one can join private meetings scheduled by the user. This prevents people from joining the following meetings:<ul><li>Private meetings that occurred in the past.</li><li>Private meetings that are scheduled for the future and have not yet occurred.</li><li>Future instances of recurring private meetings.</li></ul><br>Both **Allow scheduling private meetings** and **Allow the Outlook add-in** must be off to expire private meetings scheduled by a user. If one setting is off and the other is on, meeting join links and conference IDs of existing meetings remain active and won't be expired.|
-|Expire channel **Meet now** meetings started by a user&nbsp;&nbsp;|Turn off **Allow Meet now in channels** _and_ turn off **Allow channel meeting scheduling**.&nbsp;&nbsp;|No one can join channel **Meet now** meetings started by the user.|
-|Expire channel meetings scheduled by a user&nbsp;&nbsp;|Turn off **Allow channel meeting scheduling**.&nbsp;&nbsp;|No one can join channel meetings scheduled by the user. This prevents people from joining the following meetings:<ul><li>Channel meetings that occurred in the past.</li><li>Channel meetings that are scheduled for the future and haven't yet occurred.</li><li>Future instances of recurring channel meetings.</li></ul>|
+|Expire private Meet now meetings started by a user&nbsp;&nbsp;|Turn off **Meet now in private meetings**.&nbsp;&nbsp;|No one can join private **Meet now** meetings started by the user.|
+|Expire private meetings scheduled by a user&nbsp;&nbsp;|Turn off **Private meeting scheduling** _and_ turn off **Outlook add-in**. &nbsp;&nbsp;|No one can join private meetings scheduled by the user. This prevents people from joining the following meetings:<ul><li>Private meetings that occurred in the past.</li><li>Private meetings that are scheduled for the future and have not yet occurred.</li><li>Future instances of recurring private meetings.</li></ul><br>Both **Private meeting scheduling** and **Outlook add-in** must be off to expire private meetings scheduled by a user. If one setting is off and the other is on, meeting join links and conference IDs of existing meetings remain active and won't be expired.|
+|Expire channel **Meet now** meetings started by a user&nbsp;&nbsp;|Turn off **Meet now in channels** _and_ turn off **Channel meeting scheduling**.&nbsp;&nbsp;|No one can join channel **Meet now** meetings started by the user.|
+|Expire channel meetings scheduled by a user&nbsp;&nbsp;|Turn off **Channel meeting scheduling**.&nbsp;&nbsp;|No one can join channel meetings scheduled by the user. This prevents people from joining the following meetings:<ul><li>Channel meetings that occurred in the past.</li><li>Channel meetings that are scheduled for the future and haven't yet occurred.</li><li>Future instances of recurring channel meetings.</li></ul>|
 
 If you want people to access meetings that were previously scheduled or started by a particular user, you can:
 
