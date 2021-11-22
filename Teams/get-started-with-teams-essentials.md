@@ -68,7 +68,7 @@ The following table lists the major Microsoft Teams features available across pl
 | Together mode |     Yes   |      Yes   |     Yes    |
 | Live reaction |   Yes      |    Yes     |   Yes      |
 | Noise suppression |    Yes     |    Yes     |   Yes      |
-| Meeting attendees can join meetings without an account | Yes  |    Yes     |     No    |
+| Meeting attendees can join meetings without an account | Yes  |    Yes     |         |
 | Send meeting invites to a phone number |         |         |         |
 | Meeting recordings & transcripts |         |         |   Yes      |
 | Real-time translation |         |         |    Yes     |
