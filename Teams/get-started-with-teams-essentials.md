@@ -110,6 +110,8 @@ Here are a few important Teams Essentials limits and specifications to consider:
 
   - **Storage**: Teams Essentials uses OneDrive's personal cloud storage for file storage.
 
+Visit Microsoft Teams limits and specifications for a full list in Microsoft Teams, please 
+https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/limits-specifications-teams.md
 
 ## Upgrade from a free version of Microsoft Teams to Microsoft Teams Essentials
 
@@ -121,24 +123,6 @@ You can upgrade to Microsoft Teams Essentials if you're the person who signed up
 
 > [!NOTE]
 > To upgrade and transfer your data, you have to buy your subscription through the Teams application [upgrade process](#how-do-i-upgrade-my-organization) outlined in this section.
-
-#### How do I upgrade my organization?
-
-Before you upgrade, you'll need to determine what version of Microsoft Teams free your organization is currently running. You can find this information by going into Teams and selecting your name icon from the top navigation bar. Once your name is selected, a drop down menu will appear with your version of Teams free highlighted at the top.
-
-![screenshot showing Upgrade button.](media/teams-freemium-upgrade-image1.png)
-
-To upgrade to the Microsoft Teams Essentials version of Teams, select the **Upgrade** button at the bottom of the drop down menu. Next, continue on to the steps for your specific version of Microsoft Teams free later in this section.
-
-##### Teams free (classic)
-
-After selecting the **Upgrade** button in Teams, you'll be directed here: [Compare Microsoft Teams Plans](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options)
-
-##### Teams free
-
-After selecting the **Upgrade** button in Teams, you'll be directed here: [Microsoft Teams for Small Business](https://www.microsoft.com/en-us/microsoft-teams/upgrade)
-
-Enter the current email address you use to sign into Teams, and then purchase the Microsoft Teams Essentials plan.
 
 #### Limitations
 
@@ -152,6 +136,15 @@ Keep the following limitations in mind:
 
 - All users must be upgraded: a mix of Teams free (classic), Teams free, and paid subscription users in the same tenant isn't supported.
 
+#### How do I upgrade my organization?
+
+To upgrade to the Microsoft Teams Essentials version of Teams, select the **Upgrade** button at the bottom of the drop down menu. Next, continue on to the steps for your specific version of Microsoft Teams free later in this section.
+
+![screenshot showing Upgrade button.](media/teams-freemium-upgrade-image1.png)
+
+After selecting the **Upgrade** button in Teams, you'll be directed here: [Microsoft Teams for Small Business](https://www.microsoft.com/en-us/microsoft-teams/upgrade)
+
+Enter the current email address you use to sign into Teams, and then purchase the Microsoft Teams Essentials plan.
 
 ## More information
 
