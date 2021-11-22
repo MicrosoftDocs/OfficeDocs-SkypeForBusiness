@@ -2521,6 +2521,11 @@
      "redirect_document_id": false 
     },
     {
+      "source_path": "Teams/troubleshoot-guest-access.md",
+      "redirect_url": "/MicrosoftTeams/guest-access",
+      "redirect_document_id": false 
+     },
+     {
       "source_path": "Teams/administrative-unit.md",
       "redirect_url": "/MicrosoftTeams/",
       "redirect_document_id": false 
