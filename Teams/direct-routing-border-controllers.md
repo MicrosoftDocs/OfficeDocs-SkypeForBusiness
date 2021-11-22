@@ -32,7 +32,7 @@ Microsoft works with each vendor to:
 - Establish a joint support process with the SBC vendors.
 
   > [!NOTE]
-  > Microsoft only supports Phone System if a certified device or devices are connected through Direct Routing. In case of issues customer must contact SBC vendors customer support first. If needed, SBC vendor will escalate the issue to Microsoft via internal channels. Microsoft reserves the right to reject support cases where a non-certified device is connected to the Phone System through Direct Routing. If Microsoft determines that a customer’s Direct Routing issue is with a vendor’s SBC device, the customer will need to re-engage the SBC vendor for support.
+  > Microsoft only supports Phone System if a certified device or devices are connected through Direct Routing. In case of issues, customer must contact SBC vendors customer support first. If needed, SBC vendor will escalate the issue to Microsoft via internal channels. Microsoft reserves the right to reject support cases where a non-certified device is connected to the Phone System through Direct Routing. If Microsoft determines that a customer’s Direct Routing issue is with a vendor’s SBC device, the customer will need to re-engage the SBC vendor for support.
   >
   > The certification is granted to specific SBC firmware versions. Any SBC firmware version documented below is both certified and supported. Firmware versions that are higher than what is documented are supported as long as the major.minor version is the same.
   >
