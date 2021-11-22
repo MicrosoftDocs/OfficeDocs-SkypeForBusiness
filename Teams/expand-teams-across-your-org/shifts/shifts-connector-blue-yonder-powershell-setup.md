@@ -38,13 +38,28 @@ With Blue Yonder as the system of record, your frontline workers can see and swa
 
 ## Before you begin
 
-You must be a Microsoft 365 global admin or Shifts connector admin. Before you get started, make sure you have the following prerequisites:
+### Prerequisites
 
-- You have Blue Yonder version 2020.3 or 2021.
-- Federated SSO authentication is enabled in your Blue Yonder environment.
+Before you get started, make sure you have the following prerequisites:
+
+- Blue Yonder version 2020.3, 2021.1, or 2021.2. </br>If you have 2020.3 or 2021.1, we recommend applying the 2020.3.0.4 or 2021.1.0.3 patch. The patch has a fix required for users to update their availability in Shifts.
+- Blue Yonder service account name and password and service URLs. </br>If you don’t have this information, contact your Blue Yonder delivery partner or technical account manager. The account is created at the root enterprise level by a Blue Yonder enterprise administrator and must have APIAccess, Client Admin, and Store Manager access. The account and password are required to create a connection.
+- Federated SSO authentication is enabled in your Blue Yonder environment. Contact your Blue Yonder delivery partner or technical account manager to make sure federated SSO is enabled. They'll need the following information:
+
+    - federatedSSOValidationService: `https://amer.wfmconnector.teams.microsoft.com/api/v1/fedauth/{tenantId}/6A51B888-FF44-4FEA-82E1-839401E9CD74/authorize` where {tenantId} is your tenantId
+     - proxyHeader: X-MS-AuthToken
+
 - At least one team is set up in Teams.
+- Microsoft 365 service account for the Shifts connector.</br> Create this account in Azure Active Directory (Azure AD) and assign it a Microsoft 365 license. Then, add it as a team owner to all teams that you want to map. The Shifts connector uses this account when syncing Shifts changes from Blue Yonder.
 
-You'll also need to know your Blue Yonder service account name and password and service URLs. If you don’t have this information, contact your Blue Yonder delivery partner or technical account manager.
+    We recommend that you create a service account specifically for this purpose and not use your user account.
+
+Additionally, to complete the steps in this article, you must be:
+
+- A Microsoft 365 global admin
+- A Shifts connector admin
+
+ The Shifts connector admin role is a custom role that you create in Azure AD and assign to a user account. The custom role must be named "Shifts connector admin". The role doesn't need to have any specific permissions, although, at least one permission must be set. The service only relies on the presence of the role on the user. To learn more, see [Create and assign a custom role in Azure AD](/azure/active-directory/roles/custom-create) and [Assign Azure AD roles to users](/azure/active-directory/roles/manage-roles-portal). Keep in mind that it can take up to 24 hours for the role to be created and applied to a user.  
 
 ## Set up your environment
 
@@ -94,9 +109,13 @@ You'll also need to know your Blue Yonder service account name and password and 
 > [!NOTE]
 > Complete this step if you're mapping Blue Yonder sites to existing teams. If you're creating new teams to map to, you can skip this step.
 
-You'll need to know the team IDs of the teams you want to map. Run the following command to retrieve a list of team IDs of teams in your organization.
+Get a list of the TeamIds of teams in your organization.
 
-Take note of the team IDs you want to map. The script will prompt you to enter this information.
+```powershell
+Get-Team
+ ```
+
+Take note of the TeamIds of the teams you want to map. The script will prompt you to enter this information.
 
 > [!NOTE]
 > If one or more teams have an existing schedule, the script will remove the schedules from those teams. Otherwise, you'll see duplicate schedules in the team.
@@ -105,8 +124,8 @@ Take note of the team IDs you want to map. The script will prompt you to enter t
 
 Run the script:
 
-- To set up a connection and create new teams to map, [download and run this script]().
-- To set up a connection and map to existing teams, [download and run this script]().
+- To set up a connection and create new teams to map, [run this script](#set-up-a-connection-and-create-new-teams).
+- To set up a connection and map to existing teams, [run this script](#set-up-a-connection-and-map-to-existing-teams).
 
 The script does the following actions. You'll be prompted to enter setup and configuration details.
 
@@ -128,6 +147,271 @@ A Success message on the screen indicates that your connection is successfully s
 ## If you need to make changes to a connection
 
 To make changes to a connection after it's set up, see [Link to PowerShell article](). For example, you can update sync settings, team mappings, or disable a connection.
+
+## Scripts
+
+### Set up a connection and create new teams
+
+```powershell
+#Onboarding script
+Write-Host "Onboarding Shifts Connector work flow"
+Start-Sleep 1
+
+#Ensure Teams module is at least version x
+Write-Host "Checking Teams module version"
+try {
+	Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 2.3
+} catch {
+	throw
+}
+
+#Authenticate with powershell as to the authorization capabilities of the caller.
+#Connect to Teams
+Write-Host "Connecting to Teams"
+Connect-MicrosoftTeams
+Write-Host "Connected"
+
+#Connect to MS Graph
+Connect-MgGraph -Scopes "User.Read.All","Group.ReadWrite.All"
+
+#List connector types available (comment out if not implemented for preview) 
+Write-Host "Listing connector types available"
+$BlueYonderId = "6A51B888-FF44-4FEA-82E1-839401E9CD74"
+$connectors = Get-CsTeamsShiftsConnectionConnector
+write $connectors
+$blueYonder = $connectors | where {$_.Id -match $BlueYonderId}
+$enabledConnectorScenario = $blueYonder.SupportedScenario
+$wfiSupportedScenario = $blueYonder.wfiSupportedScenario
+
+#Prompt for entering of WFM username and password 
+$WfmUserName = Read-Host -Prompt 'Input your WFM user name'
+$WfmPwd = Read-Host -Prompt 'Input your WFM password' -AsSecureString
+$plainPwd =[Runtime.InteropServices.Marshal]::PtrToStringAuto([Runtime.InteropServices.Marshal]::SecureStringToBSTR($WfmPwd))
+
+#Test connection settings
+Write-Host "Testing connection settings"
+$InstanceName = Read-Host -Prompt 'Input connection instance name'
+$adminApiUrl = Read-Host -Prompt 'Input admin api url'
+$cookieAuthUrl = Read-Host -Prompt 'Input cookie authorization url'
+$essApiUrl = Read-Host -Prompt 'Input ess api url'
+$federatedAuthUrl = Read-Host -Prompt 'Input federated authorization url'
+$retailWebApiUrl = Read-Host -Prompt 'Input retail web api url'
+$siteManagerUrl = Read-Host -Prompt 'Input site manager url'
+$testResult = Test-CsTeamsShiftsConnectionValidate -Name $InstanceName -ConnectorId $BlueYonderId -ConnectorSpecificSettingAdminApiUrl $adminApiUrl -ConnectorSpecificSettingCookieAuthUrl $cookieAuthUrl -ConnectorSpecificSettingEssApiUrl $essApiUrl -ConnectorSpecificSettingFederatedAuthUrl $federatedAuthUrl -ConnectorSpecificSettingRetailWebApiUrl $retailWebApiUrl -ConnectorSpecificSettingSiteManagerUrl $siteManagerUrl -ConnectorSpecificSettingLoginPwd $plainPwd -ConnectorSpecificSettingLoginUserName $WfmUserName 
+if ($testResult.Code -ne $NULL) {
+	write $testResult
+	throw "Validation failed, conflict found"
+}
+Write-Host "Test complete, no conflicts found"
+
+#Create an instance (includes WFM site team ids)
+Write-Host "Creating a connection instance"
+$designatorName = Read-Host -Prompt "Input designated actor's user name"
+$domain = $designatorName.Split("@")[1]
+$designator = Get-MgUser -UserId $designatorName
+$teamsUserId = $designator.Id
+$syncFreq = Read-Host -Prompt "Input sync frequency"
+$InstanceResponse = New-CsTeamsShiftsConnectionInstance -Name $InstanceName -ConnectorId $BlueYonderId -ConnectorSpecificSettingAdminApiUrl $adminApiUrl -ConnectorSpecificSettingCookieAuthUrl $cookieAuthUrl -ConnectorSpecificSettingEssApiUrl $essApiUrl -ConnectorSpecificSettingFederatedAuthUrl $federatedAuthUrl -ConnectorSpecificSettingRetailWebApiUrl $retailWebApiUrl -ConnectorSpecificSettingSiteManagerUrl $siteManagerUrl -ConnectorSpecificSettingLoginPwd $plainPwd -ConnectorSpecificSettingLoginUserName $WfmUserName -DesignatedActorId $teamsUserId -EnabledConnectorScenario $enabledConnectorScenario -EnabledWfiScenario $wfiSupportedScenario -SyncFrequencyInMin $syncFreq
+$InstanceId = $InstanceResponse.id
+$Etag = $InstanceResponse.etag
+if ($InstanceId -ne $null){
+	Write-Host "Suceess"
+} else {
+	throw "Connector instance creation failed"
+}
+
+#Retrieve the list of sites
+Write-Host "Listing the WFM team sites"
+$WfmTeamIds = Get-CsTeamsShiftsConnectionWfmTeam -ConnectorInstanceId $InstanceId
+write $WfmTeamIds
+if ($WfmTeamIds -ne $NULL && $WfmTeamIds.Count -gt 0){
+	[System.String]$WfmTeamId = Read-Host -Prompt "Input the ID of WFM team you want to map"
+}
+else {
+	throw "The WfmTeamId list is null or empty"
+}
+
+#Retrieve the list of WFM users and their roles 
+Write-Host "Listing WFM users and roles"
+$WFMUsers = Get-CsTeamsShiftsConnectionUser -ConnectorInstanceId $InstanceId -WfmTeamId $WfmTeamId
+write $WFMUsers
+
+#Keep mapping teams until user stops it
+while (true)
+{
+
+#Create a new Teams team with owner set to system account and name set to the site name
+Write-Host "Creating a Teams team"
+$teamsTeamName = Read-Host -Prompt "Input the Teams team name"
+$Team = New-Team -DisplayName $teamsTeamName -Visibility "Public" -Owner $teamsUserId
+Write-Host "Success"
+$TeamsTeamId=$Team.GroupId
+
+#add users to the Team for Shifts
+Write-Host "Adding users to Teams team"
+$currentUser = Read-Host -Prompt "Input the current user's user name or ID"
+Add-TeamUser -GroupId $TeamsTeamId -User $currentUser -Role Owner
+$failedWfmUsers=@()
+foreach ($user in $WFMUsers) {
+	try {
+	$userEmail = $user.Name + "@" +$domain
+	Add-TeamUser -GroupId $TeamsTeamId -User $userEmail
+	} catch {
+		$failedWfmUsers+=$user
+	}
+}
+if($failedWfmUsers.Count -gt 0){
+	Write-Host "There are WFM users not existed in Teams tenant:"
+	write $failedWfmUsers
+}
+
+#Enable sheduling in the group
+$RequestBody = @{
+    Enabled = $true
+    TimeZone = "America/Los_Angeles"
+}
+$teamUpdateUrl="https://graph.microsoft.com/v1.0/teams/"+$TeamsTeamId+"/schedule"
+$Schedule = Invoke-MgGraphRequest -Uri $teamUpdateUrl -Method PUT -Body $RequestBody
+
+#Create a mapping of the new team to the site 
+Write-Host "Create a mapping of the new team to the site"
+$teamMappingResult = New-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $InstanceId -TeamId $TeamsTeamId -TimeZone "America/Los_Angeles" -WfmTeamId $WfmTeamId
+Write-Host "Success"
+
+$title    = 'Connecting another team'
+$question = 'Would you like to connect another team?'
+$choices  = '&Yes', '&No'
+
+$decision = $Host.UI.PromptForChoice($title, $question, $choices, 1)
+if ($decision -eq 1) {
+    break
+}
+}
+Remove-TeamUser -GroupId $TeamsTeamId -User $currentUser -Role Owner
+Disconnect-MgGraph
+Disconnect-MicrosoftTeams
+```
+### Set up a connection and map to existing teams
+
+```powershell
+#Onboarding script
+Write-Host "Onboarding Shifts Connector work flow"
+Start-Sleep 1
+
+#Ensure Teams module is at least version x
+Write-Host "Checking Teams module version"
+try {
+	Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 2.3
+} catch {
+	throw
+}
+
+#Authenticate with powershell as to the authorization capabilities of the caller.
+#Connect to Teams
+Write-Host "Connecting to Teams"
+Connect-MicrosoftTeams
+Write-Host "Connected"
+
+#Connect to MS Graph
+Connect-MgGraph -Scopes "User.Read.All","Group.ReadWrite.All"
+
+#List connector types available (comment out if not implemented for preview) 
+Write-Host "Listing connector types available"
+$BlueYonderId = "6A51B888-FF44-4FEA-82E1-839401E9CD74"
+$connectors = Get-CsTeamsShiftsConnectionConnector
+write $connectors
+$blueYonder = $connectors | where {$_.Id -match $BlueYonderId}
+$enabledConnectorScenario = $blueYonder.SupportedScenario
+$wfiSupportedScenario = $blueYonder.wfiSupportedScenario
+
+#Prompt for entering of WFM username and password 
+$WfmUserName = Read-Host -Prompt 'Input your WFM user name'
+$WfmPwd = Read-Host -Prompt 'Input your WFM password' -AsSecureString
+$plainPwd =[Runtime.InteropServices.Marshal]::PtrToStringAuto([Runtime.InteropServices.Marshal]::SecureStringToBSTR($WfmPwd))
+
+#Test connection settings
+Write-Host "Testing connection settings"
+$InstanceName = Read-Host -Prompt 'Input connection instance name'
+$adminApiUrl = Read-Host -Prompt 'Input admin api url'
+$cookieAuthUrl = Read-Host -Prompt 'Input cookie authorization url'
+$essApiUrl = Read-Host -Prompt 'Input ess api url'
+$federatedAuthUrl = Read-Host -Prompt 'Input federated authorization url'
+$retailWebApiUrl = Read-Host -Prompt 'Input retail web api url'
+$siteManagerUrl = Read-Host -Prompt 'Input site manager url'
+$testResult = Test-CsTeamsShiftsConnectionValidate -Name $InstanceName -ConnectorId $BlueYonderId -ConnectorSpecificSettingAdminApiUrl $adminApiUrl -ConnectorSpecificSettingCookieAuthUrl $cookieAuthUrl -ConnectorSpecificSettingEssApiUrl $essApiUrl -ConnectorSpecificSettingFederatedAuthUrl $federatedAuthUrl -ConnectorSpecificSettingRetailWebApiUrl $retailWebApiUrl -ConnectorSpecificSettingSiteManagerUrl $siteManagerUrl -ConnectorSpecificSettingLoginPwd $plainPwd -ConnectorSpecificSettingLoginUserName $WfmUserName 
+if ($testResult.Code -ne $NULL) {
+	write $testResult
+	throw "Validation failed, conflict found"
+}
+Write-Host "Test complete, no conflicts found"
+
+#Create an instance (includes WFM site team ids)
+Write-Host "Creating a connection instance"
+$designatorName = Read-Host -Prompt "Input designated actor's user name"
+$domain = $designatorName.Split("@")[1]
+$designator = Get-MgUser -UserId $designatorName
+$teamsUserId = $designator.Id
+$syncFreq = Read-Host -Prompt "Input sync frequency"
+$InstanceResponse = New-CsTeamsShiftsConnectionInstance -Name $InstanceName -ConnectorId $BlueYonderId -ConnectorSpecificSettingAdminApiUrl $adminApiUrl -ConnectorSpecificSettingCookieAuthUrl $cookieAuthUrl -ConnectorSpecificSettingEssApiUrl $essApiUrl -ConnectorSpecificSettingFederatedAuthUrl $federatedAuthUrl -ConnectorSpecificSettingRetailWebApiUrl $retailWebApiUrl -ConnectorSpecificSettingSiteManagerUrl $siteManagerUrl -ConnectorSpecificSettingLoginPwd $plainPwd -ConnectorSpecificSettingLoginUserName $WfmUserName -DesignatedActorId $teamsUserId -EnabledConnectorScenario $enabledConnectorScenario -EnabledWfiScenario $wfiSupportedScenario -SyncFrequencyInMin $syncFreq
+$InstanceId = $InstanceResponse.id
+$Etag = $InstanceResponse.etag
+if ($InstanceId -ne $null){
+	Write-Host "Suceess"
+} else {
+	throw "Connector instance creation failed"
+}
+
+#Retrieve the list of sites
+Write-Host "Listing the WFM team sites"
+$WfmTeamIds = Get-CsTeamsShiftsConnectionWfmTeam -ConnectorInstanceId $InstanceId
+write $WfmTeamIds
+if ($WfmTeamIds -ne $NULL && $WfmTeamIds.Count -gt 0){
+	[System.String]$WfmTeamId = Read-Host -Prompt "Input the ID of WFM team you want to map"
+}
+else {
+	throw "The WfmTeamId list is null or empty"
+}
+
+#Retrieve the list of WFM users and their roles 
+Write-Host "Listing WFM users and roles"
+$WFMUsers = Get-CsTeamsShiftsConnectionUser -ConnectorInstanceId $InstanceId -WfmTeamId $WfmTeamId
+write $WFMUsers
+
+#Keep mapping teams until user stops it
+while (true)
+{
+
+$TeamsTeamId = Read-Host -Prompt "Input the ID of the Teams team to be mapped"
+#Clear schedule of the Teams team
+Write-Host "Clear schedule of the existing team"
+$startTime = Read-Host -Prompt "Input the start time of clear schedule"
+$endTime = Read-Host -Prompt "Input the end time of clear schedule"
+
+$entityTypeString = Read-Host -Prompt 'Input the entity types of clear schedule'
+$Delimiters = ",", ".", ":", ";", " ", "`t"
+$entityType = $entityTypeString -Split {$Delimiters -contains $_}
+$entityType = $entityType.Trim()
+$entityType = $entityType.Split('',[System.StringSplitOptions]::RemoveEmptyEntries)
+Remove-CsTeamsShiftsScheduleRecord -TeamId $TeamsTeamId -DateRangeStartDate $startTime -DateRangeEndDate $endTime -ClearSchedulingGroup:$True -EntityType $entityType -DesignatedActorId $$teamsUserId
+
+#Create a mapping of the new team to the site 
+Write-Host "Create a mapping of the existing team to the site"
+$teamMappingResult = New-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $InstanceId -TeamId $TeamsTeamId -TimeZone "America/Los_Angeles" -WfmTeamId $WfmTeamId
+Write-Host "Success"
+
+
+$title    = 'Connecting another team'
+$question = 'Would you like to connect another team?'
+$choices  = '&Yes', '&No'
+
+$decision = $Host.UI.PromptForChoice($title, $question, $choices, 1)
+if ($decision -eq 1) {
+    break
+}
+}
+Disconnect-MgGraph
+Disconnect-MicrosoftTeams
+```
 
 ## Shifts connector cmdlets
 

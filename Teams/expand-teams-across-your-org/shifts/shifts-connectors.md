@@ -39,7 +39,7 @@ Managed Shifts connectors are connectors that we build in collaboration with our
 
 ### Shifts to Blue Yonder connector
 
-The Shifts to Blue Yonder connector is hosted and managed by Microsoft. With the connector, you can integrate Shifts with Blue Yonder 2020.3 and later versions to manage your schedules and keep them up to date.
+The Shifts to Blue Yonder connector is hosted and managed by Microsoft. With the connector, you can integrate Shifts with Blue Yonder 2020.3, 2021.1, and 2021.2 to manage your schedules and keep them up to date.
 
 Frontline managers can:
 
@@ -59,18 +59,19 @@ Frontline workers can:
 
 Eden, a manager, publishes a schedule in Blue Yonder, which is synced to Shifts in Teams through the connector. Alex, a staff member, gets notified in Teams on his mobile device, and views his schedule and assigned shifts.
 
-Alex needs to take some time off and requests a day off using Shifts. The request is sent to Blue Yonder. Blue Yonder ensures that the request is compliant with business rules and the request is created. Eden sees and approves the request in Blue Yonder. (Eden can also see and approve the request in Shifts). Alex is notified in Shifts that his request is approved, and views his updated schedule.
+Alex needs to take some time off and requests a day off using Shifts. The request is sent to Blue Yonder through the connector. Blue Yonder ensures that the request is compliant with business rules and the request is created. Eden sees and approves the request in Blue Yonder. The approval is synced to Teams. (Eden can also see and approve the request in Shifts). Alex is notified in Teams that his request is approved, and views his updated schedule.
 
-#### Set up a Shifts to Blue Yonder connection
+#### Set up a connection
 
-Integrating Shifts with Blue Yonder takes just a few steps.  You can use the Shifts connector wizard in the Microsoft 365 admin center to quickly and easily set up a connection. The wizard configures the connector, creates the connection, and applies the sync settings and team mappings that you choose. If you prefer to use PowerShell, we also provide PowerShell scripts that you can use to get connected.
+Integrating Shifts with Blue Yonder using the connector takes just a few steps. You can use the Shifts connector wizard in the Microsoft 365 admin center to quickly and easily set up a connection. The wizard configures the connector, creates the connection, and applies the sync settings and team mappings that you choose. If you prefer to use PowerShell, we also provide PowerShell scripts that you can use to get connected.
 
 For step-by-step guidance, see:
 
 - [Use the Shifts connector wizard to connect your workforce management system](shifts-connector-wizard.md)
 - [Use PowerShell to connect Shifts to your Blue Yonder workforce management system](shifts-connector-blue-yonder-powershell-setup.md)
 
-After the connection is set up, you can update and change connection settings at any time, as needed. As for the connector itself, you don't need to worry about upgrades or maintenance. We take care of that.
+After a connection is set up, you can update and change connection settings at any time, as needed. As for the connector itself, you don't need to worry about upgrades or maintenance. We take care of that.
+
 ### Shifts to Zebra-Reflexis connector
 
 The Shifts to Zebra-Reflexis connector, currently in private preview, is hosted and managed by Zebra.
