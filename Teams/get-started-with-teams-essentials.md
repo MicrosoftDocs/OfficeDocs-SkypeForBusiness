@@ -47,11 +47,7 @@ To do that, complete these three steps:
 
 3.  **Manage Teams Essentials.** Similar to the free version of Microsoft Teams, you have a limited admin role as the first person to sign up for Teams Essentials in your organization. You can add and remove team members and specify whether anyone can invite another members with this role, but you won't have  advanced administrative capabilities or access to the Microsoft Teams admin center.
 
-## Limits and specifications for Microsoft Teams Essentials
-
-This section describes some of the limits and specifications that apply to Teams Essentials.
-
-### How does Microsoft Teams Essentials compare to other Microsoft Teams plans? 
+## How does Microsoft Teams Essentials compare to other Microsoft Teams plans?
 
 The following table lists the major Microsoft Teams features available across plans. Certain caveats apply. See the footnotes for further information. This table may change without notice. For the most up-to-date, complete list of features, visit  [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
 
@@ -104,6 +100,15 @@ The following table lists the major Microsoft Teams features available across pl
 
 > [!IMPORTANT] 
 > To get enhanced administration and entire full set of Teams features, you'll need to upgrade to the full version of Teams by purchasing an appropriate [Microsoft 365 or Office 365 subscription plan](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options) for your users. We recommend this as you'll have more flexibility to manage the way your organization collaborates.
+
+### Limits and specifications for Microsoft Teams Essentials
+
+Here are a few important Teams Essentials limits and specifications to consider:
+  - **Administration:** A Teams Essentials subscription **does not** come with access to the Teams Admin Center. Teams Essentials users can enjoy a simplified view of the Microsoft 365 admin center to conduct important tasks like,managing  subscriptions and configuring new users.
+
+  - **Microsoft Teams PowerShell:** You **cannot** manage Teams Essentials directly using PowerShell command line as there is no PowerShell support.
+
+  - **Storage**: Teams Essentials uses OneDrive's personal cloud storage for file storage.
 
 
 ## Upgrade from a free version of Microsoft Teams to Microsoft Teams Essentials
