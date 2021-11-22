@@ -51,7 +51,7 @@ Follow these steps to make an archived team active again.
 
 1. In the admin center, select **Teams**.
 2. Select a team by clicking the team name.
-3. Select **Restore**. The team’s status will change to **Active**, be aware that it will not be moved back inside **Your teams** automatically.
+3. Select **Restore**. The team’s status will change to **Active**. Be aware that it will not be moved back inside **Your teams** automatically.
 
 ## Delete a team
 
