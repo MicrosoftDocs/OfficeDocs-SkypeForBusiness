@@ -1,8 +1,8 @@
 ---
 title: "ProgressReport table"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 38e5f060-5e9b-4185-87b2-7ef61c4bb75f
 description: "Progress reports are based on data uploaded by the client to the database after a call or session is completed. Progress reports will be written only for calls and sessions that Skype for Business Server 2015 determines might be useful for diagnostic purposes."
 ---

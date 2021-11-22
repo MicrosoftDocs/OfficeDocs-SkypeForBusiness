@@ -1,15 +1,15 @@
 ---
 title: "Peer-to-Peer Activity Diagnostic Report in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
 description: "Summary: Learn about the Peer-to-Peer Activity Diagnostic Report in Skype for Business Server."
 ---

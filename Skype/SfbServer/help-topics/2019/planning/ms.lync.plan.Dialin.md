@@ -1,8 +1,8 @@
 ---
 title: "Dial-in Conferencing (Planning Tool)"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,7 +12,7 @@ ms.custom:
 - ms.lync.plan.Dialin
 - ms.lync.plan.Dialin
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
 ROBOTS: NOINDEX, NOFOLLOW
 description: "Skype for Business Server dial-in conferencing enables users to join the audio portion of a Skype for Business Server conference by using a public switched telephone network (PSTN) phone without requiring a third-party audio conferencing provider."

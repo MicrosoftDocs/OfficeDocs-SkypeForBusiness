@@ -1,7 +1,7 @@
 ---
 title: "Manage resource accounts in Teams"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, wasseemh
 ms.topic: article
@@ -14,7 +14,7 @@ ms.collection:
 audience: Admin
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 
@@ -58,9 +58,9 @@ To port a number from another carrier, see [Transfer phone numbers to Teams](pho
 
 You can create a resource account in the Teams admin center.
 
-![Screenshot of add resource account user interface](media/resource-account-add.png)
+![Screenshot of add resource account user interface.](media/resource-account-add.png)
 
-1. In the Teams admin center, expand **Org-wide settings**, and then click **Resource accounts**.
+1. In the Teams admin center, expand **Voice**, and then click **Resource accounts**.
 
 2. Click **Add**.
 
@@ -68,13 +68,13 @@ You can create a resource account in the Teams admin center.
 
 4. Click **Save**.
 
-![Screenshot of a list of resource accounts](media/resource-accounts-page.png)
+![Screenshot of a list of resource accounts.](media/resource-accounts-page.png)
 
 ## Assign a license
 
 For each resource account, you must assign a *Microsoft 365 Phone System - Virtual User* license or *Phone System* license.
 
-![Screenshot of assign licenses user interface in the Microsoft 365 admin center](media/resource-account-assign-virtual-user-license.png)
+![Screenshot of assign licenses user interface in the Microsoft 365 admin center.](media/resource-account-assign-virtual-user-license.png)
 
 1. In the Microsoft 365 admin center, click the resource account to which you want to assign a license.
 
@@ -86,7 +86,7 @@ For each resource account, you must assign a *Microsoft 365 Phone System - Virtu
 
 If you're planning to use the resource account with an auto attendant or call queue that requires a service number, assign a number to the resource account.
 
-![Screenshot of the assign service number user interface](media/resource-account-assign-phone-number.png)
+![Screenshot of the assign service number user interface.](media/resource-account-assign-phone-number.png)
 
 1. In the Teams admin center, on the **Resource accounts** page, select the resource account to which you want to assign a service number, and then click **Assign/unassign**.
 

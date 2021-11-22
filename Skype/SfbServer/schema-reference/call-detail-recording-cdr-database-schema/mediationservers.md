@@ -1,8 +1,8 @@
 ---
 title: "MediationServers table"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9f757377-ab79-4795-aaa9-1163cb9c8a59
 description: "The MediationServers table is a supporting table. Each record stores information about one Mediation Server that is involved in calls that have records in the database."
 ---

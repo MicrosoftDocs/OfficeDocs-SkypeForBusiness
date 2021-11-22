@@ -1,15 +1,15 @@
 ---
 title: "User and client authentication for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 description: "A trusted user is one whose credentials have been authenticated by a trusted server in Skype for Business Server. This server is usually a Standard Edition server, Enterprise Edition Front End Server, or Director. Skype for Business Server relies on Active Directory Domain Services as the single, trusted back-end repository of user credentials."
 ---

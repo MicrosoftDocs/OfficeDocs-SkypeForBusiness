@@ -1,7 +1,7 @@
 ---
 title: PowerShell script sample - Teams deployment cleanup
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.reviewer: amitsri
@@ -10,7 +10,7 @@ audience: admin
 description: Use this PowerShell script to uninstall Teams and remove the Teams folder for users. 
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 ms.collection: 

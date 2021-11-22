@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
@@ -47,7 +47,7 @@ To configure Microsoft Phone System and enable users to use Direct Routing, foll
 
 - **Step 1.** [Connect the SBC with Microsoft Phone System and validate the connection](direct-routing-connect-the-sbc.md)
 - **Step 2.** [Enable users for Direct Routing, voice, and voicemail](direct-routing-enable-users.md)
-- **Step 3.** [Configure voice routing](direct-routing-voice-routing.md)
+- **Step 3.** [Configure call routing](direct-routing-voice-routing.md)
 - **Step 4.** [Translate numbers to an alternate format](direct-routing-translate-numbers.md) 
 
 If you are configuring an SBC for multiple tenants, you'll also want to read [Configure an SBC for multiple tenants](direct-routing-sbc-multiple-tenants.md).

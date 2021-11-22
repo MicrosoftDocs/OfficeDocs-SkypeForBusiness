@@ -1,15 +1,15 @@
 ---
 title: "Configure two-factor authentication in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: "Summary: Configure two-factor authentication in Skype for Business Server."
@@ -75,9 +75,9 @@ For computers equipped with a Trusted Platform Module (TPM) chip that meets spec
 
 5. Open the Trusted Platform Module (TPM) Management console by running the following command:
 
-  ```console
-  Tpm.msc
-  ```
+   ```console
+   Tpm.msc
+   ```
 
 6. From the TPM management console, verify that your TPM specification version is at least 1.2
 
@@ -92,8 +92,8 @@ For computers equipped with a Trusted Platform Module (TPM) chip that meets spec
   TpmVscMgr create /name MyVSC /pin default /adminkey random /generate
   ```
 
-    > [!NOTE]
-    > To provide a custom PIN value when creating the virtual smart card, use /pin prompt instead.
+   > [!NOTE]
+   > To provide a custom PIN value when creating the virtual smart card, use /pin prompt instead.
 
 9. From the command prompt, open the Computer Management console by running the following command:
 
@@ -167,17 +167,16 @@ For more information on enrolling on behalf of users as an enrollment agent, see
 
     > [!NOTE]
     >  If your certificate request fails with the error "This Web browser does not support the generation of certificate requests," there are three possible ways to resolve the issue:
-
-        a. Enable Compatibility View in Internet Explorer
-        b. Enable the Turn on Intranet settings option in Internet Explorer
-        c. Select the Reset all zones to default level setting under the Security tab in the Internet Explorer options menu.
+    >- Enable Compatibility View in Internet Explorer.
+    >- Enable the Turn on Intranet settings option in Internet Explorer.
+    >- Select the Reset all zones to default level setting under the Security tab in the Internet Explorer options menu.
 
 ## Configure Active Directory Federation Services (AD FS 2.0)
 
 The following section describes how to configure Active Directory Federation Services (AD FS 2.0) to support multi-factor authentication. For information on how to install AD FS 2.0, see [AD FS 2.0 Step-by-Step and How To Guides](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd727938(v=ws.10)).
 
 > [!NOTE]
-> When installing AD FS 2.0, do not use the Windows Server Manager to add the Active Directory Federation Services role. Instead, download and install the [Active Directory Federation Services 2.0 RTW package](https://go.microsoft.com/fwlink/p/?LinkId=313375).
+> When installing AD FS 2.0, do not use the Windows Server Manager to add the Active Directory Federation Services role. Instead, download and install the [Active Directory Federation Services](/troubleshoot/windows-server/identity/availability-description-afds).
 
 ### To configure AD FS for two-factor Authentication
 
@@ -293,8 +292,8 @@ The following steps describe how to create a custom web service configuration fo
   New-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
   ```
 
-    > [!CAUTION]
-    > The value for the WsFedPassiveMetadataUri FQDN is the Federation Service Name of your AD FS 2.0 server. The Federation Service Name value can be found in the AD FS 2.0 Management Console by right-clicking on **Service** from the navigation pane and then selecting **Edit Federation Service Properties**.
+   > [!CAUTION]
+   > The value for the WsFedPassiveMetadataUri FQDN is the Federation Service Name of your AD FS 2.0 server. The Federation Service Name value can be found in the AD FS 2.0 Management Console by right-clicking on **Service** from the navigation pane and then selecting **Edit Federation Service Properties**.
 
 4. Verify that the UseWsFedPassiveAuth and WsFedPassiveMetadataUri values were set correctly by running the following command:
 

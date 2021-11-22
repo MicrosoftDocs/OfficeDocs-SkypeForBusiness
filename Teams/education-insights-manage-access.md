@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: karsmith
 description: Manage user access to Education Insights in Microsoft Teams.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -36,7 +36,7 @@ To provide organization-level Insights, you must [import data from the Student I
 
 * Open the Insights app, click **Settings**, and select **User permissions**
 
-:::image type="content" source="media/insights-user-permissions.png" alt-text="Settings":::
+:::image type="content" source="media/insights-user-permissions.png" alt-text="Settings.":::
 
 > [!NOTE]
 > When you provide permission for an organizational level, the user can see all the org units below it.
@@ -57,14 +57,14 @@ If you use [SDS V2.1 file format](/schooldatasync/sds-v2.1-csv-file-format) or [
 
   You'll see a list of the roles in your educational organization, the level in that hierarchy for each one, how many users are assigned that role, and the role's permission level. 
   
-  :::image type="content" source="media/insights-role-based-permissions.png" alt-text="Role-based permissions":::
+  :::image type="content" source="media/insights-role-based-permissions.png" alt-text="Role-based permissions.":::
   
-  If there is a role at more than one org level, that role appears multiple times, once for each level. In the screenshot, we have principals at both the school and district level, so there are two lines for 'principal'.
+  If there is a role at more than one org level, that role appears multiple times, once for each level. In the screenshot, we have principals at the school, district and department level, so there are three lines for 'principal'.
   
 * For each role, click the pencil icon to select the permission level. The default is the role has no permission to see Insights.
 * Select the permission level – **View data for their organization** or **None**.
 
-  :::image type="content" source="media/insights-role-based-permissions-panel.png" alt-text="Role-based permissions panel":::
+  :::image type="content" source="media/insights-role-based-permissions-panel.png" alt-text="Role-based permissions panel.":::
   
   If you see a user on the list who needs a more nuanced permission level, adjust their role and / or organization in the [imported data from your SIS](education-insights-sis-data-sync.md) and [grant them individual permissions](#grant-individual-permission-to-a-user) (if needed).
 
@@ -81,7 +81,7 @@ Use individual permissions to adjust the permission for a user or to assign perm
   
   You'll see the users in your educational organization granted individual permission. 
   
-  :::image type="content" source="media/insights-individual-permissions.png" alt-text="Individual permissions":::
+  :::image type="content" source="media/insights-individual-permissions.png" alt-text="Individual permissions.":::
   
 ### Grant individual permission to a user
 * Click **Grant individual permission** at the top left of the screen.
@@ -98,6 +98,6 @@ Use individual permissions to adjust the permission for a user or to assign perm
   * **Specific organization** means the user sees the selected org unit, and all the org units below it. Start typing and select the org unit from the list.
   * **None** means that the user only sees the org units automatically assigned by their role (if any).
   
-  :::image type="content" source="media/insights-individual-permissions-panel.png" alt-text="Individual permissions panel":::
+  :::image type="content" source="media/insights-individual-permissions-panel.png" alt-text="Individual permissions panel.":::
 
 * Click **Save changes** to save.

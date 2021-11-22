@@ -1,7 +1,7 @@
 ---
 title: "Create a call queue in Microsoft Teams"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -16,7 +16,7 @@ audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords: 
   - CSH
 ms.custom: 
@@ -58,13 +58,15 @@ Type a name for the call queue.
 
 ## Resource accounts
 
-![Screenshot of resource account settings](media/call-queue-name-language.png)
+![Screenshot of resource account settings.](media/call-queue-name-language.png)
 
 Click **Add accounts**, search for the resource account that you want to use with this call queue, click **Add**, and then click **Add**. (Agents will see the resource account name when they receive an incoming call.)
 
+See [Manage Teams resource accounts](manage-resource-accounts.md) for more information.
+
 ### Assign calling ID
 
-![Screenshot of calling ID settings](media/call-queue-assign-calling-id.png)
+![Screenshot of calling ID settings.](media/call-queue-assign-calling-id.png)
 
 If you plan to use a Teams channel for your call agents, you can assign an outbound caller ID number for the agents by specifying one or more resource accounts with a phone number.
 
@@ -74,13 +76,13 @@ If you are not using a Teams channel to control agent membership, consider direc
 
 ## Language
 
-![Screenshot of language settings](media/call-queue-language.png)
+![Screenshot of language settings.](media/call-queue-language.png)
 
 Choose a [supported language](create-a-phone-system-call-queue-languages.md). This language will be used for system-generated voice prompts and voicemail transcription (if you enable them).
 
 ## Greetings and music on hold in queue
 
-![Screenshot of greetings and music on hold in queue settings](media/call-queue-greetings-music.png)
+![Screenshot of greetings and music on hold in queue settings.](media/call-queue-greetings-music.png)
 
 Specify if you want to play a greeting to callers when they arrive in the queue. You must upload an MP3, WAV, or WMA file containing the greeting that you want to play. The uploaded recording can be no larger than 5 MB.
 
@@ -93,13 +95,13 @@ Teams provides default music to callers while they are on hold in a queue. The d
 
 Review the [prerequisites for adding agents to a call queue](plan-auto-attendant-call-queue.md#prerequisites).
 
-![Screenshot of users and groups settings for call queues](media/call-queue-users-groups.png)
+![Screenshot of users and groups settings for call queues.](media/call-queue-users-groups.png)
 
 ##### Teams channel
 
-You can add up to 200 agents via a Teams channel.
+You can add up to 200 agents via a Teams channel. Note that you must be a member of the team or the creator or an owner of the channel to add a channel to the queue.
 
-If you want to [use a Teams channel to manage the queue](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e), select the **Choose a team** option and click **Add a channel**. Search for the team that you want to use, select it, and click **Add**. Select the channel that you want to use and click **Apply**. You must be a member of the team or the creator of or an owner of the channel.
+If you want to [use a Teams channel to manage the queue](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e), select the **Choose a team** option and click **Add a channel**. Search for the team that you want to use, select it, and click **Add**. Select the channel that you want to use (only standard channels are supported) and click **Apply**. 
 
 The following clients are supported when using a Teams channel for call queues: 
 
@@ -124,12 +126,12 @@ To add a group to the queue, click **Add groups**, search for the group, click *
 
 ## Call routing
 
-![Screenshot of conference mode and routing method settings](media/call-queue-conference-mode-routing-method.png)
+![Screenshot of conference mode and routing method settings.](media/call-queue-conference-mode-routing-method.png)
 
 **Conference mode** significantly reduces the amount of time it takes for a caller to be connected to an agent, after the agent accepts the call. For conference mode to work, agents in the call queue must use one of the following clients:
 
   - The latest version of the Microsoft Teams desktop client, Android app, or iOS app
-  - Microsoft Teams phone version 1449/1.0.94.2020051601 or later
+  - Microsoft Teams Phone version 1449/1.0.94.2020051601 or later
   
 Agents' Teams accounts need to be set to Teams-only mode. Agents who don't meet the requirements aren't included in the call routing list. We recommend enabling conference mode for your call queues if your agents are all using compatible clients.
 
@@ -137,7 +139,7 @@ Agents' Teams accounts need to be set to Teams-only mode. Agents who don't meet 
 > Conference mode is not supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location Based Routing.
 
 > [!TIP]
-> Setting **Conference mode** to **Auto** is the recommended setting.
+> Setting **Conference mode** to **On** is the recommended setting.
 
 **Routing method** determines the order in which agents receive calls from the queue. Choose from these options:
 
@@ -147,12 +149,17 @@ Agents' Teams accounts need to be set to Teams-only mode. Agents who don't meet 
 
 - **Round robin** balances the routing of incoming calls so that each call agent gets the same number of calls from the queue. This may be desirable in an inbound sales environment to assure equal opportunity among all the call agents.
 
-- **Longest idle** routes each call to the agent who has been idle the longest time. An agent is considered idle if their presence state is Available or if their presence state has been Away for less than 10 minutes. Agents whose presence state has been Away for more than 10 minutes are not considered idle and will not be eligible to receive calls until they change their presence to Available. 
+- **Longest idle** routes each call to the agent who has been idle the longest time. An agent is considered idle if their presence state is Available. Agents whose presence state is not Available will not be eligible to receive calls until they change their presence to Available. 
 
 > [!TIP]
 > Setting **Routing Method** to **Round robin** or **Longest idle** is the recommended setting.
 
-![Screenshot of routing, opt out, and alert time settings](media/call-queue-presence-agents-time.png)
+> [!NOTE]
+> If [Compliance recording](teams-recording-policy.md) is enabled on the agents, the combination of **Conference mode** and **Attendant routing** is not supported. If you need to use **Conference mode**, select **Serial Routing**, **Round robin**, or **Longest idle** as the **Routing method**. If you need to use **Attendant routing**, set **Conference mode** to **Off**.
+> 
+> When using **Longest idle** there may be times when an agent receives a call from the queue shortly after becoming unavailable or if there is a short delay in receiving a call from the queue after becoming available.
+
+![Screenshot of routing, opt out, and alert time settings.](media/call-queue-presence-agents-time.png)
 
 **Presence-based routing** uses the availability status of call agents to determine whether an agent should be included in the call routing list for the selected routing method. Call agents whose availability status is set to **Available** are included in the call routing list and can receive calls. Agents whose availability status is set to any other status are excluded from the call routing list and won't receive calls until their availability status changes back to **Available**. 
 
@@ -177,7 +184,7 @@ If an agent opts out of getting calls, they won't be included in the call routin
 
 ## Call overflow handling
 
-![Screenshot of call overflow settings](media/call-queue-overflow-handling.png)
+![Screenshot of call overflow settings.](media/call-queue-overflow-handling.png)
 
 **Maximum calls in the queue** specifies the maximum number of calls that can wait in the queue at any given time. The default is 50, but it can range from 0 to 200. When this limit is reached, the call is handled as specified by the **When the maximum number of calls is reached** setting.
 
@@ -188,7 +195,7 @@ You can choose to disconnect the call or redirect it to any of the call routing 
 
 ## Call timeout handling
 
-![Screenshot of call timeout settings](media/call-queue-timeout-handling.png)
+![Screenshot of call timeout settings.](media/call-queue-timeout-handling.png)
 
 **Call Timeout: maximum wait time** specifies the maximum time a call can be on hold in the queue before it is redirected or disconnected. You can specify a value from 0 seconds to 45 minutes.
 
@@ -200,7 +207,7 @@ When you have selected your call timeout options, click **Save**.
 
 The following settings are recommended:
 
-- **Conference mode** to **Auto**
+- **Conference mode** to **On**
 - **Routing method** to **Round robin** or **Longest idle**
 - **Presence-based routing** to **On**
 - **Agent alert time:** to **20 seconds**
@@ -237,9 +244,22 @@ You can also use Windows PowerShell to create and set up call queues. Here are t
 
 - [Remove-CsCallQueue](/powershell/module/skype/remove-CsCallQueue)
 
+## Call Queue Diagnostic Tool
+
+If you're an administrator, you can use the following diagnostic tool to validate that a call queue is able to receive calls:
+
+1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center. 
+
+   > [!div class="nextstepaction"]
+   > [Run Tests: Teams Call Queue](https://aka.ms/TeamsCallQueueDiag)
+
+2. In the Run diagnostic pane, enter the Resource Account in the **Username or Email** field, and then select **Run Tests**.
+
+3. The tests will return the best next steps to address any tenant, policy, and resource account configurations to validate that the call queue is able to receive calls.
+
 ## Related topics
 
-[Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md)
+[Here's what you get with Microsoft Teams Phone](here-s-what-you-get-with-phone-system.md)
 
 [Getting service phone numbers](getting-service-phone-numbers.md)
 

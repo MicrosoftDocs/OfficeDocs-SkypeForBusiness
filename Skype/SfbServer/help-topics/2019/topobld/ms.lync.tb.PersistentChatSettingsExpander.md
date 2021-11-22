@@ -1,8 +1,8 @@
 ---
 title: "Persistent Chat Settings Expander"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,7 +11,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PersistentChatSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 12da11ea-3aca-4ef1-8367-f3f8a959f033
 ROBOTS: NOINDEX, NOFOLLOW
 ---

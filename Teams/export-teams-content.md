@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: vikramju
 description: In this article, you will learn about how to export Teams content using the Microsoft Teams Export APIs.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 
@@ -41,37 +41,55 @@ Here are some examples on how you can use these export APIs:
 - **Message Attachments:** Export APIs include the links to the attachments that are sent as part of messages. Using Export APIs you can retrieve the files attached in the messages.
 - **Chat Message Properties:** Refer to the complete list of properties that Teams Export APIs support [here](/graph/api/resources/chatmessage?view=graph-rest-beta#properties).
 
+>[!NOTE]
+>Export APIs do not support *reactions*.
+
 ## How to access Teams Export APIs
 
 - **Example 1** is a simple query to retrieve all the messages of a user or team without any filters:
 
     ```HTTP
-    GET https://graph.microsoft.com/beta/users/{id}/chats/getAllMessages
+    GET https://graph.microsoft.com/v1.0/users/{id}/chats/getAllMessages
     ```
      ```HTTP
-    GET https://graph.microsoft.com/beta/teams/{id}/channels/getAllMessages
+    GET https://graph.microsoft.com/v1.0/teams/{id}/channels/getAllMessages
     ```
 
 - **Example 2** is a sample query to retrieve all the messages of a user or team by specifying date time filters and top 50 messages:
 
     ```HTTP
-    GET https://graph.microsoft.com/beta/users/{id}/chats/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    GET https://graph.microsoft.com/v1.0/users/{id}/chats/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
     ```HTTP
-    GET https://graph.microsoft.com/beta/teams/{id}/channels/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    GET https://graph.microsoft.com/v1.0/teams/{id}/channels/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
 >[!NOTE]
 >The API returns response with next page link in case of multiple results. For getting next set of results, simply call GET on the url from @odata.nextlink. If @odata.nextlink is not present or null then all messages are retrieved.
 
 ## Prerequisites to access Teams Export APIs 
 
-- Teams Export APIs are currently in preview. It will only be available to users and tenants that have the [required licenses](/graph/teams-licenses) for APIs. In the future, Microsoft may require you or your customers to pay additional fees based on the amount of data accessed through the API.
 - Microsoft Teams APIs in Microsoft Graph that access sensitive data are considered protected APIs. Export APIs require that you have additional validation, beyond permissions and consent, before you can use them. To request access to these protected APIs, complete the [request form](https://aka.ms/teamsgraph/requestaccess).
 - Application permissions are used by apps that run without a signed-in user present; application permissions can only be consented by an administrator. The following permissions are needed:
 
     - *Chat.Read.All*: enables access to all 1:1, Group chat, and meeting chat messages 
     - *ChannelMessage.Read.All*: enables access to all channel messages  
     - *User.Read.All*: enables access to the list of users for a tenant
+
+## License requirements for Teams Export APIs
+
+Export API supports Security and Compliance (S+C) and general usage scenarios through a model query parameter. S+C scenarios (Model A) include seeded capacity and require an E5 subscription and general usage scenarios (Model B) are available for all subscriptions and is consumption only. For more information about seeded capacity and consumption fees, see [Licensing and payment requirements for Microsoft Graph Teams APIs](/graph/teams-licenses).
+
+### S+C/Model A scenarios
+
+Restricted to applications performing security and/or compliance functions, users must have specific E5 licenses to use this functionality and receive seeded capacity. Seeded capacity is per user and is calculated per month and is aggregated at the tenant level. For usage beyond the seeded capacity, app owners are billed for API consumption. Model A can only access messages from users with an assigned E5 license.
+
+### General usage/Model B scenarios
+
+Available for all non-S+C related scenarios, there are no license requirements or seeded capacity. When consumption meters become available, app owners will be charged for all monthly API calls. 
+
+### Evaluation Mode (default)
+
+No model declaration enables access to APIs with limited usage per each requesting application for evaluation purposes. 
 
 ## JSON representation
 

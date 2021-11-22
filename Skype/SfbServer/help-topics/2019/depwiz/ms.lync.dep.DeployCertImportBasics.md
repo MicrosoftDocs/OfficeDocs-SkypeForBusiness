@@ -1,8 +1,8 @@
 ---
 title: "Import Certificate (Intro)"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,7 +11,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 474fac52-0b11-45dd-a211-fd2f1727238b
 ROBOTS: NOINDEX, NOFOLLOW
 description: "To import a certificate, you must provide a path to the certificate file. In the Select Certificate file text box, you can either type the full path and file name, or click the Browse button and navigate to the path location and the file name (typically, a .p7b, .pfx, or .cer file)."

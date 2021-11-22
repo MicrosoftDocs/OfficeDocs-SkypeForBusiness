@@ -1,8 +1,8 @@
 ---
 title: "Users New Contact Objects"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.UserNewContact
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 05e0d949-0cc6-4d3c-b935-a09a6ad52adc
 description: "What do you want to do? Click the link to the task that you want to perform."
 ---

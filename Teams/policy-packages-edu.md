@@ -18,7 +18,7 @@ appliesto:
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.policypackages.overview
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 description: Learn about policies in a educational or EDU setting, and how to use and manage policy packages in Microsoft Teams. 
 ---
@@ -28,7 +28,7 @@ description: Learn about policies in a educational or EDU setting, and how to us
 [!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
-> For the larger story on policies in Microsoft Teams, please review [Assign policies to your users in Microsoft Teams](assign-policies.md).
+> For the larger story on policies in Microsoft Teams, please review [Assign policies to your users in Microsoft Teams](policy-assignment-overview.md).
 
 ## Admins: Getting started with Microsoft Teams policy management
 
@@ -36,7 +36,7 @@ Microsoft Teams allows users to do things like attend online meetings or live ev
 
 Here's a list of the main policy areas you will find in Microsoft Teams. To learn more about the policies in each area and the capabilities they control, use the links below:
 
-- [Meetings](meeting-policies-in-teams.md)
+- [Meetings](meeting-policies-overview.md)
 - [Live events](teams-live-events/configure-teams-live-events.md)
 - [Calling](teams-calling-policy.md) 
 - [Messaging](messaging-policies-in-teams.md)
@@ -116,7 +116,7 @@ A policy package in Teams collects predefined policies and policy settings that 
 
 Educational institutions in general have many users with unique needs, depending partly on the age and maturity of the students. For example, you may want to grant educators and staff full access to Microsoft Teams, but want to limit Microsoft Teams capabilities for students to encourage a safe and focused learning environment. You can use policy packages to tailor settings based on the needs of different cohorts in your educational institute community.
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > Our primary recommendation is that you use the Global (Org-wide default) policy definition for students instead of a policy package. This ensures that new users in your organizations always have the strictest set of policies appropriate for students. If this recommendation does not meet the needs of your institution, one of the student policy packages below may be a good alternative. 
 
 Just like the policy list earlier in this article, policy packages predefine policies for:
@@ -143,7 +143,7 @@ Microsoft Teams currently includes the following policy packages:
 
 Each individual policy is given the name of the policy package so you can identify policies linked to a policy package. For example, when you assign the Education_Teacher policy package to educators in your educational institution, a policy named Education_Teacher is created for each policy in the package.
 
-![Screenshot of the Education_Teacher policy package](media/policy-packages-education_teacher.png)
+![Screenshot of the Education_Teacher policy package.](media/policy-packages-education_teacher.png)
 
 > [!NOTE]
 > If you decide that educators and administrative support staff need different policies, you can repurpose an existing package: identify a package you aren't currently using and change the settings to be appropriate for that group. You might have to make a note to yourself which group has which package, but that's the only impediment to repurposing a package.
@@ -173,9 +173,9 @@ Assign the policy package to users. If a user has a policy assigned, and then la
 
 To assign a policy package to one or multiple users, in the left navigation of the Microsoft Teams admin center, go to **Policy packages**, and then select **Manage users**.  
 
-![Screenshot of how to assign a policy package in the admin center](media/policy-packages-healthcare-assign.png)
+![Screenshot of how to assign a policy package in the admin center.](media/policy-packages-healthcare-assign.png)
 
-To learn more, see [Assign a policy package](manage-policy-packages.md#assign-a-policy-package).
+To learn more, see [Assign a policy package](assign-policy-packages.md).
 
 If a user has a policy assigned, and then later you assign a different policy, the most recent assignment will take priority.
 
@@ -185,13 +185,13 @@ If a user has a policy assigned, and then later you assign a different policy, t
 
 Policy package assignment to groups let you assign multiple policies to a group of users, such as a security group or distribution list. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly. This method is recommended for groups of up to 50,000 users but will also work with larger groups.
 
-To learn more, see [Assign a policy package to a group](assign-policies.md#assign-a-policy-package-to-a-group).
+To learn more, see [Assign a policy package to a group](assign-policy-packages.md#assign-a-policy-package-to-a-group).
 
 #### Assign a policy package to a large set (batch) of users
 
 Use batch policy package assignment to assign a policy package to large sets of users at a time. You use the [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) cmdlet to submit a batch of users and the policy package that you want to assign. The assignments are processed as a background operation and an operation ID is generated for each batch.
 
-A batch can contain up to 5,000 users. You can specify users by their object Id, UPN, SIP address, or email address. To learn more, see [Assign a policy package to a batch of users](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
+A batch can contain up to 5,000 users. You can specify users by their object Id, UPN, SIP address, or email address. To learn more, see [Assign a policy package to a batch of users](assign-policy-packages.md#assign-a-policy-package-to-a-batch-of-users).
 
 ## Policies that should be assigned for student safety
 

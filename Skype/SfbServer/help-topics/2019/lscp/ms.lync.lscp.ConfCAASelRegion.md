@@ -1,8 +1,8 @@
 ---
 title: "Select Regions"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,7 +11,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1b79b214-cc7b-4686-b7e2-f451910335fd
 ROBOTS: NOINDEX, NOFOLLOW
 description: "Use the Select Regions dialog box to find regions available in your environment. To use an existing region, click a region in the list and then click OK."

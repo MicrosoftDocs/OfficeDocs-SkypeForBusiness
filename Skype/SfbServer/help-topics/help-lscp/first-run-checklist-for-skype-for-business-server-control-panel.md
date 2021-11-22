@@ -1,8 +1,8 @@
 ---
 title: "First Run Checklist for Skype for Business Server Control Panel"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.Home1stRunChkList
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
 description: "Welcome to the Skype for Business Server Control Panel, the web-based user interface for administration and management of Skype for Business Server. You can use the control panel to perform the types of administrative tasks that were performed for by using the Microsoft Management Console in previous releases."
 ---

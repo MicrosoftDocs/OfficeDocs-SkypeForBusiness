@@ -14,7 +14,7 @@ ms.collection:
 audience: Admin
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 
@@ -31,7 +31,7 @@ If you disable sending emails, Audio Conferencing emails won't be sent to your u
   
 Here is an example of the email that is sent to users when they are enabled for Audio Conferencing:
   
-![Example of an Audio Conferencing email message](media/teams-emails-sent-to-users-when-settings-change-image1.png)
+![Example of an Audio Conferencing email message.](media/teams-emails-sent-to-users-when-settings-change-image1.png)
   
 ## When are emails being sent to your users?
 
@@ -54,7 +54,7 @@ Here is an example of the email that is sent to users when they are enabled for 
 
 You can use Microsoft Teams or Windows PowerShell to enable or disable email sent to users.
 
-![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+ **Using the Microsoft Teams admin center**
 
 1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
 

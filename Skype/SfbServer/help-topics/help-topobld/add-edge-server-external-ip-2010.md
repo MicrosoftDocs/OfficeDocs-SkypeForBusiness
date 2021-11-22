@@ -1,8 +1,8 @@
 ---
 title: "Add Edge Server External IP 2010"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeServerExternalIPPage2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: adb2778d-fd46-4ab9-899d-f97f71493659
 description: "You can configure the properties on this page to point the Edge Server to the external locations of the Access Edge service, Web Conferencing Edge service, and A/V Edge service."
 ---

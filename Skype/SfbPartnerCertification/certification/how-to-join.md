@@ -1,6 +1,6 @@
 ---
 title: "Skype for Business certification program - How to Join"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -12,7 +12,7 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -49,7 +49,7 @@ Vendors that meet the general requirements for partners above may follow the pro
 ## Current programs
 Programs that are not listed below are currently closed.
 
-<table border="1" cellpadding="1" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white width=" width="750" xmlns="http://www.w3.org/1999/xhtml">
+<table border="1" cellpadding="1" cellspacing="" class="grid">
 		<colgroup>
 			<col width="115" />
 			<col width="200" />
@@ -67,68 +67,68 @@ Programs that are not listed below are currently closed.
 		<tr align="left" valign="top">
 			<td rowspan="4"><strong>Devices</strong></td>
 			<td>IP Phones</td>
-			<td style="text-align:center" valign="middle">Not seeking partners</td>
-			<td style="text-align:center">Available on admission to program</td>
-			<td style="text-align:center" valign="middle">
+			<td>Not seeking partners</td>
+			<td>Available on admission to program</td>
+			<td>
 				<p><a href="http://www.tekvizion.com/premier-tenants/microsoft">Tekvizion</a></p>
 				<p><a href="http://www.taas.wipro.com/user/certifications-and-qualifications-testing/unified-communications-open-interoperability-program-lync-server-rfp.aspx">Wipro</a></p>
 			</td>
 		</tr>
 		<tr align="left" valign="middle">
 			<td>PCs</td>
-			<td style="text-align:center" valign="top">Not seeking partners</td>
+			<td>Not seeking partners</td>
             <td><a href="test-spec.md" data-raw-source="[Skype and Lync test specifications for USB peripherals, PCs, and Lync room systems](test-spec.md)">Skype and Lync test specifications for USB peripherals, PCs, and Lync room systems</a> </td>
-			<td rowspan="3" style="text-align:center" valign="middle">
+			<td rowspan="3">
 				<p><a href="http://www.asttechlabs.com/">AST</a></p>
 				<p><a href="http://www.pal-acoustics.com/">PAL</a></p>
 			</td>
 		</tr>
 		<tr align="left" valign="top">
 			<td>USB Audio and Video Devices</td>
-			<td style="text-align:center" valign="middle">Not seeking partners</td>
+			<td>Not seeking partners</td>
             <td><a href="test-spec.md" data-raw-source="[Skype and Lync test specifications for USB peripherals, PCs, and Lync room systems](test-spec.md)">Skype and Lync test specifications for USB peripherals, PCs, and Lync room systems</a></a></td>
 		</tr>
 		<tr align="left" valign="top">
 			<td>Meeting Room Devices and Solutions</td>
-			<td style="text-align:center" valign="middle">Not seeking partners</td>
-			<td style="text-align:center"><br />Available on admission to program</td>
+			<td>Not seeking partners</td>
+			<td><br />Available on admission to program</td>
 		</tr>
 		<tr align="left" valign="top">
 			<td rowspan="5"><strong>Infrastructure</strong></td>
 			<td>SBC</td>
-			<td style="text-align:center" valign="middle">Not seeking partners</td>
+			<td>Not seeking partners</td>
 			<td><a href="https://download.microsoft.com/download/8/7/5/8752C5DB-C318-4066-AE09-362D7D51D5FE/TDS_SfB_Server_2015_Infrastructure_Interoperability_Program_DOCUMENTS_ALL.zip">SBC Specs (download)</a></td>
-			<td rowspan="5" style="text-align:center" valign="top">
+			<td>
 				<p><a href="http://www.tekvizion.com/premier-tenants/microsoft">Tekvizion</a></p>
 				<p><a href="http://www.taas.wipro.com/user/certifications-and-qualifications-testing/unified-communications-open-interoperability-program-lync-server-rfp.aspx">Wipro</a></p>
 			</td>
 		</tr>
 		<tr align="left" valign="top">
 			<td>Gateway</td>
-			<td style="text-align:center" valign="middle">Not seeking partners</td>
+			<td>Not seeking partners</td>
 			<td><a href="https://download.microsoft.com/download/8/7/5/8752C5DB-C318-4066-AE09-362D7D51D5FE/TDS_SfB_Server_2015_Infrastructure_Interoperability_Program_DOCUMENTS_ALL.zip">Gateway Specs (download)</a></td>
 		</tr>
 		<tr align="left" valign="top">
 			<td>SBA</td>
-			<td style="text-align:center" valign="middle">Not seeking partners</td>
+			<td>Not seeking partners</td>
 			<td><a href="https://download.microsoft.com/download/8/7/5/8752C5DB-C318-4066-AE09-362D7D51D5FE/TDS_SfB_Server_2015_Infrastructure_Interoperability_Program_DOCUMENTS_ALL.zip">SBA Specs (download)</a></td>
 		</tr>
 		<tr align="left" valign="top">
 			<td>Reverse Proxy</td>
-			<td style="text-align:center" valign="middle">Not seeking partners</td>
+			<td>Not seeking partners</td>
 			<td><a href="https://download.microsoft.com/download/8/7/5/8752C5DB-C318-4066-AE09-362D7D51D5FE/TDS_SfB_Server_2015_Infrastructure_Interoperability_Program_DOCUMENTS_ALL.zip">Reverse Proxy Specs (download)</a></td>
 		</tr>
 		<tr align="left" valign="top">
 			<td>Load Balancer</td>
-			<td style="text-align:center" valign="middle">Not seeking partners</td>
+			<td>Not seeking partners</td>
 			<td><a href="https://download.microsoft.com/download/8/7/5/8752C5DB-C318-4066-AE09-362D7D51D5FE/TDS_SfB_Server_2015_Infrastructure_Interoperability_Program_DOCUMENTS_ALL.zip">Load Balancer Specs (download)</a></td>
 		</tr>
 		<tr align="left" valign="top">
 			<td><strong>Services</strong></td>
 			<td>SIP Trunks</td>
-			<td style="text-align:center">No admission review required:<br />Contact labs for testing</td>
+			<td>No admission review required:<br />Contact labs for testing</td>
 			<td><a href="https://download.microsoft.com/download/8/7/5/8752C5DB-C318-4066-AE09-362D7D51D5FE/TDS_SfB_Server_2015_Infrastructure_Interoperability_Program_DOCUMENTS_ALL.zip">SIP Trunk Specs (download)</a></td>
-			<td style="text-align:center" valign="top">
+			<td>
 				<p><a href="http://www.tekvizion.com/premier-tenants/microsoft">Tekvizion</a></p>
 				<p><a href="http://www.taas.wipro.com/user/certifications-and-qualifications-testing/unified-communications-open-interoperability-program-lync-server-rfp.aspx">Wipro</a></p>
 			</td>
@@ -136,16 +136,16 @@ Programs that are not listed below are currently closed.
 		<tr align="left" valign="top">
 			<td rowspan="2"><strong>IT Pro</strong></td>
 			<td>Network Pre-Assessment</td>
-			<td style="text-align:center" valign="middle">Not seeking partners</td>
+			<td>Not seeking partners</td>
 			<td rowspan="2">
-				<p style="text-align: center">Available on admission to program</p>
+				<p>Available on admission to program</p>
 			</td>
-			<td style="text-align:center">N/A</td>
+			<td>N/A</td>
 		</tr>
 		<tr align="left" valign="top">
 			<td>Migration</td>
-			<td style="text-align:center" valign="middle">Not seeking partners</td>
-			<td style="text-align:center">
+			<td>Not seeking partners</td>
+			<td>
 				<p><a href="http://www.tekvizion.com/premier-tenants/microsoft">Tekvizion</a></p>
 				<p><a href="http://www.taas.wipro.com/user/certifications-and-qualifications-testing/unified-communications-open-interoperability-program-lync-server-rfp.aspx">Wipro</a></p>
 			</td>
@@ -153,18 +153,18 @@ Programs that are not listed below are currently closed.
 		<tr align="left" valign="top">
 			<td><strong>Video</strong></td>
 			<td>Video Infrastructure</td>
-			<td style="text-align:center">Not seeking partners</td>
-			<td style="text-align:center">Available on admission to program</td>
-			<td style="text-align:center">Coming<br />Soon</td>
+			<td>Not seeking partners</td>
+			<td>Available on admission to program</td>
+			<td>Coming<br />Soon</td>
 		</tr>
 		<tr align="left" valign="top">
 			<td rowspan="3"><strong>ISV</strong></td>
 			<td>Call Recording and Compliance</td>
 			<td align="center" valign="top">Not seeking partners</td>
 			<td rowspan="3">
-				<p style="text-align: center">Available on admission to program</p>
+				<p>Available on admission to program</p>
 			</td>
-			<td rowspan="3" style="text-align:center" valign="middle">
+			<td rowspan="3">
 				<p><a href="http://www.tekvizion.com/premier-tenants/microsoft">Tekvizion</a></p>
 				<p><a href="http://www.taas.wipro.com/user/certifications-and-qualifications-testing/unified-communications-open-interoperability-program-lync-server-rfp.aspx">Wipro</a></p>
 			</td>

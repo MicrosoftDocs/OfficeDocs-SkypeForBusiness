@@ -1,8 +1,8 @@
 ---
 title: "Schema attributes and descriptions in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b009df76-9c22-471d-b57a-bda009a98261
 
 description: "This section describes all the schema attributes used by Skype for Business Server. For the classes associated with attributes, see Schema attributes by class in Skype for Business Server."

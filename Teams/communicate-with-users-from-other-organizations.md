@@ -16,7 +16,7 @@ f1.keywords:
 - NOCSH
 appliesto: 
 - Microsoft Teams
-localization_priority: Priority
+ms.localizationpriority: high
 description: Learn how to call, chat, find, and add users from outside the organization in Microsoft Teams using external access (federation) and guest access.
 ---
 
@@ -35,7 +35,7 @@ Set up external access if you need to find, call, chat, and set up meetings with
 
 By default, external access is enabled for all domains. You can restrict external access by allowing or blocking specific domains or by turning it off.
 
-![Screenshot of external access settings](media/external-access-federation-settings.png)
+![Screenshot of external access settings.](media/external-access-federation-settings.png)
 
 To configure external access, see [Manage external access](manage-external-access.md). 
 
@@ -44,7 +44,7 @@ To configure external access, see [Manage external access](manage-external-acces
 
 ## Guest access
 
-Use guest access to add a person from outside your organization to a team, where they can chat, call, meet, and collaborate on files. A guest can be given nearly all the same Teams capabilities as a native team member.
+Use guest access to add a person from outside your organization to a team, where they can chat, call, meet, and collaborate on files. A guest can be given nearly all the same Teams capabilities as a native team member. For more information, see [Guest experience in Teams](guest-experience.md).
 
 Guests are added to your organization's Azure Active Directory as B2B users and must sign in to Teams using their guest account. This means that they may have to sign out of their own organization to sign in to your organization.
 
@@ -89,7 +89,7 @@ The following tables show the differences between using external access (federat
 
 <br>
 
-<sup>1</sup> Provided that the user has been added as a guest and is signed with the guest account.<br>
+<sup>1</sup> Provided that the user has been added as a guest and is signed in with the guest account.<br>
 <sup>2</sup> Only by email or Session Initiation Protocol (SIP) address.<br>
 <sup>3</sup> Supported for 1:1 chat for Teams Only to Teams Only users from two different organizations. <br>
 <sup>4</sup> By default, external participants can't see the phone numbers of dialed-in participants. If you want to maintain the privacy of these phone numbers, select **Tones** for **Entry/exit announcement type** (this prevents the numbers from being read out by Teams). To learn more, read [Turn on or off entry and exit announcements for meetings in Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md). <br>

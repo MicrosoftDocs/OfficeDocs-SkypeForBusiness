@@ -1,7 +1,7 @@
 ---
 title: Live events recording policies
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -10,7 +10,7 @@ audience: admin
 search.appverid: MET150
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
 description: Learn about live event recording policies.

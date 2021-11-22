@@ -11,7 +11,7 @@ metadata:
   manager: serdars
   ms.service: msteams
   ms.topic: tutorial
-  localization_priority: Normal
+  ms.localizationpriority: medium
   search.appverid: MET150
   ms.collection: 
   - M365-voice
@@ -55,7 +55,7 @@ items:
     - With Phone System with Calling Plans Microsoft provides the phone number to your users and all PSTN services
     - With Direct Connect you can connect your existing PSTN connectivity via an SBC (Session Boarder Controller) to Microsoft Teams.
 
-    #### <span style="color:red">**Action**:</span> Watch Calling in Teams (3:00 minutes)
+    #### <span>**Action**:</span> Watch Calling in Teams (3:00 minutes)
     > [!Video https://www.youtube.com/embed/9O4p48Mws9U]
 
     ### Calling features in Teams
@@ -65,9 +65,9 @@ items:
 
     Calling in Teams is powered by Phone System (formerly known as Cloud PBX), the same service in Office 365 that enables PSTN calling capabilities in Skype for Business Online.
 
-    <span style="color:red">**Important**:</span> Note that the Phone System feature set for Skype for Business is different from the Phone System feature set for Teams.
+    <span>**Important**:</span> Note that the Phone System feature set for Skype for Business is different from the Phone System feature set for Teams.
 
-    <span style="color:red">**Action**:</span> To understand which features are currently available and the timelines for features that we expect to develop, see the following resources:
+    <span>**Action**:</span> To understand which features are currently available and the timelines for features that we expect to develop, see the following resources:
 
     - On the [public roadmap](https://aka.ms/O365Roadmap), review the “Calling
     roadmap” slide for an overview of the expected timelines for feature release dates.
@@ -79,7 +79,7 @@ items:
     ### Emergency Services calling
     It’s important that you understand how the Emergency Services calling feature operates differently in Teams than in traditional telephone services. You must make sure your users also understand those differences. For example, when they use Teams to call emergency services (such as 911 in the United States), users need to be aware that Teams might not be able to determine the actual location of the caller.
 
-    <span style="color:red">**Action**:</span> Review [Emergency calling terms and conditions](/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions) for detailed information about Emergency Services calling.
+    <span>**Action**:</span> Review [Emergency calling terms and conditions](/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions) for detailed information about Emergency Services calling.
 
 - title: Considerations for Skype for Business Online customers
   durationInMinutes: 2
@@ -270,7 +270,7 @@ items:
     means that Fabrikam won’t be able to acquire Calling Plans for their US-based
     users.
 
-    <span style="color:red">**Action**:</span> Review [Country and region availability for Audio Conferencing and
+    <span>**Action**:</span> Review [Country and region availability for Audio Conferencing and
     Calling Plans](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
     for the following information:
 
@@ -316,7 +316,7 @@ items:
     to let users who have been assigned to a Domestic Calling Plan make
     international calls, which are then charged by using a “pay-per-minute” model.
 
-    <span style="color:red">**Action**:</span>
+    <span>**Action**:</span>
 
     -   Review the Calling Plans section in [Country and region availability for
     Audio Conferencing and Calling

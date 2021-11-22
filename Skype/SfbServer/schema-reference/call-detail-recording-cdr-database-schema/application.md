@@ -1,8 +1,8 @@
 ---
 title: "Application table in Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 30938426-e2f9-4735-a7f4-59baf7a7d7e6
 description: "This table stores information about the various processes within Skype for Business Server 2015 involved in routing and connections."
 ---

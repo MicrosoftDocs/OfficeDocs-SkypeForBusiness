@@ -1,8 +1,8 @@
 ---
 title: "tblComplianceState"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ea82e56c-3cca-4d89-b4e6-6bcaeb1f2830
 description: "tblComplianceState contains pool-wide compliance state information."
 ---

@@ -16,7 +16,7 @@ ms.collection:
 - m365initiative-meetings
 - m365initiative-meetings-enabler
 - enabler-strategic
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
@@ -48,13 +48,13 @@ The following table briefly summarizes the three types of meetings, the number o
 | Live events | Up to 20,000** |-Broadcast to large audiences. <br>-Moderated Q&A for audience interaction. <br> -Can specify producers and presenters, including external presenters.<br>-Supports more advanced production capabilities. | No |
 ||||
 
-*The usual 10,000 is increased to 20,000 through December 31, 2021.<br>
+*The usual 10,000 is increased to 20,000 through June 30, 2022.<br>
 
-**The usual 10,000 is increased to 20,000 through December 31, 2021. You can schedule even greater numbers with live events in Yammer and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365). Note that events over 20,000 attendees require the [Live Events Assistance Program](/stream/live-events-assistance). 
+**The usual 10,000 is increased to 20,000 through June 30, 2022. You can schedule even greater numbers with live events in Yammer and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365). Note that events over 20,000 attendees require the [Live Events Assistance Program](/stream/live-events-assistance). 
 
 **Considerations for large meetings, webinars, and live events** - When hosting large meetings, consider the following:
 
-- For the best experience in large meetings, webinars, and live events, Microsoft recommends using the Teams desktop client or Teams mobile clients. 
+- For the best experience in large meetings, webinars, and live events, Microsoft recommends using the latest version of the Teams desktop client or Teams mobile clients. 
 
 - Presenters in large meetings, webinars, and live events should use the Teams desktop client. 
 
@@ -80,7 +80,7 @@ The following table highlights key articles that you'll want to review:
 | Article | Description | 
 |----------|--------|
 | [Meeting settings](meeting-settings-in-teams.md) |  Describes how to configure meetings settings for anonymous users, meeting invitations, and media traffic.  |
-| [Meeting policies](meeting-policies-in-teams.md)  | Describes how to create and manage the policies that determine which features are available to meeting participants. | 
+| [Meeting policies](meeting-policies-overview.md)  | Describes how to create and manage the policies that determine which features are available to meeting participants. | 
 | [Manage Teams cloud meeting recording](cloud-recording.md) | Describes how to manage meeting recordings. |
 | [Manage your organization's devices](device-management.md)| Describes how to manage your organization's devices, such as phones and Teams Rooms. |
 ||
@@ -153,8 +153,7 @@ The following table lists articles for more information:
 | Article | Description | 
 |----------|--------|
 | [Apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md) | Introduction to apps and how to deploy apps for your organization. |
-| [Apps for Teams meetings](/platform/apps-in-teams-meetings/teams-apps-in-meetings.md) | Overview of meeting app extensibility, API references, and how to enable and configure apps for meetings. |
-| [More about apps for Teams meetings](/platform/apps-in-teams-meetings/teams-apps-in-meetings.md) | Includes links to apps available for Teams meetings. |
+| [Apps for Teams meetings](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings | Overview of meeting app extensibility, API references, and how to enable and configure apps for meetings. |
 | [Manage the Whiteboard in Teams](manage-whiteboard.md) | Describes Whiteboard functionality and how to enable and disable for your organization. |
 ||
 

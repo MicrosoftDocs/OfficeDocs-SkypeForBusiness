@@ -1,7 +1,7 @@
 ---
 title: Apps update experience in Microsoft Teams
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: v-tbasra
 ms.topic: article
@@ -15,7 +15,7 @@ f1.keywords:
 - NOCSH
 appliesto: 
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to update apps in Microsoft Teams. 
 ---
@@ -27,16 +27,14 @@ In most cases, after app developers publish an app update, the new version autom
 * A bot was added or removed
 * An existing bot's "botId" property changed
 * An existing bot's "isNotificationOnly" property changed
-* The bot's "supportsFiles" property changed
-* A messaging extension was added or removed
+* A bot's SupportsCalling, SupportsVideo , and SupportsFiles capability was added
+* A messaging extension was added
 * A new connector was added
-* A new static tab was added
-* A new configurable tab was added
 * Properties inside "webApplicationInfo" changed
 
-![new version available](media/manage-your-custom-apps-update1.png)
+![new version available.](media/manage-your-custom-apps-update1.png)
 
-![upgrade option for an app](media/manage-your-custom-apps-update2.png)
+![upgrade option for an app.](media/manage-your-custom-apps-update2.png)
 
 > [!NOTE] 
 > The update process applies to all app updates for Microsoft apps, custom apps, and third-party apps. 

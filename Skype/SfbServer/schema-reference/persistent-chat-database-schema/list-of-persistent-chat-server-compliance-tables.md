@@ -1,8 +1,8 @@
 ---
 title: "List of Persistent Chat Server compliance tables in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8563446e-90cc-47cc-8a8e-4883decfe195
 description: "The Persistent Chat compliance database schema consists of the following tables."
 ---

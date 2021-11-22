@@ -1,8 +1,8 @@
 ---
 title: "UserAgentDef table (QoE)"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cfd8e3e0-4076-4162-9381-5276da8316d9
 description: "The UserAgentDef table maps user agent identifiers to the agent's descriptive names. User agents are software clients used to connect to Skype for Business Server."
 ---

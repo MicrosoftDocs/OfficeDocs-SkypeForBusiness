@@ -1,8 +1,8 @@
 ---
 title: "Edit the topology in Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: "After completing the initial interview questions, you can edit the fully qualified domain name (FQDN) and IP addresses for the site. To do this, on the Global Topology page, double-click the site that you want to edit."
@@ -22,7 +22,7 @@ After completing the initial interview questions, you can edit the fully qualifi
 
 The Planning Tool displays the site topology for the selected site. At the bottom of the site page are four tabs:
 
-![Planning Tool Site Topology](../../media/Planning_Tool_Site_Topology.png)
+![Planning Tool Site Topology.](../../media/Planning_Tool_Site_Topology.png)
 
 - Site Topology - The currently displayed page with a visual overview of the topology as recommended.
 
@@ -30,7 +30,7 @@ The Planning Tool displays the site topology for the selected site. At the botto
 
 - Edge Admin Report - The Edge Admin Report contains a total of four reports:
 
-     ![Edge Admin Report page](../../media/Planning_Tool_Summary_Report.png)
+     ![Edge Admin Report page.](../../media/Planning_Tool_Summary_Report.png)
 
   - Summary Report - A general report of settings for the Edge network configuration. If you edit the values on the **Edge Network Diagram** page to the topology TCP/IP and FQDN values of that will be used in the actual deployment, those addresses and names will be represented here. Otherwise, the default text will appear.
 
@@ -50,7 +50,7 @@ The Planning Tool displays the site topology for the selected site. At the botto
 
 Most of the work that a designer does in the Skype for Business Server 2015 Planning Tool consists of defining the entries for the IP addresses and fully qualified domain names (FQDNs) for the entries on the network diagram. The information that is entered on this page carries over into the reports and other information contained in the Planning Tool.
 
-![Planning Tool Network diagram](../../media/Planning_Tool_Network_Diagram.png)
+![Planning Tool Network diagram.](../../media/Planning_Tool_Network_Diagram.png)
 
 The Planning Tool creates a network diagram with default text for IP addresses and FQDNs.
 

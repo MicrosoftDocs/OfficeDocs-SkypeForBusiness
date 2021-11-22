@@ -1,8 +1,8 @@
 ---
 title: "Dial-in Access Number"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ConfCAAMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1b2c8676-b132-4ba0-a242-a1edf30a3d44
 description: "What do you want to do? Click the link to the task that you want to perform."
 ---

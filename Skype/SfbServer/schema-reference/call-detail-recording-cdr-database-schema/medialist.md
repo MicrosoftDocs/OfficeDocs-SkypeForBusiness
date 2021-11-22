@@ -1,8 +1,8 @@
 ---
 title: "MediaList table"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/12/2016
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1f440590-c1bc-483e-b7bc-6cc763847768
 description: "The MediaList table is a static table that stores the list of various media types."
 ---

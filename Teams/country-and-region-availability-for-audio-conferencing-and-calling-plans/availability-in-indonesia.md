@@ -16,7 +16,7 @@ audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -64,7 +64,7 @@ If Calling Plans are not available to purchase, consider using [Phone System Dir
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|What capitals or major cities can you get toll numbers for?  <br/> |Jakarta ([on request](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|What capitals or major cities can you get toll numbers for?  <br/> |Jakarta ([on request](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |Are toll numbers available?  <br/> |No  <br/> |
 |Are toll-free numbers available?  <br/> |Yes  <br/> |
    

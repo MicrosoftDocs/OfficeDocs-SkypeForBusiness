@@ -1,8 +1,8 @@
 ---
 title: "Voice Routing Status of Commit Changes for Voice Routing Configuration"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoicePublishSum
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2e5086fb-3c3b-432a-9eab-a9b12cb79d76
 description: "If the changes were not completed, review the messages in this dialog box, change your voice routing configuration, and try again."
 ---

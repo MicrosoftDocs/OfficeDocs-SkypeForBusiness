@@ -9,7 +9,7 @@ ms.topic: article
 f1.keywords:
 - NOCSH
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 - Hybrid 
 - M365-voice
@@ -27,7 +27,7 @@ description: "The following sections descrbie how to configure an environment th
  
 The following sections describe how to configure an environment that has multiple forests in a resource/user forest model to provide functionality in a hybrid scenario. 
   
-![Multi-Forest Environment for Hybrid](../../sfbserver/media/5f079435-b252-4a6a-9638-3577d55b2873.png)
+![Multi-Forest Environment for Hybrid.](../../sfbserver/media/5f079435-b252-4a6a-9638-3577d55b2873.png)
   
 ## Topology requirements
 
@@ -77,7 +77,7 @@ Do not sync the UPNs between the forests. You need to use a unique UPN for each 
     
 - If the unique UPN from each user forest was synchronized to the associated disabled object in the resource forest, AD FS authentication would fail. The matching rule would find the UPN on the object in the resource forest, which was disabled and could not be used for authentication. 
     
-## Create a Microsoft 365 or Office 365 organization
+## Create a Microsoft 365 organization
 
 You will need to provision a Microsoft 365 organization to use with your deployment. For more information, please see [Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
   
@@ -95,11 +95,11 @@ Unless you use a unique SIP/SMTP/UPN for users from each forest, you can still r
     
 By placing an AD FS farm in each user forest and using a unique SIP/SMTP/UPN for each forest, we resolve both issues. Only the accounts in that specific user forest would be searched and matched during authentication attempts. This will help provide a more seamless authentication process. 
   
-This deployment will be a standard deployment of the Windows Server 2012 R2 AD FS and should be working before continuing. For instructions, see [How To Install AD FS 2012 R2 For Microsoft 365 or Office 365](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx). 
+This deployment will be a standard deployment of the Windows Server 2012 R2 AD FS and should be working before continuing. For instructions, see [How to Install AD FS 2012 R2 for Microsoft 365](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx). 
   
 Once deployed, you need to edit the claims rule to match the Source Anchor selected earlier. In the AD FS MMC, under Relying Party Trusts, right-click **Microsoft 365 Identity Platform** or **Microsoft Office 365 Identity Platform**, and then select **Edit Claim Rules**. Edit the first rule, and change ObjectSID to **employeeNumber**. 
   
-![Multi-forest Edit Rules Screen](../../sfbserver/media/f5d485bd-52cc-437f-ba71-217f8902056c.png)
+![Multi-forest Edit Rules Screen.](../../sfbserver/media/f5d485bd-52cc-437f-ba71-217f8902056c.png)
   
 ## Configure AAD Connect
 
@@ -109,7 +109,7 @@ Note that Azure AD Connect does not provide synchronization on premises between 
   
 When finished and Azure AD Connect is merging, if you look at an object in the metaverse, you should see something similar to the following: 
   
-![Multi-forest Metaverse Object Screen](../../sfbserver/media/16379880-2de3-4c43-b219-1551f5dec5f6.png)
+![Multi-forest Metaverse Object Screen.](../../sfbserver/media/16379880-2de3-4c43-b219-1551f5dec5f6.png)
   
 The green highlighted attributes were merged from Microsoft 365, the yellow are from the user forest, and the blue are from the resource forest. 
   

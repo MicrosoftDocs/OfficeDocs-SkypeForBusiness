@@ -1,7 +1,7 @@
 ---
 title: Block inbound calls in Microsoft Teams
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -12,7 +12,7 @@ audience: Admin
 ms.reviewer: roykuntz
 appliesto:
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: Learn how to use PowerShell to manage inbound call blocking.
 ---
 

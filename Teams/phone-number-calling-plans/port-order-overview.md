@@ -1,7 +1,7 @@
 ---
 title: What's a port order?
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -11,7 +11,7 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords: 
 - CSH
 ms.custom:
@@ -62,10 +62,10 @@ In general, you can transfer any phone number that's from a supported provider, 
 
 - Skype for Business hybrid phone numbers. If you want to transfer these numbers, email us at <ptn@microsoft.com>.
 
-  **You can't transfer:**
+**You can't transfer:**
   
-    > [!NOTE]
-    > At this time, you can't transfer any phone number or numbers that aren't from a supported country or region, including phone numbers from a VoIP phone provider. For a list of supported countries/regions, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+> [!NOTE]
+> At this time, you can't transfer any phone number or numbers that aren't from a supported country or region, including phone numbers from a VoIP phone provider. For a list of supported countries/regions, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
   
 - Phone numbers used for data connections like for DSL lines or broadband Internet connections.
 
@@ -75,8 +75,8 @@ In general, you can transfer any phone number that's from a supported provider, 
 
     If you port the phone number to Teams, you can assign this phone number to a user in your organization instead of using it for faxing.
 
-    > [!NOTE]
-    > At this time in the United Kingdom, we currently don't support transferring UK non-geographic numbers including shared cost numbers for area codes 0843, 0844, 0845, 0870, 0871, 0872.
+> [!NOTE]
+> At this time in the United Kingdom, we currently don't support transferring UK non-geographic numbers including shared cost numbers for area codes 0843, 0844, 0845, 0870, 0871, 0872.
   
 ## What information do I need to provide?
 
@@ -135,9 +135,7 @@ Yes they can. All you need to do is submit a service request that includes your 
 
 ## Can I port out my numbers from Teams to a different phone service provider or carrier?
 
-To port out your numbers from Teams to a different carrier, you must submit a request with the new carrier. You'll also need to set a porting PIN in the Microsoft Teams admin center.
-
-To define your porting PIN, in the left navigation of the Microsoft Teams admin center, go to **Voice** > **Phone numbers**, on the upper-right corner of the page, select **Manage porting PIN**, and then enter a 10-digit PIN.
+To port out your numbers from Teams to a different carrier, you must submit a request with the new carrier. You'll also need to set a porting PIN by opening a support case. For information on how to get support, see [Get support](/microsoft-365/business-video/get-help-support). 
 
 When your new carrier contacts us with the porting request, we'll ask them to provide the PIN you defined.
 

@@ -1,15 +1,15 @@
 ---
 title: 'Enabling and disabling media bypass'
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Use the procedures in this article to enable or disable media bypass by using the Skype for Business Server Control Panel."
 ---
 

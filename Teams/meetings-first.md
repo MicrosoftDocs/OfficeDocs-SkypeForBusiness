@@ -1,14 +1,14 @@
 ---
 title: Meeting First - Microsoft Teams 
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: lsomi
 description: Learn about Meetings First, where users can create their meeting in Teams, while continuing to use Skype for Business for chat, calling, and presence.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -31,7 +31,7 @@ Meetings First is based on the **SfBWithTeamsCollabAndMeetings** coexistence mod
 
 In Meetings First, users create their meeting in Teams, while continuing to use Skype for Business for chat, calling, and presence. There is no overlap of modalities between Teams and Skype for Business. Chat, calling, and presence are on in Skype for Business and off in Teams. This enables unique "better together" scenarios between Skype for Business and Teams that enhance the user's experience during coexistence, as well as interoperability scenarios with **Teams Only** users.
 
-![Screenshot of the better together scenario with Teams and Skype for Business](media/meetings-first-meeting-in-meeting.png)
+![Screenshot of the better together scenario with Teams and Skype for Business.](media/meetings-first-meeting-in-meeting.png)
 
 > [!Important]
 > Meetings First is a better match for organizations who have no or few active Teams chat users. Active Teams chat users should not be switched to Meetings First mode, as they would lose the ability to chat in Teams and to access to their chat history. These users should be grandfathered in **Islands** mode instead, and Meetings First only granted to the users not yet active in chat in Teams.
@@ -56,7 +56,7 @@ Meeting First brings the following capabilities together:
 - Superior [Teams meeting experience](tutorial-meetings-in-teams.yml).
 - "Better Together" between Teams and Skype for Business: 
   - Automatic hold: When in a meeting in Teams, getting in a call in Skype for Business will place the Teams meeting on hold, and vice-versa. This prevents users from having their private calls overheard by the meetings participants.
-    ![Screenshot of the better together scenario with Teams and Skype for Business](media/meetings-first-better-together-hold.png)
+    ![Screenshot of the better together scenario with Teams and Skype for Business.](media/meetings-first-better-together-hold.png)
   - Presence reconciliation: Activity in Teams is reflected in the user's presence, which is the Skype for Business presence since chat and calling are in Skype for Business. Specifically, when Meetings First users are in a Teams meeting, their presence will be updated to reflect that. When they present their screen, their presence will be updated to show Do Not Disturb (based on their settings in Skype for Business).
   - USB device HID control reconciliation (also available on Mac): The HID controls are honored by Teams while in Teams meetings and by Skype for Business in all other circumstances.
   - Unless otherwise mentioned, Better Together capabilities require recent Windows desktop clients at this time.
@@ -104,7 +104,7 @@ Once you have licensed your users and prepared your organization for Teams meeti
 
 All capabilities and user experiences in Meetings First, including the Teams client configuration and [auto-conformance](teams-client-experience-and-conformance-to-coexistence-modes.md) of the user experience, Meetings Migration Service, and Better Together capabilities, are configured by granting the user (or group of users, or tenant default) the [SfBWithTeamsCollabAndMeetings coexistence mode](setting-your-coexistence-and-upgrade-settings.md) either in the [Microsoft Teams admin center](manage-teams-in-modern-portal.md) or by using [PowerShell](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps).
 
-![Screenshot of the admin settings to enable Meetings First](media/teams-meeting-admin-settings.png)
+![Screenshot of the admin settings to enable Meetings First.](media/teams-meeting-admin-settings.png)
 
 Optionally, should you want to hide the Teams and Channels application from the left navigation of your users' Teams client to further focus their experience on meetings, that can be achieved by using the [App Setup policy](teams-app-setup-policies.md).
 

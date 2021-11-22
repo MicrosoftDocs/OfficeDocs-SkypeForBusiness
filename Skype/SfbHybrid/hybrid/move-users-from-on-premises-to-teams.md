@@ -9,13 +9,14 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 - Hybrid 
 - M365-voice
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
+search.appverid: MET150
 ms.custom: 
 description: "Summary: Learn how to migrate user settings and move users to Teams."
 ---
@@ -34,7 +35,7 @@ When a user is moved from on premises to Teams Only, the user’s Skype for Busi
 - The user’s pre-existing meetings scheduled for the future will be migrated from on-premises to Teams.
 - Contacts that existed on-premises are available in Teams shortly after the user logs on for the first time.
 - Users cannot initiate calls or chats from Skype for Business, nor can they schedule new meetings in Skype for Business. If they attempt to open the Skype for Business client, they will be redirected to use Teams as shown below. If the Teams client is not installed, they will be directed to the web version of Teams using their browser.<br><br>
-    ![Message redirecting a user to Teams](../media/go-to-teams-page.png)
+    ![Message redirecting a user to Teams.](../media/go-to-teams-page.png)
 
 Before moving any users, be sure to review the [prerequisites](move-users-between-on-premises-and-cloud.md#prerequisites) to move users to the cloud. Also be sure to review [Migration and interoperability guidance for organizations using Teams together with Skype for Business](/microsoftteams/migration-interop-guidance-for-teams-with-skype).
 
@@ -96,7 +97,7 @@ The on-premises admin tools in Skype for Business Server 2015 with CU8, as well 
 > [!TIP]
 > Some servers may need to reboot for this to work in Skype for Business 2015 with CU8.
 
-![Notification of upcoming move to Teams](../media/teams-upgrade-notification.png)
+![Notification of upcoming move to Teams.](../media/teams-upgrade-notification.png)
 
 To notify on-premises users that they will soon be upgraded to Teams, create a new instance of TeamsUpgradePolicy with NotifySfBUsers=true. Then assign that policy to the users who you want to notify, either by assigning the policy directly to the user or by setting the policy at the site, pool, or global level. The following cmdlets create and grant a user-level policy:
 

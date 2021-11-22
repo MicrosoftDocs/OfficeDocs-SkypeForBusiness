@@ -1,14 +1,14 @@
 ---
 title: Microsoft Education governance FAQ for admins
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
 description: Answers to frequently asked questions from administrators of Microsoft Education groups who use Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH

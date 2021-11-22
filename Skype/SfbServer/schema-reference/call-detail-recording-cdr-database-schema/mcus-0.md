@@ -1,8 +1,8 @@
 ---
 title: "Mcus view"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8e8bbb1b-993b-4b66-862b-7e7654777203
 description: "The Mcus view stores information about the MCUs that have participated in conference sessions. This view was introduced in Microsoft Lync Server 2013."
 ---

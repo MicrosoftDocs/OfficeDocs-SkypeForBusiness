@@ -1,7 +1,7 @@
 ---
 title: "Audio Conferencing with Direct Routing, GCCH and DoD"
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -17,7 +17,7 @@ appliesto:
   - Microsoft Teams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Admin can learn about how to use Audio Conferencing with Direct Routing in GCCH and DoD environments.
 ms.custom: seo-marvel-apr2020
 ---

@@ -1,8 +1,8 @@
 ---
-title: Teams for Virtual visits
-author: cichur
-ms.author: v-cichur
-manager: serdars
+title: Virtual visits with Teams - Integration into Epic EHR
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
@@ -12,7 +12,7 @@ searchScope:
   - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Healthcare
@@ -22,10 +22,10 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ms.reviewer: ansantam 
-description: Use Microsoft Teams to set up your Virtual visits system
+description: Learn how to integrate the Teams EHR connector to enable healthcare providers in your organization to conduct virtual visits with patients or other providers in Teams directly from the Epic EHR system. 
 ---
 
-# Virtual visits with Teams - Integration into EHR
+# Virtual visits with Teams - Integration into Epic EHR
 
 Microsoft Teams Electronic Health Record (EHR) connector makes it easy for clinicians to launch a virtual patient visit or consultation with another provider in Teams directly from the EHR system. Built on the Microsoft 365 cloud, Microsoft Teams enables simple, secure collaboration and communication with chat, video, voice, and healthcare tools in a single hub that supports compliance with HIPAA, HITECH certification, and more.
 The communication and collaboration platform of Teams makes it easy for clinicians to cut through the clutter of fragmented systems so they can spend time providing the best possible care. Microsoft Teams Electronic Health Record (EHR) connector can:
@@ -143,7 +143,7 @@ Key features of the provider experience:
 
 - Provider can see real-time updates of participants connect and disconnect for a given appointment. The provider can see when the patient is connected to a virtual visit.
 
-  ![Provider experience of a virtual visit with patient](../../media/ehc-provider-experience-6.png)
+  ![Provider experience of a virtual visit with patient.](../../media/ehc-provider-experience-6.png)
 
 ### Patient experience
 
@@ -151,7 +151,7 @@ The connector supports patients joining virtual visits through MyChart web and m
 
 Key features of the patient experience:
 
-- Patients can join virtual visits from modern web browsers on desktop and mobile without app installation.
+- Patients can join virtual visits from modern web browsers on desktop and [mobile without app installation](../mobile-browser-join.md).
 
 - Patients can join virtual visits with a single click and there is no other account or sign-in required.
 
@@ -161,7 +161,7 @@ Key features of the patient experience:
 
 - Testing of the video and microphone is available in the lobby before joining the virtual visit.
 
-  ![Patient experience of the virtual visit](../../media/ehc-virtual-visit-5.png)
+  ![Patient experience of the virtual visit.](../../media/ehc-virtual-visit-5.png)
 
 > [!Note]
 > Epic, MyChart, Haiku, and Canto are trademarks of Epic Systems Corporation.
@@ -174,4 +174,4 @@ The Microsoft Teams EHR connector doesn't store nor transfer any identifiable pe
 
 ## Related topics
 
-[Teams virtual visits](ehr-admin-reports.md)
+[Teams EHR connector admin reports](ehr-admin-reports.md)

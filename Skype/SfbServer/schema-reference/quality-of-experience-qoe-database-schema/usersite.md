@@ -1,8 +1,8 @@
 ---
 title: "UserSite table"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1c2a3cf2-dc05-472e-8097-a31f3a1aafcb
 description: "The UserSite table is a supporting table. Each record represents one user site defined in network configuration setting."
 ---

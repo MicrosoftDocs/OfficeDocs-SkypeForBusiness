@@ -1,7 +1,7 @@
 ---
 title: "Plan for Skype for Business in VDI environments"
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 ms.reviewer: krishra
 manager: serdars
 ms.date: 1/9/2018
@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 - Strat_SB_Admin
 ms.custom:

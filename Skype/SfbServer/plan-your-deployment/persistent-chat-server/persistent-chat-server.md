@@ -1,8 +1,8 @@
 ---
 title: "Plan for Persistent Chat Server in Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 8/17/2015
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9e652487-a123-40c0-ae61-47fb8ecc4a20
 description: "Summary: Read this topic to learn how to plan for Persistent Chat Server in Skype for Business Server 2015."
 ---
@@ -40,7 +40,7 @@ Persistent Chat Server can help improve communication within your organization b
 
 The following diagram shows a high-level view of the Persistent Chat Server architecture. 
   
-![Persistent Chat Server High-Level Architecture](../../media/0344f6e2-0c6d-4391-b4b3-ec31062b1576.png)
+![Persistent Chat Server High-Level Architecture.](../../media/0344f6e2-0c6d-4391-b4b3-ec31062b1576.png)
   
 Persistent Chat consists of a front-end server role that provides the Persistent Chat services as well as a back-end SQL database component. Both front-end and back-end components are included in a dedicated Persistent Chat pool. Each computer that hosts Persistent Chat Server must have access to an existing Skype for Business Server 2015 topology. In this diagram, there is one Persistent Chat Server pool (A), which is dependent on Skype for Business Server Pool A for routing messages to it.
   
@@ -52,7 +52,7 @@ Skype for Business Server 2015 communicates with the Persistent Chat service usi
 
 The following diagram shows the Persistent Chat Server front-end services, and how these services communicate with the back-end database components. The front-end components include the Persistent Chat services and the Compliance service. The back-end components include the Persistent Chat store and the Persistent Chat compliance store.
   
-![Persistent Chat Server High-Level Services](../../media/bcdbadbe-e868-4a46-8a73-36562648fdf7.png)
+![Persistent Chat Server High-Level Services.](../../media/bcdbadbe-e868-4a46-8a73-36562648fdf7.png)
   
 ### Chat service
 

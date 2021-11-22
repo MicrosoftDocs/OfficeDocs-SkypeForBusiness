@@ -1,8 +1,8 @@
 ---
 title: "ConferenceMessageCount table in Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 78569dbf-5217-42fa-ba1a-4380f56e2a3d
 description: "Each record in this table represents one user in one IM conference and includes the number of messages sent by that user. Each conference is represented by multiple records in this table; one record for each user."
 ---

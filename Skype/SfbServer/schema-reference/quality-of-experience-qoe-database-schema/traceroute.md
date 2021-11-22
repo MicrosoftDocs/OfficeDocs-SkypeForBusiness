@@ -1,8 +1,8 @@
 ---
 title: "TraceRoute table"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b9493cef-6ece-4f13-bf68-dbf132aab4f4
 description: "The TraceRoute table contains routing information from calls. This table was introduced in Microsoft Lync Server 2013."
 ---

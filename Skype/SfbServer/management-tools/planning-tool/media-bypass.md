@@ -1,8 +1,8 @@
 ---
-title: "Media Bypass (Planning Tool)"
+title: Media Bypass planning tool
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -11,13 +11,12 @@ f1.keywords:
 - ms.lync.plan.MediaBypass
 - ms.lync.plan.MediaBypass
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4c6417ea-a87d-4524-ba46-20e6c895d14c
-description: "Media bypass refers to removing the Mediation Server from the media path whenever possible for calls whose signaling traverses the Mediation Server. For more details, see Plan for media bypass in Skype for Business 2015."
+description: "Media bypass means removing the Mediation Server from the media path whenever possible for calls whose signaling traverses the Mediation Server. For more detail, see Plan for media bypass in Skype for Business 2015."
 ---
 
-# Media Bypass (Planning Tool)
+# Media Bypass planning tool
  
 Media bypass refers to removing the Mediation Server from the media path whenever possible for calls whose signaling traverses the Mediation Server. For more details, see [Plan for media bypass in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).
   
-

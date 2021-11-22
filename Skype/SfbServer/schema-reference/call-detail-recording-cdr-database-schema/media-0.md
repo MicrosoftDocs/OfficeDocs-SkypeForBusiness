@@ -1,8 +1,8 @@
 ---
 title: "Media view"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1a7b2e59-082e-4188-98ae-48ae9bd3494a
 description: "The Media view stores information about one media type used in a peer-to-peer session. One session would be represented by multiple records in the table, if more than one media type is used. This view was introduced in Microsoft Lync Server 2013."
 ---

@@ -1,15 +1,15 @@
 ---
 title: "Security framework for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 01131e28-b38e-40d9-8524-06725b9c6608
 description: "This section provides an overview of the fundamental elements that form the security framework for Skype for Business Server. Understanding how these elements work together is essential to making informed decisions about securing your particular Skype for Business Server deployment."

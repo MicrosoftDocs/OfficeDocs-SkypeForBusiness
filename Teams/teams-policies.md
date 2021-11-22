@@ -1,7 +1,7 @@
 ---
-title: Manage teams policies in Microsoft Teams
-author: cichur
-ms.author: v-cichur
+title: Manage channel policies in Microsoft Teams
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -12,7 +12,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -23,10 +23,10 @@ ms.custom:
   - ms.teamsadmincenter.teamsandchannelpolicies.overview
   - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
   - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-description: Learn how to use and manage teams policies in your organization to control what users can do in teams and channels.
+description: Learn how to use and manage teams channel policies in your organization to control what users can do in teams and channels.
 ---
 
-# Manage teams policies in Microsoft Teams
+# Manage channel policies in Microsoft Teams
 
 As an admin, you can use teams policies in Microsoft Teams to control what users in your organization can do in teams and channels. For example, you can set whether users are allowed to create private channels.
 
@@ -40,7 +40,7 @@ You can edit the global policy or create and assign a custom policy. After you e
 2. Click **Add**.
 3. Enter a name and description for the policy.
 
-    ![Screenshot of teams policy settings](media/teams-policies.png)
+    ![Screenshot of teams policy settings.](media/teams-policies.png)
 4. Turn on or turn off **Create private channels**, <a name="createchannels"> </a> depending on whether you want to allow users to create private channels.
 
 5. Click **Save**.
@@ -59,8 +59,10 @@ You can edit the global policy or any custom policies that you create.
 
 ## Related topics
 
+[Manage Teams connected sites and channel sites](/SharePoint/teams-connected-sites)
+
 [Private channels in Teams](private-channels.md)
 
-[Assign policies to your users in Teams](assign-policies.md)
+[Assign policies to your users in Teams](policy-assignment-overview.md)
 
-[New-CsTeamsChannelsPolicy](/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps)
+[New-CsTeamsChannelsPolicy](/powershell/module/skype/new-csteamschannelspolicy)

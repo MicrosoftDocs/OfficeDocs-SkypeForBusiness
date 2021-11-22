@@ -1,8 +1,8 @@
 ---
 title: "Install administrative tools in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/14/2018
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 - IT_Skype16
 - Strat_SB_Admin
@@ -25,7 +25,7 @@ description: "Summary: Learn how to install the administrative tools required fo
   
 The administrative tools include Topology Builder and the Control Panel. The administrative tools must be installed on at least one server in the topology or a 64-bit management workstation running a Windows OS version that is supported for Skype for Business Server. You can do steps 1 through 5 in any order. However, you must do steps 6, 7, and 8 in order, and after steps 1 through 5, as outlined in the diagram. Installing the administrative tools is step 3 of 8.
   
-![Overview diagram](../../media/d856afe8-4758-432f-bc45-e1956016419a.png)
+![Overview diagram.](../../media/d856afe8-4758-432f-bc45-e1956016419a.png)
   
 ## Install Skype for Business Server administrative tools
 
@@ -60,7 +60,7 @@ Watch the video steps for **Install administrative tools**:
     
      Once the installation of the Core Components is complete, the Skype for Business Server Deployment Wizard will automatically launch, as shown in the figure. 
     
-     ![Skype for Business Server Deployment Wizard](../../media/310c3437-83f9-48fa-a1e1-9fd09009fe31.png)
+     ![Skype for Business Server Deployment Wizard.](../../media/310c3437-83f9-48fa-a1e1-9fd09009fe31.png)
   
 6. In addition to the Core Components, you will also need to install Skype for Business Server Topology Builder and Skype for Business Server Control Panel on at least one server in the environment. Click **Install Administrative Tools** on the Deployment Wizard.
     
@@ -68,7 +68,7 @@ Watch the video steps for **Install administrative tools**:
     
 8. Once the installation has completed, click **Finish**. The administrative tools are now added to the server, as shown in the figure.
     
-    ![Skype for Business Server Administrative Tools](../../media/760873dd-9c87-4efb-bf98-7162d876fd18.png)
+    ![Skype for Business Server Administrative Tools.](../../media/760873dd-9c87-4efb-bf98-7162d876fd18.png)
   
    - **Skype for Business Server Topology Builder** A program used to build, deploy, and manage topologies.
     

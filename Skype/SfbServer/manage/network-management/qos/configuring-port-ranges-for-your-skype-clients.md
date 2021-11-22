@@ -5,15 +5,15 @@ ms:assetid: 287d5cea-7ada-461c-9b4a-9da2af315e71
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204760(v=OCS.15)
 ms:contentKeyID: 48183694
 mtps_version: v=OCS.15
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "This article describes how to configure port ranges for your clients and configuring Quality of Service policies in Skype for Business Server for clients running on Windows 10."
 ---
 
@@ -31,51 +31,48 @@ By default, Skype for Business client applications can use any port between port
 
 You can determine which port ranges are currently used for communication sessions by running the following command from within the Skype for Business Server Management Shell:
 
-    Get-CsConferencingConfiguration
+**Get-CsConferencingConfiguration**
 
 Assuming that you have not made any changes to your conferencing settings since you installed Skype for Business Server, you should get back information that includes these property values:
 
-    ClientMediaPortRangeEnabled : False
-    ClientAudioPort             : 5350
-    ClientAudioPortRange        : 40
-    ClientVideoPort             : 5350
-    ClientVideoPortRange        : 40
-    ClientAppSharingPort        : 5350
-    ClientAppSharingPortRange   : 40
-    ClientFileTransferPort      : 5350
-    ClientTransferPortRange     : 40
+ClientMediaPortRangeEnabled : False<br/>
+ClientAudioPort             : 5350<br/>
+ClientAudioPortRange        : 40<br/>
+ClientVideoPort             : 5350<br/>
+ClientVideoPortRange        : 40<br/>
+ClientAppSharingPort        : 5350<br/>
+ClientAppSharingPortRange   : 40<br/>
+ClientFileTransferPort      : 5350<br/>
+ClientTransferPortRange     : 40<br/>
 
 If you look closely at the preceding output, you'll see two things of importance. First, the ClientMediaPortRangeEnabled property is set to False:
 
-    ClientMediaPortRangeEnabled : False
+**ClientMediaPortRangeEnabled : False**
 
 That's important because, when this property is set to False, Skype for Business clients will use any available port between ports 1024 and 65535 when involved in a communication session; this is true regardless of any other port settings (for example, ClientMediaPort or ClientVideoPort). If you want to restrict usage to a specified set of ports (and this is something you do want to do if you plan on implementing Quality of Service), then you must first enable client media port ranges. That can be done using the following Windows PowerShell command:
 
-    Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True
+**Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True**
 
 The preceding command enables client media port ranges for the global collection of conferencing configuration settings; however, these settings can also be applied to the site scope and/or the service scope (for the Conferencing Server service only). To enable client media port ranges for a specific site or server, specify the Identity of that site or server when calling Set-CsConferencingConfiguration:
 
-    Set-CsConferencingConfiguration -Identity "site:Redmond" -ClientMediaPortRangeEnabled $True
+**Set-CsConferencingConfiguration -Identity "site:Redmond" -ClientMediaPortRangeEnabled $True**
 
 Alternatively, you can use this command to simultaneously enable port ranges for all your conferencing configuration settings:
 
-    Get-CsConferencingConfiguration | Set-CsConferencingConfiguration  -ClientMediaPortRangeEnabled $True
+**Get-CsConferencingConfiguration | Set-CsConferencingConfiguration  -ClientMediaPortRangeEnabled $True**
 
 The second thing of importance you will notice is that the sample output shows that, by default, the media port ranges set for each type of network traffic are identical:
 
-    ClientAudioPort             : 5350
-    ClientVideoPort             : 5350
-    ClientAppSharingPort        : 5350
-    ClientFileTransferPort      : 5350
+ClientAudioPort             : 5350<br/>
+ClientVideoPort             : 5350<br/>
+ClientAppSharingPort        : 5350<br/>
+ClientFileTransferPort      : 5350<br/>
 
 In order to implement QoS, each of these port ranges will need to be unique. For example, you might configure the port ranges like this:
 
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -115,11 +112,11 @@ In addition, you might have noticed that 8348 ports were set aside for applicati
 
 To assign the preceding port ranges to your global collection of conferencing configuration settings, you can use the following Skype for Business Server Management Shell command:
 
-    Set-CsConferencingConfiguration -Identity global -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20
+**Set-CsConferencingConfiguration -Identity global -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20**
 
 Or, use this command to assign these same port ranges for all your conferencing configuration settings:
 
-    Get-CsConferencingConfiguration | Set-CsConferencingConfiguration -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20
+**Get-CsConferencingConfiguration | Set-CsConferencingConfiguration -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20**
 
 Individual users must log off from Skype for Business and then log back on before these changes will actually take effect.
 
@@ -135,9 +132,6 @@ The following example uses this set of port ranges to create an audio policy and
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -218,7 +212,7 @@ For a file transfer policy:
 
 The new policies you have created will not take effect until Group Policy has been refreshed on your client computers. Although Group Policy periodically refreshes on its own, you can force an immediate refresh by running the following command on each computer where Group Policy needs to be refreshed:
 
-    Gpupdate.exe /force
+**Gpupdate.exe /force**
 
 This command can be run from any command window that is running under administrator credentials. To run a command window under administrator credentials, click **Start**, right-click **Command Prompt**, and then click **Run as administrator**.
 

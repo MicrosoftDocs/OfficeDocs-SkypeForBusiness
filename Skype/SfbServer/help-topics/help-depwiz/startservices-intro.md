@@ -1,8 +1,8 @@
 ---
 title: "StartServices (Intro)"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployStartServicesIntro
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 524c6ff0-d695-45e1-9c47-c68698f5f3ce
 description: "To start services on the Skype for Business Server 2015 role server that you are deploying, review the introduction screen. Notice that the commands issued to start the Skype for Business Server do not wait for the service to start. This is a best effort to start the services, and you should monitor the actual status of the services by using the Windows Services Microsoft Management Console (MMC). Click Next to begin the Start Services task."
 ---

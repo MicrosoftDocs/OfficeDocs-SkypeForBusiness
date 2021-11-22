@@ -1,7 +1,7 @@
 ---
 title: "Skype Room System and Skype for Business federated partners"
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -9,7 +9,7 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1cc20323-ecba-4e87-a861-e54193e64cf0
 description: "Read this topic to learn how to set up Skype Room System for Skype for Business federated partners."
 ---

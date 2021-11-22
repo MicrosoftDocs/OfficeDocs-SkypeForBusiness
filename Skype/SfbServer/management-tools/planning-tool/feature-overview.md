@@ -1,8 +1,8 @@
 ---
-title: "Feature Overview (Planning Tool)"
+title: Feature Overview planning tool
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - ms.lync.plan.FeatureOverview
 - ms.lync.plan.FeatureOverview
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
-description: "Skype for Business Server 2015 Planning Tool"
+description: "Descripbes the Skype for Business Server 2015 planning tool."
 ---
 
-# Feature Overview (Planning Tool)
+# Feature Overview planning tool
  
 Skype for Business Server 2015 Planning Tool
   

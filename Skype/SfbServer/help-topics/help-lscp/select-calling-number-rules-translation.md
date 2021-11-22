@@ -1,8 +1,8 @@
 ---
 title: "Select Calling Number Rules Translation"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceTrunkSelCallingRule
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b9009c02-6628-4038-bc80-650c7a2b8741
 description: "The Select Calling Number Translation Rules dialog displays the translation rules configured for your deployment. For details about translation rules, see the following topics:"
 ---

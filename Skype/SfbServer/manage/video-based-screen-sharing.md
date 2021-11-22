@@ -1,8 +1,8 @@
 ---
 title: "Video based Screen Sharing for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 ms.date: 2/20/2018
 manager: serdars
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: "Skype for Business Server planning and configuration information for Video-based Screen Sharing (VbSS)"
 ---

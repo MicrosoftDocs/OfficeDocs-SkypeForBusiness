@@ -1,8 +1,8 @@
 ---
 title: "tblSystemRevision"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 95b8e307-117c-4fb0-bd52-bc5a5b9ade55
 description: "tblSystemRevision contains the revision number that is used with the tblAdminLock table to achieve consistency across multiple administrator clients."
 ---

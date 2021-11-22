@@ -1,7 +1,7 @@
 ---
 title: Plan for live events in Microsoft Teams
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: sonua
 f1.keywords:
 - NOCSH
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
 - M365-collaboration
 - m365initiative-meetings
@@ -101,7 +101,7 @@ The following table highlights core capabilities and features offered in live ev
 > [!IMPORTANT]
 > **Microsoft 365 live event limit increases**
 >
-> **To continue supporting our customers' needs, through December 31, 2021, we will extend temporary limit increases for live events, including**:
+> **To continue supporting our customers' needs, we will extend temporary limit increases for live events through June 30, 2022, including**:
 >
 >- Event support for up to 20,000 attendees
 >- 50 events can be hosted simultaneously across a tenant
@@ -159,11 +159,14 @@ You can use Teams live events in multiple regions across the world. The followin
 **Data location for these countries/regions (supported)**
 
 - Australia
+- Brazil
 - Canada
 - France
 - Germany
 - India
 - Japan
+- Norway
+- Singapore
 - South Africa
 - South Korea
 - Switzerland
@@ -172,8 +175,6 @@ You can use Teams live events in multiple regions across the world. The followin
 
 **These countries/regions and clouds aren't supported**
 
-- Brazil
-- Norway
 - Government Community Cloud (GCC)-H
 - Department of Defense (DOD)
 

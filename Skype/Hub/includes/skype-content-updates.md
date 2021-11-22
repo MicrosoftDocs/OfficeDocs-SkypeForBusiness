@@ -2,163 +2,187 @@
 
 
 
-## Week of May 10, 2021
+## Week of October 25, 2021
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 5/10/2021 | [Configure Skype for Business hybrid](/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online) | modified |
-| 5/10/2021 | [Configure hybrid connectivity \| Deploy Skype for Business Server 2019 connect](/SkypeForBusiness/hybrid/configure-hybrid-connectivity) | modified |
-| 5/10/2021 | [Move users between on-premises and cloud](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud) | modified |
-| 5/10/2021 | [Move users from on premises to Skype for Business Online](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online) | modified |
-| 5/10/2021 | [Move users from Skype for Business Server 2019 to Teams](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) | modified |
-| 5/10/2021 | [Plan hybrid connect \| Skype for Business Server 2019 and Teams](/SkypeForBusiness/hybrid/plan-hybrid-connectivity) | modified |
+| 10/26/2021 | [Control Panel - Overview](/SkypeForBusiness/control-panel-overview) | added |
+| 10/26/2021 | [Use PowerShell for tasks on Client menu](/SkypeForBusiness/use-powershell-client-menu) | added |
+| 10/26/2021 | [Use PowerShell for tasks on Client menu](/SkypeForBusiness/use-powershell-client-menu) | modified |
+| 10/26/2021 | [Manage DNS entries when decommissioning your on-premises environment](/SkypeForBusiness/hybrid/decommission-manage-dns-entries) | modified |
 
 
-## Week of May 03, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 5/5/2021 | [Cloud Consolidation for Teams and Skype for Business](/SkypeForBusiness/hybrid/cloud-consolidation) | modified |
-| 5/5/2021 | [Configure Azure AD Connect](/SkypeForBusiness/hybrid/configure-azure-ad-connect) | modified |
-| 5/5/2021 | [Move users from on premises to Skype for Business Online](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online) | modified |
-| 5/5/2021 | [End of life program for the integration of Skype for Business with third-party audio conferencing providers ](/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers) | modified |
-| 5/5/2021 | [Set up Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online) | modified |
-| 5/5/2021 | [Troubleshoot problems with Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online) | modified |
-| 5/5/2021 | [Configuring federation support for a Skype for Business Online customer](/SkypeForBusiness/manage/federation-and-external-access/federation-support/configuring-federation-support) | modified |
-| 5/5/2021 | [Integration with Exchange and SharePoint](/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint) | modified |
-| 5/5/2021 | [Set the PIN length for Audio Conferencing meetings in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-pin-length-for-audio-conferencing-meetings) | modified |
-| 5/5/2021 | [Assign Microsoft as the audio conferencing provider](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider) | modified |
-| 5/5/2021 | [Audio Conferencing troubleshooting and known issues](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues) | modified |
-| 5/5/2021 | [Dialing out from a Skype for Business meeting so other people can join it](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) | modified |
-| 5/5/2021 | [Disabling toll-free numbers for specific Skype for Business Online users](/SkypeForBusiness/audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users) | modified |
-| 5/5/2021 | [Emails sent to users when their settings change in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change) | modified |
-| 5/5/2021 | [Enable or disable sending emails when Audio Conferencing settings change in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change) | modified |
-| 5/5/2021 | [Enable users to record their name when they join a meeting in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/enable-users-to-record-their-name-when-they-join-a-meeting) | modified |
-| 5/5/2021 | [Manage the Audio Conferencing settings for a user in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user) | modified |
-| 5/5/2021 | [Manage the Audio Conferencing settings for my organization in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization) | modified |
-| 5/5/2021 | [Phone numbers for Audio Conferencing in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing) | modified |
-| 5/5/2021 | [Reset a conference ID for a user in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user) | modified |
-| 5/5/2021 | [Reset the Audio Conferencing PIN in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/reset-the-audio-conferencing-pin) | modified |
-| 5/5/2021 | [See a list of Audio Conferencing numbers in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/see-a-list-of-audio-conferencing-numbers) | modified |
-| 5/5/2021 | [See a list of users that are enabled for Audio Conferencing in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/see-a-list-of-users-that-are-enabled-for-audio-conferencing) | modified |
-| 5/5/2021 | [See, change, and reset a conference ID assigned to a user in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/see-change-and-reset-a-conference-id-assigned-to-a-user) | modified |
-| 5/5/2021 | [Send an email to a user with their Audio Conferencing in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/send-an-email-to-a-user-with-their-dial-in-information) | modified |
-| 5/5/2021 | [Set auto attendant languages for Audio Conferencing in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing) | modified |
-| 5/5/2021 | [Set the phone numbers included on invites in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites) | modified |
-| 5/5/2021 | [Set up Audio Conferencing for Skype for Business](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) | modified |
-| 5/5/2021 | [Using the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms) | modified |
-| 5/5/2021 | [Start an Audio Conference over the phone without a PIN in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/start-an-audio-conference-over-the-phone-without-a-pin) | modified |
-| 5/5/2021 | [Try or purchase Audio Conferencing in Microsoft 365 or Office 365 for Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365) | modified |
-| 5/5/2021 | [Turn on or off entry and exit announcements for meetings in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings) | modified |
-| 5/5/2021 | [Accessibility Declaration of Conformance in France](/SkypeForBusiness/legal-and-regulatory/accessibility-declaration-of-conformance-in-france) | modified |
-| 5/5/2021 | [IP Relay in Canada - sign up](/SkypeForBusiness/legal-and-regulatory/ip-relay-canada-email-signup) | modified |
-| 5/5/2021 | [IP Relay Canada User Guide](/SkypeForBusiness/legal-and-regulatory/ip-relay-canada-user-guide) | modified |
-| 5/5/2021 | [Legal and regulatory](/SkypeForBusiness/legal-and-regulatory/legal-and-regulatory) | modified |
-| 5/5/2021 | [Call flow using ExpressRoute](/SkypeForBusiness/optimizing-your-network/call-flow-using-expressroute) | modified |
-| 5/5/2021 | [ExpressRoute and QoS in Skype for Business Online](/SkypeForBusiness/optimizing-your-network/expressroute-and-qos-in-skype-for-business-online) | modified |
-| 5/5/2021 | [Media Quality and Network Connectivity Performance](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) | modified |
-| 5/5/2021 | [Optimizing your network](/SkypeForBusiness/optimizing-your-network/optimizing-your-network) | modified |
-| 5/5/2021 | [Proxy servers for Teams or Skype for Business Online](/SkypeForBusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online) | modified |
-| 5/5/2021 | [Security guide for Skype for Business Online](/SkypeForBusiness/optimizing-your-network/security-guide-for-skype-for-business-online) | modified |
-| 5/5/2021 | [Block Point-to-Point file transfers](/SkypeForBusiness/set-up-policies-in-your-organization/block-point-to-point-file-transfers) | modified |
-| 5/5/2021 | [Create custom external access policies](/SkypeForBusiness/set-up-policies-in-your-organization/create-custom-external-access-policies) | modified |
-| 5/5/2021 | [Retaining large files attached to a Skype for Business meeting](/SkypeForBusiness/set-up-policies-in-your-organization/retaining-large-files-attached-to-a-meeting) | modified |
-| 5/5/2021 | [Set up client policies for your organization](/SkypeForBusiness/set-up-policies-in-your-organization/set-up-client-policies-for-your-organization) | modified |
-| 5/5/2021 | [Set up conferencing policies for your organization](/SkypeForBusiness/set-up-policies-in-your-organization/set-up-conferencing-policies-for-your-organization) | modified |
-| 5/5/2021 | [Set up mobile policies for your organization](/SkypeForBusiness/set-up-policies-in-your-organization/set-up-mobile-policies-for-your-organization) | modified |
-| 5/5/2021 | [Set up policies in your organization](/SkypeForBusiness/set-up-policies-in-your-organization/set-up-policies-in-your-organization) | modified |
-| 5/5/2021 | [Allow users to contact external Skype for Business users](/SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users) | modified |
-| 5/5/2021 | [Configure presence in Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/configure-presence-in-skype-for-business-online) | modified |
-| 5/5/2021 | [Configure presence privacy mode](/SkypeForBusiness/set-up-skype-for-business-online/configure-presence-privacy-mode) | modified |
-| 5/5/2021 | [Admins Configure Skype for Business settings for individual users](/SkypeForBusiness/set-up-skype-for-business-online/configure-skype-for-business-settings-for-individual-users) | modified |
-| 5/5/2021 | [Customize meeting invitations](/SkypeForBusiness/set-up-skype-for-business-online/customize-meeting-invitations) | modified |
-| 5/5/2021 | [Deploy the Skype for Business client in Microsoft 365 aor Office 365](/SkypeForBusiness/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365) | modified |
-| 5/5/2021 | [Let people record their audio and video conferences](/SkypeForBusiness/set-up-skype-for-business-online/let-people-record-their-audio-and-video-conferences) | modified |
-| 5/5/2021 | [Let Skype for Business users add Skype contacts](/SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts) | modified |
-| 5/5/2021 | [Set up and troubleshoot Skype for Business Online delegation](/SkypeForBusiness/set-up-skype-for-business-online/set-up-and-troubleshoot-skype-for-business-online-delegation) | modified |
-| 5/5/2021 | [Skype for Business Online admin center users page limitations](/SkypeForBusiness/set-up-skype-for-business-online/skype-for-business-admin-center-users-page-limitations) | modified |
-| 5/5/2021 | [Skype for Business mobile app security](/SkypeForBusiness/set-up-skype-for-business-online/skype-for-business-mobile-app-security) | modified |
-| 5/5/2021 | [Skype for Business Online settings summary](/SkypeForBusiness/set-up-skype-for-business-online/skype-for-business-online-settings-summary) | modified |
-| 5/5/2021 | [Skype for Business Online support in Outlook on the web](/SkypeForBusiness/set-up-skype-for-business-online/skype-for-business-online-support-in-outlook-on-the-web) | modified |
-| 5/5/2021 | [Switching between the Skype for Business and the Lync client user interfaces](/SkypeForBusiness/set-up-skype-for-business-online/switching-the-skype-for-business-and-the-lync-client-user-interfaces) | modified |
-| 5/5/2021 | [Test your Skype for Business Online installation](/SkypeForBusiness/set-up-skype-for-business-online/test-your-skype-for-business-online-installation) | modified |
-| 5/5/2021 | [The user's Skype for Business Online service plan isn't valid](/SkypeForBusiness/set-up-skype-for-business-online/the-service-plan-isn-t-valid) | modified |
-| 5/5/2021 | [This Skype for Business Online feature isn't enabled](/SkypeForBusiness/set-up-skype-for-business-online/this-skype-for-business-online-feature-isn-t-enabled) | modified |
-| 5/5/2021 | [Troubleshooting Skype for Business Online sign-in errors for administrators](/SkypeForBusiness/set-up-skype-for-business-online/troubleshooting-sign-in-errors-for-admins) | modified |
-| 5/5/2021 | [Turn on or off mobile phone notifications](/SkypeForBusiness/set-up-skype-for-business-online/turn-on-or-off-mobile-phone-notifications) | modified |
-| 5/5/2021 | [Turn on or off Offline Messages for admins](/SkypeForBusiness/set-up-skype-for-business-online/turn-on-or-off-offline-messages-for-admins) | modified |
-| 5/5/2021 | [Turn on or off allowing content to be preloaded for meetings using Outlook](/SkypeForBusiness/set-up-skype-for-business-online/turn-on-or-off-preloading-content-for-meetings-using-outlook) | modified |
-| 5/5/2021 | [Turn on or off Skype for Business client feedback reporting](/SkypeForBusiness/set-up-skype-for-business-online/turn-on-or-off-skype-for-business-client-feedback-reporting) | modified |
-| 5/5/2021 | [User statistics and organization information](/SkypeForBusiness/set-up-skype-for-business-online/user-statistics-and-organization-information) | modified |
-| 5/5/2021 | [Video Skype for Business Online external communications](/SkypeForBusiness/set-up-skype-for-business-online/video-skype-for-business-online-external-communications) | modified |
-| 5/5/2021 | [Why can't I use the Skype for Business Online admin center right now?](/SkypeForBusiness/set-up-skype-for-business-online/why-can-t-you-use-the-skype-for-business-admin-center) | modified |
-| 5/5/2021 | [Diagnose connection problems with the Skype for Business Online Connector](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/diagnose-connection-problems-with-the-skype-for-business-online-connector) | modified |
-| 5/5/2021 | [Diagnose connection problems with the Skype for Business Online Connector](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/diagnose-problems-with-the-skype-for-business-online-connector) | modified |
-| 5/5/2021 | [Download and install the Skype for Business Online Connector module](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) | modified |
-| 5/5/2021 | [Download and install Windows PowerShell 5.1](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1) | modified |
-| 5/5/2021 | [Manage Exchange Unified Messaging and hosted voicemail](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/manage-exchange-unified-messaging-and-hosted-voicemail) | modified |
-| 5/5/2021 | [Manage Skype for Business Online organizations](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations) | modified |
-| 5/5/2021 | [Manage user accounts using the Online Connector](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/manage-user-accounts-using-the-online-connector) | modified |
-| 5/5/2021 | [Manage user accounts](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/manage-user-accounts) | modified |
-| 5/5/2021 | [Set up your computer for Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) | modified |
-| 5/5/2021 | [Blocked user licenses for Skype Meeting Broadcast](/SkypeForBusiness/set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast) | modified |
-| 5/5/2021 | [Enable Skype Meeting Broadcast](/SkypeForBusiness/set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast) | modified |
-| 5/5/2021 | [Make changes to Skype Meeting Broadcast settings for your organization](/SkypeForBusiness/set-up-your-network-for-skype-meeting-broadcast/make-changes-to-skype-meeting-broadcast-settings) | modified |
-| 5/5/2021 | [Set up your network for Skype Meeting Broadcast](/SkypeForBusiness/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast) | modified |
-| 5/5/2021 | [Skype Meeting Broadcast Preview settings](/SkypeForBusiness/set-up-your-network-for-skype-meeting-broadcast/skype-meeting-broadcast-preview-settings) | modified |
-| 5/5/2021 | [Assign Skype for Business licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) | modified |
-| 5/5/2021 | [GOV, EDU, and non-profit organizations](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations) | modified |
-| 5/5/2021 | [License options based on your plan](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/license-options-based-on-your-plan) | modified |
-| 5/5/2021 | [Microsoft 365 Business Standard ](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan) | modified |
-| 5/5/2021 | [Office 365 Enterprise, E1, E3, and E4 plans](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4) | modified |
-| 5/5/2021 | [Office 365 Enterprise E5](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing) | modified |
-| 5/5/2021 | [Microsoft 365 Apps for enterprise or Skype for Business Online Standalone Plan 2](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan) | modified |
-| 5/5/2021 | [Skype for Business Online Plan 1 retirement ](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement) | modified |
-| 5/5/2021 | [Skype for Business add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) | modified |
-| 5/5/2021 | [Activity report](/SkypeForBusiness/skype-for-business-online-reporting/activity-report) | modified |
-| 5/5/2021 | [Conference organizer activity report](/SkypeForBusiness/skype-for-business-online-reporting/conference-organizer-activity-report) | modified |
-| 5/5/2021 | [Conference participant activity report](/SkypeForBusiness/skype-for-business-online-reporting/conference-participant-activity-report) | modified |
-| 5/5/2021 | [Device usage report](/SkypeForBusiness/skype-for-business-online-reporting/device-usage-report) | modified |
-| 5/5/2021 | [Peer-to-peer activity report](/SkypeForBusiness/skype-for-business-online-reporting/peer-to-peer-activity-report) | modified |
-| 5/5/2021 | [PSTN minute pools report](/SkypeForBusiness/skype-for-business-online-reporting/pstn-minute-pools-report) | modified |
-| 5/5/2021 | [PSTN usage report](/SkypeForBusiness/skype-for-business-online-reporting/pstn-usage-report) | modified |
-| 5/5/2021 | [Session details report](/SkypeForBusiness/skype-for-business-online-reporting/session-details-report) | modified |
-| 5/5/2021 | [Skype for Business Online reporting](/SkypeForBusiness/skype-for-business-online-reporting/skype-for-business-online-reporting) | modified |
-| 5/5/2021 | [Users blocked report](/SkypeForBusiness/skype-for-business-online-reporting/users-blocked-report) | modified |
-| 5/5/2021 | [Calling Plans known issues](/SkypeForBusiness/what-are-calling-plans-in-office-365/calling-plans-known-issues) | modified |
-| 5/5/2021 | [How do I create a support ticket for address validation?](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-do-i-create-a-support-ticket-for-address-validation) | modified |
-| 5/5/2021 | [Submitting a service request for local number porting](/SkypeForBusiness/what-are-calling-plans-in-office-365/submitting-a-service-request-for-local-number-porting) | modified |
-| 5/5/2021 | [What if my phone carrier isn't listed as the source carrier?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-if-my-phone-carrier-isn-t-listed-as-the-source-carrier) | modified |
-| 5/5/2021 | [What is address validation?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-is-address-validation) | modified |
-| 5/5/2021 | [What do you need to do after you have ported over your phone numbers?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-you-need-to-do-after-you-ported-over-phone-numbers) | modified |
-| 5/5/2021 | [Why am I having problems entering U.K. address information?](/SkypeForBusiness/what-are-calling-plans-in-office-365/why-am-i-having-problems-entering-u-k-address-information) | modified |
-| 5/5/2021 | [Why has number activation failed?](/SkypeForBusiness/what-are-calling-plans-in-office-365/why-has-number-activation-failed) | modified |
-| 5/5/2021 | [Why is number activation just pending?](/SkypeForBusiness/what-are-calling-plans-in-office-365/why-is-number-activation-just-pending) | modified |
-| 5/5/2021 | [Why is number activation listed as incomplete?](/SkypeForBusiness/what-are-calling-plans-in-office-365/why-is-number-activation-listed-as-incomplete) | modified |
-| 5/5/2021 | [Why is number activation listed as updating?](/SkypeForBusiness/what-are-calling-plans-in-office-365/why-is-number-activation-listed-as-updating) | modified |
-| 5/5/2021 | [Your port order was accepted](/SkypeForBusiness/what-are-calling-plans-in-office-365/your-port-order-was-accepted) | modified |
-| 5/5/2021 | [Block inbound calls in Skype for Business Online](/SkypeForBusiness/what-is-phone-system-in-office-365/block-inbound-calls) | modified |
-| 5/5/2021 | [Deploying Skype for Business Online phones](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones) | modified |
-| 5/5/2021 | [Getting phones for Skype for Business Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online) | modified |
-| 5/5/2021 | [Set up Common Area Phones](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones) | modified |
-
-
-## Week of April 26, 2021
+## Week of October 18, 2021
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 4/27/2021 | Microsoft telephony solutions | removed |
-| 4/27/2021 | [Plan Phone System with on-premises PSTN connectivity in Skype for Business Server](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity) | modified |
-| 4/27/2021 | [Plan for Skype for Business Cloud Connector Edition](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition) | modified |
-| 4/29/2021 | [Validated Lync Applications](/SkypeForBusiness/lync-cert/validated-lync-apps) | modified |
+| 10/20/2021 | [Set up Audio Conferencing for Skype for Business](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) | modified |
+| 10/20/2021 | [Allow users to contact external Skype for Business users](/SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users) | modified |
 
 
-## Week of April 19, 2021
+## Week of October 04, 2021
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 4/20/2021 | [Disable hybrid to complete migration to the cloud](/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid) | modified |
+| 10/6/2021 | [Using the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms) | modified |
+| 10/6/2021 | [Phones and Devices for Skype for Business and Lync](/SkypeForBusiness/certification/devices-usb-devices) | modified |
+
+
+## Week of September 27, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/29/2021 | [Deploy Skype for Business Server 2019](/SkypeForBusiness/deploy-1/deploy-overview) | modified |
+| 9/29/2021 | [Skype for Business Server 2019 Management Tools](/SkypeForBusiness/management-tools-2019) | modified |
+| 9/29/2021 | [Exchange Unified Messaging Online migration support](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support) | modified |
+| 9/29/2021 | [Plan for your Skype for Business Server 2019 deployment](/SkypeForBusiness/plan/plan-your-deployment-2019) | modified |
+| 9/29/2021 | [System requirements for Skype for Business Server 2019](/SkypeForBusiness/plan/system-requirements) | modified |
+| 9/29/2021 | [Capacity planning for Skype for Business Server 2019](/SkypeForBusiness/plan/user-model-2019) | modified |
+| 9/29/2021 | [Configure the Skype for Business Server computers that will be monitored](/SkypeForBusiness/tools/configure-computers-to-monitor-2019) | modified |
+| 9/29/2021 | [Configure the primary management server](/SkypeForBusiness/tools/configure-the-primary-2019) | modified |
+| 9/29/2021 | [Manage Skype for Business Server 2019 using SCOM Management pack](/SkypeForBusiness/tools/scom-management-pack-use-2019) | modified |
+| 9/29/2021 | [Configure watcher node test users and settings](/SkypeForBusiness/tools/test-users-and-settings-2019) | modified |
+| 9/29/2021 | [Plan Call Data Connector \| Call Quality Dashboard Monitoring Hybrid Analytics](/SkypeForBusiness/hybrid/plan-call-data-connector) | modified |
+| 9/29/2021 | [Plan a Cloud auto attendant](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant) | modified |
+| 9/29/2021 | [Set the PIN length for Audio Conferencing meetings in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-pin-length-for-audio-conferencing-meetings) | modified |
+| 9/29/2021 | [Emails sent to users when their settings change in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change) | modified |
+| 9/29/2021 | [Enable or disable sending emails when Audio Conferencing settings change in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change) | modified |
+| 9/29/2021 | [Enable users to record their name when they join a meeting in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/enable-users-to-record-their-name-when-they-join-a-meeting) | modified |
+| 9/29/2021 | [Manage the Audio Conferencing settings for my organization in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization) | modified |
+| 9/29/2021 | [Phone numbers for Audio Conferencing in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing) | modified |
+| 9/29/2021 | [Reset the Audio Conferencing PIN in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/reset-the-audio-conferencing-pin) | modified |
+| 9/29/2021 | [See a list of Audio Conferencing numbers in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/see-a-list-of-audio-conferencing-numbers) | modified |
+| 9/29/2021 | [Send an email to a user with their Audio Conferencing in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/send-an-email-to-a-user-with-their-dial-in-information) | modified |
+| 9/29/2021 | [Start an Audio Conference over the phone without a PIN in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/start-an-audio-conference-over-the-phone-without-a-pin) | modified |
+| 9/29/2021 | [Try or purchase Audio Conferencing in Microsoft 365 or Office 365 for Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365) | modified |
+| 9/29/2021 | [Turn on or off entry and exit announcements for meetings in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings) | modified |
+| 9/29/2021 | [Accessibility Declaration of Conformance in France](/SkypeForBusiness/legal-and-regulatory/accessibility-declaration-of-conformance-in-france) | modified |
+| 9/29/2021 | [End of life program for the integration of Skype for Business with third-party audio conferencing providers ](/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers) | modified |
+| 9/29/2021 | [Skype for Business mobile app security](/SkypeForBusiness/set-up-skype-for-business-online/skype-for-business-mobile-app-security) | modified |
+| 9/29/2021 | [Switching between the Skype for Business and the Lync client user interfaces](/SkypeForBusiness/set-up-skype-for-business-online/switching-the-skype-for-business-and-the-lync-client-user-interfaces) | modified |
+| 9/29/2021 | [Test your Skype for Business Online installation](/SkypeForBusiness/set-up-skype-for-business-online/test-your-skype-for-business-online-installation) | modified |
+| 9/29/2021 | [Diagnose connection problems with the Skype for Business Online Connector](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/diagnose-problems-with-the-skype-for-business-online-connector) | modified |
+| 9/29/2021 | Skype Meeting Broadcast Preview settings | removed |
+| 9/29/2021 | [Office 365 Enterprise E5](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing) | modified |
+| 9/29/2021 | [Office 365 Enterprise E5 (without Audio Conferencing)](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing) | modified |
+| 9/29/2021 | [Microsoft 365 Apps for enterprise or Skype for Business Online Standalone Plan 2](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan) | modified |
+| 9/29/2021 | [Skype for Business add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) | modified |
+| 9/29/2021 | [Deploying Skype for Business Online phones](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones) | modified |
+| 9/29/2021 | [Getting phones for Skype for Business Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online) | modified |
+| 9/29/2021 | [Languages for voicemail greetings and messages](/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages) | modified |
+| 9/29/2021 | [Skype for Business Online audio conferencing providers](/SkypeForBusiness/certification/audio-conferencing) | modified |
+| 9/29/2021 | [Skype for Business Certification Program — Session Border Controllers](/SkypeForBusiness/certification/infra-sbc) | modified |
+| 9/29/2021 | [Skype for Business - networking - wired](/SkypeForBusiness/certification/networking-sdn) | modified |
+| 9/29/2021 | [Skype for Business - Networking Wi-Fi](/SkypeForBusiness/certification/networking-wifi) | modified |
+| 9/29/2021 | [Audio conferencing providers for Skype for Business Online](/SkypeForBusiness/certification/services-acps) | modified |
+| 9/29/2021 | [Services for Skype for Business](/SkypeForBusiness/certification/services-sip-trunking) | modified |
+| 9/29/2021 | [Qualified Lync Attendant Console applications](/SkypeForBusiness/lync-cert/attendant-console-apps) | modified |
+| 9/29/2021 | [Qualified Lync applications: Billing and enhanced reporting applications](/SkypeForBusiness/lync-cert/billing-reporting-apps) | modified |
+| 9/29/2021 | [Qualified Lync apps](/SkypeForBusiness/lync-cert/contact-center-apps) | modified |
+| 9/29/2021 | [Load balancer partner qualification for Lync](/SkypeForBusiness/lync-cert/hardware-load-balancers) | modified |
+| 9/29/2021 | [:"Lync Server network infrastructure roadmap"](/SkypeForBusiness/lync-cert/infra-roadmap) | modified |
+| 9/29/2021 | [Solutions qualified with Lync Online Dedicated](/SkypeForBusiness/lync-cert/lync-certification-program) | modified |
+| 9/29/2021 | [Lync extensibility applications](/SkypeForBusiness/lync-cert/lync-extensibility-apps) | modified |
+| 9/29/2021 | [Partner qualification for Lync - Meeting room devices and solutions](/SkypeForBusiness/lync-cert/meeting-room-devices) | modified |
+| 9/29/2021 | [Partner qualification for Lync](/SkypeForBusiness/lync-cert/networking-lync-server-2010-2013) | modified |
+| 9/29/2021 | [Lync Online Dedicated-qualified solutoins](/SkypeForBusiness/lync-cert/online-dedicated) | modified |
+| 9/29/2021 | [Lync ISV Qualification Program](/SkypeForBusiness/lync-cert/participation) | modified |
+| 9/29/2021 | [Lync Online Dedicated partner qualified solutions](/SkypeForBusiness/lync-cert/partner-qualification) | modified |
+| 9/29/2021 | [PCs optimized for Lync](/SkypeForBusiness/lync-cert/pcs-optimized-for-lync) | modified |
+| 9/29/2021 | [Qualified Lync applications for persistent chat](/SkypeForBusiness/lync-cert/persistent-chat-apps) | modified |
+| 9/29/2021 | [Infrastructure qualified for Lync - IP PBXs and Gateways ](/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway) | modified |
+| 9/29/2021 | [Lync qualified applications](/SkypeForBusiness/lync-cert/qualified-lync-apps) | modified |
+| 9/29/2021 | [Qualified Lync recording applications](/SkypeForBusiness/lync-cert/recording-apps) | modified |
+| 9/29/2021 | [Reverse proxies](/SkypeForBusiness/lync-cert/reverse-proxies) | modified |
+| 9/29/2021 | [Lync Room Systems](/SkypeForBusiness/lync-cert/room-systems) | modified |
+| 9/29/2021 | [Session border controllers](/SkypeForBusiness/lync-cert/sbcs-lync-server) | modified |
+| 9/29/2021 | [SIP Trunking and E-911 services partner qualification for Lync](/SkypeForBusiness/lync-cert/sip-trunking-services) | modified |
+| 9/29/2021 | [Validated Lync Applications](/SkypeForBusiness/lync-cert/software-defined-network-apps) | modified |
+| 9/29/2021 | [Lync: Partner qualification](/SkypeForBusiness/lync-cert/survivable-branch-appliances) | modified |
+| 9/29/2021 | [Validated Lync Applications](/SkypeForBusiness/lync-cert/validated-lync-apps) | modified |
+| 9/29/2021 | [Phones and devices qualified for Microsoft Lync - USB and Video Devices](/SkypeForBusiness/lync-cert/video-solutions-qualified) | modified |
+| 9/29/2021 | [Configure your on-premises deployment for Skype Meeting Broadcast](/SkypeForBusiness/deploy/configure-skype-meeting-broadcast) | modified |
+| 9/29/2021 | [Skype Room System Skype for Business software license](/SkypeForBusiness/deploy/deploy-clients/skype-for-business-software-liicense) | modified |
+| 9/29/2021 | [Deploy conferencing in Skype for Business Server](/SkypeForBusiness/deploy/deploy-conferencing/deploy-conferencing) | modified |
+| 9/29/2021 | [Configure dial-in conferencing in Skype for Business Server](/SkypeForBusiness/deploy/deploy-conferencing/dial-in-conferencing) | modified |
+| 9/29/2021 | [Deployment process for Response Group in Skype for Business](/SkypeForBusiness/deploy/deploy-enterprise-voice/deployment-process-for-response-group) | modified |
+| 9/29/2021 | [Enable users for Enterprise Voice in Skype for Business Server](/SkypeForBusiness/deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice) | modified |
+| 9/29/2021 | [Skype for Business Server: Create a new collection of trunk configuration settings](/SkypeForBusiness/deploy/deploy-enterprise-voice/trunk-configuration-settings) | modified |
+| 9/29/2021 | [Associate Monitoring Reports with a mirror database in Skype for Business Server](/SkypeForBusiness/deploy/deploy-monitoring/monitoring-reports-with-a-mirror-database) | modified |
+| 9/29/2021 | [Deploy Skype Connectivity in Skype for Business Server](/SkypeForBusiness/deploy/deploy-skype-connectivity) | modified |
+| 9/29/2021 | [Deploy Skype for Business Server 2015](/SkypeForBusiness/deploy/deploy) | modified |
+| 9/29/2021 | [Create and publish new topology in Skype for Business Server](/SkypeForBusiness/deploy/install/create-and-publish-new-topology) | modified |
+| 9/29/2021 | [Configure SharePoint Server to search for archived Skype for Business data](/SkypeForBusiness/deploy/integrate-with-exchange-server/sharepoint-to-search-for-archived-data) | modified |
+| 9/29/2021 | [Add Director Web Service](/SkypeForBusiness/help-topics/2019/topobld/ms.lync.tb.adddirectorwebservicepage) | modified |
+| 9/29/2021 | [Add Director Web Service](/SkypeForBusiness/help-topics/help-topobld/add-director-web-service) | modified |
+| 9/29/2021 | [Add Front End Web Services 2010](/SkypeForBusiness/help-topics/help-topobld/add-front-end-web-services-2010) | modified |
+| 9/29/2021 | [Add Front End Web Services](/SkypeForBusiness/help-topics/help-topobld/add-front-end-web-services) | modified |
+| 9/29/2021 | [Assign a per-user PIN policy in Skype for Business Server](/SkypeForBusiness/manage/authentication/assign-a-per-user-pin-policy) | modified |
+| 9/29/2021 | [Configure an on-premises partner application for Skype for Business Server](/SkypeForBusiness/manage/authentication/configure-an-on-premises-partner-app) | modified |
+| 9/29/2021 | [Configure two-factor authentication in Skype for Business Server](/SkypeForBusiness/manage/authentication/configure-two-factor) | modified |
+| 9/29/2021 | [Delete a PIN policy in Skype for Business Server](/SkypeForBusiness/manage/authentication/delete-a-pin-policy) | modified |
+| 9/29/2021 | [Lock or unlock a user PIN in Skype for Business Server](/SkypeForBusiness/manage/authentication/lock-or-unlock-a-user-pin) | modified |
+| 9/29/2021 | [Manage Registrar configuration settings in Skype for Business Server](/SkypeForBusiness/manage/authentication/registrar-configuration-settings) | modified |
+| 9/29/2021 | [Set a user's dial-in conferencing PIN in Skype for Business Server](/SkypeForBusiness/manage/authentication/set-a-user-s-dial-in-conferencing-pin) | modified |
+| 9/29/2021 | [View PIN policy information in Skype for Business Server](/SkypeForBusiness/manage/authentication/view-pin-policy-information) | modified |
+| 9/29/2021 | [View user PIN information in Skype for Business Server](/SkypeForBusiness/manage/authentication/view-user-pin-information) | modified |
+| 9/29/2021 | [Manage Web Service configuration settings in Skype for Business Server](/SkypeForBusiness/manage/authentication/web-service-configuration-settings) | modified |
+| 9/29/2021 | [Manage dial-in conferencing access numbers in Skype for Business Server ](/SkypeForBusiness/manage/conferencing/access-numbers) | modified |
+| 9/29/2021 | [Enable or disable remote user access](/SkypeForBusiness/manage/federation-and-external-access/access-edge/enable-or-disable-remote-user-access) | modified |
+| 9/29/2021 | [Failing over and failing back a pool](/SkypeForBusiness/manage/ha-dr-and-backup-service/failing-over-and-failing-back-a-pool) | modified |
+| 9/29/2021 | [Create or modify a collection of CDR configuration settings in Skype for Business Server](/SkypeForBusiness/manage/health-and-monitoring/create-or-modify-a-collection-of-settings) | modified |
+| 9/29/2021 | [Create Quality of Experience configuration settings in Skype for Business Server](/SkypeForBusiness/manage/health-and-monitoring/create-qoe-configuration-settings) | modified |
+| 9/29/2021 | [Delete an existing collection of CDR configuration settings in Skype for Business Server](/SkypeForBusiness/manage/health-and-monitoring/delete-configuration-settings) | modified |
+| 9/29/2021 | [Delete Quality of Experience configuration settings in Skype for Business Server](/SkypeForBusiness/manage/health-and-monitoring/delete-qoe-configuration-settings) | modified |
+| 9/29/2021 | [Enable call detail recording in Skype for Business Server](/SkypeForBusiness/manage/health-and-monitoring/enable-cdr) | modified |
+| 9/29/2021 | [Enable Quality of Experience in Skype for Business Server](/SkypeForBusiness/manage/health-and-monitoring/enable-qoe) | modified |
+| 9/29/2021 | [Modify Quality of Experience settings in Skype for Business Server](/SkypeForBusiness/manage/health-and-monitoring/modify-qoe-settings) | modified |
+| 9/29/2021 | [Rate my Call in Skype for Business Server](/SkypeForBusiness/manage/health-and-monitoring/rate-my-call) | modified |
+| 9/29/2021 | [Specify retention of CDR data in Skype for Business Server](/SkypeForBusiness/manage/health-and-monitoring/specify-retention-of-data) | modified |
+| 9/29/2021 | [View CDR configuration information in Skype for Business Server](/SkypeForBusiness/manage/health-and-monitoring/view-configuration-information) | modified |
+| 9/29/2021 | [Manage services for Skype for Business Server](/SkypeForBusiness/manage/manage-services) | modified |
+| 9/29/2021 | [Manage Skype for Business Server](/SkypeForBusiness/manage/manage) | modified |
+| 9/29/2021 | [Viewing network interface information](/SkypeForBusiness/manage/network-management/viewing-network-interface-information) | modified |
+| 9/29/2021 | [Configure add-ins for Persistent Chat rooms in Skype for Business Server 2015](/SkypeForBusiness/manage/persistent-chat/configure-add-ins) | modified |
+| 9/29/2021 | [Manage services in Skype for Business Server](/SkypeForBusiness/manage/topology/manage-services) | modified |
+| 9/29/2021 | [Manage user accounts for Skype for Business Server](/SkypeForBusiness/manage/user-accounts/user-accounts) | modified |
+| 9/29/2021 | [Skype for Business Server: Plan for Call Quality Dashboard](/SkypeForBusiness/management-tools/call-quality-dashboard/plan) | modified |
+| 9/29/2021 | [Use Call Quality Dashboard for Skype for Business Server](/SkypeForBusiness/management-tools/call-quality-dashboard/use) | modified |
+| 9/29/2021 | [Skype for Business Server 2015 Management Tools](/SkypeForBusiness/management-tools/management-tools) | modified |
+| 9/29/2021 | [Exchange Unified Messaging planning tool](/SkypeForBusiness/management-tools/planning-tool/exchange-unified-messaging) | modified |
+| 9/29/2021 | [Skype for Business Server 2015 Planning Tool](/SkypeForBusiness/management-tools/planning-tool/planning-tool) | modified |
+| 9/29/2021 | [Planning Tool UI Reference](/SkypeForBusiness/management-tools/planning-tool/ui-reference) | modified |
+| 9/29/2021 | [Skype for Business Server 2015 Resource Kit Tools Documentation](/SkypeForBusiness/management-tools/resource-kit-tools) | modified |
+| 9/29/2021 | [Skype for Business Server 2015 Stress and Performance Tool](/SkypeForBusiness/management-tools/stress-and-performance-tool/stress-and-performance-tool) | modified |
+| 9/29/2021 | [Configure the Skype for Business Server computers to monitor](/SkypeForBusiness/management-tools/use-scom-management-pack/configure-computers-to-monitor) | modified |
+| 9/29/2021 | [How to configure the Primary Management Server](/SkypeForBusiness/management-tools/use-scom-management-pack/configure-the-primary) | modified |
+| 9/29/2021 | [Manage Skype for Business Server 2015 using SCOM Management pack](/SkypeForBusiness/management-tools/use-scom-management-pack/use-scom-management-pack) | modified |
+| 9/29/2021 | [Capacity planning user model usage for Skype for Business Server](/SkypeForBusiness/plan-your-deployment/capacity/user-model) | modified |
+| 9/29/2021 | [Skype for Business on Mac client requirements](/SkypeForBusiness/plan-your-deployment/clients-and-devices/mac-requirements) | modified |
+| 9/29/2021 | [Skype for Business client video resolutions](/SkypeForBusiness/plan-your-deployment/clients-and-devices/video-resolutions) | modified |
+| 9/29/2021 | [Hardware and software requirements for conferencing in Skype for Business Server](/SkypeForBusiness/plan-your-deployment/conferencing/hardware-and-software-requirements) | modified |
+| 9/29/2021 | [Plan for location-based routing in Skype for Business](/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/location-based-routing) | modified |
+| 9/29/2021 | [Plan for remote call control in Skype for Business](/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/remote-call-control) | modified |
+| 9/29/2021 | [Plan to integrate Skype for Business and Exchange](/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange) | modified |
+| 9/29/2021 | [Plan network requirements for Skype for Business](/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements) | modified |
+| 9/29/2021 | [Port and protocol requirements for servers](/SkypeForBusiness/plan-your-deployment/network-requirements/ports-and-protocols) | modified |
+| 9/29/2021 | [DNS requirements for simple URLs in Skype for Business Server](/SkypeForBusiness/plan-your-deployment/network-requirements/simple-urls) | modified |
+| 9/29/2021 | [Capacity planning for Persistent Chat Server in Skype for Business Server 2015](/SkypeForBusiness/plan-your-deployment/persistent-chat-server/capacity-planning) | modified |
+| 9/29/2021 | [Plan for your Skype for Business Server 2015 deployment](/SkypeForBusiness/plan-your-deployment/plan-your-deployment) | modified |
+| 9/29/2021 | [Server requirements for Skype for Business Server 2015](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/server-requirements) | modified |
+| 9/29/2021 | [Public Key Infrastructure for Skype for Business Server](/SkypeForBusiness/plan-your-deployment/security/public-key-infrastructure-for-skype) | modified |
+| 9/29/2021 | [Topology Basics for Skype for Business Server](/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics) | modified |
+| 9/29/2021 | [Latest updates for versions of Skype for Business that use Windows Installer (MSI)](/SkypeForBusiness/sfb-client-updates) | modified |
+| 9/29/2021 | [Skype for Business Server updates](/SkypeForBusiness/sfb-server-updates) | modified |
+| 9/29/2021 | [Integration with Exchange and SharePoint](/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint) | modified |
+| 9/29/2021 | [Assign a Voice Routing Policy](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/assign-a-voice-routing-policy) | modified |
+| 9/29/2021 | [Enable the users for Enterprise Voice on premises](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises) | modified |
+| 9/29/2021 | [Monitor Cloud Connector using Operations Management Suite (OMS)](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/monitor-cloud-connector-using-operations-management-suite-oms) | modified |
+| 9/29/2021 | [Plan Phone System with on-premises PSTN connectivity in Skype for Business Server](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity) | modified |
+| 9/29/2021 | [Plan for Skype for Business Cloud Connector Edition](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition) | modified |
+| 9/29/2021 | [Skype for Business Server 2015 documentation # < 60 chars](/SkypeForBusiness/skype-for-business-server-2015) | modified |
+| 10/1/2021 | [Phones and Devices for Skype for Business and Lync](/SkypeForBusiness/certification/devices-usb-devices) | modified |

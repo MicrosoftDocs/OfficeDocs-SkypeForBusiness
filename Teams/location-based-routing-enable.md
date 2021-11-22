@@ -1,7 +1,7 @@
 ---
 title: Enable Location-Based Routing for Direct Routing
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.reviewer: roykuntz
@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: Learn how to enable Location-Based Routing for Direct Routing, including enabling it for users, network sites, gateway configurations, and calling policies.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection: 
@@ -31,7 +31,7 @@ This article describes how to enable Location-Based Routing for Direct Routing. 
 - Gateway configurations
 - Calling policies
 
-You can use the [Microsoft Team admin center](#using-the-microsoft-teams-admin-center) or [PowerShel](#using-powershell)l to enable Location-Based Routing.
+You can use the [Microsoft Teams admin center](#using-the-microsoft-teams-admin-center) or [PowerShel](#using-powershell)l to enable Location-Based Routing.
 
 ## Using the Microsoft Teams admin center
 
@@ -98,7 +98,7 @@ To learn more, see [Calling policies in Teams](teams-calling-policy.md).
     ```
     The following table shows the voice routing policies defined in this example. 
     
-    ||Voice routing policy 1|Voice routing policy 2|
+    |&nbsp;|Voice routing policy 1|Voice routing policy 2|
     |---------|---------|---------|
     |Online voice policy ID   |Delhi online voice routing policy   |Hyderabad online voice routing policy    |
     |Online PSTN usages  |Long Distance  |Long Distance, Local, Internal  |
@@ -122,9 +122,9 @@ To learn more, see [Calling policies in Teams](teams-calling-policy.md).
     ```
     The following table shows the sites enabled for Location-Based Routing in this example.
 
-    ||Site 1 (Delhi)  |Site 2 (Hyderabad)  |
+    |&nbsp;|Site 1 (Delhi)  |Site 2 (Hyderabad)  |
     |---------|---------|---------|
-|Site name    |Site 1 (Delhi)    |Site 2 (Hyderabad)   
+    |Site name    |Site 1 (Delhi)    |Site 2 (Hyderabad)|
     |EnableLocationBasedRouting    |True    |True    |
     |Subnets     |Subnet 1 (Delhi)     |Subnet 2 (Hyderabad)     |
 

@@ -1,8 +1,8 @@
 ---
 title: "Plan Persistent Chat Server topology"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 5/17/2016
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
 description: "Summary: Read this topic to learn about Persistent Chat Server components and topologies in Skype for Business Server 2015."
 ---
@@ -94,7 +94,7 @@ The following figure shows all components of a topology for a single Persistent 
   
 **Single Server Topology**
 
-![Persistent Chat Server - Single Server Topology](../../media/e1b39c28-8a4d-4c03-983b-4392889c2d14.png)
+![Persistent Chat Server - Single Server Topology.](../../media/e1b39c28-8a4d-4c03-983b-4392889c2d14.png)
   
 ### Enterprise Edition Server with multiple Persistent Chat Servers
 
@@ -104,7 +104,7 @@ The following figure shows all the components of a multiple-server topology with
   
 **Multiple Server Topology**
 
-![Persistent Chat Server - Multiple Server Topology](../../media/8fc20997-7acc-46ea-8dea-11239ffd9458.png)
+![Persistent Chat Server - Multiple Server Topology.](../../media/8fc20997-7acc-46ea-8dea-11239ffd9458.png)
   
 Multiple-server topologies provide pooling of server functionality. In a server pool, the Persistent Chat services communicate and share data. For example, chat history that was originally posted to one Persistent Chat service is available from any Persistent Chat service in the system. A file that is uploaded through one Persistent Chat service can be accessed by any Persistent Chat service. Users can be connected to different Persistent Chat Server Front End Servers and can be communicating with each other. The default port of TCP 8011 connects a server to a server pool, and is used by the Persistent Chat services to communicate between themselves, or for administrative purposes.
   

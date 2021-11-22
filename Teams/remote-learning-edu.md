@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams resources for Education admins
+title: Get started with Microsoft Teams for remote learning
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: karsmith, lakuan
 description: Remote learning startup guidance for Microsoft Teams for EDU.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -87,12 +87,12 @@ For a walkthrough of how to create Teams, check out: [Create a class team in Mic
 
 Teams policies provide the ability to control the options available for specific users or groups of users. Policies can be applied to define who should be allowed to use private chat, private calling, meeting scheduling, content types that can be shared, and more.
 
-**Higher education staff, educators, and students** benefit from the capabilities included with the default (global) policies. Some additional policy settings can be enabled to add more functionality to Teams, including [enabling translate capabilities in the messaging policy](messaging-policies-in-teams.md#messaging-policy-settings) and [allowing for automatic meeting transcription](meeting-policies-in-teams.md#allow-transcription) in the meeting policy.
+**Higher education staff, educators, and students** benefit from the capabilities included with the default (global) policies. Some additional policy settings can be enabled to add more functionality to Teams, including [enabling translate capabilities in the messaging policy](messaging-policies-in-teams.md#messaging-policy-settings) and [allowing for automatic meeting transcription](meetings-policies-recording-and-transcription.md#allow-transcription) in the meeting policy.
 
 **Primary-secondary school students** may need restricted capabilities provided to students. Policies set boundaries on what the students can do. Because the student population is often the largest set of users and they often receive the most restrictive settings, it is recommended that student policy changes be made to the 'Global (Org-wide default)' polices.
 
 > [!IMPORTANT]
-> For meeting policies assigned to any users, we recommend setting the "Automatically admit people" setting to "Everyone in your organization". This setting will ensure that non-authenticated users must be admitted from the lobby before they can join Teams meetings. For more information, check out [Manage meeting policies in Teams](./meeting-policies-in-teams.md#automatically-admit-people).
+> For meeting policies assigned to any users, we recommend setting the "Automatically admit people" setting to "Everyone in your organization". This setting will ensure that non-authenticated users must be admitted from the lobby before they can join Teams meetings. For more information, check out [Manage meeting policies in Teams](meeting-policies-participants-and-guests.md#automatically-admit-people).
 
 **Primary school staff and educators** should be assigned policies that grant the core capabilities that may be restricted for students. Create new policies that allow the for private chat and meeting scheduling (the default settings for a new policy). [Assign these policies in bulk to your staff and educators](batch-group-policy-assignment-edu.md).
 
@@ -121,7 +121,7 @@ We'll step through various options to help you choose the right deployment path 
 
 #### Automatic team creation using SDS
 
-Automating team creation saves both IT admins and educators time. It ensures that educators have all their class teams created and ready to set up upon sign in. [School Data Sync (SDS)](/SchoolDataSync) is a free Office 365 Education tool that reads the data from an educational institution's system of record, for example a Student Information System (SIS) or Learning Management system (LMS). SDS uses the data to enrich Office 365 setup in many ways, including creating class teams in bulk and staying in sync with your information system to keep your instructor and student membership updated as enrollment changes. SDS can import data from any system of record and has built-in connectors to many of the world’s existing [SIS vendors](/schooldatasync/what-sis-and-mis-vendors-does-school-data-sync-support). We highly recommend using SDS, as it provides the following benefits.  
+Automating team creation saves both IT admins and educators time. It ensures that educators have all their class teams created and ready to set up upon sign in. [School Data Sync (SDS)](/SchoolDataSync) is a free Office 365 Education tool that reads the data from an educational institution's system of record, for example a Student Information System (SIS) or Learning Management system (LMS). SDS uses the data to enrich Office 365 setup in many ways, including creating class teams in bulk and staying in sync with your information system to keep your instructor and student membership updated as enrollment changes. SDS can import data from any system of record and has built-in connectors to many of the world’s existing [SIS vendors](/schooldatasync/frequently-asked-questions#what-sismis-vendors-does-school-data-sync-support). We highly recommend using SDS, as it provides the following benefits.  
 
 ###### Benefits
 
@@ -152,7 +152,7 @@ Educator-led team creation is a great deployment option if you want to make it e
 
 This hybrid approach allows you to either use SDS to create groups for each class (recommended) or use [Graph API](/graph/api/educationroot-post-classes) to create them on your own. After class groups are prepared, educators can convert their groups into teams by using the **Suggested classes** icon.
 
-:::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="Screenshot showing Suggested classes icon":::
+:::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="Screenshot showing Suggested classes icon.":::
 
 ##### Benefits
 

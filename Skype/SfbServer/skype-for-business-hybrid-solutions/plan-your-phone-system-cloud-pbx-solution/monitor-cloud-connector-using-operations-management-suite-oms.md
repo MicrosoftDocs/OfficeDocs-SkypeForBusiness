@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: "Read this topic to learn how to monitor your Cloud Connector version 2.1 and later deployment by using Microsoft Operations Management Suite (OMS)."
 ---
@@ -50,7 +50,7 @@ Before you can use OMS to monitor your Cloud Connector deployment, you will need
 
 You'll need to configure your Cloud Connector on-premises environment to use OMS. To do this, you will need your OMS workspace ID and key, which you can find by using the OMS portal as follows: Settings --\>Connected Sources --\> Windows Servers:
 
-![Screen shot for Cloud Connector OMS](../../media/a4bb0a96-c940-435e-a3f5-5ef3062dea83.png)
+![Screen shot for Cloud Connector OMS.](../../media/a4bb0a96-c940-435e-a3f5-5ef3062dea83.png)
 
 How you configure Cloud Connector to use OMS depends on your scenario:
 
@@ -159,7 +159,7 @@ To create this alert pair:
 
     The query uses the computer filter  *where Computer contains "MediationServer"*  . The filter selects only the computer whose name contains the string "MediationServer".
 
-     You would replace the filter with your own computer filter or simply remove it. You can create complex string filters without regular expressions. For more information, see [String operators](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators). You can also choose to use regular expressions. Moreover, you can create a computer group by saving a search query and using that group as your computer filter in your alert query. For more information, see [Computer groups in Log Analytics log searches](/azure/log-analytics/log-analytics-computer-groups).
+     You would replace the filter with your own computer filter or simply remove it. You can create complex string filters without regular expressions. You can also choose to use regular expressions. Moreover, you can create a computer group by saving a search query and using that group as your computer filter in your alert query. For more information, see [Computer groups in Log Analytics log searches](/azure/log-analytics/log-analytics-computer-groups).
 
     For each computer, the error query will get the last event log for both the RTCMEDSRV service start and service stop. It will return one log if the last event is the service stop event; it will return nothing if the last event is the service start event. In short, the query would return a list of servers whose RTCMEDSRV is stopped in the time window. 
 
@@ -246,8 +246,6 @@ The following lists the call capacity counters that should be monitored. These n
 For more information about working with OMS, see the following:
 
 - [Find data using log searches in Log Analytics](/azure/log-analytics/log-analytics-log-searches)
-
-- [Azure Log Analytics Language Reference](https://docs.loganalytics.io/docs/Language-Reference)
 
 - [Understanding alerts in Log Analytics](/azure/log-analytics/log-analytics-alerts)
 

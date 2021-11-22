@@ -39,6 +39,8 @@ Before an incoming or outbound call can be processed, OPTIONS messages are excha
 
 > [!NOTE]
 > The SIP headers do not contain userinfo in the SIP URI in use. As per [RFC 3261, section 19.1.1](https://tools.ietf.org/html/rfc3261#section-19.1.1), the userinfo part of a URI is optional and MAY be absent when the destination host does not have a notion of users or when the hosst itself is the resource being identified. If the @ sign is present in a SIP URI, the user field MUST NOT be empty.
+> Please note, that SIPS URI should not be used with Direct Routing as it is not supported.
+> Check your Session Border Controller configuration and make sure that you are not using "Replaces" headers in SIP requests. Direct Routing  will reject SIP requests that have Replaces headers defined.
 
 On an incoming call, the SIP proxy needs to find the tenant to which the call is destined and find the specific user within this tenant. The tenant administrator might configure non-DID numbers, for example +1001, in multiple tenants. Therefore, it is important to find the specific tenant on which to perform the number lookup because the non-DID numbers might be the same in multiple Microsoft 365 or Office 365 organizations.  
 
@@ -51,7 +53,7 @@ The following is an example of the SIP Invite message on an incoming call:
 | Request-URI | INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0 |
 | Via Header | Via: SIP/2.0/TLS sbc1.adatum.biz:5058;alias;branch=z9hG4bKac2121518978 | 
 | Max-Forwards header | Max-Forwards:68 |
-| From Header | From Header From: <sip:7168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679 |
+| From Header | From Header From: <sip:+17168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679 |
 | To Header | To: sip:+183338006777@sbc1.adatum.biz | 
 | CSeq header | CSeq: 1 INVITE | 
 | Contact Header | Contact: <sip: 68712781@sbc1.adatum.biz:5058;transport=tls> | 
@@ -110,6 +112,15 @@ Currently The phone number must contain a plus sign (+) as shown in the followin
 
 ```console
 INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
+```
+#### From Header
+
+For all incoming calls, the From Header is used to match the caller's phone number against callee's blocked phone number list.
+
+The phone number must contain a + as shown in the following example.
+
+```console
+From: <sip:+17168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679
 ```
 
 ## Contact and Record-Route headers considerations
@@ -180,7 +191,7 @@ A Teams user might have multiple endpoints at the same time. For example, Teams 
 5.  A Call Acceptance message is sent with the final candidates of the endpoint that accepted the call. The Call Acceptance message is converted to SIP message 200. 
 
 > [!div class="mx-imgBorder"]
-> ![Diagram showing multiple endpoints ringing with provisional answer](media/direct-routing-protocols-1.png)
+> ![Diagram showing multiple endpoints ringing with provisional answer.](media/direct-routing-protocols-1.png)
 
 #### Multiple endpoints ringing without provisional answer
 
@@ -193,7 +204,7 @@ A Teams user might have multiple endpoints at the same time. For example, Teams 
 4.  A Call Acceptance message is sent with the final candidates of the endpoint that accepted the call. The Call Acceptance message is converted to SIP message 200. 
 
 > [!div class="mx-imgBorder"]
-> ![Diagram showing multiple endpoints ringing without provisional answer](media/direct-routing-protocols-2.png)
+> ![Diagram showing multiple endpoints ringing without provisional answer.](media/direct-routing-protocols-2.png)
 
 ### Media bypass flow
 
@@ -205,7 +216,7 @@ The schema below shows an example of the bypass call flow.
 > The media candidates can come from different endpoints. 
 
 > [!div class="mx-imgBorder"]
-> ![Diagram showing multiple endpoints ringing with provisional answer](media/direct-routing-protocols-3.png)
+> ![Diagram showing multiple endpoints ringing with provisional answer.](media/direct-routing-protocols-3.png)
 
 ## Replaces option
 
@@ -251,7 +262,7 @@ If the SBC indicated that the Refer method is not supported, the SIP proxy acts 
 The Refer request that comes from the client will be terminated on the SIP proxy. (The Refer request from the client is shown as “Call transfer to Dave” in the following diagram.  For more information, see section 7.1 of [RFC 3892](https://www.ietf.org/rfc/rfc3892.txt). 
 
 > [!div class="mx-imgBorder"]
-> ![Diagram showing multiple endpoints ringing with provisional answer](media/direct-routing-protocols-4.png)
+> ![Diagram showing multiple endpoints ringing with provisional answer.](media/direct-routing-protocols-4.png)
 
 ### SIP proxy send the Refer to the SBC and acts as a Transferor
 
@@ -292,7 +303,7 @@ The REFERRED-BY header is a SIP URI with transferor MRI encoded in it as well as
 The size of the Refer Header can be up to 400 symbols in this case. The SBC must support handling Refer messages with size up to 400 symbols.
 
 > [!div class="mx-imgBorder"]
-> ![Diagram showing multiple endpoints ringing with provisional answer](media/direct-routing-protocols-5.png)
+> ![Diagram showing multiple endpoints ringing with provisional answer.](media/direct-routing-protocols-5.png)
 
 ## Session timer
 

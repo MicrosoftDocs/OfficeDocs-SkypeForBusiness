@@ -32,7 +32,7 @@ This article helps you decide which Microsoft voice solution is right for your o
 
 You might want the simplest solution&mdash;Phone System with Calling Plan. This is Microsoft's all-in-the-cloud solution that provides Private Branch Exchange (PBX) functionality and calls to the Public Switched Telephone Network (PSTN), as shown in the following diagram. With this solution, Microsoft is your PSTN carrier.
 
-![Diagram 1 shows Phone System with Calling Plan](media/voice-solutions-simple.png)
+![Diagram 1 shows Phone System with Calling Plan.](media/voice-solutions-simple.png)
 
 If you answer yes to the following, then Phone System with Calling Plan is the right solution for you:
 
@@ -43,7 +43,7 @@ If you answer yes to the following, then Phone System with Calling Plan is the r
 However, your situation might be more complex. For example, you might have offices in locations where Calling Plan isn't available. Or you might need a combination solution that supports a complex, multi-national deployment, with different requirements for different geographic locations. Microsoft supports a combination of solutions: 
 
 - Phone System with Calling Plan
-- Phone System with your own PSTN carrier with Operator Connect (currently available only in **public preview**)
+- Phone System with your own PSTN carrier with Operator Connect
 - Phone System with your own PSTN carrier with Direct Routing
 - A combination solution that uses Phone System with Calling Plan, Phone System with Operator Connect, and/or Phone System with Direct Routing
 
@@ -91,7 +91,7 @@ This article introduces the following Phone System key features and functionalit
 - [Cloud Voicemail](#cloud-voicemail)
 - [Calling identity](#calling-identity)
 
-![Diagram 3 shows Phone system contains Auto attendants and call queries, Cloud voicemail, and Calling identity](media/phone-system-contains.png)
+![Diagram 3 shows Phone system contains Auto attendants and call queries, Cloud voicemail, and Calling identity.](media/phone-system-contains.png)
 
 For information about all Phone System features, and how to set up Phone System, see the following articles:
 
@@ -138,7 +138,7 @@ Phone System provides complete PBX capabilities for your organization. However, 
 
 - [**Phone System with Calling Plan**](pstn-connectivity.md#phone-system-with-calling-plan). An all-in-the-cloud solution with Microsoft as your PSTN carrier.
 
-- [**Phone System with your own PSTN carrier by using Operator Connect**](operator-connect-plan.md), which is currently available only in **public preview.**  With Operator Connect, if your existing operator is a participant in the Microsoft Operator Connect program, they can manage the service for bringing PSTN calling to Teams. For information on the benefits and requirements of Operator Connect, and for a list of operators participating in this program, see [Plan Operator Connect](operator-connect-plan.md).
+- [**Phone System with your own PSTN carrier by using Operator Connect**](operator-connect-plan.md). With Operator Connect, if your existing operator is a participant in the Microsoft Operator Connect program, they can manage the service for bringing PSTN calling to Teams. For information on the benefits and requirements of Operator Connect, see [Plan Operator Connect](operator-connect-plan.md).
 
 - [**Phone System with your own PSTN carrier by using Direct Routing**](pstn-connectivity.md#phone-system-with-direct-routing) to connect your on-premises environment to Teams.
 

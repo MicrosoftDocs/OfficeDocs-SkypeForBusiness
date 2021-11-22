@@ -1,7 +1,7 @@
 ---
 title: "Conferencing policy for Skype Room System accounts"
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: sohailta
 audience: ITPro
@@ -9,7 +9,7 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: "Read this topic to learn how to assign conferencing policies for Skype Room System accounts."
 ---

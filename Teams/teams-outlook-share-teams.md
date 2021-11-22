@@ -1,13 +1,13 @@
 ---
 title: Share to Teams
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: kblevens
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn about the Share to Teams feature, which allows users to share emails and email attachments from Outlook to any chat or channel in Teams.  
 ms.collection: 

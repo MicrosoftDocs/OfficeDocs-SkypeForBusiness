@@ -14,7 +14,7 @@ audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
   - CSH
 ms.custom: 
@@ -44,7 +44,7 @@ To find out which countries and regions are considered Zone A, see [Country and 
 
 ## Restrict audio conferencing outbound calls
 
-![the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+**Using the Microsoft Teams admin center**
 
 1. In the left navigation, select **Users**, and then select the display name of the user from the list of available users.
 
@@ -54,20 +54,6 @@ To find out which countries and regions are considered Zone A, see [Country and 
 
 5. Select **Save**.
 
-![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
-
-1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Users**, and then select the user from the list of available users.
-
-2. In the Action pane, select **Edit**.
-
-3.  Under **Restrictions to dial-outs from meetings of this user**, select the dial-out restriction option you want.
-
-      ![The Restrictions to dial-outs options](media/restrictions-to-dial-outs.png)
-
-4. Select **Save**.
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 **Using PowerShell**
 
@@ -77,14 +63,14 @@ You can use the Get-CSOnlineDialOutPolicy cmdlet to view the outbound calling po
 
 **Set the policy on a per-user level with the following cmdlet**. (The Grant cmdlet doesn't contain the word "Online" as the Get cmdlet does.)
 
-```
+```powershell
 Grant-CsDialoutPolicy -Identity <username> -PolicyName <policy name>    
 ```
 
 **Set the policy on the tenant level with the following cmdlet**.
 
-```
-Grant-CsDialoutPolicy  -Tenant <guid> -PolicyName <policy name>  -Global 
+```powershell
+Grant-CsDialoutPolicy -PolicyName <policy name>  -Global 
 ```
 
 All users of the tenant who don't have any dialout policy assigned will get this policy. Other users remain with their current policy.

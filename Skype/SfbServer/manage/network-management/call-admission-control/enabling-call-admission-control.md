@@ -1,15 +1,15 @@
 ---
 title: 'Enabling call admission control'
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: " After you configure the call admission control (CAC) network, you must enable CAC to enforce the bandwidth limitations."
 ---
 

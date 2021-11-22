@@ -1,8 +1,8 @@
 ---
 title: "Add Site Name"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddSiteNamePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4a996f35-96e0-4370-ac28-869631611e03
 description: "To define the first site in your deployment, specify the name of the first site. Optionally, you can specify a description for the first site."
 ---

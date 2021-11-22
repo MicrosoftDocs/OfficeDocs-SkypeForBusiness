@@ -1,8 +1,8 @@
 ---
 title: Answer auto attendant and call queue calls
 ms.reviewer: colongma
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 audience: ITPro
 ms.date: 09/20/2018
@@ -11,7 +11,7 @@ ms.service: msteams
 description: Describes Cloud auto attendants and call queues, and explains how you can answer these calls in Teams.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-voice
@@ -37,7 +37,7 @@ Users will be able to differentiate incoming calls from an auto attendant or cal
 
 The following illustration shows how an incoming call from an auto attendant or call queue will appear to a user.
 
-![Screenshot of an incoming call notification](media/answer-auto-attendant-and-call-queue-calls-image1.png)
+![Screenshot of an incoming call notification.](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
 Once an auto attendant or call queue call is answered, the user can process the call like any other call &#x2014; they can add or conference in another user or transfer the call to another party. Also, auto attendant calls will be forwarded based on the user's configuration.
 
@@ -68,8 +68,9 @@ When a call queue agents receives a call on their mobile device, calls may go on
 
 ## Related topics
 
--    [What is Phone System in Microsoft 365 or Office 365](what-is-phone-system-in-office-365.md)
--    [Create a Cloud call queue](create-a-phone-system-call-queue.md)
--    [What are Cloud auto attendants?](what-are-phone-system-auto-attendants.md)
--    [Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md)
+[Create a Cloud call queue](create-a-phone-system-call-queue.md)
+
+[What are Cloud auto attendants?](what-are-phone-system-auto-attendants.md)
+
+[Set up a Cloud auto attendant](create-a-phone-system-auto-attendant.md)
 

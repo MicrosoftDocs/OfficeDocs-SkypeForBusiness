@@ -1,14 +1,14 @@
 ---
 title: Upgrade checklist| Skype Business to Teams Upgrade | Basic Steps
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: Follow this accelerated ten-step action plan to transition from a basic Skype for Business set-up to the Microsoft Teams set-up. 
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -159,7 +159,7 @@ Users are busy with their daily responsibilities. Reminding them of the pending 
 
 *(Upgrade Day)*
 
-Today is the day your organization officially upgrades to Teams as your communication and collaboration solution. In the Microsoft Teams admin center, activate the upgrade switch by setting the coexistence mode to **Teams Only**. (In the admin center, go to **Org-wide Settings** > **Teams Upgrade**.) Users will receive a notification in their Skype for Business client that they've been upgraded to Teams.
+Today is the day your organization officially upgrades to Teams as your communication and collaboration solution. In the Microsoft Teams admin center, activate the upgrade switch by setting the coexistence mode to **Teams Only**. (In the admin center, go to **Teams** > **Teams upgrade settings**.) Users will receive a notification in their Skype for Business client that they've been upgraded to Teams.
 
 We recommend that after everyone has been upgraded, you send an email welcoming them to Teams.
 

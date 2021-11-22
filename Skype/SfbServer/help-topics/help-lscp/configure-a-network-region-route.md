@@ -1,8 +1,8 @@
 ---
 title: "Configure a Network Region Route"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.NcsRegionRouteMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 35c1511f-8143-4893-a91c-5bc7c18ec0bf
 description: "What do you want to do? Click the link to the task that you want to perform."
 ---

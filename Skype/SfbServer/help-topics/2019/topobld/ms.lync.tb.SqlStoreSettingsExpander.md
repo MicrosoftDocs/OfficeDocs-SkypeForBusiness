@@ -1,8 +1,8 @@
 ---
 title: "SQL Store Settings Expander"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,7 +11,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.SqlStoreSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
 ROBOTS: NOINDEX, NOFOLLOW
 description: "To edit the properties of a SQL Server database, you must change the SQL Server database instance. You cannot use the Edit Properties dialog box to perform tasks such as moving your Archiving Server database from one computer to another. In addition, you cannot use the Edit Properties dialog box to change the instance of SQL Server that hosts the Central Management store."

@@ -1,15 +1,15 @@
 ---
 title: "Designing and creating response group workflows in Skype for Business"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
@@ -312,7 +312,7 @@ The following figure shows the call flow.
 
  **One-level interactive call flow**
 
-![Design Call Flows by Using Interactive Voice Respo](../../media/Ops_OCS_RGS_IVRLevel1.jpg)
+![Design Call Flows by Using Interactive Voice Respo.](../../media/Ops_OCS_RGS_IVRLevel1.jpg)
 
 #### IVR with Two Levels of Questions
 
@@ -344,7 +344,7 @@ The following figure shows the call flow.
 
  **Two-level interactive call flow**
 
-![Design Call Flows by Using Interactive Voice Respo](../../media/Ops_OCS_RGS_IVRLevel2.jpg)
+![Design Call Flows by Using Interactive Voice Respo.](../../media/Ops_OCS_RGS_IVRLevel2.jpg)
 
 ### Best Practices
 

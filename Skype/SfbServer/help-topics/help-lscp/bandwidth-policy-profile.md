@@ -1,8 +1,8 @@
 ---
 title: "Bandwidth Policy Profile"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.NcsProfileMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6a7ad229-31f3-477e-b254-f45858213fa8
 description: "What do you want to do? Click the link to the task that you want to perform."
 ---

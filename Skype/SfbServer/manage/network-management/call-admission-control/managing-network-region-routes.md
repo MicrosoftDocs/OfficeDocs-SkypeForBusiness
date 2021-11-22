@@ -1,15 +1,15 @@
 ---
 title: 'Managing network region routes'
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "A network region route defines the route between a pair of network regions. Each pair of network regions in your call admission control deployment requires a network region route."
 ---
 
@@ -32,7 +32,7 @@ Every region within a call admission control (CAC) configuration must have some 
 4.  On the **Region Route** page, click the region route that you want to view.
 
 
-    > [!NOTE]  
+    > [!NOTE]
     > You can only view one region route at a time.
 
 
@@ -47,15 +47,15 @@ Network region route information can be viewed by using Windows PowerShell and t
 
   - To view information about all your network region routes, type the following command in the Skype for Business Server Management Shell, and then press ENTER:
     
-        Get-CsNetworkInterRegionRoute
+    **Get-CsNetworkInterRegionRoute**
     
     That will return information similar to this:
     
-        Identity                  : TransAmericaRoute
-        NetworkRegionLinks        : {NorthwestToNortheast}
-        InterNetworkRegionRouteID : TransAmericaRoute
-        NetworkRegionID1          : Pacific Northwest
-        NetworkRegionID2          : Northeast
+    Identity                  : TransAmericaRoute<br/>
+    NetworkRegionLinks        : {NorthwestToNortheast}<br/>
+    InterNetworkRegionRouteID : TransAmericaRoute<br/>
+    NetworkRegionID1          : Pacific Northwest<br/>
+    NetworkRegionID2          : Northeast<br/>
 
 For more information, see the help topic for the [Get-CsNetworkInterRegionRoute](/powershell/module/skype/Get-CsNetworkInterRegionRoute) cmdlet.
 

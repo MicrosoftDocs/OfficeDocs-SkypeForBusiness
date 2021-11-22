@@ -8,11 +8,10 @@ ms.service: msteams
 audience: admin
 ms.collection:
   - M365-collaboration
-  - m365initiative-externalcollab
 ms.reviewer: vinbel
 search.appverid: MET150
 description: Learn about the interoperability capabilities between Teams users in your organization and Skype (Consumer) users.
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # Teams and Skype interoperability

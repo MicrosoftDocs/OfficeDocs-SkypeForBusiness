@@ -1,6 +1,6 @@
 ---
 title: "Phones and Devices for Skype for Business and Lync"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -12,13 +12,13 @@ audience: Admin
 appliesto:
 - Lync
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Skype for Business Certification
 - dn947482
-description: "Planning for Optimal Skype for Business Experience over Wi-Fi provides the collective information to help you plan an optimal Skype for Business experience in a wireless world."
+description: "Planning for Optimal Skype for Business Experience over Wi-Fi provides the collective information to help you plan an optimal Skype for Business experience in a wireless environment."
 ---
 
 # USB audio and video devices certified for Skype for Business and Lync clients
@@ -176,7 +176,7 @@ The peripherals certification program ensures that USB peripherals such as heads
 | Plantronics  | Calisto P610-M                           | 2/1/2015   | Lync               |
 | Plantronics  | Voyager 3200                             | 2/1/2015   | Lync               |
 | Polycom      | CX5500 Unified Conference Station        | 11/19/2014 | Skype for Business |
-| Sennheiser   | D 10 USB ML                              | 11/18/2014 | Lync               |
+| Sennheiser   | Impact D series                          | 11/18/2014 | Lync               |
 | Jabra        | EVOLVE 20 MS Mono                        | 10/7/2014  | Lync               |
 | Jabra        | EVOLVE 20 MS Stereo                      | 10/7/2014  | Lync               |
 | Jabra        | EVOLVE 40 MS Mono                        | 10/7/2014  | Lync               |

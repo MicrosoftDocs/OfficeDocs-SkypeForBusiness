@@ -1,8 +1,8 @@
 ---
 title: "Define Persistent Chat FQDN"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddPersistentChatFqdnPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e0123fa6-008b-430e-a68b-61f0cc3fb12e
 description: "You create a new Persistent Chat Server or Persistent Chat Server pool using the Define New Persistent Chat Pool wizard. Select either a Multiple computer pool or a Single computer pool. If you select a single computer pool and later need a multiple computer pool, you will need to remove the single computer pool and then define a multiple computer pool."
 ---
