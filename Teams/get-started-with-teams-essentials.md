@@ -103,7 +103,7 @@ The following table lists the major Microsoft Teams features available across pl
 <sup>1</sup> Provides connection to Google Calendar and other 3rd party calendars with the following configuration: [Connect Google Calendar to Microsoft Teams](https://support.microsoft.com/en-us/office/use-google-calendar-in-teams-free-04efe2a4-bad6-439e-9ff1-85b0282b6a6a)
 
 > [!IMPORTANT] 
-> To get the full set of Teams features, including enhanced administration, you'll need to upgrade to the full version of Teams by purchasing an appropriate [Microsoft 365 or Office 365 subscription plan](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options) for your users.
+> To get enhanced administration and entire full set of Teams features, you'll need to upgrade to the full version of Teams by purchasing an appropriate [Microsoft 365 or Office 365 subscription plan](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options) for your users. We recommend this as you'll have more flexibility to manage the way your organization collaborates.
 
 
 ## Upgrade from a free version of Microsoft Teams to Microsoft Teams Essentials
