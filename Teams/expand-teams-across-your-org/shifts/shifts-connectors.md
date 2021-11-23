@@ -39,7 +39,7 @@ Managed Shifts connectors are connectors that we build in collaboration with our
 
 ### Shifts to Blue Yonder connector
 
-The Shifts to Blue Yonder connector is hosted and managed by Microsoft. With the connector, you can integrate Shifts with Blue Yonder 2020.3, 2021.1, and 2021.2 to manage your schedules and keep them up to date.
+The Shifts to Blue Yonder connector is hosted and managed by Microsoft. With this connector, you can integrate Shifts with Blue Yonder 2020.3, 2021.1, and 2021.2 to manage your schedules and keep them up to date.
 
 Frontline managers can:
 
@@ -78,7 +78,7 @@ The Shifts to Zebra-Reflexis connector, currently in private preview, is hosted 
 
 ## Open-source Shifts connectors
 
-Open-source Shifts connectors are community-driven integrations built on Shifts Graph APIs. The following open-source connectors are available:
+Open-source Shifts connectors are community-driven integrations built on [Shifts Graph APIs](/graph/api/resources/shift). The following open-source connectors are available:
 
 - Kronos-to-Teams WFC on premises
 - JDA-to-Teams Shifts connector (for Blue Yonder version 2017 to 2020.2)

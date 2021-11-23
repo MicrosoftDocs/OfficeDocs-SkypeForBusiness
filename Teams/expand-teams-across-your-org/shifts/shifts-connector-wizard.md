@@ -51,12 +51,10 @@ Before you get started, make sure you have the following prerequisites:
 
     - federatedSSOValidationService: `https://amer.wfmconnector.teams.microsoft.com/api/v1/fedauth/{tenantId}/6A51B888-FF44-4FEA-82E1-839401E9CD74/authorize` where {tenantId} is your tenantId
      - proxyHeader: X-MS-AuthToken
-
-- Microsoft 365 service account for the Shifts connector.</br> Create this account in Azure Active Directory (Azure AD) and assign it a Microsoft 365 license. Then, add the account as a team owner to all teams that you want to map. The Shifts connector uses this account when syncing Shifts changes from Blue Yonder.
+- At least one team is set up in Teams.
+- Microsoft 365 service account is added as a team owner to all teams you want to map.</br> This service account is an account that you create. Create it in Azure Active Directory (Azure AD) and assign it a Microsoft 365 license. Then, add the account as a team owner to all teams that you want to map. The Shifts connector uses this account when syncing Shifts changes from Blue Yonder.
 
     We recommend that you create a service account specifically for this purpose and not use your user account.
-
-- At least one team is set up in Teams.
 - The teams you want to map do not have any schedules. If a team has an existing schedule, [remove the schedule from the team](#remove-schedules-from-teams-you-want-to-map) before you map a Blue Yonder site to it. Otherwise, you'll see duplicate schedules.
 
 ## Prepare to run the wizard
@@ -65,6 +63,19 @@ Before you get started, make sure you have the following prerequisites:
 
 > [!NOTE]
 > Complete this step if you're mapping Blue Yonder sites to existing teams that have schedules. If you're mapping to teams that don't have any schedules or if you're creating new teams to map to, you can skip this step.
+
+Use PowerShell to remove schedules from teams.
+
+1. Follow the steps to [set up your environment](shifts-connector-powershell-manage.md#set-up-your-environment).
+1. Run the following command:
+
+    ```powershell
+    Remove-CsTeamsShiftsScheduleRecord -TeamId <Teams team ID> -DateRangeStartDate <start time> -DateRangeEndDate<end time> -ClearSchedulingGroup:$false -EntityType <the scenario entities that you want to remove, the format is @(scenario1, scenario2, ...)> -DesignatedActorId <Teams team owner ID>
+    ```
+
+    Schedule data will be removed for the date and time range that you specify.
+
+To learn more, see Remove-CsTeamsShiftsScheduleRecord.[ADDLINK to PowerShell cmdlet]
 
 ## Run the wizard
 
