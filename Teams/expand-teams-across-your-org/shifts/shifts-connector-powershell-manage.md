@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Learn how to use PowerShell to manage and configure the Shifts connector. You can change connection settings, view the health of the connection, disable the connection, and more. 
+description: Use PowerShell to manage the Shifts connector after you set up a connection to your workforce management system. You can change connection settings, view the health of the connection, turn off sync, and more. 
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
@@ -23,64 +23,26 @@ appliesto:
 
 Shifts connectors enable you to integrate Shifts, the schedule management tool in Microsoft Teams, with your workforce management (WFM) system. Your frontline workers can seamlessly view and manage their schedules in your WFM system from within Shifts.
 
-You can use the [Shifts connector wizard](shifts-connector-wizard.md) in the Microsoft 365 admin center or PowerShell to set up a connection. After you set up a connection, you manage the connection using PowerShell. We provide PowerShell scripts that you can use to change connection settings such as sync settings and team mappings, view connection health, disable a connection, and more.
+The [Microsoft Teams Shifts connector for Blue Yonder](shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder) enables you to connect Shifts with Blue Yonder to manage your schedules and keep them up to date. You can use the [Shifts connector wizard](shifts-connector-wizard.md) in the Microsoft 365 admin center or [PowerShell](shifts-connector-blue-yonder-powershell-setup.md) to set up a connection.
+
+After it's set up, you manage the connection using PowerShell. We provide PowerShell scripts that you can use to:
+
+- [Change connection settings](#change-connection-settings)
+- [View connection health](#view-connection-health)
+- [View connection settings](#view-connection-settings)
+- [Disable a connection](#disable-a-connection)
 
 ## Before you begin
 
 [!INCLUDE [shifts-connector-admin-role](../../includes/shifts-connector-admin-role.md)]
 
-To complete the steps in this article, you must be a Microsoft 365 global admin or a Shifts connector admin.
-
-The Shifts connector admin role is a custom role that you create in Azure AD and assign to a user. The name of the role must be "Shifts connector admin". The role doesn't need to have any specific permissions, although, at least one permission must be set when you create it. The service relies on the presence of the role on the user, and not its permissions. To learn more, see [Create and assign a custom role in Azure AD](/azure/active-directory/roles/custom-create) and [Assign Azure AD roles to users](/azure/active-directory/roles/manage-roles-portal). Keep in mind that it can take up to 24 hours for the role to be created and applied to a user.
-
 ## Set up your environment
 
 [!INCLUDE [shifts-connector-set-up-environment](../../includes/shifts-connector-set-up-environment.md)]
 
-1. Install PowerShell version 7 or later. For step-by-step guidance, see [Installing PowerShell on Windows](/powershell/scripting/install/installing-powershell-on-windows).
-
-1. Run PowerShell in administrator mode.
-1. Install the Microsoft Graph PowerShell module.
-
-    ```powershell
-    Install-Module Microsoft.Graph
-    Import-Module Microsoft.Graph
-    ```
-
-    Verify that it's version 1.6.1 or later.
-
-    ```powershell
-    Get-InstalledModule Microsoft.Graph 
-    ```
-
-1. Install the Teams Preview PowerShell module.
-
-    ```powershell
-    Install-Module -Name MicrosoftTeams -AllowPrerelease -Force
-    Import-Module MicrosoftTeams 
-    ```
-
-    Verify that it's at least version 2.4.1 and contains the Shifts connector cmdlets.
-
-    ```powershell
-    Get-Command -Module MicrosoftTeams -Name *teamsshiftsconnection* 
-    ```
-
-1. Set PowerShell to exit if an error occurs when running the script.
-
-    ```powershell
-    $ErrorActionPreference = "Stop" 
-    ```
-
-1. Enable scripts to run in Windows.
-
-    ```powershell
-    Set-ExecutionPolicy bypass 
-    ```
-
 ## Change connection settings
 
-You can change connection settings such as your Blue Yonder service account and password, Blue Yonder service URLs, your Microsoft 365 service account, team mappings, and sync settings.
+Use this script if you want to change connection settings. You can settings such as your Blue Yonder service account and password, Microsoft 365 service account, team mappings, and sync settings.
 
 [Set up your environment](#set-up-your-environment) (if you haven't already), and then run the following script.
 
@@ -175,12 +137,15 @@ Write-Host "Success"
 
 ## View connection health
 
-[Set up your environment](#set-up-your-environment) (if you haven't already), and then run script.
+Use this script to view connection health, including any errors that may have occurred.
 
+[Set up your environment](#set-up-your-environment) (if you haven't already), and then run script.
 
 ## View connection settings
 
-To view the settings for a connection, including connection status, team mappings, and failed user mappings, [set up your environment](#set-up-your-environment) (if you haven't already), and then run the following script.
+Use this script to view connection settings, including connection status, team mappings, and failed user mappings.
+
+[Set up your environment](#set-up-your-environment) (if you haven't already), and then run the following script.
 
 ``` powershell
 #View sync errors script 
@@ -234,7 +199,9 @@ ForEach ($mapping in $mappings){
 
 ## Disable a connection
 
-To disable a connection, [set up your environment](#set-up-your-environment) (if you haven't already), and then run the following script.
+Use this script to turn off sync for a connection. Keep in mind that the connection isn't removed or deleted.
+
+[Set up your environment](#set-up-your-environment) (if you haven't already), and then run the following script.
 
 ```powershell
 #Oh oh! Script 
@@ -278,16 +245,6 @@ else {
 	throw "Instance list is empty"
 }
 ```
-
-## Remove schedules from teams you want to map
-
-[Set up your environment](#set-up-your-environment) (if you haven't already), and then run the following command:
-
-```powershell
-Remove-CsTeamsShiftsScheduleRecord -TeamId <Teams team ID> -DateRangeStartDate <start time> -DateRangeEndDate<end time> -ClearSchedulingGroup:$false -EntityType <the scenario entities that you want to remove, the format is @(scenario1, scenario2, ...)> -DesignatedActorId <Teams team owner ID>
-```
-
-To learn more, see Remove-CsTeamsShiftsScheduleRecord.
 
 ## Shifts connector cmdlets
 
