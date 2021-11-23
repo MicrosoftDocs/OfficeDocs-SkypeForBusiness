@@ -63,7 +63,9 @@ This article also describes how to:
 
 There are two ways you can enable SIP Gateway for your organization: by using the Teams admin center or by using the Set-CsTeamsCallingPolicy PowerShell cmdlet.
 
-**By using Teams admin center.** To enable SIP Gateway in the Teams admin center, follow these steps:
+### By using Teams admin center
+
+To enable SIP Gateway in the Teams admin center, follow these steps:
 
 1. Go to the [Teams admin center](https://admin-teams.microsoft.net/)
 
@@ -76,7 +78,9 @@ There are two ways you can enable SIP Gateway for your organization: by using th
 5. Turn on the setting for **SIP devices can be used for calls**, and then select **Save**.
 
 
-**By using PowerShell.** You can also enable SIP Gateway by using the [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) cmdlet. To enable users for SIP devices, select a policy, and set the **AllowSIPDevicesCalling** attribute to **$true**. The default value is $false, so users will not be able to use their SIP devices unless you enable them.
+### By using PowerShell
+
+You can also enable SIP Gateway by using the [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) cmdlet. To enable users for SIP devices, select a policy, and set the **AllowSIPDevicesCalling** attribute to **$true**. The default value is **$false**, so users will not be able to use their SIP devices unless you enable them.
 
 
 ## Set the SIP Gateway provisioning server URL
@@ -243,19 +247,16 @@ You can view and monitor your SIP device inventory in the Teams admin center aft
 User details and policies will be fetched to SIP devices when users sign in. Any policy changes thereafter for signed-in users will be synced to the device within one hour. Sync will be triggered with registration refresh. [What does this mean?]
 
 
-## Support a multi-language user interface
+## Set a SIP device's UI language
 
-The IP phone user interface can display information in many languages. The language setting affects the phones interface, including softkeys and sign-in/sign-out system messages.
-
-### Set the UI language
-
-Setting the language is done in the provisioning server, using DHCP server, or manually by appending a code string in the URL as in the following examples.
+A SIP device can usually display information in many languages. Setting its UI language affects its interface, including softkeys and sign-in/sign-out system messages. Setting the UI language is done in the provisioning server, using DHCP server, or manually by appending a code string in the URL as in the following examples.
 
 How to set German for Polycom, AudioCodes, and Yealink phones:
 - `http://emea.ipp.sdg.teams.microsoft.com/lang_de`
 
 How to set Japanese for Cisco phones:
 - `http://emea.ipp.sdg.teams.microsoft.com/lang_ja/$PSN.xml` 
+
 
 ### Supported languages
 
