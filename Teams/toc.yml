@@ -1123,6 +1123,66 @@ items:
           href: voice-case-study-audio-conferencing.md
         - name: Auto attendants and call queues
           href: voice-case-study-call-queues.md
+    - name: Guidance for Small and Medium Businesses
+      items: 
+      - name: What's Microsoft 365 Business Voice?
+        href: business-voice/whats-business-voice.md
+      - name: Country and region availability
+        href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+      - name: What to know before buying
+        items: 
+          - name: What to buy to get Business Voice
+            href: business-voice/what-to-buy.md
+          - name: Check your Internet connection
+            href: business-voice/get-ready-internet.md
+          - name: Get your users ready
+            href: business-voice/prepare-users.md
+      - name: Set up Business Voice
+        items:
+          - name: Overview
+            href: business-voice/set-up-overview.md
+          - name: "Step 1: Set up emergency locations"
+            href: business-voice/set-up-emergency-locations.md
+          - name: "Step 2: Set up phone numbers"
+            href: business-voice/set-up-phone-numbers.md
+          - name: "Step 3: Assign licenses"
+            href: business-voice/set-up-licenses.md
+          - name: "Step 4: Set up a resource account"
+            href: business-voice/set-up-resource-account.md
+          - name: "Step 5: Assign phone numbers to users"
+            href: business-voice/set-up-assign-numbers.md
+          - name: "Step 6: Set up an auto attendant"
+            href: business-voice/set-up-auto-attendant.md
+          - name: "Step 7: Port phone numbers (optional)"
+            href: business-voice/port-phone-numbers.md
+          - name: "Post-setup resources"
+            href: business-voice/set-up-finish.md
+      - name: Customize your setup
+        items: 
+          - name: Customization options
+            href: business-voice/customize-business-voice.md
+          - name: Set up calling policies
+            href: business-voice/set-up-policies.md
+          - name: Manage policy packages
+            href: business-voice/policy-packages.md
+          - name: Create more users
+            href: business-voice/create-users.md
+          - name: Set up a call queue
+            href: business-voice/create-a-phone-system-call-queue-smb.md
+          - name: Set up an auto attendant
+            href: business-voice/create-a-phone-system-auto-attendant-smb.md
+      - name: Manage your setup
+        items: 
+          - name: Create one or more users
+            href: business-voice/create-users.md
+          - name: Manage devices
+            href: business-voice/manage-devices.md
+          - name: Monitor call quality
+            href: business-voice/monitor-quality.md
+          - name: Call Quality Dashboard
+            href: business-voice/analytics-dashboard.md
+      - name: Partner resources
+        href: business-voice/partner-resources.md 
     - name: Reference
       items: 
         - name: Country phone number management
@@ -1335,69 +1395,6 @@ items:
               href: add-funds-and-manage-communications-credits.md
         - name: Microsoft Teams call flows
           href: microsoft-teams-online-call-flows.md
-
-- name: Microsoft 365 Business Voice
-  items: 
-    - name: What's Microsoft 365 Business Voice?
-      href: business-voice/whats-business-voice.md
-    - name: Country and region availability
-      href: business-voice/country-region-availability.md
-    - name: What to know before buying
-      items: 
-        - name: What to buy to get Business Voice
-          href: business-voice/what-to-buy.md
-        - name: Get help from a reseller or partner
-          href: business-voice/reseller-partner-support.md
-        - name: Check your Internet connection
-          href: business-voice/get-ready-internet.md
-        - name: Get your users ready
-          href: business-voice/prepare-users.md
-    - name: Set up Business Voice
-      items:
-        - name: Overview
-          href: business-voice/set-up-overview.md
-        - name: "Step 1: Set up emergency locations"
-          href: business-voice/set-up-emergency-locations.md
-        - name: "Step 2: Set up phone numbers"
-          href: business-voice/set-up-phone-numbers.md
-        - name: "Step 3: Assign licenses"
-          href: business-voice/set-up-licenses.md
-        - name: "Step 4: Set up a resource account"
-          href: business-voice/set-up-resource-account.md
-        - name: "Step 5: Assign phone numbers to users"
-          href: business-voice/set-up-assign-numbers.md
-        - name: "Step 6: Set up an auto attendant"
-          href: business-voice/set-up-auto-attendant.md
-        - name: "Step 7: Port phone numbers (optional)"
-          href: business-voice/port-phone-numbers.md
-        - name: "Post-setup resources"
-          href: business-voice/set-up-finish.md
-    - name: Customize your setup
-      items: 
-        - name: Customization options
-          href: business-voice/customize-business-voice.md
-        - name: Set up calling policies
-          href: business-voice/set-up-policies.md
-        - name: Manage policy packages
-          href: business-voice/policy-packages.md
-        - name: Create more users
-          href: business-voice/create-users.md
-        - name: Set up a call queue
-          href: business-voice/create-a-phone-system-call-queue-smb.md
-        - name: Set up an auto attendant
-          href: business-voice/create-a-phone-system-auto-attendant-smb.md
-    - name: Manage your setup
-      items: 
-        - name: Create one or more users
-          href: business-voice/create-users.md
-        - name: Manage devices
-          href: business-voice/manage-devices.md
-        - name: Monitor call quality
-          href: business-voice/monitor-quality.md
-        - name: Call Quality Dashboard
-          href: business-voice/analytics-dashboard.md
-    - name: Partner resources
-      href: business-voice/partner-resources.md 
               
 - name: Apps, bots, and connectors
   items: 
