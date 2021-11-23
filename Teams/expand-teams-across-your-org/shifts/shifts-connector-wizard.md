@@ -43,6 +43,8 @@ You must be a Microsoft 365 global admin to run the wizard.
 
 ### Prerequisites
 
+[!INCLUDE [shifts-connector-prerequisites](../../includes/shifts-connector-prerequisites.md)]
+
 Before you get started, make sure you have the following prerequisites:
 
 - Blue Yonder version 2020.3, 2021.1, or 2021.2. </br>If you have 2020.3 or 2021.1, we recommend applying the 2020.3.0.4 or 2021.1.0.3 patch. The patch has a fix required for users to update their availability in Shifts.

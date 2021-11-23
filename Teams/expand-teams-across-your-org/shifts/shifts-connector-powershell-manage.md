@@ -27,11 +27,15 @@ You can use the [Shifts connector wizard](shifts-connector-wizard.md) in the Mic
 
 ## Before you begin
 
+[!INCLUDE [shifts-connector-admin-role](../../includes/shifts-connector-admin-role.md)]
+
 To complete the steps in this article, you must be a Microsoft 365 global admin or a Shifts connector admin.
 
 The Shifts connector admin role is a custom role that you create in Azure AD and assign to a user. The name of the role must be "Shifts connector admin". The role doesn't need to have any specific permissions, although, at least one permission must be set when you create it. The service relies on the presence of the role on the user, and not its permissions. To learn more, see [Create and assign a custom role in Azure AD](/azure/active-directory/roles/custom-create) and [Assign Azure AD roles to users](/azure/active-directory/roles/manage-roles-portal). Keep in mind that it can take up to 24 hours for the role to be created and applied to a user.
 
 ## Set up your environment
+
+[!INCLUDE [shifts-connector-set-up-environment](../../includes/shifts-connector-set-up-environment.md)]
 
 1. Install PowerShell version 7 or later. For step-by-step guidance, see [Installing PowerShell on Windows](/powershell/scripting/install/installing-powershell-on-windows).
 
