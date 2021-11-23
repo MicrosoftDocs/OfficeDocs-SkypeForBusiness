@@ -95,7 +95,7 @@ For each SIP device, set one of the following SIP Gateway provisioning server UR
 
 Add SIP devices to your Teams organization by configuring the above SIP Gateway provisioning server URL in your DHCP server. The devices in your organization will be routed to the SIP Gateway provisioning server. Successfully provisioned SIP phones will display the Teams logo and a soft button for sign-in.
 
-Also update each SIP device's firmware if it's required. That will push the default configuration and SIP Gateway user interface to the device. To find out the minimum supported firmware version for SIP devices, refer to [Plan for SIP Gateway](sip-gateway-plan.md).
+Also update each SIP device's firmware if it's required. That will push the default configuration and SIP Gateway user interface to the device. To find out the required firmware version for SIP devices, refer to [Plan for SIP Gateway](sip-gateway-plan.md).
 
 ### Remote users
 
@@ -132,7 +132,7 @@ For more information, see [IP address ranges](https://docs.microsoft.com/azure/a
 
 ## Provision and enroll SIP devices
 > [!NOTE]
-> A SIP device must be onboarded to SIP Gateway before it can be enrolled.
+> A SIP device must be onboarded to SIP Gateway before it can be provisioned and enrolled.
 
 To streamline your tasks, you can enroll SIP devices in the Teams admin center either one at a time or in batches. Here's how:
 
@@ -191,9 +191,7 @@ Only local sign-in is supported for users’ personal devices. To sign out a dev
 3. At the right, select a SIP device, and then select **Sign out**.
 
 
-### Remote user pairing and sign in
-
-**[Are these steps covered above in "Enroll SIP devices"?]**
+### User pairing and sign in
 
 To pair a SIP device after the user authenticates using corporate credentials, a user must:
 
@@ -241,7 +239,7 @@ You can view and monitor your SIP device inventory in the Teams admin center aft
 
 ## Sync policy changes to SIP devices to enforce policies
 
-User details and policies will be fetched to SIP devices when users sign in. Any policy changes thereafter for signed-in users will be synced to the device within one hour. Sync will be triggered with registration refresh. [What does this mean?]
+User details and policies will be fetched to SIP devices when users sign in. Any policy changes thereafter for signed-in users will be synced to the device within one hour. Devices must have their registration refreshed with the SIP Gateway periodically.
 
 
 ## Set a SIP device's UI language
