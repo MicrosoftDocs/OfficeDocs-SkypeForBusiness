@@ -29,25 +29,25 @@ We offer managed and open-source Shifts connectors. In this article, you'll lear
 
 ## How Shifts connectors work
 
-Connectors sync schedule data between your WFM system and Shifts, bringing your organization’s schedules into Teams. Shifts is where your frontline workers engage for their scheduling needs. Your WFM system is the system of record and source of truth for business rules, compliance, and intelligence.
+Connectors sync schedule data between your WFM system and Shifts, bringing your organization’s schedules into Teams. Shifts is where your frontline workers engage for their scheduling needs. Your WFM system is the system of record for business rules, compliance, and intelligence.
 
-Data flows via the connector both ways to ensure schedules are always up to date. Schedules in your WFM system are synced to Shifts. Changes made to schedules in Shifts are synced back to your WFM system. As the system of record, all business rules are enforced by your WFM system before data is saved to Shifts.
+Data flows via the connector both ways to ensure schedules are always up to date. Schedules in your WFM system are synced to Shifts, and changes made to schedules in Shifts are synced back to your WFM system. As the system of record, all business rules are enforced by your WFM system before data is saved to Shifts.
 
 ## Managed Shifts connectors
 
-Managed Shifts connectors are connectors that are built in collaboration with our partners. Managed connectors are hosted and managed either by us or our partners. With managed connectors, integration is easy as only minimal setup is needed.
+Managed Shifts connectors are connectors developed in collaboration with our partners. Managed connectors are hosted and managed either by us or our partners. With managed connectors, only minimal setup is needed.
 
 ### Microsoft Teams Shifts connector for Blue Yonder
 
-The Teams Shifts connector for Blue Yonder is hosted and managed by Microsoft. With this connector, you can integrate Shifts with Blue Yonder 2020.3, 2021.1, and 2021.2 to manage your schedules and keep them up to date.
+The Teams Shifts connector for Blue Yonder is hosted and managed by Microsoft. With this connector, you can integrate Shifts with Blue Yonder 2020.3 and later versions to manage your schedules and keep them up to date.
 
 Frontline managers can:
 
 - Publish shifts and schedules in Blue Yonder and view them in Shifts.
 - Create, manage, and assign open shifts in Blue Yonder and view them in Shifts.
 - Create, edit, and delete time off in Blue Yonder and view them in Shifts.
-- View schedule requests from workers and approve them in Blue Yonder and in Shifts.
-- Create and update worker availability in Blue Yonder.
+- View and approve schedule requests from workers in both Blue Yonder and Shifts.
+- Set and update worker availability in Blue Yonder and view in Shifts.
 
 Frontline workers can:
 
@@ -61,20 +61,36 @@ Eden, a manager, publishes a schedule in Blue Yonder, which is synced to Shifts 
 
 Alex needs to take some time off and requests a day off using Shifts. The request is sent to Blue Yonder through the connector. Blue Yonder ensures that the request is compliant with business rules and the request is created. Eden sees and approves the request in Blue Yonder. The approval is synced to Teams. (Eden can also see and approve the request in Shifts). Alex is notified in Teams that his request is approved, and views his updated schedule.
 
+Alex wants to swap a shift with a coworker. In Shifts, Alex sees a list of all shifts that are eligible for a swap based on business rules in Blue Yonder. Alex chooses a shift that's currently assigned to Sascha. Sascha is notified in Teams, and accepts the swap request. Eden sees and approves the request in Shifts, and the approval is synced to Blue Yonder. (Eden can also see and approve the request in Blue Yonder). Alex and Sascha are notified in Teams, and view their updated schedules.
+
 #### Set up a connection
 
-Integrating Shifts with Blue Yonder using the connector takes just a few steps. You can use the Shifts connector wizard in the Microsoft 365 admin center to quickly and easily set up a connection. The wizard configures the connector, creates the connection, and applies the sync settings and team mappings that you choose. If you prefer to use PowerShell, we also provide PowerShell scripts that you can use to get connected.
+Integrating Shifts with Blue Yonder using the connector takes just a few steps. You can use the Shifts connector wizard in the Microsoft 365 admin center to quickly and easily set up a connection. The wizard configures the connector based on the settings you choose and creates the connection. If you prefer to use PowerShell, we also provide PowerShell scripts that you can use to get connected.
 
 For step-by-step guidance, see:
 
 - [Use the Shifts connector wizard to connect your workforce management system](shifts-connector-wizard.md)
 - [Use PowerShell to connect Shifts to your Blue Yonder workforce management system](shifts-connector-blue-yonder-powershell-setup.md)
 
-After a connection is set up, you can update and change connection settings at any time, as needed. As for the connector itself, you don't need to worry about upgrades or maintenance. We take care of that.
+After a connection is set up, you can use PowerShell to update and change connection settings at any time, as needed. As for the connector itself, you don't need to worry about upgrades or maintenance. We take care of that.
 
-### Shifts to Zebra-Reflexis connector
+### Reflexis Shifts connector for Microsoft Teams
 
-The Shifts to Zebra-Reflexis connector, currently in private preview, is hosted and managed by Zebra.
+The Reflexis Shifts connector for Microsoft Teams, currently in private preview, is hosted and managed by Zebra. With this connector, you can integrate Shifts with the Reflexis WFM system to manage your schedules and keep them up to date.
+
+Frontline managers can:
+
+- 
+- 
+- 
+
+Frontline workers can:
+
+- 
+- 
+- 
+
+To learn more, go to https://connect.zebra.com/microsoft-connectors.
 
 ## Open-source Shifts connectors
 
@@ -83,7 +99,7 @@ Open-source Shifts connectors are community-driven integrations built on [Shifts
 - Kronos-to-Teams WFC on premises
 - JDA-to-Teams Shifts connector (for Blue Yonder version 2017 to 2020.2)
 
-Each connector comes with detailed deployment and configuration guidance. They include Azure Resource Manager (ARM) deployment scripts that allow you to host all necessary services in Microsoft Azure. The source code and deployment scripts are available for download in a GitHub repository. You can deploy as is or customize or extend to meet your needs.
+Each connector comes with detailed deployment and configuration guidance. They include Azure Resource Manager (ARM) deployment scripts that allow you to host all necessary services in Microsoft Azure. The source code and deployment scripts are available for download in a [GitHub repository](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors). You can deploy as is or customize or extend to meet your needs.
 
 To learn more, see [Production-ready Shifts connectors](/microsoftteams/platform/samples/shifts-wfm-connectors).
 
