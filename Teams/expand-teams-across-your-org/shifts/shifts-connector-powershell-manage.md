@@ -96,34 +96,7 @@ To complete the steps in this article, you must be a Microsoft 365 global admin 
 
 You can change connection settings such as your Blue Yonder service account and password, Blue Yonder service URLs, your Microsoft 365 service account, team mappings, and sync settings.
 
-[Set up your environment](#set-up-your-environment) (if you haven't already), and then run this script.
-
-## View connection health
-
-[Set up your environment](#set-up-your-environment) (if you haven't already), and then run script.
-
-
-## View connection settings
-
-[Set up your environment](#set-up-your-environment) (if you haven't already), and then run script.
-
-## Disable a connection
-
-To disable a connection, [set up your environment](#set-up-your-environment) (if you haven't already), and then run script.
-
-## Remove schedules from teams you want to map
-
-[Set up your environment](#set-up-your-environment) (if you haven't already), and then run the following command:
-
-```powershell
-Remove-CsTeamsShiftsScheduleRecord -TeamId <Teams team ID> -DateRangeStartDate <start time> -DateRangeEndDate<end time> -ClearSchedulingGroup:$false -EntityType <the scenario entities that you want to remove, the format is @(scenario1, scenario2, ...)> -DesignatedActorId <Teams team owner ID>
-```
-
-To learn more, see Remove-CsTeamsShiftsScheduleRecord.
-
-## Scripts
-
-### Change connection settings
+[Set up your environment](#set-up-your-environment) (if you haven't already), and then run the following script.
 
 ```powershell
 #Update script
@@ -214,7 +187,68 @@ New-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $InstanceId -TeamId $Tea
 Write-Host "Success"
 ```
 
-### Disable a connection
+## View connection health
+
+[Set up your environment](#set-up-your-environment) (if you haven't already), and then run script.
+
+
+## View connection settings
+
+To view the settings for a connection, including connection status, team mappings, and failed user mappings, [set up your environment](#set-up-your-environment) (if you haven't already), and then run the following script.
+
+``` powershell
+#View sync errors script 
+Write-Host "View sync errors work flow"
+Start-Sleep 1
+
+#Ensure Teams module is of version x 
+Write-Host "Checking Teams module version"
+try {
+	Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 2.3
+} catch {
+	throw
+}
+
+#Authenticate with powershell as to the authorization capabilities of the caller. 
+#Connect to Teams
+Write-Host "Connecting to Teams"
+Connect-MicrosoftTeams
+Write-Host "Connected"
+
+#List connection instances available 
+Write-Host "Listing connection instances"
+$InstanceList = Get-CsTeamsShiftsConnectionInstance
+write $InstanceList
+
+#Get an instance
+if ($InstanceList.Count -gt 0){
+	$InstanceId = Read-Host -Prompt 'Input the instance ID that you want to retrieve user sync results from'
+}
+else {
+	throw "Instance list is empty"
+}
+
+#Get a list of the mappings
+Write-Host "Listing team mappings"
+$mappings = Get-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $InstanceId
+write $mappings
+
+#For each mapping, retrieve the failed mappings
+ForEach ($mapping in $mappings){
+	$teamsTeamId = $mapping.TeamId
+	$wfmTeamId = $mapping.WfmTeamId
+	Write-Host "Failed mapped users in the mapping of ${teamsTeamId} and ${wfmTeamId}:"
+	$userSyncResult = Get-CsTeamsShiftsConnectionSyncResult -ConnectorInstanceId $InstanceId -TeamId $teamsTeamId
+	Write-Host "Failed AAD users:"
+	write $userSyncResult.FailedAadUser
+	Write-Host "Failed WFM users:"
+	write $userSyncResult.FailedWfmUser
+}
+```
+
+## Disable a connection
+
+To disable a connection, [set up your environment](#set-up-your-environment) (if you haven't already), and then run the following script.
 
 ```powershell
 #Oh oh! Script 
@@ -257,24 +291,17 @@ if ($InstanceList.Count -gt 0){
 else {
 	throw "Instance list is empty"
 }
-
-#Remove scenarios in the mapping
-Write-Host "Disabling scenarios in the team mapping"
-$UpdatedInstanceName = $InstanceName + " - Disabled"
-$BlueYonderId = "6A51B888-FF44-4FEA-82E1-839401E9CD74"
-$WfmUserName = Read-Host -Prompt 'Input your WFM user name'
-$WfmPwd = Read-Host -Prompt 'Input your WFM password' -AsSecureString
-$plainPwd =[Runtime.InteropServices.Marshal]::PtrToStringAuto([Runtime.InteropServices.Marshal]::SecureStringToBSTR($WfmPwd))
-
-$UpdatedInstance = Set-CsTeamsShiftsConnectionInstance -ConnectorId $BlueYonderId -ConnectorInstanceId $InstanceId -ConnectorSpecificSettingAdminApiUrl $adminApiUrl -ConnectorSpecificSettingCookieAuthUrl $cookieAuthUrl -ConnectorSpecificSettingEssApiUrl $essApiUrl -ConnectorSpecificSettingFederatedAuthUrl $federatedAuthUrl -ConnectorSpecificSettingLoginPwd $plainPwd -ConnectorSpecificSettingLoginUserName $WfmUserName -ConnectorSpecificSettingRetailWebApiUrl $retailWebApiUrl -ConnectorSpecificSettingSiteManagerUrl $siteManagerUrl -DesignatedActorId $DesignatedActorId -EnabledConnectorScenario @() -EnabledWfiScenario @() -Name $UpdatedInstanceName -SyncFrequencyInMin 60 -IfMatch $Etag
-
-if ($UpdatedInstance.Id -ne $null) {
-	Write-Host "Success"
-}
-else {
-	throw "Update instance failed"
-}
 ```
+
+## Remove schedules from teams you want to map
+
+[Set up your environment](#set-up-your-environment) (if you haven't already), and then run the following command:
+
+```powershell
+Remove-CsTeamsShiftsScheduleRecord -TeamId <Teams team ID> -DateRangeStartDate <start time> -DateRangeEndDate<end time> -ClearSchedulingGroup:$false -EntityType <the scenario entities that you want to remove, the format is @(scenario1, scenario2, ...)> -DesignatedActorId <Teams team owner ID>
+```
+
+To learn more, see Remove-CsTeamsShiftsScheduleRecord.
 
 ## Shifts connector cmdlets
 
