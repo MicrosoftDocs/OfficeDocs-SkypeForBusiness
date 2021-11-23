@@ -80,7 +80,7 @@ To enable SIP Gateway in the Teams admin center, follow these steps:
 
 ### By using PowerShell
 
-You can also enable SIP Gateway by using the [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) cmdlet. To enable users for SIP devices, select a policy, and set the **AllowSIPDevicesCalling** attribute to **$true**. The default value is **$false**, so users will not be able to use their SIP devices unless you enable them.
+You can also enable SIP Gateway by using the [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) cmdlet. To enable users for SIP devices, select a policy, and set the `AllowSIPDevicesCalling` attribute to `$true`. The default value is `$false`, so users will not be able to use their SIP devices unless you enable them.
 
 
 ## Set the SIP Gateway provisioning server URL
