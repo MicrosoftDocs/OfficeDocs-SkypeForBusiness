@@ -25,7 +25,7 @@ appliesto:
 
 # Configure SIP Gateway
 
-This article explains how to configure SIP Gateway so that your organization can use compatible SIP devices with Microsoft Teams. Be sure to read [Plan for SIP Gateway](sip-gateway-plan.md) first.
+This article explains how to configure SIP Gateway so that your organization can use compatible SIP devices with Microsoft Teams. To find out what SIP Gateway can do for your organization and what hardware, software, and licenses are required for it, read [Plan for SIP Gateway](sip-gateway-plan.md).
 
 Before you can configure SIP Gateway, do the following:
 
