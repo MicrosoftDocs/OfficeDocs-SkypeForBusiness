@@ -21,7 +21,7 @@ appliesto:
 
 ## Overview
 
-The Shifts connector wizard in the Microsoft 365 admin center makes it easy to integrate the Shifts app in Microsoft Teams with your workforce management (WFM) system. After the connection is set up, your frontline workers can seamlessly view and manage their schedules in your WFM system from within Shifts.
+The Shifts connector wizard in the Microsoft 365 admin center makes it easy to integrate the Shifts app in Microsoft Teams with your workforce management (WFM) system. After a connection is set up, your frontline workers can seamlessly view and manage their schedules in your WFM system from within Shifts.
 
 The wizard configures the [Shifts connector](shifts-connectors.md), creates a connection to your WFM system, and applies the sync settings and team mappings that you choose. Sync settings determine the features that are enabled in Shifts and schedule information that's synced between your WFM system and Shifts. Team mappings define the relationship between your WFM sites and teams in Teams. You can map to existing teams and new teams, which you can create in the wizard.
 
@@ -39,7 +39,11 @@ In this article, we walk you through how to run the wizard to set up a Shift to 
 
 ## Before you begin
 
-You must be a Microsoft 365 global admin to run the wizard. Before you get started, make sure you have the following prerequisites:
+You must be a Microsoft 365 global admin to run the wizard.
+
+### Prerequisites
+
+Before you get started, make sure you have the following prerequisites:
 
 - Blue Yonder version 2020.3, 2021.1, or 2021.2. </br>If you have 2020.3 or 2021.1, we recommend applying the 2020.3.0.4 or 2021.1.0.3 patch. The patch has a fix required for users to update their availability in Shifts.
 - Blue Yonder service account name and password and service URLs. </br>If you don’t have this information, contact your Blue Yonder delivery partner or technical account manager. The account is created at the root enterprise level by a Blue Yonder enterprise administrator and must have APIAccess, Client Admin, and Store Manager access. The account and password are required to create a connection.
@@ -48,7 +52,7 @@ You must be a Microsoft 365 global admin to run the wizard. Before you get start
     - federatedSSOValidationService: `https://amer.wfmconnector.teams.microsoft.com/api/v1/fedauth/{tenantId}/6A51B888-FF44-4FEA-82E1-839401E9CD74/authorize` where {tenantId} is your tenantId
      - proxyHeader: X-MS-AuthToken
 
-- Microsoft 365 service account for the Shifts connector.</br> Create this account in Azure Active Directory (Azure AD) and assign it a Microsoft 365 license. Then, add it as a team owner to all teams that you want to map. The Shifts connector uses this account when syncing Shifts changes from Blue Yonder.
+- Microsoft 365 service account for the Shifts connector.</br> Create this account in Azure Active Directory (Azure AD) and assign it a Microsoft 365 license. Then, add the account as a team owner to all teams that you want to map. The Shifts connector uses this account when syncing Shifts changes from Blue Yonder.
 
     We recommend that you create a service account specifically for this purpose and not use your user account.
 
@@ -115,7 +119,7 @@ You’re on your way but you’re not done yet! Be sure to check your email. You
 
 ## If you need to make changes to a connection
 
-You can use PowerShell to make changes to a connection after it's set up. For example, you can update sync settings, team mappings, or disable a connection. For step-by-step guidance, see [Link to PowerShell article]().
+You can use PowerShell to make changes to a connection after it's set up. For example, you can update sync settings, team mappings, or disable a connection. You can also view connection health and settings. For step-by-step guidance, see [Link to PowerShell article]().
 
 ## Related articles
 

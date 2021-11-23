@@ -54,12 +54,11 @@ Before you get started, make sure you have the following prerequisites:
 
     We recommend that you create a service account specifically for this purpose and not use your user account.
 
-Additionally, to complete the steps in this article, you must be:
+### Admin role to manage the Shifts connector using PowerShell
 
-- A Microsoft 365 global admin
-- A Shifts connector admin
+To complete the steps in this article, you must be a Microsoft 365 global admin or a Shifts connector admin.
 
- The Shifts connector admin role is a custom role that you create in Azure AD and assign to a user account. The custom role must be named "Shifts connector admin". The role doesn't need to have any specific permissions, although, at least one permission must be set. The service only relies on the presence of the role on the user. To learn more, see [Create and assign a custom role in Azure AD](/azure/active-directory/roles/custom-create) and [Assign Azure AD roles to users](/azure/active-directory/roles/manage-roles-portal). Keep in mind that it can take up to 24 hours for the role to be created and applied to a user.  
+ The Shifts connector admin role is a custom role that you create in Azure AD and assign to a user. The name of the role must be "Shifts connector admin". The role doesn't need to have any specific permissions, although, at least one permission must be set. The service only relies on the presence of the role on the user. To learn more, see [Create and assign a custom role in Azure AD](/azure/active-directory/roles/custom-create) and [Assign Azure AD roles to users](/azure/active-directory/roles/manage-roles-portal). Keep in mind that it can take up to 24 hours for the role to be created and applied to a user.  
 
 ## Set up your environment
 
