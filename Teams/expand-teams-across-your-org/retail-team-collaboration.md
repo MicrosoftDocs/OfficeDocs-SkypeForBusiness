@@ -34,7 +34,7 @@ Microsoft Teams enables in-store sales associates, managers, and other staff to 
 
 In addition, your team can use [apps](#manage-apps) in Teams to coordinate and collaborate with each other on day to day tasks, such as the following:
 
-![Infographic showing the different functions available in Teams and as Teams apps as described in the list below.](../media/retail-teams-collaborate-daisyedit.png)
+![Infographic showing the different functions available in Teams and as Teams apps as described in the list below.](../media/retail-teams-collaborate.png)
 
 | Task | App | Description | Manage this app | End-user training |
 | ---- | ---- | ---- | ---- | ---- |
