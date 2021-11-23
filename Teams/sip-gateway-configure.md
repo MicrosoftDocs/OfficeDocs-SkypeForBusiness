@@ -87,18 +87,15 @@ You can also enable SIP Gateway by using the [Set-CsTeamsCallingPolicy](https://
 
 ### Administrators
 
-For each SIP device, you must set one of the following SIP Gateway provisioning server URLs: 
+For each SIP device, set one of the following SIP Gateway provisioning server URLs: 
 
 - EMEA: `http://emea.ipp.sdg.teams.microsoft.com`
 - Americas: `http://noam.ipp.sdg.teams.microsoft.com`
 - APAC: `http://apac/ipp.sdg.teams.microsoft.com`
 
-Add SIP devices to your Teams organization by configuring the above SIP Gateway provisioning server URL in your DHCP server. **[HOW? I still can't figure this part out from pp. 5-6 in the source document. They're not written in step-by-step "here's how to do it" style. I think admins need step-by-step instructions for this.** The devices in your organization will be routed to the SIP Gateway provisioning server. Successfully provisioned SIP phones will display the Teams logo and a soft button for sign-in.
+Add SIP devices to your Teams organization by configuring the above SIP Gateway provisioning server URL in your DHCP server. The devices in your organization will be routed to the SIP Gateway provisioning server. Successfully provisioned SIP phones will display the Teams logo and a soft button for sign-in.
 
-To provision each SIP device, also do the following:
-- Update the SIP device's firmware if required. To find out the minimum supported firmware version for all SIP devices, refer to [Plan for SIP Gateway](sip-gateway-plan.md)
-- Default configuration for the device to be used with SIP Gateway. **[What does this mean?]**
--	SIP Gateway authentication UX. **[What does this mean?]**
+Also update each SIP device's firmware if it's required. That will push the default configuration and SIP Gateway user interface to the device. To find out the minimum supported firmware version for SIP devices, refer to [Plan for SIP Gateway](sip-gateway-plan.md).
 
 ### Remote users
 
@@ -133,11 +130,11 @@ Conditional Access is an Azure Active Directory (Azure AD) feature that helps en
 
 For more information, see [IP address ranges](https://docs.microsoft.com/azure/active-directory/conditional-access/location-condition#ip-address-ranges).
 
-## Enroll SIP devices
+## Provision and enroll SIP devices
 > [!NOTE]
 > A SIP device must be onboarded to SIP Gateway before it can be enrolled.
 
-To streamline your tasks, you can enroll SIP devices in the Teams admin center either one at a time or in batches. **[Are "provision" and "enroll" the same? I changed them all to "enroll" in this section, but the UI mentions "provision".]** Here's how:
+To streamline your tasks, you can enroll SIP devices in the Teams admin center either one at a time or in batches. Here's how:
 
 1. Log in to the [**Teams admin center**](https://admin.teams.microsoft.net/).
 
@@ -145,7 +142,7 @@ To streamline your tasks, you can enroll SIP devices in the Teams admin center e
 
 3. At the upper right, select **Actions** > **Provision devices** and follow one of these steps:
 
-  - **To enroll one device:**
+  - **To provision one device:**
 
      a. Under **Waiting on activation**, select **Add**.
 
@@ -155,7 +152,7 @@ To streamline your tasks, you can enroll SIP devices in the Teams admin center e
      
      d. On the **Provision devices** pane, under **Verfication code**, note the verification code for the SIP device.
 
-   - **To enroll many devices:**
+   - **To provision many devices:**
 
      a. Under **Waiting on activation**, at the right, select **Export** (the Microsoft Excel icon).
      
@@ -169,7 +166,7 @@ To streamline your tasks, you can enroll SIP devices in the Teams admin center e
 
      f. On the **Provision devices** pane, under **Waiting on activation**, select a device and then select **Generate verification code** to generate a one-time verification code for each provisioned device. Note the verification code for each SIP device.
 
-4. On the SIP device, dial the enrollment feature code followed by the verification code. For example, if the enrollment feature code is *55* and the verification code is *123456*, dial *5512345* to enroll the device.
+4. On the SIP device, dial the enrollment feature code followed by the verification code. For example, if the enrollment feature code is \*55* and the verification code is 123456, dial \*55\*123456 to enroll the device.
 
 5.  On the **Provision devices** pane, under **Waiting for sign in**, select **Signed out**.
 
@@ -177,9 +174,9 @@ To streamline your tasks, you can enroll SIP devices in the Teams admin center e
 
 7. Go to [https://microsoft.com/devicelogin](https://microsoft.com/devicelogin), and under **Enter code**, enter the SIP device's pairing code, and then select **Next**.
 
-8. On the Microsoft **Sign in** page, in the **Email or phone** field, enter the email address or phone number for the SIP device, and then select **Next**.
+8. On the Microsoft **Sign in** page, in the **Email or phone** field, enter the email address for the SIP device, and then select **Next**.
 
-9. On the **Password** page, enter the password for the email address or phone number for the SIP device, and then select **Sign in**.
+9. On the **Password** page, enter the password for the email address for the SIP device, and then select **Sign in**.
 
 10. On the **Are you trying to sign in to Teams SIP devices gateway** page, select **Continue**.
 
