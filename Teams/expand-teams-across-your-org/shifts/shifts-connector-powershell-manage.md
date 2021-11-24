@@ -1,5 +1,5 @@
 ---
-title: Use PowerShell to manage the Shifts connector
+title: Use PowerShell to manage your Shifts connection to Blue Yonder
 author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: 
@@ -17,7 +17,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Use PowerShell to manage the Shifts connector
+# Use PowerShell to manage your Shifts connection to Blue Yonder
 
 ## Overview
 
@@ -25,12 +25,14 @@ Shifts connectors enable you to integrate Shifts, the schedule management tool i
 
 The [Microsoft Teams Shifts connector for Blue Yonder](shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder) enables you to connect Shifts with Blue Yonder to manage your schedules and keep them up to date. You can use the [Shifts connector wizard](shifts-connector-wizard.md) in the Microsoft 365 admin center or [PowerShell](shifts-connector-blue-yonder-powershell-setup.md) to set up a connection.
 
-After it's set up, you manage the connection using PowerShell. We provide PowerShell scripts that you can use to:
+After a connection is set up, you manage it by using PowerShell. We provide PowerShell scripts that you can use to:
 
 - [Change connection settings](#change-connection-settings)
 - [View connection health](#view-connection-health)
 - [View connection settings](#view-connection-settings)
 - [Disable a connection](#disable-a-connection)
+
+This article assumes that you've already set up a connection to Blue Yonder, either using the wizard or PowerShell.
 
 ## Before you begin
 
@@ -38,11 +40,19 @@ After it's set up, you manage the connection using PowerShell. We provide PowerS
 
 ## Set up your environment
 
+> [!NOTE]
+> Make sure you follow these steps to set up your environment before running any of the scripts in this article. If you used [PowerShell](shifts-connector-blue-yonder-powershell-setup.md) to set up a connection, you've already completed these steps. If you used the [wizard](shifts-connector-wizard.md) to set up a connection, you may have completed these steps if you needed to remove existing schedules from teams.
+
 [!INCLUDE [shifts-connector-set-up-environment](../../includes/shifts-connector-set-up-environment.md)]
 
 ## Change connection settings
 
-Use this script if you want to change connection settings. You can settings such as your Blue Yonder service account and password, Microsoft 365 service account, team mappings, and sync settings.
+Use this script to change connection settings. Settings that you can change include your Blue Yonder service account and password, Microsoft 365 service account, team mappings, and sync settings.
+
+Sync settings include the sync frequency (in minutes) and the schedule data that's synced between Blue Yonder and Shifts. Schedule data is defined in the following parameters, which you can view by running [Get-CsTeamsShiftsConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector?view=teams-ps).
+
+- The **enabledConnectorScenarios** parameter defines data that's synced from Blue Yonder to Shifts. Options are `Shift`, `SwapRequest`, `UserShiftPreferences`, `OpenShift`, `OpenShiftRequest`, `TimeOff`, `TimeOffRequest`.
+- The **enabledWfiScenarios** parameter defines data that's synced from Shifts to Blue Yonder. Options are `SwapRequest`, `OpenShiftRequest`,  `TimeOffRequest`, `UserShiftPreferences`.
 
 [Set up your environment](#set-up-your-environment) (if you haven't already), and then run the following script.
 
@@ -139,7 +149,7 @@ Write-Host "Success"
 
 Use this script to view connection health, including any errors that may have occurred.
 
-[Set up your environment](#set-up-your-environment) (if you haven't already), and then run script.
+[Set up your environment](#set-up-your-environment) (if you haven't already), and then run the following script.
 
 ## View connection settings
 
@@ -199,7 +209,7 @@ ForEach ($mapping in $mappings){
 
 ## Disable a connection
 
-Use this script to turn off sync for a connection. Keep in mind that the connection isn't removed or deleted.
+Use this script to turn off sync for a connection. Keep in mind this script doesn't remove or delete a connection. It turns off sync so that no data is synced between Shifts and Blue Yonder for the connection that you specify. 
 
 [Set up your environment](#set-up-your-environment) (if you haven't already), and then run the following script.
 
@@ -244,11 +254,28 @@ if ($InstanceList.Count -gt 0){
 else {
 	throw "Instance list is empty"
 }
+
+#Remove scenarios in the mapping
+Write-Host "Disabling scenarios in the team mapping"
+$UpdatedInstanceName = $InstanceName + " - Disabled"
+$BlueYonderId = "6A51B888-FF44-4FEA-82E1-839401E9CD74"
+$WfmUserName = Read-Host -Prompt 'Input your WFM user name'
+$WfmPwd = Read-Host -Prompt 'Input your WFM password' -AsSecureString
+$plainPwd =[Runtime.InteropServices.Marshal]::PtrToStringAuto([Runtime.InteropServices.Marshal]::SecureStringToBSTR($WfmPwd))
+
+$UpdatedInstance = Set-CsTeamsShiftsConnectionInstance -ConnectorId $BlueYonderId -ConnectorInstanceId $InstanceId -ConnectorSpecificSettingAdminApiUrl $adminApiUrl -ConnectorSpecificSettingCookieAuthUrl $cookieAuthUrl -ConnectorSpecificSettingEssApiUrl $essApiUrl -ConnectorSpecificSettingFederatedAuthUrl $federatedAuthUrl -ConnectorSpecificSettingLoginPwd $plainPwd -ConnectorSpecificSettingLoginUserName $WfmUserName -ConnectorSpecificSettingRetailWebApiUrl $retailWebApiUrl -ConnectorSpecificSettingSiteManagerUrl $siteManagerUrl -DesignatedActorId $DesignatedActorId -EnabledConnectorScenario @() -EnabledWfiScenario @() -Name $UpdatedInstanceName -SyncFrequencyInMin 60 -IfMatch $Etag
+
+if ($UpdatedInstance.Id -ne $null) {
+	Write-Host "Success"
+}
+else {
+	throw "Update instance failed"
+}
 ```
 
 ## Shifts connector cmdlets
 
-To learn more about Shifts connector cmdlets, see:
+For help with Shifts connector cmdlets, including the cmdlets used in the scripts, see:
 
 - [New-CsTeamsShiftsConnectionInstance](/powershell/module/teams/new-csteamsshiftsconnectioninstance?view=teams-ps)
 - [Get-CsTeamsShiftsConnectionInstance](/powershell/module/teams/get-csteamsshiftsconnectioninstance?view=teams-ps)

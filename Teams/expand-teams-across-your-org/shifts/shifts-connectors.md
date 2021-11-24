@@ -45,7 +45,7 @@ Frontline managers can:
 
 - Publish shifts and schedules in Blue Yonder and view them in Shifts.
 - Create, manage, and assign open shifts in Blue Yonder and view them in Shifts.
-- Create, edit, and delete time off in Blue Yonder and view them in Shifts.
+- Create, edit, and delete time off in Blue Yonder and view in Shifts.
 - View and approve schedule requests from workers in both Blue Yonder and Shifts.
 - Set and update worker availability in Blue Yonder and view in Shifts.
 
@@ -61,7 +61,7 @@ Eden, a manager, publishes a schedule in Blue Yonder, which is synced to Shifts 
 
 Alex needs to take some time off and requests a day off using Shifts. The request is sent to Blue Yonder through the connector. Blue Yonder ensures that the request is compliant with business rules and the request is created. Eden sees and approves the request in Blue Yonder, and the approval is synced to Teams. (Eden can also see and approve the request in Shifts). Alex is notified in Teams that his request is approved and views his updated schedule.
 
-Alex wants to swap a shift with a coworker. In Shifts, Alex sees a list of all shifts that are eligible for a swap based on business rules in Blue Yonder. Alex chooses a shift that's currently assigned to Sasha. Sasha is notified in Teams on their mobile device and accepts the swap request. Eden sees and approves the request in Shifts, and the approval is synced to Blue Yonder. (Eden can also see and approve the request in Blue Yonder). Alex and Sasha are notified in Teams, and view their updated schedules.
+Alex wants to swap a shift with a coworker. In Shifts, Alex sees a list of all shifts that are eligible for a swap based on business rules in Blue Yonder. Alex chooses a shift that's currently assigned to Gena. Gena is notified in Teams on her mobile device and accepts the swap request. Eden sees and approves the request in Shifts, and the approval is synced to Blue Yonder. (Eden can also see and approve the request in Blue Yonder). Alex and Gena are notified in Teams, and view their updated schedules.
 
 #### Set up a connection
 
@@ -92,7 +92,7 @@ To learn more, go to https://connect.zebra.com/microsoft-connectors.
 
 Open-source Shifts connectors are community-driven integrations built on [Shifts Graph APIs](/graph/api/resources/shift). The following open-source connectors are available:
 
-- Kronos-to-Teams WFC on premises
+- Kronos-to-Teams WFC on-premises
 - JDA-to-Teams Shifts connector (for Blue Yonder version 2017 to 2020.2)
 
 Each connector comes with detailed deployment and configuration guidance. They include Azure Resource Manager (ARM) deployment scripts that allow you to host all necessary services in Microsoft Azure. The source code and deployment scripts are available for download in a [GitHub repository](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors). You can deploy as is or customize or extend to meet your needs.
