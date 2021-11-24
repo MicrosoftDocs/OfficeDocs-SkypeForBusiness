@@ -25,25 +25,25 @@ appliesto:
 
 # Configure SIP Gateway
 
-This article explains how to configure SIP Gateway so that your organization can use compatible SIP devices with Microsoft Teams. To find out what SIP Gateway can do for your organization and what hardware, software, and licenses are required for it, read [Plan for SIP Gateway](sip-gateway-plan.md).
+This article explains how to configure SIP Gateway so that your organization can use compatible SIP devices with Microsoft Teams. To find out what SIP Gateway can do for your organization and what hardware, software, and licenses your organization needs for it, read [Plan for SIP Gateway](sip-gateway-plan.md).
 
 Before you can configure SIP Gateway, do the following:
 
-- **Reset SIP devices to factory default settings.** You or your users must reset each SIP device used with SIP Gateway to its factory default settings. To find out how to do that, see the manufacturer’s instructions.
+- **Reset SIP devices to factory default settings.** You or your organization's users must reset each SIP device used with SIP Gateway to its factory default settings. To find out how to do that, see the manufacturer’s instructions.
 
 - **Open your firewall to Microsoft 365 and Teams.** Open your network's firewall to Microsoft 365 and Teams traffic as described in [Office 365 URLs and IP address ranges](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges).
 
-- **Make sure the SIP devices are not behind a proxy.** Ensure that http/s traffic bypasses any corporate http proxy.
+- **Make sure the SIP devices are not behind a proxy.** Ensure that http/s traffic bypasses any corporate http/s proxy.
 
-- **Open the UDP ports.** You must also open the UDP ports in the range 49152 to 53247 and TCP port 5061 for IP range 52.112.0.0/14 to 52.120.0.0/14.
+- **Open the UDP ports.** Open UDP ports in the range 49152 to 53247 and TCP port 5061 for IP range 52.112.0.0/14 to 52.120.0.0/14.
 
-The following sections describe the tasks that you must perform as an administrator to configure SIP Gateway.
+The following sections describe the tasks you must perform as an administrator to configure SIP Gateway.
 
-1. [Verify that SIP Gateway is available for your organization](#verify-that-sip-gateway-is-available-for-your-tenant).
+- [Verify that SIP Gateway is available for your organization](#verify-that-sip-gateway-is-available-for-your-tenant).
 
-2. [Enable SIP Gateway for the users in your organization](#enable-sip-gateway-for-the-users-in-your-tenant).
+- [Enable SIP Gateway for the users in your organization](#enable-sip-gateway-for-the-users-in-your-tenant).
 
-3. [Set the SIP Gateway provisioning server URL](#for-each-sip-device-set-the-sip-gateway-provisioning-server-url).
+- [Set the SIP Gateway provisioning server URL](#for-each-sip-device-set-the-sip-gateway-provisioning-server-url).
 
 This article also describes how to:
 
@@ -80,7 +80,7 @@ To enable SIP Gateway in the Teams admin center, follow these steps:
 
 ### By using PowerShell
 
-You can also enable SIP Gateway by using the PowerShell [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) cmdlet. To enable users for SIP devices, select a policy, and set the `AllowSIPDevicesCalling` attribute to `$true`. The default value is `$false`, so users will not be able to use their SIP devices unless you enable them.
+You can also enable SIP Gateway by using the PowerShell [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) cmdlet. To enable users for SIP devices, select a policy, and set the `-AllowSIPDevicesCalling` attribute to `True`. The default value is `False`, so users will not be able to use their SIP devices unless you enable them.
 
 
 ## Set the SIP Gateway provisioning server URL
@@ -93,9 +93,9 @@ For each SIP device, set one of the following SIP Gateway provisioning server UR
 - Americas: `http://noam.ipp.sdg.teams.microsoft.com`
 - APAC: `http://apac.ipp.sdg.teams.microsoft.com`
 
-Add SIP devices to your Teams organization by configuring the above SIP Gateway provisioning server URL in your DHCP server. To learn more about DHCP server, see [Deploy and manage DHCP](https://docs.microsoft.com/learn/modules/deploy-manage-dynamic-host-configuration-protocol) The devices in your organization will be routed to the SIP Gateway provisioning server. Successfully provisioned SIP phones will display the Teams logo and a soft button for sign-in.
+Add SIP devices to your Teams organization by configuring the above SIP Gateway provisioning server URL in your DHCP server. To learn more about DHCP server, see [Deploy and manage DHCP](https://docs.microsoft.com/learn/modules/deploy-manage-dynamic-host-configuration-protocol). The devices in your organization will be routed to the SIP Gateway provisioning server. Successfully provisioned SIP phones will display the Teams logo and a soft button for sign-in.
 
-Also update each SIP device's firmware if it's required. That will push the default configuration and SIP Gateway user interface to the device. To find out the required firmware version for SIP devices, refer to [Plan for SIP Gateway](sip-gateway-plan.md).
+Also update each SIP device's firmware if it's required. That will push the default configuration and SIP Gateway user interface to the device. To find out the required firmware version for SIP devices, see [Plan for SIP Gateway](sip-gateway-plan.md).
 
 ### Remote users
 
@@ -278,7 +278,7 @@ Microsoft Teams Direct Routing only supports IPv4. The Microsoft Teams service a
 
 ## Emergency calling
 
-[Disclaimer about emergency calling]
+**[Disclaimer about emergency calling]**
 
 ## Report problems to Microsoft
 
