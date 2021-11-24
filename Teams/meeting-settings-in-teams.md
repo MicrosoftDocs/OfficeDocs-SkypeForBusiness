@@ -28,7 +28,7 @@ description: Learn how to manage settings for Teams meetings that users schedule
 
 As an admin, you use Teams meetings settings to control whether anonymous users can join Teams meetings, customize meeting invitations, and if you want to enable Quality of Service (QoS), set port ranges for real-time traffic. These settings apply to all Teams meetings that users schedule in your organization. You manage these settings from **Meetings** > **Meeting settings** in the Microsoft Teams admin center.
 
-As of November 2021, admins can also control whether specific users or groups of users can let anonymous users join the meetings they organize. This per-organizer policy is more restrictive than and overrides the organization-wide anonymous user settings below that admins manage in the Teams admin center.
+Through a per-organizer policy setting, admins now can control whether specific users or groups of users can let anonymous users join the meetings they organize. The per-organizer and organization-wide policy settings both control anonymous join, and the more restrictive takes effect.
 
 > [!Important]
  > **-DisableAnonymousJoin** is the organization-wide policy setting. It will be deprecated in the future, and then the per-organizer policy will be the only way to control anonymous join.
