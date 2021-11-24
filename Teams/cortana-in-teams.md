@@ -90,17 +90,17 @@ You can control whether Cortana in Teams is enabled for your device by using a s
 Making changes at the device level is available only if Cortana is enabled at the tenant level. 
 
 At the device level, you can configure Cortana to be used in two different ways. You can enable either option, or both at the same time: 
-- by tapping on a microphone, which is called Cortana _Push to talk_
-- by saying "Hey, Cortana", which is called _Cortana Voice Activation_
+- By tapping on a microphone, which is called Cortana _Push to talk_
+- By saying "Hey, Cortana", which is called _Cortana Voice Activation_
 
-Cortana _Push to talk_ is enabled by default if your device is set up to use locale en-us. [Learn More](/MicrosoftTeams/rooms/console#to-apply-your-desired-language). Cortana icon will displace the _Present_ button under the _More…_ menu in your Teams Room console. To disable Cortana _Push to talk_ use PowerShell. [Learn More](/powershell/module/skype/new-csteamscortanapolicy?view=skype-ps#example-1).
+Cortana _Push to talk_ is enabled by default if your device is set up to use locale en-us. [Learn More](/MicrosoftTeams/rooms/console#to-apply-your-desired-language). Cortana icon will displace the _Present_ button under the _More…_ menu in your Teams Room console. To disable Cortana _Push to talk_, use PowerShell. [Learn More](/powershell/module/skype/new-csteamscortanapolicy?view=skype-ps#example-1).
 
 To enable Cortana _Voice Activation_, these conditions must be met:
-- a Cortana certified device must be connected to your Teams Room. You can find a list of certified devices at the end of this article.
-- the Teams Room must be set up to use locale en-us. More languages will be available at a later date.
-- one of the following configuration changes must be made:
-  - turn on the feature in Teams admin center [Learn More](/microsoftteams/rooms/rooms-manage).
-  - add the following XML attribute to the SkypeSettings XML file:
+- A Cortana certified device must be connected to your Teams Room. You can find a list of certified devices at the end of this article.
+- The Teams Room must be set up to use locale en-us. More languages will be available at a later date.
+- One of the following configuration changes must be made:
+  - Turn on the feature in Teams admin center [Learn More](/microsoftteams/rooms/rooms-manage).
+  - Add the following XML attribute to the SkypeSettings XML file:
 
     ```xml
     <SkypeSettings>  
