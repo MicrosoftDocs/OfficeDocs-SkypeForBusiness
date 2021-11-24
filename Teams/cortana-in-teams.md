@@ -93,11 +93,11 @@ At the device level, you can configure Cortana to be used in two different ways.
 - by tapping on a microphone, which is called Cortana _Push to talk_
 - by saying "Hey, Cortana", which is called _Cortana Voice Activation_
 
-Cortana _Push to talk_ is enabled by default if your device is set up to use locale en-us. [Learn More.](/MicrosoftTeams/rooms/console#to-apply-your-desired-language)  Cortana icon will displace the _Present_ button under the _More…_ menu in your Teams Room console. To disable Cortana _Push to talk_ use PowerShell.[Learn More.](/powershell/module/skype/new-csteamscortanapolicy?view=skype-ps#example-1)
+Cortana _Push to talk_ is enabled by default if your room is set up with any of the following languages: en-au (Australia), en-ca (Canada), en-gb (United Kingdom), en-in (India), en-us (United States). [Learn More.](/MicrosoftTeams/rooms/console#to-apply-your-desired-language) Cortana icon will displace the _Present_ button under the _More…_ menu in your Teams Room console. To disable Cortana _Push to talk_ use PowerShell.[Learn More.](/powershell/module/skype/new-csteamscortanapolicy?view=skype-ps#example-1)
 
 To enable Cortana _Voice Activation_, these conditions must be met:
 - a Cortana certified device must be connected to your Teams Room. You can find a list of certified devices at the end of this article.
-- the Teams Room must be set up to use locale en-us. More languages will be available at a later date.
+- the Teams Room must be set up with any of the following languages: en-au (Australia), en-ca (Canada), en-gb (United Kingdom), en-in (India), en-us (United States). More languages will be available at a later date.
 - one of the following configuration changes must be made:
   - turn on the feature in Teams admin center [Learn More.](/microsoftteams/rooms/rooms-manage)
   - add the following XML attribute to the SkypeSettings XML file:
