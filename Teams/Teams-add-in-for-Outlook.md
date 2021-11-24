@@ -126,6 +126,9 @@ Learn more about [meetings and calling in Microsoft Teams](https://support.offic
 
 Use the following steps to troubleshoot issues with the Teams Meeting add-in.
 
+> [!NOTE]
+> This scenario can also be managed using the [command-line version of Microsoft Support and Recovery Assistant](/office365/troubleshoot/administration/sara-command-line-version) with SaRAcmd.exe -S TeamsAddinScenario -AcceptEula -CloseOutlook.
+
 ### Teams Meeting add-in in Outlook for Windows does not show
 
 If you cannot get the Teams Meeting add-in for Outlook to install, try these troubleshooting steps.
