@@ -38,8 +38,8 @@ You can implement policies in the following ways, which affect the meeting exper
 |Implementation type  |Description  |
 |---------|---------|
 |Per-organizer    |When you implement a per-organizer policy, all meeting participants inherit the policy of the organizer. For example, **Automatically admit people** is a per-organizer policy and controls whether users join the meeting directly or wait in the lobby for meetings scheduled by the user who is assigned the policy.          |
-|Per-user    |When you implement a per-user policy, only the per-user policy applies to restrict certain features for the organizer and/or meeting participants. For example, **Allow Meet now in channels** is a per-user policy.     |
-|Per-organizer and per-user     |When you implement a combination of a per-organizer and per-user policy, certain features are restricted for meeting participants based on their policy and the organizer's policy. For example, **Allow cloud recording** is a per-organizer and per-user policy. Turn on this setting to allow the meeting organizer and participants to start and stop a recording.
+|Per-user    |When you implement a per-user policy, only the per-user policy applies to restrict certain features for the organizer and/or meeting participants. For example, **Meet now in channels** is a per-user policy.     |
+|Per-organizer and per-user     |When you implement a combination of a per-organizer and per-user policy, certain features are restricted for meeting participants based on their policy and the organizer's policy. For example, **Cloud recording** is a per-organizer and per-user policy. Turn on this setting to allow the meeting organizer and participants to start and stop a recording.
 
 You can edit the settings in the global policy or create and assign one or more custom policies. Users will get the global policy unless you create and assign a custom policy.
 
@@ -58,14 +58,14 @@ For example, say you have a bunch of users and you want to limit the amount of b
 
 Under **Audio & video**:
 
-- Turn off Allow cloud recording.
-- Turn off Allow IP video.
+- Turn off Cloud recording.
+- Turn off IP video.
 
 Under **Content sharing**:
 
 - Disable screen sharing mode.
-- Turn off Allow whiteboard.
-- Turn off Allow shared notes.
+- Turn off Whiteboard.
+- Turn off Shared notes.
 
 Then assign the policy to the users.
 
