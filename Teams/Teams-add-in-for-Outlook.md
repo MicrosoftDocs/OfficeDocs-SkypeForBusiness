@@ -127,7 +127,7 @@ Learn more about [meetings and calling in Microsoft Teams](https://support.offic
 Use the following steps to troubleshoot issues with the Teams Meeting add-in.
 
 > [!NOTE]
-> This scenario can also be managed using the [command-line version of Microsoft Support and Recovery Assistant](https://docs.microsoft.com/en-us/office365/troubleshoot/administration/sara-command-line-version) with SaRAcmd.exe -S TeamsAddinScenario -AcceptEula -CloseOutlook.
+> This scenario can also be managed using the [command-line version of Microsoft Support and Recovery Assistant](/office365/troubleshoot/administration/sara-command-line-version) with SaRAcmd.exe -S TeamsAddinScenario -AcceptEula -CloseOutlook.
 
 ### Teams Meeting add-in in Outlook for Windows does not show
 
@@ -139,7 +139,7 @@ Alternatively, perform the following steps manually:
 
 - Windows 7 users must install the [Update for Universal C Runtime in Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) for the Teams Meeting add-in to work.
 - Check that the user has a Teams Upgrade policy which enables scheduling meetings in Teams. See [Upgrade from Skype for Business to Teams](/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) for more details.
-- Check that the user has a Teams Meeting policy that permits the Outlook Add-in. See [Meeting policy settings - General](./meeting-policies-in-teams-general.md#allow-the-outlook-add-in) for more details.
+- Check that the user has a Teams Meeting policy that permits the Outlook Add-in. See [Meeting policy settings - General](./meeting-policies-in-teams-general.md#outlook-add-in) for more details.
 - Ensure the user has the Teams desktop client installed. The meeting add-in will not be installed when only using the Teams web client.
 - Ensure the user has Outlook 2013 or later installed.
 - Make sure the user has permission to execute regsvr32.exe.
