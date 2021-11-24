@@ -25,7 +25,7 @@ Shifts connectors enable you to integrate Shifts, the schedule management tool i
 
 Connecting your WFM system to Teams empowers your frontline workforce to manage schedules more effectively and streamlines everyday processes for higher engagement and productivity. Your frontline workers have one place for their scheduling, communication, and collaboration needs to get work done, from anywhere, on any device.
 
-We offer managed and open-source Shifts connectors. In this article, you'll learn about Shifts connectors and how they work.
+We offer managed and open-source Shifts connectors. This article gives you an overview of Shifts connectors and how they work.
 
 ## How Shifts connectors work
 
@@ -59,9 +59,9 @@ Frontline workers can:
 
 Eden, a manager, publishes a schedule in Blue Yonder, which is synced to Shifts in Teams through the connector. Alex, a staff member, gets notified in Teams on his mobile device, and views his schedule and assigned shifts.
 
-Alex needs to take some time off and requests a day off using Shifts. The request is sent to Blue Yonder through the connector. Blue Yonder ensures that the request is compliant with business rules and the request is created. Eden sees and approves the request in Blue Yonder. The approval is synced to Teams. (Eden can also see and approve the request in Shifts). Alex is notified in Teams that his request is approved, and views his updated schedule.
+Alex needs to take some time off and requests a day off using Shifts. The request is sent to Blue Yonder through the connector. Blue Yonder ensures that the request is compliant with business rules and the request is created. Eden sees and approves the request in Blue Yonder, and the approval is synced to Teams. (Eden can also see and approve the request in Shifts). Alex is notified in Teams that his request is approved and views his updated schedule.
 
-Alex wants to swap a shift with a coworker. In Shifts, Alex sees a list of all shifts that are eligible for a swap based on business rules in Blue Yonder. Alex chooses a shift that's currently assigned to Sascha. Sascha is notified in Teams, and accepts the swap request. Eden sees and approves the request in Shifts, and the approval is synced to Blue Yonder. (Eden can also see and approve the request in Blue Yonder). Alex and Sascha are notified in Teams, and view their updated schedules.
+Alex wants to swap a shift with a coworker. In Shifts, Alex sees a list of all shifts that are eligible for a swap based on business rules in Blue Yonder. Alex chooses a shift that's currently assigned to Sasha. Sasha is notified in Teams and accepts the swap request. Eden sees and approves the request in Shifts, and the approval is synced to Blue Yonder. (Eden can also see and approve the request in Blue Yonder). Alex and Sasha are notified in Teams, and view their updated schedules.
 
 #### Set up a connection
 
