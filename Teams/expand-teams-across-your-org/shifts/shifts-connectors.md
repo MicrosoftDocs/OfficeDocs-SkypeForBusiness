@@ -61,7 +61,7 @@ Eden, a manager, publishes a schedule in Blue Yonder, which is synced to Shifts 
 
 Alex needs to take some time off and requests a day off using Shifts. The request is sent to Blue Yonder through the connector. Blue Yonder ensures that the request is compliant with business rules and the request is created. Eden sees and approves the request in Blue Yonder, and the approval is synced to Teams. (Eden can also see and approve the request in Shifts). Alex is notified in Teams that his request is approved and views his updated schedule.
 
-Alex wants to swap a shift with a coworker. In Shifts, Alex sees a list of all shifts that are eligible for a swap based on business rules in Blue Yonder. Alex chooses a shift that's currently assigned to Sasha. Sasha is notified in Teams and accepts the swap request. Eden sees and approves the request in Shifts, and the approval is synced to Blue Yonder. (Eden can also see and approve the request in Blue Yonder). Alex and Sasha are notified in Teams, and view their updated schedules.
+Alex wants to swap a shift with a coworker. In Shifts, Alex sees a list of all shifts that are eligible for a swap based on business rules in Blue Yonder. Alex chooses a shift that's currently assigned to Sasha. Sasha is notified in Teams on their mobile device and accepts the swap request. Eden sees and approves the request in Shifts, and the approval is synced to Blue Yonder. (Eden can also see and approve the request in Blue Yonder). Alex and Sasha are notified in Teams, and view their updated schedules.
 
 #### Set up a connection
 
