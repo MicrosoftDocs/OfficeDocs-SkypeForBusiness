@@ -61,13 +61,13 @@ This article also describes how to:
 
 ## Enable SIP Gateway for the users in your organization
 
-There are two ways you can enable SIP Gateway for your organization: by using the Teams admin center or by using the Set-CsTeamsCallingPolicy PowerShell cmdlet.
+You can enable SIP Gateway for your organization in either of two ways: by using the Teams admin center, or by using a PowerShell cmdlet.
 
 ### By using Teams admin center
 
 To enable SIP Gateway in the Teams admin center, follow these steps:
 
-1. Go to the [Teams admin center](https://admin-teams.microsoft.net/)
+1. Go to the [Teams admin center](https://admin.teams.microsoft.net/)
 
 2. At the left, under **Voice**, select **Calling policies**.
 
@@ -80,7 +80,7 @@ To enable SIP Gateway in the Teams admin center, follow these steps:
 
 ### By using PowerShell
 
-You can also enable SIP Gateway by using the [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) cmdlet. To enable users for SIP devices, select a policy, and set the `AllowSIPDevicesCalling` attribute to `$true`. The default value is `$false`, so users will not be able to use their SIP devices unless you enable them.
+You can also enable SIP Gateway by using the PowerShell [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) cmdlet. To enable users for SIP devices, select a policy, and set the `AllowSIPDevicesCalling` attribute to `$true`. The default value is `$false`, so users will not be able to use their SIP devices unless you enable them.
 
 
 ## Set the SIP Gateway provisioning server URL
@@ -91,9 +91,9 @@ For each SIP device, set one of the following SIP Gateway provisioning server UR
 
 - EMEA: `http://emea.ipp.sdg.teams.microsoft.com`
 - Americas: `http://noam.ipp.sdg.teams.microsoft.com`
-- APAC: `http://apac/ipp.sdg.teams.microsoft.com`
+- APAC: `http://apac.ipp.sdg.teams.microsoft.com`
 
-Add SIP devices to your Teams organization by configuring the above SIP Gateway provisioning server URL in your DHCP server. The devices in your organization will be routed to the SIP Gateway provisioning server. Successfully provisioned SIP phones will display the Teams logo and a soft button for sign-in.
+Add SIP devices to your Teams organization by configuring the above SIP Gateway provisioning server URL in your DHCP server. To learn more about DHCP server, see [Deploy and manage DHCP](https://docs.microsoft.com/learn/modules/deploy-manage-dynamic-host-configuration-protocol) The devices in your organization will be routed to the SIP Gateway provisioning server. Successfully provisioned SIP phones will display the Teams logo and a soft button for sign-in.
 
 Also update each SIP device's firmware if it's required. That will push the default configuration and SIP Gateway user interface to the device. To find out the required firmware version for SIP devices, refer to [Plan for SIP Gateway](sip-gateway-plan.md).
 
@@ -122,21 +122,20 @@ Conditional Access is an Azure Active Directory (Azure AD) feature that helps en
     - West US: 40.112.144.212
 -   EMEA region:
     - North EU: 40.112.71.149
-    - North EU: 40.112.71.149
     - West EU: 40.113.112.67
 -   APAC region:
-    - APAC cluster 1: <IP address>
-    - APAC cluster 2: <IP address>
+    - Australia East: 20.92.120.71
+    - Australia Southeast: 13.73.115.90
 
 For more information, see [IP address ranges](https://docs.microsoft.com/azure/active-directory/conditional-access/location-condition#ip-address-ranges).
 
 ## Provision and enroll SIP devices
 > [!NOTE]
-> A SIP device must be onboarded to SIP Gateway before it can be provisioned and enrolled.
+> A SIP device must be onboarded to SIP Gateway before it can be enrolled.
 
 To streamline your tasks, you can enroll SIP devices in the Teams admin center either one at a time or in batches. Here's how:
 
-1. Log in to the [**Teams admin center**](https://admin.teams.microsoft.net/).
+1. Log in to the [**Teams admin center**](https://admin.teams.microsoft.com).
 
 2. Select **Teams devices** > **SIP devices**.
 
@@ -184,7 +183,7 @@ To streamline your tasks, you can enroll SIP devices in the Teams admin center e
 
 Only local sign-in is supported for users’ personal devices. To sign out a device from the Admin center, follow these steps:
 
-1. Log in to the [**Teams admin center**](https://admin.teams.microsoft.net/).
+1. Log in to the [**Teams admin center**](https://admin.teams.microsoft.com).
 
 2. Select **Teams devices** > **SIP devices**.
 
@@ -212,7 +211,7 @@ To sign out, a device user can:
 
 To sign out a device on the Teams admin center:
 
-1. Log in to the [**Teams admin center**](https://admin.teams.microsoft.net/).
+1. Log in to the [**Teams admin center**](https://admin.teams.microsoft.com).
 
 2. Select **Teams devices** > **SIP devices**.
 
@@ -225,13 +224,13 @@ To sign out a device on the Teams admin center:
 
 You can view and monitor your SIP device inventory in the Teams admin center after the devices' users sign in at least once. Here's how:
 
-1. Log in to the [Teams admin center](https://admin-teams.microsoft.net/).
+1. Log in to the [Teams admin center](https://admin.teams.microsoft.net/).
 
 2. Select **Teams devices** > **SIP devices**. All signed-in SIP devices are listed on the right.
 
 ## Restart a SIP device
 
-1. Log in to the [Teams admin center](https://admin-teams.microsoft.net/).
+1. Log in to the [Teams admin center](https://admin.teams.microsoft.com).
 
 2. Select **Teams devices** > **SIP devices**. 
 
@@ -272,6 +271,10 @@ How to set Japanese for Cisco phones:
 >   - Poly VVX 150, VVX 201
 >   - Cisco CP-6821, CP-7811, CP-7821, CP-7841, CP-7861
 >   - Voice mail softkey label is hardcoded with **VM** text across all languages for Poly VVX because of a limitation of string length.
+
+## Microsoft Teams and IPv6
+
+Microsoft Teams Direct Routing only supports IPv4. The Microsoft Teams service and client support both IPv4 and IPv6. If you want to control communications to Microsoft Teams, use the IP address ranges in [Microsoft 365 URLs and IP address ranges](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges).
 
 ## Emergency calling
 
