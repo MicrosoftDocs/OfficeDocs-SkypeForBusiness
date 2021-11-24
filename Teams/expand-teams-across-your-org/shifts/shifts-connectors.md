@@ -80,15 +80,11 @@ The Reflexis Shifts connector for Microsoft Teams, currently in private preview,
 
 Frontline managers can:
 
-- 
-- 
-- 
+
 
 Frontline workers can:
 
-- 
-- 
-- 
+
 
 To learn more, go to https://connect.zebra.com/microsoft-connectors.
 
