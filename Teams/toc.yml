@@ -1484,11 +1484,11 @@ items:
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
             - name: Shifts connectors
               href: expand-teams-across-your-org/shifts/shifts-connectors.md
-            - name: Use the Shifts connector wizard to connect your workforce management system
+            - name: Shifts connector wizard
               href: expand-teams-across-your-org/shifts/shifts-connector-wizard.md
-            - name: Use PowerShell to connect Shifts to Blue Yonder
+            - name: Use PowerShell to set up a connection to Blue Yonder
               href: expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup.md
-            - name: Use PowerShell to manage your Shifts connection to Blue Yonder
+            - name: Use PowerShell to manage your Shifts to Blue Yonder connection
               href: expand-teams-across-your-org/shifts/shifts-connector-powershell-manage.md
         - name: Bookings in Teams
           items: 

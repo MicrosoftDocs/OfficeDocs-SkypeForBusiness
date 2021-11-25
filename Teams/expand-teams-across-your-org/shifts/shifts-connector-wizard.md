@@ -21,9 +21,9 @@ appliesto:
 
 ## Overview
 
-The Shifts connector wizard in the Microsoft 365 admin center makes it easy to integrate the Shifts app in Microsoft Teams with your workforce management (WFM) system. After a connection is set up, your frontline workers can seamlessly view and manage their schedules in your WFM system from within Shifts.
+The Shifts connector wizard in the Microsoft 365 admin center makes it easy to integrate the Shifts app in Microsoft Teams with your workforce management (WFM) system. After you set up a connection, your frontline workers can seamlessly view and manage their schedules in your WFM system from within Shifts.
 
-The wizard configures the Shifts connector, creates a connection to your WFM system, and applies the sync settings and team mappings that you choose. Sync settings determine the schedule information that's synced between your WFM system and Shifts. Team mappings define the relationship between your WFM sites and teams in Teams. You can map to existing teams and new teams, which you can create in the wizard.
+The wizard configures the Shifts connector, creates a connection to your WFM system, and applies the sync settings and team mappings that you choose. Sync settings determine the schedule information that's synced between your WFM system and Shifts. Team mappings define the sync relationship between your WFM sites and teams in Teams. You can map to existing teams and new teams, which you can create in the wizard.
 
 You can set up multiple connections, each with different sync settings. For example, if your organization has multiple locations with different schedule requirements, create a connection with unique sync settings for each location. Keep in mind that a WFM site can only be mapped to one team at any given time. If a WFM site is already mapped to a team, it can't be mapped to another team.
 
@@ -62,7 +62,7 @@ Use PowerShell to remove schedules from teams.
 
     Schedule data will be removed for the date and time range that you specify.
 
-To learn more, see Remove-CsTeamsShiftsScheduleRecord.[ADDLINK to PowerShell cmdlet]
+To learn more, see Remove-CsTeamsShiftsScheduleRecord.
 
 ## Run the wizard
 
@@ -74,7 +74,7 @@ To learn more, see Remove-CsTeamsShiftsScheduleRecord.[ADDLINK to PowerShell cmd
 
 1. On the Sync settings page, you choose the information to sync from Blue Yonder to Shifts, whether Shifts users can make changes to the data, and the sync frequency.
     1. Enter your Microsoft 365 system account.
-    2. Choose who receives email notifications about this connection. You can add individual users and groups. The email notifications contain information about connection setup status. Use this information to troubleshoot any errors that may occur.
+    2. Choose who receives email notifications about this connection. You can add individual users and groups. The email notifications contain information about connection setup status and any issues or errors that may occur after the connection is set up. 
     3. Under **Requests**, choose the types of requests that Shifts users can see and create.
     4. Under **Schedule and shifts**, choose the data that Shifts users can see or change.
     5. Under **Sync frequency**, specify how often data is synced between Blue Yonder and Shifts.
