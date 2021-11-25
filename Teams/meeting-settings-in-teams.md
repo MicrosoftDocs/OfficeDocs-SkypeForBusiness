@@ -54,7 +54,7 @@ You must be a Teams admin to make these changes. See [Use Teams administrator ro
 
 ### Using PowerShell to configure per-organizer policy
 
-Admins can now control whether specific users or groups of users can let anonymous users join the meetings they organize. This new per-organizer policy is controlled by using the **-AllowAnonymousUsersToJoinMeeting** parameter in [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps). This comes with Teams PowerShell version 2.6.0 and later.
+Admins can now control whether specific users or groups of users can let anonymous users join the meetings they organize. This new per-organizer policy is controlled by using the **-AllowAnonymousUsersToJoinMeeting** parameter in [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy). This comes with Teams PowerShell version 2.6.0 and later.
 
 You can use either policy, organization-wide or per-organizer, to manage anonymous join. We recommend that you implement the per-organizer policy. The organization-wide policy setting will be deprecated in the future and the per-organizer policy will be the only way to control anonymous join.
 
@@ -142,7 +142,7 @@ If you're using Quality of Service (QoS) to prioritize network traffic, you can 
 
     ![Screenshot of the network settings for meetings in the admin center.](media/meeting-settings-network.png "Screenshot of the network settings for Teams meetings in the Microsoft Teams admin center")
 
-    - To allow DSCP markings to be used for QoS, turn on **Insert Quality of Service (QoS) markers for real-time media traffic**. You only have the option of using markers or not; you can't set custom markers for each traffic type. See [Select a QoS implementation method](QoS-in-Teams.md#select-a-qos-implementation-method) for more on DSCP markers.
+    - To allow DSCP markings to be used for QoS, turn on **Quality of Service (QoS) markers for real-time media traffic**. You only have the option of using markers or not; you can't set custom markers for each traffic type. See [Select a QoS implementation method](QoS-in-Teams.md#select-a-qos-implementation-method) for more on DSCP markers.
 
         > [!IMPORTANT]
         > Note that enabling QoS is only performed on the endpoints for tagging packets leaving the client. We still recommend applying matching QoS rules on all internal network devices for incoming traffic.
