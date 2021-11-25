@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 
+description: Learn about Shifts connectors and how to use them to connect Shifts to your workforce management system. 
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration

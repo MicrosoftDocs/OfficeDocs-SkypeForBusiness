@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Integrate Shifts with your Blue Yonder workforce management system using PowerShell.
+description: Learn how to use PowerShell to integrate Shifts with your Blue Yonder workforce management system.
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
