@@ -41,7 +41,7 @@ Managed Shifts connectors are connectors developed in collaboration with our par
 
 The Teams Shifts connector for Blue Yonder is hosted and managed by Microsoft. With this connector, you can integrate Shifts with Blue Yonder 2020.3 and later versions to manage your schedules and keep them up to date.
 
-:::image type="content" source="../../media/shifts-connector-blue-yonder.png" alt-text="shifts connector" lightbox="../../media/shifts-connector-blue-yonder.png":::
+:::image type="content" source="../../media/shifts-connector-blue-yonder.png" alt-text="Screenshot showing a swap request in Shifts on a mobile device,request approval in Teams on desktop, and a schedule in Blue Yonder." lightbox="../../media/shifts-connector-blue-yonder.png":::
 
 Frontline managers can:
 
@@ -80,7 +80,7 @@ After a connection is set up, you can use PowerShell to update and change connec
 
 The Reflexis Shifts connector for Microsoft Teams, currently in private preview, is hosted and managed by Zebra. With this connector, you can integrate Shifts with the Reflexis WFM system to manage your schedules and keep them up to date.
 
-:::image type="content" source="../../media/shifts-connector-reflexis.png" alt-text="shifts connector" lightbox="../../media/shifts-connector-reflexis.png":::
+:::image type="content" source="../../media/shifts-connector-reflexis.png" alt-text="Screenshot showing list of shifts on a mobile device and a schedule in Reflexis" lightbox="../../media/shifts-connector-reflexis.png":::
 
 Frontline managers can:
 
