@@ -1,8 +1,8 @@
 ---
 title: "Customize user account properties for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mathavale
+author: v-mathavale
 manager: serdars
 audience: ITPro
 ms.topic: article
