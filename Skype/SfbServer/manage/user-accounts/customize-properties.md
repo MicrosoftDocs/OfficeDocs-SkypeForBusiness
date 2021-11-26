@@ -57,16 +57,16 @@ Skype for Business Server](../../deploy/deploy-enterprise-voice/enable-users-for
  
 7. In **Telephony**, do the following:
  
- 1. To disable audio and video calls for the user, select **Audio/Video disabled** in the dropdown list.
+    1. To disable audio and video calls for the user, select **Audio/Video disabled** in the dropdown list.
  
- 2. To enable PC-to-PC audio communications for the user, but not remote call control or Enterprise Voice, select **PC-to-PC only** in the dropdown list. Specify a value for **Line URI** for the telephone that the user uses for PC-to-PC audio communications.
+    2. To enable PC-to-PC audio communications for the user, but not remote call control or Enterprise Voice, select **PC-to-PC only** in the dropdown list. Specify a value for **Line URI** for the telephone that the user uses for PC-to-PC audio communications.
  
- 3. To route the user's phone calls by using the Skype for Business infrastructure in accordance with the class of service policy, including PC-to-PC audio communication, select **Enterprise Voice** in the dropdown list. In **Line URI**, specify the telephone number for Enterprise Voice. In **Dial plan policy** and **Voice policy**, specify the appropriate policies for the user. To specify the normalization rules for translating phone numbers dialed by the user to the E.164 format, select the appropriate location profile in the **Location policy** dropdown list.
+    3. To route the user's phone calls by using the Skype for Business infrastructure in accordance with the class of service policy, including PC-to-PC audio communication, select **Enterprise Voice** in the dropdown list. In **Line URI**, specify the telephone number for Enterprise Voice. In **Dial plan policy** and **Voice policy**, specify the appropriate policies for the user. To specify the normalization rules for translating phone numbers dialed by the user to the E.164 format, select the appropriate location profile in the **Location policy** dropdown list.
  
- 4. To enable remote call control, which enables users to control their desktop phone line from Skype for Business Server to make PC-to-PC calls and PC-to-phone calls, select **Remote call control** in the dropdown list. In **Line URI**, specify the telephone number for remote call control. The user must have a desktop phone and private branch exchange (PBX) connection for call routing.
+    4. To enable remote call control, which enables users to control their desktop phone line from Skype for Business Server to make PC-to-PC calls and PC-to-phone calls, select **Remote call control** in the dropdown list. In **Line URI**, specify the telephone number for remote call control. The user must have a desktop phone and private branch exchange (PBX) connection for call routing.
 
 > [!NOTE]
-> The new Control Panel is not available for Skype for Business Server 2015
+> The new Control Panel is not available for Skype for Business Server 2015.
 
 ### Configure telephony options for specific users using legacy Control Panel
  
@@ -127,7 +127,7 @@ to move users with cmdlets. Also, the filter functionality works with Skype for 
  and the associated data are moved. 
 
 > [!NOTE]
-> The new Control Panel is not available for Skype for Business Server 2015
+> The new Control Panel is not available for Skype for Business Server 2015.
 
 ### Move selected users to a different server or pool using legacy Control Panel
 

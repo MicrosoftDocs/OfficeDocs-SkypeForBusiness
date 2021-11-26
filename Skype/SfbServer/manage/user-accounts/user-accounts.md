@@ -143,9 +143,8 @@ You can use the following procedure to disable a previously enabled user account
 4. On the **Users** page, in the **Search** box, type all or the first portion of the display name and press **Enter**.
 
 5. In the table, double-click the user account that you want to disable or re-enable.
-
-    - In the panel that appears, to temporarily disable the user account for Skype for Business Server, select **Disable User**. In the panel that appears, click **Save**.
-    - To re-enable the user account for Skype for Business Server, in the panel, select **Re-enable User**. In the next panel that appears, click **Save**.
+    1. In the panel that appears, to temporarily disable the user account for Skype for Business Server, select **Disable User**. In the panel that appears, click **Save**.
+    2. To re-enable the user account for Skype for Business Server, in the panel, select **Re-enable User**. In the next panel that appears, click **Save**.
 
 > [!NOTE]
 > The new Control Panel is not available for Skype for Business Server 2015.
@@ -163,10 +162,8 @@ You can use the following procedure to disable a previously enabled user account
 5. In the table, click the user account that you want to disable or re-enable.
 
 6. On the **Action** menu, do one of the following:
-
-   - To temporarily disable the user account for Skype for Business Server, select **Temporarily disable for Lync Server**.
-
-   - To enable the user account for Skype for Business Server, select **Re-enable for Lync Server**.
+   1. To temporarily disable the user account for Skype for Business Server, select **Temporarily disable for Lync Server**.
+   2. To enable the user account for Skype for Business Server, select **Re-enable for Lync Server**.
   
 ### Disable or re-enable user accounts using Windows PowerShell
 
@@ -218,7 +215,7 @@ Use the following procedure to disable Enterprise Voice for a user account that 
 The user is now unable to use the Enterprise Voice feature. 
 
 > [!NOTE]
-> The new Control Panel is not available for Skype for Business Server 2015
+> The new Control Panel is not available for Skype for Business Server 2015.
 
 ### Disable a user account for Enterprise Voice using legacy Control Panel
 
@@ -266,7 +263,7 @@ You can use the following procedure to remove a previously added user account in
 6. In the panel that appears, click **Remove User**. In the next panel that appears, click **OK**.
 
 > [!NOTE]
-> The new Control Panel is not available for Skype for Business Server 2015
+> The new Control Panel is not available for Skype for Business Server 2015.
 
 ### Remove a user using the legacy Control Panel
 
