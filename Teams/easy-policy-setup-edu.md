@@ -196,34 +196,34 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 |Policy area |Sub-area  |Policy setting  |Primary or Secondary |Higher education |
 |---------|---------|---------|---------|---------|
 |Teams policy   |         |Create private channels         |Off       |On|
-|Meetings policy    |General         |Allow Meet now in channels         |Off      |On|
-|  |        |Allow the Outlook add-in         |Off       |On|
-|  |        |Allow channel meeting scheduling        |Off      |On|
-|  |        |Allow scheduling private meetings       |Off      |On|
-|  |        |Allow meeting registration              |On       |On|
+|Meetings policy    |General         |Meet now in channels         |Off      |On|
+|  |        |Outlook add-in         |Off       |On|
+|  |        |Channel meeting scheduling        |Off      |On|
+|  |        |Private meeting scheduling       |Off      |On|
+|  |        |Meeting registration              |On       |On|
 |  |        |Who can register    |Everyone in the organization      |Everyone in the organization|
-|  |Audio & video        |Allow transcription        |On       |On|
-|  |        |Allow cloud recording         |Off      |On|
+|  |Audio & video        |Transcription        |On       |On|
+|  |        |Cloud recording         |Off      |On|
 |  |        |Mode for IP audio       |Outgoing and incoming audio enabled        |Outgoing and incoming audio enabled|
 |  |        |Mode for IP video         |Outgoing and incoming video enabled     |Outgoing and incoming video enabled|
-|  |       |Allow IP video         |On         |On|
+|  |       |IP video         |On         |On|
 |  |       |Allow NDI streaming         |Off         |Off|
 |  |       |Media bit rate (Kbs)         |50,000         |50,000|
 |  |Content sharing       |Screen sharing mode         |Entire screen         |Entire screen|
 |  |       |Allow a participant to give or request control         |On         |On|
 |  |       |Allow an external participant to give or request control         |On         |On|
-|  |       |Allow PowerPoint sharing        |On         |On|
-|  |       |Allow whiteboard         |On         |On|
-|  |       |Allow shared notes         |On        |On|
+|  |       |PowerPoint sharing        |On         |On|
+|  |       |Whiteboard         |On         |On|
+|  |       |Shared notes         |On        |On|
 |  |Participants & guests       |Let anonymous people start a meeting       |Off         |On|
 |  |       |Roles that have presenter rights in meetings        |EveryoneUserOverride         |EveryoneUserOverride|
 |  |       |Automatically admit people        |EveryoneInCompany|EveryoneInCompany|
 |  |       |Allow dial-in users to bypass the lobby        |Off         |Off|
-|  |       |Allow Meet now in private meetings        |Off         |On|
-|  |       |Enable live captions       |Disabled but user can override         |Disabled but user can override|
-|  |       |Allow chat in meetings         |On         |On|
-|Live events policy  |       |Allow scheduling         |Off         |Off|
-|  |       |Allow transcription for attendees          |On       |On|
+|  |       |Meet now in private meetings        |Off         |On|
+|  |       |Live captions       |Disabled but user can override         |Disabled but user can override|
+|  |       |Chat in meetings         |On         |On|
+|Live events policy  |       |Live events scheduling         |Off         |Off|
+|  |       |Transcription for attendees          |On       |On|
 |  |       |Who can join scheduled live events        |Everyone in organization        |Everyone in organization|
 |  |       |Who can record an event         |Always         |Always|
 |Messaging policy  |       |Owners can delete sent messages         |Off|On|
@@ -231,13 +231,13 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 |  |       |Edit sent messages         |Off         |On|
 |  |       |Read receipts         |User controlled         |User controlled|
 |  |       |Chat         |Off         |On|
-|  |       |Use Giphys in conversations         |Off         |On|
+|  |       |Giphys in conversations         |Off         |On|
 |  |       |Giphy content rating         |Strict        |Strict|
-|  |       |Use Memes in conversations         |On         |On|
-|  |       |Use Stickers in conversations         |On         |On|
-|  |       |Allow URL previews        |On         |On|
+|  |       |Memes in conversations         |On         |On|
+|  |       |Stickers in conversations         |On         |On|
+|  |       |URL previews        |On         |On|
 |  |       |Translate messages         |On         |On|
-|  |       |Allow immersive reader for viewing messages        |On      |On|
+|  |       |Immersive reader for messages        |On      |On|
 |  |       |Send urgent messages using priority notifications  |Off         |On|
 |  |       |Create voice messages         |Allowed in chats and channels         |Allowed in chats and channels|
 |  |       |On mobile devices, display favorite channels above recent chats     |Enabled         |Enabled|
@@ -246,7 +246,7 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 |  |       |Third-party apps         |Allow all apps         |Allow all apps|
 |  |       |Custom apps         |Allow all apps         |Allow all apps|
 |App setup policy  |           |Upload custom apps           |Off         |Off|
-|  |       |Allow user pinning |On         |On|
+|  |       |User pinning |On         |On|
 |  |       |Installed apps         |None         |None|
 |  |       |Pinned apps         |Activity, Calendar, Teams         |Activity, Chats, Teams, Calendar, Calling, File
 |Calling policy  |       |Make private calls         |Off        |On|
@@ -266,34 +266,34 @@ Here's a list of the custom policy definitions assigned to the educators and sta
 |Policy area |Sub-area  |Policy setting  |Primary or Secondary |Higher education |
 |---------|---------|---------|---------|---------|
 |Teams policy   |         |Create private channels         |On       |On|
-|Meetings policy    |General         |Allow Meet now in channels         |On      |On|
-|  |        |Allow the Outlook add-in         |On       |On|
-|  |        |Allow channel meeting scheduling        |On      |On|
-|  |        |Allow scheduling private meetings       |On      |On|
-|  |        |Allow meeting registration              |On       |On|
+|Meetings policy    |General         |Meet now in channels         |On      |On|
+|  |        |Outlook add-in         |On       |On|
+|  |        |Channel meeting scheduling        |On      |On|
+|  |        |Private meeting scheduling       |On      |On|
+|  |        |Meeting registration              |On       |On|
 |  |        |Who can register    |Everyone in the organization      |Everyone in the organization|
-|  |Audio & video        |Allow transcription        |On       |On|
-|  |        |Allow cloud recording         |On      |On|
+|  |Audio & video        |Transcription        |On       |On|
+|  |        |Cloud recording         |On      |On|
 |  |        |Mode for IP audio       |Outgoing and incoming audio enabled        |Outgoing and incoming audio enabled|
 |  |        |Mode for IP video         |Outgoing and incoming video enabled     |Outgoing and incoming video enabled|
-|  |       |Allow IP video         |On         |On|
+|  |       |IP video         |On         |On|
 |  |       |Allow NDI streaming         |Off         |Off|
 |  |       |Media bit rate (Kbs)         |50,000         |50,000|
 |  |Content sharing       |Screen sharing mode         |Entire screen         |Entire screen|
 |  |       |Allow a participant to give or request control         |On         |On|
 |  |       |Allow an external participant to give or request control         |On         |On|
-|  |       |Allow PowerPoint sharing        |On         |On|
-|  |       |Allow whiteboard         |On         |On|
-|  |       |Allow shared notes         |On        |On|
+|  |       |PowerPoint sharing        |On         |On|
+|  |       |Whiteboard         |On         |On|
+|  |       |Shared notes         |On        |On|
 |  |Participants & guests       |Let anonymous people start a meeting       |On        |On|
 |  |       |Roles that have presenter rights in meetings        |OrganizerOnlyUserOverride         |OrganizerOnlyUserOverride|
 |  |       |Automatically admit people        |OrganizerOnly|OrganizerOnly|
 |  |       |Allow dial-in users to bypass the lobby        |Off         |Off|
-|  |       |Allow Meet now in private meetings        |On         |On|
-|  |       |Enable live captions       |Disabled but user can override         |Disabled but user can override|
-|  |       |Allow chat in meetings         |On         |On|
-|Live events policy  |       |Allow scheduling         |On         |On|
-|  |       |Allow transcription for attendees          |On       |On|
+|  |       |Meet now in private meetings        |On         |On|
+|  |       |Live captions       |Disabled but user can override         |Disabled but user can override|
+|  |       |Chat in meetings         |On         |On|
+|Live events policy  |       |Live events scheduling         |On         |On|
+|  |       |Transcription for attendees          |On       |On|
 |  |       |Who can join scheduled live events        |Everyone in organization        |Everyone in organization|
 |  |       |Who can record an event         |Always record         |Always record|
 |Messaging policy  |       |Owners can delete sent messages         |On|On|
@@ -301,13 +301,13 @@ Here's a list of the custom policy definitions assigned to the educators and sta
 |  |       |Edit sent messages         |On         |On|
 |  |       |Read receipts         |User controlled         |User controlled|
 |  |       |Chat         |On         |On
-|  |       |Use Giphys in conversations         |On        |On|
+|  |       |Giphys in conversations         |On        |On|
 |  |       |Giphy content rating         |Strict        |Strict|
-|  |       |Use Memes in conversations         |On         |On|
-|  |       |Use Stickers in conversations         |On         |On|
-|  |       |Allow URL previews        |On         |On|
+|  |       |Memes in conversations         |On         |On|
+|  |       |Stickers in conversations         |On         |On|
+|  |       |URL previews        |On         |On|
 |  |       |Translate messages         |On         |On|
-|  |       |Allow immersive reader for viewing messages        |On      |On|
+|  |       |Immersive reader for messages        |On      |On|
 |  |       |Send urgent messages using priority notifications  |On         |On|
 |  |       |Create voice messages         |Allowed in chats and channels         |Allowed in chats and channels|
 |  |       |On mobile devices, display favorite channels above recent chats     |Enabled         |Enabled|
