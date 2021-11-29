@@ -1123,21 +1123,19 @@ items:
           href: voice-case-study-audio-conferencing.md
         - name: Auto attendants and call queues
           href: voice-case-study-call-queues.md
-    - name: Guidance for Small and Medium Businesses
+    - name: Guidance for small and medium businesses
       items: 
-      - name: What's Microsoft 365 Business Voice?
+      - name: Overview of Teams Phone
         href: business-voice/whats-business-voice.md
       - name: Country and region availability
         href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
       - name: What to know before buying
         items: 
-          - name: What to buy to get Business Voice
+          - name: What to buy to get Teams Phone
             href: business-voice/what-to-buy.md
           - name: Check your Internet connection
             href: business-voice/get-ready-internet.md
-          - name: Get your users ready
-            href: business-voice/prepare-users.md
-      - name: Set up Business Voice
+      - name: Set up Teams Phone
         items:
           - name: Overview
             href: business-voice/set-up-overview.md
