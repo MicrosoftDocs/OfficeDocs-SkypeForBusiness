@@ -87,6 +87,8 @@ You can also enable SIP Gateway by using the PowerShell [Set-CsTeamsCallingPolic
 
 ### Administrators
 
+**[Note from Chandranshu: Think we should add a short description for setting date and time using DHCP options 42 and 2. It's there in the source doc.]**
+
 For each SIP device, set one of the following SIP Gateway provisioning server URLs: 
 
 - EMEA: `http://emea.ipp.sdg.teams.microsoft.com`
@@ -115,7 +117,7 @@ Users who work remotely must manually configure the provisioning server URL into
 
 ## Configure conditional access
 
-Conditional Access is an Azure Active Directory (Azure AD) feature that helps ensure that devices that access your Office 365 resources are properly managed and secure. SIP Gateway authenticates SIP devices with Azure AD, so if your organization uses Conditional Access for devices in the corporate network, it should exclude the following IP addresses:
+Conditional Access is an Azure Active Directory (Azure AD) feature that helps ensure that devices that access your Microsoft 365 resources are properly managed and secure. SIP Gateway authenticates SIP devices with Azure AD, so if your organization uses Conditional Access for devices in the corporate network, it should exclude the following IP addresses:
 
 - North America:
     - East US: 52.170.38.140
@@ -278,7 +280,7 @@ Microsoft Teams Direct Routing only supports IPv4. The Microsoft Teams service a
 
 ## Emergency calling
 
-Currently we only support static emergency calling. We do not support emergency location for Direct Routing.
+SIP Gateway only supports static—also called registered—emergency addresses. Currently, registered addresses are not supported for Direct Routing scenarios. For more information about emergency calling, see [Pland and manage emergency calling](https://docs.microsoft.com/en-us/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
 
 ## Report problems to Microsoft
 
