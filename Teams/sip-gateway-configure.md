@@ -278,7 +278,7 @@ Microsoft Teams Direct Routing only supports IPv4. The Microsoft Teams service a
 
 ## Emergency calling
 
-**[Disclaimer about emergency calling]**
+Currently we only support static emergency calling. We do not support emergency location for Direct Routing.
 
 ## Report problems to Microsoft
 
