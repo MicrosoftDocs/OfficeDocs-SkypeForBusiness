@@ -32,8 +32,8 @@ These settings control which meeting participants wait in the lobby before they 
 - [Let anonymous people start a meeting](#let-anonymous-people-start-a-meeting)
 - [Automatically admit people](#automatically-admit-people)
 - [Allow dial-in users to bypass the lobby](#allow-dial-in-users-to-bypass-the-lobby)
-- [Enable live captions](#enable-live-captions)
-- [Allow chat in meetings](#allow-chat-in-meetings)
+- [Live captions](#live-captions)
+- [Chat in meetings](#chat-in-meetings)
 
 > [!NOTE]
 >Options to join a meeting will vary, depending on the settings for each Teams group, and the connection method. If your group has audio conferencing, and uses it to connect, see [Audio Conferencing](/microsoftteams/audio-conferencing-in-office-365). If your Teams group doesn't have audio conferencing, refer to [Join a meeting in Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
@@ -73,7 +73,7 @@ This is a per-organizer policy. This setting controls whether people who dial in
 > [!NOTE]
 > If a dial-in user joins a meeting before an organization user joins the meeting, they will be placed in the lobby until an organization user joins the meeting using a Teams client and admits them. If you change the default setting for any user, it will apply to all new meetings organized by that user and any prior meetings where the user didn't modify Meeting options.
 
-## Enable live captions
+## Live captions
 
 This setting is a per-user policy and applies during a meeting. This setting controls whether the **Turn on live captions** option is available for the user to turn on and turn off live captions in meetings that the user attends.  
 
@@ -86,7 +86,7 @@ This setting is a per-user policy and applies during a meeting. This setting con
 
 <a name="bkcontentsharing"> </a>
 
-## Allow chat in meetings
+## Chat in meetings
 
 This setting is a per-participant setting. This setting controls whether meeting chat is allowed in the user's meeting.
 
