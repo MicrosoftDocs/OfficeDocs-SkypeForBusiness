@@ -158,6 +158,4 @@ Built-in badge sets can't be modified, so when a built-in set is enabled, all ba
 
 Starting in January 2022, what's currently available for badges will change. Social and emotional learning badges for education, including self-awareness and self-management, will no longer be available.  
 
-The **Create a custom badge** option will also no longer be available as of January 2022.
-
-However, your users will continue to be able to view the history of any praise that they sent or received in the past six months with any of these unavailable badges or options.
+The **Create a custom badge** option will also no longer be available as of January 2022.
