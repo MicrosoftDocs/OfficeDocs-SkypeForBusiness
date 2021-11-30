@@ -58,7 +58,7 @@ Depending on the collaboration scenarios that you've decided to enable with your
 | **Scenario** | **Description** | **Microsoft Teams Rooms service account feature** |
 |---------- |------------- | --- |
 | Interactive meetings            | Using voice, video, and screen sharing; making the Microsoft Teams Rooms a bookable resource                     | Enabled for Microsoft Teams or Skype for Business; enabled for Exchange (Resource Mailbox) |
-| Dial-in conferencing            | Have a dial-in conferencing phone number when tapping New meeting on the console | Enabled for Audio Conferencing                                          |
+| Dial-in conferencing            | Have an audio conferencing phone number when tapping "New meeting" on the console | Enabled for Audio Conferencing                                          |
 | Outbound/inbound PSTN Calling | Enable the Microsoft Teams Rooms console to make and receive PSTN calls                                         | Enabled for Phone System                                                |
 
 For more information about Microsoft Teams Rooms accounts, see [Configure accounts for Microsoft Teams Rooms](rooms-configure-accounts.md).
