@@ -76,7 +76,7 @@ If the built-in roles do not suit your organizational needs, you can create a ro
 1. In the left navigation of the Microsoft Teams Rooms managed service portal, go to **Settings** > **Roles**.
 2. Select **Create role**
 3. On the **General settings** page, under **Role properties** enter a name for this role. Under **Description**, enter details about this role. Choose **Next**
-4. On the **Permissions** page, under **Role permissions** choose the permissions for this role by selecting the appropriate check-boxes . Choose **Next** to create the first assignment for this role.
+4. On the **Permissions** page, under **Role permissions**, choose the permissions for this role by selecting the appropriate check-boxes. Choose **Next** to create the first assignment for this role.
 5. On the **Assignments** page, under **Assignment properties**, enter a name for this assignment. The description is optional. Under **Notification settings** select the **E-mail notifications** check-box if users of this role should recieve email notications from the service on rooms in the **Scope** of this assignment. Choose **Next**. 
 6. On the **Members** page, in the **Search for user or security group** box, enter the name of a user or security group in your tenant to which you want to give permissions, and then complete the selection. Choose **Next**. 
 7. On the **Scope** page, in the **Search for room or room group** box, type the name of either a room or room group that the user will be allowed to manage. Choose **Next**.
