@@ -82,7 +82,6 @@ If the built-in roles do not suit your organizational needs, you can create a ro
 7. On the **Scope** page, in the **Search for room or room group** box, type the name of either a room or room group that the user will be allowed to manage. Choose **Next**.
 8. On the **Finish** page, review the details of the role and assignment. If you're satisfied with the configuration, choose **Add new role**. If you want to edit a section, use the **Previous** button or select the step in the left navigation.  
 
-
 ## Assign a role
 
 To assign roles, you must be a Global Administrator or Managed Service Administrator or have a role with role management permissions.
