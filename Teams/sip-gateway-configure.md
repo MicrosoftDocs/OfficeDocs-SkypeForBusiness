@@ -56,7 +56,7 @@ Before you can configure SIP Gateway, do the following:
 
 
 
-The following sections describe the tasks you must perform as an administrator to configure SIP Gateway.
+The following sections describe what you must do as an administrator to configure SIP Gateway.
 
 - [Verify that SIP Gateway is available for your organization](#verify-that-sip-gateway-is-available-for-your-tenant).
 
@@ -225,7 +225,7 @@ To pair a SIP device after the user authenticates using corporate credentials, a
 > [!NOTE]
 > The location of the device shown on the Azure Active Directory web authentication app is the SIP Gateway datacenter to which the device is connected. SIP phones in scope are not OAuth-capable, so SIP Gateway authenticates the user through the web authentication app and then pairs the device with the user’s credentials. Learn more here: [Microsoft identity platform and the OAuth 2.0 device authorization grant flow](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-device-code).
 
-### Sign out
+### Sign-out
 
 To sign out, a device user can:
 
@@ -300,7 +300,7 @@ SIP Gateway only supports IPv4. Microsoft Teams service and client support both 
 
 ## Emergency calling
 
-SIP Gateway only supports static—also called registered—emergency addresses. Currently, registered addresses are not supported for Direct Routing scenarios. For more information about emergency calling, see [Plan and manage emergency calling](https://docs.microsoft.com/en-us/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
+SIP Gateway only supports static—also called registered—emergency addresses. Currently, registered addresses are not supported for Direct Routing scenarios. For more information about emergency calling, see [Plan and manage emergency calling](https://docs.microsoft.com/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
 
 ## Report problems to Microsoft
 
