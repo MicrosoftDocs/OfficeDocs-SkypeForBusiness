@@ -37,9 +37,9 @@ Is your business new to Microsoft Teams? Thanks for choosing Microsoft!
 
 To get started with Teams Essentials, follow these steps:
 
-1. **Purchase the subscription.** Go to [Microsoft Teams Essentials for small business](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options) and select **Buy now** under Microsoft Teams Essentials.
+1. **Purchase the subscription.** Go to [Microsoft Teams Essentials for small business](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options) and select **Buy now** under Microsoft Teams Essentials.
 2. **Sign up with your existing email address.** Use an existing email address and follow the instructions to purchase user licenses.
-3. **Review Teams service description.** Visit [Microsoft Teams service description ](https://docs.microsoft.com/en-us/office365/servicedescriptions/teams-service-description) to learn more about Microsoft Teams.
+3. **Review Teams service description.** Visit [Microsoft Teams service description ](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) to learn more about Microsoft Teams.
 
 When you've completed these tasks, you're ready to plan, deploy, and use the Teams app.
 
@@ -77,7 +77,7 @@ Keep the following limitations in mind:
 - All users must be upgraded: a mix of Teams (free) and paid subscription users in the same tenant isn't supported.
 
 >[!IMPORTANT]
-> If you're currently using Microsoft Teams free (classic), you go here to upgrade to Microsoft 365 **[Upgrade from Teams free to Teams.](https://support.microsoft.com/en-us/office/upgrade-from-teams-free-to-teams-29475bbd-a34f-4175-9b33-d44430f8ad39)**
+> If you're currently using Microsoft Teams free (classic), you go here to upgrade to Microsoft 365 **[Upgrade from Teams free to Teams.](https://support.microsoft.com/office/upgrade-from-teams-free-to-teams-29475bbd-a34f-4175-9b33-d44430f8ad39)**
 
 #### How do I upgrade my organization?
 
