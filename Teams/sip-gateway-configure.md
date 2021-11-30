@@ -36,7 +36,25 @@ Before you can configure SIP Gateway, do the following:
 - **Make sure the SIP devices are not behind a proxy.** Ensure that http/s traffic bypasses any corporate http/s proxy.
 
 - **Open the UDP port.** Open UDP port in the range 49152 to 53247.
+
 - **Open the TCP port.** Open TCP port 5061 for IP ranges 52.112.0.0/14 and 52.120.0.0/14.
+
+- **Open the following https endpoints (IP addresses and URLs):**
+
+  - 13.75.175.145
+  - 52.189.219.201
+  - 51.124.34.164
+  - 13.74.250.91
+  - 13.83.55.36
+  - 23.96.103.40
+  - https://blobsdgapac.blob.core.windows.net
+  - https://blobsdgemea.blob.core.windows.net
+  - https://blobsdgnoam.blob.core.windows.net
+  - https://httpblobsdgapac.blob.core.windows.net
+  - https://httpblobsdgemea.blob.core.windows.net
+  - https://httpblobsdgnoam.blob.core.windows.net
+
+
 
 The following sections describe the tasks you must perform as an administrator to configure SIP Gateway.
 
@@ -84,9 +102,11 @@ To enable SIP Gateway in the Teams admin center, follow these steps:
 You can also enable SIP Gateway by using the PowerShell [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) cmdlet. To enable users for SIP devices, select a policy, and set the `-AllowSIPDevicesCalling` attribute to `True`. The default value is `False`, so users will not be able to use their SIP devices unless you enable them.
 
 
-## Set the SIP Gateway provisioning server URL
+## Configure the SIP Gateway provisioning server URL
 
-### DHCP
+You can set the SIP Gateway provisioning server's URL in your Dynamic Host Configuration Protocol (DHCP) server. Users who work remotely must configure it manually.
+
+### Using DHCP
 
 For each SIP device, set one of the following SIP Gateway provisioning server URLs: 
 
@@ -94,11 +114,11 @@ For each SIP device, set one of the following SIP Gateway provisioning server UR
 - Americas: `http://noam.ipp.sdg.teams.microsoft.com`
 - APAC: `http://apac.ipp.sdg.teams.microsoft.com`
 
-Add SIP devices to your Teams organization by configuring the above SIP Gateway provisioning server URL in your Dynamic Host Configuration Protocol (DHCP) server. To learn more about DHCP server, see [Deploy and manage DHCP](https://docs.microsoft.com/learn/modules/deploy-manage-dynamic-host-configuration-protocol). Also, you can use DHCP option 42 to specify the NTP server, and DHCP option 2 to specify the offset from Coordinated Universal Time (UTC) in seconds. The devices in your organization will be routed to the SIP Gateway provisioning server. Successfully provisioned SIP phones will display the Teams logo and a soft button for sign-in.
+Add SIP devices to your Teams organization by configuring the above SIP Gateway provisioning server URL in your DHCP server. To learn more about DHCP server, see [Deploy and manage DHCP](https://docs.microsoft.com/learn/modules/deploy-manage-dynamic-host-configuration-protocol). Also, you can use DHCP option 42 to specify the Network Time Protocol (NTP) server, and DHCP option 2 to specify the offset from Coordinated Universal Time (UTC) in seconds. The devices in your organization will be routed to the SIP Gateway provisioning server. Successfully provisioned SIP phones will display the Teams logo and a soft button for sign-in.
 
 Ensure SIP devices are on the minimum supported firmware version for onboarding. During onboarding, SIP Gateway will push the default configuration and authentication user interface to the device. To find out the required firmware version for SIP devices, see [Plan for SIP Gateway](sip-gateway-plan.md).
 
-### Manual
+### Manually
 
 Users who work remotely must manually configure the provisioning server URL into their SIP device by using the following steps:
 
@@ -130,20 +150,6 @@ Conditional Access is an Azure Active Directory (Azure AD) feature that helps en
 
 For more information, see [IP address ranges](https://docs.microsoft.com/azure/active-directory/conditional-access/location-condition#ip-address-ranges).
 
-To use SIP Gateway, open the following HTPPS endpoints (IP addresses and URLs):
-
-- 13.75.175.145
-- 52.189.219.201
-- 51.124.34.164
-- 13.74.250.91
-- 13.83.55.36
-- 23.96.103.40
-- [https://blobsdgapac.blob.core.windows.net](https://blobsdgapac.blob.core.windows.net/)
-- [https://blobsdgemea.blob.core.windows.net](https://blobsdgemea.blob.core.windows.net/)
-- [https://blobsdgnoam.blob.core.windows.net](https://blobsdgnoam.blob.core.windows.net)
-- [https://httpblobsdgapac.blob.core.windows.net](https://httpblobsdgapac.blob.core.windows.net)
-- [https://httpblobsdgemea.blob.core.windows.net](https://httpblobsdgemea.blob.core.windows.net)
-- [https://httpblobsdgnoam.blob.core.windows.net](https://httpblobsdgnoam.blob.core.windows.net)
 
 ## Provision and enroll SIP devices as common area phones
 > [!NOTE]
@@ -165,13 +171,13 @@ To streamline your tasks, you can enroll SIP devices in the Teams admin center e
      
      c. Under **Waiting on activation**, select the device you just added, and then select **Generate verification code**.
      
-     d. On the **Provision devices** pane, under **Verfication code**, note the verification code for the SIP device.
+     d. On the **Provision devices** pane, under **Verification code**, note the verification code for the SIP device.
 
    - **To provision many devices:**
 
      a. Under **Waiting on activation**, at the right, select **Export** (the Microsoft Excel icon).
      
-     b. n the **Provision devices** pane, under **Upload multiple MAC addresses**, select **download a template**.
+     b. On the **Provision devices** pane, under **Upload multiple MAC addresses**, select **download a template**.
      
      c. Save **Template_Provisioning.csv** to your computer and fill in the **MAC id** and **Location** fields.
     
@@ -206,7 +212,7 @@ Only local sign-in is supported for users’ personal devices. To sign out a dev
 3. At the right, select a SIP device, and then select **Sign out**.
 
 
-### User pairing and sign in
+### User pairing and sign-in
 
 To pair a SIP device after the user authenticates using corporate credentials, a user must:
 

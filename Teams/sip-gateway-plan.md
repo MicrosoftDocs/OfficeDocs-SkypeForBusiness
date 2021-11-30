@@ -40,14 +40,14 @@ SIP Gateway connects compatible SIP devices to Teams to help your users migrate 
 - **Message waiting indicator:** SIP device users can receive notifications that alert them when they have new voicemail messages.
 - **Sign-in and sign-out:** SIP devices users can sign in and sign out of Teams on the device.
 - **Dual-tone multi-frequency:** SIP device users can press number keys to provide input during interactive voice response calls.
-- **Teams meetings:** A SIP device user can join a Teams meeting by dialing the meeting access number. Dialing out to a same tenant user’s phone number is currently not supported. However, guest users from another tenant can be added to a Teams meeting by a participant who dials out to a guest user’s number to include that guest. **NOTE:** Adding a Teams meeting participant via “request to join” currently won’t alert a SIP device.
-- **Blind and consultative transfers:** SIP device users can transfer calls. SIP Gateway supports both blind and consultative transfers.
+- **Teams meetings:** A SIP device user can join a Teams meeting by dialing the meeting access number. Dialing out to a same organization user’s phone number is currently not supported. However, guest users from another organization can be added to a Teams meeting by a participant who dials out to a guest user’s number to include that guest. **NOTE:** Adding a Teams meeting participant via “request to join” currently won’t alert a SIP device.
+- **Call transfers:** SIP device users can transfer calls. SIP Gateway supports both blind and consultative transfers.
 - **Local call forwarding:** A SIP device user can set forwarding rules (always, on timeout, and busy) for the device. If the device is connected to the SIP Gateway, then the call will be redirected to the target address based on the rule that the device user set. To make local call forwarding work, the admin must set the `AllowCallRedirect` attribute in `Set-CsTeamsCallingPolicy` to `Enabled`. 
 
 
 ## Requirements to use SIP Gateway
 
-Teams users must have an phone number with PTSN calling enabled to use SIP Gateway.
+Teams users must have a phone number with PTSN calling enabled to use SIP Gateway.
 
 ### Hardware, software, and licenses
 
