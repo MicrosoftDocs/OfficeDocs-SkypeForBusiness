@@ -43,5 +43,5 @@ More information: [Power Apps](../manage-power-platform-apps.md) and [Power Apps
 
 Share and collaborate on interactive Power BI content in Microsoft Teams channels and chats. You can add a [Power BI tab](../built-in-custom-tabs.md) to Teams to embed interactive reports and chat in Teams about your reports, and get notified when important things happen in Power BI right in your Teams activity feed.
 
-More information: [Collaborate in Microsoft Teams with Power BI](/power-bi/collaborate-share/service-collaborate-microsoft-teams)
+More information: [Collaborate in Microsoft Teams with Power BI](/power-bi/collaborate-share/service-collaborate-microsoft-teams).
 
