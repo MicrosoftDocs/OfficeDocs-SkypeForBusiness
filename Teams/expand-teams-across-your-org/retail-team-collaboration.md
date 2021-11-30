@@ -21,6 +21,10 @@ appliesto:
 
 Bring in-store associates and management together to communicate, collaborate, and streamline operations with Microsoft Teams.
 
+> [!NOTE]
+> These scenarios are also part of the Microsoft Cloud for Retail. You can do more with these scenarios when you also use other capabilities from the Microsoft Cloud for Retail, such as Microsoft Dynamics 365. Learn more about using this solution, which brings together capabilities from Azure, Dynamics 365, and Microsoft 365 at [Microsoft Cloud for Retail](/industry/retail).
+
+
 Microsoft Teams enables in-store sales associates, managers, and other staff to collaborate efficiently with included collaboration features and apps. Your frontline workforce can use Teams on either personal or shared devices depending on the needs of your organization.
 
 ![Infographic showing the core collaboration functions available in Teams and as Teams apps as described in the list below.](../media/retail-teams-collaborate-core.png)

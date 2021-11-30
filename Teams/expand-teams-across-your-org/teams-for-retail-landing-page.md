@@ -36,6 +36,9 @@ Microsoft 365 and Microsoft Teams offer several capabilities that can help retai
 
 [![In-store communication and collaboration.](../media/retail-scenarios-in-store.png)](#in-store-communication-and-collaboration) [![Cross-store communication and collaboration.](../media/retail-scenarios-cross-store.png)](#cross-store-communication-and-collaboration) [![Virtual fittings and consultations.](../media/retail-scenarios-virtual-visits.png)](#virtual-fittings-and-consultations) [![Simplify business processes.](../media/retail-scenarios-business-processes.png)](#simplify-business-processes) [![Corporate communications.](../media/retail-scenarios-corp-comms.png)](#corporate-communications) [![Onboarding new employees.](../media/retail-scenarios-onboarding.png)](#onboarding-new-employees)
 
+> [!NOTE]
+> These scenarios are also part of the Microsoft Cloud for Retail. You can do more with these scenarios when you also use other capabilities from the Microsoft Cloud for Retail, such as Microsoft Dynamics 365. Learn more about using this solution, which brings together capabilities from Azure, Dynamics 365, and Microsoft 365 at [Microsoft Cloud for Retail](/industry/retail).
+
 ### In-store communication and collaboration
 
 Bring in-store associates and management together to collaborate and streamline operations with Microsoft Teams and Teams apps.
@@ -95,8 +98,6 @@ Make new employee onboarding (NEO) a great experience by fostering an all-in-one
 **Additional services:** Viva Learning, SharePoint, Yammer
 
 More information: [Onboard new employees](/sharepoint/onboard-employees)
-
-<!-- These scenarios are also part of the Microsoft Cloud for Retail. You can do more with these scenarios when you also use other capabilities from the Microsoft Cloud for Retail, such as Microsoft Dynamics 365. Learn more about using this solution, which brings together capabilities from Azure, Dynamics 365, and Microsoft 365 at [Microsoft Cloud for Retail](/industry/retail). -->
 
 > [!NOTE]
 > For all of these capabilities, users must have an appropriate license. Microsoft 365 for frontline workers F1 and F3 or Office 365 F3, Office 365 A3, A5, E3, and E5, as well as Microsoft 365 Business Standard, Business Premium, A3, A5, E3, and E5 are all supported. For more information about general Teams licensing, see [Manage user access to Teams](../user-access.md). See [Licensing options for frontline workers](../flw-licensing-options.md) for more about using Microsoft 365 for frontline workers in combination with other licenses.

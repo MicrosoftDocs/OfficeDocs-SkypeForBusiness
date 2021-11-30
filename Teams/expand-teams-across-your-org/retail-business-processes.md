@@ -19,15 +19,29 @@ appliesto:
 
 # Simplify business processes in Retail environments
 
-You can use Teams apps, Power Apps, and Power BI to simplify business processes. For example, you can:
+You can use Teams apps, Power Apps, and Power BI to simplify business processes for your retail teams.
 
-- Set and maintain schedules for your employees with Shifts.
-- Conduct store walks and inventories with Power Apps.
-- Track key performance indicators (KPIs) with Power BI reports.
+> [!NOTE]
+> Additional capabilities for retail environments are available with the Microsoft Cloud for Retail, which includes capabilities from Dynamics 365 and Microsoft Azure as well as the Microsoft 365 features. For more information, see [Microsoft Cloud for Retail](/industry/retail/).
 
-**Key apps:** Shifts, Tasks, Lists, Approvals
+## Manage schedules, tasks, lists, and approvals
 
-**Additional services:** Power Platform with Power Apps and Power BI
+Teams includes many apps to help you and your retail team manage their day-to-day work:
 
+- Use [Shifts](shifts-for-teams-landing-page.md) to create and update schedules for your store team. Your workers can sign up for shifts, trade shifts as needed, and sign in when they start.
+- Publish and track [Tasks](../manage-tasks-app.md) for your workers, so they know what needs to be done every day.
+- Use [Approvals](../approval-admin.md) right in your chat to quickly sign off when something is done or needs to be submitted.
+- Keep track of everything else with [Lists](../../manage-lists-app.md).
 
-<!-- Additional capabilities for retail environments are available with the Microsoft Cloud for Retail, which includes capabilities from Dynamics 365 and Microsoft Azure as well as the Microsoft 365 features. For more information, see [Microsoft Cloud for Retail](/industry/retail/). -->
+## Conduct store walks and inventories
+
+Add Power Apps to create low-code or no-code applications for your organization. You can build custom apps to connect your business data, so you can manage inventory or conduct store walks, for example.
+
+More information: [Power Apps](../manage-power-platform-apps.md) and [Power Apps and Microsoft Teams integration](/powerapps/teams/overview).
+
+## Track key performance indicators (KPIs) with Power BI reports
+
+Share and collaborate on interactive Power BI content in Microsoft Teams channels and chats. You can add a [Power BI tab](../built-in-custom-tabs.md) to Teams to embed interactive reports and chat in Teams about your reports, and get notified when important things happen in Power BI right in your Teams activity feed.
+
+More information: [Collaborate in Microsoft Teams with Power BI](/power-bi/collaborate-share/service-collaborate-microsoft-teams)
+
