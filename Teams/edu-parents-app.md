@@ -89,11 +89,11 @@ Once the user-level external access policies are set correctly for the users in 
 
 - Set the federation configuration settings for your tenant: [Set-CsTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration)
 
-## Disabling the Parents App
+## Enabling the Parents App
 
-The Parents app is enabled by default, so all class team owners will see the app in their class teams. 
+The Parents app is disabled by default, so class team owners will not see the app in their class teams until the app is allowed via the Teams Admin Center. The app can be allowed via the Teams Admin Center using [Allow apps blocked by publishers](manage-apps.md#apps-blocked-by-publishers).
 
-The app can be disabled at the tenant level using [Allow and block apps](manage-apps.md#allow-and-block-apps) in the Microsoft Teams admin center. If the app is disabled at tenant level, it will be blocked for all users, even if user level permissions are enabled.​
+At any time, the app can be disabled at the tenant level using [Allow and block apps](manage-apps.md#allow-and-block-apps) in the Teams Admin center. If the app is disabled at the tenant level, it will be blocked for all users, even if user level permissions are enabled.​
 
 The app can also be disabled at the user level using [Manage app permission policies in Microsoft Teams](teams-app-permission-policies.md).
 
