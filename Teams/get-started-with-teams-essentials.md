@@ -22,10 +22,9 @@ appliesto:
 
 Microsoft Teams Essentials is a standalone Teams subscription that provides an all-in-one solution with meetings, chat, and collaboration for small businesses. As your business adapts to the increased need for remote working and virtual connections, you may be searching for a way to securely collaborate with employees, partners, suppliers, and customers. Whether you're a multi-city bakery, or a nine-person event agency, Microsoft Teams Essentials can bring your business together through one connected experience.
 
+### Before you continue
 
-### Before you continue 
-
-Microsoft Teams Essentials is available for purchase through Microsoft’s direct website and select Microsoft Cloud Partners. Subscriptions through direct and partner differ in some ways because they use different identity systems.
+Microsoft Teams Essentials is available for purchase through Microsoft’s direct website and select Microsoft Cloud Partners. Subscriptions through direct and partner differ in some ways because they use different identity systems. Visit the table later in this article for more details, go here:[ Microsoft Teams Essentials plans](#how-does-microsoft-teams-essentials-compare-to-other-microsoft-teams-plans)
 
 A subscription purchased through Microsoft’s direct website uses Microsoft account identity which allows you to use your existing email address like MeganB@outlook.com, MeganB@gmail.com, or MeganB@ContosoLandscaping.com to sign up.
 
@@ -40,7 +39,7 @@ To get started with Teams Essentials, follow these steps:
 
 1. **Purchase the subscription.** Go to [Microsoft Teams Essentials for small business](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options) and select **Buy now** under Microsoft Teams Essentials.
 2. **Sign up with your existing email address.** Use an existing email address and follow the instructions to purchase user licenses.
-3. **Review Teams service description.** Visit [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description) to learn more about Microsoft Teams.
+3. **Review Teams service description.** Visit [Microsoft Teams service description ](https://docs.microsoft.com/en-us/office365/servicedescriptions/teams-service-description) to learn more about Microsoft Teams.
 
 When you've completed these tasks, you're ready to plan, deploy, and use the Teams app.
 
@@ -63,28 +62,28 @@ If your organization is using a free version of Microsoft Teams, you can easily 
 You can upgrade to Microsoft Teams Essentials if you're the person who signed up for the existing Teams free subscription. In the free version of Microsoft Teams, the first person who signed up for Teams in your organization has a limited admin role.
 
 > [!NOTE]
-> To upgrade and transfer your data, you have to buy your subscription through the Teams application [upgrade process](#how-do-i-upgrade-my-organization) outlined in this section.
+> To upgrade and transfer your data, you have to buy your subscription through the Teams application [upgrade process](#how-do-i-upgrade-my-organization) outlined in this section. Upgrading to Teams Essentials is not currently supported for Teams free (classic) users. You can upgrade to the full version of Teams by following the steps in this article: **[Upgrade from Teams free to Teams.](https://support.microsoft.com/office/upgrade-from-teams-free-to-teams-29475bbd-a34f-4175-9b33-d44430f8ad39)**
 
 #### Limitations
 
 Keep the following limitations in mind:
 
-- You can't switch back to Teams (free)# after you upgrade.
+- You can't switch back to Teams (free) after you upgrade.
 
 - You can't merge multiple Teams (free) tenants into a single paid tenant.
 
 - All users must be in the same domain. (All users will get a login in the format *username*@*domain.com*.)
 
-- All users must be upgraded: a mix of Teams (free) Teams free, and paid subscription users in the same tenant isn't supported.
+- All users must be upgraded: a mix of Teams (free) and paid subscription users in the same tenant isn't supported.
 
 >[!IMPORTANT]
-> If you're currently using Microsoft Teams free (classic),go here to **[Upgrade from Teams free to Teams.](https://support.microsoft.com/en-us/office/upgrade-from-teams-free-to-teams-29475bbd-a34f-4175-9b33-d44430f8ad39)**
+> If you're currently using Microsoft Teams free (classic), you go here to upgrade to Microsoft 365 **[Upgrade from Teams free to Teams.](https://support.microsoft.com/en-us/office/upgrade-from-teams-free-to-teams-29475bbd-a34f-4175-9b33-d44430f8ad39)**
 
 #### How do I upgrade my organization?
 
-To upgrade to the Microsoft Teams Essentials version of Teams, select  **…** in the top navgation menu. Next, select the **Upgrade** button at the bottom of the drop down menu that appears.   :::image type="content" source="media/essentials-teamfreeui.png" alt-text="screenshot showing Upgrade button"::: 
+To upgrade to the Microsoft Teams Essentials version of Teams, select  **…** in the top navgation menu. Next, select the **Upgrade** button at the bottom of the drop down menu that appears.   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="screenshot showing Upgrade button"::: 
 
-After selecting the **Upgrade** button in Teams, you'll be directed here: [Microsoft Teams for Small Business](https://www.microsoft.com/en-us/microsoft-teams/upgrade-teams)
+After selecting the **Upgrade** button in Teams, you'll be directed here: [Microsoft Teams for Small Business](https://www.microsoft.com/microsoft-teams/upgrade-teams)
 
 Enter the current email address you use to sign into Teams, and then purchase the Microsoft Teams Essentials plan.
 
@@ -93,7 +92,7 @@ Enter the current email address you use to sign into Teams, and then purchase th
 The following table lists the major Microsoft Teams features available across plans. Certain caveats apply. See the footnotes for further information. This table may change without notice. For the most up-to-date, complete list of features, visit  [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
 
  
-|Microsoft Teams Plan | [**Microsoft Teams Free**](manage-freemium.md#manage-the-free-version-of-microsoft-teams) | [**Microsoft Teams Essentials** ](#get-microsoft-teams-essentials) | **Microsoft Teams Essentials (AAD Identity)** | [**Microsoft 365 Business Basic**](/microsoft-365/admin/setup/setup-business-basic?)  |
+|Microsoft Teams Plan | [**Microsoft Teams (free) **](manage-freemium.md#manage-the-free-version-of-microsoft-teams) | [**Microsoft Teams Essentials** ](#get-microsoft-teams-essentials) | **Microsoft Teams Essentials (AAD Identity)** | [**Microsoft 365 Business Basic**](/microsoft-365/admin/setup/setup-business-basic?)  |
 |---------|---------|---------|---------|---------|
 |***Feature***     |         |         |         |         |
 | **Meeting and Calling** | Yes| Yes| Yes |   Yes    |
@@ -137,7 +136,7 @@ The following table lists the major Microsoft Teams features available across pl
 | Migrate existing data & users to Microsoft 365  |     |   | Yes  | Yes|
 | Ability to add-on services including Audio Conferencing & Teams Phone |     |   |   Yes      | Yes |
 
-<sup>1</sup> Provides connection to Google Calendar and other 3rd party calendars with the following configuration: [Connect Google Calendar to Microsoft Teams](https://support.microsoft.com/en-us/office/use-google-calendar-in-teams-free-04efe2a4-bad6-439e-9ff1-85b0282b6a6a)
+<sup>1</sup> Provides connection to Google Calendar and other 3rd party calendars with the following configuration: ([Microsoft Teams Essentials (AAD Identity) Configuration Guide](aka.ms/TeamsEssentialsAADConfig).
 
 <sup>2</sup> Teams Essentials (AAD Identity) through partner includes 2GB Exchange mailbox and no archiving, allowing users to sync with third party email providers.
 
@@ -157,7 +156,6 @@ Here are a few important Teams Essentials limits and specifications to consider:
 Visit Microsoft Teams limits and specifications for a full list in Microsoft Teams, please 
 https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/limits-specifications-teams.md
 
-
 ### What Teams Essentials subscription do I have?  
 
 If you purchased Teams Essentials through Microsoft’s website (direct), you own **Microsoft Teams Essentials**.
@@ -167,7 +165,7 @@ If you purchased Teams Essentials through a Microsoft Certified Partner, you own
 
 ### Can I purchase Teams Essentials using AAD identity through Microsoft’s website?  
 
-No. Teams Essentials with AAD identity is only available through select Microsoft Cloud Partners. If you're interested in working with a Partner, visit [Find a Microsoft Partner Cloud Solution Provider](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider). 
+No. Teams Essentials with AAD identity is only available through select Microsoft Cloud Partners. If you're interested in working with a Partner, visit [Find a Microsoft Partner Cloud Solution Provider](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider).
 
 
 ### Can I use an existing email system with Teams Essentials?  
@@ -181,8 +179,10 @@ To connect an existing calendar solution with Teams Essentials (AAD Identity), f
 
 ### How do I connect my current email and calendar with Teams Essentials (AAD Identity)?
 
-To get started, visit **Connect Microsoft Teams Essentials (AAD Identity) to an existing email system with calendar** for more information. You can connect an existing email system like Google Workspace to Microsoft Teams Essentials (AAD Identity) to stay connected across platforms with integrated calendars and sign in. 
+To get started, visit [**Connect Microsoft Teams Essentials (AAD Identity) to an existing email system with calendar**](aka.ms/TeamsEssentialsAADConfig) for more information. You can connect an existing email system like Google Workspace to Microsoft Teams Essentials (AAD Identity) to stay connected across platforms with integrated calendars and sign in.
 
 ## More information
 
-- To find out more about Teams versions and their capabilities, see [Compare Teams plans](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options)
+- Visit [Configuration Guide](aka.ms/TeamsEssentialsAADConfig) for configuration steps on connecting Microsoft Teams Essentials (AAD Identity) to an existing email system with calendar
+
+- To find out more about Teams versions and their capabilities, visit [Compare Teams plans](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options)
