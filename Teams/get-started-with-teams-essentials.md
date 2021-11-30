@@ -30,62 +30,12 @@ A subscription purchased through Microsoft’s direct website uses Microsoft acc
 
 Alternatively, Teams Essentials purchased through select Microsoft Certified Partners uses Azure Active Directory (AAD) which asks you to create a new login/identity. Partners can configure Teams Essentials to connect to your existing email address so you can sign in using your existing email address.  
 
+## What Teams Essentials subscription do I have?  
 
-## Get Microsoft Teams Essentials
+If you purchased Teams Essentials through Microsoft’s website (direct), you own **Microsoft Teams Essentials**.
 
-Is your business new to Microsoft Teams? Thanks for choosing Microsoft!
+If you purchased Teams Essentials through a Microsoft Certified Partner, you own **Microsoft Teams Essentials (AAD identity)**.
 
-To get started with Teams Essentials, follow these steps:
-
-1. **Purchase the subscription.** Go to [Microsoft Teams Essentials for small business](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options) and select **Buy now** under Microsoft Teams Essentials.
-2. **Sign up with your existing email address.** Use an existing email address and follow the instructions to purchase user licenses.
-3. **Review Teams service description.** Visit [Microsoft Teams service description ](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) to learn more about Microsoft Teams.
-
-When you've completed these tasks, you're ready to plan, deploy, and use the Teams app.
-
-To do that, complete these three steps:
-
-1.  **Install the Teams app.** Install the Teams client on your PC or mobile device by going to [Download Microsoft Teams](https://www.microsoft.com/microsoft-teams/download-app) and selecting an option under **Teams for home.** Ensure that you've downloaded a Teams for home option as Teams for work and school are not compatible with Teams Essentials. :::image type="content" source="media/essentials-downloa.png" alt-text="Screenshot of Teams for home download option":::
-
-2. **Get Familiar with Teams.** The best way to become familiar with Teams is to start using it right away. Take some time to explore the application so you have a better understanding of its capabilities.
-
-3. **Plan for adoption.** For small businesses, planning for user adoption can be as simple as individually showing your users how to use Teams. Often, small business customers don't consider this step for new applications, which negatively affects the application's success and adoption.
-
-3.  **Manage Teams Essentials.** Similar to the free version of Microsoft Teams, you have a limited admin role as the first person to sign up for Teams Essentials in your organization. You can add and remove team members and specify whether anyone can invite another members with this role, but you won't have  advanced administrative capabilities or access to the Microsoft Teams admin center.
-
-## Upgrade from a free version of Microsoft Teams to Microsoft Teams Essentials
-
-If your organization is using a free version of Microsoft Teams, you can easily upgrade to the Teams Essentials version by purchasing a plan for your users directly in Teams.
-
-#### Upgrade Requirements
-
-You can upgrade to Microsoft Teams Essentials if you're the person who signed up for the existing Teams free subscription. In the free version of Microsoft Teams, the first person who signed up for Teams in your organization has a limited admin role.
-
-> [!NOTE]
-> To upgrade and transfer your data, you have to buy your subscription through the Teams application [upgrade process](#how-do-i-upgrade-my-organization) outlined in this section. Upgrading to Teams Essentials is not currently supported for Teams free (classic) users. You can upgrade to the full version of Teams by following the steps in this article: **[Upgrade from Teams free to Teams.](https://support.microsoft.com/office/upgrade-from-teams-free-to-teams-29475bbd-a34f-4175-9b33-d44430f8ad39)**
-
-#### Limitations
-
-Keep the following limitations in mind:
-
-- You can't switch back to Teams (free) after you upgrade.
-
-- You can't merge multiple Teams (free) tenants into a single paid tenant.
-
-- All users must be in the same domain. (All users will get a login in the format *username*@*domain.com*.)
-
-- All users must be upgraded: a mix of Teams (free) and paid subscription users in the same tenant isn't supported.
-
->[!IMPORTANT]
-> If you're currently using Microsoft Teams free (classic), you go here to upgrade to Microsoft 365 **[Upgrade from Teams free to Teams.](https://support.microsoft.com/office/upgrade-from-teams-free-to-teams-29475bbd-a34f-4175-9b33-d44430f8ad39)**
-
-#### How do I upgrade my organization?
-
-To upgrade to the Microsoft Teams Essentials version of Teams, select  **…** in the top navgation menu. Next, select the **Upgrade** button at the bottom of the drop down menu that appears.   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="screenshot showing Upgrade button"::: 
-
-After selecting the **Upgrade** button in Teams, you'll be directed here: [Microsoft Teams for Small Business](https://www.microsoft.com/microsoft-teams/upgrade-teams)
-
-Enter the current email address you use to sign into Teams, and then purchase the Microsoft Teams Essentials plan.
 
 ## How does Microsoft Teams Essentials compare to other Microsoft Teams plans?
 
@@ -144,24 +94,74 @@ The following table lists the major Microsoft Teams features available across pl
 > [!IMPORTANT] 
 > To get enhanced administration and entire full set of Teams features, you'll need to upgrade to the full version of Teams by purchasing an appropriate [Microsoft 365 or Office 365 subscription plan](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options) for your users. We recommend this as you'll have more flexibility to manage the way your organization collaborates.
 
-### Limits and specifications for Microsoft Teams Essentials
+## Administration limits and specifications for Microsoft Teams Essentials
 
-Here are a few important Teams Essentials limits and specifications to consider:
+Here are a few important Teams Essentials limits and specifications to consider as an admin:
+
   - **Administration:** A Teams Essentials subscription **does not** come with access to the Teams Admin Center. Teams Essentials users can enjoy a simplified view of the Microsoft 365 admin center to conduct important tasks like,managing  subscriptions and configuring new users.
 
   - **Microsoft Teams PowerShell:** You **cannot** manage Teams Essentials directly using PowerShell command line as there is no PowerShell support.
 
   - **Storage**: Teams Essentials uses OneDrive's personal cloud storage for file storage.
 
-Visit Microsoft Teams limits and specifications for a full list in Microsoft Teams, please 
-https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/limits-specifications-teams.md
+Go here:  [Microsoft Teams limits and specifications](microsoftteams/limits-specifications-teams) to learn more about the limits, specifications, and other requirements that apply to Teams.
 
-### What Teams Essentials subscription do I have?  
+## Get Microsoft Teams Essentials
 
-If you purchased Teams Essentials through Microsoft’s website (direct), you own **Microsoft Teams Essentials**.
+Is your business new to Microsoft Teams? Thanks for choosing Microsoft!
 
-If you purchased Teams Essentials through a Microsoft Certified Partner, you own **Microsoft Teams Essentials (AAD identity)**.
-​
+To get started with Teams Essentials, follow these steps:
+
+1. **Purchase the subscription.** Go to [Microsoft Teams Essentials for small business](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options) and select **Buy now** under Microsoft Teams Essentials.
+2. **Sign up with your existing email address.** Use an existing email address and follow the instructions to purchase user licenses.
+3. **Review Teams service description.** Visit [Microsoft Teams service description ](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) to learn more about Microsoft Teams.
+
+When you've completed these tasks, you're ready to plan, deploy, and use the Teams app.
+
+To do that, complete these three steps:
+
+1.  **Install the Teams app.** Install the Teams client on your PC or mobile device by going to [Download Microsoft Teams](https://www.microsoft.com/microsoft-teams/download-app) and selecting an option under **Teams for home.** Ensure that you've downloaded a Teams for home option as Teams for work and school are not compatible with Teams Essentials. :::image type="content" source="media/essentials-downloa.png" alt-text="Screenshot of Teams for home download option":::
+
+2. **Get Familiar with Teams.** The best way to become familiar with Teams is to start using it right away. Take some time to explore the application so you have a better understanding of its capabilities.
+
+3. **Plan for adoption.** For small businesses, planning for user adoption can be as simple as individually showing your users how to use Teams. Often, small business customers don't consider this step for new applications, which negatively affects the application's success and adoption.
+
+3.  **Manage Teams Essentials.** Similar to the free version of Microsoft Teams, you have a limited admin role as the first person to sign up for Teams Essentials in your organization. You can add and remove team members and specify whether anyone can invite another members with this role, but you won't have  advanced administrative capabilities or access to the Microsoft Teams admin center.
+
+## Upgrade from a free version of Microsoft Teams to Microsoft Teams Essentials
+
+If your organization is using a free version of Microsoft Teams, you can easily upgrade to the Teams Essentials version by purchasing a plan for your users directly in Teams.
+
+#### Upgrade Requirements
+
+You can upgrade to Microsoft Teams Essentials if you're the person who signed up for the existing Teams free subscription. In the free version of Microsoft Teams, the first person who signed up for Teams in your organization has a limited admin role.
+
+> [!NOTE]
+> To upgrade and transfer your data, you have to buy your subscription through the Teams application [upgrade process](#how-do-i-upgrade-my-organization) outlined in this section. Upgrading to Teams Essentials is not currently supported for Teams free (classic) users. You can upgrade to the full version of Teams by following the steps in this article: **[Upgrade from Teams free to Teams.](https://support.microsoft.com/office/upgrade-from-teams-free-to-teams-29475bbd-a34f-4175-9b33-d44430f8ad39)**
+
+#### Limitations
+
+Keep the following limitations in mind:
+
+- You can't switch back to Teams (free) after you upgrade.
+
+- You can't merge multiple Teams (free) tenants into a single paid tenant.
+
+- All users must be in the same domain. (All users will get a login in the format *username*@*domain.com*.)
+
+- All users must be upgraded: a mix of Teams (free) and paid subscription users in the same tenant isn't supported.
+
+>[!IMPORTANT]
+> If you're currently using Microsoft Teams free (classic), you go here to upgrade to Microsoft 365 **[Upgrade from Teams free to Teams.](https://support.microsoft.com/office/upgrade-from-teams-free-to-teams-29475bbd-a34f-4175-9b33-d44430f8ad39)**
+
+#### How do I upgrade my organization?
+
+To upgrade to the Microsoft Teams Essentials version of Teams, select  **…** in the top navgation menu. Next, select the **Upgrade** button at the bottom of the drop down menu that appears.   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="screenshot showing Upgrade button"::: 
+
+After selecting the **Upgrade** button in Teams, you'll be directed here: [Microsoft Teams for Small Business](https://www.microsoft.com/microsoft-teams/upgrade-teams)
+
+Enter the current email address you use to sign into Teams, and then purchase the Microsoft Teams Essentials plan.
+
 
 ### Can I purchase Teams Essentials using AAD identity through Microsoft’s website?  
 
