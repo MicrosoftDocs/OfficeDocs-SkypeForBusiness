@@ -35,7 +35,7 @@ Before you can configure SIP Gateway, do the following:
 
 - **Make sure the SIP devices are not behind a proxy.** Ensure that http/s traffic bypasses any corporate http/s proxy.
 
-- **Open the UDP ports.** Open UDP ports in the range 49152 to 53247 and TCP port 5061 for IP range 52.112.0.0/14 to 52.120.0.0/14.
+- **Open the UDP ports.** Open UDP ports in the range 49152 to 53247 and TCP port 5061 for IP range 52.112.0.0/14 and 52.120.0.0/14.
 
 The following sections describe the tasks you must perform as an administrator to configure SIP Gateway.
 
@@ -87,17 +87,15 @@ You can also enable SIP Gateway by using the PowerShell [Set-CsTeamsCallingPolic
 
 ### Administrators
 
-**[Note from Chandranshu: Think we should add a short description for setting date and time using DHCP options 42 and 2. It's there in the source doc.]**
-
 For each SIP device, set one of the following SIP Gateway provisioning server URLs: 
 
 - EMEA: `http://emea.ipp.sdg.teams.microsoft.com`
 - Americas: `http://noam.ipp.sdg.teams.microsoft.com`
 - APAC: `http://apac.ipp.sdg.teams.microsoft.com`
 
-Add SIP devices to your Teams organization by configuring the above SIP Gateway provisioning server URL in your Dynamic Host Configuration Protocol (DHCP) server. To learn more about DHCP server, see [Deploy and manage DHCP](https://docs.microsoft.com/learn/modules/deploy-manage-dynamic-host-configuration-protocol). The devices in your organization will be routed to the SIP Gateway provisioning server. Successfully provisioned SIP phones will display the Teams logo and a soft button for sign-in.
+Add SIP devices to your Teams organization by configuring the above SIP Gateway provisioning server URL in your Dynamic Host Configuration Protocol (DHCP) server. To learn more about DHCP server, see [Deploy and manage DHCP](https://docs.microsoft.com/learn/modules/deploy-manage-dynamic-host-configuration-protocol). Also, you can use DHCP option 42 to specify the NTP server, and DHCP option 2 to specify the offset from Coordinated Universal Time (UTC) in seconds. The devices in your organization will be routed to the SIP Gateway provisioning server. Successfully provisioned SIP phones will display the Teams logo and a soft button for sign-in.
 
-Also update each SIP device's firmware if it's required. That will push the default configuration and SIP Gateway user interface to the device. To find out the required firmware version for SIP devices, see [Plan for SIP Gateway](sip-gateway-plan.md).
+Ensure SIP devices are on the minimum supported firmware version for onboarding. During onboarding, SIP Gateway will push the default configuration and authentication user interface to the device. To find out the required firmware version for SIP devices, see [Plan for SIP Gateway](sip-gateway-plan.md).
 
 ### Remote users
 
@@ -130,6 +128,21 @@ Conditional Access is an Azure Active Directory (Azure AD) feature that helps en
     - Australia Southeast: 13.73.115.90
 
 For more information, see [IP address ranges](https://docs.microsoft.com/azure/active-directory/conditional-access/location-condition#ip-address-ranges).
+
+To use SIP Gateway, the following IP addresses and URLs must be accessible:
+
+- 13.75.175.145
+- 52.189.219.201
+- 51.124.34.164
+- 13.74.250.91
+- 13.83.55.36
+- 23.96.103.40
+- [https://blobsdgapac.blob.core.windows.net](https://blobsdgapac.blob.core.windows.net/)
+- [https://blobsdgemea.blob.core.windows.net](https://blobsdgemea.blob.core.windows.net/)
+- [https://blobsdgnoam.blob.core.windows.net](https://blobsdgnoam.blob.core.windows.net)
+- [https://httpblobsdgapac.blob.core.windows.net](https://httpblobsdgapac.blob.core.windows.net)
+- [https://httpblobsdgemea.blob.core.windows.net](https://httpblobsdgemea.blob.core.windows.net)
+- [https://httpblobsdgnoam.blob.core.windows.net](https://httpblobsdgnoam.blob.core.windows.net)
 
 ## Provision and enroll SIP devices
 > [!NOTE]
