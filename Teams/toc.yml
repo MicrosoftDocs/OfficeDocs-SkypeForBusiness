@@ -1125,7 +1125,7 @@ items:
           href: voice-case-study-call-queues.md
     - name: Guidance for small and medium businesses
       items: 
-      - name: Overview of Teams Phone
+      - name: Overview of Teams Phone with Calling Plan
         href: business-voice/whats-business-voice.md
       - name: Country and region availability
         href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
@@ -1133,7 +1133,7 @@ items:
         items: 
           - name: What to buy to get Teams Phone
             href: business-voice/what-to-buy.md
-          - name: Check your Internet connection
+          - name: Check your internet connection
             href: business-voice/get-ready-internet.md
       - name: Set up Teams Phone
         items:
