@@ -75,7 +75,7 @@ The following table lists the major Microsoft Teams features available across pl
 | **Productivity apps and services** |         |         |         ||
 | File & document cloud storage (per user) |     5 GB    |   10 GB      |   10 GB     | 1 TB | 
 | Word, Excel, PowerPoint web & mobile apps |     Yes   |   Yes      |   Yes      | Yes | 
-| Google calendar sync |     Yes    |   Yes      |   Yes&sup1;      | Yes&sup1; | 
+| Google calendar sync |     Coming soon    |   Coming soon      |   Yes&sup1;      | Yes&sup1; | 
 | App Extensibility (250+ integrated apps & services) |     |        |   Yes      | Yes | 
 | Exchange email hosting with customer email domain address |    |   | 2 GB&sup2; |    50 GB|
 |**Security and compliance**     |         |         |         | | 
