@@ -95,7 +95,7 @@ For each SIP device, set one of the following SIP Gateway provisioning server UR
 - Americas: `http://noam.ipp.sdg.teams.microsoft.com`
 - APAC: `http://apac.ipp.sdg.teams.microsoft.com`
 
-Add SIP devices to your Teams organization by configuring the above SIP Gateway provisioning server URL in your DHCP server. To learn more about DHCP server, see [Deploy and manage DHCP](https://docs.microsoft.com/learn/modules/deploy-manage-dynamic-host-configuration-protocol). The devices in your organization will be routed to the SIP Gateway provisioning server. Successfully provisioned SIP phones will display the Teams logo and a soft button for sign-in.
+Add SIP devices to your Teams organization by configuring the above SIP Gateway provisioning server URL in your Dynamic Host Configuration Protocol (DHCP) server. To learn more about DHCP server, see [Deploy and manage DHCP](https://docs.microsoft.com/learn/modules/deploy-manage-dynamic-host-configuration-protocol). The devices in your organization will be routed to the SIP Gateway provisioning server. Successfully provisioned SIP phones will display the Teams logo and a soft button for sign-in.
 
 Also update each SIP device's firmware if it's required. That will push the default configuration and SIP Gateway user interface to the device. To find out the required firmware version for SIP devices, see [Plan for SIP Gateway](sip-gateway-plan.md).
 
