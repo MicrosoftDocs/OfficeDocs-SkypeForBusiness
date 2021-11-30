@@ -180,7 +180,7 @@ To connect an existing calendar solution with Teams Essentials (AAD Identity), f
 
 To get started, visit [**Connect Microsoft Teams Essentials (AAD Identity) to an existing email system with calendar**](aka.ms/TeamsEssentialsAADConfig) for more information. You can connect an existing email system like Google Workspace to Microsoft Teams Essentials (AAD Identity) to stay connected across platforms with integrated calendars and sign in.
 
-### Can I upgrade Teams Essentials bought through Microsoft's website to Microsoft 365?
+### Can I upgrade Teams Essentials bought directly through Microsoft's website to Microsoft 365?
 
 Upgrades from Teams Essentials to Microsoft 365 will be available soon.
 
