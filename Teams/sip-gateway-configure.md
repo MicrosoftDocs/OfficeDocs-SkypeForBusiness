@@ -280,7 +280,7 @@ Microsoft Teams Direct Routing only supports IPv4. The Microsoft Teams service a
 
 ## Emergency calling
 
-SIP Gateway only supports static—also called registered—emergency addresses. Currently, registered addresses are not supported for Direct Routing scenarios. For more information about emergency calling, see [Pland and manage emergency calling](https://docs.microsoft.com/en-us/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
+SIP Gateway only supports static—also called registered—emergency addresses. Currently, registered addresses are not supported for Direct Routing scenarios. For more information about emergency calling, see [Plan and manage emergency calling](https://docs.microsoft.com/en-us/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
 
 ## Report problems to Microsoft
 
