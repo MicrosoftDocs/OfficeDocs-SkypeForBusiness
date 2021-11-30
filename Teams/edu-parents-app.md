@@ -56,7 +56,7 @@ The Parents app helps educators securely connect and engage with the parents and
     Connect-MicrosoftTeams -Credential $credential
     ```
 
-The policy setting which enables external access with Teams accounts not managed by an organization at the user level (`EnableTeamsConsumerAccess`) is enabled by default for all user-level external access policies. Both the tenant-level setting and the user-level policy setting need to be enabled for a user to have external acces with Teams accounts not managed by an organization enabled. If you do not want every user in your tenant to have this access enabled, you should ensure that your tenant-level setting is disabled, update the user-level external access policies assigned to your users, and then enable the tenant-level setting.
+The policy setting which enables external access with Teams accounts not managed by an organization at the user level (`EnableTeamsConsumerAccess`) is enabled by default for all user-level external access policies. Both the tenant-level setting and the user-level policy setting need to be enabled for a user to have external access with Teams accounts not managed by an organization enabled. If you do not want every user in your tenant to have this access enabled, you should ensure that your tenant-level setting is disabled, update the user-level external access policies assigned to your users, and then enable the tenant-level setting.
 
 To check which user-level external access policies exist and who they are assigned to, you can use the following steps:
     
