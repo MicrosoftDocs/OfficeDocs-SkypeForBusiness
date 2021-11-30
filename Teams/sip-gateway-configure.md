@@ -35,7 +35,8 @@ Before you can configure SIP Gateway, do the following:
 
 - **Make sure the SIP devices are not behind a proxy.** Ensure that http/s traffic bypasses any corporate http/s proxy.
 
-- **Open the UDP ports.** Open UDP ports in the range 49152 to 53247 and TCP port 5061 for IP range 52.112.0.0/14 and 52.120.0.0/14.
+- **Open the UDP port.** Open UDP port in the range 49152 to 53247.
+- **Open the TCP port.** Open TCP port 5061 for IP ranges 52.112.0.0/14 and 52.120.0.0/14.
 
 The following sections describe the tasks you must perform as an administrator to configure SIP Gateway.
 
@@ -85,7 +86,7 @@ You can also enable SIP Gateway by using the PowerShell [Set-CsTeamsCallingPolic
 
 ## Set the SIP Gateway provisioning server URL
 
-### Administrators
+### DHCP
 
 For each SIP device, set one of the following SIP Gateway provisioning server URLs: 
 
@@ -97,7 +98,7 @@ Add SIP devices to your Teams organization by configuring the above SIP Gateway 
 
 Ensure SIP devices are on the minimum supported firmware version for onboarding. During onboarding, SIP Gateway will push the default configuration and authentication user interface to the device. To find out the required firmware version for SIP devices, see [Plan for SIP Gateway](sip-gateway-plan.md).
 
-### Remote users
+### Manual
 
 Users who work remotely must manually configure the provisioning server URL into their SIP device by using the following steps:
 
@@ -129,7 +130,7 @@ Conditional Access is an Azure Active Directory (Azure AD) feature that helps en
 
 For more information, see [IP address ranges](https://docs.microsoft.com/azure/active-directory/conditional-access/location-condition#ip-address-ranges).
 
-To use SIP Gateway, the following IP addresses and URLs must be accessible:
+To use SIP Gateway, open the following HTPPS endpoints (IP addresses and URLs):
 
 - 13.75.175.145
 - 52.189.219.201
@@ -144,7 +145,7 @@ To use SIP Gateway, the following IP addresses and URLs must be accessible:
 - [https://httpblobsdgemea.blob.core.windows.net](https://httpblobsdgemea.blob.core.windows.net)
 - [https://httpblobsdgnoam.blob.core.windows.net](https://httpblobsdgnoam.blob.core.windows.net)
 
-## Provision and enroll SIP devices
+## Provision and enroll SIP devices as common area phones
 > [!NOTE]
 > A SIP device must be onboarded to SIP Gateway before it can be enrolled.
 
@@ -289,7 +290,7 @@ How to set Japanese for Cisco phones:
 
 ## Microsoft Teams and IPv6
 
-Microsoft Teams Direct Routing only supports IPv4. The Microsoft Teams service and client support both IPv4 and IPv6. If you want to control communications to Microsoft Teams, use the IP address ranges in [Microsoft 365 URLs and IP address ranges](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges).
+SIP Gateway only supports IPv4. Microsoft Teams service and client support both IPv4 and IPv6. If you want to control communications to Microsoft Teams, use the IP address ranges in [Microsoft 365 URLs and IP address ranges](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges).
 
 ## Emergency calling
 
