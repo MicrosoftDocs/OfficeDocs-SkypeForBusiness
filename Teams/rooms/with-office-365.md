@@ -93,12 +93,12 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
 
    - AddAdditionalResponse: $true (The text specified by the AdditionalResponse parameter is added to meeting requests.)
 
-   - AdditionalResponse: "This is a Skype Meeting room!" (The additional text to add to the meeting request.)
+   - AdditionalResponse: "This is a Microsoft Teams Meeting room!" (The additional text to add to the meeting request.)
 
    This example configures these settings on the room mailbox named Rigel-01.
 
    ``` PowerShell
-   Set-CalendarProcessing -Identity "Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
+   Set-CalendarProcessing -Identity "Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
    ```
 
    For detailed syntax and parameter information, see [Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing).

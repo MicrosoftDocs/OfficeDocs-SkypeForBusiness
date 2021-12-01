@@ -41,7 +41,6 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 | Crestron UC-P8-C-T (with and without handset)   | `1.0.0.80`       | May 2021                     |
 | Yealink MP52                           | `145.15.0.6 `                                              | April 2021                   |
 | AudioCodes C435HD                      | `1.12.33`                                                  | April 2021                   |
-| AudioCodes C448HD (CAP mode only)      | `C450HD_TEAMS_0.225`                                       | March 2019                   |
 | AudioCodes C455HD                      | `1.14.404`                                                 | November 2021                |
 | Crestron UC-2                          |`1.0.1.46`                                                 | July 2020                    |
 | Lenovo ThinkSmart View                 | `CD-18781Y.200410.067`                                     | April 2020                   |
@@ -49,7 +48,7 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 | Poly CCX400                            | `1.0.0.0200`                                               | January 2020                 |
 | Poly CCX600                            | `5.9.12.1122`                                              | January 2020                 |
 | Poly CCX500                            | `5.9.12.1122`                                              | December 2019                |                                                                                                                                                           
-| Yealink EXP50 supported on T56, T58, MP56, MP58, VP59| For each supported device model, see update #7 firmware version | January 2021 |
+| Yealink EXP50 supported on MP56, MP58, VP59| For each supported device model, see update #7 firmware version | January 2021 |
 | Yealink MP58 | `122.15.0.27`| December 2020 |
 | Yealink MP54 | `122.15.0.27`| November 2020 |
 | Yealink MP56 | `122.15.0.6` | March 2020    |
@@ -100,6 +99,7 @@ The following are the latest Teams phone app and firmware versions.
 
 | Product release | Release date  | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| 2021 Update #3A | Nov 22, 2021   | `1449/1.0.94.2021110101 ` | `5.0.5304.0` | `298` |
 | 2021 Update #3  | Nov 03, 2021   | `1449/1.0.94.2021101205` | `5.0.5304.0` | `298` |
 | 2021 Update #2A | June 10, 2021  |`1449/1.0.94.2021052803`|  `5.0.5088.0` |  `1.0.0.202103160138.product (256)` |
 | 2021 Update #2  | June 8, 2021  |`1449/1.0.94.2021051303`|  `5.0.5088.0` |  `1.0.0.202103160138.product (256)` |
@@ -181,6 +181,9 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | `3.7.0`          | 2021 Update #2A    |
+| Poly Studio X50 | `3.7.0`          | 2021 Update #2A    |
+| Poly TC8 | `3.7.0`                 | 2021 Update #2A    |
 | Poly Studio X30 | `3.6.0.350035`          | 2021 Update #2A    |
 | Poly Studio X50 | `3.6.0.350035`        | 2021 Update #2A    |
 | Poly TC8 | `3.6.0.210534`              | 2021 Update #2A    |

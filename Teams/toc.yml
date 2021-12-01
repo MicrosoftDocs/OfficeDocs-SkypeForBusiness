@@ -99,7 +99,7 @@ items:
               href: hardware-requirements-for-the-teams-app.md
             - name: Hardware decoder and encoder driver recommendations
               href: hardware-decoders-and-encoders.md
-            - name: Install Teams using MSI
+            - name: Install Microsoft Teams using Microsoft Endpoint Configuration Manager
               href: msi-deployment.md
             - name: Turn on Teams in your organization
               href: Office-365-set-up.md
@@ -373,8 +373,6 @@ items:
               href: view-guests.md
             - name: Edit guest information
               href: edit-guests-information.md
-            - name: Troubleshoot guest access
-              href: troubleshoot-guest-access.md
     - name: Monitor and manage call quality
       items: 
         - name: Monitor and improve call quality
@@ -1674,6 +1672,8 @@ items:
           href: devices/device-management.md
         - name: Remote provisioning and sign-in
           href: devices/remote-provision-remote-login.md
+        - name: Remote sign in and sign out
+          href: devices/remote-sign-in-and-sign-out.md
         - name: Update your devices remotely
           href: devices/remote-update.md
         - name: Manage Teams device tags
