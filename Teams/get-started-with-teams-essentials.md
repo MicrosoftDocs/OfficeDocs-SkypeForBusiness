@@ -114,7 +114,7 @@ To get started with Teams Essentials, follow these steps:
 
 1. **Purchase the subscription.** Go to [Microsoft Teams Essentials for small business](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options) and select **Buy now** under Microsoft Teams Essentials.
 2. **Sign up with your existing email address.** Use an existing email address and follow the instructions to purchase user licenses.
-3. **Review Teams service description.** Visit [Microsoft Teams service description ](office365/servicedescriptions/teams-service-description) to learn more about Microsoft Teams.
+3. **Review Teams service description.** Visit [Microsoft Teams service description ](/office365/servicedescriptions/teams-service-description) to learn more about Microsoft Teams.
 
 When you've completed these tasks, you're ready to plan, deploy, and use the Teams app.
 
