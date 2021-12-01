@@ -1,5 +1,5 @@
 ﻿---
-title: Multi-tenant Management for Customers
+title: Multi-tenant Management for Partners
 author: donnah007
 ms.author: v-donnahill
 manager: serdars
@@ -20,7 +20,7 @@ f1keywords:
 ---
 
 
-# Multi-tenant management in the Teams Room Managed service
+# Multi-tenant management in the Teams Room managed service
 
 Multi-tenant management (MTM) in the TRM service helps partner organizations manage multiple customers in one place, with their own domain credentials. Partner users will only see customer rooms that they are assigned to manage. It is possible to leverage custom roles for each customer in the MTM tenant, giving partner organizations granular control of permissions to the customer’s resources. 
 
@@ -39,34 +39,34 @@ To manage customers through the TRM-MTM portal, a relationship must be establish
 
 ### Invitation from the customer
 
-The partner should provide the user principle names (UPNs) of the users that will be primary administrators assigned to the customer. Only the users identified in the invite will be able to see and accept the invitation when they login to the TRM-MTM portal. 
+The partner provides the user principle names (UPNs) of the users who will be primary administrators assigned to the customer. Only the users identified in the invitation can see and accept the invitation when they login to the TRM-MTM portal. 
 
 [!Note] Even if you have elevated privileges, such as Global Administrator, you will not see the invitation unless explicitly added. 
 
-Details on the customer invitation are outlined [here]<multi-tenant-management-customer.md>.
+Details on the customer invitation are outlined [here](multi-tenant-management-customer.md).
 
 **To accept a pending invite**
 
 1. Login to the TRM-MTM portal as one of the users on the invitation.
-1. Go to **Customers.**
+1. Go to **Customers**.
 1. Select the invitation showing with a status of “Pending”.
 1. Review the invitation details.
 1. Select **Accept** to establish the partner-customer relationship.<br>
 
-   Selecting **Deny** will delete the invitation for the user denying. The invitation will still be available for other users that have yet acted.
+   Selecting **Deny** deletes the invitation for the user denying. The invitation is still available for other users that have not yet acte'd.
 
-[!Note] The invitation is unique to each user and independent. The first user to Accept will establish the link between the Partner and Customer tenant. There is no permanent association with the user that establishes the link. Subsequent users to accept will be added as Primary admins.
+[!Note] The invitation is unique to each user, and independent. The first user to Accept will establish the link between the Partner and Customer tenant. There is no permanent association with the user that establishes the link. Subsequent users to accept will be added as Primary admins.
 
 [!Note] *If a partner user accidentally denies the invitation, it is best to have another user simply add them to the Partner role (or any other RBAC role) for that customer.* 
 
 After accepting the invitation, the user is automatically added as a Primary admin for this customer's tenant. 
 
-The configuration for this tenant can be reviewed by selecting the customer from the list in **Customers.**
+To review the configuration for this tenant, select the customer from the list in **Customers.**
 
 
 ## Off-boarding customers
 
-To remove a customer: 
+**To remove a customer** 
 
 1. Login to the TRM-MTM portal as a Primary admin for the customer you wish to remove.
 1. Go to **Customers**.

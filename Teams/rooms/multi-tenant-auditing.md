@@ -22,7 +22,7 @@ f1keywords:
 
 # Audit logging in the Teams Rooms Managed service
 
-Audit in Teams Rooms Managed lets you search for audit records for activities performed in the portal by users and admins. This feature is enabled by default. Only the Managed Service Administrator has permission to export and then view the logs.
+Audit in Teams Rooms Managed (TRM) service lets you search for audit records for activities performed in the portal by users and admins. This feature is enabled by default. Only the Managed Service Administrator has permission to export and then view the logs.
 
 [!NOTE] Actions performed in the TRM service are not logged in Microsoft 365 or Office 365 auditing 
 
