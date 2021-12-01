@@ -1,6 +1,6 @@
 ---
 title: Manage app setup policies in Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: rarang
@@ -55,10 +55,10 @@ To create an app setup policy to pin apps, do the following steps:
 
 3. Enter a name and description for the policy.
 
-4. Turn on or turn off **Allow user pinning**, depending on whether you want to let users personalize their app bar by pinning apps to it.
+4. Turn on or turn off **User pinning**, depending on whether you want to let users personalize their app bar by pinning apps to it.
 
    > [!NOTE]
-   > The **Allow user pinning** setting is available in the Teams admin center in Microsoft 365 Government Community Cloud (GCC) environments (GCC, GCC High and DoD), but currently it has no effect.
+   > The **User pinning** setting is available in the Teams admin center in Microsoft 365 Government Community Cloud (GCC) environments (GCC, GCC High and DoD), but currently it has no effect.
 
 5. Under **Pinned apps**, select **Add apps**.
 
@@ -200,11 +200,11 @@ With the Teams mobile clients, users will see core Teams apps such as Activity, 
 
 #### Can users change the order of apps pinned through a policy
 
-Users can change the order of their pinned apps on Teams desktop and mobile clients if the **Allow user pinning** option is turned on. Users can't change the order of their pinned apps on Teams web clients.
+Users can change the order of their pinned apps on Teams desktop and mobile clients if the **User pinning** option is turned on. Users can't change the order of their pinned apps on Teams web clients.
 
 #### Does user pinning take precedence
 
-Admin pins always take precedence. If the **Allow user pinning** option is turned on, then users will retain their pinned apps below admin pinned apps. If the **Allow user pinning** option is turned off, then users will lose their pre-existing pins, and only admin-pinned apps will be present in the app bar.
+Admin pins always take precedence. If the **User pinning** option is turned on, then users will retain their pinned apps below admin pinned apps. If the **User pinning** option is turned off, then users will lose their pre-existing pins, and only admin-pinned apps will be present in the app bar.
 
 ### Custom Teams apps
 
@@ -212,7 +212,7 @@ Admin pins always take precedence. If the **Allow user pinning** option is turne
 
 Make sure that you follow the logo guidelines before you submit the app. To learn more, see [Checklist for Seller Dashboard submission](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview).
 
-## Related topics
+## Related articles
 
 [Admin settings for apps in Teams](admin-settings.md)
 

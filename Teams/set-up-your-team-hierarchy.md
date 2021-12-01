@@ -1,6 +1,6 @@
 ---
 title: Set up your team targeting hierarchy
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual

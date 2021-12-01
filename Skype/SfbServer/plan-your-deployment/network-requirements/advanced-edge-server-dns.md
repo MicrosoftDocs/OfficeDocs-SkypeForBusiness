@@ -2,7 +2,7 @@
 title: "Advanced Edge Server DNS planning for Skype for Business Server"
 ms.reviewer: 
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 audience: ITPro
 manager: serdars
 ms.topic: conceptual

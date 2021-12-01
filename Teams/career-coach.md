@@ -1,6 +1,6 @@
 ---
 title: Purchase, configure, and enable Career Coach for Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: alaina.creager
 manager: serdars
@@ -160,15 +160,15 @@ Customize Career Coach to match your educational institution’s brand. You are 
 
 3. Upload the **educational institution icon**. The icon is used throughout Career Coach to identify content unique to your educational institution, course catalog resources throughout the app, and on the real-world experiences section of the dashboard. The icon is best formatted as:
 
-- A transparent PNG
-- Aspect ratio of 1:1
-- Maximum size of 64 px x 64 px
+    - A transparent PNG
+    - Aspect ratio of 1:1
+    - Maximum size of 64 px x 64 px
 
 4. Upload the **educational institution thumbnail**. The thumbnail will be used for course catalog resources throughout the app when a specific image isn't available for a course. The thumbnail is best formatted as:
 
-- A PNG
-- Aspect ratio of 16:9
-- Maximum size of 360 px x 200 px
+    - A PNG
+    - Aspect ratio of 16:9
+    - Maximum size of 360 px x 200 px
 
 5. Add the **educational institution's privacy policy URL**. If added, the institution's privacy policy will be available for students to review in the Career Coach app.
 
@@ -320,8 +320,8 @@ After you complete the configuration, enable the app for students and licensed u
 
 2. Move the Status toggle to **Allowed**.  
 
-  > [!NOTE]
-  > **Allowed** means that the app is available for users in your educational institution. Blocked means that the app isn't available to students.
+   > [!NOTE]
+   > **Allowed** means that the app is available for users in your educational institution. Blocked means that the app isn't available to students.
 
 ### Add Career Coach as an installed app
 

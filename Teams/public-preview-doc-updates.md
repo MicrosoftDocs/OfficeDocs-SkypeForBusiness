@@ -1,6 +1,6 @@
 ---
 title:  Public preview in Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -33,9 +33,9 @@ For a list of what's available in the Teams public preview, visit [Microsoft Tea
 
 Public preview is enabled on a per-user basis, and the option to turn on public preview is controlled in an admin policy. Update policies are used to manage Teams and Office preview users who will see pre-release or preview features in the Teams app. You can use the Global (Org-wide default) policy and customize it, or create one or more custom policies for your users. The policy needs to be assigned to specific users because it doesn’t over-write the global policy.
 
-1. Sign in to the admin center.
+1. Sign in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com/).
 
-2. Select **Teams** > **Update policies**, and then select the **Update policies** option.
+2. Select **Teams** > **Teams Update policies**.
 
 1. Select **Add** to create a new policy or select an existing policy to open **Update policy**.
 

@@ -2,7 +2,7 @@
 title: Shifts for Teams
 description: Get the admin guidance you need to set up and manage Shifts, the schedule management tool, in Teams.
 ms.topic: conceptual
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 audience: admin
 manager: serdars
