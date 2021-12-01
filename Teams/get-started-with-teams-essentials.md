@@ -104,7 +104,7 @@ Here are a few important Teams Essentials limits and specifications to consider 
 
   - **Storage**: Teams Essentials uses OneDrive's personal cloud storage for file storage.
 
-Go here:  [Microsoft Teams limits and specifications](microsoftteams/limits-specifications-teams) to learn more about the limits, specifications, and other requirements that apply to Teams.
+Go here:  [Microsoft Teams limits and specifications](/microsoftteams/limits-specifications-teams) to learn more about the limits, specifications, and other requirements that apply to Teams.
 
 ## Get Microsoft Teams Essentials
 
