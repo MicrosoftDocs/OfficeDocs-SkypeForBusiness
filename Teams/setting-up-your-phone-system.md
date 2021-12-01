@@ -3,7 +3,7 @@ title: "Set up Teams Phone in your organization"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: makolomi
+ms.reviewer: roykuntz
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -15,7 +15,6 @@ ms.collection:
   - m365solution-scenario
 audience: Admin
 appliesto: 
-  - Skype for Business
   - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:

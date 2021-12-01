@@ -1,6 +1,6 @@
 ---
 title: "What is Teams Phone"
-ms.reviewer: 
+ms.reviewer: roykuntz
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,7 +13,6 @@ ms.collection:
   - m365initiative-voice
 audience: Admin
 appliesto: 
-  - Skype for Business
   - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
@@ -30,7 +29,7 @@ Teams Phone is Microsoft's technology for enabling call control and Private Bran
 
 Teams Phone works with Teams clients and certified devices. Teams Phone allows you to replace your existing PBX system with a set of features directly delivered from Microsoft 365.
 
-Calls between users in your organization are handled internally within Teams Phone, and never go to the Public Switched Telephone Network (PSTN). This applies to calls between users in your organization located in different geographical areas, removing long-distance costs on these internal calls. For information about making external calls, see [Connect to the Public Switched Telephone Network](#connect-to-the-public-switched-telephone-network-(pstn)).
+Calls between users in your organization are handled internally within Teams Phone, and never go to the Public Switched Telephone Network (PSTN). This applies to calls between users in your organization located in different geographical areas, removing long-distance costs on these internal calls. 
 
 For more information about voice solutions and PSTN connectivity options for making external calls, see [Plan your Teams voice solution](cloud-voice-landing-page.md).
 
@@ -53,7 +52,7 @@ Teams Phone can be connected to the PSTN in one of several ways:
 
   You can connect your on-premises telephony infrastructure to Teamts Phone by using Operator Connect or Direct Routing. 
 
-  For more information about all PSTN Connectivity options, see [PSTN connectivity options](pstn-connectivity.md).
+For more information about all PSTN Connectivity options, see [PSTN connectivity options](pstn-connectivity.md).
 
 
 ## Teams Phone with services

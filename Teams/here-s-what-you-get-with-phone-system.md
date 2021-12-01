@@ -4,7 +4,7 @@ ms.reviewer:
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-msreviewer: jastarck, makolomi
+msreviewer: jastarck, roykuntz
 ms.topic: conceptual
 ms.assetid: bc9756d1-8a2f-42c4-98f6-afb17c29231c
 ms.tgt.pltfrm: cloud
@@ -15,7 +15,6 @@ ms.collection:
   - m365initiative-voice
 audience: Admin
 appliesto: 
-  - Skype for Business
   - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
