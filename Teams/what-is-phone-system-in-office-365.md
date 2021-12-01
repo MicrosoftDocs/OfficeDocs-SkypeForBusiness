@@ -31,7 +31,7 @@ Teams Phone works with Teams clients and certified devices. Teams Phone allows y
 
 Calls between users in your organization are handled internally within Teams Phone, and never go to the Public Switched Telephone Network (PSTN). This applies to calls between users in your organization located in different geographical areas, removing long-distance costs on these internal calls. 
 
-For more information about voice solutions and PSTN connectivity options for making external calls, see [Plan your Teams voice solution](cloud-voice-landing-page.md).
+For making external calls, Teams Phone provides add-on options for connecting to the PSTN. For more information about voice solutions and PSTN connectivity options, see [Plan your Teams voice solution](cloud-voice-landing-page.md) and [Connect to the PSTN](#connect-to-the-public-switched-telephone-network-pstn).
 
 ## Teams Phone features
 
@@ -44,13 +44,13 @@ For more information about Teams Phone features, see [Here's what you get with T
 
 ## Connect to the Public Switched Telephone Network (PSTN)
   
-Teams Phone can be connected to the PSTN in one of several ways:
+For external calling, Teams Phone can be connected to the PSTN in one of several ways:
   
 - Purchase a Microsoft Calling Plan (domestic or domestic and international). Microsoft Calling Plan is an all-in-the-cloud solution with Microsoft as your PSTN carrier. For more information, see [Teams Phone and Calling Plans](calling-plan-landing-page.md).
 
 - Use your existing telephony infrastructure for on-premises PSTN connectivity.
 
-  You can connect your on-premises telephony infrastructure to Teams Phone by using Operator Connect or Direct Routing. 
+  You can connect your on-premises telephony infrastructure to Teams Phone by using Operator Connect Calling or Direct Routing. 
 
 For more information about all PSTN Connectivity options, see [PSTN connectivity options](pstn-connectivity.md).
 
