@@ -797,11 +797,11 @@ items:
               href: rooms/update-management.md 
             - name: Configure ServiceNow for Teams Rooms
               href: rooms/microsoft-teams-rooms-configure-servicenow.md
-            - name: Multi-tenant management for parters
+            - name: Customer management for parters
               href: rooms/multi-tenant-management-partner.md
-            - name: Multi-tenant management for customers
+            - name: Partner management for customers
               href: rooms/multi-tenant-management-customer.md
-            - name: Audit logs for Rooms activities
+            - name: Audit logs for Teams Rooms Managed services activities
               href: rooms/multi-tenant-auditing.md
 
              
