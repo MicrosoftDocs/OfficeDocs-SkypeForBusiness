@@ -23,7 +23,7 @@ description: "Use Power BI to analyze CQD data for Microsoft Teams."
 
 New in January 2020: [Download Power BI query templates for CQD](https://www.microsoft.com/download/details.aspx?id=102291). Customizable Power BI templates you can use to analyze and report your CQD data.
 
-For Call Quality Dashboard (CQD) reports in Teams, if you'd rather use Power BI to query and report your data, download our CQD Power BI templates. When you open the templates in Power BI, you'll be prompted to sign in with your CQD admin credentials. You can customize these query templates and distribute them to anyone in your organization who has a Power BI license and CQD admin permissions.
+For Call Quality Dashboard (CQD) reports in Teams, if you'd rather use Power BI to query and report your data, download our CQD Power BI templates. When you open the templates in Power BI, you'll be prompted to sign in with your CQD admin credentials. You can customize these query templates and distribute them to anyone in your organization who has a Power BI Pro license and CQD admin permissions.
 
 Before you can use these PBIT files, you'll need to [Install the Power BI Connector for Microsoft CQD](CQD-Power-BI-connector.md) using the *MicrosoftCallQuality.pqx* file included in the [download](https://www.microsoft.com/download/details.aspx?id=102291). 
 
@@ -41,7 +41,7 @@ Make sure you have the right [CQD access role](turning-on-and-using-call-quality
 |CQD User Feedback (Rate My Call) Report.pbit     | Shows Rate My Call data in a way that you can easily use to help support calling for your organization. Cross reference with verbatims to identify end user education opportunities.        |
 
 > [!TIP]
-> Once you've set up your Power BI reports for CQD data, add them as a tab to a channel. After you select **+** in a channel, select **Power BI** and then find your report. To learn more, read [Embed report with the Power BI tab for Teams](/power-bi/service-embed-report-microsoft-teams). Remember, only people with a Power BI license and CQD admin credentials can access these reports.
+> Once you've set up your Power BI reports for CQD data, add them as a tab to a channel. After you select **+** in a channel, select **Power BI** and then find your report. To learn more, read [Embed report with the Power BI tab for Teams](/power-bi/service-embed-report-microsoft-teams). Remember, only people with a Power BI Pro license and CQD admin credentials can access these reports.
 
 
 ## Related topics
