@@ -20,38 +20,7 @@ f1keywords:
 ---
 
 
-# Microsoft Teams Rooms Managed Services Updates 
-
-The Microsoft Teams Rooms Managed Service (“managed services”) is a cloud-based IT management and monitoring service that keeps Microsoft Teams Rooms devices and their peripherals up to date and proactively monitored, supporting an environment optimized for a great user experience.  
-
-
-
-These are three key aspects of the service:  
-
-
-
-- Intelligent operations  
-
-Software and machine learning that automates updates, problem detection, problem resolution for Microsoft Teams Rooms.  
-
-
-
-- Dedicated experts  
-
-A team of experts who provide 24x7 service operations, tiered support, and incident resolution assistance.  
-
-
-
-- Enhanced insights  
-
-Rich analytics, reporting, and proven learnings at scale across many customers.  
-
-
-
-This document describes how managed updates work in Microsoft Teams Rooms Managed Services. 
-
-
-## Update management 
+# Update management 
 A modern meeting room is equipped with a Microsoft Teams Rooms device and other peripherals such as a camera, microphone, or speaker, and potentially more devices to create an inclusive and effective meeting experience. Equipment from different kinds of OEMs provides the exact organizational experience desired; however, they must be maintained with software and firmware on an ongoing basis.  
 
 Managed Services for Microsoft Teams Rooms provides the assurance that each room in your organization will be maintained at recommended levels to deliver a room that is always ready and works properly. Microsoft's goal is to reduce complexity and legwork for your operational staff with intelligence and automation. Troubleshooting or diagnostics is performed as quickly as possible. 
@@ -61,7 +30,7 @@ Managed Services for Microsoft Teams Rooms provides the assurance that each room
 
 
 
-### Transitioning A device To Managed Services 
+## Transitioning A device To Managed Services 
 Room devices onboarding to Managed Services usually have a change management history and practice that is different from our guidance.  
 
 - To truly benefit from Managed Services, you will need to transition **change management for all updates under Managed Services portfolio.**  
@@ -72,7 +41,7 @@ Room devices onboarding to Managed Services usually have a change management his
 
 
 
-### Transitioning devices: Basic readiness checks 
+## Transitioning devices: Basic readiness checks 
 Most of the unexpected failures arise from changes in the base image with uncertain history of change management. 
 
 Following simple readiness checks is recommended:**  

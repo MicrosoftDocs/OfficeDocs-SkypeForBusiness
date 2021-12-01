@@ -84,7 +84,7 @@ If TPM on an Intel NUC device is disabled, enable TPM on these devices as follow
 
 
 ## URLs Required for Communication  
-**Note:** All network traffic between the MTR devices agent and the Microsoft Teams Rooms – Managed Services service portal is SSL over port 443*.* 
+[!NOTE] All network traffic between the MTR devices agent and the Microsoft Teams Rooms – Managed Services service portal is SSL over port 443*.*  See [Office 365 URLs and IP address ranges - Microsoft 365 Enterprise | Microsoft Docs](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide).
 
 
 

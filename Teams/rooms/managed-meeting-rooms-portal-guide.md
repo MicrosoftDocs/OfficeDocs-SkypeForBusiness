@@ -96,9 +96,9 @@ Incidents are expected to be in one of three states:
 
 
 ### Reviewing Incidents 
-The following table  lists all the incidents that are currently active in your rooms. The ones that are assigned to you *are on the top* – these are what you need to look at for next steps. In addition, the ones assigned to Microsoft or pending investigation have details that you can use to intervene. 
+The following image lists all the incidents that are currently active in your rooms. The ones that are assigned to you *are on the top* – these are what you need to look at for next steps. In addition, the ones assigned to Microsoft or pending investigation have details that you can use to intervene. 
 
-
+![Figure 3](media/rooms-portal-guide.001.jpg) 
 
 If you select on any of items that have status “**Needs action**”, you will see additional details about the incident. 
 
@@ -122,7 +122,7 @@ Incidents classified as **“warning”** severity do not affect the health stat
 Following are some of the types of incidents that you might see and the explanations for each type. For each type, the action associated with the incident will be more specific depending on the issue. 
 
 
-### Incidents with “Important” Severity
+## Incidents with “Important” Severity
 
 |Type |Explanation |
 | :- | :- |
@@ -164,7 +164,7 @@ Each such incident will have an action field with a recommended action from Micr
 - It is also possible that the notification is incorrect based on your review. In that case, please provide that feedback and assign back to Microsoft. 
 - Finally, if you want to add a comment to provide additional context for your own team or for Microsoft team, post the message without turning on “Assign to Microsoft“. 
 
-![NOTE] It is possible that due to your corrective action, the actual issue is addressed, and things go back to normal. It is possible that Managed Rooms monitoring might detect that things are back to normal and clear that incident of your list. In the above situation, you might not get a chance to resolve the issue and assign it back to Microsoft. In a future release, we will address this issue. 
+![NOTE] Your corrective action may address the issue, and that Managed Rooms monitoring clears that incident from your list. In the above situation, you might not get a chance to resolve the issue and assign it back to Microsoft. This issue will be addressed in a future release. 
 
 
 
@@ -176,7 +176,7 @@ For the incidents under investigation, the description field holds information a
 ### “Assigned to Microsoft” Incidents 
 For the incidents assigned to Microsoft, the “Action” field will contain brief details about corrective steps either planned or progressed. These steps might need collaboration with your team and extended collaboration will be done through email/calls as needed. Once these issues are resolved, they will disappear from the portal and in future, there will be history to track such incidents and their resolution. 
 
-<!--![Figure 6](media/rooms-portal-guide.006.jpg) -->
+<!--![Figure 6](media/rooms-portal-guide.006.jpg) 
 ## Rooms View 
 Each device is a proxy for a room and its connected peripherals. A healthy device represents a healthy room and an unhealthy device represents a room likely causing problems during meetings. 
 
@@ -184,9 +184,9 @@ In addition to the Incidents view, Managed Rooms Portal also provides a room hea
 ### Room: Healthy, Unhealthy, Disconnected 
 The top panel on the Rooms view provides a quick snapshot of how many of your devices are in a good state(“Healthy”), how many are affected by issues(“Unhealthy”), how many are not providing telemetry (“Disconnected”), and how many devices are suppressed from alerting (as an override). 
 
-<!--![Figure 7](media/rooms-portal-guide.007.jpg)  -->
+![Figure 7](media/rooms-portal-guide.007.jpg) 
 
-Rooms are being monitored for health using an evolving criteria and heuristics. The goal is to reflect the reality of the user experience in the room as accurately as possible and make it actionable. 
+Rooms are monitored for health using an evolving criteria and heuristics. The goal is to reflect the reality of the user experience in the room as accurately as possible and make it actionable. 
 
 **Healthy / Unhealthy rooms**: 
 
@@ -201,17 +201,17 @@ It is possible that telemetry is not able to detect all possible issues currentl
 **Disconnected device:** 
 
 The Microsoft monitoring agent deployed as part of Managed Rooms pilot is disconnected from Managed Room cloud services. We are not receiving telemetry about the room and do not have latest health status. This may happen due to network issues, firewall policy changes or if there are changes made to the device image. 
-### Room Details: Status 
+<--### Room Details: Status 
 The device *Status* tab provides a consolidated view of status of a device, all the issues active for the device, the actions that are needed to resolve them, or that are ongoing. The Status tab also contains the breakdown of different components of health for the device under *Incidents tab*. If a device is disconnected, Status details will not be available. 
 
 
 
-<!--![Figure 8](media/rooms-portal-guide.008.jpg) -->
+[Figure 8](media/rooms-portal-guide.008.jpg) 
 
-### Room: Incident History 
+<!--### Room: Incident History 
 To see the incident history, select each incident type. This meant to provide a view of currently active incidents and history of these symptoms on the device. Repeated incidents point usually to an unresolved underlying root cause. 
 
-<!--![Figure 9](media/rooms-portal-guide.009.jpg)  -->
+<!--![Figure 9](media/rooms-portal-guide.009.jpg)  
 
 
 
@@ -219,62 +219,14 @@ To see the incident history, select each incident type. This meant to provide a 
 ### Room: Device details 
 The *Room details* tab provides helpful context about the device to help in troubleshooting. It is meant to help with sending the right support experts to a room if needed, or to detect patterns of repeated failure. 
 
-<!--![Figure 10](media/rooms-portal-guide.010.jpg) --> 
+<!--![Figure 10](media/rooms-portal-guide.010.jpg) 
 
 ### Room: Activity 
 The room activity tab is meant to provide visibility into any activity performed by the Managed Rooms service on the device. Initially, it will show the logs collected from the device for audit purposes. You can download these logs from the portal as well. 
 
 
 
-<!--![Figure 11](media/rooms-portal-guide.011new.png) --> 
-### Access control: Adding Managed Service Administator roles in the service portal 
+<!--![Figure 11](media/rooms-portal-guide.011new.png) -->
 
-
-1. Log in with your tenant user account to ervice portal. 
-1. Navigate to the Settings panel.
-1. Click "Managed Service Administrator" text takes you to the following experience.   
-
-
-![Figure 13](media/rooms-portal-guide.013.jpg) 
-
-
-
-5. Select  "Add Member"  to add the email address of the users you want to add to this role. You must do this one user at a time.  
-
-<![Figure 14](media/rooms-portal-guide.014.jpg)  -->
-
-
-### Access control for the portal: Set Policy 
-Important: Please review this section and make sure that access to the portal is limited based on your business needs. 
-
-1. Navigate to Azure portal and select Azure Active Directory. 
-
-![Figure 15](media/rooms-portal-guide.015.jpg) 
-
-
-
-1. Select Enterprise Applications.
-
-![Figure 16](media/rooms-portal-guide.016.jpg)  
-
-
-
-1. Select FastTrack Rooms in the Application List.
-
-
-
-![Figure 17](media/rooms-portal-guide.017.jpg) 
-
-
-
-![Figure 18](media/rooms-portal-guide.018.jpg) 
-
-1. Within FastTrack Rooms, select the **Properties** tab, and check **User Assignment Required**. 
-
-
-
-1. Navigate to “Users and Groups” to control access to the application. Currently, role assignment is not relevant to the program and does NOT have any effect on user privileges. 
-
-<!--![Figure 19](media/rooms-portal-guide.019.jpg) -->
 
 
