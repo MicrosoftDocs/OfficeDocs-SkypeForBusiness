@@ -99,7 +99,7 @@ items:
               href: hardware-requirements-for-the-teams-app.md
             - name: Hardware decoder and encoder driver recommendations
               href: hardware-decoders-and-encoders.md
-            - name: Install Teams using MSI
+            - name: Install Microsoft Teams using Microsoft Endpoint Configuration Manager
               href: msi-deployment.md
             - name: Turn on Teams in your organization
               href: Office-365-set-up.md
@@ -373,8 +373,6 @@ items:
               href: view-guests.md
             - name: Edit guest information
               href: edit-guests-information.md
-            - name: Troubleshoot guest access
-              href: troubleshoot-guest-access.md
     - name: Monitor and manage call quality
       items: 
         - name: Monitor and improve call quality
@@ -690,6 +688,12 @@ items:
           href: audio-conferencing-common-questions.md
         - name: Try or purchase Audio Conferencing in Microsoft 365
           href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
+        - name: Operator Connect Conferencing
+          items:
+            - name: Overview
+              href: operator-connect-conferencing-plan.md
+            - name: Configure Operator Connect Conferencing
+              href: operator-connect-conferencing-configure.md
         - name: Extended dial-out minutes for US and Canada
           href: dial-out-minutes-canada-us.md
         - name: Audio Conferencing Complimentary Dial Out Period
