@@ -481,7 +481,6 @@ The following calling and meeting features are not supported:
 - PSTN call ringback tone
 - Shared system audio/computer sound
 - Media bypass for Direct Routing
-- Call park
 - Zoom control
 
 > [!NOTE]
