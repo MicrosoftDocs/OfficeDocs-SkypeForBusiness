@@ -785,16 +785,10 @@ items:
               href: rooms/microsoft-teams-rooms-premium.md
             - name: Obtain and assign a license
               href: rooms/obtaining-assigning-license.md
-            - name: Installation
-              href: rooms/monitoring-software-installation-guide.md
             - name: Enroll in MTRP managed service
               href: rooms/enrolling-mtrp-managed-service.md
             - name: Role-based access control
-              href: rooms/microsoft-teams-rooms-premium-rbac.md
-            - name: Monitoring and maintaining Rooms
-              href: rooms/managed-meeting-rooms-portal-guide.md
-            - name: Managed updates
-              href: rooms/update-management.md 
+              href: rooms/microsoft-teams-rooms-premium-rbac.md- 
             - name: Configure ServiceNow for Teams Rooms
               href: rooms/microsoft-teams-rooms-configure-servicenow.md
             - name: Customer management for parters
@@ -803,9 +797,6 @@ items:
               href: rooms/multi-tenant-management-customer.md
             - name: Audit logs for Teams Rooms Managed services activities
               href: rooms/multi-tenant-auditing.md
-
-             
-
               
         - name: Plan
           items: 
@@ -883,8 +874,6 @@ items:
               href: rooms/xml-config-file.md
             - name: Use the recovery tool
               href: rooms/recovery-tool.md
-            - name: Reference
-              href: rooms/update-management-reference.md
 
 - name: Voice - Phone System and PSTN connectivity
   items: 
