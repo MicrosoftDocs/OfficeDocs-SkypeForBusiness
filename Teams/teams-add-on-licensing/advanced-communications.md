@@ -25,11 +25,10 @@ If your organization is looking to further enhance your communication experience
 
 ## What is Advanced Communications?
 
-Advanced Communications includes advanced meetings customization, tools to manage your organization's communication policies, and premium manageability with custom policy packages. Additional features include custom branded meeting lobby to tailor your meetings, and tools to monitor, track, and analyze data on users and devices.
+Advanced Communications includes advanced meetings customization, tools to manage your organization's communication policies, premium manageability with custom policy packages, and custom branded meeting lobby to tailor your meetings.
 
 - Customize your meeting pre-join experience with your company's logo in pre-join and the lobby. 
 - Create unifying meeting experiences with custom Together Mode scenes designed to the needs of your company and the meeting.
-- Monitor, track, and analyze data on users and devices to ensure a smooth experience with real-time telemetry.
 - Tailored experiences with custom policy packages by bundling your own set of policies for users with similar roles in your organization using the Teams Admin Center or PowerShell. Each user will require a license in order to receive a custom policy package assignment. 
 
 Advanced Communications is available in all Microsoft 365 markets as an add-on to any paid Microsoft 365 or Office 365 subscription. Features included in Advanced Communications won't be added to other Microsoft 365 or Office 365 plans and can't be purchased separately. To get the features, you must purchase the add-on.
