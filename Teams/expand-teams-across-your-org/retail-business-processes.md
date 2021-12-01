@@ -31,7 +31,7 @@ Teams includes many apps to help you and your retail team manage their day-to-da
 - Use [Shifts](shifts-for-teams-landing-page.md) to create and update schedules for your store team. Your workers can sign up for shifts, trade shifts as needed, and sign in when they start.
 - Publish and track [Tasks](../manage-tasks-app.md) for your workers, so they know what needs to be done every day.
 - Use [Approvals](../approval-admin.md) right in your chat to quickly sign off when something is done or needs to be submitted.
-- Keep track of everything else with [Lists](../../manage-lists-app.md).
+- Keep track of everything else with [Lists](../manage-lists-app.md).
 
 ## Conduct store walks and inventories
 
