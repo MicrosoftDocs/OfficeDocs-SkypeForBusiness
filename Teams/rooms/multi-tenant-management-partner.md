@@ -22,7 +22,7 @@ f1keywords:
 
 # Multi-tenant management in the Teams Room managed service
 
-Multi-tenant management (MTM) in the TRM service helps partner organizations manage multiple customers in one place, with their own domain credentials. Partner users will only see customer rooms that they are assigned to manage. It is possible to leverage custom roles for each customer in the MTM tenant, giving partner organizations granular control of permissions to the customer’s resources. 
+Multi-tenant management (MTM) in the Teams Rooms Managed (TRM) service helps partner organizations manage multiple customers in one place, with their own domain credentials. Partner users will only see customer rooms that they are assigned to manage. It is possible to apply custom roles for each customer in the MTM tenant, giving partner organizations granular control of permissions to the customer’s resources. 
 
 The MTM portal can be accessed through this [link](https://partner.rooms.microsoft.com/).
 
@@ -30,41 +30,43 @@ The MTM portal can be accessed through this [link](https://partner.rooms.microso
 
 ## Pre-requisites for managing your customers through the MTM experience
 
-To gain access to the MTM portal, your organization must be onboarded as an Elite Partner for the Teams Rooms Managed (TRM) service. To become an Elite partner contact askelite@microsoft.com.
+To gain access to the MTM portal, your organization must be onboarded as an Elite Partner for the TRM service. To become an Elite partner contact askelite@microsoft.com.
 
 
 ## On-boarding customers
 
-To manage customers through the TRM-MTM portal, a relationship must be established between the partner organization’s tenant and the customer. This is accomplished through an invitation sent by the customer. 
+To manage customers through the TRM-MTM portal, a relationship must be established between the partner organization’s tenant and the customer through an invitation sent by the customer. 
 
 ### Invitation from the customer
 
-The partner provides the user principle names (UPNs) of the users who will be primary administrators assigned to the customer. Only the users identified in the invitation can see and accept the invitation when they login to the TRM-MTM portal. 
+The partner provides the user principle names (UPNs) of the users who will be primary administrators assigned to the customer. Only the users identified in the invitation can see and accept the invitation when they log in to the TRM-MTM portal. 
 
-[!Note] Even if you have elevated privileges, such as Global Administrator, you will not see the invitation unless explicitly added. 
+[!Note] Even if you have elevated privileges such as Global Administrator, you will not see the invitation unless you are explicitly added. 
 
-Details on the customer invitation are outlined [here](multi-tenant-management-customer.md).
+Details on the customer invitation are outlined in [Multi-tenant management for Customers](multi-tenant-management-customer.md).
 
 **To accept a pending invite**
 
-1. Login to the TRM-MTM portal as one of the users on the invitation.
+1. Log in to the TRM-MTM portal as one of the users on the invitation.
 1. Go to **Customers**.
 1. Select the invitation showing with a status of “Pending”.
 1. Review the invitation details.
 1. Select **Accept** to establish the partner-customer relationship.<br>
 
-   Selecting **Deny** deletes the invitation for the user denying. The invitation is still available for other users that have not yet acte'd.
+   Selecting **Deny** deletes the invitation for the user denying. The invitation is still available for other users that have not yet acted.
 
-[!Note] The invitation is unique to each user, and independent. The first user to Accept will establish the link between the Partner and Customer tenant. There is no permanent association with the user that establishes the link. Subsequent users to accept will be added as Primary admins.
+[!Note] The invitation is unique, and independent for each user. The first user to accept establishes the link between the partner and customer tenant. There is no permanent association with the user that establishes the link. Subsequent users who accept the invitation are added as Primary admins.
 
 [!Note] *If a partner user accidentally denies the invitation, it is best to have another user simply add them to the Partner role (or any other RBAC role) for that customer.* 
 
 After accepting the invitation, the user is automatically added as a Primary admin for this customer's tenant. 
 
-To review the configuration for this tenant, select the customer from the list in **Customers.**
+To review the configuration for this tenant, select the customer the **Customers** list.
 
 
 ## Off-boarding customers
+
+To off-board a customer, you must remove them from the Customers list.
 
 **To remove a customer** 
 
@@ -77,7 +79,7 @@ To review the configuration for this tenant, select the customer from the list i
 
 ## Managing partner roles
 
-Partner roles allow for delegation of responsibilities to additional personnel. The concept of these roles is the same as described in [Role-based access control](https://docs.microsoft.com/en-us/microsoftteams/rooms/microsoft-teams-rooms-premium-rbac), but in context of each customer. Further, it is important to note that partner roles are distinct from the customer’s roles. The partner roles can be deleted by the customer. 
+Partner roles allow for delegation of responsibilities to additional personnel. The concept of these roles is the same as described in [Role-based access control](https://docs.microsoft.com/microsoftteams/rooms/microsoft-teams-rooms-premium-rbac), but in context of each customer. Further, it is important to note that partner roles are distinct from the customer’s roles. The partner roles can be deleted by the customer. 
 
 The **Primary admins** role is the only built-in role for each on-boarded customer and has almost all permissions —– in context of the customer —– for the TRM service (see table 1). Partner** role permissions only extend as far as the rooms designated by the customer. For example, if the cCustomer is a global organization and assigns the Partner to manage All US rooms, the primary admin would only be able to manage and delegate permissions for those rooms. The Partner has no visibility to other rooms the Customer may have in other countries. 
 
@@ -86,7 +88,7 @@ The **Primary admins** role is the only built-in role for each on-boarded custom
 **To manage users in the **Partner** role for a customer**
 
 1. Go to **Settings > Roles.** 
-1. Select the customer from the drop down for which you want to edit the partner role.
+1. Select the customer from the drop-down list for which you want to edit the partner role.
 1. Select the **Primary admins** built-in role from the list.
 1. Select **Assignments.**
 1. From the list, select **Invited Admins.**
@@ -149,16 +151,16 @@ The MTM portal uses AAD authentication to validate the login credentials of the 
 
 The customer can pull audit logs for the TRM service, which includes partner activity. Refer to <insert link to auditing doc>. 
 
-[!Note] AAD auditing and O365 auditing does not capture loglogs from the TRM portal.
+[!Note] AAD auditing and O365 auditing does not capture logs from the TRM portal.
 
 ## Navigating the MTM portal
 
-The MTM portal has two interaction models to navigate between customer data: 
+The MTM portal has two interactive models to navigate between customer data: 
 
-1. Aggregate views where data from all your customers is consolidated in a single list and can be filtered
+- Aggregate views were data from all your customers is consolidated in a single list and can be filtered.
 
    [!Note] This view is only supported in the **Incidents** page when **Enable all tickets view** is toggled on.
 
     ![Figure 1](multi-tenant-management-partner.001.png)
 
- Tenant switching where only data from the **Customer** selected in the drop down is displayed. 
+ - Tenant switching where only data from the **Customer** selected in the drop-down list is displayed. 
