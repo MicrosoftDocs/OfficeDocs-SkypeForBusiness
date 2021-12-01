@@ -1653,6 +1653,10 @@ items:
           href: teams-add-on-licensing/pri-message.md
         - name: Microsoft 365 Phone System – Virtual User license
           href: teams-add-on-licensing/virtual-user.md
+        - name: Get started with Teams Essentials 
+          href: get-started-with-teams-essentials.md
+        - name: Connect Teams Essentials (AAD Identity) to email
+          href: connect-teams-essentials-to-email.md         
     - name: Interoperability with Microsoft 365 and Office 365
       items: 
         - name: Microsoft 365 groups and Teams
