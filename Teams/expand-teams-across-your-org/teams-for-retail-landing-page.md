@@ -19,7 +19,7 @@ appliesto:
 
 # Get started with Teams for Retail
 
-Retail environments, with their rotating schedules and on-the-go staff, have very different needs than other organizations. To get the most benefit for your retail organization, you first choose which scenarios Teams can help you with in your day to day business operations, and then make sure that you prepare your teams environment with the right fundamentals, teams, and apps to support those scenarios.
+Retail environments, with their rotating schedules and on-the-go staff, have very different needs than other organizations. To get the most benefit for your retail organization, you first choose which scenarios Teams can help you with in your day-to-day business operations, and then make sure that you prepare your teams environment with the right fundamentals, teams, and apps to support those scenarios.
 
 1. [Choose the scenarios](#choose-your-scenarios) you want to implement for your business.
 :::image type="content" source="../media/retail-teams-scenarios.png" alt-text="Diagram of Teams scenarios for retail.":::
