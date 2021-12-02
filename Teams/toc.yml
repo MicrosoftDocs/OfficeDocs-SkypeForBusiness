@@ -1131,17 +1131,15 @@ items:
           href: voice-case-study-call-queues.md
     - name: Guidance for small and medium businesses
       items: 
-      - name: Overview of Teams Phone with Calling Plan
+      - name: Teams Phone guidance for small and medium businesses
         href: business-voice/whats-business-voice.md
       - name: Country and region availability
         href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-      - name: What to know before buying
-        items: 
-          - name: What to buy to get Teams Phone
-            href: business-voice/what-to-buy.md
-          - name: Check your internet connection
-            href: business-voice/get-ready-internet.md
-      - name: Set up Teams Phone
+      - name: Check your internet connection
+        href: business-voice/get-ready-internet.md
+      - name: Get help from a reseller or partner
+        href: business-voice/reseller-partner-support.md
+      - name: Set up Teams Phone for small and medium businesses
         items:
           - name: Overview
             href: business-voice/set-up-overview.md
@@ -1161,7 +1159,7 @@ items:
             href: business-voice/port-phone-numbers.md
           - name: "Post-setup resources"
             href: business-voice/set-up-finish.md
-      - name: Customize your setup
+      - name: Customize your Teams Phone setup for small and medium businesses
         items: 
           - name: Customization options
             href: business-voice/customize-business-voice.md
@@ -1175,7 +1173,7 @@ items:
             href: business-voice/create-a-phone-system-call-queue-smb.md
           - name: Set up an auto attendant
             href: business-voice/create-a-phone-system-auto-attendant-smb.md
-      - name: Manage your setup
+      - name: Manage your Teams Phone setup for small and medium businesses
         items: 
           - name: Create one or more users
             href: business-voice/create-users.md
@@ -1186,7 +1184,7 @@ items:
           - name: Call Quality Dashboard
             href: business-voice/analytics-dashboard.md
       - name: Partner resources
-        href: business-voice/partner-resources.md 
+        href: https://cloudpartners.transform.microsoft.com/products/m365-business-voice-partner-playbook
     - name: Reference
       items: 
         - name: Country phone number management
