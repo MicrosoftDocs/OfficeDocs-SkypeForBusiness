@@ -33,33 +33,33 @@ Partner management in the Teams Rooms Managed (TRM) service enables customers to
 
 **To initiate the invite** 
 
-1. Log in to the Teams Rooms Managed portal as an MMR Administrator. 
+1. Log in to the Teams Rooms Managed portal as an MMR Administrator.
 1. Go to **Settings >** **Partners**, then select **Add partner.**
-1. Enter the name and UPN of the primary admins in the first row. 
+1. Enter the name and UPN of the primary admins in the first row.
 1. Select **Add contact** to confirm.
 1. Do one of the following:
    - To add another user, repeat step 4.
    - To delete a user, select the bin icon on the right of the user.
 
-[!NOTE] It is not possible to use groups or distribution lists as the invite is tied to the UPN. 
+ > [!NOTE]
+ > It is not possible to use groups or distribution lists as the invite is tied to the UPN.
 
 1. Select **Next.**
 1. Configure the events that will require a change control approval. By default, all controls are set to **Auto approval.**
 
-[!NOTE] *Only auto-approve is currently available for now.* 
-
+ > [!NOTE]
+ > *Only auto-approve is currently available for now.* 
 1. *Manual approval:* When the partner performs the action, an approval request is generated for the customer to review and approve. The action is not implemented until the request has been approved.
-1. *Auto- approval:* When the partner performs the action, no approval request is generated and the action is implemented immediately. 
+1. *Auto- approval:* When the partner performs the action, no approval request is generated and the action is implemented immediately.
 1. Select **Next.**
 1. Assign rooms the partner will manage, then select **Next.**
-1. To continue, review the terms and select **I agree.** 
+1. To continue, review the terms and select **I agree.**
 1. Review the details of the invitation.
 1. Select **Add partner** to send the invitation.
 
+The invitation is unique for each user and is independent. The first partner user that accepts the invitation will establish the link between the Partner and your tenant. There is no special association with the user that establishes the link, which allows flexibility should the user be reassigned. Subsequent users to accept will be automatically assigned to the Primary admins role. There must always be at least one user in the primary admin role.
 
-The invitation is unique for each user and is independent. The first partner user that accepts the invitation will establish the link between the Partner and your tenant. There is no special association with the user that establishes the link, which allows flexibility should the user be reassigned. Subsequent users to accept will be automatically assigned to the Primary admins role. There must always be at least one user in the primary admin role. 
-
-To manage users in the primary admin role, see [Multi-tenant Management for Partners](multi-tenant-management-partner.md). 
+To manage users in the primary admin role, see [Multi-tenant Management for Partners](multi-tenant-management-partner.md).
 
 
 ## Off-boarding partners
@@ -80,7 +80,7 @@ To manage users in the primary admin role, see [Multi-tenant Management for Part
 
 Partner roles allow for your partner to more granularly delegate responsibilities to additional personnel. The concept of these roles is the same as described in [Role-based access control](https://docs.microsoft.com/en-us/microsoftteams/rooms/microsoft-teams-rooms-premium-rbac). It is important to note that partner roles are distinct from your custom roles. 
 
-The **Primary admin** role is the only built-in role for each partner you add. This role has almost all permissions to the rooms you assigned that partner for the TRM service (see Ttable 1). For example, if you have rooms across the globe and assign a partner to manage All US rooms, the primary admin would only be able to manage and delegate permissions for those rooms. In this case, the primary admins for this Partner have no visibility to any rooms outside of the US. 
+The **Primary admin** role is the only built-in role for each partner you add. This role has almost all permissions to the rooms you assigned that partner for the TRM service (see [Table 1](#Table-1)). For example, if you have rooms across the globe and assign a partner to manage All US rooms, the primary admin would only be able to manage and delegate permissions for those rooms. In this case, the primary admins for this Partner have no visibility to any rooms outside of the US. 
 
 ### Adding Primary admins to partner
 
@@ -115,7 +115,7 @@ If you already sent an invitation to a partner and wish to add more users to tha
 
 
 
-Table  1
+### Table 1
 
 |Feature|Permission|**MMR Admin**|**Site Lead**|**Site Tech**|**Partner admin**|
 | :- | :- | :- | :- | :- | :- |
@@ -157,4 +157,5 @@ The MTM portal uses Azure AD authentication to validate the login credentials of
 
 To pull logs on partner activity, see [Auditing](multi-tenant-auditing.md). 
 
-[!NOTE] AAD auditing and O365 auditing do not capture logs from the TRM portal. 
+> [!NOTE]
+> AAD auditing and O365 auditing do not capture logs from the TRM portal. 

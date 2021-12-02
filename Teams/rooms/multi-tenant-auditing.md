@@ -24,7 +24,8 @@ f1keywords:
 
 Audit in Teams Rooms Managed (TRM) service lets you search for audit records for activities performed in the portal by users and admins. This feature is enabled by default. Only the Managed Service Administrator has permission to export and then view the logs.
 
-[!NOTE] Actions performed in the TRM service are not logged in Microsoft 365 or Office 365 auditing 
+> [!NOTE]
+> Actions performed in the TRM service are not logged in Microsoft 365 or Office 365 auditing 
 
 ## Exporting logs
 
@@ -35,11 +36,12 @@ When you export all results for an audit log search, the raw data from the unifi
 1. Go to **Settings > General > Audit Logs**.
 1. To define the date range for logs of interest, enter the **Start date** and **End date.**
 
-[!NOTE] Logs are only available for up to 180 days. 
+> [!NOTE]
+> Logs are only available for up to 180 days. 
 
 1. Select **Download logs.** 
 
-![alt text1](../media/multi-tenant-auditing.001.png)
+   ![Audit log date range](../media/multi-tenant-auditing-001.png)
 
 A message displayed at the bottom of the window prompts you to open or save the CSV file. 
 
@@ -51,7 +53,7 @@ A message displayed at the bottom of the window prompts you to open or save the 
 
 The following table describes the properties that are included in the CSV.
 
-|**Property**|**Description**|
+|Property|Description|
 | - | - |
 |activity.category|<p>The category of the object on which the was action performed. Possible values:</p><p>**User, Assignment, PartnerInvitation, Role**</p>|
 |activity.objectName|The name of the object that was modified.|
