@@ -88,7 +88,7 @@ The connector setup requires that you:
 - [Launch the EHR connector configuration portal](#launch-the-ehr-connector-configuration-portal)
 - [Enter configuration information](#enter-configuration-information)
 - [Enable SMS notifications (optional)](#enable-sms-notifications-optional)
-- [View and approve the configuration](#view-and-approve-the-configuration)
+- [Approve or view the configuration](#approve-or-view-the-configuration)
 - [Review and finish the configuration](#review-and-finish-the-configuration)
 
 ### Launch the EHR connector configuration portal
@@ -151,7 +151,7 @@ To enable SMS notifications, your Microsoft 365 admin does the following:
 > [!NOTE]
 > At any time, your Microsoft 365 admin can update any of the SMS settings. Keep in mind that changing settings might result in a stoppage of SMS service. To view SMS reports, go to [add link].
 
-### View and approve the configuration
+### Approve or view the configuration
 
 The Epic customer analyst in your organization who was added as approver launches the [EHR connector configuration portal](https://ehrconnector.teams.microsoft.com) and signs in using their Microsoft 365 credentials. After successful validation, the approver is asked to sign in using their Epic credentials to validate the Epic organization.
 
