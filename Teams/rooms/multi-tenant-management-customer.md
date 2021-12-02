@@ -73,14 +73,11 @@ To manage users in the primary admin role, see [Multi-tenant Management for Part
 1. Select **Delete**. 
 1. At the confirmation prompt to terminate the association between your and the customer tenant, select **Delete**.
 
-
-
-
 ## Managing partner roles
 
-Partner roles allow for your partner to more granularly delegate responsibilities to additional personnel. The concept of these roles is the same as described in [Role-based access control](https://docs.microsoft.com/en-us/microsoftteams/rooms/microsoft-teams-rooms-premium-rbac). It is important to note that partner roles are distinct from your custom roles. 
+Partner roles allow for your partner to more granularly delegate responsibilities to additional personnel. The concept of these roles is the same as described in [Role-based access control](microsoft-teams-rooms-premium-rbac.md). It is important to note that partner roles are distinct from your custom roles. 
 
-The **Primary admin** role is the only built-in role for each partner you add. This role has almost all permissions to the rooms you assigned that partner for the TRM service (see [Table 1](#Table-1)). For example, if you have rooms across the globe and assign a partner to manage All US rooms, the primary admin would only be able to manage and delegate permissions for those rooms. In this case, the primary admins for this Partner have no visibility to any rooms outside of the US. 
+The **Primary admin** role is the only built-in role for each partner you add. This role has almost all permissions to the rooms you assigned that partner for the TRM service (see [Table 1](#table-1)). For example, if you have rooms across the globe and assign a partner to manage All US rooms, the primary admin would only be able to manage and delegate permissions for those rooms. In this case, the primary admins for this Partner have no visibility to any rooms outside of the US. 
 
 ### Adding Primary admins to partner
 

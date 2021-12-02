@@ -43,7 +43,7 @@ When you export all results for an audit log search, the raw data from the unifi
 
    ![Audit log date range](../media/multi-tenant-auditing-001.png)
 
-A message displayed at the bottom of the window prompts you to open or save the CSV file. 
+   A message displayed at the bottom of the window prompts you to open or save the CSV file. 
 
 1. Select **Save** > **Save as**, and save the CSV file to your local computer. 
 

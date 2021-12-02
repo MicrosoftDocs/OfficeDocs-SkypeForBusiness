@@ -82,7 +82,7 @@ To off-board a customer, you must remove them from the Customers list.
 
 ## Managing partner roles
 
-Partner roles allow for delegation of responsibilities to additional personnel. The concept of these roles is the same as described in [Role-based access control](https://docs.microsoft.com/microsoftteams/rooms/microsoft-teams-rooms-premium-rbac), but in context of each customer. Further, it is important to note that partner roles are distinct from the customer’s roles. The partner roles can be deleted by the customer. 
+Partner roles allow for delegation of responsibilities to additional personnel. The concept of these roles is the same as described in [Role-based access control](microsoft-teams-rooms-premium-rbac.md), but in context of each customer. Further, it is important to note that partner roles are distinct from the customer’s roles. The partner roles can be deleted by the customer. 
 
 The **Primary admins** role is the only built-in role for each on-boarded customer and has almost all permissions —– in context of the customer —– for the TRM service (see table 1). Partner** role permissions only extend as far as the rooms designated by the customer. For example, if the cCustomer is a global organization and assigns the Partner to manage All US rooms, the primary admin would only be able to manage and delegate permissions for those rooms. The Partner has no visibility to other rooms the Customer may have in other countries. 
 
@@ -110,7 +110,7 @@ As a partner, you can create custom roles to suit your operational requirements.
 
 1. Go to **Settings > Roles**. 
 1. Select the customer from the drop down for which you want to edit the partner role.
-1. Create a custom role <link to section in RBAC doc>.
+1. Create a [custom role](microsoft-teams-rooms-premium-rbac.md#built-in-roles).
 
 
 
@@ -152,7 +152,7 @@ Data resides in the customer’s tenant and is not copied to the partner’s ten
 
 The MTM portal uses AAD authentication to validate the login credentials of the partner. It is important to note that at this time, the customer’s authentication policies will not apply to the partner. For example, if the customer has a multi-factor authentication policy, it does not translate to the partner.
 
-The customer can pull audit logs for the TRM service, which includes partner activity. Refer to <insert link to auditing doc>.
+The customer can pull audit logs for the TRM service, which includes partner activity. See [Audit logging in the Teams Rooms Managed service](multi-tenantauditing.md).
 
 > [!Note]
 > AAD auditing and O365 auditing does not capture logs from the TRM portal.
@@ -166,6 +166,6 @@ The MTM portal has two interactive models to navigate between customer data:
   > [!Note]
   > This view is only supported in the **Incidents** page when **Enable all tickets view** is toggled on.
 
- ![Figure 1](../media/multi-tenant-management-partner-001.png)
+  ![Figure 1](../media/multi-tenant-management-partner-001.png)
 
  - Tenant switching where only data from the **Customer** selected in the drop-down list is displayed.
