@@ -92,7 +92,7 @@ If you already sent an invitation to a partner and wish to add more users to tha
 1. In the role pane, select **Assignments**.
 1. Select the **Invited admins** assignment. 
 1. In the Invited admins assignment pane, select **Members**.
-1. Select **Edit** <insert Edit icon here>.
+1. Select **Edit**.
 1. Enter the UPN of the new user and select **Add contact.**
 1. To confirm the changes, select **Save**.
 

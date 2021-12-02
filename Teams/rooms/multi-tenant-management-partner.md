@@ -152,7 +152,7 @@ Data resides in the customer’s tenant and is not copied to the partner’s ten
 
 The MTM portal uses AAD authentication to validate the login credentials of the partner. It is important to note that at this time, the customer’s authentication policies will not apply to the partner. For example, if the customer has a multi-factor authentication policy, it does not translate to the partner.
 
-The customer can pull audit logs for the TRM service, which includes partner activity. See [Audit logging in the Teams Rooms Managed service](multi-tenantauditing.md).
+The customer can pull audit logs for the TRM service, which includes partner activity. See [Audit logging in the Teams Rooms Managed service](multi-tenant-auditing.md).
 
 > [!Note]
 > AAD auditing and O365 auditing does not capture logs from the TRM portal.
