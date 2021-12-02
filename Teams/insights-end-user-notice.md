@@ -15,6 +15,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Education Insights End User Notice
