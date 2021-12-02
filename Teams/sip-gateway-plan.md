@@ -60,7 +60,7 @@ If you have a 3PIP or SIP device, you must have:
 
 |Vendor	   |Model      |Minimum firmware version|Approved firmware version|Remarks|Links|
 |----------|-----------|------------|-----------|------------|------------|
-|**Cisco** |           |            |           |Devices running enterprise firmware must be converted to multiplatform firmware. Read the guide at the right to learn how.|[Cisco firmware conversion guide](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-device-7800-series/guide-c07-742786.html)|
+|**Cisco** |           |            |           |Devices running enterprise firmware must be converted to multiplatform firmware. Read the guide at the right to learn how.|[Cisco firmware conversion guide](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-7800-series/guide-c07-742786.html)|
 |          |6821       |11.1.1MPP   |11-3-3MPP  |   |   |
 |          |7811       |11.1.1MPP   |11-3-3MPP  |   |   |
 |          |7821       |11.1.1MPP   |11-3-3MPP  |   |   |

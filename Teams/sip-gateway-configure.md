@@ -37,7 +37,7 @@ Before you can configure SIP Gateway, do the following:
 
 - **Open the UDP port.** Open UDP port in the range 49152 to 53247.
 
-- **Open the TCP port.** Open TCP port 5061 for IP ranges 52.112.0.0/14 and 52.120.0.0/14.
+- **Open the TCP port.** Open TCP port 5061 for IP ranges 52.112.0.0/14 to 52.120.0.0/14.
 
 - **Open the following https endpoints (IP addresses and URLs):**
 
@@ -102,7 +102,7 @@ To enable SIP Gateway in the Teams admin center, follow these steps:
 You can also enable SIP Gateway by using the PowerShell [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) cmdlet. To enable users for SIP devices, select a policy, and set the `-AllowSIPDevicesCalling` attribute to `True`. The default value is `False`, so users will not be able to use their SIP devices unless you enable them.
 
 
-## Configure the SIP Gateway provisioning server URL
+## Set the SIP Gateway provisioning server URL
 
 You can set the SIP Gateway provisioning server's URL in your Dynamic Host Configuration Protocol (DHCP) server. Users who work remotely must configure it manually.
 
@@ -130,8 +130,10 @@ Users who work remotely must manually configure the provisioning server URL into
 
 > [!NOTE]
 > - Only compatible SIP devices can be onboarded to SIP Gateway. 
-> - Cisco IP phones must be flashed to multiplatform firmware before they can be onboarded. To learn how, see [Cisco firmware conversion guide](https://www.cisco.com/c/products/collateral/collaboration-endpoints/unified-ip-phone-7800-series/guide-c07-742786.html)| 
-> - Some Yealink models also require a license to migrate from Skype for Business firmware to SIP.
+> - Cisco IP phones must be flashed to multiplatform firmware before they can be onboarded. To learn how, see [Cisco firmware conversion guide](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-7800-series/guide-c07-742786.html).
+> - For Yealink phones, use option 66.
+> - For Cisco, Poly, and AudioCode phones, use option 160. 
+> - For Cisco devices, append **/$PSN.xml** to the provisioning server URL.
 
 
 ## Configure conditional access
@@ -260,7 +262,7 @@ You can view and monitor your SIP device inventory in the Teams admin center aft
 
 ## Sync policy changes to SIP devices to enforce policies
 
-User details and policies will be fetched to SIP devices when users sign in. Any policy changes thereafter for signed-in users will be synced to the device within one hour. Devices must have their registration refreshed with the SIP Gateway periodically.
+User details and policies will be fetched to SIP devices when users sign in. Any policy changes thereafter for signed-in users will be synced to the device within one hour. Devices must have their registration refreshed with the SIP Gateway periodically. SIP phones depend on Call Redirect, so the admin must set the `AllowCallRedirect` attribute in `Set-CsTeamsCallingPolicy` to `Enabled`.
 
 
 ## Set a SIP device's UI language
