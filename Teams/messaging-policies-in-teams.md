@@ -30,6 +30,9 @@ Messaging policies are used to control which chat and channel messaging features
 
 Users in your organization will automatically get the global policy, unless you create and assign a custom policy. Edit the settings in the global policy or create and assign one or more custom policies to turn on or turn off the features that you want.
 
+> [!NOTE]
+> To ensure syncing after a policy change, a reboot may be necessary in certain instances. 
+
 ## Create a custom messaging policy
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Messaging policies**.
