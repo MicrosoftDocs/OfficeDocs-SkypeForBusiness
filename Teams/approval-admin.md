@@ -65,7 +65,7 @@ Approvals that are created from a template still store data in CDS, such as thei
 >[!Note]
 >If you delete the Form template on the Microsoft Forms site, it will break your Approval template and users will not be able to start the request. Users will get an error "CDB TableNotFound" when trying to open an Approval template that has been deleted on Microsoft Forms.
 
-The approval templates are stored in Substrate Data Storage (SDS), which is a compliant storage platform used internally only inside Microsoft. The organization-scoped templates are stored in “tenant shard” of SDS, and team-scoped templates are stored in “group shards” of SDS. This means that the org-scoped templates share the same lifetime of the tenant and team-scoped templates share the same lifetime of the team. So, permanently deleting the team deletes the related templates.
+Org-scoped templates share the same lifetime of the tenant and team-scoped templates share the same lifetime of the team. So, permanently deleting the team deletes the related templates.
 
 ## Approvals Teams app permissions
 
