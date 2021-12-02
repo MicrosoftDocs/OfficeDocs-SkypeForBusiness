@@ -84,8 +84,8 @@ Here's a list of all events that are logged for user and admin activities in Tea
 |Added bot to team   |BotAddedToTeam        |A user adds a bot to a team.        |
 |Added channel   |ChannelAdded         |A user adds a channel to a team.         |
 |Added connector  |ConnectorAdded          |A user adds a connector to a channel.        |
-|Added details about Teams meeting|MeetingDetail|Teams added information about a meeting, including the start time, the end time, and the URL to join the meeting.|
-|Added information about meeting participants|MeetingParticipantDetail|Teams added information about the participants of a meeting, including the user ID of each participant, the time a participant joined the meeting, and the time a participant left the meeting.|
+|Added details about Teams meeting<sup>2</sup>|MeetingDetail|Teams added information about a meeting, including the start time, the end time, and the URL to join the meeting.|
+|Added information about meeting participants<sup>2</sup>|MeetingParticipantDetail|Teams added information about the participants of a meeting, including the user ID of each participant, the time a participant joined the meeting, and the time a participant left the meeting.|
 |Added members    |MemberAdded         |A team owner adds members to a team, channel, or group chat.         |
 |Added tab    |TabAdded         |A user adds a tab to a channel.        |
 |Changed channel setting    |ChannelSettingChanged         |The ChannelSettingChanged operation is logged when the following activities are performed by a team member. For each of these activities, a description of the setting that was changed (shown in parentheses is displayed in the **Item** column in the audit log search results. <ul><li>Changes name of a team channel (**Channel name**)</li><li>Changes description of a team channel (**Channel description**)</li> </ul>      |
