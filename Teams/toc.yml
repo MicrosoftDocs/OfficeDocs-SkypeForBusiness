@@ -349,6 +349,7 @@ items:
           href: manage-feedback-policies-in-teams.md
         - name: Manage policy packages in Teams
           href: manage-policy-packages.md
+
     - name: Work with people outside the organization
       items: 
         - name: Communicate with users from other organizations
@@ -498,6 +499,8 @@ items:
       href: create-manager-directs-teams.md
     - name: Manage teams and channel policies
       href: teams-policies.md
+    - name: Turn off Teams Native File Upload policy
+      href: turn-off-teams-native-file-upload-policy.md
     - name: Set up channel moderation in Teams
       href: manage-channel-moderation-in-teams.md
     - name: Manage live components
