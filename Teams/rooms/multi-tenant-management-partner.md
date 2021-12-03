@@ -41,7 +41,7 @@ To manage customers through the TRM-MTM portal, a relationship must be establish
 
 The partner provides the user principle names (UPNs) of the users who will be primary administrators assigned to the customer. Only the users identified in the invitation can see and accept the invitation when they log in to the TRM-MTM portal. 
 
-> [!Note][dh (steyer) ] All artwork has been renamed to remove the period preceding the numbers, and have been moved to the Teams/media folder.
+> [!Note]
 > Even if you have elevated privileges such as Global Administrator, you will not see the invitation unless you are explicitly added. 
 
 Details on the customer invitation are outlined in [Multi-tenant management for Customers](multi-tenant-management-customer.md).
