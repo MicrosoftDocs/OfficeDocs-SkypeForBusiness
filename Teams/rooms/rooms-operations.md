@@ -229,7 +229,7 @@ The console is now back in its normal operation mode.The following procedure req
    ## Troubleshooting tips
    <a name="TS"> </a>
 
-- Meeting invitations might not appear when sent across domain boundaries (for example, between two companies). In such cases, IT admins should decide whether to allow external users to schedule a meeting. See the article for the Exchange PowerShell cmdlet [Set-CalendarProcessing](powershell/module/exchange/set-calendarprocessing), specifically the 'ProcessExternalMeetingMessages' parameter.
+- Meeting invitations might not appear when sent across domain boundaries (for example, between two companies). In such cases, IT admins should decide whether to allow external users to schedule a meeting. See the article for the Exchange PowerShell cmdlet [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing), specifically the 'ProcessExternalMeetingMessages' parameter.
 - Microsoft Teams Rooms doesn't support Exchange AutoDiscover redirects via Exchange 2010.
 - In general, it's a good practice for IT admins to disable any audio endpoints they don't intend to use.
 - In the event that a mirror image is displayed in room preview, the IT admin can correct by cycling camera power or flipping the image orientation using the camera settings.
