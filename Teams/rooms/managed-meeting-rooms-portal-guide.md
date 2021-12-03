@@ -176,7 +176,7 @@ For the incidents under investigation, the description field holds information a
 ### “Assigned to Microsoft” Incidents 
 For the incidents assigned to Microsoft, the “Action” field will contain brief details about corrective steps either planned or progressed. These steps might need collaboration with your team and extended collaboration will be done through email/calls as needed. Once these issues are resolved, they will disappear from the portal and in future, there will be history to track such incidents and their resolution. 
 
-<!--![Figure 6](media/rooms-portal-guide.006.jpg) 
+![Figure 6](media/rooms-portal-guide.006.jpg) 
 ## Rooms View 
 Each device is a proxy for a room and its connected peripherals. A healthy device represents a healthy room and an unhealthy device represents a room likely causing problems during meetings. 
 
@@ -206,7 +206,7 @@ The device *Status* tab provides a consolidated view of status of a device, all 
 
 
 
-[Figure 8](media/rooms-portal-guide.008.jpg) 
+[Figure 8](media/rooms-portal-guide.008.jpg)
 
 <!--### Room: Incident History 
 To see the incident history, select each incident type. This meant to provide a view of currently active incidents and history of these symptoms on the device. Repeated incidents point usually to an unresolved underlying root cause. 
