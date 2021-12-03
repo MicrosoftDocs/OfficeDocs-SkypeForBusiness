@@ -56,7 +56,7 @@ The Parents app helps educators securely connect and engage with the parents and
     Connect-MicrosoftTeams -Credential $credential
     ```
 
-The policy setting which enables external access with Teams accounts not managed by an organization at the user level (`EnableTeamsConsumerAccess`) is enabled by default for all user-level external access policies. Both the tenant-level setting and the user-level policy setting need to be enabled for a user to have external acces with Teams accounts not managed by an organization enabled. If you do not want every user in your tenant to have this access enabled, you should ensure that your tenant-level setting is disabled, update the user-level external access policies assigned to your users, and then enable the tenant-level setting.
+The policy setting which enables external access with Teams accounts not managed by an organization at the user level (`EnableTeamsConsumerAccess`) is enabled by default for all user-level external access policies. Both the tenant-level setting and the user-level policy setting need to be enabled for a user to have external access with Teams accounts not managed by an organization enabled. If you do not want every user in your tenant to have this access enabled, you should ensure that your tenant-level setting is disabled, update the user-level external access policies assigned to your users, and then enable the tenant-level setting.
 
 To check which user-level external access policies exist and who they are assigned to, you can use the following steps:
     
@@ -72,7 +72,7 @@ To check which user-level external access policies exist and who they are assign
     Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq "<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
     ```
 
-Since all user-level external access policies have `EnableTeamsConsumerAccess` set to true by default, if you would like to to adjust the `EnableTeamsConsumerAccess` setting for specific users, you can create/modify existing external access policies with adjusted settings and/or reassign users to new or existing policies using the following PowerShell cmdlets:
+Since all user-level external access policies have `EnableTeamsConsumerAccess` set to true by default, if you would like to adjust the `EnableTeamsConsumerAccess` setting for specific users, you can create/modify existing external access policies with adjusted settings and/or reassign users to new or existing policies using the following PowerShell cmdlets:
 
 - Create a new external access policy: [New-CsExternalAccessPolicy](/powershell/module/skype/new-csexternalaccesspolicy)
 
@@ -85,15 +85,15 @@ Since all user-level external access policies have `EnableTeamsConsumerAccess` s
 
 - Assign a policy to a set of users: [New-CsBatchPolicyAssignmentOperation](/powershell/module/skype/new-csbatchpolicyassignmentoperation)
 
-Once the user-level external access policies are set correctly for the users in your tenant, you can enable the tenant-level setting (`AllowTeamsConsumer`) for the tenant using the following cmdlet:​
+Once the user-level external access policies are set correctly for the users in your tenant, you can enable the tenant-level setting (`AllowTeamsConsumer`) for the tenant using the following cmdlet:
 
 - Set the federation configuration settings for your tenant: [Set-CsTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration)
 
-## Disabling the Parents App
+## Enabling the Parents App
 
-The Parents app is enabled by default, so all class team owners will see the app in their class teams. 
+The Parents app is disabled by default, so class team owners will not see the app in their class teams until the app is allowed via the Teams admin center. The app can be allowed via the Teams admin center using [Allow apps blocked by publishers](manage-apps.md#apps-blocked-by-publishers).
 
-The app can be disabled at the tenant level using [Allow and block apps](manage-apps.md#allow-and-block-apps) in the Microsoft Teams admin center. If the app is disabled at tenant level, it will be blocked for all users, even if user level permissions are enabled.​
+At any time, the app can be disabled at the tenant level using [Allow and block apps](manage-apps.md#allow-and-block-apps) in the Teams admin center. If the app is disabled at the tenant level, it will be blocked for all users, even if user level permissions are enabled.
 
 The app can also be disabled at the user level using [Manage app permission policies in Microsoft Teams](teams-app-permission-policies.md).
 
