@@ -871,17 +871,17 @@ items:
             - name: Use the recovery tool
               href: rooms/recovery-tool.md
 
-- name: Voice - Phone System and PSTN connectivity
+- name: Voice - Teams Phone and PSTN connectivity
   items: 
     - name: Plan your Teams voice solution
       href: cloud-voice-landing-page.md
-    - name: Phone System
+    - name: Teams Phone
       items: 
-        - name: What is Phone System
+        - name: What is Teams Phone
           href: what-is-phone-system-in-office-365.md
-        - name: Here's what you get with Phone System
+        - name: Here's what you get with Teams Phone
           href: here-s-what-you-get-with-phone-system.md
-        - name: Set up Phone System
+        - name: Set up Teams Phone
           href: setting-up-your-phone-system.md
         - name: Set up common area phones
           href: set-up-common-area-phones.md
@@ -1122,7 +1122,7 @@ items:
           href: voice-case-study-overview.md
         - name: Teams upgrade plan
           href: voice-case-study-migration-plan.md
-        - name: Phone System
+        - name: Teams Phone
           href: voice-case-study-phone-system.md
         - name: Location-Based-Routing
           href: voice-case-study-location-based-routing.md
@@ -1578,6 +1578,8 @@ items:
           href: teams-edu-licensing.md
         - name: Education SKU reference
           href: sku-reference-edu.md
+        - name: Teams devices for Education
+          href: devices-for-education.md
     - name: Teams for Frontline Workers
       items: 
         - name: Frontline Worker quick start guide
@@ -1656,6 +1658,10 @@ items:
           href: teams-add-on-licensing/pri-message.md
         - name: Microsoft 365 Phone System – Virtual User license
           href: teams-add-on-licensing/virtual-user.md
+        - name: Get started with Teams Essentials 
+          href: get-started-with-teams-essentials.md
+        - name: Connect Teams Essentials (AAD Identity) to email
+          href: connect-teams-essentials-to-email.md         
     - name: Interoperability with Microsoft 365 and Office 365
       items: 
         - name: Microsoft 365 groups and Teams
@@ -1673,8 +1679,6 @@ items:
               href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
         - name: How SharePoint Online and OneDrive for Business interact with Teams
           href: sharepoint-onedrive-interact.md
-    - name: Teams devices for Education
-      href: devices-for-education.md
     - name: Supported devices
       items: 
         - name: Manage your devices in Teams
