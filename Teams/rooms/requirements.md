@@ -195,7 +195,7 @@ These devices are available at the [Room System Accessories product showcase](ht
 
 #### USB extenders
 
-- USB ports on tablet docks are USB 3.0 compatible. You can use a USB 2.x extender but doing this limits you to USB 2.x speeds on the far end. Extenders are not recommended for USB 3.0 peripherals.
+- USB ports on tablet docks are USB 3.0 compatible. You can use a USB 2.x extender but you'll be limited to USB 2.x speeds on the far end. Extenders are not recommended for USB 3.0 peripherals.
 - An extender must meet USB 2.0 or newer specifications.
   - Tablet docks support at least two stages of external USB hub extension. If you connect more than two USB hubs in series, check with the dock manufacturer to confirm whether they support series connection.
   - Wired GbE connection in the room. Ethernet cable of appropriate length.

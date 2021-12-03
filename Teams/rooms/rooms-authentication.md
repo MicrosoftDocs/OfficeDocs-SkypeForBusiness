@@ -48,7 +48,7 @@ For Microsoft Teams Rooms to use modern authentication with Skype for Business a
 
 In your SkypeSettings.xml file, set the modern authentication XML element to **True**, as follows.
 
-```
+```XML
 <ModernAuthEnabled>True</ModernAuthEnabled>
 ```
 
