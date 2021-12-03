@@ -32,7 +32,7 @@ With your WFM system as the system of record, your frontline workers can see and
 Currently, the wizard supports the [Microsoft Teams Shifts connector for Blue Yonder](shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder). This connector enables you to integrate Shifts with Blue Yonder to manage your schedules and keep them up to date. In this article, we walk you through how to run the wizard to set up a connection to Blue Yonder through the connector.
 
 > [!NOTE]
-> You can also use PowerShell integrate Shifts with Blue Yonder. To learn more, see [Use PowerShell to connect Shifts to your Blue Yonder workforce management system](shifts-connector-blue-yonder-powershell-setup.md).
+> You can also use PowerShell to integrate Shifts with Blue Yonder. To learn more, see [Use PowerShell to connect Shifts to your Blue Yonder workforce management system](shifts-connector-blue-yonder-powershell-setup.md).
 
 ## Before you begin
 
@@ -102,13 +102,13 @@ Then, map each Blue Yonder site that you selected to a team in Teams. You can ma
 #### To map a site to an existing team:
 <a name="search_teams"> </a>
 
-1. Select the check box next to the site name.
+1. Select the checkbox next to the site name.
 2. In the pane, search for the team, and then select it. Keep in mind that teams that are already mapped to a site don't show up in the search.
 3. Choose the time zone and closest city.
 
 #### To map a site to a new team:
 
-1. Select the check box next to the site name.
+1. Select the checkbox next to the site name.
 2. In the pane, choose **Create a new team**, and then:
     1. Enter a name for your team, choose a privacy setting, and add one or more team owners.
     2. Add users to the team. You can also add groups.
