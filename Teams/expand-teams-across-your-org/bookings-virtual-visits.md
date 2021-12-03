@@ -25,7 +25,7 @@ description: Learn how to use the Bookings app in Teams to schedule, manage, and
 
 ## Overview
 
-The [Bookings app](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) in Microsoft Teams gives organizations a simple way to schedule and manage virtual appointments for staff and attendees. Use it to schedule virtual appointments such as healthcare visits, financial consultations, interviews, customer support, virtual shopping experiences, education office hours, and more.
+The [Bookings app](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) in Microsoft Teams gives organizations a simple way to schedule and manage virtual appointments for staff and attendees. Use it to schedule virtual appointments such as healthcare visits, financial consultations, interviews, customer support, virtual fittings and consultations, education office hours, and more.
 
 The Bookings app makes it easy to manage complex scheduling demands of any organization. Schedulers can manage multiple department and staff calendars, as well as communications with internal and external attendees, from a single experience.
 
@@ -39,7 +39,7 @@ With Bookings, you get an experience that's tailored to your industry. Here's a 
 |---------|---------|
 |Financial services    |  Virtual visits for remote sales and service<br/>Schedule and manage virtual appointments for bank relationship managers, financial advisors, and claims adjusters, just to name a few, to serve your customers with increased efficiency and convenience.  |
 |Healthcare   |  Virtual visits for patient care <br/>Schedule and manage virtual visits for your care team members to meet with patients or other healthcare providers to discuss medical care.   |
-|Retail   | Virtual shopping experiences <br/>Schedule and manage appointments for your sales associates, product experts, and design consultants to conduct virtual shopping experiences with customers.   |
+|Retail   | Virtual fittings and consultations <br/>Schedule and manage appointments for your sales associates, product experts, and design consultants to conduct virtual fittings and consultations with customers.   |
 
 This article gives you an overview of how to use the Bookings app in Teams to schedule, manage, and conduct virtual visits.
 

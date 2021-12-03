@@ -170,7 +170,7 @@ You can also [create a custom template](../create-a-team-template.md) to include
 
 Aside from team templates, you can also set up other sites and services to help with communication: SharePoint sites and Viva Connections.
 
-- Set up SharePoint sites to create a home page for your organization, distribute news across your company, and provide a place with resources for onboarding users. Learn more about using SharePoint sites for corporate communications scenarios at [/sharepoint/corporate-communications-overview](/sharepoint/corporate-communications-overview).
+- Set up SharePoint sites to create a home page for your organization, distribute news across your company, and provide a place with resources for onboarding users. Learn more about using SharePoint sites for corporate communications scenarios at [Organizational communications: Guidance, methods, and products](/sharepoint/corporate-communications-overview).
 - Use Viva Connections to bring it all together. With Viva Connections as your employee's home in Teams, they can get updates on their tasks, organizational news, and more. For more information, see [Overview: Viva Connections (Preview)](/sharepoint/viva-connections-overview) and [Add the Viva Connections app in the Teams Admin Center (Preview)](/sharepoint/add-viva-connections-app.md).
 
 ## Get ready to roll out your scenarios - identify roles and responsibilities for scenarios
