@@ -31,7 +31,7 @@ With Microsoft Teams Admin Center, you can:
 
 To manage Teams Rooms devices, open the [Microsoft Teams admin center](https://admin.teams.microsoft.com) and go to **Teams Devices** > **Teams Rooms on Windows**.
 
-:::image type="content" source="../media/teams-rooms-summary1.png" alt-text="Teams Rooms summary page in Teams admin center.":::
+:::image type="content" source="../media/teams-rooms-summary2.png" alt-text="Teams Rooms summary page in Teams admin center.":::
 
 
 > [!IMPORTANT]
