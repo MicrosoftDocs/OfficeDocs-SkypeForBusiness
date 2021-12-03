@@ -467,3 +467,4 @@ If you're an administrator, you can use the following diagnostic tool to validat
 ## Related topics
 
 - [Teams PowerShell overview](teams-powershell-overview.md)
+- [View live transcription in a Teams meeting](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-dc1a8f23-2e20-4684-885e-2152e06a4a8b)
