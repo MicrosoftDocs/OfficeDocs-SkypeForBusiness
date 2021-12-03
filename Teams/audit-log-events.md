@@ -61,7 +61,7 @@ The length of time that an audit record is retained and searchable in the audit 
 
 Here are tips for searching for Teams activities in the audit log.
 
-![Screenshot of the audit log search page in the compliance center](media/audit-log-search-page.png)
+:::image type="content" alt-text="Screenshot of the audit log search page in the compliance center" source="media/audit-log-search-page.png" lightbox="media/audit-log-search-page.png":::
 
 - You can select specific activities to search for by clicking the checkbox next to one or more activities. If an activity is selected, you can click it to cancel the selection. You can also use the search box to display the activities that contain the keyword that you type.
 
@@ -186,13 +186,13 @@ After you set an activity detection policy, it starts to generate alerts. Alerts
 
 One scenario you might want to keep an eye on, from a business perspective, is the addition of external users to your Teams environment. If external users are enabled, monitoring their presence is a good idea.  You can use [Cloud App Security](/cloud-app-security/what-is-cloud-app-security) to identify potential threats.
 
-![Policy to monitor adding external users.](media/TeamsExternalUserAddPolicy.png)
+:::image type="content" alt-text="Policy to monitor adding external users." source="media/TeamsExternalUserAddPolicy.png" lightbox="media/TeamsExternalUserAddPolicy.png":::
 
 The screenshot of this policy to monitor adding external users allows you to name the policy, set the severity according to your business needs, set it as (in this case) a single activity, and then establish the parameters that will specifically monitor only the addition of non-internal users, and limit this activity to Teams.
 
 The results from this policy can be viewed in the activity log:
 
-![Events triggered by external users policy.](media/TeamsExternalUserList.png)
+:::image type="content" alt-text="Events triggered by external users policy." source="media/TeamsExternalUserList.png" lightbox="media/TeamsExternalUserList.png":::
 
 Here you can review matches to the policy you've set, and make any adjustments as needed, or export the results to use elsewhere.
 
@@ -200,13 +200,13 @@ Here you can review matches to the policy you've set, and make any adjustments a
 
 As mentioned earlier, you can monitor deletion scenarios. It's possible to create a policy that would monitor mass deletion of Teams sites. In this example, an alert-based policy is set up to detect mass deletion of teams in a span of 30 minutes.
 
-![Policy showing the setting up of a policy for mass team deletion detection.](media/TeamsMassDeletePolicy.png)
+:::image type="content" alt-text="Policy showing the setting up of a policy for mass team deletion detection." source="media/TeamsMassDeletePolicy.png" lightbox="media/TeamsMassDeletePolicy.png":::
 
 As the screenshot shows, you can set many different parameters for this policy to monitor Teams deletions, including severity, single or repeated action, and parameters limiting this to Teams and site deletion. This can be done independently of a template, or you may have a template created to base this policy on, depending on your organizational needs.
 
 After you establish a policy that works for your business, you can review the results in the activity log as events are triggered:
 
-![Screenshot events triggered by mass deletions.](media/TeamsMassDeleteList.png)
+:::image type="content" alt-text="Screenshot events triggered by mass deletions." source="media/TeamsMassDeleteList.png" lightbox="media/TeamsMassDeleteList.png":::
 
 You can filter down to the policy you've set to see the results of that policy. If the results you're getting in the activity log are not satisfactory (maybe you're seeing lots of results, or nothing at all), this may help you to fine-tune the query to make it more relevant to what you need it to do.
 
