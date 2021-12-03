@@ -22,7 +22,7 @@ description: This article describes how to set up and configure the Microsoft Te
 This article describes how to set up the Microsoft Teams Rooms console and its peripherals.
 
 > [!NOTE]
-> The following steps only apply to Surface Pro-based Teams Rooms devices. For other devices, please check with the OEM for support.
+> The following steps only apply to Surface Pro-based Teams Rooms devices. For other devices, check with the Original Equipment Manufacturer (OEM) for support.
 
 You should only perform these steps if the necessary Microsoft Teams or Skype for Business and Exchange accounts have already been created and tested as described in [Deploy Microsoft Teams Rooms](rooms-deploy.md). You will need the hardware and software described in [Microsoft Teams Rooms requirements](requirements.md). This topic contains the following sections:
   
@@ -33,7 +33,7 @@ You should only perform these steps if the necessary Microsoft Teams or Skype fo
 - [Microsoft Teams Rooms deployment checklist](console.md#Checklist)
 
 > [!NOTE]
-> The following steps only apply to Surface Pro-based Teams Rooms devices. For other devices, please check with the OEM for support.
+> The following steps only apply to Surface Pro-based Teams Rooms devices. For other devices, check with the OEM for support.
   
 ## Prepare the installation media
 <a name="Prep_Media"> </a>
@@ -197,7 +197,7 @@ The Microsoft Teams Rooms console needs to trust the certificates used by the se
 ### Join an Active Directory domain (Optional)
 <a name="Certs"> </a>
 
-You can join Microsoft Teams Rooms consoles to your domain. Microsoft Teams Rooms consoles should be placed in a separate OU from your PC workstations because many workstation policies are not compatible with Microsoft Teams Rooms. A common example are password enforcement policies that will prevent Microsoft Teams Rooms from starting up automatically. For information about the management of GPO settings, please refer to [Manage Microsoft Teams Rooms](rooms-operations.md).
+You can join Microsoft Teams Rooms consoles to your domain. Microsoft Teams Rooms consoles should be placed in a separate OU from your PC workstations because many workstation policies are not compatible with Microsoft Teams Rooms. A common example are password enforcement policies that will prevent Microsoft Teams Rooms from starting up automatically. For information about the management of GPO settings, refer to [Manage Microsoft Teams Rooms](rooms-operations.md).
   
 ### To join Microsoft Teams Rooms to a domain
 
