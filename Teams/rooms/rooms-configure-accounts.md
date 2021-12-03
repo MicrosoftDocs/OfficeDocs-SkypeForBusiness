@@ -46,7 +46,8 @@ Every resource account is unique to a single Microsoft Teams Rooms installation,
     
 - Your infrastructure must be configured to allow Microsoft Teams Rooms to validate the resource account, and to reach the appropriate Microsoft services.
 
-> [!NOTE] If using Microsoft Teams panels, the Teams Rooms resource account signs in to both Teams Rooms and associated Teams panels.
+> [!NOTE] 
+> If using Microsoft Teams panels, the Teams Rooms resource account signs in to both Teams Rooms and associated Teams panels.
     
 > [!IMPORTANT]
 > It is highly recommended that account creation be done well in advance of actual hardware installation. Ideally, account preparation is started two to three weeks before installation.
