@@ -25,6 +25,7 @@ The [Microsoft Teams Shifts connector for Blue Yonder](shifts-connectors.md#micr
 
 You can use the [Shifts connector wizard](shifts-connector-wizard.md) in the Microsoft 365 admin center or [PowerShell](shifts-connector-blue-yonder-powershell-setup.md) to set up a connection. After a connection is set up, you manage it by using PowerShell. We provide PowerShell scripts that you can use to:
 
+- [Check connection setup status](#check-connection-setup-status)
 - [Change connection settings](#change-connection-settings)
 - [View connection health](#view-connection-health)
 - [View connection settings](#view-connection-settings)
@@ -43,6 +44,9 @@ You can use the [Shifts connector wizard](shifts-connector-wizard.md) in the Mic
 > Make sure you follow these steps to set up your environment before running any of the scripts in this article. If you used [PowerShell](shifts-connector-blue-yonder-powershell-setup.md) to set up a connection, you've already completed these steps. If you used the [wizard](shifts-connector-wizard.md) to set up a connection, you may have completed these steps if you needed to remove existing schedules from teams.
 
 [!INCLUDE [shifts-connector-set-up-environment](../../includes/shifts-connector-set-up-environment.md)]
+
+## Check connection setup status
+
 
 ## Change connection settings
 
