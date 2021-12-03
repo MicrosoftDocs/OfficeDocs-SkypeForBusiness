@@ -36,12 +36,12 @@ When you export all results for an audit log search, the raw data from the unifi
 1. Go to **Settings > General > Audit Logs**.
 1. To define the date range for logs of interest, enter the **Start date** and **End date.**
 
-> [!NOTE]
-> Logs are only available for up to 180 days. 
+   > [!NOTE]
+   > Logs are only available for up to 180 days.
 
-1. Select **Download logs.** 
+1. Select **Download logs.**
 
-   ![Audit log date range](../media/multi-tenant-auditing-001.png)
+   ![Audit log date range](../media/multi-tenant-auditing.png)
 
    A message displayed at the bottom of the window prompts you to open or save the CSV file. 
 
@@ -63,6 +63,5 @@ The following table describes the properties that are included in the CSV.
 |creationTime|The date and time in Coordinated Universal Time (UTC) in the ISO format when the user performed the activity.|
 |user.userId|The user who performed the action that resulted in the record being logged.|
 |user.userTenantId|The GUID of the tenant for the user who performed the action|
-
 
 
