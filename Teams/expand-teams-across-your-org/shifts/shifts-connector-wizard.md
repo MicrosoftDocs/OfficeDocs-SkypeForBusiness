@@ -75,7 +75,7 @@ To learn more, see Remove-CsTeamsShiftsScheduleRecord.
 ### Enter connection details
 <a name="connection_details"> </a>
 
-1. On the Connection details page, give your connection a name.
+1. On the Connection details page, give your connection a unique name. It can't be longer than 128 characters or have any special characters.
 1. Enter your Blue Yonder service account name and password and service URLs.
 1. When you're done, select **Next** to test the connection with the settings you entered.
 
