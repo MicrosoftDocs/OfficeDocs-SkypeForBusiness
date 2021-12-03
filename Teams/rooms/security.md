@@ -78,7 +78,7 @@ The Admin account isn't required for proper operation of Teams Rooms devices and
 You can also import domain accounts into the local Windows Administrator group. You can do this for Azure AD accounts by using Intune. For more information, see [Policy CSP – RestrictedGroups.](/windows/client-management/mdm/policy-csp-restrictedgroups).
 
 > [!NOTE]
-> If you are using Crestron consoles, be sure to also update the Admin password on the console as well as on the compute module. For more information, please contact Crestron.
+> If you are using Crestron consoles, be sure to also update the Admin password on the console as well as on the compute module. For more information, contact Crestron.
 
 > [!CAUTION]
 > If you delete or disable the Admin account before granting local Administrator permissions to another local or domain account, you may lose the ability to administer the Teams Rooms device. If this happens, you'll need to reset the device back to its original settings and complete the setup process again.
