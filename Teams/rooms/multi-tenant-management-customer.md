@@ -1,5 +1,5 @@
 ﻿---
-title: Multi-tenant Management for Customers
+title:Partner management for customers
 author: donnah007
 ms.author: v-donnahill
 manager: serdars
@@ -15,11 +15,11 @@ appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Mult-tenant management for customers.
+description: partner management for customers.
 f1keywords: 
 ---
 
-# Multi-tenant Management for Customers
+# Partner management for Customers
 
 
 Partner management in the Teams Rooms Managed (TRM) service enables customers to seamlessly delegate access and responsibilities to one or many partner organizations. Partners can only manage rooms that they are assigned to manage. 

@@ -791,9 +791,9 @@ items:
               href: rooms/microsoft-teams-rooms-premium-rbac.md
             - name: Configure ServiceNow for Teams Rooms
               href: rooms/microsoft-teams-rooms-configure-servicenow.md
-            - name: Customer management for partners
+            - name: Customer multi-tenant management for Partners
               href: rooms/multi-tenant-management-partner.md
-            - name: Partner management for customers
+            - name: Partner management for Customers
               href: rooms/multi-tenant-management-customer.md
             - name: Audit logs for Teams Rooms Managed services activities
               href: rooms/multi-tenant-auditing.md
