@@ -1,5 +1,5 @@
 ﻿---
-title:Partner management for customers
+title: Partner management for customers
 author: donnah007
 ms.author: v-donnahill
 manager: serdars
