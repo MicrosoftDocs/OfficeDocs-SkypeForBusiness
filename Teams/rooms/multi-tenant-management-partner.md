@@ -20,7 +20,7 @@ f1keywords:
 ---
 
 
-# Multi-tenant Customer management for Partners
+# Multi-tenant customer management for partners
 
 Multi-tenant management (MTM) in the Teams Rooms Managed (TRM) service helps partner organizations manage multiple customers in one place, with their own domain credentials. Partner users will only see customer rooms that they are assigned to manage. It is possible to apply custom roles for each customer in the MTM tenant, giving partner organizations granular control of permissions to the customer’s resources. 
 

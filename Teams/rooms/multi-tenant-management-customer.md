@@ -19,7 +19,7 @@ description: partner management for customers.
 f1keywords: 
 ---
 
-# Partner management for Customers
+# Partner management for customers
 
 
 Partner management in the Teams Rooms Managed (TRM) service enables customers to seamlessly delegate access and responsibilities to one or many partner organizations. Partners can only manage rooms that they are assigned to manage. 
