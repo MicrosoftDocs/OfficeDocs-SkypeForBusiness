@@ -53,7 +53,9 @@ The SBA feature is supported on the following Microsoft Teams clients:
 
 - Microsoft Teams Windows desktop 
 
-- Microsoft Teams macOS desktop 
+- Microsoft Teams macOS desktop
+
+- Teams phones (running Teams app version: 1449/1.0.94.2021101205 or later)  
 
 ## How it works
 
