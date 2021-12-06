@@ -28,7 +28,7 @@ The Parents app helps educators securely connect and engage with the parents and
 ### School Data Sync
 
 - You need School Data Sync (SDS) to populate each student's parent and guardian **related contact** information​.
-  - [Deploy SDS](/schooldatasync/how-to-deploy-sds-using-sds-v2.1-csv-files)
+  - [Deploy SDS](/schooldatasync/parent-contact-sync)
 
 - If you need assistance in setting up SDS and populating parent and guardian **related contacts** for the students in your tenant, contact the EDU Customer Success team by:
   - Completing the RFA process at [FastTrack](https://www.microsoft.com/fasttrack?rtc=1).
@@ -63,7 +63,7 @@ To check which user-level external access policies exist and who they are assign
 3. Check which user-level external access policies exist​.
 
     ```powershell
-    Get-CsExternalAccessPolicy -Include All​
+    Get-CsExternalAccessPolicy​
     ```
 
 4. For each policy other than the ‘Global’ policy, check which users have the policy assigned. Note: any users who do not have a specific policy assigned will fall back to the ‘Global’ policy. Any new users who are added to the tenant will have the ‘Global’ policy assigned.​
