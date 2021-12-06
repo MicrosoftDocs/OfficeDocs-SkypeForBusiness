@@ -58,19 +58,20 @@ Before you can configure SIP Gateway, do the following:
 
 The following sections describe what you must do as an administrator to configure SIP Gateway.
 
-- [Verify that SIP Gateway is available for your organization](#verify-that-sip-gateway-is-available-for-your-tenant).
+- [Verify that SIP Gateway is available for your organization](#verify-that-sip-gateway-is-available-for-your-organization).
 
-- [Enable SIP Gateway for the users in your organization](#enable-sip-gateway-for-the-users-in-your-tenant).
+- [Enable SIP Gateway for the users in your organization](#enable-sip-gateway-for-the-users-in-your-organization).
 
-- [Set the SIP Gateway provisioning server URL](#for-each-sip-device-set-the-sip-gateway-provisioning-server-url).
+- [Set the SIP Gateway provisioning server URL](#set-the-sip-gateway-provisioning-server-url).
 
 This article also describes how to:
 
-- [Enroll SIP devices either individually or in batches for your convenience](#enroll-sip-devices).  
+- [Enroll SIP devices either individually or in batches for your convenience](#provision-and-enroll-sip-devices-as-common-area-phones).  
+
 
 - [View and monitor your SIP devices.](#view-and-monitor-sip-devices)
 
-- [Enable support for a multi-language user interface.](#support-a-multi-language-user-interface)
+- [Enable support for a multi-language user interface.](#set-a-sip-device's-ui-language)
 
 ## Verify that SIP Gateway is available for your organization
 
