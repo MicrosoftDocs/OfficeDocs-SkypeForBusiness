@@ -26,7 +26,8 @@ Multi-tenant management (MTM) in the Teams Rooms Managed (TRM) service helps par
 
 The MTM portal can be accessed through this [link](https://partner.rooms.microsoft.com/).
 
-[!Note] Partner organizations cannot manage their own rooms through the MTM portal. Those rooms can be managed in the [TRM portal](https://portal.rooms.microsoft.com/). 
+> [!Note] 
+> Partner organizations cannot manage their own rooms through the MTM portal. Those rooms can be managed in the [TRM portal](https://portal.rooms.microsoft.com/). 
 
 ## Pre-requisites for managing your customers through the MTM experience
 
@@ -64,7 +65,7 @@ Details on the customer invitation are outlined in [Multi-tenant management for 
 
 After accepting the invitation, the user is automatically added as a Primary admin for this customer's tenant. 
 
-To review the configuration for this tenant, select the customer the **Customers** list.
+To review the configuration for this tenant, select the customer in the **Customers** list.
 
 
 ## Off-boarding customers
