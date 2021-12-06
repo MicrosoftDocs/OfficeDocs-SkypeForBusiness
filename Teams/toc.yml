@@ -1624,6 +1624,8 @@ items:
           href: sku-reference-edu.md
         - name: Teams devices for Education
           href: devices-for-education.md
+        - name: Teams devices for Education
+          href: devices-for-education.md
     - name: Teams for Frontline Workers
       items: 
         - name: Frontline Worker quick start guide
@@ -1723,8 +1725,7 @@ items:
               href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
         - name: How SharePoint Online and OneDrive for Business interact with Teams
           href: sharepoint-onedrive-interact.md
-    - name: Teams devices for Education
-      href: devices-for-education.md
+
     - name: Teams PowerShell
       items: 
         - name: Overview
