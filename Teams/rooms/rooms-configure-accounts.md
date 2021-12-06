@@ -58,6 +58,10 @@ In hybrid environments the account used for Microsoft Teams Rooms must have pass
 You can think of a resource account as the resource account that people recognize as a conference room's or shared space's account. When you want to schedule a meeting using that space, you invite the account to that meeting.
   
 If you already have a resource mailbox account set up for the space where you're installing Microsoft Teams Rooms, you can change that account into a Teams Rooms resource account. Once that's done, all you need to do is sign in to Microsoft Teams Rooms with that account.
+
+> [!NOTE] 
+> As the Teams Rooms logs into Exchange in the background without user interaction, it cannot respond to any interactive prompts, such as MFA. The device account you create must be excluded from any such authentication requirements.
+> Teams Rooms are not compatible with Azure AD Conditional Access policies requiring device information (e.g. compliance). The device account that you create must be excluded from those CA policies.
   
 ## Basic configuration
 
