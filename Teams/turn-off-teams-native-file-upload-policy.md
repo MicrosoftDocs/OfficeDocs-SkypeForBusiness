@@ -125,3 +125,5 @@ To remove the policy from all users assigned to the Teams Files policy ``UserPol
 ```powershell
 Remove-CsTeamsFilesPolicy -Identity UserPolicy
 ```
+>[!NOTE]
+> Once you’ve made changes to the policy, allow up to 12 hours for the changes to show in users’ Teams clients.
