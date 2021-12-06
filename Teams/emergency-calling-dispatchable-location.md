@@ -1,5 +1,5 @@
 ---
-title: "Support for emergency calling location information"
+title: "Emergency addreses for remote locations"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,7 +20,7 @@ description: "Learn how Microsoft supports dispatchable location information to 
 ms.custom: seo-marvel-mar2020
 ---
 
-# Support for emergency calling location information in the United States
+# Emergency addresses for remote locations
 
 This article describes Microsoft's support for 911 emergency calling location information in the United States. This support ensures that the most precise dispatchable location information possible is provided for Teams users making emergency calls. Regardless of the caller's location--onsite or working from home--a  caller's location information sent to the Public Safety Answering Point (PSAP) must be accurate.
 
