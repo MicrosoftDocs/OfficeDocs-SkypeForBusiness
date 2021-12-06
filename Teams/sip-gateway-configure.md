@@ -71,7 +71,7 @@ This article also describes how to:
 
 - [View and monitor your SIP devices.](#view-and-monitor-sip-devices)
 
-- [Enable support for a multi-language user interface.](#set-a-sip-device's-ui-language)
+- [Enable support for a multi-language user interface.](#set-a-sip-devices-ui-language)
 
 ## Verify that SIP Gateway is available for your organization
 
