@@ -55,13 +55,13 @@ You can search for users by using the Skype for Business Server Control Panel or
 
 5. (Optional) Specify additional search criteria to narrow the results:
 
-   a. Click the filter button next to the **Search** box.
+    1. Click the filter button next to the **Search** box.
 
-   b. In the **Filter** panel that appears, select the required user property by clicking the arrow in the dropdown list.
+    2. In the **Filter** panel that appears, select the required user property by clicking the arrow in the dropdown list.
 
-   c. Click the arrow in the dropdown operator list, to select the required operator.
+    3. Click the arrow in the dropdown operator list, to select the required operator.
 
-   d. In the text box, type the search criteria you want to use to filter search results, and then click **OK**.
+    4. In the text box, type the search criteria you want to use to filter search results, and then click **OK**.
 
 6. The search results appear on the **Users** page. You can select any or all of the users in the list and perform configuration tasks on the users you select.
 
@@ -80,13 +80,13 @@ You can search for users by using the Skype for Business Server Control Panel or
 
 5. (Optional) Specify additional search criteria to narrow the results:
 
-   a. Click the expand arrow button in the upper-right corner of the screen above **Search results**, and then click **Add Filter**.
+    1. Click the expand arrow button in the upper-right corner of the screen above **Search results**, and then click **Add Filter**.
 
-   b. Enter the user property by typing it or clicking the arrow in the dropdown list to select a user property.
+    2. Enter the user property by typing it or clicking the arrow in the dropdown list to select a user property.
 
-   c. In the **Equal to** list, select **Equal to** or **Not equal to**.
+    3. In the **Equal to** list, select **Equal to** or **Not equal to**.
 
-   d. In the text box, type the search criteria you want to use to filter search results, and then click **Find**.
+    4. In the text box, type the search criteria you want to use to filter search results, and then click **Find**.
 
 6. The search results appear under **Search Results**. You can select any or all of the users in the list and perform configuration tasks on the users you select.
 
@@ -104,12 +104,13 @@ You can also use a cmdlet, specifically [Enable-CsUser](/powershell/module/skype
 
 3. Navigate to **Users** > **Enable Users**, and click **Add**.
 
-6. In the **Search** box, type all or the first portion of the display name and click **Find**.
-7. (Optional) To specify additional user criteria, click **+ Add filter**, select the required user property, select the operator, and enter the value. Click **Find**.
+4. In the **Search** box, type all or the first portion of the display name and click **Find**.
 
-8. In the table, select the account you want to add to Skype for Business Server, and then click **OK**.
+5. (Optional) To specify additional user criteria, click **+ Add filter**, select the required user property, select the operator, and enter the value. Click **Find**.
 
-9. Assign the user to a pool, specify any additional details, and assign the required policies to the user, and then click **Enable**.
+6. In the table, select the account you want to add to Skype for Business Server, and then click **OK**.
+
+7. Assign the user to a pool, specify any additional details, and assign the required policies to the user, and then click **Enable**.
 
 > [!NOTE]
 > The new Control Panel is not available for Skype for Business Server 2015.
@@ -209,8 +210,8 @@ Use the following procedure to disable Enterprise Voice for a user account that 
 
 8. Click **Save**.
 
-> [!NOTE]
-> To restrict a user from making audio or video calls, under **Telephony**, click **Audio/Video disabled**.
+    > [!NOTE]
+    > To restrict a user from making audio or video calls, under **Telephony**, click **Audio/Video disabled**.
 
 The user is now unable to use the Enterprise Voice feature. 
 
@@ -237,6 +238,7 @@ The user is now unable to use the Enterprise Voice feature.
     > To restrict a user from making audio or video calls by using Lync, under **Telephony**, click **Audio/video disabled**.
 
 8. Click **Commit**.
+
 The user is now unable to use the Enterprise Voice feature.
 
 Related information: <br/>[Enterprise Voice and mobility](/previous-versions/office/lync-server-2013/lync-server-2013-managing-enterprise-voice-for-users)<br/> [Enable users for Enterprise Voice in Skype for Business Server](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [Skype for Business Server Management Shell](../management-shell.md)

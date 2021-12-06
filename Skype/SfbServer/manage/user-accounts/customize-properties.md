@@ -97,11 +97,7 @@ Skype for Business Server](../../deploy/deploy-enterprise-voice/enable-users-for
 You can use Skype for Business Server Control Panel to assign users to a specific server or pool.
  
 > [!TIP]
-> Moving all existing users from a source pool that is running Lync Server 2010 or earlier to a Skype for 
-Business Server destination pool in a complex Active Directory environment might result in slower 
-Active Directory replication. To avoid this, you can use search filters to move users from pools that are 
-running Lync Server 2010 or earlier separately, or you can use Skype for Business Server Management Shell 
-to move users with cmdlets. Also, the filter functionality works with Skype for Business Server users. 
+> Moving all existing users from a source pool that is running Lync Server 2010 or earlier to a Skype for Business Server destination pool in a complex Active Directory environment might result in slower Active Directory replication. To avoid this, you can use search filters to move users from pools that are running Lync Server 2010 or earlier separately, or you can use Skype for Business Server Management Shell to move users with cmdlets. Also, the filter functionality works with Skype for Business Server users. 
  
 ### Move selected users to a different server or pool using new Control Panel
 
@@ -121,10 +117,8 @@ to move users with cmdlets. Also, the filter functionality works with Skype for 
  
 8. (Optional) If the destination server or pool is unavailable, select the **Force** checkbox.
  
- > [!CAUTION]
- > If you select **Force**, the user account is moved, but any associated user data is deleted 
- (for example, conferences that the user has scheduled). If you do not select it, both the account 
- and the associated data are moved. 
+    > [!CAUTION]
+    > If you select **Force**, the user account is moved, but any associated user data is deleted (for example, conferences that the user has scheduled). If you do not select it, both the account and the associated data are moved. 
 
 > [!NOTE]
 > The new Control Panel is not available for Skype for Business Server 2015.
@@ -148,9 +142,8 @@ in your internal deployment.
  
 8. (Optional) If the destination server or pool is unavailable, select the **Force** checkbox.
  
- > [!CAUTION]
- > If you select **Force**, the user account is moved, but any associated user data is deleted (for example, 
- conferences that the user has scheduled). If you do not select it, both the account and the associated data are moved. 
+    > [!CAUTION]
+    > If you select **Force**, the user account is moved, but any associated user data is deleted (for example, conferences that the user has scheduled). If you do not select it, both the account and the associated data are moved. 
  
 ### Move users from one pool to a different pool by using a filter using legacy Control Panel 
 
@@ -166,8 +159,8 @@ in your internal deployment.
  
 6. On the **Action** menu, select **Move all users to pool**.
  
- > [!NOTE]
- > When a filter is applied to an existing set of users, the option **Move all users to pool** is in the context of the filtered subset of users, not **all** possible users.
+    > [!NOTE]
+    > When a filter is applied to an existing set of users, the option **Move all users to pool** is in the context of the filtered subset of users, not **all** possible users.
  
 7. In **Move Users**, select the pool that contains the user accounts that you want to move in **Source registrar pool**.
  
@@ -175,8 +168,8 @@ in your internal deployment.
  
 9. (Optional) If the destination server or pool is unavailable, select the **Force** checkbox.
  
- > [!CAUTION]
- > If you select **Force**, the user account is moved, but any associated user data is deleted (for example, conferences that the user has scheduled and contacts). If you do not select it, both the account and the associated data are moved. 
+    > [!CAUTION]
+    > If you select **Force**, the user account is moved, but any associated user data is deleted (for example, conferences that the user has scheduled and contacts). If you do not select it, both the account and the associated data are moved. 
  
 ### Move users from one pool to another using Windows PowerShell cmdlets
 
@@ -190,22 +183,22 @@ in your internal deployment.
  
 3. To move single users, use the Move-CsUser cmdlet as follows:
  
- ```PowerShell
- Move-CsUser -Identity "Pilar Ackerman" -Target "pool01.contoso.net"
- ```
+    ```PowerShell
+    Move-CsUser -Identity "Pilar Ackerman" -Target "pool01.contoso.net"
+    ```
 
- Where the user to move is the user Pilar Ackerman, and the user will be moved from their currently assigned home pool to the pool pool01.contoso.net
+    Where the user to move is the user Pilar Ackerman, and the user will be moved from their currently assigned home pool to the pool pool01.contoso.net
  
 4. To move a large number of users, use filters with the **Get-CsUser** cmdlet and pass the resulting set of users to **Move-CsUser**:
  
- ```PowerShell
- Get-CsUser -Filter {RegistrarPool -eq "CurrentPoolFqdn"} | Move-CsUser -Target "TargetPoolFQDN"
- ```
+    ```PowerShell
+    Get-CsUser -Filter {RegistrarPool -eq "CurrentPoolFqdn"} | Move-CsUser -Target "TargetPoolFQDN"
+    ```
 
- The combined commands of the **Get-CsUser** and **Move-CsUser** might result in this:
+    The combined commands of the **Get-CsUser** and **Move-CsUser** might result in this:
  
- ```PowerShell
- Get-CsUser -Filter {RegistrarPool -eq "pool02.contoso.net"} | Move-CsUser -Target "pool01.contoso.net"
- ```
+    ```PowerShell
+    Get-CsUser -Filter {RegistrarPool -eq "pool02.contoso.net"} | Move-CsUser -Target "pool01.contoso.net"
+    ```
 
 
