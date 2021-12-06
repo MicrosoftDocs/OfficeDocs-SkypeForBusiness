@@ -1,5 +1,5 @@
 ---
-title: What is Microsoft 365 Business Voice?
+title: Teams Phone guidance for small and medium businesses
 author: dstrome 
 ms.author: dstrome
 manager: serdars
@@ -8,30 +8,32 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-ms.localizationpriority: high
+ms.localizationpriority: medium
 MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
-- Teams_Business_Voice
 - m365initiative-voice
 search.appverid: MET150
-description: Microsoft 365 Business Voice is an inexpensive option for voice calling, enabling small and medium businesses to communicate more effectively.
+description: Microsoft Teams Phone with Calling Plan is an inexpensive option for voice calling, enabling small and medium businesses to communicate better.
 appliesto: 
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
 ---
 
-# What is Microsoft 365 Business Voice?
+# Teams Phone guidance for small and medium businesses
 
-Microsoft 365 Business Voice makes it easy for small and medium organizations to turn Microsoft Teams into a powerful and flexible telephone system. It's a replacement for traditional telephony providers and in-house phone systems that can be difficult and costly to manage. You can set up both toll and toll-free numbers, call menus to help callers get to the right department, audio conferencing so you can host meetings with anyone, and more. You can even give people their own phone numbers so they can get calls directly.
+>[!NOTE]
+> Microsoft 365 Business Voice was Microsoft’s telephony service bundle for small and medium businesses, which included private branch exchange (PBX) features, a domestic calling plan, and Audio Conferencing. However, Business Voice will be deprecated on March 1, 2022.  
+>
+> For PBX features and PSTN connectivity for small and medium businesses, we recommend Teams Phone with Calling Plan, if it’s [available in your geographic area](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). If Teams Phone with Calling Plan is not available in your region, see [Plan your Teams voice solution](/microsoftteams/cloud-voice-landing-page.md) to learn about other PSTN connectivity options.
+>
+> Unlike Business Voice, Teams Phone with Calling Plan doesn’t include Audio Conferencing capabilities. To learn about setting up Audio Conferencing for a small or medium business, see [Set up Audio Conferencing for small and medium businesses](/microsoftteams/audio-conferencing-smb.md).  
 
-Business Voice does all of this by wrapping Microsoft 365 Phone System features into an easy-to-manage bundle. You don't need to worry about choosing the right plan or feature; they're all there and set up for you. Because Phone System is a part of Teams, you can turn any PC, Mac, or mobile device into a phone that can use your Business Voice phone number.
+Microsoft Teams Phone with Calling Plan is Microsoft’s all-in-the-cloud solution that makes it easy for small and medium organizations (300 or fewer people) to turn Microsoft Teams into a powerful and flexible telephone system. Teams Phone with Calling Plan provides Private Branch Exchange (PBX) functionality and calls to the Public Switched Telephone Network (PSTN).
 
-Here's a short video that gives you an overview of Business Voice (2:13 minutes):
+Set up both toll and toll-free numbers, call menus to help callers get to the right department, call queues for high-traffic phone numbers, and more. You can even give people their own phone numbers so they can receive calls directly.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4C56M]
-
-Business Voice is right for you if your organization has 300 or fewer people and you have one the following Microsoft 365 subscriptions:
+Teams Phone with Calling Plan is available with the following Microsoft 365 subscriptions:
 
 - Microsoft 365 Business Basic
 - Microsoft 365 Business Standard
@@ -45,34 +47,90 @@ Business Voice is right for you if your organization has 300 or fewer people and
 - Microsoft 365 Nonprofit Business Basic
 - Microsoft 365 Nonprofit Business Standard
 - Microsoft 365 and Office 365 Nonprofit E1 or E3
+- Microsoft 365 Teams Essentials
 
-Business Voice is available in over 70 countries and regions. Whether you can set up Business Voice on your own, transfer phone numbers to Microsoft 365, and manage your phone numbers in Microsoft 365, depends on the country or region in which your Microsoft 365 tenant is located. For more information, check out [Country and region availability for Business Voice](country-region-availability.md).
+>[!IMPORTANT]
+> Microsoft Teams and Teams Phone with Calling Plan only work when your users' mailboxes are located in Microsoft 365 (excluding Microsoft 365 Teams Essentials subscribers). They don't support mailboxes located on on-premises Exchange Server.
 
-> [!IMPORTANT]
->
-> Microsoft Teams and Business Voice only work when your users' mailboxes are located in Microsoft 365.  They don't support mailboxes located on on-premises Exchange Server.
+## Guidance articles for small and medium businesses
 
-When you buy Business Voice, you get the following features and more:
+These articles will help your business plan, set up, and manage your Teams Phone with Calling Plan telephony solution.
 
-<table>
-    <tr>
-        <td><b><a href="/microsoftteams/what-is-phone-system-in-office-365">Phone System</a></b>
-        </td>
-        <td>Standard phone features include Voice Mail, Caller ID, call menus, shared phone lines, and emergency calling.
-        </td>
-    </tr>
-<tr>
-        <td><b><a href="/microsoftteams/calling-plan-landing-page">Domestic Calling</a></b>
-        </td>
-        <td>Calls within your country or region are free. International plans and toll-free dialing are also available.
-        </td>
-    </tr>
-    <tr>
-        <td><b><a href="/microsoftteams/audio-conferencing-in-office-365">Audio Conferencing</a></b>
-        </td>
-        <td>Lets you host conference calls with people who don't have Teams or don't have an internet connection.
-        </td>
-    </tr>
-</table>
+| Article | Description |
+|---------|-------------|
+| [Check country and region availability](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) | See which Teams Phone features are available in your country and region |
+| [Check your internet connection](/business-voice/get-ready-internet.md) | Determine if your Internet connection is sufficient for Teams Phone with Calling Plan |
+| [Get help from a reseller or partner](/business-voice/reseller-partner-support.md) | See how a Microsoft reseller or partner can help you find the right voice solution if Teams Phone with Calling Plan is not available in your region |
+| [Set up Teams Phone with Calling Plan for small and medium businesses](/business-voice/set-up-overview.md) | Follow a step-by-step guide to set up Teams Phone with Calling Plan |
+| [Customize your Teams Phone setup for small and medium businesses](/business-voice/customize-business-voice.md) | Learn how to customize Teams Phone with Calling Plan for your unique needs |
+| [Manage your Teams Phone setup for small and medium businesses](/business-voice/create-users.md) | Learn how to manage Teams Phone with Calling Plan users, devices, and call quality |
+| [Partner resources](https://cloudpartners.transform.microsoft.com/products/m365-business-voice-partner-playbook) | For Microsoft 365 partners, see how you can build a strong managed services practice for Teams Phone with Calling Plan |
 
-You can see everything that's included with Business Voice by visiting [Microsoft 365 Business Voice service description](/office365/servicedescriptions/microsoft-365-business-voice-service-description).
+## What do I need to buy to get voice capabilities for my small or medium business?
+
+To make or receive phone calls to or from external phone numbers, users need PBX features and PSTN connectivity. For small and medium businesses, we recommend Teams Phone with Calling Plan because it provides PBX features and PSTN connectivity to users assigned a license.
+
+Teams Phone with Calling Plan is not available in all regions, so [check your area's availability for Teams Phone with Calling Plan](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+
+Users who don't need to make or receive phone calls to or from external phone numbers just need Teams. They don't need a Teams Phone with Calling Plan license.
+
+For example, you might have ten factory employees and five office employees. The factory employees may only need to call other employees within your company. In addition to calling other employees, office workers need to make and receive phone calls to and from suppliers, partners, and customers. In this case, only the five office workers need a Teams Phone with Calling Plan license.
+
+### Teams Phone license types
+
+There are two types of Teams Phone licenses: Teams phone **with** Calling Plan and Teams Phone as a standalone license (**without** Calling Plan). The license type determines whether you’ll use a calling plan from Microsoft or from a third-party service provider.
+
+As state in the section above, the type of Teams Phone license available to you depends on the location of your Microsoft 365 tenant and whether Calling Plan is available in your region.
+
+- **Teams Phone with Calling Plan license** You can buy Teams Phone from Microsoft, set it up on your own, and then set up or transfer your existing phone numbers to Microsoft. The article [Set up Teams Phone](/microsoftteams/business-voice/set-up-overview.md) shows you how to set up Teams Phone for your organization.
+
+    Read [Teams Phone with Calling Plan](#teams-phone-with-calling-plan) later in this article for more information about buying Teams Phone with Calling Plan.
+
+    To see whether your country or region supports Calling Plan, check out [Country and region availability for Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+
+- **Teams Phone standalone license (without Calling Plan)** With this license type, you need to buy Teams Phone from a [Microsoft partner or reseller](/business-voice/reseller-partner-support.md) who will help you set up Teams Phone. Your existing phone numbers remain with your current third-party telephone provider.
+
+    Read [Plan your Teams voice solution](/microsoftteams/cloud-voice-landing-page.md) to learn about your third-party PSTN connectivity options.
+
+### Teams Phone with Calling Plan
+
+Teams Phone with Calling Plan includes a Domestic Calling Plan, which gives you some minutes per month to make calls within your country or region. You can also purchase an extra International Calling Plan if you want to make calls to other countries or regions. Use *Communications Credits* to pay per minute for an International call, extra minutes per month for a Domestic Calling Plan, and toll-free numbers. You'll learn more about [Calling Plans and Communications Credits](#communications-credits) later in this article.
+
+To buy Teams Phone with Calling Plan licenses, sign in to the [admin center](https://admin.microsoft.com/Adminportal/Home#/homepage), and then go to **Billing** > **Purchase services**.
+
+#### Types of Microsoft Calling Plans
+
+Calling Plans let your users call phone numbers that are outside your organization. Calling Plans include a monthly pool of minutes that's based on the number of assigned Teams Phone licenses in each country or region. When a user makes a phone call, the number of minutes used for that call is deducted from the monthly pool. At the beginning of each month, the balance of minutes in the pool is reset.
+
+Calling Plan pools are specific to the country or region in which the users are located and the type of calling plan (domestic or international). Users in a country or region can only use minutes from the Calling Plan pool in their country or region. Minutes in a Calling Plan pool in one country or region can't be transferred to a pool in another country or region.
+
+What happens when all the minutes in a Calling Plan pool are used up depends on if you have Communications Credits available or not. If you have Communications Credits available, Teams Phone will start using them. If you don't have Credits available, users won't be able to make phone calls outside your organization until the Calling Plan pool is reset at the beginning of the next month. For more information on Communication Credits, read the [Communication Credits](#communications-credits) section in this article.
+
+>[!Important]
+> The number of minutes in a pool depends on the country or region and the number of Teams Phone licenses that are assigned to your users, not the number of Teams Phone licenses that you purchased. For example, if you purchased 10 Teams Phone licenses in Canada but are only using three licenses, you'll have a total of 9,000 minutes in your pool (3 licenses multiplied by 3,000 minutes per user).
+
+There are two types of Calling Plans:
+
+- **Domestic Calling Plan**
+
+    The Domestic Calling Plan lets users call phone numbers in their country or region. Teams Phone with Calling Plan includes a Domestic Calling Plan for each user who's assigned a Teams Phone license. The number of minutes available for each user each month depends on the country or region the user is located.
+
+    Calls between the United States and Canada are considered domestic calls. You don't need to add the International Calling Plan to place calls between these two countries.
+
+- **International Calling Plan**
+
+    The International Calling Plan lets users call phone numbers outside their country or region. The International Calling Plan is purchased as an add-on for Teams Phone with Calling Plan.
+
+    When you consider whether to buy the International Calling Plan for a user, determine how often they make international calls and how long the calls are. This information is important because when you purchase an International Calling Plan, you pay for a certain number of minutes up front. If a user doesn't use up all the minutes in a month, the remaining minutes are discarded at the beginning of the next month. If it's likely that a user won't use up all the minutes in the International Calling Plan, don't buy one. Instead use [Communications Credits](#communications-credits).
+
+#### Communications Credits
+
+Communications Credits are like a digital wallet that's used to pay for calls to or from phone numbers outside your organization's phone system. Communications Credits are used in a few situations.
+
+- **A user has run out of minutes in their Domestic or International Calling Plan:** If a user doesn't have an International Calling Plan, Teams Phone automatically starts using your Communications Credits balance.
+- **A user who doesn't have an International Calling Plan makes international calls:** Teams Phone automatically starts using your Communications Credits balance.
+- **You have toll-free numbers:** When someone calls your toll-free number, the cost of the call is deducted from your Communications Credit balance.
+
+If you still have Communication Credits left over at the end of the month, they're carried over to the next month.
+
+To learn more about Communication Credits, read [What are Communications Credits?](/microsoftteams/what-are-communications-credits.md)

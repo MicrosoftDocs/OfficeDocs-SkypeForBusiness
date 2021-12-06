@@ -26,7 +26,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Plan your Teams voice solution 
+# Plan your Teams voice solution
 
 This article helps you decide which Microsoft voice solution is right for your organization. After you've decided, the article provides a roadmap to content that will enable you to implement your chosen solution.
 
@@ -40,17 +40,19 @@ If you answer yes to the following, then Teams Phone with Calling Plan is the ri
 - You do not need to retain your current PSTN carrier.
 - You want to use Microsoft-managed access to the PSTN.
 
-However, your situation might be more complex. For example, you might have offices in locations where Calling Plan isn't available. Or you might need a combination solution that supports a complex, multi-national deployment, with different requirements for different geographic locations. Microsoft supports a combination of solutions: 
+However, your situation might be more complex. For example, you might have offices in locations where Calling Plan isn't available. Or you might need a combination solution that supports a complex, multi-national deployment, with different requirements for different geographic locations. Microsoft supports a combination of solutions:
 
 - Teams Phone with Calling Plan
 - Teams Phone with your own PSTN carrier with Operator Connect
 - Teams Phone with your own PSTN carrier with Direct Routing
 - A combination solution that uses Teams Phone with Calling Plan, Teams Phone with Operator Connect, and/or Teams Phone with Direct Routing
 
+>[!NOTE]
+>If you’re a small to medium business (300 or fewer people), see [Teams Phone guidance for small and medium businesses](/business-voice/whats-business-voice.md) to help you plan, set up, and manage your voice solution.
 
 ## What do you need to read?
 
-**Required for all.** Some of the sections in this article pertain to all organizations. For example, everyone should read about Teams Phone and understand the options for connecting to the Public Switched Telephone Network (PSTN). 
+**Required for all.** Some of the sections in this article pertain to all organizations. For example, everyone should read about Teams Phone and understand the options for connecting to the Public Switched Telephone Network (PSTN).
 
 
 | Required for all | Description |

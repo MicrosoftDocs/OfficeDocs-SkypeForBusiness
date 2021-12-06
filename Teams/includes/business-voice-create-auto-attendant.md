@@ -8,7 +8,7 @@ This video shows a basic example of how to create an auto attendant in Teams.
 
 Get the service numbers (service numbers are a special type of phone number that are used by auto attendants) that you need for the auto attendants that you want to be accessible by direct dialing from outside your organization. This might include [transferring numbers from another provider](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) or [requesting new service numbers](../getting-service-phone-numbers.md).
 
-Each auto attendant needs to be assigned a Phone System - Virtual User license. When you purchased Business Voice, you also received a number of Phone System - Virtual User licenses, so you probably don't need to request more. However, if you need more in the future, you can get them by following the instructions in [Phone System - Virtual User license](../teams-add-on-licensing/virtual-user.md).
+Each auto attendant needs to be assigned a Phone System - Virtual User license. When you purchased Teams Phone with Calling Plan, you also received a number of Phone System - Virtual User licenses, so you probably don't need to request more. However, if you need more in the future, you can get them by following the instructions in [Phone System - Virtual User license](../teams-add-on-licensing/virtual-user.md).
 
 If you want to have your auto attendant route calls differently on holidays, then [create the holidays that you want to use](../set-up-holidays-in-teams.md) before you create the auto attendant.
 
@@ -19,7 +19,7 @@ If you want to have your auto attendant route calls differently on holidays, the
 # [Step 1<br>Phone number](#tab/phone-number)
 
 > [!NOTE]
-> If you're following the steps to set up Business Voice for the first time and you're on **Step 6: Set up an auto attendant for your company's main phone number**, you've already finished the steps on this tab. Move to the next tab: [Auto attendant general info](?tabs=general-info#steps).
+> If you're following the steps to set up Teams Phone with Calling Plan for the first time and you're on **Step 6: Set up an auto attendant for your company's main phone number**, you've already finished the steps on this tab. Move to the next tab: [Auto attendant general info](?tabs=general-info#steps).
 
 Each auto attendant that you create requires a resource account. This is similar to a user account, except the account is associated with an auto attendant or call queue instead of a person. In this step, we'll create the account, assign it a *Microsoft 365 Phone System - Virtual User* license, and then assign a service number.
 
@@ -33,13 +33,9 @@ You can create a resource account in the Teams admin center.
 
 3. In the **Add resource account** pane, fill out **Display name**, **Username**, and choose **Auto attendant** for the **Resource account type**
 
-    ![Screenshot of add resource account user interface.](../media/resource-account-add.png)
-
 4. Click **Save**.
 
     The new account will appear in the list of accounts.
-
-    ![Screenshot of a list of resource accounts.](../media/resource-accounts-page.png)
 
 ### Assign a license
 
@@ -51,8 +47,6 @@ You must assign a *Microsoft 365 Phone System - Virtual User* license to the res
 
 3. Click **Save changes**.
 
-    ![Screenshot of assign licenses user interface in the Microsoft 365 admin center.](../media/resource-account-assign-virtual-user-license.png)
-
 ### Assign a service number
 
 If you need this auto attendant to be reachable by a phone number, then assign that number to the resource account.
@@ -62,8 +56,6 @@ If you need this auto attendant to be reachable by a phone number, then assign t
 2. In the **Phone number type** dropdown, choose the type of number that you want to use.
 
 3. In the **Assigned phone number** box, search for the number you want to use and click **Add**.
-
-    ![Screenshot of the assign service number user interface.](../media/resource-account-assign-phone-number.png)
 
 4. Click **Save**.
 
@@ -82,11 +74,9 @@ To set up an auto attendant
 
 4. Specify the time zone for this auto attendant. The time zone is used for calculating business hours if you create a separate call flow for after hours.
 
-5. Specify a [supported language](../create-a-phone-system-auto-attendant-languages.md) for this auto attendant. This is the language that will be used for system-generated voice prompts. 
+5. Specify a [supported language](../create-a-phone-system-auto-attendant-languages.md) for this auto attendant. This is the language that will be used for system-generated voice prompts.
 
 6. Choose if you want to enable voice inputs. When enabled, the name of every menu option becomes a speech-recognition keyword. For example, callers can say "One" to select the menu option mapped to key 1, or they can say "Sales" to select the menu option named "Sales."
-
-    ![Screenshot of auto attendant settings for name, operator, time zone, language, and voice inputs.](../media/auto-attendant-general-info-page-new.png)
 
 7. Click **Next**.
 
@@ -103,8 +93,6 @@ Choose your call flow options
 
     If you select **Type a greeting message** the system will read the text you the text that you type (up to 1000 characters) when the auto attendant answers a call.
 
-    ![Screenshot of greeting message settings.](../media/auto-attendant-call-flow-greeting-message.png)
-
 2. Choose how you want to route the call.
 
     If you select **Disconnect**, the auto attendant will hang up the call.
@@ -112,8 +100,6 @@ Choose your call flow options
     If you select **Redirect call**, you can choose one of the call routing destinations.
 
     If you select **Play menu options**, you can choose to **Play an audio file** or **Type in a greeting message** and then choose between menu options and directory search.
-
-    ![Screenshot of call routing settings.](../media/auto-attendant-call-flow-route-call-message.png)
 
 3. If you want callers to use dial keys to navigate, then under **Set menu options**, choose what you want to happen when callers press a dial key. (If you're creating this auto attendant as a company directory, leave the dial key options blank.)
 
@@ -135,9 +121,7 @@ Choose your call flow options
 
     - **Redirect to** - where you want the call to go when callers choose this option. If you are redirecting to an auto attendant or call queue, choose the resource account associated with it.
 
-    ![Screenshot of dial key options.](../media/auto-attendant-call-flow-menu-options-complete.png)
-
-4. If you want to use this auto attendant as a company directory, then under **Directory search**, select **Dial by name**. When you enable this option, callers can say the user's name or type it on the telephone keypad. Any online user with a Phone System license is an eligible user and can be found with Dial by name. 
+4. If you want to use this auto attendant as a company directory, then under **Directory search**, select **Dial by name**. When you enable this option, callers can say the user's name or type it on the telephone keypad. Any online user with a Phone System license is an eligible user and can be found with Dial by name.
 
     (You can choose **Dial by extension**, however the extension must be configured in Azure Active Directory.)
 
@@ -153,8 +137,6 @@ Business hours can be set for each auto attendant. If business hours aren't set,
 Depending on how you have configured your auto attendants and call queues, you may only need to specify after-hours call routing for auto attendants with direct phone numbers.
 
 If you want separate call routing for after-hours callers, then specify your business hours for each day. Click **Add new time** to specify multiple sets of hours for a given day, for example, to specify a lunch break.
-
-![Screenshot of after hours day and time settings.](../media/auto-attendant-business-hours.png)
 
 Once you have specified your business hours, then choose your call routing options for after hours. The same options are available as for the business hours call routing that you specified in **Step 3 - Call flow**.
 
@@ -177,19 +159,13 @@ Your auto attendant can have a call flow for each holiday you've set up. You can
 
 4. Choose the type of greeting that you want to use.
 
-    ![Screenshot of holiday and holiday greeting settings.](../media/auto-attendant-holiday-greeting.png)
-
 5. Choose if you want to **Disconnect** or **Redirect** the call.
 
 6. If you chose to redirect, choose the call routing destination for the call.
 
-    ![Screenshot of holiday call action settings.](../media/auto-attendant-holiday-actions.png)
-
 7. Click **Save**.
 
     Repeat the procedure as needed for each additional holiday.
-
-    ![Screenshot of holiday settings with holidays listed.](../media/auto-attendant-holiday-call-settings.png)
 
     When you've added all your holidays, click **Next**.
 
@@ -201,8 +177,6 @@ Your auto attendant can have a call flow for each holiday you've set up. You can
 The *dial scope* defines which users are available in the directory when a caller uses dial-by-name or dial-by-extension. The default of **All online users** includes all users in your organization that are Online users with a Phone System license.
 
 You can include or exclude specific users by selecting **Custom user group** under **Include** or **Exclude** and choosing one or more Microsoft 365 groups, distribution lists, or security groups. For example, you might want to exclude executives in your organization from the dialing directory. (If a user is in both lists, they will be excluded from the directory.)
-
-![Screenshot of dial scope include and exclude options.](../media/auto-attendant-dial-scope.png)
 
 > [!NOTE]
 > It might take up to 36 hours for a new user to have their name listed in the directory.
@@ -220,11 +194,7 @@ To add a resource account
 
 1. Click **Add** and search for the account that you want to add. Click **Add**, and then click **Add**.
 
-    ![Screenshot of resource account add accounts panel.](../media/auto-attendant-add-resource-account.png)
-
 2. When you have finished adding service accounts, click **Submit**.
-
-    ![Screenshot of resource account list showing resource account with assigned service number.](../media/auto-attendant-resource-account-assigned.png)
 
     This completes the auto attendant configuration.
 
