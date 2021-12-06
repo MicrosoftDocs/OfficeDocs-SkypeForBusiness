@@ -52,7 +52,12 @@
     },
     {
       "source_path": "Teams/edit-user-settings-in-bulk.md",
-      "redirect_url": "/MicrosoftTeams/assign-policies",
+      "redirect_url": "/MicrosoftTeams/assign-policies-users-and-groups",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Teams/assign-policies.md",
+      "redirect_url": "/MicrosoftTeams/policy-assignment-overview",
       "redirect_document_id": true
     },
     {
