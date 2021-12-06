@@ -34,19 +34,19 @@ The Parents app helps educators securely connect and engage with the parents and
   - Completing the RFA process at [FastTrack](https://www.microsoft.com/fasttrack?rtc=1).
   - Opening a ticket at [Support](https://aka.ms/sdssupport).
 
-### Teams Admin Center - Policies​
+### Teams Admin Center - Policies
 
-- Class team owners must have Teams chat enabled.​
-- Class team owners must have external access with **Teams accounts not managed by an organization** enabled. ​
-  - This must be enabled at the tenant level and the user level. The tenant level setting can be found in **Users > External Access** in the Teams Admin Center. This setting can also be accessed via PowerShell. User level external access policies can only be accessed via PowerShell. See the PowerShell commands below for further guidance.​
+- Class team owners must have Teams chat enabled.
+- Class team owners must have external access with **Teams accounts not managed by an organization** enabled.
+  - This must be enabled at the tenant level and the user level. The tenant level setting can be found in **Users > External Access** in the Teams Admin Center. This setting can also be accessed via PowerShell. User level external access policies can only be accessed via PowerShell. See the PowerShell commands below for further guidance.
 
 ## Enabling external access with Teams accounts not managed by an organization
 
 1. Install the latest Microsoft Teams PowerShell module preview.
 
     ```powershell
-    Install-Module -Name PowerShellGet -Force -AllowClobber​
-    Install-Module -Name MicrosoftTeams -AllowPrerelease -Force –AllowClobber​
+    Install-Module -Name PowerShellGet -Force -AllowClobber
+    Install-Module -Name MicrosoftTeams -AllowPrerelease -Force –AllowClobber
     ```
     
 2. Using credentials that have admin privileges, run the following commands:
@@ -60,13 +60,16 @@ The policy setting which enables external access with Teams accounts not managed
 
 To check which user-level external access policies exist and who they are assigned to, you can use the following steps:
     
-3. Check which user-level external access policies exist​.
+3. Check which user-level external access policies exist.
 
     ```powershell
-    Get-CsExternalAccessPolicy​
+    Get-CsExternalAccessPolicy
     ```
 
-4. For each policy other than the ‘Global’ policy, check which users have the policy assigned. Note: any users who do not have a specific policy assigned will fall back to the ‘Global’ policy. Any new users who are added to the tenant will have the ‘Global’ policy assigned.​
+4. For each policy other than the ‘Global’ policy, check which users have the policy assigned.
+
+   > [!NOTE]
+   > Any users who do not have a specific policy assigned will fall back to the ‘Global’ policy. Any new users who are added to the tenant will have the ‘Global’ policy assigned.
 
     ```powershell
     Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq "<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
