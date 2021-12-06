@@ -99,7 +99,7 @@ items:
               href: hardware-requirements-for-the-teams-app.md
             - name: Hardware decoder and encoder driver recommendations
               href: hardware-decoders-and-encoders.md
-            - name: Install Teams using MSI
+            - name: Install Microsoft Teams using Microsoft Endpoint Configuration Manager
               href: msi-deployment.md
             - name: Turn on Teams in your organization
               href: Office-365-set-up.md
@@ -373,8 +373,6 @@ items:
               href: view-guests.md
             - name: Edit guest information
               href: edit-guests-information.md
-            - name: Troubleshoot guest access
-              href: troubleshoot-guest-access.md
     - name: Monitor and manage call quality
       items: 
         - name: Monitor and improve call quality
@@ -690,6 +688,12 @@ items:
           href: audio-conferencing-common-questions.md
         - name: Try or purchase Audio Conferencing in Microsoft 365
           href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
+        - name: Operator Connect Conferencing
+          items:
+            - name: Overview
+              href: operator-connect-conferencing-plan.md
+            - name: Configure Operator Connect Conferencing
+              href: operator-connect-conferencing-configure.md
         - name: Extended dial-out minutes for US and Canada
           href: dial-out-minutes-canada-us.md
         - name: Audio Conferencing Complimentary Dial Out Period
@@ -864,17 +868,17 @@ items:
             - name: Use the recovery tool
               href: rooms/recovery-tool.md
 
-- name: Voice - Phone System and PSTN connectivity
+- name: Voice - Teams Phone and PSTN connectivity
   items: 
     - name: Plan your Teams voice solution
       href: cloud-voice-landing-page.md
-    - name: Phone System
+    - name: Teams Phone
       items: 
-        - name: What is Phone System
+        - name: What is Teams Phone
           href: what-is-phone-system-in-office-365.md
-        - name: Here's what you get with Phone System
+        - name: Here's what you get with Teams Phone
           href: here-s-what-you-get-with-phone-system.md
-        - name: Set up Phone System
+        - name: Set up Teams Phone
           href: setting-up-your-phone-system.md
         - name: Set up common area phones
           href: set-up-common-area-phones.md
@@ -1115,7 +1119,7 @@ items:
           href: voice-case-study-overview.md
         - name: Teams upgrade plan
           href: voice-case-study-migration-plan.md
-        - name: Phone System
+        - name: Teams Phone
           href: voice-case-study-phone-system.md
         - name: Location-Based-Routing
           href: voice-case-study-location-based-routing.md
@@ -1571,6 +1575,8 @@ items:
           href: teams-edu-licensing.md
         - name: Education SKU reference
           href: sku-reference-edu.md
+        - name: Teams devices for Education
+          href: devices-for-education.md
     - name: Teams for Frontline Workers
       items: 
         - name: Frontline Worker quick start guide
@@ -1649,6 +1655,10 @@ items:
           href: teams-add-on-licensing/pri-message.md
         - name: Microsoft 365 Phone System – Virtual User license
           href: teams-add-on-licensing/virtual-user.md
+        - name: Get started with Teams Essentials 
+          href: get-started-with-teams-essentials.md
+        - name: Connect Teams Essentials (AAD Identity) to email
+          href: connect-teams-essentials-to-email.md         
     - name: Interoperability with Microsoft 365 and Office 365
       items: 
         - name: Microsoft 365 groups and Teams
@@ -1674,6 +1684,8 @@ items:
           href: devices/device-management.md
         - name: Remote provisioning and sign-in
           href: devices/remote-provision-remote-login.md
+        - name: Remote sign in and sign out
+          href: devices/remote-sign-in-and-sign-out.md
         - name: Update your devices remotely
           href: devices/remote-update.md
         - name: Manage Teams device tags

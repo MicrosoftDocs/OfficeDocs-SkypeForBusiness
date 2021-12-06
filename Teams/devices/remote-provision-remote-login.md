@@ -1,9 +1,8 @@
 ---
 title: Remote provisioning and sign in for Teams Android devices
-author: serdarsoysal
-ms.author: serdars
+author: cazawideh
+ms.author: czawideh
 manager: serdars
-ms.reviewer: prgholve
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -103,7 +102,7 @@ When the device is powered on and connected to the network, the technician provi
 
    ![Tenant name on sign-in page.](../media/provision-code.png)
 
-## Sign in remotely
+## First time remote sign in
 
 The provisioned device appears in the **Waiting for sign in** tab. Start the remote sign-in process by selecting the individual device.
 
@@ -115,7 +114,8 @@ The provisioned device appears in the **Waiting for sign in** tab. Start the rem
 
    ![the Sign in a user window for individual device.](../media/sign-in-user.png)
 
-## Related article
+## Related articles
 
 - [Manage your devices in Teams](device-management.md)
+- [Remote sign in and sign out](remote-sign-in-and-sign-out.md)
 - [Update Teams devices remotely](remote-update.md)
