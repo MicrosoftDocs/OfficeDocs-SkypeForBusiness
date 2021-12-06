@@ -281,7 +281,7 @@ xi. Under **Add setting**, choose **Advanced content match**
 
 *Disable Outlook on the web for mailboxes*
 
-1. Follow the instructions at [Disable Outlook on the web for a mailbox in Exchange Online](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app&preserve-view=true) to disable Outlook on the web for mailboxes.
+1. Follow the instructions at [Enable or disable Outlook on the web for a mailbox in Exchange Online](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app) to disable Outlook on the web for mailboxes.
 
 2. You can disable Outlook on the web using the **Exchange Admin Center** or **PowerShell**. You may use the following PowerShell example to disable Outlook on the web for all mailboxes:
 
