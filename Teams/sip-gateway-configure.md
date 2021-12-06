@@ -31,7 +31,7 @@ Before you can configure SIP Gateway, do the following:
 
 - **Reset SIP devices to factory default settings.** You or your organization's users must reset each SIP device used with SIP Gateway to its factory default settings. To find out how to do that, see the manufacturer’s instructions.
 
-- **Open your firewall to Microsoft 365 and Teams.** Open your network's firewall to Microsoft 365 and Teams traffic as described in [Office 365 URLs and IP address ranges](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges).
+- **Open your firewall to Microsoft 365 and Teams.** Open your network's firewall to Microsoft 365 and Teams traffic as described in [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges).
 
 - **Make sure the SIP devices are not behind a proxy.** Ensure that http/s traffic bypasses any corporate http/s proxy.
 
@@ -100,7 +100,7 @@ To enable SIP Gateway in the Teams admin center, follow these steps:
 
 ### By using PowerShell
 
-You can also enable SIP Gateway by using the PowerShell [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) cmdlet. To enable users for SIP devices, select a policy, and set the `-AllowSIPDevicesCalling` attribute to `True`. The default value is `False`, so users will not be able to use their SIP devices unless you enable them.
+You can also enable SIP Gateway by using the PowerShell [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) cmdlet. To enable users for SIP devices, select a policy, and set the `-AllowSIPDevicesCalling` attribute to `True`. The default value is `False`, so users will not be able to use their SIP devices unless you enable them.
 
 
 ## Set the SIP Gateway provisioning server URL
@@ -115,7 +115,7 @@ For each SIP device, set one of the following SIP Gateway provisioning server UR
 - Americas: `http://noam.ipp.sdg.teams.microsoft.com`
 - APAC: `http://apac.ipp.sdg.teams.microsoft.com`
 
-Add SIP devices to your Teams organization by configuring the above SIP Gateway provisioning server URL in your DHCP server. To learn more about DHCP server, see [Deploy and manage DHCP](https://docs.microsoft.com/learn/modules/deploy-manage-dynamic-host-configuration-protocol). Also, you can use DHCP option 42 to specify the Network Time Protocol (NTP) server, and DHCP option 2 to specify the offset from Coordinated Universal Time (UTC) in seconds. The devices in your organization will be routed to the SIP Gateway provisioning server. Successfully provisioned SIP phones will display the Teams logo and a soft button for sign-in.
+Add SIP devices to your Teams organization by configuring the above SIP Gateway provisioning server URL in your DHCP server. To learn more about DHCP server, see [Deploy and manage DHCP](/learn/modules/deploy-manage-dynamic-host-configuration-protocol). Also, you can use DHCP option 42 to specify the Network Time Protocol (NTP) server, and DHCP option 2 to specify the offset from Coordinated Universal Time (UTC) in seconds. The devices in your organization will be routed to the SIP Gateway provisioning server. Successfully provisioned SIP phones will display the Teams logo and a soft button for sign-in.
 
 Ensure SIP devices are on the minimum supported firmware version for onboarding. During onboarding, SIP Gateway will push the default configuration and authentication user interface to the device. To find out the required firmware version for SIP devices, see [Plan for SIP Gateway](sip-gateway-plan.md).
 
@@ -151,7 +151,7 @@ Conditional Access is an Azure Active Directory (Azure AD) feature that helps en
     - Australia East: 20.92.120.71
     - Australia Southeast: 13.73.115.90
 
-For more information, see [IP address ranges](https://docs.microsoft.com/azure/active-directory/conditional-access/location-condition#ip-address-ranges).
+For more information, see [IP address ranges](/azure/active-directory/conditional-access/location-condition#ip-address-ranges).
 
 
 ## Provision and enroll SIP devices as common area phones
@@ -226,7 +226,7 @@ To pair a SIP device after the user authenticates using corporate credentials, a
 3. Enter the pairing code displayed on the SIP phone into the web authentication app to pair the SIP phone with the user's account. On a successful sign-in, which might take a while, the SIP phone will display the phone number and username, if the device supports it.
 
 > [!NOTE]
-> The location of the device shown on the Azure Active Directory web authentication app is the SIP Gateway datacenter to which the device is connected. SIP phones in scope are not OAuth-capable, so SIP Gateway authenticates the user through the web authentication app and then pairs the device with the user’s credentials. Learn more here: [Microsoft identity platform and the OAuth 2.0 device authorization grant flow](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-device-code).
+> The location of the device shown on the Azure Active Directory web authentication app is the SIP Gateway datacenter to which the device is connected. SIP phones in scope are not OAuth-capable, so SIP Gateway authenticates the user through the web authentication app and then pairs the device with the user’s credentials. Learn more here: [Microsoft identity platform and the OAuth 2.0 device authorization grant flow](/azure/active-directory/develop/v2-oauth2-device-code).
 
 ### Sign-out
 
@@ -299,11 +299,11 @@ How to set Japanese for Cisco phones:
 
 ## Microsoft Teams and IPv6
 
-SIP Gateway only supports IPv4. Microsoft Teams service and client support both IPv4 and IPv6. If you want to control communications to Microsoft Teams, use the IP address ranges in [Microsoft 365 URLs and IP address ranges](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges).
+SIP Gateway only supports IPv4. Microsoft Teams service and client support both IPv4 and IPv6. If you want to control communications to Microsoft Teams, use the IP address ranges in [Microsoft 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges).
 
 ## Emergency calling
 
-SIP Gateway only supports static—also called registered—emergency addresses. Currently, registered addresses are not supported for Direct Routing scenarios. For more information about emergency calling, see [Plan and manage emergency calling](https://docs.microsoft.com/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
+SIP Gateway only supports static—also called registered—emergency addresses. Currently, registered addresses are not supported for Direct Routing scenarios. For more information about emergency calling, see [Plan and manage emergency calling](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
 
 ## Report problems to Microsoft
 
