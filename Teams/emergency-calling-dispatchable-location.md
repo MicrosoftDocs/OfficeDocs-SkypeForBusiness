@@ -33,7 +33,7 @@ Although this information applies to emergency 911 calling in the United States,
 This article contains the following sections:
 
 - [Support for emergency calling location information](#support-for-emergency-calling-location-information)
-- [Enhancements to location requests](#enhancements-to-location-requests)
+- [Location precedence](#location-precedence)
 - [Emergency address classification and routing](#emergency-address-classification-and-routing)
 - [Enable end users to configure their emergency address](#enable-end-users-to-configure-their-emergency-address)
 - [Notes and restrictions](#notes-and-restrictions)
@@ -44,22 +44,22 @@ This article contains the following sections:
 To support these requirements, Teams leverages the location services provided by the respective operating system to suggest an address if granted permission by the administer or user. The end user can confirm the location of a suggested address, edit it, or manually enter a new one. A confirmed, edited, or manually-entered address is then saved on the Teams client so that the user-confirmed address is automatically used when the client is connected to that network. The user-saved addresses are automatically cleared when the Teams client is signed out.
 
 
-## Location Precedence
+## Location precedence
 
 Emergency addresses for Teams can be categorized by different types. The following list shows the location precedence used when an emergency number is dialed:
 
-- A dynamically acquired address defined by the tenant administer in the Location Information Service.
+1. A dynamically acquired address defined by the tenant administer in the Location Information Service.
 
-- An address the end user confirmed, edited, or manually entered which is associated to the local network the Teams client is connected to.
+2. An address the end user confirmed, edited, or manually entered which is associated to the local network the Teams client is connected to.
 
-- An address automatically suggested by the operating system.
+3. An address automatically suggested by the operating system.
 
-- An address the administrator statically assigns to the user.
+4. An address the administrator statically assigns to the user.
 
 
 ## Emergency address classification and routing
 
-The following table shows the types of emerency addresses and associated routing methods:  whether they are automatically routed to the serving PSAP or screened for accuracy before transferring to the serving PSAP. This routing behavior is supported in the United States for all Calling Plan users, Operator Connect partners, and Direct Routing certified emergency calling service providers.
+The following table shows the types of emerency addresses and associated routing methods for each type: whether the call is automatically routed to the serving PSAP or screened for accuracy before transferring to the serving PSAP. This routing behavior is supported in the United States for all Calling Plan users, Operator Connect partners, and Direct Routing certified emergency calling service providers.
 
 
 | Type of emergency address | Emergency routing method |
@@ -89,7 +89,7 @@ Grant-CsTeamsEmergencyCallingPolicy -PolicyName E911WFH -Identity user@contoso.c
 
 After enabling this feature for your end users, from the Calls tab, the user can add, edit, or confirm an emergency address and display the address after it is set. 
 
-On Windows, you can manage the Windows Location Service and whether applications have access to the location by using group policy or by using [mobile device management (MDM)](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesslocation).
+On Windows, you can manage the Windows location service, and whether applications have access to the location, by using group policy or by using [mobile device management (MDM)](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesslocation).
 
 For more information about Windows location service, see [Windows location service and privacy](https://support.microsoft.com/windows/windows-location-service-and-privacy-3a8eee0a-5b0b-dc07-eede-2a5ca1c49088).
 
@@ -110,5 +110,5 @@ Please keep the following in mind:
 
 ## Related topics
 
-[Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing?.md)
+[Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
 
