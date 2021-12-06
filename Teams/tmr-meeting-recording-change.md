@@ -95,11 +95,9 @@ The meeting recording option is a setting at the Teams policy level. The followi
 
 ## Opt out of OneDrive for Business and SharePoint to continue using Stream
 
-Even if a policy says it's set to **Stream**, it might not be set. Typically, if the policy isn't set, then the default setting is **Stream**. However, with this new change, if you want to opt-out of using SharePoint or OneDrive for Business, then you must reset the policy to **Stream** to ensure that **Stream** is the default.
+> [!NOTE]
+> The change of storing Teams meeting recordings from Classic Stream to OneDrive and SharePoint (ODSP) has been completed as of August 30th, 2021. All recordings are now stored in ODSP. This change overrides the RecordingStorageMode policy, and modifying the setting in PowerShell no longer has any impact.  It is no longer possible to Opt-out of using Sharepoint and OneDrive.
 
-```PowerShell
-Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
-```
 
 ## Permissions or role-based access
 
