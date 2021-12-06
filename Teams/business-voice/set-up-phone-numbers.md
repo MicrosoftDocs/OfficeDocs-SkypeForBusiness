@@ -48,11 +48,11 @@ The service number you set up now will be used in a later step for your company'
     2. Under **Number type**, select one of the following options:
 
         - **Auto attendant (Toll)** Regular, non-toll-free, phone number. Long distance fees are charged to the caller.
-        - **Auto attendant (Toll Free)** Toll-free (US and Canada) or freephone (UK) phone number. Long distances fees are charged to your company. Before you can select this option, you need to purchase Communication Credits. For more information, see [What do I need to buy to get voice capabilities for my small or medium business?](whats-business-voice.md#what-do-i-need-to-buy-to-get-voice-capabilities-for-my-small-or-medium-business?).
+        - **Auto attendant (Toll Free)** Toll-free (US and Canada) or freephone (UK) phone number. Long distances fees are charged to your company. Before you can select this option, you need to purchase Communication Credits. For more information, see [What do I need to buy to get voice capabilities for my small or medium business?](whats-business-voice.md).
 
     3. Under **Quantity**, select **1**.
         > [!NOTE]
-        > If you get the message **You don't have enough licenses to request more numbers of this type**, make sure you've purchased Teams Phone with Calling Plan licenses. For more information, see [What do I need to buy to get voice capabilities for my small or medium business?](whats-business-voice.md#what-do-i-need-to-buy-to-get-voice-capabilities-for-my-small-or-medium-business?).
+        > If you get the message **You don't have enough licenses to request more numbers of this type**, make sure you've purchased Teams Phone with Calling Plan licenses. For more information, see [What do I need to buy to get voice capabilities for my small or medium business?](whats-business-voice.md).
     4. Choose either **Location** or **Area code**, depending on whether you want to search for phone numbers using a location's city, or if you want to search for numbers in a specific area code.
     5. If you select **Location**:
 

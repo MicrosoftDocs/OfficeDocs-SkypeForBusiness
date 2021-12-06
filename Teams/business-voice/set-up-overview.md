@@ -41,7 +41,7 @@ If you want to learn more about Teams Phone with Calling Plan for small and medi
 
 Before you set up Teams Phone with Calling Plan, there are a few things you need to do. The following tasks will make sure your organization is ready.
 
-* **Buy Teams Phone with Calling Plan licenses** and, if you want to get a toll-free number or make long-distance phone calls, Communication Credits. For more information, see [What do I need to buy to get voice capabilities for my small or medium business?](whats-business-voice.md#what-do-i-need-to-buy-to-get-voice-capabilities-for-my-small-or-medium-business?).
+* **Buy Teams Phone with Calling Plan licenses** and, if you want to get a toll-free number or make long-distance phone calls, Communication Credits. For more information, see [What do I need to buy to get voice capabilities for my small or medium business?](whats-business-voice.md).
 * **Make sure your Internet connection can support Teams Phone**. For more information, see [Check your internet connection for Teams Phone](get-ready-internet.md).
 
 After you've prepared your organization for Teams Phone with Calling Plan, select **Next step: Start setting up Teams Phone with Calling Plan**.
