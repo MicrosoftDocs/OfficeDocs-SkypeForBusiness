@@ -21,6 +21,10 @@ items:
           href: support-remote-work-with-teams.md
     - name: Small business setup
       href: deploy-small-business.md
+    - name: Microsoft Teams Essentials for small business
+      href: get-started-with-teams-essentials.md     
+    - name: Microsoft Teams Essentials (AAD identity) configuration guide
+      href: connect-teams-essentials-to-email.md       
     - name: Enterprise setup
       items:
         - name: Enterprise setup overview

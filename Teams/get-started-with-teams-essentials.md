@@ -1,5 +1,5 @@
 ---
-title: Teams Essentials QuickStart guide for small businesses 
+title: Microsoft Teams Essentials QuickStart guide for small businesses 
 author: adeejoseph
 ms.author: adjoseph
 manager: serdars
@@ -18,7 +18,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Teams Essentials QuickStart guide for small businesses
+# Microsoft Teams Essentials QuickStart guide for small businesses
 
 Microsoft Teams Essentials is a standalone Teams subscription that provides an all-in-one solution with meetings, chat, and collaboration for small businesses. As your business adapts to the increased need for remote working and virtual connections, you may be searching for a way to securely collaborate with employees, partners, suppliers, and customers. Whether you're a multi-city bakery, or a nine-person event agency, Microsoft Teams Essentials can bring your business together through one connected experience.
 
@@ -30,7 +30,7 @@ A subscription purchased through Microsoft’s direct website uses Microsoft acc
 
 Alternatively, Teams Essentials purchased through select Microsoft Certified Partners uses Azure Active Directory (AAD) which asks you to create a new login/identity. Partners can configure Teams Essentials to connect to your existing email address so you can sign in using your existing email address.  
 
-## What Teams Essentials subscription do I have?  
+## What Microsoft Teams Essentials subscription do I have?  
 
 If you purchased Teams Essentials through Microsoft’s website (direct), you own **Microsoft Teams Essentials**.
 
@@ -126,7 +126,7 @@ To do that, complete these three steps:
 
 3. **Plan for adoption.** For small businesses, planning for user adoption can be as simple as individually showing your users how to use Teams. Often, small business customers don't consider this step for new applications, which negatively affects the application's success and adoption.
 
-3.  **Manage Teams Essentials.** Similar to the free version of Microsoft Teams, you have a limited admin role as the first person to sign up for Teams Essentials in your organization. You can add and remove team members and specify whether anyone can invite another members with this role, but you won't have  advanced administrative capabilities or access to the Microsoft Teams admin center.
+3.  **Manage Microsoft Teams Essentials.** Similar to the free version of Microsoft Teams, you have a limited admin role as the first person to sign up for Teams Essentials in your organization. You can add and remove team members and specify whether anyone can invite another members with this role, but you won't have  advanced administrative capabilities or access to the Microsoft Teams admin center.
 
 ## Upgrade from a free version of Microsoft Teams to Microsoft Teams Essentials
 
@@ -167,7 +167,7 @@ Enter the current email address you use to sign into Teams, and then purchase th
 
 No. Teams Essentials with AAD identity is only available through select Microsoft Cloud Partners. If you're interested in working with a Partner, visit [Find a Microsoft Partner Cloud Solution Provider](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider).
 
-### Can I use an existing email system with Teams Essentials?  
+### Can I use an existing email system with Microsoft Teams Essentials?  
 
 Yes. You can keep your existing email system and leverage Teams Essentials to meet, chat and collaborate.  
 
