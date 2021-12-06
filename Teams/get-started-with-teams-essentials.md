@@ -42,7 +42,7 @@ If you purchased Teams Essentials through a Microsoft Certified Partner, you own
 The following table lists the major Microsoft Teams features available across plans. Certain caveats apply. See the footnotes for further information. This table may change without notice. For the most up-to-date, complete list of features, visit  [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
 
  
-|Microsoft Teams Plan | [**Microsoft Teams (free)** ](manage-freemium.md)) | [**Microsoft Teams Essentials** ](#get-microsoft-teams-essentials) | **Microsoft Teams Essentials (AAD Identity)** | [**Microsoft 365 Business Basic**](/microsoft-365/admin/setup/setup-business-basic?)  |
+|Microsoft Teams Plan | [**Microsoft Teams (free)** ](manage-freemium.md) | [**Microsoft Teams Essentials** ](#get-microsoft-teams-essentials) | **Microsoft Teams Essentials (AAD Identity)** | [**Microsoft 365 Business Basic**](/microsoft-365/admin/setup/setup-business-basic?)  |
 |---------|---------|---------|---------|---------|
 |***Feature***     |         |         |         |         |
 | **Meeting and Calling** | Yes| Yes| Yes |   Yes    |
