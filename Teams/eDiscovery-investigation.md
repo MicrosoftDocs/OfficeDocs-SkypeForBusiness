@@ -40,16 +40,16 @@ Not all Teams content is eDiscoverable. The following table shows the content ty
 |Code snippets | No | |
 |Edited messages | Yes | If the user is on hold, previous versions of edited messages are also preserved. |
 |Emojis, GIFs, and stickers | Yes | |
+|Feed notifications | No | |
 |Inline images | Yes | |
 |Meeting IM conversations | Yes | |
 |Meeting metadata<sup>1</sup> | Yes |  |
-|Name of channel | No | |
+|Name of channel | Yes | |
 |Private channel messages | Yes | |
 |Quotes | Yes | Quoted content is searchable. However, search results don't indicate that the content was quoted. |
 |Reactions (such as likes, hearts, and other reactions) | No | |
 |Subject | Yes | |
 |Tables | Yes | |
-|Feed notifications | No | |
 |||
 
 <sup>1</sup> Meeting (and call) metadata includes the following:
