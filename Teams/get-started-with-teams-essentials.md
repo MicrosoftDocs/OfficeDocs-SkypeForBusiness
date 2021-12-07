@@ -42,7 +42,7 @@ If you purchased Teams Essentials through a Microsoft Certified Partner, you own
 The following table lists the major Microsoft Teams features available across plans. Certain caveats apply. See the footnotes for further information. This table may change without notice. For the most up-to-date, complete list of features, visit  [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
 
  
-|Microsoft Teams Plan | [**Microsoft Teams (free)** ](manage-freemium.md)) | [**Microsoft Teams Essentials** ](#get-microsoft-teams-essentials) | **Microsoft Teams Essentials (AAD Identity)** | [**Microsoft 365 Business Basic**](/microsoft-365/admin/setup/setup-business-basic?)  |
+|Microsoft Teams Plan | [**Microsoft Teams (free)** ](manage-freemium.md) | [**Microsoft Teams Essentials** ](#get-microsoft-teams-essentials) | **Microsoft Teams Essentials (AAD Identity)** | [**Microsoft 365 Business Basic**](/microsoft-365/admin/setup/setup-business-basic?)  |
 |---------|---------|---------|---------|---------|
 |***Feature***     |         |         |         |         |
 | **Meeting and Calling** | Yes| Yes| Yes |   Yes    |
@@ -86,7 +86,7 @@ The following table lists the major Microsoft Teams features available across pl
 | Migrate existing data & users to Microsoft 365  |     |   | Yes  | Yes|
 | Ability to add-on services including Audio Conferencing & Teams Phone |     |   |   Yes      | Yes |
 
-<sup>1</sup> Provides connection to Google Calendar and other 3rd party calendars with the following configuration: ([Microsoft Teams Essentials (AAD Identity) Configuration Guide](aka.ms/TeamsEssentialsAADConfig).
+<sup>1</sup> Provides connection to Google Calendar and other 3rd party calendars with the following configuration: [Microsoft Teams Essentials (AAD Identity) Configuration Guide](connect-teams-essentials-to-email.md)
 
 <sup>2</sup> Teams Essentials (AAD Identity) through partner includes 2GB Exchange mailbox and no archiving, allowing users to sync with third party email providers.
 
@@ -104,7 +104,7 @@ Here are a few important Teams Essentials limits and specifications to consider 
 
   - **Storage**: Teams Essentials uses OneDrive's personal cloud storage for file storage.
 
-Go here:  [Microsoft Teams limits and specifications](microsoftteams/limits-specifications-teams) to learn more about the limits, specifications, and other requirements that apply to Teams.
+Go here:  [Microsoft Teams limits and specifications](/microsoftteams/limits-specifications-teams) to learn more about the limits, specifications, and other requirements that apply to Teams.
 
 ## Get Microsoft Teams Essentials
 
@@ -114,7 +114,7 @@ To get started with Teams Essentials, follow these steps:
 
 1. **Purchase the subscription.** Go to [Microsoft Teams Essentials for small business](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options) and select **Buy now** under Microsoft Teams Essentials.
 2. **Sign up with your existing email address.** Use an existing email address and follow the instructions to purchase user licenses.
-3. **Review Teams service description.** Visit [Microsoft Teams service description ](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) to learn more about Microsoft Teams.
+3. **Review Teams service description.** Visit [Microsoft Teams service description ](/office365/servicedescriptions/teams-service-description) to learn more about Microsoft Teams.
 
 When you've completed these tasks, you're ready to plan, deploy, and use the Teams app.
 
@@ -178,7 +178,7 @@ To connect an existing calendar solution with Teams Essentials (AAD Identity), f
 
 ### How do I connect my current email and calendar with Teams Essentials (AAD Identity)?
 
-To get started, visit [**Connect Microsoft Teams Essentials (AAD Identity) to an existing email system with calendar**](aka.ms/TeamsEssentialsAADConfig) for more information. You can connect an existing email system like Google Workspace to Microsoft Teams Essentials (AAD Identity) to stay connected across platforms with integrated calendars and sign in.
+To get started, visit [**Connect Microsoft Teams Essentials (AAD Identity) to an existing email system with calendar**](connect-teams-essentials-to-email.md) for more information. You can connect an existing email system like Google Workspace to Microsoft Teams Essentials (AAD Identity) to stay connected across platforms with integrated calendars and sign in.
 
 ### Can I upgrade Teams Essentials bought directly through Microsoft's website to Microsoft 365?
 
@@ -186,6 +186,6 @@ Upgrades from Teams Essentials to Microsoft 365 will be available soon.
 
 ## More information
 
-- Visit [Configuration Guide](aka.ms/TeamsEssentialsAADConfig) for configuration steps on connecting Microsoft Teams Essentials (AAD Identity) to an existing email system with calendar
+- Visit [Configuration Guide](connect-teams-essentials-to-email.md) for configuration steps on connecting Microsoft Teams Essentials (AAD Identity) to an existing email system with calendar
 
 - To find out more about Teams versions and their capabilities, visit [Compare Teams plans](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options)
