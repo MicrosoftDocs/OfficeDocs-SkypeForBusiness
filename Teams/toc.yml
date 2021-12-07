@@ -864,8 +864,6 @@ items:
               href: rooms/rooms-manage.md
             - name: Maintenance and operations
               href: rooms/rooms-operations.md
-            - name: Check rooms health
-              href: rooms/managed-meeting-rooms-portal-guide.md
             - name: Known issues
               href: rooms/known-issues.md
             - name: Devices with Azure Monitor
