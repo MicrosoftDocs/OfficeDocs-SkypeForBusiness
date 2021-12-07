@@ -39,9 +39,8 @@ To log in to the device as Administrator (local administrator):
 
 1. From the list of users displayed in the Windows login screen, select  **Administrator** (or the respective local administrator of your device). 
 
-
-> [!NOTE]
- > If the computer is *domain joined*, choose **Other User**, then use **.\admin**, or the user name of the local administrator configured in the device as the user name.  
+   >[!NOTE]
+   >If the computer is *domain joined*, choose **Other User**, then use **.\admin**, or the user name of the local administrator configured in the device as the user name.  
 
 
 To return to the Microsoft Teams Room app after performing the necessary administrative tasks: 
@@ -49,8 +48,8 @@ To return to the Microsoft Teams Room app after performing the necessary adminis
 1. From the Windows ***Start menu***, sign out from the Admin account. 
 1. Return to Microsoft Teams Room by selecting the user account icon on the far left side of the screen and then selecting **Skype**. 
 
- > [!NOTE]
- > If the Skype user is not listed, select Other User and enter ***.\skype*** as the user name, and sign in. 
+   > [!NOTE]
+   > If the Skype user is not listed, select Other User and enter ***.\skype*** as the user name, and sign in. 
 ## Prerequisites 
 Follow these procedures to set up your hardware before attempting the enrollment process:
 
@@ -114,7 +113,7 @@ The Enrollment process involves a few steps:
 1. Install the agent installer (downloaded in step 2) on MTR units, either by running the MSI locally on an MTR device or via your normal means of publishing MSI applications en masse to devices within your environment (Group-Policy etc.)  
 1. The room appears in the portal within 5-10 minutes. If it does not, contact managedroomsupport@microsoft.com.  
 
-![alt text](media/software-installation.005.jpg) 
+![Figure 5](media/software-installation.005.jpg) 
 
 
 ## Installation  
@@ -162,7 +161,7 @@ Choose the room and select **Enroll**  to start getting incident alerts, investi
 For any questions or issues, please open a customer reported incident in the portal or contact managedroomsupport@microsoft.com. 
 
 
-# Unenrolling and uninstalling the monitoring software  
+# Unenrolling and uninstalling  monitoring software  
 To unenroll the device, remove the monitoring agent from the MTR device as follows: 
 
 1. On the device being monitored, log in the device as administrator. Ensure the *Performing operations as the Admin user of the device* steps are followed. 
@@ -177,8 +176,8 @@ To unenroll the device, remove the monitoring agent from the MTR device as follo
 
    This resets the device to user standard MTR updates and removes the MTRP monitoring agent and files. 
 
-7. From the left-hand menu in the Microsoft Teams Rooms – Managed Services portal, select **Rooms**.  
-8. In the list of rooms provided, choose the room you want to unenroll and select **Unenroll** to stop getting incident alerts or investigation tickets, or to report an incident for the room. 
+1. From the left-hand menu in the Microsoft Teams Rooms – Managed Services portal, select **Rooms**.  
+1. In the list of rooms provided, choose the room you want to unenroll and select **Unenroll** to stop getting incident alerts or investigation tickets, or to report an incident for the room. 
 
 
 ## Troubleshooting table  

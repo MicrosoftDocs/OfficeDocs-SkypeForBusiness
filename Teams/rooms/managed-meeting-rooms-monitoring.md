@@ -37,8 +37,13 @@ The scope of the monitoring is
   - Basic history and details for every device 
 
 
->  [!Important] 
-> Review [**Access control: Adding Managed Service Administrator roles in the service portal**](#access-control-adding-managed-service-administrator-roles-in-service-portal) and make sure that access to the portal is limited according to your business needs. 
+**View of Microsoft Teams Room devices** 
+
+- Snapshot of status at Microsoft Teams Rooms (MTR) device level 
+- Basic history and details for every device 
+
+> [!Important]
+> Review [**Assign users to the Managed Service Administrator role**](enrolling-mtrp-managed-service.md/#assign-users-to-the-managed-service-administrator-role) and make sure that access to the portal is limited based on your business needs. 
 
 
 
@@ -81,7 +86,7 @@ The top-level summary shows at a glance the issues affecting your rooms, what yo
 |1 |Types of incidents affecting your rooms |
 |2 |**NEED ACTION**: Items that require your intervention to resolve. |
 |3 |**ASSIGNED TO MICROSOFT**: Items currently investigated by Microsoft personnel. |
-|4 |Items in the queue to be investigated by Microsoft personnel. |
+|4 |**PENDING INVESTIGATION**: Items in the queue to be investigated by Microsoft personnel. |
 
 
 Incidents are expected to be in one of three states: 
@@ -108,17 +113,17 @@ Incidents are classified into two broad severity buckets:
 A warning might transition to “**Important**” if not attended to for a while. 
 
 
-## Health Status of Device & Incidents 
-Incidents that are classified as **“Important”** in severity will affect the health status of a device. If there is at least one incident of **Severity = “Important”** associated with a device, it will be classified as ***unhealthy*** device. 
+## Health status of device and incidents 
+Incidents that are classified as **“Important”** in severity will affect the health status of a device. If there is at least one incident of **Severity = “Important”** associated with a device, it is classified as ***unhealthy*** device. 
 
-Incidents classified as **“warning”** severity do not affect the health status reported on a device. However, if a device has warning level incidents associated with it, then it would be shown with the health status of the device as follows. 
+Incidents classified as **“Warning”** severity do not affect the health status reported on a device. However, if a device has warning level incidents associated with it, then it would be shown with the health status of the device as follows. 
 
 ![Figure 4](media/rooms-monitoring-004.jpg) 
 
 Following are some of the types of incidents that you might see and the explanations for each type. For each type, the action associated with the incident will be more specific depending on the issue. 
 
 
-## Incidents with “Important” Severity
+**Table 1: Incidents with “Important” severity**
 
 |Type |Explanation |
 | :- | :- |
@@ -132,10 +137,7 @@ Following are some of the types of incidents that you might see and the explanat
 |**Proximity Sensor** |Microsoft Teams Room app invites attendees to join a meeting if they are in proximity. Failures in this feature will be reported under this incident. |
 
 
-Incidents with Severity = “Warning” 
-
-
-
+**Table 2: Incidents with “Warning” severity**
 |Type |Explanation |
 | :- | :- |
 |**App version** |The version of the Microsoft Teams Room App running on the device is not current. Stale versions are known causes to problems experienced by users. |
@@ -160,8 +162,9 @@ Each such incident will have an action field with a recommended action from Micr
 - It is also possible that the notification is incorrect based on your review. In that case, please provide that feedback and assign back to Microsoft. 
 - Finally, if you want to add a comment to provide additional context for your own team or for Microsoft team, post the message without turning on “Assign to Microsoft“. 
 
->![!NOTE]
-> Your corrective action may address the issue, and that Managed Rooms monitoring clears that incident from your list. In the above situation, you might not get a chance to resolve the issue and assign it back to Microsoft. This issue will be addressed in a future release. 
+
+>[!NOTE]
+>Your corrective action may address the issue, and that Managed Rooms monitoring clears that incident from your list. In the above situation, you might not get a chance to resolve the issue and assign it back to Microsoft. This issue will be addressed in a future release. 
 
 
 
