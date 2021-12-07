@@ -38,6 +38,7 @@ Data flows via the connector both ways to ensure schedules are always up to date
 Managed Shifts connectors are connectors developed in collaboration with our partners. Managed connectors are hosted and managed either by us or our partners. With managed connectors, only minimal setup is needed.
 
 ### Microsoft Teams Shifts connector for Blue Yonder
+<a name="blue_yonder"> </a>
 
 The Teams Shifts connector for Blue Yonder is a first-party offering that's hosted and managed by Microsoft. With this connector, you can integrate Shifts with Blue Yonder 2020.3 and later versions to manage your schedules and keep them up to date.
 
