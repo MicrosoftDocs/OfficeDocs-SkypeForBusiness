@@ -47,6 +47,8 @@ You can use the [Shifts connector wizard](shifts-connector-wizard.md) in the Mic
 
 ## Check connection setup status
 
+To check the setup status of your connection, run the following command:
+
 
 ## Change connection settings
 
