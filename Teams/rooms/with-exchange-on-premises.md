@@ -1,5 +1,5 @@
 ---
-title: Deploy Microsoft Teams Rooms with Exchange on-premises
+title: Deploy Microsoft Teams Rooms with Exchange on-premises (Hybrid)
 ms.author: czawideh
 author: cazawideh
 manager: serdars
@@ -19,7 +19,7 @@ ms.collection:
 description: "Read this topic for information on how to deploy Microsoft Teams Rooms in a hybrid environment with Exchange on premises."
 ---
 
-# Deploy Microsoft Teams Rooms with Exchange on premises
+# Deploy Microsoft Teams Rooms with Exchange on premises (Hybrid)
 
 Read this topic for information on how to deploy Microsoft Teams Rooms in a hybrid environment with Exchange on-premises and Microsoft Teams.
   
@@ -46,7 +46,7 @@ If you are deploying Microsoft Teams Rooms with Exchange on-premises, you will b
 3. Type the password for this account. You'll need to retype it for verification. Make sure the **Password never expires** checkbox is the only option selected.
 
     > [!NOTE]
-    > Selecting **Password never expires** is a requirement for Microsoft Teams Rooms. Your domain rules may prohibit passwords that don't expire. If so, you'll need to create an exception for each Microsoft Teams Rooms device account.
+    > Selecting **Password never expires** is a requirement for Microsoft Teams Rooms. Your domain rules may prohibit passwords that don't expire. If so, you'll need to create an exception for each Microsoft Teams Rooms account.
   
 4. After you've created the account, run a directory synchronization. When it's complete, go to the users page in your Microsoft 365 admin center and verify that the account created in the previous steps has been synchronized to online.
 
@@ -93,7 +93,7 @@ If you are deploying Microsoft Teams Rooms with Exchange on-premises, you will b
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0) is not supported. 
 
-2. The device account needs to have a valid Microsoft 365 or Office 365 license, or Exchange and Microsoft Teams will not work. If you have the license, you need to assign a usage location to your device account—this determines what license SKUs are available for your account. You can use `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> to retrieve a list of available SKUs.
+2. The resource account needs to have a valid Microsoft 365 or Office 365 license, or Exchange and Microsoft Teams will not work. If you have the license, you need to assign a usage location to your resource account—this determines what license SKUs are available for your account. You can use `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> to retrieve a list of available SKUs.
 
 <!--   ``` Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
