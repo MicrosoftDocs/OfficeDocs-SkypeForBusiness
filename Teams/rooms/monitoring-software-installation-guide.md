@@ -40,8 +40,8 @@ To log in to the device as Administrator (local administrator):
 1. From the list of users displayed in the Windows login screen, select  **Administrator** (or the respective local administrator of your device). 
 
 
-[!NOTE] 
- If the computer is *domain joined*, choose **Other User**, then use **.\admin**, or the user name of the local administrator configured in the device as the user name.  
+> [!NOTE]
+ > If the computer is *domain joined*, choose **Other User**, then use **.\admin**, or the user name of the local administrator configured in the device as the user name.  
 
 
 To return to the Microsoft Teams Room app after performing the necessary administrative tasks: 
@@ -49,10 +49,8 @@ To return to the Microsoft Teams Room app after performing the necessary adminis
 1. From the Windows ***Start menu***, sign out from the Admin account. 
 1. Return to Microsoft Teams Room by selecting the user account icon on the far left side of the screen and then selecting **Skype**. 
 
- [!NOTE] 
- If the Skype user is not listed, select Other User and enter ***.\skype*** as the user name, and sign in. 
-
-
+ > [!NOTE]
+ > If the Skype user is not listed, select Other User and enter ***.\skype*** as the user name, and sign in. 
 ## Prerequisites 
 Follow these procedures to set up your hardware before attempting the enrollment process:
 
@@ -70,7 +68,7 @@ Follow these procedures to set up your hardware before attempting the enrollment
     *Example:* bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT http://contosoproxy.corp.net/proxy.pac "" 
 
 
-## Enabling TPM settings  
+### Enabling TPM settings  
 If TPM on an Intel NUC device is disabled, enable TPM on these devices as follows:  
 
 1. Plug in the keyboard to a NUC device.  
@@ -84,7 +82,8 @@ If TPM on an Intel NUC device is disabled, enable TPM on these devices as follow
 
 
 ## URLs Required for Communication  
-[!NOTE] All network traffic between the MTR devices agent and the Microsoft Teams Rooms – Managed Services service portal is SSL over port 443*.*  See [Office 365 URLs and IP address ranges - Microsoft 365 Enterprise | Microsoft Docs](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide).
+> [!NOTE]
+> All network traffic between the MTR devices agent and the Microsoft Teams Rooms – Managed Services service portal is SSL over port 443*.*  See [Office 365 URLs and IP address ranges - Microsoft 365 Enterprise | Microsoft Docs](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide).
 
 
 
@@ -125,11 +124,11 @@ There are two modes of installation—individual local machine install and mass 
 
 Due to the many varied ways in which customers can run MSI applications in mass deployment mode this document will only walk through installation in individual mode.  
 
- [!NOTE]
- The installer program flow is the same, no matter what mode is being run. The only slight difference is that the install does not request a user to press the next and close buttons in mass deploy mode.  
+ > [!NOTE]
+ > The installer program flow is the same, no matter what mode is being run. The only slight difference is that the install does not request a user to press the next and close buttons in mass deploy mode.  
 
 
-## Individual Device&mdash; Domain-joined walkthrough  
+## Individual Device&mdash;Domain-joined walkthrough  
 1. Log in the device as administrator – ensure the *Performing operations as the Admin user of the device* steps are followed. 
 
 1. Copy the following files to the MTR device: 
@@ -147,25 +146,14 @@ Due to the many varied ways in which customers can run MSI applications in mass 
  
     The installation will continue. During the installation procedure, a console window opens and begins the final stage of the Microsoft Teams Rooms – Managed Services monitoring software installation.  
     
-    [!NOTE]
-
-    Do not close the window. Once the installation is complete, the wizard displays a “Finish” button.   
+    > [!NOTE]
+    > Do not close the window. Once the installation is complete, the wizard displays a “Finish” button.   
 
 1. Press **Finish**.  
 
 
-
-
-
-
-
-
 ## Completing enrollment  
 After the install is complete, wait 5-10 minutes and refresh the portal and the device will be listed, reported as *Onboarding* state. 
-
-
-
-
 
 In *Onboarding* state, the status of the room is displayed and updated but it won't raise any alerts or create investigation tickets. 
 
@@ -177,7 +165,7 @@ For any questions or issues, please open a customer reported incident in the por
 # Unenrolling and uninstalling the monitoring software  
 To unenroll the device, remove the monitoring agent from the MTR device as follows: 
 
-1. On the device being monitored, log in the device as administrator – ensure the *Performing operations as the Admin user of the device* steps are followed. 
+1. On the device being monitored, log in the device as administrator. Ensure the *Performing operations as the Admin user of the device* steps are followed. 
 1. Download reset script from [aka.ms/MTRPDeviceOffBoarding](https://aka.ms/MTRPDeviceOffBoarding).
 1. Extract the script somewhere on the device and copy path 
 1. Open PowerShell as administrator: In the Windows ***Search*** field (bottom-left section of the screen), enter ‘Powershell’ and right-click ***Windows PowerShell*** 
@@ -194,11 +182,10 @@ To unenroll the device, remove the monitoring agent from the MTR device as follo
 
 
 ## Troubleshooting table  
-[!NOTE]
-
-All Microsoft Teams Rooms – Managed Services monitoring errors are logged on a specific Event Log file named **Microsoft Managed Rooms**.  
+> [!NOTE]
+> All Microsoft Teams Rooms – Managed Services monitoring errors are logged on a specific Event Log file named **Microsoft Managed Rooms**.  
 ### ***Application runtime log file location*** =  
-C:\Windows\ServiceProfiles\LocalService\AppData\Local\ServicePortalAgent\ app-x.x.x\ServicePortalAgent\ServicePortal\_Verbose\_LogFile.log (Note: x.x.x = app version number)  
+C:\Windows\ServiceProfiles\LocalService\AppData\Local\ServicePortalAgent\ app-x.x.x\ServicePortalAgent\ServicePortal\_Verbose\_LogFile.log, where **x.x.x** is the app version number. 
 
 |**Symptom**  |**Recommended Procedure**  |
 | :- | :- |

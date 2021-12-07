@@ -39,14 +39,7 @@ After you've assigned users to the Managed Service Administrator role, continue 
 
 ## Enroll a Teams Rooms device
 
- To enroll a device in the Teams Rooms Premium managed service, see [Monitoring device software installation](monitoring-software-installation-guide.md).
-
-<!--2. Select on the **?** icon at the top right-hand corner of the portal to launch the help menu. The help menu includes an [Installation guide](https://portal.rooms.microsoft.com/docs/MMR%20Monitoring%20Software%20Installation%20Guide%20Feb%202021.pdf) containing detailed enrollment instructions:
-
-    1. Review the **Pre-requisites** section in the Installation guide. Confirm that the URLs listed in the **URLs Required for Communication** list are added to your firewall's traffic allow list.
-    2. Follow the instructions in the **Enabling TPM Settings** section to enable the Trusted Platform Module (TPM) functionality on your device.
-    3. Follow the instructions in the **Adding Proxy Settings** section to configure your device to use your proxy gateway, if you have one.
-    4. Follow the instructions in the **Process** section to install the monitoring agent software and configure the self enrollment key on your device.
+To enroll a device in the Teams Rooms Premium managed service, see [Monitoring device software installation](monitoring-software-installation-guide.md).
 
 3. After the monitoring agent and unique XML key are configured on your device, navigate to **Rooms** > room name > **Status**, and then select **Enroll**.
 
@@ -55,10 +48,4 @@ After you've assigned users to the Managed Service Administrator role, continue 
 
     See [Monitoring device software installation](monitoring-software-installation-guide.md).
 
-<!--## Link to Installation guide
 
-The **Help** menu provides a link to the [Installation guide](https://portal.rooms.microsoft.com/docs/MMR%20Monitoring%20Software%20Installation%20Guide%20Feb%202021.pdf) which in turn provides the following information:
-
-- Instructions on URLs that need to be allow-listed to serve to enable room telemetry to be sent to the managed service.
-- Instructions for applying the Microsoft Teams Rooms Premium monitoring agent and unique XML key as part of enrolling a device in the managed service.
-- Troubleshooting instructions.-->
