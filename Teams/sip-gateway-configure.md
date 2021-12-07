@@ -75,7 +75,7 @@ This article also describes how to:
 
 ## Verify that SIP Gateway is available for your organization
 
-1. Sign in to the [Teams admin center](https://admin-teams.microsoft.net/).
+1. Sign in to the [Teams admin center](https://admin-teams.microsoft.com/).
 
 2. At the left, select **Teams devices** and see if the **SIP devices** tab is visible. If it is, the SIP Gateway service is enabled for your organization.
 
@@ -87,7 +87,7 @@ You can enable SIP Gateway for your organization in either of two ways: by using
 
 To enable SIP Gateway in the Teams admin center, follow these steps:
 
-1. Go to the [Teams admin center](https://admin.teams.microsoft.net/)
+1. Go to the [Teams admin center](https://admin.teams.microsoft.com/)
 
 2. At the left, under **Voice**, select **Calling policies**.
 
@@ -249,7 +249,7 @@ To sign out a device on the Teams admin center:
 
 You can view and monitor your SIP device inventory in the Teams admin center after the devices' users sign in at least once. Here's how:
 
-1. Log in to the [Teams admin center](https://admin.teams.microsoft.net/).
+1. Log in to the [Teams admin center](https://admin.teams.microsoft.com/).
 
 2. Select **Teams devices** > **SIP devices**. All signed-in SIP devices are listed on the right.
 
