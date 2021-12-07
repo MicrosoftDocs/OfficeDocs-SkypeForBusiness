@@ -1,5 +1,5 @@
 ---
-title: "Emergency addreses for remote locations"
+title: "Emergency addresses for remote locations"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -28,7 +28,7 @@ This article includes information about Microsoft's compliance with the RAY BAUM
 
 Users working at home can now set their own emergency addresses if applicable. This article describes how you can configure user policies so that your end users can set their emergency addresses.
 
-Although this information applies to emergency 911 calling in the United States, note that user-entered locations will be conveyed to the screening center in Canada as well.
+Although this information applies to emergency 911 calling in the United States, user-entered locations will be conveyed to the screening center in Canada as well.
 
 This article contains the following sections:
 
@@ -41,7 +41,7 @@ This article contains the following sections:
 
 ## Support for emergency calling location information
 
-To support these requirements, Teams leverages the location services provided by the respective operating system to suggest an address if granted permission by the administer or user. The end user can confirm the location of a suggested address, edit it, or manually enter a new one. A confirmed, edited, or manually-entered address is then saved on the Teams client so that the user-confirmed address is automatically used when the client is connected to that network. The user-saved addresses are automatically cleared when the Teams client is signed out.
+To support these requirements, Teams uses the location services provided by the respective operating system to suggest an address--if granted permission by the administrator or user. The end user can confirm the location of a suggested address, edit it, or manually enter a new one. A confirmed, edited, or manually entered address is then saved on the Teams client so that the user-confirmed address is automatically used when the client is connected to that network. The user-saved addresses are automatically cleared when the Teams client is signed out.
 
 
 ## Location precedence
@@ -59,7 +59,7 @@ Emergency addresses for Teams can be categorized by different types. The followi
 
 ## Emergency address classification and routing
 
-The following table shows the types of emerency addresses and associated routing methods for each type: whether the call is automatically routed to the serving PSAP or screened for accuracy before transferring to the serving PSAP. This routing behavior is supported in the United States for all Calling Plan users, Operator Connect partners, and Direct Routing certified emergency calling service providers.
+The following table shows the types of emergency addresses and associated routing methods for each type: whether the call is automatically routed to the serving PSAP or screened for accuracy before transferring to the serving PSAP. This routing behavior is supported in the United States for all Calling Plan users, Operator Connect partners, and Direct Routing certified emergency calling service providers.
 
 
 | Type of emergency address | Emergency routing method |
@@ -75,8 +75,7 @@ The following table shows the types of emerency addresses and associated routing
 
 ## Enable end users to configure their emergency address
 
-To enable this feature for your end users, you must use PowerShell to configure the 
-TeamsEmergencyCallingPolicy for the user and set the ExternalLocationLookupMode parameter to Enabled, as shown in the following example:
+To enable this feature for your end users, use the New-CsTeamsEmergencyCallingPolicy PowerShell cmdlet, and set the ExternalLocationLookupMode parameter to Enabled. See the following example: 
 
 
 ``` PowerShell
@@ -97,7 +96,7 @@ For more information about Windows location service, see [Windows location servi
 
 ## Notes and restrictions
 
-Please keep the following in mind:
+Keep the following in mind:
 
 - The work-from-home experience described is for Teams desktop on Windows and Mac.
 
@@ -105,7 +104,7 @@ Please keep the following in mind:
 
 - Teams mobile supports automatic location detection but not the user entered experience described.
 
-- Privacy settings can conflict with automatic location detection - Mobile Device Management systems can be leveraged.
+- Privacy settings can conflict with automatic location detection - Mobile Device Management systems can be used.
 
 
 ## Related topics
