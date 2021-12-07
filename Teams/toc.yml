@@ -1000,6 +1000,8 @@ items:
           href: what-are-emergency-locations-addresses-and-call-routing.md
         - name: Configure dynamic emergency calling
           href: configure-dynamic-emergency-calling.md
+        - name: Emergency addresses for remote locations
+          href: emergency-calling-dispatchable-location.md
         - name: Manage emergency addresses
           items: 
             - name: Add, change, or remove an emergency location for your organization
