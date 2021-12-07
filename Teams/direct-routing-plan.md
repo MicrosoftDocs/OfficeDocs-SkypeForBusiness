@@ -166,7 +166,7 @@ An example would be using \*.contoso.com which would match the SBC FQDN sbc.cont
 Direct Routing SIP interface will only trust certificates that are signed by Certificate Authorities (CAs) that are part of the Microsoft Trusted Root Certificate Program. Make sure that your SBC certificate is signed by a CA that is part of the program and that the Extended Key Usage (EKU) extension of your certificate includes Server Authentication.
 Learn more:
 
-[Program Requirements - Microsoft Trusted Root Program](https://docs.microsoft.com/en-us/security/trusted-root/program-requirements)
+[Program Requirements - Microsoft Trusted Root Program](/security/trusted-root/program-requirements)
 [Included CA Certificate List](https://ccadb-public.secure.force.com/microsoft/IncludedCACertificateReportForMSFT)
 
 > [!NOTE]
