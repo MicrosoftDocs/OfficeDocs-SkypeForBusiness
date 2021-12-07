@@ -48,9 +48,11 @@ Partner management in the Teams Rooms Managed (TRM) service enables customers to
 1. Configure the events that will require a change control approval. By default, all controls are set to **Auto approval.**
 
    > [!NOTE]
-   > *Only auto-approve is currently available for now.*    
-     >  1.  *Manual approval:* When the partner performs the action, an approval request is generated for the customer to review and approve. The action is not implemented until the  request has been approved.
-    >  1. *Auto- approval:* When the partner performs the action, no approval request is generated and the action is implemented immediately.
+   > *Only auto-approve is currently available for now.*
+   > 
+   >  1.  *Manual approval:* When the partner performs the action, an approval request is generated for the customer to review and approve. The action is not implemented until the  request has been approved.
+   >  
+   >  1. *Auto- approval:* When the partner performs the action, no approval request is generated and the action is implemented immediately.
      
 1. Select **Next.**
 1. Assign rooms the partner will manage, then select **Next.**
