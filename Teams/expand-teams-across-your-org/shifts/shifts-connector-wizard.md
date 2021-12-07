@@ -67,8 +67,8 @@ To learn more, see Remove-CsTeamsShiftsScheduleRecord.
 
 ### Get started
 
-1. In the left navigation of the [Microsoft 365 admin center](https://admin.microsoft.com/), choose **Setup**, and then select the **Frontline workers** collection or go to the **Apps and updates** section.
-1. Under **Connect you workforce management system**, select **View.** Here, you can learn more about Shifts connectors and the frontline worker and manager experience when you connect Shifts to your WFM system.
+1. In the left navigation of the [Microsoft 365 admin center](https://admin.microsoft.com/), choose **Setup**, and then select the **Frontline workers** collection or go to the **Apps and email** section.
+1. Under **Connect your workforce management system**, select **View.** Here, you can learn more about Shifts connectors and the frontline worker and manager experience when you connect Shifts to your WFM system.
 1. When you're ready, select **Get started**.
 1. Select **Next** to create a Blue Yonder connection.
 
@@ -102,13 +102,13 @@ Then, map each Blue Yonder site that you selected to a team in Teams. You can ma
 #### To map a site to an existing team:
 <a name="search_teams"> </a>
 
-1. Select the checkbox next to the site name.
+1. Select the site name.
 2. In the pane, search for the team, and then select it. Keep in mind that teams that are already mapped to a site don't show up in the search.
 3. Choose the time zone and closest city.
 
 #### To map a site to a new team:
 
-1. Select the checkbox next to the site name.
+1. Select the site name.
 2. In the pane, choose **Create a new team**, and then:
     1. Enter a name for your team, choose a privacy setting, and add one or more team owners.
     2. Add users to the team. You can also add groups.
