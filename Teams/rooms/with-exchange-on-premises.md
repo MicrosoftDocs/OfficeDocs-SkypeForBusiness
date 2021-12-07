@@ -24,8 +24,6 @@ description: "Read this topic for information on how to deploy Microsoft Teams R
 Read this topic for information on how to deploy Microsoft Teams Rooms in a hybrid environment with Exchange on-premises and Microsoft Teams.
   
 If your organization has a mix of services, with some hosted on-premises and some hosted online, then your configuration will depend on where each service is hosted. This topic covers hybrid deployments for Microsoft Teams Rooms with Exchange hosted on-premises. Because there are so many different variations in this type of deployment, it's not possible to provide detailed instructions for all of them. The following process will work for many configurations. If the process isn't right for your setup, we recommend that you use Windows PowerShell to achieve the same end result as documented here, and for other deployment options.
-
-Microsoft provides [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), a script that will help create new user accounts, or validate existing resource accounts you have in order to help you turn them into compatible Microsoft Teams Rooms user accounts. If you prefer, you can follow the steps below to configure accounts your Microsoft Teams Rooms device will use.
   
 ## Requirements
 
@@ -50,7 +48,7 @@ If you are deploying Microsoft Teams Rooms with Exchange on-premises, you will b
     > [!NOTE]
     > Selecting **Password never expires** is a requirement for Microsoft Teams Rooms. Your domain rules may prohibit passwords that don't expire. If so, you'll need to create an exception for each Microsoft Teams Rooms device account.
   
-4. After you've created the account, run a directory synchronization. When it's complete, go to the users page in your Microsoft 365 admin center and verify that the account created in the previous steps has merged to online.
+4. After you've created the account, run a directory synchronization. When it's complete, go to the users page in your Microsoft 365 admin center and verify that the account created in the previous steps has been synchronized to online.
 
 ### Enable the remote mailbox and set properties
 
@@ -59,14 +57,14 @@ If you are deploying Microsoft Teams Rooms with Exchange on-premises, you will b
 2. In Exchange PowerShell, create a mailbox for the account (mailbox-enable the account) by running the following command:
 
    ```PowerShell
-   Enable-Mailbox PROJECTRIGEL01@contoso.com -Room
+   Enable-Mailbox ConferenceRoom01@contoso.com -Room
    ```
 
    For detailed syntax and parameter information, see [Enable-Mailbox](/powershell/module/exchange/mailboxes/enable-mailbox).
 
 3. In Exchange PowerShell, configure the following settings on the room mailbox to improve the meeting experience:
 
-   - AutomateProcessing: AutoAccept (Meeting organizers receive the room reservation decision directly without human intervention: free = accept; busy = decline.)
+   - AutomateProcessing: AutoAccept (Meeting organizers receive the room reservation decisions directly without human intervention.)
 
    - AddOrganizerToSubject: $false (The meeting organizer is not added to the subject of the meeting request.)
 
@@ -80,10 +78,10 @@ If you are deploying Microsoft Teams Rooms with Exchange on-premises, you will b
 
    - AdditionalResponse: "This is a Microsoft Teams Meeting room!" (The additional text to add to the meeting request.)
 
-   This example configures these settings on the room mailbox named Project-Rigel-01.
+   This example configures these settings on the room mailbox named ConferenceRoom01.
 
    ```PowerShell
-   Set-CalendarProcessing -Identity "Project-Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
+   Set-CalendarProcessing -Identity "ConferenceRoom01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
    ```
 
    For detailed syntax and parameter information, see [Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing).
@@ -104,9 +102,9 @@ If you are deploying Microsoft Teams Rooms with Exchange on-premises, you will b
 3. Next, you can add a license using the `Set-MsolUserLicense` <!-- Set-AzureADUserLicense --> cmdlet. In this case, $strLicense is the SKU code that you see (for example, contoso:STANDARDPACK).
 
   ``` PowerShell
-  Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
+  Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -UsageLocation 'US'
   Get-MsolAccountSku
-  Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
+  Set-MsolUserLicense -UserPrincipalName 'ConferenceRoom01@contoso.com' -AddLicenses $strLicense
   ```
 
 <!--   ``` Powershell
