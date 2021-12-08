@@ -98,7 +98,7 @@ On the Sync settings page, you choose the information to sync from Blue Yonder t
 <a name="sites"> </a>
 
 Choose the Blue Yonder sites you want to connect to Shifts. You can select up to 100 sites.
-<a name="team_mapping"> </a>
+<a name="mapping"> </a>
 
 :::image type="content" source="../../media/shifts-connector-wizard-sites.png" alt-text="Screenshot of wizard, showing list of Blue Yonder sites." lightbox="../../media/shifts-connector-wizard-sites.png":::
 
