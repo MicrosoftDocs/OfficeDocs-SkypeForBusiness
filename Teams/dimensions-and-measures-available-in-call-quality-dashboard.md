@@ -210,7 +210,7 @@ The following table lists the dimensions currently available in CQD, in the orde
 | Duration (Minutes)  | Range (minutes)  | Duration of stream in minutes. Values grouped by range. <br/> **Example value:** 065: [3–4) ||
 | Duration (Seconds)  | Range (seconds) | Duration of stream in seconds. Values grouped by range. <br/> **Example value:** 062: [1 -2)||
 |**Date**||| |
-|End Time|  String| Time of day the call ended.|&bull; Call setup failed or was not established (see CDR Response Reason) |
+|End Time|  String| Time of day the call ended. Values are reported in the UTC time zone. |&bull; Call setup failed or was not established (see CDR Response Reason) |
 | Year  | Integer  | Year of the end of the stream. Values are reported in the UTC time zone. <br/> **Example value:** 2018 | |
 | Month  | Integer  | Month of the end of the stream. Values are reported in the UTC time zone. <br/> **Example value:** 2 | |
 | Day  | Integer  | Day of the end of the stream. Values are reported in the UTC time zone. <br/> **Example value:** 1 | |
@@ -224,7 +224,7 @@ The following table lists the dimensions currently available in CQD, in the orde
 |Week|  String  |Starting date of the week  in which the call took place. <br/> **Example value:** 2019-09-01 |&bull; Call setup failed or was not established (see CDR Response Reason) |
 | Month Year  | String  | Month and year of the end of the stream. Values are reported in the UTC time zone. <br/> **Example value:** 2017-02 | |
 | Full Month  | Date time  | Full Month of the end of the stream. Values are reported in the UTC time zone. <br/> **Example value:** 2017-02-01T00:00:00 | |
-|Start time|String  |Time of day the call started.|&bull; Call setup failed or was not established (see CDR Response Reason) |
+|Start time|String  |Time of day the call started. Values are reported in the UTC time zone. |&bull; Call setup failed or was not established (see CDR Response Reason) |
 |**UserAgent** | | | |
 | First Domain  | String  | Domain of the first endpoint's user. If the first endpoint is a conference server, it uses the domain of the organizer of the meeting. May also be the domain of service accounts used in scenario.  <br/> **Example value:** contoso<span></span>.com | |
 | Second Domain  | String  | Domain of the second endpoint's user. If the second endpoint is a conference server, it uses the domain of the organizer of the meeting. May also be the domain of service accounts used in scenario. <br/> **Example value:** contoso<span></span>.com  | |
@@ -553,7 +553,6 @@ The following table lists the dimensions currently available in CQD, in the orde
 | Inside Corp Pair  | Enumerated pair <br/>**Possible values:** <br/> Inside : Inside <br/> Inside : Outside <br/> Outside : Outside | Pair showing if the endpoints were located inside or outside the corporate network based on the subnet mapping.   |   |
 |**Scenario**||||
 | Scenario Pair  | Enumerated pair  | Pair showing if the endpoints were located inside or outside the corporate network based on the subnet mapping and the network connection detail. <br/> **Note:** The pairs are separated by '--'. <br/> **Example value:** Client-Inside--Client-Inside-wifi  | &bull; The network connectivity type was unknown for either or both endpoints.  |
-
 
 
 ## Measurements
