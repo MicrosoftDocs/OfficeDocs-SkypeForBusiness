@@ -61,8 +61,6 @@ If you already have a resource mailbox account set up for the space where you're
 
 > [!NOTE] 
 > As Teams Rooms logs into Exchange in the background without user interaction, it cannot respond to any interactive prompts, such as MFA. The device account you create must be excluded from any such authentication requirements.
->
-> Teams Rooms are not compatible with Azure AD Conditional Access (CA) policies requiring device information (for example, compliance). The device account that you create must be excluded from those CA policies.
   
 ## Basic configuration
 
