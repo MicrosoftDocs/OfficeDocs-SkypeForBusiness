@@ -48,7 +48,7 @@ You can find out more about these dependencies in the planning guidance links be
 To prepare for your Microsoft Teams Rooms deployment, do the following key, central tasks:
 
 -   Define Microsoft Teams Rooms resource accounts.
--   If joining Teams Room to Azure Active Directory, prepare an Azure AD group with dynamic membership to hold all of the Teams Rooms resource accounts. This will simplify future management, such as applying Conditional Access policies. In order ot most easily leverage Azure AD dynamic groups, determine a naming convention that will uniquely identify your Tams Rooms resource accounts.
+-   If joining Teams Room to Azure Active Directory, prepare an Azure AD group with dynamic membership to hold all of the Teams Rooms resource accounts. This will simplify future management, such as applying Conditional Access policies. In order to most easily leverage Azure AD dynamic groups, determine a naming convention that will uniquely identify your Tams Rooms resource accounts.
 -   If joining Teams Room to Active Directory, prepare an organizational unit and Active Directory group to hold your Microsoft Teams Rooms machine and resource accounts, and—optionally—prepare Group Policy objects (GPOs) to enable PowerShell remoting.
 
 ### Define Microsoft Teams Rooms resource account features 

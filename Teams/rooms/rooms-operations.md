@@ -74,7 +74,7 @@ Joining Teams Rooms to an Active Directory domain provides the following benefit
 
 - You can deploy Windows Quality of Service configuration to Teams Rooms.
 
-- If using Skype for Business, domain-joining the Teams Rooms automatesimporting your organization's private root certificate chain.
+- If using Skype for Business, domain-joining the Teams Rooms automates importing your organization's private root certificate chain.
 
 When you join Teams Rooms to a domain, it is required that you create a separate Organizational Unit (OU), so that you can provide Group Policy Object (GPO) exclusions to the OU where all Teams Rooms objects reside. Disable all GPO inheritance so that unsupported Group Policy settings do not get applied to Teams Rooms. Create machine objects in the OU before joining Teams Rooms to the domain to assure that Group Policies applied to the default computers OU are not applied.
 
