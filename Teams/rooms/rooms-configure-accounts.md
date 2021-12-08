@@ -60,8 +60,9 @@ You can think of a resource account as the resource account that people recogniz
 If you already have a resource mailbox account set up for the space where you're installing Microsoft Teams Rooms, you can change that account into a Teams Rooms resource account. Once that's done, all you need to do is sign in to Microsoft Teams Rooms with that account.
 
 > [!NOTE] 
-> As the Teams Rooms logs into Exchange in the background without user interaction, it cannot respond to any interactive prompts, such as MFA. The device account you create must be excluded from any such authentication requirements.
-> Teams Rooms are not compatible with Azure AD Conditional Access policies requiring device information (e.g. compliance). The device account that you create must be excluded from those CA policies.
+> As Teams Rooms logs into Exchange in the background without user interaction, it cannot respond to any interactive prompts, such as MFA. The device account you create must be excluded from any such authentication requirements.
+>
+> Teams Rooms are not compatible with Azure AD Conditional Access (CA) policies requiring device information (for example, compliance). The device account that you create must be excluded from those CA policies.
   
 ## Basic configuration
 
