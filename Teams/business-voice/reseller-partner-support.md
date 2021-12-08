@@ -22,12 +22,7 @@ no-loc: [Microsoft 365, Microsoft 365 Business Voice, Business Voice, Teams, Mic
 
 # Get help from a Microsoft reseller or partner
 
-> [!IMPORTANT]
-> The information in this article is applicable to Teams Phone **without** Calling Plan only. Before reading this article, check [Country and region availability for Teams Phone](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) to see whether your country or region supports Teams Phone with Calling Plan.
->
-> If your tenant is located in a country or region that supports Teams Phone with Calling Plan, check out [Set up Teams Phone with Calling Plan for small and medium businesses](set-up-overview.md).
-
-To set up Teams Phone without Calling Plan, we recommend that you use a Microsoft partner or seller.
+To set up Teams Phone, you have the option to set it up yourself or to use a Microsoft partner or seller.
 
 Find a Microsoft reseller or partner, by visiting the [Connect with partners](https://appsource.microsoft.com/marketplace/partner-dir) page.
 

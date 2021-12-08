@@ -25,18 +25,6 @@ Teams Phone is Microsoft's technology for enabling phone capabilities within Mic
 
 To get the best Teams Phone experience, you need a broadband internet connection that can support the maximum number of phone calls that your organization might make at any one time. You also need to make sure that the computers on your network can reach Microsoft 365 services.
 
-To follow these steps, you need to have a tenant with one of the following subscriptions:
-
-* Microsoft 365 Business Basic
-* Microsoft 365 Business Standard
-* Microsoft 365 Business Premium
-* Office 365 E1
-* Office 365 E3
-* Office 365 F1
-* Microsoft 365 A1
-* Microsoft 365 A3
-* Microsoft 365 E3
-
 You don't need a Teams Phone license to follow these steps.
 
 ## Check your internet connection speed

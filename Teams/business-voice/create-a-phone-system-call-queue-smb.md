@@ -39,7 +39,7 @@ Call queues provide:
 
 ## Video demonstration
 
-This video demonstrates how to create a call queue in Teams.
+This video demonstrates how to create a call queue in Microsoft Teams.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 

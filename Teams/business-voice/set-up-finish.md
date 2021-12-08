@@ -21,7 +21,7 @@ appliesto:
 
 # Finished Teams Phone with Calling Plan setup
 
-**Congratulations!** You've completed the setup of Microsoft 365 Teams Phone with Calling Plan. The following are some helpful resources for managing Teams Phone with Calling Plan and helping your users get the most of their new phone, meeting, and audio conferencing experience.
+You've completed the basic setup of Microsoft 365 Teams Phone with Calling Plan. The following are some helpful resources for managing Teams Phone with Calling Plan and helping your users get the most of their new phone, meeting, and audio conferencing experience.
 
 The following tables list resources that'll help you make the most out of Teams and Teams Phone with Calling Plan.
 

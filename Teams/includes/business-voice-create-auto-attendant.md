@@ -1,6 +1,6 @@
 #### Video demonstration
 
-This video shows a basic example of how to create an auto attendant in Teams.
+This video shows a basic example of how to create an auto attendant in Microsoft Teams.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEnCG?autoplay=false]
 

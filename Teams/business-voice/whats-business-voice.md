@@ -14,7 +14,7 @@ MS.collection:
 - M365-collaboration
 - m365initiative-voice
 search.appverid: MET150
-description: Microsoft Teams Phone with Calling Plan is an inexpensive option for voice calling, enabling small and medium businesses to communicate better.
+description: The Microsoft Teams Phone with Calling Plan bundle is an inexpensive option for voice calling, enabling small and medium businesses to communicate better.
 appliesto: 
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
@@ -23,31 +23,21 @@ ms.custom: seo-marvel-may2020
 # Teams Phone guidance for small and medium businesses
 
 >[!NOTE]
-> Microsoft 365 Business Voice was Microsoft’s telephony service bundle for small and medium businesses, which included private branch exchange (PBX) features, a domestic calling plan, and Audio Conferencing. However, Business Voice will be deprecated on March 1, 2022.  
+> Microsoft 365 Business Voice was Microsoft’s telephony service bundle for small and medium businesses, which included Private Branch Exchange (PBX) features, a domestic calling plan, and Audio Conferencing. However, Business Voice will be deprecated on March 1, 2022.  
 >
-> For PBX features and PSTN connectivity for small and medium businesses, we recommend Teams Phone with Calling Plan, if it’s [available in your geographic area](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). If Teams Phone with Calling Plan is not available in your region, see [Plan your Teams voice solution](/microsoftteams/cloud-voice-landing-page.md) to learn about other PSTN connectivity options.
+> For PBX features and PSTN connectivity for small and medium businesses, we recommend the Teams Phone with Calling Plan bundle, if it’s [available in your geographic area](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). If the Teams Phone with Calling Plan bundle is not available in your region, see [Plan your Teams voice solution](/microsoftteams/cloud-voice-landing-page.md) to learn about other voice solutions.
 >
-> Unlike Business Voice, Teams Phone with Calling Plan doesn’t include Audio Conferencing capabilities. To learn about setting up Audio Conferencing for a small or medium business, see [Set up Audio Conferencing for small and medium businesses](/microsoftteams/audio-conferencing-smb.md).  
+> Unlike Business Voice, Teams Phone with Calling Plan doesn’t include Audio Conferencing capabilities. Audio Conferencing is now included in Microsoft 365 bundles. To learn about setting up Audio Conferencing for a small or medium business, see [Set up Audio Conferencing for small and medium businesses](/microsoftteams/audio-conferencing-smb.md).  
 
-Microsoft Teams Phone with Calling Plan is Microsoft’s all-in-the-cloud solution that makes it easy for small and medium organizations (300 or fewer people) to turn Microsoft Teams into a powerful and flexible telephone system. Teams Phone with Calling Plan provides Private Branch Exchange (PBX) functionality and calls to the Public Switched Telephone Network (PSTN).
+The Microsoft Teams Phone with Calling Plan bundle is Microsoft’s all-in-the-cloud solution that makes it easy for small and medium organizations (300 or fewer people) to turn Microsoft Teams into a powerful and flexible telephone system. The Teams Phone with Calling Plan bundle provides Private Branch Exchange (PBX) functionality and calls to the Public Switched Telephone Network (PSTN).
 
-Set up both toll and toll-free numbers, call menus to help callers get to the right department, call queues for high-traffic phone numbers, and more. You can even give people their own phone numbers so they can receive calls directly.
+You can set up both toll and toll-free numbers, call menus to help callers get to the right department, call queues for high-traffic phone numbers, and more. You can even give people their own phone numbers so they can receive calls directly.
 
-Teams Phone with Calling Plan is available with the following Microsoft 365 subscriptions:
+This article covers the Teams Phone with Calling Plan bundle for small and medium businesses.
 
-- Microsoft 365 Business Basic
-- Microsoft 365 Business Standard
-- Microsoft 365 Business Premium
-- Microsoft 365 F1
-- Microsoft 365 F3
-- Office 365 F3
-- Microsoft and Office 365 Enterprise E1 or E3
-- Microsoft 365 and Office 365 Education A1 or A3
-- Microsoft 365 and Office 365 Government G1 or G3
-- Microsoft 365 Nonprofit Business Basic
-- Microsoft 365 Nonprofit Business Standard
-- Microsoft 365 and Office 365 Nonprofit E1 or E3
-- Microsoft 365 Teams Essentials
+- Learn about all your Microsoft voice solutions by reading [Plan your Teams voice solution](/microsoftteams/cloud-voice-landing-page.md).
+- To view all your PSTN connectivity options, see [PSTN connectivity options](/microsoftteams/pstn-connectivity.md).
+- For more information about subscriptions and licensing, see [Microsoft Teams add-on licenses](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business.md).
 
 >[!IMPORTANT]
 > Microsoft Teams and Teams Phone with Calling Plan only work when your users' mailboxes are located in Microsoft 365 (excluding Microsoft 365 Teams Essentials subscribers). They don't support mailboxes located on on-premises Exchange Server.
@@ -59,42 +49,36 @@ These articles will help your business plan, set up, and manage your Teams Phone
 | Article | Description |
 |---------|-------------|
 | [Check country and region availability](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) | See which Teams Phone features are available in your country and region |
-| [Check your internet connection](/business-voice/get-ready-internet.md) | Determine if your Internet connection is sufficient for Teams Phone with Calling Plan |
+| [Check your internet connection](/business-voice/get-ready-internet.md) | Determine if your internet connection is sufficient for Teams Phone with Calling Plan |
 | [Get help from a reseller or partner](/business-voice/reseller-partner-support.md) | See how a Microsoft reseller or partner can help you find the right voice solution if Teams Phone with Calling Plan is not available in your region |
-| [Set up Teams Phone with Calling Plan for small and medium businesses](/business-voice/set-up-overview.md) | Follow a step-by-step guide to set up Teams Phone with Calling Plan |
+| [Set up Teams Phone with Calling Plan for small and medium businesses](/business-voice/set-up-overview.md) | Follow this step-by-step guide for a basic set up of Teams Phone with Calling Plan |
 | [Customize your Teams Phone setup for small and medium businesses](/business-voice/customize-business-voice.md) | Learn how to customize Teams Phone with Calling Plan for your unique needs |
 | [Manage your Teams Phone setup for small and medium businesses](/business-voice/create-users.md) | Learn how to manage Teams Phone with Calling Plan users, devices, and call quality |
 | [Partner resources](https://cloudpartners.transform.microsoft.com/products/m365-business-voice-partner-playbook) | For Microsoft 365 partners, see how you can build a strong managed services practice for Teams Phone with Calling Plan |
 
+## Teams Phone with Calling Plan bundle license
+
+There are two types of Teams Phone licenses: The Teams phone **with** Calling Plan bundle license and Teams Phone as a standalone license (without Calling Plan). For small and medium businesses, we suggest the Teams Phone with Calling Plans bundle.
+
+You can buy the Teams Phone with Calling Plan bundle from Microsoft, set it up on your own, and then set up or transfer your existing phone numbers to Microsoft. The article [Set up Teams Phone for small and medium businesses](/microsoftteams/business-voice/set-up-overview.md) shows you how to set up Teams Phone for your organization.
+
+Read [Teams Phone with Calling Plan bundle](#teams-phone-with-calling-plan-bundle) later in this article for more information about buying the Teams Phone with Calling Plan bundle.
+
+To see whether your country or region supports the Teams Phone with Calling Plan bundle, check out [Country and region availability for Calling Plans](/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+
 ## What do I need to buy to get voice capabilities for my small or medium business?
 
-To make or receive phone calls to or from external phone numbers, users need PBX features and PSTN connectivity. For small and medium businesses, we recommend Teams Phone with Calling Plan because it provides PBX features and PSTN connectivity to users assigned a license.
+To make or receive phone calls to or from external phone numbers, users need PBX features and PSTN connectivity. For small and medium businesses, we recommend the Teams Phone with Calling Plan bundle because it provides PBX features and PSTN connectivity to users assigned a license.
 
-Teams Phone with Calling Plan is not available in all regions, so [check your area's availability for Teams Phone with Calling Plan](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+The Teams Phone with Calling Plan bundle is not available in all regions, so [check your area's availability for Teams Phone with Calling Plan](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
 Users who don't need to make or receive phone calls to or from external phone numbers just need Teams. They don't need a Teams Phone with Calling Plan license.
 
 For example, you might have ten factory employees and five office employees. The factory employees may only need to call other employees within your company. In addition to calling other employees, office workers need to make and receive phone calls to and from suppliers, partners, and customers. In this case, only the five office workers need a Teams Phone with Calling Plan license.
 
-### Teams Phone license types
+### Teams Phone with Calling Plan bundle
 
-There are two types of Teams Phone licenses: Teams phone **with** Calling Plan and Teams Phone as a standalone license (**without** Calling Plan). The license type determines whether you’ll use a calling plan from Microsoft or from a third-party service provider.
-
-As state in the section above, the type of Teams Phone license available to you depends on the location of your Microsoft 365 tenant and whether Calling Plan is available in your region.
-
-- **Teams Phone with Calling Plan license** You can buy Teams Phone from Microsoft, set it up on your own, and then set up or transfer your existing phone numbers to Microsoft. The article [Set up Teams Phone](/microsoftteams/business-voice/set-up-overview.md) shows you how to set up Teams Phone for your organization.
-
-    Read [Teams Phone with Calling Plan](#teams-phone-with-calling-plan) later in this article for more information about buying Teams Phone with Calling Plan.
-
-    To see whether your country or region supports Calling Plan, check out [Country and region availability for Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
-
-- **Teams Phone standalone license (without Calling Plan)** With this license type, you need to buy Teams Phone from a [Microsoft partner or reseller](/business-voice/reseller-partner-support.md) who will help you set up Teams Phone. Your existing phone numbers remain with your current third-party telephone provider.
-
-    Read [Plan your Teams voice solution](/microsoftteams/cloud-voice-landing-page.md) to learn about your third-party PSTN connectivity options.
-
-### Teams Phone with Calling Plan
-
-Teams Phone with Calling Plan includes a Domestic Calling Plan, which gives you some minutes per month to make calls within your country or region. You can also purchase an extra International Calling Plan if you want to make calls to other countries or regions. Use *Communications Credits* to pay per minute for an International call, extra minutes per month for a Domestic Calling Plan, and toll-free numbers. You'll learn more about [Calling Plans and Communications Credits](#communications-credits) later in this article.
+The Teams Phone with Calling Plan bundle includes a Domestic Calling Plan, which gives you some minutes per month to make calls within your country or region. You can also purchase an extra International Calling Plan if you want to make calls to other countries or regions. Use *Communications Credits* to pay per minute for an International call, extra minutes per month for a Domestic Calling Plan, and toll-free numbers. You'll learn more about [Calling Plans and Communications Credits](#communications-credits) later in this article.
 
 To buy Teams Phone with Calling Plan licenses, sign in to the [admin center](https://admin.microsoft.com/Adminportal/Home#/homepage), and then go to **Billing** > **Purchase services**.
 
@@ -113,7 +97,7 @@ There are two types of Calling Plans:
 
 - **Domestic Calling Plan**
 
-    The Domestic Calling Plan lets users call phone numbers in their country or region. Teams Phone with Calling Plan includes a Domestic Calling Plan for each user who's assigned a Teams Phone license. The number of minutes available for each user each month depends on the country or region the user is located.
+    The Domestic Calling Plan lets users call phone numbers in their country or region. The Teams Phone with Calling Plan bundle includes a Domestic Calling Plan for each user who's assigned a Teams Phone license. The number of minutes available for each user each month depends on the country or region the user is located.
 
     Calls between the United States and Canada are considered domestic calls. You don't need to add the International Calling Plan to place calls between these two countries.
 
