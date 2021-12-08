@@ -69,7 +69,7 @@ To learn more, see Remove-CsTeamsShiftsScheduleRecord.
 
 1. In the left navigation of the [Microsoft 365 admin center](https://admin.microsoft.com/), choose **Setup**, and then select the **Frontline workers** collection or go to the **Apps and email** section.
 1. Under **Connect your workforce management system**, select **View.** Here, you can learn more about Shifts connectors and the frontline worker and manager experience when you connect Shifts to your WFM system.
-    :::image type="content" source="../../media/shifts-connector-wizard-get-started.png" alt-text="Screenshot of the details page for the Shifts connector wizard in the Microsoft 365 admin center.":::
+    :::image type="content" source="../../media/shifts-connector-wizard-get-started.png" alt-text="Screenshot of the details page for the Shifts connector wizard in the Microsoft 365 admin center." lightbox="../../media/shifts-connector-wizard-get-started.png":::
 1. When you're ready, select **Get started**.
 1. Select **Next** to create a Blue Yonder connection.
 
@@ -77,7 +77,7 @@ To learn more, see Remove-CsTeamsShiftsScheduleRecord.
 <a name="connection_details"> </a>
 
 1. On the Connection details page, give your connection a unique name. It can't be longer than 128 characters or have any special characters.
-    :::image type="content" source="../../media/shifts-connector-wizard-connection-details.png" alt-text="Screenshot of the Connection details page of the wizard, showing connection settings.":::
+    :::image type="content" source="../../media/shifts-connector-wizard-connection-details.png" alt-text="Screenshot of the Connection details page of the wizard, showing connection settings." lightbox="../../media/shifts-connector-wizard-connection-details.png:::
 1. Enter your Blue Yonder service account name and password and service URLs.
 1. When you're done, select **Next** to test the connection with the settings you entered.
 
@@ -88,10 +88,10 @@ On the Sync settings page, you choose the information to sync from Blue Yonder t
 
 1. Enter your Microsoft 365 system account.
 <a name="email"> </a>
-    :::image type="content" source="../../media/shifts-connector-wizard-sync-settings.png" alt-text="Screenshot of the Sync settings page of the wizard, showing sync settings.":::
+    :::image type="content" source="../../media/shifts-connector-wizard-sync-settings.png" alt-text="Screenshot of the Sync settings page of the wizard, showing sync settings." lightbox="../../media/shifts-connector-wizard-sync-settings.png":::
 1. Under **Email notification recipients**, choose who receives email notifications about this connection. You can add individual users and groups. The email notifications contain information about connection setup status and any issues or errors that may occur after the connection is set up.
-1. Under **Schedule and shifts**, choose the Blue Yonder data that Shifts users can see or change, and then set the sync frequency.
 1. Under **Requests**, choose the types of requests that Shifts users can see and create.
+1. Under **Schedule and shifts**, choose the Blue Yonder data that Shifts users can see or change, and then set the sync frequency.
 1. When you're done choosing your settings, select **Create connection**.
 
 ### Map Blue Yonder sites to teams
@@ -100,11 +100,11 @@ On the Sync settings page, you choose the information to sync from Blue Yonder t
 Choose the Blue Yonder sites you want to connect to Shifts. You can select up to 100 sites.
 <a name="team_mapping"> </a>
 
-:::image type="content" source="../../media/shifts-connector-wizard-sites.png" alt-text="Screenshot of wizard, showing list of Blue Yonder sites.":::
+:::image type="content" source="../../media/shifts-connector-wizard-sites.png" alt-text="Screenshot of wizard, showing list of Blue Yonder sites." lightbox="../../media/shifts-connector-wizard-sites.png":::
 
 Then, map each Blue Yonder site that you selected to a team in Teams. You can map a site to an existing team or you can create a new team.
 
-:::image type="content" source="../../media/shifts-connector-wizard-search-team.png" alt-text="Screenshot of the pane showing the search team option and create a new team option.":::
+:::image type="content" source="../../media/shifts-connector-wizard-search-team.png" alt-text="Screenshot of the pane showing the search team option and create a new team option." lightbox="../../media/shifts-connector-wizard-search-team.png":::
 #### To map a site to an existing team
 <a name="search_teams"> </a>
 
@@ -126,11 +126,11 @@ Then, map each Blue Yonder site that you selected to a team in Teams. You can ma
 
 Review your settings. If you need to make changes to any team mappings, choose **Edit** to do so. When you're ready, select **Finish**.
 
-:::image type="content" source="../../media/shifts-connector-wizard-review.png" alt-text="Screenshot of the Review page of the wizard, showing mappings.":::
+:::image type="content" source="../../media/shifts-connector-wizard-review.png" alt-text="Screenshot of the Review page of the wizard, showing mappings." lightbox="../../media/shifts-connector-wizard-review.png":::
 
 You’ll see a message to confirm that we received your request along with an operation ID. Make a note of the operation ID for future reference.
 
-:::image type="content" source="../../media/shifts-connector-wizard-operation-id.png" alt-text="Screenshot of the wizard page, showing confirmation message and operation ID.":::
+:::image type="content" source="../../media/shifts-connector-wizard-operation-id.png" alt-text="Screenshot of the wizard page, showing confirmation message and operation ID." lightbox="../../media/shifts-connector-wizard-operation-id.png":::
 
 The wizard sets up and creates the connection and maps the sites to the teams you selected. This process may take some time to complete. The recipients you chose will receive email notifications about setup status.
 
