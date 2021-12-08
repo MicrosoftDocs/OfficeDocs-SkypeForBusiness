@@ -40,7 +40,7 @@ Here's a list of features that you can add with Teams add-on licenses. The add-o
 |**Toll free numbers** |If you want toll-free numbers for Audio Conferencing, auto attendants, or call queues, you must [set up Communications Credits](../set-up-communications-credits-for-your-organization.md). <br/> |&#x2713;|&#x2713;|
 |**Phone System** <br/> |[Phone System](../what-is-phone-system-in-office-365.md) is a hosted telephone service that gives you call control and Private Branch Exchange (PBX) capabilities, with options for connecting to the Public Switched Telephone Network (PSTN). Phone System features include cloud voicemail, caller ID, call park, call forwarding, auto attendants, call queues, call transfer, caller ID, and more. <br>To learn more, see [Here's what you get with Phone System](../here-s-what-you-get-with-phone-system.md). For pricing info, see [Pricing for Phone System](https://go.microsoft.com/fwlink/?linkid=799763).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**Calling Plans** <br/> |If you want users to be able to call phone numbers outside your organization, get a [Calling Plan](../calling-plans-for-office-365.md). There are Domestic Calling Plans and Domestic and International Calling Plans. For pricing info, see [Pricing for Calling Plans](https://go.microsoft.com/fwlink/?linkid=799761 ).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
-|**Teams Phone with Calling Plans** <br/> |Teams Phone with Calling Plans is a telephony solution that bundles Phone System's PBX capabilities and a Domestic Calling Plan for PSTN connectivity. <br/> |&#x2713;<sup>1</sup>|&#x2713;|
+|**Teams Phone with Calling Plans bundle** <br/> |Teams Phone with Calling Plans is a telephony solution that bundles Phone System's PBX capabilities and a Domestic Calling Plan for PSTN connectivity. <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**Microsoft Teams Rooms** <br/> |[Microsoft Teams Rooms](../rooms/index.md) isn't an add-on, but a feature that brings video, audio, and content sharing to conference rooms. See [Teams Meeting Room Licensing](../rooms/rooms-licensing.md).  <br/> |&#x2713;|&#x2713;|
 |**Advanced Communications** <br/> |[Advanced Communications](advanced-communications.md) includes advanced meetings customization and tools to manage your organization's communication policies. Additional features include custom branded meeting lobby to tailor your meetings, and tools to monitor, track, and analyze data on users and devices.   |&#x2713;|&#x2713;|
 
@@ -56,16 +56,16 @@ Depending on the voice features that you want, we recommend comparing whether it
 
 If you're a small or medium-sized business (less than 300 users), you have four ways to get voice features:
 
-- Buy a Microsoft 365 Business plan and Microsoft 365 Teams Phone with Calling Plan.
-- Buy an Enterprise E1 or E3 plan and Microsoft 365 Teams Phone with Calling Plan.
+- Buy a Microsoft 365 Business plan and Microsoft 365 Teams Phone with Calling Plan bundle.
+- Buy an Enterprise E1 or E3 plan and Microsoft 365 Teams Phone with Calling Plan bundle.
 - Buy an Enterprise E1 or E3 plan and add voice features individually.
 - Buy an Enterprise E5 plan, which includes voice features.
+    - The Microsoft 365 Enterprise E5 plan includes Teams Phone, but organizations will still need to choose a [PSTN connectivity option](/microsoftteams/pstn-connectivity.md).
 
 For Microsoft 365 Teams Phone, you have two options to choose from:
 
-- **Microsoft 365 Teams Phone with a Calling Plan**: Get this if you want all phone number management and billing to be handled by Microsoft. Check to see if [Teams Phone with Calling Plan is available in your region](/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
-    The Microsoft 365 Enterprise E5 plan includes Teams Phone, but organizations will still need to choose a [PSTN connectivity option](/microsoftteams/pstn-connectivity.md).
-- **Microsoft 365 Teams Phone standalone license**: This license includes Teams Phone, but you'll still need to connect to the PSTN. To view all your PSTN connectivity options, see [Plan your Teams voice solution](/microsoftteams/cloud-voice-landing-page.md).
+- **Microsoft 365 Teams Phone with a Calling Plan bundle**: Get this if you want all phone number management and billing to be handled by Microsoft. Check to see if [Teams Phone with Calling Plan is available in your region](/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+- **Microsoft 365 Teams Phone standalone license**: This license includes Teams Phone, but you'll still need to connect to the PSTN. To learn about voice solutions, see [Plan your Teams voice solution](/microsoftteams/cloud-voice-landing-page.md). To view all your PSTN connectivity options, see [PSTN connectivity options](/microsoftteams/pstn-connectivity.md).
 
 To learn more, see [Teams Phone guidance for small and medium businesses](../business-voice/whats-business-voice.md).
 
@@ -96,13 +96,13 @@ Here's a summary based on licensing plan.
 Microsoft 365 Business Standard<br/>
 Microsoft 365 Business Premium<br/>
 Microsoft Teams Essentials (AAD Identity)</td>
-<td>Microsoft Teams Phone with Calling Plan<br/> <br/>International Calling Plan <br/> <br/>Optional: Communication Credits </td>
+<td>Microsoft Teams Phone with Calling Plan bundle<br/> <br/>International Calling Plan <br/> <br/>Optional: Communication Credits </td>
 <td>Or</td>
 <td>Phone System<br/> <br/>Domestic Calling Plan or Domestic and International Calling Plan<br/> <br/>Communication Credits</td>
 </tr>
 <tr class="odd">
 <td>Microsoft 365 Enterprise E1/E3<br/>Office 365 Enterprise E1/E3<br/>Microsoft 365 F3<br/>Office 365 F3<br/>Microsoft 365 F1</td>
-<td>Microsoft Teams Phone with Calling Plan<br/> <br/>International Calling Plan <br/> <br/>Optional: Communication Credits</td>
+<td>Microsoft Teams Phone with Calling Plan bundle<br/> <br/>International Calling Plan <br/> <br/>Optional: Communication Credits</td>
 <td>Or</td>
 <td>Phone System<br/> <br/>Domestic Calling Plan or Domestic and International Calling Plan<br/> <br/>Optional: Communication Credits</td>
 </tr>
@@ -126,7 +126,7 @@ If Audio Conferencing isn't supported in your country or region, you have the op
 
 If you're a large business or enterprise organization (more than 300 users), you have two ways to get voice features:
 
-- Buy an Enterprise E1 or E3 plan and add Teams Phone with Calling Plan.
+- Buy an Enterprise E1 or E3 plan and add Teams Phone with Calling Plan bundle.
 - Buy an Enterprise E1 or E3 plan and add voice features individually.
 - Buy an Enterprise E5 plan, which includes voice features.
 
@@ -148,7 +148,7 @@ Here's a summary, based on licensing plan.
 </tr>
 <tr class="even">
 <td>Microsoft 365 Enterprise E1/E3<br/>Office 365 Enterprise E1/E3<br/>Microsoft 365 F3<br/>Office 365 F3<br/>Microsoft 365 F1<br/></td>
-<td>Teams Phone with Calling Plan <br/> <br/> Audio Conferencing</td>
+<td>Teams Phone with Calling Plan bundle<br/> <br/> Audio Conferencing</td>
 <td>or</td>
 <td>Audio Conferencing <br/> <br/> Phone System <br/> <br/> Domestic Calling Plan or Domestic and International Calling Plan <br/> <br/> Communication Credits</td>
 <td></td>
@@ -172,7 +172,7 @@ To learn more, see [Microsoft 365 Enterprise plans](https://www.microsoft.com/mi
 
 For schools and other academic organizations, you have three ways to get voice features.
 
-- Buy an EDU A1 or A3 plan and Microsoft 365 Teams Phone with Calling Plan.
+- Buy an EDU A1 or A3 plan and Microsoft 365 Teams Phone with Calling Plan bundle.
 - Buy an EDU A1 or A3 plan and add voice features individually.
 - Buy an EDU A5 plan, which includes voice features.
 
@@ -196,13 +196,13 @@ Here's a summary, based on licensing plan.
 </tr>
 <tr class="even">
 <td>Microsoft 365 Enterprise A1 or A3<br/>Office 365 Education A1 or A3<br/>Microsoft 365 F3<br/>Office 365 F3</td>
-<td>Microsoft 365 Teams Phone with Calling Plan <br/> <br/>International Calling Plan (optional) <br/> <br/>Communication Credits (optional)</td>
+<td>Microsoft 365 Teams Phone with Calling Plan bundle<br/> <br/>International Calling Plan (optional) <br/> <br/>Communication Credits (optional)</td>
 <td>Or</td>
 <td>Audio Conferencing <br/> <br/> Phone System <br/> <br/>Domestic Calling Plan or Domestic and International Calling Plan <br/> <br/>Communication Credits (optional)</td>
 </tr>
 <tr>
 <td>Microsoft 365 Education A1 or A3<br>Office 365 Education A1 or A3<br>Microsoft 365 F3<br>Office 365 F3</td>
-<td>Microsoft 365 Teams Phone with Calling Plan <br/> <br/>International Calling Plan (optional)<br/> <br/>Communication Credits (optional)</td>
+<td>Microsoft 365 Teams Phone with Calling Plan bundle <br/> <br/>International Calling Plan (optional)<br/> <br/>Communication Credits (optional)</td>
 <td>Or</td>
 <td>Audio Conferencing <br/> <br/>Phone System <br/> <br/>Domestic Calling Plan or Domestic and International Calling Plan<br/> <br/>Communication Credits (optional)</td>
 <td></td>
@@ -249,13 +249,13 @@ Here's a summary, based on licensing plan.
 </tr>
 <tr class="even">
 <td>Microsoft 365 GOV G1 or G3<br>Office 365 GOV G1 or G3<br>Microsoft 365 F3<br>Office 365 F3</td>
-<td>Microsoft 365 Teams Phone with Calling Plan <br/> <br/>International Calling Plan (optional)<br/> <br/>Communication Credits (optional)</td>
+<td>Microsoft 365 Teams Phone with Calling Plan bundle <br/> <br/>International Calling Plan (optional)<br/> <br/>Communication Credits (optional)</td>
 <td>Or</td>
 <td>Audio Conferencing<br/> <br/>Phone System<br/> <br/>Domestic Calling Plan or Domestic and International Calling Plan<br/> <br/>Communication Credits (optional)</td>
 </tr>
 <tr>
 <td>Microsoft 365 GOV G1 or G3<br>Office 365 GOV G1 or G3<br>Microsoft 365 F3<br>Office 365 F3</td>
-<td>Microsoft 365 Teams Phone with Calling Plan<br/> <br/>International Calling Plan (optional)<br/> <br/>Communication Credits (optional)</td>
+<td>Microsoft 365 Teams Phone with Calling Plan bundle<br/> <br/>International Calling Plan (optional)<br/> <br/>Communication Credits (optional)</td>
 <td>Or</td>
 <td>Audio Conferencing<br/> <br/>Phone System<br/> <br/>Domestic Calling Plan or Domestic and International Calling Plan<br/> <br/>Communication Credits (optional)</td>
 <td></td>
@@ -278,8 +278,8 @@ To learn more, see [Microsoft 365 Government](https://www.microsoft.com/microsof
 
 If you're a nonprofit organization, you have four ways to get voice features.
 
-- Buy a Microsoft 365 Nonprofit Business Basic or Microsoft 365 Nonprofit Business Standard plan and Microsoft 365 Teams Phone with Calling Plan.
-- Buy a Nonprofit E1 or E3 plan and Microsoft 365 Teams Phone with Calling Plan.
+- Buy a Microsoft 365 Nonprofit Business Basic or Microsoft 365 Nonprofit Business Standard plan and Microsoft 365 Teams Phone with Calling Plan bundle.
+- Buy a Nonprofit E1 or E3 plan and Microsoft 365 Teams Phone with Calling Plan bundle.
 - Buy a Nonprofit E1 or E3 plan and add voice features individually.
 - Buy a Nonprofit E5, which includes voice features.
 
@@ -303,13 +303,13 @@ Here's a summary, based on licensing plan.
 </tr>
 <tr class="even">
 <td>Microsoft 365 Nonprofit Business Basic<br>Microsoft 365 Nonprofit Business Standard</td>
-<td>Microsoft 365 Teams Phone with Calling Plan <br/> <br/> International Calling Plan (optional) <br/> <br/> Communication Credits (optional)</td>
+<td>Microsoft 365 Teams Phone with Calling Plan bundle <br/> <br/> International Calling Plan (optional) <br/> <br/> Communication Credits (optional)</td>
 <td>Or</td>
 <td>Phone System <br/> <br/>Domestic Calling Plan or Domestic and International Calling Plan <br/> <br/>Communication Credits (optional)</td>
 </tr>
 <tr>
 <td>Microsoft 365 Nonprofit E1 or E3<br>Office 365 Nonprofit E1 or E3<br>Microsoft 365 F3<br>Office 365 F3</td>
-<td>Microsoft 365 Teams Phone with Calling Plan <br/> <br/>International Calling Plan (optional) <br/> <br/>Communication Credits (optional)</td>
+<td>Microsoft 365 Teams Phone with Calling Plan bundle <br/> <br/>International Calling Plan (optional) <br/> <br/>Communication Credits (optional)</td>
 <td>Or</td>
 <td>Audio Conferencing <br/> <br/>Phone System <br/> <br/>Domestic Calling Plan or Domestic and International Calling Plan <br/> <br/>Communication Credits (optional)</td>
 <td></td>
