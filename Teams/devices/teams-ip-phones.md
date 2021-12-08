@@ -90,6 +90,7 @@ The following devices are Certified under the Microsoft Teams panels Certificati
 |Crestron TSS-770 | `1.003.0082` |February 2021 |
 |Crestron TSS-1070 | `1.003.0082` |February 2021 |
 |Yealink RoomPanel | `147.15.0.1` |May 2021 |
+|Logitech TAP Scheduler | `1.3.111` | December 2021 |
 
 ### Product release information for Teams phones
 
@@ -99,6 +100,7 @@ The following are the latest Teams phone app and firmware versions.
 
 | Product release | Release date  | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| 2021 Update #3B | Dec 6, 2021   | `1449/1.0.94.2021112302 ` | `5.0.5304.0` | `298` |
 | 2021 Update #3A | Nov 22, 2021   | `1449/1.0.94.2021110101 ` | `5.0.5304.0` | `298` |
 | 2021 Update #3  | Nov 03, 2021   | `1449/1.0.94.2021101205` | `5.0.5304.0` | `298` |
 | 2021 Update #2A | June 10, 2021  |`1449/1.0.94.2021052803`|  `5.0.5088.0` |  `1.0.0.202103160138.product (256)` |
@@ -117,6 +119,8 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model        | Firmware version     | Included product release  |
 |:--------------------|:---------------------|:-------------------------|
+| Poly Trio C60   | `7.1.4.0201`  | 2021 Update #3B                        |
+| Poly CCX400/CCX500/CCX600   | `7.1.4.0200`  | 2021 Update #3B                 |
 |Audiocodes C448HD  | `C448HD_TEAMS_1.14.449` | 2021 Update #3  |
 |Audiocodes C450HD  | `C450HD_TEAMS_1.14.449` | 2021 Update #3  |
 |Audiocodes C470HD  | `C470HD_TEAMS_1.14.449` | 2021 Update #3  |
