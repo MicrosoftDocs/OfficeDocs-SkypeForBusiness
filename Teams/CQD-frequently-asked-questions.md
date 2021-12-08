@@ -39,6 +39,8 @@ description: Read frequently asked questions (FAQ) and answers about Microsoft T
 
 [Why do Wi-Fi VPN connections show as Wired instead of Wi-Fi?](#why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi)
 
+[I turned on Policy-based Recording in Teams and now Peer-to-Peer calls are being marked as Conferences -- what happened?](#i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened)
+
 ### Why does CQD mark a call as "Good" if one or more meeting participants had a poor experience?
 
 Check out the rules CQD uses for [stream classification](stream-classification-in-call-quality-dashboard.md).
@@ -98,6 +100,10 @@ CQD is designed for summarized data queries, and is not designed for data export
 ### Why do Wi-Fi VPN connections show as Wired instead of Wi-Fi?
 
 This is expected. The VPN vendor created a virtual ethernet adapter that is treated like a wired connection. Since it's not properly labeled, the operating system doesn't know it's a WiFi connection and reports it as wired.
+
+### I turned on Policy-based Recording in Teams and now Peer-to-Peer calls are being marked as Conferences -- what happened?
+
+This is expected behavior when Policy-based Recording is enabled in Microsoft Teams. Policy-based Recording uses a Teams Recorder Bot deployed in Microsoft Azure to capture meeting contents for compliance purposes. Because a Recorder Bot is itself a party to the call, the call is no longer peer-to-peer, but a multi-party call. Multi-party calls are classified as Conferences in Microsoft Teams, and so they will be indicated as such when viewing these calls in CQD and other call quality tools.
 
 ## Related articles
 
