@@ -22,7 +22,7 @@ You can manage Microsoft Teams settings on a Surface Hub using Windows Configura
 - [Create a provisioning package for Windows 10](/windows/configuration/provisioning-packages/provisioning-create-package)
 - [What is Microsoft Intune device management?](/mem/intune/remote-actions/device-management)
 
-Windows Configuration Designer is a good option if you only have a few Surface Hub devices and you can access them easily. If you have many Surface Hubs, or if they're in remote locations, use Microsoft Intune in Microsoft Endpoint Manager if its deployed in your organization. Regardless of the method you choose, you need to create an XML configuration file for make changes to Teams settings on Surface Hub.
+Windows Configuration Designer is a good option if you only have a few Surface Hub devices and you can access them easily. If you have many Surface Hubs, or if they're in remote locations, use Microsoft Intune in Microsoft Endpoint Manager if its deployed in your organization. Regardless of the method you choose, you need to create an XML configuration file to make changes to Teams settings on Surface Hub.
 
 ## Teams configuration file syntax
 

@@ -1,5 +1,5 @@
 ---
-title: Manage Microsoft Teams Rooms devices with Azure Monitor
+title: Monitor Microsoft Teams Rooms devices with Azure Monitor
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -13,21 +13,21 @@ ms.localizationpriority: medium
 ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
 ms.collection: 
   - M365-collaboration
-description: "This article discusses how to manage Microsoft Teams Rooms devices in an integrated manner using Azure Monitor."
+description: "This article discusses how to monitor Microsoft Teams Rooms devices in an integrated manner using Azure Monitor."
 ms.custom: seo-marvel-apr2020
 ---
 
-# Manage Microsoft Teams Rooms devices with Azure Monitor
+# Monitor Microsoft Teams Rooms devices with Azure Monitor
 
-This article discusses how to manage Microsoft Teams Rooms devices in an integrated manner using Azure Monitor.
+This article discusses how to monitor Microsoft Teams Rooms in an integrated manner using Azure Monitor.
 
-You can configure Azure Monitor to provide basic telemetry to help you manage Microsoft Teams meeting rooms devices. See [Plan Microsoft Teams Rooms management with Azure Monitor](azure-monitor-plan.md) and [Deploy Microsoft Teams Rooms management with Azure Monitor](azure-monitor-deploy.md) for details. As your management solution matures, you can use additional data and management capabilities to create a more detailed view of device performance.
+You can configure Azure Monitor to provide basic telemetry to help you monitor Microsoft Teams meeting rooms devices. See [Plan Microsoft Teams Rooms management with Azure Monitor](azure-monitor-plan.md) and [Deploy Microsoft Teams Rooms management with Azure Monitor](azure-monitor-deploy.md) for details. As your monitoring solution matures, you can use additional data and monitoring capabilities to create a more detailed view of device performance.
 
 ## Understand the log entries
 
-The following event descriptions are inserted into the event log description field every five minutes, when the Microsoft Teams Rooms app records the corresponding information in the Windows event log. The Microsoft Monitoring Agent passes these records to Log Analytics in Azure Monitor, which parses them into the dashboard you created in [Deploy Microsoft Teams Rooms management with Azure Monitor](azure-monitor-deploy.md). With the dashboard, you can look at individual log entries to determine courses of action if needed.
+The following event descriptions are inserted into the event log description field every five minutes, when the Microsoft Teams Rooms app records the corresponding information in the Windows event log. The Microsoft Monitoring Agent passes these records to Log Analytics in Azure Monitor, which parses them into the dashboard you created in [Deploy Microsoft Teams Rooms monitoring with Azure Monitor](azure-monitor-deploy.md). With the dashboard, you can look at individual log entries to determine courses of action if needed.
 
-Event IDs 2000 and 3000 indicate that the device in question is working as expected. Event IDs 2001 and 3001 indicate that an issue was found. Event ID 4000 may require action if seen more often than you expect, compared to a baseline you set or to other deployed devices in your organization.
+Event IDs 2000 and 3000 indicate that Teams Rooms is working as expected. Event IDs 2001 and 3001 indicate that an issue was found. Event ID 4000 may require action if seen more often than you expect, compared to a baseline you set or to other deployed devices in your organization.
 
 Understanding these event descriptions alerts you to problems quickly, and provides a starting point for further troubleshooting.
 
@@ -42,6 +42,6 @@ Understanding these event descriptions alerts you to problems quickly, and provi
 ## Related topics
  
 
-[Plan Microsoft Teams Rooms management with Azure Monitor](azure-monitor-plan.md)
+[Plan Microsoft Teams Rooms monitoring with Azure Monitor](azure-monitor-plan.md)
 
-[Deploy Microsoft Teams Rooms management with Azure Monitor](azure-monitor-deploy.md)
+[Deploy Microsoft Teams Rooms monitoring with Azure Monitor](azure-monitor-deploy.md)

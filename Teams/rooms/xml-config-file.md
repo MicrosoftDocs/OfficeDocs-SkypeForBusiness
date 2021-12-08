@@ -20,9 +20,9 @@ description: Remote management of the default settings used by a Microsoft Teams
 
 # Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file
 
-This article discusses remote management of the default settings used by a Microsoft Teams Rooms device, including applying a custom theme. It discusses how to create a master settings file, and links to discussions of how to place them as needed on the remotely managed devices.
+This article discusses remote management of the default settings used by a Microsoft Teams Rooms device, including applying a custom theme. It discusses how to create a master settings file and links to discussions of how to place them as needed on Teams Rooms.
   
-It is possible for you to change default settings of remotely managed devices by updating a master XML file and sending copies to the managed consoles. You can also implement Custom Themes on your Microsoft Teams Rooms consoles with XML configuration files.
+It is possible for you to change default settings of Teams Rooms by updating a master XML file and sending copies to the remote Teams Rooms devices.
   
 ## Create an XML configuration file
 

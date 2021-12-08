@@ -24,6 +24,9 @@ no-loc: [Microsoft, Microsoft Corporation, Microsoft Teams Rooms, Microsoft Team
 
 This article gives you all the necessary information to create your Microsoft Teams Rooms deployments by using Microsoft Endpoint Configuration Manager.
 
+> [!NOTE]
+> The following steps only apply to Surface Pro-based Teams Rooms devices. For other devices, check with the Original Equipment Manufacturer (OEM) for support.
+
 With the easy-to-use methods provided by Configuration Manager, you can deploy the operating system and other applications to multiple target devices.
 
 Use the approach illustrated below to guide you through your Configuration Manager configuration, and customize the sample packages and scripts provided throughout this guidance as needed for your organization.

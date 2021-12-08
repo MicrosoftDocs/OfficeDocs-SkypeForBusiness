@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 description: "Read this topic to learn about management of Microsoft Teams Rooms."
 ---
 
-# Microsoft Teams Rooms maintenance and operations 
+# Microsoft Teams Rooms maintenance and operations
  
 Read this topic to learn about management of Microsoft Teams Rooms.
   
@@ -24,9 +24,9 @@ Microsoft Teams Rooms is Microsoft's conferencing solution designed to transform
 ## Collecting logs on Microsoft Teams Rooms
 <a name="Logs"> </a>
 
-You can collect logs via Teams admin center. In Teams admin center, navigate to Devices\Teams Rooms on Windows. From this page, click on the display name for which you want to download logs. In the top panel, click on "Download device logs". You will be prompted with a notice. Click "Got it". After a few minutes, the logs will be ready for download in the History tab.
+You can collect logs via Teams admin center. See [Download device logs](../cortana-in-teams.md) for steps on collecting logs using Teams admin center.
 
-You can also use PowerShell to collect logs. You must invoke the log collection script that ships with the Microsoft Teams Rooms app. In Admin mode, start an elevated command prompt, and issue the following command:
+You can also use PowerShell to collect logs. You must invoke the log collection script that ships with the Microsoft Teams Rooms app. In [Admin mode](rooms-operations.md), start an elevated command prompt, and issue the following command:
   
 ```PowerShell
 powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
@@ -39,7 +39,7 @@ The logs will be output as a ZIP file in c:\rigel.
 
 Configure the settings of your Front of Room display(s) to support Consumer Electronics Control(CEC) or enable PC Mode.
   
-If you desire a front of room display to automatically switch to Teams Rooms when it wakes from standby mode, certain conditions must be met. This feature is optional but supported by Microsoft Teams Rooms software, provided underlying hardware supports the feature. A consumer TV used as a front of room display needs to support the Consumer Electronics Control (CEC) feature of HDMI.  Depending on the dock or console selected (which might not support CEC, refer to manufacturer support documentation), a controller such as an [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) from Crestron or [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) from Extron may be needed to enable the desired behavior. 
+If you desire a front of room display to automatically switch to Teams Rooms when it wakes from standby mode, certain conditions must be met. This feature is optional but supported by Microsoft Teams Rooms software, provided underlying hardware supports the feature. A consumer TV used as a front of room display needs to support the Consumer Electronics Control (CEC) feature of HDMI.  Depending on the dock or console selected (which might not support CEC, refer to manufacturer support documentation), a controller such as an [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) from Crestron or [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) from Extron may be needed to enable the desired behavior.
   
 ## Microsoft Teams Rooms Reset (Factory Restore)
 <a name="Reset"> </a>
@@ -74,7 +74,7 @@ Joining Teams Rooms to an Active Directory domain provides the following benefit
 
 - You can deploy Windows Quality of Service configuration to Teams Rooms.
 
-- If using Skype for Business, Domain-joining the Teams Rooms helps in importing your organization's private root certificate chain automatically.
+- If using Skype for Business, domain-joining the Teams Rooms automatesimporting your organization's private root certificate chain.
 
 When you join Teams Rooms to a domain, it is required that you create a separate Organizational Unit (OU), so that you can provide Group Policy Object (GPO) exclusions to the OU where all Teams Rooms objects reside. Disable all GPO inheritance so that unsupported Group Policy settings do not get applied to Teams Rooms. Create machine objects in the OU before joining Teams Rooms to the domain to assure that Group Policies applied to the default computers OU are not applied.
 

@@ -17,19 +17,19 @@ description: "This article discusses how to configure your organization and Team
 
 # Enable Teams Room devices to join third-party meetings
 
-Microsoft Teams Rooms devices support a one-touch experience for joining third-party online meetings, also referred to as Direct guest join. When enabled, you can use a Teams Rooms device to join meetings hosted on Cisco WebEx and Zoom just as easily as you can join meetings hosted in Microsoft Teams.
+Microsoft Teams Rooms devices support a one-touch experience for joining third-party online meetings, also referred to as Direct Guest Join. When enabled, you can use Teams Rooms to join meetings hosted on Cisco WebEx and Zoom just as easily as you can join meetings hosted in Microsoft Teams.
 
-Before you can join third-party meetings from a Teams Rooms device, you need to do the following:
+Before you can join third-party meetings from Teams Rooms, you need to do the following:
 
-1. Configure the Teams Rooms device's Exchange Online room mailbox to process invites for third-party meetings.
+1. Configure the Teams Rooms' Exchange Online room mailbox to process invites for third-party meetings.
 2. Make sure your organization doesn't have any policies that would prevent you from connecting to third-party meeting services.
-3. Configure your Teams Rooms devices to allow third-party meetings.
+3. Configure Teams Rooms to allow third-party meetings.
 
 The following sections show you how to do each of these steps.
 
 ## Step 1: Allow calendar invite processing for third-party meetings
 
-The first thing you need to do to enable a one-touch join experience from a Team Rooms device is set the calendar processing rules for the device's Exchange Online room mailbox. The room mailbox needs to allow external meetings and keep the message body and subject so it can see the URL needed to join the third-party meeting. To set these room mailbox options using the [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing?view=exchange-ps.) cmdlet, do the following:
+The first thing you need to do to enable a one-touch join experience from Team Rooms is set the calendar processing rules for the device's Exchange Online room mailbox. The room mailbox needs to allow external meetings and keep the message body and subject so it can see the URL needed to join the third-party meeting. To set these room mailbox options using the [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing?view=exchange-ps.) cmdlet, do the following:
 
 1. Connect to Exchange Online PowerShell. For more information, see [Connect to Exchange Online PowerShell with Basic authentication](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps) or [Connect to Exchange Online PowerShell using multi-factor authentication](/powershell/exchange/mfa-connect-to-exchange-online-powershell?view=exchange-ps), depending on your authentication method.
 
@@ -65,15 +65,15 @@ For a complete list of URLs to add to your ATP Safe Links "do not rewrite" list 
 > [!CAUTION]
 > Only add URLs that you trust to your ATP Safe Links "do not rewrite" list or third-party URL rewrite exception list.
 
-## Step 3: Enable third-party meetings on device
+## Step 3: Enable third-party meetings on Teams Rooms
 
-The last step you need to do is allow each Teams Rooms device to join third-party meetings. Third-party meetings require a username and email address to join them. If the username and email address that you need to use is different than the device's room mailbox, you need to add them to your device. You can do this in the device settings or in the XML config file.
+The last step you need to do is allow Teams Rooms to join third-party meetings. Third-party meetings require a username and email address to join them. If the username and email address that you need to use is different than the device's room mailbox, you need to add them to your device. You can do this in the Teams Rooms settings or in the XML config file.
 
 ### Use device settings
 
-To configure the Teams Rooms device using its touchscreen, do the following:
+To configure Teams Rooms using the touchscreen console, do the following:
 
-1. On the Microsoft Teams Rooms device, select **More ...**.
+1. On the Microsoft Teams Rooms console, select **More ...**.
 2. Select **Settings**, and then enter the device administrator username and password.
 3. Go to the **Meetings** tab and select **Cisco WebEx**, **Zoom**, or both.
 4. If you want to join meetings with the username and email address associated with the room mailbox, select **Join with room info**.
