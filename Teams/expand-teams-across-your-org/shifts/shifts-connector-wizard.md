@@ -87,8 +87,8 @@ To learn more, see Remove-CsTeamsShiftsScheduleRecord.
 On the Sync settings page, you choose the information to sync from Blue Yonder to Shifts, whether Shifts users can make changes to the data, and the sync frequency.
 
 1. Enter your Microsoft 365 system account.
-<a name="email"> </a>
     :::image type="content" source="../../media/shifts-connector-wizard-sync-settings.png" alt-text="Screenshot of the Sync settings page of the wizard, showing sync settings." lightbox="../../media/shifts-connector-wizard-sync-settings.png":::
+<a name="email"> </a>
 1. Under **Email notification recipients**, choose who receives email notifications about this connection. You can add individual users and groups. The email notifications contain information about connection setup status and any issues or errors that may occur after the connection is set up.
 1. Under **Requests**, choose the types of requests that Shifts users can see and create.
 1. Under **Schedule and shifts**, choose the Blue Yonder data that Shifts users can see or change, and then set the sync frequency.
