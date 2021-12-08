@@ -63,7 +63,7 @@ Before you begin to deploy Microsoft Teams Rooms, be sure you have the right per
    Set-CalendarProcessing -Identity ConferenceRoom01 -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams and Skype for Business meeting room!"
    ```
 
-4. Disable password expiration on the resource account.
+4. Turn off password expiration on the resource account.
 
    ``` Powershell
    Set-AdUser ConferenceRoom01@contoso.com -PasswordNeverExpires $true
@@ -82,7 +82,7 @@ Before you begin to deploy Microsoft Teams Rooms, be sure you have the right per
    -RegistrarPool LYNCPool15.contoso.com 
    ```
 
-    Change the -DomainController and -RegistrarPool attributes to values appropriate for your environment.
+    Change the `-DomainController` and `-RegistrarPool` attributes to values appropriate for your environment.
 
 7. **Optional.** You can also allow Microsoft Teams Rooms to make and receive public switched telephone network (PSTN) phone calls by enabling Enterprise Voice for your account. Enterprise Voice isn't a requirement for Microsoft Teams Rooms, but if you want PSTN dialing functionality for Microsoft Teams Rooms, here's how to enable it:
 
