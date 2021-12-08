@@ -52,6 +52,7 @@ For example, here each row represents a pair of User Agents involved in a stream
 > That First and Second classification is separate from which endpoint is the caller or callee. The First Is Caller dimension can be used to help identify which endpoint was the caller or callee.
 
 ## Dimensions
+
 Dimensions information is based in part on data uploaded to the CQD portal. Many Dimension values can also be used as filters.
 
 ### Dimension data types and units
@@ -493,9 +494,9 @@ The following table lists the dimensions currently available in CQD, in the orde
 | Second Endpoint Product Name|String|The product name of the second endpoint (either Skype for Business or Microsoft Teams).||
 | First UserType|Enumeration string|The type of user on the first endpoint. <br/> **Possible values:** User, Server, Anonymous, Application, PSTN, Voicemail, Unknown <br/> <br/>**Unknown** -   the default value if UserType can't be determined based on the info received. <br/>**PSTN** - a PSTN User. <br/>**Anonymous** - a Teams user or Skype for Business visitor. <br/>**Application** - a bot. <br/>**User** - an AAD User, can be either Skype for Business User or Teams User. <br/>**Server** - for conferences, at least one side is a server. <br/>**Voicemail** - the endpoint was answered by the voicemail service.||
 | Second UserType|Enumeration string|The type of user on the second endpoint. <br/> **Possible values:** User, Server, Anonymous, Application, PSTN, Voicemail, Unknown <br/> <br/>**Unknown** -   the default value if UserType can't be determined based on the info received. <br/>**PSTN** - a PSTN User. <br/>**Anonymous** - a Teams user or Skype for Business visitor. <br/>**Application** - a bot. <br/>**User** - an AAD User, can be either Skype for Business User or Teams User. <br/>**Server** - for conferences, at least one side is server. <br/>**Voicemail** - the endpoint was answered by voicemail service.||
-| Organizer ObjectId|String|The Active Directory object ID of the meeting organizer's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.  | &bull; User does not have permissions to view EUII. &bull; Record is older than 28 days. |
-| Organizer UPN|String|The user principal name (UPN) of the meeting organizer's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| &bull; User does not have permissions to view EUII. &bull; Record is older than 28 days. |
-| Organizer Sip Uri|String|The Session Initiation Protocol (SIP) URI of the meeting organizer's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| &bull; Populated only for Skype for Business endpoints. <br/>&bull; User does not have permissions to view EUII. &bull; Record is older than 28 days.|
+| Organizer ObjectId|String|The Active Directory object ID of the meeting organizer's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.  | &bull; User does not have permissions to view EUII. <br/>&bull; Record is older than 28 days. |
+| Organizer UPN|String|The user principal name (UPN) of the meeting organizer's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| &bull; User does not have permissions to view EUII. <br/>&bull; Record is older than 28 days. |
+| Organizer Sip Uri|String|The Session Initiation Protocol (SIP) URI of the meeting organizer's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| &bull; Populated only for Skype for Business endpoints. <br/>&bull; User does not have permissions to view EUII. <br/>&bull; Record is older than 28 days.|
 |**Devices**||||
 | First Capture Device Form Factor|Enumeration string|The form factor of the audio capture device (microphone) on the first endpoint. | &bull; Not reported by the endpoint. |
 | Second Capture Device Form Factor|Enumeration string|The form factor of the audio capture device (microphone) on the first endpoint. | &bull; Not reported by the endpoint. |
@@ -518,7 +519,7 @@ The following table lists the dimensions currently available in CQD, in the orde
 |PSTN MP Location|String|The Media Processor location will show the media path when in non-bypass mode.<br/>**Example:** USWE||
 |PSTN Call End Reason|Int|A three-digit integer response code shows the final status of the call. <br/> For more information about SIP explanation, please see the [List of SIP response codes](https://www.wikipedia.org/wiki/List_of_SIP_response_codes). <br/>**Example:** 404||
 |**Voice Apps (Preview)**||For this category, see [Auto Attendant & Call Queue Historical Report](aa-cq-cqd-historical-reports.md) for more information.)||
-|Auto Attendant Identity|String|Name of the resource account attached to the Auto Attendant.||
+|Auto Attendant Identity|String|Name of the resource account attached to the Auto Attendant.|&bull; User does not have permissions to view EUII. <br/>&bull; Record is older than 28 days.|
 |Auto Attendant Chain Index|Integer| Order of the Auto Attendant in the call.||
 |Auto Attendant Chain Start Time|String|The Auto Attendant call start time and date.||
 |Auto Attendant Chain Duration Seconds|Integer| The duration of the call in the Auto Attendant, measured in seconds.||
@@ -528,7 +529,7 @@ The following table lists the dimensions currently available in CQD, in the orde
 |Auto Attendant Call Result|Enumeration| Final call result with the Auto Attendant. ||
 |Auto Attendant Directory Search Method|Enumeration|The last address book search method used.||
 |Auto Attendant Count|Integer| Number of Auto Attendants involved in the call.||
-|Call Queue Identity|String|Name of the resource account attached to the Call Queue. ||
+|Call Queue Identity|String|Name of the resource account attached to the Call Queue. |&bull; User does not have permissions to view EUII. <br/>&bull; Record is older than 28 days.|
 |Call Queue Is Conference Mode|Boolean|If True, Call Queue is configured to use conference mode otherwise Call Queue is configured to use transfer mode. ||
 |Call Queue Agent Count|Integer|Number of agents configured in the queue. ||
 |Call Queue Agent Opt In Count|Integer|Number of configured agents that have opted into the queue. ||
@@ -536,6 +537,7 @@ The following table lists the dimensions currently available in CQD, in the orde
 |Call Queue Call Result|Enumeration|The Call Queue call final state. ||
 |Call Queue Final State Action|Enumeration|The Call Queue final action. ||
 |Call Queue Timed Out Time|Integer|The configured timed out value for the Call Queue. ||
+|Transferred from Call Queue Identity|String|Name of the resource account attached to the Call Queue that transferred the call. |&bull; User does not have permissions to view EUII. <br/>&bull; Record is older than 28 days.|
 |Is Auto Attendant Involved|Boolean| If True, an Auto Attendant was involved in a given call or stream.||
 |Is Call Queue Involved|Boolean|If True, a Call Queue was involved in a given call or stream. ||
 |**Meeting**||||
