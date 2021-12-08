@@ -53,7 +53,63 @@ For example, here each row represents a pair of User Agents involved in a stream
 
 ## Dimensions
 
-Dimensions information is based in part on data uploaded to the CQD portal. Many Dimension values can also be used as filters. The following table lists the dimensions currently available in CQD, in the order listed in the Query Editor used to create reports or edit previously defined reports.
+Dimensions information is based in part on data uploaded to the CQD portal. Many Dimension values can also be used as filters.
+
+### Dimension data types and units
+
+#### Boolean
+
+Boolean values are always either True or False. In some cases, True can also be represented as 1 and False can be represented as 0.
+
+#### Range
+
+Dimensions that are provided as range or group of values are shown using the following format:
+
+ _\<sort order string\> [\<lower bound inclusive\> - \<upper bound exclusive\>_
+
+For example, the Duration (Minutes) dimension represents the call duration in seconds with the value reported as a range of values.
+
+|Duration (Minutes) |How to interpret |
+|:--- |:--- |
+|062: [0 - 0) |Stream duration = 0 minutes |
+|064: [1 - 2) |1 minute < = stream duration < 2 minutes |
+|065: [2 - 3) |2 minutes < = stream duration < 3 minutes |
+|066: [3–4) |3 minutes < = stream duration < 4 minutes |
+|  | |
+
+The \<sort order string> is used to control the sort order when presenting the data and can be used for filtering. For example, a filter on Duration (Minutes) < "065", would show streams with duration less than 2 minutes (The leading '0' is needed for the filter to work as expected). The actual value of the sort order string isn't significant.
+
+> [!NOTE]
+> You may notice ranges that seem to be invalid for a given dimension. An example would be Wifi Signal Strength showing calls in the 082: [100 - 110) range when 100 is the maximum possible value for Wifi Signal Strength. This is due to how numbers are assigned to ranges in CQD's data model. If a whole number value is 99, it will be counted in the 081: [90 - 100) range. If that value is 100, it will be counted in the 082: [100 - 110) range. This does not indicate that there are Wifi Signal Strength values greater than 100% being reported.
+
+#### Enumeration strings
+
+Strings used by CQD are often derived from data files, and these can be nearly any combination of character within the allowed length. Some dimensions look like strings, but since they can only be one of a short list of predefined values, they are enumerations and not true strings. Some enumerations strings are also used in pairs.
+
+#### Enumeration pair
+
+Dimensions that are provided as an enumeration pair are shown using the following format:
+
+ _\<enumeration value from one end point\> : \<enumeration value from the other endpoint\>_
+
+The ordering of the enumeration values is consistent but doesn't reflect ordering of the first or second endpoints.
+
+For example, the Network Connection Detail Pair shows the Network Connection Detail values for the two endpoints:
+
+|Network Connection Detail Pair |How to interpret |
+|:--- |:--- |
+|Wired : Wired |First and second endpoints both used wired ethernet connections. |
+|Wired : wifi |First endpoint used wired ethernet connection and second endpoint used Wi-Fi connection, or the second endpoint used wired ethernet connection and first endpoint used Wi-Fi connection. |
+|: wifi |First endpoint used a WiFi connection and the network connection used by the second endpoint is unknown, or the second endpoint used a WiFi connection and the network connection used by the first endpoint is unknown. |
+| | |
+
+#### Blank values
+
+The table below lists possible reasons why a dimension may be blank. Many dimensions and measurements will be blank if the QoE Record Available dimension is false. This typically occurs when the call wasn't successfully established, or when the client failed to send its telemetry to the service.
+
+### Available dimensions 
+
+The following table lists the dimensions currently available in CQD, in the order listed in the Query Editor used to create reports or edit previously defined reports.
 
 |Name|Data type|Description|Possible Reasons for blank values|
 |:---|:---|:---|:---|
@@ -438,9 +494,9 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 | Second Endpoint Product Name|String|The product name of the second endpoint (either Skype for Business or Microsoft Teams).||
 | First UserType|Enumeration string|The type of user on the first endpoint. <br/> **Possible values:** User, Server, Anonymous, Application, PSTN, Voicemail, Unknown <br/> <br/>**Unknown** -   the default value if UserType can't be determined based on the info received. <br/>**PSTN** - a PSTN User. <br/>**Anonymous** - a Teams user or Skype for Business visitor. <br/>**Application** - a bot. <br/>**User** - an AAD User, can be either Skype for Business User or Teams User. <br/>**Server** - for conferences, at least one side is a server. <br/>**Voicemail** - the endpoint was answered by the voicemail service.||
 | Second UserType|Enumeration string|The type of user on the second endpoint. <br/> **Possible values:** User, Server, Anonymous, Application, PSTN, Voicemail, Unknown <br/> <br/>**Unknown** -   the default value if UserType can't be determined based on the info received. <br/>**PSTN** - a PSTN User. <br/>**Anonymous** - a Teams user or Skype for Business visitor. <br/>**Application** - a bot. <br/>**User** - an AAD User, can be either Skype for Business User or Teams User. <br/>**Server** - for conferences, at least one side is server. <br/>**Voicemail** - the endpoint was answered by voicemail service.||
-| Organizer ObjectId|String|The Active Directory object ID of the meeting organizer's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.  | &bull; User does not have permissions to view EUII. &bull; Record is older than 28 days. |
-| Organizer UPN|String|The user principal name (UPN) of the meeting organizer's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| &bull; User does not have permissions to view EUII. &bull; Record is older than 28 days. |
-| Organizer Sip Uri|String|The Session Initiation Protocol (SIP) URI of the meeting organizer's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| &bull; Populated only for Skype for Business endpoints. <br/>&bull; User does not have permissions to view EUII. &bull; Record is older than 28 days.|
+| Organizer ObjectId|String|The Active Directory object ID of the meeting organizer's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.  | &bull; User does not have permissions to view EUII. <br/>&bull; Record is older than 28 days. |
+| Organizer UPN|String|The user principal name (UPN) of the meeting organizer's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| &bull; User does not have permissions to view EUII. <br/>&bull; Record is older than 28 days. |
+| Organizer Sip Uri|String|The Session Initiation Protocol (SIP) URI of the meeting organizer's user. Only available for the past 28 days of data and only visible to users with roles allowing EUII access.| &bull; Populated only for Skype for Business endpoints. <br/>&bull; User does not have permissions to view EUII. <br/>&bull; Record is older than 28 days.|
 |**Devices**||||
 | First Capture Device Form Factor|Enumeration string|The form factor of the audio capture device (microphone) on the first endpoint. | &bull; Not reported by the endpoint. |
 | Second Capture Device Form Factor|Enumeration string|The form factor of the audio capture device (microphone) on the first endpoint. | &bull; Not reported by the endpoint. |
@@ -463,7 +519,7 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 |PSTN MP Location|String|The Media Processor location will show the media path when in non-bypass mode.<br/>**Example:** USWE||
 |PSTN Call End Reason|Int|A three-digit integer response code shows the final status of the call. <br/> For more information about SIP explanation, please see the [List of SIP response codes](https://www.wikipedia.org/wiki/List_of_SIP_response_codes). <br/>**Example:** 404||
 |**Voice Apps (Preview)**||For this category, see [Auto Attendant & Call Queue Historical Report](aa-cq-cqd-historical-reports.md) for more information.)||
-|Auto Attendant Identity|String|Name of the resource account attached to the Auto Attendant.||
+|Auto Attendant Identity|String|Name of the resource account attached to the Auto Attendant.|&bull; User does not have permissions to view EUII. <br/>&bull; Record is older than 28 days.|
 |Auto Attendant Chain Index|Integer| Order of the Auto Attendant in the call.||
 |Auto Attendant Chain Start Time|String|The Auto Attendant call start time and date.||
 |Auto Attendant Chain Duration Seconds|Integer| The duration of the call in the Auto Attendant, measured in seconds.||
@@ -473,7 +529,7 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 |Auto Attendant Call Result|Enumeration| Final call result with the Auto Attendant. ||
 |Auto Attendant Directory Search Method|Enumeration|The last address book search method used.||
 |Auto Attendant Count|Integer| Number of Auto Attendants involved in the call.||
-|Call Queue Identity|String|Name of the resource account attached to the Call Queue. ||
+|Call Queue Identity|String|Name of the resource account attached to the Call Queue. |&bull; User does not have permissions to view EUII. <br/>&bull; Record is older than 28 days.|
 |Call Queue Is Conference Mode|Boolean|If True, Call Queue is configured to use conference mode otherwise Call Queue is configured to use transfer mode. ||
 |Call Queue Agent Count|Integer|Number of agents configured in the queue. ||
 |Call Queue Agent Opt In Count|Integer|Number of configured agents that have opted into the queue. ||
@@ -481,6 +537,7 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 |Call Queue Call Result|Enumeration|The Call Queue call final state. ||
 |Call Queue Final State Action|Enumeration|The Call Queue final action. ||
 |Call Queue Timed Out Time|Integer|The configured timed out value for the Call Queue. ||
+|Transferred from Call Queue Identity|String|Name of the resource account attached to the Call Queue that transferred the call. |&bull; User does not have permissions to view EUII. <br/>&bull; Record is older than 28 days.|
 |Is Auto Attendant Involved|Boolean| If True, an Auto Attendant was involved in a given call or stream.||
 |Is Call Queue Involved|Boolean|If True, a Call Queue was involved in a given call or stream. ||
 |**Meeting**||||
@@ -498,58 +555,6 @@ Dimensions information is based in part on data uploaded to the CQD portal. Many
 | Scenario Pair  | Enumerated pair  | Pair showing if the endpoints were located inside or outside the corporate network based on the subnet mapping and the network connection detail. <br/> **Note:** The pairs are separated by '--'. <br/> **Example value:** Client-Inside--Client-Inside-wifi  | &bull; The network connectivity type was unknown for either or both endpoints.  |
 
 
-
-### Notes on dimension data type/units
-
-#### Boolean
-
-Boolean values are always either True or False. In some cases, True can also be represented as 1 and False can be represented as 0.
-
-#### Range
-
-Dimensions that are provided as range or group of values are shown using the following format:
-
- _\<sort order string\> [\<lower bound inclusive\> - \<upper bound exclusive\>_
-
-For example, the Duration (Minutes) dimension represents the call duration in seconds with the value reported as a range of values.
-
-|Duration (Minutes) |How to interpret |
-|:--- |:--- |
-|062: [0 - 0) |Stream duration = 0 minutes |
-|064: [1 - 2) |1 minute < = stream duration < 2 minutes |
-|065: [2 - 3) |2 minutes < = stream duration < 3 minutes |
-|066: [3–4) |3 minutes < = stream duration < 4 minutes |
-|  | |
-
-The \<sort order string> is used to control the sort order when presenting the data and can be used for filtering. For example, a filter on Duration (Minutes) < "065", would show streams with duration less than 2 minutes (The leading '0' is needed for the filter to work as expected). The actual value of the sort order string isn't significant.
-
-> [!NOTE]
-> You may notice ranges that seem to be invalid for a given dimension. An example would be Wifi Signal Strength showing calls in the 082: [100 - 110) range when 100 is the maximum possible value for Wifi Signal Strength. This is due to how numbers are assigned to ranges in CQD's data model. If a whole number value is 99, it will be counted in the 081: [90 - 100) range. If that value is 100, it will be counted in the 082: [100 - 110) range. This does not indicate that there are Wifi Signal Strength values greater than 100% being reported.
-
-#### Enumeration strings
-
-Strings used by CQD are often derived from data files, and these can be nearly any combination of character within the allowed length. Some dimensions look like strings, but since they can only be one of a short list of predefined values, they are enumerations and not true strings. Some enumerations strings are also used in pairs.
-
-#### Enumeration pair
-
-Dimensions that are provided as an enumeration pair are shown using the following format:
-
- _\<enumeration value from one end point\> : \<enumeration value from the other endpoint\>_
-
-The ordering of the enumeration values is consistent but doesn't reflect ordering of the first or second endpoints.
-
-For example, the Network Connection Detail Pair shows the Network Connection Detail values for the two endpoints:
-
-|Network Connection Detail Pair |How to interpret |
-|:--- |:--- |
-|Wired : Wired |First and second endpoints both used wired ethernet connections. |
-|Wired : wifi |First endpoint used wired ethernet connection and second endpoint used Wi-Fi connection, or the second endpoint used wired ethernet connection and first endpoint used Wi-Fi connection. |
-|: wifi |First endpoint used a WiFi connection and the network connection used by the second endpoint is unknown, or the second endpoint used a WiFi connection and the network connection used by the first endpoint is unknown. |
-| | |
-
-#### Blank values
-
-The table above lists possible reasons why a dimension may be blank. Many dimensions and measurements will be blank if the QoE Record Available dimension is false. This typically occurs when the call wasn't successfully established.
 
 ## Measurements
 
