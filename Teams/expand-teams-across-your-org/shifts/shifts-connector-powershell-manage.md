@@ -46,7 +46,7 @@ You can use the [Shifts connector wizard](shifts-connector-wizard.md) in the Mic
 [!INCLUDE [shifts-connector-set-up-environment](../../includes/shifts-connector-set-up-environment.md)]
 
 ## Check connection setup status
-
+<a name="setup_status"> </a>
 To check the setup status of your connection, run the following command:
 
 
