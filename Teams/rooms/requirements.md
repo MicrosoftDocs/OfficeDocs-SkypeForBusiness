@@ -23,15 +23,14 @@ Microsoft Teams Rooms scale to different room sizes. Teams Rooms use a wide vari
 
 This article summarizes the device deployment and configuration requirements for supporting Microsoft Teams Rooms.
 
-Your deployment involves account creation as described in [Deploy Microsoft Teams Rooms](rooms-deploy.md) and set up of meeting consoles as described in [Configure a Microsoft Teams Rooms console](console.md).
+Your deployment involves resource account creation and setup of Teams Rooms as described in [Deploy Microsoft Teams Rooms](rooms-deploy.md).
 
 Refer to:
 
-- [Skype for Business add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-- [License options based on your plan: Microsoft Teams Rooms](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+- [License options based on your plan: Microsoft Teams Rooms](rooms-licensing.md)
 
 > [!NOTE]
-> Microsoft Teams Rooms sign in to Microsoft Teams, Skype for Business Server 2019, Skype for Business Server 2015, or Skype for Business Online, and may join meetings hosted by any of these services.
+> Microsoft Teams Rooms sign in to Microsoft Teams, Skype for Business Server 2019, or Skype for Business Server 2015 and may join meetings hosted by any of these services.
 >
 > Earlier platforms like Lync Server 2013 are not supported by Microsoft Teams Rooms. Microsoft Teams Rooms is not supported in Microsoft 365 or Office 365 operated by 21Vianet, or DoD environments.
 >
@@ -64,7 +63,7 @@ All current Microsoft Teams Room devices and bundles are available in the [Room 
    |[Crestron Flex UC-MX50-T with ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX50-T)|Core i5|8 GB |128 GB |
    |[Crestron Flex UC-MX70-T with ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX70-T)|Core i5|8 GB |128 GB |
   |[Crestron Mercury Mini UC-MM30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MM30-T)|Core i5|8 GB |128 GB |
-  |[Dell OptiPlex 7080 with Logitech TAP](https://www.dell.com/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i7 |16 GB |128 GB|
+  |[Dell OptiPlex 7080 with Logitech TAP](https://www.dell.com/en-us/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i7 |16 GB |128 GB|
   |[HP Elite Slice for Meeting Rooms G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 GB |128 GB |
   |[HP Elite Slice G2 Audio Ready with Microsoft Teams Rooms](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 GB |128 GB |
   |[HP Slice Partner Ready with Logitech TAP]( https://www.logitech.com/video-collaboration/partners/hp.html)|Core i5|8 GB|128 GB| 
@@ -175,6 +174,8 @@ These devices are available at the [Room System Accessories product showcase](ht
 |[Yealink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
 |[Yealink UVC30](https://www.yealink.com/product/microsoft-teams-room-system-uvc30)| 105.420.0.11 |  &#x2714; |
 |[Yealink UVC40 All-in-one Video bar](https://www.yealink.com/product/usb-videobar-uvc40) |128.410.0.10|  
+|[Yealink UVC84](https://www.yealink.com/product/camera-uvc84) |262.410.0.10|
+|[Yealink UVC86]( https://www.yealink.com/product/camera-uvc86) |151.410.0.5|
 |[Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300)+</br></br> [Shure MXA 310 Table Array Mic ](https://www.shure.com/products/microphones/mxa310) | 4.1 |
 |[Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300) + </br></br> [Shure MXA 910 with Intellimix Ceiling Array Mic](https://www.shure.com/products/microphones/mxa910) | 4.1|
 |[Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300)+</br></br> [Shure MXA 310 Table Array Mic ](https://www.shure.com/products/microphones/mxa310) +</br></br> [MXN5W-C Ceiling speaker](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> MXA310 Table Array mic: 4.1.41 </br> MXN5W-C Speaker: 1.0.4 |
@@ -196,11 +197,11 @@ These devices are available at the [Room System Accessories product showcase](ht
 
 #### USB extenders
 
-- USB ports on tablet docks are USB 3.0 compatible. You can use a USB 2.x extender but doing this limits you to USB 2.x speeds on the far end. Extenders are not recommended for USB 3.0 peripherals.
+- USB ports on tablet docks are USB 3.0 compatible. You can use a USB 2.x extender but you'll be limited to USB 2.x speeds on the far end. Extenders are not recommended for USB 3.0 peripherals.
 - An extender must meet USB 2.0 or newer specifications.
   - Tablet docks support at least two stages of external USB hub extension. If you connect more than two USB hubs in series, check with the dock manufacturer to confirm whether they support series connection.
   - Wired GbE connection in the room. Ethernet cable of appropriate length.
-  - Up to two 1080-p displays with HDMI connections. HDMI cables of appropriate length.
+  - Up to two 1080p displays with HDMI connections. HDMI cables of appropriate length.
 
 > [!NOTE]
 > A consumer TV used as a front of room display needs to support/enable the Consumer Electronics Control (CEC) feature of HDMI so that it can switch automatically to an active video source from standby mode. This feature is not supported on all TVs.
@@ -230,14 +231,6 @@ The following tables provide recommendations for peripherals based on room size:
  > [!NOTE]
  > Front of room display resolution should be set to no greater than 1920x1080p.
 
-## Required software downloads
-
-To build your own Microsoft Teams Rooms image, follow the instructions in [Configure a Microsoft Teams Rooms console](console.md). Those instructions guide you through download of all software necessary for installation.
-
-> [!NOTE]
-> IT professionals will need access to Windows 10 Enterprise ISO files through their volume licensing agreement.
-
-[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105) is an optional download you can use to provision Microsoft Teams Rooms accounts.
 
 ## See also
 
@@ -250,5 +243,3 @@ To build your own Microsoft Teams Rooms image, follow the instructions in [Confi
 [Configure a Microsoft Teams Rooms console](console.md)
 
 [Manage Microsoft Teams Rooms](rooms-manage.md)
-
-[Skype for Business add-on licensing](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)
