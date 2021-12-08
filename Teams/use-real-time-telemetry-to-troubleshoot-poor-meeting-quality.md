@@ -79,12 +79,19 @@ To look at the telemetry of a given user for an in-progress meeting, including i
 - Android
 - iOS
 
+> [!NOTE]
+> Teams Web client (including VDI) does not support delivery of telemetry in real time.
+
 ## Teams devices with support for real-time telemetry
 
 - MTR - Surface Hub
 - MTR - Teams Display
 - MTR - Collaboration bar
 - IP Phone devices
+
+> [!NOTE]
+> Devices that joined the meeting using Cloud Video Interop (CVI) solutions are not supported in Real-Time Analytics.
+
 
 ## Limitations
 
