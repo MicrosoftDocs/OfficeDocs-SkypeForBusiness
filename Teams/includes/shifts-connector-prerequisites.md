@@ -8,6 +8,6 @@ Before you get started, make sure you have the following prerequisites:
      - proxyHeader: X-MS-AuthToken
 
 - At least one team is set up in Teams.
-- Your Microsoft 365 service account is added as a team owner to all teams you want to map.</br> This service account is an account that you create. Create it in Azure Active Directory (Azure AD) and assign it a Microsoft 365 license. Then, add the account as a team owner to all teams that you want to map. The Shifts connector uses this account when syncing Shifts changes from Blue Yonder.
+- Your Microsoft 365 system account is added as a team owner to all teams you want to map.</br> This service account is an account that you create. Create it in Azure Active Directory (Azure AD) and assign it a Microsoft 365 license. Then, add the account as a team owner to all teams that you want to map. The Shifts connector uses this account when syncing Shifts changes from Blue Yonder.
 
     We recommend that you create a service account specifically for this purpose and not use your user account.
