@@ -23,12 +23,14 @@ appliesto:
 
 The [Microsoft Teams Shifts connector for Blue Yonder](shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder) enables you to integrate the Shifts app in Microsoft Teams with your Blue Yonder workforce management (WFM) system. After you set up a connection, your frontline workers can seamlessly view and manage their schedules in Blue Yonder from within Shifts.
 
-You can use the [Shifts connector wizard](shifts-connector-wizard.md) in the Microsoft 365 admin center or [PowerShell](shifts-connector-blue-yonder-powershell-setup.md) to set up a connection. After a connection is set up, you manage it by using PowerShell. We provide PowerShell scripts that you can use to:
+You can use the [Shifts connector wizard](shifts-connector-wizard.md) in the Microsoft 365 admin center or [PowerShell](shifts-connector-blue-yonder-powershell-setup.md) to set up a connection. After a connection is set up, you manage it by using [Shifts connector PowerShell cmdlets](#shifts-connector-cmdlets).
+
+This article provides example PowerShell scripts that you can use to do the following:
 
 - [Check connection setup status](#check-connection-setup-status)
-- [Change connection settings](#change-connection-settings)
 - [View connection health](#view-connection-health)
 - [View connection settings](#view-connection-settings)
+- [Change connection settings](#change-connection-settings)
 - [Disable a connection](#disable-a-connection)
 
 > [!NOTE]
@@ -49,6 +51,67 @@ You can use the [Shifts connector wizard](shifts-connector-wizard.md) in the Mic
 <a name="setup_status"> </a>
 To check the setup status of your connection, run the following command:
 
+## View connection health
+<a name="health"> </a>
+Use this script to view connection health, including any errors that may have occurred.
+
+[Set up your environment](#set-up-your-environment) (if you haven't already), and then run the following script.
+
+## View connection settings
+
+Use this script to view connection settings, including connection status, team mappings, and failed user mappings.
+
+[Set up your environment](#set-up-your-environment) (if you haven't already), and then run the following script.
+
+``` powershell
+#View sync errors script 
+Write-Host "View sync errors work flow"
+Start-Sleep 1
+
+#Ensure Teams module is of version x 
+Write-Host "Checking Teams module version"
+try {
+	Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 2.3
+} catch {
+	throw
+}
+
+#Authenticate with powershell as to the authorization capabilities of the caller. 
+#Connect to Teams
+Write-Host "Connecting to Teams"
+Connect-MicrosoftTeams
+Write-Host "Connected"
+
+#List connection instances available 
+Write-Host "Listing connection instances"
+$InstanceList = Get-CsTeamsShiftsConnectionInstance
+write $InstanceList
+
+#Get an instance
+if ($InstanceList.Count -gt 0){
+	$InstanceId = Read-Host -Prompt 'Input the instance ID that you want to retrieve user sync results from'
+}
+else {
+	throw "Instance list is empty"
+}
+
+#Get a list of the mappings
+Write-Host "Listing team mappings"
+$mappings = Get-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $InstanceId
+write $mappings
+
+#For each mapping, retrieve the failed mappings
+ForEach ($mapping in $mappings){
+	$teamsTeamId = $mapping.TeamId
+	$wfmTeamId = $mapping.WfmTeamId
+	Write-Host "Failed mapped users in the mapping of ${teamsTeamId} and ${wfmTeamId}:"
+	$userSyncResult = Get-CsTeamsShiftsConnectionSyncResult -ConnectorInstanceId $InstanceId -TeamId $teamsTeamId
+	Write-Host "Failed AAD users:"
+	write $userSyncResult.FailedAadUser
+	Write-Host "Failed WFM users:"
+	write $userSyncResult.FailedWfmUser
+}
+```
 
 ## Change connection settings
 
@@ -150,67 +213,6 @@ New-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $InstanceId -TeamId $Tea
 Write-Host "Success"
 ```
 
-## View connection health
-
-Use this script to view connection health, including any errors that may have occurred.
-
-[Set up your environment](#set-up-your-environment) (if you haven't already), and then run the following script.
-
-## View connection settings
-
-Use this script to view connection settings, including connection status, team mappings, and failed user mappings.
-
-[Set up your environment](#set-up-your-environment) (if you haven't already), and then run the following script.
-
-``` powershell
-#View sync errors script 
-Write-Host "View sync errors work flow"
-Start-Sleep 1
-
-#Ensure Teams module is of version x 
-Write-Host "Checking Teams module version"
-try {
-	Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 2.3
-} catch {
-	throw
-}
-
-#Authenticate with powershell as to the authorization capabilities of the caller. 
-#Connect to Teams
-Write-Host "Connecting to Teams"
-Connect-MicrosoftTeams
-Write-Host "Connected"
-
-#List connection instances available 
-Write-Host "Listing connection instances"
-$InstanceList = Get-CsTeamsShiftsConnectionInstance
-write $InstanceList
-
-#Get an instance
-if ($InstanceList.Count -gt 0){
-	$InstanceId = Read-Host -Prompt 'Input the instance ID that you want to retrieve user sync results from'
-}
-else {
-	throw "Instance list is empty"
-}
-
-#Get a list of the mappings
-Write-Host "Listing team mappings"
-$mappings = Get-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $InstanceId
-write $mappings
-
-#For each mapping, retrieve the failed mappings
-ForEach ($mapping in $mappings){
-	$teamsTeamId = $mapping.TeamId
-	$wfmTeamId = $mapping.WfmTeamId
-	Write-Host "Failed mapped users in the mapping of ${teamsTeamId} and ${wfmTeamId}:"
-	$userSyncResult = Get-CsTeamsShiftsConnectionSyncResult -ConnectorInstanceId $InstanceId -TeamId $teamsTeamId
-	Write-Host "Failed AAD users:"
-	write $userSyncResult.FailedAadUser
-	Write-Host "Failed WFM users:"
-	write $userSyncResult.FailedWfmUser
-}
-```
 
 ## Disable a connection
 
@@ -275,12 +277,13 @@ if ($UpdatedInstance.Id -ne $null) {
 }
 else {
 	throw "Update instance failed"
-}
+}nector cmdlets
+
 ```
 
-## Shifts connector cmdlets
+## Shifts cmdlets
 
-For help with Shifts connector cmdlets, including the cmdlets used in the scripts, see:
+For help with Shifts connector cmdlets, search for **CsTeamsShiftsConnection** in the [Teams PowerShell cmdlet reference](/powershell/teams/intro?view=teams-ps). Here are links to some of the most commonly-used cmdlets.
 
 - [New-CsTeamsShiftsConnectionInstance](/powershell/module/teams/new-csteamsshiftsconnectioninstance?view=teams-ps)
 - [Get-CsTeamsShiftsConnectionInstance](/powershell/module/teams/get-csteamsshiftsconnectioninstance?view=teams-ps)
@@ -301,4 +304,3 @@ For help with Shifts connector cmdlets, including the cmdlets used in the script
 - [Shifts connectors](shifts-connectors.md)
 - [Manage the Shifts app](manage-the-shifts-app-for-your-organization-in-teams.md)
 - [Teams PowerShell overview](../../teams-powershell-overview.md)
-- [Teams PowerShell cmdlet reference](/powershell/teams/intro?view=teams-ps)

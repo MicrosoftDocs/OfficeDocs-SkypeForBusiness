@@ -363,7 +363,7 @@ Disconnect-MicrosoftTeams
 
 ## Shifts connector cmdlets
 
-For help with Shifts connector cmdlets, including the cmdlets used in the scripts, see:
+For help with Shifts connector cmdlets, including the cmdlets used in the scripts, search for **CsTeamsShiftsConnection** in the [Teams PowerShell cmdlet reference](/powershell/teams/intro?view=teams-ps). Here are links to some of the most commonly-used cmdlets.
 
 - [New-CsTeamsShiftsConnectionInstance](/powershell/module/teams/new-csteamsshiftsconnectioninstance?view=teams-ps)
 - [Get-CsTeamsShiftsConnectionInstance](/powershell/module/teams/get-csteamsshiftsconnectioninstance?view=teams-ps)
