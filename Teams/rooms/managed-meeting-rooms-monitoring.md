@@ -43,7 +43,7 @@ The scope of the monitoring is
 - Basic history and details for every device 
 
 > [!Important]
-> Review [**Assign users to the Managed Service Administrator role**](enrolling-mtrp-managed-service.md/#assign-users-to-the-managed-service-administrator-role) and make sure that access to the portal is limited based on your business needs. 
+> Review [**Assign users to the Managed Service Administrator role**](enrolling-mtrp-managed-service/#assign-users-to-the-managed-service-administrator-role) and make sure that access to the portal is limited based on your business needs. 
 
 
 

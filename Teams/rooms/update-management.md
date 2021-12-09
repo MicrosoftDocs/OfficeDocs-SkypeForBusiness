@@ -109,7 +109,7 @@ To view updates, login to the Managed Services portal and navigate to the Update
 
 
 
-![alt text1](../media/update-management.001.jpg) 
+![alt text1](../media/update-management-001.jpg) 
 
 
 
@@ -152,7 +152,7 @@ The Rooms tab shows all the rooms in your tenant and to which ring they belong.
 
 
 
-![alt text2](../media/update-management.002.jpg) 
+![alt text2](../media/update-management-002.jpg) 
 
 
 
