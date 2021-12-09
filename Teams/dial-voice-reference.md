@@ -46,7 +46,7 @@ There is no limit on the number of Active Directory users Dial by Name and Dial 
 |Speech (voice input) |FirstName  <br/> LastName  <br/> FirstName + LastName  <br/> LastName + FirstName  | 80,000 users |
 
 > [!NOTE]
-> If you are using Dial by Name with speech recognition, but your organization's Active Directory is larger than 80,000 users and you haven't limited the scope of Dial by Name using [Dial Scope](phone-system-auto-attendant.md#dial-scope) feature, Dial by Name will still work for your callers using a phone keypad, and voice inputs will be available for all other scenarios. You can use the Dial Scope feature to narrow down the names that are reachable by changing the scope of Dial by Name for a particular auto attendant.
+> If you are using Dial by Name with speech recognition, but your organization's Active Directory is larger than 80,000 users and you haven't limited the scope of Dial by Name using [Dial Scope](create-a-phone-system-auto-attendant.md#dial-scope) feature, Dial by Name will still work for your callers using a phone keypad, and voice inputs will be available for all other scenarios. You can use the Dial Scope feature to narrow down the names that are reachable by changing the scope of Dial by Name for a particular auto attendant.
  
 ### Search Considerations 
 Dial by Name searches the organization's directory and then filters the results against any Dial Scope Include/Exclude lists that have been configured. If the initial search returns more than 100 users, the Dial Scope lists will not be applied, the search will fail, and the caller will be told that too many names were found.
