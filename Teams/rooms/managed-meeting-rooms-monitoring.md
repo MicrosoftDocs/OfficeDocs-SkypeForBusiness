@@ -21,7 +21,7 @@ f1keywords:
 
 
 
-# Microsoft mManaged Meeting Rooms Portal 
+# Microsoft Managed Meeting Rooms Portal 
 
 ## Overview 
 The Managed Meeting Rooms Portal (“Rooms Portal”) provides a view of the health of your meeting rooms. A customer view of this portal is for your visibility and feedback, and to facilitate your existing monitoring tools/practices. 
@@ -74,7 +74,7 @@ This view is an overview of the Incidents tab in your Managed Rooms Portal. This
 The top-level summary shows at a glance the issues affecting your rooms, what you need to do, and what Microsoft is doing about them: 
 
 
-![Figure 1](media/rooms-monitoring-001new.png) 
+![Figure 1](../media/rooms-monitoring-001new.png) 
 
 
 
@@ -99,11 +99,11 @@ Incidents are expected to be in one of three states:
 ### Reviewing incidents 
 The following image lists all the incidents that are currently active in your rooms. The ones that are assigned to you *are on the top* – these are what you need to look at for next steps. In addition, the ones assigned to Microsoft or pending investigation have details that you can use to intervene. 
 
-![Figure 2](media/rooms-monitoring-001.jpg) 
+![Figure 2](../media/rooms-monitoring-001.jpg) 
 
 Clicking  any of items that have status “**Needs action**” shows additional details about the incident. 
 
-![Figure 3](media/rooms-monitoring-003.jpg) 
+![Figure 3](../media/rooms-monitoring-003.jpg) 
 ## Types of Incidents 
 Incidents are classified into two broad severity buckets: 
 
@@ -118,7 +118,7 @@ Incidents that are classified as **“Important”** in severity will affect the
 
 Incidents classified as **“Warning”** severity do not affect the health status reported on a device. However, if a device has warning level incidents associated with it, then it would be shown with the health status of the device as follows. 
 
-![Figure 4](media/rooms-monitoring-004.jpg) 
+![Figure 4](../media/rooms-monitoring-004.jpg) 
 
 Following are some of the types of incidents that you might see and the explanations for each type. For each type, the action associated with the incident will be more specific depending on the issue. 
 
@@ -154,7 +154,7 @@ Incidents that have status set to **“Needs Action”** are assigned to you to 
 
 Each such incident will have an action field with a recommended action from Microsoft as follows: 
 
-![Figure 5](media/rooms-monitoring-005.jpg)
+![Figure 5](../media/rooms-monitoring-005.jpg)
 
 
 
@@ -176,11 +176,11 @@ For the incidents under investigation, the description field holds information a
 ### “Assigned to Microsoft” incidents 
 For the incidents assigned to Microsoft, the “Action” field will contain brief details about corrective steps either planned or progressed. These steps might need collaboration with your team and extended collaboration will be done through email/calls as needed. Once these issues are resolved, they will disappear from the portal and in future, there will be history to track such incidents and their resolution. 
 
-![Figure 6](media/rooms-monitoring-006.jpg) 
+![Figure 6](../media/rooms-monitoring-006.jpg) 
 ## Rooms View 
 Each device is a proxy for a room and its connected peripherals. A healthy device represents a healthy room and an unhealthy device represents a room likely causing problems during meetings. In addition to the Incidents view, Managed Rooms Portal also provides a room health overview, and helps you to troubleshoot device details, and to understand repeated failures with incident history. 
 
-![Figure 7](media/rooms-monitoring-007.jpg) 
+![Figure 7](../media/rooms-monitoring-007.jpg) 
 
 **Healthy, Unhealthy, Disconnected** 
 The top panel on the Rooms view provides a quick snapshot of how many of your devices are in a good state(“Healthy”), how many are affected by issues(“Unhealthy”), how many are not providing telemetry (“Disconnected”), and how many devices are suppressed from alerting (as an override). Rooms are monitored for health using an evolving criteria and heuristics. The goal is to reflect the reality of the user experience in the room as accurately as possible and make it actionable. 
@@ -205,18 +205,18 @@ The device *Status* tab provides a consolidated view of status of a device, all 
 
 
 
-![Figure 8](media/rooms-monitoring-008.png)
+![Figure 8](../media/rooms-monitoring-008.png)
 
 
 **Show all signals:**
 To view all signals contained within a signal category, enable the Show all signals toggle button. Expansion arrows will appear next to category headings which can be clicked on to expand the accordion view.
 
-![Figure 9](media/rooms-monitoring-009.png)
+![Figure 9](../media/rooms-monitoring-009.png)
 
 **Suppress/Unsuppress Ticket** 
 When a room is enrolled, you are indicating that you want to receive notifications for changes in room telemetry. There are occasions when a particular device or peripheral is in a known state where you do not want tickets or notifications generated. Using the Suppress ticket functionality, will silence any notification about that particular signal. When you are ready for the service to monitor and notify you about that signal, simply unsuppress the individual signal.
 
-![Figure 10](media/rooms-monitoring-010.png)
+![Figure 10](../media/rooms-monitoring-010.png)
 
 
 **Active Ticket Category Expansion** 
@@ -225,31 +225,31 @@ Under each ticket category, any active or latest resolved ticket will be display
 Active Ticket Category Expansion: 
 Under each ticket category, any active or latest resolved ticket will be displayed along with the severity and when the ticket was last updated. By clicking on the expansion arrow, all tickets will appear with an active link to the ticket information.
 
-![Figure 11](media/rooms-monitoring-011.png)
+![Figure 11](../media/rooms-monitoring-011.png)
 
 ## Active Ticket: Overview
 Each incident that is created identifies the issue that has been detected and the corrective action that needs to be taken to restore the room to a healthy state. The ticket generated will convey incident overview with any messages generated by the managed services AI as well as the Microsoft service engineering team investigating the issue. All attachments that have been collected for incident troubleshooting will be listed. The history tab provides the dates that issues have been identified.
 
-![Figure 12](media/rooms-monitoring-012.png) 
+![Figure 12](../media/rooms-monitoring-012.png) 
 
 Active Ticket: Messages 
 The messages UI is the primary communication tool to interact with Microsoft service engineers working to remediate the issue identified. It is important to acknowledge communications from Microsoft to ensure that we are providing you with the best possible service. If you have taken the actions recommended, respond to this incident with your notes in the Respond box and assign back to Microsoft by clicking on “Assign to Microsoft” before posting.
 It is also possible that the notification is incorrect based on your review. In that case, please provide that feedback and assign back to Microsoft. 
  Finally, if you want to add a comment to provide additional context for your own team or for Microsoft team, simply post the message without turning on “Assign to Microsoft
 
-![Figure 13](media/rooms-monitoring-013.png) 
+![Figure 13](../media/rooms-monitoring-013.png) 
 
  
 Active Ticket: Attachments
 There are occasions where Microsoft service engineers need additional information to augment their investigation of the issue. The attachment tab provides you with the ability to upload pictures, videos or logs that are requested.
 
-![Figure 14](media/rooms-monitoring-014.png) 
+![Figure 14](../media/rooms-monitoring-014.png) 
 
  
 Active Ticket: History
 Each room signal has only one ticket number that is assigned to it on purpose. A room device or peripheral persists in a room and may have issues over time. By maintaining this information under a specific unique ticket id, all historic information is maintained and can be analyzed for patterns of behavior. The History UI provides a view of all tickets actions created and resolved for this signal.
 
-![Figure 15](media/rooms-monitoring-015.png) 
+![Figure 15](../media/rooms-monitoring-015.png) 
  
 
 FAQ 

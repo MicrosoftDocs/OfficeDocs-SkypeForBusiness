@@ -31,7 +31,7 @@ Some configuration/installation procedures require you to log in to the device a
 To log in to the device as Administrator (local administrator): 
 
 1. Ensure you hang up any ongoing calls and return to the home screen. 
-1. In the Microsoft Teams Room user interface, select  **More** <insert icon here> then select **Settings** <insert icon here> where you'll be prompted for the local Administrator password on the device (the default password is ***sfb***). 
+1. In the Microsoft Teams Room user interface, select  **More**,  then select **Settings**, where you're prompted for the local Administrator password on the device (the default password is ***sfb***). 
  
 
 1. Select **Settings**, then select  **Windows Settings**  to access Windows as local administrator.  
@@ -82,7 +82,7 @@ If TPM on an Intel NUC device is disabled, enable TPM on these devices as follow
 
 ## URLs Required for Communication  
 > [!NOTE]
-> All network traffic between the MTR devices agent and the Microsoft Teams Rooms – Managed Services service portal is SSL over port 443*.*  See [Office 365 URLs and IP address ranges - Microsoft 365 Enterprise | Microsoft Docs](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide).
+> All network traffic between the MTR devices agent and the Microsoft Teams Rooms – Managed Services service portal is SSL over port 443*.*  See [Office 365 URLs and IP address ranges - Microsoft 365 Enterprise | Microsoft Docs](microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true).
 
 
 
@@ -113,7 +113,7 @@ The Enrollment process involves a few steps:
 1. Install the agent installer (downloaded in step 2) on MTR units, either by running the MSI locally on an MTR device or via your normal means of publishing MSI applications en masse to devices within your environment (Group-Policy etc.)  
 1. The room appears in the portal within 5-10 minutes. If it does not, contact managedroomsupport@microsoft.com.  
 
-![Figure 5](media/software-installation.005.jpg) 
+![Figure 5](../(../media/software-installation.005.jpg) 
 
 
 ## Installation  
@@ -161,7 +161,7 @@ Choose the room and select **Enroll**  to start getting incident alerts, investi
 For any questions or issues, please open a customer reported incident in the portal or contact managedroomsupport@microsoft.com. 
 
 
-# Unenrolling and uninstalling  monitoring software  
+#3 Unenrolling and uninstalling  monitoring software  
 To unenroll the device, remove the monitoring agent from the MTR device as follows: 
 
 1. On the device being monitored, log in the device as administrator. Ensure the *Performing operations as the Admin user of the device* steps are followed. 

@@ -26,7 +26,7 @@ A modern meeting room is equipped with a Microsoft Teams Rooms device and other 
 Managed Services for Microsoft Teams Rooms provides the assurance that each room in your organization will be maintained at recommended levels to deliver a room that is always ready and works properly. Microsoft's goal is to reduce complexity and legwork for your operational staff with intelligence and automation. Troubleshooting or diagnostics is performed as quickly as possible. 
 
 
-## Transitioning A device To Managed Services 
+## Transitioning a device To Managed Services 
 Room devices onboarding to Managed Services usually have a change management history and practice that is different from our guidance.  
 
 - To truly benefit from Managed Services, you will need to transition **change management for all updates under Managed Services portfolio.**  
@@ -40,7 +40,7 @@ Room devices onboarding to Managed Services usually have a change management his
 ## Transitioning devices: Basic readiness checks 
 Most of the unexpected failures arise from changes in the base image with uncertain history of change management. 
 
-Following simple readiness checks is recommended:**  
+Following simple readiness checks is recommended:  
 
 - **Base Image: The base image must be from** the specific OEM. If the device has been rebuilt in the past and shows unexpected failures or behaviors on common tasks, the base image must be restored. We can provide assistance but cannot remotely rebuild the room device, so you will need a local site technician.  
 - **Base OS, Edition:** The base OS and edition must match the requirements of Microsoft Teams Rooms devices. If this is not so, it must be corrected as part of onboarding. Microsoft Teams Rooms requires the Windows 10 IoT Enterprise or Windows 10 Enterprise SKUs under Semi-Annual Channel servicing options. Consult the official [MTR guidance](rooms-lifecycle-support.md#windows-10-release-support) for more information.
@@ -63,24 +63,22 @@ There are a few pre-requisites for receiving managed services updates:
 
 
 ## Managed updates – How it works 
-There are two primary ways how updates are managed:**  
+There are two primary ways how updates are managed:  
 
 - **Automatically managed**: You get updates installed in your room device based on Managed Services assessment. No intervention is required by you for the updates managed in our portfolio. 
-- **Ring balidated**: You setup a ring system to preview updates on specific devices so that you can monitor them without having to do the associated leg work. Ring setup provides an additional layer of due diligence before broad rollouts.  
+- **Ring validated**: You set up a ring system to preview updates on specific devices so that you can monitor them without having to do the associated leg work. Ring setup provides an additional layer of due diligence before broad rollouts.  
 
-### Automatically managed 
+### Automatically managed
 
 If you choose to be automatically managed, then no action is needed for the updates on your part. However, you should review the current portfolio of updates supported by Managed Services. The portfolio is constantly getting new additions, and it is our priority to cover the most frequent and impactful updates to ensure your room stability. Check the current list (under the “Update Management” section of this doc) to plan any additional change management needed for your organization.  
 
-**Recommendation:** We recommend that you do not install updates that are covered by Managed Services on any managed device on your own. If you encounter any issues, please report an incident in the portal, and we will be in touch. 
+**Recommendation:** We recommend that you do not install updates that are covered by Managed Services on any managed device on your own. If you encounter any issues, please report an incident in the portal.
 
-### Ring validation 
+### Ring validation
 
-When choosing to do ring validation, you should review the details below on how rings work in Managed 
+When choosing ring validation, review the following sections on how rings work in Managed Services and the options available to customize it for your organization. Even with ring validation, Managed Services attempts to ensure that rooms are not past due on recommended updates. Depending on the situation, a room might receive “catch up” updates to ensure it complies with managed service recommendations.  
 
-Services and the options available to customize it for your organization. Even with ring validation, Managed Services will attempt to ensure that rooms are not past due on recommended updates. Depending on the situation, a room might receive “catch up” updates to ensure it complies with managed service recommendations.  
-
-As new types of software and firmware become available in the portfolio, there will be announcements on the portal home page and within the Managed Services documentation. Since Managed Services experts are reviewing update versions daily across our portfolio of devices, they address specific issues and target updates based on need.  
+ Check for announcements on the portal home page and within the Managed Services documentation as new types of software and firmware become available in the portfolio. Because Managed Services experts are reviewing update versions daily across our portfolio of devices, they address specific issues and target updates based on need.  
 
 
 ### Scheduling 
@@ -111,7 +109,7 @@ To view updates, login to the Managed Services portal and navigate to the Update
 
 
 
-![alt text1](media/update-management.001.jpg) 
+![alt text1](../media/update-management.001.jpg) 
 
 
 
@@ -154,7 +152,7 @@ The Rooms tab shows all the rooms in your tenant and to which ring they belong.
 
 
 
-![alt text2](media/update-management.002.jpg) 
+![alt text2](../media/update-management.002.jpg) 
 
 
 
