@@ -222,6 +222,7 @@ The following are the latest Microsoft Teams Displays app and firmware versions.
 
 |Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|2021 Update #3  |December 8, 2021 |`1449/1.0.95.2021111203`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)`|
 |2021 Update #2  |June 9, 2021 |`1449/1.0.95.2021042103`    |`5.0.5088.0`            |  `1.0.0.202103160138.product (256)`|
 |2021 Update #1  |March 18, 2021 |`1449/1.0.95.2021021104`    |`5.0.5045.0`            | `1.0.0.202101280722.product (253)`|
 
@@ -232,6 +233,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Lenovo ThinkSmart View| `CD-18781Y.211116.114` |2021 Update#3  |
 |Lenovo ThinkSmart View| `CD-18781Y.210507.111` |2021 Update #2 |
 |Lenovo ThinkSmart View| `CD-18781Y.210228.109` |2021 Update #1 |
 
