@@ -39,6 +39,8 @@ description: Read frequently asked questions (FAQ) and answers about Microsoft T
 
 [Why do Wi-Fi VPN connections show as Wired instead of Wi-Fi?](#why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi)
 
+[I turned on Policy-based Recording in Teams and now Peer-to-Peer calls are being marked as Conferences -- what happened?](#i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened)
+
 ### Why does CQD mark a call as "Good" if one or more meeting participants had a poor experience?
 
 Check out the rules CQD uses for [stream classification](stream-classification-in-call-quality-dashboard.md).
@@ -87,17 +89,21 @@ CQDv2 and CQDv3 will always have different total counts since CQDv3 will have ne
 
 Depending on Customers’ scenario, CQDv3 will include SFB 2019 on-premises calls (if SFB 2019 is used with a data connector), Skype Bot calls (AA, CVI, VDI), Live Events, and PSTN calls. Scenarios/Features that are available for the customers, but their data are not in CQD V2.
 
-For instance, it is expected that your customers and you will see 200,000 audio streams, with 5000 failures in CQD V2 Summary Report, versus 300,000 audio streams with 5500 failures (coming from 2019 on-prem calls, CVI calls, PSTN calls, and so on) in CQD V3.
+For instance, it's expected that your customers and you will see 200,000 audio streams, with 5000 failures in CQD V2 Summary Report, versus 300,000 audio streams with 5500 failures (coming from 2019 on-prem calls, CVI calls, PSTN calls, and so on) in CQD V3.
 
 In order to determine, if there are any unexpected differences, you must look at various breakdowns of the overall data.  Compare with intent.  Slicing the data by User Agent Category Pair is one of the first things we recommend.  *First Product* and *Second Product* are also good slicers.  
 
 ### Why do my custom reports only return a maximum of 10,000 rows when I know there should be more entries?
 
-CQD is designed for summarized data queries, and is not designed for data export. We recommend restructuring your reports, where possible, to prevent the 10,000 row limit from being exceeded. Start by looking at your KPIs using broader, lower-cardinality dimensions, such as Month, Year, Date, Region, Country, etc. From there, you can drill down into increasingly higher-cardinality dimensions. The Helpdesk and Location-Enhanced Reports both provide good examples of this drill down workflow.
+CQD is designed for summarized data queries, and isn't designed for data export. We recommend restructuring your reports, where possible, to prevent the 10,000 row limit from being exceeded. Start by looking at your KPIs using broader, lower-cardinality dimensions, such as Month, Year, Date, Region, Country, and so on. From there, you can drill down into increasingly higher-cardinality dimensions. The Helpdesk and Location-Enhanced Reports both provide good examples of this drill down workflow.
 
 ### Why do Wi-Fi VPN connections show as Wired instead of Wi-Fi?
 
-This is expected. The VPN vendor created a virtual ethernet adapter that is treated like a wired connection. Since it's not properly labeled, the operating system doesn't know it's a WiFi connection and reports it as wired.
+This is expected behavior. The VPN vendor created a virtual ethernet adapter that is treated like a wired connection. Since it's not properly labeled, the operating system doesn't know it's a Wi-Fi connection and reports it as wired.
+
+### I turned on Policy-based Recording in Teams and now Peer-to-Peer calls are being marked as Conferences -- what happened?
+
+This is expected behavior when Policy-based Recording is enabled in Microsoft Teams. Policy-based Recording uses a Teams Recorder Bot deployed in Microsoft Azure to capture meeting contents for compliance purposes. Because a Recorder Bot is itself a party to the call, the call is no longer peer-to-peer, but a multi-party call. Multi-party calls are classified as Conferences by Microsoft Teams, and so they'll be indicated as such when you view these calls in CQD and other call quality tools.
 
 ## Related articles
 
