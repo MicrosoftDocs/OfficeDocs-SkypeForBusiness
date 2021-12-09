@@ -80,7 +80,7 @@ The following clients are currently supported.  Check back often to see updates 
 - Teams Rooms version 4.4.25.0 and greater
 
 > [!NOTE]
-> Subnet and WiFi-based locations are supported on all supported Teams clients. <br>
+> Subnet and WiFi-based locations are supported on all supported Teams clients. <br><br>
 > Ethernet/Switch (LLDP) is supported on:
 > - Windows versions 8.1 and later at this time.<br>
 > - Mac OS, which requires [LLDP enablement software](https://www.microsoft.com/download/details.aspx?id=103383).<br>
