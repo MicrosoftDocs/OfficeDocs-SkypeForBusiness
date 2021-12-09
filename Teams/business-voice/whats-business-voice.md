@@ -44,13 +44,13 @@ This article covers the Teams Phone with Calling Plan bundle for small and mediu
 
 ## Guidance articles for small and medium businesses
 
-These articles will help your business plan, set up, and manage your Teams Phone with Calling Plan telephony solution.
+These articles will help your business plan, set up, and manage your Teams Phone with Calling Plan bundle telephony solution.
 
 | Article | Description |
 |---------|-------------|
-| [Check country and region availability](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) | See which Teams Phone features are available in your country and region |
+| [Check country and region availability](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) | See which Teams Phone features and Calling Plans are available in your country and region |
 | [Check your internet connection](/business-voice/get-ready-internet.md) | Determine if your internet connection is sufficient for Teams Phone with Calling Plan |
-| [Get help from a reseller or partner](/business-voice/reseller-partner-support.md) | See how a Microsoft reseller or partner can help you find the right voice solution if Teams Phone with Calling Plan is not available in your region |
+| [Get help from a reseller or partner](/business-voice/reseller-partner-support.md) | See how a Microsoft reseller or partner can help you find the right voice solution if the Teams Phone with Calling Plan is not available in your region |
 | [Set up Teams Phone with Calling Plan for small and medium businesses](/business-voice/set-up-overview.md) | Follow this step-by-step guide for a basic set up of Teams Phone with Calling Plan |
 | [Customize your Teams Phone setup for small and medium businesses](/business-voice/customize-business-voice.md) | Learn how to customize Teams Phone with Calling Plan for your unique needs |
 | [Manage your Teams Phone setup for small and medium businesses](/business-voice/create-users.md) | Learn how to manage Teams Phone with Calling Plan users, devices, and call quality |
@@ -70,40 +70,38 @@ To see whether your country or region supports the Teams Phone with Calling Plan
 
 To make or receive phone calls to or from external phone numbers, users need PBX features and PSTN connectivity. For small and medium businesses, we recommend the Teams Phone with Calling Plan bundle because it provides PBX features and PSTN connectivity to users assigned a license.
 
-The Teams Phone with Calling Plan bundle is not available in all regions, so [check your area's availability for Teams Phone with Calling Plan](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
-
 Users who don't need to make or receive phone calls to or from external phone numbers just need Teams. They don't need a Teams Phone with Calling Plan license.
 
-For example, you might have ten factory employees and five office employees. The factory employees may only need to call other employees within your company. In addition to calling other employees, office workers need to make and receive phone calls to and from suppliers, partners, and customers. In this case, only the five office workers need a Teams Phone with Calling Plan license.
+For example, you might have ten factory employees and five office employees. The factory employees may only need to call other employees within your company. In addition to calling other employees, office workers need to make and receive phone calls to and from suppliers, partners, and customers. In this case, only the five office workers need a Teams Phone with Calling Plan bundle license.
 
 ### Teams Phone with Calling Plan bundle
 
 The Teams Phone with Calling Plan bundle includes a Domestic Calling Plan, which gives you some minutes per month to make calls within your country or region. You can also purchase an extra International Calling Plan if you want to make calls to other countries or regions. Use *Communications Credits* to pay per minute for an International call, extra minutes per month for a Domestic Calling Plan, and toll-free numbers. You'll learn more about [Calling Plans and Communications Credits](#communications-credits) later in this article.
 
-To buy Teams Phone with Calling Plan licenses, sign in to the [admin center](https://admin.microsoft.com/Adminportal/Home#/homepage), and then go to **Billing** > **Purchase services**.
+To buy Teams Phone with Calling Plan bundle licenses, sign in to the [admin center](https://admin.microsoft.com/Adminportal/Home#/homepage), and then go to **Billing** > **Purchase services**.
 
 #### Types of Microsoft Calling Plans
 
-Calling Plans let your users call phone numbers that are outside your organization. Calling Plans include a monthly pool of minutes that's based on the number of assigned Teams Phone licenses in each country or region. When a user makes a phone call, the number of minutes used for that call is deducted from the monthly pool. At the beginning of each month, the balance of minutes in the pool is reset.
+Calling Plans let your users call phone numbers that are outside your organization. Calling Plans include a monthly pool of minutes that's based on the number of assigned Teams Phone with Calling Plan bundle licenses in each country or region. When a user makes a phone call, the number of minutes used for that call is deducted from the monthly pool. At the beginning of each month, the balance of minutes in the pool is reset.
 
 Calling Plan pools are specific to the country or region in which the users are located and the type of calling plan (domestic or international). Users in a country or region can only use minutes from the Calling Plan pool in their country or region. Minutes in a Calling Plan pool in one country or region can't be transferred to a pool in another country or region.
 
 What happens when all the minutes in a Calling Plan pool are used up depends on if you have Communications Credits available or not. If you have Communications Credits available, Teams Phone will start using them. If you don't have Credits available, users won't be able to make phone calls outside your organization until the Calling Plan pool is reset at the beginning of the next month. For more information on Communication Credits, read the [Communication Credits](#communications-credits) section in this article.
 
 >[!Important]
-> The number of minutes in a pool depends on the country or region and the number of Teams Phone licenses that are assigned to your users, not the number of Teams Phone licenses that you purchased. For example, if you purchased 10 Teams Phone licenses in Canada but are only using three licenses, you'll have a total of 9,000 minutes in your pool (3 licenses multiplied by 3,000 minutes per user).
+> The number of minutes in a pool depends on the country or region and the number of Teams Phone with Calling Plan bundle licenses that are assigned to your users, not the number of licenses that you purchased. For example, if you purchased 10 Teams Phone licenses in Canada but are only using three licenses, you'll have a total of 9,000 minutes in your pool (3 licenses multiplied by 3,000 minutes per user).
 
 There are two types of Calling Plans:
 
 - **Domestic Calling Plan**
 
-    The Domestic Calling Plan lets users call phone numbers in their country or region. The Teams Phone with Calling Plan bundle includes a Domestic Calling Plan for each user who's assigned a Teams Phone license. The number of minutes available for each user each month depends on the country or region the user is located.
+    The Domestic Calling Plan lets users call phone numbers in their country or region. The Teams Phone with Calling Plan bundle includes a Domestic Calling Plan for each user who's assigned a license. The number of minutes available for each user each month depends on the country or region the user is located.
 
     Calls between the United States and Canada are considered domestic calls. You don't need to add the International Calling Plan to place calls between these two countries.
 
 - **International Calling Plan**
 
-    The International Calling Plan lets users call phone numbers outside their country or region. The International Calling Plan is purchased as an add-on for Teams Phone with Calling Plan.
+    The International Calling Plan lets users call phone numbers outside their country or region. The International Calling Plan is purchased as an add-on for Teams Phone with Calling Plan bundle.
 
     When you consider whether to buy the International Calling Plan for a user, determine how often they make international calls and how long the calls are. This information is important because when you purchase an International Calling Plan, you pay for a certain number of minutes up front. If a user doesn't use up all the minutes in a month, the remaining minutes are discarded at the beginning of the next month. If it's likely that a user won't use up all the minutes in the International Calling Plan, don't buy one. Instead use [Communications Credits](#communications-credits).
 

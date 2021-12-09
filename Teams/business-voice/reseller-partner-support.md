@@ -24,7 +24,7 @@ no-loc: [Microsoft 365, Microsoft 365 Business Voice, Business Voice, Teams, Mic
 
 To set up Teams Phone, you have the option to set it up yourself or to use a Microsoft partner or seller.
 
-Find a Microsoft reseller or partner, by visiting the [Connect with partners](https://appsource.microsoft.com/marketplace/partner-dir) page.
+You can find a Microsoft reseller or partner by visiting the [Connect with partners](https://appsource.microsoft.com/marketplace/partner-dir) page.
 
 A Microsoft partner or reseller can:
 
@@ -34,7 +34,7 @@ A Microsoft partner or reseller can:
 - Set up communication between your on-premises telephony hardware and Microsoft 365
 - Help you set up Teams Phone features like Call Queues, Auto Attendant, Voice Mail, and more
 
-When contacting a Microsoft partner or reseller about setting up Teams Phone without Calling Plan, you'll need to provide them with information such as:
+When contacting a Microsoft partner or reseller about setting up Teams Phone standalone (without Calling Plan), you'll need to provide them with information such as:
 
 - How many users, phones, and other devices, will need to make and receive calls to and from external phone numbers
 - Details about your existing phone system
