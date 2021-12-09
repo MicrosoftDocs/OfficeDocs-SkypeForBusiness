@@ -167,7 +167,7 @@ In the detailed room view, you will see the relevant updates and their status un
 
 
 
-![alt text3](media/update-management-003.jpg) 
+![alt text3](../media/update-management-003.jpg) 
 
 
 
