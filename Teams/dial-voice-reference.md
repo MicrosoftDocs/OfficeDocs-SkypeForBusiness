@@ -25,14 +25,16 @@ description: Learn about the Auto attendant and call queue dialing and voice rec
 ---
 # Auto attendant and call queue dialing and voice recognition reference
 
-Dial by Name is an auto attendant feature that enables people who call your organization to say or enter on their phone keybad the full or partial name, or extension, of the person they woud like to speak with.  The auto attendant will search the company directory, locate the person, and then transfer to the call to them.  Dial by Name is one of the options set up when you [configure the call flow settings in an auto attendant](create-a-phone-system-auto-attendant.md#call-flow).
+Dial by Name or Extension is an auto attendant feature that enables callers to reach Teams users in your organization. Using their voice or phone keypad callers can say or enter the full or partial name, or extension of the person they would like to reach. The auto attendant will search the company directory, locate the person, and then transfer the caller to them.  Dial by Name is one of the options set up when you [configure the call flow settings in an auto attendant](create-a-phone-system-auto-attendant.md#call-flow).
 
 
 ## Searching for users
 
-Users you wish to have located and reached using Dial by Name **aren't required to have a phone number or have Calling Plans assigned to them, but they must be Enterprise Voice enabled for Skype for Business Server users**. Dial by Name will even be able to find and transfer calls to Microsoft Teams users who are hosted in different countries or regions for multi-national organizations. Given the prerequisites involved, you explicitly enable Dial by Name in an auto attendant.
+Teams users who can be reached by using Dial by Name **aren't required to have a phone number or have Calling Plans assigned to them, but they must be Enterprise Voice enabled for Skype for Business Server users**. For multi-national organizations, Dial by Name will find and transfer callers to Microsoft Teams users who are in different countries or regions.
 
-Dial by extension is a feature of an auto attendant that is also part of directory search. It enables the people who call your auto attendant to use voice (speech recognition) or their phone keypad (DTMF) responses to enter the phone extension of the user they're trying to reach, and then have the call transferred to them. Users you wish to have located and reached using Dial by extension  **aren't required to have a phone number or have Calling Plans assigned to them, but they must be Enterprise Voice enabled for Skype for Business Server users**. You will also need to have an appropriately configured dial plan for your users. Dial by extension  will even be able to find and transfer calls to Microsoft Teams users who are hosted in different countries or regions for multi-national organizations. Given the prerequisites involved, you explicitly enable Dial by extension in an auto attendant.
+Teams users who can be reached by using Dial by Extension **aren't required to have a phone number or have Calling Plans assigned to them, but they must be Enterprise Voice enabled for Skype for Business Server users**. You will also need to have an appropriately configured dial plan for your users. For multi-national organizations, Dial by Extension will find and transfer callers to Microsoft Teams users who are in different countries or regions. 
+
+Given the prerequisites involved, Dial by Name or Extension must be explicitly enabled when configuring an auto attendant.
 
 ### Maximum directory size
 
@@ -47,7 +49,7 @@ There is no limit on the number of Active Directory users Dial by Name and Dial 
 > If you are using Dial by Name with speech recognition, but your organization's Active Directory is larger than 80,000 users and you haven't limited the scope of Dial by Name using [Dial Scope](phone-system-auto-attendant.md#dial-scope) feature, Dial by Name will still work for your callers using a phone keypad, and voice inputs will be available for all other scenarios. You can use the Dial Scope feature to narrow down the names that are reachable by changing the scope of Dial by Name for a particular auto attendant.
  
 ### Search Considerations 
-Dial by Name searches the organization's directory and then filters the results against any Dial Scope Include/Exclude lists that have been configured. If the initial search returns more than 100 users, the Dial Scope lists will not be applied, the search will fail and the caller will be told that too many names were found.
+Dial by Name searches the organization's directory and then filters the results against any Dial Scope Include/Exclude lists that have been configured. If the initial search returns more than 100 users, the Dial Scope lists will not be applied, the search will fail, and the caller will be told that too many names were found.
  
  
 ## Dial by Name - Keypad (DTMF) entry
