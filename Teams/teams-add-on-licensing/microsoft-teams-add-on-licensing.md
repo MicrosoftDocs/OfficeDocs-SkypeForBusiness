@@ -60,7 +60,7 @@ If you're a small or medium-sized business (less than 300 users), you have four 
 - Buy an Enterprise E1 or E3 plan and Microsoft 365 Teams Phone with Calling Plan bundle.
 - Buy an Enterprise E1 or E3 plan and add voice features individually.
 - Buy an Enterprise E5 plan, which includes voice features.
-    - The Microsoft 365 Enterprise E5 plan includes Teams Phone, but organizations will still need to choose a [PSTN connectivity option](/microsoftteams/pstn-connectivity.md).
+  - The Microsoft 365 Enterprise E5 plan includes Teams Phone, but organizations will still need to choose a [PSTN connectivity option](/microsoftteams/pstn-connectivity.md).
 
 For Microsoft 365 Teams Phone, you have two options to choose from:
 
@@ -88,27 +88,25 @@ Here's a summary based on licensing plan.
 <td colspan="3"><strong>Voice calling and conferencing options</strong></td>
 <td></td>
 <td></td>
-<td></td>
-<td></td>
 </tr>
 <tr class="even">
 <td>Microsoft 365 Business Basic<br/>
 Microsoft 365 Business Standard<br/>
 Microsoft 365 Business Premium<br/>
 Microsoft Teams Essentials (AAD Identity)</td>
-<td>Microsoft Teams Phone with Calling Plan bundle<br/> <br/>International Calling Plan <br/> <br/>Optional: Communication Credits </td>
+<td>Microsoft Teams Phone with Calling Plan bundle<br/> <br/>International Calling Plan (optional) <br/> <br/>Communication Credits (optional) </td>
 <td>Or</td>
-<td>Phone System<br/> <br/>Domestic Calling Plan or Domestic and International Calling Plan<br/> <br/>Communication Credits</td>
+<td>Phone System<br/> <br/>Domestic Calling Plan or Domestic and International Calling Plan<br/> <br/>Communication Credits (optional)</td>
 </tr>
 <tr class="odd">
 <td>Microsoft 365 Enterprise E1/E3<br/>Office 365 Enterprise E1/E3<br/>Microsoft 365 F3<br/>Office 365 F3<br/>Microsoft 365 F1</td>
-<td>Microsoft Teams Phone with Calling Plan bundle<br/> <br/>International Calling Plan <br/> <br/>Optional: Communication Credits</td>
+<td>Microsoft Teams Phone with Calling Plan bundle<br/> <br/>International Calling Plan (optional) <br/> <br/>Communication Credits (optional)</td>
 <td>Or</td>
-<td>Phone System<br/> <br/>Domestic Calling Plan or Domestic and International Calling Plan<br/> <br/>Optional: Communication Credits</td>
+<td>Phone System<br/> <br/>Domestic Calling Plan or Domestic and International Calling Plan<br/> <br/>Communication Credits (optional)</td>
 </tr>
 <tr class="even">
 <td>Microsoft 365 Enterprise E5<br>Office 365 Enterprise E5</td>
-<td>Domestic Calling Plan<br/> <br/>Domestic and International Calling Plan<br/> <br/>Optional: Communication Credits</td>
+<td>Domestic Calling Plan or Domestic and International Calling Plan<br/> <br/>Communication Credits (optional)</td>
 <td></td>
 <td></td>
 <td></td>
@@ -147,15 +145,15 @@ Here's a summary, based on licensing plan.
 <td></td>
 </tr>
 <tr class="even">
-<td>Microsoft 365 Enterprise E1/E3<br/>Office 365 Enterprise E1/E3<br/>Microsoft 365 F3<br/>Office 365 F3<br/>Microsoft 365 F1<br/></td>
-<td>Teams Phone with Calling Plan bundle<br/> <br/> Audio Conferencing</td>
+<td>Microsoft 365 Enterprise E1/E3<br/>Office 365 Enterprise E1/E3<br/>Microsoft 365 F3<br/>Office 365 F3<br/>Microsoft 365 F1<br/></td>
+<td>Teams Phone with Calling Plan bundle<br/> <br/> International Calling Plan (optional) <br/> <br/> Communication Credits (optional) <br/> <br/> Audio Conferencing </td>
 <td>or</td>
-<td>Audio Conferencing <br/> <br/> Phone System <br/> <br/> Domestic Calling Plan or Domestic and International Calling Plan <br/> <br/> Communication Credits</td>
+<td>Audio Conferencing <br/> <br/> Phone System <br/> <br/> Domestic Calling Plan or Domestic and International Calling Plan <br/> <br/> Communication Credits (optional)</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td>Microsoft 365 Enterprise E5<br>Office 365 Enterprise E5</td>
-<td>Domestic Calling Plan or Domestic and International Calling Plan (optional)<br/> <br/>Communication Credits</td>
+<td>Domestic Calling Plan or Domestic and International Calling Plan<br/> <br/>Communication Credits (optional)</td>
 <td></td>
 </tr>
 </tbody>
@@ -396,7 +394,7 @@ Here's a summary of voice feature trial offers.
 - [Teams Exploratory experience](../teams-exploratory.md) - currently there are no trial offers for voice features for use with the Teams Exploratory experience.
 - [Microsoft Phone System - Virtual User](virtual-user.md) license
 
-* * *
+---
 
 ## Need help?
 
