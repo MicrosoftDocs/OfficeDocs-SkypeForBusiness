@@ -33,6 +33,8 @@ description: Read frequently asked questions (FAQ) and answers about Microsoft T
 
 [Why can't I see EUII in CQD?](#why-cant-i-see-euii-in-cqd)
 
+[I'm trying to use CQD for usage-type reports and find that some of the data is incomplete -- why is that?](#im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that)
+
 [Why am I seeing Skype for Business information in CQD when I've filtered for Teams only?](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
 
 [Why do my custom reports only return a maximum of 10,000 rows when I know there should be more entries?](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
@@ -81,17 +83,15 @@ These admin roles can access CQD, but they can't view EUII (end-user identifiabl
 
 To learn more about roles that can access CQD - including EUII - read [Assign roles for accessing CQD](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 
+### I'm trying to use CQD for usage-type reports and find that some of the data is incomplete -- why is that?
+
+CQD (and related call quality management tools like Call Analytics, CallRecord Graph API, Real-time Analytics) are based on diagnostic telemetry. The information shown in call quality management tools is only as complete as the telemetry data received from the clients participating in a call, and there are several reasons why we may not receive complete telemetry such as network outages, or [firewall or proxy misconfigurations](/microsoft-365/enterprise/urls-and-ip-address-ranges.md). We continue to work to improve the reliability with which Teams clients deliver telemetry to the service, however we recommend not relying on call quality management tools for usage reporting. Teams Admin Center offers a series of [Usage Reports](teams-analytics-and-reports/teams-reporting-reference.md), and a [Meeting Attendance Report](teams-analytics-and-reports/meeting-attendance-report.md) is available directly from the Teams client.
+
 ### Why am I seeing Skype for Business information in CQD when I've filtered for Teams only?
 
-When you filter for Teams only in CQD reports (isTeams = 1), you're filtering for all calls where the *first endpoint* is Teams. If the *second endpoint* is Skype for Business, that information will show up in your CQD report.
+When you filter for Teams only in CQD reports (isTeams = 1), you're filtering for all calls where the *first endpoint* is Teams. If the *second endpoint* is Skype for Business, that information will show up in your CQD report. Depending on customers’ scenarios, CQD will include Skype for Business Server 2019 calls (if SFB 2019 is used with a data connector), Skype Bot calls (AA, CVI, VDI), Live Events, and PSTN calls.
 
-CQDv2 and CQDv3 will always have different total counts since CQDv3 will have new scenarios that CQDv2 will not have. That’s why comparing Summary Total or Aggregated all-up numbers with no filters will have these expected differences.  
-
-Depending on Customers’ scenario, CQDv3 will include SFB 2019 on-premises calls (if SFB 2019 is used with a data connector), Skype Bot calls (AA, CVI, VDI), Live Events, and PSTN calls. Scenarios/Features that are available for the customers, but their data are not in CQD V2.
-
-For instance, it's expected that your customers and you will see 200,000 audio streams, with 5000 failures in CQD V2 Summary Report, versus 300,000 audio streams with 5500 failures (coming from 2019 on-prem calls, CVI calls, PSTN calls, and so on) in CQD V3.
-
-In order to determine, if there are any unexpected differences, you must look at various breakdowns of the overall data.  Compare with intent.  Slicing the data by User Agent Category Pair is one of the first things we recommend.  *First Product* and *Second Product* are also good slicers.  
+It's possible to remove Skype for Business information from your queries by filtering on dimensions such as *First User Agent Category* and *Second User Agent Category*. You can also use *User Agent Category Pair* which combines the First and Second dimensions into a single filter.
 
 ### Why do my custom reports only return a maximum of 10,000 rows when I know there should be more entries?
 
