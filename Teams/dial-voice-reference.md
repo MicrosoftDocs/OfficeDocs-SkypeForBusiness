@@ -35,7 +35,7 @@ Dial by extension is a feature of an auto attendant that is also part of directo
 
 ### Maximum directory size
 
-There is no limit on the number of Active Directory users  Dial by Name and Dial by Extension can support when a caller search for a specific person. A caller can enter partial or full names (FirstName + LastName, and also LastName + FirstName), but needs the full extension number. The maximum name list size that a single auto attendant can support using speech recognition is 80,000 users.
+There is no limit on the number of Active Directory users Dial by Name and Dial by Extension can support when a caller search for a specific person. A caller can enter partial or full names (FirstName + LastName, and also LastName + FirstName), but needs the full extension number. The maximum name list size that a single auto attendant can support using speech recognition is 80,000 users.
   
 |Input type|Search format|Maximum number of users in an organization|
 |:-----|:-----|:-----|
@@ -43,12 +43,19 @@ There is no limit on the number of Active Directory users  Dial by Name and Dial
 |Speech (voice input) |FirstName  <br/> LastName  <br/> FirstName + LastName  <br/> LastName + FirstName  | 80,000 users |
 
 > [!NOTE]
-> If you are using Dial by Name with speech recognition, but your organization's Active Directory is larger than 80,000 users and you haven't limited the scope of Dial by Name using Dial Scope feature, Dial by Name will still work for your callers using a phone keypad, and voice inputs will be available for all other scenarios. You can use the Dial Scope feature to narrow down the names that are reachable by changing the scope of Dial by Name for a particular auto attendant.
-  
+> If you are using Dial by Name with speech recognition, but your organization's Active Directory is larger than 80,000 users and you haven't limited the scope of Dial by Name using [Dial Scope](phone-system-auto-attendant.md#dial-scope) feature, Dial by Name will still work for your callers using a phone keypad, and voice inputs will be available for all other scenarios. You can use the Dial Scope feature to narrow down the names that are reachable by changing the scope of Dial by Name for a particular auto attendant.
+ 
+### Search Considerations 
+Dial by Name searches the organization's directory and then filters the results against any Dial Scope Include/Exclude lists that have been configured. If the initial search returns more than 100 users, the Dial Scope lists will not be applied, the search will fail and the caller will be told that too many names were found.
+ 
+ 
 ## Dial by Name - Keypad (DTMF) entry
 People calling in can use Dial by Name to reach users by specifying either the full or partial name of the person they are trying to reach. There are various formats that can be used when the name is entered.
 
 When searching your organization's directory, people can use the '0' (zero) key to indicate a space between the first name and last or last name and first. When they are entering the name, they will be asked to terminate their keypad entry with the # key. For example, "After you enter the name of the person you are trying to reach, press #." If there are multiple names that are found, the person calling will be given a list of names to select from.
+
+> [!NOTE]
+> If more than 5 names remain after any Dial Scope Include/Exclude lists have been applied, the search will fail and the caller will be told that too many names were found. 
   
 People can search for names in your organization using the following search formats on their phone keypad:
   
@@ -72,11 +79,14 @@ There are several special characters that are used when searching for people usi
 
 ### Dial by Name - Name recognition with speech
 
-People can search for others in their organization with their voice (speech recognition). They can also reach anyone in  Active Directory by saying the full or partial name of the person they are trying to locate. Using voice inputs can recognize names in various formats, including FirstName, LastName, FirstName + LastName, or LastName + FirstName.
+People can search for others in their organization with their voice (speech recognition). They can also reach anyone in Active Directory by saying the full or partial name of the person they are trying to locate. Using voice inputs can recognize names in various formats, including FirstName, LastName, FirstName + LastName, or LastName + FirstName.
   
 You can enable speech recognition for an auto attendant, but phone keypad entry (DTMF) isn't disabled. Phone keypad entry can be used at any time even if speech recognition is enabled on the auto attendant.
   
 As with phone keypad entry, if multiple names are found, the person calling hears a list of names to select from.
+
+> [!NOTE]
+> If more than 5 names remain after any Dial Scope Include/Exclude lists have been applied, the search will fail and the caller will be told that too many names were found. 
   
 Callers can say names in the following formats:
   
