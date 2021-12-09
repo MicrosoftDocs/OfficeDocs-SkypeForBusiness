@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Use PowerShell to manage the Shifts connector after you set up a connection to your workforce management system. You can change connection settings, view the health of the connection, turn off sync, and more. 
+description: Use PowerShell to manage the Shifts connector after you set up a connection to your workforce management system. 
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
@@ -114,6 +114,7 @@ ForEach ($mapping in $mappings){
 ```
 
 ## Change connection settings
+<a name="change_settings"> </a>
 
 Use this script to change connection settings. Settings that you can change include your Blue Yonder service account and password, Microsoft 365 service account, team mappings, and sync settings.
 
@@ -281,7 +282,7 @@ else {
 
 ```
 
-## Shifts cmdlets
+## Shifts connector cmdlets
 
 For help with Shifts connector cmdlets, search for **CsTeamsShiftsConnection** in the [Teams PowerShell cmdlet reference](/powershell/teams/intro?view=teams-ps). Here are links to some commonly used cmdlets.
 
