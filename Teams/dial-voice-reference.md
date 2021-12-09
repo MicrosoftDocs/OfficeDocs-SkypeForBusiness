@@ -25,7 +25,8 @@ description: Learn about the Auto attendant and call queue dialing and voice rec
 ---
 # Auto attendant and call queue dialing and voice recognition reference
 
-Dial by Name is a feature of an auto attendant that is also known as directory search. It enables the people who call your auto attendant to use voice (speech recognition) or their phone keypad (DTMF) responses to enter a full or partial name to search company's directory, locate the person, and then have the call transferred to them. You set up dial by name when you [configure the call flow settings in an auto attendant](create-a-phone-system-auto-attendant.md#call-flow).
+Dial by Name is an auto attendant feature that enables people who call your organization to say or enter on their phone keybad the full or partial name, or extension, of the person they woud like to speak with.  The auto attendant will search the company directory, locate the person, and then transfer to the call to them.  Dial by Name is one of the options set up when you [configure the call flow settings in an auto attendant](create-a-phone-system-auto-attendant.md#call-flow).
+
 
 ## Searching for users
 
