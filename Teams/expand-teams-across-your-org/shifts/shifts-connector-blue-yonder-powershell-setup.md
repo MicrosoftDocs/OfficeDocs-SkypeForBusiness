@@ -378,6 +378,7 @@ For help with Shifts connector cmdlets, including the cmdlets used in the script
 - [Get-CsTeamsShiftsConnectionSyncResult](/powershell/module/teams/get-csteamsshiftsconnectionsyncresult?view=teams-ps)
 - [Get-CsTeamsShiftsConnectionUser](/powershell/module/teams/get-csteamsshiftsconnectionuser?view=teams-ps)
 - [Get-CsTeamsShiftsConnectionWfmTeam](/powershell/module/teams/get-csteamsshiftsconnectionwfmteam?view=teams-ps)
+- Get-CsTeamsShiftsConnectionErrorReport
 - Remove-CsTeamsShiftsScheduleRecord
 
 ## Related articles
