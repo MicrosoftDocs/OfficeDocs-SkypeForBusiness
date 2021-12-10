@@ -50,7 +50,7 @@ This article describes how to use PowerShell to do the following:
 ## Check connection setup status
 <a name="setup_status"> </a>
 
-To check the setup status of your connection, run the following command. You'll need the operation ID of the connection you set up.
+To check the status of the team mappings of the connection you set up, run the following command. You'll need the operation ID.
 
 ``` powershell
 Get-CsTeamsShiftsConnectionOperation -OperationId <YourOperationID>
