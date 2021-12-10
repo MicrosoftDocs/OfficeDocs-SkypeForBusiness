@@ -25,7 +25,7 @@ The [Microsoft Teams Shifts connector for Blue Yonder](shifts-connectors.md#micr
 
 You can use the [Shifts connector wizard](shifts-connector-wizard.md) in the Microsoft 365 admin center or [PowerShell](shifts-connector-blue-yonder-powershell-setup.md) to set up a connection. After a connection is set up, you manage it by using [Shifts connector PowerShell cmdlets](#shifts-connector-cmdlets).
 
-This article provides example PowerShell scripts that you can use to do the following:
+This article describes how to use PowerShell to do the following:
 
 - [Check connection setup status](#check-connection-setup-status)
 - [View connection health](#view-connection-health)
@@ -49,7 +49,14 @@ This article provides example PowerShell scripts that you can use to do the foll
 
 ## Check connection setup status
 <a name="setup_status"> </a>
-To check the setup status of your connection, run the following command:
+
+To check the setup status of your connection, run the following command. You'll need the operation ID of the connection you set up.
+
+``` powershell
+Get-CsTeamsShiftsConnectionOperation -OperationId <YourOperationID>
+```
+
+To learn more, see [Get-CsTeamsShiftsConnectionOperation](/powershell/module/teams/get-csteamsshiftsconnectionoperation?view=teams-ps).
 
 ## View connection health
 <a name="health"> </a>
@@ -214,7 +221,6 @@ New-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $InstanceId -TeamId $Tea
 Write-Host "Success"
 ```
 
-
 ## Disable a connection
 
 Use this script to turn off sync for a connection. Keep in mind this script doesn't remove or delete a connection. It turns off sync so that no data is synced between Shifts and Blue Yonder for the connection that you specify. 
@@ -286,6 +292,7 @@ else {
 
 For help with Shifts connector cmdlets, search for **CsTeamsShiftsConnection** in the [Teams PowerShell cmdlet reference](/powershell/teams/intro?view=teams-ps). Here are links to some commonly used cmdlets.
 
+- [Get-CsTeamsShiftsConnectionOperation](/powershell/module/teams/get-csteamsshiftsconnectionoperation?view=teams-ps)
 - [New-CsTeamsShiftsConnectionInstance](/powershell/module/teams/new-csteamsshiftsconnectioninstance?view=teams-ps)
 - [Get-CsTeamsShiftsConnectionInstance](/powershell/module/teams/get-csteamsshiftsconnectioninstance?view=teams-ps)
 - [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance?view=teams-ps)
@@ -294,7 +301,6 @@ For help with Shifts connector cmdlets, search for **CsTeamsShiftsConnection** i
 - [New-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/new-csteamsshiftsconnectionteammap?view=teams-ps)
 - [Get-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/get-csteamsshiftsconnectionteammap?view=teams-ps)
 - [Remove-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/remove-csteamsshiftsconnectionteammap?view=teams-ps)
-- Get-CsTeamsShiftsConnectionOperation
 - [Get-CsTeamsShiftsConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector?view=teams-ps)
 - [Get-CsTeamsShiftsConnectionSyncResult](/powershell/module/teams/get-csteamsshiftsconnectionsyncresult?view=teams-ps)
 - [Get-CsTeamsShiftsConnectionUser](/powershell/module/teams/get-csteamsshiftsconnectionuser?view=teams-ps)
