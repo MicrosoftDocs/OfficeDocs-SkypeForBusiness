@@ -118,25 +118,25 @@ As a partner, you can create custom roles to suit your operational requirements.
 
 |Feature|Permission|**MMR Admin**|**Site Lead**|**Site Tech**|**Primary admins**|
 | :- | :- | :- | :- | :- | :- |
-|Rooms|View|||||
-||Modify|||||
-||Reset key|||||
-||Download key|||||
-||Unenroll|||||
-|Group management|Create |||||
-||View|||||
-||Modify|||||
-|Update ring management|Create |||||
-||View|||||
-||Modify|||||
-|Reports|View|||||
-|Ticket management|Create customer incident|||||
-||View|||||
-||Update|||||
-|MMR Settings|View|||||
-||Modify|||||
-|Role management|View |||||
-||Modify|||||
+|Rooms|View| &#10004;|&#10004;|&#10004;|&#10004;|
+||Modify|&#10004;|&#10004;|&#10004;|&#10004;|
+||Reset key|&#10004;||||
+||Download key|&#10004;|&#10004;|&#10004;||
+||Unenroll|&#10004;|&#10004;|&#10004;||
+||Create |&#10004;|&#10004;|||
+|Group management|View|&#10004;|&#10004;||&#10004;|
+||Modify|&#10004;|&#10004;|||
+||Create |&#10004;|&#10004;|||
+|Update ring management|View|&#10004;|&#10004;||&#10004;|
+||Modify|&#10004;|&#10004;||&#10004;|
+|Reports|View|&#10004;|&#10004;||&#10004;|
+||Create customer incident|&#10004;|&#10004;|&#10004;|&#10004;|
+|Tickets Management|View|&#10004;|&#10004;|&#10004;|&#10004;|
+||Update|&#10004;|&#10004;|&#10004;|&#10004;|
+|MMR Settings|View|&#10004;||||
+||Modify|&#10004;||||
+|Role management|View |&#10004;|||&#10004;|
+||Modify|&#10004;|||&#10004;|
 
 > [!Note]
 > A user assigned as a Primary admin for Customer A has full permissions in the TRM service for only that customer. The permissions of the user in Customer A have no influence on other customers.
