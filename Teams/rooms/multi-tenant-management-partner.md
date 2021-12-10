@@ -162,7 +162,7 @@ The customer can pull audit logs for the TRM service, which includes partner act
 
 The MTM portal has two interactive models to navigate between customer data:
 
-- Aggregate views were data from all your customers is consolidated in a single list and can be filtered.
+- Aggregate views where data from all your customers is consolidated in a single list and can be filtered.
 
   > [!Note]
   > This view is only supported in the **Incidents** page when **Enable all tickets view** is toggled on.
