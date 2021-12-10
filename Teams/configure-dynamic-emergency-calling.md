@@ -243,7 +243,7 @@ The following table shows support for dynamic emergency calling in the governmen
 | :------------|:-------|
 | World Wide Multi Tenant | Available on all Teams clients |
 | GCC | Available on all Teams clients |
-| GCCH | Available on Teams desktop |
+| GCCH | -Available on Teams desktop <br> -Available on Teams mobile clients <br> -Pending availability on Teams phones |
 | DoD | Pending |
 
  ## Related topics
