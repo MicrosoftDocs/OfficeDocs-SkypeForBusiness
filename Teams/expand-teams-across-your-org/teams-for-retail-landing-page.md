@@ -61,11 +61,11 @@ More information: [Retail team collaboration](retail-team-collaboration.md)
 
 ### Virtual fittings and consultations
 
-The Bookings app in Microsoft Teams gives organizations a simple way to schedule and manage virtual appointments for associates and customers. Use it to schedule virtual appointments such virtual shopping experiences.
+The Bookings app in Microsoft Teams gives organizations a simple way to schedule and manage virtual appointments for associates and customers. Use it to schedule virtual appointments such as virtual shopping experiences.
 
 **Key apps:** Meet, Bookings
 
-More information: [Virtual visits with Microsoft Teams and the Bookings app](bookings-virtual-visits.md)
+More information: [Virtual Visits with Microsoft Teams and the Bookings app](bookings-virtual-visits.md)
 
 ### Simplify business processes
 
