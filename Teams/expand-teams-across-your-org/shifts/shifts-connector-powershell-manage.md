@@ -28,8 +28,8 @@ You can use the [Shifts connector wizard](shifts-connector-wizard.md) in the Mic
 This article describes how to use PowerShell to do the following:
 
 - [Check connection setup status](#check-connection-setup-status)
-- [View connection health](#view-connection-health)
-- [View connection settings](#view-connection-settings)
+- [View an error report for a connection](#view-an-error-report-for-a-connection)
+- [Resolve connection errors](#resolve-connection-errors)
 - [Change connection settings](#change-connection-settings)
 - [Disable a connection](#disable-a-connection)
 
@@ -43,82 +43,55 @@ This article describes how to use PowerShell to do the following:
 ## Set up your environment
 
 > [!NOTE]
-> Make sure you follow these steps to set up your environment before running any of the scripts in this article. If you used [PowerShell](shifts-connector-blue-yonder-powershell-setup.md) to set up a connection, you've already completed these steps. If you used the [wizard](shifts-connector-wizard.md) to set up a connection, you may have completed these steps if you needed to remove existing schedules from teams.
+> Make sure you follow these steps to set up your environment before running any of the commands or scripts in this article. If you used [PowerShell](shifts-connector-blue-yonder-powershell-setup.md) to set up a connection, you've already completed these steps. If you used the [wizard](shifts-connector-wizard.md) to set up a connection, you may have completed these steps if you needed to remove existing schedules from teams.
 
 [!INCLUDE [shifts-connector-set-up-environment](../../includes/shifts-connector-set-up-environment.md)]
 
 ## Check connection setup status
 <a name="setup_status"> </a>
 
-To check the status of the team mappings of the connection you set up, [set up your environment](#set-up-your-environment) (if you haven't already), and then run the following command. You'll need the operation ID.
+To check the status of the connection you set up using the operation ID:
 
-``` powershell
-Get-CsTeamsShiftsConnectionOperation -OperationId <YourOperationID>
-```
+1. [Set up your environment](#set-up-your-environment) (if you haven't already).
+1. Run the following command. This command gives you the overall status of the team mappings for the connection.
+
+    ``` powershell
+    Get-CsTeamsShiftsConnectionOperation -OperationId <YourOperationId>
+    ```
 
 To learn more, see [Get-CsTeamsShiftsConnectionOperation](/powershell/module/teams/get-csteamsshiftsconnectionoperation?view=teams-ps).
 
-## View connection health
-<a name="health"> </a>
-Use this script to view connection health, including any errors that may have occurred.
+## View an error report for a connection
+<a name="error_report"> </a>
 
-[Set up your environment](#set-up-your-environment) (if you haven't already), and then run the following script.
+You can run a report that shows error details for a connection. The report lists team and user mappings that succeeded and failed. It also provides information about any issues related to the accounts associated with the connection.
 
-## View connection settings
+1. [Set up your environment](#set-up-your-environment) (if you haven't already).
+1. Run the following command.
 
-Use this script to view connection settings, including connection status, team mappings, and failed user mappings.
+    ``` powershell
+    Get-CsTeamsShiftsConnectionErrorReport -ConnectorInstanceId <ConnectorInstanceId>
+    ```
 
-[Set up your environment](#set-up-your-environment) (if you haven't already), and then run the following script.
+1. To view a specific error report, run the following command:
 
-``` powershell
-#View sync errors script 
-Write-Host "View sync errors work flow"
-Start-Sleep 1
+    ``` powershell
+    Get-CsTeamsShiftsConnectionErrorReport -ErrorReportId <ErrorReportId>
+    ```
 
-#Ensure Teams module is of version x 
-Write-Host "Checking Teams module version"
-try {
-	Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 2.3
-} catch {
-	throw
-}
+To learn more, see [Get-CsTeamsShiftsConnectionErrorReport](/powershell/module/teams/get-csteamsshiftsconnectionerrorreport?view=teams-ps).
 
-#Authenticate with powershell as to the authorization capabilities of the caller. 
-#Connect to Teams
-Write-Host "Connecting to Teams"
-Connect-MicrosoftTeams
-Write-Host "Connected"
+## Resolve connection errors
 
-#List connection instances available 
-Write-Host "Listing connection instances"
-$InstanceList = Get-CsTeamsShiftsConnectionInstance
-write $InstanceList
+### User mapping errors
 
-#Get an instance
-if ($InstanceList.Count -gt 0){
-	$InstanceId = Read-Host -Prompt 'Input the instance ID that you want to retrieve user sync results from'
-}
-else {
-	throw "Instance list is empty"
-}
+User mapping errors may occur if one or more users in a Blue Yonder site isn't a member of the mapped team in Teams. To resolve this issue, make sure that the users in the mapped team match the users in the Blue Yonder site.
 
-#Get a list of the mappings
-Write-Host "Listing team mappings"
-$mappings = Get-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $InstanceId
-write $mappings
+### Account authorization errors
 
-#For each mapping, retrieve the failed mappings
-ForEach ($mapping in $mappings){
-	$teamsTeamId = $mapping.TeamId
-	$wfmTeamId = $mapping.WfmTeamId
-	Write-Host "Failed mapped users in the mapping of ${teamsTeamId} and ${wfmTeamId}:"
-	$userSyncResult = Get-CsTeamsShiftsConnectionSyncResult -ConnectorInstanceId $InstanceId -TeamId $teamsTeamId
-	Write-Host "Failed AAD users:"
-	write $userSyncResult.FailedAadUser
-	Write-Host "Failed WFM users:"
-	write $userSyncResult.FailedWfmUser
-}
-```
+Account authorization errors may occur if the Blue Yonder service account or Microsoft 365 system account credentials are incorrect or don't have the required permissions. 
+
+To resolve this issue, you can run the [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance?view=teams-ps) cmdlet to update the account or use the PowerShell script in the [Change connection settings](#change-connection-settings) section of this article.
 
 ## Change connection settings
 <a name="change_settings"> </a>
@@ -284,7 +257,7 @@ if ($UpdatedInstance.Id -ne $null) {
 }
 else {
 	throw "Update instance failed"
-}nector cmdlets
+}
 
 ```
 
@@ -305,9 +278,8 @@ For help with Shifts connector cmdlets, search for **CsTeamsShiftsConnection** i
 - [Get-CsTeamsShiftsConnectionSyncResult](/powershell/module/teams/get-csteamsshiftsconnectionsyncresult?view=teams-ps)
 - [Get-CsTeamsShiftsConnectionUser](/powershell/module/teams/get-csteamsshiftsconnectionuser?view=teams-ps)
 - [Get-CsTeamsShiftsConnectionWfmTeam](/powershell/module/teams/get-csteamsshiftsconnectionwfmteam?view=teams-ps)
-- Get-CsTeamsShiftsConnectionErrorReport
-- Remove-CsTeamsShiftsScheduleRecord
-
+- [Get-CsTeamsShiftsConnectionErrorReport](/powershell/module/teams/get-csteamsshiftsconnectionerrorreport?view=teams-ps)
+- [Remove-CsTeamsShiftsScheduleRecord](/powershell/module/teams/remove-csteamsshiftsschedulerecord?view=teams-ps)
 
 ## Related articles
 

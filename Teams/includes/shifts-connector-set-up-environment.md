@@ -21,7 +21,7 @@
     Import-Module MicrosoftTeams 
     ```
 
-    Verify that it's at least version 2.4.1 and contains the Shifts connector cmdlets.
+    Verify that it's at least version 3.0.1 and contains the Shifts connector cmdlets.
 
     ```powershell
     Get-Command -Module MicrosoftTeams -Name *teamsshiftsconnection* 

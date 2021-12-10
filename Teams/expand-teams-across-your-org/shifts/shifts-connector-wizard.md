@@ -61,7 +61,7 @@ Use PowerShell to remove schedules from teams.
 
     Schedule data will be removed for the date and time range that you specify.
 
-To learn more, see Remove-CsTeamsShiftsScheduleRecord.
+To learn more, see [Remove-CsTeamsShiftsScheduleRecord](/powershell/module/teams/remove-csteamsshiftsschedulerecord?view=teams-ps).
 
 ## Run the wizard
 
