@@ -80,17 +80,19 @@ The following clients are currently supported.  Check back often to see updates 
 - Teams Rooms version 4.4.25.0 and greater
 
 > [!NOTE]
-> 3PIP phones do not support dynamic emergency calling. 
+> Subnet and WiFi-based locations are supported on all supported Teams clients. <br><br>
+> Ethernet/Switch (LLDP) is supported on:
+> - Windows versions 8.1 and later at this time.<br>
+> - Mac OS, which requires [LLDP enablement software](https://www.microsoft.com/download/details.aspx?id=103383).<br>
+> - Teams phone with Teams app version 1449/1.0.94.2021110101 and later.
 
 > [!NOTE]
 > Dynamic emergency calling, including security desk notification, isn't supported on the Teams web client. To prevent users from using the Teams web client to call PSTN numbers, you can set a Teams calling policy and turn off the **Allow web PSTN calling** setting. To learn more, see [Calling policies in Teams](teams-calling-policy.md) and [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). 
 
 > [!NOTE]
-> Subnet and WiFi-based locations are supported on all Teams clients. <br>
-> Ethernet/Switch (LLDP) is supported on:
-> - Windows versions 8.1 and later at this time.<br>
-> - Mac OS, which requires [LLDP enablement software](https://www.microsoft.com/download/details.aspx?id=103383).<br>
-> - Teams phone with Teams app version 1449/1.0.94.2021110101 and later.
+> 3PIP phones do not support dynamic emergency calling. 
+
+
 
 ## Assign emergency addresses
 
@@ -241,7 +243,7 @@ The following table shows support for dynamic emergency calling in the governmen
 | :------------|:-------|
 | World Wide Multi Tenant | Available on all Teams clients |
 | GCC | Available on all Teams clients |
-| GCCH | Available on Teams desktop |
+| GCCH | -Available on Teams desktop <br> -Available on Teams mobile clients <br> -Pending availability on Teams phones |
 | DoD | Pending |
 
  ## Related topics
