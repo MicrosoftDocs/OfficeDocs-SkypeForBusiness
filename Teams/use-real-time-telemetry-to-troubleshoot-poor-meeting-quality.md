@@ -48,15 +48,15 @@ As a Teams admin, you get full access to all real-time telemetry data for each u
 
 To see all meeting information and data for a user, go to the [Teams admin center](https://admin.teams.microsoft.com). Under **Users** > **Manage users**, select a user, and open the **Meetings & calls** tab on the user's profile page. Under **Recent meetings**, you'll see a list of meetings the user has attended within the past 24 hours *for which real-time telemetry is available*, including any in progress meetings. If the meeting is not in progress or doesn't have real-time telemetry data, it will show up in **Past meetings**.
 
-![Screenshot of recent meetings table.](media/recent-meetings.png)
+:::image type="content" alt-text="Screenshot of recent meetings table." source="media/recent-meetings.png" lightbox="media/recent-meetings.png":::
 
 To get additional information about participants of a meeting that's in progress, including their device, network, and audio statistics, find the meeting in **Recent meetings** and select the link under the **Participants** column.
 
-![Screenshot of participant details table.](media/participant-details.png)
+:::image type="content" alt-text="Screenshot of participant details table." source="media/participant-details.png" lightbox="media/participant-details.png":::
 
 To look at the telemetry of a given user for an in-progress meeting, including information around device, network, audio, video, and content sharing details, select the **Meeting ID**.
 
-![Screenshot of call analytics user session data.](media/real-time-telemetry.png)
+:::image type="content" alt-text="Screenshot of call analytics user session data." source="media/real-time-telemetry.png" lightbox="media/real-time-telemetry.png":::
 
 ## Measures available in Real-Time Analytics
 
@@ -79,12 +79,19 @@ To look at the telemetry of a given user for an in-progress meeting, including i
 - Android
 - iOS
 
+> [!NOTE]
+> Teams Web client (including VDI) does not support delivery of telemetry in real time.
+
 ## Teams devices with support for real-time telemetry
 
 - MTR - Surface Hub
 - MTR - Teams Display
 - MTR - Collaboration bar
 - IP Phone devices
+
+> [!NOTE]
+> Devices that joined the meeting using Cloud Video Interop (CVI) solutions are not supported in Real-Time Analytics.
+
 
 ## Limitations
 
