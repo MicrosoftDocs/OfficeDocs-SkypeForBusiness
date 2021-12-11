@@ -173,7 +173,20 @@ $federatedAuthUrl = $Instance.ConnectorSpecificSettingFederatedAuthUrl
 $retailWebApiUrl = $Instance.ConnectorSpecificSettingRetailWebApiUrl
 $siteManagerUrl = $Instance.ConnectorSpecificSettingSiteManagerUrl
 $syncFreq = Read-Host -Prompt 'Input new sync frequency'
-$UpdatedInstance = Set-CsTeamsShiftsConnectionInstance -ConnectorId $BlueYonderId -ConnectorInstanceId $InstanceId -ConnectorSpecificSettingAdminApiUrl $adminApiUrl -ConnectorSpecificSettingCookieAuthUrl $cookieAuthUrl -ConnectorSpecificSettingEssApiUrl $essApiUrl -ConnectorSpecificSettingFederatedAuthUrl $federatedAuthUrl -ConnectorSpecificSettingLoginPwd $plainPwd -ConnectorSpecificSettingLoginUserName $WfmUserName -ConnectorSpecificSettingRetailWebApiUrl $retailWebApiUrl -ConnectorSpecificSettingSiteManagerUrl $siteManagerUrl -DesignatedActorId $teamsUserId -EnabledConnectorScenario $updatedConnectorScenario -EnabledWfiScenario $updatedWfiScenario -Name $UpdatedInstanceName -SyncFrequencyInMin $syncFreq -IfMatch $Etag
+#Read admin email list
+[psobject[]]$AdminEmailList = @()
+while ($true){
+$AdminEmail = Read-Host -Prompt "Enter admin's email to receive error report"
+$AdminEmailList += $AdminEmail
+$title    = 'Adding another email'
+$question = 'Would you like to add another admin email?'
+$choices  = '&Yes', '&No'
+$decision = $Host.UI.PromptForChoice($title, $question, $choices, 1)
+if ($decision -eq 1) {
+    break
+}
+}
+$UpdatedInstance = Set-CsTeamsShiftsConnectionInstance -ConnectorId $BlueYonderId -ConnectorInstanceId $InstanceId -ConnectorSpecificSettingAdminApiUrl $adminApiUrl -ConnectorSpecificSettingCookieAuthUrl $cookieAuthUrl -ConnectorSpecificSettingEssApiUrl $essApiUrl -ConnectorSpecificSettingFederatedAuthUrl $federatedAuthUrl -ConnectorSpecificSettingLoginPwd $plainPwd -ConnectorSpecificSettingLoginUserName $WfmUserName -ConnectorSpecificSettingRetailWebApiUrl $retailWebApiUrl -ConnectorSpecificSettingSiteManagerUrl $siteManagerUrl -DesignatedActorId $teamsUserId -EnabledConnectorScenario $updatedConnectorScenario -EnabledWfiScenario $updatedWfiScenario -Name $UpdatedInstanceName -SyncFrequencyInMin $syncFreq -IfMatch $Etag -ConnectorAdminEmail AdminEmailList
 
 #Get a list of the mappings
 Write-Host "Listing mappings"
@@ -208,7 +221,7 @@ Start-Sleep 1
 #Ensure Teams module is at least version x
 Write-Host "Checking Teams module version"
 try {
-	Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 2.3
+	Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 3.0
 } catch {
 	throw
 }
@@ -258,7 +271,6 @@ if ($UpdatedInstance.Id -ne $null) {
 else {
 	throw "Update instance failed"
 }
-
 ```
 
 ## Shifts connector cmdlets

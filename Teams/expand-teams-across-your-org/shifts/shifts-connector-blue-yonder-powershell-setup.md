@@ -108,7 +108,7 @@ Start-Sleep 1
 #Ensure Teams module is at least version x
 Write-Host "Checking Teams module version"
 try {
-	Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 2.3
+	Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 3.0
 } catch {
 	throw
 }
@@ -122,7 +122,7 @@ Write-Host "Connected"
 #Connect to MS Graph
 Connect-MgGraph -Scopes "User.Read.All","Group.ReadWrite.All"
 
-#List connector types available (comment out if not implemented for preview) 
+#List connector types available (comment out if not implemented for preview)
 Write-Host "Listing connector types available"
 $BlueYonderId = "6A51B888-FF44-4FEA-82E1-839401E9CD74"
 $connectors = Get-CsTeamsShiftsConnectionConnector
@@ -154,12 +154,26 @@ Write-Host "Test complete, no conflicts found"
 
 #Create an instance (includes WFM site team ids)
 Write-Host "Creating a connection instance"
-$designatorName = Read-Host -Prompt "Input designated actor's user name"
+$designatorName = Read-Host -Prompt "Enter your Microsoft 365's user name"
 $domain = $designatorName.Split("@")[1]
 $designator = Get-MgUser -UserId $designatorName
 $teamsUserId = $designator.Id
 $syncFreq = Read-Host -Prompt "Input sync frequency"
-$InstanceResponse = New-CsTeamsShiftsConnectionInstance -Name $InstanceName -ConnectorId $BlueYonderId -ConnectorSpecificSettingAdminApiUrl $adminApiUrl -ConnectorSpecificSettingCookieAuthUrl $cookieAuthUrl -ConnectorSpecificSettingEssApiUrl $essApiUrl -ConnectorSpecificSettingFederatedAuthUrl $federatedAuthUrl -ConnectorSpecificSettingRetailWebApiUrl $retailWebApiUrl -ConnectorSpecificSettingSiteManagerUrl $siteManagerUrl -ConnectorSpecificSettingLoginPwd $plainPwd -ConnectorSpecificSettingLoginUserName $WfmUserName -DesignatedActorId $teamsUserId -EnabledConnectorScenario $enabledConnectorScenario -EnabledWfiScenario $wfiSupportedScenario -SyncFrequencyInMin $syncFreq
+
+#Read admin email list
+[psobject[]]$AdminEmailList = @()
+while ($true){
+$AdminEmail = Read-Host -Prompt "Enter admin's email to receive error report"
+$AdminEmailList += $AdminEmail
+$title    = 'Adding another email'
+$question = 'Would you like to add another admin email?'
+$choices  = '&Yes', '&No'
+$decision = $Host.UI.PromptForChoice($title, $question, $choices, 1)
+if ($decision -eq 1) {
+    break
+}
+}
+$InstanceResponse = New-CsTeamsShiftsConnectionInstance -Name $InstanceName -ConnectorId $BlueYonderId -ConnectorSpecificSettingAdminApiUrl $adminApiUrl -ConnectorSpecificSettingCookieAuthUrl $cookieAuthUrl -ConnectorSpecificSettingEssApiUrl $essApiUrl -ConnectorSpecificSettingFederatedAuthUrl $federatedAuthUrl -ConnectorSpecificSettingRetailWebApiUrl $retailWebApiUrl -ConnectorSpecificSettingSiteManagerUrl $siteManagerUrl -ConnectorSpecificSettingLoginPwd $plainPwd -ConnectorSpecificSettingLoginUserName $WfmUserName -DesignatedActorId $teamsUserId -EnabledConnectorScenario $enabledConnectorScenario -EnabledWfiScenario $wfiSupportedScenario -SyncFrequencyInMin $syncFreq -ConnectorAdminEmail $AdminEmailList
 $InstanceId = $InstanceResponse.id
 $Etag = $InstanceResponse.etag
 if ($InstanceId -ne $null){
@@ -223,7 +237,8 @@ $Schedule = Invoke-MgGraphRequest -Uri $teamUpdateUrl -Method PUT -Body $Request
 
 #Create a mapping of the new team to the site 
 Write-Host "Create a mapping of the new team to the site"
-$teamMappingResult = New-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $InstanceId -TeamId $TeamsTeamId -TimeZone "America/Los_Angeles" -WfmTeamId $WfmTeamId
+$TimeZone = Read-Host -Prompt "Input the time zone of team mapping"
+$teamMappingResult = New-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $InstanceId -TeamId $TeamsTeamId -TimeZone $TimeZone -WfmTeamId $WfmTeamId
 Write-Host "Success"
 
 $title    = 'Connecting another team'
@@ -235,6 +250,8 @@ if ($decision -eq 1) {
     break
 }
 }
+
+#The Teams admin was set as an owner directly when creating a new team, removing it from owners
 Remove-TeamUser -GroupId $TeamsTeamId -User $currentUser -Role Owner
 Disconnect-MgGraph
 Disconnect-MicrosoftTeams
@@ -249,7 +266,7 @@ Start-Sleep 1
 #Ensure Teams module is at least version x
 Write-Host "Checking Teams module version"
 try {
-	Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 2.3
+	Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 3.0
 } catch {
 	throw
 }
@@ -295,12 +312,27 @@ Write-Host "Test complete, no conflicts found"
 
 #Create an instance (includes WFM site team ids)
 Write-Host "Creating a connection instance"
-$designatorName = Read-Host -Prompt "Input designated actor's user name"
+$designatorName = Read-Host -Prompt "Enter your Microsoft 365 user name"
 $domain = $designatorName.Split("@")[1]
 $designator = Get-MgUser -UserId $designatorName
 $teamsUserId = $designator.Id
 $syncFreq = Read-Host -Prompt "Input sync frequency"
-$InstanceResponse = New-CsTeamsShiftsConnectionInstance -Name $InstanceName -ConnectorId $BlueYonderId -ConnectorSpecificSettingAdminApiUrl $adminApiUrl -ConnectorSpecificSettingCookieAuthUrl $cookieAuthUrl -ConnectorSpecificSettingEssApiUrl $essApiUrl -ConnectorSpecificSettingFederatedAuthUrl $federatedAuthUrl -ConnectorSpecificSettingRetailWebApiUrl $retailWebApiUrl -ConnectorSpecificSettingSiteManagerUrl $siteManagerUrl -ConnectorSpecificSettingLoginPwd $plainPwd -ConnectorSpecificSettingLoginUserName $WfmUserName -DesignatedActorId $teamsUserId -EnabledConnectorScenario $enabledConnectorScenario -EnabledWfiScenario $wfiSupportedScenario -SyncFrequencyInMin $syncFreq
+
+#Read admin email list
+[psobject[]]$AdminEmailList = @()
+while ($true){
+$AdminEmail = Read-Host -Prompt "Enter admin's email to receive error report"
+$AdminEmailList += $AdminEmail
+$title    = 'Adding another email'
+$question = 'Would you like to add another admin email?'
+$choices  = '&Yes', '&No'
+$decision = $Host.UI.PromptForChoice($title, $question, $choices, 1)
+if ($decision -eq 1) {
+    break
+}
+}
+$InstanceResponse = New-CsTeamsShiftsConnectionInstance -Name $InstanceName -ConnectorId $BlueYonderId -ConnectorSpecificSettingAdminApiUrl $adminApiUrl -ConnectorSpecificSettingCookieAuthUrl $cookieAuthUrl -ConnectorSpecificSettingEssApiUrl $essApiUrl -ConnectorSpecificSettingFederatedAuthUrl $federatedAuthUrl -ConnectorSpecificSettingRetailWebApiUrl $retailWebApiUrl -ConnectorSpecificSettingSiteManagerUrl $siteManagerUrl -ConnectorSpecificSettingLoginPwd $plainPwd -ConnectorSpecificSettingLoginUserName $WfmUserName -DesignatedActorId $teamsUserId -EnabledConnectorScenario $enabledConnectorScenario -EnabledWfiScenario $wfiSupportedScenario -SyncFrequencyInMin $syncFreq -ConnectorAdminEmail AdminEmailList
+
 $InstanceId = $InstanceResponse.id
 $Etag = $InstanceResponse.etag
 if ($InstanceId -ne $null){
@@ -344,7 +376,8 @@ Remove-CsTeamsShiftsScheduleRecord -TeamId $TeamsTeamId -DateRangeStartDate $sta
 
 #Create a mapping of the new team to the site 
 Write-Host "Create a mapping of the existing team to the site"
-$teamMappingResult = New-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $InstanceId -TeamId $TeamsTeamId -TimeZone "America/Los_Angeles" -WfmTeamId $WfmTeamId
+$TimeZone = Read-Host -Prompt "Input the time zone of team mapping"
+$teamMappingResult = New-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $InstanceId -TeamId $TeamsTeamId -TimeZone $TimeZone -WfmTeamId $WfmTeamId
 Write-Host "Success"
 
 
