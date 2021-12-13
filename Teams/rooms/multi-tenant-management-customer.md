@@ -119,25 +119,25 @@ If you already sent an invitation to a partner and wish to add more users to tha
 
 |Feature|Permission|**MMR Admin**|**Site Lead**|**Site Tech**|**Partner admin**|
 | :- | :- | :- | :- | :- | :- |
-|Rooms|View|||||
-||Modify|||||
-||Reset key|||||
-||Download key|||||
-||Unenroll|||||
-|Group management|Create |||||
-||View|||||
-||Modify|||||
-|Update ring management|Create |||||
-||View|||||
-||Modify|||||
-|Reports|View|||||
-|Ticket management|Create customer incident|||||
-||View|||||
-||Update|||||
-|MMR Settings|View|||||
-||Modify|||||
-|Role management|View |||||
-||Modify|||||
+|Rooms|View| &#10004;|&#10004;|&#10004;|&#10004;|
+||Modify|&#10004;|&#10004;|&#10004;|&#10004;|
+||Reset key|&#10004;||||
+||Download key|&#10004;|&#10004;|&#10004;||
+||Unenroll|&#10004;|&#10004;|&#10004;||
+||Create |&#10004;|&#10004;|||
+|Group management|View|&#10004;|&#10004;||&#10004;|
+||Modify|&#10004;|&#10004;|||
+||Create |&#10004;|&#10004;|||
+|Update ring management|View|&#10004;|&#10004;||&#10004;|
+||Modify|&#10004;|&#10004;||&#10004;|
+|Reports|View|&#10004;|&#10004;||&#10004;|
+||Create customer incident|&#10004;|&#10004;|&#10004;|&#10004;|
+|Tickets Management|View|&#10004;|&#10004;|&#10004;|&#10004;|
+||Update|&#10004;|&#10004;|&#10004;|&#10004;|
+|MMR Settings|View|&#10004;||||
+||Modify|&#10004;||||
+|Role management|View |&#10004;|||&#10004;|
+||Modify|&#10004;|||&#10004;|
 
 
 
