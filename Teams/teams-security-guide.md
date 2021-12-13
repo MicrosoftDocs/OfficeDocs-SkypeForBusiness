@@ -53,6 +53,7 @@ A distributed denial-of-service (DDOS) attack occurs when the attacker prevents 
 - Send a large amount of traffic, overloading the system until it stops responding or responds slowly to legitimate requests.
 - Hide the evidence of the attacks.
 - Prevent users from accessing network resources.
+
 Teams mitigates against these attacks by running Azure DDOS network protection and by throttling client requests from the same endpoints, subnets, and federated entities.
 
 ### Eavesdropping
