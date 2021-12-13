@@ -43,7 +43,7 @@ This article describes how to use PowerShell to do the following:
 ## Set up your environment
 
 > [!NOTE]
-> Make sure you follow these steps to set up your environment before running any of the commands or scripts in this article. If you used [PowerShell](shifts-connector-blue-yonder-powershell-setup.md) to set up a connection, you've already completed these steps. If you used the [wizard](shifts-connector-wizard.md) to set up a connection, you may have completed these steps if you needed to remove existing schedules from teams.
+> Make sure you follow these steps to set up your environment before running any of the commands or scripts in this article.
 
 [!INCLUDE [shifts-connector-set-up-environment](../../includes/shifts-connector-set-up-environment.md)]
 
@@ -89,9 +89,9 @@ User mapping errors may occur if one or more users in a Blue Yonder site isn't a
 
 ### Account authorization errors
 
-Account authorization errors may occur if the Blue Yonder service account or Microsoft 365 system account credentials are incorrect or don't have the required permissions. 
+Account authorization errors may occur if the Blue Yonder service account or Microsoft 365 system account credentials are incorrect or don't have the required permissions.
 
-To resolve this issue, you can run the [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance?view=teams-ps) cmdlet to update the account or use the PowerShell script in the [Change connection settings](#change-connection-settings) section of this article.
+To change your Microsoft 365 system account, you can run the [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance?view=teams-ps) cmdlet to update the account or use the PowerShell script in the [Change connection settings](#change-connection-settings) section of this article.
 
 ## Change connection settings
 <a name="change_settings"> </a>
@@ -113,7 +113,7 @@ Start-Sleep 1
 #Ensure Teams module is at least version x
 Write-Host "Checking Teams module version"
 try {
-	Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 2.3
+	Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 3.0
 } catch {
 	throw
 }

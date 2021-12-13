@@ -26,6 +26,13 @@
     ```powershell
     Get-Command -Module MicrosoftTeams -Name *teamsshiftsconnection* 
     ```
+ 
+1. Install the MSAL PowerShell module.
+
+    ```powershell
+    Install-Module -Name MSAL.PS
+    Import-Module MSAL.PS
+    ```
 
 1. Set PowerShell to exit if an error occurs when running the script.
 

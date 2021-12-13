@@ -55,11 +55,7 @@ With Blue Yonder as the system of record, your frontline workers can see and swa
 > [!NOTE]
 > Complete this step if you're mapping Blue Yonder sites to existing teams. If you're creating new teams to map to, you can skip this step.
 
-Get a list of the TeamIds of teams in your organization.
-
-```powershell
-Get-Team
- ```
+In the Azure portal, go to the [All groups](https://ms.portal.azure.com/#blade/Microsoft_AAD_IAM/GroupsManagementMenuBlade/AllGroups) page to get a list of the TeamIds of teams in your organization. 
 
 Take note of the TeamIds of the teams you want to map. The script will prompt you to enter this information.
 
