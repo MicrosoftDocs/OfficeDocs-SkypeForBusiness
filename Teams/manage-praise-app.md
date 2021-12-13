@@ -156,6 +156,6 @@ Built-in badge sets can't be modified, so when a built-in set is enabled, all ba
 
 ## Upcoming changes
 
-Starting in January 2022, what's currently available for badges will change. Social and emotional learning badges for education, including self-awareness and self-management, will no longer be available.  
+Starting in January 2022, what's currently available for badges will change. Social and emotional learning badges for education, including self-awareness and self-management, will no longer be available. Additionally, the **Status** toggle in the Teams admin center that allows or block Praise will affect both the Praise app and the Praise feature in the Viva Insights app in Teams.  
 
 The **Create a custom badge** option will also no longer be available as of January 2022.
