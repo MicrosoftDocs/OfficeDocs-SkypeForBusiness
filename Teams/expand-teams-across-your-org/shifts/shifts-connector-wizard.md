@@ -23,7 +23,7 @@ appliesto:
 
 The Shifts connector wizard in the Microsoft 365 admin center makes it easy to integrate the Shifts app in Microsoft Teams with your workforce management (WFM) system. After you set up a connection, your frontline workers can seamlessly view and manage their schedules in your WFM system from within Shifts.
 
-The wizard configures the Shifts connector, creates a connection to your WFM system, and applies the sync settings and team mappings that you choose. Sync settings determine the schedule information that's synced between your WFM system and Shifts. Team mappings define the sync relationship between your WFM sites and teams in Teams. You can map to existing teams and new teams, which you can create in the wizard.
+The wizard configures the Shifts connector, creates a connection to your WFM system, and applies the sync settings and team mappings that you choose. Sync settings determine the schedule information that's synced between your WFM system and Shifts. Team mappings define the sync relationship between your WFM sites and teams in Teams. You can map to existing teams and new teams.
 
 You can set up multiple connections, each with different sync settings. For example, if your organization has multiple locations with different schedule requirements, create a connection with unique sync settings for each location. Keep in mind that a WFM site can only be mapped to one team at any given time. If a WFM site is already mapped to a team, it can't be mapped to another team.
 
