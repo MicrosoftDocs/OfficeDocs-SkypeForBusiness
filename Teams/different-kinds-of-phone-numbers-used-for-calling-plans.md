@@ -36,7 +36,7 @@ Teams uses **user** numbers, which can be assigned to users in your organization
     
   - **Geographic numbers** Geographic numbers have a relationship to a geographic area and are the most common. For example, geographic phone numbers in most cases can only be used within a certain address, city, state, or region of the country.
     
-  - **Non-geographic numbers** Non-geographic numbers are national numbers that don't have a relationship to a geographic area within a country/region. For example, non-geographic numbers often have the same cost when calling the number from anywhere within the country/region. Also, some countries, such as Denmark, only have non-geographic numbers available.
+  - **Non-geographic numbers*** Non-geographic numbers are national numbers that don't have a relationship to a geographic area within a country/region. For example, non-geographic numbers often have the same cost when calling the number from anywhere within the country/region. Also, some countries, such as Denmark, only have non-geographic numbers available.
     
 - **Service numbers** Service numbers are available in several different number types, and availability does vary by country/region.
     
@@ -46,7 +46,7 @@ Teams uses **user** numbers, which can be assigned to users in your organization
     
       - **Geographic numbers** Geographic numbers have a relationship to a geographic area. For example, geographic phone numbers in most cases can only be used within a certain address, city, state, or region of the country.
         
-      - **Non-geographic numbers** Non-geographic numbers are national numbers that don't have a relationship to a geographic area within a country/region. For example, non-geographic numbers often have the same cost when calling the number from anywhere within the country/region.
+      - **Non-geographic numbers*** Non-geographic numbers are national numbers that don't have a relationship to a geographic area within a country/region. For example, non-geographic numbers often have the same cost when calling the number from anywhere within the country/region.
    
   - **Toll-free service numbers** These service numbers don't typically incur a toll cost to the caller. Teams provides national toll-free numbers in over 60 countries/regions.
     
@@ -54,7 +54,8 @@ Teams uses **user** numbers, which can be assigned to users in your organization
     > Some countries/regions and originating number types, such as calls originating from mobile phones, may in some cases incur a toll cost to the caller. 
   
 > [!NOTE]
-> If you need to get more phone numbers than this, [contact the TNS Service Desk](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
+> Please notice that there are regions and country limitations for non-geographic numbers availability.
+> If you have further questions of need need to get more phone numbers than this, [contact the TNS Service Desk](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
 
 ## Related topics
 
