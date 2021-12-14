@@ -1,9 +1,9 @@
 ---
 title: Manage the Shifts app for your organization
-author: serdarsoysal
-ms.author: serdars
+author: LanaChin
+ms.author: v-lanachin
 ms.reviewer: lisawu,gumariam
-manager: serdars
+manager: samanro
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -65,19 +65,15 @@ Shifts is enabled by default for all Teams users in your organization. You can t
 
 To allow or block specific users in your organization from using Shifts, make sure Shifts be turned on for your organization on the [Manage apps](../../manage-apps.md) page. Then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](../../teams-app-permission-policies.md).
 
-### Use the FirstLineWorker app setup policy to pin Shifts to Teams
+### Use an app setup policy to pin Shifts to Teams
 
 App setup policies let you customize Teams to highlight the apps that are most important for users in your organization. The apps set in a policy are pinned to the app bar&mdash;the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients&mdash;where users can quickly and easily access them.
- 
-Teams includes a built-in FirstLineWorker app setup policy that you can assign to frontline workers in your organization. By default, the policy includes the Activity, Shifts, Chat, and Calling apps.
 
-To view the FirstLineWorker policy, in the left navigation of the Microsoft Teams admin center, go to **Teams app** > **Setup policies**.
+You can create a [custom app setup policy](../../teams-app-setup-policies.md) by adding the Shifts app, and then [assign the policy](assign-policies-users-and-groups.md) to your users. Or, you can use the app setup policy that's included in the Frontline worker and Frontline manager policy packages.
 
-:::image type="content" source="../../media/firstline-worker-app-setup-policy-new.png" alt-text="Screenshot of the FirstLineWorker app setup policy in the Microsoft Teams admin center" lightbox="../../media/firstline-worker-app-setup-policy-new.png":::
+Teams includes built-in Frontline Worker and Frontline Manager policy packages. A [policy package](manage-policy-packages.md) in Teams is a collection of predefined policies and policy settings that you can assign to users who have similar roles in your organization. Policy packages help simplify, streamline, and provide consistency when managing policies for groups of users across your organization.
 
-#### Assign the FirstLineWorker app setup policy to users
-
-[!INCLUDE [assign-policy](../../includes/assign-policy.md)]
+Both the Frontline Worker and Frontline Manager policy packages include an app setup policy that pins the Shifts app and other apps that support communication and collaboration activities for that role.
 
 ## Search the audit log for Shifts events
 
