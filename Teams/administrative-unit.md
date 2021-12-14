@@ -31,21 +31,21 @@ For example, Contoso has operations around the globe. Alice is a global IT admin
 
 If you're a global admin, you can add administrative units. To learn how, see [Add an administrative unit](/azure/active-directory/roles/admin-units-manage#add-an-administrative-unit).
 
-## Add admins to administrative units
+## Assign admins to administrative units
 
-If you're a global admin, you can use the Azure portal, PowerShell, or the Microsoft Graph API to add Teams devices admins to an administrative unit. 
+If you're a global admin, you can use the Azure portal, PowerShell, or the Microsoft Graph API to assign admins to an administrative unit. 
 
-### Use the Azure portal to add admins to an administrative unit
+### Use the Azure portal to assign admins to an administrative unit
 
-As a global admin, you can use the Azure portal to add admins to an administrative unit. To learn how, see [Add users to an administrative unit](azure/active-directory/admin-units-add-manage-users#add-users-to-an-administrative-unit).
+As a global admin, you can use the Azure portal to assign admins to an administrative unit. To learn how, see [Add users to an administrative unit](azure/active-directory/admin-units-add-manage-users#add-users-to-an-administrative-unit).
 
-### Use PowerShell to add admins to an administrative unit
+### Use PowerShell to assign admins to an administrative unit
 
-As a global admin, you can use the [Add-AzureADMSScopedRoleMembership](/powershell/module/azuread/add-azureadmsscopedrolemembership?view=azureadps-2.0) PowerShell cmdlet to add Teams devices admins to an administrative unit. To learn how, see [Working with Administrative Units](azure/active-directory/working-with-administrative-units).
+As a global admin, you can use the [Add-AzureADMSScopedRoleMembership](/powershell/module/azuread/add-azureadmsscopedrolemembership?view=azureadps-2.0) PowerShell cmdlet to assign admins to an administrative unit. To learn how, see [Working with Administrative Units](azure/active-directory/working-with-administrative-units).
 
-### Use the Microsoft Graph API to add admins to an administrative unit
+### Use the Microsoft Graph API to assign admins to an administrative unit
 
-As a global admin, youu can use the the Microsoft Graph API to add Teams devices admins to an administrative unit. To learn how, see [Add users to an administrative unit](azure/active-directory/admin-units-add-manage-users#add-users-to-an-administrative-unit).
+As a global admin, youu can use the the Microsoft Graph API to assign admins to an administrative unit. To learn how, see [Add users to an administrative unit](azure/active-directory/admin-units-add-manage-users#add-users-to-an-administrative-unit).
 
 ## Select administrative units
 
