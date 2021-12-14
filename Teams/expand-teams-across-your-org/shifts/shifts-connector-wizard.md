@@ -100,7 +100,7 @@ On the Sync settings page, you choose the information to sync from Blue Yonder t
 Choose the Blue Yonder sites you want to connect to Shifts. You can select up to 100 sites.
 
 :::image type="content" source="../../media/shifts-connector-wizard-sites.png" alt-text="Screenshot of wizard, showing list of Blue Yonder sites." lightbox="../../media/shifts-connector-wizard-sites.png":::
-<a name=" mapping"> </a>
+<a name="mapping"> </a>
 <a name="search_teams"> </a>
 Then, map each Blue Yonder site that you selected to a team in Teams. You can map a site to an existing team or you can create a new team.
 :::image type="content" source="../../media/shifts-connector-wizard-search-team.png" alt-text="Screenshot of the pane showing the search team option and create a new team option." lightbox="../../media/shifts-connector-wizard-search-team.png":::
