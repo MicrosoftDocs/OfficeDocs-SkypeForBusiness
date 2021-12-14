@@ -55,7 +55,7 @@ If you're a Teams devices admin, after a global admin assigns you to an administ
 
 2. In the **Your administrative units** dialog box, follow one of these steps:
     - Select the administrative unit that you want to manage, or 
-    - Select **All devices** if you can manage all devices for your organization.
+    - Select **All devices** if you have permission to manage all devices for your organization.
 
 3. Select **Save**.
 
@@ -71,6 +71,6 @@ To switch to a different administrative unit:
 
 4. In the **Your administrative units** dialog box, follow one of these steps:
     - Select the administrative unit that you want to manage, or 
-    - Select **All devices** if you can manage all devices for your organization.
+    - Select **All devices** if you have permission to manage all devices for your organization.
 
 5. Select **Save**.
