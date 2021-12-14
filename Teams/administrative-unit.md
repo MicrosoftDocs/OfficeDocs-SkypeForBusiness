@@ -22,14 +22,14 @@ appliesto:
 
 We've implemented administrative units in the Teams admin center, which gives you more detailed, role-based access for managing Teams devices. By using an administrative unit, you can give a Teams admin access to some resources but limit that admin's access to other resources. This is especially helpful if you have local Teams admins in different countries or regions.
 
-For example, Contoso has operations around the globe. Alice is a global IT admin based in London, while Prashant is a local IT admin based in Bangalore, India. Today, when Prashant signs into the Teams admin center as a device administrator, he can see Teams devices around the globe. Alice wants to limit Prashant's access to Teams devices only in Bangalore. Administrative units let her do this. To learn more, see [Administrative units in Azure Active Directory](/azure/active-directory/roles/administrative-units).
+For example, Contoso has operations around the globe. Alice is a global IT admin based in London, while Prashant is a local IT admin based in Bangalore, India. Today, when Prashant signs into the Teams admin center as a device administrator, he can see Teams devices around the globe. Alice wants to limit Prashant's access to Teams devices only in Bangalore. Administrative units let her do this. To learn more, see [Administrative units in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/roles/administrative-units).
 
 > [!NOTE]
 > Administrative units are currently available only for the Teams devices administrator role.
 
 ## Add administrative units
 
-If you're a global admin, you can add administrative units. To learn how, see [Add an administrative unit](/azure/active-directory/roles/admin-units-manage#add-an-administrative-unit).
+If you're a global admin, you can add administrative units. To learn how, see [Add an administrative unit](https://docs.microsoft.com/azure/active-directory/roles/admin-units-manage#add-an-administrative-unit).
 
 ## Assign admins to administrative units
 
@@ -37,15 +37,15 @@ If you're a global admin, you can use the Azure portal, PowerShell, or the Micro
 
 ### Use the Azure portal to assign admins to an administrative unit
 
-As a global admin, you can use the Azure portal to assign admins to an administrative unit. To learn how, see [Add users to an administrative unit](azure/active-directory/admin-units-add-manage-users#add-users-to-an-administrative-unit).
+As a global admin, you can use the Azure portal to assign admins to an administrative unit. To learn how, see [Add users to an administrative unit](https://docs.microsoft.com/azure/active-directory/admin-units-add-manage-users#add-users-to-an-administrative-unit).
 
 ### Use PowerShell to assign admins to an administrative unit
 
-As a global admin, you can use the [Add-AzureADMSScopedRoleMembership](/powershell/module/azuread/add-azureadmsscopedrolemembership?view=azureadps-2.0) PowerShell cmdlet to assign admins to an administrative unit. To learn how, see [Working with Administrative Units](azure/active-directory/working-with-administrative-units).
+As a global admin, you can use this PowerShell cmdlet to assign admins to an administrative unit: [Add-AzureADMSScopedRoleMembership](/powershell/module/azuread/add-azureadmsscopedrolemembership?view=azureadps-2.0). To learn how, see [Working with Administrative Units](https://docs.microsoft.com/azure/active-directory/working-with-administrative-units).
 
 ### Use the Microsoft Graph API to assign admins to an administrative unit
 
-As a global admin, youu can use the the Microsoft Graph API to assign admins to an administrative unit. To learn how, see [Add users to an administrative unit](azure/active-directory/admin-units-add-manage-users#add-users-to-an-administrative-unit).
+As a global admin, you can use the Microsoft Graph API to assign admins to an administrative unit. To learn how, see [Add users to an administrative unit](https://docs.microsoft.com/azure/active-directory/admin-units-add-manage-users#add-users-to-an-administrative-unit).
 
 ## Select administrative units
 
