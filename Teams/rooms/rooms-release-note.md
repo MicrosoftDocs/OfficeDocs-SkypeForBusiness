@@ -24,6 +24,7 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|Teams Web-Client release | December 2021 |
 |Teams Web-Client release | October 2021 |
 |4.10.10.0 |10/1/2021 |
 |4.9.12.0 |07/28/2021 |
@@ -71,6 +72,11 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 |RTM (1.0.8) |12/7/2016 |
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
+
+### Teams Rooms Web client update (December 2021)
+
+Introduced in this update:
+- Split video layout across dual Front of Room displays when content isn't being shared
 
 ### Teams Rooms Web client update (October 2021)
 
