@@ -180,7 +180,7 @@ items:
     > [!NOTE]
     > As an alternative to configuring and assigning individual policies, you can configure and assign a policy package to frontline workers and frontline managers.
 
-        #### Configure an app setup policy
+    #### Configure an app setup policy
     Create a custom app setup policy based on the decisions in Step 2.
 
     1. In the left navigation of the [Microsoft Teams admin center](https://admin.teams.microsoft.com/), go to **Teams apps > Setup policies**.
