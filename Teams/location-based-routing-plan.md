@@ -1,7 +1,7 @@
 ---
 title: Plan Location-Based Routing for Direct Routing
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -247,8 +247,11 @@ Location-Based Routing doesn't apply to the following types of interactions. Loc
 
 ### Location-Based Routing for conferencing
 
-A Location-Based Routing enabled user on a PSTN call isn't allowed to start a conference with another user or PSTN number. Connecting to auto attendants or call queues is allowed. 
-If the user has a conferencing license, the user must start a conference with the relevant users and call the PSTN through the conference bridge to start a conference call.  
+A Location-Based Routing enabled user on a PSTN call isn't allowed to start a conference with another user or PSTN number. Connecting to auto attendants or call queues is allowed. If the user has a conferencing license, the user must start a conference with the relevant users and call the PSTN through the conference bridge to start a conference call.
+
+In a conference call started by a user without a conferencing license, adding PSTN participants is not allowed if there is or has been at least one Location-Based Routing
+enabled user in the conference call. If at least one PSTN participant is or was part of such a conference call before any Location-Based Routing enabled participants wants to
+join the call, such participants can't be added to the call.
 
 ### Media bypass requirement for Location-Based Routing
 

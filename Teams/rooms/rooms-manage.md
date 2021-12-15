@@ -19,7 +19,7 @@ ms.custom: seo-marvel-apr2020
 
 # Manage Microsoft Teams Rooms
 
-If you have Microsoft Teams Rooms-certified devices in your organization, you have flexible management options.  You can manage the devices yourself in the same central location where you manage all you Teams solutions, Microsoft Teams Admin Center or you can transfer management responsibility to dedicated experts using [Microsoft Teams Rooms Managed Services](https://portal.rooms.microsoft.com).  You can also delegate management access to a partner of your choice for either of the options.
+If you have Microsoft Teams Rooms-certified devices in your organization, you have flexible management options.  You can manage the devices yourself in the same central location where you manage all you Teams solutions, Microsoft Teams Admin Center. Alternately, you can transfer management responsibility to dedicated experts using [Microsoft Teams Rooms Managed Services](https://portal.rooms.microsoft.com).  You can also delegate management access to a partner of your choice for either of the options.
 
 With Microsoft Teams Admin Center, you can:
 
@@ -29,12 +29,13 @@ With Microsoft Teams Admin Center, you can:
 - Review current and past meeting activity (such as details about call quality, network health and connectivity, and number of participants)
 - See peripherals (such as cameras and projectors) connected to a Microsoft Teams Room device
 
-To manage Teams Rooms devices, open the [Microsoft Teams admin center](https://admin.teams.microsoft.com) and go to **Teams Devices** > **Teams Rooms**.
+To manage Teams Rooms devices, open the [Microsoft Teams admin center](https://admin.teams.microsoft.com) and go to **Teams Devices** > **Teams Rooms on Windows**.
 
-:::image type="content" source="../media/teams-rooms-summary.png" alt-text="Teams Rooms summary pages in Teams admin center.":::
+:::image type="content" source="../media/teams-rooms-summary2.png" alt-text="Teams Rooms summary page in Teams admin center.":::
+
 
 > [!IMPORTANT]
-> To manage devices using the Teams admin center, you need to be assigned the Global Administrator, Teams Administrator or Teams Device Administrator roles.
+> To manage devices using the Teams admin center, you need to be assigned the Global Administrator, Teams Administrator, or Teams Device Administrator roles.
 
 ## Make changes to Teams Rooms devices
 
@@ -84,6 +85,28 @@ If you select more than one device, settings that support bulk editing show the 
 | *Theming*                                                    |                                                        |                    |
 |                                                              | Default<br>No theme<br>Custom<br>List of built-in themes   | Yes                |
 
+## Cortana settings 
+You can enable Cortana for _Voice Activation_ or _Push to talk_ using PowerShell for all devices in your organization, or for each device separately. 
+-	At the organization and group level, you must use PowerShell.
+-	At the device level, you have a few options. You can use PowerShell, edit the  XML configuration file, or change the settings in Teams admin center. 
+
+To learn more about using PowerShell to configure Cortana, see [Admin control and limitations for Cortana in Teams](/microsoftteams/cortana-in-teams#admin-control-and-limitations).
+
+To learn more about configuring your device using the XML configuration file, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](/microsoftteams/rooms/xml-config-file#manage-console-settings-with-an-xml-configuration-file).
+
+At the device level, you can configure Cortana to be activated for:
+- _Push to talk_ using PowerShell  
+  - How to turn it on: Cortana _Push to talk_ is enabled by default for all devices that are set up with locale en-us regardless of the geographic region
+  - How to turn it off: use Powershell. 
+- _Voice Activation_ using XML configuration file or Teams admin center.
+  - How to turn it on: set `<CortanaWakeWord>true</>` in the XML configuration file or use the corresponding setting in Teams admin center
+  - How to turn it off: Cortana Voice Activation is off by default 
+  
+  Keep in mind that three conditions must be met to have Cortana _Voice Activation_ on your device:
+    1. Your organization must have Cortana enabled
+    2. Your device must be set up with one of the following locales: en-au, en-ca, en-gb, en-in, en-us
+    3. You must have a Cortana certified device connected to your Teams Room [Learn More](/microsoftteams/cortana-in-teams)   
+
 ### Device restart options
 
 Changes to device settings will only take effect after the devices have been restarted. When you make changes that need a restart, you can choose whether to restart the devices immediately or schedule a restart. Here are the available restart options:
@@ -119,7 +142,7 @@ To download logs from a Teams Rooms device to your computer, do the following:
 
 ## View device information
 
-From the Teams admin center, you an view the overall status of all devices in your organization and view details of each device individually.
+From the Teams admin center, you can view the overall status of all devices in your organization and view details of each device individually.
 
 ### Teams Rooms system dashboard
 

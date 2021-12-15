@@ -1,7 +1,7 @@
 ---
 title: Sign out of Microsoft Teams
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -27,7 +27,7 @@ We recommend for users to remain signed in to the Microsoft Teams app to continu
 - They want to use a different account
 - Because they're on a device that they share with another person
 
-For these reason and others, Teams allows you to sign out of the app and end your session.
+For these reasons and others, Teams allows you to sign out of the app and end your session.
 
 ## Account sharing between apps
 

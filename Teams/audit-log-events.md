@@ -30,7 +30,7 @@ The audit log can help you investigate specific activities across Microsoft 365 
 - Deleted channel
 - Changed channel setting
 
-For a complete list of Teams activities that are audited, see [Teams activities](#teams-activities) and [Shifts in Teams activities (in preview)](#shifts-in-teams-activities).
+For a complete list of Teams activities that are audited, see [Teams activities](#teams-activities) and [Shifts in Teams activities](#shifts-in-teams-activities).
 
 > [!NOTE]
 > Audit events from private channels are also logged as they are for teams and standard channels.
@@ -61,7 +61,7 @@ The length of time that an audit record is retained and searchable in the audit 
 
 Here are tips for searching for Teams activities in the audit log.
 
-![Screenshot of the audit log search page in the compliance center](media/audit-log-search-page.png)
+:::image type="content" alt-text="Screenshot of the audit log search page in the compliance center" source="media/audit-log-search-page.png" lightbox="media/audit-log-search-page.png":::
 
 - You can select specific activities to search for by clicking the checkbox next to one or more activities. If an activity is selected, you can click it to cancel the selection. You can also use the search box to display the activities that contain the keyword that you type.
 
@@ -75,46 +75,6 @@ Here are tips for searching for Teams activities in the audit log.
 
 Check out [this video](https://www.youtube.com/embed/UBxaRySAxyE) for using audio log search. Join Ansuman Acharya, a program manager for Teams, as he demonstrates how to do an audit log search for Teams.
 
-## Use Cloud App Security to set activity policies
-
-Using [Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security) integration, you can set [activity policies](/cloud-app-security/user-activity-policies) to enforce a wide range of automated processes using the app provider's APIs. These policies enable you to monitor specific activities carried out by various users, or follow unexpectedly high rates of one certain type of activity.
-
-After you set an activity detection policy, it starts to generate alerts. Alerts are only generated on activities that occur after you create the policy. Here's some example scenarios for how you can use activity policies in Cloud App Security to monitor Teams activities.
-
-### External user scenario
-
-One scenario you might want to keep an eye on, from a business perspective, is the addition of external users to your Teams environment. If external users are enabled, monitoring their presence is a good idea.  You can use [Cloud App Security](/cloud-app-security/what-is-cloud-app-security) to identify potential threats.
-
-![Policy to monitor adding external users.](media/TeamsExternalUserAddPolicy.png)
-
-The screenshot of this policy to monitor adding external users allows you to name the policy, set the severity according to your business needs, set it as (in this case) a single activity, and then establish the parameters that will specifically monitor only the addition of non-internal users, and limit this activity to Teams.
-
-The results from this policy can be viewed in the activity log:
-
-![Events triggered by external users policy.](media/TeamsExternalUserList.png)
-
-Here you can review matches to the policy you've set, and make any adjustments as needed, or export the results to use elsewhere.
-
-### Mass delete scenario
-
-As mentioned earlier, you can monitor deletion scenarios. It's possible to create a policy that would monitor mass deletion of Teams sites. In this example, an alert-based policy is set up to detect mass deletion of teams in a span of 30 minutes.
-
-![Policy showing the setting up of a policy for mass team deletion detection.](media/TeamsMassDeletePolicy.png)
-
-As the screenshot shows, you can set many different parameters for this policy to monitor Teams deletions, including severity, single or repeated action, and parameters limiting this to Teams and site deletion. This can be done independently of a template, or you may have a template created to base this policy on, depending on your organizational needs.
-
-After you establish a policy that works for your business, you can review the results in the activity log as events are triggered:
-
-![Screenshot events triggered by mass deletions.](media/TeamsMassDeleteList.png)
-
-You can filter down to the policy you've set to see the results of that policy. If the results you're getting in the activity log are not satisfactory (maybe you're seeing lots of results, or nothing at all), this may help you to fine-tune the query to make it more relevant to what you need it to do.
-
-### Alert and governance scenario
-
-You can set alerts and send emails to admins and other users when an activity policy is triggered. You can set automated governance actions such as suspending a user or making a user to sign in again in an automated way. This example shows how a user account can be suspended when an activity policy is triggered and determines a user deleted two or more teams in 30 minutes.
-
-![Screenshot of alerts and governance actions for an activity policy.](media/audit-log-governance.png)
-
 ## Teams activities
 
 Here's a list of all events that are logged for user and admin activities in Teams in the Microsoft 365 audit log. The table includes the friendly name that's displayed in the **Activities** column and the name of the corresponding operation that appears in the detailed information of an audit record and in the CSV file when you export the search results.
@@ -124,6 +84,8 @@ Here's a list of all events that are logged for user and admin activities in Tea
 |Added bot to team   |BotAddedToTeam        |A user adds a bot to a team.        |
 |Added channel   |ChannelAdded         |A user adds a channel to a team.         |
 |Added connector  |ConnectorAdded          |A user adds a connector to a channel.        |
+|Added details about Teams meeting <sup>2</sup>|MeetingDetail|Teams added information about a meeting, including the start time, the end time, and the URL to join the meeting.|
+|Added information about meeting participants <sup>2</sup>|MeetingParticipantDetail|Teams added information about the participants of a meeting, including the user ID of each participant, the time a participant joined the meeting, and the time a participant left the meeting.|
 |Added members    |MemberAdded         |A team owner adds members to a team, channel, or group chat.         |
 |Added tab    |TabAdded         |A user adds a tab to a channel.        |
 |Changed channel setting    |ChannelSettingChanged         |The ChannelSettingChanged operation is logged when the following activities are performed by a team member. For each of these activities, a description of the setting that was changed (shown in parentheses is displayed in the **Item** column in the audit log search results. <ul><li>Changes name of a team channel (**Channel name**)</li><li>Changes description of a team channel (**Channel description**)</li> </ul>      |
@@ -213,6 +175,46 @@ You can use the Office 365 Management Activity API to retrieve information about
 ## Attribution in Teams audit logs
 
 Membership changes to Teams (such as users added or deleted) made through Azure Active Directory (Azure AD), Microsoft 365 admin portal, or Microsoft 365 Groups Graph API will appear in Teams audit messages and in the General channel with an attribution to an existing owner of the team, and not to the actual initiator of the action. In these scenarios, consult Azure AD or [Microsoft 365 Group audit logs](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) to see the relevant information.
+
+## Use Cloud App Security to set activity policies
+
+Using [Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security) integration, you can set [activity policies](/cloud-app-security/user-activity-policies) to enforce a wide range of automated processes using the app provider's APIs. These policies enable you to monitor specific activities carried out by various users, or follow unexpectedly high rates of one certain type of activity.
+
+After you set an activity detection policy, it starts to generate alerts. Alerts are only generated on activities that occur after you create the policy. Here's some example scenarios for how you can use activity policies in Cloud App Security to monitor Teams activities.
+
+### External user scenario
+
+One scenario you might want to keep an eye on, from a business perspective, is the addition of external users to your Teams environment. If external users are enabled, monitoring their presence is a good idea.  You can use [Cloud App Security](/cloud-app-security/what-is-cloud-app-security) to identify potential threats.
+
+:::image type="content" alt-text="Policy to monitor adding external users." source="media/TeamsExternalUserAddPolicy.png" lightbox="media/TeamsExternalUserAddPolicy.png":::
+
+The screenshot of this policy to monitor adding external users allows you to name the policy, set the severity according to your business needs, set it as (in this case) a single activity, and then establish the parameters that will specifically monitor only the addition of non-internal users, and limit this activity to Teams.
+
+The results from this policy can be viewed in the activity log:
+
+:::image type="content" alt-text="Events triggered by external users policy." source="media/TeamsExternalUserList.png" lightbox="media/TeamsExternalUserList.png":::
+
+Here you can review matches to the policy you've set, and make any adjustments as needed, or export the results to use elsewhere.
+
+### Mass delete scenario
+
+As mentioned earlier, you can monitor deletion scenarios. It's possible to create a policy that would monitor mass deletion of Teams sites. In this example, an alert-based policy is set up to detect mass deletion of teams in a span of 30 minutes.
+
+:::image type="content" alt-text="Policy showing the setting up of a policy for mass team deletion detection." source="media/TeamsMassDeletePolicy.png" lightbox="media/TeamsMassDeletePolicy.png":::
+
+As the screenshot shows, you can set many different parameters for this policy to monitor Teams deletions, including severity, single or repeated action, and parameters limiting this to Teams and site deletion. This can be done independently of a template, or you may have a template created to base this policy on, depending on your organizational needs.
+
+After you establish a policy that works for your business, you can review the results in the activity log as events are triggered:
+
+:::image type="content" alt-text="Screenshot events triggered by mass deletions." source="media/TeamsMassDeleteList.png" lightbox="media/TeamsMassDeleteList.png":::
+
+You can filter down to the policy you've set to see the results of that policy. If the results you're getting in the activity log are not satisfactory (maybe you're seeing lots of results, or nothing at all), this may help you to fine-tune the query to make it more relevant to what you need it to do.
+
+### Alert and governance scenario
+
+You can set alerts and send emails to admins and other users when an activity policy is triggered. You can set automated governance actions such as suspending a user or making a user to sign in again in an automated way. This example shows how a user account can be suspended when an activity policy is triggered and determines a user deleted two or more teams in 30 minutes.
+
+![Screenshot of alerts and governance actions for an activity policy.](media/audit-log-governance.png)
 
 ## Use Cloud App Security to set anomaly detection policies
 

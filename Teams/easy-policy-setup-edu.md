@@ -1,7 +1,7 @@
 ---
 title: Teams for Education Policy Wizard to easily apply policies for safe learning
-author: cichur
-ms.author: v-cichur
+author: serdars
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: shajohri, angch
 ms.topic: article
@@ -100,21 +100,21 @@ In Teams, for a given policy area, a policy can be applied to a user in the foll
 - Assignment to a group the user is a member of
 - If the user isn't directly assigned a policy or isn't a member of any group that's assigned a policy, the user automatically gets the Global (Org-wide default) policy
 
-If more than one of these policy assignments exist for a user, Teams uses the following order to determine which policy assignment takes effect. For more info, see [Which policy takes precedence?](assign-policies.md#which-policy-takes-precedence) and [Precedence rules](assign-policies.md#precedence-rules).
+If more than one of these policy assignments exist for a user, Teams uses the following order to determine which policy assignment takes effect. For more info, see [Which policy takes precedence](policy-assignment-overview.md#which-policy-takes-precedence) or [Precedence rules for groups](assign-policies-users-and-groups.md#precedence-rules).
 
 |Policy assignments of a user|Policy that takes effect |
 |---------|---------|
 |Policy assigned to group: No<br/>Policy assigned directly to user: No    |Global (Org-wide) default policy      |
 |Policy assigned to group: No<br/>Policy assigned directly to user: Yes    |Policy assigned directly to user         |
 |Policy assigned to group: Yes<br/>Policy assigned directly to user: Yes     |Policy assigned directly to user         |
-|Policy assigned to group: Yes<br/>Policy assigned directly to user: No     |Policy assigned to group<br/><br/>If the user is a member of multiple groups and each group is assigned a policy of the same policy area, the policy that has the highest [group assignment ranking](assign-policies.md#group-assignment-ranking) takes effect.       |
+|Policy assigned to group: Yes<br/>Policy assigned directly to user: No     |Policy assigned to group<br/><br/>If the user is a member of multiple groups and each group is assigned a policy of the same policy area, the policy that has the highest [group assignment ranking](assign-policies-users-and-groups.md#group-assignment-ranking) takes effect.       |
 
 Because of this order, the policies created by the wizard won't take effect if a user has existing direct assignments or group assignments. This means that you'll have to remove the existing policy assignments from the user so the policy applied by the wizard takes effect.
 
 For each [policy area applied by the wizard](#policies-applied-by-the-wizard), do the following:
 
 - Remove all existing direct assignments and group assignments from your students so that the Global (Org-wide default) policy definition applied by the wizard takes effect.
-- Remove any conflicting direct assignments for your educators and staff so that the custom policy definition created by the wizard takes effect. Use the above table to determine the scenarios that apply to you. <br/><br/>Keep in mind that the wizard assigns policies to your educators and staff group using a [group assignment ranking](assign-policies.md#group-assignment-ranking) of 1, which is the highest ranking. If your educators and staff group has an existing policy of the same policy area assigned to it, that existing policy is moved to a lower ranking and the policy assigned by the wizard takes effect.
+- Remove any conflicting direct assignments for your educators and staff so that the custom policy definition created by the wizard takes effect. Use the above table to determine the scenarios that apply to you. <br/><br/>Keep in mind that the wizard assigns policies to your educators and staff group using a [group assignment ranking](assign-policies-users-and-groups.md#group-assignment-ranking) of 1, which is the highest ranking. If your educators and staff group has an existing policy of the same policy area assigned to it, that existing policy is moved to a lower ranking and the policy assigned by the wizard takes effect.
 
 [Learn more](batch-group-policy-assignment-edu.md#remove-a-policy-that-was-directly-assigned-to-users) about how to remove policies that are directly assigned to users.
 
@@ -196,34 +196,34 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 |Policy area |Sub-area  |Policy setting  |Primary or Secondary |Higher education |
 |---------|---------|---------|---------|---------|
 |Teams policy   |         |Create private channels         |Off       |On|
-|Meetings policy    |General         |Allow Meet now in channels         |Off      |On|
-|  |        |Allow the Outlook add-in         |Off       |On|
-|  |        |Allow channel meeting scheduling        |Off      |On|
-|  |        |Allow scheduling private meetings       |Off      |On|
-|  |        |Allow meeting registration              |On       |On|
+|Meetings policy    |General         |Meet now in channels         |Off      |On|
+|  |        |Outlook add-in         |Off       |On|
+|  |        |Channel meeting scheduling        |Off      |On|
+|  |        |Private meeting scheduling       |Off      |On|
+|  |        |Meeting registration              |On       |On|
 |  |        |Who can register    |Everyone in the organization      |Everyone in the organization|
-|  |Audio & video        |Allow transcription        |On       |On|
-|  |        |Allow cloud recording         |Off      |On|
+|  |Audio & video        |Transcription        |On       |On|
+|  |        |Cloud recording         |Off      |On|
 |  |        |Mode for IP audio       |Outgoing and incoming audio enabled        |Outgoing and incoming audio enabled|
 |  |        |Mode for IP video         |Outgoing and incoming video enabled     |Outgoing and incoming video enabled|
-|  |       |Allow IP video         |On         |On|
+|  |       |IP video         |On         |On|
 |  |       |Allow NDI streaming         |Off         |Off|
 |  |       |Media bit rate (Kbs)         |50,000         |50,000|
 |  |Content sharing       |Screen sharing mode         |Entire screen         |Entire screen|
 |  |       |Allow a participant to give or request control         |On         |On|
 |  |       |Allow an external participant to give or request control         |On         |On|
-|  |       |Allow PowerPoint sharing        |On         |On|
-|  |       |Allow whiteboard         |On         |On|
-|  |       |Allow shared notes         |On        |On|
+|  |       |PowerPoint sharing        |On         |On|
+|  |       |Whiteboard         |On         |On|
+|  |       |Shared notes         |On        |On|
 |  |Participants & guests       |Let anonymous people start a meeting       |Off         |On|
 |  |       |Roles that have presenter rights in meetings        |EveryoneUserOverride         |EveryoneUserOverride|
 |  |       |Automatically admit people        |EveryoneInCompany|EveryoneInCompany|
 |  |       |Allow dial-in users to bypass the lobby        |Off         |Off|
-|  |       |Allow Meet now in private meetings        |Off         |On|
-|  |       |Enable live captions       |Disabled but user can override         |Disabled but user can override|
-|  |       |Allow chat in meetings         |On         |On|
-|Live events policy  |       |Allow scheduling         |Off         |Off|
-|  |       |Allow transcription for attendees          |On       |On|
+|  |       |Meet now in private meetings        |Off         |On|
+|  |       |Live captions       |Disabled but user can override         |Disabled but user can override|
+|  |       |Chat in meetings         |On         |On|
+|Live events policy  |       |Live events scheduling         |Off         |Off|
+|  |       |Transcription for attendees          |On       |On|
 |  |       |Who can join scheduled live events        |Everyone in organization        |Everyone in organization|
 |  |       |Who can record an event         |Always         |Always|
 |Messaging policy  |       |Owners can delete sent messages         |Off|On|
@@ -231,13 +231,13 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 |  |       |Edit sent messages         |Off         |On|
 |  |       |Read receipts         |User controlled         |User controlled|
 |  |       |Chat         |Off         |On|
-|  |       |Use Giphys in conversations         |Off         |On|
+|  |       |Giphys in conversations         |Off         |On|
 |  |       |Giphy content rating         |Strict        |Strict|
-|  |       |Use Memes in conversations         |On         |On|
-|  |       |Use Stickers in conversations         |On         |On|
-|  |       |Allow URL previews        |On         |On|
+|  |       |Memes in conversations         |On         |On|
+|  |       |Stickers in conversations         |On         |On|
+|  |       |URL previews        |On         |On|
 |  |       |Translate messages         |On         |On|
-|  |       |Allow immersive reader for viewing messages        |On      |On|
+|  |       |Immersive reader for messages        |On      |On|
 |  |       |Send urgent messages using priority notifications  |Off         |On|
 |  |       |Create voice messages         |Allowed in chats and channels         |Allowed in chats and channels|
 |  |       |On mobile devices, display favorite channels above recent chats     |Enabled         |Enabled|
@@ -246,7 +246,7 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 |  |       |Third-party apps         |Allow all apps         |Allow all apps|
 |  |       |Custom apps         |Allow all apps         |Allow all apps|
 |App setup policy  |           |Upload custom apps           |Off         |Off|
-|  |       |Allow user pinning |On         |On|
+|  |       |User pinning |On         |On|
 |  |       |Installed apps         |None         |None|
 |  |       |Pinned apps         |Activity, Calendar, Teams         |Activity, Chats, Teams, Calendar, Calling, File
 |Calling policy  |       |Make private calls         |Off        |On|
@@ -266,34 +266,34 @@ Here's a list of the custom policy definitions assigned to the educators and sta
 |Policy area |Sub-area  |Policy setting  |Primary or Secondary |Higher education |
 |---------|---------|---------|---------|---------|
 |Teams policy   |         |Create private channels         |On       |On|
-|Meetings policy    |General         |Allow Meet now in channels         |On      |On|
-|  |        |Allow the Outlook add-in         |On       |On|
-|  |        |Allow channel meeting scheduling        |On      |On|
-|  |        |Allow scheduling private meetings       |On      |On|
-|  |        |Allow meeting registration              |On       |On|
+|Meetings policy    |General         |Meet now in channels         |On      |On|
+|  |        |Outlook add-in         |On       |On|
+|  |        |Channel meeting scheduling        |On      |On|
+|  |        |Private meeting scheduling       |On      |On|
+|  |        |Meeting registration              |On       |On|
 |  |        |Who can register    |Everyone in the organization      |Everyone in the organization|
-|  |Audio & video        |Allow transcription        |On       |On|
-|  |        |Allow cloud recording         |On      |On|
+|  |Audio & video        |Transcription        |On       |On|
+|  |        |Cloud recording         |On      |On|
 |  |        |Mode for IP audio       |Outgoing and incoming audio enabled        |Outgoing and incoming audio enabled|
 |  |        |Mode for IP video         |Outgoing and incoming video enabled     |Outgoing and incoming video enabled|
-|  |       |Allow IP video         |On         |On|
+|  |       |IP video         |On         |On|
 |  |       |Allow NDI streaming         |Off         |Off|
 |  |       |Media bit rate (Kbs)         |50,000         |50,000|
 |  |Content sharing       |Screen sharing mode         |Entire screen         |Entire screen|
 |  |       |Allow a participant to give or request control         |On         |On|
 |  |       |Allow an external participant to give or request control         |On         |On|
-|  |       |Allow PowerPoint sharing        |On         |On|
-|  |       |Allow whiteboard         |On         |On|
-|  |       |Allow shared notes         |On        |On|
+|  |       |PowerPoint sharing        |On         |On|
+|  |       |Whiteboard         |On         |On|
+|  |       |Shared notes         |On        |On|
 |  |Participants & guests       |Let anonymous people start a meeting       |On        |On|
 |  |       |Roles that have presenter rights in meetings        |OrganizerOnlyUserOverride         |OrganizerOnlyUserOverride|
 |  |       |Automatically admit people        |OrganizerOnly|OrganizerOnly|
 |  |       |Allow dial-in users to bypass the lobby        |Off         |Off|
-|  |       |Allow Meet now in private meetings        |On         |On|
-|  |       |Enable live captions       |Disabled but user can override         |Disabled but user can override|
-|  |       |Allow chat in meetings         |On         |On|
-|Live events policy  |       |Allow scheduling         |On         |On|
-|  |       |Allow transcription for attendees          |On       |On|
+|  |       |Meet now in private meetings        |On         |On|
+|  |       |Live captions       |Disabled but user can override         |Disabled but user can override|
+|  |       |Chat in meetings         |On         |On|
+|Live events policy  |       |Live events scheduling         |On         |On|
+|  |       |Transcription for attendees          |On       |On|
 |  |       |Who can join scheduled live events        |Everyone in organization        |Everyone in organization|
 |  |       |Who can record an event         |Always record         |Always record|
 |Messaging policy  |       |Owners can delete sent messages         |On|On|
@@ -301,13 +301,13 @@ Here's a list of the custom policy definitions assigned to the educators and sta
 |  |       |Edit sent messages         |On         |On|
 |  |       |Read receipts         |User controlled         |User controlled|
 |  |       |Chat         |On         |On
-|  |       |Use Giphys in conversations         |On        |On|
+|  |       |Giphys in conversations         |On        |On|
 |  |       |Giphy content rating         |Strict        |Strict|
-|  |       |Use Memes in conversations         |On         |On|
-|  |       |Use Stickers in conversations         |On         |On|
-|  |       |Allow URL previews        |On         |On|
+|  |       |Memes in conversations         |On         |On|
+|  |       |Stickers in conversations         |On         |On|
+|  |       |URL previews        |On         |On|
 |  |       |Translate messages         |On         |On|
-|  |       |Allow immersive reader for viewing messages        |On      |On|
+|  |       |Immersive reader for messages        |On      |On|
 |  |       |Send urgent messages using priority notifications  |On         |On|
 |  |       |Create voice messages         |Allowed in chats and channels         |Allowed in chats and channels|
 |  |       |On mobile devices, display favorite channels above recent chats     |Enabled         |Enabled|

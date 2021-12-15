@@ -105,3 +105,5 @@ The following table shows the calling and meeting features available to guests, 
 ## Related topics
 
 [Leave an organization as a guest](/azure/active-directory/b2b/leave-the-organization)
+
+[Use guest access and external access to collaborate with people outside your organization](communicate-with-users-from-other-organizations.md)

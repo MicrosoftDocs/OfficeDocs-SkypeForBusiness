@@ -1,7 +1,7 @@
 ---
 title: Manage live components in Teams
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: conceptual
@@ -23,6 +23,8 @@ appliesto:
 # Manage live components in Teams
 
 Live components in Teams chat offer a new way to ideate, create, and make decisions together. Send a component—like a table, task list, or paragraph—where everyone in your chat can edit inline and see changes as they’re made. This means you can gather ideas and feedback from your team while holding fewer meetings and minimizing the need for long chat threads.
+> [!Note]
+> Live components is the first feature of the [Microsoft Loop app](https://www.microsoft.com/en-us/microsoft-loop) to become available in Teams. Please note that "Live components" will be renamed "Loop components" in early 2022.
 
 **Get tasks done faster together.** Crowd-source an agenda, track a group's action items, or take notes collectively. These are just a few scenarios made easier with live components.
 
@@ -33,8 +35,6 @@ Live components in Teams chat offer a new way to ideate, create, and make decisi
 ## Clients and platforms
 
 Available on Teams apps on Windows, Mac, Linux, iOS, and Android.
-
-Starting in Early September, live components will be available globally. In late September, it will be available for Government Community Cloud Mod (GCC).
 
 ## Settings management
 
@@ -50,7 +50,7 @@ You'll need the latest version of [SharePoint Online PowerShell module](/office
 
 3. Verify the value of IsFluidEnabled is **true**.
 
-## Enabling the Fluid Framework through the SharePoint Online PowerShell Cmdlet 
+## Enabling the Fluid Framework through the SharePoint Online PowerShell Cmdlet
 
 1. [Connect to SharePoint Online PowerShell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps#to-connect-with-a-user-name-and-password). 
 
@@ -76,21 +76,42 @@ cmdlet Connect-SPOService at command pipeline position 1
 
 Supply values for the following parameters:
 Url: <https://a830edad9050849822e21011208-admin.sharepoint.com/>
-PS C:\\WINDOWS\\system32&gt; set-SPOTenant -isFluidEnabled $false
+PS C:\\WINDOWS\\system32&gt; set-SPOTenant -isFluidEnabled $true
 PS C:\\WINDOWS\\system32&gt;
 ```
+## Known issues
+
+- Live components in chat cannot be edited via Office app when using Teams on Android.
+
+- If tenant default file permissions are set to **Specific people (only the people the user specifies)**, and the sender removes some users from the Specific people list in the permissions dialog when creating a component, those users may still have access to the content. This issue is due to the access management limitation of the permission dialog and will be fixed in the future release.
+
+- If the tenant's Conditional Access Policy settings prevent client network to connect to `https://pushchannel.1drv.ms`,  live components will not work as expected for saving real time changes to the service.
 
 ## Known limitations
 
-- Creating a table or a task list as the first component after the Teams app is restarted may take some extra time.
+- Searching for live components in Teams search will return a link to the component in office.com, not the chat message itself.
 
-- Other chat members will receive an email notification when mentioned with an at (@) symbol. (At-mentions notifications in the Teams activity feed will be available soon.)
+- Live components are disabled in federated chats.
 
-- Searching for live components within Teams search will return a link to the component in office.com, not the chat message itself.
+- B2B guests will not be able to collaborate on live component that is shared with them via Company Share Link unless tenant sets external access option to allow B2B guests have same access level as tenant members.
 
-- Live components are disabled in federated chats and enabled for regular chats with a Guest account using Azure B2B.
+- Teams Web client full support of Live components will be available soon.
 
-- While you can share a component in Teams channels and other Microsoft 365 apps, recipients get a link in most places at this time. Inline editing is planned for more experiences in the future.
+- Live components are not supported in Teams channels yet, but their inline editing in channels is planned for more experiences in the future.
+
+- With tenant default file permissions set to **Specific people (only the people the user specifies)**, copying link to live component and pasting in another chat requires the sender to use permissions dialog and add the recipients in the Specific people option to grant access properly.
+
+- With tenant default file permissions set to **Specific people (only the people the user specifies)**, creating a live component in group chat with more than 20 members will require the sender to manually select the permission options for the component.
+
+- Live components in chat will not load only if file was moved to different library. If file is moved to different folder then it will continue to load in chat.
+
+## How to check your tenant's default file permissions
+
+1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com/).
+
+2. At the left, under **Admin centers**, select **SharePoint**.
+
+3. Select **Policies** > **Sharing**, and under **File and folder links**, view your tenant's default file permissions.
 
 ## Storage of `.fluid` files
 
