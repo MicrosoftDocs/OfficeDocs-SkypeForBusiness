@@ -110,7 +110,7 @@ The following table lists training available to the end users in your organizati
 | Training | Description | 
 |----------|--------|
 | [Get started with Teams webinars](https://support.microsoft.com/office/get-started-with-teams-webinars-42f3f874-22dc-4289-b53f-bbc1a69013e3) | A quick training video for users who are new to Teams webinars. |
-| [Visual quick start guide](https://teamworktools.azurewebsites.net/assets/TeamsWebinarsGetStartedGuide.pdf) | A downloadable visual guide that describes how to start scheduling webinars.  |
+| [Visual quick start guide](https://adoption.microsoft.com/files/assets/TeamsWebinarsGetStartedGuide.pdf) | A downloadable visual guide that describes how to start scheduling webinars.  |
 ||
 
 
