@@ -59,9 +59,9 @@ Review the following information to get an understanding of the overall integrat
 
 ### Request access to the Teams app
 
-You'll also need to request access to the Teams app. 
+You'll need to request access to the Teams app.
 
-1. Request to download the Teams app in the [Epic App Orchard marketplace](https://apporchard.epic.com/Gallery?id=6153). This action triggers a request from Epic to the Microsoft EHR connector team.
+1. Request to download the Teams app in the [Epic App Orchard marketplace](https://apporchard.epic.com/Gallery?id=6153). Doing this triggers a request from Epic to the Microsoft EHR connector team.
 1. After you make your request, send an email to [TeamsForHealthcare@microsoft.com](mailto:TeamsForHealthcare@microsoft.com) with your organization name, tenant ID, and the email address of your Epic technical contact.
 1. The Microsoft EHR connector team will respond to your email with confirmation of enablement.
 
@@ -110,9 +110,11 @@ Your Microsoft 365 admin can configure a single organization or multiple organiz
 
 Next, to set up the integration, your Microsoft 365 admin does the following:
 
-1. Adds a Fast Health Interoperability Resources (FHIR) base URL from your Epic technical specialist and specifies the environment.
+1. Adds a Fast Health Interoperability Resources (FHIR) base URL from your Epic technical specialist and specifies the environment. Configure as many FHIR base URLs as needed, depending on your organization’s needs and the environments you want to test.
 
-    The FHIR base URL is a static address that corresponds to your server FHIR API endpoint. An example URL is `https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST`.
+    - The FHIR base URL is a static address that corresponds to your server FHIR API endpoint. An example URL is `https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST`.
+
+    - You can set up the integration for test and production environments. For initial setup, we encourage you to configure the connector from a test environment before moving to production.
 
 1. Adds the user name of the Epic customer analyst who will be approving the configuration in a later step.
 
