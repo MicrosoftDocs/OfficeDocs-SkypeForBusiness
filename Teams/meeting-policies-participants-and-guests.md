@@ -100,7 +100,7 @@ To enable meeting policy settings, you can use the [Teams Admin Center](https://
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity Global -AutoAdmittedUsers "Everyone" -AllowAnonymousUsersToStartMeeting $True -AllowPSTNUsersToBypassLobby $True
 ```
-Once you’ve set up a policy, you need to apply it to users; or, if you modified the global policy, it will automatically apply to users. For any policy change, you need to wait at least 4 hours, and up to 24 hours, for the change to take effect.
+Once you’ve set up a policy, you need to apply it to users; or, if you modified the global policy, it will automatically apply to users. For any policy change, you need to wait at least four hours, and up to 24 hours, for the change to take effect.
 
 
 ## Related topics
