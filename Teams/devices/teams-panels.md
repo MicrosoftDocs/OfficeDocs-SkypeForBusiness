@@ -43,7 +43,10 @@ To learn more about these features and how to use them, see [Use Microsoft Teams
 You can acquire your Teams panels devices from one of the following partners:
 
 - Crestron
+- Logitech
 - Yealink
+
+[Currently certified Teams panels](https://docs.microsoft.com/en-us/microsoftteams/devices/teams-ip-phones#currently-certified-teams-panels)
 
 ## Teams panels requirements
 
