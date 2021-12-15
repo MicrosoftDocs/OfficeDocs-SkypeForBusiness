@@ -112,8 +112,10 @@ In addition to the minimum requirements, the following cloud app must be exclude
 
 - Skype for Business Online
 
+Microsoft Teams Rooms does not support the device compliance check for Skype for Business Online authentication.  If Skype for Business Online sign-in is not required for your Microsoft Teams Rooms deployment, the exclusion from the _Conditional Access policy_ is not required.
+
 > [!NOTE]
-> Microsoft Teams Rooms does not support the device compliance check for Skype for Business Online authentication.  If Skype for Business Online sign-in is not required for your Microsoft Teams Rooms deployment, the exclusion from the _Conditional Access policy_ is not required.
+> Device compliance conditional access is supported for Azure Active Directory Join cloud only deployments. Hybrid Azure Active Directory Join is not supported at this time.
 
 To learn more, see [Conditional Access: Block access by location](/azure/active-directory/conditional-access/howto-conditional-access-policy-location) and [Conditional Access: Require compliant devices](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device).
 
