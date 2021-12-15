@@ -153,3 +153,11 @@ Built-in badge sets can't be modified, so when a built-in set is enabled, all ba
 |Self-awareness    |[Self-awareness PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-awareness-badge.png)|#FFFFFF    |#1680E5|
 |Self-management   |[Self-management PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-management-badge.png)|#FFFFFF    |#4C144D|
 |Thoughtfulness    |[Thoughtfulness PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/thoughtfulness-badge.png)|#FFFFFF    |#EE4086|
+
+## Upcoming changes
+
+Starting in January 2022, what's currently available for badges will change. Social and emotional learning badges for education, including self-awareness and self-management, will no longer be available.
+
+The **Create a custom badge** option will also no longer be available as of January 2022.
+
+Additionally, the **Status** toggle in the Teams admin center that allows or block Praise will affect both the Praise app and the Praise feature in the Viva Insights app in Teams.
