@@ -33,7 +33,7 @@ We recommend that you review our [upgrade guidance](https://aka.ms/SkypeToTeams)
 
 ## Notifications for scheduled customers
 
-Skype for Business Online customers that are scheduled for assisted upgrades to Teams will receive a series of upgrade notifications. These notifications will begin 90 days before the scheduled upgrade date. These notifications will be delivered as *Plan for Change* posts in the Microsoft 365 Message Center, upgrade dashboard notifications in Teams admin center, and in-app flags to end users.
+Skype for Business Online customers that are scheduled for assisted upgrades to Teams will receive a series of upgrade notifications. These notifications will begin 30 days before the scheduled upgrade date. These notifications will be delivered as *Plan for Change* posts in the Microsoft 365 Message Center, upgrade dashboard notifications in Teams admin center, and in-app flags to end users.
 
 Upgrade notifications will include the scheduled date of the assisted upgrade, and will link to upgrade resources and training to help drive adoption and usage of Teams.
 
