@@ -24,7 +24,7 @@ appliesto:
 
 # Identity best practices for Teams Android devices
 
-With the increase in adoption of Teams Android devices, customers need guidance on best practices for deploying authentication policies for their Microsoft Teams phones and calling devices, specifically those deployed in conference rooms or common areas. Although Teams devices are built on the Android operating system, a policy meant for Android mobile phones may not apply to Teams devices owned by the tenant.
+With the increase in adoption of Teams Android devices, customers need guidance on best practices for deploying authentication policies for their Microsoft Teams Phones and calling devices, specifically devices deployed in conference rooms or common areas. Although Teams devices are built on the Android operating system, a policy meant for Android mobile phones may not apply to Teams devices owned by the tenant.
 
 This article provides general guidance and answers for some of the frequently encountered scenarios related to authentication and Conditional Access policies for Teams devices.
 
@@ -40,7 +40,7 @@ Devices are usually signed out for one key reason: accounts used on Teams device
 
 2.  **Devices fail to sign in due to conditional access policies**
 
-When accounts on Teams shared devices are grouped with regular users or user-based devices for Azure AD Conditional Access policies, these devices fail to sign in and end up in a bad state, as these non-human accounts cannot complete required actions to meet conditional access requirements. For instance, if multi-factor authentication (MFA) is required for accessing Teams, these accounts require user intervention to complete second-factor authentication. As a result, Teams device deployments will not function as expected. Similarly, if the account is configured to re-authenticate every X days, a common-area device cannot resolve the challenge without user intervention.
+When accounts on Teams shared devices are grouped with regular users or user-based devices for Azure AD Conditional Access policies, these devices fail to sign in and end up in a bad state, as these non-human accounts cannot complete required actions to meet conditional access requirements. For instance, if multi-factor authentication (MFA) is required for accessing Teams, these accounts require user intervention to complete second-factor authentication. As a result, Teams device deployments will not function as expected. Similarly, if the account is configured to reauthenticate every X days, a common-area device cannot resolve the challenge without user intervention.
 
 ## Best practices for Teams shared device deployments 
 
@@ -54,7 +54,7 @@ To avoid disruptions caused by password expiry, Microsoft recommends that passwo
 
 Starting with Teams devices CY21 [Update #1](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones) (Teams version 1449/1.0.94.2021022403 for Teams phones) and [CY2021 Update #2](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_Rooms_on_Android) (Teams version 1449/1.0.96.2021051904 for Microsoft Teams Rooms on Android), tenant administrators can sign into Teams devices remotely. So, instead of giving out the password for these accounts to technicians to set up devices, IT administrators can instead issue verification codes and then sign into these devices themselves from the Teams admin center.
 
-See [Remote provisioning and sign in for Teams Android devices](/MicrosoftTeams/devices/remote-provision-remote-login) for more details. 
+For more information, see [Remote provisioning and sign in for Teams Android devices](/MicrosoftTeams/devices/remote-provision-remote-login). 
 
 ### **Conditional Access policies** 
 
