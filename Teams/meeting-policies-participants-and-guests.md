@@ -95,7 +95,7 @@ This setting is a per-participant setting. This setting controls whether meeting
 
 <a name="bkparticipantsandguests"> </a>
 
-## How to enable meeting policy settings
+## Enable meeting policy settings
 To enable meeting policy settings, you can use the [Teams Admin Center](https://admin.teams.microsoft.com/policies/meetings) (Meeting Policies > Edit a policy > Participants & guests) or you can use the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) cmdlet in Teams PowerShell. Here is an example of using PowerShell to modify the global meeting policy to allow anyone to start or join a meeting:
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity Global -AutoAdmittedUsers "Everyone" -AllowAnonymousUsersToStartMeeting $True -AllowPSTNUsersToBypassLobby $True
