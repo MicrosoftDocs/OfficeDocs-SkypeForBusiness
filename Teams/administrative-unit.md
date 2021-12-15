@@ -29,13 +29,13 @@ For example, Contoso has operations around the globe. Alice is a global IT admin
 
 ## Add administrative units
 
-If you're a global admin, you can add administrative units. To learn how, see [Add an administrative unit](https://docs.microsoft.com/en-us/azure/active-directory/roles/admin-units-manage#add-an-administrative-unit).
+If you're a global admin, you can add administrative units. To learn how, see [Add an administrative unit](https://docs.microsoft.com/azure/active-directory/roles/admin-units-manage#add-an-administrative-unit).
 
 ## Assign admins to administrative units
 
 If you're a global admin, you can use the Azure portal, PowerShell, or the Microsoft Graph API to assign admins to an administrative unit. 
 
-- **Use the Azure portal to assign admins to an administrative uni**. As a global admin, you can use the Azure portal to assign admins to an administrative unit. To learn how, see [Assign Azure AD roles with administrative unit scope](https://docs.microsoft.com/en-us/azure/active-directory/roles/admin-units-assign-roles).
+- **Use the Azure portal to assign admins to an administrative uni**. As a global admin, you can use the Azure portal to assign admins to an administrative unit. To learn how, see [Assign Azure AD roles with administrative unit scope](https://docs.microsoft.com/azure/active-directory/roles/admin-units-assign-roles).
 
 - **Use PowerShell to assign admins to an administrative uni**. As a global admin, you can use this PowerShell cmdlet to assign admins to an administrative unit: [Add-AzureADMSScopedRoleMembership](/powershell/module/azuread/add-azureadmsscopedrolemembership?view=azureadps-2.0). To learn how, see [Add users to an administrative unit](https://docs.microsoft.com/azure/active-directory/roles/admin-units-add-manage-users#add-users-to-an-administrative-unit).
 
