@@ -86,6 +86,10 @@ When we receive your port order, you'll get an email that verifies your request.
 
 To view the status of your port order, in the left navigation of the Microsoft Teams admin center, go to  > **Voice** > **Port orders**, and then click **Order history**. Each port order status is listed in the **Status** column. To learn more, see [What's the status of your port orders?](port-order-status.md)
 
+
+## Reporting Telephone Number Issues?
+If you notice any issue with the ported numbers within the first 24-48 hrs. after the port completed, please contact the [TNS Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md). For any issue outside 48 hrs., please MS Support Team.
+
 ## Related topics
 
 - [What's a port order?](port-order-overview.md)
