@@ -65,7 +65,7 @@ Option 2
 |---------|---------|---------|---------|---------|
 |**Action**: You [request access to the Teams app](#request-access-to-the-teams-app). <br> **Outcome**: We authorize your organization for testing.|**Action**: We create a public and private key certificate and upload to Epic. <br> **Outcome**: Epic syncs the public key certificate.|**Action**: You complete configuration steps in the EHR connector configuration portal. <br> **Outcome**: You receive FDI records for Epic configuration.| **Action**: You work with your Epic technical specialist to configure FDI records in Epic.<br> **Outcome**: Configuration completed. Ready to test.|**Action**: You complete testing in your test environment.<br> **Outcome**: Full validation of flows and decision to move to production.|
 
-:::image type="content" source="media/ehr-admin-epic-flow.png" alt-text="Image summarizing the steps in the overall integration process.":::
+:::image type="content" source="../../media/teams-ehr-connector-epic-flow.png" alt-text="Image summarizing the steps in the overall integration process.":::
 
 ### Request access to the Teams app
 
@@ -140,18 +140,26 @@ To enable SMS notifications, your Microsoft 365 admin does the following:
 
     - Allow Microsoft to send SMS notifications to patients on behalf of your organization.
     - Acknowledge that you'll ensure attendees have consented to send and receive SMS messages.
+    
+    :::image type="content" source="../../media/teams-ehr-connector-sms-notifications.png" alt-text="Screenshot of the SMS notifications page, showing consent check boxes and the option to generate a phone number." lightbox="../../media/teams-ehr-connector-sms-notifications.png":::
 
 1. Under **Your phone numbers**, select **Generate a new phone number** to generate a phone number for your organization. Doing this starts the process to request and generate a new phone number. This process might take up to 2 minutes to complete.
 
     After the phone number is generated, it's displayed on the screen. This number will be used to send SMS confirmations and reminders to your patients. The number has been provisioned but isn’t linked to the FHIR base URL yet. You do that in the next step.
 
+    :::image type="content" source="../../media/teams-ehr-connector-phone-number.png" alt-text="Screenshot showing an example of the phone number that's generated." lightbox="../../media/teams-ehr-connector-phone-number.png":::
+
     Choose **Done**, and then select **Next**.
 
 1. To link the phone number to a FHIR base URL, under **Phone number** in the **SMS configuration** section, select the number. Do this for each FHIR base URL for which you want to enable SMS notifications.
 
+    :::image type="content" source="../../media/teams-ehr-connector-link-phone-number.png" alt-text="Screenshot showing how to link a phone number to a FHIR base URL." lightbox="../../media/teams-ehr-connector-link-phone-number.png":::
+
     If this is the first time you’re configuring the connector, you’ll see the FHIR base URL that was entered in the earlier step. The same phone number can be linked to multiple FHIR base URLs, which means that patients will receive SMS notifications from the same phone number for different organizations and/or departments.
 
 1. Select **SMS setup** next to each FHIR base URL to set up the types of SMS notifications to send to your patients.
+
+    :::image type="content" source="../../media/teams-ehr-connector-sms-setup.png" alt-text="Screenshot showing how to link a phone number to a FHIR base URL." lightbox="../../media/teams-ehr-connector-sms-setup.png":::
 
     - **Confirmation SMS**: Notifications are sent to patients when a virtual visit is scheduled, updated, or canceled in the EHR system.
     - **Reminder SMS**: Notifications are sent to patients according to the time interval you specify and the scheduled time of the virtual visit.
