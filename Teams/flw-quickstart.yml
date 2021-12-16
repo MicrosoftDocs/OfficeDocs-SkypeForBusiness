@@ -109,9 +109,6 @@ items:
 
     ### Configure and assign policy packages
 
-    > [!NOTE]
-    > As an alternative to configuring and assigning policy packages, you can configure and assign individual policies to frontline workers and frontline managers. To learn more, see the "Configure and assign an app setup policy and a messaging policy" section later in this article.
-
     A [policy package](manage-policy-packages.md) in Teams is a collection of predefined policies and policy settings that you can assign to users who have similar roles in your organization. Policy packages simplify, streamline, and help provide consistency when managing policies.
     You can customize the settings of the policies in the package to suit the needs of your users. When you change the settings of policies in a policy package, all users who are assigned to that package get the updated settings. You can manage policy packages by using the Microsoft Teams admin center or PowerShell.
 
@@ -174,67 +171,6 @@ items:
     Use batch policy package assignment to assign a policy package to large sets of users at a time. You use the [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) cmdlet to submit a batch of users and the policy package that you want to assign. The assignments are processed as a background operation and an operation ID is generated for each batch.
 
     A batch can contain up to 5,000 users. You can specify users by their object Id, UPN, SIP address, or email address. To learn more, see [Assign a policy package to a batch of users](assign-policy-packages.md#assign-a-policy-package-to-a-batch-of-users).
-
-    ### Configure and assign an app setup policy and a messaging policy
-
-    > [!NOTE]
-    > As an alternative to configuring and assigning individual policies, you can configure and assign a policy package to frontline workers and frontline managers.
-
-    #### Configure an app setup policy
-    Create a custom app setup policy based on the decisions in Step 2.
-
-    1. In the left navigation of the [Microsoft Teams admin center](https://admin.teams.microsoft.com/), go to **Teams apps > Setup policies**.
-    1. Select **Add** (There is a default FirstLineWorker policy you may choose to use instead of creating a custom policy).
-    1. Enter a descriptive name for the policy. Remove and re-arrange the pinned apps to match your desired state. Click **Add apps** to add any third-party applications or custom line of business applications you would like to include.
-
-        :::image type="content" source="media/firstline-worker-pinned-apps.png" alt-text="Screenshot of a list of pinned apps":::
-
-    #### Configure a messaging policy
-    Create a custom messaging policy based on the decisions in Step 2. If you are choosing to enable priority notifications, voice messages, or the “Show favorite channels in chat” configuration, then you will need to set up a frontline worker specific messaging policy.
-
-    1. In the left navigation of the [Microsoft Teams admin center](https://admin.teams.microsoft.com/), go to **Messaging policies**.
-    1. Select **Add**.
-    1. Enter a descriptive name for the policy and configure the settings as desired to meet the decisions in Step 2.
-
-    ### Assign the app setup policy and messaging policy to users
-
-    #### Using the Microsoft Teams admin center
-
-    Assign the app setup policy and messaging policy to your pilot users.
-
-    1. In the left navigation of the [Microsoft Teams admin center](https://admin.teams.microsoft.com/), select **Users**.
-
-    2. Search for the pilot users by name.
-
-        :::image type="content" source="media/firstline-worker-users-page.png" alt-text="Screenshot of Users page in the Teams admin center":::
-
-    3. Click the user's display name to open the user details page.
-    4. Next to **Assigned policies**, select **Edit**.
-
-        :::image type="content" source="media/firstline-worker-user-details-page.png" alt-text="Screenshot of user details page":::
-
-    5. Under **App setup policy**, select the policy created for your pilot, and then click **Save**.
-    6. Under **Messaging policy**, select the policy created for your pilot, and then click **Save**.
-
-        :::image type="content" source="media/firstline-worker-edit-user-policies.png" alt-text="Screenshot of Edit user policies pane":::
-
-    7. Repeat these steps for all pilot users.
-
-    #### Assign a policy based on group membership or at scale through a batch assignment
-
-    If you have a large volume of users to which you want to assign a policy, you can assign a policy to a group that users are a member or at scale through a batch assignment or
-
-    ##### Assign a policy to a group
-
-    Policy assignment to groups let you assign a policy to a group of users, such as a security group or distribution list. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly. This method is recommended for groups of up to 50,000 users but will also work with larger groups.
-
-    To learn more, see [Assign a policy to a group](assign-policies-users-and-groups.md#assign-a-policy-to-a-group).
-    
-    ##### Assign a policy to a large set (batch) of users
-
-    Use batch policy assignment to assign a policy to large sets of users at a time. You use the [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet to submit a batch of users and the policy package that you want to assign. The assignments are processed as a background operation and an operation ID is generated for each batch.
-
-    A batch can contain up to 5,000 users. You can specify users by their object Id, UPN, SIP address, or email address. To learn more, see [Assign a policy to a batch of users](assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users).
     
     ### Set up your pilot team
     Configure the initial team for the pilot users identified in Step 2.
