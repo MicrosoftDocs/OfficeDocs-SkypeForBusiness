@@ -96,11 +96,15 @@ This setting is a per-participant setting. This setting controls whether meeting
 <a name="bkparticipantsandguests"> </a>
 
 ## Enable meeting policy settings
-To enable meeting policy settings, you can use the [Teams Admin Center](https://admin.teams.microsoft.com/policies/meetings) (**Meeting Policies** > **Edit a policy** > **Participants & guests**) or you can use the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) cmdlet in Teams PowerShell. Here is an example of using PowerShell to modify the global meeting policy to allow anyone to start or join a meeting:
+To enable meeting policy settings, you can use the [Teams admin center](https://admin.teams.microsoft.com/policies/meetings) (**Meeting Policies** > **Edit a policy** > **Participants & guests**) or the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) cmdlet in Teams PowerShell. 
+
+In this example, we use PowerShell to modify the global meeting policy to allow anyone to start or join a meeting.
+
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity Global -AutoAdmittedUsers "Everyone" -AllowAnonymousUsersToStartMeeting $True -AllowPSTNUsersToBypassLobby $True
 ```
-Once you’ve set up a policy, you need to apply it to users; or, if you modified the global policy, it will automatically apply to users. For any policy change, you need to wait at least four hours, and up to 24 hours, for the change to take effect.
+
+Once you’ve set up a policy, you need to apply it to users. If you modified the Global (Org-wide default) policy, it will automatically apply to users. You need to wait at least 4 hours for any policy changes to take effect, but it can take up to 24 hours.
 
 
 ## Related topics
