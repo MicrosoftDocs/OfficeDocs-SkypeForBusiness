@@ -159,7 +159,7 @@ To enable SMS notifications, your Microsoft 365 admin does the following:
 
 1. Select **SMS setup** next to each FHIR base URL to set up the types of SMS notifications to send to your patients.
 
-    :::image type="content" source="../../media/teams-ehr-connector-sms-setup.png" alt-text="Screenshot showing how to link a phone number to a FHIR base URL." lightbox="../../media/teams-ehr-connector-sms-setup.png":::
+    :::image type="content" source="../../media/teams-ehr-connector-sms-setup.png" alt-text="Screenshot showing SMS setup settings." lightbox="../../media/teams-ehr-connector-sms-setup.png":::
 
     - **Confirmation SMS**: Notifications are sent to patients when a virtual visit is scheduled, updated, or canceled in the EHR system.
     - **Reminder SMS**: Notifications are sent to patients according to the time interval you specify and the scheduled time of the virtual visit.
