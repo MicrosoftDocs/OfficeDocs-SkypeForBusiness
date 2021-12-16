@@ -53,7 +53,7 @@ Review the following information to get an understanding of the overall integrat
 
 Option 1
 
-:::image type="content" source="media/ehr-admin-epic-flow.png" alt-text="Image summarizing the steps in the overall integration process.":::
+:::image type="content" source="../../media/teams-ehr-connector-epic-flow.png" alt-text="Image summarizing the steps in the overall integration process.":::
 
 ||||||
 |---------|---------|---------|---------|---------|
