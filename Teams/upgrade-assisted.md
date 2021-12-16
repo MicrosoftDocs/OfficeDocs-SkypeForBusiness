@@ -22,14 +22,9 @@ appliesto:
 
 # Assisted upgrades from Skype for Business Online to Microsoft Teams
 
-Microsoft offers assisted upgrades to Teams to help organizations make a successful transition from Skype for Business Online as the service retires July 31, 2021. Whether your organization is upgrading from a *Skype for Business Online* or *Skype for Business Online with hybrid* (users in both Skype for Business Online **and** Skype for Business Server) environment, assisted upgrades reduce the number of technical tasks you need to do and allow for greater focus on organizational preparedness, user awareness, and Teams training.
+Microsoft offers assisted upgrades to Teams to help organizations make a successful transition from Skype for Business Online, which retired on July 31, 2021. Whether your organization is upgrading from a *Skype for Business Online* or *Skype for Business Online with hybrid* (users in both Skype for Business Online **and** Skype for Business Server) environment, assisted upgrades reduce the number of technical tasks you need to do and allow for greater focus on organizational preparedness, user awareness, and Teams training.
 
 We recommend that you review our [upgrade guidance](https://aka.ms/SkypeToTeams) before your upgrade. Our upgrade guidance includes recommended activities and helpful resources for completing an upgrade from Skype for Business Online to Teams. This guidance applies to any organization planning an upgrade to Teams, whether they manage all aspects of the upgrade or use the assisted process.
-
-> [!NOTE]
-> If you're scheduled for an assisted upgrade to Teams, you can perform your own upgrade from Skype for Business Online before your scheduled upgrade date. For more information about how to manually upgrade to Teams, see our [upgrade guidance](https://aka.ms/SkypeToTeams).
->
-> Assisted upgrades are not available for on-premises deployments of Skype for Business Server.
 
 ## Notifications for scheduled customers
 
@@ -39,7 +34,7 @@ Upgrade notifications will include the scheduled date of the assisted upgrade, a
 
 ## The assisted upgrade experience
 
-Assisted upgrades will begin in August 2021 with tenant-specific dates shared in the scheduling notifications mentioned above.
+Assisted upgrades began August 2021 with tenant-specific dates shared in the scheduling notifications mentioned above.
 
 Your assisted upgrade experience will differ slightly depending on whether you have a Skype for Business Online-only or a Skype for Business Online with hybrid environment:
 
@@ -53,7 +48,9 @@ Your assisted upgrade experience will differ slightly depending on whether you h
   If you have a mixture of users in each of the categories listed above, the assisted upgrade process will only switch Skype for Business Online users to Teams Only mode if they're not already in that mode. On-premises Skype for Business users won't be impacted by the assisted upgrade process.
 
 > [!NOTE]
-> Don't worry if your assisted upgrade is scheduled for a date after July 31, 2021. Your organization will be able to use Skype for Business Online until your upgrade is complete.
+> Your organization can continue to use Skype for Business Online until your upgrade is complete. If you're scheduled for an assisted upgrade to Teams, you can perform your own upgrade from Skype for Business Online before your scheduled upgrade date. For more information about how to manually upgrade to Teams, see our [upgrade guidance](https://aka.ms/SkypeToTeams).
+>
+> Assisted upgrades are not available for on-premises deployments of Skype for Business Server.
 
 The duration of the upgrade will vary by volume of users and the characteristics of the deployment. In most cases, users within a tenant will be upgraded within 24 hours of the start of the upgrade. During this time, end users will still have access to Skype for Business Online functionality. Once the upgrade has completed and users sign out of Skype for Business Online, they'll start using Teams for messaging, meetings, and calling.
 
