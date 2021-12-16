@@ -16,6 +16,7 @@ ms.collection:
   - M365-collaboration
   - Teams_ITAdmin_RemoteWorkers
   - remotework
+  - Teams_ITAdmin_FLW
 appliesto: 
   - Microsoft Teams
 ---
