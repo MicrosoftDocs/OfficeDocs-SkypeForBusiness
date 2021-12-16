@@ -128,9 +128,9 @@ To enable a meeting organizer to download the meeting attendance report, set the
 To prevent a meeting organizer from downloading the report, set the parameter to **Disabled**.
 
 > [!NOTE]
-> As an administrator, you can’t view the attendance report for meetings that you don’t organize. However, you can view participant details for a given meeting within 24 hours of that meeting. In the Teams Admin Center, go to **Users** > **Manage users**. Click on the display name for the meeting organizer. Click the Meetings & calls tab, and then click the appropriate meeting ID or call ID. Then, click **participant details**.
+> As an administrator, you can’t view the attendance report for meetings that you don’t organize. However, you can view participant details for a given meeting within 24 hours of that meeting. In the Teams admin center, go to **Users** > **Manage users**. Choose the display name for the meeting organizer. Select the **Meetings & calls** tab, and then choose the appropriate meeting ID or call ID. Then, select **Participant details**.
 
-For more information, including limits of the engagement report, you can read about [viewing and downloading meeting attendance reports in Teams](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310).
+For more information, including limits of the engagement report, see [viewing and downloading meeting attendance reports in Teams](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310).
 
 
 ## Meeting registration
