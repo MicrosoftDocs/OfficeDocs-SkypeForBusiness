@@ -46,11 +46,8 @@ The scope of the monitoring is
 > Review [**Assign users to the Managed Service Administrator role**](enrolling-mtrp-managed-service.md#assign-users-to-the-managed-service-administrator-role) and make sure that access to the portal is limited based on your business needs. 
 
 
-
-
 ## Terminology 
 Here are frequently used terms in the portal. 
-
 
 
 |Term |Meaning |

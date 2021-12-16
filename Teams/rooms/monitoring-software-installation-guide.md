@@ -39,8 +39,8 @@ To log in to the device as Administrator (local administrator):
 
 1. From the list of users displayed in the Windows login screen, select  **Administrator** (or the respective local administrator of your device). 
 
-   >[!NOTE]
-   >If the computer is *domain joined*, choose **Other User**, then use **.\admin**, or the user name of the local administrator configured in the device as the user name.  
+> [!NOTE]
+> If the computer is *domain joined*, choose **Other User**, then use **.\admin**, or the user name of the local administrator configured in the device as the user name.  
 
 
 To return to the Microsoft Teams Room app after performing the necessary administrative tasks: 
@@ -48,8 +48,8 @@ To return to the Microsoft Teams Room app after performing the necessary adminis
 1. From the Windows ***Start menu***, sign out from the Admin account. 
 1. Return to Microsoft Teams Room by selecting the user account icon on the far left side of the screen and then selecting **Skype**. 
 
-   > [!NOTE]
-   > If the Skype user is not listed, select Other User and enter ***.\skype*** as the user name, and sign in. 
+> [!NOTE]
+> If the Skype user is not listed, select Other User and enter ***.\skype*** as the user name, and sign in. 
 ## Prerequisites 
 Follow these procedures to set up your hardware before attempting the enrollment process:
 
@@ -113,7 +113,7 @@ The Enrollment process involves a few steps:
 1. Install the agent installer (downloaded in step 2) on MTR units, either by running the MSI locally on an MTR device or via your normal means of publishing MSI applications en masse to devices within your environment (Group-Policy etc.)  
 1. The room appears in the portal within 5-10 minutes. If it does not, contact managedroomsupport@microsoft.com.  
 
-![Figure 5](../(../media/software-installation.005.jpg) 
+![Figure 5](../media/software-installation-005.jpg) 
 
 
 ## Installation  
@@ -132,8 +132,8 @@ Due to the many varied ways in which customers can run MSI applications in mass 
 
 1. Copy the following files to the MTR device: 
 
-- Place the ‘Self-Enrollment key’ (previously downloaded from the portal) on the **C:\Rigel** directory of the device. 
-- Copy the **ManagedRoomsInstaller.msi** (previously downloaded from the portal or from the AKA.MS) to the device. 
+   - Place the ‘Self-Enrollment key’ (previously downloaded from the portal) on the **C:\Rigel** directory of the device. 
+   - Copy the **ManagedRoomsInstaller.msi** (previously downloaded from the portal or from the AKA.MS) to the device. 
 
 
 
