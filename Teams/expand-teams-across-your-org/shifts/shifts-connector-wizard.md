@@ -67,7 +67,7 @@ To learn more, see [Remove-CsTeamsShiftsScheduleRecord](/powershell/module/teams
 
 ### Get started
 
-1. In the left navigation of the [Microsoft 365 admin center](https://admin.microsoft.com/), choose **Setup**, and then select the **Frontline workers** collection or go to the **Apps and email** section.
+1. In the left navigation of the [Microsoft 365 admin center](https://admin.microsoft.com/), choose **Setup**, and then go to the **Apps and email** section.
 1. Under **Connect your workforce management system**, select **View.** Here, you can learn more about Shifts connectors and the frontline worker and manager experience when you connect Shifts to your WFM system.
     :::image type="content" source="../../media/shifts-connector-wizard-get-started.png" alt-text="Screenshot of the details page for the Shifts connector wizard in the Microsoft 365 admin center." lightbox="../../media/shifts-connector-wizard-get-started.png":::
 1. When you're ready, select **Get started**.
@@ -134,7 +134,7 @@ You’ll see a message to confirm that we received your request along with an op
 
 :::image type="content" source="../../media/shifts-connector-wizard-operation-id.png" alt-text="Screenshot of the wizard page, showing confirmation message and operation ID." lightbox="../../media/shifts-connector-wizard-operation-id.png":::
 
-The wizard sets up and creates the connection and maps the sites to the teams you selected. This process may take some time to complete. The recipients you chose will receive email notifications about setup status.
+The wizard starts the process to set up the connection and map the sites to the teams you selected. This process may take some time to complete. The recipients you chose will receive email notifications about setup status.
 
 Select **Done** to exit the wizard.
 
