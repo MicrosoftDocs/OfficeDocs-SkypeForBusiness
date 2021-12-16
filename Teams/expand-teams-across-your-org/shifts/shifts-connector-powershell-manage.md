@@ -104,7 +104,7 @@ Sync settings include the sync frequency (in minutes) and the schedule data that
 - The **enabledWfiScenarios** parameter defines data that's synced from Shifts to Blue Yonder. Options are `SwapRequest`, `OpenShiftRequest`,  `TimeOffRequest`, `UserShiftPreferences`.
 
 > [!NOTE]
-> For settings that you don't want to change, you'll need to re-enter those original settings when you run this script.
+> For settings that you don't want to change, you'll need to re-enter those original settings when you're prompted by the script.
 
 [Set up your environment](#set-up-your-environment) (if you haven't already), and then run the following script.
 
