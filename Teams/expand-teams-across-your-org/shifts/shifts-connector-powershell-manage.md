@@ -103,6 +103,9 @@ Sync settings include the sync frequency (in minutes) and the schedule data that
 - The **enabledConnectorScenarios** parameter defines data that's synced from Blue Yonder to Shifts. Options are `Shift`, `SwapRequest`, `UserShiftPreferences`, `OpenShift`, `OpenShiftRequest`, `TimeOff`, `TimeOffRequest`.
 - The **enabledWfiScenarios** parameter defines data that's synced from Shifts to Blue Yonder. Options are `SwapRequest`, `OpenShiftRequest`,  `TimeOffRequest`, `UserShiftPreferences`.
 
+> [!NOTE]
+> For settings that you don't want to change, you'll need to re-enter those original settings when you run this script.
+
 [Set up your environment](#set-up-your-environment) (if you haven't already), and then run the following script.
 
 ```powershell
