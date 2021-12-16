@@ -23,8 +23,6 @@ ms.custom: seo-marvel-apr2020
 
 # Skype for Business Online retirement
 
-In July 2019, we announced **Skype for Business Online will be retired on July 31, 2021,** giving our customers two years to plan their upgrades to Microsoft Teams, the core app for communication and collaboration in Microsoft 365. As Skype for Business Online is retired, we want to ensure customers have the information and resources they need to plan and execute a successful upgrade to Teams.
-
 In July 2019, we announced the July 31, 2021 retirement of Skype for Business Online, giving our customers two years to plan their upgrades to Microsoft Teams. Teams is the core app for communication and collaboration in Microsoft 365. As Skype for Business Online is retired, we want to ensure customers have the information and resources they need to plan and execute a successful upgrade to Teams.
 
 ## Why is Skype for Business Online retiring?
