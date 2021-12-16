@@ -51,13 +51,15 @@ Before you get started, there’s a few things to do to prepare for the integrat
 
 Review the following information to get an understanding of the overall integration process.
 
+Option 1
+
 :::image type="content" source="media/ehr-admin-epic-flow.png" alt-text="Image summarizing the steps in the overall integration process.":::
 
 ||||||
 |---------|---------|---------|---------|---------|
 |**Action**: You [request access to the Teams app](#request-access-to-the-teams-app). <br> **Outcome**: We authorize your organization for testing.|**Action**: We create a public and private key certificate and upload to Epic. <br> **Outcome**: Epic syncs the public key certificate.|**Action**: You complete configuration steps in the EHR connector configuration portal. <br> **Outcome**: You receive FDI records for Epic configuration.| **Action**: You work with your Epic technical specialist to configure FDI records in Epic.<br> **Outcome**: Configuration completed. Ready to test.|**Action**: You complete testing in your test environment.<br> **Outcome**: Full validation of flows and decision to move to production.|
 
----
+Option 2
 
 |Request app access|App enablement|Connector configuration|Epic configuration|Testing|
 |---------|---------|---------|---------|---------|
