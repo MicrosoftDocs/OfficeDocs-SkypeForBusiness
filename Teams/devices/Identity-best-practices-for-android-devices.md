@@ -66,7 +66,7 @@ For Teams devices, review the following guidance to determine if you have author
 
 Accounts used on common-area devices (for example, conference rooms) are linked to a room or physical space and not a human user. Any multi-factor authentication is not appropriate for accounts used in common areas. Microsoft recommends excluding common-area accounts from any multi-factor authentication policies.
 
-**Recommendation:** Use either [named location](/azure/active-directory/conditional-access/location-condition) [named locations] or [require compliant device](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device) for these common-area accounts.
+**Recommendation:** Use either [named location](/azure/active-directory/conditional-access/location-condition) or [require compliant device](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device) for these common-area accounts.
 
 ### Location-based access with named locations
 
