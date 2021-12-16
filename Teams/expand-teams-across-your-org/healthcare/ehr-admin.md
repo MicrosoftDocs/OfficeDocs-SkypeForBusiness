@@ -55,7 +55,15 @@ Review the following information to get an understanding of the overall integrat
 
 ||||||
 |---------|---------|---------|---------|---------|
-|**Action**: You request access to the Teams app. <br> **Outcome**: We authorize your organization for testing.|**Action**: We create a public and private key certificate and upload to Epic. <br> **Outcome**: Epic syncs the public key certificate.|**Action**: You complete configuration steps in the EHR connector configuration portal. <br> **Outcome**: You receive FDI records for Epic configuration.| **Action**: You work with your Epic technical specialist to configure FDI records in Epic.<br> **Outcome**: Configuration completed. Ready to test.|**Action**: You complete testing in your test environment.<br> **Outcome**: Full validation of flows and decision to move to production.|
+|**Action**: You [request access to the Teams app](#request-access-to-the-teams-app). <br> **Outcome**: We authorize your organization for testing.|**Action**: We create a public and private key certificate and upload to Epic. <br> **Outcome**: Epic syncs the public key certificate.|**Action**: You complete configuration steps in the EHR connector configuration portal. <br> **Outcome**: You receive FDI records for Epic configuration.| **Action**: You work with your Epic technical specialist to configure FDI records in Epic.<br> **Outcome**: Configuration completed. Ready to test.|**Action**: You complete testing in your test environment.<br> **Outcome**: Full validation of flows and decision to move to production.|
+
+---
+
+|Request app access|App enablement|Connector configuration|Epic configuration|Testing|
+|---------|---------|---------|---------|---------|
+|**Action**: You [request access to the Teams app](#request-access-to-the-teams-app). <br> **Outcome**: We authorize your organization for testing.|**Action**: We create a public and private key certificate and upload to Epic. <br> **Outcome**: Epic syncs the public key certificate.|**Action**: You complete configuration steps in the EHR connector configuration portal. <br> **Outcome**: You receive FDI records for Epic configuration.| **Action**: You work with your Epic technical specialist to configure FDI records in Epic.<br> **Outcome**: Configuration completed. Ready to test.|**Action**: You complete testing in your test environment.<br> **Outcome**: Full validation of flows and decision to move to production.|
+
+:::image type="content" source="media/ehr-admin-epic-flow.png" alt-text="Image summarizing the steps in the overall integration process.":::
 
 ### Request access to the Teams app
 
@@ -116,9 +124,9 @@ Next, to set up the integration, your Microsoft 365 admin does the following:
 
     - You can set up the integration for test and production environments. For initial setup, we encourage you to configure the connector from a test environment before moving to production.
 
-1. Adds the user name of the Epic customer analyst who will be approving the configuration in a later step.
+1. Adds the username of the Epic customer analyst who will be approving the configuration in a later step.
 
-      ![The configuration approver's name is selected from a list in the EHR connector.](../../media/teams-ehr-connector.png)
+    :::image type="content" source="../../media/teams-ehr-connector.png" alt-text="Screenshot of the Configuration page, showing the approver being added." lightbox="../../media/teams-ehr-connector.png":::
 
 ### Enable SMS notifications (optional)
 
@@ -166,11 +174,11 @@ The Epic customer analyst in your organization who was added as approver launche
 > [!Note]
 > If the Microsoft 365 admin and Epic customer analyst are the same person, you'll still need to sign in to Epic to validate your access. The Epic sign-in is used only to validate your FHIR base URL. Microsoft won't store credentials or access EHR data with this sign-in.
 
-  ![Verify and approve the credential configuration.](../../media/approve-view-configuration.png)
+:::image type="content" source="../../media/approve-view-configuration.png" alt-text="Screenshot of the Approve or View Configuration page, showing the Login and approve option." lightbox="../../media/approve-view-configuration.png":::
 
 After successful sign-in to Epic, the Epic customer analyst **must** approve the configuration. If the configuration isn't correct, your Microsoft 365 admin can sign in to the configuration portal and change the settings.
 
-![Confirm that the EHR connector is configured and option to change the configuration.](../../media/ehc-approve-3.png)
+:::image type="content" source="../../media/ehc-approve-3.png" alt-text="Screenshot of the Approve or View Configuration page, showing the Approve option." lightbox="../../media/ehc-approve-3.png":::
 
 ### Review and finish the configuration
 
@@ -186,12 +194,12 @@ These records are necessary to complete the virtual visit configuration in Epic.
 > [!Note]  
 > At any time the Microsoft 365 or Epic customer analyst can sign in to the configuration portal to view integration records and change organization configuration, as needed.
 
-![The integration information is displayed.](../../media/finish-configuration.png)
+:::image type="content" source="../../media/finish-configuration.png" alt-text="Screenshot of the Review and Finish page, showing integration information." lightbox="../../media/finish-configuration.png":::
 
 > [!Note]
 > The Epic customer analyst must complete the approval process for each FHIR base URL configured by the Microsoft 365 admin.
 
-![The configuration information is approved.](../../media/approve-configuration-2.png)
+:::image type="content" source="../../media/approve-configuration-2.png" alt-text="Screenshot of the Approve or View Configuration page, showing a configuration that's approved." lightbox="../../media/approve-configuration-2.png":::
 
 ## Launch Teams virtual visits
 
