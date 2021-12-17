@@ -62,7 +62,7 @@ items:
 
     Assemble a group of individuals from your business, IT, and frontline communities to act as the stakeholder and decision-making group for your Teams pilot for frontline workers. Be sure to include individuals from all three communities to give yourself the best chance for success:
 
-    Next, identify your phase 1 pilot community and make sure it includes actual frontline workers in the smallest logical grouping for your organization. For example, one restaurant, one division of a department store, one store, one clinical ward, one precinct, one plant, one distribution center, etc.. The key is to optimize around the average frontline worker being part of one team only. Managers or specialists may be in more than one:
+    Next, identify your phase 1 pilot community and make sure it includes actual frontline workers in the smallest logical grouping for your organization. For example, one restaurant, one division of a department store, one store, one clinical ward, one precinct, one plant, one distribution center, etc.. The key is to optimize around the average frontline worker being part of one team only. Managers or specialists may be in more than one.
 
     ### Best practice
     It's important to include all roles within that smallest logical grouping, from managers to part time or seasonal workers to uncover valuable insights and enable modern communication scenarios. Your most junior staff will surprise you! Some key delightful and unintended valuable scenarios uncovered during pilots with sample customers include:
@@ -105,24 +105,35 @@ items:
   durationInMinutes: 25
   content: |
 
-    If you haven't done so now, please complete the technical prerequisites highlighted at the beginning of this document [Prerequisites and environmental dependencies for Teams](upgrade-plan-journey-prerequisites.md). Understanding the technical prerequisites and configuring the initial pilot team, efficient technical planning is the foundation of a great user experience. This will include creating the team and inviting the identified frontline workers.
+    If you haven't already done so, complete the technical prerequisites highlighted at the beginning of [Prerequisites and environmental dependencies for Teams](upgrade-plan-journey-prerequisites.md). Understanding the technical prerequisites and configuring the initial pilot team, efficient technical planning is the foundation of a great user experience. This includes creating the team and inviting the identified frontline workers.
 
-    ### Configure and assign policy packages
+    ### Use the Frontline Worker onboarding wizard to kick off your pilot deployment of Teams
+
+    The Frontline Worker onboarding wizard in the Microsoft 365 admin center simplifies onboarding frontline workers. Using the wizard, you can quickly deploy an experience in Teams that's tailored to your frontline workforce.
+
+    The wizard sets up a team for your frontline workers and assigns licenses and [policy packages](manage-policy-packages.md) to each team member. You can create your team from scratch or from a [team template](get-started-with-teams-templates-in-the-admin-console.md), and then you add users and assign roles. The role determines whether the Frontline Worker or Frontline Manager policy package is assigned to the user.
+    
+    The wizard is available to all organizations that have at least one Microsoft 365 F license. You can run the wizard as many times as you need to roll out Teams to your frontline workforce in different locations or sites across your organization.
+
+    For step-by-step guidance, see [Use the Frontline Worker onboarding wizard to get your frontline workforce up and running](flw-onboarding-wizard.md).
+
+    ### Manually configure your pilot
+    
+    #### Configure and assign policy packages
 
     A [policy package](manage-policy-packages.md) in Teams is a collection of predefined policies and policy settings that you can assign to users who have similar roles in your organization. Policy packages simplify, streamline, and help provide consistency when managing policies.
-    You can customize the settings of the policies in the package to suit the needs of your users. When you change the settings of policies in a policy package, all users who are assigned to that package get the updated settings. You can manage policy packages by using the Microsoft Teams admin center or PowerShell.
 
-    Policy packages pre-define policies for the following, depending on the package:
-    - Meetings
-    - Live events
-    - Calling
-    - Messaging
-    - Teams
-    - App setup
+    Policy packages support the following Teams policy types:
 
-    Teams currently includes the following policy packages for the frontline workforce.
+    - Messaging policy
+    - Meeting policy
+    - App setup policy
+    - Calling policy
+    - Live events policy
 
-    |Package name in the Microsoft Teams admin center  |Best used for|Description |
+    Teams includes the Frontline Manager and Frontline Worker policy packages for the frontline workforce.
+
+    |Package name in the Teams admin center|Best used for|Description |
     |---------|---------|---------|
     |Frontline manager |Frontline managers in your organization|Creates a set of policies and applies those settings to frontline managers in your organization. |
     |Frontline worker |Frontline workers in your organization|Creates a set of policies and applies those settings to frontline workers in your organization. |
@@ -133,46 +144,24 @@ items:
 
     :::image type="content" source="media/policy-packages-flw-firstline-worker.png" alt-text="Screenshot of policies in the frontline worker policy package":::
 
-    #### View the policy settings in the policy package
+    ##### View the policy settings in the policy package
 
     View the settings of each policy in a policy package before you assign a package. In the left navigation of the Microsoft Teams admin center, select **Policy packages**, select the package name, and then select the policy name.
     Decide whether the predefined values are appropriate for your organization or whether you need to customize them to be more restrictive or lenient based on your organization's needs.
 
-    #### Customize policy settings in the policy package
+    ##### Customize policy settings in the policy package
 
     Customize the settings of policies in the policy package to fit the needs of your organization. Any changes you make to policy settings are automatically applied to users who are assigned the package. To edit the settings of a policy in a policy package, in the Microsoft Teams admin center, select the policy package, select the name of the policy you want to edit, and then select **Edit**.
 
     Keep in mind that you can also change the settings of policies in a package after you assign the policy package. To learn more, see [Customize policies in a policy package](manage-policy-packages.md#customize-policies-in-a-policy-package). 
 
-    #### Assign the policy package
+    ##### Assign the policy package
 
-    Assign the policy package to users. If a user has a policy assigned, and then later you assign a different policy, the most recent assignment will take priority.
+    Assign the policy package to users. You can assign a policy package to an individual user, a group, or a batch of users. For step-by-step guidance on how to assign policy packages, see [Assign policy packages to users and groups](assign-policy-packages.md).
     
-    ##### Using the Microsoft Teams admin center
-
-    1. In the left navigation of the [Microsoft Teams admin center](https://admin.teams.microsoft.com/), go to **Policy packages**, and then select the policy package you want to assign by clicking to the left of the package name.
-    2. Select **Manage users**.
-        :::image type="content" source="media/policy-packages-flw-assign.png" alt-text="Screenshot of how to assign a policy package in the Teams admin center":::
-    3. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then click **Add**. Repeat this step for each pilot user that you want to add (for up to 20 users).
-    4. When you're finished adding users, click **Apply**.
-
-    ##### Assign a policy package based on group membership or at scale through a batch assignment
-
-    If you have a large volume of users to which you want to assign a policy package, you can assign a policy package at scale through a batch assignment or to a group that users are a member of.
-
-    ###### Assign a policy package to a group
-
-    Policy package assignment to groups let you assign multiple policies to a group of users, such as a security group or distribution list. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly. This method is recommended for groups of up to 50,000 users but will also work with larger groups.
-
-    To learn more, see [Assign a policy package to a group](assign-policy-packages.md#assign-a-policy-package-to-a-group).
-
-    ###### Assign a policy package to a large set (batch) of users
-
-    Use batch policy package assignment to assign a policy package to large sets of users at a time. You use the [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) cmdlet to submit a batch of users and the policy package that you want to assign. The assignments are processed as a background operation and an operation ID is generated for each batch.
-
-    A batch can contain up to 5,000 users. You can specify users by their object Id, UPN, SIP address, or email address. To learn more, see [Assign a policy package to a batch of users](assign-policy-packages.md#assign-a-policy-package-to-a-batch-of-users).
+    If a user has a policy assigned, and then later you assign a different policy, the most recent assignment will take priority.
     
-    ### Set up your pilot team
+    #### Set up your pilot team
     Configure the initial team for the pilot users identified in Step 2.
      
     1. In the left navigation of the [Microsoft Teams admin center](https://admin.teams.microsoft.com/), go to **Teams** > **Manage teams**. 
