@@ -33,7 +33,7 @@ If you're a global admin, you can add administrative units. To learn how, see [A
 
 ## Assign admins to administrative units
 
-If you're a global admin, you can use the Azure portal, a PowerShell cmdlet, or the Microsoft Graph API to assign admins to an administrative unit. To learn more, see [Assign Azure AD roles with administrative unit scope](https://docs.microsoft.com/azure/active-directory/roles/admin-units-assign-roles).
+If you're a global admin, you can use the Azure portal, PowerShell, or the Microsoft Graph API to assign admins to an administrative unit. To learn more, see [Assign Azure AD roles with administrative unit scope](https://docs.microsoft.com/azure/active-directory/roles/admin-units-assign-roles).
 
 ## Select administrative units
 
