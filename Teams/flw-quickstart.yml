@@ -184,12 +184,12 @@ items:
     
         :::image type="content" source="media/firstline-worker-add-channel.png" alt-text="Screenshot of the Add channel pane":::
 
-    ### Decision point
+    #### Decision point
 
     -  How many channels/conversation topics do you want for your pilot?
     -  Which topics feel right for your scenarios?
 
-    ### Best practice
+    #### Best practice
     **Keep the channels simple**. We recommend resisting the urge to create a channel for every possible topic of conversation and instead keep things very simple. It’s ok if channels are created over time as needed.
       
     :::image type="content" source="media/firstline-worker-channels-tab.png" alt-text="Screenshot of Channels tab":::
