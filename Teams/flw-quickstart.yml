@@ -107,6 +107,8 @@ items:
 
     If you haven't already done so, complete the technical prerequisites highlighted at the beginning of [Prerequisites and environmental dependencies for Teams](upgrade-plan-journey-prerequisites.md). Understanding the technical prerequisites and configuring the initial pilot team, efficient technical planning is the foundation of a great user experience. This includes creating the team and inviting the identified frontline workers.
 
+    To configure your pilot, we recommend using the Frontline Worker onboarding wizard. You can also manually configure your pilot. 
+
     ### Use the Frontline Worker onboarding wizard to kick off your pilot (recommended)
 
     The Frontline Worker onboarding wizard in the Microsoft 365 admin center simplifies onboarding frontline workers to your organization. Use the wizard to kick off your pilot and quickly deploy an experience in Teams that's tailored to your frontline workforce.
