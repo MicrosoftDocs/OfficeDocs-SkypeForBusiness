@@ -51,7 +51,7 @@ Before you get started, there’s a few things to do to prepare for the integrat
 
 Review the following information to get an understanding of the overall integration process.
 
-:::image type="content" source="../../media/teams-ehr-connector-epic-flow.png" alt-text="Image summarizing the steps in the overall integration process.":::
+:::image type="content" source="media/ehr-connector-epic-flow.png" alt-text="Image summarizing the steps in the overall integration process.":::
 
 ||||||
 |---------|---------|---------|---------|---------|
@@ -118,7 +118,7 @@ Next, to set up the integration, your Microsoft 365 admin does the following:
 
 1. Adds the username of the Epic customer analyst who will be approving the configuration in a later step.
 
-    :::image type="content" source="../../media/teams-ehr-connector.png" alt-text="Screenshot of the Configuration page, showing the approver being added." lightbox="../../media/teams-ehr-connector.png":::
+    :::image type="content" source="media/ehr-connector-epic-configure.png" alt-text="Screenshot of the Configuration page, showing the approver being added." lightbox="media/ehr-connector-epic-configure.png":::
 
 ### Enable SMS notifications (optional)
 
@@ -131,25 +131,25 @@ To enable SMS notifications, your Microsoft 365 admin does the following:
     - Allow Microsoft to send SMS notifications to patients on behalf of your organization.
     - Acknowledge that you'll ensure attendees have consented to send and receive SMS messages.
     
-    :::image type="content" source="../../media/teams-ehr-connector-sms-notifications.png" alt-text="Screenshot of the SMS notifications page, showing consent check boxes and the option to generate a phone number." lightbox="../../media/teams-ehr-connector-sms-notifications.png":::
+    :::image type="content" source="media/ehr-connector-epic-sms-notifications.png" alt-text="Screenshot of the SMS notifications page, showing consent check boxes and the option to generate a phone number." lightbox="media/ehr-connector-epic-sms-notifications.png":::
 
 1. Under **Your phone numbers**, select **Generate a new phone number** to generate a phone number for your organization. Doing this starts the process to request and generate a new phone number. This process might take up to 2 minutes to complete.
 
     After the phone number is generated, it's displayed on the screen. This number will be used to send SMS confirmations and reminders to your patients. The number has been provisioned but isn’t linked to the FHIR base URL yet. You do that in the next step.
 
-    :::image type="content" source="../../media/teams-ehr-connector-phone-number.png" alt-text="Screenshot showing an example of the phone number that's generated." lightbox="../../media/teams-ehr-connector-phone-number.png":::
+    :::image type="content" source="media/ehr-connector-epic-phone-number.png" alt-text="Screenshot showing an example of the phone number that's generated." lightbox="media/ehr-connector-epic-phone-number.png.png":::
 
     Choose **Done**, and then select **Next**.
 
 1. To link the phone number to a FHIR base URL, under **Phone number** in the **SMS configuration** section, select the number. Do this for each FHIR base URL for which you want to enable SMS notifications.
 
-    :::image type="content" source="../../media/teams-ehr-connector-link-phone-number.png" alt-text="Screenshot showing how to link a phone number to a FHIR base URL." lightbox="../../media/teams-ehr-connector-link-phone-number.png":::
+    :::image type="content" source="media/ehr-connector-epic-link-phone-number.png" alt-text="Screenshot showing how to link a phone number to a FHIR base URL." lightbox="media/ehr-connector-epic-link-phone-number.png":::
 
     If this is the first time you’re configuring the connector, you’ll see the FHIR base URL that was entered in the earlier step. The same phone number can be linked to multiple FHIR base URLs, which means that patients will receive SMS notifications from the same phone number for different organizations and/or departments.
 
 1. Select **SMS setup** next to each FHIR base URL to set up the types of SMS notifications to send to your patients.
 
-    :::image type="content" source="../../media/teams-ehr-connector-sms-setup.png" alt-text="Screenshot showing SMS setup settings." lightbox="../../media/teams-ehr-connector-sms-setup.png":::
+    :::image type="content" source="media/ehr-connector-epic-sms-setup.png" alt-text="Screenshot showing SMS setup settings." lightbox="media/ehr-connector-epic-sms-setup.png":::
 
     - **Confirmation SMS**: Notifications are sent to patients when a virtual visit is scheduled, updated, or canceled in the EHR system.
     - **Reminder SMS**: Notifications are sent to patients according to the time interval you specify and the scheduled time of the virtual visit.
@@ -174,11 +174,11 @@ The Epic customer analyst in your organization who was added as approver launche
 > [!Note]
 > If the Microsoft 365 admin and Epic customer analyst are the same person, you'll still need to sign in to Epic to validate your access. The Epic sign-in is used only to validate your FHIR base URL. Microsoft won't store credentials or access EHR data with this sign-in.
 
-:::image type="content" source="../../media/approve-view-configuration.png" alt-text="Screenshot of the Approve or View Configuration page, showing the Login and approve option." lightbox="../../media/approve-view-configuration.png":::
+:::image type="content" source="media/ehr-connector-epic-login-approve.png" alt-text="Screenshot of the Approve or View Configuration page, showing the Login and approve option." lightbox="media/ehr-connector-epic-login-approve.png":::
 
 After successful sign-in to Epic, the Epic customer analyst **must** approve the configuration. If the configuration isn't correct, your Microsoft 365 admin can sign in to the configuration portal and change the settings.
 
-:::image type="content" source="../../media/ehc-approve-3.png" alt-text="Screenshot of the Approve or View Configuration page, showing the Approve option." lightbox="../../media/ehc-approve-3.png":::
+:::image type="content" source="media/ehr-connector-epic-approve.png" alt-text="Screenshot of the Approve or View Configuration page, showing the Approve option." lightbox="media/ehr-connector-epic-approve.png":::
 
 ### Review and finish the configuration
 
@@ -194,7 +194,7 @@ The Epic customer analyst must provide these records to Epic to complete the vir
 > [!Note]  
 > At any time the Microsoft 365 or Epic customer analyst can sign in to the configuration portal to view integration records and change organization configuration, as needed.
 
-:::image type="content" source="../../media/finish-configuration.png" alt-text="Screenshot of the Review and Finish page, showing integration information." lightbox="../../media/finish-configuration.png":::
+:::image type="content" source="media/ehr-connector-epic-finish.png" alt-text="Screenshot of the Review and Finish page, showing integration information." lightbox="media/ehr-connector-epic-finish.png":::
 
 > [!Note]
 > The Epic customer analyst must complete the approval process for each FHIR base URL that's configured by the Microsoft 365 admin.
@@ -223,7 +223,7 @@ Key features of the provider experience:
 
 - Providers can see real-time updates of participants connecting and disconnecting for a given appointment. Providers can see when the patient is connected to a virtual visit.
 
-  ![Provider experience of a virtual visit with patient.](../../media/ehc-provider-experience-6.png)
+  ![Provider experience of a virtual visit with patient.](media/ehc-provider-experience-6.png)
 
 ### Patient experience
 
@@ -241,7 +241,7 @@ Key features of the patient experience:
 
 - Patients can test their video and microphone in the lobby before they join the virtual visit.
 
-  ![Patient experience of the virtual visit.](../../media/ehc-virtual-visit-5.png)
+  ![Patient experience of the virtual visit.](media/ehc-virtual-visit-5.png)
 
 > [!Note]
 > Epic, MyChart, Haiku, and Canto are trademarks of Epic Systems Corporation.
