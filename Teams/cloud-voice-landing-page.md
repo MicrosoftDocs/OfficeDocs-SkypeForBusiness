@@ -74,7 +74,7 @@ Consider which of these additional configurations you might need:
 | [**Migrate your existing voice solution**](#migrate-your-existing-voice-solution-to-teams) | What you need to think about when migrating your voice solution to Teams.  Read this section if you are migrating from an existing voice solution to Teams. 
 
 > [!Important]
-> This article focuses on voice solutions with Microsoft Teams. It's important to understand that Skype for Business Online will be retired on July 31, 2021. After that date, the Skype for Business Online service will no longer be accessible. In addition, PSTN connectivity between your on-premises environment&mdash;whether through Skype for Business Server or Cloud Connector Edition&mdash;and Skype for Business Online will no longer be supported. This article introduces Teams voice solutions and how you can connect your on-premises telephony network, if necessary, to Teams by using Operator Connect or Direct Routing.
+> This article focuses on voice solutions with Microsoft Teams. Due to the retirement of Skype for Business Online on July 31, 2021, PSTN connectivity between your on-premises environment&mdash;whether through Skype for Business Server or Cloud Connector Edition&mdash;and Skype for Business Online is no longer supported. This article introduces Teams voice solutions and how you can connect your on-premises telephony network, if necessary, to Teams by using Operator Connect or Direct Routing.
 
 
 ## Teams Phone
