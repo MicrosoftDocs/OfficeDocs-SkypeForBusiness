@@ -125,7 +125,7 @@ items:
     
     #### Configure and assign policy packages
 
-    A [policy package](manage-policy-packages.md) in Teams is a collection of predefined policies and policy settings that you can assign to users who have similar roles in your organization. Policy packages simplify, streamline, and help provide consistency when managing policies. You can manage policy packages by using the Microsoft Teams admin center or PowerShell.
+    A [policy package](manage-policy-packages.md) in Teams is a collection of predefined policies and policy settings that you can assign to users who have similar roles in your organization. You can manage policy packages by using the Microsoft Teams admin center or PowerShell.
 
     Teams includes the Frontline Manager and Frontline Worker policy packages for the frontline workforce.
 
@@ -149,7 +149,7 @@ items:
     ##### View the policy settings in the policy package
 
     View the settings of each policy in a policy package before you assign a package. In the left navigation of the Microsoft Teams admin center, go to **Policy packages**, select the package name, and then select the policy name.
-    
+
     Decide whether the predefined values are appropriate for your organization or whether you need to customize them to be more restrictive or lenient based on your organization's needs.
 
     ##### Customize policy settings in the policy package
