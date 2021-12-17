@@ -27,7 +27,7 @@ The wizard sets up a team for your frontline workers and assigns licenses and [p
 
 Currently, the wizard supports adding 100 users each time you run it. We're working on increasing the number of users per run soon. Check back here for the latest updates.
 
-The wizard is available to all organizations that have at least one Microsoft 365 F license. You can run the wizard as many times as you need to roll out Teams to your frontline workforce in different locations or sites across your organization.
+The wizard is available to all organizations that have at least one [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline). You can run the wizard as many times as you need to roll out Teams to your frontline workforce in different locations or sites across your organization.
 
 > [!NOTE]
 > This wizard lets you quickly onboard your frontline workers to Teams through the Microsoft 365 admin center. For information about how deploy Teams to your frontline workers using scripts, see [How to provision Teams at scale for Frontline Workers](flw-scripted-deployment.md).
