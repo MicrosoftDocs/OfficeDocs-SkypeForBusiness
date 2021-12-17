@@ -39,21 +39,21 @@ The wizard is available to all organizations that have at least one [F license](
 
 1. In the left navigation of the [Microsoft 365 admin center](https://admin.microsoft.com/), choose **Setup**. Go to the **Apps and email** section, and then under **Get your frontline workforce up and running**, select **View**. Here, you can learn more about the capabilities that Microsoft 365 for frontline workers offers.
 
-    :::image type="content" source="media/flw-onboarding-wizard-get-started.png" alt-text="Screenshot of the details page for the Frontline Worker onboarding experience in the Microsoft 365 admin center":::
+    :::image type="content" source="media/flw-onboarding-wizard-get-started.png" alt-text="Screenshot of the details page for the Frontline Worker onboarding experience in the Microsoft 365 admin center" lightbox="media/flw-onboarding-wizard-get-started.png":::
 
 2. When you're ready, select **Get started** to run the wizard.
 
 3. Enter a name for your team, add one or more team owners, and select a privacy setting. Then, choose whether to create your team from scratch or from a team template. Team templates come with predefined channels and tabs, which optimize the team for a particular business need or project.
 
-    :::image type="content" source="media/flw-onboarding-wizard-set-up-team.png" alt-text="Screenshot of the Set up a team page of the wizard":::
+    :::image type="content" source="media/flw-onboarding-wizard-set-up-team.png" alt-text="Screenshot of the Set up a team page of the wizard" lightbox="media/flw-onboarding-wizard-set-up-team.png":::
 
 4. Add users to the team. You can also add groups. If you add groups, keep in mind that licenses and policy packages are directly assigned to each user in the group, not the group itself.
 
-    :::image type="content" source="media/flw-onboarding-wizard-add-users.png" alt-text="Screenshot of the Add users page of the wizard where you add users and groups to your team":::
+    :::image type="content" source="media/flw-onboarding-wizard-add-users.png" alt-text="Screenshot of the Add users page of the wizard where you add users and groups to your team" lightbox="media/flw-onboarding-wizard-add-users.png":::
 
 5. Assign one of the following roles to each team member: Frontline Worker, Frontline Manager, None. 
   
-    :::image type="content" source="media/flw-onboarding-wizard-assign-roles.png" alt-text="Screenshot of the Assign job roles page of the wizard where you assign roles, locations, and licenses to team members":::
+    :::image type="content" source="media/flw-onboarding-wizard-assign-roles.png" alt-text="Screenshot of the Assign job roles page of the wizard where you assign roles, locations, and licenses to team members" lightbox="media/flw-onboarding-wizard-assign-roles.png":::
 
     By assigning a Frontline Worker or Frontline Manager role, that user will receive a policy package. The policy package will create an experience in Teams that's tailored to their role. This experience includes pre-pinned apps and policies for healthy frontline worker and manager communication and collaboration.
 
@@ -61,11 +61,11 @@ The wizard is available to all organizations that have at least one [F license](
 
 6. Choose who receives the status email after the wizard is completed. The email contains success and failure information about the actions performed by the wizard&mdash;creating the team, adding team members, and assigning a license and policy package to each team member. Use this information to troubleshoot any errors that may occur.
 
-    :::image type="content" source="media/flw-onboarding-wizard-email-recipients.png" alt-text="Screenshot of the Add status email recipients page of the wizard":::
+    :::image type="content" source="media/flw-onboarding-wizard-email-recipients.png" alt-text="Screenshot of the Add status email recipients page of the wizard" lightbox="media/flw-onboarding-wizard-email-recipients.png":::
 
 7. Review your selections, and then select **Confirm**.
 
-    :::image type="content" source="media/flw-onboarding-wizard-review-team.png" alt-text="Screenshot of the Review team page of the wizard where you review your team settings":::
+    :::image type="content" source="media/flw-onboarding-wizard-review-team.png" alt-text="Screenshot of the Review team page of the wizard where you review your team settings" lightbox="media/flw-onboarding-wizard-review-team.png":::
 
     The wizard creates your team and assigns licenses and policy packages to team members. This may take a few minutes to complete, after which the recipients you chose receive a status email.
 
