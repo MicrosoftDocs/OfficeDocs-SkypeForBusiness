@@ -107,6 +107,10 @@ IB policies are activated when the following Teams events take place:
 
 - **Guests in Teams**: IB policies apply to guests in Teams, too. If guests need to be discoverable in your organization's global address list, see [Manage guest access in Microsoft 365 Groups](/microsoft-365/admin/create-groups/manage-guest-access-in-groups). Once guests are discoverable, you can [define IB policies](/office365/securitycompliance/information-barriers-policies).
 
+>[!NOTE]
+>When you add guest account, ensure "ShowInAddressList" is set to TRUE.Refer [Set-AzureADUser](/powershell/module/azuread/set-azureaduser?view=azureadps-2.0)
+
+
 ## How policy changes impact existing chats
 
 When the IB policy administrator makes changes to a policy, or when a policy change is activated because of a change to a user's profile (such as for a job change), the Information Barrier Policy Evaluation Service automatically searches the members to ensure that their membership in the team doesn't violate any policies.
