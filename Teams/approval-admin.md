@@ -36,7 +36,7 @@ The first approval created from the Approvals app will trigger the provisioning 
 This article describes the Approvals app requirements and roles.
 
 > [!NOTE]
-> This feature hasn't been released to Government Community Cloud (GCC), Government Community Cloud High (GCCH), and Department of Defense (DOD) users yet.
+> This feature hasn't been released to Government Community Cloud High (GCCH), and Department of Defense (DOD) users yet.
 
 ## Required permissions and licenses
 
