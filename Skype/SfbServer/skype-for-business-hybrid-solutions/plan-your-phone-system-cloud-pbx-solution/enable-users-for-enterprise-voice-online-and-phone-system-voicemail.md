@@ -24,7 +24,7 @@ description: "Learn how to enable Phone System voice services for your Skype for
 # Enable users for Enterprise Voice online and Phone System Voicemail
  
 > [!Important]
-> Skype for Business Online will be retired on July 31, 2021 after which the service will no longer be accessible.  In addition, PSTN connectivity between your on-premises environment whether through Skype for Business Server or Cloud Connector Edition and Skype for Business Online will no longer be supported.  Learn how to connect your on-premises telephony network to Teams using [Direct Routing](/MicrosoftTeams/direct-routing-landing-page).
+> Skype for Business Online was retired on July 31, 2021 and PSTN connectivity between your on-premises environment, whether through Skype for Business Server or Cloud Connector Edition and Skype for Business Online, is no longer supported.  Learn how to connect your on-premises telephony network to Teams using [Direct Routing](/MicrosoftTeams/direct-routing-landing-page).
 
 Learn how to enable Phone System voice services for your Skype for Business users.
   
