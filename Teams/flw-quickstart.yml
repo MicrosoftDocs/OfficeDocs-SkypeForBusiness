@@ -123,9 +123,9 @@ items:
 
     If you prefer to manually configure your pilot, follow these steps. 
     
-    #### Configure and assign policy packages
+    #### Configure and assign Frontline Manager and Frontline Worker policy packages
 
-    A [policy package](manage-policy-packages.md) in Teams is a collection of predefined policies and policy settings that you can assign to users who have similar roles in your organization. You can manage policy packages by using the Microsoft Teams admin center or PowerShell.
+    A [policy package](manage-policy-packages.md) in Teams is a collection of predefined policies and policy settings that you can assign to users who have the same or similar roles in your organization. Policy packages simplify, streamline, and help provide consistency when managing policies for your frontline workforce. You can manage policy packages by using the Microsoft Teams admin center or PowerShell.
 
     Teams includes the Frontline Manager and Frontline Worker policy packages for the frontline workforce.
 
