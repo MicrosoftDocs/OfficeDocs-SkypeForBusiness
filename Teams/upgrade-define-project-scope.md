@@ -120,4 +120,4 @@ As a reference point, a sample timeline is provided for the pre-upgrade, upgrade
 
 After you've completed the activities described above, you should have a solid foundation for your project. Continue with your [technical readiness](./upgrade-prepare-environment.md) and [organizational readiness](./upgrade-prepare-organization.md) planning activities.
 
-Remember: Skype for Business Online will be retired on July 31, 2021. After that time, the Skype for Business Online service will no longer be accessible or supported. To maximize benefit realization and ensure your organization has proper time to complete your upgrade, we encourage you to begin your journey to Microsoft Teams today.
+Skype for Business Online was retired on July 31, 2021. To maximize benefit realization and ensure your organization has proper time to complete your upgrade, we encourage you to begin your journey to Microsoft Teams today.
