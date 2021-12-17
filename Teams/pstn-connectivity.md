@@ -37,7 +37,7 @@ To connect Teams Phone to the PSTN, you can choose from the following options:
 
 - [**Calling Plan**](#teams-phone-with-calling-plan). An all-in-the-cloud solution with Microsoft as your PSTN carrier.
 
-- [**Operator Connect**](#teams-phone-with-operator-connect), which is currently available only in **public preview.**  With Operator Connect, if your existing carrier is a participant in the Microsoft Operator Connect program, they can manage PSTN calling and Session Border Controllers (SBCs). 
+- [**Operator Connect**](#teams-phone-with-operator-connect). With Operator Connect, if your existing carrier is a participant in the Microsoft Operator Connect program, they can manage PSTN calling and Session Border Controllers (SBCs). 
 
 - [**Direct Routing**](#teams-phone-with-direct-routing), which enables you to use your own PSTN carrier by connecting your Session Border Controller(s) (SBC) to Teams Phone.
 
