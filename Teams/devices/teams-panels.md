@@ -40,7 +40,7 @@ To learn more about these features and how to use them, see [Use Microsoft Teams
 
 ## Partners certified for Teams panels
 
-You can acquire your Teams panels devices from one of the following partners:
+You can acquire your Teams panels devices from one of the following [currently certified Teams panels](/microsoftteams/devices/teams-ip-phones#currently-certified-teams-panels) partners:
 
 - Crestron
 - Logitech
