@@ -1,5 +1,5 @@
 ---
-title: "Identity best practices for Android devices"
+title: "Authentication best practices for Android devices"
 author: amandafrechinjackson
 ms.author: v-amandaf
 manager: jsarrasin
@@ -9,7 +9,7 @@ audience: ITPro
 ms.service: msteams
 search.appverid: MET150 
 ms.reviewer: 
-description: A best practices guide for Teams Android devices.
+description: A best practices guide for Teams Android devices authentication.
 ms.collection: 
   - M365-voice
   - M365-collaboration
@@ -22,7 +22,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Identity best practices for Teams Android devices
+# Authentication best practices for Teams Android devices
 
 With the increase in adoption of Teams Android devices, customers need guidance on best practices for deploying authentication policies for their Microsoft Teams Phones and calling devices, specifically devices deployed in conference rooms or common areas. Although Teams devices are built on the Android operating system, a policy meant for Android mobile phones may not apply to Teams devices owned by the tenant.
 
