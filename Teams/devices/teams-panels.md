@@ -46,8 +46,6 @@ You can acquire your Teams panels devices from one of the following [currently c
 - Logitech
 - Yealink
 
-[Currently certified Teams panels](https://docs.microsoft.com/en-us/microsoftteams/devices/teams-ip-phones#currently-certified-teams-panels)
-
 ## Teams panels requirements
 
 The hardware, software, and network requirements to deploy panels devices may differ depending on which type of panels devices you're deploying. Refer to the Original Equipment Manufacturer (OEM) documentation to know what's required for your set of devices.
