@@ -149,6 +149,7 @@ items:
     ##### View the policy settings in the policy package
 
     View the settings of each policy in a policy package before you assign a package. In the left navigation of the Microsoft Teams admin center, go to **Policy packages**, select the package name, and then select the policy name.
+    
     Decide whether the predefined values are appropriate for your organization or whether you need to customize them to be more restrictive or lenient based on your organization's needs.
 
     ##### Customize policy settings in the policy package
