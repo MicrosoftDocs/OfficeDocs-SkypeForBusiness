@@ -98,6 +98,9 @@ As you plan your deployment
 
 - Use Conditional Access features like device filters to apply rules to Teams phones and displays.
 
+>[!NOTE]
+>There are some Conditional Access policies that Android devices don't support. For guidance and best practices, see Android devices, see [Authentication best practices for Teams Android devices](authentication-best-practices-for-android-devices.md).
+
 ## Task 4: Prepare your environment
 
 ### Objective: Plan network basics
