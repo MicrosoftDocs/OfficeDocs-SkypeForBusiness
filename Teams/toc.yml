@@ -1431,6 +1431,8 @@ items:
                 href: devices/use-teams-panels.md
               - name: App support on Teams panels  
                 href: app-support-on-Teams-panels.md
+              - name: Check-in and room release feature on panels
+                href: panels-check-in-and-room-release.md
         - name: Upgrade Teams phones to Teams displays
           href: devices/upgrade-phones-to-displays.md
         - name: Deploy Teams phones and Teams displays using Intune
