@@ -8,7 +8,6 @@ ms.topic: reference
 ms.service: msteams
 audience: Admin
 appliesto: 
-  - Skype for Business
   - Microsoft Teams
 f1.keywords:
   - NOCSH
