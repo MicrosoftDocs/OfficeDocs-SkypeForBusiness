@@ -140,12 +140,12 @@ Use the Azure AD Admin Center to manage
 Use the Teams Admin Center to manage
 
 - [Device settings for Teams](../business-voice/manage-devices.md)
-- Firmware
 - [Configuration profiles](device-management.md#use-configuration-profiles-in-teams)
-- Call analytics  
 - [Device tagging](manage-device-tags.md)
-- Troubleshooting and downloading logs
 - [Remote sign-in and sign-out](remote-sign-in-and-sign-out.md)
+- Troubleshooting and downloading logs
+- Call analytics  
+- Firmware
 
 
 #### Endpoint Manager Admin Center (if you use Intune for device management)
