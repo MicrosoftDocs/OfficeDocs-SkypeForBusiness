@@ -12,7 +12,7 @@ appliesto:
 f1.keywords:
   - NOCSH
 search.appverid: MET150
-description: "tbd"
+description: "This article provides and overview the tasks and steps to deploy Teams phones and displays in your organization."
 ---
 
 # Plan your deployment for Teams phone devices and Displays
@@ -41,7 +41,7 @@ Personal and shared devices have different roles and usages.
 - Think of personal devices as having a one-to-one relationship, with one device per one user.
 - Can be paired with the Teams desktop client and use features like Better Together
 - May connect to a headset, wired or wireless
-- Additional features on personal devices include Hotdesking and Home Screen. 
+- Additional features on personal devices include hot-desking and Home Screen. 
 
 **Shared space devices:**
 
@@ -50,20 +50,19 @@ Personal and shared devices have different roles and usages.
 - Deployed in shared spaces like meeting rooms, reception areas, or manufacturing floors. 
 - Their user interfaces (UI) are specific to their function, such as Common Area Phone UI, or meeting room UI depend upon the function and placement of the shared device.
 - Require configuration and optional hardening to ensure settings aren't changed, or to prevent the account from signing out. 
-- Additional features on shared space devices include search on common area phones and hotdesking with idle timeout
+- Additional features on shared space devices include search on common area phones and hot-desking with idle timeout
 
 ### Objective: How many personal and shared space devices do you need?
 
-Now that you've identified your device personas, you need to determine which certified devices you want to use and how many of them you need. To help you make this decision, consider the following: 
+Now that you've identified your device personas, you need to determine which certified devices you want to use and how many of them you need. To help you make this decision, consider the following questions: 
 
 - How many personal devices are required and who will have one?
 - How many rooms or spaces require shared devices? Will every space have the same type of device? 
 - Will your devices need to meet specific requirements?
     - Examples include screen size, form factor, and manufacturer or model? For a list of certified phones and displays, see [Microsoft Teams certified devices](teams-ip-phones.md).
 -  Do you need Teams phones or Teams displays? For a list of features supported by Teams phones, see [Phones for Microsoft Teams](phones-for-teams.md#features-supported-by-teams-phones) and for a list of features supported by Teams displays, see [Microsoft Teams displays](teams-displays.md#features-supported-by-teams-displays).
-- Growth and maintenance considerations: 
-    - Ensure you have enough devices for new users, or have a process for new orders and delivery.
-    - Have spare devices available for maintenance or in case of hardware issues.
+- Do you have enough devices for new users, or a process for new orders and delivery?
+- Will you have spare devices available for maintenance or in case of hardware issues? Being able to swap a device quickly prevents disruptions in user experience.
 
 ## Task 2: What are your licensing requirements? 
 
@@ -77,11 +76,11 @@ For more information and to compare your licensing options, see [Microsoft 365 l
 
 ### Objective: Plan your device identities
 
-You need to set up identities for devices so they can access Microsoft 365 services. Identities should make devices easier to discover, manage, and connect to within your organization. To accomplish this, consider the following when planning device identities: 
+Identities enable devices to access Microsoft 365 services, and they should make devices easier to discover, manage, and connect to within your organization. To accomplish this, consider the following when planning device identities:
 
 - User principal names and their format and domain
 - Display names
-- Address book disoverability
+- Address book discoverability
 - Personal versus shared space device types
 - Group versus user assigned licensing
 
@@ -120,19 +119,19 @@ Consider the physical spaces that your Teams phones and displays will be used in
 Key aspects include
 
 - **Power:** Do you have enough electrical outlets? If the device needs an external power source, how close can you position it to an outlet?
-- **Device placement:** Where will your device physically be? Review desk stands, wall mounts, and other accessories from the original equiment munfactuer (OEM).
+- **Device placement:** Where will your device physically be? Review desk stands, wall mounts, and other accessories from the original equipment manufacturer (OEM).
 - **Security:** Does your device need to be locked in certain spaces?
 - **Accessibility:** Does the device meet the accessibility requirements of its primary user? Consider where it's placed, wire length, and handset or headset usability.
 
 ### Task 5: How will you manage deployed devices?
 
-Teams phones and displays are managed from two to three Microsoft 365 portals and their respective Powershell modules: 
+Teams phones and displays are managed from two to three Microsoft 365 portals and their respective PowerShell modules: 
 
 #### Azure Active Directory Admin Center
 
 Use the Azure AD Admin Center to manage
 
-- All identity related tasks for Teams phones and displays
+- All identity-related tasks for Teams phones and displays
 - Conditional Access policies 
 - Password resets
 
@@ -153,7 +152,7 @@ Use the Teams Admin Center to manage
 
 Use the Endpoint Manager Admin Center to manage: 
 
-- Device compliance polices
+- Device compliance policies
 - Enrollment restrictions
 - Corporate device identifiers
 - Device filters
