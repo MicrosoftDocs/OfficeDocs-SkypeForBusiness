@@ -143,10 +143,9 @@ Use the Teams Admin Center to manage
 - [Configuration profiles](device-management.md#use-configuration-profiles-in-teams)
 - [Device tagging](manage-device-tags.md)
 - [Remote sign-in and sign-out](remote-sign-in-and-sign-out.md)
-- Troubleshooting and downloading logs
 - Call analytics  
 - Firmware
-
+- Troubleshooting and downloading logs
 
 #### Endpoint Manager Admin Center (if you use Intune for device management)
 
