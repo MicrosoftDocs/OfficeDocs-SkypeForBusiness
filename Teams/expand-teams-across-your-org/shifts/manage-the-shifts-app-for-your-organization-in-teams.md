@@ -1,9 +1,9 @@
 ---
 title: Manage the Shifts app for your organization
-author: serdarsoysal
-ms.author: serdars
+author: LanaChin
+ms.author: v-lanachin
 ms.reviewer: lisawu,gumariam
-manager: serdars
+manager: samanro
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -36,7 +36,7 @@ The Shifts app in Microsoft Teams keeps frontline workers connected and in sync.
 - Managers create, update, and manage shift schedules for teams. They can send messages to one person ("there's a spill on the floor") or the entire team ("the regional GM is arriving in 20 minutes"). They can also send policy documents, news bulletins, and videos.
 - Employees view their upcoming shifts, see who else is scheduled for the day, request to swap or offer a shift, and request time off.
 
-It's important to know that Shifts currently don't support guests. This means that guests on a team can't be added to or use shift schedules when Guest access is turned on in Teams. 
+It's important to know that Shifts currently don't support guests. This means that guests on a team can't be added to or use shift schedules when Guest access is turned on in Teams.
 
 > [!Note]
 > For details about Shifts capabilities on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
@@ -65,19 +65,15 @@ Shifts is enabled by default for all Teams users in your organization. You can t
 
 To allow or block specific users in your organization from using Shifts, make sure Shifts be turned on for your organization on the [Manage apps](../../manage-apps.md) page. Then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](../../teams-app-permission-policies.md).
 
-### Use the FirstLineWorker app setup policy to pin Shifts to Teams
+### Use an app setup policy to pin Shifts to Teams
 
 App setup policies let you customize Teams to highlight the apps that are most important for users in your organization. The apps set in a policy are pinned to the app bar&mdash;the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients&mdash;where users can quickly and easily access them.
- 
-Teams includes a built-in FirstLineWorker app setup policy that you can assign to frontline workers in your organization. By default, the policy includes the Activity, Shifts, Chat, and Calling apps.
 
-To view the FirstLineWorker policy, in the left navigation of the Microsoft Teams admin center, go to **Teams app** > **Setup policies**.
+You can create a [custom app setup policy](../../teams-app-setup-policies.md) by adding the Shifts app, and then [assign the policy](../../assign-policies-users-and-groups.md) to your users. Or, you can use the app setup policy that's part of the Frontline Worker and Frontline Manager policy packages.
 
-:::image type="content" source="../../media/firstline-worker-app-setup-policy-new.png" alt-text="Screenshot of the FirstLineWorker app setup policy in the Microsoft Teams admin center" lightbox="../../media/firstline-worker-app-setup-policy-new.png":::
+A [policy package](../../manage-policy-packages.md) in Teams is a collection of predefined policies and policy settings that you can assign to users who have similar roles in your organization. The set of policies in the Frontline Worker and Frontline Manager policy packages include an app setup policy that pins the Shifts app and other apps that support communication and collaboration activities for that role.
 
-#### Assign the FirstLineWorker app setup policy to users
-
-[!INCLUDE [assign-policy](../../includes/assign-policy.md)]
+We recommend using the Frontline Worker and Frontline Manager policy packages as they simplify, streamline, and help provide consistency when managing policies for your frontline workforce.
 
 ## Search the audit log for Shifts events
 
