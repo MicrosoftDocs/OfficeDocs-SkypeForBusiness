@@ -26,7 +26,7 @@ ms.custom: seo-marvel-jun2020
 
 Shifts, the schedule management tool in Teams, keeps your frontline workforce connected and in sync. It's built mobile first for fast and effective schedule management and communications. With Shifts, frontline managers and workers can seamlessly manage schedules and keep in touch.
 
-Managers can create, update, and manage shift schedules for their teams. They can assign shifts, add open shifts, and approve schedule requests from employees. Employees can view their own and their team's schedules, set their availability, request to swap or offer a shift, request time off, and clock in and out.
+Managers can create, update, and manage shift schedules for their teams. They can assign shifts, add open shifts, and approve schedule requests from employees. Employees can view their own and their team's schedules, set their availability, request to swap or offer a shift, request time off, and clock in and out. 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE42FjP]
 
@@ -38,11 +38,12 @@ Use the resources on this page to help you set up and manage Shifts in your orga
 | ------------- | ------------- | ------------- | ------------- |
 |![task-checklist-planning-teams.](../media/task-checklist-planning-teams-small.svg) | **[Manage Shifts in your organization](./shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** |![design](../media/Help-small.svg)  | **[Shifts Help for frontline workers](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
 
+test
 
 |&nbsp;  |&nbsp; |
 |---------|---------|
-|![task-checklist-planning-teams.](../media/task-checklist-planning-teams-small.svg)     |**[Manage Shifts in your organization](shifts/manage-the-shifts-app-for-your-organization-in-teams.md)**         |
-|Row2     |**[Manage schedule owners for shift management](shifts/schedule-owner-for-shift-management.md)**         |
+|<img src="/office/media/icons/calendar-teams.png" alt="Calendar symbol."> |**[Manage Shifts in your organization](shifts/manage-the-shifts-app-for-your-organization-in-teams.md)**         |
+|<img src="/office/media/icons/users-people.png" alt="Userss/people symbol."> |**[Manage schedule owners for shift management](shifts/schedule-owner-for-shift-management.md)**         |
 
 ## Shifts extensions
 
