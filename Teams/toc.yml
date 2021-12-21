@@ -1419,6 +1419,8 @@ items:
           href: devices/remote-update.md
         - name: Manage Teams device tags
           href: devices/manage-device-tags.md
+        - name: Plan phones and displays deployment
+          href: devices/plan-device-deployment.md
         - name: Phones for Teams
           href: devices/phones-for-teams.md
         - name: Teams displays
@@ -1441,6 +1443,8 @@ items:
           href: devices/collab-bar-deploy.md
         - name: Set Microsoft Teams Android devices user interface
           href: devices/Teams-Android-devices-user-interface.md
+        - name: Authentication best practices for Android devices
+          href: devices/authentication-best-practices-for-android-devices.md
         - name: Meeting room devices and solutions
           href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Teams certified devices
