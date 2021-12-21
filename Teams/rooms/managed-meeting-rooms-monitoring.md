@@ -96,11 +96,9 @@ Incidents are expected to be in one of three states:
 ### Reviewing incidents 
 The following image lists all the incidents that are currently active in your rooms. The ones that are assigned to you *are on the top* – these are what you need to look at for next steps. In addition, the ones assigned to Microsoft or pending investigation have details that you can use to intervene. 
 
-![Figure 2](../media/rooms-monitoring-001.jpg) 
 
 Clicking  any of items that have status “**Needs action**” shows additional details about the incident. 
 
-![Figure 3](../media/rooms-monitoring-003.jpg) 
 ## Types of Incidents 
 Incidents are classified into two broad severity buckets: 
 
@@ -186,9 +184,7 @@ The top panel on the Rooms view provides a quick snapshot of how many of your de
 
 Devices/peripherals which do not have any incidents of severity “Important” are meeting current criteria for health are marked as healthy. However, it does not imply that there is a room outage for every unhealthy device in the portal. The description and action part of the incident contains more specific details about the issue and potential impact on user experience. 
 
-<!--**Limitations of Monitoring Heuristics**: 
 
-It is possible that telemetry is not able to detect all possible issues currently. Rooms that are marked healthy might still experience a problem (false negatives). It is also possible that rooms that are marked unhealthy are not causing actual problems. In both cases, such issues are great candidates for feedback to Microsoft during this pilot. -->
 
 
 
