@@ -23,6 +23,8 @@ When a Microsoft Teams user places an incoming call from the Public Switched Tel
 
 The music that is played is either the default music provided by Microsoft or custom music that you upload and configure. As the tenant administrator, you configure whether Music on Hold is available by creating a Teams calling policy and assigning the policy to the Teams user.
 
+The default music supplied in Microsoft Teams PSTN call scenarios is free of any royalties payable by your organization.
+
 Note that PSTN callers can listen to Music on Hold in other scenarios as well; for example, when they call into a Cloud Call Queue or when their call is parked by a Microsoft Teams user. These scenarios are not covered or controlled by the features mentioned in this article.
 
 ## Configure Music on Hold
