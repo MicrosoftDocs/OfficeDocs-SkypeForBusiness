@@ -36,7 +36,7 @@ Use the following resources to help you set up and manage Shifts in your organiz
 
 |&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 | ------------- | ------------- | ------------- | ------------- |
-|<img src="/office/media/icons/calendar-teams.png" alt="Calendar symbol."> | **[Manage Shifts in your organization](./shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** |<img src="/office/media/icons/users-people.png" alt="Users/people symbol.">  |**[Manage schedule owners for shift management](shifts/schedule-owner-for-shift-management.md)**|
+|<img src="/office/media/icons/calendar-teams.png" alt="Calendar symbol."> | **[Manage Shifts in your organization](shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** |<img src="/office/media/icons/users-people.png" alt="Users/people symbol.">  |**[Manage schedule owners for shift management](shifts/schedule-owner-for-shift-management.md)**|
 
 ## Shifts extensions
 
