@@ -1545,6 +1545,8 @@ items:
           items: 
             - name: Manage the Shifts app
               href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+            - name: Manage schedule owners for shift management       
+              href: expand-teams-across-your-org/shifts/schedule-owner-for-shift-management.md
         - name: Bookings in Teams
           items: 
             - name: Virtual visits with Teams and Bookings
