@@ -134,13 +134,13 @@ Ensure that your sales associates and other frontline workers have the appropria
 
 Microsoft Teams integrates with the Shifts app and Frontline Worker, which can be used to coordinate shift staffing features and more. For example, in Shifts, store managers can set up and coordinate schedules for their staff, and employees can check schedules and swap shifts.
 
-## Set up Teams and apps
+## Set up teams and apps
 
 :::image type="content" source="../media/retail-teams-apps.png" alt-text="Diagram of teams, team templates and apps that can be included.":::
 
 ### Apps and services for retail
 
-Ensure that your workers can communicate, collaborate, and deliver great customer service with apps like Shifts, Walkie Talkie, Tasks, Lists, Praise, and so on. You can determine which apps are available for your users by enabling them in the Microsoft Teams admin center or by including them in a Team template. More information about [managing Teams apps](../manage-apps.md).
+Ensure that your workers can communicate, collaborate, and deliver great customer service with apps like Shifts, Walkie Talkie, Tasks, Lists, Praise, and so on. You can determine which apps are available for your users by enabling them in the Microsoft Teams admin center or by including them in a team template. More information about [managing Teams apps](../manage-apps.md).
 
 For retail environments, the following apps and services can help you transform your business processes and support communication:
 
