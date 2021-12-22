@@ -1490,7 +1490,7 @@ items:
     - name: App templates for Teams
       href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
 
-    - name: How to build and customize your own apps
+    - name: How to build and customize apps
       items:
         - name: Integrate with Power Platform
           href: teams-power-platfom-integration.md
