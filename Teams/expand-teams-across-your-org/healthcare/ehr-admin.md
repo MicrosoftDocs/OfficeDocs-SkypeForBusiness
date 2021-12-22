@@ -122,6 +122,9 @@ Next, to set up the integration, your Microsoft 365 admin does the following:
 
 ### Enable SMS notifications (optional)
 
+> [!NOTE]
+> SMS notifications is currently only available in the United States. We're working on making this feature available in other regions in future releases of Teams and will update this article when available. 
+
 Complete this step if your organization wants Microsoft to manage SMS notifications for your patients. When you enable SMS notifications, your patients will receive confirmation and reminder messages for scheduled virtual visits.
 
 To enable SMS notifications, your Microsoft 365 admin does the following:
@@ -160,7 +163,7 @@ To enable SMS notifications, your Microsoft 365 admin does the following:
 
     A public key certificate is required to receive appointment information for sending SMS notifications. The certificate is needed to verify that the incoming information is from a valid source.
 
-    When the connector is used to send SMS reminders, the patient’s phone number is sent by Epic in a HL7v2 payload when appointments are created in Epic. These numbers are stored for each appointment in your organization’s geography and are retained until the appointment takes place.
+    When the connector is used to send SMS reminders, the patient’s phone number is sent by Epic in a HL7v2 payload when appointments are created in Epic. These numbers are stored for each appointment in your organization’s geography and are retained until the appointment takes place. To learn more about how to configure HL7v2 messages, see the [Epic-Microsoft Teams Telehealth Integration Guide](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
 
     Choose **Next**.
 
