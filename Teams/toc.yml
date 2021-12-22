@@ -1540,51 +1540,19 @@ items:
       href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
     - name: All industries
       items: 
-        - name: Shifts for Teams
-          href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
-          items: 
-            - name: Manage the Shifts app
-              href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
         - name: Bookings in Teams
           items: 
             - name: Virtual visits with Teams and Bookings
               href: expand-teams-across-your-org/bookings-virtual-visits.md
             - name: Manage the Bookings app
               href: bookings-app-admin.md
-    - name: Teams for Healthcare
-      items: 
-        - name: Get started with Teams for healthcare organizations
-          href: expand-teams-across-your-org/healthcare/teams-in-hc.md
-        - name: Virtual visits
+        - name: Shifts for Teams
+          href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
           items: 
-            - name: Virtual visits with Teams - Integration into Cerner EHR
-              href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
-            - name: Virtual visits with Teams - Integration into Epic EHR
-              href: expand-teams-across-your-org/healthcare/ehr-admin.md
-            - name: EHR admin reports
-              href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
-            - name: Virtual visits with Teams and Bookings
-              href: expand-teams-across-your-org/bookings-virtual-visits.md
-            - name: Manage the join experience on mobile browsers
-              href: expand-teams-across-your-org/mobile-browser-join.md              
-        - name: View and assign policy packages
-          href: policy-packages-healthcare.md
-        - name: Secure messaging
-          items: 
-            - name: Secure Messaging
-              href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
-            - name: Message delegation
-              href: expand-teams-across-your-org/healthcare/hc-delegates.md
-        - name: Use healthcare team templates
-          href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
-        - name: Manage the Lists app
-          href: manage-lists-app.md
-        - name: Manage the Tasks app
-          href: manage-tasks-app.md
-        - name: Manage the Approvals app
-          href: approval-admin.md
-        - name: Manage the Shifts app
-          href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+            - name: Manage the Shifts app
+              href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+            - name: Manage schedule owners for shift management       
+              href: expand-teams-across-your-org/shifts/schedule-owner-for-shift-management.md
     - name: Teams for Education
       href: expand-teams-across-your-org/teams-for-education-landing-page.md
       items: 
@@ -1652,6 +1620,59 @@ items:
           href: flw-realwear.md
         - name: Walkie Talkie
           href: walkie-talkie.md
+    - name: Teams for Government
+      href: expand-teams-across-your-org/teams-for-government-landing-page.md
+      items: 
+        - name: Support remote workers (WFH)
+          href: expand-teams-across-your-org/GOV-support-remote-work-with-teams.md
+        - name: Get started with Government team templates
+          href: government-teams-templates-in-the-admin-console.md
+        - name: Manage the Office 365 G1 Trial offer
+          href: g1-trial-license.md
+        - name: Plan for Microsoft 365 Government - GCC
+          href: plan-for-government-gcc.md
+        - name: Plan for Microsoft 365 Government - GCC High
+          href: plan-for-government-gcc-high.md
+        - name: Plan for Microsoft 365 Government - DoD
+          href: plan-for-government-dod.md
+        - name: Audio Conferencing with Direct Routing for GCC High and DoD
+          href: audio-conferencing-with-direct-routing-for-gcch-and-dod.md
+        - name: Teams policy packages for Government
+          href: policy-packages-gov.md    
+    - name: Teams for Healthcare
+      items: 
+        - name: Get started with Teams for healthcare organizations
+          href: expand-teams-across-your-org/healthcare/teams-in-hc.md
+        - name: Virtual visits
+          items: 
+            - name: Virtual visits with Teams - Integration into Cerner EHR
+              href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
+            - name: Virtual visits with Teams - Integration into Epic EHR
+              href: expand-teams-across-your-org/healthcare/ehr-admin.md
+            - name: EHR admin reports
+              href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
+            - name: Virtual visits with Teams and Bookings
+              href: expand-teams-across-your-org/bookings-virtual-visits.md
+            - name: Manage the join experience on mobile browsers
+              href: expand-teams-across-your-org/mobile-browser-join.md              
+        - name: View and assign policy packages
+          href: policy-packages-healthcare.md
+        - name: Secure messaging
+          items: 
+            - name: Secure Messaging
+              href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
+            - name: Message delegation
+              href: expand-teams-across-your-org/healthcare/hc-delegates.md
+        - name: Use healthcare team templates
+          href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
+        - name: Manage the Approvals app
+          href: approval-admin.md
+        - name: Manage the Lists app
+          href: manage-lists-app.md
+        - name: Manage the Shifts app
+          href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+        - name: Manage the Tasks app
+          href: manage-tasks-app.md
     - name: Teams for Nonprofit
       href: expand-teams-across-your-org/teams-for-nonprofit-landing-page.md
       items:
@@ -1690,26 +1711,7 @@ items:
           href: manage-lists-app.md
         - name: Manage the Approvals app
           href: approval-admin.md
-    - name: Teams for Government
-      href: expand-teams-across-your-org/teams-for-government-landing-page.md
-      items: 
-        - name: Support remote workers (WFH)
-          href: expand-teams-across-your-org/GOV-support-remote-work-with-teams.md
-        - name: Get started with Government team templates
-          href: government-teams-templates-in-the-admin-console.md
-        - name: Manage the Office 365 G1 Trial offer
-          href: g1-trial-license.md
-        - name: Plan for Microsoft 365 Government - GCC
-          href: plan-for-government-gcc.md
-        - name: Plan for Microsoft 365 Government - GCC High
-          href: plan-for-government-gcc-high.md
-        - name: Plan for Microsoft 365 Government - DoD
-          href: plan-for-government-dod.md
-        - name: Audio Conferencing with Direct Routing for GCC High and DoD
-          href: audio-conferencing-with-direct-routing-for-gcch-and-dod.md
-        - name: Teams policy packages for Government
-          href: policy-packages-gov.md
-
+          
 - name: Reference
   items: 
     - name: Limits and specifications for Teams
