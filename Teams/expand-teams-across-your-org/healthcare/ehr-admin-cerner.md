@@ -142,6 +142,9 @@ Key features of the provider experience:
 - Providers can see real-time updates of patients connecting to a virtual visit for a given appointment in PowerChart.
 - Provider information isn’t visible to patients during the virtual visit.
 
+> [!NOTE]
+> Any information entered in the meeting chat that’s necessary for medical records continuity or retention purposes should be downloaded, copied, and notated by the healthcare provider. The chat doesn’t constitute a legal medical record or a designated record set. Messages from the chat are stored based on settings created by the Microsoft Teams admin.
+
 ### Patient experience
 
 The connector supports patients joining virtual visits through a link in the SMS text message. At the time of the appointment, patients can start a virtual visit by tapping the link in the SMS text message.
