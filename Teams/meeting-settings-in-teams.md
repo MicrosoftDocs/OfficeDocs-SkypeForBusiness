@@ -41,7 +41,7 @@ With anonymous join, anyone can join the meeting as an anonymous user by clickin
 
 You must be a Teams admin to make these changes. See [Use Teams administrator roles to manage Teams](./using-admin-roles.md) to read about getting admin roles and permissions.
 
-1. Go to the [Teams admin center](https://admin.teams.microsoft.net).
+1. Go to the [Teams admin center](https://admin.teams.microsoft.com).
 
 2. In the left navigation, go to **Meetings** > **Meeting settings**.
 
