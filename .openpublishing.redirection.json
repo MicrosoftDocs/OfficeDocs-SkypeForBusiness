@@ -3,17 +3,17 @@
     {
       "source_path": "Teams/expand-teams-across-your-org/healthcare/dstu2-interface.md",
       "redirect_url": "/microsoftteams/manage-lists-app",
-      "redirect_document_id": true
+      "redirect_document_id": false
     }, 
     {
       "source_path": "Teams/expand-teams-across-your-org/healthcare/stu3-interface.md",
       "redirect_url": "/microsoftteams/manage-lists-app",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },     
     {
       "source_path": "Teams/expand-teams-across-your-org/healthcare/patients-audit.md",
       "redirect_url": "/microsoftteams/manage-lists-app",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },     
     {
       "source_path": "Teams/expand-teams-across-your-org/healthcare/patients-app-overview.md",
