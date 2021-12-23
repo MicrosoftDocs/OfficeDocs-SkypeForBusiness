@@ -228,6 +228,9 @@ Key features of the provider experience:
 
   ![Provider experience of a virtual visit with patient.](media/ehc-provider-experience-6.png)
 
+> [!NOTE]
+> Any information entered in the meeting chat that’s necessary for medical records continuity or retention purposes should be downloaded, copied, and notated by the healthcare provider. The chat doesn’t constitute a legal medical record or a designated record set. Messages from the chat are stored based on settings created by the Microsoft Teams admin.
+
 ### Patient experience
 
 The connector supports patients joining virtual visits through MyChart web and mobile. At the time of the appointment, patients can start a virtual visit from MyChart using the **Begin virtual visit** button.
