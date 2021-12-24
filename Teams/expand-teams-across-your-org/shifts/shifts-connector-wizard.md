@@ -107,7 +107,7 @@ Then, map each Blue Yonder site that you selected to a team in Teams. You can ma
 #### To map a site to an existing team
 
 1. Select the site name.
-2. In the pane, search for the team, and then select it. Keep in mind that teams that are already mapped to a site don't show up in the search.
+2. In the pane, search for the team, and then select it. Keep in mind that teams that are already mapped to a site in this connection don't show up in the search.
 3. Choose the time zone and closest city.
 4. Select **Save**, and then select **Next**.
 
@@ -130,7 +130,7 @@ Review your settings. If you need to make changes to any team mappings, choose *
 
 :::image type="content" source="../../media/shifts-connector-wizard-review.png" alt-text="Screenshot of the Review page of the wizard, showing mappings." lightbox="../../media/shifts-connector-wizard-review.png":::
 
-You’ll see a message to confirm that we received your request along with an operation ID. Make a note of the operation ID for future reference.
+You’ll see a message to confirm that we received your request along with an operation ID. Make a note of the operation ID. You'll need it to check the setup status of your connection.
 
 :::image type="content" source="../../media/shifts-connector-wizard-operation-id.png" alt-text="Screenshot of the wizard page, showing confirmation message and operation ID." lightbox="../../media/shifts-connector-wizard-operation-id.png":::
 
