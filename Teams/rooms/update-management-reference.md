@@ -22,7 +22,7 @@ f1keywords:
 # Managing Room software stack  
 In every room, different parts of the software stack all work together to deliver the experience. At a high level, they can be summarized as follows: 
 
-![alt text6](media/update-management.006.jpg)
+![alt text6](../media/update-management-006.jpg)
 
 To ensure a positive meeting experience every day in every room, it is important to **standardize every piece of software** running on each of the rooms and roll out fixes in the rooms depending on the configuration. It is also common to see customers set up their own validation process to gain confidence over any pending fixes by verifying that it really fixes an issue they might be experiencing or preview features to make the organization ready for the change.  
 
