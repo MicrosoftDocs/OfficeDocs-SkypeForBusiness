@@ -28,7 +28,7 @@ The Parents app helps educators securely connect and engage with the parents and
 ### School Data Sync
 
 - You need School Data Sync (SDS) to populate each student's parent and guardian **related contact** information​.
-  - [Deploy SDS](/schooldatasync/parent-contact-sync)
+  - [Deploy SDS](/schooldatasync/parents-and-guardians-in-sds)
 
 - If you need assistance in setting up SDS and populating parent and guardian **related contacts** for the students in your tenant, contact the EDU Customer Success team by:
   - Completing the RFA process at [FastTrack](https://www.microsoft.com/fasttrack?rtc=1).

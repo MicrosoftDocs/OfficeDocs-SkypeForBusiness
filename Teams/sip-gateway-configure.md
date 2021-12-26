@@ -103,6 +103,9 @@ To enable SIP Gateway in the Teams admin center, follow these steps:
 You can also enable SIP Gateway by using the PowerShell [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) cmdlet. To enable users for SIP devices, select a policy, and set the `-AllowSIPDevicesCalling` attribute to `True`. The default value is `False`, so users will not be able to use their SIP devices unless you enable them.
 
 
+> [!NOTE]
+> - Policy propagation may take up to 24 hours.
+
 ## Set the SIP Gateway provisioning server URL
 
 You can set the SIP Gateway provisioning server's URL in your Dynamic Host Configuration Protocol (DHCP) server. Users who work remotely must configure it manually.
@@ -190,7 +193,7 @@ To streamline your tasks, you can enroll SIP devices in the Teams admin center e
 
      f. On the **Provision devices** pane, under **Waiting on activation**, select a device and then select **Generate verification code** to generate a one-time verification code for each provisioned device. Note the verification code for each SIP device.
 
-4. On the SIP device, dial the enrollment feature code followed by the verification code. For example, if the enrollment feature code is \*55* and the verification code is 123456, dial \*55\*123456 to enroll the device.
+4. On the SIP device, dial the enrollment feature code followed by the verification code. On the SIP device, dial the enrollment feature code \*55* (used by SIP Gateway for enrollment one-time-verification code validation), followed by the verification code that is generated in Teams Admin Center for this particular device. For example, if the verification code is 123456, dial \*55\*123456 to enroll the device.
 
 5.  On the **Provision devices** pane, under **Waiting for sign in**, select **Signed out**.
 
