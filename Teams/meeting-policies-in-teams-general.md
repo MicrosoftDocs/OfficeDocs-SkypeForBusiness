@@ -119,13 +119,19 @@ Keep in mind that after you set the default value, meeting organizers can still 
 
 This is a per-user policy. This setting controls whether meeting organizers can download the [meeting attendance report](teams-analytics-and-reports/meeting-attendance-report.md).
 
-This policy is off by default and allows your organizers to see who registered and attended the meetings and webinars they set up. To turn this on in the Teams admin center, go to **Meetings** > **Meeting policies**, and set the policy to **Enabled**.
+This policy is off by default and allows your organizers to see who registered and attended the meetings and webinars they set up. To turn this on in the Teams admin center, go to **Meetings** > **Meeting policies**, and set the **Engagement report** setting to **Enabled**.
 
-You can edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
+You can also edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
 
 To enable a meeting organizer to download the meeting attendance report, set the **AllowEngagementReport** parameter to **Enabled**. When enabled, the option to download the report is displayed in the **Participants** pane. By default, this setting is not enabled.
 
 To prevent a meeting organizer from downloading the report, set the parameter to **Disabled**.
+
+> [!NOTE]
+> As an administrator, you can’t view the attendance report for meetings that you don’t organize. However, you can view participant details for a given meeting within 24 hours of that meeting. In the Teams admin center, go to **Users** > **Manage users**. Choose the display name for the meeting organizer. Select the **Meetings & calls** tab, and then choose the appropriate meeting ID or call ID. Then, select **Participant details**.
+
+For more information, including limits of the engagement report, see [viewing and downloading meeting attendance reports in Teams](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310).
+
 
 ## Meeting registration
 
