@@ -187,7 +187,7 @@ Let us consider the various tasks a user can do on **WEB SERVICE**, and the Skyp
 
 > **Scenario 5**: Update a QoE configuration
 
-   ![Update QoE configuration](./media/Web-service-5.png)
+   ![Update QoE configuration](./media/qoe-configuration-5.png)
 
 ***Cmdlet***
 
@@ -241,7 +241,7 @@ Let us consider the various tasks a user can do on **ARCHIVING POLICY**, and the
 
 ---
 
-> **Scenario 3**: Get details of a chosen archiving Policy
+> **Scenario 3**: Get details of a chosen archiving policy
 
    ![Get Archiving Policy](./media/archiving-policy-3.png)
 
@@ -273,7 +273,7 @@ Let us consider the various tasks a user can do on **ARCHIVING POLICY**, and the
 
 ---
 
-> **Scenario 5**: Update a archiving Policy
+> **Scenario 5**: Update a archiving policy
 
    ![Update Archiving Policy](./media/archiving-policy-5.png)
 
