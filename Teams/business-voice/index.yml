@@ -23,8 +23,8 @@ productDirectory:
           text: Teams Phone with Calling Plan guidance for small and medium businesses
         - url: https://www.microsoft.com/microsoft-365/business-voice
           text: Microsoft 365 Teams Phone with Calling Plan bundle         
-        - url: /office365/servicedescriptions/microsoft-365-business-voice-service-description
-          text: Service description
+        - url: /office365/servicedescriptions/teams-service-description
+          text: Teams Service description
     # Card
     - title: Set up
       imageSrc: https://docs.microsoft.com/office/media/icons/deploy-blue.svg
