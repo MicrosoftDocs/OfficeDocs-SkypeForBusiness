@@ -40,26 +40,26 @@ Not all Teams content is eDiscoverable. The following table shows the content ty
 |Code snippets | No | |
 |Edited messages | Yes | If the user is on hold, previous versions of edited messages are also preserved. |
 |Emojis, GIFs, and stickers | Yes | |
+|Feed notifications | No | |
 |Inline images | Yes | |
 |Meeting IM conversations | Yes | |
 |Meeting metadata<sup>1</sup> | Yes |  |
-|Name of channel | No | |
+|Name of channel | Yes | |
 |Private channel messages | Yes | |
 |Quotes | Yes | Quoted content is searchable. However, search results don't indicate that the content was quoted. |
 |Reactions (such as likes, hearts, and other reactions) | No | |
 |Subject | Yes | |
 |Tables | Yes | |
-|Feed notifications | No | |
 |||
 
 <sup>1</sup> Meeting (and call) metadata includes the following:
 
 - Meeting start and end time, and duration
 - Meeting join and leave events for each participant
-- VOIP join/calls
-- Anonymous join
-- Federated user join
-- Guest user join
+- VOIP joins/calls
+- Anonymous joins
+- Federated user joins
+- Guest user joins
 
   The image shows an example of meeting metadata.
 
@@ -155,7 +155,7 @@ To search for content for guest users:
    > [!TIP]
    > Instead of displaying a list of user principal names on the computer screen, you can redirect the output of the command to a text file. You can do this by appending `> filename.txt` to the previous command. The text file with the user principal names will be saved to the current folder.
 
-3. In a different Windows PowerShell window, connect to Security & Compliance Center PowerShell. For instructions, see [Connect to Security & Compliance Center PowerShell](/powershell/exchange/connect-to-scc-powershell). You can connect with or without using multi-factor authentication.
+3. In a different Windows PowerShell window, connect to Security & Compliance Center PowerShell. For instructions, see [Connect to Security & Compliance Center PowerShell](/powershell/exchange/connect-to-scc-powershell). You can connect with or without using multifactor authentication.
 
 4. Create a content search that searches for all content (such as chat messages and email messages) in which the specified guest user was a participant by running the following command.
 

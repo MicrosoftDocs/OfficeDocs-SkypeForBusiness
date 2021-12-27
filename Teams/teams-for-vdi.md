@@ -61,13 +61,17 @@ The following platforms have virtual desktop infrastructure solutions for Teams.
 
 |Platform|Solution|
 |----|---|
-|![The logo representing Microsoft.](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Azure Virtual Desktop</a> |
+|![The logo representing Microsoft.](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Azure Virtual Desktop</a>, <a href="/windows-365/enterprise/teams-on-cloud-pc" target="_blank">Windows 365</a> |
 |![The logo representing Citrix.](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix Virtual Apps and Desktops</a> |
 |![The logo representing VMware.](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
 
 ### Azure Virtual Desktop
 
-Azure Virtual Desktop provides AV optimization for Teams on VDI. To learn more and requirements and installation, see [Use Teams on Azure Virtual Desktop](/azure/virtual-desktop/teams-on-wvd).
+Azure Virtual Desktop provides AV optimization for Teams on VDI. To learn more on requirements and installation, see [Use Teams on Azure Virtual Desktop](/azure/virtual-desktop/teams-on-wvd).
+
+### Windows 365
+
+Windows 365 uses AV optimization provided by Azure Virtual Desktop to ensure optimal Teams experiences from Cloud PCs. To learn more on requirements and installation, see [Use Teams on Cloud PC](/windows-365/enterprise/teams-on-cloud-pc).
 
 ### Citrix Virtual Apps and Desktops requirements
 
@@ -481,7 +485,6 @@ The following calling and meeting features are not supported:
 - PSTN call ringback tone
 - Shared system audio/computer sound
 - Media bypass for Direct Routing
-- Call park
 - Zoom control
 
 > [!NOTE]
@@ -499,8 +502,6 @@ The following are known issues and limitations for calling and meetings:
 - Give control and take control:
     - Not supported during a screen sharing or application sharing session.
     - Supported during a PowerPoint sharing session.
-- Citrix-only limitations
-   - High DPI scaling on CWA is not supported.
 
 For Teams known issues that aren't related to VDI, see [Support Teams in your organization](/MicrosoftTeams/troubleshoot/teams-welcome).
 

@@ -16,6 +16,7 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
+search.appverid: MET150
 description: "Instructions for configuring Azure AD Connect in a hybrid environment."
 
 ---

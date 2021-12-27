@@ -76,6 +76,18 @@ In **Microsoft Teams**, users can see their phone number by clicking **Calls** i
 
 ![Screen shot of the options available after clicking Calls.](media/teams-phone-number.png)
 
+## Run a Self-diagnostics tool
+
+Microsoft 365 admin users have access to diagnostics that can be run within the tenant to verify a user is properly configured to make or receive PSTN calls. 
+
+> [!NOTE]
+>This feature isn't available for Microsoft 365 Government, Microsoft 365 operated by 21Vianet, or Microsoft 365 Germany.
+
+Select Run Tests, as follows. This will populate the diagnostic in the Microsoft 365 Admin Center.
+>> [!div class="nextstepaction"]
+>> [Run Tests: Teams PSTN](https://aka.ms/TeamsPSTNDiag)
+
+The diagnostic performs a large range of verifications.
 
 ## Do you want to automate assigning phone numbers?
 <a name="bkmk_add_addresses"> </a>

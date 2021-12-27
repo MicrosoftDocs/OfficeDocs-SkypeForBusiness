@@ -65,7 +65,7 @@ Approvals that are created from a template still store data in CDS, such as thei
 >[!Note]
 >If you delete the Form template on the Microsoft Forms site, it will break your Approval template and users will not be able to start the request. Users will get an error "CDB TableNotFound" when trying to open an Approval template that has been deleted on Microsoft Forms.
 
-The approval templates are stored in Substrate Data Storage (SDS), which is a compliant storage platform used internally only inside Microsoft. The organization-scoped templates are stored in “tenant shard” of SDS, and team-scoped templates are stored in “group shards” of SDS. This means that the org-scoped templates share the same lifetime of the tenant and team-scoped templates share the same lifetime of the team. So, permanently deleting the team deletes the related templates.
+Org-scoped templates share the same lifetime of the tenant and team-scoped templates share the same lifetime of the team. So, permanently deleting the team deletes the related templates.
 
 ## Approvals Teams app permissions
 
@@ -94,10 +94,10 @@ Approval Template Permissions
 
 - All team owners can create an approval template for teams that they own.
 
-- When an Admin creates a template for their entire organization for the first time, it will automatically create a new Teams team for all admins of the tenant, including the global and Team’s service admins. These admins will be added as owners of the team, so they can co-manage organizational templates. Admins that are new to the organization after the team has been created need to be manually added as team owners so they have the same permissions to manage organization-wide templates.
+- When an Admin creates a template for their entire organization for the first time, it will automatically create a new Azure Active Directory(AAD) group for all admins of the tenant, including the global and Team’s service admins. These admins will be added as owners of the group, so they can co-manage organizational templates. Admins that are new to the organization after the team has been created need to be manually added as group owners so they have the same permissions to manage organization-wide templates.
 
 > [!Note]
-> If an admin deletes the team, you have one month to restore it within the Azure Active Directory (AAD) portal to restore all related data. After one month, or if the admin deletes this team within the recycle bin, you will lose all the related data.
+> If an admin deletes the group, you have one month to restore it within the Azure Active Directory (AAD) portal to restore all related data. After one month, or if the admin deletes this group within the recycle bin, you will lose all related data.
 
 ## Disable the Approvals app
 
@@ -115,7 +115,7 @@ The Approvals app is available by default. You can disable the app in the Teams 
 
   5. Select the toggle to disable the app for your organization.
 
-     ![shows the details for the Approvals app.](media/approvals-details-new.png)
+     :::image type="content" alt-text="shows the details for the Approvals app." source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
 
 ## Retention policy
 

@@ -30,7 +30,10 @@ With mobile browser join, when an attendee joins an appointment from a mobile de
 Currently, mobile browser join is available for appointments that are scheduled through the following:
 
 - [The Bookings app](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-us&rs=en-us&ad=us#PickTab=Bookings)
-- [Microsoft Teams Electronic Health Records (EHR) connector](healthcare/ehr-admin.md)
+- Microsoft Teams Electronic Health Records (EHR) connector
+
+  - Integration with [Cerner EHR](healthcare/ehr-admin-cerner.md)
+  - Integration with [Epic EHR](healthcare/ehr-admin.md)
 
 ## Set up mobile browser join
 
@@ -56,7 +59,9 @@ In Bookings, select **New booking**, and then turn on **Allow attendees to join 
 
 No set up is needed by you or your staff!
 
-The Teams EHR connector supports patients joining virtual visits through MyChart web and mobile. At the time of the appointment, patients can start a virtual visit from MyChart by using the **Begin virtual visit** button. The patient chooses the browser they want, and then Teams opens in that browser.
+**Integration with Cerner EHR**: The Teams EHR connector supports patients joining virtual visits through mobile. At the time of the appointment, patients can join a virtual visit by tapping the link in the SMS text message. The patient chooses the browser they want, and then Teams opens in that browser.
+
+**Integration with Epic EHR**: The Teams EHR connector supports patients joining virtual visits through MyChart web and mobile. At the time of the appointment, patients can start a virtual visit from MyChart by using the **Begin virtual visit** button. The patient chooses the browser they want, and then Teams opens in that browser.
 
 ## Supported mobile browsers
 
@@ -84,4 +89,5 @@ The staff member who conducts the virtual visit can share their screen from thei
 - [Virtual visits with Teams and the Bookings app](bookings-virtual-visits.md)
 - [Create an Bookings appointment type](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)
 - [Join a Bookings appointment as an attendee](https://support.microsoft.com/office/join-a-bookings-appointment-as-an-attendee-95cea12d-2220-421f-a663-6efb20913c7f)
-- [Virtual visits with Teams - Integration into EHR](healthcare/ehr-admin.md)
+- [Virtual visits with Teams - Integration into Cerner EHR](healthcare/ehr-admin-cerner.md)
+- [Virtual visits with Teams - Integration into Epic EHR](healthcare/ehr-admin.md)

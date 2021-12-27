@@ -25,9 +25,6 @@ description: "Learn how to route calls to unassigned numbers in your organizatio
 
 # Routing calls to unassigned numbers
 
-> [!NOTE]
-> This feature is available as a Public Preview release.
-
 As an administrator, you can route calls to unassigned numbers in your organization. For example, you might want to route calls to unassigned numbers as follows: 
 
 - Route all calls to a given unassigned number to a custom announcement.
