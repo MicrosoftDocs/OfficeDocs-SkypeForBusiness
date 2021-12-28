@@ -81,3 +81,12 @@ The new Control Panel includes commonly used menu items that cover most of the n
 |Subnet      |  [Subnet](use-powershell-network-configuration-menu.md#subnet)       |
 |Region Link       |    [Region Link](use-powershell-network-configuration-menu.md#region-link)     |
 |Region Route      |  [Region Route](use-powershell-network-configuration-menu.md#region-route)       |
+
+## Topology
+
+|Sub-menu  |Source of Information for cmdlet  |
+|---------|---------|
+|Status       |    [Status](use-powershell-topology-menu.md#status)     |
+|Server Application      |  [Server Application](use-powershell-topology-menu.md#server-application)       |
+|Simple URL       |    [Simple URL](use-powershell-topology-menu.md#simple-url)     |
+|Trusted Application       |    [Trusted Application](use-powershell-topology-menu.md#trusted-application)     |
