@@ -65,10 +65,10 @@ The new Control Panel includes commonly used menu items that cover most of the n
 
 |Sub-menu  |Source of Information for cmdlet  |
 |---------|---------|
-|Call Detail Recording       |    [Call Detail Recording](use-powershell-monitoring-and-archiving.md#call-detail-recording)     |
-|Quality of Experience Data      |  [Quality of Experience Data](use-powershell-monitoring-and-archiving.md#quality-of-experience-data)       |
-|Archiving Policy       |    [[Archiving Policy](use-powershell-monitoring-and-archiving.md#archiving-policy)     |
-|Archiving Configuration      |  [Archiving Configuration](use-powershell-monitoring-and-archiving.md#archiving-configuration)       |
+|Call Detail Recording       |    [Call Detail Recording](use-powershell-monitoring-and-archiving-menu.md#call-detail-recording)     |
+|Quality of Experience Data      |  [Quality of Experience Data](use-powershell-monitoring-and-archiving-menu.md#quality-of-experience-data)       |
+|Archiving Policy       |    [Archiving Policy](use-powershell-monitoring-and-archiving-menu.md#archiving-policy)     |
+|Archiving Configuration      |  [Archiving Configuration](use-powershell-monitoring-and-archiving-menu.md#archiving-configuration)       |
 
 ## Network Configuration
 
@@ -76,8 +76,8 @@ The new Control Panel includes commonly used menu items that cover most of the n
 |---------|---------|
 |Location Policy       |    [Location Policy](use-powershell-network-configuration.md#location-policy)     |
 |Bandwidth Policy      |  [Bandwidth Policy](use-powershell-network-configuration.md#bandwidth-policy)       |
-|Region       |    [[Region](use-powershell-network-configuration.md#region)     |
+|Region       |    [Region](use-powershell-network-configuration.md#region)     |
 |Site      |  [Site](use-powershell-network-configuration.md#site)       |
 |Subnet      |  [Subnet](use-powershell-network-configuration.md#subnet)       |
-|Region Link       |    [[Region Link](use-powershell-network-configuration.md#region-link)     |
+|Region Link       |    [Region Link](use-powershell-network-configuration.md#region-link)     |
 |Region Route      |  [Region Route](use-powershell-network-configuration.md#region-route)       |
