@@ -95,7 +95,7 @@ Let us consider the various tasks a user can do on **SERVER APPLICATION**, and t
 
 > **Scenario 2**: Enable/Disable or select critical/ unselect critical a server application
 
-   ![List Server Application](./media/server-application-2.png)
+   ![Edit Server Application](./media/server-application-2.png)
 
 ***Cmdlet***
 
