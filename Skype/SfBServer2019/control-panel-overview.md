@@ -74,10 +74,10 @@ The new Control Panel includes commonly used menu items that cover most of the n
 
 |Sub-menu  |Source of Information for cmdlet  |
 |---------|---------|
-|Location Policy       |    [Location Policy](use-powershell-network-configuration.md#location-policy)     |
-|Bandwidth Policy      |  [Bandwidth Policy](use-powershell-network-configuration.md#bandwidth-policy)       |
-|Region       |    [Region](use-powershell-network-configuration.md#region)     |
-|Site      |  [Site](use-powershell-network-configuration.md#site)       |
-|Subnet      |  [Subnet](use-powershell-network-configuration.md#subnet)       |
-|Region Link       |    [Region Link](use-powershell-network-configuration.md#region-link)     |
-|Region Route      |  [Region Route](use-powershell-network-configuration.md#region-route)       |
+|Location Policy       |    [Location Policy](use-powershell-network-configuration-menu.md#location-policy)     |
+|Bandwidth Policy      |  [Bandwidth Policy](use-powershell-network-configuration-menu.md#bandwidth-policy)       |
+|Region       |    [Region](use-powershell-network-configuration-menu.md#region)     |
+|Site      |  [Site](use-powershell-network-configuration-menu.md#site)       |
+|Subnet      |  [Subnet](use-powershell-network-configuration-menu.md#subnet)       |
+|Region Link       |    [Region Link](use-powershell-network-configuration-menu.md#region-link)     |
+|Region Route      |  [Region Route](use-powershell-network-configuration-menu.md#region-route)       |
