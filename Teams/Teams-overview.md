@@ -17,6 +17,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - ms.teamsadmincenter.dashboard.allteamsdocuments
+  - intro-overview
 appliesto: 
   - Microsoft Teams
 ---

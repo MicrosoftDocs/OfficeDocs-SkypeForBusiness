@@ -20,6 +20,7 @@ f1.keywords:
 ms.custom: 
   - Phone System
   - seo-marvel-apr2020
+  - intro-overview
 description: "In this article, you will learn about the Teams Phone System technology in Microsoft 365."
 ---
 
