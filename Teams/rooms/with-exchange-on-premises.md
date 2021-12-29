@@ -28,39 +28,46 @@ If your organization has a mix of services, with some hosted on-premises and som
 ## Requirements
 
 Before you deploy Microsoft Teams Rooms with Exchange on premises, be sure you have met the requirements. For more information, see [Microsoft Teams Rooms requirements](requirements.md).
-  
-If you are deploying Microsoft Teams Rooms with Exchange on-premises, you will be using Active Directory administrative tools to add an email address for your on-premises domain account. This account will be synced to Microsoft 365 or Office 365. You will need to:
-  
-- Create an account and synchronize the account with Azure Active Directory.
-
-- Enable the remote mailbox and set properties.
-
-- Assign a Microsoft 365 or Office 365 license.
-
-### Create an account and synchronize with Azure Active Directory
-
-1. In the **Active Directory Users and Computers** tool, right-click on the folder or Organizational Unit that your Microsoft Teams Rooms accounts will be created in, click **New**, and then click **User**.
-
-2. Type the display name into the **Full name** box, and the alias into the **User logon name** box. Click **Next**.
-
-3. Type the password for this account. You'll need to retype it for verification. Make sure the **Password never expires** checkbox is the only option selected.
-
-    > [!NOTE]
-    > Selecting **Password never expires** is a requirement for Microsoft Teams Rooms. Your domain rules may prohibit passwords that don't expire. If so, you'll need to create an exception for each Microsoft Teams Rooms account.
-  
-4. After you've created the account, run a directory synchronization. When it's complete, go to the users page in your Microsoft 365 admin center and verify that the account created in the previous steps has been synchronized to online.
 
 ### Enable the remote mailbox and set properties
 
 1. [Open the Exchange Management Shell](/powershell/exchange/exchange-server/open-the-exchange-management-shell) or [connect to your Exchange server using remote PowerShell](/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell).
 
-2. In Exchange PowerShell, create a mailbox for the account (mailbox-enable the account) by running the following command:
+2. In Exchange PowerShell, create a new room mailbox or modify an existing room mailbox. By default, room mailboxes don't have associated accounts, so you'll need to add an account when you create or modify a room mailbox that allows it to authenticate with Microsoft Teams.
 
-   ```PowerShell
-   Enable-Mailbox ConferenceRoom01@contoso.com -Room
-   ```
+   - To create a new room mailbox, use the following syntax:
 
-   For detailed syntax and parameter information, see [Enable-Mailbox](/powershell/module/exchange/mailboxes/enable-mailbox).
+     ``` PowerShell
+     New-Mailbox -UserPrincipalName <UPN> -Name <String> -Alias <String> -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
+     ```
+     
+     This example creates a new room mailbox with the following settings:
+
+     - Account: ConferenceRoom01@contoso.com
+  
+     - Name: ConferenceRoom01
+
+     - Alias: ConferenceRoom01
+
+     - Account password: P@$$W0rd5959
+
+     ``` PowerShell
+     New-Mailbox -UserPrincipalName ConferenceRoom01@contoso.com -Name "ConferenceRoom01" -Alias ConferenceRoom01 -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
+     ```
+
+   - To modify an existing room mailbox, use the following syntax:
+
+     ``` PowerShell
+     Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
+     ```
+
+     This example enables the account for the existing room mailbox that has the alias value ConferenceRoom02, and sets the password to 9898P@$$W0rd. Note that the account will be ConferenceRoom02@contoso.com because of the existing alias value.
+
+     ``` PowerShell
+     Set-Mailbox -Identity ConferenceRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
+     ```
+
+   For detailed syntax and parameter information, see [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) and [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox).
 
 3. In Exchange PowerShell, configure the following settings on the room mailbox to improve the meeting experience:
 
@@ -86,6 +93,15 @@ If you are deploying Microsoft Teams Rooms with Exchange on-premises, you will b
 
    For detailed syntax and parameter information, see [Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
+### Set password to never expire
+
+1. In the **Active Directory Users and Computers** tool, find the Microsoft Teams Rooms account, right-click it and select **Properties**.
+
+2. Select the **Password never expires** checkbox and then click **OK**.
+
+   > [!NOTE]
+   > Selecting **Password never expires** is a requirement for Microsoft Teams Rooms. Your domain rules may prohibit passwords that don't expire. If so, you'll need to create an exception for each Microsoft Teams Rooms account.
+
 ### Assign a Microsoft 365 or Office 365 license
 
 1. Connect to Azure Active Directory. For details about Azure Active Directory, see [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0). 
@@ -99,19 +115,18 @@ If you are deploying Microsoft Teams Rooms with Exchange on-premises, you will b
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
    ``` -->
 
-3. Next, you can add a license using the `Set-MsolUserLicense` <!-- Set-AzureADUserLicense --> cmdlet. In this case, $strLicense is the SKU code that you see (for example, contoso:STANDARDPACK).
+3. Next, you can add a license using the `Set-MsolUserLicense` <!--Set-AzureADUserLicense --> cmdlet. This example adds the Meeting Room license to the account:
 
-  ``` PowerShell
-  Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -UsageLocation 'US'
-  Get-MsolAccountSku
-  Set-MsolUserLicense -UserPrincipalName 'ConferenceRoom01@contoso.com' -AddLicenses $strLicense
-  ```
+   ```PowerShell
+   Set-MsolUser -UserPrincipalName "ConferenceRoom01@contoso.com" -UsageLocation "US"
+   Set-MsolUserLicense -UserPrincipalName "ConferenceRoom01@contoso.com" -AddLicenses "Contoso:MEETING_ROOM"
+   ```
 
-<!--   ``` Powershell
-   Set-AzureADUserLicense -UserPrincipalName $acctUpn -UsageLocation "US"
-   Get-AzureADSubscribedSku
-   Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
-   ```  -->
+   <!-- 
+   ```Powershell
+   Set-AzureADUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -UsageLocation "US"
+   Set-AzureADUserLicense -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -AddLicenses "Contoso:MEETING_ROOM"
+   ```   -->
 
    For detailed instructions, see [Assign licenses to user accounts with Office 365 PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
