@@ -35,7 +35,7 @@ Each virtual appointment includes a Teams meeting link that’s sent to attendee
 To learn more, see:
 
 - [Manage the Bookings app](../bookings-app-admin.md)
-- [Virtual visits with Teams and the Bookings app](bookings-virtual-visits.md).
+- [Virtual visits with Teams and the Bookings app](bookings-virtual-visits.md)
 
 ## Teams Electronic Health Records (EHR) connector
 
@@ -50,6 +50,5 @@ Currently, the Teams EHR connector supports integration with the Cerner EHR syst
 
 ## Related articles
 
-- [Get started with Teams for healthcare organizations](healthcare/teams-in-hc.md)
 - [Manage the join experience for Teams virtual visits on mobile browsers](mobile-browser-join.md)
-
+- [Get started with Teams for healthcare organizations](healthcare/teams-in-hc.md)
