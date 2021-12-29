@@ -1,5 +1,5 @@
 ﻿---
-title: Microsoft Teams Rooms Premium-managed service
+title: Microsoft Teams Rooms update management
 author: donnah007 
 ms.author: v-donnahill
 manager: serdars
