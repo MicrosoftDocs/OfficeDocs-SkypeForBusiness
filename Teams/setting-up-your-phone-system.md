@@ -22,6 +22,7 @@ f1.keywords:
 ms.custom: 
   - Phone System
   - seo-marvel-apr2020
+  - intro-get-started
 description: Step-by-step guide detailing how to set up Teams Phone System for your organization in Microsoft 365.
 ---
 
