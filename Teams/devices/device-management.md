@@ -61,13 +61,13 @@ For details about how to manage your Teams Rooms devices, see [Manage Microsoft 
 | View meeting activity                  | Select a device name to open device details > **Activity**. When you open the **Activity** tab, you can see all the meetings that the device has participated in. This summary view shows the meeting start time, the number of participants, its duration, and the overall call quality.                                                                                        |
 | View meeting details                   | Select a device name to open device details > **Activity** > select a meeting. When you open a meeting's details, you can see all of the participants in the meeting, how long they were in the call, the Teams session types, and their individual call quality. If you want to see technical information about a participant's call, select the participant's call start time. |
 
-## Manage phones, collaboration bars, Teams displays, and Teams panels 
+## Manage phones, Teams Rooms, Teams displays, and Teams panels 
 
-In the Teams admin center, you can view and manage phones, collaboration bars, Teams displays, and Teams panels enrolled in Teams in your organization. Information that you'll see for each device includes device name, manufacturer, model, user, status, action, last seen, and history. You can customize the view to show the information that fits your needs.
+In the Teams admin center, you can view and manage phones, Teams Rooms, Teams displays, and Teams panels enrolled in Teams in your organization. Information that you'll see for each device includes device name, manufacturer, model, user, status, action, last seen, and history. You can customize the view to show the information that fits your needs.
 
-Phones, collaboration bars, Teams displays, and Teams panels are automatically enrolled in Microsoft Intune if you've signed up for it. After a device is enrolled, device compliance is confirmed and conditional access policies are applied to the device.
+Phones, Teams Rooms, Teams displays, and Teams panels are automatically enrolled in Microsoft Intune if you've signed up for it. After a device is enrolled, device compliance is confirmed and conditional access policies are applied to the device.
 
-Here are some examples of how you can manage phones, collaboration bars, Teams displays, and Teams panels in your organization.  
+Here are some examples of how you can manage phones, Teams Rooms, Teams displays, and Teams panels in your organization.  
 
 | To do this...                           | Do this                                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -82,7 +82,7 @@ Here are some examples of how you can manage phones, collaboration bars, Teams d
 
 ### Use configuration profiles in Teams
 
-Use configuration profiles to manage settings and features for different Teams devices in your organization, including collaboration bars, Teams displays, Teams phone, and Teams panels. You can create or upload configuration profiles to include settings and features you want to enable or disable, and then assign a profile to a device or set of devices. 
+Use configuration profiles to manage settings and features for different Teams devices in your organization, including Teams Rooms, Teams displays, Teams phone, and Teams panels. You can create or upload configuration profiles to include settings and features you want to enable or disable, and then assign a profile to a device or set of devices. 
 
 #### Create a configuration profile
 
