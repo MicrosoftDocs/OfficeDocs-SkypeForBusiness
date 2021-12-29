@@ -19,24 +19,34 @@ description: Learn about admin settings in the Praise app in the Microsoft Teams
 
 The Praise app in Microsoft Teams helps users show appreciation to members of their organization or classroom. With a selection of badge sets to choose from, Praise is designed to help recognize the effort that goes into the wide range of work that Teams users do, from educators to Frontline Workers. To learn more, check out [Send Praise to people](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e).
 
-Admins can control what badges are available to their organization from the Microsoft Teams admin center. In the left navigation, go to **Teams apps > Manage apps**. In the list of apps, choose **Praise**, and then select **Settings**.  From here, you can choose to enable default and built-in badge sets.
-
-![Screenshot of Settings tab for the Praise app.](media/manage-praise-app-settings.png)
-
 > [!NOTE]
 > The Praise app is available for GCC cloud environment, but not for GCC High or DoD.
 
-## Use built-in badge sets
+## Enable or disable Praise in your organization
 
-Built-in sets are collections of badges designed by Microsoft for the Praise app. These sets are not editable by admins. The default badge set is already enabled and available in the Praise app. To change the availability of the default set or of any badges sets, switch the corresponding toggle to On or Off. 
+Praise is enabled by default for all Teams users in your organization. You can turn off or turn on the app at the org level on the [Manage apps](manage-apps.md) page in the Microsoft Teams admin center.
 
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
+2. In the list of apps, search for the Praise app, select it, and then switch the **Status** toggle to **Blocked** or **Allowed**.
+
+## Enable or disable Shifts for specific users in your organization
+
+To allow or block specific users in your organization from using Praise, make sure Praise is turned on for your organization on the [Manage apps](manage-apps.md) page. Then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
+
+## Default badges
 <a name="default-badges"></br></a>
-
-### Default badges
 
 The default badge set is designed to help Teams users recognize their peers for going above and beyond with their work.
 
-![Preview of default badge set.](media/default-set-praise.png)
+:::image type="content" source="media/default-set-praise.png" alt-text="Image of badges in default badge set.":::
+
+The default badge set is already enabled and available in the Praise app. To change its availability:
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
+2. In the list of apps, search for the Praise app, select it, and then select the **Settings** tab.
+
+    :::image type="content" source="media/manage-praise-app-settings.png" alt-text="Screenshot of Settings tab for the Praise app.":::
+3. Switch the **Default badges** toggle to **Off** or **On**.
 
 <a name="sel-edu-badges"></br></a> <a name="create-your-own-badges"></br></a> <a name="hex-colors-intro"></br></a> <a name="best-practices"></br></a>
 
