@@ -46,8 +46,10 @@ Teams enables simple, secure collaboration and communication with chat, video, v
 Currently, the Teams EHR connector supports integration with the Cerner EHR system and Epic EHR system. To learn more, see:
 
 - [Virtual visits with Teams - Integration into Cerner EHR](healthcare/ehr-admin-cerner.md)
-- [Virtual visits with Teams - Integration into Epic EHR](healthcare/ehr-admin.md).
+- [Virtual visits with Teams - Integration into Epic EHR](healthcare/ehr-admin.md)
 
 ## Related articles
 
-[Get started with Teams for healthcare organizations](healthcare/teams-in-hc.md)
+- [Get started with Teams for healthcare organizations](healthcare/teams-in-hc.md)
+- [Manage the join experience for Teams virtual visits on mobile browsers](mobile-browser-join.md)
+
