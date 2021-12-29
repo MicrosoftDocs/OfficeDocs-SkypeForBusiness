@@ -990,6 +990,12 @@
               href: ../../SfbServer2019/use-powershell-security-menu.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: IM and Presence
               href: ../../SfbServer2019/use-powershell-im-and-presence-menu.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Monitoring and Archiving
+              href: ../../SfbServer2019/use-powershell-monitoring-and-archiving-menu.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Network Configuration
+              href: ../../SfbServer2019/use-powershell-network-configuration-menu.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+            - name: Topology
+              href: ../../SfbServer2019/use-powershell-topology-menu.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Authentication
           href: ../../SfbServer/manage/authentication/authentication.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items: 

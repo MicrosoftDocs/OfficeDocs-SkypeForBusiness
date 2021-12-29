@@ -15,7 +15,9 @@ metadata:
   ms.author: samanro #Required; microsoft alias of author; optional team alias.
   ms.date: 02/12/2020 #Required; mm/dd/yyyy format.
   ms.localizationpriority: high
-  ms.custom: seo-marvel-apr2020
+  ms.custom: 
+  - seo-marvel-apr2020
+  - intro-hub-or-landing
 
 # highlightedContent section (optional)
 # Maximum of 8 items
