@@ -48,6 +48,8 @@ The default badge set is already enabled and available in the Praise app. To cha
     :::image type="content" source="media/manage-praise-app-settings.png" alt-text="Screenshot of Settings tab for the Praise app.":::
 3. Switch the **Default badges** toggle to **Off** or **On**.
 
+    When the default badge set is enabled, all badges in the set are added to the Praise app.
+
 <a name="sel-edu-badges"></br></a> <a name="create-your-own-badges"></br></a> <a name="hex-colors-intro"></br></a> <a name="best-practices"></br></a>
 
 ## Badge set assets
