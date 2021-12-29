@@ -111,9 +111,14 @@ Before you deploy Microsoft Teams Rooms with Exchange on premises, be sure you h
 
 2. The resource account needs to have a valid Microsoft 365 or Office 365 license, or Exchange and Microsoft Teams will not work. If you have the license, you need to assign a usage location to your resource account—this determines what license SKUs are available for your account. You can use `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> to retrieve a list of available SKUs.
 
-<!--   ``` Powershell
+   ```Powershell
+   Get-MsolAccountSku
+   ```
+
+   <!--
+   ```Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
-   ``` -->
+   ```  -->
 
 3. Next, you can add a license using the `Set-MsolUserLicense` <!--Set-AzureADUserLicense --> cmdlet. This example adds the Meeting Room license to the account:
 
