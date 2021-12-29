@@ -38,21 +38,13 @@ The default badge set is designed to help Teams users recognize their peers for 
 
 ![Preview of default badge set.](media/default-set-praise.png)
 
-<a name="sel-edu-badges"></br></a>
-
-<a name="create-your-own-badges"></br></a>
-
-<a name="hex-colors-intro"></br></a>
-
-<a name="best-practices"></br></a>
+<a name="sel-edu-badges"></br></a> <a name="create-your-own-badges"></br></a> <a name="hex-colors-intro"></br></a> <a name="best-practices"></br></a>
 
 ## Badge set assets
 
 Built-in badge sets can't be modified, so when a built-in set is enabled, all badges in the set are added to the Praise app. If you want to add specific badges from a built-in set and leave out others, re-create the badges you want to use as custom badges. You can download the badge image and find the text and background colors of badges from built-in sets in the tables below.
 
 ### Default badges assets
-
-</br>
 
 |Badge name     |Image file  |Text color | Background color |
 |---------------|------------|---------- |--------|
