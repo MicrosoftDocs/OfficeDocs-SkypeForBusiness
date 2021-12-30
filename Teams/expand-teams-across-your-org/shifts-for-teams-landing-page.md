@@ -34,9 +34,10 @@ Use the following resources to help you set up and manage Shifts in your organiz
 
 ## Set up and manage Shifts
 
-|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
-| ------------- | ------------- | ------------- | ------------- |
-|<img src="/office/media/icons/calendar-teams.png" alt="Calendar symbol."> | **[Manage Shifts in your organization](shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** Learn how to manage Shifts for your organization.|<img src="/office/media/icons/users-people.png" alt="Users/people symbol.">  |**[Manage schedule owners for shift management](shifts/schedule-owner-for-shift-management.md)** This feature lets you elevate the permissions of a team member to a schedule owner without making the employee a team owner. |
+|&nbsp;  |&nbsp; |
+|---------|---------|
+|<img src="/office/media/icons/calendar-teams.png" alt="Calendar symbol.">|**[Manage Shifts in your organization](shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** Learn how to manage Shifts for your organization. |
+|<img src="/office/media/icons/users-people.png" alt="Users/people symbol.">|**[Manage schedule owners for shift management](shifts/schedule-owner-for-shift-management.md)** This feature lets you elevate the permissions of a team member to a schedule owner without making the employee a team owner. |
 
 ## Shifts extensions
 
