@@ -100,8 +100,6 @@ The virtual visits usage report in the Microsoft Teams admin center gives you an
 |**8** |Time series data points in the graph show different usage metrics aggregated at tenant|
 |**9** |Tabular data represented different usage metrics aggregated per team|
 
-[!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
-
 ## Related topics
 
 - [Teams analytics and reporting](teams-reporting-reference.md)
