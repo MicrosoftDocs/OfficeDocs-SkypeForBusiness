@@ -22,7 +22,7 @@ description: Learn about virtual visits with Teams.
 
 # Virtual visits with Microsoft Teams
 
-Use the complete meeting platform in Teams to schedule, manage, and conduct virtual visits for staff and attendees. This article gives you an overview of the capabilities that Teams offers for virtual appointments.
+Use the complete meeting platform in Teams to schedule, manage, and conduct virtual visits for staff and attendees. This article gives you an overview of the capabilities available in Teams for scheduling and managing virtual visits.
 
 ## The Bookings app
 
@@ -39,9 +39,7 @@ To learn more, see:
 
 ## Teams Electronic Health Records (EHR) connector
 
-If your healthcare organization uses Electronic Health Records (EHR), you can integrate Teams with your EHR system for a more seamless experience. The Teams EHR connector makes it easy for clinicians to launch virtual visits with patients and consultations with other providers in Teams directly from the EHR system.
-
-Teams enables simple, secure collaboration and communication with chat, video, voice, and healthcare tools in a single hub that supports compliance with HIPAA, HITECH certification, and more.
+If your healthcare organization uses Electronic Health Records (EHR), you can integrate Teams with your EHR system for a more seamless experience. After you set up the Teams EHR connector,  clinicians can launch virtual visits with patients and consultations with other providers in Teams directly from the EHR system.
 
 Currently, the Teams EHR connector supports integration with the Cerner EHR system and Epic EHR system. To learn more, see:
 
