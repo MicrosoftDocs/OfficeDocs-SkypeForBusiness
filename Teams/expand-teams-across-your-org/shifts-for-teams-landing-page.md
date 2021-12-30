@@ -36,7 +36,7 @@ Use the following resources to help you set up and manage Shifts in your organiz
 
 |&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 | ------------- | ------------- | ------------- | ------------- |
-|<img src="/office/media/icons/calendar-teams.png" alt="Calendar symbol."> | **[Manage Shifts in your organization](shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** Learn how to manage Shifts for your organization.|<img src="/office/media/icons/users-people.png" alt="Users/people symbol.">  |**[Manage schedule owners for shift management](shifts/schedule-owner-for-shift-management.md)** Learn how to manage schedule owners for shift management. This feature lets you elevate the permissions of a team member to a schedule owner without making the employee a team owner. |
+|<img src="/office/media/icons/calendar-teams.png" alt="Calendar symbol."> | **[Manage Shifts in your organization](shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** Learn how to manage Shifts for your organization.|<img src="/office/media/icons/users-people.png" alt="Users/people symbol.">  |**[Manage schedule owners for shift management](shifts/schedule-owner-for-shift-management.md)** This feature lets you elevate the permissions of a team member to a schedule owner without making the employee a team owner. |
 
 ## Shifts extensions
 
@@ -53,7 +53,7 @@ If you're using a third-party workforce management system (WFM) for scheduling, 
 |&nbsp;  |&nbsp;  |
 |---------|---------|
 |<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | [Shifts connectors overview](shifts/shifts-connectors.md) Get an overview of Shifts connectors and how they work. Learn about the managed and open-source connectors that are available and the supported WFM systems.   |
-|<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">    | [Use the Shifts connector wizard to connect your workforce management system](shifts/shifts-connector-wizard) The Shifts connector wizard makes it easy to connect Shifts with your WFM system. Currently, the wizard supports the Teams Shifts connector for Blue Yonder. Get step-by-step guidance for how to run the wizard to connect Shifts to Blue Yonder.
+|<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">    | [Use the Shifts connector wizard to connect your workforce management system](shifts/shifts-connector-wizard) The Shifts connector wizard makes it easy to connect Shifts with your WFM system. Currently, the wizard supports the Teams Shifts connector for Blue Yonder. 
 |<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">    |[Use PowerShell to connect Shifts to your Blue Yonder workforce management system](shifts/shifts-connector-blue-yonder-powershell-setup.md) Learn how to use PowerShell to set up a connection to Blue Yonder through the Teams Shifts connector for Blue Yonder.         |
 |<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">    | [Use PowerShell to manage your Shifts connection to Blue Yonder](/shifts-connector-powershell-manage.md) Learn how to use PowerShell manage your Shifts connection to Blue Yonder after you set it up through the Shifts connector wizard or PowerShell.     |
 
