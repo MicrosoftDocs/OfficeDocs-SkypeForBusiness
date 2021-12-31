@@ -22,15 +22,18 @@ description: Learn about virtual visits with Teams.
 
 # Virtual visits with Microsoft Teams
 
-Use the complete meeting platform in Teams to schedule, manage, and conduct virtual visits for staff and attendees. This article gives you an overview of the capabilities available in Teams for scheduling and managing virtual visits.
+With Microsoft Teams, you have a complete meeting platform to schedule, manage, and conduct virtual visits for staff and attendees. This article gives you an overview of the capabilities available in Teams for scheduling and managing virtual visits.
+
+- [The Bookings app](#the-bookings-app) for every organization
+- [The Teams Electronic Health Records (EHR) connector](#teams-electronic-health-records-ehr-connector) for healthcare organizations who use EHR
 
 ## The Bookings app
 
-The [Bookings app](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) in Teams gives organizations a simple way to schedule and manage virtual appointments. Use it to schedule virtual appointments such as healthcare visits, financial consultations, interviews, customer support, virtual fittings and consultations, education office hours, and more.
+The [Bookings app](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) in Teams offers a simple way to schedule and manage virtual appointments. Use it to schedule virtual appointments such as healthcare visits, financial consultations, interviews, customer support, virtual fittings and consultations, education office hours, and more.
 
 Schedulers can manage multiple department and staff calendars, as well as communications with internal and external attendees, from a single experience.
 
-Each virtual appointment includes a Teams meeting link that’s sent to attendees in email where they can easily join from a web browser or in Teams on any device.
+Each virtual appointment contains a Teams meeting link that’s sent to attendees in email where they can easily join from a web browser or in Teams on any device.
 
 To learn more, see:
 
