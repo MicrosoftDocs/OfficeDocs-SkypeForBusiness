@@ -31,7 +31,7 @@ With Microsoft Teams, you have a complete meeting platform to schedule, manage, 
 
 The [Bookings app](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) in Teams offers a simple way to schedule and manage virtual appointments. Use it to schedule virtual appointments such as healthcare visits, financial consultations, interviews, customer support, virtual fittings and consultations, education office hours, and more.
 
-Schedulers can manage multiple department and staff calendars, as well as communications with internal and external attendees, from a single experience.
+Schedulers can manage multiple department and staff calendars, as well as communications with internal and external attendees.
 
 Each virtual appointment contains a Teams meeting link that’s sent to attendees in email where they can easily join from a web browser or in Teams on any device.
 
