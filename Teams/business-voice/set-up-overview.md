@@ -13,6 +13,7 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - Teams_Business_Voice
+ms.custom: intro-get-started
 search.appverid: MET150
 description: Learn how to set up Microsoft 365 Business Voice in your small to medium business or organization.
 appliesto: 
