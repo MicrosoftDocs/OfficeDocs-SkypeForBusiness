@@ -139,7 +139,7 @@ To test your setup, you need a Teams user who's not behind your firewall.
 
 ## Limit external access to specific people
 
-You can limit external access to specific people by using PowerShell.
+If you've enabled **People in my organization can communicate with Teams users whose accounts aren't managed by an organization**, you can limit external access to specific people by using PowerShell.
 
 You can use the example script below, substituting *PolicyName* for the name you want to give the policy, and *UserName* for each user you want to be able to use external access.
 
