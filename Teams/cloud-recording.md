@@ -262,6 +262,10 @@ The size of a 1-hour recording is 400 MB. Make sure you understand the capacity 
 >
 >
 
+Please refer to the admin-specific help doc <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/meeting-expiration#changes-to-meeting-expiration">here<a>
+
+Please refer to the user-specific help doc Please refer to the admin-specific help doc <a href="https://support.microsoft.com/en-us/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date">here<a>?
+  
 See the frequently asked questions for admins and end users to gather insights into how auto-expiration of Teams meeting recordings will work, what actions you can take now, and what actions you can take after the feature launches.
   
 ## Frequently asked questions
