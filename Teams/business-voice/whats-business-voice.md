@@ -17,7 +17,9 @@ search.appverid: MET150
 description: The Microsoft Teams Phone with Calling Plan bundle is an inexpensive option for voice calling, enabling small and medium businesses to communicate better.
 appliesto: 
 - Microsoft Teams
-ms.custom: seo-marvel-may2020
+ms.custom:
+- seo-marvel-may2020
+- intro-overview
 ---
 
 # Teams Phone guidance for small and medium businesses
