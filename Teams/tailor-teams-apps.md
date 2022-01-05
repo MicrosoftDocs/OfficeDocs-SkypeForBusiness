@@ -64,4 +64,4 @@ Keep in mind that any custom app setup policies assigned to users take precedenc
 ## Related articles
 
 - [Manage app setup policies in Teams](teams-app-setup-policies.md)
-- [Manage policy packages in Teams](manage-policy-packages.md)
+- [Manage app permission policies in Teams](teams-app-permission-policies.md)
