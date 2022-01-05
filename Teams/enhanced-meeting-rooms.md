@@ -75,7 +75,7 @@ From:
 
 ![Example of a standard medium conference room.](media/emr2.jpg)
 
-Optimizing for in-person collaboration primarily with remote secondary audio-video (AV) as a supplement to the experience
+*Optimizing for in-person collaboration primarily with remote secondary audio-video (AV) as a supplement to the experience*
 
 To:
 
