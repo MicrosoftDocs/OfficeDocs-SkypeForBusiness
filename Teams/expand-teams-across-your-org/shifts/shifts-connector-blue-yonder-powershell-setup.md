@@ -415,6 +415,7 @@ For help with Shifts connector cmdlets, including the cmdlets used in the script
 ## Related articles
 
 - [Shifts connectors](shifts-connectors.md)
+- [Use PowerShell to manage your Shifts connection to Blue Yonder](shifts-connector-powershell-manage.md)
 - [Manage the Shifts app](manage-the-shifts-app-for-your-organization-in-teams.md)
 - [Teams PowerShell overview](../../teams-powershell-overview.md)
 - [Teams PowerShell cmdlet reference](/powershell/teams/intro?view=teams-ps)
