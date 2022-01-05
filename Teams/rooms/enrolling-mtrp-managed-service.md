@@ -39,7 +39,7 @@ After you've assigned users to the Managed Service Administrator role, continue 
 
 ## Enroll a Teams Rooms device
 
- To enroll a device in the Teams Rooms Premium managed service, see [Monitoring device software installation](monitoring-software-installation-guide.md).
+ To enroll a device in the Teams Rooms Premium managed service, see [Monitoring device software installation](monitor-software-installation-guide.md).
 
 <!--2. Select on the **?** icon at the top right-hand corner of the portal to launch the help menu. The help menu includes an [Installation guide](https://portal.rooms.microsoft.com/docs/MMR%20Monitoring%20Software%20Installation%20Guide%20Feb%202021.pdf) containing detailed enrollment instructions:
 

@@ -825,7 +825,7 @@ items:
             - name: Configure accounts
               href: rooms/rooms-configure-accounts.md
             - name: Software installation
-              href: rooms/monitoring-software-installation-guide.md              
+              href: rooms/monitor-software-installation-guide.md              
             - name: Surface Hub
               items: 
                 - name: Set up Coordinated Meetings
