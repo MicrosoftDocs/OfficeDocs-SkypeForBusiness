@@ -36,7 +36,7 @@ Here's a list of Teams add-on licenses and their features that you can add to yo
 
 |License|Description|
 |-------|-----------|
-|**Microsoft 365 Business Voice** <br/> | Business Voice was Microsoft's voice feature bundle for small and medium businesses but will be deprecated on March 1, 2022. <br/> <br/> If you're a small or medium-sized business, we recommend purchasing the [Teams Phone with Calling Plan bundle](/microsoftteams/business-voice/whats-business-voice.md), if it's available in your region. |
+|**Microsoft 365 Business Voice** <br/> | Business Voice was Microsoft's voice feature bundle for small and medium businesses but will be deprecated on March 1, 2022. <br/> <br/> If you're a small or medium-sized business, we recommend purchasing the [Teams Phone with Calling Plan bundle](../business-voice/whats-business-voice.md), if it's available in your region. |
 |**Teams Phone with Calling Plans bundle** <br/> |Teams Phone with Calling Plans is a telephony solution that bundles Phone System's PBX capabilities and a Domestic Calling Plan for PSTN connectivity. <br/> |
 |**Teams Phone** <br/> |[Teams Phone](../what-is-phone-system-in-office-365.md) is a hosted telephone service that gives you call control and Private Branch Exchange (PBX) capabilities, with options for connecting to the Public Switched Telephone Network (PSTN). Teams Phone features include cloud voicemail, caller ID, call park, call forwarding, auto attendants, call queues, call transfer, caller ID, and more. <br>To learn more, see [Here's what you get with Teams Phone](../here-s-what-you-get-with-phone-system.md). For pricing info, see [Pricing for Teams Phone](https://go.microsoft.com/fwlink/?linkid=799763).  <br/> |
 |**Calling Plans** <br/> |If you want users to be able to call phone numbers outside your organization, get a [Calling Plan](../calling-plans-for-office-365.md). There are Domestic Calling Plans and Domestic and International Calling Plans. For pricing info, see [Pricing for Calling Plans](https://go.microsoft.com/fwlink/?linkid=799761 ).  <br/> |
@@ -59,12 +59,12 @@ If you're a small or medium-sized business (less than 300 users), you have four 
 - Buy an Enterprise E1 or E3 plan and Microsoft 365 Teams Phone with Calling Plan bundle.
 - Buy an Enterprise E1 or E3 plan and add voice features individually.
 - Buy an Enterprise E5 plan, which includes voice features.
-  - The Microsoft 365 Enterprise E5 plan includes Teams Phone, but organizations will still need to choose a [PSTN connectivity option](/microsoftteams/pstn-connectivity.md).
+  - The Microsoft 365 Enterprise E5 plan includes Teams Phone, but organizations will still need to choose a [PSTN connectivity option](../pstn-connectivity.md).
 
 For Microsoft 365 Teams Phone, you have two options to choose from:
 
-- **Microsoft 365 Teams Phone with Calling Plan bundle**: Get this if you want all phone number management and billing to be handled by Microsoft. Check to see if [Teams Phone with Calling Plan is available in your region](/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
-- **Microsoft 365 Teams Phone standalone license**: This license includes Teams Phone, but you'll still need to connect to the PSTN. To learn about voice solutions, see [Plan your Teams voice solution](/microsoftteams/cloud-voice-landing-page.md). To view all your PSTN connectivity options, see [PSTN connectivity options](/microsoftteams/pstn-connectivity.md).
+- **Microsoft 365 Teams Phone with Calling Plan bundle**: Get this if you want all phone number management and billing to be handled by Microsoft. Check to see if [Teams Phone with Calling Plan is available in your region](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+- **Microsoft 365 Teams Phone standalone license**: This license includes Teams Phone, but you'll still need to connect to the PSTN. To learn about voice solutions, see [Plan your Teams voice solution](../cloud-voice-landing-page.md). To view all your PSTN connectivity options, see [PSTN connectivity options](../pstn-connectivity.md).
 
 To learn more, see [Teams Phone guidance for small and medium businesses](../business-voice/whats-business-voice.md).
 
