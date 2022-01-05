@@ -25,11 +25,11 @@ appliesto:
 
 ![Rendering of an Enhanced Meeting Room.](media/emr1.png)
 
-This article is the first in a series that explores how Microsoft is transforming standard conference rooms into "Enhanced Meeting Rooms" that bring the very best of the new Teams Front Row experience. This article includes room design and technology guidance, recommended products, and retrofitting tips.
+This article is the first in a series that explores how Microsoft is transforming standard conference rooms into "Enhanced Meeting Rooms" that bring the best of the new Teams Front Row experience. This article includes room design and technology guidance, recommended products, and retrofitting tips.
 
 ## Microsoft’s vision for the future of meeting rooms
 
-The future of work will be fluid, dynamic, and powered by the cloud. Microsoft enables meeting experiences that allow people to be there, from anywhere, at any time. These are hybrid meetings you can join seamlessly and that bring people together. Meetings enhanced with Microsoft devices are inclusive; every voice is heard, and everyone is clearly represented.
+The future of work will be fluid, dynamic, and powered by the cloud. Microsoft enables meeting experiences that allow people to be there, from anywhere, at any time. You can join these hybrid meetings seamlessly, and they're designed to bring people together. Meetings enhanced with Microsoft devices are inclusive; every voice is heard, and everyone is clearly represented.
 
 Microsoft sees a future where meetings are immersive and spaces are designed around people, bringing everyone together around the same virtual table, even if they’re not in the room. Our dynamic meeting views keep everyone connected to the content and each other. Formal presentations are paired with collaborative chats, digital canvases unleash group creativity, and everyone can connect face to face wherever they are.
 
@@ -37,7 +37,7 @@ The vision for the future of meetings is grounded in a simple belief: meetings s
 
 ## What is an Enhanced Meeting Room?
 
-In the Microsoft hybrid digital workplace, the next generation of room standards are informed by the needs of both remote and in-room participants. The objective of the Enhanced Meeting Rooms is to achieve effective, efficient, and inclusive meetings.
+In the Microsoft hybrid digital workplace, the next generation of room standards is informed by the needs of both remote and in-room participants. The objective of the Enhanced Meeting Rooms is to achieve effective, efficient, and inclusive meetings.
 
 The concept for the Enhanced Meeting Room is driven by three key Experience Goals:
 
@@ -67,7 +67,7 @@ Enhanced Meeting Rooms should be deployed strategically within your organization
 
 At Microsoft, flexible work guidelines prioritize giving employees agility when choosing where to work and when. This fundamental shift in policy has made Microsoft rethink the evolution of meeting spaces and technology.
 
-Research has shown that all remote meetings during the pandemic have had a number of benefits—particularly around increased feelings of equity and inclusion. As companies think about returning in a hybrid setting, with remote and in-person collaboration happening simultaneously, Microsoft sought to create meeting spaces that better support the company’s flexible work policies while maintaining a level playing field for all participants through room design and technology.
+Research has shown that all remote meetings during the pandemic have had many benefits—particularly around increased feelings of equity and inclusion. As companies think about returning in a hybrid setting, with remote and in-person collaboration happening simultaneously, Microsoft sought to create meeting spaces that better support the company’s flexible work policies while maintaining a level playing field for all participants through room design and technology.
 
 Let’s start with a standard medium-sized conference room that would traditionally seat about 8-12 people.
 
@@ -93,7 +93,7 @@ Meeting participants can meet remotely and locally to work together seamlessly w
 
 The Enhanced Meeting Room layout is designed for maximum visibility and engagement with remote participants and content.
 
-The layout features a curved table for in-person eye contact as well as orientation to remote participants with all chairs facing the displays so participants are able to follow along.
+The layout features a curved table for in-person eye contact in addition to all chairs facing the displays with remote participants so everyone is able to follow along.
 
 ![Rendering of an Enhanced Meeting Room with a projector and U-shaped table.](media/emr4.png)
 
@@ -139,7 +139,7 @@ Enhanced Meeting Rooms can take advantage of traditional whiteboarding with a co
 
 ![Diagram of an Enhanced Meeting Room.](media/emr9.png)
 
-25ft x 14ft
+25 ft x 14 ft
 
 #### Room capacity 
 
@@ -151,7 +151,7 @@ This room features a curved table for in-person eye contact as well as orientati
 
 #### Room table height 
 
-This room features a standard meeting room table with a height of 30in or 76cm.
+This room features a standard meeting room table with a height of 30 in or 76 cm.
 
 #### Equipment mounting
 
@@ -263,7 +263,7 @@ An Enhanced Meeting Room requires that the display be placed in front of all the
 
 The horizontal center line of the display must be centered on the same center line as the table.
 
-The vertical center line of the display must be no more than +/- 15 degrees offset from the eyeline of a typical in-room meeting participant seated at the table.
+The vertical center line of the display must be no more than +/- 15 degrees offset from the eye line of a typical in-room meeting participant seated at the table.
 
 #### Display count
 
@@ -295,7 +295,7 @@ Within Microsoft, the Jabra Panacast 50 has seen a lot of use.
 
 ### Microphone
 
--   A certified microphone solution that will clearly capture all the in=room meeting participants.
+-   A certified microphone solution that will clearly capture all the in-room meeting participants.
 
 Within Microsoft, the Jabra Panacast 50 has seen a lot of use.
 
@@ -323,7 +323,7 @@ Microsoft expects that Enhanced Meeting Rooms will be a highly desirable room la
 
 ### Select the right space
 
-Where possible, choose a conference room that already meets the physical/design requirements listed above. This will minimize any intervention required.
+Where possible, choose a conference room that already meets the physical/design requirements listed above. This choice will minimize any intervention required.
 
 In addition, look for the following considerations for ideal room selection:
 
@@ -492,14 +492,14 @@ The following reference specifications are used by the Microsoft Corporate Facil
 </blockquote></td>
 <td><blockquote>
 <p>O 2'-0"</p>
-<p>(61cm x 61cm) acoustic ceiling tile *</p>
+<p>(61 cm x 61 cm) acoustic ceiling tile *</p>
 </blockquote></td>
 <td><blockquote>
 <p>O Carpet tile*</p>
 </blockquote></td>
 <td><blockquote>
 <p>O 2.5"H</p>
-<p>(6cm) coved</p>
+<p>(6 cm) coved</p>
 <p>resilient base</p>
 <p>O Avoid specifying a light-colored base that will show scuffs and stains</p>
 </blockquote></td>
@@ -785,11 +785,11 @@ The following reference specifications are used by the Microsoft Corporate Facil
 
 ### Illumination
 
--   X FACES: 30 fc / 300 average horizontal at faces 48" (122cm) A.F.F. with a.5:1 avg:min uniformity and 40 fc / 400 average vertical at faces 36" to 60" (91cm to 152cm) A.F.F. with 1.5:1 avg:min uniformity
+-   X FACES: 30 fc / 300 average horizontal at faces 48" (122 cm) A.F.F. with a.5:1 avg:min uniformity and 40 fc / 400 average vertical at faces 36" to 60" (91 cm to 152 cm) A.F.F. with 1.5:1 avg:min uniformity
 
--   X TABLES: 30 fc / 300 average horizontal at tables 30" (76cm) A.F.F. with 1.5:1 avg:min uniformity
+-   X TABLES: 30 fc / 300 average horizontal at tables 30" (76 cm) A.F.F. with 1.5:1 avg:min uniformity
 
--   X WALLS (40% matte reflectance): 40 fc / 400 average vertical at 30" to 78" (76cm to 198cm) A.F.F. with 1.5: 1 avg:min uniformity X WALLS (50% matte reflectance): 30 fc / 300 average vertical at 30" to 78" (76cm to 198cm) A.F.F. with 1.5: 1 avg:min uniformity X WALLS (60% matte reflectance): 20 fc / 200 average vertical at 30" to 78" (76cm to 198cm) A.F.F. with 1.5: 1 avg:min uniformity X Front-screen projection display surface: 5 fc / 50 max vertical with 2:1 max:avg uniformity
+-   X WALLS (40% matte reflectance): 40 fc / 400 average vertical at 30" to 78" (76 cm to 198 cm) A.F.F. with 1.5: 1 avg:min uniformity X WALLS (50% matte reflectance): 30 fc / 300 average vertical at 30" to 78" (76 cm to 198 cm) A.F.F. with 1.5: 1 avg:min uniformity X WALLS (60% matte reflectance): 20 fc / 200 average vertical at 30" to 78" (76 cm to 198 cm) A.F.F. with 1.5: 1 avg:min uniformity X Front-screen projection display surface: 5 fc / 50 max vertical with 2:1 max:avg uniformity
 
 -   X Video display or monitor surface: 20 fc / 200 max vertical with 2:1 max:avg uniformity
 
