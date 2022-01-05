@@ -39,7 +39,7 @@ This article covers the Teams Phone with Calling Plan bundle for small and mediu
 
 - Learn about all your Microsoft voice solutions by reading [Plan your Teams voice solution](../cloud-voice-landing-page.md).
 - To view all your PSTN connectivity options, see [PSTN connectivity options](../pstn-connectivity.md).
-- For more information about subscriptions and licensing, see [Microsoft Teams add-on licenses](/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business.md).
+- For more information about subscriptions and licensing, see [Microsoft Teams add-on licenses](../teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business.md).
 
 >[!IMPORTANT]
 > Microsoft Teams and Teams Phone with Calling Plan only work when your users' mailboxes are located in Microsoft 365 (excluding Microsoft 365 Teams Essentials subscribers). They don't support mailboxes located on on-premises Exchange Server.
@@ -50,12 +50,12 @@ These articles will help your business plan, set up, and manage your Teams Phone
 
 | Article | Description |
 |---------|-------------|
-| [Check country and region availability](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) | See which Teams Phone features and Calling Plans are available in your country and region |
-| [Check your internet connection](/business-voice/get-ready-internet.md) | Determine if your internet connection is sufficient for Teams Phone with Calling Plan |
-| [Get help from a reseller or partner](/business-voice/reseller-partner-support.md) | See how a Microsoft reseller or partner can help you find the right voice solution if the Teams Phone with Calling Plan is not available in your region |
-| [Set up Teams Phone with Calling Plan for small and medium businesses](/business-voice/set-up-overview.md) | Follow this step-by-step guide for a basic set up of Teams Phone with Calling Plan |
-| [Customize your Teams Phone setup for small and medium businesses](/business-voice/customize-business-voice.md) | Learn how to customize Teams Phone with Calling Plan for your unique needs |
-| [Manage your Teams Phone setup for small and medium businesses](/business-voice/create-users.md) | Learn how to manage Teams Phone with Calling Plan users, devices, and call quality |
+| [Check country and region availability](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) | See which Teams Phone features and Calling Plans are available in your country and region |
+| [Check your internet connection](../business-voice/get-ready-internet.md) | Determine if your internet connection is sufficient for Teams Phone with Calling Plan |
+| [Get help from a reseller or partner](../business-voice/reseller-partner-support.md) | See how a Microsoft reseller or partner can help you find the right voice solution if the Teams Phone with Calling Plan is not available in your region |
+| [Set up Teams Phone with Calling Plan for small and medium businesses](../business-voice/set-up-overview.md) | Follow this step-by-step guide for a basic set up of Teams Phone with Calling Plan |
+| [Customize your Teams Phone setup for small and medium businesses](../business-voice/customize-business-voice.md) | Learn how to customize Teams Phone with Calling Plan for your unique needs |
+| [Manage your Teams Phone setup for small and medium businesses](../business-voice/create-users.md) | Learn how to manage Teams Phone with Calling Plan users, devices, and call quality |
 | [Partner resources](https://cloudpartners.transform.microsoft.com/products/m365-business-voice-partner-playbook) | For Microsoft 365 partners, see how you can build a strong managed services practice for Teams Phone with Calling Plan |
 
 ## Teams Phone with Calling Plan bundle license
