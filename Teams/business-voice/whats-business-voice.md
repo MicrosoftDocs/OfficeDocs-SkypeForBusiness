@@ -39,7 +39,7 @@ This article covers the Teams Phone with Calling Plan bundle for small and mediu
 
 - Learn about all your Microsoft voice solutions by reading [Plan your Teams voice solution](../cloud-voice-landing-page.md).
 - To view all your PSTN connectivity options, see [PSTN connectivity options](../pstn-connectivity.md).
-- For more information about subscriptions and licensing, see [Microsoft Teams add-on licenses](../teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business.md).
+- For more information about subscriptions and licensing, see [Microsoft Teams add-on licenses](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 >[!IMPORTANT]
 > Microsoft Teams and Teams Phone with Calling Plan only work when your users' mailboxes are located in Microsoft 365 (excluding Microsoft 365 Teams Essentials subscribers). They don't support mailboxes located on on-premises Exchange Server.

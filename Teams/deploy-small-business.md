@@ -77,7 +77,7 @@ Meetings are enabled by default in Teams, however, you can control the meeting e
 
 Microsoft 365 Teams Phone with Calling Plan is a great solution for businesses with fewer than 300 users that gives you all the features of an office phone system. Teams Phone includes voicemail, caller ID, phone system menus, toll-free numbers, and more, without the need to manage a complex and costly on-premises phone system.
 
-For more information on Teams Phone with Calling Plan for small and medium businesses, see [Teams Phone Guidance for small and medium businesses](../business-voice/whats-business-voice.md).
+For more information on Teams Phone with Calling Plan for small and medium businesses, see [Teams Phone Guidance for small and medium businesses](/business-voice/whats-business-voice.md).
 
 ## Deploy clients
 
