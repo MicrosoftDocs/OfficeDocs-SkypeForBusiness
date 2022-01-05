@@ -22,7 +22,7 @@ description: Learn how to manage private channels in your organization using Gra
 
 # Manage the life cycle of private channels in Microsoft Teams
 
-Here you'll find the guidance you need to manage use the Graph API to manage [Teams private channels](./private-channels.md) in your organization.
+Here you'll find the guidance you need to use the Graph API to manage [Teams private channels](./private-channels.md) in your organization.
 
 ## Set whether team members can create private channels
 
