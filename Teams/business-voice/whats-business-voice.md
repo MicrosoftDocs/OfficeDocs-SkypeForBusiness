@@ -18,7 +18,9 @@ search.appverid: MET150
 description: Microsoft 365 Business Voice is an inexpensive option for voice calling, enabling small and medium businesses to communicate more effectively.
 appliesto: 
 - Microsoft Teams
-ms.custom: seo-marvel-may2020
+ms.custom:
+- seo-marvel-may2020
+- intro-overview
 ---
 
 # What is Microsoft 365 Business Voice?
