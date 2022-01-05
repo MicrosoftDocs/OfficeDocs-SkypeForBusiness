@@ -42,11 +42,11 @@ The tailored app experience feature is controlled by a policy setting that appli
 
 This feature is on by default. However, if you don't want the tailored app experience provided by Microsoft, you can turn off the policy setting in the Teams admin center or by using PowerShell.  
 
-Keep in mind that any custom app setup policies assigned to users take precedence. This means that if a user already has a custom app setup policy assigned to them, the user gets the configuration that's defined in the custom app setup policy. To learn more about how the feature works with existing app setup policies that you've applied in your organization, see the [Scenarios](#scenarios) section of this article.
+Keep in mind that any custom app setup policies assigned to users take precedence. This means that if a user already has a custom app setup policy assigned to them, the user gets the configuration that's defined in the custom app setup policy. To learn more about how the feature works with existing app setup policies that you've applied, see the [Scenarios](#scenarios) section of this article.
 
 ## Scenarios
 
-
+Use the information in this table to learn how the tailored app experience feature works with existing app setup policies that you've applied in your organization.
 
 |If...  |Then... |
 |---------|---------|
@@ -59,7 +59,7 @@ Keep in mind that any custom app setup policies assigned to users take precedenc
 |An app in the tailored app experience is already defined in an app setup policy and the feature is on. |The app is pinned based on the order defined by the tailored app experience.        |
 
 > [!NOTE]
-> You can't change the apps or order of apps in the tailored app experience. For now, if you want to make changes, you can set up your own custom experience. To do this, first disable the feature. Then, [create a custom app setup policy](teams-app-setup-policies.md), and [assign it to users or groups](assign-policies-users-and-groups.md).
+> You can't change the apps or order of apps in the tailored app experience. For now, if you want to make changes, you can set up your own custom experience. To do this, first turn off the feature. Then, [create a custom app setup policy](teams-app-setup-policies.md), and [assign it to users or groups](assign-policies-users-and-groups.md).
 
 ## Related articles
 
