@@ -19,6 +19,8 @@ appliesto:
 
 # Use the Shifts connector wizard to connect your workforce management system
 
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
+
 ## Overview
 
 The Shifts connector wizard in the Microsoft 365 admin center makes it easy to integrate the Shifts app in Microsoft Teams with your workforce management (WFM) system. After you set up a connection, your frontline workers can seamlessly view and manage their schedules in your WFM system from within Shifts.
@@ -42,7 +44,7 @@ You must be a Microsoft 365 global admin to run the wizard.
 <a name="prerequisites"> </a>
 [!INCLUDE [shifts-connector-prerequisites](../../includes/shifts-connector-prerequisites.md)]
 
-- The teams you want to map don't have any schedules. If a team has an existing schedule, [remove the schedule from the team](#remove-schedules-from-teams-you-want-to-map) before you map a Blue Yonder site to it. Otherwise, you'll see duplicate schedules.
+- The teams you want to map don't have any schedules. If a team has an existing schedule, [remove the schedule from the team](#remove-schedules-from-teams-you-want-to-map) before you map a Blue Yonder site to it. Otherwise, you'll see duplicate shifts.
 
 ## Remove schedules from teams you want to map
 <a name="remove_schedules"> </a>
