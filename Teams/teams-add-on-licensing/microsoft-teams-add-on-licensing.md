@@ -110,7 +110,7 @@ Microsoft Teams Essentials (AAD Identity)</td>
 </table>
 
 >[!NOTE]
->If you need to use a third-party telephone service or if Calling Plans isn't available in your country or region, you can choose either [Operator Connect](/microsoftteams/operator-connect-plan.md) or [Direct Routing](../direct-routing-landing-page.md) for your organization.
+>If you need to use a third-party telephone service or if Calling Plans isn't available in your country or region, you can choose either [Operator Connect](../operator-connect-plan.md) or [Direct Routing](../direct-routing-landing-page.md) for your organization.
 
 #### [**Enterprise**](#tab/enterprise/)
 
@@ -150,7 +150,7 @@ Here's a summary, based on licensing plan.
 To learn more, see [Microsoft 365 Enterprise plans](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans) and [Office 365 Enterprise plans](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans).
 
 >[!NOTE]
->If you need to use a third-party telephone service or if Calling Plans isn't available in your country or region, you can choose either [Operator Connect](/microsoftteams/operator-connect-plan.md) or [Direct Routing](../direct-routing-landing-page.md) for your organization.
+>If you need to use a third-party telephone service or if Calling Plans isn't available in your country or region, you can choose either [Operator Connect](../operator-connect-plan.md) or [Direct Routing](../direct-routing-landing-page.md) for your organization.
 
 #### [**Education**](#tab/education/)
 
@@ -198,7 +198,7 @@ Here's a summary, based on licensing plan.
 To learn more, see [Microsoft 365 Education](https://www.microsoft.com/education/buy-license/microsoft365) and [Office 365 Education plans](https://www.microsoft.com/education/products/office).
 
 >[!NOTE]
->If you need to use a third-party telephone service or if Calling Plans isn't available in your country or region, you can choose either [Operator Connect](/microsoftteams/operator-connect-plan.md) or [Direct Routing](../direct-routing-landing-page.md) for your organization.
+>If you need to use a third-party telephone service or if Calling Plans isn't available in your country or region, you can choose either [Operator Connect](../operator-connect-plan.md) or [Direct Routing](../direct-routing-landing-page.md) for your organization.
 
 #### [**Government**](#tab/government/)
 
@@ -246,7 +246,7 @@ Here's a summary, based on licensing plan.
 To learn more, see [Microsoft 365 Government](https://www.microsoft.com/microsoft-365/government/) and [Office 365 Government plans](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans).
 
 >[!NOTE]
->If you need to use a third-party telephone service or if Calling Plans isn't available in your country or region, you can choose either [Operator Connect](/microsoftteams/operator-connect-plan.md) or [Direct Routing](../direct-routing-landing-page.md) for your organization.
+>If you need to use a third-party telephone service or if Calling Plans isn't available in your country or region, you can choose either [Operator Connect](../operator-connect-plan.md) or [Direct Routing](../direct-routing-landing-page.md) for your organization.
 
 #### [**Nonprofit**](#tab/nonprofit/)
 
@@ -301,7 +301,7 @@ Here's a summary, based on licensing plan.
 To learn more, see [Microsoft 365 and Office 365 Nonprofit offers](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing).
 
 >[!NOTE]
->If you need to use a third-party telephone service or if Calling Plans isn't available in your country or region, you can choose either [Operator Connect](/microsoftteams/operator-connect-plan.md) or [Direct Routing](../direct-routing-landing-page.md) for your organization.
+>If you need to use a third-party telephone service or if Calling Plans isn't available in your country or region, you can choose either [Operator Connect](../operator-connect-plan.md) or [Direct Routing](../direct-routing-landing-page.md) for your organization.
 
 ---
 
