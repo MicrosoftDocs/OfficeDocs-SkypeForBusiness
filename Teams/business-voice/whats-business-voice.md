@@ -27,9 +27,9 @@ ms.custom:
 >[!NOTE]
 > Microsoft 365 Business Voice was Microsoft’s telephony service bundle for small and medium businesses, which included Private Branch Exchange (PBX) features, a domestic calling plan, and Audio Conferencing. However, Business Voice will be deprecated on March 1, 2022.  
 >
-> For PBX features and PSTN connectivity for small and medium businesses, we recommend the Teams Phone with Calling Plan bundle, if it’s [available in your geographic area](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). If the Teams Phone with Calling Plan bundle is not available in your region, see [Plan your Teams voice solution](/microsoftteams/cloud-voice-landing-page.md) to learn about other voice solutions.
+> For PBX features and PSTN connectivity for small and medium businesses, we recommend the Teams Phone with Calling Plan bundle, if it’s [available in your geographic area](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). If the Teams Phone with Calling Plan bundle is not available in your region, see [Plan your Teams voice solution](../cloud-voice-landing-page.md) to learn about other voice solutions.
 >
-> Unlike Business Voice, Teams Phone with Calling Plan doesn’t include Audio Conferencing capabilities. Audio Conferencing is now included in Microsoft 365 bundles. To learn about setting up Audio Conferencing for a small or medium business, see [Set up Audio Conferencing for small and medium businesses](/microsoftteams/audio-conferencing-smb.md).  
+> Unlike Business Voice, Teams Phone with Calling Plan doesn’t include Audio Conferencing capabilities. Audio Conferencing is now included in Microsoft 365 bundles. To learn about setting up Audio Conferencing for a small or medium business, see [Set up Audio Conferencing for small and medium businesses](../audio-conferencing-smb.md).  
 
 The Microsoft Teams Phone with Calling Plan bundle is Microsoft’s all-in-the-cloud solution that makes it easy for small and medium organizations (300 or fewer people) to turn Microsoft Teams into a powerful and flexible telephone system. The Teams Phone with Calling Plan bundle provides Private Branch Exchange (PBX) functionality and calls to the Public Switched Telephone Network (PSTN).
 
@@ -37,9 +37,9 @@ You can set up both toll and toll-free numbers, call menus to help callers get t
 
 This article covers the Teams Phone with Calling Plan bundle for small and medium businesses.
 
-- Learn about all your Microsoft voice solutions by reading [Plan your Teams voice solution](/microsoftteams/cloud-voice-landing-page.md).
-- To view all your PSTN connectivity options, see [PSTN connectivity options](/microsoftteams/pstn-connectivity.md).
-- For more information about subscriptions and licensing, see [Microsoft Teams add-on licenses](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business.md).
+- Learn about all your Microsoft voice solutions by reading [Plan your Teams voice solution](../cloud-voice-landing-page.md).
+- To view all your PSTN connectivity options, see [PSTN connectivity options](../pstn-connectivity.md).
+- For more information about subscriptions and licensing, see [Microsoft Teams add-on licenses](/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business.md).
 
 >[!IMPORTANT]
 > Microsoft Teams and Teams Phone with Calling Plan only work when your users' mailboxes are located in Microsoft 365 (excluding Microsoft 365 Teams Essentials subscribers). They don't support mailboxes located on on-premises Exchange Server.
@@ -62,11 +62,11 @@ These articles will help your business plan, set up, and manage your Teams Phone
 
 There are two types of Teams Phone licenses: The Teams phone **with** Calling Plan bundle license and Teams Phone as a standalone license (without Calling Plan). For small and medium businesses, we suggest the Teams Phone with Calling Plans bundle.
 
-You can buy the Teams Phone with Calling Plan bundle from Microsoft, set it up on your own, and then set up or transfer your existing phone numbers to Microsoft. The article [Set up Teams Phone for small and medium businesses](/microsoftteams/business-voice/set-up-overview.md) shows you how to set up Teams Phone for your organization.
+You can buy the Teams Phone with Calling Plan bundle from Microsoft, set it up on your own, and then set up or transfer your existing phone numbers to Microsoft. The article [Set up Teams Phone for small and medium businesses](../business-voice/set-up-overview.md) shows you how to set up Teams Phone for your organization.
 
 Read [Teams Phone with Calling Plan bundle](#teams-phone-with-calling-plan-bundle) later in this article for more information about buying the Teams Phone with Calling Plan bundle.
 
-To see whether your country or region supports the Teams Phone with Calling Plan bundle, check out [Country and region availability for Calling Plans](/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+To see whether your country or region supports the Teams Phone with Calling Plan bundle, check out [Country and region availability for Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
 ## What do I need to buy to get voice capabilities for my small or medium business?
 
@@ -117,4 +117,4 @@ Communications Credits are like a digital wallet that's used to pay for calls to
 
 If you still have Communication Credits left over at the end of the month, they're carried over to the next month.
 
-To learn more about Communication Credits, read [What are Communications Credits?](/microsoftteams/what-are-communications-credits.md)
+To learn more about Communication Credits, read [What are Communications Credits?](../what-are-communications-credits.md)

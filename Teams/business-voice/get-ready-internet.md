@@ -67,7 +67,7 @@ If Teams and Teams Phone will use more than 30 percent of your total internet co
 ![Connection speed warning.](../media/network-planner-report-speed-warning.png)
 
 >[!NOTE]
-> The bandwidth impact provided by the Network Planner is an estimate only. It is recommended to use [Call Quality Dashboard](/microsoftteams/cqd-what-is-call-quality-dashboard.md) to pro-actively monitor user experience for audio and video calls with Microsoft Teams inside your organization.
+> The bandwidth impact provided by the Network Planner is an estimate only. It is recommended to use [Call Quality Dashboard](../cqd-what-is-call-quality-dashboard.md) to pro-actively monitor user experience for audio and video calls with Microsoft Teams inside your organization.
 
 ## Make sure the computers and devices on your network can reach Microsoft 365
 

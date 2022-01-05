@@ -22,7 +22,7 @@ appliesto:
 # Step 7: Port phone numbers to Teams Phone (optional)
 
 > [!IMPORTANT]
-> The information in this article is applicable to Teams Phone **with** Calling Plan only. Teams Phone with Calling Plan is available only in select countries and regions. Before reading this article, check [Country and region availability for Teams Phone with Calling Plan](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) to see whether your country or region supports Teams Phone with Calling Plan.
+> The information in this article is applicable to Teams Phone **with** Calling Plan only. Teams Phone with Calling Plan is available only in select countries and regions. Before reading this article, check [Country and region availability for Teams Phone with Calling Plan](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) to see whether your country or region supports Teams Phone with Calling Plan.
 >
 > If your tenant is located in a country or region that doesn't support Teams Phone with Calling Plan, check out [Get help from a Microsoft reseller or partner](reseller-partner-support.md).
 
