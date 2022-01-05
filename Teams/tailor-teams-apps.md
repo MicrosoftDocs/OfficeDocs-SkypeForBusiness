@@ -1,0 +1,67 @@
+---
+title: Tailor your Teams apps based on license
+author: lanachin
+ms.author: v-lanachin
+ms.reviewer: aaglick
+manager: samanro
+ms.topic: article
+audience: admin
+ms.service: msteams
+search.appverid: MET150
+description: Learn how to pin apps for users in your organization based on license.
+ms.localizationpriority: medium
+ms.collection: 
+  - M365-collaboration
+  - Teams_ITAdmin_FLW
+appliesto: 
+  - Microsoft Teams
+---
+
+# Tailor your Teams apps based on license
+
+> [!NOTE]
+> Currently, this feature applies to F licenses. Therefore, this article focuses on the frontline worker experience. Education licenses will be supported in the future.
+
+## Overview
+
+Teams provides a way to pin apps based on license. When a user signs in to Teams with the tailored app experience enabled, the user gets an app experience that's tailored based on their license.
+
+This feature gives users the most relevant apps in Teams without any action needed from the admin.
+
+## Tailored app experience
+
+Apps are pinned to the app bar, which is the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients (iOS and Android).
+
+Apps pinned for users who have an F license:
+
+-
+-
+-
+
+## Admin controls
+
+The tailored app experience feature is controlled by a policy setting that applies at the org level. If the feature is enabled, all users in your organization who have an F license will get the tailored app experience.  
+
+This feature is enabled by default. However, if you don't want the tailored app experience provided by Microsoft, you can turn off the policy setting in the Teams admin center or by using PowerShell.  
+
+Keep in mind that any custom app setup policies assigned to users take precedence. This means that if a user already has a custom app setup policy assigned to them, the user gets the configuration that's defined in the custom app setup policy. To learn more about how the feature works with existing app setup policies, see the [Scenarios](#scenarios) section of this article.
+
+> [!NOTE]
+> You can't change the apps or order of apps in the tailored app experience. If you want to make changes, disable the feature. Then, [create a custom app setup policy](teams-app-setup-policies.md), and [assign it to users or groups](assign-policies-users-and-groups.md) to set up your own custom experience.
+
+## Scenarios
+
+|If...  |Then... |
+|---------|---------|
+|A user has the global app setup policy and the feature is enabled.     | The user gets the tailored app experience.        |
+|A user has a custom app setup policy and the feature is enabled.    |The user gets the configuration that's defined in the custom app setup policy.         |
+|The feature is enabled and you update the global app setup policy.     |The user gets the tailored app experience based on their license. The apps defined in the global app setup policy are pushed further down the order in the list of pinned apps.          |
+|The feature is disabled.   | The user gets the experience that's defined in the global app setup policy or custom app setup policy.          |
+|A user has an E, A, or G license and the feature is enabled.   | The user doesn't get the tailored app experience. Currently, the tailored app experience applies only to users who have an F license.        |
+|An app in the tailored app experience is blocked for a user or for your organization.      |The tailored app experience honors the app permission policy. If an app is blocked, users won't see it.           |
+|An app in the tailored app experience is already defined in an app setup policy and the feature is enabled. |The app is pinned based on the order that's defined by the tailored app experience.        |
+
+## Related articles
+
+- [Manage app setup policies in Teams](teams-app-setup-policies.md)
+- [Manage policy packages in Teams](manage-policy-packages.md)
