@@ -1,5 +1,5 @@
 ---
-title: "Enchanced Meeting Rooms"
+title: "Enhanced Meeting Rooms"
 author: amandafrechinjackson
 ms.author: v-amandaf
 manager: jsarrasin
