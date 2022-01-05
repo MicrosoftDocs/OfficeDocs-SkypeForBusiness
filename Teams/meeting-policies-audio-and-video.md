@@ -193,6 +193,9 @@ The meeting attendees will see a selection of background images that they can us
 > [!NOTE]
 > It could take up to 24 hours for the changes to take effect.
 
+> [!NOTE]
+> This feature is temporarily available in public preview for all Microsoft Teams customers. To get this feature after the preview, each user will need the Advanced Communications add-on license. For more information, see [Advanced Communications add-on for Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
+
 ## Related topics
 
 - [Teams PowerShell overview](teams-powershell-overview.md)
