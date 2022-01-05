@@ -42,11 +42,11 @@ The tailored app experience feature is controlled by a policy setting that appli
 
 This feature is on by default. However, if you don't want the tailored app experience provided by Microsoft, you can turn off the policy setting in the Teams admin center or by using PowerShell.  
 
-Keep in mind that any custom app setup policies assigned to users take precedence. This means that if a user already has a custom app setup policy assigned to them, the user gets the configuration that's defined in the custom app setup policy. To learn more about how the feature works with existing app setup policies that you've applied, see the [Scenarios](#scenarios) section of this article.
+Keep in mind that any custom app setup policies assigned to users take precedence. This means that if a user already has a custom app setup policy assigned to them, the user gets the configuration that's defined in the custom app setup policy. To learn more about how the feature works with existing app setup policies that you've applied in your organization, see the [Scenarios](#scenarios) section of this article.
 
 ## Scenarios
 
-Use the information in this table to learn how the tailored app experience feature works with existing app setup policies that you've applied in your organization.
+Use the information in this table to learn how the tailored app experience feature works in various scenarios, including when you've applied existing app setup policies.
 
 |If...  |Then... |
 |---------|---------|
