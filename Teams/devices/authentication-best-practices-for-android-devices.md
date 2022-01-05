@@ -30,12 +30,12 @@ This article provides general guidance and best practices for deploying authenti
 >Conditional Access requires an Azure Active Directory (Azure AD) Premium subscription.
 
 >[!NOTE]
->Policies for Android mobile devices may not apply to Teams Android devices. 
+>Policies for Android mobile devices may not apply to Teams Android devices.
 
 
-## User-based devices vs common-area devices
+## Personal and shared devices
 
-Shared teams devices, like meeting room devices or common area phones, can't use the same requirements for enrollment and compliance that are typically applied to personal devices. Applying personal device authentication requirements to shared devices will cause the following sign-in issues: 
+Shared Teams devices, like meeting room devices or common area phones, can't use the same requirements for enrollment and compliance that are typically applied to personal devices. Applying personal device authentication requirements to shared devices will cause the following sign-in issues:
 
 1.  **Devices are signed out due to password policies**
 
