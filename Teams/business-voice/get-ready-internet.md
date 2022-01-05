@@ -76,4 +76,4 @@ Computers and devices that use Teams Phone must use specific network ports to co
 * **TCP ports** 80 and 443
 * **UDP ports** 3478, 3479, 3480, and 3481
 
-The easiest way to check whether your firewall allows communication on these network ports is to perform a connectivity test using the [Microsoft 365 network connectivity tool](/microsoft-365/enterprise/office-365-network-mac-perf-onboarding-tool.md) from the office location you want to test. After completing the test, verify the results and recommendations.
+The easiest way to check whether your firewall allows communication on these network ports is to perform a connectivity test using the [Microsoft 365 network connectivity tool](/microsoft-365/enterprise/office-365-network-mac-perf-onboarding-tool) from the office location you want to test. After completing the test, verify the results and recommendations.
