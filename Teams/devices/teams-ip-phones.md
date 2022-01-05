@@ -185,6 +185,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | `3.9.0`          | 2021 Update #2F    |
 | Poly Studio X30 | `3.8.0`          | 2021 Update #2    |
 | Poly Studio X50 | `3.8.0`          | 2021 Update #2    |
 | Poly TC8        | `3.8.0`          | 2021 Update #2    |
