@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Learn how to pin apps for users in your organization based on license.
+description: Learn how to pin Teams apps for users in your organization based on license.
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
