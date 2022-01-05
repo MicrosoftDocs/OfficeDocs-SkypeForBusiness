@@ -9,7 +9,7 @@ audience: ITPro
 ms.service: msteams
 search.appverid: MET150 
 ms.reviewer: 
-description: A guide to the Microsoft Teams Room Enchanced Meeting Room archetype.
+description: A guide to the Microsoft Teams Room Enhanced Meeting Room archetype.
 ms.collection: 
   - M365-voice
   - M365-collaboration
