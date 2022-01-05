@@ -140,7 +140,7 @@ The wizard starts the process to set up the connection and map the sites to the 
 
 Select **Done** to exit the wizard.
 
-You’re on your way but you’re not done yet! Be sure to check your email. You'll receive a confirmation that we received your request along with a link to how you can check setup status.
+You’re on your way but you’re not done yet! Be sure to check your email. You'll receive a confirmation that we received your request along with a [link](shifts-connector-powershell-manage.md#check-connection-setup-status) to how you can check setup status.
 
 > [!NOTE]
 > If an issue or error occurs in a connection after it's set up, you'll get notified in email. Follow the instructions in the email to troubleshoot the issue.
