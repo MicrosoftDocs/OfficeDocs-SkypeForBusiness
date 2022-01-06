@@ -49,7 +49,7 @@ For example a department or organization might want to play a custom announcemen
 > [!NOTE]
 > You are responsible for independently clearing and securing all necessary rights and permissions to use any music or audio file with your Microsoft Teams service. This may include intellectual property and other rights in any music, sound effects, audio, brands, names, and other content in the audio file from all relevant rights holders. Holders may include artists, actors, performers, musicians, songwriters, composers, record labels, music publishers, unions, guilds, rights societies, collective management organizations, and any other parties who own, control or license the music copyrights, sound effects, audio and other intellectual property rights.
 
-To configure custom Music on Hold, use the PowerShell cmdlets New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy and Import/Get/Remove-CsOnlineAudioFile in Teams PowerShell module 2.5.0 or later.
+To configure custom Music on Hold, use the PowerShell cmdlets New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy and Import/Get/Remove/Export-CsOnlineAudioFile in Teams PowerShell module 3.0.0 or later.
 
 
 1. Ensure that the Teams user has Music on hold for PSTN callers set to Enabled in the Teams calling policy. 
@@ -89,6 +89,8 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 To get information about your uploaded audio files, use the Get-CsOnlineAudioFile cmdlet.
 
 To remove an uploaded audio file, use the Remove-CsOnlineAudioFile cmdlet. Before removing an audio file, check that you are not using that audio file in a TeamsCallHoldPolicy.
+
+To export an uploaded audio file, use the Export-CsOnlineAudioFile cmdlet.
 
 ## Feature availability
 
