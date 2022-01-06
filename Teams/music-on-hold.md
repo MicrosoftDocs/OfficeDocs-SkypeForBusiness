@@ -97,8 +97,8 @@ The following table indicates which features on which clients and devices suppor
 
 | Feature | Desktop <br> Windows/Mac OS | Browser | Mobile <br> iOS | Mobile <br> Android | Teams Phone |
 | :------------| :------- | :------- | :------- | :------- | :------- |
-| Hold on 1:1 PSTN call | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | Music on Hold | Music on Hold |
-| Hold on Consultative Transfer on 1:1 PSTN call |-Music on Hold<br>-Custom Music on Hold | | | | |
+| Hold on 1:1 PSTN call | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold |
+| Hold on Consultative Transfer on 1:1 PSTN call |-Music on Hold<br>-Custom Music on Hold | | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | |
 
 ## Restrictions
 
@@ -107,8 +107,6 @@ The following table indicates which features on which clients and devices suppor
 - Music on Hold is only available when the user is in TeamsOnly mode.
 
 - If the called Teams user is enabled for Location-Based Routing, Music on Hold cannot be played to the caller.
-
-- You can’t export the audio file after it has been uploaded; you can only remove it.
 
 - Custom Music on Hold is not available for users configured for Shared Line Appearance (delegation) and when Call Park is used. The standard Music on Hold will be played.
 
@@ -135,3 +133,5 @@ The following table indicates which features on which clients and devices suppor
 - [Remove-CsTeamsCallHoldPolicy](/powershell/module/skype/remove-csteamscallholdpolicy)
 
 - [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
+
+- [Export-CsOnlineAudioFile](/powershell/module/skype/export-csonlineaudiofile)
