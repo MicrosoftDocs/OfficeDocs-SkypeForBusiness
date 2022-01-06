@@ -21,7 +21,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Use end-to-end encryption for one-to-one Microsoft Teams calls (Public preview)
+# Use end-to-end encryption for one-to-one Microsoft Teams calls
 
 > [!IMPORTANT]
 > The Teams service model, and its encryption support, is subject to change in order to improve customer experiences. For example, the service regularly deprecates cipher suites that are no longer considered secure. Any such changes would be made with the goal of keeping Teams secure and Trustworthy by Design. In addition, all customer content in Microsoft data centers is encrypted. For information about encryption layers in Microsoft 365, see [Encryption in Microsoft 365](/microsoft-365/compliance/encryption).
