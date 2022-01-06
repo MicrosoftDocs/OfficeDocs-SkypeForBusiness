@@ -150,19 +150,21 @@ In *Onboarding* state, the status of the room is displayed and updated but it wo
 
 Choose the room and select **Enroll**  to start getting incident alerts, investigation tickets, or to report an incident.
 
-For any questions or issues, please open a customer reported incident in the portal or contact managedroomsupport@microsoft.com. 
+For any questions or issues, please open a customer reported incident in the portal or contact managedroomsupport@microsoft.com.
 
 ### Unenrolling and uninstalling monitoring software
 
 To unenroll the device, remove the monitoring agent from the MTR device as follows:
 
-1. On the device being monitored, log in the device as administrator. Ensure the *Performing operations as the Admin user of the device* steps are followed.
+1. On the device being monitored, log in the device as administrator. Be sure to follow the steps in *Performing operations as the Admin user of the device*.
 1. Download reset script from [aka.ms/MTRPDeviceOffBoarding](https://aka.ms/MTRPDeviceOffBoarding).
-1. Extract the script somewhere on the device and copy path
+1. Extract the script somewhere on the device and copy the path.
 1. Open PowerShell as administrator: In the Windows ***Search*** field (bottom-left section of the screen), enter ‘Powershell’ and right-click ***Windows PowerShell***
 1. Select *“Run as Administrator”* and accept UAC prompt.
 1. Enter *Set-ExecutionPolicy –ExecutionPolicy RemoteSigned* , then press **Y** on next prompt.  
-1. Paste or type the full path to the unzipped offboarding script into the PowerShell window and press Enter. For example:
+1. Paste or type the full path to the unzipped offboarding script into the PowerShell window and press **Enter**.
+
+   For example:
 
    *C:\Users\admin\Downloads\MTRP\_Device\_Offboarding\MTRP\_Device\_Offboarding.ps1*  
 
