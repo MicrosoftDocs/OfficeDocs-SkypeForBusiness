@@ -22,7 +22,7 @@ search.appverid: MET150
 description: Learn how to use and manage policy packages in Microsoft Teams to simplify, streamline, and help provide consistency when managing policies for groups of users.
 ---
 
-# Manage policy packages in Microsoft Teams
+# Manage policy packages for Microsoft Teams
 
 A policy package in Microsoft Teams is a collection of predefined policies and policy settings that you can assign to users who have similar roles in your organization. We built policy packages to simplify, streamline, and help provide consistency when managing policies for groups of users across your organization.  
 
@@ -64,8 +64,8 @@ Teams currently includes the following policy packages.
 |Healthcare clinical worker  |Creates a set of policies and policy settings that give clinical workers such as registered nurses, charge nurses, physicians, and social workers full access to chat, calling, shift management, and meetings. |
 |Healthcare information worker  |Creates a set of policies and policy settings that give information workers such as IT personnel, informatics staff, finance personnel, and compliance officers, full access to chat, calling, and meetings.|
 |Healthcare patient room  |Creates a set of policies and policy settings that apply to patient rooms in your healthcare organization.|
-|Small and medium business user (Business Voice) |Creates an app setup policy that includes the apps for a business voice experience.|
-|Small and medium business user (without Business Voice) |Creates an app setup policy relevant for a small and medium sized business Teams users (non-Business Voice experience).
+|Small and medium business user (Teams Phone with Calling Plan) |Creates an app setup policy that includes the apps for a Teams Phone with Calling Plan experience.|
+|Small and medium business user (without Teams Phone with Calling Plan) |Creates an app setup policy relevant for a small and medium sized business Teams users (non-Teams Phone with Calling Plan experience).
 |Public safety officer   |Creates a set of policies and policy settings that apply to public safety officers in your organization.|
 
 > [!NOTE]
