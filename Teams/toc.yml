@@ -1406,6 +1406,12 @@ items:
           href: rooms/enrolling-mtrp-managed-service.md
         - name: Configure ServiceNow for Teams Rooms
           href: rooms/microsoft-teams-rooms-configure-servicenow.md
+        - name: Multi-tenant management for parters
+          href: rooms/multi-tenant-management-partner.md
+        - name: Multi-tenant management for customers
+          href: rooms/multi-tenant-management-customer.md
+        - name: Audit logs for Rooms activities
+          href: rooms/multi-tenant-auditing.md
 
     - name: Devices
       items: 
