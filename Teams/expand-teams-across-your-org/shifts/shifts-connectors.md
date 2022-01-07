@@ -40,8 +40,6 @@ Managed Shifts connectors are connectors developed in collaboration with our par
 ### Microsoft Teams Shifts connector for Blue Yonder
 <a name="blue_yonder"> </a>
 
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
-
 The Teams Shifts connector for Blue Yonder is a first-party offering that's hosted and managed by Microsoft. With this connector, you can integrate Shifts with Blue Yonder 2020.3 and later versions to manage your schedules and keep them up to date.
 
 :::image type="content" source="../../media/shifts-connector-blue-yonder.png" alt-text="Screenshot showing a swap request in Shifts on a mobile device,request approval in Teams on desktop, and a schedule in Blue Yonder." lightbox="../../media/shifts-connector-blue-yonder.png":::

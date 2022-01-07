@@ -19,8 +19,6 @@ appliesto:
 
 # Use the Shifts connector wizard to connect your workforce management system
 
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
-
 ## Overview
 
 The Shifts connector wizard in the Microsoft 365 admin center makes it easy to integrate the Shifts app in Microsoft Teams with your workforce management (WFM) system. After you set up a connection, your frontline workers can seamlessly view and manage their schedules in your WFM system from within Shifts.
