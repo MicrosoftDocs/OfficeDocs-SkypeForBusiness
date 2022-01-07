@@ -278,6 +278,8 @@ items:
       items: 
         - name: Information barriers
           href: information-barriers-in-teams.md
+        - name: Change information barriers modes with a PowerShell script
+          href: information-barriers-mode-script.md
         - name: Retention policies
           href: retention-policies.md
         - name: Communication compliance
@@ -1403,6 +1405,12 @@ items:
           href: rooms/enrolling-mtrp-managed-service.md
         - name: Configure ServiceNow for Teams Rooms
           href: rooms/microsoft-teams-rooms-configure-servicenow.md
+        - name: Multi-tenant management for parters
+          href: rooms/multi-tenant-management-partner.md
+        - name: Multi-tenant management for customers
+          href: rooms/multi-tenant-management-customer.md
+        - name: Audit logs for Rooms activities
+          href: rooms/multi-tenant-auditing.md
 
     - name: Devices
       items: 
