@@ -14,7 +14,7 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: Learn how to set up an auto attendant (also known as a call queue) Microsoft 365 Business Voice.
+description: Learn how to set up an auto attendant (also known as a call queue) Microsoft 365 Teams Phone.
 appliesto: 
 - Microsoft Teams
 ---
@@ -23,11 +23,9 @@ appliesto:
 
 An auto attendant lets you set up a call menu so that callers to your main phone number can choose from a list of options. For example, you could have options to connect to a sales or support department, specific individual, the switchboard, and even another auto attendant.
 
-The following video shows you how to complete these steps in the Teams admin center.
-
 [!INCLUDE [business-voice-create-auto-attendant](../includes/business-voice-create-auto-attendant.md)]
 
 When you've stepped through all the tabs above to set up your auto attendant, click on the following button to move to the next article.
 
 > [!div class="nextstepaction"]
-> [Next step: Port phone numbers to Business Voice](port-phone-numbers.md)
+> [Next step: Port phone numbers to Teams Phone](port-phone-numbers.md)
