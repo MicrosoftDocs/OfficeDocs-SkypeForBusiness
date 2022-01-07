@@ -51,6 +51,8 @@ For example a department or organization might want to play a custom announcemen
 
 To configure custom Music on Hold, use the PowerShell cmdlets New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy and Import/Get/Remove/Export-CsOnlineAudioFile in Teams PowerShell module 3.0.0 or later.
 
+For supported audio formats and maximum file size, please see [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
+
 
 1. Ensure that the Teams user has Music on hold for PSTN callers set to Enabled in the Teams calling policy. 
 
@@ -60,7 +62,8 @@ To configure custom Music on Hold, use the PowerShell cmdlets New/Get/Set/Grant/
 
 ### Upload the custom audio file
 
-The configuration of custom Music on Hold starts with uploading the audio file. You use the PowerShell cmdlet Import-CsOnlineAudioFile for this purpose. 
+The configuration of custom Music on Hold starts with uploading the audio file. You use the PowerShell cmdlet [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile) for this purpose.
+
 An example of uploading an MP3 audio file using the PowerShell interface is shown below:
 
 ```PowerShell
