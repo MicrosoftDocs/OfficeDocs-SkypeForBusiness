@@ -198,7 +198,7 @@ The FQDNs **sip.pstnhub.microsoft.com**, **sip2.pstnhub.microsoft.com**, and **s
 - 52.112.0.0/14
 - 52.120.0.0/14
 
-You need to open ports for all these IP ranges in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling. If your firewall supports DNS names, the FQDN **sip-all.pstnhub.microsoft.com** resolves to all these IP subnets. 
+You need to open ports for all these IP ranges in your firewall to allow incoming and outgoing traffic to and from the addresses for signaling.
 
 ### Office 365 GCC DoD environment
 
@@ -253,8 +253,8 @@ The client must have access to the specified ports (see table) on the public IP 
 
 | Traffic | From | To | Source port | Destination port|
 | :-------- | :-------- |:-----------|:--------|:---------|
-| UDP/SRTP | Client | SBC | 3478-3481 and 49152 – 53247| Defined on the SBC |
-| UDP/SRTP | SBC | Client | Defined on the SBC | 3478-3481 and 49152 – 53247  |
+| UDP/SRTP | Client | SBC | 3478-3481 and Tenant admin configured ports for the client (default is 50000-50020)| Defined on the SBC |
+| UDP/SRTP | SBC | Client | Defined on the SBC | 3478-3481 and Tenant admin configured ports for the client (default is 50000-50020)  |
 
 
 > [!NOTE]
