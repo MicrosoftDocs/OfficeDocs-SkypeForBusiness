@@ -395,7 +395,7 @@ The configuration status section of the app settings page will display the curre
 | Fields of study       | Complete                  | No further action needed.                                   |
 
 > [!NOTE]
-> Once all steps are marked as complete the app can be successfully released to your tenant and assign Career Coach licenses. For step-by-step instructions, see [Assign licenses to users](https://docs.microsoft.com/en-us/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide).
+> Once all steps are marked as complete the app can be successfully released to your tenant and assign Career Coach licenses. For step-by-step instructions, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide).
 
 ### Course catalog status
 
