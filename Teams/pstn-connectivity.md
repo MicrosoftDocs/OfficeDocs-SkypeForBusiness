@@ -31,7 +31,7 @@ appliesto:
 
 Microsoft provides complete Private Branch Exchange (PBX) capabilities for your organization through Teams Phone. However, to enable users to make calls outside your organization, you need to connect Teams Phone to the Public Switched Telephone Network (PSTN).
 
-This article focuses on PSTN connectivity options. For more information about Microsoft voice solutions, incuding details about Teams Phone features, see [Plan your Teams voice solution](cloud-voice-landing-page.md).
+This article focuses on PSTN connectivity options. For more information about Microsoft voice solutions, including details about Teams Phone features, see [Plan your Teams voice solution](cloud-voice-landing-page.md).
 
 To connect Teams Phone to the PSTN, you can choose from the following options:
 
