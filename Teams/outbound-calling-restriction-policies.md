@@ -75,6 +75,12 @@ Grant-CsDialoutPolicy -PolicyName <policy name>  -Global
 
 All users of the tenant who don't have any dialout policy assigned will get this policy. Other users remain with their current policy.
 
+**Check the current policy at the tenant level with the following cmdlet**.
+
+```powershell
+Get-CSOnlineDialOutPolicy -Identity Global
+```
+
 The following table provides an overview of each policy.
 
 |PowerShell cmdlet|Description|
