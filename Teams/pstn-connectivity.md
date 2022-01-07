@@ -101,7 +101,7 @@ If you answer yes to the following questions, then Teams Phone with Direct Routi
 - You want to use Teams with Teams Phone.
 - You need to retain your current PSTN carrier.
 - You want to mix routing, with some calls going through Calling Plan, some through your carrier.
-- You need to interoperate with third-party PBXs and/or equipment such us overhead pagers, analog devices, and so on.
+- You need to interoperate with third-party PBXs and/or equipment such as overhead pagers, analog devices, and so on.
 
 With this option:
 
