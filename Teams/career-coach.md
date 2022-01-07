@@ -457,7 +457,7 @@ The following resources will help you plan your Career Coach app.
 
 - [Managing apps in Microsoft Teams Admin Center](manage-apps.md)
 
-- [Online Virtual Orientation Kit](https://www.microsoft.com/education/remote-learning/virtual-orientation)
+- [Online Virtual Orientation Kit](/remote-learning/virtual-orientation)
 
 - [Limits and specification of Teams channels](limits-specifications-teams.md)
 
