@@ -84,15 +84,23 @@ After a connection is set up, you can use PowerShell to update and change connec
 
 The Reflexis Shifts connector for Microsoft Teams, currently in private preview, is hosted and managed by Zebra. With this connector, you can integrate Shifts with the Reflexis WFM system to manage your schedules and keep them up to date.
 
+Store associates will have access to their schedule in Shifts in Teams, and their requests will be synchronized from Shifts to Reflexis Workforce Scheduler (RWS). The status of requests, and associates’ shifts created in RWS will be synced to Shifts in Teams.
+
 :::image type="content" source="../../media/shifts-connector-reflexis.png" alt-text="Screenshot showing list of shifts on a mobile device and a schedule in Reflexis" lightbox="../../media/shifts-connector-reflexis.png":::
 
 Frontline managers can:
 
-
+- Manage shifts (create open shifts, assign to associates)
+- View, manage and publish schedules for Teams
+- Manage, approve and decline shift trade, time-off, availability and open shift requests
 
 Frontline workers can:
 
-
+- View schedules
+- Request open shifts
+- Swap shifts
+- Request time off
+- Offer shifts
 
 To learn more, go to https://connect.zebra.com/microsoft-connectors.
 
