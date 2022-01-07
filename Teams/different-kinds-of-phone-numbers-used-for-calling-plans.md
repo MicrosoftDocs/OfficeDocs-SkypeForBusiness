@@ -32,7 +32,7 @@ Teams uses **user** numbers, which can be assigned to users in your organization
 
 > [!NOTE]
 > Please note that there are regions and country limitations for the availability of non-geographic numbers.
-> If you have further questions or need to get more phone numbers, [contact the TNS Service Desk](manage-phone-numbers-for-your-organization.md#contact-tns-service-desk).
+> If you have further questions or need to get more phone numbers, [contact the TNS Service Desk](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
   
 ### User numbers
     
