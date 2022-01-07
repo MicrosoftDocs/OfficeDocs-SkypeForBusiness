@@ -35,7 +35,7 @@ Cloud Voicemail takes the place of Exchange Unified Messaging (UM) in providing 
 - Leveraging of existing user greetings from Exchange Online Unified Messaging
 
 > [!Important]
-> Skype for Business Online will be retired on July 31, 2021 after which users will no longer be able to access voicemail in their Exchange mailbox through the Skype for Business Online client.
+> Skype for Business Online was retired on July 31, 2021. Users can no longer access voicemail in their Exchange mailbox through the Skype for Business Online client.
 
 For more information about feature comparison, see [Plan for Skype for Business Server and Exchange Server migration](plan-um-migration.md).
 
