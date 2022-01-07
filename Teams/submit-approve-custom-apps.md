@@ -59,11 +59,20 @@ For more information about using the Graph API to submit apps, see [here](/graph
 
 ## Notify
 
-You can turn on notifications so you know when developers submit a new application for review and approval. To enable app submission notifications in the Teams admin center, go to **Notifications & alerts** > **Settings** > **App submissions**, and turn on **Receive by notification bot**. By default, this setting is turned off. You must be a Global admin or Teams admin to turn on this setting.
+You can turn on notifications so you know when developers submit a new application for review and approval. You'll also get notifications when developers submit app updates. To enable app submission notifications in the Teams admin center, go to [**Notifications & alerts** > **Rules** > **App submissions**](https://admin.teams.microsoft.com/notifications/rules), and activate the rule by changing the status to **Active**. By default, this setting is turned off. You must be a Global admin or Teams admin to turn on this setting.
 
-![App submissions screenshot.](media/app-submissions-setting.png)
+After you turn on this setting, you'll get notifications in the **Admin Alerts and Notifications** team under a new channel named **App submissions**. Alternatively, you can choose an existing team and channel to get notifications delivered to a specified team and channel. To do this, follow these steps:
 
-After you turn on this setting, you'll get notifications in the **Admin Alerts and Notifications** team under a new channel named **App submissions**. You'll also get notifications when developers submit app updates. For more information on notifications and alerts, see [Teams admin alerts](alerts/teams-admin-alerts.md).
+1. In the **App submissions** rule, select the **Channel alert** checkbox under **Actions**.
+1. Choose the **Select channel** button.
+1. Search for a team to add.
+1. Search for a channel to add.
+1. Select **Apply**.
+
+> [!NOTE]
+> Select the **Default channel alert** checkbox to receive notifications to the **Admin Alerts and Notifications** team in the **App Submissions** channel.
+
+You can also set up notifications to an external webhook by specifying a public webhook URL after you select the **Webhook** checkbox. A JSON notification payload will be sent to your webhook URL.
 
 ![App submission notification.](media/app-submission-notification.png)
 
@@ -71,7 +80,7 @@ You can review the notification card to see app details, and select **View detai
 
 ## Validate
 
-The [Manage apps](/microsoftteams/manage-apps) page in the Microsoft Teams admin center (in the left navigation, go to **Teams apps** > **Manage apps**), gives you a view into all Teams apps for your organization. The **Pending approval** widget at the top of the page lets you know when a custom app is submitted for approval.
+The [Manage apps](/microsoftteams/manage-apps) page in the Microsoft Teams admin center (in the left navigation, go to [**Teams apps** > **Manage apps**](https://admin.teams.microsoft.com/manage-apps)), gives you a view into all Teams apps for your organization. The **Pending approval** widget at the top of the page lets you know when a custom app is submitted for approval.
 
 In the table, a newly submitted app automatically shows a **Publishing status** of **Submitted** and **Status** of **Blocked**. You can sort the **Publishing status** column in descending order to quickly find the app.
 
