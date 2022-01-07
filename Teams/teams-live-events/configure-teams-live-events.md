@@ -62,7 +62,7 @@ If you purchased and set up a software defined network (SDN) solution or enterpr
 
     ![Third-party video distribution provider settings in the admin center.](../media/teams-live-events-settings-distribution-provider-new.png "Screen shot of the third-party video distribution provider settings for live events")
 
-    - **Use a third-party distribution provider** Turn this ON to enable the third-party video distribution provider.
+    - **Third-party distribution provider** Turn this ON to enable the third-party video distribution provider.
     - **SDN provider name** Choose the provider you're using.
     - **SDN Configuration** Enter SDN Configuration details.
         

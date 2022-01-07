@@ -43,7 +43,7 @@ It’s important to collect logs as soon as an issue occurs. The logs can be col
 - Mac:
   Select the Help menu and choose **Collect support files**.
 
-Debug, Desktop, and Media logs will be collected in one folder with the name _MSTeams Diagnostics Log \<local data and time\>_. This folder can be compressed and shared when you open a support request with Microsoft Support. The folder will contain folders for Desktop, Meeting (Media), and Debug (web). You can collect the files using the following keyboard shortcuts:
+Debug, Desktop, and Media logs will be collected in one folder with the name _MSTeams Diagnostics Log \<local date and time\>_. This folder can be compressed and shared when you open a support request with Microsoft Support. The folder will contain folders for Desktop, Meeting (Media), and Debug (web). You can collect the files using the following keyboard shortcuts:
 
 - Windows:
   <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
@@ -52,7 +52,7 @@ Debug, Desktop, and Media logs will be collected in one folder with the name _MS
   <kbd>Option</kbd> + <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
 
 
-Media logging is turned off by default. To enable Media logging, users must turn on the option in the Teams client. Go to **Settings** > **General**, and select **Enable logging for meeting diagnostics (requires restarting Teams)**. The Teams client must be restarted for logging to begin.
+Media logging is turned off by default. To enable Media logging, users must turn on the option in the Teams client. Go to **Settings** > **General**, and select **Enable logging for meeting diagnostics (requires restarting Teams)**. The Teams client must be restarted for logging to begin (restart it by right-clicking the icon in your dock (Mac) or taskbar (Windows) and selecting **Quit**. After you quit, just click the app icon to open it again).
 
 If a problem occurs with a specific meeting or live event, it's helpful to have the URL associated with the meeting. This provides additional information to help pinpoint the exact meeting or live event in the logs. This information can be collected from any participant for a meeting or from presenter or producer for a live event. This URL can be captured by hovering over the join URL and choosing **Copy Hyperlink**.
 
