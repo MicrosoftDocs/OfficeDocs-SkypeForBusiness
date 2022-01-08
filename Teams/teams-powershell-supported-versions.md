@@ -22,7 +22,7 @@ Teams PowerShell Module – versions older than 3.0.0 to be retired!
 
 ## Current organizations
 
-Starting 1st Apr’22, we will be retiring all Teams PowerShell Module versions older than 3.0.0.  This means that the Administrators will not be able to use Teams PowerShell Module versions released prior to 3.0.0. 
+Starting April 1, 2022 we will be retiring all Teams PowerShell Module versions older than 3.0.0.  This change means that the Administrators will not be able to use Teams PowerShell Module versions released prior to 3.0.0. 
 
 Instead, we recommend updating Teams PowerShell Module to version 3.0.0 or above.
 
@@ -35,13 +35,13 @@ Important notes:
   Update-Module MicrosoftTeams
   ```
 
--	If updating from Teams PowerShell Module version 1.1.6 - update your scripts to use `Connect-MicrosoftTeams` instead of `New-CsOnlineSession`.
+-	If, updating from Teams PowerShell Module version 1.1.6 - update your scripts to use `Connect-MicrosoftTeams` instead of `New-CsOnlineSession`.
 
 
 
 ## New organizations
 
-Organizations newly onboarding to Teams will only be able to use Teams PowerShell Module 3.0.0 or above starting from 15th Feb’22.
+Organizations newly onboarding to Teams will only be able to use Teams PowerShell Module 3.0.0 or above starting from February 15, 2022.
 
 
 
