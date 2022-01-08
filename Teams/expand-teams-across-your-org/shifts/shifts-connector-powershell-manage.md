@@ -50,7 +50,7 @@ This article describes how to use PowerShell to do the following:
 ## Check connection setup status
 <a name="setup_status"> </a>
 
-To check the status of the connection you set up using the operation ID:
+To check the status of the connection you set up using the operation ID that you received in email:
 
 1. [Set up your environment](#set-up-your-environment) (if you haven't already).
 1. Run the following command. This command gives you the overall status of the team mappings for the connection.
@@ -86,6 +86,58 @@ To learn more, see [Get-CsTeamsShiftsConnectionErrorReport](/powershell/module/t
 ### User mapping errors
 
 User mapping errors may occur if one or more users in a Blue Yonder site isn't a member of the mapped team in Teams. To resolve this issue, make sure that the users in the mapped team match the users in the Blue Yonder site.
+
+To view details of unmapped users, [set up your environment](#set-up-your-environment) (if you haven't already), and then run the following script.
+
+```powershell
+#View sync errors script 
+Write-Host "View sync errors work flow"
+Start-Sleep 1
+
+#Ensure Teams module is of version x 
+Write-Host "Checking Teams module version"
+try {
+	Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 2.3
+} catch {
+	throw
+}
+
+#Authenticate with powershell as to the authorization capabilities of the caller. 
+#Connect to Teams
+Write-Host "Connecting to Teams"
+Connect-MicrosoftTeams
+Write-Host "Connected"
+
+#List connection instances available 
+Write-Host "Listing connection instances"
+$InstanceList = Get-CsTeamsShiftsConnectionInstance
+write $InstanceList
+
+#Get an instance
+if ($InstanceList.Count -gt 0){
+	$InstanceId = Read-Host -Prompt 'Input the instance ID that you want to retrieve user sync results from'
+}
+else {
+	throw "Instance list is empty"
+}
+
+#Get a list of the mappings
+Write-Host "Listing team mappings"
+$mappings = Get-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $InstanceId
+write $mappings
+
+#For each mapping, retrieve the failed mappings
+ForEach ($mapping in $mappings){
+	$teamsTeamId = $mapping.TeamId
+	$wfmTeamId = $mapping.WfmTeamId
+	Write-Host "Failed mapped users in the mapping of ${teamsTeamId} and ${wfmTeamId}:"
+	$userSyncResult = Get-CsTeamsShiftsConnectionSyncResult -ConnectorInstanceId $InstanceId -TeamId $teamsTeamId
+	Write-Host "Failed AAD users:"
+	write $userSyncResult.FailedAadUser
+	Write-Host "Failed WFM users:"
+	write $userSyncResult.FailedWfmUser
+}
+```
 
 ### Account authorization errors
 
@@ -176,6 +228,7 @@ $federatedAuthUrl = $Instance.ConnectorSpecificSettingFederatedAuthUrl
 $retailWebApiUrl = $Instance.ConnectorSpecificSettingRetailWebApiUrl
 $siteManagerUrl = $Instance.ConnectorSpecificSettingSiteManagerUrl
 $syncFreq = Read-Host -Prompt 'Input new sync frequency'
+
 #Read admin email list
 [psobject[]]$AdminEmailList = @()
 while ($true){
@@ -189,7 +242,7 @@ if ($decision -eq 1) {
     break
 }
 }
-$UpdatedInstance = Set-CsTeamsShiftsConnectionInstance -ConnectorId $BlueYonderId -ConnectorInstanceId $InstanceId -ConnectorSpecificSettingAdminApiUrl $adminApiUrl -ConnectorSpecificSettingCookieAuthUrl $cookieAuthUrl -ConnectorSpecificSettingEssApiUrl $essApiUrl -ConnectorSpecificSettingFederatedAuthUrl $federatedAuthUrl -ConnectorSpecificSettingLoginPwd $plainPwd -ConnectorSpecificSettingLoginUserName $WfmUserName -ConnectorSpecificSettingRetailWebApiUrl $retailWebApiUrl -ConnectorSpecificSettingSiteManagerUrl $siteManagerUrl -DesignatedActorId $teamsUserId -EnabledConnectorScenario $updatedConnectorScenario -EnabledWfiScenario $updatedWfiScenario -Name $UpdatedInstanceName -SyncFrequencyInMin $syncFreq -IfMatch $Etag -ConnectorAdminEmail AdminEmailList
+$UpdatedInstance = Set-CsTeamsShiftsConnectionInstance -ConnectorId $BlueYonderId -ConnectorInstanceId $InstanceId -ConnectorSpecificSettingAdminApiUrl $adminApiUrl -ConnectorSpecificSettingCookieAuthUrl $cookieAuthUrl -ConnectorSpecificSettingEssApiUrl $essApiUrl -ConnectorSpecificSettingFederatedAuthUrl $federatedAuthUrl -ConnectorSpecificSettingLoginPwd $plainPwd -ConnectorSpecificSettingLoginUserName $WfmUserName -ConnectorSpecificSettingRetailWebApiUrl $retailWebApiUrl -ConnectorSpecificSettingSiteManagerUrl $siteManagerUrl -DesignatedActorId $teamsUserId -EnabledConnectorScenario $updatedConnectorScenario -EnabledWfiScenario $updatedWfiScenario -Name $UpdatedInstanceName -SyncFrequencyInMin $syncFreq -IfMatch $Etag -ConnectorAdminEmail $AdminEmailList
 
 #Get a list of the mappings
 Write-Host "Listing mappings"
@@ -253,6 +306,7 @@ if ($InstanceList.Count -gt 0){
 	$federatedAuthUrl = $Instance.ConnectorSpecificSettingFederatedAuthUrl
 	$retailWebApiUrl = $Instance.ConnectorSpecificSettingRetailWebApiUrl
 	$siteManagerUrl = $Instance.ConnectorSpecificSettingSiteManagerUrl
+	$ConnectorAdminEmail = $Instance.ConnectorAdminEmail
 }
 else {
 	throw "Instance list is empty"
@@ -266,7 +320,7 @@ $WfmUserName = Read-Host -Prompt 'Input your WFM user name'
 $WfmPwd = Read-Host -Prompt 'Input your WFM password' -AsSecureString
 $plainPwd =[Runtime.InteropServices.Marshal]::PtrToStringAuto([Runtime.InteropServices.Marshal]::SecureStringToBSTR($WfmPwd))
 
-$UpdatedInstance = Set-CsTeamsShiftsConnectionInstance -ConnectorId $BlueYonderId -ConnectorInstanceId $InstanceId -ConnectorSpecificSettingAdminApiUrl $adminApiUrl -ConnectorSpecificSettingCookieAuthUrl $cookieAuthUrl -ConnectorSpecificSettingEssApiUrl $essApiUrl -ConnectorSpecificSettingFederatedAuthUrl $federatedAuthUrl -ConnectorSpecificSettingLoginPwd $plainPwd -ConnectorSpecificSettingLoginUserName $WfmUserName -ConnectorSpecificSettingRetailWebApiUrl $retailWebApiUrl -ConnectorSpecificSettingSiteManagerUrl $siteManagerUrl -DesignatedActorId $DesignatedActorId -EnabledConnectorScenario @() -EnabledWfiScenario @() -Name $UpdatedInstanceName -SyncFrequencyInMin 60 -IfMatch $Etag
+$UpdatedInstance = Set-CsTeamsShiftsConnectionInstance -ConnectorId $BlueYonderId -ConnectorInstanceId $InstanceId -ConnectorSpecificSettingAdminApiUrl $adminApiUrl -ConnectorSpecificSettingCookieAuthUrl $cookieAuthUrl -ConnectorSpecificSettingEssApiUrl $essApiUrl -ConnectorSpecificSettingFederatedAuthUrl $federatedAuthUrl -ConnectorSpecificSettingLoginPwd $plainPwd -ConnectorSpecificSettingLoginUserName $WfmUserName -ConnectorSpecificSettingRetailWebApiUrl $retailWebApiUrl -ConnectorSpecificSettingSiteManagerUrl $siteManagerUrl -DesignatedActorId $DesignatedActorId -EnabledConnectorScenario @() -EnabledWfiScenario @() -Name $UpdatedInstanceName -SyncFrequencyInMin 60 -IfMatch $Etag -ConnectorAdminEmail $ConnectorAdminEmail
 
 if ($UpdatedInstance.Id -ne $null) {
 	Write-Host "Success"

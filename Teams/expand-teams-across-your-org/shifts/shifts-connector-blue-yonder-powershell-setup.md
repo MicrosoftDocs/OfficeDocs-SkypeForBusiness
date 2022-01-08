@@ -195,7 +195,7 @@ $WFMUsers = Get-CsTeamsShiftsConnectionUser -ConnectorInstanceId $InstanceId -Wf
 write $WFMUsers
 
 #Keep mapping teams until user stops it
-while (true)
+while ($true)
 {
 
 #Create a new Teams team with owner set to system account and name set to the site name
@@ -354,7 +354,7 @@ $WFMUsers = Get-CsTeamsShiftsConnectionUser -ConnectorInstanceId $InstanceId -Wf
 write $WFMUsers
 
 #Keep mapping teams until user stops it
-while (true)
+while ($true)
 {
 
 $TeamsTeamId = Read-Host -Prompt "Input the ID of the Teams team to be mapped"
