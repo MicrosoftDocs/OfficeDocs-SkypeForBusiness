@@ -53,6 +53,6 @@ Organizations newly onboarding to Teams will only be able to use Teams PowerShel
 
 [Manage Teams with Teams PowerShell](teams-powershell-managing-teams.md)
 
-[Microsoft Teams cmdlet reference](/powershell/teams/?view=teams-ps)
+[Microsoft Teams cmdlet reference](/powershell/module/teams) 
 
-[Skype for Business cmdlet reference](/powershell/skype/intro?view=skype-ps)
+[Skype for Business cmdlet reference](/powershell/module/skype) 
