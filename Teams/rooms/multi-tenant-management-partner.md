@@ -85,7 +85,7 @@ To off-board a customer, you must remove them from the Customers list.
 
 Partner roles allow for delegation of responsibilities to additional personnel. The concept of these roles is the same as described in [Role-based access control](microsoft-teams-rooms-premium-rbac.md), but in context of each customer. Further, it is important to note that partner roles are distinct from the customer’s roles. The partner roles can be deleted by the customer. 
 
-The **Primary admins** role is the only built-in role for each on-boarded customer and has almost all permissions —– in context of the customer —– for the TRM service (see table 1). Partner** role permissions only extend as far as the rooms designated by the customer. For example, if the cCustomer is a global organization and assigns the Partner to manage All US rooms, the primary admin would only be able to manage and delegate permissions for those rooms. The Partner has no visibility to other rooms the Customer may have in other countries. 
+The **Primary admins** role is the only built-in role for each on-boarded customer and has almost all permissions —– in context of the customer —– for the TRM service (see table 1). Partner** role permissions only extend as far as the rooms designated by the customer. For example, if the customer is a global organization and assigns the Partner to manage All US rooms, the primary admin would only be able to manage and delegate permissions for those rooms. The Partner has no visibility to other rooms the Customer may have in other countries. 
 
 > [!Important]
 > There must always be at least one user in the **Primary admins** role.
@@ -118,25 +118,25 @@ As a partner, you can create custom roles to suit your operational requirements.
 
 |Feature|Permission|**MMR Admin**|**Site Lead**|**Site Tech**|**Primary admins**|
 | :- | :- | :- | :- | :- | :- |
-|Rooms|View|||||
-||Modify|||||
-||Reset key|||||
-||Download key|||||
-||Unenroll|||||
-|Group management|Create |||||
-||View|||||
-||Modify|||||
-|Update ring management|Create |||||
-||View|||||
-||Modify|||||
-|Reports|View|||||
-|Ticket management|Create customer incident|||||
-||View|||||
-||Update|||||
-|MMR Settings|View|||||
-||Modify|||||
-|Role management|View |||||
-||Modify|||||
+|Rooms|View| &#10004;|&#10004;|&#10004;|&#10004;|
+||Modify|&#10004;|&#10004;|&#10004;|&#10004;|
+||Reset key|&#10004;||||
+||Download key|&#10004;|&#10004;|&#10004;||
+||Unenroll|&#10004;|&#10004;|&#10004;||
+||Create |&#10004;|&#10004;|||
+|Group management|View|&#10004;|&#10004;||&#10004;|
+||Modify|&#10004;|&#10004;|||
+||Create |&#10004;|&#10004;|||
+|Update ring management|View|&#10004;|&#10004;||&#10004;|
+||Modify|&#10004;|&#10004;||&#10004;|
+|Reports|View|&#10004;|&#10004;||&#10004;|
+||Create customer incident|&#10004;|&#10004;|&#10004;|&#10004;|
+|Tickets Management|View|&#10004;|&#10004;|&#10004;|&#10004;|
+||Update|&#10004;|&#10004;|&#10004;|&#10004;|
+|MMR Settings|View|&#10004;||||
+||Modify|&#10004;||||
+|Role management|View |&#10004;|||&#10004;|
+||Modify|&#10004;|||&#10004;|
 
 > [!Note]
 > A user assigned as a Primary admin for Customer A has full permissions in the TRM service for only that customer. The permissions of the user in Customer A have no influence on other customers.
@@ -162,7 +162,7 @@ The customer can pull audit logs for the TRM service, which includes partner act
 
 The MTM portal has two interactive models to navigate between customer data:
 
-- Aggregate views were data from all your customers is consolidated in a single list and can be filtered.
+- Aggregate views where data from all your customers is consolidated in a single list and can be filtered.
 
   > [!Note]
   > This view is only supported in the **Incidents** page when **Enable all tickets view** is toggled on.
