@@ -118,6 +118,7 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |Number of people in a video or audio call from chat | 20 |
 |Max PowerPoint File Size | 2GB|
 |Teams keeps [meeting recordings](cloud-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
+| Meeting recording maximum length | 4 hours or 1.5 GB, when the limit is reached the recording will end and automatically restart
   
 <sup>1</sup> For the best experience in large meetings, webinars, and live events, Microsoft recommends using the latest version of Teams desktop client or Teams mobile clients.
 
