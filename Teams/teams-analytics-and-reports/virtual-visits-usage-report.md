@@ -24,8 +24,8 @@ The Virtual Visits usage report in the Microsoft Teams admin center gives you an
 
 The report contains the following tabs:
 
-- [Virtual Visits](#virtual-visits): Shows the total number of Virtual Visits, and of these, the total number of Virtual Visits scheduled through the Bookings app and conducted from your EHR system through the Team EHR connector.
-- [Duration](#duration): Shows the average duration of Virtual Visits and average lobby wait time.
+- [Virtual Visits](#virtual-visits): Shows the total number of Virtual Visits, and of these, the number of Virtual Visits scheduled through the Bookings app and conducted from your EHR system through the Team EHR connector.
+- [Duration](#duration): Shows the average duration of Virtual Visits and average lobby wait time of attendees.
 - [Bookings](#bookings): Shows the total number of Virtual Visits scheduled through the Bookings app.
 - [EHR](#ehr): Shows the total number of Virtual Visits conducted from your EHR system through the Teams EHR connector.
 
