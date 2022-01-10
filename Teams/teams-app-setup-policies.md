@@ -104,6 +104,9 @@ To create an app setup policy to install apps, do the following steps:
 > [!IMPORTANT]
 > Users can't uninstall apps that are installed by admins.
 
+> [!NOTE]
+> Custom apps with configurable tabs cannot be installed using this procedure.
+
 ## Upload custom apps
 
 You can use the Microsoft Teams admin center to create a custom policy that allows users to upload custom apps to Teams.
