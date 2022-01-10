@@ -850,8 +850,6 @@ items:
               href: rooms/rooms-authentication.md
             - name: Join third-party meetings
               href: rooms/third-party-join.md
-            - name: By using Microsoft Endpoint Configuration Manager
-              href: rooms/rooms-scale.md
             - name: Management with Azure Monitor
               href: rooms/azure-monitor-deploy.md
             - name: Migrate SRS v1 or LRS
@@ -1468,8 +1466,6 @@ items:
               href: rooms/rooms-authentication.md
             - name: Join third-party meetings
               href: rooms/third-party-join.md
-            - name: By using Microsoft Endpoint Configuration Manager
-              href: rooms/rooms-scale.md
             - name: Management with Azure Monitor
               href: rooms/azure-monitor-deploy.md
             - name: Migrate SRS v1 or LRS
