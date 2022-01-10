@@ -163,7 +163,7 @@ To unenroll the device, remove the monitoring agent from the MTR device as follo
 1. On the device being monitored, log in the device as administrator. Be sure to follow the steps in *Performing operations as the Admin user of the device*.
 1. Download reset script from [aka.ms/MTRPDeviceOffBoarding](https://aka.ms/MTRPDeviceOffBoarding).
 1. Extract the script somewhere on the device and copy the path.
-1. Open PowerShell as administrator: In the Windows ***Search*** field (bottom-left section of the screen), enter ‘Powershell’ and right-click ***Windows PowerShell***
+1. Open PowerShell as administrator: In the Windows ***Search*** field (bottom-left section of the screen), enter ‘Powershell’ and right-click ***Windows PowerShell***.
 1. Select *“Run as Administrator”* and accept UAC prompt.
 1. Enter *Set-ExecutionPolicy –ExecutionPolicy RemoteSigned* , then press **Y** on next prompt.  
 1. Paste or type the full path to the unzipped offboarding script into the PowerShell window and press **Enter**.
