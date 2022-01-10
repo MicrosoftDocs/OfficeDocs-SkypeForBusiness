@@ -25,6 +25,11 @@
       "redirect_url": "/microsoftteams/rooms/microsoft-teams-rooms-premium",
       "redirect_document_id": true
     },
+        {
+      "source_path": "Teams/rooms/rooms-scale.md",
+      "redirect_url": "/microsoftteams/rooms/console",
+      "redirect_document_id": true
+    },
     {
       "source_path": "Teams/expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md",
       "redirect_url": "/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams",
