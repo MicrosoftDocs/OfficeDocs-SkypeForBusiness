@@ -136,11 +136,6 @@
       "redirect_document_id": true
     },
     {
-      "source_path": "Teams/room-systems/room-systems-scale.md",
-      "redirect_url": "/MicrosoftTeams/rooms/rooms-scale",
-      "redirect_document_id": true
-    },
-    {
       "source_path": "Teams/room-systems/azure-monitor-deploy.md",
       "redirect_url": "/MicrosoftTeams/rooms/azure-monitor-deploy",
       "redirect_document_id": true
