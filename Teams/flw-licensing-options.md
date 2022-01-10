@@ -25,6 +25,8 @@ Organizations in many industries, such as retail, manufacturing, hospitality, an
 
 Microsoft 365 and Microsoft Teams have features and a licensing model to support both types of users for your organization. [Microsoft 365 for Frontline Workers](https://www.microsoft.com/microsoft-365/enterprise/frontline) is optimized for a frequently mobile workforce that primarily interacts with customers, but also needs to stay connected to the rest of your organization.
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWRoBo]
+
 ## Assign appropriate licenses to support frontline worker and information worker user types
 
 If it makes sense for your organization, you can assign different licenses to these different types of users. The following illustration shows one way to apply licenses and policies for Retail workers, for example:
