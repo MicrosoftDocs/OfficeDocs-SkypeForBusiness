@@ -25,10 +25,10 @@
       "redirect_url": "/microsoftteams/rooms/microsoft-teams-rooms-premium",
       "redirect_document_id": true
     },
-        {
+    {
       "source_path": "Teams/rooms/rooms-scale.md",
       "redirect_url": "/microsoftteams/rooms/console",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Teams/expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md",
@@ -138,7 +138,7 @@
     {
       "source_path": "Teams/room-systems/room-systems-scale.md",
       "redirect_url": "/microsoftteams/rooms/console",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Teams/room-systems/azure-monitor-deploy.md",
