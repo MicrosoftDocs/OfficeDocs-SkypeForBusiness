@@ -2,6 +2,14 @@
 
 
 
+## Week of January 03, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/7/2022 | [Move users between on-premises and cloud](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud) | modified |
+
+
 ## Week of December 13, 2021
 
 
