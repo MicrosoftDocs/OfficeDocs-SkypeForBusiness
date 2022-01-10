@@ -14,8 +14,10 @@ metadata:
   author: samanro #Required; your GitHub user alias, with correct capitalization.
   ms.author: samanro #Required; microsoft alias of author; optional team alias.
   ms.date: 02/12/2020 #Required; mm/dd/yyyy format.
-  localization_priority: Priority
-  ms.custom: seo-marvel-apr2020
+  ms.localizationpriority: high
+  ms.custom: 
+  - seo-marvel-apr2020
+  - intro-hub-or-landing
 
 # highlightedContent section (optional)
 # Maximum of 8 items

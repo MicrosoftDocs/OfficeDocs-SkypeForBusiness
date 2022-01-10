@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: Use a proven success framework to help your organization's upgrade journey from Skype for Business to Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -28,7 +28,7 @@ To help take the guesswork out of your upgrade journey, we've employed a proven 
 
 Begin by bringing together the right stakeholders and defining your upgrade plan (e.g. scope, goals and timeline). With a plan in place, confirm your technical environment and your end-users are ready for Teams. Then, implement your upgrade in stages, moving from a pilot to an organization-wide upgrade when ready. Once your organization is on Teams, establish an operational plan that monitors for quality and accelerates user adoption.
 
-![Illustration of the upgrade journey framework](media/upgrade-banner-main.png "Ensure your project is set up for success with the right project team. Define your project scope, goals, and timeline. Confirm both technical and user readiness. Execute your rollout plan. Maintain momentum to maximize results.")
+![Illustration of the upgrade journey framework.](media/upgrade-banner-main.png "Ensure your project is set up for success with the right project team. Define your project scope, goals, and timeline. Confirm both technical and user readiness. Execute your rollout plan. Maintain momentum to maximize results.")
 
 Look for this framework graphic on related pages to identify where you are in the upgrade process.
 
@@ -124,4 +124,4 @@ To help demonstrate how your upgrade journey might unfold, we've provided a samp
 > Our Upgrade content is continually evolving. Be sure to check back for the latest guidance, and read the [Teams blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog). 
 
 > [!Important]
-> Skype for Business Online will be retired on July 31, 2021, after which it will no longer be accessible or supported. To maximize benefit realization and ensure your organization has proper time to implement your upgrade, we encourage you to begin your journey to Microsoft Teams today. Remember that a successful upgrade aligns technical and user readiness, so be sure to leverage the guidance herein as you navigate your journey to Microsoft Teams.
+> Skype for Business Online was retired on July 31, 2021. To maximize benefit realization and ensure your organization has proper time to implement your upgrade, we encourage you to begin your journey to Microsoft Teams today. Remember that a successful upgrade aligns technical and user readiness, so be sure to leverage the guidance herein as you navigate your journey to Microsoft Teams.

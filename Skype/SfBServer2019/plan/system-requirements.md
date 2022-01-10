@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 description: "Summary: Prepare your Skype for Business Server 2019 servers and domain infrastructure with this topic. Hardware, OS, databases, software, all the system requirements and recommendations, along with certificate DNS, file share, and Active Directory information, are here to help ensure a successful install and deployment of your server farm."
 ---
@@ -44,31 +44,31 @@ After you have your topology down (and if you don't, you can check out the [Topo
   
 Recommended hardware for Standard Edition servers:
 
-|**Hardware component**|**Recommended**|
+|Hardware component|Recommended|
 |:-----|:-----|
-|CPU  <br/> |Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or higher.  <br/> Intel Itanium processors are not supported for Skype for Business Server 2019 roles.  <br/> |
-|Memory  <br/> |32 gigabytes (GB).  <br/> |
-|Disk  <br/> |EITHER:  <br/> • 8 or more 10000 RPM hard disk drives with at least 72 GB free disk space (two of the disks using RAID 1 and 6 using RAID 10).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to 8 10000 RPM mechanical disk drives.  <br/> |
-|Network  <br/> |1 dual-port network adapter, 1 Gbps or higher (2 network adapters can be used, but they need to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Front End Servers, Back End Servers, and Standard Edition servers. <br/> As long as they are not exposed to the operating system and are being used to monitor and manage server hardware, you can have out-of-band management systems, such as DRAC or ILO. This scenario doesn't constitute a multi-homed server, and it is supported.  <br/> |
+|CPU   |Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or higher.  <br/> Intel Itanium processors are not supported for Skype for Business Server 2019 roles.   |
+|Memory   |32 gigabytes (GB).   |
+|Disk   |EITHER:  <br/> • 8 or more 10000 RPM hard disk drives with at least 72 GB free disk space (two of the disks using RAID 1 and 6 using RAID 10).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to 8 10000 RPM mechanical disk drives.   |
+|Network   |1 dual-port network adapter, 1 Gbps or higher (2 network adapters can be used, but they need to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Front End Servers, Back End Servers, and Standard Edition servers. <br/> As long as they are not exposed to the operating system and are being used to monitor and manage server hardware, you can have out-of-band management systems, such as DRAC or ILO. This scenario doesn't constitute a multi-homed server, and it is supported.   |
 
 
 Recommended hardware for Front End Servers and Back End Servers:
   
-|**Hardware component**|**Recommended**|
+|Hardware component|Recommended|
 |:-----|:-----|
-|CPU  <br/> |Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or higher. <br/> Intel Itanium processors are not supported for Skype for Business Server 2019 roles.  <br/> |
-|Memory  <br/> |64 gigabytes (GB).  <br/> |
-|Disk  <br/> |EITHER:  <br/> • 8 or more 10000 RPM hard disk drives with at least 72 GB free disk space (two of the disks using RAID 1 and 6 using RAID 10).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to 8 10000 RPM mechanical disk drives.  <br/> |
-|Network  <br/> |1 dual-port network adapter, 1 Gbps or higher (2 network adapters can be used, but they need to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Front End Servers, Back End Servers, and Standard Edition servers. <br/> As long as they are not exposed to the operating system and are being used to monitor and manage server hardware, you can have out-of-band management systems, such as DRAC or ILO. This scenario doesn't constitute a multi-homed server, and it is supported.  <br/> |
+|CPU   |Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or higher. <br/> Intel Itanium processors are not supported for Skype for Business Server 2019 roles.   |
+|Memory   |64 gigabytes (GB).   |
+|Disk   |EITHER:  <br/> • 8 or more 10000 RPM hard disk drives with at least 72 GB free disk space (two of the disks using RAID 1 and 6 using RAID 10).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to 8 10000 RPM mechanical disk drives.   |
+|Network   |1 dual-port network adapter, 1 Gbps or higher (2 network adapters can be used, but they need to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Front End Servers, Back End Servers, and Standard Edition servers. <br/> As long as they are not exposed to the operating system and are being used to monitor and manage server hardware, you can have out-of-band management systems, such as DRAC or ILO. This scenario doesn't constitute a multi-homed server, and it is supported.   |
    
 Recommended hardware for Edge Servers, standalone Mediation Servers, and Directors:
   
-|**Hardware component**|**Recommended**|
+|Hardware component|Recommended|
 |:-----|:-----|
-|CPU  <br/> |Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or higher.  <br/> Intel Itanium processors are not supported for Skype for Business Server 2019 roles.  <br/> |
-|Memory  <br/> |32 gigabytes.  <br/> |
-|Disk  <br/> |EITHER:  <br/> • 4 or more 10000 RPM hard disk drives with at least 72 GB free disk space (the disks should be in a 2x RAID 1 configuration).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to 4 10000 RPM mechanical disk drives.  <br/> |
-|Network  <br/> |1 dual-port network adapter, 1 Gbps or higher (2 network adapters can be used, but they need to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Video Interop Servers and Directors. <br/> Edge servers will require two network interfaces that are dual-port network adapters, 1 Gbps or higher (or two paired network adapters, for a total of four, each pair being teamed with a single MAC address and a single IP address, for a total of two pairs).  <br/> On standalone Mediation Servers, the installation of additional network interface cards (NICs) to allow the configuration of a specific PSTN IP address is supported.  <br/> |
+|CPU   |Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or higher.  <br/> Intel Itanium processors are not supported for Skype for Business Server 2019 roles.   |
+|Memory   |32 gigabytes.   |
+|Disk   |EITHER:  <br/> • 4 or more 10000 RPM hard disk drives with at least 72 GB free disk space (the disks should be in a 2x RAID 1 configuration).  <br/> OR  <br/> • Solid state drives (SSDs) able to provide the same free space and similar performance to 4 10000 RPM mechanical disk drives.   |
+|Network   |1 dual-port network adapter, 1 Gbps or higher (2 network adapters can be used, but they need to be teamed with a single MAC address and a single IP address).  <br/> Dual or multi-homed configurations are **not** supported for Video Interop Servers and Directors. <br/> Edge servers will require two network interfaces that are dual-port network adapters, 1 Gbps or higher (or two paired network adapters, for a total of four, each pair being teamed with a single MAC address and a single IP address, for a total of two pairs).  <br/> On standalone Mediation Servers, the installation of additional network interface cards (NICs) to allow the configuration of a specific PSTN IP address is supported.   |
 
 
 > [!NOTE]
@@ -83,11 +83,8 @@ Recommended hardware for Edge Servers, standalone Mediation Servers, and Directo
 
 After you have the hardware in place, you'll need to the install operating system (OS) that will allow you to install and successfully use Skype for Business Server 2019.
   
-|||
-|:-----|:-----|
-|Windows Server 2019 <br/> |
-|Windows Server 2016 <br/> ||
-||
+- Windows Server 2019 
+- Windows Server 2016
    
 Anything other than the operating systems listed here won't work properly; please don't try it for installs of Skype for Business Server 2019. For example, Server Core option is not listed, and is thus not supported.
 
@@ -112,21 +109,21 @@ There are some things you're going to need to install or configure for any serve
   
  **All servers:**
   
-|**Software/role**|**Details**|
+|Software/role|Details|
 |:-----|:-----|
-|Windows PowerShell 3.0  <br/> |All Skype for Business Server servers need Windows PowerShell 3.0 installed.  <br/> • This should be installed by default with Windows Server 2016.<br/> |
-|Microsoft .NET Framework  <br/> |WCF services is a **Feature** that's installed as a Windows feature, under **Server Manager**, initially no downloads needed. <br/> • You need to make sure, when you install this feature, or if it's already installed and you're checking on it, that the **HTTP Activation** option is also checked and installed, like so: <br/> ![Screenshot showing HTTP Activation option under the .NET Framework 4.5 Features.](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> Don't worry if you get an additional pop-up saying some other things need to be installed for HTTP Activation to be installed. That's normal; click OK and go ahead. If you don't get this pop-up, you can assume those things are already installed and go ahead.  <br/> Microsoft .NET Framework is usually installed when Windows Server 2016 is installed. Skype for Business Server requires Microsoft .NET Framework 4.7 or 4.8 though, so you'd probably need to update it. You can find the update [here](https://support.microsoft.com/help/3186497/the-net-framework-4-7-offline-installer-for-windows/)<br/> |
-|Media Foundation  <br/> |For Windows Server 2016, the Windows Media Format Runtime installs with Microsoft Media Foundation.  <br/> All Front End Servers and Standard Edition servers used for conferencing require Windows Media Format Runtime to run the Windows Media Audio (.wma) files that the Call Park, Announcement, and Response Group applications play for announcements and music.  <br/> |
-|Windows Identity Foundation  <br/> |We need Windows Identity Foundation 3.5 to support server-to-server authentication scenarios for Skype for Business Server 2019.  <br/> • For Windows Server 2016, there's no need to download anything. Open **Server Manager**, and go to the **Add Roles and Features Wizard**. **Windows Identity Foundation 3.5** is listed under the **Features** section. If it's selected, you're good. Otherwise select it and click **Next** to reach the **Install** button. <br/> |
-|Remote Server Administration Tools  <br/> |Role Administration Tools: AD DS and AD LDS tools  <br/> |
+|Windows PowerShell 3.0   |All Skype for Business Server servers need Windows PowerShell 3.0 installed.  <br/> • This should be installed by default with Windows Server 2016. |
+|Microsoft .NET Framework   |WCF services is a **Feature** that's installed as a Windows feature, under **Server Manager**, initially no downloads needed. <br/> • You need to make sure, when you install this feature, or if it's already installed and you're checking on it, that the **HTTP Activation** option is also checked and installed, like so: <br/>![Screenshot showing HTTP Activation option under the .NET Framework 4.5 Features.](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> Don't worry if you get an additional pop-up saying some other things need to be installed for HTTP Activation to be installed. That's normal; click OK and go ahead. If you don't get this pop-up, you can assume those things are already installed and go ahead.  <br/> Microsoft .NET Framework is usually installed when Windows Server 2016 is installed. Skype for Business Server requires Microsoft .NET Framework 4.7 or 4.8 though, so you'd probably need to update it. You can find the update [here](https://support.microsoft.com/help/3186497/the-net-framework-4-7-offline-installer-for-windows/) |
+|Media Foundation   |For Windows Server 2016, the Windows Media Format Runtime installs with Microsoft Media Foundation.  <br/> All Front End Servers and Standard Edition servers used for conferencing require Windows Media Format Runtime to run the Windows Media Audio (.wma) files that the Call Park, Announcement, and Response Group applications play for announcements and music.   |
+|Windows Identity Foundation   |We need Windows Identity Foundation 3.5 to support server-to-server authentication scenarios for Skype for Business Server 2019.  <br/> • For Windows Server 2016, there's no need to download anything. Open **Server Manager**, and go to the **Add Roles and Features Wizard**. **Windows Identity Foundation 3.5** is listed under the **Features** section. If it's selected, you're good. Otherwise select it and click **Next** to reach the **Install** button.  |
+|Remote Server Administration Tools   |Role Administration Tools: AD DS and AD LDS tools   |
    
  **Front End Servers and Standard Edition server also need:**
   
-|**Software/role**|**Details**|
+|Software/role|Details|
 |:-----|:-----|
-|Internet Information Services (IIS)  <br/> |IIS is needed on all Front End Servers, as well as all Standard Edition servers, with the following modules selected:  <br/> • Common HTTP Features: Default Document, HTTP Errors, Static Content  <br/> • Health and Diagnostics: HTTP Logging, Logging Tools, Tracing  <br/> • Performance: Static Content Compression, Dynamic Content Compression  <br/> • Security: Request Filtering, Client Certificate Mapping Authentication, Windows Authentication  <br/> • Application Development: .NET Extensibility 3.5, .NET Extensibility 4.5, ASP.NET 3.5, ASP.NET 4.5, ISAPI Extensions, ISAPI Filters  <br/> • Management Tools: IIS Management Console, IIS Management Scripts and Tools  <br/> Note that Anonymous Access is also needed, but you get that when you install IIS, so you don't have a place to select it on the list.  <br/> |
-|Windows Media Format Runtime  <br/> | For Windows Server 2016, you'll need to install the **Media Foundation** feature in **Server Manager**. You actually can start your Skype for Business Server 2019 installation without this, but you'll be prompted to install it, and then reboot the server, before the Skype for Business Server 2019 install continues. It's better to do it ahead of time. <br/> |
-|Silverlight  <br/> |You can install the latest version of Silverlight [here](https://www.microsoft.com/silverlight/).  <br/> |
+|Internet Information Services (IIS)   |IIS is needed on all Front End Servers, as well as all Standard Edition servers, with the following modules selected:  <br/> • Common HTTP Features: Default Document, HTTP Errors, Static Content  <br/> • Health and Diagnostics: HTTP Logging, Logging Tools, Tracing  <br/> • Performance: Static Content Compression, Dynamic Content Compression  <br/> • Security: Request Filtering, Client Certificate Mapping Authentication, Windows Authentication  <br/> • Application Development: .NET Extensibility 3.5, .NET Extensibility 4.5, ASP.NET 3.5, ASP.NET 4.5, ISAPI Extensions, ISAPI Filters  <br/> • Management Tools: IIS Management Console, IIS Management Scripts and Tools  <br/> Note that Anonymous Access is also needed, but you get that when you install IIS, so you don't have a place to select it on the list.   |
+|Windows Media Format Runtime   | For Windows Server 2016, you'll need to install the **Media Foundation** feature in **Server Manager**. You actually can start your Skype for Business Server 2019 installation without this, but you'll be prompted to install it, and then reboot the server, before the Skype for Business Server 2019 install continues. It's better to do it ahead of time.  |
+|Silverlight   |You can install the latest version of Silverlight [here](https://www.microsoft.com/silverlight/).   |
    
 To help you out, here's a sample PowerShell script you can run to automate this:
   
@@ -195,11 +192,9 @@ When installing Skype for Business Server 2019 Standard Edition, you'll have SQL
 
 Skype for Business Server 2019 Enterprise Edition will require full SQL Server, as indicated below (only 64-bit edition; please don't use 32-bit editions):
   
-||||
-|:-----|:-----|:-----|
-|Microsoft SQL Server 2019 (64-bit edition), and you must run with the latest updates.  <br/> |Microsoft SQL Server 2017 (64-bit edition), and you must run with the latest updates.  <br/> |
-Microsoft SQL Server 2016 (64-bit edition), and you must run with the latest updates.|
- |
+- Microsoft SQL Server 2019 (64-bit edition), and you must run with the latest updates.
+- Microsoft SQL Server 2017 (64-bit edition), and you must run with the latest updates.
+- Microsoft SQL Server 2016 (64-bit edition), and you must run with the latest updates.
 
 If you don't see the SQL Server edition you want to use listed here, you can't use it.
   
@@ -239,15 +234,15 @@ Please don't install any Microsoft Internet Security and Acceleration (ISA) Serv
 
 Although much of the configuration data for servers and services is stored in the Skype for Business Server 2019 Central Management store, there are some things still stored in Active Directory:
   
-|**Active Directory objects**|**Object types**|
+|Active Directory objects|Object types|
 |:-----|:-----|
-|Schema extensions  <br/> |User object extensions  <br/> |
-||Extensions for Skype for Business Server 2015 and Lync Server 2013, to maintain backward compatibility with the previous supported versions  <br/> |
-|Data  <br/> |User SIP URI and other user settings  <br/> |
-||Contact objects for applications (like the Response Group application and the Conferencing Attendant application)  <br/> |
-||Data published for backward compatibility  <br/> |
-||A service control point (SCP) for the Central Management store  <br/> |
-||Kerberos Authentication Account (an optional computer object)  <br/> |
+|Schema extensions   |User object extensions   |
+||Extensions for Skype for Business Server 2015 and Lync Server 2013, to maintain backward compatibility with the previous supported versions   |
+|Data   |User SIP URI and other user settings   |
+||Contact objects for applications (like the Response Group application and the Conferencing Attendant application)   |
+||Data published for backward compatibility   |
+||A service control point (SCP) for the Central Management store   |
+||Kerberos Authentication Account (an optional computer object)   |
    
 ### OS for Domain Controllers
 
@@ -297,17 +292,17 @@ Supported topologies in Skype for Business Server 2019 are:
     
 We have diagrams and descriptions to help you determine what topology you have in your environment, or what you may need to set up prior to installing Skype for Business Server 2019. To keep it simple, we're also including a key:
   
-![The is a key to the icons used for Skype for Business topology diagrams](../../SfbServer/media/cc0dbc17-cf81-4b79-bf99-4614cc6828a0.png)
+![The is a key to the icons used for Skype for Business topology diagrams.](../../SfbServer/media/cc0dbc17-cf81-4b79-bf99-4614cc6828a0.png)
   
 #### Single forest with single domain
 
-![Diagram of Active Directory single forest with a single domain](../../SfbServer/media/24921a0b-3a3e-4bad-8427-49300e2e3f7a.png)
+![Diagram of Active Directory single forest with a single domain.](../../SfbServer/media/24921a0b-3a3e-4bad-8427-49300e2e3f7a.png)
   
 It doesn't get easier than this; it's a single domain forest, a common topology.
   
 #### Single forest with a single tree and multiple domains
 
-![A single forest, single tree and mutiple domains diagram](../../SfbServer/media/63b9f0dd-6bac-4ba9-ae68-8be032d09dcb.png)
+![A single forest, single tree and mutiple domains diagram.](../../SfbServer/media/63b9f0dd-6bac-4ba9-ae68-8be032d09dcb.png)
   
 This diagram shows a single forest, again, but it has one or more child domains as well (there are three in this specific example). So the domain the users are created in might be different from the domain Skype for Business Server 2019 is deployed to. Why worry about this? It's important to remember that when you deploy a Skype for Business Server Front End pool, all the servers in that pool need to be in a single domain. You can have cross-domain administration via Skype for Business Server support of Windows universal administrator groups.
   
@@ -315,7 +310,7 @@ In the diagram above, you can see that users from one domain are able to access 
   
 #### Single forest with multiple trees and disjoint namespaces
 
-![A single forest, multiple  trees and disjoint namespaces diagram](../../SfbServer/media/5ede77a1-f5d2-499c-a2c8-d02f3c2f7cd7.png)
+![A single forest, multiple  trees and disjoint namespaces diagram.](../../SfbServer/media/5ede77a1-f5d2-499c-a2c8-d02f3c2f7cd7.png)
   
 You may have a topology similar to this diagram, where you have one forest, but within that forest are multiple domains, with separate AD namespaces. In this case, this diagram is a good illustration, because it includes users in three different domains accessing Skype for Business Server 2019. Solid lines indicate they're accessing a Skype for Business Server pool in their own domain, whereas a dashed line indicates they're going to a pool in a different tree altogether.
   
@@ -323,7 +318,7 @@ As you can see, users in the same domain, the same tree, or even a different tre
   
 #### Multiple forests in a central forest topology
 
-![Multiple forests in a central forest topology diagram](../../SfbServer/media/fec40746-4254-4c84-86b9-aad4a616ea2f.png)
+![Multiple forests in a central forest topology diagram.](../../SfbServer/media/fec40746-4254-4c84-86b9-aad4a616ea2f.png)
   
 Skype for Business Server 2019 does support multiple forests configured in a central forest topology. If you're not sure that's what you have, the central forest in the topology uses objects in it to represent users in the other forests, and hosts user accounts for any users in the forest.
   
@@ -334,7 +329,7 @@ Clearly, if your AD infrastructure is in place, moving to this topology might no
 #### Multiple forests in a Skype for Business resource forest topology
 <a name="BKMK_multipleforestopology"> </a>
 
-![Multiple forests in a resource forest topology diagram](../../SfbServer/media/41efa3b6-d9e6-47df-992b-fefcfc39a80d.png)
+![Multiple forests in a resource forest topology diagram.](../../SfbServer/media/41efa3b6-d9e6-47df-992b-fefcfc39a80d.png)
   
 A resource forest topology is also supported; it's where a forest is dedicated to running your server applications, like Microsoft Exchange Server and Skype for Business Server 2019. This resource forests also hosts a synchronized representation of active user objects, but no logon-enabled user accounts. So the resource forest is a shared services environment for other forests in which user objects reside, and they have a forest-level trust relationship with the resource forest.
   
@@ -456,39 +451,39 @@ To keep things straightforward, we've put the certificate requirements for Stand
     
 Certificates for Standard Edition servers:
   
-|**Certificate**|**Subject name/common name**|**Subject alternative name**|**Example**|**Comments**|
+|Certificate|Subject name/common name|Subject alternative name|Example|Comments|
 |:-----|:-----|:-----|:-----|:-----|
-|Default  <br/> |FQDN of the pool  <br/> |FQDN of the pool and FQDN of the server  <br/> If you have multiple SIP domains and have enabled automatic client configuration, the certificate wizard detects and adds each supported SIP domain FQDNs.  <br/> If this pool is the auto-logon server for clients and strict Domain Name System (DNS) matching is required in group policy, you also need entries for sip.sipdomain (for each SIP domain you have).  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com  <br/> If this pool is the auto-logon server for clients and strict DNS matching is required in group policy, you also need SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |On Standard Edition servers, the server FQDN is the same as the pool FQDN.  <br/> The wizard detects any SIP domains you specified during setup and automatically adds them to the subject alternative name.  <br/> You can also use this certificate for Server-to-Server Authentication.  <br/> |
-|Web internal  <br/> |FQDN of the server  <br/> |Each of the following:  <br/> • Internal web FQDN (which is the same as the FQDN of the server)  <br/> AND  <br/> • Meet simple URLs  <br/> • Dial-in simple URL  <br/> • Admin simple URL  <br/> OR  <br/> • A wildcard entry for the simple URLs  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Using a wildcard certificate:  <br/> SN=se01.contoso.com; SAN=se01.contoso.com; SAN=\*.contoso.com  <br/> |You can't override the Internal web FQDN in Topology Builder.  <br/> If you have multiple Meet simple URLs, you must include all of them as SANs.  <br/> Wildcard entries are supported for the simple URL entries.  <br/> |
-|Web external  <br/> |FQDN of the server  <br/> |Each of the following:  <br/> • External web FQDN  <br/> AND  <br/> • Dial-in simple URL  <br/> • Meet simple URLs per SIP domain  <br/> OR  <br/> • A wildcard entry for the simple URLs  <br/> |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Using a wildcard certificate:  <br/> SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=\*.contoso.com  <br/> |If you have multiple Meet simple URLs, you must include all of them as subject alternative names.  <br/> Wildcard entries are supported for the simple URL entries.  <br/> |
+|Default   |FQDN of the pool   |FQDN of the pool and FQDN of the server  <br/> If you have multiple SIP domains and have enabled automatic client configuration, the certificate wizard detects and adds each supported SIP domain FQDNs.  <br/> If this pool is the auto-logon server for clients and strict Domain Name System (DNS) matching is required in group policy, you also need entries for sip.sipdomain (for each SIP domain you have).   |SN=se01.contoso.com; SAN=se01.contoso.com  <br/> If this pool is the auto-logon server for clients and strict DNS matching is required in group policy, you also need SAN=sip.contoso.com; SAN=sip.fabrikam.com   |On Standard Edition servers, the server FQDN is the same as the pool FQDN.  <br/> The wizard detects any SIP domains you specified during setup and automatically adds them to the subject alternative name.  <br/> You can also use this certificate for Server-to-Server Authentication.   |
+|Web internal   |FQDN of the server   |Each of the following:  <br/> • Internal web FQDN (which is the same as the FQDN of the server)  <br/> AND  <br/> • Meet simple URLs  <br/> • Dial-in simple URL  <br/> • Admin simple URL  <br/> OR  <br/> • A wildcard entry for the simple URLs   |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Using a wildcard certificate:  <br/> SN=se01.contoso.com; SAN=se01.contoso.com; SAN=\*.contoso.com   |You can't override the Internal web FQDN in Topology Builder.  <br/> If you have multiple Meet simple URLs, you must include all of them as SANs.  <br/> Wildcard entries are supported for the simple URL entries.   |
+|Web external   |FQDN of the server   |Each of the following:  <br/> • External web FQDN  <br/> AND  <br/> • Dial-in simple URL  <br/> • Meet simple URLs per SIP domain  <br/> OR  <br/> • A wildcard entry for the simple URLs   |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Using a wildcard certificate:  <br/> SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=\*.contoso.com   |If you have multiple Meet simple URLs, you must include all of them as subject alternative names.  <br/> Wildcard entries are supported for the simple URL entries.   |
    
 Certificates for Front End Servers in a Front End pool:
   
-|**Certificate**|**Subject name/common name**|**Subject alternative name**|**Example**|**Comments**|
+|Certificate|Subject name/common name|Subject alternative name|Example|Comments|
 |:-----|:-----|:-----|:-----|:-----|
-|Default  <br/> |FQDN of the pool  <br/> |FQDN of the pool and FQDN of the server  <br/> If you have multiple SIP domains and have enabled automatic client configuration, the certificate wizard detects and adds each supported SIP domain FQDNs.  <br/> If this pool is the auto-logon server for clients and strict Domain Name System (DNS) matching is required in group policy, you also need entries for sip.sipdomain (for each SIP domain you have).  <br/> |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com  <br/> If this pool is the auto-logon server for clients and strict DNS matching is required in group policy, you also need SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |The wizard detects any SIP domains you specified during setup and automatically adds them to the subject alternative name.  <br/> You can also use this certificate for Server-to-Server Authentication.  <br/> |
-|Web internal  <br/> |FQDN of the pool  <br/> |Each of the following:  <br/> • Internal web FQDN (which is NOT the same as the FQDN of the server)  <br/> • Server FQDN  <br/> • Skype for Business pool FQDN  <br/> AND  <br/> • Meet simple URLs  <br/> • Dial-in simple URL  <br/> • Admin simple URL  <br/> OR  <br/> • A wildcard entry for the simple URLs  <br/> |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Using a wildcard certificate:  <br/> SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=\*.contoso.com  <br/> |If you have multiple Meet simple URLs, you must include all of them as subject alternative names.  <br/> Wildcard entries are supported for the simple URL entries.  <br/> |
-|Web external  <br/> |FQDN of the pool  <br/> |Each of the following:  <br/> • External web FQDN  <br/> AND  <br/> • Dial-in simple URL  <br/> • Admin simple URL  <br/> OR  <br/> • A wildcard entry for the simple URLs  <br/> |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Using a wildcard certificate:  <br/> SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=\*.contoso.com  <br/> |If you have multiple Meet simple URLs, you must include all of them as subject alternative names.  <br/> Wildcard entries are supported for the simple URL entries.  <br/> |
+|Default   |FQDN of the pool   |FQDN of the pool and FQDN of the server  <br/> If you have multiple SIP domains and have enabled automatic client configuration, the certificate wizard detects and adds each supported SIP domain FQDNs.  <br/> If this pool is the auto-logon server for clients and strict Domain Name System (DNS) matching is required in group policy, you also need entries for sip.sipdomain (for each SIP domain you have).   |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com  <br/> If this pool is the auto-logon server for clients and strict DNS matching is required in group policy, you also need SAN=sip.contoso.com; SAN=sip.fabrikam.com   |The wizard detects any SIP domains you specified during setup and automatically adds them to the subject alternative name.  <br/> You can also use this certificate for Server-to-Server Authentication.   |
+|Web internal   |FQDN of the pool   |Each of the following:  <br/> • Internal web FQDN (which is NOT the same as the FQDN of the server)  <br/> • Server FQDN  <br/> • Skype for Business pool FQDN  <br/> AND  <br/> • Meet simple URLs  <br/> • Dial-in simple URL  <br/> • Admin simple URL  <br/> OR  <br/> • A wildcard entry for the simple URLs   |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Using a wildcard certificate:  <br/> SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=\*.contoso.com   |If you have multiple Meet simple URLs, you must include all of them as subject alternative names.  <br/> Wildcard entries are supported for the simple URL entries.   |
+|Web external   |FQDN of the pool   |Each of the following:  <br/> • External web FQDN  <br/> AND  <br/> • Dial-in simple URL  <br/> • Admin simple URL  <br/> OR  <br/> • A wildcard entry for the simple URLs   |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Using a wildcard certificate:  <br/> SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=\*.contoso.com   |If you have multiple Meet simple URLs, you must include all of them as subject alternative names.  <br/> Wildcard entries are supported for the simple URL entries.   |
    
 Certificates for the Director:
   
-|**Certificate**|**Subject name/common name**|**Subject alternative name**|**Example**|
+|Certificate|Subject name/common name|Subject alternative name|Example|
 |:-----|:-----|:-----|:-----|
-|Default  <br/> |Director pool  <br/> |FQDN of the Director, FQDN of the Director pool.  <br/> If this pool is the auto-logon server for clients and strict DNS matching is required in group policy, you'll also need entries for sip.sipdomain (for each SIP domain you have).  <br/> |pool.contoso.com; SAN=dir01.contoso.com  <br/> If this Director pool is the auto-logon server for clients and strict DNS matching is required in group policy, you also need SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |
-|Web internal  <br/> |FQDN of the server  <br/> |Each of the following:  <br/> • Internal web FQDN (which is the same as the FQDN of the server)  <br/> • Server FQDN  <br/> • Skype for Business pool FQDN  <br/> AND  <br/> • Meet simple URLs  <br/> • Dial-in simple URL  <br/> • Admin simple URL  <br/> OR  <br/> • A wildcard entry for the simple URLs  <br/> |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Using a wildcard certificate:  <br/> SN=dir01.contoso.com; SAN=dir01.contoso.com SAN=\*.contoso.com  <br/> |
-|Web external  <br/> |FQDN of the server  <br/> |Each of the following:  <br/> • External web FQDN  <br/> AND  <br/> • Meet simple URLs per SIP domain  <br/> • Dial-in simple URL  <br/> OR  <br/> • A wildcard entry for the simple URLs  <br/> |The Director external web FQDN must be different from the Front End pool or Front End Server.  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Using a wildcard certificate:  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=\*.contoso.com  <br/> |
+|Default   |Director pool   |FQDN of the Director, FQDN of the Director pool.  <br/> If this pool is the auto-logon server for clients and strict DNS matching is required in group policy, you'll also need entries for sip.sipdomain (for each SIP domain you have).   |pool.contoso.com; SAN=dir01.contoso.com  <br/> If this Director pool is the auto-logon server for clients and strict DNS matching is required in group policy, you also need SAN=sip.contoso.com; SAN=sip.fabrikam.com   |
+|Web internal   |FQDN of the server   |Each of the following:  <br/> • Internal web FQDN (which is the same as the FQDN of the server)  <br/> • Server FQDN  <br/> • Skype for Business pool FQDN  <br/> AND  <br/> • Meet simple URLs  <br/> • Dial-in simple URL  <br/> • Admin simple URL  <br/> OR  <br/> • A wildcard entry for the simple URLs   |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Using a wildcard certificate:  <br/> SN=dir01.contoso.com; SAN=dir01.contoso.com SAN=\*.contoso.com   |
+|Web external   |FQDN of the server   |Each of the following:  <br/> • External web FQDN  <br/> AND  <br/> • Meet simple URLs per SIP domain  <br/> • Dial-in simple URL  <br/> OR  <br/> • A wildcard entry for the simple URLs   |The Director external web FQDN must be different from the Front End pool or Front End Server.  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Using a wildcard certificate:  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=\*.contoso.com   |
    
 Certificates for Stand-alone Mediation Server:
   
-|**Certificate**|**Subject name/common name**|**Subject alternative name**|**Example**|
+|Certificate|Subject name/common name|Subject alternative name|Example|
 |:-----|:-----|:-----|:-----|
-|Default  <br/> |FQDN of the pool  <br/> |FQDN of the pool  <br/> FQDN of the pool member server  <br/> |SN=medsvr-pool.contoso.net; SAN=medsvr-pool.contoso.net; SAN=medsvr01.contoso.net  <br/> |
+|Default   |FQDN of the pool   |FQDN of the pool  <br/> FQDN of the pool member server   |SN=medsvr-pool.contoso.net; SAN=medsvr-pool.contoso.net; SAN=medsvr01.contoso.net   |
    
 Certificates for Survivable Branch Appliance (Specifically, Survivable Branch Appliance 2015 for Skype for Business Server 2019):
   
-|**Certificate**|**Subject name/common name**|**Subject alternative name**|**Example**|
+|Certificate|Subject name/common name|Subject alternative name|Example|
 |:-----|:-----|:-----|:-----|
-|Default  <br/> |FQDN of the appliance  <br/> |SIP.\<sipdomain\> (you need only one entry per SIP domain)  <br/> |SN=sba01.contoso.net; SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |
+|Default   |FQDN of the appliance   |SIP.\<sipdomain\> (you need only one entry per SIP domain)   |SN=sba01.contoso.net; SAN=sip.contoso.com; SAN=sip.fabrikam.com   |
    
 ### Certificates for external user access (Edge)
 
@@ -516,18 +511,18 @@ If that's what you're looking at, and if you have a lot of SIP domains (which wo
   
 Director pool and Front End pool certificate requirements:
   
-|**Description**|**SAN entry**|
+|Description|SAN entry|
 |:-----|:-----|
-|Internal Autodiscover service URL  <br/> |SAN=lyncdiscoverinternal.\<sipdomain\>  <br/> |
-|External Autodiscover service URL  <br/> |SAN=lyncdiscover.\<sipdomain\>  <br/> |
+|Internal Autodiscover service URL   |SAN=lyncdiscoverinternal.\<sipdomain\>   |
+|External Autodiscover service URL   |SAN=lyncdiscover.\<sipdomain\>   |
    
 You can alternatively use SAN=\*.\<sipdomain\>
   
 Reverse Proxy (Public CA) certificate requirements:
   
-|**Description**|**SAN entry**|
+|Description|SAN entry|
 |:-----|:-----|
-|External Autodiscover service URL  <br/> |SAN=lyncdiscover.\<sipdomain\>  <br/> |
+|External Autodiscover service URL   |SAN=lyncdiscover.\<sipdomain\>   |
    
 This SAN needs to be assigned to the certificate that's assigned to the SSL Listener on your reverse proxy.
   

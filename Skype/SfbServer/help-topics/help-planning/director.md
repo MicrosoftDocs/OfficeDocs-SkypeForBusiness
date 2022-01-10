@@ -1,8 +1,8 @@
 ---
 title: "Skype for Business Server Director planning tool"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -13,7 +13,7 @@ ms.custom:
 - ms.lync.plan.Director
 - ms.lync.plan.Director
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 description: "A Director is a server running Skype for Business Server 2015 communications software that can authenticate user requests, but doesn't home any user accounts."
 ---

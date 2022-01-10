@@ -9,7 +9,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 description: Learn how to properly configure Microsoft 365 or Office 365 URLs and IP address ranges and bypass the forward proxy when possible for connections with Microsoft Teams service.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
   - CSH

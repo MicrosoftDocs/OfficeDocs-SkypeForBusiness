@@ -1,8 +1,8 @@
 ---
 title: "Define a New Trunk"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,7 +11,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddTrunkPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e5d97b27-5ae8-41e0-8ee9-0c3f6d5dd123
 ROBOTS: NOINDEX, NOFOLLOW
 description: "You define a new session initiation protocol (SIP) trunk by providing the following information:"

@@ -1,7 +1,7 @@
 ---
 title: Resource-specific consent in Microsoft Teams
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 ms.reviewer: nkramer
 manager: serdars
 ms.topic: article
@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Learn about the settings that you need to configure to control whether teams owners in your organization can give consent to apps. 
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto: 
 - Microsoft Teams
@@ -72,7 +72,7 @@ When you block or allow an app on the [Manage apps](manage-apps.md#allow-and-blo
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
 2. On the Manage apps page, select the app, and then click **Block** to block it or click **Allow** to allow it.
 
-    ![Screenshot of the blocked apps in org-wide settings](media/resource-specific-consent-allow-block-apps.png)
+    ![Screenshot of the blocked apps in org-wide settings.](media/resource-specific-consent-allow-block-apps.png)
 
 #### App permission policy assigned to the team owner
 

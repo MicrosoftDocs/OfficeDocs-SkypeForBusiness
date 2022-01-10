@@ -12,7 +12,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn about role-based access control with the Microsoft Teams Rooms managed service.
 f1keywords: 
@@ -75,7 +75,7 @@ To assign roles, you must be a Global Administrator or Managed Service Administr
 
 1. In the left navigation of the Microsoft Teams Rooms managed service portal, go to **Settings** > **Roles**.
 
-    :::image type="content" source="../media/microsoft-teams-rooms-premium-roles.png" alt-text="Screenshot of Access control page showing roles":::
+    :::image type="content" source="../media/microsoft-teams-rooms-premium-roles.png" alt-text="Screenshot of Access control page showing roles.":::
 
 2. Select the role you want to assign.
 3. In the role pane, select **Assignments** > **Add**.

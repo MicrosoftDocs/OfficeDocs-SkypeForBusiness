@@ -13,7 +13,7 @@ ms.collection:
   - m365initiative-meetings
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn about the Microsoft Teams Rooms managed service.
 f1keywords: 
@@ -26,6 +26,25 @@ The Microsoft Teams Rooms managed service is a cloud-based IT management and mon
 The Microsoft Teams Rooms managed service is for organizations looking to improve their meeting room experience and rapidly scale their footprint by offering proactive management for Microsoft Teams Rooms devices. The service allows organizations to save time, money, and expertise that would otherwise be spent on "do it yourself" room management.  
 
 The Microsoft Teams Rooms managed service is built on a strong foundation of Microsoft's expertise in software-enabled management of end points, machine learning, and intelligent automation. The Microsoft Teams Rooms managed service helps organizations deliver a high-quality experience across multiple remote sites and can accommodate any pace of growth an organization might require.
+
+These are three key aspects of the service:  
+
+- Intelligent operations  
+
+   Software and machine learning that automates updates, problem detection, problem resolution for Microsoft Teams Rooms.  
+
+
+
+- Dedicated experts  
+
+   A team of experts who provide 24x7 service operations, tiered support, and incident resolution assistance.  
+
+
+
+- Enhanced insights  
+
+   Rich analytics, reporting and proven learnings at scale across many customers.  
+
 
 ## Service capabilities
 
@@ -69,7 +88,7 @@ Your organization or a partner contracted by your organization must be prepared 
 
 The Microsoft Teams Rooms managed service is supported through a dedicated Microsoft Teams Rooms managed service SOC. The primary mode for communication from the Microsoft Teams Rooms managed service SOC to customers is through the Microsoft Teams Rooms managed service portal. The Microsoft Teams Rooms managed service SOC provides first response and appropriate escalation on tickets raised by the system or by your organization.
 
-|  |  |
+|  | Description |
 |---------|---------|
 |**Scope**   |Incidents related to the meeting room app, room devices, and peripherals are included in Microsoft Teams Rooms managed service support.|
 |**Audience**  |IT Operations only         |
@@ -106,7 +125,7 @@ The Microsoft Teams Rooms Premium license is available in all countries and regi
 |**Meeting experience**   |         |         |
 |Investigating issues within the meeting settings on Microsoft Teams Rooms app and guidance for properly configuring Quality of Service on the device is provided at request.      |Root cause analysis or investigations for call-quality issues or network-related issues are excluded from this scope.         |Microsoft mainstream support         |
 |**Remediation, onboarding, and ongoing**     |         |         |
-|Customers receive guidance to bring their rooms to standards that are recommended by Microsoft Teams Rooms managed service at onboarding    |Investigations with respect to in-house custom software images or non-compliant with recommended software version guidance from Microsoft Teams Rooms managed service aren't in scope.          |         |
+|Customers receive guidance to bring their rooms to standards that are recommended by Microsoft Teams Rooms managed service at onboarding    |Investigations with respect to in-house custom software images or non-compliant with recommended software version guidance from Microsoft Teams Rooms managed service aren't in scope.   | |       
 
 ## Data collection
 

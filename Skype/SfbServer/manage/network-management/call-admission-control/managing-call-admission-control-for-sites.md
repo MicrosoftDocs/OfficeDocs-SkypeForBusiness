@@ -1,15 +1,15 @@
 ---
 title: 'Managing call admission control for sites'
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Network sites are the offices or locations within each network region of call admission control (CAC), E9-1-1, and media bypass deployments."
 ---
 

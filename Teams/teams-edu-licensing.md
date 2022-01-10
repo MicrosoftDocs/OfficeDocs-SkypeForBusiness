@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: karsmith
 description: Licensing walkthrough for Microsoft Teams for EDU.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH

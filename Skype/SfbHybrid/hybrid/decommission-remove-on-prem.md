@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 - Hybrid 
 - M365-voice
@@ -62,6 +62,7 @@ Use the steps below to clean these objects, and make sure you are a member of bo
    Get-CsPersistentChatEndpoint
    Get-CsAudioTestServiceApplication
    Get-CsCallParkOrbit
+   Get-CsUnassignedNumber
    ```
 2. Review the output lists from the cmdlets in Step 1. Then if objects can be removed, run the following Skype for Business Server PowerShell cmdlets:
 
@@ -77,6 +78,7 @@ Use the steps below to clean these objects, and make sure you are a member of bo
    Get-CsPersistentChatEndpoint |  Remove-CsPersistentChatEndpoint
    Get-CsCallParkOrbit | Remove-CsCallParkOrbit -Force
    Get-CsVoiceRoute | Remove-CsVoiceRoute -Force
+   Get-CsUnassignedNumber | Remove-CsUnassignedNumber -Force
    ```
 ## Remove your on-premises Skype for Business deployment
 

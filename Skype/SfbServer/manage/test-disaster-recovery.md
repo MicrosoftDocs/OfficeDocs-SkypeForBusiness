@@ -1,15 +1,15 @@
 ---
 title: "Disaster recovery testing in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Perform a system recovery for a Skype for Business Server pool server to test your documented disaster recovery process"
 ---
 
@@ -48,7 +48,7 @@ The production Skype for Business pool will be referenced by clients using the a
 
 To facilitate the failover, this CNAME record must be updated to reference the DROCSPool FQDN:
 
-- CNAME: SIP.<domain> /DROCSPool.\<domain>
+- CNAME: SIP.\<domain> /DROCSPool.\<domain>
 - Sip.\<domain>
 - AV.\<domain>
 - webconf.\<domain>

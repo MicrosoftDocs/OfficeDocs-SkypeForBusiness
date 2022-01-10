@@ -1,8 +1,8 @@
 ---
 title: "Configure the personal contacts store on Lync 2010 client computers"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 1/29/2019
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec69a6cb-07f2-4057-9544-55035f83eeae
 description: "Summary: Configure the personal contact store used by legacy clients."

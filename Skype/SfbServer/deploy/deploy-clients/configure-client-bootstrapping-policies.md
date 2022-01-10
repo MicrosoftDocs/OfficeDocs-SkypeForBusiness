@@ -1,15 +1,15 @@
 ---
 title: "Configure client bootstrapping policies"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
 
 description: "Summary: How to manage Group Policies."

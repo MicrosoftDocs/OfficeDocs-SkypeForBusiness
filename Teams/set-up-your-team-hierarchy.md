@@ -1,7 +1,7 @@
 ---
 title: Set up your team targeting hierarchy
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -9,7 +9,7 @@ ms.reviewer: andfried, acolonna
 search.appverid: MET150
 description: Learn how to set up a team hierarchy in your organization to publish content to a large set of teams.
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -26,7 +26,7 @@ Setting up a team targeting hierarchy will allow your organization to publish co
 
 Here's an example of how the hierarchy is represented in the Tasks app in Teams. After a task list is created, members of the publishing team can then select the recipient teams to send (publish) the task list to. When selecting teams, the publishing team can filter by hierarchy, by attributes, or a combination of both.<br>
 
-![Screenshot of task publishing](media/manage-tasks-app-publish.png)
+![Screenshot of task publishing.](media/manage-tasks-app-publish.png)
 
 ## Terminology
 
@@ -55,7 +55,7 @@ Permission to publish depends on whether a user is a member of any teams in the 
 
 ### Guidelines
 
-* There can only be one hierarchy file applied per organization. However, you can include different parts of your organization together as distinct hierarchies of nodes within one CSV file. For example, Contoso Pharmaceuticals has a Pharmacy root node and a Retail root node. Both root nodes have multiple rows of descendants and there's no overlap between them.
+* There can only be one hierarchy file applied per organization. However, you can include different parts of your organization together as distinct hierarchies of nodes within one file. For example, Contoso Pharmaceuticals has a Pharmacy root node and a Retail root node. Both root nodes have multiple rows of descendants and there's no overlap between them.
 * Only leaf nodes can be recipients of a publication. Other nodes in the hierarchy are helpful for selecting recipients of a publication.
 * A team can only be represented one time in a hierarchy.
 * A hierarchy can contain up to 15,000 nodes. We plan to work with customers to raise this limit for larger organizations.
@@ -64,14 +64,14 @@ Permission to publish depends on whether a user is a member of any teams in the 
 
 For example, in the following hierarchy, Recall, Communications, and HR can publish tasks to every bottom node (team) in the hierarchy, but Northeast Zone can only publish tasks to the New York Store and Boston Store teams. The example hierarchy allows the Recall, Communications, and HR groups to publish tasks that apply to the entire company, such as benefits information or messages from the CEO. Northeast Zone can publish tasks like personnel scheduling, weather information, and so on, only to the New York Store and Boston Store teams.
 
-![Team hierarchical example](media/team-targeting-schema-example-new.png)
+![Team hierarchical example.](media/team-targeting-schema-example-new.png)
 
 ## Create your hierarchy
 
 > [!NOTE]
 > The remainder of this article discusses setting up a team hierarchy in the context of publishing tasks to recipient teams. Refer to [Manage the Tasks app for your organization in Teams](./manage-tasks-app.md) for an overview of the Tasks app, where task publishing appears when enabled.
 
-The schema that defines your hierarchy is based on a comma-separated values (CSV) file. Each row in the CSV file corresponds to one node within the hierarchy of teams. Each row contains information that names the node within the hierarchy, optionally links it to a team, and includes attributes that can be used to filter teams in apps that support it.
+The schema that defines your hierarchy is based on a comma-separated values (CSV) file. The file must be in UTF-8 format. Each row in the CSV file corresponds to one node within the hierarchy of teams. Each row contains information that names the node within the hierarchy, optionally links it to a team, and includes attributes that can be used to filter teams in apps that support it.
 
 You can also define **buckets**, which are categories that the publishing team can use to organize content sent to recipient teams to make it easier for them to view, sort, and focus on relevant content.
 

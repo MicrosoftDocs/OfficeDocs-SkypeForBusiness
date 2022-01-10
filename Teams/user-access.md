@@ -1,7 +1,7 @@
 ---
 title: Manage user access to Microsoft Teams
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -49,7 +49,7 @@ The steps are different depending on whether you use the **Licenses** page or **
 
 |&nbsp;|&nbsp;|
 |---------|---------|
-|![Screenshot 1 of Teams license enabled for a user](media/assign-teams-licenses-1.png)    | ![Screenshot 2 of Teams license enabled for a user](media/assign-teams-licenses-2.png)        |
+|![Screenshot 1 of Teams license enabled for a user.](media/assign-teams-licenses-1.png)    | ![Screenshot 2 of Teams license enabled for a user](media/assign-teams-licenses-2.png)        |
 
 ### Remove a Teams license
 
@@ -60,7 +60,7 @@ When you remove a Teams license from a user, Teams is disabled for that user, an
 
 |&nbsp;|&nbsp;|
 |---------|---------|
-|![Screenshot 1 of the Teams license disabled for a user](media/remove-teams-licenses-1.png)    | ![Screenshot 2 of the Teams license disabled for a user](media/remove-teams-licenses-2.png)        |
+|![Screenshot 1 of the Teams license disabled for a user.](media/remove-teams-licenses-1.png)    | ![Screenshot 2 of the Teams license disabled for a user](media/remove-teams-licenses-2.png)        |
 
 ## Using PowerShell
 

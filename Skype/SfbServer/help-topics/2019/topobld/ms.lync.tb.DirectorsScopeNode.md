@@ -1,8 +1,8 @@
 ---
 title: "Directors Scope Node"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,7 +11,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.DirectorsScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0c725237-2e43-4ba2-a7ad-dce0057d265f
 ROBOTS: NOINDEX, NOFOLLOW
 description: "The Director pools node lists the Director pools in your topology. You can perform the following action:"

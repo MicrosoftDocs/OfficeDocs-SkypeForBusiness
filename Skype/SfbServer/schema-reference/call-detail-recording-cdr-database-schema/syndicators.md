@@ -1,8 +1,8 @@
 ---
 title: "Syndicators table"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 98739cb8-829e-4baf-90f4-597cb894521e
 description: "The SyndicatorsTable is for internal use only. This table was introduced in Microsoft Lync Server 2013."
 ---

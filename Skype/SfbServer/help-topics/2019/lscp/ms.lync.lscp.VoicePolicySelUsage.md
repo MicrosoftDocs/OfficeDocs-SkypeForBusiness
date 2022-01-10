@@ -1,8 +1,8 @@
 ---
 title: "Select PSTN Usage Record"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,7 +11,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 80a5b130-2b36-4318-9870-f5176c8d8f62
 ROBOTS: NOINDEX, NOFOLLOW
 description: "Use the Select PSTN Usage Record dialog box to find an existing public switched telephone network (PSTN) usage record that you can use."

@@ -1,15 +1,15 @@
 ---
 title: "Deploy the VIS server role in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b6401e67-59fe-4419-a0ab-ffac88e67632
 description: "Summary: Deploy the Video Interop Server (VIS) role in Skype for Business Server."

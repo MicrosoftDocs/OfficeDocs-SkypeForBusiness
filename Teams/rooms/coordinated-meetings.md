@@ -11,7 +11,7 @@ ms.collection:
   - M365-collaboration
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Configure Teams Rooms devices and Surface Hub to join meetings when one device or the other joins a meeting."
 ---
 
@@ -26,7 +26,7 @@ To set up Coordinated Meetings, you need to make sure your Teams Rooms devices a
 
 After you've confirmed that your Teams Rooms devices and Surface Hubs can automatically accept meetings and join them successfully, you can set up Coordinated Meetings.
 
-The following steps should be completed for each meeting room separately. Devices in one meeting room shouldn't be set up for Coordinated Meetings with devices in other meeting rooms.
+The following steps should be completed for each meeting room separately.
 
 ## Step 1: Plan your Coordinated Meeting experience
 

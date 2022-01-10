@@ -18,7 +18,7 @@ metadata:
   audience: admin
   f1.keywords:
   - NOCSH
-  localization_priority: Priority
+  ms.localizationpriority: high
   ms.collection: 
     - Teams_ITAdmin_JourneyFromSfB
     - M365-collaboration

@@ -1,8 +1,8 @@
 ---
 title: "Legacy Merge"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.LegacyMergeAddPicPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 085fde15-e33a-4d95-8d06-4da1d5d7c770
 description: "The Web Conferencing external FQDN permits external users to join on-premises meetings. Enter the fully qualified domain name (FQDN) of the web conferencing external interface of the legacy Edge Server."
 ---

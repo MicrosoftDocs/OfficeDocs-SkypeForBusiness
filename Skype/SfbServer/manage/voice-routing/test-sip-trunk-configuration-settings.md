@@ -1,15 +1,15 @@
 ---
 title: "Skype for Business Server - Test SIP trunk configuration settings"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "SIP trunk configuration settings define the relationship and capabilities between a Mediation Server and the PST) gateway, a PBX, or an SBC at the service provider. "
 ---
 

@@ -1,14 +1,14 @@
 ---
 title: Office 365 Audio Conferencing Extended Dial-out Minutes to US and Canada
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: fafan
 audience: admin
 description: Learn about Office 365 Audio Conferencing Extended Dial-out Minutes to US and Canada.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
   - NOCSH

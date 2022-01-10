@@ -1,8 +1,8 @@
 ---
 title: "Office Web Apps Servers Scope Node"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,7 +11,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.OfficeWebAppsServersScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
 ROBOTS: NOINDEX, NOFOLLOW
 description: "You right click Office Web Apps Servers and select New Office Web Apps Server to open the wizard."
@@ -21,7 +21,7 @@ description: "You right click Office Web Apps Servers and select New Office Web 
 
 You right click **Office Web Apps Servers** and select **New Office Web Apps Server** to open the wizard.
 
-![OfficeWebApps Servers Scope Node](../../../media/OfficeWebApps_Servers_Scope_Node.jpg)
+![OfficeWebApps Servers Scope Node.](../../../media/OfficeWebApps_Servers_Scope_Node.jpg)
 
 - **Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.
 

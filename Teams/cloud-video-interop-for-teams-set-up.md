@@ -11,7 +11,7 @@ ms.reviewer: srividhc
 f1.keywords:
 - NOCSH
 description: This article explains how you can plan and set up Cloud Video Interop for users in your organization.
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
   - M365-collaboration
@@ -23,7 +23,7 @@ appliesto:
 
 After you have [chosen your Cloud Video Interop partner(s)](cloud-video-interop.md), you will need to plan your deployment, get set up with provisioning details and partner tenant key, and consent to the video interop app in your organization. The following diagram outlines the process. 
 
-![Deploying CVI in your organization](media/deploying-cvi.png)
+![Deploying CVI in your organization.](media/deploying-cvi.png)
 
 ## Plan
 
@@ -52,7 +52,7 @@ To configure Cloud Video Interop, follow these steps.
  
 The tenant key will be the dial out to the partner service. In the following example, 813878896@t.plcm.vc is the tenant key. 
 
-![Tenant key example](media/tenant-key-example.png) 
+![Tenant key example.](media/tenant-key-example.png) 
 
 You will need to execute the following cmdlets to provision the tenant key, and also enable select users or your whole organization to create meetings with video interop coordinates.
 

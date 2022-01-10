@@ -1,8 +1,8 @@
 ---
 title: "Add Persistent Chat SQL Server Store"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,7 +11,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddPersistentChatSqlStorePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c8e6064a-8127-4c25-8685-06f49d8bbfce
 ROBOTS: NOINDEX, NOFOLLOW
 description: "You configure the SQL Server stores that will provide databases for the Persistent Chat Server or Persistent Chat Server pool."

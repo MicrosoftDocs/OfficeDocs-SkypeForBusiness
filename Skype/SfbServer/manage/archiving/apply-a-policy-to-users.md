@@ -1,15 +1,15 @@
 ---
 title: "Apply an archiving policy to users in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
 description: "Summary: Learn how to assign an archiving policy to users in Skype for Business Server."
 ---

@@ -14,7 +14,7 @@ f1.keywords:
 ms.collection: 
   - M365-voice
 search.appverid: MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "This article provides an overview of and features supported by Microsoft Teams panels."
 ---
 
@@ -40,10 +40,7 @@ To learn more about these features and how to use them, see [Use Microsoft Teams
 
 ## Partners certified for Teams panels
 
-You can acquire your Teams panels devices from one of the following partners:
-
-- Crestron
-- Yealink
+To learn more about partners certified for Teams panels, see [Currently certified Teams panels](teams-ip-phones.md#currently-certified-teams-panels).
 
 ## Teams panels requirements
 
@@ -121,7 +118,7 @@ After you've deployed panels, you should test them. Check that the [features sup
 
 ## Manage Teams panels in your organization
 
-To manage your Teams panels devices, in the left navigation of the Microsoft Teams admin center, go to **Devices** > **Teams panels**. From here, you can change the device configuration profile, manage updates, restart devices, add and remove device tags, and more. For more information, see [Manage your devices in Teams](device-management.md).
+To manage your Teams panels devices, in the left navigation of the Microsoft Teams admin center, go to **Teams Devices** > **Panels**. From here, you can change the device configuration profile, manage updates, restart devices, add and remove device tags, and more. For more information, see [Manage your devices in Teams](device-management.md).
 
 ## Next steps
 

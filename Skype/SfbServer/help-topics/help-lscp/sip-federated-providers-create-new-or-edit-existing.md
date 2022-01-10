@@ -1,8 +1,8 @@
 ---
 title: "SIP Federated Providers Create New or Edit Existing"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ExtProviderEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bf967ad7-c36b-4a8b-8e78-eb11f9365a47
 description: "What do you want to do? Click the link to the task that you want to perform."
 ---

@@ -1,15 +1,15 @@
 ---
 title: "Configure archiving options for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2f534697-ac7f-45b7-8cdc-ba67f052223b
 description: "Summary: Read this topic to learn how to configure initial archiving options for Skype for Business Server. You initially set up archiving configurations when you deploy archiving, but you can change, add, and delete configurations after deployment."
 ---

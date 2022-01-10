@@ -1,14 +1,14 @@
 ---
 title: Onboard early adopters and gather feedback
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Choose early adopters for the experiment phase of your Teams adoption, and then gather feedback for your project.
 f1.keywords:
@@ -38,10 +38,10 @@ Complete the following steps with these early adopters:
 
 Use the components of Microsoft 365 or Office 365 to gather feedback for your project.
   
-![An icon representing a decision point](media/teams-adoption-decision-icon.png) Decision: If your organization already has an investment in a Yammer network, you can use it as a feedback forum for your early adopter program. If not, and your early adopter program has less than 5000 members, create a team in Teams to gather feedback and provide training.
+![An icon representing a decision point.](media/teams-adoption-decision-icon.png) Decision: If your organization already has an investment in a Yammer network, you can use it as a feedback forum for your early adopter program. If not, and your early adopter program has less than 5000 members, create a team in Teams to gather feedback and provide training.
   
 > [!Note]
 > Some organizations will combine the channels for early adopter feedback into the teamwork champions program team. This is a good approach because many early adopters may become champions in the future, and it will build a stronger community. 
 
 
-![An icon representing the next step](media/teams-adoption-next-icon.png) Next: [Onboard support](teams-adoption-onboard-support.md).
+![An icon representing the next step.](media/teams-adoption-next-icon.png) Next: [Onboard support](teams-adoption-onboard-support.md).

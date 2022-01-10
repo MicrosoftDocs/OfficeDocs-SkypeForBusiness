@@ -1,8 +1,8 @@
 ---
 title: "Monitor, start, and stop the Persistent Chat services in Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b6b28595-f702-4ecf-8115-e4104b87da89
 description: "Summary: Learn how to start, stop, and monitor the Persistent Chat services in Skype for Business Server 2015."
 ---

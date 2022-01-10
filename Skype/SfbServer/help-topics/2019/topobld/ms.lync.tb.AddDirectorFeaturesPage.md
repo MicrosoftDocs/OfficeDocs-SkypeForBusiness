@@ -1,8 +1,8 @@
 ---
 title: "Add Director Features"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,7 +11,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddDirectorFeaturesPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9c8b1c8e-5a3e-499b-9035-7d2f8e07b389
 ROBOTS: NOINDEX, NOFOLLOW
 description: "If you want the Director pool to include Monitoring Server, select Monitoring (CDR and QoE Metrics)."

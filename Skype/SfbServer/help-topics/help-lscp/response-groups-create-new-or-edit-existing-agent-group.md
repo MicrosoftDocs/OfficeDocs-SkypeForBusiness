@@ -1,8 +1,8 @@
 ---
 title: "Response Groups Create New or Edit Existing Agent Group"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.RgsGroupEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 description: "Agent groups define who can answer calls to a response group (known as agents) and the settings that apply to all the agents in the group."
 ---

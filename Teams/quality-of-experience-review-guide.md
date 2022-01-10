@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: vkorlep, siunies, gageames
 audience: admin
 description: Learn how to analyze and manage real-time media performance in Microsoft Teams by using the Call Quality Dashboard (CQD).
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -243,7 +243,7 @@ Operationalize a set of quality-management practices - this gives you the best c
 
     -   Second are tasks your organization manages to ensure reliable access to the service, such as updating building information and maintaining firewalls for new Office 365 IP addresses as infrastructure is added to the service.
 
-![Graph of the categories of quality in an organization](media/qerguide-image-categories.png "The categories of quality in an organization: service management, endpoints, and the network.")
+![Graph of the categories of quality in an organization.](media/qerguide-image-categories.png "The categories of quality in an organization: service management, endpoints, and the network.")
 
 Review the following list of tasks recommended to maintain quality. You should perform these tasks regularly - for example, weekly.
 
@@ -304,7 +304,7 @@ CQD can report on both Teams and Skype for Business. However, there might be tim
 
 To modify the summary reports page to look at only Teams or Skype for Business, select the **Product Filter** drop-down menu from the top of the screen, and then select the product you want.
 
-![Screenshot of drop-down menu showing the filter options](media/qerguide-image-productfilter.png)
+![Screenshot of drop-down menu showing the filter options.](media/qerguide-image-productfilter.png)
 
 #### Detailed reports
 
@@ -322,7 +322,7 @@ For more information about URL filters, read [Filtering reports](CQD-data-and-re
 
 To filter an individual detailed report, add the filter ``Is Teams`` to the report and set it to True or False.
 
-![Screenshot of the Add filter page](media/qerguide-image-addteamsfilter.png)
+![Screenshot of the Add filter page.](media/qerguide-image-addteamsfilter.png)
 
 ### Managed versus unmanaged networks
 
@@ -545,7 +545,7 @@ Although the dimensions used might differ slightly between report, each report w
 > Common subnets are difficult to triage due to their widespread use. A separate report that displays the client's public IP (Second Reflexive Local IP) has been added to the All Networks template to assist with remediating offices that use common networks.
 
 
-![Screenshot showing the poor audio stream summary](media/qerguide-image-poorqualitysummary.png)
+![Screenshot showing the poor audio stream summary.](media/qerguide-image-poorqualitysummary.png)
 
 ##### Remediation
 
@@ -585,7 +585,7 @@ The reports in this section don't make a distinction between good and poor strea
 
 TCP reports indicates the overall TCP usage over the last seven months. All further reports in this section will focus on narrowing down specific buildings and subnets where TCP is most commonly used. Separate reports are available for both conferencing and two-party streams.
 
-![Chart showing the percentage of audio streams that use TCP](media/qerguide-image-audiostreamswithtcp.png)
+![Chart showing the percentage of audio streams that use TCP.](media/qerguide-image-audiostreamswithtcp.png)
 
 ##### Investigation
 
@@ -602,7 +602,7 @@ If you notice that the TCP usage trend is increasing or above normal monthly usa
 
 This report identifies the volume of TCP versus UDP usage reporting on the latest month for audio, video, and video-based screen sharing (VBSS). 
 
-![Report showing the volume of streams that use TCP versus UDP](media/qerguide-image-tcpvsudp.png)
+![Report showing the volume of streams that use TCP versus UDP.](media/qerguide-image-tcpvsudp.png)
 
 ##### Analysis
 
@@ -639,7 +639,7 @@ We always recommend that you configure the client to directly connect to Teams a
 
 The HTTP proxy stream report in this section of the template is much like the TCP reports. It doesn't look at whether calls are poor or good, but whether the call is connected over HTTP.
 
-![Screenshot of report of audio streams that use HTTP](media/qerguide-image-audiostreamswithhttp.png)
+![Screenshot of report of audio streams that use HTTP.](media/qerguide-image-audiostreamswithhttp.png)
 
 ##### Analysis
 

@@ -1,7 +1,7 @@
 ---
 title: PowerShell script sample - Create & assign messaging policy
-author: cichur
-ms.author: v-cichur
+author: serdars
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.reviewer: ritikag
@@ -10,7 +10,7 @@ audience: admin
 description: Use this PowerShell script to create a messaging policy in Teams and assign it to users in your organization.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -56,4 +56,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> You can also assign a messaging policy directly to users at scale through a batch policy assignment or to a group that the users are members of. For more information see [Assign policies to large sets of users in your school](../batch-group-policy-assignment-edu.md) and [Assign policies to your users in Teams](../assign-policies.md).
+> You can also assign a messaging policy directly to users at scale through a batch policy assignment or to a group that the users are members of. For more information see [Assign policies to large sets of users in your school](../batch-group-policy-assignment-edu.md) and [Assign policies to your users in Teams](../policy-assignment-overview.md).

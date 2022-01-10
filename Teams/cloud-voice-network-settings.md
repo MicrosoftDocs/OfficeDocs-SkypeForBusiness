@@ -1,7 +1,7 @@
 ---
 title: Network settings for cloud voice features
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
 ms.reviewer: roykuntz
@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: Learn about the network settings that you must configure for Location-Based Routing for Direct Routing and enhanced emergency services.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection: 

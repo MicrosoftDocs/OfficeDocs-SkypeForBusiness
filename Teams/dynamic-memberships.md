@@ -11,7 +11,7 @@ search.appverid: MET150
 description: Learn how Microsoft Teams supports teams associated with Microsoft 365 groups by using dynamic membership.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: seo-marvel-apr2020
 ms.collection: 
   - M365-collaboration

@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 - Hybrid 
 - M365-voice
@@ -63,9 +63,9 @@ To move users to Teams, use either the Move-CsUser cmdlet or the Skype for Busin
 
 ## Required administrative credentials
 
-To move users between on premises and the cloud, you must use an account with sufficient privileges in both the on-premises Skype for Business Server environment as well as in the Teams organization. You can either use one account that has all the necessary privileges, or you can use two accounts, in which case you would access the on-premises tools using on-premises credentials, and then in those tools you would supply additional credentials for a Teams administrative account.  
+To move users between on-premises and the cloud, you must use an account with sufficient privileges in both the on-premises Skype for Business Server environment as well as in the Teams organization. You can either use one account that has all the necessary privileges, or you can use two accounts, in which case you would access the on-premises tools using on-premises credentials, and then in those tools you would supply additional credentials for a Teams administrative account.  
 
-- In the on-premises environment, the user performing the move must have the CSServerAdministrator role in Skype for Business Server.
+- In the on-premises environment, the user performing the move must have the CSServerAdministrator, CsUserAdministrator, and RTCUniversalUserAdmins roles in Skype for Business Server.
 - In Teams, the user performing the move must meet one of the following criteria:
   - The user is a member of the Global Administrator role.
   - The user is a member of both the Teams Administrator and User Administrator roles.

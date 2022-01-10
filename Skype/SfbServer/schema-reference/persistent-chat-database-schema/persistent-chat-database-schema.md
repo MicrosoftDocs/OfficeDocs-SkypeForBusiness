@@ -1,8 +1,8 @@
 ---
 title: "Persistent Chat database schema"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
 description: "This documents the schema of the Persistent Chat database in Skype for Business Server."
 ---

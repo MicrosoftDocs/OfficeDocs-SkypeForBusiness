@@ -1,8 +1,8 @@
 ---
 title: "Hardware and software requirements for Persistent Chat Server in Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/19/2018
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 description: "Summary: Read this topic to learn about hardware and software requirements for Persistent Chat Server in Skype for Business Server 2015."
 ---

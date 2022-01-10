@@ -1,8 +1,8 @@
 ---
 title: "Add Persistent Chat Backup SQL Server Store"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddPersistentChatBackupSqlStorePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 106698e4-ce73-4a34-8fc7-e9d3208a17dc
 description: "You configure the Backup SQL Server stores that will provide backup databases for the Persistent Chat Server or Persistent Chat Server pool."
 ---

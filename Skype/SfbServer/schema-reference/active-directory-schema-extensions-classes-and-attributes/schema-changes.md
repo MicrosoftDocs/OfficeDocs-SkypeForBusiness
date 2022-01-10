@@ -1,8 +1,8 @@
 ---
 title: "Schema changes in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
 description: "Before you deploy and operate Skype for Business Server, you must prepare Active Directory Domain Services by extending the schema. The schema extensions add the classes and attributes that are required by Skype for Business Server."
 ---

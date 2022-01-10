@@ -1,8 +1,8 @@
 ---
 title: "Add Edge Server Options for Lync Server 2010"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeServerOptionsPage2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0b059af5-e83f-4564-90b2-d7ebb9e551c2
 description: "You define a new Edge Server or Edge pool and are presented with the opportunity to define features for the new server or pool. The options that you can choose are:"
 ---

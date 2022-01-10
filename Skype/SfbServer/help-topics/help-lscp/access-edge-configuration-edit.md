@@ -1,8 +1,8 @@
 ---
 title: "Access Edge Configuration Edit"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ExtEdgeEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ece2603a-dce5-46ef-b476-7da136465efc
 description: "What do you want to do? Click the link to the task that you want to perform."
 ---

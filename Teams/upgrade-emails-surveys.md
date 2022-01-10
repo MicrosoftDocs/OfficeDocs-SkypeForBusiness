@@ -1,14 +1,14 @@
 ---
 title: Microsoft Teams Transition emails and surveys | Basic Upgrade 
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: Sample emails and surveys to use in conjunciton with the accelerated ten-step action plan for upgrading from Skype for Business to Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH

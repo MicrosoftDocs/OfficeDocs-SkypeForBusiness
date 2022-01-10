@@ -1,8 +1,8 @@
 ---
 title: "Users View or Configure Archiving Policy"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.UserViewArch
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b1d6ec29-178e-4325-8901-ee6cf0e91759
 description: "What do you want to do? Click the link to the task that you want to perform."
 ---

@@ -1,7 +1,7 @@
 ---
 title: Country and region zones for Audio Conferencing
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: tonysmit
 ms.topic: conceptual
@@ -14,7 +14,7 @@ search.appverid: MET150
 audience: Admin
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 

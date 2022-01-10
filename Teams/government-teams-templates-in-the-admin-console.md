@@ -1,7 +1,7 @@
 ---
 title: Use government team templates in the admin center
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection: 
   - M365-collaboration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to use team templates to create team structures designed for government needs by providing predefined settings, channels, and pre-installed apps using the admin center.
 f1.keywords:

@@ -9,7 +9,7 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
 ms.custom: seo-marvel-apr2020
@@ -20,7 +20,10 @@ description: This article describes how to set up and configure the Microsoft Te
 # Configure a Microsoft Teams Rooms console
 
 This article describes how to set up the Microsoft Teams Rooms console and its peripherals.
-  
+
+> [!NOTE]
+> The following steps only apply to Surface Pro-based Teams Rooms devices. For other devices, check with the Original Equipment Manufacturer (OEM) for support.
+
 You should only perform these steps if the necessary Microsoft Teams or Skype for Business and Exchange accounts have already been created and tested as described in [Deploy Microsoft Teams Rooms](rooms-deploy.md). You will need the hardware and software described in [Microsoft Teams Rooms requirements](requirements.md). This topic contains the following sections:
   
 - [Prepare the installation media](console.md#Prep_Media)
@@ -30,7 +33,7 @@ You should only perform these steps if the necessary Microsoft Teams or Skype fo
 - [Microsoft Teams Rooms deployment checklist](console.md#Checklist)
 
 > [!NOTE]
-> Microsoft Teams Rooms will only work in a properly configured Microsoft Teams or Skype for Business environment where the device accounts are set up correctly as described in [Deploy Microsoft Teams Rooms](rooms-deploy.md).
+> The following steps only apply to Surface Pro-based Teams Rooms devices. For other devices, check with the OEM for support.
   
 ## Prepare the installation media
 <a name="Prep_Media"> </a>
@@ -194,7 +197,7 @@ The Microsoft Teams Rooms console needs to trust the certificates used by the se
 ### Join an Active Directory domain (Optional)
 <a name="Certs"> </a>
 
-You can join Microsoft Teams Rooms consoles to your domain. Microsoft Teams Rooms consoles should be placed in a separate OU from your PC workstations because many workstation policies are not compatible with Microsoft Teams Rooms. A common example are password enforcement policies that will prevent Microsoft Teams Rooms from starting up automatically. For information about the management of GPO settings, please refer to [Manage Microsoft Teams Rooms](rooms-operations.md).
+You can join Microsoft Teams Rooms consoles to your domain. Microsoft Teams Rooms consoles should be placed in a separate OU from your PC workstations because many workstation policies are not compatible with Microsoft Teams Rooms. A common example are password enforcement policies that will prevent Microsoft Teams Rooms from starting up automatically. For information about the management of GPO settings, refer to [Manage Microsoft Teams Rooms](rooms-operations.md).
   
 ### To join Microsoft Teams Rooms to a domain
 
@@ -223,34 +226,36 @@ Use the following checklist while doing a final verification that the console an
   
 **Application settings**
 
-|||
-|:-----|:-----|
-|☐  <br/> |Room account name and phone # (if PSTN enabled) are correctly displayed in top right of console screen  <br/> |
-|☐  <br/> |Windows computer name is set correctly (useful for remote administration)  <br/> |
-|☐  <br/> |Administrator account password set and verified  <br/> |
-|☐  <br/> |All firmware updates have been applied  <br/> |
+|Completed |Check |
+|:-----:|:-----|
+|☐   |Room account name and phone # (if PSTN enabled) are correctly displayed in top right of console screen   |
+|☐   |Windows computer name is set correctly (useful for remote administration)   |
+|☐   |Administrator account password set and verified   |
+|☐   |All firmware updates have been applied   |
    
 **Audio/video peripherals**
 
-|||
-|:-----|:-----|
-|☐  <br/> |Camera peripheral firmware version is correct (if applicable)  <br/> |
-|☐  <br/> |Camera functional and positioned optimally  <br/> |
-|☐  <br/> |Settings for Playback Default Device and Playback Default Communications Device set to intended audio peripheral  <br/> |
-|☐  <br/> |Settings for Recording Default Communication Device set to the intended audio peripheral  <br/> |
-|☐  <br/> |Audio peripheral firmware version is correct (if applicable)  <br/> |
-|☐  <br/> |Audio input device functional and optimally positioned  <br/> |
-|☐  <br/> |Audio output device functional and optimally positioned  <br/> |
-   
+|Completed |Check |
+|:-----:|:-----|
+|☐   |Camera peripheral firmware version is correct (if applicable)   |
+|☐   |Camera functional and positioned optimally   |
+|☐   |Settings for Playback Default Device and Playback Default Communications Device set to intended audio peripheral   |
+|☐   |Settings for Recording Default Communication Device set to the intended audio peripheral   |
+|☐   |Audio peripheral firmware version is correct (if applicable)   |
+|☐   |Audio input device functional and optimally positioned   |
+|☐   |Audio output device functional and optimally positioned   |
+
 **Dock**
 
-|||
-|:-----|:-----|
-|☐  <br/> |Cables are secure and not pinched  <br/> |
-|☐  <br/> |Audio ingest over HDMI is functional  <br/> |
-|☐  <br/> |Video ingest over HDMI is functional  <br/> |
-|☐  <br/> |Dock can swivel freely  <br/> |
-|☐  <br/> |Display brightness is acceptable for environment  <br/> |
+|Completed |Check |
+|:-----:|:-----|
+|☐   |Cables are secure and not pinched   |
+|☐   |Audio ingest over HDMI is functional   |
+|☐   |Video ingest over HDMI is functional   |
+|☐   |Dock can swivel freely   |
+|☐   |Display brightness is acceptable for environment   |
+
+
    
 ## See also
 <a name="Checklist"> </a>

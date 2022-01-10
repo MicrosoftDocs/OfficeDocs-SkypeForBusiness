@@ -1,8 +1,8 @@
 ---
 title: "MonitoredUserSiteLink table"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 16edc24a-2718-4bb4-b05c-bc7aafa97963
 description: "The MonitoredUserSiteLink table is a supporting table. Each record represents one link between two user sites."
 ---

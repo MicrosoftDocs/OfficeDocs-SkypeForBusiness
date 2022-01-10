@@ -12,7 +12,7 @@ audience: Admin
 appliesto:
 - Skype for Business Online
 - Skype for Business 
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -28,7 +28,7 @@ Dial-in audio conferencing, which is the ability to dial into scheduled Skype fo
 
 Vendors listed in the following table have been certified for Skype for Business Online.
 
-<table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" xmlns="http://www.w3.org/1999/xhtml">
+<table border="1" cellpadding="5" cellspacing="" class="grid" >
 	<colgroup>
 		<col width="100" />
 		<col />
@@ -60,13 +60,13 @@ Vendors listed in the following table have been certified for Skype for Business
 			<td>Y</td>
 		</tr>
 		<tr>
-			<td><a href="http://www.btconferencing.com/products-and-services/bt-meetme-audio-conferencing/bt-conference-connect/">BT</a></td>
+			<td><a href="https://www.btconferencing.com/">BT</a></td>
 			<td>Y</td>
 			<td>Y</td>
 			<td>N</td>
 		</tr>
 		<tr>
-			<td><a href="https://www.business.att.com/enterprise/Family/unified-communications/conferencing-servcies/">AT&amp;T</a></td>
+			<td><a href="https://www.business.att.com/">AT&amp;T</a></td>
 			<td>Y</td>
 			<td>N</td>
 			<td>N</td>

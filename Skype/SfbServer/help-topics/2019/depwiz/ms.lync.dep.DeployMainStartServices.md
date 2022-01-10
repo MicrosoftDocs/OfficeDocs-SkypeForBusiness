@@ -1,8 +1,8 @@
 ---
 title: "Start Services"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,7 +11,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: efaf7b2a-257f-4aef-9c25-40ea93b03ef4
 ROBOTS: NOINDEX, NOFOLLOW
 description: "To start the services on the deployed server role, click Run in Step 4: Start Services. You must be logged on as a member of the local Administrators group or an equivalent."

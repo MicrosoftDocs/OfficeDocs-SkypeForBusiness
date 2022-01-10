@@ -1,8 +1,8 @@
 ---
 title: "Add Edge Server Support"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,7 +11,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeServerStartPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f7f90070-fcdc-4ec5-9551-cc7da2ed271c
 ROBOTS: NOINDEX, NOFOLLOW
 description: "You can add support for external user access when you deploy your initial topology, or at a later time. For details about adding Edge Servers to an existing topology, see Define Your Edge Topology in the Edge Server Deployment documentation."

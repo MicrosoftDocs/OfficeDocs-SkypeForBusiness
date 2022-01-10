@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: ritikag
 search.appverid: MET150
 description: Learn how to turn on or off Microsoft Teams org-wide settings, including apps, external access, guest access, Teams settings, and Teams upgrade preferences.
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection: 
   - M365-collaboration
 f1.keywords:
@@ -31,9 +31,9 @@ You manage apps for your organization in **Teams apps** in the [Microsoft Teams 
 
 To learn more, see [Admin settings for apps in  Teams](admin-settings.md).  
 
-## Teams org-wide settings in the Microsoft Teams admin center
+## Teams external access and guest access settings in the Microsoft Teams admin center
 
-You can control organization-wide user settings in the Microsoft Teams admin center. To edit org-wide settings, go to the Microsoft Teams admin center, and then select **Org-wide settings**. You can configure the following settings.
+You can control external and guest access settings in the Microsoft Teams admin center. To edit these settings, go to the Microsoft Teams admin center, and then select **Users**. You can configure the following settings.
 
 ### External access
 
@@ -49,6 +49,10 @@ To add or block a domain:
 ### Guest access
 
 **Guest access** in Microsoft Teams allows teams in your organization to collaborate with people outside your organization by granting them access to teams and channels. Anyone with a business or consumer email account, such as Outlook, Gmail, or others, can participate as a guest in Teams with full access to team chats, meetings, and files. For more information, see [Guest access in Microsoft Teams](guest-access.md).
+
+## Teams settings and Teams upgrade settings in the Microsoft Teams admin center
+
+You can control Teams settings and Teams upgrade settings in the Microsoft Teams admin center. To edit these settings, go to the Microsoft Teams admin center, and then select **Teams**. You can configure the following settings.
 
 ### Teams settings
 
@@ -97,11 +101,7 @@ Switch this setting **On** to turn on scoped directory searches.
 
 Supervised chat allows organizations and schools to limit chat capabilities using role-based permissions. These permissions control the amount of supervision a user requires while chatting with others. Learn more about [supervised chat](supervise-chats-edu.md).
 
-### Skype for Business
-
-Use this page to manage Skype for Business features for Skype for Business users in your organization. To learn more, see [Manage Skype for Business settings in the Microsoft Teams admin center](skype-for-business-settings.md).
-
-### Teams upgrade
+### Teams upgrade settings
 
 You can use these settings to configure how your users will be upgraded from Skype for Business to Microsoft Teams. 
 
@@ -120,6 +120,7 @@ The coexistence mode you choose determines the routing of incoming calls and cha
 
 Here you can choose the app that users will use to join Skype for Business meetings (Skype for Business or the [Skype Meetings App](https://support.office.com/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). This setting isn't dependent on the coexistence mode setting.
 
+### Planning settings in the Microsoft Teams admin center
 
 #### Network Planner
 
@@ -127,6 +128,11 @@ Network Planner helps you determine and organize network requirements for connec
 
 You can also select the "Download the Teams app in the background for Skype for Business users" option as well.  By default this setting is set to On. With this setting enabled it will download the Teams app in the background for users running the Skype for Business app on Windows PCs. This happens if the Coexistence mode for the user is Teams Only, or if a pending upgrade notification is enabled in the Skype for Business app.
 
+## Other settings in the Microsoft Teams admin center
+
+### Skype for Business
+
+Use this page to manage Skype for Business features for Skype for Business users in your organization. To learn more, see [Manage Skype for Business settings in the Microsoft Teams admin center](skype-for-business-settings.md).
 
 ## How can I tell which features are available?
 

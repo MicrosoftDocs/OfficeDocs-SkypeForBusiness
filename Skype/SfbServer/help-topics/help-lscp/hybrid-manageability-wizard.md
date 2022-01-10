@@ -1,8 +1,8 @@
 ---
 title: "Hybrid Manageability wizard"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.HybridSetupWizard
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c8600c4e-dc54-4af2-a72e-c1b997d83443
 description: "You can use the Hybrid Manageability wizard to perform some of the configuration tasks necessary to set up a hybrid deployment with Skype for Business Online. For more information about how to configure your deployment for hybrid, see Configure your environment with the Hybrid Manageability wizard."
 ---

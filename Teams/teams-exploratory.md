@@ -8,7 +8,7 @@ audience: Admin
 ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
-localization_priority: Priority
+ms.localizationpriority: high
 description: "Microsoft 365 or Office 365 users who are not licensed for Microsoft Teams can initiate an Exploratory Teams license."
 f1.keywords:
 - NOCSH
@@ -40,7 +40,7 @@ The service plans that an admin will see as part of the Teams Exploratory experi
 - Mobile Device Management for Microsoft 365 or Office 365
 - Office Mobile Apps for Office 365
 - Office Online
-- PowerApps for Microsoft 365 or Office 365
+- Power Apps for Microsoft 365 or Office 365
 - SharePoint Online (Plan 1)
 - Sway
 - To-Do (Plan 1)
@@ -87,11 +87,11 @@ You can turn off a user's ability to install trial apps and services, which woul
 
 1. From the Microsoft 365 admin center, go to **Settings** > **Org settings**, select **Services**, and then select **User owned apps and services**.
 
-    ![the Services page in the admin center](media/iw-trial-services.png)
+    ![the Services page in the admin center.](media/iw-trial-services.png)
 
 2. Clear the check mark from **Let users install trial apps and services**.
 
-    ![the User owned apps and services page in admin center](media/iw-trial-user-owned-apps-services.png)
+    ![the User owned apps and services page in admin center.](media/iw-trial-user-owned-apps-services.png)
 
     > [!NOTE]
     > If your organization is ineligible for the Teams Exploratory experience, you won't see the **Let users install trial apps and services** option.

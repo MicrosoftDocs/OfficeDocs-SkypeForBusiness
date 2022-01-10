@@ -1,7 +1,7 @@
 ---
 title: "Deploy the Lync VDI plug-in with Skype for Business Server"
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: krishra
 audience: ITPro
@@ -9,7 +9,7 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: "This topic discusses deployment procedures for using Skype for Business while connecting to a remote virtual desktop."
 ---

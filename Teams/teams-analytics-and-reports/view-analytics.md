@@ -1,7 +1,7 @@
 ---
 title: View analytics in Teams
-author: cichur    
-ms.author: v-cichur
+author: HowlinWolf-92    
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: rahulmi
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 MS.collection: 
 - M365-collaboration
@@ -33,7 +33,7 @@ Users can filter any of these views to see data for a specified time period.
 2. Click the **Analytics** tab.
 3. Select a date range to show usage data for all teams that you're a member or owner of.
 
-    ![Screenshot of cross-team analytics view](../media/view-analytics-cross-team.png)
+    ![Screenshot of cross-team analytics view.](../media/view-analytics-cross-team.png)
 
     |Item |Description  |
     |--------|-------------|
@@ -51,7 +51,7 @@ Users can filter any of these views to see data for a specified time period.
 2. Click the **Analytics** tab.
 4. Select a date range to show usage data for the team.  
 
-    ![Screenshot of per-team analytics view](../media/view-analytics-per-team.png)
+    ![Screenshot of per-team analytics view.](../media/view-analytics-per-team.png)
 
     |Item |Description  |
     |--------|-------------|
@@ -70,7 +70,7 @@ Users can filter any of these views to see data for a specified time period.
 2. Click the **Analytics** tab.
 3. Select a date range to show usage data for the channel.  
 
-    ![Screenshot of per-channel analytics view](../media/view-analytics-per-channel.png)
+    ![Screenshot of per-channel analytics view.](../media/view-analytics-per-channel.png)
 
     |Item |Description  |
     |--------|-------------|

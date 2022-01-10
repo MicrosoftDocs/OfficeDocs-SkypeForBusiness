@@ -1,8 +1,8 @@
 ---
 title: "UserStatistics table"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cfaf803b-1679-4169-92d3-533fad3e56ed
 description: "The UserStatistics table is a supporting table. Each record in the table stores information about an individual user's usage of the system. This table was introduced in Microsoft Lync Server 2013."
 ---

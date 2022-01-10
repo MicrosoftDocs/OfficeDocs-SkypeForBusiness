@@ -75,8 +75,6 @@ landingContent:
     linkLists:
       - linkListType: overview
         links:
-          - text: Skype for Business readiness series
-            url: https://infopedia.eventbuilder.com/?landingpageid=7p1c8p
           - text: Skype for Business Server 2019 documentation
             url: ../SfBServer2019/skype-for-business-server-2019.yml
           - text: Lync Server 2013 documentation

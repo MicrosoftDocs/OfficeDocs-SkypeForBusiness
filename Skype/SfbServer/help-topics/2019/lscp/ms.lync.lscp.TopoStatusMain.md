@@ -1,8 +1,8 @@
 ---
 title: "Topology Status"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,7 +11,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
 ROBOTS: NOINDEX, NOFOLLOW
 description: "The Topology: Status page displays the status of the servers in your Skype for Business topology."

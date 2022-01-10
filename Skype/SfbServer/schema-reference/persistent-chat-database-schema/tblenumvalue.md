@@ -1,8 +1,8 @@
 ---
 title: "tblEnumValue"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
 description: "tblEnumValue is a hardcoded table that contains the Visibility and Behavior values of the attributes that are used in the Node table."
 ---

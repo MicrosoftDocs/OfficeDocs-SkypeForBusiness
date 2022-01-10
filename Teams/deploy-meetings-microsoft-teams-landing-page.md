@@ -15,7 +15,7 @@ ms.collection:
   - Teams_ITAdmin_RemoteWorkers
   - remotework
   - m365initiative-meetings
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 appliesto: 
   - Microsoft Teams
@@ -97,11 +97,11 @@ Meetings settings are used to control whether anonymous users can join Teams mee
 
 ### Meeting policies
 
-Meeting policies are used to control what features are available to users when they join Teams meetings. You can use the default policy or create one or more custom meeting policies for people that host meetings in your organization. To learn more, see the [Meetings in Microsoft Team tutorial](tutorial-meetings-in-teams.yml).
+Meeting policies are used to control what features are available to users when they join Teams meetings. You can use the default policy or create one or more custom meeting policies for people that host meetings in your organization. To learn more, see the [Meetings in Microsoft Teams tutorial](tutorial-meetings-in-teams.yml).
 
 | Ask yourself | Action |
 |--------------|--------|
-|<ul><li>Will I customize the initial meeting policies?</li><li>Do I require multiple meeting policies?</li><li>How will I determine which groups of users get which meetings policy applied?</li></ul>|<br>Read [Manage meeting policies in Teams](meeting-policies-in-teams.md).|
+|<ul><li>Will I customize the initial meeting policies?</li><li>Do I require multiple meeting policies?</li><li>How will I determine which groups of users get which meetings policy applied?</li></ul>|<br>Read [Manage meeting policies in Teams](meeting-policies-overview.md).|
 |||
 
 ### Audio Conferencing
@@ -135,12 +135,12 @@ Use activity reports to see how users in your organization are using Teams. For 
 
 You may want to change these settings, based on your organization's needs and configuration.
 
-### Bandwidth planning 
+### Bandwidth planning
 
 Bandwidth planning lets organizations estimate the bandwidth that will be required to support meetings across their wide area networks and internet links so they can confirm that the network is correctly provisioned to support a scaled out meeting service.
 
 > [!IMPORTANT]
-> Teams won't let users schedule meetings or live events when they're offline or running with limited bandwidth. 
+> Teams won't let users schedule meetings or live events when they're offline or running with limited bandwidth.
 
 | Ask yourself | Action |
 |--------------|--------|
@@ -158,7 +158,7 @@ To learn more, see [Teams cloud meeting recording](cloud-recording.md).
 
 | Ask yourself | Action |
 |--------------|--------|
-| Will I turn on the meeting transcription service?|See [Turn on or turn off recording transcription](cloud-recording.md#turn-on-or-turn-off-cloud-recording)|
+| Will I turn on the meeting transcription service?|See [Turn on or turn off recording transcription](meetings-policies-recording-and-transcription.md#allow-transcription)|
 |||
 
 

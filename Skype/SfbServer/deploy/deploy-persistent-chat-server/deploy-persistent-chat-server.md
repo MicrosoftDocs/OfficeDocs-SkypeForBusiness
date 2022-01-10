@@ -1,8 +1,8 @@
 ---
 title: "Deploy Persistent Chat Server in Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8373c93b-92a7-4932-bc1f-00fc08955426
 description: "Summary: Read this topic to learn how to deploy Skype for Business Server 2015 Persistent Chat Server."
 ---

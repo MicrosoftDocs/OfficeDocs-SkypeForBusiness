@@ -1,13 +1,13 @@
 ---
 title: Use the Microsoft Teams Meeting add-in in Outlook
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams installs an add-in into Outlook that lets users schedule a Teams meeting from Outlook.
 f1.keywords:
@@ -29,7 +29,7 @@ The Teams Meeting add-in lets users schedule a Teams meeting from Outlook. The a
 
 The Teams Meeting add-in is automatically installed for users who have Microsoft Teams and either Office 2013, Office 2016, or Office 2019 installed on their Windows PC. Users will see the Teams Meeting add-in on the Outlook Calendar ribbon.
 
-![Screenshot of Teams Meeting add-in on Outlook ribbon](media/Teams-add-in-for-Outlook.png)
+![Screenshot of Teams Meeting add-in on Outlook ribbon.](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
 > - There is **no direct URL** that links to the Teams add-in.
@@ -48,7 +48,7 @@ The meeting coordinates (the Teams join link and dial-in numbers) will be added 
 
 The Teams Meetings button in Outlook Web App will appear as part of new event creation if the user is on an early version of the new Outlook on the web. See the [Outlook Blog](https://techcommunity.microsoft.com/t5/Outlook-Blog/Designed-to-be-fast-The-Outlook-on-the-web-user-experience-gets/ba-p/234909?utm_source=t.co&utm_medium=referral) to learn about how users can try the early version of the new Outlook on the web.
 
-![Screenshot of Teams Meeting add-in in Outlook Web App](media/teams-meeting-add-in-web.png)
+![Screenshot of Teams Meeting add-in in Outlook Web App.](media/teams-meeting-add-in-web.png)
 
 The meeting coordinates (the Teams join link and dial-in numbers) will be added to the meeting invite after the user clicks **Send**.  
 
@@ -56,7 +56,7 @@ The meeting coordinates (the Teams join link and dial-in numbers) will be added 
 
 The Teams Meeting button shows up in latest builds of the Outlook iOS and Android app.
 
-![Screenshot of Teams Meeting add-in in Outlook mobile](media/teams-meeting-add-in-mobile.png)
+![Screenshot of Teams Meeting add-in in Outlook mobile.](media/teams-meeting-add-in-mobile.png)
 
 The meeting coordinates (the Teams join link and dial-in numbers) will be added to the meeting invite after the user clicks **Send**.  
 
@@ -126,6 +126,9 @@ Learn more about [meetings and calling in Microsoft Teams](https://support.offic
 
 Use the following steps to troubleshoot issues with the Teams Meeting add-in.
 
+> [!NOTE]
+> This scenario can also be managed using the [command-line version of Microsoft Support and Recovery Assistant](/office365/troubleshoot/administration/sara-command-line-version) with SaRAcmd.exe -S TeamsAddinScenario -AcceptEula -CloseOutlook.
+
 ### Teams Meeting add-in in Outlook for Windows does not show
 
 If you cannot get the Teams Meeting add-in for Outlook to install, try these troubleshooting steps.
@@ -136,7 +139,7 @@ Alternatively, perform the following steps manually:
 
 - Windows 7 users must install the [Update for Universal C Runtime in Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) for the Teams Meeting add-in to work.
 - Check that the user has a Teams Upgrade policy which enables scheduling meetings in Teams. See [Upgrade from Skype for Business to Teams](/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) for more details.
-- Check that the user has a Teams Meeting policy that permits the Outlook Add-in. See [Meeting policy settings - General](./meeting-policies-in-teams-general.md#allow-the-outlook-add-in) for more details.
+- Check that the user has a Teams Meeting policy that permits the Outlook Add-in. See [Meeting policy settings - General](./meeting-policies-in-teams-general.md#outlook-add-in) for more details.
 - Ensure the user has the Teams desktop client installed. The meeting add-in will not be installed when only using the Teams web client.
 - Ensure the user has Outlook 2013 or later installed.
 - Make sure the user has permission to execute regsvr32.exe.

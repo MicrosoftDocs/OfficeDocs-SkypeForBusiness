@@ -1,8 +1,8 @@
 ---
 title: "Certificate Request (Organization Information)"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,7 +11,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1ca030ad-82bd-40b2-9b2a-67d80e516f9c
 ROBOTS: NOINDEX, NOFOLLOW
 description: "The Organization Information pane enables you to specify the name of your organization and an organizational unit (OU) (usually the division or department) that requests the certificate. The information that you type in the Organization and the Organizational Unit text boxes appears on the certificate and is used to identify who requested the certificate, when the certificate is viewed by others."

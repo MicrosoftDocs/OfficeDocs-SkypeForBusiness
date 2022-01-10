@@ -1,8 +1,8 @@
 ---
 title: "Define Properties and Options for Persistent Chat Pool"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,7 +11,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddPersistentChatOptionsPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
 ROBOTS: NOINDEX, NOFOLLOW
 description: "You configure options for your Persistent Chat Server or Persistent Chat Server pool by defining the following properties:"

@@ -1,8 +1,8 @@
 ---
 title: "Prepare Current Forest"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployMainForestPrep
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 description: "To prepare the Active Directory Domain Services forest, you must successfully extend the schema, as described in the topic Running Schema Preparation, and make sure that the schema has replicated."
 ---

@@ -1,8 +1,8 @@
 ---
 title: "Sample Persistent Chat database queries"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
 description: "This section contains sample queries for the Persistent Chat database."
 ---

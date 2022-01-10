@@ -1,8 +1,8 @@
 ---
 title: "Select Languages"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ConfCAASelLang
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cb9f98e3-6123-4e5a-a360-8ee1be6977f1
 description: "Select the languages that you want to use for your dial-in conferencing access number. For details, see Create or Modify a Dial-in Conferencing Access Number."
 ---

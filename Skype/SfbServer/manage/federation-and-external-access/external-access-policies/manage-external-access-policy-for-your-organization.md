@@ -5,15 +5,15 @@ ms:assetid: 5571811e-34c8-443a-b94c-1ab5d4275581
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520995(v=OCS.15)
 ms:contentKeyID: 48184160
 mtps_version: v=OCS.15
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "After deploying one or more Edge Servers, you must enable the types of external access that will be supported for your organization."
 ---
 

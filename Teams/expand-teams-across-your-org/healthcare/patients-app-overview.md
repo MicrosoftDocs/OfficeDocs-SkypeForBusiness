@@ -9,7 +9,7 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Healthcare

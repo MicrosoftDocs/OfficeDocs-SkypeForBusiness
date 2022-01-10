@@ -9,7 +9,7 @@ ms.service: msteams
 ms.collection: 
   - M365-collaboration
 ms.reviewer: lsomi
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Use this guidance to roll out Microsoft Teams as your first Microsoft 365 or Office 365 workload.
 ROBOTS: NOINDEX, NOFOLLOW
@@ -43,7 +43,7 @@ To get started with your Teams First deployment you will need to meet at minimum
 4.  Organization's network prepared for Teams  
     To understand network preparation, read [Prepare your organization's network for Teams](prepare-network.md).
 
-5.  Allow network access to Exchange, Sharepoint, and OneDrive for Business in Microsoft 365 or Office 365: [Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges).
+5.  Allow network access to Exchange, SharePoint, and OneDrive for Business in Microsoft 365 or Office 365: [Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges).
 
 > [!NOTE]
 > Tenants created after September 1, 2019 are provisioned in Teams Only mode.

@@ -1,15 +1,15 @@
 ---
 title: "Server Performance Report in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
 
 description: "Summary: Learn about the Server Performance Report in Skype for Business Server."

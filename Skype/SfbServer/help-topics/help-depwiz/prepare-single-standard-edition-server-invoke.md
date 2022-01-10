@@ -1,8 +1,8 @@
 ---
 title: "Prepare Single Standard Edition Server (Invoke)"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployAIOInvoke
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5da0aa73-8bf8-41f3-81e7-94f955cda541
 description: "On the Executing commands page, the tasks of installing the SQL Server Express and configuring to act as the Central Management store can be viewed in the task pane. By default, an instance of a SQL Server-based database named RTC is created. Firewall rules are also created to allow inbound and outbound access for servers and clients to communicate with the database and instance. After the task is completed, you can select the log file from the drop-down list. The log file is named Bootstrap local machine. After selecting the log file, click View Log. Review the log file for any errors and warnings. When you are ready to proceed, click Finish. You should now define your topology with Topology Builder if you have not already done so."
 ---

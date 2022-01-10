@@ -15,7 +15,7 @@ ms.collection:
 audience: Admin
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 
@@ -35,7 +35,6 @@ After you have enabled Microsoft Teams users in your organization for Audio Conf
 
 - In the Microsoft Teams admin center, in the left navigation, click **Users**.
 
-
 ## What else should I know?
 
 - When you view the list of users that are enabled, you can select a user from the list to edit the audio conferencing settings for that user.
@@ -44,7 +43,19 @@ After you have enabled Microsoft Teams users in your organization for Audio Conf
    
 - You can use the search button to search for an individual user in the list.
     
-    
+## Run a Self-diagnostics tool
+
+Microsoft 365 admin users have access to diagnostics that can be run within the tenant to verify a user is able to create a PSTN conference call. 
+
+> [!NOTE]
+>This feature isn't available for Microsoft 365 Government, Microsoft 365 operated by 21Vianet, or Microsoft 365 Germany.
+
+Select Run Tests, as follows. This will populate the diagnostic in the Microsoft 365 Admin Center.
+>> [!div class="nextstepaction"]
+>> [Run Tests: Teams Conference](https://aka.ms/TeasConfDiag)
+
+The diagnostic performs a large range of verifications.
+ 
 ## Want to know more about Windows PowerShell?
 
 Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 by using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
@@ -53,7 +64,7 @@ Windows PowerShell is all about managing users and what users are allowed or not
     
   - [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=teams-ps) for more information.
+For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=teams-ps&preserve-view=true) for more information.
     
 ## Related topics
 

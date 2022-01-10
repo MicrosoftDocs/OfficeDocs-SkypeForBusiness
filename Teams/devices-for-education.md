@@ -17,7 +17,7 @@ ms.collection:
   - skype-for-business-online
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 appliesto: 
   - Microsoft Teams
 ---

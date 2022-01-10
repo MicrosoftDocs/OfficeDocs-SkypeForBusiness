@@ -1,8 +1,8 @@
 ---
 title: "Mediation Service Settings Expander for Lync Server 2010"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.MediationServiceSettingsExpander2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 230e0a08-9e16-4bbd-b550-1f04bad8ddbc
 description: "You edit the properties of the Mediation service by defining the following properties:"
 ---

@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 - Hybrid 
 - M365-voice
@@ -32,7 +32,7 @@ When attempting to grant TeamsOnly to the entire tenant, Teams will check DNS to
 ## How to identify stale DNS records
 
 To identify any DNS records that prevent your organization from becoming all Teams Only, you can use the Teams admin center to change the coexistence mode to TeamsOnly. Go to
-**Org-wide setting** -> **Teams Upgrade**. Any DNS records that prevent the organization from becoming Teams Only will be included in the error message.  In the event no DNS records are found, the coexistence mode for your organization will be changed to TeamsOnly.   
+**Teams** > **Teams upgrade settings**. Any DNS records that prevent the organization from becoming Teams Only will be included in the error message.  In the event no DNS records are found, the coexistence mode for your organization will be changed to TeamsOnly.   
 
 Alternatively, you can use Teams PowerShell to do the same thing, as shown below:
 
@@ -52,8 +52,8 @@ In each domain where you find any of the following records, update them as follo
 
 | Record type | Name | TTL | Priority | Weight | Port | Value |
 | :-----| :-----| :---- | :-----| :-----| :-----| :-----|
-| SRV | _sipfederationtls.tcp |	3600 |	100 | 1	| 5061	| sipfed.online.lync.com |
-| SRV | _sip.tls | 3600	 | 100 |	1	| 443	| sipdir.online.lync.com |
+| SRV | _sipfederationtls._tcp |	3600 |	100 | 1	| 5061	| sipfed.online.lync.com |
+| SRV | _sip._tls | 3600	 | 100 |	1	| 443	| sipdir.online.lync.com |
 | CNAME	| lyncdiscover |	3600 |	N/A |	N/A | 	N/A |	webdir.online.lync.com |
 | CNAME |	sip	| 3600 |	N/A |	N/A	 | N/A | 	sipdir.online.lync.com |
 |||||||

@@ -1,8 +1,8 @@
 ---
 title: "Associate a Subnet Add New or Edit Existing"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.NcsSubnetEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e08a6a2d-1f88-4a84-b6e5-b84dcded4a86
 description: "What do you want to do? Click the link to the task that you want to perform."
 ---

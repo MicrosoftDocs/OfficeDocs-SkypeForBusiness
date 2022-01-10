@@ -1,7 +1,7 @@
 ---
 title: Manage your apps in the Microsoft Teams admin center
-author: cichur
-ms.author: v-cichur
+author: KarliStites
+ms.author: kastites
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -13,14 +13,25 @@ ms.reviewer: vaibhava
 search.appverid: MET150
 f1keywords: 
 - ms.teamsadmincenter.manageapps.overview
-description: Learn how to manage your Teams apps on the Manage apps page of the Microsoft Teams admin center
+description: Learn how to manage your Teams apps on the Manage apps page of the Microsoft Teams admin center.
 appliesto: 
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 # Manage your apps in the Microsoft Teams admin center
 
-As an admin, the Manage apps page in the Microsoft Teams admin center is where you view and manage all Teams apps for your organization. Here, you can see the org-level status and properties of apps, approve or upload new custom apps to your organization's app store, block or allow apps at the org level, add apps to teams, purchase services for third-party apps, view permissions requested by apps, grant admin consent to apps, and manage org-wide app settings.
+As an admin, you can view and manage all Teams apps for your organization. On the Manage apps page in the Teams admin center you can:
+
+- [Allow or block apps at the org level](#allow-and-block-apps)
+- [Apps blocked by publishers](#apps-blocked-by-publishers)
+- [Add apps to teams](#add-an-app-to-a-team)
+- [Approve or upload new custom apps to your organization's app store](#publish-a-custom-app-to-your-organizations-app-store)
+- [View permissions requested by apps](#view-resource-specific-consent-permissions)
+- [Grant consent to apps](#grant-admin-consent-to-apps)
+- [Purchase service for third-party apps](#purchase-services-for-third-party-apps)
+- [See org-level status and properties of apps](#view-apps)
+- [Manage org-wide app settings](#manage-org-wide-app-settings)
+- [View security and compliance information for Microsoft 365 Certified apps](#view-security-and-compliance-information-for-microsoft-365-certified-apps)
 
 The Manage apps page gives you a view into all available apps, providing you with the information you need to decide which apps to allow or block across your organization. You can then use [app permission policies](teams-app-permission-policies.md), [app setup policies](teams-app-setup-policies.md), and [custom app policies and settings](teams-custom-app-policies-and-settings.md) to configure the app experience for specific users in your organization.
 
@@ -33,22 +44,23 @@ In the left navigation of the Microsoft Teams admin center, go to **Teams apps**
 
 You can view every app including the following information about each app.
 
-![Screenshot of the Managed apps page](media/manage-apps.png)
+![Screenshot of the Managed apps page.](media/manage-apps.png)
 
 - **Name**: The app name. Select the app name to go to the app details page to see more information about the app. This includes a description of the app, whether it's allowed or blocked, version, privacy policy, terms of use, categories that apply to the app, certification status, supported capabilities, and app ID. Here's an example:
 
-  ![Screenshot of the apps details page for an app](media/manage-apps-app-details.png)
+  ![Screenshot of the apps details page for an app.](media/manage-apps-app-details.png)
   
 - **Certification**: If the app has gone through certification, you'll see either **Microsoft 365 certified** or **Publisher attestation**. Select the link to view certification details for the app. If you see "**--**", we don't have certification information for the app. To learn more about certified apps in Teams, read [Microsoft 365 App Certification program](/teams-app-certification/all-apps).  
 - **Publisher**: Name of the publisher.
 - **Publishing status**: Publishing status of custom apps.
 - **Status**: Status of the app at the org level, which can be one of the following:
-- **Allowed**: The app is available for all users in your organization.
-- **Blocked**: The app is blocked and not available for any users in your organization.
-- **Blocked org-wide**: The app is blocked in org-wide app settings.
+    - **Allowed**: The app is available for all users in your organization.
+    - **Blocked**: The app is blocked and not available for any users in your organization.
+    - **Blocked by publisher**: The app is blocked by the publisher and is hidden from end-users by default. After you set up the app using the publisher's guidance, you can allow or block the app to make it available to end-users.
+    - **Blocked org-wide**: The app is blocked in org-wide app settings.
       It's important to know that this column represents the allowed and blocked status of apps that were formerly on the **Org-wide settings** pane. You now view, block, and allow apps at the org-wide on the **Manage apps** page.
 - **Licenses**: Indicates whether an app offers a Software as a Service (SaaS) subscription for purchase. This column applies only to third-party apps. Each third-party app will have one of the following values:
-- **Purchase now**: The app offers a SaaS subscription and is available to purchase.  
+- **Purchase**: The app offers a SaaS subscription and is available to purchase.  
 - **Purchased**: The app offers a SaaS subscription and you've purchased licenses for it.
 - **- -**: The app doesn't offer a SaaS subscription.
 - **Custom app**: Whether the app is a custom app.
@@ -97,11 +109,19 @@ When you block or allow an app on the Manage apps page, that app is blocked or a
  > [!NOTE]
  > To uninstall an app, right-click the app, and then click **Uninstall** or use the **More apps** menu on the left side.
 
+## Apps blocked by publishers
+
+When an ISV publishes an app to the global app store, they might need admins to configure or customize the app experience. The admin can make it available to end-users when the app is fully set up.
+
+For example, Contoso Electronics is an ISV that built a help desk app for Microsoft Teams. Contoso Electronics wants its customers to set up certain properties of the app so that when users interact with it the app, it functions as expected. Before an admin can allow or block the application, it will show as **Blocked by publisher** in the Teams admin center and will be hidden from end-users by default. After following the publisher's guidance to set up the app, you can makes it available to users by changing to status to **Allowed**, or block users from using the app by changing the status to **Blocked**.
+
+![Screenshot of blocked by publisher status in teams admin center.](media/blocked-by-publisher.png)
+
 ## Add an app to a team
 
 You use the **Add to team** button to install an app to a team. Keep in mind that this is only for apps that can be installed in a team scope. The **Add to team** button isn't available for apps that can only be installed in the personal scope.
 
-![Screenshot of Add to team button](media/manage-apps-add-app-team.png)
+![Screenshot of Add to team button.](media/manage-apps-add-app-team.png)
 
 1. Search for the app you want, and then select the app by clicking to the left of the app name.
 2. Select **Add to team**.
@@ -132,7 +152,7 @@ Use org-wide app settings to control whether users can install third-party apps 
 
 1. On the Manage apps page, select **Org-wide app settings**. You can then configure the settings you want in the panel.
 
-    ![Screenshot of org-wide app settings](media/manage-apps-org-wide-app-settings.png)
+    ![Screenshot of org-wide app settings.](media/manage-apps-org-wide-app-settings.png)
 
 2. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps:
 
@@ -163,7 +183,7 @@ To access MCAS information, follow these steps:
 1. Choose a Microsoft 365 Certified app.
 1. Select the **Security and compliance** tab.
 
-![Screenshot of Teams admin center security and compliance tab](media/mcas.png)
+![Screenshot of Teams admin center security and compliance tab.](media/mcas.png)
 
 On this tab, you'll find information on security, compliance, and data protection. You can also expand each dropdown list to get more details about which capabilities are supported for the selected application.
 

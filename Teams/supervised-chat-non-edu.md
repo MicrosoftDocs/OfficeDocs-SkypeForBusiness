@@ -1,7 +1,7 @@
 ---
 title: Use supervised chats for non-educational tenants
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: angch
 ms.topic: article
@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 appliesto: 
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn about supervised chats for non-educational tenants in Microsoft Teams meetings. 
 ---

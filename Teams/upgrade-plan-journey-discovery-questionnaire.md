@@ -1,14 +1,14 @@
 ---
 title: Microsoft Teams Upgrade | Environment Evaluation, Discovery Questions
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: Use this guidance to learn about the requirements for properly evaluating your current environment for upgrading to Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH

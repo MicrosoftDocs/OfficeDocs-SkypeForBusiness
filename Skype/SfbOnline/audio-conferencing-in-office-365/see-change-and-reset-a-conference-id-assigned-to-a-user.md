@@ -15,7 +15,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -43,7 +43,7 @@ An email will be sent to the user with the conference ID and the default audio c
 
 ### To view the conference ID
 
-![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo.](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 You can view their conference ID and send it to users.
 
@@ -73,7 +73,7 @@ See [Get-CsOnlineDialInConferencingUser](/powershell/module/skype/Get-CsOnlineDi
 
 You can reset a conference ID for a user if, for example, they forget it.
 
-![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo.](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1. Sign in with your work or school account.
 

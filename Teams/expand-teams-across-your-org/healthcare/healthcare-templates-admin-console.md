@@ -1,8 +1,8 @@
 ---
-title: "Create a team using healthcare templates"
-author: cichur
-ms.author: v-cichur
-manager: serdars
+title: "Use healthcare team templates"
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
@@ -12,85 +12,94 @@ searchScope:
   - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: high
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_Healthcare
   - microsoftcloud-healthcare
 appliesto: 
   - Microsoft Teams
-ms.reviewer: 
-description: Use team templates in the admin center or with Microsoft Graph to quickly and easily create teams by providing a predefined template of settings, channels, and apps.
+ms.reviewer: yinchang
+description: Learn how to manage and use the healthcare team templates in the Teams admin center and with Microsoft Graph to quickly and easily create teams for your healthcare organization. 
 ms.custom: seo-marvel-mar2020
 ---
-# Use a healthcare team templates
+# Use healthcare team templates
 
-Templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
+Team templates in Microsoft Teams allow you to quickly and easily create teams by providing a predefined team structure of settings, channels, and pre-installed apps.
 
-For healthcare organizations, templates can be especially powerful, as they provide structure for users to become oriented with how to effectively use Microsoft Teams. Templates also allow administrators to deploy consistent teams across their organizations. This article is for you if you're responsible for planning, deploying, and managing multiple teams across your healthcare organization.
+For healthcare organizations, team templates can be especially powerful, as they help you to quickly deploy consistent teams across your organization. Templates also help staff to get oriented with how to effectively use Teams.
 
-Choose a method for creating teams with the team healthcare templates:
+Teams includes templates designed specifically for healthcare organizations. Use these pre-built templates to quickly create teams for staff to communicate and collaborate on patient care or operational needs. In this article, we introduce you to each of these templates and recommend how to use them.
 
-| Who | Method to use: |
+How you manage and work with team templates depends on whether you're an admin or developer.
+
+|If you're: | Then, you: |
 | ---- | --------- |
-| Admins and IT Professionals | [Use the Teams admin center](#use-the-team-templates-in-the-admin-center) to create teams based on the healthcare team templates.|
-| Developers and systems integrators | [Use the Microsoft Graph](#use-the-team-templates-with-the-microsoft-graph) to create a team based on the healthcare team templates. |
+| An admin or IT pro |[Manage team templates in the Teams admin center](#manage-team-templates-in-the-teams-admin-center). View team templates and apply templates policies to control which templates your staff can use in Teams for creating teams. |
+| A developer | [Use Microsoft Graph](#use-team-templates-with-microsoft-graph) to create teams from  team templates. |
 
-## Use the team templates in the admin center
+## Manage team templates in the Teams admin center
 
-Microsoft Teams admins can use the Teams admin center to create teams with the team templates. We currently offer two first-party healthcare templates that you can use for a variety of situations. To learn more about team templates in general, see [Get started with team templates in the admin center](../../get-started-with-teams-templates-in-the-admin-console.md).
+As an admin, you can manage team templates in the Microsoft Teams admin center. Here, you can view details about each template. You can also [create and assign templates policies](../../templates-policies.md) to your staff to control which templates they see in Teams for [creating teams](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b).
 
-### Collaborate on patient care
+To learn more about team templates in general, see [Get started with team templates in the Teams admin center](../../get-started-with-teams-templates-in-the-admin-console.md).
 
- Streamline healthcare communication and collaboration within a ward, pod, or department. The template can be used to facilitate patient management and operational needs of a ward.
+We currently offer the following pre-built healthcare team templates. To view them, in the left navigation of the Teams admin center, go to **Teams** > **Team templates**.
+### Patient care
 
-| Base template type |baseTemplateId| Properties that come with this base template |
+ This template is meant for communication and collaboration within a ward, pod, or department. You can use this template to facilitate patient management and the operational needs of a ward. For example, post ward announcements in the *Announcements* channel and manage shifts in the *Staffing* channel.
+
+| Template type |TemplateId| Properties that come with this template |
 | ------------------ |---|----------------------------------------------------- |
-| Collaborate on patient care |`healthcareWard` | Channels:<ul><li>General</li><li>Announcements</li><li>Huddles</li><li>Rounds</li><li>Staffing</li><li>Training</li></ul> Apps: <ul><li>Wiki</li><li>Lists</li></ul>|
+| Patient care |`healthcareWard` | Channels:<ul><li>General</li><li>Announcements<ul><li>Bulletins&sup1;</li></ul></li><li>Huddles<ul><li>Lists (Patient list)&sup1;</li></ul></li><li>Rounds<ul><li>Inspection&sup1;</li></ul></li><li>Staffing</li><li>Training</li></ul> Apps: <ul><li>Wiki</li><li>Lists</li><li>Tasks</li><li>Approvals</li><li>Shifts</li><li>Bulletins</li><li>Inspection</li></ul>|
 ||||
+
+&sup1;App added to the channel as a tab
+### Hospital
+
+This template is meant for communication and collaboration between multiple wards, pods, and departments within a hospital. This template includes a set of channels for hospital operations, and can be extended for further customization.
+
+| Template type |TemplateId | Properties that come with this template |
+| ------------------|-- |----------------------------------------------------- |
+|Hospital|`healthcareHospital`|Channels: <ul><li>General<ul><li>Lists&sup1;</li></ul></li><li>Announcements<ul><li>Bulletins&sup1;</li></ul></li><li>Compliance</li><ul><li>Inspection&sup1;</li></ul></li><li>Custodial</li><li>Human resources<ul><li>Ideas&sup1;</li></ul></li><li>Pharmacy</li></ul> Apps: <ul><li>Wiki</li><li>Tasks</li><li>Lists</li><li>Approvals</li><li>Shifts</li><li>Bulletins</li><li>Inspection</li><li>Ideas</li></ul>|
+||||
+
+&sup1;App added to the channel as a tab
+## Use team templates with Microsoft Graph
+
+Developers can use Microsoft Graph to create teams from pre-built team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](../../get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview?view=graph-rest-1.0), and [teamsTemplate resource type](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
+
+Here are the pre-built healthcare team templates.
+### Ward
+
+The ward template is meant for communication and collaboration within a ward, pod, or department. The template can be used to facilitate patient management and operational needs of a ward. For example, ward announcements can be posted in the *Announcements* channel and shifts can be managed in *Staffing*. If you're looking to streamline your ward operations, then this template is for you.
+
+|Template Type |TemplateId |Template channels|
+|:--- |:---|:---|
+|Healthcare - Ward | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | General<br>Announcements&sup2; <br> Huddles&sup2; <br> Rounds&sup2; <br> Staffing&sup2; <br> Training&sup2; |
+|     | |         |
+
+&sup2;Auto-favorited channels
 
 ### Hospital
 
-Streamline communication and collaboration between multiple wards, pods, and departments within a hospital. This template includes a set of base channels for hospital operations, and can be self-extended to include specialties, ad-hoc.
+The hospital template is meant for communication and collaboration between multiple wards, pods, and departments within a hospital. This template includes several operational channels such as *Announcements*, *Custodial*, and *Pharmacy*. We also provide a script that you can use to extend the template with additional departments or specialty channels. You can edit it to fit your needs.
 
-| Base template type |baseTemplateId | Properties that come with this base template |
-| ------------------|-- |----------------------------------------------------- |
-|Hospital|`healthcareHospital`|Channels: <ul><li>General</li><li>Announcements</li><li>Compliance</li><li>Custodial</li><li>Human resources</li><li>Pharmacy</li></ul> Apps: <ul><li>Wiki</li><li>Lists </li></ul>|
-||||
+For example, if you have an *Endocrinology* department, but don't need a channel for *Ophthalmology*, the script can be adapted to include an *Endocrinology* channel and remove the *Ophthalmology* channel. We recommend that these specialty or ward-modeled channels not be auto-favorited to avoid notification saturation. Users generally favorite any channels that they find relevant.
 
-
-## Use the team templates with the Microsoft Graph
-
-Developers can use the Microsoft Graph to create teams with the team templates. We currently offer two first-party healthcare templates that you can use for a variety of situations. To learn more about team templates in general, see [Get started with team templates](../../get-started-with-teams-templates.md). And for information about team templates and the Microsoft Graph, see [Microsoft Teams API overview](/graph/teams-concept-overview?view=graph-rest-1.0) and [teamsTemplate resource type](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
-
-### Ward template
-
-The ward template is meant for communication and collaboration within a ward, pod, or department. The template can be used to facilitate patient management, as well as the operational needs of a ward. For example, ward announcements can be posted in the *Announcements* channel and shifts can be managed in *Staffing*. If you're looking to streamline your ward operations, then this template is for you.
-
-|Base Template Type |baseTemplateId |Baseline Template channels|
+|Template type |TemplateId |Template channels|
 |:--- |:---|:---|
-|Healthcare - Ward | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | Announcements\* <br> Huddles\* <br> Rounds\* <br> Staffing\* <br> Training\* |
-|     | |         |
-
-\* Auto-favorited
-
-### Hospital template
-
-The hospital template is meant for communication and collaboration between multiple wards, pods, and departments within a hospital. Included in this template are several operational channels including *Announcements*, *Custodial*, and *Pharmacy*, but we also provide a script below which extends the template with a variety of additional department or specialty-centric channels that you can add to, delete from, or edit to your liking. For example, if you have an *Endocrinology* department, but don't need a channel for *Ophthalmology*, then the script can be adapted to include an *Endocrinology* channel and remove the *Ophthalmology* channel. We recommend that these specialty or ward-modeled channels not be auto-favorited to avoid notification saturation. Users generally favorite any channels that they find relevant.
-
-|Base Template Type |baseTemplateId |Baseline Template channels|
-|:--- |:---|:---|
-|Healthcare - Hospital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | Announcements\* <br> Compliance\* <br> Custodial <br> Human Resources <br> Pharmacy |
+|Healthcare - Hospital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | General<br>Announcements&sup2; <br> Compliance&sup2; <br> Custodial <br> Human Resources <br> Pharmacy |
 | | |  |
 
-\* Auto-favorited 
+&sup2;Auto-favorited channels
 
-### How to use first-party templates
+### How to use team templates with Microsoft Graph
 
-To use these templates, simply change the 'template@odata.bind' property in the request body from 'standard' to the TemplateIDs above.  For more information on how to deploy team templates, see the Microsoft Graph article on how to [create a Team](/graph/api/team-post?view=graph-rest-beta).
+To use these templates, change the 'template@odata.bind' property in the request body from 'standard' to the TemplateIds above. For more information on how to deploy team templates, see the Microsoft Graph article on how to [create a team](/graph/api/team-post?view=graph-rest-beta).
 
 > [!NOTE]
-> The channels in the template will automatically be created under the General Tab.
+> The channels in the template will be automatically created under the **General** tab.
 
 #### Example: Hospital template extension script
 
@@ -194,8 +203,9 @@ To use these templates, simply change the 'template@odata.bind' property in the 
 
 ```
 
-### Related topics
+### Related articles
 
-[Get started with team templates](../../get-started-with-teams-templates.md)
-
-[Get started with team for Healthcare organizations](teams-in-hc.md)
+- [Create a team from a template](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
+- [Get started with team templates in the Teams admin center](../../get-started-with-teams-templates-in-the-admin-console.md)
+- [Get started with team templates using Microsoft Graph](../../get-started-with-teams-templates.md)
+- [Get started with Teams for Healthcare organizations](teams-in-hc.md)

@@ -8,13 +8,13 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: 
+description: Learn how to manage devices for Teams Phone with Calling Plan.
 appliesto: 
 - Microsoft Teams
 ---

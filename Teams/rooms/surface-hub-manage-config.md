@@ -11,7 +11,7 @@ ms.collection:
   - M365-collaboration
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Manage Microsoft Teams settings on Surface Hub using Microsoft Intune and Windows Configuration Designer"
 ---
 

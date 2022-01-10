@@ -1,8 +1,8 @@
 ---
 title: "Edge Machine Settings Expander"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.EdgeMachineSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 747456dd-d237-44e6-9e64-63b0e7212a08
 description: "To edit the properties for a server in a pool of Edge Servers, do the following:"
 ---

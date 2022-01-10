@@ -13,7 +13,7 @@ audience: Admin
 appliesto:
 - Lync
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -28,8 +28,6 @@ See Skype for Business SDN applications [here](../certification/networking-sdn.m
 Applications built on the Lync SDN API can quickly detect quality affecting issues on the network and deliver prescriptive resolutions and traffic prioritization. Manage the Lync experience with automated root-cause analysis of network issues. Access real time, session-level metrics for network events across modalities, sessions, and IP topology layers.
 
 Registration for the Lync SDN API Developer Program on the [Microsoft Connect web site](https://connect.microsoft.com/invitationentry.aspx) and use invitation ID: LSA-T882-JJYX. Finished applications are submitted for third-party testing and then included here.
-
-Developers can download the [Lync SDN API](https://www.microsoft.com/download/details.aspx?id=39714) from the Microsoft Download Center.
 
 ## Aruba Networks Wi-Fi
 * * *
@@ -51,7 +49,7 @@ With the Lync SDN API and Aruba Wi-Fi, you can deliver the quality, jitter-free 
 
   **Comprehensive view of Lync sessions, trends, and server infrastructure**
 
-[Arrow Systems Integration](http://arrowsi.com)
+[Arrow Systems Integration](https://arrowavgroup.com/systems-integration/)
 
 ***Arrow Systems Integration*** PRISM OneView for Lync simplifies the job of the Lync administrator, providing the tools needed to maintain and improve the Lync UC environment. By applying the power of Microsoft’s SDN API, the user sees call sessions in real time with complete call quality metrics. Key values are easily pulled into dashboard widgets for ease of daily tracking, or graphed over time to identify performance trends. The health of all Lync servers is displayed graphically, with key performance indicators thresholded against the recommendations of Microsoft.
 
@@ -119,9 +117,3 @@ When a desktop sharing, voice, or video session is initiated using a Lync client
 
 Nectar is able to dramatically reduce problem resolution time by more than 70% when compared to standard network assurance tools with just a few mouse clicks. Nectar also provides network assessment, health, and performance monitoring of the entire Lync ecosystem, skills-based alarm management, SLA tracking, along with an Advanced Reporting & Analytics module in a true multi-tenant interface. All of which helps to ensure an optimal and efficient deployment and management of your Lync UC services.
 
-### Related resources
-[Microsoft Lync](https://lync.microsoft.com/en-us/Pages/unified-communications.aspx)
-
-Microsoft Premier Support for Lync Partners on:
-- [Microsoft Premier](https://www.microsoft.com/microsoftservices/en/us/lync_for_partners.aspx)
-- [Microsoft Partner Network](https://partner.microsoft.com/global/40168229)
