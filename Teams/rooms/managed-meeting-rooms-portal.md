@@ -163,7 +163,7 @@ For the incidents assigned to Microsoft, the “Action” field will contain bri
 
 Each device is a proxy for a room and its connected peripherals. A healthy device represents a healthy room and an unhealthy device represents a room likely causing problems during meetings. In addition to the Incidents view, Managed Rooms Portal also provides a room health overview, and helps you to troubleshoot device details, and to understand repeated failures with incident history.
 
-](../media/rooms-monitor-007.jpg)
+![Screenshot showing a room's health overview](../media/rooms-monitor-007.jpg)
 
 **Healthy, Unhealthy, Disconnected**
 The top panel on the Rooms view provides a quick snapshot of how many of your devices are in a good state(“Healthy”), how many are affected by issues (“Unhealthy”), how many are not providing telemetry (“Disconnected”), and how many devices are suppressed from alerting (as an override). Rooms are monitored for health using an evolving criteria and heuristics. The goal is to reflect the reality of the user experience in the room as accurately as possible and make it actionable.

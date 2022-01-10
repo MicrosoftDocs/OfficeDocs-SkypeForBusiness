@@ -75,9 +75,7 @@ When choosing ring validation, review the following sections on how rings work i
 ### Scheduling 
 Managed updates are scheduled for rooms based on the equipment in the room and if they are not meeting Managed Services standards for applicable software and firmware.  
 
-- To help our customers meet change management requirements, update deployment start on 
-
-   **Wednesdays** in the staging ring. If a critical update is required, we will bypass this schedule and release the update as soon as it’s available. 
+- To help our customers meet change management requirements, update deployment start on **Wednesdays** in the staging ring. If a critical update is required, we will bypass this schedule and release the update as soon as it’s available. 
 
 - Updates are sequenced based on the need in a particular room. 
 - If you have setup rings to validate the updates, the update will progress through the ring order. 
@@ -154,11 +152,10 @@ Rings are used to reduce the risk of issues derived from the deployment of the f
 (or at least infrequent), but IT should revisit these groups from time to time to ensure that the sequencing is still correct.  
 
 The “Rings” tab lists  all the rings in your tenant. There are three preconfigured rings:  
-**
 
 **Staging**  
 
-Assign rooms to the Staging ring, which is your testbed. All new updates will roll out here first. Generally, you will want to ensure that your staging ring represents rooms with the diversity of device types in your environment. If there are certain types of rooms with an uncommon configuration or a history of seeing issues, please consider representing them in Staging.**  
+Assign rooms to the Staging ring, which is your testbed. All new updates will roll out here first. Generally, you will want to ensure that your staging ring represents rooms with the diversity of device types in your environment. If there are certain types of rooms with an uncommon configuration or a history of seeing issues, please consider representing them in Staging.
 
 **General**  
 
@@ -174,10 +171,9 @@ Updates cannot exceed 60 days to complete across all rings.
 
 |**Parameter** |**Explanation** |
 | :- | :- |
-|<p> </p><p>Deferment </p><p>Period </p>|<p>Once an update starts with the first ring, the deferment period is the delay in days before the update is initiated on this ring.  </p><p> </p>|
+|<p> </p><p>Deferment Period </p>|<p>Once an update starts with the first ring, the deferment period is the delay in days before the update is initiated on this ring.  </p><p> </p>|
 |<p> </p><p>Rollout duration  </p><p> </p>|<p>Once the update commences on this ring, this is the time to deploy in this ring. For example, if the duration is 5 days, it will deploy over 5 days to the rooms in this ring once the update starts on this ring. </p><p> </p>|
-|<p> </p><p>Test Period </p>| |
-||<p>The number of days to test/validate the update in a ring once applied to the ring. The test period starts after the rollout is completed, and once complete, the update moves to the next ring. </p><p> </p>|
+|<p> </p><p>Test Period </p>|<p><p>The number of days to test/validate the update in a ring once applied to the ring. The test period starts after the rollout is completed, and once complete, the update moves to the next ring. </p><p> </p>|
 |<p> </p><p>Completion Time </p>|<p> </p><p>The “Completion time” column indicates the total number of days (rollout duration + test period) for this ring to complete.  </p><p> </p>|
 |<p> </p><p>Total Time </p>|<p> </p><p>At the bottom is the “Total” row, which indicates how long it will take an update to complete from the first to the last ring. </p><p> </p><p> </p>|
 
@@ -234,12 +230,8 @@ Moving rooms from one ring to another is possible in two ways:
 1. Select the rooms that you want to move in the “List of Rooms”.  
 1. Choose the Target ring, which the selected rooms will move to in the dropdown.  
 1. Click “Move rooms”.  
-**
 
-
-**Or** 
-
-
+**Or**
 
 1. Open the room details for the room you wish to move (either through Incidents, Rooms, or Updates -> Rooms).   
 

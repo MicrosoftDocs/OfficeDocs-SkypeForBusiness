@@ -22,19 +22,11 @@ f1keywords:
 # Managing Room software stack  
 In every room, different parts of the software stack all work together to deliver the experience. At a high level, they can be summarized as follows: 
 
-![alt text6](../media/update-management-006.jpg)
+![Screenshot of the summary of the software stack](../media/update-management-006.jpg)
 
 To ensure a positive meeting experience every day in every room, it is important to **standardize every piece of software** running on each of the rooms and roll out fixes in the rooms depending on the configuration. It is also common to see customers set up their own validation process to gain confidence over any pending fixes by verifying that it really fixes an issue they might be experiencing or preview features to make the organization ready for the change.  
 
 Managed Services for Microsoft Teams Rooms handles all the above so that you do not have to worry about getting an update or troubleshooting issues with an update. In this section, we will describe how managed software updates work.  
-<!--## Update portfolio 
-Next line needs new link
-Managed Updates for Certified Teams Rooms devices [Update Portfolio](https://microsoft.sharepoint-df.com)
-## Managing Windows OS updates 
-Teams Rooms Managed Services will be launching management of Windows OS Feature Updates to ensure that Windows 10 20H2 (OS Build 19042.572) and future feature updates roll out to your rooms through the same update rings you have already set up. The launch date will be aligned with the MTR start of support of 20H2. 
-
-As always, we recommend not deploying any management of OS Feature Updates to MTR. MTR already includes mechanisms, shipped together with app updates, to help get and keep the MTR at the latest supported OS version. Managed Services will be building upon those to add additional validation both before and as the update rolls through Rings. If you are applying any OS Update related policies through MDM (MOBILE DEVICE MANAGEMENT) or GPO (Group Policy Objects), for the best chance of success, we highly recommend removing those policies before Managed Services begins the rollout of 20H2. Regardless, MTR Managed Services will attempt to manage and install this update, but the results may vary. Unless your organization manages OS Feature Updates through MDM, GPO or SCCM (Systems Center Configuration Manager) you can just sit back and wait until you see the update on the Updates page of the Managed Services portal, just like existing peripheral updates.  -->
-
 
 ## Managing to a good state 
 Our main goal is to keep rooms running and available for your organization. Managed Services experts are constantly working on your behalf to curate, validate and deploy updates to your production rooms. In certain cases, it may mean that we prioritize room health over new features and releases to be validated before they are rolled out. 

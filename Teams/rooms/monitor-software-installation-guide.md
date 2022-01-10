@@ -59,11 +59,15 @@ Follow these procedures to set up your hardware before attempting the enrollment
 1. Run the following command (double quotes at end of command are important):
    - If using single ***proxy server***:  bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL\_PROXY <proxyserver>:<port> ""
 
-      *Example:* bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL\_PROXY contosoproxy.corp.net:8080 ""
+      *Example:* 
+bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL\_PROXY contosoproxy.corp.net:8080 ""
+      
 
    - If using a ***pac*** file:  bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT <pac file url> ""
 
-      *Example:* bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT http://contosoproxy.corp.net/proxy.pac ""
+      
+      *Example:* bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT `http://contosoproxy.corp.net/proxy.pac` ""
+      
 
 ### Enabling TPM settings
 
@@ -105,8 +109,8 @@ The Enrollment process involves a few steps:
 
 1. On the left navigation bar of the Microsoft Teams Rooms – Managed Services portal [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/), expand **Settings** and select **General**.  
 1. Under *Self-Enrollment keys*, select **Download installer** hyperlink https://aka.ms/serviceportalagentmsi to download the monitoring agent software.
-1. Also under *Self-Enrollment keys* section, select **Download Key**. Place the key file under the **C:\Rigel** folder on each device you are enrolling.  
-1. ***Optional*:** Set up proxy settings for the agent; see [Adding proxy settings (optional)](#adding-proxy-settings-optional).
+1. Select **Download Key**. Place the key file under the **C:\Rigel** folder on each device you are enrolling.  
+1. **Optional:** Set up proxy settings for the agent; see [Adding proxy settings (optional)](#adding-proxy-settings-optional).
 1. Install the agent installer (downloaded in step 2) on MTR units, either by running the MSI locally on an MTR device or via your normal means of publishing MSI applications en masse to devices within your environment (Group-Policy etc.)  
 1. The room appears in the portal within 5-10 minutes. If it does not, contact managedroomsupport@microsoft.com.  
 
