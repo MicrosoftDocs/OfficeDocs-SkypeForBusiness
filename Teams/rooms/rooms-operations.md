@@ -24,7 +24,7 @@ Microsoft Teams Rooms is Microsoft's conferencing solution designed to transform
 ## Collecting logs on Microsoft Teams Rooms
 <a name="Logs"> </a>
 
-You can collect logs via Teams admin center. See [Download device logs](../cortana-in-teams.md) for steps on collecting logs using Teams admin center.
+To collect logs in Teams admin center, go to **Teams devices > Teams Rooms on Windows**. Select the display name of the device you want logs for. In the top panel, select "Download device logs." Once you confirm, the logs will be ready for download in the History tab after a few minutes.
 
 You can also use PowerShell to collect logs. You must invoke the log collection script that ships with the Microsoft Teams Rooms app. In [Admin mode](rooms-operations.md), start an elevated command prompt, and issue the following command:
   
