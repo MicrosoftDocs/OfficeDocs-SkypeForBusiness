@@ -21,7 +21,7 @@ f1keywords:
 
 # Getting started with Microsoft Teams Rooms Premium-managed service
 
-The Microsoft Teams Rooms Premium managed services reduces complexity for Teams Rooms administrator by delivering improved room operations which enhances in-room meeting productivity.
+The Microsoft Teams Rooms Premium managed services reduces complexity for Teams Rooms administrators by delivering improved room operations which enhances in-room meeting productivity.
 
 ## Obtain and assign a license
 
