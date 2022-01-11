@@ -378,19 +378,15 @@ The configuration status section of the app settings page will display the curre
 | --------------------- | ------------------------- | ----------------------------------------------------------- |
 | Service provisioning  | Pending                   | App is being added to the tenant. No further action needed. |
 | Service provisioning  | Complete                  | Ready for IT admin to submit settings.                      |
-| -                     | -                         | -                                                           |
 | Brand and preferences | Not started               | Settings need to be submitted.                              |
 | Brand and preferences | Missing _required fields_ | IT admin needs to add or upload the missing fields.         |
 | Brand and preferences | Complete                  | No further action needed.                                   |
-| -                     | -                         | -                                                           |
 | Course catalog        | Not started               | Catalog needs to be submitted.                              |
 | Course catalog        | Incomplete                | Check the ingestion status for details on how to resolve.   |
 | Course catalog        | Complete                  | No further action needed.                                   |
-| -                     | -                         | -                                                           |
 | LinkedIn connection   | Not started               | LinkedIn school page URL needs to be submitted.             |
 | LinkedIn connection   | Pending                   | Awaiting LinkedIn school page admin approval.               |
 | LinkedIn connection   | Complete                  | No further action needed.                                   |
-| -                     | -                         | -                                                           |
 | Fields of study       | Not started               | Document needs to be submitted.                             |
 | Fields of study       | Complete                  | No further action needed.                                   |
 
@@ -409,12 +405,10 @@ The course catalog status is shown on the Course catalog settings page once a do
 | Time uploaded    | Timestamp | Date and time an IT admin uploaded a document.                                                     |
 | Time completed   | Timestamp | Date and time the document was processed completely.                                               |
 | Courses uploaded | Integer   | Number of courses found in the document.                                                           |
-| -                | -         | -                                                                                                  |
 | Ingestion status | Pending   | Document in queue for processing.                                                                  |
 | Ingestion status | Running   | Document is currently be processed. This process can take up to 60 minutes.                        |
 | Ingestion status | Success   | Ingestion process is complete and courses and will be available in app once completely configured. |
 | Ingestion status | Failed    | Check the document format and reupload.                                                            |
-| -                | -         | -                                                                                                  |
 | Duplicates       | Integer   | Number of duplicate courses found in the document.                                                 |
 
 > [!NOTE]
