@@ -76,7 +76,7 @@ You can also set up notifications to an external webhook by specifying a public 
 
 ![App submission notification.](media/app-submission-notification.png)
 
-You can review the notification card to see app details, and select **View details** to open the app in the Teams admin center.
+After you set up the app submissions rule, you can review notification cards in the specified channel to see app details and select **View details** to open apps in the Teams admin center.
 
 ## Validate
 
