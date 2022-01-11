@@ -69,10 +69,11 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 ## Certified devices
 
-*Table Updated December 2021*
+*Table Updated January 2022*
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Lenovo               |Go Wired Speakerphone                                      |1/10/2022       |Certified for Microsoft Teams                           |
 |EPOS                 |IMPACT SDW 5066T                                           |12/1/2021       |Certified for Microsoft Teams                           |
 |EPOS                 |IMPACT SDW 5063T                                           |12/1/2021       |Certified for Microsoft Teams                           |
 |EPOS                 |IMPACT SDW 5036T                                           |12/1/2021       |Certified for Microsoft Teams                           |
