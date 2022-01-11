@@ -66,7 +66,7 @@ Use this report to gain insight into Virtual Visits activity and trends in your 
 |**6**   |You can export the report to a CSV file for offline analysis. Select **Export to Excel**, and then on the **Downloads** tab, choose **Download** to download the report when it's ready.|
 ### Bookings
 
-You'll see the **Bookings** tab if you have a license that includes the Bookings app. To learn more, see [Manage the Bookings app](../bookings-app-admin.md).
+You'll see this tab if you have a license that includes the Bookings app. To learn more, see [Manage the Bookings app](../bookings-app-admin.md).
 
 |Callout |Description  |
 |--------|-------------|
@@ -78,7 +78,7 @@ You'll see the **Bookings** tab if you have a license that includes the Bookings
 |**6**   |You can export the report to a CSV file for offline analysis. Select **Export to Excel**, and then on the **Downloads** tab, choose **Download** to download the report when it's ready.|
 ### EHR
 
-You'll see the **EHR** tab if you have an active subscription to Microsoft Cloud for Healthcare or a subscription to the Teams EHR connector standalone offer. To learn more, see [Integration into Cerner EHR](../expand-teams-across-your-org/healthcare/ehr-admin-cerner.md) or [Integration into Epic EHR](../expand-teams-across-your-org/healthcare/ehr-admin.md).
+You'll see this tab if you have an active subscription to Microsoft Cloud for Healthcare or a subscription to the Teams EHR connector standalone offer. To learn more, see [Integration into Cerner EHR](../expand-teams-across-your-org/healthcare/ehr-admin-cerner.md) or [Integration into Epic EHR](../expand-teams-across-your-org/healthcare/ehr-admin.md).
 
 |Callout |Description  |
 |--------|-------------|
