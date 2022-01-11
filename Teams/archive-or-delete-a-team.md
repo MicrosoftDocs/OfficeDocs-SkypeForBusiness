@@ -97,12 +97,12 @@ By default, a deleted Microsoft 365 group is retained for 30 days. This 30-day p
     ```PowerShell
     Get-AzureADMSDeletedGroup
     ```
-3. Find the group that you want to restore, and then make a note of the Id.
-4. Run the following to restore the group, where [Id] is the group Id.
+3. Find the group that you want to restore, and then make a note of the `Id`.
+4. Run the following to restore the group, where `[Id]` is the group ID.
     ```PowerShell
     Restore-AzureADMSDeletedDirectoryObject -Id [Id]
     ```
-5.  Run the following to verify the group was successfully restored, where [Id] is the group Id.
+5.  Run the following to verify the group was successfully restored, where `[Id]` is the group ID.
     ```PowerShell
     Get-AzureADGroup -ObjectId [Id]
     ```
