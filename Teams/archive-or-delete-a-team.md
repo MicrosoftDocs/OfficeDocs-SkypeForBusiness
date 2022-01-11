@@ -27,7 +27,7 @@ Over time, a team created in Microsoft Teams might fall out of use or you might 
 
 When you archive a team, all activity for that team ceases. Archiving a team also archives private channels in the team and their associated site collections.  However, you can still add or remove members and update roles and you can still view all the team activity in standard and private channels, files, and chats.
 
-When you delete a team, team activity in standard and private channels (and associated site collections), files, and chats is also deleted.
+When you delete a team, team activity in standard and private channels (and associated site collections), files, and chats are also deleted.
 
 > [!IMPORTANT]
 > Archived teams can be reactivated, but you can’t directly restore a team that has been deleted. Consider archiving the team first, and postpone the deletion until you're sure that you no longer need the team.
@@ -51,7 +51,7 @@ Follow these steps to make an archived team active again.
 
 1. In the admin center, select **Teams**.
 2. Select a team by clicking the team name.
-3. Select **Restore**. The team’s status will change to **Active**. Be aware that it will not be moved back inside **Your teams** automatically.
+3. Select **Restore**. The team’s status will change to **Active**. Note that it will not be moved back inside **Your teams** automatically.
 
 ## Delete a team
 
@@ -93,7 +93,7 @@ By default, a deleted Microsoft 365 group is retained for 30 days. This 30-day p
     Connect-AzureAD
     ```
     When you're prompted, sign in using your admin account and password.  
-2. Run the following to display a list of all soft-deleted Microsoft 365 groups that are still within the 30-day retention period. Use the **-All $True** parameter if you have a lot of groups.
+2. Run the following to display a list of all soft-deleted Microsoft 365 groups that are still within the 30-day retention period. Use the **-All $True** parameter if you have many groups.
     ```PowerShell
     Get-AzureADMSDeletedGroup
     ```
