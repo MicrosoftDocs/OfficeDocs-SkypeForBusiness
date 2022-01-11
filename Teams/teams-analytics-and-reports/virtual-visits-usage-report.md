@@ -22,7 +22,19 @@ ms.custom: seo-marvel-apr2020
 
 The Virtual Visits usage report in the Microsoft Teams admin center gives you an overview of Teams Virtual Visits activity in your organization. You can view detailed activity for virtual appointments scheduled through the [Bookings app](../expand-teams-across-your-org/bookings-virtual-visits.md) and the [Microsoft Teams Electronic Health Records (EHR) connector](../expand-teams-across-your-org/healthcare/teams-in-hc.md#virtual-visits-and-electronic-healthcare-record-ehr-integration). To learn more about Virtual Visits, see [Virtual Visits with Teams](../expand-teams-across-your-org/virtual-visits.md).
 
-The report contains the following tabs:
+The report contains the following tabs.
+
+Option 1
+
+|Tab |Description  |
+|---------|---------|
+|**[Virtual Visits](#virtual-visits)**     |Shows the total number of Virtual Visits, and of these, the number of Virtual Visits scheduled through the Bookings app and conducted from your EHR system through the Team EHR connector.         |
+|**[Duration](#duration)**     |Shows the average duration of Virtual Visits and average lobby wait time of attendees.         |
+|**[Bookings](#bookings)**     |Shows the number of Virtual Visits scheduled through the Bookings app.         |
+|**[EHR](#ehr)**     |Shows the number of Virtual Visits conducted from your EHR system through the Teams EHR connector.         |
+
+
+Option 2
 
 - **[Virtual Visits](#virtual-visits)**: Shows the total number of Virtual Visits, and of these, the number of Virtual Visits scheduled through the Bookings app and conducted from your EHR system through the Team EHR connector.
 - **[Duration](#duration)**: Shows the average duration of Virtual Visits and average lobby wait time of attendees.
