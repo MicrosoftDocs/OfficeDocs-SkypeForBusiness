@@ -26,20 +26,20 @@ The report contains the following tabs.
 
 |Tab |Description  |
 |---------|---------|
-|**[Virtual Visits](#virtual-visits)**     |Shows the total number of Virtual Visits, and of these, the number of Virtual Visits scheduled through the Bookings app and conducted from your EHR system through the Team EHR connector.         |
+|**[Virtual Visits](#virtual-visits)**     |Shows the total number of Virtual Visits, and of these, the number of Virtual Visits scheduled using the Bookings app and conducted from your EHR system through the Team EHR connector.         |
 |**[Duration](#duration)**     |Shows the average duration of Virtual Visits and average lobby wait time of attendees.         |
 |**[Bookings](#bookings)**     |Shows the number of Virtual Visits scheduled through the Bookings app.         |
-|**[EHR](#ehr)**     |Shows the number of Virtual Visits conducted from your EHR system through the Teams EHR connector.         |
+|**[EHR](#ehr)**     |Shows the number of Virtual Visits conducted in Teams from your EHR system through the Teams EHR connector.         |
 
 > [!NOTE]
 > To see the information in this report, you'll need the appropriate licenses for the Bookings app, the Teams EHR connector, or both.  
 
-Use this report to gain insight into Virtual Visits usage in your organization. The information can help you evaluate, track, and improve Virtual Visits adoption and the attendee experience. For example, you can determine whether sending SMS notifications to attendees before appointments reduces the number of no shows.
+Use this report to gain insight into Virtual Visits activity and trends in your organization. The information can help you evaluate, track, and improve Virtual Visits adoption and the attendee experience. For example, you can determine whether sending SMS notifications to attendees before appointments reduces the number of no shows.
 
 ## View the Virtual Visits usage report
 
 1. In the left navigation of the Microsoft Teams admin center, choose **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **Virtual Visits usage**.
-2. Under **Date range**, select a date range. The report can be viewed for trends over the last 7 days, 30 days, or 90 days. Then, choose **Run report**.
+2. Under **Date range**, select a date range of 7 days, 30 days, or 90 days. Then, choose **Run report**.
 
 ## Interpret the report
 
