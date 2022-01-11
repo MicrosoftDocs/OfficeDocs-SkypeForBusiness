@@ -51,7 +51,7 @@ Learn more about [Exchange Online PowerShell](/powershell/exchange/exchange-onli
 
 ## Step 2: Configure Office 365 Threat Protection and link rewrite
 
-To enable the one-touch join experience, meeting join link information from the third-party meeting needs to be present and readable in the meeting invite. If your organization uses the [Office 365 Advanced Threat Protection Safe Links](/microsoft-365/security/office-365-security/atp-safe-links) feature, or if you use a third-party solution that scans all incoming and outgoing URLs for threats, it may change the meeting join URLs and make the meeting unrecognizable by the Teams Rooms device. To make sure this doesn't happen, you need to add the third-party meeting service's URLs to the ATP Safe Links "do not rewrite" list or the third-party URL rewrite exception list.
+To enable the one-touch join experience, meeting join link information from the third-party meeting needs to be present and readable in the meeting invite. If your organization uses the [Office 365 Advanced Threat Protection Safe Links](/microsoft-365/security/office-365-security/atp-safe-links) feature, or if you use a third-party solution that scans all incoming and outgoing URLs for threats, it may change the meeting join URLs and make the meeting unrecognizable by the Teams Rooms device. To make sure this doesn't happen, you need to add the third-party meeting service's URLs to the ATP Safe Links "do not rewrite" list or the third-party URL rewrite exception list.
 
 To add third-party meeting service URLs to the ATP Safe Links "do not rewrite" list, follow the steps in [Set up a custom do-not-rewrite URLs list using ATP Safe Links](/microsoft-365/security/office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp?view=o365-worldwide). If you use a third-party solution, refer to the instructions for that solution to add URLs to its URL rewrite exception list.
 
@@ -73,24 +73,24 @@ The last step you need to do is allow Teams Rooms to join third-party meetings. 
 
 To configure Teams Rooms using the touchscreen console, do the following:
 
-1. On the Microsoft Teams Rooms console, select **More ...**.
-2. Select **Settings**, and then enter the device administrator username and password.
-3. Go to the **Meetings** tab and select **Cisco WebEx**, **Zoom**, or both.
+1. On the Microsoft Teams Rooms console, select **More ...**.
+2. Select **Settings**, and then enter the device administrator username and password.
+3. Go to the **Meetings** tab and select **Cisco WebEx**, **Zoom**, or both.
 4. If you want to join meetings with the username and email address associated with the room mailbox, select **Join with room info**.
 5. If you want to join meetings with an alternate username and email address, select **Join with custom info** and enter username and email address you'd like to use.
-6. Select **Save and exit**. Your device will restart.
+6. Select **Save and exit**. Your device will restart.
 
 ### Use the SkypeSettings.xml configuration file
 
 The following settings can be added to the `SkypeSettings.xml` file located in `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState`. For more information about the `SkypeSettings.xml` file, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md).
 
-To enable Cisco WebEx meetings, set the `WebExMeetingsEnabled` XML element to **True**, as follows.
+To enable Cisco WebEx meetings, set the `WebExMeetingsEnabled` XML element to **True**, as follows.
 
 ```xml
 <WebExMeetingsEnabled>True</WebExMeetingsEnabled>
 ```
 
-To enable Zoom meetings, set the `ZoomMeetingsEnabled` XML element to **True**, as follows.
+To enable Zoom meetings, set the `ZoomMeetingsEnabled` XML element to **True**, as follows.
 
 ```xml
 <ZoomMeetingsEnabled>True</ZoomMeetingsEnabled>

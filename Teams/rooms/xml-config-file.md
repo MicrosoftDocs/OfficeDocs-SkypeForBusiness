@@ -166,20 +166,20 @@ You are free to use any method you like so long as you can use it to transfer fi
 | Setting Name                                    | XML Notation                | XML Value      |
 |:------------------------------------------------|:----------------------------|:---------------|
 | Skype for Business (default) and Microsoft Teams| \<TeamsMeetingsEnabled>     |   True         |
-|                                                 | \<SfbMeetingEnabled>        |   True         |
-|                                                 | \<IsTeamsDefaultClient>     |   False        |
+|                                                 | \<SfbMeetingEnabled>        |   True         |
+|                                                 | \<IsTeamsDefaultClient>     |   False        |
 |:------------------------------------------------|:----------------------------|:---------------|
 | Skype for Business and Microsoft Teams (default)|  \<TeamsMeetingsEnabled>    |   True         |
-|                                                 |  \<SfbMeetingEnabled>       |   True         |
+|                                                 |  \<SfbMeetingEnabled>       |   True         |
 |                                                 |  \<IsTeamsDefaultClient>    |   True         |
 |:------------------------------------------------|:----------------------------|:---------------|                                                      
 | Skype for Business only                         |  \<TeamsMeetingsEnabled>    |   False        |
-|                                                 |  \<SfbMeetingEnabled>       |   True         |
-|                                                 |  \<IsTeamsDefaultClient>    |   False        |
+|                                                 |  \<SfbMeetingEnabled>       |   True         |
+|                                                 |  \<IsTeamsDefaultClient>    |   False        |
 |:------------------------------------------------|:----------------------------|:---------------|
 | Microsoft Teams only                            |  \<TeamsMeetingsEnabled>    |   True         |
-|                                                 |  \<SfbMeetingEnabled>       |   False        |
-|                                                 |  \<IsTeamsDefaultClient>    |   True         |                       
+|                                                 |  \<SfbMeetingEnabled>       |   False        |
+|                                                 |  \<IsTeamsDefaultClient>    |   True         |                       
 |:------------------------------------------------|:----------------------------|:---------------|                                                       
                                                                                                            
 ## Supported Meeting modes App version 4.8 or lower
@@ -187,13 +187,13 @@ You are free to use any method you like so long as you can use it to transfer fi
 | Setting Name                                    | XML Notation                | XML Value      |
 |:------------------------------------------------|:----------------------------|:---------------|
 | Skype for Business (default) and Microsoft Teams|  \<TeamsMeetingsEnabled>    |   True         |
-|                                                 |  \<IsTeamsDefaultClient>    |   False        |
+|                                                 |  \<IsTeamsDefaultClient>    |   False        |
 |:------------------------------------------------|:----------------------------|:---------------|
 | Skype for Business and Microsoft Teams (default)|  \<TeamsMeetingsEnabled>    |   True         |
 |                                                 |  \<IsTeamsDefaultClient>    |   True         |
 |:------------------------------------------------|:----------------------------|:---------------|                                                      
 | Skype for Business only                         |  \<TeamsMeetingsEnabled>    |   False        |
-|                                                 |  \<IsTeamsDefaultClient>    |   False        |
+|                                                 |  \<IsTeamsDefaultClient>    |   False        |
 |:------------------------------------------------|:----------------------------|:---------------|                                                 
 
 ## Custom Theme Images
