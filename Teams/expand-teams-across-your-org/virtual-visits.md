@@ -53,3 +53,4 @@ Currently, the Teams EHR connector supports integration with the Cerner EHR syst
 
 - [Manage the join experience for Teams Virtual Visits on mobile browsers](mobile-browser-join.md)
 - [Get started with Teams for healthcare organizations](healthcare/teams-in-hc.md)
+- [Virtual Visits usage report](../teams-analytics-and-reports/virtual-visits-usage-report.md)
