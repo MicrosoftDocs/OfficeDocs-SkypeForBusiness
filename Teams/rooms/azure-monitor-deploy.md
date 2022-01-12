@@ -355,7 +355,7 @@ Configure an alert rule that checks for :::no-loc text="Microsoft Teams Rooms"::
 
 5.  Configure the Alert logic settings:<br>
     **Based on:** Number of results<br>
-    **Condition:** Greater then<br>
+    **Condition:** Greater than<br>
     **Threshold:** 0<br>
 
 6. Configure Evaluation settings and select **Done**: <br>

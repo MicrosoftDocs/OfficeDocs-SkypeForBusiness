@@ -110,7 +110,7 @@ See the [Network Security](./security.md#network-security) article for full deta
   
 ### Admin group management
 
-If you choose to join a domain(Azure Active Directory or Active Directory), you can use Microsoft Endpoint Manager, Group Policy, or Local Computer Management to set a Security Group as local administrator just like you would for a Windows PC in your domain. Anyone who is a member of that security group can enter their credentials and unlock Settings.
+If you choose to join a domain (Azure Active Directory or Active Directory), you can use Microsoft Endpoint Manager, Group Policy, or Local Computer Management to set a Security Group as local administrator just like you would for a Windows PC in your domain. Anyone who is a member of that security group can enter their credentials and unlock Settings.
   
 > [!NOTE]
 > If your Microsoft Teams Rooms device loses trust with the domain (for example, if you remove the Microsoft Teams Rooms from the domain after it is domain joined), you won't be able to authenticate into the device and open up Settings. The workaround is to log in with the local Admin account. 

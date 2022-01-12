@@ -57,7 +57,7 @@ The following table summarizes the possible remote operations and the methods yo
 
 |Workgroup|Not domain joined|Domain joined|
 |:-----|:-----|:-----|
-|Restart  <br/> |Teams admin center  <br/> Remote desktop  <br/> Remote Powershell  <br/> | <br/>Remote desktop (requires further configuration)  <br/> Remote Powershell (requires further configuration)  <br/> Configuration Manager  <br/> |
+|Restart  <br/> |Teams admin center  <br/> Remote desktop  <br/> Remote PowerShell  <br/> | <br/>Remote desktop (requires further configuration)  <br/> Remote PowerShell (requires further configuration)  <br/> Configuration Manager  <br/> |
 |Update OS  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
 |App update  <br/> |Windows Store  <br/> |Windows Store  <br/> Configuration Manager  <br/> |
 |Account Config  <br/> |Teams admin center  <br/> |Teams admin center  <br/> |
@@ -188,7 +188,7 @@ Microsoft Teams Rooms connects to Windows Update to retrieve operating system an
   
 If you must manage updates manually due to limitations in accessing Windows store, and are therefore unable to follow the normal procedure for [Microsoft Store for Business](https://businessstore.microsoft.com/store) to [Distribute offline apps](/microsoft-store/distribute-offline-apps), you can acquire the appropriate APPX file and dependencies from the [deployment kit](https://go.microsoft.com/fwlink/?linkid=851168) (from the instructions to [Configure a Microsoft Teams Rooms console](console.md)) that can be used with Configuration Manager. The deployment kit release lags behind the store release, so it might not always match the latest available build.
   
-### To update using Powershell
+### To update using PowerShell
 
 1. Extract the package from the installation [MSI](https://go.microsoft.com/fwlink/?linkid=851168) to a share the device can access.
 2. Run the following script targeting the Microsoft Teams Rooms devices, changing \<share\> to the device share as appropriate:
