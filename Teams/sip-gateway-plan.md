@@ -47,13 +47,13 @@ SIP Gateway connects compatible SIP devices to Teams to help your users migrate 
 
 ## Requirements to use SIP Gateway
 
-Teams users must have a phone number with PTSN calling enabled to use SIP Gateway.
+Teams users must have a phone number with PSTN calling enabled to use SIP Gateway.
 
 ### Hardware, software, and licenses
 
 If you have a 3PIP or SIP device, you must have: 
 - A license for Phone System (via E5 or a standalone license)
-- PTSN enablement (i.e., a phone number) via a Microsoft Teams Calling Plan, Direct Routing, or Operator Connect
+- PSTN enablement (i.e., a phone number) via a Microsoft Teams Calling Plan, Direct Routing, or Operator Connect
 - A Common Area Phone license for any common area devices
 
 ## Compatible devices

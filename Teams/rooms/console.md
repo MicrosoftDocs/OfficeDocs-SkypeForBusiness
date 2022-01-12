@@ -21,9 +21,6 @@ description: This article describes how to set up and configure the Microsoft Te
 
 This article describes how to set up the Microsoft Teams Rooms console and its peripherals.
 
-> [!NOTE]
-> The following steps only apply to Surface Pro-based Teams Rooms devices. For other devices, check with the Original Equipment Manufacturer (OEM) for support.
-
 You should only perform these steps if the necessary Microsoft Teams or Skype for Business and Exchange accounts have already been created and tested as described in [Deploy Microsoft Teams Rooms](rooms-deploy.md). You will need the hardware and software described in [Microsoft Teams Rooms requirements](requirements.md). This topic contains the following sections:
   
 - [Prepare the installation media](console.md#Prep_Media)
@@ -32,9 +29,6 @@ You should only perform these steps if the necessary Microsoft Teams or Skype fo
 - [Initial set up of the console](console.md#Initial)
 - [Microsoft Teams Rooms deployment checklist](console.md#Checklist)
 
-> [!NOTE]
-> The following steps only apply to Surface Pro-based Teams Rooms devices. For other devices, check with the OEM for support.
-  
 ## Prepare the installation media
 <a name="Prep_Media"> </a>
 
