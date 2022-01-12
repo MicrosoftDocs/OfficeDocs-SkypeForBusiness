@@ -22,17 +22,14 @@ ms.custom: seo-marvel-apr2020
 
 The Virtual Visits usage report in the Microsoft Teams admin center gives you an overview of Teams Virtual Visits activity in your organization. You can view detailed activity for virtual appointments scheduled through the [Bookings app](../expand-teams-across-your-org/bookings-virtual-visits.md) and the [Microsoft Teams Electronic Health Records (EHR) connector](../expand-teams-across-your-org/healthcare/teams-in-hc.md#virtual-visits-and-electronic-healthcare-record-ehr-integration). To learn more about Virtual Visits, see [Virtual Visits with Teams](../expand-teams-across-your-org/virtual-visits.md).
 
-This report contains the following tabs.
+This report contains the following tabs. The information you’ll see in the report depends on whether you have licenses for the Bookings app, the Teams EHR connector, or both.
 
 |Tab |Description  |
 |---------|---------|
 |**[Virtual Visits](#virtual-visits)**     |Shows the total number of Virtual Visits, and of these, the number of Virtual Visits scheduled using the Bookings app and conducted in Teams from your EHR system through the Team EHR connector.         |
 |**[Duration](#duration)**     |Shows the average duration of Virtual Visits and average lobby wait time of attendees.         |
 |**[Bookings](#bookings)**     |Shows the number of Virtual Visits scheduled through the Bookings app.         |
-|**[EHR](#ehr)**     |Shows the number of Virtual Visits conducted in Teams from your EHR system through the Teams EHR connector.         |
-
-> [!NOTE]
-> The information you'll see in the report depends on whether you have licenses for the Bookings app, the Teams EHR connector, or both.  
+|**[EHR](#ehr)**     |Shows the number of Virtual Visits conducted in Teams from your EHR system through the Teams EHR connector.         |  
 
 Use this report to gain insight into Virtual Visits activity and trends in your organization. The information can help you evaluate, track, and improve Virtual Visits adoption and the attendee experience. For example, you can determine whether sending SMS notifications to attendees before appointments reduces the number of no shows.
 
