@@ -51,6 +51,11 @@
       "redirect_document_id": true
     },
     {
+      "source_path": "Teams/rooms/rooms-scale.md",
+      "redirect_url": "/microsoftteams/rooms/console",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Teams/expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md",
       "redirect_url": "/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams",
       "redirect_document_id": false
@@ -157,8 +162,8 @@
     },
     {
       "source_path": "Teams/room-systems/room-systems-scale.md",
-      "redirect_url": "/MicrosoftTeams/rooms/rooms-scale",
-      "redirect_document_id": true
+      "redirect_url": "/microsoftteams/rooms/console",
+      "redirect_document_id": false
     },
     {
       "source_path": "Teams/room-systems/azure-monitor-deploy.md",
