@@ -113,7 +113,9 @@ items:
 
     The Frontline Worker onboarding wizard in the Microsoft 365 admin center simplifies onboarding frontline workers to your organization. Use the wizard to kick off your pilot and quickly deploy an experience in Teams that's tailored to your frontline workforce.
 
-    :::image type="content" source="media/flw-quickstart-onboarding-wizard.png" alt-text="Screenshot of the details page of the Frontline Worker onboarding experience in the Microsoft 365 admin center":::
+    Check out this short video for an overview of how to run the wizard to onboard your frontline workforce.
+
+    > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWN6oh]
 
     The wizard sets up a team for your frontline workers and assigns licenses and [policy packages](manage-policy-packages.md) to each team member. You can create your team from scratch or from a [team template](get-started-with-teams-templates-in-the-admin-console.md), and then you add users and assign roles. The role determines whether the wizard assigns the Frontline Manager or Frontline Worker policy package to the user.
     
