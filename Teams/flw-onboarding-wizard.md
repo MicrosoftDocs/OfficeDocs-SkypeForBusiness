@@ -71,7 +71,7 @@ Check out this short video for an overview of how to run the wizard to onboard y
 
     :::image type="content" source="media/flw-onboarding-wizard-review-team.png" alt-text="Screenshot of the Review team page of the wizard where you review your team settings" lightbox="media/flw-onboarding-wizard-review-team.png":::
 
-    The wizard creates your team and assigns licenses and policy packages to team members. This may take a few minutes to complete, after which the recipients you chose receive a status email.
+    The wizard creates your team and assigns licenses and policy packages to team members. It may take a few minutes to complete, after which the recipients you chose receive a status email.
 
 8. You're on your way but you're not done yet! Next, check out the [What to do after running the wizard](#what-to-do-after-running-the-wizard) section of this article.
 
