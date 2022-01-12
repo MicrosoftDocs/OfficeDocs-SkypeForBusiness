@@ -213,7 +213,7 @@ Some management functions, like manually installing a private CA certificate, re
 7. Perform the necessary administrative tasks.
 8.  Restart the machine when you're finished.
     
-The console is now back in its normal operation mode.The following procedure requires you to attach a keyboard to the device if one is not already attached. 
+The console is now back in its normal operation mode. The following procedure requires you to attach a keyboard to the device if one is not already attached. 
   
 ### Switching to Admin Mode and back when the Microsoft Teams Rooms app crashes
 
