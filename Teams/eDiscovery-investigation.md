@@ -124,19 +124,28 @@ Before you perform these steps, install the [SharePoint Online Management Shell 
 
 Before you perform these steps, make sure you have the [latest version of the Teams PowerShell module](teams-powershell-overview.md) installed.
 
-1. Run the following command to get a list of private channels in the team.
+1. Run the following command to get the group Id of the team that contains the private channels you want to search.
+
+   ```powershell
+   Get-Team -MailNickName <mail alias of the associated Office 365 Group>
+   ```
+
+   > [!TIP]
+   > Run the **Get-Team** cmdlet without any parameters to display a list of all Teams in your organization. The list contains the Group Id and MailNickName for every team.
+
+2. Run the following command to get a list of private channels in the team. Use the group Id for the team that you obtained in step 1.
 
     ```PowerShell
-    Get-TeamChannel -GroupId <GroupID> -MembershipType Private
+    Get-TeamChannel -GroupId <GroupId> -MembershipType Private
     ```
 
-2. Run the following command to get a list of private channel members.
+3. Run the following command to get a list of private channel owners and members.
 
     ```PowerShell
-    Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
+    Get-TeamChannelUser -GroupId <GroupId> -DisplayName "Engineering" 
     ```
 
-3. Include the mailboxes of all members from each private channel in the team as part of your [eDiscovery search query](/microsoft-365/compliance/search-for-content-in-core-ediscovery).
+4. Include the mailboxes of all owners and members from each private channel in the team as part of your [eDiscovery search query](/microsoft-365/compliance/search-for-content-in-core-ediscovery).
 
 ## Search for content for guest users
 
