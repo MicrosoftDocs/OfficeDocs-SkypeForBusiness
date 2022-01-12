@@ -187,7 +187,7 @@ You are free to use any method you like so long as you can use it to transfer fi
 | \<SfbMeetingEnabled>        |   True         |
 | \<IsTeamsDefaultClient>     |   False        |
 
-**Microsft Teams only**
+**Microsoft Teams only**
 
 | XML Notation                | XML Value      |
 |----------------------------|---------------|
