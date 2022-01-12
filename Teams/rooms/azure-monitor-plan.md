@@ -25,7 +25,7 @@ ms.custom: seo-marvel-mar2020
 
 [Azure Monitor](/azure/azure-monitor/overview) is a collection of monitoring services that were designed in the cloud from the start. Rather than deploying and managing on-premise resources, Azure Monitor components are entirely hosted in Azure. Configuration is minimal, and you can be up and running in a matter of minutes. With some customization work, it can aid in monitoring Microsoft Teams Rooms by providing notifications of system health or faults for individual room systems, and it can scale up to managing thousands of Microsoft Teams Rooms.
   
-This article provides a discussion of the requirements, design/architecture, and implementation best practices needed to implement Azure Monitor based monitoring of Microsoft Teams Rooms. It als provides links to detailed articles on implementing Azure Monitor for Microsoft Teams Rooms and critical reference information for ongoing monitoring of Microsoft Teams Rooms rooms.
+This article provides a discussion of the requirements, design/architecture, and implementation best practices needed to implement Azure Monitor based monitoring of Microsoft Teams Rooms. It also provides links to detailed articles on implementing Azure Monitor for Microsoft Teams Rooms and critical reference information for ongoing monitoring of Microsoft Teams Rooms rooms.
   
 ## Functional overview
 
