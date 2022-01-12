@@ -47,7 +47,7 @@ You can change settings on one or more Teams Rooms in your organization. To chan
 
 If you select more than one, settings that support bulk editing show the two following options.
 
-- **Keep existing value** If you choose this option, no changes will be made to the setting on the Teasm Rooms you selected.
+- **Keep existing value** If you choose this option, no changes will be made to the setting on the Teams Rooms you selected.
 - **Replace existing value with** If you choose this option, you can update the setting on the Teams Rooms you selected with the value you provide.
     > [!CAUTION]
     > Existing values on the settings you choose to update will be replaced with the value you provide. If you want to add to a list of existing values, you need to include the existing values with the value you want to add. For example, if a setting has an existing domain list of `contoso.com, fabrikam.com`, and you want to add `northwindtraders.com`, the value you need to provide would be `contoso.com, fabrikam.com, northwindtraders.com`.
