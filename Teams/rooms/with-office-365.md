@@ -95,7 +95,7 @@ Before you deploy Microsoft Teams Rooms with Office 365, be sure you have met th
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) is not supported. 
 
-5. It is strongly encouraged to disable password expiraiton on Teams Rooms accounts. Below is an example of how to disable password expiration for the account ConferenceRoom01:
+5. It is strongly encouraged to disable password expiration on Teams Rooms accounts. Below is an example of how to disable password expiration for the account ConferenceRoom01:
 
     ``` PowerShell
     Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -PasswordNeverExpires $true
