@@ -29,7 +29,7 @@ Currently, the wizard supports adding 100 users each time you run it. We're work
 
 The wizard is available to all organizations that have at least one [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline). You can run the wizard as many times as you need to roll out Teams to your frontline workforce in different locations or sites across your organization.
 
-Check out this video for an overview of the wizard (just over 3 minutes):
+Check out this short video for an overview of how to run the wizard to onboard your frontline workforce.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWN6oh]
 
