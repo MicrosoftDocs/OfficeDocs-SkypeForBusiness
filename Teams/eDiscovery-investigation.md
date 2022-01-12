@@ -131,7 +131,7 @@ Before you perform these steps, make sure you have the [latest version of the Te
    ```
 
    > [!TIP]
-   > Run the **Get-Team** cmdlet without any parameters to display a list of all Teams in your organization. The list contains the Group Id and MailNickName for every team.
+   > Run the **Get-Team** cmdlet without any parameters to display a list of all Teams in your organization. The list contains the group Id and MailNickName for every team.
 
 2. Run the following command to get a list of private channels in the team. Use the group Id for the team that you obtained in step 1.
 
@@ -164,7 +164,7 @@ To search for content for guest users:
    > [!TIP]
    > Instead of displaying a list of user principal names on the computer screen, you can redirect the output of the command to a text file. You can do this by appending `> filename.txt` to the previous command. The text file with the user principal names will be saved to the current folder.
 
-3. In a different Windows PowerShell window, connect to Security & Compliance Center PowerShell. For instructions, see [Connect to Security & Compliance Center PowerShell](/powershell/exchange/connect-to-scc-powershell). You can connect with or without using multifactor authentication.
+3. In a different Windows PowerShell window, connect to Security & Compliance Center PowerShell. For instructions, see [Connect to Security & Compliance Center PowerShell](/powershell/exchange/connect-to-scc-powershell). You can connect with or without using multi-factor authentication.
 
 4. Create a content search that searches for all content (such as chat messages and email messages) in which the specified guest user was a participant by running the following command.
 
