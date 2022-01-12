@@ -20,7 +20,7 @@ appliesto:
 # Tailor your Teams apps based on license
 
 > [!NOTE]
-> Currently, this feature applies to F licenses. Therefore, this article focuses on the frontline worker experience. Education licenses will be supported in the future.
+> Currently, this feature applies to F licenses. Therefore, this article focuses on the frontline worker experience. Other license types will be supported in the future.
 
 ## Overview
 
@@ -55,7 +55,7 @@ Use the information in this table to learn how the tailored app experience featu
 |The feature is on and you update the global app setup policy.     |The user gets the tailored app experience based on their license. The apps defined in the global app setup policy are still pinned and appear further down in the list of   pinned apps.          |
 |The feature is turned off.   | The user gets the experience that's defined in the global app setup policy or custom app setup policy that's assigned to them.          |
 |A user has an E, A, or G license and the feature is on.   | The user doesn't get the tailored app experience. Currently, the tailored app experience applies only to users who have an F license.        |
-|An app in the tailored app experience is blocked for a user or for your organization.      |The tailored app experience honors the app permission policy. If an app is blocked, users won't see it.           |
+|An app in the tailored app experience is blocked for a user or for your organization.      |The tailored app experience honors the app permission policy. If an app is blocked, users won't see the blocked app.           |
 |An app in the tailored app experience is already defined in an app setup policy and the feature is on. |The app is pinned based on the order defined by the tailored app experience.        |
 
 > [!NOTE]
