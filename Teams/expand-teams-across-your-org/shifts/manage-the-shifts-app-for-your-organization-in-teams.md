@@ -11,6 +11,7 @@ search.appverid: MET150
 searchScope:
   - Microsoft Teams
   - Microsoft Cloud for Healthcare
+  - Microsoft Cloud for Retail
 description: Learn how to set up and manage the Shifts app in Teams for frontline workers in your organization.
 f1.keywords:
 - NOCSH
@@ -19,6 +20,7 @@ ms.collection:
   - M365-collaboration
   - Teams_ITAdmin_FLW
   - microsoftcloud-healthcare
+  - microsoftcloud-retail
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020

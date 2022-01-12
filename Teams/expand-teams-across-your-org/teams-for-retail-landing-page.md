@@ -12,7 +12,11 @@ ms.date: 03/01/2019
 ms.service: msteams
 ms.collection: 
   - M365-collaboration
+  - microsoftcloud-retail
 search.appverid: MET150
+searchScope:
+  - Microsoft Teams
+  - Microsoft Cloud for Retail
 appliesto: 
   - Microsoft Teams
 ---

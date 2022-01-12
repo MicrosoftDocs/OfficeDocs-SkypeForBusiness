@@ -10,6 +10,7 @@ search.appverid: MET150
 searchScope:
   - Microsoft Teams
   - Microsoft Cloud for Healthcare
+  - Microsoft Cloud for Retail
 audience: admin
 description: Learn how to manage the Tasks app for users in your organization.
 ms.localizationpriority: medium
@@ -17,6 +18,7 @@ MS.collection:
   - Teams_ITAdmin_Help
   - M365-collaboration
   - microsoftcloud-healthcare
+  - microsoftcloud-retail
 appliesto: 
   - Microsoft Teams
 ---

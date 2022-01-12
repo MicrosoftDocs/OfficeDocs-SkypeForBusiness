@@ -13,6 +13,9 @@ ms.service: msteams
 ms.collection: 
   - M365-collaboration
 search.appverid: MET150
+searchScope:
+  - Microsoft Teams
+  - Microsoft Cloud for Retail
 appliesto: 
   - Microsoft Teams
 ---

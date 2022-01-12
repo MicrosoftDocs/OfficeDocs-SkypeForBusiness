@@ -11,6 +11,7 @@ search.appverid: MET150
 searchScope:
   - Microsoft Teams
   - Microsoft Cloud for Healthcare
+  - Microsoft Cloud for Retail
 description: Learn how to manage the Lists app in Teams for users in your organization.
 f1.keywords:
   - NOCSH
@@ -18,6 +19,7 @@ ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - microsoftcloud-healthcare
+  - microsoftcloud-retail
   - m365initiative-lists
 appliesto: 
   - Microsoft Teams
