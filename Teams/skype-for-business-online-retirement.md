@@ -23,7 +23,7 @@ ms.custom: seo-marvel-apr2020
 
 # Skype for Business Online retirement
 
-In July 2019, we announced **Skype for Business Online will be retired on July 31, 2021,** giving our customers two years to plan their upgrades to Microsoft Teams, the core app for communication and collaboration in Microsoft 365. As Skype for Business Online is retired, we want to ensure customers have the information and resources they need to plan and execute a successful upgrade to Teams.
+In July 2019, we announced the July 31, 2021 retirement of Skype for Business Online, giving our customers two years to plan their upgrades to Microsoft Teams. Teams is the core app for communication and collaboration in Microsoft 365. As Skype for Business Online is retired, we want to ensure customers have the information and resources they need to plan and execute a successful upgrade to Teams.
 
 ## Why is Skype for Business Online retiring?
 
@@ -37,9 +37,7 @@ For more information about the Skype for Business Online retirement, see [FAQ â€
 
 ## What this means for Skype for Business customers
 
-After Skype for Business Online retires on July 31, 2021, the service will no longer be accessible. Until then, current Skype for Business Online customers will experience no change in service. As of September 1, 2019, all new Microsoft 365 customers have been onboarded directly to Teams for chat, meetings, and calling.
-
-The time needed to fully upgrade to Teams will vary based upon the unique characteristics of the organization, including number of users, technical complexity, and internal adaptability to change. We strongly recommend that you begin your upgrade to Teams today. By starting your upgrade today, you'll have ample time to finish it prior to the retirement date. Beginning in August, Microsoft will provide an assisted upgrade process to help you move any remaining Skype for Business Online users to Teams Only.
+The time needed to fully upgrade to Teams will vary based upon the unique characteristics of the organization, including number of users, technical complexity, and internal adaptability to change. We strongly recommend that you begin your upgrade to Teams today. Microsoft provides an assisted upgrade process to help you move remaining Skype for Business Online users to Teams Only.
 
 Teams is available in most Microsoft 365 Business and Enterprise plans, and your existing licensing investments carry forward to Teams. Capabilities that are premium workloads in Skype for Business Online today will continue to be premium workloads in Teams. For example, if you have purchased Audio Conferencing standalone or as part of E5 with Skype for Business, Audio Conferencing will be enabled in Teams.
 
@@ -47,7 +45,7 @@ The Skype consumer service and Skype for Business Server are not affected by the
 
 ## How Microsoft is helping customers upgrade to Teams
 
-We strongly recommend that you begin your upgrade from Skype for Business Online to Teams today. By starting your upgrade today, you'll have ample time to finish it prior to the retirement date.
+We strongly recommend that you begin your upgrade from Skype for Business Online to Teams today.
 
 Take advantage of the resources available to help plan your Teams deployment and upgrade from Skype for Business:
 
@@ -72,7 +70,7 @@ If youâ€™re a current Skype for Business Online customer, start planning your up
 ## What to expect post-retirement
 It is no longer possible for users homed in the cloud to be assigned a mode other than TeamsOnly. Users that are TeamsOnly cannot be assigned any other coexistence mode.
 
-In addition, Microsoft will provide assisted upgrades for Skype for Business Online users not in Teams Only mode at retirement. Customers will receive notifications in both the Teams admin center, and the Microsoft 365 Message Center, 90 days before their scheduled upgrade date to allow time for technical and user readiness.
+In addition, Microsoft will provide assisted upgrades for Skype for Business Online users not in Teams Only mode at retirement. Customers will receive notifications in both the Teams admin center, and the Microsoft 365 Message Center, 30 days before their scheduled upgrade date to allow time for technical and user readiness.
 
 After the assisted upgrade is complete, all online users will be in Teams Only mode. Users in Teams Only mode receive incoming chats and calls, and schedule meetings, in Teams. Users in Teams Only mode will not be able to initiate chats or calls or schedule meetings in Skype for Business Online. Teams Only users will still be able to join Skype for Business meetings scheduled by users still using Skype for Business Server.
 
@@ -80,7 +78,7 @@ For more information, see [Assisted Upgrades from Skype for Business Online to M
 
 ## What organizations with hybrid configurations (Skype for Business Online and on-premises Skype for Business Server) can expect when Skype for Business Online retires
 
-Hybrid customers with online and on-premises configurations will be required to upgrade online users from Skype for Business Online to Microsoft Teams by the July 31, 2021 retirement date. Microsoft will provide assisted upgrades to help upgrade remaining Skype for Business Online users to Teams Only mode after the retirement date.
+Hybrid customers with online and on-premises configurations will be required to upgrade online users from Skype for Business Online to Microsoft Teams. Microsoft will provide assisted upgrades to help upgrade remaining Skype for Business Online users to Teams Only mode.
 
 Organizations with a hybrid configuration can continue to use Skype for Business and Teams side-by-side until they're ready to move to Teams Only mode. After the Skype for Business Online retirement date, when a Skype for Business Server user is moved to the cloud, that user will be in Teams Only mode.
 

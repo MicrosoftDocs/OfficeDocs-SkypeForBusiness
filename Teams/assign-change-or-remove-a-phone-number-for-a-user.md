@@ -61,7 +61,7 @@ To assign a number by using the Teams admin center:
 To assign numbers by using PowerShell, use the [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser) cmdlet as follows:
 
 
-``PowerShell
+```PowerShell
 Set-CsOnlineVoiceUser -Identity <user>  -TelephoneNumber <phone number> 
 ```
 

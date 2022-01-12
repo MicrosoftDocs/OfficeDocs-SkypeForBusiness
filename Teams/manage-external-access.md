@@ -139,7 +139,7 @@ To test your setup, you need a Teams user who's not behind your firewall.
 
 ## Limit external access to specific people
 
-You can limit external access to specific people by using PowerShell.
+If you've enabled **People in my organization can communicate with Teams users whose accounts aren't managed by an organization**, you can limit external access to specific people by using PowerShell.
 
 You can use the example script below, substituting *PolicyName* for the name you want to give the policy, and *UserName* for each user you want to be able to use external access.
 
@@ -176,7 +176,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyNam
 
 See [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) for additional examples of how to compile a user list.
 
-You can see the new policy by running `Get-CsExternalAccessPolicy -Include All`.
+You can see the new policy by running `Get-CsExternalAccessPolicy`.
 
 
 See also [New-CsExternalAccessPolicy](/powershell/module/skype/new-csexternalaccesspolicy) and [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy).
