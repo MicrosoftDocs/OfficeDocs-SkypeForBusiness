@@ -22,17 +22,17 @@ ms.custom: seo-marvel-apr2020
 
 The Virtual Visits usage report in the Microsoft Teams admin center gives you an overview of Teams Virtual Visits activity in your organization. You can view detailed activity for virtual appointments scheduled through the [Bookings app](../expand-teams-across-your-org/bookings-virtual-visits.md) and the [Microsoft Teams Electronic Health Records (EHR) connector](../expand-teams-across-your-org/healthcare/teams-in-hc.md#virtual-visits-and-electronic-healthcare-record-ehr-integration). To learn more about Virtual Visits, see [Virtual Visits with Teams](../expand-teams-across-your-org/virtual-visits.md).
 
-The report contains the following tabs.
+This report contains the following tabs.
 
 |Tab |Description  |
 |---------|---------|
-|**[Virtual Visits](#virtual-visits)**     |Shows the total number of Virtual Visits, and of these, the number of Virtual Visits scheduled using the Bookings app and conducted from your EHR system through the Team EHR connector.         |
+|**[Virtual Visits](#virtual-visits)**     |Shows the total number of Virtual Visits, and of these, the number of Virtual Visits scheduled using the Bookings app and conducted in Teams from your EHR system through the Team EHR connector.         |
 |**[Duration](#duration)**     |Shows the average duration of Virtual Visits and average lobby wait time of attendees.         |
 |**[Bookings](#bookings)**     |Shows the number of Virtual Visits scheduled through the Bookings app.         |
 |**[EHR](#ehr)**     |Shows the number of Virtual Visits conducted in Teams from your EHR system through the Teams EHR connector.         |
 
 > [!NOTE]
-> To see the information in this report, you'll need the appropriate licenses for the Bookings app, the Teams EHR connector, or both.  
+> The information you'll see in the report depends on whether you have licenses for the Bookings app, the Teams EHR connector, or both.  
 
 Use this report to gain insight into Virtual Visits activity and trends in your organization. The information can help you evaluate, track, and improve Virtual Visits adoption and the attendee experience. For example, you can determine whether sending SMS notifications to attendees before appointments reduces the number of no shows.
 
@@ -45,49 +45,61 @@ Use this report to gain insight into Virtual Visits activity and trends in your 
 
 ### Virtual Visits
 
+[placeholder for screenshot with numbered callouts]
+
+> [!NOTE]
+> The graphs you'll see here depend on whether you have a license for the Bookings app, the Teams EHR connector, or both. To learn more, see [Manage the Bookings app](../bookings-app-admin.md), and [Integration into Cerner EHR](../expand-teams-across-your-org/healthcare/ehr-admin-cerner.md) or [Integration into Epic EHR](../expand-teams-across-your-org/healthcare/ehr-admin.md).
+
 |Callout |Description  |
 |--------|-------------|
 |**1**   |Each report has a date for when the report was generated. The reports usually reflect a 24 to 48-hour latency from time of activity. |
 |**2**   |The X axis is the selected date range for the report. The Y axis is the number of Virtual Visits.<br>Hover over the dot on a given date to see the number of Virtual Visits on that date.|
-|**3**   |You can filter what you see on the chart by selecting an item in the legend. For example, select **Total Bookings Virtual Visits**, **Total EHR Virtual Visits**, or **Total Virtual Visits** to see only the info related to each one. Changing this selection doesn’t change the information in the table. |
-|**4**   |The table gives you detailed information about each Virtual Visit that took place during the selected date range. <ul><li>**Start time (UTC)** is the date and time when both a staff member and participant are in the meeting.  </li> <li>**Meeting ID** is the unique ID of the meeting.</li> <li>**Lobby wait time** is the time that the participant waits in the lobby before being admitted to the meeting by a staff member.</li><li>**Duration** is the time difference between the start time and when the last person leaves the meeting.</li> <li>**Status** shows the meeting status. <ul><li>Completed: If one or more staff members and participants join the meeting and the meeting has ended. <br> If one or more staff members join the meeting and the meeting has ended.</li> <li> No show: If one staff member joins the meeting but no other people join, and the meeting has ended. </li></ul> </li> <li>**Meeting type** indicates whether the virtual appointment was scheduled through the Bookings app or the Teams EHR connector.</li> <li>**Attendees** is the total number of participants in the meeting.</li> <li>**SMS sent** indicates whether an SMS notification was sent to attendees. </li> </li> </ul> |
+|**3**   |You can filter what you see on the chart by selecting an item in the legend. For example, select **Total Bookings Virtual Visits** or **Total EHR Virtual Visits** to see only the info related to each one. Changing this selection doesn’t change the information in the table. |
+|**4**   |The table gives you detailed information about each Virtual Visit that took place during the selected date range. <ul><li>**Start time (UTC)** is the date and time when both a staff member and participant are in the meeting.  </li> <li>**Meeting ID** is the unique ID of the meeting.</li> <li>**Lobby wait time** is the time that the participant waits in the lobby before being admitted to the meeting by a staff member.</li><li>**Duration** is the time difference between the start time and when the last person leaves the meeting.</li> <li>**Status** shows the meeting status. <ul><li>**Completed**: If one or more staff members and participants join the meeting and the meeting has ended. Or, if one or more staff members join the meeting and the meeting has ended.</li> <li> **No show**: If one staff member joins the meeting but no other people join, and the meeting has ended. </li></ul> </li> <li>**Meeting type** indicates whether the virtual appointment was scheduled through the Bookings app or the Teams EHR connector.</li> <li>**Attendees** is the total number of participants in the meeting.</li> <li>**SMS sent** indicates whether an SMS notification was sent to attendees. </li> </li> </ul> |
 |**5**   |Select **Edit columns** to add or remove columns in the table. To see the information that you want in the table, make sure to add the columns to the table.|
 |**6**   |You can export the report to a CSV file for offline analysis. Select **Export to Excel**, and then on the **Downloads** tab, choose **Download** to download the report when it's ready.|
 
 ### Duration
+
+[placeholder for screenshot with numbered callouts]
 
 |Callout |Description  |
 |--------|-------------|
 |**1**   |Each report has a date for when the report was generated. The reports usually reflect a 24 to 48-hour latency from time of activity. |
 |**2**   |The X axis is the selected date range for the report. The Y axis is the number of minutes.<br>Hover over the dot on a given date to see the average Virtual Visit duration or average lobby wait time for a given date.  |
 |**3**   |You can filter what you see on the chart by selecting an item in the legend. For example, select **Average virtual visit duration** or **Average lobby wait time** to see only the info related to each one. Changing this selection doesn’t change the information in the table. |
-|**4**   |The table gives you detailed information about each virtual appointment that took place during the selected date range. <ul><li>**Start time (UTC)** is the date and time when both a staff member and attendee are in the meeting.  </li> <li>**Meeting ID** is the unique ID of the meeting.</li> <li>**Lobby wait time** is the time (in minutes) that the attendee waits in the lobby before being admitted to the meeting by a staff member.</li><li>**Duration** is the length of time between the start time and when the last person leaves the meeting.</li> <li>**Status** shows the virtual appointment status. <ul><li>Completed:</li> <li> No show:</li></ul> </li> <li>**Meeting type** indicates whether the virtual appointment was scheduled through the Bookings app or the Teams EHR connector.</li> <li>**Attendees** is the total number of participants in the meeting.</li> <li>**SMS sent** indicates whether an SMS notification was sent to attendees. </li> </li> </ul> |
+|**4**   |The table gives you detailed information about each Virtual Visit that took place during the selected date range. <ul><li>**Start time (UTC)** is the date and time when both a staff member and participant are in the meeting.  </li> <li>**Meeting ID** is the unique ID of the meeting.</li> <li>**Lobby wait time** is the time that the participant waits in the lobby before being admitted to the meeting by a staff member.</li><li>**Duration** is the time difference between the start time and when the last person leaves the meeting.</li> <li>**Status** shows the meeting status. <ul><li>**Completed**: If one or more staff members and participants join the meeting and the meeting has ended. Or, if one or more staff members join the meeting and the meeting has ended.</li> <li> **No show**: If one staff member joins the meeting but no other people join, and the meeting has ended. </li></ul> </li> <li>**Meeting type** indicates whether the virtual appointment was scheduled through the Bookings app or the Teams EHR connector.</li> <li>**Attendees** is the total number of participants in the meeting.</li> <li>**SMS sent** indicates whether an SMS notification was sent to attendees. </li> </li> </ul> |
 |**5**   |Select **Edit columns** to add or remove columns in the table. To see the information that you want in the table, make sure to add the columns to the table.|
 |**6**   |You can export the report to a CSV file for offline analysis. Select **Export to Excel**, and then on the **Downloads** tab, choose **Download** to download the report when it's ready.|
 ### Bookings
 
-You'll see this tab if you have a license that includes the Bookings app. To learn more, see [Manage the Bookings app](../bookings-app-admin.md).
+[placeholder for screenshot with numbered callouts]
+
+> [!NOTE]
+> You'll see this tab if you have a license that includes the Bookings app. To learn more, see [Manage the Bookings app](../bookings-app-admin.md).
 
 |Callout |Description  |
 |--------|-------------|
 |**1**   |Each report has a date for when the report was generated. The reports usually reflect a 24 to 48-hour latency from time of activity. |
 |**2**   |The X axis is the selected date range for the report. The Y axis is the number of Bookings Virtual Visits.<br>Hover over the dot on a given date to see the number of Bookings Virtual Visits that occurred on that date.|
-|**3**   ||
-|**4**   |The table gives you detailed information about each virtual appointment that took place during the selected date range. <ul><li>**Start time (UTC)** is the date and time when both a staff member and attendee are in the meeting.  </li> <li>**Meeting ID** is the unique ID of the meeting.</li> <li>**Lobby wait time** is the time (in minutes) that the attendee waits in the lobby before being admitted to the meeting by a staff member.</li><li>**Duration** is the length of time between the start time and when the last person leaves the meeting.</li> <li>**Status** shows the virtual appointment status. <ul><li>Completed:</li> <li> No show:</li></ul> </li> <li>**Meeting type** indicates whether the virtual appointment was scheduled through the Bookings app or the Teams EHR connector.</li> <li>**Attendees** is the total number of participants in the meeting.</li> <li>**SMS sent** indicates whether an SMS notification was sent to attendees. </li> </li> </ul> |
-|**5**   |Select **Edit columns** to add or remove columns in the table. To see the information that you want in the table, make sure to add the columns to the table.|
-|**6**   |You can export the report to a CSV file for offline analysis. Select **Export to Excel**, and then on the **Downloads** tab, choose **Download** to download the report when it's ready.|
+|**3**   |The table gives you detailed information about each Virtual Visit that took place during the selected date range. <ul><li>**Start time (UTC)** is the date and time when both a staff member and participant are in the meeting.  </li> <li>**Meeting ID** is the unique ID of the meeting.</li> <li>**Lobby wait time** is the time that the participant waits in the lobby before being admitted to the meeting by a staff member.</li><li>**Duration** is the time difference between the start time and when the last person leaves the meeting.</li> <li>**Status** shows the meeting status. <ul><li>**Completed**: If one or more staff members and participants join the meeting and the meeting has ended. Or, if one or more staff members join the meeting and the meeting has ended.</li> <li> **No show**: If one staff member joins the meeting but no other people join, and the meeting has ended. </li></ul> </li> <li>**Meeting type** indicates whether the virtual appointment was scheduled through the Bookings app or the Teams EHR connector.</li> <li>**Attendees** is the total number of participants in the meeting.</li> <li>**SMS sent** indicates whether an SMS notification was sent to attendees. </li> </li> </ul> |
+|**4**   |Select **Edit columns** to add or remove columns in the table. To see the information that you want in the table, make sure to add the columns to the table.|
+|**5**   |You can export the report to a CSV file for offline analysis. Select **Export to Excel**, and then on the **Downloads** tab, choose **Download** to download the report when it's ready.|
 ### EHR
 
-You'll see this tab if you have an active subscription to Microsoft Cloud for Healthcare or a subscription to the Teams EHR connector standalone offer. To learn more, see [Integration into Cerner EHR](../expand-teams-across-your-org/healthcare/ehr-admin-cerner.md) or [Integration into Epic EHR](../expand-teams-across-your-org/healthcare/ehr-admin.md).
+[placeholder for screenshot with numbered callouts]
+
+> [!NOTE]
+> You'll see this tab if you have a license that includes the Teams EHR connector. To learn more, see [Integration into Cerner EHR](../expand-teams-across-your-org/healthcare/ehr-admin-cerner.md) or [Integration into Epic EHR](../expand-teams-across-your-org/healthcare/ehr-admin.md).
 
 |Callout |Description  |
 |--------|-------------|
 |**1**   |Each report has a date for when the report was generated. The reports usually reflect a 24 to 48-hour latency from time of activity. |
 |**2**   |The X axis is the selected date range for the report. The Y axis is the number of EHR Virtual Visits.<br>Hover over the dot on a given date to see the number of EHR Virtual Visits on that date.|
-|**3**   ||
-|**4**   |The table gives you detailed information about each virtual appointment that occurred during the selected date range. <ul><li>**Start time (UTC)** is the date and time when both a staff member and attendee are in the meeting.  </li> <li>**Meeting ID** is the unique ID of the meeting.</li> <li>**Lobby wait time** is the time (in minutes) that the attendee waits in the lobby before being admitted to the meeting by a staff member.</li><li>**Duration** is the length of time between the start time and when the last person leaves the meeting.</li> <li>**Status** shows the virtual appointment status. <ul><li>Completed:</li> <li> No show:</li></ul> </li> <li>**Meeting type** indicates whether the virtual appointment was scheduled through the Bookings app or the Teams EHR connector.</li> <li>**Attendees** is the total number of participants in the meeting.</li> <li>**SMS sent** indicates whether an SMS notification was sent to attendees. </li> </li> </ul> |
-|**5**   |Select **Edit columns** to add or remove columns in the table. To see the information that you want in the table, make sure to add the columns to the table.|
-|**6**   |You can export the report to a CSV file for offline analysis. Select **Export to Excel**, and then on the **Downloads** tab, choose **Download** to download the report when it's ready.|
+|**3**   |The table gives you detailed information about each Virtual Visit that took place during the selected date range. <ul><li>**Start time (UTC)** is the date and time when both a staff member and participant are in the meeting.  </li> <li>**Meeting ID** is the unique ID of the meeting.</li> <li>**Lobby wait time** is the time that the participant waits in the lobby before being admitted to the meeting by a staff member.</li><li>**Duration** is the time difference between the start time and when the last person leaves the meeting.</li> <li>**Status** shows the meeting status. <ul><li>**Completed**: If one or more staff members and participants join the meeting and the meeting has ended. Or, if one or more staff members join the meeting and the meeting has ended.</li> <li> **No show**: If one staff member joins the meeting but no other people join, and the meeting has ended. </li></ul> </li> <li>**Meeting type** indicates whether the virtual appointment was scheduled through the Bookings app or the Teams EHR connector.</li> <li>**Attendees** is the total number of participants in the meeting.</li> <li>**SMS sent** indicates whether an SMS notification was sent to attendees. </li> </li> </ul> |
+|**4**   |Select **Edit columns** to add or remove columns in the table. To see the information that you want in the table, make sure to add the columns to the table.|
+|**5**   |You can export the report to a CSV file for offline analysis. Select **Export to Excel**, and then on the **Downloads** tab, choose **Download** to download the report when it's ready.|
 ## Related articles
 
+- [Virtual Visits with Teams](../expand-teams-across-your-org/virtual-visits.md)
 - [Teams analytics and reporting](teams-reporting-reference.md)
