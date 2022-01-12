@@ -679,8 +679,8 @@ Many Measurement values can also be used as filters. The following table lists t
 |Second Audio Echo MIC_CLIPPING Count |Number of streams |Number of streams where the second endpoints detected clipping in the captured audio that limited echo cancellation in audio sent. |
 |Second Audio Echo BAD_STATE Count |Number of streams |Number of streams where the second endpoints detected issues with the internal state that limited echo cancellation in audio sent. |
 |Avg Audio Degradation |Mean Opinion Score (0-5) |Average Network Mean Opinion Score degradation for streams. Represents how much the network loss and jitter have impacted the quality of received audio. |
-|Avg Jitter |Milliseconds |Average network jitter for streams in milliseconds. |
-|Avg Jitter Max |Milliseconds |Maximum network jitter for streams in milliseconds. |
+|Avg Jitter |Milliseconds |Average network jitter for streams in milliseconds. This is inter-arrival jitter as reported in the generic network payload, and is reported for all stream types. |
+|Avg Jitter Max |Milliseconds |Maximum network jitter for streams in milliseconds. This is inter-arrival jitter as reported in the generic network payload, and is reported for all stream types. |
 |Avg Packet Loss Rate |Ratio |Average of average percentage of packets lost computed using 5 second interval for streams. 0.1 indicates 10% packet loss. |
 |Avg Packet Loss Rate Max |Ratio |Average of maximum percentage of packets lost during any 5 second interval for streams. 0.1 indicates 10% packet loss. |
 | Avg Send Listen MOS |Number |Average of the prediction of the Wideband Listening Quality Mean Opinion Score (MOS-LQ) of the audio stream that is being sent from the user. <br/>See "Avg. sending MOS" at [Lync Monitoring Reports Decoder](https://gallery.technet.microsoft.com/Lync-Reports-Decoder-001ba287)|
@@ -693,12 +693,13 @@ Many Measurement values can also be used as filters. The following table lists t
 |Avg Round Trip |Milliseconds |Average of average network propagation round-trip time computed as specified in RFC3550 in milliseconds for streams. |
 |Avg Round Trip Max |Milliseconds |Average of maximum network propagation round-trip time computed as specified in RFC3550 in milliseconds for streams. |
  Avg Packet Utilization|Number of packets|Average number of Real-Time Transport Protocol (RTP) packets sent per second in the session.|
-|Avg Network Jitter |Milliseconds |   Average of network jitter computed over 20 second windows during the session. |
-| Avg Network Jitter Max|Milliseconds |Average of maximum network jitter in milliseconds computed over 20 second windows during the session.  |
-| Avg Network Jitter Min|Milliseconds|Average of minimum network jitter values in milliseconds computed over 20 second windows during the session for streams.|
-| Avg Jitter Buffer Size Max|Milliseconds|Maximum size of jitter buffer during session.|
-| Avg Jitter Buffer Size Min|Milliseconds|Minimum size of jitter buffer during session.|
-| Avg Relative OneWay |Milliseconds|Average computed relative one way delay of the peer.|
+|Avg Network Jitter |Milliseconds |   Average of network jitter computed over 20 second windows during the session. This metric is contained in the audio payload of the QoE. Stream types other than audio will not report a value for this measurement. |
+| Avg Network Jitter Max|Milliseconds |Average of maximum network jitter in milliseconds computed over 20 second windows during the session. This metric is contained in the audio payload of the QoE. Stream types other than audio will not report a value for this measurement. |
+| Avg Network Jitter Min|Milliseconds|Average of minimum network jitter values in milliseconds computed over 20 second windows during the session for streams. This metric is contained in the audio payload of the QoE. Stream types other than audio will not report a value for this measurement.|
+| Avg Jitter Buffer Size|Milliseconds|Average size of jitter buffer during session. This metric is contained in the audio payload of the QoE. Stream types other than audio will not report a value for this measurement.|
+| Avg Jitter Buffer Size Max|Milliseconds|Maximum size of jitter buffer during session. This metric is contained in the audio payload of the QoE. Stream types other than audio will not report a value for this measurement.|
+| Avg Jitter Buffer Size Min|Milliseconds|Minimum size of jitter buffer during session. This metric is contained in the audio payload of the QoE. Stream types other than audio will not report a value for this measurement.|
+| Avg Relative OneWay |Milliseconds|Average computed relative one way delay of the peer. |
 | Avg Relative OneWay Gap Occurrences|Milliseconds|Average number of instances of gaps in the relative one way delay of the peer.|
 | Avg Relative OneWay Gap Density|Milliseconds|Average density of gaps in the relative one way delay of the peer.|
 | Avg Relative OneWay Gap Duration|Number (Milliseconds)|Average duration of gaps in the relative one way delay of the peer.|
