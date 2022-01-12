@@ -31,7 +31,7 @@ appliesto:
 
 Microsoft provides complete Private Branch Exchange (PBX) capabilities for your organization through Teams Phone. However, to enable users to make calls outside your organization, you need to connect Teams Phone to the Public Switched Telephone Network (PSTN).
 
-This article focuses on PSTN connectivity options. For more information about Microsoft voice solutions, incuding details about Teams Phone features, see [Plan your Teams voice solution](cloud-voice-landing-page.md).
+This article focuses on PSTN connectivity options. For more information about Microsoft voice solutions, including details about Teams Phone features, see [Plan your Teams voice solution](cloud-voice-landing-page.md).
 
 To connect Teams Phone to the PSTN, you can choose from the following options:
 
@@ -101,7 +101,7 @@ If you answer yes to the following questions, then Teams Phone with Direct Routi
 - You want to use Teams with Teams Phone.
 - You need to retain your current PSTN carrier.
 - You want to mix routing, with some calls going through Calling Plan, some through your carrier.
-- You need to interoperate with third-party PBXs and/or equipment such us overhead pagers, analog devices, and so on.
+- You need to interoperate with third-party PBXs and/or equipment such as overhead pagers, analog devices, and so on.
 
 With this option:
 
