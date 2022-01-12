@@ -33,7 +33,7 @@ Windows Updates can be managed as discussed in the following sections:
 ## Windows Updates for Business (GPO or Intune)  
 
 - [Windows Updates for Business](/windows/deployment/update/waas-manage-updates-wufb) download
-- Updates are downloaded from Windows Update or your Windows Server Update Services(WSUS) but with configured delays past the original release date.
+- Updates are downloaded from Windows Update or your Windows Server Update Services (WSUS) but with configured delays past the original release date.
 - You can use multiple OUs or filtered policies to create deployment "rings" where administrators can specify which Teams Rooms devices install Quality Updates first and which ones install later. Reliability and performance can be tested on a subset of devices before rolling out updates across the entire deployment without the overhead of managing Windows Updates in Configuration Manager.
 - WSUS and Windows Updates for Business can be [configured at the same time](/windows/deployment/update/waas-integrate-wufb) if you desire both the bandwidth management and the control Windows Updates for Business provides.
 - Feature updates. See the notes that follow.
