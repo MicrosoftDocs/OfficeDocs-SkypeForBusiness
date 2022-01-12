@@ -22,7 +22,7 @@ description: This article describes how to set up and configure the Microsoft Te
 This article describes how to build a Microsoft Teams Rooms image for mass deployment of Teams Rooms.
 
 > [!NOTE]
-> The following steps should only be used when creating a [WIM-based image](/windows-hardware/manufacture/desktop/capture-and-apply-an-image) for mass deployment. If you are recovering individual devices, please reach out to your Original Equipment Manufacturer (OEM) for support.
+> The following steps should only be used when creating a [WIM-based image](/windows-hardware/manufacture/desktop/capture-and-apply-an-image) for mass deployment. If you are recovering individual devices, contact your Original Equipment Manufacturer (OEM) for support.
 
 You should only perform these steps if the necessary Microsoft Teams or Skype for Business and Exchange accounts have already been created and tested as described in [Deploy Microsoft Teams Rooms](rooms-deploy.md). You will need the hardware and software described in [Microsoft Teams Rooms requirements](requirements.md). This topic contains the following sections:
   
@@ -31,7 +31,7 @@ You should only perform these steps if the necessary Microsoft Teams or Skype fo
 - [Install Windows 10 and the Microsoft Teams Rooms console app](console.md#Reimage)
 - [Initial set up of the console](console.md#Initial)
 - [Microsoft Teams Rooms deployment checklist](console.md#Checklist)
-  
+
 ## Prepare the installation media
 <a name="Prep_Media"> </a>
 
