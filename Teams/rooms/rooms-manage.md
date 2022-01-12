@@ -103,7 +103,7 @@ If you select more than one, settings that support bulk editing show the two fol
 ## Cortana settings 
 You can enable Cortana for _Voice Activation_ or _Push to talk_ using PowerShell for all devices in your organization, or for each device separately.
 
-See [Microsoft Teams Rooms on Windows](../cortana-in-teams.md) in the "Cortana voice assitance in Teams" article.
+See [Microsoft Teams Rooms on Windows](../cortana-in-teams.md) in the "Cortana voice assistance in Teams" article.
 
 ### Device restart options
 
