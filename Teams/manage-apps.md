@@ -154,7 +154,7 @@ Use org-wide app settings to control whether users get a tailored app experience
 
     ![Screenshot of org-wide app settings.](media/manage-apps-org-wide-app-settings.png)
 
-1. Under **Tailored apps**, turn off or turn on **Show tailored apps based on licenses**. When this setting is on, users get an experience in which a tailored set of apps are pinned based on their license. To learn more, see [Tailor your Teams apps based on license](pin-teams-apps-based-on-license.md).
+1. Under **Tailored apps**, turn off or turn on **Show tailored apps based on licenses**. When this setting is on, users get an experience in which apps are pinned based on their license. To learn more, see [Tailor your Teams apps based on license](pin-teams-apps-based-on-license.md).
 1. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps:
 
     - **Allow third-party apps**: This controls whether users can use third-party apps. If you turn off this setting, your users won't be able to install or use any third-party apps and the app status of these apps is displayed as **Blocked org-wide** in the table.
