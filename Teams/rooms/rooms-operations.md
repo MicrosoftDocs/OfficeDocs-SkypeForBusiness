@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 description: "Read this topic to learn about management of Microsoft Teams Rooms."
 ---
 
-# Microsoft Teams Rooms maintenance and operations 
+# Microsoft Teams Rooms maintenance and operations
  
 Read this topic to learn about management of Microsoft Teams Rooms.
   
@@ -24,9 +24,9 @@ Microsoft Teams Rooms is Microsoft's conferencing solution designed to transform
 ## Collecting logs on Microsoft Teams Rooms
 <a name="Logs"> </a>
 
-You can collect logs via Teams admin center. In Teams admin center, navigate to Devices\Teams Rooms on Windows. From this page, click on the display name for which you want to download logs. In the top panel, click on "Download device logs". You will be prompted with a notice. Click "Got it". After a few minutes, the logs will be ready for download in the History tab.
+To collect logs in Teams admin center, go to **Teams devices > Teams Rooms on Windows**. Select the display name of the device you want logs for. In the top panel, select "Download device logs." Once you confirm, the logs will be ready for download in the History tab after a few minutes.
 
-You can also use PowerShell to collect logs. You must invoke the log collection script that ships with the Microsoft Teams Rooms app. In Admin mode, start an elevated command prompt, and issue the following command:
+You can also use PowerShell to collect logs. You must invoke the log collection script that ships with the Microsoft Teams Rooms app. In [Admin mode](rooms-operations.md), start an elevated command prompt, and issue the following command:
   
 ```PowerShell
 powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
@@ -39,7 +39,7 @@ The logs will be output as a ZIP file in c:\rigel.
 
 Configure the settings of your Front of Room display(s) to support Consumer Electronics Control(CEC) or enable PC Mode.
   
-If you desire a front of room display to automatically switch to Teams Rooms when it wakes from standby mode, certain conditions must be met. This feature is optional but supported by Microsoft Teams Rooms software, provided underlying hardware supports the feature. A consumer TV used as a front of room display needs to support the Consumer Electronics Control (CEC) feature of HDMI.  Depending on the dock or console selected (which might not support CEC, refer to manufacturer support documentation), a controller such as an [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) from Crestron or [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) from Extron may be needed to enable the desired behavior. 
+If you desire a front of room display to automatically switch to Teams Rooms when it wakes from standby mode, certain conditions must be met. This feature is optional but supported by Microsoft Teams Rooms software, provided underlying hardware supports the feature. A consumer TV used as a front of room display needs to support the Consumer Electronics Control (CEC) feature of HDMI.  Depending on the dock or console selected (which might not support CEC, refer to manufacturer support documentation), a controller such as an [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) from Crestron or [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) from Extron may be needed to enable the desired behavior.
   
 ## Microsoft Teams Rooms Reset (Factory Restore)
 <a name="Reset"> </a>
@@ -57,7 +57,7 @@ The following table summarizes the possible remote operations and the methods yo
 
 |Workgroup|Not domain joined|Domain joined|
 |:-----|:-----|:-----|
-|Restart  <br/> |Teams admin center  <br/> Remote desktop  <br/> Remote Powershell  <br/> | <br/>Remote desktop (requires further configuration)  <br/> Remote Powershell (requires further configuration)  <br/> Configuration Manager  <br/> |
+|Restart  <br/> |Teams admin center  <br/> Remote desktop  <br/> Remote PowerShell  <br/> | <br/>Remote desktop (requires further configuration)  <br/> Remote PowerShell (requires further configuration)  <br/> Configuration Manager  <br/> |
 |Update OS  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
 |App update  <br/> |Windows Store  <br/> |Windows Store  <br/> Configuration Manager  <br/> |
 |Account Config  <br/> |Teams admin center  <br/> |Teams admin center  <br/> |
@@ -74,7 +74,7 @@ Joining Teams Rooms to an Active Directory domain provides the following benefit
 
 - You can deploy Windows Quality of Service configuration to Teams Rooms.
 
-- If using Skype for Business, Domain-joining the Teams Rooms helps in importing your organization's private root certificate chain automatically.
+- If using Skype for Business, domain-joining the Teams Rooms automates importing your organization's private root certificate chain.
 
 When you join Teams Rooms to a domain, it is required that you create a separate Organizational Unit (OU), so that you can provide Group Policy Object (GPO) exclusions to the OU where all Teams Rooms objects reside. Disable all GPO inheritance so that unsupported Group Policy settings do not get applied to Teams Rooms. Create machine objects in the OU before joining Teams Rooms to the domain to assure that Group Policies applied to the default computers OU are not applied.
 
@@ -188,7 +188,7 @@ Microsoft Teams Rooms connects to Windows Update to retrieve operating system an
   
 If you must manage updates manually due to limitations in accessing Windows store, and are therefore unable to follow the normal procedure for [Microsoft Store for Business](https://businessstore.microsoft.com/store) to [Distribute offline apps](/microsoft-store/distribute-offline-apps), you can acquire the appropriate APPX file and dependencies from the [deployment kit](https://go.microsoft.com/fwlink/?linkid=851168) (from the instructions to [Configure a Microsoft Teams Rooms console](console.md)) that can be used with Configuration Manager. The deployment kit release lags behind the store release, so it might not always match the latest available build.
   
-### To update using Powershell
+### To update using PowerShell
 
 1. Extract the package from the installation [MSI](https://go.microsoft.com/fwlink/?linkid=851168) to a share the device can access.
 2. Run the following script targeting the Microsoft Teams Rooms devices, changing \<share\> to the device share as appropriate:
@@ -213,7 +213,7 @@ Some management functions, like manually installing a private CA certificate, re
 7. Perform the necessary administrative tasks.
 8.  Restart the machine when you're finished.
     
-The console is now back in its normal operation mode.The following procedure requires you to attach a keyboard to the device if one is not already attached. 
+The console is now back in its normal operation mode. The following procedure requires you to attach a keyboard to the device if one is not already attached. 
   
 ### Switching to Admin Mode and back when the Microsoft Teams Rooms app crashes
 
