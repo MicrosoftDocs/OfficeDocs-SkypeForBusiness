@@ -47,11 +47,14 @@ Apps pinned for users who have an F license:
 
 ## Admin controls
 
-User pinning must be turned on in the global (org-wide default) app setup policy for this feature to take effect. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
+> [!NOTE]
+> User pinning must be turned on in the global (org-wide default) app setup policy for this feature to take effect. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
 
-The tailored app experience feature is controlled by the **Show tailored apps based on licenses** org-wide app setting. If the feature is on, all users in your organization who have an F license will get the tailored app experience.
+The tailored app experience feature is controlled by the **Show tailored apps based on licenses** org-wide app setting on the [Manage apps](manage-apps.md) page of the Teams admnin center. If the feature is on, all users in your organization who have an F license will get the tailored app experience.
 
-This feature is on by default. However, if you don't want the tailored app experience provided by Microsoft, you can turn off the setting on the [Manage apps](manage-apps.md) page of the Teams admin center. To learn more, see [Manage org-wide app settings](manage-apps.md#manage-org-wide-app-settings). 
+:::image type="content" source="media/pin-teams-apps-based-on-license.png" alt-text="Screenshot of the Show tailored apps based on license org-wide app setting":::
+
+This feature is on by default. However, if you don't want the tailored app experience provided by Microsoft, you can turn off the setting on the [Manage apps](manage-apps.md) page.
 
 Keep in mind that any custom app setup policies assigned to users take precedence. This means that if a user already has a custom app setup policy assigned to them, the user gets the configuration that's defined in the custom app setup policy. To learn more about how the feature works with existing app setup policies that you've applied in your organization, see the [Scenarios](#scenarios) section of this article.
 
