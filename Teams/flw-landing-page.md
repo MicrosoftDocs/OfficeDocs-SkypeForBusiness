@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Learn how you can use Teams to empower the frontline workers in your organization.
-ms.localizationpriority: medium
+ms.localizationpriority: high
 ms.collection: 
   - Teams_ITAdmin_FLW
 appliesto: 
