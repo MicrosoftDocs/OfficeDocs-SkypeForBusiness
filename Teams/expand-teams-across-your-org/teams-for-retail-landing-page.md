@@ -95,7 +95,7 @@ More information: [Organizational communications: Guidance, methods, and product
 
 ### Onboarding new employees
 
-Make new employee onboarding (NEO) a great experience by fostering an all-in-one hybrid work environment where new employees can find important resources, meet people in their organization, and prepare to be successful in their new role.
+Make new employee onboarding a great experience by fostering an all-in-one hybrid work environment where new employees can find important resources, meet people in their organization, and prepare to be successful in their new role.
 
 **Key apps:** Lists, Live Meetings
 
