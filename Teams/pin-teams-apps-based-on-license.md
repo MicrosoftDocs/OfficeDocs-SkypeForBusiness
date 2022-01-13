@@ -49,7 +49,7 @@ Apps pinned for users who have an F license:
 > [!NOTE]
 > User pinning must be turned on in the global (org-wide default) app setup policy for this feature to take effect. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
 
-The tailored app experience feature is controlled by the **Show tailored apps based on licenses** org-wide app setting on the [Manage apps](manage-apps.md#manage-org-wide-app-settings) page of the Teams admin center. If the feature is on, all users in your organization who have an F license will get the tailored app experience.
+The tailored app experience feature is controlled by the **Show tailored apps based on licenses** org-wide app setting on the [Manage apps](manage-apps.md#manage-org-wide-app-settings) page in the Teams admin center. If the feature is on, all users in your organization who have an F license will get the tailored app experience.
 
 :::image type="content" source="media/pin-teams-apps-based-on-license.png" alt-text="Screenshot of the Show tailored apps based on license org-wide app setting":::
 
