@@ -19,6 +19,10 @@ appliesto:
 
 # Tailor your Teams apps based on license
 
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
+
+[!INCLUDE [new-feature-coming-soon-section](includes/new-feature-coming-soon-section.md)]
+
 > [!NOTE]
 > Currently, this feature applies to F licenses. Therefore, this article focuses on the frontline worker experience. Other license types will be supported in the future.
 
@@ -34,13 +38,20 @@ Apps are pinned to the app bar, which is the bar on the side of the Teams deskto
 
 Apps pinned for users who have an F license:
 
-- TBD
+- Activity
+- Chat
+- Teams
+- Shifts
+- Tasks
+- Walkie Talkie
 
 ## Admin controls
 
-The tailored app experience feature is controlled by a policy setting that applies at the org level. If the feature is enabled, all users in your organization who have an F license will get the tailored app experience.
+User pinning must be turned on in the global (org-wide default) app setup policy for this feature to take effect. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
 
-This feature is on by default. However, if you don't want the tailored app experience provided by Microsoft, you can turn off the policy setting in the Teams admin center or by using PowerShell.
+The tailored app experience feature is controlled by the **Show tailored apps based on licenses** org-wide app setting. If the feature is on, all users in your organization who have an F license will get the tailored app experience.
+
+This feature is on by default. However, if you don't want the tailored app experience provided by Microsoft, you can turn off the setting on the [Manage apps](manage-apps.md) page of the Teams admin center. To learn more, see [Manage org-wide app settings](manage-apps.md#manage-org-wide-app-settings). 
 
 Keep in mind that any custom app setup policies assigned to users take precedence. This means that if a user already has a custom app setup policy assigned to them, the user gets the configuration that's defined in the custom app setup policy. To learn more about how the feature works with existing app setup policies that you've applied in your organization, see the [Scenarios](#scenarios) section of this article.
 
