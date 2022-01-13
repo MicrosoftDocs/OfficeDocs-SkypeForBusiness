@@ -86,7 +86,7 @@ When using a resource account for calling line ID purposes in call queues or whe
 - An [online voice routing policy](manage-voice-routing-policies.md) (phone number assignment is optional when using Direct Routing)
 
 > [!NOTE]
-> If the Calling Plan assigned to the resource account becomes disabled or is removed, [Communications Credits](/what-are-communications-credits.md), if available in the tenant (without being assigned to the resource account), will be consumed. If there is no Calling Plan or Communications Credits then the call will fail.
+> If the Calling Plan assigned to the resource account becomes disabled or is removed, [Communications Credits](what-are-communications-credits.md), if available in the tenant (without being assigned to the resource account), will be consumed. If there is no Calling Plan or Communications Credits then the call will fail.
 >
 > Direct Routing service numbers for auto attendant and call queues are supported for Microsoft Teams users and call agents only.
 > 
