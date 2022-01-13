@@ -29,8 +29,12 @@ Currently, the wizard supports adding 100 users each time you run it. We're work
 
 The wizard is available to all organizations that have at least one [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline). You can run the wizard as many times as you need to roll out Teams to your frontline workforce in different locations or sites across your organization.
 
+Check out this short video for an overview of how to run the wizard to onboard your frontline workforce.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWN6oh]
+
 > [!NOTE]
-> This wizard lets you quickly onboard your frontline workers to Teams through the Microsoft 365 admin center. For information about how deploy Teams to your frontline workers using scripts, see [How to provision Teams at scale for Frontline Workers](flw-scripted-deployment.md).
+> This wizard lets you quickly onboard your frontline workforce to Teams through the Microsoft 365 admin center. For information about how deploy Teams to your frontline workforce using scripts, see [How to provision Teams at scale for Frontline Workers](flw-scripted-deployment.md).
 
 > [!NOTE]
 > The wizard doesn't support [sensitivity labels](sensitivity-labels.md) yet. If your organization requires sensitivity labels to create a team, you won't see the wizard in the Microsoft 365 admin center.
@@ -67,7 +71,7 @@ The wizard is available to all organizations that have at least one [F license](
 
     :::image type="content" source="media/flw-onboarding-wizard-review-team.png" alt-text="Screenshot of the Review team page of the wizard where you review your team settings" lightbox="media/flw-onboarding-wizard-review-team.png":::
 
-    The wizard creates your team and assigns licenses and policy packages to team members. This may take a few minutes to complete, after which the recipients you chose receive a status email.
+    The wizard creates your team and assigns licenses and policy packages to team members. It may take a few minutes to complete, after which the recipients you chose receive a status email.
 
 8. You're on your way but you're not done yet! Next, check out the [What to do after running the wizard](#what-to-do-after-running-the-wizard) section of this article.
 
