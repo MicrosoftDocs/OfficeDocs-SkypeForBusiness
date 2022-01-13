@@ -1,7 +1,7 @@
 ---
 title: Get clients for Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -12,25 +12,21 @@ ms.collection:
 ms.reviewer: harij, rafarhi
 ms.localizationpriority: high
 search.appverid: MET150
-description: Learn how to use the various clients available for Microsoft Teams which include web, desktop (Windows and Mac), and mobile (Android and iOS).
+description: Learn how to install the various clients available for Microsoft Teams on PCs, Macs, and mobile devices.
 f1.keywords:
 - CSH
-ms.custom: 
-  - NewAdminCenter_Update
 appliesto: 
   - Microsoft Teams
 ---
 
 # Get clients for Microsoft Teams
 
-Microsoft Teams has clients available for desktop (Windows, Mac, and Linux), web, and mobile (Android and iOS). These clients all require an active internet connection and do not support an offline mode.
+> [!TIP]
+> **Want to install Teams on your PC, Mac, or mobile device?** Check out [Install the Teams client](https://www.microsoft.com/microsoft-teams/download-app).
 
-> [!NOTE]
-> For details about each clients' capabilities on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
->
-> Effective November 29, 2018, you'll no longer be able to use the Microsoft Teams for Windows 10 S (Preview) app, available from the Microsoft Store. Instead, you can now download and install the Teams desktop client on devices running Windows 10 S mode. To download the desktop client, go to [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/p/?linkid=855754). MSI builds of the Teams desktop client are not yet available for devices running Windows 10 S mode.
->
-> For more information about Windows 10 S mode, see [Introducing Windows 10 in S mode](https://www.microsoft.com/windows/s-mode).
+This article provides information on how to install Microsoft Teams on devices in your enterprise.
+
+For details about each client's capabilities on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## Desktop client
 
