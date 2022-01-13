@@ -19,10 +19,6 @@ appliesto:
 
 # Tailor your Teams apps based on license
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
-[!INCLUDE [new-feature-coming-soon-section](includes/new-feature-coming-soon-section.md)]
-
 > [!NOTE]
 > Currently, this feature applies to F licenses. Therefore, this article focuses on the frontline worker experience. Other license types will be supported in the future.
 
