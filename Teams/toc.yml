@@ -1395,11 +1395,16 @@ items:
           href: rooms/microsoft-teams-rooms-premium.md
         - name: Obtain and assign a license
           href: rooms/obtaining-assigning-license.md
-        - name: Role-based access control
-          href: rooms/microsoft-teams-rooms-premium-rbac.md
-        
         - name: Enroll in MTRP managed service
           href: rooms/enrolling-mtrp-managed-service.md
+        - name: Installation
+          href: rooms/monitoring-software-installation-guide.md
+        - name: Role-based access control
+          href: rooms/microsoft-teams-rooms-premium-rbac.md
+        - name: Monitoring and maintaining Rooms
+          href: rooms/managed-meeting-rooms-monitoring.md
+        - name: Managed updates
+          href: rooms/update-management.md 
         - name: Configure ServiceNow for Teams Rooms
           href: rooms/microsoft-teams-rooms-configure-servicenow.md
         - name: Multi-tenant management for partners
