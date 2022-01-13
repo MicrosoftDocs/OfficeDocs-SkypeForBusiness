@@ -1495,12 +1495,13 @@ items:
 
     - name: Microsoft Teams Rooms managed service
       items: 
-        - name: Plan management
+        - name: Overview
           href: rooms/microsoft-teams-rooms-premium.md
-        - name: Role-based access control
-          href: rooms/microsoft-teams-rooms-premium-rbac.md
         - name: Obtain and assign a license
           href: rooms/obtaining-assigning-license.md
+        - name: Role-based access control
+          href: rooms/microsoft-teams-rooms-premium-rbac.md
+        
         - name: Enroll in MTRP managed service
           href: rooms/enrolling-mtrp-managed-service.md
         - name: Configure ServiceNow for Teams Rooms

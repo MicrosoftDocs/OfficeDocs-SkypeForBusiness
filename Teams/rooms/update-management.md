@@ -83,16 +83,16 @@ Managed updates are scheduled for rooms based on the equipment in the room and i
 - Updates are typically applied during our nightly maintenance window – which is room local time **12:00am – 5:00am** to avoid any kind of interruptions. 
 
 ## Microsoft Teams Room app update lifecycle policy 
-The MTR engineering team’s support policy states that all support ends after the twelve (12) month lifecycle for a version has expired or if more than two updates have been released since then. Then, customers must update to a supported version. Please reference [Microsoft Teams Rooms app version support - Microsoft Teams | Microsoft Docs ](rooms-lifecycle-support.md)for detailed service description. 
+The MTR engineering team’s support policy states that all support ends after the twelve (12) month lifecycle for a version has expired or if more than two updates have been released since then. Then, customers must update to a supported version. Please reference [Microsoft Teams Rooms app version support - Microsoft Teams | Microsoft Docs ](rooms-lifecycle-support.md)for detailed service description.
 
 To maintain a uniform standard across all our managed rooms and to allow us to efficiently identify trending issues, we will support and deploy the two latest Major or Minor Releases (N, N-1) of the MTR App software as per the Support and Subscription Services Terms and Conditions. We will automatically bring non-compliant rooms up to date, bypassing update rings as necessary. 
 
 The N-1 policy also applies to third-party software.  
 
 ## Update Management experience walk-through  
-To view updates, login to the Managed Services portal and navigate to the Updates page. 
+To view updates, log in to the managed services portal and navigate to the Updates page.
 
-![alt text1](../media/update-management-001.jpg) 
+![Screenshot of the managed services updates](../media/update-management-001.jpg) 
 
 
 The Updates pane displays a high-level overview of update management for your rooms with the following tabs: 
@@ -109,10 +109,7 @@ The Updates pane displays a high-level overview of update management for your ro
 
 This view shows the relevant updates for your tenant and their respective status. To view past updates that are no longer active, select the **Include past updates** toggle to ON.  
 
-
-
 Any update can be in one of the following states: 
-
 |Status |Description |
 | :- | :- |
 |Scheduled |An update is scheduled for the rooms in a given ring. Please keep in mind that an update will only show Scheduled after the progression hits the ring the room is in. For example, if a new update is in the Staging ring, it would only show Scheduled for rooms in the Staging ring. Other rings will have a “Not required” status until the update progresses to that ring.    |
@@ -129,7 +126,7 @@ The Rooms tab shows all the rooms in your tenant and to which ring they belong.
 
 
 
-![alt text2](../media/update-management-002.jpg) 
+![Screenshot of all tenant rings and their rooms](../media/update-management-002.jpg) 
 
 
 
@@ -143,7 +140,7 @@ To configure which ring a room should belong to:
 The detailed room view displays                                                                                                                                                                             the relevant updates and their status under the “Updates” node.  
 
 
-![alt text3](../media/update-management-003.jpg) 
+![Screenshot of relevant updates and changes](../media/update-management-003.jpg)
 
 ### Rings  
 
@@ -211,18 +208,12 @@ Updates cannot exceed 60 days to complete across all rings.
 1. Click on the ring that will be deleted.  
 1. Click “Delete ring”.  
 
-
-
 > [!NOTE]
 > The default rings cannot be deleted.  
 
-
-
-**Move rooms** 
+**Move rooms**
 
 Moving rooms from one ring to another is possible in two ways: 
-
-
 
 1. Navigate to the “Rings” tab.  
 1. Click on the ring that you want to move rooms from  
@@ -240,11 +231,8 @@ Moving rooms from one ring to another is possible in two ways:
 1. From the dropdown, select the new ring.  
 1. Click “Assign”. 
 
-
 ## Managed updates: Visibility And control  
 Managed services orchestrate updates throughout your organization. However, you have the visibility and control to intervene if needed. Here are the ways: 
-
-
 
 - In the event of an update failure, a ticket is automatically generated with the Microsoft Managed Service Operations team. The Operations team will take steps to remediate the failure and engage you if necessary.  
 - If you see an update causing issues, you can pause the update with the **Pause** button. Hitting the Pause button will create a ticket for the operations center to investigate. Please be sure to provide details while pausing an update to help expedite incident response.  
