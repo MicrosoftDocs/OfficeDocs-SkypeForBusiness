@@ -250,7 +250,7 @@ items:
         - name: Integration with Exchange and SharePoint
           href: /SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint
 
-- name: Security, privacy, and compliance
+- name: Security, compliance, and privacy
   items: 
     - name: Overview
       href: security-compliance-overview.md
