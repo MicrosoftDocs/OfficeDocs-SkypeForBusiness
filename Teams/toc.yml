@@ -1575,6 +1575,8 @@ items:
           href: edu-remote-low-bandwidth.md
         - name: Teams for education policy wizard
           href: easy-policy-setup-edu.md
+        - name: Deploy the Parents app for Teams
+          href: edu-parents-app.md
         - name: Career Coach app in Teams for Education
           href: career-coach.md
         - name: Supervise chats in Teams
