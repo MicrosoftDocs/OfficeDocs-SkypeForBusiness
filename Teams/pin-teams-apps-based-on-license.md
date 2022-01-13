@@ -51,14 +51,14 @@ Apps pinned for users who have an F license:
 
 The tailored app experience feature is controlled by the **Show tailored apps based on licenses** org-wide app setting on the [Manage apps](manage-apps.md#manage-org-wide-app-settings) page in the Teams admin center. If the feature is on, all users in your organization who have an F license will get the tailored app experience.
 
+Keep in mind that any custom app setup policies assigned to users take precedence. This means that if a user already has a custom app setup policy assigned to them, the user gets the configuration that's defined in the custom app setup policy. To learn more about how the feature works with existing app setup policies that you've applied in your organization, see the [Scenarios](#scenarios) section of this article.
+
 This feature is on by default. However, if you don't want the tailored app experience provided by Microsoft, you can turn off the setting. To turn the feature off or on:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**, and then select **Org-wide app settings**. 
-2. Switch the **Show tailored apps based on licenses**  to **Off** or **On**. 
+2. Switch the **Show tailored apps based on licenses** toggle to **Off** or **On**. 
 
-    :::image type="content" source="media/pin-teams-apps-based-on-license.png" alt-text="Screenshot of the Show tailored apps based on license org-wide app setting":::
-
-Keep in mind that any custom app setup policies assigned to users take precedence. This means that if a user already has a custom app setup policy assigned to them, the user gets the configuration that's defined in the custom app setup policy. To learn more about how the feature works with existing app setup policies that you've applied in your organization, see the [Scenarios](#scenarios) section of this article.
+    :::image type="content" source="media/pin-teams-apps-based-on-license.png" alt-text="Screenshot of the Show tailored apps based on license org-wide app setting" lightbox="media/pin-teams-apps-based-on-license.png":::
 
 ## Scenarios
 
