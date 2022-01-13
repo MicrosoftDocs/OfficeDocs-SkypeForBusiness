@@ -48,7 +48,7 @@ The ability to do automatic routing to the appropriate Public Safety Answering P
 
 Microsoft Calling Plans and Operator Connect partners include dynamic emergency routing services for users in the United States and Canada.
 
-For Direct Routing, however, additional configuration is required for routing emergency calls and possibly for partner connectivity. The administrator must configure connection to an Emergency Routing Service (ERS) provider (United States and Canada) **OR** configure the Session Border Controller (SBC) for an Emergency Location Identification Number (ELIN) application. For information about ERS providers, see [Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).
+For Direct Routing, however, additional configuration is required for routing emergency calls and possibly for partner connectivity. The administrator must ensure that the PSTN gateway routing the emergency call has been configured to add location information to the outgoing INVITE (by setting the parameter PidfloSupported to True on the online PSTN gateway object. In addition the administrator must configure connection to an Emergency Routing Service (ERS) provider (United States and Canada) **OR** configure the Session Border Controller (SBC) for an Emergency Location Identification Number (ELIN) application. For information about ERS providers, see [Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).
 
 This article contains the following sections.
 
