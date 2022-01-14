@@ -239,7 +239,11 @@ The connector supports patients joining virtual visits through a link in the SMS
 
 Key features of the patient experience:
 
-- Patients can test their device hardware before joining a virtual visit. In the device test:
+- Patients can test their device hardware before joining a virtual visit. 
+
+    :::image type="content" source="media/ehr-admin-epic-device-test.png" alt-text="Images of a mobile device, showing patient device test capabilities. lightbox="media/ehr-admin-epic-device-test.png":::
+  
+    In the device test:
 
   - Patients can test their microphone, camera, and connection.
   - Patients can complete a test call to fully validate their configuration.
