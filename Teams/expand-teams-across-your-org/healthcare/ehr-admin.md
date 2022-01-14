@@ -216,6 +216,8 @@ After completing the EHR connector steps and Epic configuration, your organizati
 
 Healthcare providers from your organization can join virtual visits using Teams from their Epic provider apps (Hyperspace, Haiku, Canto). The **Begin virtual visit** button is embedded in the provider flow.
 
+  ![Provider experience of a virtual visit with patient.](media/ehc-provider-experience-6.png)
+
 Key features of the provider experience:
 
 - Providers can join virtual visits using supported browsers or the Teams app.
@@ -226,16 +228,23 @@ Key features of the provider experience:
 
 - Providers can see real-time updates of participants connecting and disconnecting for a given appointment. Providers can see when the patient is connected to a virtual visit.
 
-  ![Provider experience of a virtual visit with patient.](media/ehc-provider-experience-6.png)
-
 > [!NOTE]
 > Any information entered in the meeting chat that’s necessary for medical records continuity or retention purposes should be downloaded, copied, and notated by the healthcare provider. The chat doesn’t constitute a legal medical record or a designated record set. Messages from the chat are stored based on settings created by the Microsoft Teams admin.
 
 ### Patient experience
 
-The connector supports patients joining virtual visits through MyChart web and mobile. At the time of the appointment, patients can start a virtual visit from MyChart using the **Begin virtual visit** button.
+The connector supports patients joining virtual visits through a link in the SMS text message, MyChart web, and mobile. At the time of the appointment, patients can start a virtual visit from MyChart using the **Begin virtual visit** button or by tapping the link in the SMS text message.
+
+  ![Patient experience of the virtual visit.](media/ehc-virtual-visit-5.png)
 
 Key features of the patient experience:
+
+- Patients can test their device hardware before joining a virtual visit. In the device test:
+
+  - Patients can test their microphone, camera, and connection.
+  - Patients can complete a test call to fully validate their configuration.
+  - Patients can access links to troubleshooting tips to resolve any issues found, which helps to reduce interactions with the medical service support team.
+  - Results of the device test are sent back to the EHR system.
 
 - Patients can join virtual visits from modern web browsers on desktop and [mobile without having to install the Teams app](../mobile-browser-join.md).
 
@@ -247,10 +256,10 @@ Key features of the patient experience:
 
 - Patients can test their video and microphone in the lobby before they join the virtual visit.
 
-  ![Patient experience of the virtual visit.](media/ehc-virtual-visit-5.png)
-
 > [!Note]
 > Epic, MyChart, Haiku, and Canto are trademarks of Epic Systems Corporation.
+
+
 
 ### Privacy and location of data
 
