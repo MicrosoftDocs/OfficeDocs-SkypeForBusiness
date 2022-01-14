@@ -8,8 +8,8 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Learn how you can use Teams to empower the frontline workers in your organization.
-ms.localizationpriority: medium
+description: Learn about the F1 and F3 licenses for the Microsoft 365 for frontline workers SKU and what they include.
+ms.localizationpriority: high
 ms.collection: 
   - Teams_ITAdmin_FLW
 appliesto: 
