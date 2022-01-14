@@ -1522,6 +1522,8 @@ items:
             href: teams-app-setup-policies.md
           - name: Manage custom app policies and settings in Teams
             href: teams-custom-app-policies-and-settings.md
+        - name: Tailor Teams apps based on license
+          href: pin-teams-apps-based-on-license.md
         - name: View app permissions and grant admin consent
           href: app-permissions-admin-center.md
         - name: Resource-specific consent
@@ -1573,6 +1575,8 @@ items:
           href: edu-remote-low-bandwidth.md
         - name: Teams for education policy wizard
           href: easy-policy-setup-edu.md
+        - name: Deploy the Parents app for Teams
+          href: edu-parents-app.md
         - name: Career Coach app in Teams for Education
           href: career-coach.md
         - name: Supervise chats in Teams
@@ -1613,6 +1617,8 @@ items:
           href: flw-onboarding-wizard.md  
         - name: Frontline Workers scripted deployment
           href: flw-scripted-deployment.md
+        - name: Tailor Teams apps for your frontline workers
+          href: pin-teams-apps-based-on-license.md
         - name: Manage the Shifts app
           href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
         - name: Manage shift-based access for frontline workers
