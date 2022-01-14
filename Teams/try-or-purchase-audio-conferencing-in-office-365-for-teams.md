@@ -1,7 +1,7 @@
 ---
 title: "Try or purchase Audio Conferencing in Microsoft 365 for Teams"
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
