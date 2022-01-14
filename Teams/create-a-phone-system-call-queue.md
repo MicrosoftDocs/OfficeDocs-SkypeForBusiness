@@ -74,6 +74,14 @@ Click **Add**, search for the resource accounts that you want to allow agents to
 
 If you are not using a Teams channel to control agent membership, consider directly setting the caller ID for members of the call queue to the service number of the call queue or appropriate auto attendant. See [Manage caller ID policies in Microsoft Teams](caller-id-policies.md) for more information.
 
+> [!NOTE]
+> The resource account used for calling ID purposes must have a Microsoft 365 Phone System Virtual User license and one of the following assigned:
+>
+> - A Calling Plan license and a phone number assigned
+> - An Operator Connect phone number assigned
+> - An online voice routing policy (phone number assignment is optional when using Direct Routing)
+
+
 ## Language
 
 ![Screenshot of language settings.](media/call-queue-language.png)
