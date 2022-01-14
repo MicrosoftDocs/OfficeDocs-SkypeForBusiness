@@ -29,7 +29,7 @@ For example, Contoso has operations around the globe. Alice is a global IT admin
 
 ## Add administrative units
 
-You need to be a global admin to add administraitve units. To learn how, see [Add an administrative unit](https://docs.microsoft.com/azure/active-directory/roles/admin-units-manage#add-an-administrative-unit).
+You need to be a global admin to add administraitve units. To learn how, see [Add an administrative unit](/azure/active-directory/roles/admin-units-manage#add-an-administrative-unit).
 
 ## Assign admins to administrative units
 
