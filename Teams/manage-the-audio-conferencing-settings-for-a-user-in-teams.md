@@ -1,7 +1,7 @@
 ---
 title: "Manage Audio Conferencing settings for users"
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -29,7 +29,7 @@ description: A Microsoft 365 or Office 365 admin can edit the Teams Audio Confer
 
 As a Microsoft 365 or Office 365 admin, you can edit the Audio Conferencing settings—such as the provider, default toll or toll-free number, conference ID, or PIN—for an individual user in your organization. If you want to edit settings for your organization, see [Manage the Audio Conferencing settings for your organization](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
 
-##  Using the Microsoft Teams admin center
+## Using the Microsoft Teams admin center
 
 1. In the left navigation, click **Users**, and then select the user from the list of available users.
 
@@ -49,7 +49,6 @@ As a Microsoft 365 or Office 365 admin, you can edit the Audio Conferencing sett
 |**Dial-out permissions**|To change this setting, click **Edit** next to **Audio Conferencing** and in the **Audio Conferencing** pane, choose an option under **Dial-out from meetings**.|
 
 ![Shows the Audio Conferencing settings for a user.](media/teams-manage-audio-conferencing-settings-for-a-user-image1.png)
- 
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
