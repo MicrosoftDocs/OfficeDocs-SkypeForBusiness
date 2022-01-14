@@ -22,12 +22,13 @@ Frontline workers are employees whose primary function is to work directly with 
 
 [Microsoft 365 for frontline workers](https://www.microsoft.com/microsoft-365/enterprise/frontline) is optimized for a mobile workforce that primarily interacts with customers, but also needs to stay connected to the rest of your organization. Learn more about [licensing options for frontline workers](flw-licensing-options.md) and which license types you should use for different types of users in your organization.
 
-In this section: 
+In this section:
 
-- [Quick start - Microsoft Teams Frontline Worker](flw-quickstart.yml)
+- [Quick start - Teams for Frontline Workers](flw-quickstart.yml)
 - [Use the Frontline worker onboarding wizard to get your frontline workforce up and running](flw-onboarding-wizard.md)
 - [How to provision Teams at scale for frontline workers](flw-scripted-deployment.md)
 - [Policy packages for frontline workers and managers](manage-policy-packages.md)
+- [Tailor Teams apps for your frontline workers](pin-teams-apps-based-on-license.md)
 - Apps from Microsoft for frontline workers:
   - [Shifts](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
   - [Tasks](manage-tasks-app.md)
@@ -35,4 +36,4 @@ In this section:
   - [Lists](manage-lists-app.md)
   - [Praise](manage-praise-app.md)
   - [Walkie Talkie](walkie-talkie.md)
-  - [RealWear for Teams](flw-realwear.md)
+- [RealWear for Teams](flw-realwear.md)
