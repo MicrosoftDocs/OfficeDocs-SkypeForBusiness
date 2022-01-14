@@ -63,7 +63,7 @@ Before you deploy Microsoft Teams Rooms with Office 365, be sure you have met th
      Set-Mailbox -Identity 'ConferenceRoom02' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
      ```
 
-   For detailed syntax and parameter information, see [New-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox) and [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox).
+   For detailed syntax and parameter information, see [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) and [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox).
 
 
 3. In Exchange Online PowerShell, configure the following settings on the room mailbox to improve the meeting experience:
@@ -88,12 +88,12 @@ Before you deploy Microsoft Teams Rooms with Office 365, be sure you have met th
    Set-CalendarProcessing -Identity 'ConferenceRoom01' -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse 'This is a Microsoft Teams meeting room!'
    ```
 
-   For detailed syntax and parameter information, see [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).
+   For detailed syntax and parameter information, see [Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing).
    
-4. Connect to MS Online PowerShell set Active Directory values by running the 'Connect-MsolService -Credential $cred' powershell cmdlet. For details about Active Directory, see [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0). 
+4. Connect to MS Online PowerShell set Active Directory values by running the 'Connect-MsolService -Credential $cred' powershell cmdlet. For details about Active Directory, see [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0). 
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) is not supported. 
+   > [Azure Active Directory PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0) is not supported. 
 
 5. It is strongly encouraged to disable password expiration on Teams Rooms accounts. Below is an example of how to disable password expiration for the account ConferenceRoom01:
 
@@ -113,7 +113,7 @@ Before you deploy Microsoft Teams Rooms with Office 365, be sure you have met th
   ``` 
 
 
-   For detailed instructions, see [Assign licenses to user accounts with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
+   For detailed instructions, see [Assign licenses to user accounts with Office 365 PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
 
 ## Validate
@@ -121,7 +121,7 @@ Before you deploy Microsoft Teams Rooms with Office 365, be sure you have met th
 For validation, you should be able to use any Microsoft Teams client to sign in to the account you created.
 
 ## See also
-[Update room mailboxes with additional metadata to  provides a better search and room suggestion experience](https://docs.microsoft.com/powershell/module/exchange/set-place)
+[Update room mailboxes with additional metadata to  provides a better search and room suggestion experience](/powershell/module/exchange/set-place)
 
 [Configure accounts for Microsoft Teams Rooms](rooms-configure-accounts.md)
 
