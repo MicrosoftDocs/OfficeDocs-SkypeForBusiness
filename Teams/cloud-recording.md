@@ -250,7 +250,7 @@ The recording retention for this is temporary storage is affected by the chat me
 The size of a 1-hour recording is 400 MB. Make sure you understand the capacity required for recorded files and have sufficient storage available in OneDrive for Business and SharePoint Online.  Read [Set the default storage space for OneDrive for Business](/onedrive/set-default-storage-space) and [Manage SharePoint Online site storage limits](/sharepoint/manage-site-collection-storage-limits) to understand the base storage included in the subscription and how to purchase additional storage.
 
  <a name="auto-expiration"></a>
-### Auto-expiration of Teams meeting recordings:
+### Auto-expiration of Teams meeting recordings
 
 Learn more about the admin-specific changes [here](meeting-expiration.md#changes-to-meeting-expiration).
 
