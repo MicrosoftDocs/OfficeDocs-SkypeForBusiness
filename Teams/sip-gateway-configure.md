@@ -75,7 +75,7 @@ This article also describes how to:
 
 ## Verify that SIP Gateway is available for your organization
 
-1. Sign in to the [Teams admin center](https://admin-teams.microsoft.net/).
+1. Sign in to the [Teams admin center](https://admin-teams.microsoft.com/).
 
 2. At the left, select **Teams devices** and see if the **SIP devices** tab is visible. If it is, the SIP Gateway service is enabled for your organization.
 
@@ -87,7 +87,7 @@ You can enable SIP Gateway for your organization in either of two ways: by using
 
 To enable SIP Gateway in the Teams admin center, follow these steps:
 
-1. Go to the [Teams admin center](https://admin.teams.microsoft.net/)
+1. Go to the [Teams admin center](https://admin.teams.microsoft.com/)
 
 2. At the left, under **Voice**, select **Calling policies**.
 
@@ -102,6 +102,9 @@ To enable SIP Gateway in the Teams admin center, follow these steps:
 
 You can also enable SIP Gateway by using the PowerShell [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) cmdlet. To enable users for SIP devices, select a policy, and set the `-AllowSIPDevicesCalling` attribute to `True`. The default value is `False`, so users will not be able to use their SIP devices unless you enable them.
 
+
+> [!NOTE]
+> - Policy propagation may take up to 24 hours.
 
 ## Set the SIP Gateway provisioning server URL
 
@@ -190,7 +193,7 @@ To streamline your tasks, you can enroll SIP devices in the Teams admin center e
 
      f. On the **Provision devices** pane, under **Waiting on activation**, select a device and then select **Generate verification code** to generate a one-time verification code for each provisioned device. Note the verification code for each SIP device.
 
-4. On the SIP device, dial the enrollment feature code followed by the verification code. For example, if the enrollment feature code is \*55* and the verification code is 123456, dial \*55\*123456 to enroll the device.
+4. On the SIP device, dial the enrollment feature code followed by the verification code. On the SIP device, dial the enrollment feature code \*55* (used by SIP Gateway for enrollment one-time-verification code validation), followed by the verification code that is generated in Teams Admin Center for this particular device. For example, if the verification code is 123456, dial \*55\*123456 to enroll the device.
 
 5.  On the **Provision devices** pane, under **Waiting for sign in**, select **Signed out**.
 
@@ -249,7 +252,7 @@ To sign out a device on the Teams admin center:
 
 You can view and monitor your SIP device inventory in the Teams admin center after the devices' users sign in at least once. Here's how:
 
-1. Log in to the [Teams admin center](https://admin.teams.microsoft.net/).
+1. Log in to the [Teams admin center](https://admin.teams.microsoft.com/).
 
 2. Select **Teams devices** > **SIP devices**. All signed-in SIP devices are listed on the right.
 
