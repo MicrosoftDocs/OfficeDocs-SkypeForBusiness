@@ -243,7 +243,7 @@ Key features of the patient experience:
 
     :::image type="content" source="media/ehr-admin-epic-device-test.png" alt-text="Images of a mobile device, showing device test capabilities." lightbox="media/ehr-admin-epic-device-test.png":::
   
-    In the device test:
+    Device test capabilities:
 
   - Patients can test their microphone, camera, and connection.
   - Patients can complete a test call to fully validate their configuration.
