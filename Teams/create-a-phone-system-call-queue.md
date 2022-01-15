@@ -75,7 +75,7 @@ Click **Add**, search for the resource accounts that you want to allow agents to
 If you are not using a Teams channel to control agent membership, consider directly setting the caller ID for members of the call queue to the service number of the call queue or appropriate auto attendant. See [Manage caller ID policies in Microsoft Teams](caller-id-policies.md) for more information.
 
 > [!NOTE]
-> The resource account used for calling ID purposes must have a Microsoft 365 Phone System Virtual User license and one of the following assigned:
+> The resource account used for calling ID purposes must have a Microsoft Teams Phone System Virtual User license and one of the following assigned:
 >
 > - A Calling Plan license and a phone number assigned
 > - An Operator Connect phone number assigned
@@ -242,15 +242,54 @@ The following clients are supported for call agents in a call queue:
 
 ## Call queue cmdlets
 
-You can also use Windows PowerShell to create and set up call queues. Here are the cmdlets that you use to manage a call queue.
+Windows PowerShell allows you to create and manage call queues via the command line in a batch or programmatic manner.
 
-- [New-CsCallQueue](/powershell/module/skype/new-CsCallQueue)
+The following cmdlets allow you to manage a call queue:
 
-- [Set-CsCallQueue](/powershell/module/skype/set-CsCallQueue)
+- [New-CsCallQueue](/powershell/module/skype/New-CsCallQueue)
+- [Get-CsCallQueue](/powershell/module/skype/Get-CsCallQueue)
+- [Set-CsCallQueue](/powershell/module/skype/Set-CsCallQueue)
+- [Remove-CsCallQueue](/powershell/module/skype/Remove-CsCallQueue)
 
-- [Get-CsCallQueue](/powershell/module/skype/get-CsCallQueue)
+The following additional cmdlets are also required to manage the users, resource accounts, virtual phone system licenses, phone numbers, audio files and supported language that will be used with call queues:
 
-- [Remove-CsCallQueue](/powershell/module/skype/remove-CsCallQueue)
+Users/Teams
+
+- [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser)
+- [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) TO BE UPDATED
+
+Resource accounts:
+
+- [New-CsOnlineApplicationInstance](/powershell/module/skype/New-CsOnlineApplicationInstance)
+- [Find-CsOnlineApplicationInstance](/powershell/module/skype/Find-CsOnlineApplicationInstance)
+- [Get-CsOnlineApplicationInstance](/powershell/module/skype/Get-CsOnlineApplicationInstance)
+- [Set-CsOnlineApplicationInstance](/powershell/module/skype/Set-CsOnlineApplicationInstance)
+
+- [New-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/New-CsOnlineApplicationInstanceAssociation)
+- [Get-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociation)
+- [Get-CsOnlineApplicationInstanceAssociationStatus](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociationStatus)
+- [Remove-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Remove-CsOnlineApplicationInstanceAssociation)
+
+Virtual phone system licenses:
+
+- [Set-MsolUserLicense](/powershell/module/skype/Set-MsolUserLicense)
+
+Phone number assignment:
+
+- [Set-CsOnlineVoiceApplicationInstance](/powershell/module/skype/Set-CsOnlineVoiceApplicationInstance)
+
+Audio Files
+
+- [New-CsOnlineAudioFile](/powershell/module/skype/New-CsOnlineAudioFile)
+- [Get-CsOnlineAudioFile](/powershell/module/skype/Get-CsOnlineAudioFile)
+- [Import-CsOnlineAudioFile](/powershell/module/skype/Import-CsOnlineAudioFile)
+- [Export-CsOnlineAudioFile](/powershell/module/skype/Export-CsOnlineAudioFile)
+- [Remove-CsOnlineAudioFile](/powershell/module/skype/Remove-CsOnlineAudioFile)
+
+Support Language Lists
+
+- [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
+
 
 ## Call Queue Diagnostic Tool
 
