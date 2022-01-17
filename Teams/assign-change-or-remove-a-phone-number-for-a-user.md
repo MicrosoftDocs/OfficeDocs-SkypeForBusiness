@@ -122,7 +122,7 @@ To remove a phone number by using the Teams admin center:
 
 5. Click **Save**.
 
-For a PowerShell example, see [remove-CsPhoneNumberAssignment](/powershell/module/teams/remove-csphonenumberassignment).
+For a PowerShell example, see [Remove-CsPhoneNumberAssignment](/powershell/module/teams/remove-csphonenumberassignment).
 
 ## Related topics
 
