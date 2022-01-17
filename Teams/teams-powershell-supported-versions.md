@@ -1,6 +1,6 @@
 ---
 title: Teams PowerShell Module - Supported Versions
-author: pbafna
+author: pbafna03
 ms.author: pbafna
 ms.reviewer: pbafna
 manager: sshastri
@@ -24,7 +24,7 @@ Teams PowerShell Module – versions older than 3.0.0 to be retired!
 
 Starting April 1, 2022, we will be retiring all Teams PowerShell Module versions older than 3.0.0.  This change means that the Administrators will not be able to use Teams PowerShell Module versions released before 3.0.0. 
 
-Instead, we recommend updating Teams PowerShell Module to version 3.0.0 or above.
+Instead, we recommend updating Teams PowerShell Module to the latest version.
 
 Important notes:
 - Release notes for all the Teams PowerShell Module versions can be found at [Teams PowerShell release notes](teams-powershell-release-notes.md).
