@@ -37,10 +37,6 @@ The communication and collaboration platform of Teams makes it easy for clinicia
 - Write metadata back to the EHR system about Teams virtual visits to record when attendees connect, disconnect, and enable automatic auditing and record keeping.
 - View consumption data reports and customizable Call Quality information for EHR-connected visits.
 
-Check out this video for an overview of how to manage virtual visits from the EHR portal.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HAtn]
-
 This article describes how to set up and configure the Teams EHR connector to integrate with the Epic platform in your healthcare organization. It also gives you an overview of the Teams virtual visits experience from the Epic EHR system.
 
 ## Before you begin
@@ -247,7 +243,7 @@ Key features of the patient experience:
 
   - Patients can test their microphone, camera, and connection.
   - Patients can complete a test call to fully validate their configuration.
-  - Patients can access links to troubleshooting tips to resolve any issues found, which helps to reduce interactions with the medical service support team.
+  - Patients can access links to troubleshooting tips to resolve any issues found, which helps to reduce interactions with the medical services support team.
   - Results of the device test are sent back to the EHR system.
 
 - Patients can join virtual visits from modern web browsers on desktop and [mobile without having to install the Teams app](../mobile-browser-join.md).
@@ -262,8 +258,6 @@ Key features of the patient experience:
 
 > [!Note]
 > Epic, MyChart, Haiku, and Canto are trademarks of Epic Systems Corporation.
-
-
 
 ### Privacy and location of data
 
