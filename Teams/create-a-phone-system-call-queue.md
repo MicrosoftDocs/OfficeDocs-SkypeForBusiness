@@ -255,8 +255,11 @@ The following additional cmdlets are also required to manage the users, resource
 
 Users/Teams
 
-- Users: [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser)
-- Teams: [Get-Team](/powershell/module/skype/Get-Team)
+- Users
+- - [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser)
+- Teams: 
+- - [Get-Team](/powershell/module/skype/Get-Team)
+- - [Get-TeamChannel](/powershell/module/skype/Get-TeamChannel)
 
 Resource accounts:
 
