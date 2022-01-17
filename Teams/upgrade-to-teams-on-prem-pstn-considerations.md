@@ -133,7 +133,7 @@ The basic steps are listed below.  Steps 1-5 are listed in the suggested seque
 
     - If you are porting numbers to Microsoft, you should coordinate the timing of this operation to occur when the port occurs. 
 
-    - If you are using new numbers from Microsoft, you’ll need to change the LineUri for the user. This must be done after the user is moved online using Set-CsOnlineVoiceUser.  
+    - If you are using new numbers from Microsoft, you’ll need to change the LineUri for the user. This must be done after the user is moved online using Set-CsPhoneNumberAssignment.  
 
 ## Summary of per-tenant configuration of Direct Routing 
 
@@ -157,7 +157,7 @@ Whether using Direct Routing or a Microsoft Calling plan, a user must have Enter
 - If an existing TeamsOnly or Skype for Business Online user is assigned a Phone System license, EV-enabled is not set to true by default.  This also is the case if an on-premises user is moved to the cloud prior to assigning the Phone System license. In either case, the admin must specify the following cmdlet: 
 
   ```PowerShell
-  Set-CsUser -EnterpriseVoiceEnabled $True 
+  Set-CsPhoneNumberAssignment -EnterpriseVoiceEnabled $True 
   ```
 
 ## Related links
