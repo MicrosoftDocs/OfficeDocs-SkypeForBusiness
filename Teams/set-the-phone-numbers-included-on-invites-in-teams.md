@@ -1,7 +1,7 @@
 ---
 title: Set the phone numbers included on invites
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -46,8 +46,6 @@ For a new user, the default conferencing toll numbers is assigned based on the U
 Once the user is enabled for the Audio Conferencing service, the default toll and toll-free phone numbers of the user can be changed by the tenant administrator from their initial values at any moment.
 
 ## Set or change the default audio conferencing phone number for a meeting organizer or user
-
- **Using the Microsoft Teams admin center**
 
 You must be a Teams service admin to make these changes. See [Use Teams administrator roles to manage Teams](./using-admin-roles.md) to read about getting admin roles and permissions.
 

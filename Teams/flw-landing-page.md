@@ -24,10 +24,11 @@ Frontline workers are employees whose primary function is to work directly with 
 
 In this section:
 
-- [Quick start - Microsoft Teams Frontline Worker](flw-quickstart.yml)
-- [Use the Frontline worker onboarding wizard to get your frontline workforce up and running](flw-onboarding-wizard.md)
+- [Quick start - Teams for Frontline Workers](flw-quickstart.yml)
+- [Use the Frontline Worker onboarding wizard to get your frontline workforce up and running](flw-onboarding-wizard.md)
 - [How to provision Teams at scale for frontline workers](flw-scripted-deployment.md)
 - [Policy packages for frontline workers and managers](manage-policy-packages.md)
+- [Tailor Teams apps for your frontline workers](pin-teams-apps-based-on-license.md) (coming soon)
 - Apps from Microsoft for frontline workers:
   - [Shifts](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
   - [Tasks](manage-tasks-app.md)
@@ -35,4 +36,4 @@ In this section:
   - [Lists](manage-lists-app.md)
   - [Praise](manage-praise-app.md)
   - [Walkie Talkie](walkie-talkie.md)
-  - [RealWear for Teams](flw-realwear.md)
+- [RealWear for Teams](flw-realwear.md)
