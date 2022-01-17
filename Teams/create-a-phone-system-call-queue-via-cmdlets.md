@@ -79,14 +79,13 @@ Support Call Queue information:
 - - -	Transcription enabled
 -	Call timeout handling: 45 minutes
 -	- Redirect: Support Shared Voicemail
-- - - Play an audio file (support-shared-voicemail-greeting.wav)
+- - - Play TTS "We're sorry to have kept you waiting and are now transferring your call to voicemail."
 - - - Transcription enabled
 
 
 Facilities Collaborative Calling Queue information:
 -	Language: French FR
--	Greeting: TTS 
--	- "Merci d’avoir appelé le service des installations.  Veuillez rester en ligne pour le prochain agent disponible."
+-	Greeting: None
 -	Music on hold: default
 -	Call Answering: Channel: Facilities
 -	Conference Mode: On
@@ -121,7 +120,7 @@ $audioFileSalesHoldInQueueMusicID = (Import-CsOnlineAudioFile -ApplicationID Hun
 ````
 
 ### Get Users ID
-Replease "contoso.com with the Teams domain name for your tenant.
+Replace "contoso.com with the Teams domain name for your tenant.
 
 ````
 $userAdeleID = (Get-CsOnlineUser -Identity “sip:adele@contoso.com”).ObjectID
@@ -185,14 +184,14 @@ Get-CsAutoAttendantSupportedLanguage
 
 ### Create Call Queue
 ````
-New-CsCallQueue -Name “Support” -AgentAlertTime 15 -AllowOptOut $false -DistributionLists $teamSupportID -WelcomeMusicAudioFileID $audioFileSupportGreetingID -MusicOnHoldAudioFileID $audioFileSupportHoldInQueueMusicID -OverflowAction SharedVoicemail -OverflowActionTarget $teamSupportID -OverflowThreshold 200 -OverflowSharedVoicemailAudioFilePrompt $audioFileSupportSharedVoicemailGreetingID -EnableOverflowSharedVoicemailTranscription $true -TimeoutAction SharedVoicemail -TimeoutActionTarget $teamSupportID -TimeoutThreshold 2700 -TimeoutSharedVoicemailAudioFilePrompt $audioFileSupportSharedVoicemailGreetingID -EnableTimeoutSharedVoicemailTranscription $true -RoutingMethod LongestIdle -ConferenceMode $true -LanguageID “en-US”
+New-CsCallQueue -Name “Support” -AgentAlertTime 15 -AllowOptOut $false -DistributionLists $teamSupportID -WelcomeMusicAudioFileID $audioFileSupportGreetingID -MusicOnHoldAudioFileID $audioFileSupportHoldInQueueMusicID -OverflowAction SharedVoicemail -OverflowActionTarget $teamSupportID -OverflowThreshold 200 -OverflowSharedVoicemailAudioFilePrompt $audioFileSupportSharedVoicemailGreetingID -EnableOverflowSharedVoicemailTranscription $true -TimeoutAction SharedVoicemail -TimeoutActionTarget $teamSupportID -TimeoutThreshold 2700 -TimeoutSharedVoicemailTextToSpeechPrompt "We're sorry to have kept you waiting and are now transferring your call to voicemail." -EnableTimeoutSharedVoicemailTranscription $true -RoutingMethod LongestIdle -ConferenceMode $true -LanguageID “en-US”
 ````
 
 ### Create and Assign Resource Account
 Note: Phone number not required here as call queue is front-ended by an Auto Attendant
-#ApplicationID
-#Auto Attendant: ce933385-9390-45d1-9512-c8d228074e07
-#Call Queue: 11cd3e2e-fccb-42ad-ad00-878b93575e07
+- ApplicationID
+- - Auto Attendant: ce933385-9390-45d1-9512-c8d228074e07
+- - Call Queue: 11cd3e2e-fccb-42ad-ad00-878b93575e07
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName Support-RA@contoso.com -DisplayName "Support" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
 
