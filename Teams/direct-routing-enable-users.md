@@ -54,7 +54,7 @@ This step is applicable to Skype for Business Server Enterprise Voice enabled us
 
 Direct Routing requires the user to be homed online. You can check by looking at the RegistrarPool parameter, which needs to have a value in the infra.lync.com domain. It's also recommended, but not required, to change management of the LineURI from on-premises to online when migrating users to Teams Direct Routing. 
 
-1. Connect a Skype for Business Online PowerShell session.
+1. Connect a Microsoft Teams PowerShell session.
 
 2. Issue the command: 
 
@@ -87,29 +87,29 @@ Direct Routing requires the user to be homed online. You can check by looking at
 After you have created the user and assigned a license, the next step is to configure the user's online phone settings. 
 
  
-1. Connect a Skype for Business Online PowerShell session. 
+1. Connect a Microsoft Teams PowerShell session. 
 
 2. If managing the user's phone number on-premises, issue the command: 
 
     ```PowerShell
-    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsPhoneNumberAssignment -Identity "<User name>" -EnterpriseVoiceEnabled $true
     ```
 3. If managing the user's phone number online, issue the command: 
  
     ```PowerShell
-    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<phone number>
+    Set-CsPhoneNumberAssignment -Identity "<User name>" -PhoneNumber <phone number> -PhoneNumberType DirectRouting
     ```
     
     For example, to add a phone number for user "Spencer Low," enter the following: 
 
     ```PowerShell
-    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsPhoneNumberAssignment -Identity "spencer.low@contoso.com" -PhoneNumber "+14255388797" -PhoneNumberType DirectRouting
     ```
     If the users "Spencer Low" and "Stacy Quinn" share the same base number with unique extensions, enter the following
     
     ```PowerShell
-    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI "tel:+14255388701;ext=1001" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
-    Set-CsUser -Identity "stacy.quinn@contoso.com" -OnPremLineURI "tel:+14255388701;ext=1002" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsPhoneNumberAssignment -Identity "spencer.low@contoso.com" -PhoneNumber "+14255388701;ext=1001" -PhoneNumberType DirectRouting
+    Set-CsPhoneNumberAssignment -Identity "stacy.quinn@contoso.com" -PhoneNumber "+14255388701;ext=1002" -PhoneNumberType DirectRouting
     ```
 
     It's recommended, but not required, that the phone number used is configured as a full E.164 phone number with country code. It is supported to configure phone numbers with extensions which will be used to lookup users when the lookup against the base number returns more than one result. This allows companies to configure phone numbers with the same base number and unique extensions. For lookup to be successful, the invite must include the full number with extension as follows:
