@@ -290,7 +290,7 @@ Support Language Lists
 
 - [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
 
-For a step-by-step guide to creating call queues with PowerShell, please refer to [Creating Call Queues with PowerShell cmdlets](create-a-phone-system-call-queue-via-cmdlets)
+For a step-by-step guide to creating call queues with PowerShell, please refer to [Creating Call Queues with PowerShell cmdlets](create-a-phone-system-call-queue-via-cmdlets.md)
 
 ## Call Queue Diagnostic Tool
 
