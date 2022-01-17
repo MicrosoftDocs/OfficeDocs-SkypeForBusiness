@@ -272,19 +272,19 @@ If you want to unmap a team from one connection and map it to another connection
 1. To view a list of all team mappings for a connection, run the following command.
 
     ```powershell
-    Get-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $instanceId
+    Get-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId <ConnectorInstanceId>
     ```
 
 1. To remove a team mapping from the connection, run the following command.
 
     ```powershell
-    Remove-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $instanceId -TeamId $teamId
+    Remove-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId <ConnectorInstanceId> -TeamId <TeamId>
     ```
 
 1. To map the team to another connection, run the following command.
 
     ```powershell
-    New-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $instanceId -TeamId $teamId -WfmTeamId $wfmTeamId -TimeZone $timeZone
+    New-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId <ConnectorInstanceId> -TeamId <TeamId> -WfmTeamId <SiteId> -TimeZone <TimeZone>
     ```
 
 To learn more, see [Get-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/get-csteamsshiftsconnectionteammap?view=teams-ps), [Remove-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/remove-csteamsshiftsconnectionteammap?view=teams-ps), and [New-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/new-csteamsshiftsconnectionteammap?view=teams-ps).
