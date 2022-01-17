@@ -95,11 +95,11 @@ There are certain aspects of Shifts that can't be changed and certain aspects th
 
 To see which what fields have been changed, you can search the Microsoft 365 audit log for Shifts events. To learn more about the events that are logged for Shifts activities in the Microsoft 365 audit log, see [Shifts in Teams activities](../../audit-log-events.md#shifts-in-teams-activities).
 
-## Can I access Shifts data using Microsoft Graph?
+>## Can I access Shifts data using Microsoft Graph?
 
 You can use Shifts Graph APIs to integrate Shifts data with external workforce management systems. To learn more, see [Shifts Graph APIs](/graph/api/resources/shift?view=graph-rest-1.0).
 
->## My organization uses an on-premises archiving system. Can we use Microsoft Graph to integrate with and access Shifts data?
+## My organization uses an on-premises archiving system. Can we use Microsoft Graph to integrate with and access Shifts data?
 
 Shifts Graph APIs let you integrate Shifts data with external systems. To learn more, see [Shifts Graph APIs](/graph/api/resources/shift?view=graph-rest-1.0).
 
