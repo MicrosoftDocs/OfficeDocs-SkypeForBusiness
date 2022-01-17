@@ -43,6 +43,8 @@ description: Learn how to configure call queues via cmdlets
 The following three call queues will be created:
 
 Sales Call Queue information:
+- Fronted by Auto Attendant: Yes
+- Direct calling from PSTN: No
 - Language: English US
 - Greeting: None
 - Music on hold: Play an audio file
@@ -61,6 +63,8 @@ Sales Call Queue information:
 - - Redirect to: Adele@contoso.com
 
 Support Call Queue information:
+- Fronted by Auto Attendant: Yes
+- Direct calling from PSTN: No
 -	Language: English UK
 -	Greeting: Play an audio file
 -	- Filename: support-greeting.wav
@@ -84,6 +88,8 @@ Support Call Queue information:
 
 
 Facilities Collaborative Calling Queue information:
+- Fronted by Auto Attendant: No
+- Direct calling from PSTN: No (internal calling only)
 -	Language: French FR
 -	Greeting: None
 -	Music on hold: default
@@ -125,7 +131,7 @@ Replace "contoso.com with the Teams domain name for your tenant.
 ````
 $userAdeleID = (Get-CsOnlineUser -Identity “sip:adele@contoso.com”).ObjectID
 $userSalesBillID = (Get-CsOnlineUser -Identity “sip:bill@contoso.com”).ObectID
-$userSalesMaryID = (Get-CsOlineUser -Identity “sip:mary@contoso.com”).ObjectID
+$userSalesMaryID = (Get-CsOnlineUser -Identity “sip:mary@contoso.com”).ObjectID
 ````
 
 ### Get list of supported languages
@@ -138,11 +144,16 @@ Get-CsAutoAttendantSupportedLanguage
 New-CsCallQueue -Name “Sales” -AgentAlertTime 15 -AllowOptOut $true -MusicOnHoldAudioFileID $audioFileSalesHoldInQueueMusicID -OverflowAction Forward -OverflowActionTarget $userAdeleID -OverflowThreshold 200 -TimeoutAction Forward -TimeoutActionTarget $userAdeleID -TimeoutThreshold 120 -RoutingMethod Attendant -ConferenceMode $true -User @($userSalesBillID, $userSalesMaryID) -LanguageID “en-US”
 ````
 
+### Get license types
+````
+Get-MsolAccountSku
+````
+
 ### Create and Assign Resource Account
 Note: Phone number not required here as call queue is front ended by an Auto Attendant
-#ApplicationID
-#Auto Attendant: ce933385-9390-45d1-9512-c8d228074e07
-#Call Queue: 11cd3e2e-fccb-42ad-ad00-878b93575e07
+- ApplicationID
+- - Auto Attendant: ce933385-9390-45d1-9512-c8d228074e07
+- - Call Queue: 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName Sales-RA@contoso.com -DisplayName "Sales" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
@@ -151,11 +162,12 @@ Set-MsolUser -UserPrincipalName "Sales-RA@contoso.com" -UsageLocation US
 
 Set-MsolUserLicense -UserPrincipalName “Sales-RA@contoso.com” -AddLicenses "contoso:PHONESYSTEM_VIRTUALUSER"
 
-$applicationInstanceID = (Get-CsOnlineUser "Sales-RA@contoso.com").ObjectID
+$applicationInstanceID = (Get-CsOnlineUser -Identity "Sales-RA@contoso.com").ObjectID
 $callQueueID = (Get-CsCallQueue -NameFilter "Sales").Identity
 
 New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID) -ConfigurationID $callQueueID -ConfigurationType CallQueue
 ````
+
 
 ## Support Queue
 ### Create audio files
@@ -199,7 +211,7 @@ Set-MsolUser -UserPrincipalName "Support-RA@contoso.com" -UsageLocation US
 
 Set-MsolUserLicense -UserPrincipalName “Support-RA@contoso.com” -AddLicenses "contoso:PHONESYSTEM_VIRTUALUSER"
 
-$applicationInstanceID = (Get-CsOnlineUser "Support-RA@contoso.com").ObjectID
+$applicationInstanceID = (Get-CsOnlineUser -Identity "Support-RA@contoso.com").ObjectID
 $callQueueID = (Get-CsCallQueue -NameFilter "Support").Identity
 
 New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID) -ConfigurationID $callQueueID -ConfigurationType CallQueue
