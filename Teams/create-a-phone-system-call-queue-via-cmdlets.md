@@ -86,7 +86,7 @@ Support Call Queue information:
 Facilities Collaborative Calling Queue information:
 -	Language: French FR
 -	Greeting: TTS 
--	- "Merci d'avoir apeller."
+-	- "Merci d’avoir appelé le service des installations.  Veuillez rester en ligne pour le prochain agent disponible."
 -	Music on hold: default
 -	Call Answering: Channel: Facilities
 -	Conference Mode: On
