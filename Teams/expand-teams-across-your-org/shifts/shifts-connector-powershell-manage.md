@@ -68,7 +68,7 @@ To learn more, see [Get-CsTeamsShiftsConnectionOperation](/powershell/module/tea
 You can run a report that shows error details for a connection. The report lists team and user mappings that succeeded and failed. It also provides information about any issues related to the accounts associated with the connection.
 
 1. [Set up your environment](#set-up-your-environment) (if you haven't already).
-1. Run the following command.
+1. Get a list of error reports for a connection.
 
     ``` powershell
     Get-CsTeamsShiftsConnectionErrorReport -ConnectorInstanceId <ConnectorInstanceId>
@@ -269,19 +269,19 @@ Write-Host "Success"
 If you want to unmap a team from one connection and map it to another connection:
 
 1. [Set up your environment](#set-up-your-environment) (if you haven't already).
-1. To view a list of all team mappings for a connection, run the following command.
+1. View a list of all team mappings for a connection.
 
     ```powershell
     Get-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId <ConnectorInstanceId>
     ```
 
-1. To remove a team mapping from the connection, run the following command.
+1. Remove a team mapping from the connection.
 
     ```powershell
     Remove-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId <ConnectorInstanceId> -TeamId <TeamId>
     ```
 
-1. To map the team to another connection, run the following command.
+1. Map the team to another connection.
 
     ```powershell
     New-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId <ConnectorInstanceId> -TeamId <TeamId> -WfmTeamId <SiteId> -TimeZone <TimeZone>
