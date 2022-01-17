@@ -29,9 +29,7 @@ description: Learn how to set up call queues for large organizations in Microsof
 
 ## Assumptions
 1)	Powershell is installed on your computer
-a.	Set up your computer for Windows PowerShell - Skype for Business Online | Microsoft Docs
-
-https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
+a.	Set up your computer for [Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
 b.	MSTeams Module Installed (Install-Module -Name MicrosoftTeams -Force -AllowClobber)
 c.	MSOnline module installed (Install-Module -Name MSOnline -Force -AllowClobber)
