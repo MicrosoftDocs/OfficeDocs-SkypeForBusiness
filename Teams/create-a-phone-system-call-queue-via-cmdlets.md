@@ -38,6 +38,12 @@ description: Learn how to configure call queues via cmdlets
 3)	You have purchased Microsoft Teams Phone
 4)	The agents, distribution lists and Teams channels referred to below have already been created
 
+Note:
+Teams Channel cmdlets are currently in preview and you need to install the XXX
+
+Users who already have Thte MicrosoftTeams module installed should Update-Module MicrosoftTeams to ensure the most up to date version
+
+
 ## Scenario
 
 The following three call queues will be created:
@@ -93,7 +99,9 @@ Facilities Collaborative Calling Queue information:
 -	Language: French FR
 -	Greeting: None
 -	Music on hold: default
--	Call Answering: Channel: Facilities
+-	Call Answering: Team: Facilities
+-	Call Answering Channel: Help Desk
+-	- Channel Owner: Fred@contoso.com
 -	Conference Mode: On
 -	Routing method: Round Robin
 -	Presence-based routing: On
@@ -103,6 +111,7 @@ Facilities Collaborative Calling Queue information:
 -	- Disconnect
 -	Call timeout handling: 45 minutes
 -	- Disconnect
+
 
 ## Methodology
 
@@ -217,3 +226,35 @@ $callQueueID = (Get-CsCallQueue -NameFilter "Support").Identity
 New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID) -ConfigurationID $callQueueID -ConfigurationType CallQueue
 ````
 
+
+FACILITIES
+
+$teamFacilitiesGroupID = (Get-Team -DisplayName "Facilities").GroupID
+
+Get-TeamChannel -GroupId $teamFacilitiesGroupID
+$teamFacilitiesHelpDeskChannelID = {assign ID from output of above command)
+
+$teamFacilitiesHelpDeskChannelUserID = (Get-TeamChannelUser -GroupId $teamFacilitiesGroupID -DisplayName "Help Desk" -Role Owner).UserId
+
+$oboResourceAccountID = (Get-CsOnlineUser -Identity "MainAA-RA@contoso.com").ObjectID
+
+
+New-CsCallQueue -Name “Facilities” -AgentAlertTime 15 -AllowOptOut $false -ChannelId $teamFacilitiesHelpDeskChannelID -ChannelUserObjectId $teamFacilitiesHelpDeskChannelUserID  -ConferenceMode $true -DistributionList $teamFacilitiesGroupID -LanguageID “fr-FR” -OboResourceAccountIds $oboResourceAccountID -OverflowAction DisconnectWithBusy -OverflowThreshold 200 -RoutingMethod RoundRobin -TimeoutAction Disconnect -TimeoutThreshold 2700 -UseDefaultMusicOnHold $true 
+
+### Create and Assign Resource Account
+Note: Phone number not required here as call queue is front-ended by an Auto Attendant
+- ApplicationID
+- - Auto Attendant: ce933385-9390-45d1-9512-c8d228074e07
+- - Call Queue: 11cd3e2e-fccb-42ad-ad00-878b93575e07
+````
+New-CsOnlineApplicationInstance -UserPrincipalName Support-RA@contoso.com -DisplayName "Facilities" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
+
+Set-MsolUser -UserPrincipalName "Facilities-RA@contoso.com" -UsageLocation US
+
+Set-MsolUserLicense -UserPrincipalName “Facilities-RA@contoso.com” -AddLicenses "contoso:PHONESYSTEM_VIRTUALUSER"
+
+$applicationInstanceID = (Get-CsOnlineUser -Identity "Facilities-RA@contoso.com").ObjectID
+$callQueueID = (Get-CsCallQueue -NameFilter "Facilities").Identity
+
+New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID) -ConfigurationID $callQueueID -ConfigurationType CallQueue
+````
