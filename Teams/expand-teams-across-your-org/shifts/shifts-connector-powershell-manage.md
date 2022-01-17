@@ -287,6 +287,8 @@ If you want to unmap a team from one connection and map it to another connection
     New-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $instanceId -TeamId $teamId -WfmTeamId $wfmTeamId -TimeZone $timeZone
     ```
 
+To learn more, see [Get-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/get-csteamsshiftsconnectionteammap?view=teams-ps), [Remove-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/remove-csteamsshiftsconnectionteammap?view=teams-ps), and [New-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/new-csteamsshiftsconnectionteammap?view=teams-ps).
+
 ## Disable a connection
 
 Use this script to turn off sync for a connection. Keep in mind this script doesn't remove or delete a connection. It turns off sync so that no data is synced between Shifts and Blue Yonder for the connection that you specify. 
