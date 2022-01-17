@@ -28,15 +28,14 @@ description: Learn how to setup call queues via cmdlets
 # Create a call queue via cmdlets
 
 ## Assumptions
-1)	Powershell is installed on your computer
+1)	PowerShell is installed on your computer
 a.	Set up your computer for [Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
 b.	MSTeams Module Installed (Install-Module -Name MicrosoftTeams -Force -AllowClobber)
 c.	MSOnline module installed (Install-Module -Name MSOnline -Force -AllowClobber)
 2)	You have tenant administration rights
 3)	You have purchased Microsoft Teams Phone
-4)	The agents and distribution lists have already been created
-5)	The phone numbers have already been acquired and are available for use within the tenant
+4)	The agents, distribution lists and Teams channels referred to below have already been created
 
 ## Scenario
 
@@ -92,13 +91,63 @@ o	Call timeout handling: 45 minutes, Disconnect
 The call queues will be programmed from the bottom up, starting with any required assets (creating audio files, linking to users, distributions lists, channels and retrieving language codes), and finishing by assigning the resource accounts.
 
 ### Login
+You will be prompted to enter your Teams administrator credentials.
 ```
 $credential = Get-Credential
 Connect-MicrosoftTeams -Credential $credential
 Connect-MsolService -Credential $credential
 ````
 
+### Sales Queue
+#### Create Audio Files
+Replace "d:\" with the path to where the wav files are stored on your computer.
+
+````
+$content = Get-Content “d:\sales-hold-in-queue-music.wav” -Encoding byte -ReadCount 0
+$audioFileSalesHoldInQueueMusicID = (Import-CsOnlineAudioFile -ApplicationID HuntGroup -FileName "sales-hold-in-queue-music.wav" -Content $content).ID
+````
+
+#### Get Users ID
+Replease "contoso.com with the Teams domain name for your tenant.
+
+````
+$userAdeleID = (Get-CsOnlineUser -Identity “sip:adele@contoso.com”).ObjectID
+$userSalesBillID = (Get-CsOnlineUser -Identity “sip:bill@contoso.com”).ObectID
+$userSalesMaryID = (Get-CsOlineUser -Identity “sip:mary@contoso.com”).ObjectID
+````
+
+#### Get list of supported languages
+````
+Get-CsAutoAttendantSupportedLanguage
+````
+
+#### Create Call Queue
+````
+New-CsCallQueue -Name “Sales” -AgentAlertTime 15 -AllowOptOut $true -MusicOnHoldAudioFileID $audioFileSalesHoldInQueueMusicID -OverflowAction Forward -OverflowActionTarget $userAdeleID -OverflowThreshold 200 -TimeoutAction Forward -TimeoutActionTarget $userAdeleID -TimeoutThreshold 120 -RoutingMethod Attendant -ConferenceMode $true -User @($userSalesBillID, $userSalesMaryID) -LanguageID “en-US”
+````
+
+#### Create and Assign Resource Account
+Note: Phone number not required here as call queue is front ended by an Auto Attendant
+#ApplicationID
+#Auto Attendant: ce933385-9390-45d1-9512-c8d228074e07
+#Call Queue: 11cd3e2e-fccb-42ad-ad00-878b93575e07
+
+````
+New-CsOnlineApplicationInstance -UserPrincipalName Sales-RA@contoso.com -DisplayName "Sales" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
+
+Set-MsolUser -UserPrincipalName "Sales-RA@contoso.com" -UsageLocation US
+
+Set-MsolUserLicense -UserPrincipalName “Sales-RA@contoso.com” -AddLicenses "contoso:PHONESYSTEM_VIRTUALUSER"
+
+$applicationInstanceID = (Get-CsOnlineUser "Sales-RA@contoso.com").ObjectID
+$callQueueID = (Get-CsCallQueue -NameFilter "Sales").Identity
+
+New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID) -ConfigurationID $callQueueID -ConfigurationType CallQueue
+````
+
 ### Support Queue – Create audio files
+Replace "d:\" with the path to where the wav files are stored on your computer.
+
 ````
 $content = Get-Content “d:\support-greeting.wav” -Encoding byte -ReadCount 0
 $audioFileSupportGreetingID = (Import-CsOnlineAudioFile -ApplicationID HuntGroup -FileName "support-greeting.wav" -Content $content).ID
@@ -116,7 +165,9 @@ $teamSupportID = (Get-Team -displayname "Support").GroupID
 ````
 
 ### Support Queue - Get list of supported languages
-
+````
+Get-CsAutoAttendantSupportedLanguage
+````
 
 ### Support Queue – Create Call Queue
 ````
