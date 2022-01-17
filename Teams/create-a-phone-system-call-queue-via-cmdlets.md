@@ -23,16 +23,17 @@ ms.custom:
   - ms.teamsadmincenter.callqueues.overview"
   - Phone System
   - seo-marvel-apr2020
-description: Learn how to setup call queues via cmdlets
+description: Learn how to configure call queues via cmdlets
 ---
 # Create a call queue via cmdlets
 
 ## Assumptions
 1)	PowerShell is installed on your computer
-a.	Set up your computer for [Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
-
-b.	MSTeams Module Installed (Install-Module -Name MicrosoftTeams -Force -AllowClobber)
-c.	MSOnline module installed (Install-Module -Name MSOnline -Force -AllowClobber)
+- Set up your computer for [Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+- MSTeams Module Installed
+````  (Install-Module -Name MicrosoftTeams -Force -AllowClobber) ````
+- MSOnline module installed
+```` Install-Module -Name MSOnline -Force -AllowClobber ````
 2)	You have tenant administration rights
 3)	You have purchased Microsoft Teams Phone
 4)	The agents, distribution lists and Teams channels referred to below have already been created
@@ -41,56 +42,68 @@ c.	MSOnline module installed (Install-Module -Name MSOnline -Force -AllowClobber
 
 The following three call queues will be created:
 
-•	Sales Call Queue information:
-o	Language: English US
-o	Greeting: None
-o	Music on hold: Play an audio file (sales-hold-in-queue-music.wav)
-o	Call Answering: Users (Bill and Mary)
-o	Conference Mode: On
-o	Routing method: Attendant
-o	Presence-based routing: Off
-o	Call agents can opt out of taking calls: Yes
-o	Call agent alert time: 15
-o	Call overflow handling: 200, redirect to Adele Vance
-o	Call timeout handling: 120 seconds, redirect to Adele Vance
+Sales Call Queue information:
+- Language: English US
+- Greeting: None
+- Music on hold: Play an audio file
+- - Filename: sales-hold-in-queue-music.wav
+- Call Answering: Users
+- - Bill@contoso.com
+- - Mary@contoso.com
+- Conference Mode: On
+- Routing method: Attendant
+- Presence-based routing: Off
+- Call agents can opt out of taking calls: Yes
+- Call agent alert time: 15
+- Call overflow handling: 200
+- - Redirect to: Adele@contoso.com
+- Call timeout handling: 120 seconds
+- - Redirect to: Adele@contoso.com
 
-•	Support Call Queue information:
-o	Language: English UK
-o	Greeting: Play an audio file (support-greeting.wav)
-o	Music on hold: Play an audio file (support-hold-in-queue-music.wav)
-o	Call Answering: Support distribution list (Support)
-o	Conference Mode: On
-o	Routing method: Longest Idle
-o	Presence-based routing: N/A – on by default due to Longest Idle
-o	Call agents can opt out of taking calls: No
-o	Call agent alert time: 15
-o	Call overflow handling: 200, Support Shared Voicemail
-	Play an audio file (support-shared-voicemail-greeting.wav)
-	Transcription enabled
-o	Call timeout handling: 45 minutes, Support Shared Voicemail
-	Play an audio file (support-shared-voicemail-greeting.wav)
-	Transcription enabled
+Support Call Queue information:
+-	Language: English UK
+-	Greeting: Play an audio file
+-	- Filename: support-greeting.wav
+-	Music on hold: Play an audio file
+-	- Filename: support-hold-in-queue-music.wav
+-	Call Answering: Support distribution list
+-	- Support@contoso.com
+-	Conference Mode: On
+-	Routing method: Longest Idle
+-	Presence-based routing: N/A – on by default due to Longest Idle
+-	Call agents can opt out of taking calls: No
+-	Call agent alert time: 15
+-	Call overflow handling: 200
+-	- Redirect: Support Shared Voicemail
+- - -	Play an audio file (support-shared-voicemail-greeting.wav)
+- - -	Transcription enabled
+-	Call timeout handling: 45 minutes
+-	- Redirect: Support Shared Voicemail
+- - - Play an audio file (support-shared-voicemail-greeting.wav)
+- - - Transcription enabled
 
-•	After hours transfers to the Sales and Support shared voicemail should suppress the system greeting and transcription should be enabled.
 
-•	Facilities Collaborative Calling Call Queue information:
-o	Language: French FR
-o	Greeting: TTS 
-o	Music on hold: default
-o	Call Answering: Channel: Facilities
-o	Conference Mode: On
-o	Routing method: Round Robin
-o	Presence-based routing: On
-o	Call agents can opt out of taking calls: No
-o	Call agent alert time: 15
-o	Call overflow handling: 200, Disconnect
-o	Call timeout handling: 45 minutes, Disconnect
+Facilities Collaborative Calling Queue information:
+-	Language: French FR
+-	Greeting: TTS 
+-	- "Merci d'avoir apeller."
+-	Music on hold: default
+-	Call Answering: Channel: Facilities
+-	Conference Mode: On
+-	Routing method: Round Robin
+-	Presence-based routing: On
+-	Call agents can opt out of taking calls: No
+-	Call agent alert time: 15
+-	Call overflow handling: 200
+-	- Disconnect
+-	Call timeout handling: 45 minutes
+-	- Disconnect
 
-## Programming approach:
+## Methodology
 
-The call queues will be programmed from the bottom up, starting with any required assets (creating audio files, linking to users, distributions lists, channels and retrieving language codes), and finishing by assigning the resource accounts.
+The call queues will be programmed starting with any required assets (creating audio files, linking to users, distributions lists, channels, and retrieving language codes), and finishing by assigning the resource accounts.
 
-### Login
+## Login
 You will be prompted to enter your Teams administrator credentials.
 ```
 $credential = Get-Credential
@@ -98,8 +111,8 @@ Connect-MicrosoftTeams -Credential $credential
 Connect-MsolService -Credential $credential
 ````
 
-### Sales Queue
-#### Create Audio Files
+## Sales Queue
+### Create Audio Files
 Replace "d:\" with the path to where the wav files are stored on your computer.
 
 ````
@@ -107,7 +120,7 @@ $content = Get-Content “d:\sales-hold-in-queue-music.wav” -Encoding byte -Re
 $audioFileSalesHoldInQueueMusicID = (Import-CsOnlineAudioFile -ApplicationID HuntGroup -FileName "sales-hold-in-queue-music.wav" -Content $content).ID
 ````
 
-#### Get Users ID
+### Get Users ID
 Replease "contoso.com with the Teams domain name for your tenant.
 
 ````
@@ -116,17 +129,17 @@ $userSalesBillID = (Get-CsOnlineUser -Identity “sip:bill@contoso.com”).Obect
 $userSalesMaryID = (Get-CsOlineUser -Identity “sip:mary@contoso.com”).ObjectID
 ````
 
-#### Get list of supported languages
+### Get list of supported languages
 ````
 Get-CsAutoAttendantSupportedLanguage
 ````
 
-#### Create Call Queue
+### Create Call Queue
 ````
 New-CsCallQueue -Name “Sales” -AgentAlertTime 15 -AllowOptOut $true -MusicOnHoldAudioFileID $audioFileSalesHoldInQueueMusicID -OverflowAction Forward -OverflowActionTarget $userAdeleID -OverflowThreshold 200 -TimeoutAction Forward -TimeoutActionTarget $userAdeleID -TimeoutThreshold 120 -RoutingMethod Attendant -ConferenceMode $true -User @($userSalesBillID, $userSalesMaryID) -LanguageID “en-US”
 ````
 
-#### Create and Assign Resource Account
+### Create and Assign Resource Account
 Note: Phone number not required here as call queue is front ended by an Auto Attendant
 #ApplicationID
 #Auto Attendant: ce933385-9390-45d1-9512-c8d228074e07
@@ -145,7 +158,8 @@ $callQueueID = (Get-CsCallQueue -NameFilter "Sales").Identity
 New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID) -ConfigurationID $callQueueID -ConfigurationType CallQueue
 ````
 
-### Support Queue – Create audio files
+## Support Queue
+### Create audio files
 Replace "d:\" with the path to where the wav files are stored on your computer.
 
 ````
@@ -159,22 +173,22 @@ $content = Get-Content “d:\support-shared-voicemail-greeting.wav” -Encoding 
 $audioFileSupportSharedVoicemailGreetingID = (Import-CsOnlineAudioFile -ApplicationID HuntGroup -FileName "support-shared-voicemail-greeting.wav" -Content $content).ID
 ````
 
-### Support Queue – Get Support team group ID
+### Get Support team group ID
 ````
 $teamSupportID = (Get-Team -displayname "Support").GroupID
 ````
 
-### Support Queue - Get list of supported languages
+### Get list of supported languages
 ````
 Get-CsAutoAttendantSupportedLanguage
 ````
 
-### Support Queue – Create Call Queue
+### Create Call Queue
 ````
 New-CsCallQueue -Name “Support” -AgentAlertTime 15 -AllowOptOut $false -DistributionLists $teamSupportID -WelcomeMusicAudioFileID $audioFileSupportGreetingID -MusicOnHoldAudioFileID $audioFileSupportHoldInQueueMusicID -OverflowAction SharedVoicemail -OverflowActionTarget $teamSupportID -OverflowThreshold 200 -OverflowSharedVoicemailAudioFilePrompt $audioFileSupportSharedVoicemailGreetingID -EnableOverflowSharedVoicemailTranscription $true -TimeoutAction SharedVoicemail -TimeoutActionTarget $teamSupportID -TimeoutThreshold 2700 -TimeoutSharedVoicemailAudioFilePrompt $audioFileSupportSharedVoicemailGreetingID -EnableTimeoutSharedVoicemailTranscription $true -RoutingMethod LongestIdle -ConferenceMode $true -LanguageID “en-US”
 ````
 
-### Support Queue – Create and Assign Resource Account
+### Create and Assign Resource Account
 Note: Phone number not required here as call queue is front-ended by an Auto Attendant
 #ApplicationID
 #Auto Attendant: ce933385-9390-45d1-9512-c8d228074e07
