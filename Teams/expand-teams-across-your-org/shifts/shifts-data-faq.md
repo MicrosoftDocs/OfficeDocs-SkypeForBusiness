@@ -56,9 +56,9 @@ There's no option to delete only Shifts data. If you delete a team in Teams, Shi
 
 ## Can I recover a Shifts schedule that was deleted?
 
-You can recover a deleted schedule if the Microsoft 365 Group that backs it (or the team in Teams) is restored.
+You can recover a deleted schedule if the Microsoft 365 group that backs it (or the team in Teams) is restored.
 
-By default, a deleted Microsoft 365 Group is retained for 30 days. This 30-day period is called "soft-delete" because you can restore the group. To learn more, see [Restore a deleted Microsoft 365 Group](/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide&tabs=admin-center).
+By default, a deleted Microsoft 365 group is retained for 30 days. This 30-day period is called "soft-delete" because you can restore the group. To learn more, see [Restore a deleted Microsoft 365 Group](/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide&tabs=admin-center).
 
 ## Can I use custom retention policies for Shifts data?
 
@@ -113,4 +113,4 @@ Shifts data can be migrated from one tenant to another tenant by the Shifts serv
 
 ## Related articles
 
-[Manage the Shifts app for your organization](manage-the-shifts-app-for-your-organization-in-teams.md)
+[Manage the Shifts app](manage-the-shifts-app-for-your-organization-in-teams.md)
