@@ -1,7 +1,7 @@
 ---
 title: "Complimentary dial-out period"
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: mikedav, OscarR
 ms.topic: conceptual
@@ -33,7 +33,7 @@ Customers may use Microsoft 365 or Office 365 Calling Plan and Office 365 Audio 
   
 ### End of complimentary dial out period
 
-The complimentary dial-out capability ended on December 1, 2019. For more information, see [Audio Conferencing subscription dial out and call me at benefit](audio-conferencing-subscription-dial-out.md). 
+The complimentary dial-out capability ended on December 1, 2019. For more information, see [Audio Conferencing subscription dial out and call me at benefit](audio-conferencing-subscription-dial-out.md).
 
 This change did not take place for countries where the Audio Conferencing subscription is available, but we do not currently enable setting up Communications Credits. These specific countries are Russia, South Korea, and Taiwan.
 
@@ -59,7 +59,7 @@ Email notifications will be sent to all tenant administrators of a given custome
 For dial-out calls that are billed per minute (calls exceeding the tenant dial-out minute pool or calls to destinations not in the [Zone A countries and regions](audio-conferencing-zones.md) list), the calls and their associated rates are based primarily on the destination of the call and not the country or region of the organizer or the participant initiating the dial-out call. For example, a call to a phone number in France will be billed with the same rate if it is initiated by a meeting participant in the United States or one in France.
 
 For more information about Communication Credits, see [Communications Credits](what-are-communications-credits.md).
-     
+
 ## Related topics
 
 - [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
