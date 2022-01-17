@@ -31,6 +31,7 @@ This article describes how to use PowerShell to do the following:
 - [View an error report for a connection](#view-an-error-report-for-a-connection)
 - [Resolve connection errors](#resolve-connection-errors)
 - [Change connection settings](#change-connection-settings)
+- [Unmap a team from one connection and map it to another connection](#unmap-a-team-from-one-connection-and-map-it-to-another-connection)
 - [Disable a connection](#disable-a-connection)
 
 > [!NOTE]
@@ -262,6 +263,29 @@ Write-Host "Adding a mapping"
 New-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $InstanceId -TeamId $TeamsTeamId -TimeZone "America/Los_Angeles" -WfmTeamId $WfmTeamId
 Write-Host "Success"
 ```
+
+## Unmap a team from one connection and map it to another connection
+
+If you want to unmap a team from one connection and map it to another connection:
+
+1. [Set up your environment](#set-up-your-environment) (if you haven't already).
+1. To view a list of all team mappings for a connection, run the following command:
+
+    ```powershell
+    Get-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $instanceId
+    ```
+
+1. To remove a team mapping from the connection, run the following command:
+
+    ```powershell
+    Remove-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $instanceId -TeamId $teamId
+    ```
+
+1. To map the team to another connection, run the following command:
+
+    ```powershell
+    New-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $instanceId -TeamId $teamId -WfmTeamId $wfmTeamId -TimeZone $timeZone
+    ```
 
 ## Disable a connection
 
