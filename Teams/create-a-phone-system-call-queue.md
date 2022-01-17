@@ -246,17 +246,17 @@ Windows PowerShell allows you to create and manage call queues via the command l
 
 The following cmdlets allow you to manage a call queue:
 
-- [New-CsCallQueue](/powershell/module/skype/New-CsCallQueue)
-- [Get-CsCallQueue](/powershell/module/skype/Get-CsCallQueue)
-- [Set-CsCallQueue](/powershell/module/skype/Set-CsCallQueue)
-- [Remove-CsCallQueue](/powershell/module/skype/Remove-CsCallQueue)
+- [New-CsCallQueue](/powershell/module/skype/New-CsCallQueue.md)
+- [Get-CsCallQueue](/powershell/module/skype/Get-CsCallQueue.md)
+- [Set-CsCallQueue](/powershell/module/skype/Set-CsCallQueue.md)
+- [Remove-CsCallQueue](/powershell/module/skype/Remove-CsCallQueue.md)
 
 The following additional cmdlets are also required to manage the users, resource accounts, virtual phone system licenses, phone numbers, audio files and supported language that will be used with call queues:
 
 Users/Teams
 
-- [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser)
-- [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) TO BE UPDATED
+- Users: [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser)
+- Teams: [Get-Team](/powershell/module/skype/Get-Team)
 
 Resource accounts:
 
