@@ -38,9 +38,9 @@ description: Learn how to configure call queues via cmdlets
 3)	You have purchased Microsoft Teams Phone
 4)	The agents, distribution lists and Teams channels referred to below have already been created
 
-Note: The Teams Channel cmdlet is part of the Public Preview version of Teams PowerShell Module, for more information see [Install Teams PowerShell public preview](https://docs.microsoft.com/microsoftteams/teams-powershell-install#install-teams-powershell-public-preview) and also see [Microsoft Teams PowerShell Release Notes](https://docs.microsoft.com/microsoftteams/teams-powershell-release-notes).
+Note: The Teams Channel cmdlet used below is part of the Public Preview version of Teams PowerShell Module.  For more information see [Install Teams PowerShell public preview](https://docs.microsoft.com/microsoftteams/teams-powershell-install#install-teams-powershell-public-preview) and also see [Microsoft Teams PowerShell Release Notes](https://docs.microsoft.com/microsoftteams/teams-powershell-release-notes).
 
-Users who already have the MicrosoftTeams module installed should ````Update-Module MicrosoftTeams```` to ensure the most up to date version
+Users who already have the MicrosoftTeams module installed should ````Update-Module MicrosoftTeams```` to ensure the most up to date version is installed.
 
 
 ## Scenario
@@ -88,7 +88,7 @@ Support Call Queue information:
 - - -	Transcription enabled
 -	Call timeout handling: 45 minutes
 -	- Redirect: Support Shared Voicemail
-- - - Play TTS "We're sorry to have kept you waiting and are now transferring your call to voicemail."
+- - - TTS: "We're sorry to have kept you waiting and are now transferring your call to voicemail."
 - - - Transcription enabled
 
 
