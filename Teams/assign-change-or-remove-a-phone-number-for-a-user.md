@@ -58,17 +58,23 @@ To assign a number by using the Teams admin center:
 
 6. Click **Save**.
 
-To assign numbers by using PowerShell, use the [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser) cmdlet as follows:
+To assign numbers by using PowerShell, use the [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) cmdlet as follows:
 
-
+For Calling Plan numbers
 ```PowerShell
-Set-CsOnlineVoiceUser -Identity <user>  -TelephoneNumber <phone number> 
+Set-CsPhoneNumberAssignment -Identity <user>  -PhoneNumber <phone number> -PhoneNumberType CallingPlan
+```
+
+For Operator Connect numbers
+```PowerShell
+Set-CsPhoneNumberAssignment -Identity <user>  -PhoneNumber <phone number> -PhoneNumberType OperatorConnect
 ```
 
 For example:
 
 ```PowerShell
-Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
+Set-CsPhoneNumberAssignment -Identity john@contoso.com -PhoneNumber "+14255550101" -PhoneNumberType CallingPlan
+Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+14255550102" -PhoneNumberType OperatorConnect
 ```
 
 > [!NOTE]
@@ -100,7 +106,7 @@ To change a phone number for a user by using the Teams admin center:
 
 9. Click **Save**.
 
-For a PowerShell example, see [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser).
+For a PowerShell example, see [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment).
 
 ## Remove a phone number from a user
 
@@ -116,7 +122,7 @@ To remove a phone number by using the Teams admin center:
 
 5. Click **Save**.
 
-For a PowerShell example, see [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser).
+For a PowerShell example, see [remove-CsPhoneNumberAssignment](/powershell/module/teams/remove-csphonenumberassignment).
 
 ## Related topics
 
@@ -128,5 +134,7 @@ For a PowerShell example, see [Set-CsOnlineVoiceUser](/powershell/module/skype/s
 
 [Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
-[Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)
+[Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment)
+
+[Remove-CsPhoneNumberAssignment](/powershell/module/teams/remove-csphonenumberassignment)
 
