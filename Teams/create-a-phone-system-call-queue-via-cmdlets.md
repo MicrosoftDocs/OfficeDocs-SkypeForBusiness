@@ -208,6 +208,11 @@ Get-CsAutoAttendantSupportedLanguage
 New-CsCallQueue -Name “Support” -AgentAlertTime 15 -AllowOptOut $false -DistributionLists $teamSupportID -WelcomeMusicAudioFileID $audioFileSupportGreetingID -MusicOnHoldAudioFileID $audioFileSupportHoldInQueueMusicID -OverflowAction SharedVoicemail -OverflowActionTarget $teamSupportID -OverflowThreshold 200 -OverflowSharedVoicemailAudioFilePrompt $audioFileSupportSharedVoicemailGreetingID -EnableOverflowSharedVoicemailTranscription $true -TimeoutAction SharedVoicemail -TimeoutActionTarget $teamSupportID -TimeoutThreshold 2700 -TimeoutSharedVoicemailTextToSpeechPrompt "We're sorry to have kept you waiting and are now transferring your call to voicemail." -EnableTimeoutSharedVoicemailTranscription $true -RoutingMethod LongestIdle -ConferenceMode $true -LanguageID “en-US”
 ````
 
+### Get license types
+````
+Get-MsolAccountSku
+````
+
 ### Create and Assign Resource Account
 Note: Phone number not required here as call queue is front-ended by an Auto Attendant
 - ApplicationID
@@ -227,19 +232,42 @@ New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID)
 ````
 
 
-FACILITIES
-
+## Facilities Collaborative Calling Queue
+### Get Facilities team group ID
+````
 $teamFacilitiesGroupID = (Get-Team -DisplayName "Facilities").GroupID
+````
 
+### Get Facilities Help Desk Team Channel ID
+````
 Get-TeamChannel -GroupId $teamFacilitiesGroupID
-$teamFacilitiesHelpDeskChannelID = {assign ID from output of above command)
+$teamFacilitiesHelpDeskChannelID = "{assign ID from output of above command}"
+````
 
+### Get Facilities Help Desk Channel Ower User ID
+````
 $teamFacilitiesHelpDeskChannelUserID = (Get-TeamChannelUser -GroupId $teamFacilitiesGroupID -DisplayName "Help Desk" -Role Owner).UserId
+````
 
+### Get On Behalf Of Calling Resource Account ID
+````
 $oboResourceAccountID = (Get-CsOnlineUser -Identity "MainAA-RA@contoso.com").ObjectID
+````
 
+### Get list of supported languages
+````
+Get-CsAutoAttendantSupportedLanguage
+````
 
+### Create Call Queue
+````
 New-CsCallQueue -Name “Facilities” -AgentAlertTime 15 -AllowOptOut $false -ChannelId $teamFacilitiesHelpDeskChannelID -ChannelUserObjectId $teamFacilitiesHelpDeskChannelUserID  -ConferenceMode $true -DistributionList $teamFacilitiesGroupID -LanguageID “fr-FR” -OboResourceAccountIds $oboResourceAccountID -OverflowAction DisconnectWithBusy -OverflowThreshold 200 -RoutingMethod RoundRobin -TimeoutAction Disconnect -TimeoutThreshold 2700 -UseDefaultMusicOnHold $true 
+````
+
+### Get license types
+````
+Get-MsolAccountSku
+````
 
 ### Create and Assign Resource Account
 Note: Phone number not required here as call queue is front-ended by an Auto Attendant
