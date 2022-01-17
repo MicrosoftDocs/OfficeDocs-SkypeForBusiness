@@ -23,7 +23,7 @@ ms.custom:
   - ms.teamsadmincenter.callqueues.overview"
   - Phone System
   - seo-marvel-apr2020
-description: Learn how to set up call queues for large organizations in Microsoft Teams, which provides a greeting message, hold music, call redirecting, and other features.
+description: Learn how to setup call queues via cmdlets
 ---
 # Create a call queue via cmdlets
 
@@ -90,4 +90,54 @@ o	Call timeout handling: 45 minutes, Disconnect
 ## Programming approach:
 
 The call queues will be programmed from the bottom up, starting with any required assets (creating audio files, linking to users, distributions lists, channels and retrieving language codes), and finishing by assigning the resource accounts.
+
+### Login
+```
+$credential = Get-Credential
+Connect-MicrosoftTeams -Credential $credential
+Connect-MsolService -Credential $credential
+````
+
+### Support Queue – Create audio files
+````
+$content = Get-Content “d:\support-greeting.wav” -Encoding byte -ReadCount 0
+$audioFileSupportGreetingID = (Import-CsOnlineAudioFile -ApplicationID HuntGroup -FileName "support-greeting.wav" -Content $content).ID
+
+$content = Get-Content “d:\support-hold-in-queue-music.wav” -Encoding byte -ReadCount 0
+$audioFileSupportHoldInQueueMusicID = (Import-CsOnlineAudioFile -ApplicationID HuntGroup -FileName "support-hold-in-queue-music.wav" -Content $content).ID
+
+$content = Get-Content “d:\support-shared-voicemail-greeting.wav” -Encoding byte -ReadCount 0
+$audioFileSupportSharedVoicemailGreetingID = (Import-CsOnlineAudioFile -ApplicationID HuntGroup -FileName "support-shared-voicemail-greeting.wav" -Content $content).ID
+````
+
+### Support Queue – Get Support team group ID
+````
+$teamSupportID = (Get-Team -displayname "Support").GroupID
+````
+
+### Support Queue - Get list of supported languages
+
+
+### Support Queue – Create Call Queue
+````
+New-CsCallQueue -Name “Support” -AgentAlertTime 15 -AllowOptOut $false -DistributionLists $teamSupportID -WelcomeMusicAudioFileID $audioFileSupportGreetingID -MusicOnHoldAudioFileID $audioFileSupportHoldInQueueMusicID -OverflowAction SharedVoicemail -OverflowActionTarget $teamSupportID -OverflowThreshold 200 -OverflowSharedVoicemailAudioFilePrompt $audioFileSupportSharedVoicemailGreetingID -EnableOverflowSharedVoicemailTranscription $true -TimeoutAction SharedVoicemail -TimeoutActionTarget $teamSupportID -TimeoutThreshold 2700 -TimeoutSharedVoicemailAudioFilePrompt $audioFileSupportSharedVoicemailGreetingID -EnableTimeoutSharedVoicemailTranscription $true -RoutingMethod LongestIdle -ConferenceMode $true -LanguageID “en-US”
+````
+
+### Support Queue – Create and Assign Resource Account
+Note: Phone number not required here as call queue is front-ended by an Auto Attendant
+#ApplicationID
+#Auto Attendant: ce933385-9390-45d1-9512-c8d228074e07
+#Call Queue: 11cd3e2e-fccb-42ad-ad00-878b93575e07
+````
+New-CsOnlineApplicationInstance -UserPrincipalName Support-RA@contoso.com -DisplayName "Support" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
+
+Set-MsolUser -UserPrincipalName "Support-RA@contoso.com" -UsageLocation US
+
+Set-MsolUserLicense -UserPrincipalName “Support-RA@contoso.com” -AddLicenses "contoso:PHONESYSTEM_VIRTUALUSER"
+
+$applicationInstanceID = (Get-CsOnlineUser "Support-RA@contoso.com").ObjectID
+$callQueueID = (Get-CsCallQueue -NameFilter "Support").Identity
+
+New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID) -ConfigurationID $callQueueID -ConfigurationType CallQueue
+````
 
