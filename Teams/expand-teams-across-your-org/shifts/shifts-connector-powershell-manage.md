@@ -269,19 +269,19 @@ Write-Host "Success"
 If you want to unmap a team from one connection and map it to another connection:
 
 1. [Set up your environment](#set-up-your-environment) (if you haven't already).
-1. To view a list of all team mappings for a connection, run the following command:
+1. To view a list of all team mappings for a connection, run the following command.
 
     ```powershell
     Get-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $instanceId
     ```
 
-1. To remove a team mapping from the connection, run the following command:
+1. To remove a team mapping from the connection, run the following command.
 
     ```powershell
     Remove-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $instanceId -TeamId $teamId
     ```
 
-1. To map the team to another connection, run the following command:
+1. To map the team to another connection, run the following command.
 
     ```powershell
     New-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $instanceId -TeamId $teamId -WfmTeamId $wfmTeamId -TimeZone $timeZone
