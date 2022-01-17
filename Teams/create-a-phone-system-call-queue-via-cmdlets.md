@@ -38,10 +38,9 @@ description: Learn how to configure call queues via cmdlets
 3)	You have purchased Microsoft Teams Phone
 4)	The agents, distribution lists and Teams channels referred to below have already been created
 
-Note:
-Teams Channel cmdlets are currently in preview and you need to install the XXX
+Note: The Teams Channel cmdlet is part of the Public Preview version of Teams PowerShell Module, for more information see [Install Teams PowerShell public preview](https://docs.microsoft.com/microsoftteams/teams-powershell-install#install-teams-powershell-public-preview) and also see [Microsoft Teams PowerShell Release Notes](https://docs.microsoft.com/microsoftteams/teams-powershell-release-notes).
 
-Users who already have Thte MicrosoftTeams module installed should Update-Module MicrosoftTeams to ensure the most up to date version
+Users who already have the MicrosoftTeams module installed should ````Update-Module MicrosoftTeams```` to ensure the most up to date version
 
 
 ## Scenario
@@ -113,10 +112,6 @@ Facilities Collaborative Calling Queue information:
 -	- Disconnect
 
 
-## Methodology
-
-The call queues will be programmed starting with any required assets (creating audio files, linking to users, distributions lists, channels, and retrieving language codes), and finishing by assigning the resource accounts.
-
 ## Login
 You will be prompted to enter your Teams administrator credentials.
 ```
@@ -127,7 +122,7 @@ Connect-MsolService -Credential $credential
 
 ## Sales Queue
 ### Create Audio Files
-Replace "d:\" with the path to where the wav files are stored on your computer.
+Replace "d:\\" with the path to where the wav files are stored on your computer.
 
 ````
 $content = Get-Content “d:\sales-hold-in-queue-music.wav” -Encoding byte -ReadCount 0
@@ -135,8 +130,6 @@ $audioFileSalesHoldInQueueMusicID = (Import-CsOnlineAudioFile -ApplicationID Hun
 ````
 
 ### Get Users ID
-Replace "contoso.com with the Teams domain name for your tenant.
-
 ````
 $userAdeleID = (Get-CsOnlineUser -Identity “sip:adele@contoso.com”).ObjectID
 $userSalesBillID = (Get-CsOnlineUser -Identity “sip:bill@contoso.com”).ObectID
@@ -180,7 +173,7 @@ New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID)
 
 ## Support Queue
 ### Create audio files
-Replace "d:\" with the path to where the wav files are stored on your computer.
+Replace "d:\\" with the path to where the wav files are stored on your computer.
 
 ````
 $content = Get-Content “d:\support-greeting.wav” -Encoding byte -ReadCount 0
@@ -238,13 +231,13 @@ New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID)
 $teamFacilitiesGroupID = (Get-Team -DisplayName "Facilities").GroupID
 ````
 
-### Get Facilities Help Desk Team Channel ID
+### Get Facilities Help Desk team channel ID
 ````
 Get-TeamChannel -GroupId $teamFacilitiesGroupID
 $teamFacilitiesHelpDeskChannelID = "{assign ID from output of above command}"
 ````
 
-### Get Facilities Help Desk Channel Ower User ID
+### Get Facilities Help Desk channel ower user ID
 ````
 $teamFacilitiesHelpDeskChannelUserID = (Get-TeamChannelUser -GroupId $teamFacilitiesGroupID -DisplayName "Help Desk" -Role Owner).UserId
 ````
