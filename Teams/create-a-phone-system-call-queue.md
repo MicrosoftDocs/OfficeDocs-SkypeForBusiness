@@ -284,7 +284,6 @@ Phone number assignment:
 
 Audio Files
 
-- [New-CsOnlineAudioFile](/powershell/module/skype/New-CsOnlineAudioFile.md)
 - [Get-CsOnlineAudioFile](/powershell/module/skype/Get-CsOnlineAudioFile.md)
 - [Import-CsOnlineAudioFile](/powershell/module/skype/Import-CsOnlineAudioFile.md)
 - [Export-CsOnlineAudioFile](/powershell/module/skype/Export-CsOnlineAudioFile.md)
