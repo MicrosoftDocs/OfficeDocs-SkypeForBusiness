@@ -23,7 +23,7 @@ appliesto:
 
 # Get started with Teams for Retail
 
-Retail environments, with their rotating schedules and on-the-go staff, have very different needs than other organizations. To get the most benefit for your retail organization, you first choose which scenarios Teams can help you with in your day-to-day business operations, and then make sure that you prepare your teams environment with the right fundamentals, teams, and apps to support those scenarios.
+Retail environments, with their rotating schedules and on-the-go staff, have very different needs than other organizations. To get the most benefit for your retail organization, you first choose which scenarios Teams can help you with in your day-to-day business operations, and then make sure that you prepare your Teams environment with the right fundamentals, teams, and apps to support those scenarios.
 
 1. [Choose the scenarios](#choose-your-scenarios) you want to implement for your business.
 :::image type="content" source="../media/retail-teams-scenarios.png" alt-text="Diagram showing Teams scenarios for retail." lightbox="../media/retail-teams-scenarios.png":::
@@ -45,7 +45,7 @@ Microsoft 365 and Microsoft Teams offer several capabilities that can help retai
 
 ### In-store communication and collaboration
 
-Bring in-store associates and management together to collaborate and streamline operations with Microsoft Teams and Teams apps.
+Bring in-store associates and management together to collaborate and streamline operations with Teams and Teams apps.
 
 **Key apps:** Shifts, Walkie Talkie, Tasks, Approvals, Chat, Praise, Lists, Files
 
@@ -67,7 +67,7 @@ More information: [Retail team collaboration](retail-team-collaboration.md)
 
 The Bookings app in Microsoft Teams gives organizations a simple way to schedule and manage virtual appointments for associates and customers. Use it to schedule virtual appointments such as virtual shopping experiences.
 
-**Key apps:** Meet, Bookings
+**Key features and apps:** meetings, Bookings
 
 More information: [Virtual Visits with Microsoft Teams and the Bookings app](bookings-virtual-visits.md)
 
@@ -87,7 +87,7 @@ More information: [Simplify business processes](retail-business-processes.md)
 
 ### Corporate communications
 
-Employee engagement is a significant contributor to workplace satisfaction, loyalty, and productivity at any organization. Learn how to keep everyone informed and engaged using SharePoint, Microsoft Teams, Yammer, Stream, and Viva Connections.
+Employee engagement is a significant contributor to workplace satisfaction, loyalty, and productivity at any organization. Learn how to keep everyone informed and engaged using SharePoint, Teams, Yammer, Stream, and Viva Connections.
 
 **Additional services:** Viva Connections, SharePoint, Stream, Yammer
 
@@ -122,7 +122,7 @@ With high turnover, the ability to add and remove accounts quickly, and get the 
 
 If you have a lot of users to add (more than 100), you can quickly provision users and teams and assign all relevant policies with a [scripted deployment for frontline workers](../flw-scripted-deployment.md).
 
-The presence of Frontline Workers is often less predictable than other staff as their working hours are typically not the same each day. As an admin, you can configure Teams with Shift-based access (Preview) to show a set of shift-based presence states for the Frontline Workers in your organization to indicate when they are on and off shift. For more information, see [Manage shift-based access for Frontline Workers](shifts/manage-shift-based-access-flw.md).
+The presence of Frontline Workers is often less predictable than other staff as their working hours are typically not the same each day. As an admin, you can configure Teams with Shift-based access (Preview) to show a set of shift-based presence states for the Frontline Workers in your organization to indicate when they are on and off shift. You can also manage access to Teams when frontline workers are off shift. For more information, see [Manage shift-based access for Frontline Workers](shifts/manage-shift-based-access-flw.md).
 
 ### Devices
 
@@ -136,7 +136,7 @@ Because the workforce is largely mobile, managing accounts and devices is a key 
 
 Ensure that your sales associates and other frontline workers have the appropriate access to Teams functionality by configuring the appropriate policy packages. Teams policies help control what users in specific roles can do. The [Frontline worker and Frontline manager policy packages](../manage-policy-packages.md#policy-packages-included-in-teams) are tailored to be appropriate for frontline workforces like those in retail stores.
 
-Microsoft Teams integrates with the Shifts app and Frontline Worker, which can be used to coordinate shift staffing features and more. For example, in Shifts, store managers can set up and coordinate schedules for their staff, and employees can check schedules and swap shifts.
+Teams integrates with the Shifts app and Frontline Worker, which can be used to coordinate shift staffing features and more. For example, in Shifts, store managers can set up and coordinate schedules for their staff, and employees can check schedules and swap shifts.
 
 ## Set up teams and apps
 
@@ -144,11 +144,11 @@ Microsoft Teams integrates with the Shifts app and Frontline Worker, which can b
 
 ### Apps and services for retail
 
-Ensure that your workers can communicate, collaborate, and deliver great customer service with apps like Shifts, Walkie Talkie, Tasks, Lists, Praise, and so on. You can determine which apps are available for your users by enabling them in the Microsoft Teams admin center or by including them in a team template. More information about [managing Teams apps](../manage-apps.md).
+Ensure that your workers can communicate, collaborate, and deliver great customer service with apps like Shifts, Walkie Talkie, Tasks, Lists, Praise, and so on. You can determine which apps are available for your users by enabling them in the Teams admin center or by including them in a team template. More information about [managing Teams apps](../manage-apps.md).
 
 For retail environments, the following apps and services can help you transform your business processes and support communication:
 
-| Teams app | Description | Manage | Help |
+| Teams apps and services | Description | Manage | Help |
 | ----- | ----- | ----- | ----- |
 | Approvals | Approvals can be integrated into chat for easy sign off. | [Manage Approvals](../approval-admin.md) | [Use Approvals](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3) |
 | Chat | Enable quick conversations and checkins between staff with secure, enterprise-grade communications tools, instead of consumer grade apps or SMS. | [Chat, teams, channels & apps in Microsoft Teams](/deploy-chat-teams-channels-microsoft-teams-landing-page.md) | [Chat in Teams](https://support.microsoft.com/office/start-and-pin-chats-a864b052-5e4b-4ccf-b046-2e26f40e21b5?wt.mc_id=otc_microsoft_teams) |
@@ -170,7 +170,7 @@ For retail environments, the following apps and services can help you transform 
 
 ### Use templates to set up teams
 
-Create teams that include a predefined set of settings, channels, tabs, and pre-installed apps for communication and collaboration within an individual store, with a region, or between headquarters and your staff wherever they are. 
+Create teams that include a predefined set of settings, channels, tabs, and pre-installed apps for communication and collaboration within an individual store, with a region, or between headquarters and your staff wherever they are.
 
 - The Retail **Organize a store** template includes channels for General, Shift Handoff, Store Readiness, and Learning, and includes the Approvals, Tasks, and Wiki apps.
 - The **Retail for managers** template includes channels for General, Operations, and Learning, and includes a Wiki tab.
