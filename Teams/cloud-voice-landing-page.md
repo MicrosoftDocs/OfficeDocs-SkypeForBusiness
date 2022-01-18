@@ -26,7 +26,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Plan your Teams voice solution 
+# Plan your Teams voice solution
 
 This article helps you decide which Microsoft voice solution is right for your organization. After you've decided, the article provides a roadmap to content that will enable you to implement your chosen solution.
 
@@ -40,17 +40,19 @@ If you answer yes to the following, then Teams Phone with Calling Plan is the ri
 - You do not need to retain your current PSTN carrier.
 - You want to use Microsoft-managed access to the PSTN.
 
-However, your situation might be more complex. For example, you might have offices in locations where Calling Plan isn't available. Or you might need a combination solution that supports a complex, multi-national deployment, with different requirements for different geographic locations. Microsoft supports a combination of solutions: 
+However, your situation might be more complex. For example, you might have offices in locations where Calling Plan isn't available. Or you might need a combination solution that supports a complex, multi-national deployment, with different requirements for different geographic locations. Microsoft supports a combination of solutions:
 
 - Teams Phone with Calling Plan
 - Teams Phone with your own PSTN carrier with Operator Connect
 - Teams Phone with your own PSTN carrier with Direct Routing
 - A combination solution that uses Teams Phone with Calling Plan, Teams Phone with Operator Connect, and/or Teams Phone with Direct Routing
 
+>[!NOTE]
+>If you’re a small to medium business (300 or fewer people), Microsoft now bundles Phone System with a Domestic Calling Plan. For more information, see [Teams Phone guidance for small and medium businesses](/microsoftteams/business-voice/whats-business-voice) to help you plan, set up, and manage your voice solution.
 
 ## What do you need to read?
 
-**Required for all.** Some of the sections in this article pertain to all organizations. For example, everyone should read about Teams Phone and understand the options for connecting to the Public Switched Telephone Network (PSTN). 
+**Required for all.** Some of the sections in this article pertain to all organizations. For example, everyone should read about Teams Phone and understand the options for connecting to the Public Switched Telephone Network (PSTN).
 
 
 | Required for all | Description |
@@ -74,7 +76,7 @@ Consider which of these additional configurations you might need:
 | [**Migrate your existing voice solution**](#migrate-your-existing-voice-solution-to-teams) | What you need to think about when migrating your voice solution to Teams.  Read this section if you are migrating from an existing voice solution to Teams. 
 
 > [!Important]
-> This article focuses on voice solutions with Microsoft Teams. It's important to understand that Skype for Business Online will be retired on July 31, 2021. After that date, the Skype for Business Online service will no longer be accessible. In addition, PSTN connectivity between your on-premises environment&mdash;whether through Skype for Business Server or Cloud Connector Edition&mdash;and Skype for Business Online will no longer be supported. This article introduces Teams voice solutions and how you can connect your on-premises telephony network, if necessary, to Teams by using Operator Connect or Direct Routing.
+> This article focuses on voice solutions with Microsoft Teams. Due to the retirement of Skype for Business Online on July 31, 2021, PSTN connectivity between your on-premises environment&mdash;whether through Skype for Business Server or Cloud Connector Edition&mdash;and Skype for Business Online is no longer supported. This article introduces Teams voice solutions and how you can connect your on-premises telephony network, if necessary, to Teams by using Operator Connect or Direct Routing.
 
 
 ## Teams Phone

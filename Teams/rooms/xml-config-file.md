@@ -20,9 +20,9 @@ description: Remote management of the default settings used by a Microsoft Teams
 
 # Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file
 
-This article discusses remote management of the default settings used by a Microsoft Teams Rooms device, including applying a custom theme. It discusses how to create a master settings file, and links to discussions of how to place them as needed on the remotely managed devices.
+This article discusses remote management of the default settings used by a Microsoft Teams Rooms device, including applying a custom theme. It discusses how to create a master settings file and links to discussions of how to place them as needed on Teams Rooms.
   
-It is possible for you to change default settings of remotely managed devices by updating a master XML file and sending copies to the managed consoles. You can also implement Custom Themes on your Microsoft Teams Rooms consoles with XML configuration files.
+It is possible for you to change default settings of Teams Rooms by updating a master XML file and sending copies to the remote Teams Rooms devices.
   
 ## Create an XML configuration file
 
@@ -163,38 +163,61 @@ You are free to use any method you like so long as you can use it to transfer fi
   
 ## Supported Meeting modes App version 4.9
 
-| Setting Name                                    | XML Notation                | XML Value      |
-|:------------------------------------------------|:----------------------------|:---------------|
-| Skype for Business (default) and Microsoft Teams| \<TeamsMeetingsEnabled>     |   True         |
-|                                                 | \<SfbMeetingEnabled>        |   True         |
-|                                                 | \<IsTeamsDefaultClient>     |   False        |
-|:------------------------------------------------|:----------------------------|:---------------|
-| Skype for Business and Microsoft Teams (default)|  \<TeamsMeetingsEnabled>    |   True         |
-|                                                 |  \<SfbMeetingEnabled>       |   True         |
-|                                                 |  \<IsTeamsDefaultClient>    |   True         |
-|:------------------------------------------------|:----------------------------|:---------------|                                                      
-| Skype for Business only                         |  \<TeamsMeetingsEnabled>    |   False        |
-|                                                 |  \<SfbMeetingEnabled>       |   True         |
-|                                                 |  \<IsTeamsDefaultClient>    |   False        |
-|:------------------------------------------------|:----------------------------|:---------------|
-| Microsoft Teams only                            |  \<TeamsMeetingsEnabled>    |   True         |
-|                                                 |  \<SfbMeetingEnabled>       |   False        |
-|                                                 |  \<IsTeamsDefaultClient>    |   True         |                       
-|:------------------------------------------------|:----------------------------|:---------------|                                                       
-                                                                                                           
+**Skype for Business (default) and Microsoft Teams**
+
+| XML Notation                | XML Value      |
+|----------------------------|---------------|
+| \<TeamsMeetingsEnabled>     |   True         |
+| \<SfbMeetingEnabled>        |   True         |
+| \<IsTeamsDefaultClient>     |   False        |
+
+**Skype for Business and Microsoft Teams (default)**
+
+| XML Notation                | XML Value      |
+|----------------------------|---------------|
+| \<TeamsMeetingsEnabled>    |   True         |
+| \<SfbMeetingEnabled>        |   True         |
+| \<IsTeamsDefaultClient>     |   True        |
+
+**Skype for Business only**
+
+| XML Notation                | XML Value      |
+|----------------------------|---------------|
+| \<TeamsMeetingsEnabled>    |   False         |
+| \<SfbMeetingEnabled>        |   True         |
+| \<IsTeamsDefaultClient>     |   False        |
+
+**Microsoft Teams only**
+
+| XML Notation                | XML Value      |
+|----------------------------|---------------|
+| \<TeamsMeetingsEnabled>    |   True         |
+| \<SfbMeetingEnabled>        |   False         |
+| \<IsTeamsDefaultClient>     |   True        |
+
+
 ## Supported Meeting modes App version 4.8 or lower
 
-| Setting Name                                    | XML Notation                | XML Value      |
-|:------------------------------------------------|:----------------------------|:---------------|
-| Skype for Business (default) and Microsoft Teams|  \<TeamsMeetingsEnabled>    |   True         |
-|                                                 |  \<IsTeamsDefaultClient>    |   False        |
-|:------------------------------------------------|:----------------------------|:---------------|
-| Skype for Business and Microsoft Teams (default)|  \<TeamsMeetingsEnabled>    |   True         |
-|                                                 |  \<IsTeamsDefaultClient>    |   True         |
-|:------------------------------------------------|:----------------------------|:---------------|                                                      
-| Skype for Business only                         |  \<TeamsMeetingsEnabled>    |   False        |
-|                                                 |  \<IsTeamsDefaultClient>    |   False        |
-|:------------------------------------------------|:----------------------------|:---------------|                                                 
+**Skype for Business (default) and Microsoft Teams**
+
+| XML Notation                | XML Value      |
+|----------------------------|---------------|
+|  \<TeamsMeetingsEnabled>     |   True         |
+|  \<IsTeamsDefaultClient>     |   False        |
+
+**Skype for Business and Microsoft Teams (default)**
+
+| XML Notation                | XML Value      |
+|----------------------------|---------------|
+|  \<TeamsMeetingsEnabled>     |   True         |
+|  \<IsTeamsDefaultClient>     |   True         |
+
+**Skype for Business only**
+
+| XML Notation                | XML Value      |
+|----------------------------|---------------|
+|  \<TeamsMeetingsEnabled>     |   False         |
+|  \<IsTeamsDefaultClient>     |   False         |
 
 ## Custom Theme Images
 

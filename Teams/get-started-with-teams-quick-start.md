@@ -18,7 +18,9 @@ ms.collection:
   - m365initiative-deployteams
 appliesto: 
   - Microsoft Teams
-ms.custom: seo-marvel-mar2020
+ms.custom: 
+- seo-marvel-mar2020
+- intro-get-started
 ---
 
 # Get started with Microsoft Teams
