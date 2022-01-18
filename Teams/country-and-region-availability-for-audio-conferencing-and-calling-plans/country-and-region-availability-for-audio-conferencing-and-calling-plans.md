@@ -1,7 +1,7 @@
 ---
 title: "Country/region availability - Audio Conferencing, Calling Plans"
-ms.author: czawideh
-author: czawideh
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
 ms.topic: reference
