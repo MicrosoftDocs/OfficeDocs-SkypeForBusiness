@@ -1,7 +1,7 @@
 ---
 title: Use the Teams App Submission API to submit and approve your custom apps
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: KarliStites
+ms.author: kastites
 manager: serdars
 ms.reviewer: joglocke, vaibhava
 ms.topic: article
@@ -69,12 +69,16 @@ After you turn on this setting, you'll get notifications in the **Admin Alerts a
 1. Search for a channel to add.
 1. Select **Apply**.
 
+    ![Custom channel alert notification checkbox.](media/channel-alert.png)
+
 > [!NOTE]
 > Select the **Default channel alert** checkbox to receive notifications to the **Admin Alerts and Notifications** team in the **App Submissions** channel.
 
 You can also set up notifications to an external webhook by specifying a public webhook URL after you select the **Webhook** checkbox. A JSON notification payload will be sent to your webhook URL.
 
 ![App submission notification.](media/app-submission-notification.png)
+
+![Default channel alert notification checkbox.](media/default-channel-alert.png)
 
 After you set up the app submissions rule, you can review notification cards in the specified channel to see app details and select **View details** to open apps in the Teams admin center.
 
