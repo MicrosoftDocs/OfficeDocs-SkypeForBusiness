@@ -96,3 +96,7 @@ Engage with communities in Yammer. Communities in Yammer serve the needs of know
 
 Learn how to [add a Yammer page to a Teams channel](https://support.microsoft.com/office/add-a-yammer-page-to-a-teams-channel-ca06ec83-f22d-4b76-83a5-c83aa2a33528) and [join and create a community in Yammer](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6).
 
+More information about Yammer:
+
+- For admins: [Manage Yammer](/yammer)
+- For users: [Use Yammer](https://support.microsoft.com/office/what-is-yammer-1b0f3b3e-89ee-4b66-aac5-30def12f287c)
