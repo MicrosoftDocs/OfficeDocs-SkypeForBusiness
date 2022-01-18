@@ -43,13 +43,20 @@ As an admin, you can use the Graph API to create a private channel on behalf of 
 
 ```Graph API
 POST /teams/{id}/channels
-{ "membershipType": "Private",
-  "displayName": "<Channel_Name>",
-  "members":[{    
-           "@odata.type":"#microsoft.graph.aadUserConversationMember",
-           "user@odata.bind":"https://graph.microsoft.com/users('<user_id>')",
-           "roles":["owner"]
-            }]
+{
+    "membershipType": "Private",
+    "displayName": "<Channel_Name>",
+    "members": [
+        {
+            "@odata.type": "#microsoft.graph.aadUserConversationMember",
+            "user@odata.bind": "https://graph.microsoft.com/v1.0/users('<user_id>')",
+            "roles": [
+                "owner"
+            ]
+        }
+    ]
+}
+            
 ```
 
 ## Get a list of all private channel messages
