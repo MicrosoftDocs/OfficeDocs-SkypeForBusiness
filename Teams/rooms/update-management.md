@@ -25,7 +25,7 @@ A modern meeting room is equipped with a Microsoft Teams Rooms device and other 
 
 Managed Services for Microsoft Teams Rooms provides the assurance that each room in your organization will be maintained at recommended levels to deliver a room that is always ready and works properly. Microsoft's goal is to reduce complexity and legwork for your operational staff with intelligence and automation. Troubleshooting or diagnostics is performed as quickly as possible. 
 
-## Transitioning a device To managed services 
+## Transitioning a device to managed services 
 Room devices onboarding to Managed Services usually have a change management history and practice that is different from our guidance.  
 
 - To  benefit from Managed Services, you must transition change management for all updates under Managed Services portfolio.
