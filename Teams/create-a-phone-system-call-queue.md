@@ -22,7 +22,7 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.callqueues.overview"
   - Phone System
-  - seo-marvel-apr2020
+    - seo-marvel-apr2020
 description: Learn how to set up call queues for large organizations in Microsoft Teams, which provides a greeting message, hold music, call redirecting, and other features.
 ---
 # Create a call queue
@@ -62,7 +62,7 @@ Type a name for the call queue.
 
 Click **Add accounts**, search for the resource account that you want to use with this call queue, click **Add**, and then click **Add**. (Agents will see the resource account name when they receive an incoming call.)
 
-See [Manage Teams resource accounts](manage-resource-accounts.md) for more information.
+For more information, see [Manage Teams resource accounts](manage-resource-accounts.md).
 
 ### Assign calling ID
 
@@ -72,7 +72,7 @@ If you plan to use a Teams channel for your call agents, you can assign an outbo
 
 Click **Add**, search for the resource accounts that you want to allow agents to for calling ID purposes when making outbound calls, click **Add**, and then click **Add**.
 
-If you are not using a Teams channel to control agent membership, consider directly setting the caller ID for members of the call queue to the service number of the call queue or appropriate auto attendant. See [Manage caller ID policies in Microsoft Teams](caller-id-policies.md) for more information.
+If you are not using a Teams channel to control agent membership, consider directly setting the caller ID for members of the call queue to the service number of the call queue or appropriate auto attendant. For more information, see [Manage caller ID policies in Microsoft Teams](caller-id-policies.md).
 
 > [!NOTE]
 > The resource account used for calling ID purposes must have a Microsoft Teams Phone System Virtual User license and one of the following assigned:
@@ -107,7 +107,7 @@ Review the [prerequisites for adding agents to a call queue](plan-auto-attendant
 
 ##### Teams channel
 
-You can add up to 200 agents via a Teams channel. Note that you must be a member of the team or the creator or an owner of the channel to add a channel to the queue.
+You can add up to 200 agents via a Teams channel. You must be a member of the team or the creator or an owner of the channel to add a channel to the queue.
 
 If you want to [use a Teams channel to manage the queue](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e), select the **Choose a team** option and click **Add a channel**. Search for the team that you want to use, select it, and click **Add**. Select the channel that you want to use (only standard channels are supported) and click **Apply**. 
 
@@ -141,7 +141,7 @@ To add a group to the queue, click **Add groups**, search for the group, click *
   - The latest version of the Microsoft Teams desktop client, Android app, or iOS app
   - Microsoft Teams Phone version 1449/1.0.94.2020051601 or later
   
-Agents' Teams accounts need to be set to Teams-only mode. Agents who don't meet the requirements aren't included in the call routing list. We recommend enabling conference mode for your call queues if your agents are all using compatible clients.
+Agents' Teams accounts must be set to Teams-only mode. Agents who don't meet the requirements aren't included in the call routing list. We recommend enabling conference mode for your call queues if your agents are all using compatible clients.
 
 > [!NOTE]
 > Conference mode is not supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location Based Routing.
@@ -196,7 +196,7 @@ If an agent opts out of getting calls, they won't be included in the call routin
 
 **Maximum calls in the queue** specifies the maximum number of calls that can wait in the queue at any given time. The default is 50, but it can range from 0 to 200. When this limit is reached, the call is handled as specified by the **When the maximum number of calls is reached** setting.
 
-You can choose to disconnect the call or redirect it to any of the call routing destinations. For example, you might have the caller leave a voicemail for the agents in the queue. For external transfers, please refer to [Prerequisites](plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) for number formatting.
+You can choose to disconnect the call or redirect it to any of the call routing destinations. For example, you might have the caller leave a voicemail for the agents in the queue. For external transfers, see [Prerequisites](plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) for number formatting.
 
 > [!NOTE]
 > If the maximum number of calls is set to 0 then the greeting message will not play.
@@ -251,7 +251,7 @@ The following cmdlets allow you to manage a call queue:
 - [Set-CsCallQueue](/powershell/module/skype/Set-CsCallQueue.md)
 - [Remove-CsCallQueue](/powershell/module/skype/Remove-CsCallQueue.md)
 
-The following additional cmdlets are also required to manage the users, resource accounts, virtual phone system licenses, phone numbers, audio files and supported language that will be used with call queues:
+The following additional cmdlets are also required to manage the users, resource accounts, Microsoft Teams Phone licenses, phone numbers, audio files, and supported language that will be used with call queues:
 
 Users/Teams
 
@@ -274,7 +274,7 @@ Resource accounts:
 - [Get-CsOnlineApplicationInstanceAssociationStatus](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociationStatus.md)
 - [Remove-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Remove-CsOnlineApplicationInstanceAssociation.md)
 
-Virtual phone system licenses:
+Virtual Teams Phone licenses:
 
 - [Set-MsolUserLicense](/powershell/module/skype/Set-MsolUserLicense.md)
 
@@ -293,7 +293,7 @@ Support Language Lists
 
 - [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage.md)
 
-For a step-by-step guide to creating call queues with PowerShell, please refer to [Creating Call Queues with PowerShell cmdlets](create-a-phone-system-call-queue-via-cmdlets.md)
+For a step-by-step guide to creating call queues with PowerShell, see [Creating Call Queues with PowerShell cmdlets](create-a-phone-system-call-queue-via-cmdlets.md)
 
 ## Call Queue Diagnostic Tool
 
