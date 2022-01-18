@@ -250,18 +250,12 @@ The recording retention for this is temporary storage is affected by the chat me
 The size of a 1-hour recording is 400 MB. Make sure you understand the capacity required for recorded files and have sufficient storage available in OneDrive for Business and SharePoint Online.  Read [Set the default storage space for OneDrive for Business](/onedrive/set-default-storage-space) and [Manage SharePoint Online site storage limits](/sharepoint/manage-site-collection-storage-limits) to understand the base storage included in the subscription and how to purchase additional storage.
 
  <a name="auto-expiration"></a>
-### Auto-expiration of Teams meeting recordings: 
+### Auto-expiration of Teams meeting recordings
 
-> [!IMPORTANT]
->
-> The auto-expiration feature discussed in this article is not yet launched. Please refer to [the roadmap (Feature ID: 84580)](https://www.microsoft.com/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580) for more information on its delivery date.
-> 
-> We're providing information about how this feature will work in the future, so that you're able to plan for this change and modify the Teams policy settings in advance.
->
-> The command to preemptively change the default expiration setting in Teams is currently in deployment, but you may be able to see the attribute in PowerShell. The setting is not currently available in the Teams admin centers. These settings will be available and communicated in a message center post at least 30 days before we launch the feature.
->
->
+Learn more about the admin-specific changes [here](meeting-expiration.md#changes-to-meeting-expiration).
 
+Learn more about how end-users can manage meeting expiration [here](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date).
+  
 See the frequently asked questions for admins and end users to gather insights into how auto-expiration of Teams meeting recordings will work, what actions you can take now, and what actions you can take after the feature launches.
   
 ## Frequently asked questions
