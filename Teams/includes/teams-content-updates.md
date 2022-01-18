@@ -2,6 +2,112 @@
 
 
 
+## Week of January 10, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/10/2022 | [Microsoft Teams Rooms Portal](/MicrosoftTeams/rooms/managed-meeting-rooms-portal) | added |
+| 1/10/2022 | [Microsoft Teams Rooms Software Installation](/MicrosoftTeams/rooms/monitor-software-installation-guide) | added |
+| 1/10/2022 | [Microsoft Teams Rooms Reference](/MicrosoftTeams/rooms/update-management-reference) | added |
+| 1/10/2022 | [Microsoft Teams Rooms update management](/MicrosoftTeams/rooms/update-management) | added |
+| 1/10/2022 | [Enroll a Teams Rooms device in the Microsoft Teams Rooms Premium managed service](/MicrosoftTeams/rooms/enrolling-mtrp-managed-service) | modified |
+| 1/10/2022 | [Microsoft Teams Rooms requirements](/MicrosoftTeams/rooms/requirements) | modified |
+| 1/11/2022 | [Data and reports in Call Quality Dashboard (CQD)](/MicrosoftTeams/cqd-data-and-reports) | modified |
+| 1/11/2022 | [Archive or delete a team in Microsoft Teams](/MicrosoftTeams/archive-or-delete-a-team) | modified |
+| 1/11/2022 | [Set Microsoft Teams Android devices user interface](/MicrosoftTeams/devices/teams-android-devices-user-interface) | modified |
+| 1/11/2022 | [Dimensions and measurements - Call Quality Dashboard (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modified |
+| 1/11/2022 | [Configure a Microsoft Teams Rooms console](/MicrosoftTeams/rooms/console) | modified |
+| 1/11/2022 | Deploy Microsoft Teams Rooms using Microsoft Endpoint Configuration Manager | removed |
+| 1/11/2022 | [Phones and Devices for Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modified |
+| 1/11/2022 | [Stream classification in Call Quality Dashboard (CQD)](/MicrosoftTeams/stream-classification-in-call-quality-dashboard) | modified |
+| 1/12/2022 | [Purchase, configure, and enable Career Coach for Microsoft Teams](/MicrosoftTeams/career-coach) | modified |
+| 1/12/2022 | [Conduct an eDiscovery investigation of content](/MicrosoftTeams/ediscovery-investigation) | modified |
+| 1/12/2022 | [Use the Frontline Worker onboarding wizard to get your frontline workforce up and running](/MicrosoftTeams/flw-onboarding-wizard) | modified |
+| 1/12/2022 | [Frontline Worker quick start guide](/MicrosoftTeams/flw-quickstart) | modified |
+| 1/12/2022 | [Get clients for Microsoft Teams](/MicrosoftTeams/get-clients) | modified |
+| 1/12/2022 | [Configure dynamic emergency calling](/MicrosoftTeams/configure-dynamic-emergency-calling) | modified |
+| 1/12/2022 | [Here's what you get with Teams Phone](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | modified |
+| 1/12/2022 | [PSTN connectivity options](/MicrosoftTeams/pstn-connectivity) | modified |
+| 1/12/2022 | [Deploy Microsoft Teams Rooms monitoring with Azure Monitor](/MicrosoftTeams/rooms/azure-monitor-deploy) | modified |
+| 1/12/2022 | [Monitor Microsoft Teams Rooms devices with Azure Monitor](/MicrosoftTeams/rooms/azure-monitor-manage) | modified |
+| 1/12/2022 | [Plan Microsoft Teams Rooms monitoring with Azure Monitor](/MicrosoftTeams/rooms/azure-monitor-plan) | modified |
+| 1/12/2022 | [Microsoft Teams Rooms](/MicrosoftTeams/rooms/index) | modified |
+| 1/12/2022 | [Manually update a Microsoft Teams Rooms device](/MicrosoftTeams/rooms/manual-update) | modified |
+| 1/12/2022 | [Microsoft Teams Rooms Premium-managed service](/MicrosoftTeams/rooms/obtaining-assigning-license) | modified |
+| 1/12/2022 | [Use the Microsoft Teams Rooms recovery tool](/MicrosoftTeams/rooms/recovery-tool) | modified |
+| 1/12/2022 | [Authentication in Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-authentication) | modified |
+| 1/12/2022 | [Deploy Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-deploy) | modified |
+| 1/12/2022 | [Manage Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-manage) | modified |
+| 1/12/2022 | [Microsoft Teams Rooms maintenance and operations](/MicrosoftTeams/rooms/rooms-operations) | modified |
+| 1/12/2022 | [Plan for Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-plan) | modified |
+| 1/12/2022 | [Prepare your Environment](/MicrosoftTeams/rooms/rooms-prep) | modified |
+| 1/12/2022 | [Manage Microsoft Teams configuration on Surface Hub](/MicrosoftTeams/rooms/surface-hub-manage-config) | modified |
+| 1/12/2022 | [Enable Teams Rooms devices to join third-party meetings](/MicrosoftTeams/rooms/third-party-join) | modified |
+| 1/12/2022 | [Manage Windows Updates for Microsoft Teams Rooms](/MicrosoftTeams/rooms/updates) | modified |
+| 1/12/2022 | [Remotely manage Microsoft Teams Rooms device settings](/MicrosoftTeams/rooms/xml-config-file) | modified |
+| 1/12/2022 | [Walkie Talkie application in Microsoft Teams](/MicrosoftTeams/walkie-talkie) | modified |
+| 1/13/2022 | [Get started with Teams for frontline workers](/MicrosoftTeams/flw-landing-page) | added |
+| 1/13/2022 | [Understand frontline worker user types and licensing](/MicrosoftTeams/flw-licensing-options) | added |
+| 1/13/2022 | [Use log files in troubleshooting Microsoft Teams](/MicrosoftTeams/log-files) | modified |
+| 1/13/2022 | [Microsoft Teams Rooms app version support](/MicrosoftTeams/rooms/rooms-lifecycle-support) | modified |
+| 1/13/2022 | [Tailor your Teams apps based on license](/MicrosoftTeams/pin-teams-apps-based-on-license) | added |
+| 1/13/2022 | [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps) | modified |
+| 1/13/2022 | [Plan for Teams auto attendants and call queues](/MicrosoftTeams/plan-auto-attendant-call-queue) | modified |
+| 1/13/2022 | [Overview of security and compliance](/MicrosoftTeams/security-compliance-overview) | modified |
+| 1/14/2022 | [Audio Conferencing common questions](/MicrosoftTeams/audio-conferencing-common-questions) | modified |
+| 1/14/2022 | [Audio Conferencing in Microsoft 365](/MicrosoftTeams/audio-conferencing-in-office-365) | modified |
+| 1/14/2022 | [On-network Conferencing for Audio Conferencing](/MicrosoftTeams/audio-conferencing-on-network) | modified |
+| 1/14/2022 | [Audio Conferencing pay-per-minute](/MicrosoftTeams/audio-conferencing-pay-per-minute) | modified |
+| 1/14/2022 | [Set up Audio Conferencing for small and medium businesses](/MicrosoftTeams/audio-conferencing-smb) | modified |
+| 1/14/2022 | [Audio Conferencing Dial-Out/Call Me At minutes](/MicrosoftTeams/audio-conferencing-subscription-dial-out) | modified |
+| 1/14/2022 | [Audio Conferencing supported languages](/MicrosoftTeams/audio-conferencing-supported-languages) | modified |
+| 1/14/2022 | [Audio Conferencing with Direct Routing, GCCH and DoD](/MicrosoftTeams/audio-conferencing-with-direct-routing-for-gcch-and-dod) | modified |
+| 1/14/2022 | [Country and region zones for Audio Conferencing](/MicrosoftTeams/audio-conferencing-zones) | modified |
+| 1/14/2022 | [Change phone numbers on Audio Conferencing bridge](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | modified |
+| 1/14/2022 | [Change the settings for an Audio Conferencing bridge](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge) | modified |
+| 1/14/2022 | [Complimentary dial-out period](/MicrosoftTeams/complimentary-dial-out-period) | modified |
+| 1/14/2022 | [Country/region availability - Audio Conferencing, Calling Plans](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | modified |
+| 1/14/2022 | [Configure Audio Conferencing settings - Microsoft Teams](/MicrosoftTeams/deploy-audio-conferencing-teams-landing-page) | modified |
+| 1/14/2022 | [Microsoft Teams panels](/MicrosoftTeams/devices/teams-panels) | modified |
+| 1/14/2022 | [Phones and Devices for Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modified |
+| 1/14/2022 | [Office 365 Audio Conferencing Extended Dial-out Minutes to US and Canada](/MicrosoftTeams/dial-out-minutes-canada-us) | modified |
+| 1/14/2022 | [Dialing out from a meeting so other people can join](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it) | modified |
+| 1/14/2022 | [Disabling toll-free numbers for specific Teams users](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users) | modified |
+| 1/14/2022 | [Emails sent to users when their settings change](/MicrosoftTeams/emails-sent-to-users-when-their-settings-change-in-teams) | modified |
+| 1/14/2022 | [Email options when Audio Conferencing settings change](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams) | modified |
+| 1/14/2022 | [Enable users to record their name for a meeting](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams) | modified |
+| 1/14/2022 | [Get started with Teams for frontline workers](/MicrosoftTeams/flw-landing-page) | modified |
+| 1/14/2022 | [Manage Audio Conferencing settings for users](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams) | modified |
+| 1/14/2022 | [Manage Audio Conferencing settings](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams) | modified |
+| 1/14/2022 | [Outbound call restrictions - Audio Conferencing & PSTN calls](/MicrosoftTeams/outbound-calling-restriction-policies) | modified |
+| 1/14/2022 | [Phone numbers for Audio Conferencing](/MicrosoftTeams/phone-numbers-for-audio-conferencing-in-teams) | modified |
+| 1/14/2022 | [Tailor your Teams apps based on license](/MicrosoftTeams/pin-teams-apps-based-on-license) | modified |
+| 1/14/2022 | [Mask phone numbers in Microsoft Teams meetings](/MicrosoftTeams/ptsn-mask-phone-numbers) | modified |
+| 1/14/2022 | [Reset a conference ID for a user in Microsoft Teams](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams) | modified |
+| 1/14/2022 | [Reset the Audio Conferencing PIN in Microsoft Teams](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams) | modified |
+| 1/14/2022 | [Build a Microsoft Teams Rooms image](/MicrosoftTeams/rooms/console) | modified |
+| 1/14/2022 | [Microsoft Teams Rooms licenses](/MicrosoftTeams/rooms/rooms-licensing) | modified |
+| 1/14/2022 | [Deploy Microsoft Teams Rooms with Exchange Online](/MicrosoftTeams/rooms/with-exchange-online) | modified |
+| 1/14/2022 | [Deploy Microsoft Teams Rooms with Office 365](/MicrosoftTeams/rooms/with-office-365) | modified |
+| 1/14/2022 | [See a list of Audio Conferencing numbers](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams) | modified |
+| 1/14/2022 | [See a list of users enabled for Audio Conferencing](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams) | modified |
+| 1/14/2022 | [See, change, and reset a user's conference ID](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams) | modified |
+| 1/14/2022 | [Email a user their Audio Conferencing information](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams) | modified |
+| 1/14/2022 | [Set Audio Conferencing auto attendant languages](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams) | modified |
+| 1/14/2022 | [Set the phone numbers included on invites](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams) | modified |
+| 1/14/2022 | [Set the PIN length for Audio Conferencing meetings](/MicrosoftTeams/set-the-pin-length-for-audio-conferencing-meetings-in-teams) | modified |
+| 1/14/2022 | [Set up Audio Conferencing for Microsoft Teams](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | modified |
+| 1/14/2022 | [Set up meeting dial-out-confirmation for your users in Microsoft Teams](/MicrosoftTeams/set-up-meeting-dial-out-confirmation) | modified |
+| 1/14/2022 | [Start Audio Conference over the phone without a PIN in Teams](/MicrosoftTeams/start-an-audio-conference-over-the-phone-without-a-pin-in-teams) | modified |
+| 1/14/2022 | [Try or purchase Audio Conferencing in Microsoft 365 for Teams](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams) | modified |
+| 1/14/2022 | [Turn on or off entry and exit announcements for meetings in Teams](/MicrosoftTeams/turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams) | modified |
+| 1/14/2022 | [Manage devices with administrative units](/MicrosoftTeams/administrative-unit) | added |
+| 1/14/2022 | [Teams cloud meeting recording](/MicrosoftTeams/cloud-recording) | modified |
+| 1/14/2022 | [Microsoft Teams admin documentation # < 60 chars](/MicrosoftTeams/index) | modified |
+| 1/14/2022 | [Known issues](/MicrosoftTeams/rooms/known-issues) | modified |
+
+
 ## Week of January 03, 2022
 
 
@@ -114,46 +220,3 @@
 | 12/17/2021 | [Frontline Worker quick start guide](/MicrosoftTeams/flw-quickstart) | modified |
 | 12/17/2021 | [Introduction to Teams Policy-based Recording for Calling & Meetings](/MicrosoftTeams/teams-recording-policy) | modified |
 | 12/17/2021 | [Authentication best practices for Android devices](/MicrosoftTeams/devices/authentication-best-practices-for-android-devices) | added |
-
-
-## Week of December 06, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 12/6/2021 | [Configure SIP Gateway](/MicrosoftTeams/sip-gateway-configure) | added |
-| 12/6/2021 | [Plan SIP Gateway](/MicrosoftTeams/sip-gateway-plan) | added |
-| 12/6/2021 | [Set up an auto attendant for Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modified |
-| 12/6/2021 | [Devices for Teams](/MicrosoftTeams/devices/teams-ip-phones) | modified |
-| 12/6/2021 | [Emergency addresses for remote locations](/MicrosoftTeams/emergency-calling-dispatchable-location) | added |
-| 12/7/2021 | [Devices for Teams](/MicrosoftTeams/devices/teams-ip-phones) | modified |
-| 12/7/2021 | [Set up meeting dial-out-confirmation for your users in Microsoft Teams](/MicrosoftTeams/set-up-meeting-dial-out-confirmation) | modified |
-| 12/7/2021 | [Configure SIP Gateway](/MicrosoftTeams/sip-gateway-configure) | modified |
-| 12/7/2021 | [Microsoft Teams Rooms Portal](/MicrosoftTeams/rooms/multi-tenant-auditing) | added |
-| 12/7/2021 | [Partner management for customers](/MicrosoftTeams/rooms/multi-tenant-management-customer) | added |
-| 12/7/2021 | [Multi-tenant customer management for partners](/MicrosoftTeams/rooms/multi-tenant-management-partner) | added |
-| 12/7/2021 | [Microsoft Teams Rooms managed service](/MicrosoftTeams/rooms/microsoft-teams-rooms-premium) | modified |
-| 12/7/2021 | [Microsoft Teams Rooms requirements](/MicrosoftTeams/rooms/requirements) | modified |
-| 12/8/2021 | [Admin setup for the Microsoft EDU Parents app in Teams](/MicrosoftTeams/edu-parents-app) | modified |
-| 12/8/2021 | [Plan Location-Based Routing for Direct Routing](/MicrosoftTeams/location-based-routing-plan) | modified |
-| 12/8/2021 | [Music on Hold](/MicrosoftTeams/music-on-hold) | modified |
-| 12/8/2021 | [Deploy Microsoft Teams Rooms with Exchange on-premises (Hybrid)](/MicrosoftTeams/rooms/with-exchange-on-premises) | modified |
-| 12/8/2021 | [Deploy Microsoft Teams Rooms with Exchange Online](/MicrosoftTeams/rooms/with-exchange-online) | modified |
-| 12/8/2021 | [Deploy Microsoft Teams Rooms with Microsoft 365 or Office 365](/MicrosoftTeams/rooms/with-office-365) | modified |
-| 12/8/2021 | [Deploy Microsoft Teams Rooms with Skype for Business Server](/MicrosoftTeams/rooms/with-skype-for-business-server-2015) | modified |
-| 12/8/2021 | [Call Quality Dashboard (CQD) Frequently asked questions (FAQ)](/MicrosoftTeams/cqd-frequently-asked-questions) | modified |
-| 12/8/2021 | [Dimensions and measurements - Call Quality Dashboard (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modified |
-| 12/9/2021 | [Configure dynamic emergency calling](/MicrosoftTeams/configure-dynamic-emergency-calling) | modified |
-| 12/9/2021 | [Devices for Teams](/MicrosoftTeams/devices/teams-ip-phones) | modified |
-| 12/9/2021 | [Direct Routing SBA](/MicrosoftTeams/direct-routing-survivable-branch-appliance) | modified |
-| 12/9/2021 | [See a list of users enabled for Audio Conferencing](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams) | modified |
-| 12/9/2021 | [Call Quality Dashboard (CQD) Frequently asked questions (FAQ)](/MicrosoftTeams/cqd-frequently-asked-questions) | modified |
-| 12/9/2021 | [Use real-time telemetry to troubleshoot poor meeting quality](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | modified |
-| 12/10/2021 | [Configure dynamic emergency calling](/MicrosoftTeams/configure-dynamic-emergency-calling) | modified |
-| 12/10/2021 | [Auto attendant and call queue dialing and voice recognition reference](/MicrosoftTeams/dial-voice-reference) | modified |
-| 12/10/2021 | [Use log files in troubleshooting Microsoft Teams](/MicrosoftTeams/log-files) | modified |
-| 12/10/2021 | [Set up Calling Plans](/MicrosoftTeams/set-up-calling-plans) | modified |
-| 12/10/2021 | [Configure call routing for Direct Routing](/MicrosoftTeams/direct-routing-voice-routing) | modified |
-| 12/10/2021 | [Teams for Nonprofit organizations](/MicrosoftTeams/expand-teams-across-your-org/teams-for-nonprofit-landing-page) | modified |
-| 12/10/2021 | [Partner management for customers](/MicrosoftTeams/rooms/multi-tenant-management-customer) | modified |
-| 12/10/2021 | [Multi-tenant customer management for partners](/MicrosoftTeams/rooms/multi-tenant-management-partner) | modified |
