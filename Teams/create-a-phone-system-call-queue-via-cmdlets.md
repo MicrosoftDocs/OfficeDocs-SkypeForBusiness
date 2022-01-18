@@ -36,11 +36,11 @@ description: Learn how to configure call queues via cmdlets
 ```` Install-Module -Name MSOnline -Force -AllowClobber ````
 2)	You have tenant administration rights
 3)	You have purchased Microsoft Teams Phone
-4)	The agents, distribution lists and Teams channels referred to below have already been created
+4)	The agents, distribution lists, and Teams channels referred to below have already been created
 
-Note: The Teams Channel cmdlet used below is part of the Public Preview version of Teams PowerShell Module.  For more information see [Install Teams PowerShell public preview](teams-powershell-install.md#install-teams-powershell-public-preview) and also see [Microsoft Teams PowerShell Release Notes](teams-powershell-release-notes.md).
+Note: The Teams Channel cmdlet used below is part of the Public Preview version of Teams PowerShell Module.  For more information, see [Install Teams PowerShell public preview](teams-powershell-install.md#install-teams-powershell-public-preview) and also see [Microsoft Teams PowerShell Release Notes](teams-powershell-release-notes.md).
 
-Users who already have the MicrosoftTeams module installed should ````Update-Module MicrosoftTeams```` to ensure the most up to date version is installed.
+Users who already have the MicrosoftTeams module installed should ````Update-Module MicrosoftTeams```` to ensure the most up-to-date version is installed.
 
 
 ## Scenario
@@ -79,7 +79,7 @@ Support Call Queue information:
 -	- Support@contoso.com
 -	Conference Mode: On
 -	Routing method: Longest Idle
--	Presence-based routing: N/A – on by default due to Longest Idle
+-	Presence-based routing: N/A – on by default because of Longest Idle
 -	Call agents can opt out of taking calls: No
 -	Call agent alert time: 15
 -	Call overflow handling: 200
