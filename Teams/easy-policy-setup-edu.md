@@ -78,7 +78,7 @@ Follow these steps to run the wizard.
 
 4. Review your selections.
 
-    :::image type="content" source="media/easy-policy-setup-review-selections.png" alt-text="Screenshot of page in wizard to review selections.":::
+    :::image type="content" source="media/edu-policy-wizard-3-groups-review.png" alt-text="Screenshot of page in wizard to review selections.":::
 
 5. Select **Apply** to apply your changes. This may take a few minutes to complete.<br/><br/>The Global (Org-wide default) policy definitions are immediately applied to students. For your educators and staff, it could take few hours for the custom policies to be assigned to each member of the groups you selected, depending on the size of the groups. This happens in the background, after you successfully complete this step.
 6. You're on your way but you're not done yet! There's a few more things to consider. Next, check out the steps in the [What to do after running the wizard](#what-to-do-after-running-the-wizard) section of this article.
