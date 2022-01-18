@@ -74,7 +74,7 @@ Follow these steps to run the wizard.
 
 3. Search for and select groups that contain your educators and staff, and then select **Next**. If you don’t have any groups set up yet for your educators and staff, [create a group](/microsoft-365/admin/create-groups/create-groups), and then re-run the wizard. <br/><br/>You can select up to three groups. Educators and staff in the groups you select will be assigned [a set of custom policies](#policies-applied-by-the-wizard) tailored to their needs. Remember that this set of policies is separate from the policies applied to students.
 
-    :::image type="content" source="media/easy-policy-setup-group.png" alt-text="Screenshot of page in wizard to select educator and staff groups.":::
+    :::image type="content" source="media/edu-policy-wizard-add-3-groups.png" alt-text="Screenshot of page in wizard to select educator and staff groups.":::
 
 4. Review your selections.
 
