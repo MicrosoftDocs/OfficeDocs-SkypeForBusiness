@@ -30,7 +30,7 @@ Find out what you can do with Teams for:
 - [Nonprofit](./teams-for-nonprofit-landing-page.md)
 - [Retail](./teams-for-retail-landing-page.md)
 
-Or learn more about these apps available for all industries:
+Or learn more about these apps and capabilities available for all industries:
 
 - [Shifts for Teams](./shifts-for-teams-landing-page.md)
-- [Bookings in Teams](../bookings-app-admin.md)
+- [Virtual Visits](virtual-visits.md)
