@@ -26,11 +26,11 @@ appliesto:
 Retail environments, with their rotating schedules and on-the-go staff, have very different needs than other organizations. To get the most benefit for your retail organization, you first choose which scenarios Teams can help you with in your day-to-day business operations, and then make sure that you prepare your teams environment with the right fundamentals, teams, and apps to support those scenarios.
 
 1. [Choose the scenarios](#choose-your-scenarios) you want to implement for your business.
-:::image type="content" source="../media/retail-teams-scenarios.png" alt-text="Diagram of Teams scenarios for retail." lightbox="../media/retail-teams-scenarios.png":::
+:::image type="content" source="../media/retail-teams-scenarios.png" alt-text="Diagram showing Teams scenarios for retail." lightbox="../media/retail-teams-scenarios.png":::
 1. [Set up fundamentals](#set-up-the-fundamentals) - Support your workforce with the fundamentals: managing accounts and devices, and making sure that the appropriate Teams policies are applied.
-:::image type="content" source="../media/retail-teams-fundamentals.png" alt-text="Diagram of teams, team templates and apps that can be included." lightbox="../media/retail-teams-fundamentals.png":::
+:::image type="content" source="../media/retail-teams-fundamentals.png" alt-text="Diagram showing fundamentals, including Teams policies, accounts, and devices." lightbox="../media/retail-teams-fundamentals.png":::
 1. [Set up teams and apps](#set-up-teams-and-apps) - Use team templates to set up the teams you need quickly, including the channels and apps you need for your business. Add in other apps from Microsoft as needed to support your scenarios.
-:::image type="content" source="../media/retail-teams-apps.png" alt-text="Diagram of teams, team templates and apps that can be included." lightbox="../media/retail-teams-apps.png":::
+:::image type="content" source="../media/retail-teams-apps.png" alt-text="Diagram showing teams, team templates and apps that can be included." lightbox="../media/retail-teams-apps.png":::
 
 <!-- Additional capabilities for retail environments are available with the Microsoft Cloud for Retail, which includes capabilities from Dynamics 365 and Microsoft Azure as well as the Microsoft 365 features. For more information, see [Microsoft Cloud for Retail](/industry/retail/). -->
 
