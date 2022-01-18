@@ -2536,11 +2536,6 @@
       "redirect_document_id": false 
      },
      {
-      "source_path": "Teams/administrative-unit.md",
-      "redirect_url": "/MicrosoftTeams/",
-      "redirect_document_id": false 
-     },
-     {
       "source_path": "Teams/business-voice/country-region-availability.md",
       "redirect_url": "/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans",
       "redirect_document_id": false 
