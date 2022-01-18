@@ -51,7 +51,8 @@ To follow along, you must be an admin. The instructions for getting the permissi
 <!-- <sup>3</sup> Azure Active Directory admin center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
 <sup>4</sup> Microsoft 365 Admin Center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
 -->
-  |!NOTE| Set-csuser CMDLET will be loaded only if the user is a teams administrator, so for managing the enterprisevoice enabled it will be needed to give this role to the user 
+> [!NOTE]
+> To load the **Set-CsUser** cmdlet, the user must be a Teams administrator, so to manage Enterprise Voice, this role must be assigned to the user.
 For more information about the admin tools available for managing Microsoft Teams, see [Managing Microsoft Teams](./manage-teams-skypeforbusiness-admin-center.md).
 
 For more information about limits, specifications, and other requirements that apply to Teams, see [Limits and specifications for Microsoft Teams](limits-specifications-teams.md).
