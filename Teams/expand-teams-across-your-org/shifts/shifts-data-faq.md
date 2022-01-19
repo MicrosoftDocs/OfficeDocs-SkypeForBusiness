@@ -30,7 +30,7 @@ This article covers frequently-asked questions about Shifts data, including wher
 
 ## Where is Shifts data stored?
 
-Shifts data is stored in data centers in Asia Pacific (APAC), the European Union (EU), and the United States. Each geo stores data in at least two Azure data center regions for HA/DR.??? Today, the United States geo uses data centers in North Central and South Central United States. To learn more, see [Where is Microsoft 365 customer data stored](/microsoft-365/enterprise/o365-data-locations).
+Shifts data is stored in one of three geographies (geos): Asia Pacific (APAC), the European Union (EU), or the United States. Each geo stores data in at least two Azure data center regions for High Availability (HA) and Disaster Recovery (DR). Today, the United States/North America geo uses data centers in North Central and South Central United States. To learn more, see [Where is Microsoft 365 customer data stored](/microsoft-365/enterprise/o365-data-locations).
 
 Currently, Shifts offers data residency in Australia, Canada, France, Japan, and the United Kingdom. We're actively working to expand support to more locations.
 
@@ -91,7 +91,7 @@ We don't store immutable copies of Shifts data. For example, a manager can make 
 
 ## Can Shifts data be edited?
 
-There are certain aspects of Shifts that can't be changed and certain aspects that can be changed. For example, Shifts details such as notes and colors can be edited similar to how they can be changed in the Shifts app. Shifts requests can't be edited unless the request is withdrawn.
+There are certain aspects of Shifts that can't be changed and certain aspects that can be changed. For example, shift details such as notes and colors can be edited similar to how they can be changed in the Shifts app. Shift requests can't be edited unless the request is withdrawn.
 
 To see which what fields have been changed, you can search the Microsoft 365 audit log for Shifts events. To learn more about the events that are logged for Shifts activities in the Microsoft 365 audit log, see [Shifts in Teams activities](../../audit-log-events.md#shifts-in-teams-activities).
 
@@ -99,7 +99,7 @@ To see which what fields have been changed, you can search the Microsoft 365 aud
 
 You can use Shifts Graph APIs to integrate Shifts data with external workforce management systems. To learn more, see [Shifts Graph APIs](/graph/api/resources/shift?view=graph-rest-1.0).
 
-## My organization uses an on-premises archiving system. Can we use Microsoft Graph to integrate with and access Shifts data?
+## My organization uses an on-premises archiving system that's managed by a partner. Can we use Microsoft Graph to integrate with and access Shifts data?
 
 Shifts Graph APIs let you integrate Shifts data with external systems. To learn more, see [Shifts Graph APIs](/graph/api/resources/shift?view=graph-rest-1.0).
 
@@ -113,4 +113,5 @@ Shifts data can be migrated from one tenant to another tenant by the Shifts serv
 
 ## Related articles
 
+[Shifts for Teams](../shifts-for-teams-landing-page.md)
 [Manage the Shifts app](manage-the-shifts-app-for-your-organization-in-teams.md)
