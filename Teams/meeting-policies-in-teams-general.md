@@ -54,7 +54,7 @@ If you turn this off, users are unable to schedule Teams meetings when they crea
 
 ## Channel meeting scheduling
 
-Use the existing AllowChannelMeetingScheduling policy to control the types of events that can be created on the team channel calendars. This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule a meeting in a Teams channel. By default, this setting is turned on. 
+Use the existing AllowChannelMeetingScheduling policy to control the types of events that can be created on the team channel calendars. This is a per-user policy and applies before a meeting starts. This setting controls whether users can schedule a meeting in a Teams channel. By default, this setting is turned on.
 
 If this policy is turned off, users will not be able to create new channel meetings. However, existing channel meetings can be edited by the organizer of the event.
 
@@ -119,7 +119,7 @@ Keep in mind that after you set the default value, meeting organizers can still 
 
 This is a per-user policy. This setting controls whether meeting organizers can download the [meeting attendance report](teams-analytics-and-reports/meeting-attendance-report.md).
 
-This policy is off by default and allows your organizers to see who registered and attended the meetings and webinars they set up. To turn this on in the Teams admin center, go to **Meetings** > **Meeting policies**, and set the **Engagement report** setting to **Enabled**.
+This policy is off by default and allows your organizers to see who registered and attended the meetings and webinars they set up. This policy is turned on by default. To turn it off in the Teams admin center, go to **Meetings** > **Meeting policies**, and set the **Engagement report** setting to **Off**.
 
 You can also edit an existing Teams meeting policy by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
 
