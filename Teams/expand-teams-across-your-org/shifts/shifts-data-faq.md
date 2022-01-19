@@ -42,7 +42,7 @@ When you first set up Teams, you choose a country or region, which is set at the
 
 Shifts is General Data Protection Regulation (GDPR) compliant. A formal request by a person (known as a data subject) to take an action on their personal data is called a Data Subject Request (DSR). You can find and act on personal data in Shifts in response to a DSR.
 
-Use the ???Content Search eDiscovery tool to find and export schedule and time clock data to Excel. For all other Shifts data, you can take screenshots of the data.
+You can use the Content Search eDiscovery tool in the Microsoft 365 compliance center to search for and export schedule and time clock data to Excel. For all other Shifts data, you can take screenshots of the data.
 
 To learn more, see [Office 365 Data Subject Requests for the GDPR and CCPA](/microsoft-365/compliance/gdpr-dsr-office365).
 
@@ -94,10 +94,6 @@ We don't store immutable copies of Shifts data. For example, a manager can make 
 There are certain aspects of Shifts that can't be changed and certain aspects that can be changed. For example, shift details such as notes and colors can be edited similar to how they can be changed in the Shifts app. Shift requests can't be edited unless the request is withdrawn.
 
 To see which what fields have been changed, you can search the Microsoft 365 audit log for Shifts events. To learn more about the events that are logged for Shifts activities in the Microsoft 365 audit log, see [Shifts in Teams activities](../../audit-log-events.md#shifts-in-teams-activities).
-
->## Can I access Shifts data using Microsoft Graph?
-
-You can use Shifts Graph APIs to integrate Shifts data with external workforce management systems. To learn more, see [Shifts Graph APIs](/graph/api/resources/shift?view=graph-rest-1.0).
 
 ## My organization uses an on-premises archiving system that's managed by a partner. Can we use Microsoft Graph to integrate with and access Shifts data?
 
