@@ -11,7 +11,7 @@ search.appverid: MET150
 searchScope:
   - Microsoft Teams
   - Microsoft Cloud for Healthcare
-description:  
+description: Get answers to frequently asked questions about Shifts data, including where Shifts data is stored, data retention, retrieval, and encryption. 
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -26,7 +26,7 @@ ms.custom: seo-marvel-mar2020
 
 # Shifts data FAQ
 
-This article covers frequently-asked questions about Shifts data, including where Shifts data is stored, data retention, data retrieval, and encryption.
+This article covers frequently asked questions about Shifts data, including where Shifts data is stored, data retention, retrieval, and encryption.
 
 ## Where is Shifts data stored?
 
@@ -40,7 +40,7 @@ When you first set up Teams, you choose a country or region, which is set at the
 
 ## Can I access and export or delete a user's personal data in Shifts?
 
-Shifts is General Data Protection Regulation (GDPR) compliant. A formal request by a user (known as a data subject) to take an action on their personal data is called a Data Subject Request (DSR). You can find and act on personal data in Shifts in response to a DSR.
+Shifts is General Data Protection Regulation (GDPR) compliant. A formal request by a person (known as a data subject) to take an action on their personal data is called a Data Subject Request (DSR). You can find and act on personal data in Shifts in response to a DSR.
 
 Use the ???Content Search eDiscovery tool to find and export schedule and time clock data to Excel. For all other Shifts data, you can take screenshots of the data.
 
