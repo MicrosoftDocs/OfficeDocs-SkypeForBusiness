@@ -137,6 +137,9 @@ Currently, data is collected from the following areas in class teams:
 > [!NOTE]
 > Most of the collected data shows up in Insights within a few minutes. Attendance in class meetings (meetings associated with one of the class channels) appears a few hours after the end of the meeting, usually up to 24 hours later.
 
+> [!NOTE]
+> Data collected in Education Insights is kept until either the IT Admin turns off the [Education Analytics toggle](#Turn-Insights-on-or-off) or the Office subscription for the tenant ends. Turning off specific features in Teams does not delete historic data.
+
 ### Privacy and security
 The information collected and shown through Insights meets [more than 90 regulatory and industry standards](/compliance/regulatory/offering-home), including [GDPR](/compliance/regulatory/gdpr) and the Family [Education Rights and Privacy Act (FERPA)](/compliance/regulatory/offering-ferpa) for students and children's security and other, similar, privacy-oriented regulations.
 
