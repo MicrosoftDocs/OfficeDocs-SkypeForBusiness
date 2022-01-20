@@ -29,7 +29,7 @@ description: Learn how to configure call queues via cmdlets
 
 ## Assumptions
 1)	PowerShell is installed on your computer
-- Set up your computer for [Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+- Set up your computer for [Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 - MSTeams Module Installed
 ````  (Install-Module -Name MicrosoftTeams -Force -AllowClobber) ````
 - MSOnline module installed
