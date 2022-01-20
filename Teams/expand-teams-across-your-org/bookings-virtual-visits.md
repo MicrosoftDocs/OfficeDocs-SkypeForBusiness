@@ -29,7 +29,7 @@ The [Bookings app](https://support.microsoft.com/office/what-is-bookings-42d4e85
 
 The Bookings app makes it easy to manage complex scheduling demands of any organization. Schedulers can manage multiple department and staff calendars, as well as communications with internal and external attendees, from a single experience.
 
-The virtual visits are held through Microsoft Teams meetings, which offers robust video conferencing capabilities. For example, a doctor can share their screen and review test results with a patient. Or, a banking advisor can request electronic signatures on documents, allowing them to close transactions remotely.
+The virtual visits are held through Microsoft Teams meetings, which offer robust video conferencing capabilities. For example, a doctor can share their screen and review test results with a patient. Or, a banking advisor can request electronic signatures on documents, allowing them to close transactions remotely.
 
 Each virtual appointment includes a Teams meeting link that’s sent to attendees in email where they can easily join from a web browser or in Teams on any device. Automated email reminders help reduce no-shows and enhance customer and client engagement.
 
@@ -88,6 +88,14 @@ The email confirmation sent to the attendee includes the meeting link and an att
 ## Conduct a virtual visit
 
 In your Teams or Outlook calendar, go to the booking, and then select **Join** or the Teams meeting link. Check your audio and video settings, and then select **Join now**. To learn more, see [Conduct a Bookings appointment](https://support.microsoft.com/office/conduct-a-bookings-appointment-a86a4007-e26c-4909-9893-f7036e2747cd).
+
+## Monitor virtual visits and get real-time status updates
+
+The queue view in Bookings provides your staff with a dashboard to monitor all virtual appointments for the day, with updates in real time. In Bookings, choose the **Queue** tab to see the queue.
+
+From the queue, schedulers can add a new booking, view relevant appointment details, and see appointment statuses throughout the day. When a patient joins the waiting room, the status changes, and their wait time is displayed and tracked. The view automatically refreshes with color-coded updates so that changes can easily be identified.
+
+Staff can even join and manage appointments directly from the queue.
 
 ## Additional capabilities with the Bookings web app
 
