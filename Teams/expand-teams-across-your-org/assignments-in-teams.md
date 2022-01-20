@@ -34,7 +34,11 @@ The Assignments and Grades features in Teams for Education allow educators to as
 
 ## Assignments integrations in the Microsoft Teams admin center
 
-Using the admin settings in the Microsoft Teams admin center, you can turn features on or off for educators within your organization and their students. The following are settings related to Assignments:
+Using the admin settings in the Microsoft Teams admin center, you can turn features on or off for educators within your organization and their students.
+
+To view and manage Assignment settings, go to <a href="https://admin.teams.microsoft.com/education/assignments-settings" target="_blank">**Education** > **Assignment settings**</a> in the Teams admin center.
+
+The following are settings related to Assignments:
 
 <a name="#bkemaildigest"> </a>
 
