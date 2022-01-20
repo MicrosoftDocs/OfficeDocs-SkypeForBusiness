@@ -268,7 +268,7 @@ Note: Phone number not required here as call queue is front-ended by an Auto Att
 - - Auto Attendant: ce933385-9390-45d1-9512-c8d228074e07
 - - Call Queue: 11cd3e2e-fccb-42ad-ad00-878b93575e07
 ````
-New-CsOnlineApplicationInstance -UserPrincipalName Support-RA@contoso.com -DisplayName "Facilities" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
+New-CsOnlineApplicationInstance -UserPrincipalName Facilities-RA@contoso.com -DisplayName "Facilities" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
 
 Set-MsolUser -UserPrincipalName "Facilities-RA@contoso.com" -UsageLocation US
 
