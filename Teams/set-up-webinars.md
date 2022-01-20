@@ -107,10 +107,10 @@ Set-CsTeamsMeetingPolicy -WhoCanRegister Everyone
 
 ### Collect meeting attendance
 
-If you want organizers to analyze who registered and attended webinars, you'll need to turn on the **EngagementReport** policy. To do this, run the following command in PowerShell.
+The **AllowEngagementReport** parameter lets you see who registered and attended webinars. This policy is turned on by default. To turn it off, run the following command in PowerShell:
 
 ```powershell
-Set-CsTeamsMeetingPolicy -EngagementReport Enabled
+Set-CsTeamsMeetingPolicy -AllowEngagementReport Disabled
 ```
 
 ## Configure webinar settings
