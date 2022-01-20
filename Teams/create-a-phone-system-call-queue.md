@@ -276,7 +276,7 @@ Resource accounts:
 
 Virtual Teams Phone licenses:
 
-- [Set-MsolUserLicense](/powershell/module/skype/Set-MsolUserLicense)
+- [Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense)
 
 Phone number assignment:
 
