@@ -89,7 +89,7 @@ The email confirmation sent to the attendee includes the meeting link and an att
 
 In your Teams or Outlook calendar, go to the booking, and then select **Join** or the Teams meeting link. Check your audio and video settings, and then select **Join now**. To learn more, see [Conduct a Bookings appointment](https://support.microsoft.com/office/conduct-a-bookings-appointment-a86a4007-e26c-4909-9893-f7036e2747cd).
 
-## Monitor virtual visits and get real-time status updates in queue view
+## Monitor virtual visits and get real-time status updates
 
 The queue view in Bookings provides your staff with a dashboard to monitor all virtual appointments for the day, with updates in real time. To see the queue, select the **Queue** tab in Bookings.
 
