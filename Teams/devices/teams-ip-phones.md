@@ -39,6 +39,7 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 | Crestron UC-P8-T (with and without handset)     | `1.0.0.56`       | February 2021 |
 | Crestron UC-P10-C-T (with and without handset)  | `1.0.0.80`       | May 2021                     |
 | Crestron UC-P8-C-T (with and without handset)   | `1.0.0.80`       | May 2021                     |
+| Audiocodes C470HD                      | `1.8.293   `                                               | January 2021                 |
 | Yealink MP52                           | `145.15.0.6 `                                              | April 2021                   |
 | AudioCodes C435HD                      | `1.12.33`                                                  | April 2021                   |
 | AudioCodes C455HD                      | `1.14.404`                                                 | November 2021                |
@@ -185,6 +186,9 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | `3.9.0`          | 2021 Update #2F   |
+| Poly Studio X50 | `3.9.0`          | 2021 Update #2F   |
+| Poly TC8        | `3.9.0`          | 2021 Update #2F   |
 | Poly Studio X30 | `3.8.0`          | 2021 Update #2    |
 | Poly Studio X50 | `3.8.0`          | 2021 Update #2    |
 | Poly TC8        | `3.8.0`          | 2021 Update #2    |
@@ -222,6 +226,7 @@ The following are the latest Microsoft Teams Displays app and firmware versions.
 
 |Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|2021 Update #4  |January 5, 2022 |`1449/1.0.95.2021736401`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)`
 |2021 Update #3  |December 8, 2021 |`1449/1.0.95.2021111203`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)`|
 |2021 Update #2  |June 9, 2021 |`1449/1.0.95.2021042103`    |`5.0.5088.0`            |  `1.0.0.202103160138.product (256)`|
 |2021 Update #1  |March 18, 2021 |`1449/1.0.95.2021021104`    |`5.0.5045.0`            | `1.0.0.202101280722.product (253)`|
