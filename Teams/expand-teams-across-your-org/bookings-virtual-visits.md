@@ -65,7 +65,7 @@ To learn more, see [Create a Bookings calendar](https://support.microsoft.com//o
 
 ### Add staff
 
-In the booking calendar, go to **More options** (...) > **Settings**, and then select **Staff**. Add staff members and assign a role to each person you add.
+In the booking calendar, go to **More options** (...) > **Settings**, and then select **Staff**. Add staff members and assign a role to each person you add. You can add up to 100 staff members to a booking calendar.
 
 The Bookings app integrates with Outlook. After you add staff, you’ll be able to view that person’s calendar availability and schedule bookings for them. To learn more, see [Add staff and view a Bookings calendar](https://support.microsoft.com/office/add-staff-and-view-a-bookings-calendar-6c579f61-8adb-4514-9458-021de2023fa0).  
 
@@ -98,6 +98,9 @@ The queue view in Bookings provides your staff with a dashboard to monitor all v
 From the queue, schedulers can add a new booking, view relevant appointment details, and see appointment statuses throughout the day. When a patient joins the waiting room, the status changes, and their wait time is displayed and tracked. The view automatically refreshes with color-coded updates so that changes can easily be identified.
 
 Staff can even join and manage appointments directly from the queue.
+
+> [!NOTE]
+> Currently, the Bookings app supports adding up to 100 staff per booking calendar. If you used Graph APIs to set up and add staff to a booking calendar, this limit may not be enforced. In this scenario, the **Queue** tab won't be able to render content for calendars that have more than 100 staff. For an optimal experience, we recommend that you add no more than 100 staff to a booking calendar. We're working to resolve this limitation in future releases.
 
 ## Additional capabilities with the Bookings web app
 
