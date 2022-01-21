@@ -151,7 +151,7 @@ In Microsoft Teams Rooms, users can take advantage of traditional, analog whiteb
 
 ## Enhanced meeting room design guidance
 
-This section is intended to cover building an enhanced meeting room from scratch. For retrofitting an existing room guidance, see ADD RETROFIT LINK SECTION.
+This section is intended to cover building an enhanced meeting room from scratch. For retrofitting an existing room guidance, see [Retrofit an existing room](#retrofit-an-existing-room).
 
 ### Room layout 
 
