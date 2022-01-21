@@ -109,7 +109,7 @@ The enhanced meeting room layout is designed for maximum visibility and engageme
 
 The layout features a curved table for in-person eye contact as well as orientation to remote participants with all chairs facing the display so participants are able to follow along.
 
-![Rendering of an enhanced meeting room with a projector and U-shaped table.](media/emr4.png)
+![Rendering of an enhanced meeting room with a projector and U-shaped table.](media/emr4.jpg)
 
 ### How does the audio work? 
 
