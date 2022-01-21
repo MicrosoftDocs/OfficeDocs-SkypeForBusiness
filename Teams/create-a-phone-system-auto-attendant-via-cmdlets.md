@@ -34,7 +34,7 @@ description: Learn how to configure auto attendants via cmdlets
 ```` Install-Module -Name MSOnline -Force -AllowClobber ````
 2)	You have tenant administration rights
 3)	You have purchased Microsoft Teams Phone
-4)	The call queues referred to below have already been setup following this guide[click here](create-a-phone-system-call-queue-via-cmdlets.md)
+4)	The call queues referred to below have already been setup following the [Creating Call Queues with PowerShell cmdlets](create-a-phone-system-call-queue-via-cmdlets.md) guide.
                                                                                                
 Note: Some of the cmdlets referenced below may be part of the Public Preview version of Teams PowerShell Module.  For more information, see [Install Teams PowerShell public preview](teams-powershell-install.md) and also see [Microsoft Teams PowerShell Release Notes](teams-powershell-release-notes.md).
 
@@ -82,7 +82,7 @@ $operatorID = (Get-CsOnlineUser -Identity “sip:adele@contoso.com”).ObjectID
 $operatorEntity = New-CsAutoAttendantCallableEntity -Identity $operatorID -Type User
 ````
 
-## Dial By Name Auto Attendant - Resource Account Creatiion
+## Dial By Name Auto Attendant - Resource Account Creation
 Note: Creating resource account here so it can be referenced on the main auto attendant.  The actual Dial By Name auto attendant will be created later.
 
 ### Get license types
@@ -117,7 +117,7 @@ $dtr = New-CsOnlineDateTimeRange -Start "01/01/2022" -End "02/01/2022"
 $newyearSchedule = New-CsOnlineSchedule -Name "New Year" -FixedSchedule -DateTimeRanges @($dtr)
 ````
 
-### Create Address, FAX and Email Information Prompt
+### Create Address, FAX, and Email Information Prompt
 ````
 $addressPrompt = New-CsAutoAttendantPrompt -TextToSpeechPrompt "To repeat this information at any time press the * key. Our mailing address is: 123 Main Street, Any town, Any Place, County. Our email address is: info@contoso.com. Our fax number is: 929-555-0151"
 ````
