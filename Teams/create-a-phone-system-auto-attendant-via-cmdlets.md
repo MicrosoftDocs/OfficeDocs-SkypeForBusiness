@@ -34,8 +34,8 @@ description: Learn how to configure auto attendants via cmdlets
 ```` Install-Module -Name MSOnline -Force -AllowClobber ````
 2)	You have tenant administration rights
 3)	You have purchased Microsoft Teams Phone
-4)	The call queues referred to below have already been setup following this guide[click here](create-a-phone-system-call-queue-via-cmdlets)
-
+4)	The call queues referred to below have already been setup following this guide[click here](create-a-phone-system-call-queue-via-cmdlets.md)
+                                                                                               
 Note: Some of the cmdlets referenced below may be part of the Public Preview version of Teams PowerShell Module.  For more information, see [Install Teams PowerShell public preview](teams-powershell-install.md) and also see [Microsoft Teams PowerShell Release Notes](teams-powershell-release-notes.md).
 
 Users who already have the MicrosoftTeams module installed should ````Update-Module MicrosoftTeams```` to ensure the most up-to-date version is installed.
@@ -44,7 +44,7 @@ Users who already have the MicrosoftTeams module installed should ````Update-Mod
 
 The following auto attendant call flow will be built
 
-[image]
+![Diagram of Auto Attenant call flow being built with cmdlets.](media/create-a-phone-system-auto-attendant-via-cmdlets.png)
 
 Additional configuration information:
 
