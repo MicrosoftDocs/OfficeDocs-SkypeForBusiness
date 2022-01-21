@@ -15,12 +15,12 @@ appliesto:
   - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: "Learn how to enable users Microsoft Phone System Direct Routing."
+description: "Learn how to enable users for Microsoft Teams Phone Direct Routing."
 ---
 
 # Enable users for Direct Routing, voice, and voicemail
 
-This article describes how to enable users for Phone System Direct Routing.  This is step 2 of the following steps for configuring Direct Routing:
+This article describes how to enable users for Direct Routing. This is step 2 of the following steps for configuring Direct Routing:
 
 - Step 1. [Connect the SBC with Microsoft Phone System and validate the connection](direct-routing-connect-the-sbc.md) 
 - **Step 2. Enable users for Direct Routing, voice, and voicemail**   (this article)
@@ -30,7 +30,7 @@ This article describes how to enable users for Phone System Direct Routing.  Thi
 
 For information on all the steps required for setting up Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
 
-When you are ready to enable users for Direct Routing, follow these steps: 
+When you're ready to enable users for Direct Routing, follow these steps: 
 
 1. Create a user in Microsoft 365 or Office 365 and assign a Phone System license. 
 2. Ensure that the user is homed in Skype for Business Online. 
@@ -50,9 +50,9 @@ For information about license requirements, see [licensing and other requirement
 
 ## Ensure that the user is homed online 
 
-This step is applicable to Skype for Business Server Enterprise Voice enabled users being migrated to Teams Direct Routing.
+This step applies to Skype for Business Server Enterprise Voice enabled users being migrated to Teams Direct Routing.
 
-Direct Routing requires the user to be homed online. You can check by looking at the RegistrarPool parameter, which needs to have a value in the infra.lync.com domain. It's also recommended, but not required, to change management of the LineURI from on-premises to online when migrating users to Teams Direct Routing. 
+Direct Routing requires the user to be homed online. You can check by looking at the RegistrarPool parameter, which needs to have a value in the infra.lync.com domain. Microsoft recommends, but does not require, that you change the LineURI from on-premises to online when migrating users to Teams Direct Routing. 
 
 1. Connect a Microsoft Teams PowerShell session.
 
@@ -61,9 +61,9 @@ Direct Routing requires the user to be homed online. You can check by looking at
     ```PowerShell
     Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
     ``` 
-    In case OnPremLineUriManuallySet is set to False and LineUri is populated with a <E.164 phone number>, the phone number was assigned on-premises and synchronized to O365. If you want manage the phone number online, clean the parameter using on-premises Skype for Business Management Shell and synchronize to O365, before configuring the phone number using Skype for Business Online PowerShell. 
+    If OnPremLineUriManuallySet is set to False and LineUri is populated with a <E.164 phone number>, the phone number was assigned on-premises and synchronized to Microsoft 365. If you want to manage the phone number online, clean the parameter using on-premises Skype for Business Management Shell and synchronize to Microsoft 365 before configuring the phone number using Skype for Business Online PowerShell. 
 
-1. From Skype for Business Management Shell issue the command: 
+1. From Skype for Business Management Shell, issue the command: 
 
    ```PowerShell
    Set-CsUser -Identity "<User name>" -LineUri $null
@@ -84,7 +84,7 @@ Direct Routing requires the user to be homed online. You can check by looking at
 
 ## Configure the phone number and enable enterprise voice and voicemail online 
 
-After you have created the user and assigned a license, the next step is to configure the user's online phone settings. 
+After you've created the user and assigned a license, you must configure the user's online phone settings. 
 
  
 1. Connect a Microsoft Teams PowerShell session. 
@@ -112,7 +112,7 @@ After you have created the user and assigned a license, the next step is to conf
     Set-CsPhoneNumberAssignment -Identity "stacy.quinn@contoso.com" -PhoneNumber "+14255388701;ext=1002" -PhoneNumberType DirectRouting
     ```
 
-    It's recommended, but not required, that the phone number used is configured as a full E.164 phone number with country code. It is supported to configure phone numbers with extensions which will be used to lookup users when the lookup against the base number returns more than one result. This allows companies to configure phone numbers with the same base number and unique extensions. For lookup to be successful, the invite must include the full number with extension as follows:
+    Microsoft recommends, but does not require, that the phone number is configured as a full E.164 phone number with country code. You can configure phone numbers with extensions. These extensions will be used to look up users when the lookup against the base number returns more than one result. This functionality allows companies to configure phone numbers with the same base number and unique extensions. For lookup to be successful, the invite must include the full number with extension as follows:
     ```PowerShell
     To: <sip:+14255388701;ext=1001@sbc1.adatum.biz
     ```
@@ -123,7 +123,7 @@ After you have created the user and assigned a license, the next step is to conf
 
 ## Configure sending calls directly to voicemail
 
-Direct Routing allows you to end the call to a user and send it directly to the user's voicemail. If you want to send the call directly to voicemail, attach opaque=app:voicemail to the Request URI header. For example, "sip:user@yourdomain.com;opaque=app:voicemail". In this case, the Teams user will not receive the calling notification, the call will be connected to the voicemail of the user directly.
+Direct Routing allows you to end the call to a user and send it directly to the user's voicemail. If you want to send the call directly to voicemail, attach opaque=app:voicemail to the Request URI header. For example, "sip:user@yourdomain.com;opaque=app:voicemail". The Teams user will not receive the calling notification, the call will be connected to the voicemail of the user directly.
 
 ## Assign Teams Only mode to users to ensure calls land in Microsoft Teams
 
