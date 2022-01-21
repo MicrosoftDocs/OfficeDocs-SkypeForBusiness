@@ -223,7 +223,7 @@ Refer to the [Prerequisites](plan-auto-attendant-call-queue.md#prerequisites) in
 
 - For a resource account with a [Calling Plan license](calling-plans-for-office-365.md) or [Operator Connect](operator-connect-plan.md) number, the external transfer phone number must be entered in E.164 format (+[country code][area code][phone number]).
 
-- For a resource account with a Phone System License and Direct Routing online voice routing policy, the external transfer phone number format is dependant on the [Session Border Controller (SBC)](direct-routing-connect-the-sbc.md) settings.
+- For a resource account with a Microsoft Teams Phone License and Direct Routing online voice routing policy, the external transfer phone number format is dependant on the [Session Border Controller (SBC)](direct-routing-connect-the-sbc.md) settings.
 
 The outbound phone number that's displayed is determined as follows:
 
@@ -238,7 +238,7 @@ In a Skype for Business hybrid environment, to transfer an auto attendant call t
 
 Windows PowerShell allows you to create and manage auto attendants via the command line in a batch or programmatic manner.
 
-The following cmdlets allow you to manage a auto attendants:
+The following cmdlets allow you to manage auto attendants:
 
 - [New-CsAutoAttendant](/powershell/module/skype/new-csautoattendant)  
 - [Get-CsAutoAttendant](/powershell/module/skype/get-csautoattendant)
