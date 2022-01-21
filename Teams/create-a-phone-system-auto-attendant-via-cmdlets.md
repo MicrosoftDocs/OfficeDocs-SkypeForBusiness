@@ -42,7 +42,7 @@ Users who already have the MicrosoftTeams module installed should ````Update-Mod
 
 ## Scenario
 
-The following auto attendant call flow will be built
+The following auto attendant call flow will be built:
 
 ![Diagram of Auto Attenant call flow being built with cmdlets.](media/create-a-phone-system-auto-attendant-via-cmdlets.png)
 
