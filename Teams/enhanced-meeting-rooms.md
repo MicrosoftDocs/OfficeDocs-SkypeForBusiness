@@ -21,7 +21,7 @@ localization_priority: Normal
 appliesto: 
   - Microsoft Teams
 ---
-# Enhanced Meeting Room
+# Enhanced meeting room
 
 ![Rendering of an enhanced meeting room.](media/emr1.png)
 
