@@ -1350,14 +1350,10 @@ items:
                   href: rooms/coordinated-meetings.md
                 - name: Manage Microsoft Teams settings
                   href: rooms/surface-hub-manage-config.md
-            - name: With Office 365
+            - name: Create device resource accounts 
               href: rooms/with-office-365.md
             - name: With Skype for Business Server
               href: rooms/with-skype-for-business-server-2015.md
-            - name: With Exchange Online (Hybrid)
-              href: rooms/with-exchange-online.md
-            - name: With Exchange on premises (Hybrid)
-              href: rooms/with-exchange-on-premises.md
             - name: Configure a console
               href: rooms/console.md
             - name: Manually update a device
@@ -1739,8 +1735,6 @@ items:
       items: 
         - name: Microsoft 365 groups and Teams
           href: office-365-groups.md
-        - name: Create a Microsoft 365 resource account using the Microsoft 365 admin center
-          href: devices/resource-account-ui.md
         - name: Enhance existing Microsoft 365 groups with Teams
           href: enhance-office-365-groups.md
         - name: How Exchange and Teams interact
