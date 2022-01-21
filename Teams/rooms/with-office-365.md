@@ -1,7 +1,7 @@
 ---
-title: "Deploy Microsoft Teams Rooms with Office 365"
-ms.author: v-lanac
-author: lanachin
+title: "Configure accounts for Microsoft Teams Rooms"
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -9,128 +9,75 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
 ms.custom: 
-ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: "Read this topic for information on how to deploy Microsoft Teams Rooms with Office 365."
+ms.assetid: 
+description: "Read this topic to learn about configuring accounts for Microsoft Teams Rooms (including Surface Hub) and common area phones."
 ---
 
-# Deploy Microsoft Teams Rooms with Office 365
+# Configure accounts for Microsoft Teams Rooms
+ 
+This topic introduces how to create accounts used by Microsoft Teams Rooms. Your infrastructure will likely fall into one of the following configurations:
+  
+- Online deployment: Your organization's environment is deployed entirely on Microsoft 365 or Office 365..
+    
+- On-premises deployment: Your organization has servers that it controls, where Active Directory, Exchange, and Skype for Business Server are hosted. For more information, see [Deploy Microsoft Teams Rooms with Skype for Business Server](with-skype-for-business-server-2015.md)
+    
+- Hybrid deployments: Your organization has a mix of services, with some hosted on premises and some hosted online through Microsoft 365 or Office 365. With Microsoft Teams Rooms, the following hybrid scenarios are supported:
+    
+  - Exchange Online with Skype for Business Server on premises.
+    
+  - Exchange on premises with Microsoft Teams.
+    
+Which configuration you have will affect how you prepare for device setup.
+  
+Microsoft Teams Rooms need to have a "resource account" in Active Directory, Exchange, and (if necessary) Skype for Business. The account is used to access the meeting calendar and establish Microsoft Teams and/or Skype for Business connectivity. People can book this account by scheduling a meeting with it. Microsoft Teams Rooms will be able to join that meeting and provide various features to the meeting attendees.
+  
+> [!IMPORTANT]
+> Without a resource account, none of these features will work.
+  
+Every resource account is unique to a single Microsoft Teams Rooms installation.
+  
+- The resource account must be configured correctly.
+    
+- Your infrastructure must be configured to allow Microsoft Teams Rooms to validate the resource account and to reach the appropriate Microsoft services.
 
-Read this topic for information on how to deploy Microsoft Teams Rooms with Office 365.
+> [!NOTE] 
+> If using Microsoft Teams panels, the Teams Rooms resource account signs in to both Teams Rooms and associated Teams panels.
+    
+> [!IMPORTANT]
+> It is highly recommended that account creation be done well in advance of actual hardware installation. Ideally, account preparation is started two to three weeks before installation.
+> 
+In hybrid environments that are not using Skype for Business, it is highly recommended to create the account natively in Azure Active Directory. If the account must be created using on-premises Active Directory, password sync must be enabled in Azure Active Directory (AAD) Connect sync because Microsoft Teams Rooms authentication requires Microsoft 365 or Office 365 authentication. When setting up the account, make sure that the account's e-mail address matches its User Principal Name (UPN) in AAD. 
+  
+You can think of a resource account as the account that people recognize as a conference room's or shared space's name. When you want to schedule a meeting using that space, you invite the resource account to that meeting.
+  
+If you already have an Exchange resource mailbox account set up for the space where you're installing Microsoft Teams Rooms, you can change that account into a Teams Rooms resource account. Once that's done, all you need to do is sign in to Microsoft Teams Rooms with that account.
+  
+## Basic configuration
 
-## Requirements
-
-Before you deploy Microsoft Teams Rooms with Office 365, be sure you have met the requirements. For more information, see [Microsoft Teams Rooms requirements](requirements.md).
-
-### Add a resource account
-
-1. Connect to Exchange Online PowerShell. For instructions, see [Connect to Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).
-
-2. In Exchange Online PowerShell, create a new room mailbox or modify an existing room mailbox. By default, room mailboxes don't have associated accounts. You'll need to add an account when you create or modify a room mailbox that allows it to authenticate.
-
-   - To create a new room mailbox, use the following syntax:
-
-     ``` PowerShell
-     New-Mailbox -Name '<Unique Name>' -Alias <Alias> -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID <Account> -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
-     ```
-
-     This example creates a new room mailbox with the following settings:
-
-     - Name: Conference Room 01
-
-     - Alias: ConferenceRoom01
-
-     - Account: ConferenceRoom01@contoso.com
-
-     - Account password: P@$$W0rd5959
-
-     ``` PowerShell
-     New-Mailbox -Name 'Conference Room 01' -Alias ConferenceRoom01 -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID 'ConferenceRoom01@contoso.com' -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
-     ```
-
-   - To modify an existing room mailbox, use the following syntax:
-
-     ``` PowerShell
-     Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
-     ```
-
-     This example enables the account for the existing room mailbox that has the alias value ConferenceRoom02, and sets the password to 9898P@$$W0rd.
-
-     ``` PowerShell
-     Set-Mailbox -Identity 'ConferenceRoom02' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
-     ```
-
-   For detailed syntax and parameter information, see [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) and [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox).
-
-
-3. In Exchange Online PowerShell, configure the following settings on the room mailbox to improve the meeting experience:
-
-   - AutomateProcessing: AutoAccept (The mailbox automatically makes a room reservation decision directly without human intervention.)
-
-   - AddOrganizerToSubject: $false (The meeting organizer is not added to the subject of the meeting request.)
-
-   - DeleteComments: $false (Keep any text in the message body of incoming meeting requests.)
-
-   - DeleteSubject: $false (Keep the subject of incoming meeting requests.)
-
-   - RemovePrivateProperty: $false (Ensures the private flag that was sent by the meeting organizer in the original meeting request remains as specified.)
-
-   - AddAdditionalResponse: $true (The text specified by the AdditionalResponse parameter is added to meeting requests.)
-
-   - AdditionalResponse: "This is a Microsoft Teams meeting room!" (The additional text to add to the meeting request.)
-
-   This example configures these settings on the room mailbox named Project-Rigel-01.
-
-   ``` PowerShell
-   Set-CalendarProcessing -Identity 'ConferenceRoom01' -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse 'This is a Microsoft Teams meeting room!'
-   ```
-
-   For detailed syntax and parameter information, see [Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing).
+These properties represent the minimum configuration for a resource account to work with Microsoft Teams Rooms. Your resource account may require further setup.
+  
+|**Property**|**Purpose**|
+|:-----|:-----|
+|Exchange mailbox (Exchange 2013 SP1 or later, or Exchange Online)  <br/> |The Exchange mailbox gives the resource account the capability to receive and send mail and meeting requests, and to display a meeting calendar on Microsoft Teams Rooms. The Microsoft Teams Rooms mailbox must be a resource mailbox of type "room".  <br/> |
+|Skype for Business is enabled  <br/> |Skype for Business can be enabled in order to use various Skype for Business conferencing features, like video calls, IM, and screen-sharing.  <br/> |
+|Password-enabled  <br/> |The resource account must be enabled with a password, or it cannot authenticate with Microsoft Teams, Exchange, or Skype for Business Server. Password expiration must be disabled on all Teams Rooms resource accounts.   <br/> |
    
-4. Connect to MS Online PowerShell set Active Directory values by running the 'Connect-MsolService -Credential $cred' powershell cmdlet. For details about Active Directory, see [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0). 
+## Advanced configuration
 
-   > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0) is not supported. 
-
-5. It is strongly encouraged to disable password expiration on Teams Rooms accounts. Below is an example of how to disable password expiration for the account ConferenceRoom01:
-
-    ``` PowerShell
-    Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -PasswordNeverExpires $true
-    ```
-
-
-1. The resource account needs to have a valid Office 365 license in order to connect to Microsoft Teams. You also need to assign a usage location to your device account—this determines what license SKUs are available for your account. You can use `Get-MsolAccountSku` to retrieve a list of available SKUs for your Office 365 tenant. You can add a license using the `Set-MsolUserLicense` cmdlet.
-
-   This example assigns the Meeting Room license to a user based in the US.
-
-  ``` PowerShell
-   Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -UsageLocation 'US'
-   Get-MsolAccountSku
-   Set-MsolUserLicense -UserPrincipalName 'ConferenceRoom01@contoso.com' -AddLicenses 'contoso:MEETING_ROOM'
-  ``` 
-
-
-   For detailed instructions, see [Assign licenses to user accounts with Office 365 PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
-
-
-## Validate
-
-For validation, you should be able to use any Microsoft Teams client to sign in to the account you created.
+While the properties for basic configuration will allow the resource account to be set up in a simple environment, it is possible your environment has other restrictions on accounts that must be met in order for Microsoft Teams Rooms to successfully use the resource account.
+  
+|**Property**|**Purpose**|
+|:-----|:-----|
+|Certificate-based authentication  <br/> |Certificates may be required for both Exchange and Skype for Business Server. To deploy certificates, you can load them when logged in as Admin.  <br/> |
 
 ## See also
-[Update room mailboxes with additional metadata to  provides a better search and room suggestion experience](/powershell/module/exchange/set-place)
-
-[Configure accounts for Microsoft Teams Rooms](rooms-configure-accounts.md)
 
 [Plan for Microsoft Teams Rooms](rooms-plan.md)
-
-[Deploy Microsoft Teams Rooms](rooms-deploy.md)
-
+  
 [Configure a Microsoft Teams Rooms console](console.md)
-
+  
 [Manage Microsoft Teams Rooms](rooms-manage.md)
-
-[Microsoft Teams Rooms Licensing](rooms-licensing.md)

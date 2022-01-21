@@ -26,11 +26,6 @@
       "redirect_document_id": true
     },
     {
-      "source_path": "Teams/rooms/rooms-scale.md",
-      "redirect_url": "/microsoftteams/rooms/console",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "Teams/expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md",
       "redirect_url": "/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams",
       "redirect_document_id": false
@@ -137,8 +132,8 @@
     },
     {
       "source_path": "Teams/room-systems/room-systems-scale.md",
-      "redirect_url": "/microsoftteams/rooms/console",
-      "redirect_document_id": false
+      "redirect_url": "/MicrosoftTeams/rooms/rooms-scale",
+      "redirect_document_id": true
     },
     {
       "source_path": "Teams/room-systems/azure-monitor-deploy.md",
@@ -192,16 +187,26 @@
     },
     {
       "source_path": "Teams/room-systems/with-exchange-on-premises.md",
-      "redirect_url": "/MicrosoftTeams/rooms/with-exchange-on-premises",
+      "redirect_url": "/MicrosoftTeams/rooms/with-office-365.md",
       "redirect_document_id": true
     },
     {
       "source_path": "Teams/room-systems/with-exchange-online.md",
-      "redirect_url": "/MicrosoftTeams/rooms/with-exchange-online",
+      "redirect_url": "/MicrosoftTeams/rooms/with-office-365.md",
       "redirect_document_id": true
     },
     {
       "source_path": "Teams/room-systems/with-office-365.md",
+      "redirect_url": "/MicrosoftTeams/rooms/with-office-365",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "MicrosoftTeams/devices/resource-account-ui.md",
+      "redirect_url": "/MicrosoftTeams/rooms/with-office-365",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "MicrosoftTeams/devices/resource-account-ps.md",
       "redirect_url": "/MicrosoftTeams/rooms/with-office-365",
       "redirect_document_id": true
     },
@@ -1632,12 +1637,12 @@
     },
     {
       "source_path": "Skype/SfbServer/deploy/deploy-clients/with-exchange-online.md",
-      "redirect_url": "/MicrosoftTeams/room-systems/with-exchange-online",
+      "redirect_url": "/MicrosoftTeams/rooms/with-office-365.md",
       "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbServer/deploy/deploy-clients/with-exchange-on-premises.md",
-      "redirect_url": "/MicrosoftTeams/room-systems/with-exchange-on-premises",
+      "redirect_url": "/MicrosoftTeams/rooms/with-office-365.md",
       "redirect_document_id": false
     },
     {
@@ -2533,6 +2538,11 @@
     {
       "source_path": "Teams/troubleshoot-guest-access.md",
       "redirect_url": "/MicrosoftTeams/guest-access",
+      "redirect_document_id": false 
+     },
+     {
+      "source_path": "Teams/administrative-unit.md",
+      "redirect_url": "/MicrosoftTeams/",
       "redirect_document_id": false 
      },
      {
