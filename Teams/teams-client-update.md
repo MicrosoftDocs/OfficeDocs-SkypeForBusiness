@@ -40,11 +40,6 @@ Teams is installed by default with new installations of Microsoft 365 Apps for e
 
 Teams follows its own update process as outlined above. Teams doesn't follow the update process for the other Offices apps, such as Word and Excel. To learn more, read [Overview of update channels for Microsoft 365 Apps for enterprise](/DeployOffice/overview-of-update-channels-for-office-365-proplus).
 
-## What about updates to Teams on VDI?
-
-
-Teams clients on Virtual Desktop Infrastructure (VDI) aren't automatically updated the way that non-VDI Teams clients are. You have to update the VM image by installing a new MSI as described in the instructions to [Install Teams on VDI](teams-for-vdi.md). You must uninstall the current version to update to a newer version.
-
 ## Can admins deploy updates instead of Teams auto-updating?
 
 Teams doesn't give admins the ability to deploy updates through any delivery mechanism.
@@ -58,3 +53,7 @@ To identify when desktop clients fall out of date, an in-app alert will be displ
 Teams desktop clients on Government Clouds currently have an exception to this servicing agreement until further notice.
 
 For information on new version releases, check [Message Center](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) or go to **Help** > **What’s new** in the client.
+
+## What about updates to Teams on VDI?
+
+Teams clients on Virtual Desktop Infrastructure (VDI) aren't automatically updated the way that non-VDI Teams clients are. You have to update the VM image by installing a new MSI as described in the instructions to [Install Teams on VDI](teams-for-vdi.md). You must uninstall the current version to update to a newer version.
