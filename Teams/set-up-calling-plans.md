@@ -96,7 +96,7 @@ If you know Windows PowerShell, you can use the following cmdlets to automate as
   
 - [Get-CsOnlineTelephoneNumber](/powershell/module/skype/Get-CsOnlineTelephoneNumber?view=skype-ps): Retrieves the telephone numbers from the Business Voice Directory.
     
-- [Set-CsOnlineVoiceUser](/powershell/module/skype/Set-CsOnlineVoiceUser?view=skype-ps): Sets the telephone numbers.
+- [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-CsPhoneNumberAssignment?view=teams-ps): Sets the telephone numbers.
     
 To learn more, see [Teams PowerShell Overview](teams-powershell-overview.md).
   
