@@ -557,7 +557,7 @@ Openings:
 
 -   X Glass lite in door and glass relite or partition wall at entry.
 
-    -   O Glass film per Representative Drawings.
+    -   O Glass film.
 
     -   X Do not specify writable film.
 
@@ -581,7 +581,7 @@ Openings:
 
 *Rear wall:*
 
--   X Provide soft color finish (Medium gray with blue tint) for better camera recognition on the back wall.
+-   X Provide soft color finish (medium gray with blue tint) for better camera recognition on the back wall.
 
 -   X Level 4 finish (or regional equivalent) with eggshell PT-1 (darker color).
 
@@ -619,7 +619,7 @@ Openings:
 
 -   X Yes
 
-**% One Wall with NRC 0.80 Sound Absorptive Wall Treatment**
+**% One Wall with NRC 0.80 sound absorptive wall treatment**
 
 -   X 50-100% of wall area on at least 2 walls
 
@@ -665,7 +665,7 @@ Openings:
 
 **Conference hallway display (CHD)**
 
--   X Touch panel mounted on outside wall of room at +48" above finished floor
+-   X Touch panel mounted on outside wall of room at +48" above finished floor (A.F.F.)
 
 **Collaboration system**
 
@@ -677,7 +677,39 @@ Openings:
 
 ### Lighting
 
-TO ADD
+**Dimming**
+
+-   X Yes (Provide continuous dimming from 100% to 1% light output)
+
+**Manual lighting control**
+
+-   X Raise / Lower per lighting control zone
+
+-   X Preset 3 button
+
+-   (All on, All off, and Presentation mode)
+
+**Automatic lighting control**
+
+-   X Vacancy
+
+**Color temperature (Kelvin)**
+
+-   X 3000
+
+**CRI**
+
+-   X 90 and above
+
+**Lighting density**
+
+-   X \<0.65 w/ft2 (7 w/m2)
+
+**Recommended notes**
+
+-   X Provide dedicated supplemental lighting at writable surfaces
+
+-   O For glare minimization, perimeter wall wash strategies should avoid doorways, glass walls, or glass clerestories
 
 ### Illumination
 
@@ -695,8 +727,79 @@ TO ADD
 
 ### Electrical
 
-TO ADD
+**General area design receptacle load (Watts/SF)**
+
+-   X 2.5
+
+**Specific use case design receptacle load (Watts)**
+
+-   O N/A
+
+**Specific receptacle requirements**
+
+-   X Equivalent of double-duplex receptacle at the center of the table.
+
+-   X No back-to-back outlets within 24” (61 cm) of each other.
+
+-   X Provide multiple combination USB/receptacle to accessible power at counters and fixed seating, at least one per user in the space.
+
+**Connected electrical equipment load**
+
+-   X Provide 1 circuit for AV rack and 1 circuit for all additional devices (table, projectors, cameras)
+
+**Floor connections**
+
+-   X Floor-box/poke-thru as required per furniture layout.
+
+**20A circuit quantity provisions**
+
+-   X Maximum of 2 circuits per room.
+
+**Standby power**
+
+-   O None
+
+**UPS power**
+
+-   O None
 
 ### Mechanical
 
-TO ADD
+**Diversified misc. mechanical loads (Watts)**
+
+-   X 1,225
+
+**Heating setpoint**
+
+-   X 70°F (21°C)
+
+**Cooling setpoint**
+
+-   X 75°F (24°C)
+
+**Relative humidity**
+
+-   X No active humidity control. Expected range is 30-60%.
+
+**Air class**
+
+-   X 1
+
+**Zoning**
+
+-   X Dedicated
+
+**Operating hours**
+
+-   X scheduled
+
+**Redundancy**
+
+-   X None
+
+|Connection type   |Notes   |
+|---|---|
+|Single network – NTP clock   |(1) port. Visible by room occupants   |
+|Single conf. hallway display CHD   |(1) port. Outside of room   |
+|Triple corp   |(3) ports. AV router/hub; UC codec; IP communications/telephone   |
+|Floor poke-thru and floor box   |(3) to (8) ports. Locate in floor box/poke-thru(s)   |
