@@ -1,9 +1,9 @@
 ---
-title: "Enhanced meeting rooms"
+title: "Enhanced meeting room"
 author: amandafrechinjackson
 ms.author: v-amandaf
 manager: jsarrasin
-ms.date: 1/25/2022
+ms.date: 1/24/2022
 ms.topic: conceptual
 audience: ITPro
 ms.service: msteams
@@ -29,7 +29,7 @@ This article is the first in a series that explores how Microsoft is transformin
 
 ## Microsoft’s vision for the future of meeting rooms
 
-The future of work will be fluid, dynamic, and powered by the cloud. Microsoft enables meeting experiences that allow people to be there, from anywhere, at any time. These are hybrid meetings you can join seamlessly and that bring people together. Meetings enhanced with Microsoft devices are inclusive; every voice is heard, and everyone is clearly represented.
+The future of work will be fluid, dynamic, and powered by the cloud. Microsoft enables meeting experiences that allow people to be there, from anywhere, at any time. These meetings are hybrid, which means you can join them seamlessly. Meetings enhanced with Microsoft devices are inclusive; every voice is heard, and everyone is clearly represented.
 
 Microsoft sees a future where meetings are immersive and spaces are designed around people. Our dynamic meeting views keep everyone connected to the content and each other. Formal presentations are paired with collaborative chats, digital canvases unleash group creativity, and everyone can connect face to face wherever they are.
 
@@ -37,7 +37,7 @@ The vision for the future of meetings is grounded in a simple belief: meetings s
 
 ## What is an enhanced meeting room?
 
-In Microsoft’s hybrid workplace, the next generation of room standards are informed by the needs of both remote and in-room participants. An enhanced meeting room is a Microsoft Teams Room designed to deliver an *elevated* hybrid meeting experience, fostering more natural and immersive connections while enabling everyone in the meeting to feel included, represented, and productive. An enhanced meeting room follows a set of principles made real through a combination of Teams Rooms software and hardware capabilities and room configuration guidance.
+In Microsoft’s hybrid workplace, the next generation of room standards are informed by the needs of both remote and in-room participants. An enhanced meeting room is a Microsoft Teams Room that is designed to deliver an *elevated* hybrid meeting experience, fostering more natural and immersive connections while enabling everyone in the meeting to feel included, represented, and productive. An enhanced meeting room follows a set of principles made real through a combination of Teams Rooms software and hardware capabilities and room configuration guidance.
 
 The concept for the enhanced meeting room is designed around two key goals that are supported by a set of experience principles.
 
@@ -61,7 +61,7 @@ An enhanced meeting room experience is all those components and ideas put togeth
 
 Examples of specific feature deployment:
 
--   Taking advantage of our new front row front-of-room display experience in all types of meeting spaces where there is a deployed Microsoft Teams Room solution that supports it.
+-   Taking advantage of our new front row front-of-room display experience in all types of meeting spaces where there is a Microsoft Teams Room solution that supports it.
 
 -   Implementing curved tables and front-facing layouts with traditional Microsoft Teams Room experiences to promote better human connection in the room while maintaining continuity of experience across all meeting spaces.
 
@@ -73,7 +73,7 @@ Microsoft Teams Rooms will continue to deliver people-centric hybrid meeting exp
 
 -   What hardware upgrades and/or investments would need to be made.
 
--   Most conference rooms are designed to maximize valuable square footage with a close relationship between room dimension and room capacity. An enhanced meeting room prioritizes the meeting experience above maximizing square footage. Not every organization can prioritize this way for every meeting space, as it *could* reduce the amount of meeting rooms they can have.
+-   Most conference rooms are designed to maximize valuable square footage with a close relationship between room dimension and room capacity. An enhanced meeting room prioritizes the meeting experience above maximizing square footage. Not every organization can prioritize this way for every meeting space, as it could reduce the number of meeting rooms they can have.
 
 ### Understanding this space 
 
@@ -81,7 +81,7 @@ Microsoft Teams Rooms will continue to deliver people-centric hybrid meeting exp
 
 At Microsoft, our flexible work guidelines prioritize giving employees choice and flexibility about where to work and when. This fundamental shift in policy has made us rethink the evolution of our meeting spaces and technology.
 
-Our research has shown that remote meetings during the pandemic have had a number of benefits—particularly around increased feelings of equity and inclusion. As we think about returning in a hybrid setting, with remote and in-person collaboration happening simultaneously, we sought to create meeting spaces that better support our flexible work policies while maintaining a level playing field for all participants through room design and technology.
+Our research has shown that remote meetings during the pandemic have had many benefits—particularly around increased feelings of equity and inclusion. As we think about returning in a hybrid setting, with remote and in-person collaboration happening simultaneously, we sought to create meeting spaces that better support our flexible work policies while maintaining a level playing field for all participants through room design and technology.
 
 Let’s start with a standard medium-sized conference room that would traditionally seat about 8-12 people.
 
@@ -107,7 +107,7 @@ Just like a typical Microsoft Teams Room, meeting participants are able to meet 
 
 The enhanced meeting room layout is designed for maximum visibility and engagement with remote participants and content.
 
-The layout features a curved table for in-person eye contact as well as orientation to remote participants with all chairs facing the display so participants are able to follow along.
+The layout features a curved table for in-person eye contact and orientation to remote participants with all chairs facing the display so participants are able to follow along.
 
 ![Rendering of an enhanced meeting room with a projector and U-shaped table.](media/emr4.jpg)
 
@@ -119,7 +119,7 @@ In the future, Teams Rooms will support audio systems that utilize a concept cal
 
 ### How does the camera work?
 
-To capture everyone in the space, an ultrawide-angle camera is positioned at the front of the room below the displays.
+An ultrawide-angle camera is positioned at the front of the room below the displays to capture everyone in the space.
 
 The ultrawide-angel camera features intelligent tracking of meeting participants so they can be represented individually in a large view instead of as faces within a large image of the entire room.
 
@@ -159,7 +159,7 @@ This section is intended to cover building an enhanced meeting room from scratch
 
 ![Blueprint of an enhanced meeting room design.](media/emr10.png)
 
-25ft x 14ft
+25 ft x 14 ft
 
 #### Room capacity 
 
@@ -177,7 +177,7 @@ Selecting a location for hardware is typically driven by the selection of Teams 
 
 For the initial deployments of enhanced meeting rooms within our Microsoft facilities, we have chosen to mount the Microsoft Teams Rooms compute and touch console at the table, with an integrated camera and soundbar device (with discrete left- and right-channel audio for spatial audio) mounted on specialized furniture, located below the displayed image as well as between the front-of-room projection and the table. It’s important to keep the console within reach of participants without impeding their use of the table for personal devices and/or documents. For the display, a short-throw high-resolution projector is used.
 
-Though most participants will choose to share content within this type of meeting room by joining the Teams meeting via a personal device to the Teams call, in-room local video presentation should also be made available at the table in an easily accessible manner for those who are unable to join the meeting.
+Most participants will choose to share content within this type of meeting room by joining the Teams meeting via a personal device. However, in-room local video presentation should also be made available at the table in an easily accessible manner for those who are unable to join the meeting.
 
 #### Touch console placement
 
@@ -233,7 +233,7 @@ The camera should be placed at the front of the room below the front-of-room pro
 
 #### Microphone options
 
-Front-of-room microphone arrays as well as tabletop and overhead microphones will work for this type of space.
+Front-of-room microphone arrays and tabletop and overhead microphones will work for this type of space.
 
 #### Microphone placement
 
@@ -243,7 +243,7 @@ Microphone arrays need to be positioned to provide coverage for all meeting room
 
 #### Speaker options
 
-Front-of-room speaker arrays as well as overhead speakers will work for this type of space.
+Front-of-room speaker arrays and overhead speakers will work for this type of space.
 
 Note: Spatial audio is not yet available and may require specific audio devices.
 
@@ -277,15 +277,15 @@ Enhanced meeting rooms, as with all other Microsoft Teams Rooms solutions, requi
 
 #### Display placement
 
-An enhanced meeting room requires that the display be placed in front of all the in-room meeting participants, directly opposite the table.
+An enhanced meeting room requires that the display is placed in front of all the in-room meeting participants, directly opposite the table.
 
 The horizontal center line of the display must be centered on the same center line as the table.
 
-The vertical center line of the display must be no more than +/- 15 degrees offset from the eyeline of a typical in-room meeting participant seated at the table.
+The vertical center line of the display must be no more than +/- 15 degrees offset from the eye line of a typical in-room meeting participant seated at the table.
 
 #### Display count
 
-An enhanced meeting room requires that the display be either a single wide-aspect ratio display or a blended combination of displays that can achieve the effect of being a single display when seen by in-room meeting participants.
+An enhanced meeting room requires that the display is either a single wide-aspect ratio display or a blended combination of displays that can achieve the effect of being a single display when seen by in-room meeting participants.
 
 ### Co-create options
 
@@ -341,7 +341,7 @@ Other options:
 
 ### Microphone
 
--   A certified microphone solution that will clearly capture all the in=room meeting participants.
+-   A certified microphone solution that will clearly capture all the in-room meeting participants.
 
 As shown:
 
@@ -526,7 +526,7 @@ The following reference specifications are used by the Microsoft Corporate Facil
 
 #### Adjacencies
 
--   Considered a “landmark” to aid in wayfinding and circulation.
+-   Considered a “landmark” to aid in way finding and circulation.
 
 -   X Preference is for this to be an interior room, not a room with proximity to windows. In a controlled video environment, Microsoft suggests placing this room in a location where managing natural daylight is not required.
 
