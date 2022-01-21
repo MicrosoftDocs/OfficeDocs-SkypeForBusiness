@@ -52,6 +52,10 @@ Additional configuration information:
 - - Operator: Adele Vance
 - - Enable Voice Inputs: Off
 - - Directory Search: None
+- - Holidays:
+- - - January 1, 2022
+- - - December 24, 2022
+- - - December 25, 2022
 
 - Auto Attendant: Contoso Dial By Name
 - - Operator: Adele Vance
