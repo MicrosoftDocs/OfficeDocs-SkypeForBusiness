@@ -615,11 +615,65 @@ Openings:
 
 ### Acoustics
 
-TO ADD
+**Acoustically sensitive**
+
+-   X Yes
+
+**% One Wall with NRC 0.80 Sound Absorptive Wall Treatment**
+
+-   X 50-100% of wall area on at least 2 walls
+
+-   X Entire ceiling with NRC 0.90
+
+**Mid-Frequency Reverberation Time Goal (sec)**
+
+-   X 0.5
+
+**Room Average Noise Reduction Coefficient (NRCavg)**
+
+-   X 0.40
+
+**Acceptable Noise Criteria (NC) range**
+
+-   X 25-30
+
+**Acceptable dBA range**
+
+-   X 30-35
+
+**Recommended notes**
+
+-   X Consider upgrading all walls to STC 50, with an STC 50 rated door
 
 ### Audio-visual
 
-TO ADD
+**Display**
+
+-   X High-definition projector, minimum 16:9 aspect ratio
+
+-   X One screen per room, install at front wall for projected image
+
+-   X Provide minimum 1" conduit each for AV/data from table to projection wall
+
+**Camera**
+
+-   X Install on the projection wall
+
+**Occupancy sensor**
+
+-   X Ceiling mounted People Counting sensor
+
+**Conference hallway display (CHD)**
+
+-   X Touch panel mounted on outside wall of room at +48" above finished floor
+
+**Collaboration system**
+
+-   X Data sharing via Microsoft Teams Room solution
+
+**Recommended notes**
+
+-   X Provide cables at the tabletop to connect laptops and other sources to display
 
 ### Lighting
 
