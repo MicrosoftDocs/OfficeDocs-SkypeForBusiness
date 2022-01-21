@@ -42,7 +42,6 @@ Apps pinned for users who have an F license:
 - Teams
 - Shifts
 - Tasks
-- Walkie Talkie
 
 ## Admin controls
 
