@@ -48,9 +48,9 @@ There are four possible calling scenarios when moving to TeamsOnly mode:
 
 - [A user in Skype for Business Online, with on-premises voice functionality](#from-skype-for-business-online-with-on-premises-voice) through Skype for Business on-premises or Cloud Connector Edition. The user’s upgrade to Teams needs to be coordinated with migration of the user to Direct Routing to ensure the TeamsOnly user has PSTN functionality.
 
-- [A user in Skype for Business on-premises with Enterprise Voice](#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing), who will be moving to online and keeping on-premises PSTN connectivity.  Migrating this user to Teams requires moving the user’s on-premises Skype for Business account to the cloud, and coordinating that move with migration of the user to Direct Routing. 
+- [A user in Skype for Business on-premises with Enterprise Voice](#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing), who will be moving to online and keeping on-premises PSTN connectivity.  To migrate this user to Teams, you must move the user’s on-premises Skype for Business account to the cloud, and coordinate that move with migration of the user to Direct Routing. 
 
-- [A user in Skype for Business on-premises with Enterprise Voice](#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan), who will be moving to online and using a Microsoft Calling plan.  Migrating this user to Teams requires moving the user’s on-premises Skype for Business account to the cloud, and coordinating that move with either A) the port of that user’s phone number to a Microsoft Calling Plan or B) assigning a new subscriber number from available regions.
+- [A user in Skype for Business on-premises with Enterprise Voice](#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan), who will be moving to online and using a Microsoft Calling plan.  To migrate this user to Teams, you must move the user’s on-premises Skype for Business account to the cloud, and coordinate that move with either A) the port of that user’s phone number to a Microsoft Calling Plan or B) assigning a new subscriber number from available regions.
 
 This article provides a high-level overview only. For more information, see [Phone System Direct Routing](direct-routing-landing-page.md) and [Calling Plans](calling-plan-landing-page.md). 
 
@@ -58,13 +58,13 @@ This article provides a high-level overview only. For more information, see [Pho
 
 This scenario is the simplest upgrade scenario involving voice. 
 
-1. Make sure users have been assigned a Teams license. By default, when you assign a Microsoft 365 or Office 365 license, Teams is enabled, so unless you previously disabled the Teams license, no action should be necessary.
+1. Make sure users have been assigned a Teams license. By default, when you assign a Microsoft 365 or Office 365 license, Teams is enabled. Unless you previously disabled the Teams license, no action should be necessary.
 
 2.  If users already have a Microsoft Calling Plan with a phone number, the only required change is to assign the user TeamsOnly mode in TeamsUpgradePolicy.  Prior to assigning TeamsOnly mode, incoming PSTN calls will land in the user’s Skype for Business client. After the upgrade to TeamsOnly mode, incoming PSTN calls will land in the user’s Teams client.  
 
 ## From Skype for Business Online with on-premises voice
 
-In this scenario, the user is already in Skype for Business Online, but their PSTN connectivity is on-premises, either using Skype for Business Server in hybrid mode or Cloud Connector Edition. Migrating these users to TeamsOnly mode with PSTN functionality means enabling them for Direct Routing, in which PSTN trunks connect directly to the Direct Routing service in the cloud, via your on-premises Session Border Controller (SBC).
+In this scenario, the user is already in Skype for Business Online. The user's PSTN connectivity is on-premises, either using Skype for Business Server in hybrid mode or Cloud Connector Edition. To migrate these users to TeamsOnly mode with PSTN functionality, you must enable the users for Direct Routing. With Direct Routing, PSTN trunks connect directly to the Direct Routing service in the cloud through your on-premises Session Border Controller (SBC).
 
 The basic steps are listed below.  Steps 1-4 are listed in the suggested sequence, but they can be done in any order. These steps should be completed before Step 5.
 
@@ -72,7 +72,7 @@ The basic steps are listed below.  Steps 1-4 are listed in the suggested sequenc
 
 2. Configure your tenant for Direct Routing. See [Summary of per-tenant configuration of Direct Routing](#summary-of-per-tenant-configuration-of-direct-routing).
 
-3. If desired, configure various Teams policies for these users (for example, TeamsMessagingPolicy, TeamsMeetingPolicy, etc.). This configuration can be done at any time, but if you want to ensure that users have the correct configuration when they are upgraded, it’s best to do this before the user is upgraded to 
+3. If desired, configure various Teams policies for these users (for example, TeamsMessagingPolicy, TeamsMeetingPolicy, etc.). You can configure poicies at any time. However, if you want to ensure that users have the correct configuration when they are upgraded, configure these policies before the user is upgraded to 
 TeamsOnly mode.
 
 4. Prepare select users for voice migration: 
@@ -87,7 +87,7 @@ TeamsOnly mode.
 
 ## From Skype for Business Server on-premises, with Enterprise Voice, to Direct Routing
 
-In this scenario, the user is still homed in Skype for Business on-premises, and their PSTN connectivity is also on-premises. Migrating these users to TeamsOnly mode with PSTN functionality means enabling them for Direct Routing and then moving the user to the cloud. 
+In this scenario, the user is still homed in Skype for Business on-premises. The user's PSTN connectivity is also on-premises. To migrate this user to TeamsOnly mode with PSTN functionality, you must enable the user for Direct Routing, and then move the user to the cloud. 
  
 The basic steps are listed below.  Steps 1-5 are listed in the suggested sequence, but they can be done in any order. These should be completed before Step 6.
 
@@ -97,7 +97,7 @@ The basic steps are listed below.  Steps 1-5 are listed in the suggested sequenc
 
 3. Configure your tenant for Direct Routing. See [Summary of per-tenant configuration of Direct Routing](#summary-of-per-tenant-configuration-of-direct-routing).
 
-4. If desired, configure various Teams policies for these users (for example, TeamsMessagingPolicy, TeamsMeetingPolicy). This configuration can be done at any time, but if you want to ensure that users have the correct configuration when they are upgraded, it’s best to do this before the user is upgraded to TeamsOnly.
+4. If desired, configure various Teams policies for these users (for example, TeamsMessagingPolicy, TeamsMeetingPolicy). You can configure policies at any time. However, if you want to ensure that users have the correct configuration when they are upgraded, it’s best to do this before the user is upgraded to TeamsOnly.
 
 5. Assign the Microsoft 365 or Office 365 licenses if necessary.  The user should have both Teams and Skype for Business Online Plan 2, as well as Phone System. If the Skype for Business Online Plan 2 is disabled, re-enable it.  
 
@@ -112,7 +112,7 @@ The basic steps are listed below.  Steps 1-5 are listed in the suggested sequenc
 
 ## From Skype for Business Server on-premises, with Enterprise Voice, to Microsoft Calling Plan
 
-In this scenario, the user is still homed in Skype for Business on-premises, and their PSTN connectivity is also on-premises. Migrating these users to TeamsOnly mode with PSTN functionality means moving the user to the cloud and either porting their number from the old carrier to a Microsoft Calling plan or assigning the user a new number. 
+In this scenario, the user is still homed in Skype for Business on-premises. The user's PSTN connectivity is also on-premises. To migrate this user to TeamsOnly mode with PSTN functionality, you must move the user to the cloud, and either port their number from the old carrier to a Microsoft Calling plan, or assign a new number to the user. 
 
 The basic steps are listed below.  Steps 1-5 are listed in the suggested sequence, but they can be done in any order. These should be completed before Step 6. 
 
@@ -120,7 +120,7 @@ The basic steps are listed below.  Steps 1-5 are listed in the suggested seque
 
 2. If you haven’t already done so, [configure the organization for Skype for Business hybrid](/SkypeForBusiness/hybrid/configure-hybrid-connectivity). 
 
-3. If desired, configure various Teams policies for these users (for example, TeamsMessagingPolicy, TeamsMeetingPolicy, etc.). This configuration can be done at any time, but if you want to ensure that users have the correct configuration when they are upgraded, it’s best to do this before the user is upgraded to TeamsOnly. 
+3. If desired, configure various Teams policies for these users (for example, TeamsMessagingPolicy, TeamsMeetingPolicy, etc.). You can configure policies at any time. However, if you want to ensure that users have the correct configuration when they are upgraded, you should configure these policies before the user is upgraded to TeamsOnly. 
 
 4. Assign the Microsoft 365 or Office 365 licenses if necessary.  The user should have both Teams and Skype for Business Online Plan 2, as well as Phone System. If the Skype for Business Online Plan 2 is disabled, re-enable it.  
 
