@@ -185,7 +185,7 @@ Information barriers mode  help strengthen who can be added to or removed from a
 - **Implicit**: This configuration is the default IB mode when a Team is provisioned after enabling Information barriers. Implicit mode allows you to add all compatible users in the group.
 - **Owner Moderated (preview)**: This mode is set on a team when you want to allow collaboration between incompatible segment users that are moderated by the owner. The team owner can add new members per their IB policy.
 
-Teams created before activating an information barrier policy in your tenant are automatically set to *Open* mode by default. Once you activate IB policies on your tenant, you are required to update mode of your existing teams to *Implicit* to ensure that existing teams are IB-compliant.
+Teams created before activating an information barrier policy in your tenant are automatically set to *Open* mode by default. Once you activate IB policies on your tenant, you are required to update mode of your existing teams to *Implicit* to ensure that existing teams are IB-compliant. Also note, if a Microsoft 365 Group is currently in *Open* mode and a user that belongs to a segment is added to it, the Microsoft 365 Group will be automatically set to *Implicit* mode.
 
 Use the [Set-UnifiedGroup](/powershell/module/exchange/set-unifiedgroup) cmdlet with the *InformationBarrierMode* parameter that corresponds to the mode you want to use for your segments. Allowed list of values for the *InformationBarrierMode* parameter are *Open*, *Implicit*, and *Owner Moderated*.
 
