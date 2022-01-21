@@ -245,27 +245,20 @@ The following cmdlets allow you to manage auto attendants:
 - [Set-CsAutoAttendant](/powershell/module/skype/set-csautoattendant)
 - [Update-CsAutoAttendant](/powershell/module/skype/update-csautoattendant)
 - [Remove-CsAutoAttendant](/powershell/module/skype/remove-csautoattendant)
-.
 - [New-CsOnlineTimeRange](/powershell/module/skype/new-csonlinetimerange)
 - [New-CsOnlineDateTimeRange](/powershell/module/skype/new-csonlinedatetimerange)
 - [New-CsOnlineSchedule](/powershell/module/skype/New-CsOnlineSchedule)
-.
 - [Get-CsAutoAttendantHolidays](/powershell/module/skype/get-csautoattendantholidays)
 - [Import-CsAutoAttendantHolidays](/powershell/module/skype/import-csautoattendantholidays)
 - [Export-CsAutoAttendantHolidays](/powershell/module/skype/export-csautoattendantholidays)
-.
 - [New-CsAutoAttendantDialScope](/powershell/module/skype/New-CsAutoAttendantDialScope)
-.
 - [New-CsAutoAttendantPrompt](/powershell/module/skype/New-CsAutoAttendantPrompt)
-.
 - [New-CsAutoAttendantCallableEntity](/powershell/module/skype/New-CsAutoAttendantCallableEntity)
 - [New-CsAutoAttendantMenuOption](/powershell/module/skype/New-CsAutoAttendantMenuOption)
 - [New-CsAutoAttendantMenu](/powershell/module/skype/new-csautoattendantmenu)
 - [New-CsAutoAttendantCallFlow](/powershell/module/skype/New-CsAutoAttendantCallFlow)
 - [New-CsAutoAttendantCallHandlingAssociation](/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation)
-.
 - [Get-CsAutoAttendantStatus](/powershell/module/skype/Get-CsAutoAttendantStatus)
-.
 - [Get-CsAutoAttendantTenantInformation](/powershell/module/skype/Get-CsAutoAttendantTenantInformation)
 
 The following additional cmdlets are also required to manage the users, resource accounts, Microsoft Teams Phone licenses, phone numbers, audio files, and supported language that will be used with call queues:
@@ -284,11 +277,9 @@ Resource accounts:
 - [Find-CsOnlineApplicationInstance](/powershell/module/skype/Find-CsOnlineApplicationInstance)
 - [Get-CsOnlineApplicationInstance](/powershell/module/skype/Get-CsOnlineApplicationInstance)
 - [Set-CsOnlineApplicationInstance](/powershell/module/skype/Set-CsOnlineApplicationInstance)
-.
 - [New-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/New-CsOnlineApplicationInstanceAssociation)
 - [Get-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociation)
 - [Remove-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Remove-CsOnlineApplicationInstanceAssociation)
-.
 - [Get-CsOnlineApplicationInstanceAssociationStatus](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociationStatus)
 
 Virtual Teams Phone licenses:
