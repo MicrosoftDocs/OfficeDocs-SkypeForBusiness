@@ -544,389 +544,86 @@ The following reference specifications are used by the Microsoft Corporate Facil
 
 ### Programming size
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><blockquote>
-<p>Area</p>
-</blockquote></th>
-<th><blockquote>
-<p>Capacity</p>
-</blockquote></th>
-<th><blockquote>
-<p>Dimensions</p>
-</blockquote></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><blockquote>
-<p>X 350 ft² (32.5 m²) max”</p>
-</blockquote></td>
-<td><blockquote>
-<p>X 7 in room</p>
-</blockquote></td>
-<td><blockquote>
-<p>X 25’-4” x 14'-0" (7.7m x 4.3m)</p>
-</blockquote></td>
-</tr>
-<tr class="even">
-<td></td>
-<td><blockquote>
-<p>X Virtual participants per Microsoft Teams software capabilities</p>
-</blockquote></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+|  Area | Capacity  | Dimensions  |
+|---|---|---|
+|  X 350 ft² (32.5 m²) max” | X 7 in room  | X 25’-4” x 14'-0" (7.7m x 4.3m)   |
+|   |  X Virtual participants per Microsoft Teams software capabilities |   |
 
 ### Finishes and openings
 
-<table style="width:100%;">
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 27%" />
-<col style="width: 11%" />
-<col style="width: 10%" />
-<col style="width: 13%" />
-<col style="width: 13%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><blockquote>
-<p>Openings</p>
-</blockquote></th>
-<th><blockquote>
-<p><strong>Walls</strong></p>
-</blockquote></th>
-<th><blockquote>
-<p><strong>Ceiling</strong></p>
-</blockquote></th>
-<th><blockquote>
-<p><strong>Floor</strong></p>
-</blockquote></th>
-<th><blockquote>
-<p><strong>Base</strong></p>
-</blockquote></th>
-<th><blockquote>
-<p><strong>Corner wall and protection</strong></p>
-</blockquote></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><blockquote>
-<p>X ♿ Provide a clear floor space on each side of all swing doors.</p>
-<p>X Glass lite in door and glass relite or partition wall at entry.</p>
-<p>O Glass film per Representative Drawings.</p>
-<p>X Do not specify</p>
-<p>writable film.</p>
-</blockquote></td>
-<td><blockquote>
-<p>O Saturated paint colors are acceptable in moderation, as are neutrals</p>
-<p>X Provide fabric wrapped panels to achieve NRC ratings per elevations.</p>
-<p><strong>Front wall</strong></p>
-<p>X Surface mounted projector screen (Dalite)</p>
-<p>on acoustic panels.</p>
-<p>X Provide level 4 finish (or regional equivalent) with eggshell PT-2 (lighter color) on the sides of the panels</p>
-</blockquote></td>
-<td><blockquote>
-<p>O 2'-0"</p>
-<p>(61 cm x 61 cm) acoustic ceiling tile *</p>
-</blockquote></td>
-<td><blockquote>
-<p>O Carpet tile*</p>
-</blockquote></td>
-<td><blockquote>
-<p>O 2.5"H</p>
-<p>(6 cm) coved</p>
-<p>resilient base</p>
-<p>O Avoid specifying a light-colored base that will show scuffs and stains</p>
-</blockquote></td>
-<td><blockquote>
-<p>X Stainless steel corer guards at high traffic corners (outside)</p>
-</blockquote></td>
-</tr>
-<tr class="even">
-<td><blockquote>
-<p>X ♿ Where the meeting room is public facing, or where prescribed,</p>
-<p>accessible meeting rooms should be equipped with an assisted door opener.</p>
-<p><strong>Windows</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p><strong>Rear wall</strong></p>
-<p>X Provide soft color finish (Medium gray with blue tint) for better camera recognition on the back wall.</p>
-<p>X Level 4 finish (or regional equivalent) with eggshell PT-1 (Darker color).</p>
-</blockquote></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><blockquote>
-<p>X Provide room darkening window treatment when rooms contain exterior windows</p>
-</blockquote></td>
-<td><blockquote>
-<p><strong>Side walls</strong></p>
-<p>X Level 4 finish (or regional equivalent) with eggshell PT-1 (Darker color).</p>
-</blockquote></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td><blockquote>
-<p>X Writable surface with pen tray (per elevations). See Architectural Specifications.</p>
-</blockquote></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td><blockquote>
-<p>X ♿ Provide appropriate clearance around writable walls.</p>
-</blockquote></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td><blockquote>
-<p><strong>Note:</strong> Separate writable surfaces from fabric panels to avoid staining. Provide an extruded aluminum rail with a full-length wall mount bracket, and two end caps at the writable wall.</p>
-</blockquote></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+Openings:
+
+-   X ♿ Provide a clear floor space on each side of all swing doors.
+
+-   X Glass lite in door and glass relite or partition wall at entry.
+
+    -   O Glass film per Representative Drawings.
+
+    -   X Do not specify writable film.
+
+-   X ♿ Where the meeting room is public facing, or where prescribed, accessible meeting rooms should be equipped with an assisted door opener.
+
+*Windows:*
+
+-   X Provide room darkening window treatment when rooms contain exterior windows.
+
+**Walls:**
+
+-   O Saturated paint colors are acceptable in moderation, as are neutrals.
+
+-   X Provide fabric wrapped panels to achieve NRC ratings per elevations.
+
+*Front wall:*
+
+-   X Surface mounted projector screen (Dalite) on acoustic panels.
+
+-   X Provide level 4 finish (or regional equivalent) with eggshell PT-2 (lighter color) on the sides of the panels.
+
+*Rear wall:*
+
+-   X Provide soft color finish (Medium gray with blue tint) for better camera recognition on the back wall.
+
+-   X Level 4 finish (or regional equivalent) with eggshell PT-1 (darker color).
+
+*Side walls:*
+
+-   X Level 4 finish (or regional equivalent) with eggshell PT-1 (darker color).
+
+-   X Writable surface with pen tray (per elevations).
+
+-   X ♿ Provide appropriate clearance around writable walls.
+
+-   **Note:** Separate writable surfaces from fabric panels to avoid staining. Provide an extruded aluminum rail with a full-length wall mount bracket, and two end caps at the writable wall.
+
+**Ceiling:**
+
+-   O 2'-0" (61cm x 61cm) acoustic ceiling tile \*
+
+**Floor:**
+
+-   O Carpet tile\*
+
+**Base:**
+
+-   O 2.5"H (6cm) coved resilient base
+
+-   O Avoid specifying a light-colored base that will show scuffs and stains.
+
+**Corner wall and protection:**
+
+-   X Stainless steel corer guards at high traffic corners (outside)
 
 ### Acoustics
 
-<table>
-<colgroup>
-<col style="width: 12%" />
-<col style="width: 14%" />
-<col style="width: 16%" />
-<col style="width: 12%" />
-<col style="width: 11%" />
-<col style="width: 15%" />
-<col style="width: 17%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><blockquote>
-<p>Acoustically</p>
-<p>Sensitive</p>
-</blockquote></th>
-<th><blockquote>
-<p>% One Wall with NRC 0.80 Sound Absorptive Wall Treatment</p>
-</blockquote></th>
-<th><blockquote>
-<p>Mid-Frequency Reverberation Time Goal (sec)</p>
-</blockquote></th>
-<th><blockquote>
-<p>Room Average Noise Reduction Coefficient (NRCavg)</p>
-</blockquote></th>
-<th><blockquote>
-<p>Acceptable Noise</p>
-<p>Criteria (NC) Range</p>
-</blockquote></th>
-<th><blockquote>
-<p>Acceptable dBA Range</p>
-</blockquote></th>
-<th><blockquote>
-<p>Recommended Notes</p>
-</blockquote></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><blockquote>
-<p>X Yes</p>
-</blockquote></td>
-<td><blockquote>
-<p>X 50-100% of wall area on at least 2 walls.</p>
-<p>X Entire ceiling with NRC 0.90</p>
-</blockquote></td>
-<td><blockquote>
-<p>X 0.5</p>
-</blockquote></td>
-<td><blockquote>
-<p>X 0.40</p>
-</blockquote></td>
-<td><blockquote>
-<p>X 25-30</p>
-</blockquote></td>
-<td><blockquote>
-<p>X 30-35</p>
-</blockquote></td>
-<td><blockquote>
-<p>X Consider upgrading all walls to STC 50, with an STC 50 rated door.</p>
-</blockquote></td>
-</tr>
-</tbody>
-</table>
+TO ADD
 
 ### Audio-visual
 
-<table>
-<colgroup>
-<col style="width: 13%" />
-<col style="width: 15%" />
-<col style="width: 12%" />
-<col style="width: 15%" />
-<col style="width: 12%" />
-<col style="width: 13%" />
-<col style="width: 16%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><blockquote>
-<p>Display</p>
-</blockquote></th>
-<th><blockquote>
-<p>Camera</p>
-</blockquote></th>
-<th><blockquote>
-<p>Speaker and Microphone</p>
-</blockquote></th>
-<th><blockquote>
-<p>Occupancy Sensor</p>
-</blockquote></th>
-<th><blockquote>
-<p>Conference Hallway Display (CHD)</p>
-</blockquote></th>
-<th><blockquote>
-<p>Collaboration System</p>
-</blockquote></th>
-<th><blockquote>
-<p>Recommended Notes</p>
-</blockquote></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><blockquote>
-<p>X High-definition projector, minimum 16:9 aspect ratio</p>
-<p>X One screen per room, install at front wall for projected image</p>
-</blockquote></td>
-<td><blockquote>
-<p>X Install on the Projection wall per Representative Drawings</p>
-</blockquote></td>
-<td><blockquote>
-<p>X Per AV Drawings</p>
-</blockquote></td>
-<td><blockquote>
-<p>X Ceiling mounted People Counting sensor as required by DT Checklist</p>
-</blockquote></td>
-<td><blockquote>
-<p>X Touch panel mounted on outside wall of room at +48"</p>
-<p>A.F.F.</p>
-</blockquote></td>
-<td><blockquote>
-<p>X Data sharing via Microsoft Teams Room System</p>
-</blockquote></td>
-<td><blockquote>
-<p>X Provide cables at the tabletop to connect laptops and other sources to display</p>
-</blockquote></td>
-</tr>
-<tr class="even">
-<td><blockquote>
-<p>X Provide minimum 1" conduit each for AV/data from table to projection wall See AV drawings for more information.</p>
-</blockquote></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+TO ADD
 
 ### Lighting
 
-<table>
-<colgroup>
-<col style="width: 14%" />
-<col style="width: 17%" />
-<col style="width: 12%" />
-<col style="width: 19%" />
-<col style="width: 8%" />
-<col style="width: 10%" />
-<col style="width: 18%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><blockquote>
-<p>Dimming</p>
-</blockquote></th>
-<th><blockquote>
-<p>Manual Lighting</p>
-<p>Control</p>
-</blockquote></th>
-<th><blockquote>
-<p>Automatic</p>
-<p>Lighting Control</p>
-</blockquote></th>
-<th><blockquote>
-<p>Color Temperature (Kelvin)</p>
-</blockquote></th>
-<th><blockquote>
-<p>CRI</p>
-</blockquote></th>
-<th><blockquote>
-<p>Lighting Density</p>
-</blockquote></th>
-<th><blockquote>
-<p>Recommended Notes</p>
-</blockquote></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><blockquote>
-<p>X Yes (Provide continuous dimming from 100% to 1% light output))</p>
-</blockquote></td>
-<td><blockquote>
-<p>X Raise / Lower per lighting control zone</p>
-<p>X Preset 3 button</p>
-<p>(All on, All off, and Presentation mode)</p>
-</blockquote></td>
-<td><blockquote>
-<p>X Vacancy</p>
-</blockquote></td>
-<td><blockquote>
-<p>X 3000</p>
-</blockquote></td>
-<td><blockquote>
-<p>X 90 &amp; above</p>
-</blockquote></td>
-<td><blockquote>
-<p>X &lt;0.65 w/ft2</p>
-<p>(7 w/m2)</p>
-</blockquote></td>
-<td><blockquote>
-<p>X Provide dedicated supplemental lighting at writable surfaces</p>
-<p>O For glare minimization, perimeter wall wash strategies should avoid doorways, glass walls, or glass clerestories</p>
-</blockquote></td>
-</tr>
-</tbody>
-</table>
+TO ADD
 
 ### Illumination
 
@@ -944,204 +641,8 @@ The following reference specifications are used by the Microsoft Corporate Facil
 
 ### Electrical
 
-<table style="width:100%;">
-<colgroup>
-<col style="width: 15%" />
-<col style="width: 12%" />
-<col style="width: 14%" />
-<col style="width: 13%" />
-<col style="width: 14%" />
-<col style="width: 12%" />
-<col style="width: 10%" />
-<col style="width: 6%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><blockquote>
-<p>General Area Design Receptacle</p>
-<p>Load(Watts/SF)</p>
-</blockquote></th>
-<th><blockquote>
-<p>Specific Use Case Design Receptacle Load (Watts)</p>
-</blockquote></th>
-<th><blockquote>
-<p>Specific Receptacle Requirements</p>
-</blockquote></th>
-<th><blockquote>
-<p>Connected Electrical Equipment Load</p>
-</blockquote></th>
-<th><blockquote>
-<p>Floor Connections</p>
-</blockquote></th>
-<th><blockquote>
-<p>20A Circuit Quantity Provisions</p>
-</blockquote></th>
-<th><blockquote>
-<p>Standby Power</p>
-</blockquote></th>
-<th><blockquote>
-<p>UPS</p>
-<p>Power</p>
-</blockquote></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><blockquote>
-<p>X 2.5</p>
-</blockquote></td>
-<td><blockquote>
-<p>O N/A</p>
-</blockquote></td>
-<td><blockquote>
-<p>X Equivalent of double-duplex</p>
-<p>receptacle at the center of the table.</p>
-<p>X No back-to-back outlets within 24” (61 cm) of each other.</p>
-<p>X Provide multiple combination USB/ receptacle to accessible power at counters and fixed seating, at least one per user in the space</p>
-</blockquote></td>
-<td><blockquote>
-<p>X Provide 1 circuit for AV rack &amp; 1</p>
-<p>circuit for all additional devices (table, projectors, cameras)</p>
-</blockquote></td>
-<td><blockquote>
-<p>X Floor-box/</p>
-<p>poke-thru as required per furniture layout.</p>
-</blockquote></td>
-<td><blockquote>
-<p>X Maximum of (2) circuits per room</p>
-</blockquote></td>
-<td><blockquote>
-<p>O None</p>
-</blockquote></td>
-<td><blockquote>
-<p>O None</p>
-</blockquote></td>
-</tr>
-</tbody>
-</table>
+TO ADD
 
 ### Mechanical
 
-<table>
-<colgroup>
-<col style="width: 13%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 12%" />
-<col style="width: 5%" />
-<col style="width: 10%" />
-<col style="width: 14%" />
-<col style="width: 12%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><blockquote>
-<p>Diversified</p>
-<p>Misc. Mechanical Loads (Watts)</p>
-</blockquote></th>
-<th><blockquote>
-<p>Heating Setpoint</p>
-</blockquote></th>
-<th><blockquote>
-<p>Cooling Setpoint</p>
-</blockquote></th>
-<th><blockquote>
-<p>Relative</p>
-<p>Humidity</p>
-</blockquote></th>
-<th><blockquote>
-<p>Air Class</p>
-</blockquote></th>
-<th><blockquote>
-<p>Zoning</p>
-</blockquote></th>
-<th><blockquote>
-<p>Operating Hours</p>
-</blockquote></th>
-<th><blockquote>
-<p>Redundancy</p>
-</blockquote></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><blockquote>
-<p>X 1,225</p>
-</blockquote></td>
-<td><blockquote>
-<p>X 70°F (21°C)</p>
-</blockquote></td>
-<td><blockquote>
-<p>X 75°F (24°C)</p>
-</blockquote></td>
-<td><blockquote>
-<p>X No active humidity control.</p>
-<p>Expected range</p>
-<p>is 30-60%</p>
-</blockquote></td>
-<td><blockquote>
-<p>X 1</p>
-</blockquote></td>
-<td><blockquote>
-<p>X Dedicated</p>
-</blockquote></td>
-<td><blockquote>
-<p>X Scheduled</p>
-</blockquote></td>
-<td><blockquote>
-<p>X None</p>
-</blockquote></td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><blockquote>
-<p>Connection Type</p>
-</blockquote></th>
-<th><blockquote>
-<p>Notes</p>
-</blockquote></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><blockquote>
-<p>Single Network - NTP Clock</p>
-</blockquote></td>
-<td><blockquote>
-<p>(1) port. Visible by room occupants</p>
-</blockquote></td>
-</tr>
-<tr class="even">
-<td><blockquote>
-<p>Single Conf. Hallway Display CHD</p>
-</blockquote></td>
-<td><blockquote>
-<p>(1) port. Outside of room</p>
-</blockquote></td>
-</tr>
-<tr class="odd">
-<td><blockquote>
-<p>Triple Corp</p>
-</blockquote></td>
-<td><blockquote>
-<p>(3) ports. AV Router/Hub; UC Codec; IP Communications/Telephone</p>
-</blockquote></td>
-</tr>
-<tr class="even">
-<td><blockquote>
-<p>Floor poke-thru and floor box</p>
-</blockquote></td>
-<td><blockquote>
-<p>(3) to (8) ports. Locate in floor box/poke-thru(s)</p>
-</blockquote></td>
-</tr>
-</tbody>
-</table>
+TO ADD
