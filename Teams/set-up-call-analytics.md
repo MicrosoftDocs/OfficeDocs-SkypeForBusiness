@@ -50,7 +50,7 @@ If you're a Teams or Skype for Business admin, you can use an existing tenant an
 
 - To download an existing data file, go to **Microsoft Teams admin center** > **Analytics & reports** > **Call Quality Dashboard** > **Upload now**. In the **My uploads** list, click **Download** next to the file you want. 
 
-- To upload the new file, see [Add and update reporting labels](https://docs.microsoft.com/microsoftteams/learn-more-about-site-upload).
+- To upload the new file, see [Add and update reporting labels](/microsoftteams/learn-more-about-site-upload).
   
 If you're creating the .tsv or .csv file from scratch, see [Upload tenant and building data](CQD-upload-tenant-building-data.md).
   
