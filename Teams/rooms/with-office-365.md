@@ -188,7 +188,7 @@ You now need to set the resource account so that the password never expires.
       Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies DisablePasswordExpiration
       ```
 
-#### [**Azure Active Directory 1.0**](#tab/azure-active-directory2-password/)
+#### [**Azure Active Directory 1.0**](#tab/azure-active-directory1-password/)
 
  1. Connect to MS Online PowerShell. 
    ```PowerShell
@@ -205,7 +205,8 @@ You now need to set the resource account so that the password never expires.
    Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -PasswordNeverExpires $true
    ```
 
-#### [**Active Directory**](#tab/active-directory1-password/)
+#### [**Active Directory (On premises)**](#tab/active-directory1-password/)
+
 1. Connect to Active Directory PowerShell.
 ```PowerShell
    Import-Module ActiveDirectory
