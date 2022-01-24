@@ -89,9 +89,9 @@ Frontline workers have access to their schedule in Shifts in Teams, and their re
 Frontline managers can:
 
 - Publish shifts and schedules in Reflexis and view them in Shifts.
+- Edit shifts in both Reflexis and Shifts.
 - Create, manage, and assign open shifts in both Reflexis and Shifts.
 - View and approve schedule requests from workers in both Reflexis and Shifts.
-- Set and update worker availability in Reflexis and view in Shifts.
 
 Frontline workers can:
 
