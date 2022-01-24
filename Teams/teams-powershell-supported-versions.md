@@ -41,7 +41,7 @@ Important notes:
 
 ## New organizations
 
-Organizations newly onboarding to Teams will only be able to use Teams PowerShell Module 3.0.0 or above starting from February 15, 2022.
+Organizations newly onboarding to Teams will only be able to use Teams PowerShell Module 3.0.0 or above starting from March 1, 2022.
 
 
 
