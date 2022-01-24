@@ -25,7 +25,7 @@ A modern meeting room is equipped with a Microsoft Teams Rooms device and other 
 
 Managed Services for Microsoft Teams Rooms provides the assurance that each room in your organization will be maintained at recommended levels to deliver a room that is always ready and works properly. Microsoft's goal is to reduce complexity and legwork for your operational staff with intelligence and automation. Troubleshooting or diagnostics is performed as quickly as possible. 
 
-## Transitioning a device To Managed Services 
+## Transitioning a device to managed services 
 Room devices onboarding to Managed Services usually have a change management history and practice that is different from our guidance.  
 
 - To  benefit from Managed Services, you must transition change management for all updates under Managed Services portfolio.
@@ -41,7 +41,8 @@ Following simple readiness checks is recommended:
 - **Base Image**: The base image must be from the specific OEM. If the device has been rebuilt in the past and shows unexpected failures or behaviors on common tasks, the base image must be restored. We can provide assistance but cannot remotely rebuild the room device, so you will need a local site technician.  
 - **Base OS, Edition:** The base OS and edition must match the requirements of Microsoft Teams Rooms devices. If this is not so, it must be corrected as part of onboarding. Microsoft Teams Rooms requires the Windows 10 IoT Enterprise or Windows 10 Enterprise SKUs under Semi-Annual Channel servicing options. Consult the official [MTR guidance](rooms-lifecycle-support.md#windows-10-release-support) for more information.
 
-## Readiness checks   
+## Readiness checks
+
 There are a few pre-requisites for receiving managed services updates: 
 
 |Software |Guidance |
@@ -71,7 +72,6 @@ When choosing ring validation, review the following sections on how rings work i
 
  Check for announcements on the portal home page and within the Managed Services documentation as new types of software and firmware become available in the portfolio. Because Managed Services experts are reviewing update versions daily across our portfolio of devices, they address specific issues and target updates based on need.  
 
-
 ### Scheduling 
 Managed updates are scheduled for rooms based on the equipment in the room and if they are not meeting Managed Services standards for applicable software and firmware.  
 
@@ -83,89 +83,75 @@ Managed updates are scheduled for rooms based on the equipment in the room and i
 - Updates are typically applied during our nightly maintenance window – which is room local time **12:00am – 5:00am** to avoid any kind of interruptions. 
 
 ## Microsoft Teams Room app update lifecycle policy 
-The MTR engineering team’s support policy states that all support ends after the twelve (12) month lifecycle for a version has expired or if more than two updates have been released since then. Then, customers must update to a supported version. Please reference [Microsoft Teams Rooms app version support - Microsoft Teams | Microsoft Docs ](rooms-lifecycle-support.md)for detailed service description. 
+The MTR engineering team’s support policy states that all support ends after the twelve (12) month lifecycle for a version has expired or if more than two updates have been released since then. Then, customers must update to a supported version. Please reference [Microsoft Teams Rooms app version support - Microsoft Teams | Microsoft Docs ](rooms-lifecycle-support.md)for detailed service description.
 
 To maintain a uniform standard across all our managed rooms and to allow us to efficiently identify trending issues, we will support and deploy the two latest Major or Minor Releases (N, N-1) of the MTR App software as per the Support and Subscription Services Terms and Conditions. We will automatically bring non-compliant rooms up to date, bypassing update rings as necessary. 
 
 The N-1 policy also applies to third-party software.  
 
 ## Update Management experience walk-through  
-To view updates, login to the Managed Services portal and navigate to the Updates page. 
+To view updates, log in to the managed services portal and navigate to the Updates page.
 
-![alt text1](../media/update-management-001.jpg) 
+![Screenshot of the managed services updates](../media/update-management-001.jpg)
 
-
-The Updates pane displays a high-level overview of update management for your rooms with the following tabs: 
+The Updates pane displays a high-level overview of update management for your rooms with the following tabs:
 
 - **Updates**: Software or firmware updates that Managed Services is orchestrating through your organization.  
-- **Rooms**: The Rooms tab provides a view of rooms and rings to which each belong. 
-- **Rings**: The Rings tab show the rings of rooms for your organization. 
-
-
-
-
+- **Rooms**: The Rooms tab provides a view of rooms and rings to which each belong.
+- **Rings**: The Rings tab show the rings of rooms for your organization.
 
 ### Updates  
 
 This view shows the relevant updates for your tenant and their respective status. To view past updates that are no longer active, select the **Include past updates** toggle to ON.  
 
+Any update can be in one of the following states:
 
-
-Any update can be in one of the following states: 
-
-|Status |Description |
+| Status | Description |
 | :- | :- |
-|Scheduled |An update is scheduled for the rooms in a given ring. Please keep in mind that an update will only show Scheduled after the progression hits the ring the room is in. For example, if a new update is in the Staging ring, it would only show Scheduled for rooms in the Staging ring. Other rings will have a “Not required” status until the update progresses to that ring.    |
-|In progress |An update is in progress, and individual rings show status. This state shows the overall ring status, and therefore if an update applies to a single room in the Staging ring in your tenant, the update will have an “In Progress” state until the Executive ring is reached.    |
-|Completed with failures |An update has completed progression through all your configured rings and failed in at least one room. |
-|Completed |An update has completed progression through all your configured rings and successfully installed on all applicable rooms. |
-|Deprecated |An update has been deactivated. Further deployment is halted. This is typical because the update has been superseded by a new version.  |
-|Paused |An update is in a paused state.  |
-|Not Required |The update is either not yet evaluated for the room or does not apply to the room.  |
+| Scheduled | An update is scheduled for the rooms in a given ring. Please keep in mind that an update will only show Scheduled after the progression hits the ring the room is in. For example, if a new update is in the Staging ring, it would only show Scheduled for rooms in the Staging ring. <p> Other rings will have a “Not required” status until the update progresses to that ring.</p> |
+| In progress | An update is in progress, and individual rings show status. This state shows the overall ring status, and therefore if an update applies to a single room in the Staging ring in your tenant, the update will have an “In Progress” state until the Executive ring is reached. |
+| Completed with failures | An update has completed progression through all your configured rings and failed in at least one room. |
+| Completed | An update has completed progression through all your configured rings and successfully installed on all applicable rooms.|
+| Deprecated | An update has been deactivated. Further deployment is halted. This is typical because the update has been superseded by a new version. |
+| Paused | An update is in a paused state. |
+| Not Required | The update is either not yet evaluated for the room or does not apply to the room. |
 
 ### Rooms  
 
 The Rooms tab shows all the rooms in your tenant and to which ring they belong.  
 
-
-
-![alt text2](../media/update-management-002.jpg) 
-
-
+![Screenshot of all tenant rings and their rooms](../media/update-management-002.jpg)
 
 To configure which ring a room should belong to:  
 
 1. Click on the room to bring up the detailed view.  
-1. Under “Ring”, click on the “Change” button.  
+1. Under **Ring**, click **Change**.  
 1. Select the Ring to which the room should belong.  
-1. Click Assign.  
+1. Click **Assign**.  
 
-The detailed room view displays                                                                                                                                                                             the relevant updates and their status under the “Updates” node.  
+The detailed room view displays the relevant updates and their status under the **Updates** node.  
 
-
-![alt text3](../media/update-management-003.jpg) 
+![Screenshot of relevant updates and changes](../media/update-management-003.jpg)
 
 ### Rings  
 
-Rings are used to reduce the risk of issues derived from the deployment of the feature updates. This is done by gradually deploying the update to the entire site. Each ring should have a list of Microsoft Teams Room rooms and a corresponding rollout schedule. Defining rings is generally a one-time event 
+Rings are used to reduce the risk of issues derived from the deployment of the feature updates. This is done by gradually deploying the update to the entire site. Each ring should have a list of Microsoft Teams Room rooms and a corresponding rollout schedule. Defining rings is generally a one-time event (or at least infrequent), but IT should revisit these groups from time to time to ensure that the sequencing is still correct.  
 
-(or at least infrequent), but IT should revisit these groups from time to time to ensure that the sequencing is still correct.  
+The **Rings** tab lists  all the rings in your tenant. There are three preconfigured rings:  
 
-The “Rings” tab lists  all the rings in your tenant. There are three preconfigured rings:  
-
-**Staging**  
+**Staging**
 
 Assign rooms to the Staging ring, which is your testbed. All new updates will roll out here first. Generally, you will want to ensure that your staging ring represents rooms with the diversity of device types in your environment. If there are certain types of rooms with an uncommon configuration or a history of seeing issues, please consider representing them in Staging.
 
-**General**  
+**General**
 
 By default, all rooms are placed in this ring. Most of the room devices being used across the enterprise fall into this category. 
 
-**Executive**  
+**Executive**
 
 This group should include your most high-profile rooms where you want to minimize disruption proactively. A good example is a large conference room used for executive meetings or large team meetings. 
 
-### Specifying rollout timeline 
+### Specifying rollout timeline
 
 Updates cannot exceed 60 days to complete across all rings.  
 
@@ -177,124 +163,66 @@ Updates cannot exceed 60 days to complete across all rings.
 |<p> </p><p>Completion Time </p>|<p> </p><p>The “Completion time” column indicates the total number of days (rollout duration + test period) for this ring to complete.  </p><p> </p>|
 |<p> </p><p>Total Time </p>|<p> </p><p>At the bottom is the “Total” row, which indicates how long it will take an update to complete from the first to the last ring. </p><p> </p><p> </p>|
 
-### Creating Custom Rings 
+### Creating Custom Rings
 
 
-
-1. Navigate to the “Rings” tab.  
-1. Click “Add ring”.  
+1. Navigate to the **Rings** tab.  
+1. Click **Add ring**.  
 1. Specify the order in which this ring will receive the update, where 1 is first, and 9 is last.  
 1. Give this ring a name.  
 1. Provide a description if desired.  
 1. Specify the number of days the update will roll out in this ring.  
 1. Specify the test period.  
-1. Click submit.  
-
+1. Click **Submit**.  
 
 > [!NOTE]
 > The “Days set by other rings” is the total number of days an update will take to complete across all rings. The “Remaining days” indicates the maximum days for *this* ring to complete. The sum of “Rollout duration in days” and “Test period in days” cannot exceed this amount.  
 
+**Edit a ring**
 
+1. Navigate to the **Rings** tab.
+1. Click on the ring to delete.  
+1. Click **Edit ring**.  
+1. Edit the number of days of rollout and testing, as necessary.
 
-**Edit a ring** 
+**Delete a ring**
 
-
-1. Navigate to the “Rings” tab.  
-1. Click on the ring that will be edited.  
-1. Click “Edit ring”.  
-1. Edit the number of days of rollout and testing, as necessary. 
-
-
-**Delete a ring** 
-
-1. Navigate to the “Rings” tab.  
-1. Click on the ring that will be deleted.  
-1. Click “Delete ring”.  
-
-
+1. Navigate to the **Rings** tab.  
+1. Click on the ring to delete.  
+1. Click **Delete ring**.  
 
 > [!NOTE]
 > The default rings cannot be deleted.  
 
+**Move rooms**
 
+Moving rooms from one ring to another is possible in two ways:
 
-**Move rooms** 
-
-Moving rooms from one ring to another is possible in two ways: 
-
-
-
-1. Navigate to the “Rings” tab.  
+1. Navigate to the **Rings** tab.  
 1. Click on the ring that you want to move rooms from  
-1. Click “Move rooms”.  
-1. Select the rooms that you want to move in the “List of Rooms”.  
+1. Click **Move rooms**.  
+1. Select the rooms that you want to move in the **List of Rooms**.  
 1. Choose the Target ring, which the selected rooms will move to in the dropdown.  
-1. Click “Move rooms”.  
+1. Click **Move rooms**.  
 
 **Or**
 
-1. Open the room details for the room you wish to move (either through Incidents, Rooms, or Updates -> Rooms).   
-
-1. Click the “Updates” tab.  
-1. Under “Assigned Ring” click “Change”  
+1. Open the room details for the room you wish to move (either through Incidents, Rooms, or Updates -> Rooms).
+1. Click the **Updates** tab.  
+1. Under **Assigned Ring**, click **Change**.
 1. From the dropdown, select the new ring.  
-1. Click “Assign”. 
+1. Click **Assign**.
 
+## Managed updates: Visibility and control
 
-## Managed updates: Visibility And control  
 Managed services orchestrate updates throughout your organization. However, you have the visibility and control to intervene if needed. Here are the ways: 
-
-
 
 - In the event of an update failure, a ticket is automatically generated with the Microsoft Managed Service Operations team. The Operations team will take steps to remediate the failure and engage you if necessary.  
 - If you see an update causing issues, you can pause the update with the **Pause** button. Hitting the Pause button will create a ticket for the operations center to investigate. Please be sure to provide details while pausing an update to help expedite incident response.  
 - If you see an update has failed in a room and you have corrected a plausible reason such as network disconnect, you can retry the update with **Retry all failed** button.  
 - There may be urgent situations when you may decide to make an update available earlier. In this case, you can use the **Force updates** button. When using the Force Update option, you have the choice to force the update immediately or when next the room is available.  
 
-
-
-<!--![alt text4](media/update-management.004.jpg)-->  
-
 > [!NOTE]
 > **We do not recommend “Force Updates”** as a general update management strategy. If you push an update that is still in our validation pass, you might encounter issues we already know about. In such cases, incident resolution for such rooms will be on a best-effort basis.  
 
-- Further, to ensure good change management practices, we will log every force update internally in the service. In the future, we expect to make that visible to you as well. 
-
-
-
-<!--![alt text5](media/update-management.005.jpg) 
-
-
-## Managed updates: FAQS 
-1. **An update was announced, but I don’t see it on my Updates tab.** 
-
-Updates roll out through our update rings. It won’t display in your tab until the update has passed the staging ring. 
-
-
-
-2. **Will my new rooms automatically get updated?** 
-
-Yes. We catch up with any new rooms on the necessary updates. 
-**
-
-
-3. **What if I have an Anti-virus running? Do I need to add exclusions?** 
-
-Suppose you are using an anti-virus or just started using a new anti-virus. In that case, it might cause failures to launch meetings in the room console by interfering with the launch of related software libraries and executables from Teams or Skype for Business. Please contact our support team to get assistance on this issue. 
-
-4. **I reimaged a room. Will the updates automatically get installed?** 
-
-Unfortunately, not at this time. Previous updates need to be manually reinstalled. We are working on a feature to address this scenario. 
-
-5. **I see an update failed. What action should I take to make it successful?** 
-
-Our 24/7 operations team troubleshoot all update failures and will contact you if you need to take any action.  
-
-6. **What updates can we force?** 
-
-Any and all active updates can be forced. 
-
-7. **When is my update starting?** 
-
-Staging rings start on Wednesday. We are making improvements to the portal so you can see what day each of your rings starts depending on your configuration. If a critical update is required, we will bypass this schedule and release the update as soon as it’s available. -->
-
+- Further, to ensure good change management practices, we will log every force update internally in the service. In the future, we expect to make that visible to you as well.
