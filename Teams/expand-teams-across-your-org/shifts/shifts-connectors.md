@@ -97,7 +97,6 @@ Frontline workers can:
 
 - See their own and their team's shifts and schedules in Shifts.
 - Request time off, open shifts, and swap and offer shifts in Shifts.
-- Set their availability in Shifts. [ToBeConfirmed]
 
 To learn more, go to https://connect.zebra.com/microsoft-connectors.
 
