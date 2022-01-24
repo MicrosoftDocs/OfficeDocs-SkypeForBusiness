@@ -34,11 +34,11 @@ This article will help you create, set, assign, and remove the ``NativeFileEntry
 
 Currently, this policy can’t be changed in the Teams admin center. Your organization’s Microsoft 365 tenant admin will have to make the changes using the PowerShell cmdlets detailed later in this article.
 
-Learn how to install the PowerShell Teams module using PowerShell Gallery by reading [Install Microsoft Teams PowerShell Module](/microsoftteams/teams-powershell-install.md).
+Learn how to install the PowerShell Teams module using PowerShell Gallery by reading [Install Microsoft Teams PowerShell Module](teams-powershell-install.md).
 
 To install or download the Teams PowerShell module, see [PowerShell Gallery for Microsoft Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/3.0.0).
 
-For more information on how to set up PowerShell for Teams management, see [Manage Teams with Microsoft Teams PowerShell](/microsoftteams/teams-powershell-managing-teams.md).
+For more information on how to set up PowerShell for Teams management, see [Manage Teams with Microsoft Teams PowerShell](teams-powershell-managing-teams.md).
 
 ### Allow third-party apps in Teams Admin Center
 
