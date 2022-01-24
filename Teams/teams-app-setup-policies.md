@@ -1,7 +1,7 @@
 ---
 title: Manage app setup policies in Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: KarliStites
+ms.author: kastites
 manager: serdars
 ms.reviewer: rarang
 ms.topic: article
@@ -119,7 +119,7 @@ To create an app setup policy to allow users to upload custom apps to Teams, do 
 4. Turn on or turn off **Upload custom apps**, depending on whether you want to let users upload custom apps to Teams.
 
 > [!NOTE]
-> You can't change this setting if **Allow third-party apps** is turned off in [org-wide app settings](manage-apps.md#manage-org-wide-app-settings).
+> You can't change this setting if **Third-party apps** is turned off in [org-wide app settings](manage-apps.md#manage-org-wide-app-settings).
 
 ## Manage app setup policies
 
@@ -127,7 +127,7 @@ You manage app setup policies in the Microsoft Teams admin center. Use the globa
 
 You edit the settings in the global policy to include the apps that you want. To customize Teams for different groups of users in your organization, create and assign one or more custom policies.
 
-![the App setup policies page.](media/app-setup-policies.png)
+![the App setup policies page.](media/app-setup-policies-update.png)
 
 ### Edit an app setup policy
 
@@ -141,17 +141,13 @@ You can use the Microsoft Teams admin center to edit a policy, including the glo
 
 4. Select **Save**.
 
-### Assign a custom app setup policy to users
+### Assign a custom app setup policy to users and groups
 
-For more information on assigning policies to your users, see [Assign policies to users and groups](assign-policies-users-and-groups.md).
+For more information on assigning policies to your users and groups, see [Assign policies to users and groups](assign-policies-users-and-groups.md).
 
 ## FAQ
 
 ### Working with app setup policies
-
-#### Can I assign an app setup policy to a group
-
-App setup policies can be assigned to groups using PowerShell. For more information on assigning policies to groups using PowerShell, see [Assign policies to users and groups](assign-policies-users-and-groups.md#use-the-powershell-option).
 
 #### What built-in app setup policies are included in the Microsoft Teams admin center
 
