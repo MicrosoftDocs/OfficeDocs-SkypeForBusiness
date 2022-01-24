@@ -167,8 +167,9 @@ In Exchange PowerShell (either online or on-premises), configure the following s
    ## Turn off password expiration
 You now need to set the resource account so that the password never expires.
    > [!NOTE]
-   > Setting **Password never expires** is a requirement for shared Microsoft Teams devices. Your domain rules may prohibit passwords that don't expire. If so, you'll need to create an exception for each Microsoft Teams device resource account.
+   > Setting **Password never expires** is a requirement for shared Microsoft Teams devices. Your domain rules may prohibit passwords that don't expire. If so, you'll need to create an exception for each Microsoft Teams device resource account. <br><br>
    > If the password expires, the resource account will no longer sign in on the device when the password expiry period is reached. The password will then need to be changed for the resource account and also updated on each device.
+
 #### [**Azure Active Directory 2.0**](#tab/azure-active-directory2-password/)
 
   1. Connect to Azure Active Directory PowerShell.
@@ -220,6 +221,7 @@ For details about Active Directory PowerShell, see [ActiveDirectory](/powershell
    Set-ADUser -Identity ConferenceRoom01@contoso.com -PasswordNeverExpires $true
    ```
 ---
+
 ## Assign Meeting Room license
 The resource account needs to have a valid Microsoft 365 or Office 365 license, or Microsoft Teams will not work. If you have the license, you need to assign a usage location to your resource account—this determines what license SKUs are available for your account.
    > [!NOTE]
@@ -290,9 +292,9 @@ The resource account needs to have a valid Microsoft 365 or Office 365 license, 
 ---
    For detailed instructions, see [Assign Microsoft 365 licenses to user accounts with PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell).
 
-## <a href="" id="create-device-acct-m365-admin-ctr"></a>Create a resource account in the Microsoft 365 admin center
+## Create a resource account in the Microsoft 365 admin center
 
-1. Sign in to Microsoft 365 by visiting https://admin.microsoft.com
+1. Sign in to the Microsoft 365 admin center
 
 2. Provide the admin credentials for your Microsoft 365 tenant. This will take you to your Microsoft 365 admin center.
 
