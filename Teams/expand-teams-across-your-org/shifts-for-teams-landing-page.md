@@ -39,17 +39,9 @@ Use the following resources to help you set up and manage Shifts in your organiz
 |<img src="/office/media/icons/calendar-teams.png" alt="Calendar symbol.">|**[Manage Shifts in your organization](shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** Learn how to manage Shifts for your organization. |
 |<img src="/office/media/icons/users-people.png" alt="Users/people symbol.">|**[Manage schedule owners for shift management](shifts/schedule-owner-for-shift-management.md)** This feature lets you elevate the permissions of a team member to a schedule owner without making the employee a team owner. |
 
-## Shifts extensions
-
-|&nbsp;|&nbsp;|
-| ------------- | ------------- |
-| <img src="/office/media/icons/api.png" alt="Three gears - API."> | **[Shift Graph APIs](/graph/api/resources/shift)** Shifts Graph APIs allow you to integrate Shifts data with external workforce management systems. You'll have the flexibility to build custom Shifts experiences in the back end, while giving users a rich, front-end experience in Teams.             |
-| <img src="/office/media/icons/api.png" alt="Three gears - API.">| **[Workforce management integrations](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** If you're using third-party workforce management systems, such as Kronos and JDA, for scheduling, time, and attendance, you can integrate directly with Shifts through Shifts Graph APIs and SDK with open-source integrations. |
-|<img src="/office/media/icons/process-flow-teams.png" alt="Process/flow chart symbol."> | **[Shifts + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shifts + Power Automate lets you take info from Shifts and create custom workflows with other apps and perform operations at scale. Automate key processes with little to no code. The triggers and templates support various scenarios such as enabling auto-approvals for shift requests when a manager’s approval isn't needed. |
-
 ## Shifts connectors
 
-If you're using a third-party workforce management system (WFM) for scheduling, you can integrate directly with Shifts through managed Shifts connectors and through Shifts Graph APIs and SDK with open-source Shifts connectors. After you set up a connection, your frontline workers can seamlessly view and manage their schedules in your WFM system from within Shifts.
+If you're using a third-party workforce management (WFM) system for scheduling, you can integrate directly with Shifts through managed Shifts connectors and through Shifts Graph APIs and SDK with open-source Shifts connectors. After you set up a connection, your frontline workers can seamlessly view and manage their schedules in your WFM system from within Shifts.
 
 |&nbsp;  |&nbsp;  |
 |---------|---------|
@@ -58,6 +50,13 @@ If you're using a third-party workforce management system (WFM) for scheduling, 
 |<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">    |[Use PowerShell to connect Shifts to your Blue Yonder workforce management system](shifts/shifts-connector-blue-yonder-powershell-setup.md) Learn how to use PowerShell to set up a connection to Blue Yonder through the Teams Shifts connector for Blue Yonder.         |
 |<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">    | [Use PowerShell to manage your Shifts connection to Blue Yonder](/shifts-connector-powershell-manage.md) Learn how to use PowerShell manage your Shifts connection to Blue Yonder after you set it up through the Shifts connector wizard or PowerShell.     |
 
+## Shifts extensions
+
+|&nbsp;|&nbsp;|
+| ------------- | ------------- |
+| <img src="/office/media/icons/api.png" alt="Three gears - API."> | **[Shift Graph APIs](/graph/api/resources/shift)** Shifts Graph APIs allow you to integrate Shifts data with external workforce management  (WFM) systems. You'll have the flexibility to build custom Shifts experiences in the back end, while giving users a rich, front-end experience in Teams.             |
+| <img src="/office/media/icons/api.png" alt="Three gears - API.">| **[Workforce management integrations](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** If you're using third-party workforce management (WFM) systems, such as Kronos and JDA, for scheduling, time, and attendance, you can integrate directly with Shifts through Shifts Graph APIs and SDK with open-source integrations. |
+|<img src="/office/media/icons/process-flow-teams.png" alt="Process/flow chart symbol."> | **[Shifts + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shifts + Power Automate lets you take info from Shifts and create custom workflows with other apps and perform operations at scale. Automate key processes with little to no code. The triggers and templates support various scenarios such as enabling auto-approvals for shift requests when a manager’s approval isn't needed. |
 
 ## Featured training
 
