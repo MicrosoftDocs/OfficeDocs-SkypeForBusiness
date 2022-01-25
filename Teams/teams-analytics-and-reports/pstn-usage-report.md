@@ -133,17 +133,18 @@ You can export data up to five months (150 days) from the current date unless co
 > [!div class="has-no-wrap"]  
 > | # | Name | [Data type (SQL Server)](/sql/t-sql/data-types/data-types-transact-sql) | Description |
 > | :-: | :-: | :-: |:------------------- |
-> | 0 | CorrelationId | `uniqueidentifier` | Unique call identifier |
-> | 1 | SIP Address | `nvarchar(128)` | The address of the user or bot that made or received the call.<br/>Note that this is actually UserPrincipalName (UPN, sign in name) in Azure Active Directory, which is usually the same as SIP Address |
-> | 2 | Display Name | `nvarchar(128)` | The name of a user or a calling bot (for example, Call Queue or Auto Attendant) as set in Microsoft 365 admin center |
-> | 3 | User country | `nvarchar(2)` | Country code of the user, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
-> | 4 | Invite time | `datetimeoffset` | When the initial Invite send on outbound from Teams user or bot call to the SBC, or received on inbound to Teams or bot call by the SIP Proxy component of Direct Routing from the SBC |
-> | 5 | Start time | `datetimeoffset` | Time when the SIP proxy received the final answer (SIP Message  "200 OK") from the SBC on outbound (Teams/Bot to a PSTN User), or after the SIP Proxy send the Invite to the next hop within Teams backend on inbound call (PSTN User to a Teams/Bot).<br/>For failed and unanswered calls, this can be equal to invite or failure time |
-> | 6 | Failure time | `datetimeoffset` | Only exists for failed (not fully established) calls |
-> | 7 | End time | `datetimeoffset` | Only exists for successful (fully established) calls. Time when call ended |
-> | 8 | Duration (seconds) | `int` | Duration of the call |
-> | 9 | Success | `nvarchar(3)` | Yes/No. Success or attempt |
-> | 10 | Caller Number | `nvarchar(32)` | Number of the user or bot who made the call. On inbound to a Team user call it will be a PSTN User, on outbound from Teams user call it will be the Teams user number |
+> | 0 | CorrelationId | `uniqueidentifier` | Call identifier. Multiple legs of the same call can share the same CorrelationId |
+> | 1 | AAD ObjectId | `uniqueidentifier` | Calling user's ID in Azure Active Directory.<br/> This and other user info will be null/empty for bot call types (ucap_in, ucap_out) |
+> | 2 | UPN | `nvarchar(128)` | UserPrincipalName (sign in name, Azure Active Directory) of the user or bot that made or received the call.<br/>This is usually the same as user's SIP Address, and can be same as user's e-mail address |
+> | 3 | Display Name | `nvarchar(128)` | The name of a user or a calling bot (for example, Call Queue or Auto Attendant) as set in Microsoft 365 admin center |
+> | 4 | User country | `nvarchar(2)` | Country code of the user, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+> | 5 | Invite time | `datetimeoffset` | When the initial Invite send on outbound from Teams user or bot call to the SBC, or received on inbound to Teams or bot call by the SIP Proxy component of Direct Routing from the SBC |
+> | 6 | Start time | `datetimeoffset` | Time when the SIP proxy received the final answer (SIP Message  "200 OK") from the SBC on outbound (Teams/Bot to a PSTN User), or after the SIP Proxy send the Invite to the next hop within Teams backend on inbound call (PSTN User to a Teams/Bot).<br/>For failed and unanswered calls, this can be equal to invite or failure time |
+> | 7 | Failure time | `datetimeoffset` | Only exists for failed (not fully established) calls |
+> | 8 | End time | `datetimeoffset` | Only exists for successful (fully established) calls. Time when call ended |
+> | 9 | Duration (seconds) | `int` | Duration of the call |
+> | 10 | Success | `nvarchar(3)` | Yes/No. Success or attempt |
+> | 11 | Caller Number | `nvarchar(32)` | Number of the user or bot who made the call. On inbound to a Team user call it will be a PSTN User, on outbound from Teams user call it will be the Teams user number |
 > | 12 | Callee Number | `nvarchar(32)` | Number of the user or bot who received the call. On inbound to a Team user call it will be the Teams user, on outbound from Teams user call it will be the PSTN User |
 > | 13 | Call type | `nvarchar(32)` | Call type and direction |
 > | 14 | Azure region for Media | `nvarchar(8)` | The datacenter used for media path in non-bypass call |
@@ -159,3 +160,5 @@ You can export data up to five months (150 days) from the current date unless co
 ## Related topics
 
 - [Teams analytics and reporting](teams-reporting-reference.md)
+- [PSTN call report in Microsoft Graph](https://docs.microsoft.com/en-us/graph/api/callrecords-callrecord-getpstncalls?view=graph-rest-1.0&tabs=http)
+- [Direct routing report in Microsoft Graph](https://docs.microsoft.com/en-us/graph/api/callrecords-callrecord-getdirectroutingcalls?view=graph-rest-1.0&tabs=http)
