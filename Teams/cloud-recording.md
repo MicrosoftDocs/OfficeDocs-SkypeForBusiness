@@ -255,7 +255,7 @@ The size of a 1-hour recording is 400 MB. Make sure you understand the capacity 
 
 Learn more about the admin-specific changes [here](meeting-expiration.md#changes-to-meeting-expiration).
 
-Learn more about how end-users can manage meeting expiration [here](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date).
+Learn more about how end users can manage meeting expiration [here](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date).
   
 See the frequently asked questions for admins and end users to gather insights into how auto-expiration of Teams meeting recordings will work, what actions you can take now, and what actions you can take after the feature launches.
   
@@ -404,7 +404,7 @@ Captions help create inclusive content for viewers of all abilities. As an owner
 
 Today closed captions for the recording video file are linked to the Teams meeting transcript. This link will remain for the lifetime of the file in most cases, but can be broken if the video file is copied within the same OneDrive for Business or SharePoint Online site, which would result in captions not being available on the copied video file.
 
-Any future changes to the link between the transcript in Teams and the recording will be clarified here and in message center notifications. If we make any changes in the future, we will ensure recording files less than 60 days old display the transcript from the meeting as captions.
+Any future changes to the link between the transcript in Teams and the recording will be clarified here and in message center notifications. If we make any changes in the future, we will ensure recording files less than 60-days old display the transcript from the meeting as captions.
 
 > [!NOTE]
 > Meeting transcription is not yet available in GCC.
