@@ -62,9 +62,7 @@ For detailed information about usage limits and terms of use, see [Audio Confere
     > Depending on your plan, you may need to buy more add-ons before you can buy Phone System licenses. To learn more, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 2. After you buy Phone System licenses, you can buy the Calling Plan by signing in to the **Microsoft 365 admin center**, choose **Billing** > **Purchase services** > **Add-on subscriptions**, and then clicking **Buy now**. You'll see the Calling Plans there.
-    
-    ![Screen shot showing voice calling plan options.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
-  
+      
 You can buy and assign different Calling Plans to different users, depending on the needs of your organization. After you select the Calling Plan you need, proceed to checkout. You assign a plan to each user in the Microsoft 365 admin center. To learn how, see [Assign Microsoft Teams add-on licenses](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## Do you have a service provider that provides on-premises PSTN connectivity for hybrid users?
