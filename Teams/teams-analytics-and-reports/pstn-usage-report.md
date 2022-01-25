@@ -134,7 +134,7 @@ You can export data up to five months (150 days) from the current date unless co
 > | # | Name | [Data type (SQL Server)](/sql/t-sql/data-types/data-types-transact-sql) | Description |
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | CorrelationId | `uniqueidentifier` | Call identifier. Multiple legs of the same call can share the same CorrelationId |
-> | 1 | AAD ObjectId | `uniqueidentifier` | Calling user's ID in Azure Active Directory.<br/> This and other user info will be null/empty for bot call types (ucap_in, ucap_out) |
+> | 1 | AAD ObjectId | `uniqueidentifier` | Calling user's ID in Azure Active Directory.<br/> This and other user info can be null/empty for bot call types |
 > | 2 | UPN | `nvarchar(128)` | UserPrincipalName (sign in name, Azure Active Directory) of the user or bot that made or received the call.<br/>This is usually the same as user's SIP Address, and can be same as user's e-mail address |
 > | 3 | Display Name | `nvarchar(128)` | The name of a user or a calling bot (for example, Call Queue or Auto Attendant) as set in Microsoft 365 admin center |
 > | 4 | User country | `nvarchar(2)` | Country code of the user, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
