@@ -122,7 +122,7 @@ In Creator's Update, you will need to use the ApplyCurrentRegionAndLanguage.ps1 
     
 9. Do not check Set as my Windows display language.
     
-10. Click Install.
+10. Select **Install**.
     
 11. Select the language you just added to the "Languages" list.
     
@@ -155,12 +155,12 @@ After Windows is installed, the Microsoft Teams Rooms app will go into its initi
    
 3. Select the supported meeting mode - Microsoft Teams Only, Skype for Business Only, or one of the two mixed-mode options. If necessary, enable Modern Authentication.
 
-4. Click **Next**.
+4. Select **Next**.
     
 5. If using Skype for Business and if the Skype for Business SIP domain is different from the Exchange domain of the user, set the FQDN for the Skype for Business Server in the Advanced section. If you are not using Skype for Business or the SIP domain matches the Exchange domain, leave this section blank.
-6. Click **Next**.
+6. Select **Next**.
     
-7. Click **Finish**.
+7. Select **Finish**.
     
 The Microsoft Teams Rooms app should signing in to Microsoft Teams or Skype for Business Server with the credentials entered above, and should also begin syncing its calendar with Exchange using those same credentials. For details on using Teams Rooms, refer to the [Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
   
