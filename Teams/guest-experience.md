@@ -32,8 +32,8 @@ All team members see a message in the channel thread announcing that the team ow
 ![Screenshot showing tag that indicates number of guests on the team.](media/guest-experience-image2.png)
 
 Check out these videos about the guest experience in Teams:
-- [Join a team as a guest](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
-- [Join a Teams meeting with guests](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
+- [Join a Teams meeting as a guest](https://support.microsoft.com/office/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)
+- [Work with external guests in a Teams meeting](https://support.microsoft.com/office/work-with-external-guests-180ed260-d3ef-4247-9f24-1984fc76d5f0)
 
 ## Comparison of team member and guest capabilities
 
