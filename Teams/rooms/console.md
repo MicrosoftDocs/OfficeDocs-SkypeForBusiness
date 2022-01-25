@@ -112,30 +112,36 @@ In Creator's Update, you will need to use the ApplyCurrentRegionAndLanguage.ps1 
     
 4. Select **Time &amp; language**.
     
-5. Select **Region &amp; language**.
+5. Select **language**.
     
 6. Select **Add a language**.
     
 7. Select the language you wish to add.
     
-8. Select the language you just added to the "Languages" list.
+8. Install language features.
     
-9. Select **Set as default**.
+9. Do not check Set as my Windows display language.
     
-10. For any languages you wish to remove:
+10. Click Install.
+    
+11. Select the language you just added to the "Languages" list.
+    
+12. Set as default- Move up arrow to set default
+
+13. For any languages you wish to remove:
     
     a. Select the language you wish to remove.
     
-    b. Select **Remove**.
-    
-11. Start an elevated command prompt.
-    
-12. Run the following command: 
+    b. Select Remove.
+
+14. Start an elevated command prompt.
+
+15. Run the following command: 
     ```PowerShell
     powershell -executionpolicy unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentRegionAndLanguage.ps1
     ```
     
-13. Restart the system.
+16. Restart the system.
     
 Your desired language is now applied to the Microsoft Teams Rooms console.
 ## Initial set up of the console
