@@ -42,10 +42,9 @@ Use this report to gain insight into Virtual Visits activity and trends in your 
 
 ### Virtual Visits
 
-:::image type="content" source="../media/virtual-visits-usage-report-virtual-visits.png" alt-text="Screenshot of the Virtual Visits tab of the Virtual Visits usage report showing numbered callouts." lightbox="../media/virtual-visits-usage-report-virtual-visits.png":::
+The graphs you'll see here depend on whether you have a license for the Bookings app, the Teams EHR connector, or both. To learn more, see [Manage the Bookings app](../bookings-app-admin.md), and [Integration into Cerner EHR](../expand-teams-across-your-org/healthcare/ehr-admin-cerner.md) or [Integration into Epic EHR](../expand-teams-across-your-org/healthcare/ehr-admin.md).
 
-> [!NOTE]
-> The graphs you'll see here depend on whether you have a license for the Bookings app, the Teams EHR connector, or both. To learn more, see [Manage the Bookings app](../bookings-app-admin.md), and [Integration into Cerner EHR](../expand-teams-across-your-org/healthcare/ehr-admin-cerner.md) or [Integration into Epic EHR](../expand-teams-across-your-org/healthcare/ehr-admin.md).
+:::image type="content" source="../media/virtual-visits-usage-report-virtual-visits.png" alt-text="Screenshot of the Virtual Visits tab of the Virtual Visits usage report showing numbered callouts." lightbox="../media/virtual-visits-usage-report-virtual-visits.png":::
 
 |Callout |Description  |
 |--------|-------------|
@@ -70,10 +69,9 @@ Use this report to gain insight into Virtual Visits activity and trends in your 
 |**6**   |You can export the report to a CSV file for offline analysis. Select **Export to Excel**, and then on the **Downloads** tab, choose **Download** to download the report when it's ready.|
 ### Bookings
 
-:::image type="content" source="../media/virtual-visits-usage-report-bookings.png" alt-text="Screenshot of the Bookings tab of the Virtual Visits usage report showing numbered callouts." lightbox="../media/virtual-visits-usage-report-bookings.png":::
+You'll see this tab if you have a license that includes the Bookings app. To learn more, see [Manage the Bookings app](../bookings-app-admin.md).
 
-> [!NOTE]
-> You'll see this tab if you have a license that includes the Bookings app. To learn more, see [Manage the Bookings app](../bookings-app-admin.md).
+:::image type="content" source="../media/virtual-visits-usage-report-bookings.png" alt-text="Screenshot of the Bookings tab of the Virtual Visits usage report showing numbered callouts." lightbox="../media/virtual-visits-usage-report-bookings.png":::
 
 |Callout |Description  |
 |--------|-------------|
@@ -84,10 +82,9 @@ Use this report to gain insight into Virtual Visits activity and trends in your 
 |**5**   |You can export the report to a CSV file for offline analysis. Select **Export to Excel**, and then on the **Downloads** tab, choose **Download** to download the report when it's ready.|
 ### EHR
 
-:::image type="content" source="../media/virtual-visits-usage-report-ehr.png" alt-text="Screenshot of the EHR tab of the Virtual Visits usage report showing numbered callouts." lightbox="../media/virtual-visits-usage-report-ehr.png":::
+You'll see this tab if you have a license that includes the Teams EHR connector. To learn more, see [Integration into Cerner EHR](../expand-teams-across-your-org/healthcare/ehr-admin-cerner.md) or [Integration into Epic EHR](../expand-teams-across-your-org/healthcare/ehr-admin.md).
 
-> [!NOTE]
-> You'll see this tab if you have a license that includes the Teams EHR connector. To learn more, see [Integration into Cerner EHR](../expand-teams-across-your-org/healthcare/ehr-admin-cerner.md) or [Integration into Epic EHR](../expand-teams-across-your-org/healthcare/ehr-admin.md).
+:::image type="content" source="../media/virtual-visits-usage-report-ehr.png" alt-text="Screenshot of the EHR tab of the Virtual Visits usage report showing numbered callouts." lightbox="../media/virtual-visits-usage-report-ehr.png":::
 
 |Callout |Description  |
 |--------|-------------|
