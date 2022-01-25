@@ -2,7 +2,7 @@
 title: Shifts connectors
 author: lanachin
 ms.author: v-lanachin
-ms.reviewer: 
+ms.reviewer: aaku
 manager: samanro
 ms.topic: article
 audience: admin
@@ -80,7 +80,7 @@ After a connection is set up, you can use PowerShell to update and change connec
 
 ### Reflexis Shifts connector for Microsoft Teams
 
-The Reflexis Shifts connector for Microsoft Teams, currently in private preview, is hosted and managed by Zebra. With this connector, you can integrate Shifts with the Reflexis WFM system to manage your schedules and keep them up to date.
+The Reflexis Shifts connector for Microsoft Teams is hosted and managed by Zebra. With this connector, you can integrate Shifts with the Reflexis WFM system to manage your schedules and keep them up to date.
 
 Frontline workers have access to their schedule in Shifts in Teams, and their requests are synchronized from Shifts to Reflexis Workforce Scheduler (RWS). The status of requests and shifts created in RWS are synced to Shifts in Teams.
 
@@ -113,4 +113,4 @@ To learn more, see [Production-ready Shifts connectors](/microsoftteams/platform
 
 ## Related articles
 
-- [Manage the Shifts app in Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
+- [Manage the Shifts app](manage-the-shifts-app-for-your-organization-in-teams.md)
