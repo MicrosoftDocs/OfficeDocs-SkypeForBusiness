@@ -98,7 +98,7 @@ Start-Sleep 1
 #Ensure Teams module is of version x 
 Write-Host "Checking Teams module version"
 try {
-	Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 2.3
+	Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 3.0
 } catch {
 	throw
 }

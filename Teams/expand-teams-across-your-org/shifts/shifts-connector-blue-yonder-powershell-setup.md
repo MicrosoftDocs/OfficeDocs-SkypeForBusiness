@@ -191,7 +191,7 @@ else {
 
 #Retrieve the list of WFM users and their roles 
 Write-Host "Listing WFM users and roles"
-$WFMUsers = Get-CsTeamsShiftsConnectionUser -ConnectorInstanceId $InstanceId -WfmTeamId $WfmTeamId
+$WFMUsers = Get-CsTeamsShiftsConnectionWfmUser -ConnectorInstanceId $InstanceId -WfmTeamId $WfmTeamId
 write $WFMUsers
 
 #Keep mapping teams until user stops it
@@ -350,7 +350,7 @@ else {
 
 #Retrieve the list of WFM users and their roles 
 Write-Host "Listing WFM users and roles"
-$WFMUsers = Get-CsTeamsShiftsConnectionUser -ConnectorInstanceId $InstanceId -WfmTeamId $WfmTeamId
+$WFMUsers = Get-CsTeamsShiftsConnectionWfmUser -ConnectorInstanceId $InstanceId -WfmTeamId $WfmTeamId
 write $WFMUsers
 
 #Keep mapping teams until user stops it
