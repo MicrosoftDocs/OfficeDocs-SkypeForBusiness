@@ -85,15 +85,13 @@ PS C:\\WINDOWS\\system32&gt;
 
 - If tenant default file permissions are set to **Specific people (only the people the user specifies)**, and the sender removes some users from the Specific people list in the permissions dialog when creating a component, those users may still have access to the content. This issue is due to the access management limitation of the permission dialog and will be fixed in the future release.
 
-- If the tenant's Conditional Access Policy settings prevent client network to connect to `https://pushchannel.1drv.ms`,  live components will not work as expected for saving real time changes to the service.
-
 ## Known limitations
 
 - Searching for live components in Teams search will return a link to the component in office.com, not the chat message itself.
 
 - Live components are disabled in federated chats.
 
-- B2B guests will not be able to collaborate on a live component that is shared with them via Company Share Link unless the tenant sets an external access option to allow B2B guests to have the same access level as tenant members. For more information, see [Configure B2B external collaboration settings](/azure/active-directory/external-identities/delegate-invitations#configure-b2b-external-collaboration-settings).
+- B2B guests will not be able to collaborate on a live component that is shared with them via Company Share Link. Set permissions to **People currently in this chat** to share components with B2B guests.
 
 - Teams Web client full support of Live components will be available soon.
 
