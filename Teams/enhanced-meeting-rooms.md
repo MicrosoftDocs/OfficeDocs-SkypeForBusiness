@@ -601,7 +601,7 @@ Openings:
 
 **Floor:**
 
--   O Carpet tile\*
+-   O Carpet tile \*
 
 **Base:**
 
@@ -615,39 +615,39 @@ Openings:
 
 ### Acoustics
 
-**Acoustically sensitive**
+**Acoustically sensitive:**
 
 -   X Yes
 
-**% One Wall with NRC 0.80 sound absorptive wall treatment**
+**% One Wall with NRC 0.80 sound absorptive wall treatment:**
 
 -   X 50-100% of wall area on at least 2 walls
 
 -   X Entire ceiling with NRC 0.90
 
-**Mid-Frequency Reverberation Time Goal (sec)**
+**Mid-Frequency Reverberation Time Goal (sec):**
 
 -   X 0.5
 
-**Room Average Noise Reduction Coefficient (NRCavg)**
+**Room Average Noise Reduction Coefficient (NRCavg):**
 
 -   X 0.40
 
-**Acceptable Noise Criteria (NC) range**
+**Acceptable Noise Criteria (NC) range:**
 
 -   X 25-30
 
-**Acceptable dBA range**
+**Acceptable dBA range:**
 
 -   X 30-35
 
-**Recommended notes**
+**Recommended notes:**
 
 -   X Consider upgrading all walls to STC 50, with an STC 50 rated door
 
 ### Audio-visual
 
-**Display**
+**Display:**
 
 -   X High-definition projector, minimum 16:9 aspect ratio
 
@@ -655,33 +655,33 @@ Openings:
 
 -   X Provide minimum 1" conduit each for AV/data from table to projection wall
 
-**Camera**
+**Camera:**
 
 -   X Install on the projection wall
 
-**Occupancy sensor**
+**Occupancy sensor:**
 
 -   X Ceiling mounted People Counting sensor
 
-**Conference hallway display (CHD)**
+**Conference hallway display (CHD):**
 
 -   X Touch panel mounted on outside wall of room at +48" above finished floor (A.F.F.)
 
-**Collaboration system**
+**Collaboration system:**
 
 -   X Data sharing via Microsoft Teams Room solution
 
-**Recommended notes**
+**Recommended notes:**
 
 -   X Provide cables at the tabletop to connect laptops and other sources to display
 
 ### Lighting
 
-**Dimming**
+**Dimming:**
 
 -   X Yes (Provide continuous dimming from 100% to 1% light output)
 
-**Manual lighting control**
+**Manual lighting control:**
 
 -   X Raise / Lower per lighting control zone
 
@@ -689,23 +689,23 @@ Openings:
 
 -   (All on, All off, and Presentation mode)
 
-**Automatic lighting control**
+**Automatic lighting control:**
 
 -   X Vacancy
 
-**Color temperature (Kelvin)**
+**Color temperature (Kelvin):**
 
 -   X 3000
 
-**CRI**
+**CRI:**
 
 -   X 90 and above
 
-**Lighting density**
+**Lighting density:**
 
 -   X \<0.65 w/ft2 (7 w/m2)
 
-**Recommended notes**
+**Recommended notes:**
 
 -   X Provide dedicated supplemental lighting at writable surfaces
 
@@ -727,15 +727,15 @@ Openings:
 
 ### Electrical
 
-**General area design receptacle load (Watts/SF)**
+**General area design receptacle load (Watts/SF):**
 
 -   X 2.5
 
-**Specific use case design receptacle load (Watts)**
+**Specific use case design receptacle load (Watts):**
 
 -   O N/A
 
-**Specific receptacle requirements**
+**Specific receptacle requirements:**
 
 -   X Equivalent of double-duplex receptacle at the center of the table.
 
@@ -743,57 +743,57 @@ Openings:
 
 -   X Provide multiple combination USB/receptacle to accessible power at counters and fixed seating, at least one per user in the space.
 
-**Connected electrical equipment load**
+**Connected electrical equipment load:**
 
 -   X Provide 1 circuit for AV rack and 1 circuit for all additional devices (table, projectors, cameras)
 
-**Floor connections**
+**Floor connections:**
 
 -   X Floor-box/poke-thru as required per furniture layout.
 
-**20A circuit quantity provisions**
+**20A circuit quantity provisions:**
 
 -   X Maximum of 2 circuits per room.
 
-**Standby power**
+**Standby power:**
 
 -   O None
 
-**UPS power**
+**UPS power:**
 
 -   O None
 
 ### Mechanical
 
-**Diversified misc. mechanical loads (Watts)**
+**Diversified misc. mechanical loads (Watts):**
 
 -   X 1,225
 
-**Heating setpoint**
+**Heating setpoint:**
 
 -   X 70°F (21°C)
 
-**Cooling setpoint**
+**Cooling setpoint:**
 
 -   X 75°F (24°C)
 
-**Relative humidity**
+**Relative humidity:**
 
 -   X No active humidity control. Expected range is 30-60%.
 
-**Air class**
+**Air class:**
 
 -   X 1
 
-**Zoning**
+**Zoning:**
 
 -   X Dedicated
 
-**Operating hours**
+**Operating hours:**
 
 -   X scheduled
 
-**Redundancy**
+**Redundancy:**
 
 -   X None
 
