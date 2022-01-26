@@ -14,10 +14,9 @@ description: Learn about admin settings in the Praise app in the Microsoft Teams
 
 # Manage the Praise app in the Microsoft Teams admin center
 
-> [!NOTE]
-> Admins must have a Teams license to access this feature. If you try to access this feature without a Teams license, you'll get an error message.
+The Praise app in Microsoft Teams helps users show appreciation to members of their organization or classroom. The badges in Praise are designed to help recognize the effort that goes into the wide range of work that Teams users do, from educators to frontline workers. To learn more, check out [Send Praise to people](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e).
 
-The Praise app in Microsoft Teams helps users show appreciation to members of their organization or classroom. With a selection of badge sets to choose from, Praise is designed to help recognize the effort that goes into the wide range of work that Teams users do, from educators to Frontline Workers. To learn more, check out [Send Praise to people](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e).
+Admins must have a Teams license to access this feature. If you try to access this feature without a Teams license, you'll get an error message.
 
 > [!NOTE]
 > The Praise app is available for GCC cloud environment, but not for GCC High or DoD.
@@ -29,30 +28,23 @@ Praise is enabled by default for all Teams users in your organization. You can t
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
 2. In the list of apps, search for the Praise app, select it, and then switch the **Status** toggle to **Blocked** or **Allowed**.
 
-## Enable or disable Shifts for specific users in your organization
+Keep in mind that this setting affects both the Praise app and the Praise feature in the Viva Insights app in Teams.
+
+## Enable or disable Praise for specific users in your organization
 
 To allow or block specific users in your organization from using Praise, make sure Praise is turned on for your organization on the [Manage apps](manage-apps.md) page. Then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
-## Default badges
+## Badges
 <a name="default-badges"></br></a>
 
-The default badge set is designed to help Teams users recognize their peers for going above and beyond with their work.
+The badges are designed to help Teams users recognize their peers for going above and beyond with their work.
 
 :::image type="content" source="media/default-set-praise.png" alt-text="Image of badges in default badge set.":::
 
-The default badge set is already enabled and available in the Praise app. To change its availability:
+> [!NOTE]
+> Starting February 2022, people can only send and receive default badges. Custom badges are no longer available and options for custom badges are being removed from the **Settings** page in the Teams admin center soon.
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
-2. In the list of apps, search for the Praise app, select it, and then select the **Settings** tab.
-
-    :::image type="content" source="media/manage-praise-app-settings.png" alt-text="Screenshot of Settings tab for the Praise app.":::
-3. Switch the **Default badges** toggle to **Off** or **On**.
-
-    When the default badge set is enabled, all badges in the set are added to the Praise app.
-
-<a name="sel-edu-badges"></br></a> <a name="create-your-own-badges"></br></a> <a name="hex-colors-intro"></br></a> <a name="best-practices"></br></a>
-
-## Badge set assets
+<!-- ## Badge set assets
 
 Built-in badge sets can't be modified, so when a built-in set is enabled, all badges in the set are added to the Praise app. If you want to add specific badges from a built-in set and leave out others, re-create the badges you want to use as custom badges. You can download the badge image and find the text and background colors of badges from built-in sets in the tables below.
 
@@ -79,4 +71,4 @@ Starting in January 2022, what's currently available for badges will change. Soc
 
 The **Create a custom badge** option will also no longer be available as of January 2022.
 
-Additionally, the **Status** toggle in the Teams admin center that allows or block Praise will affect both the Praise app and the Praise feature in the Viva Insights app in Teams.
+Additionally, the **Status** toggle in the Teams admin center that allows or block Praise will affect both the Praise app and the Praise feature in the Viva Insights app in Teams.-->
