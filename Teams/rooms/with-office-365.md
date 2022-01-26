@@ -173,7 +173,7 @@ To modify an existing room mailbox to become a resource account, use the followi
    ``` PowerShell
    Set-Mailbox -Identity ConferenceRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
   ```
-If you are in an Exchange hybrid configuration, run the Exchange hybrid steps at the [end of the Exchange Online tab](#with-exchange-onlinetabexchange-online).
+If you are in an Exchange hybrid configuration, run the Exchange hybrid steps at the [end of the Exchange Online tab](#with-exchange-online).
 
    For detailed syntax and parameter information, see [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) and [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox).
 
