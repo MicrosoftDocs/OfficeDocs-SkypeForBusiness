@@ -46,7 +46,7 @@ In the left navigation of the Microsoft Teams admin center, go to **Teams apps**
 
 You can view every app including the following information about each app.
 
-![Screenshot of the apps details page for an app.](media/app-detail-page-adobe-sign.png)
+![Screenshot of the apps details page for an app.](media/app-detail-page.jpg)
 
 - **Name**: The app name. Select the app name to go to the app details page to see more information about the app. This includes a description of the app, whether it's allowed or blocked, version, privacy policy, terms of use, categories that apply to the app, certification status, supported capabilities, and app ID.
 - **Certification**: If the app has gone through certification, you'll see either **Microsoft 365 certified** or **Publisher attestation**. Select the link to view certification details for the app. If you see "**--**", we don't have certification information for the app. To learn more about certified apps in Teams, read [Microsoft 365 App Certification program](/teams-app-certification/all-apps).  
