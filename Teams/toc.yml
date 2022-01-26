@@ -1571,8 +1571,8 @@ items:
             - name: Manage schedule owners for shift management       
               href: expand-teams-across-your-org/shifts/schedule-owner-for-shift-management.md
             - name: Shifts connectors
-              items:
-              - name: Shifts connectors overview       
+              items: 
+              - name: Overview       
                 href: expand-teams-across-your-org/shifts/shifts-connectors.md
               - name: Shifts data FAQ       
                 href: expand-teams-across-your-org/shifts/shifts-data-faq.md
