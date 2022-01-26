@@ -31,13 +31,13 @@ appliesto:
 
 Microsoft provides complete Private Branch Exchange (PBX) capabilities for your organization through Teams Phone. However, to enable users to make calls outside your organization, you need to connect Teams Phone to the Public Switched Telephone Network (PSTN).
 
-This article focuses on PSTN connectivity options. For more information about Microsoft voice solutions, incuding details about Teams Phone features, see [Plan your Teams voice solution](cloud-voice-landing-page.md).
+This article focuses on PSTN connectivity options. For more information about Microsoft voice solutions, including details about Teams Phone features, see [Plan your Teams voice solution](cloud-voice-landing-page.md).
 
 To connect Teams Phone to the PSTN, you can choose from the following options:
 
 - [**Calling Plan**](#teams-phone-with-calling-plan). An all-in-the-cloud solution with Microsoft as your PSTN carrier.
 
-- [**Operator Connect**](#teams-phone-with-operator-connect), which is currently available only in **public preview.**  With Operator Connect, if your existing carrier is a participant in the Microsoft Operator Connect program, they can manage PSTN calling and Session Border Controllers (SBCs). 
+- [**Operator Connect**](#teams-phone-with-operator-connect). With Operator Connect, if your existing carrier is a participant in the Microsoft Operator Connect program, they can manage PSTN calling and Session Border Controllers (SBCs). 
 
 - [**Direct Routing**](#teams-phone-with-direct-routing), which enables you to use your own PSTN carrier by connecting your Session Border Controller(s) (SBC) to Teams Phone.
 
@@ -101,7 +101,7 @@ If you answer yes to the following questions, then Teams Phone with Direct Routi
 - You want to use Teams with Teams Phone.
 - You need to retain your current PSTN carrier.
 - You want to mix routing, with some calls going through Calling Plan, some through your carrier.
-- You need to interoperate with third-party PBXs and/or equipment such us overhead pagers, analog devices, and so on.
+- You need to interoperate with third-party PBXs and/or equipment such as overhead pagers, analog devices, and so on.
 
 With this option:
 
