@@ -57,6 +57,8 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
   <DualScreenMode>0</DualScreenMode>
   <DuplicateIngestDefault>true</DuplicateIngestDefault>
   <DisableTeamsAudioSharing>true</DisableTeamsAudioSharing>
+  <FrontRowEnabled>true</FrontRowEnabled>
+  <DefaultFoRExperience>0</DefaultFoRExperience>
   <SendLogs>
     <EmailAddressForLogsAndFeedback>username@microsoft.com</EmailAddressForLogsAndFeedback>
     <SendLogsAndFeedback>True</SendLogsAndFeedback>
@@ -70,13 +72,13 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
     <ContentCameraInverted>false</ContentCameraInverted>
   </Devices>
   <Theming>
-   <ThemeName>Custom</ThemeName>
-   <CustomThemeImageUrl>file name</CustomThemeImageUrl>
-   <CustomThemeColor>
-   <RedComponent>100</RedComponent>
-   <GreenComponent>100</GreenComponent>
-   <BlueComponent>100</BlueComponent>
-  </CustomThemeColor>
+       <ThemeName>Custom</ThemeName>
+       <CustomThemeImageUrl>file name</CustomThemeImageUrl>
+       <CustomThemeColor>
+            <RedComponent>100</RedComponent>
+            <GreenComponent>100</GreenComponent>
+            <BlueComponent>100</BlueComponent>
+       </CustomThemeColor>
   </Theming>
   <CoordinatedMeetings enabled="true">
     <TrustedAccounts>username1@microsoft.com,username2@contoso.com</TrustedAccounts>
@@ -119,6 +121,8 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | \<DualScreenMode\>                          | Boolean &#x2777;            | First &#x2776; | If true, dual screen mode is enabled. Otherwise the device uses single screen mode.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | \<DuplicateIngestDefault\>                  | Boolean &#x2777;            | First &#x2776; | If true, content is shown on both screens in dual screen mode, when out of meeting.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | \<DisableTeamsAudioSharing\>                | Boolean &#x2777;            | First &#x2776; | Set to true to disable HDMI audio sharing to meeting participants in Teams meeting. The default is false.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| \<FrontRowEnabled>                          | Boolean &#x2777;            | First &#x2776; | Enabled by default. If false, Front Row is disabled.
+| \<DefaultFoRExperience>                     | Boolean &#x2777;            | First &#x2776; | Gallery View by default. Put 1 to change the default layout from Gallery View to Front Row.
 | \<CortanaWakewordEnabled\>                  | Boolean &#x2777;            | First &#x2776; | Set to true to enable the Cortana wake word "Hey Cortana". This setting doesn't have any effect unless the Cortana service is supported in your country or region and your connected audio peripheral supports Cortana. The default is false.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | \<SendLogs\>                                | Container                   | First &#x2776; |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | \<EmailAddressForLogsAndFeedback\>          | String  &#x2778;            |                | Sets an optional email address that logs can be sent to when the "Give Feedback" window appears.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
