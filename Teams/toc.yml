@@ -1581,7 +1581,7 @@ items:
               href: expand-teams-across-your-org/shifts/schedule-owner-for-shift-management.md
             - name: Shifts connectors
               items: 
-              - name: Shifts connectors overview       
+              - name: Overview       
                 href: expand-teams-across-your-org/shifts/shifts-connectors.md
     - name: Teams for Education
       href: expand-teams-across-your-org/teams-for-education-landing-page.md
