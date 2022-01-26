@@ -43,7 +43,7 @@ This article will walk you through the steps needed to successfully create a res
 
 1. You will need to determine if you need to create a new account or if you can convert an existing Microsoft Exchange room mailbox into a resource account. If you do not already have a Microsoft Exchange room mailbox for the room or space into which you will be installing the Teams device, you will need to create a new resource account using the New-Mailbox PowerShell cmdlet. If a room mailbox already exists, you can convert it to a resource account using the Set-Mailbox PowerShell cmdlet.
 
-> [Important!]
+> [!IMPORTANT]
 > We recommend you standardize on a naming convention for all of your resource accounts, such as adding "mtr-" to the beginning of the e-mail address. This will help with creating dynamic groups to ease management in Azure Active Directory.
 
 2. Once the account has been created (or converted to a resource account), you should apply recommended parameters to the resource account, such as automatically accepting meeting invites.
@@ -58,10 +58,8 @@ This article will walk you through the steps needed to successfully create a res
 
 2. Provide the admin credentials for your Microsoft 365 tenant. This will take you to your Microsoft 365 admin center.
 
-:::image type="content" source="../media/teams-resourceaccount-m365-admin-center.png" alt-text="Microsoft 365 admin center.":::
 3. In the admin center, navigate to **Resources** in the left panel (you might need to select **Show all** first), and then select **Rooms & equipment**.
 
-:::image type="content" source="../media/teams-resourceaccount-m365-resources-rooms.png" alt-text="Microsoft 365 admin center - Resources.":::
 4. Select **Add a resource mailbox** to create a new room account. Enter a display name and email address for the account, select **Add**, and then select **Close**.
 
 > [!NOTE]
@@ -73,20 +71,13 @@ This article will walk you through the steps needed to successfully create a res
 >   - Maximum duration (hours): 24
 > - Auto accept meeting requests
 
-:::image type="content" source="../media/teams-resourceaccount-m365-admin-create-room-resource.png" alt-text="Microsoft 365 admin center - Add resources.":::
-
 5. Navigate to the **Users** section in admin center and, in the **Active users** list, you will see the room you just created.
 
-:::image type="content" source="../media/teams-resourceaccount-m365-admin-accounts.png" alt-text="Microsoft 365 admin center - See active users.":::
 6. Select on the name of the room and an account properties panel will appear on the right.
 
-:::image type="content" source="../media/teams-resourceaccount-m365-active-user-settings.png" alt-text="Microsoft 365 admin center - User properties.":::
 7. Now you need to assign a password to the resource account. In the panel, you can see the account properties and several optional actions. Select the **Reset password** key icon under the username to change the password. Unselect **Require this user to change their password when they first sign in**. It is not possible to change the password via the device sign-in process. Select **Reset**.
 
-:::image type="content" source="../media/teams-resourceaccount-m365-admin-center-active-user-password.png" alt-text="Microsoft 365 admin center - Reset password.":::
 8. In the **Licenses and Apps** section, set **Select location** to the country or region where the device will be installed. Scroll down and check the box next to the license to be assigned - such as Meeting Room - and then select **Save changes**. The license may vary depending on your organization.
-
-:::image type="content" source="../media/teams-resourceaccount-m365-admin-center-active-user-assign-license.png" alt-text="Microsoft 365 admin center - Assign license.":::
 
 You can change the settings of the resource mailbox, such as adding an additional response,  using Exchange admin center or via the PowerShell cmdlets shown in the [Configure mailbox properties](#configure-mailbox-properties) section of this article.
 
@@ -173,7 +164,7 @@ To modify an existing room mailbox to become a resource account, use the followi
    ``` PowerShell
    Set-Mailbox -Identity ConferenceRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
   ```
-If you are in an Exchange hybrid configuration, run the Exchange hybrid steps at the [end of the Exchange Online tab](&tabs=exchange-online).
+If you are in an Exchange hybrid configuration, run the Exchange hybrid steps in the Exchange Online tab.
 
    For detailed syntax and parameter information, see [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) and [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox).
 
