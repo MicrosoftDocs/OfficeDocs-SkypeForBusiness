@@ -1,8 +1,8 @@
 ---
 title: "Delete Quality of Experience configuration settings in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -40,7 +40,7 @@ You can remove QoE configuration settings by using the Skype for Business Server
     
 ## Removing QoE Configuration Settings by Using Windows PowerShell Cmdlets
 
-You can delete QoE configuration settings by using Windows PowerShell and the **Remove-CsQoEConfiguration** cmdlet. You can run this cmdlet either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Skype for Business Server, see the blog article ["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). The process is the same in Skype for Business Server.
+You can delete QoE configuration settings by using Windows PowerShell and the **Remove-CsQoEConfiguration** cmdlet. You can run this cmdlet either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Skype for Business Server, see [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). The process is the same in Skype for Business Server.
   
 ### To remove a specified collection of QoE configuration settings
 

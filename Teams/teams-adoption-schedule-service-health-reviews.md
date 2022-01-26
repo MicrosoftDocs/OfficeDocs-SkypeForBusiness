@@ -1,7 +1,7 @@
 ---
 title: Schedule service health reviews for your Microsoft Teams adoption
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin

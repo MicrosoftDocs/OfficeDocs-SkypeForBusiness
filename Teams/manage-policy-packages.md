@@ -1,7 +1,7 @@
 ---
 title: Manage policy packages in Microsoft Teams
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: sekrantz, aaglick
 ms.topic: article
@@ -22,7 +22,7 @@ search.appverid: MET150
 description: Learn how to use and manage policy packages in Microsoft Teams to simplify, streamline, and help provide consistency when managing policies for groups of users.
 ---
 
-# Microsoft Teams: Manage policy packages
+# Manage policy packages for Microsoft Teams
 
 A policy package in Microsoft Teams is a collection of predefined policies and policy settings that you can assign to users who have similar roles in your organization. We built policy packages to simplify, streamline, and help provide consistency when managing policies for groups of users across your organization.  
 
@@ -33,7 +33,7 @@ You can use the [policy packages included in Teams](#policy-packages-included-in
 You can customize the settings of the policies in a policy package to suit the needs of your users. When you change the settings of policies in a package, all users who are assigned to that package get the updated settings. You manage policy packages by using the Microsoft Teams admin center or PowerShell.
 
 > [!NOTE]
-> Each user will require the Advanced Communications add-on in order to receive a custom policy package assignment. For more information, see [Advanced Communications add-on for Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
+> This feature is temporarily available in public preview for all Microsoft Teams customers. To get this feature after the preview, each user will need the Advanced Communications add-on license. For more information, see [Advanced Communications add-on for Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
 
 ## What is a policy package?
 
@@ -64,8 +64,8 @@ Teams currently includes the following policy packages.
 |Healthcare clinical worker  |Creates a set of policies and policy settings that give clinical workers such as registered nurses, charge nurses, physicians, and social workers full access to chat, calling, shift management, and meetings. |
 |Healthcare information worker  |Creates a set of policies and policy settings that give information workers such as IT personnel, informatics staff, finance personnel, and compliance officers, full access to chat, calling, and meetings.|
 |Healthcare patient room  |Creates a set of policies and policy settings that apply to patient rooms in your healthcare organization.|
-|Small and medium business user (Business Voice) |Creates an app setup policy that includes the apps for a business voice experience.|
-|Small and medium business user (without Business Voice) |Creates an app setup policy relevant for a small and medium sized business Teams users (non-Business Voice experience).
+|Small and medium business user (Teams Phone with Calling Plan) |Creates an app setup policy that includes the apps for a Teams Phone with Calling Plan experience.|
+|Small and medium business user (without Teams Phone with Calling Plan) |Creates an app setup policy relevant for a small and medium sized business Teams users (non-Teams Phone with Calling Plan experience).
 |Public safety officer   |Creates a set of policies and policy settings that apply to public safety officers in your organization.|
 
 > [!NOTE]
@@ -77,8 +77,6 @@ For example, when you assign the Education (Teacher) policy package to teachers 
 ![Screenshot of the Education (Teacher) policy package.](media/policy-packages-education_teacher.png)
 
 ## Custom policy packages
-
-**Custom policy packages is not yet available for the Government Community Cloud (GCC)**
 
 Custom policy packages let you bundle your own set of policies for users with similar roles in you organization. Create your own policy packages by adding the policy types and policies that you need.
 

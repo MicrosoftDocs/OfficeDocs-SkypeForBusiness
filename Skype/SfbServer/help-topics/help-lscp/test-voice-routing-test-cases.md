@@ -1,8 +1,8 @@
 ---
 title: "Test Voice Routing Test Cases"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro

@@ -1,7 +1,7 @@
 ---
 title: What are Microsoft Teams live events?
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -28,7 +28,7 @@ ms.localizationpriority: high
 
 ## Overview
 
-With Teams lives events, users in your organization can broadcast video and meeting content too large online audiences.
+With Teams lives events, users in your organization can broadcast video and meeting content to large online audiences.
 
 Microsoft 365 live events bring live video streaming to a new level. Live events encourage connection throughout the entire engagement lifecycle with attendees before, during, and after live events. You can create a live event wherever your audience, team, or community resides, using Microsoft Stream, Teams, or Yammer.  
 

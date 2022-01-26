@@ -87,12 +87,12 @@ For a walkthrough of how to create Teams, check out: [Create a class team in Mic
 
 Teams policies provide the ability to control the options available for specific users or groups of users. Policies can be applied to define who should be allowed to use private chat, private calling, meeting scheduling, content types that can be shared, and more.
 
-**Higher education staff, educators, and students** benefit from the capabilities included with the default (global) policies. Some additional policy settings can be enabled to add more functionality to Teams, including [enabling translate capabilities in the messaging policy](messaging-policies-in-teams.md#messaging-policy-settings) and [allowing for automatic meeting transcription](meeting-policies-in-teams.md#allow-transcription) in the meeting policy.
+**Higher education staff, educators, and students** benefit from the capabilities included with the default (global) policies. Some additional policy settings can be enabled to add more functionality to Teams, including [enabling translate capabilities in the messaging policy](messaging-policies-in-teams.md#messaging-policy-settings) and [allowing for automatic meeting transcription](meetings-policies-recording-and-transcription.md#allow-transcription) in the meeting policy.
 
 **Primary-secondary school students** may need restricted capabilities provided to students. Policies set boundaries on what the students can do. Because the student population is often the largest set of users and they often receive the most restrictive settings, it is recommended that student policy changes be made to the 'Global (Org-wide default)' polices.
 
 > [!IMPORTANT]
-> For meeting policies assigned to any users, we recommend setting the "Automatically admit people" setting to "Everyone in your organization". This setting will ensure that non-authenticated users must be admitted from the lobby before they can join Teams meetings. For more information, check out [Manage meeting policies in Teams](./meeting-policies-in-teams.md#automatically-admit-people).
+> For meeting policies assigned to any users, we recommend setting the "Automatically admit people" setting to "Everyone in your organization". This setting will ensure that non-authenticated users must be admitted from the lobby before they can join Teams meetings. For more information, check out [Manage meeting policies in Teams](meeting-policies-participants-and-guests.md#automatically-admit-people).
 
 **Primary school staff and educators** should be assigned policies that grant the core capabilities that may be restricted for students. Create new policies that allow the for private chat and meeting scheduling (the default settings for a new policy). [Assign these policies in bulk to your staff and educators](batch-group-policy-assignment-edu.md).
 

@@ -114,7 +114,7 @@ You can find out more about Calling Plans by reading [Phone System and Calling P
     > [!NOTE]
     > PIN authentication isn't supported for Skype for Business Online for LPE and Partner IP phones. 
   
-- **Using a PC** When Better Together over Ethernet (BToE) software is installed on user's PC and enabled, users can log in to their phones using the authentication window on their Windows Skype for Business App. See [Step 7 (optional) - If you have device pairing and Better Together over Ethernet (BToE)](deploying-skype-for-business-online-phones.md#BK_BTOE) for other information.
+- **Using a PC** When Better Together over Ethernet (BToE) software is installed on user's PC and enabled, users can log in to their phones using the authentication window on their Windows Skype for Business App. See [What is Skype Operations Framework (SOF) and Skype Academy?](https://techcommunity.microsoft.com/t5/skype-for-business-blog/what-is-skype-operations-framework-sof-and-skype-academy/ba-p/30506) for other information.
     
   > [!NOTE]
   > Users are required to use their organization's user name and password to sign in to the phone. For example, they should use the UPN format like  <em>amosm@contoso.com</em>  for their user name.
@@ -165,17 +165,19 @@ You can find out more about Calling Plans by reading [Phone System and Calling P
     > LPE phones for Skype for Business Online support sign-in through USB tethering only. 
   
 - **Supported deployments** The table below shows the supported authentication types for the currently supported deployment models including Exchange Integration, Modern authentication with Multi-factor Authentication (MFA), and Skype for Business Online and on-premises.
-    
-|||||||
+
+  
+ 
+ 
+|Skype for Business |Exchange |Phone Sign-In method |Skype for Business access |Exchange Access with Modern Auth and MFA disabled |Exchange Access with Modern Auth and MFA enabled |
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**Skype for Business** <br/> |**Exchange** <br/> |**Phone Sign-In method** <br/> |**Skype for Business access** <br/> |**Exchange Access with Modern Auth and MFA disabled** <br/> |**Exchange Access with Modern Auth and MFA enabled** <br/> |
-|Online  <br/> |Online  <br/> |Web Sign-in  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
-|Online  <br/> |Online  <br/> |Username/Password  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
-|Online  <br/> |On-premises  <br/> |Web Sign-in  <br/> |Yes  <br/> |No  <br/> |No  <br/> |
-|Online  <br/> |On-Premises  <br/> |Username/Password  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
-|On-premises  <br/> |Online/On-Premises  <br/> |PIN Authentication  <br/> |Yes  <br/> |No  <br/> |No  <br/> |
-|On-premises  <br/> |Online/On-Premises  <br/> |Username/Password  <br/> |Yes  <br/> |Yes  <br/> |N/A  <br/> |
-|On-premises  <br/> |Online/On-Premises  <br/> |Sign-in via PC (BTOE)  <br/> |Yes  <br/> |Yes  <br/> |N/A  <br/> |
+|Online   |Online   |Web Sign-in   |Yes   |Yes   |Yes   |
+|Online   |Online   |Username/Password   |Yes   |Yes   |No   |
+|Online   |On-premises   |Web Sign-in   |Yes   |No   |No   |
+|Online   |On-Premises   |Username/Password   |Yes   |Yes   |No   |
+|On-premises   |Online/On-Premises   |PIN Authentication   |Yes   |No   |No   |
+|On-premises   |Online/On-Premises   |Username/Password   |Yes   |Yes   |N/A   |
+|On-premises   |Online/On-Premises   |Sign-in via PC (BTOE)  |Yes   |Yes   |N/A   |
    
 - **Phone features** The feature set may vary slightly based on the IP phone partner. For the complete feature set and for more information on the features for each phone manufacturer, see [Getting phones for Skype for Business Online](getting-phones-for-skype-for-business-online.md).
     
@@ -222,4 +224,3 @@ BToE can be configured to operate in two modes:  *Auto*  (default) and *Manual* 
 
 [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
-  

@@ -17,6 +17,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - ms.teamsadmincenter.dashboard.allteamsdocuments
+  - intro-overview
 appliesto: 
   - Microsoft Teams
 ---
@@ -51,7 +52,6 @@ To customize and extend Teams, add third-party apps through [apps, bots, and con
 
 > [!TIP]
 > For a deep dive into Teams architecture, watch the videos on the [Teams Platform Academy](https://aka.ms/TeamsPlatformAcademy).
-
 
 ## Managing Teams
 

@@ -65,7 +65,7 @@ Vendors listed in the following table have been certified with Skype for Busines
 			<td>N</td>
 		</tr>
 		<tr>
-			<td><a href="https://www.business.att.com/enterprise/Family/unified-communications/conferencing-servcies/">AT&amp;T</a></td>
+			<td><a href="https://www.business.att.com/">AT&amp;T</a></td>
 			<td>Y</td>
 			<td>N</td>
 			<td>N</td>

@@ -1,7 +1,7 @@
 ---
 title: Education SKU reference
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: karsmith
 ms.topic: article

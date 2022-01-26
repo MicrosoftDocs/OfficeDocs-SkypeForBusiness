@@ -1,8 +1,8 @@
 ---
 title: "Using the Skype for Business Server 2015 Stress and Performance Tool"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 ms.date: 2/13/2018
 manager: serdars
 audience: ITPro

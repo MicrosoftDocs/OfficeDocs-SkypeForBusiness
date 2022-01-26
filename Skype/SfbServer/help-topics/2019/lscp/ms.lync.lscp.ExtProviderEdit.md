@@ -1,8 +1,8 @@
 ---
 title: "SIP Federated Providers Create New or Edit Existing"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article

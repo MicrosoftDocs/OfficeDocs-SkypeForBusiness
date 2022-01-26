@@ -35,7 +35,7 @@ The report labels and locations data you provide is a single data structure – 
 
 **To edit the table of subnets and locations**
 
-1. In the left navigation of the Microsoft Teams admin center, click **Locations** > **Reporting labels**.
+1. In the left navigation of the Microsoft Teams admin center, click **Analytics & reports** > **Reporting labels**.
 2. Click **Upload data**.
 3. In the **Upload data** pane, click **Select a file**, and then browse to and upload your edited .csv or .tsv file.
 4. Click **Upload**.

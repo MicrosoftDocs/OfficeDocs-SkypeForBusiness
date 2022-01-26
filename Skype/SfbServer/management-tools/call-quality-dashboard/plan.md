@@ -1,8 +1,8 @@
 ---
-title: "Plan for Call Quality Dashboard for Skype for Business Server"
+title: "Skype for Business Server: Plan for Call Quality Dashboard"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,7 +15,7 @@ ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: "Summary: Learn about what to consider when you plan for the Call Quality Dashboard."
 ---
 
-# Plan for Call Quality Dashboard for Skype for Business Server 
+# Skype for Business Server: Plan for Call Quality Dashboard 
  
 **Summary:** Learn about what to consider when you plan for the Call Quality Dashboard.
   
@@ -113,12 +113,12 @@ CQD provides QoE data archiving and fast and deep analysis of call quality data.
 CQD comes with several components, and it helps to understand the requirements of each component and their relationship with each other to obtain the simplest and best performing deployment of the tool. The following table describes the dependent component for each CQD component.
   
 
-|**Component name**|**Dependent component**|
+|Component name|Dependent component|
 |:-----|:-----|
-|QoE Archive  <br/> |Microsoft SQL Server  <br/> |
-|Cube  <br/> |Microsoft SQL Server Analysis Services  <br/> |
-|Portal  <br/> |Microsoft Information Services  <br/> |
-|Repository Service (part of Portal installation)  <br/> |Microsoft SQL Server  <br/> |
+|QoE Archive   |Microsoft SQL Server   |
+|Cube   |Microsoft SQL Server Analysis Services   |
+|Portal   |Microsoft Information Services   |
+|Repository Service (part of Portal installation)   |Microsoft SQL Server   |
    
 > [!NOTE]
 > For QoE Archive and Cube, certain deployment options require Business Intelligence or Enterprise editions of Microsoft SQL Server. Refer to the [Infrastructure requirements for CQD](plan.md#Infrastructure_Req) section below for more details.
@@ -156,17 +156,17 @@ CQD does not merge data from multiple QoEMetrics databases, as is the case where
 
 CQD, including all its components and dependent components, can be deployed on a virtual machine, a single machine, or across multiple machines. The minimum software and hardware requirements are listed below. Data availability and query performance can vary from minutes to hours, depending on the number of active Skype for Business Server users and hardware and configuration, so some performance measurements are given below.
   
-|||
-|:-----|:-----|
-|For CQD 2015 <br/> |  <br/> |
-|Supported Operating Systems  <br/> |Windows Server 2008 R2, Windows Server 2012, Windows Server 2012 R2  <br/> |
-|Supported SQL Server  <br/> |SQL Server 2012, SQL Server 2014, SQL Server 2016  <br/> |
 
-|||
+|For CQD 2015 |&nbsp;  |
 |:-----|:-----|
-|For CQD 2019 <br/> |  <br/> |
-|Supported Operating Systems  <br/> |Windows Server 2016, Windows Server 2019  <br/> |
-|Supported SQL Server  <br/> |SQL Server 2017, SQL Server 2019  <br/> |
+|Supported Operating Systems   |Windows Server 2008 R2, Windows Server 2012, Windows Server 2012 R2   |
+|Supported SQL Server   |SQL Server 2012, SQL Server 2014, SQL Server 2016   |
+
+
+|For CQD 2019  |&nbsp;  |
+|:-----|:-----|
+|Supported Operating Systems   |Windows Server 2016, Windows Server 2019   |
+|Supported SQL Server   |SQL Server 2017, SQL Server 2019   |
    
 CQD utilizes Microsoft SQL Server, Microsoft SQL Server Analysis Services, and Microsoft Internet Information Services so CQD's minimum hardware and software requirements are basically the same as those dependent components. However, based on the organization's requirements around data freshness (which will depend in part on the volume of QoE data the organization generates) and deployment cost, additional deployment considerations should be made.
   
@@ -188,27 +188,27 @@ This section makes the assumption that there is a single QoEMetrics DB in the en
   
 **Machine profiles**
 
-|**Machine**|**CPU Cores**|**RAM**|**QoE Archive and Cube on same disk**|**QoE Archive and SQL Temp DB on same disk**|
+|Machine|CPU Cores|RAM|QoE Archive and Cube on same disk|QoE Archive and SQL Temp DB on same disk|
 |:-----|:-----|:-----|:-----|:-----|
-|Virtual machine  <br/> |4  <br/> |7 GB  <br/> |Yes  <br/> |Yes  <br/> |
-|4 core  <br/> |4  <br/> |20 GB  <br/> |Yes  <br/> |No  <br/> |
-|8 core  <br/> |8  <br/> |32 GB  <br/> |Yes  <br/> |No  <br/> |
-|16 core  <br/> |16  <br/> |128 GB  <br/> |No  <br/> |No  <br/> |
+|Virtual machine   |4   |7 GB   |Yes   |Yes   |
+|4 core   |4   |20 GB   |Yes   |No   |
+|8 core   |8   |32 GB   |Yes   |No   |
+|16 core   |16   |128 GB   |No   |No   |
    
 **Performance results**
 
-|**Machine**|**QoE metrics DB size**|**SQL partitions**|**Disk type**|**Number of streams**|**Initial Archive process**|**Initial Cube process**|**Subsequent Archive process**|**Subsequent Cube process**|
+|Machine|QoE metrics DB size|SQL partitions|Disk type|Number of streams|Initial Archive process|Initial Cube process|Subsequent Archive process|Subsequent Cube process|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Virtual machine  <br/> |900 MB  <br/> |Single  <br/> |VHD (variable-size)  <br/> |.5 M  <br/> |30 m  <br/> |2 m  <br/> |30 s  <br/> |1 m  <br/> |
-|Virtual machine  <br/> |9 GB  <br/> |Single  <br/> |VHD (variable-size)  <br/> |5 M  <br/> |4 h  <br/> |15 m  <br/> |1 m  <br/> |5 m  <br/> |
-|Virtual machine  <br/> |9 GB  <br/> |Single  <br/> |VHD (fixed-size)  <br/> |5 M  <br/> |2 h  <br/> |5 m  <br/> |1 m  <br/> |5 m  <br/> |
-|Virtual machine  <br/> |30+ GB  <br/> |Single  <br/> |VHD (fixed-size)  <br/> |10 M  <br/> |15 h  <br/> |20 m  <br/> |2 m  <br/> |45 m  <br/> |
-|8 core  <br/> |9 GB  <br/> |Single  <br/> |Multiple Disks  <br/> |5 M  <br/> |2 h  <br/> |5 m  <br/> |25 s  <br/> |5 m  <br/> |
-|8 core  <br/> |9 GB  <br/> |Multiple  <br/> |Multiple Disks  <br/> |5 M  <br/> |2 h  <br/> |15 m  <br/> |35 s  <br/> |2 m  <br/> |
-|8 core  <br/> |30+ GB  <br/> |Single  <br/> |Multiple Disks  <br/> |20 M  <br/> |9 h  <br/> |20 m  <br/> |1 m  <br/> |20 m  <br/> |
-|8 core  <br/> |30+ GB  <br/> |Multiple  <br/> |Multiple Disks  <br/> |20 M  <br/> |9 h  <br/> |30 m  <br/> |2 m  <br/> |2 m  <br/> |
-|4 core  <br/> |200 GB  <br/> |Single  <br/> |Multiple Disks  <br/> |125 M  <br/> |6+ days  <br/> |7 h  <br/> |2 m  <br/> |6 h  <br/> |
-|16 core  <br/> |500 GB  <br/> |Multiple  <br/> |Multiple Spindles  <br/> |250 M  <br/> |8 days  <br/> |2 h  <br/> |2 m  <br/> |10 m  <br/> |
+|Virtual machine   |900 MB   |Single   |VHD (variable-size)   |.5 M   |30 m   |2 m   |30 s   |1 m   |
+|Virtual machine   |9 GB   |Single   |VHD (variable-size)   |5 M   |4 h   |15 m   |1 m   |5 m   |
+|Virtual machine   |9 GB   |Single   |VHD (fixed-size)   |5 M   |2 h   |5 m   |1 m   |5 m   |
+|Virtual machine   |30+ GB   |Single   |VHD (fixed-size)   |10 M   |15 h   |20 m   |2 m   |45 m   |
+|8 core   |9 GB   |Single   |Multiple Disks   |5 M   |2 h   |5 m   |25 s   |5 m   |
+|8 core   |9 GB   |Multiple   |Multiple Disks   |5 M   |2 h   |15 m   |35 s   |2 m   |
+|8 core   |30+ GB   |Single   |Multiple Disks   |20 M   |9 h   |20 m   |1 m   |20 m   |
+|8 core   |30+ GB   |Multiple   |Multiple Disks   |20 M   |9 h   |30 m   |2 m   |2 m   |
+|4 core   |200 GB   |Single   |Multiple Disks   |125 M   |6+ days   |7 h   |2 m   |6 h   |
+|16 core   |500 GB   |Multiple   |Multiple Spindles   |250 M   |8 days   |2 h   |2 m   |10 m   |
    
 \*These are not expected to be encountered in real deployments because the QoE Metrics database would have to have 9 and 18 months of data, respectively, but they're provided here for completeness.
   
@@ -290,11 +290,9 @@ add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net,
 ```
 
 The following versions of SQL Server are supported:
-  
-|||
-|:-----|:-----|
-| CQD 2015 <br/> |  SQL Server 2012, SQL Server 2014, SQL Server 2016  |
-|CQD 2019 <br/> |  SQL Server 2017, SQL Server 2019  |
+
+- CQD 2015: SQL Server 2012, SQL Server 2014, SQL Server 2016
+- CQD 2019: SQL Server 2017, SQL Server 2019 
     
 Business Intelligence or Enterprise edition is recommended for performance reasons. These editions allow use of multiple partition files that can be processed in parallel, which is beneficial for processing data spanning multiple months or longer. 
   

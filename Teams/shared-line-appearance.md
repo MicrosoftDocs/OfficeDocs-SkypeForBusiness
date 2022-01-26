@@ -33,7 +33,7 @@ Shared line appearance is part of the delegation feature that lets a user choose
 
 ## License required
 
-A user must be have Phone System with PSTN connectivity (either a Calling Plan license or Direct Routing OnlineVoiceRoutingPolicy) to be a delegate or set up delegation and enable others to make or receive calls on their behalf.
+A user must have Phone System with PSTN connectivity (either a Calling Plan license or Direct Routing OnlineVoiceRoutingPolicy) to be a delegate or set up delegation and enable others to make or receive calls on their behalf.
 
 Both managers and delegates need to have Phone System with PSTN connectivity (either a Calling Plan license or Direct Routing OnlineVoiceRoutingPolicy). The shared line experience is part of delegation and is included with Phone System. For additional details on the licensing model, See [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
 
@@ -58,10 +58,10 @@ Shared line appearance is currently supported by the following apps and devices.
 | Receive calls on behalf of another | Yes | Yes | Yes | Yes | Yes |
 | Call a phone number on behalf of another | Yes | Yes | Yes | Yes | Yes |
 | Call a Teams user on behalf of another | Yes | Yes | Yes | Yes | Yes |
-| See the admin view of shared lines | Yes | Yes | Yes | No | No |
-| See the admin view of manager's call activities | Yes | Yes | Yes | No | No |
+| See the delegate view of shared lines | Yes | Yes | Yes | No | No |
+| See the delegate view of manager's call activities | Yes | Yes | Yes | No | No |
 | See the manager view of delegates | Yes | Yes | Yes | No | No |
-| Admin or manager can hold or resume | Yes | Yes | Yes | No | No |
+| Delegate or manager can hold or resume | Yes | Yes | Yes | No | No |
 
 ## Limitations
 

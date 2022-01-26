@@ -1,7 +1,7 @@
 ---
 title: Use OneDrive for Business and SharePoint for meeting recordings
-author: cichur
-ms.author: v-cichur
+author: serdars
+ms.author: v-mahoffman
 ms.reviewer: debhag
 manager: serdars
 ms.topic: article
@@ -22,7 +22,7 @@ appliesto:
 # Use OneDrive for Business and SharePoint or Stream for meeting recordings
 
 > [!NOTE]
-> The change of storing Teams meeting recordings from Classic Stream to OneDrive and SharePoint (ODSP) has been completed as of August 30th, 2020. All recordings are now stored in ODSP. This change overrides the RecordingStorageMode policy, and modifying the setting in PowerShell no longer has any impact.
+> The change of storing Teams meeting recordings from Classic Stream to OneDrive and SharePoint (ODSP) has been completed as of August 30th, 2021. All recordings are now stored in ODSP. This change overrides the RecordingStorageMode policy, and modifying the setting in PowerShell no longer has any impact.
 
 |Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Event&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                                                                                                                                                                                                                                                             |
 |:-----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -91,7 +91,7 @@ The meeting recording option is a setting at the Teams policy level. The followi
    ```
 
 > [!Note]
-> If some of your users have assigned a per-organizer or per-user policy, you must set this setting on this policy if you want them to also store the meeting recordings in OneDrive for Business and SharePoint. For more information, see [Manage meeting policies in Teams](meeting-policies-in-teams.md).
+> If some of your users have assigned a per-organizer or per-user policy, you must set this setting on this policy if you want them to also store the meeting recordings in OneDrive for Business and SharePoint. For more information, see [Manage meeting policies in Teams](meeting-policies-overview.md).
 
 ## Opt out of OneDrive for Business and SharePoint to continue using Stream
 
@@ -137,7 +137,7 @@ By default, all recording files will go to the OneDrive account of the user who 
 
 **How do I handle recordings from former employees?**
 
-Since videos are just like any other file in OneDrive for Business and SharePoint, handling ownership and retention after an employee leaves will follow the normal [OneDrive for Business and SharePoint process](/onedrive/retention-and-deletion#the-onedrive-deletion-process).
+Since videos are just like any other file in OneDrive for Business and SharePoint, handling ownership and retention after an employee leaves will follow the normal [OneDrive for Business and SharePoint process](/onedrive/retention-and-deletion).
 
 **Who has the permissions to view the meeting recording?**
 
@@ -150,7 +150,7 @@ Since videos are just like any other file in OneDrive for Business and SharePoin
 
 **How can I manage captions?**
 
-Closed captions for Teams meeting recordings will be available during playback only if the user had transcription turned on at the time of recording. Admins must [turn on recording transcription via policy](/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) to ensure their users have the option to record meetings with transcription.
+Closed captions for Teams meeting recordings will be available during playback only if the user had transcription turned on at the time of recording. Admins must [turn on recording transcription](meetings-policies-recording-and-transcription.md#allow-transcription) to ensure their users have the option to record meetings with transcription.
 
 Captions help create inclusive content for viewers of all abilities. As an owner, you can hide captions on the meeting recording, although the meeting transcript will still be available on Teams unless you delete it there.
 
@@ -178,11 +178,11 @@ Stream as a platform won't be deprecated in the near future. The videos that cur
 
 **How do I apply a retention label to Microsoft Teams meeting recordings?**
 
-See [How to auto-apply a retention label](/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings).
+See [How to auto-apply a retention label](/microsoft-365/compliance/apply-retention-labels-automatically).
 
 **How do I assign policies to my users in Microsoft Teams and which policies take precedence?**
 
-See [Which policy takes precedence?](./assign-policies.md#which-policy-takes-precedence).
+See [Which policy takes precedence?](./policy-assignment-overview.md#which-policy-takes-precedence).
 
 **Where does the recording go if the user doesn't have OneDrive for Business or SharePoint, or the storage quota is full?**
 

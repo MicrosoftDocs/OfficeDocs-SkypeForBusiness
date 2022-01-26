@@ -48,9 +48,9 @@ The following table briefly summarizes the three types of meetings, the number o
 | Live events | Up to 20,000** |-Broadcast to large audiences. <br>-Moderated Q&A for audience interaction. <br> -Can specify producers and presenters, including external presenters.<br>-Supports more advanced production capabilities. | No |
 ||||
 
-*The usual 10,000 is increased to 20,000 through December 31, 2021.<br>
+*The usual 10,000 is increased to 20,000 through June 30, 2022.<br>
 
-**The usual 10,000 is increased to 20,000 through December 31, 2021. You can schedule even greater numbers with live events in Yammer and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365). Note that events over 20,000 attendees require the [Live Events Assistance Program](/stream/live-events-assistance). 
+**The usual 10,000 is increased to 20,000 through June 30, 2022. You can schedule even greater numbers with live events in Yammer and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365). Note that events over 20,000 attendees require the [Live Events Assistance Program](/stream/live-events-assistance). 
 
 **Considerations for large meetings, webinars, and live events** - When hosting large meetings, consider the following:
 
@@ -110,7 +110,7 @@ The following table lists training available to the end users in your organizati
 | Training | Description | 
 |----------|--------|
 | [Get started with Teams webinars](https://support.microsoft.com/office/get-started-with-teams-webinars-42f3f874-22dc-4289-b53f-bbc1a69013e3) | A quick training video for users who are new to Teams webinars. |
-| [Visual quick start guide](https://teamworktools.azurewebsites.net/assets/TeamsWebinarsGetStartedGuide.pdf) | A downloadable visual guide that describes how to start scheduling webinars.  |
+| [Visual quick start guide](https://adoption.microsoft.com/files/assets/TeamsWebinarsGetStartedGuide.pdf) | A downloadable visual guide that describes how to start scheduling webinars.  |
 ||
 
 

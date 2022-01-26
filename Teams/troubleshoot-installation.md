@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot Microsoft Teams installation and update issues on Windows
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: lenatarhun
 ms.topic: article
@@ -118,7 +118,7 @@ Troubleshooting tips:
 - To confirm that is the issue that you're experiencing, quit Teams (right-click Teams on the task bar, and then click **Quit**). Then, open Task Manager in Windows to see whether an instance of Teams is still running.  
 - If you’re not on the computer that's having this issue, inspect the SquirrelTemp.log collected from the computer that's experiencing this issue and look for a "Program: Unable to terminate the process in the log" entry.
 - To determine what's preventing Teams.exe from exiting, look at the Dlls.txt and Handles.txt logs. These tell you the processes that prevented Teams from exiting.
-- Another culprit that can prevent Teams from exiting is the kernel-mode file system filter driver. Use the SysInternals tool, [ProcDump](/sysinternals/downloads/procdump), to collect the kernel-mode process dump by running ```procdump -mk <pid>```, where <pid> is the process ID obtained from Task Manager. You can also inspect the Driverquery.txt log file to see the active filter drivers that may interfere with Teams.
+- Another culprit that can prevent Teams from exiting is the kernel-mode file system filter driver. Use the SysInternals tool, [ProcDump](/sysinternals/downloads/procdump), to collect the kernel-mode process dump by running ```procdump -mk <pid>```, where \<pid> is the process ID obtained from Task Manager. You can also inspect the Driverquery.txt log file to see the active filter drivers that may interfere with Teams.
 - To recover from this state, restart the computer.
 
 #### File permissions

@@ -30,7 +30,9 @@ This article describes the meeting policy settings specific to recording and tra
 
 ## Allow transcription
 
-This is a combination of a per-organizer and per-user policy. This setting controls whether captions and transcription features are available during playback of meeting recordings. If you turn off this setting, the **Search** and **CC** options won't be available during playback of a meeting recording. The person who started the recording needs this setting turned on so that the recording also includes transcription.
+This is a combination of a per-organizer and per-user policy. This setting controls whether captions and transcription features are available during playback of meeting recordings. The person who started the recording needs this setting turned on for these features to work with their recording.
+
+Turning this setting on creates a copy of the transcript that is stored with the meeting recording which enables **Search**, **CC**, and **transcripts** on the meeting recording.
 
 Transcription for recorded meetings is currently only supported for users who set their language to or speak English in Teams meetings.
 

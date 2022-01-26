@@ -36,7 +36,7 @@ For Skype for Business Online organizations, you can use the Remote PowerShell i
   
 ## Switching the Skype for Business user interface for users
 
-The Windows PowerShell module for Skype for Business Online enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). For other information, see [Configuring your computer for Skype for Business Online management](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+The Windows PowerShell module for Skype for Business Online enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers can be downloaded from the Microsoft Download Center at [Download and install the Teams PowerShell module](../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md). For other information, see [Configuring your computer for Skype for Business Online management](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 > [!IMPORTANT]
 > The  _Global_ policy setting for switching the user interface won't be applied to a user that already has a custom policy applied. To be able to change the user interface, you will need to run the following for each user that has a custom policy applied:

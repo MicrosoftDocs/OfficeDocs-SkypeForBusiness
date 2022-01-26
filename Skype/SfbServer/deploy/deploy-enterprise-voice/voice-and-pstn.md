@@ -1,8 +1,8 @@
 ---
 title: "Configure voice policies, PSTN usage records, and voice routes in Skype for Business"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
