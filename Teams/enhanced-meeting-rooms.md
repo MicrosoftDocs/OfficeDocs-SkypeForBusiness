@@ -25,19 +25,19 @@ appliesto:
 
 ![Rendering of an enhanced meeting room.](media/emr1.png)
 
-This article is the first in a series that explores how Microsoft is transforming standard conference rooms into "enhanced meeting rooms" that bring the best of the new Teams front row experience. Use this article for room design and technology guidance, recommended products, retrofitting tips, and Microsoft Corporate Facilities reference specifications.
+This article explores how Microsoft is transforming standard conference rooms into "enhanced meeting rooms" that bring the best of the new Teams front row experience. Use this article for room design and technology guidance, recommended products, retrofitting tips, and Microsoft Corporate Facilities reference specifications.
 
 ## Microsoft’s vision for the future of meeting rooms
 
 The future of work will be fluid, dynamic, and powered by the cloud. Microsoft enables meeting experiences that allow people to be there, from anywhere, at any time. These meetings are hybrid, which means you can join them seamlessly. Meetings enhanced with Microsoft devices are inclusive; every voice is heard, and everyone is clearly represented.
 
-Microsoft sees a future where meetings are immersive and spaces are designed around people. Our dynamic meeting views keep everyone connected to the content and each other. Formal presentations are paired with collaborative chats, digital canvases unleash group creativity, and everyone can connect face to face wherever they are.
+Microsoft sees a future where meetings are immersive and spaces are designed around people. Our dynamic meeting views keep everyone connected to the content and each other. Formal presentations are paired with collaborative chats. Digital canvases unleash group creativity. Everyone can connect face to face wherever they are.
 
 The vision for the future of meetings is grounded in a simple belief: meetings should offer so much more than just a one-time transaction. Meetings will be designed for everyone, whether they’re in the room or across the world.
 
 ## What is an enhanced meeting room?
 
-In Microsoft’s hybrid workplace, the next generation of room standards are informed by the needs of both remote and in-room participants. An enhanced meeting room is a Microsoft Teams Room that is designed to deliver an *elevated* hybrid meeting experience, fostering more natural and immersive connections while enabling everyone in the meeting to feel included, represented, and productive. An enhanced meeting room follows a set of principles made real through a combination of Teams Rooms software and hardware capabilities and room configuration guidance.
+In Microsoft’s hybrid workplace, the next generation of room standards are informed by the needs of both remote and in-room participants. An enhanced meeting room is a Microsoft Teams Room designed to deliver an *elevated* hybrid meeting experience, fostering more natural and immersive connections while enabling everyone in the meeting to feel included, represented, and productive. An enhanced meeting room follows a set of principles made real through a combination of Teams Rooms software and hardware capabilities and room configuration guidance.
 
 The concept for the enhanced meeting room is designed around two key goals that are supported by a set of experience principles.
 
@@ -61,9 +61,9 @@ An enhanced meeting room experience is all those components and ideas put togeth
 
 Examples of specific feature deployment:
 
--   Taking advantage of our new front row front-of-room display experience in all types of meeting spaces where there is a Microsoft Teams Room solution that supports it.
+-   Take advantage of our new front row front-of-room display experience in all types of meeting spaces where there is a Microsoft Teams Room solution that supports it.
 
--   Implementing curved tables and front-facing layouts with traditional Microsoft Teams Room experiences to promote better human connection in the room while maintaining continuity of experience across all meeting spaces.
+-   Implement curved tables and front-facing layouts with traditional Microsoft Teams Room experiences to promote better human connection in the room while maintaining continuity of experience across all meeting spaces.
 
 ## When should you deploy enhanced meeting rooms?
 
