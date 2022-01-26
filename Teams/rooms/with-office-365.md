@@ -43,13 +43,56 @@ This article will walk you through the steps needed to successfully create a res
 
 1. You will need to determine if you need to create a new account or if you can convert an existing Microsoft Exchange room mailbox into a resource account. If you do not already have a Microsoft Exchange room mailbox for the room or space into which you will be installing the Teams device, you will need to create a new resource account using the New-Mailbox PowerShell cmdlet. If a room mailbox already exists, you can convert it to a resource account using the Set-Mailbox PowerShell cmdlet.
 
+> [Important!]
+> We recommend you standardize on a naming convention for all of your resource accounts, such as adding "mtr-" to the beginning of the e-mail address. This will help with creating dynamic groups to ease management in Azure Active Directory.
+
 2. Once the account has been created (or converted to a resource account), you should apply recommended parameters to the resource account, such as automatically accepting meeting invites.
 
 3. Shared Teams devices require that the resource accounrt password does not expire. Therefore, the next step is to disable password expiration.
 
 4. Finally, you need to assign an appropriate Microsoft 365 or Office 365 license so the account can sign in to Microsoft Teams.
 
-## Create resource account using PowerShell
+## Create a resource account in the Microsoft 365 admin center
+
+1. Sign in to the Microsoft 365 admin center
+
+2. Provide the admin credentials for your Microsoft 365 tenant. This will take you to your Microsoft 365 admin center.
+
+:::image type="content" source="../media/teams-resourceaccount-m365-admin-center.png" alt-text="Microsoft 365 admin center.":::
+3. In the admin center, navigate to **Resources** in the left panel (you might need to select **Show all** first), and then select **Rooms & equipment**.
+
+:::image type="content" source="../media/teams-resourceaccount-m365-resources-rooms" alt-text="Microsoft 365 admin center - Resources.":::
+4. Select **Add a resource mailbox** to create a new room account. Enter a display name and email address for the account, select **Add**, and then select **Close**.
+
+> [!NOTE]
+> By default, resource accounts are set up with the following settings. If you want to change them, select **Set scheduling options** before you select **Close**. If you want to change them later, navigate to **Resources** > **Rooms & equipment**, select the resource account and then select **Edit** under **Booking options**.
+>
+> - Allow repeat meetings
+> - Automatically decline meetings outside of the following limits
+>   - Booking window (days): 180
+>   - Maximum duration (hours): 24
+> - Auto accept meeting requests
+
+:::image type="content" source="../media/teams-resourceaccount-m365-admin-create-room-resource" alt-text="Microsoft 365 admin center - Add resources.":::
+
+5. Navigate to the **Users** section in admin center and, in the **Active users** list, you will see the room you just created.
+
+:::image type="content" source="../media/teams-resourceaccount-m365-admin-accounts.png" alt-text="Microsoft 365 admin center - See active users.":::
+6. Select on the name of the room and an account properties panel will appear on the right.
+
+:::image type="content" source="../media/teams-resourceaccount-m365-active-user-settings.png" alt-text="Microsoft 365 admin center - User properties.":::
+7. Now you need to assign a password to the resource account. In the panel, you can see the account properties and several optional actions. Select the **Reset password** key icon under the username to change the password. Unselect **Require this user to change their password when they first sign in**. It is not possible to change the password via the device sign-in process. Select **Reset**.
+
+:::image type="content" source="../media/teams-resourceaccount-m365-admin-center-active-user-password.png" alt-text="Microsoft 365 admin center - Reset password.":::
+8. In the **Licenses and Apps** section, set **Select location** to the country or region where the device will be installed. Scroll down and check the box next to the license to be assigned - such as Meeting Room - and then select **Save changes**. The license may vary depending on your organization.
+
+:::image type="content" source="../media/teams-resourceaccount-m365-admin-center-active-user-assign-license.png" alt-text="Microsoft 365 admin center - Assign license.":::
+
+You can change the settings of the resource mailbox, such as adding an additional response,  using Exchange admin center or via the PowerShell cmdlets shown in the [Configure mailbox properties](#configure-mailbox-properties) section of this article.
+
+You may also need to apply bandwidth policies or meeting policies to this account. See the [Additional considerations](#additional-considerations) section of this article for more information.
+
+## Create a resource account using PowerShell
 
 #### [**With Exchange Online**](#tab/exchange-online)
 1. Connect to Exchange Online PowerShell.
@@ -149,6 +192,8 @@ In Exchange PowerShell (either online or on-premises), configure the following s
 
    - DeleteSubject: $false (Keep the subject of incoming meeting requests.)
 
+   - ProcessExternalMeetingMessages: $true (Specifies whether to process meeting requests that originate outside the Exchange organization. Required for [Direct Guest Join](/microsoftteams/rooms/third-party-join).)
+
    - RemovePrivateProperty: $false (Ensures the private flag that was sent by the meeting organizer in the original meeting request remains as specified.)
 
    - AddAdditionalResponse: $true (The text specified by the AdditionalResponse parameter is added to meeting requests.)
@@ -158,7 +203,7 @@ In Exchange PowerShell (either online or on-premises), configure the following s
    This example configures these settings on the room mailbox named ConferenceRoom01.
 
    ``` PowerShell
-   Set-CalendarProcessing -Identity "ConferenceRoom01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
+   Set-CalendarProcessing -Identity "ConferenceRoom01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -ProcessExternalMeetingMessages $true -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
    ```
 
    For detailed syntax and parameter information, see [Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing).
@@ -293,46 +338,15 @@ The resource account needs to have a valid Microsoft 365 or Office 365 license, 
 ---
    For detailed instructions, see [Assign Microsoft 365 licenses to user accounts with PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell).
 
-## Create a resource account in the Microsoft 365 admin center
-
-1. Sign in to the Microsoft 365 admin center
-
-2. Provide the admin credentials for your Microsoft 365 tenant. This will take you to your Microsoft 365 admin center.
-
-:::image type="content" source="../media/teams-resourceaccount-m365-admin-center.png" alt-text="Microsoft 365 admin center.":::
-3. In the admin center, navigate to **Resources** in the left panel (you might need to select **Show all** first), and then select **Rooms & equipment**.
-
-:::image type="content" source="../media/teams-resourceaccount-m365-resources-rooms" alt-text="Microsoft 365 admin center - Resources.":::
-4. Select **Add a resource mailbox** to create a new room account. Enter a display name and email address for the account, select **Add**, and then select **Close**. We recommend you standardize on a naming convention for all of your resource accounts, such as adding "mtr-" to the beginning of the e-mail address. You may also want to add a value in the capacity field. This will help if you deploy in-room attendee counting features in Teams Rooms.
-
-> [!NOTE]
-> By default, resource accounts are set up with the following settings. If you want to change them, select **Set scheduling options** before you select **Close**. If you want to change them later, navigate to **Resources** > **Rooms & equipment**, select the resource account and then select **Edit** under **Booking options**.
->
-> - Allow repeat meetings
-> - Automatically decline meetings outside of the following limits
->   - Booking window (days): 180
->   - Maximum duration (hours): 24
-> - Auto accept meeting requests
-
-:::image type="content" source="../media/teams-resourceaccount-m365-admin-create-room-resource" alt-text="Microsoft 365 admin center - Add resources.":::
-
-5. Navigate to the **Users** section in admin center and, in the **Active users** list, you will see the room you just created.
-
-:::image type="content" source="../media/teams-resourceaccount-m365-admin-accounts.png" alt-text="Microsoft 365 admin center - See active users.":::
-6. Select on the name of the room and an account properties panel will appear on the right.
-
-:::image type="content" source="../media/teams-resourceaccount-m365-active-user-settings.png" alt-text="Microsoft 365 admin center - User properties.":::
-7. Now you need to assign a password to the resource account. In the panel, you can see the account properties and several optional actions. Select the **Reset password** key icon under the username to change the password. Unselect **Require this user to change their password when they first sign in**. It is not possible to change the password via the device sign-in process. Select **Reset**.
-
-:::image type="content" source="../media/teams-resourceaccount-m365-admin-center-active-user-password.png" alt-text="Microsoft 365 admin center - Reset password.":::
-8. In the **Licenses and Apps** section, set **Select location** to the country or region where the device will be installed. Scroll down and check the box next to the license to be assigned - such as Meeting Room - and then select **Save changes**. The license may vary depending on your organization.
-
-:::image type="content" source="../media/teams-resourceaccount-m365-admin-center-active-user-assign-license.png" alt-text="Microsoft 365 admin center - Assign license.":::
-
-You can change the settings of the resource mailbox, such as adding an additional response,  using Exchange admin center or via the PowerShell cmdlets shown in the [Configure mailbox properties](#configure-mailbox-propertieswith-office-365md) section of this article.
-
-##Skype for Business
+## Skype for Business
 If you need to enable your resource account to also work with Skype for Business, see [Deploy Microsoft Teams Rooms with Skype for Business Server](with-skype-for-business-server-2015.md)
+
+## Additional considerations
+If necessary, you may need to apply custom network or bandwidth policies or Meeting policies to this account. For more information on network and bandwidth policies, see [Meeting policy settings for audio & video](/microsoftteams/meeting-policies-audio-and-video). For more information on Teams meeting policies, see [Manage meeting policies in Microsoft Teams](/microsoftteams/meeting-policies-overview).
+
+If you need to enable the resource account for Microsoft Teams Phone System, see [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
+
+
 ## Validate
 
 For validation, you should be able to use any Microsoft Teams client to sign in to the account you created.
@@ -344,8 +358,6 @@ For validation, you should be able to use any Microsoft Teams client to sign in 
 [Plan for Microsoft Teams Rooms](rooms-plan.md)
 
 [Deploy Microsoft Teams Rooms](rooms-deploy.md)
-
-[Configure a Microsoft Teams Rooms console](console.md)
 
 [Manage Microsoft Teams Rooms](rooms-manage.md)
 
