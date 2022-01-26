@@ -53,7 +53,7 @@ For this discussion, assume that Contoso runs multiple businesses across the glo
 - **In the APAC region**, Contoso has multiple offices in different countries. 
 
   In many countries, the company still has time-division multiplexing (TDM) trunks in local branch offices. Centralization of the TDM trunks is not an option in the APAC region, so switching to 
-SIP is not possible. Assume there are more than fifty Contoso branch offices across the APAC region with hundreds of gateways (SBCs). In this scenario, it is not possible to pair all gateways to the Direct Routing interface because of a lack of public IP addresses and/or local internet breakouts. In addition, some countries impose regulatory requirements that cannot be fulfilled without having local PSTN network connectivity.
+SIP is not possible. Assume there are more than 50 Contoso branch offices across the APAC region with hundreds of gateways (SBCs). In this scenario, it is not possible to pair all gateways to the Direct Routing interface because of a lack of public IP addresses and/or local internet breakouts. In addition, some countries impose regulatory requirements that cannot be fulfilled without having local PSTN network connectivity.
 
 Based on their business requirements, Contoso implemented two solutions with Local Media Optimization for Direct Routing:
 
@@ -261,7 +261,7 @@ Diagram 6.  Traffic flow with “Always Bypass” mode and the user is not in �
 
 If there are bad connections between local branch offices but good connections between each local branch office and regional office, then the recommended mode is “Only For Local Users”.
 
-For example, in the APAC region, assume Contoso has multiple offices in different countries. For many countries, switching to SIP is not possible because the company still has TDM trunks in many local branch offices. Centralization of the TDM trunks is not an option in the APAC region. Moreover, there are more than fifty Contoso branch offices across the APAC region with hundreds of gateways (SBCs). 
+For example, in the APAC region, assume Contoso has multiple offices in different countries. For many countries, switching to SIP is not possible because the company still has TDM trunks in many local branch offices. Centralization of the TDM trunks is not an option in the APAC region. Moreover, there are more than 50 Contoso branch offices across the APAC region with hundreds of gateways (SBCs). 
 
 To build a solution where PSTN services are provided in all local branch offices in the APAC region where centralization of the TDM trunks is not an option, the Contoso administrator pairs one regional SBC in Singapore as the proxy SBC to the Direct Routing service. The direct connection between the local branch offices is not good, but there is a good connection between each local branch office and the regional SBC in Singapore. For the regional SBC, the administrator chooses ‘Always Bypass’ mode, and for the local downstream SBCs, the administrator chooses ‘Only For Local Users’ mode.
 
