@@ -91,7 +91,7 @@ In your Teams or Outlook calendar, go to the booking, and then select **Join** o
 
 ## Monitor virtual visits and get real-time status updates
 
-The queue view in Bookings provides your staff with a dashboard to monitor all virtual appointments for the day, with updates in real time. To see the queue, go to the **Queue** tab in Bookings.
+The [queue view](https://support.microsoft.com/office/queue-view-in-bookings-3eea2840-a1e0-4bcd-8e09-d3cf51c184d6) in Bookings provides your staff with a dashboard to monitor all virtual appointments for the day, with updates in real time. To see the queue, go to the **Queue** tab in Bookings.
 
 :::image type="content" source="../media/bookings-virtual-visits-queue.png" alt-text="Screenshot of the queue view in the Bookings app in Teams" lightbox="../media/bookings-virtual-visits-queue.png":::
 
