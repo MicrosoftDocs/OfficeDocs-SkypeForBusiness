@@ -38,7 +38,7 @@ To allow or block specific users in your organization from using Praise, make su
 
 ## Badges
 
-Here's the set of badges in Praise. Teams users in your organization can use these badges to recognize their peers for going above and beyond with their work.
+Here's the default set of badges in Praise. Teams users in your organization can use these badges to recognize their peers for going above and beyond with their work.
 
 :::image type="content" source="media/default-set-praise.png" alt-text="Image of badges in default badge set.":::
 
