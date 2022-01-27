@@ -260,6 +260,8 @@ Write-Host "Success"
 
 #Add a mapping 
 Write-Host "Adding a mapping"
+$TeamsTeamId = Read-Host -Prompt 'Input the Teams team ID that you want to link'
+$WfmTeamId = Read-Host -Prompt 'Input the WFM team ID that you want to link'
 New-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $InstanceId -TeamId $TeamsTeamId -TimeZone "America/Los_Angeles" -WfmTeamId $WfmTeamId
 Write-Host "Success"
 ```
@@ -289,14 +291,14 @@ If you want to unmap a team from one connection and map it to another connection
 
 To learn more, see [Get-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/get-csteamsshiftsconnectionteammap?view=teams-ps), [Remove-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/remove-csteamsshiftsconnectionteammap?view=teams-ps), and [New-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/new-csteamsshiftsconnectionteammap?view=teams-ps).
 
-## Disable a connection
+## Turn off sync for a connection
 
-Use this script to turn off sync for a connection. Keep in mind this script doesn't remove or delete a connection. It turns off sync so that no data is synced between Shifts and Blue Yonder for the connection that you specify. 
+Use this script to disable sync for a connection. Keep in mind this script doesn't remove or delete a connection. It turns off sync so that no data is synced between Shifts and Blue Yonder for the connection that you specify.
 
 [Set up your environment](#set-up-your-environment) (if you haven't already), and then run the following script.
 
 ```powershell
-#Oh oh! Script 
+#DisableSync script
 Write-Host "Oh oh! work flow"
 Start-Sleep 1
 
