@@ -36,13 +36,13 @@ Security administrators and operations teams must plan for the devices that can 
 
 ## Authentication recommendations are different for personal versus shared android devices
 
-Shared Teams devices can't use the same requirements for enrollment and compliance that are used on personal devices. Applying personal device authentication requirements to shared devices will cause sign-in issues.
+Shared Teams devices can't use the same requirements for enrollment and compliance that are used on personal devices. Applying personal device authentication requirements to shared devices will cause sign in issues.
 
 1.  **Devices are signed out due to password policies.**
 
-Accounts used on Teams devices have a password-expiration policy. Unlike users, the accounts used with shared devices don't have a designated user to update and restore them to a valid state when their passwords expire. If your organization requires passwords to expire and reset periodically, these accounts will stop functioning on Teams devices until a Teams administrator resets the password and signs back in.
+Accounts used on Teams devices have a password-expiration policy. The accounts used with shared devices don't have a specific user to update and restore them to a working state when their passwords expire. If your organization requires passwords to expire and reset occasionally, these accounts will stop working on Teams devices until a Teams administrator resets the password and signs back in.
 
-**Challenge**: When it comes to accessing Teams from a device, a person's account has a password-expiration policy. When the password is going to expire, they simply change it. But accounts used on *shared devices*(Resource accounts) may not be connected to a single person who can change a password as required. This means a password can expire and leave workers on the spot, not knowing how to resume their work.
+**Challenge**: When it comes to accessing. Teams from a device, a person's account has a password-expiration policy. When the password is going to expire, they simply change it. But accounts used on *shared devices*(Resource accounts) may not be connected to a single person who can change a password as required. This means a password can expire and leave workers on the spot, not knowing how to resume their work.
 
 When your organization requires a password reset or enforces password expiration, be sure a Teams administrator is prepared to reset the password so these shared accounts can sign back in.
 
