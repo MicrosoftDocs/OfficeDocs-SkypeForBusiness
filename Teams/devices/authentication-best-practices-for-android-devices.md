@@ -9,7 +9,7 @@ audience: ITPro
 ms.service: msteams
 search.appverid: MET150 
 ms.reviewer: 
-description: Best practices on shared android device management in Teams, featuring Conditional Access, password policy, multi-factor authentication, Intune enrollment, and Resource mailboxes / Resource accounts. And more.
+description: Best practices on shared android device management in Teams. This features Conditional Access, password policy, multi-factor authentication advice and more.
 ms.collection: 
   - M365-voice
   - M365-collaboration
@@ -24,9 +24,9 @@ appliesto:
 
 # Authentication best practices for Teams shared device management on Android devices
 
-The goals of devices used for Teams communication make different types of device management critical to your success. For example, a personal business tablet used by a single sales person has a different set of needs from a conference calling phone in a meeting room, or an on-call phone shared by many customer service people.
+The goals of devices used with Teams make different device management strategies necessary. For example, a personal business tablet used by a single sales person has a different set of needs from an on-call phone shared by many customer service people.
 
-Security administrators and operations teams must plan for the devices that can be used in the organization, and implement *security* measures best suited to each purpose. This article's recommendations make some of those decisions easier.
+Security administrators and operations teams must plan for the devices that can be used in the organization. They must  implement *security* measures best suited to each purpose. This article's recommendations make some of those decisions easier.
 
 >[!NOTE]
 >Conditional Access requires an Azure Active Directory (Azure AD) Premium subscription.
@@ -36,7 +36,7 @@ Security administrators and operations teams must plan for the devices that can 
 
 ## Authentication recommendations are different for personal versus shared android devices
 
-Shared Teams devices like meeting room devices or common area phones, can't use the same requirements for enrollment and compliance that are typically applied to personal devices. Applying personal device authentication requirements to shared devices will cause sign-in issues:
+Shared Teams devices can't use the same requirements for enrollment and compliance that are used on personal devices. Applying personal device authentication requirements to shared devices will cause sign-in issues.
 
 1.  **Devices are signed out due to password policies.**
 
