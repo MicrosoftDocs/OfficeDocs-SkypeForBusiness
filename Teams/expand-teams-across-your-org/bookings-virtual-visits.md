@@ -110,8 +110,8 @@ To learn more, see [Microsoft Bookings](/microsoft-365/bookings/bookings-overvie
 
 ## Related articles
 
-[Manage the join experience for Teams virtual visits on mobile browsers](mobile-browser-join.md)
+- [Manage the join experience for Teams virtual visits on mobile browsers](mobile-browser-join.md)
 
-[Get started with Teams for healthcare organizations](healthcare/teams-in-hc.md)
+- [Get started with Teams for healthcare organizations](healthcare/teams-in-hc.md)
 
-[Bookings app in Teams help documentation](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Bookings)
+- [Bookings app in Teams help documentation](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Bookings)
