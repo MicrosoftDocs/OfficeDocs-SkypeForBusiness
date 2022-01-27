@@ -45,9 +45,9 @@ If you're using a third-party workforce management (WFM) system for scheduling, 
 
 |&nbsp;  |&nbsp;  |
 |---------|---------|
-|<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | [Shifts connectors overview](shifts/shifts-connectors.md) Get an overview of Shifts connectors and how they work. Learn about the managed and open-source connectors that are available and the supported WFM systems.   |
-|<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | [Managed Shifts connectors](shifts/shifts-connectors.md#managed-shifts-connectors) Managed Shifts connectors, developed in collaboration with our partners, are hosted and managed either by us or our partners. See [Reflexis Shifts connector for Microsoft Teams](shifts/shifts-connectors.md#reflexis-shifts-connector-for-microsoft-teams) to learn more about how to integrate with the Reflexis WFM system.    |
-|<img src="/office/media/icons/api.png" alt="Three gears - API.">    | [Open-source Shifts connectors](/microsoftteams/platform/samples/shifts-wfm-connectors) Learn how to use [community-driven, open-source connectors](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors) to integrate your WFM system through Shifts Graph APIs and SDK.    |
+|<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[Shifts connectors overview](shifts/shifts-connectors.md)** Get an overview of Shifts connectors and how they work. Learn about the managed and open-source connectors that are available and the supported WFM systems.   |
+|<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[Managed Shifts connectors](shifts/shifts-connectors.md#managed-shifts-connectors)** Managed Shifts connectors, developed in collaboration with our partners, are hosted and managed either by us or our partners. If you're using the Reflexis WFM system, see [Reflexis Shifts connector for Microsoft Teams](shifts/shifts-connectors.md#reflexis-shifts-connector-for-microsoft-teams) to learn more.    |
+|<img src="/office/media/icons/api.png" alt="Three gears - API.">    | **[Open-source Shifts connectors](/microsoftteams/platform/samples/shifts-wfm-connectors)** Learn how to use [community-driven, open-source connectors](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors) to integrate your Kronos or JDA WFM system through Shifts Graph APIs and SDK.    |
 
 ## Shifts extensions
 
