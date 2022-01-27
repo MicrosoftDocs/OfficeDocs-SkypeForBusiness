@@ -28,7 +28,7 @@ Microsoft Teams can be installed on PCs, Macs, and mobile devices, and can also 
 
 For details about each client's capabilities on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
-## [Desktop](#tab/Desktop)
+## Desktop clients
 
 The Microsoft Teams desktop client is available as a standalone application and as part of [Microsoft 365 Apps for enterprise](/deployoffice/teams-install) for the following operating systems:
 
@@ -41,7 +41,7 @@ The Microsoft Teams desktop client is available as a standalone application and 
 
 Desktop clients can be downloaded and installed by end users directly from [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) if they have the appropriate local permissions. Admin permissions aren't required to install the Teams client on Windows PCs but are required on Macs.
 
-IT admins can choose their preferred method to distribute the installation files to computers in their organization. Some examples include Microsoft Endpoint Configuration Manager (Windows) or Jamf Pro (macOS). To get the MSI package for Windows distribution, see [Install Microsoft Teams using MSI](msi-deployment.md).
+IT Pros can choose their preferred method to distribute the installation files to computers in their organization. Some examples include Microsoft Endpoint Configuration Manager (Windows) or Jamf Pro (macOS). To get the MSI package for Windows distribution, see [Install Microsoft Teams using MSI](msi-deployment.md).
 
 > [!NOTE]
 > Distribution of the client via these mechanisms is only for the initial installation of Microsoft Teams clients and not for future updates.
@@ -51,7 +51,7 @@ IT admins can choose their preferred method to distribute the installation files
 > [!TIP]
 > Watch the following session to learn about the benefits of the Windows Desktop Client, how to plan for it, and how to deploy it: [Teams Windows Desktop Client](https://aka.ms/teams-clients)
 
-Teams on Windows provides downloadable installers in [32-bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true), [64-bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true), and [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) architectures. The x86 architecture (32-bit vs. 64-bit) of Microsoft Teams is agnostic to the architecture of Windows and Office that is installed. We recommend the 64-bit version of Microsoft Teams on 64-bit systems.
+Teams on Windows provides downloadable MSI installers in [32-bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true), [64-bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true), and [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) architectures. The x86 architecture (32-bit vs. 64-bit) of Microsoft Teams is agnostic to the architecture of Windows and Office that is installed. We recommend the 64-bit version of Microsoft Teams on 64-bit systems.
 
 Teams requires .NET Framework 4.5 or later. If .NET Framework or later isn't installed the Teams installer will offer to install for you.
 
@@ -78,8 +78,6 @@ If you want to prevent Teams from prompting users to create firewall rules when 
 
 Mac users can install Teams by using a PKG installation file for macOS computers. Administrative access is required to install the Mac client. The macOS client is installed to the /Applications folder.
 
-#### Install Teams by using the PKG file
-
 1. From the [Teams download page](https://teams.microsoft.com/downloads), under **Mac**, click **Download**.
 2. Double click the PKG file.
 3. Follow the installation wizard to complete the installation.
@@ -94,10 +92,7 @@ If a user currently has a DMG installation of Teams and wants to replace it with
 2. Uninstall the Teams app.
 3. Install the PKG file.
 
-IT admins can use managed deployment of Teams to distribute the installation files to all Macs in their organization, such as Jamf Pro.
-
-> [!NOTE]
-> If you experience issues installing the PKG, let us know. In the **Feedback** section at the end of this article, click **Product feedback**.
+IT Pros can use a managed deployment solution, such as Jamf Pro, to distribute the Teams installation files to all Macs in their organization.
 
 ### [Linux](#tab/Linux)
 
@@ -110,10 +105,6 @@ Users will be able to install native Linux packages in `.deb` and `.rpm` formats
 - RPM `https://packages.microsoft.com/yumrepos/ms-teams`
 
 The signing key to enable auto-updating using the system's package manager is installed automatically. However, it can also be found at: <https://packages.microsoft.com/keys/microsoft.asc>. Microsoft Teams ships monthly and if the repository was installed correctly, then your system package manager should handle auto-updating in the same way as other packages on the system.
-
-> [!NOTE] 
-> If you find a bug, submit it using `Report a Problem` from within the client. For known issues, see [Support Teams in your organization](/MicrosoftTeams/troubleshoot/teams-welcome).
-> For Teams for Linux support you can use the [Linux forum support channel on Microsoft Q&A](/answers/topics/teams.html). Be sure to use the `teams-linux` tag when posting questions. 
 
 #### Install Teams using DEB package
 
@@ -177,7 +168,7 @@ sudo zypper install teams
 
 ---
 
-## [Mobile](#tab/Mobile)
+## Mobile clients
 
 The Microsoft Teams mobile apps are available for Android and iOS, and are geared for on-the-go users participating in chat-based conversations and allow peer-to-peer audio calls. For mobile apps, go to the relevant mobile stores Google Play and the Apple App Store. The Windows Phone App was retired July 20, 2018 and may no longer work.
 
@@ -199,12 +190,10 @@ Mobile apps are distributed and updated through the respective mobile platformâ€
 |![An icon depicting a decision point.](media/Get_clients_for_Microsoft_Teams_image4.png)|Decision Point|Are there any restrictions preventing users from installing the appropriate Microsoft Teams client on their devices?|
 |![An icon depicting the next steps.](media/Get_clients_for_Microsoft_Teams_image5.png)|Next Steps|If your organization restricts software installation, make sure that process is compatible with Microsoft Teams. Note: Admin rights are not required for PC client installation but are required for installation on a Mac.|
 
-## [Web](#Tab/Web)
+## Browser client
 
-The web client ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) is a full, functional client that can be used from a variety of browsers. The web client supports Calling and Meetings by using webRTC, so there is no plug-in or download required to run Teams in a web browser. The browser must be configured to allow third-party cookies.
+The browser client ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) is a full, functional client that can be used from a variety of browsers. The browser client supports Calling and Meetings by using webRTC, so there is no plug-in or download required to run Teams in a browser. The browser must be configured to allow third-party cookies.
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
-The web client performs browser version detection upon connecting to [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753). If an unsupported browser version is detected, it will block access to the web interface and recommend that the user download the desktop client or mobile app.
-
----
+The browser client performs browser version detection upon connecting to [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753). If an unsupported browser version is detected, it will block access to the browser interface and recommend that the user download the desktop client or mobile app.
