@@ -97,8 +97,6 @@ items:
           items: 
             - name: Get clients for Teams
               href: get-clients.md
-            - name: Get Teams for Android in China
-              href: get-teams-android-in-china.md
             - name: Hardware requirements for the Teams app
               href: hardware-requirements-for-the-teams-app.md
             - name: Hardware decoder and encoder driver recommendations
