@@ -14,7 +14,7 @@ description: Learn about admin settings in the Praise app in the Microsoft Teams
 
 # Manage the Praise app in the Microsoft Teams admin center
 
-The Praise app in Microsoft Teams helps users show appreciation to members of their organization or classroom. The badges in Praise are designed to help recognize the effort that goes into the wide range of work that Teams users do, from educators to frontline workers. To learn more, check out [Send Praise to people](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e).
+The Praise app in Microsoft Teams helps users show appreciation to other members of your organization or classroom. The badges in Praise are designed to help recognize the effort that goes into the wide range of work that Teams users do, from educators to frontline workers. To learn more, check out [Send Praise to people](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e).
 
 Admins must have a Teams license to access this feature. If you try to access this feature without a Teams license, you'll get an error message.
 
@@ -35,14 +35,13 @@ Keep in mind that this setting affects both the Praise app and the Praise featur
 To allow or block specific users in your organization from using Praise, make sure Praise is turned on for your organization on the [Manage apps](manage-apps.md) page. Then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
 ## Badges
-<a name="default-badges"></br></a>
 
-The badges are designed to help Teams users recognize their peers for going above and beyond with their work.
+Here's the set of badges in Praise. Teams users in your organization can use these badges to recognize their peers for going above and beyond with their work.
 
 :::image type="content" source="media/default-set-praise.png" alt-text="Image of badges in default badge set.":::
 
 > [!NOTE]
-> Starting February 2022, people can only send and receive default badges. Custom badges are no longer available and options for custom badges are being removed from the **Settings** page in the Teams admin center soon.
+> Starting February 2022, people can only send and receive default badges. Custom badges are no longer available and options for custom badges are being removed from the app's **Settings** page in the Teams admin center soon.
 
 <!-- ## Badge set assets
 
