@@ -1,7 +1,7 @@
 ---
 title: Use the Teams App Submission API to submit and approve your custom apps
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: KarliStites
+ms.author: kastites
 manager: serdars
 ms.reviewer: joglocke, vaibhava
 ms.topic: article
@@ -63,7 +63,7 @@ The <a href="/microsoftteams/manage-apps" target="_blank">Manage apps</a> page i
 
 In the table, a newly submitted app automatically shows a **Publishing status** of **Submitted** and **Status** of **Blocked**. You can sort the **Publishing status** column in descending order to quickly find the app.
 
-![publishing status .](media/custom-app-lifecycle-validate-app.png)
+![publishing status.](media/custom-app-lifecycle-validate-app.png)
 
 Click the app name to go to the app details page. On the **About** tab, you can view details about the app, including description, status, submitter, and app ID.
 
@@ -78,7 +78,9 @@ When you're ready to make the app available to users, publish the app.
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
 2. Click the app name to go to the app details page, and then in the **Publishing status** box, select **Publish**.
 
-    After you publish the app, the **Publishing status** changes to **Published** and the **Status** automatically changes to **Allowed**.
+    ![Publish button on app detail page.](media/submitted-app-pending-action.png)
+
+After you publish the app, the **Publishing status** changes to **Published** and the **Status** automatically changes to **Allowed**.
 
 ## Set up and manage
 
@@ -100,7 +102,7 @@ Before you can search the audit log, you have to first turn on auditing in the <
 
 Users who have permissions to the app can find it in your organization's app store. Go to **Built for *Your Organization Name*** on the Apps page to find your organization's custom apps.
 
-![Apps page showing published app .](media/custom-app-lifecycle-discovery.png)
+![Apps page showing published app.](media/custom-app-lifecycle-discovery.png)
 
 If you created and assigned an app setup policy, the app is pinned to the app bar in Teams for easy access for those users who were assigned the policy.
 
