@@ -25,6 +25,8 @@ Admins must have a Teams license to access this feature. If you try to access th
 
 Praise is enabled by default for all Teams users in your organization. You can turn off or turn on the app at the org level on the [Manage apps](manage-apps.md) page in the Microsoft Teams admin center.
 
+:::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="Screenshot of the Praise app details page in the Teams admin center, showing the Status toggle.":::
+
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
 2. In the list of apps, search for the Praise app, select it, and then switch the **Status** toggle to **Blocked** or **Allowed**.
 
@@ -71,3 +73,7 @@ Starting in January 2022, what's currently available for badges will change. Soc
 The **Create a custom badge** option will also no longer be available as of January 2022.
 
 Additionally, the **Status** toggle in the Teams admin center that allows or block Praise will affect both the Praise app and the Praise feature in the Viva Insights app in Teams.-->
+
+## Related articles
+
+[Manage your apps in the Microsoft Teams admin center](manage-apps.md)
