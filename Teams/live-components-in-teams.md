@@ -93,7 +93,7 @@ PS C:\\WINDOWS\\system32&gt;
 
 - Live components are disabled in federated chats.
 
-- B2B guests will not be able to collaborate on live component that is shared with them via Company Share Link unless tenant sets external access option to allow B2B guests have same access level as tenant members.
+- B2B guests will not be able to collaborate on a live component that is shared with them via Company Share Link unless the tenant sets an external access option to allow B2B guests to have the same access level as tenant members. For more information, see [Configure B2B external collaboration settings](/azure/active-directory/external-identities/delegate-invitations#configure-b2b-external-collaboration-settings).
 
 - Teams Web client full support of Live components will be available soon.
 
