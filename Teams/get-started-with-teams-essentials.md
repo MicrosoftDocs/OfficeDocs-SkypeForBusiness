@@ -98,7 +98,7 @@ The following table lists the major Microsoft Teams features available across pl
 
 Here are a few important Teams Essentials limits and specifications to consider as an admin:
 
-  - **Administration:** A Teams Essentials subscription **does not** come with access to the Teams Admin Center. Teams Essentials users can enjoy a simplified view of the Microsoft 365 admin center to conduct important tasks like,managing  subscriptions and configuring new users.
+  - **Administration:** A Teams Essentials subscription **does not** come with access to the Teams Admin Center. Teams Essentials users can enjoy a simplified view of the Microsoft 365 admin center to conduct important tasks like, managing subscriptions and configuring new users.
 
   - **Microsoft Teams PowerShell:** You **cannot** manage Teams Essentials directly using PowerShell command line as there is no PowerShell support.
 
@@ -156,7 +156,7 @@ Keep the following limitations in mind:
 
 #### How do I upgrade my organization?
 
-To upgrade to the Microsoft Teams Essentials version of Teams, select  **…** in the top navgation menu. Next, select the **Upgrade** button at the bottom of the drop down menu that appears.   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="screenshot showing Upgrade button"::: 
+To upgrade to the Microsoft Teams Essentials version of Teams, select  **…** in the top navigation menu. Next, select the **Upgrade** button at the bottom of the drop down menu that appears.   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="screenshot showing Upgrade button"::: 
 
 After selecting the **Upgrade** button in Teams, you'll be directed here: [Microsoft Teams for Small Business](https://www.microsoft.com/microsoft-teams/upgrade-teams)
 
