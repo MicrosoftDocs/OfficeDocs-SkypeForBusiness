@@ -22,15 +22,15 @@ appliesto:
 # Get clients for Microsoft Teams
 
 > [!TIP]
-> **Want to install Teams on your PC, Mac, or mobile device?** Check out [Install the Teams client](https://www.microsoft.com/microsoft-teams/download-app).
+> **Want to install Teams on your PC, Mac, or mobile device?** Check out [Install the Teams client](https://go.microsoft.com/fwlink/?linkid=855754).
 
-Microsoft Teams can be installed on PCs, Macs, and mobile devices. Most end users can start using Teams just by [installing the client](https://www.microsoft.com/microsoft-teams/download-app) themselves. However, if you're an IT Pro and want to know more about the installation experience and requirements, select the operating system or client in this article for more information.
+Microsoft Teams can be installed on PCs, Macs, and mobile devices, and can also be accessed via a web browser. Most end users can start using Teams just by [installing the client](https://go.microsoft.com/fwlink/?linkid=855754) themselves. However, if you're an IT Pro and want to know more about the Teams installation experience and its requirements, select an operating system or client in this article for more information.
 
 For details about each client's capabilities on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
-## Desktop client
+## [Desktop](#tab/Desktop)
 
-The Microsoft Teams desktop client is available as a standalone application and part of [Microsoft 365 Apps for enterprise](/deployoffice/teams-install) for the following operating systems:
+The Microsoft Teams desktop client is available as a standalone application and as part of [Microsoft 365 Apps for enterprise](/deployoffice/teams-install) for the following operating systems:
 
 - 32-bit and 64-bit versions of Windows (8.1 or later)
 - ARM64 for Windows 10 on ARM
@@ -39,7 +39,7 @@ The Microsoft Teams desktop client is available as a standalone application and 
 - Linux (in `.deb` and `.rpm` formats)
 - Chrome OS (For more information, see [How to install and run Microsoft Office on a Chromebook](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad)) 
 
-Desktop clients can be downloaded and installed by end users directly from [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) if they have the appropriate local permissions (admin rights are not required to install the Teams client on a PC but are required on a Mac).
+Desktop clients can be downloaded and installed by end users directly from [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) if they have the appropriate local permissions. Admin permissions aren't required to install the Teams client on Windows PCs but are required on Macs.
 
 IT admins can choose their preferred method to distribute the installation files to computers in their organization. Some examples include Microsoft Endpoint Configuration Manager (Windows) or Jamf Pro (macOS). To get the MSI package for Windows distribution, see [Install Microsoft Teams using MSI](msi-deployment.md).
 
@@ -51,13 +51,9 @@ IT admins can choose their preferred method to distribute the installation files
 > [!TIP]
 > Watch the following session to learn about the benefits of the Windows Desktop Client, how to plan for it, and how to deploy it: [Teams Windows Desktop Client](https://aka.ms/teams-clients)
 
-On Windows, Teams requires .NET Framework 4.5 or later; the Teams installer will offer to install it for you if you don't have it.
+Teams on Windows provides downloadable installers in [32-bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true), [64-bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true), and [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) architectures. The x86 architecture (32-bit vs. 64-bit) of Microsoft Teams is agnostic to the architecture of Windows and Office that is installed. We recommend the 64-bit version of Microsoft Teams on 64-bit systems.
 
-
-The Microsoft Teams installation for Windows provides downloadable installers in 32-bit and 64-bit architecture.
-
-> [!NOTE]
-> The architecture (32-bit vs. 64-bit) of Microsoft Teams is agnostic to the architecture of Windows and Office that is installed. We recommend the 64-bit version of Microsoft Teams on 64-bit systems.
+Teams requires .NET Framework 4.5 or later. If .NET Framework or later isn't installed the Teams installer will offer to install for you.
 
 The Windows client is deployed to the AppData folder located in the user’s profile. Deploying to the user’s local profile allows the client to be installed without requiring elevated rights. The Windows client leverages the following locations:
 
@@ -178,16 +174,10 @@ sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com
 sudo zypper refresh
 sudo zypper install teams
 ```
+
 ---
-## Web client
 
-The web client ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) is a full, functional client that can be used from a variety of browsers. The web client supports Calling and Meetings by using webRTC, so there is no plug-in or download required to run Teams in a web browser. The browser must be configured to allow third-party cookies.
-
-[!INCLUDE [browser-support](includes/browser-support.md)]
-
-The web client performs browser version detection upon connecting to [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753). If an unsupported browser version is detected, it will block access to the web interface and recommend that the user download the desktop client or mobile app.
-
-## Mobile clients
+## [Mobile](#tab/Mobile)
 
 The Microsoft Teams mobile apps are available for Android and iOS, and are geared for on-the-go users participating in chat-based conversations and allow peer-to-peer audio calls. For mobile apps, go to the relevant mobile stores Google Play and the Apple App Store. The Windows Phone App was retired July 20, 2018 and may no longer work.
 
@@ -209,50 +199,12 @@ Mobile apps are distributed and updated through the respective mobile platform�
 |![An icon depicting a decision point.](media/Get_clients_for_Microsoft_Teams_image4.png)|Decision Point|Are there any restrictions preventing users from installing the appropriate Microsoft Teams client on their devices?|
 |![An icon depicting the next steps.](media/Get_clients_for_Microsoft_Teams_image5.png)|Next Steps|If your organization restricts software installation, make sure that process is compatible with Microsoft Teams. Note: Admin rights are not required for PC client installation but are required for installation on a Mac.|
 
+## [Web](#Tab/Web)
 
-## Client update management
+The web client ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) is a full, functional client that can be used from a variety of browsers. The web client supports Calling and Meetings by using webRTC, so there is no plug-in or download required to run Teams in a web browser. The browser must be configured to allow third-party cookies.
 
-Clients are currently updated automatically by the Microsoft Teams service with no IT administrator intervention required. If an update is available, the client will automatically download the update and when the app has idled for a period of time, the update process will begin.
+[!INCLUDE [browser-support](includes/browser-support.md)]
 
-## Client-side configurations
+The web client performs browser version detection upon connecting to [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753). If an unsupported browser version is detected, it will block access to the web interface and recommend that the user download the desktop client or mobile app.
 
-Currently, there are no supported options available to configure the client either through the tenant admin, PowerShell, Group Policy Objects or the registry.
-
-## Notification settings
-
-There are currently no options available for IT administrators to configure client-side notification settings. All notification options are set by the user. The figure below outlines the default client settings.
-
-![Screenshot of Notifications settings.](media/Get_clients_for_Microsoft_Teams_image6.png)
-
-## Sample PowerShell script - inbound firewall rule
-
-This sample script, which needs to run on client computers in the context of an elevated administrator account, will create a new inbound firewall rule for each user folder found in c:\users. When Teams finds this rule, it will prevent the Teams application from prompting users to create firewall rules when the users make their first call from Teams.
-
-```powershell
-<#
-.SYNOPSIS
-   Creates firewall rules for Teams.
-.DESCRIPTION
-   (c) Microsoft Corporation 2018. All rights reserved. Script provided as-is without any warranty of any kind. Use it freely at your own risks.
-   Must be run with elevated permissions. Can be run as a GPO Computer Startup script, or as a Scheduled Task with elevated permissions.
-   The script will create a new inbound firewall rule for each user folder found in c:\users.
-   Requires PowerShell 3.0.
-#>
-
-#Requires -Version 3
-
-$users = Get-ChildItem (Join-Path -Path $env:SystemDrive -ChildPath 'Users') -Exclude 'Public', 'ADMINI~*'
-if ($null -ne $users) {
-    foreach ($user in $users) {
-        $progPath = Join-Path -Path $user.FullName -ChildPath "AppData\Local\Microsoft\Teams\Current\Teams.exe"
-        if (Test-Path $progPath) {
-            if (-not (Get-NetFirewallApplicationFilter -Program $progPath -ErrorAction SilentlyContinue)) {
-                $ruleName = "Teams.exe for user $($user.Name)"
-                "UDP", "TCP" | ForEach-Object { New-NetFirewallRule -DisplayName $ruleName -Direction Inbound -Profile Domain -Program $progPath -Action Allow -Protocol $_ }
-                Clear-Variable ruleName
-            }
-        }
-        Clear-Variable progPath
-    }
-}
-```
+---
