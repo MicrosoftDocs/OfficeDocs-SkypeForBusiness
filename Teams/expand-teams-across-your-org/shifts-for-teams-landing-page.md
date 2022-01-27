@@ -46,7 +46,7 @@ If you're using a third-party workforce management (WFM) system for scheduling, 
 |&nbsp;  |&nbsp;  |
 |---------|---------|
 |<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | [Shifts connectors overview](shifts/shifts-connectors.md) Get an overview of Shifts connectors and how they work. Learn about the managed and open-source connectors that are available and the supported WFM systems.   |
-|<img src="/office/media/icons/api.png" alt="Three gears - API.">    | [Open-source Shifts connectors](/microsoftteams/platform/samples/shifts-wfm-connectors) Learn how use [community-driven, open-source connectors](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors) to integrate your WFM system through Shifts Graph APIs and SDK.    |
+|<img src="/office/media/icons/api.png" alt="Three gears - API.">    | [Open-source Shifts connectors](/microsoftteams/platform/samples/shifts-wfm-connectors) Learn how to use [community-driven, open-source connectors](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors) to integrate your WFM system through Shifts Graph APIs and SDK.    |
 
 ## Shifts extensions
 
