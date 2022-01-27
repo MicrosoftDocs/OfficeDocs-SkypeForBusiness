@@ -55,7 +55,7 @@ With Blue Yonder as the system of record, your frontline workers can see and swa
 > [!NOTE]
 > Complete this step if you're mapping Blue Yonder sites to existing teams. If you're creating new teams to map to, you can skip this step.
 
-In the Azure portal, go to the [All groups](https://ms.portal.azure.com/#blade/Microsoft_AAD_IAM/GroupsManagementMenuBlade/AllGroups) page to get a list of the TeamIds of teams in your organization. 
+In the Azure portal, go to the [All groups](https://ms.portal.azure.com/#blade/Microsoft_AAD_IAM/GroupsManagementMenuBlade/AllGroups) page to get a list of the TeamIds of teams in your organization.
 
 Take note of the TeamIds of the teams you want to map. The script will prompt you to enter this information.
 
@@ -90,15 +90,15 @@ A Success message on the screen indicates that your connection is successfully s
 
 ## If you need to make changes to a connection
 
-To make changes to a connection after it's set up, see [Use PowerShell to manage your Shifts connection to Blue Yonder](shifts-connector-powershell-manage.md). For example, you can update sync settings, team mappings, or disable a connection by turning off sync.
+To make changes to a connection after it's set up, see [Use PowerShell to manage your Shifts connection to Blue Yonder](shifts-connector-powershell-manage.md). For example, you can update sync settings, team mappings, and disable sync for a connection.
 
 ## Scripts
 
 ### Set up a connection and create new teams to map
 
 ```powershell
-#Onboarding script
-Write-Host "Onboarding Shifts Connector work flow"
+#Map WFM sites to teams script
+Write-Host "Map WFM sites to teams"
 Start-Sleep 1
 
 #Ensure Teams module is at least version x
@@ -252,11 +252,12 @@ Remove-TeamUser -GroupId $TeamsTeamId -User $currentUser -Role Owner
 Disconnect-MgGraph
 Disconnect-MicrosoftTeams
 ```
+
 ### Set up a connection and map to existing teams
 
 ```powershell
-#Onboarding script
-Write-Host "Onboarding Shifts Connector work flow"
+#Map WFM sites to existing teams script
+Write-Host "Map WFM sites to existing teams"
 Start-Sleep 1
 
 #Ensure Teams module is at least version x
@@ -332,7 +333,7 @@ $InstanceResponse = New-CsTeamsShiftsConnectionInstance -Name $InstanceName -Con
 $InstanceId = $InstanceResponse.id
 $Etag = $InstanceResponse.etag
 if ($InstanceId -ne $null){
-	Write-Host "Suceess"
+	Write-Host "Success"
 } else {
 	throw "Connector instance creation failed"
 }

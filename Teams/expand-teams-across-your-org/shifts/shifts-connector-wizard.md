@@ -146,7 +146,7 @@ You’re on your way but you’re not done yet! Be sure to check your email. You
 ## If you need to make changes to a connection
 <a name="update_connection"> </a>
 
-After a connection is set up, you use PowerShell to make changes to it. For example, you can update sync settings, team mappings, and disable a connection by turning off sync. For step-by-step guidance, see [Use PowerShell to manage your Shifts connection to Blue Yonder](shifts-connector-powershell-manage.md).
+After a connection is set up, you use PowerShell to make changes to it. For example, you can update sync settings, team mappings, and disable sync for a connection. For step-by-step guidance, see [Use PowerShell to manage your Shifts connection to Blue Yonder](shifts-connector-powershell-manage.md).
 
 ## Related articles
 

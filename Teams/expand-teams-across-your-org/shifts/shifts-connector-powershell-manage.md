@@ -32,7 +32,7 @@ This article describes how to use PowerShell to do the following:
 - [Resolve connection errors](#resolve-connection-errors)
 - [Change connection settings](#change-connection-settings)
 - [Unmap a team from one connection and map it to another connection](#unmap-a-team-from-one-connection-and-map-it-to-another-connection)
-- [Disable a connection](#disable-a-connection)
+- [Disable sync for a connection](#disable-sync-for-a-connection)
 
 > [!NOTE]
 > This article assumes that you've already set up a connection to Blue Yonder, either by using the wizard or PowerShell.
@@ -92,7 +92,7 @@ To view details of unmapped users, [set up your environment](#set-up-your-enviro
 
 ```powershell
 #View sync errors script 
-Write-Host "View sync errors work flow"
+Write-Host "View sync errors"
 Start-Sleep 1
 
 #Ensure Teams module is of version x 
@@ -162,8 +162,8 @@ Sync settings include the sync frequency (in minutes) and the schedule data that
 [Set up your environment](#set-up-your-environment) (if you haven't already), and then run the following script.
 
 ```powershell
-#Update script
-Write-Host "Update work flow"
+#Update connector instance and mapping script
+Write-Host "Update connector instance and mapping"
 Start-Sleep 1
 
 #Ensure Teams module is at least version x
@@ -291,17 +291,15 @@ If you want to unmap a team from one connection and map it to another connection
 
 To learn more, see [Get-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/get-csteamsshiftsconnectionteammap?view=teams-ps), [Remove-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/remove-csteamsshiftsconnectionteammap?view=teams-ps), and [New-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/new-csteamsshiftsconnectionteammap?view=teams-ps).
 
-## Turn off sync for a connection
+## Disable sync for a connection
 
 Use this script to disable sync for a connection. Keep in mind this script doesn't remove or delete a connection. It turns off sync so that no data is synced between Shifts and Blue Yonder for the connection that you specify.
 
 [Set up your environment](#set-up-your-environment) (if you haven't already), and then run the following script.
 
 ```powershell
-#DisableSync script
-Write-Host "Oh oh! work flow"
-Start-Sleep 1
-
+#Disable sync script
+Write-Host "Disable sync"
 #Ensure Teams module is at least version x
 Write-Host "Checking Teams module version"
 try {
