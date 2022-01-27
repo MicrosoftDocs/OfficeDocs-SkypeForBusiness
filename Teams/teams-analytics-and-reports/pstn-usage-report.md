@@ -160,5 +160,5 @@ You can export data up to five months (150 days) from the current date unless co
 ## Related topics
 
 - [Teams analytics and reporting](teams-reporting-reference.md)
-- [PSTN call report in Microsoft Graph](https://docs.microsoft.com/en-us/graph/api/callrecords-callrecord-getpstncalls?view=graph-rest-1.0&tabs=http)
-- [Direct routing report in Microsoft Graph](https://docs.microsoft.com/en-us/graph/api/callrecords-callrecord-getdirectroutingcalls?view=graph-rest-1.0&tabs=http)
+- [PSTN call report in Microsoft Graph](/graph/api/callrecords-callrecord-getpstncalls?view=graph-rest-1.0&tabs=http)
+- [Direct routing report in Microsoft Graph](/graph/api/callrecords-callrecord-getdirectroutingcalls?view=graph-rest-1.0&tabs=http)
