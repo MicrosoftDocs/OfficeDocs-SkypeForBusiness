@@ -129,7 +129,7 @@ Chat participants must have a OneDrive account to create live components. Withou
 
 **What happens if the owner of the file leaves the company?**
 
-[OneDrive retention policies](/microsoft-365/compliance/retention-policies-sharepoint?#when-a-user-leaves-the-organization) apply to `.fluid` files just as they do to other content created by the user.
+[OneDrive retention policies](/microsoft-365/compliance/retention-policies-sharepoint#when-a-user-leaves-the-organization) apply to `.fluid` files just as they do to other content created by the user.
 
 **How are `.fluid` files shared?**
 
