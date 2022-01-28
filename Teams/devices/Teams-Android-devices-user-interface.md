@@ -26,15 +26,23 @@ There are three types of user interfaces on Teams Android devices:
 
 If you [assign a user license](/microsoftteams/user-access) to an account, like an E3 or an E5 license, the Teams device will display the default end-user interface which is fully featured for most user scenarios. However, if a device is performing a specific function, such as a common area phone or a meeting room, there are specific user interfaces for these usages.
 
-The following three images show how the user interface changes based on the license assigned to the user account. In the first image, the user account is assigned an E5 license. This is a user license, so the device shows the default end-user interface:
+The following three images show how the user interface changes based on the license assigned to the user account. 
+
+## End-user interface 
+
+The user account is assigned an E5 license. This is a user license, so the device shows the default end-user interface:
 
 :::image type="content" source="../media/teams-android-devices-usermode1.jpg" alt-text="User mode interface.":::
 
-In this image, the user account has been assigned a [common area phone license](/microsoftteams/set-up-common-area-phones). Common area phones are primarily used for making and receiving phone calls. As such, the dial pad is shown on the display:
+## Common area interface
+
+In this image, the user account has been assigned a [Common Area Phone license](/microsoftteams/set-up-common-area-phones). Common area phones are primarily used for making and receiving phone calls. As such, the dial pad is shown on the display:
 
 :::image type="content" source="../media/teams-android-devices-cap1.jpg" alt-text="Common area phone interface.":::
 
-Finally, this image shows a user account with a [Microsoft Teams Rooms Standard license](/MicrosoftTeams/rooms/rooms-licensing) assigned. Teams Rooms licenses are meant to be used in meeting rooms or shared spaces, so the user interface changes to make it easy to join a meeting by showing the calendar view:
+## Meeting interface
+
+This image shows a user account with a [Microsoft Teams Rooms Standard license](/MicrosoftTeams/rooms/rooms-licensing) assigned. Teams Rooms licenses are meant to be used in meeting rooms or shared spaces, so the user interface changes to make it easy to join a meeting by showing the calendar view:
 
 :::image type="content" source="../media/teams-android-devices-meeting.jpg" alt-text="Meeting interface.":::
 
