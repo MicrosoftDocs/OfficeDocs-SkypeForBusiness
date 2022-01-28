@@ -91,11 +91,11 @@ items:
                   href: teams-adoption-schedule-service-health-reviews.md
         - name: Client deployments
           items: 
-            - name: Get Teams
+            - name: Get Teams clients
               href: get-clients.md
             - name: Teams client updates
               href: teams-client-update.md
-            - name: Install Microsoft Teams using Microsoft Endpoint Configuration Manager
+            - name: Install Teams using Endpoint Configuration Manager
               href: msi-deployment.md
             - name: Turn on Teams in your organization
               href: Office-365-set-up.md
@@ -107,14 +107,16 @@ items:
               href: troubleshoot-installation.md
             - name: Reference
               items:
-                - name: Microsoft 365 and Office 365 URLs and IP address ranges
+                - name: Microsoft 365 URLs and IP address ranges
                   href: office-365-urls-ip-address-ranges.md
                 - name: Hardware requirements
                   href: hardware-requirements-for-the-teams-app.md
-                - name: How Microsoft Teams uses memory
+                - name: How Teams uses memory
                   href: teams-memory-usage-perf.md
                 - name: Hardware decoder and encoder driver recommendations
                   href: hardware-decoders-and-encoders.md
+                - name: Teams firewall PowerShell script
+                  href: client-firewall-script.md
     - name: Teams training
       items: 
         - name: Admin training for Teams
