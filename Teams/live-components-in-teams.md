@@ -44,7 +44,7 @@ You'll need the latest version of [SharePoint Online PowerShell module](/office
 
 ## Checking if the Fluid Framework is enabled through the SharePoint Online PowerShell Cmdlet
 
-1. [Connect to SharePoint Online PowerShell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps#to-connect-with-a-user-name-and-password). 
+1. [Connect to SharePoint Online PowerShell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online#to-connect-with-a-user-name-and-password). 
 
 2. Check if Fluid Framework is enabled by running the Get-SPOTenant cmdlet without any arguments.
 
@@ -52,7 +52,7 @@ You'll need the latest version of [SharePoint Online PowerShell module](/office
 
 ## Enabling the Fluid Framework through the SharePoint Online PowerShell Cmdlet
 
-1. [Connect to SharePoint Online PowerShell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps#to-connect-with-a-user-name-and-password). 
+1. [Connect to SharePoint Online PowerShell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online#to-connect-with-a-user-name-and-password). 
 
 2. Enable Fluid using the cmdlet Set-SPOTenant -IsFluidEnabled $true 
    
@@ -62,7 +62,7 @@ The feature will be available on Teams Windows Desktop, Mac, iOS, Android. When 
 
 ## Disabling Fluid Framework through SharePoint Online PowerShell Cmdlet
 
-1. [Connect to SharePoint Online PowerShell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
+1. [Connect to SharePoint Online PowerShell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 2. Disable Fluid using the Set-SPOTenant cmdlet Set-SPOTenant -IsFluidEnabled $false. 
 
@@ -129,7 +129,7 @@ Chat participants must have a OneDrive account to create live components. Withou
 
 **What happens if the owner of the file leaves the company?**
 
-[OneDrive retention policies](/microsoft-365/compliance/retention-policies-sharepoint?view=o365-worldwide#when-a-user-leaves-the-organization) apply to `.fluid` files just as they do to other content created by the user.
+[OneDrive retention policies](/microsoft-365/compliance/retention-policies-sharepoint?#when-a-user-leaves-the-organization) apply to `.fluid` files just as they do to other content created by the user.
 
 **How are `.fluid` files shared?**
 
