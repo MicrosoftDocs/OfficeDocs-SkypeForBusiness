@@ -85,8 +85,6 @@ PS C:\\WINDOWS\\system32&gt;
 
 - If tenant default file permissions are set to **Specific people (only the people the user specifies)**, and the sender removes some users from the Specific people list in the permissions dialog when creating a component, those users may still have access to the content. This issue is due to the access management limitation of the permission dialog and will be fixed in the future release.
 
-- If the tenant's Conditional Access Policy settings prevent client network to connect to `https://pushchannel.1drv.ms`,  live components will not work as expected for saving real time changes to the service.
-
 ## Known limitations
 
 - Searching for live components in Teams search will return a link to the component in office.com, not the chat message itself.
