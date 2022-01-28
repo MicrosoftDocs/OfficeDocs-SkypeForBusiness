@@ -244,7 +244,7 @@ Key features of the patient experience:
   - Patients can test their microphone, camera, and connection.
   - Patients can complete a test call to fully validate their configuration.
   - Patients can access links to troubleshooting tips to resolve any issues found, which helps to reduce interactions with the medical services support team.
-  - Results of the device test are sent back to the EHR system.
+  - Results of the device test can be sent back to the EHR system.
 
 - Patients can join virtual visits from modern web browsers on desktop and [mobile without having to install the Teams app](../mobile-browser-join.md).
 
