@@ -97,8 +97,6 @@ items:
               href: teams-client-update.md
             - name: Install Teams using Endpoint Configuration Manager
               href: msi-deployment.md
-            - name: Turn on Teams in your organization
-              href: Office-365-set-up.md
             - name: Teams for Virtualized Desktop Infrastructure (VDI)
               href: teams-for-vdi.md
             - name: Teams for Remote Desktop environment (RDP)
@@ -1762,7 +1760,8 @@ items:
               href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
         - name: How SharePoint Online and OneDrive for Business interact with Teams
           href: sharepoint-onedrive-interact.md
-
+    - name: Turn on Teams in your organization
+      href: Office-365-set-up.md
     - name: Teams PowerShell
       items: 
         - name: Overview
