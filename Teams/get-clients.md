@@ -24,7 +24,7 @@ appliesto:
 > [!TIP]
 > **Want to install Teams on your PC, Mac, or mobile device?** Check out [Install the Teams client](https://go.microsoft.com/fwlink/?linkid=855754).
 
-Microsoft Teams can be installed on PCs, Macs, and mobile devices, and can also be accessed via a web browser. Most end users can start using Teams just by [installing the client](https://go.microsoft.com/fwlink/?linkid=855754) themselves. After they install the Teams client, all they need to do is log in with their username and password. That's it!
+Microsoft Teams can be installed on PCs, Macs, and mobile devices, and can also be accessed via a web browser. Most end users can start using Teams just by [installing the client](https://go.microsoft.com/fwlink/?linkid=855754) themselves. After they install the Teams client, all they need to do is log in with their username and password.
 
 If you're an IT Pro and want to know more about the Teams installation experience and its requirements, select a client operating system in this article for more information.
 
@@ -32,7 +32,7 @@ For details about each client's capabilities on different platforms, see [Teams 
 
 ## Desktop clients
 
-The Microsoft Teams desktop client is available as a standalone application and as part of [Microsoft 365 Apps for enterprise](/deployoffice/teams-install) for the following operating systems:
+The Teams desktop client is available as a standalone application and as part of [Microsoft 365 Apps for enterprise](/deployoffice/teams-install) for the following operating systems:
 
 - 32-bit and 64-bit versions of Windows (8.1 or later)
 - ARM64 for Windows 10 on ARM
@@ -43,17 +43,20 @@ The Microsoft Teams desktop client is available as a standalone application and 
 
 Desktop clients can be downloaded and installed by end users directly from [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) if they have the appropriate local permissions. Admin permissions aren't required to install the Teams client on Windows PCs but are required on Macs.
 
-IT Pros can choose their preferred method to distribute the installation files to computers in their organization. Some examples include Microsoft Endpoint Configuration Manager (Windows) or Jamf Pro (macOS). To get the MSI package for Windows distribution, see [Install Microsoft Teams using MSI](msi-deployment.md).
+IT Pros can choose their preferred method to distribute the installation files to computers in their organization. Some examples include Microsoft Endpoint Configuration Manager (Windows) or Jamf Pro (macOS). For more information about distributing Teams, see the following.
+
+- **Windows** [Install Teams using Endpoint Configuration Manager](msi-deployment.md)
+- **MacOS** [Jamf Pro](https://www.jamf.com/products/jamf-pro/)
 
 > [!NOTE]
-> Distribution of the client via these mechanisms is only for the initial installation of Microsoft Teams clients and not for future updates.
+> Distribution of the client via these mechanisms is only for the initial installation of Teams clients and not for future updates. For information about the Teams update process, see [Teams update process](teams-client-update.md).
 
 ### [Windows](#tab/Windows)
 
 > [!TIP]
 > Watch the following session to learn about the benefits of the Windows Desktop Client, how to plan for it, and how to deploy it: [Teams Windows Desktop Client](https://aka.ms/teams-clients)
 
-Teams on Windows provides downloadable MSI installers in [32-bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true), [64-bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true), and [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) architectures. The x86 architecture (32-bit vs. 64-bit) of Microsoft Teams is agnostic to the architecture of Windows and Office that is installed. We recommend the 64-bit version of Microsoft Teams on 64-bit systems.
+Teams on Windows provides downloadable MSI installers in [32-bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true), [64-bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true), and [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) architectures. The x86 architecture (32-bit vs. 64-bit) of Teams is agnostic to the architecture of Windows and Office that is installed. We recommend the 64-bit version of Teams on 64-bit systems.
 
 Teams requires .NET Framework 4.5 or later. If .NET Framework or later isn't installed the Teams installer will offer to install for you.
 
@@ -67,14 +70,14 @@ The Windows client is deployed to the AppData folder located in the user’s pro
 
 - %LocalAppData%\\SquirrelTemp
 
-When users initiate a call using the Microsoft Teams client for the first time, they might notice a warning with the Windows firewall settings that asks for users to allow communication. Users might be instructed to ignore this message because the call will work, even when the warning is dismissed.
+When users initiate a call using the Teams client for the first time, they might notice a warning with the Windows firewall settings that asks for users to allow communication. Users might be instructed to ignore this message because the call will work, even when the warning is dismissed.
 
 ![Screenshot of a Windows Security Alert dialog.](media/Get_clients_for_Microsoft_Teams_image3.png)
 
 > [!NOTE]
 > Windows Firewall configuration will be altered even when the prompt is dismissed by selecting “Cancel”. Two inbound rules for teams.exe will be created with Allow action for both TCP and UDP protocols.
 
-If you want to prevent Teams from prompting users to create firewall rules when the users make their first call from Teams, use the [Sample PowerShell script - inbound firewall rule](#sample-powershell-script---inbound-firewall-rule) below.
+If you want to prevent Teams from prompting users to create firewall rules when the users make their first call from Teams, use the PowerShell script in [Sample script - Microsoft Teams firewall PowerShell script](client-firewall-script.md).
 
 ### [Mac](#tab/Mac)
 
@@ -100,13 +103,12 @@ IT Pros can use a managed deployment solution, such as Jamf Pro, to distribute t
 
 On Linux, package managers such as `apt` and `yum` will try to install any requirements for you. However, if they don't then you will need to install any reported requirements before installing Teams on Linux.
 
-
 Users will be able to install native Linux packages in `.deb` and `.rpm` formats. Installing the DEB or RPM package will automatically install the package repository.
 
 - DEB `https://packages.microsoft.com/repos/ms-teams stable main`
 - RPM `https://packages.microsoft.com/yumrepos/ms-teams`
 
-The signing key to enable auto-updating using the system's package manager is installed automatically. However, it can also be found at: <https://packages.microsoft.com/keys/microsoft.asc>. Microsoft Teams ships monthly and if the repository was installed correctly, then your system package manager should handle auto-updating in the same way as other packages on the system.
+The signing key to enable auto-updating using the system's package manager is installed automatically. However, it can also be found at: <https://packages.microsoft.com/keys/microsoft.asc>. Teams ships monthly and if the repository was installed correctly, then your system package manager should handle auto-updating in the same way as other packages on the system.
 
 #### Install Teams using DEB package
 
@@ -172,11 +174,11 @@ sudo zypper install teams
 
 ## Mobile clients
 
-The Microsoft Teams mobile apps are available for Android and iOS, and are geared for on-the-go users participating in chat-based conversations and allow peer-to-peer audio calls. For mobile apps, go to the relevant mobile stores Google Play and the Apple App Store. The Windows Phone App was retired July 20, 2018 and may no longer work.
+The Teams mobile apps are available for Android and iOS, and are geared for on-the-go users participating in chat-based conversations and allow peer-to-peer audio calls. For mobile apps, go to the relevant mobile stores Google Play and the Apple App Store. The Windows Phone App was retired July 20, 2018 and may no longer work.
 
 In China, here's how to [get Teams for Android](get-teams-android-in-china.md).
 
-Supported mobile platforms for Microsoft Teams mobile apps are the following:
+Supported mobile platforms for Teams mobile apps are the following:
 
 - **Android**: Support is limited to the last four major versions of Android. When a new major version of Android is released, the new version and the previous three versions are officially supported.
 
@@ -186,11 +188,6 @@ Supported mobile platforms for Microsoft Teams mobile apps are the following:
 > The mobile version must be available to the public in order for Teams to work as expected.
 
 Mobile apps are distributed and updated through the respective mobile platform’s app store only. Distribution of the mobile apps via MDM or side-loading is not supported by Microsoft. Once the mobile app has been installed on a supported mobile platform, the Teams Mobile App itself will be supported provided the version is within three months of the current release.
-
-|&nbsp; |&nbsp; |&nbsp; |
-|---|---|---|
-|![An icon depicting a decision point.](media/Get_clients_for_Microsoft_Teams_image4.png)|Decision Point|Are there any restrictions preventing users from installing the appropriate Microsoft Teams client on their devices?|
-|![An icon depicting the next steps.](media/Get_clients_for_Microsoft_Teams_image5.png)|Next Steps|If your organization restricts software installation, make sure that process is compatible with Microsoft Teams. Note: Admin rights are not required for PC client installation but are required for installation on a Mac.|
 
 ## Browser client
 
