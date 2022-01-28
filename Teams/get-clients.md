@@ -26,7 +26,7 @@ appliesto:
 
 Microsoft Teams can be installed on PCs, Macs, and mobile devices, and can also be accessed via a web browser. Most end users can start using Teams just by [installing the client](https://go.microsoft.com/fwlink/?linkid=855754) themselves. After they install the Teams client, all they need to do is log in with their username and password. That's it!
 
-If you're an IT Pro and want to know more about the Teams installation experience and its requirements, select a client oroperating system in this article for more information.
+If you're an IT Pro and want to know more about the Teams installation experience and its requirements, select a client operating system in this article for more information.
 
 For details about each client's capabilities on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
