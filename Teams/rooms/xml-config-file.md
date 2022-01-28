@@ -22,7 +22,7 @@ description: Remote management of the default settings used by a Microsoft Teams
 
 This article discusses remote management of the default settings used by a Microsoft Teams Rooms device, including applying a custom theme. It discusses how to create a master settings file and links to discussions of how to place them as needed on Teams Rooms.
   
-It is possible for you to change default settings of Teams Rooms by updating a master XML file and sending copies to the remote Teams Rooms devices.
+It is possible for you to change default settings of Teams Rooms by updating a master XML file and sending copies to the remote Teams Rooms devices. 
   
 ## Create an XML configuration file
 
@@ -244,6 +244,16 @@ To locate the instance path:
 5. Right-click the camera, and open **Properties**.
 6. Select the **Details** tab, and locate the **Device instance path** property in the drop-down.
 7. The value shown is the device instance path to set in the XML configuration file. When specifying the path in XML, replace the ampersand (&) with `&amp;`.
+
+## Set a default layout
+
+If you don't set a default layout for a room in your XML configuration, the default layout will be set to Gallery. To see Front row as the default layout, add ```<DefaultFoRExperience>1</DefaultFoRExperience>``` to your XML configuration file.
+
+End users can switch from the default display layout using the layout picker during mettings.
+
+## Turn off Front row
+
+Front row is enabled by default. Turn off Front row if you don't want allow end-users to use Front row in a certain room. To do this, add ```<FrontRowEnabled>false</FrontRowEnabled>``` to your XML configuration file.
 
 ## See also
 

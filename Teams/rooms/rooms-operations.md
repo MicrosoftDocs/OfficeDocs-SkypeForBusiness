@@ -40,6 +40,26 @@ The logs will be output as a ZIP file in c:\rigel.
 Configure the settings of your Front of Room display(s) to support Consumer Electronics Control(CEC) or enable PC Mode.
   
 If you desire a front of room display to automatically switch to Teams Rooms when it wakes from standby mode, certain conditions must be met. This feature is optional but supported by Microsoft Teams Rooms software, provided underlying hardware supports the feature. A consumer TV used as a front of room display needs to support the Consumer Electronics Control (CEC) feature of HDMI.  Depending on the dock or console selected (which might not support CEC, refer to manufacturer support documentation), a controller such as an [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) from Crestron or [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) from Extron may be needed to enable the desired behavior.
+
+### Change scale and resolution
+
+If the font size on your Front of Room display is too large or small, you'll need to adjust the screen's resolution. 
+
+1. Switch to [admin mode](#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)
+
+2. Select the start icon. Then **Settings > System > Display**
+
+3. Go to **Scale and layout**, then **Change the size of text, apps, and other items**, and set the scaling to 100%.
+
+4. Set the display resolution to 1080p. If you have dual monitors, set the scale and resolution for both screens.
+
+5. Next, select the start icon and enter **Command prompt**. Select **Run as administrator**.
+
+6. Run the following cmdlet: 
+
+```PowerShell
+ -ExecutionPolicy Unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentDisplayScaling.ps1 
+```
   
 ## Microsoft Teams Rooms Reset (Factory Restore)
 <a name="Reset"> </a>
