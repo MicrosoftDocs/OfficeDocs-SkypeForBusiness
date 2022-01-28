@@ -19,15 +19,18 @@ items:
           href: get-started-with-teams-resources-for-org-wide-rollout.md
         - name: Support remote workers (WFH)
           href: support-remote-work-with-teams.md
-    - name: Get clients for Teams
-      href: get-clients.md
+    - name: Teams clients
       items:
-        - name: Hardware requirements
-          href: hardware-requirements-for-the-teams-app.md
-        - name: How Microsoft Teams uses memory
-          href: teams-memory-usage-perf.md
-        - name: Hardware decoder and encoder driver recommendations
-          href: hardware-decoders-and-encoders.md
+        - name: Get Teams
+          href: get-clients.md
+        - name: Client hardware
+          items:
+            - name: Hardware requirements
+              href: hardware-requirements-for-the-teams-app.md
+            - name: How Microsoft Teams uses memory
+              href: teams-memory-usage-perf.md
+            - name: Hardware decoder and encoder driver recommendations
+              href: hardware-decoders-and-encoders.md
     - name: Small business setup
       href: deploy-small-business.md
     - name: Microsoft Teams Essentials for small business
