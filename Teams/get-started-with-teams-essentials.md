@@ -26,7 +26,7 @@ Microsoft Teams Essentials is a standalone Teams subscription that provides an a
 
 Microsoft Teams Essentials is available for purchase through Microsoft’s direct website and select Microsoft Cloud Partners. Subscriptions through direct and partner differ in some ways because they use different identity systems. Visit the table later in this article for more details, go here:[ Microsoft Teams Essentials plans](#how-does-microsoft-teams-essentials-compare-to-other-microsoft-teams-plans)
 
-A subscription purchased through Microsoft’s direct website uses Microsoft account identity which allows you to use your existing email address like MeganB@outlook.com, MeganB@gmail.com, or MeganB@ContosoLandscaping.com to sign up.
+A subscription purchased through Microsoft’s direct website uses Microsoft account identity which allows you to use your existing email address like TomislavK@outlook.com, TomislavK@gmail.com, or TomislavK@ContosoLandscaping.com to sign up.
 
 Alternatively, Teams Essentials purchased through select Microsoft Certified Partners uses Azure Active Directory (AAD) which asks you to create a new login/identity. Partners can configure Teams Essentials to connect to your existing email address so you can sign in using your existing email address.  
 
