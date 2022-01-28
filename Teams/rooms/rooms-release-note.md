@@ -22,7 +22,7 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 
 There are two types of updates for Teams Rooms: Teams Rooms app updates and Teams Web-client. 
 
-Teams Rooms app updates happen either via the Microsoft Store or via [manual update](#manual-update.md). This updates the Universal Windows Platform (UWP) application that is installed locally on the device.
+Teams Rooms app updates happen either via the Microsoft Store or via [manual update](manual-update.md). This updates the Universal Windows Platform (UWP) application that is installed locally on the device.
 
 Teams Web-client updates happen via the Teams web app delivery services. This is a cloud-based service that does not require an update to the local UWP application installed on the device.
 
