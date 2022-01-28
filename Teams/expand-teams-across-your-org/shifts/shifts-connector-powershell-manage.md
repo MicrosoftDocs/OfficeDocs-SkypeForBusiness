@@ -206,8 +206,6 @@ $InstanceId = Read-Host -Prompt 'Input the instance ID that you want to update'
 $Instance = Get-CsTeamsShiftsConnectionInstance -ConnectorInstanceId $InstanceId
 $Etag = $Instance.etag
 
-#Add comment in the code about how the WFM username/pw is not required for changing any of the other settings. 
-
 #Change sync setting
 $designatorName = Read-Host -Prompt "Input designated actor's user name"
 $designator = Get-MgUser -UserId $designatorName
