@@ -25,7 +25,7 @@ description: "Learn how to set up Common Area Phones for lobbies, reception area
 
 # Deploy common area phones for Microsoft Teams
 
-A common area phone is typically placed in an area like a lobby or another area that is available to many people to make a call; for example, a reception area, lobby, or conference phone. Common area phones are signed in with accounts tied to a Common Area Phone license. The TeamsIPPhone policy must also be appropriately set for the phone to have a common area user experience.
+A common area phone is typically placed in an area like a lobby or another area that is available to many people to make a call; for example, a reception area, lobby, or conference phone. Common area phones are signed in with accounts tied to a Common Area Phone license.
 
 This article provides an overview of how to deploy and configure Teams phones as common area phones for shared spaces. For a more complete meeting room experience, including audio conferencing, consider purchasing the dedicated Meeting Room license with a meeting room device.
 
@@ -50,7 +50,7 @@ The Common Area Phone license supports:
 &sup2; Not available in sovereign clouds  
 
 >[!NOTE]
-> Accounts for common area phones from the Skype for Business Server can't be migrated to Microsoft Teams. Follow the steps below to recreate those accounts for Teams, and, if required, migrate your PTSN connectivity.
+> Accounts for common area phones from the Skype for Business Server can't be migrated to Microsoft Teams. Follow the steps in this article to recreate those accounts for Teams, and, if required, migrate your PTSN connectivity.
 
 First, you need to purchase a Common Area Phone (CAP) license and make sure that you have a certified phone. To search for and learn more about certified phones, go to [Microsoft Teams devices](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1).
 
@@ -95,7 +95,7 @@ You don't need to add a Phone System license. It's included with the Common Area
 
 **Calling Plans**
 
-If you are using Microsoft Phone System Direct Routing or Operator Connect, you don't need a Calling Plan license.
+If you're using Microsoft Phone System Direct Routing or Operator Connect, you don't need a Calling Plan license.
 
 If you aren't using Microsoft Phone System Direct Routing, you may want to add Calling Plans licenses.
 
@@ -114,16 +114,16 @@ Use policies to control what features are available to users on common area phon
 
 ### IP phone policies
 
-Phones signed in with accounts that have been assigned a Common Area Phone license will display the common area user interface.
+Phones signed in with accounts that have been assigned a Common Area Phone license will display the common area user experience.
 
-If you want to override a phone's default interface, consider creating an [IP phone policy](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps). For example, if a common area phone is used in a public area, set an IP phone policy to restrict searching your organization's Global Address Book and block hotdesking. See 
+If you want to override a phone's default interface, consider creating an [IP phone policy](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps). For example, if a common area phone is used in a public area, set an IP phone policy to restrict searching your organization's Global Address Book and block hot-desking. See 
 [Set Teams Android devices user interface](devices/Teams-Android-devices-user-interface.md) to learn more.
 
 ### Calling policies
 
 Call forwarding and simultaneous ring are only available to common area phones with admin permissions. See [Calling and call-forwarding in Teams](teams-calling-policy.md) to learn more.
 
-By default, call park is not enabled for common area phones. You'll need to create a policy to enable it. See [Call park and retrieve in Microsoft Teams](call-park-and-retrieve.md) to learn more.
+By default, call park isn't enabled for common area phones. You'll need to create a policy to enable it. See [Call park and retrieve in Microsoft Teams](call-park-and-retrieve.md) to learn more.
 
 ## Step 4 - Acquire and assign phone numbers
 
@@ -139,11 +139,11 @@ Once you create and configure a user account, you can sign into a phone. Dependi
 
 ### Local sign-in
 
-To sign in locally with a username and password, turn on the common area phone, select **Sign in on this device**, and follow the sign-in directions on the device. Once signed in, the phone will display the common area phone user interface.
+To sign in locally with a username and password, turn on the common area phone, select **Sign in on this device**, and follow the sign-in directions on the device. Once signed in, the phone will display the common area phone user experience.
 
 ### Sign in from another device
 
-You can also sign into to a common area phone from another device using a code. When you sign-in this way, you'll enter the username and password on another device, rather than on the phone itself.
+You can also sign into to a common area phone from another device using a code. When you sign in this way, you'll enter the username and password on another device, rather than on the phone itself.
 
 To do this, open a browser on your other device and go to https://www.microsoft.com/devicelogin. On your common area phone, look for the code displayed on the sign-in screen, and follow the sign in instructions.
 
