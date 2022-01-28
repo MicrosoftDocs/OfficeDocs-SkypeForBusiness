@@ -52,9 +52,9 @@ The Common Area Phone license supports:
 >[!NOTE]
 > Accounts for common area phones from the Skype for Business Server can't be migrated to Microsoft Teams. Follow the steps in this article to recreate those accounts for Teams, and, if required, migrate your PTSN connectivity.
 
-First, you need to purchase a Common Area Phone (CAP) license and make sure that you have a certified phone. To search for and learn more about certified phones, go to [Microsoft Teams devices](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1).
-
 ## Step 1 - Buy the licenses
+
+First, you need to purchase a Common Area Phone (CAP) license and make sure that you have a certified phone. To search for and learn more about certified phones, go to [Microsoft Teams devices](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1).
 
 1. In the Microsoft 365 admin center, go to **Billing** > **Purchase services**. 
 
@@ -73,9 +73,9 @@ First, you need to purchase a Common Area Phone (CAP) license and make sure that
 
 ### Using the Microsoft 365 admin center
 
-If you're deploying many common area phones at once, learn how to create accounts and assign licenses [using PowerShell](#using-powershell).
+If you're deploying more than one common area phones at once, learn how to create accounts and assign licenses [using PowerShell](#using-powershell).
 
-If you're deploying a small number of devices:
+If you're deploying one device:
 
 1. In the Microsoft 365 admin center, go to **Users** > **Active Users** > **Add a user**.
 
@@ -99,7 +99,7 @@ If you're deploying a small number of devices:
 
 ### Using PowerShell
 
-Use PowerShell when you want to create and assign licenses to a large number of user account at once. See [Create Microsoft 365 user accounts with PowerShell](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide) and [Assign Microsoft 365 licenses to user accounts with PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide) for more information.
+Use PowerShell when you want to create and assign licenses for more than one user account at once. See [Create Microsoft 365 user accounts with PowerShell](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide) and [Assign Microsoft 365 licenses to user accounts with PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide) for more information.
 
 ## Step 3 - Set policies for common area phones
 
