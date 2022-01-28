@@ -91,6 +91,7 @@ First, you need to purchase a Common Area Phone (CAP) license and make sure that
 #### What licenses do you need?
 
 **Microsoft Phone System**
+
 You don't need to add a Phone System license. It's included with the Common Area Phone license.
 
 **Calling Plans**
