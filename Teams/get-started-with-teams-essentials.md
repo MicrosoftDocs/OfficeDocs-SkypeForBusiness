@@ -88,7 +88,7 @@ The following table lists the major Microsoft Teams features available across pl
 
 <sup>1</sup> Provides connection to Google Calendar and other 3rd party calendars with the following configuration: [Microsoft Teams Essentials (AAD Identity) Configuration Guide](connect-teams-essentials-to-email.md)
 
-<sup>2</sup> Teams Essentials (AAD Identity) through partner includes 2GB Exchange mailbox and no archiving, allowing users to sync with third party email providers.
+<sup>2</sup> Teams Essentials (AAD Identity) through partner includes 2GB Exchange mailbox and no archiving, allowing users to sync with third-party email providers.
 
 
 > [!IMPORTANT] 
@@ -156,7 +156,7 @@ Keep the following limitations in mind:
 
 #### How do I upgrade my organization?
 
-To upgrade to the Microsoft Teams Essentials version of Teams, select  **…** in the top navigation menu. Next, select the **Upgrade** button at the bottom of the drop down menu that appears.   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="screenshot showing Upgrade button"::: 
+To upgrade to the Microsoft Teams Essentials version of Teams, select  **…** in the top navigation menu. Next, select the **Upgrade** button at the bottom of the dropdown menu that appears.   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="screenshot showing Upgrade button"::: 
 
 After selecting the **Upgrade** button in Teams, you'll be directed here: [Microsoft Teams for Small Business](https://www.microsoft.com/microsoft-teams/upgrade-teams)
 
