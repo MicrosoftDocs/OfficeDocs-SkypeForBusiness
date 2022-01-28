@@ -69,9 +69,13 @@ First, you need to purchase a Common Area Phone (CAP) license and make sure that
 >
 >Common area phones can be impacted by conditional access rules and other identity configurations, like Multi-Factor Authentication. See [Authentication best practices for Teams Android devices](devices/authentication-best-practices-for-android-devices.md) to learn more.
 
-## Step 2 - Create a new user account for the phone and assign the licenses
+## Step 2 - Create a new user account and assign licenses
 
 ### Using the Microsoft 365 admin center
+
+If you're deploying many common area phones at once, learn how to create accounts and assign licenses [using PowerShell](#using-powershell).
+
+If you're deploying a small number of devices:
 
 1. In the Microsoft 365 admin center, go to **Users** > **Active Users** > **Add a user**.
 
@@ -88,25 +92,16 @@ First, you need to purchase a Common Area Phone (CAP) license and make sure that
 
 6. Select the usage location of the device and assign the Common Area Phone license to the account. If any other licenses are needed, like Callings Plans, assign them.
 
-#### What licenses do you need?
-
-**Microsoft Phone System**
-
-You don't need to add a Phone System license. It's included with the Common Area Phone license.
-
-**Calling Plans**
-
-If you're using Microsoft Phone System Direct Routing or Operator Connect, you don't need a Calling Plan license.
-
-If you aren't using Microsoft Phone System Direct Routing, you may want to add Calling Plans licenses.
-
-For more information on licenses, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+>[!NOTE]
+> You don't need to add a Phone System license. It's included with the Common Area Phone license.
+>
+>If you aren't using Microsoft Phone System Direct Routing or Operator Connect, you may want to add Calling Plans licenses. For more information on licenses, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 ### Using PowerShell
 
-Using PowerShell is a good option when you want to create and assign licenses to more than one user account at once. See [Create Microsoft 365 user accounts with PowerShell](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide) and [Assign Microsoft 365 licenses to user accounts with PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide) for more information.
+Use PowerShell when you want to create and assign licenses to a large number of user account at once. See [Create Microsoft 365 user accounts with PowerShell](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide) and [Assign Microsoft 365 licenses to user accounts with PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide) for more information.
 
-## Step 3 - Policies for common area phones
+## Step 3 - Set policies for common area phones
 
 Use policies to control what features are available to users on common area phones.
 
@@ -140,13 +135,23 @@ Once you create and configure a user account, you can sign into a phone. Dependi
 
 ### Local sign-in
 
-To sign in locally with a username and password, turn on the common area phone, select **Sign in on this device**, and follow the sign-in directions on the device. Once signed in, the phone will display the common area phone user experience.
+To sign in locally with a username and password: 
+
+1. Turn on the common area phone
+
+2. Select **Sign in on this device**
+
+3. Follow the sign-in directions on the device. Once signed in, the phone will display the common area phone user experience.
 
 ### Sign in from another device
 
 You can also sign into to a common area phone from another device using a code. When you sign in this way, you'll enter the username and password on another device, rather than on the phone itself.
 
-To do this, open a browser on your other device and go to https://www.microsoft.com/devicelogin. On your common area phone, look for the code displayed on the sign-in screen, and follow the sign in instructions.
+1. First, on your common area phone, look for the code displayed on the sign-in screen.
+
+2. On another device, go to https://www.microsoft.com/devicelogin.
+
+3. Enter the code and following the instructions to complete the sign in.
 
 ### Sign in using the Teams admin center
 
@@ -156,7 +161,7 @@ As an admin, you can remotely provision and sign into common area phones from th
 
 Now that you've set up and signed in common area phones for your organization, you can manage them in the Teams admin center. See [Microsoft Teams: Managing your devices](devices/device-management.md) to learn more.
 
-## Related articles
+## Related topics
 
 - [Update Microsoft Teams devices remotely](devices/remote-update.md)
 - [Manage Microsoft Teams device tags](devices/manage-device-tags.md)
