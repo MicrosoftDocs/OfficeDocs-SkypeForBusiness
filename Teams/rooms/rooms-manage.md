@@ -120,7 +120,7 @@ See [Microsoft Teams Rooms maintenance and operations](rooms-operations.md#chang
 
 To learn how to set Front row as the default layout for a room, or how to turn it off, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md#set-a-default-layout).
 
-See [Known issues](known-issues.md##limitations-and-expected-behaviors) for more information on managing Front row.
+See [Known issues](known-issues.md#limits) for more information on managing Front row.
 
 ## Device restart options
 
