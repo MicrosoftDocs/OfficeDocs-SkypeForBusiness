@@ -117,7 +117,7 @@ If you want to override a phone's default interface, consider creating an [IP ph
 
 ### Calling policies
 
-Call forwarding and simultaneous ring are only available to common area phones with admin permissions. See [Calling and call-forwarding in Teams](teams-calling-policy.md) to learn more.
+Use calling policies to enable private calls, using call forwarding, or simultaneous ring on common area phones. See [Calling and call-forwarding in Teams](teams-calling-policy.md) to learn more.
 
 By default, call park isn't enabled for common area phones. You'll need to create a policy to enable it. See [Call park and retrieve in Microsoft Teams](call-park-and-retrieve.md) to learn more.
 
