@@ -32,11 +32,7 @@ items:
             - name: Hardware decoder and encoder driver recommendations
               href: hardware-decoders-and-encoders.md
     - name: Small business setup
-      href: deploy-small-business.md
-    - name: Microsoft Teams Essentials for small business
-      href: get-started-with-teams-essentials.md     
-    - name: Microsoft Teams Essentials (AAD identity) configuration guide
-      href: connect-teams-essentials-to-email.md       
+      href: deploy-small-business.md     
     - name: Enterprise setup
       items:
         - name: Enterprise setup overview
