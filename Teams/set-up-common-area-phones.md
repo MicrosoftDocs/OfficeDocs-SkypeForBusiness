@@ -83,20 +83,20 @@ First, you need to purchase a Common Area Phone (CAP) license and make sure that
 
 5. Set the password for your common area phone manually to prevent. To do this, uncheck **Automatically create a password** and **require this user to change their password when they first sign in**.  
 
->[!Important]
-> Setting a password manually for common area phones is highly recommended to prevent sign-in issues for your end users.
+    >[!Important]
+    > Setting a password manually for common area phones is highly recommended to prevent sign-in issues for your end users.
 
 6. Select the usage location of the device and assign the Common Area Phone license to the account. If any other licenses are needed, like Callings Plans, assign them.
 
-### What add-on licenses do you need?
+### What licenses do you need?
 
 **Microsoft Phone System**
 You don't need to add a Phone System license. It's included with the Common Area Phone license.
 
-**Direct Routing and Operator Connect**
+**Calling Plans**
+
 If you are using Microsoft Phone System Direct Routing or Operator Connect, you don't need a Calling Plan license.
 
-**Calling Plans**
 If you aren't using Microsoft Phone System Direct Routing, you may want to add Calling Plans licenses.
 
 For more information on licenses, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
@@ -106,6 +106,11 @@ For more information on licenses, see [Microsoft Teams add-on licensing](./teams
 Using PowerShell is a good option when you want to create and assign licenses to more than one user account at once. See [Create Microsoft 365 user accounts with PowerShell](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide) and [Assign Microsoft 365 licenses to user accounts with PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide) for more information.
 
 ## Step 3 - Policies for common area phones
+
+Use policies to control what features are available to users on common area phones.
+
+>[!NOTE]
+>After you assign a policy, sign out of the phone and sign back in. It may take up to an hour for a policy assignment to take effect.
 
 ### IP phone policies
 
@@ -120,25 +125,38 @@ Call forwarding and simultaneous ring are only available to common area phones w
 
 By default, call park is not enabled for common area phones. You'll need to create a policy to enable it. See [Call park and retrieve in Microsoft Teams](call-park-and-retrieve.md) to learn more.
 
-## Step 4 - Assign a phone number to the Common Area Phone user account
+## Step 4 - Acquire and assign phone numbers
 
-Use the Teams admin center to assign a number to the user.
+See [Manage telephone numbers for your organization](manage-phone-numbers-landing-page.md) to learn how to acquire and assign phone numbers based on your PSTN connectivity option.
 
-1. In the Teams admin center, select **Voice** > **Phone numbers**.
+## Step 5 - Sign in
 
-3. Select a number from the list of phone numbers and click **Assign**.
+Once you create and configure a user account, you can sign into a phone. Depending on how many phones you're deploying, you have three sign-in options:
 
-4. On the **Assign** page, in the Voice user box, type the name of the user who will be using the phone, and then select the user in the **Select a voice user** drop-down list.
+- [Local sign-in](#local-sign-in)
+- [Sign in from another device](#sign-in-from-another-device)
+- [Sign in using the Teams admin center](#sign-in-using-the-teams-admin-center)
 
-5. Next, you need to add an emergency address. Choose **Search by city**, **Search by description**, or **Search by location** from the drop-down list, and then enter the city, description, or location in the text box. Once you search, look under **Select emergency address** to pick the right one for you.
+### Local sign-in
 
-6. Click **Save** and your user should look like this:
+To sign in locally with a username and password, turn on the common area phone, select **Sign in on this device**, and follow the sign-in directions on the device. Once signed in, the phone will display the common area phone user interface.
 
-   ![Screenshot shows sample user license assignment.](media/set-up-common-area-phone-image3.png)
+### Sign in from another device
 
-> [!NOTE]
-> Users will only show up if they have a Phone System license applied. If you just did this, then sometimes it takes a bit for the user to show up in the list.
+You can also sign into to a common area phone from another device using a code. When you sign-in this way, you'll enter the username and password on another device, rather than on the phone itself.
 
-For more information, see [Getting phone numbers for your users](getting-phone-numbers-for-your-users.md).
+To do this, open a browser on your other device and go to https://www.microsoft.com/devicelogin. On your common area phone, look for the code displayed on the sign-in screen, and follow the sign in instructions.
 
-You can also take your phone number that you have with another carrier and "port" or transfer it over to Microsoft 365 or Office 365. See [Transfer phone numbers to Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
+### Sign in using the Teams admin center
+
+As an admin, you can remotely provision and sign into common area phones from the Teams admin center. This is the most efficient sign-in method when you're deploying a large number of phones at once. See [Remote provisioning and sign in for Teams Android devices](devices/remote-provision-remote-login.md) to learn more.
+
+## Next steps
+
+Now that you've set up and signed in common area phones for your organization, you can manage them in the Teams admin center. See [Microsoft Teams: Managing your devices](devices/device-management.md) to learn more.
+
+## Related articles
+
+- [Update Microsoft Teams devices remotely](devices/remote-update.md)
+- [Manage Microsoft Teams device tags](devices/manage-device-tags.md)
+- [Microsoft Teams device health monitoring](alerts/device-health-status.md)
