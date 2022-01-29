@@ -25,10 +25,15 @@ appliesto:
 > [!Tip]
 > Watch the following session to learn about the benefits of the Windows Desktop Client, how to plan for it and how to deploy it: [Teams Windows Desktop Client](https://aka.ms/teams-clients).
 
-To use Microsoft Endpoint Configuration Manager, or Group Policy, or any third-party distribution mechanisms for broad deployment, Microsoft has provided MSI files (both 32-bit and 64-bit) that admins can use for bulk deployment of Teams to select users or computers. Admins can use these files to remotely deploy Teams so that users do not have to manually download the Teams app. When deployed, Teams will auto launch for all users who sign in on that machine. (You can disable auto launch after installing the app. [See below](#disable-auto-launch-for-the-msi-installer).)
-We recommend that you deploy the package to the computer, so all new users of the machine will also benefit from this deployment.
+Microsoft provides 32-bit and 64-bit MSI files that you can use to bulk deploy Microsoft Teams to select users and computers. You can use Microsoft Endpoint Configuration Manager, Group Policy, or any third-party distribution software to deploy Teams to your organization. Bulk deployments are useful because users don't need to download and install the Teams client manually. Rather, Teams will be deployed to computers and then auto-launch the first time users sign into a computer.
 
-These are the links to the MSI files:
+We recommend that you deploy the package to computers rather than a specific users. By targeting computers, all new users of those computers will benefit from this deployment.
+
+## MSI files
+
+The table below provides links to 32-bit, 64-bit, and ARM64 MSI files for Teams. Download the MSI that you want to install on computers in your organization. The x86 architecture (32-bit or 64-bit) Teams supports is independent of other Office apps installed on a computer. 
+
+If you have 64-bit computers, we recommend installing the 64-bit Teams MSI even if the computer is running a 32-bit version of Office. The ARM64 MSI can only be installed on computers that use the ARM architecture, such as the Surface Pro X.
 
 |Entity  |32-bit      |64-bit      | ARM64 |
 |---------|---------|---------|-----------|
