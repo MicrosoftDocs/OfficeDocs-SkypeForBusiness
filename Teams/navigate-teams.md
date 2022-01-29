@@ -54,7 +54,7 @@ You can move from Kaizala groups to Microsoft Teams through the creation of Team
 
 Teams is a collection of people, content, and tools surrounding different projects and outcomes within an organization.
 
-Teams is made up of **channels**, which are the topic-specific conversations you have with your teammates. Each channel is dedicated to a specific topic, department, or project. Channels are most valuable when extended with applications. To learn more, see [work in channels](https://support.microsoft.com/en-us/office/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499?ui=en-us&rs=en-us&ad=us#ID0EAABAAA=Work_in_channels).
+Teams is made up of **channels**, which are the topic-specific conversations you have with your teammates. Each channel is dedicated to a specific topic, department, or project. Channels are most valuable when extended with applications. To learn more, see [work in channels](https://support.microsoft.com/office/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499?ui=en-us&rs=en-us&ad=us#ID0EAABAAA=Work_in_channels).
 
 **Group chats** allow you to gather your coworkers quick huddle over instant messaging.
 
@@ -94,7 +94,7 @@ You can create a Teams group chat to hold quick huddles and transient conversati
 
     ![Name a group chat](media/Kaizala-to-Teams-image4.png)
 
-    Everyone who has access to the group chat can [send messages](https://support.microsoft.com/en-us/office/send-and-read-messages-in-teams-b29e60ec-76af-4d97-8c3c-a4e36f2b64aa?ui=en-us&rs=en-us&ad=us).
+    Everyone who has access to the group chat can [send messages](https://support.microsoft.com/office/send-and-read-messages-in-teams-b29e60ec-76af-4d97-8c3c-a4e36f2b64aa?ui=en-us&rs=en-us&ad=us).
 
 2. Add people to the conversation.
 
@@ -113,7 +113,7 @@ You can create a Teams group chat to hold quick huddles and transient conversati
    To get up and running in Teams, you should create a team, add people, and add channels. To learn more, see [your first teams](get-started-with-teams-create-your-first-teams-and-channels.md).
 2. Review the guide for team owners:
 
-As a [team owner](https://support.microsoft.com/en-us/office/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547?ui=en-us&rs=en-us&ad=us), you can add new members and guests, change members into owners, manage channels and settings, and archive a team that's no longer in use.
+As a [team owner](https://support.microsoft.com/office/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547?ui=en-us&rs=en-us&ad=us), you can add new members and guests, change members into owners, manage channels and settings, and archive a team that's no longer in use.
 
 3. Add bulk members to a team:
 
@@ -121,7 +121,7 @@ As a [team owner](https://support.microsoft.com/en-us/office/go-to-guide-for-tea
 
     ![Add bulk members](media/Kaizala-to-Teams-image6.png)
 
-    You can start typing a distribution list, security group, or Microsoft 365 group to add to your team. To learn more, see [Add members to a team in Teams](https://support.microsoft.com/en-us/office/add-members-to-a-team-in-teams-aff2249d-b456-4bc3-81e7-52327b6b38e9?ui=en-us&rs=en-us&ad=us).
+    You can start typing a distribution list, security group, or Microsoft 365 group to add to your team. To learn more, see [Add members to a team in Teams](https://support.microsoft.com/office/add-members-to-a-team-in-teams-aff2249d-b456-4bc3-81e7-52327b6b38e9?ui=en-us&rs=en-us&ad=us).
 
 ### Mimic the consumer app messaging experience
 
@@ -188,7 +188,7 @@ You can cross-post across multiple Teams and channels when you have important an
 
   ![Choose a channel for broadcast](media/Kaizala-to-Teams-image11.png)
 
-To learn more, see [Cross-post a channel conversation in Teams](https://support.microsoft.com/en-us/office/cross-post-a-channel-conversation-in-teams-9c1252a3-67ef-498e-a7c1-dd7147b3d295?ui=en-us&rs=en-us&ad=us).
+To learn more, see [Cross-post a channel conversation in Teams](https://support.microsoft.com/office/cross-post-a-channel-conversation-in-teams-9c1252a3-67ef-498e-a7c1-dd7147b3d295?ui=en-us&rs=en-us&ad=us).
 
 ## Getting work done in Teams
 
@@ -217,7 +217,7 @@ The Teams platform allows you to use existing organization tools through integra
 
 You can also send quick polls, surveys, and checklists to your team instantly with existing Microsoft 365 and third-party apps.
 
-[Microsoft Forms](https://techcommunity.microsoft.com/t5/microsoft-forms-blog/microsoft-forms-works-great-with-microsoft-teams/ba-p/109915) allows you to collect information and get decisions fast. With Forms integrated into Teams, you can easily set up a Forms tab, create notifications for your form, and conduct a quick poll. To find out how, see [Create, edit, and review forms in Microsoft Teams](https://support.microsoft.com/en-us/office/work-with-colleagues-to-create-edit-and-review-forms-in-microsoft-teams-333b97a3-41d9-48bc-a1cb-84a96bd44e14#:~:text=1%20In%20Teams%2C%20go%20to%20the%20channel%20you,name%20for%20your%20new%20form.%20More%20items...%20).
+[Microsoft Forms](https://techcommunity.microsoft.com/t5/microsoft-forms-blog/microsoft-forms-works-great-with-microsoft-teams/ba-p/109915) allows you to collect information and get decisions fast. With Forms integrated into Teams, you can easily set up a Forms tab, create notifications for your form, and conduct a quick poll. To find out how, see [Create, edit, and review forms in Microsoft Teams](https://support.microsoft.com/office/work-with-colleagues-to-create-edit-and-review-forms-in-microsoft-teams-333b97a3-41d9-48bc-a1cb-84a96bd44e14#:~:text=1%20In%20Teams%2C%20go%20to%20the%20channel%20you,name%20for%20your%20new%20form.%20More%20items...%20).
 
 Third-party apps like Polly and SurveyMonkey allow you to further conduct polls and surveys with your Teams.
 
@@ -227,7 +227,7 @@ Third-party apps like Polly and SurveyMonkey allow you to further conduct polls 
 
 ### Jobs in Teams
 
-Use **[Microsoft Planner](https://support.microsoft.com/en-us/office/organize-your-team-s-tasks-in-microsoft-planner-c931a8a8-0cbb-4410-b66e-ae13233135fb?ui=en-us&rs=en-us&ad=us)** to run jobs in Teams. You can collaborate on a project with a team, see progress reports, and track individual assignments.
+Use **[Microsoft Planner](https://support.microsoft.com/office/organize-your-team-s-tasks-in-microsoft-planner-c931a8a8-0cbb-4410-b66e-ae13233135fb?ui=en-us&rs=en-us&ad=us)** to run jobs in Teams. You can collaborate on a project with a team, see progress reports, and track individual assignments.
 
 While using Microsoft Teams, you can organize your tasks by adding one or more Planner tabs to a team channel. You can then work on your plan from within Teams or in Planner for web, remove or delete your plan, and get notified in Teams when a task is assigned to you in Planner.
 
