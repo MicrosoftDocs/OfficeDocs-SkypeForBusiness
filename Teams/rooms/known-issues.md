@@ -54,7 +54,7 @@ This article lists the known issues for Microsoft Teams Rooms, by feature area.
 
 ***
 
-Front row is marked as a 'Preview' in layout picker of the Front of Room display. More features and improvements will be added in the future. The following limitation will be address post-release:
+Front row is marked as a 'Preview' in the layout picker in the Front of Room display. More features and improvements will be added in the future. The following limitation will be address post-release:
 
 - Front row layout shows up to 4 video participants on a Front of Room single display and up to 9 videos on dual Front of Room. These participants are chosen from the last active speakers.
 

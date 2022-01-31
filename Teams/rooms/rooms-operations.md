@@ -55,10 +55,10 @@ If the font size on your Front of Room display is too large or small, you'll nee
 
 5. Next, select the start icon and enter **Command prompt**. Select **Run as administrator**.
 
-6. Run the following cmdlet: 
+6. Run the following command:
 
-```PowerShell
- -ExecutionPolicy Unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentDisplayScaling.ps1 
+```cmdlet
+ Powershell -ExecutionPolicy Unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentDisplayScaling.ps1 
 ```
   
 ## Microsoft Teams Rooms Reset (Factory Restore)
