@@ -20,11 +20,7 @@ items:
         - name: Support remote workers (WFH)
           href: support-remote-work-with-teams.md
     - name: Small business setup
-      href: deploy-small-business.md
-    - name: Microsoft Teams Essentials for small business
-      href: get-started-with-teams-essentials.md     
-    - name: Microsoft Teams Essentials (AAD identity) configuration guide
-      href: connect-teams-essentials-to-email.md       
+      href: deploy-small-business.md     
     - name: Enterprise setup
       items:
         - name: Enterprise setup overview
@@ -1433,6 +1429,8 @@ items:
           href: devices/plan-device-deployment.md
         - name: Phones for Teams
           href: devices/phones-for-teams.md
+        - name: Set up common area phones
+          href: set-up-common-area-phones.md
         - name: Teams displays
           href: devices/teams-displays.md
         - name: Teams panels
