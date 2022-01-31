@@ -128,7 +128,7 @@ $enabledConnectorScenario = $blueYonder.SupportedScenario
 $wfiSupportedScenario = $blueYonder.wfiSupportedScenario
 
 #Prompt for entering of WFM username and password 
-$WfmUserName = Read-Host -Prompt 'Input your WFM user name'
+$WfmUserName = Read-Host -Prompt 'Input your WFM super user name'
 $WfmPwd = Read-Host -Prompt 'Input your WFM password' -AsSecureString
 $plainPwd =[Runtime.InteropServices.Marshal]::PtrToStringAuto([Runtime.InteropServices.Marshal]::SecureStringToBSTR($WfmPwd))
 
@@ -287,7 +287,7 @@ $enabledConnectorScenario = $blueYonder.SupportedScenario
 $wfiSupportedScenario = $blueYonder.wfiSupportedScenario
 
 #Prompt for entering of WFM username and password 
-$WfmUserName = Read-Host -Prompt 'Input your WFM user name'
+$WfmUserName = Read-Host -Prompt 'Input your WFM super user name'
 $WfmPwd = Read-Host -Prompt 'Input your WFM password' -AsSecureString
 $plainPwd =[Runtime.InteropServices.Marshal]::PtrToStringAuto([Runtime.InteropServices.Marshal]::SecureStringToBSTR($WfmPwd))
 
@@ -313,7 +313,7 @@ $designatorName = Read-Host -Prompt "Enter your Microsoft 365 user name"
 $domain = $designatorName.Split("@")[1]
 $designator = Get-MgUser -UserId $designatorName
 $teamsUserId = $designator.Id
-$syncFreq = Read-Host -Prompt "Input sync frequency"
+$syncFreq = Read-Host -Prompt "Input sync frequency in minutes. Value should be equal to or more than 10."
 
 #Read admin email list
 [psobject[]]$AdminEmailList = @()

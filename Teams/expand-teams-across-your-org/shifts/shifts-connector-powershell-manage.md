@@ -144,7 +144,7 @@ ForEach ($mapping in $mappings){
 
 Account authorization errors may occur if the Blue Yonder service account or Microsoft 365 system account credentials are incorrect or don't have the required permissions.
 
-To change your Microsoft 365 system account, you can run the [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance?view=teams-ps) cmdlet to update the account or use the PowerShell script in the [Change connection settings](#change-connection-settings) section of this article.
+To change your Blue Yonder service account or Microsoft 365 system account credentials for the connection, you can run the [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance?view=teams-ps) cmdlet or use the PowerShell script in the [Change connection settings](#change-connection-settings) section of this article.
 
 ## Change connection settings
 <a name="change_settings"> </a>
