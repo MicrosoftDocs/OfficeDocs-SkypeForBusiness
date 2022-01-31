@@ -106,7 +106,7 @@ You can enable Cortana for _Voice Activation_ or _Push to talk_ using PowerShell
 
 See [Microsoft Teams Rooms on Windows](../cortana-in-teams.md) in the "Cortana voice assistance in Teams" article.
 
-### (Preview) Front row settings
+### Front row (Preview) settings
 
 Front row is meeting view layout option for Teams Rooms on Windows.
 
