@@ -283,6 +283,7 @@ Support for notifications is enabled using the Teams client experiences. The exp
 
 > [!NOTE]
 > Compliance Recording is not supported with Conference mode call queues. Please use Transfer mode call queues.
+> Compliance Recording will not work if users have experienced an Internet outage, and are making and receiving PSTN calls using an SBA.
 
 ## Compliance recording for Teams certification programs
 

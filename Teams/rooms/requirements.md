@@ -175,6 +175,7 @@ These devices are available at the [Room System Accessories product showcase](ht
 |[Yamaha YVC-1000MS](https://uc.yamaha.com/products/conference-phones/usb-bluetooth/) |1.0.0 |
 |[Yealink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
 |[Yealink UVC30](https://www.yealink.com/product/microsoft-teams-room-system-uvc30)| 105.420.0.11 |  &#x2714; |
+|[Yealink UVC34 All-in-one video bar](https://www.yealink.com/product/usb-videobar-uvc34) | 265.410.0.9 |
 |[Yealink UVC40 All-in-one Video bar](https://www.yealink.com/product/usb-videobar-uvc40) |128.410.0.10|  
 |[Yealink UVC84](https://www.yealink.com/product/camera-uvc84) |262.410.0.10|
 |[Yealink UVC86]( https://www.yealink.com/product/camera-uvc86) |151.410.0.5|
