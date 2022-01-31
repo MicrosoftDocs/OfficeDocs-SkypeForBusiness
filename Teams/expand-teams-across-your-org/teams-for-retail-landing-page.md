@@ -152,7 +152,7 @@ For retail environments, the following apps and services can help you transform 
 | Teams apps and services | Description | Manage | Help |
 | ----- | ----- | ----- | ----- |
 | Approvals | Approvals can be integrated into chat for easy sign off. | [Manage Approvals](../approval-admin.md) | [Use Approvals](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3) |
-| Chat | Enable quick conversations and checkins between staff with secure, enterprise-grade communications tools, instead of consumer grade apps or SMS. | [Chat, teams, channels & apps in Microsoft Teams](/deploy-chat-teams-channels-microsoft-teams-landing-page) | [Chat in Teams](https://support.microsoft.com/office/start-and-pin-chats-a864b052-5e4b-4ccf-b046-2e26f40e21b5?wt.mc_id=otc_microsoft_teams) |
+| Chat | Enable quick conversations and checkins between staff with secure, enterprise-grade communications tools, instead of consumer grade apps or SMS. | [Chat, teams, channels & apps in Microsoft Teams](../deploy-chat-teams-channels-microsoft-teams-landing-page.md) | [Chat in Teams](https://support.microsoft.com/office/start-and-pin-chats-a864b052-5e4b-4ccf-b046-2e26f40e21b5?wt.mc_id=otc_microsoft_teams) |
 | Documents | Share standard operating procedures, store policies, plans, and more. | [How SharePoint and OneDrive interact with Microsoft Teams](../sharepoint-onedrive-interact.md) | [Share files](https://support.microsoft.com/office/upload-and-share-files-57b669db-678e-424e-b0a0-15d19215cb12) |
 | Praise | Recognize coworkers for great teamwork with the Praise app. | [Manage the Praise app](../manage-praise-app.md) | [Send Praise to people](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e) |
 | RealWear devices | Handsfree communication with devices. | [Microsoft Teams for RealWear](../flw-realwear.md) | [Use Microsoft Teams for RealWear](https://support.microsoft.com/office/using-microsoft-teams-for-realwear-af20d232-d18c-476f-8031-843a4edccd5f) |
@@ -181,7 +181,7 @@ You can also [create a custom template](../create-a-team-template.md) to include
 Aside from team templates, you can also set up other sites and services to help with communication: SharePoint sites and Viva Connections.
 
 - Set up SharePoint sites to create a home page for your organization, distribute news across your company, and provide a place with resources for onboarding users. Learn more about using SharePoint sites for corporate communications scenarios at [Organizational communications: Guidance, methods, and products](/sharepoint/corporate-communications-overview).
-- Use Viva Connections to bring it all together. With Viva Connections as your employee's home in Teams, they can get updates on their tasks, organizational news, and more. For more information, see [Overview: Viva Connections (Preview)](/sharepoint/viva-connections-overview) and [Add the Viva Connections app in the Teams Admin Center (Preview)](/sharepoint/add-viva-connections-app).
+- Use Viva Connections to bring it all together. With Viva Connections as your employee's home in Teams, they can get updates on their tasks, organizational news, and more. For more information, see [Overview: Viva Connections (Preview)](/viva/connections/viva-connections-overview) and [Add the Viva Connections app in the Teams Admin Center (Preview)](/viva/connections/add-viva-connections-app).
 
 ## Get ready to roll out your scenarios - identify roles and responsibilities for scenarios
 
