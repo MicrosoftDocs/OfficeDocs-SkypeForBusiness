@@ -19,11 +19,11 @@ ms.custom:
 
 In April of 2019, we [announced](https://techcommunity.microsoft.com/t5/microsoft-kaizala-blog/update-on-kaizala-features-coming-to-microsoft-teams/ba-p/974525) plans to bring **Kaizala together with Microsoft Teams**. The capabilities of Kaizala complement the robust communication and collaboration capabilities of Teams, the hub for teamwork in Microsoft 365.
 
-Open the door to an entirely new way of doing business with Microsoft Teams. Teams extends the capabilities of Kaizala, bringing together chat, meetings, calling, collaboration, app integration, and file storage into a single interface. Teams helps customers realize more value from their investments and improves the frontline worker’s day-to-day experience.
+Open the door to an entirely new way of doing business with Microsoft Teams. Teams extends the capabilities of Kaizala - bringing together chat, meetings, calling, collaboration, app integration, and file storage into a single interface. Teams helps customers realize more value from their investments and improves the frontline worker’s day-to-day experience.
 
 Teams improves workplace collaboration by helping organizations move from an array of disparate apps to a single, secure hub that brings together what teams need, including chat, meetings, and calling, all with native integration to the Office 365 apps. Currently, more than 500,000 organizations use Teams to collaborate across locations, time zones, and languages.
 
-Microsoft Teams will be replacing the Kaizala service and thus be the primary client in Office 365 and Microsoft 365 for communication with both internal employees and people in your extended networks.
+Microsoft Teams will be replacing the Kaizala service as the primary communication client in Microsoft 365 for both internal employees and people in your extended networks.
 
 **The first set of Kaizala Pro capabilities is now available in Teams and include Kaizala actions now available as Teams [app templates](/microsoftteams/platform/samples/app-templates), such as [polls](/microsoftteams/platform/samples/app-templates#poll), [surveys](/microsoftteams/platform/samples/app-templates#survey), [checklists](/microsoftteams/platform/samples/app-templates#checklist), [quizzes](/microsoftteams/platform/samples/app-templates#quiz--), and [training](/microsoftteams/platform/samples/app-templates#training--).**
 
@@ -38,7 +38,7 @@ Keep reading for frequently asked questions about Kaizala and Teams.
 
 ## When should my organization move from Kaizala to Teams?
 
-We encourage all Microsoft 365 and Office 365 customers to start using [Teams](https://www.microsoft.com/microsoft-teams/group-chat-software?ms.officeurl=teams&rtc=1&OCID=AID2388518_SEM_Ks5ySdZ9) today to take advantage of the rich capabilities that Teams provides. These capabilities include a simple and powerful experience for mobile users in 46 languages and 181 markets, Frontline worker capabilities such as shift management, guest access, and support for custom workflows and apps with Microsoft Flow and PowerApps. For specific Kaizala functionality that isn't yet available in Teams, we'll be posting an updated integration timeline in the future.
+We encourage all Microsoft 365 and Office 365 customers to start using [Teams](https://www.microsoft.com/microsoft-teams/group-chat-software?ms.officeurl=teams&rtc=1&OCID=AID2388518_SEM_Ks5ySdZ9) today to take advantage of the rich capabilities that Teams provides. These capabilities include a simple and powerful experience for mobile users in 46 languages and 181 markets. Empower your frontline worker staff with capabilities such as shift management, guest access, and support for custom workflows and apps with Microsoft Flow and PowerApps. For specific Kaizala functionality that isn't yet available in Teams, we'll be posting an updated integration timeline in the future.
 
 ## How can I continue to use Kaizala Pro if I had purchased the standalone offering?
 
