@@ -1,5 +1,5 @@
 ---
-title: Manage live components in Teams
+title: Overview of live components in Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -20,7 +20,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Manage live components in Teams
+# Overview of live components in Teams
 
 Live components in Teams chat offer a new way to ideate, create, and make decisions together. Send a component - like a table, task list, or paragraph — where everyone in your chat can edit inline and see changes as they're made. 
 
