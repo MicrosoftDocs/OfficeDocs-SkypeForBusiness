@@ -86,7 +86,7 @@ These examples rely on the [Connect-ExchangeOnline](/powershell/module/exchange/
 
 9. In the navigation panel on the left, select **Setup** > **Domains**
 
-10. Using the checkbox, select your existing non-Microsoft domain (ex: JohannaL@contosolandscapting2.m365master.com) from the current lists of domains.
+10. Using the checkbox, select your existing non-Microsoft domain (ex: TomislavK@thephone-company.com) from the current lists of domains.
 
 11. Select the button with **three vertical dots** to open a menu.
 
