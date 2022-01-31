@@ -60,7 +60,7 @@ Teams is made up of **channels**, which are the topic-specific conversations you
 
 ### Conversations in Teams Chat vs Team Channel
 
-| Conversations in  Chat | Conversations in Team Channels | |
+| Conversations in  Chat | Conversations in Team Channels|
 |---------|-----------------------|
 | For lightweight conversations, where you’re directly messaging recipients. | For interactions where multiple topics are discussed in an open space.​ |
 | Private chats are only visible to those in the chat​ | Visible to everyone in the Team​  |
@@ -233,7 +233,7 @@ While using Microsoft Teams, you can organize your tasks by adding one or more P
 
 ### Announcements in Teams
 
-Create and send messages intended for multiple teams or large number of employees over chat with the [company communicator](microsoftteams/platform/samples/app-templates#company-communicator) app. Its easy interface allows designated users to create, preview, collaborate, and send messages in a targeted manner. Build custom targeted communication capabilities such as custom personal data on how many users acknowledged or interacted with a message with insights directly tied to management decisions.
+Create and send messages intended for multiple teams or large number of employees over chat with the [company communicator](/microsoftteams/platform/samples/app-templates#company-communicator) app. Its easy interface allows designated users to create, preview, collaborate, and send messages in a targeted manner. Build custom targeted communication capabilities such as custom personal data on how many users acknowledged or interacted with a message with insights directly tied to management decisions.
 
 ### Photo Check-ins
 
