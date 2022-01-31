@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams PowerShell Release Notes
 ms.reviewer: gothambi
-author: BrandBer
+author: rajgodwin
 ms.author: gothambi
 manager: naanur
 ms.date: 12/10/2021
