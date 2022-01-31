@@ -40,7 +40,7 @@ To allow or block specific users in your organization from using Praise, make su
 
 Here's the default set of badges in Praise. Teams users in your organization can use these badges to recognize their peers for going above and beyond with their work.
 
-:::image type="content" source="media/default-set-praise.png" alt-text="Image of badges in default badge set.":::
+:::image type="content" source="media/default-set-praise.png" alt-text="Image of badges in the default badge set.":::
 
 > [!NOTE]
 > Starting February 2022, people can only send and receive default badges. Custom badges are no longer available and options for custom badges are being removed from the app's **Settings** page in the Teams admin center soon.
