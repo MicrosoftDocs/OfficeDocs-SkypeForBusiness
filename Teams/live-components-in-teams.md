@@ -1,7 +1,7 @@
 ---
 title: Manage live components in Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 ms.topic: conceptual
@@ -22,15 +22,94 @@ appliesto:
 
 # Manage live components in Teams
 
-Live components in Teams chat offer a new way to ideate, create, and make decisions together. Send a component—like a table, task list, or paragraph—where everyone in your chat can edit inline and see changes as they’re made. This means you can gather ideas and feedback from your team while holding fewer meetings and minimizing the need for long chat threads.
+Live components in Teams chat offer a new way to ideate, create, and make decisions together. Send a component - like a table, task list, or paragraph — where everyone in your chat can edit inline and see changes as they're made. 
+
 > [!Note]
-> Live components is the first feature of the [Microsoft Loop app](https://www.microsoft.com/en-us/microsoft-loop) to become available in Teams. Please note that "Live components" will be renamed "Loop components" in early 2022.
+> Live components is the first feature of the [Microsoft Loop app](https://www.microsoft.com/en-us/microsoft-loop) to become available in Teams. 
 
 **Get tasks done faster together.** Crowd-source an agenda, track a group's action items, or take notes collectively. These are just a few scenarios made easier with live components.
 
-**Share components.** In this release, you can share live components into different Teams chats. Recipients can edit from wherever they are and see updates instantly no matter where the changes were made. In future releases, live components will be supported in Teams meeting notes and channels, Outlook, and eventually across all Microsoft 365 applications.
+**Share components.** In this release, you can share live components into different Teams chats. Recipients can edit from wherever they are and see updates instantly no matter where the changes were made.
 
 **Start in chat, build from there.** Every component you create from Teams chat is automatically saved to a file in OneDrive. So, you might begin collaborating in chat then later move to the file, where you have a larger visual space for editing and can add as many components as you like.
+
+## Clients and platforms
+
+Available on Teams apps on Windows, Mac, Linux, iOS, and Android.
+
+## Live components and .fluid files
+
+Live components created in Teams are backed by a .fluid file stored in the creator's OneDrive. Being a file in OneDrive means that users can create, discover, and manage live components (.fluid files) as easily as any Office document. .fluid files work with data governance features like eDiscovery, auditing, reporting, and legal hold.
+
+## How are .fluid  files stored?
+
+.fluid files appear on Office.com and OneDrive, such as in the Recent and Recommended areas. Users can search for content in .fluid files from Office.com and OneDrive. .fluid files can be restored to previous versions from OneDrive. To create live components chat participants must have a OneDrive account. Without a valid OneDrive account, chat participants might still be able to collaborate on a component created by other users who have a valid OneDrive account, but cannot create their own. 
+
+Moving a .fluid file from OneDrive to a SharePoint site will result in the live component failing to load in Teams chat.
+
+## What happens if the owner of the file leaves the company?
+
+OneDrive retention policies apply to .fluid files just as they do to other content created by the user.
+
+## How are .fluid files shared?
+
+Live components can be inserted in Teams chat or copied from one chat to another. (Live components aren't yet supported in channels.) They default to the organization's existing permissions, but users can change permissions before sending to ensure everyone has access.
+
+Opening components from Teams chat in Office.com offers share functionality at the top of the window, similar to the sharing options offered for other Office documents.
+
+## What if a .fluid file becomes corrupted or damaged?
+
+Version History allows you to review and copy from previous versions of the file.
+
+## What apps can open and edit .fluid files?
+
+.fluid files can only be opened as links in your browser, such as Office.com, and as live components in Teams chat. If downloaded, they can't be opened again without first uploading them back to OneDrive or SharePoint.
+
+## Known issues
+
+- Live components in chat cannot be edited via Office app when using Teams on Android.
+- If tenant default file permissions are set to *Specific people* (only the people the user specifies), and the sender removes some users from the *Specific people* list in the permissions dialog when creating a component, those users may still have access to the content.
+- With tenant default file permissions set to *Specific people* (only the people the user specifies), copying link to live component and pasting in another chat requires the sender to use permissions dialog and add the recipients in the Specific people option to grant access properly.
+- With tenant default file permissions set to *Specific people* (only the people the user specifies), creating a live component in group chat with more than 20 members will require the sender to manually select the permission options for the component.
+- Searching for live components in Teams search will return a link to the component in office.com, not the chat message itself.
+- Live components are disabled in federated chats.
+- B2B guests will not be able to collaborate on a live component that are shared with them via *People in your organization* links unless the tenant sets an external access option to allow B2B guests to have the same access level as tenant members. For more information, see [Configure B2B external collaboration settings](/azure/active-directory/external-identities/delegate-invitations#configure-b2b-external-collaboration-settings).
+- Live components are not supported in Teams channels.
+- Live components in chat will not load only if file was moved to different library. If file is moved to different folder then it will continue to load in chat.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Clients and platforms
 
@@ -115,13 +194,13 @@ PS C:\\WINDOWS\\system32&gt;
 
 **How `.fluid` are stored?**
 
-Live components created in Teams are backed by a `.fluid` file stored in the creator’s OneDrive for Business. Being a file in OneDrive for Business means that users can create, discover, and manage live components (`.fluid` files) as easily as any Office document.
+Live components created in Teams are backed by a `.fluid` file stored in the creator's OneDrive. Being a file in OneDrive means that users can create, discover, and manage live components (`.fluid` files) as easily as any Office document.
 
-Users can search for content in `.fluid` files from Office.com and OneDrive for Business.
+Users can search for content in `.fluid` files from Office.com and OneDrive.
 `.fluid` files work with data governance features like eDiscovery, auditing, reporting, and legal hold.
 
-`.fluid` files will now appear on Office.com and OneDrive for Business, such as in the Recent and Recommended areas.
-`.fluid` files can be restored to previous versions from OneDrive for Business.
+`.fluid` files will now appear on Office.com and OneDrive, such as in the Recent and Recommended areas.
+`.fluid` files can be restored to previous versions from OneDrive.
 
 Chat participants must have a OneDrive account to create live components. Without a valid OneDrive account, chat participants might still be able to collaborate on a component created by other users who have a valid OneDrive account, but cannot create their own.
 
@@ -133,7 +212,7 @@ Chat participants must have a OneDrive account to create live components. Withou
 
 **How are `.fluid` files shared?**
 
-Live components can be inserted in Teams chat or copied from one chat to another. (Live components aren't yet supported in channels.) They default to the tenant’s existing permissions, but users can change permissions before sending to ensure everyone has access.
+Live components can be inserted in Teams chat or copied from one chat to another. (Live components aren't yet supported in channels.) They default to the tenant's existing permissions, but users can change permissions before sending to ensure everyone has access.
 
 Opening components from Teams chat in Office.com offers share functionality at the top of the window, similar to the sharing options offered for other Office documents.
 
@@ -143,4 +222,4 @@ Version History allows you to review and copy from previous versions of the file
 
 **What apps can open and edit `.fluid` files?**
 
-`.fluid` files can only be opened as links in your browser, such as Office.com, and as live components in Teams chat. If downloaded, they can't be opened again without first uploading them back to OneDrive for Business or SharePoint Online.
+`.fluid` files can only be opened as links in your browser, such as Office.com, and as live components in Teams chat. If downloaded, they can't be opened again without first uploading them back to OneDrive or SharePoint Online.
