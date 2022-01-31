@@ -56,7 +56,7 @@ Set-CsTeamsIPPhonePolicy -Identity Device -SignInMode MeetingSignIn
 
 ### Configure device settings
 
-After enabling auto answer, users with administrative permissions can turn on the feature in their device settings. Read [Microsoft Support: Calls and devices](https://support.microsoft.com/office/calls-and-devices-4d96653e-6176-4978-98ab-2c19df137e43#ID0EBBD=Devices) for more information.
+After enabling auto answer, users with administrative permissions can turn on the feature in their device settings. To enable the feature at the device level, you need to turn on **Auto accept incoming meeting invites**. You can also turn on **Auto accept with video**. Both settings are off by default.
 
 ## Related topics
 
