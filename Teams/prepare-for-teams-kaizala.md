@@ -1,5 +1,5 @@
 ---
-title: Navigate through Microsoft Teams
+title: Charting your Kaizala to Teams journey
 author: Benny-54
 ms.author: v-bshilpa
 manager: serdars
@@ -105,4 +105,4 @@ For organizations **already using Teams**:
 
 <a name="ControlSyncThroughput"> </a>
 
-[Plan for a successful transition to Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/plan-your-move-kaizala)
+[Plan for a successful transition to Microsoft Teams](/MicrosoftTeams/plan-your-move-kaizala)

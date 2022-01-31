@@ -38,7 +38,7 @@ Now that you have a clear understanding of your organization’s unique path and
 | | [For end users](#end-user-guidance) |
 | Kaizala Group Dissolution| [Kaizala Group Dissolution](#kaizala-group-dissolution) |
 | Kaizala Tenant Data export| [Export Kaizala tenant data](#export-kaizala-tenant-data)  |
-| Collaborating with External Users (vendors/suppliers/partners)| [Using Teams for work and Teams for personal use interoperability](#collaborating-with-external-users-vendorssupplierspartners) |
+| Collaborating with External Users (vendors/suppliers/partners)| [Using Teams for work and Teams for personal use interoperability](#collaborating-with-external-usersvendorssupplierspartners) |
 
 ## Getting Started
 
@@ -60,7 +60,7 @@ Teams is made up of **channels**, which are the topic-specific conversations you
 
 ### Conversations in Teams Chat vs Team Channel
 
-| Conversations in  Chat | Conversations in Team Channels |
+| Conversations in  Chat | Conversations in Team Channels | |
 |---------|-----------------------|
 | For lightweight conversations, where you’re directly messaging recipients. | For interactions where multiple topics are discussed in an open space.​ |
 | Private chats are only visible to those in the chat​ | Visible to everyone in the Team​  |
@@ -135,7 +135,7 @@ Here's an example of the Team's interface with **Shifts**:
 
 ![Messaging experience with Shifts](media/Kaizala-to-teams-image24.png)
 
-Here's an example of Team's interface without Shifts:
+Here's an example of Team's interface **without Shifts**:
 
  ![Messaging experience without Shifts](media/Kaizala-to-teams-images25.png)
 
@@ -233,13 +233,13 @@ While using Microsoft Teams, you can organize your tasks by adding one or more P
 
 ### Announcements in Teams
 
-Create and send messages intended for multiple teams or large number of employees over chat with the [company communicator](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator) app. Its easy interface allows designated users to create, preview, collaborate, and send messages in a targeted manner. Build custom targeted communication capabilities such as custom personal data on how many users acknowledged or interacted with a message with insights directly tied to management decisions.
+Create and send messages intended for multiple teams or large number of employees over chat with the [company communicator](microsoftteams/platform/samples/app-templates#company-communicator) app. Its easy interface allows designated users to create, preview, collaborate, and send messages in a targeted manner. Build custom targeted communication capabilities such as custom personal data on how many users acknowledged or interacted with a message with insights directly tied to management decisions.
 
 ### Photo Check-ins
 
 Use the Teams Smart Camera to capture and share an annotated image with your Team. Easily share your location with precision to keep your team in the know. Need to have more info to communicate how the Kaizala features map to Teams. Definitely have as much info from the slide deck as we can into the doc.
 
-[Use the Staff check-ins](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#staff-check-ins) app template to enable front line Staff to easily provide time-critical information and status updates on either a scheduled or ad-hoc basis directly from Teams. The app supports real-time location, photos, notes, reminder notifications, and automated workflows.
+[Use the Staff check-ins](/microsoftteams/platform/samples/app-templates#staff-check-ins) app template to enable front line Staff to easily provide time-critical information and status updates on either a scheduled or ad-hoc basis directly from Teams. The app supports real-time location, photos, notes, reminder notifications, and automated workflows.
 
 ### Quiz in Teams
 
@@ -378,7 +378,7 @@ As you transition to Teams channels and chats, you may consider Kaizala group di
 
 ## Export Kaizala tenant data
 
-As a Kaizala tenant admin/global admin, you can export Kaizala tenant data from the Kaizala management portal. While using Teams, you can still maintain control of your corporate data in Kaizala. For more information, see [Export tenant data from the management portal](https://docs.microsoft.com/office365/kaizala/export-or-delete-your-data).
+As a Kaizala tenant admin/global admin, you can export Kaizala tenant data from the Kaizala management portal. While using Teams, you can still maintain control of your corporate data in Kaizala. For more information, see [Export tenant data from the management portal](/office365/kaizala/export-or-delete-your-data).
 
 ### To export data
 
@@ -394,13 +394,15 @@ As a Kaizala tenant admin/global admin, you can export Kaizala tenant data from 
 
     ![files](media/Kaizala-to-teams-images21.png)
 
-## Kaizala Group Dissolution
+## Deleting a Kaizala Group
 
-As you transition to Teams channels and chats, you may consider Kaizala group dissolution to ensure your organization has one central place for communication.  Deleting a Kaizala group removes the group from the Chats list. If you’re the only admin in the group, you’ll need to assign the admin role to at least one person in the group before deleting.
+Deleting a Kaizala group removes the group from the Chats list. If you’re the only admin in the group, you’ll need to assign the admin role to at least one person in the group before deleting.
 
 To delete a group:
- • From the Chats list, press and hold the group conversation.
- • Tap Delete group.
+
+- From the Chats list, press and hold the group conversation.
+
+- Tap Delete group.
 
 ## Kaizala Tenant Data export
 
@@ -427,4 +429,4 @@ Anyone who isn't part of your organization can be [added as guest in Teams](/Mic
 
 <a name="ControlSyncThroughput"> </a>
 
-[Microsoft Teams for Frontline workers](https://docs.microsoft.com/MicrosoftTeams/drive-adoption-and-optimize-kaizala)
+[Microsoft Teams for Frontline workers](/MicrosoftTeams/drive-adoption-and-optimize-kaizala)

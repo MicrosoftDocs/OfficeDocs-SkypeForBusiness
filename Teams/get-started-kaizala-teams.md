@@ -1,5 +1,5 @@
 ---
-title: Navigate through Microsoft Teams
+title: Kaizala and Microsoft Teams
 author: Benny-54
 ms.author: v-bshilpa
 manager: serdars
@@ -25,7 +25,7 @@ Teams improves workplace collaboration by helping organizations move from an arr
 
 Microsoft Teams will be replacing the Kaizala service and thus be the primary client in Office 365 and Microsoft 365 for communication with both internal employees and people in your extended networks.
 
-**The first set of Kaizala Pro capabilities is now available in Teams and include Kaizala actions now available as Teams [app templates](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates), such as [polls](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#poll), [surveys](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#survey), [checklists](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#checklist), [quizzes](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#quiz--), and [training](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#training--).**
+**The first set of Kaizala Pro capabilities is now available in Teams and include Kaizala actions now available as Teams [app templates](/microsoftteams/platform/samples/app-templates), such as [polls](/microsoftteams/platform/samples/app-templates#poll), [surveys](/microsoftteams/platform/samples/app-templates#survey), [checklists](/microsoftteams/platform/samples/app-templates#checklist), [quizzes](/microsoftteams/platform/samples/app-templates#quiz--), and [training](/microsoftteams/platform/samples/app-templates#training--).**
 
 Enabling every member of an organization’s network with digital communication and collaboration tools can transform the way work gets done. This overview will help you start your transition from Kaizala to Microsoft Teams today.
 
@@ -63,4 +63,4 @@ External user collaboration in Teams can also be done with guest access with per
 ## Next Steps
 <a name="ControlSyncThroughput"> </a>
 
-[Charting your Kaizala to Teams journey](https://docs.microsoft.com/MicrosoftTeams/prepare-for-teams-kaizala)
+[Charting your Kaizala to Teams journey](/MicrosoftTeams/prepare-for-teams-kaizala)
