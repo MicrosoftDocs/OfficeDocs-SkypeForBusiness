@@ -106,15 +106,13 @@ You can enable Cortana for _Voice Activation_ or _Push to talk_ using PowerShell
 
 See [Microsoft Teams Rooms on Windows](../cortana-in-teams.md) in the "Cortana voice assistance in Teams" article.
 
-### Front row (Preview) settings
+### Front row layout settings
 
 Front row is meeting view layout option for Teams Rooms on Windows.
 
-#### Requirements
-
 | Teams device | App version | Front of room display |
 |--------------|-------------|-----------------------|
-|Microsoft on Windows(Android in 2022 H2) |  4.11.14.0 or higher (The latest version is recommended) |  Supports single and dual displays; Minimum size: 46 inches; Aspect ratio 16:9 or 21:9; Resolution 1080p, scaling 100% |
+|Microsoft Teams Rooms on Windows | 4.11.14.0 to 4.11.12.0 | Supports single and dual displays; Minimum size: 46 inches; Aspect ratio 16:9 with 1920*1080 resolution or 21:9 with 2560x1080 resolution; All displays should be set at 100% scaling in Windows settings |
 
 See [Microsoft Teams Rooms maintenance and operations](rooms-operations.md#change-scale-and-resolution), to adjust your display settings to meet Front row's requirements.
 

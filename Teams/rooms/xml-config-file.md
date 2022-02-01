@@ -245,7 +245,7 @@ To locate the instance path:
 6. Select the **Details** tab, and locate the **Device instance path** property in the drop-down.
 7. The value shown is the device instance path to set in the XML configuration file. When specifying the path in XML, replace the ampersand (&) with `&amp;`.
 
-## Set a default layout
+## Set Front row as the default layout
 
 If you don't set a default display layout for a room in your XML configuration, the default layout will be set to Gallery. To see Front row as the default layout, add ```<DefaultFoRExperience>1</DefaultFoRExperience>``` to your XML configuration file.
 
