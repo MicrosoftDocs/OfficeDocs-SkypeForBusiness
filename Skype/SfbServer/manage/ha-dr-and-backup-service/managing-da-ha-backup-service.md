@@ -2,7 +2,7 @@
 title: 'Managing disaster recovery, high availability, and Backup Service'
 ms.reviewer: 
 author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: article

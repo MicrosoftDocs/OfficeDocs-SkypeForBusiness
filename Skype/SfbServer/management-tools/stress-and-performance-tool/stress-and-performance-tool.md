@@ -1,7 +1,7 @@
 ---
 title: "Skype for Business Server 2015 Stress and Performance Tool"
 ms.reviewer: 
-ms.author: v-mahoffman
+ms.author: serdars
 author: HowlinWolf-92
 ms.date: 4/6/2016
 manager: serdars

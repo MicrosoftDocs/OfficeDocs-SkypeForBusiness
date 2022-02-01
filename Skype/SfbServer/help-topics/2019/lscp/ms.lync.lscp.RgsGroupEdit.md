@@ -1,7 +1,7 @@
 ---
 title: "Response Groups Create New or Edit Existing Agent Group"
 ms.reviewer: 
-ms.author: v-mahoffman
+ms.author: serdars
 author: HowlinWolf-92
 manager: serdars
 audience: ITPro

@@ -1,7 +1,7 @@
 ---
 title: "Plan for Modern Authentication in Skype for Business"
 ms.reviewer: 
-ms.author: v-mahoffman
+ms.author: serdars
 author: HowlinWolf-92
 audience: ITPro
 ms.topic: conceptual

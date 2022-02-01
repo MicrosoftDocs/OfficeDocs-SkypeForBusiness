@@ -1,7 +1,7 @@
 ---
 title: "Skype for Business Server Capacity Planning Calculator"
 ms.reviewer: 
-ms.author: v-mahoffman
+ms.author: serdars
 author: HowlinWolf-92
 ms.date: 2/1/2018
 manager: serdars

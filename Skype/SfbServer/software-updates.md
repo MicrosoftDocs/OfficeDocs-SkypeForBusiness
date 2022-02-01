@@ -1,7 +1,7 @@
 ---
 title: "Skype for Business downloads and updates"
 ms.reviewer: 
-ms.author: v-mahoffman
+ms.author: serdars
 author: HowlinWolf-92
 manager: serdars
 ms.date: 07/23/2018

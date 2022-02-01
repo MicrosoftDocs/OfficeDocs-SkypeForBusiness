@@ -1,7 +1,7 @@
 ---
 title: "test"
 ms.reviewer: 
-ms.author: v-mahoffman
+ms.author: serdars
 author: HowlinWolf-92
 ms.date: 1/1/2010
 manager: serdars

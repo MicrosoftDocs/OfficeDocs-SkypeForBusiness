@@ -1,7 +1,7 @@
 ---
 title: Plan Advanced Edge Server deployment for Skype for Business Server
 ms.reviewer: 
-ms.author: v-mahoffman
+ms.author: serdars
 author: HowlinWolf-92
 audience: ITPro
 ms.topic: conceptual

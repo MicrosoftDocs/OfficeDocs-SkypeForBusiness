@@ -1,7 +1,7 @@
 ---
 title: "Skype for Business Server Mediation Collocation planning tool"
 ms.reviewer: 
-ms.author: v-mahoffman
+ms.author: serdars
 author: HowlinWolf-92
 manager: serdars
 ms.date: 4/8/2016

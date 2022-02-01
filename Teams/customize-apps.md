@@ -1,7 +1,7 @@
 ---
 title: Customize apps in Microsoft Teams
 author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.reviewer: v-tbasra
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: "Windows client requirements and software support"
-ms.author: v-mahoffman
+ms.author: serdars
 author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars

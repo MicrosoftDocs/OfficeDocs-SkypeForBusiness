@@ -1,7 +1,7 @@
 ---
 title: "Add Edge Server With Single FQDN Page"
 ms.reviewer: 
-ms.author: v-mahoffman
+ms.author: serdars
 author: HowlinWolf-92
 manager: serdars
 ms.date: 4/14/2015

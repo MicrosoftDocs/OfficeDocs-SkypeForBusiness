@@ -1,7 +1,7 @@
 ---
 title: "UserAgent view"
 ms.reviewer: 
-ms.author: v-mahoffman
+ms.author: serdars
 author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015

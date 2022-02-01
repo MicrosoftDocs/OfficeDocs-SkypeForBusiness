@@ -1,7 +1,7 @@
 ---
 title: "Add Simple URL"
 ms.reviewer: 
-ms.author: v-mahoffman
+ms.author: serdars
 author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018

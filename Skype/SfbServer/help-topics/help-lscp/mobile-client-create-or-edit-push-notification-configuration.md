@@ -1,7 +1,7 @@
 ---
 title: "Mobile Client Create or Edit Push Notification Configuration"
 ms.reviewer: 
-ms.author: v-mahoffman
+ms.author: serdars
 author: HowlinWolf-92
 manager: serdars
 ms.date: 3/24/2015

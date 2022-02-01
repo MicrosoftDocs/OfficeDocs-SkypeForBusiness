@@ -1,7 +1,7 @@
 ---
 title: Manage shift-based access for frontline workers in Teams
 author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.author: serdars
 ms.reviewer: aaku
 manager: serdars
 ms.topic: article

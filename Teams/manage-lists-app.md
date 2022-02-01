@@ -1,7 +1,7 @@
 ---
 title: Manage the Lists app for your organization
 author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.author: serdars
 ms.reviewer: anach,v-jasuk
 manager: serdars
 ms.topic: article

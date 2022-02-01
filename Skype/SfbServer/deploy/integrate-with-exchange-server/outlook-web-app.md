@@ -1,7 +1,7 @@
 ---
 title: "Configure integration between on-premises Skype for Business Server and Outlook Web App"
 ms.reviewer: 
-ms.author: v-mahoffman
+ms.author: serdars
 author: HowlinWolf-92
 manager: serdars
 ms.date: 3/7/2016

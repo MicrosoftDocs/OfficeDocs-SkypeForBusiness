@@ -1,7 +1,7 @@
 ---
 title: "Configure scenarios for the Centralized Logging Service in Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: v-mahoffman
+ms.author: serdars
 author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018

@@ -1,7 +1,7 @@
 ---
 title: "Manage Centralized Logging Service configuration settings in Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: v-mahoffman
+ms.author: serdars
 author: HowlinWolf-92
 manager: serdars
 ms.date: 8/17/2015

@@ -1,7 +1,7 @@
 ---
 title: "Deploy archiving for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-mahoffman
+ms.author: serdars
 author: HowlinWolf-92
 manager: serdars
 audience: ITPro

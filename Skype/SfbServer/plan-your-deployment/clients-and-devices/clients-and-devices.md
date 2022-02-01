@@ -1,6 +1,6 @@
 ---
 title: "Plan for clients and devices"
-ms.author: v-mahoffman
+ms.author: serdars
 author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars

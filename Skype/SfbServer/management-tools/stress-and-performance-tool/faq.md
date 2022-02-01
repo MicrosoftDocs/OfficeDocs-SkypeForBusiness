@@ -1,7 +1,7 @@
 ---
 title: "FAQ for the Skype for Business Server 2015 Stress and Performance Tool"
 ms.reviewer: 
-ms.author: v-mahoffman
+ms.author: serdars
 author: HowlinWolf-92
 ms.date: 11/11/2015
 manager: serdars

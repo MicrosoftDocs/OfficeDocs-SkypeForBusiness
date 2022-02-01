@@ -1,6 +1,6 @@
 ---
 title: "Availability in the Dominica"
-ms.author: v-mahoffman
+ms.author: serdars
 author: HowlinWolf-92
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, fafan

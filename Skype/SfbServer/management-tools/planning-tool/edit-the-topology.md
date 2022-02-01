@@ -1,7 +1,7 @@
 ---
 title: "Edit the topology in Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: v-mahoffman
+ms.author: serdars
 author: HowlinWolf-92
 manager: serdars
 ms.date: 4/5/2016

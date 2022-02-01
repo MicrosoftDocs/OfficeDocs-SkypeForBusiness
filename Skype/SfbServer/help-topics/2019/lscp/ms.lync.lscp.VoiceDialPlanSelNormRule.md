@@ -1,7 +1,7 @@
 ---
 title: "Select Normalization Rules"
 ms.reviewer: 
-ms.author: v-mahoffman
+ms.author: serdars
 author: HowlinWolf-92
 manager: serdars
 audience: ITPro

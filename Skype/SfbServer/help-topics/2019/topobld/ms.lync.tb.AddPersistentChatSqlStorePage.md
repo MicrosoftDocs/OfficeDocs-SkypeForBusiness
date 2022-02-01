@@ -1,7 +1,7 @@
 ---
 title: "Add Persistent Chat SQL Server Store"
 ms.reviewer: 
-ms.author: v-mahoffman
+ms.author: serdars
 author: HowlinWolf-92
 manager: serdars
 audience: ITPro

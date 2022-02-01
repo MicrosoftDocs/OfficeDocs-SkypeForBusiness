@@ -1,7 +1,7 @@
 ---
 title: "Add Front End SQL Server Store"
 ms.reviewer: 
-ms.author: v-mahoffman
+ms.author: serdars
 author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018

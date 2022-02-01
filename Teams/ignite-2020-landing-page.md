@@ -5,7 +5,7 @@ author: HowlinWolf-92
 ms.date: 09/21/2020
 ms.topic: article
 ms.service: msteams
-ms.author: v-mahoffman
+ms.author: serdars
 audience: admin
 manager: serdars
 ---

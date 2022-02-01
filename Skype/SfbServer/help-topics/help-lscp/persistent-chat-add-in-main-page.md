@@ -1,7 +1,7 @@
 ---
 title: "Persistent Chat Add-in Main Page"
 ms.reviewer: 
-ms.author: v-mahoffman
+ms.author: serdars
 author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015

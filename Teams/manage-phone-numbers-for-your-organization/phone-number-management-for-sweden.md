@@ -1,7 +1,7 @@
 ---
 title: "Phone number management for Sweden"
 author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.reviewer: davlick,krkilaru
 ms.topic: reference

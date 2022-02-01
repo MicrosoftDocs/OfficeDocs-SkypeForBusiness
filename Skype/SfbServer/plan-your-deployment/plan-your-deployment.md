@@ -1,7 +1,7 @@
 ---
 title: "Plan for your Skype for Business Server 2015 deployment"
 ms.reviewer: 
-ms.author: v-mahoffman
+ms.author: serdars
 author: HowlinWolf-92
 manager: serdars
 ms.date: 2/21/2018

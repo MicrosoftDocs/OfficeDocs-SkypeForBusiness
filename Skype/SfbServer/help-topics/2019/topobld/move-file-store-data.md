@@ -1,7 +1,7 @@
 ---
 title: "Move File Store Data to a New File Store in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-mahoffman
+ms.author: serdars
 author: HowlinWolf-92
 manager: serdars
 audience: ITPro

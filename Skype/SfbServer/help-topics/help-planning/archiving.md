@@ -1,7 +1,7 @@
 ---
 title: "Skype for Business Server: Archiving planning tool"
 ms.reviewer: 
-ms.author: v-mahoffman
+ms.author: serdars
 author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015

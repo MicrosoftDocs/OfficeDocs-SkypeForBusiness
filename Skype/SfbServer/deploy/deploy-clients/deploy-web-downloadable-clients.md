@@ -1,6 +1,6 @@
 ---
 title: "Deploy Web downloadable clients in Skype for Business Server"
-ms.author: v-mahoffman
+ms.author: serdars
 author: HowlinWolf-92
 manager: serdars
 audience: ITPro

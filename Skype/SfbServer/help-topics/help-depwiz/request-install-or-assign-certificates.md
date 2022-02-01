@@ -1,7 +1,7 @@
 ---
 title: "Request, Install, or Assign Certificates"
 ms.reviewer: 
-ms.author: v-mahoffman
+ms.author: serdars
 author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015

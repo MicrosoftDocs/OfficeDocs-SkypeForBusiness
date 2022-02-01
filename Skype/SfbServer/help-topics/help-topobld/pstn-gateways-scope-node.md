@@ -1,7 +1,7 @@
 ---
 title: "PSTN Gateways Scope Node"
 ms.reviewer: 
-ms.author: v-mahoffman
+ms.author: serdars
 author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015

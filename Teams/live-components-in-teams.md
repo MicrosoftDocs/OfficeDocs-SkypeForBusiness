@@ -1,7 +1,7 @@
 ---
 title: Manage live components in Teams
 author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: conceptual

@@ -1,6 +1,6 @@
 ---
 title: "System requirements for Skype for Business for Windows Phone"
-ms.author: v-mahoffman
+ms.author: serdars
 author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars

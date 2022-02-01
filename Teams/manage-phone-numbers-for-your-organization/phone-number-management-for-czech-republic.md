@@ -1,7 +1,7 @@
 ---
 title: "Phone number management for the Czech Republic"
 author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
 ms.topic: reference

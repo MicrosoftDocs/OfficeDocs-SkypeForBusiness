@@ -1,7 +1,7 @@
 ---
 title: "Define the Root Trunk for a New IP or PSTN Gateway"
 ms.reviewer: 
-ms.author: v-mahoffman
+ms.author: serdars
 author: HowlinWolf-92
 manager: serdars
 audience: ITPro
