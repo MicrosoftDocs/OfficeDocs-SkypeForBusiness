@@ -2,7 +2,7 @@
 title: "User Settings Service for Call Quality Dashboard (CQD)"
 ms.reviewer: 
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article

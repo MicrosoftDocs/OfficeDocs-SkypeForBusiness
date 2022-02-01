@@ -2,7 +2,7 @@
 title: "Review the Administrator Reports in Skype for Business Server 2015"
 ms.reviewer: 
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro

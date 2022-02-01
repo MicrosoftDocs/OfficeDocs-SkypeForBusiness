@@ -1,7 +1,7 @@
 ---
 title: "Availability in the Dominica"
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, fafan
 ms.topic: reference

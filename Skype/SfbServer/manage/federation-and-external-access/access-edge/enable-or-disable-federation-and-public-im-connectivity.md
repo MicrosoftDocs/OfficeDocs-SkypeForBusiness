@@ -6,7 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182549(v=OCS.15)
 ms:contentKeyID: 48184813
 mtps_version: v=OCS.15
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article

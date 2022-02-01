@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Teams displays"
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference

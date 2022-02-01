@@ -1,6 +1,6 @@
 ---
 title: Manage the Tasks app for your organization in Microsoft Teams
-author: HowlinWolf-92
+author: SerdarSoysal
 ms.author: serdars
 manager: serdars
 ms.topic: conceptual

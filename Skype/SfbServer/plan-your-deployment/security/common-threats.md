@@ -2,7 +2,7 @@
 title: "Common security threats in modern day computing"
 ms.reviewer: 
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/22/2016
 audience: ITPro

@@ -1,6 +1,6 @@
 ---
 title: "Availability in Turks and Caicos Islands"
-author: HowlinWolf-92
+author: SerdarSoysal
 ms.author: serdars
 manager: serdars
 ms.reviewer: fafan

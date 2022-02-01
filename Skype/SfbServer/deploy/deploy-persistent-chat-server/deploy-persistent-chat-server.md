@@ -2,7 +2,7 @@
 title: "Deploy Persistent Chat Server in Skype for Business Server 2015"
 ms.reviewer: 
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro

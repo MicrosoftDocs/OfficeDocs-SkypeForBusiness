@@ -2,7 +2,7 @@
 title: "Components and topologies for call admission control in Skype for Business"
 ms.reviewer: 
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual

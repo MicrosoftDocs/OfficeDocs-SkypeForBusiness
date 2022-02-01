@@ -2,7 +2,7 @@
 title: "Session table"
 ms.reviewer: 
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro

@@ -2,7 +2,7 @@
 title: "Plan for your Skype for Business Server 2019 deployment"
 ms.reviewer: 
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2019
 audience: ITPro

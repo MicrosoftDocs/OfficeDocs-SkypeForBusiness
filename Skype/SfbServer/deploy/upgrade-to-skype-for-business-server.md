@@ -2,7 +2,7 @@
 title: "Upgrade to Skype for Business Server 2015" 
 ms.reviewer: 
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/14/2016
 audience: ITPro

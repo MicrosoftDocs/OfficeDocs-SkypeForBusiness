@@ -2,7 +2,7 @@
 title: "Skype for Business Server Audio Video Conferencing planning tool"
 ms.reviewer: 
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro

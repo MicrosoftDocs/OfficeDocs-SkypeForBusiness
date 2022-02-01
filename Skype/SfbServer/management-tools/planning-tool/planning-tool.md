@@ -2,7 +2,7 @@
 title: "Skype for Business Server 2015 Planning Tool"
 ms.reviewer: 
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro

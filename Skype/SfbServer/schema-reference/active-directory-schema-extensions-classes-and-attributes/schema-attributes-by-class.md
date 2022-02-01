@@ -2,7 +2,7 @@
 title: "Schema attributes by class in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro

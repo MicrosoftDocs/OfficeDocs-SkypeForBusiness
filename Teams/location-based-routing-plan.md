@@ -1,6 +1,6 @@
 ---
 title: Plan Location-Based Routing for Direct Routing
-author: HowlinWolf-92
+author: SerdarSoysal
 ms.author: serdars
 manager: serdars
 ms.topic: conceptual

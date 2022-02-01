@@ -1,7 +1,7 @@
 ---
 title: Admin training resources - Microsoft Teams
 ms.reviewer: jhwang
-author: HowlinWolf-92
+author: SerdarSoysal
 ms.author: serdars
 manager: serdars
 ms.topic: article

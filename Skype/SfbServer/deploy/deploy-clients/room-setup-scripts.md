@@ -1,7 +1,7 @@
 ---
 title: "Skype Room System room setup scripts"
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta

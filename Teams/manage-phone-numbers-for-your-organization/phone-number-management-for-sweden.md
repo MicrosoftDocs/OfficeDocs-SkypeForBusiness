@@ -1,6 +1,6 @@
 ---
 title: "Phone number management for Sweden"
-author: HowlinWolf-92
+author: SerdarSoysal
 ms.author: serdars
 manager: serdars
 ms.reviewer: davlick,krkilaru

@@ -1,6 +1,6 @@
 ---
 title: Create a new template from an existing team template in Microsoft Teams
-author: HowlinWolf-92
+author: SerdarSoysal
 ms.author: serdars
 ms.reviewer: aaglick
 manager: serdars

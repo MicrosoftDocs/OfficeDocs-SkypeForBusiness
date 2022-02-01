@@ -1,6 +1,6 @@
 ---
 title: Network settings for cloud voice features
-author: HowlinWolf-92
+author: SerdarSoysal
 ms.author: serdars
 manager: serdars
 ms.topic: conceptual

@@ -2,7 +2,7 @@
 title: "Install Skype for Business Server on servers in the topology"
 ms.reviewer: 
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro

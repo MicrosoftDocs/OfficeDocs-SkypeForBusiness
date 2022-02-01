@@ -2,7 +2,7 @@
 title: "ErrorCategory table in Skype for Business Server 2015"
 ms.reviewer: 
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro

@@ -1,7 +1,7 @@
 ---
 title: "Deploy Teams phones, Teams displays, and Microsoft Teams Rooms on Android using Intune"
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference

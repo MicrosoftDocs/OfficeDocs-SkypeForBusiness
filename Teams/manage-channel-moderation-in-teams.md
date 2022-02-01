@@ -1,6 +1,6 @@
 ---
 title: Set up and manage channel moderation
-author: HowlinWolf-92
+author: SerdarSoysal
 ms.author: serdars
 manager: serdars
 ms.reviewer: jotaing

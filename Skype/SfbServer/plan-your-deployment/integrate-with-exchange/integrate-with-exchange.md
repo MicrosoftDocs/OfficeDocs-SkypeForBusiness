@@ -2,7 +2,7 @@
 title: "Plan to integrate Skype for Business and Exchange"
 ms.reviewer: 
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual

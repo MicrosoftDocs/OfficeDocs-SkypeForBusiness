@@ -1,6 +1,6 @@
 ---
 title: Teams for virtual visits -  EHR connector admin reports
-author: HowlinWolf-92
+author: SerdarSoysal
 ms.author: serdars
 manager: serdars
 audience: ITPro

@@ -2,7 +2,7 @@
 title: "Public Key Infrastructure for Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual

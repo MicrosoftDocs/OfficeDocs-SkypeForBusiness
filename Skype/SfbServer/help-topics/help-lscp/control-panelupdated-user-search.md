@@ -2,7 +2,7 @@
 title: "Control Panel - updated User Search"
 ms.reviewer: 
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 ms.date: 5/21/2015
 audience: ITPro

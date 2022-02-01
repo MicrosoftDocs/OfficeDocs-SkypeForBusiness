@@ -1,7 +1,7 @@
 ---
 title: "Conferencing policy for Skype Room System accounts"
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: sohailta
 audience: ITPro

@@ -2,7 +2,7 @@
 title: "Response Groups Queue Create New or Edit Existing"
 ms.reviewer: 
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro

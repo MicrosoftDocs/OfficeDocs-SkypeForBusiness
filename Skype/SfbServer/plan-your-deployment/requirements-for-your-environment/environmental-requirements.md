@@ -2,7 +2,7 @@
 title: "Environmental requirements for Skype for Business Server 2015"
 ms.reviewer: 
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro

@@ -1,6 +1,6 @@
 ---
 title: Onboard early adopters to Microsoft Teams
-author: HowlinWolf-92
+author: SerdarSoysal
 ms.author: serdars
 manager: serdars
 ms.date: 11/06/2018

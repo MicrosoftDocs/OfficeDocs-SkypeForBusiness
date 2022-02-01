@@ -2,7 +2,7 @@
 title: "Video based Screen Sharing for Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 ms.date: 2/20/2018
 manager: serdars
 audience: ITPro

@@ -2,7 +2,7 @@
 title: "Validate your Edge deployment in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 audience: ITPro
 manager: serdars
 ms.topic: quickstart

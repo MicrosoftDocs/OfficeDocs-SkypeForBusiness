@@ -2,7 +2,7 @@
 title: "User Activity Report in Skype for Business Server 25"
 ms.reviewer: 
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article

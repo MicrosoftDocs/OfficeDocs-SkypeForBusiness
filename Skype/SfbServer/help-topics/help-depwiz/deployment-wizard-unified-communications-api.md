@@ -2,7 +2,7 @@
 title: "Deployment Wizard Unified Communications API"
 ms.reviewer: 
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro

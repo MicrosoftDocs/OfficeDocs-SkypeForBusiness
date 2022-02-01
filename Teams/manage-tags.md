@@ -1,6 +1,6 @@
 ---
 title: Manage tags in Microsoft Teams
-author: HowlinWolf-92
+author: SerdarSoysal
 ms.author: serdars
 manager: serdars
 ms.reviewer: acolonna, salu

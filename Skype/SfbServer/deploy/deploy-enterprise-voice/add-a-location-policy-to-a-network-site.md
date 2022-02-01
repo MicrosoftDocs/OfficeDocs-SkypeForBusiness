@@ -2,7 +2,7 @@
 title: "Add a location policy to a network site in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart

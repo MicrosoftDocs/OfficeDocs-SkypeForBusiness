@@ -1,6 +1,6 @@
 ---
 title: Block access to SharePoint for specific users
-author: HowlinWolf-92
+author: SerdarSoysal
 ms.author: serdars
 manager: serdars
 ms.reviewer: Nigolc

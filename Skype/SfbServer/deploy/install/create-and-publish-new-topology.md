@@ -2,7 +2,7 @@
 title: "Create and publish new topology in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro

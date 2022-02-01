@@ -2,7 +2,7 @@
 title: "Windows PowerShell and Skype for Business Server management tools"
 ms.reviewer: 
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual

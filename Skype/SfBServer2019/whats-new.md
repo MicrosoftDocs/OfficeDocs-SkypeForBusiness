@@ -2,7 +2,7 @@
 title: What's new in Skype for Business Server 2019 | Features
 ms.reviewer: 
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: overview

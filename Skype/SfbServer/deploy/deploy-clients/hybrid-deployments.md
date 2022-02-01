@@ -1,7 +1,7 @@
 ---
 title: "Skype Room System hybrid deployments"
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta

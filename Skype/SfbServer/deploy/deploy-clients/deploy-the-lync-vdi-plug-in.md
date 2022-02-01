@@ -1,7 +1,7 @@
 ---
 title: "Deploy the Lync VDI plug-in with Skype for Business Server"
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: krishra
 audience: ITPro

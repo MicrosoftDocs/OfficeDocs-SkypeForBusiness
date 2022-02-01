@@ -2,7 +2,7 @@
 title: "List of QoE tables"
 ms.reviewer: 
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/13/2018
 audience: ITPro

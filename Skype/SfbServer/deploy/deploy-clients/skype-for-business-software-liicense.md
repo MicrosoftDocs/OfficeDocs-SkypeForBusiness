@@ -1,7 +1,7 @@
 ---
 title: "Skype Room System Skype for Business software license"
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta

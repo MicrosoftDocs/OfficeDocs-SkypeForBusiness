@@ -1,6 +1,6 @@
 ---
 title: "Availability in Saint Lucia"
-author: HowlinWolf-92
+author: SerdarSoysal
 ms.author: serdars
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan

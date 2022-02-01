@@ -1,7 +1,7 @@
 ---
 title: "Partner qualification for Lync"
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article

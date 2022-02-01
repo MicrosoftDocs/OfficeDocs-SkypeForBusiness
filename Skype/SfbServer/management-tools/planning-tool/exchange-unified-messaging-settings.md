@@ -2,7 +2,7 @@
 title: Exchange Unified Messaging Settings planning tool
 ms.reviewer: 
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro

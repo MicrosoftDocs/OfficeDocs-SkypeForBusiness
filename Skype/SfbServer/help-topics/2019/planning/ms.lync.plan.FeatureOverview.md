@@ -2,7 +2,7 @@
 title: "Feature Overview (Planning Tool)"
 ms.reviewer: 
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article

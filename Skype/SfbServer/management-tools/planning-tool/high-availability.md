@@ -2,7 +2,7 @@
 title: High Availability panning tool
 ms.reviewer: 
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro

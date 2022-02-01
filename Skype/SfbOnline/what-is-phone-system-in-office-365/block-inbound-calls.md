@@ -1,7 +1,7 @@
 ---
 title: Block inbound calls in Skype for Business Online
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud

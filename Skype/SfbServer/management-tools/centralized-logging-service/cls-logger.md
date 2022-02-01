@@ -2,7 +2,7 @@
 title: "CLS Logger for Skype for Business Server 2015"
 ms.reviewer: 
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/25/2017
 audience: ITPro

@@ -2,7 +2,7 @@
 title: "Edge Server system requirements in Skype for Business Server"
 ms.reviewer: 
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 audience: ITPro
 ms.topic: conceptual
 manager: serdars

@@ -1,7 +1,7 @@
 ---
 title: "Windows client requirements and software support"
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018

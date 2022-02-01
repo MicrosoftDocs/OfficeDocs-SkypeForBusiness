@@ -2,7 +2,7 @@
 title: "test"
 ms.reviewer: 
 ms.author: serdars
-author: HowlinWolf-92
+author: SerdarSoysal
 ms.date: 1/1/2010
 manager: serdars
 audience: ITPro

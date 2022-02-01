@@ -1,7 +1,7 @@
 ---
 title: 'Failing over and failing back a pool'
 ms.reviewer: 
-author: HowlinWolf-92
+author: SerdarSoysal
 ms.author: serdars
 manager: serdars
 audience: ITPro
