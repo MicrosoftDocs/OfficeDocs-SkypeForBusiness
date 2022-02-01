@@ -82,7 +82,6 @@ You can duplicate pre-built templates but you can't edit them. If you want to ch
 
 &sup1;This is a Microsoft 365 connected template. When users create a team using this team template, the connected SharePoint template is automatically applied to the SharePoint site that’s created. SharePoint resources that are part of the template, such as lists and pages, are added as tabs to the General channel in the team. To learn more, see [Teams and SharePoint integration](/sharepoint/teams-connected-sites).
 
-
 ### Team templates by category and industry
 
 For more information about ways to use the pre-built templates in your industry, see:
