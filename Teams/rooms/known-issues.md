@@ -1,7 +1,7 @@
 ---
 title: "Known issues"
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
-description: Admin can learn about a list of known issues for Microsoft Teams Rooms, including update, user interface, hardware, and limitations and expected behaviors.
+description: Learn about known issues for Microsoft Teams Rooms, including update, user interface, hardware, and limitations and expected behaviors.
 ms.custom: seo-marvel-apr2020
 ---
 
@@ -27,7 +27,7 @@ This article lists the known issues for Microsoft Teams Rooms, by feature area.
 | Issue title |  Behavior \/ Symptom | Known workaround | KB Article |
 |  ---        |      ---             |   ---            | --- |
 | Edge browser automatic launch | The Edge browser prior to build 97.0.1072.62 launches automatically alongside the Microsoft Teams Room app when the device starts. | This should resolve automatically, with no user interaction required, on or before Monday, January 17th 2022. If a faster resolution is required: when Edge launches alongside the Microsoft Teams Room, visit the URL edge://settings/help, and an update should automatically start downloading and applying. Select the browser's "restart" button once the update has finished applying. Close Edge, reboot the system, and the problem should be resolved. | None |
-| Split Gallery Participant Video   | In dual Front of Room displays mode, when there is no shared content at a meeting with more than 9 remote video participants, 1 video on a Front of Room display with the self preview might appear as audio due to a known issue. Also, a smaller number of audio participants than the actual number of audio participants shows up on dual Front of Room displays. | Issue will be resolved in future update. | None |
+| Split Gallery Participant Video   |  When there's no shared content in meetings with moe than 9 remote participants, and the meeting is in dual Front of Room displays mode, 1 video on a Front of Room display with the self preview might appear as audio. Also, a smaller number of audio participants than the actual number of audio participants shows up on dual Front of Room displays. | Issue will be resolved in future update. | None |
 | Application not launching |  After updating to application version 4.4.41.0, the system boots to black screen, or go to the sign-in screen after few minutes. | Follow the steps in [Microsoft Teams Rooms application does not start after update to version 4.4.41.0](/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update) to fix this issue.  | None |
 |  Low meeting volume after content sharing         |   Microsoft Teams Rooms devices on Windows 10 20H2 experience decreased media and meeting volume after sharing content via in-room HDMI. This is caused by an audio issue in Windows 10 20H2. | The fix for this issue is available in application version [4.9.12.0](/microsoftteams/rooms/rooms-release-note#49120-7282021). | None |
 |  App out of date         |    The Microsoft Teams Rooms console shows a "system config out of date" error.                |   [Use the Microsoft Teams Rooms recovery tool](recovery-tool.md)             |  None |
@@ -56,7 +56,7 @@ This article lists the known issues for Microsoft Teams Rooms, by feature area.
 
 Front row is marked as a 'Preview' in the layout picker in the Front of Room display. More features and improvements will be added in the future. The following limitation will be address post-release:
 
-- Front row layout shows up to 4 video participants on a Front of Room single display and up to 9 videos on dual Front of Room. These participants are chosen from the last active speakers.
+- Front row layout shows up to 4 video participants on a Front of Room single display. It shows up to 9 videos on dual Front of Room. These participants are chosen from the last active speakers.
 
 - Front row requires 1080p displays with 100% scaling. If a font size on your Front of Room display is too small or large for a room's need, see [Change scale and resolution for Front of Room](rooms-operations.md#change-scale-and-resolution) to adjust your display settings.
 
@@ -66,7 +66,7 @@ Microsoft Teams Rooms does not support HDCP input, which has been observed to ca
 
 ***
 
-If you desire a front of room display to automatically switch to an active video source (such as an MTR console) when the source wakes from standby mode, certain conditions must be met. This feature is optional but supported by Microsoft Teams Rooms software, provided underlying hardware supports the feature. A consumer TV used as a front of room display needs to support the Consumer Electronics Control (CEC) feature of HDMI.  Depending on the dock or console selected (which might not support CEC, refer to manufacturer support documentation), a controller such as an [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) from Crestron or [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) from Extron may be needed to enable the desired behavior.
+If you want a front of room display to switch automatically to an active video source, such as an MTR console, when the source wakes from standby mode, certain conditions must be met. This feature is optional but supported by Microsoft Teams Rooms software, provided underlying hardware supports the feature. A consumer TV used as a front of room display needs to support the Consumer Electronics Control (CEC) feature of HDMI.  Depending on the dock or console selected, a controller such as an [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) from Crestron or [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) from Extron may be needed to enable the desired behavior. Refer to the manufacturer's support documentation to confirm the dock or console supports CEC.
 
 In addition, a consumer TV used as the front of room display may cause stability issues with Microsoft Teams Rooms software. This is due to inconsistent implementation of standby modes, active video source selection, and communicating faulty EDID information to the Microsoft Teams Rooms device. Known symptoms are a black/gray screen on the front of room display or the Microsoft Teams Rooms console becoming unresponsive after waking from standby.  If experiencing issues when using consumer TVs, we recommend installing a configurable EDID controller or EDID emulator such as the [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) from Crestron or [DR-EDID Emulator](https://fsrinc.com/fsr-products/product/dr-edid-manager-learner/category_pathway-143) from FSR Video Products Group.
 
