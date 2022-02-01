@@ -102,9 +102,9 @@ The following table describes the maximum number of channels and members.
 |Maximum...|Value|Notes|
 |:---------|:----|:----|
 |Members in a team|25,000|Includes all users in the team and direct members in shared channels.|
-|Shared channels per team|200|Hosted and shared with the team. (Includes deleted channels.)|
+|Shared channels per team|200|Hosted and shared with the team. (Includes deleted channels during their 30-day recovery window.)|
 |Teams a channel can be shared with|50|Excluding parent team|
-|Members in a shared channel|5,000 direct members, including up to 50 teams (and all team members)|Only 25,000 users will appear in the channel list.|
+|Members in a shared channel|5,000 direct members, including up to 50 teams (and all team members)|Real time updates are only available to 25,000 users at a time and only 25,000 users will appear in the channel list.|
 
 The following limitations also apply:
 
