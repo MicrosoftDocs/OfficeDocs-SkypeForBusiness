@@ -40,7 +40,7 @@ By default, external access is enabled for all domains. You can restrict externa
 To configure external access, see [Manage external access](manage-external-access.md). 
 
 >[!NOTE]
->Microsoft Teams free licenses do not support external access.
+> [Microsoft Teams Free (classic)](https://support.microsoft.com/office/welcome-to-microsoft-teams-free-classic-6d79a648-6913-4696-9237-ed13de64ae3c) licenses do not support external access.
 
 ## Guest access
 
