@@ -337,6 +337,14 @@ If necessary, you may need to apply custom network or bandwidth policies or Meet
 
 If you need to enable the resource account for Microsoft Teams Phone System, see [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
 
+## Enable calling
+Teams supports the ability to make and receive phone calls to the Public Switched Telephone Network (PSTN). This feature can help you do things such as call into a remote audio conference from Teams Rooms or have someone call in to join a meeting.
+
+There are no unique requirements to enable calling with Resource Accounts. You enable the Resource Account for calling in the same way you enable a regular user.
+
+For information on on calling with Teams, you can visit the [Microsoft Teams Phone](https://www.microsoft.com/microsoft-teams/microsoft-teams-phone) page.
+
+Visit the [Assign, change, or remove a phone number for a user](d:/Git/GitHub/OfficeDocs-SkypeForBusiness-pr/Teams/assign-change-or-remove-a-phone-number-for-a-user.md) article for instructions on how to assign a phone number.
 
 ## Validate
 
