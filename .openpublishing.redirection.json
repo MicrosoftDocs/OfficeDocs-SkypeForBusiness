@@ -2551,6 +2551,11 @@
       "redirect_document_id": false 
      },
      {
+      "source_path": "Teams/sharepoint-onedrive-interact.md",
+      "redirect_url": "/sharepoint/teams-connected-sites?bc=%2fteamss%2fbreadcrumb%2ftoc.json&toc=%2fteams%2ftoc.json",
+      "redirect_document_id": false 
+     },
+     {
       "source_path": "Teams/business-voice/what-to-buy.md",
       "redirect_url": "/microsoftteams/business-voice/whats-business-voice",
       "redirect_document_id": false 
