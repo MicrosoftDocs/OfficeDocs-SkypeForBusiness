@@ -36,6 +36,9 @@ Before you start the procedures in this article, ensure you've done the followin
 - [Obtain virtual user licenses](#obtain-virtual-user-licenses)
 - [Obtain service numbers](#obtain-service-numbers)
 
+> [!NOTE]
+> Resource accounts are disabled for sign in and must remain so. Chat and presence are not avaialble for these accounts.
+
 ### Obtain virtual user licenses
 
 Each resource account requires a license in order to work with auto attendants and call queues. You can use a free *Microsoft 365 Phone System - Virtual User* license. To obtain these licenses, see [Virtual User license](teams-add-on-licensing/virtual-user.md).
