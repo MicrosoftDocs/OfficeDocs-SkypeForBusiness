@@ -2556,6 +2556,11 @@
       "redirect_document_id": false 
      },
      {
+      "source_path": "Teams/live-components-in-teams.md",
+      "redirect_url": "/microsoftteams/loop-components-in-teams",
+      "redirect_document_id": false 
+     },
+     {
       "source_path": "Teams/business-voice/what-to-buy.md",
       "redirect_url": "/microsoftteams/business-voice/whats-business-voice",
       "redirect_document_id": false 
