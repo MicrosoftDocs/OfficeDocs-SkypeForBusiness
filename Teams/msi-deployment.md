@@ -1,5 +1,5 @@
 ---
-title: Install Teams using Windows Installer (MSI)
+title: Bulk install Teams using Windows Installer (MSI)
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -20,7 +20,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Install Teams using Windows Installer (MSI)
+# Bulk install Teams using Windows Installer (MSI)
 
 > [!Tip]
 > Watch the following session to learn about the benefits of the Windows Desktop Client, how to plan for it and how to deploy it: [Teams Windows Desktop Client](https://aka.ms/teams-clients).

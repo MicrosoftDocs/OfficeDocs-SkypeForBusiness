@@ -95,7 +95,7 @@ items:
               href: get-clients.md
             - name: Teams client updates
               href: teams-client-update.md
-            - name: Install Teams using Windows Installer
+            - name: Bulk install Teams using Windows Installer
               href: msi-deployment.md
             - name: Teams for Virtualized Desktop Infrastructure (VDI)
               href: teams-for-vdi.md
