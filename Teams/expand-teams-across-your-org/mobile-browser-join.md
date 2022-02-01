@@ -10,11 +10,13 @@ search.appverid:
 searchScope:
   - Microsoft Teams
   - Microsoft Cloud for Healthcare
+  - Microsoft Cloud for Retail
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
   - microsoftcloud-healthcare
+  - microsoftcloud-retail
   - m365solution-healthcare
   - m365solution-scenario
 ms.reviewer: hafarmer
