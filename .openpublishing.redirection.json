@@ -1,6 +1,31 @@
 {
   "redirections": [
     {
+      "source_path": "Teams/expand-teams-across-your-org/healthcare/dstu2-interface.md",
+      "redirect_url": "/microsoftteams/manage-lists-app",
+      "redirect_document_id": false
+    }, 
+    {
+      "source_path": "Teams/expand-teams-across-your-org/healthcare/stu3-interface.md",
+      "redirect_url": "/microsoftteams/manage-lists-app",
+      "redirect_document_id": false
+    },     
+    {
+      "source_path": "Teams/expand-teams-across-your-org/healthcare/patients-audit.md",
+      "redirect_url": "/microsoftteams/manage-lists-app",
+      "redirect_document_id": false
+    },     
+    {
+      "source_path": "Teams/expand-teams-across-your-org/healthcare/patients-app-overview.md",
+      "redirect_url": "/microsoftteams/manage-lists-app",
+      "redirect_document_id": true
+    },    
+    {
+      "source_path": "Teams/expand-teams-across-your-org/teams-for-healthcare-landing-page.md",
+      "redirect_url": "/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc",
+      "redirect_document_id": false
+    }, 
+    {
       "source_path": "Teams/manage-discovery-of-private-teams.md",
       "redirect_url": "/microsoftteams/teams-overview",
       "redirect_document_id": false
@@ -2553,6 +2578,11 @@
      {
       "source_path": "Teams/sharepoint-onedrive-interact.md",
       "redirect_url": "/sharepoint/teams-connected-sites?bc=%2fteamss%2fbreadcrumb%2ftoc.json&toc=%2fteams%2ftoc.json",
+      "redirect_document_id": false 
+     },
+     {
+      "source_path": "Teams/live-components-in-teams.md",
+      "redirect_url": "/microsoftteams/loop-components-in-teams",
       "redirect_document_id": false 
      },
      {
