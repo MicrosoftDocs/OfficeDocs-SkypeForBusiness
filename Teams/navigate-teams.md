@@ -60,8 +60,8 @@ Teams is made up of **channels**, which are the topic-specific conversations you
 
 ### Conversations in Teams Chat vs Team Channel
 
-| Conversations in  Chat | Conversations in Team Channels|
-|---------|-----------------------|
+| Conversations in Chat | Conversations in Team Channels|
+|---------|---------|
 | For lightweight conversations, where you’re directly messaging recipients. | For interactions where multiple topics are discussed in an open space.​ |
 | Private chats are only visible to those in the chat​ | Visible to everyone in the Team​  |
 | One continuous, unthreaded conversation​ | Structured, multiple threaded conversations​ |
@@ -70,7 +70,7 @@ Teams is made up of **channels**, which are the topic-specific conversations you
 | New chat recipients must be added by those people already in chat​​ | Users can join a team by searching for it. In private Teams, Teams admin approves new members​. Channel members can generate code to enable new members to join directly without admin approval. |​
 | On the spot screen share, and audio and video calling​. Easy scheduling of Teams meetings with all chat participants​ | On the spot and scheduled audio and video calling​ |
 | Some extensibility with apps​ | Full extensibility and customization with apps​  |
-|  | Post to channels via email |
+| - | Post to channels via email |
 
 For an overview on Teams, channels, and group chats, see [teams and channels in Microsoft Teams](teams-channels-overview.md).
 
@@ -92,19 +92,21 @@ You can create a Teams group chat to hold quick huddles and transient conversati
 
 1. Start and name a group chat.
 
-    ![Name a group chat](media/Kaizala-to-Teams-image4.png)
+    ![Name a group chat](media/kaizala-to-teams-image4.png)
 
     Everyone who has access to the group chat can [send messages](https://support.microsoft.com/office/send-and-read-messages-in-teams-b29e60ec-76af-4d97-8c3c-a4e36f2b64aa?ui=en-us&rs=en-us&ad=us).
 
 2. Add people to the conversation.
 
-    ![Add people to the conversation](media/Kaizala-to-Teams-image5.png)
+    ![Add people to the conversation](media/kaizala-to-teams-image5.png)
+    
    When adding someone to a group chat (not a one-on-one), you can include the **chat history** and **duration of history** you want to share with them.
 
 3. Manage group chat.
   
     ![Manage group chat](media/manage-groupchats.png)
-    To see who's in a group chat, hover over the number of participants in the chat header to show a list of everyone's names.
+    
+   To see who's in a group chat, hover over the number of participants in the chat header to show a list of everyone's names.
 
 **Option 2: Switch from a Kaizala flat group to a Teams team**
    For targeted large group communication, you can create a Team for a flat group. You can add up to 25,000 members to engage in structured communication with threaded conversations. This type of communication allows for moderation and administration roles to ensure that things are running smoothly.
@@ -119,7 +121,7 @@ As a [team owner](https://support.microsoft.com/office/go-to-guide-for-team-owne
 
     If you're a team owner, go to the team name in the teams list and select the **More options** button > then **Add member**.
 
-    ![Add bulk members](media/Kaizala-to-Teams-image6.png)
+    ![Add bulk members](media/kaizala-to-teams-image6.png)
 
     You can start typing a distribution list, security group, or Microsoft 365 group to add to your team. To learn more, see [Add members to a team in Teams](https://support.microsoft.com/office/add-members-to-a-team-in-teams-aff2249d-b456-4bc3-81e7-52327b6b38e9?ui=en-us&rs=en-us&ad=us).
 
@@ -133,11 +135,11 @@ We recommend starting the Teams journey for your Kaizala users with **Show favor
 
 Here's an example of the Team's interface with **Shifts**:
 
-![Messaging experience with Shifts](media/Kaizala-to-teams-image24.png)
+![Messaging experience with Shifts](media/kaizala-to-teams-image24.png)
 
 Here's an example of Team's interface **without Shifts**:
 
- ![Messaging experience without Shifts](media/Kaizala-to-teams-images25.png)
+ ![Messaging experience without Shifts](media/kaizala-to-teams-images25.png)
 
 > [!NOTE]
 > You can remove access to the Teams button to create a simplified interface for Frontline workers with only highlighted channels showing up above chats. To learn more, see [Manage messaging policies in Teams](messaging-policies-in-teams.md).
@@ -146,7 +148,7 @@ Here's an example of Team's interface **without Shifts**:
 
 In Kaizala, hierarchical groups allow your organization to interact in different group structures depending on the type of communication between members.  In Teams, you can create Teams and channels to match your org chart and set up hierarchy-based communication. You can use a hierarchical structure within Teams to alert members of needed actions, important news, and updates.
 
-![Teams hierarchy chart](media/Kaizala-to-Teams-image7.png)
+![Teams hierarchy chart](media/kaizala-to-teams-image7.png)
 
 ![District manager and store associate's interface of Teams channels](media/kaizala-to-teams-image27.png)
 
@@ -166,12 +168,12 @@ Channel moderation allows you to control who can post and reply to messages. Cha
 
 - Navigate to "Who are the moderators?" to manually select moderators for your channel
 
-![Set up Teams Channel Moderation](media/Kaizala-to-Teams-image8.png)
+![Set up Teams Channel Moderation](media/kaizala-to-teams-image8.png)
 
 **Step 2**: Format your message.
   Create an announcement to notify team members of important news or actions.
 
-   ![Teams announcements](media/Kaizala-to-Teams-image9.png)
+   ![Teams announcements](media/kaizala-to-teams-image9.png)
 
 - In the channel, select Format  under the box where you type your message.
 
@@ -180,22 +182,22 @@ Channel moderation allows you to control who can post and reply to messages. Cha
 - Type a headline, change its background color, or add a background image for the headline area.
 
 - Type the subject of your announcement in the Add a subhead area, then the body of your message, and select Send button.
-    ![Mobile announcement](media/Kaizala-to-Teams-image10.png)
+    ![Mobile announcement](media/kaizala-to-teams-image10.png)
 
 **Step 3**: Select channels for Message broadcast.
 
 You can cross-post across multiple Teams and channels when you have important announcements and information that need to reach large groups of people.
 
-  ![Choose a channel for broadcast](media/Kaizala-to-Teams-image11.png)
+  ![Choose a channel for broadcast](media/kaizala-to-teams-image11.png)
 
 To learn more, see [Cross-post a channel conversation in Teams](https://support.microsoft.com/office/cross-post-a-channel-conversation-in-teams-9c1252a3-67ef-498e-a7c1-dd7147b3d295?ui=en-us&rs=en-us&ad=us).
 
 ## Getting work done in Teams
 
-When it comes to getting work done, the right tools can enable efficiency. In Kaizala, you can use [Out-of-box(OOB) Action cards](/kaizala/partnerdocs/kaizalaactioncards) to make daily work management easier and efficient.
+When it comes to getting work done, the right tools can enable efficiency. In Kaizala, you can use [Out-of-box (OOB) Action cards](/kaizala/partnerdocs/kaizalaactioncards) to make daily work management easier and efficient.
  Microsoft Teams provides several capabilities and solution for Out of Box Action cards in Kaizala.
 
-![Engage your people with Teams](media/Kaizala-to-Teams-image12.png)
+![Engage your people with Teams](media/kaizala-to-teams-image12.png)
 
 The Teams platform allows you to use existing organization tools through integration into Microsoft Teams alongside ready-to-use Microsoft 365 applications and third-party apps. There are over 300 external applications available now in Microsoft Teams.
 
@@ -263,7 +265,7 @@ You can simplify onboarding by offering access to contextual information.  Make 
 
 ## Moving Kaizala Custom Solutions to Microsoft Teams
 
-![Moving Kaizala to Teams](media/Kaizala-to-Teams-image1.png)
+![Moving Kaizala to Teams](media/kaizala-to-teams-image1.png)
 
 Follow this three-step approach to get your solutions to Microsoft Teams:
 
@@ -384,15 +386,15 @@ As a Kaizala tenant admin/global admin, you can export Kaizala tenant data from 
 
  1. Select **Analytics** tab on the left navigation panel, choose **Export Tenant Data**.
   
-    ![reports](media/Kaizala-to-Teams-image19.png)
+    ![reports](media/kaizala-to-teams-image19.png)
 
  2. Select **Export**.
 
-    ![exports](media/Kaizala-to-Teams-image20.png)
+    ![exports](media/kaizala-to-teams-image20.png)
 
  3. Use Tenant Messages file – with filters on Group name/timestamp to access group level chat data.
 
-    ![files](media/Kaizala-to-teams-images21.png)
+    ![files](media/kaizala-to-teams-images21.png)
 
 ## Deleting a Kaizala Group
 
