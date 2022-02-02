@@ -507,8 +507,8 @@ items:
       href: turn-off-teams-native-file-upload-policy.md
     - name: Set up channel moderation in Teams
       href: manage-channel-moderation-in-teams.md
-    - name: Manage live components
-      href: live-components-in-teams.md
+    - name: Manage loop components
+      href: loop-components-in-teams.md
     - name: Teams and Outlook email integration
       href: teams-outlook-email-integration.md
     - name: Share to Teams from Outlook
