@@ -110,7 +110,7 @@ Direct Routing numbers assigned on-premises need to be removed in your on-premis
    ```
    Set-CsUser -Identity <user> -LineURI $null 
    ```
- In order to validate the on-premises number is removed and the changes have been synced, run the following PowerShell command: 
+ The synchronization delay is dependent on your configuration. In order to validate the on-premises number is removed and the changes have been synced, run the following PowerShell command: 
 
    ```
    Get-CsOnlineUser -Identity <user> | fl RegistrarPool,OnPreLineURIManuallySet, OnPremLineURI, LineURI 
@@ -132,15 +132,18 @@ Direct Routing numbers that have been assigned online can be removed by running 
    ```
    Remove-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <pn> -PhoneNumberType DirectRouting
    ```
+The removal of the number will have a replication delay of 10 minutes, however in rare cases the replication can take up to 24h. 
 
- In order to validate the number is removed and the changes have been synced, run the following PowerShell command: 
+In order to validate the number is removed and the changes have been synced, run the following PowerShell command: 
   
    ```
    Get-CsOnlineUser -Identity <user> | fl Number
    ```
 
-2. Remove the online voice routing policy associated with your user: 
-  
+2. Remove the online voice routing policy associated with your user 
+
+Once the number is unassigned, remove the online voice routing policy associated with your user by running the following PowerShell command:
+
 ```
 Grant-CsOnlineVoiceRoutingPolicy -Identity <user> -PolicyName $Null
 ```
