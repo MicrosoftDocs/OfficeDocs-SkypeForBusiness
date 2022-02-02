@@ -13,10 +13,12 @@ ms.collection:
   - M365-collaboration
   - Teams_ITAdmin_FLW
   - microsoftcloud-healthcare
+  - microsoftcloud-retail
 search.appverid: MET150
 searchScope:
   - Microsoft Teams
   - Microsoft Cloud for Healthcare
+  - Microsoft Cloud for Retail
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-jun2020
