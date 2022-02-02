@@ -65,13 +65,12 @@ productDirectory:
       summary: 'Learn how Teams can help organize your workday and make it easier to stay connected with colleagues. (Audience: Everyone)'
       url: https://aka.ms/TeamsProTips
     # Card
-    - title: Master working from home with Teams
-      imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
-      summary: 'Learn best practices for staying connect to your team and maintaining productivity. (Audience: Everyone)'
-      url: https://aka.ms/WFHTeams
+    - title: Microsoft Teams on YouTube
+      imageSrc: https://docs.microsoft.com/office/media/icons/video-play.svg
+      summary: 'Subscribe and be the first to learn about the latest features, tips and tricks, and more. (Audience: Everyone)'
+      url: https://www.youtube.com/MicrosoftTeams
     # Card
     - title: Teams for Education - Webinars
-      # imageSrc should be square in ratio with no whitespace
       imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
       summary: 'Learn how to use Teams in higher education. (Audience: Staff, students, academics, research faculty, IT professionals)'
       url: https://aka.ms/TeamsEduWebinars
