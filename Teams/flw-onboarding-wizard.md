@@ -80,8 +80,8 @@ Check out this short video for an overview of how to run the wizard to onboard y
 After you run the wizard, it's important to:
 
 - Let your frontline workers and managers know that they're assigned Teams licenses.
-- If your organization uses shared devices, make sure Teams is installed on those devices. Each user you added to the team will receive a welcome email that prompts them to open Teams.
-- If your organization uses a bring your own device (BYOD) model, let each user you added to the team know that they have to download and install Teams to their devices. They'll also receive a welcome email that prompts them to download Teams.
+- If your organization uses shared devices, make sure Teams is installed on those devices. Uses that you added to the team will receive a welcome email that prompts them to open Teams.
+- If your organization uses a "bring your own device" (BYOD) model, let each user you added to the team know that they have to download and install Teams to their devices. They'll also receive a welcome email that prompts them to download Teams.
 
     > [!NOTE]
     > Keep in mind that users who have F1 licenses won't receive a welcome email because the F1 license doesn't include email access.  
