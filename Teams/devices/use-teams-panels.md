@@ -207,6 +207,23 @@ Admins can choose either red or purple as the LED color to indicate that the mee
 :::image type="content" source="../media/panels-led-settings.png" alt-text="This screenshot displays the LED color busy state settings.":::
 4. Go back to the Home screen and verify that the LED color for the busy state is updated. If the meeting space is currently available, try to schedule a test meeting to verify the change in LED color for the busy state.
 
+## Check-in and room release feature for active room management
+
+This section covers the Microsoft Teams panels feature for room check-in and room release. To help ensure your meeting spaces are getting maximum use, we’re enabling a way to “check in” to claim a room from a Teams panel. Users can check into the room by tapping the button on the panel. If no one checks into the room, it will be released back to the room inventory for others to reserve and use. The default time to check in is 10 minutes before the room is released, but the unit of time configurable by the IT admin.
+
+When the room is released, the room account declines the meeting invite, and a custom decline email message is sent back to the meeting organizer to inform them the room was released because of no one checking in to claim it. The custom decline email will state: **Since no one checked in, the room has declined the meeting invitation and is no longer reserved.**
+
+### Setting up check-in and room release on panels
+
+By default, check-in and room release is turned off.
+
+>[!NOTE]
+>Device pairing is not applicable at this time.
+
+1.  An IT admin can go into the Panels app settings (**Settings > Device Settings > Admin Settings > Panels App Settings > Meetings**) and turn on **Release room if no one checks in**.
+
+2.  The IT admin can also configure from the drop-down menu how many minutes to wait before release if no one checks in.
+1. 
 ## Frequently asked questions
 
 Find answers to frequently asked questions about the Teams panels devices.
@@ -219,20 +236,3 @@ No, you can't reserve a meeting space for a future time from panels. The start t
 
 **How long I can reserve an available meeting space for an ad hoc meeting?**  
 You can reserve an available meeting space starting from your current time until the next scheduled meeting time, or up to a maximum of 24 hours from your current hour, whichever is earlier. For example, if the current time is 10 AM, and the next meeting start time is 2 PM, you can reserve the meeting space from 10 AM until 2 PM.
-
-## Check-in and room release feature for active room management
-
-This section covers the Microsoft Teams panels feature for room check-in and room release. To help ensure your meeting spaces are getting maximum use, we’re enabling a way to “check in” to claim a room from a Teams panel. Users can check into the room by tapping the button on the panel. If no one checks into the room, it will be released back to the room inventory for others to reserve and use. The default time to check in is 10 minutes before the room is released, but the unit of time configurable by the IT admin.
-
-When the room is released, the room account declines the meeting invite, and a custom decline email message is sent back to the meeting organizer to inform them the room was released because of no one checking in to claim it. The custom decline email will state: **Since no one checked in, the room has declined the meeting invitation and is no longer reserved.**
-
-## Setting up check-in and room release on panels
-
-By default, check-in and room release is turned off.
-
->[!NOTE]
->Device pairing is not applicable at this time.
-
-1.  An IT admin can go into the Panels app settings (**Settings > Device Settings > Admin Settings > Panels App Settings > Meetings**) and turn on **Release room if no one checks in**.
-
-2.  The IT admin can also configure from the drop-down menu how many minutes to wait before release if no one checks in.
