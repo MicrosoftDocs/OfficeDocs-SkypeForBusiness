@@ -2,8 +2,8 @@
 title: Teams for Education
 description: Learn about the admin resources available to help you successfully deploy, adopt, and manage Teams in your school or institution.
 ms.topic: conceptual
-author: SerdarSoysal
-ms.author: serdars
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 audience: admin
 f1.keywords:
