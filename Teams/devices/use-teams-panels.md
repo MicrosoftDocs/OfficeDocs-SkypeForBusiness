@@ -207,7 +207,7 @@ Admins can choose either red or purple as the LED color to indicate that the mee
 :::image type="content" source="../media/panels-led-settings.png" alt-text="This screenshot displays the LED color busy state settings.":::
 4. Go back to the Home screen and verify that the LED color for the busy state is updated. If the meeting space is currently available, try to schedule a test meeting to verify the change in LED color for the busy state.
 
-## Check-in and room release feature for active room management
+## Check-in and room release feature
 
 This section covers the Microsoft Teams panels feature for room check-in and room release. To help ensure your meeting spaces are getting maximum use, we’re enabling a way to “check in” to claim a room from a Teams panel. Users can check into the room by tapping the button on the panel. If no one checks into the room, it will be released back to the room inventory for others to reserve and use. The default time to check in is 10 minutes before the room is released, but the unit of time configurable by the IT admin.
 
