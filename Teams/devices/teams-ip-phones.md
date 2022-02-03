@@ -87,7 +87,7 @@ The following devices are Certified under the Microsoft Teams Displays Android C
 ## Currently certified Teams panels
 The following devices are Certified under the Microsoft Teams panels Certification Program:
 
-| Device model| Firmware version | Certification end date || Android OS version |                                         
+| Device model| Firmware version | Certification end date | Android OS version |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
 |Crestron TSS-770 | `1.003.0082` |December 5, 2022  | 8.1 |
 |Crestron TSS-1070 | `1.003.0082`|December 5, 2022 | 8.1 |
