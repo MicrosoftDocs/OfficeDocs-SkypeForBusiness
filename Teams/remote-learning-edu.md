@@ -1,7 +1,7 @@
 ---
 title: Get started with Microsoft Teams for remote learning
-author: MicrosoftHeidi
-ms.author: heidip
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 ms.service: msteams
