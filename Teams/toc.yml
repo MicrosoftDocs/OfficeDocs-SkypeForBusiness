@@ -1457,6 +1457,8 @@ items:
           href: devices/Teams-Android-devices-user-interface.md
         - name: Authentication best practices for Android devices
           href: devices/authentication-best-practices-for-android-devices.md
+        - name: Set up auto answer for Teams Android devices
+          href: set-up-auto-answer-on-teams-android.md
         - name: Meeting room devices and solutions
           href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Teams certified devices
@@ -1795,9 +1797,9 @@ items:
             - name: Use mail flow rules with Exchange
               href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
         - name: Overview of Teams and SharePoint integration
-          href: /sharepoint/teams-connected-sites?bc=%2fteamss%2fbreadcrumb%2ftoc.json&toc=%2fteams%2ftoc.json
+          href: /sharepoint/teams-connected-sites?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Manage SharePoint and Teams integration settings
-          href: /sharepoint/manage-teams-sharepoint-experiences?bc=%2fteamss%2fbreadcrumb%2ftoc.json&toc=%2fteams%2ftoc.json
+          href: /sharepoint/manage-teams-sharepoint-experiences?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
 
     - name: Teams PowerShell
       items: 
