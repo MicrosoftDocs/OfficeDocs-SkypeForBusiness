@@ -71,19 +71,6 @@ Teams is made up of **channels**, which are the topic-specific conversations you
 |On the spot screen share, and audio and video calling. Easy scheduling of Teams meetings with all chat participants     | On the spot and scheduled audio and video calling        |
 |Some extensibility with apps     | Full extensibility and customization with apps        |
 
-
-|Conversations in Chat | Conversations in Team Channels |
-|---------|---------|
-| For lightweight conversations, where you’re directly messaging recipients. | For interactions where multiple topics are discussed in an open space.​ |
-| Private chats are only visible to those in the chat​ | Visible to everyone in the Team​  |
-| One continuous, unthreaded conversation​ | Structured, multiple threaded conversations​ |
-| Up to 250 people​​ | Up to 25,000 people​  |
-| Choose if you want to share chat history with new chat participants​ | History is shared with all new Team members​​ |
-| New chat recipients must be added by those people already in chat​​ | Users can join a team by searching for it. In private Teams, Teams admin approves new members​. Channel members can generate code to enable new members to join directly without admin approval. |​
-| On the spot screen share, and audio and video calling​. Easy scheduling of Teams meetings with all chat participants​ | On the spot and scheduled audio and video calling​ |
-| Some extensibility with apps​ | Full extensibility and customization with apps​  |
-
-
 For an overview on Teams, channels, and group chats, see [teams and channels in Microsoft Teams](teams-channels-overview.md).
 
 ## Moving your Kaizala groups to Microsoft Teams
