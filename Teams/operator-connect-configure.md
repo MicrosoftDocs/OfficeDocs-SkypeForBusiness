@@ -97,23 +97,23 @@ To move numbers from Direct Routing to Operator Connect, the existing Direct Rou
 >[!IMPORTANT]
 > The phone number will be out of service during the migration, so coordinate with your Operator Connect operator before you begin.
 
-1. Remove existing Direct Routing numbers.
+#### Step 1 - Remove existing Direct Routing numbers.
 
     How you remove your existing Direct Routing numbers depends whether the number is assigned on-premises or online. To check, run the following command:
     
-       ```PowerShell
-       Get-CsOnlineUser -Identity <user> | fl RegistrarPool,OnPreLineURIManuallySet, OnPremLineURI, LineURI 
-       ```
+```PowerShell
+Get-CsOnlineUser -Identity <user> | fl RegistrarPool,OnPreLineURIManuallySet, OnPremLineURI, LineURI 
+```
+
+If `OnPremLineUriManuallySet` is set to `False` and `LineUri` is populated with an E.164 phone number, the phone number was assigned on-premises and synchronized to Office 365.
     
-    If `OnPremLineUriManuallySet` is set to `False` and `LineUri` is populated with an E.164 phone number, the phone number was assigned on-premises and synchronized to Office 365.
-    
-    **To remove Direct Routing numbers assigned on-premises,** run the following command:
+**To remove Direct Routing numbers assigned on-premises,** run the following command:
     
 ```PowerShell
 Set-CsUser -Identity <user> -LineURI $null 
 ```
-      
-       The amount of time it takes for the removal to take effect depends on your configuration. To check if the on-premises number was removed and the changes have been synced, run the following PowerShell command: 
+
+ The amount of time it takes for the removal to take effect depends on your configuration. To check if the on-premises number was removed and the changes have been synced, run the following PowerShell command: 
     
 ```PowerShell
 Get-CsOnlineUser -Identity <user> | fl RegistrarPool,OnPreLineURIManuallySet, OnPremLineURI, LineURI 
@@ -127,19 +127,22 @@ RegistrarPool                        : pool.infra.lync.com
  OnPremLineURI                        : 
 LineURI                              : 
 ```
-        
-    **To remove existing online Direct Routing numbers assign online,** run the following PowerShell command:
-    
+
+<br> **To remove existing online Direct Routing numbers assign online,** run the following PowerShell command:
+
+
 ```PowerShell
 Remove-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <pn> -PhoneNumberType DirectRouting
 ```
-    Removing the phone number may take up to 10 minutes. In rare cases, it can take up to 24 hours. ITo check if the on-premises number was removed and the changes have been synced, run the following PowerShell command: 
+
+ Removing the phone number may take up to 10 minutes. In rare cases, it can take up to 24 hours. ITo check if the on-premises number was removed and the changes have been synced, run the following PowerShell command: 
+
 
 ```PowerShell
 Get-CsOnlineUser -Identity <user> | fl Number
 ```
 
-2. Remove the online voice routing policy associated with your user 
+#### Step 2 - Remove the online voice routing policy associated with your user
 
 Once the number is unassigned, remove the online voice routing policy associated with your user by running the following PowerShell command:
 
@@ -147,9 +150,13 @@ Once the number is unassigned, remove the online voice routing policy associated
 Grant-CsOnlineVoiceRoutingPolicy -Identity <user> -PolicyName $Null
 ```
 
-3. Go to your operator's website to order and acquire phone numbers. To find your operators website, see the [Microsoft 365 Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory). You'll need to provide your tenant ID. If you don't know your tenant ID, see [Find your Microsoft 365 tenant ID](/onedrive/find-your-office-365-tenant-id) for more information.
+#### Step 3 - Acquire phone numbers
 
-4. Once your operator completes the order, they'll upload numbers to your tenant. You can view the numbers and the provider in the Teams admin center by going to **Voice > Phone numbers**. Assign Operator Connect numbers to users by using the Teams admin center or by using  PowerShell. For more information, see [Assign numbers](#assign-numbers).
+ Go to your operator's website to order and acquire phone numbers. To find your operators website, see the [Microsoft 365 Operator Connect directory](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory). You'll need to provide your tenant ID. If you don't know your tenant ID, see [Find your Microsoft 365 tenant ID](/onedrive/find-your-office-365-tenant-id) for more information.
+
+#### Step 4 - Assign phone numbers
+
+ Once your operator completes the order, they'll upload numbers to your tenant. You can view the numbers and the provider in the Teams admin center by going to **Voice > Phone numbers**. Assign Operator Connect numbers to users by using the Teams admin center or by using  PowerShell. For more information, see [Assign numbers](#assign-numbers).
 
 ### Assign numbers
 
