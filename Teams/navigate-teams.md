@@ -355,11 +355,11 @@ As you transition to Teams channels and chats, you may consider Kaizala group di
 
 2. Select **Groups** tab on the left navigation panel, select the group that you want to set as **Read Only**.
 
-    ![Group-switch](media/Kaizala-to-Teams-image16.png)
+    ![Group-switch](media/kaizala-to-teams-image16.png)
 
 3. From the drop-down list, select **Edit Policies**.
   
-    ![Policies](media/Kaizala-to-Teams-image17.png)
+    ![Policies](media/kaizala-to-teams-image17.png)
 
 4. In **Group Policy** window, uncheck the following options:
 
@@ -367,7 +367,7 @@ As you transition to Teams channels and chats, you may consider Kaizala group di
 
      - Allow members to send messages and attachments.
 
-       ![options](media/Kaizala-to-Teams-image18.png)
+       ![options](media/kaizala-to-teams-image18.png)
 
      > [!NOTE]
      > Admins can still post in the group.
@@ -431,4 +431,4 @@ Anyone who isn't part of your organization can be [added as guest in Teams](/Mic
 
 <a name="ControlSyncThroughput"> </a>
 
-[Microsoft Teams for Frontline workers](/MicrosoftTeams/drive-adoption-and-optimize-kaizala)
+[Microsoft Teams for Frontline workers](/MicrosoftTeams/drive-adoption-optimize-kaizala)
