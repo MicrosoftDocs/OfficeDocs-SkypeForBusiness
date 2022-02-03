@@ -1,15 +1,15 @@
 ---
 title: "Top Failures Report in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
 description: "Summary: Learn about the Top Failures Report in Skype for Business Server."
 ---

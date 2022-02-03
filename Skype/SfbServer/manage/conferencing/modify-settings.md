@@ -1,15 +1,15 @@
 ---
 title: "Modify meeting configuration settings in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
 description: "Summary: Learn how to modify meeting configuration settings in Skype for Business Server."
 ---

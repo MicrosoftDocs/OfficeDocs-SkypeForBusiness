@@ -1,5 +1,5 @@
 ---
-title: Phone System Direct Routing
+title: Phone system direct routing in Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -15,7 +15,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: Learn more about Direct Routing, such as configuration, necessary core deployment decisions, and voice routing considerations.
+description: Learn about Direct Routing configuration, necessary core deployment decisions, and voice routing considerations.
 ms.custom: 
  - seo-marvel-apr2020
  - seo-marvel-jun2020
@@ -23,7 +23,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Phone System Direct Routing
+# Phone system direct routing
 
 You've completed [Get started](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Maybe you've deployed [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md). Now you're ready to add cloud voice workloads, and you've decided to use your own telephony carrier for Public Switched Telephone Network (PSTN) connectivity by using Phone System Direct Routing. With Direct Routing, you can use Phone System with virtually any telephony carrier.
 

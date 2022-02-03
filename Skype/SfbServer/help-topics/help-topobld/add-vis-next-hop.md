@@ -1,8 +1,8 @@
 ---
 title: "Add VIS Next Hop"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddVisNextHopPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8c25449d-375b-477b-b8d0-ed19e6775906
 description: "The steps needed to define a new VIS or Video Gateway in Topology Builder are described online in Create a VIS pool in Skype for Business Server 2015."
 ---

@@ -1,15 +1,15 @@
 ---
 title: "Repository API for Call Quality Dashboard (CQD) in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
 description: "Summary: Learn about the Repository API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server."

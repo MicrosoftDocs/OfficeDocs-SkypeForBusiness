@@ -1,15 +1,15 @@
 ---
 title: "Monitor mobility for performance in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9c831c63-9a7d-48ec-9118-f8a7e80ddd04
 description: "Summary: Learn about the Mobility Service (Mcx) and the Unified Communications Web API (UCWA) in Skype for Business Server."
 ---

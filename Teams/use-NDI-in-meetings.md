@@ -1,15 +1,15 @@
 ---
-title: Use NDI in Microsoft Teams
-author: cichur
-ms.author: v-cichur
-ms.reviewer: aaglick
+title: Broadcast meeting content
+author: CarolynRowe
+ms.author: crowe
+ms.reviewer: aalinne
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Learn how to use NDI in Microsoft Teams.
-localization_priority: Normal
+description: Learn how to use NDI and SDI to broadcast meeting content in Microsoft Teams.
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection: 
@@ -18,47 +18,48 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Use NDI® technology in Microsoft Teams
+# Broadcast meeting content 
 
- NewTek NDI® (Network Device Interface) technology is a modern solution for connecting media devices (such as a studio camera and mixer). Instead of using physical connections, NDI® technology enables connectivity over a local intranet, including on a local machine.
 
-NDI® technology has become a standard industry solution for producing live content for streams and has gained significant awareness and adoption in the professional broadcast world.
 
-Skype previously added NDI®-out functionality to Skype in late 2018. Microsoft Teams uses this functionality to improve the meeting experience.
+Teams provides two options for broadcasting Teams meeting content: Network Device Interface (NewTek NDI®) and Serial Digital Interface (SDI):
 
-NDI® technology is limited to a local network and should only be considered a part of the production workflow, not a broadcast solution.
+- NewTek NDI® technology is a modern solution for connecting media devices (such as a studio camera and mixer). Instead of using physical connections, NDI® technology enables connectivity over a local intranet, including on a local machine.
 
-## Turn on NDI® technology
+  NDI® technology has become a standard industry solution for producing live content for streams and has gained significant awareness and adoption in the professional broadcast world.
 
-NDI® technology requires two steps to be turned on for a user.
+- SDI has been used in broadcast productions since 1989 and is supported on most legacy studio hardware devices. Hardware devices from AJA Video Systems and Blackmagic Design provide connectivity to legacy broadcast devices that use SDI.
 
-1. The tenant admin must enable the 'AllowNDIStreaming' property in CsTeamsMeetingPolicy.
+> [!NOTE]
+> The Video Hardware Out feature the supports SDI is currently in Preview release.
+
+NDI® and SDI technology is supported in all locales.
+
+Access to using NDI and SDI is determined by the meeting policy for the user attempting to activate the feature. For the most secure solution, do not turn on the local streaming parameter as a global setting.
+
+
+## Enable broadcast features
+
+To enable NDI® and SDI broadcast features for a user:
+
+1. The tenant admin must enable the end user to have local streaming turned on for their meeting policy. 
+
+2. The end user must turn on local streaming for their specific client.
+
+
+To enable the end user, you can use the Teams Admin center or Teams PowerShell as follows.
+
+In the Teams admin center, go to **Meeting policies > Audio & video** and select **Allow NDI Streaming**.
+
+To use PowerShell, use the Set-CsTeamsMeetingPolicy cmdlet as follows:
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
 ```
 
-2. After this change has populated, the end user must turn on NDI® technology for their specific client from **Settings** > **Permissions**.
+After this change has populated, the end user must turn on local streaming for their specific client from **Settings** > **Permissions**. For more information, see [Broadcasting audio and video from Teams](https://support.microsoft.com/office/broadcasting-audio-and-video-from-teams-with-ndi-technology-e91a0adb-96b9-4dca-a2cd-07181276afa3).
 
-When a user joins a meeting, they'll see a message that notifies them that the meeting is being broadcast. If users don’t want to be included in the broadcast, they’ll need to drop from the meeting.
 
-The following image shows the banner message that a user sees in a Teams meeting.
 
-![he NDI® technology banner that displays in a Teams meeting.](media/NDI-disclosure.png)
 
-The banner has a link to the [Microsoft privacy policy](https://aka.ms/teamsprivacy).
 
-> [!NOTE]
-> NDI® is activated per session only. On the next login, the user must activate it before using NDI®.
-
-## Supported locales and user types
-
-NDI® technology is supported in all locales. The following users are included in an NDI® technology stream, but not all users can access the NDI® technology stream:
-
-- In-tenant – full support, delivered based on ring/tenantId/userId (controlled by Meetings Policy)
-- Federated – no stream access (even when they have NDI® technology on)<sup>1</sup>
-- Premium - no stream access
-- Anonymous – no stream access
-- Guest – no stream access  
-
-<sup>1</sup> Devices have an NDI® technology setting that is on by default. If a meeting participant is using a device with NDI® technology off, they'll need to turn on NDI® technology.

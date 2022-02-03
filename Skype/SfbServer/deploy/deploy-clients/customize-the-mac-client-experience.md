@@ -1,7 +1,7 @@
 ---
 title: "Customize the Mac client experience in Skype for Business"
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: PhillipGarding
 audience: ITPro
@@ -9,7 +9,7 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: "This article describes the client preferences and defaults available for the Skype for Business on Mac client, and how to edit them from outside the App."
 ---

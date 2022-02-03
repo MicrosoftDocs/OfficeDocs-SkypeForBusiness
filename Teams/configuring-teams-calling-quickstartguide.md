@@ -1,7 +1,7 @@
 ---
 title: Quick start guide - Configuring Calling Plans
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 8/21/2018
 ms.topic: article
@@ -12,7 +12,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: Quick start guide for configuring calling plans in Microsoft Teams so you can get a set of users up and running.
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
   - M365-collaboration
@@ -21,8 +21,7 @@ appliesto:
 ms.custom: seo-marvel-apr2020
 ---
 
-Quick start guide: Configuring Calling Plans in Microsoft Teams
-==============================================================
+# Quick start guide: Configuring Calling Plans in Microsoft Teams
 
 This guide will help you get a set of users up and running so they can explore Calling Plans in Teams.
 
@@ -33,9 +32,9 @@ Read the December 12, 2017, announcement of Calling Plans in Teams: [Intelligent
 
 By adding Calling Plans - a Microsoft 365 and Office 365 feature powered by Skype for Business - you can now use Teams to make and receive phone calls to or from land lines and mobile phones via the public switched telephone network (PSTN).
 
-![Screen shot showing the Contacts page in Teams](media/Calling_in_Teams.png)
+![Screen shot showing the Contacts page in Teams.](media/Calling_in_Teams.png)
 ## Prerequisites for enabling the **Calls** tab in Teams
-To enable the **Calls** tab in Teams users need to have 1:1 calling enabled in Teams and using a Teams client that supports 1:1 Teams calling. To learn how to manage 1:1 calling in Teams, read [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). To learn which clients support calling, please read [Limits and specifications for Microsoft Teams](./limits-specifications-teams.md).
+To enable the **Calls** tab in Teams users need to have 1:1 calling enabled in Teams and using a Teams client that supports 1:1 Teams calling. To learn how to manage 1:1 calling in Teams, read [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy). To learn which clients support calling, please read [Limits and specifications for Microsoft Teams](./limits-specifications-teams.md).
 
 > [!NOTE]
 > Currently, Voicemail will not be available in the Calls tab unless the user is enabled for PSTN calls. 

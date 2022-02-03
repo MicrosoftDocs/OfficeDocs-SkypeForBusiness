@@ -18,7 +18,7 @@ metadata:
   audience: admin
   f1.keywords:
   - NOCSH
-  localization_priority: Normal
+  ms.localizationpriority: medium
   ROBOTS: NOINDEX, NOFOLLOW
   ms.collection: 
     - Teams_ITAdmin_JourneyFromSfB

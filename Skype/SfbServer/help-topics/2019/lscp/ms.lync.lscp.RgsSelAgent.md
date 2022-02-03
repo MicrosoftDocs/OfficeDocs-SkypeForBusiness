@@ -1,8 +1,8 @@
 ---
 title: "Select Agents"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,7 +11,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 ROBOTS: NOINDEX, NOFOLLOW
 description: "Agents are users who are designated to answer Response Group calls. Response groups must have an assigned agent group that identifies the agents who can receive calls for the response group. One way to create an agent group is to define a custom group by selecting eligible users. Eligible users are enabled for Skype for Business Server and Enterprise Voice."

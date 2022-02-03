@@ -1,8 +1,8 @@
 ---
 title: "Disaster Recovery (Planning Tool)"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,7 +12,7 @@ ms.custom:
 - ms.lync.plan.DisasterRecovery
 - ms.lync.plan.DisasterRecovery
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
 ROBOTS: NOINDEX, NOFOLLOW
 description: "Skype for Business Server includes disaster recovery measures by enabling you to pair Front End pools located in two data centers."

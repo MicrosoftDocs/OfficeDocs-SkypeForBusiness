@@ -1,14 +1,14 @@
 ---
 title: Schedule service health reviews for your Microsoft Teams adoption
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to use service health reviews in your Teams adoption to share insights on usage, health, capability/project roadmap, and other updates.
 f1.keywords:

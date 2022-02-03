@@ -1,8 +1,8 @@
 ---
 title: "tblConfig"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7445e7db-c574-46fa-b964-8640d77047a8
 description: "tblConfig contains some Persistent Chat Server unsupported configuration, in one row."
 ---

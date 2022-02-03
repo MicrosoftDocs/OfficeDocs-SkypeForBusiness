@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: anwara
 audience: admin
 description: An overview of Microsoft Teams security and compliance features including privacy and encryption, auditing and reporting, and more.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -77,7 +77,6 @@ Secure Score helps organizations:
 - Improve their security posture by providing discoverability, visibility, guidance, and control.
 - Compare with benchmarks and establish key performance indicators (KPIs).
 
-
 ### How Conditional Access policies work for Teams
 
 Microsoft Teams relies heavily on Exchange Online, SharePoint, and Skype for Business Online for core productivity scenarios, like meetings, calendars, interop chats, and file sharing. Conditional access policies that are set for these cloud apps apply to Microsoft Teams when a user directly signs in to Microsoft Teams - on any client.
@@ -102,11 +101,7 @@ For further reading on this topic, go to [Information barriers in Microsoft Team
 
 Communication compliance in Microsoft 365 allows you to add users to in-scope policies that can be configured to examine Microsoft Teams communications for offensive language, sensitive information, and information related to internal and regulatory standards. Chat communications and associated attachments in both public and private Teams channels, individual chats, and attachments can be scanned to help minimize communication risks in your organization. For more information on how you can configure policies to help you detect, capture, and take action for inappropriate Teams communications, see [Communication compliance in Microsoft 365](/microsoft-365/compliance/communication-compliance).
 
-### Retention policies
-
-Retention policies in Microsoft Teams allows you to both retain data that's important for your organization to keep, for regulatory, legal, business, or other reasons, and also to remove content and communications that are not relevant to be retained. You can also use retention policies to keep data for a period of time and then delete it. For further information, review [Retention policies in Microsoft Teams](retention-policies.md).
-
-## Sensitivity labels
+### Sensitivity labels
 
 Apply [sensitivity labels](/microsoft-365/compliance/sensitivity-labels) to protect and regulate access to sensitive organizational content created during collaboration within teams. For example, apply labels that configure the privacy (public or private) of teams, control guest access and external sharing, and manage access from unmanaged devices. For further information, review [Sensitivity labels in Microsoft Teams](sensitivity-labels.md).
 
@@ -116,17 +111,34 @@ Data Loss Prevention (DLP) in Microsoft Teams, as well as the larger DLP story f
 
 For information on Data Loss Prevention in Teams, please review [DLP for Microsoft Teams](/microsoft-365/compliance/dlp-microsoft-teams). A good article for O365 DLP concerns is [Overview of data loss prevention](/microsoft-365/compliance/data-loss-prevention-policies).
 
+### Customer Key
+
+Microsoft 365 offers an additional layer of encryption on top of service encryption for your content. Using keys you provide, Customer Key encrypts several different types of data in Microsoft Teams. Using Customer Key at the application level, Customer Key encrypts Teams files stored in SharePoint Online. For information, see [Service encryption with Customer Key](/microsoft-365/compliance/customer-key-overview). 
+
+Using Customer Key at the tenant level, Customer Key encrypts:
+- Teams chat messages (1:1 chats, group chats, meeting chats, and channel conversations)
+- Teams media messages (images, code snippets, videos, and wiki images)
+- Teams call and meeting recordings stored in Teams storage
+- Teams chat notifications
+- Teams chat suggestions by Cortana
+- Teams status messages
+For more information, see [Overview of Customer Key for Microsoft 365 at the tenant level](/microsoft-365/compliance/customer-key-tenant-level) and read the Microsoft Teams blog that covers [Customer Key support for Microsoft Teams now in Public Preview](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893). For information about the Microsoft Information Protection release that included Customer Key at the tenant level, read [Announcing new Microsoft Information Protection capabilities to know and protect your sensitive data](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-new-microsoft-information-protection-capabilities-to/ba-p/1999692).
+
+### Retention policies
+
+Retention policies in Microsoft Teams allows you to both retain data that's important for your organization to keep, for regulatory, legal, business, or other reasons, and also to remove content and communications that are not relevant to be retained. You can also use retention policies to keep data for a period of time and then delete it. For further information, review [Retention policies in Microsoft Teams](retention-policies.md).
+
 ### eDiscovery
 
 Electronic discovery, or eDiscovery, is the electronic aspect of identifying, collecting and producing electronically stored information (ESI) in response to a request for production in a law suit or investigation. Capabilities include case management, preservation, search, analysis, and export of Teams data. This includes chat, messaging and files, meeting and call summaries. For Teams meetings and Calls, a summary of the events that happened in the meeting and call are created and made available in eDiscovery.
 
-For more details about how to do Microsoft 365 or Office 365 eDiscovery in the security center and compliance center and run compliance content search for Teams content, please go to the links below:
+For more details about how to use eDiscovery tools in the Microsoft 365 compliance center to search for Teams content, please go to the links below:
 
- - [eDiscovery](/microsoft-365/compliance/manage-legal-investigations)
+- [eDiscovery](/microsoft-365/compliance/manage-legal-investigations)
 
- - [Content Search](/microsoft-365/compliance/search-for-content)
+- [Content search](/microsoft-365/compliance/search-for-content)
 
-We have a Teams-specific article for more information, [eDiscovery of guest-to-guest chats](eDiscovery-investigation.md).
+We have a Teams-specific article for more information at [Conduct an eDiscovery investigation of content in Microsoft Teams](eDiscovery-investigation.md).
 
 Customers can leverage eDiscovery or [Advanced eDiscovery](/microsoft-365/compliance/office-365-advanced-ediscovery) per their requirements. The following table outlines the differences between the two:
 
@@ -152,7 +164,7 @@ In either case, once the hold is set it ensures that, even if end users delete o
 
 Please see [Overview of retention policies](/microsoft-365/compliance/retention-policies) to understand more about preservation and holds in the Microsoft 365 compliance center. For more Teams-specific information on legal hold, we also have [Place a Microsoft Teams user or team on legal hold](legal-hold.md) for you to learn more.
 
-### Compliance Content Search
+### Content search
 
 Content search can be used to search for all Teams data through rich filtering capabilities. The resulting data can be exported to a specific container for compliance and litigation support. This can be done with or without an eDiscovery case. This enables compliance admins to gather Teams data across all users, review and export it for further processing. Please refer to [Content Search](/microsoft-365/compliance/content-search) to learn more about how to conduct a compliance content search for Microsoft Teams and other Microsoft 365 or Office 365 content in the Microsoft 365 compliance center.
 
@@ -161,22 +173,9 @@ Content search can be used to search for all Teams data through rich filtering c
 
 If you'd like further Teams-specific information on configuring content search, review [Content search in Microsoft Teams](content-search.md).
 
-### Auditing and Reporting
+### Auditing
 
-Audit log search plugs right into the Microsoft 365 compliance center and gives you the ability to set alerts, as well as report on audit events, by allowing the export of workload specific or generic event sets for admin use and investigation across an unlimited auditing timeline. You can set up alerts for all audit Log data within the Microsoft 365 compliance center, and filter and export this data for further analysis. Please refer to [Search the audit log](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) to learn more about how to conduct an Audit log search for Microsoft 365 or Office 365. To learn more about searching for Microsoft Teams events in the Microsoft 365 compliance center, we also have [Turn on auditing in Teams](audit-log-events.md) for you to review.
-
-## Customer Key
-
-Microsoft 365 offers an additional layer of encryption on top of service encryption for your content. Using keys you provide, Customer Key encrypts several different types of data in Microsoft Teams. Using Customer Key at the application level, Customer Key encrypts Teams files stored in SharePoint Online. For information, see [Service encryption with Customer Key](/microsoft-365/compliance/customer-key-overview). 
-
-Using Customer Key at the tenant level, Customer Key encrypts:
-- Teams chat messages (1:1 chats, group chats, meeting chats, and channel conversations)
-- Teams media messages (images, code snippets, videos, and wiki images)
-- Teams call and meeting recordings stored in Teams storage
-- Teams chat notifications
-- Teams chat suggestions by Cortana
-- Teams status messages
-For more information, see [Overview of Customer Key for Microsoft 365 at the tenant level](/microsoft-365/compliance/customer-key-tenant-level) and read the Microsoft Teams blog that covers [Customer Key support for Microsoft Teams now in Public Preview](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893). For information about the Microsoft Information Protection release that included Customer Key at the tenant level, read [Announcing new Microsoft Information Protection capabilities to know and protect your sensitive data](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-new-microsoft-information-protection-capabilities-to/ba-p/1999692).
+Audit log search plugs right into the Microsoft 365 compliance center and gives you the ability to set alerts, as well as report on audit events, by allowing the export of workload specific or generic event sets for admin use and investigation across an unlimited auditing timeline. You can set up alerts for all audit Log data within the Microsoft 365 compliance center, and filter and export this data for further analysis. To learn more about searching for Microsoft Teams events in the Microsoft 365 compliance center, see [Search the audit log for events in Microsoft Teams](audit-log-events.md).
 
 ## Privacy
 
@@ -191,12 +190,12 @@ At Microsoft, protecting your data is our highest priority. To learn about our p
 The following figure indicates the ingestion flow of Teams data to both Exchange and SharePoint for Teams Files and Messages.
 
 > [!div class="mx-imgBorder"]
-> ![Diagram of the workflow of Teams data to Exchange and SharePoint](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
+> ![Diagram of the workflow of Teams data to Exchange and SharePoint.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
 
 The following figure indicates the ingestion flow of Teams Meetings and calling data to Exchange.
 
 > [!div class="mx-imgBorder"]
-> ![Diagram of the workflow of Teams Meetings and calling data to Exchange](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1a.png)
+> ![Diagram of the workflow of Teams Meetings and calling data to Exchange.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1a.png)
 
 > [!IMPORTANT]
 > There can be up to a 24-hour delay to discover Teams content.
@@ -208,7 +207,7 @@ When it comes to information protection capabilities, Microsoft 365 subscription
 For information on determining the licensing needs to implement features for security and compliance, please review the [licensing requirements](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) for security and compliance features.
 
 > [!NOTE]
-> Content Search and eDiscovery do not need to be enabled in the Security & Compliance Center to work.
+> Content search, Core eDiscovery, and Advanced eDiscovery don't need to be enabled in the Microsoft 365 compliance center to work. For more information, see [Microsoft 365 eDiscovery solutions](/microsoft-365/compliance/ediscovery).
 
 ## Location of data in Teams
 
@@ -217,7 +216,7 @@ Data in Teams resides in the geographic region associated with your Microsoft 36
 If you need to see which region houses data for your tenant, go to the [Microsoft 365 admin center](https://portal.office.com/adminportal/home) > **Settings** > **Organization profile**. Scroll down to **Data location**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Data location table including Teams in the admin center](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
+> ![Screenshot of Data location table including Teams in the admin center.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
 ## Compliance standards
 

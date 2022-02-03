@@ -1,8 +1,8 @@
 ---
 title: "Sample QoE database queries"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 04e6bdd3-bbd1-47ca-8114-94a3db6beeeb
 description: "This section contains sample queries for the Quality of Experience (QoE) database."
 ---

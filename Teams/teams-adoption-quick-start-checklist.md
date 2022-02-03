@@ -1,14 +1,14 @@
 ---
 title: Microsoft Teams adoption quick start checklist
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Use this quick-start checklist to ensure success as your organization starts to adopt Microsoft Teams. 
 f1.keywords:

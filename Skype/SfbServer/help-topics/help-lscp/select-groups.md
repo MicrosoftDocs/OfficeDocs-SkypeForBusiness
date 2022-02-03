@@ -1,8 +1,8 @@
 ---
 title: "Select Groups"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.RgsSelGroup
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 description: "Response Group queues hold calls to response groups until an agent answers the call. Queues have assigned agent groups. When you create or edit a queue, you use the Select Groups dialog box to select one or more agent groups to be assigned to the queue."
 ---

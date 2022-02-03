@@ -1,8 +1,8 @@
 ---
 title: "Session view"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
 description: "The Session View stores information about sessions that have records in the database. This view was introduced in Microsoft Lync Server 2013."
 ---

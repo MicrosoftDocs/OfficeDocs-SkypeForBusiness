@@ -1,8 +1,8 @@
 ---
 title: "Import Certificate (Summary)"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,7 +11,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 81072ae1-6a20-4695-aba7-c05b91f81799
 ROBOTS: NOINDEX, NOFOLLOW
 description: "On the Import Certificate Summary page, you are presented with a summary of the File Name, path, and presence of a private key. After you have reviewed the summary, click Next to continue."

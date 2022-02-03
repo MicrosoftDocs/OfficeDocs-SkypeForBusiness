@@ -1,8 +1,8 @@
 ---
 title: "SQL Server Reporting Services (Groups)"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeploySSRSGroups
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 412d46cf-7b60-4b7f-a2e6-73b447d909df
 description: "In the Specify Read-Only Group, specify the group to whom you want to grant read-only access to Monitoring reports."
 ---

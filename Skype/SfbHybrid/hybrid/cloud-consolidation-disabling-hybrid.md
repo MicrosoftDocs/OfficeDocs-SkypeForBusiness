@@ -19,7 +19,7 @@ f1.keywords:
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "This article includes detailed steps for disabling hybrid as part of cloud consolidation for Teams and Skype for Business."
 ---
 

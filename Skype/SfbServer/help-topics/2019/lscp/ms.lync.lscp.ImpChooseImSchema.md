@@ -1,8 +1,8 @@
 ---
 title: "Select Hyperlink Prefix"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,7 +11,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 ROBOTS: NOINDEX, NOFOLLOW
 description: "Use the Select Hyperlink Prefix dialog box to select the types of hyperlinks that you want to block, send a warning message, or allow by selecting (to block or send a warning message) or clearing (to allow) the check boxes for their extensions from the categories under Hyperlink prefixes. Click the arrow to expand a category and view all of the hyperlink prefixes for that category. If you want to select all of the hyperlink prefixes for a category, select the category name."

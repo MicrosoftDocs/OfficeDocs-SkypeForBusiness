@@ -1,7 +1,7 @@
 ---
 title: "Manage resource accounts in Teams"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, wasseemh
 ms.topic: article
@@ -14,7 +14,7 @@ ms.collection:
 audience: Admin
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 
@@ -35,6 +35,9 @@ Before you start the procedures in this article, ensure you've done the followin
 
 - [Obtain virtual user licenses](#obtain-virtual-user-licenses)
 - [Obtain service numbers](#obtain-service-numbers)
+
+> [!NOTE]
+> Resource accounts are disabled for sign in and must remain so. Chat and presence are not avaialble for these accounts.
 
 ### Obtain virtual user licenses
 
@@ -58,9 +61,9 @@ To port a number from another carrier, see [Transfer phone numbers to Teams](pho
 
 You can create a resource account in the Teams admin center.
 
-![Screenshot of add resource account user interface](media/resource-account-add.png)
+![Screenshot of add resource account user interface.](media/resource-account-add.png)
 
-1. In the Teams admin center, expand **Org-wide settings**, and then click **Resource accounts**.
+1. In the Teams admin center, expand **Voice**, and then click **Resource accounts**.
 
 2. Click **Add**.
 
@@ -68,13 +71,13 @@ You can create a resource account in the Teams admin center.
 
 4. Click **Save**.
 
-![Screenshot of a list of resource accounts](media/resource-accounts-page.png)
+![Screenshot of a list of resource accounts.](media/resource-accounts-page.png)
 
 ## Assign a license
 
 For each resource account, you must assign a *Microsoft 365 Phone System - Virtual User* license or *Phone System* license.
 
-![Screenshot of assign licenses user interface in the Microsoft 365 admin center](media/resource-account-assign-virtual-user-license.png)
+![Screenshot of assign licenses user interface in the Microsoft 365 admin center.](media/resource-account-assign-virtual-user-license.png)
 
 1. In the Microsoft 365 admin center, click the resource account to which you want to assign a license.
 
@@ -86,7 +89,7 @@ For each resource account, you must assign a *Microsoft 365 Phone System - Virtu
 
 If you're planning to use the resource account with an auto attendant or call queue that requires a service number, assign a number to the resource account.
 
-![Screenshot of the assign service number user interface](media/resource-account-assign-phone-number.png)
+![Screenshot of the assign service number user interface.](media/resource-account-assign-phone-number.png)
 
 1. In the Teams admin center, on the **Resource accounts** page, select the resource account to which you want to assign a service number, and then click **Assign/unassign**.
 
@@ -99,7 +102,7 @@ If you're planning to use the resource account with an auto attendant or call qu
 
 To assign a direct routing or hybrid number to a resource account you need to use PowerShell:
 
-`Set-CsOnlineApplicationInstance -Identity aa-contoso_main@contoso64.net -OnpremPhoneNumber +19295550150`
+`Set-CsPhoneNumberAssignment -Identity aa-contoso_main@contoso64.net -PhoneNumber +19295550150 -PhoneNumberType DirectRouting`
 
 ## Next steps
 
@@ -150,5 +153,5 @@ After you do that, you can delete the resource account in the Microsoft 365 admi
 To disassociate a direct routing telephone number from the resource account, use the following cmdlet:
 
 ```powershell
-Set-CsOnlineApplicationInstance -Identity  <Resource Account oid> -OnpremPhoneNumber ""
+Remove-CsPhoneNumberAssignment -Identity  <Resource Account oid> -PhoneNumber <assigned phone number> -PhoneNumberType DirectRouting
 ```

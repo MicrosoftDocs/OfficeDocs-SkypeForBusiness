@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer:
 description: Security advice and learnings for IT admins on using Sentinel to monitor and hunt threats that may arise in Teams.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH

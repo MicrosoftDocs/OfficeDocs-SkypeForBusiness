@@ -16,7 +16,7 @@ audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 
@@ -71,7 +71,7 @@ In the **Microsoft 365 admin center** > **Billing** > **Purchase Services** > **
   
 ## Communications Credits
 
-Each organization will have a different usage of Calling Plans volume and rates to consider. You will need to get this type of usage data from your current service provider. For organizations using Teams already as their service provider, you can get usage data by reviewing it in the Microsoft Teams admin center > **Analytics & reports** > **Usage reports**, and then select **PSTN usage**.
+Each organization will have a different usage of Calling Plans volume and rates to consider. You will need to get this type of usage data from your current service provider. For organizations using Teams already as their service provider, you can get usage data by reviewing it in the Microsoft Teams admin center > **Analytics & reports** > **Usage reports**, and then select **PSTN and SMS (preview)usage**.
   
 When you are setting up Communications Credits, you will need to investigate call usage for your organization to determine the amounts that you will need to put in. You can get call usage information by reviewing the PSTN usage report. This report lets you export the call data records to Excel and create custom reports.
 

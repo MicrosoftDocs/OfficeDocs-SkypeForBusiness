@@ -1,8 +1,8 @@
 ---
 title: "High Availability (Planning Tool)"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,7 +12,7 @@ ms.custom:
 - ms.lync.plan.HighAvailability
 - ms.lync.plan.HighAvailability
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 ROBOTS: NOINDEX, NOFOLLOW
 description: "The main high availability scheme for most server roles in Skype for Business Server is based on server redundancy via pooling. If a server running a certain server role fails, the other servers in the pool running the same role take the load of that server."

@@ -1,15 +1,15 @@
 ---
 title: "System usage reports in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 187d316d-2456-417e-b636-05527a18ef06
 description: "Summary: Learn about the System Usage Reports in Skype for Business Server."
 ---

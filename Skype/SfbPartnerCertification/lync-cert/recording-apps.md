@@ -1,6 +1,6 @@
 ---
-title: "Qualified Lync applications"
-ms.author: dmaguire
+title: "Qualified Lync recording applications"
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -12,16 +12,16 @@ audience: Admin
 appliesto:
 - Lync
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Lync Certification
 - dn788946
-description: "The Lync qualificaton program helps ensure that qualified applications meet customer expectations for specific scenarios"
+description: "The Lync qualification program helps ensure that qualified recording applications meet customer expectations for specific scenarios"
 ---
 
-# Recording applications
+# Qualified Microsoft Lync recording applications
 Recording applications allow for the recording, storage, and retrieval of communications for training review, quality analysis and to meet compliance requirements.
 
 ## Actiance Vantage
@@ -171,11 +171,3 @@ Features include:
 - Call Analytics
 - Call Trend Analytics
 - Quality Management
-* * *
-
-### Related resources
-[Microsoft Lync](https://lync.microsoft.com/en-us/Pages/unified-communications.aspx)
-
-Microsoft Premier Support for Lync Partners on:
-- [Microsoft Premier](https://www.microsoft.com/microsoftservices/en/us/lync_for_partners.aspx)
-- [Microsoft Partner Network](https://partner.microsoft.com/global/40168229)

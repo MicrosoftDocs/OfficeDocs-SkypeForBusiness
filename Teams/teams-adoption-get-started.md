@@ -1,14 +1,14 @@
 ---
 title: Get started driving adoption of Microsoft Teams
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: In this article, you will learn about the the startup, experiment, and enable phases of Microsoft Teams adoption.
 f1.keywords:
@@ -55,4 +55,4 @@ Every adoption project varies in size and complexity based on your environment, 
 Each of these adoption phases depends on your technical and environmental readiness for Teams. Let's get started!
 
 
-![An icon representing the next step](media/teams-adoption-next-icon.png) Next:        [Microsoft Teams adoption phase 1: Start](teams-adoption-phase1.md)|
+![An icon representing the next step.](media/teams-adoption-next-icon.png) Next:        [Microsoft Teams adoption phase 1: Start](teams-adoption-phase1.md)|

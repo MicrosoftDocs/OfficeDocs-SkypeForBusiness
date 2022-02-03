@@ -1,8 +1,8 @@
 ---
 title: "Voice Policy Create New or Edit Existing PSTN Usage Record"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,7 +11,7 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1f9b1f38-3255-43d0-8db6-e5790d4cfda9
 ROBOTS: NOINDEX, NOFOLLOW
 description: "UNRESOLVED_TOKEN_VAL(¤bigfin_UI_help_intro)"

@@ -5,15 +5,15 @@ ms:assetid: 4d6eaa5d-0127-453f-be6a-e55384772d83
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204872(v=OCS.15)
 ms:contentKeyID: 48184074
 mtps_version: v=OCS.15
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "This article describes how to configure port ranges and a Quality of Service policy for your Conferencing, Application, and Mediation servers."
 ---
 
@@ -29,11 +29,11 @@ Similarly, suppose you reserve ports 10000 through 10999 for video, but then res
 
 By default, audio and video port ranges do not overlap in Skype for Business Server; however, the port ranges assigned to application sharing overlap with both the audio and video port ranges. (Which, in turn, means that none of these ranges are unique.) You can verify the existing port ranges for your Conferencing, Application, and Mediation servers by running the following three commands from within the Skype for Business Server Management Shell:
 
-    Get-CsService -ConferencingServer | Select-Object Identity, AudioPortStart, AudioPortCount, VideoPortStart, VideoPortCount, AppSharingPortStart, AppSharingPortCount
+  Get-CsService -ConferencingServer | Select-Object Identity, AudioPortStart, AudioPortCount, VideoPortStart, VideoPortCount, AppSharingPortStart, AppSharingPortCount
     
-    Get-CsService -ApplicationServer | Select-Object Identity, AudioPortStart, AudioPortCount
+  Get-CsService -ApplicationServer | Select-Object Identity, AudioPortStart, AudioPortCount
     
-    Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPortCount
+  Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPortCount
 
 > [!WARNING]  
 > As you can see in the preceding commands, each port type – audio, video, and application sharing – is assigned two separate property values: the port start and the port count. The port start indicates the first port used for that modality; for example, if the audio port start is equal to 50000 that means that the first port used for audio traffic is port 50000. If the audio port count is 2 (which is not a valid value, but is used here for illustration purposes), that means that only two ports are allocated for audio. If the first port is port 50000 and there are a total of two ports, that means the second port must be port 50001 (port ranges have to be contiguous). As a result, the port range for audio would be ports 50000 through 50001, inclusive.<BR><br>Note, too that Application server and Mediation server only support QoS for audio; you do not need to change video or application sharing ports in your Application servers or Mediation servers.
@@ -42,10 +42,6 @@ If you run the preceding three commands, you'll see that that the default port v
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -101,11 +97,11 @@ After you have selected the new port range for application sharing, you can make
 
 To modify the port values for application sharing on a single Conferencing server, run a command similar to this from within the Skype for Business Server Management Shell:
 
-    Set-CsConferenceServer -Identity ConferencingServer:atl-cs-001.litwareinc.com -AppSharingPortStart 40803 -AppSharingPortCount 8348
+  **Set-CsConferenceServer -Identity ConferencingServer:atl-cs-001.litwareinc.com -AppSharingPortStart 40803 -AppSharingPortCount 8348**
 
 If you want to make these changes on all your Conferencing servers, you can run this command instead:
 
-    Get-CsService -ConferencingServer | ForEach-Object {Set-CsConferenceServer -Identity $_.Identity -AppSharingPortStart 40803 -AppSharingPortCount 8348}
+  **Get-CsService -ConferencingServer | ForEach-Object {Set-CsConferenceServer -Identity $_.Identity -AppSharingPortStart 40803 -AppSharingPortCount 8348}**
 
 After changing port settings, you should stop and then restart each service affected by the changes.
 
@@ -162,7 +158,7 @@ If you decide to create a policy for managing application sharing traffic, you m
 
 The new policies you have created will not take effect until Group Policy has been refreshed on your Skype for Business Server computers. Although Group Policy periodically refreshes on its own, you can force an immediate refresh by running the following command on each computer where Group Policy needs to be refreshed:
 
-    Gpupdate.exe /force
+  **Gpupdate.exe /force**
 
 This command can be run from within the Skype for Business Server Management Shell or from any command window that is running under administrator credentials. To run a command window under administrator credentials, click **Start**, right-click **Command Prompt**, and then click **Run as administrator**.
 

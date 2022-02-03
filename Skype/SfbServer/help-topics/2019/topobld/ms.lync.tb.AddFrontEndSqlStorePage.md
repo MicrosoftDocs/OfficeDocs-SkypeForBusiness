@@ -1,8 +1,8 @@
 ---
 title: "Add Front End SQL Server Store"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,7 +11,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddFrontEndSqlStorePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dace9561-3eb4-4647-83cb-56c246919ae1
 ROBOTS: NOINDEX, NOFOLLOW
 description: "A Standard Edition server deployment automatically installs the required Microsoft SQL Server Express database software and SQL Server database. Therefore, all options are prepopulated, and you can't make changes to the default configuration."

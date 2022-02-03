@@ -1,15 +1,15 @@
 ---
 title: "Create an archiving configuration in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
 description: "Summary: Learn how to create an archiving configuration for Skype for Business Server."
 ---

@@ -1,8 +1,8 @@
 ---
 title: "External Application Scope Node"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.ExternalApplicationScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
 description: "This node shows the pool fully qualified domain name (FQDN), replication setting, and next hop pool for this trusted application pool. You can perform the following actions:"
 ---

@@ -1,8 +1,8 @@
 ---
 title: "Conferences view"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c0e5c4db-c135-401f-9296-e9a49f6499a1
 description: "The Conferences View stores information about the conferences. This view was introduced in Microsoft Lync Server 2013."
 ---

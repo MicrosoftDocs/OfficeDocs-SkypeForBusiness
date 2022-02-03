@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 description: Learn about planning for Microsoft 365 Groups in Teams, including the differences between Groups & Teams conversations, and how Teams respects Groups naming policy.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -22,8 +22,7 @@ ms.custom:
   - seo-marvel-mar2020
 ---
 
-Plan for Microsoft 365 Groups when creating teams in Microsoft Teams
-==========================================================
+# Plan for Microsoft 365 Groups when creating teams in Microsoft Teams
 
 When considering the use of Microsoft 365 Groups or when creating teams, consider what the team will be used for, who should have access, and what outcome the team will expect to achieve. Pay special attention to the number of channels you create as people can quickly become overrun by content spread too thin (across too many channels).
 

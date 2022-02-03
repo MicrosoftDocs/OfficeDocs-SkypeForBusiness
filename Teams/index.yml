@@ -14,8 +14,10 @@ metadata:
   author: samanro #Required; your GitHub user alias, with correct capitalization.
   ms.author: samanro #Required; microsoft alias of author; optional team alias.
   ms.date: 02/12/2020 #Required; mm/dd/yyyy format.
-  localization_priority: Priority
-  ms.custom: seo-marvel-apr2020
+  ms.localizationpriority: high
+  ms.custom: 
+  - seo-marvel-apr2020
+  - intro-hub-or-landing
 
 # highlightedContent section (optional)
 # Maximum of 8 items
@@ -174,7 +176,7 @@ additionalContent:
             - text: Healthcare
               url: ./expand-teams-across-your-org/healthcare/teams-in-hc.md
             - text: Frontline workers
-              url: ./flw-quickstart.yml
+              url: ./flw-landing-page.md
             - text: Retail
               url: ./expand-teams-across-your-org/teams-for-retail-landing-page.md
         # Card

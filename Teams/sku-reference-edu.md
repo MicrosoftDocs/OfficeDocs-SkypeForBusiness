@@ -1,7 +1,7 @@
 ---
 title: Education SKU reference
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: karsmith
 ms.topic: article
@@ -12,7 +12,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Lists Education Faculty and Student licensing plans and SKU IDs. 
 f1keywords: 

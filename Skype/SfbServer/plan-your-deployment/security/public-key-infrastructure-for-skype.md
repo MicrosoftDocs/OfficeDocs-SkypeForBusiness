@@ -1,15 +1,15 @@
 ---
 title: "Public Key Infrastructure for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 737c8a25-23e9-4494-ab76-5a7b729b44ca
 description: "Skype for Business Server relies on certificates for server authentication and to establish a chain of trust between clients and servers and among the different server roles. The Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, and Windows Server 2008 Public Key Infrastructure (PKI) provides the infrastructure for establishing and validating this chain of trust."
@@ -26,7 +26,7 @@ Even if the information on the certificate is valid, there must be some way to v
 Each certificate is linked to a public key. The server named on the certificate holds a corresponding private key that only it knows. A connecting client or server uses the public key to encrypt a random piece of information and sends it to the server. If the server decrypts the information and returns it as plain text, the connecting entity can be sure that the server holds the private key to the certificate and therefore is the server named on the certificate.
   
 > [!NOTE]
-> Not all public CAs comply with the requirements of Skype for Business Server certificates. We recommend that you refer to the listing of certified Public CA vendors for your public certificate needs. For details, see [Unified Communications Certificate Partners](https://go.microsoft.com/fwlink/p/?LinkId=140898). 
+> Not all public CAs comply with the requirements of Skype for Business Server certificates. We recommend that you refer to the listing of certified Public CA vendors for your public certificate needs. 
   
 ## CRL Distribution Points
 

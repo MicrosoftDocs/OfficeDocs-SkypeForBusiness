@@ -1,8 +1,8 @@
 ---
 title: "Certificate Request (SIP Domains)"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertRequestSipDomains
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1af294a0-5aa1-40a4-b460-231dd4b2f3dc
 description: "On the SIP Domain setting on Subject Alternate Names (SANs) page, you should select the check box for your primary Session Initiation Protocol (SIP) domain and any other SIP domains if your infrastructure and deployment meets the criteria listed."
 ---

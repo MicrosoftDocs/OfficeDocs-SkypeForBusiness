@@ -1,7 +1,7 @@
 ---
 title: Teams apps behavior for non-standard users 
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 ms.reviewer: joglocke
 manager: serdars
 ms.topic: article
@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Learn how apps in Microsoft Teams behave for non-standard users.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection: 

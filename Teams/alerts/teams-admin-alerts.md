@@ -1,14 +1,14 @@
 ---
 title: Microsoft Teams Monitoring and Alerting 
 author: vaibhav
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: vapati
 f1.keywords:
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 ms.collection: 
   - M365-collaboration

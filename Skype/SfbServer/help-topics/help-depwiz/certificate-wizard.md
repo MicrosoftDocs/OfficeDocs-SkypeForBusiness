@@ -1,8 +1,8 @@
 ---
 title: "Certificate Wizard"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertsMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
 description: "To Request, Assign, Remove, or View certificates, you use the Certificate Wizard. You must be logged in as a member of the RTCUniversalServerAdmins group. To request a certificate from a public certification authority (CA), you do not need any additional group memberships. To request a certificate from your organization's public key infrastructure (PKI), you need to confirm what additional—if any—group memberships you will need. During the Request task, you can enter alternate credentials that will be used to request the certificate from your PKI's issuing CA."
 ---

@@ -1,8 +1,8 @@
 ---
 title: "Persistent Chat Server table details"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c22d4a76-da50-49de-9038-e0ed7b8e1b58
 description: "The following topics detail the columns in each of the Persistent Chat database schema tables."
 ---

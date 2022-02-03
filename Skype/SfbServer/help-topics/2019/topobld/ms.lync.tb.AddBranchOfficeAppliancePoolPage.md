@@ -1,8 +1,8 @@
 ---
 title: "Add Survivable Branch Appliance Pool"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,7 +11,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddBranchOfficeAppliancePoolPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 56915c5d-9991-4d16-949d-a75883767d44
 ROBOTS: NOINDEX, NOFOLLOW
 description: "To Define the Survivable Branch Appliance FQDN, type the fully qualified domain name (FQDN) (as defined in Domain Name System (DNS)) of the Survivable Branch Appliance or Survivable Branch Server in the FQDN text box. Click Next to continue."

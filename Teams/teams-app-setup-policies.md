@@ -1,7 +1,7 @@
 ---
 title: Manage app setup policies in Microsoft Teams
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: rarang
 ms.topic: article
@@ -12,7 +12,7 @@ ms.collection:
   - M365-collaboration
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to use and manage app setup policies in Microsoft Teams for users in your organization.
 f1.keywords:
@@ -42,7 +42,7 @@ Apps are pinned to the app bar, which is the bar on the side of the Teams deskto
 
 |Teams desktop client  |Teams mobile client |
 |---------|---------|
-|![The Teams desktop client](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![The Teams mobile client](media/mobile-app-ui.png)      |
+|![The Teams desktop client.](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![The Teams mobile client](media/mobile-app-ui.png)      |
 
 > [!NOTE]
 > If you have Teams for Education, it's important to know that the Assignments app is pinned by default in the global policy even though currently, you don't see it listed in the global policy. It will be the fourth app in the list of pinned apps on Teams clients.
@@ -55,10 +55,10 @@ To create an app setup policy to pin apps, do the following steps:
 
 3. Enter a name and description for the policy.
 
-4. Turn on or turn off **Allow user pinning**, depending on whether you want to let users personalize their app bar by pinning apps to it.
+4. Turn on or turn off **User pinning**, depending on whether you want to let users personalize their app bar by pinning apps to it.
 
    > [!NOTE]
-   > The **Allow user pinning** setting is available in the Teams admin center in Microsoft 365 Government Community Cloud (GCC) environments (GCC, GCC High and DoD), but currently it has no effect.
+   > The **User pinning** setting is available in the Teams admin center in Microsoft 365 Government Community Cloud (GCC) environments (GCC, GCC High and DoD), but currently it has no effect.
 
 5. Under **Pinned apps**, select **Add apps**.
 
@@ -68,7 +68,7 @@ To create an app setup policy to pin apps, do the following steps:
 
 8. Arrange the apps in the order that you want them to appear in Teams.
 
-   ![the Pinned apps section](media/app-setup-policies-new-policy-setup.png)
+   ![the Pinned apps section.](media/app-setup-policies-new-policy-setup.png)
 
 9. Select **Save**.
 
@@ -127,7 +127,7 @@ You manage app setup policies in the Microsoft Teams admin center. Use the globa
 
 You edit the settings in the global policy to include the apps that you want. To customize Teams for different groups of users in your organization, create and assign one or more custom policies.
 
-![the App setup policies page](media/app-setup-policies.png)
+![the App setup policies page.](media/app-setup-policies.png)
 
 ### Edit an app setup policy
 
@@ -188,7 +188,7 @@ To view all apps that are pinned for a user, users might have to do the followin
 |Teams desktop client |Teams mobile client |
 |---------|---------|
 |In the app bar on the side of Teams, select **... More apps**.| In the app bar near the bottom of Teams, swipe up.|
-|![More apps in the Teams desktop client](media/app-setup-policies-desktop-more-apps.png)<br>   |![more apps in the Teams mobile client](media/app-setup-policies-mobile-more-apps.png)  
+|![More apps in the Teams desktop client.](media/app-setup-policies-desktop-more-apps.png)<br>   |![more apps in the Teams mobile client](media/app-setup-policies-mobile-more-apps.png)  
 
 #### What do I need to know about the Teams mobile experience
 
@@ -200,11 +200,11 @@ With the Teams mobile clients, users will see core Teams apps such as Activity, 
 
 #### Can users change the order of apps pinned through a policy
 
-Users can change the order of their pinned apps on Teams desktop and mobile clients if the **Allow user pinning** option is turned on. Users can't change the order of their pinned apps on Teams web clients.
+Users can change the order of their pinned apps on Teams desktop and mobile clients if the **User pinning** option is turned on. Users can't change the order of their pinned apps on Teams web clients.
 
 #### Does user pinning take precedence
 
-Admin pins always take precedence. If the **Allow user pinning** option is turned on, then users will retain their pinned apps below admin pinned apps. If the **Allow user pinning** option is turned off, then users will lose their pre-existing pins, and only admin-pinned apps will be present in the app bar.
+Admin pins always take precedence. If the **User pinning** option is turned on, then users will retain their pinned apps below admin pinned apps. If the **User pinning** option is turned off, then users will lose their pre-existing pins, and only admin-pinned apps will be present in the app bar.
 
 ### Custom Teams apps
 
@@ -212,7 +212,7 @@ Admin pins always take precedence. If the **Allow user pinning** option is turne
 
 Make sure that you follow the logo guidelines before you submit the app. To learn more, see [Checklist for Seller Dashboard submission](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview).
 
-## Related topics
+## Related articles
 
 [Admin settings for apps in Teams](admin-settings.md)
 

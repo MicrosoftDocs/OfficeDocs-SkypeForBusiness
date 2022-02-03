@@ -1,7 +1,7 @@
 ---
 title: Microsoft StaffHub has been retired
-author: cichur
-ms.author: v-cichur
+author: HowlinWolf-92
+ms.author: v-mahoffman
 ms.reviewer: lisawu, gumariam
 manager: serdars
 audience: admin
@@ -11,7 +11,7 @@ search.appverid: MET150
 description: Find answers to FAQs about the retirement of Microsoft StaffHub and the transition to the Shifts app in Microsoft Teams.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_FLW
@@ -139,7 +139,7 @@ To learn more, see [How SharePoint Online and OneDrive for Business interact wit
  
 #### Is there integration between Shifts and the Outlook calendar? Can I export a schedule to a calendar?
  
-Frontline Workers can see their entire work schedule at a glance in Shifts. We'll be supporting native integration with Outlook calendar as part of our roadmap. In the meantime, use Microsoft Flow to set up integration with Shifts in Teams and Outlook and Google calendars.
+Frontline Workers can see their entire work schedule at a glance in Shifts. We'll be supporting native integration with Outlook calendar as part of our roadmap. In the meantime, use Power Automate to set up integration with Shifts in Teams and Outlook and Google calendars.
  
 #### What admin controls are available to manage whether users in my organization can use Shifts?  
   

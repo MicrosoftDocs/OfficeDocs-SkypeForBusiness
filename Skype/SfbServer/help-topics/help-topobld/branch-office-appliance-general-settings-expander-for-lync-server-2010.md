@@ -1,8 +1,8 @@
 ---
 title: "Branch Office Appliance General Settings Expander for Lync Server 2010"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -12,7 +12,7 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.BranchOfficeApplianceGeneralSettingsExpander2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4a41754a-4653-4845-afb6-4a74b2edfeb4
 description: "To edit properties for Survivable Branch Appliance or Survivable Branch Server , under General, you configure:"
 ---

@@ -23,9 +23,6 @@ Teams PowerShell Module provides a complete set of cmdlets for managing Teams di
 >
 > Teams PowerShell Module uses modern authentication, but the underlying Windows Remote Management (WinRM) client must be configured to allow Basic authentication. See [Download and install Windows PowerShell](/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1) for instructions on how to enable WinRM for Basic authentication.
 
-> [!WARNING]
-> Skype for Business Online Connector connections will be rejected starting May 17, 2021. Please contact Microsoft Support for help and support for migrating to Teams PowerShell Module.
-
 ## How to Migrate
 
 Migrating from using Skype for Business Online Connector to Teams PowerShell module is easy and simple. The below steps explains how to do this.
@@ -70,20 +67,6 @@ Migrating from using Skype for Business Online Connector to Teams PowerShell mod
          # Disconnecting and closing the Session  
          Disconnect-MicrosoftTeams
     ```
-
-## Online Support
-
-Save time by starting your service request online. We'll help you find a solution or connect you to technical support.
-
-1.	Go to the admin center at [https://admin.microsoft.com](https://admin.microsoft.com). If you get a message that says you don't have permission to access this page or perform this action, then you aren't an admin. Who has admin permissions in my business?
-
-2.	Select the **Need help**? button.
-
-3.	In the **Need help**? pane, tell us what you need help with, and then press Enter.
-
-4.	If the results don't help, select **Contact support**.
-
-5.	Enter a description of your issue, confirm your contact number and email address, select your preferred contact method, and then select **Contact me**. The expected wait time is indicated in the Need help? pane.
 
 ## Related topics
 

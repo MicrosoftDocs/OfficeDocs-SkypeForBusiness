@@ -1,8 +1,8 @@
 ---
 title: "Plan to upgrade to Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: v-mahoffman
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 - IT_Skype16
 - Strat_SB_Admin
@@ -98,7 +98,7 @@ Use this method if you don't want to move users between user pools. During the u
   
 The following diagram shows an overview of this process.
   
-![Lync 2013 To Skype Users Offline](../media/e5511897-77bc-46aa-96be-85b126d7da79.png)
+![Lync 2013 To Skype Users Offline.](../media/e5511897-77bc-46aa-96be-85b126d7da79.png)
   
 > [!NOTE]
 > If you have paired pools, do not unpair them before the upgrade. 

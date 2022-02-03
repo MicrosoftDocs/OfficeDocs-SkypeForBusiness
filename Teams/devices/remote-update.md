@@ -11,7 +11,7 @@ ms.collection:
   - M365-collaboration
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Update Microsoft Teams phones, Teams panels, and collaboration bars remotely using the Teams admin center"
 ---
 
@@ -44,7 +44,7 @@ Device firmware updates are applied automatically. You can decide whether to app
 To choose the automatic update behavior for your devices, do the following:
 
 1. Sign in to Microsoft Teams admin center by visiting https://admin.teams.microsoft.com.
-2. Navigate **Devices** > **IP phones** or **Collaboration bars** or **Teams panels**.
+2. Navigate **Teams Devices** > **IP phones** or **Collaboration bars** or **Teams panels**.
 3. Select one or more devices and then select **Update**.
 4. Under **Firmware auto-update**, select one of the following:
     - **As soon as available** Second-newest device firmware update is applied on the first weekend after the latest update is released.
@@ -61,13 +61,13 @@ When you update one or more devices using the admin center, you can decide wheth
 To manually update remote devices, do the following:
 
 1. Sign in to Microsoft Teams admin center by visiting https://admin.teams.microsoft.com.
-2. Navigate  **Devices** > **IP phones** or **Collaboration bars** or **Teams panels**.
+2. Navigate  **Teams Devices** > **IP phones** or **Collaboration bars** or **Teams panels**.
 3. Select one or more devices and then select **Update**.
 4. Under **Manual updates**, select **Schedule** if you want to schedule the update for a future date and time. The updates are applied at the date and time in the timezone selected in **Timezone**.
 
 What you'll see depends on whether you have one, or multiple, devices selected. The left image below shows multiple devices selected while the image on the right shows a single device selected.
 
-:::image type="content" source="../media/device-update-status.png" alt-text="Single and multiple device views in device update status pane":::
+:::image type="content" source="../media/device-update-status.png" alt-text="Single and multiple device views in device update status pane.":::
 
 When you select multiple devices, you can choose which update types to apply to each selected device. Select the update types you want to apply and select **Update**.
 
