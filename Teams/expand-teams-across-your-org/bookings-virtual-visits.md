@@ -10,11 +10,13 @@ search.appverid:
 searchScope:
   - Microsoft Teams
   - Microsoft Cloud for Healthcare
+  - Microsoft Cloud for Retail
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
   - microsoftcloud-healthcare
+  - microsoftcloud-retail
   - m365solution-healthcare
   - m365solution-scenario
 ms.reviewer: 
@@ -25,11 +27,11 @@ description: Learn how to use the Bookings app in Teams to schedule, manage, and
 
 ## Overview
 
-The [Bookings app](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) in Microsoft Teams gives organizations a simple way to schedule and manage virtual appointments for staff and attendees. Use it to schedule virtual appointments such as healthcare visits, financial consultations, interviews, customer support, virtual shopping experiences, education office hours, and more.
+The [Bookings app](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) in Microsoft Teams gives organizations a simple way to schedule and manage virtual appointments for staff and attendees. Use it to schedule virtual appointments such as healthcare visits, financial consultations, interviews, customer support, virtual fittings and consultations, education office hours, and more.
 
 The Bookings app makes it easy to manage complex scheduling demands of any organization. Schedulers can manage multiple department and staff calendars, as well as communications with internal and external attendees, from a single experience.
 
-The virtual visits are held through Microsoft Teams meetings, which offers robust video conferencing capabilities. For example, a doctor can share their screen and review test results with a patient. Or, a banking advisor can request electronic signatures on documents, allowing them to close transactions remotely.
+The virtual visits are held through Microsoft Teams meetings, which offer robust video conferencing capabilities. For example, a doctor can share their screen and review test results with a patient. Or, a banking advisor can request electronic signatures on documents, allowing them to close transactions remotely.
 
 Each virtual appointment includes a Teams meeting link that’s sent to attendees in email where they can easily join from a web browser or in Teams on any device. Automated email reminders help reduce no-shows and enhance customer and client engagement.
 
@@ -39,7 +41,7 @@ With Bookings, you get an experience that's tailored to your industry. Here's a 
 |---------|---------|
 |Financial services    |  Virtual visits for remote sales and service<br/>Schedule and manage virtual appointments for bank relationship managers, financial advisors, and claims adjusters, just to name a few, to serve your customers with increased efficiency and convenience.  |
 |Healthcare   |  Virtual visits for patient care <br/>Schedule and manage virtual visits for your care team members to meet with patients or other healthcare providers to discuss medical care.   |
-|Retail   | Virtual shopping experiences <br/>Schedule and manage appointments for your sales associates, product experts, and design consultants to conduct virtual shopping experiences with customers.   |
+|Retail   | Virtual fittings and consultations <br/>Schedule and manage appointments for your sales associates, product experts, and design consultants to conduct virtual fittings and consultations with customers.   |
 
 This article gives you an overview of how to use the Bookings app in Teams to schedule, manage, and conduct virtual visits.
 
@@ -65,7 +67,7 @@ To learn more, see [Create a Bookings calendar](https://support.microsoft.com//o
 
 ### Add staff
 
-In the booking calendar, go to **More options** (...) > **Settings**, and then select **Staff**. Add staff members and assign a role to each person you add.
+In the booking calendar, go to **More options** (...) > **Settings**, and then select **Staff**. Add staff members and assign a role to each person you add. You can add up to 100 staff members to a booking calendar.
 
 The Bookings app integrates with Outlook. After you add staff, you’ll be able to view that person’s calendar availability and schedule bookings for them. To learn more, see [Add staff and view a Bookings calendar](https://support.microsoft.com/office/add-staff-and-view-a-bookings-calendar-6c579f61-8adb-4514-9458-021de2023fa0).  
 
@@ -89,6 +91,19 @@ The email confirmation sent to the attendee includes the meeting link and an att
 
 In your Teams or Outlook calendar, go to the booking, and then select **Join** or the Teams meeting link. Check your audio and video settings, and then select **Join now**. To learn more, see [Conduct a Bookings appointment](https://support.microsoft.com/office/conduct-a-bookings-appointment-a86a4007-e26c-4909-9893-f7036e2747cd).
 
+## Monitor virtual visits and get real-time status updates
+
+The [queue view](https://support.microsoft.com/office/queue-view-in-bookings-3eea2840-a1e0-4bcd-8e09-d3cf51c184d6) in Bookings provides your staff with a dashboard to monitor all virtual appointments for the day, with updates in real time. To see the queue, go to the **Queue** tab in Bookings.
+
+:::image type="content" source="../media/bookings-virtual-visits-queue.png" alt-text="Screenshot of the queue view in the Bookings app in Teams" lightbox="../media/bookings-virtual-visits-queue.png":::
+
+From the queue, schedulers can add a new booking, view relevant appointment details, and see appointment statuses throughout the day. When a patient joins the waiting room, the status changes, and their wait time is displayed and tracked. The view automatically refreshes with color-coded updates so that changes can easily be identified.
+
+Staff can even join and manage appointments directly from the queue.
+
+> [!NOTE]
+> Currently, the Bookings app supports adding up to 100 staff per booking calendar. If you used Graph APIs to set up and add staff to a booking calendar, this limit may not be enforced. In this scenario, the **Queue** tab won't be able to render content for calendars that have more than 100 staff. For an optimal experience, we recommend that you add no more than 100 staff to a booking calendar. We're working to resolve this limitation in future releases.
+
 ## Additional capabilities with the Bookings web app
 
 The Bookings web app gives you additional capabilities. For example, you can publish a self-serve online booking page where people can schedule appointments with your staff. To access the Bookings web app, go to **More options** (...) > **Open Bookings web app**.
@@ -97,8 +112,8 @@ To learn more, see [Microsoft Bookings](/microsoft-365/bookings/bookings-overvie
 
 ## Related articles
 
-[Manage the join experience for Teams virtual visits on mobile browsers](mobile-browser-join.md)
+- [Manage the join experience for Teams virtual visits on mobile browsers](mobile-browser-join.md)
 
-[Get started with Teams for healthcare organizations](healthcare/teams-in-hc.md)
+- [Get started with Teams for healthcare organizations](healthcare/teams-in-hc.md)
 
-[Bookings app in Teams help documentation](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Bookings)
+- [Bookings app in Teams help documentation](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Bookings)
