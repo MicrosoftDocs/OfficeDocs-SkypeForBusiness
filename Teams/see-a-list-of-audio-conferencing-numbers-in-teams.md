@@ -1,7 +1,7 @@
 ---
 title: See a list of Audio Conferencing numbers
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -39,9 +39,9 @@ You can see [Set the phone numbers included on invites](set-the-phone-numbers-in
 
 ## To view your audio conferencing phone numbers
 
- **Using the Microsoft Teams admin center**
+Using the Microsoft Teams admin center:
 
-1. In the left navigation, go to **Meetings** > **Conference bridges**. 
+1. In the left navigation, go to **Meetings** > **Conference bridges**.
 2. View the phone numbers that are available for audio conferencing.
 
 - You can also view the location and primary language that will be used by the audio conferencing auto attendant.
@@ -49,11 +49,11 @@ You can see [Set the phone numbers included on invites](set-the-phone-numbers-in
 ## Want to know more about Windows PowerShell?
 
 Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Microsoft 365 or Office 365 by using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
-    
-  - [Why you need to use Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
-    
-  - [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](/previous-versions//dn568025(v=technet.10))
-    
+
+- [Why you need to use Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+
+- [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+
 For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=teams-ps) for more information.
   
 ## Related topics

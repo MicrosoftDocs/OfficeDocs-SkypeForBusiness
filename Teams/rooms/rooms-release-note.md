@@ -20,10 +20,22 @@ ms.custom: seo-marvel-apr2020
 
 This article discusses cumulative improvements in Microsoft Teams Rooms.
 
+There are two types of updates for Teams Rooms: Teams Rooms app updates and Teams Web-client. 
+
+Teams Rooms app updates happen either via the Microsoft Store or via [manual update](manual-update.md). This updates the Universal Windows Platform (UWP) application that is installed locally on the device.
+
+Teams Web-client updates happen via the Teams web app delivery services. This is a cloud-based service that does not require an update to the local UWP application installed on the device.
+
+For more information on how Teams updates, see [Teams update process](../teams-client-update.md)
+
+Teams Rooms is governed by the Modern Lifecycle Policy. See [Teams update process](../teams-client-update.md#servicing-agreement) for more information.
+
 ## Version history
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|4.11.12.0 |1/24/2022 |
+|Teams Web-Client release | December 2021 |
 |Teams Web-Client release | October 2021 |
 |4.10.10.0 |10/1/2021 |
 |4.9.12.0 |07/28/2021 |
@@ -71,6 +83,34 @@ This article discusses cumulative improvements in Microsoft Teams Rooms.
 |RTM (1.0.8) |12/7/2016 |
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
+
+### 4.11.12.0 (1/24/2022)
+
+Introduced in this update:
+- Front Row layout (Preview) for MTR on Windows<sup>1</sup> 
+- Admin setting to set Front row layout as default  
+- Meet Now and call app update for Teams only, Teams default client modes<sup>1,2</sup>
+- Switch between multiple video cameras in Teams meetings<sup>1</sup> 
+- Default video camera setting 
+- Cortana push-to-talk icon update on MTR console 
+- Azure AD Premium 1 license inclusion in Room Standard and Premium SKUs 
+- AAD conditional access policies support<sup>3</sup> 
+- Cortana voice activation enabled by default in OOBE
+- Remote PTZ controls support<sup>4</sup>
+
+> <sup>1</sup> These features are rolling out using Teams web client and will complete rollout in next couple of weeks. Read more about [Teams updates](../teams-client-update.md) for details.
+> 
+> <sup>2</sup> Teams rooms on Windows running in Microsoft Teams only or Skype for Business and Microsoft Teams (default) are updated with new Meet and Call experiences, however other modes are not impacted by this update.
+> 
+> <sup>3</sup> See addition details on setting up  [AAD conditional access](../rooms/rooms-authentication.md#azure-ad-conditional-access) policies for Teams Rooms.
+> 
+> <sup>4</sup> This feature requires that IT admins configure Teams desktop client Remote PTZ controls app.
+> 
+
+### Teams Rooms Web client update (December 2021)
+
+Introduced in this update:
+- Split video layout across dual Front of Room displays when content isn't being shared
 
 ### Teams Rooms Web client update (October 2021)
 

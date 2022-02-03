@@ -53,18 +53,18 @@ If you have any questions about the SBC certification program for Direct Routing
 |                                                       Vendor                                                        |       Product       | Non-media bypass | Media bypass | Software version | 911 Service Provider Capable* | ELIN capable |  
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|  
 | [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  Supported 7.20A.258 (Recommended 7.40A.100)   | &#10004;   |  &#10004;  |  
-|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  Supported 7.20A.258 (Recommended 7.40A.100)   | &#10004;   |  &#10004;  |  
-|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  Supported 7.20A.258 (Recommended 7.40A.100)   |   &#10004;   |  &#10004;  |
-|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  Supported 7.20A.258 (Recommended 7.40A.100)   |  &#10004;   |  &#10004;  |
+|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  Supported 7.20A.258 (Recommended 7.40A.250)   | &#10004;   |  &#10004;  |  
+|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  Supported 7.20A.258 (Recommended 7.40A.250)   |   &#10004;   |  &#10004;  |
+|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  Supported 7.20A.258 (Recommended 7.40A.250)   |  &#10004;   |  &#10004;  |
 |                                                                                                                     | Mediant 1000B  SBC  |     &#10004;     |   &#10004;     |  Supported 7.20A.250 (Recommended 7.20A.258)  |  &#10004;   |  &#10004;  |
-|                                                                                                                     | Mediant 9000  SBC  |     &#10004;     |   &#10004;     |  Supported 7.20A.258 (Recommended 7.40A.100)   | &#10004;     |  &#10004;  |
-|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  Supported 7.20A.258 (Recommended 7.40A.100) |  &#10004;    |  &#10004;  |   
+|                                                                                                                     | Mediant 9000  SBC  |     &#10004;     |   &#10004;     |  Supported 7.20A.258 (Recommended 7.40A.250)   | &#10004;     |  &#10004;  |
+|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  Supported 7.20A.258 (Recommended 7.40A.250) |  &#10004;    |  &#10004;  |   
 |                                                                                                                     | Mediant Cloud Edition SBC  |     &#10004;     |   &#10004;     |  Supported 7.20A.258 (Recommended 7.40A.100) |  &#10004;    |  &#10004;  |
-|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5100/5110       |     &#10004;     |   &#10004;    |       Supported 8.2 and 7.2 (Recommended 9.2)       | &#10004;   |     |
-|                                                                                                                     |      SBC 5200/5210       |     &#10004;     |  &#10004;    |       Supported 8.2 and 7.2 (Recommended 9.2)       |   &#10004; |    |
-|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       Supported 8.2 and 7.2 (Recommended 9.2)       |   &#10004;  | |
-|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       Supported 8.2 and 7.2 (Recommended 9.2)       |    &#10004;  |  |
-|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       Supported 8.2 and 7.2 (Recommended 9.2)          |  &#10004;    |    |
+|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5100/5110       |     &#10004;     |   &#10004;    |       Supported 9.2, 8.2 and 7.2 (Recommended 10.1)       | &#10004;   |     |
+|                                                                                                                     |      SBC 5200/5210       |     &#10004;     |  &#10004;    |       Supported 9.2, 8.2 and 7.2 (Recommended 10.1)       |   &#10004; |    |
+|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       Supported 9.2, 8.2 and 7.2 (Recommended 10.1)       |   &#10004;  | |
+|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       Supported 9.2, 8.2 and 7.2 (Recommended 10.1)       |    &#10004;  |  |
+|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       Supported 9.2, 8.2 and 7.2 (Recommended 10.1)          |  &#10004;    |    |
 |                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      8.x or 9.x     |   &#10004;  |  &#10004;     |
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     8.x or 9.x     |   &#10004;   |     &#10004;     |
 |                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      8.x or 9.x    |   &#10004;    |     &#10004;     |
@@ -83,14 +83,14 @@ If you have any questions about the SBC certification program for Direct Routing
 |                                   |     Cisco Unified Border Element (CUBE) for 1000V Series Cloud Services Router       |     &#10004;   | &#10004; |      Supported IOS XE Amsterdam 17.2.1r (Recommended 17.3.3)         |    &#10004;     |    |  
 |                                 |     Cisco Unified Border Element (CUBE) for 1000 Series Aggregation Services Routers      |     &#10004;   | &#10004; |      Supported IOS XE Amsterdam 17.2.1r (Recommended 17.6.1a)         |    &#10004;     |    |
 |                                 |     Cisco Unified Border Element (CUBE) for Catalyst 8000 Edge Platforms      |     &#10004;   | &#10004; |      Supported IOS XE Amsterdam 17.3.2 (Recommended 17.6.1a)      |    &#10004;     |    |
-|                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Avaya Session Border Controller for Enterprise ( ASBCE)    |     &#10004;     |       &#10004;     |       Release 8.1.1 (8.1.2 for Media Bypass)      |     |    |
+|                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Avaya Session Border Controller for Enterprise (ASBCE)    |     &#10004;     |       &#10004;     |       Release 8.1.1 (8.1.2 for Media Bypass)      |     |    |
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia Session Border Controller    |     &#10004;     |           |       19.5 (1908)       |     |    |
 |                     |    Nokia Session Border Controller    |     &#10004;     |           |       20.8       |      &#10004;        |    |
-|                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |           |       Supported 5.0  (Recommended 5.1)     |     |    |
+|                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |      &#10004;     |       Supported 5.0, 5.1  (Recommended 5.3)     |     |    |
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    |
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Orchid Link    |     &#10004;     |           |      3.1        |     |    |
 |                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    Teams SBC    |     &#10004;     |     &#10004;      |      1.6        |     |    |
-|                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Atos Unify OpenScape Session Border Controller   |     &#10004;     |          |      V10R1.2       |     |    |
+|                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Atos Unify OpenScape Session Border Controller   |     &#10004;     |   &#10004;        |     Supported without Media Bypass V10R1.2  (Recommended for Media Bypass V10R2.2.0)     |     |    |
 |                     [Sansay Inc.](https://www.sansay.com/solutions/microsoft-teams/)|    vmVSXi   |     &#10004;     |     &#10004;     |      10.5.1.354-vm-S-x64      |     |    |
 |                     [Enghouse Networks](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|    Dialogic BorderNet SBC   |     &#10004;     |     &#10004;     |      3.9.0-786      |     |    |
 |                     [Patton Electronics Co.](https://www.patton.com/microsoft/)|    Patton SmartNode eSBC   |     &#10004;     |         |      3.19.x      |     |    |
@@ -117,13 +117,13 @@ The following table describes which SBC vendors support [Local Media Optimizatio
 | Vendor | Product |	Software version |
 |:------------|:-------|:-------|
 | [Audiocodes](https://www.audiocodes.com/media/13253/connecting-audiocodes-sbc-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf) |	Mediant 500 SBC |	7.20A.256 |	
-|            |	Mediant 800 SBC |	7.20A.258 |	
-|            |	Mediant 2600 SBC |	7.20A.258 |	
-|            |	Mediant 4000 SBC |	7.20A.258 |	
-|            |	Mediant 1000B SBC |	7.20A.256 |	
-|            |	Mediant 9000 SBC |	7.20A.258 |	
-|            |	Mediant Virtual Edition SBC |	7.20A.258 |	
-|            |	Mediant Cloud Edition SBC |	7.20A.258 |
+|            |	Mediant 800 SBC |	Supported 7.20A.258 (Recommended 7.40A.100)  |	
+|            |	Mediant 2600 SBC |	Supported 7.20A.258 (Recommended 7.40A.100)  |	
+|            |	Mediant 4000 SBC |	Supported 7.20A.258 (Recommended 7.40A.100)  |	
+|            |	Mediant 1000B SBC |	Supported 7.20A.258 (Recommended 7.40A.100)  |	
+|            |	Mediant 9000 SBC |	Supported 7.20A.258 (Recommended 7.40A.100)  |	
+|            |	Mediant Virtual Edition SBC |	Supported 7.20A.258 (Recommended 7.40A.100)  |	
+|            |	Mediant Cloud Edition SBC |	Supported 7.20A.258 (Recommended 7.40A.100)  |
 | [Ribbon SBC Core](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)  |  SBC 5110         | 8.2  |
 |            |  SBC 5210         | 8.2  |
 |            |  SBC 5400         | 8.2  |

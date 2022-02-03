@@ -1,7 +1,7 @@
 ---
 title: IT Admin Guide to Reflect in Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 ms.service: msteams

@@ -27,6 +27,8 @@ description: Learn how to integrate the Teams EHR connector to enable healthcare
 
 # Virtual visits with Teams - Integration into Cerner EHR
 
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
+
 The Microsoft Teams Electronic Health Record (EHR) connector makes it easy for clinicians to launch a virtual visit with a patient or consult with another provider in Microsoft Teams directly from the Cerner EHR system. Built on the Microsoft 365 cloud, Teams enables simple, secure collaboration and communication with chat, video, voice, and healthcare tools in a single hub that supports compliance with HIPAA, HITECH certification, and more.
 
 The communication and collaboration platform of Teams makes it easy for clinicians to cut through the clutter of fragmented systems so they can focus on providing the best possible care. With the Teams EHR connector, you can:
@@ -47,7 +49,7 @@ This article describes how to set up and configure the Teams EHR connector to in
 Before you integrate the Teams EHR connector in your healthcare organization, you must have the following:
 
 - An active subscription to Microsoft Teams EHR connector standalone offer (only enforced while testing in a production EHR environment).
-- An appropriate Microsoft 365 or Office 365 license that includes Teams meetings.
+- Users have an appropriate Microsoft 365 or Office 365 license that includes Teams meetings.
 - Teams is adopted and used in your healthcare organization.
 - Your systems meet all [software and browser requirements](../../hardware-requirements-for-the-teams-app.md) for Teams.
 - Cerner version November 2018 or later
@@ -142,6 +144,9 @@ Key features of the provider experience:
 - Providers can see real-time updates of patients connecting to a virtual visit for a given appointment in PowerChart.
 - Provider information isn’t visible to patients during the virtual visit.
 
+> [!NOTE]
+> Any information entered in the meeting chat that’s necessary for medical records continuity or retention purposes should be downloaded, copied, and notated by the healthcare provider. The chat doesn’t constitute a legal medical record or a designated record set. Messages from the chat are stored based on settings created by the Microsoft Teams admin.
+
 ### Patient experience
 
 The connector supports patients joining virtual visits through a link in the SMS text message. At the time of the appointment, patients can start a virtual visit by tapping the link in the SMS text message.
@@ -160,7 +165,7 @@ Teams integration into EHR systems optimizes the amount of data that’s used an
 
 The Teams EHR connector doesn't store or transfer any identifiable personal data or any health records of patients or healthcare providers from the EHR system. The only data that the EHR connector stores is the EHR user’s unique ID, which is used during Teams meeting setup.
 
-The EHR user’s unique ID is stored in one of the three geographic regions described in [Where your Microsoft 365 customer data is stored](/microsoft-365/enterprise/o365-data-locations). All chats, recordings, and other data shared in Teams by meeting participants are stored according to existing storage policies. To learn more about the location of data in Teams, see [Locations of data in Teams](../../location-of-data-in-teams.md).
+The EHR user’s unique ID is stored in one of the three geographic regions described in [Where your Microsoft 365 customer data is stored](/microsoft-365/enterprise/o365-data-locations). All chats, recordings, and other data shared in Teams by meeting participants are stored according to existing storage policies. To learn more about the location of data in Teams, see [Location of data in Teams](../../location-of-data-in-teams.md).
 
 ## Related articles
 

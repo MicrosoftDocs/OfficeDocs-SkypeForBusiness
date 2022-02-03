@@ -69,10 +69,20 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 ## Certified devices
 
-*Table Updated October 2021*
+*Table Updated February 2022*
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Dell                 |Slim Conferencing Soundbar SB522A                          |1/25/2022       |Certified for Microsoft Teams                           | 
+|Lenovo               |Go Wired ANC Headset                                       |1/12/2022       |Certified for Microsoft Teams                           |
+|Lenovo               |Go Wired Speakerphone                                      |1/10/2022       |Certified for Microsoft Teams                           |
+|EPOS                 |IMPACT SDW 5066T                                           |12/1/2021       |Certified for Microsoft Teams                           |
+|EPOS                 |IMPACT SDW 5063T                                           |12/1/2021       |Certified for Microsoft Teams                           |
+|EPOS                 |IMPACT SDW 5036T                                           |12/1/2021       |Certified for Microsoft Teams                           |
+|EPOS                 |IMPACT SDW 5033T                                           |12/1/2021       |Certified for Microsoft Teams                           |
+|EPOS                 |IMPACT SDW 5016T                                           |12/1/2021       |Certified for Microsoft Teams                           |
+|EPOS                 |IMPACT SDW 5013T                                           |12/1/2021       |Certified for Microsoft Teams                           |
+|Jabra                |PanaCast 20                                                |11/26/2021      |Certified for Microsoft Teams                           |
 |Poly                 |Voyager Focus 2 and Voyager Office Base                    |10/20/2021      |Certified for Microsoft Teams                           |
 |Poly                 |Voyager 4320 and Voyager Office Base                       |10/20/2021      |Certified for Microsoft Teams                           |
 |Poly                 |Voyager 4310 and Voyager Office Base                       |10/20/2021      |Certified for Microsoft Teams                           |
