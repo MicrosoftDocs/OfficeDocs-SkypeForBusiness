@@ -1,8 +1,9 @@
 ---
-title: Phone system direct routing in Teams
+title: Direct Routing
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
+ms.reviewer: filippse
 ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
@@ -15,7 +16,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: Learn about Direct Routing configuration, necessary core deployment decisions, and voice routing considerations.
+description: Learn about Teams Phone withe Direct Routing.
 ms.custom: 
  - seo-marvel-apr2020
  - seo-marvel-jun2020
@@ -23,15 +24,15 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Phone system direct routing
+# Direct Routing
 
-You've completed [Get started](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Maybe you've deployed [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md). Now you're ready to add cloud voice workloads, and you've decided to use your own telephony carrier for Public Switched Telephone Network (PSTN) connectivity by using Phone System Direct Routing. With Direct Routing, you can use Phone System with virtually any telephony carrier.
+You've completed [Get started](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Maybe you've deployed [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md). Now you're ready to add voice workloads, and you've decided to use your own telephony carrier for Public Switched Telephone Network (PSTN) connectivity by using Teams Phone with Direct Routing. With Direct Routing, you can use Teams Phone with virtually any telephony carrier.
 
-This article describes core deployment decisions for Direct Routing as well as additional considerations you may want to think about, based on your organization's needs. You should also read [Cloud Voice in Microsoft Teams](cloud-voice-landing-page.md) for more information about Microsoft's cloud voice offerings.
+This article describes core deployment decisions for Direct Routing as well as additional considerations you may want to think about, based on your organization's needs. You should also read [Plan your voice solution](cloud-voice-landing-page.md) for more information about Microsoft's voice offerings.
 
 ## Learn more about Direct Routing
 
-The following articles provide more information about configuring and using Phone System Direct Routing. Configuring Direct Routing requires understanding of PSTN routing design. You should read all of these articles to understand how to plan and configure Direct Routing:
+The following articles provide more information about configuring and using Direct Routing. Configuring Direct Routing requires understanding of PSTN routing design. You should read all of these articles to understand how to plan and configure Direct Routing:
 
 - [Plan Direct Routing](direct-routing-plan.md) 
 - [Configure Direct Routing](direct-routing-configure.md)
@@ -57,7 +58,7 @@ Do I have the required licenses for Direct Routing? | For more information, see 
 
 ### Session Border Controller (SBC) considerations
 
-With Direct Routing, you connect your own Session Border Controller (SBC) directly to Phone System.  For a list of certified SBCs, see [Supported Session Border Controllers](direct-routing-border-controllers.md).
+With Direct Routing, you connect your own Session Border Controller (SBC) directly to Teams Phone. For a list of certified SBCs, see [Supported Session Border Controllers](direct-routing-border-controllers.md).
 
 |Ask yourself|Action |
 |:------------|:-------|
@@ -67,7 +68,7 @@ Do I have multiple tenants? | For more information, see [Configure a Session Bor
 
 ### Voice routing considerations
 
-You'll need to configure Phone System to route the calls to the specific SBCs.
+You'll need to configure Teams Phone to route the calls to the specific SBCs.
 
 |Ask yourself|Action |
 |:------------|:-------|

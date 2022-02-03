@@ -32,20 +32,20 @@ Microsoft works with each vendor to:
 - Establish a joint support process with the SBC vendors.
 
   > [!NOTE]
-  > Microsoft only supports Phone System if a certified device or devices are connected through Direct Routing. In case of issues, customer must contact SBC vendors customer support first. If needed, SBC vendor will escalate the issue to Microsoft via internal channels. Microsoft reserves the right to reject support cases where a non-certified device is connected to the Phone System through Direct Routing. If Microsoft determines that a customer’s Direct Routing issue is with a vendor’s SBC device, the customer will need to re-engage the SBC vendor for support.
+  > Microsoft only supports Teams Phone with Direct Routing when used with certified devices. In case of issues, you must contact your SBC vendor's customer support first. If needed, the SBC vendor will escalate the issue to Microsoft via internal channels. Microsoft reserves the right to reject support cases where a non-certified device is connected to Teams Phone through Direct Routing. If Microsoft determines that a customer’s Direct Routing issue is with a vendor’s SBC device, the customer will need to re-engage the SBC vendor for support.
   >
   > The certification is granted to specific SBC firmware versions. Any SBC firmware version documented below is both certified and supported. Firmware versions that are higher than what is documented are supported as long as the major.minor version is the same.
   >
   > Example:
   >
-  > - Supported 6.10.258 - in this case, we also support firmware versions 6.10.(258 or higher).
-  > - Recommended 6.20.100 - in this case, we also recommend firmware versions 6.20.(100 or higher).
+  > - Supported 6.10.258 - In this case, Microsoft supports firmware versions 6.10.(258 or higher).
+  > - Recommended 6.20.100 - In this case, Microsoft recommends firmware versions 6.20.(100 or higher).
   > - For supportability questions about specific version, reach out to your SBC vendor.
 
 The tables that follow list devices certified for Direct Routing. (For information about which SBC vendors support Local Media Optimization, see [Configure Local Media Optimization for Direct Routing](direct-routing-media-optimization-configure.md).)
 
 [Learn more about Direct Routing](https://aka.ms/dr).
-If you have any questions about the SBC certification program for Direct Routing, please contact drsbccertification@microsoft.com. Please note: we are not accepting new nominations for certification until further notice.
+If you have any questions about the SBC certification program for Direct Routing, contact drsbccertification@microsoft.com. Please note: we are not accepting new nominations for certification until further notice.
 <br/>
 
 ## Certified SBC vendors
@@ -168,7 +168,7 @@ The following table lists devices that are verified for interoperability between
 | [Ribbon](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 6000. Software version: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)   |     &#10004;     |
 | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  anynode with Grandstream GXW42xx (V1.0.7.10) |     &#10004;     |
   
-To give us product feedback about Teams, such as ideas for new features, see [Uservoice](https://microsoftteams.uservoice.com).
+To provide feedback about Teams, such as ideas for new features, see [Uservoice](https://microsoftteams.uservoice.com).
 
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
