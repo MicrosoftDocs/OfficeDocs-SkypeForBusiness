@@ -70,7 +70,7 @@ Teams is made up of **channels**, which are the topic-specific conversations you
 | New chat recipients must be added by those people already in chat​​ | Users can join a team by searching for it. In private Teams, Teams admin approves new members​. Channel members can generate code to enable new members to join directly without admin approval. |​
 | On the spot screen share, and audio and video calling​. Easy scheduling of Teams meetings with all chat participants​ | On the spot and scheduled audio and video calling​ |
 | Some extensibility with apps​ | Full extensibility and customization with apps​  |
-| - | Post to channels via email |
+
 
 For an overview on Teams, channels, and group chats, see [teams and channels in Microsoft Teams](teams-channels-overview.md).
 
