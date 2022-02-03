@@ -80,7 +80,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 
 The following devices are Certified under the Microsoft Teams Displays Android Certification Program:
 
-| Device model | Firmware version | Certification end date  | | Android OS version |
+| Device model | Firmware version | Certification end date  | Android OS version |
 |:------------------------|:-----------------|:--------------|----------------------------------|
 |Lenovo ThinkSmart View|`CD-18781Y.201006.099`| December 5, 2022 |  8.1  |
 
