@@ -223,7 +223,7 @@ By default, check-in and room release is turned off.
 1.  An IT admin can go into the Panels app settings (**Settings > Device Settings > Admin Settings > Panels App Settings > Meetings**) and turn on **Release room if no one checks in**.
 
 2.  The IT admin can also configure from the drop-down menu how many minutes to wait before release if no one checks in.
-1. 
+
 ## Frequently asked questions
 
 Find answers to frequently asked questions about the Teams panels devices.
