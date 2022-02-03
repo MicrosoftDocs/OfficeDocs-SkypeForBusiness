@@ -108,7 +108,8 @@ You can create a Teams group chat to hold quick huddles and transient conversati
    To see who's in a group chat, hover over the number of participants in the chat header to show a list of everyone's names.
 
 **Option 2: Switch from a Kaizala flat group to a Teams team**
-   For targeted large group communication, you can create a Team for a flat group. You can add up to 25,000 members to engage in structured communication with threaded conversations. This type of communication allows for moderation and administration roles to ensure that things are running smoothly.
+   
+For targeted large group communication, you can create a Team for a flat group. You can add up to 25,000 members to engage in structured communication with threaded conversations. This type of communication allows for moderation and administration roles to ensure that things are running smoothly.
 
 1. Create a team:
    To get up and running in Teams, you should create a team, add people, and add channels. To learn more, see [your first teams](get-started-with-teams-create-your-first-teams-and-channels.md).
