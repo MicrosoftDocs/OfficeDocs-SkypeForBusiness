@@ -92,53 +92,52 @@ For more information on emergency calling, see [Manage emergency calling](what-a
 
 ### Move numbers from Direct Routing to Operator Connect
 
-To move numbers from Direct Routing to Operator Connect the existing Direct Routing number needs to be removed from the user, the number uploaded to your tenant by your operator, and then you can re-assign the number to the user. There is a downtime associated with the migration and it needs to be coordinated with your Operator Connect operator.  For moving from Direct Routing to Operator Connect, follow the steps below for removing on-premises or online Direct Routing numbers.
+To move numbers from Direct Routing to Operator Connect, the existing Direct Routing number that was uploaded to your tenant by your operator must be removed from the user it's assigned to. Then, after the number is migrated to Operator Connect, you can re-assign the number to the user. To move from Direct Routing to Operator Connect with on-premises or online phone numbers, follow the steps below:
 
-1. Remove existing on-premises or online Direct Routing numbers
+>[!IMPORTANT]
+> The phone number will be out of service during the migration, so coordinate with your Operator Connect operator before you begin.
 
-Run the command to validate if the number is assigned on-premises or online: 
+1. Remove existing Direct Routing numbers.
 
-   ```
-   Get-CsOnlineUser -Identity <user> | fl RegistrarPool,OnPreLineURIManuallySet, OnPremLineURI, LineURI 
-   ```
-In case OnPremLineUriManuallySet is set to False and LineUri is populated with a <E.164 phone number>, the phone number was assigned on-premises and synchronized to O365.
-
-**Remove existing on-premises Direct Routing numbers.**
-
-Direct Routing numbers assigned on-premises need to be removed in your on-premises deployment by running the following PowerShell command: 
-
-   ```
-   Set-CsUser -Identity <user> -LineURI $null 
-   ```
- The synchronization delay is dependent on your configuration. In order to validate the on-premises number is removed and the changes have been synced, run the following PowerShell command: 
-
-   ```
-   Get-CsOnlineUser -Identity <user> | fl RegistrarPool,OnPreLineURIManuallySet, OnPremLineURI, LineURI 
-   ```
-   
-   After the changes have synced to Office 365 online directory, the expected output is: 
-   
-   ```console
-   RegistrarPool                        : pool.infra.lync.com
-   OnPremLineURIManuallySet             : True
-   OnPremLineURI                        : 
-   LineURI                              : 
-   ```
+    How you remove your existing Direct Routing numbers depends whether the number is assigned on-premises or online. To check, run the following command:
     
-**Remove existing online Direct Routing numbers.**
+       ```PowerShell
+       Get-CsOnlineUser -Identity <user> | fl RegistrarPool,OnPreLineURIManuallySet, OnPremLineURI, LineURI 
+       ```
+    
+    If `OnPremLineUriManuallySet` is set to `False` and `LineUri` is populated with an E.164 phone number, the phone number was assigned on-premises and synchronized to Office 365.
+    
+    **To remove Direct Routing numbers assigned on-premises,** run the following command:
+    
+       ```PowerShell
+       Set-CsUser -Identity <user> -LineURI $null 
+       ```
+      
+       The amount of time it takes for the removal to take effect depends on your configuration. To check if the on-premises number was removed and the changes have been synced, run the following PowerShell command: 
+    
+       ```PowerShell
+       Get-CsOnlineUser -Identity <user> | fl RegistrarPool,OnPreLineURIManuallySet, OnPremLineURI, LineURI 
+       ```
+       
+       After the changes have synced to Office 365 online directory, the expected output is: 
+       
+       ```console
+       RegistrarPool                        : pool.infra.lync.com
+       OnPremLineURIManuallySet             : True
+       OnPremLineURI                        : 
+       LineURI                              : 
+       ```
+        
+    **To remove existing online Direct Routing numbers assign online,** run the following PowerShell command:
+    
+       ```PowerShell
+       Remove-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <pn> -PhoneNumberType DirectRouting
+       ```
+    Removing the phone number may take up to 10 minutes. In rare cases, it can take up to 24 hours. ITo check if the on-premises number was removed and the changes have been synced, run the following PowerShell command: 
 
-Direct Routing numbers that have been assigned online can be removed by running the following PowerShell command:
-
-   ```
-   Remove-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <pn> -PhoneNumberType DirectRouting
-   ```
-The removal of the number will have a replication delay of 10 minutes, however in rare cases the replication can take up to 24h. 
-
-In order to validate the number is removed and the changes have been synced, run the following PowerShell command: 
-  
-   ```
-   Get-CsOnlineUser -Identity <user> | fl Number
-   ```
+       ```PowerShell
+       Get-CsOnlineUser -Identity <user> | fl Number
+       ```
 
 2. Remove the online voice routing policy associated with your user 
 
