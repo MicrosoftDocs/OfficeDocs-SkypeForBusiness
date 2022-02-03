@@ -32,7 +32,7 @@ As an admin, you can use app setup policies to install and pin apps to promote t
 ## Pin apps
 
 > [!NOTE]
-> Pinning an app via setup policy will also install it.
+> Pinning an app via an app setup policy will also install it.
 
 Pinning apps lets you showcase apps that users in your organization need, including apps built by third parties or by developers in your organization.
 
