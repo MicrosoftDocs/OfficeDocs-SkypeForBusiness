@@ -61,7 +61,7 @@ Teams is made up of **channels**, which are the topic-specific conversations you
 ### Conversations in Teams Chat vs Team Channel
 
 | **Conversations in Chat** | **Conversations in Team Channels** |
-|---------|---------|
+|---|---|
 | For lightweight conversations, where you’re directly messaging recipients. | For interactions where multiple topics are discussed in an open space.​ |
 | Private chats are only visible to those in the chat​ | Visible to everyone in the Team​  |
 | One continuous, unthreaded conversation​ | Structured, multiple threaded conversations​ |
