@@ -79,7 +79,7 @@ For more information about Calling Plan, see the following articles:
 
 ## Teams Phone with Operator Connect
 
-With Operator Connect, currently in public preview, if your existing carrier is a participant in the Microsoft Operator Connect program, they can manage the service for bringing PSTN calling to Teams. Your carrier manages the PSTN calling services and Session Border Controllers (SBCs), allowing you to save on hardware purchase and management.
+With Operator Connect, if your existing carrier is a participant in the Microsoft Operator Connect program, they can manage the service for bringing PSTN calling to Teams. Your carrier manages the PSTN calling services and Session Border Controllers (SBCs), allowing you to save on hardware purchase and management.
 
 Operator Connect might be the right solution for your organization if:
 
