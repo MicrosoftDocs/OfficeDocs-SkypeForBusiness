@@ -316,3 +316,7 @@ If you're an administrator, you can use the following diagnostic tool to validat
 [Getting service phone numbers](getting-service-phone-numbers.md)
 
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
+[Call Queue Serial Routing](https://techcommunity.microsoft.com/t5/skype-for-business-preview/call-queue-serial-routing-agent-order/m-p/126117)
+
+[Order Agent list for Serial Routing using Voice-Enabled/Collaborative Calling for a Call Queue](https://docs.microsoft.com/answers/questions/433192/order-agent-list-for-34serial-routing34-using-34vo.html)
