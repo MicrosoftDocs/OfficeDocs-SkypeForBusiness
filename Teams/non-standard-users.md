@@ -44,7 +44,7 @@ Guests can use an app if the app was installed by a native user.
 
 #### Bots installed to a channel
 
-Bots can proactively message guest users, but guests can't interact with the bot. Guests can't message the bot one-to-one, mention the bot, or interact with adaptive cards that communicate with the bot.
+Guest users are able to mention the bot and interact with adaptive cards.
 
 #### Personal bots installed with policies
 
