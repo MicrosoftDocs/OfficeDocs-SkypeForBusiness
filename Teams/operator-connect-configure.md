@@ -135,7 +135,7 @@ LineURI                              :
 Remove-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <pn> -PhoneNumberType DirectRouting
 ```
 
-Removing the phone number may take up to 10 minutes. In rare cases, it can take up to 24 hours. ITo check if the on-premises number was removed and the changes have been synced, run the following PowerShell command: 
+Removing the phone number may take up to 10 minutes. In rare cases, it can take up to 24 hours. To check if the on-premises number was removed and the changes have been synced, run the following PowerShell command: 
 
 
 ```PowerShell
@@ -146,7 +146,7 @@ Get-CsOnlineUser -Identity <user> | fl Number
 
 Once the number is unassigned, remove the online voice routing policy associated with your user by running the following PowerShell command:
 
-```
+```PowerShell
 Grant-CsOnlineVoiceRoutingPolicy -Identity <user> -PolicyName $Null
 ```
 
