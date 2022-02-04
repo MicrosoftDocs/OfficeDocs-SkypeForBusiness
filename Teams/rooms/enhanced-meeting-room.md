@@ -1,5 +1,5 @@
 ---
-title: "Medium-sized meeting room: enhanced meeting room"
+title: "Medium-sized meeting room: Enhanced meeting room"
 author: amandafrechinjackson
 ms.author: v-amandaf
 manager: jsarrasin
@@ -21,9 +21,9 @@ localization_priority: Normal
 appliesto: 
   - Microsoft Teams
 ---
-# Medium-sized meeting room: enhanced meeting room
+# Medium-sized meeting room: Enhanced meeting room
 
-![Rendering of an enhanced meeting room.](media/emr1.png)
+![Rendering of an enhanced meeting room.](../media/emr1.png)
 
 This article explores how Microsoft is transforming standard conference rooms into "enhanced meeting rooms" that bring the best of the new Teams front row experience. Use this article for room design and technology guidance, recommended products, retrofitting tips, and Microsoft Corporate Facilities reference specifications.
 
@@ -87,13 +87,13 @@ Let’s start with a standard medium-sized conference room that would traditiona
 
 From:
 
-![Example of a standard medium conference room.](media/emr2.jpg)
+![Example of a standard medium conference room.](../media/emr2.jpg)
 
 *Optimizing for in-person collaboration primarily with remote secondary audio-video (AV) as a supplement to the experience*
 
 To:
 
-![Rendering of an enhanced meeting room, which is driven by AV use.](media/emr3.jpg)
+![Rendering of an enhanced meeting room, which is driven by AV use.](../media/emr3.jpg)
 
 *Optimizing for in-person and remote collaboration equally with AV as a driver for the experience*
 
@@ -109,7 +109,7 @@ The enhanced meeting room layout is designed for maximum visibility and engageme
 
 The layout features a curved table for in-person eye contact and orientation to remote participants with all chairs facing the display so participants are able to follow along.
 
-![Rendering of an enhanced meeting room with a projector and U-shaped table.](media/emr4.jpg)
+![Rendering of an enhanced meeting room with a projector and U-shaped table.](../media/emr4.jpg)
 
 ### How does the audio work? 
 
@@ -123,7 +123,7 @@ An ultrawide-angle camera is positioned at the front of the room below the displ
 
 The ultrawide-angel camera features intelligent tracking of meeting participants so they can be represented individually in a large view instead of as faces within a large image of the entire room.
 
-![Rendering of an enhanced meeting room from an overhead view.](media/emr5.png)
+![Rendering of an enhanced meeting room from an overhead view.](../media/emr5.png)
 
 ### How do the front-of-room displays work? 
 
@@ -137,17 +137,17 @@ Meeting content is surrounded by contextual fluid components like the agenda, ta
 
 This layout will be supported across both single- and dual-display configurations and will be made available through a Teams Rooms software update. While the front row layout is especially impactful in an enhanced meeting room, front row can be used in any Teams Room running on Windows, regardless of the furniture and hardware configuration.
 
-![Rendering of an enhanced meeting room, showcasing remote attendees on the display in view of in-person attendees.](media/emr6.jpg)
+![Rendering of an enhanced meeting room, showcasing remote attendees on the display in view of in-person attendees.](../media/emr6.jpg)
 
-![Example of an enhanced meeting as shown on devices.](media/emr7.png)
+![Example of an enhanced meeting as shown on devices.](../media/emr7.png)
 
 ### How do you co-create content?
 
 In Microsoft Teams Rooms, users can take advantage of traditional, analog whiteboarding by using the intelligent capture feature. For a modernized experience where all participants can draw and ink together, Microsoft Whiteboard can be accessed using a touchscreen front-of-room display, companion devices like a PC, phone, or tablet, and through Microsoft Surface Hub.
 
-![Photo of whiteboarding in a meeting room.](media/emr8.png) 
+![Photo of whiteboarding in a meeting room.](../media/emr8.png) 
 
-![Photo of enhanced whiteboarding.](media/emr9.jpg)
+![Photo of enhanced whiteboarding.](../media/emr9.jpg)
 
 ## Enhanced meeting room design guidance
 
@@ -157,7 +157,7 @@ This section is intended to cover building an enhanced meeting room from scratch
 
 #### Room size
 
-![Blueprint of an enhanced meeting room design.](media/emr10.png)
+![Blueprint of an enhanced meeting room design.](../media/emr10.png)
 
 25 ft x 14 ft
 
@@ -488,31 +488,31 @@ In addition, look for the following considerations for ideal room selection:
 If you are planning to add enhanced meeting rooms to your existing spaces, see the following helpful reference that was followed for a Microsoft corporate meeting room:
 #### Step 1 
 
-![Step one of an EMR refit.](media/diagemr1.png)
+![Step one of an EMR refit.](../media/diagemr1.png)
 
 #### Step 2
 
-![Step two of an EMR refit.](media/diagemr2.png)
+![Step two of an EMR refit.](../media/diagemr2.png)
 
 #### Step 3
 
-![Step three of an EMR refit.](media/diagemr3.png)
+![Step three of an EMR refit.](../media/diagemr3.png)
 
 #### Step 4
 
-![Step four of an EMR refit.](media/diagemr4.png)
+![Step four of an EMR refit.](../media/diagemr4.png)
 
 #### Step 5
 
-![Step five of an EMR refit.](media/diagemr5.png)
+![Step five of an EMR refit.](../media/diagemr5.png)
 
 #### Step 6
 
-![Step six of an EMR refit.](media/diagemr6.png)
+![Step six of an EMR refit.](../media/diagemr6.png)
 
 #### Step 7
 
-![Step seven of an EMR refit.](media/diagemr7.png)
+![Step seven of an EMR refit.](../media/diagemr7.png)
 
 ## Microsoft Corporate Facilities reference specifications
 
