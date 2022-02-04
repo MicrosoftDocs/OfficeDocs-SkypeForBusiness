@@ -1,5 +1,5 @@
 ---
-title: Teams for virtual visits -  EHR connector admin reports
+title: Virtual Visits in Teams -  EHR connector admin reports
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -41,9 +41,9 @@ The dialog provides the following data:
 - Remaining allocation
 - Completed visits
 
-You can use the report dialog to buy more virtual visits.
+You can use the report dialog to buy more Virtual Visits.
 
 ## Related articles
 
-- [Virtual visits with Teams - Integration into Cerner EHR](ehr-admin-cerner.md)
-- [Virtual visits with Teams - Integration into Epic EHR](ehr-admin.md)
+- [Virtual Visits with Teams - Integration into Cerner EHR](ehr-admin-cerner.md)
+- [Virtual Visits with Teams - Integration into Epic EHR](ehr-admin.md)

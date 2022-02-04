@@ -1,5 +1,5 @@
 ---
-title: Virtual visits with Teams - Integration into Epic EHR
+title: Virtual Visits with Teams - Integration into Epic EHR
 author: LanaChin
 ms.author: v-lanachin
 manager: samanro
@@ -25,7 +25,7 @@ ms.reviewer: ansantam
 description: Learn how to integrate the Teams EHR connector to enable healthcare providers in your organization to conduct virtual visits with patients or other providers in Teams directly from the Epic EHR system. 
 ---
 
-# Virtual visits with Teams - Integration into Epic EHR
+# Virtual Visits with Teams - Integration into Epic EHR
 
 The Microsoft Teams Electronic Health Record (EHR) connector makes it easy for clinicians to launch a virtual patient visit or consultation with another provider in Microsoft Teams directly from the Epic EHR system. Built on the Microsoft 365 cloud, Teams enables simple, secure collaboration and communication with chat, video, voice, and healthcare tools in a single hub that supports compliance with HIPAA, HITECH certification, and more.
 
@@ -202,11 +202,11 @@ The Epic customer analyst must provide these records to Epic to complete the vir
 > [!Note]
 > The Epic customer analyst must complete the approval process for each FHIR base URL that's configured by the Microsoft 365 admin.
 
-## Launch Teams virtual visits
+## Launch Teams Virtual Visits
 
 After completing the EHR connector steps and Epic configuration, your organization is ready to support video visits with Teams.
 
-### Virtual visit prerequisites
+### Virtual Visits prerequisites
 
 - Your systems must meet all [software and browser requirements](../../hardware-requirements-for-the-teams-app.md) for Teams.
 

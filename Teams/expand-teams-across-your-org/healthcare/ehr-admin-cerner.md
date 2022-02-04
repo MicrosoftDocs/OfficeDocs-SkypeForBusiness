@@ -1,5 +1,5 @@
 ---
-title: Virtual visits with Teams - Integration into Cerner EHR
+title: Virtual Visits with Teams - Integration into Cerner EHR
 author: LanaChin
 ms.author: v-lanachin
 manager: samanro
@@ -25,7 +25,7 @@ ms.reviewer: ansantam
 description: Learn how to integrate the Teams EHR connector to enable healthcare providers in your organization to conduct virtual visits with patients or other providers in Teams directly from the Cerner EHR system. 
 ---
 
-# Virtual visits with Teams - Integration into Cerner EHR
+# Virtual Visits with Teams - Integration into Cerner EHR
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
@@ -122,11 +122,11 @@ You'll be presented with integration records for patient and provider launch. Th
 > [!NOTE]
 > At any time, your Microsoft 365 admin can sign in to the configuration portal to view integration records and change configuration settings, if needed.
 
-## Launch Teams virtual visits
+## Launch Teams Virtual Visits
 
 After completing the EHR connector steps and Cerner configuration steps, your organization is ready to support video visits with Teams.
 
-### Virtual visits prerequisites
+### Virtual Visits prerequisites
 
 - Your systems must meet all [software and browser requirements](../../hardware-requirements-for-the-teams-app.md) for Teams.
 - You completed the integration setup between the Cerner organization and your Microsoft 365 organization.

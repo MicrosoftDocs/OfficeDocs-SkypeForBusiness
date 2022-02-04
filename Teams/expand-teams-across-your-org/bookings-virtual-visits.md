@@ -1,5 +1,5 @@
 ---
-title: Virtual visits with Microsoft Teams and the Bookings app
+title: Virtual Visits with Microsoft Teams and the Bookings app
 author: lanachin
 ms.author: v-lanachin
 manager: samanro
@@ -23,7 +23,7 @@ ms.reviewer:
 description: Learn how to use the Bookings app in Teams to schedule, manage, and conduct virtual visits. 
 ---
 
-# Virtual visits with Microsoft Teams and the Bookings app
+# Virtual Visits with Microsoft Teams and the Bookings app
 
 ## Overview
 
@@ -39,8 +39,8 @@ With Bookings, you get an experience that's tailored to your industry. Here's a 
 
 |Industry | Examples |
 |---------|---------|
-|Financial services    |  Virtual visits for remote sales and service<br/>Schedule and manage virtual appointments for bank relationship managers, financial advisors, and claims adjusters, just to name a few, to serve your customers with increased efficiency and convenience.  |
-|Healthcare   |  Virtual visits for patient care <br/>Schedule and manage virtual visits for your care team members to meet with patients or other healthcare providers to discuss medical care.   |
+|Financial services    |  Virtual Visits for remote sales and service<br/>Schedule and manage virtual appointments for bank relationship managers, financial advisors, and claims adjusters, just to name a few, to serve your customers with increased efficiency and convenience.  |
+|Healthcare   |  Virtual Visits for patient care <br/>Schedule and manage virtual visits for your care team members to meet with patients or other healthcare providers to discuss medical care.   |
 |Retail   | Virtual fittings and consultations <br/>Schedule and manage appointments for your sales associates, product experts, and design consultants to conduct virtual fittings and consultations with customers.   |
 
 This article gives you an overview of how to use the Bookings app in Teams to schedule, manage, and conduct virtual visits.
@@ -112,7 +112,7 @@ To learn more, see [Microsoft Bookings](/microsoft-365/bookings/bookings-overvie
 
 ## Related articles
 
-- [Manage the join experience for Teams virtual visits on mobile browsers](mobile-browser-join.md)
+- [Manage the join experience for Teams Virtual Visits on mobile browsers](mobile-browser-join.md)
 
 - [Get started with Teams for healthcare organizations](healthcare/teams-in-hc.md)
 
