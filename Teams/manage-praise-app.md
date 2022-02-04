@@ -8,7 +8,7 @@ audience: admin
 ms.topic: article 
 ms.service: msteams
 ms.localizationpriority: medium 
-description: Learn about admin settings in the Praise app in the Microsoft Teams admin center
+description: Learn how to manage the Praise app in the Microsoft Teams admin center.
 
 ---
 
