@@ -1,6 +1,6 @@
 ---
 title: Assignments for Teams
-author: danieasmith
+author: DaniEASmith
 ms.author: danismith
 manager: serdars
 ms.topic: article
