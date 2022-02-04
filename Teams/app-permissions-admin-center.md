@@ -1,7 +1,7 @@
 ---
 title: View app permissions and grant admin consent in the Microsoft Teams admin center
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: vaibhava
 manager: serdars
 ms.topic: article
