@@ -1,8 +1,8 @@
 ---
 title: "Application table in Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro

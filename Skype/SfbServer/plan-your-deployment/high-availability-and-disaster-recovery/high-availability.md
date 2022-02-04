@@ -1,8 +1,8 @@
 ---
 title: "Front End Pool high availability and management"
 ms.reviewer: 
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
