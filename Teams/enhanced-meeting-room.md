@@ -1,9 +1,9 @@
 ---
-title: "Enhanced meeting room"
+title: "Medium-sized meeting room: enhanced meeting room"
 author: amandafrechinjackson
 ms.author: v-amandaf
 manager: jsarrasin
-ms.date: 1/24/2022
+ms.date: 2/4/2022
 ms.topic: conceptual
 audience: ITPro
 ms.service: msteams
@@ -21,7 +21,7 @@ localization_priority: Normal
 appliesto: 
   - Microsoft Teams
 ---
-# Enhanced meeting room
+# Medium-sized meeting room: enhanced meeting room
 
 ![Rendering of an enhanced meeting room.](media/emr1.png)
 

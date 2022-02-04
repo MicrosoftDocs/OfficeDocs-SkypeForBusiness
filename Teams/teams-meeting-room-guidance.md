@@ -341,35 +341,6 @@ This space features a principal meeting-room table for many meeting participants
 
 -   Installed audio-visual components featuring ceiling-mounted audio devices and a camera solution installed to get maximum coverage of participants throughout the space
 
-### Panoramic meeting rooms
-
-| Usage | Layout | Audio | Video |
-|------------------------------|--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Meet and present + co-create | Typical capacity: 6-12 people                                                                          | Recommended audio: Installed ceiling or table microphones and speakers that can support directional audio | Recommended camera: Long-distance camera with ultra-wide field of view and intelligent people tracking |
-|                              | Typical dimensions: Depends on the space                                                               |                                                                                                           | Minimum display size: Depends on the space                                                             |
-|                              | Single or dual primary display recommended: Dual traditional displays or dual-edged blended projectors |                                                                                                           |                                                                                                        |
-
-This space is dedicated to the most immersive Teams meeting experience.
-![Render of a panoramic meeting room optimized for Teams meetings.](media/look8.jpg) 
-
-*The solution shown is:*
-
-A meeting room, oriented with the table facing a panorama of blended displays, ensuring that all users get the best possible view of meeting participants and content.
-
-*Why this layout and device type?*
-
-A panoramic table layout is designed for maximum visibility and engagement with remote participants and content. Large, blended displays allow for an immersive feeling, with all chairs facing the displays and able to follow along. Spatial audio means it feels like remote participants are in the room with local participants based on their position on the front-of-room screen.
-
-*Pictured here:*
-
--   Microsoft Teams Rooms solution with two edge-blended projected displays, creating an immersive front-of-room experience designed specifically for Teams meetings
-
--   Surface Hub 2 for annotation and whiteboarding
-
--   Installed audio-visual components featuring ceiling-mounted and front-of-room audio devices for maximum coverage of participants throughout the space with consideration for spatial audio
-
--   An intelligent, ultrawide-angle front-of-room camera to capture every participant in the space
-
 ## Non-traditional meeting spaces
 
 ### Multi-purpose spaces
