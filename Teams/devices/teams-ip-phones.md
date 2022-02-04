@@ -239,7 +239,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
-|Lenovo ThinkSmart View| `CD-18781Y.211116.114` |2021 Update#3  |
+|Lenovo ThinkSmart View| `CD-18781Y.211116.114` |2021 Update #3  |
 |Lenovo ThinkSmart View| `CD-18781Y.210507.111` |2021 Update #2 |
 |Lenovo ThinkSmart View| `CD-18781Y.210228.109` |2021 Update #1 |
 
