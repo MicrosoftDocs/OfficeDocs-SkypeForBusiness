@@ -1,7 +1,7 @@
 ---
 title: Custom apps store
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: prem
 ms.topic: article
