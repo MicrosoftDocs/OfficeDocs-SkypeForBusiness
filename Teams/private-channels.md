@@ -93,7 +93,7 @@ Each private channel has its own SharePoint site. The separate site is to ensure
 
 A private channel site syncs data classification and inherits guest access permissions from the site of the parent team. Membership to the site owner and member groups are kept in sync with the membership of the private channel within Teams. Site permissions for a private channel site can't be managed independently through SharePoint. 
 
-Teams manages the lifecycle of the private channel site. If the site is deleted outside of Teams, a background job restores the site within four hours as long as the private channel is still active. If the site is permanently deleted, a new site is provisioned for the private channel.
+Teams manages the lifecycle of the private channel site. If the site is deleted outside of Teams, a background job restores the site within four hours as long as the private channel is still active.
 
 If a private channel or a team containing a private channel is restored, the sites are restored with it. If a private channel site is restored and it's beyond the 30-day soft delete window for the private channel, the site operates as a standalone site.
 

@@ -80,9 +80,6 @@ You can duplicate pre-built templates but you can't edit them. If you want to ch
 |Manage volunteers| `com.microsoft.teams.template.ManageVolunteers` |Channels: <ul><li>General<li>Announcements</li><li>Reporting</li><li>Volunteer Management</li><li>Engagement Opportunities</li><li>Volunteer Onboarding</li></ul> Apps: <ul><li>Website</li><li>YouTube</li><li>Power BI</li><li>Power Apps</li><li>Tasks</li><li>SharePoint</li><li>OneNote</li></ul>|
 ||||
 
-&sup1;App added to the channel as a tab.
-
-
 ### Team templates by category and industry
 
 For more information about ways to use the pre-built templates in your industry, see:
