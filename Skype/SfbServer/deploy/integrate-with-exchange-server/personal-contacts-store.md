@@ -1,8 +1,8 @@
 ---
 title: "Configure the personal contacts store on Lync 2010 client computers"
 ms.reviewer: 
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/29/2019
 audience: ITPro

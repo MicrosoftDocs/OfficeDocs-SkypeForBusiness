@@ -1,7 +1,7 @@
 ---
 title: "Skype for Business on Mac client requirements"
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
