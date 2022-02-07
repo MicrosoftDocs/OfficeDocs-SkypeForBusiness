@@ -32,26 +32,43 @@ Let your customers know what to expect with virtual visits by answering common q
 ### Virtual visit basics
 
 **What is a virtual visit?**
+
 A virtual visit is an online appointment conducted over Microsoft Teams. You’ll be speaking one-on-one with one of our staff members, just like you would for an in-person visit.
-**How do virtual visits go differently than in-person visits?**
-Let your customers know if there are differences in the services you provide virtually and in person. You can also describe any fee differences between virtual and in-person visits. (waiting room experience, difference in services, etc)
+
+**How are virtual visits different than in-person visits?**
+
+Let your customers know if there are differences in the services you provide virtually and in person. You can also describe any fee differences between virtual and in-person visits.
+
+**How does a virtual visit go?**
+
+When you join from the link in the email confirmation, you'll enter a virtual waiting room. Once a staff member joins the call, you'll enter a virtual room with them where your one-on-one visit will take place.
+
 **How does payment work for virtual visits?**
+
 Let your customers know if you accept different types of payment for virtual visits.
 
 ### Booking a visit
 
 **How do I make an appointment?**
+
 Link to your organization’s booking page. Let your customers know if there are alternative ways of making virtual appointments, such as over the phone, through email, or through social media.
+
 **Who can I make an appointment with?**
+
 Make sure your clients can maintain relationships with their preferred providers by sharing which, if any, staff are operating exclusively virtually or in-person.
+
 **How do I cancel or reschedule a virtual visit?**
+
 You can link to your organization’s cancellation and rescheduling policy here, or describe any differences in the policy between virtual and in-person visits.
 
 ### Technology
 
 **What equipment do I need for a virtual visit?**
+
 Customers can join a virtual visit from any web browser or through the Microsoft Teams app. List here if your organization has additional specifications, such as a high-quality webcam or microphone. If your healthcare organization has EHR integrated into teams, patients can join visits from your healthcare portal.
+
 **How do I join a virtual visit?**
+
 You can link your customers here Join a Bookings appointment as an attendee (microsoft.com) to show them a detailed video and step-by-step process of how to join a visit.
 
 ## Resources to share with your clients
