@@ -1,7 +1,7 @@
 ---
 title: "Availability in Guatemala"
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference

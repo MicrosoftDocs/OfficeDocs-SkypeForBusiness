@@ -1,7 +1,7 @@
 ---
 title: Teams apps behavior for non-standard users 
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: joglocke
 manager: serdars
 ms.topic: article
