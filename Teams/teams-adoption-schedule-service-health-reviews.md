@@ -30,6 +30,6 @@ In collaboration with your technical implementation team, plan to hold monthly s
 - **Service health** – Call quality, meeting health and overall service health. Review of any support incidents and helpdesk ticket levels. Security and governance topics. Typically led by information protection and support teams. 
 - **Capability/project roadmap** – What is the schedule of remaining employee onboarding or further collaboration improvement projects? What additional features is your organization going to enable? Typically led by service manager or product owner for collaboration services in collaboration with key business stakeholders.
 - **Awareness campaign and training success measure update** – Includes reach, participation, key feedback themes, and open issues. Includes key wins and success stories.
-- **Teams lifecycle management** – includes number of active versus inactive teams, number of teams with guests users, ownerless groups, and teams with duplicate names. 
+- **Teams lifecycle management** – Includes number of active versus inactive teams, number of teams with guests users, ownerless groups, and teams with duplicate names. 
 
 This monthly review can be quite formal in large organizations or virtual in smaller companies. It is important to share and monitor this data to ensure a healthy and every increasingly vibrant implementation of Microsoft Teams. 
