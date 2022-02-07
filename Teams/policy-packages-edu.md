@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams policies and policy packages for EDU admins
-author: MicrosoftHeidi
-ms.author: heidip
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: prkuch
 ms.topic: article

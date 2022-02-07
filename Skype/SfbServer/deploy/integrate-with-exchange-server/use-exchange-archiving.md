@@ -1,8 +1,8 @@
 ---
 title: "Configure Skype for Business Server to use Exchange Server archiving"
 ms.reviewer: 
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
