@@ -186,7 +186,7 @@ By default, Microsoft Teams Rooms attempts to connect to the Windows Store to ge
   
 Microsoft Teams Rooms connects to Windows Update to retrieve operating system and peripheral device firmware updates.
  
-If you must manage updates manually and are also unable to follow the normal procedure for [Microsoft Store for Business](https://businessstore.microsoft.com/store) to [Distribute offline apps](/microsoft-store/distribute-offline-apps), you can acquire MTR-Update packages to perform app updates on supported OSes. The MTR-Update release may lag behind the store release, and might not always match the latest available build. Refer to the article [Manually Update a Microsoft Teams Rooms device](manual-update.md) for further details.
+If you must manage updates manually and are also unable to follow the normal procedure for [Microsoft Store for Business](https://businessstore.microsoft.com/store) to [Distribute offline apps](/microsoft-store/distribute-offline-apps), you can acquire MTR-Update packages to perform app updates on supported operating systems. The MTR-Update release may lag behind the store release, and might not always match the latest available build. Refer to the article [Manually Update a Microsoft Teams Rooms device](manual-update.md) for further details.
 
 ## Admin mode and device management
 <a name="AdminMode"> </a>
