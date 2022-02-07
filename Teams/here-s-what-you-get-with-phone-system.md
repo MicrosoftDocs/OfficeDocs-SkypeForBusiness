@@ -35,7 +35,7 @@ Clients are available for PC, Mac, and mobile, which provides features on device
 
 To use Teams Phone features, your organization must have a Phone System license. For more information about licensing, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-Be aware that most features require you to assign the Phone System license and ensure that users are "voice enabled." To assign the license, use the [Set-CsUser cmdlet](/powershell/module/skype/set-csuser?view=skype-ps) and set the **enterprisevoiceenabled** parameter to $true. A few features, such as cloud auto attendant, do not require a user to be voice enabled. Exceptions are called out in the table below.
+Be aware that most features require you to assign the Phone System license and ensure that users are "voice enabled." To assign the license, use the [Set-CsPhoneNumberAssignment cmdlet](/powershell/module/teams/set-csphonenumberassignment?view=teams-ps) and set the **EnterpriseVoiceEnabled** parameter to $true. A few features, such as cloud auto attendant, do not require a user to be voice enabled. Exceptions are called out in the table below.
   
 ## Teams Phone features
 
@@ -43,7 +43,7 @@ Teams Phone provides the following features.
   
 |Teams Phone feature  |Description |
 |:-----|:-----|
-|[Cloud auto attendants](what-are-phone-system-auto-attendants.md)  |Lets you create a menu system that enables external and internal callers to locate and place or transfer calls to company users or departments in your organization.  <br/> Note that users *do not* need to be voice enabled to receive calls from the auto attendant. |
+|[Cloud auto attendants](what-are-phone-system-auto-attendants.md)  |Lets you create a menu system that enables external and internal callers to locate and place or transfer calls to company users or departments in your organization.  <br/> Note that users *do not* need to be voice enabled to receive calls from the auto attendant dial by name, dial by number directory search. Users *do* need to be voice enabled to receive calls from the auto attendant menu options. |
 |[Cloud call queues](create-a-phone-system-call-queue.md) <br> |Lets you configure how call queues are managed for your organization: for example, set up greetings and music on hold, search for the next available call agent to handle the call, and so on.  <br/> Note that users *do* need to be voice enabled to receive calls from a call queue.|
 |[Music on hold](music-on-hold.md) | Plays default music defined by the service or custom music uploaded by the tenant administrator when an external call from the Public Switched Telephone Network (PSTN) is placed on hold. This feature works for one-to-one PSTN-to-Teams calls in addition to calls made to a call queue. This feature provides on-hold notification parity with other platforms. |
 |Call answer/initiate (by name and number)   |Lets users answer inbound calls with a touch, and place outbound calls either by dialing the full phone number or by clicking a name in the client.   |

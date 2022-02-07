@@ -36,6 +36,9 @@ Before you start the procedures in this article, ensure you've done the followin
 - [Obtain virtual user licenses](#obtain-virtual-user-licenses)
 - [Obtain service numbers](#obtain-service-numbers)
 
+> [!NOTE]
+> Resource accounts are disabled for sign in and must remain so. Chat and presence are not avaialble for these accounts.
+
 ### Obtain virtual user licenses
 
 Each resource account requires a license in order to work with auto attendants and call queues. You can use a free *Microsoft 365 Phone System - Virtual User* license. To obtain these licenses, see [Virtual User license](teams-add-on-licensing/virtual-user.md).
@@ -99,7 +102,7 @@ If you're planning to use the resource account with an auto attendant or call qu
 
 To assign a direct routing or hybrid number to a resource account you need to use PowerShell:
 
-`Set-CsOnlineApplicationInstance -Identity aa-contoso_main@contoso64.net -OnpremPhoneNumber +19295550150`
+`Set-CsPhoneNumberAssignment -Identity aa-contoso_main@contoso64.net -PhoneNumber +19295550150 -PhoneNumberType DirectRouting`
 
 ## Next steps
 
@@ -150,5 +153,5 @@ After you do that, you can delete the resource account in the Microsoft 365 admi
 To disassociate a direct routing telephone number from the resource account, use the following cmdlet:
 
 ```powershell
-Set-CsOnlineApplicationInstance -Identity  <Resource Account oid> -OnpremPhoneNumber ""
+Remove-CsPhoneNumberAssignment -Identity  <Resource Account oid> -PhoneNumber <assigned phone number> -PhoneNumberType DirectRouting
 ```
