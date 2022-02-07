@@ -37,11 +37,11 @@ The communication and collaboration platform of Teams makes it easy for clinicia
 - Write metadata back to the EHR system about Teams virtual visits to record when attendees connect, disconnect, and enable automatic auditing and record keeping.
 - View consumption data reports and customizable Call Quality information for EHR-connected visits.
 
-Check out this video for an overview of how to manage virtual visits from the EHR portal.
+Check out this video for an overview of how to manage Virtual Visits from the EHR portal.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HAtn]
 
-This article describes how to set up and configure the Teams EHR connector to integrate with the Epic platform in your healthcare organization. It also gives you an overview of the Teams virtual visits experience from the Epic EHR system.
+This article describes how to set up and configure the Teams EHR connector to integrate with the Epic platform in your healthcare organization. It also gives you an overview of the Teams Virtual Visits experience from the Epic EHR system.
 
 ## Before you begin
 
@@ -123,7 +123,7 @@ Next, to set up the integration, your Microsoft 365 admin does the following:
 ### Enable SMS notifications (optional)
 
 > [!NOTE]
-> SMS notifications is currently only available in the United States. We're working on making this feature available in other regions in future releases of Teams and will update this article when available. 
+> SMS notifications is currently only available in the United States. We're working on making this feature available in other regions in future releases of Teams and will update this article when available.
 
 Complete this step if your organization wants Microsoft to manage SMS notifications for your patients. When you enable SMS notifications, your patients will receive confirmation and reminder messages for scheduled virtual visits.
 
@@ -192,7 +192,7 @@ When the configuration information is approved by the Epic administrator, you'll
 - SMS configuration record
 - Device test configuration record
 
-The Epic customer analyst must provide these records to Epic to complete the virtual visit configuration in Epic. For more information, see the [Epic-Microsoft Teams Telehealth Integration Guide](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
+The Epic customer analyst must provide these records to Epic to complete the Virtual Visits configuration in Epic. For more information, see the [Epic-Microsoft Teams Telehealth Integration Guide](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
 
 > [!Note]  
 > At any time the Microsoft 365 or Epic customer analyst can sign in to the configuration portal to view integration records and change organization configuration, as needed.
@@ -254,7 +254,7 @@ Key features of the patient experience:
 
 ### Privacy and location of data
 
-Teams integration into EHR systems optimizes the amount of data that's used and stored during integration and virtual visit flows. The solution follows the overall Teams privacy and data management principles and guidelines outlined in Teams Privacy.
+Teams integration into EHR systems optimizes the amount of data that's used and stored during integration and Virtual Visits flows. The solution follows the overall Teams privacy and data management principles and guidelines outlined in Teams Privacy.
 
 The Teams EHR connector doesn't store or transfer any identifiable personal data or any health records of patients or healthcare providers from the EHR system. The only data that is stored by the EHR connector is the EHR user’s unique ID, which is used during Teams meeting setup.
 

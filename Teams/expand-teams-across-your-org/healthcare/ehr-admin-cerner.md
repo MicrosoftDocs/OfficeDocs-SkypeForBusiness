@@ -37,7 +37,7 @@ The communication and collaboration platform of Teams makes it easy for clinicia
 - Enable patients to join Teams virtual visits from email or SMS notifications.
 - View consumption data reports and customizable Call Quality information for EHR-connected visits.
 
-This article describes how to set up and configure the Teams EHR connector to integrate with the Cerner platform. It also gives you an overview of the Teams virtual visits experience from the Cerner EHR system.
+This article describes how to set up and configure the Teams EHR connector to integrate with the Cerner platform. It also gives you an overview of the Teams Virtual Visits experience from the Cerner EHR system.
 
 ## Before you begin
 
@@ -117,7 +117,7 @@ To enable SMS notifications, your Microsoft 365 admin does the following:
 
 ### Review and finish the configuration
 
-You'll be presented with integration records for patient and provider launch. These records are necessary to complete the virtual visit configuration in Cerner. For more information, see the Cerner-Microsoft Teams Telehealth Integration guide.
+You'll be presented with integration records for patient and provider launch. These records are necessary to complete the Virtual Visits configuration in Cerner. For more information, see the Cerner-Microsoft Teams Telehealth Integration guide.
 
 > [!NOTE]
 > At any time, your Microsoft 365 admin can sign in to the configuration portal to view integration records and change configuration settings, if needed.
@@ -161,7 +161,7 @@ Key features of the patient experience
 
 ## Privacy and location of data
 
-Teams integration into EHR systems optimizes the amount of data that’s used and stored during integration and virtual visit flows. The solution follows the overall Teams privacy and data management principles and guidelines outlined in Teams Privacy.
+Teams integration into EHR systems optimizes the amount of data that’s used and stored during integration and Virtual Visits flows. The solution follows the overall Teams privacy and data management principles and guidelines outlined in Teams Privacy.
 
 The Teams EHR connector doesn't store or transfer any identifiable personal data or any health records of patients or healthcare providers from the EHR system. The only data that the EHR connector stores is the EHR user’s unique ID, which is used during Teams meeting setup.
 
