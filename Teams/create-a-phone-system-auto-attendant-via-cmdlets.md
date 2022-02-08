@@ -231,7 +231,6 @@ Get-MsolAccountSku
 ````
 
 ### Create and assign Resource Account
-Note: Phone number not required here as call queue is front ended by an Auto Attendant
 - ApplicationID
 - - Auto Attendant: ce933385-9390-45d1-9512-c8d228074e07
 - - Call Queue: 11cd3e2e-fccb-42ad-ad00-878b93575e07
