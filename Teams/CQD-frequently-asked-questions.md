@@ -87,7 +87,7 @@ To learn more about roles that can access CQD - including EUII - read [Assign ro
 
 Call quality management tools like CQD, Call Analytics, CallRecord Graph API, and Real-time Analytics are based on diagnostic telemetry. The information we show in Teams call quality management tools is only as complete as the telemetry data we receive from clients participating in a call. There are several reasons why we may not receive complete telemetry such as network outages, or [firewall or proxy misconfigurations](/microsoft-365/enterprise/urls-and-ip-address-ranges.md). We are continuing to work to improve the reliability and resiliency with which Teams clients deliver telemetry to the service.
 
-With that in mind, we recommend not relying on call quality management tools for usage reporting. Teams Admin Center offers a series of [Usage Reports](teams-analytics-and-reports/teams-reporting-reference.md), and a [Meeting Attendance Report](teams-analytics-and-reports/meeting-attendance-report.md) is available directly from the Teams client.
+With that in mind, we do not support the use of call quality management tools for usage reporting. They are not designed to accommodate nor intended for these types of reporting scenarios, and many usage statistics are not and will not be available within these tools. Teams Admin Center offers a series of [Usage Reports](teams-analytics-and-reports/teams-reporting-reference.md), and a [Meeting Attendance Report](teams-analytics-and-reports/meeting-attendance-report.md) is available directly from the Teams client.
 
 ### Why am I seeing Skype for Business information in CQD when I've filtered for Teams only?
 
