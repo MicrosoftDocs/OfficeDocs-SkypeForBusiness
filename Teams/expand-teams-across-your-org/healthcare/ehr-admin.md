@@ -22,7 +22,7 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ms.reviewer: ansantam 
-description: Learn how to integrate the Teams EHR connector to enable healthcare providers in your organization to conduct virtual visits with patients or other providers in Teams directly from the Epic EHR system. 
+description: Learn how to integrate the Teams EHR connector to enable healthcare providers in your organization to conduct Virtual Visits with patients or other providers in Teams directly from the Epic EHR system. 
 ---
 
 # Virtual Visits with Teams - Integration into Epic EHR
@@ -31,10 +31,10 @@ The Microsoft Teams Electronic Health Record (EHR) connector makes it easy for c
 
 The communication and collaboration platform of Teams makes it easy for clinicians to cut through the clutter of fragmented systems so they can focus on providing the best possible care. With the Teams EHR connector, you can:
 
-- Launch Teams virtual visits from your Epic EHR system with an integrated clinical workflow.
-- Enable patients to join Teams virtual visits from within the patient portal or through SMS.
-- Support other virtual visit scenarios including multi-participant, group visits, and interpreter services.
-- Write metadata back to the EHR system about Teams virtual visits to record when attendees connect, disconnect, and enable automatic auditing and record keeping.
+- Launch Teams Virtual Visits from your Epic EHR system with an integrated clinical workflow.
+- Enable patients to join Teams Virtual Visits from within the patient portal or through SMS.
+- Support other scenarios including multi-participant, group visits, and interpreter services.
+- Write metadata back to the EHR system about Teams Virtual Visits to record when attendees connect, disconnect, and enable automatic auditing and record keeping.
 - View consumption data reports and customizable Call Quality information for EHR-connected visits.
 
 Check out this video for an overview of how to manage Virtual Visits from the EHR portal.
@@ -125,7 +125,7 @@ Next, to set up the integration, your Microsoft 365 admin does the following:
 > [!NOTE]
 > SMS notifications is currently only available in the United States. We're working on making this feature available in other regions in future releases of Teams and will update this article when available.
 
-Complete this step if your organization wants Microsoft to manage SMS notifications for your patients. When you enable SMS notifications, your patients will receive confirmation and reminder messages for scheduled virtual visits.
+Complete this step if your organization wants Microsoft to manage SMS notifications for your patients. When you enable SMS notifications, your patients will receive confirmation and reminder messages for scheduled visits.
 
 To enable SMS notifications, your Microsoft 365 admin does the following:
 
@@ -154,8 +154,8 @@ To enable SMS notifications, your Microsoft 365 admin does the following:
 
     :::image type="content" source="media/ehr-connector-epic-sms-setup.png" alt-text="Screenshot showing SMS setup settings." lightbox="media/ehr-connector-epic-sms-setup.png":::
 
-    - **Confirmation SMS**: Notifications are sent to patients when a virtual visit is scheduled, updated, or canceled in the EHR system.
-    - **Reminder SMS**: Notifications are sent to patients according to the time interval you specify and the scheduled time of the virtual visit.
+    - **Confirmation SMS**: Notifications are sent to patients when a visit is scheduled, updated, or canceled in the EHR system.
+    - **Reminder SMS**: Notifications are sent to patients according to the time interval you specify and the scheduled time of the visit.
 
     Choose **Save**.
 
@@ -214,40 +214,40 @@ After completing the EHR connector steps and Epic configuration, your organizati
 
 ### Provider experience
 
-Healthcare providers from your organization can join virtual visits using Teams from their Epic provider apps (Hyperspace, Haiku, Canto). The **Begin virtual visit** button is embedded in the provider flow.
+Healthcare providers from your organization can join visits using Teams from their Epic provider apps (Hyperspace, Haiku, Canto). The **Begin virtual visit** button is embedded in the provider flow.
 
 Key features of the provider experience:
 
-- Providers can join virtual visits using supported browsers or the Teams app.
+- Providers can join visits using supported browsers or the Teams app.
 
-- Providers must do a one-time sign-in with their Microsoft 365 account when joining a virtual visit for the first time.
+- Providers must do a one-time sign-in with their Microsoft 365 account when joining a visit for the first time.
 
 - After the one-time sign-in, the provider is taken directly to the virtual appointment in  Teams. (The provider must be signed in to Teams).
 
-- Providers can see real-time updates of participants connecting and disconnecting for a given appointment. Providers can see when the patient is connected to a virtual visit.
+- Providers can see real-time updates of participants connecting and disconnecting for a given appointment. Providers can see when the patient is connected to a visit.
 
-  ![Provider experience of a virtual visit with patient.](media/ehc-provider-experience-6.png)
+  ![Provider experience of a visit with a patient.](media/ehc-provider-experience-6.png)
 
 > [!NOTE]
 > Any information entered in the meeting chat that’s necessary for medical records continuity or retention purposes should be downloaded, copied, and notated by the healthcare provider. The chat doesn’t constitute a legal medical record or a designated record set. Messages from the chat are stored based on settings created by the Microsoft Teams admin.
 
 ### Patient experience
 
-The connector supports patients joining virtual visits through MyChart web and mobile. At the time of the appointment, patients can start a virtual visit from MyChart using the **Begin virtual visit** button.
+The connector supports patients joining visits through MyChart web and mobile. At the time of the appointment, patients can start a visit from MyChart using the **Begin virtual visit** button.
 
 Key features of the patient experience:
 
-- Patients can join virtual visits from modern web browsers on desktop and [mobile without having to install the Teams app](../mobile-browser-join.md).
+- Patients can join visits from modern web browsers on desktop and [mobile without having to install the Teams app](../mobile-browser-join.md).
 
-- Patients can join virtual visits with a single click and no other account or sign-in is required.
+- Patients can join visits with a single click and no other account or sign-in is required.
 
-- Patients aren't required to create a Microsoft account or sign in to launch a virtual visit.
+- Patients aren't required to create a Microsoft account or sign in to launch a visit.
 
-- Patients are placed in a lobby until the provider joins the appointment and admits them to the virtual visit.
+- Patients are placed in a lobby until the provider joins the appointment and admits them to the visit.
 
-- Patients can test their video and microphone in the lobby before they join the virtual visit.
+- Patients can test their video and microphone in the lobby before they join the visit.
 
-  ![Patient experience of the virtual visit.](media/ehc-virtual-visit-5.png)
+  ![Patient experience of the visit.](media/ehc-virtual-visit-5.png)
 
 > [!Note]
 > Epic, MyChart, Haiku, and Canto are trademarks of Epic Systems Corporation.

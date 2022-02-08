@@ -61,9 +61,9 @@ In Bookings, select **New booking**, and then turn on **Allow attendees to join 
 
 No set up is needed by you or your staff!
 
-**Integration with Cerner EHR**: The Teams EHR connector supports patients joining virtual visits through mobile. At the time of the appointment, patients can join a virtual visit by tapping the link in the SMS text message. The patient chooses the browser they want, and then Teams opens in that browser.
+**Integration with Cerner EHR**: The Teams EHR connector supports patients joining virtual appointments through mobile. At the time of the appointment, patients can join by tapping the link in the SMS text message. The patient chooses the browser they want, and then Teams opens in that browser.
 
-**Integration with Epic EHR**: The Teams EHR connector supports patients joining virtual visits through MyChart web and mobile. At the time of the appointment, patients can start a virtual visit from MyChart by using the **Begin virtual visit** button. The patient chooses the browser they want, and then Teams opens in that browser.
+**Integration with Epic EHR**: The Teams EHR connector supports patients joining virtual appointments through MyChart web and mobile. At the time of the appointment, patients can start the visit from MyChart by using the **Begin virtual visit** button. The patient chooses the browser they want, and then Teams opens in that browser.
 
 ## Supported mobile browsers
 
@@ -81,7 +81,7 @@ Here are the mobile browsers that are currently supported. We support the latest
 
 ## Things to consider
 
-The staff member who conducts the virtual visit can share their screen from their Teams desktop, mobile, or web client with an attendee who joins from a mobile browser. However, attendees can't share their screen from a mobile browser.
+The staff member who conducts the visit can share their screen from their Teams desktop, mobile, or web client with an attendee who joins from a mobile browser. However, attendees can't share their screen from a mobile browser.
 
 > [!NOTE]
 > We're adding more capabilities to the meeting join experience in future releases of Teams, so check back for the most up-to-date information. To stay on top of upcoming Teams features, check out the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).

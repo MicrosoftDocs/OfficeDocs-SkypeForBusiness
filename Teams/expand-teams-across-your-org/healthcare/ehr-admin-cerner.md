@@ -22,19 +22,19 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ms.reviewer: ansantam 
-description: Learn how to integrate the Teams EHR connector to enable healthcare providers in your organization to conduct virtual visits with patients or other providers in Teams directly from the Cerner EHR system. 
+description: Learn how to integrate the Teams EHR connector to enable healthcare providers in your organization to conduct Virtual Visits with patients or other providers in Teams directly from the Cerner EHR system. 
 ---
 
 # Virtual Visits with Teams - Integration into Cerner EHR
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-The Microsoft Teams Electronic Health Record (EHR) connector makes it easy for clinicians to launch a virtual visit with a patient or consult with another provider in Microsoft Teams directly from the Cerner EHR system. Built on the Microsoft 365 cloud, Teams enables simple, secure collaboration and communication with chat, video, voice, and healthcare tools in a single hub that supports compliance with HIPAA, HITECH certification, and more.
+The Microsoft Teams Electronic Health Record (EHR) connector makes it easy for clinicians to launch a virtual appointment with a patient or consult with another provider in Microsoft Teams directly from the Cerner EHR system. Built on the Microsoft 365 cloud, Teams enables simple, secure collaboration and communication with chat, video, voice, and healthcare tools in a single hub that supports compliance with HIPAA, HITECH certification, and more.
 
 The communication and collaboration platform of Teams makes it easy for clinicians to cut through the clutter of fragmented systems so they can focus on providing the best possible care. With the Teams EHR connector, you can:
 
-- Conduct Teams virtual visits from your Cerner EHR system with an integrated clinical workflow.
-- Enable patients to join Teams virtual visits from email or SMS notifications.
+- Conduct Teams Virtual Visits from your Cerner EHR system with an integrated clinical workflow.
+- Enable patients to join Teams Virtual Visits from email or SMS notifications.
 - View consumption data reports and customizable Call Quality information for EHR-connected visits.
 
 This article describes how to set up and configure the Teams EHR connector to integrate with the Cerner platform. It also gives you an overview of the Teams Virtual Visits experience from the Cerner EHR system.
@@ -88,7 +88,7 @@ Select **Next** to go to the next step.
 
 ### Enable SMS notifications (optional)
 
-Complete this step if your organization wants Microsoft to manage SMS notifications for your patients. When you enable SMS notifications, your patients will receive confirmation and reminder messages for scheduled virtual visits.
+Complete this step if your organization wants Microsoft to manage SMS notifications for your patients. When you enable SMS notifications, your patients will receive confirmation and reminder messages for scheduled visits.
 
 To enable SMS notifications, your Microsoft 365 admin does the following:
 
@@ -133,31 +133,31 @@ After completing the EHR connector steps and Cerner configuration steps, your or
 
 ### Provider experience
 
-Healthcare providers in your organization can join virtual visits using Teams from the PowerChart portal. The provider must navigate to the patient board where the Teams option is available.
+Healthcare providers in your organization can join visits using Teams from the PowerChart portal. The provider must navigate to the patient board where the Teams option is available.
 
-From there, the provider can view virtual visit information, join virtual visits, and send the meeting link. After the one-time sign-in, the provider is taken directly to the virtual appointment in Teams.
+From there, the provider can view visit information, join visits, and send the meeting link. After the one-time sign-in, the provider is taken directly to the virtual appointment in Teams.
 
 Key features of the provider experience:
 
-- Providers can join virtual visits using supported browsers or the Teams app.
+- Providers can join visits using supported browsers or the Teams app.
 - Providers can use all supported Teams meeting features, including screen sharing, custom background, and recording.
-- Providers can see real-time updates of patients connecting to a virtual visit for a given appointment in PowerChart.
-- Provider information isn’t visible to patients during the virtual visit.
+- Providers can see real-time updates of patients connecting to a visit for a given appointment in PowerChart.
+- Provider information isn’t visible to patients during the visit.
 
 > [!NOTE]
 > Any information entered in the meeting chat that’s necessary for medical records continuity or retention purposes should be downloaded, copied, and notated by the healthcare provider. The chat doesn’t constitute a legal medical record or a designated record set. Messages from the chat are stored based on settings created by the Microsoft Teams admin.
 
 ### Patient experience
 
-The connector supports patients joining virtual visits through a link in the SMS text message. At the time of the appointment, patients can start a virtual visit by tapping the link in the SMS text message.
+The connector supports patients joining visits through a link in the SMS text message. At the time of the appointment, patients can start a visit by tapping the link in the SMS text message.
 
 Key features of the patient experience
 
-- Patients can join virtual visits from modern web browsers on desktop and [mobile without having to install the Teams app](../mobile-browser-join.md).
-- Patients can join virtual visits with a single click and no other account or sign-in is required.
-- Patients aren't required to create a Microsoft account or sign in to launch a virtual visit.
-- Patients are placed in a lobby until the provider joins the appointment and admits them to the virtual visit.
-- Patients can test their video and microphone in the lobby before joining the virtual visit.
+- Patients can join visits from modern web browsers on desktop and [mobile without having to install the Teams app](../mobile-browser-join.md).
+- Patients can join visits with a single click and no other account or sign-in is required.
+- Patients aren't required to create a Microsoft account or sign in to launch a visit.
+- Patients are placed in a lobby until the provider joins the appointment and admits them to the visit.
+- Patients can test their video and microphone in the lobby before joining the visit.
 
 ## Privacy and location of data
 
