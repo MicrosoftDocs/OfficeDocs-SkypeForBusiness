@@ -126,7 +126,7 @@ When you install a new firmware version on your device, you can determine the co
 |Poly Trio C60   | `7.2.1.1712`  | 2022 Update #1   |
 |Poly CCX400/CCX500/CCX600   | `7.2.1.1707`  | 2022 Update #1  |
 |Audiocodes C448HD  | `1.14.500` | 2022 Update #1 |
-|Audiocodes C450HD  | 1.14.500` | 2022 Update #1  |
+|Audiocodes C450HD  | `1.14.500` | 2022 Update #1  |
 |Audiocodes C470HD  | `1.14.500` | 2022 Update #1   |
 |Audiocodes C435HD  | `1.14.500` | 2022 Update #1  |
 |Yealink T55/T56/T58   | `58.15.0.153`  | 2022 Update #1 |
