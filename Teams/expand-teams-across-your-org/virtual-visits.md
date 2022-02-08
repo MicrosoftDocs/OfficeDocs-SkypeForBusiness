@@ -42,7 +42,7 @@ To learn more, see:
 
 ## Teams Electronic Health Records (EHR) connector
 
-If your healthcare organization uses Electronic Health Records (EHR), you can integrate Teams with your EHR system for a more seamless experience. After you set up the Teams EHR connector, clinicians can launch online meetings with patients and consultations with other providers in Teams directly from the EHR system.
+If your healthcare organization uses Electronic Health Records (EHR), you can integrate Teams with your EHR system for a more seamless experience. After you set up the Teams EHR connector, clinicians can launch visits with patients and consultations with other providers in Teams directly from the EHR system.
 
 Currently, the Teams EHR connector supports integration with the Cerner EHR system and Epic EHR system. To learn more, see:
 
