@@ -123,59 +123,59 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
-|Poly Trio C60   | 7.2.1.1712  | 2022 Update #1   |
-|Poly CCX400/CCX500/CCX600   | 7.2.1.1707  | 2022 Update #1  |
-|Audiocodes C448HD  | 1.14.500 | 2022 Update #1 |
-|Audiocodes C450HD  | 1.14.500 | 2022 Update #1  |
-|Audiocodes C470HD  | 1.14.500 | 2022 Update #1   |
-|Audiocodes C435HD  | 1.14.500 | 2022 Update #1  |
-|Yealink T55/T56/T58   | 58.15.0.153  | 2022 Update #1 |
-|Yealink MP54/MP56/MP58   | 122.15.0.77     | 2022 Update #1  |
-| Yealink VP59   | 91.15.0.87  | 2022 Update #1     |
-| Yealink CP960  | 73.15.0.150  | 2022 Update #1         |
-| Yealink MP52 | 145.15.0.25  | 2022 Update #1         |
-| Poly Trio C60   | 7.1.4.0201  | 2021 Update #3B                        |
-| Poly CCX400/CCX500/CCX600   | 7.1.4.0200  | 2021 Update #3B                 |
-|Audiocodes C448HD  | 1.14.449 | 2021 Update #3  |
-|Audiocodes C450HD  | 1.14.449 | 2021 Update #3  |
-|Audiocodes C470HD  | 1.14.449 | 2021 Update #3  |
-|Audiocodes C448HD  | C448HD_TEAMS_1.14.449 | 2021 Update #3  |
-|Audiocodes C450HD  | C450HD_TEAMS_1.14.449 | 2021 Update #3  |
-|Audiocodes C470HD  | C470HD_TEAMS_1.14.449 | 2021 Update #3  |
-|Poly Trio C60      | 7.1.3.0985            | 2021 Update #3  |
-|Poly CCX400/CCX500/CCX600 | 7.1.3.0991     | 2021 Update #3  |
-|Crestron UC-2      | 1.0.4.57              | 2021 Update #3  |
-|Yealink T55A/T56A/T58A   | 58.15.0.143     | 2021 Update #3  |
-|Yealink MP54/MP56/MP58   | 122.15.0.60     | 2021 Update #3  |
-|Yealink VP59             | 91.15.0.77      | 2021 Update #3  |
-|Yealink CP960            | 73.15.0.139     | 2021 Update #3  |
-| Poly Trio C60           | 7.0.3.0517      | 2021 Update #2      |
-| Poly CCX400/CCX500/CCX600   | 7.0.3.0515 | 2021 Update #2                     |
-| Audio Codes C448HD/C450HD/C470HD   | 1.10.143  | 2021 Update #2           |
-| Yealink T55/T56/T58   | 58.15.0.131  | 2021 Update #2                       |
-| Yealink VP59   | 91.15.0.63  | 2021 Update #2                               |
-| Yealink CP960  | 73.15.0.126  | 2021 Update #2                               |
-| Yealink MP56/MP54/MP58  | 122.15.0.44 | 2021 Update #2                       |
-| Crestron UC-2  | 1.0.3.66 | 2021 Update #2 |
-| Poly Trio C60   | 7.0.2.1071  | 2021 Update #1                        |
-| Poly CCX400/CCX500/CCX600   | 7.0.2.1072  | 2021 Update #1                 |
-| Audio Codes C448HD/C450HD/C470HD   | 1.10.120  | 2021 Update #1       |
-| Yealink T55/T56/T58   | 58.15.0.124  | 2021 Update #1                      |
-| Yealink VP59   | 91.15.0.58  | 2021 Update #1                              |
-| Yealink CP960  | 73.15.0.117  | 2021 Update #1                              |
-| Yealink MP56/MP54/MP58  | 122.15.0.36  | 2021 Update #1                     |
-| Crestron UC-2  | 1.0.3.52 | 2021 Update #1 |
-| AudioCodes C448HD   | C450HD_TEAMS_1.8.288  | 2020 Update #7           |
-| AudioCodes C450HD   | C450HD_TEAMS_1.8.288  | 2020 Update #7           |
-| Crestron UC-2       | 1.0.2.53              | 2020 Update #7            |
-| Lenovo ThinkSmart View| CD-18781Y.200922.098 | 2020 Update #6           |
-| Poly CCX400         | 6.2.23.0202       | 2020 Update #7           |
-| Poly CCX500/CCX600  | 6.2.23.0202         | 2020 Update #7          |
-| Poly Trio C60       | 6.2.23.0202          | 2020 Update #7          |
-| Yealink T55/T56/T58 | 58.15.0.122       | 2020 Update #7           |
-| Yealink MP56        | 122.15.0.33         | 2020 Update #7           |
-| Yealink VP59        | 91.15.0.54         | 2020 Update #7           |
-| Yealink CP960       | 73.15.0.115      | 2020 Update #7           |
+|Poly Trio C60   | `7.2.1.1712`  | 2022 Update #1   |
+|Poly CCX400/CCX500/CCX600   | `7.2.1.1707`  | 2022 Update #1  |
+|Audiocodes C448HD  | `1.14.500` | 2022 Update #1 |
+|Audiocodes C450HD  | `1.14.500` | 2022 Update #1  |
+|Audiocodes C470HD  | `1.14.500` | 2022 Update #1   |
+|Audiocodes C435HD  | `1.14.500` | 2022 Update #1  |
+|Yealink T55/T56/T58   | `58.15.0.153`  | 2022 Update #1 |
+|Yealink MP54/MP56/MP58   | `122.15.0.77`     | 2022 Update #1  |
+| Yealink VP59   | `91.15.0.87`  | 2022 Update #1     |
+| Yealink CP960  | `73.15.0.150`  | 2022 Update #1         |
+| Yealink MP52 | `145.15.0.25`  | 2022 Update #1         |
+| Poly Trio C60   | `7.1.4.0201`  | 2021 Update #3B                        |
+| Poly CCX400/CCX500/CCX600   | `7.1.4.0200`  | 2021 Update #3B                 |
+|Audiocodes C448HD  | `1.14.449` | 2021 Update #3  |
+|Audiocodes C450HD  | `1.14.449` | 2021 Update #3  |
+|Audiocodes C470HD  | `1.14.449` | 2021 Update #3  |
+|Audiocodes C448HD  | `C448HD_TEAMS_1.14.449` | 2021 Update #3  |
+|Audiocodes C450HD  | `C450HD_TEAMS_1.14.449` | 2021 Update #3  |
+|Audiocodes C470HD  | `C470HD_TEAMS_1.14.449` | 2021 Update #3  |
+|Poly Trio C60      | `7.1.3.0985`            | 2021 Update #3  |
+|Poly CCX400/CCX500/CCX600 | `7.1.3.0991`     | 2021 Update #3  |
+|Crestron UC-2      | `1.0.4.57`              | 2021 Update #3  |
+|Yealink T55A/T56A/T58A   | `58.15.0.143`     | 2021 Update #3  |
+|Yealink MP54/MP56/MP58   | `122.15.0.60`     | 2021 Update #3  |
+|Yealink VP59             | `91.15.0.77`      | 2021 Update #3  |
+|Yealink CP960            | `73.15.0.139`     | 2021 Update #3  |
+| Poly Trio C60           | `7.0.3.0517`      | 2021 Update #2      |
+| Poly CCX400/CCX500/CCX600   | `7.0.3.0515` | 2021 Update #2                     |
+| Audio Codes C448HD/C450HD/C470HD   | `1.10.143`  | 2021 Update #2           |
+| Yealink T55/T56/T58   | `58.15.0.131`  | 2021 Update #2                       |
+| Yealink VP59   | `91.15.0.63`  | 2021 Update #2                               |
+| Yealink CP960  | `73.15.0.126`  | 2021 Update #2                               |
+| Yealink MP56/MP54/MP58  | `122.15.0.44` | 2021 Update #2                       |
+| Crestron UC-2  | `1.0.3.66` | 2021 Update #2 |
+| Poly Trio C60   | `7.0.2.1071`  | 2021 Update #1                        |
+| Poly CCX400/CCX500/CCX600   | `7.0.2.1072`  | 2021 Update #1                 |
+| Audio Codes C448HD/C450HD/C470HD   | `1.10.120`  | 2021 Update #1       |
+| Yealink T55/T56/T58   | `58.15.0.124`  | 2021 Update #1                      |
+| Yealink VP59   | `91.15.0.58`  | 2021 Update #1                              |
+| Yealink CP960  | `73.15.0.117`  | 2021 Update #1                              |
+| Yealink MP56/MP54/MP58  | `122.15.0.36`  | 2021 Update #1                     |
+| Crestron UC-2  | `1.0.3.52` | 2021 Update #1 |
+| AudioCodes C448HD   | `C450HD_TEAMS_1.8.288`  | 2020 Update #7           |
+| AudioCodes C450HD   | `C450HD_TEAMS_1.8.288`  | 2020 Update #7           |
+| Crestron UC-2       | `1.0.2.53`              | 2020 Update #7            |
+| Lenovo ThinkSmart View| `CD-18781Y.200922.098` | 2020 Update #6           |
+| Poly CCX400         | `6.2.23.0202`       | 2020 Update #7           |
+| Poly CCX500/CCX600  | `6.2.23.0202`         | 2020 Update #7          |
+| Poly Trio C60       | `6.2.23.0202`          | 2020 Update #7          |
+| Yealink T55/T56/T58 | `58.15.0.122`       | 2020 Update #7           |
+| Yealink MP56        | `122.15.0.33`         | 2020 Update #7           |
+| Yealink VP59        | `91.15.0.54`         | 2020 Update #7           |
+| Yealink CP960       | `73.15.0.115`      | 2020 Update #7           |
 
 See [Microsoft Teams phones feature set](phones-for-teams.md) for information on features supported by these devices.
 
