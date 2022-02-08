@@ -1,7 +1,7 @@
 ---
 title: Teams for Virtualized Desktop Infrastructure
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
