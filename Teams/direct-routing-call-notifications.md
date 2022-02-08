@@ -22,7 +22,7 @@ ms.localizationpriority: medium
 
 # Manage call notifications
 
-This article describes how to manage call notifications for your Teams Phone Direct Routing users. You can configure call endpoints to both Teams and to a third-party Private Branch Exchange (PBX) or Session Border Controller (SBC). This setup is useful, for example, if you want to send a call to a user's mobile and desk phones at the same time.   
+This article describes how to manage call notifications for your Direct Routing users. You can configure call endpoints to both Teams and to a third-party Private Branch Exchange (PBX) or Session Border Controller (SBC). This setup is useful, for example, if you want to send a call to a user's mobile and desk phones at the same time.   
 
 In the following diagram, user Irena has two endpoints:
 
