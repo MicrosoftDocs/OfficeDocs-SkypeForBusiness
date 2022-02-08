@@ -25,6 +25,16 @@ description: Learn how to use the Bookings app in Microsoft Teams to schedule, m
 
 Now that your organization has begun using Microsoft Teams and the Bookings app for Virtual visits, you'll need to make sure that your clients and customers understand how to book and join these appointments.
 
+## What's included in this toolkit
+
+This toolkit is intended to help you help your customers and clients successfully join a Virtual Visit. You can customize the resources we provide and include links to them in your communications about Virtual Visits. This toolkit includes:
+
+[Guidance for your website](#guidance-for-your-website): <br> An FAQ about Virtual Visits that you can customize and then host on your website.
+
+[Resources for your users](#resources-for-your-clients): <br>
+An infographic that you can customize for your organization. <br>
+A link to Microsoft's support content, which includes a video about joining a Virtual Visit.
+
 ## Guidance for your website
 
 Let your customers know what to expect with virtual visits by answering common questions. All you need to do is edit this Q&A to align with your virtual visit policies, and paste it on your website.
@@ -71,6 +81,6 @@ Customers can join a virtual visit from any web browser or through the Microsoft
 
 You can link your customers here Join a Bookings appointment as an attendee (microsoft.com) to show them a detailed video and step-by-step process of how to join a visit.
 
-## Resources to share with your clients
+## Resources for your clients
 
 [Learn how to join a virtual visit](https://support.microsoft.com/office/join-a-bookings-appointment-as-an-attendee-95cea12d-2220-421f-a663-6efb20913c7f)
