@@ -29,7 +29,7 @@ description: Learn how to integrate the Teams EHR connector to enable healthcare
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-The Microsoft Teams Electronic Health Record (EHR) connector makes it easy for clinicians to launch a virtual appointment with a patient or consult with another provider in Microsoft Teams directly from the Cerner EHR system. Built on the Microsoft 365 cloud, Teams enables simple, secure collaboration and communication with chat, video, voice, and healthcare tools in a single hub that supports compliance with HIPAA, HITECH certification, and more.
+The Microsoft Teams Electronic Health Record (EHR) connector makes it easy for clinicians to launch a virtual patient visit or consult with another provider in Microsoft Teams directly from the Cerner EHR system. Built on the Microsoft 365 cloud, Teams enables simple, secure collaboration and communication with chat, video, voice, and healthcare tools in a single hub that supports compliance with HIPAA, HITECH certification, and more.
 
 The communication and collaboration platform of Teams makes it easy for clinicians to cut through the clutter of fragmented systems so they can focus on providing the best possible care. With the Teams EHR connector, you can:
 
@@ -156,7 +156,7 @@ Key features of the patient experience
 - Patients can join visits from modern web browsers on desktop and [mobile without having to install the Teams app](../mobile-browser-join.md).
 - Patients can join visits with a single click and no other account or sign-in is required.
 - Patients aren't required to create a Microsoft account or sign in to launch a visit.
-- Patients are placed in a lobby until the provider joins the appointment and admits them to the visit.
+- Patients are placed in a lobby until the provider joins and admits them.
 - Patients can test their video and microphone in the lobby before joining the visit.
 
 ## Privacy and location of data

@@ -243,7 +243,7 @@ Key features of the patient experience:
 
 - Patients aren't required to create a Microsoft account or sign in to launch a visit.
 
-- Patients are placed in a lobby until the provider joins the appointment and admits them to the visit.
+- Patients are placed in a lobby until the provider joins and admits them.
 
 - Patients can test their video and microphone in the lobby before they join the visit.
 
