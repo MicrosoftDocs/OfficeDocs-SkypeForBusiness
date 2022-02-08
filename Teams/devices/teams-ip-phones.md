@@ -203,37 +203,37 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
-| Poly Studio X30 | `3.9.0`          | 2021 Update #2F   |
-| Poly Studio X50 | `3.9.0`          | 2021 Update #2F   |
-| Poly TC8        | `3.9.0`          | 2021 Update #2F   |
-| Poly Studio X30 | `3.8.0`          | 2021 Update #2    |
-| Poly Studio X50 | `3.8.0`          | 2021 Update #2    |
-| Poly TC8        | `3.8.0`          | 2021 Update #2    |
-| Poly Studio X30 | `3.7.0`          | 2021 Update #2A    |
-| Poly Studio X50 | `3.7.0`          | 2021 Update #2A    |
-| Poly TC8        | `3.7.0`          | 2021 Update #2A    |
-| Poly Studio X30 | `3.6.0.350035`          | 2021 Update #2A    |
-| Poly Studio X50 | `3.6.0.350035`        | 2021 Update #2A    |
-| Poly TC8 | `3.6.0.210534`              | 2021 Update #2A    |
-| EPOS EXPAND Vision 3T |`1.2.2.21182.10`   | 2021 Update #2 |
-| AudioCodes RXV80 |`1.13.361`   | 2021 Update #2 |
-| Yealink VC210 |`118.15.0.54`   | 2021 Update #2    |
-| Yealink MeetingBar A20 | `133.15.0.60`     | 2021 Update #2    |
-| Yealink MeetingBar A30 | `133.15.0.60`    | 2021 Update #2    |
-| Yealink CTP18 | `137.15.0.37`    | 2021 Update #2    |
-| Poly Studio X30 | `3.5.0.344025`          | 2021 Update #2    |
-| Poly Studio X50 | `3.5.0.344025`        | 2021 Update #2    |
-| Poly TC8 | `3.5.0.210489`         | 2021 Update #2    |
-| Poly Studio X30 | `3.3.2.286154`          | 2021 Update #1    |
-| Poly Studio X50 | `3.3.2.286154`          | 2021 Update #1    |
-| Poly TC8 | `3.3.2.286154`                 | 2021 Update #1    |
-| Yealink VC210 |`118.15.0.47`     | 2021 Update #1    |
-| Yealink MeetingBar A20 | `133.15.0.54`     | 2021 Update #1    |
-| Yealink MeetingBar A30 | `133.15.0.54`     | 2021 Update #1    |
-| Yealink CTP18 | `137.15.0.30`     | 2021 Update #1    |
-| Yealink VC210 + CP900 | `118.15.0.42`     | 2020 Update #3    |
-| Poly Studio X30 | `3.2.3.280012`          | 2020 Update #3    |
-| Poly Studio X50 | `3.2.3.280012`          | 2020 Update #3    |
+| Poly Studio X30 | 3.9.0 | 2021 Update #2F   |
+| Poly Studio X50 | 3.9.0 | 2021 Update #2F   |
+| Poly TC8        | 3.9.0          | 2021 Update #2F   |
+| Poly Studio X30 | 3.8.0          | 2021 Update #2    |
+| Poly Studio X50 | 3.8.0          | 2021 Update #2    |
+| Poly TC8        | 3.8.0          | 2021 Update #2    |
+| Poly Studio X30 | 3.7.0          | 2021 Update #2A    |
+| Poly Studio X50 | 3.7.0          | 2021 Update #2A    |
+| Poly TC8        | 3.7.0          | 2021 Update #2A    |
+| Poly Studio X30 | 3.6.0.350035  | 2021 Update #2A    |
+| Poly Studio X50 | 3.6.0.350035  | 2021 Update #2A    |
+| Poly TC8 | 3.6.0.210534  | 2021 Update #2A    |
+| EPOS EXPAND Vision 3T |1.2.2.21182.10   | 2021 Update #2 |
+| AudioCodes RXV80 |1.13.361   | 2021 Update #2 |
+| Yealink VC210 |118.15.0.54   | 2021 Update #2    |
+| Yealink MeetingBar A20 | 133.15.0.60     | 2021 Update #2    |
+| Yealink MeetingBar A30 | 133.15.0.60    | 2021 Update #2    |
+| Yealink CTP18 | 137.15.0.37    | 2021 Update #2    |
+| Poly Studio X30 | 3.5.0.344025          | 2021 Update #2    |
+| Poly Studio X50 | 3.5.0.344025        | 2021 Update #2    |
+| Poly TC8 | 3.5.0.210489         | 2021 Update #2    |
+| Poly Studio X30 | 3.3.2.286154          | 2021 Update #1    |
+| Poly Studio X50 | 3.3.2.286154          | 2021 Update #1    |
+| Poly TC8 | 3.3.2.286154                 | 2021 Update #1    |
+| Yealink VC210 |118.15.0.47     | 2021 Update #1    |
+| Yealink MeetingBar A20 | 133.15.0.54     | 2021 Update #1    |
+| Yealink MeetingBar A30 | 133.15.0.54     | 2021 Update #1    |
+| Yealink CTP18 | 137.15.0.30     | 2021 Update #1    |
+| Yealink VC210 + CP900 | 118.15.0.42     | 2020 Update #3    |
+| Poly Studio X30 | 3.2.3.280012          | 2020 Update #3    |
+| Poly Studio X50 | 3.2.3.280012          | 2020 Update #3    |
 
 ### Product release information for Teams Displays
 
