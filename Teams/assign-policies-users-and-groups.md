@@ -32,7 +32,7 @@ Follow these steps to assign a policy to an individual user or to a small number
 
 To assign a policy to a user:
 
-1. In the left navigation of the Microsoft Teams admin center, click to expand **Users**, and then select **Manage users**.
+1. In the left navigation of the [Microsoft Teams admin center](https://admin.teams.microsoft.com), go to **Users** > **Manage users**.
 2. Select the user by clicking to the left of the user name, and then select **Edit settings**.
 3. Select the policy you want to assign, and then select **Apply**.
 
