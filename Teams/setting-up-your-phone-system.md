@@ -1,5 +1,5 @@
 ---
-title: "Set up Teams Phone in your organization"
+title: "Set up Phone System in your organization"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -26,11 +26,11 @@ ms.custom:
 description: Step-by-step guide detailing how to set up Teams Phone System for your organization in Microsoft 365.
 ---
 
-# Set up Teams Phone in your organization
+# Set up Phone System in your organization
 
-The following is a step-by-step guide for setting up Teams Phone in Microsoft 365. Links to additional, detailed information are available at the end of each step.
-
-## Step 1: Make sure that Teams Phone is available in your country or region
+The following is a step-by-step guide for setting up Phone System in Microsoft 365. Links to additional, detailed information are available at the end of each step.
+ 
+## Step 1: Make sure that Phone System is available in your country or region
 
 1.    First go to [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md), and select your country or region from the list at the top of the page. 
 2.    Under **Phone System**, review the list of features and details. 
@@ -141,7 +141,7 @@ If you don't set up Communications Credits billing and assign a **Communications
   
 
 ## Related topics
-[Here's what you get with Teams Phone](here-s-what-you-get-with-phone-system.md)
+[Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md)
 
 [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
