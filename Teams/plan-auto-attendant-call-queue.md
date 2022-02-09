@@ -65,7 +65,7 @@ You can assign a phone number to a call queue, however call queues do not provid
 To configure auto attendants and call queues, you need the following resources:
 
 - A resource account for each auto attendant and each call queue
-- A free Microsoft Teams Phone - Virtual User license for each resource account
+- A free Microsoft Phone System - Virtual User license for each resource account
 - At least one [Microsoft service number](getting-service-phone-numbers.md), Operator Connect number, Direct Routing number, or a hybrid number for each resource account that you want to be directly dialable
  - The service number may be a toll or toll-free number
 
@@ -79,7 +79,7 @@ Agents who receive calls from the call queues must be Enterprise Voice enabled o
 
 If your agents are using the Microsoft Teams app for call queue calls, they need to be in TeamsOnly mode.
 
-When using a resource account for calling line ID purposes in call queues or when an auto attendant or call queue is transferring calls to an external phone number, the resource account must have a Teams Phone Virtual User license and one of the following assigned:
+When using a resource account for calling line ID purposes in call queues or when an auto attendant or call queue is transferring calls to an external phone number, the resource account must have a Phone System Virtual User license and one of the following assigned:
 
 - A [Calling Plan](calling-plans-for-office-365.md) license and a phone number assigned
 - An [Operator Connect](operator-connect-plan.md) phone number assigned
@@ -128,7 +128,7 @@ If you have an existing auto attendant and call queue infrastructure and you're 
 *Conference mode* is an option in call queues that significantly reduces the amount of time it takes to connect Teams VOIP calls and PSTN calls to an agent. For conference mode to work, agents in the call queue must use one of the following clients:
 
 - The latest version of the Microsoft Teams desktop client, Android app, or iOS app
-- Microsoft Teams Phone version 1449/1.0.94.2020051601 or later
+- Microsoft Phone System version 1449/1.0.94.2020051601 or later
   
 Set Agents' Teams accounts to Teams-only mode. Agents who don't meet the requirements aren't included in the call routing list.
 
@@ -202,9 +202,9 @@ Once you've completed the planning tasks in this article, follow these steps to 
 
 1. Get the service numbers that you need for the auto attendants and call queues that you want to be accessible by direct dialing from outside your organization. This might include [transferring numbers from another provider](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) or [requesting new service numbers](getting-service-phone-numbers.md).
 
-2. Get a [Teams Phone - Virtual User license](teams-add-on-licensing/virtual-user.md) for each resource account that you plan to create. These licenses are free, so we suggest getting a few extra in case you decide to make changes to your resource accounts in the future.
+2. Get a [Phone System - Virtual User license](teams-add-on-licensing/virtual-user.md) for each resource account that you plan to create. These licenses are free, so we suggest getting a few extra in case you decide to make changes to your resource accounts in the future.
 
-3. [Create a resource account](manage-resource-accounts.md) for each auto attendant and call queue that you want to create. Assign each account a Teams Phone - Virtual User license and, optionally, a service number.
+3. [Create a resource account](manage-resource-accounts.md) for each auto attendant and call queue that you want to create. Assign each account a Phone System - Virtual User license and, optionally, a service number.
 
 4. [Create the holidays](set-up-holidays-in-teams.md) for which you want to have separate call routing in your auto attendants.
 
