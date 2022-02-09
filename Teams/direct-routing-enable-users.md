@@ -18,7 +18,7 @@ f1.keywords:
 description: "Learn how to enable users for Microsoft Teams Phone Direct Routing."
 ---
 
-# Enable users for Direct Routing, voice, and voicemail
+# Enable users for Direct Routing
 
 This article describes how to enable users for Direct Routing. This is step 2 of the following steps for configuring Direct Routing:
 
