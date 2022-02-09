@@ -249,7 +249,18 @@ items:
               href: /SkypeForBusiness/hybrid/cloud-consolidation-aad-connect
         - name: Integration with Exchange and SharePoint
           href: /SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint
-
+- name: Upgrade from Kaizala
+  items: 
+    - name: Get started
+      href: get-started-kaizala-teams.md
+    - name: Prepare for upgrade
+      href: prepare-for-teams-kaizala.md
+    - name: Plan your upgrade journey
+      href: plan-your-move-kaizala.md
+    - name: Navigate Microsoft Teams
+      href: navigate-teams.md
+    - name: Get familiar with Microsoft Teams
+      href: drive-adoption-optimize-kaizala.md
 - name: Security, compliance, and privacy
   items: 
     - name: Overview
@@ -505,8 +516,8 @@ items:
       href: turn-off-teams-native-file-upload-policy.md
     - name: Set up channel moderation in Teams
       href: manage-channel-moderation-in-teams.md
-    - name: Manage live components
-      href: live-components-in-teams.md
+    - name: Manage loop components
+      href: loop-components-in-teams.md
     - name: Teams and Outlook email integration
       href: teams-outlook-email-integration.md
     - name: Share to Teams from Outlook
@@ -778,17 +789,17 @@ items:
             - name: Videos - Audio Conferencing in Teams
               href: ./audio-conferencing-in-office-365.md
 
-- name: Voice - Teams Phone and PSTN connectivity
+- name: Voice - Phone System and PSTN connectivity
   items: 
     - name: Plan your Teams voice solution
       href: cloud-voice-landing-page.md
-    - name: Teams Phone
+    - name: Phone System
       items: 
-        - name: What is Teams Phone
+        - name: What is Phone System
           href: what-is-phone-system-in-office-365.md
-        - name: Here's what you get with Teams Phone
+        - name: Here's what you get with Phone System
           href: here-s-what-you-get-with-phone-system.md
-        - name: Set up Teams Phone
+        - name: Set up Phone System
           href: setting-up-your-phone-system.md
         - name: Set up common area phones
           href: set-up-common-area-phones.md
@@ -1031,7 +1042,7 @@ items:
           href: voice-case-study-overview.md
         - name: Teams upgrade plan
           href: voice-case-study-migration-plan.md
-        - name: Teams Phone
+        - name: Phone System
           href: voice-case-study-phone-system.md
         - name: Location-Based-Routing
           href: voice-case-study-location-based-routing.md
@@ -1044,7 +1055,7 @@ items:
   
     - name: Guidance for small and medium businesses
       items: 
-      - name: Teams Phone guidance for small and medium businesses
+      - name: Phone System guidance for small and medium businesses
         href: business-voice/whats-business-voice.md
       - name: Country and region availability
         href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
@@ -1052,7 +1063,7 @@ items:
         href: business-voice/get-ready-internet.md
       - name: Get help from a reseller or partner
         href: business-voice/reseller-partner-support.md
-      - name: Set up Teams Phone for small and medium businesses
+      - name: Set up Phone System for small and medium businesses
         items:
           - name: Overview
             href: business-voice/set-up-overview.md
@@ -1072,7 +1083,7 @@ items:
             href: business-voice/port-phone-numbers.md
           - name: "Post-setup resources"
             href: business-voice/set-up-finish.md
-      - name: Customize your Teams Phone setup for small and medium businesses
+      - name: Customize your Phone System setup for small and medium businesses
         items: 
           - name: Customization options
             href: business-voice/customize-business-voice.md
@@ -1086,7 +1097,7 @@ items:
             href: business-voice/create-a-phone-system-call-queue-smb.md
           - name: Set up an auto attendant
             href: business-voice/create-a-phone-system-auto-attendant-smb.md
-      - name: Manage your Teams Phone setup for small and medium businesses
+      - name: Manage your Phone System setup for small and medium businesses
         items: 
           - name: Create one or more users
             href: business-voice/create-users.md
@@ -1457,6 +1468,8 @@ items:
           href: devices/Teams-Android-devices-user-interface.md
         - name: Authentication best practices for Android devices
           href: devices/authentication-best-practices-for-android-devices.md
+        - name: Set up auto answer for Teams Android devices
+          href: set-up-auto-answer-on-teams-android.md
         - name: Meeting room devices and solutions
           href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Teams certified devices
@@ -1788,8 +1801,10 @@ items:
               href: exchange-hybrid-organization.md
             - name: Use mail flow rules with Exchange
               href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
-        - name: How SharePoint Online and OneDrive for Business interact with Teams
-          href: sharepoint-onedrive-interact.md
+        - name: Overview of Teams and SharePoint integration
+          href: /sharepoint/teams-connected-sites?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Manage SharePoint and Teams integration settings
+          href: /sharepoint/manage-teams-sharepoint-experiences?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
 
     - name: Teams PowerShell
       items: 
