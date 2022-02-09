@@ -34,8 +34,11 @@ You can use the [Microsoft Teams admin center](#using-the-microsoft-teams-admin-
 ## Using the Microsoft Teams admin center
 
 1. In the left navigation, go to **Voice** > **Direct Routing**, and then click the **SBCs** tab.
+
 2. Click **Add**.
+
 3. Enter a FQDN for the SBC. <br><br>Make sure the domain name portion of the FQDN matches a domain that's registered in your tenant and keep in mind that the `*.onmicrosoft.com` domain name isn't supported for the SBC FQDN domain name. For example, if you have two domain names, `contoso.com` and `contoso.onmicrosoft.com`, use `sbc.contoso.com` as the SBC name. If using a subdomain, make sure this subdomain is also registered in your tenant. For example, if you want to use `sbc.service.contoso.com`, then `service.contoso.com` needs to be registered.
+
 4. Configure the following settings for the SBC, based on your organization's needs. For details on each of these settings, see [SBC settings](#sbc-settings).
 
     ![Screenshot of add SBC page in the Microsoft Teams admin center.](media/direct-routing-add-sbc.png)
@@ -47,7 +50,9 @@ You can use the [Microsoft Teams admin center](#using-the-microsoft-teams-admin-
 To connect your SBC to Direct Routing, you'll need to:
 
 1. [Connect to Skype for Business Online by using PowerShell](#connect-to-skype-for-business-online-by-using-powershell).
+
 2. [Connect the SBC to the tenant](#connect-the-sbc-to-the-tenant).
+
 3. [Verify the SBC connection](#verify-the-sbc-connection).
 
 ### Connect to Skype for Business Online by using PowerShell
@@ -73,7 +78,7 @@ Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
 
 ### Connect the SBC to the tenant
 
-To connect the SBC to the tenant, use the [New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) cmdlet . In a PowerShell session, type the following, and then press Enter:
+To connect the SBC to the tenant, use the [New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) cmdlet. In a PowerShell session, type the following, and then press Enter:
 
 ```PowerShell
 New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxConcurrentSessions <Max Concurrent Sessions the SBC can handle> -Enabled $true

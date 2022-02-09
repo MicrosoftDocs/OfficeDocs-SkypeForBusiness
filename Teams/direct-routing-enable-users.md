@@ -1,6 +1,6 @@
 ---
 title: "Enable users for Direct Routing"
-ms.reviewer: 
+ms.reviewer: filippse
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

@@ -32,7 +32,7 @@ Microsoft works with each vendor to:
 - Establish a joint support process with the SBC vendors.
 
   > [!NOTE]
-  > Microsoft only supports Teams Phone with Direct Routing when used with certified devices. In case of issues, you must contact your SBC vendor's customer support first. If needed, the SBC vendor will escalate the issue to Microsoft via internal channels. Microsoft reserves the right to reject support cases where a non-certified device is connected to Teams Phone through Direct Routing. If Microsoft determines that a customer’s Direct Routing issue is with a vendor’s SBC device, the customer will need to re-engage the SBC vendor for support.
+  > Microsoft only supports Phone System with Direct Routing when used with certified devices. In case of issues, you must contact your SBC vendor's customer support first. If needed, the SBC vendor will escalate the issue to Microsoft via internal channels. Microsoft reserves the right to reject support cases where a non-certified device is connected to Phone System through Direct Routing. If Microsoft determines that a customer’s Direct Routing issue is with a vendor’s SBC device, the customer will need to re-engage the SBC vendor for support.
   >
   > The certification is granted to specific SBC firmware versions. Any SBC firmware version documented below is both certified and supported. Firmware versions that are higher than what is documented are supported as long as the major.minor version is the same.
   >

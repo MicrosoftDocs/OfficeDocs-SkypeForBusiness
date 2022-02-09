@@ -17,7 +17,7 @@ appliesto:
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
-description: Learn how Microsoft Direct Routing lets you connect a supported customer-provided Session Border Controller (SBC) to Teams Phone.
+description: Learn how Microsoft Direct Routing lets you connect a supported customer-provided Session Border Controller (SBC) to Phone System.
 ---
 
 # Plan Direct Routing
@@ -25,7 +25,7 @@ description: Learn how Microsoft Direct Routing lets you connect a supported cus
 > [!Tip]
 > Watch the following session to learn about the benefits of Direct Routing, how to plan for it, and how to deploy it: [Direct Routing in Microsoft Teams](https://aka.ms/teams-direct-routing)
 
-Direct Routing lets you connect a supported, customer-provided Session Border Controller (SBC) to Teams Phone. With this capability, you can configure on-premises Public Switched Telephone Network (PSTN) connectivity with Microsoft Teams client, as shown in the following diagram: 
+Direct Routing lets you connect a supported, customer-provided Session Border Controller (SBC) to Phone System. With this capability, you can configure on-premises Public Switched Telephone Network (PSTN) connectivity with Microsoft Teams client, as shown in the following diagram: 
 
 ![Diagram showing configuration of on-premises PSTN connectivity.](media/PlanDirectRouting1-PSTNwithTeams.png "Configuration of on-premises PSTN connectivity with Microsoft Teams client")
 
@@ -37,13 +37,16 @@ Direct Routing lets you connect a supported, customer-provided Session Border Co
 
 With Direct Routing, you can connect your SBC to almost any telephony trunk or interconnect with third-party PSTN equipment. Direct Routing enables you to: 
 
-- Use virtually any PSTN trunk with Teams Phone. 
+- Use virtually any PSTN trunk with Phone System. 
+
 - Configure interoperability between customer-owned telephony equipment, such as a third-party private branch exchange (PBX), analog devices, and Teams.
 
 Microsoft also offers all-in-the-cloud voice solutions, such as Calling Plan. However, a hybrid voice solution might be best for your organization if: 
 
 - Microsoft Calling Plan is not available in your country. 
+
 - Your organization requires connection to third-party analog devices, call centers, and so on. 
+
 - Your organization has an existing contract with a PSTN carrier.
 
 Direct Routing also supports users who have the additional license for the Microsoft Calling Plan. For more information, see [Phone System and Calling Plans](calling-plan-landing-page.md). 
@@ -69,7 +72,7 @@ The infrastructure requirements for the supported SBCs, domains, and other netwo
 |Infrastructure requirement|You need the following|
 |:--- |:--- |
 |Session Border Controller (SBC)|A supported SBC. For more information, see [Supported SBCs](#supported-session-border-controllers-sbcs).|
-|Telephony trunks connected to the SBC|One or more telephony trunks connected to the SBC. On one end, the SBC connects to Teams Phone via Direct Routing. The SBC can also connect to third-party telephony entities, such as PBXs, Analog Telephony Adapters, and so on. Any PSTN connectivity option connected to the SBC will work. (For configuration of the PSTN trunks to the SBC, refer to the SBC vendors or trunk providers.)|
+|Telephony trunks connected to the SBC|One or more telephony trunks connected to the SBC. On one end, the SBC connects to Phone System through Direct Routing. The SBC can also connect to third-party telephony entities, such as PBXs, Analog Telephony Adapters, and so on. Any PSTN connectivity option connected to the SBC will work. (For configuration of the PSTN trunks to the SBC, refer to the SBC vendors or trunk providers.)|
 |Microsoft 365 organization|A Microsoft 365 organization that you use to home your Microsoft Teams users, and the configuration and connection to the SBC.|
 |User registrar|User must be homed in Microsoft 365.<br/>If your company has an on-premises Skype for Business or Lync environment with hybrid connectivity to Microsoft 365, you cannot enable voice in Teams for a user homed on-premises.<br/><br/>To check the registrar of a user, use the following Skype for Business Online PowerShell cmdlet:<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>The output of the cmdlet should show:<br/><code>HostingProvider : sipfed.online.lync.com</code>|
 |Domains|One or more domains added to your Microsoft 365 or Office 365 organizations.<br/><br/>Note that you cannot use the default domain, \*.onmicrosoft.com, that is automatically created for your tenant.<br/><br/>To view the domains, you can use the following Skype for Business Online PowerShell cmdlet:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>For more information about domains and Microsoft 365 or Office 365 organizations, see [Domains FAQ](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
@@ -114,20 +117,23 @@ A Teams user can start a one-on-one Teams-to-PSTN or Teams-to-Teams call and add
 You must ensure the following:
  
 - CsOnlineVoiceRoutingPolicy is assigned to the user. 
+
 - Allow Private Calling is enabled at the tenant level for Microsoft Teams. 
 
-Direct Routing also supports users who are licensed for Microsoft Calling Plan. Teams Phone with Calling Plan can route some calls using the Direct Routing interface. However, the users' phone numbers must be either acquired online or ported to Microsoft.  
+Direct Routing also supports users who are licensed for Microsoft Calling Plan. Phone System with Calling Plan can route some calls using the Direct Routing interface. However, the users' phone numbers must be either acquired online or ported to Microsoft.  
 
 Mixing Calling Plan and Direct Routing connectivity for the same user is optional, but could be useful. For example, when the user is assigned a Microsoft Calling Plan but wants to route some calls using the SBC. One of the most common scenarios is calls to third-party PBXs.  With third-party PBXs, all calls, except calls to the phones connected to that PBX, are routed using Microsoft Calling Plan, but calls to the phones connected to third-party PBXs go to the SBC, and therefore stay within the enterprise network and not the PSTN. 
 
-For more information about Teams Phone licensing, see [Get the most from Office](https://products.office.com/compare-all-microsoft-office-products?tab=2) and [Plan Options](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options) and [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md). 
+For more information about Phone System licensing, see [Get the most from Office](https://products.office.com/compare-all-microsoft-office-products?tab=2) and [Plan Options](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options) and [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md). 
 
 ## Supported end points 
 
 You can use as an end point:
 
 - Any Teams client. 
+
 - Common Area Phones. See [Set up Common Area Phones for Microsoft Teams](./set-up-common-area-phones.md). You do not need a Calling Plan license when setting up a Common Area Phone with Direct Routing.
+
 - Skype for Business 3PIP phones. See [Skype for Business phones (3PIP) support with Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
 
 
@@ -328,7 +334,7 @@ Microsoft only supports certified SBCs to pair with Direct Routing. Because Ente
 
 Devices that have been validated are listed as Certified for Teams Direct Routing. The certified devices are guaranteed to work in all scenarios. 
 
-For more information about supported SBCs, see [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).
+For more information about supported SBCs, see [Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).
 
  
 ## See also
