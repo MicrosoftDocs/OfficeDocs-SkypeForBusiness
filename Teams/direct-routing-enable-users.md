@@ -22,7 +22,7 @@ description: "Learn how to enable users for Microsoft Teams Phone Direct Routing
 
 This article describes how to enable users for Direct Routing. This is step 2 of the following steps for configuring Direct Routing:
 
-- Step 1. [Connect the SBC with Microsoft Phone System and validate the connection](direct-routing-connect-the-sbc.md) 
+- Step 1. [Connect the SBC with Phone System and validate the connection](direct-routing-connect-the-sbc.md) 
 - **Step 2. Enable users for Direct Routing, voice, and voicemail**   (this article)
 - Step 3. [Configure voice routing](direct-routing-voice-routing.md)
 - Step 4. [Translate numbers to an alternate format](direct-routing-translate-numbers.md) 
@@ -32,14 +32,13 @@ For information on all the steps required for setting up Direct Routing, see [Co
 
 When you're ready to enable users for Direct Routing, follow these steps: 
 
-1. Create a user in Microsoft 365 or Office 365 and assign a Phone System license. 
-2. Ensure that the user is homed in Skype for Business Online. 
-3. Configure the phone number and enable enterprise voice and voicemail. 
-4. Assign Teams Only mode to users.
+1. Create a user in Microsoft 365 and assign a Phone System license.  
+2. Configure the phone number and enable enterprise voice and voicemail. 
+3. Assign Teams Only mode to users.
 
 ## Create a user and assign the license
 
-There are two options for creating a new user in Microsoft 365 or Office 365. However, Microsoft recommends that your organization choose one option to avoid routing issues: 
+There are two options for creating a new user in Microsoft 365. However, Microsoft recommends that your organization choose one option to avoid routing issues: 
 
 - Create the user in on-premises Active Directory and sync the user to the cloud. See [Integrate your on-premises directories with Azure Active Directory](/azure/active-directory/connect/active-directory-aadconnect).
 - Create the user directly in the Microsoft 365 admin center. See [Add users individually or in bulk to Microsoft 365 or Office 365 - Admin Help](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec). 
@@ -61,7 +60,7 @@ Direct Routing requires the user to be homed online. You can check by looking at
     ```PowerShell
     Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
     ``` 
-    If OnPremLineUriManuallySet is set to False and LineUri is populated with a <E.164 phone number>, the phone number was assigned on-premises and synchronized to Microsoft 365. If you want to manage the phone number online, clean the parameter using on-premises Skype for Business Management Shell and synchronize to Microsoft 365 before configuring the phone number using Skype for Business Online PowerShell. 
+    If OnPremLineUriManuallySet is set to False and LineUri is populated with a <E.164 phone number>, the phone number was assigned on-premises and synchronized to Microsoft 365. If you want to manage the phone number online, clean the parameter using on-premises Skype for Business Management Shell and synchronize to Microsoft 365 before configuring the phone number using Teams PowerShell. 
 
 1. From Skype for Business Management Shell, issue the command: 
 
@@ -71,7 +70,7 @@ Direct Routing requires the user to be homed online. You can check by looking at
  > [!NOTE]
  > Do not set EnterpriseVoiceEnabled to False as there is no requirement to do so and this can lead to dial plan normalization issues if legacy Skype for Business phones are in use and the Tenant hybrid configuration is set with UseOnPremDialPlan $True. 
     
-   After the changes have synced to Office 365 the expected output of `Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri` would be:
+   After the changes have synced to Microsoft 365 the expected output of `Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri` would be:
 
    ```console
    RegistrarPool                        : pool.infra.lync.com
@@ -86,7 +85,6 @@ Direct Routing requires the user to be homed online. You can check by looking at
 
 After you've created the user and assigned a license, you must configure the user's online phone settings. 
 
- 
 1. Connect a Microsoft Teams PowerShell session. 
 
 2. If managing the user's phone number on-premises, issue the command: 
@@ -113,6 +111,7 @@ After you've created the user and assigned a license, you must configure the use
     ```
 
     Microsoft recommends, but does not require, that the phone number is configured as a full E.164 phone number with country code. You can configure phone numbers with extensions. These extensions will be used to look up users when the lookup against the base number returns more than one result. This functionality allows companies to configure phone numbers with the same base number and unique extensions. For lookup to be successful, the invite must include the full number with extension as follows:
+    
     ```PowerShell
     To: <sip:+14255388701;ext=1001@sbc1.adatum.biz
     ```
@@ -127,7 +126,7 @@ Direct Routing allows you to end the call to a user and send it directly to the 
 
 ## Assign Teams Only mode to users to ensure calls land in Microsoft Teams
 
-Direct Routing requires that users be in Teams Only mode to ensure incoming calls land in the Teams client. To put users in Teams Only mode, assign them the "UpgradeToTeams" instance of TeamsUpgradePolicy. For more information, see [Upgrade strategies for IT administrators](upgrade-to-teams-on-prem-implement.md). If your organization uses Skype for Business Server or Skype for Business Online, see the following article for information about interoperability between Skype and Teams: [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md).
+Direct Routing requires that users be in Teams Only mode to ensure incoming calls land in the Teams client. To put users in Teams Only mode, assign them the "UpgradeToTeams" instance of TeamsUpgradePolicy. For more information, see [Upgrade strategies for IT administrators](upgrade-to-teams-on-prem-implement.md). If your organization uses Skype for Business Server, see the following article for information about interoperability between Skype and Teams: [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md).
 
 ## See also
 
