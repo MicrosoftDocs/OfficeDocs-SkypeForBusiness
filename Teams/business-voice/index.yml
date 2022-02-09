@@ -29,7 +29,7 @@ productDirectory:
     - title: Set up
       imageSrc: https://docs.microsoft.com/office/media/icons/deploy-blue.svg
       links:
-        - url: ./whats-business-voice.md#what-do-i-need-to-buy-to-get-voice-capabilities-for-my-small-or-medium-business
+        - url: ./whats-business-voice.md#purchase-teams-phone-with-calling-plan-bundle-licenses
           text: How to get the Teams Phone with Calling Plan bundle
         - url: get-ready-internet.md
           text: Check your Internet connection

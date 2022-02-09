@@ -13,7 +13,7 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
-description: 
+description: Learn how to create and license Teams Phone with Calling Plan users and assign them phone numbers.
 appliesto: 
 - Microsoft Teams
 ---
