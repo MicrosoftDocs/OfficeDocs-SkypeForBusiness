@@ -1,8 +1,8 @@
 ---
 title: "Statistics Manager for Skype for Business Server"
 ms.reviewer: 
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/19/2016
 audience: ITPro

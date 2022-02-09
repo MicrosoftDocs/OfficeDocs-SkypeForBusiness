@@ -1,8 +1,8 @@
 ---
 title: "Administrative Roles and Lync Server Control Panel"
 ms.reviewer: 
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro

@@ -1,8 +1,8 @@
 ---
 title: "Manage enhanced 9-1-1 and the Location service"
 ms.reviewer: 
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
