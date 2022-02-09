@@ -73,7 +73,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 | Yealink MeetingBar A20  | `133.15.0.19`      | August 5, 2023 | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) | 9 |
 | Poly Studio X30         | `3.1.1.216109`     | December 5, 2022  | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) | 8.1 |
 | Poly Studio X50         | `3.1.1.216109`     | December 5, 2022   | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) | 8.1 |
-| Poly TC8                | `3.3.2.210441`     | August 5, 2023 | Compatible with Poly Studio X30 and Poly Studio X50 | 8.1 |  9  |
+| Poly TC8                | `3.3.2.210441`     | August 5, 2023 | Compatible with Poly Studio X30 and Poly Studio X50  |  9  |
 | Yealink VC210           | `118.15.0.14`      | August 5, 2023 | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) |  9  |
 
 ## Currently certified Teams Displays
@@ -123,6 +123,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Audiocodes C455HD | 1.15.271    | 2022 Update #1
 |Poly Trio C60   | `7.2.1.1712`  | 2022 Update #1   |
 |Poly CCX400/CCX500/CCX600   | `7.2.1.1707`  | 2022 Update #1  |
 |Audiocodes C448HD  | `1.14.500` | 2022 Update #1 |
