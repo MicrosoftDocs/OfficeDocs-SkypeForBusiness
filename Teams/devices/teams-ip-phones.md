@@ -25,11 +25,11 @@ description: Learn which desk and conference phones are certified for Microsoft 
 
 # Microsoft Teams certified devices
 
-Microsoft Teams devices Certification Program ensures a high-quality bar is set for all devices, with higher performance targets and quality metrics across the entire Teams experience (audio, video, user interface). Microsoft and OEM partners are actively working together to ensure devices meet all certification requirements, including security, audio and video quality, Teams experience, and accessibility.
+The Microsoft Teams devices Certification Program ensures certified devices meet a high standard, with higher performance targets and quality metrics across the entire Teams experience (audio, video, user interface). Microsoft and OEM partners are actively working together to ensure devices meet all certification requirements, including security, audio and video quality, Teams experience, and accessibility.
 
-Certification programs are designed to ensure all certified devices run an Android version with the required feature set for Teams and Teams Admin Center. Certification validity is based on the Android OS version running on the device when it enters into the certification program. Our OEM partners are constantly working to extend the lifetime of the certification by upgrading the Android OS version and re-certifying, or by releasing new models that are state-of-the-art. Therefore, certification validity dates will regularly be updated based on OEM partner plans to upgrade to a newer Android OS version.
+Certification programs are designed to ensure all certified devices run an Android version with the required feature set for Teams and Teams admin center. Certification validity is based on the Android OS version running on the device when it enters into the certification program. Our OEM partners are working to extend the lifetime of the certification by upgrading the Android OS version and re-certifying, or by releasing new models that are state-of-the-art. Certification validity dates will be updated regularly based on OEM partner plans to upgrade to a newer Android OS version.
 
-Beyond the certification period, Microsoft is committed to make reasonable efforts to support the most recent version of the Teams client on such devices for two years following the end of the certification period.
+Beyond the certification period, Microsoft is committed to make efforts to support the most recent version of the Teams client on such devices for two years following the end of the certification period.
 
 
 ## Currently certified Teams phones
