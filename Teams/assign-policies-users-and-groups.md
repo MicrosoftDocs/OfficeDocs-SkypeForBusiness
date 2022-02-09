@@ -39,7 +39,7 @@ To assign a policy to a user:
 ![Assign a policy to a user in the Teams admin center.](media/assign-policy-user.png)
 
 > [!NOTE]
-> To unassign a specialized policy from a user you can select Global (Org-wide default) for each policy type.
+> To unassign a specialized policy from a user you can select **Global (Org-wide default)** for each policy type.
 
 You can also do the following to assign a policy to a user:
 
