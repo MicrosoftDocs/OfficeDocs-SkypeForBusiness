@@ -21,7 +21,7 @@ ms.custom:
   - Phone System
   - seo-marvel-apr2020
   - intro-overview
-description: "In this article, you will learn about the Phone System technology in Microsoft 365."
+description: "In this article, you'll learn about the Phone System technology in Microsoft 365."
 ---
 
 # What is Phone System
@@ -30,7 +30,7 @@ Phone System is Microsoft's technology for enabling call control and Private Bra
 
 Phone System works with Teams clients and certified devices. Phone System allows you to replace your existing PBX system with a set of features directly delivered from Microsoft 365.
 
-Calls between users in your organization are handled internally within Phone System, and never go to the Public Switched Telephone Network (PSTN). This applies to calls between users in your organization located in different geographical areas, removing long-distance costs on these internal calls. 
+Calls between users in your organization are handled internally within Phone System, and never go to the Public Switched Telephone Network (PSTN)--thereby removing long-distance costs on internal calls. 
 
 For making external calls, Phone System provides add-on options for connecting to the PSTN. For more information about voice solutions and PSTN connectivity options, see [Plan your Teams voice solution](cloud-voice-landing-page.md) and [Connect to the PSTN](#connect-to-the-public-switched-telephone-network-pstn).
 
@@ -62,7 +62,7 @@ Phone System can be used for services and voicemail, such as:
 
 - **Auto attendants** -  Auto attendants can be used to create a menu system for your organization that lets external and internal callers move through the system to locate and place or transfer calls to company users or departments in your organization. See [What are Cloud auto attendants?](what-are-phone-system-auto-attendants.md).
 
-- **Call queues** -  Call queue greetings can be used when someone calls in to a phone number for your organization. These greetings include the ability to automatically put the calls on hold and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization. See [Create a Cloud call queue](create-a-phone-system-call-queue.md).
+- **Call queues** -  Call queue greetings can be used when someone calls in to a phone number for your organization. These greetings include the ability to automatically put the calls on hold and to search for the next available call agent to handle the call. The people on hold can also listen to music while on hold. You can create single or multiple call queues for your organization. See [Create a Cloud call queue](create-a-phone-system-call-queue.md).
 
 - **Voicemail** - Cloud Voicemail is automatically set up and provisioned for all Teams users. See [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
 
