@@ -21,7 +21,7 @@ appliesto:
 
 # Finished Teams Phone with Calling Plan setup
 
-You've completed the basic setup of Microsoft 365 Teams Phone with Calling Plan. The following are some helpful resources for managing Teams Phone with Calling Plan and helping your users get the most of their new phone, meeting, and audio conferencing experience.
+You've completed the basic setup of Teams Phone with Calling Plan. The following are some helpful resources for managing Teams Phone with Calling Plan and helping your users get the most of their new phone, meeting, and audio conferencing experience.
 
 The following tables list resources that'll help you make the most out of Teams and Teams Phone with Calling Plan.
 
@@ -46,7 +46,6 @@ Use the following resources to customize Teams Phone with Calling Plan for your 
 | [Create and license Teams Phone with Calling Plan users and assign them phone numbers](create-users.md)    | Add more users to Teams Phone with Calling Plan and set them up with phone numbers.        |
 | [Create a call queue - small business tutorial](create-a-phone-system-call-queue-smb.md)    | Create a call queue to support call center environments like sales, customer service, technical support, and so on.        |
 | [Set up an auto attendant - small business tutorial](create-a-phone-system-auto-attendant-smb.md)   | Create additional auto attendant (call menus) for more flexible call routing.        |
-| [Set up Call Quality Dashboard (CQD)](analytics-dashboard.md)| Set up call usage and quality monitoring to ensure users have the best Teams Phone with Calling Plan experience.|
 
 ## Manage Teams Phone with Calling Plan
 
@@ -54,6 +53,6 @@ Use the following resources to manage Teams and Teams Phone with Calling Plan as
 
 |Resource  |Description  |
 |---------|---------|
-| [Create and license Teams Phone with Calling Plan users and assign them phone numbers](create-users.md)    | Add more users to Teams Phone with Calling Plan and set them up with phone numbers.         |
 | [Manage your devices in Microsoft Teams](manage-devices.md)    | Create policies for, and monitor, devices that are connected to Teams.        |
 | [Monitor and improve call quality for Microsoft Teams](monitor-quality.md)    | Monitor who makes or receives phone calls or participates in online meetings, monitor and troubleshoot call quality, and so on.        |
+| [Set up Call Quality Dashboard (CQD)](analytics-dashboard.md)| Set up call usage and quality monitoring to ensure users have the best Teams Phone with Calling Plan experience.|
