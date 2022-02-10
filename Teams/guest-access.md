@@ -78,6 +78,9 @@ Guests can leave the team at any time from within Teams. For details, see  [How 
 
 Guest access can be used with all Microsoft 365 Business Standard, Microsoft 365 Enterprise, and Microsoft 365 Education subscriptions. No additional Microsoft 365 license is necessary. The [billing model for Azure AD External Identities](/azure/active-directory/b2b/licensing-guidance) applies to guests in Microsoft 365. Only people from outside your organization can be invited as guests.
 
+> [!NOTE]
+> Converting a guest account into an Azure AD member account or converting an Azure AD member account into a guest is not supported by Teams.
+
 ## Guest access reviews
 
 You can use Azure AD to create an access review for users who are in groups or have been assigned to an application. Creating recurring access reviews can save you time. If you need to routinely review users who have access to an application, a team, or a group, you can define the frequency of those reviews. 
