@@ -79,4 +79,4 @@ Version History allows you to review and copy from previous versions of the file
 
 ## Related topics
 
-[Manage Loop components in SharePoint](/sharepoint/manage-loop-components)
+For information on admin settings for Loop components in Teams, see: [Manage Loop components in SharePoint](/sharepoint/manage-loop-components)
