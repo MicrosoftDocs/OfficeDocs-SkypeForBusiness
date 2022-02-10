@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Teams displays"
-ms.author: serdars
-author: SerdarSoysal
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -48,6 +48,10 @@ To learn more about how to deploy Teams displays using Intune, see [Deploy Teams
 ## Manage Teams displays in your organization
 
 To manage your Teams display devices, in the left navigation of the Microsoft Teams admin center, go to **Teams displays**. From here, you can change the device configuration profile, manage updates, restart devices, add and remove device tags, and more. For more information, see [Manage your devices in Teams](device-management.md).
+
+## Setup hotdesking on Teams displays
+
+When hotdesking is enabled, people in your organization can temporarily sign into a Teams display using their own Teams account. Teams displays with hotdesking are bookable in Outlook, from the Teams calendar, or can be reserved ad-hoc on the device using the reserve feature.
 
 ## Upgrade Teams phones to Teams displays
 
