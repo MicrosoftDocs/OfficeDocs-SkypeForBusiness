@@ -86,6 +86,8 @@ You can link your customers here Join a Bookings appointment as an attendee (mic
 Make the most of virtual visits by making sure your staff members know how to conduct them. You can share this with your team members to help them better understand virtual visits.
 
 - [Learn how to use the Bookings app in Teams](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5)
+- [Learn how to join a Teams meeting](https://support.microsoft.com/office/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)
+- [Conduct a virtual visit](/microsoftteams/expand-teams-across-your-org/bookings-virtual-visits#conduct-a-virtual-visit)
 
 ## Resources for your clients
 
