@@ -76,3 +76,7 @@ Version History allows you to review and copy from previous versions of the file
 - B2B guests will not be able to collaborate on a live component that is shared with them via *People in your organization* links unless the tenant sets an external access option to allow B2B guests to have the same access level as tenant members. For more information, see [Configure B2B external collaboration settings](/azure/active-directory/external-identities/delegate-invitations#configure-b2b-external-collaboration-settings).
 - Loop components are not supported in Teams channels.
 - Loop components in chat will not load only if file was moved to different library. If file is moved to different folder then it will continue to load in chat.
+
+## Related topics
+
+[Manage Loop components in SharePoint](/sharepoint/manage-loop-components)
