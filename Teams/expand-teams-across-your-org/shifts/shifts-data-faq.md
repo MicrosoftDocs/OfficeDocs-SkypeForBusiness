@@ -70,8 +70,6 @@ To learn more about retention policies in Teams, see [Learn about retention for 
 
 Today, we don't offer the ability to retrieve data for a user whose license was revoked. This capability is something we're working towards.
 
-We can provide access in specific customer escalation scenarios.
-
 ## Which tier of compliance is Shifts?
 
 Today, Shifts is Tier-C compliant. We're working towards Tier-D compliance.
@@ -95,9 +93,11 @@ There are certain aspects of Shifts that can't be changed and certain aspects th
 
 To see which what fields have been changed, you can search the Microsoft 365 audit log for Shifts events. To learn more about the events that are logged for Shifts activities in the Microsoft 365 audit log, see [Shifts in Teams activities](../../audit-log-events.md#shifts-in-teams-activities).
 
-## My organization uses an on-premises archiving system that's managed by a partner. Can we use Microsoft Graph to integrate with and access Shifts data?
+## My organization uses a workforce management system for scheduling. Can we integrate with and access Shifts data?
 
-Shifts Graph APIs let you integrate Shifts data with external systems. To learn more, see [Shifts Graph APIs](/graph/api/resources/shift?view=graph-rest-1.0).
+Shifts Graph APIs let you integrate Shifts data with external workforce management (WFM) systems. To learn more, see [Shifts Graph APIs](/graph/api/resources/shift?view=graph-rest-1.0).
+
+We also offer managed Shifts connectors and open-source Shifts connectors. With these connectors, you can integrate your WFM system directly with Shifts. See [Shifts connectors](shifts-connectors.md) to learn more about Shifts connectors and supported WFM systems.
 
 ## Can Shifts data be deleted permanently after a specified period of time?
 
@@ -105,7 +105,7 @@ Today, we don't delete your Shifts data at all. Using [Shifts Graph APIs](/gra
 
 ## Can Shifts data be moved in a tenant-to-tenant migration?
 
-Shifts data can be migrated from one tenant to another tenant by the Shifts service team upon specific request.
+Shifts data can be migrated from one tenant to another tenant by the Shifts service team upon specific request. Keep in mind that this isn't supported out-of-the-box but can be raised as a customer request.
 
 ## Related articles
 
