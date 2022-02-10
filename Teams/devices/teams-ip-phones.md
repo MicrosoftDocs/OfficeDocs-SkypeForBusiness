@@ -25,9 +25,11 @@ description: Learn which desk and conference phones are certified for Microsoft 
 
 # Microsoft Teams certified devices
 
-The Microsoft Teams certification programs ensure that customers who use certified desk phones and conference phones will experience high-quality audio calls and meetings experience.
+The Microsoft Teams devices Certification Program ensures certified devices meet a high standard, with higher performance targets and quality metrics across the entire Teams experience (audio, video, user interface). Microsoft and OEM partners are actively working together to ensure devices meet all certification requirements, including security, audio and video quality, Teams experience, and accessibility.
 
-Microsoft Teams Certification programs ensure a higher-quality bar with higher performance targets and audio quality metrics. Partners are actively working to meet this higher bar and are qualifying devices against certification requirements. Some of our partners are also working to provide support for the Skype for Business service on the same hardware as the Teams phones. 
+Certification programs are designed to ensure all certified devices run an Android version with the required feature set for Teams and Teams admin center. Certification validity is based on the Android OS version running on the device when it enters into the certification program. Our OEM partners are working to extend the lifetime of the certification by upgrading the Android OS version and re-certifying, or by releasing new models that are state-of-the-art. Certification validity dates will be updated regularly based on OEM partner plans to upgrade to a newer Android OS version.
+
+Beyond the certification period, Microsoft is committed to make efforts to support the most recent version of the Teams client on such devices for two years following the end of the certification period.
 
 
 ## Currently certified Teams phones
@@ -73,7 +75,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 | Yealink MeetingBar A20  | `133.15.0.19`      | August 5, 2023 | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) | 9 |
 | Poly Studio X30         | `3.1.1.216109`     | December 5, 2022  | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) | 8.1 |
 | Poly Studio X50         | `3.1.1.216109`     | December 5, 2022   | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) | 8.1 |
-| Poly TC8                | `3.3.2.210441`     | August 5, 2023 | Compatible with Poly Studio X30 and Poly Studio X50 | 8.1 |  9  |
+| Poly TC8                | `3.3.2.210441`     | August 5, 2023 | Compatible with Poly Studio X30 and Poly Studio X50  |  9  |
 | Yealink VC210           | `118.15.0.14`      | August 5, 2023 | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) |  9  |
 
 ## Currently certified Teams Displays
@@ -123,6 +125,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Audiocodes C455HD | 1.15.271    | 2022 Update #1
 |Poly Trio C60   | `7.2.1.1712`  | 2022 Update #1   |
 |Poly CCX400/CCX500/CCX600   | `7.2.1.1707`  | 2022 Update #1  |
 |Audiocodes C448HD  | `1.14.500` | 2022 Update #1 |
