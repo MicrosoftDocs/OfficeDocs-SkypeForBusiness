@@ -13,7 +13,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.reviewer: mikedav
-description: "Learn how to assign Teams add-on licenses to users for features like Audio Conferencing, Phone System, and Calling Plans."
+description: Learn how to assign Teams add-on licenses to users for features like Audio Conferencing, Phone System, and Calling Plans.
 appliesto: 
   - Microsoft Teams
 ---
@@ -31,13 +31,13 @@ You can use the Microsoft 365 admin center or PowerShell to assign licenses to u
 
 Before you get started, review the following requirements:
 
-- If you're using on-premises Public Switched Telephone Network (PSTN) connectivity for hybrid users, you only need to assign a Phone System license. Do NOT assign a Calling Plan license.
+- If you're using on-premises Public Switched Telephone Network (PSTN) connectivity for users, you only need to assign a Phone System license. Do NOT assign a Calling Plan license.
 
-- Because of the latency between Microsoft 365 and Microsoft Teams, it can take up to 24 hours for a user to be assigned a Calling Plan after you assign a license. If the user isn't assigned a Calling Plan after 24 hours, [contact support for business products - admin help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- After assigning a Microsoft Calling Plan to a user, it can take up to 24 hours before they will see the dial pad in their Teams client. If the dial pad is not shown in 24 hours, check your [dial pad configuration](../dial-pad-configuration.md). If necessary, you can also [contact support](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 - You'll get an error message if you haven't purchased the correct number of licenses. If you need to buy more Calling Plan licenses, choose the option to buy more.
 
-- Even if your users are assigned Enterprise E5 licenses, you still need to assign [Communications Credits](../what-are-communications-credits.md) licenses to them if they want to make or receive calls from the PSTN.
+- Even if your users are assigned Enterprise E5 licenses, you still need to connect them to the PSTN. You have several [PSTN connectivity options](../pstn-connectivity.md), including Microsoft Teams Calling Plans, Direct Routing, or Operator Connect.
 
 - After you assign Calling Plan or Communication Credits licenses to your users, you'll need to get phone numbers for your organization, and then assign those numbers to users. For step-by-step instructions, see [Set up Calling Plans](../set-up-calling-plans.md).
 
@@ -142,7 +142,7 @@ To learn more, see [View licenses and services with PowerShell](/office365/enter
 | Microsoft Business Voice (without Calling Plan) for the United States| BUSINESS_VOICE_DIRECTROUTING _MED |
 | Audio Conferencing | MCOMEETADV | 
 | Audio Conferencing Pay Per Minute (pay as you go)</br>*Requires Communications Credits to be set up and enabled.* | MCOMEETACPEA |
-| Phone System | MCOEV |
+| Teams Phone Standard | MCOEV |
 | Domestic and International Calling Plan | MCOPSTN2 |
 | Domestic Calling Plan (3000 minutes per user/month for US/PR/CA, 1200 minutes per user/month for EU countries) | MCOPSTN1 |
 | Domestic Calling Plan (120 minutes per user/month for each country) </br>*This plan isn't available in the United States.* | MCOPSTN5 |
