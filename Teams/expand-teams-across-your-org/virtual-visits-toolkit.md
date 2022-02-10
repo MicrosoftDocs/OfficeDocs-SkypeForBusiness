@@ -1,7 +1,7 @@
 ---
 title: Help your clients and customers use virtual visits
 author: daisyfell
-ms.author: daisyfell
+ms.author: daisyfeller
 manager: pamgreen
 audience: ITPro
 ms.topic: article 
