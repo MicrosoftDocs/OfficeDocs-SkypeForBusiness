@@ -33,7 +33,7 @@ A carrier:
 - Manages call quality end to end.
 - Charges separately for PSTN services.
 
-Microsoft doesn't manage carriers. Microsoft offers Phone System--a Private Branch Exchange (PBX)--and a Teams client. Microsoft also certifies phones, and certifies SBCs that can be used with the Phone System. Before choosing a carrier, ensure that your choice has a certified SBC and can manage voice quality end to end.
+Microsoft doesn't manage carriers. Microsoft offers Phone System--a Private Branch Exchange (PBX)--and a Teams client. Microsoft also certifies phones, and certifies SBCs that can be used with Phone System. Before choosing a carrier, ensure that your choice has a certified SBC and can manage voice quality end to end.
 
 The following are the technical implementation steps to configure the scenario.
 
