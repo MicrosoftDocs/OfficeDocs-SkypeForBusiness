@@ -1,5 +1,5 @@
 ---
-title: Shared channels in Microsoft Teams
+title: Shared channels in Microsoft Teams (Preview)
 author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
@@ -17,10 +17,10 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
-description: Learn how to use and manage shared channels in Microsoft Teams. 
+description: Learn how to use and manage shared channels in Microsoft Teams (Preview). 
 ---
 
-# Shared channels in Microsoft Teams
+# Shared channels in Microsoft Teams (Preview)
 
 Shared channels in Microsoft Teams create collaboration spaces where you can invite people who are not in the team. Only the users who are owners or members of the shared channel can access the channel. While guests can't be added to a shared channel, you can invite people outside your organization to participate in a shared channel by using Azure AD B2B direct connect.
 
@@ -29,6 +29,17 @@ You might want to use a shared channel if you want to collaborate with a group o
 Only members of shared channels can see and participate in shared channels that they are added to. Other members of the team to which the shared channel is connected won't see the channel.
 
 When a shared channel is created, it's linked to the parent team and can't be moved to a different team. Additionally, shared channels can't be converted to standard channels and vice versa.
+
+> [!NOTE]
+> Shared channels is in preview and requires that you have configured [Microsoft Teams Public Preview](/MicrosoftTeams/public-preview-doc-updates). If you plan to share channels with other organizations, they must also have configured Teams public preview.
+
+## Getting started with shared channels
+
+Shared channels is enabled by default in Teams. You can choose if people can create shared channels, if they can share them with people outside your organization, and if they can participate in external shared channels by [creating a channel policy](/MicrosoftTeams/teams-policies)
+
+If you plan to share channels with people outside your organization, read [Plan external collaboration](/microsoft-365/solutions/plan-external-collaboration) for important planning considerations.
+
+Sharing channels with people outside your organization also requires that you configure cross-tenant access settings in Azure AD. Each organization that you want to share channels with must also complete this configuration. See [Collaborate with external participants in a channel](/microsoft-365/solutions/collaborate-teams-direct-connect) for details.
 
 ## Shared channel creation
 
@@ -115,6 +126,10 @@ The following limitations also apply:
 - Notifications from shared channels are not included in missed activity emails.
 
 ## Related topics
+
+[B2B direct connect overview](/azure/active-directory/external-identities/b2b-direct-connect-overview)
+
+[Configure cross-tenant access settings for B2B direct connect](/azure/active-directory/external-identities/cross-tenant-access-settings-b2b-direct-connect)
 
 [Overview of teams and channels in Teams](teams-channels-overview.md)
 
