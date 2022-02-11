@@ -40,7 +40,7 @@ To learn more about these features and how to use them, see [Use Microsoft Teams
 
 ## Partners certified for Teams panels
 
-To learn more about partners certified for Teams panels, see [Currently certified Teams panels](teams-ip-phones.md#currently-certified-teams-panels).
+To learn more about partners certified for Teams panels, see [Currently certified Teams panels](teams-ip-phones.md#certified-teams-panels).
 
 ## Teams panels requirements
 
