@@ -88,15 +88,15 @@ After you've created the user and assigned a license, you must configure the use
 
 1. Connect to a Microsoft Teams PowerShell session. 
 
-2. How you manage the user's phone number depends on whether you are managing the user's phone number on-premises or online.  
+2. The next steps depend on whether you are managing the user's phone number on-premises or online. If you are managing the phone number on-premises, you must use the on-premises Skype for Business Management Shell, Control Panel, or one of the methods explained in [Decide how to manage attributes after decommisioning](/skypeforbusiness/hybrid/cloud-consolidation-managing-attributes).
 
-   - If you are managing the user's phone number on-premises, use the following command. You must use the on-premises Skype for Business Management Shell, Control Panel, or one of the methods explained in [Decide how to manage attributes after decommisioning](/skypeforbusiness/hybrid/cloud-consolidation-managing-attributes). 
+   - If you are managing the user's phone number on-premises, you need to ensure that the user is Enterprise Voice enabled online by using the following command:
 
        ```PowerShell
        Set-CsPhoneNumberAssignment -Identity "<User name>" -EnterpriseVoiceEnabled $true
        ```
        
-   - If you are managing the user's phone number online, use the following command by using Teams PowerShell: 
+   - If you are managing the user's phone number online, you need to assign the phone number to the user by using the following command in Teams PowerShell. The user is automatically Enterprise Voice enabled by the command: 
  
        ```PowerShell
        Set-CsPhoneNumberAssignment -Identity "<User name>" -PhoneNumber <phone number> -PhoneNumberType DirectRouting
