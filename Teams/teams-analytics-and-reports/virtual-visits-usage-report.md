@@ -24,7 +24,7 @@ The Virtual Visits usage report in the Microsoft Teams admin center gives you an
 
 To view the report, you must be a global admin, Teams admin, or Virtual Visits admin.
 
-This report contains the following tabs. The information you’ll see in the report depends on whether you have a license for the Bookings app, the Teams EHR connector, or both.
+The report contains the following tabs. The information you’ll see in the report depends on whether you have a license for the Bookings app, the Teams EHR connector, or both.
 
 |Tab |Description  |
 |---------|---------|
