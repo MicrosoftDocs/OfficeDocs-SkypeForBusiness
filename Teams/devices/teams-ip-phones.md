@@ -27,16 +27,18 @@ description: Learn which desk and conference phones are certified for Microsoft 
 
 The Microsoft Teams devices Certification Program ensures certified devices meet a high standard, with higher performance targets and quality metrics across the entire Teams experience (audio, video, user interface). Microsoft and OEM partners are actively working together to ensure devices meet all certification requirements, including security, audio and video quality, Teams experience, and accessibility.
 
-Certification programs are designed to ensure all certified devices run an Android version with the required feature set for Teams and Teams admin center. Certification validity is based on the Android OS version running on the device when it enters into the certification program. Our OEM partners are working to extend the lifetime of the certification by upgrading the Android OS version and re-certifying, or by releasing new models that are state-of-the-art. Certification validity dates will be updated regularly based on OEM partner plans to upgrade to a newer Android OS version.
+Certification programs are designed to ensure all certified devices run an Android version with the required feature set for Teams and Teams admin center. Certification end dates are based on the Android OS version running on the device when it enters into the certification program. Our OEM partners are working to extend the lifetime of the certification by upgrading the Android OS version and re-certifying, or by releasing new models that are state-of-the-art.
 
 Beyond the certification period, Microsoft is committed to make efforts to support the most recent version of the Teams client on such devices for two years following the end of the certification period.
 
+>[!NOTE]
+>Certification end dates will be updated regularly based on OEM partner plans to upgrade to a newer Android OS version.
 
 ## Currently certified Teams phones
 
 The following devices are Certified under the Microsoft Teams phones Certification Program:
 
-|Device model    | Firmware version    | Current Certification Validity | Android OS version                               |
+|Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
 | Crestron UC-P10-T (with and without handset)    | `1.0.0.80`       | August 5, 2023            | 9 |
 | Crestron UC-P8-T (with and without handset)     | `1.0.0.56`       | August 5, 2023            | 9 |
@@ -62,7 +64,7 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 
 The following devices are Certified under the Microsoft Teams Rooms on Android Certification Program:
 
-| Device model | Firmware version | Current Certification Validity | Room size                                        |  Android OS version    |
+| Device model | Firmware version | Current certification end date | Room size                                        |  Android OS version    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
 | EPOS EXPAND 80T | `1.2.2.21182.10` | August 5, 2023 | Bundled with the EPOS Vision 3T | 9 |
 | Logitech Tap Device     | `1.2.982`     |   September 3, 2024  | Compatible with Logitech Rally Bar and Rally Bar Mini | 10 |
@@ -82,14 +84,14 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 
 The following devices are Certified under the Microsoft Teams Displays Android Certification Program:
 
-| Device model | Firmware version | Current Certification Validity  | Android OS version |
+| Device model | Firmware version | Current certification end date  | Android OS version |
 |:------------------------|:-----------------|:--------------|----------------------------------|
 |Lenovo ThinkSmart View|`CD-18781Y.201006.099`| December 5, 2022 |  8.1  |
 
 ## Currently certified Teams panels
 The following devices are Certified under the Microsoft Teams panels Certification Program:
 
-| Device model| Firmware version | Current Certification Validity | Android OS version |                                         
+| Device model| Firmware version | Current certification end date | Android OS version |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
 |Crestron TSS-770 | `1.003.0082` |December 5, 2022  | 8.1 |
 |Crestron TSS-1070 | `1.003.0082`|December 5, 2022 | 8.1 |
