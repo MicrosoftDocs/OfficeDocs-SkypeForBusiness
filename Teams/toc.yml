@@ -1792,12 +1792,13 @@ items:
         - name: Enhance existing Microsoft 365 groups with Teams
           href: enhance-office-365-groups.md
         - name: How Exchange and Teams interact
-          href: exchange-teams-interact.md
-            items: 
-              - name: Configure an Exchange hybrid organization for use with Teams
-                href: exchange-hybrid-organization.md
-              - name: Use mail flow rules with Exchange
-                href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
+          items:
+            - name: How Exchange and Teams interact
+              href: exchange-teams-interact.md
+            - name: Configure an Exchange hybrid organization for use with Teams
+              href: exchange-hybrid-organization.md
+            - name: Use mail flow rules with Exchange
+              href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
         - name: Overview of Teams and SharePoint integration
           href: /sharepoint/teams-connected-sites?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Manage SharePoint and Teams integration settings
