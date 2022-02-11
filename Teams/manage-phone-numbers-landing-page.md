@@ -49,7 +49,7 @@ How you acquire and manage telephone numbers differs depending on your PSTN conn
 
 - For information about managing telephone numbers for Operator Connect, see [Set up telephone numbers with Operator Connect](operator-connect-configure.md#set-up-phone-numbers).
 
-- For information about managing telephone numbers for Direct Routing, see [Configure the telephone number and enable enterprise voice and voicemail](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online).
+- For information about managing telephone numbers for Direct Routing, see [Configure the telephone number and enable enterprise voice](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
 
 If you need additional or other number types other than those numbers seen in the Microsoft Teams admin center, you can submit a telephone number request to the [Phone Number Service Center](https://pstnsd.powerappsportals.com/).
 

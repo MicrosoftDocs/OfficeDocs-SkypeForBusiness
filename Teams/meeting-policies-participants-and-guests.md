@@ -93,6 +93,12 @@ This setting is a per-user policy and applies during a meeting. This setting con
 
 This setting is a per-participant setting. This setting controls whether meeting chat is allowed in the user's meeting.
 
+|Setting value |Behavior  |
+|---------|---------|
+|**Turn it on for everyone**     | All participants can write and view chat messages. |
+|**Turn it off for everyone**     | Meeting chat is turned off for all participants.  |
+|**Turn it on for everyone but anonymous users**| Anonymous users can't chat during meetings but can read messages. |
+
 <a name="bkparticipantsandguests"> </a>
 
 ## Enable meeting policy settings
