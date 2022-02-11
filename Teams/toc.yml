@@ -1412,6 +1412,8 @@ items:
           href: rooms/managed-meeting-rooms-portal.md
         - name: Managed updates
           href: rooms/update-management.md 
+        - name: Health and usage reports
+          href: rooms/health-and-usage-reports.md 
         - name: Configure ServiceNow for Teams Rooms
           href: rooms/microsoft-teams-rooms-configure-servicenow.md
         - name: Multi-tenant management for partners
