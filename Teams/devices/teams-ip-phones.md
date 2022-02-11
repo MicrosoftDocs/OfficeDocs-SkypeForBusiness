@@ -34,7 +34,7 @@ Beyond the certification period, Microsoft is committed to make efforts to suppo
 >[!NOTE]
 >Certification end dates will be updated regularly based on OEM partner plans to upgrade to a newer Android OS version.
 
-## Currently certified Teams phones
+## Certified Teams phones
 
 The following devices are Certified under the Microsoft Teams phones Certification Program:
 
@@ -60,7 +60,7 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 | Yealink MP56 | `122.15.0.6` | August 5, 2023  | 9 |
 | Yealink VP59 | `91.15.0.16` | August 5, 2023  | 9 |
 
-## Currently certified Teams Rooms on Android
+## Certified Teams Rooms on Android
 
 The following devices are Certified under the Microsoft Teams Rooms on Android Certification Program:
 
@@ -80,7 +80,7 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 | Poly TC8                | `3.3.2.210441`     | August 5, 2023 | Compatible with Poly Studio X30 and Poly Studio X50  |  9  |
 | Yealink VC210           | `118.15.0.14`      | August 5, 2023 | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) |  9  |
 
-## Currently certified Teams Displays
+## Certified Teams Displays
 
 The following devices are Certified under the Microsoft Teams Displays Android Certification Program:
 
@@ -88,7 +88,7 @@ The following devices are Certified under the Microsoft Teams Displays Android C
 |:------------------------|:-----------------|:--------------|----------------------------------|
 |Lenovo ThinkSmart View|`CD-18781Y.201006.099`| December 5, 2022 |  8.1  |
 
-## Currently certified Teams panels
+## Certified Teams panels
 The following devices are Certified under the Microsoft Teams panels Certification Program:
 
 | Device model| Firmware version | Current certification end date | Android OS version |                                         
