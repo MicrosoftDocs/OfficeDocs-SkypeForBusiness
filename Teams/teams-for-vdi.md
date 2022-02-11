@@ -332,7 +332,7 @@ You can use the Teams admin center or PowerShell to set and assign calling and m
 
 #### Assign policies using the Teams admin center
 
-To assign the AllowCalling calling policy and the AllOn meeting policy to a user:
+To assign the **AllowCalling** calling policy and the **AllOn** meeting policy to a user:
 
 1. In the left navigation of the Teams admin center, go to **Users**.
 2. Select the user by clicking to the left of the user name, and then click **Edit settings**.
