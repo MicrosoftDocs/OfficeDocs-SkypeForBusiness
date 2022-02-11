@@ -53,8 +53,9 @@ If you want to make changes to a user’s sip address or to a user’s phone num
 - To modify a user’s phone number, modify `msRTCSIP-Line` *if it already has a value*.
 
   ![Active Directory users and computers tool.](../media/disable-hybrid-1.png)
-  
--  If the user did not originally have a value for `msRTCSIP-Line` on-premises before the move, you can modify the phone number using the -`onpremLineUri` parameter in the [Set-CsUser cmdlet](/powershell/module/skype/set-csuser?view=skype-ps) in the Teams PowerShell module.
+
+
+- If the user did not originally have a value for `msRTCSIP-Line` on-premises before the move, you can modify the phone number using the `-PhoneNumber` parameter in the [Set-CsPhoneNumberAssignment cmdlet](/powershell/module/teams/set-csphonenumberassignment) in the Teams PowerShell module.
 
 These steps are not necessary for new users created after you disable hybrid, and those users can be managed directly in the cloud. If you are comfortable using the mix of these method as well as with leaving the msRTCSIP attributes in place in your on-premises Active Directory, you can simply re-image the on-premises Skype for Business servers. However, if you prefer to clear all msRTCSIP attributes and do a traditional uninstall of Skype for Business Server, then use Method 2.
 
@@ -142,16 +143,17 @@ This option requires additional effort and proper planning because users who wer
    ```
 
 8. Execute the following Teams PowerShell command to assign phone numbers and enable users for Phone System:
-     
+
+
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"
    foreach($user in $sfbusers){
    if($user.LineUri)
         {
-                Set-CsUser -Identity $user.SipAddress -OnPremLineURI $user.LineUri -EnterpriseVoiceEnabled $True
+             Set-CsPhoneNumberAssignment -Identity $user.SipAddress -PhoneNumber $user.LineUri.Replace("tel:","") -PhoneNumberType DirectRouting
         }
    }
-    ```
+   ```
 
    > [!Note]
    >  If you still have Skype for Business endpoints (either Skype clients or 3rd party phones), you will also want to set -HostedVoiceMail to $true. If your organization is only using Teams endpoints for voice enabled users, this setting is not applicable to your users. 
