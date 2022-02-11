@@ -49,13 +49,13 @@ To learn more about how to deploy Teams displays using Intune, see [Deploy Teams
 
 To manage your Teams display devices, in the left navigation of the Microsoft Teams admin center, go to **Teams displays**. From here, you can change the device configuration profile, manage updates, restart devices, add and remove device tags, and more. For more information, see [Manage your devices in Teams](device-management.md).
 
-## Enable hot desking on Teams displays
+## Set up hot desking on Teams displays
 
-Hot desking allows people in your organization to reserve temporary workspaces in advance through Teams and Outlook, or from the device itself.
+Hot desking allows people in your organization to reserve temporary workspaces in advance through Teams and Outlook, or from the device itself. When hot desking is enabled, users sign into Teams displays with their Microsoft 365 credentials to access their meetings, chats, and files. When they sign out, all their personal information is removed from the device.
 
-When hot desking is enabled, users sign into Teams displays with their Microsoft 365 credentials to access their meetings, chats, and files. When they sign out, all their personal information is removed from the device.
+To get started, you'll need to acquire Microsoft Teams Rooms Standard license and create resource accounts for each Teams display. See [Deploy Microsoft Teams Rooms with Office 365](../rooms/with-office-365.md) to create resource accounts.
 
-To use hot desking, you'll need to create a policy and assign it to your Teams displays. To learn more, see [New-CsTeamsIPPhonePolicy](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps).
+After you create resource accounts, you can create and assign a policy to enable hot desking. See [New-CsTeamsIPPhonePolicy](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps) to learn more.
 
 ## Upgrade Teams phones to Teams displays
 
