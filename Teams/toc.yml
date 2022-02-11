@@ -992,7 +992,7 @@ items:
           href: operator-connect-configure.md#set-up-phone-numbers
           
         - name: Manage phone numbers for Direct Routing
-          href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online
+          href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
 
     - name: Voice routing
       items: 
@@ -1573,7 +1573,7 @@ items:
       items: 
         - name: Bookings in Teams
           items: 
-            - name: Virtual visits with Teams and Bookings
+            - name: Virtual Visits with Teams and Bookings
               href: expand-teams-across-your-org/bookings-virtual-visits.md
             - name: Manage the Bookings app
               href: bookings-app-admin.md
@@ -1683,15 +1683,15 @@ items:
       items: 
         - name: Get started with Teams for healthcare organizations
           href: expand-teams-across-your-org/healthcare/teams-in-hc.md
-        - name: Virtual visits
+        - name: Virtual Visits
           items: 
-            - name: Virtual visits with Teams - Integration into Cerner EHR
+            - name: Virtual Visits with Teams - Integration into Cerner EHR
               href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
-            - name: Virtual visits with Teams - Integration into Epic EHR
+            - name: Virtual Visits with Teams - Integration into Epic EHR
               href: expand-teams-across-your-org/healthcare/ehr-admin.md
             - name: EHR admin reports
               href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
-            - name: Virtual visits with Teams and Bookings
+            - name: Virtual Visits with Teams and Bookings
               href: expand-teams-across-your-org/bookings-virtual-visits.md
             - name: Manage the join experience on mobile browsers
               href: expand-teams-across-your-org/mobile-browser-join.md              
