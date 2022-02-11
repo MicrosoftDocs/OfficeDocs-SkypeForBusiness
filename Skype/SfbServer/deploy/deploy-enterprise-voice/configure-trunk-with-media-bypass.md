@@ -1,8 +1,8 @@
 ---
 title: "Skype for Business Server: Configure a trunk with media bypass"
 ms.reviewer: 
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
