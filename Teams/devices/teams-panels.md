@@ -132,4 +132,4 @@ To manage your Teams panels devices, in the left navigation of the Microsoft Tea
 
 [Teams panels marketplace](https://office.com/teamsdevices)
 
-[Devices certified under Microsoft Teams panels certification program](teams-ip-phones.md#currently-certified-teams-panels)
+[Devices certified under Microsoft Teams panels certification program](teams-ip-phones.md#certified-teams-panels)
