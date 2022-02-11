@@ -43,7 +43,7 @@ Here's the default set of badges in Praise. Teams users in your organization can
 :::image type="content" source="media/default-set-praise.png" alt-text="Image of badges in the default badge set.":::
 
 > [!NOTE]
-> Starting February 2022, people can only send and receive default badges. Custom badges are no longer available and options for custom badges are being removed from the app's **Settings** page in the Teams admin center soon.
+> Starting February 2022, people can only send and receive default badges. Custom badges are no longer available and options for custom badges have been removed from the Teams admin center.
 
 ## Related articles
 
