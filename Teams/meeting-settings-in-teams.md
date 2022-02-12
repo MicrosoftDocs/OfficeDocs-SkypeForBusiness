@@ -65,7 +65,7 @@ Since both the organization-wide and per-organizer policies control anonymous jo
 
 Any other combination of values will prevent anonymous users from joining meetings.
 > [!NOTE]
-> To learn more about managing meeting policies see [Manage meeting policies in Microsoft Teams](/microsoftteams/meeting-policies-overview).
+> To learn more about managing meeting policies, see [Manage meeting policies in Microsoft Teams](/microsoftteams/meeting-policies-overview).
 
 
 ## Allow anonymous users to interact with apps in meetings
