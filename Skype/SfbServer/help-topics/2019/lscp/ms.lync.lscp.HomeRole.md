@@ -1,8 +1,8 @@
 ---
 title: "Administrative Roles and Skype for Business Server Control Panel"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article

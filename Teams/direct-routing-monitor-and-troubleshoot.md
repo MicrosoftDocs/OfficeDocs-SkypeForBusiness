@@ -33,6 +33,19 @@ If you have difficulties troubleshooting issues, you can open a support case wit
 
 Microsoft is working on providing more tools for troubleshooting and monitoring. Please check the documentation periodically for updates. 
 
+## Direct Routing Diagnostic Tool
+
+If you're an administrator, you can use the following diagnostic tool to validate that a user is correctly configured for Direct Routing:
+
+1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center. 
+
+   > [!div class="nextstepaction"]
+   > [Run Tests: Direct Routing](https://aka.ms/TeamsDirectRoutingDiag)
+
+2. In the Run diagnostic pane, enter the email of the user you want to test in the **Username or Email** field, and then select **Run Tests**.
+
+3. The tests will return the best next steps to address any tenant, user, or policy configurations to validate that the user is properly configured for Direct Routing in Microsoft Teams.
+
 ## Monitoring availability of Session Border Controllers using Session Initiation Protocol (SIP) options messages
 
 Direct Routing uses SIP options sent by the Session Border Controllers to monitor SBC health. There are no actions required from the tenant administrator to enable the SIP options monitoring. The collected information is taken into consideration when routing decisions are made. 

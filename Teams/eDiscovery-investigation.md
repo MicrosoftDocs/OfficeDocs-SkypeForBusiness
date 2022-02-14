@@ -40,26 +40,26 @@ Not all Teams content is eDiscoverable. The following table shows the content ty
 |Code snippets | No | |
 |Edited messages | Yes | If the user is on hold, previous versions of edited messages are also preserved. |
 |Emojis, GIFs, and stickers | Yes | |
+|Feed notifications | No | |
 |Inline images | Yes | |
 |Meeting IM conversations | Yes | |
 |Meeting metadata<sup>1</sup> | Yes |  |
-|Name of channel | No | |
+|Name of channel | Yes | |
 |Private channel messages | Yes | |
 |Quotes | Yes | Quoted content is searchable. However, search results don't indicate that the content was quoted. |
 |Reactions (such as likes, hearts, and other reactions) | No | |
 |Subject | Yes | |
 |Tables | Yes | |
-|Feed notifications | No | |
 |||
 
 <sup>1</sup> Meeting (and call) metadata includes the following:
 
 - Meeting start and end time, and duration
 - Meeting join and leave events for each participant
-- VOIP join/calls
-- Anonymous join
-- Federated user join
-- Guest user join
+- VOIP joins/calls
+- Anonymous joins
+- Federated user joins
+- Guest user joins
 
   The image shows an example of meeting metadata.
 
@@ -110,31 +110,42 @@ Before you perform these steps, install the [SharePoint Online Management Shell 
     foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url}
     ```
 
-3. For each team or group ID, run the following PowerShell script to identify all relevant private channel sites, where $groupID is the group ID of the team.
+3. For each team or group ID, run the following PowerShell script to identify all relevant private channel sites, where `$groupID` is the group ID of the team.
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
     $groupID = "e8195240-4a70-4830-9106-80193cf717cb"
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
+> [!NOTE]
+> SharePoint sites for private channels created after June 28, 2021 use the value `teamchannel#1` for the custom template ID. So for private channels created after this date, use the value `teamchannel#1` when running the previous two scripts.
 
 ### Include private channel messages in an eDiscovery search
 
 Before you perform these steps, make sure you have the [latest version of the Teams PowerShell module](teams-powershell-overview.md) installed.
 
-1. Run the following command to get a list of private channels in the team.
+1. Run the following command to get the group Id of the team that contains the private channels you want to search.
+
+   ```powershell
+   Get-Team -MailNickName <mail alias of the associated Office 365 Group>
+   ```
+
+   > [!TIP]
+   > Run the **Get-Team** cmdlet without any parameters to display a list of all Teams in your organization. The list contains the group Id and MailNickName for every team.
+
+2. Run the following command to get a list of private channels in the team. Use the group Id for the team that you obtained in step 1.
 
     ```PowerShell
-    Get-TeamChannel -GroupId <GroupID> -MembershipType Private
+    Get-TeamChannel -GroupId <GroupId> -MembershipType Private
     ```
 
-2. Run the following command to get a list of private channel members.
+3. Run the following command to get a list of private channel owners and members.
 
     ```PowerShell
-    Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
+    Get-TeamChannelUser -GroupId <GroupId> -DisplayName "Engineering" 
     ```
 
-3. Include the mailboxes of all members from each private channel in the team as part of your [eDiscovery search query](/microsoft-365/compliance/search-for-content-in-core-ediscovery).
+4. Include the mailboxes of all owners and members from each private channel in the team as part of your [eDiscovery search query](/microsoft-365/compliance/search-for-content-in-core-ediscovery).
 
 ## Search for content for guest users
 

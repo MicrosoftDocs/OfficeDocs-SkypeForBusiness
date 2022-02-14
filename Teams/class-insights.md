@@ -1,7 +1,7 @@
 ---
 title: IT Admin Guide to Education Insights in Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -131,10 +131,14 @@ Currently, data is collected from the following areas in class teams:
 | **Files** |	Uploading, downloading, accessing, modifying, commenting on, and sharing a file (not including file content).|
 | **OneNote Class Notebook** |	Editing a page or section in a notebook (not including page content).|
 | **Meetings** |	Attendance (not including meeting content).|
+| **[Reading Progress](https://support.microsoft.com/topic/e71705a2-a79a-4d7e-bcef-a1e0aa336017)** |	Accuracy rate, most challenging words, and words per minute.  |
 | **[Reflect](reflect.md)** |	Check-ins (including values).|
 
 > [!NOTE]
 > Most of the collected data shows up in Insights within a few minutes. Attendance in class meetings (meetings associated with one of the class channels) appears a few hours after the end of the meeting, usually up to 24 hours later.
+
+> [!NOTE]
+> Data collected in Education Insights is kept until either the IT Admin turns off the [Education Analytics toggle](#turn-sds-for-insights-on-or-off) or the Office subscription for the tenant ends. Turning off specific features in Teams does not delete historic data.
 
 ### Privacy and security
 The information collected and shown through Insights meets [more than 90 regulatory and industry standards](/compliance/regulatory/offering-home), including [GDPR](/compliance/regulatory/gdpr) and the Family [Education Rights and Privacy Act (FERPA)](/compliance/regulatory/offering-ferpa) for students and children's security and other, similar, privacy-oriented regulations.
@@ -171,6 +175,8 @@ Insights has been designed to support both students and educators in the digital
 To access Insights, users must have an A1, A3, or A5 faculty license for Microsoft 365.
 
 *Education Insights Premium* is a paid upgrade which provides education leaders an organizational level view of Education Insights data as well as expanded access to historical data views for educators. Eligible educational institutions can purchase an *Education Insights Premium* add-on license through Enrollment for Education Solutions (EES), Cloud Service Providers (CSP), and Microsoft 365 admin center (web direct).
+
+The Education Insights Premium add-on will be available for organizations based on purchasing licenses for all digitally active students in the tenant.
 
 ## Student Information System (SIS) integration
 The more data is fed into Insights, the better educators can support their students, and education leaders can support the educators.
@@ -266,3 +272,7 @@ Also, check that students did *not* [join the class meeting without a Teams acco
 
 > [!NOTE]
 > If your question is still unanswered, please [open a support ticket](https://aka.ms/edusupport). Include the relevant screenshots representing the problem and the date the problem occurred. Add any additional data you think might help us to resolve the issue.
+
+### What licenses do I need to activate Education Insights Premium?
+In order for Education Insights Premium to be enabled for your organization, the tenant must purchase licenses based on the number of the digitally active students in the organization's tenant. That is, for all students who use a Teams class as part of their school work for activities such as meetings, communication, chat, assignments, editing files, Class Notebook or Reflect.
+

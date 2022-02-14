@@ -1,7 +1,7 @@
 ---
 title: Set up for live events in Microsoft Teams
-author: cichur
-ms.author: v-cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -45,23 +45,23 @@ Live events policies are used to control who in your organization can hold live 
 
 <a name="bkcreatepolicy"> </a>
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Live events policies**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Meetings** > **Live events policies** > **Manage Policies** tab.
 2. Do one of the following options:
 
     - If you want to edit the existing default policy, choose **Global (Org-wide default)**.
-    - If you want to create a new custom policy, choose **Add**.
+    - If you want to create a new custom policy, choose **+Add**.
     - If you want to edit a custom policy, select the policy, and then choose **Edit**.
 
     Here are the settings you can change to fit the needs of your organization.
 
-    ![Screen shot of live events policy settings.](../media/teams-live-events-policies.png "Screen shot of live events policy settings in the Microsoft Teams admin center")
+    ![Screen shot of live events policy settings.](../media/teams-live-events-policies-new.png "Screen shot of live events policy settings in the Microsoft Teams admin center")
 
 |Setting  |Description  |
 |---------|---------|
 |**Title**     |This is the title of the policy that appears on the live events policies page. It can't be longer than 64 characters or have any special characters.          |
 |**Description**    |Use this to add a friendly description for the policy.         |
-|**Allow scheduling**     |Turning this on lets users in your organization create and schedule live events in Teams. It's important to know that if you want users to schedule a live event produced with an external app or device, there are additional steps you must do. To learn more, see  [Enable users to schedule events that were produced with an external app or device](#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device).     |
-|**Allow transcription for attendees** |This setting can only be applied to events produced in Teams. Turning this on enables live event attendees to see live captions and subtitles during the event.         |
+|**Live events scheduling**     |Turning this on lets users in your organization create and schedule live events in Teams. It's important to know that if you want users to schedule a live event produced with an external app or device, there are additional steps you must do. To learn more, see  [Enable users to schedule events that were produced with an external app or device](#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device).     |
+|**Transcription for attendees** |This setting can only be applied to events produced in Teams. Turning this on enables live event attendees to see live captions and subtitles during the event.         |
 |**Who can join scheduled live events**    |Choose one of the following.<br><br>**Everyone** Users can create live events that everyone, including people outside your organization, can attend. This setting enables the **Public** permission type in Teams when a user schedules a live event.<br> **Everyone in the organization** Users can create live events that people in your organization, including [guest users](../add-guests.md) added to your organization, can attend. Users can't create live events that are attended by anonymous users. This setting enables the **Org-wide** permission type in Teams when a user schedules a live event.<br> **Specific users or groups** Users can create live events that only specific users or groups in your organization can attend. Users can't create live events that are attended by everyone in your organization or by anonymous users. This setting enables the **People and groups** permission type in Teams when a user schedules a live event.       |
 |**Recording setting**  <br>     | This setting can only be applied to events produced in Teams. Choose one of the following. <br><br> **Always record** Live events created by users are always recorded. After the event is over, event team members can download the recording and attendees can watch the event. <br> **Never record** Live events created by users are never recorded. <br>**Organizer can record or not** Users can decide whether to record the live event. If it's recorded, after the event is over, event team members can download the recording and attendees can watch the event.
 
@@ -80,7 +80,7 @@ For users to schedule events produced with an external app or device, you must a
    >[!Note]
    > The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](../tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings. Learn more about how you can [**assign licenses to users**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) so that users can access Stream. Ensure Stream isn't blocked for the users as defined in [**this article**](/stream/disable-user-organization).
 
-2. Ensure users have live event creation permission in Stream. By default, administrators can create events with an external app or device. Stream administrator can [enable additional users for live event creation](/stream/live-event-administration#enabling-and-restricting-users-to-creating) in Stream.
+2. Ensure users have live event creation permission in Stream. By default, administrators can create events with an external app or device. Stream administrator can [enable additional users for live event creation](/stream/live-event-administration#restrict-who-can-create-events) in Stream.
 
 3. Ensure live event organizers have consented to the company policy set by Stream admin. If a Stream administrator has [set up a company guidelines policy](/stream/company-policy-and-consent) and requires employees to accept this policy before saving content, then users must do so before creating a live event (with an external app or device) in Teams. Before you roll out the live events feature in the organization, make sure users who will be creating these live events have consented to the policy.
 

@@ -1,8 +1,8 @@
 ---
 title: 'Managing disaster recovery, high availability, and Backup Service'
 ms.reviewer: 
-author: cichur
-ms.author: v-cichur
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: article

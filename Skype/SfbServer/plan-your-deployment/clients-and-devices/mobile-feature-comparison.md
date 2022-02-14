@@ -1,7 +1,7 @@
 ---
 title: "Mobile client feature comparison for Skype for Business"
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018

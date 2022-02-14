@@ -1,7 +1,7 @@
 ---
 title: Get clients for Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -12,25 +12,21 @@ ms.collection:
 ms.reviewer: harij, rafarhi
 ms.localizationpriority: high
 search.appverid: MET150
-description: Learn how to use the various clients available for Microsoft Teams which include web, desktop (Windows and Mac), and mobile (Android and iOS).
+description: Learn how to install the various clients available for Microsoft Teams on PCs, Macs, and mobile devices.
 f1.keywords:
 - CSH
-ms.custom: 
-  - NewAdminCenter_Update
 appliesto: 
   - Microsoft Teams
 ---
 
 # Get clients for Microsoft Teams
 
-Microsoft Teams has clients available for desktop (Windows, Mac, and Linux), web, and mobile (Android and iOS). These clients all require an active internet connection and do not support an offline mode.
+> [!TIP]
+> **Want to install Teams on your PC, Mac, or mobile device?** Check out [Install the Teams client](https://www.microsoft.com/microsoft-teams/download-app).
 
-> [!NOTE]
-> For details about each clients' capabilities on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
->
-> Effective November 29, 2018, you'll no longer be able to use the Microsoft Teams for Windows 10 S (Preview) app, available from the Microsoft Store. Instead, you can now download and install the Teams desktop client on devices running Windows 10 S mode. To download the desktop client, go to [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/p/?linkid=855754). MSI builds of the Teams desktop client are not yet available for devices running Windows 10 S mode.
->
-> For more information about Windows 10 S mode, see [Introducing Windows 10 in S mode](https://www.microsoft.com/windows/s-mode).
+This article provides information on how to install Microsoft Teams on devices in your enterprise.
+
+For details about each client's capabilities on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## Desktop client
 
@@ -56,7 +52,7 @@ IT admins can choose their preferred method to distribute the installation files
 The Microsoft Teams installation for Windows provides downloadable installers in 32-bit and 64-bit architecture.
 
 > [!NOTE]
-> The architecture (32-bit vs. 64-bit) of Microsoft Teams is agnostic to the architecture of Windows and Office that is installed.
+> The architecture (32-bit vs. 64-bit) of Microsoft Teams is agnostic to the architecture of Windows and Office that is installed. We recommend the 64-bit version of Microsoft Teams on 64-bit systems.
 
 The Windows client is deployed to the AppData folder located in the user’s profile. Deploying to the user’s local profile allows the client to be installed without requiring elevated rights. The Windows client leverages the following locations:
 
@@ -200,11 +196,11 @@ Supported mobile platforms for Microsoft Teams mobile apps are the following:
 
 Mobile apps are distributed and updated through the respective mobile platform’s app store only. Distribution of the mobile apps via MDM or side-loading is not supported by Microsoft. Once the mobile app has been installed on a supported mobile platform, the Teams Mobile App itself will be supported provided the version is within three months of the current release.
 
-| | | |
+|&nbsp; |&nbsp; |&nbsp; |
 |---|---|---|
 |![An icon depicting a decision point.](media/Get_clients_for_Microsoft_Teams_image4.png)|Decision Point|Are there any restrictions preventing users from installing the appropriate Microsoft Teams client on their devices?|
 |![An icon depicting the next steps.](media/Get_clients_for_Microsoft_Teams_image5.png)|Next Steps|If your organization restricts software installation, make sure that process is compatible with Microsoft Teams. Note: Admin rights are not required for PC client installation but are required for installation on a Mac.|
-|
+
 
 ## Client update management
 
