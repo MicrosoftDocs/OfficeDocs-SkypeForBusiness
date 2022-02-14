@@ -90,18 +90,20 @@ You can configure the phone number by using the Teams admin center or by using T
 
 ### Use Teams admin center
 
-1. Go to **Users** -> **Manage users** and select a user.
+1. Go to **Users** -> **Manage users**.
+
+2. Select a user.
 
 2. Under **Account** **General information**, select **Edit**.
 
-3. Under **Assign phone number**, **Phone number type**, select **Direct Routing**.
+3. Under **Assign phone number**, from the **Phone number type** drop-down menu, select **Direct Routing**.
 
-4. Enter an assigned phone number and extension if appicable.
+4. Enter an assigned phone number and a phone number extension if appicable.
 
 5. Select **Apply.**
 
 
-### User Teams PowerShell
+### Use PowerShell
 
 1. Connect to a Microsoft Teams PowerShell session. 
 
