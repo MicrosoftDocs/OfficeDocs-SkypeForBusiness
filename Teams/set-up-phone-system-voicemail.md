@@ -1,7 +1,7 @@
 ---
 title: "Set up Cloud Voicemail"
-author: dstrome
-ms.author: dstrome
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: wasseemh, phans
 ms.topic: article
@@ -9,177 +9,54 @@ ms.assetid: 9c590873-b014-4df3-9e27-1bb97322a79d
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection: 
+ms.collection:
   - M365-voice
   - m365initiative-voice
 audience: Admin
-appliesto: 
+appliesto:
   - Skype for Business
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
-ms.custom: 
+ms.custom:
   - Phone System
-description: "Learn how to set up Cloud Voicemail for your users. "
+description: "Learn how to set up Cloud Voicemail for your users."
 ---
 
 # Set up Cloud Voicemail
 
-This article is for the Microsoft 365 or Office 365 admin as described in [About admin roles](/microsoft-365/admin/add-users/about-admin-roles) who wants to set up the Cloud Voicemail feature for everyone in the business.
+This article is for the Microsoft 365 or Office 365 admin as described in [About admin roles](/microsoft-365/admin/add-users/about-admin-roles) who wants to set up the Cloud Voicemail feature for everyone in the business. Cloud Voicemail requires Exchange mailboxes for users where it deposits voicemail messages. It doesn't support third-party email systems. For Exchange Online licensing requirements, please see [Exchange Online service description](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description#features-available-to-all-plans).
 
-> [!NOTE]
-> Cloud Voicemail supports depositing voicemail messages only in an Exchange mailbox and doesn't support any third-party email systems. 
+## Cloud Voicemail for Teams users
 
-> [!NOTE]
-> When a delegate answers a call on behalf of a delegator, notifications are not available in Cloud Voicemail. Users can receive notifications for missed calls.
+For Teams users, Cloud Voicemail is automatically set up and provisioned. A Microsoft Teams Phone license is not required for Cloud Voicemail.
 
-## Cloud-only environments: Set up Cloud Voicemail for Online Phone System users
+## Help your users learn Teams voicemail features
 
-For Online Phone System users, Cloud Voicemail is automatically set up and provisioned for users after you assign a **Phone System** license to the users. 
+We have the following information for your users on using and managing voicemail in Teams:
 
-> [!NOTE]
-> For Online Skype for Business Phone System users with on-premises provided phone numbers, you may need to enable hosted voice mail with [Set-CsUser -HostedVoicemail $True](/powershell/module/skype/set-csuser?view=skype-ps). 
+- [Check your voicemail in Teams](https://support.microsoft.com/office/check-your-voicemail-in-teams-f8d568ce-7329-4fe2-a6a2-325ec2e2b419)
+- [Manage your call settings in Teams](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
 
-## Set up Cloud Voicemail for Exchange Server Mailbox Users
+## Setting up Cloud Voicemail to work with on-premises users
 
-The following information is about configuring Cloud Voicemail to work with users who are online for Phone System but have their mailbox on Exchange Server. 
-  
-1. Voicemail messages are delivered to users' Exchange mailbox via SMTP routed through Exchange Online Protection. To enable successful delivery of these messages, please be sure that Exchange Connectors are configured correctly between your Exchange servers and Exchange Online Protection; [Use Connectors to Configure Mail Flow](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow). 
+You can use Cloud Voicemail to provide voice mail functionality to your users who have mailboxes on your Exchange Servers, or for users who are using Skype for Business Server. This section provides information for these scenarios. 
 
-2. To enable Voicemail features such as customizing greetings and visual voicemail in Skype for Business clients, connectivity from Microsoft 365 or Office 365 to the Exchange server mailbox via Exchange Web Services is required. To enable this connectivity, you must configure the new Exchange Oauth authentication protocol described in [Configure OAuth authentication between Exchange and Exchange Online organizations](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help), or run the Exchange Hybrid Wizard from Exchange 2013 CU5 or greater. Additionally, you must configure integration and Oauth between Skype for Business Online and Exchange server described in [Configure Integration and OAuth between Skype for Business Online and Exchange Server](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises). 
+### Set up Cloud Voicemail for Exchange Server Mailbox Users
 
-## Set up Cloud Voicemail for Skype for Business Server Users
+The following information is about configuring Cloud Voicemail to work with Microsoft Teams Phone users who have their mailbox on Exchange Server.
 
-To configure Skype for Business server users for Cloud Voicemail, please see [Plan Cloud Voicemail service for on-premises users](/skypeforbusiness/hybrid/plan-cloud-voicemail).
+1. Voicemail messages are delivered to users' Exchange mailbox via SMTP routed through Exchange Online Protection. To enable successful delivery of these messages, be sure that Exchange Connectors are configured correctly between your Exchange servers and Exchange Online Protection; [Use Connectors to Configure Mail Flow](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow).
+
+2. To enable Voicemail features such as customizing greetings and visual voicemail in Skype for Business clients, connectivity from Microsoft 365 or Office 365 to the Exchange server mailbox via Exchange Web Services is required. To enable this connectivity, you must configure the new Exchange Oauth authentication protocol described in [Configure OAuth authentication between Exchange and Exchange Online organizations](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help), or run the Exchange Hybrid Wizard from Exchange 2013 CU5 or greater. Additionally, you must configure integration and Oauth between Skype for Business Online and Exchange server described in [Configure Integration and OAuth between Skype for Business Online and Exchange Server](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises).
+
+### Set up Cloud Voicemail for Skype for Business Server Users
+
+To configure Skype for Business server users for Cloud Voicemail, see [Plan Cloud Voicemail service for on-premises users](/skypeforbusiness/hybrid/plan-cloud-voicemail).
 
 ## Enabling protected voicemail in your organization
 
 When someone leaves a voicemail message for a user in your organization, the voicemail is delivered to the user's mailbox as an email message attachment. Using mail flow rules to apply message encryption, you can prevent those voicemail messages from being forwarded to other recipients. When you enable protected voicemail, users can listen to protected voicemail messages by calling into their voicemail mailbox or by opening the message in Outlook, Outlook on the web, or in Outlook for Android or iOS. Protected voicemail messages can't be opened in Skype for Business or Microsoft Teams.
 
-For more information about message encryption, see [Email encryption](/microsoft-365/compliance/email-encryption?view=o365-worldwide).
-
-To set up protected voicemail, do the following:
-
-1. Go to https://admin.microsoft.com and sign in using an account with global administrator permissions.
-2. Select **Show all** and then go to **Admin centers** > **Exchange**.
-3. In the Exchange Admin Center, select **Mail flow** > **Rules**.
-4. Select **+** **Add**, and then select **Apply Office 365 Message Encryption and rights protection to messages**.
-5. Provide a name for the new mail flow rule and then under **Apply this rule if**, select **The message properties** > **Include the message type** > **Voice mail**. Select **OK**.
-6. Under **Do the following**, select **Apply Office 365 Message Encryption and rights protection to the message with** and then select **Select one**. Under **RMS template**, select **Do not forward**. Select **OK** and then **Save**.
-    > [!NOTE]
-    > If the **RMS template** list is empty, you need to set up Message Encryption. For more information about setting up Message Encryption, see the following articles:
-    > - [Set up new Message Encryption capabilities](/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
-    > - [Configuring and managing templates for Azure Information Protection](/information-protection/deploy-use/configure-policy-templates)
-    > - [Do Not Forward option for emails](/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)
-
-## Setting voicemail policies in your organization
-
-> [!WARNING]
-> For Skype for Business customers, disabling voicemail through a Microsoft Teams calling policy might also disable the voicemail service for your Skype for Business users.
-
-Voicemail transcription is enabled by default and transcription profanity masking is disabled by default for all organizations and users; however, you can control them by using the [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) and [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Get-CsOnlineVoicemailPolicy) cmdlets.
-
-Voicemail messages received by users in your organization are transcribed in the region where your Microsoft 365 or Office 365 organization is hosted. The region where your tenant is hosted might not be the same region where the user receiving the voicemail message is located. To view the region where your tenant is hosted, go to the [Organization profile](https://go.microsoft.com/fwlink/p/?linkid=2067339) page and then click **View details** next to **Data location**.
-
-> [!IMPORTANT]
-> You can't create a new policy instance for transcription and transcription profanity masking using the **New-CsOnlineVoiceMailPolicy** cmdlet, and you can't remove an existing policy instance using the **Remove-CsOnlineVoiceMailPolicy** cmdlet.
-
-You can manage the transcription settings for your users using voicemail policies. To see all available voicemail policy instances, you can use the [Get-CsOnlineVoicemailPolicy](/powershell/module/skype/Get-CsOnlineVoicemailPolicy) cmdlet.
-
-```PowerShell
-PS C:\> Get-CsOnlineVoicemailPolicy
-
-
-Identity                            : Global
-EnableTranscription                 : True
-ShareData                           : Defer
-EnableTranscriptionProfanityMasking : False
-EnableEditingCallAnswerRulesSetting : True
-MaximumRecordingLength              : 00:05:00
-EnableTranscriptionTranslation      : True
-
-Identity                            : Tag:Default
-EnableTranscription                 : True
-ShareData                           : Defer
-EnableTranscriptionProfanityMasking : False
-EnableEditingCallAnswerRulesSetting : True
-MaximumRecordingLength              : 00:05:00
-EnableTranscriptionTranslation      : True
-
-Identity                            : Tag:TranscriptionProfanityMaskingEnabled
-EnableTranscription                 : True
-ShareData                           : Defer
-EnableTranscriptionProfanityMasking : True
-EnableEditingCallAnswerRulesSetting : True
-MaximumRecordingLength              : 00:05:00
-EnableTranscriptionTranslation      : True
-
-Identity                            : Tag:TranscriptionDisabled
-EnableTranscription                 : False
-ShareData                           : Defer
-EnableTranscriptionProfanityMasking : False
-EnableEditingCallAnswerRulesSetting : True
-MaximumRecordingLength              : 00:05:00
-EnableTranscriptionTranslation      : True
-```
-  
-### Turning off transcription for your organization
-
-Because the default setting for transcription is on for your organization, you may want to disable it by using [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy). To do this, run:
-
-```PowerShell
-Set-CsOnlineVoicemailPolicy -EnableTranscription $false
-```
-
-### Turning on transcription profanity masking for your organization
-
-Transcription profanity masking is disabled by default for your organization. If there is a business requirement to enable it, you can enable transcription profanity masking by using [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy). To do this, run:
-
-```PowerShell
-Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
-```
-
-### Turning off transcription for a user
-
-User policies are evaluated before the organizational default settings. For example, if voicemail transcription is enabled for all of your users, you can assign a policy to disable transcription for a specific user by using the [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Grant-CsOnlineVoicemailPolicy) cmdlet.
-
-To disable transcription for a single user, run:
-
-```PowerShell
-Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionDisabled -Identity sip:amosmar@contoso.com
-```
-
-### Turning on transcription profanity masking for a user
-
-To enable transcription profanity masking for a specific user, you can assign a policy to enable transcription profanity masking for a specific user by using the [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Grant-CsOnlineVoicemailPolicy) cmdlet.
-
-To enable transcription profanity masking for a single user, run:
-
-```PowerShell
-Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -Identity sip:amosmar@contoso.com
-```
-
-> [!IMPORTANT]
-> The voicemail service in Microsoft 365 and Office 365 caches voicemail policies and updates the cache every 4 hours. So, policy changes that you make can take up to 4 hours to be applied.
-
-## Help your users learn Teams voicemail features
-
-We have the following information for your users on managing their voicemail settings as well as other calling features in Teams:
-
-- [Manage your call settings in Teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f). This article explains how to manage all end-user Teams calling features. 
-
-## Help your users learn Skype for Business voicemail features
-
-We have training information and articles to help your users be successful with Skype for Business voicemail. Point them to the following articles:
-
-- [Check Skype for Business voicemail and options](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8): This article explains how to listen to your voicemail in Skype for Business, change your voice mail greeting, change your voicemail settings, and listen to your voicemail at different speeds.
-
-- [Skype for Business 2016 training](https://support.office.com/article/eb2081bc-fd0a-4eda-94da-5a39f369ee74)
-
-## Related topics
-[Set up Skype for Business Online](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
-
-[Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md)
-
-[Plan for Skype for Business Server and Exchange Server migration](/SkypeForBusiness/hybrid/plan-um-migration)
+For more information about message encryption, see [Define mail flow rules to encrypt email messages](/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email).

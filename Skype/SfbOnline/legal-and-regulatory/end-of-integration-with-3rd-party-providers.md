@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: None
+ms.localizationpriority: null
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -23,6 +23,8 @@ description: "On July 31, 2021, the end of life program will conclude for the in
 ---
 
 # End of life program for the integration of Skype for Business with third-party audio conferencing providers 
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Microsoft has announced the start of the end of life program for the integration of Skype for Business with third-party audio conferencing providers (ACPs). 
 
@@ -42,7 +44,7 @@ As part of the announcement of the start of the end of life program, the followi
 
 To prepare for this change, we encourage affected organizations to notify their enabled users of this planned update prior to July 31, 2021. 
 
-After July 31, 2021, users can continue to use Skype for Business with no interruption to their online meetings; however, organizations will need to enable their users for Audio Conferencing provided by Microsoft if they require dial-in audio conferencing with Skype for Business or Microsoft Teams. To learn more about Microsoft Audio Conferencing, see [Audio Conferencing](https://products.office.com/skype-for-business/audio-conferencing). 
+After July 31, 2021, users can continue to use Skype for Business with no interruption to their online meetings; however, organizations will need to enable their users for Audio Conferencing provided by Microsoft if they require dial-in audio conferencing with Skype for Business or Microsoft Teams. To learn more about Microsoft Audio Conferencing, see [audio conferencing](https://www.microsoft.com/microsoft-teams/audio-conferencing). 
 
 Depending on the desired end state of an organization, there are three paths that can be followed:
 

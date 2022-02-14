@@ -9,7 +9,7 @@ audience: admin
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Before you migrate updates must be applied to your environment. For the most up-to-date information, see Updates Resource Center at https://go.microsoft.com/fwlink/p/?linkid=232630."
 ---
 

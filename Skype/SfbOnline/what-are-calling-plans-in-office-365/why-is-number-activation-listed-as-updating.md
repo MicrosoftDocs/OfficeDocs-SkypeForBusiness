@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -25,6 +25,8 @@ description: "Address validation is an important part of setting up Calling Plan
 ---
 
 # Why is number activation listed as updating?
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
 
 Address validation is an important part of setting up Calling Plans. If for some reason a phone number isn't activated and is listed as **updating** because of address validation, you will need to create and submit a service request. How you do this is based on the size of your organization.
   

@@ -10,12 +10,15 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 description: "Instructions for implementing cloud-based voicemail for users homed on Skype for Business Server."
 ---
 
 # Configure Cloud Voicemail service for on-premises users
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 
 ## Overview 
 This article describes how to configure Microsoft Cloud Voicemail service for your Skype for Business on-premises users.  

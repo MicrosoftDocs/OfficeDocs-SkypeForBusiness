@@ -16,7 +16,7 @@ audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 
@@ -67,11 +67,11 @@ You can set up consumption billing using a **one-time funding** of the pre-paid 
 In the **Microsoft 365 admin center** > **Billing** > **Purchase Services** > **Add Ons** you can select Communication Credits to add the credits, and you can add credit manually at any time. You can also enable the **Auto-recharge** option, which will allow automatic account refills when the balance falls below the threshold that you set. If you choose to fund your Communications Credits balance with a one-time amount and then the balance falls to zero, the additional calling scenarios above will no longer work, including toll-free phone numbers. As such, it's recommended that you use the **Auto-recharge** setting to avoid any disruption of service should your Communications Credits balance reach 0 (zero). You may view your current Communication Credits balance by going to  **Billing** > **Your products** > **Communications Credits**.
 
 > [!NOTE]
->You will be sent emails to **all users** with Lync Service Administrator, Company Administrator, Billing Administrator, Company Administrator, User Account Administrator, Helpdesk Administrator, Service Support Administrator, Billing Administrator, Lync Service Administrator, Device Administrators, Application Administrator, License Administrator, Cloud Device Administrator, Authentication Administrator, Privileged Authentication Administrator, Teams Communications Administrator, Teams Communications Support Engineer, Teams Communications Support Specialist, Teams Service Administrator admin roles, when recharge transactions succeed, recharge transactions fail (such as an expired credit card), and or your Communications Credits balance reaches 0 (zero).
+>You will be sent emails to **all users** with Lync Service Administrator, Company Administrator, Billing Administrator, Company Administrator, User Account Administrator, Helpdesk Administrator, Service Support Administrator, Billing Administrator, Lync Service Administrator, Device Administrators, Application Administrator, License Administrator, Cloud Device Administrator, Authentication Administrator, Privileged Authentication Administrator, Teams Communications Administrator, Teams Communications Support Engineer, Teams Communications Support Specialist, Teams Administrator admin roles, when recharge transactions succeed, recharge transactions fail (such as an expired credit card), and or your Communications Credits balance reaches 0 (zero).
   
 ## Communications Credits
 
-Each organization will have a different usage of Calling Plans volume and rates to consider. You will need to get this type of usage data from your current service provider. For organizations using Teams already as their service provider, you can get usage data by reviewing it in the Microsoft Teams admin center > **Analytics & reports** > **Usage reports**, and then select **PSTN usage**.
+Each organization will have a different usage of Calling Plans volume and rates to consider. You will need to get this type of usage data from your current service provider. For organizations using Teams already as their service provider, you can get usage data by reviewing it in the Microsoft Teams admin center > **Analytics & reports** > **Usage reports**, and then select **PSTN and SMS (preview)usage**.
   
 When you are setting up Communications Credits, you will need to investigate call usage for your organization to determine the amounts that you will need to put in. You can get call usage information by reviewing the PSTN usage report. This report lets you export the call data records to Excel and create custom reports.
 
@@ -92,7 +92,7 @@ Important notifications related to the Communication Credits balance of your org
 - Teams Communications Administrator
 - Teams Communications Support Engineer
 - Teams Communications Support Specialist
-- Teams Service Administrator
+- Teams Administrator
 
 > [!NOTE]
 > Communications Credits are also used for premium rate numbers. The caller pays the charges.

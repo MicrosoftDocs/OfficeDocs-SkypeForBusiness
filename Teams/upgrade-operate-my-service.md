@@ -1,14 +1,14 @@
 ---
 title: Operations for Microsoft Teams| Service Management | Quality
-author: cichur
-ms.author: v-cichur
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: Tasks and activities required for Teams service management, including monitoring service health, and assessing and ensuring network quality and usage 
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -22,7 +22,7 @@ appliesto:
 
 # Operate your service
 
-![Upgrade journey diagram, emphasizing the Operational Excellence stage](media/upgrade-banner-op-excellence.png "Stages of the upgrade journey, with emphasis on the Operational Excellence stage")
+![Upgrade journey diagram, emphasizing the Operational Excellence stage.](media/upgrade-banner-op-excellence.png "Stages of the upgrade journey, with emphasis on the Operational Excellence stage")
 
 This article is part of the Operational Excellence stage of your upgrade journey, which begins as soon as you've completed your upgrade from Skype for Business to Teams.
 
@@ -55,7 +55,7 @@ The tasks and activities in this guide are grouped into eight categories as
 depicted in the following diagram. Each of these categories will be expanded
 upon in the following sections.
 
-![A diagram depicting a list of categories of tasks and activities](media/operate-my-service-image1.png "A diagram depicting a list of categories of tasks and activities that service management for Teams comprises. The diagram also depicts that service management is largely a customer task.")
+![A diagram depicting a list of categories of tasks and activities.](media/operate-my-service-image1.png "A diagram depicting a list of categories of tasks and activities that service management for Teams comprises. The diagram also depicts that service management is largely a customer task.")
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Decision points</td><td><ul><li>Decide how operations will be implemented for Teams.</li></ul></td></tr>
@@ -182,7 +182,7 @@ services.
 ### Monitoring with the mobile app
 
 The Microsoft 365 Admin app is available on Apple iOS, Android, and Windows (PC and
-mobile). The app provides service administrators information about service
+mobile). The app provides administrators information about service
 health and upcoming changes. The app supports push notifications that can alert
 you almost immediately after an advisory has been posted. This helps you stay
 current on the status, health, and any upcoming changes to the service. The
@@ -343,7 +343,7 @@ Reviewing usage frequently early in the deployment gives you the opportunity to:
 
 - Understand whether there are discrepancies between the Envision phase requirements and actual usage.
 
-If usage isn't what you expect, this could be due to a deployment issue, or the adoption plan isn't being executed properly, or some other problem. Depending on the actual reason behind the low usage, the service administrator must collaborate with the related teams to help remove usage barriers.
+If usage isn't what you expect, this could be due to a deployment issue, or the adoption plan isn't being executed properly, or some other problem. Depending on the actual reason behind the low usage, the administrator must collaborate with the related teams to help remove usage barriers.
 
 ### Measuring usage with the Microsoft 365 admin center
 
@@ -459,7 +459,7 @@ based on the following ratings:
 
 - From 1 through 6 are Detractors: Unhappy customers who can damage your service and impede growth.
 
-![A diagram that demonstrates the NPS scale](media/operate-my-service-image2.png "This diagram demonstrates the NPS scale. It shows that rankings of 0 through 6 are detractors, 7 through 8 are passive, and 9 through 10 are promoters.")
+![A diagram that demonstrates the NPS scale.](media/operate-my-service-image2.png "This diagram demonstrates the NPS scale. It shows that rankings of 0 through 6 are detractors, 7 through 8 are passive, and 9 through 10 are promoters.")
 
 Although the base NPS number is useful, you'll get the most value from analyzing
 user comments. They'll help you understand why the user would (or wouldn't)

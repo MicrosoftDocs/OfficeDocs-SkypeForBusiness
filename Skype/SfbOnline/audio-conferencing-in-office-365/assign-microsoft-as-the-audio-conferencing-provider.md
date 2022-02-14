@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -24,6 +24,8 @@ ms.custom:
 description: "Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business."
 ---
 # Assign Microsoft as the audio conferencing provider
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 To use Audio Conferencing in Microsoft 365 or Office 365 with Skype for Business and Microsoft Teams, users in your organization need to have an Audio Conferencing license assigned to them. See [Try or purchase Audio Conferencing in Microsoft 365 or Office 365](try-or-purchase-audio-conferencing-in-office-365.md) to get more information on licensing and how much it costs.
 
@@ -34,7 +36,7 @@ Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conferenc
   
 ## Assign Microsoft as the audio conferencing provider
 
-### ![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) Using the Skype for Business admin center
+### ![An icon showing the Skype for Business logo.](../images/sfb-logo-30x30.png) Using the Skype for Business admin center
 
 1. Go to the **Microsoft Teams admin center** > **Legacy portal**.
     

@@ -10,7 +10,7 @@ audience: admin
 description: Learn about best practices for managing large teams in Microsoft Teams to meet your organization's needs.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration
@@ -19,8 +19,7 @@ appliesto:
 ms.custom: seo-marvel-mar2020
 ---
 
-Manage large teams in Microsoft Teams - Best practices
-======================================================
+# Manage large teams in Microsoft Teams - Best practices
 
 Microsoft Teams is equally effective at facilitating communications between small groups with dozens of members and large groups with thousands of members. Review [Limits and specifications for Teams](limits-specifications-teams.md) for updates on team sizes. Increase in team size leads to unique management and operational challenges. This article describes best practices for creating and managing large teams comprised of thousands of members.
 

@@ -1,7 +1,7 @@
 ---
 title: Create a new template from an existing team template in Microsoft Teams
-author: cichur
-ms.author: v-cichur
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: aaglick
 manager: serdars
 ms.topic: article
@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Learn how to use an existing team template to create a new team template in Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection: 
@@ -18,7 +18,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Create a new template from an existing team template in Microsoft Teams
+# Create a new team template from an existing team template in Microsoft Teams
 
 **Custom templates are not yet supported for EDU customers.**
 
@@ -28,7 +28,7 @@ Microsoft Teams provides pre-built templates that can be saved and modified to m
 
 2. In the left navigation, expand **Teams** > **Team templates**.
 
-3. In the **Team templates** section, select next to a template that you want to duplicate to highlight it.
+3. In the **Team templates** section, select next to a team template that you want to duplicate to highlight it.
 
 4. Select **Duplicate**.
 

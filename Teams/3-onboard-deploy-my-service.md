@@ -14,7 +14,7 @@ ms.reviewer: rowille
 description: Download the Site Enablement Playbook to plan your Teams rollout and accelerate and optimize user adoption, perception of quality, and satisfaction.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-voice
   - M365-collaboration
@@ -78,7 +78,7 @@ The [Site Enablement Playbook for Voice (Playbook)](https://github.com/Microsoft
 focus areas is a separate sheet in the workbook, and each deployment task and
 activity is grouped onto one of these sheets.
 
-![Screenshot of the site enablement playbook](media/deploy-my-service-image1.png "Screenshot of the playbook")
+![Screenshot of the site enablement playbook.](media/deploy-my-service-image1.png "Screenshot of the playbook")
 
 > [!NOTE]
 > You’ll create a separate instance of the playbook for each site in scope for
@@ -106,21 +106,21 @@ to Microsoft Teams voice.
    illustrated below. This is a critical step, because it adjusts the
    recommended deadlines for every activity in the playbook.
 
-   ![Example with site name, site code, and planned launch date](media/deploy-my-service-image2.png "Example with site name of New York, site code NY01, and planned launch date of 20-Mar-18")
+   ![Example with site name, site code, and planned launch date.](media/deploy-my-service-image2.png "Example with site name of New York, site code NY01, and planned launch date of 20-Mar-18")
 
 5. Review each activity, take necessary actions, and update the status as you
    walk through the timeline. Status is represented graphically, as described
    below:
   
-   - ![Illustration of a green check mark](media/deploy-my-service-image3.png) **Yes, or not applicable (green):** The activity has been completed, or it’s not applicable for this site, and no further action is needed.</li>
-   - ![Illustration of a yellow exclamation point](media/deploy-my-service-image4.png) <strong>The activity isn’t completed yet (yellow):</strong> The activity hasn’t been completed yet, and must be updated to Yes or No on its schedule.</li>
-   - ![Illustration of a red X indicating no](media/deploy-my-service-image5.png) <strong>No (red):</strong> The activity can’t be completed because of an issue and must be carried to the project status meeting.</li></ul>
+   - ![Illustration of a green check mark.](media/deploy-my-service-image3.png) **Yes, or not applicable (green):** The activity has been completed, or it’s not applicable for this site, and no further action is needed.</li>
+   - ![Illustration of a yellow exclamation point.](media/deploy-my-service-image4.png) <strong>The activity isn’t completed yet (yellow):</strong> The activity hasn’t been completed yet, and must be updated to Yes or No on its schedule.</li>
+   - ![Illustration of a red X indicating no.](media/deploy-my-service-image5.png) <strong>No (red):</strong> The activity can’t be completed because of an issue and must be carried to the project status meeting.</li></ul>
 
 6. The status is rolled up within each section, and the section heading is
    formatted with one of these status indicators. **Weekly status** is also
    updated automatically.
 
-![Screenshot of the weekly status roll-ups in the playbook](media/deploy-my-service-image6.png "Screenshot of the weekly status roll-ups in the playbook")
+![Screenshot of the weekly status roll-ups in the playbook.](media/deploy-my-service-image6.png "Screenshot of the weekly status roll-ups in the playbook")
 
 > [!TIP]
 > Repeat the steps above for all the locations you have.

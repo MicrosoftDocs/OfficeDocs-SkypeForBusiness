@@ -9,12 +9,15 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 description: "Instructions for configuring Call Data Connector, which allows telemetry from Skype for Business on-premises to be viewed using Skype for Business Online tools."
 ---
 
 # Configure Call Data Connector
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 
 This article describes how to configure Call Data Connector--a single toolset that enables viewing Skype for Business Server Call Quality Data using Skype for Business Online Call Quality Dashboard (CQD) and Call Analytics (CA) tools.
 

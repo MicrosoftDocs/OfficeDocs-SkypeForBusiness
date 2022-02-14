@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -23,6 +23,8 @@ description: "Download, install, and then use Windows PowerShell 5.1 to create a
 ---
 
 # Download and install Windows PowerShell 5.1
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 If you are using Windows 10 Anniversary Update, or Windows Server 2016, you should already have Windows PowerShell 5.1. That's because this application comes preinstalled with those operating systems.
   

@@ -15,7 +15,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business 
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -24,6 +24,8 @@ description: "Learn what you need and how meeting organizers can call out to oth
 ---
 
 # Dialing out from a Skype for Business meeting so other people can join it
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!NOTE]
 > If you're looking for information about dialing out from a Teams meeting, see [Dialing out from a Teams meeting so other people can join it](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it).
@@ -45,7 +47,7 @@ In order to add other participants via dial-out to the meetings of your organiza
   
  **Step 2:** Enter the full phone number, including the country/region code in the box.
   
-![Dial-out phone number in Skype for Business](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
+![Dial-out phone number in Skype for Business.](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
   
 ## Supported countries and regions
 

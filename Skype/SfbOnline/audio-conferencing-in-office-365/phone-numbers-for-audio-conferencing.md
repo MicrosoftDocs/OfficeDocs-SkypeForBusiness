@@ -15,7 +15,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business 
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -25,6 +25,8 @@ description: "Learn what countries and regions have dial-in conferencing numbers
 ---
 
 # Phone numbers for Audio Conferencing in Skype for Business Online
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!NOTE]
 > For information about phone numbers in Microsoft Teams, see [Phone numbers for Audio Conferencing in Microsoft Teams](/MicrosoftTeams/phone-numbers-for-audio-conferencing-in-teams).
@@ -36,7 +38,7 @@ When you are setting up **Audio Conferencing** for Skype for Business, dial-in p
   
 ## Audio Conferencing coverage and pricing
 
-For a complete list of all the countries/regions and cities where Audio Conferencing is available, see [Countries and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). For pricing information, see [Pricing for Audio Conferencing](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
+For a complete list of all the countries/regions and cities where Audio Conferencing is available, see [Countries and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). For more information, see [audio conferencing](https://www.microsoft.com/microsoft-teams/audio-conferencing).
   
 ## Dial-in phone numbers in a meeting invite
 

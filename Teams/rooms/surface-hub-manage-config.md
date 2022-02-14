@@ -11,7 +11,7 @@ ms.collection:
   - M365-collaboration
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Manage Microsoft Teams settings on Surface Hub using Microsoft Intune and Windows Configuration Designer"
 ---
 
@@ -22,23 +22,23 @@ You can manage Microsoft Teams settings on a Surface Hub using Windows Configura
 - [Create a provisioning package for Windows 10](/windows/configuration/provisioning-packages/provisioning-create-package)
 - [What is Microsoft Intune device management?](/mem/intune/remote-actions/device-management)
 
-Windows Configuration Designer is a good option if you only have a few Surface Hub devices and you can access them easily. If you have many Surface Hubs, or if they're in remote locations, use Microsoft Intune in Microsoft Endpoint Manager if its deployed in your organization. Regardless of the method you choose, you need to create an XML configuration file for make changes to Teams settings on Surface Hub.
+Windows Configuration Designer is a good option if you only have a few Surface Hub devices and you can access them easily. If you have many Surface Hubs, or if they're in remote locations, use Microsoft Intune in Microsoft Endpoint Manager if its deployed in your organization. Regardless of the method you choose, you need to create an XML configuration file to make changes to Teams settings on Surface Hub.
 
 ## Teams configuration file syntax
 
 Teams configuration on a Surface Hub is defined using an XML file. The XML file contains all the settings that can be used to control how Teams works. Both Windows Configuration Designer and Microsoft Intune use the same XML syntax. Here's an example of the Teams configuration XML file:
 
 ```xml
-<SurfaceHubSettings>​
-    <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>​
-    <AutoAcceptProximateMeetingInvitations>true</AutoAcceptProximateMeetingInvitations>​
-    <CoordinatedMeetings enabled="true"> ​
-        <TrustedAccounts>​room@contoso.com</TrustedAccounts>​
-        <Settings> ​
-            <Audio default="false" enabled="false" />​
-            <Video default="false" enabled="true" /> ​
-        </Settings> ​
-    </CoordinatedMeetings>​
+<SurfaceHubSettings>
+    <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
+    <AutoAcceptProximateMeetingInvitations>true</AutoAcceptProximateMeetingInvitations>
+    <CoordinatedMeetings enabled="true"> 
+        <TrustedAccounts>room@contoso.com</TrustedAccounts>
+        <Settings> 
+            <Audio default="false" enabled="false" />
+            <Video default="false" enabled="true" /> 
+        </Settings> 
+    </CoordinatedMeetings>
 </SurfaceHubSettings>
 ```
 

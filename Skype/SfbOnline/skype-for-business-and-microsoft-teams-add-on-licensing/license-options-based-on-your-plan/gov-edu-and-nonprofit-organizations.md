@@ -14,7 +14,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business 
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -24,6 +24,8 @@ description: "Learn about add-on licenses and features for GOV, EDU and non-prof
 ---
 
 # GOV, EDU, and non-profit organizations
+
+[!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 
 Most Skype for Business features are available to .gov, .edu, and nonprofit organizations. See the following table for details.
 

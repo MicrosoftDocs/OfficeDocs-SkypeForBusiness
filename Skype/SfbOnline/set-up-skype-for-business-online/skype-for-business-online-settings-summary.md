@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 ms.appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOIDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -23,6 +23,8 @@ description: "This summary of Skype for Business organization and user settings 
 ---
 
 # Skype for Business Online settings summary
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 The **Skype for Business admin center** includes settings for your entire organization, and for individual users. 
   

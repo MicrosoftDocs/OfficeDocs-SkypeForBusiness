@@ -9,7 +9,7 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "The procedures outlined in this topic are designed to guide you through the process of removing an Enterprise Edition Front End pool or a Standard Edition Front End Server. After migrating to Skype for Business Server 2019, this is one of the first steps to decommissioning your legacy environment."
 ---
 

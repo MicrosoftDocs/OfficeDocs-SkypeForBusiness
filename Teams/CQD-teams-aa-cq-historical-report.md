@@ -14,7 +14,7 @@ audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords: 
   - CSH
 ms.custom: 
@@ -43,7 +43,7 @@ Please perform these steps:
 
 - You will be prompted to select the CQD data pipeline region. Select the region where your tenant is located.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center.":::
 
  - You can see the region using the Skype for Business Online PS cmdlet (Get-CsTenant).ServiceInstance output. 
  The region will be displayed after the / like in this example: 
@@ -54,11 +54,11 @@ Please perform these steps:
  
  - To see your own data, please click **Refresh** in the Home tab under Queries in Power BI Desktop.
 
-   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center.":::
 
 - You will then be prompted to sign in. Select **Organization account** and then select **Sign in**.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center.":::
 
 - Select **Connect** and watch the data refresh.
 
@@ -78,11 +78,11 @@ The following steps assume you have already completed the Installation steps.
 Please perform these steps:
 - Select **View tab** on the ribbon.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center.":::
 
 - Select the color schema from the drop-down list.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Screenshot of the Call quality dashboard button in Teams admin center.":::
 
 
 ## CQD fields description
@@ -93,7 +93,7 @@ Please perform these steps:
 |Auto Attendant Chain Start Time         |datetime                 |AA chain start time                    |
 |Auto Attendant Directory Search Method  |string                   |Last Address book search method        |
 |Auto Attendant Transfer Action          |string                   |Call transfer target type<br>Possible values:<br>§ unknown - entity type was not specified<br>§ user - user entity<br>§ orgaa - Organizational Auto Attendant entity<br>§ hunt_group - Call Queue entity<br>§ application - voice application entity<br>§ external_pstn - external PSTN entity<br>§ shared_voicemail - shared voicemail entity|
-|Auto Attendant Call Result              |string                   |Call result:<br>§ unknown<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined<br>§ service_terminated<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long|
+|Auto Attendant Call Result              |string                   |Call result:<br>§ unknown - Call failed to setup or transfer and service has not received any meaningful failure reason <br>§ transferred_to_user - Call transferred to a user either through Dial By Name/Extension or configured Menu Option <br>§ transferred_to_operator - Call has been transferred to an operator configured, for example if AA is configured with an operator for after-hours <br>§ failover_to_operator - Fallback to operator when transfer fails or name recognition does not work after three tries<br>§ user_terminated - Caller has terminated the call <br>§ service_declined - Call declined by service, this could happen if the service fails to fetch Auto Attendant configuration <br>§ service_terminated - Back-end service terminated the call, possibly if a transfer to target failed and no operator is configured as a fallback <br>§ failed_to_establish_media - Media establishment failed between caller and service <br>§ terminated_no_operator - Name recognition failed after three tries and no operator is configured <br>§ terminated_transfer_failed - Transfer to target failed and no operator is configured <br>§ terminated_automatic_selection - If no action is configured during or after hours, call will terminate by default <br>§ transferred_to_shared_voicemail - Call transferred to shared voicemail if configured as target <br>§ oaa_chain_too_long - When an Auto Attendant chain exceeds five Auto Attendants in succession, the call will terminate to avoid possible call loops <br>§ oaa_session_too_long - Call exceeded maximum allowable session length and has timed out |
 |Auto Attendant Call Flow                |string                   |Encapsulates the different states of Auto Attendant Call<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ announcement|
 |Is Auto Attendant Involved              |Boolean                  |Indicated if AA involved into the call |
 |Auto Attendant Caller Action Count      |int                      |Count of used action by caller         |

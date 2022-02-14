@@ -1,14 +1,14 @@
 ---
-title: Microsoft Teams resources for Education admins
-author: MicrosoftHeidi
-ms.author: heidip
+title: 'Microsoft Teams resources for Education admins: Assign Teams licenses for EDU'
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: karsmith
 description: Licensing walkthrough for Microsoft Teams for EDU.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH

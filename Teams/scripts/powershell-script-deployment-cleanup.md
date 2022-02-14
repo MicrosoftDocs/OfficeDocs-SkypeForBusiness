@@ -1,7 +1,7 @@
 ---
 title: PowerShell script sample - Teams deployment cleanup
-author: cichur
-ms.author: v-cichur
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: amitsri
@@ -10,7 +10,7 @@ audience: admin
 description: Use this PowerShell script to uninstall Teams and remove the Teams folder for users. 
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 ms.collection: 
@@ -35,7 +35,7 @@ Use this script to remove and clear the Teams app from a computer. Run this Powe
 #>
 
 $TeamsPath = [System.IO.Path]::Combine($env:LOCALAPPDATA, 'Microsoft', 'Teams')
-$TeamsUpdateExePath = [System.IO.Path]::Combine($env:LOCALAPPDATA, 'Microsoft', 'Teams', 'Update.exe')
+$TeamsUpdateExePath = [System.IO.Path]::Combine($TeamsPath, 'Update.exe')
 
 try
 {

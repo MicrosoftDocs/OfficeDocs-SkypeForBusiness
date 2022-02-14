@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -24,6 +24,8 @@ description: "Learn what you can and can't use in Skype for Business admin cente
 ---
 
 # Why can't I use the Skype for Business Online admin center right now?
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
 
 We know it's frustrating when you can't get your work done, so we're going to explain what's happening here and why it'll be worth the wait. 
   
@@ -47,7 +49,7 @@ First, let's break down a few terms.
     
 So what this all means is we're in the process of moving all your Skype for Business Online users and service settings to another location that's closer to you. The closer the better. The good news is that after this short period of time, your Skype for Business Online service will improve.
   
-![Service Migration in Microsoft 365 or Office 365](../images/77502071-36fe-4833-a5ff-3b9ca7676542.png)
+![Service Migration in Microsoft 365 or Office 365.](../images/77502071-36fe-4833-a5ff-3b9ca7676542.png)
   
 ## What Skype for Business Online features will still work?
 

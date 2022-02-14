@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
 description: "This article describes benefits, planning considerations, and requirements for implementing the Microsoft Cloud Voicemail service. For information on configuring Cloud Voicemail, see Configuring Cloud Voicemail."
 ---
@@ -17,6 +17,8 @@ description: "This article describes benefits, planning considerations, and requ
 # Plan Cloud Voicemail service for on-premises users
 
 ## Overview
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 This article describes benefits, planning considerations, and requirements for implementing the Microsoft Cloud Voicemail service for your on-premises users. For information on configuring Cloud Voicemail, see [Configure Cloud Voicemail service](configure-cloud-voicemail.md).
 
@@ -33,7 +35,7 @@ Cloud Voicemail takes the place of Exchange Unified Messaging (UM) in providing 
 - Leveraging of existing user greetings from Exchange Online Unified Messaging
 
 > [!Important]
-> Skype for Business Online will be retired on July 31, 2021 after which users will no longer be able to access voicemail in their Exchange mailbox through the Skype for Business Online client.
+> Skype for Business Online was retired on July 31, 2021. Users can no longer access voicemail in their Exchange mailbox through the Skype for Business Online client.
 
 For more information about feature comparison, see [Plan for Skype for Business Server and Exchange Server migration](plan-um-migration.md).
 
@@ -48,7 +50,7 @@ With Cloud Voicemail, your administration tasks are greatly simplified because:
 
 The following diagram shows Cloud Voicemail in a hybrid deployment:
 
-![SfB Cloud Voicemail](../../sfbserver2019/media/plan-cloud-voice-mail-server1.png)
+![SfB Cloud Voicemail.](../../sfbserver2019/media/plan-cloud-voice-mail-server1.png)
 
 Unanswered calls are handled as follows:  
 
@@ -88,7 +90,7 @@ If you are planning to deploy Skype for Business Server 2019 and/or Exchange Ser
 
 Version interoperability and supported topologies for Cloud Voicemail are listed in the following table, which compares the Skype for Business Server versions the user might be homed on with the possible version providing their Exchange Mailbox. You need to use Cloud Voicemail if you want to use Skype for Business 2019 with Exchange Online or Exchange Server 2019.
 
-| | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
+| Skype/Lync version | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
 |:---    |:--- |:--- |:--- |:---  |
 | Skype for Business Server 2019 | Exchange Server UM | Exchange Server UM | Cloud Voicemail | Cloud Voicemail |
 | Skype for Business Server 2015 | Exchange Server UM | Exchange Server UM | Not supported | Cloud Voicemail |

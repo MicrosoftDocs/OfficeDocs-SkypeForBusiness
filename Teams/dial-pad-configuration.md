@@ -13,7 +13,7 @@ ms.collection:
 audience: Admin
 appliesto: 
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: "Learn about how to configure the dial pad in the Teams client so that users can access Public Switched Telephone Network (PSTN) functionality."

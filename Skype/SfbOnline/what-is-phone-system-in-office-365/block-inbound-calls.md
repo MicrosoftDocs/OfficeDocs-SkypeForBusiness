@@ -1,7 +1,7 @@
 ---
 title: Block inbound calls in Skype for Business Online
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -11,11 +11,13 @@ audience: Admin
 ms.reviewer: roykuntz
 appliesto:
 - Skype for Business 
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: Learn how to use PowerShell to manage inbound call blocking in Skype for Business Online.
 ---
 
 # Block inbound calls
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Skype for Business Online Calling Plans now supports blocking of inbound calls from the public switched telephone network (PSTN). This feature allows a tenant global list of number patterns to be defined so that the caller ID of every incoming PSTN call to the tenant can be checked against the list for a match. If a match is made, an incoming call is rejected.
 

@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business 
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -23,6 +23,8 @@ description: "Learn what address validation is, why it's important, and how it r
 ---
 
 # What is address validation?
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
 
 When you set up Calling Plans, you will need to assign a phone number and emergency address to each of your users.
   

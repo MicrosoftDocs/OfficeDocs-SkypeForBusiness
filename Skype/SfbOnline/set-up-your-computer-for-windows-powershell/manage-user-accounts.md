@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -22,6 +22,8 @@ description: "Use the Get-CsOnlineUser cmdlet in Windows PowerShell to get infor
 ---
 
 # Manage user accounts
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 ## Manage user accounts
 

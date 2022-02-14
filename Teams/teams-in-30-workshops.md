@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 07/01/2019
 ms.service: msteams
 audience: admin
+ms.topic: article
 ms.collection: 
   - M365-collaboration
   - Teams_ITAdmin_JourneyFromSfB
@@ -48,7 +49,7 @@ appliesto:
         </a>
     </li>
    <li>
-        <a href="https://aka.ms/ReadyendusersT30"target="_blank"">
+        <a href="https://aka.ms/ReadyendusersT30"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -67,7 +68,7 @@ appliesto:
         </a>
     </li>
         <li> 
-        <a href="https://aka.ms/Preparepart1T30"target="_blank"">
+        <a href="https://aka.ms/Preparepart1T30"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -85,7 +86,7 @@ appliesto:
         </div>
         </a>
     </li> <li>
-        <a href="https://aka.ms/Preparepart2T30"target="_blank"">
+        <a href="https://aka.ms/Preparepart2T30"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -104,7 +105,7 @@ appliesto:
         </a>
     </li> 
  <li>
-        <a href="https://aka.ms/OptimizeexpandT30"target="_blank"">
+        <a href="https://aka.ms/OptimizeexpandT30"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -124,7 +125,7 @@ appliesto:
         </a>
     </li>
    <li>
-        <a href="https://aka.ms/TeamsChalkTalks"target="_blank"">
+        <a href="https://aka.ms/TeamsChalkTalks"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

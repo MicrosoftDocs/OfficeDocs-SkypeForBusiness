@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -22,6 +22,8 @@ description: "Find out requirements for remote management of Skype for Business 
 ---
 
 # Set up your computer for Windows PowerShell
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Remote management of Skype for Business Online by using Microsoft PowerShell is supported only on 64-bit computers running one of the following operating systems:
 

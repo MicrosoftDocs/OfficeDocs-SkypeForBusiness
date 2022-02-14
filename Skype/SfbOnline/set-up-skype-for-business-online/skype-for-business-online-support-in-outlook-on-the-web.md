@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -23,13 +23,14 @@ description: "Outlook on the web (Outlook Web App) in Microsoft 365 or Office 36
 
 # Skype for Business Online support in Outlook on the web
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 Outlook on the web (Outlook Web App) in Microsoft 365 or Office 365 offers a basic Skype for Business web client from the navigation bar. This basic client is available for Online users whose admin hasn't configured a vanity URL for their Microsoft 365 and Office 365. As long as the user's account is online and doesn't have a vanity URL, they will still see the experience even if their organization has some user accounts that are homed on-premises. Users who have user accounts on-premises (whether they have a vanity URL or not) or are managed by Microsoft will see the Lync experience in the Outlook web app.
   
 The following table summarizes the different setups that you may have and the web client that is used.
   
-||||
-|:-----|:-----|:-----|
 |**User account is located** <br/> |**Vanity URL is configured or there is a dedicated organization** <br/> |**Skype for Business or Lync Experience?** <br/> |
+|:-----|:-----|:-----|
 |Online  <br/> |No  <br/> |Skype for Business web experience  <br/> |
 |Online  <br/> |Yes  <br/> |Lync web experience  <br/> |
 |Hybrid but homed online  <br/> |No  <br/> |Skype for Business web experience  <br/> |

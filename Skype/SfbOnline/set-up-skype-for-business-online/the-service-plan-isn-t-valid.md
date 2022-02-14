@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -24,6 +24,8 @@ description: "See where to assign a valid service plan for a user after a Skype 
 ---
 
 # The user's Skype for Business Online service plan isn't valid
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Sorry, the Skype for Business Online service plan assigned to this user is not recognized, or is invalid.
   

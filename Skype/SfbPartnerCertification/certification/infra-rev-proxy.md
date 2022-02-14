@@ -1,6 +1,6 @@
 ---
-title: "Skype for Business Certification Program - Reverse Proxy"
-ms.author: dmaguire
+title: "Skype for Business Certification Program - Reverse proxy"
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -12,7 +12,7 @@ audience: Admin
 appliesto:
 - Lync
 - Skype for Business 
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -21,7 +21,7 @@ ms.custom:
 description: "List of Reverse Proxy Servers that have been independently qualified with Skype for Business Server."
 ---
 
-# Reverse Proxy
+# Reverse proxy
 Listed here are reverse proxy servers that work with Skype for Business.
 
 |Vendor  |Product  |Software Version  |Documentation  |

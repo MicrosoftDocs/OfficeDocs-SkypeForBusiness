@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -25,6 +25,8 @@ description: "Here are some reasons why you may be having problems getting your 
 ---
 
 # Why am I having problems entering U.K. address information?
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
 
 Here are some reasons why you may be having problems getting your address or addresses to validate correctly in the United Kingdom (U.K.).
   

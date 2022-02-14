@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -22,6 +22,8 @@ description: "Learn to set up Skype for Business Online external communications 
 ---
 
 # Video: Skype for Business Online external communications
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Set up Skype for Business Online external communications so your users can communicate with external Skype for Business, Lync and Skype contacts.
 

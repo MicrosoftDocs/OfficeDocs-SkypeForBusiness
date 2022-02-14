@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -22,6 +22,8 @@ description: "Unfortunately, there are certain user licenses that are blocked wh
 ---
 
 # Blocked user licenses for hosting Skype Meeting Broadcast
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!IMPORTANT]
 > Skype for Business Online is retiring on July 31, 2021, at which time access to the service will end. We encourage customers to begin the upgrade to Microsoft Teams, the core client for communications and teamwork in Microsoft 365.

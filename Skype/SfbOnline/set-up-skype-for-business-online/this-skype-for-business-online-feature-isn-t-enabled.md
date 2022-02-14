@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -24,6 +24,8 @@ description: "Find possible causes and action suggestions when you get a Skype f
 ---
 
 # This Skype for Business Online feature isn't enabled
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Sorry, it looks like the user isn't licensed for this feature.
   

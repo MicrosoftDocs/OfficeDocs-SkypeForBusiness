@@ -41,6 +41,11 @@ To get the latest Session Border Controller firmware with the embedded Survivabl
 - The SBC needs to be configured for Media Bypass to ensure that the Microsoft Teams client in the branch site can have media flowing directly with the SBC. 
 
 - TLS1.2 should be enabled on the SBA VM OS.
+- Ports 3443, 4444 and 8443 are used by Microsoft SBA Server to communicate with the Teams client and should be allowed on the firewall. 
+- Port 5061 (or the one configured on the SBC) is used by Microsoft SBA Server to communicate with the SBC and should be allowed on the firewall. 
+- UDP Port 123 is used by Microsoft SBA Server to communicate with NTP server and should be allowed on the firewall.
+- Port 443 is used by Microsoft SBA Server to communicate with Microsoft 365 and should be allowed on the firewall.
+- Azure IP Ranges and Service Tags for the Public Cloud should be defined according to the guidelines described at: https://www.microsoft.com/download/details.aspx?id=56519
 
 ## Supported Teams clients
 
@@ -48,7 +53,9 @@ The SBA feature is supported on the following Microsoft Teams clients:
 
 - Microsoft Teams Windows desktop 
 
-- Microsoft Teams macOS desktop 
+- Microsoft Teams macOS desktop
+- Teams for Mobile 
+- Teams Phones
 
 ## How it works
 
@@ -77,7 +84,7 @@ All configuration is done by using Skype for Business Online PowerShell cmdlets.
 
 ### Create the SBAs
 
-To create the SBAs, you will use the New-CsTeamsSurvivableBranchAppliance cmdlet. This cmdlet has has the following parameters:
+To create the SBAs, you will use the New-CsTeamsSurvivableBranchAppliance cmdlet. This cmdlet has the following parameters:
 
 | Parameter| Description |
 | :------------|:-------|
@@ -207,5 +214,3 @@ Report any issues to your SBC vendor's support organization. When reporting the 
 - The SBA does not support call forwarding settings. 
 
 - Making an emergency call to an emergency number configured for dynamic emergency calling (E911) is not supported.
-
-- The output of Get-CsOnlineUser shows TeamsBranchSurvivabilityPolicy.

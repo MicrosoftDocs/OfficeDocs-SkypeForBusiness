@@ -15,25 +15,25 @@ f1.keywords:
 - NOCSH
 appliesto: 
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Learn how to manage private channels in your organization using Graph API.
 ---
 
 # Manage the life cycle of private channels in Microsoft Teams
 
-Here you'll find the guidance you need to manage use the Graph API to manage [Teams private channels](./private-channels.md) in your organization.
+Here you'll find the guidance you need to use the Graph API to manage [Teams private channels](./private-channels.md) in your organization.
 
 ## Set whether team members can create private channels
 
 As an admin, you can use Graph API to control whether members can create private channels in specific teams. Here's an example.
 
 ```Graph API
-PATCH /teams/<team_id>​
-{"memberSettings": ​
-  {​
-    "allowCreatePrivateChannels": false​
-  }​
+PATCH /teams/<team_id>
+{"memberSettings": 
+  {
+    "allowCreatePrivateChannels": false
+  }
 }
 ```
 
@@ -42,14 +42,21 @@ PATCH /teams/<team_id>​
 As an admin, you can use the Graph API to create a private channel on behalf of a team owner. For example, you may want to do this if your organization wants to centralize creation of private channels.
 
 ```Graph API
-POST /teams/{id}/channels​
-{ "membershipType": "Private",​
-  "displayName": "<Channel_Name>",​
-  "members":[{    ​
-           "@odata.type":"#microsoft.graph.aadUserConversationMember",​
-           "user@odata.bind":"https://graph.microsoft.com/beta/users('<user_id>')",​
-           "roles":["owner"]​
-            }]
+POST /teams/{id}/channels
+{
+    "membershipType": "Private",
+    "displayName": "<Channel_Name>",
+    "members": [
+        {
+            "@odata.type": "#microsoft.graph.aadUserConversationMember",
+            "user@odata.bind": "https://graph.microsoft.com/v1.0/users('<user_id>')",
+            "roles": [
+                "owner"
+            ]
+        }
+    ]
+}
+            
 ```
 
 ## Get a list of all private channel messages
@@ -57,7 +64,7 @@ POST /teams/{id}/channels​
 You may want to get a list of all messages and replies posted in a private channel for archiving and auditing purposes.  Here's how to use Graph API to do this.
 
 ```Graph API
-GET /teams/{id}/channels/{id}/messages​
+GET /teams/{id}/channels/{id}/messages
 GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 ```
 
@@ -74,7 +81,7 @@ You can try these commands through [Graph Explorer](https://developer.microsoft.
     **Request**
 
     ```Graph API
-    GET https://graph.microsoft.com/beta/teams/<group_id>/channels?$filter=membershipType eq 'private'
+    GET https://graph.microsoft.com/teams/<group_id>/channels?$filter=membershipType eq 'private'
     ```
 
     **Response**
@@ -104,7 +111,7 @@ You can try these commands through [Graph Explorer](https://developer.microsoft.
     **Request**
 
     ```Graph API
-    GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/filesFolder
+    GET https://graph.microsoft.com/teams/<group_id>/channels/<channel_id>/filesFolder
     ```
 
     **Response**
@@ -142,16 +149,16 @@ You can try these commands through [Graph Explorer](https://developer.microsoft.
     **Request**
 
     ```Graph API
-    GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members
+    GET https://graph.microsoft.com/teams/<group_id>/channels/<channel_id>/members
     ```
-    
+
     **Response**
 
     ```Graph API
     HTTP/1.1 200 OK Content-type: application/json
     Content-length: 
     {
-          "@odata.context": "https://graph.microsoft.com/beta/$metadata#teams({group_id}')/channels('{channel_id}')/members",
+          "@odata.context": "https://graph.microsoft.com/$metadata#teams({group_id}')/channels('{channel_id}')/members",
           "@odata.count": 2,
           "value": [
               {
@@ -172,14 +179,15 @@ You can try these commands through [Graph Explorer](https://developer.microsoft.
               }
           ]
     }
-    ```    
+    ```
+
 2. Use the following to promote the member to an owner, where &lt;group_id&gt;, &lt;channel_id&gt;, and &lt;id&gt; are returned from the previous call. Note that &lt;id&gt; and &lt;userId&gt; returned from the previous call aren't the same and aren't interchangeable. Make sure you use &lt;id&gt;.
 
     **Request**
 
     ```Graph API
     PATCH 
-    https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members/<id>
+    https://graph.microsoft.com/teams/<group_id>/channels/<channel_id>/members/<id>
       
     {
     "@odata.type": "#microsoft.graph.aadUserConversationMember",
@@ -194,7 +202,7 @@ You can try these commands through [Graph Explorer](https://developer.microsoft.
     Content-type: application/json
 
     {
-      "@odata.context": "https://graph.microsoft.com/beta/$metadata#teams('{group_id}')/channels('{channel_id}')/members/$entity",
+      "@odata.context": "https://graph.microsoft.com/$metadata#teams('{group_id}')/channels('{channel_id}')/members/$entity",
       "@odata.type": "#microsoft.graph.aadUserConversationMember",
       "id": "id-value",
       "roles": ["owner"],

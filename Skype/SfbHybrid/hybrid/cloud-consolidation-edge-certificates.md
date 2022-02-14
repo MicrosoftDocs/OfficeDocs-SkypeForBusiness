@@ -19,11 +19,14 @@ f1.keywords:
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "This appendix includes detailed steps for updating the edge certificate as part of cloud consolidation for Teams and Skype for Business."
 ---
 
 # Update the edge certificate
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 
 Updating the edge certificate is the key step to ensuring that an on-prem environment with SipDomain1 can join a cloud environment with SipDomain2 and ensure proper routing in a shared address space environment across the two SIP domains. See step 14 in [Cloud consolidation for Teams and Skype for Business](cloud-consolidation.md) for context in which you might perform this step. In our examples, SipDomain1 is AcquiredCompany.<span>com and SipDomain2 is OriginalCompany.<span>com.
 
@@ -31,7 +34,7 @@ The subject alternate name (SAN) of the certificate on all edge servers in the o
 
 **Steps:**
 
-1.	Obtain a new External Edge certificate for the edge that has all existing entries plus additional entries in the SAN for all SIP domains in the cloud environment (excluding *.onmicrosoft.com domains) in the form “sip.<DomainName>”.
+1.	Obtain a new External Edge certificate for the edge that has all existing entries plus additional entries in the SAN for all SIP domains in the cloud environment (excluding *.onmicrosoft.com domains) in the form `sip.<DomainName>`.
 2.	Install the certificate locally on each edge server and assign it to the Skype Edge service on each of the edge service.  For detailed steps, see the section “External Edge interface certificates” in [Deploy Edge Service in Skype for Business Server 2015](../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md).
 3.	Restart the Edge service on each of the edge servers. You can do this for a single box with the following PowerShell commands:
 

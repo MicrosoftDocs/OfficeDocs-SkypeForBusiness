@@ -1,6 +1,6 @@
 ---
 title: "Phones and devices qualified for Microsoft Lync - USB and Video Devices"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -12,7 +12,7 @@ audience: Admin
 appliesto:
 - Lync
 - Skype for Business 
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -30,13 +30,11 @@ Microsoft tests and qualifies video teleconference systems (VTCs), multipoint co
 
 *Always check if your Lync version was tested to interoperate with the video systems.*
 
-For more information on which products are currently under test read the *UC Communications Team blog* February 23, 2011 [Choice, innovation, and quality of experience from Lync audio and video device partners](http://choice-innovation-and-quality-of-experience-from-lync-audio-and-video-device-partners.aspx).
-
 Download the [Lync Video Hardware Comparison Tables](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables).
 
 
 ***Video Endpoints***
-<table border="1" bordercolor="#CCCCCC" cellpadding="5" cellspacing="0" class="grid" style="border-collapse:collapse" width="720" xmlns="http://www.w3.org/1999/xhtml">
+<table border="1" bordercolor="#CCCCCC" cellpadding="5" cellspacing="0" class="grid" width="720">
 	<colgroup>
 		<col width="240" />
 		<col width="90" />
@@ -144,7 +142,7 @@ Download the [Lync Video Hardware Comparison Tables](/previous-versions/office/l
 
 ***LifeSize Video Endpoints***
 
-<table border="1" bordercolor="#CCCCCC" cellpadding="5" cellspacing="0" class="grid" style="border-collapse:collapse" width="62%" xmlns="http://www.w3.org/1999/xhtml">
+<table border="1" bordercolor="#CCCCCC" cellpadding="5" cellspacing="0" class="grid" width="62%">
 	<colgroup>
 		<col width="240" />
 		<col width="90" />
@@ -240,7 +238,7 @@ Download the [Lync Video Hardware Comparison Tables](/previous-versions/office/l
 
 ***Video Infrastructure***
 
-<table border="1" bordercolor="#CCCCCC" cellpadding="5" cellspacing="0" class="grid" style="border-collapse:collapse" width="62%" xmlns="http://www.w3.org/1999/xhtml">
+<table border="1" bordercolor="#CCCCCC" cellpadding="5" cellspacing="0" class="grid" width="62%">
 	<colgroup>
 		<col width="240" />
 		<col width="110" />
@@ -385,7 +383,6 @@ Download the [Lync Video Hardware Comparison Tables](/previous-versions/office/l
 
 [Polycom](https://www.polycom.com/solutions/solutions-by-business-uc-environment/solutions-for-microsoft/lync-interoperable-solutions.html)
 
-[Radvision](http://www.radvision.com/Unified-Communications/Gateway/)
 
 * * *
 This program qualifies devices for Windows; for more information on device compatibility with Mac, please read our blog topic: [What devices have been certified for Mac?](/archive/blogs/uc/what-devices-have-been-certified-for-mac)

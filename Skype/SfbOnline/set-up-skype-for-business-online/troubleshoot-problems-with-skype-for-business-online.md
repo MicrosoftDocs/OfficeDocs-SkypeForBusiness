@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -22,6 +22,8 @@ description: "Learn how to fix issues for admins and users of Skype for Business
 ---
 
 # Troubleshoot problems with Skype for Business Online
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Sometimes things aren't working like you expect. Here is a list of topics that can help you fix problems, whether you're administrating Skype for Business Online or helping your users solve their problems.
 

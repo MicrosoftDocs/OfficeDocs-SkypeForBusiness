@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -21,6 +21,8 @@ ms.custom:
 ---
 
 # Set up policies in your organization
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Policies help determine the features of Skype for Business Online that are made available to users. See the following articles for complete details.
 

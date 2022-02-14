@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -22,3 +22,5 @@ ms.custom:
 description: "This is content that must be published to meet requirements for accessibility, compliance and regulatory for Skype for Business Online in France. "
 ---
 # Legal and regulatory
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]

@@ -1,14 +1,14 @@
 ---
 title: Limits and specifications for Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: siunies
 description: This article describes the limits, specifications, and other requirements that apply to Microsoft Teams.
-localization_priority: Priority
+ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 ms.collection: 
@@ -62,7 +62,6 @@ This article describes some of the limits, specifications, and other requirement
 
 Users who participate in conversations that are part of the chat list in Teams must have an Exchange Online (cloud-based) mailbox for an admin to search chat conversations. That's because conversations that are part of the chat list are stored in the cloud-based mailboxes of the chat participants. If a chat participant doesn't have an Exchange Online mailbox, the admin won't be able to search or place a hold on chat conversations. For example, in an Exchange hybrid deployment, users with on-premises mailboxes might be able to participate in conversations that are part of the chat list in Teams. However, in this case, content from these conversations isn't searchable and can't be placed on hold because the users don't have cloud-based mailboxes. (For more, see [How Exchange and Microsoft Teams interact](exchange-teams-interact.md).)
 
-Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits apply to the chat function within Teams.
 
 |Feature  | Maximum limit  |
 |---------|---------|
@@ -113,28 +112,24 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 
 ## Meetings and calls
 
-> [!IMPORTANT]
-> **Microsoft 365 live event limit increases**
->
-> **To continue supporting our customers' needs, through June 30, 2021, we will extend temporary limit increases for live events, including**:
->
->- Event support for up to 20,000 attendees
->- 50 events can be hosted simultaneously across a tenant
->- Event duration of 16 hours per broadcast
->
-> Additionally, Live Events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions).
-
 |Feature     | Maximum limit |
 |------------|---------------|
-|Number of people in a meeting (can chat and call in)  | 300. **View-only** allows for up to 10,000 listen-only participants to join a meeting in which the organizer has a license for E3/E5/A3/A5 SKU, as well as, Government (GCC, GCC High, DoD). Learn more about the [View-only experience](view-only-meeting-experience.md).|
+|Number of people in a meeting (can chat and call in)  | 1000, includes GCC, GCCH, and DoD, but not A1 (300). **View-only** allows for up to 20,000 listen-only participants to join a meeting in which the organizer has a license for E3/E5/A3/A5 SKU, as well as, Government (GCC, GCC High, DoD). The view-only experience will soon be available for webinars as well. Learn more about the [View-only experience](view-only-meeting-experience.md).<sup>1,2</sup>|
 |Number of people in a video or audio call from chat | 20 |
 |Max PowerPoint File Size | 2GB|
 |Teams keeps [meeting recordings](cloud-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
+  
+<sup>1</sup> For the best experience in large meetings, webinars, and live events, Microsoft recommends using the latest version of Teams desktop client or Teams mobile clients.
+
+<sup>2</sup> Presenters in large meetings, webinars, and live events should use the Teams desktop client. For more tips on hosting large meetings, please see [Best practices for a large Teams meeting](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
+
+> [!NOTE]
+> Breakout rooms can only be created in meetings that have fewer than 300 attendees. In addition, creating breakout rooms in a meeting automatically limits the number of meeting attendees to 300. Advise your end-users to not initiate breakout rooms in meetings where they expect more than 300 participants. For more information on large Team meetings, share the guidance [Best practices for a large Teams meeting](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16) with your end-users.
 
 ### Meeting expiration
 
 > [!NOTE]
-> A meeting URL will never stop working. The expiry only relates to any PSTN dial-in numbers and/or underlying meeting policies and settings.
+> A meeting URL will never stop working. The expiry only relates to any PSTN dial-in numbers, CVI coordinates, and/or underlying meeting policies and settings.
 
 |Meeting type  |Meeting expires after this much time  |Each time you start or update a meeting, expiration extends by this much time  |
 |---------|---------|---------|
@@ -145,7 +140,7 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |Recurring with end time     |End time of last occurrence + 60 days         |60 days         |
 
 > [!NOTE]
-> Microsoft Teams meetings have a time limit of 24 hours.
+> Microsoft Teams meetings have a time limit of 30 hours.
 
 ## Teams Live Events
 
@@ -162,13 +157,13 @@ For more information about live events and a comparison of Teams live events to 
 > [!IMPORTANT]
 > **Microsoft 365 live event limit increases**
 >
-> **To continue supporting our customers' needs, through June 30, 2021, we will extend temporary limit increases for live events, including**:
+> **To continue supporting our customers' needs, we will extend temporary limit increases for live events through June 30, 2022, including**:
 >
 >- Event support for up to 20,000 attendees
 >- 50 events can be hosted simultaneously across a tenant
 >- Event duration of 16 hours per broadcast
 >
-> Additionally, Live Events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions). 
+> Additionally, Live Events with up to 100,000 attendees can be planned through the Microsoft 365 assistance program. The team will assess each request and work with you to determine options that may be available. [Learn more](https://aka.ms/Stream/Blog/LiveEventOptions).
 
 ## Presence in Outlook
 
@@ -191,7 +186,7 @@ Because Teams runs on a SharePoint Online backend for file sharing, SharePoint l
 |------------------------|---------|---------|---------|---------|---------|---------|
 |Storage                 |1 TB per organization plus 10 GB per license purchased  |1 TB per organization plus 10 GB per license purchased  |1 TB per organization plus 10 GB per license purchased   |1 TB per organization plus 10 GB per license purchased |1 TB per organization plus 10 GB per license purchased  |1 TB per organization           |
 |Storage for Teams Files |Up to 25 TB per site or group |Up to 25 TB per site or group |Up to 25 TB per site or group |Up to 25 TB per site or group |Up to 25 TB per site or group |Up to 25 TB per site or group |
-|File upload limit  (per file)    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |
+|File upload limit  (per file)    |250 GB    |250 GB    |250 GB    |250 GB    |250 GB    |250 GB    |
 
 Channels are backed by folders within the SharePoint Online site (previously called "site collection") created for the team, so file tabs within Channels share the storage limits of the team they belong to.
 
@@ -211,10 +206,10 @@ Limits for class teams are listed in the following table:
 |Feature  |Maximum limit  |
 |---------|---------|
 |Number of members in a team    | See the [Teams and channels](#teams-and-channels) section of this article        |
-|Number of members to use Assignments in a class team    | 200        |
-|Number of members to use a OneNote Class Notebook in a class team     |200         |
+|Number of members to use Assignments in a class team    | 300        |
+|Number of members to use a OneNote Class Notebook in a class team     |300         |
 
-A class team can support more than 200 members. However, if you plan to use either the Assignments app or Class Notebook app within your team, you will need to keep the number of members below the maximum limits above.
+A class team can support more than 300 members. However, if you plan to use either the Assignments app or Class Notebook app within your team, you will need to keep the number of members below the maximum limits above.
 
 ## Tags
 

@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
 ms.reviewer: karuanag
@@ -19,8 +19,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-Get help in Microsoft Teams
-============================================
+# Get help in Microsoft Teams
 
 The Help button in Microsoft Teams is where your users and champions can find all the assistance they might need while using Teams.
 

@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -25,6 +25,8 @@ description: "What it means when your port order has been accepted, and what you
 ---
 
 # Your port order was accepted
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Your port order is approved! Look for your phone numbers in the **Skype for Business admin center** > **Voice** > **Phone numbers**.
   

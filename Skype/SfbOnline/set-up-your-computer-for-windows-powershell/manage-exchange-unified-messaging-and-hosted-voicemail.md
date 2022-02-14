@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -22,6 +22,8 @@ description: "Use PowerShell to manage Exchange Unified Messaging capabilities s
 ---
 
 # Manage Exchange Unified Messaging and hosted voicemail
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 You can manage Exchange Unified Messaging and hosted voicemail in Skype for Business Online by using a set of cmdlets.
   

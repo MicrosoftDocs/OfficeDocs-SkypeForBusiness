@@ -15,7 +15,7 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+ms.localizationpriority: high
 f1.keywords:
 - CSH
 ms.custom: 
@@ -25,7 +25,7 @@ description: "Use Advisor for Teams to help you plan and complete your Microsoft
 
 # Use Advisor for Teams to help you roll out Microsoft Teams
 
-Advisor for Teams walks you through your Microsoft Teams rollout. It assesses your Microsoft 365 organization environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams. Then, Advisor for Teams creates a Deployment team (in Teams), with channels for each workload you want to roll out. Each workload in the Deployment team comes with a comprehensive Planner plan that includes all the rollout tasks for each workload.  Using this Planner plan, you'll assign tasks to the people responsible for each phase of the rollout - including the project manager, Teams service admins, support people, and your adoption and user readiness team. Each rollout task contains all the guidance and resources you need to successfully complete the task.
+Advisor for Teams walks you through your Microsoft Teams rollout. It assesses your Microsoft 365 organization environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams. Then, Advisor for Teams creates a Deployment team (in Teams), with channels for each workload you want to roll out. Each workload in the Deployment team comes with a comprehensive Planner plan that includes all the rollout tasks for each workload.  Using this Planner plan, you'll assign tasks to the people responsible for each phase of the rollout - including the project manager, Teams admins, support people, and your adoption and user readiness team. Each rollout task contains all the guidance and resources you need to successfully complete the task.
 
 Advisor for Teams is part of the [Teams admin center](https://admin.teams.microsoft.com). At a minimum, you'll need a Microsoft 365 Business Basic license so you can take advantage of the Advisor for Teams integration with Forms and Planner. To begin using Advisor for Teams, click the **Start** button in the **Deploying Teams workload** widget on the Dashboard. Or go to **Planning** > **Teams Advisor**.
 
@@ -36,7 +36,7 @@ For a guided overview of the Advisor for Teams experience, check out the [Deploy
 
 ## Using Advisor for Teams
 
-**Teams, Forms, and Planner licenses are required to use Advisor for Teams.** However, you don't have to be a Teams admin to use Advisor for Teams - anybody in your organization can use it. We've set up special permissions so non-admin users can get to Advisor for Teams, even though it's in the Teams admin center. You DO have to be a Teams admin, Teams Service Administrator, or Global Administrator to open the tenant readiness assessments (this is because the special non-admin roles don't have access to the Microsoft Graph APIs underlying the assessments).
+**Teams, Forms, and Planner licenses are required to use Advisor for Teams.** However, you don't have to be a Teams admin to use Advisor for Teams - anybody in your organization can use it. We've set up special permissions so non-admin users can get to Advisor for Teams, even though it's in the Teams admin center. You DO have to be a Teams admin, Teams Administrator, or Global Administrator to open the tenant readiness assessments (this is because the special non-admin roles don't have access to the Microsoft Graph APIs underlying the assessments).
 
 > [!IMPORTANT]
 > If **Teams Advisor** is missing under **Planning** in the Teams admin center, it means the user isn't licensed for Teams.
@@ -66,8 +66,16 @@ Advisor for Teams currently provides the following plans:
     - Forms user survey
     - Advisor for Teams bot
     - Designed for customers who are currently using Skype for Business Online or Skype for Business on-premises environments, the Skype for Business upgrade plan will help you take the guesswork out of your upgrade journey. Leveraging a proven success framework for implementing change, the plan will guide you through the step-by-step process whether you’re just getting started with Teams, already using Teams alongside Skype for Business, or ready to upgrade. The plan will also connect you to [online guidance and best practices](./upgrade-start-here.md),  [downloadable assets](https://aka.ms/UpgradeSuccessKit), [live 1:many planning workshops](./upgrade-workshops-landing-page.yml), and additional resources to support your success.
+1. Education (visible only to Educational organizations)
+    - Tenant assessment
+    - Planner plan, including adoption tasks
+    - Forms user survey
+    - Advisor for Teams bot
+    - Designed for Educational organizations, the Education plan will help you deploy, adopt, and manage Teams in your educational institution.
 
-We recommend that you start with the Chat, teams, channels, and apps plan. When you're done deploying that workload, go back to Advisor for Teams and select **Add channel** to start the next workload.
+For commercial organizations, we recommend that you start with the Chat, teams, channels, and apps plan. For educational organizations, we recommend that you start with Education plan. When you're done deploying that workload, go back to Advisor for Teams and select **Add channel** to start the next workload.
+
+
 
 ## Tenant assessment
 

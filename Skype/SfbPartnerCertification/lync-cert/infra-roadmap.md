@@ -1,6 +1,6 @@
 ---
 title: :"Lync Server network infrastructure roadmap"
-ms.author: dmaguire
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -12,7 +12,7 @@ audience: Admin
 appliesto:
 - Lync
 - Skype for Business 
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -71,10 +71,9 @@ This page enables Networking professionals to find the information they need for
 - [Common issues with IP phones](/previous-versions/office/skype-server-2010/gg399002(v=ocs.14))
 Download Network Monitor 3.4:
 - [Program](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=983b941d-06cb-4658-b7f6-3088333d062f&displaylang=en) and [Lync Parsers](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=8a1847fe-c1ad-41e4-98ab-e25e6f62542c)
-- [Capture and Decrypt TLS Traffic](https://blogs.technet.com/b/nexthop/archive/2012/02/15/how-to-decrypt-lync-2010-tls-traffic-using-microsoft-network-monitor.aspx)
 
 ## Lync Server partners
 - [Aruba](https://www.arubanetworks.com/lync)
 - [Brocade](https://www.brocade.com/)
-- [Extreme Networks](http://h17007.www1.hp.com/us/en/networking/index.aspx#.U6LrvXlOVaQ)
+- [Extreme Networks](https://www.extremenetworks.com/)
 - [Juniper](https://www.arubanetworks.com/lync)

@@ -18,7 +18,7 @@ metadata:
   audience: admin
   f1.keywords:
   - NOCSH
-  localization_priority: Priority
+  ms.localizationpriority: high
   ms.collection: 
     - Teams_ITAdmin_JourneyFromSfB
     - M365-collaboration
@@ -38,7 +38,7 @@ highlightedContent:
     # Card
     - title: Register for free upgrade planning workshops
       itemType: learn
-      url: ./upgrade-workshops-landing-page.yml
+      url: https://aka.ms/upgradeworkshops
     # Card
     - title: Learn how Black & Veatch transitioned to Teams in eight weeks
       itemType: video

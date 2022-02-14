@@ -8,12 +8,14 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.prod: skype-for-business-itpro
 description: "This topic covers what you need to consider when you decide to migrate your existing Skype for Business Server or Exchange Server deployments to the latest version or to Skype for Business Online or Exchange Online."
 ---
 
 # Plan for Skype for Business Server and Exchange Server migration
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 This topic covers what you need to consider when you decide to migrate your existing Skype for Business Server or Exchange Server deployments to Exchange Online. What you can migrate, and when, heavily depends on what you've already got set up in your organization.
 

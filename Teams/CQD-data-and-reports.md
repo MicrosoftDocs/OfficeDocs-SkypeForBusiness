@@ -14,7 +14,7 @@ audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords: 
   - CSH
 ms.custom: 
@@ -33,12 +33,12 @@ Microsoft Call Quality Dashboard (CQD) uses a near-real-time (NRT) data feed. Ca
 
 You can access CQD data by several different avenues. Pick the one that best meets your needs:
 
-|  |  |
+|&nbsp;|&nbsp;|
 |---------|---------|
 |Teams admin center [(https://admin.teams.microsoft.com)](https://admin.teams.microsoft.com)    | CQD data is included on the **Users** page in the Teams admin center, showing the most common data you need in an easy-to-read format. You can't customize CQD data that you find under **Users**.  |
 |CQD portal [(https://cqd.teams.microsoft.com)](https://cqd.teams.microsoft.com)     | Robust summary and detailed reports that meet most needs, with drill-through filtering. You can also customize reports in the CQD portal. <br><br>Get two [CQD report templates](#import-the-cqd-report-templates) to help you analyze data in the CQD portal.       |
 |Power BI     | Use direct queries to view your CQD data in Power BI using [customizable Power BI templates](CQD-Power-BI-query-templates.md). [Download Power BI query templates for CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true).<br><br>You can also [use the REST API to access CQD data](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) through Power BI. Use this method if you want to download your CQD data so you can work on it offline. The benefit of using this method is better performance, especially useful for large data sets that bog down in Power BI when you're online.       |
-|Graph API     | Access call quality data yourself using the [Graph API](/graph/api/resources/callrecords-api-overview?view=graph-rest-beta). This is the most complex method, but it gives you the most control and flexibility in analyzing your call quality data. For example, if you need to join it with other data for your organization, you can use the Graph API to create a data model and incorporate call quality data.        |
+|Graph API     | Access call quality data yourself using the [Graph API](/graph/api/resources/callrecords-api-overview). This is the most complex method, but it gives you the most control and flexibility in analyzing your call quality data. For example, if you need to join it with other data for your organization, you can use the Graph API to create a data model and incorporate call quality data.        |
 
 ## Import the CQD report templates
 
@@ -71,6 +71,7 @@ For compliance reasons, end-user identifiable information (EUII) data (also know
 - Machine Endpoint Name
 - User Verbatim Feedback
 - Object ID (the Active Directory object ID of the endpoint's user)
+- Phone Number
 
 ### Admin roles with and without EUII access
 
@@ -101,9 +102,9 @@ The URL Date parameter accepts a Day field. Rolling-day reports use dates specif
 
 |URL| End date of Rolling Day Trend|
 |:---|:---|
-|<span>https://<cqdv3>/spd/#/Dashboard/<reportid>/2019-02/</span>   |Current Day of Feb 2019|
-|<span>https://<cqdv3>/spd/#/Dashboard/<reportid>/2019-02-15/</span>|Feb 15, 2019|
-|<span>https://<cqdv3>/spd/#/Dashboard/<reportid>/00/</span>        |Current Day|
+|<span>https://\<cqdv3>/spd/#/Dashboard/\<reportid>/2019-02/</span>   |Current Day of Feb 2019|
+|<span>https://\<cqdv3>/spd/#/Dashboard/\<reportid>/2019-02-15/</span>|Feb 15, 2019|
+|<span>https://\<cqdv3>/spd/#/Dashboard/\<reportid>/00/</span>        |Current Day|
 |||
 
 By default, the current day of the month is used as the last day of the Rolling Day Trend.
@@ -137,8 +138,9 @@ If you want to use Power BI to analyze your CQD data, read [Use Power BI to anal
 ### Select product data to see in reports
 
 In the Summary and Location-Enhanced Reports, you can use the **Product Filter** drop-down to show all product data, only Microsoft Teams data, or only Skype for Business Online data.
-  
-![Screenshot: shows the Product Filter control options](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot: shows the Product Filter control options.](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
   
 In Detailed reports, you can use the **Is Teams** dimension to filter the data to Microsoft Teams or Skype for Business Online data.
 
@@ -156,25 +158,29 @@ These are the reports that you'll see on the CQD Dashboard when you first sign i
 ### Overall Call Quality tab
 
 Use the data on this tab to evaluate call quality status and trends based on stream counts and poor percentages. The legend in the upper-right corner shows which color and visual elements represent these metrics.
-  
-![Screenshot: show the Call Quality tab](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot: show the Call Quality tab.](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
 Streams are classified in three groups: Good, Poor, and Unclassified. There are also calculated  *Poor %*  values that give you the ratio of streams classified as *Poor*  to the total classified stream count. Since *Poor % = Poor streams/ (Poor streams+ Good streams) * 100*, the *Poor %*  is unaffected by the presence of multiple *Unclassified*  streams. To see what classifies a stream as poor or good, refer to [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md).
   
 Use the scale on the left to measure the stream count values.
-  
-![Screenshot: shows stream count values](media/850bd25d-d9b2-4df4-8ca6-526a528897c2.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot: shows stream count values.](media/850bd25d-d9b2-4df4-8ca6-526a528897c2.png)
   
 Use the scale on the right to measure the Poor % values.
-  
-![Screenshot: shows poor % values](media/29795f71-ca96-4763-a76c-b4bb7c0e5828.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot: shows poor % values.](media/29795f71-ca96-4763-a76c-b4bb7c0e5828.png)
   
 You can also obtain the actual numerical values by hovering the mouse over a bar.
   
 > [!NOTE]
 > The following example is from a very small sample data set, and the values aren't realistic for an actual deployment.
-  
-![Screenshot: shows mouse used to access data](media/8724b016-1a50-4d19-b48a-3b1aae4eb895.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot: shows mouse used to access data.](media/8724b016-1a50-4d19-b48a-3b1aae4eb895.png)
   
 The overall stream volume helps determine how relevant the calculated Poor percentages are. The smaller the volume of overall streams, the less reliable the reported Poor percentage values are.
   
@@ -278,7 +284,7 @@ Use CQD report filters to narrow the focus of your investigations. Use report fi
 
 CQD reports feature several drill-down filters, which are powerful tools for narrowing the focus of your call-quality investigations. If you select a drill-down field, the report automatically opens the appropriate tab and filters on the selected value. If that tab has its own drill-down fields and one is selected, both sets of filters are applied, progressively narrowing the resulting data set.
 
-![Diagram illustrating drill-down report flow](media/qerguide-image-drillthrureportflow.png)
+![Diagram illustrating drill-down report flow.](media/qerguide-image-drillthrureportflow.png)
 
 
 #### Adding and editing drill-down fields
@@ -287,11 +293,11 @@ When editing a report, you have the option to specify drill-down fields of your 
 
 Start by clicking **…** for the report you want to edit, then select **Edit**.
 
-![Screenshot of editing a drill-down field](media/qerguide-image-addeditdrilldownfields.png)
+![Screenshot of editing a drill-down field.](media/qerguide-image-addeditdrilldownfields.png)
 
 Select a Dimension from the list on the left side of the Query Editor. Then click on the dropdown below the **Navigate To** label and select the tab and expander group that you want that Dimension to drill through to. Note: Presently, drill-down functionality only works by navigating to different tabs. Support for drilling through to a specific expander will be added later. Finally, click **Close** to save your changes to the Dimension, then click **Save** to save and close the Query Editor.
 
-![Screenshot of selecting a dimension in the Query Editor](media/qerguide-image-selectquerydimension.png)
+![Screenshot of selecting a dimension in the Query Editor.](media/qerguide-image-selectquerydimension.png)
 
 ### Multi-select filters
 
@@ -299,7 +305,7 @@ In addition to drill-down functionality, CQD also supports specifying Filters wi
 
 In order to select multiple filter values, begin by adding a new filter to the report. Click **+** beside the **Filters** label, enter the name of the Dimension you want to use, and click **Add**.
 
-![Screenshot of adding a multi-select filter](media/qerguide-image-addmultiselectfilter.png)
+![Screenshot of adding a multi-select filter.](media/qerguide-image-addmultiselectfilter.png)
 
 Then, click **Search** (a magnifying glass icon next to the new filter). You'll see a text field, and a number of options, including **Select All** and **Invert**. Enter a value,  and click **Search** next to that field to search. Alternatively, leave the text field empty and click **Search** to view up to the first 100 options.
 
@@ -309,12 +315,12 @@ Then, click **Search** (a magnifying glass icon next to the new filter). You'll 
 
 Example:  
 
-![Screenshot of adding a query filter](media/qerguide-image-addfilter.png)
+![Screenshot of adding a query filter.](media/qerguide-image-addfilter.png)
 
 ### Dashboard level filters
 Certain CQD reports have dashboard-level filters added to them, making it easy to filter by common parameters. These filters appear outside the regular report tabs and directly beneath the Product filter, and they apply to all filters in the Dashboard.
 
-![Screenshot of a dashboard filter](media/qerguide-image-dashboardfilters.png)
+![Screenshot of a dashboard filter.](media/qerguide-image-dashboardfilters.png)
 ```powershell
 /filter/[AllStreams].[Is Teams]|[TRUE | FALSE]
 ```
@@ -380,30 +386,12 @@ Login-AzureRmAccount
 
 ## Comparing Teams and Skype for Business CQD data
 
-Even within the latest CQD (cqd.teams.microsoft.com), you'll see differences in data between Teams and Skype for Business. Some reasons:
+When reviewing your data, you may see differences in data between Teams and Skype for Business. Some reasons:
 - Differences in the mechanisms for ensuring performance and reliability:
   - Teams has auto-reconnect and fast roaming. Skype for Business doesn't.
   - Teams has dynamic bandwidth management. Skype for Business doesn't.
 - Differences in [IP address ranges](Office-365-URLs-IP-address-ranges.md) between Teams and Skype for Business. The Teams IP ranges are newer, which could cause connectivity problems at the firewall.
 
-## Open CQD from the Skype for Business legacy portal
-
-![An icon of the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business legacy portal**
-
-1. Sign in to your Office 365 organization using an admin account, and then select the **Admin** tile to open the Admin center.
-
-2. In the left pane, under **Admin centers**, select **Microsoft Teams** to open the Teams admin center.
-
-3. In the Teams admin center, select **Legacy Portal** in the left pane, select **Tools**, and then select **Skype for Business Online Call Quality Dashboard**.
-
-   ![Screenshot: Select the Call Quality Dashboard](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
-
-4. On the page that opens, sign in with your Global Administrator account, and then provide the credentials for the account when prompted.
-
-After the first time you sign in, CQD will begin collecting and processing data. 
-
-> [!IMPORTANT]
-> As of December 2019, you can still access the older version of CQD (cqd.lync.com), although the legacy portal gives you a link to the latest CQD (cqd.teams.microsoft.com). Eventually, the older version of CQD will be decommissioned. As of July 1, 2020, the older version of CQD accesses data from the new CQD (https://CQD.teams.microsoft.com), and you can no longer export building and report data. Sometime in late 2020, we'll turn off the old CQD and you'll no longer be able to access it.
 
 
 ## Related topics

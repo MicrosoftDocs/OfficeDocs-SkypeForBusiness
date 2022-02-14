@@ -9,7 +9,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ritikag, rarang
 description: Learn about the  policies and settings you can use to manage apps for your organization in Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 
@@ -23,8 +23,8 @@ appliesto:
   - Microsoft Teams
 ---
 
-Admin settings for apps in Microsoft Teams
-==========================================
+# Admin settings for apps in Microsoft Teams
+
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 

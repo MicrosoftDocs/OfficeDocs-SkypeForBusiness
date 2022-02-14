@@ -1,14 +1,14 @@
 ---
 title: Overview of implementing your upgrade to Microsoft Teams
-author: msdmaguire
-ms.author: dmaguire
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: Determine the optimal upgrade path to Microsoft Teams based on your current Skype for Business deployment. 
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -24,7 +24,7 @@ appliesto:
 
 # Overview of implementing your upgrade
 
-![Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")
+![Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage.](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")
 
 This article is part of the Deployment and Implementation stage of your upgrade journey. 
 

@@ -9,7 +9,7 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 ms.collection:
   - M365-collaboration

@@ -11,7 +11,7 @@ ms.collection:
   - M365-collaboration
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Configure Teams Rooms devices and Surface Hub to join meetings when one device or the other joins a meeting."
 ---
 
@@ -26,7 +26,7 @@ To set up Coordinated Meetings, you need to make sure your Teams Rooms devices a
 
 After you've confirmed that your Teams Rooms devices and Surface Hubs can automatically accept meetings and join them successfully, you can set up Coordinated Meetings.
 
-The following steps should be completed for each meeting room separately. Devices in one meeting room shouldn't be set up for Coordinated Meetings with devices in other meeting rooms.
+The following steps should be completed for each meeting room separately.
 
 ## Step 1: Plan your Coordinated Meeting experience
 
@@ -160,16 +160,16 @@ Both Windows Configuration Designer and Microsoft Intune are used to apply the C
 The following is the syntax of the Coordinated Meetings XML configuration file.
 
 ```xml
-<SurfaceHubSettings>​
-    <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>​
-    <AutoAcceptProximateMeetingInvitations>true</AutoAcceptProximateMeetingInvitations>​
-    <CoordinatedMeetings enabled="true"> ​
-        <TrustedAccounts>​room@contoso.com</TrustedAccounts>​
-        <Settings> ​
-            <Audio default="false" enabled="false" />​
-            <Video default="false" enabled="true" /> ​
-        </Settings> ​
-    </CoordinatedMeetings>​
+<SurfaceHubSettings>
+    <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
+    <AutoAcceptProximateMeetingInvitations>true</AutoAcceptProximateMeetingInvitations>
+    <CoordinatedMeetings enabled="true"> 
+        <TrustedAccounts>room@contoso.com</TrustedAccounts>
+        <Settings> 
+            <Audio default="false" enabled="false" />
+            <Video default="false" enabled="true" /> 
+        </Settings> 
+    </CoordinatedMeetings>
 </SurfaceHubSettings>
 ```
 

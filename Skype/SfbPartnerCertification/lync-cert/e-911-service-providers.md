@@ -1,6 +1,6 @@
 ---
-title: "Partner qualification for Lync"
-ms.author: dmaguire
+title: "Partner qualification for Lync: E-911 services"
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -12,13 +12,13 @@ audience: Admin
 appliesto:
 - Lync
 - Skype for Business 
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Lync Certification
 - dn788944
-description: "Partner qualification requirements for Lync."
+description: "Partner qualification requirements for Lync: E-911 services."
 ---
 
 # E-911 Services qualified for Lync

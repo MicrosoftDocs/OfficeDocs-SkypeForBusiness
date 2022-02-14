@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -22,6 +22,8 @@ description: "Use this reference guide to learn about Skype for Business Online 
 ---
 
 # Skype for Business Online reporting
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 As an administrator for your organization, it would be handy to have a complete list of all of the different reports available in Skype for Business Online. This is includes all of the different reports and the information that you can get with each report.
   

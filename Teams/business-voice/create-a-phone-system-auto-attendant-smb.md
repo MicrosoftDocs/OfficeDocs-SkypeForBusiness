@@ -1,7 +1,7 @@
 ---
 title: "Set up an auto attendant for Microsoft Teams - small business tutorial"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: dobro
 ms.topic: article
@@ -15,12 +15,12 @@ audience: Admin
 appliesto: 
   - Skype for Business
   - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom: 
   - Phone System
-description: "Learn how to set up and test auto attendants for Microsoft 365 Business Voice."
+description: Learn how to set up and test auto attendants for small businesses in Microsoft 365 Teams Phone with Calling Plan.
 --- 
 # Set up an auto attendant - small business tutorial
 

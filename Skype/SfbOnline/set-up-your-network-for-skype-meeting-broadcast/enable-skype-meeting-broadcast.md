@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -22,6 +22,8 @@ description: "Before the people in your organization can use Skype Meeting Broad
 ---
 
 # Enable Skype Meeting Broadcast
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!IMPORTANT]
 > Skype for Business Online is retiring on July 31, 2021, at which time access to the service will end. We encourage customers to begin the upgrade to Microsoft Teams, the core client for communications and teamwork in Microsoft 365.
@@ -36,7 +38,7 @@ Before the people in your organization can use Skype Meeting Broadcast, you need
   
 ## Enable Skype Meeting Broadcast using the Skype for Business admin center
 
-![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![An icon showing the Skype for Business logo.](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1. Sign in with your global admin account or Skype for Business admin account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
     

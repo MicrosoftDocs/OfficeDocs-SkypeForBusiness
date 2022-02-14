@@ -1,14 +1,14 @@
 ---
 title: Microsoft Teams low-bandwidth guidance for EDU
-author: MicrosoftHeidi
-ms.author: heidip
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: jesegher
 description: Microsoft Teams for EDU article to help with meeting and video issues relating to low bandwidth. Whether you are a parent, an educator, or an IT Admin, you have options to improve the experience with Teams.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH

@@ -9,7 +9,7 @@ audience: admin
 search.appverid: MET150
 ms.reviewer: islubin, jastark
 description: Learn how to view or update the teams that your organization has set up for collaboration in the Microsoft Teams admin center.
-localization_priority: Normal
+ms.localizationpriority: high
 f1.keywords:
 - CSH
 ms.custom: 
@@ -21,8 +21,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-Manage teams in the Microsoft Teams admin center
-==========================================
+# Manage teams in the Microsoft Teams admin center
 
 ## Overview
 
@@ -31,9 +30,9 @@ This article provides an overview of the management tools for Teams in the Micro
 As an admin, you may need to view or update the teams that your organization set up for collaboration, or you might need to perform remediation actions such as assigning owners for ownerless teams. You can manage the teams used in your organization through both the Microsoft Teams PowerShell module and the Microsoft Teams admin center. You can access the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>. For full administration capabilities using these two toolsets, you should make sure that you are assigned one of the following roles:
 
 - Global Administrator
-- Teams Service Administrator
+- Teams Administrator
 
-You can learn more about admin roles in Teams in [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md), and you can read more about how to use the PowerShell cmdlets for managing teams in the [Microsoft Teams cmdlet reference](/powershell/teams/?view=teams-ps).
+You can learn more about admin roles in Teams in [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md), and you can read more about how to use the PowerShell cmdlets for managing teams in the [Microsoft Teams cmdlet reference](/powershell/teams/).
 
 
 
@@ -41,7 +40,7 @@ You can learn more about admin roles in Teams in [Use Microsoft Teams admin role
 
 Management tools for teams are under the **Teams** node in the Microsoft Teams admin center. (In the admin center, select **Teams** > **Manage teams**.) Each team is backed by a Microsoft 365 Group, and this node provides a view of groups that have been Microsoft Teams-enabled in your organization.
 
-![Screenshot of the Teams overview grid](media/manage-teams-in-modern-portal-grid.png)  
+![Screenshot of the Teams overview grid.](media/manage-teams-in-modern-portal-grid.png)  
 
 The grid displays the following properties:
 
@@ -90,7 +89,7 @@ You can navigate to the team profile page of any team from the main teams overvi
 - Add or remove channels (note that you can't remove the General channel).
 - Change team and group settings.
  
-![Screenshot of an example team profile](media/manage-teams-in-modern-portal-team-profile-page.png)
+![Screenshot of an example team profile.](media/manage-teams-in-modern-portal-team-profile-page.png)
 
 ## Making changes to teams
 
@@ -113,11 +112,11 @@ The changes that you make to a team are logged. If you're modifying group settin
 
 Some of your teams are missing from the list of teams in the Teams overview grid.
 
-**Cause**: This issue occurs when the team was incorrectly (or not yet) profiled by the system which can lead to a missing property for it to be recognized.
+**Cause**: This issue occurs when the team was incorrectly (or not yet) profiled by the system, which can lead to a missing property for it to be recognized.
 
 **Resolution: Manually set the property to the correct value via MS Graph**
 
-Replace **{groupid}** in the Query for the actual GroupId in question, which you can get via the Exchange Online powershell, with the **"[Get-UnifiedGroup](/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** cmdlet, as the "**ExternalDirectoryObjectId**" attribute.
+Replace **{groupid}** in the Query for the actual GroupId in question, which you can get via the Exchange Online PowerShell, with the **"[Get-UnifiedGroup](/powershell/module/exchange/users-and-groups/get-unifiedgroup)"** cmdlet, as the "**ExternalDirectoryObjectId**" attribute.
 
 1. Access [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer).
 
@@ -133,6 +132,6 @@ Replace **{groupid}** in the Query for the actual GroupId in question, which you
 
 ## Learn more
 
-- [Teams cmdlet reference](/powershell/teams/?view=teams-ps)  
+- [Teams cmdlet reference](/powershell/teams/)  
 - [Use Teams administrator roles to manage Teams](using-admin-roles.md)
 - [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
