@@ -102,6 +102,8 @@ You can configure the phone number by using the Teams admin center or by using T
 
 5. Select **Apply.**
 
+The account general information will now show the assigned phone number and Direct Routing as the phone number type.
+
 
 ### Use PowerShell
 
