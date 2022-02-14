@@ -42,6 +42,32 @@ Let's get started by thinking about how Microsoft Teams allows individual teams 
     
 For help using teams and channels, check out [Teams and channels](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499).
 
+## Channel feature comparison
+
+The following table shows a comparison of Teams features for each channel type.
+
+|Features|Standard Channel|Private Channel|Shared Channel|
+|:-------|:---------------|:--------------|:-------------|
+|Azure AD B2B guests|Yes|Yes|No|
+|Azure AD Direct Connect participants|No|No|Yes|
+|Team owner can control channel creation|Yes|Yes|No|
+|Team owner visibility into channel|Yes|No|No|
+|Moderation|Yes|No|No|
+|Analytics|Yes|Yes|No|
+|Dedicated channel site|No|Yes|Yes|
+|Tags|Yes|No|No|
+|Channel meetings - meet now|Yes|Yes|Yes|
+|Channel meetings - scheduled meeting|Yes|No|Yes|
+|Scheduled meeting Invite deliver to recipient's inbox|Yes|No|No|
+|Channel meetings - recording and transcription|Yes|No|No|
+|Channel meetings - breakout rooms|Yes|No|No|
+|Bots, connectors, messaging extensions|Yes|No|No|
+|Planner|Yes|No|No|
+|WhiteBoard|Yes|No|No|
+|Power BI|Yes|No|No|
+|Class teams|Yes|Yes|No|
+|Missed activity email|Yes|No|No|
+
 ## Membership, roles, and settings
 
 **Team membership**
@@ -90,7 +116,7 @@ Teams is great for breaking down organizational silos and promoting cross-functi
 |Event Planning     |Marketing<br></br>Logistics and Scheduling<br></br>Venue<br></br>Budget         |Twitter<br></br>Facebook<br></br>Planner<br></br>PDF         |
 |Marketing/Go to Market   |Market Research<br></br>Messaging Pillars<br></br>Communications Plan<br></br>Marketing Bill of Materials        |YouTube<br></br>Microsoft Stream<br></br>Twitter<br></br>MailChimp         |
 |Technical Operations    |Incident Management<br></br>Sprint Planning<br></br>Work Items<br></br>Infrastructure and Operations         |Team Services<br></br>Jira<br></br>AzureBot         |
-|Product Team	   |Strategy<br></br>Marketing<br></br>Sales<br></br>Operations<br></br>Insights<br></br>Services & Support         |Power BI<br></br>Team Services         |
+|Product Team|   |Strategy<br></br>Marketing<br></br>Sales<br></br>Operations<br></br>Insights<br></br>Services & Support         |Power BI<br></br>Team Services         |
 |Finance    |Current Fiscal<br></br>FY Planning<br></br>Forecasting<br></br>Accounts Receivable<br></br>Accounts Payable         |Power BI<br></br>Google Analytics         |
 |Logistics     |Warehouse Operations<br></br>Vehicle Maintenance<br></br>Driver Rosters         |Weather Service<br></br>Travel / Road Disruptions<br></br>Planner<br></br>UPS Bot         |
 |HR     |Talent Management<br></br>Recruiting<br></br>Performance Review Planning<br></br>Morale         |HR Tools<br></br>External Job Posting Sites<br></br>Growbot         |
