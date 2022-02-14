@@ -56,7 +56,7 @@ Consider the following when planning your Cloud Connector Edition deployment:
 
 - Cloud Connector does not require a full on-premises Skype for Business Server deployment.
 
-    Currently, Cloud Connector cannot coexist with Lync or Skype for Business on-premises servers. If you want to move existing Lync or Skype for Business users to Microsoft 365 and keep providing on-premises telephony to your users, consider Phone System with on-premises connectivity using an existing Skype for Business Server deployment. For more information, see [Plan your Phone System (Cloud PBX) solution](/microsoftteams/cloud-voice-landing-page.md) and [Plan Phone System with on-premises PSTN connectivity in Skype for Business Server](plan-phone-system-with-on-premises-pstn-connectivity.md).
+    Currently, Cloud Connector cannot coexist with Lync or Skype for Business on-premises servers. If you want to move existing Lync or Skype for Business users to Microsoft 365 and keep providing on-premises telephony to your users, consider Phone System with on-premises connectivity using an existing Skype for Business Server deployment. For more information, see [Plan your Phone System (Cloud PBX) solution](/microsoftteams/cloud-voice-landing-page) and [Plan Phone System with on-premises PSTN connectivity in Skype for Business Server](plan-phone-system-with-on-premises-pstn-connectivity.md).
 
 - If you had a previous Skype for Business or Lync Server deployment, and you extended the schema, you do not need to clean up the schema for the Cloud Connector deployment, as long as you've removed all Skype for Business or Lync Server components from your environment.
 
@@ -427,7 +427,7 @@ If more restrictive rules are required, refer to following allowlist URLs:
 
 - [Certificate Revocation List URLs](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) in [Office 365 URLs and IP address ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
 
-- Windows Update: [How to Configure a Firewall for Software Updates](https://technet.microsoft.com/library/bb693717.aspx)
+- Windows Update: [Manage additional Windows Update settings](/windows/deployment/update/waas-wu-settings)
 
 - Skype for Business Online Admin PowerShell: \*.online.lync.com
 

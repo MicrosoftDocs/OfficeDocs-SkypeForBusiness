@@ -26,7 +26,7 @@ The survivable branch appliances along with the relevant firmware shown in the t
 
 ## Qualified for Skype for Business Server 2015
 
-<table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" width="69%" xmlns="http://www.w3.org/1999/xhtml">
+<table border="1" cellpadding="5" cellspacing="" class="grid" width="69%">
 	<tr bgcolor="#DEDEDE">
 		<td valign="top"><strong>Vendor</strong></td>
 		<td valign="top"><strong>Qualified Device</strong></td>

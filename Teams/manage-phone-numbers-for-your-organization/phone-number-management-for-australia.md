@@ -34,13 +34,13 @@ For more information, see  [Manage phone numbers for your organization](manage-p
 |**What you want to do?**|**Do these steps and download the correct forms**|
 |:-----|:-----|
 |Get new user phone numbers for Calling Plans in Australia.   <br/> |Contact [Telstra Calling](https://aka.ms/TelstraVoicePlan) for new phone numbers for your users. They'll then add those numbers to your organization so you can assign them to your users. <br/>
-|If you're utilizing Telstra Calling, you might get new service phone numbers that can be used with Cloud auto attendants and call queues for Australia from Telstra. <br/> |Contact [Telstra Calling](https://aka.ms/TelstraVoicePlan) for new phone numbers. They'll then add those numbers to your organization so you can assign them to your auto attendants and call queues. If you **aren't** using Telstra Calling, you might contact our Microsoft Number Management Service desk to obtain service numbers from Microsoft. [Contact the PSTN Service Desk for instructions](contact-pstn-service-desk.md) and we will assist you as soon as possible. <br/>|
-|Get new service phone numbers for Audio Conferencing in Australia.   <br/> |[Contact PSTN Service Desk](contact-pstn-service-desk.md).|
+|If you're utilizing Telstra Calling, you might get new service phone numbers that can be used with Cloud auto attendants and call queues for Australia from Telstra. <br/> |Contact [Telstra Calling](https://aka.ms/TelstraVoicePlan) for new phone numbers. They'll then add those numbers to your organization so you can assign them to your auto attendants and call queues. If you **aren't** using Telstra Calling, you might contact our Microsoft Number Management Service desk to obtain service numbers from Microsoft. [Contact the TNS Service Desk for instructions](contact-TNS-Service-Desk.md) and we will assist you as soon as possible. <br/>|
+|Get new service phone numbers for Audio Conferencing in Australia.   <br/> |[Contact TNS Service Desk](contact-TNS-Service-Desk.md).|
 |Get phone numbers transferred to Microsoft 365 or Office 365 for users, auto attendants, and call queues.  <br/> | Contact [Telstra Calling](https://aka.ms/TelstraVoicePlan) to transfer phone numbers. They'll then add those numbers to your organization.  <br/> |
-|Get phone numbers transferred to Microsoft 365 or Office 365 for use with Audio Conferencing.  |[Contact the PSTN Service Desk for instructions](contact-pstn-service-desk.md) |
+|Get phone numbers transferred to Microsoft 365 or Office 365 for use with Audio Conferencing.  |[Contact the TNS Service Desk for instructions](contact-TNS-Service-Desk.md) |
 |Change emergency addressing assigned to users that have a Call Plan phone number. |Contact [Telstra Calling](https://aka.ms/TelstraVoicePlan) to make emergency address changes. They can update this information for you.|
 |Change a user number to a service number. |Supported when using Telstra Calling.|
-|Make directory service updates to call queue or auto attendant numbers|To add or change call queue or auto attendant numbers, contact [the PSTN Service Desk for instructions](contact-pstn-service-desk.md). |
+|Make directory service updates to call queue or auto attendant numbers|To add or change call queue or auto attendant numbers, contact [the TNS Service Desk for instructions](contact-TNS-Service-Desk.md). |
 
 ## Related topics
 

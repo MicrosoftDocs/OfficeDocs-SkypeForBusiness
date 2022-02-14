@@ -1,8 +1,8 @@
 ---
 title: "Deploy SQL mirroring for Back End Server high availability in Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart

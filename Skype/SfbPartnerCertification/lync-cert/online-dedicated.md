@@ -1,6 +1,6 @@
 ---
-title: "Solutions qualified with Lync Online Dedicated"
-ms.author: dmaguire
+title: "Lync Online Dedicated-qualified solutoins"
+ms.author: serdars
 author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
@@ -18,7 +18,7 @@ f1.keywords:
 ms.custom:
 - Lync Certification
 - Dn788950
-description: "Read about Solutions qualified with Lync Online Dedicated."
+description: "Read about solutions qualified with Lync Online Dedicated."
 ---
 
 # Solutions qualified with Lync Online Dedicated

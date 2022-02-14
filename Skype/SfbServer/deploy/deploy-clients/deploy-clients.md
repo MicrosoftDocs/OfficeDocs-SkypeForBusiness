@@ -1,7 +1,7 @@
 ---
 title: "Deploy clients for Skype for Business Server"
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding

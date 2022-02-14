@@ -39,6 +39,8 @@ Before an incoming or outbound call can be processed, OPTIONS messages are excha
 
 > [!NOTE]
 > The SIP headers do not contain userinfo in the SIP URI in use. As per [RFC 3261, section 19.1.1](https://tools.ietf.org/html/rfc3261#section-19.1.1), the userinfo part of a URI is optional and MAY be absent when the destination host does not have a notion of users or when the hosst itself is the resource being identified. If the @ sign is present in a SIP URI, the user field MUST NOT be empty.
+> Please note, that SIPS URI should not be used with Direct Routing as it is not supported.
+> Check your Session Border Controller configuration and make sure that you are not using "Replaces" headers in SIP requests. Direct Routing  will reject SIP requests that have Replaces headers defined.
 
 On an incoming call, the SIP proxy needs to find the tenant to which the call is destined and find the specific user within this tenant. The tenant administrator might configure non-DID numbers, for example +1001, in multiple tenants. Therefore, it is important to find the specific tenant on which to perform the number lookup because the non-DID numbers might be the same in multiple Microsoft 365 or Office 365 organizations.  
 
@@ -51,7 +53,7 @@ The following is an example of the SIP Invite message on an incoming call:
 | Request-URI | INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0 |
 | Via Header | Via: SIP/2.0/TLS sbc1.adatum.biz:5058;alias;branch=z9hG4bKac2121518978 | 
 | Max-Forwards header | Max-Forwards:68 |
-| From Header | From Header From: <sip:7168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679 |
+| From Header | From Header From: <sip:+17168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679 |
 | To Header | To: sip:+183338006777@sbc1.adatum.biz | 
 | CSeq header | CSeq: 1 INVITE | 
 | Contact Header | Contact: <sip: 68712781@sbc1.adatum.biz:5058;transport=tls> | 
@@ -110,6 +112,15 @@ Currently The phone number must contain a plus sign (+) as shown in the followin
 
 ```console
 INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
+```
+#### From Header
+
+For all incoming calls, the From Header is used to match the caller's phone number against callee's blocked phone number list.
+
+The phone number must contain a + as shown in the following example.
+
+```console
+From: <sip:+17168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679
 ```
 
 ## Contact and Record-Route headers considerations

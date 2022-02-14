@@ -63,6 +63,6 @@ You can edit the global policy or any custom policies that you create.
 
 [Private channels in Teams](private-channels.md)
 
-[Assign policies to your users in Teams](assign-policies.md)
+[Assign policies to your users in Teams](policy-assignment-overview.md)
 
-[New-CsTeamsChannelsPolicy](/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps)
+[New-CsTeamsChannelsPolicy](/powershell/module/skype/new-csteamschannelspolicy)

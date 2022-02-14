@@ -1,8 +1,8 @@
 ---
 title: "Changes made by forest preparation in Skype for Business Server"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro

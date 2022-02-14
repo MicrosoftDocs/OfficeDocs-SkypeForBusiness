@@ -1,8 +1,8 @@
 ---
 title: "Install Local Configuration Store Invoke (Configure)"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro

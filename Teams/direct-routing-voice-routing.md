@@ -1,5 +1,5 @@
 ---
-title: "Configure voice routing for Direct Routing"
+title: "Configure call routing for Direct Routing"
 ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
@@ -15,21 +15,21 @@ appliesto:
   - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: "Learn how to configure voice routing with Microsoft Phone System Direct Routing."
+description: "Learn how to configure call routing with Microsoft Direct Routing."
 ---
 
-# Configure voice routing for Direct Routing
+# Configure call routing for Direct Routing
 
-This article describes how to configure voice routing for Phone System Direct Routing.  This is step 3 of the following steps for configuring Direct Routing:
+This article describes how to configure call routing for Direct Routing. This is step 3 of the following steps for configuring Direct Routing:
 
 - Step 1. [Connect the SBC with Microsoft Phone System and validate the connection](direct-routing-connect-the-sbc.md) 
 - Step 2. [Enable users for Direct Routing, voice, and voicemail](direct-routing-enable-users.md)
-- **Step 3. Configure voice routing** (This article)
+- **Step 3. Configure call routing** (This article)
 - Step 4. [Translate numbers to an alternate format](direct-routing-translate-numbers.md) 
 
 For information on all the steps required for setting up Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
 
-## Voice routing overview
+## Call routing overview
 
 Microsoft Phone System has a routing mechanism that allows a call to be sent to a specific Session Border Controller (SBC) based on: 
 
@@ -38,9 +38,9 @@ Microsoft Phone System has a routing mechanism that allows a call to be sent to 
  
 SBCs can be designated as active and backup. When the SBC that is configured as active is not available for a specific call route, then the call will be routed to a backup SBC.
  
-Voice routing is made up of the following elements: 
+Call routing is made up of the following elements: 
 
-- **Voice routing policy** – A container for PSTN usages, which can be assigned to a user or to multiple users. 
+- **Call routing policy** – Also called a voice routing policy. A container for PSTN usages, which can be assigned to a user or to multiple users. 
 
 - **PSTN usages** – A container for voice routes and PSTN usages, which can be shared in different voice routing policies. 
 
@@ -455,6 +455,19 @@ No Restrictions
 ```
 
 The result is that the voice policy applied to John Woods' calls is unrestricted, and will follow the logic of call routing available for US, Canada, and International calling.
+
+## Run a Self-diagnostics tool
+
+Microsoft 365 admin users have access to diagnostics that can be run within the tenant to verify a user is correctly configured for Direct Routing. 
+
+> [!NOTE]
+>This feature isn't available for Microsoft 365 Government, Microsoft 365 operated by 21Vianet, or Microsoft 365 Germany.
+
+Select Run Tests, as follows. This will populate the diagnostic in the Microsoft 365 Admin Center.
+>> [!div class="nextstepaction"]
+>> [Run Tests: Teams Direct Routing](https://aka.ms/TeamsDirectRoutingDiag)
+
+The diagnostic performs a large range of verifications.
 
 ## See also
 

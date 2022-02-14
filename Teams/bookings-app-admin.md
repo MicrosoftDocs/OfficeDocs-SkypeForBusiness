@@ -10,11 +10,13 @@ search.appverid:
 searchScope:
   - Microsoft Teams
   - Microsoft Cloud for Healthcare
+  - Microsoft Cloud for Retail
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection: 
   - microsoftcloud-healthcare
+  - microsoftcloud-retail
   - m365solution-healthcare
   - m365solution-scenario
 ms.reviewer: 
@@ -23,7 +25,7 @@ description: Learn how to manage the Bookings app in Teams for users in your org
 
 # Manage the Bookings app in Microsoft Teams
 
-The Bookings app in Microsoft Teams offers a simple way to schedule in-person and virtual appointments, such as healthcare visits, financial consultations, interviews, customer support, education office hours, and much more. To learn more, see [Virtual visits with  Teams and the Bookings app](expand-teams-across-your-org/bookings-virtual-visits.md).
+The Bookings app in Microsoft Teams offers a simple way to schedule in-person and virtual appointments, such as healthcare visits, financial consultations, interviews, customer support, education office hours, and much more. To learn more, see [Virtual Visits with Teams and the Bookings app](expand-teams-across-your-org/bookings-virtual-visits.md).
 
 Schedulers can manage multiple department and staff calendars, as well as communications with internal and external attendees, from a single experience. The virtual appointments themselves are held via Microsoft Teams meetings, which offers robust videoconferencing capabilities.
 
@@ -36,7 +38,7 @@ Schedulers can manage multiple department and staff calendars, as well as commun
 
 - Microsoft Bookings must be turned on for the organization.
 
-- Users must have an appropriate license. Office 365 A3, A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3, and E5, Business Standard are supported.
+- Users must have an appropriate license. Office 365 A3, A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3, E5, F1, F3, and Business Standard are supported.
 
 - All users of the Bookings app and all staff participating in meetings must have a license that supports Teams meeting scheduling.
 
@@ -97,6 +99,6 @@ To send feedback, select the **Help** button near the bottom of the Teams left n
 
 ## Related articles
 
-[Manage the join experience for Teams virtual visits on mobile browsers](expand-teams-across-your-org/mobile-browser-join.md)
+[Manage the join experience for Teams Virtual Visits on mobile browsers](expand-teams-across-your-org/mobile-browser-join.md)
 
 [Bookings documentation for end users](https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)

@@ -53,13 +53,14 @@ KB 4470124 is the master KB for Skype for Business Server 2019 which has all the
 
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
-|Skype for Business Server 2015 Cumulative Update 12|[KB 3061064](https://support.microsoft.com/kb/3061064)| August, 2021 |
-|Skype for Business Server 2015 Cumulative Update 11 Hotfix 2|[KB 3061064](https://support.microsoft.com/kb/3061064)| November, 2020 |
-|Skype for Business Server 2015 Cumulative Update 11 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| July, 2020 |
-|Skype for Business Server 2015 Cumulative Update 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| May 13, 2020 |
-|Skype for Business Server 2015 Cumulative Update 10 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| August 2019 |
-|Skype for Business Server 2015 Cumulative Update 10 |[KB 3061064](https://support.microsoft.com/kb/3061064)| July 2019 |
-|Cumulative update 9 for Skype for Business Server 2015, Web Components Server|[KB 4487981](https://support.microsoft.com/kb/4487981)| May 2019 |
+|Skype for Business Server 2015 Cumulative Update 12 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|February 2022 |
+|Skype for Business Server 2015 Cumulative Update 12|[KB 3061064](https://support.microsoft.com/kb/3061064)|August 2021 |
+|Skype for Business Server 2015 Cumulative Update 11 Hotfix 2|[KB 3061064](https://support.microsoft.com/kb/3061064)|November 2020 |
+|Skype for Business Server 2015 Cumulative Update 11 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|July 2020 |
+|Skype for Business Server 2015 Cumulative Update 11|[KB 3061064](https://support.microsoft.com/kb/3061064)|May 13, 2020 |
+|Skype for Business Server 2015 Cumulative Update 10 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|August 2019 |
+|Skype for Business Server 2015 Cumulative Update 10 |[KB 3061064](https://support.microsoft.com/kb/3061064)|July 2019 |
+|Cumulative update 9 for Skype for Business Server 2015, Web Components Server|[KB 4487981](https://support.microsoft.com/kb/4487981)|May 2019 |
 |Cumulative update 8 for Skype for Business Server 2015, Front End Server and Edge Server|[KB 4464355](https://support.microsoft.com/kb/4464355)|January 2019|
 |Cumulative update 7 for Skype for Business Server 2015, Front End server and Edge server |[KB 4340904](https://support.microsoft.com/kb/4340904) |July 2018 |
 |Cumulative update 6 Hotfix 2 for Skype for Business Server 2015, Front End server and Edge server |[KB 4086059](https://support.microsoft.com/kb/4086059) |March 2018 |
@@ -152,7 +153,7 @@ Package Name |Release Date|
 | Lync Connectivity Analyzer (64-bit) RETIRED |June 2017 |
 | Lync Server 2013 Best Practices Analyzer |October 2012 |
 |[Lync Server 2013 Capacity Calculator](https://www.microsoft.com/download/details.aspx?id=36828) |July 2013 |
-|[Lync Server 2013 Debugging Tools](https://www.microsoft.com/download/details.aspx?id=35453) |January 2014 |
+|Lync Server 2013 Debugging Tools |January 2014 |
 | Lync Server 2013 Management Pack |May 2016 |
 | Lync Server 2013 Persistent Chat Resource Kit |July 2013 |
 | Lync Server 2013 Planning Tool |July 2013 |
@@ -271,4 +272,4 @@ Software updates include any update, update rollup, service pack, feature pack, 
 - [Install Skype for Business Server 2015](./deploy/install/install.md)
 - [Upgrade to  Skype for Business Server 2015](./deploy/upgrade-to-skype-for-business-server.md)
 - [Latest updates for versions of Skype for Business that use Windows Installer (MSI)](sfb-client-updates.md)
-- 
+

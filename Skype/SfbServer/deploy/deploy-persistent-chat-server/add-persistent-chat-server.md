@@ -1,8 +1,8 @@
 ---
 title: "Add Persistent Chat Server to your Skype for Business Server 2015 topology"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro

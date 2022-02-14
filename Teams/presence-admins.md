@@ -28,6 +28,7 @@ Presence is part of a user's profile in Microsoft Teams (and throughout Microsof
 
  > [!NOTE]
  > Teams respects your privacy configuration so if you have enabled the privacy mode, your presence will not be visible to external users.
+
 ## Presence states in Teams
 
 
@@ -45,10 +46,10 @@ Presence is part of a user's profile in Microsoft Teams (and throughout Microsof
 | ![Yellow clock icon, indicates away.](media/Presence_Away.png) Away| ![Yellow clock icon, indicates away.](media/Presence_Away.png) Away|
 || ![Yellow clock icon, indicates away](media/Presence_Away.png) Away Last Seen *time*|
 |![Yellow clock icon, indicates away, be right back.](media/Presence_Away.png) Be right back| |
-|![Gray circle with x, indicates Offline.](media/Presence_Offline.png) Appear offline|![Gray circle with x, indicates Offline](media/Presence_Offline.png) Offline.  When users aren't logged in on any of their devices for a few minutes, they appear offline. | |
+|![Gray circle with x, indicates Offline.](media/Presence_Offline.png) Appear offline|![Gray circle with x, indicates Offline](media/Presence_Offline.png) Offline.  When users aren't logged in on any of their devices for a few minutes, they appear offline. |
 || ![Open gray circle, indicates status unknown.](media/Presence_Unknown.png) Status unknown|
 || ![Purple circle with arrow, indicates Out of office.](media/Presence_OOF.png) Out of Office. Out of Office is used when an automatic reply is set. |
-|||
+
  > [!NOTE]
  > For users that have their mailbox hosted on-prem, presence delays of one hour (maximum) are expected.
 
@@ -77,7 +78,6 @@ User configured states have default expiration settings in Teams, in order to pr
 | Busy|1 day|
 | Do not disturb|1 day|
 | Others|7 days|
-|||
 
 > [!NOTE]
 > A user can also configure manually a duration for her presence. For instance, a user can set herself as Appear offline until tomorrow morning.

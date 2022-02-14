@@ -1,7 +1,7 @@
 ---
 title: "Turn on or off entry and exit announcements for meetings in Teams"
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -32,13 +32,11 @@ The conferencing bridge answers a call for a user who is dialing in to a meeting
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## Setting meeting join options
-
-![An icon showing the Microsoft Teams logo.](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+## Setting meeting join options using the Microsoft Teams admin center
 
 You must be a Teams service admin to make these changes. See [Use Teams administrator roles to manage Teams](./using-admin-roles.md) to read about getting admin roles and permissions.
 
-1. Log in to the admin center.
+1. Log in to the admin center.
 
 2. In the left navigation, go to **Meetings** > **Conference Bridges**.
 
