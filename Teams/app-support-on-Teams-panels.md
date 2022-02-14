@@ -64,7 +64,7 @@ To manage pinned apps displayed on the Teams panels, sign in to the Teams admin 
 
 *Apps included in this image are only examples and may not be available for use.*
 
-Microsoft recommends you turn off **Upload custom apps** and **Allow user pinning** for the best Teams app experience on Teams panels.
+Microsoft recommends you turn off **Upload custom apps** and **User pinning** for the best Teams app experience on Teams panels.
 
 For more about pinning apps, see [Manage app setup policies](/microsoftteams/teams-app-setup-policies).
 
@@ -112,7 +112,7 @@ If apps were previously installed via other app policies or manually in the Team
 
 Not all apps can be pinned to Teams through an app setup policy. Some apps may not support this functionality. To find apps that can be pinned, search for the app in the **Add pinned apps** pane. For more information, please refer to [the FAQ in Working with app setup policies](/microsoftteams/teams-app-setup-policies#why-cant-i-find-an-app-in-the-add-pinned-apps-pane).
 
-### Why am I seeing an “Allow user pinning” pop-up in the setup policies panel after I turn off “Allow user pinning?”
+### Why am I seeing an “User pinning” pop-up in the setup policies panel after I turn off “User pinning?”
 
 ![Screenshot of the setup policy section within the user interface with a pop-up confirming user pinning is active.](media/appsetup4.png)
 

@@ -21,7 +21,7 @@ ms.custom:
 description: "Read about solutions qualified with Lync Online Dedicated."
 ---
 
-# Lync Online Dedicated-qualified solutions
+# Solutions qualified with Lync Online Dedicated
 
 Customers deployed with Lync Online Dedicated have Lync running in data centers hosted and managed by Microsoft with infrastructure provisioned specifically for their deployment.
 

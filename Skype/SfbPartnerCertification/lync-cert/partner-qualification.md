@@ -1,5 +1,5 @@
 ---
-title: Lync Online Dedicated partner qualified solutions
+title: Lync Online Dedicated partner qualified solutions and technical requirements
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -22,7 +22,7 @@ description: Partner qualification requirements for Lync include Infrastructure,
 ---
 
 
-# Lync Online Dedicated partner qualified solutions
+# Lync Online Dedicated partner qualified solutions and technical requirements
 
 ## Infrastructure
 With the launch of Skype for Business, we will no longer qualify solutions for Lync Server. Instead, see the  [infrastructure certified for Skype for Business](../certification/infra.md).

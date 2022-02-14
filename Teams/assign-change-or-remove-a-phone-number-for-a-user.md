@@ -24,17 +24,22 @@ description: "Learn how to assign, change, or remove a work phone number for you
 
 # Assign, change, or remove a phone number for a user
 
-When you set up Calling Plans **or Operator Connect**, you assign phone numbers to your users. In Microsoft Teams, the phone number that you assign is listed when a user clicks **Calls**. 
+When you set up Calling Plans or Operator Connect, you assign phone numbers to your users. In Microsoft Teams, the phone number that you assign is listed when a user clicks **Calls**. 
 
-**This article applies to Calling Plans and Operator Connect.** For information about assigning, changing, or removing a phone number from a user in a Direct Routing scenario, see [Enable users for Direct Routing, voice, and voicemail](./direct-routing-enable-users.md).
+This article applies to Calling Plans and Operator Connect. For information about assigning, changing, or removing a phone number from a user in a Direct Routing scenario, see [Enable users for Direct Routing, voice, and voicemail](./direct-routing-enable-users.md).
 
-**Before you assign a number for a Calling Plan or Operator Connect user, you must get numbers for your users. For more information, see [Get numbers for Calling Plan users](getting-phone-numbers-for-your-users.md) or [Set up numbers for Operator Connect users](operator-connect-configure.md#set-up-phone-numbers).**
+Before you assign a number for a Calling Plan or Operator Connect user, you must get numbers for your users. For more information, see [Get numbers for Calling Plan users](getting-phone-numbers-for-your-users.md) or [Set up numbers for Operator Connect users](operator-connect-configure.md#set-up-phone-numbers).
 
   
 > [!NOTE]
 > One way to see whether a user has a license assigned is by going to the Microsoft Teams admin center > **Users**. If a license is assigned, it will be indicated on the page.  You can also use the Microsoft 365 admin center.
+
+> [!NOTE]
+> This note applies to customers who have a hybrid deployment with an on-premises Active Directory. If you want to assign a Calling Plan or Operator Connect phone number to a user or resource account, you must ensure that the phone number in the on-premises Active Directory has been removed,  and the change has been synchronized to Microsoft 365.
   
 ## Assign a phone number to a user
+
+When assigning a phone number to a user, make sure the phone number and the usage location of the user are of the same country.
 
 To assign a number by using the Teams admin center:
     
@@ -47,23 +52,29 @@ To assign a number by using the Teams admin center:
 4. To assign or change the associated emergency location, under **Emergency location**, search for and then select the location.
 
    > [!NOTE]
-   > **If you are assigning numbers to Operator Connect users, you may or may not be able to assign or change the associated emergency location. This functionality will depend on your Operator. Contact your Operator for more information.**
+   > If you are assigning numbers to Operator Connect users, you may or may not be able to assign or change the associated emergency location. This functionality will depend on your Operator. Contact your Operator for more information.
 
 5. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this is on. 
 
 6. Click **Save**.
 
-To assign numbers by using PowerShell, use the [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser) cmdlet as follows:
+To assign numbers by using PowerShell, use the [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) cmdlet as follows:
 
+For Calling Plan numbers
+```PowerShell
+Set-CsPhoneNumberAssignment -Identity <user>  -PhoneNumber <phone number> -PhoneNumberType CallingPlan
+```
 
-``PowerShell
-Set-CsOnlineVoiceUser -Identity <user>  -TelephoneNumber <phone number> 
+For Operator Connect numbers
+```PowerShell
+Set-CsPhoneNumberAssignment -Identity <user>  -PhoneNumber <phone number> -PhoneNumberType OperatorConnect
 ```
 
 For example:
 
 ```PowerShell
-Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
+Set-CsPhoneNumberAssignment -Identity john@contoso.com -PhoneNumber "+14255550101" -PhoneNumberType CallingPlan
+Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+14255550102" -PhoneNumberType OperatorConnect
 ```
 
 > [!NOTE]
@@ -91,11 +102,11 @@ To change a phone number for a user by using the Teams admin center:
 8. To assign or change the associated emergency location, under **Emergency location**, search for and then select the location.
 
       > [!NOTE]
-      > **If you are changing numbers for Operator Connect users, you may or may not be able to assign or change the associated emergency location. This functionality will depend on your Operator. Contact your Operator for more information.**
+      > If you are changing numbers for Operator Connect users, you may or may not be able to assign or change the associated emergency location. This functionality will depend on your Operator. Contact your Operator for more information.
 
 9. Click **Save**.
 
-For a PowerShell example, see [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser).
+For a PowerShell example, see [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment).
 
 ## Remove a phone number from a user
 
@@ -111,7 +122,7 @@ To remove a phone number by using the Teams admin center:
 
 5. Click **Save**.
 
-For a PowerShell example, see [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser).
+For a PowerShell example, see [Remove-CsPhoneNumberAssignment](/powershell/module/teams/remove-csphonenumberassignment).
 
 ## Related topics
 
@@ -123,5 +134,7 @@ For a PowerShell example, see [Set-CsOnlineVoiceUser](/powershell/module/skype/s
 
 [Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
-[Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)
+[Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment)
+
+[Remove-CsPhoneNumberAssignment](/powershell/module/teams/remove-csphonenumberassignment)
 

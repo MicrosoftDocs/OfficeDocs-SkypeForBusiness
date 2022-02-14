@@ -104,11 +104,11 @@ Please send us an **LOA** if you currently have the following with another carri
 - Toll-Free phone numbers.
 - More than 999 user phone numbers that you need to transfer/port but can't get in the Microsoft Teams admin center using the local number porting wizard.
 
-Once you have your **filled and signed** LOA, please [contact our PSTN Service Desk](./contact-pstn-service-desk.md) so we can assist you.
+Once you have your **filled and signed** LOA, please [contact our TNS Service Desk](./contact-tns-service-desk.md) so we can assist you.
 
 ## Still need assistance?
 
-If you need assistance, please [contact the PSTN Service Desk](./contact-pstn-service-desk.md).
+If you need assistance, please [contact the TNS Service Desk](./contact-tns-service-desk.md).
 
 ## Additional resources
 

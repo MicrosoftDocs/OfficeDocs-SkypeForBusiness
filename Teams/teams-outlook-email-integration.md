@@ -1,7 +1,7 @@
 ---
 title: Teams and Outlook email integration
-author: cichur
-ms.author: v-cichur
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article

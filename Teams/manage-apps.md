@@ -37,6 +37,8 @@ The Manage apps page gives you a view into all available apps, providing you wit
 
 In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. You must be a global admin or Teams service admin to access the page.
 
+![Screenshot of the Managed apps page.](media/manage-apps.png)
+
 > [!NOTE]
 > The Manage apps page isn't available yet in Microsoft 365 Government Community Cloud High (GCCH) or Department of Defense (DoD) deployments of Teams.
 
@@ -44,12 +46,9 @@ In the left navigation of the Microsoft Teams admin center, go to **Teams apps**
 
 You can view every app including the following information about each app.
 
-![Screenshot of the Managed apps page.](media/manage-apps.png)
+![Screenshot of the apps details page for an app.](media/app-detail-page.jpg)
 
-- **Name**: The app name. Select the app name to go to the app details page to see more information about the app. This includes a description of the app, whether it's allowed or blocked, version, privacy policy, terms of use, categories that apply to the app, certification status, supported capabilities, and app ID. Here's an example:
-
-  ![Screenshot of the apps details page for an app.](media/manage-apps-app-details.png)
-  
+- **Name**: The app name. Select the app name to go to the app details page to see more information about the app. This includes a description of the app, whether it's allowed or blocked, version, privacy policy, terms of use, categories that apply to the app, certification status, supported capabilities, and app ID.
 - **Certification**: If the app has gone through certification, you'll see either **Microsoft 365 certified** or **Publisher attestation**. Select the link to view certification details for the app. If you see "**--**", we don't have certification information for the app. To learn more about certified apps in Teams, read [Microsoft 365 App Certification program](/teams-app-certification/all-apps).  
 - **Publisher**: Name of the publisher.
 - **Publishing status**: Publishing status of custom apps.
@@ -60,13 +59,13 @@ You can view every app including the following information about each app.
     - **Blocked org-wide**: The app is blocked in org-wide app settings.
       It's important to know that this column represents the allowed and blocked status of apps that were formerly on the **Org-wide settings** pane. You now view, block, and allow apps at the org-wide on the **Manage apps** page.
 - **Licenses**: Indicates whether an app offers a Software as a Service (SaaS) subscription for purchase. This column applies only to third-party apps. Each third-party app will have one of the following values:
-- **Purchase**: The app offers a SaaS subscription and is available to purchase.  
-- **Purchased**: The app offers a SaaS subscription and you've purchased licenses for it.
-- **- -**: The app doesn't offer a SaaS subscription.
+    - **Purchase**: The app offers a SaaS subscription and is available to purchase.  
+    - **Purchased**: The app offers a SaaS subscription and you've purchased licenses for it.
+    - **- -**: The app doesn't offer a SaaS subscription.
 - **Custom app**: Whether the app is a custom app.
 - **Permissions**: Indicates whether a third-party or custom app that's registered in Azure Active Directory (Azure AD) has permissions that need consent. You'll see one of the following values:
-- **View details**: The app has permissions that require consent before the app can access data.
-- **- -**: The app doesn't have permissions that need consent.
+    - **View details**: The app has permissions that require consent before the app can access data.
+    - **- -**: The app doesn't have permissions that need consent.
 - **Categories**: Categories that apply to the app.
 - **Version**: App version.
 - **Admin can install in meetings**: Indicates whether an app can be installed by admins in Team meetings. [Learn more](teams-app-setup-policies.md#install-apps)
@@ -145,7 +144,7 @@ Resource-specific consent (RSC) permissions let team owners grant consent for an
 
 ## Manage org-wide app settings
 
-Use org-wide app settings to control whether users can install third-party apps and whether users can upload or interact with custom  apps in your organization. Org-wide app settings govern the behavior for all users and override any other app permission policies assigned to users. You can use them to control malicious or problematic apps.
+Use org-wide app settings to control whether users get a tailored app experience based on license (coming soon), whether users can install third-party apps, and whether users can upload or interact with custom apps in your organization. Org-wide app settings govern the behavior for all users and override any other app permission policies assigned to users. You can use them to control malicious or problematic apps.
 
 > [!NOTE]
 > To learn how to use org-wide app settings in Microsoft 365 Government - Government Community Cloud High GCCH and Department of Defense (DoD) deployments of Teams, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
@@ -154,7 +153,10 @@ Use org-wide app settings to control whether users can install third-party apps 
 
     ![Screenshot of org-wide app settings.](media/manage-apps-org-wide-app-settings.png)
 
-2. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps:
+1. (Coming soon) Under **Tailored apps**, turn off or turn on **Show tailored apps based on licenses**. When this setting is on, users get an experience in which apps are pinned based on their license. To learn more, see [Tailor your Teams apps based on license](pin-teams-apps-based-on-license.md).
+
+    This feature is available for F licenses. Other license types will be supported in the future.
+1. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps:
 
     - **Allow third-party apps**: This controls whether users can use third-party apps. If you turn off this setting, your users won't be able to install or use any third-party apps and the app status of these apps is displayed as **Blocked org-wide** in the table.
 
@@ -166,8 +168,8 @@ Use org-wide app settings to control whether users can install third-party apps 
 
     - **Allow any new third-party apps published to the store by default**: This controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if you allow third-party apps.
 
-3. Under **Custom apps**, turn off or turn on **Allow interaction with custom apps**. This setting controls whether users can interact with custom apps. To learn more, see [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md).
-4. Select **Save** for org-wide app settings to take effect.
+1. Under **Custom apps**, turn off or turn on **Allow interaction with custom apps**. This setting controls whether users can interact with custom apps. To learn more, see [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md).
+1. Select **Save** for org-wide app settings to take effect.
 
 ## View security and compliance information for Microsoft 365 Certified apps
 

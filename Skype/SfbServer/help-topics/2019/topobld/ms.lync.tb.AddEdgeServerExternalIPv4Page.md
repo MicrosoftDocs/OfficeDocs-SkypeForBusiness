@@ -1,8 +1,8 @@
 ---
 title: "Add Edge Server External IPv4"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article

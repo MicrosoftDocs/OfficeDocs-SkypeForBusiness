@@ -1,6 +1,31 @@
 {
   "redirections": [
     {
+      "source_path": "Teams/expand-teams-across-your-org/healthcare/dstu2-interface.md",
+      "redirect_url": "/microsoftteams/manage-lists-app",
+      "redirect_document_id": false
+    }, 
+    {
+      "source_path": "Teams/expand-teams-across-your-org/healthcare/stu3-interface.md",
+      "redirect_url": "/microsoftteams/manage-lists-app",
+      "redirect_document_id": false
+    },     
+    {
+      "source_path": "Teams/expand-teams-across-your-org/healthcare/patients-audit.md",
+      "redirect_url": "/microsoftteams/manage-lists-app",
+      "redirect_document_id": false
+    },     
+    {
+      "source_path": "Teams/expand-teams-across-your-org/healthcare/patients-app-overview.md",
+      "redirect_url": "/microsoftteams/manage-lists-app",
+      "redirect_document_id": true
+    },    
+    {
+      "source_path": "Teams/expand-teams-across-your-org/teams-for-healthcare-landing-page.md",
+      "redirect_url": "/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc",
+      "redirect_document_id": false
+    }, 
+    {
       "source_path": "Teams/manage-discovery-of-private-teams.md",
       "redirect_url": "/microsoftteams/teams-overview",
       "redirect_document_id": false
@@ -24,6 +49,11 @@
       "source_path": "Teams/rooms/managed-meeting-rooms.md",
       "redirect_url": "/microsoftteams/rooms/microsoft-teams-rooms-premium",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "Teams/rooms/rooms-scale.md",
+      "redirect_url": "/microsoftteams/rooms/console",
+      "redirect_document_id": false
     },
     {
       "source_path": "Teams/expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md",
@@ -52,7 +82,12 @@
     },
     {
       "source_path": "Teams/edit-user-settings-in-bulk.md",
-      "redirect_url": "/MicrosoftTeams/assign-policies",
+      "redirect_url": "/MicrosoftTeams/assign-policies-users-and-groups",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Teams/assign-policies.md",
+      "redirect_url": "/MicrosoftTeams/policy-assignment-overview",
       "redirect_document_id": true
     },
     {
@@ -127,8 +162,8 @@
     },
     {
       "source_path": "Teams/room-systems/room-systems-scale.md",
-      "redirect_url": "/MicrosoftTeams/rooms/rooms-scale",
-      "redirect_document_id": true
+      "redirect_url": "/microsoftteams/rooms/console",
+      "redirect_document_id": false
     },
     {
       "source_path": "Teams/room-systems/azure-monitor-deploy.md",
@@ -2517,12 +2552,42 @@
     },
     {
      "source_path": "Teams/teams-surface-hub.md",
-     "redirect_url": "/MicrosoftTeams/",
+     "redirect_url": "/surface-hub/surface-hub-teams-rooms",
      "redirect_document_id": false 
     },
     {
-      "source_path": "Teams/administrative-unit.md",
-      "redirect_url": "/MicrosoftTeams/",
+      "source_path": "Teams/troubleshoot-guest-access.md",
+      "redirect_url": "/MicrosoftTeams/guest-access",
+      "redirect_document_id": false 
+     },
+     {
+      "source_path": "Teams/business-voice/country-region-availability.md",
+      "redirect_url": "/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans",
+      "redirect_document_id": false 
+     },
+     {
+      "source_path": "Teams/business-voice/prepare-users.md",
+      "redirect_url": "/microsoftteams/business-voice/whats-business-voice",
+      "redirect_document_id": true 
+     },
+     {
+      "source_path": "Teams/business-voice/partner-resources.md",
+      "redirect_url": "https://cloudpartners.transform.microsoft.com/products/m365-business-voice-partner-playbook",
+      "redirect_document_id": false 
+     },
+     {
+      "source_path": "Teams/sharepoint-onedrive-interact.md",
+      "redirect_url": "/sharepoint/teams-connected-sites?bc=%2fteamss%2fbreadcrumb%2ftoc.json&toc=%2fteams%2ftoc.json",
+      "redirect_document_id": false 
+     },
+     {
+      "source_path": "Teams/live-components-in-teams.md",
+      "redirect_url": "/microsoftteams/loop-components-in-teams",
+      "redirect_document_id": false 
+     },
+     {
+      "source_path": "Teams/business-voice/what-to-buy.md",
+      "redirect_url": "/microsoftteams/business-voice/whats-business-voice",
       "redirect_document_id": false 
      }
   ] 
