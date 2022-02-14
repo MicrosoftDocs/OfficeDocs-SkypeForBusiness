@@ -1,7 +1,7 @@
 ---
 title: Tenant Administration control for voice recognition (voice profile) in Teams Rooms 
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 ms.reviewer: parisataheri
 manager: serdars
 ms.topic: article
@@ -81,7 +81,7 @@ The following are the required policies to set an Intelligent Speaker and user r
 |AllowTranscription|Required for user and Teams rooms accounts.|**True** and **False**|
 ||||
 
-In the Teams admin center, set the **Allow transcription** policy. Settings are **Off** by default.
+In the Teams admin center, set the **Transcription** policy. Settings are **Off** by default.
 
 ![the admin center with meeting policies highlighted and Allow transcription selected.](../media/allow-transcription1.png)
 

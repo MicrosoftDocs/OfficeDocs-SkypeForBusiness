@@ -456,6 +456,19 @@ No Restrictions
 
 The result is that the voice policy applied to John Woods' calls is unrestricted, and will follow the logic of call routing available for US, Canada, and International calling.
 
+## Run a Self-diagnostics tool
+
+Microsoft 365 admin users have access to diagnostics that can be run within the tenant to verify a user is correctly configured for Direct Routing. 
+
+> [!NOTE]
+>This feature isn't available for Microsoft 365 Government, Microsoft 365 operated by 21Vianet, or Microsoft 365 Germany.
+
+Select Run Tests, as follows. This will populate the diagnostic in the Microsoft 365 Admin Center.
+>> [!div class="nextstepaction"]
+>> [Run Tests: Teams Direct Routing](https://aka.ms/TeamsDirectRoutingDiag)
+
+The diagnostic performs a large range of verifications.
+
 ## See also
 
 [Plan Direct Routing](direct-routing-plan.md)

@@ -183,10 +183,11 @@ Information barriers mode  help strengthen who can be added to or removed from a
 
 - **Open**: This configuration is the default IB mode for all existing groups that were provisioned before information barriers were enabled. In this mode, there are no IB policies applicable.
 - **Implicit**: This configuration is the default IB mode when a Team is provisioned after enabling Information barriers. Implicit mode allows you to add all compatible users in the group.
+- **Owner Moderated (preview)**: This mode is set on a team when you want to allow collaboration between incompatible segment users that are moderated by the owner. The team owner can add new members per their IB policy.
 
 Microsoft 365 Groups created before activating an information barrier policy are automatically set to *Open* mode by default. Once you activate IB policies on your tenant, you would be required to update mode that will reevaluate groups and sites and result in non-compliant users being automatically removed from these groups and sites. If you need to change the *Open* mode configuration on existing Teams-connected groups to meet compliance requirements for your organization, you'll need to [update the IB modes](/sharepoint/information-barriers#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell) for SharePoint sites connected to the Teams team.
 
-Use the [Set-UnifiedGroup](/powershell/module/exchange/set-unifiedgroup) cmdlet with the *InformationBarrierMode* parameter that corresponds to the mode you want to use for your segments. Allowed list of values for the *InformationBarrierMode* parameter are *Open* and *Implicit*.
+Use the [Set-UnifiedGroup](/powershell/module/exchange/set-unifiedgroup) cmdlet with the *InformationBarrierMode* parameter that corresponds to the mode you want to use for your segments. Allowed list of values for the *InformationBarrierMode* parameter are *Open*, *Implicit*, and *Owner Moderated*.
 
 For example, to configure the *Implicit* mode for a Microsoft 365 Group, you'll use the following PowerShell command:
 
@@ -194,7 +195,9 @@ For example, to configure the *Implicit* mode for a Microsoft 365 Group, you'll 
 Set-UnifiedGroup -InformationBarrierMode Implicit
 ```
 
-For more information about how users may be automatically removed from groups, see the [Information barriers compliance assistant (preview)](/sharepoint/information-barriers-compliance-assistant) article.
+To update the mode from Open to Implicit for all existing teams, use this [PowerShell script](information-barriers-mode-script.md).
+
+If you change the Open mode configuration on existing Teams-connected groups to meet compliance requirements for your organization, you'll need to [update the IB modes](/sharepoint/information-barriers.md#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell) for associated SharePoint sites connected to the Teams team.
 
 ## Required licenses and permissions
 

@@ -82,9 +82,6 @@ This diagnostic data doesn’t include names of users, their email addresses, or
 
 To see what diagnostic data is being sent to Microsoft, you can use the Diagnostic Data Viewer, which you can download and install for free from the Microsoft Store. For more information, see [Using the Diagnostic Data Viewer with Office](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855).
 
-> [!NOTE]
-> Support for the Diagnostic Data Viewer is available for Teams on devices running Android. Support for Teams on devices running Windows, macOS, or iOS is being worked on.
-
 ## Required service data for connected experiences
 
 Required service data is data that enables us to deliver these cloud-based connected experiences and help make these experiences secure and perform as expected. You can choose to not offer this functionality to your users, in which case this information will not be provided to Microsoft to support the functionality of connected experiences. You can learn more about [required service data](/deployoffice/privacy/required-service-data).

@@ -1,8 +1,8 @@
 ---
 title: "Certificate Request (Returned)"
 ms.reviewer: 
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/1/2015
 audience: ITPro

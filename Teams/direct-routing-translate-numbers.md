@@ -1,6 +1,6 @@
 ---
 title: "Translate phone numbers for Direct Routing"
-ms.reviewer: 
+ms.reviewer: filippse
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -20,7 +20,7 @@ description: "Learn how to configure Microsoft Phone System Direct Routing."
 
 # Translate phone numbers to an alternate format
 
-This article describes how to translate numbers for outbound and inbound calls to an alternate format.  This is step 4 of the following steps for configuring Direct Routing:
+This article describes how to translate numbers for outbound and inbound calls to an alternate format. This is step 4 of the following steps for configuring Direct Routing:
 
 - Step 1. [Connect the SBC with Microsoft Phone System and validate the connection](direct-routing-connect-the-sbc.md) 
 - Step 2. [Enable users for Direct Routing, voice, and voicemail](direct-routing-enable-users.md)   
@@ -40,7 +40,7 @@ The policy is applied at the SBC level. You can assign multiple translation rule
 
 To create, modify, view, and delete number manipulation rules, use the [New-CsTeamsTranslationRule](/powershell/module/skype/new-csteamstranslationrule), [Set-CsTeamsTranslationRule](/powershell/module/skype/set-csteamstranslationrule), [Get-CsTeamsTranslationRule](/powershell/module/skype/get-csteamstranslationrule), and [Remove-CsTeamsTranslationRule](/powershell/module/skype/remove-csteamstranslationrule) cmdlets.
 
-To assign, configure, and list number manipulation rules on SBCs, use the [New-CSOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) and [Set-CSOnlinePSTNGateway](/powershell/module/skype/set-csonlinepstngateway) cmdlets together with the  InboundTeamsNumberTranslationRules, InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules, OutboundPSTNNumberTranslationRules, InboundTeamsNumberTranslationRules, InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules, and OutboundPSTNNumberTranslationRules parameters.
+To assign, configure, and list number manipulation rules on SBCs, use the [New-CSOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) and [Set-CSOnlinePSTNGateway](/powershell/module/skype/set-csonlinepstngateway) cmdlets together with the InboundTeamsNumberTranslationRules, InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules, and OutboundPSTNNumberTranslationRules parameters.
 
 > [!NOTE]
 > The maximum total number of translation rules is 400, maximum translation parameter name length is 100 symbols, maximum translation parameter pattern length is 1024 symbols, and maximum translation parameter translation length is 256 symbols.
@@ -48,10 +48,10 @@ To assign, configure, and list number manipulation rules on SBCs, use the [New-C
 
 ## Example SBC configuration
 
-For this scenario, the ```New-CsOnlinePSTNGateway``` cmdlet is run to create the following SBC configuration:
+For this scenario, the New-CsOnlinePSTNGateway cmdlet is run to create the following SBC configuration:
 
 ```PowerShell
-New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRules ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRules ‘AddPlus1’ -OutboundPSTNNumberTranslationRules ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRules ‘StripPlus1’
+New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRules ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRules ‘AddPlus1’ -OutboundPSTNNumberTranslationRules ‘AddSeattleAreaCode’,‘StripPlus1’  -OutboundTeamsNumberTranslationRules ‘StripPlus1’
 ```
 
 The translation rules assigned to the SBC are summarized in the following table:
