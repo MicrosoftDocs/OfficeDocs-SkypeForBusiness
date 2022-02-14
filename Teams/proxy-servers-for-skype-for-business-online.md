@@ -49,7 +49,9 @@ Microsoft also strongly recommends:
 - Following the other recommendations in our networking guidelines:
   [Prepare your organization's network for Teams](prepare-network.md)
   
-    
+
+For Direct Routing scenario, external DNS resolution for all Teams Clients even behind a proxy is *mandatory*, namely *recursive* name resolution to *.teams.microsoft.com is needed for Teams to connect to Tranport Relay on standard 3478-3481 UDP ports. 
+
 Following this guidance should minimize potential problems.
   
 ## Related topics
