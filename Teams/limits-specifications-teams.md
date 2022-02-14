@@ -110,8 +110,7 @@ Channel names can't contain the following characters or words:
 
 Channel names also can't start with an underscore (_) or period (.), or end with a period (.).
   
-> [!NOTE]
-> Channel names are limited to 50 characters.
+Channel names are limited to 50 characters.
 
 ## Meetings and calls
 
