@@ -23,7 +23,7 @@ ms.custom:
 description: Learn which desk and conference phones are certified for Microsoft Teams to produce the best results.
 ---
 
-# Microsoft Teams certified devices - Android Based
+# Microsoft Teams certified Android devices
 
 The Microsoft Teams devices Certification Program ensures certified devices meet a high standard, with higher performance targets and quality metrics across the entire Teams experience (audio, video, user interface). Microsoft and OEM partners are actively working together to ensure devices meet all certification requirements, including security, audio and video quality, Teams experience, and accessibility.
 
