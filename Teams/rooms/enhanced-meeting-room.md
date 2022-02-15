@@ -25,7 +25,7 @@ appliesto:
 
 ![Rendering of an enhanced meeting room.](../media/emr1.png)
 
-This article explores how Microsoft is transforming standard conference rooms into "enhanced meeting rooms" that bring the best of the new Teams front row experience. Use this article for room design and technology guidance, recommended products, retrofitting tips, and Microsoft Corporate Facilities reference specifications.
+This article explores how Microsoft is transforming standard conference rooms into "enhanced meeting rooms" that bring the best of the new Teams front row experience. Use this article for room design and technology guidance, recommended products, and Microsoft Corporate Facilities reference specifications.
 
 ## Microsoft’s vision for the future of meeting rooms
 
@@ -127,7 +127,7 @@ In Microsoft Teams Rooms, users can take advantage of traditional, analog whiteb
 
 ## Enhanced meeting room design guidance
 
-This section is intended to cover building an enhanced meeting room from scratch. For retrofitting an existing room guidance, see [Retrofit an existing room](#retrofit-an-existing-room).
+This section is intended to cover building an enhanced meeting room from scratch. 
 
 ### Room layout 
 
