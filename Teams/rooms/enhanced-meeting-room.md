@@ -3,7 +3,7 @@ title: "Medium-sized meeting room: Enhanced meeting room"
 author: amandafrechinjackson
 ms.author: v-amandaf
 manager: jsarrasin
-ms.date: 2/4/2022
+ms.date: 2/14/2022
 ms.topic: conceptual
 audience: ITPro
 ms.service: msteams
@@ -83,20 +83,6 @@ At Microsoft, our flexible work guidelines prioritize giving employees choice an
 
 Our research has shown that remote meetings during the pandemic have had many benefits—particularly around increased feelings of equity and inclusion. As we think about returning in a hybrid setting, with remote and in-person collaboration happening simultaneously, we sought to create meeting spaces that better support our flexible work policies while maintaining a level playing field for all participants through room design and technology.
 
-Let’s start with a standard medium-sized conference room that would traditionally seat about 8-12 people.
-
-From:
-
-![Example of a standard medium conference room.](../media/emr2.jpg)
-
-*Optimizing for in-person collaboration primarily with remote secondary audio-video (AV) as a supplement to the experience*
-
-To:
-
-![Rendering of an enhanced meeting room, which is driven by AV use.](../media/emr3.jpg)
-
-*Optimizing for in-person and remote collaboration equally with AV as a driver for the experience*
-
 ### What is this space used for?
 
 This space is dedicated to the most immersive Teams meeting experience for a small group of people in the physical room.
@@ -108,8 +94,6 @@ Just like a typical Microsoft Teams Room, meeting participants are able to meet 
 The enhanced meeting room layout is designed for maximum visibility and engagement with remote participants and content.
 
 The layout features a curved table for in-person eye contact and orientation to remote participants with all chairs facing the display so participants are able to follow along.
-
-![Rendering of an enhanced meeting room with a projector and U-shaped table.](../media/emr4.jpg)
 
 ### How does the audio work? 
 
@@ -137,17 +121,9 @@ Meeting content is surrounded by contextual fluid components like the agenda, ta
 
 This layout will be supported across both single- and dual-display configurations and will be made available through a Teams Rooms software update. While the front row layout is especially impactful in an enhanced meeting room, front row can be used in any Teams Room running on Windows, regardless of the furniture and hardware configuration.
 
-![Rendering of an enhanced meeting room, showcasing remote attendees on the display in view of in-person attendees.](../media/emr6.jpg)
-
-![Example of an enhanced meeting as shown on devices.](../media/emr7.png)
-
 ### How do you co-create content?
 
 In Microsoft Teams Rooms, users can take advantage of traditional, analog whiteboarding by using the intelligent capture feature. For a modernized experience where all participants can draw and ink together, Microsoft Whiteboard can be accessed using a touchscreen front-of-room display, companion devices like a PC, phone, or tablet, and through Microsoft Surface Hub.
-
-![Photo of whiteboarding in a meeting room.](../media/emr8.png) 
-
-![Photo of enhanced whiteboarding.](../media/emr9.jpg)
 
 ## Enhanced meeting room design guidance
 
@@ -513,293 +489,3 @@ If you are planning to add enhanced meeting rooms to your existing spaces, see t
 #### Step 7
 
 ![Step seven of an EMR refit.](../media/diagemr7.png)
-
-## Microsoft Corporate Facilities reference specifications
-
-The following reference specifications are used by the Microsoft Corporate Facilities Team when building an enhanced meeting room. They’re shared here to act as a reference against which to compare your deployments.
-
-### Design considerations 
-
-> X Standard (Requirement)
->
-> O Guideline (Recommended)
-
-#### Adjacencies
-
--   Considered a “landmark” to aid in way finding and circulation.
-
--   X Preference is for this to be an interior room, not a room with proximity to windows. In a controlled video environment, Microsoft suggests placing this room in a location where managing natural daylight is not required.
-
--   If at an exterior wall, black-out shades are to be provided.
-
-### Furniture/millwork
-
--   X Provide task chairs with a curved conference table.
-
-    -   X ♿ Work and meeting surfaces must be dispersed in accordance with applicable codes.
-
--   X ♿ Provide grommets and access to power within 24" (61 cm) of the edge of the table.
-
--   X Provide millwork waste credenza with separate compartments for recycling, trash, and compost per local Recology options.
-
-### Programming size
-
-|  Area | Capacity  | Dimensions  |
-|---|---|---|
-|  X 350 ft² (32.5 m²) max” | X 7 in room  | X 25’-4” x 14'-0" (7.7m x 4.3m)   |
-|   |  X Virtual participants per Microsoft Teams software capabilities |   |
-
-### Finishes and openings
-
-Openings:
-
--   X ♿ Provide a clear floor space on each side of all swing doors.
-
--   X Glass lite in door and glass relite or partition wall at entry.
-
-    -   O Glass film.
-
-    -   X Do not specify writable film.
-
--   X ♿ Where the meeting room is public facing, or where prescribed, accessible meeting rooms should be equipped with an assisted door opener.
-
-*Windows:*
-
--   X Provide room darkening window treatment when rooms contain exterior windows.
-
-**Walls:**
-
--   O Saturated paint colors are acceptable in moderation, as are neutrals.
-
--   X Provide fabric wrapped panels to achieve NRC ratings per elevations.
-
-*Front wall:*
-
--   X Surface mounted projector screen (Dalite) on acoustic panels.
-
--   X Provide level 4 finish (or regional equivalent) with eggshell PT-2 (lighter color) on the sides of the panels.
-
-*Rear wall:*
-
--   X Provide soft color finish (medium gray with blue tint) for better camera recognition on the back wall.
-
--   X Level 4 finish (or regional equivalent) with eggshell PT-1 (darker color).
-
-*Side walls:*
-
--   X Level 4 finish (or regional equivalent) with eggshell PT-1 (darker color).
-
--   X Writable surface with pen tray (per elevations).
-
--   X ♿ Provide appropriate clearance around writable walls.
-
--   **Note:** Separate writable surfaces from fabric panels to avoid staining. Provide an extruded aluminum rail with a full-length wall mount bracket, and two end caps at the writable wall.
-
-**Ceiling:**
-
--   O 2'-0" (61cm x 61cm) acoustic ceiling tile \*
-
-**Floor:**
-
--   O Carpet tile \*
-
-**Base:**
-
--   O 2.5"H (6cm) coved resilient base
-
--   O Avoid specifying a light-colored base that will show scuffs and stains.
-
-**Corner wall and protection:**
-
--   X Stainless steel corer guards at high traffic corners (outside)
-
-### Acoustics
-
-**Acoustically sensitive:**
-
--   X Yes
-
-**% One Wall with NRC 0.80 sound absorptive wall treatment:**
-
--   X 50-100% of wall area on at least 2 walls
-
--   X Entire ceiling with NRC 0.90
-
-**Mid-Frequency Reverberation Time Goal (sec):**
-
--   X 0.5
-
-**Room Average Noise Reduction Coefficient (NRCavg):**
-
--   X 0.40
-
-**Acceptable Noise Criteria (NC) range:**
-
--   X 25-30
-
-**Acceptable dBA range:**
-
--   X 30-35
-
-**Recommended notes:**
-
--   X Consider upgrading all walls to STC 50, with an STC 50 rated door
-
-### Audio-visual
-
-**Display:**
-
--   X High-definition projector, minimum 16:9 aspect ratio
-
--   X One screen per room, install at front wall for projected image
-
--   X Provide minimum 1" conduit each for AV/data from table to projection wall
-
-**Camera:**
-
--   X Install on the projection wall
-
-**Occupancy sensor:**
-
--   X Ceiling mounted People Counting sensor
-
-**Conference hallway display (CHD):**
-
--   X Touch panel mounted on outside wall of room at +48" above finished floor (A.F.F.)
-
-**Collaboration system:**
-
--   X Data sharing via Microsoft Teams Room solution
-
-**Recommended notes:**
-
--   X Provide cables at the tabletop to connect laptops and other sources to display
-
-### Lighting
-
-**Dimming:**
-
--   X Yes (Provide continuous dimming from 100% to 1% light output)
-
-**Manual lighting control:**
-
--   X Raise / Lower per lighting control zone
-
--   X Preset 3 button
-
--   (All on, All off, and Presentation mode)
-
-**Automatic lighting control:**
-
--   X Vacancy
-
-**Color temperature (Kelvin):**
-
--   X 3000
-
-**CRI:**
-
--   X 90 and above
-
-**Lighting density:**
-
--   X \<0.65 w/ft2 (7 w/m2)
-
-**Recommended notes:**
-
--   X Provide dedicated supplemental lighting at writable surfaces
-
--   O For glare minimization, perimeter wall wash strategies should avoid doorways, glass walls, or glass clerestories
-
-### Illumination
-
--   X FACES: 30 fc / 300 average horizontal at faces 48" (122 cm) A.F.F. with a.5:1 avg:min uniformity and 40 fc / 400 average vertical at faces 36" to 60" (91 cm to 152 cm) A.F.F. with 1.5:1 avg:min uniformity
-
--   X TABLES: 30 fc / 300 average horizontal at tables 30" (76 cm) A.F.F. with 1.5:1 avg:min uniformity
-
--   X WALLS (40% matte reflectance): 40 fc / 400 average vertical at 30" to 78" (76 cm to 198 cm) A.F.F. with 1.5: 1 avg:min uniformity X WALLS (50% matte reflectance): 30 fc / 300 average vertical at 30" to 78" (76 cm to 198 cm) A.F.F. with 1.5: 1 avg:min uniformity X WALLS (60% matte reflectance): 20 fc / 200 average vertical at 30" to 78" (76 cm to 198 cm) A.F.F. with 1.5: 1 avg:min uniformity X Front-screen projection display surface: 5 fc / 50 max vertical with 2:1 max:avg uniformity
-
--   X Video display or monitor surface: 20 fc / 200 max vertical with 2:1 max:avg uniformity
-
--   X Writable surface: Vertical illumination 150 lux (14 fc) on the front of writable surface during basic/general meeting functions.
-
-\*\* Advanced camera and display technologies may have lower target illumination level requirements and should be followed instead to increase visual comfort of occupants subject to long durations of activity
-
-### Electrical
-
-**General area design receptacle load (Watts/SF):**
-
--   X 2.5
-
-**Specific use case design receptacle load (Watts):**
-
--   O N/A
-
-**Specific receptacle requirements:**
-
--   X Equivalent of double-duplex receptacle at the center of the table.
-
--   X No back-to-back outlets within 24” (61 cm) of each other.
-
--   X Provide multiple combination USB/receptacle to accessible power at counters and fixed seating, at least one per user in the space.
-
-**Connected electrical equipment load:**
-
--   X Provide 1 circuit for AV rack and 1 circuit for all additional devices (table, projectors, cameras)
-
-**Floor connections:**
-
--   X Floor-box/poke-thru as required per furniture layout.
-
-**20A circuit quantity provisions:**
-
--   X Maximum of 2 circuits per room.
-
-**Standby power:**
-
--   O None
-
-**UPS power:**
-
--   O None
-
-### Mechanical
-
-**Diversified misc. mechanical loads (Watts):**
-
--   X 1,225
-
-**Heating setpoint:**
-
--   X 70°F (21°C)
-
-**Cooling setpoint:**
-
--   X 75°F (24°C)
-
-**Relative humidity:**
-
--   X No active humidity control. Expected range is 30-60%.
-
-**Air class:**
-
--   X 1
-
-**Zoning:**
-
--   X Dedicated
-
-**Operating hours:**
-
--   X scheduled
-
-**Redundancy:**
-
--   X None
-
-|Connection type   |Notes   |
-|---|---|
-|Single network – NTP clock   |(1) port. Visible by room occupants   |
-|Single conf. hallway display CHD   |(1) port. Outside of room   |
-|Triple corp   |(3) ports. AV router/hub; UC codec; IP communications/telephone   |
-|Floor poke-thru and floor box   |(3) to (8) ports. Locate in floor box/poke-thru(s)   |
