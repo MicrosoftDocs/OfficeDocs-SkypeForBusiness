@@ -204,18 +204,9 @@ Copy-Item $movefile $targetDevice
 
 By default, Microsoft Teams Rooms attempts to connect to the Windows Store to get the latest version of Microsoft Teams Rooms software. Therefore, Teams Rooms requires regular internet access. Before contacting Microsoft with support issues, be sure Microsoft Teams Rooms is loaded with the latest version of the app.
   
-Microsoft Teams Rooms connects to Windows Update to retrieve operating system and peripheral device firmware updates. Teams Room is configured to install them starting at 2:00AM local time.
+Microsoft Teams Rooms connects to Windows Update to retrieve operating system and peripheral device firmware updates. 
   
-If you must manage updates manually due to limitations in accessing Windows store, and are therefore unable to follow the normal procedure for [Microsoft Store for Business](https://businessstore.microsoft.com/store) to [Distribute offline apps](/microsoft-store/distribute-offline-apps), you can acquire the appropriate APPX file and dependencies from the [deployment kit](https://go.microsoft.com/fwlink/?linkid=851168) (from the instructions to [Configure a Microsoft Teams Rooms console](console.md)) that can be used with Configuration Manager. The deployment kit release lags behind the store release, so it might not always match the latest available build.
-  
-### To update using PowerShell
-
-1. Extract the package from the installation [MSI](https://go.microsoft.com/fwlink/?linkid=851168) to a share the device can access.
-2. Run the following script targeting the Microsoft Teams Rooms devices, changing \<share\> to the device share as appropriate:
-    
-    ```PowerShell
-    Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
-    ```
+If you must manage updates manually and are also unable to follow the normal procedure for [Microsoft Store for Business](https://businessstore.microsoft.com/store) to [Distribute offline apps](/microsoft-store/distribute-offline-apps), you can acquire MTR-Update packages to perform app updates on supported operating systems. The MTR-Update release may lag behind the store release, and might not always match the latest available build. Refer to the article [Manually Update a Microsoft Teams Rooms device](manual-update.md) for further details.
 
 ## Admin mode and device management
 <a name="AdminMode"> </a>
