@@ -295,6 +295,8 @@ The port range of the Media Processors is shown in the following table:
   > [!NOTE]
   > Microsoft recommends at least two ports per concurrent call on the SBC.
 
+  > [!NOTE]
+  > Enterprises using proxies to connect Teams Clients to the Internet **must allow** recursive DNS resolution for *.teams.microsoft.com DNS records **from the Teams Client** for the standard UDP 3478-3481 port range to be used in Direct Routing Scenario
 
 ## Media traffic: Media processors geography
 
