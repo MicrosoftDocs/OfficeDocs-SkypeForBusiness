@@ -23,7 +23,7 @@ ms.custom:
 description: Learn which desk and conference phones are certified for Microsoft Teams to produce the best results.
 ---
 
-# Microsoft Teams certified devices
+# Microsoft Teams certified devices - Android Based
 
 The Microsoft Teams devices Certification Program ensures certified devices meet a high standard, with higher performance targets and quality metrics across the entire Teams experience (audio, video, user interface). Microsoft and OEM partners are actively working together to ensure devices meet all certification requirements, including security, audio and video quality, Teams experience, and accessibility.
 
@@ -214,6 +214,10 @@ When you install a new firmware version on your device, you can determine the co
 | Poly Studio X30 | `3.8.0`          | 2021 Update #2    |
 | Poly Studio X50 | `3.8.0`          | 2021 Update #2    |
 | Poly TC8        | `3.8.0`          | 2021 Update #2    |
+| Logi Rallybar    | 1.3.538         | 2021 Update #2B    |
+| Logi Rallybar Mini | 1.3.538       | 2021 Update #2B    |
+| Logi Rallybar    | 1.4.228         | 2021 Update #2B    |
+| Logi Rallybar Mini | 1.4.228       | 2021 Update #2B    |
 | Poly Studio X30 | `3.7.0`          | 2021 Update #2A    |
 | Poly Studio X50 | `3.7.0`          | 2021 Update #2A    |
 | Poly TC8        | `3.7.0`          | 2021 Update #2A    |
