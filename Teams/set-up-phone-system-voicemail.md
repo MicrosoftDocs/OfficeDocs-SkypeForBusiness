@@ -87,7 +87,7 @@ The following information is about configuring Cloud Voicemail to work with Team
 2. To enable Voicemail features such as customizing greetings and visual voicemail in Teams clients, you must set up connectivity between Microsoft 365 and the Exchange Server mailbox. To enable this connectivity, you must configure the new Exchange Oauth authentication protocol described in [Configure OAuth authentication between Exchange and Exchange Online organizations](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help), or run the Exchange Hybrid Wizard from Exchange 2013 CU5 or greater. You must also configure integration and Oauth between Teams and Exchange Server described in [Configure Integration and OAuth between Teams and Exchange Server](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises).
 
 
-## Enabling protected voicemail in your organization
+## Enable protected voicemail in your organization
 
 When someone leaves a voicemail message for a user in your organization, the voicemail is delivered to the user's mailbox as an email message attachment. Using mail flow rules to apply message encryption, you can prevent those voicemail messages from being forwarded to other recipients. When you enable protected voicemail, users can listen to protected voicemail messages by calling into their voicemail mailbox or by opening the message in Outlook, Outlook on the web, or in Outlook for Android or iOS. Protected voicemail messages can't be opened in Skype for Business or Microsoft Teams.
 
