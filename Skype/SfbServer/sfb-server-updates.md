@@ -53,13 +53,14 @@ KB 4470124 is the master KB for Skype for Business Server 2019 which has all the
 
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
-|Skype for Business Server 2015 Cumulative Update 12|[KB 3061064](https://support.microsoft.com/kb/3061064)| August, 2021 |
-|Skype for Business Server 2015 Cumulative Update 11 Hotfix 2|[KB 3061064](https://support.microsoft.com/kb/3061064)| November, 2020 |
-|Skype for Business Server 2015 Cumulative Update 11 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| July, 2020 |
-|Skype for Business Server 2015 Cumulative Update 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| May 13, 2020 |
-|Skype for Business Server 2015 Cumulative Update 10 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| August 2019 |
-|Skype for Business Server 2015 Cumulative Update 10 |[KB 3061064](https://support.microsoft.com/kb/3061064)| July 2019 |
-|Cumulative update 9 for Skype for Business Server 2015, Web Components Server|[KB 4487981](https://support.microsoft.com/kb/4487981)| May 2019 |
+|Skype for Business Server 2015 Cumulative Update 12 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|February 2022 |
+|Skype for Business Server 2015 Cumulative Update 12|[KB 3061064](https://support.microsoft.com/kb/3061064)|August 2021 |
+|Skype for Business Server 2015 Cumulative Update 11 Hotfix 2|[KB 3061064](https://support.microsoft.com/kb/3061064)|November 2020 |
+|Skype for Business Server 2015 Cumulative Update 11 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|July 2020 |
+|Skype for Business Server 2015 Cumulative Update 11|[KB 3061064](https://support.microsoft.com/kb/3061064)|May 13, 2020 |
+|Skype for Business Server 2015 Cumulative Update 10 Hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)|August 2019 |
+|Skype for Business Server 2015 Cumulative Update 10 |[KB 3061064](https://support.microsoft.com/kb/3061064)|July 2019 |
+|Cumulative update 9 for Skype for Business Server 2015, Web Components Server|[KB 4487981](https://support.microsoft.com/kb/4487981)|May 2019 |
 |Cumulative update 8 for Skype for Business Server 2015, Front End Server and Edge Server|[KB 4464355](https://support.microsoft.com/kb/4464355)|January 2019|
 |Cumulative update 7 for Skype for Business Server 2015, Front End server and Edge server |[KB 4340904](https://support.microsoft.com/kb/4340904) |July 2018 |
 |Cumulative update 6 Hotfix 2 for Skype for Business Server 2015, Front End server and Edge server |[KB 4086059](https://support.microsoft.com/kb/4086059) |March 2018 |
