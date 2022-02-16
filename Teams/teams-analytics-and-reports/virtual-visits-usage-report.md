@@ -100,7 +100,7 @@ You'll see this tab if you have a license that includes the Teams EHR connector.
 |**5**   |You can export the report to a CSV file for offline analysis. Select **Export to Excel**, and then on the **Downloads** tab, choose **Download** to download the report when it's ready.|
 
 > [!NOTE]
-> We’re working on a new Teams app for Virtual Visits reporting. With this app, non-admin users such as business decision makers can view Virtual Visits reports directly from within Teams. If your organization would like to participate in private preview of the app, [reach out us](mailto:).
+> We’re working on a new Teams app that includes Virtual Visits reporting capabilities. With this app, non-admin users such as business decision makers can view Virtual Visits reports directly from within Teams. If your organization would like to participate in private preview of the app, [reach out us](mailto:).
 
 ## Related articles
 
