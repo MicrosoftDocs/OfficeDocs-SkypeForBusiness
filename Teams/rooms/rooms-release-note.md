@@ -20,6 +20,16 @@ ms.custom: seo-marvel-apr2020
 
 This article discusses cumulative improvements in Microsoft Teams Rooms.
 
+There are two types of updates for Teams Rooms: Teams Rooms app updates and Teams Web-client. 
+
+Teams Rooms app updates happen either via the Microsoft Store or via [manual update](manual-update.md). This updates the Universal Windows Platform (UWP) application that is installed locally on the device.
+
+Teams Web-client updates happen via the Teams web app delivery services. This is a cloud-based service that does not require an update to the local UWP application installed on the device.
+
+For more information on how Teams updates, see [Teams update process](../teams-client-update.md)
+
+Teams Rooms is governed by the Modern Lifecycle Policy. See [Teams update process](../teams-client-update.md#servicing-agreement) for more information.
+
 ## Version history
 
 |Release |Published to <br/> Microsoft Store |
@@ -85,13 +95,16 @@ Introduced in this update:
 - Cortana push-to-talk icon update on MTR console 
 - Azure AD Premium 1 license inclusion in Room Standard and Premium SKUs 
 - AAD conditional access policies support<sup>3</sup> 
-- Cortana voice activation enabled by default in OOBE 
+- Cortana voice activation enabled by default in OOBE
+- Remote PTZ controls support<sup>4</sup>
 
 > <sup>1</sup> These features are rolling out using Teams web client and will complete rollout in next couple of weeks. Read more about [Teams updates](../teams-client-update.md) for details.
 > 
 > <sup>2</sup> Teams rooms on Windows running in Microsoft Teams only or Skype for Business and Microsoft Teams (default) are updated with new Meet and Call experiences, however other modes are not impacted by this update.
 > 
 > <sup>3</sup> See addition details on setting up  [AAD conditional access](../rooms/rooms-authentication.md#azure-ad-conditional-access) policies for Teams Rooms.
+> 
+> <sup>4</sup> This feature requires that IT admins configure Teams desktop client Remote PTZ controls app.
 > 
 
 ### Teams Rooms Web client update (December 2021)
