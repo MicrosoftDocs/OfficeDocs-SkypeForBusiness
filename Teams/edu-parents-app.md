@@ -1,5 +1,5 @@
 ---
-title: Admin setup for the Microsoft EDU Parents app in Teams
+title: Admin setup of Parents in Teams for Education
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: 
-description: Microsoft Teams for EDU article documenting prerequisites and setup for the Parents app.
+description: Microsoft Teams article documenting prerequisites and setup of Parents in Teams for Education.
 ms.localizationpriority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 search.appverid: MET150
@@ -19,9 +19,9 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Deploying the Parents app in Microsoft Teams
+# Set up Parents in Microsoft Teams for Education
 
-The Parents app helps educators securely connect and engage with the parents and guardians of the students in their class teams using Teams chat, which will scale across the educator's organization. All parent and guardian data is provisioned using School Data Sync, allowing IT staff to smoothly set things up.
+Parents in Teams for Education helps educators securely connect and engage with the parents and guardians of the students in their class teams using Teams chat, which will scale across the educator's organization. All parent and guardian data is provisioned using School Data Sync, allowing IT staff to smoothly set things up.
 
 ## Requirements
 
@@ -56,7 +56,7 @@ The Parents app helps educators securely connect and engage with the parents and
     Connect-MicrosoftTeams -Credential $credential
     ```
 
-The policy setting which enables external access with Teams accounts not managed by an organization at the user level (`EnableTeamsConsumerAccess`) is enabled by default for all user-level external access policies. Both the tenant-level setting and the user-level policy setting need to be enabled for a user to have external access with Teams accounts not managed by an organization enabled. If you do not want every user in your tenant to have this access enabled, you should ensure that your tenant-level setting is disabled, update the user-level external access policies assigned to your users, and then enable the tenant-level setting.
+The policy setting which enables external access with Teams accounts not managed by an organization at the user level (`EnableTeamsConsumerAccess`) is enabled by default for all user-level external access policies. Both the tenant-level setting and the user-level policy setting need to be enabled for a user to have external access with Teams accounts not managed by an organization enabled. If you do not want every user in your tenant to have this access enabled, you should ensure that your tenant-level setting is turned off, update the user-level external access policies assigned to your users, and then enable the tenant-level setting.
 
 To check which user-level external access policies exist and who they are assigned to, you can use the following steps:
     
@@ -92,13 +92,13 @@ Once the user-level external access policies are set correctly for the users in 
 
 - Set the federation configuration settings for your tenant: [Set-CsTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration)
 
-## Enabling the Parents App
+## Enabling Parents in Teams for Education
 
-The Parents app is disabled by default, so class team owners will not see the app in their class teams until the app is allowed via the Teams admin center. The app can be allowed via the Teams admin center using [Allow apps blocked by publishers](manage-apps.md#apps-blocked-by-publishers).
+Parents is turned off by default, so class team owners will not see Parents in their class teams until it is allowed through the Teams admin center. Parents can be allowed via the Teams admin center using [Allow apps blocked by publishers](manage-apps.md#apps-blocked-by-publishers).
 
-At any time, the app can be disabled at the tenant level using [Allow and block apps](manage-apps.md#allow-and-block-apps) in the Teams admin center. If the app is disabled at the tenant level, it will be blocked for all users, even if user level permissions are enabled.
+At any time, the app can be turned off at the tenant level using [Allow and block apps](manage-apps.md#allow-and-block-apps) in the Teams admin center. If it is turned off at the tenant level, it will be blocked for all users, even if user-level permissions are enabled.
 
-The app can also be disabled at the user level using [Manage app permission policies in Microsoft Teams](teams-app-permission-policies.md).
+Parents can also be turned off at the user level using [Manage app permission policies in Microsoft Teams](teams-app-permission-policies.md).
 
 ## More information
 
