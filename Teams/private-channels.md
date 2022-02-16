@@ -81,7 +81,7 @@ The following table outlines what actions owners, members, and guests can do in 
 
 ## Manage the lifecycle of private channels
 
-See [Manage the lifecycle of private channels in Teams](private-channels-life-cycle-management.md) for guidance on how to manage the lifecycle of private channels in your organization. This includes how to control whether users in your organization can create private channels, how to create a private channel on behalf of a team owner, how to get a list of all private channel messages for archiving and auditing purposes, and other management tasks.  
+For information on the methods involved in the lifecycle management of private channels, and on their execution, see [Channel resource type](/graph/api/resources/channel). This includes how to control whether users in your organization can create private channels, how to create a private channel on behalf of a team owner, how to get a list of all private channel messages for archiving and auditing purposes, and other management tasks.  
 
 ## Private channel SharePoint sites
 
