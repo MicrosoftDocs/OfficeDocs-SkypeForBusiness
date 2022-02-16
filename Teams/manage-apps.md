@@ -151,8 +151,6 @@ Use org-wide app settings to control whether users get a tailored app experience
 
 1. On the Manage apps page, select **Org-wide app settings**. You can then configure the settings you want in the panel.
 
-    ![Screenshot of org-wide app settings.](media/manage-apps-org-wide-app-settings.png)
-
 1. (Coming soon) Under **Tailored apps**, turn off or turn on **Show tailored apps based on licenses**. When this setting is on, users get an experience in which apps are pinned based on their license. To learn more, see [Tailor your Teams apps based on license](pin-teams-apps-based-on-license.md).
 
     This feature is available for F licenses. Other license types will be supported in the future.
