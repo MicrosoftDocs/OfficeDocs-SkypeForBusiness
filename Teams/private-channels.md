@@ -128,6 +128,8 @@ Notifications from private channels are not included in missed activity emails a
 
 Channel meetings can't be scheduled.
 
+Out of the box, first party, site templates are not available (yet) for Private Channels. 
+
 ## Related topics
 
 [Overview of teams and channels in Teams](teams-channels-overview.md)
