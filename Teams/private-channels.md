@@ -79,10 +79,6 @@ The following table outlines what actions owners, members, and guests can do in 
 |Edit settings|No|N/A|N/A|Yes|No|No|
 |Manage tabs and apps|No|N/A|N/A|Yes, apps must be installed for the team|Channel owner controlled|No|
 
-## Manage the lifecycle of private channels
-
-For information on the methods involved in the lifecycle management of private channels, and on their execution, see [Channel resource type](/graph/api/resources/channel). This includes how to control whether users in your organization can create private channels, how to create a private channel on behalf of a team owner, how to get a list of all private channel messages for archiving and auditing purposes, and other management tasks.  
-
 ## Private channel SharePoint sites
 
 Each private channel has its own SharePoint site. The separate site is to ensure access to private channel files is restricted to only members of the private channel. These sites are created with a document library by default, and can be easily enhanced to a full-featured site through the [site management interface](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Each site is created in the same geographic region as the site for the parent team. These lightweight sites have a custom template ID, "TEAMCHANNEL#0", for easier management through PowerShell and Graph API. 
@@ -135,3 +131,5 @@ Channel meetings can't be scheduled.
 [Teams PowerShell overview](teams-powershell-overview.md)
 
 [Use the Microsoft Graph API to work with Teams](/graph/api/resources/teams-api-overview)
+
+[Channel resource type](/graph/api/resources/channel)
