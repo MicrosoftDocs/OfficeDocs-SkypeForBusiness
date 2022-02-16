@@ -50,7 +50,7 @@ The Common Area Phone license supports:
 &sup2; Not available in sovereign clouds  
 
 >[!NOTE]
-> Accounts for common area phones from the Skype for Business Server can't be migrated to Microsoft Teams. Follow the steps in this article to recreate those accounts for Teams, and, if required, migrate your PTSN connectivity.
+> Accounts for common area phones objects created in Skype for Business Server can't be migrated to Microsoft Teams. Follow the steps in this article to recreate those accounts for Teams, and, if required, migrate your PTSN connectivity.
 
 ## Step 1 - Buy the licenses
 
