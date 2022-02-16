@@ -29,11 +29,11 @@ The report contains the following tabs. The information you’ll see in the repo
 |Tab |Description  |
 |---------|---------|
 |**[Virtual Visits](#virtual-visits)**     |Shows the total number of Virtual Visits, with a breakdown of the number of visits scheduled using the Bookings app and Teams EHR-integrated meetings conducted from your EHR system.         |
-|**[Duration](#duration)**     |Shows the average duration of visits and average lobby wait time of attendees.         |
+|**[Duration](#duration)**     |Shows the average duration of visits and average lobby wait time of participants.         |
 |**[Bookings](#bookings)**     |Shows the number of visits scheduled through the Bookings app.         |
 |**[EHR](#ehr)**     |Shows the number of Teams EHR-integrated visits conducted from your EHR system.         |  
 
-Use this report to gain insight into Virtual Visits activity and trends in your organization. The information can help you evaluate, track, and improve Virtual Visits adoption and the attendee experience. For example, you can determine whether sending SMS notifications to participants before appointments reduces the number of no shows.
+Use this report to gain insight into Virtual Visits activity and trends in your organization. The information can help you evaluate, track, and improve Virtual Visits adoption and the attendee experience. For example, you can determine whether sending SMS notifications to attendees before appointments reduces the number of no shows.
 
 ## View the Virtual Visits usage report
 
