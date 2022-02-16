@@ -57,7 +57,7 @@ Your team can use apps in Teams to coordinate and collaborate with each other on
 
 ### Set up your teams, channels, and apps
 
-When you're ready to connect your retail associates in Teams, You can set up teams and channels for your store teams and managers with pre-built or custom templates. The easiest way is to start with a template. The **Organize a store** and **Retail for managers** [templates](/microsoftteams/get-started-with-retail-teams-templates) are pre-made templates that include channels and apps designed for retail. You can also create a template based off of an existing team. Even when you start with a template, you can customize the team and channels, and add more apps to suit your team's needs.
+When you're ready to connect your retail associates in Teams, you can set up teams and channels for your store teams and managers with pre-built or custom templates. The easiest way is to start with a template. The **Organize a store** and **Retail for managers** [templates](/microsoftteams/get-started-with-retail-teams-templates) are pre-made templates that include channels and apps designed for retail. You can also create a template based off of an existing team. Even when you start with a template, you can customize the team and channels, and add more apps to suit your team's needs.
 
 - Use channels with tabs to share news, keep employees in touch across shifts, and build community.
 - Use teams templates to set up teams with similar structures (such as channels and tabs) across stores or regions.
