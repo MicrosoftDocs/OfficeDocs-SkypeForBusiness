@@ -93,7 +93,7 @@ Voice profile data is stored in Office 365 cloud with user content.
 
 **What is the retention timeline and policy?**
 
-General retention policy is stated in the [Data retention overview](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview). In addition, a user's voice profile data will be deleted after 3 years  if the user isn't invited to any meetings with an Intelligent Speaker within that 3-year period. Data isn't used in any meetings for existing employees. If an employee has left the company, voice profile data is considered user content and is treated as such per Office 365 data retention policy described in the [Data retention overview](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
+General retention policy is stated in the [Data retention overview](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview). In addition, a user's voice profile data will be deleted after 1 year if the user isn't invited to any meetings with an Intelligent Speaker within that 1-year period. Data isn't used in any meetings for existing employees. If an employee has left the company, voice profile data is considered user content and is treated as such per Office 365 data retention policy described in the [Data retention overview](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
 
 **Is voice profile data used across Microsoft services?**
 
