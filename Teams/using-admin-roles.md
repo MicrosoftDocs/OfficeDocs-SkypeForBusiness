@@ -69,7 +69,7 @@ To view the full list of cmdlets:
 Get-Command -Module MicrosoftTeams
  ```
 
-### Related articles
+### Related topics
 
 - [Microsoft Teams PowerShell Overview](teams-powershell-overview.md)
 - [Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps)
