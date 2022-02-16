@@ -84,6 +84,9 @@ The following are the required policies to set an Intelligent Speaker and user r
 In the Teams admin center, set the **Transcription** policy. Settings are **Off** by default.
 
 ![the admin center with meeting policies highlighted and Allow transcription selected.](../media/allow-transcription1.png)
+  
+>[!NOTE]
+> After a policy is assigned, they can take up to 48 hours to take effect. To get the policy to take effect sooner, accounts must be signed out and signed back in.
 
 ## Frequently asked questions (FAQ)
 
