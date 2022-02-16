@@ -1560,8 +1560,6 @@ items:
       items: 
         - name: Virtual Visits
           items: 
-            - name: Get started with Virtual Visits in Teams
-              href: expand-teams-across-your-org/virtual-visits.md
             - name: Virtual Visits with Teams and Bookings
               href: expand-teams-across-your-org/bookings-virtual-visits.md
             - name: Manage the Bookings app
