@@ -174,9 +174,7 @@ sudo zypper install teams
 
 ## Mobile clients
 
-The Teams mobile apps are available for Android and iOS, and are geared for on-the-go users participating in chat-based conversations and allow peer-to-peer audio calls. For mobile apps, go to the relevant mobile stores Google Play and the Apple App Store. The Windows Phone App was retired July 20, 2018 and may no longer work.
-
-In China, here's how to [get Teams for Android](get-teams-android-in-china.md).
+The Teams mobile apps are available for Android and iOS, and are geared for on-the-go users participating in chat-based conversations and allow peer-to-peer audio calls. For mobile apps, go to the relevant mobile stores Google Play and the Apple App Store.
 
 Supported mobile platforms for Teams mobile apps are the following:
 
@@ -188,6 +186,13 @@ Supported mobile platforms for Teams mobile apps are the following:
 > The mobile version must be available to the public in order for Teams to work as expected.
 
 Mobile apps are distributed and updated through the respective mobile platform’s app store only. Distribution of the mobile apps via MDM or side-loading is not supported by Microsoft. Once the mobile app has been installed on a supported mobile platform, the Teams Mobile App itself will be supported provided the version is within three months of the current release.
+
+If you're in China, you can install Teams from the following app stores:
+
+- **Xiaomi** <https://aka.ms/TeamsXiaomi>
+- **Huawei** <https://aka.ms/TeamsHuawei>
+- **Oppo** Search for "Teams" in the Oppo store
+- **Baidu** <https://aka.ms/teams_baidu_direct_dl>
 
 ## Browser client
 
