@@ -85,7 +85,7 @@ In the Teams admin center, set the **Transcription** policy. Settings are **Off*
 
 ![the admin center with meeting policies highlighted and Allow transcription selected.](../media/allow-transcription1.png)
   
->[!NOTE]
+> [!NOTE]
 > After a policy is assigned, they can take up to 48 hours to take effect. To get the policy to take effect sooner, accounts must be signed out and signed back in.
 
 ## Frequently asked questions (FAQ)
