@@ -108,15 +108,14 @@ You can update the app on the Manage apps page in the Microsoft Teams admin cent
 
 In most cases, after you complete an app update the new version automatically appears for end users. However, there are some updates to the <a href="/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">Microsoft Teams manifest</a> that require user acceptance to complete:
 
-* A bot was added or removed
+* A bot was added
 * An existing bot's "botId" property changed
 * An existing bot's "isNotificationOnly" property changed
-* The bot's "supportsFiles" property changed
-* A Messaging extension was added or removed
-* A new connector was added
-* A new static tab was added
-* A new configurable tab was added
-* Properties inside "webApplicationInfo" changed
+* An existing bot's "SupportsCalling" property changed
+* An existing bot's "SupportsVideo" property changed
+* An existing bot's "SupportsFiles" property changed
+* A Messaging extension was added
+* Id and AppicationPermissionsHash inside "webApplicationInfo" changed
 
 ![Screenshot of apps list, showing apps that have a new version available.](media/manage-your-custom-apps-update1.png)
 
