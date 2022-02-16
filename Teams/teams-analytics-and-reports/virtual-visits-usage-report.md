@@ -40,6 +40,9 @@ Use this report to gain insight into Virtual Visits activity and trends in your 
 1. In the left navigation of the Microsoft Teams admin center, choose **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select **Virtual Visits usage**.
 2. Under **Date range**, select a date range of 7 days, 30 days, or 90 days. Then, choose **Run report**.
 
+> [!NOTE]
+> By using these reports, you give Microsoft permission to collect data about Virtual Visits in your organization. For information about our data retention policies, see [Data retention, deletion, and destruction in Microsoft 365](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
+
 ## Interpret the report
 
 ### Virtual Visits
