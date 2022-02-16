@@ -464,7 +464,7 @@ items:
               href: teams-analytics-and-reports/teams-live-event-usage-report.md
             - name: Teams information protection license report
               href: teams-analytics-and-reports/information-protection-license-report.md
-            - name: Teams virtual visits usage report
+            - name: Teams Virtual Visits usage report
               href: teams-analytics-and-reports/virtual-visits-usage-report.md
               
     - name: Log files, service health, and support
