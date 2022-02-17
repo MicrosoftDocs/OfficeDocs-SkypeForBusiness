@@ -27,7 +27,7 @@ For the latest Skype for Business Online and Microsoft 365 updates, see the [Mic
 
 |Package name|KB number|Release date|
 |:--- |:--- |:--- |
-|Skype for Business Server 2019 Cumulative Update 6 |[KB 4470124 (MACP3)](https://support.microsoft.com/kb/4470124)| December 2021 |
+|Skype for Business Server 2019 Cumulative Update 6 |[KB 4470124](https://support.microsoft.com/kb/4470124)| December 2021 |
 |Skype for Business Server 2019 Cumulative Update 5 |[KB 4470124 (MACP3)](https://support.microsoft.com/kb/4470124)| March 2021 |
 |Skype for Business Server 2019 Cumulative Update 4 Hotfix 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| November 2020 |
 |Skype for Business Server 2019 Cumulative Update 4 |[KB 4470124](https://support.microsoft.com/kb/4470124)| September 2020 |
@@ -124,7 +124,7 @@ For the latest Skype for Business Online and Microsoft 365 updates, see the [Mic
 |Lync Server 2013 Cumulative Update 1 |[KB 2781550](https://support.microsoft.com/kb/2781550)|February 2013 |
 ||||
 
-### Lync Server 2013 Dev tools
+### <a id="lync-2013-dev-tools"></a>Lync Server 2013 Dev tools
 
 |Package name|Release date|
 |:--- |:--- |
@@ -147,7 +147,7 @@ Package name |Release date|
 |[Test Drive - Lync Server 2013 - Part 2 of 3](https://www.microsoft.com/download/details.aspx?id=40267) |September 2013 |
 |[Test Drive - Lync Server 2013 - Part 3 of 3](https://www.microsoft.com/download/details.aspx?id=40265) |September 2013 |
 
-### Lync Server 2013 tools
+### <a id="lync-2013-tools"></a>Lync Server 2013 tools
 
 |Package name |Release date|
 |:--- |:--- |
@@ -167,7 +167,7 @@ Package name |Release date|
 |[Lync VDI 2013 plugin (64-bit)](https://www.microsoft.com/download/details.aspx?id=35454) |October 2012 |
 |[New Office Visio Stencil](https://www.microsoft.com/download/details.aspx?id=35772) |July 2016 |
 
-### Lync Server 2013 downloadable documentation
+### <a id="lync-2013-downloadable-documentation"></a>Lync Server 2013 downloadable documentation
 
 Package name |Release date|
 |:--- |:--- |
@@ -209,7 +209,7 @@ Package name |Release date|
 |Cumulative update for Lync Server 2010, Group Chat Administration Tool |[KB 2884631](https://support.microsoft.com/kb/2884631) |October 2013|
 |Cumulative update for Lync 2010, Group Chat |[KB 2884627](https://support.microsoft.com/kb/2884627) |October 2013|
 
-### Lync Server 2010 developer tools
+### <a id="lync-2010-dev-tools"></a>Lync Server 2010 developer tools
 
 |Package name |Release date|
 |:--- |:--- |
@@ -220,7 +220,7 @@ Package name |Release date|
 | Speech Platform - Server Runtime Languages (version 10.2) |September 2010 |
 | Unified Communications Enhanced Presence Schemas for Microsoft Lync Server 2010 |November 2010 |
 
-### Lync Server 2010 tools
+### <a id="lync-2010-tools"></a>Lync Server 2010 tools
 
 |Package name |Release date|
 |:--- |:--- |
@@ -233,7 +233,7 @@ Package name |Release date|
 |[Lync Server 2010 Visio Stencil](https://www.microsoft.com/downloads/details.aspx?FamilyID=65B5A396-2C87-445D-BE23-D324727D19CB)|February 2011 |
 | Lync Server 2010 Web Scheduler |April 2011 |
 
-### Lync Server 2010 downloadable documentation
+### <a id="lync-2010-downloadable-documentation"></a>Lync Server 2010 downloadable documentation
 
 Package name |Release date|
 |:--- |:--- |
