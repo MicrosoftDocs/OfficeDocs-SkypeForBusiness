@@ -1,8 +1,8 @@
 ---
 title: "Define the IP Address of the IP or PSTN Gateway"
 ms.reviewer: 
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article

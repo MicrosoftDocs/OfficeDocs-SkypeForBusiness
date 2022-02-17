@@ -1,8 +1,8 @@
 ---
 title: "SIP Video Trunk Setting Expander"
 ms.reviewer: 
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro

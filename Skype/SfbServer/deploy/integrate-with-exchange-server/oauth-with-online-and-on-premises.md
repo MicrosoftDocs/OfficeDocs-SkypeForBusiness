@@ -1,8 +1,8 @@
 ---
 title: "Integration between Skype for Business Online and Exchange server"
 ms.reviewer: cbland
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/2/2019
 audience: ITPro

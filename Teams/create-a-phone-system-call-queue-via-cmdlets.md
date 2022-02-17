@@ -29,7 +29,7 @@ description: Learn how to configure call queues via cmdlets
 
 ## Assumptions
 1)	PowerShell is installed on your computer
-- Set up your computer for [Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+- Set up your computer for [Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 - MSTeams Module Installed
 ````  (Install-Module -Name MicrosoftTeams -Force -AllowClobber) ````
 - MSOnline module installed
@@ -157,6 +157,8 @@ Note: Phone number not required here as call queue is front ended by an Auto Att
 - - Auto Attendant: ce933385-9390-45d1-9512-c8d228074e07
 - - Call Queue: 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
+Note: The license type shown below (PHONESYSTEM_VIRTUALUSER) must be one that is listed by the Get-MsolAccountSku cmdlet above.
+
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName Sales-RA@contoso.com -DisplayName "Sales" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
 
@@ -211,6 +213,9 @@ Note: Phone number not required here as call queue is front-ended by an Auto Att
 - ApplicationID
 - - Auto Attendant: ce933385-9390-45d1-9512-c8d228074e07
 - - Call Queue: 11cd3e2e-fccb-42ad-ad00-878b93575e07
+
+Note: The license type shown below (PHONESYSTEM_VIRTUALUSER) must be one that is listed by the Get-MsolAccountSku cmdlet above.
+
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName Support-RA@contoso.com -DisplayName "Support" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
 
@@ -237,7 +242,7 @@ Get-TeamChannel -GroupId $teamFacilitiesGroupID
 $teamFacilitiesHelpDeskChannelID = "{assign ID from output of above command}"
 ````
 
-### Get Facilities Help Desk channel ower user ID
+### Get Facilities Help Desk channel owner user ID
 ````
 $teamFacilitiesHelpDeskChannelUserID = (Get-TeamChannelUser -GroupId $teamFacilitiesGroupID -DisplayName "Help Desk" -Role Owner).UserId
 ````
@@ -267,8 +272,11 @@ Note: Phone number not required here as call queue is front-ended by an Auto Att
 - ApplicationID
 - - Auto Attendant: ce933385-9390-45d1-9512-c8d228074e07
 - - Call Queue: 11cd3e2e-fccb-42ad-ad00-878b93575e07
+
+Note: The license type shown below (PHONESYSTEM_VIRTUALUSER) must be one that is listed by the Get-MsolAccountSku cmdlet above.
+
 ````
-New-CsOnlineApplicationInstance -UserPrincipalName Support-RA@contoso.com -DisplayName "Facilities" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
+New-CsOnlineApplicationInstance -UserPrincipalName Facilities-RA@contoso.com -DisplayName "Facilities" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
 
 Set-MsolUser -UserPrincipalName "Facilities-RA@contoso.com" -UsageLocation US
 

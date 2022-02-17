@@ -2,7 +2,7 @@
 title: Manage the Shifts app for your organization
 author: LanaChin
 ms.author: v-lanachin
-ms.reviewer: lisawu,gumariam
+ms.reviewer: aaku
 manager: samanro
 ms.topic: article
 audience: admin
@@ -11,6 +11,7 @@ search.appverid: MET150
 searchScope:
   - Microsoft Teams
   - Microsoft Cloud for Healthcare
+  - Microsoft Cloud for Retail
 description: Learn how to set up and manage the Shifts app in Teams for frontline workers in your organization.
 f1.keywords:
 - NOCSH
@@ -19,15 +20,13 @@ ms.collection:
   - M365-collaboration
   - Teams_ITAdmin_FLW
   - microsoftcloud-healthcare
+  - microsoftcloud-retail
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 ---
 
 # Manage the Shifts app for your organization in Microsoft Teams
-
-> [!IMPORTANT]
-> Effective June 30, 2020, Microsoft StaffHub has been retired. We're building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time. StaffHub stopped working for all users on June 30, 2020. Anyone who tries to open StaffHub is shown a message directing them to download Teams. To learn more, see [Microsoft StaffHub has been retired](microsoft-staffhub-to-be-retired.md).  
 
 ## Overview of Shifts
 
@@ -84,3 +83,4 @@ Before you can search the audit log, you have to first turn on auditing in the [
 
 - [Shifts Help for frontline workers](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [Assign policies to your users in Teams](../../policy-assignment-overview.md)
+- [Shifts connectors](shifts-connectors.md)

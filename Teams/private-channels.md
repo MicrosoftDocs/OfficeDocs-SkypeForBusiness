@@ -52,7 +52,7 @@ Team members can only see private channels that they've been added to.
 
 A private channel owner can't be removed through the Teams client if they are the last owner of one or more private channels.
 
-If a private channel owner leaves your organization or if they are removed from the Microsoft 365 Group associated with the team, a member of the private channel is automatically promoted to be the private channel owner.
+If a private channel owner leaves your organization or if they are removed from the Microsoft 365 group associated with the team, a member of the private channel is automatically promoted to be the private channel owner.
 
 If a team member leaves or is removed from a team, that user will also leave or be removed from all private channels in the team. If the user is added back to the team, they must be added back to the private channels in the team.
 
@@ -79,10 +79,6 @@ The following table outlines what actions owners, members, and guests can do in 
 |Edit settings|No|N/A|N/A|Yes|No|No|
 |Manage tabs and apps|No|N/A|N/A|Yes, apps must be installed for the team|Channel owner controlled|No|
 
-## Manage the lifecycle of private channels
-
-See [Manage the lifecycle of private channels in Teams](private-channels-life-cycle-management.md) for guidance on how to manage the lifecycle of private channels in your organization. This includes how to control whether users in your organization can create private channels, how to create a private channel on behalf of a team owner, how to get a list of all private channel messages for archiving and auditing purposes, and other management tasks.  
-
 ## Private channel SharePoint sites
 
 Each private channel has its own SharePoint site. The separate site is to ensure access to private channel files is restricted to only members of the private channel. These sites are created with a document library by default, and can be easily enhanced to a full-featured site through the [site management interface](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Each site is created in the same geographic region as the site for the parent team. These lightweight sites have a custom template ID, "TEAMCHANNEL#0", for easier management through PowerShell and Graph API. 
@@ -93,7 +89,7 @@ Each private channel has its own SharePoint site. The separate site is to ensure
 
 A private channel site syncs data classification and inherits guest access permissions from the site of the parent team. Membership to the site owner and member groups are kept in sync with the membership of the private channel within Teams. Site permissions for a private channel site can't be managed independently through SharePoint. 
 
-Teams manages the lifecycle of the private channel site. If the site is deleted outside of Teams, a background job restores the site within four hours as long as the private channel is still active. If the site is permanently deleted, a new site is provisioned for the private channel.
+Teams manages the lifecycle of the private channel site. If the site is deleted outside of Teams, a background job restores the site within four hours as long as the private channel is still active.
 
 If a private channel or a team containing a private channel is restored, the sites are restored with it. If a private channel site is restored and it's beyond the 30-day soft delete window for the private channel, the site operates as a standalone site.
 
@@ -135,3 +131,5 @@ Channel meetings can't be scheduled.
 [Teams PowerShell overview](teams-powershell-overview.md)
 
 [Use the Microsoft Graph API to work with Teams](/graph/api/resources/teams-api-overview)
+
+[Channel resource type](/graph/api/resources/channel)

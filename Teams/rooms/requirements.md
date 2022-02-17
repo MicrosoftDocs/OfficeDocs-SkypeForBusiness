@@ -91,6 +91,7 @@ All current Microsoft Teams Room devices and bundles are available in the [Room 
   |Yealink MVC660|Core i5|8 GB | 128 GB|
   |Yealink MVC640|Core i5|8 GB | 128 GB|
   |Yealink MVC320|Core i5|8 GB | 128 GB|
+  |Yealink MVC340|Core i5|8 GB | 128 GB|
   
   
 > [!NOTE]
@@ -133,6 +134,9 @@ These devices are available at the [Room System Accessories product showcase](ht
 |[Huddly IQ](https://www.huddly.com/conference-cameras/iq/) |1.3.22|
 |[Huddly IQ Lite](https://www.huddly.com/conference-cameras/iq/) |1.3.29|
 |[Huddly IQ Camera](https://www.huddly.com/conference-cameras/iq/) |1.3.27|
+|Huddly L1 Camera with [Crestron UC-C100-T MTR](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) kit | Huddly L1 Camera: 1.2.1 </br> Crestron UC-C100-T with ASUS Tek Computer INC 9934 compute 1.0.20.246 or above |
+|Huddly L1 Camera with Crestron UC-M70-T MTR kit | Huddly L1 Camera: 1.2.1 </br> Crestron UC-M70-T with ASUS Tek Computer INC 9934 compute 1.0.20.246 or above |
+|Huddly L1 Camera with Crestron UC-MX70-T MTR kit | Huddly L1 Camera: 1.2.1 </br> Crestron UC-MX70-T with ASUS Tek Computer INC 9934 compute 1.0.20.246 or above |
 |[Jabra Panacast3 Camera](https://www.jabra.com/business/video-conferencing/jabra-panacast)|1.3.9.12|
 |[Jabra Panacast 50 Video Bar](https://www.jabra.com/business/video-conferencing/jabra-panacast-50)|1.13.7| &#x2714; |
 |[Lenovo ThinkSmart Cam Camera](https://www.lenovo.com/us/en/accessories-and-monitors/webcams-and-video/webcams/SMARTOF-BO-ThinkSmart-Cam/p/4Y71C41660)|1.0.111.4|
@@ -175,6 +179,7 @@ These devices are available at the [Room System Accessories product showcase](ht
 |[Yamaha YVC-1000MS](https://uc.yamaha.com/products/conference-phones/usb-bluetooth/) |1.0.0 |
 |[Yealink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
 |[Yealink UVC30](https://www.yealink.com/product/microsoft-teams-room-system-uvc30)| 105.420.0.11 |  &#x2714; |
+|[Yealink UVC34 All-in-one video bar](https://www.yealink.com/product/usb-videobar-uvc34) | 265.410.0.9 |
 |[Yealink UVC40 All-in-one Video bar](https://www.yealink.com/product/usb-videobar-uvc40) |128.410.0.10|  
 |[Yealink UVC84](https://www.yealink.com/product/camera-uvc84) |262.410.0.10|
 |[Yealink UVC86]( https://www.yealink.com/product/camera-uvc86) |151.410.0.5|
@@ -184,7 +189,7 @@ These devices are available at the [Room System Accessories product showcase](ht
 |[Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300) + </br></br> [Shure MXA 910 with Intellimix Ceiling Array Mic](https://www.shure.com/products/microphones/mxa910) +</br></br> [MXN5W-C Ceiling speaker](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> MXA910 Ceiling Array mic: 4.1.41 </br> MXN5W-C Speaker: 1.0.4 |
 |[Shure MXA 710 2ft Table Linear Array Microphone](https://www.shure.com/products/microphones/mxa710) + </br></br> [Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300) +</br></br> [MXN5-C Ceiling Speaker](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 2ft Table Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> MXN5-C Speaker: 1.1.1 |
 |[Shure MXA 710 4ft Wall Linear Array Microphone](https://www.shure.com/products/microphones/mxa710) + </br></br> [Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300) +</br></br> [MXN5-C Ceiling Speaker](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4ft Wall Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> MXN5-C Speaker: 1.1.1 |
-|[Shure MXA 910 with Intellimix Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br> [Crestron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Shure Intellimix Room Software: 3.0.4.14 </br> Shure MXA 910 with Intellimix Ceiling Array Microphone: 4.4.11 </br> Shure MXN5-C Speakers: 1.2.1 </br> Crestron UC-C100-T: windows IOT 19h2/20h2 OS version with 4.8.31.0 MTR app version </br> BIOS: ASUS Tek Computer INC 9934 8/27/2020 </br> CPU: i5-9500TCPU/i7-9700T </br> Physical Memory: 8 GB RAM | 
+|[Shure MXA 910 with Intellimix Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br> [Crestron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Shure Intellimix Room Software: 3.0.4.14 </br> Shure MXA 910 with Intellimix Ceiling Array Microphone: 4.4.11 </br> Shure MXN5-C Speakers: 1.2.1 </br> Crestron UC-C100-T with ASUS Tek Computer INC 9934 compute | 
 |[Biamp Tesira Fore AVB VT4 Fixed audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect Ceiling 2 Microphone](https://sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |
 |[Biamp Tesira FORTÉ AVB VT4 Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Biamp Parlé TCM-XA Ceiling Microphone](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br> [Biamp Desono C-IC6 ceiling mounted loudspeaker](https://www.biamp.com/products/tesira-speakers)| Audio FW version: 3.15|
 |[Biamp TesiraFORTE AVB VT4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Parle TTM-X(Table Mic)](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br>[Ex-UBT]() |Audio FW version: 3.15|
