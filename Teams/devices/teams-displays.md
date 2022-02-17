@@ -57,6 +57,9 @@ To get started, you'll need to acquire Microsoft Teams Rooms Standard licenses a
 
 After you create resource accounts, you can create and assign a policy to enable hot desking. See [New-CsTeamsIPPhonePolicy](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps) to learn more.
 
+> [!IMPORTANT]
+> Because Teams displays with hot desking are shared devices used in common spaces by multiple users, Conditional Access rules and other identity configurations in your environment, like Multi-Factor Authentication, can impact these devices and cause sign-in issues. See [Authentication best practices for Teams shared device management on Android devices](authentication-best-practices-for-android-devices.md) for more information.
+
 ## Upgrade Teams phones to Teams displays
 
 Teams displays is the evolution of Teams phones. You can upgrade Teams phones in your organization to Teams displays using the Microsoft Teams admin center. This option is available only to phones that support upgrading to Teams displays. To learn more, see [Upgrade Teams phones to Teams displays](upgrade-phones-to-displays.md).
