@@ -1,5 +1,5 @@
 ---
-title: Admin setup of the Parents app in Teams for Education
+title: Admin setup of Parents in Teams for Education
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: 
-description: Microsoft Teams article documenting prerequisites and setup of the Parents app in Teams for Education.
+description: Microsoft Teams article documenting prerequisites and setup of Parents in Teams for Education.
 ms.localizationpriority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 search.appverid: MET150
@@ -19,9 +19,11 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Set up the Parents app in Microsoft Teams for Education
+# Set up Parents in Microsoft Teams for Education
 
 The Parents feature in Teams for Education helps educators securely connect and engage with the parents and guardians of the students in their class teams using Teams chat, which will scale across the educator's organization. All parent and guardian data is provisioned using School Data Sync, allowing IT staff to smoothly set things up.
+
+Once parents and guardians are set up, they can chat with their student's educators using Teams chat. For guidance on getting parents and guardians connected to educators, see [Connect with educators in Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
 
 ## Requirements
 
@@ -94,7 +96,7 @@ Once the user-level external access policies are set correctly for the users in 
 
 ## Enabling the Parents app in Teams for Education
 
-The Parents app is turned off by default, so class team owners will not see the app in their class teams until it is allowed through the Teams admin center. The Parents app can be allowed via the Teams admin center using [Allow apps blocked by publishers](manage-apps.md#apps-blocked-by-publishers).
+The Parents app is turned off by default, so class team owners will not see it in their class teams until it is allowed through the Teams admin center. The Parents app can be allowed via the Teams admin center using [Allow apps blocked by publishers](manage-apps.md#apps-blocked-by-publishers).
 
 At any time, the app can be turned off at the tenant level using [Allow and block apps](manage-apps.md#allow-and-block-apps) in the Teams admin center. If it is turned off at the tenant level, it will be blocked for all users, even if user-level permissions are enabled.
 
