@@ -124,7 +124,7 @@ For the latest Skype for Business Online and Microsoft 365 updates, see the [Mic
 |Lync Server 2013 Cumulative Update 1 |[KB 2781550](https://support.microsoft.com/kb/2781550)|February 2013 |
 ||||
 
-### <a id="lync-2013-dev-tools"></a>Lync Server 2013 Dev tools
+### </a>Lync Server 2013 Dev tools
 
 |Package name|Release date|
 |:--- |:--- |
