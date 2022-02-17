@@ -27,7 +27,7 @@ appliesto:
 
 Microsoft provides 32-bit, 64-bit, and ARM64 MSI files that you can use to bulk deploy Microsoft Teams to select users and computers. MSI files can be used with [Microsoft Endpoint Configuration Manager](/configmgr/core/understand/introduction), [Group Policy](/troubleshoot/windows-server/group-policy/use-group-policy-to-install-software), or third-party distribution software, to deploy Teams to your organization. Bulk deployments are useful because users don't need to download and install the Teams client manually. Rather, Teams will be deployed to computers and then auto-launch the first time users sign into a computer.
 
-We recommend that you deploy the package to computers rather than a specific users. By targeting computers, all new users of those computers will benefit from this deployment.
+We recommend that you deploy the package to computers rather than a specific user. By targeting computers, all new users of those computers will benefit from this deployment.
 
 >[!NOTE]
 > Teams can also be distributed to your organization as part of Microsoft 365 Apps for enterprise. For more information, see [Deploy Microsoft Teams with Microsoft 365 Apps for enterprise](/deployoffice/teams-install).
@@ -54,7 +54,7 @@ If you have 64-bit computers, we recommend installing the 64-bit Teams MSI even 
 
 The Teams MSI places an installer in `%SystemDrive%\Program Files\Teams Installer` on 32-bit Windows and `%SystemDrive%\Program Files (x86)\Teams Installer` on 64-bit Windows. Whenever a user signs into a new Windows user profile, the installer is launched and a copy of the Teams app is installed in that user's `%LocalAppData%\Microsoft\Teams` folder. If a user already has the Teams app installed in the `%LocalAppData%\Microsoft\Teams` folder, the MSI installer skips the process for that user.
 
-MSI files can't be used to deploy updates. The Teams client will auto update when it detects a new version is available from the service. To re-deploy the latest installer, use the process of redeploying MSI described below. If you deploy an older version of the MSI file, the client will auto-update (except in VDI environments) when possible for the user. If a very old version gets deployed, the MSI will trigger an app update before the user is able to use Teams.
+MSI files can't be used to deploy updates. The Teams client will auto-update when it detects a new version is available from the service. To re-deploy the latest installer, use the process of redeploying MSI described below. If you deploy an older version of the MSI file, the client will auto-update (except in VDI environments) when possible for the user. If a very old version gets deployed, the MSI will trigger an app update before the user is able to use Teams.
 
 > [!IMPORTANT]
 > We don't recommended that you change the default install locations as this could break the update flow. Having too old a version will eventually block users from

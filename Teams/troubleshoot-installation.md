@@ -126,7 +126,7 @@ Troubleshooting tips:
 
 #### File permissions
 
-Teams creates a number of subfolders and files in the user's profile throughout the installation and update process. Because the app and the updater runs as a non-elevated user, read and write permissions must be granted on the following folders:
+Teams creates a number of subfolders and files in the user's profile throughout the installation and update process. Because the app and the updater run as a non-elevated user, read and write permissions must be granted on the following folders:
 
 |Folder  |Used by  |
 |---------|---------|
