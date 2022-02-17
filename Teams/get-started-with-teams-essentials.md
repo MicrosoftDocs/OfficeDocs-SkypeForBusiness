@@ -96,14 +96,6 @@ The following table lists the major Microsoft Teams features available across pl
 
 ## Administration limits and specifications for Microsoft Teams Essentials
 
-Here are a few important Teams Essentials limits and specifications to consider as an admin:
-
-  - **Administration:** A Teams Essentials subscription **does not** come with access to the Teams Admin Center. Teams Essentials users can enjoy a simplified view of the Microsoft 365 admin center to conduct important tasks like, managing subscriptions and configuring new users.
-
-  - **Microsoft Teams PowerShell:** You **cannot** manage Teams Essentials directly using PowerShell command line as there is no PowerShell support.
-
-  - **Storage**: Teams Essentials uses OneDrive's personal cloud storage for file storage.
-
 Go here:  [Microsoft Teams limits and specifications](/microsoftteams/limits-specifications-teams) to learn more about the limits, specifications, and other requirements that apply to Teams.
 
 ## Get Microsoft Teams Essentials
