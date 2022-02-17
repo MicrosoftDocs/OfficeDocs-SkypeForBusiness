@@ -1,5 +1,5 @@
 ---
-title: Set up Microsoft 365 Teams Phone with Calling Plan with phone numbers
+title: Set up Microsoft Teams Phone System with Calling Plan phone numbers
 author: dstrome 
 ms.author: dstrome
 manager: serdars
@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: Learn how to set up Microsoft 365 Teams Phone with Calling Plan phone numbers for users and services in your organization.
+description: Learn how to set up Microsoft Teams Phone with Calling Plan phone numbers for users and services in your organization.
 appliesto: 
 - Microsoft Teams
 ---
 
-# Step 2: Set up Teams Phone phone numbers
+# Step 2: Set up Teams Phone System phone numbers
 
 Before you can set up users or auto attendants in your organization, you need to get phone numbers for them. There are several different types of phone numbers, however the following are the two types of numbers that you need to add in this step:
 

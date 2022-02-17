@@ -1,5 +1,5 @@
 ---
-title: Set up Microsoft 365 Teams Phone with Calling Plan emergency locations
+title: Set up Microsoft Teams Phone System with Calling Plan emergency locations
 author: dstrome 
 ms.author: dstrome
 manager: serdars
@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: Learn how to set up emergency locations for Microsoft 365 Teams Phone with Calling Plan.
+description: Learn how to set up emergency locations for Microsoft Teams Phone System with Calling Plan.
 appliesto: 
 - Microsoft Teams
 ---
 
-# Step 1: Set up a Teams Phone emergency location
+# Step 1: Set up a Teams Phone System emergency location
 
 An emergency location is used when someone in your organization calls emergency services such as fire, police, or ambulance. When a person calls an emergency service, the address that's configured as your organization's emergency address is sent to the service. This step sets up the primary emergency location for your organization. This location will be associated with your company's main phone number in a later step.
 
