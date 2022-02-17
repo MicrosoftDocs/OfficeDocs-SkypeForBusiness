@@ -43,7 +43,7 @@ Use this report to gain insight into Virtual Visits activity and trends in your 
 > [!NOTE]
 > By default, Virtual Visits analytics is on and the report is available. By using this report, you give Microsoft permission to collect data about Virtual Visits in your organization. For information about our data retention policies, see [Data retention, deletion, and destruction in Microsoft 365](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
 >
->If you want to turn off the report for your organization, you can do so in **Settings** in the top-right corner of the page.
+>If you want to turn off the report for your organization, you can do so in **Settings** in the upper-right corner of the page.
 
 
 ## Interpret the report
