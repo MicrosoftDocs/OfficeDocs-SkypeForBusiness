@@ -178,7 +178,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 ### Terms of use acceptance
 If your organization has a meeting recording policy that you would like your users to accept before recording a meeting, use the [Azure Active Directory terms of use](/azure/active-directory/conditional-access/terms-of-use) feature. This feature allows your users to accept your organization's terms of user policy before getting access to Microsoft Teams. This feature is not specific to clicking the record button, but is related to using Teams or other Microsoft 365 apps overall. Our suggestion is to add your meeting recording information to your overall terms of use for using Teams or Microsoft 365.
 
-### Set up a custom privacy policy URL
+### Set a custom privacy policy URL
 
 As an admin, you can update the Teams recording and transcription privacy policy URL with a custom link for your organization. You can do this in the [Azure AD admin center](https://aad.portal.azure.com) using the following steps:
 
