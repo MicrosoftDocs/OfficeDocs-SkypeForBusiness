@@ -151,7 +151,7 @@ Package name |Release date|
 
 |Package name |Release date|
 |:--- |:--- |
-| Lync Server 2013 Meeting Migration Tool (MMT) |September 2016 |
+| Lync Server 2013 Meeting Migration Tool (MMT) |September 2021 |
 | Lync Connectivity Analyzer (32-bit) RETIRED |June 2017 |
 | Lync Connectivity Analyzer (64-bit) RETIRED |June 2017 |
 | Lync Server 2013 Best Practices Analyzer |October 2012 |
