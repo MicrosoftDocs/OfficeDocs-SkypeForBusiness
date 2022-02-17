@@ -52,7 +52,7 @@ Team members can only see private channels that they've been added to.
 
 A private channel owner can't be removed through the Teams client if they are the last owner of one or more private channels.
 
-If a private channel owner leaves your organization or if they are removed from the Microsoft 365 Group associated with the team, a member of the private channel is automatically promoted to be the private channel owner.
+If a private channel owner leaves your organization or if they are removed from the Microsoft 365 group associated with the team, a member of the private channel is automatically promoted to be the private channel owner.
 
 If a team member leaves or is removed from a team, that user will also leave or be removed from all private channels in the team. If the user is added back to the team, they must be added back to the private channels in the team.
 
@@ -78,10 +78,6 @@ The following table outlines what actions owners, members, and guests can do in 
 |Add members|No|N/A|N/A|Yes|No|No|
 |Edit settings|No|N/A|N/A|Yes|No|No|
 |Manage tabs and apps|No|N/A|N/A|Yes, apps must be installed for the team|Channel owner controlled|No|
-
-## Manage the lifecycle of private channels
-
-See [Manage the lifecycle of private channels in Teams](private-channels-life-cycle-management.md) for guidance on how to manage the lifecycle of private channels in your organization. This includes how to control whether users in your organization can create private channels, how to create a private channel on behalf of a team owner, how to get a list of all private channel messages for archiving and auditing purposes, and other management tasks.  
 
 ## Private channel SharePoint sites
 
@@ -135,3 +131,5 @@ Channel meetings can't be scheduled.
 [Teams PowerShell overview](teams-powershell-overview.md)
 
 [Use the Microsoft Graph API to work with Teams](/graph/api/resources/teams-api-overview)
+
+[Channel resource type](/graph/api/resources/channel)
