@@ -78,7 +78,7 @@ Teams is available for free through a couple of different programs:
 
 ### I have Microsoft 365 already, but I don't use Teams. Are you providing trial licenses?
 
-If you have Microsoft 365, then you already have Teams. [Turn it on](Office-365-set-up.md) for all your users. Once it's turned on, your users can run Teams, either by installing  [desktop](get-clients.md#desktop-client) and [mobile](get-clients.md#mobile-clients) clients, or [from the browser](get-clients.md#mobile-clients) at [https://teams.microsoft.com](https://teams.microsoft.com). 
+If you have Microsoft 365, then you already have Teams. [Turn it on](Office-365-set-up.md) for all your users. Once it's turned on, your users can run Teams, either by installing  [desktop](get-clients.md#desktop-clients) and [mobile](get-clients.md#mobile-clients) clients, or [from the browser](get-clients.md#mobile-clients) at [https://teams.microsoft.com](https://teams.microsoft.com). 
 
 ### How do I get help to get started with Teams and make sure the deployment is successful?
 
