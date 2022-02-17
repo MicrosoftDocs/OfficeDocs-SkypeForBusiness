@@ -103,7 +103,7 @@ You'll see this tab if you have a license that includes the Teams EHR connector.
 |**5**   |You can export the report to a CSV file for offline analysis. Select **Export to Excel**, and then on the **Downloads** tab, choose **Download** to download the report when it's ready.|
 
 > [!NOTE]
-> If your organization would like to participate in a private preview for non-admin users such as business decision makers to have access and view this report, [reach out us](mailto:).
+> We're working on capabilities where non-admin users such as business decision makers can access and view this report. If your organization would like to participate in private preview of this capability, [reach out us](mailto:).
 
 ## Related articles
 
