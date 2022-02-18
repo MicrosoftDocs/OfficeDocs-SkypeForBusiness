@@ -25,6 +25,8 @@ The Parents feature in Teams for Education helps educators securely connect and 
 
 Once parents and guardians are set up, they can chat with their student's educators using Teams chat. For guidance on getting parents and guardians connected to educators, see [Connect with educators in Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
 
+Parents also works with Supervised Chat. Parents won’t have full Teams permissions, which means they can’t start conversations with students. For more information about Supervised Chat, see [Use supervised chats in Microsoft Teams](supervise-chats-edu.md).
+
 ## Requirements
 
 ### School Data Sync
@@ -36,13 +38,33 @@ Once parents and guardians are set up, they can chat with their student's educat
   - Completing the RFA process at [FastTrack](https://www.microsoft.com/fasttrack?rtc=1).
   - Opening a ticket at [Support](https://aka.ms/sdssupport).
 
+- Currently, SDS only supports CSV-based data ingestion for Parent Contacts; however, you can use [PowerSchool API Sync]([/schooldatasync/how-to-deploy-school-data-sync-by-using-powerschool-sync) or [OneRoster API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-oneroster-sync) for all roster data, and just add Parent Contacts using CSV.
+  - Create a second sync profile using the [SDS v1 CSV Sync format](/schooldatasync/school-data-sync-format-csv-files-for-sds).
+  - Pull the two populated [Parent files](/schooldatasync/parent-contact-sync-file-format) with the rest of the v1 files empty (just the headers).
+    - User.csv
+    - Guardianrelationship.csv
+  - To view a sample set of the v1 CSV files, see the [Minimum Required Attributes GitHub files](https://github.com/OfficeDev/O365-EDU-Tools/tree/master/CSV%20Samples/SDS%20Format/Min%20Required%20Attributes).
+  - If you want to automate pulling in the CSV files after the initial sync, read our [CSV File Sync Automation document](/schooldatasync/csv-file-sync-automation).
+  - For help with setting up your SDS data sync, reach out to [our customer success team](https://www.microsoft.com/fasttrack?rtc=1) or [open a support ticket](https://edusupport.microsoft.com/support?product_id=data_sync).
+
 ### Teams Admin Center - Policies
 
-- Class team owners must have Teams chat enabled.
-- Class team owners must have external access with **Teams accounts not managed by an organization** enabled.
-  - This must be enabled at the tenant level and the user level. The tenant level setting can be found in **Users > External Access** in the Teams Admin Center. This setting can also be accessed via PowerShell. User level external access policies can only be accessed via PowerShell. See the PowerShell commands below for further guidance.
+- Class team owners must have Teams chat turned on.
+- Class team owners must have external access with **Teams accounts not managed by an organization** turned on.
+  - This must be turned on at the tenant level and the user level. The tenant level setting can be found in **Users > External Access** in the Teams Admin Center. This setting can also be accessed via PowerShell. User level external access policies can only be accessed via PowerShell. See the PowerShell commands below for further guidance.
 
-## Enabling external access with Teams accounts not managed by an organization
+> [!NOTE]
+>Parents and guardians are classified as External users in the Parents feature, meaning they don’t have full tenant rights. They only have access to the chat or chats they are added to as well as files, images, and other content shared in the chat.
+
+>Also, External users can see the presence (offline, available, busy, etc.) of your organization’s users, but this can be turned off using PowerShell to protect users’ privacy. In PowerShell, use [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration?view=skype-ps) and set ``EnablePrivacyMode=true``.
+
+>Even though parents and guardians are External users, their contributions to chats are discoverable. Learn how to conduct a Teams eDiscovery investigation by reading [Conduct an eDiscovery investigation of content in Microsoft Teams](ediscovery-investigation.md).
+
+## Allow external access with Teams accounts not managed by an organization
+
+To allow educators to communicate with parents and guardians in Teams, the education tenant's IT admin needs to update the tenant's policies to allow external access for Teams accounts outside of the tenant. For more information on managing external access, view [Manage external access in Microsoft Teams](manage-external-access.md).
+
+Here are the steps to turn on external access for parents and guardians.
 
 1. Install the latest Microsoft Teams PowerShell module preview.
 
@@ -58,7 +80,7 @@ Once parents and guardians are set up, they can chat with their student's educat
     Connect-MicrosoftTeams -Credential $credential
     ```
 
-    The policy setting which enables external access with Teams accounts not managed by an organization at the user level (`EnableTeamsConsumerAccess`) is enabled by default for all user-level external access policies. Both the tenant-level setting and the user-level policy setting need to be enabled for a user to have external access with Teams accounts not managed by an organization enabled. If you do not want every user in your tenant to have this access enabled, you should ensure that your tenant-level setting is turned off, update the user-level external access policies assigned to your users, and then enable the tenant-level setting.
+    The policy setting which turns on external access with Teams accounts not managed by an organization at the user level (`EnableTeamsConsumerAccess`) is turned on by default for all user-level external access policies. Both the tenant-level setting and the user-level policy setting need to be turned on for a user to have external access with Teams accounts not managed by an organization turned on. If you do not want every user in your tenant to have this access turned on, you should ensure that your tenant-level setting is turned off, update the user-level external access policies assigned to your users, and then turn on the tenant-level setting.
 
     To check which user-level external access policies exist and who they are assigned to, you can use the following steps:
 
@@ -88,13 +110,13 @@ Since all user-level external access policies have `EnableTeamsConsumerAccess` s
 
 - Assign an external access policy to a single user: [Grant-CsExternalAccessPolicy](/powershell/module/skype/grant-csexternalaccesspolicy)
 
-- Assign a policy to a set of users: [New-CsBatchPolicyAssignmentOperation](/powershell/module/skype/new-csbatchpolicyassignmentoperation)
+- Assign a policy to a set of users: [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
-Once the user-level external access policies are set correctly for the users in your tenant, you can enable the tenant-level setting (`AllowTeamsConsumer`) for the tenant using the following cmdlet:
+Once the user-level external access policies are set correctly for the users in your tenant, you can turn on the tenant-level setting (`AllowTeamsConsumer`) for the tenant using the following cmdlet:
 
 - Set the federation configuration settings for your tenant: [Set-CsTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration)
 
-## Enabling the Parents app in Teams for Education
+## Turn on the Parents app in Teams for Education
 
 The Parents app is turned off by default, so class team owners will not see it in their class teams until it is allowed through the Teams admin center. The Parents app can be allowed via the Teams admin center using [Allow apps blocked by publishers](manage-apps.md#apps-blocked-by-publishers).
 
