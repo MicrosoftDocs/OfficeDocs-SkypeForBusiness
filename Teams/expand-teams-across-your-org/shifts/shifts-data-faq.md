@@ -72,7 +72,7 @@ Today, we don't offer the ability to retrieve data for a user whose license was 
 
 ## Is Shifts supported in Government Cloud Community (GCC) environments?
 
-The Shifts app is available in GCC environments, but not in GCC High or DoD environments.
+Shifts is available in GCC environments, but not in GCC High or DoD environments.
 
 ## What type of encryption does Shifts use for data at rest and in transit?
 
@@ -105,7 +105,7 @@ Today, we don't delete your Shifts data at all. Using [Shifts Graph APIs](/gra
 
 ## Can Shifts data be moved in a tenant-to-tenant migration?
 
-Shifts data can be migrated from one tenant to another tenant by the Shifts service team upon specific request. Keep in mind that tenant-to-tenant migration isn't supported out-of-the-box but can be raised as a customer request.
+Shifts data can be migrated from one tenant to another tenant upon specific request. Keep in mind that tenant-to-tenant migration isn't supported out-of-the-box but can be raised as a customer request.
 
 ## Related articles
 
