@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Teams Rooms maintenance and operations"
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -12,13 +12,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: "Read this topic to learn about management of Microsoft Teams Rooms."
+description: "Learn about managing Microsoft Teams Rooms."
 ---
 
 # Microsoft Teams Rooms maintenance and operations
  
-Read this topic to learn about management of Microsoft Teams Rooms.
-  
+ 
 Microsoft Teams Rooms is Microsoft's conferencing solution designed to transform your meeting room into a rich, collaborative experience. Users will enjoy its familiar Microsoft Teams or Skype for Business interface and IT administrators will appreciate an easily deployed and managed Windows 10 Teams Rooms app. Microsoft Teams Rooms is designed to leverage existing equipment for ease of installation to bring Microsoft Teams or Skype for Business into your meeting room.
     
 ## Collecting logs on Microsoft Teams Rooms
@@ -204,9 +203,9 @@ Copy-Item $movefile $targetDevice
 
 By default, Microsoft Teams Rooms attempts to connect to the Windows Store to get the latest version of Microsoft Teams Rooms software. Therefore, Teams Rooms requires regular internet access. Before contacting Microsoft with support issues, be sure Microsoft Teams Rooms is loaded with the latest version of the app.
   
-Microsoft Teams Rooms connects to Windows Update to retrieve operating system and peripheral device firmware updates. 
+Microsoft Teams Rooms connects to Windows Update to retrieve operating system and peripheral device firmware updates. It also connects to the Microsoft Store to retrieve application updates.
 
-If you must manage updates manually and are also unable to follow the normal procedure for [Microsoft Store for Business](https://businessstore.microsoft.com/store) to [Distribute offline apps](/microsoft-store/distribute-offline-apps), you can acquire MTR-Update packages to perform app updates on supported operating systems. The MTR-Update release may lag behind the store release, and might not always match the latest available build. Refer to the article [Manually Update a Microsoft Teams Rooms device](manual-update.md) for further details.
+If you need to manage application updates manually but can't follow the normal procedure for [Microsoft Store for Business](https://businessstore.microsoft.com/store) to [Distribute offline apps](/microsoft-store/distribute-offline-apps), you can acquire Teams Rooms update packages to perform app updates on supported operating systems. The update release may lag behind the store release, and it might not always match the latest available build. See [Manually Update a Microsoft Teams Rooms device](manual-update.md) to learn more.
 
 ## Admin mode and device management
 <a name="AdminMode"> </a>
