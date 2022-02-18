@@ -58,7 +58,7 @@ There's no option to delete only Shifts data. If you delete a team in Teams, Shi
 
 You can recover a deleted schedule if the Microsoft 365 group that backs it (or the team in Teams) is restored.
 
-By default, a deleted Microsoft 365 group is retained for 30 days. This 30-day period is called "soft-delete" because you can still restore the group. To learn more, see [Restore a deleted Microsoft 365 Group](/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide&tabs=admin-center).
+By default, a deleted Microsoft 365 group is retained for 30 days. This 30-day period is called "soft-delete" because you can still restore the group. To learn more, see [Restore a deleted Microsoft 365 group](/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide&tabs=admin-center).
 
 ## Can I use custom retention policies for Shifts data?
 
@@ -95,13 +95,13 @@ To see which what fields have been changed, you can search the Microsoft 365 aud
 
 ## My organization uses a workforce management system for scheduling. Can we integrate with and access Shifts data?
 
-Shifts Graph APIs let you integrate Shifts data with external workforce management (WFM) systems. To learn more, see [Shifts Graph APIs](/graph/api/resources/shift?view=graph-rest-1.0).
+Shifts Graph APIs let you integrate Shifts data with external workforce management (WFM) systems. To learn more, see [Shifts Graph APIs](/graph/api/resources/shift).
 
 We also offer managed Shifts connectors and open-source Shifts connectors. With these connectors, you can integrate your WFM system directly with Shifts. To learn more about Shifts connectors and supported WFM systems, see [Shifts connectors](shifts-connectors.md).
 
 ## Can Shifts data be deleted permanently after a specified period of time?
 
-Today, we don't delete your Shifts data at all. Using [Shifts Graph APIs](/graph/api/resources/shift?view=graph-rest-1.0), it's possible to [create an app using Power Apps](/powerapps/maker/) to retain data for a specified period of time. However, we don't support this natively.
+Today, we don't delete your Shifts data at all. Using [Shifts Graph APIs](/graph/api/resources/shift), it's possible to [create an app using Power Apps](/powerapps/maker/) to retain data for a specified period of time. However, we don't support this natively.
 
 ## Can Shifts data be moved in a tenant-to-tenant migration?
 
