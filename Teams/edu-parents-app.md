@@ -25,7 +25,7 @@ The Parents feature in Teams for Education helps educators securely connect and 
 
 Once parents and guardians are set up, they can chat with their student's educators using Teams chat. For guidance on getting parents and guardians connected to educators, see [Connect with educators in Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
 
-Parents also works with Supervised Chat. Parents won’t have full Teams permissions, which means they can’t start conversations with students. For more information about Supervised Chat, see [Use supervised chats in Microsoft Teams](supervise-chats-edu.md).
+Parents also works with Supervised Chat. Parents and guardians won’t have full Teams permissions, which means they can’t start conversations with students or remove full-permissions users (like educators) from chats. For more information about Supervised Chat, see [Use supervised chats in Microsoft Teams](supervise-chats-edu.md).
 
 ## Requirements
 
