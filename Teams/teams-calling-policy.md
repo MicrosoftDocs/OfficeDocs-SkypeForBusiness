@@ -100,7 +100,7 @@ This setting controls whether incoming meeting invites are automatically answere
 
 ### Allow music on hold
 
-This setting allows you to turn on or turn off music on hold when a PSTN caller is placed on hold. It's turned on by default. This setting doesn't apply to call park and boss delegate features, and is currently only available via PowerShell.
+This setting allows you to turn on or turn off music on hold when a PSTN caller is placed on hold. It's turned on by default. This setting applies to boss delegate feature also.
 
 ## Related articles
 
