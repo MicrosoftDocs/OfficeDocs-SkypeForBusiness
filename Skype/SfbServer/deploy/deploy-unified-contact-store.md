@@ -28,6 +28,9 @@ After a user's contacts have been migrated, which happens automatically when a u
   
 > [!IMPORTANT]
 > If a user logs in from Skype for Business after migration, contacts and groups are available and up-to-date, but the user cannot manage (that is, add, delete, move, tag, untag, or modify) those contacts. 
+
+> [!IMPORTANT]
+>Before you move an Exchange mailbox from Exchange 2013/2016 to Exchange Online, the Exchange administrator must make sure that the Lync Server administrator has first rolled back the Lync Server user contacts from Exchange Server to Lync Server. To roll back unified contact store contacts to Lync Server, see procedure "Roll Back Migrated Users" later in this section.
   
 ## Enable users for unified contact store
 
