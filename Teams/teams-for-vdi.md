@@ -127,6 +127,11 @@ Using Teams in a non-persistent setup also requires a profile-caching manager fo
 > [!NOTE]
 > A roaming folder (or, if you are using folder redirection, a caching manager) is required to ensure that the Teams app has the runtime data and files required to run the application. This is necessary to mitigate network latency issues or network glitches, which would otherwise cause application errors and a slow experience due to unavailable data and files.
 
+> [!IMPORTANT]
+> In volatile client machine and non-persistent setup machine, manually deleting Teams cache stored in the following locations is not supported due to resulting in a broken state in Teams. The only supported scenario is to sign out Teams and to uninstall Teams client using Windows Installer afterwards.
+> - `C:\Users\username\AppData\Local\Microsoft\IdentityCache (%LocalAppData%\Microsoft\IdentityCache)`
+> - `C:\Users\username\AppData\Roaming\Microsoft\Teams (%AppData%\Microsoft\Teams)`
+
 There are a variety of caching manager solutions available, such as [FSLogix](/fslogix/overview). Consult your caching manager provider for specific configuration instructions.
 
 ##### Teams cached content exclusion list for non-persistent setup
