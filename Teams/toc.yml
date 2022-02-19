@@ -1578,6 +1578,8 @@ items:
                 href: expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup.md
               - name: Use PowerShell to manage your Shifts to Blue Yonder connection
                 href: expand-teams-across-your-org/shifts/shifts-connector-powershell-manage.md
+            - name: Shifts data FAQ       
+              href: expand-teams-across-your-org/shifts/shifts-data-faq.md
     - name: Teams for Education
       href: expand-teams-across-your-org/teams-for-education-landing-page.md
       items: 
