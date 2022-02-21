@@ -44,7 +44,7 @@ By default, any team owner or team member can create a private channel. Guests c
 The person who creates a private channel is the private channel owner and only the private channel owner can directly add or remove people from it. A private channel owner can add any team member to a private channel they created, including guests. Members of a private channel have a secure conversation space, and when new 
 members are added, they can see all conversations (even old conversations) in that private channel.
 
-Team owners can see the names of all private channels in their team and can also delete any private channel in the team. (A deleted private channel can be restored within 30 days after it's deleted). Team owners can't see the files in a private channel or the conversations and member list of a private channel unless they are members of that private channel.
+Only private channel owners/members can see their private channels in their team. Team owners are not able to see private channels they do not have access to. (A deleted private channel can be restored within 30 days after it's deleted). Team owners can't see the files in a private channel or the conversations and member list of a private channel unless they are members of that private channel.
 
 Team members can only see private channels that they've been added to.
 
