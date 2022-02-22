@@ -35,7 +35,7 @@ The report contains the following tabs. The information you’ll see in the repo
 |**[Bookings](#bookings)**     |Shows the number of visits scheduled through the Bookings app.         |
 |**[EHR](#ehr)**     |Shows the number of Teams EHR-integrated visits conducted from your EHR system.         |  
 
-Use this report to gain insight into Virtual Visits activity and trends in your organization. The information can help you optimize Virtual Visits to deliver better business outcomes. For example, you can determine whether sending SMS notifications to attendees before appointments reduces the number of no shows.
+Use this report to gain insight into Virtual Visits activity and trends in your organization. The information can help you optimize Virtual Visits to deliver better business outcomes.
 
 ## View the Virtual Visits usage report
 
