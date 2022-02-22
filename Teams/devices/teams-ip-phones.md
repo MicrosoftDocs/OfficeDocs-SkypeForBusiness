@@ -23,7 +23,7 @@ ms.custom:
 description: Learn which desk and conference phones are certified for Microsoft Teams to produce the best results.
 ---
 
-# Microsoft Teams certified devices
+# Microsoft Teams certified Android devices
 
 The Microsoft Teams devices Certification Program ensures certified devices meet a high standard, with higher performance targets and quality metrics across the entire Teams experience (audio, video, user interface). Microsoft and OEM partners are actively working together to ensure devices meet all certification requirements, including security, audio and video quality, Teams experience, and accessibility.
 
@@ -66,19 +66,20 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Current certification end date | Room size                                        |  Android OS version    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
+| Logitech Roommate | `1.4.71` | September 3, 2024  | Large meeting room (4.5m x 8.5m)  |   10  |
 | EPOS EXPAND 80T | `1.2.2.21182.10` | August 5, 2023 | Bundled with the EPOS Vision 3T | 9 |
-| Logitech Tap Device     | `1.2.982`     |   September 3, 2024  | Compatible with Logitech Rally Bar and Rally Bar Mini | 10 |
-| Logitech Rally Bar Mini | `1.2.982`     |   September 3, 2024  |    Small Meeting Room (4.5m x 4.5m) | 10 |
-| Logitech Rally Bar      | `1.2.788`     |   September 3, 2024  |    Medium size room (4.5m x 6m)       | 10 |
-| AudioCodes RXV80 | `1.9.155`        |   August 5, 2023  | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) | 9 |
-| EPOS EXPAND Vision 3T       | `1.2.0.21102.03`    | August 5, 2023 | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) | 9 |
-| Yealink MeetingBar A30       | `133.15.0.52`    | August 5, 2023   | Medium size room (4.5m x 6m) | 9 |
+| Logitech Tap Device     | `1.2.982`  |   September 3, 2024  | Compatible with Logitech Rally Bar and Rally Bar Mini | 10 |
+| Logitech Rally Bar Mini | `1.2.982`     |   September 3, 2024  |    Small Meeting Room (4.5 m x 4.5 m) | 10 |
+| Logitech Rally Bar      | `1.2.788`     |   September 3, 2024  |    Medium size room (4.5 m x 6 m)       | 10 |
+| AudioCodes RXV80 | `1.9.155`        |   August 5, 2023  | Focus room(3m x 3m) </br> Small meeting room(4.5 m x 4.5 m) | 9 |
+| EPOS EXPAND Vision 3T       | `1.2.0.21102.03`    | August 5, 2023 | Focus room(3m x 3m) </br> Small meeting room(4.5 m x 4.5 m) | 9 |
+| Yealink MeetingBar A30       | `133.15.0.52`    | August 5, 2023   | Medium size room (4.5 m x 6 m) | 9 |
 | Yealink CTP18 touch console  | `137.15.0.28`    | August 5, 2023   | Compatible with Yealink MeetingBar A20 and Yealink MeetingBar A30 | 9 |
-| Yealink MeetingBar A20  | `133.15.0.19`      | August 5, 2023 | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) | 9 |
-| Poly Studio X30         | `3.1.1.216109`     | December 5, 2022  | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) | 8.1 |
-| Poly Studio X50         | `3.1.1.216109`     | December 5, 2022   | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) | 8.1 |
+| Yealink MeetingBar A20  | `133.15.0.19`      | August 5, 2023 | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 9 |
+| Poly Studio X30         | `3.1.1.216109`     | December 5, 2022  | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 8.1 |
+| Poly Studio X50         | `3.1.1.216109`     | December 5, 2022   | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 8.1 |
 | Poly TC8                | `3.3.2.210441`     | August 5, 2023 | Compatible with Poly Studio X30 and Poly Studio X50  |  9  |
-| Yealink VC210           | `118.15.0.14`      | August 5, 2023 | Focus room(3m x 3m) </br> Small meeting room(4.5m x 4.5m) |  9  |
+| Yealink VC210           | `118.15.0.14`      | August 5, 2023 | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) |  9  |
 
 ## Certified Teams Displays
 
@@ -128,8 +129,6 @@ When you install a new firmware version on your device, you can determine the co
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
 |Audiocodes C455HD | `1.15.271`    | 2022 Update #1
-|Poly Trio C60   | `7.2.1.1712`  | 2022 Update #1   |
-|Poly CCX400/CCX500/CCX600   | `7.2.1.1707`  | 2022 Update #1  |
 |Audiocodes C448HD  | `1.14.500` | 2022 Update #1 |
 |Audiocodes C450HD  | `1.14.500` | 2022 Update #1  |
 |Audiocodes C470HD  | `1.14.500` | 2022 Update #1   |
@@ -214,6 +213,10 @@ When you install a new firmware version on your device, you can determine the co
 | Poly Studio X30 | `3.8.0`          | 2021 Update #2    |
 | Poly Studio X50 | `3.8.0`          | 2021 Update #2    |
 | Poly TC8        | `3.8.0`          | 2021 Update #2    |
+| Logi Rallybar    | 1.3.538         | 2021 Update #2B    |
+| Logi Rallybar Mini | 1.3.538       | 2021 Update #2B    |
+| Logi Rallybar    | 1.4.228         | 2021 Update #2B    |
+| Logi Rallybar Mini | 1.4.228       | 2021 Update #2B    |
 | Poly Studio X30 | `3.7.0`          | 2021 Update #2A    |
 | Poly Studio X50 | `3.7.0`          | 2021 Update #2A    |
 | Poly TC8        | `3.7.0`          | 2021 Update #2A    |

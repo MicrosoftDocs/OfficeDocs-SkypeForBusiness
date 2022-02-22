@@ -3,7 +3,7 @@ title: Plan and manage emergency calling
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: roykuntz, jastark
+ms.reviewer: roykuntz
 ms.topic: article
 ms.assetid: 589bf5f5-490a-4215-8588-99bab7d33e31
 ms.tgt.pltfrm: cloud
@@ -171,9 +171,10 @@ When a Teams Operator Connect user dials an emergency number, how the call is ro
 
 - In the United States and Canada, dynamic routing is part of the carrier’s service. You do not need to procure this service from another service provider.
 
-In the United States and Canada:
+- If a Teams client is located at a tenant-defined dynamic emergency location:
 
-- If a Teams client is located at a tenant-defined dynamic emergency location, emergency calls from that client are automatically routed to the PSAP serving that geographic location.
+   - In the United States, emergency calls from that client are automatically routed to the PSAP serving that geographic location.
+   - In Canada, all emergency calls will be screened by a national call center before transferring the call to the PSAP serving that geographic location.
 
 - If a Teams client is not located at a tenant-defined dynamic emergency location, emergency calls from that client are screened by a national call center to determine the location of the caller before transferring the call to the PSAP serving that geographic location.
 
