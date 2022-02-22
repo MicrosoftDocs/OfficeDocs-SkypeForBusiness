@@ -70,7 +70,7 @@ Perform the following steps:
     microsoftcommunicationsonline/noam-4a-s7
     ```
 
-    - The region will be displayed after the **/** as in the above example where there region is: noam
+    - The region will be displayed after the **/** as in the above example where the region is: noam
 
  - The report will launch with sample data.
  
