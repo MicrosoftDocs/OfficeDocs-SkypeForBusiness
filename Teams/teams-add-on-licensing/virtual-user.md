@@ -22,11 +22,11 @@ ms.custom:
 description: Learn about how to assign free Teams Phone Standard – Virtual User licenses or a paid Teams Phone Standard user licenses to resource accounts in your organization.
 ---
 
-# Microsoft Teams Phone Standard System – Virtual User licenses
+# Microsoft Teams Phone Standard – Virtual User licenses
 
 Organizations with Teams Phone Standard or Teams Phone with Calling Plan licensed users can assign either a free *Microsoft Teams Phone Standard – Virtual User* license or a paid *Teams Phone Standard* user license to resource accounts. A Microsoft calling plan isn't always required (see [Plan for Teams Auto attendant and call queues](../plan-auto-attendant-call-queue.md#prerequisites) for prerequisites when transferring calls to an external phone number).
 
-All auto attendants or call queues require an associated resource account. Resource accounts that require a phone number need either a free *Microsoft Teams Phone Standard – Virtual User* license or a paid *Teams Phone Standard* user license before a phone number can be applied to the resource account.
+All auto attendants and call queues require an associated resource account. Resource accounts that require a phone number need either a free *Microsoft Teams Phone Standard – Virtual User* license or a paid *Teams Phone Standard* user license before a phone number can be applied to the resource account.
 
 > [!TIP]
 > No license is needed for resource accounts that will be used with nested auto attendants or call queues that don't have a phone number assigned. See the following diagram for reference.
@@ -44,7 +44,7 @@ If your organization uses up the free *Microsoft Teams Phone Standard – Virtua
 
 ### License allocation example
 
-Contoso, Inc. purchased 600 licenses that included Phone System (one for each employee). Contoso is allotted an initial 25 plus 60 *Microsoft Teams Phone Standard – Virtual User* licenses, 85 in total. Their organization has 90 call queues and auto attendants that have phone numbers. They need to assign all the *Microsoft Teams Phone Standard – Virtual User* licenses and obtain five regular-priced *Teams Phone Standard* licenses.
+Contoso, Inc. purchased 600 licenses that include Phone System (one for each employee). Contoso is allotted an initial 25 plus 60 *Microsoft Teams Phone Standard – Virtual User* licenses, 85 in total. Their organization has 90 call queues and auto attendants that have phone numbers. They need to assign all the *Microsoft Teams Phone Standard – Virtual User* licenses and obtain five regular-priced *Teams Phone Standard* licenses.
 
 Contoso should consider redesigning the auto attendant and call queue system. If they use fewer phone numbers and more nested nodes that don't need a phone number, they simplify the implementation and reduce costs.
 
