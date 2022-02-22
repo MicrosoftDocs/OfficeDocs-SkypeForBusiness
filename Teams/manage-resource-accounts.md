@@ -37,7 +37,7 @@ Before you start the procedures in this article, ensure you've done the followin
 - [Obtain service numbers](#obtain-service-numbers)
 
 > [!NOTE]
-> Resource accounts are disabled for sign in and must remain so. Chat and presence are not avaialble for these accounts.
+> Resource accounts are disabled for sign in and must remain so. Chat and presence are not available for these accounts.
 
 ### Obtain virtual user licenses
 
