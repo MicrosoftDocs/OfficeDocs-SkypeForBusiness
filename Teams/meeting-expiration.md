@@ -150,6 +150,19 @@ No, migrated TMRs will not come with an expiration set on them. Instead, we enco
 
 When a recording fails to upload to OneDrive or SharePoint, the Teams application displays a message in the chat that users have up to 21 days to download the TMR before it’s permanently deleted from the Teams server. This existing expiration experience due to failed TMR uploads is not related to the OneDrive and SharePoint auto-expiration feature being discussed in the help document.
 
+### How do I know the distribution of TMR playbacks so I know what the optimal auto-expiration default should be for my tenant?
+
+1. Find the video in the library.
+1. Select **...** > **Details**
+1. Select the number of views at the top of the details pane.
+
+You'll see file statistics that show:
+
+- The number of unique viewers
+- The number of total views
+- The trend of viewers and views day-by-day for the last 90 days
+- Viewership retention (which part of the video was viewed or not viewed)
+
 ## Related topics
 
 [Change meeting expiration date - end-user controls](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date)
