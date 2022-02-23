@@ -110,3 +110,6 @@ You'll see this tab if you have a license that includes the Teams EHR connector.
 ## Related articles
 
 - [Teams analytics and reporting](teams-reporting-reference.md)
+- [Virtual Visits with Teams and the Bookings app](../expand-teams-across-your-org/bookings-virtual-visits.md)
+- [Virtual Visits with Teams - Integration into Epic EHR](../expand-teams-across-your-org/healthcare/ehr-admin.md)
+- [Virtual Visits with Teams - Integration into Cerner EHR](../expand-teams-across-your-org/healthcare/ehr-admin-cerner.md)
