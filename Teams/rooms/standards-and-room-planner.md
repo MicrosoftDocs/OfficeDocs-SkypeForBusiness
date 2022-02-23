@@ -26,84 +26,89 @@ Using smart recommendations from your environment, you can build and curate stan
 
 On this page, you can view room or meeting space types within your organization. A quick break down of how many standards you have for meeting rooms, how many new devices were discovered and number of devices that require an action to be taken.
 
-This page also has a command bar from where you can launch the “create standard” workflow or navigate to Discovered Devices, Change logs & Archive.
+This page also has a command bar from where you can launch the  **Create a standard** workflow or navigate to Discovered Devices, Change logs, and Archive.
 
-![Graphical user interface, text, application, email description](../media/standards-and-room-planner-002.png)
-
-
+![Screenshot of home page for creating Standards](../media/standards-and-room-planner-001.png)
 ### Create Standard
-Clicking on ‘Create Standard’ will launch the “Create a standard” workflow. Provide general details such as name and description for the standard.
-
-![Graphical user interface, text, application description](../media/standards-and-room-planner-003.png)
-
-Select your meeting room type for this standard
-
-![Graphical user interface, text, application description]../media/standards-and-room-planner-003.png)
 
 
-Select your choice of meeting room device from the recommended Teams certified devices in your inventory of hardware.
+**To launch the **Create a standard** workflow**
 
-![Graphical user interface, application description](../media/standards-and-room-planner-004.png)
+1. Select  **Create Standard**, then provide general details such as name and description for the standard.
 
-Review the MTR Standard information
+![Screenshot of Standards General Details](../media/standards-and-room-planner-002.png)
 
-![Graphical user interface, application, email description](../media/standards-and-room-planner-003.png)
+1. Select your meeting room type for this standard.
 
-Publish your standards to a region, site, building or a specific meeting room.
+![Screenshot of Standards Select Meeting Room](../media/standards-and-room-planner-003.png)
 
-![Graphical user interface, text, application, email description](../media/standards-and-room-planner-005.png)
+1. Select your choice of meeting room device from the recommended Teams certified devices in your inventory of hardware.
 
-Once finished the standard is created successfully and published to the site, region, building or meeting room. Now these standards are to be used for planning purposes.
+![Screenshot of Standards Select Recommended devices](../media/standards-and-room-planner-003c.png)
 
-![Graphical user interface, text, application, email, Teams description](../media/standards-and-room-planner-006.png)
-### Discovered Devices tab
-You can view all nonstandard discovered devices within your organization.
+1. Review the MTR Standard information.
 
-![Graphical user interface, table description](../media/standards-and-room-planner-007.png)
+![Screenshot of Standards Review before publishing](../media/standards-and-room-planner-004.png)
+
+1. Publish your standards to a region, site, building or a specific meeting room.
+
+![Screenshot of places to publish the standards.](../media/standards-and-room-planner-005.png)
+
+Once you've completed the workflow, the standard is created successfully and published to the site, region, building, or meeting room. Now these standards are to be used for planning purposes.
+
+![Screenshot of successfully published standard`](../media/standards-and-room-planner-006.png)
+### Discovered Devices
+
+Within Standards, select **Discovered Devices** to view all nonstandard discovered devices within your organization.
+
+![Screenshot of a room's discovered devices](../media/standards-and-room-planner-007.png)
 
 You can take action to review and create standards from these discovered devices in your inventory.
 
-![Graphical user interface, text, application, email description](../media/standards-and-room-planner-008.png)
+![Screenshot of review and create Standards](../media/standards-and-room-planner-008.png)
 
+## Room planning
 
-## Room Planner wizard
+Plan rooms with standards for meetings expansion using the **Room planner** wizard.
 
-Plan with standards for meetings expansion.
+**To launch the room planner with guided experience**
 
-Select *Plan Rooms* to launch the room planner with guided experience.
+1. From the left-hand navigation, Select Inventory, then choose **Plan Rooms**.
 
-![Graphical user interface, application, table description](../media/standards-and-room-planner-003.png)
+![Screenshot of Inventory](../media/standards-and-room-planner-009.png)
 
-Add rooms to the planner from your location directory.
+1. Add rooms to the planner from your location directory.
 
-![Graphical user interface, application description](../media/standards-and-room-planner-003.png)
+![Screenshot of](../media/standards-and-room-planner-010.png)
 
-Two options to set your standards assignment preferences.
+1. Set your standards assignment preferences as follows:
 
-- If you have a planning partner on record, you can select “Have my partner assign the best solution for all of these rooms”.  - This option makes it so the partner selects the best locally found solution for their customer.
+- If you have a planning partner on record, you can select **Have my partner assign the best solution for all of these rooms**. This option makes it so the partner selects the best locally found solution for their customer.
 
-- If you plan meetings expansion in-house, select "‘Organization admin will assign the best solution for all rooms using organization standards”. The standards are automatically assigned from what has been approved and published by the organization in the Standards view.
+- If you plan meetings expansion in-house, select **Organization admin will assign the best solution for all rooms using organization standards**. The standards are automatically assigned from what has been approved and published by the organization in the Standards view.
 
--click Organization admin will assign the best solution....
+1. Select **Organization admin will assign the best solution...**
 
-![Graphical user interface, text, application, Word, email description](../media/standards-and-room-planner-003.png)
+![Screenshot of room planning method options](../media/standards-and-room-planner-011.png)
 
-You can bulk assign standards to multiple rooms
+You can bulk assign standards to multiple rooms. 
 
-![Graphical user interface, application description](../media/standards-and-room-planner-007.png)
+1. Check multiple rooms beneath **Room Name**.
 
-![Graphical user interface, application description](../media/standards-and-room-planner-003.png)
+![Screenshot of multiple Rooms Planning](../media/standards-and-room-planner-012.png)
 
-If you have more than one standard available for a location, region or site, you can use the drop down to select a standard you choose to assign for a meeting room.
+![Screenshot of a bulk assignment](../media/standards-and-room-planner-013.png)
 
-![Graphical user interface, application description](../media/standards-and-room-planner-003.png)
+If you have more than one standard available for a location, region or site, select a standard from the **Standard Assignment** list to assign to a meeting room displayed beneath **Room name**.
 
-Review the standard assignments and finish the plan. You can print the plan to PDF to share with partners. 
+![Screenshot of assigning standards to rooms](../media/standards-and-room-planner-015.png)
 
-![Graphical user interface description](../media/standards-and-room-planner-007.png)
+Review the standard assignments and finish the plan. You can print the plan to PDF to share with partners.
+
+![Screenshot of Rooms plans completed](../media/standards-and-room-planner-016.png)
 
 ## Access control
 
-The room planner wizard is by default enabled for the Managed Service Administrator role. For Customer and all other built-in roles, set the permissions for Inventory management under “Permissions” tab.
+The room planner wizard is by default enabled for the Managed Service Administrator role. For Customer and all other built-in roles, set the permissions for Inventory management under **Permissions** tab.
 
-![Graphical user interface, text, application, email description](../media/standards-and-room-planner-009.png)
+![Graphical user interface, text, application, email description](../media/standards-and-room-planner-017.png)
