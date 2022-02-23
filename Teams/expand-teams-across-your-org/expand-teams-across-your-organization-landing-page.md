@@ -33,3 +33,4 @@ Find out what you can do with Teams for:
 Or learn more about these apps and capabilities available for all industries:
 
 - [Shifts for Teams](./shifts-for-teams-landing-page.md)
+- [Bookings in Teams](../bookings-app-admin.md)
