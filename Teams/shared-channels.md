@@ -92,9 +92,9 @@ Teams manages the lifecycle of the shared channel site. If the site is deleted o
 
 If a shared channel or a team containing a shared channel is restored, the sites are restored with it. If a shared channel site is restored and it's beyond the 30-day soft delete window for the shared channel, the site operates as a standalone site.
 
-## Shared channel message compliance records
+## Compliance copies of shared channel messages
 
-Records for messages sent in a shared channel are delivered to the mailbox of all shared channel members, rather than to a group mailbox. The titles of the records are formatted to indicate which shared channel they were sent from.
+Compliance copies of messages sent in a shared channel are delivered to the mailbox of all shared channel members, rather than to a group mailbox. The titles of the compliance copies are formatted to indicate which shared channel they were sent from.
 
 For more information about performing an eDiscovery search for shared channel messages, see [Conduct an eDiscovery investigation of content in Microsoft Teams](ediscovery-investigation.md).
 
