@@ -1685,6 +1685,8 @@ items:
               href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
             - name: Virtual Visits with Teams and Bookings
               href: expand-teams-across-your-org/bookings-virtual-visits.md
+            - name: Virtual Visits usage report
+              href: teams-analytics-and-reports/virtual-visits-usage-report.md  
             - name: Manage the join experience on mobile browsers
               href: expand-teams-across-your-org/mobile-browser-join.md              
         - name: View and assign policy packages
