@@ -67,7 +67,7 @@ The graphs you'll see here depend on whether you have a license for the Bookings
 
 ### Duration
 
-:::image type="content" source="../media/virtual-visits-usage-report-duration.png" alt-text="Screenshot of the Virtual Visits tab of the Virtual Visits usage report showing numbered callouts." lightbox="../media/virtual-visits-usage-report-duration.png":::
+:::image type="content" source="../media/virtual-visits-usage-report-duration.png" alt-text="Screenshot of the Duration tab of the Virtual Visits usage report showing numbered callouts." lightbox="../media/virtual-visits-usage-report-duration.png":::
 
 |Callout |Description  |
 |--------|-------------|
