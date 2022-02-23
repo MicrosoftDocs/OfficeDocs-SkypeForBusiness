@@ -195,13 +195,6 @@ Here's a summary, based on licensing plan.
 <td>Or</td>
 <td>Teams Phone Standard licenses <br/> <br/>Domestic Calling Plan or Domestic and International Calling Plan <br/> <br/> Audio Conferencing licenses <br/> <br/> Communication Credits (optional)</td>
 </tr>
-<tr>
-<td>Microsoft 365 Education A1 or A3<br/>Office 365 Education A1 or A3<br/>Microsoft 365 F3<br/>Office 365 F3</td>
-<td>Teams Phone with Calling Plan licenses <br/> <br/> Audio Conferencing licenses <br/> <br/> Domestic and International Calling Plan (optional) <br/> <br/>Communication Credits (optional)</td>
-<td>Or</td>
-<td>Teams Phone Standard licenses <br/> <br/>Domestic Calling Plan or Domestic and International Calling Plan <br/> <br/> Audio Conferencing licenses <br/> <br/> Communication Credits (optional)</td>
-<td></td>
-</tr>
 <tr class="odd">
 <td>Microsoft 365 Education A5 <br/>Office 365 Education A5</td>
 <td>Domestic Calling Plan or Domestic and International Calling Plan <br/> <br/>Communication Credits (optional)</td>
@@ -250,13 +243,6 @@ Here's a summary, based on licensing plan.
 <td>Teams Phone with Calling Plan licenses <br/> <br/> Audio Conferencing licenses <br/> <br/> Domestic and International Calling Plan (optional) <br/> <br/>Communication Credits (optional)</td>
 <td>Or</td>
 <td>Teams Phone Standard licenses <br/> <br/>Domestic Calling Plan or Domestic and International Calling Plan <br/> <br/> Audio Conferencing licenses <br/> <br/> Communication Credits (optional)</td>
-</tr>
-<tr>
-<td>Microsoft 365 GOV G1 or G3<br/>Office 365 GOV G1 or G3<br/>Microsoft 365 F3<br/>Office 365 F3</td>
-<td>Teams Phone with Calling Plan licenses <br/> <br/> Audio Conferencing licenses <br/> <br/> Domestic and International Calling Plan (optional) <br/> <br/>Communication Credits (optional)</td>
-<td>Or</td>
-<td>Teams Phone Standard licenses <br/> <br/>Domestic Calling Plan or Domestic and International Calling Plan <br/> <br/> Audio Conferencing licenses <br/> <br/> Communication Credits (optional)</td>
-<td></td>
 </tr>
 <tr class="odd">
 <td>Microsoft 365 GOV G5<br>Office 365 GOV G5</td>
