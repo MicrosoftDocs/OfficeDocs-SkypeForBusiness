@@ -304,17 +304,7 @@ Presence publishing behavior is based on the user’s mode. There are three basi
 
 For example, Assume User A is in Islands mode. If User A is active in Teams but is not signed in to Skype for Business, other users would see User A as active from their Teams client, but in their Skype for Business client they would see User A as offline. This is by design, since User A cannot be reached if they are not running the client. 
 
-
-|  Observer (logged in Teams) | Target (logged in Teams)  |  Is Presence supported? |
-|---|---|---|
-|  SfB online user |  SfB online user |  * Yes, not by design. The observer has a SfBO pool will see SfB presence if target is also logged into the SfB client |
-|  SfB online user |  Teams user |  Yes, not by design |
-|  SfB online user  |  SfB onprem user who is synced in AAD |  * Yes, not by design. The observer has a SfBO pool will see SfB presence if target is also logged into the SfB client |
-| SfB onprem user (who is synced in AAD)  | SfB onprem user (who is synced in AAD)  |  No, the observer does not have a SfBO pool |
-| SfB onprem user (who is synced in AAD) | Teams user  |  No, the observer does not have a SfBO pool |
-| Teams user | SfB online/onprem user  |  Yes, by design. The observer will see SfB presence if target is also logged into the SfB client. |
-
-\* Once all TeamsOnly users become poolless and replication to Presence Service from SfBO pools stops, none of the cases labelled with (\*) will work.
+Presence is not supported for Sfb users who have SfbOnly or similar mode while logged into a Teams client.
 
 ### Federation
 
