@@ -75,11 +75,11 @@ Plan rooms with standards for meetings expansion using the **Room planner** wiza
 
 1. From the left-hand navigation, Select Inventory, then choose **Plan Rooms**.
 
-![Screenshot of Inventory](../media/standards-and-room-planner-009.png)
+![Screenshot of Inventory](../media/standards-and-room-planner-010.png)
 
 1. Add rooms to the planner from your location directory.
 
-![Screenshot of](../media/standards-and-room-planner-010.png)
+![Screenshot of](../media/standards-and-room-planner-011.png)
 
 1. Set your standards assignment preferences as follows:
 
@@ -89,15 +89,15 @@ Plan rooms with standards for meetings expansion using the **Room planner** wiza
 
 1. Select **Organization admin will assign the best solution...**
 
-![Screenshot of room planning method options](../media/standards-and-room-planner-011.png)
+![Screenshot of room planning method options](../media/standards-and-room-planner-012.png)
 
 You can bulk assign standards to multiple rooms. 
 
 1. Check multiple rooms beneath **Room Name**.
 
-![Screenshot of multiple Rooms Planning](../media/standards-and-room-planner-012.png)
+![Screenshot of multiple Rooms Planning](../media/standards-and-room-planner-013.png)
 
-![Screenshot of a bulk assignment](../media/standards-and-room-planner-013.png)
+![Screenshot of a bulk assignment](../media/standards-and-room-planner-014.png)
 
 If you have more than one standard available for a location, region or site, select a standard from the **Standard Assignment** list to assign to a meeting room displayed beneath **Room name**.
 
