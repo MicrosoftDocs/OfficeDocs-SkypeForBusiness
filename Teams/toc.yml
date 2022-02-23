@@ -1556,7 +1556,7 @@ items:
       href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
     - name: All industries
       items: 
-        - name: Virtual Visits
+        - name: Bookings in Teams
           items: 
             - name: Virtual Visits with Teams and Bookings
               href: expand-teams-across-your-org/bookings-virtual-visits.md
