@@ -30,7 +30,7 @@ In most cases, after app developers publish an app update, the new version autom
 * A bot's SupportsCalling, SupportsVideo , and SupportsFiles capability was added
 * A messaging extension was added
 * A new connector was added
-* Properties inside "webApplicationInfo" changed
+* Permissions inside "Authorization" were added or changed
 
 ![new version available.](media/manage-your-custom-apps-update1.png)
 
