@@ -464,6 +464,8 @@ items:
               href: teams-analytics-and-reports/teams-live-event-usage-report.md
             - name: Teams information protection license report
               href: teams-analytics-and-reports/information-protection-license-report.md
+            - name: Teams Virtual Visits usage report
+              href: teams-analytics-and-reports/virtual-visits-usage-report.md
               
     - name: Log files, service health, and support
       items:
@@ -1560,6 +1562,11 @@ items:
               href: expand-teams-across-your-org/bookings-virtual-visits.md
             - name: Manage the Bookings app
               href: bookings-app-admin.md
+            - name: Manage the join experience on mobile browsers
+              href: expand-teams-across-your-org/mobile-browser-join.md
+            - name: Virtual Visits usage report
+              href: teams-analytics-and-reports/virtual-visits-usage-report.md             
+            
         - name: Shifts for Teams
           items: 
             - name: Get started with Shifts
@@ -1678,6 +1685,8 @@ items:
               href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
             - name: Virtual Visits with Teams and Bookings
               href: expand-teams-across-your-org/bookings-virtual-visits.md
+            - name: Virtual Visits usage report
+              href: teams-analytics-and-reports/virtual-visits-usage-report.md  
             - name: Manage the join experience on mobile browsers
               href: expand-teams-across-your-org/mobile-browser-join.md              
         - name: View and assign policy packages
