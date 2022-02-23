@@ -1,5 +1,5 @@
 ﻿---
-title: Microsoft Teams Rooms Health and Usage
+title: Microsoft Teams Rooms Standards and Room planning
 author: donnah007
 ms.author: v-donnahill
 manager: serdars
@@ -31,10 +31,9 @@ This page also has a command bar from where you can launch the  **Create a stand
 ![Screenshot of home page for creating Standards](../media/standards-and-room-planner-001.png)
 ### Create Standard
 
-
 **To launch the **Create a standard** workflow**
 
-1. Select  **Create Standard**, then provide general details such as name and description for the standard.
+1. Select **Create Standard**, then provide general details such as name and description for the standard.
 
   ![Screenshot of Standards General Details](../media/standards-and-room-planner-002.png)
 
@@ -44,17 +43,15 @@ This page also has a command bar from where you can launch the  **Create a stand
 
 1. Select your choice of meeting room device from the recommended Teams certified devices in your inventory of hardware.
 
-   ![Screenshot of Standards Select Recommended devices](../media/standards-and-room-planner-003c.png)
+   ![Screenshot of Standards Select Recommended devices](../media/standards-and-room-planner-004.png)
 
 1. Review the MTR Standard information.
 
-   ![Screenshot of Standards Review before publishing](../media/standards-and-room-planner-004
-.png)
+   ![Screenshot of Standards Review before publishing](../media/standards-and-room-planner-005.png)
 
-   1. Publish your standards to a region, site, building or a specific meeting room.
+1. Publish your standards to a region, site, building or a specific meeting room.
 
-![Screenshot of places to publish the standards.](../media/standards-and-room-planner-006
-.png)
+   ![Screenshot of places to publish the standards.](../media/standards-and-room-planner-006.png)
 
 Once you've completed the workflow, the standard is created successfully and published to the site, region, building, or meeting room. Now these standards are to be used for planning purposes.
 
