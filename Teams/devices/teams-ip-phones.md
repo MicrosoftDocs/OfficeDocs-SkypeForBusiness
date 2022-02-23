@@ -66,8 +66,9 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Current certification end date | Room size                                        |  Android OS version    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
+| Logitech Roommate | `1.4.71` | September 3, 2024  | Large meeting room (4.5m x 8.5m)  |   10  |
 | EPOS EXPAND 80T | `1.2.2.21182.10` | August 5, 2023 | Bundled with the EPOS Vision 3T | 9 |
-| Logitech Tap Device     | `1.2.982`     |   September 3, 2024  | Compatible with Logitech Rally Bar and Rally Bar Mini | 10 |
+| Logitech Tap Device     | `1.2.982`  |   September 3, 2024  | Compatible with Logitech Rally Bar and Rally Bar Mini | 10 |
 | Logitech Rally Bar Mini | `1.2.982`     |   September 3, 2024  |    Small Meeting Room (4.5 m x 4.5 m) | 10 |
 | Logitech Rally Bar      | `1.2.788`     |   September 3, 2024  |    Medium size room (4.5 m x 6 m)       | 10 |
 | AudioCodes RXV80 | `1.9.155`        |   August 5, 2023  | Focus room(3m x 3m) </br> Small meeting room(4.5 m x 4.5 m) | 9 |

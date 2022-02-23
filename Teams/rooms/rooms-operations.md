@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Teams Rooms maintenance and operations"
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -12,13 +12,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: "Read this topic to learn about management of Microsoft Teams Rooms."
+description: "Learn about managing Microsoft Teams Rooms."
 ---
 
 # Microsoft Teams Rooms maintenance and operations
  
-Read this topic to learn about management of Microsoft Teams Rooms.
-  
+ 
 Microsoft Teams Rooms is Microsoft's conferencing solution designed to transform your meeting room into a rich, collaborative experience. Users will enjoy its familiar Microsoft Teams or Skype for Business interface and IT administrators will appreciate an easily deployed and managed Windows 10 Teams Rooms app. Microsoft Teams Rooms is designed to leverage existing equipment for ease of installation to bring Microsoft Teams or Skype for Business into your meeting room.
     
 ## Collecting logs on Microsoft Teams Rooms
@@ -204,18 +203,9 @@ Copy-Item $movefile $targetDevice
 
 By default, Microsoft Teams Rooms attempts to connect to the Windows Store to get the latest version of Microsoft Teams Rooms software. Therefore, Teams Rooms requires regular internet access. Before contacting Microsoft with support issues, be sure Microsoft Teams Rooms is loaded with the latest version of the app.
   
-Microsoft Teams Rooms connects to Windows Update to retrieve operating system and peripheral device firmware updates. Teams Room is configured to install them starting at 2:00AM local time.
-  
-If you must manage updates manually due to limitations in accessing Windows store, and are therefore unable to follow the normal procedure for [Microsoft Store for Business](https://businessstore.microsoft.com/store) to [Distribute offline apps](/microsoft-store/distribute-offline-apps), you can acquire the appropriate APPX file and dependencies from the [deployment kit](https://go.microsoft.com/fwlink/?linkid=851168) (from the instructions to [Configure a Microsoft Teams Rooms console](console.md)) that can be used with Configuration Manager. The deployment kit release lags behind the store release, so it might not always match the latest available build.
-  
-### To update using PowerShell
+Microsoft Teams Rooms connects to Windows Update to retrieve operating system and peripheral device firmware updates. It also connects to the Microsoft Store to retrieve application updates.
 
-1. Extract the package from the installation [MSI](https://go.microsoft.com/fwlink/?linkid=851168) to a share the device can access.
-2. Run the following script targeting the Microsoft Teams Rooms devices, changing \<share\> to the device share as appropriate:
-    
-    ```PowerShell
-    Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
-    ```
+If you need to manage application updates manually but can't follow the normal procedure for [Microsoft Store for Business](https://businessstore.microsoft.com/store) to [Distribute offline apps](/microsoft-store/distribute-offline-apps), you can acquire Teams Rooms update packages to perform app updates on supported operating systems. The update release may lag behind the store release, and it might not always match the latest available build. See [Manually Update a Microsoft Teams Rooms device](manual-update.md) to learn more.
 
 ## Admin mode and device management
 <a name="AdminMode"> </a>
