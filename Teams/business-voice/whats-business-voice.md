@@ -31,11 +31,11 @@ ms.custom:
 >
 > Unlike Business Voice, Teams Phone with Calling Plan licenses don't include Teams Audio Conferencing capabilities. Audio Conferencing is now free to Microsoft 365 subscribers. To learn about Audio Conferencing, see [Audio Conferencing in Microsoft 365](../audio-conferencing-in-office-365.md).  
 
-The Microsoft Teams Phone System with Calling Plan bundle is Microsoft’s all-in-the-cloud solution that makes it easy for organizations to turn Teams into a powerful and flexible telephone system. Phone System with Calling Plan provides Private Branch Exchange (PBX) capabilities and calls to the Public Switched Telephone Network (PSTN).
+Microsoft Teams Phone System with Calling Plan is Microsoft’s all-in-the-cloud solution that makes it easy for organizations to turn Teams into a powerful and flexible telephone system. Phone System with Calling Plan provides Private Branch Exchange (PBX) capabilities and calls to the Public Switched Telephone Network (PSTN).
 
 You can set up both toll and toll-free numbers, call menus to help callers get to the right department, call queues for high-traffic phone numbers, and more. You can even give people their own phone numbers so they can receive calls directly.
 
-This article provides guidance to small and medium businesses on getting started with the Teams Phone System with Calling Plan bundle.
+This article provides guidance to small and medium businesses on getting started with Teams Phone System with Calling Plan.
 
 - Learn about all your Microsoft voice solutions by reading [Plan your Teams voice solution](../cloud-voice-landing-page.md).
 - To view all your PSTN connectivity options, see [PSTN connectivity options](../pstn-connectivity.md).
@@ -46,11 +46,11 @@ This article provides guidance to small and medium businesses on getting started
 
 ## Guidance articles for small and medium businesses
 
-These articles will help your business plan, set up, and manage your Phone System with Calling Plan bundle telephony solution.
+These articles will help your business plan, set up, and manage Phone System with Calling Plan.
 
 | Article | Description |
 |---------|-------------|
-| [Check country and region availability](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) | See which Teams Phone features and Calling Plans are available in your country and region |
+| [Check country and region availability](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) | See if Phone System and Calling Plans are available in your country and region |
 | [Check your internet connection](../business-voice/get-ready-internet.md) | Determine if your internet connection is sufficient for Phone System with Calling Plan |
 | [Get help from a reseller or partner](../business-voice/reseller-partner-support.md) | See how a Microsoft reseller or partner can help you find the right voice solution if Phone System with Calling Plan is not available in your region |
 | [Set up Phone System with Calling Plan for small and medium businesses](../business-voice/set-up-overview.md) | Follow this step-by-step guide for a basic set up of Phone System with Calling Plan |
@@ -88,7 +88,7 @@ For example, you might have ten factory employees and five office employees. The
 
 Phone System with Calling Plan includes a Domestic Calling Plan so users can make and receive calls from PSTN phone numbers. Microsoft Teams Calling Plans use a monthly pool of minutes. The monthly pool is based on the number of assigned Teams Phone with Calling Plan licenses in each country or region. When a user makes a phone call, the number of minutes used for that call is deducted from the monthly pool. At the beginning of each month, the balance of minutes in the pool is reset.
 
-Calling plan pools are specific to the country or region in which the users are located and the type of calling plan (domestic or domestic and international). Users in a country or region can only use minutes from the calling plan pool in their country or region. Minutes in a calling plan pool in one country or region can't be transferred to a pool in another country or region.
+Calling plan pools are specific to the country or region in which the users are located and the type of calling plan (Domestic or Domestic and International). Users in a country or region can only use minutes from the calling plan pool in their country or region. Minutes in a calling plan pool in one country or region can't be transferred to a pool in another country or region.
 
 What happens when all the minutes in a calling plan pool are used up depends on if you have Communications Credits available or not. If you have Communications Credits available, Teams Phone will start using them. If you don't have credits available, users won't be able to make phone calls outside your organization until the calling plan pool is reset at the beginning of the next month. For more information on Communication Credits, read the [Communication Credits](#communications-credits) section in this article.
 
