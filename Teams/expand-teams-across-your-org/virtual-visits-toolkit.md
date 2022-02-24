@@ -96,3 +96,16 @@ Make the most of Virtual Visits by making sure your staff members know how to co
 [Learn how to join a virtual visit](https://support.microsoft.com/office/join-a-bookings-appointment-as-an-attendee-95cea12d-2220-421f-a663-6efb20913c7f)
 
 ### Customize your infographic
+
+1. Choose one of three pre-made infographics depending on your organization's needs:
+    1. Healthcare
+    2. Financial services
+    3. Retail
+
+2. Customize the infographic in PowerPoint.
+    1. Use your organization's colors and preferred fonts.
+    2. Add your organization's logo or branded images.
+    3. Link to pages on your website such as your booking page, billing information, or homepage.
+    4. Add any additional information that your customers need to know before joining a Virtual Visit.
+
+3. Export your customized infographic as a PDF.
