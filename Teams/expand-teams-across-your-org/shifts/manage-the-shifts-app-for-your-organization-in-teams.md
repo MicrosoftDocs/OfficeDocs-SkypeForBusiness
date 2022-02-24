@@ -2,7 +2,7 @@
 title: Manage the Shifts app for your organization
 author: LanaChin
 ms.author: v-lanachin
-ms.reviewer: lisawu,gumariam
+ms.reviewer: aaku
 manager: samanro
 ms.topic: article
 audience: admin
@@ -11,6 +11,7 @@ search.appverid: MET150
 searchScope:
   - Microsoft Teams
   - Microsoft Cloud for Healthcare
+  - Microsoft Cloud for Retail
 description: Learn how to set up and manage the Shifts app in Teams for frontline workers in your organization.
 f1.keywords:
 - NOCSH
@@ -19,15 +20,13 @@ ms.collection:
   - M365-collaboration
   - Teams_ITAdmin_FLW
   - microsoftcloud-healthcare
+  - microsoftcloud-retail
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 ---
 
 # Manage the Shifts app for your organization in Microsoft Teams
-
-> [!IMPORTANT]
-> Effective June 30, 2020, Microsoft StaffHub has been retired. We're building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time. StaffHub stopped working for all users on June 30, 2020. Anyone who tries to open StaffHub is shown a message directing them to download Teams. To learn more, see [Microsoft StaffHub has been retired](microsoft-staffhub-to-be-retired.md).  
 
 ## Overview of Shifts
 
@@ -48,6 +47,10 @@ Shifts is available in all Enterprise SKUs where Teams is available.
 ## Location of Shifts data
 
 Shifts data is currently stored in Azure in data centers in North America, Western Europe, and Asia Pacific. For more information about where data is stored, see [Where is my data](http://o365datacentermap.azurewebsites.net/)?
+
+## Shifts data
+
+To learn more about where Shifts data is stored, and retention, retrieval, and encryption of Shifts data, see [Shifts data FAQ](shifts-data-faq.md).
 
 ## Set up Shifts
 
@@ -82,5 +85,7 @@ Before you can search the audit log, you have to first turn on auditing in the [
 
 ## Related topics
 
+- [Shifts for Teams](../shifts-for-teams-landing-page.md)
 - [Shifts Help for frontline workers](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+- [Shifts connectors](shifts-connectors.md)
 - [Assign policies to your users in Teams](../../policy-assignment-overview.md)

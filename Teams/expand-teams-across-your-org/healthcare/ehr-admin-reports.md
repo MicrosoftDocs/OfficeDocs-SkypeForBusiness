@@ -1,7 +1,7 @@
 ---
-title: Teams for virtual visits -  EHR connector admin reports
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: Virtual Visits in Teams -  EHR connector admin reports
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -33,7 +33,7 @@ You can see the Teams EHR connector admin report by going to the Microsoft Teams
 
 Access the report from the Microsoft Teams admin center dashboard.
 
- ![a dialog of the virtual visits allocations and limits.](../../media/admin-connector-report.png)
+ ![a dialog of Virtual Visits allocations and limits.](../../media/admin-connector-report.png)
 
 The dialog provides the following data:
 
@@ -41,9 +41,9 @@ The dialog provides the following data:
 - Remaining allocation
 - Completed visits
 
-You can use the report dialog to buy more virtual visits.
+You can use the report dialog to buy more Virtual Visits.
 
 ## Related articles
 
-- [Virtual visits with Teams - Integration into Cerner EHR](ehr-admin-cerner.md)
-- [Virtual visits with Teams - Integration into Epic EHR](ehr-admin.md)
+- [Virtual Visits with Teams - Integration into Cerner EHR](ehr-admin-cerner.md)
+- [Virtual Visits with Teams - Integration into Epic EHR](ehr-admin.md)
