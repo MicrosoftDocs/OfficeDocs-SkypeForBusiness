@@ -337,6 +337,26 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 To learn more, see [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation).
 
+## Edit policy assignments in bulk
+
+Bulk policy reassignment lets you unassign custom policies and reassign the Global (Org-wide default) policy to individual users in bulk. You can do this in the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
+
+1. Go to **Users** > **Manage users**.
+2. In the top right corner of the page, select **Bulk policy unassignment** from the **Actions** drop-down menu.
+
+    > [!NOTE]
+    > You can also edit policy assignments on the individual policy pages by choosing a policy and selecting **Manage users**.
+
+3. Select a policy type.
+4. Choose the policy that you want to reassign and select **Fetch** to get the number of users who are currently assigned to that policy.
+
+    > [!IMPORTANT]
+    > When you choose a policy, you're removing **all** of the individually assigned users from that policy.
+
+5. Select **Unassign policy**.
+
+After policy reassignment completes, you can review the operation details in the **Activity log**.
+
 ## Related topics
 
 - [Manage Teams with policies](manage-teams-with-policies.md)
