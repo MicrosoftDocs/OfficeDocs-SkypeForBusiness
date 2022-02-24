@@ -153,7 +153,6 @@ You manage Teams through the Microsoft Teams PowerShell module and the Skype for
 
 If this is something you're interested in, send us a request through the [Teams feedback portal](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
 
-
 [!INCLUDE [uservoice-disclaimer-note](../../includes/uservoice-disclaimer-note.md)]
 
 #### Is reporting available to view Shifts usage across my organization?
