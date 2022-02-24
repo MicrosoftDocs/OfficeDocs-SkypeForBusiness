@@ -20,6 +20,7 @@ f1keywords:
 ---
 
 # Standards and Room planner
+
 Using smart recommendations from your environment, you can build and curate standards. You can then publish your standards to a region, site, building, or a specific meeting room to share planned rooms with partners to track room deployments.
 
 ### View meeting room types
@@ -31,15 +32,17 @@ This page also has a command bar from where you can launch the  **Create a stand
 ![Screenshot of home page for creating Standards](../media/standards-and-room-planner-001.png)
 ### Create Standard
 
-**To launch the **Create a standard** workflow**
+Use the **Create a Standard** workflow to create a standard.
+
+**To launch the workflow**
 
 1. Select **Create Standard**, then provide general details such as name and description for the standard.
 
-  ![Screenshot of Standards General Details](../media/standards-and-room-planner-002.png)
+   ![Screenshot of Standards General Details](../media/standards-and-room-planner-002.png)
 
 1. Select your meeting room type for this standard.
 
-   ![Screenshot of Standards Select Meeting Room](../media/standards-and-room-planner-003.png)
+  ![Screenshot of Standards Select Meeting Room](../media/standards-and-room-planner-003.png)
 
 1. Select your choice of meeting room device from the recommended Teams certified devices in your inventory of hardware.
 
@@ -74,11 +77,11 @@ Plan rooms with standards for meetings expansion using the **Room planner** wiza
 
 1. From the left-hand navigation, Select Inventory, then choose **Plan Rooms**.
 
-![Screenshot of Inventory](../media/standards-and-room-planner-010.png)
+   ![Screenshot of Inventory for room planning](../media/standards-and-room-planner-010.png)
 
 1. Add rooms to the planner from your location directory.
 
-  ![Screenshot of](../media/standards-and-room-planner-011.png)
+   ![Screenshot of room selection for standards](../media/standards-and-room-planner-011.png)
 
 1. Set your standards assignment preferences as follows:
 
@@ -88,9 +91,9 @@ Plan rooms with standards for meetings expansion using the **Room planner** wiza
 
 1. Select **Organization admin will assign the best solution...**
 
-![Screenshot of room planning method options](../media/standards-and-room-planner-012.png)
+   ![Screenshot of room planning method options](../media/standards-and-room-planner-012.png)
 
-You can bulk assign standards to multiple rooms. 
+You can bulk assign standards to multiple rooms.
 
 1. Check multiple rooms beneath **Room Name**.
 
