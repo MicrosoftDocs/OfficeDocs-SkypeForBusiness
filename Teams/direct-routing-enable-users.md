@@ -86,6 +86,27 @@ Direct Routing requires the user to be homed online. You can check by looking at
 
 After you've created the user and assigned a license, you must configure the user's online phone settings. Note that the configuration of Cloud Voicemail for the user is automatic; no additional configuration needs to be done.
 
+You can configure the phone number by using the Teams admin center or by using Teams PowerShell.
+
+### Use Teams admin center
+
+1. Go to **Users** -> **Manage users**.
+
+2. Select a user.
+
+2. Under **Account** **General information**, select **Edit**.
+
+3. Under **Assign phone number**, from the **Phone number type** drop-down menu, select **Direct Routing**.
+
+4. Enter an assigned phone number and a phone number extension if appicable.
+
+5. Select **Apply.**
+
+The account general information will now show the assigned phone number and Direct Routing as the phone number type.
+
+
+### Use PowerShell
+
 1. Connect to a Microsoft Teams PowerShell session. 
 
 2. The next steps depend on whether you are managing the user's phone number on-premises or online. If you are managing the phone number on-premises, you must use the on-premises Skype for Business Management Shell, Control Panel, or one of the methods explained in [Decide how to manage attributes after decommisioning](/skypeforbusiness/hybrid/cloud-consolidation-managing-attributes).
