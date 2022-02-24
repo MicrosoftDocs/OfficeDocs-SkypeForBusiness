@@ -18,12 +18,12 @@ f1.keywords:
 description: "Learn how to enable users for Microsoft Teams Phone Direct Routing."
 ---
 
-# Enable users for Direct Routing, voice, and voicemail
+# Enable users for Direct Routing
 
 This article describes how to enable users for Direct Routing. This is step 2 of the following steps for configuring Direct Routing:
 
 - Step 1. [Connect the SBC with Phone System and validate the connection](direct-routing-connect-the-sbc.md) 
-- **Step 2. Enable users for Direct Routing, voice, and voicemail**   (this article)
+- **Step 2. Enable users for Direct Routing**   (this article)
 - Step 3. [Configure voice routing](direct-routing-voice-routing.md)
 - Step 4. [Translate numbers to an alternate format](direct-routing-translate-numbers.md) 
 
@@ -33,8 +33,9 @@ For information on all the steps required for setting up Direct Routing, see [Co
 When you're ready to enable users for Direct Routing, follow these steps: 
 
 1. Create a user in Microsoft 365 and assign a Phone System license.  
-2. Configure the phone number and enable enterprise voice and voicemail. 
-3. Assign Teams Only mode to users.
+2. Ensure that the user is homed online.
+3. Configure the phone number and enable enterprise voice. 
+4. Assign Teams Only mode to users.
 
 ## Create a user and assign the license
 
@@ -81,43 +82,64 @@ Direct Routing requires the user to be homed online. You can check by looking at
  > [!NOTE]
  > All user's phone attributes must be managed online before you [decomission your on-premises Skype for Business environment](/skypeforbusiness/hybrid/decommission-on-prem-overview). 
 
-## Configure the phone number and enable enterprise voice and voicemail online 
+## Configure the phone number and enable enterprise voice 
 
-After you've created the user and assigned a license, you must configure the user's online phone settings. 
+After you've created the user and assigned a license, you must configure the user's online phone settings. Note that the configuration of Cloud Voicemail for the user is automatic; no additional configuration needs to be done.
 
-1. Connect a Microsoft Teams PowerShell session. 
+You can configure the phone number by using the Teams admin center or by using Teams PowerShell.
 
-2. If managing the user's phone number on-premises, issue the command: 
+### Use Teams admin center
 
-    ```PowerShell
-    Set-CsPhoneNumberAssignment -Identity "<User name>" -EnterpriseVoiceEnabled $true
-    ```
-3. If managing the user's phone number online, issue the command: 
+1. Go to **Users** -> **Manage users**.
+
+2. Select a user.
+
+2. Under **Account** **General information**, select **Edit**.
+
+3. Under **Assign phone number**, from the **Phone number type** drop-down menu, select **Direct Routing**.
+
+4. Enter an assigned phone number and a phone number extension if appicable.
+
+5. Select **Apply.**
+
+The account general information will now show the assigned phone number and Direct Routing as the phone number type.
+
+
+### Use PowerShell
+
+1. Connect to a Microsoft Teams PowerShell session. 
+
+2. The next steps depend on whether you are managing the user's phone number on-premises or online. If you are managing the phone number on-premises, you must use the on-premises Skype for Business Management Shell, Control Panel, or one of the methods explained in [Decide how to manage attributes after decommisioning](/skypeforbusiness/hybrid/cloud-consolidation-managing-attributes).
+
+   - If you are managing the user's phone number on-premises, you need to ensure that the user is Enterprise Voice enabled online by using the following command:
+
+       ```PowerShell
+       Set-CsPhoneNumberAssignment -Identity "<User name>" -EnterpriseVoiceEnabled $true
+       ```
+       
+   - If you are managing the user's phone number online, you need to assign the phone number to the user by using the following command in Teams PowerShell. The user is automatically Enterprise Voice enabled by the command: 
  
-    ```PowerShell
-    Set-CsPhoneNumberAssignment -Identity "<User name>" -PhoneNumber <phone number> -PhoneNumberType DirectRouting
-    ```
+       ```PowerShell
+       Set-CsPhoneNumberAssignment -Identity "<User name>" -PhoneNumber <phone number> -PhoneNumberType DirectRouting
+       ```
     
-    For example, to add a phone number for user "Spencer Low," enter the following: 
+       For example, to add a phone number for user "Spencer Low," enter the following: 
 
-    ```PowerShell
-    Set-CsPhoneNumberAssignment -Identity "spencer.low@contoso.com" -PhoneNumber "+14255388797" -PhoneNumberType DirectRouting
-    ```
-    If the users "Spencer Low" and "Stacy Quinn" share the same base number with unique extensions, enter the following
+       ```PowerShell
+       Set-CsPhoneNumberAssignment -Identity "spencer.low@contoso.com" -PhoneNumber "+14255388797" -PhoneNumberType DirectRouting
+       ```
+       If the users "Spencer Low" and "Stacy Quinn" share the same base number with unique extensions, enter the following
     
-    ```PowerShell
-    Set-CsPhoneNumberAssignment -Identity "spencer.low@contoso.com" -PhoneNumber "+14255388701;ext=1001" -PhoneNumberType DirectRouting
-    Set-CsPhoneNumberAssignment -Identity "stacy.quinn@contoso.com" -PhoneNumber "+14255388701;ext=1002" -PhoneNumberType DirectRouting
-    ```
+       ```PowerShell
+       Set-CsPhoneNumberAssignment -Identity "spencer.low@contoso.com" -PhoneNumber "+14255388701;ext=1001" -PhoneNumberType DirectRouting
+       Set-CsPhoneNumberAssignment -Identity "stacy.quinn@contoso.com" -PhoneNumber "+14255388701;ext=1002" -PhoneNumberType DirectRouting
+       ```
 
     Microsoft recommends, but does not require, that the phone number is configured as a full E.164 phone number with country code. You can configure phone numbers with extensions. These extensions will be used to look up users when the lookup against the base number returns more than one result. This functionality allows companies to configure phone numbers with the same base number and unique extensions. For lookup to be successful, the invite must include the full number with extension as follows:
     
     ```PowerShell
     To: <sip:+14255388701;ext=1001@sbc1.adatum.biz
     ```
-    
-    > [!NOTE]
-    > If the user’s phone number is managed on premises, use on-premises Skype for Business Management Shell or Control Panel to configure the user's phone number. 
 
 
 ## Configure sending calls directly to voicemail
