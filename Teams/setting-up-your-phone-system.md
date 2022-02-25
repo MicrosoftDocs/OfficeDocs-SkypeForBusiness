@@ -66,7 +66,7 @@ Before you can set up users in your organization to make and receive phone calls
 For information on how to manage phone numbers for your users, see the following articles. Be aware that how you manage numbers for a user depends on the PSTN connectivity option you choose.   
 
 - [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) – Provides an overview of phone number types with links to specific articles for acquiring and managing numbers depending on your PSTN connectivity option. 
-Describes the two types of [user phone numbers](manage-phone-numbers-landing-page#user-telephone-numbers). 
+Describes the two types of [user phone numbers](manage-phone-numbers-for-your-organization#user-telephone-numbers). 
  
 - [Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md) – Describes how to assign and manage the phone numbers you’ve acquired. 
  
@@ -82,7 +82,7 @@ You can obtain service numbers from Microsoft that are included in your licensin
 For more information, see:
 
 - [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) – Provides an overview of phone number types with links to specific articles for acquiring and managing numbers depending on your PSTN connectivity option.  
-Describes [service phone numbers](manage-phone-numbers-landing-page#service-telephone-numbers) available from Microsoft that are included in your licensing. For information about service numbers provided by Operator Connect or Direct Routing, contact your provider. 
+Describes [service phone numbers](manage-phone-numbers-for-your-organization#service-telephone-numbers) available from Microsoft that are included in your licensing. For information about service numbers provided by Operator Connect or Direct Routing, contact your provider. 
 
 - [How many telephone numbers can you get](how-many-phone-numbers-can-you-get.md) – Describes how many phone numbers you can get depending on the types of telephone numbers and types of licenses you have bought and assigned. 
 
