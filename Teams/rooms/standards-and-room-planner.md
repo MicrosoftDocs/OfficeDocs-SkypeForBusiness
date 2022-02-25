@@ -30,7 +30,7 @@ On this page, you can view room or meeting space types within your organization.
 This page also has a command bar from where you can launch the  **Create a standard** workflow or navigate to Discovered Devices, Change logs, and Archive.
 
 ![Screenshot of home page for creating Standards](../media/standards-and-room-planner-001.png)
-### Create Standard
+### Create Standards
 
 Use the **Create a Standard** workflow to create a standard.
 
@@ -42,7 +42,7 @@ Use the **Create a Standard** workflow to create a standard.
 
 1. Select your meeting room type for this standard.
 
-  ![Screenshot of Standards Select Meeting Room](../media/standards-and-room-planner-003.png)
+   ![Screenshot of Standards Select Meeting Room](../media/standards-and-room-planner-003.png)
 
 1. Select your choice of meeting room device from the recommended Teams certified devices in your inventory of hardware.
 
