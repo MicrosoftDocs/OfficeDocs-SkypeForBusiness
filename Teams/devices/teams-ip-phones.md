@@ -128,6 +128,8 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+| Poly Trio C60   | `7.2.1.1831`  | 2022 Update #1                        |
+| Poly CCX400/CCX500/CCX600   | `7.2.1.1826`  | 2022 Update #1                 |
 |Crestron UC-2     | `1.0.4.75`    | 2022 Update #1 |
 |Audiocodes C455HD | `1.15.271`    | 2022 Update #1
 |Audiocodes C448HD  | `1.14.500` | 2022 Update #1 |
