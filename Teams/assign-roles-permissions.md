@@ -38,8 +38,8 @@ The table below shows the difference in permissions between an owner and a membe
 | ***Edit private channel name/description** |    No     |    N/A|
 |        ***Delete private channel**         |    Yes     |    No|
 |          **Add shared channel**          |    Yes     |    No|
-| **Edit shared channel name/description** |    No     |    No|
-|        **Delete shared channel**         |    Yes     |    No|
+| **Edit shared channel name/description** |    No     |    No<sup>6</sup>|
+|        **Delete shared channel**         |    Yes     |    No<sup>6</sup>|
 |          **Add members**          |  Yes<sup>3</sup>   |     No<sup>4</sup>    |
 |          **Request to add members**          |  N/A   |     Yes<sup>5</sup>     |
 |           **Add apps**            |    Yes     |    Yes<sup>2</sup>|
@@ -49,6 +49,7 @@ The table below shows the difference in permissions between an owner and a membe
 <sup>3</sup> After adding a member to a team, an owner can also promote a member to owner status. It is also possible for an owner to demote their own status to a member.<br>
 <sup>4</sup> Team members can add other members to a public team.<br>
 <sup>5</sup> While a team member can't directly add members to a private team, they can request someone to be added to a team they're already a member of. When a member requests someone to be added to a team, team owners receive an alert that they have a pending request that they can accept or deny.
+<sup>6</sup> If the team member is a shared channel owner, they can perform this action.
 
 *To learn more about permissions for private channels, see [Private channels in Teams](private-channels.md).
 

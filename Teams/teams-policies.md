@@ -32,7 +32,7 @@ As an admin, you can use policies in Microsoft Teams to control what users in yo
 
 You manage teams policies by going to **Teams** > **Teams policies** in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create and assign custom policies. Users in your organization will automatically get the global policy unless you create and assign a custom policy.
 
-You can edit the global policy or create and assign a custom policy. After you edit the global policy or assign a policy, it can take a few hours for changes to take effect.
+You can edit the global policy or create and assign a custom policy. After you edit the global policy or assign a policy, it may take 24 hours for changes to take effect.
 
 ## Channel policies
 
