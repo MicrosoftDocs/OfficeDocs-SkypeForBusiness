@@ -106,7 +106,7 @@ If a user is granted access to a file, folder, or notebook in a shared channel t
 
 If an existing notebook is added as a tab to a shared channel, access to the shared channel isn't changed and the notebook retains its existing permissions.
 
-## Shared channel limitations
+## Shared channel limits
 
 The following table describes the maximum number of channels and members.
 
