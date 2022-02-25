@@ -89,7 +89,7 @@ Make the most of Virtual Visits by making sure your staff members know how to co
 
 - [Learn how to use the Bookings app in Teams](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5)
 - [Learn how to join a Bookings appointment](https://support.microsoft.com/office/join-a-bookings-appointment-attendees-3deb7bde-3ea3-4b41-8a06-741ad0db9fc0)
-- [Conduct a virtual visit](/microsoftteams/expand-teams-across-your-org/bookings-virtual-visits#conduct-a-virtual-visit)
+- [Conduct a virtual visit](/microsoftteams/expand-teams-across-your-org/bookings-virtual-visits#conduct-a-visit)
 
 ## Resources for your clients
 
