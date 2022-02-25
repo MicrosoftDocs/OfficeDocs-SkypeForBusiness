@@ -56,7 +56,7 @@ The delivery of a voicemail to an Exchange mailbox is done using Simple Mail Tra
 
 ## Manage Cloud Voicemail for users 
 
- To manage Cloud Voicemail features for your users, use the Teams PowerShell module as follows. Some Cloud Voicemail features apply to groups of users and some apply to individual users.
+To manage Cloud Voicemail features for your users, use the Teams PowerShell module as follows. 
 
 To manage Cloud Voicemail features for groups of users, use the [New-CsOnlineVoicemailPolicy](/powershell/module/skype/new-csonlinevoicemailpolicy) cmdlet. 
 You can configure and assign existing or new voicemail policies for features such as call answering rules, voicemail transcription, transcription profanity masking, transcription translation, and system prompt language. For more information, see [New-CsOnlineVoicemailPolicy](/powershell/module/skype/new-csonlinevoicemailpolicy).
