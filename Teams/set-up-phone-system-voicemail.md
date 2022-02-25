@@ -64,7 +64,7 @@ You can configure and assign existing or new voicemail policies for features suc
 To manage Cloud Voicemail settings for individual users, use the  [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) cmdlet. Cloud Voicemail settings that you can apply to individual users include call answering rules, prompt language, text to speech default, and vacation greetings. For more information, see [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings).
 (Note that your end users can also configure these settings in the Teams client by going to **Settings** -> **Calls** -> **Configure Voicemail**.)
 
-You can also disable Cloud Voicemail for a user by using the [Set-CsOnlineVoicemailUserSettings] cmdlet and setting the VoicemailEnabled parameter to $false. This setting will ensure that Cloud Voicemail can no longer record a voicemail for the user.
+You can also disable Cloud Voicemail for a user by using the [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) cmdlet and setting the VoicemailEnabled parameter to $false. This setting will ensure that Cloud Voicemail can no longer record a voicemail for the user.
 
 
 
