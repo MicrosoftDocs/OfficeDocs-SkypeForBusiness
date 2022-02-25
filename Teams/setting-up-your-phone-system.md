@@ -75,7 +75,7 @@ Describes the two types of [user phone numbers](manage-phone-numbers-landing-pag
 
 ## Step 4: Get phone numbers for services (call queues, auto attendants)
 
-In addition to getting phone numbers for your users from Microsoft 365, you can acquire toll or toll-free phone numbers for services such as auto attendants and call queues. A service number can handle hundreds of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously.   
+In addition to getting phone numbers for your users, you can acquire toll or toll-free phone numbers for services such as auto attendants and call queues. A service number can handle hundreds of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously.   
 
 You can obtain service numbers from Microsoft that are included in your licensing. If you have PSTN connectivity through Operator Connect or Direct Routing, you can use service numbers provided by your own carrier or operator. 
 
