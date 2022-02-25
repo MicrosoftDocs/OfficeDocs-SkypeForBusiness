@@ -53,20 +53,20 @@ The following table shows a comparison of Teams features for each channel type.
 |Team owner can control channel creation|Yes|Yes|No|
 |Team owner visibility into channel|Yes|No|No|
 |Moderation|Yes|No|No|
+|Tags|Yes|No|No|
+|Bots, connectors, messaging extensions|Yes|No|No|
+|Missed activity email|Yes|No|No|
 |Analytics|Yes|Yes|No|
 |Dedicated channel site|No|Yes|Yes|
-|Tags|Yes|No|No|
 |Channel meetings - meet now|Yes|Yes|Yes|
 |Channel meetings - scheduled meeting|Yes|No|Yes|
-|Scheduled meeting Invite deliver to recipient's inbox|Yes|No|No|
 |Channel meetings - recording and transcription|Yes|No|No|
 |Channel meetings - breakout rooms|Yes|No|No|
-|Bots, connectors, messaging extensions|Yes|No|No|
+|Scheduled meeting Invite delivered to recipient's inbox|Yes|No|No|
 |Planner|Yes|No|No|
 |WhiteBoard|Yes|No|No|
 |Power BI|Yes|No|No|
 |Class teams|Yes|Yes|No|
-|Missed activity email|Yes|No|No|
 
 ## Membership, roles, and settings
 
@@ -102,29 +102,6 @@ One key early planning activity to engage users with Teams is to help people thi
 > When you create a new team or a private or shared channel in Teams, a team site in SharePoint gets automatically created. To edit the site description or classification for this team site, go to the corresponding channel's [settings in Microsoft Teams](https://support.microsoft.com/office/bf39798f-90d2-44fb-a750-55fa05a56f1d).
 >
 > Learn more about managing [Microsoft Teams connected teams sites](/SharePoint/teams-connected-sites).
-
-## Example Teams
-
-Below are a few functional examples of how different types of users may approach setting up their teams, channels, and apps (tabs/connectors/bots). This may be useful to help kick off a conversation about Teams with your user community. As you think about how to implement Teams in your organization, remember that you can provide guidance on how to structure their teams; however, users have control of how they can self-organize. These are just examples to help you start thinking through the possibilities.
-
-Teams is great for breaking down organizational silos and promoting cross-functional teams, so encourage your users to think about functional teams rather than organizational boundaries.
-
-|Types of Teams  |Potential Channels  |Apps (Tabs ![An icon depicting a folder with a tab.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Connectors ![An icon depicting connecting blocks](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![An icon depicting a small robot](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
-|---------|---------|---------|
-|Sales     |Annual Sales Meeting<br></br> Quarterly Business Review<br></br> Monthly Sales Pipeline Review<br></br> Sales Playbook |Power BI<br></br>Trello<br></br>CRM<br></br>Summarize Bot         |
-|Public Relations     |Press Releases<br></br>News and Updates<br></br>Fact Checking         |RSS Feed<br></br>Twitter         |
-|Event Planning     |Marketing<br></br>Logistics and Scheduling<br></br>Venue<br></br>Budget         |Twitter<br></br>Facebook<br></br>Planner<br></br>PDF         |
-|Marketing/Go to Market   |Market Research<br></br>Messaging Pillars<br></br>Communications Plan<br></br>Marketing Bill of Materials        |YouTube<br></br>Microsoft Stream<br></br>Twitter<br></br>MailChimp         |
-|Technical Operations    |Incident Management<br></br>Sprint Planning<br></br>Work Items<br></br>Infrastructure and Operations         |Team Services<br></br>Jira<br></br>AzureBot         |
-|Product Team|   |Strategy<br></br>Marketing<br></br>Sales<br></br>Operations<br></br>Insights<br></br>Services & Support         |Power BI<br></br>Team Services         |
-|Finance    |Current Fiscal<br></br>FY Planning<br></br>Forecasting<br></br>Accounts Receivable<br></br>Accounts Payable         |Power BI<br></br>Google Analytics         |
-|Logistics     |Warehouse Operations<br></br>Vehicle Maintenance<br></br>Driver Rosters         |Weather Service<br></br>Travel / Road Disruptions<br></br>Planner<br></br>UPS Bot         |
-|HR     |Talent Management<br></br>Recruiting<br></br>Performance Review Planning<br></br>Morale         |HR Tools<br></br>External Job Posting Sites<br></br>Growbot         |
-|Cross-organizational <br></br>Virtual Team |Strategy<br></br>Workforce Development<br></br>Compete & Research         |Power BI<br></br>Microsoft Stream         |
-
-It's possible to create teams that align with the organizational structure. This is best used for leaders who want to drive morale, have team-specific reviews, clarify employee onboarding processes, discuss workforce plans, and increase visibility across a diverse workforce.  
-
-![Hierarchy diagram of teams and channels organized in Microsoft Teams.](media/overview-of-teams-and-channels-image1.png)
 
 ## Org-wide teams
 

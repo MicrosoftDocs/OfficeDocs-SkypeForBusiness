@@ -30,8 +30,11 @@ Only members of shared channels can see and participate in shared channels that 
 
 When a shared channel is created, it's linked to the parent team and can't be moved to a different team. Additionally, shared channels can't be converted to standard channels and vice versa.
 
-> [!NOTE]
-> Shared channels is in preview and requires that you have configured [Microsoft Teams Public Preview](/MicrosoftTeams/public-preview-doc-updates). If you plan to share channels with other organizations, they must also have configured Teams public preview.
+## Best practices for the shared channels preview
+
+Shared channels is in preview and requires that you have configured [Microsoft Teams Public Preview](/MicrosoftTeams/public-preview-doc-updates). If you plan to share channels with other organizations, they must also have configured Teams public preview.
+
+We recommend that you enable the preview for all of your users. Users for whom the preview is not enabled cannot create shared channels, but can still be added to shared channels. Enabling the preview for all users can help ensure a consistent experience.
 
 ## Getting started with shared channels
 
@@ -47,9 +50,19 @@ By default, any team owner or team member can create a shared channel. Guests ca
 
 The person who creates a shared channel is the shared channel owner and only the shared channel owner can directly add or remove people from it. (You can add more than one owner if you want.) A shared channel owner can add anyone from the organization to a shared channel they created. Members of a shared channel have a secure conversation space, and when new members are added, they can see all conversations (even old conversations) in that shared channel.
 
-Team owners can see the names of all shared channels in their team and can also delete any shared channel in the team. (A deleted shared channel can be restored within 30 days after it's deleted). Team owners can't see the files in a shared channel or the conversations and member list of a shared channel unless they are members of that shared channel.
+Team owners can see the names of all shared channels in their team and can also delete any shared channel in the team. Team owners can't see the files in a shared channel or the conversations and member list of a shared channel unless they are members of that shared channel.
 
 Team members can only see shared channels that they've been added to.
+
+Cloning a team will not clone the associated shared channels.
+
+## Shared channel deletion
+
+Deleted shared channel can be restored within 30 days after deletion. When a deleted shared channel is restored, all previous memberships (individual and team sharing) will be restored.
+
+Deleted teams can be restored within 30 days after deletion. When a team is deleted, all shared channels will also be deleted. When a deleted team is restored, all shared channels will be restored as well with all sharing relationships.
+
+When a team is archived, individual sharing will remain intact, but sharing with teams other than the parent team will be removed. When archived team is unarchived, all shared channels will be restored with individual sharing only.
 
 ## Adding and removing owners and members
 
