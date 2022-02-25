@@ -84,8 +84,7 @@ The following table outlines what actions owners, members, and guests can do in 
 Each private channel has its own SharePoint site. The separate site is to ensure access to private channel files is restricted to only members of the private channel. These sites are created with a document library by default, and can be easily enhanced to a full-featured site through the [site management interface](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Each site is created in the same geographic region as the site for the parent team. These lightweight sites have a custom template ID, "TEAMCHANNEL#0", for easier management through PowerShell and Graph API. 
 
 > [!NOTE]
-> Only users with owner or member permissions granted in Microsoft Teams will have access to content in the private channel site.
-> Private channel SharePoint sites created after June 28, 2021 will have the custom template ID TEAMCHANNEL#1.
+> Only people with owner or member permissions in the channel will have access to content in the shared channel site. People in the parent team and admins won't have access unless they are also channel members.
 
 A private channel site syncs data classification and inherits guest access permissions from the site of the parent team. Membership to the site owner and member groups are kept in sync with the membership of the private channel within Teams. Site permissions for a private channel site can't be managed independently through SharePoint. 
 
