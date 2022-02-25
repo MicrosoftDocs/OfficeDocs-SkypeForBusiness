@@ -280,7 +280,7 @@ The following are the latest Microsoft Teams Panels app and firmware versions.
 
 |Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-|2022 Update #1  | Febuary 22, 2022 |`1449/1.0.96.2021726501` | `5.0.5304.0 `  | `322` |
+|2022 Update #1  | February 22, 2022 |`1449/1.0.96.2021726501` | `5.0.5304.0 `  | `322` |
 |2021 Update #1  | August 12, 2021 |`1449/1.0.97.2021070601`   | `5.0.5211.0`   |  `268`|
 
 #### Firmware versions
