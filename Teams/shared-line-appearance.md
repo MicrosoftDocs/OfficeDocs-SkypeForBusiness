@@ -69,7 +69,7 @@ Managers can add up to 25 delegates, and delegates can have up to 25 managers. T
  
 If the delegator and delegate are not in the same geographic location, it is up to the PSTN provider to allow caller ID to show up from a different geographic location for a delegated (on behalf of) call. 
 
-Circluar delegation configuration is not permitted, If the Delegated users also have delegations between them, they will only be able to see thier delegation and not the initial delegation 
+Circular delegation configuration is not permitted. If the delegated users also have delegations between them, they will only be able to see their delegation and not the initial delegation.
  
 ## More information
 
