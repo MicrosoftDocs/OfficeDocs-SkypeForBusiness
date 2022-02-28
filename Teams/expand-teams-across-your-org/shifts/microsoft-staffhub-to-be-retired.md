@@ -65,7 +65,7 @@ The Shifts app in Teams is a schedule management tool that keeps Frontline Worke
 Shifts is available in all Enterprise SKUs where Teams is available.
 
 > [!NOTE]
-> Shifts is available in GCC environments, but not in GCC High or DoD environments.
+> Shifts is available in Government Community Cloud (GCC) environments, but not in GCC High or DoD environments.
 
 #### How do I get Shifts?
 

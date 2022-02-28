@@ -45,7 +45,7 @@ It's important to know that Shifts currently don't support guests. This means th
 Shifts is available in all Enterprise SKUs where Teams is available.
 
 > [!NOTE]
-> Shifts is available in GCC environments, but not in GCC High or DoD environments.
+> Shifts is available in Government Community Cloud (GCC) environments, but not in GCC High or DoD environments.
 
 ## Location of Shifts data
 
