@@ -46,9 +46,9 @@ Sharing channels with people outside your organization also requires that you co
 
 ## Shared channel creation
 
-By default, any team owner or team member can create a shared channel. Guests can't create them. The ability to create shared channels can be managed at the team level and at the organization level. Use [policies](teams-policies.md) to control which users in your organization are allowed to create shared channels. Once you've set the policies, team owners can turn off or turn on the ability for members to create shared channels in the **Settings** tab for a team.
+Only team owners can create a shared channel. Team members and guests can't create them. The ability to create shared channels can be managed at the organization level. Use [policies](teams-policies.md) to control which users in your organization are allowed to create shared channels.
 
-The person who creates a shared channel is the shared channel owner and only the shared channel owner can directly add or remove people from it. (You can add more than one owner if you want.) A shared channel owner can add anyone from the organization to a shared channel they created. Members of a shared channel have a secure conversation space, and when new members are added, they can see all conversations (even old conversations) in that shared channel.
+The person who creates a shared channel becomes the shared channel owner and only the shared channel owner can directly add or remove people from it. (You can add more than one owner if you want.) A shared channel owner can add anyone from the organization to a shared channel they created. Members of a shared channel have a secure conversation space, and when new members are added, they can see all conversations (even old conversations) in that shared channel.
 
 Team owners can see the names of all shared channels in their team and can also delete any shared channel in the team. Team owners can't see the files in a shared channel or the conversations and member list of a shared channel unless they are members of that shared channel.
 
@@ -82,7 +82,7 @@ The following table outlines what actions owners, members, and guests can do in 
 
 |Action  |Team owner|Team member|Team guest|Shared channel owner|Shared channel member|Shared channel external participant|
 |---------|---------|---------|---------|---------|---------|---------|
-|Create shared channel|Admin controlled|Admin and team owner controlled|No|Yes|No|No|
+|Create shared channel|Admin controlled|Admin and team owner controlled|No|N/A|No|No|
 |Delete shared channel|Yes|No|No|Yes|No|No|
 |Leave shared channel|N/A|N/A|N/A|Yes unless they are the last owner|Yes|Yes|
 |Edit shared channel|No|N/A|N/A|Yes|No|No|
@@ -127,7 +127,7 @@ The following table describes the maximum number of channels and members.
 |Members in a team|25,000|Includes all users in the team and direct members in shared channels.|
 |Shared channels per team|50|Hosted and shared with the team. (Includes deleted channels during their 30-day recovery window.)|
 |Teams a channel can be shared with|50|Excluding parent team|
-|Members in a shared channel|1,000 direct members, including up to 50 teams. (Each team counts as one member for this limit.)|Real time updates are only available to 25,000 users at a time and only 25,000 users will appear in the channel list.|
+|Members in a shared channel|1,000 direct members, including up to 50 teams. (Each team the channel is shared with counts as one member for purposes of this limit.)|Real time updates are only available to 25,000 users at a time and only 25,000 users will appear in the channel list.|
 
 The following limitations also apply:
 
