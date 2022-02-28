@@ -44,13 +44,14 @@ It's important to know that Shifts currently don't support guests. This means th
 
 Shifts is available in all Enterprise SKUs where Teams is available.
 
+> [!NOTE]
+> Shifts is available in GCC environments, but not in GCC High or DoD environments.
+
 ## Location of Shifts data
 
-Shifts data is currently stored in Azure in data centers in North America, Western Europe, and Asia Pacific. For more information about where data is stored, see [Where is my data](http://o365datacentermap.azurewebsites.net/)?
+Shifts data is currently stored in Azure in data centers in Asia Pacific (APAC), the European Union (EU), and North America. For more information about where data is stored, see [Where is my data](http://o365datacentermap.azurewebsites.net/)?
 
-## Shifts data
-
-To learn more about where Shifts data is stored, and retention, retrieval, and encryption of Shifts data, see [Shifts data FAQ](shifts-data-faq.md).
+To learn more about Shifts data including storage, retention, retrieval, and encryption of Shifts data, see [Shifts data FAQ](shifts-data-faq.md).
 
 ## Set up Shifts
 
