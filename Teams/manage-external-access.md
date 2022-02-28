@@ -130,8 +130,8 @@ Admins can choose to enable or disable communications with external Teams users 
                1.	Turn on the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting. <br>
                2.	Clear the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.<br>
       *	To let Teams users in your organization communicate with external Teams users whose accounts are not managed by an organization and receive requests to communicate with those external Teams users: <br>
-               1.	Turn on the People in my organization can communicate with Teams users whose accounts aren't managed by an organization setting<br>
-               2.	Select the External users with Teams accounts not managed by an organization can contact users in my organization checkbox<br>
+               1.	Turn on the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.<br>
+               2.	Select the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.<br>
 
 ## Communicate with Skype users
 
