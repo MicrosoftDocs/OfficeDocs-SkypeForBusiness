@@ -19,9 +19,9 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Set up Parents in Microsoft Teams for Education
+# Set up Parent Connection in Microsoft Teams for Education
 
-The Parents feature in Teams for Education helps educators securely connect and engage with the parents and guardians of the students in their class teams using Teams chat, which will scale across the educator's organization. All parent and guardian data is provisioned using School Data Sync, allowing IT staff to smoothly set things up.
+The Parent Connection in Teams for Education helps educators securely connect and engage with the parents and guardians of the students in their class teams using Teams chat, which will scale across the educator's organization. All parent and guardian data is provisioned using School Data Sync, allowing IT staff to smoothly set things up.
 
 Once parents and guardians are set up, they can chat with their student's educators using Teams chat. For guidance on getting parents and guardians connected to educators, see [Connect with educators in Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
 
