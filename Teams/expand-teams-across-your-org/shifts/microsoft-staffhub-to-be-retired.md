@@ -22,7 +22,7 @@ ms.custom: seo-marvel-mar2020
 
 # Microsoft StaffHub has been retired
 
-Effective June 30, 2020, Microsoft StaffHub has been retired. We're building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time.
+Effective June 30, 2020, Microsoft StaffHub has been retired. We're building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and more capabilities will roll out over time.
 
 These changes are part of our continued efforts to empower every employee with Microsoft 365. With capabilities for Frontline Workers now in Teams, every employee in your organization will be able to use Teams to streamline their workday, collaborate with coworkers, and access information and expertise to help them do their best work.
 
@@ -100,7 +100,7 @@ Shifts is available in the following languages: Chinese-Simplified, English (U.S
 
 Shifts data is currently stored in Azure in data centers in Asia Pacific (APAC), the European Union (EU), and North America. For more information about where data is stored, see [Where is my data](http://o365datacentermap.azurewebsites.net/)?
 
-To learn more about Shifts data including storage, retention, retrieval, and encryption of Shifts data, see [Shifts data FAQ](shifts-data-faq.md).
+To learn more about Shifts data including, storage, retention, retrieval, and encryption of Shifts data, see [Shifts data FAQ](shifts-data-faq.md).
 
 #### Where can I learn more about Shifts?
 
