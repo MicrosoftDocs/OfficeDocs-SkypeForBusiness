@@ -72,6 +72,7 @@ Here are the messaging policy settings that you can configure.
 
 - **Owners can delete sent messages**  Use this setting to let owners delete messages that users sent in chat.
 - **Delete sent messages** Use this setting to let users delete messages that they sent in chat.
+- **Delete chat** Use this setting to let owners delete all the messages in their team.
 - **Edit sent messages** Use this setting to let users edit the messages that they sent in chat.
 - **Read receipts** Read receipts allow the sender of a chat message to be notified when their message was read by the recipient in 1:1 and group chats 20 people or fewer. Message read receipts remove uncertainly about whether a message was read, and improve team communication. Read receipts aren't captured in eDiscovery reporting.  
     - **User controlled** This means that users get to decide if they want read receipts ON or OFF. Default setting within the app is ON. Users can then turn it OFF.
@@ -99,9 +100,9 @@ Here are the messaging policy settings that you can configure.
   - **Not enabled** This means that users cannot create audio messages in chats or channels.  
 - **On mobile devices, display favorite channels above recent chats** Enable this setting to move favorite channels to the top of the mobile device screen so that a user doesn't need to scroll to find them.
 - **Remove users from group chats** Turn this setting on to let a user remove other users from a group chat. This feature lets you continue a chat with a smaller group of people without losing the chat history.
-- **Text predictions** Turn on this setting to let a user get text predictions for chat messages.
 - **Suggested replies**  Turn this setting on to enable suggested replies for chat messages.
 - **Chat permission role** Use this setting to define the supervised chat role of the user.  Learn more about [supervised chat](supervise-chats-edu.md).
+- **Users with full chat permissions can delete any message** Use this setting to let users with full permissions delete any group or meeting chat message in their tenant.
 
 > [!NOTE]
 > Some of these settings, such using Giphys, can also be configured at the team level by team owners and at the private channel level by private channel owners.
