@@ -151,8 +151,7 @@ To learn more, see [Manage the Shifts app for your organization in Teams](manage
 
 You manage Teams through the Microsoft Teams PowerShell module and the Skype for Business PowerShell module. For more information, see [Teams PowerShell Overview](../../teams-powershell-overview.md). At this time, there are no specific PowerShell cmdlets available to manage Shifts.  
 
-If this is something you're interested in, send us a request through the [Teams feedback portal on UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform).
-
+If this is something you're interested in, send us a request through the [Teams feedback portal](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
 
 [!INCLUDE [uservoice-disclaimer-note](../../includes/uservoice-disclaimer-note.md)]
 
