@@ -104,7 +104,7 @@ If you’d like to use toll-free numbers with Microsoft Teams, you'll need to se
 
 Communications Credits are a convenient way to add toll-free numbers to use as follows: 
 
-- With service numbers, such as auto attendants or call queues. 
+- With service numbers for voice apps, such as auto attendants or call queues. 
 
 - To dial any international phone number when you have Domestic Calling Plan subscriptions or beyond what is included in a Domestic and International Calling Plan subscription. 
 
