@@ -28,19 +28,19 @@ description: Step-by-step guide detailing how to set up Teams Phone System for y
 
 # Set up Phone System in your organization
 
-This article provides a roadmap to content for setting up Phone System--Microsoft’s technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Microsoft 365 cloud. Links to additional, detailed information are available at the end of each step. 
+This article provides a roadmap to content for setting up Phone System--Microsoft’s technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Microsoft 365 cloud. Links to more detailed information are available at the end of each step. 
 
-Before reading this article, for information about Phone System requirements and features, make sure you have read [What is Phone System](what-is-phone-system-in-office-365.md) and [Here’s what you get with Phone System](here-s-what-you-get-with-phone-system.md).   
+Before reading this article, make sure you've read [What is Phone System](what-is-phone-system-in-office-365.md) and [Here’s what you get with Phone System](here-s-what-you-get-with-phone-system.md). The latter two articles describe Phone System requirements and features.    
 
 This article describes the following steps: 
 
-- [Step 1: Buy and assign a Phone System license](step-1:-buy-and-assign-a-phone-system-license)  
-- [Step 2: Choose a PSTN connectivity option](step-2:-choose-a-pstn-connectivity-optio) 
-- [Step 3: Get phone numbers for your users](step-3:-get-phone-numbers-for-your-users)
-- [Step 4: Get phone numbers for services](step-4:-get-phone-numbers-for-services-(call-queues,-auto-attendants))
-- [Step 5: If you want to set up a call queue](step-5:-if-you-want-to-set-up-a-call-queue) 
-- [Step 6: If you want to set up an auto attendant](step-6:-if-you-want-to-set-up-an-auto-attendant) 
-- [Step 7: Set up communication credits for toll-free numbers](step-7:-set-up-communication-credits-for-toll---free-numbers)
+- [Step 1: Buy and assign a Phone System license](#step-1-buy-and-assign-a-phone-system-license)  
+- [Step 2: Choose a PSTN connectivity option](#step-2-choose-a-pstn-connectivity-option) 
+- [Step 3: Get phone numbers for your users](#step-3-get-phone-numbers-for-your-users)
+- [Step 4: Get phone numbers for services](#step-4-get-phone-numbers-for-services-call-queues-auto-attendants)
+- [Step 5: If you want to set up a call queue](#step-5-if-you-want-to-set-up-a-call-queue) 
+- [Step 6: If you want to set up an auto attendant](#step-6-if-you-want-to-set-up-an-auto-attendant) 
+- [Step 7: Set up communication credits for toll-free numbers](#step-7-set-up-communications-credits-for-toll-free-numbers)
  
 
 ## Step 1: Buy and assign a Phone System license
@@ -63,14 +63,14 @@ For more information about all connectivity options, see [PSTN connectivity opti
 
 Before you can set up users in your organization to make and receive phone calls, you must get phone numbers for them.
 
-For information on how to manage phone numbers for your users, see the following articles. Be aware that how you manage numbers for a user depends on the PSTN connectivity option you choose.   
+For information on how to manage phone numbers for your users, see the following articles. How you manage numbers for a user depends on the PSTN connectivity option you choose.   
 
 - [Manage phone numbers for your organization](manage-phone-numbers-landing-page.md) – Provides an overview of phone number types with links to specific articles for acquiring and managing numbers depending on your PSTN connectivity option. 
 Describes the two types of [user phone numbers](manage-phone-numbers-landing-page.md#user-telephone-numbers). 
  
 - [Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md) – Describes how to assign and manage the phone numbers you’ve acquired. 
  
-- [How many telephone numbers can you get](how-many-phone-numbers-can-you-get.md) – Describes how many phone numbers you can get depending on the types of telephone numbers and types of licenses you have bought and assigned. 
+- [How many telephone numbers can you get](how-many-phone-numbers-can-you-get.md) – Describes how many phone numbers you can get depending on the types of telephone numbers and types of licenses you've bought and assigned. 
 
 
 ## Step 4: Get phone numbers for services (call queues, auto attendants)
@@ -84,7 +84,7 @@ For more information, see:
 - [Manage phone numbers for your organization](manage-phone-numbers-landing-page.md) – Provides an overview of phone number types with links to specific articles for acquiring and managing numbers depending on your PSTN connectivity option.  
 Describes [service phone numbers](manage-phone-numbers-landing-page.md#service-telephone-numbers) available from Microsoft that are included in your licensing. For information about service numbers provided by Operator Connect or Direct Routing, contact your provider. 
 
-- [How many telephone numbers can you get](how-many-phone-numbers-can-you-get.md) – Describes how many phone numbers you can get depending on the types of telephone numbers and types of licenses you have bought and assigned. 
+- [How many telephone numbers can you get](how-many-phone-numbers-can-you-get.md) – Describes how many phone numbers you can get depending on the types of telephone numbers and types of licenses you've bought and assigned. 
 
 ## Step 5: If you want to set up a call queue
 
@@ -108,7 +108,7 @@ Communications Credits are a convenient way to add toll-free numbers to use as f
 
 - To dial any international phone number when you have Domestic Calling Plan subscriptions or beyond what is included in a Domestic and International Calling Plan subscription. 
 
-- To dial out and pay per minute once you have exhausted your monthly minute allotment. 
+- To dial out and pay per minute once you've exhausted your monthly minute allotment. 
 
 For more information, see [What are Communications Credits?](what-are-communications-credits.md) and [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).
   
