@@ -115,7 +115,7 @@ To communicate with another tenant, they must either enable **Allow all external
 
 ## Manage contact with external Teams users not managed by an organization
 
-Admins can choose to enable or disable communications with external Teams users that are not managed by an organization (“unmanaged”). If enabled, they can also further control if external users with unmanaged Teams accounts can initiate contact (see image below). If external user initiation is turned off, unmanaged Teams users will not be able to search the full email address to find organization contacts and all communications with unmanaged Teams users must be initiated by organization users.
+Admins can choose to enable or disable communications with external Teams users that are not managed by an organization (“unmanaged”). If enabled, they can also further control if external users with unmanaged Teams accounts can initiate contact (see the following image). If external user initiation is turned off, unmanaged Teams users will not be able to search the full email address to find organization contacts and all communications with unmanaged Teams users must be initiated by organization users.
 
 ![image](https://user-images.githubusercontent.com/98335128/155242115-cdd65afe-62c4-40e5-8603-c1ac770103c0.png)
 
