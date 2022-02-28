@@ -28,7 +28,7 @@ In addition to managing video and media settings with meeting policies, you can 
 - IP Video
 - Media bit rate
 
-This policy enables you to assign settings to network sites. The Teams client will dynamically pick up the settings based on which network site it connects to. When the Teams client signs in from a network site with a roaming policy assigned, that policy will be used. If there is no policy assigned, the values set in the meeting policy will be used. For more information about meeting policy audio and video settings, see [Meeting policy settings - Audio & video](meeting-policies-in-teams#meeting-policy-settings---audio--video.md).
+This policy enables you to assign settings to network sites. The Teams client will dynamically pick up the settings based on which network site it connects to. When the Teams client signs in from a network site with a roaming policy assigned, that policy will be used. If there is no policy assigned, the values set in the meeting policy will be used. For more information about meeting policy audio and video settings, see [Meeting policy settings for audio and video](meeting-policies-audio-and-video.md).
 
 ## Configure the TeamsNetworkRoamingPolicy
 
