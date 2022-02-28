@@ -38,7 +38,7 @@ Parents also works with Supervised Chat. Parents and guardians won’t have full
   - Completing the RFA process at [FastTrack](https://www.microsoft.com/fasttrack?rtc=1).
   - Opening a ticket at [Support](https://aka.ms/sdssupport).
 
-- Currently, SDS only supports CSV-based data ingestion for Parent Contacts; however, you can use [PowerSchool API Sync]([/schooldatasync/how-to-deploy-school-data-sync-by-using-powerschool-sync) or [OneRoster API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-oneroster-sync) for all roster data, and just add Parent Contacts using CSV.
+- Currently, SDS only supports CSV-based data ingestion for Parent Contacts; however, you can use [PowerSchool API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-powerschool-sync) or [OneRoster API Sync](/schooldatasync/how-to-deploy-school-data-sync-by-using-oneroster-sync) for all roster data, and just add Parent Contacts using CSV.
   - Create a second sync profile using the [SDS v1 CSV Sync format](/schooldatasync/school-data-sync-format-csv-files-for-sds).
   - Pull the two populated [Parent files](/schooldatasync/parent-contact-sync-file-format) with the rest of the v1 files empty (just the headers).
     - User.csv
