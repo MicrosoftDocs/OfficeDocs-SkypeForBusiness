@@ -43,13 +43,14 @@ Here's a list of Teams add-on licenses and their capabilities that you can add t
 |**Communication Credits** | Communication Credits provide a monthly pool of minutes that can also be used for PSTN phone calls, if all your Calling Plan minutes get used before the beginning of the next month. If you want toll-free numbers for Audio Conferencing, auto attendants, or call queues, you'll need to [set up Communications Credits](../set-up-communications-credits-for-your-organization.md). <br/> |
 |**Audio Conferencing** <br/> |Sometimes people in your organization will need to use a phone to call in to a Teams meeting instead of their computer. [Set up Audio Conferencing](../set-up-audio-conferencing-in-teams.md) for users who schedule or lead meetings with attendees who need to call in using a phone. <br/> <br/>To find out whether Audio Conferencing is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). For pricing info, see [Pricing for Audio Conferencing](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> <br/>Organizations can now use a third-party operator for their Audio Conferencing numbers. See [Plan for Operator Connect Conferencing](../operator-connect-conferencing-plan.md) for more information. <br/>|
 |**Microsoft Teams Rooms** <br/> | Microsoft Teams Room is an additional Microsoft Teams product that brings video, audio, and content sharing to conference rooms. Organizations can purchase Microsoft Teams Rooms standalone licenses for these capabilities. See [Teams Meeting Room Licensing](../rooms/rooms-licensing.md) for more information. <br/>|
-|**Advanced Communications** <br/> |[Advanced Communications](advanced-communications.md) includes advanced meetings customization and tools to manage your organization's communication policies. |
 
 ## Which Microsoft capabilities are available with my plan?
 
-See what add-on licenses you need to get extra capabilities in Teams, depending on the plan you have.
+All Microsoft 365 plans allow Teams users to make peer-to-peer calls within your organization using VoIP technology.
 
-Depending on the extra capabilities that you want, we recommend comparing whether it's more cost effective for you to switch to a plan that includes those capabilities. For example, for most large organizations, buying a bundle of software in a Microsoft 365 Enterprise plan will result in lower overall cost. Typically, when you buy several add-on licenses individually instead of as part of a plan, you may end up with a higher combined cost.
+Which add-on licenses you need for extra capabilities in Teams depends on the plan you have.
+
+Also, we recommend comparing whether it's more cost effective for you to switch to a Microsoft 365 plan that includes the capabilities you want. For example, for most large organizations, buying a bundle of software in a Microsoft 365 Enterprise plan will result in lower overall cost. Sometimes, when you buy several add-on licenses individually instead of as part of a plan, you may end up with a higher combined cost.
 
 #### [**Small and medium businesses**](#tab/small-business/)
 
@@ -126,7 +127,7 @@ If you're a large business or enterprise organization (more than 300 users), you
 - Buy an Enterprise E5 plan and add **Microsoft Calling Plans** or connect to a third-party PSTN connectivity provider.
   - The Microsoft 365 Enterprise E5 plan includes Teams Phone System, but organizations still need to choose a [PSTN connectivity option](../pstn-connectivity.md).
 
-If you would like **Audio Conferencing**, you can add on Audio Conferencing licenses for free to all Microsoft 365 subscriptions. Microsoft 365 Enterprise E5 plans include Audio Conferencing, so you will not need to purchase additional Audio Conferencing licenses alongside this plan.
+If you would like **Audio Conferencing**, you can add on Audio Conferencing licenses for free to all Microsoft 365 subscriptions. Microsoft 365 Enterprise E5 plans include Audio Conferencing, so you will not need to purchase additional Audio Conferencing licenses with this plan.
 
 Here's a summary, based on licensing plan.
 
@@ -134,14 +135,15 @@ Here's a summary, based on licensing plan.
 <thead>
 <tr class="header">
 <th><strong>Base plan</strong></th>
-<th colspan="2"><strong>Voice calling and Audio conferencing options</strong></th>
+<th colspan="2"><strong>Want Microsoft as your PSTN carrier</strong></th>
+<th colspan="2"><strong>Want to use a third-party PSTN carrier</strong></th>
 <th>&nbsp;</th>
 <th>&nbsp;</th>
 </tr>
 </thead>
 <tbody>
 <tr class="even">
-<td>Microsoft 365 Enterprise E1/E3<br/>Office 365 Enterprise E1/E3<br/>Microsoft 365 F3<br/>Office 365 F3<br/>Microsoft 365 F1</td>
+<td>Teams Essentials (AAD identity)<br/>Any Microsoft 365 plan that includes Teams</td>
 <td>Teams Phone with Calling Plan licenses <br/> <br/> Audio Conferencing licenses <br/> <br/> Domestic and International Calling Plan (optional) <br/> <br/> Communication Credits (optional)<br/> </td>
 <td>or</td>
 <td>Teams Phone Standard licenses<br/> <br/> Domestic Calling Plan or Domestic and International Calling Plan <br/> <br/> Audio Conferencing licenses <br/> <br/> Communication Credits (optional)</td>
