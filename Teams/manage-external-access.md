@@ -152,7 +152,7 @@ To learn more about the ways that Teams users and Skype users can communicate, i
 
 If you've enabled any of the external access controls at a tenant-level, you can limit external access to specific users using PowerShell. People 
 
-You can use the example script below, substituting *Control* for the control you want to change, *PolicyName* for the name you want to give the policy, and *UserName* for each user for which you want to enable/disablebe able to  use external access.
+You can use the following example script, substituting *Control* for the control you want to change, *PolicyName* for the name you want to give the policy, and *UserName* for each user for whom you want to enable/disable external access.
 
 Be sure you have installed the [Microsoft Teams PowerShell Module](/microsoftteams/teams-powershell-install) before running the script.
 
