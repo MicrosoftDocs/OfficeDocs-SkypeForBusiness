@@ -111,7 +111,7 @@ To block specific domains
 
 6. Click **Save**.
 
-To communicate with another tenant, they must either enable Allow all external domains or add your tenant to their list of allowed domains by following the same steps above.  
+To communicate with another tenant, they must either enable **Allow all external domains** or add your tenant to their list of allowed domains by following the same steps above.  
 
 ## Manage contact with external Teams users not managed by an organization
 
