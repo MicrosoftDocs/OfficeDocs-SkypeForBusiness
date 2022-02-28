@@ -41,7 +41,7 @@ Use external access when:
 External access policies include controls for each type of federation at both the tenant- and user-levels. Turning a policy off at the tenant-level turns it off for all users, regardless of their user-level setting. All external access settings are enabled by default.
 
 Tenant-level settings can be changed via Teams admin center or PowerShell (Set-CSTenantFederationConfiguration). User-level settings can be changed via PowerShell (Set-CsExternalAccessPolicy). In later sections, we’ve provided instructions on how to use Teams admin center and write PowerShell commands.
-For reference, below is a description of the PowerShell controls.
+For reference, the following is a description of the PowerShell controls.
 
 |      Controls                                                                                    |      Tenant-level              |      User-level                        |
 |--------------------------------------------------------------------------------------------------|--------------------------------|----------------------------------------|
