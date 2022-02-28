@@ -137,8 +137,6 @@ Here's a summary, based on licensing plan.
 <th><strong>Base plan</strong></th>
 <th colspan="2"><strong>Want Microsoft as your PSTN carrier</strong></th>
 <th colspan="2"><strong>Want to use a third-party PSTN carrier</strong></th>
-<th>&nbsp;</th>
-<th>&nbsp;</th>
 </tr>
 </thead>
 <tbody>
