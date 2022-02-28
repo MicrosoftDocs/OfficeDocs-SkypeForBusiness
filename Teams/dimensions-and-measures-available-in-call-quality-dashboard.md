@@ -204,6 +204,8 @@ The following table lists the dimensions currently available in CQD, in the orde
 | Stream Direction  | Enumeration <br/>**Possible values:** <br/>&bull; First-to-Second <br/>&bull; Second-to-First <br/> | Indicates the direction of a stream. <br/>&bull; **Example value:** First-to-Second | &bull; No data was reported to indicate the direction of the stream |
 | Payload Description  | String  | Name of last codec used in the stream. <br/> **Example value:** SILKWide | &bull; No data is available |
 | Audio and Video Call  | Boolean  | True if call had both audio and video streams, False otherwise    | &bull; No data was reported to indicate the media types of the stream. |
+| First QoE Record Available  | Boolean  | True if the QoE Record for the first endpoint was reported to CQD.  ||
+| Second QoE Record Available  | Boolean  | True if the QoE Record for the first endpoint was reported to CQD.   ||
 | Duration 5 seconds or less  | Boolean  | True if stream had duration of 5 seconds or less, False otherwise.   ||
 | Duration 60 seconds or more  | Boolean  | True if stream had duration of 60 seconds of more, False otherwise.   | |
 | Is Teams  | Boolean  | True indicates that the first or second user agent for the stream is a Microsoft Teams endpoint. <br/> False indicates that the user agents are Skype for Business endpoints. |  |

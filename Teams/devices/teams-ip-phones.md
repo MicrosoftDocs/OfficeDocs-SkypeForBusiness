@@ -128,6 +128,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Crestron UC-2     | `1.0.4.75`    | 2022 Update #1 |
 |Audiocodes C455HD | `1.15.271`    | 2022 Update #1
 |Audiocodes C448HD  | `1.14.500` | 2022 Update #1 |
 |Audiocodes C450HD  | `1.14.500` | 2022 Update #1  |
@@ -197,6 +198,7 @@ The following are the latest Teams Rooms on Android app and firmware versions.
 
 | Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| 2022 Update #1  | February 24,2022 |`1449/1.0.96.2022011305`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | 2021 Update #2A | July 15, 2021  |`1449/1.0.96.2021070803`|  `5.0.5088.0` |  `1.0.0.202104280345.product version code: 262` |
 | 2021 Update #2 | June 28, 2021  |`1449/1.0.96.2021051904`|  `5.0.5088.0` |  `1.0.0.202104280345.product version code: 262` |
 | 2021 Update #1A  |May 12, 2021  |`1449/1.0.96.2021042903` |`5.0.4927.0`     |`1.0.0.202010121132.product version code: 223` |
@@ -211,6 +213,11 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| AudioCodes RXV80 | `1.16.164 `   | 2022 Update #1 |
+| Yealink VC210 | `118.15.0.65`   | 2022 Update #1    |
+| Yealink MeetingBar A20 | `133.15.0.80 `   | 2022 Update #1   |
+| Yealink MeetingBar A30 | `133.15.0.80 `   | 2022 Update #1   |
+| Yealink CTP18 | ` 137.15.0.49 `    | 2022 Update #1   |
 | Poly Studio X30 | `3.9.0` | 2021 Update #2F   |
 | Poly Studio X50 | `3.9.0` | 2021 Update #2F   |
 | Poly TC8        | `3.9.0`          | 2021 Update #2F   |
@@ -279,7 +286,9 @@ The following are the latest Microsoft Teams Panels app and firmware versions.
 
 |Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-|2021 Update #1  |August 12, 2021 |`1449/1.0.97.2021070601`|`5.0.5211.0`            |  `268`|
+|2022 Update #1A | Febuary 25, 2022 | `1449/1.0.97.2022730007` | `5.0.5304.0`  | `322` |
+|2022 Update #1  | February 22, 2022 |`1449/1.0.96.2021726501` | `5.0.5304.0 `  | `322` |
+|2021 Update #1  | August 12, 2021 |`1449/1.0.97.2021070601`   | `5.0.5211.0`   |  `268`|
 
 #### Firmware versions
 
@@ -287,8 +296,9 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
-|Crestron -TSS770| `1.004.0115` |2021 Update #1 |
-|Crestron-TSS1070 | `1.004.0115` |2021 Update #1 |
+|Yealink RoomPanel | ` 147.15.0.29 ` | 2022 Update #1 |
+|Crestron -TSS770  | `1.004.0115` |2021 Update #1 |
+|Crestron-TSS1070  | `1.004.0115` |2021 Update #1 |
 |Yealink RoomPanel | `147.15.0.17` |2021 Update #1 |
 |Logitech Tap Scheduler | `1.5.209` |2021 Update #1 |
 
