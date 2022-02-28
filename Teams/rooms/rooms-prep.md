@@ -64,7 +64,7 @@ Your Microsoft Teams Rooms device uses certificates for Exchange Web Services, M
 You will install certificates the same way you would for any other Windows client.
 
 > [!IMPORTANT]
-> If your proxy server utilizes internally signed certificates, you must install the internal certificate chain including the root CA on the MTR.
+> If your proxy server utilizes internally signed certificates, you must install the internal certificate chain, including the root CA, on the Microsoft Teams Rooms device.
   
 > [!NOTE]
 > Certificates may be required in order to have Microsoft Teams Rooms use Skype for Business Server.
