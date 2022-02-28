@@ -1,7 +1,7 @@
 ---
 title: Assign policies to large sets of users in your school
-author: cichur
-ms.author: v-cichur
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: karsmith, angch, cebulnes
 ms.topic: article
@@ -24,7 +24,7 @@ f1keywords:
 [!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
-> For the larger story on assigning policies in Microsoft Teams, see [Assign policies to your users in Teams](assign-policies.md).
+> For the larger story on assigning policies in Microsoft Teams, see [Assign policies to your users in Teams](policy-assignment-overview.md).
 
 ## Overview
 
@@ -34,7 +34,7 @@ You can assign a meeting policy to a security group that the users are members o
 
 - **Use [policy assignment to groups](#assign-a-policy-to-a-group) to assign a meeting policy to a security group (recommended)**. This method lets you assign a policy based on group membership. You can assign a policy to a security group or distribution list. As members are added to or removed from the group, their inherited policy assignments are updated accordingly. We recommend you use this method because it reduces the time to manage policies for new users or when users' roles change. This method works best for groups of up to 50,000 users but will also work with larger groups.
 
-- **Use [batch policy assignment](assign-policies.md#assign-a-policy-to-a-batch-of-users) to assign a meeting policy directly to users in bulk**. You can assign a policy for up to 5,000 users at a time. If you have more than 5,000 users, you can submit multiple batches. With this method, when you have new users, you'll need to re-run the batch assignment to assign the policy to those new users.
+- **Use [batch policy assignment](assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users) to assign a meeting policy directly to users in bulk**. You can assign a policy for up to 5,000 users at a time. If you have more than 5,000 users, you can submit multiple batches. With this method, when you have new users, you'll need to re-run the batch assignment to assign the policy to those new users.
 
 Remember that in Teams, users automatically get the Global (Org-wide default) policy for a Teams policy type unless you create and assign a custom policy. Because the student population is often the largest set of users and they often receive the most restrictive settings, we recommend that you do the following:
 
@@ -57,7 +57,7 @@ Follow these steps to create a security group for your staff and educators, and 
 > [!IMPORTANT]
 > When you assign a policy to a group, the policy assignment is propagated to members of the group according to precedence rules. For example, if a user is directly assigned a policy (either individually or through a batch assignment), that policy takes precedence over a policy that's inherited from a group. This also means that if a user has a meeting policy that was directly assigned to them, you'll have to remove that meeting policy from the user before they can inherit a meeting policy from a security group.
 
-Before you get started, it's important to understand [precedence rules](assign-policies.md#precedence-rules) and [group assignment ranking](assign-policies.md#group-assignment-ranking). **Make sure that you read and understand the concepts in [What you need to know about policy assignment to groups](assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)**.
+Before you get started, it's important to understand [precedence rules](policy-assignment-overview.md#which-policy-takes-precedence) and [group assignment ranking](assign-policies-users-and-groups.md#group-assignment-ranking). **Make sure that you read and understand the concepts in [What you need to know about policy assignment to groups](assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)**.
 
 You'll need to complete all these steps for your staff and educators to inherit a meeting policy from a security group.
 
@@ -127,7 +127,7 @@ New-CsGroupPolicyAssignment -GroupId staff-faculty@contoso.com -PolicyType Teams
 
 Remember that if a user was directly assigned a policy (either individually or through a batch assignment), that policy takes precedence. This means that if a user has a meeting policy that was directly assigned to them, you'll have to remove that meeting policy from the user before they can inherit a meeting policy from a security group.
 
-To learn more, see [What you need to know about policy assignment to groups](assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups).
+To learn more, see [What you need to know about policy assignment to groups](assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups).
 
 Follow these steps to remove the meeting policy that was directly assigned to your staff and educators.
 
@@ -319,6 +319,6 @@ For an overview of using PowerShell to manage Teams, see [Teams PowerShell overv
 
 ## Related topics
 
-- [Assign policies to your users](assign-policies.md)
+- [Assign policies to your users](policy-assignment-overview.md)
 - [Teams policies and policy packages for Education](policy-packages-edu.md)
-- [Manage meeting policies in Teams](meeting-policies-in-teams.md)
+- [Manage meeting policies in Teams](meeting-policies-overview.md)

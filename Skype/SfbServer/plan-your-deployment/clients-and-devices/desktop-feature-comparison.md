@@ -1,7 +1,7 @@
 ---
 title: "Desktop client feature comparison for Skype for Business Server 2015"
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018

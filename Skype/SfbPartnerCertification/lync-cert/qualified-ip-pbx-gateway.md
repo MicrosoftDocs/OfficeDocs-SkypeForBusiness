@@ -34,7 +34,7 @@ We recommend that you visit the vendor's web site for the latest information abo
 ***Table 1 - Qualified IP PBXs & Gateways  for Lync 2013***
 
  &#x2714;= Qualified&nbsp;&nbsp;&nbsp;&nbsp;&#x2714;+S = Qualified with SRTP & TLS
-<table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" width="100%" xmlns="http://www.w3.org/1999/xhtml">
+<table>
 	<colgroup>
 		<col width="140" />
 		<col width="270" />
@@ -100,12 +100,12 @@ We recommend that you visit the vendor's web site for the latest information abo
 			<td colspan="4">
 				<p>Documentation: <a href="https://www.microsoft.com/download/details.aspx?id=41153">Integrating Lync 2013 and ISR 3845 Configuration Guide v1.0</a></p>
 				<p>Configuration Notes:</p>
-				<ol style="margin-left:20px;margin-top:-12px;">
+				<ol>
 					<li>Disable REFER and RTCP support on both Lync Mediation Server and Cisco GW.</li>
 					<li>While a specific ISR model was tested, any model in this series running the qualified firmware is supported.</li>
 				</ol>
 				<p>Known Limitations:</p>
-				<ol style="margin-left:20px;margin-top:-12px;">
+				<ol>
 					<li>Analog devices connected to FXS ports don't support hold/resume. To support hold/resume, the FXS port needs to be controlled by a Cisco PBX.</li>
 					<li>No ringback is heard when call is forwarded from a Lync Endpoint to a PSTN Endpoint. This issue can be corrected by allowing 183 without SDP on the outbound dial-peers to Lync, but this will result in no ring back on regular inbound calls.</li>
 				</ol>
@@ -120,12 +120,12 @@ We recommend that you visit the vendor's web site for the latest information abo
 		<tr align="left" valign="top">
 			<td colspan="4">
 				<p>Configuration Notes:</p>
-				<ol style="margin-left:20px;margin-top:-12px;">
+				<ol>
 					<li>Disable REFER and RTCP support on both Lync Mediation Server and Cisco GW.</li>
 					<li>While a specific ISR model was tested, any model in this series running the qualified firmware is supported.</li>
 				</ol>
 				<p>Known Limitations:</p>
-				<ol style="margin-left:20px;margin-top:-12px;">
+				<ol>
 					<li>Call Park on Lync Client fails. Lync Client drops the call as the Gateway responds with &quot;a=sendrecv&quot; to an INVITE from Lync to place the call on hold. This issue is documented under case number CSCuo44538 with Cisco Support.</li>
 					<li>As the Gateway overrides the progress indicator from Lync Server, PSTN calling party doesn't hear IVR when the Lync called party is set to simultaneous ring an IVR number with Early Media.</li>
 					<li>Call Hold and transfer on Analog Endpoints fails with the recommended dial peer configuration on the ISR.</li>
@@ -142,11 +142,11 @@ We recommend that you visit the vendor's web site for the latest information abo
 		<tr align="left" valign="top">
 			<td colspan="4">
 				<p>Configuration Notes:</p>
-				<ol style="margin-left:20px;margin-top:-12px;">
+				<ol>
 					<li>Disable REFER support on Lync Mediation Server</li>
 				</ol>
 				<p>Known Limitations:</p>
-				<ol style="margin-left:20px;margin-top:-12px;">
+				<ol>
 					<li>DNS Load Balancing and IPv6 are not supported</li>
 				</ol>
 			</td>
@@ -173,14 +173,14 @@ We recommend that you visit the vendor's web site for the latest information abo
 		<tr align="left" valign="top">
 			<td colspan="4">
 				<p>Experius AS Notes:</p>
-				<ol style="margin-left:20px;margin-top:-12px;">
+				<ol>
 					<li>PBX is tested and is supported only with an AudioCodes Mediant 1000 Gateway v6.2</li>
 					<li>When a user configures simul-ring to a PSTN IVR number, the calling party will hear ring back not early media played from the IVR</li>
 					<li>PBX does'ot support DNS load balancing</li>
 					<li>PBX doesn't generate OPTIONS ping</li>
 				</ol>
 				<p>C2100 &amp; C20 Notes:</p>
-				<ol style="margin-left:20px;margin-top:-12px;">
+				<ol>
 					<li>PBX is tested and is supported only with a Genband Quantix SBC v8.3.4.0</li>
 					<li>PBX doesn't support DNS Load Balancing, Media Bypass, or REFER</li>
 					<li>PBX doesn't generate OPTIONS ping</li>
@@ -237,11 +237,11 @@ We recommend that you visit the vendor's web site for the latest information abo
 		<tr align="left" valign="top">
 			<td colspan="4">
 				<p>Configuration Notes:</p>
-				<ol style="margin-left:20px;margin-top:-12px;">
+				<ol>
 					<li>On Lync Mediation Server, Media Bypass and REFER are set to disabled. Testing found Media Bypass doesn't work for inbound calls and REFER isn't supported.</li>
 				</ol>
 				<p>Known Limitations:</p>
-				<ol style="margin-left:20px;margin-top:-12px;">
+				<ol>
 					<li>DNS Load Balancing using the same FQDN for two IP addresses isn't supported by the Samsung PBX.</li>
 				</ol>
 			</td>

@@ -1,8 +1,8 @@
 ---
 title: "Active Directory schema extensions, classes, and attributes"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2016
 audience: ITPro

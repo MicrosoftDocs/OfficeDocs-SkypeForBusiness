@@ -77,10 +77,13 @@ The Admin account isn't required for proper operation of Teams Rooms devices and
 
 You can also import domain accounts into the local Windows Administrator group. You can do this for Azure AD accounts by using Intune. For more information, see [Policy CSP – RestrictedGroups.](/windows/client-management/mdm/policy-csp-restrictedgroups).
 
+> [!NOTE]
+> If you are using Crestron consoles, be sure to also update the Admin password on the console as well as on the compute module. For more information, contact Crestron.
+
 > [!CAUTION]
 > If you delete or disable the Admin account before granting local Administrator permissions to another local or domain account, you may lose the ability to administer the Teams Rooms device. If this happens, you'll need to reset the device back to its original settings and complete the setup process again.
->
-> Don't grant local Administrator permissions to the Skype user account.
+
+Don't grant local Administrator permissions to the Skype user account.
 
 Windows Configuration Designer can be used to create Windows 10 provisioning packages. Along with changing the local Admin password, you can also do things like changing the machine name and enrolling into Azure Active Directory. For more information on creating a Windows Configuration Designer provisioning package, see [Provisioning packages for Windows 10](/windows/configuration/provisioning-packages/provisioning-packages).
 
@@ -95,7 +98,7 @@ Generally, Teams Rooms has the same network requirements as any Microsoft Teams 
 - **Microsoft Teams** [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams)
 - **Windows Update** [Configure WSUS](/windows-server/administration/windows-server-update-services/deploy/2-configure-wsus#211-connection-from-the-wsus-server-to-the-internet)
 - **Microsoft Store** [Prerequisites for Microsoft Store for Business and Education](/microsoft-store/prerequisites-microsoft-store-for-business#proxy-configuration)
-- **Microsoft Intune** [Network Enpoints for Microsoft Intune](/mem/intune/fundamentals/intune-endpoints)
+- **Microsoft Intune** [Network Endpoints for Microsoft Intune](/mem/intune/fundamentals/intune-endpoints)
 
 If you're using the Microsoft Teams Rooms managed services component of Microsoft Teams Rooms Premium, you also need to make sure that Teams Rooms can access the following URLs:
 

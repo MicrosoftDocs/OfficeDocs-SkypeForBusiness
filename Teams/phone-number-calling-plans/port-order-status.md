@@ -31,13 +31,13 @@ The following table lists port order statuses, as well as actions you can take i
 |**Contacting carrier** <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |The order has been received and approved by Microsoft, and we're working with the losing carrier to get it approved.  <br/> |
 |**Transfer approved** <br/> |Yes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |The order has been accepted by the losing carrier, and the Firm Order Commitment (FOC) date has been set.  <br/> |
 |**Transfer pending** <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |The transfer is less than 24 hours away, so the order can no longer be edited or cancelled.  <br/> |
-|**Error** <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes (at this time, you can't delete the port order if there's an error. The port order needs to be re-created, or you need to contact the [PSTN service desk help](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).  <br/> |The losing carrier rejected the order.  <br/> |
+|**Error** <br/> |No  <br/> |Yes  <br/> |Yes  <br/> |Yes (at this time, you can't delete the port order if there's an error. The port order needs to be re-created, or you need to contact the [TNS Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).  <br/> |The losing carrier rejected the order.  <br/> |
 |**Completed** <br/> |Yes  <br/> |No  <br/> |No  <br/> |No  <br/> |The numbers have been successfully transferred.  <br/> |
 |**Cancelled** <br/> |No  <br/> |Yes  <br/> |No  <br/> |No  <br/> |The admin canceled the order.  <br/> |
 
 For complete step-by-step instructions, see [Transfer phone numbers to Teams](transfer-phone-numbers-to-teams.md).
 
-If you need help or if you need to get more phone numbers, contact the [PSTN service desk](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
+If you need help or if you need to get more phone numbers, contact the [TNS Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
 
 ## Related topics
 

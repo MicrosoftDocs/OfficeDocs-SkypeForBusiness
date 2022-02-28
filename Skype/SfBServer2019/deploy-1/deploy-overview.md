@@ -1,8 +1,8 @@
 ---
 title: "Deploy Skype for Business Server 2019"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/9/2018
 audience: ITPro

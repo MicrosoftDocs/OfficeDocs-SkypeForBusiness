@@ -34,12 +34,12 @@ For more information, see  [Manage phone numbers for your organization](manage-p
 |**What you want to do?**|**Do these steps and download the correct forms**|
 |:-----|:-----|
 |Get new user phone numbers for Calling Plans in Japan.|Please contact [SoftBank Calling](https://aka.ms/SoftBankVoicePlan) for new phone numbers for your users. They will then add those numbers to your organization so you can assign them to your users. <br/>
-|Get new service phone numbers for audio conferencing, auto attendants and call queues in Japan.|[Contact the PTSN Service Desk for instructions](contact-pstn-service-desk.md).|
+|Get new service phone numbers for audio conferencing, auto attendants and call queues in Japan.|[Contact the TNS Service Desk for instructions](contact-tns-service-desk.md).|
 |Get phone numbers transferred over to Microsoft 365 or Office 365 for **users** in Japan.|Please contact [SoftBank Calling](https://aka.ms/SoftBankVoicePlan) to transfer user phone numbers. They will then add those numbers to your organization.  <br/> |
 |Get phone numbers transferred over to Microsoft 365 or Office 365 for **call queues** in Japan.|Please contact [SoftBank Calling](https://aka.ms/SoftBankVoicePlan) to transfer service phone numbers. They will then add those numbers to your organization.|
 |Change the emergency address assigned to users that have a Calling Plan phone number.|Please contact [SoftBank Calling](https://aka.ms/SoftBankVoicePlan) to make emergency address changes. They can update this information for you.|
 |Change a user number to a service number. |Not currently supported when using SoftBank Calling.|
-|Make directory service updates to call queue or auto attendant numbers|To add or change call queue or auto attendant numbers, contact [the PTSN Service Desk for instructions](contact-pstn-service-desk.md). |
+|Make directory service updates to call queue or auto attendant numbers|To add or change call queue or auto attendant numbers, contact [the TNS Service Desk for instructions](contact-tns-service-desk.md). |
 
 ## Related topics
 

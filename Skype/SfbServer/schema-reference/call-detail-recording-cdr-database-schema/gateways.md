@@ -1,8 +1,8 @@
 ---
 title: "Gateways table in Skype for Business Server 2015"
 ms.reviewer: 
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro

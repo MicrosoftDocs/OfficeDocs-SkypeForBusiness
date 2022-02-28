@@ -1,7 +1,7 @@
 ---
 title: Microsoft Education governance FAQ for admins
-author: cichur
-ms.author: v-cichur
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams

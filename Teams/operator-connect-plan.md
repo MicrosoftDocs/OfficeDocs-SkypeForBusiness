@@ -3,7 +3,7 @@ title: Operator Connect
 author: cazawideh
 ms.author: czawideh
 manager: serdars
-ms.date: 04/12/2021
+ms.date: 09/30/2021
 ms.topic: article
 ms.service: msteams
 audience: admin

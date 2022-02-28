@@ -36,7 +36,7 @@ Enterprises choosing Skype for Business certified Wi-Fi devices can be assured u
 Listed in the table that follows are Wi-Fi infrastructure solutions that have been tested by these partners and reviewed by Microsoft to meet Skype for Business requirements. Lync qualified Wi-Fi access points will work with Skype for Business. We recommend that you visit the partner’s web site for the latest information regarding product specifications, capacity, country support, and documentation including release notes and known issues. Please contact the listed partner for more information on these products.
 
  ***Wi-Fi Infrastructure***
-<table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" width="100%" xmlns="http://www.w3.org/1999/xhtml">
+<table border="1" cellpadding="5" cellspacing="" class="grid">
 	<colgroup>
 		<col width="83" />
 		<col width="236" />

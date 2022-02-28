@@ -45,7 +45,7 @@ For more cost information, see [How to see prices and buy add-on licenses](skype
 
 - [Pricing for Phone System](https://products.office.com/skype-for-business/phone-system)
 
-- [Pricing for Calling Plans](https://docs.microsoft.com/microsoftteams/set-up-audio-conferencing-in-team)
+- [Pricing for Calling Plans](/microsoftteams/set-up-audio-conferencing-in-teams)
 
 ## What features can I get with add-on licenses?
 
