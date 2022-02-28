@@ -48,6 +48,10 @@ Shifts is available in all Enterprise SKUs where Teams is available.
 
 Shifts data is currently stored in Azure in data centers in North America, Western Europe, and Asia Pacific. For more information about where data is stored, see [Where is my data](http://o365datacentermap.azurewebsites.net/)?
 
+## Shifts data
+
+To learn more about where Shifts data is stored, and retention, retrieval, and encryption of Shifts data, see [Shifts data FAQ](shifts-data-faq.md).
+
 ## Set up Shifts
 
 ### Enable or disable Shifts in your organization
@@ -81,6 +85,7 @@ Before you can search the audit log, you have to first turn on auditing in the [
 
 ## Related topics
 
+- [Shifts for Teams](../shifts-for-teams-landing-page.md)
 - [Shifts Help for frontline workers](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
-- [Assign policies to your users in Teams](../../policy-assignment-overview.md)
 - [Shifts connectors](shifts-connectors.md)
+- [Assign policies to your users in Teams](../../policy-assignment-overview.md)

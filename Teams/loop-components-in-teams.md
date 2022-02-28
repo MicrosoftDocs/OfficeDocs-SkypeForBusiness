@@ -33,6 +33,8 @@ Loop components in Teams chat offer a new way to ideate, create, and make decisi
 
 **Start in chat, build from there.** Every component you create from Teams chat is automatically saved to a file in OneDrive. So, you might begin collaborating in chat then later move to the file, where you have a larger visual space for editing and can add as many components as you like.
 
+For information on admin settings for Loop components in Teams, see [Manage Loop components in SharePoint](/sharepoint/manage-loop-components).
+
 ## Clients and platforms
 
 Available on Teams apps on Windows, Mac, Linux, iOS, and Android.
@@ -76,7 +78,3 @@ Version History allows you to review and copy from previous versions of the file
 - B2B guests will not be able to collaborate on a live component that is shared with them via Company Share Link. Set permissions to **People currently in this chat** to share components with B2B guests.
 - Loop components are not supported in Teams channels.
 - Loop components in chat will not load only if file was moved to different library. If file is moved to different folder then it will continue to load in chat.
-
-## Related topics
-
-[Manage Loop components in SharePoint](/sharepoint/manage-loop-components)
