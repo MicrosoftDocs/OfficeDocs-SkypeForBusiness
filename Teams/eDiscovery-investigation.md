@@ -42,7 +42,7 @@ Not all Teams content is eDiscoverable. The following table shows the content ty
 |Emojis, GIFs, and stickers | Yes | |
 |Feed notifications | No | |
 |Inline images | Yes | |
-|Loop components| No|Chat messages that contain a loop component are searchable. However, the content of loop components is not indexed for search and won't be returned in search results. If search results contain a message with a loop component, you can view the loop component content.  |
+|Loop components| Yes|Content in a loop component is saved in a .fluid file that's stored in the OneDrive for Business account of the user who sends the loop component. That means you have to include OneDrive as a data source when searching for content in loop components. |
 |Meeting IM conversations | Yes | |
 |Meeting metadata<sup>1</sup> | Yes |  |
 |Name of channel | Yes | |
