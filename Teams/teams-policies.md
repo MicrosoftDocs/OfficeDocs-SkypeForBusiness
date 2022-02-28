@@ -41,7 +41,7 @@ The following policies are availble for teams channels:
 |Policy|Description|
 |:-----|:----------|
 |Create private channels|When **On**, team owners and members can create private channels. (Team owners can control if members can create private channels in each team.)|
-|Create shared channels|When **On**, team owners and members can create shared channels. (Team owners can control if members can create shared channels in each team.)|
+|Create shared channels|When **On**, team owners can create shared channels.|
 |Share channels with external users|When **On**, owners and members of shared channels can invite external participants from organizations where a cross-organization trust has been configured.|
 |Participate in cross-organization shared channels|When **On**, users can participate in shared channels created by other organizations where a cross-organization trust has been configured.|
 
