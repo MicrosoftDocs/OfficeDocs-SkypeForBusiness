@@ -121,7 +121,7 @@ Admins can choose to enable or disable communications with external Teams users 
 
 **Using the Microsoft Teams admin center**
 
-1.	In the left navigation, go to Users > External access.<br>
+1.	In the left navigation, go to **Users** > **External access**.<br>
 2.	Follow one of these steps:<br>
       *	To block Teams users in your organization from communicating with external Teams users whose accounts are not managed by an organization  :<br>
                1.	Turn off the People in my organization can communicate with Teams users whose accounts aren't managed by an organization setting <br>
