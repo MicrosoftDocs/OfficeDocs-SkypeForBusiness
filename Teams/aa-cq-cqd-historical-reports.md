@@ -70,7 +70,7 @@ Perform the following steps:
     microsoftcommunicationsonline/noam-4a-s7
     ```
 
-    - The region will be displayed after the **/** as in the above example where there region is: noam
+    - The region will be displayed after the **/** as in the above example where the region is: noam
 
  - The report will launch with sample data.
  
@@ -233,7 +233,7 @@ Perform the following steps:
 
 |Name                                    |Data Type                |Description                              |
 |:---------------------------------------|:------------------------|:----------------------------------------|
-|***% Abandoned Calls***                 |Percentage               |Measure: TotalCallCount / Total Calls<br>Ratio of successful to abandoned call count    |
+|***% Abandoned Calls***                 |Percentage               |Measure: Number of abandoned calls  / Total Calls    |
 |Total Calls                             |Whole number             |Measure: Sum agent answered calls        |
 |TotalCallCount                          |Whole number             |Measure: Sum(Call Count)                 |
 
