@@ -63,11 +63,11 @@ Users connecting with the Frontline workforce need:
 
 - Shifts scheduling and tasks management
 
-Users connecting with external users (suppliers/vendors) could use:
+Microsoft Teams users can chat with any external Teams user who is outside their organization. For more information, see the blog https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832.
 
-- [Guest access](/MicrosoftTeams/guest-joins) collaboration
+To chat with an external Microsoft Teams user, perform the below task:
 
-- [Federation](/microsoftteams/manage-external-access)
+- [Add or invite people outside your Teams org to a chat](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57)
 
 ## Determine your path
 
@@ -88,7 +88,7 @@ For organizations **not using Teams**:
  4. Use Kaizala and Teams
   
  5. Manage change
-
+f
  6. Plan for your adoption of Teams
 
  7. Move your organization to Teams
