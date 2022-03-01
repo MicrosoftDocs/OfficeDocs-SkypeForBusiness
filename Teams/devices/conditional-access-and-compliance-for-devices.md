@@ -1,5 +1,5 @@
 ---
-title: "Conditional access and intune policies for Microsoft Teams Rooms"
+title: "Conditional Access and Intune compliance policies for Microsoft Teams Rooms"
 ms.author: czawideh
 author: cazawideh
 ms.reviewer: sohailta
@@ -14,11 +14,10 @@ ms.collection:
 description: Learn about supported and recommended Conditional Access and Intune device compliance policies for Microsoft Teams Rooms.
 ---
 
-# 
+# Conditional Access and Intune compliance policies for Microsoft Teams Rooms
 
 This article provides supported Conditional Access policies for Microsoft Teams Rooms on Windows and on Android, as well as best
-practices and requirements for Teams Rooms devices that are used in
-shared spaces.
+practices and requirements for Teams Rooms devices that are used in shared spaces.
 
 ## Before you begin
 
@@ -26,12 +25,8 @@ shared spaces.
 
 Teams Rooms must already be deployed on the devices you want to assign
 Conditional Access policies to. If you haven’t deployed Teams Rooms yet,
-see [Deploy Microsoft Teams Rooms with Office 365 - Microsoft Teams \|
-Microsoft
-Docs](https://docs.microsoft.com/en-us/microsoftteams/rooms/with-office-365)
-and [Deploy Microsoft Teams Rooms on Android - Microsoft Teams \|
-Microsoft
-Docs](https://docs.microsoft.com/en-us/microsoftteams/devices/collab-bar-deploy)
+see [Deploy Microsoft Teams Rooms with Office 365](/rooms/with-office-365.md)
+and [Deploy Microsoft Teams Rooms on Android](collab-bar-deploy.md)
 for more information.
 
 An Azure Active Directory P1 Service Plan is required to use Conditional
@@ -43,8 +38,7 @@ When Teams Rooms are used in shared spaces, they need to be secured so
 that they can be safely accessed by different users. Conditional Access
 policies can be used to secure them. For an overview of Conditional
 Access in Azure Active Directory (Azure AD), see [What is Conditional
-Access in Azure Active Directory? \| Microsoft
-Docs](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview).
+Access in Azure Active Directory?](/azure/active-directory/conditional-access/overview).
 
 When using Conditional Access to secure Teams Rooms, consider the
 following best practices:
@@ -58,10 +52,7 @@ following best practices:
     ‘mtr-room2@contoso.com’ both start with the prefix ‘mtr-‘.
     Standardizign account names lets you use dynamic groups in Azure AD
     to automatically apply Conditional Access policies to all of these
-    accounts at once. See [Rules for dynamically populated groups
-    membership - Azure AD \| Microsoft
-    Docs](https://docs.microsoft.com/en-us/azure/active-directory/enterprise-users/groups-dynamic-membership)
-    for more information on dynamic groups.
+    accounts at once. See [Rules for dynamically populated groups membership](/azure/active-directory/enterprise-users/groups-dynamic-membership) for more information on dynamic groups.
 
 ## Supported Conditional Access policies  
 
