@@ -29,7 +29,23 @@ appliesto:
 
 You manage apps for your organization in **Teams apps** in the [Microsoft Teams admin center](https://admin.teams.microsoft.com). For example, you can set policies to control what apps are available org-wide or to specific Teams users and you can customize Teams by pinning the apps that are most important for your users.
 
-To learn more, see [Admin settings for apps in  Teams](admin-settings.md).  
+To learn more, see [Admin settings for apps in  Teams](admin-settings.md).
+
+### Workflows in Teams
+
+Workflows lets you automate repetitive tasks and processes using Power Automate. You can turn off Workflows for your organization in Teams using an **app permission policy** or through the **Manage apps** page by blocking Power Automate. This feature is turned on by default. For more information on Workflows, see [Browse and add workflows](https://support.microsoft.com/office/browse-and-add-workflows-4998095c-8b72-4b0e-984c-f2ad39e6ba9a).
+
+To turn off Workflows with an app permission policy, edit the Global (Org-wide default) policy to include Power Automate on the blocked list or remove it from the allowed list.
+
+You can also block Power Automate through the **Manage apps** page.
+
+1. Go to [**Teams apps** > **Manage apps**](https://teams.microsoft.com/policies/manage-apps).
+1. Search for **Power Automate**.
+1. Select the app.
+1. Change the **Status** from **Allowed** to **Blocked**.
+
+> [!NOTE]
+> When you turn off Workflows, it will hide the app from the Teams app store, message extensions, and the more actions menu. Turning off Workflows also deactivates any active flows.
 
 ## Teams external access and guest access settings in the Microsoft Teams admin center
 
