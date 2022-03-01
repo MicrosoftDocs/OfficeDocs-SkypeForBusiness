@@ -38,9 +38,7 @@ Depending on your environment, you'll need some or all of the following roles to
 
 ## Overview
 
-1. Create a new Microsoft Exchange resource account in the [Microsoft 365 admin center](?tab/m365-admin-center#create-a-resource-account), with [Exchange Online](?tab/exchange-online#create-a-resource-account), or with [Exchange Server](?tab/exchange-server#create-a-resource-account).
-
-Or, if a room mailbox already exists and you want to convert it to a resource account, you can [Modify an existing Exchange room mailbox](?tab/existing-account#create-a-resource-account).
+1. Create a new Microsoft Exchange resource account in the [Microsoft 365 admin center](&tab/m365-admin-center#create-a-resource-account), with [Exchange Online](&tab/exchange-online#create-a-resource-account), or with [Exchange Server](&tab/exchange-server#create-a-resource-account).<br><br>Or, if a room mailbox already exists and you want to convert it to a resource account, you can [Modify an existing Exchange room mailbox](&tab/existing-account#create-a-resource-account).
 
 2. Then, [Configure your account](#configure-mailbox-properties) for Teams Meetings.
 
@@ -146,7 +144,7 @@ This example enables the account for the existing room mailbox that has the alia
 Set-Mailbox -Identity ConferenceRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
 ```
 
-If you're in an Exchange hybrid configuration, run the Exchange hybrid steps in the [Exchange Online tab](?tabs=exchange-online#create-a-resource-account).
+If you're in an Exchange hybrid configuration, run the Exchange hybrid steps in the [Exchange Online tab](&tabs=exchange-online#create-a-resource-account).
 
 For detailed syntax and parameter information, see [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) and [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox).
 
