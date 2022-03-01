@@ -83,7 +83,8 @@ The following table highlights key articles that you'll want to review:
 | [Meeting policies](meeting-policies-overview.md)  | Describes how to create and manage the policies that determine which features are available to meeting participants. | 
 | [Manage Teams cloud meeting recording](cloud-recording.md) | Describes how to manage meeting recordings. |
 | [Manage your organization's devices](device-management.md)| Describes how to manage your organization's devices, such as phones and Teams Rooms. |
-||
+| [Use real-time telemetry to troubleshoot poor meeting quality](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md) | Describes how to use Real-Time Analytics (RTA) to troubleshoot poor Microsoft Teams meeting quality for individual users. 
+|||
 
 #### Key training for end users
 
@@ -153,7 +154,7 @@ The following table lists articles for more information:
 | Article | Description | 
 |----------|--------|
 | [Apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md) | Introduction to apps and how to deploy apps for your organization. |
-| [Apps for Teams meetings](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings | Overview of meeting app extensibility, API references, and how to enable and configure apps for meetings. |
+| [Apps for Teams meetings](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings) | Overview of meeting app extensibility, API references, and how to enable and configure apps for meetings. |
 | [Manage the Whiteboard in Teams](manage-whiteboard.md) | Describes Whiteboard functionality and how to enable and disable for your organization. |
 ||
 

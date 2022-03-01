@@ -89,32 +89,32 @@ items:
                   href: teams-adoption-drive-awareness.md
                 - name: Schedule service health reviews
                   href: teams-adoption-schedule-service-health-reviews.md
-        - name: Deploy Teams clients
+        - name: Client deployments
           items: 
-            - name: Get clients for Teams
+            - name: Get Teams clients
               href: get-clients.md
-            - name: Get Teams for Android in China
-              href: get-teams-android-in-china.md
-            - name: Hardware requirements for the Teams app
-              href: hardware-requirements-for-the-teams-app.md
-            - name: Hardware decoder and encoder driver recommendations
-              href: hardware-decoders-and-encoders.md
-            - name: Install Microsoft Teams using Microsoft Endpoint Configuration Manager
+            - name: Teams client updates
+              href: teams-client-update.md
+            - name: Bulk install Teams using Windows Installer
               href: msi-deployment.md
-            - name: Turn on Teams in your organization
-              href: Office-365-set-up.md
-            - name: How Microsoft Teams uses memory
-              href: teams-memory-usage-perf.md
-            - name: Microsoft 365 and Office 365 URLs and IP address ranges
-              href: office-365-urls-ip-address-ranges.md
             - name: Teams for Virtualized Desktop Infrastructure (VDI)
               href: teams-for-vdi.md
             - name: Teams for Remote Desktop environment (RDP)
               href: teams-on-rdp.md
-            - name: Teams client updates
-              href: teams-client-update.md
             - name: Troubleshoot installation and update issues
               href: troubleshoot-installation.md
+            - name: Reference
+              items:
+                - name: Microsoft 365 URLs and IP address ranges
+                  href: office-365-urls-ip-address-ranges.md
+                - name: Hardware requirements
+                  href: hardware-requirements-for-the-teams-app.md
+                - name: How Teams uses memory
+                  href: teams-memory-usage-perf.md
+                - name: Hardware decoder and encoder driver recommendations
+                  href: hardware-decoders-and-encoders.md
+                - name: Teams firewall PowerShell script
+                  href: client-firewall-script.md
     - name: Teams training
       items: 
         - name: Admin training for Teams
@@ -249,18 +249,7 @@ items:
               href: /SkypeForBusiness/hybrid/cloud-consolidation-aad-connect
         - name: Integration with Exchange and SharePoint
           href: /SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint
-- name: Upgrade from Kaizala
-  items: 
-    - name: Get started
-      href: get-started-kaizala-teams.md
-    - name: Prepare for upgrade
-      href: prepare-for-teams-kaizala.md
-    - name: Plan your upgrade journey
-      href: plan-your-move-kaizala.md
-    - name: Navigate Microsoft Teams
-      href: navigate-teams.md
-    - name: Get familiar with Microsoft Teams
-      href: drive-adoption-optimize-kaizala.md
+
 - name: Security, compliance, and privacy
   items: 
     - name: Overview
@@ -475,6 +464,8 @@ items:
               href: teams-analytics-and-reports/teams-live-event-usage-report.md
             - name: Teams information protection license report
               href: teams-analytics-and-reports/information-protection-license-report.md
+            - name: Teams Virtual Visits usage report
+              href: teams-analytics-and-reports/virtual-visits-usage-report.md
               
     - name: Log files, service health, and support
       items:
@@ -496,8 +487,6 @@ items:
       href: teams-channels-overview.md
     - name: Overview of private channels
       href: private-channels.md
-    - name: Manage the life cycle of private channels
-      href: private-channels-life-cycle-management.md
     - name: Assign team owners and members in Teams
       href: assign-roles-permissions.md
     - name: Overview of dynamic membership for teams
@@ -789,17 +778,17 @@ items:
             - name: Videos - Audio Conferencing in Teams
               href: ./audio-conferencing-in-office-365.md
 
-- name: Voice - Teams Phone and PSTN connectivity
+- name: Voice - Phone System and PSTN connectivity
   items: 
     - name: Plan your Teams voice solution
       href: cloud-voice-landing-page.md
-    - name: Teams Phone
+    - name: Phone System
       items: 
-        - name: What is Teams Phone
+        - name: What is Phone System
           href: what-is-phone-system-in-office-365.md
-        - name: Here's what you get with Teams Phone
+        - name: Here's what you get with Phone System
           href: here-s-what-you-get-with-phone-system.md
-        - name: Set up Teams Phone
+        - name: Set up Phone System
           href: setting-up-your-phone-system.md
         - name: Set up common area phones
           href: set-up-common-area-phones.md
@@ -924,10 +913,6 @@ items:
                   href: direct-routing-media-optimization.md
                 - name: Configure Local Media Optimization
                   href: direct-routing-media-optimization-configure.md
-            - name: User accounts in a hybrid environment with PSTN connectivity
-              href: direct-routing-user-accounts-in-a-hybrid-environment.md
-            - name: Migrate to Direct Routing
-              href: direct-routing-migrating.md
             - name: Monitor and troubleshoot Direct Routing
               items: 
                 - name: Overview
@@ -992,7 +977,7 @@ items:
           href: operator-connect-configure.md#set-up-phone-numbers
           
         - name: Manage phone numbers for Direct Routing
-          href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online
+          href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
 
     - name: Voice routing
       items: 
@@ -1042,7 +1027,7 @@ items:
           href: voice-case-study-overview.md
         - name: Teams upgrade plan
           href: voice-case-study-migration-plan.md
-        - name: Teams Phone
+        - name: Phone System
           href: voice-case-study-phone-system.md
         - name: Location-Based-Routing
           href: voice-case-study-location-based-routing.md
@@ -1055,7 +1040,7 @@ items:
   
     - name: Guidance for small and medium businesses
       items: 
-      - name: Teams Phone guidance for small and medium businesses
+      - name: Phone System guidance for small and medium businesses
         href: business-voice/whats-business-voice.md
       - name: Country and region availability
         href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
@@ -1063,7 +1048,7 @@ items:
         href: business-voice/get-ready-internet.md
       - name: Get help from a reseller or partner
         href: business-voice/reseller-partner-support.md
-      - name: Set up Teams Phone for small and medium businesses
+      - name: Set up Phone System for small and medium businesses
         items:
           - name: Overview
             href: business-voice/set-up-overview.md
@@ -1083,7 +1068,7 @@ items:
             href: business-voice/port-phone-numbers.md
           - name: "Post-setup resources"
             href: business-voice/set-up-finish.md
-      - name: Customize your Teams Phone setup for small and medium businesses
+      - name: Customize your Phone System setup for small and medium businesses
         items: 
           - name: Customization options
             href: business-voice/customize-business-voice.md
@@ -1097,7 +1082,7 @@ items:
             href: business-voice/create-a-phone-system-call-queue-smb.md
           - name: Set up an auto attendant
             href: business-voice/create-a-phone-system-auto-attendant-smb.md
-      - name: Manage your Teams Phone setup for small and medium businesses
+      - name: Manage your Phone System setup for small and medium businesses
         items: 
           - name: Create one or more users
             href: business-voice/create-users.md
@@ -1573,10 +1558,15 @@ items:
       items: 
         - name: Bookings in Teams
           items: 
-            - name: Virtual visits with Teams and Bookings
+            - name: Virtual Visits with Teams and Bookings
               href: expand-teams-across-your-org/bookings-virtual-visits.md
             - name: Manage the Bookings app
               href: bookings-app-admin.md
+            - name: Manage the join experience on mobile browsers
+              href: expand-teams-across-your-org/mobile-browser-join.md
+            - name: Virtual Visits usage report
+              href: teams-analytics-and-reports/virtual-visits-usage-report.md             
+            
         - name: Shifts for Teams
           items: 
             - name: Get started with Shifts
@@ -1589,6 +1579,8 @@ items:
               items: 
               - name: Overview       
                 href: expand-teams-across-your-org/shifts/shifts-connectors.md
+            - name: Shifts data FAQ       
+              href: expand-teams-across-your-org/shifts/shifts-data-faq.md
     - name: Teams for Education
       href: expand-teams-across-your-org/teams-for-education-landing-page.md
       items: 
@@ -1606,7 +1598,7 @@ items:
           href: edu-remote-low-bandwidth.md
         - name: Teams for education policy wizard
           href: easy-policy-setup-edu.md
-        - name: Deploy the Parents app for Teams
+        - name: Parents in Teams for Education
           href: edu-parents-app.md
         - name: Career Coach app in Teams for Education
           href: career-coach.md
@@ -1683,16 +1675,18 @@ items:
       items: 
         - name: Get started with Teams for healthcare organizations
           href: expand-teams-across-your-org/healthcare/teams-in-hc.md
-        - name: Virtual visits
+        - name: Virtual Visits
           items: 
-            - name: Virtual visits with Teams - Integration into Cerner EHR
+            - name: Virtual Visits with Teams - Integration into Cerner EHR
               href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
-            - name: Virtual visits with Teams - Integration into Epic EHR
+            - name: Virtual Visits with Teams - Integration into Epic EHR
               href: expand-teams-across-your-org/healthcare/ehr-admin.md
             - name: EHR admin reports
               href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
-            - name: Virtual visits with Teams and Bookings
+            - name: Virtual Visits with Teams and Bookings
               href: expand-teams-across-your-org/bookings-virtual-visits.md
+            - name: Virtual Visits usage report
+              href: teams-analytics-and-reports/virtual-visits-usage-report.md  
             - name: Manage the join experience on mobile browsers
               href: expand-teams-across-your-org/mobile-browser-join.md              
         - name: View and assign policy packages
@@ -1785,7 +1779,19 @@ items:
         - name: Get started with Teams Essentials 
           href: get-started-with-teams-essentials.md
         - name: Connect Teams Essentials (AAD Identity) to email
-          href: connect-teams-essentials-to-email.md         
+          href: connect-teams-essentials-to-email.md 
+    - name: Upgrade from Kaizala
+      items: 
+        - name: Get started
+          href: get-started-kaizala-teams.md
+        - name: Prepare for upgrade
+          href: prepare-for-teams-kaizala.md
+        - name: Plan your upgrade journey
+          href: plan-your-move-kaizala.md
+        - name: Navigate Microsoft Teams
+          href: navigate-teams.md
+        - name: Get familiar with Microsoft Teams
+          href: drive-adoption-optimize-kaizala.md        
     - name: Interoperability with Microsoft 365 and Office 365
       items: 
         - name: Microsoft 365 groups and Teams
@@ -1795,8 +1801,9 @@ items:
         - name: Enhance existing Microsoft 365 groups with Teams
           href: enhance-office-365-groups.md
         - name: How Exchange and Teams interact
-          href: exchange-teams-interact.md
-          items: 
+          items:
+            - name: How Exchange and Teams interact
+              href: exchange-teams-interact.md
             - name: Configure an Exchange hybrid organization for use with Teams
               href: exchange-hybrid-organization.md
             - name: Use mail flow rules with Exchange
@@ -1805,7 +1812,8 @@ items:
           href: /sharepoint/teams-connected-sites?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
         - name: Manage SharePoint and Teams integration settings
           href: /sharepoint/manage-teams-sharepoint-experiences?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-
+    - name: Turn on Teams in your organization
+      href: Office-365-set-up.md
     - name: Teams PowerShell
       items: 
         - name: Overview
