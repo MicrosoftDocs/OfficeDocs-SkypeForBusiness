@@ -139,7 +139,7 @@ As important as good audio, high-quality video is a necessity for modern Teams c
 
 -   In **larger rooms**, cameras feature the technology needed to capture participants in a variety of locations at varying distances away. These cameras can capture groups or focus on specific individuals while maintaining great visual clarity. Devices that can track and feature only active speakers are regularly used in larger spaces so that many participants may be featured individually throughout a meeting as they contribute their thoughts.
 
-### Enhanced Microsoft Teams Room
+## Enhanced Microsoft Teams Room
 
 ![Rendering of an enhanced meeting room.](media/emr1.png)
 
