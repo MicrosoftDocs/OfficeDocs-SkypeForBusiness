@@ -38,13 +38,13 @@ Depending on your environment, you'll need one or more roles to create the accou
 
 ## Overview
 
-1. Create a new Microsoft Exchange resource account in the [Microsoft 365 admin center](with-office-365.md&tabs=m365-admin-center#create-a-resource-account), with [Exchange Online](with-office-365.md&&tabs=exchange-online#create-a-resource-account), or with [Exchange Server](with-office-365.md&&tabs=exchange-server#create-a-resource-account).<br><br>Or, if a room mailbox already exists and you want to convert it to a resource account, you can [Modify an existing Exchange room mailbox](with-office-365.md&tabs=existing-account#create-a-resource-account).
+**Step 1 -** [Create a new resource account](create-a-resource-account). Or, if a room mailbox already exists and you want to convert it to a resource account, you can [Modify an existing Exchange room mailbox](&tabs=tab/existing-account#create-a-resource-account).
 
-2. Then, [Configure your account](#configure-mailbox-properties) for Teams Meetings.
+**Step 2 -**  Then, [Configure your account](#configure-mailbox-properties) for Teams Meetings.
 
-3. If the resource account is going to be associated with a shared device, such as Teams displays with hot desking, [Turn off password expiration](#turn-off-password-expiration).
+**Step 3 -**  If the resource account is going to be associated with a shared device, such as Teams displays with hot desking, [Turn off password expiration](#turn-off-password-expiration).
 
-4. Lastly, [assign licenses](#assign-meeting-room-license) so the account can access Microsoft Teams.
+**Step 4 -**  Lastly, [assign a meeting room license](#assign-a-meeting-room-license) so the account can access Microsoft Teams.
 
 From there, there are [additional steps](#next-steps) you can review, including distribution groups, network capability, and calling.
 
@@ -61,7 +61,7 @@ Start by going to [Create a resource account in the Microsoft 365 admin center](
 
 You can change the settings of the resource mailbox, such as adding an additional response,  using Exchange admin center or via the PowerShell cmdlets shown in the [Configure mailbox properties](#configure-mailbox-properties) section of this article.
 
-You may also need to apply bandwidth policies or meeting policies to this account. See the [Additional considerations](#additional-considerations) section of this article for more information.
+You may also need to apply bandwidth policies or meeting policies to this account. See [Next steps](#next-steps) for more information.
 
 #### [**With Exchange Online**](#tab/exchange-online)
 
@@ -148,7 +148,7 @@ This example enables the account for the existing room mailbox that has the alia
 Set-Mailbox -Identity ConferenceRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
 ```
 
-If you're in an Exchange hybrid configuration, run the Exchange hybrid steps in the [Exchange Online tab](with-office-365.md&tabs=exchange-online#create-a-resource-account).
+If you're in an Exchange hybrid configuration, run the Exchange hybrid steps in the [Exchange Online tab](&tabs=tab/exchange-online#create-a-resource-account).
 
 For detailed syntax and parameter information, see [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) and [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox).
 
