@@ -181,7 +181,9 @@ You can use Teams live events in multiple regions across the world. The followin
 **Exclusions and considerations**
 
 - **Data location:** Teams data locations, outside of the ones listed above, aren't currently supported.
-- **Note:** Live events relies on Azure CDN services, which may be unavailable in some countries. As an administrator, you might need to set up a VPN in compliance with all applicable laws and regulations to connect to your corporate network for these apps to work seamlessly. Once that's complete, people in your organization can schedule and attend live events.
+>
+>[!Note]
+> Live events relies on Azure CDN services, which may be unavailable in some countries. As an administrator, you might need to set up a VPN in compliance with all applicable laws and regulations to connect to your corporate network for these apps to work seamlessly. Once that's complete, people in your organization can schedule and attend live events.
 
 ## Next steps
 
