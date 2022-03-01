@@ -70,7 +70,7 @@ Perform the following steps:
     microsoftcommunicationsonline/noam-4a-s7
     ```
 
-    - The region will be displayed after the **/** as in the above example where there region is: noam
+    - The region will be displayed after the **/** as in the above example where the region is: noam
 
  - The report will launch with sample data.
  
@@ -233,7 +233,7 @@ Perform the following steps:
 
 |Name                                    |Data Type                |Description                              |
 |:---------------------------------------|:------------------------|:----------------------------------------|
-|***% Abandoned Calls***                 |Percentage               |Measure: TotalCallCount / Total Calls<br>Ratio of successful to abandoned call count    |
+|***% Abandoned Calls***                 |Percentage               |Measure: Number of abandoned calls  / Total Calls    |
 |Total Calls                             |Whole number             |Measure: Sum agent answered calls        |
 |TotalCallCount                          |Whole number             |Measure: Sum(Call Count)                 |
 
@@ -244,7 +244,7 @@ Perform the following steps:
 |Average Call Duration (Seconds)         |Decimal number           |Summarize: Sum<br>Average call duration in seconds |
 |Call Count                              |Whole number             |Summarize: Sum<br>Number of calls                  |
 |Call Queue Call Result                  |Text                     |Call queue call final state -- possible values:<br><br>§ agent_joined_conference<br>§ declined<br>§ disconnected<br>§ error<br>§ failed<br>§ invalid<br>§ overflown<br>§ timed_out<br>§ transferred_to_agent |
-|Call Queue Final State Action           |Text                     |Call queue final action -- possible values:<br><br>§ disconnect<br>§ disconnect_with_busy<br>§ failed_to_accept_call<br>§ forward<br>§ shared_voicemail<br>§ other<br>§ voicemail |
+|Call Queue Final State Action           |Text                     |Call queue final action -- possible values:<br><br>§ disconnect (timed_out calls)<br>§ disconnect_with_busy (overflown calls)<br>§ failed_to_accept_call<br>§ forward<br>§ shared_voicemail<br>§ other<br>§ voicemail |
 |Call Queue Identity                     |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com** then this value will be: **cq_test** |
 |Date                                    |Date/time                |Call Queue call start date and time (hour) (UTC)   |
 |IsAbandoned                             |True/false               |True if call is not answered by an agent           |

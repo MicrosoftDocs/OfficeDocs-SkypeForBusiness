@@ -42,6 +42,7 @@ Not all Teams content is eDiscoverable. The following table shows the content ty
 |Emojis, GIFs, and stickers | Yes | |
 |Feed notifications | No | |
 |Inline images | Yes | |
+|Loop components| Yes|Content in a loop component is saved in a .fluid file that's stored in the OneDrive for Business account of the user who sends the loop component. That means you have to include OneDrive as a data source when searching for content in loop components. |
 |Meeting IM conversations | Yes | |
 |Meeting metadata<sup>1</sup> | Yes |  |
 |Name of channel | Yes | |
@@ -50,7 +51,7 @@ Not all Teams content is eDiscoverable. The following table shows the content ty
 |Reactions (such as likes, hearts, and other reactions) | No | |
 |Subject | Yes | |
 |Tables | Yes | |
-|||
+||||
 
 <sup>1</sup> Meeting (and call) metadata includes the following:
 
@@ -64,7 +65,7 @@ Not all Teams content is eDiscoverable. The following table shows the content ty
   The image shows an example of meeting metadata.
 
   > [!div class="mx-imgBorder"]
-  > ![Image is of the CVR records meeting metadata.](media/conversationOption3.png)
+  > ![The meeting metadata from the compliance copy.](media/conversationOption3.png)
 
 Here's an example of an IM conversation between participants during the meeting.
 
@@ -85,7 +86,7 @@ Private chats in a user's mailbox are stored in the Team Chat folder under Conve
 
 ## eDiscovery of private channels
 
-Records for messages sent in a private channel are delivered to the mailbox of all private channel members, rather than to a group mailbox. The titles of the records are formatted to indicate which private channel they were sent from.
+Compliance copies of messages sent in a private channel are delivered to the mailbox of all private channel members, rather than to a group mailbox. The titles of the compliance copies are formatted to indicate which private channel they were sent from.
 
 Because each private channel has its own SharePoint site that's separate from the parent team site, files in a private channel are managed independently of the parent team.
 
