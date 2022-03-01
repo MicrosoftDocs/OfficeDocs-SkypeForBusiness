@@ -103,22 +103,6 @@ Use org-wide app settings to control whether users can install third-party apps.
 
 As mentioned earlier, to allow third-party apps, you can either edit and use the global (Org-wide default) policy or create and assign custom policies.
 
-## Turn off Workflows in Teams
-
-Workflows lets you automate repetitive tasks and processes using Power Automate. You can turn off Workflows for your organization in Teams using an **app permission policy** or through the **Manage apps** page by blocking Power Automate.
-
-To turn off Workflows with an app permission policy, edit the Global (Org-wide default) policy to include Power Automate on the blocked list or remove it from the allowed list.
-
-You can also block Power Automate through the **Manage apps** page.
-
-1. Go to [**Teams apps** > **Manage apps**](https://teams.microsoft.com/policies/manage-apps).
-1. Search for **Power Automate**.
-1. Select the app.
-1. Change the **Status** from **Allowed** to **Blocked**.
-
-> [!NOTE]
-> When you turn off Workflows, it will hide the app from the Teams app store, message extensions, and the more actions menu. Turning off Workflows also deactivates any active flows.
-
 ## FAQ
 
 ### Working with app permission policies
