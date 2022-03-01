@@ -21,8 +21,6 @@ practices and requirements for Teams Rooms devices that are used in shared space
 
 ## Before you begin
 
-### Deploy Teams Rooms
-
 Teams Rooms must already be deployed on the devices you want to assign
 Conditional Access policies to. If you haven’t deployed Teams Rooms yet,
 see [Deploy Microsoft Teams Rooms with Office 365](/rooms/with-office-365.md)
