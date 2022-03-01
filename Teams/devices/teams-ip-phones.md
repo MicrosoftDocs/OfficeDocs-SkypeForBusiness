@@ -128,6 +128,8 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+| Poly Trio C60   | `7.2.1.1831`  | 2022 Update #1                        |
+| Poly CCX400/CCX500/CCX600   | `7.2.1.1826`  | 2022 Update #1                 |
 |Crestron UC-2     | `1.0.4.75`    | 2022 Update #1 |
 |Audiocodes C455HD | `1.15.271`    | 2022 Update #1
 |Audiocodes C448HD  | `1.14.500` | 2022 Update #1 |
@@ -286,7 +288,7 @@ The following are the latest Microsoft Teams Panels app and firmware versions.
 
 |Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-|2022 Update #1A | Febuary 25, 2022 | `1449/1.0.97.2022730007` | `5.0.5304.0`  | `322` |
+|2022 Update #1A | February 25, 2022 | `1449/1.0.97.2022730007` | `5.0.5304.0`  | `322` |
 |2022 Update #1  | February 22, 2022 |`1449/1.0.96.2021726501` | `5.0.5304.0 `  | `322` |
 |2021 Update #1  | August 12, 2021 |`1449/1.0.97.2021070601`   | `5.0.5211.0`   |  `268`|
 
