@@ -13,14 +13,14 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
-description: Learn how to create and license Teams Phone System with Calling Plan users and assign them phone numbers.
+description: Learn how to create and license Teams Phone System with Calling Plan bundle users and assign them phone numbers.
 appliesto: 
 - Microsoft Teams
 ---
 
-# Create and license Teams Phone System with Calling Plan users and assign them phone numbers
+# Create and license Teams Phone System with Calling Plan bundle users and assign them phone numbers
 
-To use Teams Phone System with Calling Plan, you need a Microsoft 365 account that has Teams Phone with Calling Plan bundle licenses. When you have an account and licenses, you can start assigning phone numbers.
+To use the Teams Phone System with Calling Plan bundle, you need a Microsoft 365 account that has Teams Phone with Calling Plan bundle licenses. When you have an account and licenses, you can start assigning phone numbers.
 
 ## Create and license users
 

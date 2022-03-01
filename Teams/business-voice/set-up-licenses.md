@@ -21,7 +21,7 @@ appliesto:
 
 # Step 3: Assign Teams Phone with Calling Plan bundle licenses
 
-Each user who needs to use Microsoft Teams Phone System with Calling Plan needs to be assigned a Teams Phone with Calling Plan bundle license.
+Each user who needs the Microsoft Teams Phone System with Calling Plan bundle needs to be assigned a **Teams Phone with Calling Plan** bundle license.
 
 1. Open the Microsoft 365 admin center and log in with a user that is a Global admin. This is usually the account you used to sign up for Microsoft 365.
 1. In the left navigation pane, go to <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">**Billing** > **Licenses**</a>.

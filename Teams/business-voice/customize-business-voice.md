@@ -21,7 +21,7 @@ appliesto:
 
 # Customize Teams Phone System with Calling Plan
 
-The [Teams Phone System with Calling Plan setup guide](set-up-overview.md) gets Phone System with Calling Plan started with basic options so you can use it right away. Those options might be enough if you're a small business just starting out or if you're running a pilot in your larger organization. You get the basics with new phone numbers and a call menu.
+The [Teams Phone System with Calling Plan setup guide](set-up-overview.md) gets the Phone System with Calling Plan bundle started with basic options so you can use it right away. Those options might be enough if you're a small business just starting out or if you're running a pilot in your larger organization. You get the basics with new phone numbers and a call menu.
 
 But you'll likely want to customize Phone System with Calling Plan to better meet your business needs. For example, you'll probably want to move your existing phone numbers (called number porting) to Phone System with Calling Plan.
 

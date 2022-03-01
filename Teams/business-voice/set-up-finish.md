@@ -21,13 +21,13 @@ appliesto:
 
 # Finished Teams Phone System with Calling Plan setup
 
-You've completed the basic setup of Teams Phone System with Calling Plan. The following are some helpful resources for managing Phone System with Calling Plan and helping your users get the most of their new phone, meeting, and audio conferencing experience.
+You've completed the basic setup of Teams Phone System with Calling Plan. The following are some helpful resources for managing the Phone System with Calling Plan bundle and helping your users get the most of their new phone, meeting, and audio conferencing experience.
 
-The following tables list resources that'll help you make the most out of Teams and Phone System with Calling Plan.
+The following tables list resources that'll help you make the most out of Teams and the Phone System with Calling Plan bundle.
 
 ## Training
 
-Use the following training resources to get you and your users up to speed with Teams and Phone System with Calling Plan.
+Use the following training resources to get you and your users up to speed with Teams and the Phone System with Calling Plan bundle.
 
 |Resource  |Description  |
 |---------|---------|

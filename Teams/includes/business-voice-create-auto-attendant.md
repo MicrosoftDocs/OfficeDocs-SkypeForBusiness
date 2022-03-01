@@ -19,7 +19,7 @@ If you want to have your auto attendant route calls differently on holidays, the
 # [Step 1 - Phone number](#tab/phone-number)
 
 > [!NOTE]
-> If you're following the steps to set up Teams Phone System with Calling Plan for the first time and you're on **Step 6: Set up an auto attendant for your company's main phone number**, you've already finished the steps on this tab. Move to the next tab: [Auto attendant general info](?tabs=general-info#steps).
+> If you're following the steps to set up the Teams Phone System with Calling Plan bundle for the first time and you're on **Step 6: Set up an auto attendant for your company's main phone number**, you've already finished the steps on this tab. Move to the next tab: [Auto attendant general info](?tabs=general-info#steps).
 
 Each auto attendant that you create requires a resource account. This is similar to a user account, except the account is associated with an auto attendant or call queue instead of a person. In this step, we'll create the account, assign it a *Microsoft Teams Phone Standard - Virtual User* license, and then assign a service number.
 

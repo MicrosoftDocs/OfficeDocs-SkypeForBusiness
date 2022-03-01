@@ -22,9 +22,9 @@ appliesto:
 # Step 7: Port phone numbers to Teams Phone System with Calling Plan (optional)
 
 > [!IMPORTANT]
-> The information in this article is applicable to Teams Phone System **with** Calling Plan only. Phone System with Calling Plan is available only in select countries and regions. Before reading this article, check [Country and region availability for Teams Phone System with Calling Plan](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) to see whether your country or region supports Phone System with Calling Plan.
+> The information in this article is applicable to the Teams Phone System **with** Calling Plan bundle only. The Phone System with Calling Plan bundle is available only in select countries and regions. Before reading this article, check [Country and region availability for the Teams Phone System with Calling Plan bundle](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) to see whether your country or region supports the Phone System with Calling Plan bundle.
 >
-> If your tenant is located in a country or region that doesn't support Phone System with Calling Plan, check out [Get help from a Microsoft reseller or partner](reseller-partner-support.md).
+> If your tenant is located in a country or region that doesn't support the Phone System with Calling Plan bundle, check out [Get help from a Microsoft reseller or partner](reseller-partner-support.md).
 
 Earlier in this setup guide, you acquired phone numbers for the main company line and for any users that you've assigned a Teams Phone with Calling Plan bundle license to. **If you're a new business and don't have any existing phone numbers that you want to bring to Phone System with Calling Plan, you can skip this step.**
 
