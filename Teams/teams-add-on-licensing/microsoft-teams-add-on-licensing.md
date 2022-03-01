@@ -48,13 +48,13 @@ Here's a list of Teams add-on licenses and their capabilities that you can add t
 
 All Microsoft 365 plans allow Teams users to make peer-to-peer calls within your organization using VoIP technology, but you may want to add on different licenses for capabilities like making calls to PSTN numbers or setting up a PBX.
 
-### Audio conferencing options
+### Audio conferencing
 
 You can add **Audio Conferencing** licenses for free to all Microsoft 365 subscriptions.
 
-Microsoft 365 E5/A5/G5 plans include Audio Conferencing licenses, so you will not need to purchase additional Audio Conferencing licenses with this plan.
+Microsoft 365 E5/A5/G5 plans include Audio Conferencing licenses, so you won't need to purchase additional Audio Conferencing licenses with this plan.
 
-### Voice and PSTN connectivity license options
+### Voice and PSTN connectivity
 
 Whether you're a small business, enterprise organization, educational institution, government agency, or nonprofit, you have three ways to get Teams Phone System and PSTN connectivity:
 
@@ -95,16 +95,15 @@ Here's a summary of which Microsoft voice and calling licenses to purchase, base
 </tbody>
 </table>
 
-Learn more about Microsoft plans and recommendations for specific organization types:
+## Additional guidance on Microsoft plans
+
+Learn more about Microsoft plans and get guidance according to your organization type:
 
 - [Guidance for small and medium businesses](../business-voice/whats-business-voice.md)
 - [Plans for enterprise organizations](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans)
 - [Guidance for educational institutions](https://www.microsoft.com/education/buy-license/microsoft365)
 - [Plans for governments and governmental agencies](https://www.microsoft.com/microsoft-365/government/)
 - [Plans for nonprofit organizations](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing)
-
->[!NOTE]
->If you need to use a third-party telephone service or if Microsoft Teams Calling Plans isn't available in your country or region, you have other [PSTN connectivity options](../pstn-connectivity.md) you can choose from.
 
 ## Need help?
 
