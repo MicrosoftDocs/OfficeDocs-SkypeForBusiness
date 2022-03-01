@@ -21,7 +21,7 @@ localization_priority: Normal
 appliesto: 
   - Microsoft Teams
 ---
-
+# [Overview](#tab/overview)
 # Meeting room guidance for Teams
 
 This article is intended to guide users on how to optimize meeting spaces with Microsoft Teams Rooms solutions and devices. It includes information on Teams Rooms device and solution uses, layouts, and specifications.
@@ -138,6 +138,8 @@ As important as good audio, high-quality video is a necessity for modern Teams c
 -   In shared spaces, the options and features expand. **Smaller rooms** may be covered by cameras included within all-in-one audio devices, such as soundbars. These cameras typically feature a wide field of view, ensuring that they capture every participant in the space in a single shot. Many of these cameras also feature things like intelligent framing of the image, so that the camera only shows the people in the meeting and not empty chairs, or people counting, to track and understand space utilization.
 
 -   In **larger rooms**, cameras feature the technology needed to capture participants in a variety of locations at varying distances away. These cameras can capture groups or focus on specific individuals while maintaining great visual clarity. Devices that can track and feature only active speakers are regularly used in larger spaces so that many participants may be featured individually throughout a meeting as they contribute their thoughts.
+
+# [Enhanced Microsoft Teams Room](#tab/emtr)
 
 ## Enhanced Microsoft Teams Room
 
