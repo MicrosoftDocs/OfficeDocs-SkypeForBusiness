@@ -17,7 +17,7 @@ ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Read this topic for information on how to deploy Microsoft Teams Rooms with Microsoft 365 or Office 365.
 ---
 
-# Create resource accounts for Teams devices
+# Create and configure resource accounts for Teams devices
 
 This article provides steps to create resource accounts, required for Microsoft Teams Rooms on Windows, Microsoft Teams Rooms on Android, Microsoft Teams Rooms on Surface Hub, and hot desking on Teams displays.
 
@@ -27,7 +27,7 @@ This article provides steps to create resource accounts, required for Microsoft 
 
 ## Requirements
 
-Depending on your environment, you'll need some or all of the following roles to create the accounts.
+Depending on your environment, you'll need one or more roles to create the accounts.
 
 |**Enviromnent**|**Required Roles**|
 |:-----|:-----|
@@ -38,7 +38,7 @@ Depending on your environment, you'll need some or all of the following roles to
 
 ## Overview
 
-1. Create a new Microsoft Exchange resource account in the [Microsoft 365 admin center](&tab/m365-admin-center#create-a-resource-account), with [Exchange Online](&tab/exchange-online#create-a-resource-account), or with [Exchange Server](&tab/exchange-server#create-a-resource-account).<br><br>Or, if a room mailbox already exists and you want to convert it to a resource account, you can [Modify an existing Exchange room mailbox](&tab/existing-account#create-a-resource-account).
+1. Create a new Microsoft Exchange resource account in the [Microsoft 365 admin center](with-office-365.md&tabs=m365-admin-center#create-a-resource-account), with [Exchange Online](with-office-365.md&&tabs=exchange-online#create-a-resource-account), or with [Exchange Server](with-office-365.md&&tabs=exchange-server#create-a-resource-account).<br><br>Or, if a room mailbox already exists and you want to convert it to a resource account, you can [Modify an existing Exchange room mailbox](with-office-365.md&tabs=existing-account#create-a-resource-account).
 
 2. Then, [Configure your account](#configure-mailbox-properties) for Teams Meetings.
 
@@ -46,10 +46,14 @@ Depending on your environment, you'll need some or all of the following roles to
 
 4. Lastly, [assign licenses](#assign-meeting-room-license) so the account can access Microsoft Teams.
 
+From there, there are [additional steps](#next-steps) you can review, including distribution groups, network capability, and calling.
+
 ## Create a resource account
 
-> [!IMPORTANT]
+> [!NOTE]
 > When naming your resource accounts, we recommend using a standard naming convention, such as adding "mtr-" to the beginning of the e-mail address. This will help with creating dynamic groups to ease management in Azure Active Directory.
+
+Create a resource account using a method from one of the following tabs:
 
 #### [In Microsoft 365 admin center](#tab/m365-admin-center)
 
@@ -144,7 +148,7 @@ This example enables the account for the existing room mailbox that has the alia
 Set-Mailbox -Identity ConferenceRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
 ```
 
-If you're in an Exchange hybrid configuration, run the Exchange hybrid steps in the [Exchange Online tab](&tabs=exchange-online#create-a-resource-account).
+If you're in an Exchange hybrid configuration, run the Exchange hybrid steps in the [Exchange Online tab](with-office-365.md&tabs=exchange-online#create-a-resource-account).
 
 For detailed syntax and parameter information, see [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) and [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox).
 
@@ -189,6 +193,8 @@ You now need to set the resource account so that the password never expires. If 
   
 > [!NOTE]
 > Setting **Password never expires** is a requirement for shared Microsoft Teams devices. If your domain rules may prohibit passwords that don't expire, you'll need to create an exception for each Microsoft Teams device resource account.
+
+Follow the steps in one of the following tabs to turn on password expiration. 
 
 #### [**Azure Active Directory 2.0**](#tab/azure-active-directory2-password/)
 
@@ -246,12 +252,14 @@ Set-ADUser -Identity ConferenceRoom01@contoso.com -PasswordNeverExpires $true
 
 ---
 
-## Assign Meeting Room license
+## Assign a Meeting Room license
 
-The resource account needs to have a valid Microsoft 365 or Office 365 license, or Microsoft Teams sign-in will not work. You need to assign a usage location to your resource account. This determines what license SKUs are available for your account.
+The resource account needs a Microsoft 365 or Office 365 license to sign into Microsoft Teams. 
 
 > [!NOTE]
 > The Meeting Room license is required for the hot desking on Teams displays.
+
+First, follow the steps in one of the following tabs to assign a usage location to your resource account. The location determines what license SKUs are available for your account.
 
 #### [**Active Directory 2.0**](#tab/active-directory2-license/)
 
@@ -318,11 +326,11 @@ Set-MsolUserLicense -UserPrincipalName 'ConferenceRoom01@contoso.com' -AddLicens
 
 ---
 
-For detailed instructions, see [Assign Microsoft 365 licenses to user accounts with PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell).
+After you assign the usage location to the resource account, see [Assign Microsoft 365 licenses to user accounts with PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell).
 
-For validation, use any Microsoft Teams client to sign in to the account you created.
+To validate the account creation and license assignment, sign in to any Teams Client using the account you created.
 
-## Additional considerations
+## Next steps
 
 ### Configure distribution groups
 
