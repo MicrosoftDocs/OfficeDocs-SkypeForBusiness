@@ -45,7 +45,7 @@ This article describes the following steps:
 
 ## Step 1: Buy and assign a Phone System license
 
-To assign a Phone System license to a single user, the steps are the same as assigning a Microsoft 365 license. You can also assign licenses to multiple users in bulk. For more information about available Phone System licenses and how to acquire and assign licenses, see [Teams add-on licenses](/teams-add-on-licensing/microsoft-teams-add-on-licensing.md) and [Assign Microsoft Teams add-on licenses](/teams-add-on-licensing/assign-teams-add-on-licenses.md).
+To assign a Phone System license to a single user, the steps are the same as assigning a Microsoft 365 license. You can also assign licenses to multiple users in bulk. For more information about available Phone System licenses and how to acquire and assign licenses, see [Teams add-on licenses](/teams-add-on-licensing/microsoft-teams-add-on-licensing) and [Assign Microsoft Teams add-on licenses](/teams-add-on-licensing/assign-teams-add-on-licenses).
 
 ## Step 2. Choose a PSTN connectivity option 
  
