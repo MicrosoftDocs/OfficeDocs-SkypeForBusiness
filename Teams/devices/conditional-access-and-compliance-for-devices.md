@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 ms.collection: 
   - M365-collaboration
-description: Learn about supported and recommended Conditional Access and Intune device compliance policies for Microsoft Teams Rooms.
+description: Learn about recommended Conditional Access and Intune device compliance policies and best practices for Microsoft Teams Rooms.
 ---
 
 # Conditional Access and Intune compliance policies for Microsoft Teams Rooms
@@ -56,6 +56,8 @@ For a list of supported Conditional Access policies for Teams Rooms, see [Suppor
 
 ## Example Conditional Access policy
  
+[Add images]
+
 In this example, using some of the <u>policies recommended</u> above,
 you can build a Conditional Access policy. In the example below, the
 Conditional Access policy works as follows: 
@@ -87,6 +89,8 @@ resource account.
 For a list of supported Intune device compliance policies for Teams Rooms, see [Supported device compliance policies](supported-ca-and-compliance-policies.md#supported-device-compliance-policies).
 
 ## Example (Windows only): Conditional Access with Intune device compliance 
+
+[Add images]
 
 Require that a firewall is running on Teams Rooms on Windows
 
