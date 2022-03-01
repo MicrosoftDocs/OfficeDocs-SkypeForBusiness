@@ -39,7 +39,7 @@ To turn off Workflows with an app permission policy, edit the Global (Org-wide d
 
 You can also block Power Automate through the **Manage apps** page.
 
-1. Go to [**Teams apps** > **Manage apps**](https://teams.microsoft.com/policies/manage-apps).
+1. Go to [**Teams apps** > **Manage apps**](https://admin.teams.microsoft.com/policies/manage-apps).
 1. Search for **Power Automate**.
 1. Select the app.
 1. Change the **Status** from **Allowed** to **Blocked**.
