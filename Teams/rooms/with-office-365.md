@@ -130,213 +130,228 @@ If you're in an Exchange hybrid configuration, you'll also need to add an email 
 
 ---
 
-#### [**Modify an existing account**](#tab/existing-account)
+#### [**Modify an existing Exchange room mailbox**](#tab/existing-account)
 
 To modify an existing room mailbox to become a resource account, use the following syntax:
 
-   ``` PowerShell
-  Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
-   ```
+``` PowerShell
+Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
+```
 
-   This example enables the account for the existing room mailbox that has the alias value ConferenceRoom02, and sets the password to 9898P@$$W0rd.
+This example enables the account for the existing room mailbox that has the alias value ConferenceRoom02, and sets the password to 9898P@$$W0rd.
 
-   ``` PowerShell
-   Set-Mailbox -Identity ConferenceRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
-  ```
+``` PowerShell
+Set-Mailbox -Identity ConferenceRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
+```
 
-If you are in an Exchange hybrid configuration, run the Exchange hybrid steps in the [Exchange Online tab](&tabs=exchange-online#steps).
+If you're in an Exchange hybrid configuration, run the Exchange hybrid steps in the [Exchange Online tab](&tabs=exchange-online#steps).
 
-   For detailed syntax and parameter information, see [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) and [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox).
+For detailed syntax and parameter information, see [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) and [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox).
 
-   > [!NOTE]
-   > If you are creating this account for Teams Room on Surface Hub, you should also enable ActiveSync on this account. This will allow you to send e-mail directly from the Surface Hub, such as sending a Whiteboard. See [Applying ActiveSync policies to device accounts (Surface Hub)](/surface-hub/apply-activesync-policies-for-surface-hub-device-accounts) for steps on how to do this.
+> [!NOTE]
+> If you are creating this account for Teams Room on Surface Hub, you should also enable ActiveSync on this account. This will allow you to send e-mail directly from the Surface Hub, such as sending a Whiteboard. See [Applying ActiveSync policies to device accounts (Surface Hub)](/surface-hub/apply-activesync-policies-for-surface-hub-device-accounts) to learn more.
 
 ---
 
 ## Configure mailbox properties
 
-In Exchange PowerShell (either online or on-premises), configure the following settings on the room mailbox to improve the meeting experience:
+In Exchange PowerShell, either online or on-premises, configure the following settings on the room mailbox to improve the meeting experience:
 
-   - AutomateProcessing: AutoAccept (Meeting organizers receive the room reservation decision directly without human intervention.)
+- **AutomateProcessing: `AutoAccept`** Meeting organizers receive the room reservation decision directly without human intervention.
 
-   - AddOrganizerToSubject: $false (The meeting organizer is not added to the subject of the meeting request.)
+- **AddOrganizerToSubject: `$false`** The meeting organizer isn't added to the subject of the meeting request.
 
-   - DeleteComments: $false (Keep any text in the message body of incoming meeting requests.)
+- **DeleteComments: `$false`** Keep any text in the message body of incoming meeting requests. This is required to process external Teams and third-party meetings to provide One Touch Join experience.
 
-   - DeleteSubject: $false (Keep the subject of incoming meeting requests.)
+- **DeleteSubject: `$false`** Keep the subject of incoming meeting requests.
 
-   - ProcessExternalMeetingMessages: $true (Specifies whether to process meeting requests that originate outside the Exchange organization. Required for [Direct Guest Join](/microsoftteams/rooms/third-party-join).)
+- **ProcessExternalMeetingMessages: `$true`** Specifies whether to process meeting requests that originate outside the Exchange organization. Required for external Teams meetings and [third-party meetings](/microsoftteams/rooms/third-party-join).
 
-   - RemovePrivateProperty: $false (Ensures the private flag that was sent by the meeting organizer in the original meeting request remains as specified.)
+- **RemovePrivateProperty: `$false`** Ensures the private flag that was sent by the meeting organizer in the original meeting request remains as specified.
 
-   - AddAdditionalResponse: $true (The text specified by the AdditionalResponse parameter is added to meeting requests.)
+- **AddAdditionalResponse: `$true`** The text specified by the AdditionalResponse parameter is added to meeting requests.
 
-   - AdditionalResponse: "This is a Microsoft Teams Meeting room!" (The additional text to add to the meeting acceptance response.)
+- **AdditionalResponse: "This is a Microsoft Teams Meeting room!"** The additional text to add to the meeting acceptance response.
 
-   This example configures these settings on the room mailbox named ConferenceRoom01.
+This example configures these settings on a room mailbox named ConferenceRoom01.
 
-   ``` PowerShell
-   Set-CalendarProcessing -Identity "ConferenceRoom01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -ProcessExternalMeetingMessages $true -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
-   ```
+``` PowerShell
+Set-CalendarProcessing -Identity "ConferenceRoom01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -ProcessExternalMeetingMessages $true -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
+```
 
-   For detailed syntax and parameter information, see [Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing).
+For detailed syntax and parameter information, see [Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
    ---
 
 ## Turn off password expiration
 
 You now need to set the resource account so that the password never expires.
-   > [!NOTE]
-   > Setting **Password never expires** is a requirement for shared Microsoft Teams devices. Your domain rules may prohibit passwords that don't expire. If so, you'll need to create an exception for each Microsoft Teams device resource account. <br><br>
-   > If the password expires, the resource account will no longer sign in on the device when the password expiry period is reached. The password will then need to be changed for the resource account and also updated on each device.
+  
+> [!NOTE]
+> Setting **Password never expires** is a requirement for shared Microsoft Teams devices. If your domain rules may prohibit passwords that don't expire, you'll need to create an exception for each Microsoft Teams device resource account. <br><br>
+> If the password expires, the resource account will no longer sign in on the device when the password expiry period is reached. The password will then need to be changed for the resource account and also updated on each device.
 
-<!-- version 1.1 -->
-::: moniker range="=Azure Active Directory 2.0"
+#### [**Azure Active Directory 2.0**](#tab/azure-active-directory2-password/)
 
-### **Azure Active Directory 2.0**
+See [Set a password to never expire](microsoft-365/admin/add-users/set-password-to-never-expire?view=o365-worldwide#set-a-password-to-never-expire).
 
-  1. Connect to Azure Active Directory PowerShell.
-    `Connect-AzureAD` 
-    For details about Active Directory, see [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/overview?view=azureadps-2.0).
+This example sets the password for the account ConferenceRoom01@contoso.com to never expire.
 
-
-   2. Set the password to never expire by using the following syntax:
-
-      ```PowerShell
-      Set-AzureADUser -ObjectID <UPN> -PasswordPolicies DisablePasswordExpiration
-      ```
-      This example sets the password for the account ConferenceRoom01@contoso.com to never expire.
-
-      ```PowerShell
-      Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies DisablePasswordExpiration
-      ```
-::: moniker-end
+```PowerShell
+Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies DisablePasswordExpiration
+```
 
 #### [**Azure Active Directory 1.0**](#tab/azure-active-directory1-password/)
 
- 1. Connect to MS Online PowerShell. 
+ 1. Connect to MS Online PowerShell:
+
    ```PowerShell
    Connect-MsolService
    ```
-   For details about Active Directory, see [Azure Active Directory (MSOnline).](/powershell/azure/active-directory/overview?view=azureadps-1.0)
-2. Set the password to never expire by using the following syntax:
-   ```PowerShell
-   Set-MsolUser -Identity <samAccountName> -PasswordNeverExpires $true
-   ```
-   This example sets the password for the account ConferenceRoom01@contoso.com to never expire.
 
-   ```PowerShell
-   Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -PasswordNeverExpires $true
-   ```
+   For details about Active Directory, see [Azure Active Directory (MSOnline).](/powershell/azure/active-directory/overview?view=azureadps-1.0)
+
+2. Set the password to never expire by using the following syntax:
+
+```PowerShell
+Set-MsolUser -Identity <samAccountName> -PasswordNeverExpires $true
+```
+
+This example sets the password for the account ConferenceRoom01@contoso.com to never expire.
+
+```PowerShell
+Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -PasswordNeverExpires $true
+```
 
 #### [**Active Directory (On premises)**](#tab/active-directory1-password/)
 
-1. Connect to Active Directory PowerShell.
+1. Connect to Active Directory PowerShell: 
+
 ```PowerShell
    Import-Module ActiveDirectory
 ```
-For details about Active Directory PowerShell, see [ActiveDirectory](/powershell/module/activedirectory/?view=windowsserver2022-ps).
-2. Set the password to never expire by using the following syntax:
-   ```PowerShell
-   Set-ADUser -Identity <samAccountName> -PasswordNeverExpires $true
-   ```
-   This example sets the password for the account ConferenceRoom01@contoso.com to never expire.
 
-   ```PowerShell
-   Set-ADUser -Identity ConferenceRoom01@contoso.com -PasswordNeverExpires $true
-   ```
+For details about Active Directory PowerShell, see [ActiveDirectory](/powershell/module/activedirectory/?view=windowsserver2022-ps).
+
+2. Set the password to never expire by using the following syntax:
+
+```PowerShell
+Set-ADUser -Identity <samAccountName> -PasswordNeverExpires $true
+```
+
+This example sets the password for the account ConferenceRoom01@contoso.com to never expire.
+
+```PowerShell
+Set-ADUser -Identity ConferenceRoom01@contoso.com -PasswordNeverExpires $true
+```
+
 ---
 
 ## Assign Meeting Room license
-The resource account needs to have a valid Microsoft 365 or Office 365 license, or Microsoft Teams will not work. If you have the license, you need to assign a usage location to your resource account—this determines what license SKUs are available for your account.
-   > [!NOTE]
-   > The Meeting Room license is required for the hotdesking feature to work on Teams display.
+
+The resource account needs to have a valid Microsoft 365 or Office 365 license, or Microsoft Teams sign-in will not work. You need to assign a usage location to your resource account. This determines what license SKUs are available for your account.
+
+> [!NOTE]
+> The Meeting Room license is required for the hot desking on Teams displays.
 
 #### [**Active Directory 2.0**](#tab/active-directory2-license/)
-  1. Connect to Azure AD.
-    `Connect-AzureAD` 
-    For details about Active Directory, see [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/overview?view=azureadps-2.0).
 
-2. The user account needs to have a valid Microsoft 365 or Office 365 license to ensure a successful sign-in to Teams. You need to assign a usage location to your resource account—this determines what license SKUs are available for your account. You'll make the assignment in the next step.
+1. Connect to Azure AD
+  
+```PowerShell
+`Connect-AzureAD` 
+```
+
+ For details about Active Directory, see [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/overview?view=azureadps-2.0).
+
+2. 2.	The resource account needs to have a valid Microsoft 365 or Office 365 license to ensure a successful sign-in to Teams. You need to assign a usage location to your resource account—this determines what license SKUs are available. You'll make the assignment in the next step.
    
-   Use `Get-AzureADSubscribedSku` to retrieve a list of available SKUs for your Microsoft 365 or Office 365 organization.
-   ```PowerShell
-   Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
-   ```
+Use `Get-AzureADSubscribedSku` to retrieve a list of available SKUs for your Microsoft 365 or Office 365 organization.
    
+```PowerShell
+Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
+```
+
 3. You add a usage location and a license using the `Set-AzureADUser` cmdlet. In this case, the user is located in the United States (US).
 
-    ```PowerShell
-    Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -UsageLocation 'US'
-    ```
+```PowerShell
+Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -UsageLocation 'US'
+```
 
-4. To assign the license, you use the `Set-AzureADUser` cmdlet. In order to assign the license successfully, you need to convert the license SKU ID (found in step 2 above) in to a PowerShell license type object and then assigning that object to the resource account. In the below example, the license SKU ID is 6070a4c8-34c6-4937-8dfb-39bbc6397a60 and it is assigned to the account conferenceroom01@contoso.com.
+4. To assign the license, you use the `Set-AzureADUser` cmdlet. In order to assign the license successfully, you need to convert the license SKU ID (see step 2) into a PowerShell license type object and then assign that object to the resource account. In the following example, the license SKU ID is 6070a4c8-34c6-4937-8dfb-39bbc6397a60, and it's assigned to the account conferenceroom01@contoso.com: 
 
-   ```PowerShell
-   #Create an object for a single license type
-   $License = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense 
-   $License.SkuId = "6070a4c8-34c6-4937-8dfb-39bbc6397a60" 
+```PowerShell
+#Create an object for a single license type
+$License = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense 
+$License.SkuId = "6070a4c8-34c6-4937-8dfb-39bbc6397a60" 
    
-   #Create an object for a multiple license type
-   $Licenses = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses 
+#Create an object for a multiple license type
+$Licenses = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses 
    
-   #Add the single license object to the multiple license object
-   $Licenses.AddLicenses = $License 
+#Add the single license object to the multiple license object
+$Licenses.AddLicenses = $License 
    
-   #Assign the license to the resource account
-   Set-AzureADUserLicense -ObjectId ConferenceRoom01@contoso.com -AssignedLicenses $Licenses
-    ```
+#Assign the license to the resource account
+Set-AzureADUserLicense -ObjectId ConferenceRoom01@contoso.com -AssignedLicenses $Licenses
+```
 
 #### [**Active Directory 1.0**](#tab/active-directory1-license/)
 
-1. Connect to MS Online PowerShell. 
-   ```PowerShell
-   Connect-MsolService
-   ```
-   For details about Active Directory, see [Azure Active Directory (MSOnline).](/powershell/azure/active-directory/overview?view=azureadps-1.0)
+1. Connect to MS Online PowerShell.
 
-2. The user account needs to have a valid Microsoft 365 or Office 365 license to ensure a successful sign-in to Teams. You need to assign a usage location to your resource account—this determines what license SKUs are available for your account. You'll make the assignment in the next step.
+For details about Active Directory, see [Azure Active Directory (MSOnline).](/powershell/azure/active-directory/overview?view=azureadps-1.0)
+
+2. The resource account needs to have a valid Microsoft 365 or Office 365 license to ensure a successful sign-in to Teams. You need to assign a usage location to your resource account—this determines what license SKUs are available. You'll make the assignment in the next step.
    
-   Use `Get-MsolAccountSku` to retrieve a list of available SKUs for your Microsoft 365 or Office 365 organization.
-   ```PowerShell
-    Get-MsolAccountSku
-   ```
+Use `Get-MsolAccountSku` to retrieve a list of available SKUs for your Microsoft 365 or Office 365 organization.
    
-3. You add a usage location and a license using the `Set-MsolUser` cmdlet. In this case, the user is located in the United States (US).
+3. Add a usage location and a license using the `Set-MsolUser` cmdlet. In this case, the user is located in the United States (US).
 
-    ```PowerShell
-     Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -UsageLocation 'US'
-    ```
+```PowerShell
+Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -UsageLocation 'US'
+```
 
-4. To assign the license, you use the `Set-MsolUser` cmdlet. In the below example, the "contoso:MEETING_ROOM" license is assigned to the account conferenceroom01@contoso.com.
+4. To assign the license, you use the `Set-MsolUser` cmdlet. In the following example, the "contoso:MEETING_ROOM" license is assigned to the account conferenceroom01@contoso.com.
 
-   ```PowerShell
-   Set-MsolUserLicense -UserPrincipalName 'ConferenceRoom01@contoso.com' -AddLicenses 'contoso:MEETING_ROOM'
+```PowerShell
+Set-MsolUserLicense -UserPrincipalName 'ConferenceRoom01@contoso.com' -AddLicenses 'contoso:MEETING_ROOM'
+```
 
-    ```
 ---
-   For detailed instructions, see [Assign Microsoft 365 licenses to user accounts with PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell).
+
+For detailed instructions, see [Assign Microsoft 365 licenses to user accounts with PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell).
+
+## Configure distribution groups
+
+When scheduling a meeting using Microsoft Teams, you have the option of populating the **Add location** field with the name of the room where you will be hosting the meeting. To populate this list, you need to create Exchange distribution groups and then add the appropriate Teams Rooms resource accounts to this lists.
+
+For Exchange Online, see [Create and manage distribution list groups in Exchange Online](/exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups) for more information.
+
+For Exchange Server, see [Manage distribution groups](/Exchange/recipients/distribution-groups?view=exchserver-2019)
 
 ## Skype for Business
+
 If you need to enable your resource account to also work with Skype for Business, see [Deploy Microsoft Teams Rooms with Skype for Business Server](with-skype-for-business-server-2015.md)
 
 ## Additional considerations
-If necessary, you may need to apply custom network or bandwidth policies or Meeting policies to this account. For more information on network and bandwidth policies, see [Meeting policy settings for audio & video](/microsoftteams/meeting-policies-audio-and-video). For more information on Teams meeting policies, see [Manage meeting policies in Microsoft Teams](/microsoftteams/meeting-policies-overview).
+
+If necessary, you may need to apply custom network or bandwidth policies or Meeting policies to this account. For more information on network and bandwidth policies, see [Meeting policy settings for audio & video](/microsoftteams/meeting-policies-audio-and-video). 
+
+For Teams Rooms, we recommend you set the meeting policy bandwidth to 10MBps. We recommend that for collaboration purposes, keep the PowerPoint Live, Whiteboard, and Shared notes settings to on. You may want to change the “Participants & guests” settings to be unique for meeting rooms. For example, review the lobby settings such as which attendees to automatically admit to meetings. 
+
+For more information on Teams meeting policies, see [Manage meeting policies in Microsoft Teams](/microsoftteams/meeting-policies-overview).
 
 If you need to enable the resource account for Microsoft Teams Phone System, see [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
 
 ## Enable calling
-Teams supports the ability to make and receive phone calls to the Public Switched Telephone Network (PSTN). This feature can help you do things such as call into a remote audio conference from Teams Rooms or have someone call in to join a meeting.
 
-There are no unique requirements to enable calling with Resource Accounts. You enable the Resource Account for calling in the same way you enable a regular user.
+Teams supports the ability to make and receive phone calls to the Public Switched Telephone Network (PSTN). There are no unique requirements to enable calling with resource accounts. You enable the resource account for calling in the same way you enable a regular user.
 
-For information on on calling with Teams, you can visit the [Microsoft Teams Phone](https://www.microsoft.com/microsoft-teams/microsoft-teams-phone) page.
-
-Visit the [Assign, change, or remove a phone number for a user](d:/Git/GitHub/OfficeDocs-SkypeForBusiness-pr/Teams/assign-change-or-remove-a-phone-number-for-a-user.md) article for instructions on how to assign a phone number.
+For information, see [Microsoft Teams Phone](https://www.microsoft.com/microsoft-teams/microsoft-teams-phone) page.
 
 ## Validate
 
-For validation, you should be able to use any Microsoft Teams client to sign in to the account you created.
+For validation, use any Microsoft Teams client to sign in to the account you created.
 
 ## See also
 
