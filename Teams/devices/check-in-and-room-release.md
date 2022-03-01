@@ -54,7 +54,7 @@ To turn on check-in notifications,
 
 3. Go to Check-in and turn on Send check-in notification.
 
-Related topics
+## Related topics
 
 - [How to use Microsoft Teams panels](use-teams-panels.md)
 
