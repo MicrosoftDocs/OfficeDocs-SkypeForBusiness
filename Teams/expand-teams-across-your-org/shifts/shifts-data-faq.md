@@ -70,10 +70,6 @@ To learn more about retention policies in Teams, see [Learn about retention for 
 
 Today, we don't offer the ability to retrieve data for a user whose license was revoked. This capability is something we're working towards.
 
-## Is Shifts supported in Government Cloud Community (GCC) environments?
-
-Shifts is available in GCC environments, but not in GCC High or DoD environments.
-
 ## What type of encryption does Shifts use for data at rest and in transit?
 
 Shifts data is encrypted at rest by Azure Cosmos DB and Azure Storage. To learn more, see [Azure data encryption at rest](/azure/security/fundamentals/encryption-atrest) and
