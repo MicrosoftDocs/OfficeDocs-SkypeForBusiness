@@ -37,7 +37,7 @@ Here's a list of Teams add-on licenses and their capabilities that you can add t
 |License|Description|
 |-------|-----------|
 |**Microsoft 365 Business Voice** <br/> |Business Voice was Microsoft's voice capability bundle for small and medium businesses but will no longer be available to purchase starting on March 1, 2022. Current Business Voice subscribers can renew their Business Voice licenses until June 30, 2022. <br/> <br/> If you're a small or medium-sized business, we recommend purchasing the [Teams Phone with Calling Plan license](../business-voice/whats-business-voice.md), if it's available in your region. <br/> <br/> Alternatively, you can purchase a Teams Phone Standard license that will allow you to connect to your preferred 3rd party PSTN provider. |
-|**Teams Phone with Calling Plan** <br/> |The Teams Phone with Calling Plan license bundles Teams Phone System's PBX capabilities and a Domestic Calling Plan for PSTN connectivity. <br/> |
+|**Teams Phone with Calling Plan bundle** <br/> |The Teams Phone with Calling Plan license bundles Teams Phone System's PBX capabilities and a Domestic Calling Plan for PSTN connectivity. <br/> |
 |**Teams Phone Standard** <br/> |[Teams Phone System](../what-is-phone-system-in-office-365.md) is a hosted telephone service that gives you call control and Private Branch Exchange (PBX) capabilities. Teams Phone Standard licenses give you all Teams Phone System capabilities like cloud voicemail, caller ID, call park, call forwarding, auto attendants, call queues, call transfer, and caller ID. <br/> <br/>To learn more about Phone System, see [Here's what you get with Teams Phone System](../here-s-what-you-get-with-phone-system.md). <br/> |
 |**Microsoft Teams Calling Plans** <br/> |If you want users to be able to call phone numbers outside your organization, you can purchase [Microsoft Teams Calling Plans](../calling-plans-for-office-365.md) to connect to PSTN phone numbers with Microsoft as your PSTN provider. There are Domestic Calling Plans and Domestic and International Calling Plans. <br/> <br/> To find out whether Teams Calling Plans is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). |
 |**Communication Credits** | Communication Credits provide a monthly pool of minutes that can also be used for PSTN phone calls, if all your Calling Plan minutes get used before the beginning of the next month. If you want toll-free numbers for Audio Conferencing, auto attendants, or call queues, you'll need to [set up Communications Credits](../set-up-communications-credits-for-your-organization.md). <br/> |
@@ -58,10 +58,10 @@ Microsoft 365 E5/A5/G5 plans include Audio Conferencing licenses, so you won't n
 
 Whether you're a small business, enterprise organization, educational institution, government agency, or nonprofit, you have three ways to get Teams Phone System and PSTN connectivity:
 
-- Buy a Microsoft 365 Business, E1/E3, A1/A3, or G1/G3 plan and add **Teams Phone with Calling Plan** licenses.
+- Buy a Microsoft 365 Business, E1/E3, A1/A3, or G1/G3 plan and add **Teams Phone with Calling Plan** bundle licenses.
   - This model will give you Teams Phone System PBX capabilities and a Microsoft Domestic Calling Plan.
   - Choose this if you want all phone number management and billing to be handled by Microsoft.
-  - Check to see if the [Teams Phone with Calling Plan license is available in your region](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+  - Check to see if the [Teams Phone with Calling Plan bundle license is available in your region](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
 - Buy an E1/E3, A1/A3, or G1/G3 plan, add **Teams Phone Standard** licenses, and choose a Microsoft standalone calling plan or third-party PSTN carrier.
   - This model will give you Teams Phone System, but you'll still need to connect to the PSTN.
@@ -84,7 +84,7 @@ Here's a summary of which Microsoft voice and calling licenses to purchase, base
 <tbody>
 <tr class="even">
 <td>Teams Essentials (AAD identity) <br/> <br/>Any Microsoft 365 plan that includes Teams <br/> </td>
-<td>Teams Phone with Calling Plan licenses <br/> <br/>or <br/> <br/>Teams Phone Standard licenses <br/> plus <br/>Domestic Calling Plan or Domestic and International Calling Plan licenses <br/> </td>
+<td>Teams Phone with Calling Plan bundle licenses <br/> <br/>or <br/> <br/>Teams Phone Standard licenses <br/> plus <br/>Domestic Calling Plan or Domestic and International Calling Plan licenses <br/> </td>
 <td>Teams Phone Standard licenses <br/> </td>
 </tr>
 <tr class="odd">
