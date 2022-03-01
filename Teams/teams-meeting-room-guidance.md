@@ -21,10 +21,11 @@ localization_priority: Normal
 appliesto: 
   - Microsoft Teams
 ---
-# [Overview](#tab/overview)
 # Meeting room guidance for Teams
 
 This article is intended to guide users on how to optimize meeting spaces with Microsoft Teams Rooms solutions and devices. It includes information on Teams Rooms device and solution uses, layouts, and specifications.
+
+# [Overview](#tab/overview)
 
 ## Meeting room uses and layouts
 
