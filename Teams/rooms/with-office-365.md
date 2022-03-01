@@ -19,7 +19,7 @@ description: Read this topic for information on how to deploy Microsoft Teams Ro
 
 # Create resource accounts for Teams devices
 
-Read this topic for information on how to create the required resource account for Microsoft Teams Rooms on Windows, Microsoft Teams Rooms on Android, Microsoft Teams Rooms on Surface Hub, and hotdesking on Teams display.
+This article provides steps to create resource accounts, required for Microsoft Teams Rooms on Windows, Microsoft Teams Rooms on Android, Microsoft Teams Rooms on Surface Hub, and hot desking on Teams displays.
 
 ## Requirements
 
@@ -32,98 +32,83 @@ Depending on your environment, you'll need some or all of the following roles to
 |Exchange Online  <br/> |Global Administrator or Exchange Administrator   <br/> |
 |Exchange Server  <br/> |Exchange Organization Management or Recipient Management   <br/> |
 
-## Before you begin
+## Overview
 
-1. Determine if you need to create a new account or if you can convert an existing Microsoft Exchange room mailbox into a resource account. If you do not already have a Microsoft Exchange room mailbox for the room or space into which you will be installing the Teams device, you will need to create a new resource account using the New-Mailbox PowerShell cmdlet. If a room mailbox already exists, you can convert it to a resource account using the Set-Mailbox PowerShell cmdlet.
+1. You'll need to create a new Microsoft Exchange resource account using the Microsoft 365 admin center or PowerShell. Or, if a room mailbox already exists and you want to convert it to a resource account, see Modify an existing Exchange room mailbox account.
 
-    > [!IMPORTANT]
-    > We recommend you standardize on a naming convention for all of your resource accounts, such as adding "mtr-" to the beginning of the e-mail address. This will help with creating dynamic groups to ease management in Azure Active Directory.
+2. After creating resource accounts, you'll apply recommended parameter, such as automatically accepting meeting invites.
 
-2. Once the account has been created (or converted to a resource account), you should apply recommended parameters to the resource account, such as automatically accepting meeting invites.
-
-3. Shared Teams devices require that the resource account password does not expire. Therefore, the next step is to disable password expiration.
+3. Shared Teams devices require that the resource account password doesn't expire, so you'll need to turn off password expiration.
 
 4. Finally, you need to assign an appropriate Microsoft 365 or Office 365 license so the account can sign in to Microsoft Teams.
 
 ## Create a resource account
 
-#### [With the Microsoft 365 admin center](#tab/m365-admin-center)
+<a name="steps"></a>
 
-1. Sign in to the Microsoft 365 admin center
+> [!IMPORTANT]
+> When naming your resource accounts, we recommend using a standard naming convention, such as adding "mtr-" to the beginning of the e-mail address. This will help with creating dynamic groups to ease management in Azure Active Directory.
 
-2. Provide the admin credentials for your Microsoft 365 tenant. This will take you to your Microsoft 365 admin center.
+#### [Using Microsoft 365 admin center](#tab/m365-admin-center)
 
-3. In the admin center, navigate to **Resources** in the left panel (you might need to select **Show all** first), and then select **Rooms & equipment**.
-
-4. Select **Add a resource mailbox** to create a new room account. Enter a display name and email address for the account, select **Add**, and then select **Close**.
-
-> [!NOTE]
-> By default, resource accounts are set up with the following settings. If you want to change them, select **Set scheduling options** before you select **Close**. If you want to change them later, navigate to **Resources** > **Rooms & equipment**, select the resource account and then select **Edit** under **Booking options**.
->
-> - Allow repeat meetings
-> - Automatically decline meetings outside of the following limits
->   - Booking window (days): 180
->   - Maximum duration (hours): 24
-> - Auto accept meeting requests
-
-5. Navigate to the **Users** section in admin center and, in the **Active users** list, you will see the room you just created.
-
-6. Select on the name of the room and an account properties panel will appear on the right.
-
-7. Now you need to assign a password to the resource account. In the panel, you can see the account properties and several optional actions. Select the **Reset password** key icon under the username to change the password. Unselect **Require this user to change their password when they first sign in**. It is not possible to change the password via the device sign-in process. Select **Reset**.
-
-8. In the **Licenses and Apps** section, set **Select location** to the country or region where the device will be installed. Scroll down and check the box next to the license to be assigned - such as Meeting Room - and then select **Save changes**. The license may vary depending on your organization.
+Start by going to [Create a resource account in the Microsoft 365 admin center](/microsoftteams/devices/resource-account-ui) to create the account and set up its password and licensing.
 
 You can change the settings of the resource mailbox, such as adding an additional response,  using Exchange admin center or via the PowerShell cmdlets shown in the [Configure mailbox properties](#configure-mailbox-properties) section of this article.
 
 You may also need to apply bandwidth policies or meeting policies to this account. See the [Additional considerations](#additional-considerations) section of this article for more information.
 
 #### [**With Exchange Online**](#tab/exchange-online)
-1. Connect to Exchange Online PowerShell.
-   See [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
-   ``` PowerShell
-     Connect-ExchangeOnline
-   ```
 
-2. In Exchange PowerShell, create a new room mailbox or modify an existing room mailbox. By default, room mailboxes don't have associated accounts, so you'll need to add an account when you create or modify a room mailbox that allows it to authenticate with Microsoft Teams.
+1. Connect to [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
-   - For Exchange online, create a new room mailbox  using the following syntax:
+``` PowerShell
+Connect-ExchangeOnline
+```
 
-     ``` PowerShell
-     New-Mailbox -MicrosoftOnlineServicesID <Office365 ID> -Name <String> -Alias <string> -Room -EnableRoomMailboxAccount $true  -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
-     ```
-     This example creates a new room mailbox with the following settings:
+2. By default, room mailboxes don't have associated accounts, so you'll need to add an account when you create a room mailbox that allows it to authenticate with Microsoft Teams.
 
-     - Account: ConferenceRoom01@contoso.com
+If you're creating a new resource mailbox:
+
+``` PowerShell
+New-Mailbox -MicrosoftOnlineServicesID <Office365 ID> -Name <String> -Alias <string> -Room -EnableRoomMailboxAccount $true  -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
+```
+
+This example creates a new room mailbox with the following settings:
+
+- Account: ConferenceRoom01@contoso.com
   
-     - Name: ConferenceRoom01
+- Name: ConferenceRoom01
 
-     - Alias: ConferenceRoom01
+- Alias: ConferenceRoom01
 
-     - Account password: P@$$W0rd5959
+- Account password: P@$$W0rd5959
 
-     ``` PowerShell
-     New-Mailbox -MicrosoftOnlineServicesID ConferenceRoom01@contoso.com -Name "ConferenceRoom01" -Alias ConferenceRoom01 -Room -EnableRoomMailboxAccount $true  -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
-     ```
+``` PowerShell
+New-Mailbox -MicrosoftOnlineServicesID ConferenceRoom01@contoso.com -Name "ConferenceRoom01" -Alias ConferenceRoom01 -Room -EnableRoomMailboxAccount $true  -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
+```
 
-If you are not in an Exchange hybrid configuration, then you can move on to the next section.
+If you're not in an Exchange hybrid configuration, then you can continue to the next step.
 
-If you are in an Exchange hybrid configuration, you will also need to add an email address for your on-premises domain account
+If you're in an Exchange hybrid configuration, you'll also need to add an email address for your on-premises domain account
 
-1. In **Active Directory Users and Computers AD** tool, right-click on the container or Organizational Unit that your Microsoft Teams Rooms accounts will be created in, click **New**, and then click **User**.
-2. Type the display name (- Identity ) from the prior cmdlet (Set-Mailbox or New-Mailbox) into the **Full name** box, and the alias into the **User logon name** box. Click **Next**.
-3. Type the password for this account. You'll need to retype it for verification. Make sure the **Password never expires** checkbox is the only option selected.
+1. In the **Active Directory Users and Computers AD** tool, right-click on the container or Organizational Unit that your rooms accounts will be created in, select **New**, and then select **User**.
+
+2. Enter the display name (- Identity ) from the prior cmdlet (Set-Mailbox or New-Mailbox) into the **Full name** box, and enter the alias into the **User logon name** box. Select **Next**.
+
+3. Enter the password for this account. **Password never expires** should be the only checkbox option selected.
 
     > [!NOTE]
     > Selecting **Password never expires** is a requirement for Microsoft Teams Rooms. Your IT security rules may prohibit passwords that don't expire. If so, you'll need to create an exception for each Microsoft Teams Rooms resource account.
   
-4. Click **Finish** to create the account.
-5. After you have created the account, run a directory synchronization. This can be accomplished by using [Set-MsolDirSyncConfiguration](/powershell/module/msonline/set-msoldirsyncconfiguration) in PowerShell. When that is complete, go to the users page and verify that the two accounts created in the previous steps have merged.
+4. Select **Finish** to create the account.
+
+5. After you create the account, run a directory synchronization. This can be accomplished by using [Set-MsolDirSyncConfiguration](/powershell/module/msonline/set-msoldirsyncconfiguration) in PowerShell. When that is complete, go to the **Users** page and verify that the two accounts created in the previous steps have merged.
 
 #### [**With Exchange Server**](#tab/exchange-server)
+
   1. Connect to Exchange Management Shell. [Open the Exchange Management Shell](/powershell/exchange/exchange-server/open-the-exchange-management-shell) or [connect to your Exchange server using remote PowerShell](/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell).
 
-   2. Create a new room mailbox using the following syntax:
+   2. To create a new room mailbox:
 
    ``` PowerShell
    New-Mailbox -UserPrincipalName <UPN> -Name <String> -Alias <String> -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
@@ -145,7 +130,7 @@ If you are in an Exchange hybrid configuration, you will also need to add an ema
 
 ---
 
-## Modify an existing account
+#### [**Modify an existing account**](#tab/existing-account)
 
 To modify an existing room mailbox to become a resource account, use the following syntax:
 
@@ -159,12 +144,14 @@ To modify an existing room mailbox to become a resource account, use the followi
    Set-Mailbox -Identity ConferenceRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
   ```
 
-If you are in an Exchange hybrid configuration, run the Exchange hybrid steps in the Exchange Online tab.
+If you are in an Exchange hybrid configuration, run the Exchange hybrid steps in the [Exchange Online tab](&tabs=exchange-online#steps).
 
    For detailed syntax and parameter information, see [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) and [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox).
 
    > [!NOTE]
    > If you are creating this account for Teams Room on Surface Hub, you should also enable ActiveSync on this account. This will allow you to send e-mail directly from the Surface Hub, such as sending a Whiteboard. See [Applying ActiveSync policies to device accounts (Surface Hub)](/surface-hub/apply-activesync-policies-for-surface-hub-device-accounts) for steps on how to do this.
+
+---
 
 ## Configure mailbox properties
 
