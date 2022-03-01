@@ -104,7 +104,7 @@ tools:
     # Card
     - title: Teams product feedback
       imageSrc: https://docs.microsoft.com/office/media/icons/user.svg
-      url: https://microsoftteams.uservoice.com/
+      url: https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472
     # Card
     - title: Download Microsoft Teams
       imageSrc: https://docs.microsoft.com/office/media/icons/download-teams.svg
