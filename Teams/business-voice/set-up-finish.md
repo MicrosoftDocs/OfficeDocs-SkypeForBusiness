@@ -54,4 +54,4 @@ Use the following resources to manage Teams and Teams Phone System with Calling 
 |---------|---------|
 | [Manage your devices in Microsoft Teams](manage-devices.md)    | Create policies for, and monitor, devices that are connected to Teams.        |
 | [Monitor and improve call quality for Microsoft Teams](monitor-quality.md)    | Monitor who makes or receives phone calls or participates in online meetings, monitor and troubleshoot call quality, and so on.        |
-| [Set up Call Quality Dashboard (CQD)](analytics-dashboard.md)| Set up call usage and quality monitoring to ensure users have the best Teams Phone with Calling Plan experience.|
+| [Set up Call Quality Dashboard (CQD)](analytics-dashboard.md)| Set up call usage and quality monitoring to ensure users have the best Teams Phone System with Calling Plan experience.|

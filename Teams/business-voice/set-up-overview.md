@@ -25,7 +25,7 @@ appliesto:
 Teams Phone System with Calling Plan is a complete phone system that can replace your existing telephony provider. Whether you're a new business setting up phone numbers for the first time or an established business moving from a legacy on-premises telephony provider, the steps in these articles can help you get up and running with Phone System with Calling Plan. When you're finished setting up:
 
 * You'll be able to receive toll or toll-free phone calls on a main company phone line. You can even set up a call menu if you want.
-* Users set up with a Teams Phone with Calling Plan license will have their own direct-dial phone numbers that they can use to make and receive phone calls from any device with Teams installed.
+* Users set up with a Teams Phone with Calling Plan bundle license will have their own direct-dial phone numbers that they can use to make and receive phone calls from any device with Teams installed.
 * Meeting participants will be able to call in to meetings using a regular phone if they're unable to join from a Teams client.
 * If you have existing phone numbers, you'll be able to continue using them after they're moved to Phone System with Calling Plan.
 
@@ -38,7 +38,7 @@ If you want to learn more about Phone System with Calling Plan for small and med
 
 Before you set up Phone System with Calling Plan, there are a few things you need to do. The following tasks will make sure your organization is ready.
 
-* **Buy Teams Phone with Calling Plan licenses** and, if you want to get a toll-free number, make long-distance phone calls, or purchase Communication Credits, see [Purchase Teams Phone with Calling Plan bundle licenses](whats-business-voice.md#purchase-teams-phone-with-calling-plan-licenses).
+* **Buy Teams Phone with Calling Plan bundle licenses** and, if you want to get a toll-free number, make long-distance phone calls, or purchase Communication Credits, see [Purchase Teams Phone with Calling Plan bundle licenses](whats-business-voice.md#purchase-teams-phone-with-calling-plan-bundle-licenses).
 * **Make sure your internet connection can support Phone System**. For more information, see [Check your internet connection for Teams Phone System](get-ready-internet.md).
 
 After you've prepared your organization for Phone System with Calling Plan, select **Next step: Start setting up Teams Phone System with Calling Plan**.

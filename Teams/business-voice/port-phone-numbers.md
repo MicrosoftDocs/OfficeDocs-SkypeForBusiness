@@ -26,7 +26,7 @@ appliesto:
 >
 > If your tenant is located in a country or region that doesn't support Phone System with Calling Plan, check out [Get help from a Microsoft reseller or partner](reseller-partner-support.md).
 
-Earlier in this setup guide, you acquired phone numbers for the main company line and for any users that you've assigned a Teams Phone with Calling Plan license to. **If you're a new business and don't have any existing phone numbers that you want to bring to Phone System with Calling Plan, you can skip this step.**
+Earlier in this setup guide, you acquired phone numbers for the main company line and for any users that you've assigned a Teams Phone with Calling Plan bundle license to. **If you're a new business and don't have any existing phone numbers that you want to bring to Phone System with Calling Plan, you can skip this step.**
 
 If you already have phone numbers that you want to keep when you move to Phone System with Calling Plan, you can bring them with you by using a process called phone number porting to bring them over to Phone System with Calling Plan. After you port your phone numbers to Phone System with Calling Plan, you assign them to users and services. The old numbers replace the temporary numbers that you acquired earlier in this setup guide.
 

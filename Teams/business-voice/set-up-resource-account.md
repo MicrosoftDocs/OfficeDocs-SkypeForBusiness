@@ -32,7 +32,7 @@ The sections in this article show you how to set up a resource account and then 
 Resource accounts require a license in order to work with auto attendants and call queues. You can use a free *Microsoft Teams Phone Standard - Virtual User* license.
 
 > [!NOTE]
-> You should only need to perform the following steps if you've signed up for a Teams Phone with Calling Plan license trial period. If you purchased Teams Phone with Calling Plan licenses, virtual licenses should already be applied to your account.
+> You should only need to perform the following steps if you've signed up for a Teams Phone with Calling Plan bundle license trial period. If you purchased Teams Phone with Calling Plan bundle licenses, virtual licenses should already be applied to your account.
 >
 > To see if you already have virtual licenses, log into Microsoft 365 using an account with Global admin permissions. Then go to Billing > [Your products](https://admin.microsoft.com/Adminportal/Home#/subscriptions). If you have virtual licenses, they'll appear as **Microsoft Teams Phone Standard - Virtual User**.
 

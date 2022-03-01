@@ -27,9 +27,9 @@ ms.custom:
 >[!NOTE]
 > Microsoft 365 Business Voice was Microsoft’s telephony service bundle for small and medium businesses, which included Private Branch Exchange (PBX) capabilities, a domestic calling plan, and Audio Conferencing. However, Business Voice will be deprecated on March 1, 2022.  
 >
-> For PBX capabilities and PSTN connectivity for small and medium businesses, we recommend the Teams Phone with Calling Plan license, if it’s [available in your geographic area](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). If the Teams Phone with Calling Plan license is not available in your region, see [Plan your Teams voice solution](../cloud-voice-landing-page.md) to learn about other voice solutions.
+> For PBX capabilities and PSTN connectivity for small and medium businesses, we recommend the Teams Phone with Calling Plan bundle license, if it’s [available in your geographic area](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). If the Teams Phone with Calling Plan bundle license is not available in your region, see [Plan your Teams voice solution](../cloud-voice-landing-page.md) to learn about other voice solutions.
 >
-> Unlike Business Voice, Teams Phone with Calling Plan licenses don't include Teams Audio Conferencing capabilities. Audio Conferencing is now free to Microsoft 365 subscribers. To learn about Audio Conferencing, see [Audio Conferencing in Microsoft 365](../audio-conferencing-in-office-365.md).  
+> Unlike Business Voice, Teams Phone with Calling Plan bundle licenses don't include Teams Audio Conferencing capabilities. Audio Conferencing is now free to Microsoft 365 subscribers. To learn about Audio Conferencing, see [Audio Conferencing in Microsoft 365](../audio-conferencing-in-office-365.md).  
 
 Microsoft Teams Phone System with Calling Plan is Microsoft’s all-in-the-cloud solution that makes it easy for organizations to turn Teams into a powerful and flexible telephone system. Phone System with Calling Plan provides Private Branch Exchange (PBX) capabilities and calls to the Public Switched Telephone Network (PSTN).
 
@@ -53,20 +53,20 @@ These articles will help your business plan, set up, and manage Phone System wit
 | [Check country and region availability](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) | See if Phone System and Calling Plans are available in your country and region |
 | [Check your internet connection](../business-voice/get-ready-internet.md) | Determine if your internet connection is sufficient for Phone System with Calling Plan |
 | [Get help from a reseller or partner](../business-voice/reseller-partner-support.md) | See how a Microsoft reseller or partner can help you find the right voice solution if Phone System with Calling Plan is not available in your region |
-| [Set up Phone System with Calling Plan for small and medium businesses](../business-voice/set-up-overview.md) | Follow this step-by-step guide for a basic set up of Phone System with Calling Plan |
-| [Customize your Phone System with Calling Plan setup for small and medium businesses](../business-voice/customize-business-voice.md) | Learn how to customize Phone System with Calling Plan for your unique needs |
-| [Manage your Phone System setup for small and medium businesses](../business-voice/create-users.md) | Learn how to manage Phone System with Calling Plan users, devices, and call quality |
+| [Set up Phone System with Calling Plan](../business-voice/set-up-overview.md) | Follow this step-by-step guide for a basic set up of Phone System with Calling Plan |
+| [Customize your Phone System with Calling Plan setup](../business-voice/customize-business-voice.md) | Learn how to customize Phone System with Calling Plan for your unique needs |
+| [Manage your Phone System setup](../business-voice/create-users.md) | Learn how to manage Phone System with Calling Plan users, devices, and call quality |
 | [Partner resources](https://cloudpartners.transform.microsoft.com/products/m365-business-voice-partner-playbook) | For Microsoft 365 partners, see how you can build a strong managed-services practice for Phone System with Calling Plan |
 
-## Purchase Teams Phone with Calling Plan licenses
+## Purchase Teams Phone with Calling Plan bundle licenses
 
-There are several Teams Phone licenses Microsoft 365 subscribers can choose from. For small and medium businesses, we suggest Teams Phone with Calling Plan licenses. This license includes Phone System with Calling Plan capabilities. These capabilities are voice over IP (VoIP) for peer-to-peer calling in Teams, Phone System for PBX capabilities like call queues and auto attendants, and a Microsoft Domestic Calling Plan.
+There are several Teams Phone licenses Microsoft 365 subscribers can choose from. For small and medium businesses, we suggest Teams Phone with Calling Plan bundle licenses. This license includes Phone System with Calling Plan capabilities. These capabilities include Phone System for PBX capabilities like call queues and auto attendants, and a Microsoft Domestic Calling Plan.
 
 You can also purchase an extra International Calling Plan if you want to make calls to other countries or regions. Use *Communications Credits* to pay per minute for an International call, extra minutes per month for your Domestic Calling Plan, and toll-free numbers. You'll learn more about [Calling Plans and Communications Credits](#communications-credits) later in this article.
 
-You can buy Teams Phone with Calling Plan licenses from Microsoft, set up Phone System with Calling Plan on your own, and then set up or transfer your existing phone numbers to Microsoft. The article [Set up Phone System with Calling Plan for small and medium businesses](../business-voice/set-up-overview.md) shows you how to set up Phone System with Calling Plan for your business.
+You can buy Teams Phone with Calling Plan bundle licenses from Microsoft, set up Phone System with Calling Plan on your own, and then set up or transfer your existing phone numbers to Microsoft. The article [Set up Phone System with Calling Plan for small and medium businesses](../business-voice/set-up-overview.md) shows you how to set up Phone System with Calling Plan for your business.
 
-To buy Teams Phone with Calling Plan licenses:
+To buy Teams Phone with Calling Plan bundle licenses:
 
 - Sign in to the [admin center](https://admin.microsoft.com/Adminportal/Home#/homepage)
 - Go to **Billing** > **Purchase services**
@@ -76,13 +76,13 @@ To buy Teams Phone with Calling Plan licenses:
 - Select the **Buy** button to choose the number of licenses you need and to complete the purchasing process
 - If you run out of licenses, you can purchase more later
 
-## Who in my organization needs to be assigned Teams Phone with Calling Plan licenses?
+## Who in my organization needs to be assigned Teams Phone with Calling Plan bundle licenses?
 
 Microsoft 365 plans include VoIP calling, which allows them to make peer-to-peer VoIP calls within your organization.
 
 Users who don't need to make or receive phone calls to or from external phone numbers on the PSTN just need Teams.
 
-For example, you might have ten factory employees and five office employees. The factory employees may only need to call other employees within your company. In addition to calling other employees, office workers need to make and receive phone calls to and from suppliers, partners, and customers. In this case, only the five office workers need a Teams Phone with Calling Plan license.
+For example, you might have ten factory employees and five office employees. The factory employees may only need to call other employees within your company. In addition to calling other employees, office workers need to make and receive phone calls to and from suppliers, partners, and customers. In this case, only the five office workers need a Teams Phone with Calling Plan bundle license.
 
 ### Microsoft Teams Calling Plans
 
@@ -93,7 +93,7 @@ Calling plan pools are specific to the country or region in which the users are 
 What happens when all the minutes in a calling plan pool are used up depends on if you have Communications Credits available or not. If you have Communications Credits available, Teams Phone will start using them. If you don't have credits available, users won't be able to make phone calls outside your organization until the calling plan pool is reset at the beginning of the next month. For more information on Communication Credits, read the [Communication Credits](#communications-credits) section in this article.
 
 >[!Important]
-> The number of minutes in a pool depends on the country or region and the number of Teams Phone with Calling Plan licenses that are assigned to your users, not the number of licenses that you purchased. For example, if you purchased ten Teams Phone with Calling Plan licenses in Canada but are only using three licenses, you'll have a total of 9,000 minutes in your pool (3 licenses multiplied by 3,000 minutes per user).
+> The number of minutes in a pool depends on the country or region and the number of Teams Phone with Calling Plan bundle licenses that are assigned to your users, not the number of licenses that you purchased. For example, if you purchased ten Teams Phone with Calling Plan bundle licenses in Canada but are only using three licenses, you'll have a total of 9,000 minutes in your pool (3 licenses multiplied by 3,000 minutes per user).
 
 There are two types of Teams Calling Plans:
 

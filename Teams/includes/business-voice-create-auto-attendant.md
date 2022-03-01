@@ -8,7 +8,7 @@ This video shows a basic example of how to create an auto attendant in Microsoft
 
 Get the service numbers (service numbers are a special type of phone number that are used by auto attendants) that you need for the auto attendants that you want to be accessible by direct dialing from outside your organization. This might include [transferring numbers from another provider](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) or [requesting new service numbers](../getting-service-phone-numbers.md).
 
-Each auto attendant needs to be assigned a *Microsoft Teams Phone Standard - Virtual User* license. When you purchased Teams Phone Standard or Teams Phone with Calling Plan licenses, you also received a number of *Microsoft Teams Phone Standard - Virtual User* licenses, so you probably don't need to request more. However, if you need more in the future, you can get them by following the instructions in [Teams Phone Standard - Virtual User license](../teams-add-on-licensing/virtual-user.md).
+Each auto attendant needs to be assigned a *Microsoft Teams Phone Standard - Virtual User* license. When you purchased Teams Phone Standard or Teams Phone with Calling Plan bundle licenses, you also received a number of *Microsoft Teams Phone Standard - Virtual User* licenses, so you probably don't need to request more. However, if you need more in the future, you can get them by following the instructions in [Teams Phone Standard - Virtual User license](../teams-add-on-licensing/virtual-user.md).
 
 If you want to have your auto attendant route calls differently on holidays, then [create the holidays that you want to use](../set-up-holidays-in-teams.md) before you create the auto attendant.
 
