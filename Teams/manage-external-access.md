@@ -150,7 +150,7 @@ To learn more about the ways that Teams users and Skype users can communicate, i
 
 ## Limit external access to specific people
 
-If you've enabled any of the external access controls at a tenant-level, you can limit external access to specific users using PowerShell. People 
+If you've enabled any of the external access controls at a tenant-level, you can limit external access to specific users using PowerShell.
 
 You can use the following example script, substituting *Control* for the control you want to change, *PolicyName* for the name you want to give the policy, and *UserName* for each user for whom you want to enable/disable external access.
 
