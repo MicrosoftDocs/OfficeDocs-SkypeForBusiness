@@ -53,7 +53,7 @@ Or, if a room mailbox already exists and you want to convert it to a resource ac
 > [!IMPORTANT]
 > When naming your resource accounts, we recommend using a standard naming convention, such as adding "mtr-" to the beginning of the e-mail address. This will help with creating dynamic groups to ease management in Azure Active Directory.
 
-#### [Using Microsoft 365 admin center](#tab/m365-admin-center)
+#### [In Microsoft 365 admin center](#tab/m365-admin-center)
 
 Start by going to [Create a resource account in the Microsoft 365 admin center](/microsoftteams/devices/resource-account-ui) to create the account and set up its password and licensing.
 
@@ -187,11 +187,10 @@ For detailed syntax and parameter information, see [Set-CalendarProcessing](/pow
 
 ## Turn off password expiration
 
-You now need to set the resource account so that the password never expires.
+You now need to set the resource account so that the password never expires. If the password expires, the resource account will no longer sign in on the device when the password expiry period is reached. The password will then need to be changed for the resource account and then updated on each device.
   
 > [!NOTE]
-> Setting **Password never expires** is a requirement for shared Microsoft Teams devices. If your domain rules may prohibit passwords that don't expire, you'll need to create an exception for each Microsoft Teams device resource account. <br><br>
-> If the password expires, the resource account will no longer sign in on the device when the password expiry period is reached. The password will then need to be changed for the resource account and also updated on each device.
+> Setting **Password never expires** is a requirement for shared Microsoft Teams devices. If your domain rules may prohibit passwords that don't expire, you'll need to create an exception for each Microsoft Teams device resource account.
 
 #### [**Azure Active Directory 2.0**](#tab/azure-active-directory2-password/)
 
@@ -323,9 +322,11 @@ Set-MsolUserLicense -UserPrincipalName 'ConferenceRoom01@contoso.com' -AddLicens
 
 For detailed instructions, see [Assign Microsoft 365 licenses to user accounts with PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell).
 
+For validation, use any Microsoft Teams client to sign in to the account you created.
+
 ## Additional considerations
 
-## Configure distribution groups
+### Configure distribution groups
 
 When scheduling a meeting using Microsoft Teams, you have the option of populating the **Add location** field with the name of the room where you will be hosting the meeting. To populate this list, you need to create Exchange distribution groups and then add the appropriate Teams Rooms resource accounts to this lists.
 
@@ -349,11 +350,7 @@ Teams supports the ability to make and receive phone calls to the Public Switche
 
 For information, see [Microsoft Teams Phone](https://www.microsoft.com/microsoft-teams/microsoft-teams-phone) page.
 
-## Validate
-
-For validation, use any Microsoft Teams client to sign in to the account you created.
-
-## See also
+## Related topics
 
 [Configure accounts for Microsoft Teams Rooms](rooms-configure-accounts.md)
 
