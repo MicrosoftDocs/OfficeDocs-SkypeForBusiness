@@ -143,7 +143,7 @@ As important as good audio, high-quality video is a necessity for modern Teams c
 
 ![Rendering of an enhanced meeting room.](media/emr1.png)
 
-This article explores how Microsoft is transforming standard conference rooms into enhanced Microsoft Teams Rooms that bring the best of the new Teams front row experience. Use this article for room design and technology guidance, recommended products, and Microsoft Corporate Facilities reference specifications.
+This section explores how Microsoft is transforming standard conference rooms into enhanced Microsoft Teams Rooms that bring the best of the new Teams front row experience. Use this article for room design and technology guidance, recommended products, and Microsoft Corporate Facilities reference specifications.
 
 ## Microsoft’s vision for the future of meeting rooms
 
