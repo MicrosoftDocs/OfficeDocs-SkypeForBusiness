@@ -38,7 +38,7 @@ Now that you have a clear understanding of your organization’s unique path and
 | | [For end users](#end-user-guidance) |
 | Kaizala Group Dissolution| [Kaizala Group Dissolution](#kaizala-group-dissolution) |
 | Kaizala Tenant Data export| [Export Kaizala tenant data](#export-kaizala-tenant-data)  |
-| Collaborating with External Users (vendors/suppliers/partners)| [Using Teams for work and Teams for personal use interoperability](#collaborating-with-external-usersvendorssupplierspartners) |
+| Collaborating with External Users (vendors/suppliers/partners)| [Add or invite people outside your Teams org to a chat](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57) |
 
 ## Getting Started
 
@@ -414,42 +414,25 @@ While using Teams, you can still maintain control of your corporate data in Kaiz
 
 Microsoft Teams offers secure solutions to collaborate with external parties, and with Microsoft Teams Connect we are making it even easier to work with anyone outside your organization. Teams empowers commercial users to chat with external commercial users, that is, commercial users in other organizations. Building on this privilege, we are enabling you to chat with team members outside your organization, even if they are using a Teams personal account. These accounts are frequently used by SMB and therefore this new capability helps you strengthen the relationship with external partners.
 
-As announced earlier at [Ignite](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-ignite-fall-2021-innovations-coming-to-microsoft-teams/ba-p/2824127), you can invite any Teams user to chat by entering the full email address or phone number you want to reach, and start a one-to-one or group chat with anyone with a Microsoft personal account, with no tenant switching required. Check out these links to learn more about how to [add or invite people outside your Teams org to a chat](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57) and how to manage external access in Teams.
+As announced earlier at [Ignite](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-ignite-fall-2021-innovations-coming-to-microsoft-teams/ba-p/2824127), you can invite any Teams user to chat by entering the full email address or phone number you want to reach, and start a one-to-one or group chat with anyone with a Microsoft personal account, with no tenant switching required.
 
 Chatting with external users without needing to switch tenants enables you to get the results that you need faster. Let’s take a closer look into how it works.
 
-Depending on the administrative settings of your organization and of the Teams personal account user:
+Depending on the administrative settings of your organization and of the Teams personal account user, you can start conversations with external Teams personal account users, and external Teams personal account users can start conversations with Teams at work users.
 
-- You can start conversations with external Teams personal account users
-- External Teams personal account users can start conversations with Teams at work users
+Teams users managed by an organization can invite Teams personal account users they want to chat with by entering their full email address or phone number. Teams personal users can enter the exact organizational email address of the user they want to reach and attempt to start a chat.
 
-### Starting a chat with a Teams personal account user
+If the persons you want to chat with are not Teams users already, they will receive an email or a text message inviting them to join the conversation using a personal account. When they register and sign-in to their Teams personal account, they’ll be able to join the chat.
 
-- Teams users managed by an organization can invite Teams personal account users they want to chat with by entering their full email address or phone number. Teams personal users can enter the exact organizational email address of the user they want to reach and attempt to start a chat.
-- If the persons you want to chat with are not Teams users already, they will receive an email or a text message inviting them to join the conversation using a personal account. When they register and sign-in to their Teams personal account, they’ll be able to join the chat.
-- Once the persons you invited have accepted the invitation, you can start a new one-to-one or group chat or even add them to an existing external group chat. This chat thread will appear alongside your other chats, with no tenant switching required to view the chat.
-- As a part of your chat, you can express yourself by sending and receiving rich messages, GIFs, and media.
-- You can choose to remain only in the conversations you want to be in. You can block messages from external users or leave a group chat.
-- Teams users managed by an organization and Teams personal account users have the option to decline an external invitation. One can message an external user up to 10 times before they accept, but if there is no acceptance after 10 messages, you won’t be able to send additional messages to this user.
+Once the persons you invited have accepted the invitation, you can start a new one-to-one or group chat or even add them to an existing external group chat. This chat thread will appear alongside your other chats, with no tenant switching required to view the chat.
 
-Read the [blog](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832) to learn more about how Teams enables you to seamlessly collaborate with external customers and partners within the safety and security of your trusted Teams workspace.
+As a part of your chat, you can express yourself by sending and receiving rich messages, GIFs, and media.
 
-## Add or invite people outside your Teams org to a chat
+You can choose to remain only in the conversations you want to be in. You can block messages from external users or leave a group chat.
 
-Microsoft Teams users can chat with any external Teams user who is outside their organization. To chat with external Microsoft Teams users, [add or invite people outside your Teams org to a chat](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57).
+Teams users managed by an organization and Teams personal account users have the option to decline an external invitation. One can message an external user up to 10 times before they accept, but if there is no acceptance after 10 messages, you won’t be able to send additional messages to this user.
 
-## What is External Access in Teams?
-
-External access is a way for Teams users from an entire external domain to find, call, chat, and set up meetings with you in Teams. To learn more about managing external access, visit [Manage external access](/microsoftteams/manage-external-access).
-
-## What is Guest Access in Teams?
-
-With [guest access](/MicrosoftTeams/guest-access), you can provide access to teams, documents in channels, resources, chats, and applications to people outside your organization, while maintaining control over your corporate data. No additional licensing is required to add Guests in Teams.
-
-## Who can be a Guest in Teams?
-
-A guest is someone who isn't an employee, or member of your organization. They don't have a work account with your organization. For example, guests may include partners, vendors, suppliers, or consultants.
-Anyone who isn't part of your organization can be [added as guest in Teams](/MicrosoftTeams/guest-access#how-a-guest-becomes-a-member-of-a-team). This means that anyone with a business account (that is, an Azure Active Directory account) or consumer email account (for example, outlook.com, gmail.com, so on) can participate as a guest in Teams with access to teams and channel experiences.
+View the [support page](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57) and read the [blog](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832) to learn more about how Teams enables you to seamlessly collaborate with external customers and partners within the safety and security of your trusted Teams workspace.
 
 ## Next Steps
 

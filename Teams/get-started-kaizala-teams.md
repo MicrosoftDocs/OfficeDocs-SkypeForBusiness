@@ -17,7 +17,7 @@ ms.custom:
 
 # Kaizala and Microsoft Teams 
 
-In April of 2019, we [announced](https://techcommunity.microsoft.com/t5/microsoft-kaizala-blog/update-on-kaizala-features-coming-to-microsoft-teams/ba-p/974525) plans to bring **Kaizala together with Microsoft Teams**. The capabilities of Kaizala complement the robust communication and collaboration capabilities of Teams, the hub for teamwork in Microsoft 365.
+In April of 2019, we [announced](https://techcommunity.microsoft.com/t5/microsoft-kaizala-blog/update-on-kaizala-features-coming-to-microsoft-teams/ba-p/974525) plans to bring Kaizala together with Microsoft Teams. The capabilities of Kaizala complement the robust communication and collaboration capabilities of Teams, the hub for teamwork in Microsoft 365.
 
 Open the door to an entirely new way of doing business with Microsoft Teams. Teams extends the capabilities of Kaizala - bringing together chat, meetings, calling, collaboration, app integration, and file storage into a single interface. Teams helps customers realize more value from their investments and improves the frontline worker’s day-to-day experience.
 
@@ -25,7 +25,7 @@ Teams improves workplace collaboration by helping organizations move from an arr
 
 Microsoft Teams will be replacing Kaizala as the primary communication client in Microsoft 365 for both internal employees and people in your extended networks.
 
-**A certain set of Kaizala Pro capabilities is now available in Teams and include Kaizala actions now available as Teams [app templates](/microsoftteams/platform/samples/app-templates), such as [polls](/microsoftteams/platform/samples/app-templates#poll), [surveys](/microsoftteams/platform/samples/app-templates#survey), [checklists](/microsoftteams/platform/samples/app-templates#checklist), [quizzes](/microsoftteams/platform/samples/app-templates#quiz--), and [training](/microsoftteams/platform/samples/app-templates#training--). We have recently released the capability for any Teams users to interact with external users through their phone numbers. View the [blog](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832) and [article](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57) to learn more.**
+A certain set of Kaizala Pro capabilities is now available in Teams and include Kaizala actions now available as Teams [app templates](/microsoftteams/platform/samples/app-templates), such as [polls](/microsoftteams/platform/samples/app-templates#poll), [surveys](/microsoftteams/platform/samples/app-templates#survey), [checklists](/microsoftteams/platform/samples/app-templates#checklist), [quizzes](/microsoftteams/platform/samples/app-templates#quiz--), and [training](/microsoftteams/platform/samples/app-templates#training--). We have recently released the capability for any Teams users to interact with external users through their phone numbers. View the [blog](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832) and [article](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57) to learn more.
 
 Enabling every member of an organization’s network with digital communication and collaboration tools can transform the way work gets done. This overview will help you start your transition from Kaizala to Microsoft Teams today.
 
@@ -54,7 +54,7 @@ Start using Teams today for solutions that can empower communication across your
 
 ## Will I be able to use Teams to collaborate with customers and partners outside my organization using a phone number?
 
-Yes, with Teams Connect, you can invite any Teams user to chat by entering the full email address or phone number you want to reach and start a one-to-one or group chat with anyone with a Microsoft personal account. No tenant switching is required. A range of controls and tools are provided to the IT admins and Microsoft personal account Teams users, to ensure security. View the page https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57. For more information, read the blog https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832.
+Yes, with Teams Connect, you can invite any Teams user to chat by entering the full email address or phone number you want to reach and start a one-to-one or group chat with anyone with a Microsoft personal account. No tenant switching is required. A range of controls and tools are provided to the IT admins and Microsoft personal account Teams users, to ensure security. View the [support page](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57). For more information, see the [blog](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832).
 
 ## Next Steps
 <a name="ControlSyncThroughput"> </a>
