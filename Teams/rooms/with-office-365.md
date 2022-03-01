@@ -128,8 +128,6 @@ If you're in an Exchange hybrid configuration, you'll also need to add an email 
    New-Mailbox -UserPrincipalName ConferenceRoom01@contoso.com -Name "ConferenceRoom01" -Alias ConferenceRoom01 -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
    ```
 
----
-
 #### [**Modify an existing Exchange room mailbox**](#tab/existing-account)
 
 To modify an existing room mailbox to become a resource account, use the following syntax:
@@ -144,7 +142,7 @@ This example enables the account for the existing room mailbox that has the alia
 Set-Mailbox -Identity ConferenceRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
 ```
 
-If you're in an Exchange hybrid configuration, run the Exchange hybrid steps in the [Exchange Online tab](&tabs=exchange-online#steps).
+If you're in an Exchange hybrid configuration, run the Exchange hybrid steps in the [Exchange Online tab](?tabs=exchange-online#steps).
 
 For detailed syntax and parameter information, see [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) and [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox).
 
@@ -193,7 +191,7 @@ You now need to set the resource account so that the password never expires.
 
 #### [**Azure Active Directory 2.0**](#tab/azure-active-directory2-password/)
 
-See [Set a password to never expire](microsoft-365/admin/add-users/set-password-to-never-expire?view=o365-worldwide#set-a-password-to-never-expire).
+See [Set a password to never expire](/microsoft-365/admin/add-users/set-password-to-never-expire?view=o365-worldwide#set-a-password-to-never-expire).
 
 This example sets the password for the account ConferenceRoom01@contoso.com to never expire.
 
