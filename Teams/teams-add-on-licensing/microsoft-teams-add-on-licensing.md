@@ -46,275 +46,65 @@ Here's a list of Teams add-on licenses and their capabilities that you can add t
 
 ## Which Microsoft capabilities are available with my plan?
 
-All Microsoft 365 plans allow Teams users to make peer-to-peer calls within your organization using VoIP technology.
+All Microsoft 365 plans allow Teams users to make peer-to-peer calls within your organization using VoIP technology, but you may want to add on different licenses for capabilities like making calls to PSTN numbers or setting up a PBX.
 
-Which add-on licenses you need for extra capabilities in Teams depends on the plan you have.
+### Audio conferencing options
 
-Also, we recommend comparing whether it's more cost effective for you to switch to a Microsoft 365 plan that includes the capabilities you want. For example, for most large organizations, buying a bundle of software in a Microsoft 365 Enterprise plan will result in lower overall cost. Sometimes, when you buy several add-on licenses individually instead of as part of a plan, you may end up with a higher combined cost.
+You can add **Audio Conferencing** licenses for free to all Microsoft 365 subscriptions.
 
-#### [**Small and medium businesses**](#tab/small-business/)
+Microsoft 365 E5/A5/G5 plans include Audio Conferencing licenses, so you will not need to purchase additional Audio Conferencing licenses with this plan.
 
-If you're a small or medium-sized business (less than 300 users), you have several ways to get Teams Phone System and PSTN connectivity:
+### Voice and PSTN connectivity license options
 
-- Buy a Microsoft 365 Business or Enterprise (E1 or E3) plan and add **Teams Phone with Calling Plan** licenses.
+Whether you're a small business, enterprise organization, educational institution, government agency, or nonprofit, you have three ways to get Teams Phone System and PSTN connectivity:
+
+- Buy a Microsoft 365 Business, E1/E3, A1/A3, or G1/G3 plan and add **Teams Phone with Calling Plan** licenses.
   - This model will give you Teams Phone System PBX capabilities and a Microsoft Domestic Calling Plan.
   - Choose this if you want all phone number management and billing to be handled by Microsoft.
   - Check to see if the [Teams Phone with Calling Plan license is available in your region](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
-- Buy an Enterprise E1 or E3 plan, add **Teams Phone Standard** licenses, and choose a third-party PSTN connectivity option.
+
+- Buy an E1/E3, A1/A3, or G1/G3 plan, add **Teams Phone Standard** licenses, and choose a Microsoft standalone calling plan or third-party PSTN carrier.
   - This model will give you Teams Phone System, but you'll still need to connect to the PSTN.
   - To view all your PSTN connectivity options, see [PSTN connectivity options](../pstn-connectivity.md).
   - To learn about all voice solutions, see [Plan your Teams voice solution](../cloud-voice-landing-page.md).
-- Buy an Enterprise E5 plan and add **Microsoft Calling Plans** or connect to a third-party PSTN connectivity provider.
-  - The Microsoft 365 Enterprise E5 plan includes Teams Phone System, but organizations still need to choose a [PSTN connectivity option](../pstn-connectivity.md).
 
-To learn more, see [Teams Phone System guidance for small and medium businesses](../business-voice/whats-business-voice.md).
+- Buy an E5/A5/G5 plan and add **Microsoft Calling Plans** or connect to a third-party PSTN connectivity provider.
+  - The Microsoft 365 E5, A5, and G5 plans include Teams Phone System, but organizations still need to choose a [PSTN connectivity option](../pstn-connectivity.md).
 
-If you would like **Audio Conferencing**, you can add on Audio Conferencing licenses for free to all Microsoft 365 subscriptions. Microsoft 365 Enterprise E5 plans include Audio Conferencing, so you will not need to purchase additional Audio Conferencing licenses alongside this plan.
-
-Here's a summary based on licensing plan.
+Here's a summary of which Microsoft voice and calling licenses to purchase, based on Microsoft 365 plan:
 
 <table>
 <thead>
 <tr class="header">
 <th><strong>Base plan</strong></th>
-<th colspan="3"><strong>Voice calling and Audio conferencing options</strong></th>
-<th>&nbsp;</th>
-<th>&nbsp;</th>
+<th><strong>Want Microsoft as your PSTN carrier</strong></th>
+<th><strong>Want to use a third-party PSTN carrier</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="even">
-<td>Microsoft 365 Business Basic<br/>
-Microsoft 365 Business Standard<br/>
-Microsoft 365 Business Premium<br/>
-Microsoft Teams Essentials (AAD Identity)</td>
-<td>Teams Phone with Calling Plan licenses<br/> <br/>Audio Conferencing licenses<br/> <br/>Domestic and International Calling Plan (optional) <br/> <br/>Communication Credits (optional)</td>
-<td>Or</td>
-<td>Teams Phone Standard licenses<br/> <br/>Domestic Calling Plan or Domestic and International Calling Plan<br/> <br/>Audio Conferencing licenses<br/> <br/>Communication Credits (optional)</td>
+<td>Teams Essentials (AAD identity) <br/> <br/>Any Microsoft 365 plan that includes Teams <br/> </td>
+<td>Teams Phone with Calling Plan licenses <br/> <br/>or <br/> <br/>Teams Phone Standard licenses <br/> plus <br/>Domestic Calling Plan or Domestic and International Calling Plan licenses <br/> </td>
+<td>Teams Phone Standard licenses <br/> </td>
 </tr>
 <tr class="odd">
-<td>Microsoft 365 Enterprise E1/E3<br/>Office 365 Enterprise E1/E3<br/>Microsoft 365 F3<br/>Office 365 F3<br/>Microsoft 365 F1</td>
-<td>Teams Phone with Calling Plan licenses <br/> <br/>Audio Conferencing licenses<br/> <br/>Domestic and International Calling Plan (optional) <br/> <br/>Communication Credits (optional)</td>
-<td>Or</td>
-<td>Teams Phone Standard licenses<br/> <br/>Domestic Calling Plan or Domestic and International Calling Plan<br/> <br/>Audio Conferencing licenses<br/> <br/>Communication Credits (optional)</td>
-</tr>
-<tr class="even">
-<td>Microsoft 365 Enterprise E5<br/>Office 365 Enterprise E5</td>
-<td>Domestic Calling Plan or Domestic and International Calling Plan<br/> <br/>Communication Credits (optional)</td>
-<td></td>
-<td></td>
-<td></td>
+<td>Microsoft 365 E5/A5/G5 plans</td>
+<td>Domestic Calling Plan or Domestic and International Calling Plan licenses <br/> </td>
 <td></td>
 </tr>
 </tbody>
 </table>
 
->[!NOTE]
->If you need to use a third-party telephone service or if Microsoft Teams Calling Plans isn't available in your country or region, you have other [PSTN connectivity options](../pstn-connectivity.md) you can choose from.
+Learn more about Microsoft plans and recommendations for specific organization types:
 
-#### [**Enterprise**](#tab/enterprise/)
-
-If you're a large business or enterprise organization (more than 300 users), you have three ways to get Teams Phone System and PSTN connectivity:
-
-- Buy an Enterprise E1 or E3 plan and add **Teams Phone with Calling Plan** licenses.
-  - This model will give you Teams Phone System PBX capabilities and a Microsoft Domestic Calling Plan.
-  - Choose this if you want all phone number management and billing to be handled by Microsoft.
-  - Check to see if the [Teams Phone with Calling Plan license is available in your region](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
-- Buy an Enterprise E1 or E3 plan, add **Teams Phone Standard** licenses, and choose a third-party PSTN connectivity option.
-  - This model will give you Teams Phone System, but you'll still need to connect to the PSTN.
-  - To view all your PSTN connectivity options, see [PSTN connectivity options](../pstn-connectivity.md).
-  - To learn about all voice solutions, see [Plan your Teams voice solution](../cloud-voice-landing-page.md).
-- Buy an Enterprise E5 plan and add **Microsoft Calling Plans** or connect to a third-party PSTN connectivity provider.
-  - The Microsoft 365 Enterprise E5 plan includes Teams Phone System, but organizations still need to choose a [PSTN connectivity option](../pstn-connectivity.md).
-
-If you would like **Audio Conferencing**, you can add on Audio Conferencing licenses for free to all Microsoft 365 subscriptions. Microsoft 365 Enterprise E5 plans include Audio Conferencing, so you will not need to purchase additional Audio Conferencing licenses with this plan.
-
-Here's a summary, based on licensing plan.
-
-<table>
-<thead>
-<tr class="header">
-<th><strong>Base plan</strong></th>
-<th colspan="2"><strong>Want Microsoft as your PSTN carrier</strong></th>
-<th colspan="2"><strong>Want to use a third-party PSTN carrier</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="even">
-<td>Teams Essentials (AAD identity)<br/>Any Microsoft 365 plan that includes Teams</td>
-<td>Teams Phone with Calling Plan licenses <br/> <br/> Audio Conferencing licenses <br/> <br/> Domestic and International Calling Plan (optional) <br/> <br/> Communication Credits (optional)<br/> </td>
-<td>or</td>
-<td>Teams Phone Standard licenses<br/> <br/> Domestic Calling Plan or Domestic and International Calling Plan <br/> <br/> Audio Conferencing licenses <br/> <br/> Communication Credits (optional)</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>Microsoft 365 Enterprise E5<br/>Office 365 Enterprise E5</td>
-<td>Domestic Calling Plan or Domestic and International Calling Plan<br/> <br/>Communication Credits (optional)</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-
-To learn more, see [Microsoft 365 Enterprise plans](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans) and [Office 365 Enterprise plans](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans).
+- [Guidance for small and medium businesses](../business-voice/whats-business-voice.md)
+- [Plans for enterprise organizations](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans)
+- [Guidance for educational institutions](https://www.microsoft.com/education/buy-license/microsoft365)
+- [Plans for governments and governmental agencies](https://www.microsoft.com/microsoft-365/government/)
+- [Plans for nonprofit organizations](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing)
 
 >[!NOTE]
 >If you need to use a third-party telephone service or if Microsoft Teams Calling Plans isn't available in your country or region, you have other [PSTN connectivity options](../pstn-connectivity.md) you can choose from.
-
-#### [**Education**](#tab/education/)
-
-For schools and other academic organizations, you have three ways to get Teams Phone System and PSTN connectivity:
-
-- Buy an EDU A1 or A3 plan and add **Teams Phone with Calling Plan** licenses.
-  - This model will give you Teams Phone System PBX capabilities and a Microsoft Domestic Calling Plan.
-  - Choose this if you want all phone number management and billing to be handled by Microsoft.
-  - Check to see if the [Teams Phone with Calling Plan license is available in your region](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
-- Buy an EDU A1 or A3 plan, add **Teams Phone Standard** licenses, and choose a third-party PSTN connectivity option.
-  - This model will give you Teams Phone System, but you'll still need to connect to the PSTN.
-  - To view all your PSTN connectivity options, see [PSTN connectivity options](../pstn-connectivity.md).
-  - To learn about all voice solutions, see [Plan your Teams voice solution](../cloud-voice-landing-page.md).
-- Buy an EDU A5 plan and add **Microsoft Calling Plans** or connect to a third-party PSTN connectivity provider.
-  - The Microsoft 365 EDU A5 plan includes Teams Phone System, but institutions still need to choose a [PSTN connectivity option](../pstn-connectivity.md).
-
-If you would like **Audio Conferencing**, you can add on Audio Conferencing licenses for free to all Microsoft 365 subscriptions. Microsoft 365 EDU A5 plans include Audio Conferencing, so you will not need to purchase additional Audio Conferencing licenses alongside this plan.
-
-Here's a summary, based on licensing plan.
-
-<table>
-<thead>
-<tr class="header">
-<th><strong>Base plan</strong></th>
-<th colspan="3"><strong>Voice calling and Audio conferencing options</strong></th>
-<th>&nbsp;</th>
-<th>&nbsp;</th>
-</tr>
-</thead>
-<tbody>
-<tr class="even">
-<td>Microsoft 365 Enterprise A1 or A3<br/>Office 365 Education A1 or A3<br/>Microsoft 365 F3<br/>Office 365 F3</td>
-<td>Teams Phone with Calling Plan licenses <br/> <br/> Audio Conferencing licenses <br/> <br/> Domestic and International Calling Plan (optional) <br/> <br/>Communication Credits (optional)</td>
-<td>Or</td>
-<td>Teams Phone Standard licenses <br/> <br/>Domestic Calling Plan or Domestic and International Calling Plan <br/> <br/> Audio Conferencing licenses <br/> <br/> Communication Credits (optional)</td>
-</tr>
-<tr class="odd">
-<td>Microsoft 365 Education A5 <br/>Office 365 Education A5</td>
-<td>Domestic Calling Plan or Domestic and International Calling Plan <br/> <br/>Communication Credits (optional)</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-
-To learn more, see [Microsoft 365 Education](https://www.microsoft.com/education/buy-license/microsoft365) and [Office 365 Education plans](https://www.microsoft.com/education/products/office).
-
->[!NOTE]
->If you need to use a third-party telephone service or if Microsoft Teams Calling Plans isn't available in your country or region, you have other [PSTN connectivity options](../pstn-connectivity.md) you can choose from.
-
-#### [**Government**](#tab/government/)
-
-For US government organizations (GCC only), you have three ways to get Teams Phone System and PSTN connectivity:
-
-- Buy a GOV G1 or G3 plan and add **Teams Phone with Calling Plan** licenses.
-  - This model will give you Teams Phone System PBX capabilities and a Microsoft Domestic Calling Plan.
-  - Choose this if you want all phone number management and billing to be handled by Microsoft.
-  - Check to see if the [Teams Phone with Calling Plan license is available in your region](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
-- Buy a GOV G1 or G3 plan, add **Teams Phone Standard** licenses, and choose a third-party PSTN connectivity option.
-  - This model will give you Teams Phone System, but you'll still need to connect to the PSTN.
-  - To view all your PSTN connectivity options, see [PSTN connectivity options](../pstn-connectivity.md).
-  - To learn about all voice solutions, see [Plan your Teams voice solution](../cloud-voice-landing-page.md).
-- Buy a GOV G5 plan and add **Microsoft Calling Plans** or connect to a third-party PSTN connectivity provider.
-  - The Microsoft 365 GOV G5 plan includes Teams Phone System, but organizations still need to choose a [PSTN connectivity option](../pstn-connectivity.md).
-
-If you would like **Audio Conferencing**, you can add on Audio Conferencing licenses for free to all Microsoft 365 subscriptions. Microsoft 365 GOV G5 plans include Audio Conferencing, so you will not need to purchase additional Audio Conferencing licenses alongside this plan.
-
-Here's a summary, based on licensing plan.
-
-<table>
-<thead>
-<tr class="header">
-<th><strong>Base plan</strong></th>
-<th colspan="3"><strong>Voice calling and Audio conferencing options</strong></th>
-<th>&nbsp;</th>
-<th>&nbsp;</th>
-</tr>
-</thead>
-<tbody>
-<tr class="even">
-<td>Microsoft 365 GOV G1 or G3<br/>Office 365 GOV G1 or G3<br/>Microsoft 365 F3<br/>Office 365 F3</td>
-<td>Teams Phone with Calling Plan licenses <br/> <br/> Audio Conferencing licenses <br/> <br/> Domestic and International Calling Plan (optional) <br/> <br/>Communication Credits (optional)</td>
-<td>Or</td>
-<td>Teams Phone Standard licenses <br/> <br/>Domestic Calling Plan or Domestic and International Calling Plan <br/> <br/> Audio Conferencing licenses <br/> <br/> Communication Credits (optional)</td>
-</tr>
-<tr class="odd">
-<td>Microsoft 365 GOV G5<br>Office 365 GOV G5</td>
-<td>Domestic Calling Plan or Domestic and International Calling Plan <br/> <br/>Communication Credits (optional)</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-
-To learn more, see [Microsoft 365 Government](https://www.microsoft.com/microsoft-365/government/) and [Office 365 Government plans](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans).
-
->[!NOTE]
->If you need to use a third-party telephone service or if Microsoft Teams Calling Plans isn't available in your country or region, you have other [PSTN connectivity options](../pstn-connectivity.md) you can choose from.
-
-#### [**Nonprofit**](#tab/nonprofit/)
-
-If you're a nonprofit organization, you have three ways to get Teams Phone System and PSTN connectivity:
-
-- Buy a Microsoft 365 Nonprofit Business Basic, Nonprofit Business Standard, or Nonprofit E1 or E3 plan and add **Teams Phone with Calling Plan** licenses.
-  - This model will give you Teams Phone System PBX capabilities and a Microsoft Domestic Calling Plan.
-  - Choose this if you want all phone number management and billing to be handled by Microsoft.
-  - Check to see if the [Teams Phone with Calling Plan license is available in your region](../country-and-region-availability-for-audio-conferencing-and-calling-plans/
-- Buy a Nonprofit E1 or E3 plan, add **Teams Phone Standard** licenses, and choose a third-party PSTN connectivity option.
-  - This model will give you Teams Phone System, but you'll still need to connect to the PSTN.
-  - To view all your PSTN connectivity options, see [PSTN connectivity options](../pstn-connectivity.md).
-  - To learn about all voice solutions, see [Plan your Teams voice solution](../cloud-voice-landing-page.md).
-- Buy a Nonprofit E5 plan and add **Microsoft Calling Plans** or connect to a third-party PSTN connectivity provider.
-  - The Microsoft 365 Nonprofit E5 plan includes Teams Phone System, but organizations still need to choose a [PSTN connectivity option](../pstn-connectivity.md).
-
-If you would like **Audio Conferencing**, you can add on Audio Conferencing licenses for free to all Microsoft 365 subscriptions. Microsoft 365 Nonprofit E5 plans include Audio Conferencing, so you will not need to purchase additional Audio Conferencing licenses alongside this plan.
-
-Here's a summary, based on licensing plan.
-
-<table>
-<thead>
-<tr class="header">
-<th><strong>Base plan</strong></th>
-<th colspan="3"><strong>Voice calling and Audio conferencing options</strong></th>
-<th>&nbsp;</th>
-<th>&nbsp;</th>
-</tr>
-</thead>
-<tbody>
-<tr class="even">
-<td>Microsoft 365 Nonprofit Business Basic<br/>Microsoft 365 Nonprofit Business Standard</td>
-<td>Teams Phone with Calling Plan licenses <br/> <br/> Audio Conferencing licenses <br/> <br/> Domestic and International Calling Plan (optional) <br/> <br/> Communication Credits (optional)</td>
-<td>Or</td>
-<td>Teams Phone Standard licenses <br/> <br/>Domestic Calling Plan or Domestic and International Calling Plan <br/> <br/> Audio Conferencing licenses <br/> <br/> Communication Credits (optional)</td>
-</tr>
-<tr>
-<td>Microsoft 365 Nonprofit E1 or E3<br/>Office 365 Nonprofit E1 or E3<br/>Microsoft 365 F3<br/>Office 365 F3</td>
-<td>Teams Phone with Calling Plan licenses <br/> <br/> Audio Conferencing licenses <br/> <br/> Domestic and International Calling Plan (optional) <br/> <br/>Communication Credits (optional)</td>
-<td>Or</td>
-<td>Teams Phone Standard licenses <br/> <br/>Domestic Calling Plan or Domestic and International Calling Plan <br/> <br/> Audio Conferencing licenses <br/> <br/> Communication Credits (optional)</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>Microsoft 365 Nonprofit E5<br>Office 365 Nonprofit E5</td>
-<td>Domestic Calling Plan or Domestic and International Calling Plan <br/> <br/>Communication Credits (optional)</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-
-To learn more, see [Microsoft 365 and Office 365 Nonprofit offers](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing).
-
->[!NOTE]
->If you need to use a third-party telephone service or if Microsoft Teams Calling Plans isn't available in your country or region, you have other [PSTN connectivity options](../pstn-connectivity.md) you can choose from.
-
----
 
 ## Need help?
 
