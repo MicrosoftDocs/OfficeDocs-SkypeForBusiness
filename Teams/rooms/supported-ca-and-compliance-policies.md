@@ -22,7 +22,7 @@ This article provides supported Conditional Access and Intune device compliance 
 > Teams Rooms must already be deployed on the devices you want to assign
 Conditional Access policies to. If you haven’t deployed Teams Rooms yet,
 see [Deploy Microsoft Teams Rooms with Office 365](with-office-365.md)
-and [Deploy Microsoft Teams Rooms on Android](/devices/collab-bar-deploy.md)
+and [Deploy Microsoft Teams Rooms on Android](../devices/collab-bar-deploy.md)
 for more information.
 
 ## Supported Conditional Access policies  

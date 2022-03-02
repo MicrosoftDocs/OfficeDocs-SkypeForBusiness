@@ -23,7 +23,7 @@ This article provides requirements and best practices for Conditional Access and
 Teams Rooms must already be deployed on the devices you want to assign
 Conditional Access policies to. If you haven’t deployed Teams Rooms yet,
 see [Deploy Microsoft Teams Rooms with Office 365](with-office-365.md)
-and [Deploy Microsoft Teams Rooms on Android](/devices/collab-bar-deploy.md)
+and [Deploy Microsoft Teams Rooms on Android](../devices/collab-bar-deploy.md)
 for more information.
 
 An Azure Active Directory P1 Service Plan is required to use Conditional
@@ -79,7 +79,7 @@ resource account.
 
 For a list of supported Intune compliance policies for Teams Rooms, see [Supported device compliance policies](supported-ca-and-compliance-policies.md#supported-device-compliance-policies).
 
-For more information on setting up Intune with Teams Android devices, see [Configure Intune to enroll Teams Android-based devices](/devices/phones-displays-deploy.md#configure-intune-to-enroll-teams-android-based-devices).
+For more information on setting up Intune with Teams Android devices, see [Configure Intune to enroll Teams Android-based devices](../devices/phones-displays-deploy.md#configure-intune-to-enroll-teams-android-based-devices).
 
 ## Example (Windows only): Conditional Access with Intune device compliance
 
