@@ -1,5 +1,5 @@
 ---
-title: Teams Phone guidance for small and medium businesses
+title: Teams Phone System guidance for small and medium businesses
 author: dstrome 
 ms.author: dstrome
 manager: serdars
@@ -22,7 +22,7 @@ ms.custom:
 - intro-overview
 ---
 
-# Teams Phone System with Calling Plan bundle guidance for small and medium businesses
+# Teams Phone System guidance for small and medium businesses
 
 >[!NOTE]
 > Microsoft 365 Business Voice was Microsoft’s telephony service bundle for small and medium businesses, which included Private Branch Exchange (PBX) capabilities, a domestic calling plan, and Audio Conferencing. However, Business Voice will be deprecated on March 1, 2022.  
