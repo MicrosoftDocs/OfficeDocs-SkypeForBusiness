@@ -1,5 +1,5 @@
 ---
-title: "Conditional Access and device compliance policies for Microsoft Teams Rooms"
+title: "Conditional Access and compliance best practices for Microsoft Teams Rooms"
 ms.author: czawideh
 author: cazawideh
 ms.reviewer: sohailta
@@ -14,7 +14,7 @@ ms.collection:
 description: Learn about recommended Conditional Access and Intune device compliance policies and best practices for Microsoft Teams Rooms.
 ---
 
-# Conditional Access and Intune compliance policies for Microsoft Teams Rooms
+# Conditional Access and Intune compliance for Microsoft Teams Rooms
 
 This article provides requirements and best practices for Conditional Access and Intune device compliance policies for Microsoft Teams Rooms that are used in shared spaces.
 

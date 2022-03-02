@@ -16,7 +16,7 @@ description: Learn about supported and recommended Conditional Access and Intune
 
 # Supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms
 
-This article provides supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms. For best practices and example policies, see [Conditional Access and device compliance best practices for Microsoft Teams Rooms](conditional-access-and-compliance-for-devices.md).
+This article provides supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms. For best practices and example policies, see [Conditional Access and Intune compliance best practices for Microsoft Teams Rooms](conditional-access-and-compliance-for-devices.md).
 
 > ![NOTE]
 > Teams Rooms must already be deployed on the devices you want to assign
