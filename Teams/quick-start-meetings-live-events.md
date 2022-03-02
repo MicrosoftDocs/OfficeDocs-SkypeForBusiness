@@ -37,7 +37,7 @@ This article, intended for administrators and IT Pros, briefly describes the dif
 
 The different types of meetings also have different participant limits and participant capabilities. 
 
-The following table briefly summarizes the three types of meetings, the number of recommended participants, and how participants can interact in the meeting. More information about each type of meeting follow the table.
+The following table briefly summarizes the three types of meetings, the number of recommended participants, and how participants can interact in the meeting. Sections with more information about each type of meeting follow the table. This article also includes a section on [best practices for large meetings](#best-practices-for-large-meetings).
 <br><br>
 
 | Type of meeting | Number of participants | Interaction | Registration supported |
@@ -50,6 +50,7 @@ The following table briefly summarizes the three types of meetings, the number o
 *The usual 10,000 is increased to 20,000 through June 30, 2022.<br>
 
 **The usual 10,000 is increased to 20,000 through June 30, 2022. You can schedule even greater numbers with live events in Yammer and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365). Note that events over 20,000 attendees require the [Live Events Assistance Program](/stream/live-events-assistance). 
+
 
 
 ## Meetings
