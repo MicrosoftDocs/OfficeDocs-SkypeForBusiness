@@ -68,13 +68,13 @@ You can buy Teams Phone with Calling Plan bundle licenses from Microsoft, set up
 
 To buy **Teams Phone with Calling Plan** bundle licenses:
 
-- Sign in to the [admin center](https://admin.microsoft.com/Adminportal/Home#/homepage)
-- Go to **Billing** > **Purchase services**
-- Under **Purchase from Microsoft**, select **View Products**
-- Select the **Add-ons** category filter to view all available add-on licenses
-- Find the **Teams Phone with Calling Plan** add on and select **Details** to go to the product page
-- Select the **Buy** button to choose the number of licenses you need and to complete the purchasing process
-- If you run out of licenses, you can purchase more later
+1. Sign in to the [admin center](https://admin.microsoft.com/Adminportal/Home#/homepage)
+2. Go to **Billing** > **Purchase services**
+3. Under **Purchase from Microsoft**, select **View Products**
+4. Select the **Add-ons** category filter to view all available add-on licenses
+5. Find the **Teams Phone with Calling Plan** add on and select **Details** to go to the product page
+6. Select the **Buy** button to choose the number of licenses you need and to complete the purchasing process
+7. If you run out of licenses, you can purchase more later
 
 ## Who in my organization needs to be assigned Teams Phone with Calling Plan bundle licenses?
 

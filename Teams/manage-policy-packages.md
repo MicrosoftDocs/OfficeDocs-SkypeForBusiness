@@ -78,7 +78,7 @@ For example, when you assign the Education (Teacher) policy package to teachers 
 
 ## Custom policy packages
 
-Custom policy packages let you bundle your own set of policies for users with similar roles in you organization. Create your own policy packages by adding the policy types and policies that you need.
+Custom policy packages let you bundle your own set of policies for users with similar roles in your organization. Create your own policy packages by adding the policy types and policies that you need.
 
 To create a new custom policy package:
 
