@@ -173,11 +173,6 @@ You can use Teams live events in multiple regions across the world. The followin
 - UAE
 - United Kingdom
 
-**These countries/regions and clouds aren't supported**
-
-- Government Community Cloud (GCC)-H
-- Department of Defense (DOD)
-
 **Exclusions and considerations**
 
 - **Data location:** Teams data locations, outside of the ones listed above, aren't currently supported.
