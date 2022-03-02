@@ -1335,6 +1335,10 @@ items:
               href: rooms/security.md
             - name: Online Licensing
               href: rooms/rooms-licensing.md
+            - name: Best practices for Conditional Access and Intune compliance
+              href: rooms/conditional-access-and-compliance-for-devices.md
+            - name: Supported Conditional Access and Intune compliance policies
+              href: rooms/supported-ca-and-compliance-policies.md
             - name: Plan management with Azure Monitor
               href: rooms/azure-monitor-plan.md
         - name: Deploy

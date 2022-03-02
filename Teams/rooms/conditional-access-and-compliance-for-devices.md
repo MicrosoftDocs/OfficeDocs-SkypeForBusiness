@@ -47,7 +47,7 @@ following best practices:
     to automatically apply Conditional Access policies to all of these
     accounts at once. See [Rules for dynamically populated groups membership](/azure/active-directory/enterprise-users/groups-dynamic-membership) for more information on dynamic groups.
 
-For a list of supported Conditional Access assignments for Teams Rooms, see [Supported Conditional Access policies](supported-ca-and-compliance-policies.md#supported-conditional-access-policies).
+For a list of supported Conditional Access assignments for Teams Rooms, see [Supported Conditional Access policies](supported-ca-and-compliance-policies.md#supported-conditional-access-policies.md).
 
 ## Example Conditional Access policy
 
