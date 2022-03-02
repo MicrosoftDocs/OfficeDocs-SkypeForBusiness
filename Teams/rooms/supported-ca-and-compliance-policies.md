@@ -38,7 +38,7 @@ The following list includes the supported Conditional Access policies for Teams 
 | Sign-in risk | Supported | Supported |
 | Device platforms | Supported | Supported |
 | Locations | Supported | Supported |
-|Client apps |Supported | Not supported |
+|Client apps |Not supported| Not supported |
 |Filter for devices | Supported | Supported |
 |**Grant**| --- | --- |
 | Block access | Supported | Supported |
@@ -46,7 +46,7 @@ The following list includes the supported Conditional Access policies for Teams 
 | Require multi-factor authentication | Not supported | Not supported |
 | Require device to be marked as compliant | Supported | Supported |
 |Require Hybrid Azure AD joined device | Not supported | Not supported |
-|Require approved client app | Not supported | Supported |
+|Require approved client app | Not supported | Not supported |
 | Require app protection policy | Not supported |Not supported |
 | Require password change | Not supported | Not supported |
 
