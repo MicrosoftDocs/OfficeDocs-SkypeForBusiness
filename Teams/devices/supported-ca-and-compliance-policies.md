@@ -42,6 +42,7 @@ The following list includes the supported Conditional Access policies for Teams 
 |Filter for devices | Supported | Supported |
 |**Grant**| --- | --- |
 | Block access | Supported | Supported |
+| Grant access | Supported | Supported | 
 | Require multi-factor authentication | Not supported | Not supported |
 | Require device to be marked as compliant | Supported | Supported |
 |Require Hybrid Azure AD joined device | Not supported | Not supported |
