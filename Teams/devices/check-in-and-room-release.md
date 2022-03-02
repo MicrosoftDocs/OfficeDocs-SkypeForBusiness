@@ -51,7 +51,7 @@ To turn on check-in notifications,
 
 1. On the Teams panel, sign in using your admin credentials. 
 
-2. Go to Settings > Device Settings > Admin Settings > Panels App Settings > Meetings. 
+2. Go to **Settings > Device Settings > Admin Settings > Panels App Settings > Meetings**.
 
 3. Go to Check-in and turn on Send check-in notification.
 
