@@ -1,7 +1,7 @@
 ---
 title: "How to use Microsoft Teams panels devices"
-ms.author: serdars
-author: ManikaDhiman
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -186,6 +186,22 @@ To access the **Panels App Settings** option:
 
     - [Wallpaper](#update-the-wallpaper)
     - [LED indicator](#change-the-busy-state-led-color)
+
+#### Pair a Teams Panel with a Microsoft Teams Room on Android
+
+On the Teams Panel, sign in using your admin credentials.  
+
+1. Go to **Settings > Device Settings > Admin Settings > Panels App Settings > Meetings > Device Pairing.**
+
+2. A six-digit code will appear on the Teams Rooms on Android front of room display. Enter the code on the Teams Panel.  
+
+#### Meeting check-in and room release
+
+Check-in and room release settings let users check in to a meeting on Teams Panels at the room they reserved at the start of the meeting. If a user doesn’t check-in within a set amount of time after the meeting start time, the room is released and becomes available for others to reserve.
+
+When a Teams Panels is paired with a Microsoft Teams Room on Android, check-in notifications can be enabled to appear on the front0of-room display when meetings run late.
+
+To enable check-in and room release, see [Check-in and room release on Microsoft Teams Panels](check-in-and-room-release.md).
 
 #### Update the wallpaper
 
