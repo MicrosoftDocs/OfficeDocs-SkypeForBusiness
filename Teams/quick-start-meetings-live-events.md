@@ -1,7 +1,7 @@
 ---
-title: Quick start - Meetings, webinars, and live events
+title: Meetings, webinars, and live events
 ms.reviewer: 
-description: A quick start guide for administrators to roll out and configure  meetings, webinars, and live events in Microsoft Teams.
+description: A guide for administrators to roll out and configure meetings, webinars, and live events in Microsoft Teams.
 ms.topic: article
 author: CarolynRowe
 ms.author: crowe
@@ -23,7 +23,7 @@ appliesto:
 ---
 
 
-# Quick start - Meetings, webinars, and live events 
+# Meetings, webinars, and live events 
 
 There are multiple ways to meet in Microsoft Teams: meetings, webinars, and live events. 
 
@@ -32,7 +32,6 @@ This article, intended for administrators and IT Pros, briefly describes the dif
 > [!Note]
 > For details about quickly configuring Teams meetings and events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
-## Meetings, webinars, and live events
 
 [Meetings](#meetings), [webinars](#webinars), and [live events](#live-events) are all types of meetings, but webinars and live events provide additional control for the organizer over the conversation and participants. Webinars provide two-way interaction while live events provide a managed Q&A experience. 
 
@@ -65,7 +64,7 @@ For information about the view-only meeting experience, see [Teams view-only mee
 Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
 
 
-### Meetings
+## Meetings
 
 **Meetings** in Teams include audio, video, and screen sharing for up to 1,000 people and [view-only capabilities](view-only-meeting-experience.md) for participants over 1,000. Participants don't need to be a member of an organization (or have a Teams account) to join a Teams meeting. They can join directly from the calendar invitation via the Join meeting link or call in via audio if available.  
 
@@ -73,7 +72,7 @@ As the administrator, you'll configure meeting settings and control which meetin
 
 In addition to regularly scheduled meetings, your users can create channel meetings. With channel meetings, everybody in a team can see there is a meeting, join the meeting, and use the meeting chat. Channel meetings are a way to quickly invite everyone in a team to a meeting. For more information about how end users schedule meetings, see [Schedule a meeting](https://support.microsoft.com/office/schedule-a-meeting-in-teams-943507a9-8583-4c58-b5d2-8ec8265e04e5).
 
-#### Articles for administrators
+### Articles for administrators
 
 The following table highlights key articles that you'll want to review:
 
@@ -86,7 +85,7 @@ The following table highlights key articles that you'll want to review:
 | [Use real-time telemetry to troubleshoot poor meeting quality](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md) | Describes how to use Real-Time Analytics (RTA) to troubleshoot poor Microsoft Teams meeting quality for individual users. 
 |||
 
-#### Key training for end users
+### Key training for end users
 
 The following table lists training available to the end users in your organization:
 
@@ -99,12 +98,12 @@ The following table lists training available to the end users in your organizati
 ||
 
 
-### Webinars
+## Webinars
 
 **Webinars** are structured meetings where presenters and participants have clear roles. A key difference between webinars and Teams meetings is that webinars support registration and provide attendee engagement data. To enable webinars in your organization, see [Set up webinars in Teams](set-up-webinars.md). 
 
 
-#### Key training for end users
+### Key training for end users
 
 The following table lists training available to the end users in your organization:
 
@@ -115,11 +114,11 @@ The following table lists training available to the end users in your organizati
 ||
 
 
-### Live events
+## Live events
 
 **Live events** are structured meetings that enable your organization to schedule and produce events that stream to large online audiences&mdash;up to 20,000 people. With live events, the audience interaction is a managed Q&A experience.
 
-#### Articles for administrators
+### Articles for administrators
 
 The following table highlights key articles that you'll want to review:
 
@@ -131,7 +130,7 @@ The following table highlights key articles that you'll want to review:
 | [Configure live events](teams-live-events/configure-teams-live-events.md) | Steps for configuring live events.
 ||
 
-#### Key training for end users
+### Key training for end users
 
 The following table lists training available to the end users in your organization:
 
@@ -165,6 +164,20 @@ Anyone can attend a Teams meeting, webinar, or live event for free&mdash;no lice
 For the people who organize, schedule, and host meetings, webinars, or live events, they'll need one of the Microsoft 365 licenses listed in the [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description). If you're already using Teams, you probably have the license you need for organizing and hosting meetings, webinars, and live events.
 
 To allow people to dial in to a meeting by phone, you'll need to set up audio conferencing. For more information about audio conferencing, see [Audio conferencing in Teams](deploy-audio-conferencing-teams-landing-page.md).
+
+## Best practices for large meetings
+
+When hosting large meetings, consider the following:
+
+- For the best experience in large meetings, webinars, and live events, Microsoft recommends using the latest version of the Teams desktop client or Teams mobile clients. 
+
+- Presenters in large meetings, webinars, and live events should use the Teams desktop client. 
+
+- For more tips on hosting large meetings, see [Best practices for a large Teams meeting](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
+
+For information about the view-only meeting experience, see [Teams view-only meeting experience](view-only-meeting-experience.md).
+
+Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
 
 
 ## Related topics
