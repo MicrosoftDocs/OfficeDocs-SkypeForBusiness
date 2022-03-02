@@ -21,8 +21,8 @@ This article provides supported Conditional Access and Intune device compliance 
 > ![NOTE]
 > Teams Rooms must already be deployed on the devices you want to assign
 Conditional Access policies to. If you haven’t deployed Teams Rooms yet,
-see [Deploy Microsoft Teams Rooms with Office 365](with-office-365.md)
-and [Deploy Microsoft Teams Rooms on Android](devices/collab-bar-deploy.md)
+see [Deploy Microsoft Teams Rooms with Office 365](/rooms/with-office-365.md)
+and [Deploy Microsoft Teams Rooms on Android](collab-bar-deploy.md)
 for more information.
 
 ## Supported Conditional Access policies  
@@ -72,27 +72,28 @@ different device compliance policies.
 Below is a table of device compliance settings and recommendations for
 their use with Teams Rooms.  
 
-| Policy | Availability | Notes |
+|Policy | Availability | Notes|
 |---------|-------------|-------|
 | [**Device health**](/mem/intune/protect/compliance-policy-create-windows%22%20/l%20%22device-health) | -- | -- |
-|Require BitLocker| Supported| Only use if you have first enabled BitLocker on Teams Rooms. |
+|Require BitLocker| Supported | Only use if you have first enabled BitLocker on Teams Rooms. |
 |Require Secure Boot to be enabled on the device |Supported |Secure Boot is  a requirement for Teams Rooms. |
 |Require code integrity |Supported  | Code integrity is already a requirement for Teams Rooms. |
 | [**Device Properties**](/mem/intune/protect/compliance-policy-create-windows%22%20/l%20%22device-properties) | -- | -- |
 |Operating System Version (minimum, maximum) |Not supported | Teams Rooms automatically updates to newer versions of Windows and setting values here could prevent successful sign in after an OS update.|
 |OS version for mobile devices (minimum, maximum) | Not supported. | N/A |
 | Valid operating system builds | Not supported | N/A |
-| [C**onfiguration Manager Compliance**](/mem/intune/protect/compliance-policy-create-windows%22%20/l%20%22device-properties) | -- | -- |
+| [**Configuration Manager Compliance**](/mem/intune/protect/compliance-policy-create-windows%22%20/l%20%22device-properties) | -- | -- |
 | Require device compliance from Configuration Manager | Supported |  N/A |
 | [**System security**](/mem/intune/protect/compliance-policy-create-windows%22%20/l%20%22system-security) | -- | -- |
 | All password policies | Not supported | Password policies can prevent the local Skype account from automatically signing in. |
 | Require encryption of data storage on device. | Supported  | Only use if you have first enabled encryption of data storage on Teams Rooms. |
-| Firewall | Supported. | Firewall is already a requirement for Teams Rooms |
+| Firewall | Supported | Firewall is already a requirement for Teams Rooms |
 | Trusted Platform Module (TPM) | Supported | Trusted Platform Module (TPM) is already a requirement for Teams Rooms. |
 | Antivirus | Supported | Antivirus (Windows Defender) is already a requirement for Teams Rooms. |
 | Antispyware | Supported | Antispyware (Windows Defender) is already a requirement for Teams Rooms. |
 | Microsoft Defender Antimalware | Supported | Microsoft Defender Antimalware is already a requirement for Teams Rooms. |
-| Microsoft Defender Antimalware minimum version | Not supported. | Teams Rooms automatically updates this component so there’s no need to set compliance policies.|| Microsoft Defender Antimalware security intelligence
+| Microsoft Defender Antimalware minimum version | Not supported. | Teams Rooms automatically updates this component so there’s no need to set compliance policies.|
+| Microsoft Defender Antimalware security intelligence
 up-to-date | Supported | Validate that Microsoft Defender Antimalware is already a requirement for Teams Rooms. |
 | Real-time protection | Supported | Real-time protections are already a requirement for Teams Rooms. |
 | [**Microsoft Defender for Endpoint**](/mem/intune/protect/compliance-policy-create-windows%22%20/l%20%22microsoft-defender-for-endpointws) | -- | -- |
