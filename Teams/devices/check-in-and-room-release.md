@@ -3,8 +3,7 @@ title: "Check-in and room release on Microsoft Teams panels"
 ms.author: czawideh
 author: cazawideh
 manager: serdars
-ms.reviewer: weizxue
-ms.topic: reference
+ms.reviewer: gary.lai
 ms.service: msteams
 audience: Admin
 appliesto: 
@@ -14,7 +13,6 @@ f1.keywords:
 ms.collection: 
   - M365-voice
 search.appverid: MET150
-ms.localizationpriority: medium
 description: "This article provides guidance on how to enable check-in and room release Teams panels devices."
 ---
 
