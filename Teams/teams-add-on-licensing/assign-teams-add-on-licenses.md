@@ -20,7 +20,7 @@ appliesto:
 
 # Assign Teams add-on licenses to users
 
-Add-on licenses are licenses for specific Teams capabilities like Audio Conferencing, Phone System, and Calling Plans. This article describes how to assign add-on licenses to individual users and to large sets of users in bulk.
+Add-on licenses are licenses for specific Teams capabilities like Audio Conferencing, Phone System, and Calling Plans. This article describes how to assign add-on licenses to individual users and large sets of users in bulk.
 
 > [!NOTE]
 > See [Teams add-on licensing](./microsoft-teams-add-on-licensing.md) for Teams capabilities that are available with add-on licenses. You'll also find information about which licenses you need to buy and how to buy them, depending on your plan. After you decide which capabilities you want for your users, assign the licenses to them.
@@ -33,7 +33,7 @@ Before you get started, review the following requirements:
 
 - If you're using on-premises Public Switched Telephone Network (PSTN) connectivity for users, you only need to assign a Teams Phone Standard license. Do NOT assign a Calling Plan license.
 
-- After assigning a Microsoft Calling Plan to a user, it can take up to 24 hours before they will see the dial pad in their Teams client. If the dial pad is not shown in 24 hours, check your [dial pad configuration](../dial-pad-configuration.md). If necessary, you can also [contact support](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- After assigning a Microsoft Calling Plan to a user, it can take up to 24 hours before they'll see the dial pad in their Teams client. If the dial pad isn't shown in 24 hours, check your [dial pad configuration](../dial-pad-configuration.md). If necessary, you can also [contact support](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 - You'll get an error message if you haven't purchased the correct number of licenses. If you need to buy more Calling Plan licenses, choose the option to buy more.
 
@@ -53,7 +53,7 @@ If you need to assign licenses for a large number of users, such as hundreds or 
 
 ## Using PowerShell
 
-Use PowerShell to assign licenses to users in bulk.  To learn more, see [Assign licenses to user accounts with PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell).
+Use PowerShell to assign licenses to users in bulk. To learn more, see [Assign licenses to user accounts with PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell).
 
 ### Example script
 
@@ -122,7 +122,7 @@ Here's an example of how to use a script to assign licenses to your users.
 
 ## Product names and SKU identifiers for licensing
 
-Here's a partial list of product names and their corresponding SKU part names that you can use as a reference when you use PowerShell to manage licenses in Teams.
+Here's a partial list of product names and their corresponding SKU part names that you can reference when you use PowerShell to manage licenses in Teams.
 
 To learn more, see [View licenses and services with PowerShell](/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell), [Product names and service plan identifiers for licensing](/azure/active-directory/users-groups-roles/licensing-service-plan-reference), and [Education SKU reference](../sku-reference-edu.md).
 
@@ -136,8 +136,8 @@ To learn more, see [View licenses and services with PowerShell](/office365/enter
 | Microsoft 365 Business Basic | O365_BUSINESS_ESSENTIALS|
 | Microsoft 365 Business Standard | O365_BUSINESS_PREMIUM|
 | Microsoft 365 Business | SPB|
-| Audio Conferencing | MCOMEETADV | 
-| Audio Conferencing Pay Per Minute (pay as you go)</br>*Requires Communications Credits to be set up and enabled.* | MCOMEETACPEA |
+| Audio Conferencing | MCOMEETADV |
+| Audio Conferencing Pay Per Minute (pay as you go) Requires Communications Credits to be set up and enabled.* | MCOMEETACPEA |
 | Teams Phone Standard | MCOEV |
 | Teams Phone with Calling Plan | MCOTEAMS_ESSENTIALS |
 | Domestic and International Calling Plan | MCOPSTN2 |
@@ -146,7 +146,7 @@ To learn more, see [View licenses and services with PowerShell](/office365/enter
 | Domestic Calling Plan (240 minutes per user/month for each country) </br>*This plan isn't available in the United States.* | MCOPSTN6 |
 | Communications Credits | MCOPSTNPP |
 
-## Related topics
+## Related content
 
 - [Teams add-on licensing](./microsoft-teams-add-on-licensing.md)
 - [Manage user access to Teams](../user-access.md)
