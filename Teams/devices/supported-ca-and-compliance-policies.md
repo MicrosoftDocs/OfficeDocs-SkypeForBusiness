@@ -1,5 +1,5 @@
 ---
-title: "Supported Conditional Access and Intune compliance policies for Microsoft Teams Rooms"
+title: "Supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms"
 ms.author: czawideh
 author: cazawideh
 ms.reviewer: sohailta
@@ -14,17 +14,22 @@ ms.collection:
 description: Learn about supported and recommended Conditional Access and Intune device compliance policies for Microsoft Teams Rooms.
 ---
 
-# Supported Conditional Access and Intune compliance policies for Microsoft Teams Rooms
+# Supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms
 
-This article provides supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms on Windows and on Android.
+This article provides supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms. For best practices and example policies, see [Conditional Access and device compliance best practices for Microsoft Teams Rooms](conditional-access-and-compliance-for-devices.md).
+
+> ![NOTE]
+> Teams Rooms must already be deployed on the devices you want to assign
+Conditional Access policies to. If you haven’t deployed Teams Rooms yet,
+see [Deploy Microsoft Teams Rooms with Office 365](/rooms/with-office-365.md)
+and [Deploy Microsoft Teams Rooms on Android](collab-bar-deploy.md)
+for more information.
 
 ## Supported Conditional Access policies  
 
-Not every Conditional Access policy is supported on Teams Rooms on
-Windows and Teams Rooms on Android devices. Below is a list of the
-supported Conditional Access policies for each OS: 
+The following list includes the supported Conditional Access policies for Teams Rooms on Windows and on Android:
 
-| Policy | Windows | Android |
+| Assignment | Windows | Android |
 |------------|---------|---------|
 | User or workload identities |Supported | Supported |
 |Cloud apps or actions | Supported <br><br> Teams Rooms needs to access the following three Cloud apps when in Teams only mode: Office 365 Exchange Online, Office 365 SharePoint Online, and Microsoft Teams | Supported <br><br> Teams Rooms needs to access the following three Cloud apps when in Teams only mode: Office 365 Exchange Online, Office 365 SharePoint Online, and Microsoft Teams |
@@ -37,7 +42,7 @@ supported Conditional Access policies for each OS: 
 |Filter for devices | Supported | Supported |
 |**Grant**| --- | --- |
 | Block access | Supported | Supported |
-| Grant access | ?? | ?? | 
+| Grant access | ?? | ?? |
 | Require multi-factor authentication | Not supported | Not supported |
 | Require device to be marked as compliant | Supported | Supported |
 |Require Hybrid Azure AD joined device | Not supported | Not supported |
@@ -80,7 +85,7 @@ their use with Teams Rooms.  
 | [C**onfiguration Manager Compliance**](/mem/intune/protect/compliance-policy-create-windows%22%20/l%20%22device-properties) | -- | -- |
 | Require device compliance from Configuration Manager | Supported |  N/A |
 | [**System security**](/mem/intune/protect/compliance-policy-create-windows%22%20/l%20%22system-security) | -- | -- |
-| All password policies | Not supported | Setting these can prevent the local Skype account from automatically signing in. |
+| All password policies | Not supported | Password policies can prevent the local Skype account from automatically signing in. |
 | Require encryption of data storage on device. | Supported  | Only use if you have first enabled encryption of data storage on Teams Rooms. |
 | Firewall | Supported. | Firewall is already a requirement for Teams Rooms |
 | Trusted Platform Module (TPM) | Supported | Trusted Platform Module (TPM) is already a requirement for Teams Rooms. |
@@ -89,7 +94,7 @@ their use with Teams Rooms.  
 | Microsoft Defender Antimalware | Supported | Microsoft Defender Antimalware is already a requirement for Teams Rooms. |
 | Microsoft Defender Antimalware minimum version | Not supported. | Teams Rooms automatically updates this component so there’s no need to set compliance policies.|| Microsoft Defender Antimalware security intelligence
 up-to-date | Supported | Validate that Microsoft Defender Antimalware is already a requirement for Teams Rooms. |
-| Real-time protection | Supported | Real-time protections is already a requirement of Teams Rooms. |
+| Real-time protection | Supported | Real-time protections are already a requirement for Teams Rooms. |
 | [**Microsoft Defender for Endpoint**](/mem/intune/protect/compliance-policy-create-windows%22%20/l%20%22microsoft-defender-for-endpointws) | -- | -- |
 | Require the device to be at or under the machine risk score. | Supported |  N/A |
 
@@ -108,10 +113,10 @@ administrator. |
 | Rooted devices | Supported |  N/A |
 | Require the device to be at or under the device threat level | Not supported |  N/A |
 | [**Google Play Protect**](/mem/intune/protect/compliance-policy-create-android#device-health) | -- | -- |
-| Google Play Services is configured | Not supported | Google play is not installed on Teams Android devices. |
-| Up-to-date security provider | Not supported | Google play is not installed on Teams Android devices. |
-| Threat scan on apps | Not supported | Google play is not installed on Teams Android devices. |
-| SafetyNet device attestation | Not supported | Google play is not installed on Teams Android devices.|
+| Google Play Services is configured | Not supported | Google play isn't installed on Teams Android devices. |
+| Up-to-date security provider | Not supported | Google play isn't installed on Teams Android devices. |
+| Threat scan on apps | Not supported | Google play isn't installed on Teams Android devices. |
+| SafetyNet device attestation | Not supported | Google play isn't installed on Teams Android devices.|
 | [**Device properties**](/mem/intune/protect/compliance-policy-create-android#device-properties) | -- | -- |
 | Operating System Version (minimum, maximum) | Supported |  N/A |
 [**System security**](/mem/intune/protect/compliance-policy-create-android#system-security) | -- | -- |
@@ -122,10 +127,10 @@ administrator. |
 | Restricted apps | Not supported |  N/A |
 | Block USB debugging on device | Supported |  N/A|
 [**All Android devices*](/mem/intune/protect/compliance-policy-create-android#all-android-devices) | -- | -- |
-|Maximum minutes of inactivity before password is required | Not supported |  N/A |
+|Maximum minutes of inactivity before password are required | Not supported |  N/A |
 | Require a password to unlock mobile devices | Not supported | N/A |
-| [**Androud 10 and later**](/mem/intune/protect/compliance-policy-create-android#android-10-and-later) | -- | -- |
-| [**Androud 9 and earlier or Samsung Knox**](/mem/intune/protect/compliance-policy-create-android#android-9-and-earlier-or-samsung-knox) | -- | -- |
+| [**Android 10 and later**](/mem/intune/protect/compliance-policy-create-android#android-10-and-later) | -- | -- |
+| [**Android 9 and earlier or Samsung Knox**](/mem/intune/protect/compliance-policy-create-android#android-9-and-earlier-or-samsung-knox) | -- | -- |
 |Required password type |Not supported | N/A|
 
 ---

@@ -16,10 +16,9 @@ description: Learn about recommended Conditional Access and Intune device compli
 
 # Conditional Access and Intune compliance policies for Microsoft Teams Rooms
 
-This article provides supported Conditional Access and Intune device compliance policies for Microsoft Teams Rooms on Windows and on Android, as well as best
-practices and requirements for Teams Rooms devices that are used in shared spaces.
+This article provides requirements and best practices for Conditional Access and Intune device compliance policies for Microsoft Teams Rooms that are used in shared spaces.
 
-## Before you begin
+## Requirements
 
 Teams Rooms must already be deployed on the devices you want to assign
 Conditional Access policies to. If you haven’t deployed Teams Rooms yet,
@@ -30,13 +29,9 @@ for more information.
 An Azure Active Directory P1 Service Plan is required to use Conditional
 Access. It’s included in the Microsoft Teams Rooms license.
 
-## Teams Rooms Conditional Access best practices 
+## Teams Rooms Conditional Access best practices
 
-When Teams Rooms are used in shared spaces, they need to be secured so
-that they can be safely accessed by different users. Conditional Access
-policies can be used to secure them. For an overview of Conditional
-Access in Azure Active Directory (Azure AD), see [What is Conditional
-Access in Azure Active Directory?](/azure/active-directory/conditional-access/overview).
+Conditional Access policies can secure the sign-in process on devices that are in shared spaces and used by multiple people. For an overview of Conditional Access in Azure Active Directory (Azure AD), see [What is Conditional Access in Azure Active Directory?](/azure/active-directory/conditional-access/overview).
 
 When using Conditional Access to secure Teams Rooms, consider the
 following best practices:
@@ -48,19 +43,15 @@ following best practices:
 -   Have a naming standard for all Teams Rooms resource accounts. For
     example, the account names ‘mtr-room1@contoso.com’ and
     ‘mtr-room2@contoso.com’ both start with the prefix ‘mtr-‘.
-    Standardizign account names lets you use dynamic groups in Azure AD
+    When account names are standardized, you can use dynamic groups in Azure AD
     to automatically apply Conditional Access policies to all of these
     accounts at once. See [Rules for dynamically populated groups membership](/azure/active-directory/enterprise-users/groups-dynamic-membership) for more information on dynamic groups.
 
-For a list of supported Conditional Access policies for Teams Rooms, see [Supported Conditional Access policies](supported-ca-and-compliance-policies.md#supported-conditional-access-policies).
+For a list of supported Conditional Access assignments for Teams Rooms, see [Supported Conditional Access policies](supported-ca-and-compliance-policies.md#supported-conditional-access-policies).
 
 ## Example Conditional Access policy
- 
-[Add images]
 
-In this example, using some of the <u>policies recommended</u> above,
-you can build a Conditional Access policy. In the example below, the
-Conditional Access policy works as follows: 
+In the example below, the Conditional Access policy works as follows:
 
 1.  The account signing in must be a member of a specific user group, in
     this example, the “Shared devices” group.
@@ -86,21 +77,18 @@ marked as compliant, such as minimum operating system version. Devices
 must be considered compliant before they can be used to sign into a
 resource account.
 
-For a list of supported Intune device compliance policies for Teams Rooms, see [Supported device compliance policies](supported-ca-and-compliance-policies.md#supported-device-compliance-policies).
+For a list of supported Intune compliance policies for Teams Rooms, see [Supported device compliance policies](supported-ca-and-compliance-policies.md#supported-device-compliance-policies).
 
-## Example (Windows only): Conditional Access with Intune device compliance 
+For more information on setting up Intune with Teams Android devices, see [Configure Intune to enroll Teams Android-based devices](phones-displays-deploy.md#configure-intune-to-enroll-teams-android-based-devices).
 
-[Add images]
+## Example (Windows only): Conditional Access with Intune device compliance
 
-Require that a firewall is running on Teams Rooms on Windows
+In this example for Teams Rooms on Windows
 
-1.  Also require that Microsoft Defender is running on Teams Rooms. 
+1. Require that a firewall is running on Teams Rooms on Windows.
 
-2.  If either of these evaluates as false, immediately return a
-    non-compliant designation 
+2. Require that Microsoft Defender is running on Teams Rooms.
 
-3.  This compliance policy applies to all users, not just Teams Rooms
-    Resource accounts. 
+3. If a Teams Room doesn't meet either of these requirements, it won't be marked as compliant, and the devices won't sign in.
 
-> [!NOTE]
-> For further guidance on setting up Intune with Teams android devices, see [Configure Intune to enroll Teams Android-based devices](phones-displays-deploy.md#configure-intune-to-enroll-teams-android-based-devices).
+This compliance policy applies to all users, not just Teams resource accounts.
