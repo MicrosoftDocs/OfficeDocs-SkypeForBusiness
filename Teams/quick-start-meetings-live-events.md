@@ -27,7 +27,7 @@ appliesto:
 
 There are multiple ways to meet in Microsoft Teams: meetings, webinars, and live events. 
 
-This article, intended for administrators and IT Pros, briefly describes the differences between meetings, webinars, and live events. It then provides links to the information you need to quickly roll out this functionality for your users.
+This article, intended for administrators and IT Pros, describes the differences between meetings, webinars, and live events. It then provides links to the information you need to quickly roll out this functionality for your users.
 
 > [!Note]
 > For details about quickly configuring Teams meetings and events on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
@@ -37,7 +37,7 @@ This article, intended for administrators and IT Pros, briefly describes the dif
 
 The different types of meetings also have different participant limits and participant capabilities. 
 
-The following table briefly summarizes the three types of meetings, the number of recommended participants, and how participants can interact in the meeting. Sections with more information about each type of meeting follow the table. This article also includes a section on [best practices for large meetings](#best-practices-for-large-meetings).
+The following table summarizes the three types of meetings, the number of recommended participants, and how participants can interact in the meeting. Sections with more information about each type of meeting follow the table. This article also includes a section on [best practices for large meetings](#best-practices-for-large-meetings).
 <br><br>
 
 | Type of meeting | Number of participants | Interaction | Registration supported |
