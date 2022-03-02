@@ -3,7 +3,7 @@ title: "Meeting room guidance for Teams"
 author: amandafrechinjackson
 ms.author: v-amandaf
 manager: jsarrasin
-ms.date: 2/1/2022
+ms.date: 2/2/2022
 ms.topic: conceptual
 audience: ITPro
 ms.service: msteams
@@ -25,9 +25,9 @@ appliesto:
 
 This article is intended to guide users on how to optimize meeting spaces with Microsoft Teams Rooms solutions and devices. It includes information on Teams Rooms device and solution uses, layouts, and specifications.
 
-# [Overview](#tab/overview)
+# [Meeting room uses and layouts](#tab/uses)
 
-## Meeting room uses and layouts
+## Overview
 
 Microsoft Teams Rooms solutions offer flexibility of purpose and even flexibility of movement throughout a space that traditional meeting rooms do not. For example, with Teams Rooms devices, users can enhance their collaboration with a digital whiteboard, and intelligent people-tracking cameras make sure every local participant can be seen no matter where they are in the room. Any type of space and any type of meeting can be optimized with Teams Rooms devices or Teams Rooms solutions.
 
