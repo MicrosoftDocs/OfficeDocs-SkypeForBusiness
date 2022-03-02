@@ -12,6 +12,7 @@ f1.keywords:
   - NOCSH
 ms.collection: 
   - M365-voice
+ms.topic: reference
 search.appverid: MET150
 description: "This article provides guidance on how to enable check-in and room release Teams panels devices."
 ---
