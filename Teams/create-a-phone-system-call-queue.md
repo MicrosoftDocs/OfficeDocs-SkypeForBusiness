@@ -64,15 +64,19 @@ Click **Add accounts**, search for the resource account that you want to use wit
 
 For more information, see [Manage Teams resource accounts](manage-resource-accounts.md).
 
-### Assign calling ID
+### Dynamic Calling ID
 
 ![Screenshot of calling ID settings.](media/call-queue-assign-calling-id.png)
 
-If you plan to use a Teams channel for your call agents, you can assign an outbound caller ID number for the agents by specifying one or more resource accounts with a phone number.
+<b>Available for Teams channel/collaborative calling desktop users and Teams mobile client users</b>
+
+If you plan to use a Teams channel for your call agents or if your agents are using the Teams mobile client with standard call queues, you can assign an outbound caller ID number for the agents by specifying one or more resource accounts with a phone number.
 
 Click **Add**, search for the resource accounts that you want to allow agents to for calling ID purposes when making outbound calls, click **Add**, and then click **Add**.
 
-If you are not using a Teams channel to control agent membership, consider directly setting the caller ID for members of the call queue to the service number of the call queue or appropriate auto attendant. For more information, see [Manage caller ID policies in Microsoft Teams](caller-id-policies.md).
+For Teams desktop users and standard call queues consider directly setting the caller ID for members of the call queue to the service number of the call queue or appropriate auto attendant. For more information, see [Manage caller ID policies in Microsoft Teams](caller-id-policies.md).
+
+**Please see the [Call Queue Feature Compatibility](#call-queue-feature-compatibility) matrix below for more information.
 
 > [!NOTE]
 > The resource account used for calling ID purposes must have a Microsoft Teams Phone System Virtual User license and one of the following assigned:
@@ -221,6 +225,41 @@ The following settings are recommended:
 - **Routing method** to **Round robin** or **Longest idle**
 - **Presence-based routing** to **On**
 - **Agent alert time:** to **20 seconds**
+
+
+## Call queue feature compatibility
+
+|Feature                          |Teams Desktop<sup>1</sup> |Teams Mobile<sup>2</sup> |Lync |IP Phones | Standard Call Queues |Channel Based Call Queues | Comment |
+|:--------------------------------|:------------------------:|:-----------------------:|:---:|:--------:|:--------------------:|:------------------------:|:-------------|
+|**Agent Routing Methods**        |                          |                         |     |          |                      |                          |              |
+|`Attendant Routing`              |Y                         |Y                        |Y    |Y         |Y                     |Y                         |*Default*     |
+|`Longest Idle`<sup>3</sup>       |Y                         |Y                        |N    |Y         |Y                     |Y                         |*Recommended* |
+|`Round Robin`                    |Y                         |Y                        |Y    |Y         |Y                     |Y                         |*Recommended* |
+|`Serial`                         |Y                         |Y                        |Y    |Y         |Y<sup>4</sup>         |Y<sup>4</sup>             |              |
+|**Transfer Modes**               |                          |                         |     |          |                      |                          |              |
+|`Conference Mode`                |Y                         |Y                        |N    |Y<sup>5</sup>|Y                  |Y                         |*Recommended* |
+|`Transfer Mode`                  |Y                         |Y                        |Y    |Y         |Y                     |Y                         |              |
+|Presence Based Routing<sup>3</sup>|Y                        |Y                        |N    |Y         |Y                     |Y                         |*Recommended* |
+|Agents can Opt-out               |Y                         |Y                        |Y<sup>6</sup>|Y<sup>6</sup>|Y          |Y                         |*Default*     |
+|Channel Based Queues             |Y                         |N                        |N    |N         |n/a                   |Y<sup>7</sup>             |              |
+|Call shows Resource Account Name |Y<sup>8</sup>             |Y                        |Y    |          |Y                     |Y                         |              |
+|Dynamic calling ID               |                          |                         |     |          |                      |                          |              |
+|`Standard call queue`            |N                         |Y                        |N    |N         |Y                     |n/a                       |              |
+|`Channel based call queue`       |Y                         |n/a                      |n/a  |n/a       |n/a                   |Y                         |              |
+|PSTN Options                     |                          |                         |     |          |                      |                          |See Note 8    |
+|`Calling Plans`                  |Y                         |Y                        |Y    |Y         |Y                     |Y                         |              |
+|`Direct Routing`                 |Y                         |Y                        |N    |N         |Y                     |Y                         |              |
+|`Operator Connect`               |Y                         |Y                        |     |          |Y                     |Y                         |              |
+
+Notes:
+1. Microsoft Teams Windows client, Microsoft Teams Mac Client, Microsoft Teams on Virtualized Desktop Infrastructure, Microsoft Teams Web client.
+2. Microsoft Teams iPhone app, Microsoft Teams Android app.
+3. Selecting Longest Idle for the agent routing method will automatically enable Presence based routing.
+4. Can only set the order when adding individual users as part of standard call queues. When a distribution list or Teams Channel is used order will be alphabetical.
+5. Microsoft Teams phone only.
+6. Via the User Settings Portal page at https://aka.ms/vmsettings
+7. Only public channels are supported.
+8. Auto Attendants and Call Queues cannot transfer calls between PSTN connectivity methods.
 
 ## Supported clients
 
