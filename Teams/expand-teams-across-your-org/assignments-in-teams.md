@@ -172,3 +172,25 @@ You can also use Teams policies to remove Assignments and Grades for a specific 
 To remove Assignments and Grades for an individual user, go to **Teams Admin Center** and navigate to **Teams apps > Permission policies** to create a new app permission policy definition.  When creating the new policy definition, set the **Microsoft apps** policy to _Block specific apps and allow all others_ and add **Assignments** to the list of blocked applications. Once your new policy definition is saved, assign it to the appropriate users.
 
 To remove Assignments and Grades for your entire tenant, go to **Teams Admin Center**, navigate to **Teams apps > Manage apps**, and search for and select **Assignments** from the application list. Change the status setting within the Assignment application settings page to _Blocked_.
+
+## Assignments debug tool for users
+
+We have created a debugging tool to collect required data for the Microsoft engineering team to investigate issues related to the Assignments feature.
+
+This tool can be accessed inside of Assignments on any screen the users experience an issue.
+
+To pull up the debug tool, users can:
+
+- **On Teams desktop and web:** Select Ctrl+/
+- **On mobile devices:** Use two fingers and rotate half or three pinches in 15 seconds
+
+Once the debug tool pops up, users will see a list of data that may be needed by Microsoft technical support.
+
+The data pulled can include:
+
+- Group ID
+- Tenant ID
+- Session ID
+- Assignment ID
+- Submission ID
+- User ID
