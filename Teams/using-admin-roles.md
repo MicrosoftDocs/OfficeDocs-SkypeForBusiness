@@ -34,7 +34,7 @@ Using Azure Active Directory (Azure AD), you can designate administrators who ne
 There are several Teams admin roles available: Teams administrator, Teams communications administrator, Teams communications support specialist, Teams communications support engineer, and Teams Device Administrator. Review the following table to understand what each role can do and which tools the admin can use in the Microsoft Teams admin center and PowerShell.
 
 > [!NOTE]
-> **Skype for Business Online Admin** have access to manage policies of **Teams** app through **Microsoft Teams PowerShell module**. We are working on fixing this issue in future updates and recommend you to refrain from managing policies of **Teams** app through **Microsoft Teams PowerShell module**. 
+> **Skype for Business Online Admins** can manage both **Teams** and **Skype for Business Online** app policies through PowerShell module for now. **Microsoft** is working on separating out these capabilities in future updates. 
 
 To follow along, you must be an admin. The instructions for getting the permissions are in this article.
 
