@@ -1,5 +1,5 @@
 ---
-title: "Create a call queue in Microsoft Teams - small business tutorial"
+title: Create a call queue in Microsoft Teams Phone System - small business tutorial
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,9 +21,9 @@ f1.keywords:
 ms.custom: 
   - ms.teamsadmincenter.callqueues.overview"
   - Phone System
-description: Learn how to set up call queues for small businesses in Microsoft 365 Teams Phone with Calling Plan.
+description: Learn how to set up call queues for small and medium businesses in Microsoft Teams Phone System.
 ---
-# Create a call queue - small business tutorial
+# Create a call queue - small and medium business tutorial
 
 Call queues provide a method of routing callers to people in your organization who can help with a particular issue or question. Calls are distributed one at a time to the people in the queue (who are known as *agents*).
 
@@ -45,7 +45,7 @@ This video demonstrates how to create a call queue in Microsoft Teams.
 
 ## Before you begin
 
-Get some [Phone System - Virtual User licenses](../teams-add-on-licensing/virtual-user.md) if you don't already have them. Get one for each call queue and auto attendant that you plan to set up. These licenses are free, so we suggest getting a few extra in case you decide to make changes to your setup in the future.
+Get some [Microsoft Teams Phone Standard - Virtual User licenses](../teams-add-on-licensing/virtual-user.md) if you don't already have them. Get one for each call queue and auto attendant that you plan to set up. These licenses are free, so we suggest getting a few extra in case you decide to make changes to your setup in the future.
 
 Since agents in a call queue may dial out to return a customer call, consider setting the caller ID for your call agents to your main phone number or the number of an appropriate auto attendant. See [Manage caller ID policies in Microsoft Teams](../caller-id-policies.md) for more information.
 
@@ -53,7 +53,7 @@ Since agents in a call queue may dial out to return a customer call, consider se
 
 ## Follow these steps to set up your call queue
 
-### [Step 1<br>Create a team](#tab/create-team)
+### [Step 1 - Create a team](#tab/create-team)
 
 When creating a call queue, you can add individual users to the queue, or you can use an existing security group, Microsoft 365 group, or Microsoft Teams team. We recommend [using a team channel](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e). This allows members of the queue to chat with each other, share ideas, and create documents or other resources to help them help your customers. A team also provides a voice mailbox for callers to leave a message after hours or if the queue reaches its maximum capacity.
 
@@ -88,9 +88,9 @@ To add a channel
 > [!div class="nextstepaction"]
 > [Step 2 - Resource accounts >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=resource-account#steps)
 
-### [Step 2<br>Resource accounts](#tab/resource-account)
+### [Step 2 - Resource accounts](#tab/resource-account)
 
-Each call queue that you create requires a resource account. This is similar to a user account, except the account is associated with an auto attendant or call queue instead of a person. In this step, we'll create the account, assign it a *Microsoft 365 Phone System - Virtual User* license, and then use it to start creating the call queue.
+Each call queue that you create requires a resource account. This is similar to a user account, except the account is associated with an auto attendant or call queue instead of a person. In this step, we'll create the account, assign it a *Microsoft Teams Phone Standard - Virtual User* license, and then use it to start creating the call queue.
 
 #### Create a resource account
 
@@ -108,11 +108,11 @@ You can create a resource account in the Teams admin center.
 
 #### Assign a license
 
-You must assign a *Microsoft 365 Phone System - Virtual User* license to the resource account.
+You must assign a *Microsoft Teams Phone Standard - Virtual User* license to the resource account.
 
 1. In the Microsoft 365 admin center, in the **Active users** list, click the resource account to which you want to assign a license.
 
-2. On the **Licenses and Apps** tab, under **Licenses**, select **Microsoft 365 Phone System - Virtual User**.
+2. On the **Licenses and Apps** tab, under **Licenses**, select **Microsoft Teams Phone Standard - Virtual User**.
 
 3. Click **Save changes**.
 
@@ -141,7 +141,7 @@ Next, we'll start creating a new call queue and assign the resource account.
 > [!div class="nextstepaction"]
 > [Step 3 - Call agents >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-agents#steps)
 
-### [Step 3<br>Call agents](#tab/call-agents)
+### [Step 3 - Call agents](#tab/call-agents)
 
 To add agents to the call queue, we'll add them to the team and channel that we created earlier. You need to be a member of the team to do this.
 
@@ -156,7 +156,7 @@ To add agents to the call queue, we'll add them to the team and channel that we 
 > [!div class="nextstepaction"]
 > [Step 4 - Resource accounts >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-routing#steps)
 
-### [Step 4<br>Call routing](#tab/call-routing)
+### [Step 4 - Call routing](#tab/call-routing)
 
 Choose the call routing method that you want to use.
 
@@ -181,7 +181,7 @@ Choose the call routing method that you want to use.
 > [!div class="nextstepaction"]
 > [Step 5 - Call overflow >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-overflow#steps)
 
-### [Step 5<br>Call overflow](#tab/call-overflow)
+### [Step 5 - Call overflow](#tab/call-overflow)
 
 Choose how you want to handle calls that exceed the maximum in the queue.
 
@@ -196,7 +196,7 @@ Choose how you want to handle calls that exceed the maximum in the queue.
 > [!div class="nextstepaction"]
 > [Step 6 - Call timeout >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-timeout#steps)
 
-### [Step 6<br>Call timeout](#tab/call-timeout)
+### [Step 6 - Call timeout](#tab/call-timeout)
 
 Choose what you want to happen when calls have been waiting in the queue for too long.
 
@@ -210,6 +210,6 @@ Choose what you want to happen when calls have been waiting in the queue for too
 
 3. Click **Save**.
 
-This completes the setup of your call queue. Next, you may want to [set up an auto attendant](create-a-phone-system-auto-attendant-smb.md).
+This completes the setup of your call queue. Next, you may want to [set up an auto attendant](set-up-auto-attendant.md).
 
 ---
