@@ -175,18 +175,21 @@ To remove Assignments and Grades for your entire tenant, go to **Teams Admin Cen
 
 ## Assignments debug tool for users
 
-We have created a debugging tool to collect required data for the Microsoft engineering team to investigate issues related to the Assignments feature.
+We have created a debugging tool to collect data for the Microsoft engineering team to investigate issues related to the Assignments feature.
 
 This tool can be accessed inside of Assignments on any screen the users experience an issue.
 
-To pull up the debug tool, users can:
+To pull up the debug tool in Teams, users can:
 
-- **On Teams desktop and web:** Select Ctrl+/
-- **On mobile devices:** Use two fingers and rotate half or three pinches in 15 seconds
+- **On desktop and web:**
+  - Select Ctrl+/
+- **On mobile devices:**
+  - Touch the screen with two fingers and rotate fingers 45 degrees, or
+  - Tap on the screen with three fingers for 15 seconds
 
 Once the debug tool pops up, users will see a list of data that may be needed by Microsoft technical support.
 
-The data pulled can include:
+The data pulled may include:
 
 - Group ID
 - Tenant ID
