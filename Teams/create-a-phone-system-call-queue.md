@@ -44,6 +44,8 @@ Call queues provide:
 
 Be sure you have read [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started) before you follow the procedures in this article.
 
+**See the [Call Queue Feature Compatibility](#call-queue-feature-compatibility) matrix below for more information.**
+
 ## Video demonstration
 
 This video shows a basic example of how to create a call queue in Teams.
@@ -77,8 +79,6 @@ Click **Add**, search for the resource accounts that you want to allow agents to
 **Standard Call Queues**
 
 For Teams desktop users and standard call queues consider directly setting the calling ID for members of the call queue to the service number of the call queue or appropriate auto attendant. For more information, see [Manage caller ID policies in Microsoft Teams](caller-id-policies.md).
-
-See the [Call Queue Feature Compatibility](#call-queue-feature-compatibility) matrix below for more information.
 
 > [!NOTE]
 > The resource account used for calling ID purposes must have a Microsoft Teams Phone System Virtual User license and one of the following assigned:
