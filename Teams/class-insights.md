@@ -245,7 +245,7 @@ There are two types of data collected by insights:
 * **Comingled data** – data which is generated as part of the class learning activities.
 * **Non-comingled (private) data** – data that is collected by the students activity in Teams for education that is not part of the class learning activity. 
 
-The full data collected by insights is listed [here](class-insights.md#Data-collection).
+The full data collected by insights is listed [here](class-insights.md#data-collection).
 
 In order to provide completeness and integrity of the data for past time frames to educator and education leaders, by default Insights does not automatically delete data from the service when a student or educator user accounts are closed. The IT Admin of the organization can request manual delete of a user (educator or student) data, by taking the following steps:
 * Open a [support ticket](https://aka.ms/edusupport). The support ticket must state clearly the request for a GDPR Delete DSR operation and contain the user object ID to be deleted.
