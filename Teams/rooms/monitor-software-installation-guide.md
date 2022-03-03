@@ -114,7 +114,7 @@ The Enrollment process involves a few steps:
 1. Install the agent installer (downloaded in step 2) on MTR units, either by running the MSI locally on an MTR device or via your normal means of publishing MSI applications en masse to devices within your environment (Group-Policy etc.)  
 1. The room appears in the portal within 5-10 minutes. If it does not, contact managedroomsupport@microsoft.com.  
 
-![Screenshot of settings and self-enrollment keys.](../media/software-installation-005new.png)
+   ![Screenshot of settings and self-enrollment keys.](../media/software-installation-005new.png)
 
 > [!NOTE]
  >  In case you need to install the agent without the Teams App on the MTR being able to login to Teams. You can use our enrollment key as an optional process.
