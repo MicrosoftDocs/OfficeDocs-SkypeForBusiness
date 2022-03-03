@@ -243,11 +243,11 @@ The following settings are recommended:
 |Presence Based Routing<sup>3</sup>|Y                        |Y                        |N    |Y         |Y                     |Y                         |*Recommended* |
 |Agents can Opt-out               |Y                         |Y                        |Y<sup>7</sup>|Y<sup>7</sup>|Y          |Y                         |*Default*     |
 |Channel Based Queues             |Y                         |N                        |N    |N         |n/a                   |Y<sup>8</sup>             |              |
-|Call shows Resource Account Name |Y<sup>8</sup>             |Y                        |Y    |          |Y                     |Y                         |              |
+|Call toast shows Resource Account Name |Y<sup>9</sup>             |Y                        |Y    |          |Y                     |Y                         |              |
 |**Dynamic calling ID**           |                          |                         |     |          |                      |                          |              |
 |`Standard call queue`            |N                         |Y                        |N    |N         |Y                     |n/a                       |              |
 |`Channel based call queue`       |Y                         |n/a                      |n/a  |n/a       |n/a                   |Y                         |              |
-|**PSTN Connectivity Methods**    |                          |                         |     |          |                      |                          |See Note 9    |
+|**PSTN Connectivity Methods**    |                          |                         |     |          |                      |                          |See Note 10   |
 |`Calling Plans`                  |Y                         |Y                        |Y    |Y         |Y                     |Y                         |              |
 |`Direct Routing`                 |Y                         |Y                        |N    |N         |Y                     |Y                         |              |
 |`Operator Connect`               |Y                         |Y                        |     |          |Y                     |Y                         |              |
@@ -261,7 +261,8 @@ Notes:
 6. Microsoft Teams phone only.
 7. Via the User Settings Portal page at https://aka.ms/vmsettings
 8. Only public channels are supported.
-9. Auto Attendants and Call Queues cannot transfer calls between PSTN connectivity methods.
+9. Excluding Teams Web client.
+10. Auto Attendants and Call Queues cannot transfer calls between PSTN connectivity methods.
 
 
 ## Supported clients
