@@ -76,7 +76,7 @@ You can take action to review and create standards from these discovered devices
 
 Plan rooms with standards for meetings expansion using the **Room planner** wizard.
 
-**To launch the room planner with guided experience**
+To launch the room planner with guided experience:
 
 1. From the left-hand navigation, Select Inventory, then choose **Plan Rooms**.
 
