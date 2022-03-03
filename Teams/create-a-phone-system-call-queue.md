@@ -68,16 +68,16 @@ For more information, see [Manage Teams resource accounts](manage-resource-accou
 
 ![Screenshot of calling ID settings.](media/call-queue-assign-calling-id.png)
 
-**Available for Teams channel/collaborative calling desktop users and Teams mobile client users**
+**Available for Teams channel/collaborative calling desktop users and Teams mobile client users with standard call queues**
 
-If you plan to use a Teams channel for your call agents or if your agents are using the Teams mobile client with standard call queues, you can assign an outbound caller ID number for the agents by specifying one or more resource accounts with a phone number.
+You can assign outbound calling ID numbers for the agents by specifying one or more resource accounts with a phone number. Agents can select which outbound calling ID number to use with each outbound call they make.
 
 Click **Add**, search for the resource accounts that you want to allow agents to for calling ID purposes when making outbound calls, click **Add**, and then click **Add**.
 
 **Standard Call Queues**
-For Teams desktop users and standard call queues consider directly setting the caller ID for members of the call queue to the service number of the call queue or appropriate auto attendant. For more information, see [Manage caller ID policies in Microsoft Teams](caller-id-policies.md).
+For Teams desktop users and standard call queues consider directly setting the calling ID for members of the call queue to the service number of the call queue or appropriate auto attendant. For more information, see [Manage caller ID policies in Microsoft Teams](caller-id-policies.md).
 
-Please see the [Call Queue Feature Compatibility](#call-queue-feature-compatibility) matrix below for more information.
+See the [Call Queue Feature Compatibility](#call-queue-feature-compatibility) matrix below for more information.
 
 > [!NOTE]
 > The resource account used for calling ID purposes must have a Microsoft Teams Phone System Virtual User license and one of the following assigned:
@@ -158,9 +158,9 @@ Agents' Teams accounts must be set to Teams-only mode. Agents who don't meet the
 
 - **Attendant routing** rings all agents in the queue at the same time. The first call agent to pick up the call gets the call.
 
-- **Serial routing** rings all call agents one by one in the order specified in the **Call agents** list. If an agent dismisses or does not pick up a call, the call will ring the next agent and will try all agents until it is picked up or times out.
+- **Serial routing** rings all call agents one by one in the order specified in the **Call agents** list. If an agent dismisses or does not pick up a call, the call will ring the next agent. This will repeat until the call is picked up or times out.
 
-- **Round robin** balances the routing of incoming calls so that each call agent gets the same number of calls from the queue. This may be desirable in an inbound sales environment to assure equal opportunity among all the call agents.
+- **Round robin** balances the routing of incoming calls so that each call agent gets the same number of calls from the queue. This routing method may be desirable in an inbound sales environment to assure equal opportunity among all the call agents.
 
 - **Longest idle** routes each call to the agent who has been idle the longest time. An agent is considered idle if their presence state is Available. Agents whose presence state is not Available will not be eligible to receive calls until they change their presence to Available. 
 
@@ -214,7 +214,7 @@ You can choose to disconnect the call or redirect it to any of the call routing 
 
 **Call Timeout: maximum wait time** specifies the maximum time a call can be on hold in the queue before it is redirected or disconnected. You can specify a value from 0 seconds to 45 minutes.
 
-You can choose to disconnect the call or redirect it to one of the call routing destinations. For example, you might have the caller leave a voicemail for the agents in the queue. For external transfers, please refer to [Prerequisites](plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) for number formatting.
+You can choose to disconnect the call or redirect it to one of the call routing destinations. For example, you might have the caller leave a voicemail for the agents in the queue. For external transfers, refer to [Prerequisites](plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) for number formatting.
 
 When you have selected your call timeout options, click **Save**.
 
@@ -238,16 +238,16 @@ The following settings are recommended:
 |`Round Robin`                    |Y                         |Y                        |Y    |Y         |Y                     |Y                         |*Recommended* |
 |`Serial`                         |Y                         |Y                        |Y    |Y         |Y<sup>4</sup>         |Y<sup>4</sup>             |              |
 |**Transfer Modes**               |                          |                         |     |          |                      |                          |              |
-|`Conference Mode`                |Y                         |Y                        |N    |Y<sup>5</sup>|Y                  |Y                         |*Recommended* |
+|`Conference Mode`<sup>5</sup>    |Y                         |Y                        |N    |Y<sup>6</sup>|Y                  |Y                         |*Recommended* |
 |`Transfer Mode`                  |Y                         |Y                        |Y    |Y         |Y                     |Y                         |              |
 |Presence Based Routing<sup>3</sup>|Y                        |Y                        |N    |Y         |Y                     |Y                         |*Recommended* |
-|Agents can Opt-out               |Y                         |Y                        |Y<sup>6</sup>|Y<sup>6</sup>|Y          |Y                         |*Default*     |
-|Channel Based Queues             |Y                         |N                        |N    |N         |n/a                   |Y<sup>7</sup>             |              |
+|Agents can Opt-out               |Y                         |Y                        |Y<sup>7</sup>|Y<sup>7</sup>|Y          |Y                         |*Default*     |
+|Channel Based Queues             |Y                         |N                        |N    |N         |n/a                   |Y<sup>8</sup>             |              |
 |Call shows Resource Account Name |Y<sup>8</sup>             |Y                        |Y    |          |Y                     |Y                         |              |
 |**Dynamic calling ID**           |                          |                         |     |          |                      |                          |              |
 |`Standard call queue`            |N                         |Y                        |N    |N         |Y                     |n/a                       |              |
 |`Channel based call queue`       |Y                         |n/a                      |n/a  |n/a       |n/a                   |Y                         |              |
-|**PSTN Connectivity Methods**    |                          |                         |     |          |                      |                          |See Note 8    |
+|**PSTN Connectivity Methods**    |                          |                         |     |          |                      |                          |See Note 9    |
 |`Calling Plans`                  |Y                         |Y                        |Y    |Y         |Y                     |Y                         |              |
 |`Direct Routing`                 |Y                         |Y                        |N    |N         |Y                     |Y                         |              |
 |`Operator Connect`               |Y                         |Y                        |     |          |Y                     |Y                         |              |
@@ -257,10 +257,12 @@ Notes:
 2. Microsoft Teams iPhone app, Microsoft Teams Android app.
 3. Selecting Longest Idle for the agent routing method will automatically enable Presence based routing.
 4. Can only set the order when adding individual users as part of standard call queues. When a distribution list or Teams Channel is used order will be alphabetical.
-5. Microsoft Teams phone only.
-6. Via the User Settings Portal page at https://aka.ms/vmsettings
-7. Only public channels are supported.
-8. Auto Attendants and Call Queues cannot transfer calls between PSTN connectivity methods.
+5. Conference mode is not supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location Based Routing.
+6. Microsoft Teams phone only.
+7. Via the User Settings Portal page at https://aka.ms/vmsettings
+8. Only public channels are supported.
+9. Auto Attendants and Call Queues cannot transfer calls between PSTN connectivity methods.
+
 
 ## Supported clients
 
