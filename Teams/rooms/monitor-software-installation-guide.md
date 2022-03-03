@@ -108,37 +108,37 @@ mmrprodnoamstor.blob.core.windows.net
 The Enrollment process involves a few steps:  
 
 1. On the left navigation bar of the Microsoft Teams Rooms – Managed Services portal [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/), expand **Settings** and select **General**.  
-1. Under *Self-Enrollment keys*, select **Download installer** hyperlink https://aka.ms/serviceportalagentmsi to download the monitoring agent software.
+1. Under *Enroll a room*, select **Download installer**  to download the monitoring agent software.
 1. Select **Download Key**. Place the key file under the **C:\Rigel** folder on each device you are enrolling.  
 1. **Optional:** Set up proxy settings for the agent; see [Adding proxy settings (optional)](#adding-proxy-settings-optional).
 1. Install the agent installer (downloaded in step 2) on MTR units, either by running the MSI locally on an MTR device or via your normal means of publishing MSI applications en masse to devices within your environment (Group-Policy etc.)  
 1. The room appears in the portal within 5-10 minutes. If it does not, contact managedroomsupport@microsoft.com.  
 
-![Screenshot of settings and self-enrollment keys.](../media/software-installation-005.jpg)
+![Screenshot of settings and self-enrollment keys.](../media/software-installation-005new.png)
+
+> [!NOTE]
+ >  In case you need to install the agent without the Teams App on the MTR being able to login to Teams. You can use our enrollment key as an optional process.
+   - Go to ‘Help’ (?)  on the top right corner of the portal than select ‘Download Key’, when installing the agent Place the ‘Self-Enrollment key’ (previously downloaded from the portal) on the **C:\Rigel** directory of the device
 
 ## Installation
 
 After downloading the installer from Microsoft (either from the portal or by using the AKA.ms URL provided above), unzip its contents to access the file **ManagedRoomsInstaller.msi**.
 
-There are two modes of installation—individual local machine install and mass deploy mode (usually via group policy of similar method). We recommend individual install for non-domain joined machines or for machines that you have no way of running MSI installers remotely.  
+There are two modes of installation: 1) individual local machine install and 2) mass deploy mode (usually via group policy of similar method). We recommend individual install for non-domain joined machines or for machines that you have no way of running MSI installers remotely.  
 
-Due to the many varied ways in which customers can run MSI applications in mass deployment mode this document will only walk through installation in individual mode.  
-
- > [!NOTE]
- > The installer program flow is the same, no matter what mode is being run. The only slight difference is that the install does not request a user to press the next and close buttons in mass deploy mode.  
-
+Due to the many varied ways in which customers can run MSI applications in mass deployment mode this document walks through only installation in individual mode.  
 ## Individual Device&mdash;Domain-joined walkthrough
 
-1. Log in the device as administrator – ensure the *Performing operations as the Admin user of the device* steps are followed.
+1. Log into the device as administrator. Ensure the *Performing operations as the Admin user of the device* steps are followed.
 
-1. Copy the following files to the MTR device:
+1. Copy the file **ManagedRoomsInstaller.msi** to the MTR device.
 
-   - Place the ‘Self-Enrollment key’ (previously downloaded from the portal) on the **C:\Rigel** directory of the device.
-   - Copy the **ManagedRoomsInstaller.msi** (previously downloaded from the portal or from the AKA.MS) to the device.
+   On running the ***ManagedRoomsInstaller.msi*** is a License Agreement screen.
 
-1. On running the ***ManagedRoomsInstaller.msi***, you will see a License Agreement screen. After reading the agreement, check ***I accept the terms in the License Agreement*** and press the **Install** button.  
+1.  After reading the agreement, check ***I accept the terms in the License Agreement*** and press **Install**.  
 
     This begins the Microsoft Teams Rooms – Managed Services monitoring software install. A prompt for elevation (run as administrator) is displayed.
+
  1. Select ***Yes***.
 
     The installation will continue. During the installation procedure, a console window opens and begins the final stage of the Microsoft Teams Rooms – Managed Services monitoring software installation.  
