@@ -66,7 +66,7 @@ Click **Add accounts**, search for the resource account that you want to use wit
 
 For more information, see [Manage Teams resource accounts](manage-resource-accounts.md).
 
-### Dynamic Calling ID
+## Dynamic Calling ID
 
 ![Screenshot of calling ID settings.](media/call-queue-assign-calling-id.png)
 
