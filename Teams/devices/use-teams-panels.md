@@ -199,7 +199,7 @@ On the Teams Panel, sign in using your admin credentials.
 
 Check-in and room release settings let users check in to a meeting on Teams Panels at the room they reserved at the start of the meeting. If a user doesn’t check-in within a set amount of time after the meeting start time, the room is released and becomes available for others to reserve.
 
-When a Teams Panels is paired with a Microsoft Teams Room on Android, check-in notifications can be enabled to appear on the front0of-room display when meetings run late.
+When Teams Panels is paired with a Microsoft Teams Room on Android, check-in notifications can be enabled to appear on the front-of-room display when meetings run late.
 
 To enable check-in and room release, see [Check-in and room release on Microsoft Teams Panels](check-in-and-room-release.md).
 
