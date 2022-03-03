@@ -464,6 +464,8 @@ items:
               href: teams-analytics-and-reports/teams-live-event-usage-report.md
             - name: Teams information protection license report
               href: teams-analytics-and-reports/information-protection-license-report.md
+            - name: Teams Virtual Visits usage report
+              href: teams-analytics-and-reports/virtual-visits-usage-report.md
               
     - name: Log files, service health, and support
       items:
@@ -1038,7 +1040,7 @@ items:
   
     - name: Guidance for small and medium businesses
       items: 
-      - name: Phone System guidance for small and medium businesses
+      - name: Phone System guidance
         href: business-voice/whats-business-voice.md
       - name: Country and region availability
         href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
@@ -1046,7 +1048,7 @@ items:
         href: business-voice/get-ready-internet.md
       - name: Get help from a reseller or partner
         href: business-voice/reseller-partner-support.md
-      - name: Set up Phone System for small and medium businesses
+      - name: Set up Phone System
         items:
           - name: Overview
             href: business-voice/set-up-overview.md
@@ -1066,7 +1068,7 @@ items:
             href: business-voice/port-phone-numbers.md
           - name: "Post-setup resources"
             href: business-voice/set-up-finish.md
-      - name: Customize your Phone System setup for small and medium businesses
+      - name: Customize your Phone System setup
         items: 
           - name: Customization options
             href: business-voice/customize-business-voice.md
@@ -1080,7 +1082,7 @@ items:
             href: business-voice/create-a-phone-system-call-queue-smb.md
           - name: Set up an auto attendant
             href: business-voice/create-a-phone-system-auto-attendant-smb.md
-      - name: Manage your Phone System setup for small and medium businesses
+      - name: Manage your Phone System setup
         items: 
           - name: Create one or more users
             href: business-voice/create-users.md
@@ -1317,7 +1319,7 @@ items:
           items: 
             - name: Overview of Microsoft Teams Rooms planning
               href: rooms/rooms-plan.md
-            - name: Teams devices feature comparison between Windows and Android
+            - name: Teams devices feature comparison between Windows and Android
               href: rooms/teams-devices-feature-comparison.md
             - name: Meeting room guidance for Teams
               href: teams-meeting-room-guidance.md
@@ -1333,6 +1335,10 @@ items:
               href: rooms/security.md
             - name: Online Licensing
               href: rooms/rooms-licensing.md
+            - name: Best practices for Conditional Access and Intune compliance
+              href: rooms/conditional-access-and-compliance-for-devices.md
+            - name: Supported Conditional Access and Intune compliance policies
+              href: rooms/supported-ca-and-compliance-policies.md
             - name: Plan management with Azure Monitor
               href: rooms/azure-monitor-plan.md
         - name: Deploy
@@ -1439,6 +1445,8 @@ items:
                 href: devices/use-teams-panels.md
               - name: App support on Teams panels  
                 href: app-support-on-Teams-panels.md
+              - name: Check-in and room release 
+                href: devices/check-in-and-room-release.md
         - name: Upgrade Teams phones to Teams displays
           href: devices/upgrade-phones-to-displays.md
         - name: Deploy Teams phones and Teams displays using Intune
@@ -1560,6 +1568,11 @@ items:
               href: expand-teams-across-your-org/bookings-virtual-visits.md
             - name: Manage the Bookings app
               href: bookings-app-admin.md
+            - name: Manage the join experience on mobile browsers
+              href: expand-teams-across-your-org/mobile-browser-join.md
+            - name: Virtual Visits usage report
+              href: teams-analytics-and-reports/virtual-visits-usage-report.md             
+            
         - name: Shifts for Teams
           items: 
             - name: Get started with Shifts
@@ -1591,7 +1604,7 @@ items:
           href: edu-remote-low-bandwidth.md
         - name: Teams for education policy wizard
           href: easy-policy-setup-edu.md
-        - name: Deploy the Parents app for Teams
+        - name: Parent Connection in Teams for Education
           href: edu-parents-app.md
         - name: Career Coach app in Teams for Education
           href: career-coach.md
@@ -1678,6 +1691,8 @@ items:
               href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
             - name: Virtual Visits with Teams and Bookings
               href: expand-teams-across-your-org/bookings-virtual-visits.md
+            - name: Virtual Visits usage report
+              href: teams-analytics-and-reports/virtual-visits-usage-report.md  
             - name: Manage the join experience on mobile browsers
               href: expand-teams-across-your-org/mobile-browser-join.md              
         - name: View and assign policy packages
