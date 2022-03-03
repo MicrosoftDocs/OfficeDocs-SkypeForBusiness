@@ -17,9 +17,7 @@ ms.custom:
 
 # Microsoft Teams for Frontline
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/b98d533f-118e-4bae-bf44-3df2470c2b12]
-
-> [!VIDEO  https://support.microsoft.com/en-us/office/get-started-with-microsoft-teams-b98d533f-118e-4bae-bf44-3df2470c2b12?wt.mc_id=otc_microsoft_teams#]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWPCnz]
 
 Microsoft is committed to doing what we can, to address the economic and societal impact of Covid-19. We want to ensure your frontline workers have access to the technology resources and expertise they need in these challenging times.
 
