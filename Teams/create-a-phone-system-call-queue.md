@@ -66,7 +66,7 @@ Click **Add accounts**, search for the resource account that you want to use wit
 
 For more information, see [Manage Teams resource accounts](manage-resource-accounts.md).
 
-## Dynamic Calling ID
+## Dynamic Caller ID
 
 ![Screenshot of calling ID settings.](media/call-queue-assign-calling-id.png)
 
@@ -78,7 +78,7 @@ Click **Add**, search for the resource accounts that you want to allow agents to
 
 **Standard Call Queues**
 
-For Teams desktop users and standard call queues consider directly setting the calling ID for members of the call queue to the service number of the call queue or appropriate auto attendant. For more information, see [Manage caller ID policies in Microsoft Teams](caller-id-policies.md).
+For Teams desktop users and standard call queues consider directly setting the caller ID for members of the call queue to the service number of the call queue or appropriate auto attendant. For more information, see [Manage caller ID policies in Microsoft Teams](caller-id-policies.md).
 
 > [!NOTE]
 > The resource account used for calling ID purposes must have a Microsoft Teams Phone System Virtual User license and one of the following assigned:
@@ -244,8 +244,8 @@ The following settings are recommended:
 |Presence Based Routing<sup>3</sup>|Y                        |Y                        |N    |Y         |Y                     |Y                         |*Recommended* |
 |Agents can Opt-out               |Y                         |Y                        |Y<sup>7</sup>|Y<sup>7</sup>|Y          |Y                         |*Default*     |
 |Channel Based Queues             |Y                         |N                        |N    |N         |n/a                   |Y<sup>8</sup>             |              |
-|Call toast shows Resource Account Name |Y<sup>9</sup>             |Y                        |Y    |          |Y                     |Y                         |              |
-|**Dynamic calling ID**           |                          |                         |     |          |                      |                          |              |
+|Call toast shows Resource Account Name |Y<sup>9</sup>       |Y                        |Y    |          |Y                     |Y                         |              |
+|**Dynamic caller ID**            |                          |                         |     |          |                      |                          |              |
 |`Standard call queue`            |N                         |Y                        |N    |N         |Y                     |n/a                       |              |
 |`Channel based call queue`       |Y                         |n/a                      |n/a  |n/a       |n/a                   |Y                         |              |
 |**PSTN Connectivity Methods**    |                          |                         |     |          |                      |                          |See Note 10   |
