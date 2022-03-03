@@ -1319,7 +1319,7 @@ items:
           items: 
             - name: Overview of Microsoft Teams Rooms planning
               href: rooms/rooms-plan.md
-            - name: Teams devices feature comparison between Windows and Android
+            - name: Teams devices feature comparison between Windows and Android
               href: rooms/teams-devices-feature-comparison.md
             - name: Meeting room guidance for Teams
               href: teams-meeting-room-guidance.md
