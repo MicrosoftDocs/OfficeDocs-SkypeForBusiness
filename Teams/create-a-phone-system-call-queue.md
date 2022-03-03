@@ -68,12 +68,13 @@ For more information, see [Manage Teams resource accounts](manage-resource-accou
 
 ![Screenshot of calling ID settings.](media/call-queue-assign-calling-id.png)
 
-<b>Available for Teams channel/collaborative calling desktop users and Teams mobile client users</b>
+**Available for Teams channel/collaborative calling desktop users and Teams mobile client users**
 
 If you plan to use a Teams channel for your call agents or if your agents are using the Teams mobile client with standard call queues, you can assign an outbound caller ID number for the agents by specifying one or more resource accounts with a phone number.
 
 Click **Add**, search for the resource accounts that you want to allow agents to for calling ID purposes when making outbound calls, click **Add**, and then click **Add**.
 
+**Standard Call Queues**
 For Teams desktop users and standard call queues consider directly setting the caller ID for members of the call queue to the service number of the call queue or appropriate auto attendant. For more information, see [Manage caller ID policies in Microsoft Teams](caller-id-policies.md).
 
 **Please see the [Call Queue Feature Compatibility](#call-queue-feature-compatibility) matrix below for more information.
