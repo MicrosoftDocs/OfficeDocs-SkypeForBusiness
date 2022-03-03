@@ -243,10 +243,10 @@ The following settings are recommended:
 |Agents can Opt-out               |Y                         |Y                        |Y<sup>6</sup>|Y<sup>6</sup>|Y          |Y                         |*Default*     |
 |Channel Based Queues             |Y                         |N                        |N    |N         |n/a                   |Y<sup>7</sup>             |              |
 |Call shows Resource Account Name |Y<sup>8</sup>             |Y                        |Y    |          |Y                     |Y                         |              |
-|Dynamic calling ID               |                          |                         |     |          |                      |                          |              |
+|**Dynamic calling ID**           |                          |                         |     |          |                      |                          |              |
 |`Standard call queue`            |N                         |Y                        |N    |N         |Y                     |n/a                       |              |
 |`Channel based call queue`       |Y                         |n/a                      |n/a  |n/a       |n/a                   |Y                         |              |
-|PSTN Options                     |                          |                         |     |          |                      |                          |See Note 8    |
+|**PSTN Connectivity Methods**    |                          |                         |     |          |                      |                          |See Note 8    |
 |`Calling Plans`                  |Y                         |Y                        |Y    |Y         |Y                     |Y                         |              |
 |`Direct Routing`                 |Y                         |Y                        |N    |N         |Y                     |Y                         |              |
 |`Operator Connect`               |Y                         |Y                        |     |          |Y                     |Y                         |              |
