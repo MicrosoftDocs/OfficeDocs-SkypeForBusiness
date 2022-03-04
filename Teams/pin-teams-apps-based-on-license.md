@@ -34,7 +34,6 @@ Apps are pinned to the app bar, which is the bar on the side of the Teams deskto
 
 Apps pinned for users who have an F license:
 
-- Viva Connections
 - Activity
 - Chat
 - Teams
