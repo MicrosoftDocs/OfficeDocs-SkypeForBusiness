@@ -139,6 +139,7 @@ The following table describes which SBC vendors support [Local Media Optimizatio
 |        | AP 6300 | 8.4.0.0.0 |
 |        | AP 6350 | 8.4.0.0.0 | 
 |        | VME     | 8.4.0.0.0 |
+| [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Avaya Session Border Controller for Enterprise (ASBCE)    |  10.1.2 | 
 
 
 
