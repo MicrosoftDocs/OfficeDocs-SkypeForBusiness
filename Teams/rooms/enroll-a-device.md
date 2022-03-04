@@ -104,9 +104,9 @@ mmrprodemeastor.blob.core.windows.net<br>
 mmrprodnoamiot.azure-devices.net<br>
 mmrprodnoamstor.blob.core.windows.net
 
-## Process
+## Enrollment process
 
-The Enrollment process involves a few steps:  
+The Enrollment process involves these steps:  
 
 1. On the left navigation bar of the Microsoft Teams Rooms – Managed Services portal [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/), expand **Settings** and select **General**.  
 1. Under *Enroll a room*, select **Download installer**  to download the monitoring agent software.
@@ -141,7 +141,7 @@ Due to the many varied ways in which customers can run MSI applications in mass 
 
     This begins the Microsoft Teams Rooms – Managed Services monitoring software install. A prompt for elevation (run as administrator) is displayed.
 
- 1. Select ***Yes***.
+ 1. Select **Yes**.
 
     The installation will continue. During the installation procedure, a console window opens and begins the final stage of the Microsoft Teams Rooms – Managed Services monitoring software installation.  
 
@@ -170,7 +170,7 @@ To unenroll the device, remove the monitoring agent from the MTR device as follo
 1. Enter *Set-ExecutionPolicy –ExecutionPolicy RemoteSigned* , then press **Y** on next prompt.  
 1. Paste or type the full path to the unzipped offboarding script into the PowerShell window and press **Enter**.
 
-   For example:
+   Example:
 
    *C:\Users\admin\Downloads\MTRP\_Device\_Offboarding\MTRP\_Device\_Offboarding.ps1*  
 
