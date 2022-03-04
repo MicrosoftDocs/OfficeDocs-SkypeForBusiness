@@ -110,17 +110,14 @@ The Enrollment process involves these steps:
 
 1. On the left navigation bar of the Microsoft Teams Rooms – Managed Services portal [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/), expand **Settings** and select **General**.  
 1. Under *Enroll a room*, select **Download installer**  to download the monitoring agent software.
-1. Place the key file under the **C:\Rigel** folder on each device you are enrolling.  
 1. **Optional:** Set up proxy settings for the agent; see [Adding proxy settings (optional)](#adding-proxy-settings-optional).
 1. Install the agent installer (downloaded in step 2) on MTR units, either by running the MSI locally on an MTR device or via your normal means of publishing MSI applications en masse to devices within your environment (Group-Policy etc.)  
 1. The room appears in the portal within 5-10 minutes. If it does not, contact managedroomsupport@microsoft.com.  
 
    ![Screenshot of settings and self-enrollment keys.](../media/software-installation-005new.png)
-
-   > [!NOTE]
-   >  In case you need to install the agent without the Teams App on the MTR being able to login to Teams. You can use our enrollment key as an optional process.
  
-1. Go to  '?'  (Help) on the top right corner of the portal, then select 'Download Installer' when installing the agent Place the ‘Self-Enrollment key’ (previously downloaded from the portal) on the **C:\Rigel** directory of the device.
+> [!NOTE]
+In case you need to install the agent without the Teams App on the MTR being able to login to Teams. You can use our enrollment key as an optional process.Go to  '?'  (Help) on the top right corner of the portal, then select 'Download Installer' when installing the agent Place the ‘Self-Enrollment key’ (previously downloaded from the portal) on the **C:\Rigel** directory of the device.
 
 ## Installation
 
