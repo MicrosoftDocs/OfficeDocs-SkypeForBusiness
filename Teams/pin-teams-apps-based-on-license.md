@@ -61,7 +61,7 @@ This feature is on by default. However, if you don't want the tailored app exper
 
 ## Scenarios
 
-Use the information in this table to learn how the tailored app experience feature works in various scenarios, including when you've applied existing app setup policies.
+Use the information in this table to learn how the tailored app experience works in various scenarios, including when you've applied existing app setup policies.
 
 |If...  |Then... |
 |---------|---------|
