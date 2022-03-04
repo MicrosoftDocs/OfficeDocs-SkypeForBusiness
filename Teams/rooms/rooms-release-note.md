@@ -34,6 +34,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. See [Teams update proces
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|4.11.17.0 |3/3/2022 |
 |4.11.12.0 |1/24/2022 |
 |Teams Web-Client release | December 2021 |
 |Teams Web-Client release | October 2021 |
@@ -83,6 +84,11 @@ Teams Rooms is governed by the Modern Lifecycle Policy. See [Teams update proces
 |RTM (1.0.8) |12/7/2016 |
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
+
+### 4.11.17.0 (3/3/2022)
+
+Introduced in this update:
+- Bug fix for camera framing which will enhance all content in camera view.
 
 ### 4.11.12.0 (1/24/2022)
 
