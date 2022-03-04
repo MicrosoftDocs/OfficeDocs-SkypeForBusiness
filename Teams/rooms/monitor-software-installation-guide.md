@@ -118,7 +118,7 @@ The Enrollment process involves a few steps:
 
 > [!NOTE]
  >  In case you need to install the agent without the Teams App on the MTR being able to login to Teams. You can use our enrollment key as an optional process.
-   - Go to ‘Help’ (?)  on the top right corner of the portal than select ‘Download Key’, when installing the agent Place the ‘Self-Enrollment key’ (previously downloaded from the portal) on the **C:\Rigel** directory of the device
+   - Go to  '?'  (Help) on the top right corner of the portal than select 'Download Installer' when installing the agent Place the ‘Self-Enrollment key’ (previously downloaded from the portal) on the **C:\Rigel** directory of the device.
 
 ## Installation
 
