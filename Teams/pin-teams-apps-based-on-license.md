@@ -40,8 +40,10 @@ Apps pinned for users who have an F license:
 - Activity
 - Chat
 - Teams
-- Shifts
+- Walkie Talkie
 - Tasks
+- Shifts
+- Approvals
 
 ## Admin controls
 
@@ -63,7 +65,7 @@ Use the information in this table to learn how the tailored app experience featu
 
 |If...  |Then... |
 |---------|---------|
-|A user has the global app setup policy and the feature is on.     | The user gets the tailored app experience.        |
+|A user has the global app setup policy and the feature is on.     | The user gets the tailored app experience. The apps defined in the global app setup policy are still pinned and appear further down in the list of pinned apps.      |
 |A user has a custom app setup policy and the feature is on.    |The user gets the configuration that's defined in the custom app setup policy.          |
 |The feature is on and you update the global app setup policy.     |The user gets the tailored app experience based on their license. The apps defined in the global app setup policy are still pinned and appear further down in the list of   pinned apps.          |
 |The feature is turned off.   | The user gets the experience that's defined in the global app setup policy or custom app setup policy that's assigned to them.          |
