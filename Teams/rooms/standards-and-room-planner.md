@@ -66,7 +66,7 @@ Once you've completed the workflow, the standard is created successfully and pub
 
 Within Standards, select **Discovered Devices** to view all nonstandard discovered devices within your organization.
 
-![Screenshot of a room's discovered devices](../media/standards-and-room-planner-008.jpg)
+![Screenshot of a room's discovered devices](../media/standards-and-room-planner-008.png)
 
 You can take action to review and create standards from these discovered devices in your inventory.
 
