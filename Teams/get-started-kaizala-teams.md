@@ -48,7 +48,7 @@ As of July 1, 2020, Microsoft has ended sales of the Kaizala Pro standalone serv
 
 Download [Teams](https://www.microsoft.com/microsoft-teams/group-chat-software) from the app store, and access training and resources in our [help center](https://support.microsoft.com/teams?ui=en-us&rs=en-us&ad=us) to get started. You can also join the [Teams Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams/ct-p/MicrosoftTeams) to give feedback, vote on feature requests, and engage with an awesome community.
 
-## What can I do to prepare for the transition of Kaizala capabilities in Teams?
+## What can I do to prepare for the transition of Kaizala to Teams?
 
 Start using Teams today for solutions that can empower communication across your organization. Teams isn’t just an upgrade for Kaizala, it’s a powerful tool that opens the door to an entirely new way of doing business. Teams is uniquely positioned for various frontline worker user scenarios, thanks to the introduction of [Teams Essentials designed for small and mid-size businesses (SMB)](https://www.microsoft.com/microsoft-365/blog/2021/12/01/new-microsoft-teams-essentials-is-built-for-small-businesses/) and [the ability to collaborate with external users by entering the phone number or full email address with Teams for personal use](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832).
 

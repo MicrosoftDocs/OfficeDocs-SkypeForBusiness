@@ -18,7 +18,7 @@ ms.custom:
 
 # Navigate Microsoft Teams
 
-Now that you have a clear understanding of your organization’s unique path and needs, it's time to get started on your journey to powerful collaboration with Microsoft Teams. Use the following section to learn how to navigate Kaziala’s capabilities complimented within Teams.
+Now that you have a clear understanding of your organization’s unique path and needs, it's time to get started on your journey to powerful collaboration with Microsoft Teams. Use the following section to learn how to navigate Kaizala’s capabilities complimented within Teams.
 
 | From Kaizala | To Teams |
 |---------|-----------------------|
@@ -38,7 +38,7 @@ Now that you have a clear understanding of your organization’s unique path and
 | | [For end users](#end-user-guidance) |
 | Kaizala Group Dissolution| [Kaizala Group Dissolution](#kaizala-group-dissolution) |
 | Kaizala Tenant Data export| [Export Kaizala tenant data](#export-kaizala-tenant-data)  |
-| Collaborating with External Users (vendors/suppliers/partners)| [Add or invite people outside your Teams org to a chat](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57) |
+| Collaborating with External Users (vendors/suppliers/partners)| [Add or invite people outside your Teams org to a chat](#collaborating-with-external-usersvendorssupplierspartners) |
 
 ## Getting Started
 
