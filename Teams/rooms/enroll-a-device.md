@@ -1,5 +1,5 @@
 ﻿---
-title: Microsoft Teams Rooms Software Installation 
+title: Enroll a Teams Room device into Managed Services
 author: donnah007 
 ms.author: v-donnahill
 manager: serdars
@@ -21,32 +21,9 @@ f1keywords:
 
 
 
-# Monitor device software installation
+# Enroll device into Managed Service
 
 Deployment requires onboarding Microsoft Teams Rooms devices to the Microsoft Teams Rooms managed services. The monitoring service agent is for use with certified Microsoft Teams Room (MTR) systems and peripherals.
-
-## Performing operations as the Admin user of the MTR device
-
-Some configuration/installation procedures require you to log in to the device as Administrator.
-
-To log in to the device as Administrator (local administrator):
-
-1. Ensure you hang up any ongoing calls and return to the home screen.
-1. In the Microsoft Teams Room user interface, select  **More**,  then select **Settings**, where you're prompted for the local Administrator password on the device (the default password is ***sfb***).
-1. Select **Settings**, then select  **Windows Settings**  to access Windows as local administrator.  
-
-1. From the list of users displayed in the Windows login screen, select  **Administrator** (or the respective local administrator of your device).
-
-> [!NOTE]
-> If the computer is *domain joined*, choose **Other User**, then use **.\admin**, or the user name of the local administrator configured in the device as the user name.  
-
-To return to the Microsoft Teams Room app after performing the necessary administrative tasks:
-
-1. From the Windows ***Start menu***, sign out from the Admin account.
-1. Return to Microsoft Teams Room by selecting the user account icon on the far left side of the screen and then selecting **Skype**.
-
-> [!NOTE]
-> If the Skype user is not listed, select Other User and enter ***.\skype*** as the user name, and sign in.
 
 ## Prerequisites
 
@@ -80,7 +57,31 @@ If TPM on an Intel NUC device is disabled, enable TPM on these devices as follow
 1. Select **Security**.  
 1. On the right-hand side beneath Security Features, enable **Intel Platform Trust Technology**.  
 1. To save your settings, press **F10**.  
-1. In the confirmation box, select **Yes**.  
+1. In the confirmation box, select **Yes**. 
+## Performing operations as the Admin user of the MTR device
+
+Some configuration/installation procedures require you to log in to the device as Administrator.
+
+To log in to the device as Administrator (local administrator):
+
+1. Ensure you hang up any ongoing calls and return to the home screen.
+1. In the Microsoft Teams Room user interface, select  **More**,  then select **Settings**, where you're prompted for the local Administrator password on the device (the default password is ***sfb***).
+1. Select **Settings**, then select  **Windows Settings**  to access Windows as local administrator.  
+
+1. From the list of users displayed in the Windows login screen, select  **Administrator** (or the respective local administrator of your device).
+
+> [!NOTE]
+> If the computer is *domain joined*, choose **Other User**, then use **.\admin**, or the user name of the local administrator configured in the device as the user name.  
+
+To return to the Microsoft Teams Room app after performing the necessary administrative tasks:
+
+1. From the Windows ***Start menu***, sign out from the Admin account.
+1. Return to Microsoft Teams Room by selecting the user account icon on the far left side of the screen and then selecting **Skype**.
+
+> [!NOTE]
+> If the Skype user is not listed, select Other User and enter ***.\skype*** as the user name, and sign in.
+
+ 
 
 ## URLs Required for Communication
 
@@ -116,9 +117,10 @@ The Enrollment process involves a few steps:
 
    ![Screenshot of settings and self-enrollment keys.](../media/software-installation-005new.png)
 
-> [!NOTE]
- >  In case you need to install the agent without the Teams App on the MTR being able to login to Teams. You can use our enrollment key as an optional process.
-   - Go to  '?'  (Help) on the top right corner of the portal than select 'Download Installer' when installing the agent Place the ‘Self-Enrollment key’ (previously downloaded from the portal) on the **C:\Rigel** directory of the device.
+   > [!NOTE]
+   >  In case you need to install the agent without the Teams App on the MTR being able to login to Teams. You can use our enrollment key as an optional process.
+ 
+1. Go to  '?'  (Help) on the top right corner of the portal, then select 'Download Installer' when installing the agent Place the ‘Self-Enrollment key’ (previously downloaded from the portal) on the **C:\Rigel** directory of the device.
 
 ## Installation
 
@@ -129,7 +131,7 @@ There are two modes of installation: 1) individual local machine install and 2) 
 Due to the many varied ways in which customers can run MSI applications in mass deployment mode this document walks through only installation in individual mode.  
 ## Individual Device&mdash;Domain-joined walkthrough
 
-1. Log into the device as administrator. Ensure the *Performing operations as the Admin user of the device* steps are followed.
+1. Log in to the device as administrator. Ensure the *Performing operations as the Admin user of the device* steps are followed.
 
 1. Copy the file **ManagedRoomsInstaller.msi** to the MTR device.
 
