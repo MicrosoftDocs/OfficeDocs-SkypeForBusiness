@@ -22,7 +22,7 @@ ms.custom:
   - Audio Conferencing
   - seo-marvel-mar2020
 
-description: Follow these steps to create a default telephone number for callers to join a Microsoft Teams meeting.
+description: Follow these steps to create a default phone number for callers to join a Microsoft Teams meeting.
 ---
 
 # Set the phone numbers included on invites in Microsoft Teams
@@ -77,6 +77,9 @@ You must be a Teams service admin to make these changes. See [Use Teams administ
 
 > [!IMPORTANT]
 > When you change a user's audio conferencing settings, recurring and future Microsoft Teams meetings must be updated and sent to attendees.
+
+> [!NOTE]
+> The phone numbers entered in this setting are only used if the *TeamsAudioConferencingPolicy* assigned to the user doesn't have any phone numbers added.
 
 ## Want to use Windows PowerShell
 
