@@ -112,6 +112,10 @@ To enable calendar delegation for these users:
 
 - The Teams Scheduling add-in for Outlook requires Exchange 2013 CU19 or later when scheduling a meeting on behalf of someone else. This is to support the unauthenticated discovery of the mailbox by our service to check delegate permissions against the delegator mailbox. The delegate and delegator location could be Exchange 2013 or later, or Exchange online, but Autodiscover must resolve to Exchange 2013 CU19 or later.
 
+## How do you know this worked?
+
+You can verify that the Exchange and Teams interaction configuration is correct by running [Teams Exchange Integration](https://testconnectivity.microsoft.com/tests/TeamsExchangeIntegration/input) test. For Hybrid Exchange environment run test twice using an On-Premises mailbox (account) and an Online account to ensure Teams service can access both mailboxes.
+
 ## Additional considerations
 
 Here are some extra things to think about as you implement Microsoft Teams in your organization.
