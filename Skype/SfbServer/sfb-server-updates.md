@@ -73,7 +73,7 @@ For the latest Skype for Business Online and Microsoft 365 updates, see the [Mic
 |Cumulative update 3 for Skype for Business Server 2015, Front End server and Edge server |[KB 3149227](https://support.microsoft.com/kb/3149227) |June 2016 |
 |Cumulative update 2 for Skype for Business Server 2015, Front End server and Edge server |[KB 3134260](https://support.microsoft.com/kb/3134260) |March 2016 |
 |Cumulative update 1 for Skype for Business Server 2015, Front End server and Edge server |[KB 3097645](https://support.microsoft.com/kb/3097645) |November 2015 |
-|Cumulative update for Skype for Business Server 2015, core components |[KB 3098601](https://support.microsoft.com/kb/3098601) |September 2015 |
+|Cumulative update for Skype for Business Server 2015, Core Components |[KB 3098601](https://support.microsoft.com/kb/3098601) |September 2015 |
 |Cumulative update for Skype for Business Server 2015, Front End server and Edge server|[KB 3061059](https://support.microsoft.com/kb/3061059) |June 2015 |
 ||||
 
@@ -92,10 +92,11 @@ For the latest Skype for Business Online and Microsoft 365 updates, see the [Mic
 
 |Package name|KB number|Release date|
 |:--- |:--- |:--- |
-|Lync Server 2013 Cumulative Update 10 Hotfix 6 |[KB 5003602](https://support.microsoft.com/kb/5003602)|May 2021|
-|Lync Server 2013 Cumulative Update 10 Hotfix 5 |[KB 2809243](https://support.microsoft.com/kb/2809243)|February 2021|
-|Lync Server 2013 Cumulative Update 10 Hotfix 4 |[KB 4515509](https://support.microsoft.com/kb/4515509)|July 2020|
-|Lync Server 2013 Cumulative Update 10 Hotfix 3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|September 2019|
+|Lync Server 2013 Cumulative Update 10 Hotfix 7 |[KB 5010850](https://support.microsoft.com/kb/5010850)|February 2022|
+|Lync Server 2013 Cumulative Update 10 Hotfix 6 |[KB 5003729](https://support.microsoft.com/kb/5003729)|May 11, 2021|
+|Lync Server 2013 Cumulative Update 10 Hotfix 5 |[KB 5000675](https://support.microsoft.com/kb/5000675), [KB 5000688](https://support.microsoft.com/kb/5000688)|February 9, 2021|
+|Lync Server 2013 Cumulative Update 10 Hotfix 4 |[KB 4564312](https://support.microsoft.com/kb/4564312)|July 2020|
+|Lync Server 2013 Cumulative Update 10 Hotfix 3 |[KB 4518345](https://support.microsoft.com/kb/4518345)|September 2019|
 |Lync Server 2013 Cumulative Update 10 Hotfix 2 |[KB 4501392](https://support.microsoft.com/kb/4501392)|June 2019|
 |Lync Server 2013 Cumulative Update 10 Hotfix 1 |[KB 4458772](https://support.microsoft.com/kb/4458772)|January 2019|
 |Lync Server 2013 Cumulative Update 10 |[KB 4295703](https://support.microsoft.com/kb/4295703)|July 2018 |
