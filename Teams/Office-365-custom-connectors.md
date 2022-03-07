@@ -1,8 +1,8 @@
 ---
 title: Use Microsoft 365 and custom connectors
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
