@@ -50,10 +50,12 @@ If you're creating resource accounts for Teams Rooms, the UPN must match the SMT
 
 After you create and configure your resource accounts, there are [additional steps](#next-steps) you can review, including distribution groups, network capability, and calling.
 
+**We recommend that you create all resource accounts in Exchange Online and in Azure Active Directory.**
+
 ## Create a resource account
 
 > [!NOTE]
-> When naming your resource accounts, we recommend using a standard naming convention, such as adding "mtr-" to the beginning of the e-mail address. This will help with creating dynamic groups to ease management in Azure Active Directory.
+> When naming your resource accounts, we recommend using a standard naming convention to the beginning of the e-mail address. This will help with creating dynamic groups to ease management in Azure Active Directory. For example, you could use "mtr-" for all resource accounts that will be associated with Microsoft Teams Rooms.
 
 Create a resource account using a method from one of the following tabs:
 
@@ -162,7 +164,7 @@ This example enables the account for the existing room mailbox that has the alia
 Set-Mailbox -Identity ConferenceRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
 ```
 
-If you're in an Exchange hybrid configuration, run the Exchange hybrid steps in the [Exchange Online tab](?tabs=exchange-online#create-a-resource-account).
+If you're in an Exchange hybrid configuration, you'll also need to add an email address for your on-premises domain account. See [Sync on-premises and Office 365 user accounts directories](https://support.microsoft.com/topic/how-to-use-smtp-matching-to-match-on-premises-user-accounts-to-office-365-user-accounts-for-directory-synchronization-75673b94-e1b8-8a9e-c413-ee5a2a1a6a78) for more information.
 
 For detailed syntax and parameter information, see [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) and [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox).
 
@@ -206,7 +208,7 @@ For detailed syntax and parameter information, see [Set-CalendarProcessing](/pow
 If the resource account password expires, the device won't sign in after the expiration date. The password will then need to be changed for the resource account and then updated on each device. To avoid this, you can turn off password expiration.
   
 > [!NOTE]
-> Setting **Password never expires** is a requirement for shared Microsoft Teams devices. If your domain rules may prohibit passwords that don't expire, you'll need to create an exception for each Microsoft Teams device resource account.
+> Setting **Password never expires** is a requirement for shared Microsoft Teams devices. If your domain rules prohibit passwords that don't expire, you'll need to create an exception for each Teams device resource account.
 
 Follow the steps in one of the following tabs to turn on password expiration.
 
@@ -215,6 +217,14 @@ Follow the steps in one of the following tabs to turn on password expiration.
 See [Set a password to never expire](/microsoft-365/admin/add-users/set-password-to-never-expire?view=o365-worldwide#set-a-password-to-never-expire).
 
 This example sets the password for the account ConferenceRoom01@contoso.com to never expire.
+ 
+**Add how to connect to AzureAD**
+
+Connect to Active Directory PowerShell:
+
+```PowerShell
+   Import-Module ActiveDirectory
+```
 
 ```PowerShell
 Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies DisablePasswordExpiration
@@ -244,7 +254,7 @@ Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -PasswordNeverExp
 
 #### [**Active Directory (On premises)**](#tab/active-directory1-password/)
 
-1. Connect to Active Directory PowerShell: 
+1. Connect to Active Directory PowerShell:
 
 ```PowerShell
    Import-Module ActiveDirectory
@@ -271,9 +281,7 @@ Set-ADUser -Identity ConferenceRoom01@contoso.com -PasswordNeverExpires $true
 The resource account needs a Microsoft 365 or Office 365 license to sign into Microsoft Teams.
 
 > [!NOTE]
-> The Meeting Room license is required for the hot-desking on Teams displays.
-
-First, follow the steps in one of the following tabs to assign a usage location to your resource account. The location determines what license SKUs are available for your account.
+> The Meeting Room license is required for the hot-desking on Teams displays. **Teams Rooms Standard and Teams Room Premium licenses are the only supported licenses for Teams Rooms.**
 
 #### [**Active Directory 2.0**](#tab/active-directory2-license/)
 
@@ -340,7 +348,11 @@ Set-MsolUserLicense -UserPrincipalName 'ConferenceRoom01@contoso.com' -AddLicens
 
 ---
 
-After you assign the usage location to the resource account, see [Assign Microsoft 365 licenses to user accounts with PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell).
+Add Microsoft 365 admin center tab
+
+To assign in M365 admin center...
+
+Delete...? **After you assign the usage location to the resource account, see [Assign Microsoft 365 licenses to user accounts with PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell).**
 
 To validate the account creation and license assignment, sign in to any Teams Client using the account you created.
 
@@ -348,7 +360,7 @@ To validate the account creation and license assignment, sign in to any Teams Cl
 
 ### Configure distribution groups
 
-When scheduling a meeting using Microsoft Teams, you can populate the **Add location** field with the name of the meeting room. Create Exchange distribution groups and then add the appropriate resource accounts to add meeting rooms to the locations list.
+**REWORD--** When scheduling a meeting using Microsoft Teams, you can populate the **Add location** field ith the name of the meeting room. Create Exchange distribution groups and then add the appropriate resource accounts to add meeting rooms to the locations list. **REWORD**
 
 For Exchange Online, see [Create and manage distribution list groups in Exchange Online](/exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups) for more information.
 
@@ -356,15 +368,17 @@ For Exchange Server, see [Manage distribution groups](/Exchange/recipients/distr
 
 ### Network and bandwidth
 
-You may need to apply custom network or bandwidth policies or Meeting policies to this account. For more information on network and bandwidth policies, see [Meeting policy settings for audio & video](/microsoftteams/meeting-policies-audio-and-video). 
+You may need to apply custom network, bandwidth, or meeting policies to this account. For more information on network and bandwidth policies, see [Meeting policy settings for audio & video](/microsoftteams/meeting-policies-audio-and-video).
 
-For Teams Rooms, we recommend you set the meeting policy bandwidth to 10 MBps. For collaboration purposes, turn on PowerPoint Live, Whiteboard, and Shared notes settings. You may want to change the “Participants & guests” settings to be unique for meeting rooms. For example, review the lobby settings such as which attendees to automatically admit to meetings. For more information on Teams meeting policies, see [Manage meeting policies in Microsoft Teams](/microsoftteams/meeting-policies-overview).
+For Teams Rooms, we recommend you set the meeting policy bandwidth to 10 Mbps.
+
+For collaboration purposes, turn on PowerPoint Live, Whiteboard, and shared notes. **You may want create a meeting policy to adjust participants and guest settings for Teams Rooms.** For example, review the lobby settings such as which attendees to automatically admit to meetings. For more information on Teams meeting policies, see [Manage meeting policies in Microsoft Teams](/microsoftteams/meeting-policies-overview).
 
 ### Enable calling
 
 Teams supports calling on the Public Switched Telephone Network (PSTN). There are no unique requirements to enable calling with resource accounts. You enable the resource account for calling in the same way you enable a regular user.
 
-For more information, see [Microsoft Teams Phone](https://www.microsoft.com/microsoft-teams/microsoft-teams-phone) page.
+For more information, see [Microsoft Teams Phone](https://www.microsoft.com/microsoft-teams/microsoft-teams-phone).
 
 > [!NOTE]
 > We recommend turning off voice mail for shared devices by assigning a calling policy to the device resource accounts. See [Calling and call-forwarding in Teams](../teams-calling-policy.md) for more information.
