@@ -122,6 +122,9 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
 
 See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites-in-teams.md).
 
+> [!NOTE]
+> You can also set phone numbers by adding them to the *TeamsAudioconferencingpolicy* and assigning the policy to your users. Toll and toll-free phone numbers added to the policy take precedence over the phone numbers set individually for users via the audio conferencing settings pane. If no phone numbers are added to the *Teamsaudioconferencingpolicy*, then the phone number set individually for users via the audio conferencing settings pane will be displayed in Microsoft Teams meeting requests. [Audio Conferencing policy settings for toll and toll-free numbers](audio-conferencing-toll-free-numbers.md) has more information.
+
 ## Choose audio conferencing bridge settings
 
 ### Set the meeting experience when callers join a meeting using the Microsoft Teams admin center

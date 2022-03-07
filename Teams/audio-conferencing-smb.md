@@ -109,6 +109,9 @@ Then, assign the number to each person who will lead meetings. Use the M
 1. In the left navigation of the Microsoft Teams admin center, select **Users**, click the display name of the user, and select **Edit**.
 2. Select **Edit** next to **Audio Conferencing**, and then in the **Audio Conferencing** pane, select a number in the **Toll number** or **Toll-free** number lists, and then select **Apply**.
 
+> [!NOTE]
+> You can also set phone numbers by adding them to the *TeamsAudioconferencingpolicy* and assigning the policy to your users. Toll and toll-free phone numbers added to the policy take precedence over the phone numbers set individually for users via the audio conferencing settings pane. If no phone numbers are added to the *Teamsaudioconferencingpolicy*, then the phone number set individually for users via the audio conferencing settings pane will be displayed in Microsoft Teams meeting requests. [Audio Conferencing policy settings for toll and toll-free numbers](audio-conferencing-toll-free-numbers.md) has more information.
+
 ## Related topics
 
 - [Audio Conferencing](audio-conferencing-in-office-365.md)
