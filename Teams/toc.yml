@@ -844,6 +844,8 @@ items:
           href: dial-pad-configuration.md
         - name: Music on Hold
           href: music-on-hold.md
+        - name: Configure call settings for your users
+          href: user-call-settings.md
 
     - name: PSTN connectivity options
       items:
