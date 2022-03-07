@@ -114,7 +114,7 @@ To enable calendar delegation for these users:
 
 ## How do you know this worked?
 
-You can verify that the Exchange and Teams interaction configuration is correct by running [Teams Exchange Integration](https://testconnectivity.microsoft.com/tests/TeamsExchangeIntegration/input) test. For Hybrid Exchange environment run test twice using an On-Premises mailbox (account) and an Online account to ensure Teams service can access both mailboxes.
+You can verify that the Exchange and Teams interaction configuration is correct by running [Teams Exchange Integration](https://testconnectivity.microsoft.com/tests/TeamsExchangeIntegration/input) test. For Hybrid Exchange environment run the test twice using an On-Premises mailbox (account) and an Online account to ensure Teams service can access both mailboxes.
 
 ## Additional considerations
 
