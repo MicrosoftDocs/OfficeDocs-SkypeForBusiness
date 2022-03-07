@@ -30,14 +30,13 @@ This article provides steps to create resource accounts for Microsoft Teams Room
 Depending on your environment, you need one or more roles to create resource accounts.
 
 |**Environment**|**Required Roles**|
-|:-----|:-----|
+|-----|-----|
 |Azure Active Directory  <br/> |Global Administrator or User Administrator  <br/> |
 |Active Directory  <br/> |Active Directory Enterprise Admins, Domain Admins, or have delegated rights to create users. Azure Active Directory Connect Sync rights.  <br/> |
 |Exchange Online  <br/> |Global Administrator or Exchange Administrator   <br/> |
 |Exchange Server  <br/> |Exchange Organization Management or Recipient Management   <br/> |
 
-> [!NOTE]
-> Microsoft Teams Rooms requires that the UPN matches the SMTP address of the resource account. See [Microsoft Teams Rooms requirements](requirements.md) before you deploy Teams Rooms.
+If you're creating resource accounts for Teams Rooms, the UPN must match the SMTP address of the resource account. See [Microsoft Teams Rooms requirements](requirements.md) before you deploy Teams Rooms.
 
 ## Overview
 
