@@ -8,7 +8,7 @@ This video shows a basic example of how to create an auto attendant in Microsoft
 
 Get the service numbers (service numbers are a special type of phone number that are used by auto attendants) that you need for the auto attendants that you want to be accessible by direct dialing from outside your organization. This might include [transferring numbers from another provider](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) or [requesting new service numbers](../getting-service-phone-numbers.md).
 
-Each auto attendant needs to be assigned a Phone System - Virtual User license. When you purchased Teams Phone with Calling Plan, you also received a number of Phone System - Virtual User licenses, so you probably don't need to request more. However, if you need more in the future, you can get them by following the instructions in [Phone System - Virtual User license](../teams-add-on-licensing/virtual-user.md).
+Each auto attendant needs to be assigned a *Microsoft Teams Phone Standard - Virtual User* license. When you purchased Teams Phone Standard or Teams Phone with Calling Plan bundle licenses, you also received a number of *Microsoft Teams Phone Standard - Virtual User* licenses, so you probably don't need to request more. However, if you need more in the future, you can get them by following the instructions in [Teams Phone Standard - Virtual User license](../teams-add-on-licensing/virtual-user.md).
 
 If you want to have your auto attendant route calls differently on holidays, then [create the holidays that you want to use](../set-up-holidays-in-teams.md) before you create the auto attendant.
 
@@ -16,12 +16,12 @@ If you want to have your auto attendant route calls differently on holidays, the
 
 #### Follow these steps to set up your auto attendant
 
-# [Step 1<br>Phone number](#tab/phone-number)
+# [Step 1 - Phone number](#tab/phone-number)
 
 > [!NOTE]
-> If you're following the steps to set up Teams Phone with Calling Plan for the first time and you're on **Step 6: Set up an auto attendant for your company's main phone number**, you've already finished the steps on this tab. Move to the next tab: [Auto attendant general info](?tabs=general-info#steps).
+> If you're following the steps to set up the Teams Phone System with Calling Plan bundle for the first time and you're on **Step 6: Set up an auto attendant for your company's main phone number**, you've already finished the steps on this tab. Move to the next tab: [Auto attendant general info](?tabs=general-info#steps).
 
-Each auto attendant that you create requires a resource account. This is similar to a user account, except the account is associated with an auto attendant or call queue instead of a person. In this step, we'll create the account, assign it a *Microsoft 365 Phone System - Virtual User* license, and then assign a service number.
+Each auto attendant that you create requires a resource account. This is similar to a user account, except the account is associated with an auto attendant or call queue instead of a person. In this step, we'll create the account, assign it a *Microsoft Teams Phone Standard - Virtual User* license, and then assign a service number.
 
 ### Create a resource account
 
@@ -39,11 +39,11 @@ You can create a resource account in the Teams admin center.
 
 ### Assign a license
 
-You must assign a *Microsoft 365 Phone System - Virtual User* license to the resource account.
+You must assign a *Microsoft Teams Phone Standard - Virtual User* license to the resource account.
 
 1. In the Microsoft 365 admin center, click the resource account to which you want to assign a license.
 
-2. On the **Licenses and Apps** tab, under **Licenses**, select **Microsoft 365 Phone System - Virtual User**.
+2. On the **Licenses and Apps** tab, under **Licenses**, select **Microsoft Teams Phone Standard - Virtual User**.
 
 3. Click **Save changes**.
 
@@ -62,7 +62,7 @@ If you need this auto attendant to be reachable by a phone number, then assign t
 > [!div class="nextstepaction"]
 > [Step 2 - Auto attendant general info >](?tabs=general-info#steps)
 
-# [Step 2<br>Attendant general info](#tab/general-info)
+# [Step 2 - Attendant general info](#tab/general-info)
 
 To set up an auto attendant
 
@@ -83,7 +83,7 @@ To set up an auto attendant
 > [!div class="nextstepaction"]
 > [Step 3 - Call flow >](?tabs=call-flow#steps)
 
-# [Step 3<br>Call flow](#tab/call-flow)
+# [Step 3 - Call flow](#tab/call-flow)
 
 Choose your call flow options
 
@@ -130,7 +130,7 @@ Choose your call flow options
 > [!div class="nextstepaction"]
 > [Step 4 - After hours call flow >](?tabs=after-hours#steps)
 
-# [Step 4<br>After hours](#tab/after-hours)
+# [Step 4 - After hours](#tab/after-hours)
 
 Business hours can be set for each auto attendant. If business hours aren't set, all days and all hours in the day are considered business hours because a 24/7 schedule is set by default. Business hours can be set with breaks in time during the day, and all of the hours that are not set as business hours are considered after-hours. You can set different incoming call-handling options and greetings for after-hours.
 
@@ -145,7 +145,7 @@ Click **Next** when you're done.
 > [!div class="nextstepaction"]
 > [Step 5 - Holiday call flow >](?tabs=holidays#steps)
 
-# [Step 5<br>Holidays](#tab/holidays)
+# [Step 5 - Holidays](#tab/holidays)
 
 You can have calls to your auto attendant routed differently on holidays than on other days. (If you don't want to have a different call flow for holidays, you can skip this step.)
 
@@ -172,9 +172,9 @@ Your auto attendant can have a call flow for each holiday you've set up. You can
 > [!div class="nextstepaction"]
 > [Step 6 - Choose who's in the directory >](?tabs=dial-scope#steps)
 
-# [Step 6<br>Directory members](#tab/dial-scope)
+# [Step 6 - Directory members](#tab/dial-scope)
 
-The *dial scope* defines which users are available in the directory when a caller uses dial-by-name or dial-by-extension. The default of **All online users** includes all users in your organization that are Online users with a Phone System license.
+The *dial scope* defines which users are available in the directory when a caller uses dial-by-name or dial-by-extension. The default of **All online users** includes all users in your organization that are Online users with a Teams Phone license.
 
 You can include or exclude specific users by selecting **Custom user group** under **Include** or **Exclude** and choosing one or more Microsoft 365 groups, distribution lists, or security groups. For example, you might want to exclude executives in your organization from the dialing directory. (If a user is in both lists, they will be excluded from the directory.)
 
@@ -186,7 +186,7 @@ When you're done setting the dial scope, click **Next**.
 > [!div class="nextstepaction"]
 > [Step 7 - Assign a resource account >](?tabs=resource-accounts#steps)
 
-# [Step 7<br>Resource accounts](#tab/resource-accounts)
+# [Step 7 - Resource accounts](#tab/resource-accounts)
 
 All auto attendants must have an associated resource account.  First level auto attendants will need at least one resource account that has an associated service number. If you wish, you can assign several resource accounts to an auto attendant, each with a separate service number.
 
