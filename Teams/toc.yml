@@ -1400,8 +1400,8 @@ items:
           href: rooms/obtaining-assigning-license.md
         - name: Enroll in MTRP managed service
           href: rooms/enrolling-mtrp-managed-service.md
-        - name: Installation
-          href: rooms/monitor-software-installation-guide.md
+        - name: Enroll a device into managed service
+          href: rooms/enroll-a-device.md
         - name: Role-based access control
           href: rooms/microsoft-teams-rooms-premium-rbac.md
         - name: Monitoring and maintaining Rooms
