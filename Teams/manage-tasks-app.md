@@ -86,12 +86,12 @@ We don't recommend removing an Exchange Online license for information workers, 
 
 With task publishing, your organization can publish task lists targeted to specific locations (teams) across your organization to define and share a work plan to be completed at those locations.
 
-- People on the publishing team, such as corporate or regional leadership, can create task lists and publish them to specific teams.<br>
+- People on the publishing team, such as corporate or regional leadership, can create task lists and publish them to specific teams.
     ![Screenshot of task publishing.](media/manage-tasks-app-publish.png)
-- Managers on the recipient teams can review the published task lists and assign individual tasks to team members.<br>
+- Managers on the recipient teams can review the published task lists and assign individual tasks to team members.
     ![Screenshot of assigning a task.](media/manage-tasks-app-assign.png)
 - Frontline Workers have a simple mobile experience to see tasks assigned to them. They can attach photos to show their work when appropriate and mark their tasks as completed.
-- Publishers and managers can view reports to see assignment and completion status of tasks at each level, including by location (team), task list, and individual task.<br>
+- Publishers and managers can view reports to see assignment and completion status of tasks at each level, including by location (team), task list, and individual task.
     ![Screenshot of assigned tasks on mobile.](media/manage-tasks-app-reporting.png)
 
 Users create, manage, and publish task lists on the **Published lists** tab in the Tasks app. This tab only shows for a user if your organization [set up a team targeting hierarchy](#set-up-your-team-targeting-hierarchy) and the user is on a team that's included in the hierarchy. The hierarchy determines whether the user can publish or receive task lists and view reporting for received lists.

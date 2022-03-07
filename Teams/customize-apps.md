@@ -80,7 +80,7 @@ To start customizing an app, complete the following steps:
 > [!Note]
 > Only the fields that the app developer has assigned as customizable will be visible.
 
-5. Expand the **Icon** section.
+5.Expand the **Icon** section.
 
    1. Upload an icon. Use one full-color icon (192x192) pixel in PNG format.
 
@@ -90,9 +90,9 @@ To start customizing an app, complete the following steps:
 
     ![Customize the icon panel color options.](media/customize-app-colors.png)
 
-6. Once your app has been customized, select **Apply**.
+6.Once your app has been customized, select **Apply**.
 
-7. Select **Publish** to publish the customized app.
+7.Select **Publish** to publish the customized app.
 
    The customized app is now listed in your **Manage apps** page. You'll have only one version of the app, since customizing the app features doesn't create a copy of the app.
 
@@ -105,6 +105,7 @@ Now your Teams end users can open their Teams client to see the customized app.
 The following note includes important details about customizing an app.
 
 > [!Note]
+>
 > - When you customize apps, and any description related to an app, ensure that you follow any customization guidelines if provided by the app publisher in their documentation or terms of use. You're also responsible for respecting the rights of others regarding any third-party images you might use.
 > - Admin-provided customization data is stored in the nearest region.
 > - You are responsible for ensuring that links to terms of use or privacy policy are valid.

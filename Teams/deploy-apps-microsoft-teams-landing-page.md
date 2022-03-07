@@ -21,7 +21,7 @@ ms.custom: seo-marvel-apr2020
 ---
 # Apps, bots, & connectors in Microsoft Teams
 
-Apps let you find content from your favorite services and share it in Teams. They help you do things such as pin services at the top of a channel, chat with bots, or share and assign tasks. To learn more, read [Overview of apps in Teams](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0). 
+Apps let you find content from your favorite services and share it in Teams. They help you do things such as pin services at the top of a channel, chat with bots, or share and assign tasks. To learn more, read [Overview of apps in Teams](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 
 You can add apps to your Teams deployment by using the apps provided with Microsoft Teams, by using certified third-party apps and templates, and by creating your own custom apps.
 
@@ -41,7 +41,6 @@ You can also use [Teams templates](/microsoftteams/platform/samples/app-template
 
 You can quickly build custom low-code solutions by using Teams integration with [Microsoft Power Platform](teams-power-platfom-integration.md). You can also create your own custom app to suit your business needs. For more information, see [Build apps for Microsoft Teams](/microsoftteams/platform/overview).  
 
-
 ## Apps deployment decisions
 
 Teams provides a great out-of-the-box collaboration experience for your organization, and most organizations find that the default settings work for them. This article helps you decide whether to change any of the default settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups, starting with the core set of [changes you're more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs.
@@ -50,7 +49,7 @@ Teams provides a great out-of-the-box collaboration experience for your organiza
 
 These are the apps settings that most organizations want to change (if the Teams default settings don't work for them).
 
-### App availability settings 
+### App availability settings
 
 Teams provides many apps published by Microsoft and by third parties to engage users, support productivity, and integrate commonly used business services into Teams. Get apps from the Teams Store. By default, all apps, including custom apps that you've submitted via the [Teams Store approval process](/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process), are turned on for all users. For example, users can use the Planner app to build and manage team tasks in Teams.
 
@@ -63,7 +62,7 @@ By default, all Microsoft-provided, third-party, and custom apps are available, 
 
 ### App permissions and other considerations
 
-Apps are consented to by users and managed by the admin or IT pro through policies. However, for the most part, an app's permissions and risk profile are defined in the app itself. 
+Apps are consented to by users and managed by the admin or IT pro through policies. However, for the most part, an app's permissions and risk profile are defined in the app itself.
 
 | Ask yourself | Action |
 |--------------|--------|

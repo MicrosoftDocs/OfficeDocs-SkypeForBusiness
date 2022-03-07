@@ -22,7 +22,7 @@ description: Learn how to update apps in Microsoft Teams.
 
 # Update apps in Microsoft Teams
 
-In most cases, after app developers publish an app update, the new version automatically appears for users. However, there are some updates to the <a href="/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">Microsoft Teams manifest</a> that require user acceptance to complete:
+In most cases, after app developers publish an app update, the new version automatically appears for users. However, there are some updates to the [Microsoft Teams manifest](/microsoftteams/platform/resources/schema/manifest-schema) that require user acceptance to complete:
 
 * A bot was added or removed
 * An existing bot's "botId" property changed
@@ -36,8 +36,8 @@ In most cases, after app developers publish an app update, the new version autom
 
 ![upgrade option for an app.](media/manage-your-custom-apps-update2.png)
 
-> [!NOTE] 
-> The update process applies to all app updates for Microsoft apps, custom apps, and third-party apps. 
+> [!NOTE]
+> The update process applies to all app updates for Microsoft apps, custom apps, and third-party apps.
 
 ## Related topics
 

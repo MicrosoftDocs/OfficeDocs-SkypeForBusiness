@@ -42,7 +42,7 @@ The new capabilities are available to the select Microsoft 365 subscriptions.
 
 - For more information about licensing requirements for Power Apps, Power Automate, Power Virtual Agents, and Dataverse for Teams, see [Licensing](/power-platform/admin/about-teams-environment).
 - For more information about licensing requirements for Power BI, see [Requirements](/power-bi/collaborate-share/service-collaborate-microsoft-teams).
- 
+
 ## How do I get started?
 
 - [Power BI and Teams](/power-bi/collaborate-share/service-collaborate-microsoft-teams)
