@@ -14,27 +14,30 @@ ms.collection:
   - M365-collaboration
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: Read this topic for information on how to deploy Microsoft Teams Rooms with Microsoft 365 or Office 365.
+description: Read this article for information on how to deploy Microsoft Teams Rooms with Microsoft 365 or Office 365.
 ---
 
 # Create and configure resource accounts for Teams devices
 
-This article provides steps to create resource accounts, required for Microsoft Teams Rooms on Windows, Microsoft Teams Rooms on Android, Microsoft Teams Rooms on Surface Hub, and hot desking on Teams displays.
+This article provides steps to create resource accounts for Microsoft Teams Rooms on Windows, Teams Rooms on Android, Teams Rooms on Surface Hub, and hot-desking on Teams displays.
 
 > [!NOTE]
 > **Skype for Business** <br><br>
-> If you need to enable your resource account to also work with Skype for Business, see [Deploy Microsoft Teams Rooms with Skype for Business Server](with-skype-for-business-server-2015.md)
+> If you need to enable your resource account to work with Skype for Business, see [Deploy Microsoft Teams Rooms with Skype for Business Server](with-skype-for-business-server-2015.md)
 
 ## Requirements
 
-Depending on your environment, you'll need one or more roles to create the accounts.
+Depending on your environment, you need one or more roles to create resource accounts.
 
-|**Enviromnent**|**Required Roles**|
+|**Environment**|**Required Roles**|
 |:-----|:-----|
 |Azure Active Directory  <br/> |Global Administrator or User Administrator  <br/> |
 |Active Directory  <br/> |Active Directory Enterprise Admins, Domain Admins, or have delegated rights to create users. Azure Active Directory Connect Sync rights.  <br/> |
 |Exchange Online  <br/> |Global Administrator or Exchange Administrator   <br/> |
 |Exchange Server  <br/> |Exchange Organization Management or Recipient Management   <br/> |
+
+> [!NOTE]
+> Microsoft Teams Rooms requires that the UPN matches the SMTP address of the resource account. See [Microsoft Teams Rooms requirements](requirements.md) before you deploy Teams Rooms.
 
 ## Overview
 
@@ -42,11 +45,11 @@ Depending on your environment, you'll need one or more roles to create the accou
 
 **Step 2 -**  Then, [Configure your account](#configure-mailbox-properties) for Teams Meetings.
 
-**Step 3 -**  If the resource account is going to be associated with a shared device, such as Teams displays with hot desking, [Turn off password expiration](#turn-off-password-expiration).
+**Step 3 -**  If the resource account is going to be associated with a shared device, such as Teams displays with hot-desking, [Turn off password expiration](#turn-off-password-expiration).
 
 **Step 4 -**  Lastly, [assign a meeting room license](#assign-a-meeting-room-license) so the account can access Microsoft Teams.
 
-From there, there are [additional steps](#next-steps) you can review, including distribution groups, network capability, and calling.
+After you create and configure your resource accounts, there are [additional steps](#next-steps) you can review, including distribution groups, network capability, and calling.
 
 ## Create a resource account
 
@@ -59,30 +62,32 @@ Create a resource account using a method from one of the following tabs:
 
 1. Sign in to the Microsoft 365 admin center.
 
-2. Provide the admin credentials for your Microsoft 365 tenant. This will take you to your Microsoft 365 admin center.
+2. Provide the admin credentials for your Microsoft 365 tenant.
 
-3. In the admin center, navigate to **Resources** in the left panel (you might need to select **Show all** first), and then select **Rooms & equipment**.
+3. Go to **Resources** in the left panel, and then select **Rooms & equipment**. If these options aren't available in the left panel, you may need to select **Show all** first.
 
 4. Select **Add a resource mailbox** to create a new room account. Enter a display name and email address for the account, select **Add**, and then select **Close**.
 
 > [!NOTE]
-> By default, resource accounts are set up with the following settings. If you want to change them, select **Set scheduling options** before you select **Close**. If you want to change them later, navigate to **Resources** > **Rooms & equipment**, select the resource account and then select **Edit** under **Booking options**.
+> By default, resource accounts are set up with the following settings: 
 >
 > - Allow repeat meetings
 > - Automatically decline meetings outside of the following limits
 >   - Booking window (days): 180
 >   - Maximum duration (hours): 24
 > - Auto accept meeting requests
+>
+> If you want to change them, select **Set scheduling options** before you select **Close**. If you want to change them later, navigate to **Resources** > **Rooms & equipment**, select the resource account and then select **Edit** under **Booking options**.
 
-5. Navigate to the **Users** section in admin center and, in the **Active users** list, you will see the room you just created.
+5. Go to **Users** > **Active users**, and select the room you created to open the properties panel.
 
-6. Select on the name of the room and an account properties panel will appear on the right.
+6. Next, assign a password to the resource account. In the panel, select **Reset password**. 
+ 
+7. Requiring users to change the password on a shared device will cause sign in problems. Uncheck **Require this user to change their password when they first sign in**, and select **Reset**.
 
-7. Now you need to assign a password to the resource account. In the panel, you can see the account properties and several optional actions. Select the **Reset password** key icon under the username to change the password. Unselect **Require this user to change their password when they first sign in**. It is not possible to change the password via the device sign-in process. Select **Reset**.
+7. In the **Licenses and Apps** section, set **Select location** to the country or region where the device will be installed. Then select the license you want to assign, such as Meeting Room, and select **Save changes**. The license may vary depending on your organization.
 
-8. In the **Licenses and Apps** section, set **Select location** to the country or region where the device will be installed. Scroll down and check the box next to the license to be assigned - such as Meeting Room - and then select **Save changes**. The license may vary depending on your organization.
-
-You can change the settings of the resource mailbox, such as adding an additional response,  using Exchange admin center or via the PowerShell cmdlets shown in the [Configure mailbox properties](#configure-mailbox-properties) section of this article.
+To change the settings of the resource mailbox, see [Configure mailbox properties](#configure-mailbox-properties) or use the Exchange admin center.
 
 You may also need to apply bandwidth policies or meeting policies to this account. See [Next steps](#next-steps) for more information.
 
@@ -94,7 +99,7 @@ You may also need to apply bandwidth policies or meeting policies to this accoun
 Connect-ExchangeOnline
 ```
 
-2. By default, room mailboxes don't have associated accounts, so you'll need to add an account when you create a room mailbox that allows it to authenticate with Microsoft Teams.
+2. By default, room mailboxes don't have associated accounts. Add an account when you create a room mailbox so it can authenticate with Microsoft Teams.
 
 If you're creating a new resource mailbox:
 
@@ -116,22 +121,9 @@ This example creates a new room mailbox with the following settings:
 New-Mailbox -MicrosoftOnlineServicesID ConferenceRoom01@contoso.com -Name "ConferenceRoom01" -Alias ConferenceRoom01 -Room -EnableRoomMailboxAccount $true  -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
 ```
 
-If you're not in an Exchange hybrid configuration, then you can continue to the next step.
+If you're not in an Exchange hybrid configuration, then you can continue to the next step, [Configure mailbox properties](#configure-mailbox-properties).
 
-If you're in an Exchange hybrid configuration, you'll also need to add an email address for your on-premises domain account
-
-1. In the **Active Directory Users and Computers AD** tool, right-click on the container or Organizational Unit that your rooms accounts will be created in, select **New**, and then select **User**.
-
-2. Enter the display name (- Identity ) from the prior cmdlet (Set-Mailbox or New-Mailbox) into the **Full name** box, and enter the alias into the **User logon name** box. Select **Next**.
-
-3. Enter the password for this account. **Password never expires** should be the only checkbox option selected.
-
-    > [!NOTE]
-    > Selecting **Password never expires** is a requirement for Microsoft Teams Rooms. Your IT security rules may prohibit passwords that don't expire. If so, you'll need to create an exception for each Microsoft Teams Rooms resource account.
-  
-4. Select **Finish** to create the account.
-
-5. After you create the account, run a directory synchronization. This can be accomplished by using [Set-MsolDirSyncConfiguration](/powershell/module/msonline/set-msoldirsyncconfiguration) in PowerShell. When that is complete, go to the **Users** page and verify that the two accounts created in the previous steps have merged.
+If you're in an Exchange hybrid configuration, you'll also need to add an email address for your on-premises domain account. See [Sync on-premises and Office 365 user accounts directories](https://support.microsoft.com/topic/how-to-use-smtp-matching-to-match-on-premises-user-accounts-to-office-365-user-accounts-for-directory-synchronization-75673b94-e1b8-8a9e-c413-ee5a2a1a6a78) for more information.
 
 #### [**With Exchange Server**](#tab/exchange-server)
 
@@ -176,7 +168,7 @@ If you're in an Exchange hybrid configuration, run the Exchange hybrid steps in 
 For detailed syntax and parameter information, see [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) and [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox).
 
 > [!NOTE]
-> If you are creating this account for Teams Room on Surface Hub, you should also enable ActiveSync on this account. This will allow you to send e-mail directly from the Surface Hub, such as sending a Whiteboard. See [Applying ActiveSync policies to device accounts (Surface Hub)](/surface-hub/apply-activesync-policies-for-surface-hub-device-accounts) to learn more.
+> If you're creating this account for Teams Room on Surface Hub, you should also enable ActiveSync on this account. This will allow you to send e-mail directly from the Surface Hub, which you can use for features like Whiteboard. See [Applying ActiveSync policies to device accounts (Surface Hub)](/surface-hub/apply-activesync-policies-for-surface-hub-device-accounts) to learn more.
 
 ---
 
@@ -200,7 +192,7 @@ In Exchange PowerShell, either online or on-premises, configure the following se
 
 - **AdditionalResponse: "This is a Microsoft Teams Meeting room!"** The additional text to add to the meeting acceptance response.
 
-This example configures these settings on a room mailbox named ConferenceRoom01.
+This example configures these settings on a room mailbox named ConferenceRoom01:
 
 ``` PowerShell
 Set-CalendarProcessing -Identity "ConferenceRoom01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -ProcessExternalMeetingMessages $true -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
@@ -212,12 +204,12 @@ For detailed syntax and parameter information, see [Set-CalendarProcessing](/pow
 
 ## Turn off password expiration
 
-You now need to set the resource account so that the password never expires. If the password expires, the resource account will no longer sign in on the device when the password expiry period is reached. The password will then need to be changed for the resource account and then updated on each device.
+If the resource account password expires, the device won't sign in after the expiration date. The password will then need to be changed for the resource account and then updated on each device. To avoid this, you can turn off password expiration.
   
 > [!NOTE]
 > Setting **Password never expires** is a requirement for shared Microsoft Teams devices. If your domain rules may prohibit passwords that don't expire, you'll need to create an exception for each Microsoft Teams device resource account.
 
-Follow the steps in one of the following tabs to turn on password expiration. 
+Follow the steps in one of the following tabs to turn on password expiration.
 
 #### [**Azure Active Directory 2.0**](#tab/azure-active-directory2-password/)
 
@@ -231,7 +223,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
 
 #### [**Azure Active Directory 1.0**](#tab/azure-active-directory1-password/)
 
- 1. Connect to MS Online PowerShell:
+ 1. Connect to MSOnline PowerShell:
 
    ```PowerShell
    Connect-MsolService
@@ -277,10 +269,10 @@ Set-ADUser -Identity ConferenceRoom01@contoso.com -PasswordNeverExpires $true
 
 ## Assign a Meeting Room license
 
-The resource account needs a Microsoft 365 or Office 365 license to sign into Microsoft Teams. 
+The resource account needs a Microsoft 365 or Office 365 license to sign into Microsoft Teams.
 
 > [!NOTE]
-> The Meeting Room license is required for the hot desking on Teams displays.
+> The Meeting Room license is required for the hot-desking on Teams displays.
 
 First, follow the steps in one of the following tabs to assign a usage location to your resource account. The location determines what license SKUs are available for your account.
 
@@ -294,7 +286,7 @@ Connect-AzureAD
 
  For details about Active Directory, see [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/overview?view=azureadps-2.0).
 
-2. The resource account needs to have a valid Microsoft 365 or Office 365 license to ensure a successful sign-in to Teams. You need to assign a usage location to your resource account—this determines what license SKUs are available. You'll make the assignment in the next step.
+2. The resource account needs to have a valid Microsoft 365 or Office 365 license to sign in to Teams. Assign a usage location to your resource account. This determines what license SKUs are available.
    
 Use `Get-AzureADSubscribedSku` to retrieve a list of available SKUs for your Microsoft 365 or Office 365 organization.
    
@@ -302,13 +294,13 @@ Use `Get-AzureADSubscribedSku` to retrieve a list of available SKUs for your Mic
 Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
 ```
 
-3. You add a usage location and a license using the `Set-AzureADUser` cmdlet. In this case, the user is located in the United States (US).
+3. You add a usage location and a license using the `Set-AzureADUser` cmdlet. In this example, the user is located in the United States (US):
 
 ```PowerShell
 Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -UsageLocation 'US'
 ```
 
-4. To assign the license, you use the `Set-AzureADUser` cmdlet. In order to assign the license successfully, you need to convert the license SKU ID (see step 2) into a PowerShell license type object and then assign that object to the resource account. In the following example, the license SKU ID is 6070a4c8-34c6-4937-8dfb-39bbc6397a60, and it's assigned to the account conferenceroom01@contoso.com: 
+4. To assign the license, use the `Set-AzureADUser` cmdlet, and convert the license SKU ID (see step 2) into a PowerShell license type object. Then, assign that object to the resource account. In the following example, the license SKU ID is 6070a4c8-34c6-4937-8dfb-39bbc6397a60, and it's assigned to the account conferenceroom01@contoso.com:
 
 ```PowerShell
 #Create an object for a single license type
@@ -327,11 +319,11 @@ Set-AzureADUserLicense -ObjectId ConferenceRoom01@contoso.com -AssignedLicenses 
 
 #### [**Active Directory 1.0**](#tab/active-directory1-license/)
 
-1. Connect to MS Online PowerShell.
+1. Connect to MSOnline PowerShell.
 
 For details about Active Directory, see [Azure Active Directory (MSOnline).](/powershell/azure/active-directory/overview?view=azureadps-1.0)
 
-2. The resource account needs to have a valid Microsoft 365 or Office 365 license to ensure a successful sign-in to Teams. You need to assign a usage location to your resource account—this determines what license SKUs are available. You'll make the assignment in the next step.
+2. The resource account needs to have a valid Microsoft 365 or Office 365 license to sign in to Teams. Assign a usage location to your resource account. This determines what license SKUs are available.
    
 Use `Get-MsolAccountSku` to retrieve a list of available SKUs for your Microsoft 365 or Office 365 organization.
    
@@ -357,7 +349,7 @@ To validate the account creation and license assignment, sign in to any Teams Cl
 
 ### Configure distribution groups
 
-When scheduling a meeting using Microsoft Teams, you have the option of populating the **Add location** field with the name of the room where you will be hosting the meeting. To populate this list, you need to create Exchange distribution groups and then add the appropriate Teams Rooms resource accounts to this lists.
+When scheduling a meeting using Microsoft Teams, you can populate the **Add location** field with the name of the meeting room. Create Exchange distribution groups and then add the appropriate resource accounts to add meeting rooms to the locations list.
 
 For Exchange Online, see [Create and manage distribution list groups in Exchange Online](/exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups) for more information.
 
@@ -365,21 +357,20 @@ For Exchange Server, see [Manage distribution groups](/Exchange/recipients/distr
 
 ### Network and bandwidth
 
-If necessary, you may need to apply custom network or bandwidth policies or Meeting policies to this account. For more information on network and bandwidth policies, see [Meeting policy settings for audio & video](/microsoftteams/meeting-policies-audio-and-video). 
+You may need to apply custom network or bandwidth policies or Meeting policies to this account. For more information on network and bandwidth policies, see [Meeting policy settings for audio & video](/microsoftteams/meeting-policies-audio-and-video). 
 
-For Teams Rooms, we recommend you set the meeting policy bandwidth to 10MBps. We recommend that for collaboration purposes, keep the PowerPoint Live, Whiteboard, and Shared notes settings to on. You may want to change the “Participants & guests” settings to be unique for meeting rooms. For example, review the lobby settings such as which attendees to automatically admit to meetings. 
-
-For more information on Teams meeting policies, see [Manage meeting policies in Microsoft Teams](/microsoftteams/meeting-policies-overview).
-
-If you need to enable the resource account for Microsoft Teams Phone System, see [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
+For Teams Rooms, we recommend you set the meeting policy bandwidth to 10 MBps. For collaboration purposes, turn on PowerPoint Live, Whiteboard, and Shared notes settings. You may want to change the “Participants & guests” settings to be unique for meeting rooms. For example, review the lobby settings such as which attendees to automatically admit to meetings. For more information on Teams meeting policies, see [Manage meeting policies in Microsoft Teams](/microsoftteams/meeting-policies-overview).
 
 ### Enable calling
 
-Teams supports the ability to make and receive phone calls to the Public Switched Telephone Network (PSTN). There are no unique requirements to enable calling with resource accounts. You enable the resource account for calling in the same way you enable a regular user.
+Teams supports calling on the Public Switched Telephone Network (PSTN). There are no unique requirements to enable calling with resource accounts. You enable the resource account for calling in the same way you enable a regular user.
 
-For information, see [Microsoft Teams Phone](https://www.microsoft.com/microsoft-teams/microsoft-teams-phone) page.
+For more information, see [Microsoft Teams Phone](https://www.microsoft.com/microsoft-teams/microsoft-teams-phone) page.
 
-## Related topics
+> [!NOTE]
+> We recommend turning off voice mail for shared devices by assigning a calling policy to the device resource accounts. See [Calling and call-forwarding in Teams](../teams-calling-policy.md) for more information.
+
+## Related articles
 
 [Configure accounts for Microsoft Teams Rooms](rooms-configure-accounts.md)
 
