@@ -82,13 +82,12 @@ To start customizing an app, complete the following steps:
 
 5.Expand the **Icon** section.
 
-   1. Upload an icon. Use one full-color icon (192x192) pixel in PNG format.
+ 1. Upload an icon. Use one full-color icon (192x192) pixel in PNG format.
 
-   1. Choose an icon outline color. Use one transparent outline (32x32) pixel in PNG format.
+ 1. Choose an icon outline color. Use one transparent outline (32x32) pixel in PNG format.
 
-   1. Select an app accent color that matches the icon.
-
-    ![Customize the icon panel color options.](media/customize-app-colors.png)
+ 1. Select an app accent color that matches the icon.
+   ![Customize the icon panel color options.](media/customize-app-colors.png)
 
 6.Once your app has been customized, select **Apply**.
 

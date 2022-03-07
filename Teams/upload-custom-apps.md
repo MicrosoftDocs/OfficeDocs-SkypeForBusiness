@@ -24,7 +24,7 @@ description: Learn how to upload your custom apps to your organization's app sto
 > [!NOTE]
 > When you publish a custom Teams app, it's available to users in your organization's app store. There are two ways to publish a custom app and the way that you use depends on how you get the app. **This article focuses on how to publish a custom app by uploading an app package (in .zip format) that a developer sends you**. The other method, approving a custom app, is used when a developer submits an app directly to the [Manage apps](manage-apps.md)page through the Teams App Submission API. To learn more about that method, see [Publish a custom app submitted through the Teams App Submission API.](submit-approve-custom-apps.md)
 
-This article provides end-to-end guidance for how to take your Teams app from development to deployment to discovery. This guidance focuses on the Teams aspects of the app and is intended for admins and IT pros. For more information about developing Teams apps, see the [Teams developer documentation](https://docs.microsoft.com/microsoftteams/platform/).
+This article provides end-to-end guidance for how to take your Teams app from development to deployment to discovery. This guidance focuses on the Teams aspects of the app and is intended for admins and IT pros. For more information about developing Teams apps, see the [Teams developer documentation](/microsoftteams/platform/)
 
 ![Overview of your app from development to deployment.](media/upload-custom-apps.png)
 
@@ -88,7 +88,7 @@ By default, for users to find the app they have to go to your organization's app
 
 You can search the audit log to view Teams apps activity in your organization. To learn more about how to search the audit log and to see a list of Teams activities that are logged in the audit log, see [Search the audit log for events in Teams](audit-log-events.md).
 
-Before you can search the audit log, you have to first turn on auditing in the [Security & Compliance Center](https://sip.protection.office.com/homepage). To learn more, see [Turn audit log search on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide). Keep in mind that audit data is only available from the point at which you turned on auditing.
+Before you can search the audit log, you have to first turn on auditing in the [Security & Compliance Center](https://sip.protection.office.com/homepage). To learn more, see [Turn audit log search on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&preserve-view=true). Keep in mind that audit data is only available from the point at which you turned on auditing.
 
 ## Discover and adopt
 

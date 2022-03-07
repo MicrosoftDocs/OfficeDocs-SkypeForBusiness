@@ -45,9 +45,9 @@ The Microsoft Teams developer platform makes it easy for developers to integrate
 
 ### Submit the app
 
-When the app is ready for use in production, the developer can submit the app using the Teams App Submission API, which can be called from [Graph API](/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog), an integrated development environment (IDE) such as Visual Studio Code, or a platform such as Power Apps and Power Virtual Agents. Doing this makes the app available on the [Manage apps](/microsoftteams/manage-apps) page of the Microsoft Teams admin center, where you can review and approve it.
+When the app is ready for use in production, the developer can submit the app using the Teams App Submission API, which can be called from [Graph API](/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog), an integrated development environment (IDE) such as Visual Studio Code, or a platform such as Power Apps and Power Virtual Agents. Doing this makes the app available on the [Manage apps](/microsoftteams/manage-apps&preserve-view=true) page of the Microsoft Teams admin center, where you can review and approve it.
 
-The Teams App Submission API, [built on Microsoft Graph](/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog), allows your organization to develop on the platform of your choice and automates the submission-to-approval process for custom apps on Teams.
+The Teams App Submission API, [built on Microsoft Graph](/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog&preserve-view=true), allows your organization to develop on the platform of your choice and automates the submission-to-approval process for custom apps on Teams.
 
 Here's an example of what this app submission step looks like in Visual Studio Code:
 
@@ -55,7 +55,7 @@ Here's an example of what this app submission step looks like in Visual Studio C
 
 Keep in mind that this doesn't publish the app to your organization's app store yet. This step submits the app to the Microsoft Teams admin center where you can approve it for publishing to your organization's app store.
 
-For more information about using the Graph API to submit apps, see [here](/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog).
+For more information about using the Graph API to submit apps, see [here](/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog&preserve-view=true).
 
 ## Notify
 
@@ -94,7 +94,7 @@ Click the app name to go to the app details page. On the **About** tab, you can 
 
 ![app details page for a submitted app.](media/custom-app-lifecycle-app-details.png)
 
-For more information about using the Graph API to check the **Publishing status**, see [here](/graph/api/appcatalogs-list-teamsapps?tabs=http&view=graph-rest-beta#example-3-find-application-based-on-the-teams-app-manifest-id).
+For more information about using the Graph API to check the **Publishing status**, see [here](/graph/api/appcatalogs-list-teamsapps?tabs=http&view=graph-rest-beta#example-3-find-application-based-on-the-teams-app-manifest-id&preserve-view=true).
 
 ## Publish
 
@@ -121,7 +121,7 @@ By default, for users to find the app they have to go to your organization's app
 
 You can search the audit log to view Teams apps activity in your organization. To learn more about how to search the audit log and to see a list of Teams activities that are logged in the audit log, see [Search the audit log for events in Teams](audit-log-events.md)
 
-Before you can search the audit log, you have to first turn on auditing in the [Security & Compliance Center](https://sip.protection.office.com/). To learn more, see [Turn audit log search on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide). Keep in mind that audit data is only available from the point at which you turned on auditing.
+Before you can search the audit log, you have to first turn on auditing in the [Security & Compliance Center](https://sip.protection.office.com/&preserve-view=true). To learn more, see [Turn audit log search on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&preserve-view=true). Keep in mind that audit data is only available from the point at which you turned on auditing.
 
 ## Discover and adopt
 
@@ -154,7 +154,7 @@ Keep in mind the following:
 - When an app is approved, any one can submit an update to the app. This means other developers, including the developer who originally submitted the app, can submit an update to the app.
 - When a developer submits an app and the request is pending, only that same developer can submit an update to the app. Other developers can submit an update only after the app is approved.
 
-For more information about using the Graph API to update apps, see [here](/graph/api/teamsapp-update?view=graph-rest-1.0&tabs=http)</a>.
+For more information about using the Graph API to update apps, see [here](/graph/api/teamsapp-update?view=graph-rest-1.0&tabs=http&preserve-view=true).
 
 ## Related topics
 
