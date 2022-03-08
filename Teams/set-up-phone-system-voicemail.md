@@ -101,11 +101,11 @@ The following information is about configuring Cloud Voicemail to work with Team
 
 When someone leaves a voicemail message for a user in your organization, the voicemail is delivered to the user's mailbox as an email message attachment. 
 
-Using Microsoft Information Protection, you can encrypt and protect the voicemail messages left by both internal and external callers from being forwarded by the user. This feature is supported for users with Exchange Online mailboxes.
+Using Microsoft Information Protection, you can encrypt the voicemail messages left by both internal and external callers. You can also prevent the user from  forwarding these messages. This feature is supported for users with Exchange Online mailboxes.
 
-In Microsoft Information Protection you can create a sensitivity label to encrypt the voicemail message and the using auto-labeling feature you can automatically get that label applied to incoming voicemail messages. 
+To encrypt the voicemail message, you can create a sensitivity label. With the auto-labeling feature, you can ensure that the label will be applied automatically to incoming voicemail messages. 
 
-When you enable protected voicemail, users can listen to protected voicemail messages by calling into their voicemail mailbox or by opening the message in Outlook, Outlook on the web, or in Outlook for Android or iOS. Protected voicemail messages can't be opened in Skype for Business or Microsoft Teams.
+When you enable protected voicemail, users can listen to protected voicemail messages by calling into their voicemail mailbox or by opening the message in Outlook, Outlook on the web, or Outlook for Android or iOS. Protected voicemail messages can't be opened in Microsoft Teams or Skype for Busimess.
 
 To create a sensitivity label for voicemail, see [Use sensitivity labels](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions). In Outlook, users can enforce restriction with the **Do Not Forward** or **Encrypt-Only** options. Select the **Do Not Forward** option.
 
