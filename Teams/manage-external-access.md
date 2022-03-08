@@ -41,7 +41,7 @@ Use external access when:
 
 External access policies include controls for each type of federation at both the organization  and user levels. Turning a policy off at the organization level turns it off for all users, regardless of their user level setting. All external access settings are enabled by default.
 
-The Teams admin center controls external access at the organization level. If you want to control external access at the user lever, you must use PowerShell. See [Using PowerShell](#UsingPowerShell) below for more information.
+The Teams admin center controls external access at the organization level. If you want to control external access at the user lever, you must use PowerShell. See [Using PowerShell](#using-powershell) below for more information.
 
 > [!NOTE]
 > If you turn off external access in your organization, people outside your organization can still join meetings through anonymous join. To learn more, see [Manage meeting settings in Teams](meeting-settings-in-teams.md).
