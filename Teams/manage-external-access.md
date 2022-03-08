@@ -38,22 +38,8 @@ Use external access when:
 - You want anyone else in the world who uses Teams to be able to find and contact you, using your email address. 
 
 ## Plan for external access
-External access policies include controls for each type of federation at both the tenant- and user-levels. Turning a policy off at the tenant-level turns it off for all users, regardless of their user-level setting. All external access settings are enabled by default.
 
-Tenant-level settings can be changed via Teams admin center or PowerShell (Set-CSTenantFederationConfiguration). User-level settings can be changed via PowerShell (Set-CsExternalAccessPolicy). In later sections, we’ve provided instructions on how to use Teams admin center and write PowerShell commands.
-For reference, the following is a description of the PowerShell controls.
-
-|      Controls                                                                                    |      Tenant-level              |      User-level                        |
-|--------------------------------------------------------------------------------------------------|--------------------------------|----------------------------------------|
-|     Enable/disable federation with other Teams organizations   and Skype for Business            |     AllowFederatedUsers        |     EnableFederationAccess             |
-|     Enable federation with specific domains                                                      |     AllowedDomains             |     N/A                                |
-|     Disable federation with specific domains                                                     |     Blocked Domains            |     N/A                                |
-|     Enable/disable federation with Teams users that are not   managed by an organization         |     AllowTeamsConsumer         |     EnableTeamsConsumerAccess          |
-|     Enable/disable Teams users not managed by an organization   from initiating conversations    |     AllowTeamsConsumerInbound  |     EnableTeamsConsumerInbound         |
-|     Enable/disable federation with Skype                                                         |     AllowPublicUsers           |     EnablePublicCloudAccess            |
-
->[!IMPORTANT]
->Disabling a policy “rolls down” from tenant to users. For example:<br><br>•	Set-CsTenantFederationConfiguration -AllowFederatedUsers $false<br> •	Set-CsExternalAccessPolicy -EnableFederationAccess $true<br><br> In this example, although the user-level policy is enabled, users would not be able to communicate with managed Teams users or Skype for Business users because this type of federation was turned off at the tenant-level.<br><br>Therefore, if you want to enable these controls for a subset of users you must turn on the control at a tenant-level and create two group policies – one that applies to the users that should have the control turned off, and one that applies to the users that should have the control turned on.</p>
+External access policies include controls for each type of federation at both the organization  and user levels. Turning a policy off at the organization level turns it off for all users, regardless of their user level setting. All external access settings are enabled by default.
 
 > [!NOTE]
 > If you turn off external access in your organization, external users can still join meetings through anonymous join. To learn more, see [Manage meeting settings in Teams](meeting-settings-in-teams.md).
@@ -147,10 +133,33 @@ Follow these steps to let Teams users in your organization chat with and call Sk
 
 To learn more about the ways that Teams users and Skype users can communicate, including limitations that apply, see [Teams and Skype interoperability](teams-skype-interop.md).
 
+## Using PowerShell
+
+Organization level settings can be configured using [Set-CSTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration) and user level settings can be configured using [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy).
+
+The following table shows the cmdlet parameters used for configuring federation.
+
+|Controls|Organization level (Set-CSTenantFederationConfiguration)|User level (Set-CsExternalAccessPolicy)|
+|:-------|:--------|:------------------|
+|Enable/disable federation with other Teams organizations and Skype for Business|`-AllowFederatedUsers`|`-EnableFederationAccess`|
+|Enable federation with specific domains|-AllowedDomains|N/A|
+|Disable federation with specific domains|-Blocked Domains|N/A|
+|Enable/disable federation with Teams users that are not managed by an organization|AllowTeamsConsumer|EnableTeamsConsumerAccess|
+|Enable/disable Teams users not managed by an organization from initiating conversations|AllowTeamsConsumerInbound|EnableTeamsConsumerInbound|
+|Enable/disable federation with Skype|AllowPublicUsers|EnablePublicCloudAccess|
+
+It's important to note that disabling a policy "rolls down" from tenant to users. For example:
+
+```PowerShell
+Set-CsTenantFederationConfiguration -AllowFederatedUsers $false
+Set-CsExternalAccessPolicy -EnableFederationAccess $true
+```
+
+In this example, although the user level policy is enabled, users would not be able to communicate with managed Teams users or Skype for Business users because this type of federation was turned off at the organization level. Therefore, if you want to enable these controls for a subset of users you must turn on the control at a organization level and create two group policies – one that applies to the users that should have the control turned off, and one that applies to the users that should have the control turned on.
 
 ## Limit external access to specific people
 
-If you've enabled any of the external access controls at a tenant-level, you can limit external access to specific users using PowerShell.
+If you've enabled any of the external access controls at a organization level, you can limit external access to specific users using PowerShell.
 
 You can use the following example script, substituting *Control* for the control you want to change, *PolicyName* for the name you want to give the policy, and *UserName* for each user for whom you want to enable/disable external access.
 
@@ -201,18 +210,18 @@ To enable users in your organization to communicate with users in another organi
 
 | If your organization is | Enable federation as follows |
 |:---------|:-----------------------|
-|Online with no Skype for Business on-premises. This includes organizations that have TeamsOnly users and/or Skype for Business Online users.| If using Teams Admin Center: <br>-	Make sure the domains that you want to communicate with are allowed in External Access.<br><br>If using PowerShell:<br>- Ensure the tenant is enabled for federation: `Get-CsTenantFederationConfiguration` must show `AllowFederatedUsers=true`. <br>- Ensure the user’s effective value of `CsExternalAccessPolicy` has `EnableFederationAccess=true`.<br>- If you are not using open federation, ensure the target domain is listed in `AllowedDomains` of `CsTenantFederationConfiguration`. |
+|Online with no Skype for Business on-premises. This includes organizations that have TeamsOnly users and/or Skype for Business Online users.| If using Teams Admin Center: <br>-	Make sure the domains that you want to communicate with are allowed in External Access.<br><br>If using PowerShell:<br>- Ensure the tenant is enabled for federation: `Get-CsTenantFederationConfiguration` must show `AllowFederatedUsers=true`. <br>- Ensure the user's effective value of `CsExternalAccessPolicy` has `EnableFederationAccess=true`.<br>- If you are not using open federation, ensure the target domain is listed in `AllowedDomains` of `CsTenantFederationConfiguration`. |
 |Pure on-premises | In on-premises tools: <br>- Ensure federation is enabled in `CsAccessEdgeConfiguration`.<br>- Ensure federation for the user is enabled through `ExternalAccessPolicy` (either through the global policy, site policy, or user assigned policy). <br> - If you are not using open federation, ensure the target domain is listed in `AllowedDomains`. |
 |Hybrid with some users online (in either Skype for Business or Teams) and some users on-premises. | Follow above steps for both online and on-premises organizations. |
 
 ### Delivery of incoming chats and calls 
 
-Incoming chats and calls from a federation organization will land in the user’s Teams or Skype for Business client depending on the recipient user’s mode in TeamsUpgradePolicy.
+Incoming chats and calls from a federation organization will land in the user's Teams or Skype for Business client depending on the recipient user's mode in TeamsUpgradePolicy.
 
 | If you want to | Do this: |
 |:---------|:-----------------------|
-| Ensure incoming federated chats and calls arrive in the user’s Teams client: | Configure your users to be TeamsOnly.
-| Ensure incoming federated chats and calls arrive in the user’s Skype for Business client | Configure your users to be in any mode other than TeamsOnly. |
+| Ensure incoming federated chats and calls arrive in the user's Teams client: | Configure your users to be TeamsOnly.
+| Ensure incoming federated chats and calls arrive in the user's Skype for Business client | Configure your users to be in any mode other than TeamsOnly. |
 
 ### Enable federation between users in your organization and unmanaged Teams users
 
@@ -220,7 +229,7 @@ To enable federation between users in your organization and unmanaged Teams user
 
 | If your organization is | Enable federation as follows |
 |:---------|:-----------------------|
-|Online with no Skype for Business on-premises. This includes organizations that have Teams Only users and/or Skype for Business Online users.| If using Teams admin center:<br>-Make sure **People in my organization can communicate with Teams users whose accounts aren’t managed by an organization** is enabled in **External Access**.<br>-If you want unmanaged Teams accounts to initiate chats, check the box for **External users with Teams accounts not managed by an organization can contact users in my organization**.<br><br>If using PowerShell:<br>-Ensure the tenant is enabled for federation: Get-CsTenantFederationConfiguration must show AllowTeamsConsumer=true.<br>-Ensure the user’s effective value of CsExternalAccessPolicy has EnableTeamsConsumerAccess=true.<br>-Ensure the tenant is enabled for unmanaged users to initiate chats: Get-CsTenantFederationConfiguration must show AllowTeamsConsumerInbound=true.<br>-Ensure the user’s effective value of CsExternalAccessPolicy has EnableTeamsConsumerInbound=true.|
+|Online with no Skype for Business on-premises. This includes organizations that have Teams Only users and/or Skype for Business Online users.| If using Teams admin center:<br>-Make sure **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** is enabled in **External Access**.<br>-If you want unmanaged Teams accounts to initiate chats, check the box for **External users with Teams accounts not managed by an organization can contact users in my organization**.<br><br>If using PowerShell:<br>-Ensure the tenant is enabled for federation: Get-CsTenantFederationConfiguration must show AllowTeamsConsumer=true.<br>-Ensure the user's effective value of CsExternalAccessPolicy has EnableTeamsConsumerAccess=true.<br>-Ensure the tenant is enabled for unmanaged users to initiate chats: Get-CsTenantFederationConfiguration must show AllowTeamsConsumerInbound=true.<br>-Ensure the user's effective value of CsExternalAccessPolicy has EnableTeamsConsumerInbound=true.|
 |Pure on-premises | Chat with unmanaged Teams users is not supported for pure on-premises organizations.|
 |Hybrid with some users online (in either Skype for Business or Teams) and some users on-premises. | Follow the previously described steps for online organizations. Note that chat with unmanaged Teams users is not supported for on-premises users. |
 
@@ -233,7 +242,7 @@ To enable federation between users in your organization and consumer users of Sk
 
 | If your organization is | Enable consumer federation as follows |
 |:---------|:-----------------------|
-| Pure online with no Skype for Business on-premises.  This includes organizations that have TeamsOnly users and/or Skype for Business Online users. | If using Teams Admin Center: <br>-Make sure **Allow users in my organization to communicate with Skype users** is enabled in External Access.<br><br>If using PowerShell: <br>-Ensure the tenant is enabled for federation: `Get-CsTenantFederationConfiguration` must show `AllowPublicUsers=true`. <br> - Ensure the user’s effective value of `CsExternalAccessPolicy` has `EnablePublicCloudAccess=true`. |
+| Pure online with no Skype for Business on-premises.  This includes organizations that have TeamsOnly users and/or Skype for Business Online users. | If using Teams Admin Center: <br>-Make sure **Allow users in my organization to communicate with Skype users** is enabled in External Access.<br><br>If using PowerShell: <br>-Ensure the tenant is enabled for federation: `Get-CsTenantFederationConfiguration` must show `AllowPublicUsers=true`. <br> - Ensure the user's effective value of `CsExternalAccessPolicy` has `EnablePublicCloudAccess=true`. |
 | Pure on-premises | In on-premises tools: <br> - Ensure Skype is enabled as a federated partner. <br> - Ensure `EnablePublicCloudAccess=true` for the user through `ExternalAccessPolicy` (either via global policy, site policy, or user assigned policy).|
 | Hybrid with some users online (in either Skype for Business or Teams) and some users on-premises.| Follow above steps for both online and on-premises organizations.
 
