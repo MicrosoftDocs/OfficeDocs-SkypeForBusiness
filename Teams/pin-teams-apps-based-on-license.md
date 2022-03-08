@@ -1,9 +1,9 @@
 ---
 title: Tailor your Teams apps based on license
-author: lanachin
-ms.author: v-lanachin
+author: guptaashish
+ms.author: guptaashish
 ms.reviewer: aaglick
-manager: samanro
+manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams

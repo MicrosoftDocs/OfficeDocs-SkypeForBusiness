@@ -1,8 +1,8 @@
 ---
 title: Manage your apps in the Microsoft Teams admin center
-author: KarliStites
-ms.author: kastites
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -49,7 +49,7 @@ You can view every app including the following information about each app.
 ![Screenshot of the apps details page for an app.](media/app-detail-page.jpg)
 
 - **Name**: The app name. Select the app name to go to the app details page to see more information about the app. This includes a description of the app, whether it's allowed or blocked, version, privacy policy, terms of use, categories that apply to the app, certification status, supported capabilities, and app ID.
-- **Certification**: If the app has gone through certification, you'll see either **Microsoft 365 certified** or **Publisher attestation**. Select the link to view certification details for the app. If you see "**--**", we don't have certification information for the app. To learn more about certified apps in Teams, read [Microsoft 365 App Certification program](/microsoft-365-app-certification/overview).
+- **Certification**: If the app has gone through certification, you'll see either **Microsoft 365 certified** or **Publisher attestation**. Select the link to view certification details for the app. If you see `--`, we don't have certification information for the app. To learn more about certified apps in Teams, read [Microsoft 365 App Certification program](/microsoft-365-app-certification/overview).
 - **Publisher**: Name of the publisher.
 - **Publishing status**: Publishing status of custom apps.
 - **Status**: Status of the app at the org level, which can be one of the following:
