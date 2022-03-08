@@ -64,13 +64,7 @@ If you add blocked domains, all other domains will be allowed; and if you add al
 > [!NOTE]
 > The allowed or blocked domains only apply to meetings if anonymous access to meetings is "off".
 
-
-![image](https://user-images.githubusercontent.com/98335128/155242004-03be43ad-5f21-4b87-a061-d05f80d22c1e.png)
-
-w
-
-![image](../media/external-access-domain-settings.png)
-
+![Screenshot of external domains settings](./media/external-access-domain-settings.png)
 
 **Using the Microsoft Teams admin center**
 
@@ -110,10 +104,7 @@ Admins can choose to enable or disable communications with external Teams users 
 
 In the Teams admin center, go to **Users** > **External access**.
 
-![image](https://user-images.githubusercontent.com/98335128/155242115-cdd65afe-62c4-40e5-8603-c1ac770103c0.png)
-
-
-external-access-accounts-not-managed-by-org.png
+![Screenshot of external accounts settings](./media/external-access-accounts-not-managed-by-org.png)
 
 To block Teams users in your organization from communicating with external Teams users whose accounts are not managed by an organization:
 1. Turn off the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
@@ -131,10 +122,7 @@ To let Teams users In your organization communicate with external Teams users wh
 
 Follow these steps to let Teams users in your organization chat with and call Skype users. Teams users can then search for and start a one-on-one text-only conversation or an audio/video call with Skype users and vice versa.
 
-![image](https://user-images.githubusercontent.com/98335128/155242238-1e14383e-e7aa-488b-8d73-71d71377090e.png)
-
-![image](../media/external-access-skype-settings.png)
-
+![Screenshot of Skype users setting.](./media/external-access-skype-settings.png)
 
 **Using the Microsoft Teams admin center**
 
