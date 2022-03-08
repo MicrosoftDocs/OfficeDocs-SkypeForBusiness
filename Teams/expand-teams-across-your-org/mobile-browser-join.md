@@ -31,7 +31,7 @@ With browser join, when an attendee joins an appointment from a device, they are
 
 Currently, browser join is available for appointments that are scheduled through the following:
 
-- [The Bookings app](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5
+- [The Bookings app](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5)
 - Microsoft Teams Electronic Health Record (EHR) connector
 
   - Integration with [Cerner EHR](healthcare/ehr-admin-cerner.md)
