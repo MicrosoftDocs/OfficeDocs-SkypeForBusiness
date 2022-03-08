@@ -103,21 +103,21 @@ To communicate with another tenant, they must either enable **Allow all external
 
 Admins can choose to enable or disable communications with external Teams users that are not managed by an organization (“unmanaged”). If enabled, they can also further control if external users with unmanaged Teams accounts can initiate contact (see the following image). If external user initiation is turned off, unmanaged Teams users will not be able to search the full email address to find organization contacts and all communications with unmanaged Teams users must be initiated by organization users.
 
+In the Teams admin center, go to **Users** > **External access**.
+
 ![image](https://user-images.githubusercontent.com/98335128/155242115-cdd65afe-62c4-40e5-8603-c1ac770103c0.png)
 
-**Using the Microsoft Teams admin center**
+To block Teams users in your organization from communicating with external Teams users whose accounts are not managed by an organization:
+1. Turn off the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
+2. Clear the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
 
-1. In the left navigation, go to **Users** > **External access**.<br>
-2. Follow one of these steps:
-    - To block Teams users in your organization from communicating with external Teams users whose accounts are not managed by an organization:
-    	1. Turn off the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
-      2. Clear the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
-    - To let Teams users in your organization communicate with external Teams users whose accounts are not managed by an organization if your Teams users have initiated the contact:
-      1. Turn on the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
-      2. Clear the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
-    - To let Teams users In your organization communicate with external Teams users whose accounts are not managed by an organization and receive requests to communicate with those external Teams users:
-      1. Turn on the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
-      2. Select the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
+To let Teams users in your organization communicate with external Teams users whose accounts are not managed by an organization if your Teams users have initiated the contact:
+1. Turn on the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
+2. Clear the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
+
+To let Teams users In your organization communicate with external Teams users whose accounts are not managed by an organization and receive requests to communicate with those external Teams users:
+1. Turn on the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
+2. Select the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
 
 ## Communicate with Skype users
 
@@ -253,7 +253,7 @@ To enable federation between users in your organization and consumer users of Sk
 ## Test access
 
 To test your setup, you need a Teams user who's not behind your firewall.
-  
+ 
 1. After you and the admin from the organization have changed the **External access** settings, you should be good to go.
 
 2. In the Teams app, search for the person by email address, and send a request to chat.
