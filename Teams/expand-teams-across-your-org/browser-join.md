@@ -37,7 +37,7 @@ Currently, browser join is available for appointments that are scheduled through
   - Integration with [Cerner EHR](healthcare/ehr-admin-cerner.md)
   - Integration with [Epic EHR](healthcare/ehr-admin.md)
 
-## Set up mobile browser join
+## Set up browser join
 
 ### Appointments scheduled through the Bookings app
 
@@ -47,11 +47,11 @@ After this feature is turned on, the confirmation email or SMS text that’s sen
 
 #### Turn on browser join for an appointment type
 
-In Bookings, go to **Settings** > **Appointment types**, select an [appointment type](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887), and then turn on **Allow attendees to join from a browser**. Doing this enables mobile browser join for all appointments of this type.
+In Bookings, go to **Settings** > **Appointment types**, select an [appointment type](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887), and then turn on **Allow attendees to join from a browser**. Doing this enables browser join for all appointments of this type.
 
 :::image type="content" source="../media/mobile-browser-join-bookings-appointment-type.png" alt-text="Screenshot of the Allow attendees to join from a browser setting for appointment types in the Bookings app":::
 
-#### Turn on mobile browser join for an individual appointment
+#### Turn on browser join for an individual appointment
 
 In Bookings, select **New booking**, and then turn on **Allow attendees to join from a browser**.
 
