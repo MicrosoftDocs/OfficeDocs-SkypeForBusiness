@@ -237,7 +237,7 @@ The connector supports patients joining visits through MyChart web and mobile. A
 
 Key features of the patient experience:
 
-- Patients can join visits from modern web browsers on desktop and [mobile without having to install the Teams app](../mobile-browser-join.md).
+- Patients can join visits from [modern web browsers on desktop and mobile without having to install the Teams app](browser-join.md).
 
 - Patients can join visits with a single click and no other account or sign-in is required.
 
