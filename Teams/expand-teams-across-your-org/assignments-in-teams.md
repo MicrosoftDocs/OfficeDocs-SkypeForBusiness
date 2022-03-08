@@ -173,7 +173,7 @@ To remove Assignments and Grades for an individual user, go to **Teams Admin Cen
 
 To remove Assignments and Grades for your entire tenant, go to **Teams Admin Center**, navigate to **Teams apps > Manage apps**, and search for and select **Assignments** from the application list. Change the status setting within the Assignment application settings page to _Blocked_.
 
-## Assignments diagnostics tool for users
+## Assignments diagnostic tool for users
 
 We have created a tool to collect diagnostic data for the Microsoft engineering team to investigate issues related to the Assignments feature.
 
