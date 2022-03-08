@@ -32,8 +32,6 @@ The add-on licensing options available to you depend on the Microsoft 365 plan y
 
 Here's a list of Teams add-on licenses and their capabilities that you can add to your Teams subscription.
 
-<br/>
-
 |License|Description|
 |-------|-----------|
 |**Microsoft 365 Business Voice** <br/> |Business Voice was Microsoft's voice capability bundle for small and medium businesses but will no longer be available to purchase starting on March 1, 2022. Current Business Voice subscribers can renew their Business Voice licenses until June 30, 2022. <br/> <br/> If you're a small or medium-sized business, we recommend purchasing the [Teams Phone with Calling Plan license](../business-voice/whats-business-voice.md), if it's available in your region. <br/> <br/> Alternatively, you can purchase a Teams Phone Standard license that will allow you to connect to your preferred third-party PSTN provider. |
@@ -52,7 +50,7 @@ All Microsoft 365 plans allow Teams users to make peer-to-peer calls within your
 
 You can add **Audio Conferencing** licenses for free to all Microsoft 365 subscriptions.
 
-Microsoft 365 E5/A5/G5 plans include Audio Conferencing licenses, so you won't need to purchase extra Audio Conferencing licenses with this plan.
+Microsoft 365 E5/A5/G5 plans include Audio Conferencing licenses, so you won't need to purchase extra Audio Conferencing licenses with these plans.
 
 ### Voice and PSTN connectivity
 
@@ -82,12 +80,12 @@ Here's a summary of which Microsoft voice and calling licenses to purchase, base
 </tr>
 </thead>
 <tbody>
-<tr class="even">
+<tr>
 <td>Teams Essentials (AAD identity) <br/> <br/>Any Microsoft 365 plan that includes Teams <br/> </td>
 <td>Teams Phone with Calling Plan bundle licenses <br/> <br/>or <br/> <br/>Teams Phone Standard licenses <br/> plus <br/>Domestic Calling Plan or Domestic and International Calling Plan licenses <br/> </td>
 <td>Teams Phone Standard licenses <br/> </td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Microsoft 365 E5/A5/G5 plans</td>
 <td>Domestic Calling Plan or Domestic and International Calling Plan licenses <br/> </td>
 <td></td>
