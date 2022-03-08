@@ -1,8 +1,8 @@
 ---
 title: Microsoft Teams apps permissions and considerations
-author: rmw2890
-ms.author: rowille
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.date: 06/27/2019
 ms.topic: conceptual
 audience: admin
