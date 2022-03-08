@@ -3,7 +3,7 @@ title: Network roaming policy
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: sonua
+ms.reviewer: roykuntz
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
