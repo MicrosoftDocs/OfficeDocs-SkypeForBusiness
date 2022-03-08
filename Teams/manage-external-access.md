@@ -246,24 +246,8 @@ To enable federation between users in your organization and consumer users of Sk
 |On-premises only| In on-premises tools: <br> - Ensure Skype is enabled as a federated partner. <br> - Ensure `EnablePublicCloudAccess=true` for the user through `ExternalAccessPolicy` (either via global policy, site policy, or user assigned policy).|
 | Hybrid with some users online (in either Skype for Business or Teams) and some users on-premises.| Follow above steps for both online and on-premises organizations.
 
-
 > [!IMPORTANT]
 > You don't have to add any **Skype domains** as allowed domains in order to enable Teams or Skype for Business Online users to communicate with Skype users inside or outside your organization. All **Skype domains** are allowed.
-
-## Test access
-
-To test your setup, you need a Teams user who's not behind your firewall.
- 
-1. After you and the admin from the organization have changed the **External access** settings, you should be good to go.
-
-2. In the Teams app, search for the person by email address, and send a request to chat.
-
-3. Ask your Teams contact to send you a request to chat. If you don't receive their request, the problem is your firewall settings (assuming they've already confirmed their firewall settings are correct).
-
-4. Another way to test whether the problem is your firewall is to go to a Wi-Fi location that is not behind your firewall, such as a coffee shop, and use Teams to send a request to your contact to chat. If the message goes through at the Wi-Fi location but does not when you're at work, then you know the problem is your firewall.
-
-> [!NOTE]
-> If you and another user both turn on external access and allow one another's domains, this will work. If it doesn't work, the other user should make sure their configuration isn't blocking your domain.
 
 ## Federation Diagnostic Tool
 
