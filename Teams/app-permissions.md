@@ -93,27 +93,27 @@ None
 
 - Bots can only reply to conversations in which they're mentioned.
 
-- After a user has conversed with a bot, if the bot stores that user's ID, it can send that user direct messages at any time.
+- When a user converses with a bot, if the bot stores the user's ID, it can send the user direct messages at any time.
 
-- It is theoretically possible for bot messages to contain links to phishing or malware sites, but bots can be blocked by the user, the tenant admin, or globally by Microsoft.
+- Theoretically it's possible for bot messages to contain links to phishing or malware sites. However, bots can be blocked by the user, the tenant admin, or globally by Microsoft.
 
-- A bot can retrieve (and might store) very basic identity information for the team members the app has been added to, or for individual users in personal or group chats. To get further information about these users, the bot must require them to sign in to Azure Active Directory (Azure AD).
+- A bot can retrieve (and might store) basic identity information for the team members the app has been added to, or for individual users in personal or group chats. To get further information about these users, the bot must require them to sign in to Azure Active Directory (Azure AD).
 
 - Bots can retrieve (and might store) the list of channels in a team; this data leaves the corporate network.
 
 - When a file is sent to a bot, the file leaves the corporate network. Sending and receiving files requires user approval for each file. 
 
-- By default, bots don't have the ability to act on behalf of the user, but bots can ask users to sign in; as soon as the user signs in, the bot will have an access token with which it can do additional things. Exactly what those additional things are depends on the bot and where the user signs in: a bot is an Azure AD app registered at https://apps.dev.microsoft.com/ and can have its own set of permissions.
+- By default, bots don't have the ability to act on behalf of the user, but bots can ask users to sign in as soon as the user signs in. The bot will have an access token with which it can do additional things. It depends on the bot and where the user signs in: a bot is an Azure AD app registered at https://apps.dev.microsoft.com/ and can have its own set of permissions.
 
 - Bots are informed whenever users are added to or deleted from a team.
 
-- Bots don't see users' IP addresses or other referrer information. All information comes from Microsoft. (There is one exception: if a bot implements its own sign-in experience, the sign-in UI will see users' IP addresses and referrer information.)
+- Bots don't see users' IP addresses or other referrer information. All information comes from Microsoft. (There's one exception: if a bot implements its own sign-in experience, the sign-in UI will see users' IP addresses and referrer information.)
 
 - Messaging extensions, on the other hand, do see users' IP addresses and referrer information.
 
 - App guidelines (and our AppSource review process) require discretion in posting personal chat messages to users (via the POST_MESSAGE_TEAM permission) for valid purposes. In the event of abuse, users can block the bot, tenant admins can block the app, and Microsoft can block bots centrally if necessary.
 
-<sup>1</sup> Some bots only send messages (POST_MESSAGE_USER). They're called "notification-only" bots, but the term doesn't refer to what a bot is allowed or not allowed to do, it means that the bot doesn't want to expose a conversational experience. Teams uses this field to disable functionality in the UI that would ordinarily be enabled; the bot isn't restricted in what it's allowed to do compared to bots that do expose a conversational experience.
+<sup>1</sup> Some bots only send messages (POST_MESSAGE_USER). They're called "notification-only" bots, but the term doesn't refer to what a bot is allowed or not allowed to do, it means that the bot doesn't want to expose a conversational experience. Teams uses this field to disable functionality in the UI that would ordinarily be enabled; the bot isn't restricted in what it's allowed to compared to bots that do expose a conversational experience.
 
 <sup>2</sup> Governed by the supportsFiles Boolean property on the bot object in the manifest.json file for the app.
 
