@@ -51,9 +51,10 @@ These are the apps settings that most organizations want to change (if the Teams
 
 ### App availability settings
 
-Teams provides many apps published by Microsoft and by third parties to engage users, support productivity, and integrate commonly used business services into Teams. Get apps from the Teams Store. By default, all apps, including custom apps that you've submitted via the [Teams Store approval process](/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process), are turned on for all users. For example, users can use the Planner app to build and manage team tasks in Teams.
+Teams provides many apps published by Microsoft and by third parties to engage users, support productivity, and integrate commonly used business services into Teams.
+Get apps from the Teams Store. By default, all apps, including custom apps that you've submitted via the [Teams Store approval process](/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process), are turned on for all users. For example, users can use the Planner app to build and manage team tasks in Teams.
 
-By default, all Microsoft-provided, third-party, and custom apps are available, and you can turn individual apps on or off. There are org-wide settings that lets you turn all third-party and/or custom apps on or off for your entire organization.
+By default, all Microsoft-provided, third-party, and custom apps are available, and you can turn individual apps on or off. There are org-wide settings that let you turn all third-party and/or custom apps on or off for your entire organization.
 
 | Ask yourself | Action |
 |--------------|--------|
@@ -62,7 +63,7 @@ By default, all Microsoft-provided, third-party, and custom apps are available, 
 
 ### App permissions and other considerations
 
-Apps are consented to by users and managed by the admin or IT pro through policies. However, for the most part, an app's permissions and risk profile are defined in the app itself.
+Apps are consented to by users and managed by the admin or IT pro through policies. However, on the whole, an app's permissions and risk profile are defined in the app itself.
 
 | Ask yourself | Action |
 |--------------|--------|
@@ -111,7 +112,8 @@ You can use activity reports to see how users in your organization are using Tea
 
 ### App templates
 
-App templates are production-ready apps for Microsoft Teams that are community driven, open-source, and available on GitHub. Each contains detailed instructions for deploying and installing that app for your organization, providing a ready-to-use app that you can install and begin using immediately. The complete source code is available as well, so you can explore it in detail, or fork the code and alter it to meet your specific needs.
+App templates are production-ready apps for Microsoft Teams that are community driven, open-source, and available on GitHub. Each contains detailed instructions for deploying and installing that app for your organization, providing a ready-to-use app that you can install and begin using immediately.
+The complete source code is available as well, so you can explore it in detail, or fork the code and alter it to meet your specific needs.
 
 | Ask yourself | Action |
 |--------------|--------|
