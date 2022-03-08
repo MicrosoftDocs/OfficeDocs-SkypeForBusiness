@@ -71,11 +71,11 @@ Here are the browsers that are currently supported. We support the latest versio
 
 |Platform  |Chrome |Safari |Edge (Chromium)|
 |---------|:---:|:---:|:---:|
-|Android   |   &#x2714; &sup1;      |         |         |
-|iOS    |         |  &#x2714; &sup1; &sup2; |         |
-|macOS     | &#x2714; |  &#x2714; |         |
-|Windows    | &#x2714; |  &#x2714;  | &#x2714; |
-|Ubuntu/Linux     |         |  &#x2714; &sup2;    |         |
+|Android   | &#x2714; &sup1;      |         |         |
+|iOS    |         | &#x2714; &sup1; &sup2; |         |
+|macOS     | &#x2714; | &#x2714; &sup2;|         |
+|Windows    | &#x2714; | &#x2714;  | &#x2714; |
+|Ubuntu/Linux     | &#x2714;         |     |         |
 
 &sup1; Outgoing screen sharing isn't supported on iOS or Android.
 
