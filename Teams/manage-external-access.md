@@ -41,13 +41,15 @@ Use external access when:
 
 External access policies include controls for each type of federation at both the organization  and user levels. Turning a policy off at the organization level turns it off for all users, regardless of their user level setting. All external access settings are enabled by default.
 
+The Teams admin center controls external access at the organization level. If you want to control external access at the user lever, you must use PowerShell. See [Using PowerShell](#UsingPowerShell) below for more information.
+
 > [!NOTE]
-> If you turn off external access in your organization, external users can still join meetings through anonymous join. To learn more, see [Manage meeting settings in Teams](meeting-settings-in-teams.md).
+> If you turn off external access in your organization, people outside your organization can still join meetings through anonymous join. To learn more, see [Manage meeting settings in Teams](meeting-settings-in-teams.md).
 
 > [!NOTE]
 > Teams users can add apps when they host meetings or chats with people from other organizations. They can also use apps shared by people in other organizations when they join meetings or chats hosted by those organizations. The data policies of the hosting user's organization, as well as the data sharing practices of any third-party apps shared by that user's organization, are applied.
 
-# Allow or block domains
+## Allow or block domains
 
 If you add blocked domains, all other domains will be allowed; and if you add allowed domains, all other domains will be blocked. The exception to this rule is if anonymous participants are allowed in meetings. There are four scenarios for setting up external access in the Teams admin center (**Users** > **External access**):
 
@@ -64,10 +66,9 @@ If you add blocked domains, all other domains will be allowed; and if you add al
 > [!NOTE]
 > The allowed or blocked domains only apply to meetings if anonymous access to meetings is "off".
 
+![Screenshot of external domains settings](./media/external-access-domain-settings.png)
 
-![image](https://user-images.githubusercontent.com/98335128/155242004-03be43ad-5f21-4b87-a061-d05f80d22c1e.png)
-
-  **Using the Microsoft Teams admin center**
+**Using the Microsoft Teams admin center**
 
 To allow specific domains
 
@@ -101,11 +102,11 @@ To communicate with another tenant, they must either enable **Allow all external
 
 ## Manage contact with external Teams users not managed by an organization
 
-Admins can choose to enable or disable communications with external Teams users that are not managed by an organization (“unmanaged”). If enabled, they can also further control if external users with unmanaged Teams accounts can initiate contact (see the following image). If external user initiation is turned off, unmanaged Teams users will not be able to search the full email address to find organization contacts and all communications with unmanaged Teams users must be initiated by organization users.
+Admins can choose to enable or disable communications with external Teams users that are not managed by an organization (“unmanaged”). If enabled, they can also further control if people with unmanaged Teams accounts can initiate contact (see the following image). If **External users with Teams accounts not managed by an organization can contact users in my organization** is turned off, unmanaged Teams users will not be able to search the full email address to find organization contacts and all communications with unmanaged Teams users must be initiated by organization users.
 
 In the Teams admin center, go to **Users** > **External access**.
 
-![image](https://user-images.githubusercontent.com/98335128/155242115-cdd65afe-62c4-40e5-8603-c1ac770103c0.png)
+![Screenshot of external accounts settings](./media/external-access-accounts-not-managed-by-org.png)
 
 To block Teams users in your organization from communicating with external Teams users whose accounts are not managed by an organization:
 1. Turn off the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
@@ -123,9 +124,9 @@ To let Teams users In your organization communicate with external Teams users wh
 
 Follow these steps to let Teams users in your organization chat with and call Skype users. Teams users can then search for and start a one-on-one text-only conversation or an audio/video call with Skype users and vice versa.
 
-![image](https://user-images.githubusercontent.com/98335128/155242238-1e14383e-e7aa-488b-8d73-71d71377090e.png)
+![Screenshot of Skype users setting.](./media/external-access-skype-settings.png)
 
-  **Using the Microsoft Teams admin center**
+**Using the Microsoft Teams admin center**
 
 1. In the left navigation, go to **Users** > **External access**.
 
