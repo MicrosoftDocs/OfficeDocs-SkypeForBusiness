@@ -64,8 +64,8 @@ Teams currently includes the following policy packages.
 |Healthcare clinical worker  |Creates a set of policies and policy settings that give clinical workers such as registered nurses, charge nurses, physicians, and social workers full access to chat, calling, shift management, and meetings. |
 |Healthcare information worker  |Creates a set of policies and policy settings that give information workers such as IT personnel, informatics staff, finance personnel, and compliance officers, full access to chat, calling, and meetings.|
 |Healthcare patient room  |Creates a set of policies and policy settings that apply to patient rooms in your healthcare organization.|
-|Small and medium business user (Teams Phone with Calling Plan) |Creates an app setup policy that includes the apps for a Teams Phone with Calling Plan experience.|
-|Small and medium business user (without Teams Phone with Calling Plan) |Creates an app setup policy relevant for a small and medium sized business Teams users (non-Teams Phone with Calling Plan experience).
+|Small and medium business user (Teams Phone System with Calling Plan bundle) |Creates an app setup policy that includes the apps for a Teams Phone System with Calling Plan bundle experience.|
+|Small and medium business user (without Teams Phone System with Calling Plan bundle) |Creates an app setup policy relevant for a small and medium sized business Teams users (non-Teams Phone System with Calling Plan bundle experience).
 |Public safety officer   |Creates a set of policies and policy settings that apply to public safety officers in your organization.|
 
 > [!NOTE]
@@ -78,7 +78,7 @@ For example, when you assign the Education (Teacher) policy package to teachers 
 
 ## Custom policy packages
 
-Custom policy packages let you bundle your own set of policies for users with similar roles in you organization. Create your own policy packages by adding the policy types and policies that you need.
+Custom policy packages let you bundle your own set of policies for users with similar roles in your organization. Create your own policy packages by adding the policy types and policies that you need.
 
 To create a new custom policy package:
 

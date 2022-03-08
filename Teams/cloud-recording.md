@@ -176,7 +176,23 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 |I want transcription to be disabled for the majority of the users but selectively enable specific users who are allowed to transcribe. |<ol><li>Confirm Global CsTeamsMeetingPolicy has AllowCloudRecording = False. <li>Majority of the users have been granted the Global CsTeamsMeetingPolicy OR one of the CsTeamsMeetingPolicy policies with AllowCloudRecording = False. <li>All other users have been granted one of the CsTeamsMeetingPolicy policies with AllowCloudRecording = True. </ol>|
 
 ### Terms of use acceptance
-If your organization has a meeting recording policy that you would like your users to accept before recording a meeting, use the [Azure Active Directory terms of use](/azure/active-directory/conditional-access/terms-of-use) feature. This feature allows your users to accept your organization's terms of user policy before getting access to Microsoft Teams. This feature is not specific to clicking the record button, but is related to using Teams or other Microsoft 365 apps overall. Our suggestion is to add your meeting recording information to your overall terms of use for using Teams or Microsoft 365. 
+If your organization has a meeting recording policy that you would like your users to accept before recording a meeting, use the [Azure Active Directory terms of use](/azure/active-directory/conditional-access/terms-of-use) feature. This feature allows your users to accept your organization's terms of user policy before getting access to Microsoft Teams. This feature is not specific to clicking the record button, but is related to using Teams or other Microsoft 365 apps overall. Our suggestion is to add your meeting recording information to your overall terms of use for using Teams or Microsoft 365.
+
+### Set a custom privacy policy URL
+
+As an admin, you can update the Teams recording and transcription privacy policy URL with a custom link for your organization. You can do this in the [Azure AD admin center](https://aad.portal.azure.com) using the following steps:
+
+1. Sign in to the Azure AD admin center.
+1. Go to **Azure Active Directory** > **Properties**.
+1. Update the **Privacy statement URL** field with the link to your privacy policy.
+
+> [!NOTE]
+> If you already updated this field for your organization, you don't need to make any changes.
+
+After adding your privacy policy URL, the default Teams meeting recording and transcription privacy statement will be replaced with the new URL provided by your organization.
+
+> [!NOTE]
+> Anonymous, guest, and federated users who join Teams meetings hosted by your organization will still have the default Teams meeting recording and transcription privacy policy.
 
 ## Permissions and storage
 
