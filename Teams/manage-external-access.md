@@ -67,7 +67,12 @@ If you add blocked domains, all other domains will be allowed; and if you add al
 
 ![image](https://user-images.githubusercontent.com/98335128/155242004-03be43ad-5f21-4b87-a061-d05f80d22c1e.png)
 
-  **Using the Microsoft Teams admin center**
+w
+
+![image](../media/external-access-domain-settings.png)
+
+
+**Using the Microsoft Teams admin center**
 
 To allow specific domains
 
@@ -107,6 +112,9 @@ In the Teams admin center, go to **Users** > **External access**.
 
 ![image](https://user-images.githubusercontent.com/98335128/155242115-cdd65afe-62c4-40e5-8603-c1ac770103c0.png)
 
+
+external-access-accounts-not-managed-by-org.png
+
 To block Teams users in your organization from communicating with external Teams users whose accounts are not managed by an organization:
 1. Turn off the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
 2. Clear the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
@@ -125,7 +133,10 @@ Follow these steps to let Teams users in your organization chat with and call Sk
 
 ![image](https://user-images.githubusercontent.com/98335128/155242238-1e14383e-e7aa-488b-8d73-71d71377090e.png)
 
-  **Using the Microsoft Teams admin center**
+![image](../media/external-access-skype-settings.png)
+
+
+**Using the Microsoft Teams admin center**
 
 1. In the left navigation, go to **Users** > **External access**.
 
