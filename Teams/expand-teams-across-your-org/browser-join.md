@@ -25,7 +25,7 @@ description: Learn about the join experience for Teams Virtual Visits on browser
 
 # Manage the join experience for Teams Virtual Visits on browsers
 
-Microsoft Teams makes it easy for people to join virtual appointments on their devices without having to download Teams. For a more seamless experience, attendees can join appointments such as healthcare visits, financial consultations, educator office hours from a web browser on their desktop or mobile device. Attendees don't need to install the Teams app on their device.
+Microsoft Teams makes it easy for people to join virtual appointments on their devices without having to download Teams. For a more seamless experience, attendees can join appointments such as healthcare visits, financial consultations, and educator office hours from a web browser on their desktop or mobile device. Attendees don't need to install the Teams app on their device.
 
 With browser join, when an attendee joins an appointment, they aren't prompted to download Teams. Instead, Teams opens in a browser, where the attendee can select **Join now** to join. <!--With this feature, keep in mind that if Teams is already installed on an attendee's mobile device, Teams will open in a mobile browser and not in the app.-->
 
