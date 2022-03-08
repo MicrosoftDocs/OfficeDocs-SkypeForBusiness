@@ -1,7 +1,7 @@
 ---
 title: Set up and manage channel moderation
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: jotaing
 ms.topic: article
@@ -57,7 +57,7 @@ In this scenario, the teacher allows their teaching assistants to moderate the c
 
 In Teams, go to the channel, click **More options ...** > **Manage channel**. From here you can turn on and turn off moderation, add team members as moderators, and set preferences.
 
-Channel moderation is a per-channel setting. There's no tenant-level setting for channel moderation. If you'd like us to add a tenant-level channel moderation setting, request it on [Teams UserVoice](https://microsoftteams.uservoice.com/).
+Channel moderation is a per-channel setting. There's no tenant-level setting for channel moderation. If you'd like us to add a tenant-level channel moderation setting, request it on [Teams Feedback portal](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 

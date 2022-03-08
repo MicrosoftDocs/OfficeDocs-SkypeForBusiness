@@ -1,8 +1,8 @@
 ---
 title: Upload your custom apps in the Microsoft Teams admin center
-author: HowlinWolf-92
-ms.author: v-mahoffman
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.reviewer: joglocke, vaibhava
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -70,7 +70,7 @@ To allow trusted users to upload custom apps, follow these steps:
 To make the app available to users in your organization's app store, upload the app. You can do this on the <a href="/microsoftteams/manage-apps" target="_blank">Manage apps</a> page of the Microsoft Teams admin center.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
-2. Click **Upload**, click **Select a file**, and then select the app package that you received from the developer.
+2. Select **Upload**, click **Upload**, select the app package that you received from the developer, and select **Open**.
 
    ![Screenshot of uploading an app in the admin center.](media/manage-your-lob-apps-upload-new-app.png) 
 

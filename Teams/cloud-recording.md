@@ -138,8 +138,9 @@ Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Block
 >```
 
 ### Turn on or turn off recording transcription
-
-This setting controls whether captions and transcription features are available during playback of meeting recordings. If you turn this off, the **Search** and **CC** options won't be available during playback of a meeting recording. The person who started the recording needs this setting turned on so that the recording also includes transcription.
+This setting controls whether captions and transcription features are available during playback of meeting recordings. The person who started the recording needs this setting turned on for these features to work with their recording.
+  
+Turning this setting on creates a copy of the transcript that is stored with the meeting recording which enables **Search**, **CC**, and **transcripts** on the meeting recording.
 
 > [!NOTE]
 > That transcription for recorded meetings is currently only supported for English (US), English (Canada), English (India), English (United Kingdom), English (Australia), English (New Zealand), German (Germany), Portuguese (Brazil), Dutch (Netherlands), Dutch (Belgium), French (France), Spanish (Spain), Japanese (Japan), French (Canada), Chinese (Cantonese, Traditional), Chinese (Mandarin, Simplified), Hindi (India), Italian (Italy), Korean (Korea), Spanish (Mexico), Swedish (Sweden), Polish (Poland), Arabic (United Arab Emirates), Arabic (Saudi Arabia), Danish (Denmark), Finnish (Finland), Norwegian (Norway), and Russian (Russia). They are stored together with the meeting recordings in OneDrive for Business and SharePoint Online cloud storage.
@@ -175,7 +176,23 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 |I want transcription to be disabled for the majority of the users but selectively enable specific users who are allowed to transcribe. |<ol><li>Confirm Global CsTeamsMeetingPolicy has AllowCloudRecording = False. <li>Majority of the users have been granted the Global CsTeamsMeetingPolicy OR one of the CsTeamsMeetingPolicy policies with AllowCloudRecording = False. <li>All other users have been granted one of the CsTeamsMeetingPolicy policies with AllowCloudRecording = True. </ol>|
 
 ### Terms of use acceptance
-If your organization has a meeting recording policy that you would like your users to accept before recording a meeting, use the [Azure Active Directory terms of use](/azure/active-directory/conditional-access/terms-of-use) feature. This feature allows your users to accept your organization's terms of user policy before getting access to Microsoft Teams. This feature is not specific to clicking the record button, but is related to using Teams or other Microsoft 365 apps overall. Our suggestion is to add your meeting recording information to your overall terms of use for using Teams or Microsoft 365. 
+If your organization has a meeting recording policy that you would like your users to accept before recording a meeting, use the [Azure Active Directory terms of use](/azure/active-directory/conditional-access/terms-of-use) feature. This feature allows your users to accept your organization's terms of user policy before getting access to Microsoft Teams. This feature is not specific to clicking the record button, but is related to using Teams or other Microsoft 365 apps overall. Our suggestion is to add your meeting recording information to your overall terms of use for using Teams or Microsoft 365.
+
+### Set a custom privacy policy URL
+
+As an admin, you can update the Teams recording and transcription privacy policy URL with a custom link for your organization. You can do this in the [Azure AD admin center](https://aad.portal.azure.com) using the following steps:
+
+1. Sign in to the Azure AD admin center.
+1. Go to **Azure Active Directory** > **Properties**.
+1. Update the **Privacy statement URL** field with the link to your privacy policy.
+
+> [!NOTE]
+> If you already updated this field for your organization, you don't need to make any changes.
+
+After adding your privacy policy URL, the default Teams meeting recording and transcription privacy statement will be replaced with the new URL provided by your organization.
+
+> [!NOTE]
+> Anonymous, guest, and federated users who join Teams meetings hosted by your organization will still have the default Teams meeting recording and transcription privacy policy.
 
 ## Permissions and storage
 
@@ -254,7 +271,7 @@ The size of a 1-hour recording is 400 MB. Make sure you understand the capacity 
 
 Learn more about the admin-specific changes [here](meeting-expiration.md#changes-to-meeting-expiration).
 
-Learn more about how end-users can manage meeting expiration [here](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date).
+Learn more about how end users can manage meeting expiration [here](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date).
   
 See the frequently asked questions for admins and end users to gather insights into how auto-expiration of Teams meeting recordings will work, what actions you can take now, and what actions you can take after the feature launches.
   
@@ -403,7 +420,7 @@ Captions help create inclusive content for viewers of all abilities. As an owner
 
 Today closed captions for the recording video file are linked to the Teams meeting transcript. This link will remain for the lifetime of the file in most cases, but can be broken if the video file is copied within the same OneDrive for Business or SharePoint Online site, which would result in captions not being available on the copied video file.
 
-Any future changes to the link between the transcript in Teams and the recording will be clarified here and in message center notifications. If we make any changes in the future, we will ensure recording files less than 60 days old display the transcript from the meeting as captions.
+Any future changes to the link between the transcript in Teams and the recording will be clarified here and in message center notifications. If we make any changes in the future, we will ensure recording files less than 60-days old display the transcript from the meeting as captions.
 
 > [!NOTE]
 > Meeting transcription is not yet available in GCC.

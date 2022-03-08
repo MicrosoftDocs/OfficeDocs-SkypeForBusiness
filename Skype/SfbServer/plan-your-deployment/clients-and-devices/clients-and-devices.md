@@ -1,7 +1,7 @@
 ---
 title: "Plan for clients and devices"
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/20/2018

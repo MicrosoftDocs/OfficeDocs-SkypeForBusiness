@@ -1,8 +1,8 @@
 ---
 title: Apps update experience in Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.reviewer: v-tbasra
 ms.topic: article
 ms.tgt.pltfrm: cloud
