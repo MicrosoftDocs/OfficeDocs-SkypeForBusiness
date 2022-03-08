@@ -173,13 +173,13 @@ To remove Assignments and Grades for an individual user, go to **Teams Admin Cen
 
 To remove Assignments and Grades for your entire tenant, go to **Teams Admin Center**, navigate to **Teams apps > Manage apps**, and search for and select **Assignments** from the application list. Change the status setting within the Assignment application settings page to _Blocked_.
 
-## Assignments debug tool for users
+## Assignments diagnostics tool for users
 
-We have created a debugging tool to collect data for the Microsoft engineering team to investigate issues related to the Assignments feature.
+We have created a tool to collect diagnostic data for the Microsoft engineering team to investigate issues related to the Assignments feature.
 
 This tool can be accessed inside of Assignments on any screen the users experience an issue.
 
-To pull up the debug tool in Teams, users can:
+To pull up the diagnostic tool in Teams, users can:
 
 - **On desktop and web:**
   - Select Ctrl+/
@@ -187,7 +187,7 @@ To pull up the debug tool in Teams, users can:
   - Touch the screen with two fingers and rotate fingers 45 degrees, or
   - Tap on the screen with three fingers for 15 seconds
 
-Once the debug tool pops up, users will see a list of data that may be needed by Microsoft technical support.
+Once the diagnostic tool pops up, users will see a list of data that may be needed by Microsoft technical support.
 
 The data pulled may include:
 
