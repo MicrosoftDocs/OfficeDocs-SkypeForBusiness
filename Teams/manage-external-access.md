@@ -47,7 +47,7 @@ External access policies include controls for each type of federation at both th
 > [!NOTE]
 > Teams users can add apps when they host meetings or chats with people from other organizations. They can also use apps shared by people in other organizations when they join meetings or chats hosted by those organizations. The data policies of the hosting user's organization, as well as the data sharing practices of any third-party apps shared by that user's organization, are applied.
 
-# Allow or block domains
+## Allow or block domains
 
 If you add blocked domains, all other domains will be allowed; and if you add allowed domains, all other domains will be blocked. The exception to this rule is if anonymous participants are allowed in meetings. There are four scenarios for setting up external access in the Teams admin center (**Users** > **External access**):
 
