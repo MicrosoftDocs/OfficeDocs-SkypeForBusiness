@@ -3,9 +3,9 @@ title: Apps, bots, & connectors in Microsoft Teams
 ms.reviewer: 
 description: Learn about apps, bots, and connectors and how to decide which to deploy in Microsoft Teams based on your organization's profile and business requirements.
 ms.topic: article
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 audience: admin
 ms.date: 02/10/2021
 ms.service: msteams
@@ -64,6 +64,8 @@ By default, all Microsoft-provided, third-party, and custom apps are available, 
 ### App permissions and other considerations
 
 Apps are consented to by users and managed by the admin or IT pro through policies. However, on the whole, an app's permissions and risk profile are defined in the app itself.
+
+Apps are consented to by users and managed by the admin or IT pro through policies. However, app permissions and risk profile are defined in the app itself.
 
 | Ask yourself | Action |
 |--------------|--------|
