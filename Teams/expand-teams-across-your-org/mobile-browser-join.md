@@ -70,7 +70,7 @@ No set up is needed by you or your staff!
 Here are the browsers that are currently supported. We support the latest version plus two previous versions, unless otherwise indicated.
 
 |Platform  |Chrome |Safari |Edge (Chromium)|
-|---------|:---:|:---:|:---:|
+|---------|:---|:---|:---|
 |Android   | &#x2714; &sup1;      |         |         |
 |iOS    |         | &#x2714; &sup1; &sup2; |         |
 |macOS     | &#x2714; | &#x2714; &sup2;|         |
