@@ -88,7 +88,7 @@ Click **Export to Excel**, and then on the **Downloads** tab, click **Download**
 
 This exports data of all users and enables you to do simple sorting and filtering for further analysis. Exported files contain additional fields that are not available in the online report. These can be used for troubleshooting and automated workflows.
 
- You will receive a zip file named "**Calls.Export.`[identifier]`.zip**", with the identifier being an unique ID for the export that can be used for troubleshooting.
+ You will receive a zip file named "**Calls.Export.`[identifier]`.zip**", with the identifier being a unique ID for the export that can be used for troubleshooting.
 
 If you have both Calling Plans and Direct Routing, the exported file may contain data for both products. PSTN usage report file will have filename "**PSTN.calls.`[UTC date]`.csv**" and Direct Routing "**DirectRouting.calls.`[UTC date]`.csv**".
 
