@@ -125,11 +125,32 @@ For a user, the most restrictive policy setting for video takes precedence. Here
 The most restrictive policy between the meeting organizer’s policy and the user’s policy applies. For example, if an organizer has a policy that restricts video and a user’s policy doesn't restrict video, meeting participants inherit the policy of the meeting organizer and don't have access to video in meetings. This means that they can join the meeting with audio only.
 
 > [!NOTE]
-> When a user starts a group call to join by phone, the **Use phone for audio** screen doesn't appear. This is a known issue that we're working to resolve. To work around this issue, select **Phone audio** under **Other join options**.  
+> When a user starts a group call to join by phone, the **Use phone for audio** screen doesn't appear. This is a known issue that we're working to resolve. To work around this issue, select **Phone audio** under **Other join options**.
 
 #### Teams mobile clients
 
 For users on Teams mobile clients, the ability to share photos and videos during a meeting is also determined by the **IP video** or **IP video mode** setting. Depending on which policy setting takes precedence, the ability to share videos and photos won't be available. This doesn't affect screen sharing, which you configure using a separate [Screen sharing mode](meeting-policies-content-sharing.md#screen-sharing-mode) setting. Additionally, you can set a [Teams mobility policy](/powershell/module/skype/new-csteamsmobilitypolicy) to prevent mobile users from using IP video over a cellular connection, which means they must use a WiFi connection.
+
+### Allow far end camera control for point tilt zoom (PTZ) cameras
+
+Far end camera control (FECC) is a per-user policy that allows participants to control PTZ camera controls during Teams meetings.
+
+Far end camera control is available on the Teams desktop client and Teams Rooms on Windows. Any camera with mechanical PTZ and UVC controls is supported. For a list of camera certified for Teams, including both PTZ and non-PTZ cameras, see [Certified firmware versions for USB audio and video peripherals](rooms/requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals).
+
+Assign a policy to Teams Rooms resource accounts using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy?view=skype-ps) cmdlet in PowerShell that sets `TeamsCameraFarEndPTZMode` to `Disabled,` `AutoAcceptInTenant,` or `AutoAcceptAll.`
+
+| Setting value | Behavior |
+|---------------|----------|
+|Disabled | This is the default setting. When set to ‘disabled,’ no one can use PTZ camera controls. |
+|AutoAcceptAll | Any meeting participant can use PTZ camera controls. |
+|AutoAcceptInTenant | Only meeting participants in the same organization as the Teams Room resource account can use PTZ camera controls. |
+
+If a Teams Room is assigned a user policy that allows PTZ control, but hasn’t turned on video or has manually turned off PTZ, camera control won’t be available.
+
+> [!NOTE]
+> Update your camera firmware before testing PTZ controls. See the original equipment manufacturer (OEM) documentation to update firmware.
+
+Once the policy is assigned to a Teams Room, meeting participants will need to get the **PTZ Camera Controls** app to use far end camera control in meetings. See [Allow and block apps](manage-apps.md#allow-and-block-apps) to learn how to allow people in your organization to use the app.
 
 ### Media bit rate (Kbs)
 
