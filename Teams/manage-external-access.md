@@ -108,16 +108,16 @@ Admins can choose to enable or disable communications with external Teams users 
 **Using the Microsoft Teams admin center**
 
 1. In the left navigation, go to **Users** > **External access**.<br>
-2. Follow one of these steps:<be>
-    - To block Teams users in your organization from communicating with external Teams users whose accounts are not managed by an organization:<be>
-    	1) Turn off the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting. <br>
-        2) Clear the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.<br>
-    - To let Teams users in your organization communicate with external Teams users whose accounts are not managed by an organization if your Teams users have initiated the contact:<br>
-        1) Turn on the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting. <br>
-        2) Clear the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.<br>
-    - To let Teams users In your organization communicate with external Teams users whose accounts are not managed by an organization and receive requests to communicate with those external Teams users: <br>
-        1) Turn on the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.<br>
-        2) Select the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.<br>
+2. Follow one of these steps:
+    - To block Teams users in your organization from communicating with external Teams users whose accounts are not managed by an organization:
+    	1. Turn off the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
+      2. Clear the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
+    - To let Teams users in your organization communicate with external Teams users whose accounts are not managed by an organization if your Teams users have initiated the contact:
+      1. Turn on the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
+      2. Clear the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
+    - To let Teams users In your organization communicate with external Teams users whose accounts are not managed by an organization and receive requests to communicate with those external Teams users:
+      1. Turn on the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
+      2. Select the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
 
 ## Communicate with Skype users
 
@@ -220,8 +220,8 @@ Incoming chats and calls from a federation organization will land in the user's 
 
 | If you want to | Do this: |
 |:---------|:-----------------------|
-| Ensure incoming federated chats and calls arrive in the user's Teams client: | Configure your users to be TeamsOnly.
-| Ensure incoming federated chats and calls arrive in the user's Skype for Business client | Configure your users to be in any mode other than TeamsOnly. |
+|Ensure incoming federated chats and calls arrive in the user's Teams client|Configure your users to be TeamsOnly.
+|Ensure incoming federated chats and calls arrive in the user's Skype for Business client|Configure your users to be in any mode other than TeamsOnly.|
 
 ### Enable federation between users in your organization and unmanaged Teams users
 
@@ -229,9 +229,9 @@ To enable federation between users in your organization and unmanaged Teams user
 
 | If your organization is | Enable federation as follows |
 |:---------|:-----------------------|
-|Online with no Skype for Business on-premises. This includes organizations that have Teams Only users and/or Skype for Business Online users.| If using Teams admin center:<br>-Make sure **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** is enabled in **External Access**.<br>-If you want unmanaged Teams accounts to initiate chats, check the box for **External users with Teams accounts not managed by an organization can contact users in my organization**.<br><br>If using PowerShell:<br>-Ensure the tenant is enabled for federation: Get-CsTenantFederationConfiguration must show AllowTeamsConsumer=true.<br>-Ensure the user's effective value of CsExternalAccessPolicy has EnableTeamsConsumerAccess=true.<br>-Ensure the tenant is enabled for unmanaged users to initiate chats: Get-CsTenantFederationConfiguration must show AllowTeamsConsumerInbound=true.<br>-Ensure the user's effective value of CsExternalAccessPolicy has EnableTeamsConsumerInbound=true.|
-|Pure on-premises | Chat with unmanaged Teams users is not supported for pure on-premises organizations.|
-|Hybrid with some users online (in either Skype for Business or Teams) and some users on-premises. | Follow the previously described steps for online organizations. Note that chat with unmanaged Teams users is not supported for on-premises users. |
+|Online with no Skype for Business on-premises. This includes organizations that have Teams Only users and/or Skype for Business Online users.| If using Teams admin center:<br>-Make sure **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** is enabled in **External Access**.<br>-If you want unmanaged Teams accounts to initiate chats, check the box for **External users with Teams accounts not managed by an organization can contact users in my organization**.<br><br>If using PowerShell:<br>-Ensure the tenant is enabled for federation: `Get-CsTenantFederationConfiguration` must show `AllowTeamsConsumer=true`.<br>-Ensure the user's effective value of `CsExternalAccessPolicy` has `EnableTeamsConsumerAccess=true`.<br>-Ensure the tenant is enabled for unmanaged users to initiate chats: `Get-CsTenantFederationConfiguration` must show `AllowTeamsConsumerInbound=true`.<br>-Ensure the user's effective value of `CsExternalAccessPolicy` has `EnableTeamsConsumerInbound=true`.|
+|On-premises only| Chat with unmanaged Teams users is not supported for on-premises only organizations.|
+|Hybrid with some users online (in either Skype for Business or Teams) and some users on-premises. | Follow the previously described steps for online organizations. Note that chat with unmanaged Teams users is not supported for on-premises users.|
 
 > [!IMPORTANT]
 > You don't have to add any **Teams domains** as allowed domains in order to enable Teams users to communicate with unmanaged Teams users outside your organization. All **unamanged Teams domains** are allowed.
@@ -242,8 +242,8 @@ To enable federation between users in your organization and consumer users of Sk
 
 | If your organization is | Enable consumer federation as follows |
 |:---------|:-----------------------|
-| Pure online with no Skype for Business on-premises.  This includes organizations that have TeamsOnly users and/or Skype for Business Online users. | If using Teams Admin Center: <br>-Make sure **Allow users in my organization to communicate with Skype users** is enabled in External Access.<br><br>If using PowerShell: <br>-Ensure the tenant is enabled for federation: `Get-CsTenantFederationConfiguration` must show `AllowPublicUsers=true`. <br> - Ensure the user's effective value of `CsExternalAccessPolicy` has `EnablePublicCloudAccess=true`. |
-| Pure on-premises | In on-premises tools: <br> - Ensure Skype is enabled as a federated partner. <br> - Ensure `EnablePublicCloudAccess=true` for the user through `ExternalAccessPolicy` (either via global policy, site policy, or user assigned policy).|
+|Online only with no Skype for Business on-premises. This includes organizations that have TeamsOnly users and/or Skype for Business Online users. | If using Teams Admin Center: <br>-Make sure **Allow users in my organization to communicate with Skype users** is enabled in External Access.<br><br>If using PowerShell: <br>-Ensure the tenant is enabled for federation: `Get-CsTenantFederationConfiguration` must show `AllowPublicUsers=true`. <br> - Ensure the user's effective value of `CsExternalAccessPolicy` has `EnablePublicCloudAccess=true`. |
+|On-premises only| In on-premises tools: <br> - Ensure Skype is enabled as a federated partner. <br> - Ensure `EnablePublicCloudAccess=true` for the user through `ExternalAccessPolicy` (either via global policy, site policy, or user assigned policy).|
 | Hybrid with some users online (in either Skype for Business or Teams) and some users on-premises.| Follow above steps for both online and on-premises organizations.
 
 
