@@ -42,7 +42,7 @@ Use external access when:
 External access policies include controls for each type of federation at both the organization  and user levels. Turning a policy off at the organization level turns it off for all users, regardless of their user level setting. All external access settings are enabled by default.
 
 > [!NOTE]
-> If you turn off external access in your organization, external users can still join meetings through anonymous join. To learn more, see [Manage meeting settings in Teams](meeting-settings-in-teams.md).
+> If you turn off external access in your organization, people outside your organization can still join meetings through anonymous join. To learn more, see [Manage meeting settings in Teams](meeting-settings-in-teams.md).
 
 > [!NOTE]
 > Teams users can add apps when they host meetings or chats with people from other organizations. They can also use apps shared by people in other organizations when they join meetings or chats hosted by those organizations. The data policies of the hosting user's organization, as well as the data sharing practices of any third-party apps shared by that user's organization, are applied.
@@ -101,7 +101,7 @@ To communicate with another tenant, they must either enable **Allow all external
 
 ## Manage contact with external Teams users not managed by an organization
 
-Admins can choose to enable or disable communications with external Teams users that are not managed by an organization (“unmanaged”). If enabled, they can also further control if external users with unmanaged Teams accounts can initiate contact (see the following image). If external user initiation is turned off, unmanaged Teams users will not be able to search the full email address to find organization contacts and all communications with unmanaged Teams users must be initiated by organization users.
+Admins can choose to enable or disable communications with external Teams users that are not managed by an organization (“unmanaged”). If enabled, they can also further control if people with unmanaged Teams accounts can initiate contact (see the following image). If **External users with Teams accounts not managed by an organization can contact users in my organization** is turned off, unmanaged Teams users will not be able to search the full email address to find organization contacts and all communications with unmanaged Teams users must be initiated by organization users.
 
 In the Teams admin center, go to **Users** > **External access**.
 
