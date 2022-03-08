@@ -43,7 +43,7 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 | Crestron UC-P10-T (with and without handset)    | `1.0.0.80`       | August 5, 2023            | 9 |
 | Crestron UC-P8-T (with and without handset)     | `1.0.0.56`       | August 5, 2023            | 9 |
 | Crestron UC-P10-C-T (with and without handset)  | `1.0.0.80`       | August 5, 2023            | 9 |
-| Crestron UC-P8-C-T (with and without handset)   | `1.0.0.80`       | August 5, 2023            | 9 |
+| Crestron UC-P8-C-T (with and without handset)   | `1.0.0.56`       | August 5, 2023            | 9 |
 | Audiocodes C470HD                      | `1.8.293   `                                               | August 5, 2023               | 9 |
 | Yealink MP52                           | `145.15.0.6 `                                              | August 5, 2023               | 9 |
 | AudioCodes C435HD                      | `1.12.33`                                                  | August 5, 2023               | 9 |
@@ -216,6 +216,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| EPOS EXPAND Vision 3T |`1.2.4.22042.05`   | 2022 Update #1 |
 | AudioCodes RXV80 | `1.16.164 `   | 2022 Update #1 |
 | Yealink VC210 | `118.15.0.65`   | 2022 Update #1    |
 | Yealink MeetingBar A20 | `133.15.0.80 `   | 2022 Update #1   |
