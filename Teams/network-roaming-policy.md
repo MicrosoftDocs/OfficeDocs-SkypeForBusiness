@@ -32,7 +32,7 @@ This policy enables you to assign settings to network sites. The Teams client wi
 
 ## Configure the TeamsNetworkRoamingPolicy
 
-To configure the TeamsNetworkRoamingPolicy, you use the following PowerShell cmdlets:
+To configure the TeamsNetworkRoamingPolicy, use the following PowerShell cmdlets:
 
 ```PowerShell
 Get-CsTeamsNetworkRoamingPolicy
@@ -47,7 +47,7 @@ The TeamsNetworkRoamingPolicy contains the following parameters:
 
 - MediaBitRateKb - This setting determines the total average media bit rate for audio, video, and video-based app sharing transmissions in calls and meetings for the user.
 
-After you have configured the policy, you assign it to one or more network sites by using the following PowerShell cmdlet:
+After you've configured the policy, assign it to one or more network sites by using the following PowerShell cmdlet:
 
 ```PowerShell
  Set-CsTenantNetworkSite -NetworkRoamingPolicy
@@ -58,6 +58,8 @@ After you have configured the policy, you assign it to one or more network sites
  ```PowerShell
  Set-CsTenantNetworkSite -NetworkRoamingPolicy $null
  ```
+
+To enable the network roaming policy for users who are not enterprise voice enabled, you must also enable the AllowNetworkConfigurationSettingsLookup setting in TeamsMeetingPolicy. This setting is off by default.
 
 For more information about creating network sites, see [Network settings for cloud voice features](cloud-voice-network-settings.md). 
 
@@ -78,6 +80,6 @@ Set-CsTenantNetworkSite -Identity Burlington -NetworkRoamingPolicy LowBandwidthS
 
 ## Known issues
 
-When specifying the New- and Get-CsTeamsNetworkRoamingPolicy in Teams Online PowerShell v 2.0.0, you will see extra data being displayed.
+When specifying the New- and Get-CsTeamsNetworkRoamingPolicy in Teams Online PowerShell v 2.0.0, you'll see extra data being displayed.
 
 
