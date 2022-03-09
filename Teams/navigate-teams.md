@@ -182,6 +182,7 @@ Channel moderation allows you to control who can post and reply to messages. Cha
 - Type a headline, change its background color, or add a background image for the headline area.
 
 - Type the subject of your announcement in the Add a subhead area, then the body of your message, and select Send button.
+
     ![Mobile announcement](media/kaizala-to-teams-image10.png)
 
 **Step 3**: Select channels for Message broadcast.
