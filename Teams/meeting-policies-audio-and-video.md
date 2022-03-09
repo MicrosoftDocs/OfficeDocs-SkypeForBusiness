@@ -131,13 +131,11 @@ The most restrictive policy between the meeting organizer’s policy and the use
 
 For users on Teams mobile clients, the ability to share photos and videos during a meeting is also determined by the **IP video** or **IP video mode** setting. Depending on which policy setting takes precedence, the ability to share videos and photos won't be available. This doesn't affect screen sharing, which you configure using a separate [Screen sharing mode](meeting-policies-content-sharing.md#screen-sharing-mode) setting. Additionally, you can set a [Teams mobility policy](/powershell/module/skype/new-csteamsmobilitypolicy) to prevent mobile users from using IP video over a cellular connection, which means they must use a WiFi connection.
 
-### Allow far end camera control for point tilt zoom (PTZ) cameras
+### Far end camera control (FECC) for point tilt zoom (PTZ) cameras
 
-Far end camera control (FECC) is a per-user policy that allows participants to control PTZ camera controls during Teams meetings.
+Far end camera control is a policy assigned to Teams Rooms resource accounts that allows participants to control a PTZ camera during Teams meetings. The feature is available on the Teams desktop client and Teams Rooms on Windows. Any camera with mechanical PTZ and UVC controls is supported. For a list of camera certified for Teams, including both PTZ and non-PTZ cameras, see [Certified firmware versions for USB audio and video peripherals](rooms/requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals).
 
-Far end camera control is available on the Teams desktop client and Teams Rooms on Windows. Any camera with mechanical PTZ and UVC controls is supported. For a list of camera certified for Teams, including both PTZ and non-PTZ cameras, see [Certified firmware versions for USB audio and video peripherals](rooms/requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals).
-
-Assign a policy to Teams Rooms resource accounts using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy?view=skype-ps) cmdlet in PowerShell that sets `TeamsCameraFarEndPTZMode` to `Disabled,` `AutoAcceptInTenant,` or `AutoAcceptAll.`
+Manage who can use far end camera control in a meeting by assigning a policy to Teams Rooms resource accounts using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy?view=skype-ps) cmdlet in PowerShell that sets `TeamsCameraFarEndPTZMode` to `Disabled,` `AutoAcceptInTenant,` or `AutoAcceptAll.`
 
 | Setting value | Behavior |
 |---------------|----------|
