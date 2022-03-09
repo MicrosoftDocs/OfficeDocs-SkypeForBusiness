@@ -22,13 +22,13 @@ description: Manage access to third party apps in Teams.
 
 # Manage access to third party apps in Teams
 
-New Teams third party apps will be available for users in Outlook and Office.com soon. Users in Targeted Release will be able to acquire and use these apps in Teams, Outlook, or Office.com.  For more information on Targeted release rollout, see this post on [Message Center (MC)](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter/:/messages/MC334280).
+Microsoft Teams allows you to extend your Teams apps across Microsoft Office and Outlook. To get more done without changing apps, we're making third party apps for Teams available for users in Outlook and Office.com. Users in Targeted Release can receive and view these apps in Teams, Outlook, or Office.com. For more information, see [Message Center (MC)](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter/:/messages/MC334280).
 
-The New Teams third party apps are subject to the Teams administration policies available at [Teams admin center](https://admin.teams.microsoft.com/dashboard) and also their own terms and privacy policies.
+Teams third party apps are subject to the Teams administration policies available at [Teams admin center](https://admin.teams.microsoft.com/dashboard) and also their own terms and privacy policies.
 
-As an admin, you can manage access to the new Teams third party apps for your users.
+As an admin, you can manage access to the new Teams third party apps for your users:
 
-1. You can restrict access for the new Teams third party apps to view only in Teams by changing the release option to Standard release in TAC. For more information, see [Set up the Standard or Targeted release options](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true).
+1. Change the release option to Standard release in TAC. For more information, see [Set up the Standard or Targeted release options](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true).
 
 1. If you're unable to change users to Standard release, [add a custom permission policy](teams-app-permission-policies.md#create-a-custom-app-permission-policy) to block the app and [assign the custom policy to the user](policy-assignment-overview.md).
 
@@ -44,8 +44,8 @@ As an admin, you can check the following table to manage access to the new Teams
 |Request|Solution|Portal|Global Admin|Teams Services Admin|Office Admin|
 |--|--|---|---|--|--|
 |I want the user to see the app only in Teams, and not see in Outlook or in Office.|Move the users from the Targeted release to Standard release.|Microsoft admin center|Yes|No|No|
-|I cannot move my users from Targeted release to Standard release.|Remove the user’s user assignment to the app in Teams.|Teams Admin Center|Yes|Yes|No|
-|I cannot remove their user assignment to the app in Teams, the policies are complicated.|Block the app in Teams. The end users will not see this new app in Teams, Outlook, or Office.|Teams Admin Center|Yes|Yes|No|
+|I can't move my users from Targeted release to Standard release.|Remove the user’s user assignment to the app in Teams.|Teams Admin Center|Yes|Yes|No|
+|I can't remove their user assignment to the app in Teams, the policies are complicated.|Block the app in Teams. The end users won't see this new app in Teams, Outlook, or Office.|Teams Admin Center|Yes|Yes|No|
 
 ## Block a third party app for users
 
