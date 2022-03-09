@@ -138,7 +138,7 @@ To learn more about the ways that Teams users and Skype users can communicate, i
 
 Organization level settings can be configured using [Set-CSTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration) and user level settings can be configured using [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy).
 
-The following table shows the cmdlet parameters used for configuring federation.
+The following table shows the cmdlet parameters used for configuring federation. Note that configuring federation with specific domains can only be done at the organization level and not at the user level.
 
 |Configuration|Organization level (Set-CSTenantFederationConfiguration)|User level (Set-CsExternalAccessPolicy)|
 |:-------|:--------|:------------------|
