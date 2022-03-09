@@ -28,13 +28,13 @@ Organizations newly onboarding to Teams will only be able to use Teams PowerShel
 
 ## Current organizations (non TPM active)
 
-Organizations who have not used TPM in the last 3 months (Jan’22 – Mar’22), will only be able to use TPM 4.0.0 or above starting from April 1, 2022.
+Organizations who haven't used TPM in the last three months (Jan’22 – Mar’22), will only be able to use TPM 4.0.0 or above starting from April 1, 2022.
 
 
 
 ## Current organizations (TPM active)
 
-Organizations who have been using TPM in the last 3 months (Jan’22 – Mar’22) will have more time to update to TPM 4.x.x. More details to follow soon.
+Organizations who have been using TPM in the last three months (Jan’22 – Mar’22) will have more time to update to TPM 4.x.x. More details to follow soon.
 
 
 
@@ -48,9 +48,9 @@ Organizations who have been using TPM in the last 3 months (Jan’22 – Mar’2
   Update-Module MicrosoftTeams
   ```
 
--	If updating from Teams PowerShell Module version 1.1.6 - update your scripts to use `Connect-MicrosoftTeams` instead of `New-CsOnlineSession`.
+-	If, updating from Teams PowerShell Module version 1.1.6 - update your scripts to use `Connect-MicrosoftTeams` instead of `New-CsOnlineSession`.
 
-- During the update, it is also suggested to not use TPM 4.x.x/3.x.x alongside versions older than 3.0.0. For e.g., using versions 4.0.0 & 2.6.0 together for different admin operations in the same organization is not recommended. 
+- During the update, it's also suggested to not use TPM 4.x.x/3.x.x alongside versions older than 3.0.0. For example, using versions 4.0.0 & 2.6.0 together for different admin operations in the same organization isn't recommended. 
 
 
 
