@@ -47,17 +47,19 @@ You can use the Teams admin center to configure group call pickup and call deleg
 
 To configure group call pickup:
 
-1. In the Teams admin center, go to **Users** > **Voice**.
+1. In the Teams admin center, go to **Users** > **Manage users** and select a user.
 
-2. Under **Group call pickup**, select **Add people**. 
+2. On the user details page, go to the **Voice** tab.
 
-3. Specify settings for **Call delay and order**.
+3. Under **Group call pickup**, select **Add people**. 
+
+4. Specify settings for **Call delay and order**.
 
 To configure delegation, on the same page go to **Call delegation** and select **Add people**.
 
 ## Use PowerShell
 
-You can user PowerShell to configure call forward and delegation settings for your users.  You'll use the following cmdlets, which are available in Teams PowerShell module version 3.0.1-preview:
+You can user PowerShell to configure call forward and delegation settings for your users.  You'll use the following cmdlets, which are available in Teams PowerShell module version 4.0 or later:
 
 - [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings?view=teams-ps) - shows call forwarding settings, delegates, and delegator information for a user.
 
