@@ -218,23 +218,23 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
-| Logi Rallybar    |   1.5.705   | 2022 Update #1    |
+| Logi Rallybar    |   `1.5.705`   | 2022 Update #1    |
 | EPOS EXPAND Vision 3T |`1.2.4.22042.05`   | 2022 Update #1 |
 | AudioCodes RXV80 | `1.16.164 `   | 2022 Update #1 |
 | Yealink VC210 | `118.15.0.65`   | 2022 Update #1    |
 | Yealink MeetingBar A20 | `133.15.0.80 `   | 2022 Update #1   |
 | Yealink MeetingBar A30 | `133.15.0.80 `   | 2022 Update #1   |
-| Yealink CTP18 | ` 137.15.0.49 `    | 2022 Update #1   |
+| Yealink CTP18 | `137.15.0.49`    | 2022 Update #1   |
 | Poly Studio X30 | `3.9.0` | 2021 Update #2F   |
 | Poly Studio X50 | `3.9.0` | 2021 Update #2F   |
 | Poly TC8        | `3.9.0`          | 2021 Update #2F   |
 | Poly Studio X30 | `3.8.0`          | 2021 Update #2    |
 | Poly Studio X50 | `3.8.0`          | 2021 Update #2    |
 | Poly TC8        | `3.8.0`          | 2021 Update #2    |
-| Logi Rallybar    | 1.3.538         | 2021 Update #2B    |
-| Logi Rallybar Mini | 1.3.538       | 2021 Update #2B    |
-| Logi Rallybar    | 1.4.228         | 2021 Update #2B    |
-| Logi Rallybar Mini | 1.4.228       | 2021 Update #2B    |
+| Logi Rallybar    | `1.3.538`         | 2021 Update #2B    |
+| Logi Rallybar Mini | `1.3.538`       | 2021 Update #2B    |
+| Logi Rallybar    | `1.4.228`         | 2021 Update #2B    |
+| Logi Rallybar Mini | `1.4.228`       | 2021 Update #2B    |
 | Poly Studio X30 | `3.7.0`          | 2021 Update #2A    |
 | Poly Studio X50 | `3.7.0`          | 2021 Update #2A    |
 | Poly TC8        | `3.7.0`          | 2021 Update #2A    |
