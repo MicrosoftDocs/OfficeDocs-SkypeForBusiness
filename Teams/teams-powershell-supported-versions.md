@@ -16,7 +16,7 @@ appliesto:
 
 # Teams PowerShell Module - Supported Versions
 
-Microsoft Teams PowerShell Module versions in the 4.x.x series will be the only versions supported going forward. All earlier versions are on the retirement path.
+Microsoft Teams PowerShell Module (TPM) versions in the 4.x.x series will be the only versions supported going forward. All earlier versions are on the retirement path.
 
 
 
@@ -49,6 +49,8 @@ Organizations who have been using TPM in the last 3 months (Jan’22 – Mar’2
   ```
 
 -	If updating from Teams PowerShell Module version 1.1.6 - update your scripts to use `Connect-MicrosoftTeams` instead of `New-CsOnlineSession`.
+
+- During the update, it is also suggested to not use TPM 4.x.x/3.x.x alongside versions older than 3.0.0. For e.g., using versions 4.0.0 & 2.6.0 together for different admin operations in the same organization is not recommended. 
 
 
 
