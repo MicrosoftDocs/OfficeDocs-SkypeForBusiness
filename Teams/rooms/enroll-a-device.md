@@ -34,16 +34,17 @@ Follow these procedures to set up your hardware before attempting the enrollment
 1. Log in as administrator by following [Performing operations as the Admin user of the MTR device](#performing-operations-as-the-admin-user-of-the-mtr-device).
 1. In the Windows ***Search*** field (bottom-left section of the screen), enter **cmd** (either long press the screen or right select, and choose ***Run as administrator***).  
 1. Run the following command (double quotes at end of command are important):
-   - If using single ***proxy server***:  `bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL\_PROXY <proxyserver>:<port> ""`
+   - If using single ***proxy server***:  bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL_PROXY <proxyserver>:<port> ""
 
-      *Example:* 
-`bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL\_PROXY contosoproxy.corp.net:8080 ""`
+      *Example:*
+bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL_PROXY contosoproxy.corp.net:8080 ""
       
 
-   - If using a ***pac*** file:  `bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT <pac file url> ""`
+   - If using a ***pac*** file:  bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT <pac file url>
 
       
-      *Example:* `bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT `http://contosoproxy.corp.net/proxy.pac` ""`
+      *Example:*
+bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT `http://contosoproxy.corp.net/proxy.pac`
       
 
 ### Enabling TPM settings
@@ -93,8 +94,6 @@ The following hosts must be allowed if you have **traffic allowlist** enabled wi
 agent.rooms.microsoft.com<br>
 global.azure-devices-provisioning.net<br>
 gj3ftstorage.blob.core.windows.net<br>
-iothubsgagwt5wgvwg6.azure-devices.net<br>
-blobssgagwt5wgvwg6.blob.core.windows.net<br>
 mmrstgnoamiot.azure-devices.net<br>
 mmrstgnoamstor.blob.core.windows.net<br>
 mmrprodapaciot.azure-devices.net<br>
@@ -117,7 +116,7 @@ The Enrollment process involves these steps:
    ![Screenshot of settings and self-enrollment keys.](../media/software-installation-005new.png)
  
 > [!NOTE]
-In case you need to install the agent without the Teams App on the MTR being able to login to Teams. You can use our enrollment key as an optional process.Go to  '?'  (Help) on the top right corner of the portal, then select 'Download Installer' when installing the agent Place the ‘Self-Enrollment key’ (previously downloaded from the portal) on the **C:\Rigel** directory of the device.
+If you need to install the agent without the Teams App on the MTR being able to login to Teams, you can use our enrollment key as an optional process. Go to  '?'  (Help) on the top right corner of the portal, then select 'Download key (optional)' when installing the agent Place the ‘Self-Enrollment key’ (previously downloaded from the portal) on the **C:\Rigel** directory of the device.
 
 ## Installation
 
