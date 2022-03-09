@@ -145,7 +145,7 @@ Manage who can use far end camera control in a meeting by assigning a policy to 
 
 If a Teams Room is assigned a user policy that allows PTZ control, but hasn’t turned on video or has manually turned off PTZ, camera control won’t be available.
 
-Once the policy is assigned to a Teams Room resource account, meeting participants will need to get the **PTZ Camera Controls** app to use far end camera control in meetings. See [Allow and block apps](manage-apps.md#allow-and-block-apps) to learn how to allow people in your organization to use the app.
+Once the policy is assigned to a Teams Room resource account, meeting participants will need to get the **PTZ Camera Controls** app to use far end camera control in meetings.  See [Allow and block apps](manage-apps.md#allow-and-block-apps) to learn how to make the app available for your users.
 
 > [!NOTE]
 > Update your camera firmware before testing PTZ controls. See the original equipment manufacturer (OEM) documentation to update firmware.
