@@ -100,7 +100,7 @@ External access (formerly known as federation) lets your Teams and Skype for Bus
 Guest access in Teams lets individuals outside your organization access teams and channels. You can use the guest access settings to control which features guests can or can't use. Guest access is turned on by default. To learn more, see [Guest access in Teams](./guest-access.md).
 
 > [!NOTE]
-> For more on External access and Guest access see here - [Communicate with users from other organizations in Microsoft Teams](communicate-with-users-from-other-organizations.md)
+> For more on external access and guest access see here - [Communicate with users from other organizations in Microsoft Teams](communicate-with-users-from-other-organizations.md)
 
 
 |Ask yourself|Action |
