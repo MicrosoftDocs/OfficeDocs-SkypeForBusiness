@@ -370,7 +370,7 @@ items:
               href: guest-access.md
             - name: Guest experience
               href: guest-experience.md
-            - name: Turn on guest access or turn off
+            - name: Turn guest access on or off
               href: set-up-guests.md
             - name: View guests in a team
               href: view-guests.md
