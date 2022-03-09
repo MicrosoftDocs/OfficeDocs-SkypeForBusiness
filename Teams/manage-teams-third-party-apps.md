@@ -50,9 +50,9 @@ As an admin, you can check the following table to manage access to the new Teams
 ## Block a third party app for users
 
 1. In the TAC, go to Teams apps > Permission policies.
-1. Click **Add**.
+1. Select **Add**.
 1. Enter the policy name and description.
-1. Under Third-party apps, click the drop-down and select **Block specific apps and allow all others**.
+1. Under Third-party apps, select the drop-down and select **Block specific apps and allow all others**.
 1. To add the app you want to block, select **Block apps**.  
 A dialog box appears at the right.
 1. Enter the app name in the search field, select the app from the list and select **Add**.
