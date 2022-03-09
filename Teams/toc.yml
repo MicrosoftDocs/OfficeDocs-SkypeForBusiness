@@ -1484,11 +1484,11 @@ items:
         - name: Use administrative units to manage devices
           href: administrative-unit.md
               
-- name: Apps, bots, and connectors
+- name: Govern apps, bots, and connectors in Teams
   items: 
     - name: Overview
       href: deploy-apps-microsoft-teams-landing-page.md
-    - name: Apps from Microsoft
+    - name: Manage sample apps provided by Microsoft
       items:
         - name: Manage the Bookings app
           href: bookings-app-admin.md
@@ -1503,22 +1503,22 @@ items:
         - name: Manage the Shifts app
           href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
           
-    - name: Third-party apps
+    - name: Administer third-party apps
       items:
-        - name: App certification
+        - name: About Microsoft certified apps
           href: /microsoft-365-app-certification/overview
         - name: Purchase third-party apps for Teams
           href: purchase-third-party-apps.md
     - name: App templates for Teams
       href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
 
-    - name: How to build and customize apps
+    - name: Govern custom line-of-business apps
       items:
         - name: Integrate with Power Platform
           href: teams-power-platfom-integration.md
         - name: Manage Power Platform apps in the Microsoft Teams admin center
           href: manage-power-platform-apps.md
-        - name: Publish a custom app submitted through the Teams App Submission API
+        - name: Publish a custom app submitted using the Teams App Submission API
           href: submit-approve-custom-apps.md
         - name: Publish a custom app by uploading an app package
           href: upload-custom-apps.md
@@ -1531,7 +1531,7 @@ items:
 
     - name: Manage apps for Teams
       items:
-        - name: Overview
+        - name: Overview of app management for admins
           href: manage-apps.md
         - name: App policies
           items: 
@@ -1545,11 +1545,11 @@ items:
             href: teams-custom-app-policies-and-settings.md
         - name: Tailor Teams apps based on license
           href: pin-teams-apps-based-on-license.md
-        - name: View app permissions and grant admin consent
+        - name: View permissions of apps and grant admin consent
           href: app-permissions-admin-center.md
         - name: Resource-specific consent
           href: resource-specific-consent.md
-        - name: Apps permissions and considerations
+        - name: How to understand permissions of apps
           href: app-permissions.md
         - name: Admin settings for apps in Teams
           href: admin-settings.md
@@ -1557,7 +1557,7 @@ items:
           href: Office-365-custom-connectors.md
         - name: Teams apps behavior for non-standard users
           href: non-standard-users.md
-        - name: Update experience for apps
+        - name: Updates apps to newer versions
           href: apps-update-experience.md
 
 - name: Industries and government guidance
