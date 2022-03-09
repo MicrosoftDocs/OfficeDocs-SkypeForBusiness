@@ -41,7 +41,7 @@ Use external access when:
 
 External access policies include controls for each type of federation at both the organization  and user levels. Turning a policy off at the organization level turns it off for all users, regardless of their user level setting. All external access settings are enabled by default.
 
-The Teams admin center controls external access at the organization level. If you want to control external access at the user lever, you must use PowerShell. See [Using PowerShell](#using-powershell) below for more information.
+The Teams admin center controls external access at the organization level. Most options (except domain restrictions) are available at the user level by using PowerShell. See [Using PowerShell](#using-powershell) below for more information.
 
 > [!NOTE]
 > If you turn off external access in your organization, people outside your organization can still join meetings through anonymous join. To learn more, see [Manage meeting settings in Teams](meeting-settings-in-teams.md).
@@ -138,13 +138,13 @@ To learn more about the ways that Teams users and Skype users can communicate, i
 
 Organization level settings can be configured using [Set-CSTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration) and user level settings can be configured using [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy).
 
-The following table shows the cmdlet parameters used for configuring federation. Note that configuring federation with specific domains can only be done at the organization level and not at the user level.
+The following table shows the cmdlet parameters used for configuring federation.
 
 |Configuration|Organization level (Set-CSTenantFederationConfiguration)|User level (Set-CsExternalAccessPolicy)|
 |:-------|:--------|:------------------|
 |Enable/disable federation with other Teams organizations and Skype for Business|`-AllowFederatedUsers`|`-EnableFederationAccess`|
-|Enable federation with specific domains|`-AllowedDomains`|N/A|
-|Disable federation with specific domains|`-Blocked Domains`|N/A|
+|Enable federation with specific domains|`-AllowedDomains`|Not available|
+|Disable federation with specific domains|`-Blocked Domains`|Not available|
 |Enable/disable federation with Teams users that are not managed by an organization|`-AllowTeamsConsumer`|`-EnableTeamsConsumerAccess`|
 |Enable/disable Teams users not managed by an organization from initiating conversations|`-AllowTeamsConsumerInbound`|`-EnableTeamsConsumerInbound`|
 |Enable/disable federation with Skype|`-AllowPublicUsers`|`-EnablePublicCloudAccess`|
