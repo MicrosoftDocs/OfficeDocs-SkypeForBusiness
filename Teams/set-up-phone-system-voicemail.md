@@ -94,10 +94,36 @@ The following information is about configuring Cloud Voicemail to work with Team
 
 ## Enable protected voicemail in your organization
 
-When someone leaves a voicemail message for a user in your organization, the voicemail is delivered to the user's mailbox as an email message attachment. Using mail flow rules to apply message encryption, you can prevent those voicemail messages from being forwarded to other recipients. When you enable protected voicemail, users can listen to protected voicemail messages by calling into their voicemail mailbox or by opening the message in Outlook, Outlook on the web, or in Outlook for Android or iOS. Protected voicemail messages can't be opened in Skype for Business or Microsoft Teams.
+When someone leaves a voicemail message for a user in your organization, the voicemail is delivered to the user's mailbox as an email message attachment. 
 
-> [!NOTE]
-> Messages are encrypted only if the voicemail is from an internal sender. Messages from external senders are not encrypted.
+Using Microsoft Information Protection, you can encrypt the voicemail messages left by both internal and external callers. You can also prevent the user from  forwarding these messages. This feature is supported for users with Exchange Online mailboxes.
+
+To encrypt the voicemail message, you can create a sensitivity label. With the auto-labeling feature, you can ensure that the label will be applied automatically to incoming voicemail messages. 
+
+When you enable protected voicemail, users can listen to protected voicemail messages by calling into their voicemail mailbox or by opening the message in Outlook, Outlook on the web, or Outlook for Android or iOS. Protected voicemail messages can't be opened in Microsoft Teams or Skype for Busimess.
+
+To create a sensitivity label for voicemail, see [Use sensitivity labels](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions). Select **In Outlook, enforce one of the following restrictions**, and then select the **Do Not Forward** option.
+
+To create the auto-labelling policy to apply a sensitivity label to voicemail, see [How to configure auto-labeling policies](/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange), and specify the following specific settings:
+
+-	For **Choose info you want this label applied to**, select **Custom policy**.
+
+-	For **Choose locations where you want to apply the label**, select **Locations: Exchange for all users**.
+
+-	For  **Set up common or advanced rules**,  select **Advanced rules**.
+
+- Exchange rules:
+    - Conditions:<br>
+        - **Header matches pattern:**<br>
+              Content-Class = Voice-CA
+       -  **Sender IP address is:**<br>
+               13.107.64.0/18, 52.112.0.0/14, 52.120.0.0/14, 52.238.119.141/32, 52.244.160.207/32
+
+- For **Choose a label to auto-apply**, select the sensitivity label you created for voicemail in the step above.
+
+- For **additional settings for email**, select **Apply encryption to email received from outside your organization**, and specify the Rights Management owner.
+
+The IP V4 ranges specified in Sender IP address is based on the list in ID 12 in [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams).
 
 For more information about message encryption, see [Define mail flow rules to encrypt email messages](/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email).
 
