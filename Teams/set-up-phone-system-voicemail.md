@@ -102,7 +102,7 @@ To encrypt the voicemail message, you can create a sensitivity label. With the a
 
 When you enable protected voicemail, users can listen to protected voicemail messages by calling into their voicemail mailbox or by opening the message in Outlook, Outlook on the web, or Outlook for Android or iOS. Protected voicemail messages can't be opened in Microsoft Teams or Skype for Busimess.
 
-To create a sensitivity label for voicemail, see [Use sensitivity labels](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions). In Outlook, users can enforce restriction with the **Do Not Forward** or **Encrypt-Only** options. Select the **Do Not Forward** option.
+To create a sensitivity label for voicemail, see [Use sensitivity labels](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions). Select **In Outlook, enforce one of the following restrictions**, and then select the **Do Not Forward** option.
 
 To create the auto-labelling policy to apply a sensitivity label to voicemail, see [How to configure auto-labeling policies](/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange), and specify the following specific settings:
 
@@ -112,16 +112,16 @@ To create the auto-labelling policy to apply a sensitivity label to voicemail, s
 
 -	For  **Set up common or advanced rules**,  select **Advanced rules**.
 
-- For Exchange rules:
+- Exchange rules:
     - Conditions:<br>
-        ***Header matches pattern:***
-    - Content-Class = Voice-CA<br>
-        **Sender IP address is:**<br>
-        13.107.64.0/18, 52.112.0.0/14, 52.120.0.0/14, 52.238.119.141/32, 52.244.160.207/32
+        - **Header matches pattern:**<br>
+              Content-Class = Voice-CA
+       -  **Sender IP address is:**<br>
+               13.107.64.0/18, 52.112.0.0/14, 52.120.0.0/14, 52.238.119.141/32, 52.244.160.207/32
 
 - For **Choose a label to auto-apply**, select the sensitivity label you created for voicemail in the step above.
 
-- Fo additional settings for email, select **Apply encryption to email received from outside your organization**, and specify the Rights Management owner.
+- For **additional settings for email**, select **Apply encryption to email received from outside your organization**, and specify the Rights Management owner.
 
 The IP V4 ranges specified in Sender IP address is based on the list in ID 12 in [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams).
 
