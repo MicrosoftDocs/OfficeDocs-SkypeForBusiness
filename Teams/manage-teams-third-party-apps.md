@@ -28,7 +28,7 @@ The New Teams third party apps are subject to the Teams administration policies 
 
 As an admin, you can manage access to the new Teams third party apps for your users.
 
-1. You can restrict access for the new Teams third party apps to view only in Teams by changing the release option to Standard release in TAC. For more information, see [Set up the Standard or Targeted release options](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide).
+1. You can restrict access for the new Teams third party apps to view only in Teams by changing the release option to Standard release in TAC. For more information, see [Set up the Standard or Targeted release options](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true).
 
 1. If you're unable to change users to Standard release, [add a custom permission policy](teams-app-permission-policies.md#create-a-custom-app-permission-policy) to block the app and [assign the custom policy to the user](policy-assignment-overview.md).
 
@@ -41,13 +41,13 @@ As an admin, you can manage access to the new Teams third party apps for your us
 
 As an admin, you can check the following table to manage access to the new Teams third party apps for your users:
 
-|Customer problem|Solution|Portal|Global Admin|Teams Services Admin|Office Admin|
+|Request|Solution|Portal|Global Admin|Teams Services Admin|Office Admin|
 |--|--|---|---|--|--|
 |I want the user to see the app only in Teams, and not see in Outlook or in Office.|Move the users from the Targeted release to Standard release.|Microsoft admin center|Yes|No|No|
 |I cannot move my users from Targeted release to Standard release.|Remove the user’s user assignment to the app in Teams.|Teams Admin Center|Yes|Yes|No|
 |I cannot remove their user assignment to the app in Teams, the policies are complicated.|Block the app in Teams. The end users will not see this new app in Teams, Outlook, or Office.|Teams Admin Center|Yes|Yes|No|
 
-## Block a third party app
+## Block a third party app for users
 
 1. In the TAC, go to Teams apps > Permission policies.
 1. Click **Add**.
