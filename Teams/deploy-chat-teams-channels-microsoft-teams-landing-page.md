@@ -242,7 +242,7 @@ The use of Office 365 for Government - GCC (Government Community Cloud) is appro
 
 | Ask yourself | Action |
 |--------------|--------|
-| Will I need to deploy Teams in a Office 365 for Government – GCC environment? | For deployment considerations, see [Plan for Office 365 Government - GCC deployments](plan-for-government-gcc.md).|
+| Will I need to deploy Teams in an Office 365 for Government – GCC environment? | For deployment considerations, see [Plan for Office 365 Government - GCC deployments](plan-for-government-gcc.md).|
 |||
 
 ## Next steps
