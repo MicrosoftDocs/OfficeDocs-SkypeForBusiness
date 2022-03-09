@@ -156,11 +156,11 @@ Set-CsTenantFederationConfiguration -AllowFederatedUsers $false
 Set-CsExternalAccessPolicy -EnableFederationAccess $true
 ```
 
-In this example, although the user level policy is enabled, users would not be able to communicate with managed Teams users or Skype for Business users because this type of federation was turned off at the organization level. Therefore, if you want to enable these controls for a subset of users you must turn on the control at a organization level and create two group policies – one that applies to the users that should have the control turned off, and one that applies to the users that should have the control turned on.
+In this example, although the user level policy is enabled, users would not be able to communicate with managed Teams users or Skype for Business users because this type of federation was turned off at the organization level. Therefore, if you want to enable these controls for a subset of users you must turn on the control at an organization level and create two group policies – one that applies to the users that should have the control turned off, and one that applies to the users that should have the control turned on.
 
 ## Limit external access to specific people
 
-If you've enabled any of the external access controls at a organization level, you can limit external access to specific users using PowerShell.
+If you've enabled any of the external access controls at an organization level, you can limit external access to specific users using PowerShell.
 
 You can use the following example script, substituting *Control* for the control you want to change, *PolicyName* for the name you want to give the policy, and *UserName* for each user for whom you want to enable/disable external access.
 
