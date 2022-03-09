@@ -25,7 +25,7 @@ description: Learn about the join experience for Teams Virtual Visits on browser
 
 # Manage the join experience for Teams Virtual Visits on browsers
 
-Microsoft Teams makes it easy for people to join virtual appointments on their devices without having to download Teams. For a more seamless experience, attendees can join appointments such as healthcare visits, financial consultations, and educator office hours from a web browser on their desktop or mobile device. Attendees don't need to install the Teams app on their device.
+Microsoft Teams makes it easy for people to join virtual appointments without having to download Teams. For a more seamless experience, attendees can join appointments such as healthcare visits and financial consultations from a desktop or mobile browser. Attendees don't need to install the Teams app on their device.
 
 With browser join, when an attendee joins an appointment, they aren't prompted to download Teams. Instead, Teams opens in a browser, where the attendee can select **Join now** to join. <!--With this feature, keep in mind that if Teams is already installed on an attendee's mobile device, Teams will open in a mobile browser and not in the app.-->
 
@@ -43,7 +43,7 @@ Currently, browser join is available for appointments that are scheduled through
 
 Schedulers in your organization can turn on this feature for specific appointment types and for individual appointments in the Bookings app.
 
-After this feature is turned on, the confirmation email or SMS text that’s sent to attendees will contain a meeting join link that opens Teams in a desktop or mobile browser. On Android mobile devices, Teams opens in Chrome. On iOS mobile devices, Teams opens in Safari.
+After this feature is turned on, the confirmation email or SMS text that’s sent to attendees will contain a meeting join link that opens Teams in a desktop or mobile browser. For a list of supported browsers, see [Supported browsers](#supported-browsers).
 
 #### Turn on browser join for an appointment type
 
@@ -59,11 +59,11 @@ In Bookings, select **New booking**, and then turn on **Allow attendees to join 
 
 ### Appointments scheduled through the Teams EHR connector
 
-No set up is needed by you or your staff!
+No setup is needed by you or your staff!
 
-**Integration with Cerner EHR**: The Teams EHR connector supports patients joining virtual appointments through mobile. At the time of the appointment, patients can join by tapping the link in the SMS text message. The patient chooses the browser they want, and then Teams opens in that browser.
+**Integration with Cerner EHR**: The Teams EHR connector supports patients joining virtual appointments through a link in the SMS text message. At the time of the appointment, patients can join by tapping the link in the SMS text message, and Teams opens in a browser.
 
-**Integration with Epic EHR**: The Teams EHR connector supports patients joining virtual appointments through MyChart web and mobile. At the time of the appointment, patients can start the visit from MyChart by using the **Begin virtual visit** button. The patient chooses the browser they want, and then Teams opens in that browser.
+**Integration with Epic EHR**: The Teams EHR connector supports patients joining virtual appointments through MyChart web and mobile. At the time of the appointment, patients can start the visit from MyChart by using the **Begin virtual visit** button, and Teams opens in a browser.
 
 ## Supported browsers
 
@@ -83,10 +83,7 @@ Here are the browsers that are currently supported. We support the latest versio
 
 ## Things to consider
 
-The staff member who conducts the visit can share their screen from their Teams desktop, mobile, or web client with an attendee who joins from a mobile browser. However, attendees can't share their screen from a mobile browser.
-
-> [!NOTE]
-> We're adding more capabilities to the join experience in future releases of Teams, so check back for the most up-to-date information. To stay on top of upcoming Teams features, check out the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
+The staff member who conducts the visit can share their screen from their Teams desktop, mobile, or web client with an attendee who joins from a desktop or mobile browser. However, attendees can't share their screen from a desktop or mobile browser.
 
 ## Related articles
 
