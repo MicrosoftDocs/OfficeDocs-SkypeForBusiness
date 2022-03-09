@@ -54,4 +54,4 @@ Office app admins can't control Teams third-party apps. If you're an office app 
 |Remove access to the new apps for all users by blocking the app across your organization. For more information, see [Allow or block apps](manage-apps.md#allow-and-block-apps).|Teams admin center|Yes|Yes|
 
 ## See also
-[About admins roles in Microsoft 365.](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)
+[About admins roles in Microsoft 365](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true)
