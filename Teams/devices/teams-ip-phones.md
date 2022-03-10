@@ -40,10 +40,12 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
+| AudioCodes C450HD                      | `C450HD_TEAMS_0.225`                                                  | April 22, 2022               | 7.1x |
+| AudioCodes C448HD(Cap Mode Only)       | `C450HD_TEAMS_0.225`                                                  | April 22, 2022               | 7.1x |
 | Crestron UC-P10-T (with and without handset)    | `1.0.0.80`       | August 5, 2023            | 9 |
 | Crestron UC-P8-T (with and without handset)     | `1.0.0.56`       | August 5, 2023            | 9 |
 | Crestron UC-P10-C-T (with and without handset)  | `1.0.0.80`       | August 5, 2023            | 9 |
-| Crestron UC-P8-C-T (with and without handset)   | `1.0.0.80`       | August 5, 2023            | 9 |
+| Crestron UC-P8-C-T (with and without handset)   | `1.0.0.56`       | August 5, 2023            | 9 |
 | Audiocodes C470HD                      | `1.8.293   `                                               | August 5, 2023               | 9 |
 | Yealink MP52                           | `145.15.0.6 `                                              | August 5, 2023               | 9 |
 | AudioCodes C435HD                      | `1.12.33`                                                  | August 5, 2023               | 9 |
@@ -216,21 +218,23 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Logi Rallybar    |   `1.5.705`   | 2022 Update #1    |
+| EPOS EXPAND Vision 3T |`1.2.4.22042.05`   | 2022 Update #1 |
 | AudioCodes RXV80 | `1.16.164 `   | 2022 Update #1 |
 | Yealink VC210 | `118.15.0.65`   | 2022 Update #1    |
 | Yealink MeetingBar A20 | `133.15.0.80 `   | 2022 Update #1   |
 | Yealink MeetingBar A30 | `133.15.0.80 `   | 2022 Update #1   |
-| Yealink CTP18 | ` 137.15.0.49 `    | 2022 Update #1   |
+| Yealink CTP18 | `137.15.0.49`    | 2022 Update #1   |
 | Poly Studio X30 | `3.9.0` | 2021 Update #2F   |
 | Poly Studio X50 | `3.9.0` | 2021 Update #2F   |
 | Poly TC8        | `3.9.0`          | 2021 Update #2F   |
 | Poly Studio X30 | `3.8.0`          | 2021 Update #2    |
 | Poly Studio X50 | `3.8.0`          | 2021 Update #2    |
 | Poly TC8        | `3.8.0`          | 2021 Update #2    |
-| Logi Rallybar    | 1.3.538         | 2021 Update #2B    |
-| Logi Rallybar Mini | 1.3.538       | 2021 Update #2B    |
-| Logi Rallybar    | 1.4.228         | 2021 Update #2B    |
-| Logi Rallybar Mini | 1.4.228       | 2021 Update #2B    |
+| Logi Rallybar    | `1.3.538`         | 2021 Update #2B    |
+| Logi Rallybar Mini | `1.3.538`       | 2021 Update #2B    |
+| Logi Rallybar    | `1.4.228`         | 2021 Update #2B    |
+| Logi Rallybar Mini | `1.4.228`       | 2021 Update #2B    |
 | Poly Studio X30 | `3.7.0`          | 2021 Update #2A    |
 | Poly Studio X50 | `3.7.0`          | 2021 Update #2A    |
 | Poly TC8        | `3.7.0`          | 2021 Update #2A    |
@@ -290,7 +294,7 @@ The following are the latest Microsoft Teams Panels app and firmware versions.
 |Product release| Release date | Microsoft Teams app version | Company Portal version | Admin Agent version |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
 |2022 Update #1A | February 25, 2022 | `1449/1.0.97.2022730007` | `5.0.5304.0`  | `322` |
-|2022 Update #1  | February 22, 2022 |`1449/1.0.96.2021726501` | `5.0.5304.0 `  | `322` |
+|2022 Update #1  | February 22, 2022 |`1449/1.0.97.2021726501` | `5.0.5304.0 `  | `322` |
 |2021 Update #1  | August 12, 2021 |`1449/1.0.97.2021070601`   | `5.0.5211.0`   |  `268`|
 
 #### Firmware versions
