@@ -769,8 +769,6 @@ items:
               href: operator-connect-conferencing-plan.md
             - name: Configure Operator Connect Conferencing
               href: operator-connect-conferencing-configure.md
-        - name: Audio Conferencing Complimentary Dial Out Period
-          href: complimentary-dial-out-period.md
         - name: Reference
           items: 
             - name: Audio Conferencing supported languages
@@ -781,6 +779,8 @@ items:
               href: audio-conferencing-zones.md
             - name: Country and region availability for Audio Conferencing
               href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+            - name: Audio Conferencing Complimentary Dial Out Period
+              href: complimentary-dial-out-period.md
             - name: Videos - Audio Conferencing in Teams
               href: ./audio-conferencing-in-office-365.md
 
