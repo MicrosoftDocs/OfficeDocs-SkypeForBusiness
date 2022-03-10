@@ -683,34 +683,32 @@ items:
               href: teams-live-events/live-events-recording-policies.md
     - name: Audio conferencing
       items: 
-        - name: Plan your deployment
-          href: deploy-audio-conferencing-teams-landing-page.md
-        - name: Audio Conferencing in Microsoft 365
+        - name: Audio Conferencing in M365
           href: audio-conferencing-in-office-365.md
-        - name: On-network Conferencing for Audio Conferencing
-          href: audio-conferencing-on-network.md
-        - name: Audio Conferencing common questions
-          href: audio-conferencing-common-questions.md
-        - name: Try or purchase Audio Conferencing in Microsoft 365
-          href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
-        - name: Operator Connect Conferencing
+        - name: Planning
           items:
-            - name: Overview
-              href: operator-connect-conferencing-plan.md
-            - name: Configure Operator Connect Conferencing
-              href: operator-connect-conferencing-configure.md
-        - name: Extended dial-out minutes for US and Canada
-          href: dial-out-minutes-canada-us.md
-        - name: Audio Conferencing Complimentary Dial Out Period
-          href: complimentary-dial-out-period.md
-        - name: Audio Conferencing subscription "Dial-Out"/"Call Me At" benefit
-          href: audio-conferencing-subscription-dial-out.md
-        - name: Set up Audio Conferencing
-          href: set-up-audio-conferencing-in-teams.md
-        - name: Set up Audio Conferencing - quickstart for small and medium businesses
-          href: audio-conferencing-smb.md
-        - name: Assign Microsoft as the audio conferencing provider
-          href: /SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+            - name: Plan your deployment
+              href: deploy-audio-conferencing-teams-landing-page.md
+            - name: On-network Conferencing for Audio Conferencing
+              href: audio-conferencing-on-network.md
+            - name: Audio Conferencing common questions
+              href: audio-conferencing-common-questions.md
+            - name: Try or purchase Audio Conferencing in Microsoft 365
+              href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
+        - name: Deploy
+          items:
+            - name: Set up Audio Conferencing
+              href: set-up-audio-conferencing-in-teams.md
+            - name: Set up Audio Conferencing - quickstart for small and medium businesses
+              href: audio-conferencing-smb.md
+        - name: Manage your audio conferencing service
+          items:
+            - name: Extended dial-out minutes for US and Canada
+              href: dial-out-minutes-canada-us.md
+            - name: Audio Conferencing subscription "Dial-Out"/"Call Me At" benefit
+              href: /SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+            - name: Audio Conferencing pay-per-minute
+              href: audio-conferencing-pay-per-minute.md
         - name: Manage your audio conferencing bridge
           items: 
             - name: Change the phone numbers on your Audio Conferencing bridge
@@ -725,9 +723,7 @@ items:
               href: set-up-meeting-dial-out-confirmation.md
         - name: Manage the Audio Conferencing settings for your organization
           href: manage-the-audio-conferencing-settings-for-my-organization-in-teams.md
-        - name: Audio Conferencing pay-per-minute
-          href: audio-conferencing-pay-per-minute.md
-        - name: Manage the Audio Conferencing settings for users
+        - name: Manage Audio Conferencing settings for users
           items: 
             - name: Overview
               href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
@@ -765,8 +761,14 @@ items:
               href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
             - name: Mask phone numbers in Teams meetings
               href: ptsn-mask-phone-numbers.md
-        - name: Country and region availability for Audio Conferencing
-          href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+        - name: Operator Connect Conferencing
+          items:
+            - name: Overview
+              href: operator-connect-conferencing-plan.md
+            - name: Configure Operator Connect Conferencing
+              href: operator-connect-conferencing-configure.md
+        - name: Audio Conferencing Complimentary Dial Out Period
+          href: complimentary-dial-out-period.md
         - name: Reference
           items: 
             - name: Audio Conferencing supported languages
@@ -775,6 +777,8 @@ items:
               href: phone-numbers-for-audio-conferencing-in-teams.md
             - name: Country and region zones for Audio Conferencing
               href: audio-conferencing-zones.md
+            - name: Country and region availability for Audio Conferencing
+              href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
             - name: Videos - Audio Conferencing in Teams
               href: ./audio-conferencing-in-office-365.md
 
