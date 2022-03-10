@@ -51,7 +51,7 @@ Contoso should consider redesigning the auto attendant and call queue system. If
 ## How to buy Microsoft Teams Phone Standard – Virtual User licenses
 
 1. Sign in to the Microsoft 365 admin center.
-2. Go to **Billing** > **Purchase services** > **Add-ons**
+2. Go to **Billing** > **Purchase services** > **Add-ons**.
 3. Scroll to the end to find the **Microsoft Teams Phone Standard – Virtual User** license. Select **Buy now**.
 
    > [!NOTE]
