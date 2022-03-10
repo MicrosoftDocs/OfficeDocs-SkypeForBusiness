@@ -33,17 +33,17 @@ You must be a Teams service admin to make these changes. See [Use Teams administ
 2. Under **Date range**, select a range.
 3. Under **Apps**, select an app and then select **Run report**.
 
-    ![Screenshot of the Teams information protection license report in the Teams admin center with callouts.](../media/teams-info-protection-license-report-dropdown-with-callouts.png "Screenshot of the Teams information protection license report in the Teams admin center with callouts")
+    ![Screenshot of  drop down of Teams information protection license report in the Teams admin center with callouts.](../media/teams-info-protection-license-report-dropdown-with-callouts.png "Screenshot of  drop down of Teams information protection license report in the Teams admin center with callouts.")
 
 4. For each category, metrics on users with license, users without license, seeded capacity, and utilized capacity can be viewed. 
 
-    ![Screenshot of the Teams information protection license report in the Teams admin center with callouts.](../media/teams-info-protection-license-report-chart-with-callouts.png "Screenshot of the Teams information protection license report in the Teams admin center with callouts")
+    ![Screenshot of the summary chart of Teams information protection license report in the Teams admin center of change notification with callouts.](../media/teams-info-protection-license-report-chart-with-callouts.png "Screenshot of the summary chart of Teams information protection license report in the Teams admin center of change notification with callouts.")
 
 5. The data can be exported by clicking on export button. The table data can be switched by clicking on the tabs for Teams change notification API, Teams patch API, Teams export APIs (chat), and Teams export APIs (teams). 
 
-    ![Screenshot of the Teams information protection license report in the Teams admin center with callouts.](../media/teams-info-protection-license-report-legend-tabs-with-callouts.png "Screenshot of the Teams information protection license report in the Teams admin center with callouts")
+    ![Screenshot of the different tabs of Teams information protection license report in the Teams admin center of tabs with callouts.](../media/teams-info-protection-license-report-legend-tabs-with-callouts.png "Screenshot of the different tabs of Teams information protection license report in the Teams admin center of tabs with callouts.")
 
-    ![Screenshot of the Teams information protection license report in the Teams admin center with callouts.](../media/teams-info-protection-license-report-change-notification-with-callouts.png "Screenshot of the Teams information protection license report in the Teams admin center with callouts")
+    ![Screenshot of change notification tab of Teams information protection license report in the Teams admin center with callouts.](../media/teams-info-protection-license-report-change-notification-with-callouts.png "Screenshot of change notification tab of Teams information protection license report in the Teams admin center with callouts.")
 
 
 ## Interpret the report
