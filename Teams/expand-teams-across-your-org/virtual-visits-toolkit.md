@@ -33,7 +33,7 @@ This toolkit is intended to help you help your customers and clients successfull
 
 [Resources for your team](#resources-for-your-team): <br> Articles and videos to help your team get more comfortable conducting Virtual Visits.
 
-[Resources for your users](#resources-for-your-clients): <br>
+[Resources for your clients](#resources-for-your-clients): <br>
 A link to Microsoft's support content, which includes a video about joining a Virtual Visit.<br>
 An infographic that you can customize for your organization.
 
@@ -94,6 +94,8 @@ Make the most of Virtual Visits by making sure your staff members know how to co
 ## Resources for your clients
 
 [Learn how to join a virtual visit](https://support.microsoft.com/office/join-a-bookings-appointment-as-an-attendee-95cea12d-2220-421f-a663-6efb20913c7f)
+
+![Image of the financial services infographic](../media/financial-infographic.png)
 
 ### Customize your infographic
 
