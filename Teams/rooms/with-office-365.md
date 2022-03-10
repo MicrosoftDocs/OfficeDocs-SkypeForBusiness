@@ -40,11 +40,11 @@ If you're creating resource accounts for Teams Rooms, the UPN must match the SMT
 
 ## Overview
 
-**Step 1 -** [Create a new resource account](#create-a-resource-account). Or, if a room mailbox already exists and you want to convert it to a resource account, you can [Modify an existing Exchange room mailbox](?tabs=existing-account#create-a-resource-account).
+**Step 1 -** [Create a new resource account](#create-a-resource-account). Or, if a room mailbox already exists and you want to convert it to a resource account, you can [modify an existing Exchange room mailbox](?tabs=existing-account#create-a-resource-account).
 
-**Step 2 -**  Then, [Configure your account](#configure-mailbox-properties) for Teams Meetings.
+**Step 2 -**  Then, [configure your account](#configure-mailbox-properties) for Teams Meetings.
 
-**Step 3 -**  If the resource account is going to be associated with a shared device, such as Teams displays with hot-desking, [Turn off password expiration](#turn-off-password-expiration).
+**Step 3 -**  If the resource account is going to be associated with a shared device, such as Teams displays with hot-desking, [turn off password expiration](#turn-off-password-expiration).
 
 **Step 4 -**  Lastly, [assign a meeting room license](#assign-a-meeting-room-license) so the account can access Microsoft Teams.
 
@@ -52,7 +52,7 @@ After you create and configure your resource accounts, there are [additional ste
 
 ## Create a resource account
 
-> [!NOTE]
+> [!TIP]
 > When naming your resource accounts, we recommend using a standard naming convention to the beginning of the e-mail address. This will help with creating dynamic groups to ease management in Azure Active Directory. For example, you could use "mtr-" for all resource accounts that will be associated with Microsoft Teams Rooms.
 
 > [!TIP]
@@ -60,7 +60,7 @@ After you create and configure your resource accounts, there are [additional ste
 
 Create a resource account using a method from one of the following tabs:
 
-#### [In Microsoft 365 admin center](#tab/m365-admin-center)
+#### [**In Microsoft 365 admin center**](#tab/m365-admin-center)
 
 1. Sign in to the Microsoft 365 admin center.
 
@@ -201,8 +201,6 @@ Set-CalendarProcessing -Identity "ConferenceRoom01" -AutomateProcessing AutoAcce
 
 For detailed syntax and parameter information, see [Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
-   ---
-
 ## Turn off password expiration
 
 If the resource account password expires, the device won't sign in after the expiration date. The password will then need to be changed for the resource account and then updated on each device. To avoid this, you can turn off password expiration.
@@ -327,6 +325,10 @@ Set-AzureADUserLicense -ObjectId ConferenceRoom01@contoso.com -AssignedLicenses 
 #### [**Active Directory 1.0**](#tab/active-directory1-license/)
 
 1. Connect to MSOnline PowerShell.
+
+   ```PowerShell
+   Connect-MsolService
+   ```
 
 For details about Active Directory, see [Azure Active Directory (MSOnline).](/powershell/azure/active-directory/overview?view=azureadps-1.0)
 
