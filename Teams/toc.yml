@@ -1418,8 +1418,8 @@ items:
           href: rooms/multi-tenant-management-customer.md
         - name: Audit logs for Rooms activities
           href: rooms/multi-tenant-auditing.md
-        - name: Standards and Rooms Planner 
-          href: rooms/standards-and-room-planner.md
+        - name: Health and Usage Reports
+          href: rooms/health-and-usage-reports.md
 
     - name: Devices
       items: 
