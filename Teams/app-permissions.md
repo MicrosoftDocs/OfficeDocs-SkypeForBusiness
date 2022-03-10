@@ -64,11 +64,11 @@ None
 
 ### Required permissions
 
-* RECEIVE_MESSAGE, REPLYTO_MESSAGE. The bot can receive messages from users and reply to them.<sup>1</sup>
+* RECEIVE_MESSAGE, REPLYTO_MESSAGE: The bot can receive messages from users and reply to them.<sup>1</sup>
 
-* POST_MESSAGE_USER. After a user has sent a message to a bot, the bot can send the user direct messages (also called *proactive messages* at any time.
+* POST_MESSAGE_USER: After a user has sent a message to a bot, the bot can send the user direct messages (also called *proactive messages* at any time.
 
-* GET_CHANNEL_LIST. Bots added to teams can get a list of names and IDs of the channels in a team.
+* GET_CHANNEL_LIST: Bots added to teams can get a list of names and IDs of the channels in a team.
 
 ### Optional permissions
 
@@ -82,7 +82,7 @@ None
 * RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
 * RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM
 
-* SEND_FILES, RECEIVE_FILES.<sup>2</sup> Controls whether a bot can send and receive files in personal chat (not yet supported for group chat or channels).
+* SEND_FILES, RECEIVE_FILES:<sup>2</sup> Controls whether a bot can send and receive files in personal chat (not yet supported for group chat or channels).
 
 ### Considerations
 
