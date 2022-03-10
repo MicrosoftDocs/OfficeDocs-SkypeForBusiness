@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Manage access to third party Teams apps across Microsoft 365. 
+description: Manage access to third-party Teams apps across Microsoft 365. 
 ---
 
 # Manage access to third-party Teams apps across Microsoft 365
@@ -29,13 +29,13 @@ The Third-party Teams apps are subject to the Teams administration policies avai
 --->
 
 <!--- 
-As an admin, you can manage access to the new Teams third party apps for your users:
+As an admin, you can manage access to the new Teams third-party apps for your users:
 
 1. Change the release option to Standard release in TAC. For more information, see [Set up the Standard or Targeted release options](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true).
 
 1. If you're unable to change users to Standard release, [add a custom permission policy](teams-app-permission-policies.md#create-a-custom-app-permission-policy) to block the app and [assign the custom policy to the user](policy-assignment-overview.md).
 
-1. If you're unable to remove the user assignment to the app in Teams, you can block the new third party app for all users. For more information, see [Allow or block apps](manage-apps.md#allow-and-block-apps)
+1. If you're unable to remove the user assignment to the app in Teams, you can block the new third-party app for all users. For more information, see [Allow or block apps](manage-apps.md#allow-and-block-apps)
 
 > [!Note]
 > Third-party apps may be subject to their own terms and privacy policies.
