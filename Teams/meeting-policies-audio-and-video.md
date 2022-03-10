@@ -133,7 +133,7 @@ For users on Teams mobile clients, the ability to share photos and videos during
 
 ### Far end camera control (FECC) for point tilt zoom (PTZ) cameras
 
-Far end camera control is a policy assigned to Teams Rooms resource accounts that allows PTZ cameras that are connected to Teams Rooms to be controlled by meeting participants in the Teams client app during meetings.
+Far end camera control is a policy that can be assigned to Teams Rooms resource accounts. It allows PTZ cameras that are connected to Teams Rooms to be controlled by meeting participants in the Teams client app during meetings.
 
 To use far end camera control, meeting participants will need to get the **PTZ Camera Controls** app.  See [Allow and block apps](manage-apps.md#allow-and-block-apps) to learn how to make the app available in your organization's app store.
 
