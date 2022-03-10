@@ -39,7 +39,7 @@ As an admin, you can manage access to the new Teams third party apps for your us
 > Third-party apps may be subject to their own terms and privacy policies.
  --->
 
-Admins can control user access to Teams third party apps, check the following table to block app access for specific users or all users based on the admin roles:
+Admins can control user access to the Teams third party apps, check the following table to block app access for specific users or all users based on the admin roles:
 
 If you're an Office Apps admin, contact your Global admin or Teams admin to manage app access.
 
