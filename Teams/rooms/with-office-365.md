@@ -274,7 +274,7 @@ Set-ADUser -Identity ConferenceRoom01@contoso.com -PasswordNeverExpires $true
 
 ---
 
-## Assign meeting room licenses
+## Assign a meeting room license
 
 The resource account needs a Microsoft 365 or Office 365 license to sign into Microsoft Teams.
 
