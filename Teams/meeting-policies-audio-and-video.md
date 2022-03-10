@@ -133,19 +133,21 @@ For users on Teams mobile clients, the ability to share photos and videos during
 
 ### Far end camera control (FECC) for point tilt zoom (PTZ) cameras
 
-Far end camera control is a policy assigned to Teams Rooms resource accounts that allows participants to control a PTZ camera during Teams meetings. The feature is available on the Teams desktop client and Teams Rooms on Windows. Any camera with mechanical PTZ and UVC controls is supported. For a list of cameras certified for Teams, including both PTZ and non-PTZ cameras, see [Certified firmware versions for USB audio and video peripherals](rooms/requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals).
+Far end camera control is a policy assigned to Teams Rooms resource accounts that allows PTZ cameras that are connected to Teams Rooms to be controlled by meeting participants in the Teams client app during meetings.
 
-Manage who can use far end camera control in a meeting by assigning a policy to Teams Rooms resource accounts using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy?view=skype-ps) cmdlet in PowerShell that sets `TeamsCameraFarEndPTZMode` to `Disabled,` `AutoAcceptInTenant,` or `AutoAcceptAll.`
+To use far end camera control, meeting participants will need to get the **PTZ Camera Controls** app.  See [Allow and block apps](manage-apps.md#allow-and-block-apps) to learn how to make the app available in your organization's app store.
+
+To specify who can use far end camera control in a meeting, create and assign a new policy to a Teams Rooms resource account using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy?view=skype-ps) cmdlet, or use [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) to modify an existing policy. Set the `TeamsCameraFarEndPTZMode` parameter to one of the following values:
 
 | Setting value | Behavior |
 |---------------|----------|
 |Disabled | This is the default setting. When set to ‘disabled,’ no one can use PTZ camera controls. |
-|AutoAcceptAll | Any meeting participant can use PTZ camera controls. |
-|AutoAcceptInTenant | Only meeting participants in the same organization as the Teams Room resource account can use PTZ camera controls. |
+|AutoAcceptAll | PTZ camera controls are automatically available to any meeting participant. |
+|AutoAcceptInTenant | PTZ camera controls are automatically available only to participants in the same organization as the Teams Room. |
 
-If a Teams Room is assigned a user policy that allows PTZ control, but hasn’t turned on video or has manually turned off PTZ, camera control won’t be available.
+When `TeamsCameraFarEndPTZMode` is set to `AutoAcceptAll` or `AutoAcceptInTenant`, camera control can still be manually turned off from the Teams Room at any point during a meeting. Camera control is also unavailable when the camera is turned off.
 
-Once the policy is assigned to a Teams Room resource account, meeting participants will need to get the **PTZ Camera Controls** app to use far end camera control in meetings.  See [Allow and block apps](manage-apps.md#allow-and-block-apps) to learn how to make the app available for your users.
+Any camera with mechanical PTZ and UVC controls is supported. For a list of cameras certified for Teams, including both PTZ and non-PTZ cameras, see [Certified firmware versions for USB audio and video peripherals](rooms/requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals).
 
 > [!NOTE]
 > Update your camera firmware before testing PTZ controls. See the original equipment manufacturer (OEM) documentation to update firmware.
