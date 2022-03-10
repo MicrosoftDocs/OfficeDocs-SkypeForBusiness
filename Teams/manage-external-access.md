@@ -41,7 +41,7 @@ Use external access when:
 
 External access policies include controls for each type of federation at both the organization  and user levels. Turning a policy off at the organization level turns it off for all users, regardless of their user level setting. All external access settings are enabled by default.
 
-The Teams admin center controls external access at the organization level. If you want to control external access at the user lever, you must use PowerShell. See [Using PowerShell](#using-powershell) below for more information.
+The Teams admin center controls external access at the organization level. Most options (except domain restrictions) are available at the user level by using PowerShell. See [Using PowerShell](#using-powershell) below for more information.
 
 > [!NOTE]
 > If you turn off external access in your organization, people outside your organization can still join meetings through anonymous join. To learn more, see [Manage meeting settings in Teams](meeting-settings-in-teams.md).
@@ -138,13 +138,13 @@ To learn more about the ways that Teams users and Skype users can communicate, i
 
 Organization level settings can be configured using [Set-CSTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration) and user level settings can be configured using [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy).
 
-The following table shows the cmdlet parameters used for configuring federation. Note that configuring federation with specific domains can only be done at the organization level and not at the user level.
+The following table shows the cmdlet parameters used for configuring federation.
 
 |Configuration|Organization level (Set-CSTenantFederationConfiguration)|User level (Set-CsExternalAccessPolicy)|
 |:-------|:--------|:------------------|
 |Enable/disable federation with other Teams organizations and Skype for Business|`-AllowFederatedUsers`|`-EnableFederationAccess`|
-|Enable federation with specific domains|`-AllowedDomains`|N/A|
-|Disable federation with specific domains|`-Blocked Domains`|N/A|
+|Enable federation with specific domains|`-AllowedDomains`|Not available|
+|Disable federation with specific domains|`-Blocked Domains`|Not available|
 |Enable/disable federation with Teams users that are not managed by an organization|`-AllowTeamsConsumer`|`-EnableTeamsConsumerAccess`|
 |Enable/disable Teams users not managed by an organization from initiating conversations|`-AllowTeamsConsumerInbound`|`-EnableTeamsConsumerInbound`|
 |Enable/disable federation with Skype|`-AllowPublicUsers`|`-EnablePublicCloudAccess`|
@@ -156,11 +156,11 @@ Set-CsTenantFederationConfiguration -AllowFederatedUsers $false
 Set-CsExternalAccessPolicy -EnableFederationAccess $true
 ```
 
-In this example, although the user level policy is enabled, users would not be able to communicate with managed Teams users or Skype for Business users because this type of federation was turned off at the organization level. Therefore, if you want to enable these controls for a subset of users you must turn on the control at a organization level and create two group policies – one that applies to the users that should have the control turned off, and one that applies to the users that should have the control turned on.
+In this example, although the user level policy is enabled, users would not be able to communicate with managed Teams users or Skype for Business users because this type of federation was turned off at the organization level. Therefore, if you want to enable these controls for a subset of users you must turn on the control at an organization level and create two group policies – one that applies to the users that should have the control turned off, and one that applies to the users that should have the control turned on.
 
 ## Limit external access to specific people
 
-If you've enabled any of the external access controls at a organization level, you can limit external access to specific users using PowerShell.
+If you've enabled any of the external access controls at an organization level, you can limit external access to specific users using PowerShell.
 
 You can use the following example script, substituting *Control* for the control you want to change, *PolicyName* for the name you want to give the policy, and *UserName* for each user for whom you want to enable/disable external access.
 
