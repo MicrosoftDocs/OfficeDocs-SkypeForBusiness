@@ -20,9 +20,10 @@ description: Reporting node data for health and usage of reports
 f1keywords: 
 ---
 
-# Health
+# Health and Usage Reports
 
 The reporting node contains data for the health and usage of your Microsoft Managed Rooms. The overview surfaces tenant wide health trends of your rooms. In the health tab of reports, all rooms are listed with their corresponding health score and number of meetings impacted by a ticket. Room usage based on the calendar information is visible under the “Usage” tab.
+## Health
 
 Navigate to the health report for all rooms by going to Reports, then click on the “Health” tab. 
 
@@ -41,8 +42,6 @@ Clicking on a room listed in this view will display more details.
 The bar graph displays the number of tickets on each day. Tickets opened on that respective day are shown in blue, while orange represents on-going tickets opened prior to the respective day. Clicking on a day on the graph will filter the pie-chart and table to the relevant tickets. To reverse the filter, navigate with the breadcrumbs or click on the graph.
 
 Categorization of tickets are represented in the donut chart. Interacting with this will filter the timeline graph and table. To reverse the filter, navigate with the breadcrumbs or click on the graph.
-
-
 
 ![A screenshot of active tickets bar graph](../media/health-and-usage-002.png)
 
@@ -91,7 +90,7 @@ This graph shows the average health (definition in Health section) for all the r
 
 Two tables  show the most reliable and least reliable rooms based on health. For the full list view, select Health, then sort the list by the Health column.
 
-# Usage
+## Usage
 
 Navigate to the Usage report for all rooms by selecting **Reports**, then **Usage**.
 
