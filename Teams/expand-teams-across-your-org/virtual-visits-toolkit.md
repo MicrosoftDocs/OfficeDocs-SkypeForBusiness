@@ -95,11 +95,11 @@ Make the most of Virtual Visits by making sure your staff members know how to co
 
 [Learn how to join a virtual visit](https://support.microsoft.com/office/join-a-bookings-appointment-as-an-attendee-95cea12d-2220-421f-a663-6efb20913c7f)
 
-![Image of the financial services infographic](../media/vv-finserv-thumbnail.png)
-
-![Image of the retail infographic](../media/vv-retail-thumbnail.png)
-
-![Image of the healthcare infographic](../media/vv-healthcare-thumbnail.png)
+| Graphic                | Description              |
+| :------------------- | -------------------: |
+| ![Image of the financial services infographic](../media/vv-finserv-thumbnail.png) <br> [Download as a PDF]() [Download as a PowerPoint]() | Customizable infographic for your financial services organization |
+| ![Image of the retail infographic](../media/vv-retail-thumbnail.png) <br> [Download as a PDF]() [Download as a PowerPoint]() | Customizable infographic for your retail organization |
+| ![Image of the healthcare infographic](../media/vv-healthcare-thumbnail.png) <br> [Download as a PDF]() [Download as a PowerPoint]() | Customizable infographic for your healthcare organization |
 
 ### Customize your infographic
 
