@@ -95,7 +95,7 @@ Make the most of Virtual Visits by making sure your staff members know how to co
 
 [Learn how to join a virtual visit](https://support.microsoft.com/office/join-a-bookings-appointment-as-an-attendee-95cea12d-2220-421f-a663-6efb20913c7f)
 
-![Image of the financial services infographic](../media/financial-infographic.png)
+![Image of the financial services infographic](../media/vv-finserv-thumbnail.png)
 
 ### Customize your infographic
 
