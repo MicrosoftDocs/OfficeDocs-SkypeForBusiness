@@ -213,7 +213,7 @@ To specify who can use far end camera control in a meeting, create and assign a 
 
 When `TeamsCameraFarEndPTZMode` is set to `AutoAcceptAll` or `AutoAcceptInTenant`, camera control can still be manually turned off from the Teams Room at any point during a meeting. Camera control is also unavailable when the camera is turned off.
 
-Any camera with mechanical PTZ and UVC controls is supported. For a list of cameras certified for Teams, including both PTZ and non-PTZ cameras, see [Certified firmware versions for USB audio and video peripherals](rooms/requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals). This policy is not yet supported on cameras with digital PTZ controls or on Teams Rooms on Android.  
+Any camera with mechanical PTZ and UVC controls is supported. For a list of cameras certified for Teams, including both PTZ and non-PTZ cameras, see [Certified firmware versions for USB audio and video peripherals](rooms/requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals). This feature is not yet supported on cameras with digital PTZ controls or on Teams Rooms on Android.  
 
 > [!NOTE]
 > Update your camera firmware before testing PTZ controls. See the original equipment manufacturer (OEM) documentation to update firmware.
