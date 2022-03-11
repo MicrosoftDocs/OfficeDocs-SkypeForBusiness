@@ -31,9 +31,9 @@ You can control end-user access to the Teams third-party apps using the followin
 
 |Scenario|Portal|Global admin|Teams administrator|
 |--|---|---|--|
-| Only the end-users in Targeted release can access the new app. <br> Move the users to Standard release. See [Set up the Standard or Targeted release options](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true) | Microsoft 365 admin center | Yes | No |
-| Manage access to the new app for specific users. <br> See [Add a custom permission policy](teams-app-permission-policies.md#create-a-custom-app-permission-policy) and [assign the custom policy to a user](policy-assignment-overview.md). | Teams admin center | Yes | Yes |
-| Manage access to the new apps for all users across your organization. <br> See [Allow or block apps](manage-apps.md#allow-and-block-apps). | Teams admin center | Yes | Yes |
+| Only the end-users in Targeted release can access the new app. Move the users to Standard release. See [Set up the Standard or Targeted release options](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true) | Microsoft 365 admin center | Yes | No |
+| Manage access to the new app for specific users. See [Add a custom permission policy](teams-app-permission-policies.md#create-a-custom-app-permission-policy) and [assign the custom policy to a user](policy-assignment-overview.md). | Teams admin center | Yes | Yes |
+| Manage access to the new apps for all users across your organization. See [Allow or block apps](manage-apps.md#allow-and-block-apps). | Teams admin center | Yes | Yes |
 
 > [!NOTE]
    > Users who have installed an existing in-market add-ins of the same app in Outlook and Office continues to use the app. The add-ins are not Teams apps and Teams administrators can not govern the access.
