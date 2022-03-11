@@ -1445,7 +1445,7 @@ items:
           - name: Remote sign in and sign out
             href: devices/remote-sign-in-and-sign-out.md
           - name: Authentication best practices for Android devices
-          href: devices/authentication-best-practices-for-android-devices.md          
+            href: devices/authentication-best-practices-for-android-devices.md          
         - name: Manage and monitor
           items:
             - name: Manage your devices in Teams
