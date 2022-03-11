@@ -1,8 +1,8 @@
 ---
 title: Upload your custom apps in the Microsoft Teams admin center
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.reviewer: joglocke, vaibhava
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -111,12 +111,10 @@ In most cases, after you complete an app update the new version automatically ap
 * A bot was added or removed
 * An existing bot's "botId" property changed
 * An existing bot's "isNotificationOnly" property changed
-* The bot's "supportsFiles" property changed
-* A Messaging extension was added or removed
+* A bot's SupportsCalling, SupportsVideo, and SupportsFiles capability was added
+* A messaging extension was added
 * A new connector was added
-* A new static tab was added
-* A new configurable tab was added
-* Properties inside "webApplicationInfo" changed
+* Permissions inside "Authorization" were added or changed
 
 ![Screenshot of apps list, showing apps that have a new version available.](media/manage-your-custom-apps-update1.png)
 
