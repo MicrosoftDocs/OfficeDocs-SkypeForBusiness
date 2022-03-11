@@ -370,7 +370,7 @@ items:
               href: guest-access.md
             - name: Guest experience
               href: guest-experience.md
-            - name: Turn on guest access or turn off
+            - name: Turn guest access on or off
               href: set-up-guests.md
             - name: View guests in a team
               href: view-guests.md
@@ -844,6 +844,8 @@ items:
           href: dial-pad-configuration.md
         - name: Music on Hold
           href: music-on-hold.md
+        - name: Configure call settings for your users
+          href: user-call-settings.md
 
     - name: PSTN connectivity options
       items:
@@ -1573,6 +1575,8 @@ items:
           href: non-standard-users.md
         - name: Update experience for apps
           href: apps-update-experience.md
+        - name: Manage access to third-party Teams apps across Microsoft 365
+          href: manage-third-party-teams-apps.md
 
 - name: Industries and government guidance
   items: 
@@ -1848,6 +1852,8 @@ items:
           href: teams-powershell-managing-teams.md
         - name: Teams PowerShell release notes
           href: teams-powershell-release-notes.md
+        - name: Teams PowerShell supported versions
+          href: teams-powershell-supported-versions.md
         - name: Move from Skype for Business Online Connector to the Teams PowerShell module
           href: teams-powershell-move-from-sfbo.md
         - name: Cmdlet reference for Teams
