@@ -110,6 +110,12 @@ The Bookings web app gives you additional capabilities. For example, you can pub
 
 To learn more, see [Microsoft Bookings](/microsoft-365/bookings/bookings-overview).
 
+## Get insight into Virtual Visits usage
+
+The [Virtual Visits usage report](../teams-analytics-and-reports/virtual-visits-usage-report.md) in the Microsoft Teams admin center gives admins an overview of Teams Virtual Visits activity in your organization. The report shows detailed analytics for virtual appointments including Bookings visits.
+
+You can view key metrics such as lobby wait time and visit duration. Use this information to gain insight into usage trends to help you optimize Virtual Visits to deliver better business outcomes.
+
 ## Related articles
 
 - [Manage the join experience for Teams Virtual Visits on mobile browsers](mobile-browser-join.md)
