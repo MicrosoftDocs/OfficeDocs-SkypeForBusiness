@@ -22,7 +22,7 @@ description: Manage access to third-party Teams apps across Microsoft 365.
 
 # Manage access to third-party Teams apps across Microsoft 365
 
-The app users can use the Teams apps across Microsoft Outlook and Microsoft Office.com after app providers update these apps to work in Outlook and on Office.com. Currently, only the end-users in Targeted release can view and use a few select apps in Teams, Outlook, or Office.com. The existing Teams admin experience also applies to governing access to these apps. A notification about this change is available in the [message center](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter/:/messages/MC334280). As a Teams administrator, you can allow specific end-users to use the updated apps or block the access to the updated apps in Teams, in Outlook, and on Office.com.
+The app users can use the Teams apps across Microsoft Outlook and Microsoft Office.com after app providers update these apps to work in Outlook and on Office.com. Currently, only the end-users in Targeted release can view and use a few select apps in Teams, Outlook, and Office.com. The existing Teams admin experience also applies to governing access to these apps. A notification about this change is available in the [message center](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter/:/messages/MC334280). As a Teams administrator, you can allow specific end-users to use the updated apps or block the access to the updated apps in Teams, in Outlook, and on Office.com.
 
 <!--- To be checked:
 The Third-party Teams apps are subject to the Teams administration policies available at [Teams admin center](https://admin.teams.microsoft.com/dashboard).
