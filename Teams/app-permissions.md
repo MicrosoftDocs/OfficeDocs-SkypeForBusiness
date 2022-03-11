@@ -102,7 +102,7 @@ None
 
 * When a file is sent to a bot, the file leaves the corporate network. Sending and receiving files requires user approval for each file. 
 
-* By default, bots don't have the ability to act on behalf of the user, but bots can ask users to sign in as soon as the user signs in. The bot will have an access token with which it can do additional things. It depends on the bot and where the user signs in: a bot is an Azure AD app registered at https://apps.dev.microsoft.com/ and can have its own set of permissions.
+* By default, bots don't have the ability to act on behalf of the user, but bots can ask users to sign in; as soon as the user signs in, the bot will have an access token with which it can do additional things. Exactly what those additional things are depends on the bot and where the user signs in: a bot is an Azure AD app registered at https://apps.dev.microsoft.com/ and can have its own set of permissions.
 
 * Bots are informed whenever users are added to or deleted from a team.
 
