@@ -97,6 +97,10 @@ Make the most of Virtual Visits by making sure your staff members know how to co
 
 ![Image of the financial services infographic](../media/vv-finserv-thumbnail.png)
 
+![Image of the retail infographic](../media/vv-retail-thumbnail.png)
+
+![Image of the healthcare infographic](../media/vv-healthcare-thumbnail.png)
+
 ### Customize your infographic
 
 1. Choose one of three pre-made infographics depending on your organization's needs:
