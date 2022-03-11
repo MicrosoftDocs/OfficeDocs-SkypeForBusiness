@@ -2589,6 +2589,16 @@
       "source_path": "Teams/business-voice/what-to-buy.md",
       "redirect_url": "/microsoftteams/business-voice/whats-business-voice",
       "redirect_document_id": false 
+     },
+     {
+      "source_path": "Teams/get-teams-android-in-china.md",
+      "redirect_url": "/microsoftteams/get-clients",
+      "redirect_document_id": true 
+     },
+     {
+      "source_path": "Teams/private-channels-life-cycle-management.md",
+      "redirect_url": "/graph/api/resources/channel",
+      "redirect_document_id": false 
      }
   ] 
 }

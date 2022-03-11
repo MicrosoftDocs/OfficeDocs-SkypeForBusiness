@@ -14,7 +14,7 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: Learn how to monitor Teams Phone with Calling Plan call quality using the Call Quality Dashboard.
+description: Learn how to monitor Teams Phone System with Calling Plan call quality using the Call Quality Dashboard.
 appliesto: 
 - Microsoft Teams
 ---

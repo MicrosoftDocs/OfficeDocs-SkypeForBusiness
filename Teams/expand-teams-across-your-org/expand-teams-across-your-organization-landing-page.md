@@ -2,9 +2,9 @@
 title: Expand Microsoft Teams across your organization
 description: Learn about the resources available for building on the standard Teams deployment to help you get the most out of Teams for specific organization types.
 ms.topic: conceptual
-author: HowlinWolf-92
-ms.author: v-mahoffman
-manager: serdars
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 audience: admin
 f1.keywords:
 - NOCSH
@@ -30,7 +30,7 @@ Find out what you can do with Teams for:
 - [Nonprofit](./teams-for-nonprofit-landing-page.md)
 - [Retail](./teams-for-retail-landing-page.md)
 
-Or learn more about these apps available for all industries:
+Or learn more about these apps and capabilities available for all industries:
 
 - [Shifts for Teams](./shifts-for-teams-landing-page.md)
 - [Bookings in Teams](../bookings-app-admin.md)

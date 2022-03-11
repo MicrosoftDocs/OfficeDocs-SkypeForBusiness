@@ -36,7 +36,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
 
 When you sign up, you get a certain number of minutes depending on your country/region. You can search for your country or region in the [Country or region availability list for Audio Conferencing and Calling Plans](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md#select-your-country-or-region-to-see-whats-available-for-your-organization) to see the number of minutes you will get. After you use those minutes, calls will be disconnected. To prevent this from happening, you need to set up Communications Credits.
   
-To do so, **you need to assign an Audio Conferencing or Phone System license** to your users.
+To do so, **you need to assign an Audio Conferencing or a Phone System license** to your users. Communication Credits can be enabled for users that have either of those two licenses assigned or both.
   
 - Assign an **Audio Conferencing** license to your users. See [Assign Microsoft Teams add-on licenses](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     

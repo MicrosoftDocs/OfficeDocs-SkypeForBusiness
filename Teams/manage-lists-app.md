@@ -1,9 +1,9 @@
 ---
 title: Manage the Lists app for your organization
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: guptaashish
+ms.author: guptaashish
 ms.reviewer: anach,v-jasuk
-manager: serdars
+manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
