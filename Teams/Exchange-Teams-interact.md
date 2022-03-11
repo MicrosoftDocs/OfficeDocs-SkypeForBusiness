@@ -92,7 +92,7 @@ If mailboxes are hosted on-premises, to create and view meetings, the following 
 
 - Mailboxes are hosted in Exchange Server 2016 Cumulative Update 3 or later.
 
-- Autodiscover and Exchange Web Services is published externally.
+- Autodiscover and Exchange Web Services is published externally. For a list of endpoints that require access to these services, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges).
 
 - OAuth authentication is configured preferably via the Exchange Hybrid Configuration Wizard running a full hybrid configuration (Classic or Modern). If you are not able to use the Hybrid Configuration Wizard, configure OAuth as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
 
