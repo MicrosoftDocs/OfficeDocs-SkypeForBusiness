@@ -21,10 +21,10 @@ description: Read this article for information on how to deploy Microsoft Teams 
 
 This article provides steps to create resource accounts for Microsoft Teams Rooms on Windows, Teams Rooms on Android, Teams Rooms on Surface Hub, and hot-desking on Teams displays.
 
-Microsoft 365 resource accounts are mailbox and Teams accounts that are dedicated to specific resources, such as a room, projector, and so on. These resource accounts can automatically respond to meeting invites using rules you define when they're created. For example, if you have a common resource such as a conference room, you can set up a resource account for that conference room that will automatically accept or decline meeting invites depending on its calendar availability.
+Microsoft 365 resource accounts are mailbox and Teams accounts that are dedicated to specific resources, like a room or projector. These resource accounts can automatically respond to meeting invites using rules you define when they're created. For example, if you have a shared resource such as a conference room, you can set up a resource account for that conference room that will automatically accept or decline meeting invites depending on its calendar availability.
 
 > [!IMPORTANT]
-> Microsoft 365 resource accounts aren't the same as Teams resource accounts. Teams resource accounts can be used with call queues and auto attendants to accept phone calls from external phone numbers. Microsoft 365 resource accounts are tied to an Exchange Online mailbox and enable booking of shared resources, such as rooms, projectors, and so on.
+> Microsoft 365 resource accounts aren't the same as Teams resource accounts. Teams resource accounts can be used with call queues and auto attendants to accept phone calls from external phone numbers. Microsoft 365 resource accounts are tied to an Exchange Online mailbox and enable booking of shared resources.
 >
 > If you want to know more about Teams resource accounts, see [Manage resource accounts in Microsoft Teams](../manage-resource-accounts.md).
 
@@ -49,7 +49,7 @@ If you're creating resource accounts for Teams Rooms, the UPN must match the SMT
 
 ### Licensing considerations
 
-Before you create a Microsoft 365 resource account, check to see what kind of license it needs. If you'll only use a resource account to book a resource (that is, invite the resource to your meeting and have it automatically accept or decline the invitation), you don't need to assign a license to a resource account. You'll need to assign a license to the resource account in the following situations:
+Before you create a Microsoft 365 resource account, check to see what kind of license it needs. If you'll only use a resource account to book a resource&mdash;for example, invite the resource to your meeting and have it automatically accept or decline the invitation&mdash;you don't need to assign a license to a resource account. You'll need to assign a license to the resource account in the following situations:
 
 - **Teams meeting** If you want the resource, such as a Microsoft Teams Room, to join a Teams meeting so attendees can use it to present video and audio through it, you need a meeting room license.
 - **PSTN calls** If you want the resource to make or receive calls to or from an external phone numbers (called a Public Switched Telephone Network or PSTN call), you need a Microsoft 365 Phone System or Microsoft 365 Business Voice license.
