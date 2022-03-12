@@ -100,7 +100,7 @@ To export an uploaded audio file, use the Export-CsOnlineAudioFile cmdlet.
 The following table indicates which features on which clients and devices support Music on Hold and Custom Music on Hold. Microsoft continues to add feature support, so check back often for additional availability.
 
 
-| Feature | Desktop <br> Windows/Mac OS | Browser | Mobile <br> iOS | Mobile <br> Android | Teams Phone |
+| Feature | Desktop <br> Windows/Mac OS | Browser | Mobile <br> iOS | Mobile <br> Android | Teams Phone devices |
 | :------------| :------- | :------- | :------- | :------- | :------- |
 | Hold on 1:1 PSTN call | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold |
 | Hold on Consultative Transfer on 1:1 PSTN call |-Music on Hold<br>-Custom Music on Hold | | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | |
