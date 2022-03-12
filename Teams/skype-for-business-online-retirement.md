@@ -41,13 +41,13 @@ Teams is more than an upgrade for Skype for Business Online. It’s a powerful t
 
 For more information about the Skype for Business Online retirement, see [FAQ — Upgrading from Skype for Business to Microsoft Teams](FAQ-journey.yml).
 
-## What this means for organizations with Skype for Business Online
+## Organizations with Skype for Business Online
 
 Microsoft is providing an assisted upgrade process to help organizations move remaining Skype for Business Online users to Teams Only. Teams is available in most Microsoft 365 Business and Enterprise plans, and existing licensing investments carry forward to Teams. Capabilities that are premium workloads in Skype for Business Online today will continue to be premium workloads in Teams. For example, if you have purchased Audio Conferencing standalone or as part of E5 with Skype for Business, Audio Conferencing will be enabled in Teams.
 
-## What this means for organizations with on-premises deployments of Skype for Business Server
+## Organizations with on-premises deployments of Skype for Business Server
 
-The retirement of Skype for Business Online does not affect support for on-premises deployments of Skype for Business Server and Lync Server 2013. However, hybrid customers with a mix of users homed online and on-premises must upgrade any *online* users. These online users must be assigned Teams Only mode using TeamsUpgradePolicy. Microsoft is providing assisted upgrades to help automate the upgrade of any remaining Skype for Business Online users to Teams Only mode.  Hybrid organizations need not move their *on-premises* Skype for Business users to the cloud as as result of this retirement. Microsoft fully supports hybrid organizations with a mix of Teams Only users and on-premises Skype for Business users. Customers with hybrid deployments of Skype for Business Server or Lync Server 2013 should review [Implications of the upcoming retirement of Skype for Business Online](/skypeforbusiness/hybrid/plan-hybrid-connectivity#implications-of-the-upcoming-retirement-of-skype-for-business-online).
+The retirement of Skype for Business Online does not affect support for on-premises deployments of Skype for Business Server and Lync Server 2013. However, hybrid customers with a mix of users homed online and on-premises must upgrade any *online* users. These online users must be assigned Teams Only mode using TeamsUpgradePolicy. Microsoft is providing assisted upgrades to help automate the upgrade of remaining Skype for Business Online users to Teams Only mode. Hybrid organizations need not move their *on-premises* Skype for Business users to the cloud as as result of this retirement. Microsoft fully supports hybrid organizations with a mix of Teams Only users and on-premises Skype for Business users. Customers with hybrid deployments of Skype for Business Server or Lync Server 2013 should review [Implications of the upcoming retirement of Skype for Business Online](/skypeforbusiness/hybrid/plan-hybrid-connectivity#implications-of-the-upcoming-retirement-of-skype-for-business-online).
 
 ## What to expect post-retirement
 
@@ -81,7 +81,7 @@ Take advantage of the resources available to help plan your Teams deployment and
 
 - [Microsoft Partners](https://www.microsoft.com/solution-providers/home) – Microsoft solution providers can help you take full advantage of Teams.
 
-- [Microsoft Teams blog](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog) – Get the latest Teams news covering new features, adoption and usage resources, Teams devices, and integration with other business applications.
+- [Microsoft Teams blog](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog) – Teams news about new features, adoption and usage resources, Teams devices, and integration with other business applications.
 
 If you’re a current Skype for Business Online customer, start planning your upgrade to Teams today. We’re excited for you to experience its powerful communication and collaboration capabilities, and we’re committed to helping along the way.
 
