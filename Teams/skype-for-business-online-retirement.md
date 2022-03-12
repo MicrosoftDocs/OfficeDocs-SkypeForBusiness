@@ -27,11 +27,11 @@ On July 31, 2021, Microsoft retired Skype for Business Online. This retirement w
 
 ## Why is Skype for Business Online retiring?
 
-Since its introduction, Skype for Business Online has been a valuable tool for millions of people around the world. By combining instant messaging, calling, and video into one application, Skype for Business Online established new possibilities for business communications. Microsoft Teams is the next chapter in that vision.
+Since its introduction, Skype for Business Online has been a valuable tool for millions of people around the world. By combining instant messaging, calling, and video into one application, Skype for Business Online established new possibilities for business communications. Teams is the next chapter in that vision. 
 
-The capabilities of Microsoft Teams go beyond those of Skype for Business Online. By combining chat, video, calling, document collaboration, and application integration into a single experience, Teams enables entirely new ways of working. Ongoing platform innovation and development means Teams users benefit from richer performance, functionality, flexibility, and security.
+The capabilities of Microsoft Teams go beyond those of Skype for Business Online. By combining chat, video, calling, document collaboration, and application integration into a single experience, Teams enables new ways of working. Ongoing platform innovation and development means Teams users benefit from richer performance, functionality, flexibility, and security.
 
-Teams is more than an upgrade for Skype for Business Online. It’s a powerful tool that enables companies, schools, and organizations to become more agile and improve the efficiency of key workflows. Learn more about the potential benefits of Teams for your organization in the Forrester white paper, [The Total Economic Impact™ of Microsoft Teams](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf?rtc=1).
+Teams is more than an upgrade for Skype for Business Online. It’s a powerful tool that enables companies, schools, and organizations to become more agile and improve the efficiency of key workflows. Learn more about the benefits of Teams for your organization in the Forrester white paper, [The Total Economic Impact™ of Microsoft Teams](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf?rtc=1).
 
 For more information about the Skype for Business Online retirement, see [FAQ — Upgrading from Skype for Business to Microsoft Teams](FAQ-journey.yml).
 
@@ -41,7 +41,7 @@ Microsoft is providing an assisted upgrade process to help organizations move re
 
 ## What this means for organizations with on-premises deployments of Skype for Business Server
 
-Support for on-premises deployments of Skype for Business Server and Lync Server 2013 are not affected by the retirement of Skype for Business Online. However, hybrid customers with a mix of users homed online and on-premises must upgrade any *online* users. These online users must be assigned Teams Only mode using TeamsUpgradePolicy. Microsoft is providing assisted upgrades to help automate the upgrade of any remaining Skype for Business Online users to Teams Only mode.  Hybrid organizations need not move their *on-premises* Skype for Business users to the cloud as as result of this retirement. Microsoft fully supports hybrid organizations with a mix of Teams Only users and on-premises Skype for Business users. Customers with hybrid deployments of Skype for Business Server or Lync Server 2013 should review [Implications of the upcoming retirement of Skype for Business Online](/skypeforbusiness/hybrid/plan-hybrid-connectivity#implications-of-the-upcoming-retirement-of-skype-for-business-online).
+The retirement of Skype for Business Online does not affect support for on-premises deployments of Skype for Business Server and Lync Server 2013. However, hybrid customers with a mix of users homed online and on-premises must upgrade any *online* users. These online users must be assigned Teams Only mode using TeamsUpgradePolicy. Microsoft is providing assisted upgrades to help automate the upgrade of any remaining Skype for Business Online users to Teams Only mode.  Hybrid organizations need not move their *on-premises* Skype for Business users to the cloud as as result of this retirement. Microsoft fully supports hybrid organizations with a mix of Teams Only users and on-premises Skype for Business users. Customers with hybrid deployments of Skype for Business Server or Lync Server 2013 should review [Implications of the upcoming retirement of Skype for Business Online](/skypeforbusiness/hybrid/plan-hybrid-connectivity#implications-of-the-upcoming-retirement-of-skype-for-business-online).
 
 ## What to expect post-retirement
 
@@ -63,19 +63,19 @@ Take advantage of the resources available to help plan your Teams deployment and
 
 - [Teams deployment and upgrade documentation](upgrade-start-here.md) – Free technical guidance for IT administrators.
 
-- [Teams upgrade planning workshops](./upgrade-workshops-landing-page.yml) – Free interactive upgrade planning workshops, where you’ll receive guidance, best practices and resources designed to help you plan and implement your upgrade to Teams.
+- [Teams upgrade planning workshops](./upgrade-workshops-landing-page.yml) – Free interactive upgrade planning workshops, where you’ll receive guidance, best practices, and resources designed to help you plan and implement your upgrade to Teams.
 
-- [Assisted upgrades from Skype for Business Online to Microsoft Teams](upgrade-assisted.md) – Automated program that assists you with the technical steps of upgrading Skype for Business Online users to Teams.
+- [Assisted upgrades from Skype for Business Online to Microsoft Teams](upgrade-assisted.md) – Automated program that assists you with upgrading Skype for Business Online users to Teams.
 
 - [FastTrack for Microsoft 365](https://www.microsoft.com/fasttrack/microsoft-365) – Teams deployment assistance available for qualifying plans.
 
 - [Teams live training](./instructor-led-training-teams-landing-page.yml) – Free online training classes designed to get your organization up and running with Teams.
 
-- [Teams Chalk Talks](./chalk-talks-landing-page.yml) – Free online workshops for IT pros and decision makers sharing best practices for some of the most popular and compelling scenarios in Teams.
+- [Teams Chalk Talks](./chalk-talks-landing-page.yml) – Free online workshops for IT pros and decision makers that describe best practices for key scenarios in Teams.
 
 - [Microsoft Partners](https://www.microsoft.com/solution-providers/home) – Microsoft solution providers can help you take full advantage of Teams.
 
-- [Microsoft Teams blog](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog) – Get the latest Teams news covering new features, adoption and usage resources, Teams devices, and integration with other business productivity applications.
+- [Microsoft Teams blog](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog) – Get the latest Teams news covering new features, adoption and usage resources, Teams devices, and integration with other business applications.
 
 If you’re a current Skype for Business Online customer, start planning your upgrade to Teams today. We’re excited for you to experience its powerful communication and collaboration capabilities, and we’re committed to helping along the way.
 
