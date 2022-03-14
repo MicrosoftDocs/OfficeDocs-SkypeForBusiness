@@ -48,7 +48,7 @@ If you're creating resource accounts for Teams Rooms, the UPN must match the SMT
 
 Before you create a Microsoft 365 resource account, check to see what kind of license it needs:
 
-- **Teams meetings** If you want to associate the resource account with a shared device, such as a Microsoft Teams Room, to join a Teams meeting so attendees can use it to present video and audio through it, you need a Meeting Room License. For more information about licensing for meeting rooms, see [Teams Meeting Room Licensing](rooms-licensing.md).
+- **Teams meetings** If you want to associate the resource account with a shared device, such as a Microsoft Teams Room or Teams display with hot-desking, to join a Teams meeting so attendees can use it to present video and audio through it, you need a Meeting Room License. For more information about licensing for meeting rooms, see [Teams Meeting Room Licensing](rooms-licensing.md).
 
 - **PSTN calls** If you want the resource to make or receive calls to or from an external phone numbers (called a Public Switched Telephone Network or PSTN call), you need a Microsoft 365 Phone System or Microsoft 365 Business Voice license. You only need to complete Step 1 in the following overview. Then, see [Microsoft Teams add-on licenses](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) for more information.
 
@@ -192,7 +192,7 @@ For detailed syntax and parameter information, see [New-Mailbox](/powershell/mod
 > [!IMPORTANT]
 > If you're only using this resource account to book space and automatically accept or decline invitation, you've completed the set up. If you're using this resource account for PSTN calling, see [Microsoft Teams add-on licenses](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) to determine what license it needs.
 >
-> Continue to the next section only if you want the resource, such as a Teams Room or a Teams display with hot-desking, to join a Teams meeting so attendees can use it to present video and audio through it.
+> Continue to the next section only if the resource account is for a Teams Rooms on Windows, Teams Rooms on Android, Teams Rooms on Surface Hub, or a Teams display with hot-desking.
 
 ## Configure mailbox properties
 
