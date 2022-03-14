@@ -19,7 +19,9 @@ description: Read this article for information on how to create resource account
 
 # Create and configure resource accounts for Teams devices
 
-This article provides steps to create resource accounts for Microsoft Teams Rooms on Windows, Teams Rooms on Android, Teams Rooms on Surface Hub, and hot-desking on Teams displays.
+This article provides steps to create resource accounts for shared spaces and devices, and it includes steps to configure resource accounts for Microsoft Teams Rooms on Windows, Teams Rooms on Android, Teams Rooms on Surface Hub, and hot-desking on Teams displays.
+
+Microsoft 365 resource accounts are mailbox and Teams accounts that are dedicated to specific resources, such as a room or projector. These resource accounts can automatically respond to meeting invites using rules you define when they're created. For example, if you have a common resource such as a conference room, you can set up a resource account for that conference room that will automatically accept or decline meeting invites depending on its calendar availability.
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
@@ -27,7 +29,9 @@ This article provides steps to create resource accounts for Microsoft Teams Room
 > **Skype for Business** <br><br>
 > If you need to enable your resource account to work with Skype for Business, see [Deploy Microsoft Teams Rooms with Skype for Business Server](with-skype-for-business-server-2015.md)
 
-## Requirements
+## Before you begin
+
+### Requirements
 
 Depending on your environment, you need one or more roles to create resource accounts.
 
@@ -40,6 +44,16 @@ Depending on your environment, you need one or more roles to create resource acc
 
 If you're creating resource accounts for Teams Rooms, the UPN must match the SMTP address of the resource account. See [Microsoft Teams Rooms requirements](requirements.md) before you deploy Teams Rooms.
 
+### What licenses do you need?
+
+Before you create a Microsoft 365 resource account, check to see what kind of license it needs. You'll need to assign a license to the resource account in the following situations:
+
+- **Teams meeting** If you want the resource, such as a Microsoft Teams Room, to join a Teams meeting so attendees can use it to present video and audio through it.
+
+- **PSTN calls** If you want the resource to make or receive calls to or from an external phone numbers (called a Public Switched Telephone Network or PSTN call), you need a Microsoft 365 Phone System or Microsoft 365 Business Voice license. See [Microsoft Teams add-on licenses](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) for more information.
+
+If you'll only use a resource account to book a resource&mdash;that is, invite the resource to your meeting and have it automatically accept or decline the invitation&mdash;you don't need to assign a license to the resource account and you only need step 1 in the following overview.  
+
 ## Overview
 
 **Step 1 -** [Create a new resource account](#create-a-resource-account). Or, if a room mailbox already exists and you want to convert it to a resource account, you can [modify an existing Exchange room mailbox](?tabs=existing-account#create-a-resource-account).
@@ -50,7 +64,7 @@ If you're creating resource accounts for Teams Rooms, the UPN must match the SMT
 
 **Step 4 -**  Lastly, [assign a meeting room license](#assign-a-meeting-room-license) so the account can access Microsoft Teams.
 
-After you create and configure your resource accounts, there are [additional steps](#next-steps) you can review, including distribution groups, network capability, and calling.
+After you create and configure your resource accounts, see [Next steps](#next-steps) to review additional set up tasks, including distribution groups, network capability, and calling.
 
 ## Create a resource account
 
@@ -64,7 +78,31 @@ Create a resource account using a method from one of the following tabs:
 
 #### [**In Microsoft 365 admin center**](#tab/m365-admin-center)
 
-[!INCLUDE [Create a resource account in the Microsoft 365 admin center](../includes/create-m365-resource-account.md)]
+1. Sign in to the Microsoft 365 admin center.
+
+2. Provide the admin credentials for your Microsoft 365 tenant.
+
+3. Go to **Resources** in the left panel, and then select **Rooms & equipment**. If these options aren't available in the left panel, you may need to select **Show all** first.
+
+4. Select **Add a resource mailbox** to create a new room account. Enter a display name and email address for the account, select **Add**, and then select **Close**.
+
+5. By default, resource accounts are configured with the following settings:
+
+- Allow repeat meetings
+- Automatically decline meetings outside of the following limits
+  - Booking window (days): 180
+  - Maximum duration (hours): 24
+- Auto accept meeting requests
+
+If you want to change them, select **Set scheduling options** before you select **Close**. If you want to change them later, go to **Resources** > **Rooms & equipment**, select the resource account. Then  under **Booking options**, select **Edit**.
+
+6. Go to **Users** > **Active users**, and select the room you created to open the properties panel.
+
+7. Next, assign a password to the resource account. In the panel, select **Reset password**.
+ 
+8. Requiring users to change the password on a shared device will cause sign in problems. Uncheck **Require this user to change their password when they first sign in**, and select **Reset**.
+
+9. In the **Licenses and Apps** section, set **Select location** to the country or region where the device will be installed. Then select the license you want to assign, such as Meeting Room, and select **Save changes**. The license may vary depending on your organization.
 
 To change the settings of the resource mailbox, see [Configure mailbox properties](#configure-mailbox-properties) or use the Exchange admin center.
 
@@ -150,6 +188,8 @@ For detailed syntax and parameter information, see [New-Mailbox](/powershell/mod
 > If you're creating this account for Teams Room on Surface Hub, you should also enable ActiveSync on this account. This will allow you to send e-mail directly from the Surface Hub, which you can use for features like Whiteboard. See [Applying ActiveSync policies to device accounts (Surface Hub)](/surface-hub/apply-activesync-policies-for-surface-hub-device-accounts) to learn more.
 
 ---
+
+If you're only using the resource account to automatically accept or decline meeting invites for a resource such as a conference room, you've completed the set up. If your resource account is associated with a shared devices like a Teams Room or a Teams display with hot-desking, continue to the next section. 
 
 ## Configure mailbox properties
 
@@ -338,9 +378,9 @@ You may need to apply custom network, bandwidth, or meeting policies to this acc
 
 For collaboration purposes, turn on PowerPoint Live, Whiteboard, and shared notes. You may want create a meeting policy to adjust participants and guest settings for Teams Rooms. For example, review the lobby settings such as which attendees to automatically admit to meetings. For more information on Teams meeting policies, see [Manage meeting policies in Microsoft Teams](/microsoftteams/meeting-policies-overview).
 
-### Enable calling
+### Calling
 
-Teams supports calling on the Public Switched Telephone Network (PSTN). There are no unique requirements to enable calling with resource accounts. You enable the resource account for calling in the same way you enable a regular user. For more information, see [Microsoft Teams Phone](https://www.microsoft.com/microsoft-teams/microsoft-teams-phone).
+There are no unique requirements to enable calling with resource accounts. You enable the resource account for calling in the same way you enable a regular user.
 
 > [!NOTE]
 > We recommend turning off voice mail for shared devices by assigning a calling policy to the device resource accounts. See [Calling and call-forwarding in Teams](../teams-calling-policy.md) for more information.
