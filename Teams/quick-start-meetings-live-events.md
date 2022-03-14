@@ -51,7 +51,7 @@ The following table summarizes the three types of meetings, the number of recomm
 
 **The usual 10,000 is increased to 20,000 through June 30, 2022. You can schedule even greater numbers with live events in Yammer and/or Microsoft Stream. For more information, see [Live events across Microsoft 365](/stream/live-event-m365). Note that events over 20,000 attendees require the [Live Events Assistance Program](/stream/live-events-assistance). 
 
-
+Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
 
 ## Meetings
 
@@ -60,6 +60,8 @@ The following table summarizes the three types of meetings, the number of recomm
 As the administrator, you'll configure meeting settings and control which meeting features are enabled for your organization by specifying meeting policies.  
 
 In addition to regularly scheduled meetings, your users can create channel meetings. With channel meetings, everybody in a team can see there is a meeting, join the meeting, and use the meeting chat. Channel meetings are a way to quickly invite everyone in a team to a meeting. For more information about how end users schedule meetings, see [Schedule a meeting](https://support.microsoft.com/office/schedule-a-meeting-in-teams-943507a9-8583-4c58-b5d2-8ec8265e04e5).
+
+For information about the view-only meeting experience, see [Teams view-only meeting experience](view-only-meeting-experience.md).
 
 ### Articles for administrators
 
@@ -148,7 +150,7 @@ The following table lists articles for more information:
 
 ## License requirements for meetings, webinars, and live events
 
-Anyone can attend a Teams meeting, webinar, or live event for free&mdash;no license is required. 
+Anyone can attend a Teams meeting, webinar, or Public Live Event for free&mdash;no license is required. 
 
 For the people who organize, schedule, and host meetings, webinars, or live events, they'll need one of the Microsoft 365 licenses listed in the [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description). If you're already using Teams, you probably have the license you need for organizing and hosting meetings, webinars, and live events.
 
@@ -156,17 +158,56 @@ To allow people to dial in to a meeting by phone, you'll need to set up audio co
 
 ## Best practices for large meetings
 
-When hosting large meetings, consider the following:
+This section provides guidance for administrators, along with tips that administrators can share with their presenters and organizers.
+
+To run a successful event, follow the practices outlined below:
 
 - For the best experience in large meetings, webinars, and live events, Microsoft recommends using the latest version of the Teams desktop client or Teams mobile clients. 
 
-- Presenters in large meetings, webinars, and live events should use the Teams desktop client. 
+- Ensure that all Microsoft [Network Connectivity Principles](https://docs.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles) have been followed both on-premises and for remote users.
+- Use [real-time data telemetry](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-microsoft-teams-real-time-call-quality-analytics/ba-p/2912146) to monitor the event and identify any possible issues and its source.
+  - Designate meeting monitors to [analyze](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md) telemetry for users facing poor experience caused by metrics exceeding thresholds.
+  - Set meeting monitors as presenters to disable rogue video streams, mute accidental live mics, and remove attendees if needed.
+
+### Consider these practices for your end users
+
+Your organizers and presenters should implement the below recommendations:
+
+- Event organizers can create a smooth meeting by setting pre-defined presenters. After a meeting has started, presenters also can promote other attendees to the presenter role.
+
+- Define a co-organizer via meeting options (Public preview)
+
+- Pre-configure video and microphone settings to control attendees’ experiences.
+  - Disable attendees’ microphones to avoid disturbances. If someone needs to interact during the meeting, allow them to un-mute when they raise their hand.
+  - Disable attendees’ video to avoid visual distractions. During appropriate times in the meeting, video can be permitted for all attendees or specific individuals.
+
+- Pre-stage meeting applications such as polls and Q&A can be used during the meeting.
+
+- Run the [Microsoft 365 network connectivity test](https://connectivity.office.com/) to verify network suitability several days prior to and the day of the event.
+
+- If presenting from home, verify other devices are not consuming high bandwidth (Streaming services, online gaming, large downloads).
+
+- Present from an endpoint with a wired connection for more reliable audio, video, and screen sharing.
+
+- Ensure users are on the latest Teams app on a desktop or mobile device.
+
+- When using a laptop, check for high network connectivity and sufficient power.
+
+- Schedule a dry run prior to the event to identify device, lighting, or network issues. This will also ensure that organizers/presenters are familiar with features they’ll be using.
+  - Schedule additional practice runs if issues were encountered to ensure remediation efforts were successful.
+  
+- Presenters and participants should use the Teams desktop app to provide an optimal experience.
+
+- Use lobby controls to control meeting entry or lobby holds.
+
+- Utilize features such as spotlight, PowerPoint Live, meeting recording, captions, and transcriptions to promote engagement and effectiveness.
+
+- Participants should turn off chat notifications during large meetings to avoid distractions.
 
 - For more tips on hosting large meetings, see [Best practices for a large Teams meeting](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
 
-For information about the view-only meeting experience, see [Teams view-only meeting experience](view-only-meeting-experience.md).
 
-Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
+
 
 
 ## Related topics
