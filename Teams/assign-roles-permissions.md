@@ -20,7 +20,7 @@ appliesto:
 
 # Assign team owners and members in Microsoft Teams
 
-Within Microsoft Teams there are two user roles: **owner** and **member**. By default, a user who creates a new team is granted the owner status. In addition, owners and members can have moderator capabilities for a channel (provided that moderation has been set up). If a team is created from an existing Microsoft 365 Group, permissions are inherited.
+Within Microsoft Teams there are two user roles: **owner** and **member**. By default, a user who creates a new team is granted the owner status. In addition, owners and members can have moderator capabilities for a channel (provided that moderation has been set up). If a team is created from an existing Microsoft 365 group, permissions are inherited.
 
 The table below shows the difference in permissions between an owner and a member.
 
