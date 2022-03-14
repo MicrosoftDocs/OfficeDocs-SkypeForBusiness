@@ -34,7 +34,7 @@ There is a new process to interact with the Telephone Number Services (TNS) serv
 
 To contact the service desk:
 
-1. Log in to your [Teams Admin Center](https://admin.teams.microsoft.com).
+1. Log in to your [Teams admin center](https://admin.teams.microsoft.com).
 
 2. In the left-hand pane, select **Voice**, and then **Phone numbers**.
 
