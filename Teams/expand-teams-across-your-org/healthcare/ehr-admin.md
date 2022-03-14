@@ -259,6 +259,12 @@ Key features of the patient experience:
 > [!Note]
 > Epic, MyChart, Haiku, and Canto are trademarks of Epic Systems Corporation.
 
+## Get insight into Virtual Visits usage
+
+The [Virtual Visits usage report](../../teams-analytics-and-reports/virtual-visits-usage-report.md) in the Microsoft Teams admin center gives admins an overview of Teams Virtual Visits activity in your organization. The report shows detailed analytics for virtual appointments including Teams EHR-integrated meetings conducted from your EHR system.
+
+You can view key metrics such as lobby wait time and visit duration. Use this information to gain insight into usage trends to help you optimize Virtual Visits to deliver better business outcomes.
+
 ### Privacy and location of data
 
 Teams integration into EHR systems optimizes the amount of data that's used and stored during integration and Virtual Visits flows. The solution follows the overall Teams privacy and data management principles and guidelines outlined in Teams Privacy.
