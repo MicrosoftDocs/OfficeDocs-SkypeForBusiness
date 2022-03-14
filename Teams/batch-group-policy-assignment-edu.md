@@ -161,7 +161,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName 
 In this example, the meeting policy is removed from the list of users in a text file named user_ids.txt.
 
 ```powershell
-$user_ids = Get-Content .\users_ids.txt
+$users_ids = Get-Content .\users_ids.txt
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName $null -Identity $users_ids -OperationName "Unassign meeting policy"
 ```
 
