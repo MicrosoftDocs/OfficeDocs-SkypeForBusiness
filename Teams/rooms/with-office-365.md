@@ -48,9 +48,11 @@ If you're creating resource accounts for Teams Rooms, the UPN must match the SMT
 
 Before you create a Microsoft 365 resource account, check to see what kind of license it needs. You'll need to assign a license to the resource account in the following situations:
 
-- **Teams meeting** If you want the resource, such as a Microsoft Teams Room, to join a Teams meeting so attendees can use it to present video and audio through it.
+- **Teams meeting** If you want the resource, such as a Microsoft Teams Room, to join a Teams meeting so attendees can use it to present video and audio through it, you need a Meeting Room License.
 
-- **PSTN calls** If you want the resource to make or receive calls to or from an external phone numbers (called a Public Switched Telephone Network or PSTN call), you need a Microsoft 365 Phone System or Microsoft 365 Business Voice license. See [Microsoft Teams add-on licenses](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) for more information.
+- **PSTN calls** If you want the resource to make or receive calls to or from an external phone numbers (called a Public Switched Telephone Network or PSTN call), you need a Microsoft 365 Phone System or Microsoft 365 Business Voice license.
+
+See [Microsoft Teams add-on licenses](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) for more information.
 
 If you'll only use a resource account to book a resource&mdash;that is, invite the resource to your meeting and have it automatically accept or decline the invitation&mdash;you don't need to assign a license to the resource account and you only need step 1 in the following overview.  
 
