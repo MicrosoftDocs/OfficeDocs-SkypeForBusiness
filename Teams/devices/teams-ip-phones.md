@@ -42,10 +42,8 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
 | AudioCodes C450HD                      | `C450HD_TEAMS_0.225`                                                  | April 22, 2022               | 7.1x |
 | AudioCodes C448HD(Cap Mode Only)       | `C450HD_TEAMS_0.225`                                                  | April 22, 2022               | 7.1x |
-| Crestron UC-P10-T (with and without handset)    | `1.0.0.80`       | August 5, 2023            | 9 |
-| Crestron UC-P8-T (with and without handset)     | `1.0.0.56`       | August 5, 2023            | 9 |
-| Crestron UC-P10-C-T (with and without handset)  | `1.0.0.80`       | August 5, 2023            | 9 |
-| Crestron UC-P8-C-T (with and without handset)   | `1.0.0.56`       | August 5, 2023            | 9 |
+| Crestron UC-P10/T/CT                   | `1.0.0.80`       | August 5, 2023            | 9 |
+| Crestron UC-P8/T /CT                   | `1.0.0.56`       | August 5, 2023            | 9 |
 | Audiocodes C470HD                      | `1.8.293   `                                               | August 5, 2023               | 9 |
 | Yealink MP52                           | `145.15.0.6 `                                              | August 5, 2023               | 9 |
 | AudioCodes C435HD                      | `1.12.33`                                                  | August 5, 2023               | 9 |
