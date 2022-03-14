@@ -52,7 +52,7 @@ Before you create a Microsoft 365 resource account, check to see what kind of li
 
 - **PSTN calls** If you want the resource to make or receive calls to or from an external phone numbers (called a Public Switched Telephone Network or PSTN call), you need a Microsoft 365 Phone System or Microsoft 365 Business Voice license. You only need to complete Step 1 in the following overview. Then, see [Microsoft Teams add-on licenses](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) for more information.
 
-- If you'll only use a resource account to book a resource&mdash;that is, invite the resource to your meeting and have it automatically accept or decline the invitation&mdash;you don't need to assign a license to the resource account and you only need to complete Step 1 in the following overview.  
+- If you're only using a resource account to book a resource&mdash;that is, invite the resource to your meeting and have it automatically accept or decline the invitation&mdash;you don't need to assign a license to the resource account and you only need to complete Step 1 in the following overview.  
 
 ## Overview
 
