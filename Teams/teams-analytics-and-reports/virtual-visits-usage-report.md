@@ -20,8 +20,6 @@ ms.custom: seo-marvel-apr2020
 ---
 # Microsoft Teams Virtual Visits usage report
 
-**This is a preview feature**.
-
 The Virtual Visits usage report in the Microsoft Teams admin center gives you an overview of Teams Virtual Visits activity in your organization. You can view detailed activity for virtual appointments scheduled through the [Bookings app](../expand-teams-across-your-org/bookings-virtual-visits.md) and the [Microsoft Teams Electronic Health Record (EHR) connector](../expand-teams-across-your-org/healthcare/teams-in-hc.md#virtual-visits-and-electronic-healthcare-record-ehr-integration).
 
 To view the report, you must be a global admin or Teams admin.
@@ -45,8 +43,7 @@ Use this report to gain insight into Virtual Visits activity and trends in your 
 > [!NOTE]
 > By default, Virtual Visits analytics is on and the report is available. By using this report, you give Microsoft permission to collect data about Virtual Visits in your organization. For information about our data retention policies, see [Data retention, deletion, and destruction in Microsoft 365](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview).
 >
->If you want to turn off the report for your organization, you can do so in **Settings** in the upper-right corner of the page.
-
+>If you want to turn off the report for your organization, you can do so in **Settings** in the upper-right corner of the page. This setting may take between 0 (zero) to 2 hours to take effect after you change it.
 
 ## Interpret the report
 
