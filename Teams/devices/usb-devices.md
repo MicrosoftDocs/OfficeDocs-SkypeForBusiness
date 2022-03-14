@@ -69,10 +69,11 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 ## Certified devices
 
-*Table Updated February 2022*
+*Table Updated March 2022*
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Dell                 |Speakerphone SP3022                                        |2/7/2022        |Certified for Microsoft Teams                           |
 |Dell                 |Slim Conferencing Soundbar SB522A                          |1/25/2022       |Certified for Microsoft Teams                           | 
 |Lenovo               |Go Wired ANC Headset                                       |1/12/2022       |Certified for Microsoft Teams                           |
 |Lenovo               |Go Wired Speakerphone                                      |1/10/2022       |Certified for Microsoft Teams                           |
