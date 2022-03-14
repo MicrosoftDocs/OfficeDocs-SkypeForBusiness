@@ -1,8 +1,8 @@
 ---
 title: Admin settings for apps in Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
