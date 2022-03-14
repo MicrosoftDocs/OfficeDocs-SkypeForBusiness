@@ -134,14 +134,14 @@ To control the templates that users see in Teams for [creating teams](https://su
 
 Use the following cmdlets to manage your templates in PowerShell.
 
-- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate?view=teams-ps)
-- [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
-- [New-CsTeamTemplate](/powershell/module/teams/new-csteamtemplate?view=teams-ps)
-- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate?view=teams-ps)
-- [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate?view=teams-ps)
+- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate)
+- [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist)
+- [New-CsTeamTemplate](/powershell/module/teams/new-csteamtemplate)
+- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate)
+- [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate)
 
 ## Related articles
 
 - [Create a team from a template](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
 - [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md)
-- [Clone a team](/graph/api/team-clone?view=graph-rest-1.0&tabs=http)
+- [Clone a team](/graph/api/team-clone)
