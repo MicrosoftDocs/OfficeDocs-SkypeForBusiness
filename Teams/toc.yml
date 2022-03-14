@@ -1357,7 +1357,7 @@ items:
                   href: rooms/coordinated-meetings.md
                 - name: Manage Microsoft Teams settings
                   href: rooms/surface-hub-manage-config.md
-            - name: Create device resource accounts 
+            - name: Create resource accounts 
               href: rooms/with-office-365.md
             - name: With Skype for Business Server
               href: rooms/with-skype-for-business-server-2015.md
