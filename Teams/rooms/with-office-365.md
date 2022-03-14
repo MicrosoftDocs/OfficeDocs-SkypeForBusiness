@@ -54,7 +54,7 @@ Before you create a Microsoft 365 resource account, check to see what kind of li
 
 See [Microsoft Teams add-on licenses](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) for more information.
 
-If you'll only use a resource account to book a resource&mdash;that is, invite the resource to your meeting and have it automatically accept or decline the invitation&mdash;you don't need to assign a license to the resource account and you only need step 1 in the following overview.  
+If you'll only use a resource account to book a resource&mdash;that is, invite the resource to your meeting and have it automatically accept or decline the invitation&mdash;you don't need to assign a license to the resource account and you only need to complete Step 1 in the following overview.  
 
 ## Overview
 
