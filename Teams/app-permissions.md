@@ -35,7 +35,6 @@ Apps are consented to by users and managed by IT from a policy perspective. Howe
 
 The permissions listed below in capital letters, for example RECEIVE_MESSAGE and REPLYTO_MESSAGE, don't appear anywhere in the [Microsoft Teams developer documentation](/microsoftteams/platform/overview) or the [permissions for Microsoft Graph](/graph/permissions-reference). They're simply a descriptive shorthand for the purpose of this article.
 
-
 | Title   | Description    |
 |-----------|------------|
 | ![An icon depicting a decision point.](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Use the tables below as a guide to understand which permissions the apps you're investigating are requesting.</li></ul> |
@@ -67,7 +66,7 @@ None
 
 - RECEIVE_MESSAGE, REPLYTO_MESSAGE. The bot can receive messages from users and reply to them.<sup>1</sup>
 
-- POST_MESSAGE_USER. After a user has sent a message to a bot, the bot can send the user direct messages (also called *proactive messages* at any time.
+- POST_MESSAGE_USER. After a user has sent a message to a bot, the bot can send the user direct messages (also called _proactive messages_ at any time.
 
 - GET_CHANNEL_LIST. Bots added to teams can get a list of names and IDs of the channels in a team.
 
@@ -78,10 +77,10 @@ None
 - POST_MESSAGE_TEAM. Allows an app's bots to send direct (proactive) messages to any team member at any time, even if the user has never talked to the bot before.
 
 - The following are not explicit permissions, but are implied by RECEIVE_MESSAGE and REPLYTO_MESSAGE and the scopes into which the bots can be used, declared in the manifest:
- 
-    - RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
-    - RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
-    - RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM
+
+  - RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
+  - RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
+  - RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM    
 
 - SEND_FILES, RECEIVE_FILES.<sup>2</sup> Controls whether a bot can send and receive files in personal chat (not yet supported for group chat or channels).
 
@@ -101,9 +100,9 @@ None
 
 - Bots can retrieve (and might store) the list of channels in a team; this data leaves the corporate network.
 
-- When a file is sent to a bot, the file leaves the corporate network. Sending and receiving files requires user approval for each file. 
+- When a file is sent to a bot, the file leaves the corporate network. Sending and receiving files requires user approval for each file.
 
-- By default, bots don't have the ability to act on behalf of the user, but bots can ask users to sign in; as soon as the user signs in, the bot will have an access token with which it can do additional things. Exactly what those additional things are depends on the bot and where the user signs in: a bot is an Azure AD app registered at https://apps.dev.microsoft.com/ and can have its own set of permissions.
+- By default, bots don't have the ability to act on behalf of the user, but bots can ask users to sign in; as soon as the user signs in, the bot will have an access token with which it can do additional things. Exactly what those additional things are depends on the bot and where the user signs in: a bot is an Azure AD app registered at [Application Registration Portal](https://apps.dev.microsoft.com/?referrer=https:%2f%2fdocs.microsoft.com%2f#/appList) and can have its own set of permissions.
 
 - Bots are informed whenever users are added to or deleted from a team.
 
@@ -136,7 +135,7 @@ None (currently)
 
 ### Considerations
 
-- The risk profile for a tab is almost identical to that same website running in a browser tab. 
+- The risk profile for a tab is almost identical to that same website running in a browser tab.
 
 - A tab also gets the context in which it's running, including the sign-in name and UPN of the current user, the Azure AD Object ID for the current user, the ID of the Microsoft 365 Group in which it resides (if it's a team), the tenant ID, and the current locale of the user. However, to map these IDs to a user's information, the tab would have to make the user sign in to Azure AD.
 
@@ -173,7 +172,7 @@ REPLYTO_CONNECTOR_MESSAGE. Certain connectors support actionable messages, which
 
 ## Outgoing webhooks
 
-*Outgoing webhooks* are created on the fly by team owners or team members. They aren't capabilities of Teams apps; this information is included for completeness.
+_Outgoing webhooks_ are created on the fly by team owners or team members. They aren't capabilities of Teams apps; this information is included for completeness.
 
 ### Required permissions
 
