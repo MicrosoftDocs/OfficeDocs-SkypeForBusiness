@@ -190,7 +190,7 @@ For detailed syntax and parameter information, see [New-Mailbox](/powershell/mod
 ---
 
 > [!IMPORTANT]
-> If you're only using this resource account to book space and automatically accept or decline invitation, you've completed the set up. If you're using this resource account for PSTN calling, see [Microsoft Teams add-on licenses](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) to determine what license it needs.
+> If you're only using this resource account to book space and automatically accept or decline invitations, you've completed the set up. If you're using this resource account for PSTN calling, see [Microsoft Teams add-on licenses](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) to determine what license it needs.
 >
 > Continue to the next section only if the resource account is for a Teams Rooms on Windows, Teams Rooms on Android, Teams Rooms on Surface Hub, or a Teams display with hot-desking.
 
