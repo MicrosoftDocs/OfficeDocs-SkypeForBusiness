@@ -1,5 +1,5 @@
 ---
-title: "Create resource accounts for Teams devices"
+title: "Create resource accounts for rooms and shared Teams devices"
 ms.author: czawideh
 author: cazawideh
 manager: serdars
@@ -14,10 +14,10 @@ ms.collection:
   - M365-collaboration
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: Read this article for information on how to create resource accounts from Microsoft Teams Rooms, Teams Rooms on Surface Hub, and hot-desking on Teams displays.
+description: Read this article for information on how to create resource accounts for rooms and devices, including Microsoft Teams Rooms, Teams Rooms on Surface Hub, and hot-desking on Teams displays.
 ---
 
-# Create and configure resource accounts for Teams devices
+# Create and configure resource accounts for rooms and shared Teams devices
 
 This article provides steps to create resource accounts for shared spaces and devices, and it includes steps to configure resource accounts for Microsoft Teams Rooms on Windows, Teams Rooms on Android, Teams Rooms on Surface Hub, and hot-desking on Teams displays.
 
@@ -390,7 +390,6 @@ There are no unique requirements to enable calling with resource accounts. You e
 ### Configure distribution groups
 
 To organize your meeting room locations, you can add your device resource accounts to Exchange distribution groups. For example, if you have offices in three different geographic locations, you can create three distribution groups and add the appropriate resource accounts to each location. For more information, see [Create a rooms list](/exchange/recipients/room-mailboxes?view=exchserver-2019#create-a-room-list).
-
 
 ## Related articles
 
