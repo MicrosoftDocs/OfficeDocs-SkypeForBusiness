@@ -1,7 +1,7 @@
 ---
 title: "Authentication in Microsoft Teams Rooms"
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
