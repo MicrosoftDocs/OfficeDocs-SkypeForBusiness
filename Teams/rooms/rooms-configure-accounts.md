@@ -21,7 +21,7 @@ description: "Read this topic to learn about configuring accounts for Microsoft 
  
 This topic introduces how to create accounts used by Microsoft Teams Rooms. Your infrastructure will likely fall into one of the following configurations:
   
-- Online deployment: Your organization's environment is deployed entirely on Microsoft 365 or Office 365..
+- Online deployment: Your organization's environment is deployed entirely on Microsoft 365 or Office 365.
     
 - On-premises deployment: Your organization has servers that it controls, where Active Directory, Exchange, and Skype for Business Server are hosted. For more information, see [Deploy Microsoft Teams Rooms with Skype for Business Server](with-skype-for-business-server-2015.md)
     

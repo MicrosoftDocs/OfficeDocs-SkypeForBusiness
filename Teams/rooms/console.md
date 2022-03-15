@@ -196,7 +196,7 @@ Microsoft Teams Rooms needs to trust the certificates used by the servers it con
 ### Join an Active Directory domain (Optional)
 <a name="Certs"> </a>
 
-You can join Microsoft Teams Rooms to your domain. Microsoft Teams Rooms should be placed in a separate OU from your PC workstations because many workstation policies are not compatible with Microsoft Teams Rooms. A common example are password enforcement policies that will prevent Microsoft Teams Rooms from starting up automatically. For information about the management of GPO settings, refer to [Manage Microsoft Teams Rooms](rooms-operations.md).
+You can join Microsoft Teams Rooms to your domain. Microsoft Teams Rooms should be placed in a separate OU from your PC workstations because many workstation policies are not compatible with Microsoft Teams Rooms. A common example is a password enforcement policy that will prevent Microsoft Teams Rooms from starting up automatically. For information about the management of GPO settings, refer to [Manage Microsoft Teams Rooms](rooms-operations.md).
   
 ### To join Microsoft Teams Rooms to a domain
 

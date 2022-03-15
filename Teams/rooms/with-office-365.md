@@ -88,13 +88,13 @@ Create a resource account using a method from one of the following tabs:
 
 5. By default, resource accounts are configured with the following settings:
 
-- Allow repeat meetings
-- Automatically decline meetings outside of the following limits
-  - Booking window (days): 180
-  - Maximum duration (hours): 24
-- Auto accept meeting requests
+    - Allow repeat meetings
+    - Automatically decline meetings outside of the following limits
+      - Booking window (days): 180
+      - Maximum duration (hours): 24
+    - Auto accept meeting requests
 
-If you want to change them, select **Set scheduling options** before you select **Close**. If you want to change them later, go to **Resources** > **Rooms & equipment**, select the resource account. Then  under **Booking options**, select **Edit**.
+    If you want to change them, select **Set scheduling options** before you select **Close**. If you want to change them later, go to **Resources** > **Rooms & equipment**, select the resource account. Then  under **Booking options**, select **Edit**.
 
 6. Go to **Users** > **Active users**, and select the room you created to open the properties panel.
 
@@ -112,31 +112,31 @@ You may also need to apply bandwidth policies or meeting policies to this accoun
 
 1. Connect to [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
-``` PowerShell
-Connect-ExchangeOnline
-```
+    ``` PowerShell
+    Connect-ExchangeOnline
+    ```
 
 2. By default, room mailboxes don't have associated accounts. Add an account when you create a room mailbox so it can authenticate with Microsoft Teams.
 
-If you're creating a new resource mailbox:
+    If you're creating a new resource mailbox:
+    
+    ``` PowerShell
+    New-Mailbox -MicrosoftOnlineServicesID <Office365 ID> -Name <String> -Alias <string> -Room -EnableRoomMailboxAccount $true  -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
+    ```
+    
+    This example creates a new room mailbox with the following settings:
 
-``` PowerShell
-New-Mailbox -MicrosoftOnlineServicesID <Office365 ID> -Name <String> -Alias <string> -Room -EnableRoomMailboxAccount $true  -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
-```
+        - Account: ConferenceRoom01@contoso.com
+          
+        - Name: ConferenceRoom01
+        
+        - Alias: ConferenceRoom01
+        
+        - Account password: P@$$W0rd5959
 
-This example creates a new room mailbox with the following settings:
-
-- Account: ConferenceRoom01@contoso.com
-  
-- Name: ConferenceRoom01
-
-- Alias: ConferenceRoom01
-
-- Account password: P@$$W0rd5959
-
-``` PowerShell
-New-Mailbox -MicrosoftOnlineServicesID ConferenceRoom01@contoso.com -Name "ConferenceRoom01" -Alias ConferenceRoom01 -Room -EnableRoomMailboxAccount $true  -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
-```
+    ``` PowerShell
+    New-Mailbox -MicrosoftOnlineServicesID ConferenceRoom01@contoso.com -Name "ConferenceRoom01" -Alias ConferenceRoom01 -Room -EnableRoomMailboxAccount $true  -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
+    ```
 
 If you're not in an Exchange hybrid configuration, then you can continue to the next step, [Configure mailbox properties](#configure-mailbox-properties).
 
@@ -251,45 +251,45 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
 
  1. Connect to MSOnline PowerShell:
 
-   ```PowerShell
-   Connect-MsolService
-   ```
+       ```PowerShell
+       Connect-MsolService
+       ```
 
-   For details about Active Directory, see [Azure Active Directory (MSOnline).](/powershell/azure/active-directory/overview?view=azureadps-1.0)
+       For details about Active Directory, see [Azure Active Directory (MSOnline)](/powershell/azure/active-directory/overview?view=azureadps-1.0).
 
 2. Set the password to never expire by using the following syntax:
 
-```PowerShell
-Set-MsolUser -Identity <samAccountName> -PasswordNeverExpires $true
-```
+    ```PowerShell
+    Set-MsolUser -Identity <samAccountName> -PasswordNeverExpires $true
+    ```
 
-This example sets the password for the account ConferenceRoom01@contoso.com to never expire.
+    This example sets the password for the account ConferenceRoom01@contoso.com to never expire.
 
-```PowerShell
-Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -PasswordNeverExpires $true
-```
+    ```PowerShell
+    Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -PasswordNeverExpires $true
+    ```
 
 #### [**Active Directory (On premises)**](#tab/active-directory1-password/)
 
 1. Connect to Active Directory PowerShell:
 
-```PowerShell
-   Import-Module ActiveDirectory
-```
-
-For details about Active Directory PowerShell, see [ActiveDirectory](/powershell/module/activedirectory/?view=windowsserver2022-ps).
+    ```PowerShell
+       Import-Module ActiveDirectory
+    ```
+    
+    For details about Active Directory PowerShell, see [ActiveDirectory](/powershell/module/activedirectory/?view=windowsserver2022-ps).
 
 2. Set the password to never expire by using the following syntax:
 
-```PowerShell
-Set-ADUser -Identity <samAccountName> -PasswordNeverExpires $true
-```
+    ```PowerShell
+    Set-ADUser -Identity <samAccountName> -PasswordNeverExpires $true
+    ```
 
-This example sets the password for the account ConferenceRoom01@contoso.com to never expire.
+    This example sets the password for the account ConferenceRoom01@contoso.com to never expire.
 
-```PowerShell
-Set-ADUser -Identity ConferenceRoom01@contoso.com -PasswordNeverExpires $true
-```
+    ```PowerShell
+    Set-ADUser -Identity ConferenceRoom01@contoso.com -PasswordNeverExpires $true
+    ```
 
 ---
 
@@ -307,41 +307,42 @@ To assign licenses using the Microsoft 365 admin center, see [Assign licenses to
 
 1. Connect to Azure AD
   
-```PowerShell
-Connect-AzureAD
-```
+    ```PowerShell
+    Connect-AzureAD
+    ```
 
- For details about Active Directory, see [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/overview?view=azureadps-2.0).
-
+     For details about Active Directory, see [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/overview?view=azureadps-2.0).
+    
 2. Assign a usage location to your resource account using the `Set-AzureADUser` cmdlet. This determines what license SKUs are available.
 
-In this example, the user is located in the United States (US):
+    In this example, the user is located in the United States (US):
 
-```PowerShell
-Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -UsageLocation 'US'
-```
+    ```PowerShell
+    Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -UsageLocation 'US'
+    ```
+
 3. Then, use `Get-AzureADSubscribedSku` to retrieve a list of available SKUs for your Microsoft 365 or Office 365 organization.
 
-```PowerShell
-Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
-```
+    ```PowerShell
+    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
+    ```
 
 4. To assign the license, use the `Set-AzureADUser` cmdlet, and convert the license SKU ID (see step 2) into a PowerShell license type object. Then, assign that object to the resource account. In the following example, the license SKU ID is 6070a4c8-34c6-4937-8dfb-39bbc6397a60, and it's assigned to the account conferenceroom01@contoso.com:
 
-```PowerShell
-#Create an object for a single license type
-$License = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense 
-$License.SkuId = "6070a4c8-34c6-4937-8dfb-39bbc6397a60" 
-   
-#Create an object for a multiple license type
-$Licenses = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses 
-   
-#Add the single license object to the multiple license object
-$Licenses.AddLicenses = $License 
-   
-#Assign the license to the resource account
-Set-AzureADUserLicense -ObjectId ConferenceRoom01@contoso.com -AssignedLicenses $Licenses
-```
+    ```PowerShell
+    #Create an object for a single license type
+    $License = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense 
+    $License.SkuId = "6070a4c8-34c6-4937-8dfb-39bbc6397a60" 
+       
+    #Create an object for a multiple license type
+    $Licenses = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses 
+       
+    #Add the single license object to the multiple license object
+    $Licenses.AddLicenses = $License 
+       
+    #Assign the license to the resource account
+    Set-AzureADUserLicense -ObjectId ConferenceRoom01@contoso.com -AssignedLicenses $Licenses
+    ```
 
 #### [**Active Directory 1.0**](#tab/active-directory1-license/)
 
@@ -351,23 +352,23 @@ Set-AzureADUserLicense -ObjectId ConferenceRoom01@contoso.com -AssignedLicenses 
    Connect-MsolService
    ```
 
-For details about Active Directory, see [Azure Active Directory (MSOnline).](/powershell/azure/active-directory/overview?view=azureadps-1.0)
+    For details about Active Directory, see [Azure Active Directory (MSOnline).](/powershell/azure/active-directory/overview?view=azureadps-1.0)
 
 2.  Assign a usage location to your resource account using the `Set-MsolUser` cmdlet. This determines what license SKUs are available.
 
-In this example, the user is located in the United States (US).
-
-```PowerShell
-Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -UsageLocation 'US'
-```
-
-You can then use `Get-MsolAccountSku` to retrieve a list of available SKUs for your Microsoft 365 or Office 365 organization.
+    In this example, the user is located in the United States (US).
+    
+    ```PowerShell
+    Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -UsageLocation 'US'
+    ```
+    
+    You can then use `Get-MsolAccountSku` to retrieve a list of available SKUs for your Microsoft 365 or Office 365 organization.
 
 4. To assign the license, use the `Set-MsolUser` cmdlet. In this example, the "contoso:MEETING_ROOM" license is assigned to the account conferenceroom01@contoso.com:
 
-```PowerShell
-Set-MsolUserLicense -UserPrincipalName 'ConferenceRoom01@contoso.com' -AddLicenses 'contoso:MEETING_ROOM'
-```
+    ```PowerShell
+    Set-MsolUserLicense -UserPrincipalName 'ConferenceRoom01@contoso.com' -AddLicenses 'contoso:MEETING_ROOM'
+    ```
 
 ---
 
@@ -379,7 +380,7 @@ To validate the account creation and license assignment, sign in to any Teams Cl
 
 You may need to apply custom network, bandwidth, or meeting policies to this account. For more information on network and bandwidth policies, see [Meeting policy settings for audio & video](/microsoftteams/meeting-policies-audio-and-video). For Teams Rooms, we recommend you set the meeting policy bandwidth to 10 Mbps.
 
-For collaboration purposes, turn on PowerPoint Live, Whiteboard, and shared notes. You may want create a meeting policy to adjust participants and guest settings for Teams Rooms. For example, review the lobby settings such as which attendees to automatically admit to meetings. For more information on Teams meeting policies, see [Manage meeting policies in Microsoft Teams](/microsoftteams/meeting-policies-overview).
+For collaboration purposes, turn on PowerPoint Live, Whiteboard, and shared notes. You may want to create a meeting policy to adjust participants and guest settings for Teams Rooms. For example, review the lobby settings such as which attendees to automatically admit to meetings. For more information on Teams meeting policies, see [Manage meeting policies in Microsoft Teams](/microsoftteams/meeting-policies-overview).
 
 ### Calling
 
