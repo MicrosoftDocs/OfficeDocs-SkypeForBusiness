@@ -695,7 +695,7 @@ items:
               href: audio-conferencing-common-questions.md
             - name: Try or purchase Audio Conferencing in Microsoft 365
               href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
-        - name: Deploy
+        - name: Set up
           items:
             - name: Set up Audio Conferencing
               href: set-up-audio-conferencing-in-teams.md
