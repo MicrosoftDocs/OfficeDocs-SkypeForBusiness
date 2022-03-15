@@ -1,8 +1,8 @@
 ---
 title: Teams integration with Microsoft Power Platform
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.reviewer: kvivek
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -42,7 +42,7 @@ The new capabilities are available to the select Microsoft 365 subscriptions.
 
 - For more information about licensing requirements for Power Apps, Power Automate, Power Virtual Agents, and Dataverse for Teams, see [Licensing](/power-platform/admin/about-teams-environment).
 - For more information about licensing requirements for Power BI, see [Requirements](/power-bi/collaborate-share/service-collaborate-microsoft-teams).
- 
+
 ## How do I get started?
 
 - [Power BI and Teams](/power-bi/collaborate-share/service-collaborate-microsoft-teams)
