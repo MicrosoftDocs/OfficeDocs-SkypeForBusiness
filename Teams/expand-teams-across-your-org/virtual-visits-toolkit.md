@@ -25,6 +25,10 @@ description: Learn how to use the Bookings app in Microsoft Teams to schedule, m
 
 Now that your organization has begun using Microsoft Teams and the Bookings app for Virtual Visits, you'll need to make sure that your clients and customers understand how to book and join these appointments.
 
+Watch this video for a quick overview of what Virtual Visits can do for your organization.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/<RWEJii>]  
+
 ## What's included in this toolkit
 
 This toolkit is intended to help you help your customers and clients successfully join a Virtual Visit. You can customize the resources we provide and include links to them in your communications about Virtual Visits. This toolkit includes:
@@ -90,14 +94,18 @@ Make the most of Virtual Visits by making sure your staff members know how to co
 - [Learn how to use the Bookings app in Teams](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5)
 - [Learn how to join a Bookings appointment](https://support.microsoft.com/office/join-a-bookings-appointment-attendees-3deb7bde-3ea3-4b41-8a06-741ad0db9fc0)
 - [Conduct a virtual visit](/microsoftteams/expand-teams-across-your-org/bookings-virtual-visits#conduct-a-visit)
+- [Watch a video about Virtual Visits](#help-your-clients-and-customers-use-virtual-visits)
 
 ## Resources for your clients
 
+You can link out to this article to show your clients how to join Virtual Visits:
 [Learn how to join a virtual visit](https://support.microsoft.com/office/join-a-bookings-appointment-as-an-attendee-95cea12d-2220-421f-a663-6efb20913c7f)
+
+Download and [customize](#customize-your-infographic) one of these infographics to feature on your website. These give your clients a quick and visually engaging way to understand how Virtual Visits with your organization work.
 
 | Graphic                | Description              |
 | :------------------- | -------------------: |
-| ![Image of the financial services infographic](../media/vv-finserv-thumbnail.png) <br> [Download as a PDF]() [Download as a PowerPoint]() | Customizable infographic for your financial services organization |
+| ![Image of the financial services infographic](../media/vv-finserv-thumbnail.png) <br> [Download as a PDF](//download.microsoft.com/download/a/b/5/ab5c07d9-cf7a-47b3-ba54-05a8a0a2a1bd/VirtualVisit_Financial_Infographic.pdf) [Download as a PowerPoint](//download.microsoft.com/download/a/b/5/ab5c07d9-cf7a-47b3-ba54-05a8a0a2a1bd/VirtualVisit_Financial_Infographic.pptx) | Customizable infographic for your financial services organization |
 | ![Image of the retail infographic](../media/vv-retail-thumbnail.png) <br> [Download as a PDF]() [Download as a PowerPoint]() | Customizable infographic for your retail organization |
 | ![Image of the healthcare infographic](../media/vv-healthcare-thumbnail.png) <br> [Download as a PDF]() [Download as a PowerPoint]() | Customizable infographic for your healthcare organization |
 
