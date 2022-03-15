@@ -1,7 +1,7 @@
 ---
 title: "Deploy Microsoft Teams Rooms on Android"
-ms.author: mitressl
-author: flinchbot
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 ms.reviewer: payurevi
