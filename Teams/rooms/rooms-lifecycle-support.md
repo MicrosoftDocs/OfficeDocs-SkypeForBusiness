@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Teams Rooms app version support"
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
