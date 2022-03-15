@@ -148,9 +148,9 @@ If you're in an Exchange hybrid configuration, you need to add an email address 
 
    2. To create a new room mailbox:
 
-   ``` PowerShell
-   New-Mailbox -UserPrincipalName <UPN> -Name <String> -Alias <String> -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
-   ```
+      ``` PowerShell
+      New-Mailbox -UserPrincipalName <UPN> -Name <String> -Alias <String> -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
+      ```
      
    This example creates a new room mailbox with the following settings:
 
