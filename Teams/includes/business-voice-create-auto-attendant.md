@@ -1,10 +1,10 @@
-#### Video demonstration
+## Video demonstration
 
 This video shows a basic example of how to create an auto attendant in Microsoft Teams.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEnCG?autoplay=false]
 
-#### Before you begin
+## Before you begin
 
 Get the service numbers (service numbers are a special type of phone number that are used by auto attendants) that you need for the auto attendants that you want to be accessible by direct dialing from outside your organization. This might include [transferring numbers from another provider](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) or [requesting new service numbers](../getting-service-phone-numbers.md).
 
@@ -14,12 +14,9 @@ If you want to have your auto attendant route calls differently on holidays, the
 
 <a name="steps"></a>
 
-#### Follow these steps to set up your auto attendant
+### Follow these steps to set up your auto attendant
 
 # [Step 1 - Phone number](#tab/phone-number)
-
-> [!NOTE]
-> If you're following the steps to set up the Teams Phone System with Calling Plan bundle for the first time and you're on **Step 6: Set up an auto attendant for your company's main phone number**, you've already finished the steps on this tab. Move to the next tab: [Auto attendant general info](?tabs=general-info#steps).
 
 Each auto attendant that you create requires a resource account. This is similar to a user account, except the account is associated with an auto attendant or call queue instead of a person. In this step, we'll create the account, assign it a *Microsoft Teams Phone Standard - Virtual User* license, and then assign a service number.
 
@@ -72,7 +69,7 @@ To set up an auto attendant
 
 3. If you want to designate an operator, specify the destination for calls to the operator. This is optional (but recommended). You can set the **Operator** option to allow callers to break out of the menus and speak to a designated person.
 
-4. Specify the time zone for this auto attendant. The time zone is used for calculating business hours if you create a separate call flow for after hours.
+4. Specify the time zone for this auto attendant. The time zone is used for calculating business hours if you [create a separate call flow for after hours](?tabs=call-flow#steps).
 
 5. Specify a [supported language](../create-a-phone-system-auto-attendant-languages.md) for this auto attendant. This is the language that will be used for system-generated voice prompts.
 
@@ -85,7 +82,7 @@ To set up an auto attendant
 
 # [Step 3 - Call flow](#tab/call-flow)
 
-Choose your call flow options
+Choose your call flow options:
 
 1. Choose if you want to play a greeting when the auto attendant answers a call.
 
@@ -103,6 +100,10 @@ Choose your call flow options
 
 3. If you want callers to use dial keys to navigate, then under **Set menu options**, choose what you want to happen when callers press a dial key. (If you're creating this auto attendant as a company directory, leave the dial key options blank.)
 
+    The keys \* (asterisk) and \# (pound) are reserved by the system and can't be reassigned. Pressing either of these keys will repeat the current menu.
+
+    Also, the \# key only backs up to the most recent auto attendant. Once the boundary is crossed to a new auto attendant, the \# key will not be able to take you to the previous one.
+
     You can set any of the dial keys to the following destinations:
 
     - **Person in the organization** - a person in your organization who is able to receive voice calls.
@@ -115,15 +116,46 @@ Choose your call flow options
 
     For each menu option, specify the following:
 
-    - **Dial key** - the key on the telephone keypad to access this option.
+    - **Dial key** - the key on the telephone keypad to access this option. If voice inputs are available, callers can also say this number to access the option.
 
-    - **Voice command** - defines the voice command that a caller can give to access this option, if voice inputs are enabled. It can contain multiple words like "Customer Service" or "Operations and Grounds." 
+    - **Voice command** - defines the voice command that a caller can give to access this option, if voice inputs are enabled. It can contain multiple words like "Customer Service" or "Operations and Grounds."
 
     - **Redirect to** - where you want the call to go when callers choose this option. If you are redirecting to an auto attendant or call queue, choose the resource account associated with it.
 
-4. If you want to use this auto attendant as a company directory, then under **Directory search**, select **Dial by name**. When you enable this option, callers can say the user's name or type it on the telephone keypad. Any online user with a Phone System license is an eligible user and can be found with Dial by name.
+4. Directory search
 
-    (You can choose **Dial by extension**, however the extension must be configured in Azure Active Directory.)
+    If you assign dial keys to destinations, we recommend that you choose **None** for **Directory search**. If a caller attempts to dial a name or extension using keys that are assigned to specific destinations, they might be routed to a destination before they finish entering the name or extension. We recommend that you create a separate auto attendant for directory search and have your main auto attendant link to it with a dial key.
+
+    If you didn't assign dial keys, then choose an option for **Directory search**.
+
+    **Dial by name** - If you use this option, callers can say the user's name or type it on the telephone keypad. Under **Directory search**, select **Dial by name**. Any online user with a Teams Phone Standard license, Teams Phone with Calling Plan bundle license, or any user hosted on-premises using Skype for Business Server is an eligible user and can be found with Dial by name.
+
+    You can set who is and isn't included in the directory on the [Dial scope](?tabs=dial-scope#steps) tab.
+
+    **Dial by extension** - If you use this option, callers can connect with users in your organization by dialing their phone extension. You can choose **Dial by extension**, however the extension must be configured in Azure Active Directory.
+
+    Users you want to make available for **Dial By extension** need to have an extension specified as part of one of the following phones attributes. See [Add users individually or in bulk](/microsoft-365/admin/add-users/add-users) for more information.
+
+    - OfficePhone
+    - HomePhone
+    - Mobile/MobilePhone
+    - TelephoneNumber/PhoneNumber
+    - OtherTelephone
+
+    The required format to enter the extension in the user phone number field can be one of the following formats:
+
+    - *+\<phone number>;ext=\<extension>*
+    - *+\<phone number>x\<extension>*
+    - *x\<extension>*
+
+    - Example 1: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678;ext=5678"
+    - Example 2: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678x5678"
+    - Example 3: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "x5678"
+
+    You can set the extension in the [Microsoft 365 admin center](https://admin.microsoft.com/) or the [Azure Active Directory admin center](https://aad.portal.azure.com). It can take up to 12 hours before changes are available to auto attendants and call queues.
+
+    > [!NOTE]
+    > If you want to use both the **Dial by name** and **Dial by extension** features, you can assign a dial key on your main auto attendant to reach an auto attendant enabled for **Dial by name**. Within that auto attendant, you can assign the 1 key (which has no letters associated with it) to reach the **Dial by extension** auto attendant.
 
 5. Once you have selected a **Directory search** option, click **Next**.
 
@@ -147,9 +179,7 @@ Click **Next** when you're done.
 
 # [Step 5 - Holidays](#tab/holidays)
 
-You can have calls to your auto attendant routed differently on holidays than on other days. (If you don't want to have a different call flow for holidays, you can skip this step.)
-
-Your auto attendant can have a call flow for each holiday you've set up. You can add up to 20 scheduled holidays to each auto attendant.
+Your auto attendant can have a call flow for each [Holiday you've set up](../set-up-holidays-in-teams.md). You can add up to 20 scheduled holidays to each auto attendant.
 
 1. On the Holiday call settings page, click **Add**.
 

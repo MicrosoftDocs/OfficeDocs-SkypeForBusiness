@@ -19,7 +19,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Step 3: Assign Teams Phone with Calling Plan bundle licenses
+# Assign Teams Phone with Calling Plan bundle licenses
 
 Each user who needs the Microsoft Teams Phone System with Calling Plan bundle needs to be assigned a **Teams Phone with Calling Plan** bundle license.
 

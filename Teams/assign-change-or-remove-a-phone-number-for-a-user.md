@@ -24,13 +24,14 @@ description: "Learn how to assign, change, or remove a work phone number for you
 
 # Assign, change, or remove a phone number for a user
 
-When you set up Calling Plans or Operator Connect, you assign phone numbers to your users. In Microsoft Teams, the phone number that you assign is listed when a user clicks **Calls**. 
+When you set up Calling Plans or Operator Connect, you assign phone numbers to your users. In Microsoft Teams, the phone number that you assign is listed when a user clicks **Calls**.
 
-This article applies to Calling Plans and Operator Connect. For information about assigning, changing, or removing a phone number from a user in a Direct Routing scenario, see [Enable users for Direct Routing, voice, and voicemail](./direct-routing-enable-users.md).
+This article applies to Microsoft Calling Plans (including the Phone System with Calling Plan bundle) and Operator Connect. For information about assigning, changing, or removing a phone number from a user in a Direct Routing scenario, see [Enable users for Direct Routing, voice, and voicemail](./direct-routing-enable-users.md).
 
 Before you assign a number for a Calling Plan or Operator Connect user, you must get numbers for your users. For more information, see [Get numbers for Calling Plan users](getting-phone-numbers-for-your-users.md) or [Set up numbers for Operator Connect users](operator-connect-configure.md#set-up-phone-numbers).
 
-  
+If you're a small or medium business using the Phone System with Calling Plan bundle, use this article to [assign phone numbers to users](#assign-a-phone-number-to-a-user) before moving on to [set up an auto attendant](/business-voice/set-up-auto-attendant).
+
 > [!NOTE]
 > One way to see whether a user has a license assigned is by going to the Microsoft Teams admin center > **Users**. If a license is assigned, it will be indicated on the page.  You can also use the Microsoft 365 admin center.
 
@@ -42,7 +43,7 @@ Before you assign a number for a Calling Plan or Operator Connect user, you must
 When assigning a phone number to a user, make sure the phone number and the usage location of the user are of the same country.
 
 To assign a number by using the Teams admin center:
-    
+
 1. In the left navigation, click **Voice** > **Phone numbers**.
 
 2. On the **Phone numbers** page, select an unassigned number in the list, and then click **Edit**.  
@@ -54,18 +55,20 @@ To assign a number by using the Teams admin center:
    > [!NOTE]
    > If you are assigning numbers to Operator Connect users, you may or may not be able to assign or change the associated emergency location. This functionality will depend on your Operator. Contact your Operator for more information.
 
-5. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this is on. 
+5. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this is on.
 
 6. Click **Save**.
 
 To assign numbers by using PowerShell, use the [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) cmdlet as follows:
 
-For Calling Plan numbers
+For Calling Plan numbers:
+
 ```PowerShell
 Set-CsPhoneNumberAssignment -Identity <user>  -PhoneNumber <phone number> -PhoneNumberType CallingPlan
 ```
 
-For Operator Connect numbers
+For Operator Connect numbers:
+
 ```PowerShell
 Set-CsPhoneNumberAssignment -Identity <user>  -PhoneNumber <phone number> -PhoneNumberType OperatorConnect
 ```
@@ -78,13 +81,12 @@ Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+1425555010
 ```
 
 > [!NOTE]
-> Because of the latency between Microsoft 365 and Teams, it can take up to 24 hours for users to be enabled. If the phone number isn't assigned correctly after 24 hours, see [Phone Number Service Center](https://pstnsd.powerappsportals.com/). 
+> Because of the latency between Microsoft 365 and Teams, it can take up to 24 hours for users to be enabled. If the phone number isn't assigned correctly after 24 hours, see [Phone Number Service Center](https://pstnsd.powerappsportals.com/).
 
-  
 ## Change a phone number for a user
 
 To change a phone number for a user by using the Teams admin center:
-    
+
 1. In the left navigation, click **Users**, locate and double-click the user you want, click **Account**, and then under **General information**, make a note of the phone number that's assigned to the user.
 
 2. In the left navigation, click **Voice** > **Phone numbers**.
@@ -137,4 +139,3 @@ For a PowerShell example, see [Remove-CsPhoneNumberAssignment](/powershell/modul
 [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment)
 
 [Remove-CsPhoneNumberAssignment](/powershell/module/teams/remove-csphonenumberassignment)
-

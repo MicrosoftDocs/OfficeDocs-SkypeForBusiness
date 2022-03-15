@@ -19,7 +19,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Step 2: Set up Teams Phone System phone numbers
+# Set up Teams Phone System phone numbers
 
 Before you can set up users or auto attendants in your organization, you need to get phone numbers for them. There are several different types of phone numbers, however the following are the two types of numbers that you need to add in this step:
 
