@@ -1,7 +1,7 @@
 ---
 title: "Build a Microsoft Teams Rooms image"
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: Travis-Snoozy
 manager: serdars
 audience: ITPro
