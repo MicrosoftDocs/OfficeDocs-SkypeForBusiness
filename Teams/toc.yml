@@ -741,6 +741,8 @@ items:
                   href: emails-sent-to-users-when-their-settings-change-in-teams.md
                 - name: Enable or disable sending emails when Audio Conferencing settings change
                   href: enable-or-disable-sending-emails-when-their-settings-change-in-teams.md
+                - name: Policy settings for toll and toll-free numbers
+                  href: audio-conferencing-toll-free-numbers-policy.md
                 - name: Disabling toll-free numbers for specific users
                   href: disabling-toll-free-numbers-for-specific-teams-users.md
                 - name: Outbound calling restriction policies for Audio Conferencing and user PSTN call
