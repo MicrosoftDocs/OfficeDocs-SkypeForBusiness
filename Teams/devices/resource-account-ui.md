@@ -7,8 +7,8 @@ audience: ITPro
 keywords: create device account, Microsoft 365 UI, Microsoft 365 admin center
 ms.sitesec: library
 ms.service: msteams
-author: flinchbot
-ms.author: mitressl
+author: cazawideh
+ms.author: czawideh
 ms.topic: article
 ms.localizationpriority: medium
 ---
