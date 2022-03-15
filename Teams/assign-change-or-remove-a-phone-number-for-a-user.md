@@ -26,11 +26,9 @@ description: "Learn how to assign, change, or remove a work phone number for you
 
 When you set up Calling Plans or Operator Connect, you assign phone numbers to your users. In Microsoft Teams, the phone number that you assign is listed when a user clicks **Calls**.
 
-This article applies to Microsoft Calling Plans (including the Phone System with Calling Plan bundle) and Operator Connect. For information about assigning, changing, or removing a phone number from a user in a Direct Routing scenario, see [Enable users for Direct Routing, voice, and voicemail](./direct-routing-enable-users.md).
+This article applies to Calling Plans and Operator Connect. For information about assigning, changing, or removing a phone number from a user in a Direct Routing scenario, see [Enable users for Direct Routing, voice, and voicemail](./direct-routing-enable-users.md).
 
 Before you assign a number for a Calling Plan or Operator Connect user, you must get numbers for your users. For more information, see [Get numbers for Calling Plan users](getting-phone-numbers-for-your-users.md) or [Set up numbers for Operator Connect users](operator-connect-configure.md#set-up-phone-numbers).
-
-If you're a small or medium business using the Phone System with Calling Plan bundle, use this article to [assign phone numbers to users](#assign-a-phone-number-to-a-user) before moving on to [set up an auto attendant](/business-voice/set-up-auto-attendant).
 
 > [!NOTE]
 > One way to see whether a user has a license assigned is by going to the Microsoft Teams admin center > **Users**. If a license is assigned, it will be indicated on the page.  You can also use the Microsoft 365 admin center.
