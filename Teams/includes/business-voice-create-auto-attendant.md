@@ -24,13 +24,13 @@ Each auto attendant that you create requires a resource account. This is similar
 
 You can create a resource account in the Teams admin center.
 
-1. In the Teams admin center, expand **Org-wide settings**, and then click **Resource accounts**.
+1. In the Teams admin center, expand **Org-wide settings**, and then select **Resource accounts**.
 
-2. Click **Add**.
+2. Select **Add**.
 
 3. In the **Add resource account** pane, fill out **Display name**, **Username**, and choose **Auto attendant** for the **Resource account type**
 
-4. Click **Save**.
+4. Select **Save**.
 
     The new account will appear in the list of accounts.
 
@@ -38,23 +38,23 @@ You can create a resource account in the Teams admin center.
 
 You must assign a *Microsoft Teams Phone Standard - Virtual User* license to the resource account.
 
-1. In the Microsoft 365 admin center, click the resource account to which you want to assign a license.
+1. In the Microsoft 365 admin center, select the resource account to which you want to assign a license.
 
 2. On the **Licenses and Apps** tab, under **Licenses**, select **Microsoft Teams Phone Standard - Virtual User**.
 
-3. Click **Save changes**.
+3. Select **Save changes**.
 
 ### Assign a service number
 
 If you need this auto attendant to be reachable by a phone number, then assign that number to the resource account.
 
-1. In the Teams admin center, on the **Resource accounts** page, select the resource account to which you want to assign a service number, and then click **Assign/unassign**.
+1. In the Teams admin center, on the **Resource accounts** page, select the resource account to which you want to assign a service number, and then select **Assign/unassign**.
 
 2. In the **Phone number type** dropdown, choose the type of number that you want to use.
 
-3. In the **Assigned phone number** box, search for the number you want to use and click **Add**.
+3. In the **Assigned phone number** box, search for the number you want to use and select **Add**.
 
-4. Click **Save**.
+4. Select **Save**.
 
 > [!div class="nextstepaction"]
 > [Step 2 - Auto attendant general info >](?tabs=general-info#steps)
@@ -63,7 +63,7 @@ If you need this auto attendant to be reachable by a phone number, then assign t
 
 To set up an auto attendant
 
-1. In the Teams admin center, expand **Voice**, click **Auto attendants**, and then click **Add**.
+1. In the Teams admin center, expand **Voice**, select **Auto attendants**, and then select **Add**.
 
 2. Type a name for the auto attendant in the box at the top.
 
@@ -75,7 +75,7 @@ To set up an auto attendant
 
 6. Choose if you want to enable voice inputs. When enabled, the name of every menu option becomes a speech-recognition keyword. For example, callers can say "One" to select the menu option mapped to key 1, or they can say "Sales" to select the menu option named "Sales."
 
-7. Click **Next**.
+7. Select **Next**.
 
 > [!div class="nextstepaction"]
 > [Step 3 - Call flow >](?tabs=call-flow#steps)
@@ -157,7 +157,7 @@ Choose your call flow options:
     > [!NOTE]
     > If you want to use both the **Dial by name** and **Dial by extension** features, you can assign a dial key on your main auto attendant to reach an auto attendant enabled for **Dial by name**. Within that auto attendant, you can assign the 1 key (which has no letters associated with it) to reach the **Dial by extension** auto attendant.
 
-5. Once you have selected a **Directory search** option, click **Next**.
+5. Once you have selected a **Directory search** option, select **Next**.
 
 > [!div class="nextstepaction"]
 > [Step 4 - After hours call flow >](?tabs=after-hours#steps)
@@ -168,11 +168,11 @@ Business hours can be set for each auto attendant. If business hours aren't set,
 
 Depending on how you have configured your auto attendants and call queues, you may only need to specify after-hours call routing for auto attendants with direct phone numbers.
 
-If you want separate call routing for after-hours callers, then specify your business hours for each day. Click **Add new time** to specify multiple sets of hours for a given day, for example, to specify a lunch break.
+If you want separate call routing for after-hours callers, then specify your business hours for each day. Select **Add new time** to specify multiple sets of hours for a given day, for example, to specify a lunch break.
 
 Once you have specified your business hours, then choose your call routing options for after hours. The same options are available as for the business hours call routing that you specified in **Step 3 - Call flow**.
 
-Click **Next** when you're done.
+Select **Next** when you're done.
 
 > [!div class="nextstepaction"]
 > [Step 5 - Holiday call flow >](?tabs=holidays#steps)
@@ -181,7 +181,7 @@ Click **Next** when you're done.
 
 Your auto attendant can have a call flow for each [Holiday you've set up](../set-up-holidays-in-teams.md). You can add up to 20 scheduled holidays to each auto attendant.
 
-1. On the Holiday call settings page, click **Add**.
+1. On the Holiday call settings page, select **Add**.
 
 2. Type a name for this holiday setting.
 
@@ -193,11 +193,11 @@ Your auto attendant can have a call flow for each [Holiday you've set up](../set
 
 6. If you chose to redirect, choose the call routing destination for the call.
 
-7. Click **Save**.
+7. Select **Save**.
 
     Repeat the procedure as needed for each additional holiday.
 
-    When you've added all your holidays, click **Next**.
+    When you've added all your holidays, select **Next**.
 
 > [!div class="nextstepaction"]
 > [Step 6 - Choose who's in the directory >](?tabs=dial-scope#steps)
@@ -211,7 +211,7 @@ You can include or exclude specific users by selecting **Custom user group** und
 > [!NOTE]
 > It might take up to 36 hours for a new user to have their name listed in the directory.
 
-When you're done setting the dial scope, click **Next**.
+When you're done setting the dial scope, select **Next**.
 
 > [!div class="nextstepaction"]
 > [Step 7 - Assign a resource account >](?tabs=resource-accounts#steps)
@@ -222,9 +222,9 @@ All auto attendants must have an associated resource account.  First level auto 
 
 To add a resource account
 
-1. Click **Add** and search for the account that you want to add. Click **Add**, and then click **Add**.
+1. Select **Add** and search for the account that you want to add. Select **Add**, and then select **Add**.
 
-2. When you have finished adding service accounts, click **Submit**.
+2. When you have finished adding service accounts, select **Submit**.
 
     This completes the auto attendant configuration.
 

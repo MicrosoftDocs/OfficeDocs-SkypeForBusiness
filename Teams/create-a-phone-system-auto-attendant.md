@@ -33,7 +33,6 @@ Auto attendants let people call your organization and navigate a menu system to 
 Be sure you have read [Plan for Teams auto attendants and call queues](plan-auto-attendant-call-queue.md) and followed the [getting started steps](plan-auto-attendant-call-queue.md#getting-started) before you follow the procedures in this article.
 
 Auto attendants can direct calls, based on callers' input, to one of the following destinations:
-<a name="call-routing-options" ></a>
 
 - **Operator** - the operator defined for the auto attendant. Defining an operator is optional. The operator can be defined as any of the other destinations in this list.
 - **Person in the organization** - a person in your organization who can receive voice calls. This person can be an online user or a user hosted on-premises using Skype for Business Server.
@@ -59,10 +58,10 @@ Refer to the [Prerequisites](plan-auto-attendant-call-queue.md#prerequisites) in
 
 The outbound phone number that's displayed is determined as follows:
 
-  - For Calling Plan and Operator Connect numbers, the original caller's phone number is displayed.
-  - For Direct Routing numbers, the number sent is based on the P-Asserted-Identity (PAI) setting on the SBC, as follows:
-    - If set to Disabled, the original caller's phone number is displayed. This is the default and recommended setting.
-    - If set to Enabled, the resource account phone number is displayed.
+- For Calling Plan and Operator Connect numbers, the original caller's phone number is displayed.
+- For Direct Routing numbers, the number sent is based on the P-Asserted-Identity (PAI) setting on the SBC, as follows:
+  - If set to Disabled, the original caller's phone number is displayed. This is the default and recommended setting.
+  - If set to Enabled, the resource account phone number is displayed.
 
 In a Skype for Business hybrid environment, to transfer an auto attendant call to the PSTN, create a new on-premises user with call forwarding set to the PSTN number. The user must be enabled for Enterprise Voice and have a voice policy assigned. To learn more, see [Auto attendant call transfer to PSTN](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn).
 
@@ -98,10 +97,10 @@ The following additional cmdlets are also required to manage the users, resource
 Users/Teams
 
 - Users
-- - [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser)
+  - [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser)
 
-- Teams: 
-- - [Get-Team](/powershell/module/teams/Get-Team)
+- Teams:
+  - [Get-Team](/powershell/module/teams/Get-Team)
 
 Resource accounts:
 
@@ -142,7 +141,7 @@ For a step-by-step guide to creating auto attendants with PowerShell, see [Creat
 
 If you're an administrator, you can use the following diagnostic tool to validate that an auto attendant is able to receive calls:
 
-1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center. 
+1. Select **Run Tests** below, which will populate the diagnostic in the Microsoft 365 Admin Center.
 
    > [!div class="nextstepaction"]
    > [Run Tests: Teams Auto Attendant](https://aka.ms/TeamsAADiag)
