@@ -2,7 +2,7 @@
 2. In the left navigation pane, go to [**Voice** > **Phone numbers**](https://admin.teams.microsoft.com/phone-numbers).
 3. On the **Phone numbers** page, select an unassigned number in the list, and then click **Edit**.  
 4. In the **Edit** pane, under **Assigned to**, search for the user by display name or user name, and then click **Assign**.
-5. Under **Emergency location**, you can select either the emergency location you added in the [Set up emergency locations](set-up-emergency-locations.md) step, or if you need to create a new location for another office or a home office, click **Add a location**.
+5. Under **Emergency location**, you can select either an emergency location you've already created or create a new location for another office by selecting **Add a location**.
 6. Decide whether to send a welcome email with phone number information to the user. If you want to:
     - **Bring your existing phone numbers** to Phone System (called phone number porting), *unselect* **Email user with telephone number information**.
     - **Use the new phone numbers** selected by Phone System, *select* **Email user with telephone number information**.

@@ -46,6 +46,9 @@ To assign a number by using the Teams admin center:
 
 [!INCLUDE [assign-phone-numbers-to-users-steps](./includes/assign-phone-numbers-to-users-steps.md)]
 
+> [!NOTE]
+> For step 4, if you're assigning numbers to Operator Connect users, you may or may not be able to assign or change the associated emergency location. This functionality will depend on your Operator. Contact your Operator for more information.
+
 To assign numbers by using PowerShell, use the [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) cmdlet as follows:
 
 For Calling Plan numbers:
