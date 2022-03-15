@@ -228,4 +228,6 @@ To add a resource account
 
     This completes the auto attendant configuration.
 
+See [Manage Teams resource accounts](../manage-resource-accounts.md) for more information.
+
 ---

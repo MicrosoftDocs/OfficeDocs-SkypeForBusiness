@@ -19,7 +19,9 @@ appliesto:
 - Microsoft Teams
 ---
 
-[!INCLUDE [manage-resource-accounts](../manage-resource-accounts.md)]
+# Step 4: Set up a Teams Phone System resource account
+
+[!INCLUDE [set-up-resource-account-steps](../includes/set-up-resource-account-steps.md)]
 
 > [!div class="nextstepaction"]
 > [Next step: Assign phone numbers to your users](set-up-assign-numbers.md)

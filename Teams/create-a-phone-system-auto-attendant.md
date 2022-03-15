@@ -49,8 +49,6 @@ To set up an auto attendant, in the Teams admin center, expand **Voice**, select
 
 [!INCLUDE [business-voice-create-auto-attendant](./includes/business-voice-create-auto-attendant.md)]
 
-See [Manage Teams resource accounts](manage-resource-accounts.md) for more information.
-
 ## External phone number transfers - technical details
 
 Refer to the [Prerequisites](plan-auto-attendant-call-queue.md#prerequisites) in order to allow auto attendants to transfer calls externally.  In addition:
