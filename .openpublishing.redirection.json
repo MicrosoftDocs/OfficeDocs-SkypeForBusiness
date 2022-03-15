@@ -2602,7 +2602,7 @@
      },
      {
       "source_path": "Teams/business-voice/create-a-phone-system-auto-attendant-smb.md",
-      "redirect_url": "Teams/business-voice/set-up-auto-attendant.md",
+      "redirect_url": "/microsoftteams/business-voice/set-up-auto-attendant.md",
       "redirect_document_id": true
      }
   ] 
