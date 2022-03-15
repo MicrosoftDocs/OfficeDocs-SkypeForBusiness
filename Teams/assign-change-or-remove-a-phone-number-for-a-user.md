@@ -44,20 +44,7 @@ When assigning a phone number to a user, make sure the phone number and the usag
 
 To assign a number by using the Teams admin center:
 
-1. In the left navigation, click **Voice** > **Phone numbers**.
-
-2. On the **Phone numbers** page, select an unassigned number in the list, and then click **Edit**.  
-
-3. In the **Edit** pane, under **Assigned to**, search for the user by display name or user name, and then click **Assign**.
-
-4. To assign or change the associated emergency location, under **Emergency location**, search for and then select the location.
-
-   > [!NOTE]
-   > If you are assigning numbers to Operator Connect users, you may or may not be able to assign or change the associated emergency location. This functionality will depend on your Operator. Contact your Operator for more information.
-
-5. Depending on whether you want to send an email to the user with their phone number information, turn off or turn on **Email user with telephone number information**. By default, this is on.
-
-6. Click **Save**.
+[!INCLUDE [assign-phone-numbers-to-users-steps](./includes/assign-phone-numbers-to-users-steps.md)]
 
 To assign numbers by using PowerShell, use the [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) cmdlet as follows:
 
@@ -88,19 +75,12 @@ Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+1425555010
 To change a phone number for a user by using the Teams admin center:
 
 1. In the left navigation, click **Users**, locate and double-click the user you want, click **Account**, and then under **General information**, make a note of the phone number that's assigned to the user.
-
 2. In the left navigation, click **Voice** > **Phone numbers**.
-
 3. On the **Phone numbers** page, select the number that you identified in step 1, and then click **Edit**.  
-
 4. In the **Edit** pane, under **Assigned to**, click the **X** to remove the user.
-
 5. Click **Save**.
-
 6. On the **Phone numbers** page, select an unassigned number in the list, and then click **Edit**.  
-
 7. In the **Edit** pane, under **Assigned to**, search for the user by display name or user name, and then click **Assign**.
-
 8. To assign or change the associated emergency location, under **Emergency location**, search for and then select the location.
 
       > [!NOTE]
@@ -115,13 +95,9 @@ For a PowerShell example, see [Set-CsPhoneNumberAssignment](/powershell/module/t
 To remove a phone number by using the Teams admin center:
 
 1. In the left navigation, click **Users**, locate and double-click the user you want, click **Account**, and then under **General information**, make a note of the phone number that's assigned to the user.
-
 2. In the left navigation, click **Voice** > **Phone numbers**.
-
 3. On the **Phone numbers** page, select the number that you identified in step 2, and then click **Edit**.  
-
 4. In the **Edit** pane, under **Assigned to**, click the **X** to remove the user.
-
 5. Click **Save**.
 
 For a PowerShell example, see [Remove-CsPhoneNumberAssignment](/powershell/module/teams/remove-csphonenumberassignment).
