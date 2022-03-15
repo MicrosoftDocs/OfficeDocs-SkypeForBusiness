@@ -164,7 +164,7 @@ To run a successful event, follow the practices outlined below:
 
 - For the best experience in large meetings, webinars, and live events, Microsoft recommends using the latest version of the Teams desktop client or Teams mobile clients. 
 
-- Ensure that all Microsoft [Network Connectivity Principles](https://docs.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles) have been followed both on-premises and for remote users.
+- Ensure that all Microsoft [Network Connectivity Principles](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles) have been followed both on-premises and for remote users.
 - Use [real-time data telemetry](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-microsoft-teams-real-time-call-quality-analytics/ba-p/2912146) to monitor the event and identify any possible issues and its source.
   - Designate meeting monitors to [analyze](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md) telemetry for users facing poor experience caused by metrics exceeding thresholds.
   - Set meeting monitors as presenters to disable rogue video streams, mute accidental live mics, and remove attendees if needed.
