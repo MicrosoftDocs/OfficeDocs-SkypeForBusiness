@@ -1,14 +1,14 @@
 ---
 title: Tailor Teams apps for your frontline workers
-author: guptaashish
-ms.author: guptaashish
+author: LanaChin
+ms.author: v-lanachin
 ms.reviewer: aaglick
-manager: prkosh
+manager: samanro
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Learn how to pin Teams apps for users in your organization based on license.
+description: Learn about the tailored app experience for frontline workers in Teams.
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
@@ -17,20 +17,25 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Tailor your Teams apps based on license
+# Tailor Teams apps for your frontline workers
 
 > [!NOTE]
-> Currently, this feature applies to F licenses. Therefore, this article focuses on the frontline worker experience. Other license types will be supported in the future.
+> [!INCLUDE [new-feature-coming-soon-section](includes/new-feature-coming-soon-section.md)]
+
+> [!NOTE]
+> Currently, this feature applies to [F licenses](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Therefore, this article focuses on the frontline worker experience. Other license types will be supported in the future.
 
 ## Overview
 
-Teams provides an easy way to pin apps for frontline workers. <Add a blurb about FLW and link to the licensing marketing page>. When a user signs in to Teams with the tailored app experience enabled, the user gets an app experience that's tailored based on their license. This feature gives frontline workers the most relevant apps in Teams without any action needed from the admin.
+Frontline workers are employees who work directly with customers providing services, support, and selling products, or in the manufacturing and distribution of products or services. Frontline worker roles include retail associates, factory workers, field and service technicians, and healthcare personnel.
+
+Teams provides an easy way to pin apps for frontline workers. With the tailored frontline app experience, frontline workers get the most relevant apps in Teams without any action needed from the admin.
 
 ## Tailored frontline app experience
 
 Apps are pinned to the app bar, which is the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients (iOS and Android).
 
-Apps pinned for users who have an F license:
+Apps pinned for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt):
 
 - [Activity](https://support.microsoft.com/office/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56)
 - [Chat](https://support.microsoft.com/office/get-started-with-chat-0b506ce2-eb6d-4fca-9668-e56980ba755e)
@@ -49,27 +54,41 @@ The tailored frontline app experience feature is controlled by the **Show tailor
 
 Keep in mind that any [custom app setup policies](teams-app-setup-policies.md) assigned to users take precedence. This means that if a user already has a custom app setup policy assigned to them, the user gets the configuration that's defined in the custom app setup policy. To learn more about how the feature works with existing app setup policies that you've applied in your organization, see the [Scenarios](#scenarios) section of this article.
 
-This feature is on by default. However, if you don't want the tailored app experience provided by Microsoft, you can turn off the feature. To turn the feature off or on:
+This feature is on by default. However, if you don't want the tailored frontline app experience provided by Microsoft, you can turn off the feature. To turn the feature off or on:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**, and then select **Org-wide app settings**.
 2. Under **Tailored apps**, switch the **Show tailored apps based on licenses** toggle to **Off** or **On**.
 
+
 ## Scenarios
 
-Use the information in this table to learn how the tailored app experience works in various scenarios, including when you've applied existing app setup policies.
+### How does the tailored frontline app experience affect my global app setup policy?
+
+Learn how the tailored frontline app experience works together with the global app setup policy. The scenarios in this table apply to frontline workers who have an F license and the global app setup policy with **User pinning** turned on.
+
+|If... |Then... |
+|---------|---------|
+|A frontline worker has the global app setup policy and the feature is off. |The frontline worker gets the apps defined in the global app setup policy.|
+|A frontline worker has the global app setup policy and **User pinning** is turned off. |The frontline worker gets the apps defined in the global app setup policy.|
+|A frontline worker has the global app setup policy, and the global app setup policy is changed to include a line-of-business (LOB) app in the second position in the app list. |The LOB app is pinned below the tailored apps. The frontline worker can change the app order.         |
+|A frontline worker has the global setup policy and the global app setup policy is changed to include Shifts in the first position.  |Shifts is pinned to the sixth position, as defined by the tailored frontline app experience.       |
+
+### How does the tailored frontline app experience work with other Teams app policies?
+
+Use the information here to learn how the tailored frontline app experience works with other Teams apps policies.
 
 |If...  |Then... |
 |---------|---------|
-The feature is turned off.   | The user gets the experience that's defined in the global app setup policy or custom app setup policy that's assigned to them.          |
-|A user has the global app setup policy and the feature is on.     | The user gets the tailored app experience. The apps defined in the global app setup policy are pinned below the tailored app experience.      |
+The feature is off.   | The user gets the apps defined in the global app setup policy or custom app setup policy assigned to them.          |
+|A user has the global app setup policy and the feature is on.     | The user gets the tailored frontline app experience. The apps defined in the global app setup policy are pinned below the tailored app experience.      |
 |A user has a custom app setup policy and the feature is on.    |The user gets the configuration that's defined in the custom app setup policy.          |
-|The feature is on and you update the global app setup policy.     |The user gets the tailored app experience based on their license. The apps defined in the global app setup policy are pinned below the tailored app experience.         |
-|A user has an E, A, or G license and the feature is on.   | The user doesn't get the tailored app experience. Currently, the tailored app experience applies only to users who have an F license.        |
-|An app in the tailored app experience is blocked for a user or for your organization.      |The tailored app experience honors the app permission policy. If an app is blocked, users won't see the blocked app.           |
+|The feature is on and you update the global app setup policy.     |The user gets the tailored frontline app experience. The apps defined in the global app setup policy are pinned below the tailored apps.         |
+|A user has an E, A, or G license and the feature is on.   | The user doesn't get the tailored frontline app experience. Currently, the experience applies only to users who have an F license.        |
+|An app in the tailored app experience is blocked for a user or for your organization.      |The tailored app experience honors the [app permission policy](teams-app-permission-policies.md). If an app is blocked, users won't see the blocked app.           |
 |An app in the tailored app experience is already defined in an app setup policy and the feature is on. |The app is pinned based on the order defined by the tailored app experience.        |
 
 > [!NOTE]
-> You can't change the apps or order of apps in the tailored app experience. For now, if you want to make changes, you can set up your own custom experience. To do this, first turn off the feature. Then, [create a custom app setup policy](teams-app-setup-policies.md), and [assign it to users or groups](assign-policies-users-and-groups.md).
+> You can't change the apps or order of apps in the tailored frontline app experience. For now, if you want to make changes, you can set up your own custom experience. To do this, first turn off the feature. Then, [create a custom app setup policy](teams-app-setup-policies.md), and [assign it to users or groups](assign-policies-users-and-groups.md).
 
 ## Related articles
 
