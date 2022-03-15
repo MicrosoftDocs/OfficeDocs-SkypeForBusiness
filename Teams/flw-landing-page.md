@@ -29,6 +29,8 @@ In this section:
 - [How to provision Teams at scale for frontline workers](flw-scripted-deployment.md)
 - [Policy packages for frontline workers and managers](manage-policy-packages.md)
 - [Tailor Teams apps for your frontline workers](pin-teams-apps-based-on-license.md) (coming soon)
+- [Sign in to Teams](sign-in-teams.md)
+- [Sign out of Teams](sign-out-of-teams.md)
 - Apps from Microsoft for frontline workers:
   - [Shifts](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
   - [Tasks](manage-tasks-app.md)
