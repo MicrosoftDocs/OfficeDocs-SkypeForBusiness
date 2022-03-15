@@ -19,7 +19,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Set up an auto attendant for your company's main phone number
+# Step 6: Set up an auto attendant for your company's main phone number
 
 An auto attendant lets you set up a call menu so that callers to your main phone number can choose from a list of options. For example, you could have options to connect to a sales or support department, specific individual, the switchboard, and even another auto attendant.
 

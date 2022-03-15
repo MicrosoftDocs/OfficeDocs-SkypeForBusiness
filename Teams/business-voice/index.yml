@@ -43,7 +43,7 @@ productDirectory:
       links:
         - url: port-phone-numbers.md
           text: Port existing phone numbers
-        - url: ./create-a-phone-system-auto-attendant-smb.md
+        - url: ./set-up-auto-attendant.md
           text: Set up auto attendants
         - url: set-up-policies.md
           text: Set up policies

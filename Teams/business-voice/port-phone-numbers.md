@@ -19,7 +19,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Port phone numbers to Teams Phone System with Calling Plan (optional)
+# Step 7: Port phone numbers to Teams Phone System with Calling Plan (optional)
 
 > [!IMPORTANT]
 > The information in this article is applicable to the Teams Phone System **with** Calling Plan bundle only. The Phone System with Calling Plan bundle is available only in select countries and regions. Before reading this article, check [Country and region availability for the Teams Phone System with Calling Plan bundle](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) to see whether your country or region supports the Phone System with Calling Plan bundle.
