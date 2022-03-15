@@ -134,7 +134,7 @@ An additional consideration is whether the Microsoft Teams Rooms will be domain-
 
 ### Device deployment
 
-After you've decided how to create and manager your Microsoft Teams Rooms resource accounts, create your plan to ship the devices and their assigned peripherals to your rooms, and then proceed to installation and configuration.
+After you've decided how to create and manage your Microsoft Teams Rooms resource accounts, create your plan to ship the devices and their assigned peripherals to your rooms, and then proceed to installation and configuration.
 
 
 |  &nbsp;  |   &nbsp;  |
