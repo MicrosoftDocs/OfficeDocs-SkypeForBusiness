@@ -69,6 +69,8 @@ Learn how the tailored frontline app experience works together with the global a
 |If... |Then... |
 |---------|---------|
 |A frontline worker has the global app setup policy and the feature is off. |The frontline worker gets the apps defined in the global app setup policy.|
+|A frontline worker has the global app setup policy and the feature is on.     | The frontline worker gets the tailored frontline app experience. Apps defined in the global app setup policy are pinned below the tailored apps.      |
+|You update the global app setup policy and the feature is on.     |The frontline worker gets the tailored frontline app experience and the apps defined in the global app setup policy are pinned below the tailored apps.         |
 |A frontline worker has the global app setup policy and **User pinning** is turned off. |The frontline worker gets the apps defined in the global app setup policy.|
 |A frontline worker has the global app setup policy, and the global app setup policy is changed to include a line-of-business (LOB) app in the second position in the app list. |The LOB app is pinned below the tailored apps. The frontline worker can change the app order if **User pinning** is on.         |
 |A frontline worker has the global setup policy and the global app setup policy is changed to include Shifts in the first position.  |Shifts is pinned to the sixth position, as defined by the tailored frontline app experience. The frontline worker can change the app order if **User pinning** is on.          |
@@ -79,13 +81,11 @@ Learn how the tailored frontline app experience works with other Teams apps poli
 
 |If...  |Then... |
 |---------|---------|
-The feature is off.   | The user gets the apps defined in the global app setup policy or custom app setup policy assigned to them.          |
-|A user has the global app setup policy and the feature is on.     | The user gets the tailored frontline app experience. The apps defined in the global app setup policy are pinned below the tailored app experience.      |
-|The feature is on and you update the global app setup policy.     |The user gets the tailored frontline app experience and the apps defined in the global app setup policy are pinned below the tailored apps.         |
-|A user has a custom app setup policy and the feature is on.    |The user gets the configuration that's defined in the custom app setup policy.          |
-|A user has an E, A, or G license and the feature is on.   | The user doesn't get the tailored frontline app experience. Currently, the experience applies only to users who have an F license.        |
-|An app in the tailored frontline app experience is blocked for a user or for your organization.      |The tailored frontline app experience honors the [app permission policy](teams-app-permission-policies.md). If an app is blocked, users won't see the blocked app.           |
+The feature is off.   | The frontline worker gets the apps defined in the global app setup policy or custom app setup policy assigned to them.          |
+|A frontline worker has a custom app setup policy and the feature is on.    |The frontline worker gets the apps defined in the custom app setup policy.          |
+|An app in the tailored frontline app experience is blocked for a user or for your organization.      |The tailored frontline app experience honors the [app permission policy](teams-app-permission-policies.md). If an app is blocked, the frontline worker won't see the blocked app.           |
 |An app in the tailored frontline app experience is already defined in an app setup policy and the feature is on. |The app is pinned based on the order defined by the tailored apps list.        |
+|A user has an E, A, or G license and the feature is on.   | The user doesn't get the tailored frontline app experience. Currently, the experience applies only to users who have an F license.        |
 
 > [!NOTE]
 > You can't change the apps or order of apps in the tailored frontline app experience. For now, if you want to make changes, you can set up your own custom experience. To do this, first turn off the feature. Then, [create a custom app setup policy](teams-app-setup-policies.md), and [assign it to users or groups](assign-policies-users-and-groups.md).
