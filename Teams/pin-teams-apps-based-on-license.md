@@ -33,12 +33,15 @@ With the tailored frontline app experience, your frontline workers get the most 
 
 ## Tailored frontline app experience
 
-Apps are pinned to the app bar, which is the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients (iOS and Android). 
+Apps are pinned to the app bar, which is the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients (iOS and Android).
 
-|Teams desktop |Teams mobile  |
-|---------|---------|
-|:::image type="content" source="media/tailored-teams-apps-desktop.png" alt-text="The tailored frontline app experience on Teams desktop" lightbox="media/tailored-teams-apps-desktop.png":::    |         |
-|Row2     | :::image type="content" source="media/tailored-teams-apps-mobile.png" alt-text="The tailored frontline app experience on Teams mobile" lightbox="media/tailored-teams-apps-mobile.png":::        |
+**Teams desktop**
+
+:::image type="content" source="media/tailored-teams-apps-desktop.png" alt-text="The tailored frontline app experience on Teams desktop" lightbox="media/tailored-teams-apps-desktop.png"::: 
+
+**Teams mobile**
+
+:::image type="content" source="media/tailored-teams-apps-mobile.png" alt-text="The tailored frontline app experience on Teams mobile" lightbox="media/tailored-teams-apps-mobile.png"::: 
 
 Apps pinned for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt):
 
@@ -53,6 +56,7 @@ Apps pinned for users who have an [F license](https://www.microsoft.com/microsof
 ## Admin controls
 
 > [!NOTE]
+
 > The **User pinning** setting must be turned on in the global (org-wide default) [app setup policy](teams-app-setup-policies.md) for this feature to take effect.
 
 The tailored frontline app experience is controlled by the **Show tailored apps based on licenses** org-wide app setting on the [Manage apps](manage-apps.md#manage-org-wide-app-settings) page of the Teams admin center. If the feature is on, all users in your organization who have an F license will get the tailored app experience.
