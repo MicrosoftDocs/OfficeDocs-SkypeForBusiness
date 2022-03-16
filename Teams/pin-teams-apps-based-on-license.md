@@ -47,7 +47,7 @@ Apps pinned for users who have an [F license](https://www.microsoft.com/microsof
 
 :::image type="content" source="media/tailored-teams-apps-desktop.png" alt-text="Tailored frontline app experience on Teams desktop":::
 
-:::image type="content" source="media/tailored-teams-apps-mobile.png" alt-text="Tailored frontline app experience on Teams mobile":::
+:::image type="content" source="media/tailored-teams-apps-mobile.png" alt-text="Tailored frontline app experience on Teams mobile ":::
 
 :::image type="content" source="media/tailored-teams-apps-mobile-chat.png" alt-text="Tailored frontline app experience on Teams mobile":::
 
