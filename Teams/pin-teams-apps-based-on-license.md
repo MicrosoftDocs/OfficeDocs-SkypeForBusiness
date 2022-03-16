@@ -45,6 +45,12 @@ Apps pinned for users who have an [F license](https://www.microsoft.com/microsof
 - [Shifts](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821)
 - [Approvals](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3)
 
+:::image type="content" source="media/tailored-teams-apps-desktop.png" alt-text="Tailored frontline app experience on Teams desktop":::
+
+:::image type="content" source="media/tailored-teams-apps-mobile.png" alt-text="Tailored frontline app experience on Teams mobile":::
+
+:::image type="content" source="media/tailored-teams-apps-mobile-chat.png" alt-text="Tailored frontline app experience on Teams mobile":::
+
 ## Admin controls
 
 > [!NOTE]
