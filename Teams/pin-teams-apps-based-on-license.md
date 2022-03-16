@@ -54,7 +54,6 @@ Apps are pinned to the app bar, which is the bar on the side of the Teams deskto
 ## Admin controls
 
 > [!NOTE]
-
 > The **User pinning** setting must be turned on in the global (org-wide default) [app setup policy](teams-app-setup-policies.md) for this feature to take effect.
 
 The tailored frontline app experience is controlled by the **Show tailored apps based on licenses** org-wide app setting on the [Manage apps](manage-apps.md#manage-org-wide-app-settings) page of the Teams admin center. If the feature is on, all users in your organization who have an F license will get the tailored app experience.
