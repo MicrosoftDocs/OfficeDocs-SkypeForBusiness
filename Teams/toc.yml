@@ -1573,8 +1573,8 @@ items:
           href: apps-update-experience.md
         - name: Manage access to third-party Teams apps across Microsoft 365
           href: manage-third-party-teams-apps.md
-        - name: App usage report
-          href: teams-analytics-and-reports/app-usage-report.md
+    - name: App usage report
+      href: teams-analytics-and-reports/app-usage-report.md
 
 - name: Industries and government guidance
   items: 
