@@ -169,11 +169,11 @@ To run a successful event, follow the practices outlined below:
   - Designate meeting monitors to [analyze](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md) telemetry for users facing poor experience caused by metrics exceeding thresholds.
   - Set meeting monitors as presenters to disable rogue video streams, mute accidental live mics, and remove attendees if needed.
 
-### Consider these practices for your end users
+### Guidelines for your end users
 
 Your organizers and presenters should implement the below recommendations:
 
-- Event organizers can create a smooth meeting by setting pre-defined presenters. After a meeting has started, presenters also can promote other attendees to the presenter role.
+- To create a smooth meeting, event organizers can set pre-defined presenters. After a meeting has started, presenters also can promote other attendees to the presenter role.
 
 - Define a co-organizer via meeting options (Public preview)
 
@@ -181,7 +181,9 @@ Your organizers and presenters should implement the below recommendations:
   - Disable attendees’ microphones to avoid disturbances. If someone needs to interact during the meeting, allow them to un-mute when they raise their hand.
   - Disable attendees’ video to avoid visual distractions. During appropriate times in the meeting, video can be permitted for all attendees or specific individuals.
 
-- Pre-stage meeting applications such as polls and Q&A can be used during the meeting.
+- Use polls and Q&A during the meeting.
+
+- Use lobby controls to control meeting entry or lobby holds.
 
 - Run the [Microsoft 365 network connectivity test](https://connectivity.office.com/) to verify network suitability several days prior to and the day of the event.
 
@@ -196,11 +198,9 @@ Your organizers and presenters should implement the below recommendations:
 - Schedule a dry run prior to the event to identify device, lighting, or network issues. This will also ensure that organizers/presenters are familiar with features they’ll be using.
   - Schedule additional practice runs if issues were encountered to ensure remediation efforts were successful.
   
-- Presenters and participants should use the Teams desktop app to provide an optimal experience.
-
-- Use lobby controls to control meeting entry or lobby holds.
-
 - Utilize features such as spotlight, PowerPoint Live, meeting recording, captions, and transcriptions to promote engagement and effectiveness.
+
+- Presenters and participants should use the Teams desktop app to provide an optimal experience.
 
 - Participants should turn off chat notifications during large meetings to avoid distractions.
 
