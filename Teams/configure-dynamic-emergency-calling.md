@@ -82,7 +82,7 @@ The following clients are currently supported.  Check back often to see updates 
 > [!NOTE]
 > Subnet and WiFi-based locations are supported on all supported Teams clients. <br><br>
 > Ethernet/Switch (LLDP) is supported on:
-> - Windows versions 8.1 and later at this time.<br>
+> - Windows versions 10.0 and later at this time.<br>
 > - Mac OS, which requires [LLDP enablement software](https://www.microsoft.com/download/details.aspx?id=103383).<br>
 > - Teams phone with Teams app version 1449/1.0.94.2021110101 and later.
 
