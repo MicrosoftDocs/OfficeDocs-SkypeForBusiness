@@ -25,6 +25,10 @@ ms.custom:
 description: Learn about how to use Call Quality Dashboard Power BI report to view Auto Attendant and Call Queue historical data.
 ---
 
+# New Documentation Location
+Please refer to [Auto Attednant & Call Queue Historical Reports](/microsoftteams/aa-cq-cqd-historical-reports.md)
+
+
 # What are the requirements? 
 You need to have Power BI Desktop installed. You can install it from the [Microsoft Windows Store](https://aka.ms/pbidesktopstore).
 
