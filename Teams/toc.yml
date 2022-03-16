@@ -1569,10 +1569,12 @@ items:
           href: Office-365-custom-connectors.md
         - name: Teams apps behavior for non-standard users
           href: non-standard-users.md
-        - name: Updates apps to newer versions
+        - name: Update apps to newer versions
           href: apps-update-experience.md
         - name: Manage access to third-party Teams apps across Microsoft 365
           href: manage-third-party-teams-apps.md
+        - name: App usage report
+          href: teams-analytics-and-reports/app-usage-report.md
 
 - name: Industries and government guidance
   items: 
