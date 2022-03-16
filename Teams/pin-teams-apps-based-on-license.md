@@ -27,13 +27,13 @@ appliesto:
 
 ## Overview
 
-Teams provides an easy way to pin apps for frontline workers. This feature pins apps based on the [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) to give your frontline workers an out-of-the-box experience in Teams that’s tailored to their needs.
+Teams provides an easy way to pin apps for frontline workers. This feature pins apps based on license to give your frontline workers an out-of-the-box experience in Teams that’s tailored to their needs.
 
 With the tailored frontline app experience, your frontline workers get the most relevant apps in Teams without any action needed from the admin.
 
 ## Tailored frontline app experience
 
-Apps are pinned to the app bar, which is the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients (iOS and Android). These apps are pinned for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt):
+Apps are pinned to the app bar, which is the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients (iOS and Android). The following apps are pinned for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt):
 
 - [Activity](https://support.microsoft.com/office/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56)
 - [Chat](https://support.microsoft.com/office/get-started-with-chat-0b506ce2-eb6d-4fca-9668-e56980ba755e)
