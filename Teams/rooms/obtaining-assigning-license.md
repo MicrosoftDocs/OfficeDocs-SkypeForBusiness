@@ -37,7 +37,7 @@ To assign a license, perform the following steps:
 2. Choose **Billing > Licenses** from the left navigation pane.
 3. Select the appropriate **Teams Rooms premium** license for your intended usage (paid and trial licenses are available). See [Licensing Solutions for Shared Communications Devices](rooms-licensing.md) for a comparison between Microsoft Teams Rooms Standard and Premium SKUs.
 4. On the **Billing accounts** page, select **Assign licenses**. The **Assign licenses to users** page appears.
-5. Enter the existing **Microsoft Teams Rooms** accounts for **Teams Rooms Premium** license assignment. For more information about setting up new - or validating existing - Microsoft Teams Rooms accounts, see [Deploy Microsoft Teams Rooms with Microsoft 365 or Office 365](with-office-365.md).
+5. Enter the existing **Microsoft Teams Rooms** accounts for **Teams Rooms Premium** license assignment. For more information about setting up new - or validating existing - Microsoft Teams Rooms accounts, see [Create resource accounts for rooms and shared Teams devices](with-office-365.md).
 6. Once account submission is completed, select **Assign** and then **Close**. The **Microsoft Teams Rooms Premium** licenses have been assigned to **Microsoft Teams Rooms** accounts.
 
-You are now ready to enroll the resource accounts and the associated certified Microsoft Teams Rooms devices in the Microsoft Teams Rooms Premium-managed service. For more information, se [Enroll a device in the Microsoft Teams Rooms Premium managed service](enrolling-mtrp-managed-service.md).
+You are now ready to enroll the resource accounts and the associated certified Microsoft Teams Rooms devices in the Microsoft Teams Rooms Premium-managed service. For more information, see [Enroll a device in the Microsoft Teams Rooms Premium managed service](enrolling-mtrp-managed-service.md).
