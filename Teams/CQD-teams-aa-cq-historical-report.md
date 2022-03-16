@@ -26,8 +26,6 @@ description: Learn about how to use Call Quality Dashboard Power BI report to vi
 ---
 
 # New Documentation Location
-Please refer to [Auto Attednant & Call Queue Historical Reports](/microsoftteams/aa-cq-cqd-historical-reports.md)
-
 Please refer to [Auto Attednant & Call Queue Historical Reports](aa-cq-cqd-historical-reports.md)
 
 
