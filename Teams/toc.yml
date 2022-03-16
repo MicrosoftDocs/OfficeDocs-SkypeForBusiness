@@ -1517,7 +1517,7 @@ items:
           
     - name: Administer third-party apps
       items:
-        - name: About Microsoft certified apps
+        - name: Security, compliance, privacy, and data handling for third-party apps
           href: /microsoft-365-app-certification/overview
         - name: Purchase third-party apps for Teams
           href: purchase-third-party-apps.md
