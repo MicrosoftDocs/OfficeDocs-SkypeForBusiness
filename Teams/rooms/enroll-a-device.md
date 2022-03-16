@@ -49,6 +49,9 @@ bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT `http://contosoproxy.corp.net
 
 ### Enabling TPM settings
 
+> [!NOTE]
+> TPM must be enabled to enroll in the managed service.
+
 If TPM on an Intel NUC device is disabled, enable TPM on these devices as follows:  
 
 1. Plug in the keyboard to a NUC device.  
