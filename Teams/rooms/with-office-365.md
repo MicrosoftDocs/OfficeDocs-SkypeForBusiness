@@ -236,7 +236,7 @@ Follow the steps in one of the following tabs to turn off password expiration:
 First, Connect to Active Directory PowerShell:
 
 ```PowerShell
-   Import-Module ActiveDirectory
+   Connect-AzureAD
 ```
 
 Then, see [Set a password to never expire](/microsoft-365/admin/add-users/set-password-to-never-expire?view=o365-worldwide#set-a-password-to-never-expire).
