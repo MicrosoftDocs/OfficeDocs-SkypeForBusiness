@@ -56,6 +56,9 @@ This article describes some of the limits, specifications, and other requirement
 
 <sup>6</sup> Teams in GCC can accommodate 25,000 members but teams in GCCH/DoD can only accommodate 2,500 members. Further note that teams/channel mentions are blocked in teams with over 10,000 members.
 
+> [!NOTE]
+> For limits for the shared channels preview, see [Limits for shared channels (preview)](/MicrosoftTeams/shared-channels#limits-for-shared-channels-preview).
+
 ## Messaging
 
 ### Chat
