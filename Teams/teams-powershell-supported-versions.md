@@ -50,6 +50,13 @@ Organizations who have been using TPM in the last three months (Jan’22 – Mar
 
 -	If updating from Teams PowerShell Module version 1.1.6, update your scripts to use `Connect-MicrosoftTeams` instead of `New-CsOnlineSession`.
 
+-	During the update, it’s suggested to not use TPM 4.x.x/3.x.x alongside versions older than 3.0.0. For example, using versions 4.0.0 & 2.6.0 together for different admin operations in the same organization isn’t recommended. 
+
+- Related changes
+  * Updates to Get-CsOnlineUser & Get-CsOnlineVoiceUser in TPM 3.0.0 and above – more details in [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser) & [Get-CsOnlineVoiceUser](/powershell/module/skype/get-csonlinevoiceuser) (Message center post – MC340774).
+
+  * Changes coming to Phone number assignment - more details in [Set-CsUser](/powershell/module/skype/set-csuser), [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser), [Set-CsOnlineApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance) & [Set-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlinevoiceapplicationinstance) (Message center post – MC316139)
+
 
 
 ## Related topics
