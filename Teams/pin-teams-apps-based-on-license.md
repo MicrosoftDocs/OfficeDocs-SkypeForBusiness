@@ -27,9 +27,9 @@ appliesto:
 
 ## Overview
 
-Frontline workers are employees who work directly with customers providing services, support, and selling products, or in the manufacturing and distribution of products or services. Frontline worker roles include retail associates, factory workers, field and service technicians, and healthcare personnel.
+Teams provides an easy way to pin apps for frontline workers. This feature pins apps based on the [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) to give your frontline workers an out-of-the-box experience in Teams that’s tailored to their needs.
 
-Teams provides an easy way to pin apps for frontline workers. With the tailored frontline app experience, your frontline workers get the most relevant apps in Teams without any action needed from the admin.
+With the tailored frontline app experience, your frontline workers get the most relevant apps in Teams without any action needed from the admin.
 
 ## Tailored frontline app experience
 
