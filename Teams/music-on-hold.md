@@ -107,7 +107,7 @@ The following table indicates which features on which clients and devices suppor
 
 ## Restrictions
 
-- Music on Hold is only available in commercial cloud.
+- Music on Hold is only available in commercial and GCC cloud instances.
 
 - Music on Hold is only available when the user is in TeamsOnly mode.
 
