@@ -642,8 +642,6 @@ items:
               href: cloud-recording.md
             - name: Use OneDrive for Business and SharePoint or Stream for meeting recordings
               href: tmr-meeting-recording-change.md
-            - name: Contact Center integrations
-              href: teams-contact-center.md
             - name: Use the Teams Meeting add-in in Outlook
               href: teams-add-in-for-outlook.md
             - name: Configure the Skype Meetings App to work with Teams
@@ -1311,6 +1309,8 @@ items:
               href: add-funds-and-manage-communications-credits.md
         - name: Microsoft Teams call flows
           href: microsoft-teams-online-call-flows.md
+        - name: Contact Center integrations
+          href: teams-contact-center.md
 
 - name: Devices and rooms management
   items:
@@ -1571,7 +1571,7 @@ items:
           href: non-standard-users.md
         - name: Update experience for apps
           href: apps-update-experience.md
-        - name: Manage access to third-party Teams apps across Microsoft 365
+        - name: Manage access to Teams apps across Microsoft 365
           href: manage-third-party-teams-apps.md
 
 - name: Industries and government guidance
