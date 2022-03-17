@@ -483,6 +483,10 @@ if($cleanup){
 - Azure Virtual Desktop doesn't support macOS and Linux-based clients at this time.
 - Fast tenant switch can result in calling-related issues on VDI such as screen sharing not available. Restarting the client will mitigate these issues.
 
+### Notifications
+
+- Message count notification/presence on Windows task bar is not supported on Windows Server 2016 host.
+
 ### Calling and meetings
 
 The following calling and meeting features are not supported:
