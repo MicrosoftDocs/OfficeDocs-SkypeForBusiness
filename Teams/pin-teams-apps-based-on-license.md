@@ -56,14 +56,16 @@ Apps are pinned to the app bar, which is the bar at the bottom of the Teams mobi
 > [!NOTE]
 > The **User pinning** setting must be turned on in the global (org-wide default) [app setup policy](teams-app-setup-policies.md) for this feature to take effect.
 
-The tailored frontline app experience is controlled by the **Show tailored apps based on licenses** org-wide app setting on the [Manage apps](manage-apps.md#manage-org-wide-app-settings) page of the Teams admin center. If the feature is on, all users in your organization who have an F license will get the tailored app experience.
+The tailored frontline app experience is controlled by the **Show tailored apps** org-wide app setting on the [Manage apps](manage-apps.md#manage-org-wide-app-settings) page of the Teams admin center. If the feature is on, all users in your organization who have an F license will get the tailored app experience.
 
 Keep in mind that any custom [app setup policies](teams-app-setup-policies.md) assigned to users take precedence. This means that if a user already has a custom app setup policy assigned to them, the user gets the configuration that's defined in the custom app setup policy. To learn more about how the feature works with Teams app policies, including the global app setup policy, see the [Scenarios](#scenarios) section later in this article.
 
 This feature is on by default. However, if you don't want the tailored frontline app experience provided by Microsoft, you can turn off the feature. To turn the feature off or on:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**, and then select **Org-wide app settings**.
-2. Under **Tailored apps**, switch the **Show tailored apps based on licenses** toggle to **Off** or **On**.
+2. Under **Tailored apps**, switch the **Show tailored apps** toggle to **Off** or **On**.
+
+:::image type="content" source="media/tailored-teams-apps-admin-center.png" alt-text="Screenshot of the Show tailored apps setting on the Manage apps page of the Teams admin center":::
 
 ## Scenarios
 
