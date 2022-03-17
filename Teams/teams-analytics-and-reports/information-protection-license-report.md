@@ -21,7 +21,8 @@ ms.custom: seo-marvel-apr2020
 
 # Microsoft Teams information protection license report
 
-The Teams information protection license report gives insight into apps that have [subscribed](/graph/api/resources/subscription?view=graph-rest-1.0) to [change notification](/graph/api/resources/webhooks?view=graph-rest-1.0) events to listen to created, updated, or deleted messages at tenant level (that is, /teams/getAllMessage or /chats/getAllMessages). A change notification corresponding to the message is sent successfully only when the user has the [required license](/graph/teams-licenses).  You can see how many change notifications was triggered by a given user.
+
+Teams information protection license report gives API usage insight of [Microsoft Graph APIs that have license and payment requirements](/graph/teams-licenses). This report highlights all the apps that are using these APIs in [model=A](/graph/teams-licenses#modela-requirements). It does not show usage when APIs are used in [model=B](/graph/teams-licenses#modelb-requirements) or [evaluation mode](/graph/teams-licenses#evaluation-mode-default-requirements). 
 
 
 ## View the information protection license report
@@ -32,17 +33,37 @@ You must be a Teams service admin to make these changes. See [Use Teams administ
 2. Under **Date range**, select a range.
 3. Under **Apps**, select an app and then select **Run report**.
 
-    ![Screenshot of the Teams information protection license report in the Teams admin center with callouts.](../media/teams-info-protection-license-report-with-callouts.png "Screenshot of the Teams information protection license report in the Teams admin center with callouts")
+    ![Screenshot of  drop down of Teams information protection license report in the Teams admin center with callouts.](../media/teams-info-protection-license-report-dropdown-with-callouts.png "Screenshot of  drop down of Teams information protection license report in the Teams admin center with callouts.")
+
+4. For each category, metrics on users with license, users without license, seeded capacity, and utilized capacity can be viewed. 
+
+    ![Screenshot of the summary chart of Teams information protection license report in the Teams admin center of change notification with callouts.](../media/teams-info-protection-license-report-chart-with-callouts.png "Screenshot of the summary chart of Teams information protection license report in the Teams admin center of change notification with callouts.")
+
+5. The data can be exported by clicking on export button. The table data can be switched by clicking on the tabs for Teams change notification API, Teams patch API, Teams export APIs (chat), and Teams export APIs (teams). 
+
+    ![Screenshot of the different tabs of Teams information protection license report in the Teams admin center of tabs with callouts.](../media/teams-info-protection-license-report-legend-tabs-with-callouts.png "Screenshot of the different tabs of Teams information protection license report in the Teams admin center of tabs with callouts.")
+
+    ![Screenshot of change notification tab of Teams information protection license report in the Teams admin center with callouts.](../media/teams-info-protection-license-report-change-notification-with-callouts.png "Screenshot of change notification tab of Teams information protection license report in the Teams admin center with callouts.")
+
 
 ## Interpret the report
 
 |Callout |Description  |
 |--------|-------------|
-|**1**   |The information protection license report can be viewed for trends over the last 7 days, 30, or 90 days. |
-|**2**   |App name will display a list of all apps that have subscribed to change notification events of messages in the last n days as selected in the date range. |
-|**3**   |The table gives you a breakdown of usage per user for the selected app.<ul><li>**Display name** is the display name of the user. Select the display name to go to the user's details page in the Microsoft Teams admin center.</li><li>**Has Required License** is yes if the user has one of the required licenses as defined (here)[https://docs.microsoft.com/en-us/graph/teams-licenses]. If the user does not have the required license, the _Assign license_ link is displayed which navigated to the user's license detail page in the Microsoft admin center (**Users** > **Active Users** > select username).</li><li>**License Protected Events** is the number of unique change notification events sent to the app against a message which was created, updated or deleted by that user.</li></ul> |
-|**4**   |Export the report to a CSV file for offline analysis. Select **Export to Excel**, and then the **Downloads** tab. Select **Download** to download the report when it's ready. |
-|**5**   |Export the report to a CSV file for offline analysis. Select **Export to Excel**, and then the **Downloads** tab. Select **Download** to download the report when it's ready. When you view the report in Excel, you'll also see an **Id** and **email** column, which represents the User ID and email address of the user. |
+|**1**   |The information protection license report can be viewed for trends over the last three months. |
+|**2**   |App name will display a list of all apps that have used [Microsoft Graph API which has license and payment requirements](/graph/teams-licenses) during the selected time period.|
+|**3**   |Number of users who have valid [licenses](/graph/teams-licenses#required-licenses-for-modela).  |
+|**4**   |Number of users who do not have a valid [license](/graph/teams-licenses#required-licenses-for-modela).  |
+|**5**   |Total API call volume allowed to an app beyond which a consumption fee per API call will be charged to the app. |
+|**6**   |Total API call volume used by the app for the given date range. |
+|**7**   |Export the report to a CSV file for offline analysis. Select **Export to Excel**, and then the **Downloads** tab. Select **Download** to download the report when it's ready. This export will export the currently selected tab only.|
+|**8**   |Select any specific label to show or hide it in a chart. |
+|**9**   |Each tab displays usage of a particular set of APIs, namely [change notification](/graph/api/resources/webhooks), [export API](/microsoftteams/export-teams-content), and [update message API](/graph/api/message-update). Select a tab to view usage details of that API. |
+|**10**   |**Change Notification API Usage**<li>**Display Name** - Display name of the user against which a change notification was triggered.</li><li>**Required License** - Whether the given user has the required license to successfully send a change notification to the app.</li><li>**Attempted Count** - Total number of change notifications that were triggered because of this user.</li><li>**Change Notification Sent** - Total number of change notifications that were sent to the app. This will be less than the total change notifications triggered if the user doesn't have a valid license.</li>|
+|**11**|**Patch API**<li>**Display Name** - Display name of the user where an attempt to update the message was done.</li> <li>**Required License** - Whether the given user has the required license for the message to get successfully updated.</li><li>**Attempted Count** - Total attempts to update messages.</li><li>**Message Patched** - Total messages that were successfully updated.</li>|
+|**12**|**Chat Export API Usage**<li>**Display Name** - Display name of user where an attempt to export the user's chat message was done.</li><li>**Required License** - Whether the given user has the required license for the message to get successfully exported.</li><li>**Attempted Count** - Total attempts to export chat messages.</li><li>**Message Exported** - Total attempts where chat message was successfully exported.</li> |
+|**13**|**Team Export API Usage**<li>**Display Name** - Display name of the team where an attempt to export that team's message was done.</li><li>**Attempted Count** - Total attempts to export team messages.</li><li>**Message Exported** - Total attempts where team message was successfully exported.</li> |
+
 
 ## Make the user-specific data anonymous
 
