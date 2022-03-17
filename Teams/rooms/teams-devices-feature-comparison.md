@@ -33,9 +33,9 @@ To help guide you as to what features are available on different platforms, you 
 
 ## Teams devices for shared spaces
 ### Feature comparison between Windows and Android
-(September 2021) 
+(March 2022) 
 
-||Features |Windows|Android|
+| &ensp; | Features |Windows|Android|
 |-----------------------|---------|--------|--------|
 |**Meeting join**|One-touch-join |Available  |Available |
 ||Proximity join |Available  |Available |
