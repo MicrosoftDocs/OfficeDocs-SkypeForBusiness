@@ -65,7 +65,7 @@ This feature is on by default. However, if you don't want the tailored frontline
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**, and then select **Org-wide app settings**.
 2. Under **Tailored apps**, switch the **Show tailored apps** toggle to **Off** or **On**.
 
-    :::image type="content" source="media/tailored-teams-apps-admin-center.png" alt-text="Screenshot of the Show tailored apps setting on the Manage apps page of the Teams admin center":::
+    :::image type="content" source="media/tailored-teams-apps-admin-center.png" alt-text="Screenshot of the Show tailored apps setting on the Manage apps page of the Teams admin center" lightbox="media/tailored-teams-apps-admin-center.png":::
 
 ## Scenarios
 
