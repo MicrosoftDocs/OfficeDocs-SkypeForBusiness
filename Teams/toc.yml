@@ -1391,7 +1391,7 @@ items:
             - name: Maintenance and operations
               href: rooms/rooms-operations.md
             - name: Known issues
-              href: /microsoftteams/troubleshoot/Teams-devices-and-rooms/rooms-known-issues
+              href: /microsoftteams/troubleshoot/teams-devices-and-rooms/rooms-known-issues
             - name: Devices with Azure Monitor
               href: rooms/azure-monitor-manage.md
             - name: Settings with an XML file
