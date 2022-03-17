@@ -2591,6 +2591,25 @@
       "redirect_document_id": false 
      },
      {
+      "source_path": "Teams/devices/resource-account-ps.md",
+      "redirect_url": "/microsoftteams/rooms/with-office-365",
+      "redirect_document_id": false 
+     },
+     {
+      "source_path": "Teams/devices/resource-account-ui.md",
+      "redirect_url": "/microsoftteams/rooms/with-office-365",
+      "redirect_document_id": false 
+     },
+     {
+      "source_path": "Teams/rooms/with-exchange-on-premises.md",
+      "redirect_url": "/microsoftteams/rooms/with-office-365",
+      "redirect_document_id": false 
+     },
+     {
+      "source_path": "Teams/rooms/with-exchange-online.md",
+      "redirect_url": "/microsoftteams/rooms/with-office-365",
+     },
+     {
       "source_path": "Teams/get-teams-android-in-china.md",
       "redirect_url": "/microsoftteams/get-clients",
       "redirect_document_id": true 
