@@ -1,7 +1,7 @@
 ---
 title: "Teams devices for Shared Spaces feature comparison between Windows and Android"
-author: amandafrechinjackson
-ms.author: v-amandaf
+author: cazawideh
+ms.author: czawideh
 manager: jsarrasin
 ms.date: 10/07/2021
 ms.topic: conceptual
