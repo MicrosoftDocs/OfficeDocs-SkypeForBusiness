@@ -79,7 +79,7 @@ In the booking calendar, go to **More options** (...) > **Settings**, select **A
 
 The information that you add are included in the email confirmation that's sent to attendees every time this type of appointment is booked. You can set email reminders and other options such as whether attendees can [join from a mobile browser](mobile-browser-join.md) without having to download Teams.
 
-You can also link a form that attendees need to fill out each time this appointment type is booked. To link a form, choose **Link a form**. Enter the URL of the form, and then choose **Link**. (The first time that you link a form, you'll be prompted to create an Office 365 group to store all your forms. You'll only need to do this one time for the booking calendar.) 
+You can also link a form for attendees to fill out each time this appointment type is booked. To link a form, choose **Link a form**. Enter the URL of the form, and then choose **Link**. (The first time that you link a form, you'll be prompted to create an Office 365 group to store all your forms. You'll only need to do this one time for the booking calendar.) 
 
 To learn more, see [Create an appointment type](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887).
 
