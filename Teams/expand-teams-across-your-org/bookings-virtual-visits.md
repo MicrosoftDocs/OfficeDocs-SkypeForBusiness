@@ -75,9 +75,13 @@ The Bookings app integrates with Outlook. After you add staff, you’ll be able 
 
 Create specific appointment types to represent the services offered by your organization and to tailor the booking experience.
 
-In the booking calendar, go to **More options** (...) > **Appointment types**, and then select **New appointment type**. Enter a name&mdash;for example, Account opening, Prescription renewal, Loan consultation, Tax preparation&mdash;and any other information and settings you want.
+In the booking calendar, go to **More options** (...) > **Settings**, select **Appointment types**, and then select **Add appointment type**. Enter a name&mdash;for example, Account opening, Prescription renewal, Loan consultation, Tax preparation&mdash;and any other information and settings you want.
 
-The information and links that you add are included in the email confirmation that's sent to attendees every time this type of appointment is booked. You can even set email reminders and other options such as whether attendees can [join from a mobile browser](mobile-browser-join.md) without having to download Teams. To learn more, see [Create an appointment type](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887).
+The information that you add are included in the email confirmation that's sent to attendees every time this type of appointment is booked. You can set email reminders and other options such as whether attendees can [join from a mobile browser](mobile-browser-join.md) without having to download Teams.
+
+You can also link a form that attendees need to fill out each time this appointment type is booked. To link a form, choose **Link a form**. Enter the URL of the form, and then choose **Link**. (The first time that you link a form, you'll be prompted to create an Office 365 group to store all your forms. You'll only need to do this one time for the booking calendar.) 
+
+To learn more, see [Create an appointment type](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887).
 
 ## Schedule a visit
 
