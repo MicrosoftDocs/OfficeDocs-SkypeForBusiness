@@ -25,6 +25,6 @@ ms.custom:
 description: Learn about how to use Call Quality Dashboard Power BI report to view Auto Attendant and Call Queue historical data.
 ---
 
-# Auto Attendant & Call Queue Historical Report Documentation Has Been Moved
+# Documentation Has Been Moved
 
 Documentation has been moved to [Auto Attendant & Call Queue Historical Reports](aa-cq-cqd-historical-reports.md)
