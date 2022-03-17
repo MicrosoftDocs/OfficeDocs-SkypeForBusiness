@@ -33,7 +33,7 @@ With the tailored frontline app experience, your frontline workers get the most 
 
 ## Tailored frontline app experience
 
-Apps are pinned to the app bar, which is the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients (iOS and Android). The following apps are pinned for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt):
+Apps are pinned to the app bar, which is the bar at the bottom of the Teams mobile clients (iOS and Android) and on the side of the Teams desktop client. The following apps are pinned for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt):
 
 - [Activity](https://support.microsoft.com/office/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56)
 - [Chat](https://support.microsoft.com/office/get-started-with-chat-0b506ce2-eb6d-4fca-9668-e56980ba755e)
@@ -43,13 +43,13 @@ Apps are pinned to the app bar, which is the bar on the side of the Teams deskto
 - [Shifts](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821)
 - [Approvals](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3)
 
-**Teams desktop**
-
-:::image type="content" source="media/tailored-teams-apps-desktop.png" alt-text="The tailored frontline app experience on Teams desktop" lightbox="media/tailored-teams-apps-desktop.png"::: 
-
 **Teams mobile**
 
 :::image type="content" source="media/tailored-teams-apps-mobile.png" alt-text="The tailored frontline app experience on Teams mobile" lightbox="media/tailored-teams-apps-mobile.png"::: 
+
+**Teams desktop**
+
+:::image type="content" source="media/tailored-teams-apps-desktop.png" alt-text="The tailored frontline app experience on Teams desktop" lightbox="media/tailored-teams-apps-desktop.png"::: 
 
 ## Admin controls
 
