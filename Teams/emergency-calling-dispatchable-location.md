@@ -109,5 +109,7 @@ Keep the following in mind:
 
 ## Related topics
 
-[Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
+
+- [Work from Home Emergency 911: enable location services](https://support.microsoft.com/office/work-from-home-emergency-911-enable-location-services-583dd649-87fc-4b23-aed6-f4e2279297f9?storagetype=live)
 
