@@ -33,9 +33,7 @@ Microsoft Teams apps are a way to aggregate one or more capabilities into an _ap
 
 Apps are consented to by users and managed by IT from a policy perspective. However, an app's permissions and risk profile are defined by the permissions and risk profiles of the capabilities that the app contains. Therefore, this article focuses on permissions and considerations at the capability level.
 
-
-The permissions listed below in capital letters, for example RECEIVE_MESSAGE and REPLYTO_MESSAGE, don't appear anywhere in the [Microsoft Teams developer documentation](/microsoftteams/platform/overview) or the [permissions for Microsoft Graph](/graph/permissions-reference). 
-
+The permissions listed below in capital letters, for example RECEIVE_MESSAGE and REPLYTO_MESSAGE, don't appear anywhere in the [Microsoft Teams developer documentation](/microsoftteams/platform/overview) or the [permissions for Microsoft Graph](/graph/permissions-reference).
 
 | Title   | Description    |
 |-----------|------------|
@@ -84,15 +82,15 @@ None
 
 * The following are not explicit permissions, but are implied by RECEIVE_MESSAGE and REPLYTO_MESSAGE and the scopes into which the bots can be used, declared in the manifest:
 
+  * RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
+  * RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
+  * RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM
 
-* RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
-* RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
-* RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM
-- The following are not explicit permissions, but are implied by RECEIVE_MESSAGE and REPLYTO_MESSAGE and the scopes into which the bots can be used, declared in the manifest:
+* The following are not explicit permissions, but are implied by RECEIVE_MESSAGE and REPLYTO_MESSAGE and the scopes into which the bots can be used, declared in the manifest:
 
-  - RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
-  - RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
-  - RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM    
+  * RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
+  * RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
+  * RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM    
 
 
 * SEND_FILES, RECEIVE_FILES:<sup>2</sup> Controls whether a bot can send and receive files in personal chat (not yet supported for group chat or channels).
@@ -113,7 +111,6 @@ None
 
 * Bots can retrieve (and might store) the list of channels in a team; this data leaves the corporate network.
 
-
 * When a file is sent to a bot, the file leaves the corporate network. Sending and receiving files requires user approval for each file. 
 
 * By default, bots don't have the ability to act on behalf of the user, but bots can ask users to sign in; as soon as the user signs in, the bot will have an access token with which it can do additional things. Exactly what those additional things are depends on the bot and where the user signs in: a bot is an Azure AD app registered at https://apps.dev.microsoft.com/ and can have its own set of permissions.
@@ -121,7 +118,6 @@ None
 - When a file is sent to a bot, the file leaves the corporate network. Sending and receiving files requires user approval for each file.
 
 - By default, bots don't have the ability to act on behalf of the user, but bots can ask users to sign in; as soon as the user signs in, the bot will have an access token with which it can do additional things. Exactly what those additional things are depends on the bot and where the user signs in: a bot is an Azure AD app registered at [Application Registration Portal](https://apps.dev.microsoft.com/?referrer=https:%2f%2fdocs.microsoft.com%2f#/appList) and can have its own set of permissions.
-
 
 * Bots are informed whenever users are added to or deleted from a team.
 
