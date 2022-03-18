@@ -119,12 +119,12 @@ End-users can enroll their voices for recognition in the following languages:
 
 |**Language**|**Country/Region**|**Culture ID**|
 |:-----|:-----|:-----|
-|English  <br/> |United States  <br/> |en-US  <br/> |
-|English  <br/> |United Kingdom  <br/> |en-GB  <br/> |
-|English  <br/> |Canada  <br/> |en-CA <br/> |
 |English  <br/> |Australia <br/> |en-AU  <br/> |
+|English  <br/> |Canada  <br/> |en-CA <br/> |
 |English  <br/> |India  <br/> |en-IN  <br/> |
 |English  <br/> |New Zealand  <br/> |en-NZ  <br/> |
+|English  <br/> |United Kingdom  <br/> |en-GB  <br/> |
+|English  <br/> |United States  <br/> |en-US  <br/> |
 
 
 ### In-meeting transcription languages
@@ -133,22 +133,22 @@ Once an end-user enrolls, their voice can be recognized during meetings and iden
 
 |**Language**|**Country/Region**|**Culture ID**|
 |:-----|:-----|:-----|
-|English  <br/> |United States  <br/> |en-US  <br/> |
-|English  <br/> |United Kingdom  <br/> |en-GB  <br/> |
-|English  <br/> |Canada  <br/> |en-CA <br/> |
+|Chinese (Simplified)  <br/> |China  <br/> |zh-CN  <br/> |
 |English  <br/> |Australia <br/> |en-AU  <br/> |
+|English  <br/> |Canada  <br/> |en-CA <br/> |
 |English  <br/> |India  <br/> |en-IN  <br/> |
 |English  <br/> |New Zealand  <br/> |en-NZ  <br/> |
-|Chinese (Simplified)  <br/> |China  <br/> |zh-CN  <br/> |
-|Japanese  <br/> |Japan  <br/> |ja-JP  <br/> |
-|German  <br/> |Germany  <br/> |de-DE  <br/> |
-|Portuguese  <br/> |Brazil  <br/> |pt-BR  <br/> |
-|Spanish  <br/> |Spain  <br/> |es-ES  <br/> |
-|Spanish  <br/> |Mexico  <br/> |es-MX  <br/> |
-|Korean  <br/> |Korea  <br/> |ko-KR  <br/> |
-|French  <br/> |France  <br/> |fr-FR  <br/> |
+|English  <br/> |United Kingdom  <br/> |en-GB  <br/> |
+|English  <br/> |United States  <br/> |en-US  <br/> |
 |French  <br/> |Canada  <br/> |fr-CA  <br/> |
+|French  <br/> |France  <br/> |fr-FR  <br/> |
+|German  <br/> |Germany  <br/> |de-DE  <br/> |
 |Italian  <br/> |Italy  <br/> | it-IT <br/> |
+|Japanese  <br/> |Japan  <br/> |ja-JP  <br/> |
+|Korean  <br/> |Korea  <br/> |ko-KR  <br/> |
+|Portuguese  <br/> |Brazil  <br/> |pt-BR  <br/> |
+|Spanish  <br/> |Mexico  <br/> |es-MX  <br/> |
+|Spanish  <br/> |Spain  <br/> |es-ES  <br/> |
 
 ## Related topics
 
