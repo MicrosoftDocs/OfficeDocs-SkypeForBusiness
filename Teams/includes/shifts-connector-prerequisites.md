@@ -10,8 +10,8 @@ Before you get started, make sure you have the following prerequisites:
     - Site manager API URL
     - Administration API URL
 
-    If you don’t have this information, contact your Blue Yonder delivery partner or technical account manager. The account is created at the root enterprise level by a Blue Yonder enterprise administrator. It must have API Access, Client Admin, and Store Manager access. The account and password are required to create a connection.
-- Federated SSO authentication is enabled in your Blue Yonder environment. Contact your Blue Yonder delivery partner or technical account manager to make sure federated SSO is enabled. They'll need the following information:
+    If you don’t have this information, contact Blue Yonder support. The account is created at the root enterprise level by a Blue Yonder enterprise administrator. It must have API Access, Client Admin, and Store Manager access. The account and password are required to create a connection.
+- Federated SSO authentication is enabled in your Blue Yonder environment. Contact Blue Yonder support to make sure federated SSO is enabled. They'll need the following information:
 
     - federatedSSOValidationService: `https://wfmconnector.teams.microsoft.com/api/v1/fedauth/{tenantId}/6A51B888-FF44-4FEA-82E1-839401E9CD74/authorize` where {tenantId} is your tenantId
      - proxyHeader: X-MS-AuthToken
