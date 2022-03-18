@@ -2622,7 +2622,7 @@
      {
        "source_path": "Teams/rooms/known-issues.md",
        "redirect_url": "/microsoftteams/troubleshoot/Teams-devices-and-rooms/rooms-known-issues",
-       "redirect_document_id": true
+       "redirect_document_id": false
      }
   ] 
 }
