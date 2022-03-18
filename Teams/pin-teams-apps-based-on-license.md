@@ -22,9 +22,6 @@ appliesto:
 > [!NOTE]
 > [!INCLUDE [new-feature-coming-soon-section](includes/new-feature-coming-soon-section.md)]
 
-> [!NOTE]
-> Currently, this feature applies to [F licenses](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Therefore, this article focuses on the frontline worker experience. Other license types will be supported in the future.
-
 ## Overview
 
 Teams provides an easy way to pin apps for frontline workers. This feature pins apps based on license to give your frontline workers an out-of-the-box experience in Teams that’s tailored to their needs.
