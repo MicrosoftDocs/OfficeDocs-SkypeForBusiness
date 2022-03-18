@@ -1,6 +1,10 @@
 Before you get started, make sure you have the following prerequisites:
 
-- Blue Yonder version 2020.3, 2021.1, or 2021.2. </br>If you have 2020.3 or 2021.1, we recommend applying the 2020.3.0.4 or 2021.1.0.3 patch. The patch has a fix required for users to update their availability in Shifts.
+- Blue Yonder version 2020.3, 2021.1, or 2021.2.
+
+    > [!NOTE]
+    > If you have 2020.3 or 2021.1, apply the 2020.3.0.4 or 2021.1.0.3 patch. This patch fixes an issue where users get a persistent error message in Shifts. It also fixes an issue that prevents users from updating their availability in Shifts.
+
 - Your Blue Yonder service account name and password and service URLs:
 
     - Federated authentication URL
