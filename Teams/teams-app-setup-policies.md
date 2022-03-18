@@ -32,7 +32,7 @@ As an admin, you can use app setup policies to install and pin apps to promote t
 ## Pin apps
 
 > [!NOTE]
-> We recommend the tailored frontline app experience to pin apps for the frontline workers in your organization. This feature pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/en-us/microsoft-365/enterprise/frontline?rtc=1#office-SKUChooser-0dbn8nt). With this feature, your frontline workers get an out-of-the-box experience in Teams that's tailored to their needs. To learn more, see [Tailor Teams apps for your frontline workers](pin-teams-apps-based-on-license.md).
+> We recommend the tailored frontline app experience to pin apps for the frontline workers in your organization. This feature provides an out-of-the-box experience that pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/en-us/microsoft-365/enterprise/frontline?rtc=1#office-SKUChooser-0dbn8nt). To learn more, see [Tailor Teams apps for your frontline workers](pin-teams-apps-based-on-license.md).
 
 Pinning apps lets you showcase apps that users in your organization need, including apps built by third parties or by developers in your organization.
 
