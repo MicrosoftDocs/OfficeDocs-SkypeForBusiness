@@ -108,6 +108,7 @@ To collect logs for Browser and Windows:
 See the _Collect and enable logging_ section for Windows and Mac instructions. Media logs contain diagnostic data about audio, video, and screen sharing in Teams meetings. They are required for support cases that are linked to call-related issues.
 
 Media logging is turned off by default. To log diagnostic data for Teams meetings, users must turn on the option in the Teams client. Go to **Settings** > **General**, select the **Enable logging for meeting diagnostics (requires restarting Teams**) check box, restart Teams, and reproduce the issue. 
+Note: When you fully "Sign-Out" of Teams it will reset this configuration back to its default. 
 
 When you send the log files to Microsoft support, please verify the timestamp of the log files to ensure the logs cover the time frame when you reproduced the issue.
 
