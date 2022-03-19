@@ -1569,9 +1569,9 @@ items:
           href: admin-settings.md
         - name: Use Microsoft 365 or Office 365 and custom connectors
           href: Office-365-custom-connectors.md
-        - name: Teams apps behavior for non-standard users
+        - name: App behavior based on types of users
           href: non-standard-users.md
-        - name: Update apps to newer versions
+        - name: Update apps to newer versions as end-users
           href: apps-update-experience.md
         - name: Manage access to Teams apps across Microsoft 365
           href: manage-third-party-teams-apps.md
