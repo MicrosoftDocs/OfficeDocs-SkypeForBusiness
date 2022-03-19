@@ -1571,7 +1571,7 @@ items:
           href: non-standard-users.md
         - name: Update apps to newer versions
           href: apps-update-experience.md
-        - name: Manage access to third-party Teams apps across Microsoft 365
+        - name: Manage access to Teams apps across Microsoft 365
           href: manage-third-party-teams-apps.md
     - name: App usage report
       href: teams-analytics-and-reports/app-usage-report.md
