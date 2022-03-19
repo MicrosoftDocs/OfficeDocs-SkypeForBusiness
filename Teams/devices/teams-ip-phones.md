@@ -101,6 +101,7 @@ The following devices are Certified under the Microsoft Teams panels Certificati
 |Crestron TSS-1070 | `1.003.0082`|December 5, 2022 | 8.1 |
 |Yealink RoomPanel | `147.15.0.1`|August 5, 2023   | 9 |
 |Logitech TAP Scheduler | `1.3.111` |September 3, 2024 | 10 |
+|Neat Pad | NFA1.20220211.1158 | August 5, 2023 | 9 |
 
 ### Product release information for Teams phones
 
