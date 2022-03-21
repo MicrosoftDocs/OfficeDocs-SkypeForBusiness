@@ -93,7 +93,7 @@ Teams manages the lifecycle of the private channel site. If the site is deleted 
 If a private channel or a team containing a private channel is restored, the sites are restored with it. If a private channel site is restored and it's beyond the 30-day soft delete window for the private channel, the site operates as a standalone site.
 
 > [!NOTE]
-> When you create a new team or private channel in Microsoft Teams, a team site in SharePoint gets automatically created. To edit the site description or classification for this team site, go to the corresponding channel’s [settings in Microsoft Teams](https://support.microsoft.com/office/change-a-team-s-data-security-classification-in-teams-bf39798f-90d2-44fb-a750-55fa05a56f1d).
+> When you create a new team, private channel, or shared channel in Microsoft Teams, a team site in SharePoint gets automatically created. To edit the site description or classification for this team site, go to the corresponding channel’s [settings in Microsoft Teams](https://support.microsoft.com/office/change-a-team-s-data-security-classification-in-teams-bf39798f-90d2-44fb-a750-55fa05a56f1d).
 >
 > Learn more about managing [Microsoft Teams connected teams sites](/SharePoint/teams-connected-sites).
 
@@ -119,11 +119,13 @@ Each team can have a maximum of 30 private channels and each private channel can
 
 When you create a team from an existing team, any private channels in the existing team won't be copied over.
 
-Notifications from private channels are not included in missed activity emails at this time.
+Notifications from private channels are not included in missed activity emails.
 
 Channel meetings can't be scheduled.
 
 ## Related topics
+
+[Shared channels in Microsoft Teams](/MicrosoftTeams/shared-channels)
 
 [Overview of teams and channels in Teams](teams-channels-overview.md)
 
