@@ -34,7 +34,10 @@ Starting September 2020, integration with Microsoft Power Platform has improved 
 - Create automated workflows between your apps and services to synchronize files, get notifications, collect data, and more using **Power Automate**.
 - Build bots using a guided, no-code graphical interface using **Power Virtual Agents** to easily create digital assistants within Teams and make them available to your colleagues to chat with.
 
-The new capabilities to create apps, bots, and workflows are backed by the new built-in, low-code data platform for Teams, [Dataverse for Teams](/powerapps/teams/overview-data-platform), which provides relational data storage, rich data types, enterprise grade governance, and one-click solution deployment. Dataverse for Teams is built on top of [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro). With Dataverse for Teams, Teams users can find and install custom, ready-to-use solutions from the Teams app store that showcase common scenarios across industries. You can customize and extend these custom solutions to adapt to your organization's branding and requirements.
+The new capabilities to create apps, bots, and workflows are backed by the new built-in, low-code data platform for Teams, [Dataverse for Teams](/powerapps/teams/overview-data-platform), which provides relational data storage, rich data types, enterprise grade governance, and one-click solution deployment.
+
+Dataverse for Teams is built on top of [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro). Teams users can find and install custom, ready-to-use solutions from the Teams app store that showcase common scenarios across industries.
+You can customize and extend these custom solutions to adapt to your organization's branding and requirements.
 
 ## Licensing
 
