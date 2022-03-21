@@ -49,32 +49,34 @@ Apps are pinned to:
 |![The Teams desktop client.](media/app-setup-policies-desktop-app-bar.png)<  |   ![The Teams mobile client](media/mobile-app-ui.png)      |
 
 > [!NOTE]
-> If you have Teams for Education, it's important to know that the Assignments app is pinned by default in the global policy even though currently, you don't see it listed in the global policy. It will be the fourth app in the list of pinned apps on Teams clients.
+> If you have Teams for Education, it's important to know that the Assignments app is pinned by default in the global policy even though currently, you don't see it listed in the global policy. It'll be the fourth app in the list of pinned apps on Teams clients.
 
 To create an app setup policy to pin apps, do the following steps:
 
-1. In the left navigation of the [Teams admin center](https://www.admin.teams.microsoft.com), go to **Teams apps** > **Setup policies**.
+1. Login to [Microsoft Teams admin center](https://www.admin.teams.microsoft.com).
 
-2. Select **Add**.
+1. In the left pane, go to **Teams apps** > **Setup policies**.
 
-3. Enter a name and description for the policy.
+1. Select **Add**.
 
-4. Turn on **User pinning**.
+1. Enter a name and description for the policy.
+
+1. Turn on **User pinning**.
 
    > [!NOTE]
    > The **User pinning** setting is available in the Teams admin center in Microsoft 365 Government Community Cloud (GCC) environments (GCC, GCC High and DoD), but currently it has no effect.
 
-5. Under **Pinned apps**, select **Add apps**.
+1. Under **Pinned apps**, select **Add apps**.
 
-6. In the **Add pinned apps** pane, search for the apps you want to add, and then select **Add**. You can also filter apps by app permission policy.
+1. In the **Add pinned apps** pane, search for the apps you want to add, and then select **Add**. You can also filter apps by app permission policy.
 
-7. Select **Add**.
+1. Select **Add**.
 
-8. Under the **App bar** or **Messaging extensions**, arrange the apps in the order that you want them to appear in Teams.
+1. Under the **App bar** or **Messaging extensions**, arrange the apps in the order that you want them to appear in Teams.
 
    ![the Pinned apps section.](media/pin-messaging-extensions.png)
 
-9. Select **Save**.
+1. Select **Save**.
 
 ## Install apps
 
