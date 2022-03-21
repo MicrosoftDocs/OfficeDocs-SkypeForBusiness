@@ -1,9 +1,9 @@
 ---
 title: Tailor your Teams apps based on license
-author: lanachin
-ms.author: v-lanachin
+author: guptaashish
+ms.author: guptaashish
 ms.reviewer: aaglick
-manager: samanro
+manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -37,14 +37,13 @@ Apps are pinned to the app bar, which is the bar on the side of the Teams deskto
 
 Apps pinned for users who have an F license:
 
-- Viva Connections
-- Activity
-- Chat
-- Teams
-- Walkie Talkie
-- Tasks
-- Shifts
-- Approvals
+- [Activity](https://support.microsoft.com/office/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56)
+- [Chat](https://support.microsoft.com/office/get-started-with-chat-0b506ce2-eb6d-4fca-9668-e56980ba755e)
+- [Teams](https://support.microsoft.com/office/teams-and-channels-in-microsoft-teams-c6d0e61d-a61e-44a6-a972-04f2a8fa4155)
+- [Walkie Talkie](https://support.microsoft.com/office/get-started-with-teams-walkie-talkie-25bdc3d5-bbb2-41b7-89bf-650fae0c8e0c)
+- [Tasks](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070)
+- [Shifts](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821)
+- [Approvals](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3)
 
 ## Admin controls
 
@@ -62,7 +61,7 @@ This feature is on by default. However, if you don't want the tailored app exper
 
 ## Scenarios
 
-Use the information in this table to learn how the tailored app experience feature works in various scenarios, including when you've applied existing app setup policies.
+Use the information in this table to learn how the tailored app experience works in various scenarios, including when you've applied existing app setup policies.
 
 |If...  |Then... |
 |---------|---------|
@@ -79,5 +78,9 @@ Use the information in this table to learn how the tailored app experience featu
 
 ## Related articles
 
+- [Manage the Walkie Talkie app in Teams](walkie-talkie.md)
+- [Manage the Tasks app in Teams](manage-tasks-app.md)
+- [Manage the Shifts app in Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+- [Manage the Approvals app in Teams](approval-admin.md)
 - [Manage app setup policies in Teams](teams-app-setup-policies.md)
 - [Manage app permission policies in Teams](teams-app-permission-policies.md)

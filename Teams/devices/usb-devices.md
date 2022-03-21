@@ -1,7 +1,7 @@
 ---
 title: "Phones and Devices for Microsoft Teams"
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -69,10 +69,14 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 ## Certified devices
 
-*Table Updated February 2022*
+*Table Updated March 2022*
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS                 |ADAPT 661                                                  |3/11/2022       |Certified for Microsoft Teams                           |
+|EPOS                 |ADAPT 461T                                                 |3/11/2022       |Certified for Microsoft Teams                           |
+|EPOS                 |ADAPT 361                                                  |3/11/2022       |Certified for Microsoft Teams                           |
+|Dell                 |Speakerphone SP3022                                        |2/7/2022        |Certified for Microsoft Teams                           |
 |Dell                 |Slim Conferencing Soundbar SB522A                          |1/25/2022       |Certified for Microsoft Teams                           | 
 |Lenovo               |Go Wired ANC Headset                                       |1/12/2022       |Certified for Microsoft Teams                           |
 |Lenovo               |Go Wired Speakerphone                                      |1/10/2022       |Certified for Microsoft Teams                           |

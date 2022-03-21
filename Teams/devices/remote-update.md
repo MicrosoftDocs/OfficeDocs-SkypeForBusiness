@@ -1,7 +1,7 @@
 ---
 title: "Update Microsoft Teams devices remotely"
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: rahulmi
 manager: serdars
 audience: ITPro
