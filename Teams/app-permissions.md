@@ -113,7 +113,7 @@ None
 
 * When a file is sent to a bot, the file leaves the corporate network. Sending and receiving files requires user approval for each file. 
 
-* By default, bots don't have the ability to act on behalf of the user, but bots can ask users to sign in; as soon as the user signs in, the bot will have an access token with which it can do additional things. Exactly what those additional things are depends on the bot and where the user signs in: a bot is an Azure AD app registered at https://apps.dev.microsoft.com/ and can have its own set of permissions.
+* By default, bots don't have the ability to act on behalf of the user, but bots can ask users to sign in; as soon as the user signs in, the bot will have an access token with which it can do additional things. Exactly what those another things are depends on the bot and where the user signs in: a bot is an Azure AD app registered at https://apps.dev.microsoft.com/ and can have its own set of permissions.
 
 - When a file is sent to a bot, the file leaves the corporate network. Sending and receiving files requires user approval for each file.
 
@@ -127,7 +127,7 @@ None
 
 * App guidelines (and our AppSource review process) require discretion in posting personal chat messages to users (via the POST_MESSAGE_TEAM permission) for valid purposes. In the event of abuse, users can block the bot, tenant admins can block the app, and Microsoft can block bots centrally if necessary.
 
-<sup>1</sup> Some bots only send messages (POST_MESSAGE_USER). They're called "notification-only" bots, but the term doesn't refer to what a bot is allowed or not allowed to do, it means that the bot doesn't want to expose a conversational experience. Teams uses this field to disable functionality in the UI that would ordinarily be enabled; the bot isn't restricted in what it's allowed to compared to bots that do expose a conversational experience.
+<sup>1</sup> Some bots only send messages (POST_MESSAGE_USER). They're called "notification-only" bots, but the term doesn't refer to what a bot is allowed or not allowed to do, it means that the bot doesn't want to expose a conversational experience. Teams uses this field to disable functionality in the UI that would ordinarily be enabled; the bot isn't restricted in what it's allowed to do compared to bots that expose a conversational experience.
 
 <sup>2</sup> Governed by the supportsFiles Boolean property on the bot object in the manifest.json file for the app.
 
