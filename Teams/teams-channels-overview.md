@@ -86,7 +86,6 @@ The following table shows a comparison of Teams features for each channel type.
 |Features|Standard channel|Private channel|Shared channel|
 |:-------|:---------------|:--------------|:-------------|
 |People can be added to the channel without adding them to the team|No|No|Yes|
-|Everyone in the team can have access to the channel|Yes|No|Yes1|
 |Channel membership can be limited to a subset of the team|No|Yes|Yes1|
 |Channel can be shared with other teams|No|No|Yes|
 |Guests can participate in the channel|Yes|Yes|No|
