@@ -101,7 +101,7 @@ If a private channel or a team containing a private channel is restored, the sit
 
 Compliance copies of messages sent in a private channel are delivered to the mailbox of all private channel members, rather than to a group mailbox. The titles of the compliance copies are formatted to indicate which private channel they were sent from.
 
-For more information about performing an eDiscovery search for private channel messages, see [eDiscovery of private channels](ediscovery-investigation.md#ediscovery-of-private-channels).
+For more information about performing an eDiscovery search for private channel messages, see [eDiscovery of private channels](ediscovery-investigation.md#ediscovery-of-private-and-shared-channels).
 
 ## Considerations around file access in private channels
 
