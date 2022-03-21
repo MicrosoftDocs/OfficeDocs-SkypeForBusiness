@@ -995,6 +995,8 @@ items:
           href: cloud-voice-network-settings.md
         - name: Manage your network topology for cloud voice features
           href: manage-your-network-topology.md
+        - name: Manage video and media settings
+          href: network-roaming-policy.md
     - name: Emergency calling
       items: 
         - name: Overview
@@ -1391,7 +1393,7 @@ items:
             - name: Maintenance and operations
               href: rooms/rooms-operations.md
             - name: Known issues
-              href: rooms/known-issues.md
+              href: /microsoftteams/troubleshoot/teams-devices-and-rooms/rooms-known-issues
             - name: Devices with Azure Monitor
               href: rooms/azure-monitor-manage.md
             - name: Settings with an XML file
@@ -1571,7 +1573,7 @@ items:
           href: non-standard-users.md
         - name: Update experience for apps
           href: apps-update-experience.md
-        - name: Manage access to third-party Teams apps across Microsoft 365
+        - name: Manage access to Teams apps across Microsoft 365
           href: manage-third-party-teams-apps.md
 
 - name: Industries and government guidance
