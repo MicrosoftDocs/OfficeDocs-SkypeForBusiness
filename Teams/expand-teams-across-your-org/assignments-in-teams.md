@@ -53,7 +53,7 @@ To verify that Parents will get the email, the following three items must be tru
 
 - Email address attached to the student profile in SDS and tagged as _Parent_ or _Guardian_. For details, see [Parent and Guardian Sync File Format](/schooldatasync/parent-contact-sync-file-format).
 
-- Students belong to at least one class in which e-mail is not disabled by the teacher in [assignment settings](https://support.microsoft.com/office/adjust-assignment-settings-in-your-class-team-05bb3b89-1cdf-415a-b6c7-44add0376a77).
+- Students belong to at least one class in which e-mail isn't disabled by the teacher in [assignment settings](https://support.microsoft.com/office/adjust-assignment-settings-in-your-class-team-05bb3b89-1cdf-415a-b6c7-44add0376a77).
 
 - The emails will contain information about assignments that have a due date from the previous week or in the upcoming week.
 
@@ -69,7 +69,7 @@ MakeCode is a Microsoft product that is subject to the Microsoft [terms of use]
 
 Default setting for this feature is - **Off**.
 
-To enable MakeCode assignments in Teams, go to the **Teams Admin Center**, navigate to the **Assignments** section, and turn the MakeCode toggle option to **On**. Click **Save**. Allow a few hours for these settings to take effect.
+To enable MakeCode assignments in Teams, go to the **Teams Admin Center**, navigate to the **Assignments** section, and turn the MakeCode toggle option to **On**. Select **Save**. Allow a few hours for these settings to take effect.
 
 For more information on how this feature works, watch this [video demonstration](https://makecode.com/blog/teams/teams-assignments).
 
@@ -79,11 +79,11 @@ For more information on how this feature works, watch this [video demonstration]
 
 ### Turnitin
 
-[Turnitin](https://www.turnitin.com/) is an academic integrity service. This is a third-party service that is subject to its own terms and privacy policy. You are responsible for your use of any third-party products and services.
+[Turnitin](https://www.turnitin.com/) is an academic integrity service. This is a third-party service that is subject to its own terms and privacy policy. You're responsible for your use of any third-party products and services.
 
-Default setting for this feature is - **Off**..
+Default setting for this feature is - **Off**.
 
-To enable Turnitin for your organization, you will need a Turnitin subscription. Then, you can input the following information, which can be found in your Turnitin admin console:
+To enable Turnitin for your organization, you'll need a Turnitin subscription. Then, you can input the following information, which can be found in your Turnitin admin console:
 
 - **TurnitinApiKey**: This is a 32-character GUID found in the admin console under Integrations.
 - **TurnitinApiUrl**: This is the HTTPS URL of your Turnitin admin console.
@@ -108,7 +108,7 @@ Upon clicking the **Save** button in the admin center for this setting, allow a 
 
 ## Assignments data
 
-Assignments stores information that is generated both by teachers and students. All the data is co-shared between teacher and the specific student for which the information is intended in class. There are two stores of this, SharePoint and outside of SharePoint.
+Assignments stores information that is generated both by teachers and students. All the data is co-shared between teacher and the specific student for which the information is intended in class. There are two stores of this data, SharePoint and outside of SharePoint.
 
 >[!NOTE]
 >The same rules also apply to first-party integrations such as Reading Progress.
@@ -123,7 +123,7 @@ IT admins can use the Content Search tool to search for student files (*Student 
 
 #### Files associated with the teacher
 
-IT admins can use the Content Search tool to search for teacher files (*Student Work*, *Class Files*, or other 1st-party integration files) that are related to assignments as well as files distributed to students by the teachers within a class on assignments. For example, an admin could search all SharePoint sites in the organization and use the teacher's name and class or assignment name in the search query to find data relevant to a DSR.
+IT admins can use the Content Search tool to search for teacher files (*Student Work*, *Class Files*, or other 1st-party integration files) that are related to assignments and files distributed to students by the teachers within a class on assignments. For example, an admin could search all SharePoint sites in the organization and use the teacher's name and class or assignment name in the search query to find data relevant to a DSR.
 
 ### Assignments data outside of SharePoint document libraries
 
@@ -198,7 +198,7 @@ The data pulled may include:
 - Submission ID
 - User ID
 
-This data isn't automatically sent to Microsoft. Users need to copy and paste the data to a Microsoft support agent in regards to a support ticket.
+This data isn't automatically sent to Microsoft. Users need to copy and paste the data to a Microsoft support agent regarding a support ticket.
 
 If a user pulls up the diagnostic tool then closes it, no data is sent.
 
