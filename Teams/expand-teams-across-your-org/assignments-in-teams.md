@@ -175,7 +175,7 @@ To remove Assignments and Grades for your entire tenant, go to **Teams Admin Cen
 
 ## Assignments diagnostic tool for users
 
-We have created a tool to collect diagnostic data for the Microsoft engineering team to investigate issues related to the Assignments feature.
+Microsoft Support has created a tool to collect diagnostic data for the Microsoft engineering team to investigate issues related to the Assignments feature.
 
 This tool can be accessed inside of Assignments on any screen the users experience an issue.
 
@@ -197,3 +197,11 @@ The data pulled may include:
 - Assignment ID
 - Submission ID
 - User ID
+
+This data isn't automatically sent to Microsoft. Users need to copy and paste the data to a Microsoft support agent in regards to a support ticket.
+
+If a user pulls up the diagnostic tool then closes it, no data is sent.
+
+When the data is sent to a Microsoft support agent, it's handled as Support Data under your organization's Microsoft 365 service agreements.
+
+For instructions on using this diagnostic tool that you can share with educators and students, see [SMC article placeholder]().
