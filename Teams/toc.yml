@@ -487,6 +487,8 @@ items:
       href: teams-channels-overview.md
     - name: Overview of private channels
       href: private-channels.md
+    - name: Overview of shared channels
+      href: shared-channels.md
     - name: Assign team owners and members in Teams
       href: assign-roles-permissions.md
     - name: Overview of dynamic membership for teams
