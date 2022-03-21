@@ -42,32 +42,6 @@ Let's get started by thinking about how Microsoft Teams allows individual teams 
     
 For help using teams and channels, check out [Teams and channels](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499).
 
-## Channel feature comparison
-
-The following table shows a comparison of Teams features for each channel type.
-
-|Features|Standard Channel|Private Channel|Shared Channel|
-|:-------|:---------------|:--------------|:-------------|
-|Azure AD B2B guests|Yes|Yes|No|
-|Azure AD Direct Connect participants|No|No|Yes|
-|Team owner can control channel creation|Yes|Yes|No|
-|Team owner visibility into channel|Yes|No|No|
-|Moderation|Yes|No|No|
-|Tags|Yes|No|No|
-|Bots, connectors, messaging extensions|Yes|No|No|
-|Missed activity email|Yes|No|No|
-|Analytics|Yes|Yes|No|
-|Dedicated channel site|No|Yes|Yes|
-|Channel meetings - meet now|Yes|Yes|Yes|
-|Channel meetings - scheduled meeting|Yes|No|Yes|
-|Channel meetings - recording and transcription|Yes|No|No|
-|Channel meetings - breakout rooms|Yes|No|No|
-|Scheduled meeting Invite delivered to recipient's inbox|Yes|No|No|
-|Planner|Yes|No|No|
-|WhiteBoard|Yes|No|No|
-|Power BI|Yes|No|No|
-|Class teams|Yes|Yes|No|
-
 ## Membership, roles, and settings
 
 **Team membership**
