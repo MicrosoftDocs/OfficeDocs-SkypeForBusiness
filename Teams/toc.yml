@@ -489,6 +489,8 @@ items:
       href: teams-channels-overview.md
     - name: Overview of private channels
       href: private-channels.md
+    - name: Overview of shared channels
+      href: shared-channels.md
     - name: Assign team owners and members in Teams
       href: assign-roles-permissions.md
     - name: Overview of dynamic membership for teams
@@ -644,8 +646,6 @@ items:
               href: cloud-recording.md
             - name: Use OneDrive for Business and SharePoint or Stream for meeting recordings
               href: tmr-meeting-recording-change.md
-            - name: Contact Center integrations
-              href: teams-contact-center.md
             - name: Use the Teams Meeting add-in in Outlook
               href: teams-add-in-for-outlook.md
             - name: Configure the Skype Meetings App to work with Teams
@@ -999,6 +999,8 @@ items:
           href: cloud-voice-network-settings.md
         - name: Manage your network topology for cloud voice features
           href: manage-your-network-topology.md
+        - name: Manage video and media settings
+          href: network-roaming-policy.md
     - name: Emergency calling
       items: 
         - name: Overview
@@ -1313,6 +1315,8 @@ items:
               href: add-funds-and-manage-communications-credits.md
         - name: Microsoft Teams call flows
           href: microsoft-teams-online-call-flows.md
+        - name: Contact Center integrations
+          href: teams-contact-center.md
 
 - name: Devices and rooms management
   items:
@@ -1353,16 +1357,16 @@ items:
               href: rooms/rooms-deploy.md
             - name: Configure accounts
               href: rooms/rooms-configure-accounts.md
-            - name: With Office 365
+            - name: Surface Hub
+              items: 
+                - name: Set up Coordinated Meetings
+                  href: rooms/coordinated-meetings.md
+                - name: Manage Microsoft Teams settings
+                  href: rooms/surface-hub-manage-config.md
+            - name: Create resource accounts 
               href: rooms/with-office-365.md
             - name: With Skype for Business Server
               href: rooms/with-skype-for-business-server-2015.md
-            - name: With Exchange Online (Hybrid)
-              href: rooms/with-exchange-online.md
-            - name: With Exchange on premises (Hybrid)
-              href: rooms/with-exchange-on-premises.md
-            - name: Deploy Microsoft Teams Rooms on Android
-              href: devices/collab-bar-deploy.md
             - name: Configure a console
               href: rooms/console.md
             - name: Manually update a device
@@ -1393,7 +1397,7 @@ items:
             - name: Maintenance and operations
               href: rooms/rooms-operations.md
             - name: Known issues
-              href: rooms/known-issues.md
+              href: /microsoftteams/troubleshoot/teams-devices-and-rooms/rooms-known-issues
             - name: Devices with Azure Monitor
               href: rooms/azure-monitor-manage.md
             - name: Settings with an XML file
@@ -1498,11 +1502,11 @@ items:
         - name: Plan phones and displays deployment
           href: devices/plan-device-deployment.md            
               
-- name: Apps, bots, and connectors
+- name: Govern apps, bots, and connectors in Teams
   items: 
     - name: Overview
       href: deploy-apps-microsoft-teams-landing-page.md
-    - name: Apps from Microsoft
+    - name: Manage sample apps provided by Microsoft
       items:
         - name: Manage the Bookings app
           href: bookings-app-admin.md
@@ -1517,35 +1521,35 @@ items:
         - name: Manage the Shifts app
           href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
           
-    - name: Third-party apps
+    - name: Administer third-party apps
       items:
-        - name: App certification
+        - name: Security, compliance, privacy, and data handling for third-party apps
           href: /microsoft-365-app-certification/overview
         - name: Purchase third-party apps for Teams
           href: purchase-third-party-apps.md
     - name: App templates for Teams
       href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
 
-    - name: How to build and customize apps
+    - name: Govern custom line-of-business apps
       items:
         - name: Integrate with Power Platform
           href: teams-power-platfom-integration.md
         - name: Manage Power Platform apps in the Microsoft Teams admin center
           href: manage-power-platform-apps.md
-        - name: Publish a custom app submitted through the Teams App Submission API
+        - name: Publish custom apps on your organization store
           href: submit-approve-custom-apps.md
         - name: Publish a custom app by uploading an app package
           href: upload-custom-apps.md
         - name: Customize apps in Teams
           href: customize-apps.md
-        - name: Custom apps store 
+        - name: Brand your organization's app store
           href: customize-your-app-store.md
         - name: Use built-in and custom tabs
           href: built-in-custom-tabs.md
 
-    - name: Manage apps for Teams
+    - name: Admin controls and app governance
       items:
-        - name: Overview
+        - name: Overview of app management for admins
           href: manage-apps.md
         - name: App policies
           items: 
@@ -1559,22 +1563,24 @@ items:
             href: teams-custom-app-policies-and-settings.md
         - name: Tailor Teams apps based on license
           href: pin-teams-apps-based-on-license.md
-        - name: View app permissions and grant admin consent
+        - name: Review Azure AD permissions and grant admin consent
           href: app-permissions-admin-center.md
-        - name: Resource-specific consent
+        - name: Manage resource-specific consent for your organization
           href: resource-specific-consent.md
-        - name: Apps permissions and considerations
+        - name: Understand about app permissions and access to resources
           href: app-permissions.md
         - name: Admin settings for apps in Teams
           href: admin-settings.md
         - name: Use Microsoft 365 or Office 365 and custom connectors
           href: Office-365-custom-connectors.md
-        - name: Teams apps behavior for non-standard users
+        - name: App behavior based on types of users
           href: non-standard-users.md
-        - name: Update experience for apps
+        - name: Update apps to newer versions as end-users
           href: apps-update-experience.md
-        - name: Manage access to third-party Teams apps across Microsoft 365
+        - name: Manage access to Teams apps across Microsoft 365
           href: manage-third-party-teams-apps.md
+    - name: App usage report
+      href: teams-analytics-and-reports/app-usage-report.md
 
 - name: Industries and government guidance
   items: 
@@ -1822,8 +1828,6 @@ items:
       items: 
         - name: Microsoft 365 groups and Teams
           href: office-365-groups.md
-        - name: Create a Microsoft 365 resource account using the Microsoft 365 admin center
-          href: devices/resource-account-ui.md
         - name: Enhance existing Microsoft 365 groups with Teams
           href: enhance-office-365-groups.md
         - name: How Exchange and Teams interact
