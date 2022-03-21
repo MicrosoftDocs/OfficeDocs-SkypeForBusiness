@@ -52,3 +52,6 @@ The new capabilities are available to the select Microsoft 365 subscriptions.
 - [Power Apps and Teams](/powerapps/teams/overview)
 - [Power Automate and Teams](/power-automate/teams/overview)
 - [Power Virtual Agents and Teams](/power-virtual-agents/teams/fundamentals-what-is-power-virtual-agents-teams)
+
+<!--- TBD: Remove this article from admin doc set. Belongs in dev doc set.
+--->
