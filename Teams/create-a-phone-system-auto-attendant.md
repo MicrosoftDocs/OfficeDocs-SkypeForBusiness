@@ -145,6 +145,8 @@ You can set the extension in the [Microsoft 365 admin center](https://admin.micr
 > [!NOTE]
 > If you want to use both the **Dial by name** and **Dial by extension** features, you can assign a dial key on your main auto attendant to reach an auto attendant enabled for **Dial by name**. Within that auto attendant, you can assign the 1 key (which has no letters associated with it) to reach the **Dial by extension** auto attendant.
 
+Refer to [Dial and voice reference](dial-voice-reference.md) for more information.
+
 Once you have selected a **Directory search** option, select **Next**.
 
 ## Call flow for after hours
