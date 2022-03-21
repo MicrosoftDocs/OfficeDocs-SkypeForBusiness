@@ -100,8 +100,9 @@ For more information about using the Graph API to check the **Publishing status*
 
 When you're ready to make the app available to users, publish the app.
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
-2. Click the app name to go to the app details page, and then in the **Publishing status** box, select **Publish**.
+1. Open [Microsoft Teams admin center](https://admin.teams.microsoft.com/dashboard).
+1. In the left pane, go to **Teams apps** > **Manage apps**.
+1. Select the app name to go to the app details page, and then in the **Publishing status** box, select **Publish**.
 
     ![Publish button on app detail page.](media/submitted-app-pending-action.png)
 
