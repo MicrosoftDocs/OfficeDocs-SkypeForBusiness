@@ -174,6 +174,9 @@ Agents' Teams accounts must be set to Teams-only mode. Agents who don't meet the
 > When using **Longest idle** and when there are less calls in queue than available agents, only the first two longest idle agents will be presented with calls from the queue.
 > 
 > When using **Longest idle** there may be times when an agent receives a call from the queue shortly after becoming unavailable or if there is a short delay in receiving a call from the queue after becoming available.
+> 
+> Call Queue call presentation to agents may conflict with Location Based Routing restrictions. In this case, the agent will receive a call toast but will not be able to answer the call. This condition will continue until another agent is available to answer the call, the caller hangs up or the call queue timeout condition occurs.  
+
 
 ![Screenshot of routing, opt out, and alert time settings.](media/call-queue-presence-agents-time.png)
 
@@ -246,7 +249,7 @@ The following settings are recommended:
 |Channel Based Queues             |Y                         |N                        |N    |N         |n/a                   |Y<sup>8</sup>             |              |
 |Call toast shows Resource Account Name |Y<sup>9</sup>       |Y                        |Y    |          |Y                     |Y                         |              |
 |**Dynamic caller ID**            |                          |                         |     |          |                      |                          |              |
-|`Standard call queue`            |N                         |Y                        |N    |N         |Y                     |n/a                       |              |
+|`Standard call queue`            |N                         |N                        |N    |N         |Y                     |n/a                       |              |
 |`Channel based call queue`       |Y                         |n/a                      |n/a  |n/a       |n/a                   |Y                         |              |
 |**PSTN Connectivity Methods**    |                          |                         |     |          |                      |                          |See Note 10   |
 |`Calling Plans`                  |Y                         |Y                        |Y    |Y         |Y                     |Y                         |              |
