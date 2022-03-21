@@ -485,7 +485,7 @@ if($cleanup){
 
 ### Notifications
 
-- Message count notification/presence on Windows task bar is not supported on Windows Server 2016 host.
+- Message count notification and presence on the Windows taskbar is not supported on a Windows Server 2016 host.
 
 ### Calling and meetings
 
