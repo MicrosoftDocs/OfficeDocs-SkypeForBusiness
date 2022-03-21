@@ -266,6 +266,9 @@ Write-Host "Success"
 
 ## Unmap a team from one connection and map it to another connection
 
+> [!NOTE]
+> The Microsoft 365 system account must be the same for both connections. If it isn't, you'll get an "This designated actor profile doesn't have team ownership privileges" error message.
+
 If you want to unmap a team from one connection and map it to another connection:
 
 1. [Set up your environment](#set-up-your-environment) (if you haven't already).
