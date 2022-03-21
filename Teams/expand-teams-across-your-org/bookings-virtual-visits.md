@@ -91,9 +91,9 @@ In the booking calendar, select **New booking**. Select an appointment type, and
 
 This includes attendee contact information, the staff member who will be providing the service, internal notes that only staff can see, email reminders, and whether the attendee can join from a mobile browser. If a form is linked to the appointment type, you can choose to include it, remove it, or add any linked forms.
 
-To learn more, see [Schedule a booking in the Teams Bookings app](https://support.microsoft.com/office/schedule-a-booking-in-the-teams-bookings-app-e275049d-0d0f-4161-8526-461a9f29439f).
-
 The email confirmation sent to the attendee includes the meeting link and an attachment so that they can add the virtual appointment to their calendar. Staff also receive an email confirmation and meeting invite.
+
+To learn more, see [Schedule a booking in the Teams Bookings app](https://support.microsoft.com/office/schedule-a-booking-in-the-teams-bookings-app-e275049d-0d0f-4161-8526-461a9f29439f).
 
 ## Conduct a visit
 
