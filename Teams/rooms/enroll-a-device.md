@@ -49,6 +49,9 @@ bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT `http://contosoproxy.corp.net
 
 ### Enabling TPM settings
 
+> [!NOTE]
+> TPM must be enabled to enroll in the managed service.
+
 If TPM on an Intel NUC device is disabled, enable TPM on these devices as follows:  
 
 1. Plug in the keyboard to a NUC device.  
@@ -116,7 +119,7 @@ The Enrollment process involves these steps:
    ![Screenshot of settings and self-enrollment keys.](../media/software-installation-005new.png)
  
 > [!NOTE]
-If you need to install the agent without the Teams App on the MTR being able to login to Teams, you can use our enrollment key as an optional process. Go to  '?'  (Help) on the top right corner of the portal, then select 'Download key (optional)' when installing the agent Place the ‘Self-Enrollment key’ (previously downloaded from the portal) on the **C:\Rigel** directory of the device.
+> If you need to install the agent without the Teams App on the MTR being able to login to Teams, you can use our enrollment key as an optional process. Go to  '?'  (Help) on the top right corner of the portal, then select 'Download key (optional)'. When installing the agent, place the ‘Self-Enrollment key’ (previously downloaded from the portal) on the **C:\Rigel** directory of the device.
 
 ## Installation
 
