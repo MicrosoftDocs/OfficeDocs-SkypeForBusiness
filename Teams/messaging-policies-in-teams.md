@@ -70,7 +70,7 @@ A user can only be assigned one messaging policy at a time.
 
 Here are the messaging policy settings that you can configure.
 
-- **Owners can delete sent messages**  Use this setting to let owners delete messages that users sent in chat.
+- **Owners can delete sent messages**  Use this setting to let owners delete channel messages or posts that users sent.
 - **Delete sent messages** Use this setting to let users delete messages that they sent in chat.
 - **Edit sent messages** Use this setting to let users edit the messages that they sent in chat.
 - **Read receipts** Read receipts allow the sender of a chat message to be notified when their message was read by the recipient in 1:1 and group chats 20 people or fewer. Message read receipts remove uncertainly about whether a message was read, and improve team communication. Read receipts aren't captured in eDiscovery reporting.  
@@ -104,7 +104,7 @@ Here are the messaging policy settings that you can configure.
 - **Chat permission role** Use this setting to define the supervised chat role of the user.  Learn more about [supervised chat](supervise-chats-edu.md).
 
 > [!NOTE]
-> Some of these settings, such using Giphys, can also be configured at the team level by team owners and at the private channel level by private channel owners.
+> Some of these settings, such using Giphys, can also be configured at the team level by team owners and at the private or shared channel level by channel owners.
 
 ### Related topics
 

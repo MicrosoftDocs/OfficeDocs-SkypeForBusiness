@@ -27,7 +27,7 @@ In Microsoft Teams, team owners can turn on moderation for a standard channel to
 Team owners can also add team members as moderators. A team owner might not have the subject matter expertise at the channel level to best support channel moderation. By allowing specific team members to moderate a channel, the responsibility of managing content and context within a channel is shared between team owners and channel moderators. For example, a team owner can add business owners or content owners as moderators, which lets them control information sharing in that channel.
 
 > [!NOTE]
-> Channel moderation is available for standard channels. It's not available for the General channel or private channels.
+> Channel moderation is available for standard channels. It's not available for the General channel or for private or shared channels.
 
 ## What can a channel moderator do?
 
@@ -57,7 +57,7 @@ In this scenario, the teacher allows their teaching assistants to moderate the c
 
 In Teams, go to the channel, click **More options ...** > **Manage channel**. From here you can turn on and turn off moderation, add team members as moderators, and set preferences.
 
-Channel moderation is a per-channel setting. There's no tenant-level setting for channel moderation. If you'd like us to add a tenant-level channel moderation setting, request it on [Teams UserVoice](https://microsoftteams.uservoice.com/).
+Channel moderation is a per-channel setting. There's no tenant-level setting for channel moderation. If you'd like us to add a tenant-level channel moderation setting, request it on [Teams Feedback portal](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 

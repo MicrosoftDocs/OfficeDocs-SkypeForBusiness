@@ -71,7 +71,7 @@ This is a per-organizer policy. This setting controls whether people join a meet
 
 ## Allow dial-in users to bypass the lobby
 
-This is a per-organizer policy. This setting controls whether people who dial in by phone join the meeting directly or wait in the lobby regardless of the **Automatically admit people** setting. By default, this setting is turned off. When this setting is turned off, dial-in users will wait in the lobby until an organization user joins the meeting with a Teams client and admits them. When this setting is turned on, dial-in users will automatically join the meeting when an organization user joins the meeting.
+This is a per-organizer policy. This setting controls whether people who dial in by phone join the meeting directly or wait in the lobby regardless of the **Automatically admit people** setting. By default, this setting is turned off. When this setting is turned off, dial-in users will wait in the lobby until an organization user joins the meeting with a Teams client and admits them. When this setting is turned on, dial-in users will automatically join the meeting when an organization user joins the meeting with a Teams client.
 
 > [!NOTE]
 > If a dial-in user joins a meeting before an organization user joins the meeting, they will be placed in the lobby until an organization user joins the meeting using a Teams client and admits them. If you change the default setting for any user, it will apply to all new meetings organized by that user and any prior meetings where the user didn't modify Meeting options.
@@ -95,15 +95,14 @@ This setting is a per-participant setting. This setting controls whether meeting
 
 |Setting value |Behavior  |
 |---------|---------|
-|**Turn it on for everyone**     | All participants can write and view chat messages. |
-|**Turn it off for everyone**     | Meeting chat is turned off for all participants.  |
-|**Turn it on for everyone but anonymous users**| Anonymous users can't chat during meetings but can read messages. |
+|**Enabled**     | All participants can write and view chat messages. |
+|**Not enabled**     | Meeting chat is turned off for all participants.  |
 
 <a name="bkparticipantsandguests"> </a>
 
 ## Enable meeting policy settings
 
-To enable meeting policy settings, you can use the [Teams admin center](https://admin.teams.microsoft.com/policies/meetings) (**Meeting Policies** > **Edit a policy** > **Participants & guests**) or the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) cmdlet in Teams PowerShell. 
+To enable meeting policy settings, you can use the [Teams admin center](https://admin.teams.microsoft.com/policies/meetings) (**Meeting Policies** > **Edit a policy** > **Participants & guests**) or the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet in Teams PowerShell. 
 
 In this example, we use PowerShell to modify the global meeting policy to allow anyone to start or join a meeting.
 

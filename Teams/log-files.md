@@ -118,8 +118,8 @@ To collect logs for Linux:
 
 To collect logs for Windows:  
 - The files will be available in the following locations:
-  - `%userprofile%\Downloads\MSTeams Diagnostics Log\meeting\media-stack\\\*\.blog`
-  - `%userprofile%\Downloads\MSTeams Diagnostics Log\meeting\skylib\\\*\.blog` 
+  - `%appdata%\Microsoft\Teams\media-stack\\\*\.blog`
+  - `%appdata%\Microsoft\Teams\skylib\\\*\.blog` 
 
 To collect logs for Mac:
 - The files will be available in the following locations:
