@@ -48,7 +48,7 @@ Use the **Create Standard** workflow to create a standard.
 
 1. Select from the recommended Teams certified room templates in your inventory of hardware. The list varies depending on the room type selected in the previous step.
 
-   ![Screenshot of Standards General Details](../media/standards-and-room-planner-004.png)
+   ![Screenshot of Select the Standard MTRs](../media/standards-and-room-planner-004.png)
 
 
 1. Review the MTR Standard information.
@@ -66,7 +66,6 @@ Once published, the standards are used for planning purposes.
 
 Within Standards, select **Discovered Devices** to view all nonstandard discovered devices within your organization.
 
-![Screenshot of a room's discovered devices](../media/standards-and-room-planner-008.png)
 
 You can take action to review and create standards from these discovered devices in your inventory.
 
