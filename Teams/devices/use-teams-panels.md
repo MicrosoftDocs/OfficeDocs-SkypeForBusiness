@@ -189,7 +189,9 @@ To access the **Panels App Settings** option:
 
 #### Pair a Teams panel with a Microsoft Teams Room on Android
 
-On the Teams panel, sign in using your admin credentials.  
+To pair a Teams panel and Teams Room on Android, both devices must be signed into the same resource account.
+
+On the Teams panel, sign in using your admin credentials.
 
 1. Go to **Settings > Device Settings > Admin Settings > Panels App Settings > Meetings > Device Pairing.**
 
