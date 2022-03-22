@@ -187,9 +187,9 @@ To access the **Panels App Settings** option:
     - [Wallpaper](#update-the-wallpaper)
     - [LED indicator](#change-the-busy-state-led-color)
 
-#### Pair a Teams Panel with a Microsoft Teams Room on Android
+#### Pair a Teams panel with a Microsoft Teams Room on Android
 
-On the Teams Panel, sign in using your admin credentials.  
+On the Teams panel, sign in using your admin credentials.  
 
 1. Go to **Settings > Device Settings > Admin Settings > Panels App Settings > Meetings > Device Pairing.**
 
@@ -202,6 +202,14 @@ Check-in and room release settings let users check in to a meeting on Teams Pane
 When Teams Panels is paired with a Microsoft Teams Room on Android, check-in notifications can be enabled to appear on the front-of-room display when meetings run late.
 
 To enable check-in and room release, see [Check-in and room release on Microsoft Teams Panels](check-in-and-room-release.md).
+
+#### Room capacity warning
+
+Teams panels that are paired with a Teams Room on Android can display a warning message when a meeting room is at or over capacity. To use this feature, the Teams Room must have a camera that supports people counting. Teams Rooms on Android support room capacity warnings without a Teams panel.
+
+First, [pair a Teams panel with a Microsoft Teams Room on Android](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android). The panel and the Teams Room must be signed into the same resource account.
+
+Room capacity warnings are turned off by default. To turn the setting on from the Teams panel, go to **Settings > Device settings > Admin settings > Panel app settings**. Then, under **Meetings**, turn on **Max room occupancy notification**.
 
 #### Update the wallpaper
 
