@@ -488,8 +488,7 @@ if($cleanup){
 The following calling and meeting features are not supported:
 
 - Any multi-window functionality like the new meeting experiences or any functionality that comes with the new meeting experience
-- Enhanced emergency services
-- HID buttons and LED controls between the Teams app and devices
+- HID buttons and LED controls between the Teams app and devices for Citrix and VMware
 - Background blur and effects
 - Broadcast and live event producer and presenter roles
 - Location-Based Routing (LBR)
