@@ -31,9 +31,6 @@ description: Dial-Out and Call Me At minutes benefit. As of December 1, 2019 eac
 Each Audio Conferencing subscription provides 60 minutes per user per month that can be used to dial out to non-premium numbers in ANY of the Zone A countries as described in this document. Your tenant dial-out minute pool size is based on *purchased* licenses. This benefit is applicable to Audio Conferencing *monthly subscription* licenses and does not extend to Audio Conferencing pay-per-minute licenses.
 
 > [!NOTE]
-> As of October 22, 2020, the dial-out minute pool size of our tenant is based on the number of *purchased* Audio Conferencing subscription licenses. Before, the dial-out minute pool size was based on the number of licenses that were *assigned* to users.
-
-> [!NOTE]
 > The end of the [complimentary dial-out period](complimentary-dial-out-period.md) did not take place on November 30, 2019, for countries where the Audio Conferencing subscription is available, but we do not currently provide the ability to set up Communications Credits. These specific countries are Russia, South Korea, and Taiwan.
 
 ## Audio Conferencing "Dial Out From a Meeting" & "Call Me At" details
