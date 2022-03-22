@@ -1532,8 +1532,6 @@ items:
 
     - name: Govern custom line-of-business apps
       items:
-        - name: Integrate with Power Platform
-          href: teams-power-platfom-integration.md
         - name: Manage Power Platform apps in the Microsoft Teams admin center
           href: manage-power-platform-apps.md
         - name: Publish custom apps on your organization store

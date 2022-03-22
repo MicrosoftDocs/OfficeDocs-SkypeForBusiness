@@ -39,7 +39,7 @@ You can also use [Teams templates](/microsoftteams/platform/samples/app-template
 
 ## Create custom apps
 
-You can quickly build custom low-code solutions by using Teams integration with [Microsoft Power Platform](teams-power-platfom-integration.md). You can also create your own custom app to suit your business needs. For more information, see [Build apps for Microsoft Teams](/microsoftteams/platform/overview).  
+You can quickly build custom low-code solutions by using Teams integration with [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions). You can also create your own custom app to suit your business needs. For more information, see [Build apps for Microsoft Teams](/microsoftteams/platform/overview).  
 
 ## Apps deployment decisions
 
