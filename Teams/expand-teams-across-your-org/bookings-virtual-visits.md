@@ -81,6 +81,11 @@ The information that you add are included in the email confirmation that's sent 
 
 If you're a booking admin, you can link a form for attendees to fill out each time this appointment type is booked. You can link up to four forms per appointment type. For example, you may require attendees to complete a registration form before they join a visit. To link a form, choose **Link a form**. Enter the URL of the form, and then choose **Link**. (If this is the first time that you're linking a form, you'll be prompted to create a Microsoft 365 group to store forms. Choose **Create group** to create the group. You only have to do this one time for the booking calendar.)
 
+When working with forms, keep in mind that:
+
+- If you want to make changes to a form that's already linked to an appointment type, edit it from within the group where the form is stored.
+- Uploading files to forms that contain a [file upload question](https://support.microsoft.com/office/add-questions-that-allow-for-file-uploads-6a75a658-c02b-450e-b119-d068f3cba4cf) is supported when all attendees are from the same organization.
+
 When a scheduler uses the appointment type to schedule a visit, they can then choose to include the form, remove it, or add any other forms that you linked to the appointment type. Attendees must fill out the form before they join the visit.
 
 To learn more, see [Create an appointment type](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887).
