@@ -83,7 +83,7 @@ If you're a booking admin, you can link a form for attendees to fill out each ti
 
 When working with forms, keep in mind that:
 
-- If you want to make changes to a form that's already linked to an appointment type, you can edit it by selecting the form in the appointment type or from within the forms group at [https://forms.office.com](https://forms.office.com).
+- To make changes to a form that's already linked to an appointment type, select the form in the appointment type or from within the forms group at [https://forms.office.com](https://forms.office.com).
 - Uploading files to forms that contain a [file upload question](https://support.microsoft.com/office/add-questions-that-allow-for-file-uploads-6a75a658-c02b-450e-b119-d068f3cba4cf) is supported when all attendees are from the same organization.
 
 When a scheduler uses the appointment type to schedule a visit, they can then choose to include the form, remove it, or add any other forms that you linked to the appointment type. Attendees must fill out the form before they join the visit.
