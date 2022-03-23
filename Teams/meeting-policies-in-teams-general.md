@@ -37,7 +37,7 @@ This article describes the following general policy settings for Teams meetings:
 - [Meeting registration](#meeting-registration)
 - [Who can register](#who-can-register)
 - [Meeting provider for Islands mode](#meeting-provider-for-islands-mode)
-- [Allow Meeting Coach](#allow-meeting-coach)
+- [Speaker Coach](#speaker-coach)
 
 ## Meet now in channels
 
@@ -181,13 +181,16 @@ The AllowMeetingReactions setting can only be applied using PowerShell. There is
 
 Meeting reactions are Off by default. Turning off reactions for a user doesn't mean that a user can't use reactions in meetings they schedule. The meeting organizer can still turn on reactions from the meeting option page, regardless of the default setting.
 
-## Allow Meeting Coach
+## Speaker Coach
 
-Meeting Coach listens to the audio of a user while they present during a Teams meeting and provides feedback and suggestions for improvement in real-time. The user can save and export a report of their feedback after the meeting, but admins won't have access to any of this data.
+This setting lets users turn on Speaker Coach during a Teams meeting. Speaker Coach listens to the audio of the user while they present and provides private real-time feedback and suggestions for improvement. The user also gets a summary report of their feedback after the meeting.
+
+> [!NOTE]
+> The user who turned on Speaker Coach during the meeting is the only one who can see the summary report of feedback. Admins won't have access to any of this data.
 
 Currently, you can only set and edit this policy in PowerShell. by using the [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet. Or, create a new Teams meeting policy by using the [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet and assign it to users.
 
-This setting is enabled by default. To turn it off, set **AllowMeetingCoach** to **Disabled**.
+This setting is enabled by default. To turn it off, set **AllowMeetingCoach** to **False**.
 
 ## Related topics
 
