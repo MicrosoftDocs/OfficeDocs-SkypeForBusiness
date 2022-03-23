@@ -81,7 +81,7 @@ Learn how the tailored frontline app experience works together with the global a
 
 ### How does the tailored frontline app experience work with other Teams app policies?
 
-Learn how the tailored frontline app experience works with other Teams apps policies.
+Learn how the tailored frontline app experience works with other Teams app policies.
 
 |If...  |Then... |
 |---------|---------|
