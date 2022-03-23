@@ -34,9 +34,7 @@ Organizations who haven't used TPM in the last three months (Jan’22 – Mar’
 
 ## Current organizations (TPM active)
 
-Organizations who have been using TPM in the last three months (Jan’22 – Mar’22) will only be able to use TPM 4.0.0 or above starting from June 15, 2022.
-
-This means that the Administrators will not be able to use Teams PowerShell Module versions released before 4.0.0. Instead, it's recommended to update Teams PowerShell Module to the latest version.
+Organizations who have been using TPM in the last three months (Jan’22 – Mar’22) will only be able to use TPM 4.0.0 or above starting from June 15, 2022. It's recommended to update Teams PowerShell Module to the latest version.
 
 
 ## Important notes
