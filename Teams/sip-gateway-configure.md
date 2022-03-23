@@ -75,7 +75,7 @@ This article also describes how to:
 
 ## Verify that SIP Gateway is available for your organization
 
-1. Sign in to the [Teams admin center](https://admin-teams.microsoft.com/).
+1. Sign in to the [Teams admin center](https://admin.teams.microsoft.com/).
 
 2. At the left, select **Teams devices** and see if the **SIP devices** tab is visible. If it is, the SIP Gateway service is enabled for your organization.
 
