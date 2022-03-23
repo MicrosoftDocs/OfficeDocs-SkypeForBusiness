@@ -37,7 +37,7 @@ If one or more of the following conditions are met, an audio stream is marked as
 |Metric|Scenario|Condition|Explanation|
 |:-----|:-----|:-----|:-----|
 |Round Trip|ALL|> 500|Average round-trip network propagation time, computed in milliseconds. Details available in [RFC3550](https://tools.ietf.org/html/rfc3550).|
-|Packet Loss Rate|ALL|> 0.1|Average packet loss rate for stream.|
+|Packet Loss Rate|ALL|> 0.1|Average packet loss rate for stream. (0.1 indicates 10% packet loss.)|
 |Jitter|ALL|> 30|Average jitter for stream in milliseconds.|
 ||||
 
