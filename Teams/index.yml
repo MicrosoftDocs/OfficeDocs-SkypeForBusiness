@@ -161,7 +161,7 @@ additionalContent:
             - text: Build apps for Microsoft Teams
               url: /MicrosoftTeams/platform/overview
             - text: Integration with Microsoft Power Platform
-              url: ./teams-power-platfom-integration.md
+              url: /microsoftteams/platform/samples/teams-low-code-solutions
             - text: Microsoft Teams app security and compliance
               url: /microsoft-365-app-certification/teams/teams-apps
             - text: Microsoft Viva - Employee Experience and Engagement
