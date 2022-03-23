@@ -3,7 +3,7 @@ title: Security guide for Microsoft Teams overview
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
-ms.date: 10/23/2021
+ms.date: 03/23/2022
 ms.topic: reference
 ms.service: msteams
 audience: admin
@@ -53,27 +53,30 @@ A distributed denial-of-service (DDOS) attack occurs when the attacker prevents 
 - Send a large amount of traffic, overloading the system until it stops responding or responds slowly to legitimate requests.
 - Hide the evidence of the attacks.
 - Prevent users from accessing network resources.
+
 Teams mitigates against these attacks by running Azure DDOS network protection and by throttling client requests from the same endpoints, subnets, and federated entities.
 
 ### Eavesdropping
 
 Eavesdropping occurs when an attacker gains access to the data path in a network and has the ability to monitor and read the traffic. Eavesdropping is also called sniffing or snooping. If the traffic is in plain text, the attacker can read the traffic when the attacker gains access to the path. An example is an attack performed by controlling a router on the data path.
 
-Teams uses mutual TLS (MTLS) for server communications within Microsoft 365 and Office 365, and also uses TLS from clients to the service. MTLS makes eavesdropping difficult or impossible to achieve within the time period of a single conversation. TLS authenticates all parties and encrypts all traffic. While TLS doesn't prevent eavesdropping, the attacker can't read the traffic unless the encryption is broken.
+Teams uses mutual TLS (MTLS) and Server to Server (S2S) OAuth (among other protocols) for server communications within Microsoft 365 and Office 365, and also uses TLS from clients to the service. All traffic on the network is encrypted.
 
-The TURN protocol is used for real-time media purposes. The TURN protocol doesn't mandate the traffic to be encrypted and the information that it's sending is protected by message integrity. Although it's open to eavesdropping, the information it's sending, that is, IP addresses and port, can be extracted directly by looking at the source and destination addresses of the packets. The Teams service ensures that the data is valid by checking the Message Integrity of the message using the key derived from a few items including a TURN password, which is never sent in clear text. SRTP is used for media traffic and is also encrypted.
+These methods of communication make eavesdropping difficult or impossible to achieve within the time period of a single conversation. TLS authenticates all parties and encrypts all traffic. While TLS doesn't prevent eavesdropping, the attacker can't read the traffic unless the encryption is broken.
+
+The *Traversal Using Relays around NAT* (TURN) protocol is used for real-time media purposes. The TURN protocol doesn't mandate the traffic to be encrypted and the information that it's sending is protected by message integrity. Although it's open to eavesdropping, the information it's sending, that is, IP addresses and port, can be extracted directly by looking at the source and destination addresses of the packets. The Teams service ensures that the data is valid by checking the Message Integrity of the message using the key derived from a few items including a TURN password, which is never sent in clear text. SRTP is used for media traffic and is also encrypted.
 
 ### Identity spoofing (IP address spoofing)
 
 Spoofing occurs when the attacker identifies and then uses an IP address of a network, computer, or network component without being authorized to do so. A successful attack allows the attacker to operate as if the attacker is the entity normally identified by the IP address.
 
-TLS authenticates all parties and encrypts all traffic. Using TLS prevents an attacker from performing IP address spoofing on a specific connection (for example, mutual TLS connections). An attacker could still spoof the address of the Domain Name System (DNS) server. However, because authentication in Teams is performed with certificates, an attacker would not have a valid certificate required to spoof one of the parties in the communication.
+TLS authenticates all parties and encrypts all traffic. Using TLS prevents an attacker from performing IP address spoofing on a specific connection (for example, mutual TLS connections). An attacker could still spoof the address of the Domain Name System (DNS) server. However, because authentication in Teams is performed with certificates an attacker would not have a valid information required to spoof one of the parties in the communication.
 
 ### Man-in-the-middle attack
 
-A man-in-the-middle attack occurs when an attacker reroutes communication between two users through the attacker's computer without the knowledge of the two communicating users. The attacker can monitor and read the traffic before sending it on to the intended recipient. Each user in the communication unknowingly sends traffic to and receives traffic from the attacker, all while thinking they are communicating only with the intended user. This scenario can happen if an attacker can modify Active Directory Domain Services to add their server as a trusted server or modify DNS configuration to get clients to connect through the attacker on their way to the server.
+A man-in-the-middle attack occurs when an attacker reroutes communication between two users through the attacker's computer without the knowledge of the two communicating users. The attacker can monitor and read the traffic before sending it on to the intended recipient. Each user in the communication unknowingly sends traffic to and receives traffic from the attacker, all while thinking they are communicating only with the intended user. This scenario can happen if an attacker can modify Active Directory Domain Services to add their server as a trusted server, or modify DNS configuration or use other means to  to get clients to connect through the attacker on their way to the server.
 
-Man-in-the-middle attacks on media traffic between two endpoints participating in Teams audio, video, and application sharing, is prevented by using SRTP to encrypt the media stream. Cryptographic keys are negotiated between the two endpoints over a proprietary signaling protocol (Teams Call Signaling protocol) which uses TLS 1.2 and AES-256 (in GCM mode) encrypted UDP/TCP channel.
+Man-in-the-middle attacks on media traffic between two endpoints participating in Teams audio, video, and application sharing, is prevented by using *Secure Real-Time Transport Protocol* (SRTP) to encrypt the media stream. Cryptographic keys are negotiated between the two endpoints over a proprietary signaling protocol (Teams Call Signaling protocol) which uses TLS 1.2 and AES-256 (in GCM mode) encrypted UDP or TCP channel.
 
 ### Real-time Transport Protocol (RTP) replay attack
 
