@@ -63,8 +63,8 @@ If Calling Plans are not available to purchase, see [PSTN connectivity options](
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|What capitals or major cities can you get toll numbers for?   | Non-geographic. Phone numbers aren't linked to a specific city or location. <br/> |
-|Are toll numbers available?  <br/> |Non-geographic ([on request](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
+|What capitals or major cities can you get toll numbers for?   | Not applicable <br/> |
+|Are toll numbers available?  <br/> |No  <br/> |
 |Are toll free numbers available?  <br/> |No  <br/> |
    
  If you want to get toll and toll free phone numbers for Audio Conferencing, Auto attendants and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](../getting-service-phone-numbers.md).
