@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
-description: Learn how to browse and purchase devices in the Teams admin center devices store
+description: Learn how to browse and purchase devices in the Teams admin center device store
 ---
 
 # Purchase devices in the Teams device store
