@@ -53,7 +53,7 @@ When this setting is off, data will not be shared, and you can browse the Teams 
 
 ## Order tracking and history
 
-You can view the order history by going to **Store > Order history**, which includes all orders placed by you and other admins in the organization. Order history also includes the shipping status of your orders. For any additional questions around order tracking, returns, or refunds, contact UnifiedCommunications.com. Their contact information is available in the Order history page.
+You can view the order history by going to **Store > Order history**, which includes all orders placed by you and other admins in the organization. Order history also includes the shipping status of your orders. For questions around order tracking, returns, or refunds, contact UnifiedCommunications.com. Their contact information is available in the Order history page.
 
 Orders placed in the Teams device store and any data associated with them are classified as tenant orders and tenant data.
 
