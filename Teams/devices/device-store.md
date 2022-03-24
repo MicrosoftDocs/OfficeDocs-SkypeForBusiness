@@ -37,7 +37,7 @@ The device store includes all devices that are certified for Teams, including he
 
 ## Purchase devices
 
-When you purchase device from the devices store, the payment and fulfillment, including shipping and delivery, are handled by UnifiedCommunications.com, a Microsoft third-party fulfillment partner.  
+When you purchase devices from the device store, the payment and fulfillment, including shipping and delivery, are handled by UnifiedCommunications.com, a Microsoft third-party fulfillment partner.  
 
 You can pay with a credit card or a purchase order. Purchase order payment requires one-time setup with the fulfillment provider.
 
