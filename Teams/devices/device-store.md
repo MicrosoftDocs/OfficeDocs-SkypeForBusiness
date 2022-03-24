@@ -1,5 +1,5 @@
 ---
-title: "Teams devices store"
+title: "Teams device store"
 ms.author: czawideh
 author: cazawideh
 manager: serdars
