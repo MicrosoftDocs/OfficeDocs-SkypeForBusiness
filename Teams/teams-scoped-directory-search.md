@@ -40,7 +40,7 @@ Scenarios that benefit from scoped directory searches are similar to address boo
 - Your organization has multiple companies within its tenant that you want to keep separate. 
 - Your school wants to limit chats between faculty and students. 
  
-To learn how to use address book policies, read [Information Barrier policies in Exchange Online](/microsoft-365/compliance/information-barriers).
+To learn how to use address book policies, read [Learn about information barriers](/microsoft-365/compliance/information-barriers).
 
 > [!IMPORTANT]
 > Address book policies provide only a virtual separation of users from directory perspective. It is also important to note that any user data that had already been cached, prior to the enforcement of new or updated address book policies, will remain available to users for up to 30 days.
