@@ -1432,6 +1432,8 @@ items:
           href: rooms/standards-and-room-planner.md
     - name: Devices
       items:
+        - name: Teams device store
+          href: devices/device-store.md
         - name: Deploy
           items:
             - name: Deploy Teams phones and Teams displays using Intune
@@ -1455,8 +1457,6 @@ items:
         
         - name: Manage and monitor
           items:
-            - name: Teams device store
-              href: devices/device-store.md
             - name: Manage your devices in Teams
               href: devices/device-management.md
             - name: Use administrative units to manage devices
