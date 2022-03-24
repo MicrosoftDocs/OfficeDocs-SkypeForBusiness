@@ -27,7 +27,7 @@ You can add apps to your Teams deployment by using the apps provided with Micros
 
 ## Use Microsoft-provided apps
 
-Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approvals, and more. We recommend that you include Teams featured apps - such as Planner - in your initial Teams rollout. Add other apps, bots, & connectors as you drive Teams adoption.
+Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approvals, and more. We recommend that you include Teams featured apps—such as Planner—in your initial Teams rollout. Add other apps, bots, & connectors as you drive Teams adoption.
 
 ## Use third-party apps
 
