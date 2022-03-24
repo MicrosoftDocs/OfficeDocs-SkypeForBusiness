@@ -19,7 +19,7 @@ appliesto:
   - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 ---
-# Apps, bots, & connectors in Microsoft Teams
+# About apps in Microsoft Teams
 
 Apps let you find content from your favorite services and share it in Teams. They help you do things such as pin services at the top of a channel, chat with bots, or share and assign tasks. To learn more, read [Overview of apps in Teams](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 
@@ -27,13 +27,13 @@ You can add apps to your Teams deployment by using the apps provided with Micros
 
 ## Use Microsoft-provided apps
 
-Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approvals, and more. We recommend that you include Teams featured apps - such as Planner - in your initial Teams rollout. Add other apps, bots, & connectors as you drive Teams adoption.
+Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approvals, and more. We recommend that you include Teams featured apps—such as Planner—in your initial Teams rollout. Add other apps, bots, & connectors as you drive Teams adoption.
 
 ## Use third-party apps
 
 In addition to Microsoft-provided apps, you can use Microsoft-certified third-party apps. Microsoft works with  Microsoft 365 developer partners to provide the information needed to expedite decisions about using Teams apps and add-ins. For more information, see [Microsoft Teams App Security and Compliance](/microsoft-365-app-certification/teams/teams-apps).
 
-## Use Teams templates
+## Use open-source sample apps provided by Microsoft
 
 You can also use [Teams templates](/microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json), production-ready apps for Microsoft Teams that are community driven, open-source, and available on GitHub.
 
