@@ -81,6 +81,17 @@ You must apply Location-Based Routing to the following:
 - [Network sites](#apply-location-based-routing-at-the-network-site)
 - [PSTN gateways](#apply-location-based-routing-at-the-pstn-gateway)
 
+Keep the following best practices in mind:
+
+- The PSTN Gateway and Network Site associated with the gateway must both be enabled for Location-Based Routing.
+
+- To allow users who are enabled for Location-Based Routing to place outbound PSTN calls from an unmatched network site, the following must be true:
+
+  - The call needs to egress from a Location-Based Routing enabled PSTN gateway that is enabled for Location-Based Routing
+  - The PSTN gateway must be configured with the flag GatewayLbrEnabledUserOverride set to True.
+
+- Users must be enabled for Location-Based Routing to place calls through a PSTN gateway that is enabled for Location-Based Routing.
+
 ### Apply Location-Based Routing at the user location
 
 Users must be enabled for Location-Based Routing if they are under toll bypass restriction, which controls the conditions in which they can make and receive PSTN calls and the PSTN gateway that can be used. When a user who is enabled for Location-Based Routing is located at a site that's enabled for Location-Based Routing, the user must make calls through a Location-Based Routing enabled gateway connected to the site. 
@@ -146,13 +157,7 @@ For an incoming or outgoing PSTN call and transfer to another Teams user, note t
 When a Teams user is not enabled for Location-Based Routing, all calls to and from that user must route through a PSTN gateway that is not enabled for Location-Based Routing. An inbound call to such a user routed through a PSTN gateway enabled for Location-Based Routing will route to user’s unanswered call forwarding settings (typically voicemail).
 
 
-## Best practices
 
-- The PSTN Gateway and Network Site associated with the gateway must both be Location-Based Routing enabled.
-
-- To allow Location-Based Routing enabled users to place outbound PSTN calls from an unmatched network site, the call needs to egress from a Location-Based Routing enabled PSTN gateway that must be configured with the flag GatewayLbrEnabledUserOverride enabled.
-
-- Users must be enabled for Location-Based Routing to place calls through an Location-Based Routing enabled PSTN gateway.
 
 
 
