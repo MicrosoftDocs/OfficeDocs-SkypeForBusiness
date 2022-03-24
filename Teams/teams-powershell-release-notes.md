@@ -1,9 +1,9 @@
 ---
 title: Microsoft Teams PowerShell Release Notes
 ms.reviewer: gothambi
-author: rajgodwin
-ms.author: gothambi
-manager: naanur
+author: sumitb18
+ms.author: subadjat
+manager: pbafna03
 ms.date: 12/10/2021
 ms.topic: conceptual
 audience: admin
@@ -26,6 +26,8 @@ This page provides the latest Teams PowerShell change log for both General Avail
 
 | Date | Version | Updates |
 |------- | -------------------- | ------------------------------ |
+| March 2022 | [4.0.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.0.1-preview) |<li>Fixes issues with ErrorAction common parameter.</li>
+| March 2022 | [4.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.0.0) |<li>This GA release completes the modernization of all the cmdlets relevant for Teams only organizations. The modern versions will be gradually rolled out, so some organizations will continue to see the older remoting versions.</li><li>Releases [New\|Set\|Remove]-CsUserCallingDelegate and [Get\|Set]-CsUserCallingSettings cmdlets in GA.</li><li>[BREAKING CHANGE] Except New-CsVoiceNormalizationRule; the InMemory switch is no longer supported for other cmdlets.</li><li>Deprecates the following cmdlets: ConvertTo-JsonForPSWS, Set-CsUserServicesPolicy, [Get\|Set]-CsNetworkConfiguration, [Set\|Remove]-CsTenantNetworkConfiguration, New-CsNetworkMediaBypassConfiguration, [Get\|Grant\|New\|Remove\|Set]-CsTeamsVerticalPackagePolicy,[Get\|Remove\|Set]-CsVoiceNormalizationRule.</li>
 | February 2022 | [3.2.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/3.2.0-preview) |<li>This release completes the modernization of all the cmdlets relevant for Teams only organizations. The modern versions will be gradually rolled out, so some organizations will continue to see the older remoting versions.</li><li>[BREAKING CHANGE] Except New-CsVoiceNormalizationRule; the InMemory switch is no longer supported for other cmdlets.</li><li>Connect-MicrosoftTeams performance improvements.</li><li>Fixes for Import-Module with Prefix.</li><li>Fixes handling ports with slash character "/" in [Get\|Set\|Remove]-CsOnlineLisPort.</li><li>Releases Test-CsTeamsUnassignedNumberTreatment cmdlet.</li><li>Deprecates the following cmdlets: ConvertTo-JsonForPSWS, Set-CsUserServicesPolicy, [Get\|Set]-CsNetworkConfiguration, [Set\|Remove]-CsTenantNetworkConfiguration, New-CsNetworkMediaBypassConfiguration, [Get\|Grant\|New\|Remove\|Set]-CsTeamsVerticalPackagePolicy, [Get\|Remove\|Set]-CsVoiceNormalizationRule.</li>
 | February 2022 | [3.1.1](https://www.powershellgallery.com/packages/MicrosoftTeams/3.1.1) |<li>Performance improvements for Import-Module.</li><li>PSListModifier deserialization issue has been fixed.</li>
 | January 2022 | [3.1.0](https://www.powershellgallery.com/packages/MicrosoftTeams/3.1.0) |<li>Renamed Cmdlet from Get-CsTeamsShiftsConnectionUser to Get-CsTeamsShiftsConnectionWfmUser.</li><li>Releases new parameters ResultSize, SkipUserPolicies for Get-CsOnlineUser. </li><li>Releases new parameters ResultSize for Get-CsOnlineDialInConferencingUser.</li><li>Releases new parameters First, NumberAssigned, NumberNotAssigned, PSTNConnectivity, EnterpriseVoiceStatus, CivicAddressId, LocationId for Get-CsOnlineVoiceUser.</li>

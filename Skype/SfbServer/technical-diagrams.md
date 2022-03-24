@@ -5,7 +5,7 @@ ms.author: serdars
 author: SerdarSoysal
 manager: serdars
 audience: ITPro
-ms.topic: hub-page
+ms.topic: landing-page
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
