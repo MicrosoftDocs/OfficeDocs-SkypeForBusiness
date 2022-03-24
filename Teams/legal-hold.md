@@ -12,7 +12,7 @@ ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: "Learn to place a Microsoft Teams user or team on legal hold using the Microsoft 365 compliance center and learn what needs a legal hold based on data requirements."
+description: "Learn to place a Microsoft Teams user or team on legal hold using the Microsoft Purview portal and learn what needs a legal hold based on data requirements."
 appliesto: 
   - Microsoft Teams
 ---
@@ -32,7 +32,7 @@ Within Microsoft Teams, an entire team or select users can be put on legal hold.
 
 To put a user or a team on legal hold in a Core eDiscovery case:
 
-1. Go to the [Microsoft 365 compliance center](https://compliance.microsoft.com). When you create a new case, you're presented with the option to place mailboxes or sites on hold.
+1. Go to the [Microsoft Purview portal](https://compliance.microsoft.com). When you create a new case, you're presented with the option to place mailboxes or sites on hold.
 
 2. Go to **eDiscovery** > **Core** and create a case by clicking **Create a case**. After the case is created, open it.
   
