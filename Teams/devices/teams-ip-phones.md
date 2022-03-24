@@ -97,6 +97,7 @@ The following devices are Certified under the Microsoft Teams panels Certificati
 
 | Device model| Firmware version | Current certification end date | Android OS version |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
+|Neat Bar         | `NFB1.20220211.1158` | August 5, 2023 | 9 |
 |Crestron TSS-770 | `1.003.0082` |December 5, 2022  | 8.1 |
 |Crestron TSS-1070 | `1.003.0082`|December 5, 2022 | 8.1 |
 |Yealink RoomPanel | `147.15.0.1`|August 5, 2023   | 9 |
