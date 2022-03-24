@@ -119,6 +119,8 @@ Each team can have a maximum of 30 private channels and each private channel can
 
 When you create a team from an existing team, any private channels in the existing team won't be copied over.
 
+It is not possible to convert a private channel to another channel type.
+
 Notifications from private channels are not included in missed activity emails.
 
 Channel meetings can't be scheduled.
