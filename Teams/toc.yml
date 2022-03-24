@@ -1504,7 +1504,7 @@ items:
         - name: Plan phones and displays deployment
           href: devices/plan-device-deployment.md            
               
-- name: Govern apps, bots, and connectors in Teams
+- name: Manage apps
   items: 
     - name: Overview
       href: deploy-apps-microsoft-teams-landing-page.md
