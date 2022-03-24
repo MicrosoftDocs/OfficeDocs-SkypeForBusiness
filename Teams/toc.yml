@@ -1561,7 +1561,7 @@ items:
             href: teams-app-setup-policies.md
           - name: Manage custom app policies and settings in Teams
             href: teams-custom-app-policies-and-settings.md
-        - name: Tailor Teams apps based on license
+        - name: Tailor Teams apps for your frontline workers
           href: pin-teams-apps-based-on-license.md
         - name: Review Azure AD permissions and grant admin consent
           href: app-permissions-admin-center.md
