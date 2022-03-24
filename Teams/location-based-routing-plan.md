@@ -20,8 +20,6 @@ appliesto:
 
 # Plan Location-Based Routing for Direct Routing
 
-## Overview of Location-Based Routing
-
 In some countries and regions, it's illegal to bypass the Public Switched Telephone Network (PSTN) provider to decrease long-distance calling costs. 
 
 This article describes what you need to know to use Location-Based Routing to restrict toll bypass for Microsoft Teams users based on their geographic location. This article applies only to Direct Routing. Location-Based Routing does not apply to Calling Plan or Operator Connect.
@@ -31,13 +29,15 @@ When you're ready to enable Location-Based Routing, see:
 - [Deploy network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
 - [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md)
 
+## Overview
+
 Location-Based Routing lets you restrict toll bypass based on policy and the user's geographic location at the time of an inbound or outbound PSTN call. Location-Based Routing shouldn't be used to dynamically route PSTN calls based on the location of the user or unintended consequences may result.
 
 Location-Based Routing uses the network topology you define for network region, site, and subnet. When toll bypass is restricted for a location, an administrator associates each IP subnet and each PSTN gateway for that location to a network site. A user’s location is determined by the IP subnet that the user’s Teams endpoints are connected to at the time of a PSTN call. A user may have multiple Teams clients located at different sites, in which case Location-Based Routing enforces each client’s routing separately depending on the location of its endpoint.
 
 For more information about network settings, see [Network settings for cloud voice features in Teams](cloud-voice-network-settings.md).
 
-## Toll bypass evaluation and outcome
+### Toll bypass evaluation and outcome
 
 When Location-Based Routing is used, a call between a Teams user and the PSTN is evaluated to determine if toll bypass is restricted. Depending on the result of the evaluation, the call will or will not complete. 
 
@@ -71,8 +71,6 @@ This article assumes that a network site can be in one of the following states:
 - Unmatched site - A site configured using tenant network subnets and sites, but not enabled for Location-Based Routing.
 
 - Unknown site - A site not configured using tenant network subnets and sites. Typically, such sites are either internal to the corporate network, but by design not configured, or external to the corporate network. In any case these sites are not enabled for Location-Based Routing. 
-
-
 
 
 ## Apply Location-Based Routing
