@@ -39,7 +39,7 @@ You can also use [Teams templates](/microsoftteams/platform/samples/app-template
 
 ## Create custom apps
 
-You can quickly build custom low-code solutions by using Teams integration with [Microsoft Power Platform](teams-power-platfom-integration.md). You can also create your own custom app to suit your business needs. For more information, see [Build apps for Microsoft Teams](/microsoftteams/platform/overview).  
+You can quickly build custom low-code solutions by using Teams integration with [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions). You can also create your own custom app to suit your business needs. For more information, see [Build apps for Microsoft Teams](/microsoftteams/platform/overview).  
 
 ## Apps deployment decisions
 
@@ -59,7 +59,6 @@ By default, all Microsoft-provided, third-party, and custom apps are available, 
 | Ask yourself | Action |
 |--------------|--------|
 |Will you change the default Teams apps settings? | For more information about policies and settings that you can use to manage apps in your organization, see [Admin settings for apps in Microsoft Teams](admin-settings.md).|
-|||
 
 ### App permissions and other considerations
 
@@ -70,7 +69,6 @@ Apps are consented to by users and managed by the admin or IT pro through polici
 | Ask yourself | Action |
 |--------------|--------|
 |<br>Which apps do I want to allow access to? Which ones do I not want to allow access to?  | <ul><li>See [Microsoft Teams apps permissions and considerations](app-permissions.md) for a list of things you should consider when allowing access to an app, bot, tab, or connector.</li><li>See [Manage your apps in the Microsoft Teams admin center](manage-apps.md) for information about making an app available to users in your organization.</li></ul>|
-|||
 
 ### Bots for private chats and channels
 
@@ -79,7 +77,6 @@ Bots are automated programs that respond to queries or give updates and notifica
 | Ask yourself | Action |
 |--------------|--------|
 |Do I want to allow custom bots in my organization?|For more information about adding bots, see [Add bots for private chats and channels in Microsoft Teams](/microsoftteams/platform/bots/what-are-bots). For information about turning custom bots on or off, see [Admin settings for apps in Microsoft Teams](admin-settings.md).|
-|||
 
 ### Built-in and custom tabs
 
@@ -88,7 +85,6 @@ Owners and team members can add tabs to a channel, private chat, and group chat 
 | Ask yourself | Action |
 |--------------|--------|
 |Do I want to allow custom tabs in my organization?|For more information, see [Use built-in and custom tabs in Teams](built-in-custom-tabs.md).|
-|||
 
 ### Custom connectors
 
@@ -97,7 +93,6 @@ Connectors keep your team current by delivering content and updates from service
 | Ask yourself | Action |
 |--------------|--------|
 |Do I want to allow users to create custom connectors?|For more information, see [Use custom connectors in Teams](office-365-custom-connectors.md).|
-|||
 
 ## Additional deployment decisions
 
@@ -110,7 +105,6 @@ You can use activity reports to see how users in your organization are using Tea
 | Ask yourself | Action |
 |--------------|--------|
 | <br>Who needs to see the activity reports, and do they have the correct permissions to view them? |<ul><li>If you don't want to assign an admin role to a user, you can [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) for information about assigning admin roles in Azure Active Directory.</li></ul> |
-|||
 
 ### App templates
 
@@ -121,4 +115,3 @@ The complete source code is available as well, so you can explore it in detail, 
 | Ask yourself | Action |
 |--------------|--------|
 | Do I want to install any Teams app templates, such as Icebreaker? |To learn more, read [App templates for Teams](/microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=MicrosoftTeams%2ftoc.json).|
-|||
