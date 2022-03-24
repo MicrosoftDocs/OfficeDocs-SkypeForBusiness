@@ -37,6 +37,16 @@ Location-Based Routing uses the network topology you define for network region, 
 
 For more information about network settings, see [Network settings for cloud voice features in Teams](cloud-voice-network-settings.md).
 
+### Matched and unmatched sites
+
+This article assumes that a network site can be in one of the following states:
+
+- Matched site - A site configured using tenant network subnets and sites and enabled for Location-Based Routing.
+
+- Unmatched site - A site configured using tenant network subnets and sites, but not enabled for Location-Based Routing.
+
+- Unknown site - A site not configured using tenant network subnets and sites. Typically, such sites are either internal to the corporate network, but by design not configured, or external to the corporate network. In any case these sites are not enabled for Location-Based Routing. 
+
 ### Toll bypass evaluation and outcome
 
 When Location-Based Routing is used, a call between a Teams user and the PSTN is evaluated to determine if toll bypass is restricted. Depending on the result of the evaluation, the call will or will not complete. 
@@ -60,18 +70,6 @@ If the evaluation determines that a call cannot be completed, the Teams user is 
 - For outbound PSTN calls, the Teams user is notified with the following message in the call window: Call not allowed due to your organization’s settings.
 
 - For inbound PSTN calls, the call is routed based on the called Teams user’s unanswered call forwarding settings, typically to voicemail. If the Teams user doesn’t have configured unanswered call settings, the call will be disconnected.
-
-
-### Matched and unmatched sites
-
-This article assumes that a network site can be in one of the following states:
-
-- Matched site - A site configured using tenant network subnets and sites and enabled for Location-Based Routing.
-
-- Unmatched site - A site configured using tenant network subnets and sites, but not enabled for Location-Based Routing.
-
-- Unknown site - A site not configured using tenant network subnets and sites. Typically, such sites are either internal to the corporate network, but by design not configured, or external to the corporate network. In any case these sites are not enabled for Location-Based Routing. 
-
 
 ## Apply Location-Based Routing
 
