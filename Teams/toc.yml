@@ -1432,6 +1432,8 @@ items:
           href: rooms/standards-and-room-planner.md
     - name: Devices
       items:
+        - name: Teams device store
+          href: devices/device-store.md
         - name: Deploy
           items:
             - name: Deploy Teams phones and Teams displays using Intune
