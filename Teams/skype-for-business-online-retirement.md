@@ -30,7 +30,7 @@ Microsoft will begin decommissioning the Skype for Business Online infrastructur
 
 ## Organizations with on-premises deployments of Skype for Business Server
 
-The retirement of Skype for Business Online doesn't affect support for on-premises deployments of Skype for Business Server and Lync Server 2013. However, hybrid customers with a mix of users homed online and on-premises must upgrade any *online* users. These online users must be assigned Teams Only mode using TeamsUpgradePolicy. Microsoft is providing assisted upgrades to help automate the upgrade of remaining Skype for Business Online users to Teams Only mode. Hybrid organizations need not move their *on-premises* Skype for Business users to the cloud as a result of this retirement. Microsoft fully supports hybrid organizations with a mix of Teams Only users and on-premises Skype for Business users. Customers with hybrid deployments of Skype for Business Server or Lync Server 2013 should review [Retirement of Skype for Business Online](/skypeforbusiness/hybrid/plan-hybrid-connectivity#implications-of-the-upcoming-retirement-of-skype-for-business-online).
+The retirement of Skype for Business Online doesn't affect support for on-premises deployments of Skype for Business Server and Lync Server 2013. However, hybrid customers with a mix of users homed online and on-premises must upgrade any *online* users. Any online users must be assigned TeamsOnly mode using TeamsUpgradePolicy. Microsoft is providing assisted upgrades to help automate the upgrade of remaining Skype for Business Online users to TeamsOnly mode. Hybrid organizations need not move their *on-premises* Skype for Business users to the cloud as a result of this retirement. Microsoft fully supports hybrid organizations with a mix of TeamsOnly users and on-premises Skype for Business users. Customers with hybrid deployments of Skype for Business Server or Lync Server 2013 should review [Retirement of Skype for Business Online](/skypeforbusiness/hybrid/plan-hybrid-connectivity#implications-of-the-upcoming-retirement-of-skype-for-business-online).
 
 ## What to expect post-retirement
 
@@ -38,17 +38,19 @@ It's no longer possible for users homed in the cloud to be assigned a mode other
 
  - When licensing new users that aren't homed in on-premises Skype for Business Server, users are automatically assigned TeamsOnly mode, regardless of the tenant's global policy of TeamsUpgradePolicy.
  - In hybrid organizations, when moving users homed on-premises to the cloud, users are automatically assigned TeamsOnly mode regardless of whether the `MoveToTeams` switch was specified in `Move-CsUser`.
- - Users who are homed in the cloud can't be assigned a mode other than TeamsOnly. Users homed online do *not* use Skype for Business server on-premises.
+ - Users homed in the cloud can't be assigned a mode other than TeamsOnly. Users homed online do *not* use Skype for Business server on-premises.
 
-Customers may have remaining users who are homed in Skype for Business Online and who are not yet assigned TeamsOnly mode. Customers should assign Teams Only mode to these users as soon as possible. Microsoft will provide assisted upgrades for Skype for Business Online users not in TeamsOnly mode. The assisted upgrade experience depends on whether your organization is a pure online organization or an organization with on-premises Skype for Business users. For more information, see [Assisted Upgrades from Skype for Business Online to Microsoft Teams](upgrade-assisted.md).
+Customers may have remaining users who are homed in Skype for Business Online and who are not yet assigned TeamsOnly mode. Customers should assign TeamsOnly mode to these users as soon as possible. Microsoft will provide assisted upgrades for Skype for Business Online users not in TeamsOnly mode. The assisted upgrade experience depends on whether your organization is a pure online organization or an organization with on-premises Skype for Business users. For more information, see [Assisted Upgrades from Skype for Business Online to Microsoft Teams](upgrade-assisted.md).
 
 After the assisted upgrade is complete, all *online* users will be in TeamsOnly mode. Users in TeamsOnly mode receive incoming chats and calls in Teams, and also schedule meetings in Teams. They can't initiate chats or calls or schedule meetings in Skype for Business Online.  However, TeamsOnly users can join Skype for Business meetings they already have or receive in the future. Finally, *any useres homed on-premises remain on-premises and won't be made TeamsOnly*.
 
 ## Actions to take before June 30, 2022
-Now that Skype for Business Online is retired, Microsoft will begin decommissioning the supporting infrastructure no sooner than June 30, 2022.  For any organization with TeamsOnly users who were upgraded from any version of Skype for Business, you must take action by June 30, 2022. The actions you take depend on the following scenarios:
+Now that Skype for Business Online is retired, Microsoft will begin decommissioning the supporting infrastructure no sooner than June 30, 2022.  For any organization with TeamsOnly users that were upgraded from any version of Skype for Business, you need to take action if either of these situations applies:
 
-- Whether these users ever had contacts in Skype for Business.
-- Whether users still have Skype for Business Online meetings that they organized before they were upgraded to TeamsOnly.
+- If you have any TeamsOnly users users that previoulsy had contacts in Skype for Business *and* who have not yet logged in to Teams since being upgraded.
+- If you have any TeamsOnly users that still have Skype for Business Online meetings that they organized before they were upgraded to TeamsOnly.
+
+If either of these situations apply to your organization, you must take action by June 30, 2022 as described below:
 
  - **Skype for Business Online Contacts:**  After a user has been upgraded to TeamsOnly mode, the first time that user logs on to Teams, any existing contacts in that user’s Skype for Business Online account will be migrated to Teams. After Microsoft removes the Skype for Business Online infrastructure, you can no longer migrate contacts *for users who haven't yet logged on to Teams.* To migrate contacts from Skype for Business to Teams, Microsoft recommends that all users who previously had Skype for Business log on to Teams at least once before June 30, 2022.
 
