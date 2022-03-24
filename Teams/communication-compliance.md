@@ -28,7 +28,7 @@ For Microsoft Teams, communication compliance helps identify the [following type
 - Adult, racy, and gory images
 - Sharing of sensitive information
 
-For more information on communication compliance and how to configure policies for your organization, see [Communication compliance in Microsoft 365](/microsoft-365/compliance/communication-compliance).
+For more information on communication compliance and how to configure policies for your organization, see [Learn about communication compliance](/microsoft-365/compliance/communication-compliance).
 
 ## How to use communication compliance in Microsoft Teams
 
