@@ -37,7 +37,7 @@ The following items are Intelligent Speaker requirements:
 - The meeting room has an upload link of minimum 7 Mbps.
 
 > [!NOTE]
-> Intelligent Speaker is available in all countries and regions. See [Supported languages](#supported-languages) for a list of the languages currently supported for biometric enrollment and in-meeting transcription.
+> Intelligent Speaker is available in all countries and regions. See [Supported locales](#supported-locales) for a list of the locales currently supported for biometric enrollment and in-meeting transcription.
 
 ## Set up an Intelligent Speaker
 
@@ -112,13 +112,13 @@ No only in meetings organized by a user in your organization.
 
 Your IT admin can export your audio data at any time.
 
-## Supported languages
+## Supported locales
 
-The following enrollment and in-meeting transcription languages are supported in all countries and regions.
+The following enrollment and in-meeting transcription locales are supported in all countries and regions.
 
-### Enrollment languages
+### Enrollment locales
 
-End-users can enroll their voices for recognition in the following languages:
+End-users can enroll their voices for recognition in the following locales:
 
 |**Language**|**Country/Region**|**Culture ID**|
 |:-----|:-----|:-----|
@@ -130,9 +130,9 @@ End-users can enroll their voices for recognition in the following languages:
 |English  <br/> |United States  <br/> |en-US  <br/> |
 
 
-### In-meeting transcription languages
+### In-meeting transcription locales
 
-Once an end-user enrolls, their voice can be recognized during meetings and identified in the transcription when the meeting is set to one of the following languages:
+Once an end-user enrolls, their voice can be recognized during meetings and identified in the transcription when the meeting is set to one of the following locales:
 
 |**Language**|**Country/Region**|**Culture ID**|
 |:-----|:-----|:-----|
