@@ -22,9 +22,11 @@ appliesto:
 
 ## Overview of Location-Based Routing
 
-In some countries and regions, it's illegal to bypass the Public Switched Telephone Network (PSTN) provider to decrease long-distance calling costs. This article describes how to use Location-Based Routing to restrict toll bypass for Microsoft Teams users based on their geographic location. This article applies only to Direct Routing. Location-Based Routing does not apply to Calling Plan or Operator Connect.
+In some countries and regions, it's illegal to bypass the Public Switched Telephone Network (PSTN) provider to decrease long-distance calling costs. 
 
-When you're ready to apply and enable Location-Based Routing, see:
+This article describes what you need to know to use Location-Based Routing to restrict toll bypass for Microsoft Teams users based on their geographic location. This article applies only to Direct Routing. Location-Based Routing does not apply to Calling Plan or Operator Connect.
+
+When you're ready to enable Location-Based Routing, see:
 
 - [Deploy network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
 - [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md)
@@ -62,61 +64,14 @@ If the evaluation determines that a call cannot be completed, the Teams user is 
 
 ### Matched and unmatched sites
 
-The network site can be in one of the following states:
+This article assumes that a network site can be in one of the following states:
 
-- Matched site - A site configured using tenant network subnets & sites and enabled for Location-Based Routing.
+- Matched site - A site configured using tenant network subnets and sites and enabled for Location-Based Routing.
 
-- Unmatched site - A site configured using tenant network subnets & sites, but not enabled for Location-Based Routing.
+- Unmatched site - A site configured using tenant network subnets and sites, but not enabled for Location-Based Routing.
 
-- Unknown site - A site not configured using tenant network subnets & sites. Typically, such sites are either internal to the corporate network, but by design not configured, or external to the corporate network. In any case these sites are not enabled for Location-Based Routing. 
+- Unknown site - A site not configured using tenant network subnets and sites. Typically, such sites are either internal to the corporate network, but by design not configured, or external to the corporate network. In any case these sites are not enabled for Location-Based Routing. 
 
-
-## Restriction rules
-
-Restriction rules depend on whether a user is enabled for Location-Based Routing or not.
-
-### User is enabled for Location-Based Routing
-
-When a Teams user is enabled for Location-Based Routing, the following applies:
-
-- **To make an outbound PSTN call**, one of the following must be true:
-
-  - The user's endpoint is located at a matched site and calls egress through a PSTN gateway that is enabled for Location-Based Routing in the same site.  
-
-  - The user's endpoint is located at an unknown site and calls egress through a PSTN gateway that is enabled for Location-Based Routing. The PSTN gateway is configured with the GatewayLbrEnabledUserOverride parameter set to True.
-
-  - The user's endpoint is located at an unmatched site and calls egress through a PSTN gateway that's not enabled for Location-Based Routing.
-
-- **To receive an inbound PSTN call**, one of the following must be true: 
-
-   -The user's answering endpoint and the PSTN gateway the call ingress through must be located at the same matched site. The PSTN gateway must be enabled for Location-Based Routing.
-
-   - The user's answering endpoint and the PSTN gateway the call ingress through must be located at the same unmatched site. The PSTN gateway must not be enabled for Location-Based Routing.  (This scenario involves re-routing the incoming PSTN call to ingress though another PSTN gateway than the one normally used for incoming calls to the user’s phone number.)
-
-   - In any other scenario, such as if the user is roaming, the call isn’t allowed and is routed to the user’s unanswered call forwarding settings (typically voicemail).  
-
-For a 1:1 Teams VoIP call and transfer to PSTN, note the following:
-
-- The routing of the call, that is, which PSTN gateway to egress the call at, is based on the routing settings of the user transferring the call.
-
-- Whether the transfer will be permitted is based on the Location-Based-Routing restriction state of the user receiving the transferred call. The transfer will be permitted if the user receiving the transferred call is able to make that PSTN call at their current location using the same PSTN gateway.
-
-For an incoming or outgoing PSTN call and transfer to another Teams user, note the following:
-
-- Whether the transfer will be permitted is based on the Location-Based-Routing restriction state of the user who is receiving the transferred call. The transfer will be permitted if the person receiving the transferred call is able to make or receive that PSTN call directly at their current location using the PSTN gateway used by the ongoing PSTN call.
-
-### User is not enabled for Location-Based ROuting
-
-When a Teams user is not enabled for Location-Based Routing, all calls to and from that user must route through a PSTN gateway that is not enabled for Location-Based Routing. An inbound call to such a user routed through a PSTN gateway enabled for Location-Based Routing will route to user’s unanswered call forwarding settings (typically voicemail).
-
-
-## Best practices
-
-- The PSTN Gateway and Network Site associated with the gateway must both be Location-Based Routing enabled.
-
-- To allow Location-Based Routing enabled users to place outbound PSTN calls from an unmatched network site, the call needs to egress from a Location-Based Routing enabled PSTN gateway that must be configured with the flag GatewayLbrEnabledUserOverride enabled.
-
-- Users must be enabled for Location-Based Routing to place calls through an Location-Based Routing enabled PSTN gateway.
 
 
 
@@ -124,9 +79,9 @@ When a Teams user is not enabled for Location-Based Routing, all calls to and fr
 
 You must apply Location-Based Routing to the following:
 
-- [Users}(#apply-location-based-routing-at-the-user-location)
-- Network sites(#apply-location-based-routing-at-the-network-site)
-- PSTN gateways(#apply-location-based-routing-at-the-pstn-gateway)
+- [Users](#apply-location-based-routing-at-the-user-location)
+- [Network sites](#apply-location-based-routing-at-the-network-site)
+- [PSTN gateways](#apply-location-based-routing-at-the-pstn-gateway)
 
 ### Apply Location-Based Routing at the user location
 
@@ -153,6 +108,55 @@ Network sites must be enabled for Location-Based Routing to help determine which
 Gateways are associated to sites to determine where a user who is enabled for Location-Based Routing can be located when they make or receive a PSTN call. Gateways must be enabled for Location-Based Routing to ensure that it's under toll bypass restrictions and can’t be used by users who aren't enabled for Location-Based Routing. 
 
 A gateway can be defined with GatewayLbrEnabledUserOverride set to True. This allows the gateway to be used for outbound PSTN calls by Location-Based Routing enabled users calling from an unknown network site.
+
+## Restriction rules
+
+Restriction rules depend on whether a user is enabled for Location-Based Routing or not.
+
+### User is enabled for Location-Based Routing
+
+When a Teams user is enabled for Location-Based Routing, the following applies:
+
+- **To make an outbound PSTN call**, one of the following must be true:
+
+  - The user's endpoint is located at a matched site and calls egress through a PSTN gateway that is enabled for Location-Based Routing in the same site.  
+
+  - The user's endpoint is located at an unknown site and calls egress through a PSTN gateway that is enabled for Location-Based Routing. The PSTN gateway is configured with the GatewayLbrEnabledUserOverride parameter set to True.
+
+  - The user's endpoint is located at an unmatched site and calls egress through a PSTN gateway that's not enabled for Location-Based Routing.
+
+- **To receive an inbound PSTN call**, one of the following must be true: 
+
+   - The user's answering endpoint and the PSTN gateway the call ingress through must be located at the same matched site. The PSTN gateway must be enabled for Location-Based Routing.
+
+   - The user's answering endpoint and the PSTN gateway the call ingress through must be located at the same unmatched site. The PSTN gateway must not be enabled for Location-Based Routing.  (This scenario involves re-routing the incoming PSTN call to ingress though another PSTN gateway than the one normally used for incoming calls to the user’s phone number.)
+
+   - In any other scenario, such as if the user is roaming, the call isn’t allowed and is routed to the user’s unanswered call forwarding settings (typically voicemail).  
+
+For a 1:1 Teams VoIP call and transfer to PSTN, note the following:
+
+- The routing of the call--that is, which PSTN gateway to egress the call at--is based on the routing settings of the user transferring the call.
+
+- Whether the transfer will be permitted is based on the Location-Based-Routing restriction state of the user receiving the transferred call. The transfer will be permitted if the user receiving the transferred call is able to make that PSTN call at their current location using the same PSTN gateway.
+
+For an incoming or outgoing PSTN call and transfer to another Teams user, note the following:
+
+- Whether the transfer will be permitted is based on the Location-Based-Routing restriction state of the user who is receiving the transferred call. The transfer will be permitted if the person receiving the transferred call is able to make or receive that PSTN call directly at their current location using the PSTN gateway used by the ongoing PSTN call.
+
+### User is not enabled for Location-Based Routing
+
+When a Teams user is not enabled for Location-Based Routing, all calls to and from that user must route through a PSTN gateway that is not enabled for Location-Based Routing. An inbound call to such a user routed through a PSTN gateway enabled for Location-Based Routing will route to user’s unanswered call forwarding settings (typically voicemail).
+
+
+## Best practices
+
+- The PSTN Gateway and Network Site associated with the gateway must both be Location-Based Routing enabled.
+
+- To allow Location-Based Routing enabled users to place outbound PSTN calls from an unmatched network site, the call needs to egress from a Location-Based Routing enabled PSTN gateway that must be configured with the flag GatewayLbrEnabledUserOverride enabled.
+
+- Users must be enabled for Location-Based Routing to place calls through an Location-Based Routing enabled PSTN gateway.
+
+
 
 ## Scenarios for Location-Based Routing
 
