@@ -79,11 +79,11 @@ In the booking calendar, go to **More options** (...) > **Settings**, select **A
 
 The information that you add are included in the email confirmation that's sent to attendees every time this type of appointment is booked. You can set email reminders and other options such as whether attendees can [join from a mobile browser](mobile-browser-join.md) without having to download Teams.
 
-If you're a booking admin, you can link a form for attendees to fill out each time this appointment type is booked. You can link up to four forms per appointment type. For example, you may require attendees to complete a registration form before they join a visit. To link a form, choose **Link a form**. Enter the URL of the form, and then choose **Link**. (If this is the first time that you're linking a form, you'll be prompted to create a Microsoft 365 group to store forms. Choose **Create group** to create the group. You only have to do this one time for the booking calendar.)
+If you're a Bookings admin, you can link a form for attendees to fill out each time this appointment type is booked. For example, you may require attendees to complete a registration form before they join a visit. To link a form, choose **Link a form**. Enter the URL of the form, and then choose **Link**. (If this is the first time that you're linking a form, you'll be prompted to create a Microsoft 365 group to store forms. Choose **Create group** to create the group. You only have to do this one time for the booking calendar.)
 
 When working with forms, keep in mind that:
 
-- To make changes to a form that's already linked to an appointment type, select the form in the appointment type or from within the Microsoft 365 group at [https://forms.office.com](https://forms.office.com).
+- To make changes to a form that's already linked to an appointment type, select the form in the appointment type or from within the Microsoft 365! group at [https://forms.office.com](https://forms.office.com).
 - Uploading files to forms that contain a [file upload question](https://support.microsoft.com/office/add-questions-that-allow-for-file-uploads-6a75a658-c02b-450e-b119-d068f3cba4cf) is supported when all attendees are from the same organization.
 
 When a scheduler uses the appointment type to schedule a visit, they can then choose to include the form, remove it, or add any other forms that you linked to the appointment type. Attendees must fill out the form before they join the visit.
@@ -96,7 +96,7 @@ In the booking calendar, select **New booking**. Select an appointment type, and
 
 This includes attendee contact information, the staff member who will be providing the service, internal notes that only staff can see, email reminders, and whether the attendee can join from a mobile browser. If a form is linked to the appointment type, you can choose to include it, remove it, or add any other linked forms.
 
-The email confirmation sent to the attendee includes the meeting link and an attachment so that they can add the virtual appointment to their calendar. Staff also receive an email confirmation and meeting invite. If a form was included in the appointment, booking admins and schedulers can see whether the form was completed by the attendee before the visit and can view the attendee's response.
+The email confirmation sent to the attendee includes the meeting link and an attachment so that they can add the virtual appointment to their calendar. Staff also receive an email confirmation and meeting invite. If a form was included in the appointment, Bookings admins and schedulers can see whether the form was completed by the attendee before the visit and can view the attendee's response.
 
 To learn more, see [Schedule a booking in the Teams Bookings app](https://support.microsoft.com/office/schedule-a-booking-in-the-teams-bookings-app-e275049d-0d0f-4161-8526-461a9f29439f).
 
