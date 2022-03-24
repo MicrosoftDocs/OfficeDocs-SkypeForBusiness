@@ -31,12 +31,13 @@ An Intelligent Speaker uses voice profile information to recognize who said what
 
 An Intelligent Speaker includes a special seven-microphone array. The system uses voice profile information to identify voices of up to 10 people in meeting rooms.
 
-Intelligent Speaker is available in all regions. See [Supported languages](#supported-languages) for a list of the languages currently supported for biometric enrollment and in-meeting transcription.
-
 The following items are Intelligent Speaker requirements:
 
 - The meeting room should have a maximum of 10 people present in person.
 - The meeting room has an upload link of minimum 7 Mbps.
+
+> [!NOTE]
+> Intelligent Speaker is available in all countries and regions. See [Supported languages](#supported-languages) for a list of the languages currently supported for biometric enrollment and in-meeting transcription.
 
 ## Set up an Intelligent Speaker
 
@@ -112,6 +113,8 @@ No only in meetings organized by a user in your organization.
 Your IT admin can export your audio data at any time.
 
 ## Supported languages
+
+The following enrollment and in-meeting transcription languages are supported in all countries and regions.
 
 ### Enrollment languages
 
