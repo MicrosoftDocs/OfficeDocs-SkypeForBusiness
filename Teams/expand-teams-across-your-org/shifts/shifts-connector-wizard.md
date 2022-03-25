@@ -95,15 +95,13 @@ On the Sync settings page, you choose the information to sync from Blue Yonder t
     2. Under **Schedule and shifts**, choose the Blue Yonder data that Shifts users can see or change, and then set the sync frequency.
 
     > [!IMPORTANT]
-    > If you chose any of the following options to disable swap requests, time off requests, or open shifts, there's another step you need to do after you run the wizard. 
+    > If you chose any of the following options to disable swap requests, time off requests, or open shifts, there's another step you need to do after you run the wizard to turn off these capabilities. Make sure you follow the steps in the [Disable swap requests, time off requests, and open shifts](#disable-swap-requests-time-off-requests-and-open-shifts) section later in this article.
     >
-    > - Swap requests: Feature is disabled for all users.
-    > - Time off requests: Feature is disabled for all users.
-    > - Open shifts: Shifts users will not see Blue Yonder data
+    > - Swap requests: **Feature is disabled for all users**
+    > - Time off requests: **Feature is disabled for all users**
+    > - Open shifts: **Shifts users will not see Blue Yonder data**
  
 1. When you're done choosing your settings, select **Create connection**.
-
-### 
 
 ### Map Blue Yonder sites to teams
 <a name="sites"> </a>
@@ -153,6 +151,21 @@ You’re on your way but you’re not done yet! Be sure to check your email. You
 
 > [!NOTE]
 > If an issue or error occurs in a connection after it's set up, you'll get notified in email. Follow the instructions in the email to troubleshoot the issue.
+
+## Disable swap requests, time off requests, and open shifts
+
+> [!NOTE]
+> Follow these steps only if you chose any of the following options to disable swap requests, time off requests, or open shifts in the wizard.
+>
+> - Swap requests: **Feature is disabled for all users**
+> - Time off requests: **Feature is disabled for all users**
+> - Open shifts: **Shifts users will not see Blue Yonder data**
+
+To disable swap requests, time off requests, and open shifts, use Graph API [schedule resource type](https://docs.microsoft.com/graph/api/resources/schedule?view=graph-rest-1.0) to set the following parameters to false for each team that you mapped to a Blue Yonder site:
+
+- ```swapShiftsRequestsEnabled```
+- ```timeOffRequestsEnabled```
+- ```openShiftsEnabled```
 
 ## If you need to make changes to a connection
 <a name="update_connection"> </a>
