@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "Teams/teams-power-platfom-integration.md",
+      "redirect_url": "/microsoftteams/platform/samples/teams-low-code-solutions",
+      "redirect_document_id": false
+    }, 
+    {
       "source_path": "Teams/expand-teams-across-your-org/healthcare/dstu2-interface.md",
       "redirect_url": "/microsoftteams/manage-lists-app",
       "redirect_document_id": false
