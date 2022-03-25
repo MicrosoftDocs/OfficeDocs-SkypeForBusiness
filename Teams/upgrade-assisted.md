@@ -24,20 +24,20 @@ appliesto:
 
 Microsoft retired Skype for Business Online on July 31, 2021.  Microsoft is providing an assisted upgrade process to help organizations move remaining Skype for Business Online users to Teams Only.  Microsoft assisted upgrades reduce the number of technical tasks and simplify the transition to a world without Skype for Business Online whether your organization is:
  - A pure online organization that needs to upgrade from *Skype for Business Online* to become pure Teams Only, or
- - A hybrid organization with users in both *Skype for Business Online* **and** an on-premises *Skype for Business Server* environment, which needs to upgrade only h the users in Skype for Business *Online* to Teams Only.
+ - A hybrid organization with users in both *Skype for Business Online* **and** an on-premises *Skype for Business Server* environment, which must upgrade only its Skype for Business *Online* user to Teams Only.
 
 We recommend that you review our [upgrade guidance](https://aka.ms/SkypeToTeams) before your upgrade. Our upgrade guidance includes recommended activities and helpful resources for completing an upgrade from Skype for Business Online to Teams. This guidance applies to any organization planning an upgrade to Teams, whether they manage all aspects of the upgrade or use the assisted process.
 
 ## The assisted upgrade experience
 Skype for Business Online customers that are scheduled for assisted upgrades to Teams will receive various forms of notifications: *Plan for Change* posts in the Microsoft 365 Message Center, upgrade dashboard notifications in Teams admin center, and in-app flags to end users. Upgrade notification in the Message Center and Teams admin center include the scheduled date of the assisted upgrade as well as a link to upgrade resources and training to help drive adoption and usage of Teams.
 
-The assisted upgrade experience differ slightly depending on whether your organization has any users homed in an on-premises Skype for Business Server environment:
-- **Pure online organizations** For organizations *without* any on-premises Skype for Busineess Server users, the assisted upgrade process applies the `TeamsUpgradeOverridePolicy` policy to your organization. When this policy is applied, all users of Skype for Business Online will be placed in Teams Only mode.
-- **Hybrid Organizations with on-premises Skype for Business users** This includes organizations with any users homed in Skype for Business Server, regardless of whether Hybrid has been configured. These organizations may have users that fall into one of the following categories:
+The assisted upgrade experience differs slightly depending on whether your organization has any users homed in an on-premises Skype for Business Server environment:
+- **Pure online organizations:** For organizations *without* any on-premises Skype for Busineess Server users, the assisted upgrade process applies the `TeamsUpgradeOverridePolicy` policy to your organization. When this policy is applied, all users of Skype for Business Online will be placed in TeamsOnly mode.
+- **Hybrid Organizations with on-premises Skype for Business users:** This includes organizations with any users homed in Skype for Business Server, regardless of whether Hybrid has been configured. These organizations may have users that fall into one of the following categories:
 
   - On-premises users homed on Skype for Business Server (that may or may not use Teams, but are not Teams Only users)
-  - Teams Only users that homed in Skype for Business Online
-  - Non-Teams Only users that are homed in Skype for Business Online
+  - TeamsOnly users that homed in Skype for Business Online
+  - Non-TeamsOnly users that are homed in Skype for Business Online
 
 The assisted upgrade process will only impact the last category of users: Non-Teams Only users homed in Skype for Business Online will be upgraded to Teams Only mode. On-premises Skype for Business users and existing TeamsOnly users won't be impacted by the assisted upgrade process.
 
