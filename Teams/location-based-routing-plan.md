@@ -152,6 +152,12 @@ For an incoming or outgoing PSTN call and transfer to another Teams user, note t
 - Whether the transfer will be permitted is based on the Location-Based-Routing restriction state of the user who is receiving the transferred call. The transfer will be permitted if the person receiving the transferred call is able to make or receive that PSTN call directly at their current location using the PSTN gateway used by the ongoing PSTN call.
 
 
+### User is not enabled for Location-Based Routing
+
+When a Teams user is not enabled for Location-Based Routing, all calls to and from that user must route through a PSTN gateway that is not enabled for Location-Based Routing. An inbound call to such a user routed through a PSTN gateway enabled for Location-Based Routing will route to user’s unanswered call forwarding settings (typically voicemail).
+
+### Decision flows for inbound and outbound calls
+
 The following diagrams show the decision flows for inbound and outbound calls.
 
 **Inbound calls**
@@ -161,14 +167,6 @@ The following diagrams show the decision flows for inbound and outbound calls.
 **Outbound calls**
 
 ![Diagram showing diagram for outbound calls](media/lbr-routing-outbound.png "Diagram showing scenarios for Location-Based Routing")
-
-### User is not enabled for Location-Based Routing
-
-When a Teams user is not enabled for Location-Based Routing, all calls to and from that user must route through a PSTN gateway that is not enabled for Location-Based Routing. An inbound call to such a user routed through a PSTN gateway enabled for Location-Based Routing will route to user’s unanswered call forwarding settings (typically voicemail).
-
-
-
-
 
 
 ## Scenarios for Location-Based Routing
