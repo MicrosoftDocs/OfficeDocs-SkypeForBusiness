@@ -154,7 +154,7 @@ You’re on your way but you’re not done yet! Be sure to check your email. You
 
 ## Disable swap requests, time off requests, and open shifts
 
-> [!NOTE]
+> [!IMPORTANT]
 > Follow these steps only if you chose any of the following options to disable swap requests, time off requests, or open shifts in the wizard. Completing this step disables the capability. 
 >
 > - Swap requests: **Feature is disabled for all users**
