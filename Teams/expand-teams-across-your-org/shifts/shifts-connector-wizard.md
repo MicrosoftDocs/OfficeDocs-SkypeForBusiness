@@ -68,7 +68,7 @@ To learn more, see [Remove-CsTeamsShiftsScheduleRecord](/powershell/module/teams
 ### Get started
 
 1. In the left navigation of the [Microsoft 365 admin center](https://admin.microsoft.com/), choose **Setup**, and then go to the **Apps and email** section.
-1. Under **Connect your workforce management system**, select **View.** Here, you can learn more about Shifts connectors and the frontline worker and manager experience when you connect Shifts to your WFM system.
+1. Select **Connect your workforce management system**. Here, you can learn more about Shifts connectors and the frontline worker and manager experience when you connect Shifts to your WFM system.
     :::image type="content" source="../../media/shifts-connector-wizard-get-started.png" alt-text="Screenshot of the details page for the Shifts connector wizard in the Microsoft 365 admin center." lightbox="../../media/shifts-connector-wizard-get-started.png":::
 1. When you're ready, select **Get started**.
 1. Select **Next** to create a Blue Yonder connection.
@@ -90,9 +90,20 @@ On the Sync settings page, you choose the information to sync from Blue Yonder t
     :::image type="content" source="../../media/shifts-connector-wizard-sync-settings.png" alt-text="Screenshot of the Sync settings page of the wizard, showing sync settings." lightbox="../../media/shifts-connector-wizard-sync-settings.png":::
 <a name="email"> </a>
 1. Under **Email notification recipients**, choose who receives email notifications about this connection. You can add individual users and groups. The email notifications contain information about connection setup status and any issues or errors that may occur after the connection is set up.
-1. Under **Requests**, choose the types of requests that Shifts users can see and create.
-1. Under **Schedule and shifts**, choose the Blue Yonder data that Shifts users can see or change, and then set the sync frequency.
+1. Choose your sync settings:
+    1. Under **Requests**, choose the types of requests that Shifts users can see and create.
+    2. Under **Schedule and shifts**, choose the Blue Yonder data that Shifts users can see or change, and then set the sync frequency.
+
+    > [!IMPORTANT]
+    > If you chose any of the following options to disable swap requests, time off requests, or open shifts, there's another step you need to do after you run the wizard. 
+    >
+    > - Swap requests: Feature is disabled for all users.
+    > - Time off requests: Feature is disabled for all users.
+    > - Open shifts: Shifts users will not see Blue Yonder data
+ 
 1. When you're done choosing your settings, select **Create connection**.
+
+### 
 
 ### Map Blue Yonder sites to teams
 <a name="sites"> </a>
