@@ -104,7 +104,8 @@ Here are the messaging policy settings that you can configure.
 - **Remove users from group chats** Turn this setting on to let a user remove other users from a group chat. This feature lets you continue a chat with a smaller group of people without losing the chat history.
 - **Text predictions** Turn on this setting to let a user get text predictions for chat messages.
 - **Suggested replies**  Turn this setting on to enable suggested replies for chat messages.
-- **Chat permission role** Use this setting to define the supervised chat role of the user.  Learn more about [supervised chat](supervise-chats-edu.md).
+- **Chat permission role** Use this setting to define the supervised chat role of the user. Learn more about [supervised chat](supervise-chats-edu.md).
+- **Users with full chat permissions can delete any message** Use this setting to let users with full permissions delete any group or meeting chat message.
 
 > [!NOTE]
 > Some of these settings, such using Giphys, can also be configured at the team level by team owners and at the private or shared channel level by channel owners.
