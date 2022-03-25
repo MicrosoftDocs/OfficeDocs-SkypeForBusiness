@@ -91,3 +91,8 @@ Centralize collaboration for your crisis team across business units and help cre
 > | ------------------ |--|----------------------------------------------------------|
 > | Crisis communication |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Channels: <ul><li>General<li>Announcements</li><li>World news</li><li>Internal comms</li><li>External comms</li><li>Approvals request</li><li>Customer escalations</li><li>Executive update</li><li>Planning</li><li>Logistics</li></ul>Apps: <ul><li>Website</li><li>Tasks</li><li>Issue Reporter</li><li>Approvals</li><li>Bulletins</li><li>OneNote</li><li>Power Automate</li><li>SharePoint</li></ul>|
 > ||||
+
+## Related articles
+
+- [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md)
+- [Create a team from a template](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)

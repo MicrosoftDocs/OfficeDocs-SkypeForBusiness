@@ -1,8 +1,8 @@
 ---
 title: Manage app permission policies in Microsoft Teams
-author: cichur
-ms.author: v-cichur
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.reviewer: rarang
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -47,7 +47,7 @@ Say, for example, you want to block all third-party apps and allow specific apps
 If you want to control the apps that are available for different groups of users in your organization, create and assign one or more custom app permission policies. You can create and assign separate custom policies based on whether apps are published by Microsoft, third-parties, or your organization. It's important to know that after you create a custom policy, you can't change it if third-party apps are disabled in org-wide app settings.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
-2. Click **Add**. <br>
+2. Click **Add**.
     ![Screenshot of new app permission policy.](media/app-permission-policies-new-policy.png)
 3. Enter a name and description for the policy.
 4. Under **Microsoft apps**, **Third-party apps**, and **Custom apps**, select one of the following:
@@ -61,7 +61,7 @@ If you want to control the apps that are available for different groups of users
 
     1. Select **Allow apps**.
     1. Search for the apps that you want to allow, and then click **Add**. The search results are filtered to the app publisher (**Microsoft apps**, **Third-party apps**, or **Custom apps**).
-    1. When you've chosen the list of apps, click **Allow**. 
+    1. When you've chosen the list of apps, click **Allow**.
 
 6. Similarly, if you selected **Block specific apps and allow all others**, search for and add the apps that you want to block, and then click **Block**.
 7. Click **Save**.
@@ -92,7 +92,7 @@ Use org-wide app settings to control whether users can install third-party apps.
 1. On the **Permission policies** page, select **Org-wide app settings**. You can then configure the settings you want in the panel.
 
     ![Screenshot of org-wide app settings.](media/app-permission-policies-gcc-org-wide.png)
-    
+
 2. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps:
 
     - **Allow third-party apps**: This controls whether users can use third-party apps. If you turn off this setting, your users won't be able to install or use any third-party apps. In a Microsoft 365 Government - GCCH and DoD deployment of Teams, this setting is off by default.
@@ -108,9 +108,11 @@ As mentioned earlier, to allow third-party apps, you can either edit and use the
 ### Working with app permission policies
 
 #### What app interactions do permission policies affect?
+
 Permission policies govern app usage by controlling installation, discovery, and interaction for end users. Admins can still manage apps in the Microsoft Teams admin center regardless of the permission policies assigned to them.
 
 #### Can I control line of business (LOB) apps?
+
 Yes, you can use app permission policies to control the rollout and distribution of custom (LOB) apps. You can create a custom policy or edit the global policy to allow or block custom apps based on the needs of your organization.
 
 #### How do app permission policies relate to pinned apps and app setup policies?
@@ -150,4 +152,4 @@ For app permission policies assigned to specific users, if an app with bot or co
 
 [Admin settings for apps in Teams](admin-settings.md)
 
-[Assign policies to your users in Teams](assign-policies.md)
+[Assign policies to your users in Teams](policy-assignment-overview.md)

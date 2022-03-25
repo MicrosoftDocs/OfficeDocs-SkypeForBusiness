@@ -176,6 +176,6 @@ Content-Type: application/json
 
 ## Related topics
 
-- [Get started with Teams templates in the admin console](get-started-with-teams-templates-in-the-admin-console.md)
-- [Get started with Teams templates](get-started-with-teams-templates.md)
+- [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md)
+- [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md)
 - [Create team](/graph/api/team-post?view=graph-rest-beta) (in preview)

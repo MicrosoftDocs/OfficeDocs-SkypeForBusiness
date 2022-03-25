@@ -54,7 +54,10 @@ This article describes some of the limits, specifications, and other requirement
 
 <sup>5</sup> 28 KB is an approximate limit because it includes the message itself (text, image links, etc.), @-mentions, number of connectors, and reactions.
 
-<sup>6</sup> Teams in GCC can accommodate 25,000 members but teams in GCCH/DoD can only accommodate 2,500 members. Further note that teams/channel mentions are blocked in teams with over 10,000 members.
+<sup>6</sup> Shared channels members from outside the team count toward this limit. Teams in GCC can accommodate 25,000 members but teams in GCCH/DoD can only accommodate 2,500 members. Further note that teams/channel mentions are blocked in teams with over 10,000 members.
+
+> [!NOTE]
+> For limits for the shared channels preview, see [Limits for shared channels (preview)](/MicrosoftTeams/shared-channels#limits-for-shared-channels-preview).
 
 ## Messaging
 
@@ -62,7 +65,6 @@ This article describes some of the limits, specifications, and other requirement
 
 Users who participate in conversations that are part of the chat list in Teams must have an Exchange Online (cloud-based) mailbox for an admin to search chat conversations. That's because conversations that are part of the chat list are stored in the cloud-based mailboxes of the chat participants. If a chat participant doesn't have an Exchange Online mailbox, the admin won't be able to search or place a hold on chat conversations. For example, in an Exchange hybrid deployment, users with on-premises mailboxes might be able to participate in conversations that are part of the chat list in Teams. However, in this case, content from these conversations isn't searchable and can't be placed on hold because the users don't have cloud-based mailboxes. (For more, see [How Exchange and Microsoft Teams interact](exchange-teams-interact.md).)
 
-Teams chat works on a Microsoft Exchange backend, so Exchange messaging limits apply to the chat function within Teams.
 
 |Feature  | Maximum limit  |
 |---------|---------|
@@ -158,7 +160,7 @@ For more information about live events and a comparison of Teams live events to 
 > [!IMPORTANT]
 > **Microsoft 365 live event limit increases**
 >
-> **To continue supporting our customers' needs, through December 31, 2021, we will extend temporary limit increases for live events, including**:
+> **To continue supporting our customers' needs, we will extend temporary limit increases for live events through June 30, 2022, including**:
 >
 >- Event support for up to 20,000 attendees
 >- 50 events can be hosted simultaneously across a tenant

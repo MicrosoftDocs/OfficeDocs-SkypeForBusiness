@@ -141,7 +141,7 @@ For macOS managed devices, use .plist to deploy sign-in restrictions. The config
 
 ### Global sign in
 
-The Teams Android app now supports Global sign-in, to provide a hassle free sign-in experience for Frontline Workers. Employees can pick a device from the shared device pool and do a single sign in to "make it theirs" for the duration of their shift. At the end of their shift, they should be able to perform sign out to globally sign out on the device. See [Sign out of Teams](sign-out-of-teams.md) to learn more. This with remove all of their personal and company information from the device so they can return the device to the device pool. To get this capability, the device must be in shared mode. To learn how to set up a shared device, see [How to use a shared device mode in Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
+The Teams Android app now supports Global sign-in, to provide a hassle free sign-in experience for Frontline Workers. Employees can pick a device from the shared device pool and do a single sign in to "make it theirs" for the duration of their shift. At the end of their shift, they should be able to perform sign out to globally sign out on the device. See [Sign out of Teams](sign-out-of-teams.md) to learn more. This will remove all of their personal and company information from the device so they can return the device to the device pool. To get this capability, the device must be in shared mode. Make sure to end any active meeting or call on the device before signing out. To learn how to set up a shared device, see [How to use a shared device mode in Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
 
 The sign-in experience looks similar to our standard Teams sign-in experience.
 
@@ -149,8 +149,6 @@ The sign-in experience looks similar to our standard Teams sign-in experience.
 
 Teams requires connectivity to the Internet. To understand endpoints that should be reachable for customers using Teams in Office 365 plans, Government, and other clouds, read [Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges).
 
-> [!IMPORTANT]
-> Teams presently requires access (TCP port 443) to the Google ssl.gstatic.com service for all users; this is true even if you're not using Gstatic. Teams will remove this requirement soon (early 2020), and we'll update this article accordingly at that time.
 
 ## Related topics
 

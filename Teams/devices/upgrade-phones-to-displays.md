@@ -1,7 +1,7 @@
 ---
 title: "Upgrade Teams phones to Teams displays"
-ms.author: v-cichur
-author: cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -50,7 +50,7 @@ Keep in mind that after you upgrade a Teams phone to a Teams display device, the
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams Devices** > **Phones**.
 2. Select the Teams phones you want to upgrade, and then select **Upgrade**.
 
-    :::image type="content" source="../media/upgrade-phones-to-displays-select.png" alt-text="Screenshot showing Teams phones selected for upgrade to Teams displays.":::
+    :::image type="content" source="../media/upgrade-phones-to-displays-select-new.png" alt-text="Screenshot showing Teams phones selected for upgrade to Teams displays." lightbox="../media/upgrade-phones-to-displays-select-new.png":::
 
 3. In the **Upgrade to Teams display** dialogue box, select **Schedule upgrade** to set a date and time for the upgrade or **Upgrade now**.
 

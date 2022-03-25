@@ -1,7 +1,7 @@
 ---
 title: "Skype Room System trusted domains"
-ms.author: v-cichur
-author: cichur
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta

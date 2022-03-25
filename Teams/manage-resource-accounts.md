@@ -1,7 +1,7 @@
 ---
 title: "Manage resource accounts in Teams"
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, wasseemh
 ms.topic: article
@@ -25,8 +25,6 @@ description: "In this article, you will learn how to create, edit and manage res
 
 # Manage resource accounts in Microsoft Teams
 
-A resource account is a disabled user object in Azure AD, and can be used to represent resources in general. For example, a resource account may be used in Exchange to represent conference rooms and allow them to have a phone number and calendar. A resource account can be homed in Microsoft 365 or on premises using Skype for Business Server 2019.
-
 In Microsoft Teams, a resource account is required for each auto attendant or call queue. Resource accounts may also be assigned service telephone numbers. This is how you assign phone numbers to auto attendants and call queues allowing callers from outside Teams to reach the auto attendant or call queue.
 
 This article covers how to create resource accounts and ready them for use with auto attendants and call queues.
@@ -35,6 +33,9 @@ Before you start the procedures in this article, ensure you've done the followin
 
 - [Obtain virtual user licenses](#obtain-virtual-user-licenses)
 - [Obtain service numbers](#obtain-service-numbers)
+
+> [!NOTE]
+> Resource accounts used for auto attendants and call queues are disabled for sign in and must remain so. Chat and presence are not avaialble for these accounts.
 
 ### Obtain virtual user licenses
 
@@ -60,7 +61,7 @@ You can create a resource account in the Teams admin center.
 
 ![Screenshot of add resource account user interface.](media/resource-account-add.png)
 
-1. In the Teams admin center, expand **Org-wide settings**, and then click **Resource accounts**.
+1. In the Teams admin center, expand **Voice**, and then click **Resource accounts**.
 
 2. Click **Add**.
 
@@ -99,7 +100,7 @@ If you're planning to use the resource account with an auto attendant or call qu
 
 To assign a direct routing or hybrid number to a resource account you need to use PowerShell:
 
-`Set-CsOnlineApplicationInstance -Identity aa-contoso_main@contoso64.net -OnpremPhoneNumber +19295550150`
+`Set-CsPhoneNumberAssignment -Identity aa-contoso_main@contoso64.net -PhoneNumber +19295550150 -PhoneNumberType DirectRouting`
 
 ## Next steps
 
@@ -150,5 +151,5 @@ After you do that, you can delete the resource account in the Microsoft 365 admi
 To disassociate a direct routing telephone number from the resource account, use the following cmdlet:
 
 ```powershell
-Set-CsOnlineApplicationInstance -Identity  <Resource Account oid> -OnpremPhoneNumber ""
+Remove-CsPhoneNumberAssignment -Identity  <Resource Account oid> -PhoneNumber <assigned phone number> -PhoneNumberType DirectRouting
 ```

@@ -25,7 +25,9 @@ appliesto:
 **The ability to create custom templates is not yet supported for EDU customers.**
 
 > [!NOTE]
-> Private channels and sensitivity labels are currently not supported in team templates. Private channel creation is not included in template definitions. The sensitivity label option in **Create team from template** flow will not be applied to the team.
+> - Private and shared channels are currently not supported in team templates. Private and shared channel creation is not included in  template definitions.
+>
+> - Sensitivity labels are not supported in team templates in GCC environments. The sensitivity label option in the Create team from template flow will not be applied to the team.
 
 ## Overview
 
@@ -77,6 +79,8 @@ You can duplicate pre-built templates but you can't edit them. If you want to ch
 |Organize a store| `com.microsoft.teams.template.retailStore` |Channels: <ul><li>General<li>Shift handoff</li><li>Store readiness</li><li>Learning</li></ul> Apps: <ul><li>Wiki</li><li>Tasks</li><li>Shifts</li><li>Inspection</li></ul>|
 |Retail for managers| `com.microsoft.teams.template.retailManagerCollaboration` |Channels: <ul><li>General<li>Operations</li><li>Learning</li></ul> Apps: <ul><li>Wiki</li><li>Tasks</li><li>Inspection</li></ul>|
 |Quality and safety |`com.microsoft.teams.template.QualitySafety`|Channels: <ul><li>General<li>Announcements</li><li>Leadership</li><li>Maintenance</li><li>Production Line 1</li><li>Production Line 2</li><li>Production Line 3</li><li>Health and Safety</li><li>Training</li><li>Fun stuff</li></ul> Apps: <ul><li>Wiki</li><li>Tasks</li> <li>Issue Reporter</li> <li>Inspection</li> </ul>|
+|Manage volunteers| `com.microsoft.teams.template.ManageVolunteers` |Channels: <ul><li>General<li>Announcements</li><li>Reporting</li><li>Volunteer Management</li><li>Engagement Opportunities</li><li>Volunteer Onboarding</li></ul> Apps: <ul><li>Website</li><li>YouTube</li><li>Power BI</li><li>Power Apps</li><li>Tasks</li><li>SharePoint</li><li>OneNote</li></ul>|
+||||
 
 ### Team templates by category and industry
 
@@ -87,6 +91,7 @@ For more information about ways to use the pre-built templates in your industry,
 - [Government team templates](government-teams-templates-in-the-admin-console.md)
 - [Healthcare team templates](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 - [Manufacturing team templates](manufacturing-teams-templates-in-the-admin-console.md)
+- [Nonprofit team templates](team-templates-nonprofit.md)
 - [Retail team templates](retail-teams-templates-in-the-admin-console.md)
 
 ## Team template size limits
@@ -123,19 +128,20 @@ You can create your own custom templates from scratch, from an existing team, an
 
 #### Apply team template policies
 
-To control the templates that users see in Teams for creating teams, you can set templates policies and assign them to users and groups in your organization. To learn more, see [Manage team templates in the Teams admin center](templates-policies.md).
+To control the templates that users see in Teams for [creating teams](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b), you can set templates policies and assign them to users and groups in your organization. To learn more, see [Manage team templates in the Teams admin center](templates-policies.md).
 
 ### Manage team templates using PowerShell
 
 Use the following cmdlets to manage your templates in PowerShell.
 
-- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate?view=teams-ps)
-- [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
-- [New-CsTeamTemplate](/powershell/module/teams/new-csteamtemplate?view=teams-ps)
-- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate?view=teams-ps)
-- [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate?view=teams-ps)
+- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate)
+- [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist)
+- [New-CsTeamTemplate](/powershell/module/teams/new-csteamtemplate)
+- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate)
+- [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate)
 
 ## Related articles
 
-- [Create a team from a template](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)
-- [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md) 
+- [Create a team from a template](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
+- [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md)
+- [Clone a team](/graph/api/team-clone)

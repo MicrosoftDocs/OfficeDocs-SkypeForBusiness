@@ -1,7 +1,7 @@
 ---
 title: Microsoft StaffHub has been retired
-author: cichur
-ms.author: v-cichur
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: lisawu, gumariam
 manager: serdars
 audience: admin
@@ -22,7 +22,7 @@ ms.custom: seo-marvel-mar2020
 
 # Microsoft StaffHub has been retired
 
-Effective June 30, 2020, Microsoft StaffHub has been retired. We're building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and additional capabilities will roll out over time.
+Effective June 30, 2020, Microsoft StaffHub has been retired. We're building StaffHub capabilities into Microsoft Teams. Today, Teams includes the Shifts app for schedule management and more capabilities will roll out over time.
 
 These changes are part of our continued efforts to empower every employee with Microsoft 365. With capabilities for Frontline Workers now in Teams, every employee in your organization will be able to use Teams to streamline their workday, collaborate with coworkers, and access information and expertise to help them do their best work.
 
@@ -64,14 +64,17 @@ The Shifts app in Teams is a schedule management tool that keeps Frontline Worke
 
 Shifts is available in all Enterprise SKUs where Teams is available.
 
-#### How do I get Shifts? 
+> [!NOTE]
+> Shifts is available in Government Community Cloud (GCC) environments, but not in GCC High or DoD environments.
+
+#### How do I get Shifts?
 
 If you're already on a plan that includes Shifts, you can start using Shifts today as part of Teams. Check out [Get started in Shifts](https://support.office.com/article/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6).
 
 #### Which devices or platforms is Shifts available on?
 
 Shifts is available on the Teams web client, Teams desktop client, and Teams mobile clients (iOS and Android).
- 
+
 #### Are there differences between the Shifts desktop and web apps and the mobile (iOS and Android) apps?
 
 For managers, the desktop and web apps are optimized to create teams, add members, build and publish schedules, and share content with the team. Managers generally use the mobile app to approve requests, send quick messages to the team, call a team member, and collaborate on the go. 
@@ -84,7 +87,7 @@ Core functionality is the same between the Shifts iOS and Android apps. There ar
 
 #### What browsers does Shifts work on?
 
-Shifts works on all the browsers that Teams supports which includes the latest versions of Microsoft Edge, Internet Explorer, Google Chrome, and Mozilla Firefox. For more information, see [Get clients for Teams](../../get-clients.md).
+Shifts works on all the browsers that Teams supports which include the latest versions of Microsoft Edge, Internet Explorer, Google Chrome, and Mozilla Firefox. For more information, see [Get clients for Teams](../../get-clients.md).
 
 > [!Note]
 > Microsoft 365 apps and services will not support Internet Explorer 11 starting August 17, 2021 (Microsoft Teams will not support Internet Explorer 11 earlier, starting  November 30, 2020). [Learn more](https://aka.ms/AA97tsw). Please note that Internet Explorer 11 will remain a supported browser. Internet Explorer 11 is a component of the Windows operating system and [follows the Lifecycle Policy](/lifecycle/faq/internet-explorer-microsoft-edge) for the product on which it is  installed. 
@@ -95,9 +98,9 @@ Shifts is available in the following languages: Chinese-Simplified, English (U.S
 
 #### Where is Shifts data stored?
 
-Shifts data is stored in Azure in data centers in North America and Western Europe. SharePoint content leverages Microsoft 365 Groups and uses the same storage and support.
+Shifts data is currently stored in Azure in data centers in Asia Pacific (APAC), the European Union (EU), and North America. For more information about where data is stored, see [Where is my data](http://o365datacentermap.azurewebsites.net/)?
 
-For more information, see [Location of Shifts data](manage-the-shifts-app-for-your-organization-in-teams.md#location-of-shifts-data).
+To learn more about Shifts data including, storage, retention, retrieval, and encryption of Shifts data, see [Shifts data FAQ](shifts-data-faq.md).
 
 #### Where can I learn more about Shifts?
 
@@ -151,8 +154,7 @@ To learn more, see [Manage the Shifts app for your organization in Teams](manage
 
 You manage Teams through the Microsoft Teams PowerShell module and the Skype for Business PowerShell module. For more information, see [Teams PowerShell Overview](../../teams-powershell-overview.md). At this time, there are no specific PowerShell cmdlets available to manage Shifts.  
 
-If this is something you're interested in, send us a request through the [Teams feedback portal on UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform).
-
+If this is something you're interested in, send us a request through the [Teams feedback portal](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
 
 [!INCLUDE [uservoice-disclaimer-note](../../includes/uservoice-disclaimer-note.md)]
 

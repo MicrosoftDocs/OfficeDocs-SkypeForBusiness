@@ -40,7 +40,7 @@ There are three ways to get service numbers:
 - **Use a request form for new numbers.** Sometimes (depending on your country or region) you won't be able to get your new phone numbers using the Microsoft Teams admin center, or you'll need specific phone numbers or area codes. If so, you'll need to download a form and send it back to us. See [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information.
   
 > [!NOTE]
-> Service numbers are needed so you can get a higher concurrent call capacity for a specific number. When you're transferring the number over to us, you can [contact the PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) to make sure the service number you're transferring has a high concurrent call capacity.
+> Service numbers are needed so you can get a higher concurrent call capacity for a specific number. When you're transferring the number over to us, you can [contact the TNS service desk](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) to make sure the service number you're transferring has a high concurrent call capacity.
   
 ## Get new service numbers
 
@@ -68,7 +68,7 @@ To transfer your phone numbers from your current service provider or carrier to 
 If your country or region isn't listed in the porting wizard, you can [manually submit a port order](phone-number-calling-plans/manually-submit-port-order.md) or go to [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md), select your country or region, and then download a Letter of Authorization (LOA). You'll have to submit separate port orders for each type of service number (for example, toll vs. toll-free) that you'll be transferring by using an LOA. In the LOA, you must select the correct type of service number. Make sure you specify that you're transferring a service number (and not a user or subscriber number), or the concurrent calling capacity may not be enough to handle call volumes.  
 
 > [!NOTE]
-> If you need to get more phone numbers than this, [contact the PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
+> If you need to get more phone numbers than this, [contact the TNS service desk](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
 
 ## View the phone numbers for your organization
 

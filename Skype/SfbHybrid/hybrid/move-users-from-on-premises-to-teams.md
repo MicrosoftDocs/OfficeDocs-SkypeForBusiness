@@ -16,6 +16,7 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
+search.appverid: MET150
 ms.custom: 
 description: "Summary: Learn how to migrate user settings and move users to Teams."
 ---
@@ -43,7 +44,9 @@ Before moving any users, be sure to review the [prerequisites](move-users-betwee
 > Unified Contact Store should be disabled on the on-prem SfB account for the contact to be moved to Teams.
 
 > [!IMPORTANT]
->When moving a user from on-premises to the cloud with Move-CsUser, users are now automatically assigned TeamsOnly mode and their meetings from on-premises are automatically converted to Teams meetings, regardless of whether the `-MoveToTeams` switch is actually specified. (This includes migrations from Lync Server 2013, which never had the `-MoveToTeams` switch.)  Previously if this switch was not specified, users transitioned from being homed in Skype for Business Server on-premises to Skype for Business Online, and their mode remained unchanged. This has recently been changed in preparation for retirement of Skype for Business Online.
+>
+> - When moving a user from on-premises to the cloud with Move-CsUser, users are now automatically assigned TeamsOnly mode and their meetings from on-premises are automatically converted to Teams meetings, regardless of whether the `-MoveToTeams` switch is actually specified. (This includes migrations from Lync Server 2013, which never had the `-MoveToTeams` switch.)  Previously if this switch was not specified, users transitioned from being homed in Skype for Business Server on-premises to Skype for Business Online, and their mode remained unchanged. This has recently been changed in preparation for retirement of Skype for Business Online.
+> - Moving users between your on-premises deployment and Teams now *requires* the OAuth authentication protocol. Previously OAuth was recommended but not required.  Skype for Business Server 2019 and Skype for Business Server 2015 CU12 (KB 3061064) already require OAuth. If you are using Skype for Business Server 2015 with CU8 up to CU11, you must pass the `-UseOAuth` switch, which ensures the on-premises code authenticates using OAuth, or preferably upgrade to CU12. If you are using a version of Skype for Business Server 2015 prior to CU8, you must upgrade to CU12 or later.  If you are using Lync Server 2013, you must first upgrade to Lync Server 2013 Cumulative Update 10 Hotfix 5 (KB 2809243) or later.
 
 
 ## Move a user directly from Skype for Business on premises to Teams Only
@@ -61,6 +64,7 @@ Move-CsUser is available from an on-premises Skype for Business Server Managemen
 - Specify the `-Target` parameter with the value “sipfed.online.lync.<span>com”.
 - If you do not have one account with sufficient permissions in both on premises and the cloud service (Microsoft 365), use the `-credential` parameter to supply an account with sufficient permissions in Microsoft 365.
 - If the account with permissions in Microsoft 365 does not end in “onmicrosoft.<span>com”, you must specify the `-HostedMigrationOverrideUrl` parameter, with the correct value as described in [Required administrative credentials](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
+- Make sure the computer running the on-premises administration tools is using the latest CU for your version of Skype for Business Server or Lync Server 2013, to ensure OAuth is used for authentication. 
 
 The following cmdlet sequence can be used to move a user to TeamsOnly, and assumes the Microsoft 365 credential is a separate account and supplied as input for the Get-Credential prompt. The behavior is the same whether `-MoveToTeams` switch is specified or not.
 
@@ -74,7 +78,7 @@ The following cmdlet sequence can be used to move a user to TeamsOnly, and assum
 > As there are different circumstances requiring different parameters, the default command for most cases is:
 
 ```powershell
-Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -UseOAuth -HostedMigrationOverrideUrl $url
+Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -HostedMigrationOverrideUrl $url
 ```
 
 ### Move to Teams using Skype for Business Server Control Panel

@@ -1,7 +1,7 @@
 ---
 title: "Set up coordinated meetings with Microsoft Teams Rooms and Surface Hub"
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: rahulmi
 manager: serdars
 audience: ITPro
@@ -26,7 +26,7 @@ To set up Coordinated Meetings, you need to make sure your Teams Rooms devices a
 
 After you've confirmed that your Teams Rooms devices and Surface Hubs can automatically accept meetings and join them successfully, you can set up Coordinated Meetings.
 
-The following steps should be completed for each meeting room separately. Devices in one meeting room shouldn't be set up for Coordinated Meetings with devices in other meeting rooms.
+The following steps should be completed for each meeting room separately.
 
 ## Step 1: Plan your Coordinated Meeting experience
 

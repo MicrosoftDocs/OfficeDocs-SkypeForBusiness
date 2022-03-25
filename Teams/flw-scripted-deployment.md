@@ -16,6 +16,7 @@ ms.collection:
   - M365-collaboration
   - Teams_ITAdmin_RemoteWorkers
   - remotework
+  - Teams_ITAdmin_FLW
 appliesto: 
   - Microsoft Teams
 ---
@@ -384,7 +385,7 @@ Minimal error handling has been implemented in these sample scripts. There are t
 
 ## Further reading
 
-- [New Team Channel (PowerShell)](/powershell/module/teams/new-teamchannel?view=teams-ps)
-- [New Teams Messaging Policy (PowerShell)](/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)
-- [Assign policies to your users in Microsoft Teams](assign-policies.md#install-and-connect-to-the-microsoft-teams-powershell-module)
+- [New Team Channel (PowerShell)](/powershell/module/teams/new-teamchannel)
+- [New Teams Messaging Policy (PowerShell)](/powershell/module/skype/new-csteamsmessagingpolicy)
+- [Assign policies to your users in Microsoft Teams](policy-assignment-overview.md)
 - [Assign licenses and user accounts with Office 365 PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)

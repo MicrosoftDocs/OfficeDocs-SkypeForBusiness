@@ -54,11 +54,12 @@ Here are the Microsoft 365 and Office 365 services for Skype for Business and Mi
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Calling Plans are available to purchase?  <br/> |No  <br/> |
-|Minutes available for Calling Plans  <br/> |Not applicable  <br/> |
-|Can make outbound calls to?  <br/> |Not applicable  <br/> |
+|Calling Plans are available to purchase?  <br/> |Yes  <br/> |
+|Minutes available for Calling Plans. |There are four plan options available per calendar month: <ul><li>120-minute Domestic Calling Plan </li><li>240-minute Domestic Calling Plan</li></li><li>1200-minute Domestic Calling Plan </li></li><li>Domestic and International Calling Plan:  1200 minutes of domestic -OR- 600 minutes of international calling (whichever is reached first in the calendar month)</li></li></ul>|
+|Can make outbound calls to premium numbers?  <br/> | Not supported at this time. <br/> |
+|Can make outbound calls to?  <br/> | To 196 countries or regions, including [these](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
 
-If Calling Plans are not available to purchase, consider using [Phone System Direct Routing](../direct-routing-landing-page.md). With Direct Routing, you can use Phone System with virtually any telephony carrier.
+If Calling Plans are not available to purchase, see [PSTN connectivity options](../pstn-connectivity.md) for all available options.
    
 ## Toll and toll-free numbers for services
 

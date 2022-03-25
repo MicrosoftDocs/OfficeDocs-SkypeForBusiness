@@ -1,7 +1,7 @@
 ---
 title: Basic Upgrade PowerShell| Microsoft Teams| Grant Upgrade Interop Policy
-author: cichur
-ms.author: v-cichur
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams

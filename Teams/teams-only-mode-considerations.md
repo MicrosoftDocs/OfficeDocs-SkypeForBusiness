@@ -1,7 +1,7 @@
 ---
 title: Teams Only mode considerations
-author: cichur
-ms.author: v-cichur
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 01/09/2019
 ms.topic: conceptual
