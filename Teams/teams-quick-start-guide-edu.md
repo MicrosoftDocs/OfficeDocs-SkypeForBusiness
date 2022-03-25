@@ -181,13 +181,19 @@ For more information, see [Set-CsTeamsMessagingPolicy](/powershell/module/skype/
 
 See [PowerShell script sample - Create and assign a messaging policy](./scripts/powershell-script-teams-messaging-policy-edu.md).
 
-# [Distribute to clients](#tab/distribute)
+# [Distribute clients](#tab/distribute)
 
-## Distribute to clients
+## Distribute clients
 
-Teams has clients available for web, desktop (Windows, Mac, and Linux), and mobile (Android and iOS). These clients all require an active internet connection and do not support an offline mode. To get the latest details on the functionality and methods of distribution of each of these clients, check out our topic to [Get clients for Teams](get-clients.md).
+Teams has clients available for web, desktop, and mobile. These clients all require an active internet connection and don't support an offline mode.
 
-The setup file for the Teams client is an executable file that can be downloaded by admins and end users from the [Teams downloads page](https://teams.microsoft.com/downloads). Educators and students on desktops can install the application if they have the appropriate privileges. IT Admins can also distribute the installer and through their existing client distribution tools.
+To get the latest details on the functionality and methods of distribution of each client, check out our topic to [Get clients for Teams](get-clients.md).
+
+### Download clients
+
+The setup file for the Teams client is an executable file that can be downloaded by anyone from the [Teams downloads page](https://teams.microsoft.com/downloads).
+
+Educators and students on desktops can install the application if they have the appropriate privileges. IT Admins can also distribute the installer through their existing client distribution tools.
 
 End users with mobile devices can download the Microsoft Teams app from the mobile platform’s app store.
 
