@@ -1,7 +1,7 @@
 ---
 title: Create your champions program for Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 10/30/2018
 audience: Admin
@@ -39,7 +39,7 @@ Champions should:
 - Have consistent and positive reinforcement that affirms the impact of their efforts
 - Have a clear plan to execute
 
-Use our [Champions Program Guide](https://go.microsoft.com/fwlink/?linkid=854665) to build this program in your organization. Our best practices for this community are:
+Use our [Champions Program Guide](https://aka.ms/M365Champions) to build this program in your organization. Our best practices for this community are:
 
 - Join the [Champions Program](https://aka.ms/O365Champions). Make sure that at a minimum the leaders of the Champions program (and potentially all company champions) are members of the program. This free, monthly community call will provide valuable information for running your own program and getting the most from Teams and other Microsoft 365 or Office 365 services. Program materials can be reused in your own internal program.
 

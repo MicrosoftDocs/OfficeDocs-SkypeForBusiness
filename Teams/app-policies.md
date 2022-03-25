@@ -1,8 +1,8 @@
 ---
 title: Manage app policies in Teams
-author: karlistites
-ms.author: kastites
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: 

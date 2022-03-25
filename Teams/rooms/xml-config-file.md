@@ -1,7 +1,7 @@
 ---
 title: Remotely manage Microsoft Teams Rooms device settings
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -20,9 +20,9 @@ description: Remote management of the default settings used by a Microsoft Teams
 
 # Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file
 
-This article discusses remote management of the default settings used by a Microsoft Teams Rooms device, including applying a custom theme. It discusses how to create a master settings file, and links to discussions of how to place them as needed on the remotely managed devices.
+This article discusses remote management of the default settings used by a Microsoft Teams Rooms device, including applying a custom theme. It discusses how to create a master settings file and links to discussions of how to place them as needed on Teams Rooms.
   
-It is possible for you to change default settings of remotely managed devices by updating a master XML file and sending copies to the managed consoles. You can also implement Custom Themes on your Microsoft Teams Rooms consoles with XML configuration files.
+It is possible for you to change default settings of Teams Rooms by updating a master XML file and sending copies to the remote Teams Rooms devices. 
   
 ## Create an XML configuration file
 
@@ -57,6 +57,8 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
   <DualScreenMode>0</DualScreenMode>
   <DuplicateIngestDefault>true</DuplicateIngestDefault>
   <DisableTeamsAudioSharing>true</DisableTeamsAudioSharing>
+  <FrontRowEnabled>true</FrontRowEnabled>
+  <DefaultFoRExperience>0</DefaultFoRExperience>
   <SendLogs>
     <EmailAddressForLogsAndFeedback>username@microsoft.com</EmailAddressForLogsAndFeedback>
     <SendLogsAndFeedback>True</SendLogsAndFeedback>
@@ -70,13 +72,13 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
     <ContentCameraInverted>false</ContentCameraInverted>
   </Devices>
   <Theming>
-   <ThemeName>Custom</ThemeName>
-   <CustomThemeImageUrl>file name</CustomThemeImageUrl>
-   <CustomThemeColor>
-   <RedComponent>100</RedComponent>
-   <GreenComponent>100</GreenComponent>
-   <BlueComponent>100</BlueComponent>
-  </CustomThemeColor>
+       <ThemeName>Custom</ThemeName>
+       <CustomThemeImageUrl>file name</CustomThemeImageUrl>
+       <CustomThemeColor>
+            <RedComponent>100</RedComponent>
+            <GreenComponent>100</GreenComponent>
+            <BlueComponent>100</BlueComponent>
+       </CustomThemeColor>
   </Theming>
   <CoordinatedMeetings enabled="true">
     <TrustedAccounts>username1@microsoft.com,username2@contoso.com</TrustedAccounts>
@@ -119,6 +121,8 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | \<DualScreenMode\>                          | Boolean &#x2777;            | First &#x2776; | If true, dual screen mode is enabled. Otherwise the device uses single screen mode.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | \<DuplicateIngestDefault\>                  | Boolean &#x2777;            | First &#x2776; | If true, content is shown on both screens in dual screen mode, when out of meeting.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | \<DisableTeamsAudioSharing\>                | Boolean &#x2777;            | First &#x2776; | Set to true to disable HDMI audio sharing to meeting participants in Teams meeting. The default is false.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| \<FrontRowEnabled>                          | Boolean &#x2777;            | First &#x2776; | Enabled by default. If false, Front Row is disabled.
+| \<DefaultFoRExperience>                     | Boolean &#x2777;            | First &#x2776; | Gallery View by default. Put 1 to change the default layout from Gallery View to Front Row.
 | \<CortanaWakewordEnabled\>                  | Boolean &#x2777;            | First &#x2776; | Set to true to enable the Cortana wake word "Hey Cortana". This setting doesn't have any effect unless the Cortana service is supported in your country or region and your connected audio peripheral supports Cortana. The default is false.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | \<SendLogs\>                                | Container                   | First &#x2776; |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | \<EmailAddressForLogsAndFeedback\>          | String  &#x2778;            |                | Sets an optional email address that logs can be sent to when the "Give Feedback" window appears.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -163,38 +167,61 @@ You are free to use any method you like so long as you can use it to transfer fi
   
 ## Supported Meeting modes App version 4.9
 
-| Setting Name                                    | XML Notation                | XML Value      |
-|:------------------------------------------------|:----------------------------|:---------------|
-| Skype for Business (default) and Microsoft Teams| \<TeamsMeetingsEnabled>     |   True         |
-|                                                 | \<SfbMeetingEnabled>        |   True         |
-|                                                 | \<IsTeamsDefaultClient>     |   False        |
-|:------------------------------------------------|:----------------------------|:---------------|
-| Skype for Business and Microsoft Teams (default)|  \<TeamsMeetingsEnabled>    |   True         |
-|                                                 |  \<SfbMeetingEnabled>       |   True         |
-|                                                 |  \<IsTeamsDefaultClient>    |   True         |
-|:------------------------------------------------|:----------------------------|:---------------|                                                      
-| Skype for Business only                         |  \<TeamsMeetingsEnabled>    |   False        |
-|                                                 |  \<SfbMeetingEnabled>       |   True         |
-|                                                 |  \<IsTeamsDefaultClient>    |   False        |
-|:------------------------------------------------|:----------------------------|:---------------|
-| Microsoft Teams only                            |  \<TeamsMeetingsEnabled>    |   True         |
-|                                                 |  \<SfbMeetingEnabled>       |   False        |
-|                                                 |  \<IsTeamsDefaultClient>    |   True         |                       
-|:------------------------------------------------|:----------------------------|:---------------|                                                       
-                                                                                                           
+**Skype for Business (default) and Microsoft Teams**
+
+| XML Notation                | XML Value      |
+|----------------------------|---------------|
+| \<TeamsMeetingsEnabled>     |   True         |
+| \<SfbMeetingEnabled>        |   True         |
+| \<IsTeamsDefaultClient>     |   False        |
+
+**Skype for Business and Microsoft Teams (default)**
+
+| XML Notation                | XML Value      |
+|----------------------------|---------------|
+| \<TeamsMeetingsEnabled>    |   True         |
+| \<SfbMeetingEnabled>        |   True         |
+| \<IsTeamsDefaultClient>     |   True        |
+
+**Skype for Business only**
+
+| XML Notation                | XML Value      |
+|----------------------------|---------------|
+| \<TeamsMeetingsEnabled>    |   False         |
+| \<SfbMeetingEnabled>        |   True         |
+| \<IsTeamsDefaultClient>     |   False        |
+
+**Microsoft Teams only**
+
+| XML Notation                | XML Value      |
+|----------------------------|---------------|
+| \<TeamsMeetingsEnabled>    |   True         |
+| \<SfbMeetingEnabled>        |   False         |
+| \<IsTeamsDefaultClient>     |   True        |
+
+
 ## Supported Meeting modes App version 4.8 or lower
 
-| Setting Name                                    | XML Notation                | XML Value      |
-|:------------------------------------------------|:----------------------------|:---------------|
-| Skype for Business (default) and Microsoft Teams|  \<TeamsMeetingsEnabled>    |   True         |
-|                                                 |  \<IsTeamsDefaultClient>    |   False        |
-|:------------------------------------------------|:----------------------------|:---------------|
-| Skype for Business and Microsoft Teams (default)|  \<TeamsMeetingsEnabled>    |   True         |
-|                                                 |  \<IsTeamsDefaultClient>    |   True         |
-|:------------------------------------------------|:----------------------------|:---------------|                                                      
-| Skype for Business only                         |  \<TeamsMeetingsEnabled>    |   False        |
-|                                                 |  \<IsTeamsDefaultClient>    |   False        |
-|:------------------------------------------------|:----------------------------|:---------------|                                                 
+**Skype for Business (default) and Microsoft Teams**
+
+| XML Notation                | XML Value      |
+|----------------------------|---------------|
+|  \<TeamsMeetingsEnabled>     |   True         |
+|  \<IsTeamsDefaultClient>     |   False        |
+
+**Skype for Business and Microsoft Teams (default)**
+
+| XML Notation                | XML Value      |
+|----------------------------|---------------|
+|  \<TeamsMeetingsEnabled>     |   True         |
+|  \<IsTeamsDefaultClient>     |   True         |
+
+**Skype for Business only**
+
+| XML Notation                | XML Value      |
+|----------------------------|---------------|
+|  \<TeamsMeetingsEnabled>     |   False         |
+|  \<IsTeamsDefaultClient>     |   False         |
 
 ## Custom Theme Images
 
@@ -217,6 +244,16 @@ To locate the instance path:
 5. Right-click the camera, and open **Properties**.
 6. Select the **Details** tab, and locate the **Device instance path** property in the drop-down.
 7. The value shown is the device instance path to set in the XML configuration file. When specifying the path in XML, replace the ampersand (&) with `&amp;`.
+
+## Set Front row as the default layout
+
+If you don't set a default display layout for a room in your XML configuration, the default layout will be set to Gallery. To see Front row as the default layout, add ```<DefaultFoRExperience>1</DefaultFoRExperience>``` to your XML configuration file.
+
+End-users can switch from the default display layout using the layout picker during mettings.
+
+## Turn off Front row
+
+Front row is enabled by default. Turn off Front row if you don't want allow end-users to use Front row in a certain room. To do this, add ```<FrontRowEnabled>false</FrontRowEnabled>``` to your XML configuration file.
 
 ## See also
 

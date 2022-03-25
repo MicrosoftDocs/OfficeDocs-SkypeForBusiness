@@ -1,7 +1,7 @@
 ---
 title: IT Admin Guide to Education Insights in Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -133,9 +133,13 @@ Currently, data is collected from the following areas in class teams:
 | **Meetings** |	Attendance (not including meeting content).|
 | **[Reading Progress](https://support.microsoft.com/topic/e71705a2-a79a-4d7e-bcef-a1e0aa336017)** |	Accuracy rate, most challenging words, and words per minute.  |
 | **[Reflect](reflect.md)** |	Check-ins (including values).|
+| **Career Coach** | Student provided major (field of study) and year of school, student activity in career coach app including: skills, skills interest, career interests, learnings interests and career related activities.|
 
 > [!NOTE]
 > Most of the collected data shows up in Insights within a few minutes. Attendance in class meetings (meetings associated with one of the class channels) appears a few hours after the end of the meeting, usually up to 24 hours later.
+
+> [!NOTE]
+> Data collected in Education Insights is kept until either the IT Admin turns off the [Education Analytics toggle](#turn-sds-for-insights-on-or-off) or the Office subscription for the tenant ends. Turning off specific features in Teams does not delete historic data.
 
 ### Privacy and security
 The information collected and shown through Insights meets [more than 90 regulatory and industry standards](/compliance/regulatory/offering-home), including [GDPR](/compliance/regulatory/gdpr) and the Family [Education Rights and Privacy Act (FERPA)](/compliance/regulatory/offering-ferpa) for students and children's security and other, similar, privacy-oriented regulations.
@@ -234,12 +238,24 @@ The use of Insights *does not* require the use of SDS. However, you may choose t
 
 * To turn it back on follow the instructions in [How to deploy SDS for Insights](/schooldatasync/how-to-deploy-sds-for-insights).
 
-### How to delete your data
-Insights stores student and educator actions performed in the context of a class team. This data is considered a comingled data set and therefore isn't automatically deleted from the service once student or educator user accounts are deleted from your organization.
-Note: Deleting data harms Insights' ability to analyze class team engagement over time.
-* [Open a support ticket](https://aka.ms/edusupport). The support ticket must state clearly the request for a GDPR Delete DSR operation and contain the user object ID to be deleted. There is no ability to limit the data set or time window of the deletion.
-*	Once filed, the support ticket waits in the queue for one week to meet compliance's minimal retention policy. You have the opportunity to cancel the operation during this time.
-*	After one week, the Education Insights team ensures all data related to the user ID is deleted from the service. Microsoft support monitors the ticket and will notify you once the deletion process is complete, in no more than 28 days.
+### How to delete user data from Education insights
+Insights stores student and educator activities performed in Microsoft Teams for Education.
+
+There are two types of data collected by insights:
+* **Comingled data** – data which is generated as part of the class learning activities.
+* **Non-comingled (private) data** – data that is collected by the students activity in Teams for education that is not part of the class learning activity. 
+
+The full data collected by insights is listed [here](class-insights.md#data-collection).
+
+In order to provide completeness and integrity of the data for past time frames to educator and education leaders, by default Insights does not automatically delete data from the service when a student or educator user accounts are closed. The IT Admin of the organization can request manual delete of a user (educator or student) data, by taking the following steps:
+* Open a [support ticket](https://aka.ms/edusupport). The support ticket must state clearly the request for a GDPR Delete DSR operation and contain the user object ID to be deleted.
+There is no ability to limit the data set or time window of the deletion.
+* In the request the IT Admin should clearly state the type of data that needs to be deleted for that user, out of the following options:
+  - All data (comingled and private)
+  - All private data 
+  - Career coach data only
+* Once filed, the support ticket waits in the queue for one week to meet compliance's minimal retention policy. You have the opportunity to cancel the operation during this time.
+* After one week, the Education Insights team ensures all data related to the user ID of the specific type as described above is deleted from the service. Microsoft support monitors the ticket and will notify you once the deletion process is complete, in no more than 28 days
 
 ## Troubleshooting
 ### Why doesn't my institution see any data in Insights?

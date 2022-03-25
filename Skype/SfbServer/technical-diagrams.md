@@ -1,11 +1,11 @@
 ---
 title: Posters for Skype for Business Server 2015 | Voice PSTN
 ms.reviewer: 
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
-ms.topic: hub-page
+ms.topic: landing-page
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH

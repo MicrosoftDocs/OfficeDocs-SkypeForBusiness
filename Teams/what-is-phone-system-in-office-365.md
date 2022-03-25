@@ -1,6 +1,6 @@
 ---
-title: "What is Phone System?"
-ms.reviewer: 
+title: "What is Phone System"
+ms.reviewer: roykuntz
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,7 +13,6 @@ ms.collection:
   - m365initiative-voice
 audience: Admin
 appliesto: 
-  - Skype for Business
   - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
@@ -21,55 +20,60 @@ f1.keywords:
 ms.custom: 
   - Phone System
   - seo-marvel-apr2020
-description: "In this article, you will learn about the Phone System technology in Microsoft 365 and Office 365."
+  - intro-overview
+description: "In this article, you'll learn about the Phone System technology in Microsoft 365."
 ---
 
-# What is Phone System?
+# What is Phone System
 
-A Private Branch Exchange (PBX) is a phone system within a business. Phone System gives you PBX capabilities, but without the complicated and expensive equipment. 
+Phone System is Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Microsoft 365 cloud with Microsoft Teams.
 
-Phone System allows you to replace your existing on-premises PBX system with a set of features delivered from Microsoft 365 or Office 365 that is tightly integrated into your cloud experience. For more information about the features, see [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md).
+Phone System works with Teams clients and certified devices. Phone System allows you to replace your existing PBX system with a set of features directly delivered from Microsoft 365.
 
-## Phone System technology
+Calls between users in your organization are handled internally within Phone System, and never go to the Public Switched Telephone Network (PSTN)--thereby removing long-distance costs on internal calls. 
 
-Phone System enables call control and PBX capabilities in the cloud with Microsoft Teams and Skype for Business Online. 
+For making external calls, Phone System provides add-on options for connecting to the PSTN. For more information about voice solutions and PSTN connectivity options, see [Plan your Teams voice solution](cloud-voice-landing-page.md) and [Connect to the PSTN](#connect-to-the-public-switched-telephone-network-pstn).
+
+Phone System is available world wide except for Macau. 
+
+## Phone System features
+
+With Phone System, users can use Teams to place and receive calls, transfer calls, and mute or unmute calls. Phone System users can click a name in their address book, and place Teams calls to that person. To place and receive calls, Phone System users can use their mobile devices, a headset with a laptop or PC, or one of many IP phones that work with Teams. 
+
+Phone System administrators can manage calling options and settings from the same console used for messaging, collaboration, and so on.
+
+For more information about Phone System features, see [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md).
   
-With Phone System, users can use Teams or Skype for Business Online to place and receive calls, transfer calls, and mute or unmute calls. Phone System users can click a name in their address book, and place Teams or Skype for Business Online calls to that person. To place and receive calls, Phone System users can use their mobile devices, a headset with a laptop or PC, or one of many IP phones that work with Teams and Skype for Business Online. Phone System administrators can manage calling options and settings from the same console used for messaging, collaboration, and so on.
-  
-Calls between users in your organization are handled internally within Phone System, and never go to the Public Switched Telephone Network (PSTN). This applies to calls between users in your organization located in different geographical areas, removing long-distance costs on these internal calls.
-
-For calls outside your organization, Microsoft provides multiple options for connecting Phone System to the Public Switched Telephone Network (PSTN).
 
 ## Connect to the Public Switched Telephone Network (PSTN)
   
-Phone System can be connected to the PSTN in one of two ways:
+For external calling, Phone System can be connected to the PSTN in one of several ways:
   
 - Purchase a Microsoft Calling Plan (domestic or domestic and international). Microsoft Calling Plan is an all-in-the-cloud solution with Microsoft as your PSTN carrier. For more information, see [Phone System and Calling Plans](calling-plan-landing-page.md).
 
 - Use your existing telephony infrastructure for on-premises PSTN connectivity.
 
-  For your Teams users, you can connect your on-premises telephony infrastructure to Phone System by using Direct Routing. For more information, see [Phone System Direct Routing](direct-routing-landing-page.md).
+  You can connect your on-premises telephony infrastructure to Phone System by using Operator Connect Calling or Direct Routing. 
 
-  For more information about all Microsoft telephony solutions, see [Plan your Teams voice solution](cloud-voice-landing-page.md).
+For more information about all PSTN Connectivity options, see [PSTN connectivity options](pstn-connectivity.md).
 
 
 ## Phone System with services
 
- Phone System can be used for services and voicemail, such as:
+Phone System can be used for services and voicemail, such as:
 
 - **Auto attendants** -  Auto attendants can be used to create a menu system for your organization that lets external and internal callers move through the system to locate and place or transfer calls to company users or departments in your organization. See [What are Cloud auto attendants?](what-are-phone-system-auto-attendants.md).
 
-- **Call queues** -  Call queue greetings can be used when someone calls in to a phone number for your organization. These greetings include the ability to automatically put the calls on hold and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization. See [Create a Cloud call queue](create-a-phone-system-call-queue.md).
+- **Call queues** -  Call queue greetings can be used when someone calls in to a phone number for your organization. These greetings include the ability to automatically put the calls on hold and to search for the next available call agent to handle the call. The people on hold can also listen to music while on hold. You can create single or multiple call queues for your organization. See [Create a Cloud call queue](create-a-phone-system-call-queue.md).
 
-- **Voicemail** -  When you get a Phone System license for a user, that user is able to get voicemail that has been left by callers. Cloud Voicemail is automatically set up and provisioned for users after you assign a Phone System license and a phone number to them. See [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
+- **Voicemail** - Cloud Voicemail is automatically set up and provisioned for all Teams users. See [Set up Cloud Voicemail](set-up-phone-system-voicemail.md).
 
 For more information about features, see [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md). If you're ready to get started, see [Set up Phone System in your organization](setting-up-your-phone-system.md).
 
 ## Related topics
 
 - [Phone System features](here-s-what-you-get-with-phone-system.md)
-- [Cloud voice in Microsoft Teams](cloud-voice-landing-page.md)
 - [Set up Phone System](setting-up-your-phone-system.md)
-- [Which Calling Plan is right for you?](calling-plan-landing-page.md)
-- [Phone System Direct Routing](direct-routing-landing-page.md)
+- [Plan your Teams voice solution](cloud-voice-landing-page.md)
+- [PSTN connectivity options](pstn-connectivity.md)
 - [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)

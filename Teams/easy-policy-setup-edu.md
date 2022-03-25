@@ -1,7 +1,7 @@
 ---
 title: Teams for Education Policy Wizard to easily apply policies for safe learning
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.reviewer: shajohri, angch
 ms.topic: article
@@ -72,16 +72,16 @@ Follow these steps to run the wizard.
 
     :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Screenshot of the page in wizard to select institution type.":::
 
-3. Search for and select a group that contains your educators and staff, and then select **Next**. If you don’t have any groups set up yet for your educators and staff, [create a group](/microsoft-365/admin/create-groups/create-groups), and then re-run the wizard. <br/><br/>Currently, you can only select one group. Educators and staff in the group you select will be assigned [a set of custom policies](#policies-applied-by-the-wizard) tailored to their needs. Remember that this set of policies is separate from the policies applied to students.
+3. Search for and select groups that contain your educators and staff, and then select **Next**. If you don’t have any groups set up yet for your educators and staff, [create a group](/microsoft-365/admin/create-groups/create-groups), and then re-run the wizard. <br/><br/>You can select up to three groups. Educators and staff in the groups you select will be assigned [a set of custom policies](#policies-applied-by-the-wizard) tailored to their needs. Remember that this set of policies is separate from the policies applied to students.
 
-    :::image type="content" source="media/easy-policy-setup-group.png" alt-text="Screenshot of page in wizard to select educator and staff group.":::
+    :::image type="content" source="media/edu-policy-wizard-add-3-groups.png" alt-text="Screenshot of page in wizard to select educator and staff groups.":::
 
 4. Review your selections.
 
-    :::image type="content" source="media/easy-policy-setup-review-selections.png" alt-text="Screenshot of page in wizard to review selections.":::
+    :::image type="content" source="media/edu-policy-wizard-3-groups-review.png" alt-text="Screenshot of page in wizard to review selections.":::
 
-5. Select **Apply** to apply your changes. This may take a few minutes to complete.<br/><br/>The Global (Org-wide default) policy definitions are immediately applied to students. For your educators and staff, it could take few hours for the custom policies to be assigned to each member of the group you selected, depending on the size of the group. This happens in the background, after you successfully complete this step.
-6. You're on your way but you're not done yet! There's a few more things to consider. Next, check out the steps in the [What to do after running the wizard](#what-to-do-after-running-the-wizard) section of this article.
+5. Select **Apply** to apply your changes. This may take a few minutes to complete.<br/><br/>The Global (Org-wide default) policy definitions are immediately applied to students. For your educators and staff, it could take a few hours for the custom policies to be assigned to each member of the groups you selected, depending on the size of the groups. This happens in the background, after you successfully complete this step.
+6. You're on your way, but you're not done yet! There're a few more things to consider. Next, check out the steps in the [What to do after running the wizard](#what-to-do-after-running-the-wizard) section of this article.
 
     :::image type="content" source="media/easy-policy-setup-on-way.png" alt-text="Screenshot of page in wizard for next steps.":::
 
@@ -132,9 +132,9 @@ See [Keeping students safe while using Teams for distance learning](https://supp
 
 ### Step 3: Check Message Center for policy updates
 
-Currently, the wizard applies our recommended policies when you run it. It's important to know that as new policies become available in Teams, the Global (Org-wide default) settings for student safety are automatically updated by the wizard. 
+Currently, the wizard applies our recommended policies when you run it. It's important to know that as new policies become available in Teams, the Global (Org-wide default) settings for student safety are automatically updated by the wizard.
 
-But do check the [Message Center](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) (in the Microsoft 365 admin center) frequently to stay up to date on new features and their policies and policy settings in Teams. 
+But do check the [Message Center](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) (in the Microsoft 365 admin center) frequently to stay up to date on new features and their policies and policy settings in Teams.
 
 ## Make changes in the wizard
 
@@ -143,15 +143,15 @@ But do check the [Message Center](https://admin.microsoft.com/AdminPortal/Home?#
 If you need to make changes after you run the wizard, you can re-run it and change your selections.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Home**, and then in the **Easy policy setup for a safe learning environment** tile, select **Change**.
-2. From here, continue through each page of the wizard to make your changes. You can change your institution type, the group of educators and staff to which you want to assign policies, or both.
+2. From here, continue through each page of the wizard to make your changes. You can change your institution type, the groups of educators and staff to which you want to assign policies, or both.
 
 The following table summarizes what happens when you make a change in the wizard.
 
 |Type of change  |Policy behavior  |
 |---------|---------|
-|Change both the educational institution type and the educators and staff group    |<ul><li>**Students**: The Global (Org-wide default) policy definitions based on the new educational institution type are applied to students.</li><li>**Educators and staff**: A set of custom policy definitions based on the new educational institution type is created and assigned to the new educator and staff group. The previous custom policy definitions are removed from the previous educators and staff group.</li></ul>    |
-|Change only the educational institution type    |<ul><li>**Students**: The Global (Org-wide default) policy definitions based on the new educational institution type are applied to students.</li><li>**Educators and staff**: A set of custom policy definitions based on the new educational institution type is created and assigned to the educators and staff group. The custom policy definitions created for the previous educational institution type are removed from the educators and staff group.</li></ul>         |
-|Change only the educators and staff group   |<ul><li>**Students**: No change to the Global (Org-wide default) policy definitions applied to students.</li><li>**Educators and staff**: The custom policy definitions are assigned to the new educators and staff group and removed from the previous educators and staff group.</li></ul>         |
+|Change both the educational institution type and the educators and staff groups    |<ul><li>**Students**: The Global (Org-wide default) policy definitions based on the new educational institution type are applied to students.</li><li>**Educators and staff**: A set of custom policy definitions based on the new educational institution type is created and assigned to the new educator and staff groups. The previous custom policy definitions are removed from the previous educators and staff groups.</li></ul>    |
+|Change only the educational institution type    |<ul><li>**Students**: The Global (Org-wide default) policy definitions based on the new educational institution type are applied to students.</li><li>**Educators and staff**: A set of custom policy definitions based on the new educational institution type is created and assigned to the educators and staff groups. The custom policy definitions created for the previous educational institution type are removed from the educators and staff groups.</li></ul>         |
+|Change only the educators and staff groups   |<ul><li>**Students**: No change to the Global (Org-wide default) policy definitions applied to students.</li><li>**Educators and staff**: The custom policy definitions are assigned to the new educators and staff groups and removed from the previous educators and staff groups.</li></ul>         |
 
 ## Policies applied by the wizard
 
@@ -189,6 +189,9 @@ Here's the policy areas and corresponding policy names covered by the wizard. To
 
 Here's a summary of the settings applied by the wizard for each policy area.
 
+> [!NOTE]
+> Only team owners can create shared channels.<br><br>Shared channels with other organizations requires configuration of [Azure AD B2B direct connect](/azure/active-directory/external-identities/b2b-direct-connect-overview) which is disabled by default. See [Collaborate with external participants in a channel](/microsoft-365/solutions/collaborate-teams-direct-connect) to enable this feature.
+
 #### [**Students**](#tab/student-settings/)
 
 Here's a list of the Global (Org-wide default) policy definitions adjusted by the wizard and applied to students.
@@ -196,11 +199,14 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 |Policy area |Sub-area  |Policy setting  |Primary or Secondary |Higher education |
 |---------|---------|---------|---------|---------|
 |Teams policy   |         |Create private channels         |Off       |On|
-|Meetings policy    |General         |Meet now in channels         |Off      |On|
-|  |        |Outlook add-in         |Off       |On|
-|  |        |Channel meeting scheduling        |Off      |On|
-|  |        |Private meeting scheduling       |Off      |On|
-|  |        |Meeting registration              |On       |On|
+|               |         |Create shared channels         |On       |On|
+|               |         |Share channel with external participants         |On       |On|
+|               |         |Participate in an external shared channel         |On       |On|
+|Meetings policy    |General         |Allow Meet now in channels         |Off      |On|
+|  |        |Allow the Outlook add-in         |Off       |On|
+|  |        |Allow channel meeting scheduling        |Off      |On|
+|  |        |Allow scheduling private meetings       |Off      |On|
+|  |        |Allow meeting registration              |On       |On|
 |  |        |Who can register    |Everyone in the organization      |Everyone in the organization|
 |  |Audio & video        |Transcription        |On       |On|
 |  |        |Cloud recording         |Off      |On|
@@ -261,16 +267,19 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 
 #### [**Educators and staff**](#tab/educator-settings/)
 
-Here's a list of the custom policy definitions assigned to the educators and staff group that you choose in the wizard.  
+Here's a list of the custom policy definitions assigned to the educators and staff groups that you choose in the wizard.  
 
 |Policy area |Sub-area  |Policy setting  |Primary or Secondary |Higher education |
 |---------|---------|---------|---------|---------|
 |Teams policy   |         |Create private channels         |On       |On|
-|Meetings policy    |General         |Meet now in channels         |On      |On|
-|  |        |Outlook add-in         |On       |On|
-|  |        |Channel meeting scheduling        |On      |On|
-|  |        |Private meeting scheduling       |On      |On|
-|  |        |Meeting registration              |On       |On|
+|               |         |Create shared channels         |On       |On|
+|               |         |Share channel with external participants         |On       |On|
+|               |         |Participate in an external shared channel         |On       |On|
+|Meetings policy    |General         |Allow Meet now in channels         |On      |On|
+|  |        |Allow the Outlook add-in         |On       |On|
+|  |        |Allow channel meeting scheduling        |On      |On|
+|  |        |Allow scheduling private meetings       |On      |On|
+|  |        |Allow meeting registration              |On       |On|
 |  |        |Who can register    |Everyone in the organization      |Everyone in the organization|
 |  |Audio & video        |Transcription        |On       |On|
 |  |        |Cloud recording         |On      |On|

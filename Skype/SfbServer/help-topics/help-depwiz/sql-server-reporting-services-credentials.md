@@ -1,8 +1,8 @@
 ---
 title: "SQL Server Reporting Services (Credentials)"
 ms.reviewer: 
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
