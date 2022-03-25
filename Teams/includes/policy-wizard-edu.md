@@ -3,4 +3,4 @@
 >
 > The tool adjusts the Global (Org-wide default) policy definition of a core set of policies with settings that we recommend for student safety and applies it to students.
 >
-> The tool also creates and assigns a set of custom policies to educators and staff. If you already used the wizard to apply policies for your students, educators and staff, use this article as a reference or *only* if you want to create and manage custom policies for your students, educators and staff.
+> The tool also creates and assigns a set of custom policies to educators and staff.
