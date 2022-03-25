@@ -59,11 +59,13 @@ If you've already deployed Teams (as a pilot or full deployment) and are looking
 
 # [Planning guide](#tab/planning)
 
-## Step 1: Get your people together
+## Teams Planning guide
+
+### Step 1: Get your people together
 
 Assemble a group of individuals from staff, educators, and the educator community to act as the stakeholder & decision-making group for your Teams deployment.
 
-## Step 2:  Prioritize your scenarios
+### Step 2:  Prioritize your scenarios
 
 Pick the most relevant scenarios for your organization instead of talking about features and functions.
 
@@ -82,7 +84,7 @@ Successful Teams deployments often center around highly collaborative teams that
 > - SharePoint
 > - Training and Adoption
 
-## Step 3: Conduct pilots and deploy Teams
+### Step 3: Conduct pilots and deploy Teams
 
 You’ll want to conduct an initial Teams pilot with your educators, both champions and early adopters. A pilot gives you valuable information about how Microsoft 365 and Teams are received in your school.
 
@@ -99,7 +101,7 @@ Once your pilots are complete, you’ll have the feedback you need to plan your 
 
 Be sure your deployment plan accounts for your prioritized scenarios, ensuring your school is getting the most from Microsoft 365 and Teams.
 
-## Step 4: Measure usage, manage satisfaction, and drive adoption
+### Step 4: Measure usage, manage satisfaction, and drive adoption
 
 To successfully drive adoption of Microsoft 365 and Teams, stay focused on your educators' experience.
 
@@ -115,6 +117,8 @@ Here’s a quick checklist of our best practices to get you started.
 
 # [Turn on or off Teams licenses](#tab/licenses)
 
+## Turn on or off Teams licenses
+
 Once an educator or student has a valid license and Teams has been enabled, they can run the desktop, web, and mobile Teams clients.
 
 They can install these clients themselves -- the IT admin doesn't need to deploy these clients.
@@ -122,48 +126,51 @@ They can install these clients themselves -- the IT admin doesn't need to deploy
 You can manage individual user licenses for Microsoft Teams by using the Microsoft 365 Admin Center or by using PowerShell. See [Microsoft 365 licensing for Teams](/teams-edu-licensing) for information about both methods.
 
 # [Configure Teams](#tab/configure)
-  
+
+## Configure Teams for your school
+
 You can easily manage all Teams policies in the [Microsoft Teams admin center](https://admin.teams.microsoft.com/) by signing in with your admin credentials.
 
 [!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 We suggest that you define different policies to manage which capabilities are available to your varying user groups, like educators, students, and staff.
 
-To configure a policy:
+**To configure a policy:**
 
 1. In the left navigation of the Teams admin center, expand the Teams feature you want to configure. For example, **Teams**, **Meetings**, or **Teams apps**.
-
 2. Find and select the policy page from the expanded menu.
-
 3. Select the policy you want to configure and change its settings.
-
 4. Select **Save**.
 
 With policies, you can turn on and off features at the per-user level. Here’s how policy assignments work:
 
 - By default, every new user will get the Global policy (tenant-level settings).
-- A user can be assigned a pre-defined user policy created by Microsoft if it meets your requirements. These pre-defined policies are not editable by admins. If you want to manage these in the future, create new custom policies and assign the custom policies to users.
+- A user can be assigned a pre-defined user policy created by Microsoft, if it meets your requirements. These pre-defined policies are not editable by admins. If you want to manage these in the future, create new custom policies, and assign the custom policies to users.
 - A custom policy can be assigned to any user. To create a new custom policy, click **Add**, choose the settings you want for the policy, and click **Save**. Then, assign the custom policy to a user by going to **Users** in the Teams admin center or using a PowerShell script.
 
-## How to allow different policies for faculty and students
+### Allow different policies for faculty and students
 
 To have custom settings for faculty and students (for example, Chat is turned on for faculty but not for students), there are two methods to create and assign them:
 
-- Use the PowerShell module to run a script to create and assign multiple policies. See the Appendix for script examples and documentation.
-- In the Teams admin center, create a new custom policy and assign the policy to users on the **Users** tab.
+- Use the PowerShell module to run a script to create, and assign multiple policies. See the [Appendix](#appendix) for script examples and documentation.
+- In the Teams admin center, create a new custom policy, and assign the policy to users on the **Users** tab.
 
 > [!NOTE]
-> Until a custom policy is assigned to a user, the user will be using the Global policy setting. This means that if Chat is turned in the Global policy and turned off in the custom Student policy, until the custom policy is assigned to the student, the student can use Chat. In this case, it may be easier to turn off Chat globally and use custom policies to allow Chat for faculty.
+> Until a custom policy is assigned to a user, the user will be using the Global policy setting.
+>
+> This means that if Chat is turned in the Global policy and turned off in the custom Student policy, until the custom policy is assigned to the student, the student can use Chat.
+>
+> In this case, it may be easier to turn off Chat globally and use custom policies to allow Chat for faculty.
 
 ### Use policies and settings to enforce student safety measures
 
 To maintain student safety, you should use administrative policies to control who can use private chat and private calling, who can schedule meetings, and what content types can be shared.  
 
-View [Keeping students safe while using Teams for distance learning](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8) for more details on what policies and setting updates you need to make within your environment to keep it safe for students.
+View [Keeping students safe while using Teams for distance learning](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8) for more details on what policies and setting updates you need to make it safe for students.
 
 ### Appendix
 
-#### How to create and assign a messaging policy
+#### Create and assign a messaging policy
 
 1. See whether any of the available policies in your tenants suit your requirements by running Get-CsTeamsMessagingPolicy.
 2. If not, create a new policy by running New-CsTeamsMessagingPolicy -Identity &lt;policy name&gt; -&lt;parameter name&gt; -&lt;parameter value&gt;.
@@ -176,13 +183,15 @@ See [PowerShell script sample - Create and assign a messaging policy](./scripts/
 
 # [Distribute to clients](#tab/distribute)
 
+## Distribute to clients
+
 Teams has clients available for web, desktop (Windows, Mac, and Linux), and mobile (Android and iOS). These clients all require an active internet connection and do not support an offline mode. To get the latest details on the functionality and methods of distribution of each of these clients, check out our topic to [Get clients for Teams](get-clients.md).
 
 The setup file for the Teams client is an executable file that can be downloaded by admins and end users from the [Teams downloads page](https://teams.microsoft.com/downloads). Educators and students on desktops can install the application if they have the appropriate privileges. IT Admins can also distribute the installer and through their existing client distribution tools.
 
 End users with mobile devices can download the Microsoft Teams app from the mobile platform’s app store.
 
-## Operating system requirements
+### Operating system requirements
 
 |Windows |macOS |Linux |iOS |Android |
 |--------|------|------|----|--------|
@@ -194,7 +203,9 @@ End users with mobile devices can download the Microsoft Teams app from the mobi
 
 # [Resources and support](#tab/resources)
 
-For more information on getting set up with Microsoft 365, aiding Teams adoption, or support, see these articles:
+## Resources, feedback, and support
+
+For more information on getting set up with Microsoft 365, aiding Teams adoption, providing feedback, or contacting support, see these articles:
 
 [Microsoft 365 Education deployment overview](/microsoft-365/education/deploy/)
 
