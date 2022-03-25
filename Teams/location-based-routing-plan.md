@@ -20,7 +20,7 @@ appliesto:
 
 # Plan Location-Based Routing for Direct Routing
 
-TEST DOC
+TEST DOC2
 
 In some countries and regions, it's illegal to bypass the Public Switched Telephone Network (PSTN) provider to decrease long-distance calling costs. 
 
@@ -168,7 +168,7 @@ The following diagrams show the decision flows for inbound and outbound calls.
 
 **Outbound calls**
 
-![Diagram showing diagram for outbound calls](media/lbr-routing-outbound.png "Diagram showing scenarios for Location-Based Routing")
+![Diagram showing LBR for outbound calls](media/lbr-routing-outbound.png "Diagram showing scenarios for Location-Based Routing")
 
 
 ## Scenarios for Location-Based Routing
