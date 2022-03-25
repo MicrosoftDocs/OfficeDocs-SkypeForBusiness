@@ -26,6 +26,8 @@ appliesto:
 
 # Quick start - Set up Teams for Education
 
+This guide is for **IT admins in education**, including those who haven't yet deployed Teams.
+
 [Microsoft Teams](https://support.office.com/article/Video-What-is-Microsoft-Teams-b98d533f-118e-4bae-bf44-3df2470c2b12) is a digital hub that brings conversations, meetings, files, and apps together in one place. Because it’s built on Microsoft 365, schools benefit from integration with their familiar Office apps and services.
 
 It delivers enterprise-grade security and compliance that is extensible and customizable to fit the needs of every school.
@@ -37,8 +39,6 @@ With Microsoft Teams, your school or institution can:
 - Communicate with school staff
 - Coordinate research across institutions
 - Easily facilitate student life efforts like clubs or extracurricular activities
-
-This guide is for **IT admins in education**, including those who haven't yet deployed Teams.
 
 This guide will help you get started with:
 
