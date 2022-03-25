@@ -1620,7 +1620,7 @@ items:
         - name: Get started with Teams for Education
           items:
             - name: Quick start - Set up Teams for Education
-              href: teams-quick-start-edu.yml
+              href: teams-quick-start-guide-edu.md
             - name: Get started with remote learning
               href: remote-learning-edu.md
             - name: Troubleshoot low-bandwidth scenarios

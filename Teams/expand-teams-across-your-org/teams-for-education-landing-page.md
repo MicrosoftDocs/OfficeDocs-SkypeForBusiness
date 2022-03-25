@@ -29,7 +29,7 @@ Use the IT admin resources here to help you successfully deploy, adopt, and mana
 
 | IT admin resources | &nbsp; |
 | ------------------ | ------ |
-| ![Screenshot of right arrow icon.](../media/arrow-right-2-teams.svg)  |  [Quick start - Set up Teams for Education](../teams-quick-start-edu.md) |
+| ![Screenshot of right arrow icon.](../media/arrow-right-2-teams.svg)  |  [Quick start - Set up Teams for Education](../teams-quick-start-guide-edu.md) |
 | ![Screenshot of clipboard icon](../media/tasks-teams-copy.svg)  |  [Get started with remote learning](../remote-learning-edu.md) |
 | ![Screenshot of paper and pencil icon.](../media/sign-up-teams.svg) | [Set up Supervised chats in Teams](../supervise-chats-edu.md) |
 | ![Screenshot of insights icon.](../media/insights-teams.svg) | [Learn about students with Education Insights](../class-insights.md) |
