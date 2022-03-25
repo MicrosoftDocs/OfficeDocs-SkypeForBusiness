@@ -115,4 +115,3 @@ The complete source code is available as well, so you can explore it in detail, 
 | Ask yourself | Action |
 |--------------|--------|
 | Do I want to install any Teams app templates, such as Icebreaker? |To learn more, read [App templates for Teams](/microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=MicrosoftTeams%2ftoc.json).|
-|||
