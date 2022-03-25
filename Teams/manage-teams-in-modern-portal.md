@@ -35,7 +35,7 @@ As an admin, you may need to view or update the teams that your organization set
 You can learn more about admin roles in Teams in [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md), and you can read more about how to use the PowerShell cmdlets for managing teams in the [Microsoft Teams cmdlet reference](/powershell/teams/).
 
 > [!NOTE]
-> Skype for Business Online Admins can manage both **Teams** and **Skype for Business Online** app policies through PowerShell module for now. Microsoft is working on separating out these capabilities in future updates.
+> Skype for Business Online Admins can manage both **Teams** and **Skype for Business Online** app policies through PowerShell.
 
 ## Teams overview grid
 
