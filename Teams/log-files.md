@@ -109,6 +109,9 @@ See the _Collect and enable logging_ section for Windows and Mac instructions. M
 
 Media logging is turned off by default. To log diagnostic data for Teams meetings, users must turn on the option in the Teams client. Go to **Settings** > **General**, select the **Enable logging for meeting diagnostics (requires restarting Teams**) check box, restart Teams, and reproduce the issue. 
 
+> [!NOTE]
+> When you sign out of Teams, Media logging resets to its default. 
+
 When you send the log files to Microsoft support, please verify the timestamp of the log files to ensure the logs cover the time frame when you reproduced the issue.
 
 To collect logs for Linux:  
