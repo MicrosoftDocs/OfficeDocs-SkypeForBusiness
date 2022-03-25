@@ -62,6 +62,14 @@ Frontline workers can:
 - Request time off, open shifts, and swap shifts in Shifts.
 - Set their availability in Shifts.
 
+The following actions are currently not supported:
+
+- Add, edit, delete, save, or publish shifts in Shifts.
+- Add, edit, delete, save, or publish time off in Shifts.
+- Add, edit, delete, save, or publish open shifts in Shifts.
+
+When a frontline manager or worker tries to do any of these actions in Shifts, they'll receive a message to let them know the action isn't supported.
+
 #### Example scenario
 
 Eden, a manager, publishes a schedule in Blue Yonder, which is synced to Shifts in Teams through the connector. Alex, a staff member, gets notified in Teams on his mobile device, and views his schedule and assigned shifts.
