@@ -83,12 +83,13 @@ Keep the following best practices in mind:
 
 - The PSTN Gateway and Network Site associated with the gateway must both be enabled for Location-Based Routing.
 
+- To place calls through a PSTN gateway that is enabled for Location-Based Routing, users must also be enabled for Location-Based Routing.
+
 - To allow users who are enabled for Location-Based Routing to place outbound PSTN calls from an unmatched network site, the following must be true:
 
-  - The call needs to egress from a Location-Based Routing enabled PSTN gateway that is enabled for Location-Based Routing
+  - The call needs to egress from a PSTN gateway that is enabled for Location-Based Routing.
   - The PSTN gateway must be configured with the flag GatewayLbrEnabledUserOverride set to True.
 
-- Users must be enabled for Location-Based Routing to place calls through a PSTN gateway that is enabled for Location-Based Routing.
 
 ### Apply Location-Based Routing at the user location
 
