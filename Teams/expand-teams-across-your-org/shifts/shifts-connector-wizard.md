@@ -84,22 +84,22 @@ To learn more, see [Remove-CsTeamsShiftsScheduleRecord](/powershell/module/teams
 ### Choose sync settings
 <a name="sync"> </a>
 
-On the Sync settings page, you choose the information to sync from Blue Yonder to Shifts, whether Shifts users can make changes to the data, and the sync frequency.
+On the Sync settings page, you choose the information to sync from Blue Yonder to Shifts, the sync frequency, and whether Shifts users can make changes to the data.
 
 1. Enter your Microsoft 365 system account.
     :::image type="content" source="../../media/shifts-connector-wizard-sync-settings.png" alt-text="Screenshot of the Sync settings page of the wizard, showing sync settings." lightbox="../../media/shifts-connector-wizard-sync-settings.png":::
 <a name="email"> </a>
 1. Under **Email notification recipients**, choose who receives email notifications about this connection. You can add individual users and groups. The email notifications contain information about connection setup status and any issues or errors that may occur after the connection is set up.
 1. Choose your sync settings:
-    1. Under **Requests**, choose the types of requests that Shifts users can see and create.
-    2. Under **Schedule and shifts**, choose the Blue Yonder data that Shifts users can see or change, and then set the sync frequency.
+    1. Under **Schedule and shifts**, choose the Blue Yonder data that Shifts users can see or change, and then set the sync frequency.
+    2. Under **Requests**, choose the types of requests that Shifts users can see and create.
 
     > [!IMPORTANT]
     > If you chose any of the following options to disable swap requests, time off requests, or open shifts, there's another step you need to do after you run the wizard to disable these scenarios. Make sure you follow the steps in the [Disable swap requests, time off requests, open shifts, and open shifts requests](#disable-swap-requests-time-off-requests-open-shifts-and-open-shifts-requests) section later in this article.
     >
+    > - Open shifts: **Shifts users will not see Blue Yonder data**
     > - Swap requests: **Feature is disabled for all users**
     > - Time off requests: **Feature is disabled for all users**
-    > - Open shifts: **Shifts users will not see Blue Yonder data**
  
 1. When you're done choosing your settings, select **Create connection**.
 
@@ -143,6 +143,8 @@ You’ll see a message to confirm that we received your request along with an op
 
 :::image type="content" source="../../media/shifts-connector-wizard-operation-id.png" alt-text="Screenshot of the wizard page, showing confirmation message and operation ID." lightbox="../../media/shifts-connector-wizard-operation-id.png":::
 
+:::image type="content" source="../../media/shifts-connector-wizard-finish.png" alt-text="Screenshot of the wizard page, showing confirmation message and operation ID." lightbox="../../media/shifts-connector-wizard-finish.png":::
+
 The wizard starts the process to set up the connection and map the sites to the teams you selected. This process may take some time to complete. The recipients you chose will receive email notifications about setup status.
 
 Select **Done** to exit the wizard.
@@ -157,9 +159,9 @@ You’re on your way but you’re not done yet! Be sure to check your email. You
 > [!IMPORTANT]
 > Follow these steps only if you chose any of the following options to disable swap requests, time off requests, or open shifts in the wizard. Completing this step disables the scenario. 
 >
+> - Open shifts: **Shifts users will not see Blue Yonder data**
 > - Swap requests: **Feature is disabled for all users**
 > - Time off requests: **Feature is disabled for all users**
-> - Open shifts: **Shifts users will not see Blue Yonder data**
 
 To disable swap requests, time off requests and open shifts, se the Graph API [schedule resource type](https://docs.microsoft.com/graph/api/resources/schedule?view=graph-rest-1.0) to set the following parameters to ```false``` for each team that you mapped to a Blue Yonder site:
 
