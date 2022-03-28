@@ -27,7 +27,7 @@ for more information.
 
 ## Supported Conditional Access policies  
 
-The following list includes the supported Conditional Access policies for Teams Rooms on Windows and on Android:
+The following list includes the supported Conditional Access policies for Teams Rooms on Windows and on Android. The supported Android policies apply to all Android devices, phones, and panels.
 
 | Assignment | Windows | Android |
 |------------|---------|---------|
