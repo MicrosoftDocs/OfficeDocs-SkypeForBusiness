@@ -78,7 +78,7 @@ For more information, see [Microsoft Teams add-on licensing](./teams-add-on-lice
     
 5. Enter your payment information and click **Place order**.
     > [!IMPORTANT]
-    > If you are a volume licensing customer, you may choose your enterprise agreement number for payment. If you have multiple enterprise agreement numbers, you will be able to select which enterprise agreement you would like to use for payment. You will also be given an opportunity to specify a purchase order number to associate with the enterprise agreement number (if applicable).  To bill communication credits you need to use a Global Admin account and not a Billing Admin account.
+    > If you are a volume licensing customer, you may choose your enterprise agreement number for payment. If you have multiple enterprise agreement numbers, you will be able to select which enterprise agreement you would like to use for payment. You will also be given an opportunity to specify a purchase order number to associate with the enterprise agreement number (if applicable). To bill communication credits you need to use a Global Admin account and not a Billing Admin account.
 
 Each organization will have a different usage of Calling Plan volume and rates to consider. You will need to get this type of usage data from your current service provider. Organizations already using Skype for Business Online or Microsoft Teams as their service provider can get usage data by reviewing it in the **Microsoft Teams admin center** > **Analytics & reports** > **Usage reports** > **PSTN and SMS (preview) usage** report.
   
