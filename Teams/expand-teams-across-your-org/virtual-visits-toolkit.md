@@ -89,7 +89,7 @@ You can link your customers here Join a Bookings appointment as an attendee (mic
 
 ## Resources for your team
 
-Make the most of Virtual Visits by making sure your staff members know how to conduct them. You can share this with your team members to help them better understand Virtual Visits.
+Make the most of Virtual Visits by making sure your staff members know how to conduct them. You can share these articles and videos with your team members to help them better understand Virtual Visits.
 
 - [Learn how to use the Bookings app in Teams](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5)
 - [Learn how to join a Bookings appointment](https://support.microsoft.com/office/join-a-bookings-appointment-attendees-3deb7bde-3ea3-4b41-8a06-741ad0db9fc0)
@@ -98,7 +98,7 @@ Make the most of Virtual Visits by making sure your staff members know how to co
 
 ## Resources for your clients
 
-You can link out to this article to show your clients how to join Virtual Visits:
+You can link out to this article to show your clients how to join Virtual Visits: <br>
 [Learn how to join a virtual visit](https://support.microsoft.com/office/join-a-bookings-appointment-as-an-attendee-95cea12d-2220-421f-a663-6efb20913c7f)
 
 Download and [customize](#customize-your-infographic) one of these infographics to feature on your website. These give your clients a quick and visually engaging way to understand how Virtual Visits with your organization work.
