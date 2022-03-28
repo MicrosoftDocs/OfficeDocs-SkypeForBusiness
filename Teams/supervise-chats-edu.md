@@ -53,7 +53,7 @@ For supervised chat to work as expected each user within your environment needs 
 
 - *Limited permissions* – This role is ideal for staff members who should only have supervised access to students and have full access to other staff and educators. They can start chats with any full or limited users but can't start chats with restricted users. If a user with full permissions begins a chat with a restricted user, limited users can be brought into the conversation. This access happens because a user with full permissions is present to supervise collaboration between limited and restricted users.
 
-- *Restricted permissions* – This role is ideal for students who need to be supervised. They can only start chats with users who have full permissions. They can participate in any conversation that a user with full permissions invites them to. In federated chat cases, restricted users can only be added to chats by a user with full permissions who is from the restricted user’s tenant.
+- *Restricted permissions* – This role is ideal for students who need to be supervised. They can only start chats with users who have full permissions. They can participate in any conversation that a user with full permissions starts and then invites them to. In federated chat cases, restricted users can only be added to chats by a user with full permissions who is from the restricted user’s tenant.
 
 To set your users’ chat permission role, use the **Chat permissions** **role** policy found within your Messaging policy options in the Teams admin portal. You can use PowerShell to define roles using the ChatPermissionRole policy with the values Full, Limited, or Restricted. This policy is under CsTeamsMessagingPolicy.
 
