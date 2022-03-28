@@ -1,7 +1,7 @@
 ---
 title: "Prepare your Environment"
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
