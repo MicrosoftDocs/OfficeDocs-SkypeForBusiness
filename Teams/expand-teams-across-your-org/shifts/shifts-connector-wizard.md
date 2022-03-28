@@ -143,8 +143,6 @@ You’ll see a message to confirm that we received your request along with an op
 
 :::image type="content" source="../../media/shifts-connector-wizard-operation-id.png" alt-text="Screenshot of the wizard page, showing confirmation message and operation ID." lightbox="../../media/shifts-connector-wizard-operation-id.png":::
 
-:::image type="content" source="../../media/shifts-connector-wizard-finish.png" alt-text="Screenshot of the wizard page, showing confirmation message and operation ID." lightbox="../../media/shifts-connector-wizard-finish.png":::
-
 The wizard starts the process to set up the connection and map the sites to the teams you selected. This process may take some time to complete. The recipients you chose will receive email notifications about setup status.
 
 Select **Done** to exit the wizard.
