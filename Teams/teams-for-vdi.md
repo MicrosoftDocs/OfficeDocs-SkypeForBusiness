@@ -483,13 +483,16 @@ if($cleanup){
 - Azure Virtual Desktop doesn't support macOS and Linux-based clients at this time.
 - Fast tenant switch can result in calling-related issues on VDI such as screen sharing not available. Restarting the client will mitigate these issues.
 
+### Notifications
+
+- Message count notification and presence on the Windows taskbar is not supported on a Windows Server 2016 host.
+
 ### Calling and meetings
 
 The following calling and meeting features are not supported:
 
 - Any multi-window functionality like the new meeting experiences or any functionality that comes with the new meeting experience
-- Enhanced emergency services
-- HID buttons and LED controls between the Teams app and devices
+- HID buttons and LED controls between the Teams app and devices for Citrix and VMware
 - Background blur and effects
 - Broadcast and live event producer and presenter roles
 - Location-Based Routing (LBR)

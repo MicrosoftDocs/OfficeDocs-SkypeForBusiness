@@ -62,7 +62,7 @@ To start customizing an app, complete the following steps:
 
      ![The customize selection option 2.](media/app-details-customizable.png)
 
-   - Select the app name, and then select **Customize** from the **Actions** dropdown.
+   - Select the app name, click on **overflow menu** hover on **Actions** and select customize.
 
      ![The customize selection option 3.](media/customize-action-menu.png)
 
