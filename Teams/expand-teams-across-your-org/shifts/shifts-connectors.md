@@ -89,8 +89,6 @@ For step-by-step guidance, see:
 
 After a connection is set up, you can use PowerShell to update and change connection settings at any time, as needed. As for the connector itself, you don't need to worry about upgrades or maintenance. We take care of that.
 
-## Known issues and limitations
-
 ### Reflexis Shifts connector for Microsoft Teams
 
 The Reflexis Shifts connector for Microsoft Teams is hosted and managed by Zebra. With this connector, you can integrate Shifts with the Reflexis WFM system to manage your schedules and keep them up to date.

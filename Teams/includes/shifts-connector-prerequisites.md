@@ -1,6 +1,6 @@
 Before you get started, make sure you have the following prerequisites:
 
-- Blue Yonder version 2020.3, 2021.1, or 2021.2.
+- Blue Yonder WFM version 2020.3, 2021.1, or 2021.2.
 
     > [!NOTE]
     > If you have Blue Yonder WFM 2020.3 or 2021.1, apply the 2020.3.0.4 or 2021.1.0.3 patch. This patch fixes an issue where users get a persistent error message in Shifts. It also fixes an issue that prevents users from updating their availability in Shifts.
