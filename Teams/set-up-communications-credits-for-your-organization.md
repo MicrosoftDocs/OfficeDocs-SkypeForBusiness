@@ -59,7 +59,7 @@ For more information, see [Microsoft Teams add-on licensing](./teams-add-on-lice
 
 3. Look for **Communication Credits** under the **add-ons** category or search for "Communication Credits" in the **Search all product categories** search box and click **Details**.
     
-4. Review the service information and select **Buy**. (Note: A fixed number of Communication Credits licenses are automatically selected in every order).
+4. Review the service information and select **Buy**. (Note: A fixed number of Communication Credits licenses are automatically selected in every order.)
 
 5. On the Checkout page, enter your payment information and fill in the required information:
     
