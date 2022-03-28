@@ -39,7 +39,7 @@ This toolkit is intended to help you help your customers and clients successfull
 
 [Resources for your clients](#resources-for-your-clients): <br>
 A link to Microsoft's support content, which includes a video about joining a Virtual Visit.<br>
-An infographic that you can customize for your organization.
+Infographics that you can customize for your organization.
 
 ## Guidance for your website
 
@@ -105,9 +105,9 @@ Download and [customize](#customize-your-infographic) one of these infographics 
 
 | Graphic                | Description              |
 | :------------------- | -------------------: |
-| ![Image of the financial services infographic](../media/vv-finserv-thumbnail.png) <br> [Download as a PDF](//download.microsoft.com/download/a/b/5/ab5c07d9-cf7a-47b3-ba54-05a8a0a2a1bd/VirtualVisit_Financial_Infographic.pdf) [Download as a PowerPoint](//download.microsoft.com/download/a/b/5/ab5c07d9-cf7a-47b3-ba54-05a8a0a2a1bd/VirtualVisit_Financial_Infographic.pptx) | Customizable infographic for your financial services organization |
-| ![Image of the retail infographic](../media/vv-retail-thumbnail.png) <br> [Download as a PDF]() [Download as a PowerPoint]() | Customizable infographic for your retail organization |
-| ![Image of the healthcare infographic](../media/vv-healthcare-thumbnail.png) <br> [Download as a PDF]() [Download as a PowerPoint]() | Customizable infographic for your healthcare organization |
+| ![Image of the financial services infographic](../media/vv-finserv-thumbnail.png) <br> [Download as a PDF](//download.microsoft.com/download/8/5/7/85784cd8-6945-4fcc-a3c3-972bd88d3fef/VirtualVisit_Financial_Infographic.pdf) [Download as a PowerPoint](//download.microsoft.com/download/8/5/7/85784cd8-6945-4fcc-a3c3-972bd88d3fef/VirtualVisit_Financial_Infographic.pptx) | Customizable infographic for your financial services organization |
+| ![Image of the retail infographic](../media/vv-retail-thumbnail.png) <br> [Download as a PDF](//download.microsoft.com/download/a/b/5/ab5c07d9-cf7a-47b3-ba54-05a8a0a2a1bd/VirtualVisit_Retail_Infographic.pdf) [Download as a PowerPoint](//download.microsoft.com/download/a/b/5/ab5c07d9-cf7a-47b3-ba54-05a8a0a2a1bd/VirtualVisit_Retail_Infographic.pptx) | Customizable infographic for your retail organization |
+| ![Image of the healthcare infographic](../media/vv-healthcare-thumbnail.png) <br> [Download as a PDF](//download.microsoft.com/download/4/d/3/4d3d9c53-0304-4aea-a56a-60a16402c58f/VirtualVisit_Healthcare_Infographic.pdf) [Download as a PowerPoint](//download.microsoft.com/download/4/d/3/4d3d9c53-0304-4aea-a56a-60a16402c58f/VirtualVisit_Healthcare_Infographic.pptx) | Customizable infographic for your healthcare organization |
 
 ### Customize your infographic
 
