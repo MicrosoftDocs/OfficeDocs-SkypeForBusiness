@@ -204,4 +204,4 @@ If a user pulls up the diagnostic tool then closes it, no data is sent.
 
 When the data is sent to a Microsoft support agent, it's handled as Support Data under your organization's Microsoft 365 service agreements.
 
-For instructions on using this diagnostic tool that you can share with educators and students, see [SMC article placeholder]().
+For instructions on using this diagnostic tool that you can share with educators and students, see [Get diagnostic data to troubleshoot Assignments](https://support.microsoft.com/topic/b40793f5-dbae-4c8a-841a-6baa7f232e2e).
