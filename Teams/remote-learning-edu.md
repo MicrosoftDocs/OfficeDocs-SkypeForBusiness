@@ -21,39 +21,31 @@ appliesto:
 ---
 # Get started with Microsoft Teams for remote learning
 
-For an overview of making the transition to remote learning and resources to help you get started, see our [remote learning home page](https://www.microsoft.com/education/remote-learning).
+This article covers the IT administration steps to take in order to get your educational institution set up for remote learning using Microsoft Teams.
 
-Resources to assist educators and students with remote learning are available in [Remote teaching and learning in Office 365 Education](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4).
+Other helpful content you may want to read includes:
 
-This article covers the actual steps to take in order to get your educational institution set up for remote learning.
+- [An overview of making the transition to remote learning and resources to help you get started](https://www.microsoft.com/education/remote-learning)
+- [Resources to assist educators and students with remote learning](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4)
+- [How schools can ramp up remote learning programs quickly with Microsoft Teams](https://aka.ms/teamseduremoteblog)
+- [Details about remote learning capabilities on different platforms](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)
+- [Learn about Teams usage scenarios at the Teams for education webinar series](https://aka.ms/TeamsEDUWebinars)
+- [Download and distribute Teams clients for desktop, web, and mobile](get-clients.md)
 
-> [!Note]
-> For details about remote learning capabilities on different platforms, see [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
+Within Teams, **educators** can:
 
-> [!NOTE]
-> If you're an educator, educational leader, or IT professional, these resources may help:
->
-> - Get your entire educational institute up and running on Teams quickly with the [**Getting Started one-pager**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true).
-> - Download [**How to get started with Teams**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true): A guide for IT professionals with helpful practices for security and change management.
-> - A collection of articles written for educators including how-to guidance for the most important [**first steps in teaching in Teams**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
-> - A 1-hour online course in the Microsoft Educator Center shows how educators use Teams in their professional lives. [**Transform Learning with Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview).
-> - A 1-hour online course in the Microsoft Educator Center leads educators through teaching in Class Teams. [**Crafting a Collaborative Learning Environment with Class Teams**](https://education.microsoft.com/course/b1e15cfc/overview).
-> - If you're an educator, student, or a parent or guardian, get more guidance on [**teaching and learning remotely with Office 365**](https://aka.ms/RemoteLearningHelp).
-> - Parents and guardians can also go to our [**Parent Support Page**](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588) for help with remote learning.
+- Quickly converse with students
+- Share files and websites
+- Create OneNote Class Notebooks
+  - Organize interactive lessons
+  - Provide effective and timely feedback
+- Distribute and grade assignments
+- Share instructional material in Professional Learning Communities
 
-Don't miss the March 4, 2020 blog, [How schools can ramp up remote learning programs quickly with Microsoft Teams](https://aka.ms/teamseduremoteblog).
+**Education administrators and staff** can:
 
-Learning online can be just as personal, engaging and socially connected as learning in a classroom. Students and educators can stay in touch and help each other using conversations, and can feel like they are meeting in person using live meetings. Educators can track student progress in their daily work using Assignments. No one needs to feel out of touch. Many students who learn online say they feel they have more of a voice, and they feel more connected to their educators and peers than they did in the classroom. And, just like in a classroom, educators can use the apps and functions of Teams to support how they work best.
-
-Microsoft Teams is a digital hub that brings conversations, content, assignments, and apps together in one place, letting educators create vibrant learning environments. Build collaborative classrooms, connect in professional learning communities, and connect with colleagues – all from a single experience.
-
-Within Teams, educators can quickly converse with students, share files and websites, create a OneNote Class Notebook, and distribute and grade assignments. Built-in OneNote Class Notebooks and end-to-end assignment management allow educators to organize interactive lessons and provide effective and timely feedback. Educational institute administrators and staff can stay up-to-date and collaborate using Staff Teams for announcements and topical conversations. Educators can share instructional material using Professional Learning Communities.
-
-Use the best practices in this article to start using Teams for your educational needs to enable remote learning capabilities. Class Teams can be used to create collaborative class spaces, provide a virtual meeting platform, facilitate learning with assignments and feedback, and lead live calls with students.
-
-Teams has [clients](get-clients.md) available for desktop (Windows, Mac, and Linux), web, and mobile (Android and iOS) to make sure all your staff and students can stay connected.
-
-Learn more about Teams usage scenarios at the [Teams for education webinar series](https://aka.ms/TeamsEDUWebinars).
+- Stay up-to-date on events
+- Collaborate using Staff Teams for announcements and topical conversations
 
 ## User accounts, licenses, and identity security
 
@@ -301,3 +293,15 @@ Additional support resources include:
 - [Verify service health for Teams](service-health.md)
 - [Support resources for Teams](/microsoft-365/admin/contact-support-for-business-products)
 - [Teams help center](https://support.office.com/teams)
+
+## Additional Resources
+
+If you're an educator, educational leader, or IT professional, these resources may help:
+
+- Get your entire educational institute up and running on Teams quickly with the [**Getting Started one-pager**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true).
+- Download [**How to get started with Teams**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true): A guide for IT professionals with helpful practices for security and change management.
+- A collection of articles written for educators including how-to guidance for the most important [**first steps in teaching in Teams**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
+- A 1-hour online course in the Microsoft Educator Center shows how educators use Teams in their professional lives. [**Transform Learning with Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview).
+- A 1-hour online course in the Microsoft Educator Center leads educators through teaching in Class Teams. [**Crafting a Collaborative Learning Environment with Class Teams**](https://education.microsoft.com/course/b1e15cfc/overview).
+- If you're an educator, student, or a parent or guardian, get more guidance on [**teaching and learning remotely with Office 365**](https://aka.ms/RemoteLearningHelp).
+- Parents and guardians can also go to our [**Parent Support Page**](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588) for help with remote learning.
