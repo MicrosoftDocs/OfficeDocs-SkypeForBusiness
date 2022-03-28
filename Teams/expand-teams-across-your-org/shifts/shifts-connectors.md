@@ -40,21 +40,21 @@ Managed Shifts connectors are connectors developed in collaboration with our par
 ### Microsoft Teams Shifts connector for Blue Yonder
 <a name="blue_yonder"> </a>
 
-The Teams Shifts connector for Blue Yonder is a first-party offering that's hosted and managed by Microsoft. With this connector, you can integrate Shifts with Blue Yonder 2020.3, 2021.1, or 2021.2 to manage your schedules and keep them up to date.  
+The Teams Shifts connector for Blue Yonder is a first-party offering that's hosted and managed by Microsoft. With this connector, you can integrate Shifts with Blue Yonder Workforce Management versions 2020.3, 2021.1, or 2021.2 to manage your schedules and keep them up to date.  
 
 > [!NOTE]
-> If you have Blue Yonder 2020.3 or 2021.1, apply the 2020.3.0.4 or 2021.1.0.3 patch. This patch fixes an issue where users get a persistent error message in Shifts. It also  fixes an issue that prevents users from updating their availability in Shifts.
+> If you have Blue Yonder Workforce Management versions 2020.3 or 2021.1, apply the 2020.3.0.4 or 2021.1.0.3 patch. This patch fixes an issue where users get a persistent error message in Shifts. It also  fixes an issue that prevents users from updating their availability in Shifts.
 
-:::image type="content" source="../../media/shifts-connector-blue-yonder.png" alt-text="Screenshot showing a swap request in Shifts on a mobile device, request approval in Teams on desktop, and a schedule in Blue Yonder." lightbox="../../media/shifts-connector-blue-yonder.png":::
+:::image type="content" source="../../media/shifts-connector-blue-yonder.png" alt-text="Screenshot showing a swap request in Shifts on a mobile device, request approval in Teams on desktop, and a schedule in Blue Yonder Workforce Management." lightbox="../../media/shifts-connector-blue-yonder.png":::
 
 Frontline managers can:
 
-- Publish shifts and schedules in Blue Yonder and view them in Shifts.
-- Create, manage, and assign open shifts in Blue Yonder and view them in Shifts.
-- Assign open shifts that were created in Blue Yonder in Shifts.
-- Create, edit, and delete time off in Blue Yonder and view in Shifts.
-- View and approve schedule requests from workers in both Blue Yonder and Shifts.
-- Set and update worker availability in Blue Yonder and view in Shifts.
+- Publish shifts and schedules in Blue Yonder Workforce Management and view them in Shifts.
+- Create, manage, and assign open shifts in Blue Yonder Workforce Management and view them in Shifts.
+- Assign open shifts that were created in Blue Yonder Workforce Management in Shifts.
+- Create, edit, and delete time off in Blue Yonder Workforce Management and view in Shifts.
+- View and approve schedule requests from workers in both Blue Yonder Workforce Management and Shifts.
+- Set and update worker availability in Blue Yonder Workforce Management and view in Shifts.
 
 Frontline workers can:
 
@@ -72,20 +72,20 @@ When a frontline manager or worker tries to do any of these actions in Shifts, t
 
 #### Example scenario
 
-Eden, a manager, publishes a schedule in Blue Yonder, which is synced to Shifts in Teams through the connector. Alex, a staff member, gets notified in Teams on his mobile device, and views his schedule and assigned shifts.
+Eden, a manager, publishes a schedule in Blue Yonder Workforce Management, which is synced to Shifts in Teams through the connector. Alex, a staff member, gets notified in Teams on his mobile device, and views his schedule and assigned shifts.
 
-Alex needs to take some time off and requests a day off using Shifts. The request is sent to Blue Yonder through the connector in real time. Blue Yonder ensures that the request is compliant with business rules and the request is created. Eden sees and approves the request in Blue Yonder, and the approval is synced to Teams. (Eden can also see and approve the request in Shifts). Alex is notified in Teams that his request is approved and views his updated schedule.
+Alex needs to take some time off and requests a day off using Shifts. The request is sent to Blue Yonder Workforce Management through the connector in real time. Blue Yonder Workforce Management ensures that the request is compliant with business rules and the request is created. Eden sees and approves the request in Blue Yonder Workforce Management, and the approval is synced to Teams. (Eden can also see and approve the request in Shifts). Alex is notified in Teams that his request is approved and views his updated schedule.
 
-Alex wants to swap a shift with a coworker. In Shifts, Alex sees a list of all shifts that are eligible for a swap based on business rules in Blue Yonder. Alex chooses a shift that's currently assigned to Gena. Gena is notified in Teams on their mobile device and accepts the swap request. Eden sees and approves the request in Shifts, and the approval is synced to Blue Yonder. (Eden can also see and approve the request in Blue Yonder). Alex and Gena are notified in Teams, and view their updated schedules.
+Alex wants to swap a shift with a coworker. In Shifts, Alex sees a list of all shifts that are eligible for a swap based on business rules in Blue Yonder Workforce Management. Alex chooses a shift that's currently assigned to Gena. Gena is notified in Teams on their mobile device and accepts the swap request. Eden sees and approves the request in Shifts, and the approval is synced to Blue Yonder Workforce Management. (Eden can also see and approve the request in Blue Yonder Workforce Management). Alex and Gena are notified in Teams, and view their updated schedules.
 
 #### Set up a connection
 
-Integrating Shifts with Blue Yonder using the connector takes just a few steps. You can use the Shifts connector wizard in the Microsoft 365 admin center to quickly and easily set up a connection. The wizard configures the connector based on the settings you choose and creates the connection. If you prefer to use PowerShell, we also provide PowerShell scripts that you can use to get connected.
+Integrating Shifts with Blue Yonder Workforce Management using the connector takes just a few steps. You can use the Shifts connector wizard in the Microsoft 365 admin center to quickly and easily set up a connection. The wizard configures the connector based on the settings you choose and creates the connection. If you prefer to use PowerShell, we also provide PowerShell scripts that you can use to get connected.
 
 For step-by-step guidance, see:
 
 - [Use the Shifts connector wizard to connect your workforce management system](shifts-connector-wizard.md)
-- [Use PowerShell to connect Shifts to your Blue Yonder workforce management system](shifts-connector-blue-yonder-powershell-setup.md)
+- [Use PowerShell to connect Shifts to Blue Yonder Workforce Management](shifts-connector-blue-yonder-powershell-setup.md)
 
 After a connection is set up, you can use PowerShell to update and change connection settings at any time, as needed. As for the connector itself, you don't need to worry about upgrades or maintenance. We take care of that.
 
