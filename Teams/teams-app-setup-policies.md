@@ -56,7 +56,7 @@ Apps are pinned to:
 
 To create an app setup policy to pin apps, do the following steps:
 
-1. Login to [Microsoft Teams admin center](https://www.admin.teams.microsoft.com).
+1. Log in to [Microsoft Teams admin center](https://admin.teams.microsoft.com).
 
 1. In the left pane, go to **Teams apps** > **Setup policies**.
 
