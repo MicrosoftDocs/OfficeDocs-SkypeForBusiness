@@ -163,7 +163,7 @@ You’re on your way but you’re not done yet! Be sure to check your email. You
 > - Swap requests: **Feature is disabled for all users**
 > - Time off requests: **Feature is disabled for all users**
 
-To disable swap requests, time off requests and open shifts, se the Graph API [schedule resource type](https://docs.microsoft.com/graph/api/resources/schedule?view=graph-rest-1.0) to set the following parameters to ```false``` for each team that you mapped to a Blue Yonder site:
+To disable swap requests, time off requests and open shifts, use the Graph API [schedule resource type](https://docs.microsoft.com/graph/api/resources/schedule?view=graph-rest-1.0) to set the following parameters to ```false``` for each team that you mapped to a Blue Yonder site:
 
 - Swap requests:  ```swapShiftsRequestsEnabled```
 - Time off requests: ```timeOffRequestsEnabled```
