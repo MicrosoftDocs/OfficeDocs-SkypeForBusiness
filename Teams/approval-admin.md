@@ -31,7 +31,7 @@ Users can pin the Approvals app to save it to the menu bar.
 
  ![shows the approvals app with the pin option.](media/approvalApp-pin.png)
 
-The first approval created from the Approvals app will trigger the provisioning of the Approval Solution in the default Common Data Service (CDS) environment. Approvals created from the Approvals app will be stored in the default CDS environment.
+The first approval created from the Approvals app will trigger the provisioning of the Approval Solution in the default Common Data Service (CDS) environment. Approvals created from the Approvals app are stored in the default CDS environment.
 
 This article describes the Approvals app requirements and roles.
 
@@ -52,7 +52,7 @@ To deploy the Approvals app, you need permission for the following items:
 
 - License for Microsoft Forms is required for users to set up new approval templates.
 
-To use the Approvals app, you need a license for Power Automate, and your account will be added automatically to the Approvals User role in the target environment on your first approval assignment.
+To use the Approvals app, you need a license for Power Automate, and your account is automatically added to the Approvals User role in the target environment on your first approval assignment.
 
 ## Storage with CDS
 
@@ -63,7 +63,7 @@ Learn more about the [Approval workflow](/power-automate/modern-approvals).
 Approvals that are created from a template still store data in CDS, such as their title, details, template ID, and more. Responses that are submitted on the approval request are stored in Forms. Learn more about  [Data storage for Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
 
 >[!Note]
->If you delete the Form template on the Microsoft Forms site, it will break your Approval template and users will not be able to start the request. Users will get an error "CDB TableNotFound" when trying to open an Approval template that has been deleted on Microsoft Forms.
+>If you delete the Form template on the Microsoft Forms site, it'll break your Approval template and users are unable to start the request. Users get an error "CDB TableNotFound" when trying to open an Approval template that is deleted on Microsoft Forms.
 
 Org-scoped templates share the same lifetime of the tenant and team-scoped templates share the same lifetime of the team. So, permanently deleting the team deletes the related templates.
 
@@ -94,7 +94,7 @@ Approval Template Permissions
 
 - All team owners can create an approval template for teams that they own.
 
-- When an admin creates a template for their entire organization for the first time, it will automatically create a new Azure Active Directory (AAD) group for all admins of the tenant, including the global and Teams service admins. These admins will be added as owners of the group, so they can co-manage organizational templates. Admins that are new to the organization after the team has been created need to be manually added as group owners so they have the same permissions to manage organization-wide templates.
+- When an admin creates a template for their entire organization for the first time, it will automatically create a new Azure Active Directory (AAD) group for all admins of the tenant, including the global and Teams service admins. These admins are added as owners of the group, so they can co-manage organizational templates. Admins that are new to the organization after the team has been created need to be manually added as group owners so they have the same permissions to manage organization-wide templates.
 
 > [!Note]
 > If an admin deletes the group, you have one month to restore it within the Azure Active Directory (AAD) portal to restore all related data. After one month, or if the admin deletes this group within the recycle bin, you will lose all related data.
