@@ -11,6 +11,7 @@ search.appverid: MET150
 searchScope:
   - Microsoft Teams
   - Microsoft Cloud for Healthcare
+  - Microsoft Cloud for Retail
 description: Learn how to set up and manage the Shifts app in Teams for frontline workers in your organization.
 f1.keywords:
 - NOCSH
@@ -19,6 +20,7 @@ ms.collection:
   - M365-collaboration
   - Teams_ITAdmin_FLW
   - microsoftcloud-healthcare
+  - microsoftcloud-retail
 appliesto: 
   - Microsoft Teams
 ms.custom: seo-marvel-mar2020
@@ -42,9 +44,14 @@ It's important to know that Shifts currently don't support guests. This means th
 
 Shifts is available in all Enterprise SKUs where Teams is available.
 
+> [!NOTE]
+> Shifts is available in Government Community Cloud (GCC) environments, but not in GCC High or DoD environments.
+
 ## Location of Shifts data
 
-Shifts data is currently stored in Azure in data centers in North America, Western Europe, and Asia Pacific. For more information about where data is stored, see [Where is my data](http://o365datacentermap.azurewebsites.net/)?
+Shifts data is currently stored in Azure in data centers in Asia Pacific (APAC), the European Union (EU), and North America. For more information about where data is stored, see [Where is my data](http://o365datacentermap.azurewebsites.net/)?
+
+To learn more about Shifts data, including storage, retention, retrieval, and encryption of Shifts data, see [Shifts data FAQ](shifts-data-faq.md).
 
 ## Set up Shifts
 
@@ -77,8 +84,10 @@ You can search the audit log to view Shifts activity in your organization.  To l
 
 Before you can search the audit log, you have to first turn on auditing in the [Security & Compliance Center](https://protection.office.com). To learn more, see [Turn audit log search on or off](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014). Keep in mind that audit data is only available from the point at which you turned on auditing.
 
-## Related topics
+## Related articles
 
+- [Shifts for Teams](../shifts-for-teams-landing-page.md)
+- [Shifts data FAQ](shifts-data-faq.md)
+- [Shifts connectors](shifts-connectors.md)
 - [Shifts Help for frontline workers](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [Assign policies to your users in Teams](../../policy-assignment-overview.md)
-- [Shifts connectors](shifts-connectors.md)

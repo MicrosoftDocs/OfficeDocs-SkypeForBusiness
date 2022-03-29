@@ -30,6 +30,9 @@ Messaging policies are used to control which chat and channel messaging features
 
 Users in your organization will automatically get the global policy, unless you create and assign a custom policy. Edit the settings in the global policy or create and assign one or more custom policies to turn on or turn off the features that you want.
 
+> [!NOTE]
+> To ensure syncing after a policy change, a reboot may be necessary for certain instances. 
+
 ## Create a custom messaging policy
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Messaging policies**.
@@ -70,8 +73,9 @@ A user can only be assigned one messaging policy at a time.
 
 Here are the messaging policy settings that you can configure.
 
-- **Owners can delete sent messages**  Use this setting to let owners delete messages that users sent in chat.
+- **Owners can delete sent messages**  Use this setting to let owners delete channel messages or posts that users sent.
 - **Delete sent messages** Use this setting to let users delete messages that they sent in chat.
+- **Delete chat** Use this setting to let users delete messages that they sent in chat.
 - **Edit sent messages** Use this setting to let users edit the messages that they sent in chat.
 - **Read receipts** Read receipts allow the sender of a chat message to be notified when their message was read by the recipient in 1:1 and group chats 20 people or fewer. Message read receipts remove uncertainly about whether a message was read, and improve team communication. Read receipts aren't captured in eDiscovery reporting.  
     - **User controlled** This means that users get to decide if they want read receipts ON or OFF. Default setting within the app is ON. Users can then turn it OFF.
@@ -101,10 +105,11 @@ Here are the messaging policy settings that you can configure.
 - **Remove users from group chats** Turn this setting on to let a user remove other users from a group chat. This feature lets you continue a chat with a smaller group of people without losing the chat history.
 - **Text predictions** Turn on this setting to let a user get text predictions for chat messages.
 - **Suggested replies**  Turn this setting on to enable suggested replies for chat messages.
-- **Chat permission role** Use this setting to define the supervised chat role of the user.  Learn more about [supervised chat](supervise-chats-edu.md).
+- **Chat permission role** Use this setting to define the supervised chat role of the user. Learn more about [supervised chat](supervise-chats-edu.md).
+- **Users with full chat permissions can delete any message** Use this setting to let users with full permissions delete any group or meeting chat message.
 
 > [!NOTE]
-> Some of these settings, such using Giphys, can also be configured at the team level by team owners and at the private channel level by private channel owners.
+> Some of these settings, such using Giphys, can also be configured at the team level by team owners and at the private or shared channel level by channel owners.
 
 ### Related topics
 

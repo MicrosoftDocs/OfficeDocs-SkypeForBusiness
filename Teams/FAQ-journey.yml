@@ -4,7 +4,7 @@ metadata:
   author: dstrome
   ms.author: dstrome
   manager: serdars
-  ms.topic: conceptual
+  ms.topic: faq
   ms.service: msteams
   audience: admin
   ms.reviewer: landerl
@@ -21,7 +21,6 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-    
 title: FAQ — Upgrading from Skype for Business to Microsoft Teams
 summary: |
 
