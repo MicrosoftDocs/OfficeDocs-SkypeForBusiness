@@ -143,6 +143,9 @@ To sign in locally with a username and password:
 
 3. Follow the sign-in directions on the device. Once signed in, the phone will display the common area phone user experience.
 
+> [!NOTE]
+> If you are using a custom setup policy that unpins the calling app, the dial pad doesn't appear on the Common Area Phone. For more information about Teams setup policies, see [Manage app setup policies in Microsoft Teams](/microsoftteams/teams-app-setup-policies).
+
 ### Sign in from another device
 
 You can also sign into to a common area phone from another device using a code. When you sign in this way, you'll enter the username and password on another device, rather than on the phone itself.
