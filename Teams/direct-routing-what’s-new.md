@@ -19,7 +19,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# What's New
+# What's new for direct routing
 
 ## SIP Support
 
@@ -39,8 +39,6 @@ For more information, see [Plan Direct Routing](direct-routing-plan.md)
 Microsoft 365 is updating Teams and other services to use a different set of Root Certificate Authorities (CAs).
 
 For more information and a full list of affected services, see [TLS certificate changes to Microsoft 365 services including Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/tls-certificate-changes-to-microsoft-365-services-including/ba-p/3249676)
-
-## Direct Routing
 
 ### Certificate Authorities
 
