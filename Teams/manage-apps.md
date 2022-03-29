@@ -114,7 +114,7 @@ Users can send a request to install or add a blocked app from the Teams store.
 
 ### To approve the request
 
-When a user requests for a blocked app, the admin can view the number of requests in **Requested apps**:
+The admin can view the number of requests in **Requested apps**:
 
 1. Sign in to the [Teams admin center](https://admin.teams.microsoft.com/dashboard).
 
