@@ -166,9 +166,6 @@ The following diagrams show the decision flows for inbound and outbound calls.
 
 ![Diagram showing LBR for inbound calls](media/lbr-routing-inbound.png "Diagram showing scenarios for Location-Based Routing")
 
-**Outbound calls**
-
-![Diagram showing LBR for outbound calls](media/lbr-routing-outbound.png "Diagram showing scenarios for Location-Based Routing")
 
 
 ## Scenarios for Location-Based Routing
