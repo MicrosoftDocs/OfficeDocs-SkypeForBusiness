@@ -97,7 +97,7 @@ Here's a summary of which Microsoft voice and calling licenses to purchase, base
 
 You have two ways to remove users' access to certain products: unassign product licenses from specific users or unassign user licenses from a specific product.
 
-For instructions on how to unassign licenses, see [Unassign licenses from users](/microsoft-365/admin/manage/remove-licenses-from-users.md).
+For instructions on how to unassign licenses, see [Unassign licenses from users](/microsoft-365/admin/manage/remove-licenses-from-users).
 
 ## More guidance on Microsoft plans
 
