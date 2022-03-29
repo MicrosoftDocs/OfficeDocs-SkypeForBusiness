@@ -157,7 +157,7 @@ Sync settings include the sync frequency (in minutes) and the schedule data that
 - The **enabledWfiScenarios** parameter defines data that's synced from Shifts to Blue Yonder WFM. Options are `SwapRequest`, `OpenShiftRequest`,  `TimeOffRequest`, `UserShiftPreferences`.
 
     > [!NOTE]
-    > If you choose not to sync open shifts or open shift requests from Blue Yonder WFM to Shifts, or you choose not to sync swap requests or time off requests from Shifts to Blue Yonder WFM, there's another step you need to do after you run this script to disable these scenarios. Make sure you follow the steps in the[Disable open shifts, open shifts requests, swap requests, and time off requests](#disable-open-shifts-open-shifts-requests-swap-requests-and-time-off-requests) section later in this article.
+    > If you choose not to sync open shifts or open shift requests from Blue Yonder WFM to Shifts, or you choose not to sync swap requests or time off requests from Shifts to Blue Yonder WFM, there's another step you need to do to disable these scenarios. After you run this script, make sure you follow the steps in the [Disable open shifts, open shifts requests, swap requests, and time off requests](#disable-open-shifts-open-shifts-requests-swap-requests-and-time-off-requests) section later in this article.
 
 > [!IMPORTANT]
 > For settings that you don't want to change, you'll need to re-enter the original settings when you're prompted by the script.
@@ -269,7 +269,7 @@ Write-Host "Success"
 ## Disable open shifts, open shifts requests, swap requests, and time off requests
 
 > [!IMPORTANT]
-> Follow these steps only if you chose any of the following options to disable open shifts and open shift requests, swap requests, or time off requests using the script in the [Change connection settings](#change-connection-settings) section earlie in this article or by using the [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance?view=teams-ps) cmdlet. Completing this step disables the scenario.
+> Follow these steps only if you chose any of the following options to disable open shifts and open shift requests, swap requests, or time off requests using the script in the [Change connection settings](#change-connection-settings) section earlier in this article or by using the [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance?view=teams-ps) cmdlet. Completing this step disables the scenario.
 >
 > - ```enabledConnectorScenarios```: ```OpenShift```
 > - ```enabledWfiScenarios```: ```SwapRequest```, ```TimeOffRequest```
