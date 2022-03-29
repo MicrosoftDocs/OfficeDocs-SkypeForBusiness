@@ -1,5 +1,5 @@
 ---
-title: "What's New"
+title: "What's New Direct Routing"
 ms.reviewer: CarolynRowe 
 author: wlibebe
 ms.author: wlibebe
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Learn about the latest updates for Teams PSTN connectivity. 
+description: Learn about the latest updates for Teams Direct Routing. 
 ms.localizationpriority: medium
 MS.collection: 
 - Teams_ITAdmin_Help
@@ -19,7 +19,9 @@ appliesto:
 
 # What's new for Direct Routing
 
-## SIP Support
+This article provides the latest updates for Teams Direct Routing
+
+## SIP support
 
 On June 1, 2022, Microsoft will remove support for sip-all.pstnhub.microsoft.com and sip-all.pstnhub.gov.teams.microsoft.us FQDNs from Direct Routing configuration.
 
@@ -32,13 +34,13 @@ To prevent service impact:
 
 For more information, see [Plan Direct Routing](direct-routing-plan.md)
 
-## TLS Certificates
+## TLS certificates
 
 Microsoft 365 is updating Teams and other services to use a different set of Root Certificate Authorities (CAs).
 
 For more information and a full list of affected services, see [TLS certificate changes to Microsoft 365 services including Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/tls-certificate-changes-to-microsoft-365-services-including/ba-p/3249676)
 
-### Certificate Authorities
+## Certificate authorities
 
 Beginning February 1, 2022, the Direct Routing SIP interface will only trust certificates signed by Certificate Authorities (CAs) that are part of the Microsoft Trusted Root Certificate Program. Take the following steps to avoid service impact:
 
@@ -49,11 +51,11 @@ For more information about the Microsoft Trusted Root Certificate Program, see [
 
 For a Trusted CA list, see [Microsoft Included CA Certificate List](https://ccadb-public.secure.force.com/microsoft/IncludedCACertificateReportForMSFT)
 
-### Replace headers
+## Replace headers
 
-Starting April 2022, Direct Routing will reject SIP requests that have Replaces headers defined. There are no changes to flows where Microsoft sends Replaces header to the SBC.
+Starting April 2022, Direct Routing will reject SIP requests that have Replaces headers defined. There are no changes to flows where Microsoft sends Replaces header to the Session Border Controller(SBC).
 
-Check your Session Border Controller configurations and ensure sure that you aren't using Replaces headers in SIP requests.
+Check your SBC configurations and ensure sure that you aren't using Replaces headers in SIP requests.
 
 ## TLS1.0 and 1.0
 
