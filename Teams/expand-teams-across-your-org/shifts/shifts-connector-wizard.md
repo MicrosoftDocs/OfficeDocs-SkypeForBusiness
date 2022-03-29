@@ -95,7 +95,7 @@ On the Sync settings page, you choose the information to sync from Blue Yonder W
     2. Under **Requests**, choose the types of requests that Shifts users can see and create.
 
     > [!IMPORTANT]
-    > If you chose any of the following options to disable swap requests, time off requests, or open shifts, there's another step you need to do after you run the wizard to disable these scenarios. Make sure you follow the steps in the [Disable swap requests, time off requests, open shifts, and open shifts requests](#disable-swap-requests-time-off-requests-open-shifts-and-open-shifts-requests) section later in this article.
+    > If you chose any of the following options to disable open shifts, swap requests, or time off requests, there's another step you need to do to disable these scenarios. After you run the wizard, make sure you follow the steps in the [Disable swap requests, time off requests, open shifts, and open shifts requests](#disable-swap-requests-time-off-requests-open-shifts-and-open-shifts-requests) section later in this article.
     >
     > - Open shifts: **Shifts users will not see Blue Yonder WFM data**
     > - Swap requests: **Feature is disabled for all users**
