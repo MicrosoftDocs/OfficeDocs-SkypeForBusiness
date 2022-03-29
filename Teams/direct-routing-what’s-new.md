@@ -7,10 +7,8 @@ manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
-ms.reviewer: CarolynRowe
 search.appverid: MET150
 description: Learn about the latest updates for Teams PSTN connectivity. 
-audience: admin
 ms.localizationpriority: medium
 MS.collection: 
 - Teams_ITAdmin_Help
