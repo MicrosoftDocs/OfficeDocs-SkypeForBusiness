@@ -118,16 +118,16 @@ The admin can view the number of requests in **Requested apps**:
 
 1. Sign in to the [Teams admin center](https://admin.teams.microsoft.com/dashboard).
 
-1. Expand Teams Apps and select **Manage apps**
+1. Expand Teams Apps and select **Manage apps**.
 
-1. In the manage apps pane, under the **Pending approvals** widget an admin can view **Requested apps**
+1. In the manage apps pane, under the **Pending approvals** widget an admin can view **Requested apps**.
 
 1. Check the Requests column of the apps list and sort by apps that are requested.
 
 ### To unblock an app
 
-1. Select **Manage apps**
-1. Select the app you want to unblock and select **About**
+1. Select **Manage apps**.
+1. Select the app you want to unblock and select **About**.
 1. A dialog appears **Manage user requests**, under which an admin has to verify the following:
 
    * Change the status to allow.
@@ -136,7 +136,7 @@ The admin can view the number of requests in **Requested apps**:
 
 ### To reject user request
 
-1. Select **Dismiss all requests**
+1. Select **Dismiss all requests**.
 
 ## Apps blocked by publishers
 
