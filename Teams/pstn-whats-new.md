@@ -25,18 +25,18 @@ appliesto:
 
 On June 1, 2022, Microsoft will remove support for sip-all.pstnhub.microsoft.com and sip-all.pstnhub.gov.teams.microsoft.us FQDNs from Direct Routing configuration.
 
-If no actions are taken before this change is implemented, users will no longer be able to make or receive calls via Direct Routing.
+If no actions are taken before June 1, users won't be able to make or receive calls via Direct Routing.
 
 To prevent service impact:
 
 - Use the recommended subnets: (52.112.0.0/14 and 52.120.0.0/14) for any classification or ACL rules.
-- Discontinue using the sip-all FQDN when configuring Session Border Controls for  Direct Routing.
+- Discontinue use of the sip-all FQDN when configuring Session Border Controls for  Direct Routing.
 
 For more information, see [Plan Direct Routing](direct-routing-plan.md)
 
 ## TLS Certificates
 
-Microsoft 365 is updating services including Teams to use a different set of Root Certificate Authorities (CAs).
+Microsoft 365 is updating Teams and other services to use a different set of Root Certificate Authorities (CAs).
 
 For more information and a full list of affected services, see [TLS certificate changes to Microsoft 365 services including Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/tls-certificate-changes-to-microsoft-365-services-including/ba-p/3249676)
 
@@ -53,7 +53,7 @@ For more information about the Microsoft Trusted Root Certificate Program, see [
 
 For a Trusted CA list, see [Microsoft Included CA Certificate List](https://ccadb-public.secure.force.com/microsoft/IncludedCACertificateReportForMSFT)
 
-### Replace Headers
+### Replace headers
 
 Starting April 2022, Direct Routing will reject SIP requests that have Replaces headers defined. There are no changes to flows where Microsoft sends Replaces header to the SBC.
 
