@@ -23,6 +23,10 @@ This article provides the latest updates for Teams Direct Routing
 
 ## SIP support
 
+This article describes what's new in Direct Routing. Check back often for updates.
+
+## SIP Support
+
 On June 1, 2022, Microsoft will remove support for sip-all.pstnhub.microsoft.com and sip-all.pstnhub.gov.teams.microsoft.us FQDNs from Direct Routing configuration.
 
 If no actions are taken before June 1, users won't be able to make or receive calls via Direct Routing.
