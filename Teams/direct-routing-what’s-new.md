@@ -19,7 +19,7 @@ appliesto:
 
 # What's new for Direct Routing
 
-TEST DOC
+This article describes what's new in Direct Routing. Check back often for updates.
 
 ## SIP Support
 
