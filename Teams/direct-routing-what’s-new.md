@@ -19,7 +19,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# What's new for direct routing
+# What's new for Direct Routing
 
 ## SIP Support
 
