@@ -19,6 +19,8 @@ appliesto:
 
 # What's new for Direct Routing
 
+TEST DOC
+
 ## SIP Support
 
 On June 1, 2022, Microsoft will remove support for sip-all.pstnhub.microsoft.com and sip-all.pstnhub.gov.teams.microsoft.us FQDNs from Direct Routing configuration.
