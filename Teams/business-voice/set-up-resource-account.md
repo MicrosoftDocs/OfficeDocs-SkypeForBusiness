@@ -51,8 +51,8 @@ Resource accounts require a license in order to work with auto attendants and ca
 
 After you've received your *Microsoft Teams Phone Standard - Virtual User* license, you can create your resource account.
 
-1. Open the Microsoft Teams admin center and log in with a user that is a Global admin. This is usually the account you used to sign up for Microsoft 365.
-2. In the left navigation pane, go to <a href="https://admin.teams.microsoft.com/company-wide-settings/resource-accounts" target="_blank">**Org-wide settings** > **Resource accounts**</a>.
+1. Open the Microsoft Teams admin center and log in with a user that is a Global admin (this is usually the account you used to sign up for Microsoft 365).
+2. In the left navigation pane, go to <a href="https://admin.teams.microsoft.com/company-wide-settings/resource-accounts" target="_blank">**Voice** > **Resource accounts**</a>.
 3. Select **Add**.
 4. In the **Add resource account** pane, fill out **Display name**, and then **Username**. Choose a descriptive display name such as "Main line auto attendant" to describe the purpose of the resource account.
 5. In **Resource account type**, select **Auto attendant**.
@@ -70,11 +70,13 @@ After you've created your resource account, you need to assign a *Microsoft Team
 
 ## Assign a service number
 
-1. Open the Microsoft Teams admin center and log in with a user that is a Global admin. This is usually the account you used to sign up for Microsoft 365.
-1. In the left navigation pane, go to <a href="https://admin.teams.microsoft.com/company-wide-settings/resource-accounts" target="_blank">**Org-wide settings** > **Resource accounts**</a>.
+![Screenshot of the assign service number user interface.](../media/resource-account-assign-phone-number.png)
+
+1. Open the Microsoft Teams admin center and log in with a user that is a Global admin (this is usually the account you used to sign up for Microsoft 365).
+1. In the left navigation pane, go to <a href="https://admin.teams.microsoft.com/company-wide-settings/resource-accounts" target="_blank">**Voice** > **Resource accounts**</a>.
 1. Select the resource account you just created, and then click **Assign/unassign**.
 1. In the **Phone number type** dropdown, choose **Online**.
-1. In the **Assigned phone number** box, search for the number you want to use and click **Add**. Be sure to include the country code (for example, **+1** 250 555 0012)
+1. In the **Assigned phone number** box, search for the number you want to use and click **Add**. Be sure to include the country code (for example, **+1** 250 555 0012).
 1. Click **Save**.
 
 > [!div class="nextstepaction"]
