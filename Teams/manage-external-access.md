@@ -144,7 +144,7 @@ The following table shows the cmdlet parameters used for configuring federation.
 |:-------|:--------|:------------------|
 |Enable/disable federation with other Teams organizations and Skype for Business|`-AllowFederatedUsers`|`-EnableFederationAccess`|
 |Enable federation with specific domains|`-AllowedDomains`|Not available|
-|Disable federation with specific domains|`-Blocked Domains`|Not available|
+|Disable federation with specific domains|`-BlockedDomains`|Not available|
 |Enable/disable federation with Teams users that are not managed by an organization|`-AllowTeamsConsumer`|`-EnableTeamsConsumerAccess`|
 |Enable/disable Teams users not managed by an organization from initiating conversations|`-AllowTeamsConsumerInbound`|`-EnableTeamsConsumerInbound`|
 |Enable/disable federation with Skype|`-AllowPublicUsers`|`-EnablePublicCloudAccess`|
