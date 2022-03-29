@@ -44,10 +44,10 @@ For more information and a full list of affected services, see [TLS certificate 
 
 ### Certificate Authorities
 
-Beginning February 1, 2022, the Direct Routing SIP interface will only trust certificates signed by Certificate Authorities(CAs) that are part of the Microsoft Trusted Root Certificate Program. Take the following steps to avoid service impact:
+Beginning February 1, 2022, the Direct Routing SIP interface will only trust certificates signed by Certificate Authorities (CAs) that are part of the Microsoft Trusted Root Certificate Program. Take the following steps to avoid service impact:
 
 - Ensure that your SBC certificate is signed by a CA that is part of the Microsoft Trusted Root Certificate Program.
-- Verify that the Extended Key Usage(EKU) extension of your certificate includes "Server Authentication".
+- Verify that the Extended Key Usage (EKU) extension of your certificate includes "Server Authentication".
 
 For more information about the Microsoft Trusted Root Certificate Program, see [Program Requirements - Microsoft Trusted Root Program](/security/trusted-root/program-requirements)
 
