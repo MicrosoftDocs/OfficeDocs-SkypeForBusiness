@@ -19,7 +19,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Reporting
-description: "Set up per-user call analytics for to identify and troubleshoot Microsoft Teams call quality problems."
+description: "Set up per-user call analytics to identify and troubleshoot Microsoft Teams call quality problems."
 ---
 
 # Set up call analytics for Microsoft Teams
