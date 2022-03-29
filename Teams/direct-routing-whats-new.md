@@ -32,13 +32,13 @@ To prevent service impact:
 - Use the recommended subnets: (52.112.0.0/14 and 52.120.0.0/14) for any classification or ACL rules.
 - Discontinue use of the sip-all FQDN when configuring Session Border Controls for  Direct Routing.
 
-For more information, see [Plan Direct Routing](direct-routing-plan.md)
+For more information, see [Plan Direct Routing](direct-routing-plan.md).
 
 ## TLS certificates
 
 Microsoft 365 is updating Teams and other services to use a different set of Root Certificate Authorities (CAs).
 
-For more information and a full list of affected services, see [TLS certificate changes to Microsoft 365 services including Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/tls-certificate-changes-to-microsoft-365-services-including/ba-p/3249676)
+For more information and a full list of affected services, see [TLS certificate changes to Microsoft 365 services including Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/tls-certificate-changes-to-microsoft-365-services-including/ba-p/3249676).
 
 ## Certificate authorities
 
@@ -47,9 +47,9 @@ Beginning February 1, 2022, the Direct Routing SIP interface will only trust cer
 - Ensure that your SBC certificate is signed by a CA that is part of the Microsoft Trusted Root Certificate Program.
 - Verify that the Extended Key Usage (EKU) extension of your certificate includes "Server Authentication".
 
-For more information about the Microsoft Trusted Root Certificate Program, see [Program Requirements - Microsoft Trusted Root Program](/security/trusted-root/program-requirements)
+For more information about the Microsoft Trusted Root Certificate Program, see [Program Requirements - Microsoft Trusted Root Program](/security/trusted-root/program-requirements).
 
-For a Trusted CA list, see [Microsoft Included CA Certificate List](https://ccadb-public.secure.force.com/microsoft/IncludedCACertificateReportForMSFT)
+For a Trusted CA list, see [Microsoft Included CA Certificate List](https://ccadb-public.secure.force.com/microsoft/IncludedCACertificateReportForMSFT).
 
 ## Replace headers
 
