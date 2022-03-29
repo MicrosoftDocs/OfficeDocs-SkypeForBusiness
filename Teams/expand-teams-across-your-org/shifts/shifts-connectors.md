@@ -84,7 +84,7 @@ Integrating Shifts with Blue Yonder WFM using the connector takes just a few ste
 
 For step-by-step guidance, see:
 
-- [Use the Shifts connector wizard to connect your workforce management system](shifts-connector-wizard.md)
+- [Use the Shifts connector wizard to connect Shifts to Blue Yonder Workforce Management](shifts-connector-wizard.md)
 - [Use PowerShell to connect Shifts to Blue Yonder Workforce Management](shifts-connector-blue-yonder-powershell-setup.md)
 
 After a connection is set up, you can use PowerShell to update and change connection settings at any time, as needed. As for the connector itself, you don't need to worry about upgrades or maintenance. We take care of that.

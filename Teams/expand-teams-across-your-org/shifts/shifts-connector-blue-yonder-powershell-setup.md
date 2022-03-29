@@ -34,7 +34,7 @@ You can set up multiple connections, each with different sync settings. For exam
 With Blue Yonder WFM as the system of record, your frontline workers can see and swap shifts, manage their availability, and request time off in Shifts on their devices. Frontline managers can continue to use Blue Yonder WFM to set up schedules.
 
 > [!NOTE]
-> You can also use the Shifts connector wizard in the Microsoft 365 admin center to connect Shifts to Blue Yonder WFM. To learn more, see [Use the Shifts connector wizard to connect your workforce management system](shifts-connector-wizard.md).
+> You can also use the [Shifts connector wizard](shifts-connector-wizard.md) in the Microsoft 365 admin center to connect Shifts to Blue Yonder WFM.
 
 ## Before you begin
 

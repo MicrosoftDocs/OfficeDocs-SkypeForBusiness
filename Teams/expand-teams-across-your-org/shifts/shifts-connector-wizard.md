@@ -1,5 +1,5 @@
 ---
-title: Use the Shifts connector wizard to connect your workforce management system
+title: Use the Shifts connector wizard to connect Shifts to Blue Yonder Workforce Management
 author: lanachin
 ms.author: v-lanachin
 ms.reviewer: 
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Learn how to use the Shifts connector wizard to integrate Shifts in Teams to your workforce management system.
+description: Learn how to use the Shifts connector wizard to integrate Shifts in Teams with Blue Yonder Workforce Management.
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
@@ -17,7 +17,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Use the Shifts connector wizard to connect your workforce management system
+# Use the Shifts connector wizard to connect Shifts to Blue Yonder Workforce Management
 
 ## Overview
 
@@ -28,6 +28,8 @@ The wizard configures the Shifts connector, creates a connection to your WFM sys
 You can set up multiple connections, each with different sync settings. For example, if your organization has multiple locations with different schedule requirements, create a connection with unique sync settings for each location. Keep in mind that a WFM site can only be mapped to one team at any given time. If a WFM site is already mapped to a team, it can't be mapped to another team.
 
 With your WFM system as the system of record, your frontline workers can see and swap shifts, manage their availability, and request time off in Shifts on their devices. Frontline managers can continue to use your WFM system to set up schedules.
+
+## Integrate Shifts with Blue Yonder Workforce Management
 
 Currently, the wizard supports the [Microsoft Teams Shifts connector for Blue Yonder](shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder). This connector enables you to integrate Shifts with Blue Yonder Workforce Management (Blue Yonder WFM) to manage your schedules and keep them up to date. In this article, we walk you through how to run the wizard to set up a connection to Blue Yonder WFM through the connector.
 
