@@ -110,7 +110,7 @@ When you block or allow an app on the Manage apps page, that app is blocked or a
 
 ## Approve request to unblock apps
 
-Users can send a request to install or add a blocked app from the Teams store, a notification is sent to the IT admin for the approval. The admin unblocks the app by reviewing app permission and policies.
+Users can send a request to install or add a blocked app from the Teams store, a request is sent to the IT admin for the approval. The admin unblocks the app by reviewing app permission and policies.
 
 ### To approve the request
 
