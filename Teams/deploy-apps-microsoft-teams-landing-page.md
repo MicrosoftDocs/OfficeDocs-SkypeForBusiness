@@ -73,11 +73,13 @@ Users can precisely locate blocked apps by selecting the filter, sorting it by *
 
 When a user places a request for request approval for a blocked app, On Teams admin centre > manage apps, the admin will see a dialog box which displays **pending approval details** under which an admin can see **Submitted custom app**, **Updated custom apps** and **Requested apps**.
 
-IT admin can also filter the table and sort by blocked app requests from the user for each app and can also view the number of requests. When the admin selects the requested blocked app, it leads to the details of the particular app and will be prompted "you have some requests to unblock".
+IT admin can also filter the table and sort by blocked app requests from the user for each app and can also view the number of requests.
 
-There are multiple steps to be initiated by an admin to unblock an app
+When the admin selects the requested blocked app, it leads to the details of the particular blocked app, in the details tab an admin can view a small dialog box which says "you have some requests to unblock".
 
-**Manage user requests** dialog box appears, when the about tab of an app is selected under which an admin as to verify the following:
+### To unblock an app
+
+An admin has to select the **About** tab of an app, a small dialog box appears that is **Manage user requests**, under which an admin as to verify the following:
 
 * Change the status to allow
 * Review permission policies to allow the app
