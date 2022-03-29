@@ -59,9 +59,10 @@ To make the data in Teams user activity and Teams device usage report anonymous,
 
 1. In Microsoft 365 admin center, go to the **Settings** \> **Org Settings**, and under **Services** tab, choose **Reports**.
     
-2. Select **Reports**, and then choose to **Display anonymous identifiers**. This setting gets applied both to the usage reports in Microsoft 365 admin center as well as Teams admin center.
+2. Select **Reports**, and then choose to **Display concealed user, group, and site names in all reports**. This setting gets applied both to the usage reports in Microsoft 365 admin center as well as Teams admin center.
   
 3. Select **Save changes**.
 
 > [!NOTE]
 > Enabling this setting will de-identify information in [Teams user activity report](user-activity-report.md) and [Teams device usage report](device-usage-report.md) reports. It will not affect other usage reports available in Teams admin center.
+> This setting also applies to Microsoft 365 usage reports in Microsoft 365 admin center, Microsoft Graph and Power BI.
