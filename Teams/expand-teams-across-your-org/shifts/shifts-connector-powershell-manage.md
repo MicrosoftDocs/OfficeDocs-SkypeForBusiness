@@ -270,8 +270,7 @@ Write-Host "Success"
 ## Disable open shifts, open shifts requests, swap requests, and time off requests
 
 > [!IMPORTANT]
-> Follow these steps only if you chose to disable open shifts, open shift requests, swap requests, or time off requests using the script in the [Change connection settings](#change-connection-settings) section earlier in this article or by using the [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance?view=teams-ps) cmdlet. Completing this step hides the capability in Shifts. <br><br>
-> Without this second step, users will still see the capability in Shifts, and will get an "unsupported operation" error message if they try to use it.
+> Follow these steps only if you chose to disable open shifts, open shift requests, swap requests, or time off requests using the script in the [Change connection settings](#change-connection-settings) section earlier in this article or by using the [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance?view=teams-ps) cmdlet. Completing this step hides the capability in Shifts. Without this second step, users will still see the capability in Shifts, and will get an "unsupported operation" error message if they try to use it.
 
 To hide open shifts, swap requests, and time off requests in Shifts, use the Graph API [schedule resource type](https://docs.microsoft.com/graph/api/resources/schedule?view=graph-rest-1.0) to set the following parameters to ```false``` for each team that you mapped to a Blue Yonder WFM site:
 
