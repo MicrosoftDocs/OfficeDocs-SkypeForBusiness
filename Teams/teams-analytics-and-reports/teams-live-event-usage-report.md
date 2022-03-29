@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams live event usage report
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -42,7 +42,9 @@ The Teams live event usage report in the Microsoft Teams admin center shows you 
 |**5**   |Select **Edit columns** to add or remove columns in the table.|
 
 ## Notes
-We show up to 100 live events that match the current report criteria. To see more live events, apply date filters to reduce the list size. 
+We show up to 100 live events that match the current report criteria. To see more live events, apply date filters to reduce the list size.
+
+Anonymous presenters will not be included in the report.
 
 Anybody who watches the recording of the event or the event on demand will not be included in the view count. 
 

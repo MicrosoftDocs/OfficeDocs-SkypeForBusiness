@@ -1,7 +1,7 @@
 ---
 title: Plan for live events in Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -165,6 +165,8 @@ You can use Teams live events in multiple regions across the world. The followin
 - Germany
 - India
 - Japan
+- Norway
+- Singapore
 - South Africa
 - South Korea
 - Switzerland
@@ -173,14 +175,16 @@ You can use Teams live events in multiple regions across the world. The followin
 
 **These countries/regions and clouds aren't supported**
 
-- Norway
 - Government Community Cloud (GCC)-H
 - Department of Defense (DOD)
 
 **Exclusions and considerations**
 
 - **Data location:** Teams data locations, outside of the ones listed above, aren't currently supported.
-- **China:** Event team members and attendees will not be able to use Teams live events because Azure CDN is not accessible in China. A workaround is to use a company VPN connection, which gets the client connected to CDN via the customer's corporate network.
+
+>[!Note]
+> Live events relies on Azure CDN services, which may be unavailable in some countries. As an administrator, you might need to set up a VPN in compliance with all applicable laws and regulations to connect to your corporate network for these apps to work seamlessly. Once that's complete, people in your organization can schedule and attend live events.
+
 
 ## Next steps
 

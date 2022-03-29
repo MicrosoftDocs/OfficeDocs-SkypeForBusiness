@@ -58,7 +58,7 @@ Thread routing methods are:
 - *native federated* for a federated conversation across tenants when both users have TeamsOnly mode. 
 - *interop federated* for a federated conversation across tenants that relies on interop between Skype for Business and Teams.
 
-> [!NOTES]
+> [!NOTE]
 > - Native conversations, whether in the same tenant or federated scenarios, occur when both the receiver and sender have TeamsOnly mode. The conversation will be a native chat experience, which includes all the rich messaging and calling capabilities. To learn more, read [Native chat experience for external (federated) users in Teams](native-chat-for-external-users.md). 
 > - If either of the conversation participants do NOT have TeamsOnly mode, the conversation is an interop experience with text-only messages.
 > - Federated communications between TeamsOnly users in multi-tenant clouds and special cloud environments (for example, government clouds) will appear as interop federated chats.

@@ -1,7 +1,7 @@
 ---
 title: Onboarding checklist - Configure Direct Routing - Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 06/07/2018
 ms.topic: article
@@ -34,7 +34,7 @@ ms.custom: seo-marvel-mar2020
 |8|Pair SBCs with Direct Routing|SBCs in each site must be paired with Direct Routing to provide dial tone and PSTN calling capabilities by using your own trunks.<br><br>Validate the SBC in that specific site is already paired with Direct Routing or configure the pair if not performed before.<br><br>Microsoft supports only the certified SBC's to pair with Direct Routing. Validate the SBC in that site is certified.||[Pair the SBC to Direct Routing Service of Phone System](direct-routing-configure.md)|
 |9|Validate SBC pairing|Run the `Get-CsOnlinePSTNGateway` cmdlet for each SBC you paired for the specific site and verify that the parameter **Enabled** displays the value **True**.<br><br>Use the SBC management interface to verify that the SBC gets **200 "OK"**  responses to the outgoing SIP OPTIONS.|||
 |10|Validate user configuration|Verify that the user accounts are either created directly in or synchronized to Microsoft 365 or Office 365 by using Directory synchronization.<br><br>Verify that the necessary licenses are assigned to the users.<br><br>For PSTN connectivity with Direct Routing, your users must be homed in Skype for Business Online and enabled for Microsoft Teams.||[Enable users for Direct Routing Service](direct-routing-configure.md)|
-|11|Configure users' phone numbers|All users who are in scope for Direct Routing must be assigned their phone numbers and voicemail.<br><br> Use `Set-CsUser` cmdlet to enable voicemail and assign phone numbers to your users.||[Configure the phone number and enable enterprise voice and voicemail](direct-routing-configure.md)|
+|11|Configure users' phone numbers|All users who are in scope for Direct Routing must be assigned their phone numbers.<br><br> Use `Set-CsPhoneNumberAssignment` cmdlet to assign phone numbers to your users.||[Configure the phone number and enable enterprise voice and voicemail](direct-routing-configure.md)|
 |12|Configure voice routing|Phone System has a routing mechanism that allows a call to be sent to a specific SBC based on:<ul><li>Called number pattern<li>Called number pattern + Specific User who makes the call</ul>Configure voice routing for the users by creating:<ul><li>Voice Routing Policies<li>PSTN Usages<li>Voice Routes<li>Online PSTN Gateways</ul>||[Configure Voice Routing](direct-routing-configure.md)|
 |13|Set Microsoft Teams as the preferred calling client for the users|Before a user can see the **Calls** tab in Microsoft Teams, you need to enable **private calling** for the tenant in Microsoft Teams and the Teams client must be configured as the **preferred calling client** for the users.||[Enable Calling for Microsoft Teams](direct-routing-configure.md)<br><br>[Set Microsoft Teams as the preferred calling client for the users](direct-routing-configure.md)|
 |14|Enable users for Direct Routing|Assign the voice routing policies to the users who will make and get PSTN calls by using Direct Routing through the configured SBC.||[Enable users for Direct Routing Service](direct-routing-configure.md)|

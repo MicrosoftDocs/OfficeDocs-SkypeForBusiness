@@ -1,7 +1,7 @@
 ---
 title: Sync Student Information System (SIS) data with Education Insights
-author: MicrosoftHeidi
-ms.author: heidip
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 ms.service: msteams

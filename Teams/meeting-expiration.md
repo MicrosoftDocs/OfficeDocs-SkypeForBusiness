@@ -1,11 +1,11 @@
 ---
 title: Meeting policies and meeting expiration in Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: KarliStites
+ms.author: kastites
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: nej
+ms.reviewer: nej, brgussin
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -25,11 +25,11 @@ description: Learn how to use meeting policy settings to control meeting expirat
 
 The meeting policy settings that control whether users can start and schedule meetings and also control expiration of meetings scheduled by users. When a meeting join link and conference ID for a meeting expires, no one can join the meeting. The following meeting policy settings determine whether users can start and schedule meetings in Teams. We discuss the meeting settings in this article.
 
-- [Allow Meet now in channels](meeting-policies-in-teams-general.md#allow-meet-now-in-channels): Controls whether a user can start an impromptu meeting in a channel.
-- [Allow channel meeting scheduling](meeting-policies-in-teams-general.md#allow-channel-meeting-scheduling): Controls whether a user can schedule a meeting in a channel.
-- [Allow scheduling private meetings](meeting-policies-in-teams-general.md#allow-scheduling-private-meetings): Controls whether a user can schedule a private meeting in Teams. A meeting is private when it's not published to a channel in a team.
-- [Allow the Outlook add in](meeting-policies-in-teams-general.md#allow-the-outlook-add-in): Controls whether a user can schedule a private meeting from Outlook. A meeting is private when it's not published to a channel in a team.
-- [Allow Meet now in private meetings](meeting-policies-in-teams-general.md#allow-meet-now-in-private-meetings): Controls whether a user can start an impromptu private meeting.
+- [Meet now in channels](meeting-policies-in-teams-general.md#meet-now-in-channels): Controls whether a user can start an impromptu meeting in a channel.
+- [Channel meeting scheduling](meeting-policies-in-teams-general.md#channel-meeting-scheduling): Controls whether a user can schedule a meeting in a channel.
+- [Private meeting scheduling](meeting-policies-in-teams-general.md#private-meeting-scheduling): Controls whether a user can schedule a private meeting in Teams. A meeting is private when it's not published to a channel in a team.
+- [Outlook add in](meeting-policies-in-teams-general.md#outlook-add-in): Controls whether a user can schedule a private meeting from Outlook. A meeting is private when it's not published to a channel in a team.
+- [Meet now in private meetings](meeting-policies-in-teams-general.md#meet-now-in-private-meetings): Controls whether a user can start an impromptu private meeting.
 
 By default, these settings are on. When any of these settings are turned off, any user who is assigned the policy can't start or schedule new meetings of that type. At the same time, the meeting join links and conference IDs of all existing meetings of that type that the user previously started or scheduled expire.
 
@@ -57,10 +57,10 @@ Here's a summary of how meeting expiration works for each of the meeting policy 
 
 |If you want to...&nbsp;&nbsp; |Do this&nbsp;&nbsp;&nbsp;&nbsp;  |Meeting join behavior&nbsp;&nbsp;&nbsp;&nbsp;  |
 |---------------------------|---------------------|---------|
-|Expire private Meet now meetings started by a user&nbsp;&nbsp;|Turn off **Allow Meet now in private meetings**.&nbsp;&nbsp;|No one can join private **Meet now** meetings started by the user.|
-|Expire private meetings scheduled by a user&nbsp;&nbsp;|Turn off **Allow scheduling private meetings** _and_ turn off **Allow the Outlook add-in**. &nbsp;&nbsp;|No one can join private meetings scheduled by the user. This prevents people from joining the following meetings:<ul><li>Private meetings that occurred in the past.</li><li>Private meetings that are scheduled for the future and have not yet occurred.</li><li>Future instances of recurring private meetings.</li></ul><br>Both **Allow scheduling private meetings** and **Allow the Outlook add-in** must be off to expire private meetings scheduled by a user. If one setting is off and the other is on, meeting join links and conference IDs of existing meetings remain active and won't be expired.|
-|Expire channel **Meet now** meetings started by a user&nbsp;&nbsp;|Turn off **Allow Meet now in channels** _and_ turn off **Allow channel meeting scheduling**.&nbsp;&nbsp;|No one can join channel **Meet now** meetings started by the user.|
-|Expire channel meetings scheduled by a user&nbsp;&nbsp;|Turn off **Allow channel meeting scheduling**.&nbsp;&nbsp;|No one can join channel meetings scheduled by the user. This prevents people from joining the following meetings:<ul><li>Channel meetings that occurred in the past.</li><li>Channel meetings that are scheduled for the future and haven't yet occurred.</li><li>Future instances of recurring channel meetings.</li></ul>|
+|Expire private Meet now meetings started by a user&nbsp;&nbsp;|Turn off **Meet now in private meetings**.&nbsp;&nbsp;|No one can join private **Meet now** meetings started by the user.|
+|Expire private meetings scheduled by a user&nbsp;&nbsp;|Turn off **Private meeting scheduling** _and_ turn off **Outlook add-in**. &nbsp;&nbsp;|No one can join private meetings scheduled by the user. This prevents people from joining the following meetings:<ul><li>Private meetings that occurred in the past.</li><li>Private meetings that are scheduled for the future and have not yet occurred.</li><li>Future instances of recurring private meetings.</li></ul><br>Both **Private meeting scheduling** and **Outlook add-in** must be off to expire private meetings scheduled by a user. If one setting is off and the other is on, meeting join links and conference IDs of existing meetings remain active and won't be expired.|
+|Expire channel **Meet now** meetings started by a user&nbsp;&nbsp;|Turn off **Meet now in channels** _and_ turn off **Channel meeting scheduling**.&nbsp;&nbsp;|No one can join channel **Meet now** meetings started by the user.|
+|Expire channel meetings scheduled by a user&nbsp;&nbsp;|Turn off **Channel meeting scheduling**.&nbsp;&nbsp;|No one can join channel meetings scheduled by the user. This prevents people from joining the following meetings:<ul><li>Channel meetings that occurred in the past.</li><li>Channel meetings that are scheduled for the future and haven't yet occurred.</li><li>Future instances of recurring channel meetings.</li></ul>|
 
 If you want people to access meetings that were previously scheduled or started by a particular user, you can:
 
@@ -72,9 +72,15 @@ If you want people to access meetings that were previously scheduled or started 
 
 ## Changes to meeting expiration
 
-All newly created Teams meeting recordings (TMRs) will have a default expiration of 60 days. This is on by default for all tenants. This means that by default, all TMRs created *after this feature was turned on* will be deleted 60 days after their creation date. Admins can also set meetings to **never auto-expire**. The OneDrive and SharePoint system will monitor the expiration date set on all TMRs and will automatically move TMRs to the recycle bin on their expiration date.
+> [!IMPORTANT]
+> If you want to enable Teams meeting expiration on your tenant early, apply to the [Microsoft Teams meeting expiration early adopter program](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR8YMDA0A9INMv_DZ8yW5uG1URDc3U1VVMklPTzVMS0RLR0pUQTlWU1BEVC4u).
 
-Automatic meeting expiration is a lightweight housekeeping mechanism to reduce storage clutter created by older TMRs. On average, across all customers, 99% of TMRs aren't watched after 60 days. We believe nearly all customers will benefit from the reduced storage load on their tenant by removing recordings that likely won't be watched again after 60 days. It's our goal to provide as clean an experience as possible for all customers by default.
+All newly created Teams meeting recordings (TMRs) will have a default expiration of 120 days. This is on by default for all tenants. This means that by default, all TMRs created *after this feature was turned on* will be deleted 120 days after their creation date. Admins can also set meetings to **never auto-expire**. The OneDrive and SharePoint system will monitor the expiration date set on all TMRs and will automatically move TMRs to the recycle bin on their expiration date.
+
+> [!NOTE]
+> One copy of the meeting transcript is saved in OneDrive SharePoint and a second copy is saved in Exchange in temporary storage. The OSDP copy expires when the TMR auto-expires.
+
+Automatic meeting expiration is a lightweight housekeeping mechanism to reduce storage clutter created by older TMRs. On average, across all customers, 96% of TMRs aren't watched after 60 days and 99% aren't watched after 110 days. We believe nearly all customers will benefit from the reduced storage load on their tenant by removing recordings that likely won't be watched again after 60 days. It's our goal to provide as clean an experience as possible for all customers by default.
 
 Use meeting expiration to limit the OneDrive or SharePoint for cloud storage consumption driven by Teams meeting records. A typical meeting recording consumes around 400 MB per hour of recording.
 
@@ -144,7 +150,22 @@ No, migrated TMRs will not come with an expiration set on them. Instead, we enco
 
 When a recording fails to upload to OneDrive or SharePoint, the Teams application displays a message in the chat that users have up to 21 days to download the TMR before it’s permanently deleted from the Teams server. This existing expiration experience due to failed TMR uploads is not related to the OneDrive and SharePoint auto-expiration feature being discussed in the help document.
 
+### How do I know the distribution of TMR playbacks so I know what the optimal auto-expiration default should be for my tenant?
+
+1. Find the video in the library.
+1. Select **...** > **Details**
+1. Select the number of views at the top of the details pane.
+
+You'll see file statistics that show:
+
+- The number of unique viewers
+- The number of total views
+- The trend of viewers and views day-by-day for the last 90 days
+- Viewership retention (which part of the video was viewed or not viewed)
+
 ## Related topics
+
+[Change meeting expiration date - end-user controls](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date)
 
 [Manage meeting policies in Teams](meeting-policies-overview.md)
 
@@ -152,4 +173,4 @@ When a recording fails to upload to OneDrive or SharePoint, the Teams applicatio
 
 [Teams PowerShell overview](teams-powershell-overview.md)
 
-[Change meeting expiration date - Microsoft Support](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date)
+
