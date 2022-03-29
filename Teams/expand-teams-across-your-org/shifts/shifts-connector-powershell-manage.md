@@ -156,7 +156,10 @@ Sync settings include the sync frequency (in minutes) and the schedule data that
 - The **enabledConnectorScenarios** parameter defines data that's synced from Blue Yonder WFM to Shifts. Options are `Shift`, `SwapRequest`, `UserShiftPreferences`, `OpenShift`, `OpenShiftRequest`, `TimeOff`, `TimeOffRequest`.
 - The **enabledWfiScenarios** parameter defines data that's synced from Shifts to Blue Yonder WFM. Options are `SwapRequest`, `OpenShiftRequest`,  `TimeOffRequest`, `UserShiftPreferences`.
 
-> [!NOTE]
+    > [!NOTE]
+    > If you choose not to sync open shifts or open shift requests from Blue Yonder WFM to Shifts, or you choose not to sync swap requests or time off requests from Shifts to Blue Yonder WFM, there's another step you need to do after you run this script to disable these scenarios. Make sure you follow the steps in the[Disable open shifts, open shifts requests, swap requests, and time off requests](#disable-open-shifts-open-shifts-requests-swap-requests-and-time-off-requests) section later in this article.
+
+> [!IMPORTANT]
 > For settings that you don't want to change, you'll need to re-enter the original settings when you're prompted by the script.
 
 [Set up your environment](#set-up-your-environment) (if you haven't already), and then run the following script.
@@ -263,6 +266,21 @@ $WfmTeamId = Read-Host -Prompt 'Input the WFM team ID that you want to link'
 New-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $InstanceId -TeamId $TeamsTeamId -TimeZone "America/Los_Angeles" -WfmTeamId $WfmTeamId
 Write-Host "Success"
 ```
+## Disable open shifts, open shifts requests, swap requests, and time off requests
+
+> [!IMPORTANT]
+> Follow these steps only if you chose any of the following options to disable open shifts and open shift requests, swap requests, or time off requests using the script in the [Change connection settings](#change-connection-settings) section earlie in this article or by using the [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance?view=teams-ps) cmdlet. Completing this step disables the scenario.
+>
+> - ```enabledConnectorScenarios```: ```OpenShift```
+> - ```enabledWfiScenarios```: ```SwapRequest```, ```TimeOffRequest```
+
+To disable open shifts, swap requests, and time off requests, use the Graph API [schedule resource type](https://docs.microsoft.com/graph/api/resources/schedule?view=graph-rest-1.0) to set the following parameters to ```false``` for each team that you mapped to a Blue Yonder WFM site:
+
+- Swap requests:  ```swapShiftsRequestsEnabled```
+- Time off requests: ```timeOffRequestsEnabled```
+- Open shifts: ```openShiftsEnabled```
+
+To disable open shifts requests, in Shifts, go to **Settings**, and then turn off the **Open shifts** setting.
 
 ## Unmap a team from one connection and map it to another connection
 
