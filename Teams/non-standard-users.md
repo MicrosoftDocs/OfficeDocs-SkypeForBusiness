@@ -44,7 +44,7 @@ Guests can use an app if the app was installed by a native user.
 
 #### Bots installed to a channel
 
-Guest users are able to mention the bot and interact with adaptive cards.
+Guest users can mention the bot and interact with adaptive cards.
 
 #### Personal bots installed with policies
 
