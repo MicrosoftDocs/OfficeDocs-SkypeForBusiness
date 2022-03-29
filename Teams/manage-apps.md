@@ -134,7 +134,7 @@ The admin can view the number of requests in **Requested apps**:
    * Review permission policies to allow the app.
    * Allow third party apps in org wide settings.
 
-To reject user request select **Dismiss all requests**.
+1. To reject an user request select **Dismiss all requests**.
 
 ## Apps blocked by publishers
 
