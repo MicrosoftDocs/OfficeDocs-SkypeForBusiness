@@ -60,6 +60,33 @@ By default, all Microsoft-provided, third-party, and custom apps are available, 
 |--------------|--------|
 |Will you change the default Teams apps settings? | For more information about policies and settings that you can use to manage apps in your organization, see [Admin settings for apps in Microsoft Teams](admin-settings.md).|
 
+## Store and UI changes for supporting app request flow for blocked apps
+
+The feature allows end users to locate the blocked apps in the Teams store and place a request to admins to unblock the app.
+
+Users can precisely locate blocked apps by selecting the filter, sorting it by **Ready to add** (Currently available apps) and **Requires approval** (Shows up the blocked apps).
+
+> [!NOTE]
+> Users can't locate blocked apps at the top of the list on Teams store, as unblocked apps are prioritized, followed by the one's that are blocked apps.
+
+### Blocked app permissions and other considerations for IT admin to unblock an app
+
+When a user places a request for request approval for a blocked app, On Teams admin centre > manage apps, the admin will see a dialog box which displays **pending approval details** under which an admin can see **Submitted custom app**, **Updated custom apps** and **Requested apps**.
+
+IT admin can also filter the table and sort by blocked app requests from the user for each app and can also view the number of requests. When the admin selects the requested blocked app, it leads to the details of the particular app and will be prompted "you have some requests to unblock".
+
+There are multiple steps to be initiated by an admin to unblock an app
+
+**Manage user requests** dialog box appears, when the about tab of an app is selected under which an admin as to verify the following:
+
+* Change the status to allow
+* Review permission policies to allow the app
+* Allow 3rd party apps in org wide settings
+
+### To reject user request
+
+* Select on **Dismiss all requests** counter will refresh back to zero requests.
+
 ### App permissions and other considerations
 
 Apps are consented to by users and managed by the admin or IT pro through policies. However, on the whole, an app's permissions and risk profile are defined in the app itself.
