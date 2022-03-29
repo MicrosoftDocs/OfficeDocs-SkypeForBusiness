@@ -95,11 +95,13 @@ On the Sync settings page, you choose the information to sync from Blue Yonder W
     2. Under **Requests**, choose the types of requests that Shifts users can see and create.
 
     > [!IMPORTANT]
-    > If you chose any of the following options to disable open shifts, swap requests, or time off requests, there's another step you need to do to disable these scenarios. After you run the wizard, make sure you follow the steps in the [Disable open shifts, open shifts requests, swap requests, and time off requests](#disable-open-shifts-open-shifts-requests-swap-requests-and-time-off-requests) section later in this article.
+    > If you chose any of the following options to disable open shifts, open shift requests, swap requests, or time off requests, there's another step you need to do to hide the capability in Shifts.
     >
     > - Open shifts: **Shifts users will not see Blue Yonder WFM data**
     > - Swap requests: **Feature is disabled for all users**
     > - Time off requests: **Feature is disabled for all users**
+    >
+    > After you run the wizard, make sure you follow the steps in the [Disable open shifts, open shifts requests, swap requests, and time off requests](#disable-open-shifts-open-shifts-requests-swap-requests-and-time-off-requests) section later in this article.
  
 1. When you're done choosing your settings, select **Create connection**.
 
@@ -155,19 +157,19 @@ You’re on your way but you’re not done yet! Be sure to check your email. You
 ## Disable open shifts, open shifts requests, swap requests, and time off requests
 
 > [!IMPORTANT]
-> Follow these steps only if you chose any of the following options to disable open shifts and open shift requests, swap requests, or time off requests in the wizard. Completing this step disables the scenario.
+> Follow these steps only if you chose any of the following options to disable open shifts and open shift requests, swap requests, or time off requests in the wizard. Completing this step hides the capability in Shifts.
 >
 > - Open shifts: **Shifts users will not see Blue Yonder WFM data**
 > - Swap requests: **Feature is disabled for all users**
 > - Time off requests: **Feature is disabled for all users**
 
-To disable open shifts, swap requests, and time off requests, use the Graph API [schedule resource type](https://docs.microsoft.com/graph/api/resources/schedule?view=graph-rest-1.0) to set the following parameters to ```false``` for each team that you mapped to a Blue Yonder WFM site:
+To hide open shifts, swap requests, and time off requests in Shifts, use the Graph API [schedule resource type](https://docs.microsoft.com/graph/api/resources/schedule?view=graph-rest-1.0) to set the following parameters to ```false``` for each team that you mapped to a Blue Yonder WFM site:
 
 - Swap requests:  ```swapShiftsRequestsEnabled```
 - Time off requests: ```timeOffRequestsEnabled```
 - Open shifts: ```openShiftsEnabled```
 
-To disable open shifts requests, in Shifts, go to **Settings**, and then turn off the **Open shifts** setting.
+To hide open shifts requests in Shifts, go to **Settings** in Shifts, and then turn off the **Open shifts** setting.
 
 ## If you need to make changes to a connection
 <a name="update_connection"> </a>
