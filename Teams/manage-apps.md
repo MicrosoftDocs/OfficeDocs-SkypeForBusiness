@@ -114,7 +114,7 @@ Users can send a request to install or add a blocked app from the Teams store, a
 
 ### To approve the request
 
-The admin can view the number of requests in **Requested apps**:
+The admin can view a request:
 
 1. Sign in to the [Teams admin center](https://admin.teams.microsoft.com/dashboard).
 
@@ -122,7 +122,11 @@ The admin can view the number of requests in **Requested apps**:
 
 1. In the **Manage apps** pane, under the **Pending approvals** widget an admin can view **Requested apps**.
 
+Image
+
 1. Check the Requests column of the apps list and sort by apps that are requested.
+
+Image
 
 ### To unblock an app
 
@@ -131,10 +135,12 @@ The admin can view the number of requests in **Requested apps**:
 1. A dialog appears **Manage user requests**, under which an admin has to verify the following:
 
    * Change the status to allow.
-   * Review permission policies to allow the app.
+   * [Review permission policies to allow the app.](teams-app-permission-policies.md)
    * Allow third party apps in org wide settings.
 
-1. To reject a user request select **Dismiss all requests**.
+1. To reject a user request, select **Dismiss all requests**.
+
+Image
 
 ## Apps blocked by publishers
 
