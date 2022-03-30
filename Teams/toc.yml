@@ -1424,6 +1424,9 @@ items:
           href: rooms/multi-tenant-auditing.md
         - name: Standards and Rooms Planner 
           href: rooms/standards-and-room-planner.md
+        - name: Customer-reported incidents 
+          href: rooms/customer-reported-incidents.md
+
     - name: Devices
       items:
         - name: Teams device store
