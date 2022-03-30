@@ -23,15 +23,6 @@ appliesto:
 
 This article covers the IT administration steps to get your educational institution set up for remote learning using Microsoft Teams.
 
-Other helpful content to read includes:
-
-- [An overview of making the transition to remote learning and resources to help you get started](https://www.microsoft.com/education/remote-learning)
-- [Resources to assist educators and students with remote learning](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4)
-- [How schools can ramp up remote learning programs quickly with Microsoft Teams](https://aka.ms/teamseduremoteblog)
-- [Details about remote learning capabilities on different platforms](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)
-- [Learn about Teams usage scenarios at the Teams for education webinar series](https://aka.ms/TeamsEDUWebinars)
-- [Download and distribute Teams clients for desktop, web, and mobile](get-clients.md)
-
 Within Teams, **educators** can:
 
 - Quickly converse with students
@@ -51,7 +42,7 @@ Within Teams, **educators** can:
 
 ## User accounts, licenses, and identity security
 
-Teams uses Microsoft 365 to authenticate users and provide services. All users should have Microsoft 365 identities established to facilitate collaboration. 
+Teams uses Microsoft 365 to authenticate users and provide services. All users should have Microsoft 365 identities established to facilitate collaboration.
 
 If user identities don't already exist, follow this process to establish them.
 
@@ -125,13 +116,13 @@ Class teams can be created through:
 
 We'll step through various options to help you choose the right deployment path that best fits your needs.  
 
-#### Automatic team creation using SDS
+### Automatic team creation using SDS
 
 [School Data Sync (SDS)](/SchoolDataSync) reads the data from an institution's system of record, like a Student Information System (SIS) or Learning Management system (LMS).
 
 SDS can import data from any system of record and has built-in connectors to many of the world’s [SIS vendors](/schooldatasync/frequently-asked-questions#what-sismis-vendors-does-school-data-sync-support).  
 
-##### Benefits of SDS
+#### Benefits of SDS
 
 - Automatically creates users and applies licenses
 - Automatically creates and maintains class teams
@@ -146,7 +137,7 @@ SDS can import data from any system of record and has built-in connectors to man
 - Tracks and manages guardian consent
 - Provides better Education Insights data
 
-##### Considerations for SDS
+#### Considerations for SDS
 
 SDS creates teams in two steps:
 
@@ -155,11 +146,11 @@ SDS creates teams in two steps:
 
 The second step of creating teams is optional in SDS. An admin may not want to automatically create teams depending on deployment time and the number of unused teams that may result. Instead, see the [Educator-led team creation method](#educator-led-team-creation-from-microsoft-365-class-groups).  
 
-##### Get started with SDS
+#### Get started with SDS
 
 To get started, go to [School Data Sync (SDS)](/SchoolDataSync) and contact [https://aka.ms/sdssupport](https://aka.ms/sdssupport) for free deployment assistance.  
 
-#### Educator-led team creation from Microsoft 365 class groups
+### Educator-led team creation from Microsoft 365 class groups
 
 Educator-led team creation makes it easy for educators to create the classes they need.  
 
@@ -170,7 +161,7 @@ After class groups are prepared, educators can convert their groups into teams:
 1. Select the Teams tab in Teams
 2. At the top of the client, select the **Suggested classes** icon
 
-##### Benefits of educator-led team creation
+#### Benefits of educator-led team creation
 
 - Classes are prepared and suggested but not created unless the educator intends to use them
 - For institutions with more than 500,000 teams, this method reduces the number of unnecessary teams
@@ -179,13 +170,13 @@ After class groups are prepared, educators can convert their groups into teams:
   - Gives educators control to which classes get created
   - Doesn't require integration with SDS
 
-##### Considerations for educator-led team creation
+#### Considerations for educator-led team creation
 
 - Not fully automated and requires some educator action
 - Educators who don't have permission to create teams can still create teams from existing groups as shown [here](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)
 - Graph API requires a high level of technical expertise, time to create and run the script, and time to fix any issues.
 
-##### Get started with educator-led team creation
+#### Get started with educator-led team creation
 
 To get started with the SDS method, go to [School Data Sync (SDS)](/SchoolDataSync) and contact [https://aka.ms/sdssupport](https://aka.ms/sdssupport) for free deployment assistance.
 
@@ -194,7 +185,7 @@ To get started with the SDS method, go to [School Data Sync (SDS)](/SchoolDataSy
 
 To use the Graph API method, see [Graph API](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-1.0&preserve-view=true) and [Create a class team](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true).  
 
-#### PowerShell script using Graph APIs
+### PowerShell script using Graph APIs
 
 With PowerShell, you can write a script to create teams and channels, and configure settings automatically.
 
@@ -202,13 +193,13 @@ This method requires the admin to [first create the group, add educators and stu
 
 You can also use the [Microsoft Graph API to create, configure, clone, and archive teams](/graph/api/resources/teams-api-overview).
 
-##### Benefits of PowerShell scripts
+#### Benefits of PowerShell scripts
 
 - Gives IT admins control over class creation
 - Option to create early educator access teams or immediate student access to teams
 - [Syncs student membership changes to AAD group](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true)
 
-##### Considerations for PowerShell scripts
+#### Considerations for PowerShell scripts
 
 - Requires a high level of technical expertise and time to create and run the script and fix any issues when creating class groups
 - No built-in error handling or retry logic
@@ -217,7 +208,7 @@ You can also use the [Microsoft Graph API to create, configure, clone, and archi
 > [!NOTE]
 > Class teams require hidden group membership so only educators and students within the class can see the members of that class. To create an Microsoft 365 class group, see [Create a class team](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true) to meet the privacy requirements.
 
-#### Manual team creation
+### Manual team creation
 
 Users can tailor their Teams experience by having the ability to create their own teams.
 
@@ -230,18 +221,18 @@ Depending on a user's permissions, they can:
 
 It’s best to have educators add their students to the team to ensure the students get access and are notified that they’ve been added.
 
-##### Benefits of manual team creation
+#### Benefits of manual team creation
 
 - Gives educators full control of class creation
 - Class teams are created immediately
 
-##### Considerations for manual team creation
+#### Considerations for manual team creation
 
 - Requires educator action and time
 - Student membership isn't synced with SIS and requires manual management
 - Students will gain immediate access to class teams
 
-#### Recommended best practices
+### Recommended best practices
 
 - Deploy early to ensure everything is working reliably and ready for the first day of school.
 
@@ -320,29 +311,37 @@ Learn about conducting live sessions at:
 
 ## Support resources
 
+For a generic overview of transitioning to remote learning, [start here](https://www.microsoft.com/education/remote-learning)
+
 If you're an IT admin, educator, student, or guardian, these resources may help you use Teams:
 
 - **IT admins**
+  - [Teams features by platform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)
+  - [Download and distribute Teams clients](get-clients.md)
   - [Teams Troubleshooting](/MicrosoftTeams/troubleshoot/teams)
-  - [Troubleshoot Microsoft Teams installation and update issues](troubleshoot-installation.md)
   - [Teams for Virtualized Desktop Infrastructure](./teams-for-vdi.md)
   - [Monitor and manage call quality](monitor-call-quality-qos.md)
   - [Verify service health for Teams](service-health.md)
   - [Optimize Microsoft 365 traffic for remote staff](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)
-  - [Support resources for Teams](/microsoft-365/admin/contact-support-for-business-products)
+  - [Support contacts for Teams](/microsoft-365/admin/contact-support-for-business-products)
+  - [Teams for Education webinars](https://aka.ms/TeamsEDUWebinars)
 
 - **Educators**
   - [Help center for educators](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)
   - [Remote learning help](https://aka.ms/RemoteLearningHelp)
+  - [Download Teams](get-clients.md)
+  - [Teams for Education webinars](https://aka.ms/TeamsEDUWebinars)
   - [Online course for educators using Teams](https://education.microsoft.com/course/9c9f5c11/overview)
   - [Online course to craft Collaborative Learning Environments with Teams](https://education.microsoft.com/course/b1e15cfc/overview)
-  - [File a support ticket](https://aka.ms/edusupport)
+  - [File a support ticket](https://www.microsoft.com/microsoft-teams/download-app)
 
 - **Students**
   - [Help center for students](https://support.office.com/article/student-help-center-395ab230-55bf-44c6-b265-e832d729b694)
   - [Remote learning help](https://aka.ms/RemoteLearningHelp)
+  - [Download Teams](https://www.microsoft.com/microsoft-teams/download-app)
 
 - **Guardians**
   - [Remote learning help](https://aka.ms/RemoteLearningHelp)
+  - [Download Teams](https://www.microsoft.com/microsoft-teams/download-app)
 
 ---
