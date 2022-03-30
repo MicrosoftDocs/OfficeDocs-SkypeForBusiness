@@ -21,9 +21,9 @@ appliesto:
 ---
 # Get started with Microsoft Teams for remote learning
 
-This article covers the IT administration steps to take in order to get your educational institution set up for remote learning using Microsoft Teams.
+This article covers the IT administration steps to get your educational institution set up for remote learning using Microsoft Teams.
 
-Other helpful content you may want to read includes:
+Other helpful content to read includes:
 
 - [An overview of making the transition to remote learning and resources to help you get started](https://www.microsoft.com/education/remote-learning)
 - [Resources to assist educators and students with remote learning](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4)
@@ -47,6 +47,8 @@ Within Teams, **educators** can:
 - Stay up-to-date on events
 - Collaborate using Staff Teams for announcements and topical conversations
 
+# [User accounts and licenses](#tab/accounts)
+
 ## User accounts, licenses, and identity security
 
 Teams leverages Microsoft 365 capabilities to authenticate users and provide services. Staff, instructors, and students should have identities established to facilitate collaboration. If identities do not already exist, follow this process to establish them.
@@ -56,7 +58,9 @@ Teams leverages Microsoft 365 capabilities to authenticate users and provide ser
 Microsoft Teams is included in Office 365 A1, which is free for educational institutions. For IT guidance on how to deploy Office 365 and get your entire educational institution started on Teams, check out [this page](/microsoft-365/education/deploy/create-your-office-365-tenant). For support, you can file a ticket [here](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1) and for trainings on Teams, visit your local Microsoft Store to speak with a Specialist.
 
 > [!NOTE]
-> Please review [Updated Guidance for M365 EDU Deployment during COVID-19](/microsoft-365/education/deploy/guidance-for-m365-edu-deployment-during-covid19) for our latest information on EDU deployments.
+> Review [Updated Guidance for M365 EDU Deployment during COVID-19](/microsoft-365/education/deploy/guidance-for-m365-edu-deployment-during-covid19) for our latest information on EDU deployments.
+
+# [Set up Teams](#tab/setup)
 
 ## Easily set up Teams
 
@@ -88,6 +92,8 @@ Teams policies provide the ability to control the options available for specific
 
 **Primary school staff and educators** should be assigned policies that grant the core capabilities that may be restricted for students. Create new policies that allow the for private chat and meeting scheduling (the default settings for a new policy). [Assign these policies in bulk to your staff and educators](batch-group-policy-assignment-edu.md).
 
+# [Start using Teams](#tab/using-teams)
+
 ## Start using Teams
 
 ### Create class teams for secure classroom use
@@ -104,10 +110,10 @@ Microsoft Teams for Education offers  [specific team types](https://support.of
 
 There are a few ways in which class teams can be created, and Teams for Education has a unique set of deployment tools to make it as easy as possible.
 
- - [Automatic team creation using SDS](#automatic-team-creation-using-sds)
- - [Educator-led team creation from Office 365 class groups](#educator-led-team-creation-from-office-365-class-groups)
- - [PowerShell script using Graph APIs](#powershell-script-using-graph-apis)
- - [Manual team creation](#manual-team-creation)
+- [Automatic team creation using SDS](#automatic-team-creation-using-sds)
+- [Educator-led team creation from Office 365 class groups](#educator-led-team-creation-from-office-365-class-groups)
+- [PowerShell script using Graph APIs](#powershell-script-using-graph-apis)
+- [Manual team creation](#manual-team-creation)
 
 We'll step through various options to help you choose the right deployment path that best fits your needs.  
 
@@ -151,19 +157,19 @@ This hybrid approach allows you to either use SDS to create groups for each clas
 - [Early educator access](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78): Educators have time to prepare their team before admitting students.  
 - Reduces the number of unused and unnecessary teams. The classes are prepared and suggested but not created unless the teacher intends to use them. We recommend this option for large institutions that have more than 500,000 teams to reduce clutter.
 - SDS
-    - Membership sync with SIS/LMS to maintain student membership changes.
-    - EDU Customer Success Team available for free deployment assistance.
-    - Optionally creates users and applies Office 365 licenses.
-    - Creates security groups for use across Office 365 including Teams policy.
-    - Creates Administrative Units for scoped administrative delegation and [Teacher Password Reset](/schooldatasync/how-to-enable-teacher-password-reset).
-    - Built-in error and retry handling, throttling backoff, and session stability for large scale processing to reduce work on admins. 
-    - Built-in cleanup capabilities to rename and archive groups and teams once they are obsolete. 
-    - [Grade Sync](/schooldatasync/grade-sync): Educators can do all their grading in Teams and have it automatically write grades from Teams back to the SIS gradebook. 
-    - [Student Data Protection](/schooldatasync/protecting-student-personal-data): Prevent students from using non-Microsoft apps and to track and manage parent consent. 
-    - Imported data is used to enrich Education Insights with user roles, organizations (schools) and other important data.
+  - Membership sync with SIS/LMS to maintain student membership changes.
+  - EDU Customer Success Team available for free deployment assistance.
+  - Optionally creates users and applies Office 365 licenses.
+  - Creates security groups for use across Office 365 including Teams policy.
+  - Creates Administrative Units for scoped administrative delegation and [Teacher Password Reset](/schooldatasync/how-to-enable-teacher-password-reset).
+  - Built-in error and retry handling, throttling backoff, and session stability for large scale processing to reduce work on admins. 
+  - Built-in cleanup capabilities to rename and archive groups and teams once they are obsolete. 
+  - [Grade Sync](/schooldatasync/grade-sync): Educators can do all their grading in Teams and have it automatically write grades from Teams back to the SIS gradebook. 
+  - [Student Data Protection](/schooldatasync/protecting-student-personal-data): Prevent students from using non-Microsoft apps and to track and manage parent consent. 
+  - Imported data is used to enrich Education Insights with user roles, organizations (schools) and other important data.
 - Graph API
-    - Additional flexibility and control.
-    - Doesn't require integration with SDS.
+  - Additional flexibility and control.
+  - Doesn't require integration with SDS.
 
 ##### Considerations
 
@@ -241,6 +247,8 @@ Use the [Update Team API](/graph/api/team-update?tabs=http&view=graph-rest-beta&
 
 [Staff type teams](https://support.office.com/article/create-a-staff-team-in-microsoft-teams-314ac9d5-36a9-408e-8ae4-7ef20e9f1ddf) are designed for educational institute administrators and staff to easily share information and work together on institute-wide initiatives, including making announcements, settings up meetings, sharing content, and bringing in external apps, like [Planner for task tracking](https://support.office.com/article/create-a-plan-with-planner-d000976a-7490-4ddf-b9af-09ee764891e2). Educational institute administrators can add staff members to the team via the team creation wizard, [adding members after the team is created](https://support.office.com/article/add-members-to-a-team-in-teams-aff2249d-b456-4bc3-81e7-52327b6b38e9), or by [sharing a join code or link to the team](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f). [Creating channels](https://support.office.com/article/create-a-channel-in-teams-fda0b75e-5b90-4fb8-8857-7e102b014525) is a great way to organize conversation and files by workstream or subject. [The Go-to guide for team owners](https://support.office.com/article/go-to-guide-for-team-owners-75f9669b-bd8f-457d-b60b-ac2ac9c8ead4) is an excellent place to learn about team owner duties and capabilities.
 
+# [Teams meeting scenarios](#tab/scenarios)
+
 ## Teams meeting scenarios
 
 ### Collaborative meetings for virtual classes
@@ -252,6 +260,8 @@ In Teams, meeting organizers can end a meeting for all participants. With this c
 ### District/University events or updates
 
 Some instruction needs larger audiences and additional production capabilities. These meetings often have defined presenters, producers, and moderated Q&A. Teams supports these sessions using [Microsoft Teams live events](teams-live-events/what-are-teams-live-events.md). Live Events can be used for scenarios, such as district or university-wide updates, leadership addresses, and for instruction to large classes or student groups, or extend to your community. Learn more about conducting live sessions at: [plan and schedule a live event](https://support.office.com/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502), [produce a live event](https://support.office.com/article/video-produce-a-live-event-34c89e79-ffd4-4a6a-baf6-77055e0709cb), [attend a live event](https://support.office.com/article/video-attend-a-live-event-d837ad8d-ce34-44d0-9744-9beb50e943ac), and [moderating a Q&A](https://support.office.com/article/video-moderating-a-q-a-4984e582-8c66-4ea3-aaaf-d93cf62e1b76).
+
+# [Tips and tricks](#tab/tips)
 
 ## Recommended Tips & Tricks
 
@@ -266,7 +276,9 @@ Teams honors the [Outlook on the web mailbox policy](/powershell/module/exchange
 
 For example, if a student uploads a profile picture that's approved by your educational institute's IT or HR department, no action is needed. However, if a student uploads a picture that's inappropriate, change the picture according to your educational institute's internal policies.
 
-## Adoption content
+# [Encourage adoption](#tab/adoption)
+
+## Encourage Teams adoption
 
 Microsoft has developed [adoption content](https://support.office.com/article/video-moderating-a-q-a-4984e582-8c66-4ea3-aaaf-d93cf62e1b76) and strategy guidance for deploying Teams. The [Teams adoption guide](https://teamworktools.azurewebsites.net/tft/index.html) provides a good overview of available content and the [Teams Customer Success Kit](https://aka.ms/TeamsCustomerSuccess) provides many templates that can be used for Teams awareness. The Microsoft Educator Center provides education specific training on how [Microsoft Teams](https://education.microsoft.com/learningPath/18793af1) and [OneNote](https://education.microsoft.com/learningPath/b6e3b5f2) are used in the classroom.
 
@@ -275,6 +287,8 @@ Additional adoption resources include:
 - ["You can in :90" quick tip videos](https://www.youtube.com/playlist?list=PLiluTszfwwMKx-yVe7ekBX6gsLIHf1Z8k)
 - [Teams for Education video playlist](https://www.youtube.com/playlist?list=PLiluTszfwwMKicAo6agloFALEB5WvYNYs)
 - [BLOG: See how this school uses Teams for distance learning](https://www.wellingtoncollege.cn/tianjin-international/teaching-and-learning-update/)
+
+---
 
 ## Support Readiness
 
