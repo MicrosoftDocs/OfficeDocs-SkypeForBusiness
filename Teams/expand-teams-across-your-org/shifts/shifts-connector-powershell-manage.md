@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Use PowerShell to manage the Shifts connector after you set up a connection to Blue Yonder Workforce Management. 
+description: Learn how to use PowerShell to manage your Shifts connection to Blue Yonder Workforce Management.
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
