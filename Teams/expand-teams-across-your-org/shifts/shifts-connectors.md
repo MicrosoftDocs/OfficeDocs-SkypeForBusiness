@@ -95,7 +95,7 @@ The Reflexis Shifts connector for Microsoft Teams is hosted and managed by Zebra
 
 Frontline workers have access to their schedule in Shifts in Teams, and their requests are synchronized from Shifts to Reflexis Workforce Scheduler (RWS). The status of requests and shifts created in RWS are synced to Shifts in Teams.
 
-:::image type="content" source="../../media/shifts-connector-reflexis.png" alt-text="Screenshot showing list of shifts on a mobile device and a schedule in Reflexis" lightbox="../../media/shifts-connector-reflexis.png":::
+:::image type="content" source="../../media/shifts-connector-reflexis.png" alt-text="Screenshot showing list of shifts on a mobile device and a schedule in Reflexis." lightbox="../../media/shifts-connector-reflexis.png":::
 
 Frontline managers can:
 
