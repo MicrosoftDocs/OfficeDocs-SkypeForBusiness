@@ -100,7 +100,7 @@ If you have any questions about the SBC certification program for Direct Routing
 |                     [Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|    Ekinops Session Border Controller (ONeSBC)   |     &#10004;     |     &#10004;     |      6.6.1m5ha1      |     |    |
 |                     |    Ekinops Virtual Session Border Controller (ONEvSBC)   |     &#10004;     |    &#10004;      |      6.6.1m5ha1      |     |    |
 |                     [46 Labs LLC](https://46labs.com/docs/hcvoice/teams/)|    Hyperconverged Voice   |     &#10004;     |     &#10004;      |      HCVoice 1.0.6       |     |    |
-|                     [Frafos](https://www.frafos.com/ms-teams-abc-sbc)|    ABC SBC  |     &#10004;     |     &#10004;      |     4.6       |     |    |
+|                     [Frafos](https://www.frafos.com/ms-teams-abc-sbc)|    ABC SBC  |     &#10004;     |          |     4.6       |     |    |
 
 <br/>
 
