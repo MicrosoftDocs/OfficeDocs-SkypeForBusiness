@@ -44,7 +44,7 @@ Within Teams, **educators** can:
 
 Teams uses Microsoft 365 to authenticate users and provide services. All users should have Microsoft 365 identities established to facilitate collaboration.
 
-If user identities don't already exist, follow this process to establish them.
+If user identities don't already exist, follow this process to establish them:
 
 - [Create users using School Data Sync](/microsoft-365/education/deploy/school-data-sync)
 - [Assign licenses to users](teams-edu-licensing.md)
@@ -53,7 +53,9 @@ If user identities don't already exist, follow this process to establish them.
 - [Set up SharePoint and OneDrive](SharePoint-OneDrive-interact.md)
 - [Set up users who have Google email](/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users)
 
-Microsoft Teams is included in all Microsoft 365 plans. For guidance on deploying Microsoft 365 and getting Teams set up, check out [Create your Microsoft 365 tenant](/microsoft-365/education/deploy/create-your-office-365-tenant).
+Microsoft Teams is included in all Microsoft 365 plans, including the free A1 education plan.
+
+For guidance on deploying Microsoft 365 and getting Teams set up, check out [Create your Microsoft 365 tenant](/microsoft-365/education/deploy/create-your-office-365-tenant).
 
 # [Set up Teams](#tab/setup)
 
@@ -120,7 +122,7 @@ We'll step through various options to help you choose the right deployment path 
 
 [School Data Sync (SDS)](/SchoolDataSync) reads the data from an institution's system of record, like a Student Information System (SIS) or Learning Management system (LMS).
 
-SDS can import data from any system of record and has built-in connectors to many of the world’s [SIS vendors](/schooldatasync/frequently-asked-questions#what-sismis-vendors-does-school-data-sync-support).  
+SDS can import data from any system of record and has built-in connectors to many [SIS vendors](/schooldatasync/frequently-asked-questions#what-sismis-vendors-does-school-data-sync-support).  
 
 #### Benefits of SDS
 
