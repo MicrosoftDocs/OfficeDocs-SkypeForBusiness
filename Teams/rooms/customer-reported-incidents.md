@@ -1,5 +1,6 @@
 ﻿---
 title: Microsoft Teams Rooms Customer-reported Incidents
+author: donnah007
 ms.author: v-donnahill
 manager: serdars
 ms.reviewer: dstrome 
@@ -24,9 +25,10 @@ For any type of incident that Microsoft did not flag or for question about the s
 ![screenshot of the Incidents->Report incident](../media/customer-reported-incidents-001.png)
 
 In the Description field, as best as possible, describe the issue that you need help with from Microsoft. You can add one or more of the rooms.
+
 ![screenshot of the incident report rooms affected](../media/customer-reported-incidents-002.png)
 
-Customer-reported incidents (CRIs) are considered Critical tickets which means that the MTRP Service Operations Center triage these tickets first.  (Please refer to the Service Description SLA for Customer-reported incidents [here](https://docs.microsoft.com/microsoftteams/rooms/microsoft-teams-rooms-premium)) When a room(s) are selected as part of the CRI, each room will be marked as Unhealthy, until the CRI is closed.
+Customer-reported incidents (CRIs) are considered Critical tickets which means that the MTRP Service Operations Center triage these tickets first.  (Please refer to the Service Description SLA for Customer-reported incidents [here](microsoft-teams-rooms-premium.md) When a room(s) are selected as part of the CRI, each room will be marked as Unhealthy, until the CRI is closed.
 
 ## Closing Customer-reported Incident Tickets
 
