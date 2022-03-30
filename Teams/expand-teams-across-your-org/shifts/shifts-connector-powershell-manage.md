@@ -86,7 +86,7 @@ To learn more, see [Get-CsTeamsShiftsConnectionErrorReport](/powershell/module/t
 
 ### User mapping errors
 
-User mapping errors may occur if one or more users in a Blue Yonder WFM site isn't a member of the mapped team in Teams. To resolve this issue, make sure that the users in the mapped team match the users in the WFM site.
+User mapping errors may occur if one or more users in a Blue Yonder WFM site isn't a member of the mapped team in Teams. To resolve this issue, make sure that the users in the mapped team match the users in the Blue Yonder WFM site.
 
 To view details of unmapped users, [set up your environment](#set-up-your-environment) (if you haven't already), and then run the following script.
 
@@ -149,7 +149,7 @@ To change your Blue Yonder WFM service account or Microsoft 365 system account c
 ## Change connection settings
 <a name="change_settings"> </a>
 
-Use this script to change connection settings. Settings that you can change include your Blue Yonder WFM service account and password, Microsoft 365 service account, team mappings, and sync settings.
+Use this script to change connection settings. Settings that you can change include your Blue Yonder WFM service account and password, Microsoft 365 system account, team mappings, and sync settings.
 
 Sync settings include the sync frequency (in minutes) and the schedule data that's synced between Blue Yonder WFM and Shifts. Schedule data is defined in the following parameters, which you can view by running [Get-CsTeamsShiftsConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector?view=teams-ps).
 

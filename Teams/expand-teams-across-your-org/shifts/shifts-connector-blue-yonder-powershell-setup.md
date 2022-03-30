@@ -71,7 +71,7 @@ Run the script:
 
 The script does the following actions. You'll be prompted to enter setup and configuration details.
 
-1. Tests and verifies the connection to Blue Yonder WFM using the WFM service account credentials and service URLs that you enter.
+1. Tests and verifies the connection to Blue Yonder WFM using the Blue Yonder WFM service account credentials and service URLs that you enter.
 1. Configures the Shifts connector.
 1. Applies sync settings. These settings include the sync frequency (in minutes) and the schedule data that's synced between Blue Yonder WFM and Shifts. Schedule data is defined in the following parameters:
 
