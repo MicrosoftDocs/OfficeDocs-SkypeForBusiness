@@ -62,3 +62,7 @@ If you're a Teams devices admin, you can switch between administrative units if 
     - Select **All devices** if you have permission to manage all devices for your organization.
 
 5. Select **Save**.
+
+## Related topics
+
+- [Add users or groups to an administrative unit](/azure/active-directory/roles/admin-units-members-add)

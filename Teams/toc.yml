@@ -879,6 +879,8 @@ items:
               href: operator-connect-configure.md
         - name: Direct Routing
           items: 
+            - name: What's new
+              href: direct-routing-whats-new.md
             - name: Overview
               href: direct-routing-landing-page.md
             - name: Plan Direct Routing
