@@ -167,7 +167,7 @@ You’re on your way but you’re not done yet! Be sure to check your email. You
 >
 > Without this second step, users will still see the capability in Shifts, and will get an "unsupported operation" error message if they try to use it.
 
-To hide open shifts, swap requests, and time off requests in Shifts, use the Graph API [schedule resource type](https://docs.microsoft.com/graph/api/resources/schedule?view=graph-rest-1.0) to set the following parameters to ```false``` for each team that you mapped to a Blue Yonder WFM site:
+To hide open shifts, swap requests, and time off requests in Shifts, use the Graph API [schedule resource type](/graph/api/resources/schedule?view=graph-rest-1.0) to set the following parameters to ```false``` for each team that you mapped to a Blue Yonder WFM site:
 
 - Open shifts: ```openShiftsEnabled```
 - Swap requests:  ```swapShiftsRequestsEnabled```
