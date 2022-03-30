@@ -1,7 +1,7 @@
 ---
-title: Apps, bots, & connectors in Microsoft Teams
+title: Know about apps in Microsoft Teams
 ms.reviewer: 
-description: Learn about apps, bots, and connectors and how to decide which to deploy in Microsoft Teams based on your organization's profile and business requirements.
+description: Learn about apps and decide what apps to allow in Teams based on your organization's profile and business requirements.
 ms.topic: article
 author: guptaashish
 ms.author: guptaashish
@@ -19,27 +19,27 @@ appliesto:
   - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 ---
-# Apps, bots, & connectors in Microsoft Teams
+# About apps in Microsoft Teams
 
-Apps let you find content from your favorite services and share it in Teams. They help you do things such as pin services at the top of a channel, chat with bots, or share and assign tasks. To learn more, read [Overview of apps in Teams](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
+Apps let users find content from their favorite services and share it in Teams. They let you do tasks such as pin services at the top of a channel, automate notifications using bots, or share and assign tasks. To learn more about use of apps, read [Overview of apps for end-users](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 
-You can add apps to your Teams deployment by using the apps provided with Microsoft Teams, by using certified third-party apps and templates, and by creating your own custom apps.
+The different types of apps that your end-users can use in Teams are apps created by Microsoft, certified third-party apps, and custom apps created by your own organization.
 
 ## Use Microsoft-provided apps
 
-Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approvals, and more. We recommend that you include Teams featured apps - such as Planner - in your initial Teams rollout. Add other apps, bots, & connectors as you drive Teams adoption.
+Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approvals, and more. We recommend that you include Teams featured apps—such as Planner—in your initial Teams rollout. Add other apps as you drive Teams adoption. Some default functionality such as activity stream, chat, calendar, and calls is available by default and also pinned for ease of access for end-users.
 
 ## Use third-party apps
 
-In addition to Microsoft-provided apps, you can use Microsoft-certified third-party apps. Microsoft works with  Microsoft 365 developer partners to provide the information needed to expedite decisions about using Teams apps and add-ins. For more information, see [Microsoft Teams App Security and Compliance](/microsoft-365-app-certification/teams/teams-apps).
+In addition to Microsoft-provided apps, you can use Microsoft-validated third-party apps. Microsoft works with Microsoft 365 developer partners to provide the information needed to expedite decisions about using Teams apps. For more information, see [Microsoft Teams App Security and Compliance](/microsoft-365-app-certification/teams/teams-apps).
 
-## Use Teams templates
+## Use open-source sample apps provided by Microsoft
 
 You can also use [Teams templates](/microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json), production-ready apps for Microsoft Teams that are community driven, open-source, and available on GitHub.
 
 ## Create custom apps
 
-You can quickly build custom low-code solutions by using Teams integration with [Microsoft Power Platform](teams-power-platfom-integration.md). You can also create your own custom app to suit your business needs. For more information, see [Build apps for Microsoft Teams](/microsoftteams/platform/overview).  
+You can quickly build custom low-code solutions by using Teams integration with [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions). You can also create your own custom app to suit your business needs. For more information, see [Build apps for Microsoft Teams](/microsoftteams/platform/overview).  
 
 ## Apps deployment decisions
 
@@ -59,18 +59,16 @@ By default, all Microsoft-provided, third-party, and custom apps are available, 
 | Ask yourself | Action |
 |--------------|--------|
 |Will you change the default Teams apps settings? | For more information about policies and settings that you can use to manage apps in your organization, see [Admin settings for apps in Microsoft Teams](admin-settings.md).|
-|||
 
 ### App permissions and other considerations
-
-Apps are consented to by users and managed by the admin or IT pro through policies. However, on the whole, an app's permissions and risk profile are defined in the app itself.
 
 Apps are consented to by users and managed by the admin or IT pro through policies. However, app permissions and risk profile are defined in the app itself.
 
 | Ask yourself | Action |
 |--------------|--------|
 |<br>Which apps do I want to allow access to? Which ones do I not want to allow access to?  | <ul><li>See [Microsoft Teams apps permissions and considerations](app-permissions.md) for a list of things you should consider when allowing access to an app, bot, tab, or connector.</li><li>See [Manage your apps in the Microsoft Teams admin center](manage-apps.md) for information about making an app available to users in your organization.</li></ul>|
-|||
+
+<!--- TBD: Rewrite this to talk about bots and tabs as a capability of apps. Admins do not govern bots, tabs, etc. Admins only govern apps that contain capabilities such as connectors, bots, etc. This writeup gives an impression that admins manage apps + bots + tabs + connectors, etc.
 
 ### Bots for private chats and channels
 
@@ -79,7 +77,6 @@ Bots are automated programs that respond to queries or give updates and notifica
 | Ask yourself | Action |
 |--------------|--------|
 |Do I want to allow custom bots in my organization?|For more information about adding bots, see [Add bots for private chats and channels in Microsoft Teams](/microsoftteams/platform/bots/what-are-bots). For information about turning custom bots on or off, see [Admin settings for apps in Microsoft Teams](admin-settings.md).|
-|||
 
 ### Built-in and custom tabs
 
@@ -88,20 +85,20 @@ Owners and team members can add tabs to a channel, private chat, and group chat 
 | Ask yourself | Action |
 |--------------|--------|
 |Do I want to allow custom tabs in my organization?|For more information, see [Use built-in and custom tabs in Teams](built-in-custom-tabs.md).|
-|||
 
 ### Custom connectors
 
-Connectors keep your team current by delivering content and updates from services you frequently use directly into a channel. With connectors, your Teams users can receive updates from popular services such as Twitter, Trello, Wunderlist, GitHub, and Azure DevOps Services in their Teams chats.
+Connectors keep your team current by delivering content and updates from services you frequently use directly into a channel. With connectors, your Teams users can receive updates from popular services such as Trello, Wunderlist, GitHub, and Azure DevOps Services in their Teams chats.
 
 | Ask yourself | Action |
 |--------------|--------|
 |Do I want to allow users to create custom connectors?|For more information, see [Use custom connectors in Teams](office-365-custom-connectors.md).|
-|||
+
+--->
 
 ## Additional deployment decisions
 
-You may want to change these settings, based on your organization's needs and configuration.
+You can change these settings, based on your organization's needs and configuration.
 
 ### Activity reports
 
@@ -110,15 +107,13 @@ You can use activity reports to see how users in your organization are using Tea
 | Ask yourself | Action |
 |--------------|--------|
 | <br>Who needs to see the activity reports, and do they have the correct permissions to view them? |<ul><li>If you don't want to assign an admin role to a user, you can [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) for information about assigning admin roles in Azure Active Directory.</li></ul> |
-|||
 
 ### App templates
 
-App templates are production-ready apps for Microsoft Teams that are community driven, open-source, and available on GitHub. Each contains detailed instructions for deploying and installing that app for your organization, providing a ready-to-use app that you can install and begin using immediately.
+App templates are production-ready apps for Microsoft that are community driven, open-source, and available on GitHub. Each app contains detailed instructions to deploy and install it for your organization, and is a ready-to-use app that you can install and begin to use immediately.
 
 The complete source code is available as well, so you can explore it in detail, or fork the code and alter it to meet your specific needs.
 
 | Ask yourself | Action |
 |--------------|--------|
 | Do I want to install any Teams app templates, such as Icebreaker? |To learn more, read [App templates for Teams](/microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=MicrosoftTeams%2ftoc.json).|
-|||
