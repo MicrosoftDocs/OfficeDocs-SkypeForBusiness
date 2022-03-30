@@ -60,7 +60,7 @@ To start customizing an app, complete the following steps:
 
    - Select the app name and then select the edit icon in **Customizable**.
 
-     ![The customize selection option 2.](media/app-details-customizable.png)
+     ![The customize selection option 2.](media/communities-microsoft.png)
 
    - Select the app name, click on **overflow menu** hover on **Actions** and select customize.
 
