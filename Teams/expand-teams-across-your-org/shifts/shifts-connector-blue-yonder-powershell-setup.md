@@ -76,7 +76,7 @@ The script does the following actions. You'll be prompted to enter setup and con
 1. Applies sync settings. These settings include the sync frequency (in minutes) and the schedule data that's synced between Blue Yonder WFM and Shifts. Schedule data is defined in the following parameters:
 
     - The **enabledConnectorScenarios** parameter defines data that's synced from Blue Yonder WFM to Shifts. Options are `Shift`, `SwapRequest`, `UserShiftPreferences`, `OpenShift`, `OpenShiftRequest`, `TimeOff`, `TimeOffRequest`.
-    - The **enabledWfiScenarios** parameter defines data that's synced from Shifts to Blue Yonder WFM. Options are `SwapRequest`, `OpenShift`, `OpenShiftRequest`,  `TimeOffRequest`, `UserShiftPreferences`.
+    - The **enabledWfiScenarios** parameter defines data that's synced from Shifts to Blue Yonder WFM. Options are `SwapRequest`, `OpenShiftRequest`, `TimeOffRequest`, `UserShiftPreferences`.
 
     To learn more, see [New-CsTeamsShiftsConnectionInstance](/powershell/module/teams/new-csteamsshiftsconnectioninstance?view=teams-ps). To see the list of supported sync options for each parameter, run [Get-CsTeamsShiftsConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector?view=teams-ps).
 
