@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams low-bandwidth guidance for EDU
+title: Troubleshoot low-bandwidth scenarios for Teams
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: jesegher
-description: Microsoft Teams for EDU article to help with meeting and video issues relating to low bandwidth. Whether you are a parent, an educator, or an IT Admin, you have options to improve the experience with Teams.
+description: Get help with meeting and video issues relating to low bandwidth problems in Teams. Whether you're a parent, an educator, or an IT Admin, you have options to improve the experience with Teams.
 ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
@@ -20,7 +20,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Help for low-bandwidth situations for Teams for EDU
+# Troubleshoot low-bandwidth scenarios for Teams
 
 There are numerous network elements when it comes to working with Microsoft Teams that can affect performance. Low bandwidth is one of the situations that can feel entirely out of your control. Consider the following situations:
 
