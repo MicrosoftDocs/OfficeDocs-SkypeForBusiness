@@ -47,11 +47,13 @@ Within Teams, **educators** can:
 - Stay up-to-date on events
 - Collaborate using Staff Teams for announcements and topical conversations
 
-# [Accounts and licenses](#tab/accounts)
+# [Accounts & licenses](#tab/accounts)
 
 ## User accounts, licenses, and identity security
 
-Teams uses Microsoft 365 to authenticate users and provide services. All users should have Microsoft 365 identities established to facilitate collaboration. If user identities don't already exist, follow this process to establish them.
+Teams uses Microsoft 365 to authenticate users and provide services. All users should have Microsoft 365 identities established to facilitate collaboration. 
+
+If user identities don't already exist, follow this process to establish them.
 
 - [Create users using School Data Sync](/microsoft-365/education/deploy/school-data-sync)
 - [Assign licenses to users](teams-edu-licensing.md)
@@ -60,7 +62,7 @@ Teams uses Microsoft 365 to authenticate users and provide services. All users s
 - [Set up SharePoint and OneDrive](SharePoint-OneDrive-interact.md)
 - [Set up users who have Google email](/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users)
 
-Microsoft Teams is included in Office 365 A1, which is free for educational institutions. For IT guidance on how to deploy Office 365 and get your entire educational institution started on Teams, check out [Create your Microsoft 365 tenant](/microsoft-365/education/deploy/create-your-office-365-tenant).
+Microsoft Teams is included in all Microsoft 365 plans. For guidance on deploying Microsoft 365 and getting Teams set up, check out [Create your Microsoft 365 tenant](/microsoft-365/education/deploy/create-your-office-365-tenant).
 
 # [Set up Teams](#tab/setup)
 
@@ -89,24 +91,22 @@ For a walk-through of how to create Teams, see [Create a class team in Microsoft
 
 Teams policies control the capabilities available for specific users or groups. Policies can define who should be allowed to use private chat, private calling, meeting scheduling, content types that can be shared, and more.
 
-**Higher education staff, educators, and students** benefit from the capabilities included with the default (global) policies. Some policy settings can be adjusted to add more functionality to Teams, including [turning on translation capabilities](messaging-policies-in-teams.md#messaging-policy-settings) and [allowing for automatic meeting transcription](meetings-policies-recording-and-transcription.md#allow-transcription).
+**Higher education staff, educators, and students** can use the default (global) policies. You can adjust policies to add more functionality to Teams, including [translation capabilities](messaging-policies-in-teams.md#messaging-policy-settings) and [automatic meeting transcription](meetings-policies-recording-and-transcription.md#allow-transcription).
 
-**Primary-secondary school students** may need restricted capabilities to keep students safe. Because the student population is often the largest set of users and they often receive the most restrictive settings, it's recommended that student policy changes be made to the 'Global (Org-wide default)' polices.
+**Primary-secondary school students** may need restricted capabilities. It's recommended that student policy changes be made to the 'Global (Org-wide default)' polices.
 
-**Primary-secondary school staff and educators** should be assigned policies that grant key capabilities. Create new policies that allow private chat and meeting scheduling (the default settings for a new policy). [Assign these policies in bulk to your staff and educators](batch-group-policy-assignment-edu.md).
+**Primary-secondary school staff and educators** should be assigned policies that grant key capabilities, like allowing private chat and meeting scheduling. [Assign these policies in bulk to your staff and educators](batch-group-policy-assignment-edu.md).
 
 > [!IMPORTANT]
-> For meeting policies assigned to any users, we recommend setting the **Automatically admit people** setting to **Everyone in your organization**. This setting will ensure that non-authenticated users must be admitted from the lobby before they can join Teams meetings.
+> For meeting policies assigned to any users, we recommend setting the **Automatically admit people** setting to **Everyone in your organization**. This will ensure that non-authenticated users must be admitted from the lobby before they can join Teams meetings.
 >
-> For more information, check out [Manage meeting policies in Teams](meeting-policies-participants-and-guests.md#automatically-admit-people).
+> For more information, see [Manage meeting policies in Teams](meeting-policies-participants-and-guests.md#automatically-admit-people).
 
-# [Using Teams](#tab/using-teams)
+# [Class teams](#tab/class-teams)
 
-## Start using Teams
+## Create class teams for secure classroom use
 
-### Create class teams for secure classroom use
-
-Teams for Education has [team types](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67). The [Class team type](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b) is for classroom use and comes with features that support classrooms including:  
+The [Class team type](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b) is for classroom use and comes with features that support classrooms, including:  
 
 - Assignments
 - Grades
@@ -116,20 +116,20 @@ Teams for Education has [team types](https://support.office.com/article/choose-a
 - [Set up classes before students are added](https://support.microsoft.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78)
 - Mute disruptive students
 
-There are a few ways class teams can be created:
+Class teams can be created through:
 
-- [Automatic team creation using SDS](#automatic-team-creation-using-sds)
-- [Educator-led team creation from Microsoft 365 class groups](#educator-led-team-creation-from-microsoft-365-class-groups)
-- [PowerShell script using Graph APIs](#powershell-script-using-graph-apis)
+- [School Data Sync (SDS)](#automatic-team-creation-using-sds)
+- [Educator-led creation using Microsoft 365 class groups](#educator-led-team-creation-from-microsoft-365-class-groups)
+- [PowerShell scripts using Graph APIs](#powershell-script-using-graph-apis)
 - [Manual team creation](#manual-team-creation)
 
 We'll step through various options to help you choose the right deployment path that best fits your needs.  
 
 #### Automatic team creation using SDS
 
-[School Data Sync (SDS)](/SchoolDataSync) is a free Microsoft 365 education tool that reads the data from an institution's system of record, like a Student Information System (SIS) or Learning Management system (LMS).
+[School Data Sync (SDS)](/SchoolDataSync) reads the data from an institution's system of record, like a Student Information System (SIS) or Learning Management system (LMS).
 
-SDS can import data from any system of record and has built-in connectors to many of the world’s existing [SIS vendors](/schooldatasync/frequently-asked-questions#what-sismis-vendors-does-school-data-sync-support).  
+SDS can import data from any system of record and has built-in connectors to many of the world’s [SIS vendors](/schooldatasync/frequently-asked-questions#what-sismis-vendors-does-school-data-sync-support).  
 
 ##### Benefits of SDS
 
@@ -139,7 +139,7 @@ SDS can import data from any system of record and has built-in connectors to man
 - [Allows educators to prepare classes before adding students](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78)  
 - Can automatically create security groups
 - Creates Administrative Units for scoped administrative delegation
-- [Allows Teacher Password Reset](/schooldatasync/how-to-enable-teacher-password-reset)
+- [Allows Educator Password Reset](/schooldatasync/how-to-enable-teacher-password-reset)
 - Has built-in cleanup capabilities to rename and archive groups and teams
 - [Syncs grades from Teams to SIS](/schooldatasync/grade-sync)
 - [Protects students personal data](/schooldatasync/protecting-student-personal-data)
@@ -150,8 +150,8 @@ SDS can import data from any system of record and has built-in connectors to man
 
 SDS creates teams in two steps:
 
-1. The first step creates a Microsoft 365 group in Azure Active Directory (Azure AD).
-2. The second step automatically turns that group into a team.
+1. SDS creates a Microsoft 365 group in Azure Active Directory (AAD).
+2. SDS automatically turns that group into a team.
 
 The second step of creating teams is optional in SDS. An admin may not want to automatically create teams depending on deployment time and the number of unused teams that may result. Instead, see the [Educator-led team creation method](#educator-led-team-creation-from-microsoft-365-class-groups).  
 
@@ -161,9 +161,7 @@ To get started, go to [School Data Sync (SDS)](/SchoolDataSync) and contact [htt
 
 #### Educator-led team creation from Microsoft 365 class groups
 
-Educator-led team creation makes it easy for educators to create the classes they need.
-
-We recommend that institutions with more than 500,000 teams use this method to reduce the number of unnecessary teams.  
+Educator-led team creation makes it easy for educators to create the classes they need.  
 
 This approach allows you to either use SDS to create groups for each class (recommended) or use [Graph API](/graph/api/educationroot-post-classes) to create them on your own.
 
@@ -175,6 +173,7 @@ After class groups are prepared, educators can convert their groups into teams:
 ##### Benefits of educator-led team creation
 
 - Classes are prepared and suggested but not created unless the educator intends to use them
+- For institutions with more than 500,000 teams, this method reduces the number of unnecessary teams
 - [SDS benefits](#benefits-of-sds)
 - Graph API benefits
   - Gives educators control to which classes get created
@@ -199,7 +198,7 @@ To use the Graph API method, see [Graph API](/graph/api/educationroot-post-class
 
 With PowerShell, you can write a script to create teams and channels, and configure settings automatically.
 
-It requires the admin to first create the group, add educators and students, and then create the team as outlined [here](/graph/teams-create-group-and-team).
+This method requires the admin to [first create the group, add educators and students, and then create the team](/graph/teams-create-group-and-team).
 
 You can also use the [Microsoft Graph API to create, configure, clone, and archive teams](/graph/api/resources/teams-api-overview).
 
@@ -220,36 +219,37 @@ You can also use the [Microsoft Graph API to create, configure, clone, and archi
 
 #### Manual team creation
 
-One way users can tailor their Teams experience is by having the ability to create their own teams.
+Users can tailor their Teams experience by having the ability to create their own teams.
 
-Depending on a users permissions, they can:
+Depending on a user's permissions, they can:
 
 - [Set up their own teams and invite users, including students](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch)
 - [Manually add users to the team](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954)
 - [Share a join code](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)
 - [Share a link to the team](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)
 
-If possible, it’s best to have educators add their students to the team to ensure the students get access and are notified that they’ve been added to a team.
+It’s best to have educators add their students to the team to ensure the students get access and are notified that they’ve been added.
 
 ##### Benefits of manual team creation
 
 - Gives educators full control of class creation
 - Class teams are created immediately
-- Students have Class team access immediately
 
 ##### Considerations for manual team creation
 
-- Requires educator action and time.
-- Student membership is not synced with SIS and requires manual management.
-- Doesn't give educators early access to their teams. Students will gain immediate access.
+- Requires educator action and time
+- Student membership isn't synced with SIS and requires manual management
+- Students will gain immediate access to class teams
 
 #### Recommended best practices
 
 - Deploy early to ensure everything is working reliably and ready for the first day of school.
+
 - For issues with SDS automatic team creation, educators can use the [educator-led team creation method](#educator-led-team-creation-from-microsoft-365-class-groups) to retry. [Manual team creation](#manual-team-creation) is another solution, but classes won't sync with SIS.
+
 - The tenant team limit is 500,000 teams. Therefore, admins should reduce the number of unused teams to avoid hitting these limits. For more information, see [Limits and specifications for Microsoft Teams](limits-specifications-teams.md).  
 
-# [Early access](#tab/early-access)
+# [Educator early access](#tab/early-access)
 
 ## Early access to class teams
 
