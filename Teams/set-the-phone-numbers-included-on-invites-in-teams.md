@@ -27,7 +27,7 @@ description: Follow these steps to create a default phone number for callers to 
 
 # Set the phone numbers included on invites in Microsoft Teams
 
-Audio Conferencing in Microsoft 365 and Office 365 enables users in your organization to create Microsoft Teams meetings, and then allow users to dial in to those meetings using a phone.
+Audio Conferencing in Microsoft 365 and Office 365 enables users in your organization to create Microsoft Teams meetings, and then allow users to dial in to those meetings using a phone number.
 
 A conferencing bridge gives you a set of dial-in phone numbers for your organization. All of them can be used to join the meetings that a meeting organizer has created, but you can select which ones will be included on their meeting invites.
 
@@ -36,9 +36,9 @@ In addition to the phone numbers included in the meeting invite for a meeting or
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## Initial assignment of phone numbers that are included in the meeting invites for new users
+## Initial assignment of phone numbers that are included in the meeting invites for users
 
-The phone numbers included in the meeting invites of users enabled for Audio Conferencing are defined in the *TeamsAudioConferencingPolicy* that's assigned to users. When a *TeamsAudioConferencingPolicy* is assigned to a user, all toll and toll-free phone numbers added in the policy are included in meeting invites for users who have that policy. If a user is assigned a *TeamsAudioConferencingPolicy* and there aren't any toll or toll-free phone numbers added to the policy, then in that case the phone numbers that in the meeting invites of these users are defined by the default conferencing toll phone number and the default conferencing toll-free phone number in each individual user's settings.
+The phone numbers included in the meeting invites of users enabled for Audio Conferencing are defined in the *TeamsAudioConferencingPolicy* that's assigned to users. When a *TeamsAudioConferencingPolicy* is assigned to a user, all toll and toll-free phone numbers added in the policy are included in meeting invites for users who have that policy. If a user is assigned a *TeamsAudioConferencingPolicy* and there aren't any toll or toll-free phone numbers added to the policy, then in that case the phone numbers that appear in the meeting invites of these users are defined by the default conferencing toll phone number and the default conferencing toll-free phone number in each individual user's settings.
 
 > [!NOTE]
 > Toll or toll-free phone numbers added to the *TeamsAudioConferencingPolicy* of a user take precedence over the phone numbers set individually using the default conferencing toll phone number and the default conferencing toll-free phone number in a user's settings.

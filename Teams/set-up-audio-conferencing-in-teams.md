@@ -99,14 +99,7 @@ For more details, see [Change the settings for an Audio Conferencing bridge](cha
 
 ## Step 7: Assign dial-in phone numbers for users who lead meetings
 
-After you have created an Audio Conferencing bridge, you need to set the toll and toll-free numbers for your users.
-
-You'll need to do this for all of the people in your organization who lead or schedule meetings.
-
- **Using the Microsoft Teams admin center**:
-
-1. From the Home, click **Users**, select the user from the list, and select **Edit**.
-2. Select **Edit** next to **Audio Conferencing**, and then in the **Audio Conferencing** pane, choose a number in the **Toll number** and **Toll-free** number lists.
+Refer to [Set the phone numbers included on invites in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md).
 
 If you need more details, see [Assign Microsoft as the audio conferencing provider](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
 
