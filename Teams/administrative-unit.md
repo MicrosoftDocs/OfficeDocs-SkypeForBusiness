@@ -65,4 +65,4 @@ If you're a Teams devices admin, you can switch between administrative units if 
 
 ## Related topics
 
-- [Add users or groups to an administrative unit](azure/active-directory/roles/admin-units-members-add.md)
+- [Add users or groups to an administrative unit](/azure/active-directory/roles/admin-units-members-add)
