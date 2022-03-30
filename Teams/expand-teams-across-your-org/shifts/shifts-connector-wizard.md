@@ -159,7 +159,7 @@ You’re on your way but you’re not done yet! Be sure to check your email. You
 ## Disable open shifts, open shifts requests, swap requests, and time off requests
 
 > [!IMPORTANT]
-> Follow these steps only if you chose any of the following options to disable open shifts and open shift requests, swap requests, or time off requests in the wizard. Completing this step hides the capability in Shifts.
+> Follow these steps only if you chose any of the following options to disable open shifts, open shift requests, swap requests, or time off requests in the wizard. Completing this step hides the capability in Shifts.
 >
 > - Open shifts: **Shifts users will not see Blue Yonder WFM data**
 > - Swap requests: **Feature is disabled for all users**
