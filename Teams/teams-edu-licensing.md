@@ -1,5 +1,5 @@
 ---
-title: 'Microsoft Teams resources for Education admins: Assign Teams licenses for EDU'
+title: 'Assign Microsoft Teams licenses for education'
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: karsmith
-description: Licensing walkthrough for Microsoft Teams for EDU.
+description: Learn how to assign licenses for Microsoft Teams for Education.
 ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
@@ -19,7 +19,7 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Assign Microsoft Teams licenses for EDU
+# Assign Microsoft Teams for Education licenses
 
 Microsoft Teams is a digital hub that brings conversations, content, and apps together in one place. Because it's built on Office 365, schools benefit from integration with their familiar Office apps and services. Your institution can use Microsoft Teams to create collaborative classrooms, connect in professional learning communities, and communicate with school staff all from a single experience in Office 365 for Education.
 
