@@ -183,7 +183,7 @@ Information barriers mode  help strengthen who can be added to or removed from a
 
 - **Open**: This configuration is the default IB mode for all existing groups that were provisioned before information barriers were enabled. In this mode, there are no IB policies applicable.
 - **Implicit**: This configuration is the default IB mode when a Team is provisioned after enabling Information barriers. Implicit mode allows you to add all compatible users in the group.
-- **Owner Moderated (preview)**: This mode is set on a team when you want to allow collaboration between incompatible segment users that are moderated by the owner. The team owner can add new members per their IB policy.
+- **Owner Moderated**: This mode is set on a team when you want to allow collaboration between incompatible segment users that are moderated by the owner. The team owner can add new members per their IB policy.
 
 Teams created before activating an information barrier policy in your tenant are automatically set to *Open* mode by default. Once you activate IB policies on your tenant, you're required to update mode of your existing teams to *Implicit* to ensure that existing teams are IB-compliant.
 
@@ -219,5 +219,4 @@ For more information on licenses and permissions, plans, and pricing, see [Micro
 
 ## Availability
 
-- The feature is available in our public cloud; in January 2021, we rolled out information barriers in the GCC cloud.
-- The feature isn't yet available in the GCC - High and DOD clouds.
+- The feature is available in our public cloud, GCC, GCC - High, and DOD clouds.
