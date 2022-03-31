@@ -219,4 +219,4 @@ For more information on licenses and permissions, plans, and pricing, see [Micro
 
 ## Availability
 
-- The feature is available in our public cloud, GCC, GCC - High, and DOD clouds.
+Information barriers in Teams is available in our public, GCC, GCC - High, and DOD clouds.
