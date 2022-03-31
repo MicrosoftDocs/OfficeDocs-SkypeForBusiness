@@ -176,7 +176,7 @@ A laptop running Teams ensures the user is not confined to one working area and 
 
 *Installing or setting up this solution is:*
 
-Very easy. This is something that can handled entirely by end users by simply combing their PC with a certified headset for audio and video calling. 
+Very easy. This is something that can be handled entirely by end users by simply combing their PC with a certified headset for audio and video calling. 
 
 ### Personal space
 
