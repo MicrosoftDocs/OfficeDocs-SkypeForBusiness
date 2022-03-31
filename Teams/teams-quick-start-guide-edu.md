@@ -34,17 +34,17 @@ It delivers enterprise-grade security and compliance that is extensible and cust
 
 With Microsoft Teams, your school or institution can:
 
-- Create collaborative classrooms
-- Connect in professional learning communities
-- Communicate with school staff
-- Coordinate research across institutions
-- Easily facilitate student life efforts like clubs or extracurricular activities
+- Create collaborative classrooms.
+- Connect in professional learning communities.
+- Communicate with school staff.
+- Coordinate research across institutions.
+- Easily facilitate student life efforts like clubs or extracurricular activities.
 
 This guide will help you get started with:
 
-- Turning on Teams for students
-- Learning what kind of controls are available to manage Teams within your school
-- Finding partner services through references to external documentation
+- Turning on Teams for students.
+- Learning what kind of controls are available to manage Teams within your school.
+- Finding partner services through references to external documentation.
 
 If you've already deployed Teams (as a pilot or full deployment) and are looking for pointers on how to use Teams, see [Microsoft Teams for Education](https://support.office.com/article/Microsoft-Teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
 
@@ -78,11 +78,11 @@ Successful Teams deployments often center around highly collaborative teams that
 >
 > Teams channels you may want to create include:
 >
-> - Exchange
-> - Microsoft Teams
-> - Pilot Feedback
-> - SharePoint
-> - Training and Adoption
+> - Exchange.
+> - Microsoft Teams.
+> - Pilot Feedback.
+> - SharePoint.
+> - Training and Adoption.
 
 ### Step 3: Conduct pilots and deploy Teams
 
@@ -92,10 +92,10 @@ Select an interested group of users and a prioritized education scenario to get 
 
 You can create teams for:
 
-- Classes
-- PLCs
-- Staff members
-- Anyone
+- Classes.
+- PLCs.
+- Staff members.
+- Anyone.
 
 Once your pilots are complete, you’ll have the feedback you need to plan your broad Teams deployment.
 

@@ -22,18 +22,20 @@ appliesto:
 
 # Troubleshoot low-bandwidth scenarios for Teams
 
-There are numerous network elements when it comes to working with Microsoft Teams that can affect performance. Low bandwidth is one of the situations that can feel entirely out of your control. Consider the following situations:
+Numerous network elements can affect performance when working with Microsoft Teams. Low bandwidth situations can feel out of your control.
 
-- A low-speed internet connection for the school.
-- A low-speed internet connection for one or more students.
+Consider the following situations:
+
+- Low-speed internet connection for the school.
+- Low-speed internet connection for one or more students.
 - Times of the day when there's low bandwidth because of network usage in an area.
-- Low-bandwidth periods because of outages local to neither the school nor to students, but, which affect performance nonetheless.
-- Non-bandwidth issues (for example, issues with hardware) that masquerade as low-bandwidth issues.
+- Outages local to neither the school nor students, but affect performance.
+- Issues with hardware that cause low-bandwidth issues.
 
-This article will give you best practices to follow for various Teams activities when you're faced with a low-bandwidth issue.
+This article will give you best practices when dealing with low-bandwidth issues.
 
 > [!IMPORTANT]
-> There's information here on [How Microsoft Teams uses memory](teams-memory-usage-perf.md), because in addition to low bandwidth problems, you may be having resource issues on your device. If you're looking for network guidance for Microsoft Teams, review [Prepare your organization's network for Microsoft Teams](prepare-network.md).
+> Read [How Microsoft Teams uses memory](teams-memory-usage-perf.md) because you may also have resource issues on devices. If you're looking for Teams network guidance, see [Prepare your organization's network for Microsoft Teams](prepare-network.md).
 
 ## Resolving low-bandwidth issues for Admins
 
