@@ -1,4 +1,4 @@
-1. Install PowerShell version 7 or later. For step-by-step guidance, see [Installing PowerShell on Windows](/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2).
+1. Install PowerShell version 7 or later. For step-by-step guidance, see [Installing PowerShell on Windows](/powershell/scripting/install/installing-powershell-on-windows).
 
 1. Run PowerShell in administrator mode.
 1. Install the Microsoft Graph PowerShell module.
