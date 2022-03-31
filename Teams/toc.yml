@@ -871,6 +871,8 @@ items:
               href: operator-connect-configure.md
         - name: Direct Routing
           items: 
+            - name: What's new
+              href: direct-routing-whats-new.md
             - name: Overview
               href: direct-routing-landing-page.md
             - name: Plan Direct Routing
@@ -1605,6 +1607,12 @@ items:
               items: 
               - name: Overview       
                 href: expand-teams-across-your-org/shifts/shifts-connectors.md
+              - name: Use the Shifts connector wizard to set up a connection to Blue Yonder WFM
+                href: expand-teams-across-your-org/shifts/shifts-connector-wizard.md
+              - name: Use PowerShell to set up a connection to Blue Yonder WFM
+                href: expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup.md
+              - name: Use PowerShell to manage your Shifts to Blue Yonder WFM connection
+                href: expand-teams-across-your-org/shifts/shifts-connector-powershell-manage.md
             - name: Shifts data FAQ       
               href: expand-teams-across-your-org/shifts/shifts-data-faq.md
     - name: Teams for Education
