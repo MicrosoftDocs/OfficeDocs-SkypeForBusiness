@@ -78,7 +78,7 @@ If you want people to access meetings that were previously scheduled or started 
 All newly created Teams meeting recordings (TMRs) will have a default expiration of 120 days. This is on by default for all tenants. This means that by default, all TMRs created *after this feature was turned on* will be deleted 120 days after their creation date. Admins can also set meetings to **never auto-expire**. The OneDrive and SharePoint system will monitor the expiration date set on all TMRs and will automatically move TMRs to the recycle bin on their expiration date.
 
 > [!NOTE]
-> One copy of the meeting transcript is saved in OneDrive SharePoint and a second copy is saved in Exchange in temporary storage. The OSDP copy expires when the TMR auto-expires.
+> One copy of the meeting transcript is saved in OneDrive SharePoint and a second copy is saved in Exchange in temporary storage. The ODSP copy expires when the TMR auto-expires.
 
 Automatic meeting expiration is a lightweight housekeeping mechanism to reduce storage clutter created by older TMRs. On average, across all customers, 96% of TMRs aren't watched after 60 days and 99% aren't watched after 110 days. We believe nearly all customers will benefit from the reduced storage load on their tenant by removing recordings that likely won't be watched again after 60 days. It's our goal to provide as clean an experience as possible for all customers by default.
 
