@@ -17,7 +17,7 @@ appliesto:
 
 # CPUs with media logging enabled by default
 
-This is the list of CPUs with media logging enabled by default. See [Use log files to monitor and troubleshoot Microsoft Teams](log-files.md) for a detailed explanation of media logging.
+This is the list of CPUs with media logging enabled by default, intended to be high performance CPUs that shouldn't be impacted by default behavior. See [Use log files to monitor and troubleshoot Microsoft Teams](log-files.md) for a detailed explanation of media logging.
 
 |CPUs with Media Logging Enabled by Default|
 |:--:|
