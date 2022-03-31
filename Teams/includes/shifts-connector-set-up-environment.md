@@ -1,3 +1,11 @@
+---
+author: LanaChin
+ms.author: v-lanachin
+ms.date: 03/31/2022 
+ms.topic: include
+audience: admin
+ms.service: msteams
+---
 1. Install PowerShell version 7 or later. For step-by-step guidance, see [Installing PowerShell on Windows](/powershell/scripting/install/installing-powershell-on-windows).
 
 1. Run PowerShell in administrator mode.

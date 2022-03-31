@@ -1,3 +1,11 @@
+---
+author: LanaChin
+ms.author: v-lanachin
+ms.date: 03/31/2022 
+ms.topic: include
+audience: admin
+ms.service: msteams
+---
 Before you get started, make sure you have the following prerequisites:
 
 - Blue Yonder WFM version 2020.3, 2021.1, or 2021.2.
