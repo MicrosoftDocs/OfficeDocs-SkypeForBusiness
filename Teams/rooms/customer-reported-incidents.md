@@ -60,4 +60,4 @@ Not at this time. All users who have Ticket Management permissions can close a C
 
 **Do I get notified when a Customer-reported Incident ticket closes?**
 
-Not at this time.**
+Not at this time.
