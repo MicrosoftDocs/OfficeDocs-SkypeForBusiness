@@ -36,7 +36,7 @@ For Teams users, Cloud Voicemail is automatically set up and provisioned. *A Mic
 
 Provisioning for Teams users isn't the same as it was for Skype for Business Online users. For Skype for Business Online users, Cloud Voicemail was automatically set up and provisioned when the users were assigned a Phone System license and were Enterprise Voice enabled by the provisioning system.
 
-For Skype for Business Server on-premises users, Cloud Voicemail is automatically set up and provisioned. However, you must configure the Skype for Business Server environment to route calls to Cloud Voicemail. For more information, see [Plan Cloud Voicemail service for on-premises users](/skypeforbusiness/hybrid/plan-cloud-voicemail.md).
+For Skype for Business Server on-premises users, Cloud Voicemail is automatically set up and provisioned. However, you must configure the Skype for Business Server environment to route calls to Cloud Voicemail. For more information, see [Plan Cloud Voicemail service for on-premises users](/skypeforbusiness/hybrid/plan-cloud-voicemail).
 
 ## Cloud Voicemail storage
 
