@@ -50,11 +50,11 @@ This article describes how to use PowerShell to do the following:
 
 7. Connect to Teams.
 
-```powershell
-Connect-MicrosoftTeams
-```
+    ```powershell
+    Connect-MicrosoftTeams
+    ```
 
-When you're prompted, sign in using your admin credentials.
+    When you're prompted, sign in using your admin credentials.
 
 ## Check connection setup status
 <a name="setup_status"> </a>
