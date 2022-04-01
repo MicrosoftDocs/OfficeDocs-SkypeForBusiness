@@ -167,7 +167,7 @@ Your video will play on the video player of OneDrive for Business or SharePoint 
 
 **If you plan on deprecating adding to Stream, will existing videos stay as is and for how long?**
 
-Stream as a platform won't be deprecated in the near future. The videos that currently live in Stream will stay there until we start migrating. Upon migration, those videos will be migrated to OneDrive for Business or SharePoint as well. Check [Stream classic migration](/stream/streamnew/classic-migration) for more information.
+Stream as a platform won't be deprecated in the near future. The videos that currently live in Stream will stay there until we start migrating. Upon migration, those videos will be migrated to OneDrive for Business or SharePoint as well. Check [Migration details](/stream/streamnew/migration-details) for more information.
 
 **How do I apply a retention label to Microsoft Teams meeting recordings?**
 
