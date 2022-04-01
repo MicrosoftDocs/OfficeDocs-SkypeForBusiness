@@ -34,7 +34,7 @@ Organizations who haven't used Teams PowerShell Module in the last three months 
 
 ## Current organizations (TPM active)
 
-Organizations who have been using Teams PowerShell Module in the last three months (Jan’22 – Mar’22), will only be able to use Teams PowerShell Module in the 4.x.x series or above starting from June 15, 2022. 
+Organizations who have been using Teams PowerShell Module in the last three months (Jan’22 – Mar’22), will only be able to use Teams PowerShell Module in the 4.x.x series or above starting from June 15, 2022 (Message center post – MC350371). 
 
 
 
@@ -56,6 +56,8 @@ Organizations who have been using Teams PowerShell Module in the last three mont
   * Updates to Get-CsOnlineUser & Get-CsOnlineVoiceUser in TPM 3.x.x and above – more details in [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser) & [Get-CsOnlineVoiceUser](/powershell/module/skype/get-csonlinevoiceuser) (Message center post – MC340774).
 
   * Changes coming to Phone number assignment - more details in [Set-CsUser](/powershell/module/skype/set-csuser), [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser), [Set-CsOnlineApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance) & [Set-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlinevoiceapplicationinstance) (Message center post – MC316139)
+
+  * Deprecation of Get-CsOnlineDirectoryTenant – more details in [Get-CsOnlineDirectoryTenant](/powershell/module/skype/get-csonlinedirectorytenant) (Message center post – MC346902).
 
 
 
