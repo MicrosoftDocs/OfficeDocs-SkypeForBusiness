@@ -101,7 +101,6 @@ Namespace: microsoft.graph
 {
 "id": "string (identifier)",
 "replyToId": "string (identifier)",
-"from": {"@odata.type": "microsoft.graph.identitySet"},
 "etag": "string",
 "messageType": "string",
 "createdDateTime": "string (timestamp)",
