@@ -420,6 +420,8 @@ items:
               href: use-call-analytics-to-troubleshoot-poor-call-quality.md
             - name: Use real-time telemetry to troubleshoot poor meeting quality
               href: use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md
+            - name: Add and update reporting labels
+              href: learn-more-about-site-upload.md
         - name: Quality of Service (QoS)
           items: 
             - name: Set up QoS in Teams
@@ -855,6 +857,8 @@ items:
           href: pstn-connectivity.md
         - name: Calling Plans
           items: 
+            - name: Calling Plans for Microsoft 365
+              href: calling-plans-for-office-365.md
             - name: Which Calling Plan is right for you?
               href: calling-plan-landing-page.md
             - name: Set up Calling Plans for your organization
@@ -985,7 +989,7 @@ items:
         - name: Manage phone numbers for Direct Routing
           href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
 
-    - name: Voice routing
+    - name: Dial plans and routing
       items: 
         - name: What are dial plans?
           href: what-are-dial-plans.md
@@ -993,8 +997,7 @@ items:
           href: create-and-manage-dial-plans.md
         - name: Route calls to unassigned numbers
           href: routing-calls-to-unassigned-numbers.md
-        - name: Add and update reporting labels
-          href: learn-more-about-site-upload.md
+
     - name: Network settings and topology
       items: 
         - name: Network settings for cloud voice features
@@ -1610,6 +1613,12 @@ items:
               items: 
               - name: Overview       
                 href: expand-teams-across-your-org/shifts/shifts-connectors.md
+              - name: Use the Shifts connector wizard to set up a connection to Blue Yonder WFM
+                href: expand-teams-across-your-org/shifts/shifts-connector-wizard.md
+              - name: Use PowerShell to set up a connection to Blue Yonder WFM
+                href: expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup.md
+              - name: Use PowerShell to manage your Shifts to Blue Yonder WFM connection
+                href: expand-teams-across-your-org/shifts/shifts-connector-powershell-manage.md
             - name: Shifts data FAQ       
               href: expand-teams-across-your-org/shifts/shifts-data-faq.md
     - name: Teams for Education
