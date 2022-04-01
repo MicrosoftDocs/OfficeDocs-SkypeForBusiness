@@ -173,7 +173,7 @@ $InstanceResponse = New-CsTeamsShiftsConnectionInstance -Name $InstanceName -Con
 $InstanceId = $InstanceResponse.id
 $Etag = $InstanceResponse.etag
 if ($InstanceId -ne $null){
-	Write-Host "Suceess"
+	Write-Host "Success"
 } else {
 	throw "Connector instance creation failed"
 }
