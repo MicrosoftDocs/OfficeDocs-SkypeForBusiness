@@ -136,7 +136,7 @@ Users can send a request to install or add a blocked app from the Teams store, a
    * [Review permission policies to allow the app.](teams-app-permission-policies.md)
    * Allow third party apps in org wide settings.
 
-1. To reject a user request, select **Dismiss all requests**.
+1. To reject an user request, select **Dismiss all requests**.
 
 (Image)
 
