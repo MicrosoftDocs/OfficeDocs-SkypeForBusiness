@@ -27,7 +27,7 @@ for more information.
 
 ## Supported Conditional Access policies  
 
-The following list includes the supported Conditional Access policies for Teams Rooms on Windows and on Android. The supported Android policies apply to all Android devices, phones, and panels.
+The following list includes the supported Conditional Access policies for Teams Rooms on Windows and on Android. The supported Android policies apply to all Android devices in shared spaces, including common area phones and panels.
 
 | Assignment | Windows | Android |
 |------------|---------|---------|
@@ -109,8 +109,8 @@ their use with Teams Rooms.  
 | [**Microsoft Defender for Endpoint**](/mem/intune/protect/compliance-policy-create-android#microsoft-defender-for-endpoint) | -- | -- |
 | Require the device to be at or under the machine risk score | Not supported |  N/A |
 | [**Device Health**](/mem/intune/protect/compliance-policy-create-android%22%20/l%20%22device-health) | -- | -- |
-| Device managed with device administrator | Not supported. | Teams Android devices are managed with device
-administrator. |
+| Device managed with device administrator | Required | Teams Android devices management requires device
+administrator to be enabled. |
 | Rooted devices | Supported |  N/A |
 | Require the device to be at or under the device threat level | Not supported |  N/A |
 | [**Google Play Protect**](/mem/intune/protect/compliance-policy-create-android#device-health) | -- | -- |
