@@ -41,7 +41,7 @@ To turn on search by name
 
 1. In the Microsoft Teams admin center, select **Teams** > **Teams settings**.
 
-1. Under **Search by name**, next to **Scope directory search in Teams using an Exchange address book policy**, turn the toggle **On**.
+1. Under **Search by name**, next to **Scope directory search using an Exchange address book policy**, turn the toggle **On**.
 
 > [!Note]
 > It may take a few hours for this change to take effect.
