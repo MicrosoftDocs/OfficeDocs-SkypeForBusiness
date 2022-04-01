@@ -109,8 +109,7 @@ their use with Teams Rooms.  
 | [**Microsoft Defender for Endpoint**](/mem/intune/protect/compliance-policy-create-android#microsoft-defender-for-endpoint) | -- | -- |
 | Require the device to be at or under the machine risk score | Not supported |  N/A |
 | [**Device Health**](/mem/intune/protect/compliance-policy-create-android%22%20/l%20%22device-health) | -- | -- |
-| Device managed with device administrator | Required | Teams Android devices management requires device
-administrator to be enabled. |
+| Device managed with device administrator | Required | Teams Android devices management requires device administrator to be enabled. |
 | Rooted devices | Supported |  N/A |
 | Require the device to be at or under the device threat level | Not supported |  N/A |
 | [**Google Play Protect**](/mem/intune/protect/compliance-policy-create-android#device-health) | -- | -- |
