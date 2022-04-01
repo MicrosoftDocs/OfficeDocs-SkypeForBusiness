@@ -21,15 +21,36 @@ appliesto:
 
 # Set up Parent Connection in Microsoft Teams for Education
 
-The Parent Connection in Teams for Education helps educators securely connect and engage with the parents and guardians of the students in their class teams using Teams chat, which will scale across the educator's organization. All parent and guardian data is provisioned using School Data Sync, allowing IT staff to smoothly set things up.
+The Parent Connection in Teams for Education helps educators securely connect and engage with the parents and guardians of the students in their class teams using Teams.
 
-Once educators and guardians are set up, they can chat with one another using Teams chat. 
+- For guidance on getting guardians set up, see [Connect with educators in Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
+- For guidance on getting educators set up, see [Communicate with guardians in Microsoft Teams](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us).
 
-For guidance on getting parents and guardians connected to educators, see [Connect with educators in Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
+This article provides guidance to education IT professionals on requirements and setup of the Parent Connection.
 
-For guidance on getting educators set up to communicate with parents and guardians, see [Communicate with guardians in Microsoft Teams](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us).
+## Benefits of Parent Connection
 
-Parents also works with Supervised Chat. Parents and guardians won’t have full Teams permissions, which means they can’t start conversations with students or remove full-permissions users (like educators) from chats. For more information about Supervised Chat, see [Use supervised chats in Microsoft Teams](supervise-chats-edu.md).
+The Parents Connection allows educators and guardians to do more than just chat using Teams.
+
+- Teams guardian contact data stays current with SIS using School Data Sync (SDS).
+- It works with Supervised chat. For more information, see [Use supervised chats in Microsoft Teams](supervise-chats-edu.md).
+- Guardians have restricted permissions, so they can't chat with students or remove users from chats.
+- In Teams, educators can click a guardian's email to email them using their native email client.
+- In Teams, educators can click a guardian's phone number to call them within Teams.
+
+> [!IMPORTANT]
+> For click to call functionality in Teams, your tenant needs:
+>
+> - Public Branch Exchange (PBX) capabilities.
+> - Connection to the PSTN.
+>
+> Microsoft 365 A1 and A3 plans don't include PBX capabilities nor PSTN connection. You can purchase [add-on licenses for each of these](/teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+>
+> Microsoft 365 A5 plans only include PBX capabilities using Teams Phone System. You can [purchase a Teams Calling Plan or a third-party plan](pstn-connectivity.md).
+>
+> For more information on PSTN connectivity options, see [PSTN connectivity options](pstn-connectivity.md).
+>
+> For more information on Teams calling licensing, see [Teams add-on licensing options](/teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 ## Requirements
 
