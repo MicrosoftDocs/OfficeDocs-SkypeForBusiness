@@ -34,7 +34,7 @@ Organizations who haven't used Teams PowerShell Module in the last three months 
 
 ## Current organizations (TPM active)
 
-Organizations who have been using Teams PowerShell Module in the last three months (Jan’22 – Mar’22), will only be able to use Teams PowerShell Module in the 4.x.x series or above starting from June 15, 2022 (Message center post – MC350371). 
+Organizations who have been using Teams PowerShell Module in the last three months (Jan’22 – Mar’22), will only be able to use Teams PowerShell Module in the 4.x.x series or above starting from June 15, 2022. Message center post for reference - MC350371. 
 
 
 
