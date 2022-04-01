@@ -50,6 +50,16 @@ With Blue Yonder WFM as the system of record, your frontline workers can see and
 
 [!INCLUDE [shifts-connector-set-up-environment](../../includes/shifts-connector-set-up-environment.md)]
 
+## Connect to Teams
+
+Run the following to connect to Teams.
+
+```powershell
+Connect-MicrosoftTeams
+```
+
+When you're prompted, sign in using your admin credentials.
+
 ## Identify the teams you want to map
 
 > [!NOTE]
@@ -108,12 +118,6 @@ try {
 } catch {
 	throw
 }
-
-#Authenticate with powershell as to the authorization capabilities of the caller.
-#Connect to Teams
-Write-Host "Connecting to Teams"
-Connect-MicrosoftTeams
-Write-Host "Connected"
 
 #Connect to MS Graph
 Connect-MgGraph -Scopes "User.Read.All","Group.ReadWrite.All"
@@ -250,7 +254,6 @@ if ($decision -eq 1) {
 #The Teams admin was set as an owner directly when creating a new team, removing it from owners
 Remove-TeamUser -GroupId $TeamsTeamId -User $currentUser -Role Owner
 Disconnect-MgGraph
-Disconnect-MicrosoftTeams
 ```
 
 ### Set up a connection and map to existing teams
@@ -267,12 +270,6 @@ try {
 } catch {
 	throw
 }
-
-#Authenticate with powershell as to the authorization capabilities of the caller.
-#Connect to Teams
-Write-Host "Connecting to Teams"
-Connect-MicrosoftTeams
-Write-Host "Connected"
 
 #Connect to MS Graph
 Connect-MgGraph -Scopes "User.Read.All","Group.ReadWrite.All"
@@ -388,7 +385,6 @@ if ($decision -eq 1) {
 }
 }
 Disconnect-MgGraph
-Disconnect-MicrosoftTeams
 ```
 
 ## Shifts connector cmdlets
