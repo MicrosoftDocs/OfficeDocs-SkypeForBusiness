@@ -24,7 +24,7 @@ TEST DOC3
 
 In some countries and regions, it's illegal to bypass the Public Switched Telephone Network (PSTN) provider to decrease long-distance calling costs. 
 
-This article describes what you need to know to use Location-Based Routing to restrict toll bypass for Microsoft Teams users based on their geographic location. This article applies only to Direct Routing. Location-Based Routing does not apply to Calling Plan or Operator Connect.
+This article describes what you need to know to use Location-Based Routing to restrict toll bypass for Microsoft Teams users based on their geographic location. This article applies only to Direct Routing. Location-Based Routing doesn't apply to Calling Plan or Operator Connect.
 
 When you're ready to enable Location-Based Routing, see:
 
@@ -52,11 +52,11 @@ This article assumes that a network site can be in one of the following states:
 
 - **Not enabled** - A site configured using tenant network subnets and sites, but not enabled for Location-Based Routing.
 
-- **Unknown** - A site not configured using tenant network subnets and sites. Typically, such sites are either internal to the corporate network, but by design not configured, or external to the corporate network. In any case, these sites are not enabled for Location-Based Routing. 
+- **Unknown** - A site not configured using tenant network subnets and sites. Typically, such sites are either internal to the corporate network, but by design not configured, or external to the corporate network. In any case, these sites aren't enabled for Location-Based Routing. 
 
 ### Toll bypass evaluation and outcome
 
-When Location-Based Routing is used, a call between a Teams user and the PSTN is evaluated to determine if toll bypass is restricted. Depending on the results, the call will or will not complete. 
+When Location-Based Routing is used, a call between a Teams user and the PSTN is evaluated to determine if toll bypass is restricted. Depending on the results, the call will or won't complete. 
 
 If a user is enabled for Location-Based Routing and the user is located at a site where Location-Based Routing restrictions are in effect, then toll bypass is restricted for that user. Teams uses the following information to determine whether toll bypass is restricted: 
 
@@ -70,11 +70,11 @@ If a user is enabled for Location-Based Routing and the user is located at a sit
 
 - For transfer scenarios, the route of the PSTN call is based on the routing settings of the person transferring the call, and on the Location-Based Routing settings of the Teams user to which the call is being transferred.  
 
-- For conferencing and group call scenarios, whether a Teams user for whom toll bypass is retricted is or has been part of the call.
+- For conferencing and group call scenarios, whether a Teams user for whom toll bypass is restricted is or has been part of the call.
 
-If a call cannot complete, the Teams user is notified as follows:
+If a call can't complete, the Teams user is notified as follows:
 
-- For outbound PSTN calls, the following message apears in the call window: Call not allowed due to your organization’s settings.
+- For outbound PSTN calls, the following message appears in the call window: Call not allowed due to your organization’s settings.
 
 - For inbound PSTN calls, the call is routed based on the called Teams user’s unanswered call forwarding settings, typically to voicemail. If the Teams user doesn’t have unanswered call settings configured, the call will disconnect.
 
@@ -92,7 +92,7 @@ Keep the following best practices in mind:
 
 - To place calls through a PSTN gateway that is enabled for Location-Based Routing, users must also be enabled for Location-Based Routing.
 
-- To allow users who are enabled for Location-Based Routing to place outbound PSTN calls from a network site that is not enabled for Location-Based Routing, the following must be true:
+- To allow users who are enabled for Location-Based Routing to place outbound PSTN calls from a network site that isn't enabled for Location-Based Routing, the following must be true:
 
   - The call needs to egress from a PSTN gateway that is enabled for Location-Based Routing.
   - The PSTN gateway must be configured with the flag GatewayLbrEnabledUserOverride set to True.
@@ -102,7 +102,7 @@ Keep the following best practices in mind:
 
 Toll bypass restriction controls the conditions in which a user can make and receive PSTN calls and the PSTN gateway that can be used. If a user is under toll bypass restriction, that user must be enabled for Location-Based Routing. When the enabled user is located at a site that's enabled for Location-Based Routing, the user must make calls through a gateway that is both connected to the site and enabled for Location-Based Routing. 
 
-Location-Based Routing works by determining the user’s current location based on the IP address of the user’s Teams endpoint and applies the rules accordingly. The location of a user who is enabled for Location-Based Routing can be categorized in the following ways: 
+Location-Based Routing works by determining the user’s current location based on the IP address of the user’s Teams endpoint and applies the rules accordingly. The location of a user who is enabled for Location-Based Routing can be categorized as follows: 
 
 - **The user is located at the same Location-Based Routing enabled site associated to the PSTN gateway where their DID is assigned.**<br>In this scenario, the user is located in a configured network site that's enabled for Location-Based Routing and the user's Direct Inward Dial (DID) number terminates on a PSTN gateway that's in the same network site. For example, the user is at their office. 
 
@@ -217,7 +217,7 @@ A user who isn't enabled for Location-Based Routing can receive an inbound call 
   
 #### User enabled for Location-Based Routing
 
-In comparison, users enabled for Location-Based Routing can only receive inbound calls from the PSTN gateway their DID is assigned to when they are located at the same site. The following table shows how User1 receives inbound calls when User1 moves to different network locations. If the call isn't routed to the endpoint of the user, it goes to the user’s unanswered call forwarding settings, if the settings are configured. Typically, this is voicemail.  
+In comparison, users enabled for Location-Based Routing can only receive inbound calls from the PSTN gateway their DID is assigned to when they are located at the same site. The following table shows how User1 receives inbound calls when User1 moves to different network locations. If the call isn't routed to the endpoint of the user, it goes to the user’s unanswered call forwarding settings, if the settings are configured. Typically, calls are forwarded to voicemail.  
 
 |User1 endpoint location  |Routing of inbound calls to User1  |
 |---------|---------|
@@ -231,17 +231,17 @@ In comparison, users enabled for Location-Based Routing can only receive inbound
 
 When a PSTN endpoint is involved, Location-Based Routing analyzes whether one or both users are enabled for Location-Based Routing and determines whether the call should be transferred or forwarded depending on the location of both endpoints. 
  
-Call transfer requires the initiating user to pick up the call while call forwarding doesn't require the initial call to be answered. This means that calls can be forwarded even if User1 isn't at a location to receive inbound calls (see the table in the [Teams user receives an inbound call from the PSTN](#teams-user-receives-an-inbound-call-from-the-pstn) section) and calls can't be transferred if User1 is unable to receive the inbound call. 
+Call transfer requires the initiating user to pick up the call while call forwarding doesn't require the initial call to be answered. Calls can be forwarded even if User1 isn't at a location to receive inbound calls (see the table in the [Teams user receives an inbound call from the PSTN](#teams-user-receives-an-inbound-call-from-the-pstn) section) and calls can't be transferred if User1 is unable to receive the inbound call. 
 
 #### User not enabled for Location-Based Routing
 
-A user who isn't enabled for Location-Based Routing can transfer or forward PSTN calls to other users who aren't enabled for Location-Based Routing. The user will typically not be allowed to transfer or forward a PSTN call to a user who is enabled for Location-Based Routing because Location-Based Routing enabled users are generally only allowed to be co-located at Location-Based Routing enabled gateways for PSTN calls. The exception is when a Location-Based Routing enabled user roams to a site that's not enabled for Location-Based Routing. In this scenario, the transferred call is allowed.  
+A user who isn't enabled for Location-Based Routing can transfer or forward PSTN calls to other users who aren't enabled for Location-Based Routing. Users who are enabled for Location-Based Routing are generally co-located at Location-Based Routing enabled gateways for PSTN calls. Consequently, users who are not enabled are not allowed to transfer or forward a PSTN call to a user who is enabled for Location-Based Routing. The exception is when a Location-Based Routing enabled user roams to a site that's not enabled for Location-Based Routing. In this scenario, the transferred call is allowed.  
 
 Likewise, a user who isn't enabled for Location-Based Routing can only receive a transfer or forwarded PSTN call from another user who isn't enabled for Location-Based Routing. 
 
 #### User enabled for Location-Based Routing
 
-Generally, transferring and forwarding inbound PSTN calls from a gateway that's enabled for Location-Based Routing is allowed only if the target user is enabled for Location-Based Routing and is located at the same site. Otherwise, transferring and forwarding calls isn't allowed. 
+Transferring and forwarding inbound PSTN calls from a gateway that's enabled for Location-Based Routing is allowed only if the target user is enabled for Location-Based Routing and is located at the same site. Otherwise, transferring and forwarding calls isn't allowed. 
 
 The following table shows whether call forwarding and call transfers are allowed, depending on the location of the target user. In this table, User1, located in Site1, initiates the transfer or forward to other Teams users who are also enabled for Location-Based Routing and who are in different locations.  
 
@@ -272,13 +272,13 @@ The following table shows whether call forwarding and call transfers are allowed
 
     - If the caller isn't enabled for Location-Based Routing, they can be transferred to any PSTN gateway that's not enabled for Location-Based Routing.
 
-    - If the caller is enabled for Location-Based Routing, they can be only be transferred to a Location-Based Routing enabled gateway located at the same network site.
+    - If the caller is enabled for Location-Based Routing, they can be transferred only to a Location-Based Routing enabled gateway located at the same network site.
  
 The following table shows how Location-Based Routing affects routing of a VOIP call from User1 at Site1 to users in different locations who transfer or forward the call to a PSTN endpoint.  
 
 |User initiating call transfer or forward  |Transfer to PSTN  |Forward to PSTN  |
 |---------|---------|---------|
-|Same network site, site enabled for Location-Based Routing (User2)   |Call transfer can only be routed through Location-Based Routing enabled Gateway1 at Site1, based on User2's voice routing policy         |Call forward can only routed through Location-Based Routing enabled Gateway1 at Site1, based on User2's voice routing policy         |
+|Same network site, site enabled for Location-Based Routing (User2)   |Call transfer can only be routed through Location-Based Routing enabled Gateway1 at Site1, based on User2's voice routing policy         |Call forward can only be routed through Location-Based Routing enabled Gateway1 at Site1, based on User2's voice routing policy         |
 |Different network site, site enabled for Location-Based Routing (User3)    |Call transfer can only be routed through Location-Based Routing enabled Gateway1 at Site1, based on User3's voice routing policy         |Call forward can only be routed through Location-Based Routing enabled Gateway1 at Site1, based on User3's voice routing policy         |
 |Different network site, site not enabled for Location-Based Routing (User4)    |Call transfer can only be routed through Location-Based Routing enabled Gateway1 at Site1, based on User4's voice routing policy         |Call forward can only be routed through Location-Based Routing enabled Gateway1 at Site1, based on User4's voice routing policy         |
 |Unknown internal network (User5)     |Call transfer can only be routed through Location-Based Routing enabled Gateway1 at Site1, based on User5's voice routing policy         |Call forward can only be routed through Location-Based Routing enabled Gateway1 at Site1, based on User5's voice routing policy         |
@@ -307,7 +307,7 @@ The following table shows Location-Based Routing behavior for an inbound VoIP ca
 
 |Called user endpoint location  |Simultaneous ring target is PSTN endpoint |
 |---------|---------|
-|Same network site, site enabled for Location-Based Routing (User2)    |Call can be only be routed through Location-Based Routing Gateway1 at Site1, based on User2's voice routing policy       |
+|Same network site, site enabled for Location-Based Routing (User2)    |Call can only be routed through Location-Based Routing Gateway1 at Site1, based on User2's voice routing policy       |
 |Different network site enabled for Location-Based Routing (User3)    |Call can only be routed through Location-Based Routing Gateway1 at Site1, based on User3's voice routing policy        |
 |Different network site not enabled for Location-Based Routing (User4)    |Call can only be routed through Location-Based Routing Gateway1 at Site1, based on User4's voice routing policy         |
 |Unknown internal network (User5)    |Call can only be routed through Location-Based Routing Gateway1 at Site1, based on User5's voice routing policy         |
@@ -336,7 +336,7 @@ When a delegate sets a PSTN endpoint as a simultaneous ring target, the voice ro
 
 ### Changes from an on-premises Location-Based Routing deployment
 
-Network site voice routing policy is no longer used. Instead, we use the user’s voice routing policy. This means that to allow users to roam to other sites, the voice routing policy must include the gateways of the roamed sites. 
+Network site voice routing policy is no longer used. Instead, we use the user’s voice routing policy. To allow users to roam to other sites, the voice routing policy must include the gateways of the roamed sites. 
 
 ### Technical considerations for Location-Based Routing
 
@@ -363,7 +363,7 @@ Location-Based Routing doesn't apply to the following types of interactions. Loc
 
 A Location-Based Routing enabled user on a PSTN call isn't allowed to start a conference with another user or PSTN number. Connecting to auto attendants or call queues is allowed. If the user has a conferencing license, the user must start a conference with the relevant users and call the PSTN through the conference bridge to start a conference call.
 
-In a conference call started by a user without a conferencing license, adding PSTN participants is not allowed if there is or has been at least one Location-Based Routing
+In a conference call started by a user without a conferencing license, adding PSTN participants is not allowed if there's been at least one Location-Based Routing
 enabled user in the conference call. If at least one PSTN participant is or was part of such a conference call before any Location-Based Routing enabled participants wants to
 join the call, such participants can't be added to the call.
 
@@ -379,7 +379,7 @@ Direct Voice over IP (VoIP) must not be deployed with any telephony equipment in
 
 Go to [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md).
 
-## Related topics
+## Related articles
 
 - [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md)
 - [Network settings for cloud voice features in Teams](cloud-voice-network-settings.md)
