@@ -86,7 +86,7 @@ In a Microsoft 365 Government - GCCH and DoD deployment of Teams, it's important
 
 In GCC, all third-party apps are blocked by default. Additionally, you'll see the following note about managing third-party apps on the app permission policies page in the Microsoft Teams admin center.
 
-![Screenshot of app permission policy in GCCH and DoD.](media/app-permission-policies-gcc.png)
+:::image type="content" source="media/app-permission-policies-gcc.png" alt-text="Screenshot of app permission policy in GCCH and DoD.":::
 
 > [!NOTE]
 > In GCCH and DOD clouds, the third-party apps are not available.
