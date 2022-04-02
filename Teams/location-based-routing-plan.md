@@ -31,6 +31,9 @@ When you're ready to enable Location-Based Routing, see:
 - [Deploy network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
 - [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md)
 
+> [!NOTE]
+> You should not use Location-Based Routing to dynamically route PSTN calls based on the location of the user. To do so may cause unintended results.
+
 ## Overview
 
 Location-Based Routing lets you restrict toll bypass for a user based on policy and the user's geographic location at the time of an inbound or outbound PSTN call. 
@@ -41,8 +44,7 @@ At the time of a PSTN call, a user’s location is determined by the IP subnet t
 
 For more information about network settings, see [Network settings for cloud voice features in Teams](cloud-voice-network-settings.md).
 
-> [!NOTE]
-> You should not use Location-Based Routing to dynamically route PSTN calls based on the location of the user. To do so may cause unintended results.
+
 
 This article assumes that a network site can be in one of the following states:
 
@@ -86,7 +88,7 @@ You must apply Location-Based Routing to the following:
 
 Keep the following best practices in mind:
 
-- The PSTN Gateway and Network Site associated with the gateway must both be enabled for Location-Based Routing.
+- The PSTN gateway and network site associated with the gateway must both be enabled for Location-Based Routing.
 
 - To place calls through a PSTN gateway that is enabled for Location-Based Routing, users must also be enabled for Location-Based Routing.
 
