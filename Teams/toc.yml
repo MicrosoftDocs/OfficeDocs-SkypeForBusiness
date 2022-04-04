@@ -1524,6 +1524,10 @@ items:
           
     - name: Administer third-party apps
       items:
+        - name: Understand third-party apps
+          href: overview-third-party-apps.md
+        - name: Understand app validation by Microsoft
+          href: overview-of-app-validation.md
         - name: Security, compliance, privacy, and data handling for third-party apps
           href: /microsoft-365-app-certification/overview
         - name: Use Microsoft 365 or Office 365 and custom connectors
