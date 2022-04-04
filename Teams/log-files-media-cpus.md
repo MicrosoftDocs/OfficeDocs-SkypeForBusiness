@@ -1,5 +1,5 @@
 ---
-title: Use log files in troubleshooting Microsoft Teams
+title: CPUs with media logging enabled by default
 ms.reviewer: tejeshs
 ms.date: 03/31/2022
 audience: admin
