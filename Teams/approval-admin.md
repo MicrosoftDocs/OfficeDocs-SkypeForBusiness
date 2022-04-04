@@ -125,9 +125,9 @@ Approvals created from the Approvals app are stored in the default CDS environme
 
 Data stored in Forms will not be deleted until the team owners clean it up from the **deleted forms** tab in the Microsoft Forms web app.
 
-### Conditional Access Policies
+### Conditional Access policies
 
-Currently the Approvals App in Teams does not support conditional access policies that are set for Microsoft Teams.
+Currently, the Approvals app in Teams does not support Conditional Access policies that are set for Microsoft Teams.
 
 ## Data limitations
 
