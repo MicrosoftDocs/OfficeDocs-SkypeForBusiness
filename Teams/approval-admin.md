@@ -117,11 +117,17 @@ The Approvals app is available by default. You can disable the app in the Teams 
 
      :::image type="content" alt-text="shows the details for the Approvals app." source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
 
-## Retention policy
+## App policies
+
+### Retention policy
 
 Approvals created from the Approvals app are stored in the default CDS environment, which doesn’t support backups at this time. Learn more about how to [Back up and restore environments - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
 
 Data stored in Forms will not be deleted until the team owners clean it up from the **deleted forms** tab in the Microsoft Forms web app.
+
+### Conditional Access policies
+
+Currently, the Approvals app in Teams does not support Conditional Access policies that are set for Microsoft Teams.
 
 ## Data limitations
 
