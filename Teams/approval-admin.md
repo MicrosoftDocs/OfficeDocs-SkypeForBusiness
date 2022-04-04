@@ -117,7 +117,7 @@ The Approvals app is available by default. You can disable the app in the Teams 
 
      :::image type="content" alt-text="shows the details for the Approvals app." source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
 
-## App Policies 
+## App policies 
 
 ### Retention policy
 
