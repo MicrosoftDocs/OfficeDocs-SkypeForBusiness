@@ -173,7 +173,7 @@ You'll see file statistics that show:
 
 [Teams PowerShell overview](teams-powershell-overview.md)
 
-[Limits and specifications for Microsoft Teams](limits-specifications-teams.md)
+[Limits and specifications for Microsoft Teams](/microsoftteams/limits-specifications-teams)
 
 
 
