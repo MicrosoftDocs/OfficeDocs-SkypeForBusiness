@@ -84,7 +84,7 @@ Owners and team members can add tabs to a channel, private chat, and group chat 
 
 | Ask yourself | Action |
 |--------------|--------|
-|Do I want to allow custom tabs in my organization?|For more information, see [Use built-in and custom tabs in Teams](built-in-custom-tabs.md).|
+|Do I want to allow custom tabs in my organization?|For more information, see [Use built-in and custom tabs in Teams](/microsoftteams/platform/tabs/what-are-tabs).|
 
 ### Custom connectors
 
