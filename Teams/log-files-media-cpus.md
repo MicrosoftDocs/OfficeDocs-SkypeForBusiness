@@ -10,7 +10,7 @@ f1.keywords:
 ms.collection: 
   - M365-collaboration
 search.appverid: MET150
-description: List of CPUs with media logging enabled by default
+description: Learn about CPUs with media logging enabled by default
 appliesto: 
   - Microsoft Teams
 ---
@@ -19,7 +19,7 @@ appliesto:
 
 This is the list of CPUs with media logging enabled by default, intended to be high performance CPUs that shouldn't be impacted by default behavior. See [Use log files to monitor and troubleshoot Microsoft Teams](log-files.md) for a detailed explanation of media logging.
 
-|CPUs with Media Logging Enabled by Default|
+|CPUs with media logging enabled by default|
 |:--:|
 |11th Gen Intel(R) Core(TM) i7-11370H @ 3.30GHz|
 |11th Gen Intel(R) Core(TM) i7-11375H @ 3.30GHz|
