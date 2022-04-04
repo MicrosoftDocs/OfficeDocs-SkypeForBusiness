@@ -67,8 +67,8 @@ In addition, Microsoft encourages the app developers to participate in its compl
 
 Microsoft compliance program demonstrates that an app is vetted against controls derived from leading industry standard frameworks, and that strong security and compliance practices are in place to protect customer data. The program has two phases:
 
-* [Publish attestation](#publisher-attestation).
-* [Microsoft 365 certification](#microsoft-365-certification).
+* Publisher attestation.
+* Microsoft 365 certification.
 
 ### Publisher attestation
 
