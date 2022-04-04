@@ -21,7 +21,7 @@ description: "Use Power BI to analyze CQD data for Microsoft Teams."
 
 # Use Power BI to analyze CQD data for Microsoft Teams
 
-New in January 2020: [Download Power BI query templates for CQD](https://www.microsoft.com/download/details.aspx?id=102291). Customizable Power BI templates you can use to analyze and report your CQD data.
+New in November 2020: [Download Power BI query templates for CQD](https://www.microsoft.com/download/details.aspx?id=102291). Customizable Power BI templates you can use to analyze and report your CQD data.
 
 For Call Quality Dashboard (CQD) reports in Teams, if you'd rather use Power BI to query and report your data, download our CQD Power BI templates. When you open the templates in Power BI, you'll be prompted to sign in with your CQD admin credentials. You can customize these query templates and distribute them to anyone in your organization who has a Power BI license and CQD admin permissions.
 
