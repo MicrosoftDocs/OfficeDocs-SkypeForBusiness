@@ -28,6 +28,7 @@ This article describes what you need to know to use Location-Based Routing to re
 
 When you're ready to enable Location-Based Routing, see:
 
+- [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
 - [Deploy network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
 - [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md)
 
@@ -128,7 +129,7 @@ To help determine where a user who is enabled for Location-Based Routing can be 
 
 ## Restriction rules
 
-Restriction rules depend on whether a Teams user is enabled for Location-Based Routing or not.
+Restriction rules depend on whether a Teams user is or is not enabled for Location-Based Routing.
 
 ### User is enabled for Location-Based Routing
 
@@ -375,9 +376,6 @@ If you're deploying Location-Based Routing in India, it's a requirement to also 
 
 Direct Voice over IP (VoIP) must not be deployed with any telephony equipment in India.
 
-## Next steps
-
-Go to [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md).
 
 ## Related articles
 
