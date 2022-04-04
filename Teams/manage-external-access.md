@@ -101,9 +101,9 @@ To block specific domains
 To communicate with another tenant, they must either enable **Allow all external domains** or add your tenant to their list of allowed domains by following the same steps above.  
 
 ## Manage contact with external Teams users not managed by an organization
-Note
 
-The Teams and Skype interop capabilities discussed in this article aren't available in GCC, GCC High, or DOD deployments, or in private cloud environments.
+> [!NOTE]
+> The Teams and Skype interop capabilities discussed in this article aren't available in GCC, GCC High, or DOD deployments, or in private cloud environments.
 
 Admins can choose to enable or disable communications with external Teams users that are not managed by an organization (“unmanaged”). If enabled, they can also further control if people with unmanaged Teams accounts can initiate contact (see the following image). If **External users with Teams accounts not managed by an organization can contact users in my organization** is turned off, unmanaged Teams users will not be able to search the full email address to find organization contacts and all communications with unmanaged Teams users must be initiated by organization users.
 
