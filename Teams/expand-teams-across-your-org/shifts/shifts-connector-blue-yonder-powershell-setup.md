@@ -58,7 +58,7 @@ Run the following to connect to Teams.
 Connect-MicrosoftTeams
 ```
 
-When you're prompted, sign in using your admin credentials.
+When you're prompted, sign in using your admin credentials. You're now set up to run the scripts in this article and Shifts connector cmdlets.
 
 ## Identify the teams you want to map
 
