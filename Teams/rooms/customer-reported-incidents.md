@@ -52,7 +52,7 @@ Under the ticket details Overview section, the customer or partners managing roo
 
 **Can anyone close tickets?**
 
-Only Customer-reported incidents can be closed by a user or Microsoft’s Managed Rooms Service Operations center. Customers who have assigned a Partner to managed their rooms with Ticket Management permissions will have the ability to close Customer-reported Incidents.
+Only Customer-reported incidents can be closed by a user or Microsoft’s Managed Rooms Service Operations center. Customers who have assigned a Partner to manage their rooms with Ticket Management permissions will have the ability to close Customer-reported Incidents.
 
 **Can I restrict who can close tickets?**
 
