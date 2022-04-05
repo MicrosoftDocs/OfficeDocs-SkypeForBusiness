@@ -226,7 +226,7 @@ In the future, Teams Rooms will support audio systems that utilize a concept cal
 
 An ultrawide-angle camera is positioned at the front of the room below the displays to capture everyone in the space.
 
-The ultrawide-angel camera features intelligent tracking of meeting participants so they can be represented individually in a large view instead of as faces within a large image of the entire room.
+The ultrawide-angle camera features intelligent tracking of meeting participants so they can be represented individually in a large view instead of as faces within a large image of the entire room.
 
 ![Rendering of an enhanced meeting room from an overhead view.](media/emr5.png)
 
@@ -240,7 +240,7 @@ To give people in the room a greater sense of connection to remote participants 
 
 Meeting content is surrounded by contextual fluid components like the agenda, tasks, and notes, which can be updated in real time, helping participants stay engaged and productive. Additionally, the meeting chat is brought clearly into view so that when joining a Teams meeting from a Teams Room, you can easily see and engage in the conversation in real time. In an enhanced Microsoft Teams Room, this content is displayed on a wide-aspect-ratio screen to maximize the size of meeting content and the number of participants that can be viewed simultaneously.
 
-This layout will be supported across both single- and dual-display configurations and will be made available through a Teams Rooms software update. While the front row layout is especially impactful in an enhanced room, front row can be used in any Teams Room running on Windows, regardless of the furniture and hardware configuration.
+This layout is supported across both single- and dual-display configurations. While the front row layout is especially impactful in an enhanced room, front row can be used in any Teams Room running on Windows, regardless of the furniture and hardware configuration.
 
 ### How do you co-create content?
 

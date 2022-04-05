@@ -420,6 +420,8 @@ items:
               href: use-call-analytics-to-troubleshoot-poor-call-quality.md
             - name: Use real-time telemetry to troubleshoot poor meeting quality
               href: use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md
+            - name: Add and update reporting labels
+              href: learn-more-about-site-upload.md
         - name: Quality of Service (QoS)
           items: 
             - name: Set up QoS in Teams
@@ -855,6 +857,8 @@ items:
           href: pstn-connectivity.md
         - name: Calling Plans
           items: 
+            - name: Calling Plans for Microsoft 365
+              href: calling-plans-for-office-365.md
             - name: Which Calling Plan is right for you?
               href: calling-plan-landing-page.md
             - name: Set up Calling Plans for your organization
@@ -871,6 +875,8 @@ items:
               href: operator-connect-configure.md
         - name: Direct Routing
           items: 
+            - name: What's new
+              href: direct-routing-whats-new.md
             - name: Overview
               href: direct-routing-landing-page.md
             - name: Plan Direct Routing
@@ -983,7 +989,7 @@ items:
         - name: Manage phone numbers for Direct Routing
           href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
 
-    - name: Voice routing
+    - name: Dial plans and routing
       items: 
         - name: What are dial plans?
           href: what-are-dial-plans.md
@@ -991,8 +997,7 @@ items:
           href: create-and-manage-dial-plans.md
         - name: Route calls to unassigned numbers
           href: routing-calls-to-unassigned-numbers.md
-        - name: Add and update reporting labels
-          href: learn-more-about-site-upload.md
+
     - name: Network settings and topology
       items: 
         - name: Network settings for cloud voice features
@@ -1357,12 +1362,6 @@ items:
               href: rooms/rooms-deploy.md
             - name: Configure accounts
               href: rooms/rooms-configure-accounts.md
-            - name: Surface Hub
-              items: 
-                - name: Set up Coordinated Meetings
-                  href: rooms/coordinated-meetings.md
-                - name: Manage Microsoft Teams settings
-                  href: rooms/surface-hub-manage-config.md
             - name: Create resource accounts 
               href: rooms/with-office-365.md
             - name: With Skype for Business Server
@@ -1432,6 +1431,8 @@ items:
           href: rooms/standards-and-room-planner.md
     - name: Devices
       items:
+        - name: Teams device store
+          href: devices/device-store.md
         - name: Deploy
           items:
             - name: Deploy Teams phones and Teams displays using Intune
@@ -1502,7 +1503,7 @@ items:
         - name: Plan phones and displays deployment
           href: devices/plan-device-deployment.md            
               
-- name: Govern apps, bots, and connectors in Teams
+- name: Manage apps
   items: 
     - name: Overview
       href: deploy-apps-microsoft-teams-landing-page.md
@@ -1523,8 +1524,14 @@ items:
           
     - name: Administer third-party apps
       items:
+        - name: Understand third-party apps
+          href: overview-third-party-apps.md
+        - name: Understand app validation by Microsoft
+          href: overview-of-app-validation.md
         - name: Security, compliance, privacy, and data handling for third-party apps
           href: /microsoft-365-app-certification/overview
+        - name: Use Microsoft 365 or Office 365 and custom connectors
+          href: Office-365-custom-connectors.md
         - name: Purchase third-party apps for Teams
           href: purchase-third-party-apps.md
     - name: App templates for Teams
@@ -1532,8 +1539,6 @@ items:
 
     - name: Govern custom line-of-business apps
       items:
-        - name: Integrate with Power Platform
-          href: teams-power-platfom-integration.md
         - name: Manage Power Platform apps in the Microsoft Teams admin center
           href: manage-power-platform-apps.md
         - name: Publish custom apps on your organization store
@@ -1544,8 +1549,6 @@ items:
           href: customize-apps.md
         - name: Brand your organization's app store
           href: customize-your-app-store.md
-        - name: Use built-in and custom tabs
-          href: built-in-custom-tabs.md
 
     - name: Admin controls and app governance
       items:
@@ -1571,8 +1574,6 @@ items:
           href: app-permissions.md
         - name: Admin settings for apps in Teams
           href: admin-settings.md
-        - name: Use Microsoft 365 or Office 365 and custom connectors
-          href: Office-365-custom-connectors.md
         - name: App behavior based on types of users
           href: non-standard-users.md
         - name: Update apps to newer versions as end-users
@@ -1611,6 +1612,12 @@ items:
               items: 
               - name: Overview       
                 href: expand-teams-across-your-org/shifts/shifts-connectors.md
+              - name: Use the Shifts connector wizard to set up a connection to Blue Yonder WFM
+                href: expand-teams-across-your-org/shifts/shifts-connector-wizard.md
+              - name: Use PowerShell to set up a connection to Blue Yonder WFM
+                href: expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup.md
+              - name: Use PowerShell to manage your Shifts to Blue Yonder WFM connection
+                href: expand-teams-across-your-org/shifts/shifts-connector-powershell-manage.md
             - name: Shifts data FAQ       
               href: expand-teams-across-your-org/shifts/shifts-data-faq.md
     - name: Teams for Education
