@@ -1420,7 +1420,7 @@ items:
           href: rooms/multi-tenant-management-customer.md
         - name: Audit logs for Rooms activities
           href: rooms/multi-tenant-auditing.md
-        - name: Health and Usage Reports
+        - name: Health and usage reports
           href: rooms/health-and-usage-reports.md
 
     - name: Devices
