@@ -20,8 +20,6 @@ appliesto:
 
 # Plan Location-Based Routing for Direct Routing
 
-TEST DOC3
-
 In some countries and regions, it's illegal to bypass the Public Switched Telephone Network (PSTN) provider to decrease long-distance calling costs. 
 
 This article describes what you need to know to use Location-Based Routing to restrict toll bypass for Microsoft Teams users based on their geographic location. This article applies only to Direct Routing. Location-Based Routing doesn't apply to Calling Plan or Operator Connect.
@@ -44,8 +42,6 @@ Location-Based Routing uses the network topology you define for network region, 
 At the time of a PSTN call, a user’s location is determined by the IP subnet that the user’s Teams endpoints are connected to. If a user has multiple Teams clients located at different sites, Location-Based Routing enforces each client’s routing separately depending on the location of the Teams endpoints.
 
 For more information about network settings, see [Network settings for cloud voice features in Teams](cloud-voice-network-settings.md).
-
-
 
 This article assumes that a network site can be in one of the following states:
 
@@ -101,7 +97,9 @@ Keep the following best practices in mind:
 
 ### Apply Location-Based Routing at the user location
 
-Toll bypass restriction controls the conditions in which a user can make and receive PSTN calls and the PSTN gateway that can be used. If a user is under toll bypass restriction, that user must be enabled for Location-Based Routing. When the enabled user is located at a site that's enabled for Location-Based Routing, the user must make calls through a gateway that is both connected to the site and enabled for Location-Based Routing. 
+Toll bypass restriction controls the conditions in which a user can make and receive PSTN calls and the PSTN gateway that can be used. 
+
+If a user is under toll bypass restriction, that user must be enabled for Location-Based Routing. When the enabled user is located at a site that's enabled for Location-Based Routing, the user must make calls through a gateway that is both connected to the site and enabled for Location-Based Routing. 
 
 Location-Based Routing works by determining the user’s current location based on the IP address of the user’s Teams endpoint and applies the rules accordingly. The location of a user who is enabled for Location-Based Routing can be categorized as follows: 
 
@@ -172,7 +170,13 @@ When a user is enabled for Location-Based Routing, the following applies:
 
     The transfer will be permitted if the user receiving the transferred call is able to make that PSTN call at their current location using the same PSTN gateway.
 
-- **For an incoming or outgoing PSTN call and transfer to another Teams user**, whether the transfer is permitted depends on the routing settings of the user who is receiving the transferred call. The transfer will be permitted if the person receiving the transferred call is able to make or receive that PSTN call at their current location using the PSTN gateway used by the ongoing PSTN call.
+- **For an incoming or outgoing PSTN call and transfer to another Teams user**, whether the transfer is permitted depends on the following:
+
+- The routing settings of the user who is receiving the transferred call. 
+- The endpoint network site location.
+- Whether the location is enabled for Location-Based Routing.
+
+The transfer will be permitted if the person receiving the transferred call is able to make or receive that PSTN call at their current location using the PSTN gateway used by the ongoing PSTN call.
 
 
 ### User is not enabled for Location-Based Routing
