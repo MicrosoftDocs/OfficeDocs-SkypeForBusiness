@@ -278,6 +278,8 @@ items:
       items: 
         - name: Information barriers
           href: information-barriers-in-teams.md
+        - name: Information barriers and Shared Channels
+          href: information-barriers-shared-channels.md
         - name: Change information barriers modes with a PowerShell script
           href: information-barriers-mode-script.md
         - name: Retention policies
@@ -418,6 +420,8 @@ items:
               href: use-call-analytics-to-troubleshoot-poor-call-quality.md
             - name: Use real-time telemetry to troubleshoot poor meeting quality
               href: use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md
+            - name: Add and update reporting labels
+              href: learn-more-about-site-upload.md
         - name: Quality of Service (QoS)
           items: 
             - name: Set up QoS in Teams
@@ -487,6 +491,8 @@ items:
       href: teams-channels-overview.md
     - name: Overview of private channels
       href: private-channels.md
+    - name: Overview of shared channels
+      href: shared-channels.md
     - name: Assign team owners and members in Teams
       href: assign-roles-permissions.md
     - name: Overview of dynamic membership for teams
@@ -642,8 +648,6 @@ items:
               href: cloud-recording.md
             - name: Use OneDrive for Business and SharePoint or Stream for meeting recordings
               href: tmr-meeting-recording-change.md
-            - name: Contact Center integrations
-              href: teams-contact-center.md
             - name: Use the Teams Meeting add-in in Outlook
               href: teams-add-in-for-outlook.md
             - name: Configure the Skype Meetings App to work with Teams
@@ -853,6 +857,8 @@ items:
           href: pstn-connectivity.md
         - name: Calling Plans
           items: 
+            - name: Calling Plans for Microsoft 365
+              href: calling-plans-for-office-365.md
             - name: Which Calling Plan is right for you?
               href: calling-plan-landing-page.md
             - name: Set up Calling Plans for your organization
@@ -869,6 +875,8 @@ items:
               href: operator-connect-configure.md
         - name: Direct Routing
           items: 
+            - name: What's new
+              href: direct-routing-whats-new.md
             - name: Overview
               href: direct-routing-landing-page.md
             - name: Plan Direct Routing
@@ -981,7 +989,7 @@ items:
         - name: Manage phone numbers for Direct Routing
           href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
 
-    - name: Voice routing
+    - name: Dial plans and routing
       items: 
         - name: What are dial plans?
           href: what-are-dial-plans.md
@@ -989,14 +997,15 @@ items:
           href: create-and-manage-dial-plans.md
         - name: Route calls to unassigned numbers
           href: routing-calls-to-unassigned-numbers.md
-        - name: Add and update reporting labels
-          href: learn-more-about-site-upload.md
+
     - name: Network settings and topology
       items: 
         - name: Network settings for cloud voice features
           href: cloud-voice-network-settings.md
         - name: Manage your network topology for cloud voice features
           href: manage-your-network-topology.md
+        - name: Manage video and media settings
+          href: network-roaming-policy.md
     - name: Emergency calling
       items: 
         - name: Overview
@@ -1311,6 +1320,8 @@ items:
               href: add-funds-and-manage-communications-credits.md
         - name: Microsoft Teams call flows
           href: microsoft-teams-online-call-flows.md
+        - name: Contact Center integrations
+          href: teams-contact-center.md
 
 - name: Devices and rooms management
   items:
@@ -1351,20 +1362,10 @@ items:
               href: rooms/rooms-deploy.md
             - name: Configure accounts
               href: rooms/rooms-configure-accounts.md
-            - name: Surface Hub
-              items: 
-                - name: Set up Coordinated Meetings
-                  href: rooms/coordinated-meetings.md
-                - name: Manage Microsoft Teams settings
-                  href: rooms/surface-hub-manage-config.md
-            - name: With Office 365
+            - name: Create resource accounts 
               href: rooms/with-office-365.md
             - name: With Skype for Business Server
               href: rooms/with-skype-for-business-server-2015.md
-            - name: With Exchange Online (Hybrid)
-              href: rooms/with-exchange-online.md
-            - name: With Exchange on premises (Hybrid)
-              href: rooms/with-exchange-on-premises.md
             - name: Configure a console
               href: rooms/console.md
             - name: Manually update a device
@@ -1381,6 +1382,13 @@ items:
               href: rooms/content-camera.md
             - name: Voice recognition controls for Intelligent speakers
               href: rooms/voice-recognition.md
+            - name: Surface Hub
+              items: 
+                - name: Set up Coordinated Meetings
+                  href: rooms/coordinated-meetings.md
+                - name: Manage Microsoft Teams settings
+                  href: rooms/surface-hub-manage-config.md
+
         - name: Manage
           items: 
             - name: Management overview
@@ -1388,14 +1396,13 @@ items:
             - name: Maintenance and operations
               href: rooms/rooms-operations.md
             - name: Known issues
-              href: rooms/known-issues.md
+              href: /microsoftteams/troubleshoot/teams-devices-and-rooms/rooms-known-issues
             - name: Devices with Azure Monitor
               href: rooms/azure-monitor-manage.md
             - name: Settings with an XML file
               href: rooms/xml-config-file.md
             - name: Use the recovery tool
               href: rooms/recovery-tool.md
-
     - name: Microsoft Teams Rooms managed service
       items: 
         - name: Overview
@@ -1422,75 +1429,87 @@ items:
           href: rooms/multi-tenant-auditing.md
         - name: Health and usage reports
           href: rooms/health-and-usage-reports.md
-
+        - name: Standards and Rooms Planner 
+          href: rooms/standards-and-room-planner.md
     - name: Devices
-      items: 
-        - name: Manage your devices in Teams
-          href: devices/device-management.md
-        - name: Remote provisioning and sign-in
-          href: devices/remote-provision-remote-login.md
-        - name: Remote sign in and sign out
-          href: devices/remote-sign-in-and-sign-out.md
-        - name: Update your devices remotely
-          href: devices/remote-update.md
-        - name: Manage Teams device tags
-          href: devices/manage-device-tags.md
-        - name: Plan phones and displays deployment
-          href: devices/plan-device-deployment.md
-        - name: Phones for Teams
-          href: devices/phones-for-teams.md
-        - name: Set up common area phones
-          href: set-up-common-area-phones.md
-        - name: Teams displays
-          href: devices/teams-displays.md
-        - name: Teams panels
-          items: 
-              - name: Teams panels
-                href: devices/teams-panels.md
-              - name: Use Teams panels
-                href: devices/use-teams-panels.md
-              - name: App support on Teams panels  
-                href: app-support-on-Teams-panels.md
-              - name: Check-in and room release 
-                href: devices/check-in-and-room-release.md
-        - name: Upgrade Teams phones to Teams displays
-          href: devices/upgrade-phones-to-displays.md
-        - name: Deploy Teams phones and Teams displays using Intune
-          href: devices/phones-displays-deploy.md
-        - name: USB audio and video devices
-          href: devices/usb-devices.md
-        - name: Deploy Microsoft Teams Rooms on Android
-          href: devices/collab-bar-deploy.md
-        - name: Set Microsoft Teams Android devices user interface
-          href: devices/Teams-Android-devices-user-interface.md
-        - name: Authentication best practices for Android devices
-          href: devices/authentication-best-practices-for-android-devices.md
-        - name: Set up auto answer for Teams Android devices
-          href: set-up-auto-answer-on-teams-android.md
-        - name: Meeting room devices and solutions
-          href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+      items:
+        - name: Teams device store
+          href: devices/device-store.md
+        - name: Deploy
+          items:
+            - name: Deploy Teams phones and Teams displays using Intune
+              href: devices/phones-displays-deploy.md
+            - name: Set up common area phones
+              href: set-up-common-area-phones.md
+            - name: SIP Gateway
+              items:
+                - name: Plan for SIP Gateway
+                  href: sip-gateway-plan.md
+                - name: Configure SIP Gateway
+                  href: sip-gateway-configure.md
+            - name: Set up auto answer for Teams Android devices
+              href: set-up-auto-answer-on-teams-android.md
+            - name: Remote provisioning and sign-in
+              href: devices/remote-provision-remote-login.md
+            - name: Remote sign in and sign out
+              href: devices/remote-sign-in-and-sign-out.md
+            - name: Authentication best practices for Android devices
+              href: devices/authentication-best-practices-for-android-devices.md          
+        
+        - name: Manage and monitor
+          items:
+            - name: Manage your devices in Teams
+              href: devices/device-management.md
+            - name: Use administrative units to manage devices
+              href: administrative-unit.md
+            - name: Manage Teams device tags
+              href: devices/manage-device-tags.md
+            - name: Update your devices remotely
+              href: devices/remote-update.md
+            - name: Phones for Teams
+              href: devices/phones-for-teams.md
+            - name: Teams displays
+              href: devices/teams-displays.md
+            - name: Upgrade Teams phones to Teams displays
+              href: devices/upgrade-phones-to-displays.md
+            - name: Teams panels
+              items: 
+                  - name: Teams panels
+                    href: devices/teams-panels.md
+                  - name: Use Teams panels
+                    href: devices/use-teams-panels.md
+                  - name: App support on Teams panels  
+                    href: app-support-on-Teams-panels.md
+                  - name: Check-in and room release 
+                    href: devices/check-in-and-room-release.md
+            - name: Upgrade Teams phones to Teams displays
+              href: devices/upgrade-phones-to-displays.md
+            - name: Deploy Teams phones and Teams displays using Intune
+              href: devices/phones-displays-deploy.md
+            - name: USB audio and video devices
+              href: devices/usb-devices.md  
+            - name: Monitoring
+              items: 
+                  - name: Teams alerting and monitoring
+                    href: alerts/teams-admin-alerts.md 
+                  - name: Teams device health monitoring
+                    href: alerts/device-health-status.md 
+                  - name: Teams devices and peripherals
+                    href: teams-device-health.md   
+    - name: Reference
+      items:
         - name: Teams certified devices
           href: devices/teams-ip-phones.md
-        - name: SIP Gateway
-          items:
-            - name: Plan for SIP Gateway
-              href: sip-gateway-plan.md
-            - name: Configure SIP Gateway
-              href: sip-gateway-configure.md
-        - name: Teams alerting and monitoring
-          href: alerts/teams-admin-alerts.md 
-        - name: Teams device health monitoring
-          href: alerts/device-health-status.md 
-        - name: Teams devices and peripherals
-          href: teams-device-health.md
-        - name: Use administrative units to manage devices
-          href: administrative-unit.md
+        - name: Meeting room devices and solutions
+          href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+        - name: Plan phones and displays deployment
+          href: devices/plan-device-deployment.md            
               
-- name: Apps, bots, and connectors
+- name: Manage apps
   items: 
     - name: Overview
       href: deploy-apps-microsoft-teams-landing-page.md
-    - name: Apps from Microsoft
+    - name: Manage sample apps provided by Microsoft
       items:
         - name: Manage the Bookings app
           href: bookings-app-admin.md
@@ -1505,35 +1524,37 @@ items:
         - name: Manage the Shifts app
           href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
           
-    - name: Third-party apps
+    - name: Administer third-party apps
       items:
-        - name: App certification
+        - name: Understand third-party apps
+          href: overview-third-party-apps.md
+        - name: Understand app validation by Microsoft
+          href: overview-of-app-validation.md
+        - name: Security, compliance, privacy, and data handling for third-party apps
           href: /microsoft-365-app-certification/overview
+        - name: Use Microsoft 365 or Office 365 and custom connectors
+          href: Office-365-custom-connectors.md
         - name: Purchase third-party apps for Teams
           href: purchase-third-party-apps.md
     - name: App templates for Teams
       href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
 
-    - name: How to build and customize apps
+    - name: Govern custom line-of-business apps
       items:
-        - name: Integrate with Power Platform
-          href: teams-power-platfom-integration.md
         - name: Manage Power Platform apps in the Microsoft Teams admin center
           href: manage-power-platform-apps.md
-        - name: Publish a custom app submitted through the Teams App Submission API
+        - name: Publish custom apps on your organization store
           href: submit-approve-custom-apps.md
         - name: Publish a custom app by uploading an app package
           href: upload-custom-apps.md
         - name: Customize apps in Teams
           href: customize-apps.md
-        - name: Custom apps store 
+        - name: Brand your organization's app store
           href: customize-your-app-store.md
-        - name: Use built-in and custom tabs
-          href: built-in-custom-tabs.md
 
-    - name: Manage apps for Teams
+    - name: Admin controls and app governance
       items:
-        - name: Overview
+        - name: Overview of app management for admins
           href: manage-apps.md
         - name: App policies
           items: 
@@ -1545,24 +1566,24 @@ items:
             href: teams-app-setup-policies.md
           - name: Manage custom app policies and settings in Teams
             href: teams-custom-app-policies-and-settings.md
-        - name: Tailor Teams apps based on license
+        - name: Tailor Teams apps for your frontline workers
           href: pin-teams-apps-based-on-license.md
-        - name: View app permissions and grant admin consent
+        - name: Review Azure AD permissions and grant admin consent
           href: app-permissions-admin-center.md
-        - name: Resource-specific consent
+        - name: Manage resource-specific consent for your organization
           href: resource-specific-consent.md
-        - name: Apps permissions and considerations
+        - name: Understand about app permissions and access to resources
           href: app-permissions.md
         - name: Admin settings for apps in Teams
           href: admin-settings.md
-        - name: Use Microsoft 365 or Office 365 and custom connectors
-          href: Office-365-custom-connectors.md
-        - name: Teams apps behavior for non-standard users
+        - name: App behavior based on types of users
           href: non-standard-users.md
-        - name: Update experience for apps
+        - name: Update apps to newer versions as end-users
           href: apps-update-experience.md
-        - name: Manage access to third-party Teams apps across Microsoft 365
+        - name: Manage access to Teams apps across Microsoft 365
           href: manage-third-party-teams-apps.md
+    - name: App usage report
+      href: teams-analytics-and-reports/app-usage-report.md
 
 - name: Industries and government guidance
   items: 
@@ -1593,6 +1614,12 @@ items:
               items: 
               - name: Overview       
                 href: expand-teams-across-your-org/shifts/shifts-connectors.md
+              - name: Use the Shifts connector wizard to set up a connection to Blue Yonder WFM
+                href: expand-teams-across-your-org/shifts/shifts-connector-wizard.md
+              - name: Use PowerShell to set up a connection to Blue Yonder WFM
+                href: expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup.md
+              - name: Use PowerShell to manage your Shifts to Blue Yonder WFM connection
+                href: expand-teams-across-your-org/shifts/shifts-connector-powershell-manage.md
             - name: Shifts data FAQ       
               href: expand-teams-across-your-org/shifts/shifts-data-faq.md
     - name: Teams for Education
@@ -1810,8 +1837,6 @@ items:
       items: 
         - name: Microsoft 365 groups and Teams
           href: office-365-groups.md
-        - name: Create a Microsoft 365 resource account using the Microsoft 365 admin center
-          href: devices/resource-account-ui.md
         - name: Enhance existing Microsoft 365 groups with Teams
           href: enhance-office-365-groups.md
         - name: How Exchange and Teams interact
@@ -1838,6 +1863,8 @@ items:
           href: teams-powershell-managing-teams.md
         - name: Teams PowerShell release notes
           href: teams-powershell-release-notes.md
+        - name: Teams PowerShell supported versions
+          href: teams-powershell-supported-versions.md
         - name: Move from Skype for Business Online Connector to the Teams PowerShell module
           href: teams-powershell-move-from-sfbo.md
         - name: Cmdlet reference for Teams

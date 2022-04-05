@@ -65,7 +65,7 @@ Since both the organization-wide and per-organizer policies control anonymous jo
 
 Any other combination of values will prevent anonymous users from joining meetings.
 > [!NOTE]
-> To use the per-organizer policy for organizations with anonymous join turned off per organization, admins need to create a policy and then assign it to users. To learn how to do that, see [Manage meeting policies in Microsoft Teams](/microsoftteams/meeting-policies-overview).
+> To learn more about managing meeting policies, see [Manage meeting policies in Microsoft Teams](/microsoftteams/meeting-policies-overview).
 
 ### Blocking anonymous join for specific client types
 

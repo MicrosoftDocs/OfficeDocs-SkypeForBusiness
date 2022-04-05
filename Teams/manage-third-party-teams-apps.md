@@ -1,5 +1,5 @@
 ---
-title: Manage access to third-party Teams apps across Microsoft 365
+title: Manage access to Teams apps across Microsoft 365
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
@@ -17,42 +17,40 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Manage access to third-party Teams apps across Microsoft 365. 
+description: Manage access to Teams apps across Microsoft 365. 
 ---
 
-# Manage access to third-party Teams apps across Microsoft 365
+# Manage access to Teams apps across Microsoft 365
 
-The app users can now use the existing Teams apps experience across Microsoft Outlook and Microsoft Office.com after these apps are updated to work in Outlook and on Office.com. Currently, only the end-users in Targeted release can view and use a few select apps in Teams, Outlook, or Office.com. The existing Teams admin experience also applies to governing access to these apps. A notification about this change is available in the [message center](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter/:/messages/MC334280). As a Teams administrator, you can allow specific end-users to use the updated apps or block the access to the updated apps in Teams, in Outlook, and on Office.com.
+App developers can enhance their Microsoft Teams apps to work in Outlook and on Office.com, in addition to the app working in Teams. The end-users can use the enhanced apps on Teams, in Microsoft Outlook and Microsoft Office.com after the enhancement. Currently, only the end-users in Targeted release can view and use these specific apps in Teams, Outlook, and Office.com. The existing Teams admin experience applies to govern access to these apps. A notification about this change is available in the [message center](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter/:/messages/MC334280). As a Teams administrator, you can allow specific end-users to use the enhanced apps or manage their access to the enhanced apps in Teams, in Outlook, and on Office.com. Teams administrators use the Teams admin center to manage app access.
 
-<!--- To be checked:
-The Third-party Teams apps are subject to the Teams administration policies available at [Teams admin center](https://admin.teams.microsoft.com/dashboard).
---->
+For use in Outlook and Office.com, an enhanced app continues to use the existing permissions granted in Teams. There is [no change in the permissions of the enhanced app](https://devblogs.microsoft.com/microsoft365dev/ignite-2021-building-apps-for-collaboration-in-a-hybrid-world/#personal-tabs).
 
-<!--- 
-As an admin, you can manage access to the new Teams third-party apps for your users:
+The following is a list of the enhanced apps:
 
-1. Change the release option to Standard release in TAC. For more information, see [Set up the Standard or Targeted release options](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true).
+* [Mural](https://teams.microsoft.com/l/app/c738b607-88dd-4f16-aefe-6a824c65d25d?source=app-details-dialog)
+* [Power BI](https://teams.microsoft.com/l/app/1c4340de-2a85-40e5-8eb0-4f295368978b?source=app-details-dialog)
+* [SurveyMonkey](https://teams.microsoft.com/l/app/0fd925a0-357f-4d25-8456-b3022aaa41a9?source=app-details-dialog)
+* [Zoho Projects](https://teams.microsoft.com/l/app/4a39aea9-8537-4c2f-b66d-ca364eb3b80d?source=app-details-dialog)
+* [YouTube](https://teams.microsoft.com/l/app/com.microsoft.teamspace.tab.youtube?source=app-details-dialog)
 
-1. If you're unable to change users to Standard release, [add a custom permission policy](teams-app-permission-policies.md#create-a-custom-app-permission-policy) to block the app and [assign the custom policy to the user](policy-assignment-overview.md).
+You can control end-user access to the Teams apps using the following methods. If you're an Office Apps admin, contact your Global admin or Teams admin to manage app access.
 
-1. If you're unable to remove the user assignment to the app in Teams, you can block the new third-party app for all users. For more information, see [Allow or block apps](manage-apps.md#allow-and-block-apps)
-
-> [!Note]
-> Third-party apps may be subject to their own terms and privacy policies.
- --->
-
-You can control user access to the Teams third-party apps using the following methods. If you're an Office Apps admin, contact your Global admin or Teams admin to manage app access.
-
-|Scenario|Portal|Global admin|Teams administrator|
+| Options to manage access |Portal|Global admin|Teams administrator|
 |--|---|---|--|
-|Only select users who are part of Targeted release can access the new app. <br> Move the users to Standard release.  See [Set up the Standard or Targeted release options](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true)|Microsoft admin center|Yes|No|
-|Remove access to the new app for specific users by modifying app permission policy.<br>[Add a custom permission policy](teams-app-permission-policies.md#create-a-custom-app-permission-policy) to block the app and [assign the custom policy to the user](policy-assignment-overview.md).|Teams admin center|Yes|Yes|
-|Remove access to the new apps for all users by blocking the app across your organization. For more information, see [Allow or block apps](manage-apps.md#allow-and-block-apps).|Teams admin center|Yes|Yes|
+| Only the end-users in Targeted release can access the new app. Move the users to Standard release. See [Set up the Standard or Targeted release options](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true) | Microsoft 365 admin center | Yes | No |
+| Manage access to the new app for specific end-users. See [Add a custom permission policy](teams-app-permission-policies.md#create-a-custom-app-permission-policy) and [assign the custom policy to a user](policy-assignment-overview.md). | Teams admin center | Yes | Yes |
+| Manage access to the new apps for all end-users across your organization. See [Allow or block apps](manage-apps.md#allow-and-block-apps). | Teams admin center | Yes | Yes |
 
 > [!NOTE]
-   > Users who have installed an existing in-market add-ins of the same app in Outlook and Office continues to use the app. The add-ins are not Teams apps and Teams administrators can not govern the access.
+> We recommend using [the Standard release option](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide&preserve-view=true) to manage end-user access. The other options remove the end-user access and they will no longer be able to use the existing app in Teams.
+
+> [!NOTE]
+> Users who have installed an existing in-market add-ins of the same app in Outlook and Office will continue to use that app. The add-ins are not Teams apps and Teams administrators can not govern the access.
 
 ## See also
 
+* [Microsoft Teams apps designed for Microsoft 365 coming in Preview to Outlook and Office.com](https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-teams-apps-designed-for-microsoft-365-coming-in/ba-p/3269538)
 * [Understand admin roles in Microsoft 365](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true)  
 * [About Outlook add-ins](/office/dev/add-ins/outlook/outlook-add-ins-overview)
+* [How developers extend Teams apps to work across Microsoft 365](/microsoftteams/platform/m365-apps/overview)

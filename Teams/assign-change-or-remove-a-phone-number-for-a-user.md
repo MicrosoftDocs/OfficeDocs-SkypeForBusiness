@@ -35,7 +35,7 @@ Before you assign a number for a Calling Plan or Operator Connect user, you must
 > One way to see whether a user has a license assigned is by going to the Microsoft Teams admin center > **Users**. If a license is assigned, it will be indicated on the page.  You can also use the Microsoft 365 admin center.
 
 > [!NOTE]
-> This note applies to customers who have a hybrid deployment with an on-premises Active Directory. If you want to assign a Calling Plan or Operator Connect phone number to a user or resource account, you must ensure that the phone number in the on-premises Active Directory has been removed,  and the change has been synchronized to Microsoft 365.
+> This note applies to customers who have a hybrid deployment with an on-premises Active Directory. If you want to assign a Calling Plan or Operator Connect phone number to a user or resource account, you must ensure that any phone number stored in the msRTCSIP-Line attribute on the user or resource account object in the on-premises Active Directory has been removed, and the change has been synchronized to Microsoft 365.
   
 ## Assign a phone number to a user
 
