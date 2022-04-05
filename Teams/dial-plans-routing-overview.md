@@ -34,13 +34,13 @@ The articles in this section apply to all options for connecting to the Public S
 
 If you choose Calling Plan or Operator Connect, most call routing is handled by either Microsoft or your provider. Direct Routing, however, requires additional steps to configure call routing. 
 
-For Direct Routing, you must configure call routing by specifying the voice routes and assigning voice routing policies to users. You can configure dial plans for number translation at the trunk level to ensure interoperability with Session Border Controllers (SBCs). For more information, see [Configure voice routing for Direct Routing](direct-routing-voice-routing.ms), [Manage voice routing policies](manage-voice-routing-policies.md) and [Translate phone numbers](direct-routing-translate-numbers.md).
+For Direct Routing, you must configure call routing by specifying the voice routes and assigning voice routing policies to users. You can configure dial plans for number translation at the trunk level to ensure interoperability with Session Border Controllers (SBCs). For more information, see [Configure voice routing for Direct Routing](direct-routing-voice-routing.md), [Manage voice routing policies](manage-voice-routing-policies.md) and [Translate phone numbers](direct-routing-translate-numbers.md).
 
 Be aware that you can assign a Direct Routing online voice routing policy to Calling Plan and Operator Connect users. You might want to do this, for example, to enable users to dial in to a call center directly. You can set up a Direct Routing trunk to the call center.
 
 If a user has a Calling Plan license, for example, that user’s outgoing calls are automatically routed through the Microsoft Calling Plan PSTN infrastructure. If you configure and assign a Direct Routing online voice routing policy to the user, the user’s outgoing calls are checked to determine whether the dialed number matches a number pattern defined in the online voice routing policy. If there’s a match, the call is routed through the Direct Routing trunk. If there’s no match, the call is routed through the Calling Plan PSTN infrastructure.
 
-For more informmation, see [Direct Routing voice routing policy considerations](direct-routing-voice-routing#voice-routing-policy-considerations).
+For more informmation, see [Direct Routing voice routing policy considerations](direct-routing-voice-routing.md#voice-routing-policy-considerations).
 
 
 
