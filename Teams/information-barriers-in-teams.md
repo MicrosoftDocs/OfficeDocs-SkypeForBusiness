@@ -62,14 +62,14 @@ The Information Barrier Policy Evaluation Service determines whether a communica
 
 ## Managing information barrier policies
 
-IB policies are managed in the Microsoft Purview portal (SCC) using PowerShell cmdlets. For more information, see [Define policies for information barriers](/office365/securitycompliance/information-barriers-policies).
+IB policies are managed in the Microsoft Purview compliance portal (SCC) using PowerShell cmdlets. For more information, see [Define policies for information barriers](/office365/securitycompliance/information-barriers-policies).
 
 >[!IMPORTANT]
 >Before you set up or define policies, you must enable scoped directory search in Microsoft Teams. Wait at least a few hours after enabling scoped directory search before you set up or define policies for information barriers. For more information, see [Define information barrier policies](/office365/securitycompliance/information-barriers-policies#prerequisites).
 
 ## Information barriers administrator role
 
-The IB Compliance Management role is responsible for managing IB policies. For more information about this role, see [Permissions in the Microsoft Purview portal](/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
+The IB Compliance Management role is responsible for managing IB policies. For more information about this role, see [Permissions in the Microsoft Purview compliance portal](/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
 
 ## Information barrier triggers
 

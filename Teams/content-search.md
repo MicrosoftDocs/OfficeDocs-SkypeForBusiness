@@ -14,7 +14,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
-description: Learn about using Content search in the Microsoft Purview portal to search for Microsoft Teams content that's stored in Exchange Online, SharePoint Online, OneDrive for Business, and OneNote.
+description: Learn about using Content search in the Microsoft Purview compliance portal to search for Microsoft Teams content that's stored in Exchange Online, SharePoint Online, OneDrive for Business, and OneNote.
 appliesto: 
   - Microsoft Teams
 ---
@@ -86,4 +86,4 @@ Before you perform these steps, make sure you have the [latest version of the Te
 
 ## Related topics
 
-- [eDiscovery cases in the Microsoft Purview portal](/Office365/SecurityCompliance/ediscovery-cases)
+- [eDiscovery cases in the Microsoft Purview compliance portal](/Office365/SecurityCompliance/ediscovery-cases)
