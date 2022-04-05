@@ -30,7 +30,7 @@ The articles in this section describe dial plans and call routing in Microsoft T
 - [Create and manage dial plans](create-and-manage-dial-plans.md)
 - [Route calls to unassigned numbes](routing-calls-to-unassigned-numbers.md)
 
-The articles in this section apply to all options for connecting to the Public Switched Telephone Network (PSTN): Calling Plan, Operator Connect, or Direct Routing. For more information about all PSTN connectivity options, see [PSTN connectivity options](pstn-connectivity.md).
+The articles in this section apply to all options for connecting to the Public Switched Telephone Network (PSTN): Calling Plan, Operator Connect, and Direct Routing. For more information about all PSTN connectivity options, see [PSTN connectivity options](pstn-connectivity.md).
 
 If you choose Calling Plan or Operator Connect, most call routing is handled by either Microsoft or your provider. Direct Routing, however, requires additional steps to configure call routing. 
 
@@ -40,7 +40,7 @@ Be aware that you can assign a Direct Routing online voice routing policy to Cal
 
 If a user has a Calling Plan license, for example, that user’s outgoing calls are automatically routed through the Microsoft Calling Plan PSTN infrastructure. If you configure and assign a Direct Routing online voice routing policy to the user, the user’s outgoing calls are checked to determine whether the dialed number matches a number pattern defined in the online voice routing policy. If there’s a match, the call is routed through the Direct Routing trunk. If there’s no match, the call is routed through the Calling Plan PSTN infrastructure.
 
-For more informmation, see [Direct Routing voice routing policy considerations](direct-routing-voice-routing.md#voice-routing-policy-considerations).
+For more information, see [Direct Routing voice routing policy considerations](direct-routing-voice-routing.md#voice-routing-policy-considerations).
 
 
 
