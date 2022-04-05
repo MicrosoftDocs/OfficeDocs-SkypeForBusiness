@@ -56,7 +56,7 @@ A team can have up to 100 tags, up to 100 team members can be assigned to a tag,
 
 By default, team owners can add custom tags. You can change this setting to allow team owners and team members to create, edit, delete, and manage tags or you can turn off tags for your organization.
 
-1. In the left navigation of the Microsoft Teams admin center, click **Org-wide settings** > **Teams settings**.
+1. In the left navigation of the Microsoft Teams admin center, click **Teams** > **Teams settings**.
 2. Under **Tagging**, next to **Tags are managed by**, select one of the following options:
 
     - **Team owners and members**: Allow team owners and members to manage tags.
@@ -67,7 +67,7 @@ By default, team owners can add custom tags. You can change this setting to allo
 
 You can configure the following tags settings to control how custom tags are used across your organization.
 
-1. In the left navigation of the Microsoft Teams admin center, click **Org-wide settings** > **Teams settings**.
+1. In the left navigation of the Microsoft Teams admin center, click **Teams** > **Teams settings**.
 2. Under **Tagging**, set the following, depending on the needs of your organization.
 
     - **Let team owners override who can manage tags**: When you turn on this setting, team owners can set whether team members can create and manage tags within a team and the value of the **Tags are managed by** setting is the default value for each team. If you turn off this setting, the **Tags are managed by** setting can't be changed per team.

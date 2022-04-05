@@ -1527,8 +1527,14 @@ items:
           
     - name: Administer third-party apps
       items:
+        - name: Understand third-party apps
+          href: overview-third-party-apps.md
+        - name: Understand app validation by Microsoft
+          href: overview-of-app-validation.md
         - name: Security, compliance, privacy, and data handling for third-party apps
           href: /microsoft-365-app-certification/overview
+        - name: Use Microsoft 365 or Office 365 and custom connectors
+          href: Office-365-custom-connectors.md
         - name: Purchase third-party apps for Teams
           href: purchase-third-party-apps.md
     - name: App templates for Teams
@@ -1546,8 +1552,6 @@ items:
           href: customize-apps.md
         - name: Brand your organization's app store
           href: customize-your-app-store.md
-        - name: Use built-in and custom tabs
-          href: built-in-custom-tabs.md
 
     - name: Admin controls and app governance
       items:
@@ -1573,8 +1577,6 @@ items:
           href: app-permissions.md
         - name: Admin settings for apps in Teams
           href: admin-settings.md
-        - name: Use Microsoft 365 or Office 365 and custom connectors
-          href: Office-365-custom-connectors.md
         - name: App behavior based on types of users
           href: non-standard-users.md
         - name: Update apps to newer versions as end-users
