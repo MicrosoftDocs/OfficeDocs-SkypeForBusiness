@@ -32,7 +32,7 @@ Customer-reported incidents (CRIs) are considered Critical tickets which means t
 
 ## Closing Customer-reported incident tickets
 
-Customer-reported Incidents can be closed by either the customer, partners managing rooms on behalf of customers or by Microsoft’s Service Operations Center engineers. 
+Customer-reported Incidents can be closed by either the customer, partners managing rooms on behalf of customers or by Microsoft’s Service Operations Center engineers.
 
 To close an incident, select **Close**. 
 
@@ -42,7 +42,7 @@ Choose a reason for closure by selecting a category from the list.
 
 ![Screenshot of list of reasons for ticket](../media/customer-reported-incidents-004.png)
 
-Once you've confirmed the reason for closure, the ticket is closed and moved to **Resolved**. 
+Once you've confirmed the reason for closure, the ticket is closed and moved to **Resolved**.
 
 Under the ticket details Overview section, the customer or partners managing rooms on behalf of customers can see who closed the ticket: either the Managed Rooms Service (Microsoft) or the name of the customer/partner.  
 
@@ -52,7 +52,7 @@ Under the ticket details Overview section, the customer or partners managing roo
 
 **Can anyone close tickets?**
 
-Only Customer-reported incidents can be closed by a user or Microsoft’s Managed Rooms Service Operations senter.  Customers who have assigned a Partner to managed their rooms with Ticket Management permissions will have the ability to close Customer-reported Incidents.
+Only Customer-reported incidents can be closed by a user or Microsoft’s Managed Rooms Service Operations center. Customers who have assigned a Partner to managed their rooms with Ticket Management permissions will have the ability to close Customer-reported Incidents.
 
 **Can I restrict who can close tickets?**
 
