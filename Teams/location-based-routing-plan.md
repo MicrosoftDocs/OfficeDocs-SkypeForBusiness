@@ -172,11 +172,11 @@ When a user is enabled for Location-Based Routing, the following applies:
 
 - **For an incoming or outgoing PSTN call and transfer to another Teams user**, whether the transfer is permitted depends on the following:
 
-- The routing settings of the user who is receiving the transferred call. 
-- The endpoint network site location.
-- Whether the location is enabled for Location-Based Routing.
+   - The routing settings of the user who is receiving the transferred call. 
+   - The endpoint network site location.
+   - Whether the location is enabled for Location-Based Routing.
 
-The transfer will be permitted if the person receiving the transferred call is able to make or receive that PSTN call at their current location using the PSTN gateway used by the ongoing PSTN call.
+   The transfer will be permitted if the person receiving the transferred call is able to make or receive that PSTN call at their current location using the PSTN gateway used by the ongoing PSTN call.
 
 
 ### User is not enabled for Location-Based Routing
