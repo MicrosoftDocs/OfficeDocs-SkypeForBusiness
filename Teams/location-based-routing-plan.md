@@ -129,9 +129,9 @@ To apply Location-Based Routing at the PSTN gateway, you must do the following:
 
 - Assign a network site to the gateway.
 
-You can then determine if a given user in a given site is allowed to use the gateway. 
+The system then determines if a given user in a given site is allowed to use the gateway. 
 
-In addition, if you set the GatewayLbrEnabledUserOverride to True, Location-Based-Routine enabled users in unknown sites--for example, users working at home--can make outbound PSTN calls.
+In addition, if you set the GatewayLbrEnabledUserOverride to True, Location-Based-Routing enabled users in unknown sites--for example, users working at home--can make outbound PSTN calls.
 
 
 ## Restriction rules
@@ -164,7 +164,7 @@ When a user is enabled for Location-Based Routing, the following applies:
 
   - Whether the transfer will be permitted is based on the following:
   
-    - The routing settings of the user receiving the transferred call.
+    - The Location-Based Routing settings of the user receiving the transferred call.
     - The endpoint network site location.
     - Whether the location is enabled for Location-Based Routing.
 
