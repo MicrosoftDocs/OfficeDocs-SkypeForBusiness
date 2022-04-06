@@ -75,7 +75,8 @@ The following providers offer contact center solutions that are integrated into 
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
 | `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
 | `Netcall` | https://www.netcall.com/platform/contact-centre/                         |
-| `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
+| `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
+| `Puzzel` | https://www.puzzel.com/microsoft-teams                             |
 | `talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
 
 This list will be updated as more solution providers join and meet the certification criteria.
