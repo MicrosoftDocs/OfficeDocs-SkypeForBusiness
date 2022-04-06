@@ -54,9 +54,7 @@ To configure simultaneous ringing, on the same page select **Ring the user’s d
 
 To configure unanswered settings, on the same page select the appropriate setting in the **If unanswered** drop-down. In the **Ring for this many seconds before redirecting** drop-down, specify the number of seconds to wait.
 
-The configuration of call delegation and group call pickup are integrated into the call forward and unanswered settings by selecting the appropriate type.
-
-For example, to configure that calls should also ring the user’s delegates, on the same page select **Call delegation** under **Also allow**. Then add the appropriate delegates by selecting **Add people** and clicking **Save**.
+The configuration of call delegation and group call pickup are integrated into the call forward and unanswered settings by selecting the appropriate type. For example, to configure that calls should also ring the user’s delegates, on the same page select **Call delegation** under **Also allow**. Then add the appropriate delegates by selecting **Add people** and clicking **Save**.
 
 
 ## Use PowerShell
