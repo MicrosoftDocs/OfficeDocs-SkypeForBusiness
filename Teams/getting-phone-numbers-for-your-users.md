@@ -37,7 +37,6 @@ There are three ways to get user numbers:
   
 > [!NOTE]
 > If you need help setting up phone numbers for your organization, please [contact Support Contact for Business Products - Admin Help](/microsoft-365/admin/contact-support-for-business-products).
-  f
 ## Get new phone numbers for your users
 
  **Using the Microsoft Teams admin center**
