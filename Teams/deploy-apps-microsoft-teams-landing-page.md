@@ -56,18 +56,9 @@ Teams comes with a set of built-in apps, including Lists, Tasks, Praise, Approva
 
 ## Third-party apps validated by Microsoft
 
-In addition to Microsoft-provided apps, you can use Microsoft-validated third-party apps. Microsoft validates the functionality and security of these apps before making these apps available in Teams store.
-
-<!--- TBD: Link to the new article later when it is created.
-To understand the benefits of app validation, see [validation of third-party apps]().
-
---->
+In addition to Microsoft-provided apps, you can use Microsoft-validated third-party apps. Microsoft validates the functionality and security of these apps before making these apps available in Teams store. To understand the benefits of app validation, see [validation of third-party apps](overview-of-app-validation.md).
 
 :::image type="content" source="media/3p-apps-in-teams.png" alt-text="An example of third-party apps in Teams store":::
-
-<!--- TBD: Check the relevance of this link here.
-For more information, see [Microsoft Teams App Security and Compliance](/microsoft-365-app-certification/teams/teams-apps).
---->
 
 ## Custom apps
 
@@ -93,12 +84,13 @@ To know more, see [Microsoft Teams App Templates](https://adoption.microsoft.com
 
 ## Understand app capabilities
 
-Messaging apps include content from an app in a channel or chat. Meeting extensibility apps integrates a developer’s apps within meetings and offers a responsive in-meeting experience. To provide various functionality, the app developers leverage the following app capabilities.
+To provide rich experiences that allow end-users to work inside Teams, app developers leverage the following app capabilities. Messaging extensions let the users interact with your web service Teams client. They search or start actions in an external system. You can send the result of the interaction to the Teams client as a richly formatted card. Meeting extensibility apps integrates a developer’s apps within meetings and offers a responsive in-meeting experience.
 
-Bots provide answers, updates, and assistance. You can chat with those one-on-one or inside a channel. They can help with task management, scheduling, and more. For example, you can use Polly app to create quick surveys, get feedback, and do a pulse check.
+Bots are also referred to as a chatbot or conversational bot. It's an app that executes simple and repetitive tasks. A bot interaction can be a quick question and answer, or it can be a complex conversation that provides access to services or assistance. Users can chat with a bit one-on-one or in a channel. For example, you can use Polly app to create quick surveys, get feedback, and do a pulse check.
 
-Tabs pinned at the top of a channel let you interact with content and services with a web-like experience.
-Connectors deliver content and updates from services you frequently use (such as Jira Cloud and Bitbucket) directly into a channel conversation.
+Tabs are Teams-aware webpages pinned at the top of a channel or a chat. Tabs let you interact with content and services with a web-like experience. You can add tabs as part of a channel inside a team, group chat, or personal app for an individual user.
+
+Webhooks and connectors deliver content and updates from services that end-users frequently use (such as Jira Cloud and Bitbucket) directly into a channel conversation. Apps that use this capability can communicate with external apps and can send or receive notifications and messages from an external service.
 
 Messaging extensions are shortcuts to insert app content or to act on a message without end-users having to navigate away from the conversation. Messaging extensions can have search commands for end-users to quickly find external content and insert it in a message or action commands.
 
