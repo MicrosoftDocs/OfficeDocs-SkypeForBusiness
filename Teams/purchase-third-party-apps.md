@@ -9,7 +9,7 @@ audience: admin
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.reviewer: chhavib, vaibhava
+ms.reviewer: chhavib, vaibhava, nsuter
 search.appverid: MET150
 f1keywords: 
 description: Learn how to purchase third-party apps for Teams in the Microsoft Teams admin center.
@@ -30,7 +30,7 @@ Here, you can also purchase licenses for services offered by third-party apps fo
 ## Purchase apps in the Teams admin center
 
 > [!IMPORTANT]
-> If you want to block your users from purchasing an app through the Teams app store, you have to block the app. For more information on how to block an app, see [Manage app policies](app-policies.md) or [learn how to block an app at the org-level](manage-apps.md#allow-and-block-apps).
+> When you enable app purchasing, it will also turn on in-app purchasing. Users may see in-app purchase offers which are controlled by the ISV for their app. If you want to block your users from purchasing an app, you have to block the app. For more information on how to block an app, see [Manage app policies](app-policies.md) or [learn how to block an app at the org-level](manage-apps.md#allow-and-block-apps).
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. You must be a Global admin or Teams service admin to access the page.
 1. Search for the app that you want. To identify apps that have a paid SaaS subscription, look in the **Licenses** column. Each app will have one of the following values:
