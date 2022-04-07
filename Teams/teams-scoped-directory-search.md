@@ -30,12 +30,12 @@ Microsoft Teams lets organizations provide custom views of the directory to thei
 
 There are two options for limiting who users can see when they search the directory in Teams:
 
-- [Information Barrier policies](/microsoft-365/compliance/information-barriers)
+- [Information barriers in Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams)
 - [Address book policies in Exchange Online](/exchange/address-books/address-book-policies/address-book-policies)
 
 We recommend using information barriers if your organization meets the [required licenses and permissions](/microsoft-365/compliance/information-barriers#required-licenses-and-permissions).
 
-If you choose to use address book policies in Exchange, you must turn on search by name in the Teams admin center.
+To use either option, you must turn on search by name in the Teams admin center.
 
 To turn on search by name
 
