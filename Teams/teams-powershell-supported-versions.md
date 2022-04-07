@@ -61,7 +61,7 @@ Organizations who have been using Teams PowerShell Module in the last three mont
 
 ## Deprecated cmdlets
 
-Some of the Cmdlets that were deprecated recently or aren’t supported for Microsoft Teams scenarios are listed below. Details on the same can be found in the respective public documentations. 
+Some of the cmdlets that were deprecated recently or aren’t supported for Microsoft Teams scenarios are listed below. Details on the same can be found in the respective public documentations. 
 
 - [Get-CsUserPstnSettings](/powershell/module/skype/get-csuserpstnsettings), [Set-CsUserPstnSettings](/powershell/module/skype/set-csuserpstnsettings)
 - [Get-CsOnlineDialInConferencingUserInfo](/powershell/module/skype/get-csonlinedialinconferencinguserinfo), [Get-CsOnlineDialInConferencingUserState](/powershell/module/skype/get-csonlinedialinconferencinguserstate), [Enable-CsOnlineDialInConferencingUser](/powershell/module/skype/enable-csonlinedialinconferencinguser), [Disable-CsOnlineDialInConferencingUser](/powershell/module/skype/disable-csonlinedialinconferencinguser)
