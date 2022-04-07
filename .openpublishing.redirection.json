@@ -1,10 +1,15 @@
 {
   "redirections": [
     {
+      "source_path": "Teams/expand-teams-across-your-org/mobile-browser-join.md",
+      "redirect_url": "/microsoftteams/expand-teams-across-your-org/browser-join",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "Teams/built-in-custom-tabs.md",
       "redirect_url": "/microsoftteams/platform/tabs/what-are-tabs",
       "redirect_document_id": false
-    }, 
+    },
     {
       "source_path": "Teams/teams-power-platfom-integration.md",
       "redirect_url": "/microsoftteams/platform/samples/teams-low-code-solutions",
