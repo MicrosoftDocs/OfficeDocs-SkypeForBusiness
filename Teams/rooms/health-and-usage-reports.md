@@ -19,13 +19,61 @@ search.appverid: MET150
 description: Reporting node data for health and usage of reports
 f1keywords: 
 ---
-
 # Health and Usage Reports
 
-The reporting node contains data for the health and usage of your Microsoft Managed Rooms. The overview surfaces tenant wide health trends of your rooms. In the health tab of reports, all rooms are listed with their corresponding health score and number of meetings impacted by a ticket. Room usage based on the calendar information is visible under the “Usage” tab.
+The reporting node contains data for the health and usage of your Microsoft Managed Rooms and service insights. **The 
+
+**Overview** surfaces tenant-wide health trends of your rooms. The **Health** tab displays a list of rooms with their corresponding health data. Room usage based on  calendar information and call quality data is visible under the **Usage** tab.
+## Navigating reports
+
+![A screenshot of active tickets bar graph](../media/health-and-usage-002new.png)
+
+The overview section provides graphical representations of important aspects of meeting room management. The charts will change depending on the time span selected or group selected. To change the time span, click the drop-down menu.
+
+![A screenshot of a menu to choose a day](../media/health-and-usage-004.png)
+
+To change the group, click the group selection drop-down menu in the banner.
+
+![A screenshot of the banner menu auto-generated](../media/health-and-usage-005.png)
+### Tickets by category
+
+The donut displays the total tickets raised for the selected time span and group (default is seven days, all groups). Tickets are represented in their major categories: Audio, Display, Peripherals, Connectivity, Versioning, and Customer reported.
+
+![A screenshot of pie chart tickets by category](../media/health-and-usage-006.png)
+
+A flyout for the detailed view for tickets of that category is displayed when selected.
+
+![A screenshot of tickets and versioning side by side](../media/health-and-usage-007.png)
+
+In the flyout, it is possible to filter the list of tickets by the subcategory by selecting the respective part of the donut. 
+
+![A screenshot tickets by subcategory automatically generated](../media/health-and-usage-008.png)
+
+To navigate back, either click on the donut or click on the breadcrumb at the top left.
+
+To navigate to a specific ticket in this list view, click on the link under the **Support ticket colum**.
+### Ticket history
+
+The ticket history graph shows a comparison of incidents assigned to you or Microsoft over the specified time period.
+
+> [!NOTE]
+> If a ticket changes owner in a day, whoever owns the assignment for the majority of that day will have the ticket counted towards them. For example, if you assign the ticket to Microsoft early in the day, the ticket counts towards **Assigned to Microsoft** for the day.
+
+![A screen shot of Tickets history by different periods](../media/health-and-usage-009.png)
+### Health history
+
+This graph shows the average health (definition in Health section) for all the rooms in the tenant as well as the average health for all MMR customers on a day-to-day basis. You can view the average health for up to 90 days.
+
+![A screenshot of rooms health and average health](../media/health-and-usage-010.png)
+### Most reliable/least reliable rooms:
+
+Two tables show the most reliable and least reliable rooms based on health. For the full list view, select Health, then sort the list by the Health column.
+
+### Rooms history: 
+Provides a historical view of rooms enrolled in the service and provides a comparative view of rooms that were healthy or unmonitored in the same time period.
 ## Health
 
-Navigate to the health report for all rooms by going to Reports, then click on the “Health” tab. 
+To navigate to the Health report for all rooms, select Reports, then select  **Health**.
 
 ![A screenshot of a Reports health percentage](../media/health-and-usage-001.png)
 
@@ -41,56 +89,17 @@ Clicking on a room listed in this view displays more details.
 
 The bar graph displays the number of tickets on each day. Tickets opened on that respective day appear in blue. Tickets opened prior to the respective day appear in orange. Clicking on a day on the graph filters the pie chart and table to the relevant tickets. To reverse the filter, navigate with the breadcrumbs or click on the graph.
 
-Categorization of tickets are represented in the donut chart. Interacting with this will filter the timeline graph and table. To reverse the filter, navigate with the breadcrumbs or click on the graph.
+Categorization of tickets are represented in the donut chart. Interacting with this filters the timeline graph and table. To reverse the filter, navigate with the breadcrumbs or click on the graph.
 
-[![A screenshot of active tickets bar graph](../media/health-and-usage-002-cropped.png)](../media/health-and-usage-002.png#lightbox)
-## Navigating reports
+![A screenshot of a Reports health bar graph](../media/health-and-usage-014.png)
 
-[![A screenshot of active tickets pie chart](../media/health-and-usage-003-cropped.png)](../media/health-and-usage-003.png#lightbox)
+The meeting impact view shows scheduled meetings during which a ticket with a severity of “Important” or “Critical” was open. The purpose of this view is to provide an approximation of meetings where participants could have experienced issues.
 
-The overview section provides graphical representations of important aspects of meeting room management. The charts will change depending on the time span selected or group selected. To change the time span, click the drop-down menu.
+The meeting impact view shows scheduled meetings during which a ticket with a severity of “Important” or “Critical” was open. The purpose of this view is to provide an approximation of meetings where participants could have experienced issues.
 
-![A screenshot of a menu to choose a day](../media/health-and-usage-004.png)
+![A screenshot of a Reports meeting impact](../media/health-and-usage-015.png)
 
-To change the group, click the group selection dropdown menu in the banner.
-
-![A screenshot of the banner menu auto-generated](../media/health-and-usage-005.png)
-### Tickets by category
-
-The donut displays the total tickets raised for the selected time span and group (default is seven days, all groups). Tickets are represented in their major categories: Audio, Display, Peripherals, Connectivity, Versioning, and Customer reported.
-
-[![A screenshot of pie chart tickets by category](../media/health-and-usage-006-cropped.png)](../media/health-and-usage-006.png#lightbox)
-
-A flyout for the detailed view for tickets of that category is displayed when selected.
-
-[![A screenshot of tickets and versioning side by side](../media/health-and-usage-007-cropped-A.png)](../media/health-and-usage-007.png#lightbox)
-
-[![A screenshot of tickets and versioning side by side](../media/health-and-usage-007-cropped-B.png)](../media/health-and-usage-007.png#lightbox)
-
-
-In the flyout, it is possible to filter the list of tickets by the subcategory by selecting the respective part of the donut. 
-
-[![A screenshot tickets by subcategory automatically generated](../media/health-and-usage-008-cropped.png)](../media/health-and-usage-008.png#lightbox)
-
-To navigate back, either click on the donut or click on the breadcrumb at the top left.
-
-To navigate to a specific ticket in this list view, click on the link under the **Support ticket colum**.
-### Ticket history
-
-The ticket history graph shows a comparison of incidents assigned to you or Microsoft over the specified time period.
-
-> [!NOTE]
-> If a ticket changes owner in a day, whoever owns the assignment for the majority of that day will have the ticket counted towards them. For example, if you assign the ticket to Microsoft early in the day, the ticket counts towards **Assigned to Microsoft** for the day.
-
-[![A screen shot of Tickets history by different periods](../media/health-and-usage-009.png)](../media/health-and-usage-009-zoomed.png#lightbox)
-
-### Health history
-
-This graph shows the average health (definition in Health section) for all the rooms in the tenant as well as the average health for all MMR customers on a day-to-day basis. You can view the average health for up to 90 days.
-
-[![A screenshot of rooms health and average health](../media/health-and-usage-010.png)](../media/health-and-usage-010-zoomed.png#lightbox)
-
-Two tables show the most reliable and least reliable rooms based on health. For the full list view, select Health, then sort the list by the Health column.
+The Settings tab displays the metadata of the room such as the hardware information, device settings, BIOS information, app settings and location.
 
 ## Usage
 
@@ -105,29 +114,28 @@ The headlines provide a few insights:
 - Percentage of utilization of rooms across the tenant
 - Total number of booked meetings through exchange
 - Percentage of booked meetings that included a Skype or Teams link
+- Total calls with room participation
+-	Aggregate call performance score from all calls classified with “Good” quality to all calls. 
 
-Usage is calculated at the end of each day at midnight (00:00) local time of the meeting room device.
+Below the headline metrics is a table of rooms with corresponding metrics. Select a room to view more usage details. The metrics in the table are described in the following table.
 
-Utilization is calculated based on the total booked meeting time for that day divided by 8 hours.
+| Column | 	Description |
+|--------| -------------------|
+| Utilization	| Percentage of time the room was booked during business hours in the selected period. Ex. Time period set to 7 days. 80% utilization over the means the room was booked for 32/40 hours |
+| Booked online |	Of the booked meetings, the percentage of which were enabled with Teams. Ex. 10 meetings were booked. Of that, 8 had a Teams link. Booked Online = 80% |
+| Scheduled meetings | Absolute number of meetings scheduled in the room |
+| Total calls |	Absolute number of calls with the room as a participant. |
+Call performance |	Percentage of calls with a “Good” rating. Each call is evaluated and receives a Good, Poor, Unknown rating. This metric is calculated from Good calls/Total calls |
 
-The circles are filled in quarter intervals only, with the following thresholds:
-
-- Less than 15% -> Empty
-- Between 15% and 40% -> ¼ fill
-- Between 40% and 60% -> ½ fill
-- Between 60% and 80% -> ¾ fill
-- Over 80% -> Whole 
+Usage is calculated at the end of each day at midnight (00:00) local time of the meeting room device. Utilization is calculated based on the total booked meeting time for that day divided by 8 hours.
 ## Usage details of a room
  
-Clicking on a room in the list view prompts a flyout with more in-depth information. On the Utilization tab of the flyout is a graph showing hours of usage of the last five business days. For each day there are two bars: blue represents booked meeting time; purple represents scheduled time of Teams/Skype enabled meetings. At the bottom, the average meeting bookings and duration for the past five business days are calculated.
+Clicking on a room in the list view prompts a flyout with more in-depth information. Under the Utilization tab of the flyout is a graph showing hours of usage of the last five business days. For each day there are two bars: blue represents booked meeting time; purple represents scheduled time of Teams/Skype enabled meetings. At the bottom, the average meeting bookings and duration for the past five business days are calculated.
 
-[![A screenshot of utilization by hours per day](../media/health-and-usage-012.png)]](../media/health-and-usage-012-zoomed.png#lightbox)
+![A screenshot of utilization by hours per day](../media/health-and-usage-012.png)
 
-The **Nearby** tab displays up to five other rooms that are located within approximately 100m. This view facilitates comparisons to rooms in the same building.
+The **Calls** table shows meetings in which the room participated in a Teams call. The Room Audio Quality is evaluated for only the room, not all participants. To view call quality for all participants of a specific call, select a call by clicking on the Start Time. 
 
-> [!NOTE]
-> The distance measurement is horizontal and based on location data from the device in the room. Vertical distance is not accounted for in this metric.
+![A screenshot of room audio quality](../media/health-and-usage-016.png)
 
-[![A screenshot of rooms' usage within given radius](../media/health-and-usage-013.png)](../media/health-and-usage-013-zoomed.png#lightbox)
-
-The Settings tab displays the metadata of the room such as the hardware information, device settings, BIOS information, app settings, and location.
+To view stream details for the room, click the Session Start Time. 
