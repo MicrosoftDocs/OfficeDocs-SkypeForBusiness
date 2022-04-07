@@ -151,9 +151,9 @@ The connector supports patients joining appointments through a link in the SMS t
 
 Key features of the patient experience
 
-- Patients can join appointments from modern web browsers on desktop and [mobile without having to install the Teams app](../mobile-browser-join.md).
+- Patients can join appointments from [modern web browsers on desktop and mobile without having to install the Teams app](../browser-join.md).
 - Patients can join appointments with a single click and no other account or sign-in is required.
-- Patients aren't required to create a Microsoft account or sign in to launch an appointment.
+- Patients aren't required to create a Microsoft account or sign in to launch a visit.
 - Patients are placed in a lobby until the provider joins and admits them.
 - Patients can test their video and microphone in the lobby before joining the appointment.
 
