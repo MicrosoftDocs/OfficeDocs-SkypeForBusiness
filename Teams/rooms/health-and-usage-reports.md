@@ -3,7 +3,7 @@ title: Health and Usage Reports
 author: donnah007 
 ms.author: v-donnahill
 manager: serdars
-ms.date: 04/05/2022
+ms.date: 04/06/2022
 ms.reviewer:  
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -43,35 +43,38 @@ The bar graph displays the number of tickets on each day. Tickets opened on that
 
 Categorization of tickets are represented in the donut chart. Interacting with this will filter the timeline graph and table. To reverse the filter, navigate with the breadcrumbs or click on the graph.
 
-![A screenshot of active tickets bar graph](../media/health-and-usage-002.png)
+[![A screenshot of active tickets bar graph](../media/health-and-usage-002-cropped.png)](../media/health-and-usage-002.png#lightbox)
 ## Navigating reports
 
-![A screenshot of active tickets pie chart](../media/health-and-usage-003.png)
+[![A screenshot of active tickets pie chart](../media/health-and-usage-003-cropped.png)](../media/health-and-usage-003.png#lightbox)
 
 The overview section provides graphical representations of important aspects of meeting room management. The charts will change depending on the time span selected or group selected. To change the time span, click the drop-down menu.
 
 ![A screenshot of a menu to choose a day](../media/health-and-usage-004.png)
 
-To change the group, click the group selection drop down in the banner.
+To change the group, click the group selection dropdown menu in the banner.
 
 ![A screenshot of the banner menu auto-generated](../media/health-and-usage-005.png)
 ### Tickets by category
 
 The donut displays the total tickets raised for the selected time span and group (default is seven days, all groups). Tickets are represented in their major categories: Audio, Display, Peripherals, Connectivity, Versioning, and Customer reported.
 
-![A screenshot of pie chart tickets by category](../media/health-and-usage-006.png)
+[![A screenshot of pie chart tickets by category](../media/health-and-usage-006-cropped.png)](../media/health-and-usage-006.png#lightbox)
 
 A flyout for the detailed view for tickets of that category is displayed when selected.
 
-![A screenshot of tickets and versioning side by side](../media/health-and-usage-007.png)
+[![A screenshot of tickets and versioning side by side](../media/health-and-usage-007-cropped-A.png)](../media/health-and-usage-007.png#lightbox)
+
+[![A screenshot of tickets and versioning side by side](../media/health-and-usage-007-cropped-B.png)](../media/health-and-usage-007.png#lightbox)
+
 
 In the flyout, it is possible to filter the list of tickets by the subcategory by selecting the respective part of the donut. 
 
-![A screenshot tickets by subcategory automatically generated](../media/health-and-usage-008.png)
+[![A screenshot tickets by subcategory automatically generated](../media/health-and-usage-008-cropped.png)](../media/health-and-usage-008.png#lightbox)
 
 To navigate back, either click on the donut or click on the breadcrumb at the top left.
 
-To navigate to a specific ticket in this list view, click on the link under the “Support ticket column”
+To navigate to a specific ticket in this list view, click on the link under the **Support ticket colum**.
 ### Ticket history
 
 The ticket history graph shows a comparison of incidents assigned to you or Microsoft over the specified time period.
@@ -79,12 +82,13 @@ The ticket history graph shows a comparison of incidents assigned to you or Micr
 > [!NOTE]
 > If a ticket changes owner in a day, whoever owns the assignment for the majority of that day will have the ticket counted towards them. For example, if you assign the ticket to Microsoft early in the day, the ticket counts towards **Assigned to Microsoft** for the day.
 
-![A screen shot of Tickets history by different periods](../media/health-and-usage-009.png)
+[![A screen shot of Tickets history by different periods](../media/health-and-usage-009.png)](../media/health-and-usage-009-zoomed.png#lightbox)
+
 ### Health history
 
 This graph shows the average health (definition in Health section) for all the rooms in the tenant as well as the average health for all MMR customers on a day-to-day basis. You can view the average health for up to 90 days.
 
-![A screenshot of rooms health and average health](../media/health-and-usage-010.png)
+[![A screenshot of rooms health and average health](../media/health-and-usage-010.png)](../media/health-and-usage-010-zoomed.png#lightbox)
 
 Two tables show the most reliable and least reliable rooms based on health. For the full list view, select Health, then sort the list by the Health column.
 
@@ -117,13 +121,13 @@ The circles are filled in quarter intervals only, with the following thresholds:
  
 Clicking on a room in the list view prompts a flyout with more in-depth information. On the Utilization tab of the flyout is a graph showing hours of usage of the last five business days. For each day there are two bars: blue represents booked meeting time; purple represents scheduled time of Teams/Skype enabled meetings. At the bottom, the average meeting bookings and duration for the past five business days are calculated.
 
-![A screenshot of utilization by hours per day](../media/health-and-usage-012.png)
+[![A screenshot of utilization by hours per day](../media/health-and-usage-012.png)]](../media/health-and-usage-012-zoomed.png#lightbox)
 
 The **Nearby** tab displays up to five other rooms that are located within approximately 100m. This view facilitates comparisons to rooms in the same building.
 
 > [!NOTE]
 > The distance measurement is horizontal and based on location data from the device in the room. Vertical distance is not accounted for in this metric.
 
-![A screenshot of rooms' usage within given radius](../media/health-and-usage-013.png)
+[![A screenshot of rooms' usage within given radius](../media/health-and-usage-013.png)](../media/health-and-usage-013-zoomed.png#lightbox)
 
 The Settings tab displays the metadata of the room such as the hardware information, device settings, BIOS information, app settings, and location.
