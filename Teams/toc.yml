@@ -1593,7 +1593,7 @@ items:
       items: 
         - name: Bookings in Teams
           items: 
-            - name: Virtual Visits with Teams and Bookings
+            - name: Virtual appointments with Teams and Bookings
               href: expand-teams-across-your-org/bookings-virtual-visits.md
             - name: Manage the Bookings app
               href: bookings-app-admin.md
@@ -1716,15 +1716,15 @@ items:
       items: 
         - name: Get started with Teams for healthcare organizations
           href: expand-teams-across-your-org/healthcare/teams-in-hc.md
-        - name: Virtual Visits
+        - name: Virtual appointments
           items: 
-            - name: Virtual Visits with Teams - Integration into Cerner EHR
+            - name: Virtual appointments with Teams - Integration into Cerner EHR
               href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
-            - name: Virtual Visits with Teams - Integration into Epic EHR
+            - name: Virtual appointments with Teams - Integration into Epic EHR
               href: expand-teams-across-your-org/healthcare/ehr-admin.md
             - name: EHR admin reports
               href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
-            - name: Virtual Visits with Teams and Bookings
+            - name: Virtual appointments with Teams and Bookings
               href: expand-teams-across-your-org/bookings-virtual-visits.md
             - name: Virtual Visits usage report
               href: teams-analytics-and-reports/virtual-visits-usage-report.md  
