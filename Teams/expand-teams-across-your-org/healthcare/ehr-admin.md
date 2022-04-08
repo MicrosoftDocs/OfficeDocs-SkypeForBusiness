@@ -246,7 +246,7 @@ Key features of the patient experience:
   - Patients can access links to troubleshooting tips to resolve any issues found, which helps to reduce interactions with the medical services support team.
   - Results of the device test can be sent back to the EHR system.
 
-- Patients can join visits from modern web browsers on desktop and [mobile without having to install the Teams app](../mobile-browser-join.md).
+- Patients can join visits from [modern web browsers on desktop and mobile without having to install the Teams app](../browser-join.md).
 
 - Patients can join visits with a single click and no other account or sign-in is required.
 
