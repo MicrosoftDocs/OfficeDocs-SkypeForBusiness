@@ -57,14 +57,13 @@ Organizations who have been using Teams PowerShell Module in the last three mont
 
   * Changes coming to Phone number assignment - more details in [Set-CsUser](/powershell/module/skype/set-csuser), [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser), [Set-CsOnlineApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance) & [Set-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlinevoiceapplicationinstance) (Message center post – MC316139)
 
--	While using TPM 4.x.x or above, it’s recommended to not use any of the deprecated or unsupported cmdlets mentioned [below](teams-powershell-supported-versions#deprecated-cmdlets). 
+-	While using TPM 4.x.x or above, it’s recommended to not use any of the deprecated or unsupported cmdlets mentioned [below](#deprecated-cmdlets). 
 
 
 
 ## Deprecated cmdlets
 
 - Some of the cmdlets that were deprecated recently are listed below. Details on the same can be found in the respective public documentations. 
-
   * [Get-CsOnlineDialInConferencingUserInfo](/powershell/module/skype/get-csonlinedialinconferencinguserinfo), [Get-CsOnlineDialInConferencingUserState](/powershell/module/skype/get-csonlinedialinconferencinguserstate), [Enable-CsOnlineDialInConferencingUser](/powershell/module/skype/enable-csonlinedialinconferencinguser), [Disable-CsOnlineDialInConferencingUser](/powershell/module/skype/disable-csonlinedialinconferencinguser)
   * [Get-CsOnlineDirectoryTenant](/powershell/module/skype/get-csonlinedirectorytenant)
   * [New-CsOnlineAudioFile](/powershell/module/skype/new-csonlineaudiofile)
@@ -75,7 +74,6 @@ Organizations who have been using Teams PowerShell Module in the last three mont
 
 
 - Cmdlets that aren’t supported/relevant for Microsoft Teams scenarios are listed below. 
-
   * [Get|Set]-CsUserPstnSettings
   * [Get|Set|Enable|Disable]-CsMeetingRoom
   * [Grant|Get|Set|New|Remove]-CsConferencingPolicy
