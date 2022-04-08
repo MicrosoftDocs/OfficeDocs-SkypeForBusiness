@@ -61,7 +61,7 @@ This is a per-user policy. This setting controls whether video can be turned on 
 |Setting value |Behavior  |
 |---------|---------|
 |**Outgoing and incoming video enabled**    | Outgoing and incoming video is allowed in the meeting. This is the default setting. |
-|**Not enabled**     | Outgoing and incoming video is turned off in the meeting. On Teams mobile clients, users can't share videos or photos in the meeting. <br><br>Note that if **Mode for IP audio** is disabled, then **Mode for IP video** will also remain disabled.  |
+|**Not enabled**     | Outgoing and incoming video is turned off in the meeting. On Teams mobile clients, users can't share videos or photos in the meeting. <br><br>Note that if **Mode for IP audio** is not enabled, then **Mode for IP video** will also remain not enabled.  |
 
 If set to **Not enabled** for a  user, that user can't turn on video or view videos shared by other meeting participants. Meeting participants who don't have any policies assigned (for example, anonymous participants) have this set to **Outgoing and incoming video enabled** by default.
 
