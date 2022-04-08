@@ -74,7 +74,7 @@ Organizations who have been using Teams PowerShell Module in the last three mont
   * [Test-CsOnlineLisCivicAddress](/powershell/module/skype/test-csonlineliscivicaddress)
 
 
-- Cmdlets that aren’t supported or are not relevant for Microsoft Teams scenarios are listed below. 
+- Cmdlets that aren’t supported/relevant for Microsoft Teams scenarios are listed below. 
 
   * [Get|Set]-CsUserPstnSettings
   * [Get|Set|Enable|Disable]-CsMeetingRoom
