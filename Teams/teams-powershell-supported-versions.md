@@ -57,19 +57,54 @@ Organizations who have been using Teams PowerShell Module in the last three mont
 
   * Changes coming to Phone number assignment - more details in [Set-CsUser](/powershell/module/skype/set-csuser), [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser), [Set-CsOnlineApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance) & [Set-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlinevoiceapplicationinstance) (Message center post – MC316139)
 
+-	While using TPM 4.x.x or above, it’s recommended to not use any of the deprecated or unsupported cmdlets mentioned [below](teams-powershell-supported-versions#deprecated-cmdlets). 
+
 
 
 ## Deprecated cmdlets
 
-Some of the cmdlets that were deprecated recently or aren’t supported for Microsoft Teams scenarios are listed below. Details on the same can be found in the respective public documentations. 
+- Some of the cmdlets that were deprecated recently are listed below. Details on the same can be found in the respective public documentations. 
 
-- [Get-CsUserPstnSettings](/powershell/module/skype/get-csuserpstnsettings), [Set-CsUserPstnSettings](/powershell/module/skype/set-csuserpstnsettings)
-- [Get-CsOnlineDialInConferencingUserInfo](/powershell/module/skype/get-csonlinedialinconferencinguserinfo), [Get-CsOnlineDialInConferencingUserState](/powershell/module/skype/get-csonlinedialinconferencinguserstate), [Enable-CsOnlineDialInConferencingUser](/powershell/module/skype/enable-csonlinedialinconferencinguser), [Disable-CsOnlineDialInConferencingUser](/powershell/module/skype/disable-csonlinedialinconferencinguser)
-- [Get-CsMeetingRoom](/powershell/module/skype/get-csmeetingroom), [Set-CsMeetingRoom](/powershell/module/skype/set-csmeetingroom), [Enable-CsMeetingRoom](/powershell/module/skype/enable-csmeetingroom), [Disable-CsMeetingRoom](/powershell/module/skype/disable-csmeetingroom)
-- [Get-CsOnlineDirectoryTenant](/powershell/module/skype/get-csonlinedirectorytenant)
-- [New-CsOnlineAudioFile](/powershell/module/skype/new-csonlineaudiofile)
-- [Get-CsOnlineApplicationEndpoint](/powershell/module/skype/get-csonlineapplicationendpoint), [Set-CsOnlineApplicationEndpoint](/powershell/module/skype/set-csonlineapplicationendpoint), [New-CsOnlineApplicationEndpoint](/powershell/module/skype/new-csonlineapplicationendpoint), [Remove-CsOnlineApplicationEndpoint](/powershell/module/skype/remove-csonlineapplicationendpoint)
-- [Get-CsOnlineTelephoneNumberInventoryCities](/powershell/module/skype/get-csonlinetelephonenumberinventorycities), [Get-CsOnlineTelephoneNumberInventoryAreas](/powershell/module/skype/get-csonlinetelephonenumberinventoryareas), [Get-CsOnlineTelephoneNumberInventoryCountries](/powershell/module/skype/get-csonlinetelephonenumberinventorycountries), [Get-CsOnlineTelephoneNumberInventoryRegions](/powershell/module/skype/get-csonlinetelephonenumberinventoryregions), [Get-CsOnlineTelephoneNumberInventoryTypes](/powershell/module/skype/get-csonlinetelephonenumberinventorytypes), [Search-CsOnlineTelephoneNumberInventory](/powershell/module/skype/search-csonlinetelephonenumberinventory), [Select-CsOnlineTelephoneNumberInventory](/powershell/module/skype/select-csonlinetelephonenumberinventory), [Get-CsOnlineTelephoneNumberAvailableCount](/powershell/module/skype/get-csonlinetelephonenumberavailablecount), [Clear-CsOnlineTelephoneNumberReservation](/powershell/module/skype/clear-csonlinetelephonenumberreservation), [Get-CsOnlineTelephoneNumberReservationsInformation](/powershell/module/skype/get-csonlinetelephonenumberreservationsinformation), [Get-CsOnlineDirectoryTenantNumberCities](/powershell/module/skype/get-csonlinedirectorytenantnumbercities)  
+  * [Get-CsOnlineDialInConferencingUserInfo](/powershell/module/skype/get-csonlinedialinconferencinguserinfo), [Get-CsOnlineDialInConferencingUserState](/powershell/module/skype/get-csonlinedialinconferencinguserstate), [Enable-CsOnlineDialInConferencingUser](/powershell/module/skype/enable-csonlinedialinconferencinguser), [Disable-CsOnlineDialInConferencingUser](/powershell/module/skype/disable-csonlinedialinconferencinguser)
+  * [Get-CsOnlineDirectoryTenant](/powershell/module/skype/get-csonlinedirectorytenant)
+  * [New-CsOnlineAudioFile](/powershell/module/skype/new-csonlineaudiofile)
+  * [Get-CsOnlineApplicationEndpoint](/powershell/module/skype/get-csonlineapplicationendpoint), [Set-CsOnlineApplicationEndpoint](/powershell/module/skype/set-csonlineapplicationendpoint), [New-CsOnlineApplicationEndpoint](/powershell/module/skype/new-csonlineapplicationendpoint), [Remove-CsOnlineApplicationEndpoint](/powershell/module/skype/remove-csonlineapplicationendpoint)
+  * [Get-CsOnlineTelephoneNumberInventoryCities](/powershell/module/skype/get-csonlinetelephonenumberinventorycities), [Get-CsOnlineTelephoneNumberInventoryAreas](/powershell/module/skype/get-csonlinetelephonenumberinventoryareas), [Get-CsOnlineTelephoneNumberInventoryCountries](/powershell/module/skype/get-csonlinetelephonenumberinventorycountries), [Get-CsOnlineTelephoneNumberInventoryRegions](/powershell/module/skype/get-csonlinetelephonenumberinventoryregions), [Get-CsOnlineTelephoneNumberInventoryTypes](/powershell/module/skype/get-csonlinetelephonenumberinventorytypes), [Search-CsOnlineTelephoneNumberInventory](/powershell/module/skype/search-csonlinetelephonenumberinventory), [Select-CsOnlineTelephoneNumberInventory](/powershell/module/skype/select-csonlinetelephonenumberinventory), [Get-CsOnlineTelephoneNumberAvailableCount](/powershell/module/skype/get-csonlinetelephonenumberavailablecount), [Clear-CsOnlineTelephoneNumberReservation](/powershell/module/skype/clear-csonlinetelephonenumberreservation), [Get-CsOnlineTelephoneNumberReservationsInformation](/powershell/module/skype/get-csonlinetelephonenumberreservationsinformation), [Get-CsOnlineDirectoryTenantNumberCities](/powershell/module/skype/get-csonlinedirectorytenantnumbercities)  
+  * [Set-CsTeamsAppSetupPolicy](/powershell/module/skype/set-csteamsappsetuppolicy), [New-CsTeamsAppSetupPolicy](/powershell/module/skype/new-csteamsappsetuppolicy), [Set-CsTeamsAppPermissionPolicy](/powershell/module/skype/set-csteamsapppermissionpolicy), [New-CsTeamsAppPermissionPolicy](/powershell/module/skype/new-csteamsapppermissionpolicy), [Set-CsTeamsPinnedApp](/powershell/module/skype/set-csteamspinnedapp), [New-CsTeamsPinnedApp](/powershell/module/skype/new-csteamspinnedapp), [Remove-CsTeamsPinnedApp](/powershell/module/skype/remove-csteamspinnedapp)
+  * [Test-CsOnlineLisCivicAddress](/powershell/module/skype/test-csonlineliscivicaddress)
+
+
+- Cmdlets that aren’t supported or are not relevant for Microsoft Teams scenarios are listed below. 
+
+  * [Get|Set]-CsUserPstnSettings
+  * [Get|Set|Enable|Disable]-CsMeetingRoom
+  * [Grant|Get|Set|New|Remove]-CsConferencingPolicy
+  * [Grant|Get|Set|New|Remove]-CsClientPolicy
+  * [Grant|Get]-CsHostedVoicemailPolicy
+  * [Grant|Get|Set|New|Remove]-CsMobilityPolicy
+  * [Grant|Get] CsVoiceRoutingPolicy
+  * [Grant|Get]-CsBroadcastMeetingPolicy
+  * [Grant|Get]-CsCloudMeetingPolicy
+  * [Grant|Get]-CsGraphPolicy
+  * [Grant|Get|Set|New|Remove]-CsExternalUserCommunicationPolicy
+  * [Grant|Get|Set]-CsIPPhonePolicy
+  * Get-CsUserServicesPolicy
+  * [Get|Set]-CsBroadcastMeetingConfiguration
+  * [Get|Set]-CsOAuthConfiguration
+  * [Get|Set]-CsMeetingConfiguration
+  * [Get|Set]-CsTenantHybridConfiguration
+  * [Get|Set]-CsPushNotificationConfiguration
+  * [Get|Set]-CsUCPhoneConfiguration
+  * Get-CsImFilterConfiguration
+  * Get-CsAudioConferencingProvider
+  * [Get|Set]-CsTenantPublicProvider
+  * [Get|Set|Register|Unregister]-CsHybridPSTNAppliance
+  * [Get|Set|New|Remove]-CsHybridPSTNSite
+  * [Get|Set]- CsHybridMediationServer
+  * [Get|Set|New|Remove]-CsTenantUpdateTimeWindow
+  * Get-CsUserLocationStatus
+  * Invoke-CsUcsRollback
+
 
 
 
