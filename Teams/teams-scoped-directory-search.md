@@ -22,7 +22,7 @@ appliesto:
 
 # Limit who users can see when searching the directory in Teams
 
-Microsoft Teams lets organizations provide custom views of the directory to their users. These can be useful if:
+Microsoft Teams lets organizations provide custom views of the directory to their users. These views can be useful if:
 
 - Your organization has multiple companies within its tenant that you want to keep separate.
 - Your business policies require that you prevent certain groups within your organization from communicating with each other.
