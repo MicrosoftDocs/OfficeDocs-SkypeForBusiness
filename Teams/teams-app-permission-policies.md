@@ -84,7 +84,7 @@ You can use the Teams admin center to edit a policy, including the global policy
 
 In a Microsoft 365 Government - GCCH and DoD deployment of Teams, it's important to know the following about third-party app settings, which are unique to GCCH and DoD.
 
-In GCC, GCCH and DoD deployments, all third-party apps are blocked by default. Additionally, in GCC, you see the following note about managing third-party apps on the app permission policies page in the Microsoft Teams admin center.
+In GCC, GCCH, and DoD deployments, all third-party apps are blocked by default. Additionally, in GCC, you see the following note about managing third-party apps on the app permission policies page in the Microsoft Teams admin center.
 
 :::image type="content" source="media/app-permission-policies-gcc-trimmed.png" alt-text="Screenshot of app permission policy in GCCH and DoD." lightbox="media/app-permission-policies-gcc.png":::
 
