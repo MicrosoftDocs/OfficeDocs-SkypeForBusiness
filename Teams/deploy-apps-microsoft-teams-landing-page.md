@@ -64,7 +64,7 @@ In addition to Microsoft-provided apps, you can use Microsoft-validated third-pa
 
 Apps created by developers in your organization are called custom apps. Development of such an app is commissioned for specific requirements of your organization and you have controls to allow or disallow such apps. Developers in your organization can quickly build custom low-code solutions by using Teams integration with [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions).
 
-After an admin allows the use of custom apps, end-users find such apps by clicking **Built for your org** in the left navigation of Teams store.
+After an admin allows the use of custom apps, end-users can find such apps by selecting **Built for your org** in the left navigation of Teams store.
 
 :::image type="content" source="media/built-for-your-org1.png" alt-text="Custom apps in Teams store in Teams desktop app" lightbox="media/built-for-your-org2.png":::
 
