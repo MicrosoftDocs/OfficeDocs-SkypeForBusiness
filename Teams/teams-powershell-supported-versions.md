@@ -102,10 +102,10 @@ Organizations who have been using Teams PowerShell Module in the last three mont
   * [Get|Set|New|Remove]-CsTenantUpdateTimeWindow
   * Get-CsUserLocationStatus
   * Invoke-CsUcsRollback
-  * [Get|Set|New|Remove]-CsTenantCatalogApp
   * [Get|Set|New|Remove]-CsTeamsPinnedApp
-  * [Get|Set|New|Remove]-CsDefaultCatalogApp
+  * [Get|Set|New|Remove]-CsTenantCatalogApp
   * [Get|Set|New|Remove]-CsGlobalCatalogApp
+  * [Get|Set|New|Remove]-CsDefaultCatalogApp
   * [Get|Set|New|Remove]-CsTeamsAppPreset
 
 
