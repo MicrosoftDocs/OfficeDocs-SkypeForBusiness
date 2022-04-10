@@ -1431,6 +1431,8 @@ items:
           href: rooms/multi-tenant-auditing.md
         - name: Standards and Rooms Planner 
           href: rooms/standards-and-room-planner.md
+        - name: Using the Teams Rooms mobile application
+          href: rooms/extended-mobile-app.md
     - name: Devices
       items:
         - name: Teams device store
