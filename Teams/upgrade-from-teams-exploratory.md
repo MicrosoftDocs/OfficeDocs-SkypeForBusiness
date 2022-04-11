@@ -41,6 +41,9 @@ To check when your organization’s Teams Exploratory trial is expiring and how 
 
 ## Step 2: Choose an upgrade path
 
+> [!TIP]
+> We recommend Teams Essentials as the primary option for customers looking to upgrade their expiring Teams Exploratory trials. For more information, see [Compare Microsoft Teams Essentials to other plans](get-started-with-teams-essentials.md#how-does-microsoft-teams-essentials-compare-to-other-microsoft-teams-plans).
+
 Depending on the subscriptions your organization currently has, there are three ways to upgrade from a Microsoft Teams Exploratory trial to a paid license:
 
 - **Upgrade an existing Microsoft 365 subscription.** Use this option if your organization has subscriptions to other Office products that don’t include Teams. For more information, see <a href="/microsoft-365/commerce/subscriptions/upgrade-to-different-plan?view=o365-worldwide" target="_blank">Upgrade to a different business plan</a>. To see active users for an existing subscription, go to **Users >** <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"><b>Active users</b></a> in the Microsoft 365 admin center.
