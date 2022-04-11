@@ -265,7 +265,7 @@ To locate the instance path:
 
 If you don't set a default display layout for a room in your XML configuration, the default layout will be set to Gallery. To see Front row as the default layout, add ```<DefaultFoRExperience>1</DefaultFoRExperience>``` to your XML configuration file.
 
-End-users can switch from the default display layout using the layout picker during mettings.
+End-users can switch from the default display layout using the layout picker during meetings.
 
 ## Turn off Front row
 
