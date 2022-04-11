@@ -214,6 +214,6 @@ The technology provides regional data residency support through the datacenters 
 ## Additional resources
 
 Microsoft Teams Rooms Security:/microsoftteams/rooms/security
-Microsoft Privacy Statement: http://aka.ms/privacy
+Microsoft Privacy Statement: https://aka.ms/privacy
 Data management at Microsoft: https://www.microsoft.com/trust-center/privacy/data-management
 The technology service description: [Microsoft Teams Room managed service](microsoft-teams-rooms-premium.md)
