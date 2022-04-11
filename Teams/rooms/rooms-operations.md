@@ -42,7 +42,11 @@ If you desire a front of room display to automatically switch to Teams Rooms whe
 
 ### Change scale and resolution
 
-If the font size on your Front of Room display is too large or small, you'll need to adjust the screen's resolution. 
+If the font size on your Front of Room display is too large or small, you'll need to adjust the screen's resolution.
+
+To adjust the display of multiple Teams Rooms at once, change the scale and resolution remotely using an XML configuration file. For more information, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md#scale-and-resolution).
+
+If you're adjusting the display of one device, you can change the scale and resolution manually in the Teams Room admin settings:
 
 1. Switch to [admin mode](#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)
 
