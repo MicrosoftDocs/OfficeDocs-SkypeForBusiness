@@ -35,6 +35,8 @@ The virtual appointments are held through Microsoft Teams meetings, which offer 
 
 Each virtual appointment includes a Teams meeting link that’s sent to attendees in email where they can easily join from a web browser or in Teams on any device. Automated email reminders help reduce no-shows and enhance customer and client engagement.
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4TQop]
+
 With Bookings, you get an experience that's tailored to your industry. Here's a few examples of how you can use it in your organization:
 
 |Industry | Examples |
