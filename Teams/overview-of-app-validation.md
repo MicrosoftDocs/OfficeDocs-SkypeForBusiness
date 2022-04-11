@@ -30,20 +30,12 @@ To know the detailed validation guidelines that app developers adhere to, see [V
 > [!NOTE]
 > Validation and checks by Microsoft are not available for a custom app as it is developed within your organization and is only available to members of your organization.
 
-## Publisher verification
-
-Before an app developer can submit their app to Microsoft, the developer is required to undergo a verification. A publisher verifies their identity using their Microsoft Partner Network (MPN) account and associate this MPN account with their app registration. Publisher verification helps admins and end users understand the authenticity of application developers who integrate with the Microsoft identity platform. Publisher verification provides the following benefits:
-
-* Increased transparency and risk reduction for customers - this capability helps customers understand which apps being used in their organizations are published by developers they trust.
-* Improved branding - a `verified` badge appears on the Azure Active Directory consent prompt, Enterprise Apps page, and other user interfaces used by end-users and admins.
-* Smoother enterprise adoption - admins can configure user consent policies, with publisher verification status as a primary policy criteria.
-
 ## App validation and testing
 
 We execute 400+ test cases for every app before it's made available on the Teams Store. The tests ensure appropriate functionality, user experience, and security, and ensure that all apps comply with the publicly listed CMO policies. Following are some of the tests carried out by Microsoft App Validation team for every app before it's published:
 
 * Ensure that Graph permissions requested by the app are really the ones that the app functionality needs and not any extra permissions. Graph permissions for existing apps are regularly checked to ensure no extra permissions are required by an app.
-* Apps that require users to log/sign in must have a log/sign out option.
+* Apps that require users to sign in have a sign out option.
 * All app publishers undergo a detailed verification process on Microsoft Partner Center. The verification includes email verification, business verification and more. To know more about app publishing, see [How developers create a Partner Center account](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/create-partner-center-dev-account), [Submission guide for developers](/office/dev/store/add-in-submission-guide), and [How developers publish apps](https://aka.ms/PublishToTeamsStore).
 * Only apps from verified publishers can seek Graph permissions from end users.
 * No app can download an executable file.
@@ -55,6 +47,14 @@ We execute 400+ test cases for every app before it's made available on the Teams
 * The contact details of the ISV are available in the store listing and on their respective [Publisher attestation pages](/microsoft-365-app-certification/teams/teams-apps).
 
 In addition, Microsoft encourages the app developers to participate in its compliance program that is a rigorous, two-tier approach to ensure app quality, security, and compliance. Teams store has hundreds of apps that go beyond fulfilling the already detailed validation guidelines and comply with these programs.
+
+## Publisher verification
+
+Before an app developer can submit their app to Microsoft, the developer is required to undergo a verification. A publisher verifies their identity using their Microsoft Partner Network (MPN) account and associate this MPN account with their app registration. Publisher verification helps admins and end users understand the authenticity of application developers who integrate with the Microsoft identity platform. Publisher verification provides the following benefits:
+
+* Increased transparency and risk reduction for customers - this capability helps customers understand which apps being used in their organizations are published by developers they trust.
+* Improved branding - a `verified` badge appears on the Azure Active Directory consent prompt, Enterprise Apps page, and other user interfaces used by end-users and admins.
+* Smoother enterprise adoption - admins can configure user consent policies, with publisher verification status as a primary policy criteria.
 
 ## See also
 
