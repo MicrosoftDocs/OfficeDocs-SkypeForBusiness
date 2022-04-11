@@ -28,7 +28,7 @@ In the Description field, as best as possible, describe the issue that you need 
 
 <!--![screenshot of the incident report rooms affected](../media/customer-reported-incidents-002.png)-->
 
-Customer-reported incidents (CRIs) are considered Critical tickets which means that the MTRP Service Operations Center triage these tickets first.  (See the Service Description SLA for Customer-reported incidents [here](microsoft-teams-rooms-premium.md) When a room(s) is (are) selected as part of the CRI, each room will be marked as Unhealthy, until the CRI is closed.
+Customer-reported incidents (CRIs) are considered Critical tickets which means that the MTRP Service Operations Center triage these tickets first.  (See the Service Description SLA for Customer-reported incidents [here](microsoft-teams-rooms-premium.md) When a room or rooms are selected as part of the CRI, each room will be marked as Unhealthy, until the CRI is closed.
 
 ## Closing Customer-reported incident tickets
 
