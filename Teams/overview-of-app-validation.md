@@ -56,8 +56,6 @@ We execute 400+ test cases for every app before it's made available on the Teams
 
 In addition, Microsoft encourages the app developers to participate in its compliance program that is a rigorous, two-tier approach to ensure app quality, security, and compliance. Teams store has hundreds of apps that go beyond fulfilling the already detailed validation guidelines and comply with these programs.
 
-<!--- TBD: add links to the cert article once it is published.
 ## See also
 
-* [Microsoft 365 app compliance program](overview-of-app-certification.md)
---->
+* [Overview for admins of Microsoft 365 app compliance program](overview-of-app-certification.md)
