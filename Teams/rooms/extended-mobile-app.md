@@ -37,7 +37,7 @@ The mobile client offers both reporting and managing incidents within your organ
   - Capability to add an attachment (take and upload pictures) 
   - Report on an incident (Creating a ticket)
 
-### Loading Screen
+### Loading screen
 
 ![MTMS mobile application loading screen](../media/extended-mobile-app-001.png)  
 
@@ -50,22 +50,22 @@ The mobile client offers both reporting and managing incidents within your organ
 ![MTMS mobile application INcidents page screen](../media/extended-mobile-app-003.png)
 
 
-### Incidents Loading
+### Incidents loading
 
 ![MTMS mobile application incidents loading screen](../media/extended-mobile-app-004.png)
 
-### Ticket Details
+### Ticket details
 
 ![MTMS mobile application ticket details screen](../media/extended-mobile-app-005.png)
 
-### Ticket Messages
+### Ticket messages
 
 ![MTMS mobile application ticket messages loading screen](../media/extended-mobile-app-006.png)
-### Ticket Attachments
+### Ticket attachments
 
 ![MTMS mobile application ticket attachments](../media/extended-mobile-app-007.png)
 
-### Unexpected Error
+### Unexpected error
 
 ![MTMS mobile application general unexpected error](../media/extended-mobile-app-008.png)
 
@@ -73,12 +73,12 @@ The mobile client offers both reporting and managing incidents within your organ
 
 ![MTMS mobile application contact admin screen](../media/extended-mobile-app-009.png)
 
-### No Active Incidents
+### No active incidents
 ![MTMS mobile application no active tickets](../media/extended-mobile-app-010.png)
 ### User menu
 
 ![MTMS mobile application loading screen](../media/extended-mobile-app-011.png)
 
-### Report Incident
+### Report an incident
 
 ![MTMS mobile application report incident](../media/extended-mobile-app-012.png)
