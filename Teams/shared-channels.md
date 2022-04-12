@@ -30,6 +30,8 @@ Only members of shared channels can see and participate in shared channels that 
 
 When a shared channel is created, it's linked to the parent team and can't be moved to a different team. Additionally, shared channels can't be converted to standard channels and vice versa.
 
+[Compare shared channels with other types of channels](/microsoftteams/teams-channels-overview#channel-feature-comparison).
+
 ## Best practices for the shared channels preview
 
 Shared channels is in preview and requires that you have configured [Microsoft Teams Public Preview](/MicrosoftTeams/public-preview-doc-updates). If you plan to share channels with other organizations, they must also have configured Teams public preview.
