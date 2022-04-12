@@ -46,12 +46,6 @@ Here's a list of Teams add-on licenses and their capabilities that you can add t
 
 All Microsoft 365 plans allow Teams users to make peer-to-peer calls within your organization using VoIP technology. However, you may want to add on different licenses for capabilities like making calls to PSTN numbers or setting up a PBX.
 
-### Audio conferencing
-
-You can add **Audio Conferencing** licenses for free to all Microsoft 365 subscriptions.
-
-Microsoft 365 E5/A5/G5 plans include Audio Conferencing licenses, so you won't need to purchase extra Audio Conferencing licenses with these plans.
-
 ### Voice and PSTN connectivity
 
 Whether you're a small business, enterprise organization, educational institution, government agency, or nonprofit, you have three ways to get Teams Phone System and PSTN connectivity:
