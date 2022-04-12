@@ -24,15 +24,15 @@ appliesto:
 
 **What is the change?**
 
-We are introducing a default 60-day expiration setting for *all* newly created Teams meeting recordings (TMRs). This is on by default for all tenants and you must turn it off if you do not want this feature. The OneDrive and SharePoint system will monitor the expiration date set on all TMRs and will automatically move TMRs to the recycle bin on their expiration date.
+We are introducing a default 120-day expiration setting for *all* newly created Teams meeting recordings (TMRs). This is on by default for all tenants and you must turn it off if you do not want this feature. The OneDrive and SharePoint system will monitor the expiration date set on all TMRs and will automatically move TMRs to the recycle bin on their expiration date.
 
 **Why are we introducing this change?**
 
-We've answered your requests for the meeting recording expiration feature. This is a lightweight housekeeping mechanism to reduce storage clutter created from cold TMR. On average, 99% of TMRs are never rewatched after 60 days.
+We've answered your requests for the meeting recording expiration feature. This is a lightweight housekeeping mechanism to reduce storage clutter created from cold TMR. On average, 99% of TMRs are never rewatched after 120 days.
 
 **Why is this being turned on by default?**
 
-We believe nearly all customers will benefit from the reduced storage load on their tenant by removing recordings that will likely never be rewatched after 60 days. It's our goal to provide as clean an experience as possible for all customers by default.
+We believe nearly all customers will benefit from the reduced storage load on their tenant by removing recordings that will likely never be rewatched after 120 days. It's our goal to provide as clean an experience as possible for all customers by default.
 
 **How is the expiration date calculated?**
 
@@ -80,7 +80,7 @@ On the expiration date, the recording is moved into the recycle bin and the expi
 
 - All SKUs will have this feature by default.
 
-- All users will be defaulted to a 30-day expiration period and won't be able to modify the expiration date.
+- A1 users will be defaulted to a 30-day expiration period and won't be able to modify the expiration date.
 
 **Is the file expiration an audited event and will I be able to see it in my audit logs?**
 
@@ -95,3 +95,7 @@ This feature is solely meant as a lightweight housekeeping mechanism to reduce s
 **When will the file be deleted?**
 
 The file will be deleted within five days of the expiration date, though this isn't a strict guarantee.
+
+**The default expiration is 120 days but when I checked Teams Admin center it is set to 60 days, why??**
+
+The way the Teams policies work is if any policy in the center is set by the admin, a cached snapshot is taken of all settings. If the admin set any attribute on the policy when we temporarily had a 60-day default, they will need to change it manually to 120 days. If they didn't have a custom setting before we set the 120, then they get the 120.
