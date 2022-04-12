@@ -25,7 +25,7 @@ description: Learn about the Auto attendant and call queue dialing and voice rec
 ---
 # Auto attendant and call queue dialing and voice recognition reference
 
-Dial by Name or Extension is an auto attendant feature that enables callers to reach Teams users in your organization. Using their voice or phone keypad callers can say or enter the full or partial name, or extension of the person they would like to reach. The auto attendant will search the company directory, locate the person, and then transfer the caller to them.  Dial by Name or Dial by Extension are options you set up when you [configure the call flow settings in an auto attendant](create-a-phone-system-auto-attendant.md#call-flow).
+Dial by Name or Extension is an auto attendant feature that enables callers to reach Teams users in your organization. Using their voice or phone keypad callers can say or enter the full or partial name, or extension of the person they would like to reach. The auto attendant will search the company directory, locate the person, and then transfer the caller to them.  Dial by Name or Dial by Extension are options you set up when you [configure the call flow settings in an auto attendant](create-a-phone-system-auto-attendant.md#tab/call-flow).
 
 
 ## Searching for users
@@ -46,7 +46,7 @@ There is no limit on the number of Active Directory users Dial by Name and Dial 
 |Speech (voice input) |FirstName  <br/> LastName  <br/> FirstName + LastName  <br/> LastName + FirstName  | 80,000 users |
 
 > [!NOTE]
-> If you are using Dial by Name with speech recognition, but your organization's Active Directory is larger than 80,000 users and you haven't limited the scope of Dial by Name using [Dial Scope](create-a-phone-system-auto-attendant.md#dial-scope) feature, Dial by Name will still work for your callers using a phone keypad, and voice inputs will be available for all other scenarios. You can use the Dial Scope feature to narrow down the names that are reachable by changing the scope of Dial by Name for a particular auto attendant.
+> If you are using Dial by Name with speech recognition, but your organization's Active Directory is larger than 80,000 users and you haven't limited the scope of Dial by Name using [Dial Scope](create-a-phone-system-auto-attendant.md#tab/dial-scope) feature, Dial by Name will still work for your callers using a phone keypad, and voice inputs will be available for all other scenarios. You can use the Dial Scope feature to narrow down the names that are reachable by changing the scope of Dial by Name for a particular auto attendant.
  
 ### Search Considerations 
 Dial by Name searches the entire organization's directory first before applying any Dial Scope Include or Exclude lists that have been configured. If the initial search against the entire directory returns more than 100 users, the Dial Scope lists will not be applied, the search will fail, and the caller will be told that too many names were found.

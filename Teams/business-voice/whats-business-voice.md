@@ -26,43 +26,36 @@ ms.custom:
 
 The Microsoft Teams Phone System with Calling Plan bundle is Microsoft’s all-in-the-cloud solution that makes it easy for organizations to turn Teams into a powerful and flexible telephone system. The Phone System with Calling Plan bundle provides Private Branch Exchange (PBX) capabilities and calls to the Public Switched Telephone Network (PSTN).
 
-Teams Phone System with Calling Plan bundle allows your business to have:
+The Teams Phone System with Calling Plan bundle allows your business to have:
 
-- Both toll and toll-free numbers
-- Call menus to help callers get to the right department
-- Call queues for high-traffic phone numbers
-- Users with their own phone numbers so they can receive calls directly
+- Toll and toll-free numbers.
+- Auto attendants to help callers get to the right department.
+- Call queues for high-traffic phone numbers.
+- Users with their own phone numbers so they can receive calls.
 
-This article provides guidance to small and medium businesses on getting started with the Teams Phone System with Calling Plan bundle.
+This article will help you get started with the Teams Phone System with Calling Plan bundle.
 
-## Guidance articles for small and medium businesses
+## Which articles should I read?
 
 These articles will help your business plan, set up, and manage the Phone System with Calling Plan bundle.
 
 | Article | Description |
 |---------|-------------|
-| [Check country and region availability](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) | See if Phone System and Calling Plans are available in your country and region |
-| [Check your internet connection](../business-voice/get-ready-internet.md) | Determine if your internet connection is sufficient for the Phone System with Calling Plan bundle |
-| [Get help from a reseller or partner](../business-voice/reseller-partner-support.md) | See how a Microsoft reseller or partner can help you find the right voice solution if the Phone System with Calling Plan bundle is not available in your region |
-| [Set up the Phone System with Calling Plan bundle](../business-voice/set-up-overview.md) | Follow this step-by-step guide for a basic set up of Phone System with Calling Plan |
-| [Customize your Phone System with Calling Plan setup](../business-voice/customize-business-voice.md) | Learn how to customize the Phone System with Calling Plan bundle for your unique needs |
-| [Manage your Phone System setup](../business-voice/create-users.md) | Learn how to manage Phone System with Calling Plan bundle users, devices, and call quality |
-| [Partner resources](https://cloudpartners.transform.microsoft.com/products/m365-business-voice-partner-playbook) | For Microsoft 365 partners, see how you can build a strong managed-services practice for the Phone System with Calling Plan bundle |
+| [Check country and region availability](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) | See if Phone System and Calling Plans are available in your country and region. If they're not available, [get help from a reseller or partner](../business-voice/reseller-partner-support.md) to find the right voice solution. |
+| [Check your internet connection](../business-voice/get-ready-internet.md) | Determine if your internet connection is sufficient for the Phone System with Calling Plan bundle. |
+| [Set up the Phone System with Calling Plan bundle](../business-voice/set-up-overview.md) | Follow this step-by-step guide for a basic set up of Phone System with Calling Plan. |
+| [Customize your Phone System with Calling Plan setup](../business-voice/customize-business-voice.md) | Learn how to customize the Phone System with Calling Plan bundle for your unique needs. |
+| [Manage your Phone System setup](../business-voice/create-users.md) | Learn how to manage Phone System with Calling Plan bundle users, devices, and call quality. |
 
 ## Who in my organization needs to be assigned Teams Phone with Calling Plan bundle licenses?
 
-To get Phone System with Calling Plan bundled capabilities, users need to be assigned Teams Phone with Calling Plan bundle licenses.
+You need to assign Teams Phone with Calling Plan bundle license to any user who needs to make or receive phone calls to external phone numbers.
 
-Teams Phone with Calling Plan bundle licenses include:
-
-- **Teams Phone System** for PBX capabilities like call queues, auto attendants, and call menus.
-- A **Microsoft Domestic Calling Plan** that lets users call and receive calls from phone numbers in their country or region.
-
-Users who don't need to make or receive phone calls to or from external phone numbers just need Teams.
+Users who don't need to make or receive phone calls to or from external phone numbers just need a Teams license.
 
 For example, you might have ten factory employees and five office employees. The factory employees may only need to call other employees within your company. In addition to calling other employees, office workers need to make and receive phone calls to and from suppliers, partners, and customers. In this case, only the five office workers need Teams Phone with Calling Plan bundle licenses.
 
-## Purchase Teams Phone with Calling Plan bundle licenses
+## How do I purchase Teams Phone with Calling Plan bundle licenses?
 
 To buy **Teams Phone with Calling Plan** bundle licenses:
 
@@ -75,13 +68,12 @@ To buy **Teams Phone with Calling Plan** bundle licenses:
 
 After you've purchased Teams Phone with Calling Plan bundle licenses, read [Set up Phone System with Calling Plan](../business-voice/set-up-overview.md).
 
-## Complex PSTN calling setups
+## What if my calling setup is more complex?
+
+Perhaps your business has multiple locations, but Teams Phone isn't available in one of those locations. Or, maybe your business wants to manage its own calling hardware.
 
 If your business requires a more complex PSTN calling setup, see these articles.
 
 - Learn about all your Microsoft voice solutions by reading [Plan your Teams voice solution](../cloud-voice-landing-page.md).
 - To view all your PSTN connectivity options, see [PSTN connectivity options](../pstn-connectivity.md).
 - For more information about subscriptions and licensing, see [Microsoft Teams add-on licenses](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
-
->[!IMPORTANT]
-> Microsoft Teams and Phone System only work when your users' mailboxes are located in Microsoft 365 (excluding Microsoft 365 Teams Essentials subscribers). They don't support mailboxes located on on-premises Exchange Server.
