@@ -26,33 +26,33 @@ f1keywords: Microsoft Teams Rooms Managed Service Data and Privacy Information
 
 # Data collection and privacy
 
-The Microsoft Teams Rooms managed services monitor devices, collect telemetry data, and remotely access and manage the devices as an administrator. Data that is collected is limited to information required to monitor the health, root cause, and mitigate issues identified in the enrolled rooms. Telemetry data collected is specific to a room account, not to individual users.
+ Microsoft Teams Rooms Managed Services monitors devices, collects telemetry data, and remotely accesses and manages the devices as an administrator. Data that is collected is limited to information required to monitor the health, root cause, and mitigating issues identified in the enrolled rooms. Telemetry data collected is specific to a room account, not to individual users.
 
 > [!Note]
 > Incidental references to an individual user may be present in the activity log during use of the device.
 
 ## Who can access data
 
-Managed services take strong measures to help protect customer data from inappropriate access or use by unauthorized persons. This includes restricting access by Microsoft personnel and subcontractors.
+Managed Services takes strong measures to help protect customer data from inappropriate access or use by unauthorized persons. This includes restricting access by Microsoft personnel and subcontractors.
 
 ## Zero Standing Access data storage
 
-Managed services mitigate risks associated with accounts with privileged access from malicious actors---both inside and outside an organization---through the principle of Zero Standing Access. This enables the Managed ervices to operate without any privileges available to any user by default. Combined with the principles of Just-In-Time and Just-Enough-Access, it provides a robust framework to be secure and compliant by default. Diagnostic data is available to our service operations team via an internal portal.
+Managed Services mitigates risks associated with accounts with privileged access from malicious actors---both inside and outside an organization---through the principle of Zero Standing Access. This enables Managed Services to operate without any privileges available to any user by default. Combined with the principles of Just-In-Time and Just-Enough-Access, it provides a robust framework to be secure and compliant by default. Diagnostic data is available to the Microsoft service operations team via an internal portal.
 
-## Data Handling
+## Data handling
 
-Microsoft is governed by strict standards for data transmission, storage, use and retention. Microsoft has Data Handling Standard policies that how data should be handled based on data classification.
+Microsoft is governed by strict standards for data transmission, storage, use, and retention. Microsoft has data handling standard policies that regulate how data should be handled based on data classification.
 
-Microsoft extends General Data Protection Regulation (GDPR) data protection rights to all customers worldwide, not just in Europe.
+Microsoft extends General Data Protection Regulation (GDPR) rights to customers worldwide.
 
-## Data Classification
+## Data classification
 
 The data classification can be used to adhere to security, compliance, and privacy requirements and processes for collecting, storing, and using user personal information.
 
 
 |Classification|Description|Example|
 | :- | :- | :- |
-|Customer content|Content directly provided/created by admins and users. |Customer generated BLOB or structured storage data</p><p>Customer-owned/provided secrets (passwords, certificates, encryption keys, storage keys) |
+|Customer content|Content directly provided/created by admins and users. |Customer-generated BLOB or structured storage data</p><p>Customer-owned/provided secrets (passwords, certificates, encryption keys, storage keys) |
 |End-user identifiable information (EUII)|Data that identifies or could be used to identify the user of a Microsoft service. EUII does not contain customer content. |User name or display name (DOMAIN\UserName)</p><p>User principal name (name@company.com)</p><p>User-specific IP address |
 |Account Data|Customer billing information and payment instrument information, including administrator contact information, such as tenant administrator’s name, address, or phone number. |Tenant administrator contact information (for example, tenant administrator’s name, address, e-mail address, phone number)<p><p>Customer’s provisioning information |
 |End User Pseudonymous Identifiers (EUPI) |An identifier created by Microsoft tied to the user of a Microsoft service. When EUPI is combined with other information, such as a mapping table, it identifies the end user. EUPI does not contain information uploaded or created by the customer</p><p>(Customer content or EUII)  | User GUIDs, PUIDs, or SIDsSession IDs |
@@ -61,7 +61,7 @@ The data classification can be used to adhere to security, compliance, and priva
 
 ## Technology description
 
-Managed Services will send data to Microsoft for the purposes of monitoring, diagnosing, and mitigating any issues in the deployment. Examples include
+Managed Services sends data to Microsoft for the purposes of monitoring, diagnosing, and mitigating any issues in the deployment. Examples include
 
 1. Ensuring the device is up to date (including the app, OS, drivers, F/W)
 1. Ensuring the device is ready to use (signed in, all peripherals reporting healthy state, etc.)
