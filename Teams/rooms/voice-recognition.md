@@ -37,7 +37,7 @@ The following items are Intelligent Speaker requirements:
 - The meeting room has an upload link of minimum 7 Mbps.
 
 > [!NOTE]
-> Intelligent Speaker is available in all countries and regions. See [Supported locales](#supported-locales) for a list of the locales currently supported for biometric enrollment and in-meeting transcription.
+> Intelligent Speaker is available in all countries and regions except India, which is not yet supported. See [Supported locales](#supported-locales) for a list of the locales currently supported for biometric enrollment and in-meeting transcription.
 
 ## Set up an Intelligent Speaker
 
