@@ -35,6 +35,8 @@ A lock icon indicates a private channel. Only members of private channels can se
 
 When a private channel is created, it's linked to the parent team and can't be moved to a different team. Additionally, private channels can't be converted to standard channels and vice versa.
 
+[Compare private channels with other types of channels](/microsoftteams/teams-channels-overview#channel-feature-comparison).
+
 ![Screenshot of private channels in a team.](media/private-channels-in-teams.png)
 
 ## Private channel creation
