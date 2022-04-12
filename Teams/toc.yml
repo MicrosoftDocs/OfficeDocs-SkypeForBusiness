@@ -1435,13 +1435,10 @@ items:
           href: rooms/health-and-usage-reports.md
         - name: Standards and Rooms Planner 
           href: rooms/standards-and-room-planner.md
-<<<<<<< HEAD
         
-=======
         - name: Customer-reported incidents 
           href: rooms/customer-reported-incidents.md
 
->>>>>>> main
     - name: Devices
       items:
         - name: Teams device store
