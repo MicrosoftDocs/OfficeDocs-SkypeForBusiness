@@ -1435,6 +1435,8 @@ items:
           href: rooms/standards-and-room-planner.md
         - name: Customer-reported incidents 
           href: rooms/customer-reported-incidents.md
+        - name: Data and privacy information
+          href: rooms/data-and-privacy-info.md
 
     - name: Devices
       items:
