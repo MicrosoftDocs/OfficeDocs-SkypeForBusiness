@@ -18,6 +18,8 @@ If you want to have your auto attendant route calls differently on holidays, the
 
 # [Step 1 - Phone number](#tab/phone-number)
 
+## Assign a phone number
+
 Each auto attendant that you create requires a resource account. This is similar to a user account, except the account is associated with an auto attendant or call queue instead of a person. In this step, we'll create the account, assign it a *Microsoft Teams Phone Standard - Virtual User* license, and then assign a service number.
 
 ### Create a resource account
@@ -61,6 +63,8 @@ If you need this auto attendant to be reachable by a phone number, then assign t
 
 # [Step 2 - Attendant general info](#tab/general-info)
 
+## Prepare auto attendants
+
 To set up an auto attendant
 
 1. In the Teams admin center, expand **Voice**, select **Auto attendants**, and then select **Add**.
@@ -81,6 +85,8 @@ To set up an auto attendant
 > [Step 3 - Call flow >](?tabs=call-flow#steps)
 
 # [Step 3 - Call flow](#tab/call-flow)
+
+## Set up call flows
 
 Choose your call flow options:
 
@@ -164,6 +170,8 @@ Choose your call flow options:
 
 # [Step 4 - After hours](#tab/after-hours)
 
+## After hours call flow
+
 Business hours can be set for each auto attendant. If business hours aren't set, all days and all hours in the day are considered business hours because a 24/7 schedule is set by default. Business hours can be set with breaks in time during the day, and all of the hours that are not set as business hours are considered after-hours. You can set different incoming call-handling options and greetings for after-hours.
 
 Depending on how you have configured your auto attendants and call queues, you may only need to specify after-hours call routing for auto attendants with direct phone numbers.
@@ -178,6 +186,8 @@ Select **Next** when you're done.
 > [Step 5 - Holiday call flow >](?tabs=holidays#steps)
 
 # [Step 5 - Holidays](#tab/holidays)
+
+## Holidays call flow
 
 Your auto attendant can have a call flow for each [Holiday you've set up](../set-up-holidays-in-teams.md). You can add up to 20 scheduled holidays to each auto attendant.
 
@@ -204,6 +214,8 @@ Your auto attendant can have a call flow for each [Holiday you've set up](../set
 
 # [Step 6 - Directory members](#tab/dial-scope)
 
+## Define dial scope
+
 The *dial scope* defines which users are available in the directory when a caller uses dial-by-name or dial-by-extension. The default of **All online users** includes all users in your organization that are Online users with a Teams Phone license.
 
 You can include or exclude specific users by selecting **Custom user group** under **Include** or **Exclude** and choosing one or more Microsoft 365 groups, distribution lists, or security groups. For example, you might want to exclude executives in your organization from the dialing directory. (If a user is in both lists, they will be excluded from the directory.)
@@ -217,6 +229,8 @@ When you're done setting the dial scope, select **Next**.
 > [Step 7 - Assign a resource account >](?tabs=resource-accounts#steps)
 
 # [Step 7 - Resource accounts](#tab/resource-accounts)
+
+## Assign resource accounts
 
 All auto attendants must have an associated resource account.  First level auto attendants will need at least one resource account that has an associated service number. If you wish, you can assign several resource accounts to an auto attendant, each with a separate service number.
 
