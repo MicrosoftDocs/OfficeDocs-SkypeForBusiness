@@ -74,7 +74,7 @@ Administrators can quickly check for Microsoft 365 certified apps in the followi
 
    :::image type="content" source="media/attested-app-tac2.png" alt-text="In Teams admin center, on the dialog to grant permissions, admins can check the blue checkmark to be assured that the app is Microsoft 365 certified.":::
 
-## Know security, compliance, and privacy details of third-party apps
+## Know details of third-party apps
 
 As an admin, you can view information related to security, compliance, privacy, and more about any third-party apps.
 
