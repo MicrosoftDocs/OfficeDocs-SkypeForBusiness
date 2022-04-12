@@ -21,9 +21,9 @@ f1keywords: Microsoft Teams Rooms Managed Service mobile app extension
 ---
 # Teams Rooms mobile client application features
 
-The mobile client offers both reporting and managing incidents within your organization.
+The mobile client offers both reporting and managing incidents capabilities within your organization.
 
-## Incident functionality
+## Reporting incidents
 
 - Receive push notifications for new incidents.
 - Tap the notification to open and view incident details immediately.
@@ -31,7 +31,7 @@ The mobile client offers both reporting and managing incidents within your organ
 - View the basic incident details with ticket information, including messages.
 - View ticket attachments and files.
 - Sign out from a user panel (notifications/messages are disabled if signed out).
-## Ticket functionality
+## Managing tickets
 
 - Acknowledge incident (mark as read).
 - Read, post, and reply to messages on a ticket.
