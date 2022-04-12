@@ -95,6 +95,8 @@ items:
               href: get-clients.md
             - name: Teams client updates
               href: teams-client-update.md
+            - name: Using the Teams Rooms mobile application
+              href: rooms/extended-mobile-app.md
             - name: Bulk install Teams using Windows Installer
               href: msi-deployment.md
             - name: Teams for Virtualized Desktop Infrastructure (VDI)
@@ -1431,8 +1433,7 @@ items:
           href: rooms/multi-tenant-auditing.md
         - name: Standards and Rooms Planner 
           href: rooms/standards-and-room-planner.md
-        - name: Using the Teams Rooms mobile application
-          href: rooms/extended-mobile-app.md
+        
     - name: Devices
       items:
         - name: Teams device store
