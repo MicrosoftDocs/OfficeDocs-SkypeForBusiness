@@ -74,5 +74,5 @@ After you do that, you can delete the resource account in the Microsoft 365 admi
 To disassociate a direct routing telephone number from the resource account, use the following cmdlet:
 
 ```powershell
-Remove-CsPhoneNumberAssignment -Identity  <Resource Account oid> -PhoneNumber <assigned phone number> -PhoneNumberType DirectRouting
+Remove-CsPhoneNumberAssignment -Identity <Resource Account Object ID> -PhoneNumber <assigned phone number> -PhoneNumberType DirectRouting
 ```
