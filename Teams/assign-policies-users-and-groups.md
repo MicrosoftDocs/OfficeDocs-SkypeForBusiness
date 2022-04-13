@@ -351,7 +351,7 @@ Bulk policy unassignment lets you unassign custom policies that were assigned to
 2. In the top right corner of the page, select **Bulk policy unassignment** from the **Actions** drop-down menu.
 
     > [!NOTE]
-    > You can also edit policy assignments on the individual policy pages by choosing a policy and selecting **Manage users**.
+    > You can also unassign policies from the individual policy pages by choosing a policy and selecting **Manage users**.
 
 3. Select a policy type.
 4. Choose the policy that you want to reassign and select **Get** to get the number of users who are currently assigned to that policy.
