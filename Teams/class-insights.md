@@ -142,7 +142,7 @@ Currently, data is collected from the following areas in class teams:
 > Data collected in Education Insights is kept until either the IT Admin turns off the [Education Analytics toggle](#turn-sds-for-insights-on-or-off) or the Office subscription for the tenant ends. Turning off specific features in Teams does not delete historic data.
 
 ### Privacy and security
-The information collected and shown through Insights meets [more than 90 regulatory and industry standards](/compliance/regulatory/offering-home), including [GDPR](/compliance/regulatory/gdpr) and the Family [Education Rights and Privacy Act (FERPA)](/compliance/regulatory/offering-ferpa) for students and children's security and other, similar, privacy-oriented regulations.
+Education Insights meets [national, regional, and industry-specific regulations](/compliance/regulatory/offering-home) for data collection and use, including [GDPR](/compliance/regulatory/gdpr) and the [Family Educational Rights and Privacy Act (FERPA)](/compliance/regulatory/offering-ferpa) that protects the privacy of students' education records.
 
 The data belongs to the institution, and Microsoft only collects the data and stores it. Microsoft personnel cannot access the data or see it, except as allowed by compliance in an audited way to maintain the service, such as data recovery.
 
