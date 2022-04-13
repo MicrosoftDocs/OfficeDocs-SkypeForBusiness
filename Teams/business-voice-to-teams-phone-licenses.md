@@ -28,16 +28,16 @@ By May 2022, Business Voice will be retired, so we [recommend businesses switch 
 
 Business Voice bundled Teams Phone System for Private Branch Exchange (PBX) features, Audio Conferencing, and an optional Microsoft 365 Calling Plan for calls to the Public Switched Telephone Network (PSTN).
 
-This article is for IT admins who need to change their Business Voice licenses to Microsoft Teams Phone licenses while maintaining the same capabilities.
+This article is for IT admins who need to change their Business Voice licenses to Microsoft Teams Phone and Audio Conferencing licenses while maintaining the same capabilities.
 
 ## Acquire new licenses
 
-Before replacing Business Voice licenses, you first need to purchase replacement licenses.
+Before replacing Business Voice licenses, you first need to purchase replacement licenses for your users.
 
 You'll need licenses to provide these features:
 
 - Audio conferencing
-- Public Branch Exchange
+- Private Branch Exchange
 - PSTN connectivity
 
 Use the following table to determine which licenses to purchase based on your needs:
@@ -45,7 +45,7 @@ Use the following table to determine which licenses to purchase based on your ne
 | Old license plan | Recommended license plan | Description |
 | ---------------- | ------------------------ | ----------- |
 | Business Voice with Calling Plan | Teams Phone with Calling Plan | Provides cloud-based PBX capabilities and a Domestic Calling Plan with Microsoft as your PSTN provider. |
-| Business Voice without Calling Plan | Teams Phone Standard | Provides cloud-based PBX capabilities that can be combined with a calling plan through a third-party PSTN provider or Direct Routing |
+| Business Voice without Calling Plan | Teams Phone Standard | Provides cloud-based PBX capabilities that can be combined with a [calling plan through a third-party PSTN provider or Direct Routing](pstn-connectivity.md) |
 | Business Voice (any version) | Microsoft Audio Conferencing | Provides users the ability to call in to Teams meetings from their phones.
 | Business Voice (any version) | Microsoft Team Audio Conferencing select dial-out | Provides dial-in and dial-out capabilities to meeting attendees organized by a licensed user |
 
@@ -85,7 +85,7 @@ To update multiple users' licenses in bulk, you can use the Microsoft 365 admin 
 1. Select **Manage product licenses** on the list toolbar.
 1. 1. At the **What would you like to do with the licenses for these users?** prompt, select the **Replace: Unassign existing licenses and assign new ones** option.
     > [!IMPORTANT]
-    > The **Replace** option will remove all existing licenses for the selected users.  As a result, you’ll have to select the desired licensing state for the user, including any other licenses in use, like Microsoft 365 Business Premium.
+    > The **Replace** option will remove all existing licenses for the selected users.  As a result, you’ll have to select the desired licensing state for users, including any other licenses in use, like Microsoft 365 Business Premium.
     >
     > Also, if the selected users have different base license configurations, they will be overwritten with your selected licenses, which may affect other areas of Microsoft 365.
     >
@@ -106,18 +106,17 @@ Replacing the Business Voice license plan using a PowerShell script is an effici
 To use this method, you'll follow these general steps:
 
 1. Get the tenant-specific license plan identifiers of your current Business Voice licenses.
-1. Get the tenant-specific identifiers of your new Teams Phone and Audio-Conferencing license plans.
+1. Get the tenant-specific identifiers of your new Teams Phone and Audio Conferencing license plans.
 1. Validate if the new license plans have the same service plans as with the current Business Voice.
-    1. If not, stop the script to avoid service impact.
-1. Find tenant users who are licensed for Business Voice (or modify the script to include a filter to select a subset of the users).
-1. Loop through the users and update their license configuration with Teams Phone and Audio Conferencing plans.
+1. Find tenant users who are licensed for Business Voice, or modify the script to include a filter to select a subset of users.
+1. Update users' license configuration with Teams Phone and Audio Conferencing plans.
 
 > [!IMPORTANT]
 > The script provided is a code sample. The script shouldn't be copied as-is and run in a production tenant without testing, validation, and customization for your specific environment.
 
 ### How to bulk update licenses using PowerShell
 
-1. Install and import the AzureAD module.
+1. Install and import the AzureAD PowerShell module.
 
     ```powershell
     Install-Module AzureAD
@@ -149,16 +148,17 @@ To use this method, you'll follow these general steps:
     > [!NOTE]
     > The script provided in this document assumes a single SKU Code for your tenant.  
     >
-    > If you have multiple Business Voice SKUs, you'll need to adjust the script or run it twice, one time for each source part number.
+    > If you have multiple Business Voice SKUs, you'll need to adjust the script or run it multiple times, one time for each SKU Code.
 
-1. Create a PowerShell variable named `$skuSourceBV` and store the unique Business Voice identifier for your object.
-    1. Make sure you replace the SkuPartNumber label with your tenant's Business Voice SKU Code.
+1. Create a PowerShell variable named `$skuSourceBV`.
+    1. Make sure to replace the `SkuPartNumber` label with your tenant's Business Voice SKU Code.
+    1. In this example, we're using the `BUSINESS_VOICE_MED2_TELCO` SKU Code.
 
     ```powershell
     $skuSourceBV = Get-AzureADSubscribedSku  | where {$_.SkuPartNumber -eq "BUSINESS_VOICE_MED2_TELCO"}
     ```
 
-1. Use the following table to identify the new Teams Phone and Audio-Conferencing license plans.
+1. Use the following table to identify your new Teams Phone and Audio Conferencing license SKU Codes.
 
     | SKU Code | License type |
     | -------- | ------------ |
@@ -167,8 +167,9 @@ To use this method, you'll follow these general steps:
     | MCOMEETADV | Audio Conferencing |
     | Microsoft_Teams_Audio_Conferencing_select_dial_out | Microsoft Teams Audio Conferencing Select Dial-Out |
 
-1. Create PowerShell variables to store the unique Teams Phone and Audio-Conferencing identifiers for your object.
-    1. Make sure you replace the SkuPartNumber label with the ones you want available in your tenant.
+1. Create PowerShell variables to store the unique Teams Phone and Audio Conferencing SKU Codes.
+    1. Make sure you replace the `SkuPartNumber` label with the SKU Codes you want available in your tenant.
+    1. In this example, we're using the `MCOTEAM_ESSENTIALS` and `MCOMEETADV` SKU Codes.
 
     ```powershell
     $skuTargetTPCP = Get-AzureADSubscribedSku | where {$_.SkuPartNumber -eq "MCOTEAMS_ESSENTIALS"}
@@ -183,8 +184,9 @@ To use this method, you'll follow these general steps:
     $servicePlan_CP = $skuSourceBV.ServicePlans | where {$_.ServicePlanName.ToString() -like "*PSTN*"}
     ```
 
-1. Before moving on, validate if the source SKU (Business Voice) and the target SKU’s (Teams Phone and Audio Conferencing) have the same Service Plans included. A mismatch can trigger a license change that could disrupt your organization's services.
-    1. Create variables to validate if all Service Plans in the source SKU will be replaced with the same target service plan.
+1. Before moving on, validate if the source SKU (Business Voice) and the target SKU’s (Teams Phone and Audio Conferencing) have the same Service Plans included.
+    1. A mismatch can trigger a license change that could disrupt your organization's services.
+    2. Create variables to validate if all Service Plans in the source SKU will be replaced with the same target service plan.
 
     ```powershell
     $validated_TP = $false
@@ -192,7 +194,7 @@ To use this method, you'll follow these general steps:
     $validated_CP = $false
     ```
 
-    1. If source Business Voice has no Calling Plan included, don't check for it.
+    1. If the source Business Voice license has no Calling Plan included, don't check for it.
 
     ```powershell
     if($skuSourceBV.ServicePlans.Count -eq 2) { $validated_CP = $true }
@@ -238,7 +240,7 @@ To use this method, you'll follow these general steps:
     Get-AzureAdUser | ForEach { $BVlicensed=$False ; For ($i=0; $i -le ($_.AssignedLicenses | Measure).Count ; $i++) { If($_.AssignedLicenses[$i].SkuId -eq $skuSourceBV.SkuId) { $BVlicensed=$true } } ; If( $BVlicensed -eq $true) { $usersLicensedOldSKU.Add($_)} }
     ```
 
-1. Now, using the new list of users, perform an update activity to remove the Business Voice licenses and add the Teams Phone and Audio-Conferencing licenses, using the ``$LicensesToUpdate`` object you created earlier.
+1. Now, using the new list of users, perform an update activity to remove the Business Voice licenses and add the Teams Phone and Audio Conferencing licenses, using the ``$LicensesToUpdate`` object you created earlier.
 
     ```powershell
     $usersLicensedOldSKU | ForEach { Set-AzureADUserLicense -ObjectId $_.ObjectId -AssignedLicenses $LicensesToUpdate; Write-Host "Completed Update of user " $_.UserPrincipalName;  }
@@ -251,11 +253,20 @@ To use this method, you'll follow these general steps:
 
 ## Option 4: Bulk user license update using Azure group-based licensing
 
-Azure group-based license management allows you to assign subscriptions and service plans to a group. Azure AD ensures that the licenses are assigned to all members of the group. Any new members who join the group are assigned the appropriate licenses. When they leave the group, those licenses are removed. This licensing management eliminates the need for automating license management via PowerShell to reflect changes in the organization and departmental structure on a per-user basis.  Note that you’ll have to validate [license requirements for group-based licensing](/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal).
+Azure group-based license management allows you to assign subscriptions and service plans to a group.
 
-To update your current group-based licensing assignment to make the change from Business Voice plans to Teams Phone with Calling Plan and Audio Conferencing select dial-out, we must make sure that the license updates are processed in a single step.
+This method ensures that:
 
-Therefore, our recommendation is that you get a list of existing groups that have Business Voice licenses assigned and replace the license plan assignment with the preferred new license plans.
+- Licenses are assigned to all members of the group.
+- Any new members who join the group are assigned the appropriate licenses.
+- When members are removed from the group, those licenses are removed too.
+
+Note that you’ll have to validate [license requirements for group-based licensing](/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal).
+
+> [!NOTE]
+> For this method, the license updates must be processed in a single step.
+>
+> We recommend that you compile a list of existing groups that have Business Voice licenses assigned and replace the license plan assignment with the preferred new license plans.
 
 ### How to bulk update licenses using group-based licensing
 
