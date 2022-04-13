@@ -374,10 +374,6 @@ items:
               href: guest-experience.md
             - name: Turn guest access on or off
               href: set-up-guests.md
-            - name: View guests in a team
-              href: view-guests.md
-            - name: Edit guest information
-              href: edit-guests-information.md
     - name: Monitor and manage call quality
       items: 
         - name: Monitor and improve call quality
