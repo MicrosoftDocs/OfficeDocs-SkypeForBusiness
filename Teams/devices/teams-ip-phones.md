@@ -40,6 +40,7 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
+| Yealink CP965    | `143.15.0.7 `          | September 3, 2025     | 11 |
 | AudioCodes C450HD                      | `C450HD_TEAMS_0.225`                                                  | April 22, 2022               | 7.1x |
 | AudioCodes C448HD(Cap Mode Only)       | `C450HD_TEAMS_0.225`                                                  | April 22, 2022               | 7.1x |
 | Crestron UC-P10/T/CT                   | `1.0.0.80`       | August 5, 2023            | 9 |
@@ -66,9 +67,9 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 
 | Device model | Firmware version | Current certification end date | Room size                                        |  Android OS version    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
-| Neat Bar | `NFB1.20220211.1158`     |September 3, 2024|    Small Meeting Room (4.5 m x 4.5 m) | 10 |
-| Neat Pad | `NFA1.20220211.1158 `    | August 5, 2023 |    Small Meeting Room (4.5 m x 4.5 m) | 9 |
-| Neat Board | `NFC1.20220211.1158 `  | September 3, 2024 |    Small Meeting Room (4.5 m x 4.5 m) | 10 |
+| Neat Bar | `NFB1.20220211.1400` |September 3, 2024|    Small Meeting Room (4.5 m x 4.5 m) | 10 |
+| Neat Pad touch console | `NFA1.20220211.1400`  | August 5, 2023 |  Compatible with Neat Bar only | 9 |
+| Neat Board | `NFC1.20220211.1400 ` | September 3, 2024 |    Small Meeting Room (4.5 m x 4.5 m) | 10 |
 | Logitech Roommate | `1.4.71` | September 3, 2024  | Large meeting room (4.5m x 8.5m)  |   10  |
 | EPOS EXPAND 80T | `1.2.2.21182.10` | August 5, 2023 | Bundled with the EPOS Vision 3T | 9 |
 | Logitech Tap Device     | `1.2.982`  |   September 3, 2024  | Compatible with Logitech Rally Bar and Rally Bar Mini | 10 |
@@ -97,6 +98,7 @@ The following devices are Certified under the Microsoft Teams panels Certificati
 
 | Device model| Firmware version | Current certification end date | Android OS version |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
+|Neat Pad Panel    | `NFA1.20220211.1400` | August 5, 2023 | 9 |
 |Crestron TSS-770 | `1.003.0082` |December 5, 2022  | 8.1 |
 |Crestron TSS-1070 | `1.003.0082`|December 5, 2022 | 8.1 |
 |Yealink RoomPanel | `147.15.0.1`|August 5, 2023   | 9 |
@@ -315,7 +317,7 @@ When you install a new firmware version on your device, you can determine the co
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
 |Crestron Touchpanel /770-T/1070-T | `1.006.0046 ` | 2022 Update #1|
-|Yealink RoomPanel | ` 147.15.0.29 ` | 2022 Update #1 |
+|Yealink RoomPanel | ` 147.15.0.30 ` | 2022 Update #1 |
 |Crestron -TSS770  | `1.004.0115` |2021 Update #1 |
 |Crestron-TSS1070  | `1.004.0115` |2021 Update #1 |
 |Yealink RoomPanel | `147.15.0.17` |2021 Update #1 |

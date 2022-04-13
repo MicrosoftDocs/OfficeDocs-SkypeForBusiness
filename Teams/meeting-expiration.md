@@ -72,9 +72,6 @@ If you want people to access meetings that were previously scheduled or started 
 
 ## Changes to meeting expiration
 
-> [!IMPORTANT]
-> If you want to enable Teams meeting expiration on your tenant early, apply to the [Microsoft Teams meeting expiration early adopter program](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR8YMDA0A9INMv_DZ8yW5uG1URDc3U1VVMklPTzVMS0RLR0pUQTlWU1BEVC4u).
-
 All newly created Teams meeting recordings (TMRs) will have a default expiration of 120 days. This is on by default for all tenants. This means that by default, all TMRs created *after this feature was turned on* will be deleted 120 days after their creation date. Admins can also set meetings to **never auto-expire**. The OneDrive and SharePoint system will monitor the expiration date set on all TMRs and will automatically move TMRs to the recycle bin on their expiration date.
 
 > [!NOTE]

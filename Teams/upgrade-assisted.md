@@ -22,35 +22,27 @@ appliesto:
 
 # Assisted upgrades from Skype for Business Online to Microsoft Teams
 
-Microsoft offers assisted upgrades to Teams to help organizations make a successful transition from Skype for Business Online, which was retired on July 31, 2021. Whether your organization is upgrading from a *Skype for Business Online* or *Skype for Business Online with hybrid* (users in both Skype for Business Online **and** Skype for Business Server) environment, assisted upgrades reduce the number of technical tasks you need to do and allow for greater focus on organizational preparedness, user awareness, and Teams training.
+Microsoft retired Skype for Business Online on July 31, 2021.  Microsoft is providing an assisted upgrade process to help organizations move remaining Skype for Business Online users to Teams Only.  Microsoft assisted upgrades reduce the number of technical tasks and simplify the transition to a world without Skype for Business Online whether your organization is:
+ - A pure online organization that needs to upgrade from *Skype for Business Online* to become pure Teams Only, or
+ - A hybrid organization with users in both *Skype for Business Online* **and** an on-premises *Skype for Business Server* environment, which must upgrade only its Skype for Business *Online* user to Teams Only.
 
 We recommend that you review our [upgrade guidance](https://aka.ms/SkypeToTeams) before your upgrade. Our upgrade guidance includes recommended activities and helpful resources for completing an upgrade from Skype for Business Online to Teams. This guidance applies to any organization planning an upgrade to Teams, whether they manage all aspects of the upgrade or use the assisted process.
 
-## Notifications for scheduled customers
-
-Skype for Business Online customers that are scheduled for assisted upgrades to Teams will receive a series of upgrade notifications. These notifications will begin 30 days before the scheduled upgrade date. These notifications will be delivered as *Plan for Change* posts in the Microsoft 365 Message Center, upgrade dashboard notifications in Teams admin center, and in-app flags to end users.
-
-Upgrade notifications will include the scheduled date of the assisted upgrade, and will link to upgrade resources and training to help drive adoption and usage of Teams.
-
 ## The assisted upgrade experience
+Skype for Business Online customers that are scheduled for assisted upgrades to Teams will receive various forms of notifications: *Plan for Change* posts in the Microsoft 365 Message Center, upgrade dashboard notifications in Teams admin center, and in-app flags to end users. Upgrade notification in the Message Center and Teams admin center include the scheduled date of the assisted upgrade as well as a link to upgrade resources and training to help drive adoption and usage of Teams.
 
-Assisted upgrades began August 2021 with tenant-specific dates shared in the scheduling notifications mentioned above.
+The assisted upgrade experience differs slightly depending on whether your organization has any users homed in an on-premises Skype for Business Server environment:
+- **Pure online organizations:** For organizations *without* any on-premises Skype for Busineess Server users, the assisted upgrade process applies the `TeamsUpgradeOverridePolicy` policy to your organization. When this policy is applied, all users of Skype for Business Online will be placed in TeamsOnly mode.
+- **Hybrid Organizations with on-premises Skype for Business users:** This includes organizations with any users homed in Skype for Business Server, regardless of whether Hybrid has been configured. These organizations may have users that fall into one of the following categories:
 
-Your assisted upgrade experience will differ slightly depending on whether you have a Skype for Business Online-only or a Skype for Business Online with hybrid environment:
+  - On-premises users homed on Skype for Business Server (that may or may not use Teams, but are not Teams Only users)
+  - TeamsOnly users that homed in Skype for Business Online
+  - Non-TeamsOnly users that are homed in Skype for Business Online
 
-- **Skype for Business Online-only** The assisted upgrade process will apply the `TeamsUpgradeOverridePolicy` policy to your organization. When this policy is applied, all your Skype for Business Online users will be placed in Teams Only mode.
-- **Skype for Business Online with hybrid** Hybrid environments may have users that fall into one of the following categories:
-
-  - On-premises users homed on Skype for Business Server
-  - Skype for Business Online users that are in Teams Only mode
-  - Skype for Business Online users that are **not** in Teams Only mode
-
-  If you have a mixture of users in each of the categories listed above, the assisted upgrade process will only switch Skype for Business Online users to Teams Only mode if they're not already in that mode. On-premises Skype for Business users won't be impacted by the assisted upgrade process.
+The assisted upgrade process will only impact the last category of users: Non-Teams Only users homed in Skype for Business Online will be upgraded to Teams Only mode. On-premises Skype for Business users and existing TeamsOnly users won't be impacted by the assisted upgrade process.
 
 > [!NOTE]
 > Your organization can continue to use Skype for Business Online until your upgrade is complete. If you're scheduled for an assisted upgrade to Teams, you can perform your own upgrade from Skype for Business Online before your scheduled upgrade date. For more information about how to manually upgrade to Teams, see our [upgrade guidance](https://aka.ms/SkypeToTeams).
->
-> Assisted upgrades are not available for on-premises deployments of Skype for Business Server.
 
 The duration of the upgrade will vary by volume of users and the characteristics of the deployment. In most cases, users within a tenant will be upgraded within 24 hours of the start of the upgrade. During this time, end users will still have access to Skype for Business Online functionality. Once the upgrade has completed and users sign out of Skype for Business Online, they'll start using Teams for messaging, meetings, and calling.
 
