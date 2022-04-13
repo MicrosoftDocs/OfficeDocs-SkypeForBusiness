@@ -102,6 +102,9 @@ To communicate with another tenant, they must either enable **Allow all external
 
 ## Manage contact with external Teams users not managed by an organization
 
+> [!NOTE]
+> The Teams and Skype interop capabilities discussed in this article aren't available in GCC, GCC High, or DOD deployments, or in private cloud environments.
+
 Admins can choose to enable or disable communications with external Teams users that are not managed by an organization (“unmanaged”). If enabled, they can also further control if people with unmanaged Teams accounts can initiate contact (see the following image). If **External users with Teams accounts not managed by an organization can contact users in my organization** is turned off, unmanaged Teams users will not be able to search the full email address to find organization contacts and all communications with unmanaged Teams users must be initiated by organization users.
 
 In the Teams admin center, go to **Users** > **External access**.
@@ -144,7 +147,7 @@ The following table shows the cmdlet parameters used for configuring federation.
 |:-------|:--------|:------------------|
 |Enable/disable federation with other Teams organizations and Skype for Business|`-AllowFederatedUsers`|`-EnableFederationAccess`|
 |Enable federation with specific domains|`-AllowedDomains`|Not available|
-|Disable federation with specific domains|`-Blocked Domains`|Not available|
+|Disable federation with specific domains|`-BlockedDomains`|Not available|
 |Enable/disable federation with Teams users that are not managed by an organization|`-AllowTeamsConsumer`|`-EnableTeamsConsumerAccess`|
 |Enable/disable Teams users not managed by an organization from initiating conversations|`-AllowTeamsConsumerInbound`|`-EnableTeamsConsumerInbound`|
 |Enable/disable federation with Skype|`-AllowPublicUsers`|`-EnablePublicCloudAccess`|
