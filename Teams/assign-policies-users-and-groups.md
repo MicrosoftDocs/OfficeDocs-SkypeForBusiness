@@ -337,9 +337,15 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 To learn more, see [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation).
 
-## Edit policy assignments in bulk
+## Unassign policies in bulk
 
-Bulk policy reassignment lets you unassign custom policies and reassign the Global (Org-wide default) policy to individual users in bulk. You can do this in the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
+Bulk policy unassignment lets you unassign custom policies that were assigned to groups or individual users through direct assignment. Bulk policy unassignment is useful in the following scenarios:
+
+1. **For group policy assignments or the Global (Org-wide default) policy to take effect:** Due to [precedence rules](policy-assignment-overview.md#which-policy-takes-precedence), group policy assignments or the Global (Org-wide default) policy won't take effect for uses who have a direct policy assignment. As an admin, you can use the bulk policy unasssignment feature to remove individual assignments in bulk so group assignments or the Global (Org-wide default) policy will take effect.
+1. **Clean up policy assignments from the Teams Education wizard:** The Teams Education policy wizard applies the global policy defaults for students and assigns a custom policy set for a group of staff using group policy assignment. Admins need to clean up individual user level policies, from both students and staff, for the Global (Org-wide default) and group assignments to be effective.
+1. **Remove incorrect policy assignments:** If there is a large group of individual users who were assigned the wrong policy through direct assignment, you can use bulk policy unassignment to remove these assignments.
+
+ You can unassign policies in bulk from the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
 
 1. Go to **Users** > **Manage users**.
 2. In the top right corner of the page, select **Bulk policy unassignment** from the **Actions** drop-down menu.
@@ -348,14 +354,14 @@ Bulk policy reassignment lets you unassign custom policies and reassign the Glob
     > You can also edit policy assignments on the individual policy pages by choosing a policy and selecting **Manage users**.
 
 3. Select a policy type.
-4. Choose the policy that you want to reassign and select **Fetch** to get the number of users who are currently assigned to that policy.
+4. Choose the policy that you want to reassign and select **Get** to get the number of users who are currently assigned to that policy.
 
     > [!IMPORTANT]
     > When you choose a policy, you're removing **all** of the individually assigned users from that policy.
 
 5. Select **Unassign policy**.
 
-After policy reassignment completes, you can review the operation details in the **Activity log**.
+After you unassign policies, you can review operation details in the **Activity log**.
 
 ## Related topics
 
