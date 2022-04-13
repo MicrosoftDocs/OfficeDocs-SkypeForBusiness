@@ -374,10 +374,6 @@ items:
               href: guest-experience.md
             - name: Turn guest access on or off
               href: set-up-guests.md
-            - name: View guests in a team
-              href: view-guests.md
-            - name: Edit guest information
-              href: edit-guests-information.md
     - name: Monitor and manage call quality
       items: 
         - name: Monitor and improve call quality
@@ -1429,8 +1425,13 @@ items:
           href: rooms/multi-tenant-management-customer.md
         - name: Audit logs for Rooms activities
           href: rooms/multi-tenant-auditing.md
+        - name: Health and usage reports
+          href: rooms/health-and-usage-reports.md
         - name: Standards and Rooms Planner 
           href: rooms/standards-and-room-planner.md
+        - name: Customer-reported incidents 
+          href: rooms/customer-reported-incidents.md
+
     - name: Devices
       items:
         - name: Teams device store
@@ -1509,7 +1510,7 @@ items:
   items: 
     - name: Overview
       href: deploy-apps-microsoft-teams-landing-page.md
-    - name: Manage sample apps provided by Microsoft
+    - name: Manage apps provided by Microsoft
       items:
         - name: Manage the Bookings app
           href: bookings-app-admin.md
@@ -1530,8 +1531,8 @@ items:
           href: overview-third-party-apps.md
         - name: Understand app validation by Microsoft
           href: overview-of-app-validation.md
-        - name: Security, compliance, privacy, and data handling for third-party apps
-          href: /microsoft-365-app-certification/overview
+        - name: Security, compliance, and privacy of third-party apps
+          href: overview-of-app-certification.md
         - name: Use Microsoft 365 or Office 365 and custom connectors
           href: Office-365-custom-connectors.md
         - name: Purchase third-party apps for Teams
