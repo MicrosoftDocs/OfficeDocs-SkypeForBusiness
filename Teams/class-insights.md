@@ -148,7 +148,7 @@ The data belongs to the institution, and Microsoft only collects the data and st
 
 > [!TIP]
 > * Visit the [Microsoft Trust Center](https://www.microsoft.com/trust-center) to learn more about how Microsoft protects your data.
-> * Visit [Microsoft compliance offerings](/compliance/regulatory/offering-home) to learn how Microsoft 365 help your institution meet regulatory compliance standards.
+> * Visit [Microsoft compliance offerings](/compliance/regulatory/offering-home) to learn how Microsoft 365 helps your institution meet regulatory compliance standards.
 
 
 ### Performance and reliability
