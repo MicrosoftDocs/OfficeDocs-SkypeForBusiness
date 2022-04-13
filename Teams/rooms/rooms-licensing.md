@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Teams Rooms licenses"
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 ms.reviewer: sohailta
 ms.topic: article
@@ -66,6 +66,10 @@ The following table lists the features that are available in Microsoft Teams Roo
 
 
 > [!NOTE]
-> If you have existing licenses assigned for room systems, these will continue to work without any interruption. You should move to use the Meeting Room SKU when existing licenses expire.  
+> 
+> If you have existing user licenses assigned for room systems(e.g., E3 or E5), these will continue to work without any interruption. However, to be compliant with future changes, you must move to Meeting Room licenses when assigned user licenses expire.
+> 
 
  See also [Great meeting room experiences: Meet the new Microsoft Teams Rooms Standard and Premium](https://www.microsoft.com/en-us/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/).
+
+ You can read [Set up the Common Area Phone license for Microsoft Teams](../set-up-common-area-phones.md) for information on licensing Common Area Phones.

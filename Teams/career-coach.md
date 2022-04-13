@@ -1,7 +1,7 @@
 ---
 title: Purchase, configure, and enable Career Coach for Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: alaina.creager
 manager: serdars
 ms.topic: article
@@ -82,7 +82,9 @@ To enable Career Coach for your educational institution, review what you need to
 
 ## Purchase the Career Coach licenses
 
-Career Coach is available worldwide (except China and Russia) for qualified higher education institutions as an add-on license through Enrollment for Education Solutions (EES), Cloud Service Providers (CSP), and Microsoft 365 admin center (web direct). As a Microsoft Teams app, customers must have Microsoft 365 A3/A5 or Office 365 A1/A3/A5 in order to purchase the add-on Career Coach license.
+Career Coach is available worldwide (except China and Russia) for qualified higher education institutions as an add-on license through Enrollment for Education Solutions (EES), Cloud Service Providers (CSP), and Microsoft 365 admin center (web direct). As a Microsoft Teams app, the tenant must have Microsoft 365 A3/A5 or Office 365 A1/A3/A5 in order to purchase the add-on Career Coach license. Separate licenses are offered for students and faculty/staff users.
+
+A standard 90-day free trial is available for 25 student and 25 faculty/staff licenses. Trial licenses can be activated from Microsoft 365 admin center by tenants who are qualified to purchase Career Coach.
 
 ### Assign app licenses to users
 
@@ -362,6 +364,55 @@ If you are unsure which policy to use you can refer to the [Microsoft Teams Poli
 
 Reference [Manage app setup policies in Microsoft](/microsoftteams/teams-app-setup-policies) for more details.
 
+## Career Coach settings status
+
+The Career Coach settings page in Teams Admin Center provides a status report of incomplete, pending, complete, and failed steps for configuring the app. These statuses can help you determine whether Career Coach is properly configured and ready to release to your tenant.
+
+### Configuration status
+
+The configuration status section of the app settings page will display the current status.
+
+![the configuration status section of the career coach app.](media/career-coach-config-status.png)
+
+| Category              | Status                    | Description                                                 |
+| --------------------- | ------------------------- | ----------------------------------------------------------- |
+| Service provisioning  | Pending                   | App is being added to the tenant. No further action needed. |
+| Service provisioning  | Complete                  | Ready for IT admin to submit settings.                      |
+| Brand and preferences | Not started               | Settings need to be submitted.                              |
+| Brand and preferences | Missing _required fields_ | IT admin needs to add or upload the missing fields.         |
+| Brand and preferences | Complete                  | No further action needed.                                   |
+| Course catalog        | Not started               | Catalog needs to be submitted.                              |
+| Course catalog        | Incomplete                | Check the ingestion status for details on how to resolve.   |
+| Course catalog        | Complete                  | No further action needed.                                   |
+| LinkedIn connection   | Not started               | LinkedIn school page URL needs to be submitted.             |
+| LinkedIn connection   | Pending                   | Awaiting LinkedIn school page admin approval.               |
+| LinkedIn connection   | Complete                  | No further action needed.                                   |
+| Fields of study       | Not started               | Document needs to be submitted.                             |
+| Fields of study       | Complete                  | No further action needed.                                   |
+
+> [!NOTE]
+> Once all steps are marked as complete the app can be successfully released to your tenant and assign Career Coach licenses. For step-by-step instructions, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide).
+
+### Course catalog status
+
+The course catalog status is shown on the Course catalog settings page once a document has been uploaded, providing details of the document upload and processing.
+
+
+![the course catalog upload status of the career coach app.](media/career-coach-course-catalog-status.png)
+
+| Column           | Value     | Description                                                                                        |
+| ---------------- | --------- | -------------------------------------------------------------------------------------------------- |
+| Time uploaded    | Timestamp | Date and time an IT admin uploaded a document.                                                     |
+| Time completed   | Timestamp | Date and time the document was processed completely.                                               |
+| Courses uploaded | Integer   | Number of courses found in the document.                                                           |
+| Ingestion status | Pending   | Document in queue for processing.                                                                  |
+| Ingestion status | Running   | Document is currently be processed. This process can take up to 60 minutes.                        |
+| Ingestion status | Success   | Ingestion process is complete and courses and will be available in app once completely configured. |
+| Ingestion status | Failed    | Check the document format and reupload.                                                            |
+| Duplicates       | Integer   | Number of duplicate courses found in the document.                                                 |
+
+> [!NOTE]
+> If a column is blank, the document is currently being processed and those values are not available. Once the document has been processed the values will be populated. You can refresh the page to check for updates.
 
 ## Troubleshooting
 

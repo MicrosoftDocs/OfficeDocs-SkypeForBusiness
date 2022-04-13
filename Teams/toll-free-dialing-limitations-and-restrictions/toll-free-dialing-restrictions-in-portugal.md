@@ -1,7 +1,7 @@
 ---
 title: "Toll-free dialing restrictions in Portugal"
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: davlick, krkilaru
 ms.topic: reference

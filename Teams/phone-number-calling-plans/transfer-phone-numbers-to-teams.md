@@ -1,7 +1,7 @@
 ---
 title: Transfer phone numbers to Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: tonysmit
 ms.topic: article
@@ -88,7 +88,7 @@ To view the status of your port order, in the left navigation of the Microsoft T
 
 
 ## Reporting Telephone Number Issues?
-If you notice any issue with the ported numbers within the first 24-48 hrs. after the port completed, please contact the [TNS Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md). For any issue outside 48 hrs., please MS Support Team.
+If you notice any issue with the ported numbers within the first 24-48 hours after the port completed, contact the [TNS Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md). For any issue that goes beyond 48 hours, contact the Microsoft Support Team.
 
 ## Related topics
 

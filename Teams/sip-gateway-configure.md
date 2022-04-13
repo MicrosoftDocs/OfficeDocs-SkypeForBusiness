@@ -35,7 +35,7 @@ Before you can configure SIP Gateway, do the following:
 
 - **Make sure the SIP devices are not behind a proxy.** Ensure that http/s traffic bypasses any corporate http/s proxy.
 
-- **Open the UDP port.** Open UDP port in the range 49152 to 53247.
+- **Open the UDP port.** Open UDP port in the range 49152 to 53247 for IP ranges 52.112.0.0/14 to 52.120.0.0/14.
 
 - **Open the TCP port.** Open TCP port 5061 for IP ranges 52.112.0.0/14 to 52.120.0.0/14.
 
@@ -75,7 +75,7 @@ This article also describes how to:
 
 ## Verify that SIP Gateway is available for your organization
 
-1. Sign in to the [Teams admin center](https://admin-teams.microsoft.com/).
+1. Sign in to the [Teams admin center](https://admin.teams.microsoft.com/).
 
 2. At the left, select **Teams devices** and see if the **SIP devices** tab is visible. If it is, the SIP Gateway service is enabled for your organization.
 

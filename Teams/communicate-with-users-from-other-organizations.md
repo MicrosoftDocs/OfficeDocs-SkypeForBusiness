@@ -24,7 +24,7 @@ description: Learn how to call, chat, find, and add users from outside the organ
 
 When you need to communicate and collaborate with people outside your organization, Microsoft Teams has two options:
 
-- **External access** - A type of federation that allows users to find, call, and chat with people in other organizations. These people cannot be added to teams unless they are invited as guests.
+- **External access** - A type of federation that allows users to find, call, and chat with people in other organizations. These people cannot be added to a team unless they are invited as guests.
 - **Guest access** - Guest access allows you to invite people from outside your organization to join a team. Invited people get a guest account in Azure Active Directory.
 
 Note that Teams allows you to invite people outside your organization to meetings. This does not require external or guest access to be configured.
@@ -40,7 +40,7 @@ By default, external access is enabled for all domains. You can restrict externa
 To configure external access, see [Manage external access](manage-external-access.md). 
 
 >[!NOTE]
->Microsoft Teams free licenses do not support external access.
+> [Microsoft Teams Free (classic)](https://support.microsoft.com/office/welcome-to-microsoft-teams-free-classic-6d79a648-6913-4696-9237-ed13de64ae3c) licenses do not support external access.
 
 ## Guest access
 

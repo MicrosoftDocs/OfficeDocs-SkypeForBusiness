@@ -101,6 +101,7 @@ Here's a list of all events that are logged for user and admin activities in Tea
 |Deleted team  |TeamDeleted            |A team owner deletes a team.      |
 |Edited a message with a URL link in Teams     |MessageEditedHasLink         |A user edits a message and adds a URL link to it in Teams.         |
 |Exported messages <sup>1, </sup> <sup>2</sup> |	MessagesExported |Chat or channel messages were exported.|
+|Failed to validate invitation to shared channel<sup>3</sup> | FailedValidation |A user responds to an invitation to a shared channel but the invitation failed validation. |
 |Fetched chat <sup>1, </sup> <sup>2</sup>	|ChatRetrieved	|A Microsoft Teams chat was retrieved.|
 |Fetched all hosted content of a message<sup>1, </sup> <sup>2</sup>	|MessageHostedContentsListed	|All hosted content in  a message, such as images or code snippets, was retrieved.|
 |Installed app |AppInstalled         |An app was installed.   |
@@ -112,12 +113,17 @@ Here's a list of all events that are logged for user and admin activities in Tea
 |Removed bot from team   |BotRemovedFromTeam         |A user removes a bot from a team.       |
 |Removed connector     |ConnectorRemoved         |A user removes a connector from a channel.         |
 |Removed members    |MemberRemoved        |A team owner removes members from a team, channel, or group chat.         |
+|Removed sharing of team channel<sup>3</sup> | TerminatedSharing |A team or channel owner disabled sharing for a shared channel. |
+|Restored sharing of team channel<sup>3</sup> | SharingRestored | A team or channel owner re-enabled sharing for a shared channel. |
 |Removed tab    |TabRemoved         |A user removes a tab from a channel.         |
+|Responded to invitation for shared channel<sup>3</sup> | InviteeResponded | A user responded to a shared channel invitation. |
+|Responded to invitee response to shared channel<sup>3</sup> | ChannelOwnerResponded |A channel owner responded to a response from a user who responded to a shared channel invitation. |
 |Retrieved messages <sup>1, </sup> <sup>2</sup>	|MessagesListed	|Messages from a chat or channel were retrieved.|
 |Sent a message with a URL link in Teams |MessageCreatedHasLink|A user sends a message containing a URL link in Teams.|
 |Sent change notification for message creation <sup>1, </sup> <sup>2</sup>	|MessageCreatedNotification	|A change notification was sent to notify a subscribed listener application of a new message.|
 |Sent change notification for message deletion <sup>1, </sup> <sup>2</sup>	|MessageDeletedNotification	|A change notification was sent to notify a subscribed listener application of a deleted message.|
 |Sent change notification for message update <sup>1, </sup> <sup>2</sup>	|MessageUpdatedNotification	|A change notification was sent to notify a subscribed listener application of an updated message.|
+|Sent invitation for shared channel<sup>3</sup> | InviteSent |A channel owner or member sends an invitation to a shared channel. Invitations to shared channels can be sent to people outside of your organization if the channel policy is configured to share the channel with external users.  |
 |Subscribed to message change notifications <sup>1, </sup> <sup>2</sup>	|SubscribedToMessages	|A subscription was created by a listener application to receive change notifications for messages.|
 |Uninstalled app |AppUninstalled           |An app was uninstalled.     |
 |Updated app |AppUpdatedInCatalog           |An app was updated in the catalog.     |
@@ -127,10 +133,10 @@ Here's a list of all events that are logged for user and admin activities in Tea
 |Updated tab   |TabUpdated         |A user modified a tab in a channel.         |
 |Upgraded app |AppUpgraded           |An app was upgraded to its latest version in the catalog.     |
 |User signed in to Teams     |TeamsSessionStarted         |A user signs in to a Microsoft Teams client. This event doesn't capture token refresh activities.         |
-
+||||
 
 > [!NOTE]
-> <sup>1</sup> An audit record for this event is only logged when the operation is performed by calling a Microsoft Graph API. If the operation is performed in the Teams client, an audit record will not be logged<br/><br/><sup>2</sup> This event is only available in Advanced Audit. That means users must be assigned the appropriate license before these events are logged in the audit log. For more information about activities only available in Advanced Audit, see [Advanced Audit in Microsoft 365](/microsoft-365/compliance/advanced-audit#advanced-audit-events). For Advanced Audit licensing requirements, see [Auditing solutions in Microsoft 365](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements).
+> <sup>1</sup> An audit record for this event is only logged when the operation is performed by calling a Microsoft Graph API. If the operation is performed in the Teams client, an audit record will not be logged<br/><sup>2</sup> This event is only available in Advanced Audit. That means users must be assigned the appropriate license before these events are logged in the audit log. For more information about activities only available in Advanced Audit, see [Advanced Audit in Microsoft 365](/microsoft-365/compliance/advanced-audit#advanced-audit-events). For Advanced Audit licensing requirements, see [Auditing solutions in Microsoft 365](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements). <br/> <sup>3</sup> This event is in public preview.
 
 ## Shifts in Teams activities
 
@@ -176,15 +182,15 @@ You can use the Office 365 Management Activity API to retrieve information about
 
 Membership changes to Teams (such as users added or deleted) made through Azure Active Directory (Azure AD), Microsoft 365 admin portal, or Microsoft 365 Groups Graph API will appear in Teams audit messages and in the General channel with an attribution to an existing owner of the team, and not to the actual initiator of the action. In these scenarios, consult Azure AD or [Microsoft 365 Group audit logs](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) to see the relevant information.
 
-## Use Cloud App Security to set activity policies
+## Use Defender for Cloud Apps to set activity policies
 
-Using [Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security) integration, you can set [activity policies](/cloud-app-security/user-activity-policies) to enforce a wide range of automated processes using the app provider's APIs. These policies enable you to monitor specific activities carried out by various users, or follow unexpectedly high rates of one certain type of activity.
+Using [Microsoft Defender for Cloud Apps](/cloud-app-security/what-is-cloud-app-security) integration, you can set [activity policies](/cloud-app-security/user-activity-policies) to enforce a wide range of automated processes using the app provider's APIs. These policies enable you to monitor specific activities carried out by various users, or follow unexpectedly high rates of one certain type of activity.
 
-After you set an activity detection policy, it starts to generate alerts. Alerts are only generated on activities that occur after you create the policy. Here's some example scenarios for how you can use activity policies in Cloud App Security to monitor Teams activities.
+After you set an activity detection policy, it starts to generate alerts. Alerts are only generated on activities that occur after you create the policy. Here's some example scenarios for how you can use activity policies in Defender for Cloud Apps to monitor Teams activities.
 
 ### External user scenario
 
-One scenario you might want to keep an eye on, from a business perspective, is the addition of external users to your Teams environment. If external users are enabled, monitoring their presence is a good idea.  You can use [Cloud App Security](/cloud-app-security/what-is-cloud-app-security) to identify potential threats.
+One scenario you might want to keep an eye on, from a business perspective, is the addition of external users to your Teams environment. If external users are enabled, monitoring their presence is a good idea.  You can use [Defender for Cloud Apps](/cloud-app-security/what-is-cloud-app-security) to identify potential threats.
 
 :::image type="content" alt-text="Policy to monitor adding external users." source="media/TeamsExternalUserAddPolicy.png" lightbox="media/TeamsExternalUserAddPolicy.png":::
 
@@ -216,9 +222,9 @@ You can set alerts and send emails to admins and other users when an activity po
 
 ![Screenshot of alerts and governance actions for an activity policy.](media/audit-log-governance.png)
 
-## Use Cloud App Security to set anomaly detection policies
+## Use Defender for Cloud Apps to set anomaly detection policies
 
-[Anomaly detection policies](/cloud-app-security/anomaly-detection-policy) in Cloud App Security provide out-of-the-box user and entity behavioral analytics (UEBA) and machine learning (ML) so that you can immediately run advanced threat detection across your cloud environment. Because they're automatically enabled, the new anomaly detection policies provide immediate results by providing immediate detections, targeting numerous behavioral anomalies across your users and the machines and devices connected to your network. Additionally, the new policies expose more data from the Cloud App Security detection engine, to help you speed up the investigation process and contain ongoing threats.
+[Anomaly detection policies](/cloud-app-security/anomaly-detection-policy) in Defender for Cloud Apps provide out-of-the-box user and entity behavioral analytics (UEBA) and machine learning (ML) so that you can immediately run advanced threat detection across your cloud environment. Because they're automatically enabled, the new anomaly detection policies provide immediate results by providing immediate detections, targeting numerous behavioral anomalies across your users and the machines and devices connected to your network. Additionally, the new policies expose more data from the Defender for Cloud Apps detection engine, to help you speed up the investigation process and contain ongoing threats.
 
 We're working to integrate Teams events into anomaly detection policies. For now, you can set up anomaly detection policies for other Office products and take action items on users who match those policies.
 

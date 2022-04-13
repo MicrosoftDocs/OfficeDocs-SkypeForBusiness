@@ -10,8 +10,8 @@ metadata:
   description: Microsoft is excited to provide free, live, virtual training classes designed to get you up and running with Teams. Whether you're a business decision maker, admin, IT pro, or end user, you'll find a class that's right for you. Join us to see Microsoft Teams in action, get your questions answered, and interact with our live instructors. Click a session below to sign up and be sure to check out more courses farther below. # Required; article description that is displayed in search results. < 160 chars.
   ms.topic: hub-page # Required
   author: SerdarSoysal #Required; your GitHub user alias, with correct capitalization.
-  ms.author: serdars #Required; microsoft alias of author; optional team alias.
-  ms.date: 06/16/2020 #Required; mm/dd/yyyy format.
+  ms.author: samanro #Required; microsoft alias of author; optional team alias.
+  ms.date: 03/04/2022 #Required; mm/dd/yyyy format.
 
 # highlightedContent section (optional)
 # Maximum of 8 items
@@ -19,13 +19,13 @@ highlightedContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
   items:
     # Card
-    - title: Say hello to Microsoft Teams
+    - title: Introduction to Microsoft Teams
       itemType: overview
-      url: https://aka.ms/SayhelloTeams
+      url: https://youtu.be/UoWHXrmIszg
     # Card
-    - title: On-demand end-user training
+    - title: Get started with Teams
       itemType: video
-      url: https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7
+      url: https://aka.ms/GetstartedwithMSTeams
     # Card
     - title: Microsoft 365 Adoption Tools
       itemType: deploy
@@ -35,43 +35,42 @@ highlightedContent:
 productDirectory:
   items:
     # Card
-    - title: Get started with Teams
-      imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
-      summary: 'From chatting and meetings to using teams and channels, users will leave this session with the foundation to use Teams with confidence. (Audience: Everyone)'
-      url: https://aka.ms/GetstartedwithMSTeams
-    # Card
-    - title: Use chat and calling in Teams
+    - title: Calling and meetings in Teams
       imageSrc: https://docs.microsoft.com/office/media/icons/chat.svg
-      summary: 'Learn how to manage all your conversations from one central platform. (Audience: Everyone)'
-      url: https://aka.ms/ChatCallingInTeams
-    # Card
-    - title: Run effective meetings with Teams
-      imageSrc: https://docs.microsoft.com/office/media/icons/calendar-teams.svg
-      summary: 'Learn how to make your meetings more engaging, productive, and meaningful. (Audience: Everyone)'
-      url: https://aka.ms/RunmeetingsTeams
+      summary: 'Use calling and meetings to collaborate in real time, stay connected, and access shared content any time to learn, plan, and innovate. (Level: Teams Basics; Audience: Everyone)'
+      url: https://aka.ms/CallingMeetingsTraining
     # Card
     - title: Explore teams and channels in Teams
       imageSrc: https://docs.microsoft.com/office/media/icons/users-group.svg
-      summary: 'Learn how you can streamline your project and workgroup collaboration. (Audience: Everyone)'
-      url: https://aka.ms/TeamsandchannelsinTeams
+      summary: 'Understand the value of teams and channels and how they can help you collaborate in virtual workspaces or with an entire group. (Level: Teams Basics; Audience: Everyone)'
+      url: https://aka.ms/TeamsChannelsTraining
     # Card
-    - title: Build collaborative workspaces in Teams
-      imageSrc: https://docs.microsoft.com/office/media/icons/structure-teams.svg
-      summary: 'Explore ways to determine the best approach for creating workspaces for projects and workgroups. (Audience: Everyone)'
-      url: https://aka.ms/CollaborateInTeams
-    # Card
-    - title: Use pro tips in Teams
+    - title: Tips, shortcuts, and what's new with Teams
       imageSrc: https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg
-      summary: 'Learn how Teams can help organize your workday and make it easier to stay connected with colleagues. (Audience: Everyone)'
+      summary: 'Learn tips and shortcuts to become a power user. Discover what’s new and find expert direction on the latest features. (Level: Teams Basics; Audience: Everyone)'
       url: https://aka.ms/TeamsProTips
     # Card
-    - title: Master working from home with Teams
-      imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
-      summary: 'Learn best practices for staying connect to your team and maintaining productivity. (Audience: Everyone)'
-      url: https://aka.ms/WFHTeams
+    - title: Go further together with Teams meetings
+      imageSrc: https://docs.microsoft.com/office/media/icons/calendar-teams.svg
+      summary: 'Learn key features of Teams meetings and webinars, including collaboration tools, breakout rooms and access to meeting resources. (Level: Teams Go Further; Audience: Everyone)'
+      url: https://aka.ms/MeetingsGoFurther
+    # Card
+    - title: Customize Teams with apps
+      imageSrc: https://docs.microsoft.com/office/media/icons/blocks-teams.svg
+      summary: 'See how app integrations in Teams show up in a single user interface and allow employees to work better together. (Level: Teams Go Further; Audience: Everyone)'
+      url: https://aka.ms/Teamsappstraining
+    # Card
+    - title: Hybrid work solutions
+      imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
+      summary: 'Stay connected, secure, and productive as you adapt to new ways of working. Learn to be productive in one place: meetings, calls, chat, apps, and more. (Level: Teams Go Further; Audience: Everyone)'
+      url: https://aka.ms/HybridWorkTraining
+    # Card
+    - title: Increase collaboration with Teams
+      imageSrc: https://docs.microsoft.com/office/media/icons/structure-teams.svg
+      summary: 'Learn how to make the most of channels, chat, and connected apps to improve communication and deepen collaboration across teams of all sizes. (Level: Teams Basics; Audience: Everyone)'
+      url: https://aka.ms/CollaborateInTeams
     # Card
     - title: Teams for Education - Webinars
-      # imageSrc should be square in ratio with no whitespace
       imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
       summary: 'Learn how to use Teams in higher education. (Audience: Staff, students, academics, research faculty, IT professionals)'
       url: https://aka.ms/TeamsEduWebinars
@@ -86,20 +85,19 @@ productDirectory:
 additionalContent:
   # Supports up to 4 sections:
   sections:
-    - title: Courses
+    - title: Additional training
       items:
         # Card
-        - title: Teamwork Specialist certification
-        # additionalContent.sections.items.title
-          summary: Collaboration is a vital skill for today's work force. Learn how the robust features within Microsoft Teams allow you to stay connected and to work more efficiently with your team
-        # additionalContent.sections.items.summary
+        - title: Teamwork Specialist Learning Path
+          summary: Collaboration is a vital skill for today's work force. Learn how the robust features within Microsoft Teams allow you to stay connected and to work more efficiently with your team.
           url: /learn/paths/teamwork-specialist
-        # additionalContent.sections.items.url
         # Card
-        - title: Service Adoption Specialist certification
-        # additionalContent.sections.items.title
-          summary: The Microsoft Service Adoption Specialist certification course features Teams. Learn how to drive adoption of Microsoft services in your organization
-        # additionalContent.sections.items.summary
+        - title: Service Adoption Specialist Learning Path
+          summary: The Microsoft Service Adoption Specialist Learning Path features Teams and other Microsoft 365 services. Learn how to drive the adoption of Microsoft services in your organization.
           url: /learn/paths/m365-service-adoption
-        # additionalContent.sections.items.url
+        # Card
+        - title: On-demand training videos
+          summary: 'No time for a class? Explore our catalog of videos from Microsoft Support for on-demand training.'
+          url: https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7
+
  

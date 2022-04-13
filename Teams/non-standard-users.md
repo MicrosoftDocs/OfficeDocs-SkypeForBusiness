@@ -1,14 +1,14 @@
 ---
-title: Teams apps behavior for non-standard users 
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: Teams apps behavior based on types of users
+author: guptaashish
+ms.author: guptaashish
 ms.reviewer: joglocke
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Learn how apps in Microsoft Teams behave for non-standard users.
+description: Learn how apps in Microsoft Teams behave for different types of users.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -19,9 +19,9 @@ appliesto:
   - Microsoft Teams
 ---
 
-# Microsoft Teams apps behavior for non-standard users
+# Microsoft Teams apps behavior based on types of users
 
-This article describes how apps in Teams behave when guest, external (federated), and anonymous users are present in a Teams context.
+Teams apps behave when guest, external (federated), and anonymous users are present in a Teams context.
 
 - A **guest user** is someone who isn't an employee, student, or member of your organization. They don't have a school or work account with your organization.
 
@@ -44,7 +44,7 @@ Guests can use an app if the app was installed by a native user.
 
 #### Bots installed to a channel
 
-Bots can proactively message guest users, but guests can't interact with the bot. Guests can't message the bot one-to-one, mention the bot, or interact with adaptive cards that communicate with the bot.
+Guest users can mention the bot and interact with adaptive cards.
 
 #### Personal bots installed with policies
 

@@ -48,7 +48,7 @@ The ability to do automatic routing to the appropriate Public Safety Answering P
 
 Microsoft Calling Plans and Operator Connect partners include dynamic emergency routing services for users in the United States and Canada.
 
-For Direct Routing, however, additional configuration is required for routing emergency calls and possibly for partner connectivity. The administrator must configure connection to an Emergency Routing Service (ERS) provider (United States and Canada) **OR** configure the Session Border Controller (SBC) for an Emergency Location Identification Number (ELIN) application. For information about ERS providers, see [Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).
+For Direct Routing, however, additional configuration is required for routing emergency calls and possibly for partner connectivity. The administrator must ensure that the PSTN gateway routing the emergency call has been configured to add location information to the outgoing INVITE (by setting the parameter PidfloSupported to True on the online PSTN gateway object. In addition the administrator must configure connection to an Emergency Routing Service (ERS) provider (United States and Canada) **OR** configure the Session Border Controller (SBC) for an Emergency Location Identification Number (ELIN) application. For information about ERS providers, see [Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).
 
 This article contains the following sections.
 
@@ -82,7 +82,7 @@ The following clients are currently supported.  Check back often to see updates 
 > [!NOTE]
 > Subnet and WiFi-based locations are supported on all supported Teams clients. <br><br>
 > Ethernet/Switch (LLDP) is supported on:
-> - Windows versions 8.1 and later at this time.<br>
+> - Windows versions 10.0 and later at this time.<br>
 > - Mac OS, which requires [LLDP enablement software](https://www.microsoft.com/download/details.aspx?id=103383).<br>
 > - Teams phone with Teams app version 1449/1.0.94.2021110101 and later.
 
