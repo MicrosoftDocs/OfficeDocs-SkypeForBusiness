@@ -25,9 +25,9 @@ description: Learn how to use the Bookings app in Microsoft Teams to schedule, m
 
 Now that your organization has begun using Microsoft Teams and the Bookings app for Virtual Appointments, you'll need to make sure that your clients and customers understand how to book and join these appointments.
 
-<!-- Watch this video for a quick overview of what Virtual Visits can do for your organization.
+Watch this video for a quick overview of what Virtual Visits can do for your organization.
 
->>> [!VIDEO https://www.microsoft.com/videoplayer/embed/<RWEJii>] -->
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/<RWEJii>]
 
 ## What's included in this toolkit
 
