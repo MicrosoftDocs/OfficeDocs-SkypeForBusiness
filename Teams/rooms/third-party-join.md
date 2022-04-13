@@ -18,7 +18,7 @@ description: "This article discusses how to configure your organization and Team
 # Enable Teams Room devices to join third-party meetings
 
 > [!NOTE]
-> This feature is currently only available in the Windows version of Teams Rooms.
+> This feature is currently only available on Teams Rooms on Windows.
 
 Microsoft Teams Rooms devices support a one-touch experience for joining third-party online meetings, also referred to as Direct guest join. When enabled, you can use a Teams Rooms device to join meetings hosted on Cisco WebEx and Zoom just as easily as you can join meetings hosted in Microsoft Teams.
 
