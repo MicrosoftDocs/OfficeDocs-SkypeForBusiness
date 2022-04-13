@@ -98,4 +98,4 @@ The file will be deleted within five days of the expiration date, though this is
 
 **The default expiration is 120 days but when I checked Teams Admin center it is set to 60 days, why?**
 
-The way the Teams policies work is if any policy in the center is set by the admin, a cached snapshot is taken of all settings. If the admin set any attribute on the policy when we temporarily had a 60-day default, they will need to change it manually to 120 days. If they didn't have a custom setting before we set the 120, then they get the 120.
+The way the Teams policies work is if any policy in the center is set by the admin, a cached snapshot is taken of all settings. If the admin set any attribute on the policy when we temporarily had a 60-day default, they will need to change it manually to 120 days. If they didn't have a custom setting before we set the 120 days default, then they get the 120 days.
