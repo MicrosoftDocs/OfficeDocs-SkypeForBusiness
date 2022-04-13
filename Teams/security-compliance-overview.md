@@ -108,7 +108,7 @@ Communication compliance in Microsoft 365 allows you to add users to in-scope po
 
 Apply [sensitivity labels](/microsoft-365/compliance/sensitivity-labels) to protect and regulate access to sensitive organizational content created during collaboration within teams. For example, apply labels that configure the privacy (public or private) of teams, control guest access and external sharing, and manage access from unmanaged devices. For further information, review [Sensitivity labels in Microsoft Teams](sensitivity-labels.md).
 
-### Data Loss Prevention (DLP)
+### Microsoft Purview Data Loss Prevention (DLP)
 
 Data loss prevention (DLP) in Microsoft Teams, as well as the larger DLP story for Microsoft Purview, revolves around business readiness when it comes to protecting sensitive documents and data. Whether you have concerns around sensitive information in messages or documents, DLP policies will be able to help ensure your users don't share this sensitive data with the wrong people.
 
