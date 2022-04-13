@@ -39,7 +39,7 @@ Students *never* see the names of other students, only how they responded. While
 
 > [!TIP]
 > * Visit the [Microsoft Trust Center](https://www.microsoft.com/trust-center) to learn more about how Microsoft protects your data.
-> * Visit [Microsoft compliance offerings](/compliance/regulatory/offering-home) to learn how Microsoft 365 help your institution meet regulatory compliance standards.
+> * Visit [Microsoft compliance offerings](/compliance/regulatory/offering-home) to learn how Microsoft 365 helps your institution meet regulatory compliance standards.
 
 ## Data collection and storage
 The data belongs to the educational institution, and Microsoft only collects the data and stores it. Microsoft personnel cannot access the data or see it, except as allowed by compliance in an audited way to maintain the service, such as data recovery.
