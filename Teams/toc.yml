@@ -374,10 +374,6 @@ items:
               href: guest-experience.md
             - name: Turn guest access on or off
               href: set-up-guests.md
-            - name: View guests in a team
-              href: view-guests.md
-            - name: Edit guest information
-              href: edit-guests-information.md
     - name: Monitor and manage call quality
       items: 
         - name: Monitor and improve call quality
@@ -1514,7 +1510,7 @@ items:
   items: 
     - name: Overview
       href: deploy-apps-microsoft-teams-landing-page.md
-    - name: Manage sample apps provided by Microsoft
+    - name: Manage apps provided by Microsoft
       items:
         - name: Manage the Bookings app
           href: bookings-app-admin.md
