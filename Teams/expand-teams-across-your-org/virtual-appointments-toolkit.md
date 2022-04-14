@@ -27,7 +27,7 @@ Now that your organization has begun using Microsoft Teams and the Bookings app 
 
 Watch this video for a quick overview of what virtual appointments can do for your organization.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEJii]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4TQop]
 
 ## What's included in this toolkit
 
