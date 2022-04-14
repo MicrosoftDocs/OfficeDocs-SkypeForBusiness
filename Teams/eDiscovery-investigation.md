@@ -237,7 +237,7 @@ When viewing card content in Content search results, the content appears as an a
 
 ## eDiscovery in federated and non-federated environments
 
-Admins can use eDiscovery to search for content in chats messages in a Teams meeting in federated (called *external access* and non-federated (called *guest access*) environments based on the following restrictions:
+Admins can use eDiscovery to search for content in chats messages in a Teams meeting in federated (called *external access*) and non-federated (called *guest access*) environments based on the following restrictions:
 
 - **Federated**: In a Teams meeting with users from your organization and users from an external organization (who have external access in your organization), admins in both organizations can search for content in chat messages from the meeting.
 
