@@ -91,8 +91,8 @@ Teams Rooms is governed by the Modern Lifecycle Policy. See [Teams update proces
 Introduced in this update:
 - IT admins can enroll a Teams rooms device to receive public preview features through XML setting. Once enrolled, the device will start to receive beta features. All features that go to beta testing are announced at [Microsoft Teams Public Preview - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)<sup>1</sup>  
 - IT admin can set Teams room display resolution and scaling remotely through XML settings<sup>2</sup>
-- IT admin can disable Microsoft noise suppression through XML setting<sup>2</sup> 
-- IT admin can override download folder clean up on the device through registry key setting<sup>3</sup>
+- IT admin can disable Microsoft noise suppression through XML setting<sup>2,3</sup> 
+- IT admin can override download folder clean up on the device through registry key setting<sup>4</sup>
 - Enabling users to join Teams meeting hosted on another cloud (i.e., GCCH customer can join Teams meetings hosted on commercial cloud and vice versa) 
 - Teams rooms now blocks launching edge browser from URLs in PowerPoint Live as an added security measure for Teams rooms with touch displays 
 - Meet now experience is improved to add instructions for users to invite users to the room 
@@ -102,8 +102,11 @@ Introduced in this update:
 > <sup>1</sup> Instructions for enrolling public preview MTR Windows devices can be found [here](../public-preview-doc-updates.md#enable-public-preview)
 > 
 > <sup>2</sup> XML Configuration MTR Windows devices can be found can be found [here](../rooms/xml-config-file.md#create-an-xml-configuration-file)
+>
+> <sup>3</sup> At this time, only admin setting is being released. User control and enablement of the noise suppression will follow post 4.12 release in May 2022. 
+>
+> <sup>4</sup> Device clean up instructions can be found [here](../rooms/rooms-operations.md#collecting-logs-on-microsoft-teams-rooms)
 > 
-> <sup>3</sup> Device clean up instructions can be found [here](../rooms/rooms-operations.md#collecting-logs-on-microsoft-teams-rooms)
 > 
 > [!NOTE]
 > Windows 10 21H2 feature update will be updated after 7 days of installing the application or Admins can use manual update instead to install faster. Microsoft Teams Rooms application version 4.12 with these changes, will start to roll out in April 2022 and complete rollout in 2-3 weeks. The application updates are delivered through Windows store and the application is automatically installed. This is rolling out on Microsoft Teams Rooms on Windows only. 
