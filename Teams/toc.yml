@@ -1601,7 +1601,9 @@ items:
             - name: Manage the join experience on browsers
               href: expand-teams-across-your-org/browser-join.md
             - name: Virtual Visits usage report
-              href: teams-analytics-and-reports/virtual-visits-usage-report.md             
+              href: teams-analytics-and-reports/virtual-visits-usage-report.md 
+            - name: Help your clients and customers use virtual appointments
+              href: expand-teams-across-your-org/virtual-appointments-toolkit.md            
             
         - name: Shifts for Teams
           items: 
