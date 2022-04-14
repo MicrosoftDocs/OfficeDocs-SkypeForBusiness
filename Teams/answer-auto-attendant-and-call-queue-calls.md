@@ -63,7 +63,7 @@ To receive auto attendant and call queue calls on Microsoft Teams, you need to c
 
 ## Known Issues
 
-When a call queue agents receives a call on their mobile device, calls may go on hold if the device is locked. User must unlock device first and then answer the call.
+When a call queue agent receives a call on their mobile device, the call may go on hold if the device is locked. Users must unlock the device first and then answer the call.
 
 
 ## Related topics
