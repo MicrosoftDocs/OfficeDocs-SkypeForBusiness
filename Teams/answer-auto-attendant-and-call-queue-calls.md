@@ -42,7 +42,7 @@ The following illustration shows how an incoming call from an auto attendant or 
 Once an auto attendant or call queue call is answered, the user can process the call like any other call &#x2014; they can add or conference in another user or transfer the call to another party. Also, auto attendant calls will be forwarded based on the user's configuration.
 
 > [!NOTE] 
-> Call queue calls are not forwarded based on the user's configuration. This is to ensure callers remain in the queue until an agent can answer the call and the caller isn't forwarded unexpectedly.
+> Call queue calls are not forwarded based on the user's call answering rules configuration. This is to ensure callers remain in the queue until an agent can answer the call and the caller isn't forwarded unexpectedly.
 
 > Agents are not notified of any missed calls or voicemails for call queue calls.
 
