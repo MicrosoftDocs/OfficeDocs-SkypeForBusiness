@@ -64,7 +64,7 @@ To avoid a confusing or regressed Skype for Business experience, the Skype for B
 - HID controls for USB devices.
 - Several other integrations.  
 
-Phone System isn't supported in Teams in **Islands** mode. **Islands** mode doesn't support Enterprise Voice client is Skype for Business.
+Phone System isn't supported in Teams in **Islands** mode. 
 
 > [!Important]
 > In **Islands** mode, all messages and calls from federated users (people outside your organization) are delivered to Skype for Business. After upgrading to **Teams Only** mode, all messages and calls from outside your organization are delivered to Teams.
