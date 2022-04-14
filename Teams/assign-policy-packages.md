@@ -29,7 +29,7 @@ This article reviews the different ways to assign policy packages to users and g
 
 ## Assign a policy package to users
 
-A policy package in Teams is a collection of predefined policies and policy settings that you can assign to users who have the same or similar roles in your organization. Each policy package is designed around a user role and includes predefined policies and policy settings that support activities typical for that role. Some examples of policy packages are the Education (Teacher) package and Healthcare (Clinical worker) package. To learn more, see [Manage policy packages in Teams](manage-policy-packages.md).
+A policy package in Teams is a collection of predefined policies and policy settings that you can assign to users who have the same or similar roles in your organization. Each policy package is designed around a user role and includes predefined policies and policy settings that support activities typical for that role. Some examples of policy packages are the Education (Teacher) package and Healthcare (Clinical worker) package. To learn more,R64 see [Manage policy packages in Teams](manage-policy-packages.md).
 
 ### Assign a policy package to one user
 
@@ -65,6 +65,7 @@ When you assign the policy package, it's immediately assigned to the group. Howe
 
 > [!IMPORTANT]
 > Before you get started, it's important to understand ([precedence rules](assign-policies-users-and-groups.md#precedence-rules)) and ([group assignment ranking](assign-policies-users-and-groups.md#group-assignment-ranking)). Make sure you read and understand the concepts in ([What you need to know about policy assignment to groups](assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)) earlier in this article.
+> A given policy type can be assigned to at most 64 groups, across policy instances for that type.
 
 ### Assign a policy package to a group of users in the admin center
 
