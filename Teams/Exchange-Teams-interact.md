@@ -40,12 +40,12 @@ The following table provides a helpful quick reference to feature availability b
 
 **Actions supported:**
 
-| User's mailbox is hosted in:                                       | eDiscovery         | Legal&nbsp;Hold    | Retention        | Team and Channel mgmt | Create and view meetings in Teams | Modify user profile picture | Call History | Manage Contacts | Access Outlook contacts | Voicemail        | Add and configure connectors | Add and configure tabs | Add and configure bots |
-|--------------------------------------------------------------------|--------------------|--------------------|------------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------------|------------------------------|------------------------|------------------------|
-| **Exchange Online**                                                | Yes <sup>1</sup>   | Yes <sup>1</sup>   | Yes              | Yes                   | Yes                               | Yes<sup>7</sup>             | Yes          | Yes             | Yes <sup>6</sup>        | Yes              | Yes                          | Yes                    | Yes                    |
-| **Exchange Online Dedicated vNext**                                | Yes <sup>1</sup>   | Yes <sup>1</sup>   | Yes              | Yes                   | Yes                               | Yes<sup>7</sup>             | Yes          | Yes             | Yes <sup>6</sup>        | Yes              | Yes                          | Yes                    | Yes                    |
-| **Exchange Online Dedicated – Legacy** (Sync to Azure AD required) | Yes <sup>1</sup>   | Yes <sup>1,2</sup> | Yes <sup>3</sup> | Yes                   | No                                | No                          | Yes          | Yes             | No                      | Yes <sup>4</sup> | Yes <sup>5</sup>             | Yes                    | Yes                    |
-| **Exchange On-premises** (Sync to Azure AD)                        | Yes <sup>1,9</sup> | Yes <sup>1</sup>   | Yes <sup>3</sup> | Yes                   | Yes <sup>8</sup>                  | Yes<sup>10</sup>            | Yes          | Yes             | No                      | Yes <sup>4</sup> | Yes <sup>5</sup>             | Yes                    | Yes                    |
+| User's mailbox is hosted in:                                       | eDiscovery         | Legal&nbsp;Hold    | Retention        | Team and Channel mgmt | Create and view meetings in Teams | Modify user profile picture | Call History | Manage Contacts | Access Outlook contacts | Voicemail        | Add and configure connectors | Add and configure tabs | Add and configure bots | Modify Out of Office settings |
+|--------------------------------------------------------------------|--------------------|--------------------|------------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------------|------------------------------|------------------------|------------------------|------------------------|
+| **Exchange Online**                                                | Yes <sup>1</sup>   | Yes <sup>1</sup>   | Yes              | Yes                   | Yes                               | Yes<sup>7</sup>             | Yes          | Yes             | Yes <sup>6</sup>        | Yes              | Yes                          | Yes                    | Yes                    | Yes                    
+| **Exchange Online Dedicated vNext**                                | Yes <sup>1</sup>   | Yes <sup>1</sup>   | Yes              | Yes                   | Yes                               | Yes<sup>7</sup>             | Yes          | Yes             | Yes <sup>6</sup>        | Yes              | Yes                          | Yes                    | Yes                    | Yes                    
+| **Exchange Online Dedicated – Legacy** (Sync to Azure AD required) | Yes <sup>1</sup>   | Yes <sup>1,2</sup> | Yes <sup>3</sup> | Yes                   | No                                | No                          | Yes          | Yes             | No                      | Yes <sup>4</sup> | Yes <sup>5</sup>             | Yes                    | Yes                    | Yes                    
+| **Exchange On-premises** (Sync to Azure AD)                        | Yes <sup>1,9</sup> | Yes <sup>1</sup>   | Yes <sup>3</sup> | Yes                   | Yes <sup>8</sup>                  | Yes<sup>10</sup>            | Yes          | Yes             | No                      | Yes <sup>4</sup> | Yes <sup>5</sup>             | Yes                    | Yes                    | No                      
 
 <sup>1</sup> eDiscovery and Legal Hold for compliance on channel messages is supported for all hosting options.
 
@@ -85,6 +85,9 @@ Microsoft Teams works with several Microsoft 365 and Office 365 services to prov
 
 ## Requirements to create and view meetings for mailboxes hosted on-premises
 
+  > [!NOTE]
+  > Create and view meetings for mailboxes hosted on-premises is currently only supported within commerical, GCC, and GCC High environments.
+
 If mailboxes are hosted on-premises, to create and view meetings, the following requirements must be met:
 
 - The required Teams license needs to be assigned for the Azure Active Directory synced user.
@@ -93,7 +96,7 @@ If mailboxes are hosted on-premises, to create and view meetings, the following 
 
 - Mailboxes are hosted in Exchange Server 2016 Cumulative Update 3 or later.
 
-- Autodiscover and Exchange Web Services is published externally.
+- Autodiscover and Exchange Web Services are published externally. For information about which Microsoft 365 services need access to on-premises Autodiscover and Exchange Web Services endpoints, see [Other endpoints not included in the Office 365 IP Address and URL Web service](/microsoft-365/enterprise/additional-office365-ip-addresses-and-urls).
 
 - OAuth authentication is configured preferably via the Exchange Hybrid Configuration Wizard running a full hybrid configuration (Classic or Modern). If you are not able to use the Hybrid Configuration Wizard, configure OAuth as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
 

@@ -45,6 +45,9 @@ Teams administrators can configure communication compliance policies at the foll
 
 ### Report a concern in Microsoft Teams
 
+>[!NOTE]
+>User-reported messages will begin to be available for organizations licensed for [communication compliance](/microsoft-365/compliance/communication-compliance-configure#subscriptions-and-licensing) and Microsoft Teams starting in May 2022. This feature should be available for all licensed organizations by August 31, 2022.
+
 The *Report a concern* option in Teams messages is enabled by default and can be controlled via Teams messaging policies in the [Teams admin center](/microsoftteams/manage-teams-in-modern-portal). This allows users in your organization to submit inappropriate messages for review by communication compliance reviewers for the policy. For more information about user-reported messages in communication compliance, see [Communication compliance policies](/microsoft-365/compliance/communication-compliance-policies#user-reported-messages-policy).
 
 ![Report a concern menu.](./media/communication-compliance-report-a-concern-full-menu.png)

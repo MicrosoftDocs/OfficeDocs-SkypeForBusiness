@@ -93,6 +93,6 @@ To send feedback, select the **Help** option at bottom of the Teams left navigat
 
 ## Related articles
 
-[Manage the join experience for Teams Virtual Visits on mobile browsers](expand-teams-across-your-org/mobile-browser-join.md)
+[Manage the join experience for Teams Virtual Visits on browsers](expand-teams-across-your-org/browser-join.md)
 
 [Bookings documentation for end users](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)
