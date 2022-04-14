@@ -89,7 +89,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. See [Teams update proces
 ### 4.12.123.0 (4/19/2022)
 
 Introduced in this update:
-- IT admins can enroll a Teams rooms device to receive public preview features through XML setting. Once enrolled, the device will start to receive beta features. All features that go to beta testing are announced at [Microsoft Teams Public Preview - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)<sup>1</sup>  
+- IT admins can enroll a Teams rooms device to receive public preview features through XML setting. Once enrolled, the device will start to receive beta features. All features that go to beta testing are announced at [Microsoft Teams Public Preview - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)<sup>1,2</sup>  
 - IT admin can set Teams room display resolution and scaling remotely through XML settings<sup>2</sup>
 - IT admin can disable Microsoft noise suppression through XML setting<sup>2,3</sup> 
 - IT admin can override download folder clean up on the device through registry key setting<sup>4</sup>
