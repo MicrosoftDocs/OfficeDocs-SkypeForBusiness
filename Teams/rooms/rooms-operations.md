@@ -32,6 +32,15 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 ```
 
 The logs will be output as a ZIP file in c:\rigel.
+
+## Managing Disk Space
+<a name="Space"> </a>
+
+Downloaded logs on the device can consume disk space and if not regular cleaned can cause issues for normal functioning of the room. Teams rooms now cleans up downloaded logs after 30 days. IT admin can override download folder clean up on device through this registry setting.
+
+|Setting|Allows|
+|:-----|:-----|
+|HKLM\SOFTWARE\Microsoft\PPI\SkypeSettings\LogCleanupAgeThreshold  <br/> |Cleans up logs after 30 days.  <br/> |
   
 ## Front of Room Display Settings
 <a name="Display"> </a>
