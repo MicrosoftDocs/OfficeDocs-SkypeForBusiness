@@ -19,7 +19,7 @@ appliesto:
   - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 ---
-# Microsoft 365 app compliance program
+# Microsoft 365 app compliance program for security, compliance, and privacy of third-party apps
 
 Microsoft compliance program demonstrates that an app is vetted against controls derived from leading industry standard frameworks, and that strong security and compliance practices are in place to protect customer data. The program has two phases:
 
@@ -52,10 +52,66 @@ The attestation details page for an attested or certified app lists the followin
 
 ## Microsoft 365 certification
 
-App certification is achieved through a qualified analyst's review and approval of a comprehensive assessment centering on an app's security and compliance frameworks, processes, and procedures. The app is vetted against a series of security controls derived from leading industry standard frameworks. The certificate demonstrates that strong security and compliance practices are in place to protect customer data when the app is activated in an organization.
+App certification is achieved through a qualified analyst's review and approval of a comprehensive assessment centering on an app's security and compliance frameworks, processes, and procedures. The app is vetted against a series of security controls derived from leading industry standard frameworks.
+
+The certificate demonstrates that strong security and compliance practices are in place to protect customer data when the app is activated in an organization. More information about how Microsoft 365 certification is useful for admins and end-users is available at Overview of [Microsoft 365 app compliance program](/microsoft-365-app-certification/docs/enterprise-app-certification-guide).
+
+Administrators can quickly check for Microsoft 365 certified apps in the following ways.
+
+* When gathering more information about an app on the web, see the shield icon in list of apps in  Microsoft Teams apps security and compliance documentation or see the same icon in the app-specific documentation page.
+
+  :::image type="content" source="media/attested-app-doc-details.png" alt-text="View the Microsoft 365 certification information in the detailed help article about security and compliance of an app.":::
+
+* When checking an application in Teams admin center, sort the list of apps using the Certification column. See the icon and optionally, click the link to access the app-specific page mentioned above.
+
+  :::image type="content" source="media/m365cert-apps-list1.png" alt-text="View Microsoft 365 certification status of an app in the Teams admin center." lightbox="media/m365cert-apps-list2.png":::
+
+* When viewing the details of an app, see the Microsoft 365 certified icon in the app banner.
+
+  :::image type="content" source="media/m365cert-app-details-banner.png" alt-text="View Microsoft 365 certification information in the app banner when managing a specific app in Teams admin center":::
+
+* In Teams admin center, when granting permissions to the app, a blue checkmark in front of the app name indicates that it is either a publisher attested app or a Microsoft 365 certified app.
+
+   :::image type="content" source="media/attested-app-tac2.png" alt-text="In Teams admin center, on the dialog to grant permissions, admins can check the blue checkmark to be assured that the app is Microsoft 365 certified.":::
+
+## Know details of third-party apps
+
+As an admin, you can view information related to security, compliance, privacy, and more about any third-party apps.
+
+### View security, compliance, and privacy information in Microsoft documentation
+
+For an attested or certified app, the details about security, privacy, compliance, and more for each app, are listed at the app-specific help articles linked from [Microsoft Teams apps security and compliance](/microsoft-365-app-certification/teams/teams-apps).
+
+:::image type="content" source="media/attested-app-doc-details.png" alt-text="Topics on which detailed information is provided for apps that undergo Microsoft compliance program.":::
+
+### View the granted Graph permissions in Azure Portal
+
+Admins can grant permission to an app on behalf of all organization users. It helps avoid each user to individually request the permissions. Permissions granted of an admin are called delegated permissions in [Azure Portal](https://aad.portal.azure.com/).
+
+Before you grant any permission to an app, review a list of requested permissions in the [Manage Apps](https://admin.teams.microsoft.com/policies/manage-apps) section of Teams admin center.
+
+:::image type="content" source="media/attested-app-tac2.png" alt-text="In Teams admin center, on the dialog to grant permissions, admins can check the permissions requested by an app.":::
+
+After admins grant the org-wide permissions to an app, they can review the Graph permissions in Azure Portal.
+
+:::image type="content" source="media/tac-perms-in-aad-after-granting1.png" alt-text="Admins can see all the app permissions granted by users and admins in the Azure Portal." lightbox="media/tac-perms-in-aad-after-granting2.png":::
+
+### View privacy policy and terms of use of an app
+
+In Teams admin center, each app detail page contains a link to the privacy statement and terms of use by the app publisher.
+
+:::image type="content" source="media/tac-app-tou-privacy-info1.png" alt-text="From Teams admin center, admins can access the link to the privacy policy and terms of use for every app." lightbox="media/tac-app-tou-privacy-info2.png":::
 
 <!--- TBD: Parking some content for later review. Check if this content needs to be published.
 
 We also have a few more quality and security checks for apps. We have launched Microsoft Cloud App Security (MCAS) program for the customer who have E5 or EMS license, where we rate risk for your cloud apps based on regulatory certification, industry standards, and best practices. We are also working on an Apps Quality Score system (launching soon) for all apps on Teams platform, and you will be able to check an app’s quality score quickly on Teams Store.
 
+--->
+
+<!--- TBD: Add related links later.
+
+## See also
+
+* []().
+* []().
 --->
