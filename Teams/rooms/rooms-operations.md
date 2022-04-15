@@ -33,10 +33,10 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 
 The logs will be output as a ZIP file in c:\rigel.
 
-## Managing Disk Space
+### Managing Disk Space
 <a name="Space"> </a>
 
-Downloaded logs on the device can consume disk space and if not regular cleaned can cause issues for normal functioning of the room. Teams rooms now cleans up downloaded logs after 30 days. IT admin can override download folder clean up on device through this registry setting.
+Downloaded logs on the device can take up disk space. If logs are not regularly cleaned up, they can interer with the normal functionality of the room. Teams Rooms deletes downloaded logs after 30 days. IT admins can override the log clean up using the device registry setting.
 
 |Setting|Allows|
 |:-----|:-----|
