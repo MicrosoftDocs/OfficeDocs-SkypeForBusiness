@@ -103,10 +103,10 @@ To look at the telemetry of a given user for an in-progress meeting, including i
 
 ## Teams devices with support for real-time telemetry
 
-- MTR - Surface Hub
-- MTR - Teams Display
-- MTR - Collaboration bar
-- IP Phone devices
+- Teams display
+- Teams phone
+- Teams Rooms
+- Teams Rooms on Surface Hub
 
 > [!NOTE]
 > Devices that joined the meeting using Cloud Video Interop (CVI) solutions are not supported in Real-Time Analytics.
