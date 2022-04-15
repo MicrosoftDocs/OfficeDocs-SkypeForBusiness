@@ -374,10 +374,6 @@ items:
               href: guest-experience.md
             - name: Turn guest access on or off
               href: set-up-guests.md
-            - name: View guests in a team
-              href: view-guests.md
-            - name: Edit guest information
-              href: edit-guests-information.md
     - name: Monitor and manage call quality
       items: 
         - name: Monitor and improve call quality
@@ -1429,8 +1425,13 @@ items:
           href: rooms/multi-tenant-management-customer.md
         - name: Audit logs for Rooms activities
           href: rooms/multi-tenant-auditing.md
+        - name: Health and usage reports
+          href: rooms/health-and-usage-reports.md
         - name: Standards and Rooms Planner 
           href: rooms/standards-and-room-planner.md
+        - name: Customer-reported incidents 
+          href: rooms/customer-reported-incidents.md
+
     - name: Devices
       items:
         - name: Teams device store
@@ -1509,7 +1510,7 @@ items:
   items: 
     - name: Overview
       href: deploy-apps-microsoft-teams-landing-page.md
-    - name: Manage sample apps provided by Microsoft
+    - name: Manage apps provided by Microsoft
       items:
         - name: Manage the Bookings app
           href: bookings-app-admin.md
@@ -1530,8 +1531,8 @@ items:
           href: overview-third-party-apps.md
         - name: Understand app validation by Microsoft
           href: overview-of-app-validation.md
-        - name: Security, compliance, privacy, and data handling for third-party apps
-          href: /microsoft-365-app-certification/overview
+        - name: Security, compliance, and privacy of third-party apps
+          href: overview-of-app-certification.md
         - name: Use Microsoft 365 or Office 365 and custom connectors
           href: Office-365-custom-connectors.md
         - name: Purchase third-party apps for Teams
@@ -1593,14 +1594,16 @@ items:
       items: 
         - name: Bookings in Teams
           items: 
-            - name: Virtual Visits with Teams and Bookings
+            - name: Virtual appointments with Teams and Bookings
               href: expand-teams-across-your-org/bookings-virtual-visits.md
             - name: Manage the Bookings app
               href: bookings-app-admin.md
             - name: Manage the join experience on browsers
               href: expand-teams-across-your-org/browser-join.md
             - name: Virtual Visits usage report
-              href: teams-analytics-and-reports/virtual-visits-usage-report.md             
+              href: teams-analytics-and-reports/virtual-visits-usage-report.md 
+            - name: Help your clients and customers use virtual appointments
+              href: expand-teams-across-your-org/virtual-appointments-toolkit.md            
             
         - name: Shifts for Teams
           items: 
@@ -1716,15 +1719,15 @@ items:
       items: 
         - name: Get started with Teams for healthcare organizations
           href: expand-teams-across-your-org/healthcare/teams-in-hc.md
-        - name: Virtual Visits
+        - name: Virtual appointments
           items: 
-            - name: Virtual Visits with Teams - Integration into Cerner EHR
+            - name: Virtual appointments with Teams - Integration into Cerner EHR
               href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
-            - name: Virtual Visits with Teams - Integration into Epic EHR
+            - name: Virtual appointments with Teams - Integration into Epic EHR
               href: expand-teams-across-your-org/healthcare/ehr-admin.md
             - name: EHR admin reports
               href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
-            - name: Virtual Visits with Teams and Bookings
+            - name: Virtual appointments with Teams and Bookings
               href: expand-teams-across-your-org/bookings-virtual-visits.md
             - name: Virtual Visits usage report
               href: teams-analytics-and-reports/virtual-visits-usage-report.md  
