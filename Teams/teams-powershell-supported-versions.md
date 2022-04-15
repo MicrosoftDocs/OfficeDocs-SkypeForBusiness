@@ -97,6 +97,7 @@ Organizations who have been using Teams PowerShell Module in the last three mont
   * Get-CsImFilterConfiguration
   * Get-CsAudioConferencingProvider
   * [Get|Set]-CsTenantPublicProvider
+  * Get-CsHostingProvider
   * [Get|Set|Register|Unregister]-CsHybridPSTNAppliance
   * [Get|Set|New|Remove]-CsHybridPSTNSite
   * [Get|Set]- CsHybridMediationServer
