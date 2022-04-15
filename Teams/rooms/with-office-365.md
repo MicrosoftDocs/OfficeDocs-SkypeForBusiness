@@ -131,13 +131,13 @@ You may also need to apply bandwidth policies or meeting policies to this accoun
     
     This example creates a new room mailbox with the following settings:
 
-        - Account: ConferenceRoom01@contoso.com
+    - Account: ConferenceRoom01@contoso.com
           
-        - Name: ConferenceRoom01
+    - Name: ConferenceRoom01
         
-        - Alias: ConferenceRoom01
+     - Alias: ConferenceRoom01
         
-        - Account password: P@$$W0rd5959
+     - Account password: P@$$W0rd5959
 
     ``` PowerShell
     New-Mailbox -MicrosoftOnlineServicesID ConferenceRoom01@contoso.com -Name "ConferenceRoom01" -Alias ConferenceRoom01 -Room -EnableRoomMailboxAccount $true  -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
@@ -399,7 +399,7 @@ There are no unique requirements to enable calling with resource accounts. You e
 To organize your meeting room locations, you can add your device resource accounts to Exchange distribution groups. For example, if you have offices in three different geographic locations, you can create three distribution groups and add the appropriate resource accounts to each location. For more information, see [Create a rooms list](/exchange/recipients/room-mailboxes?view=exchserver-2019#create-a-room-list).
 
 ### Configure places for Outlook Calendar
-In order for meeting room locations to appear in the Outlook Room Finder, you need to use the Set-Place Exchange PowerShell cmdlet. Not only does Set-Place populate the Room Finder in OUtlook, it also allows you to add additional metadata such as the capacity of the room or the floor of building the room is in. For more information, see [Set-Place](/powershell/module/exchange/set-place).
+In order for meeting room locations to appear in the Outlook Room Finder, you need to use the Set-Place Exchange PowerShell cmdlet. Not only does Set-Place populate the Room Finder in Outlook, it also allows you to add additional metadata such as the capacity of the room or the floor of building the room is in. For more information, see [Set-Place](/powershell/module/exchange/set-place).
 
 ## Related articles
 
