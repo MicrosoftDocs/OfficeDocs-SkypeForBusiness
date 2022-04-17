@@ -48,14 +48,6 @@ We execute 400+ test cases for every app before it's made available on the Teams
 
 In addition, Microsoft encourages the app developers to participate in its compliance program that is a rigorous, two-tier approach to ensure app quality, security, and compliance. Teams store has hundreds of apps that go beyond fulfilling the already detailed validation guidelines and comply with these programs.
 
-## Publisher verification
-
-Before an app developer can submit their app to Microsoft, the developer is required to undergo a verification. A publisher verifies their identity using their Microsoft Partner Network (MPN) account and associate this MPN account with their app registration. Publisher verification helps admins and end users understand the authenticity of application developers who integrate with the Microsoft identity platform. Publisher verification provides the following benefits:
-
-* Increased transparency and risk reduction for customers - this capability helps customers understand which apps being used in their organizations are published by developers they trust.
-* Improved branding - a `verified` badge appears on the Azure Active Directory consent prompt, Enterprise Apps page, and other user interfaces used by end-users and admins.
-* Smoother enterprise adoption - admins can configure user consent policies, with publisher verification status as a primary policy criteria.
-
 ## See also
 
 * [Overview for admins of Microsoft 365 app compliance program](overview-of-app-certification.md)

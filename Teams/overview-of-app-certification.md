@@ -23,12 +23,21 @@ ms.custom: seo-marvel-apr2020
 
 Microsoft compliance program demonstrates that an app is vetted against controls derived from leading industry standard frameworks, and that strong security and compliance practices are in place to protect customer data. The program has two phases:
 
+* Publisher verification.
 * Publisher attestation.
 * Microsoft 365 certification.
 
+## Publisher verification
+
+Before an app developer can submit their app to Microsoft, the developer is required to undergo a verification. A publisher verifies their identity using their Microsoft Partner Network (MPN) account and associate this MPN account with their app registration. Publisher verification helps admins and end users understand the authenticity of application developers who integrate with the Microsoft identity platform. Publisher verification provides the following benefits:
+
+* Increased transparency and risk reduction for customers - this capability helps customers understand which apps being used in their organizations are published by developers they trust.
+* Improved branding - a `verified` badge appears on the Azure Active Directory consent prompt, Enterprise Apps page, and other user interfaces used by end-users and admins.
+* Smoother enterprise adoption - admins can configure user consent policies, with publisher verification status as a primary policy criteria.
+
 ## Publisher attestation
 
-Publisher attestation is the next tier in the app compliance program. Publisher attested apps provide added confidence to admins about security and compliance measures of an app and reduce the time to review it for an app. The attestation will reflect an app's security, data handling, and compliance practices against more than 80 risk factors identified by [Microsoft Cloud App Security](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/cloud-app-security).
+Publisher attestation is the next tier in the app compliance program. Publisher attested apps provide confidence to admins about security and compliance measures of an app and reduce the time to review it for an app. The attestation will reflect an app's security, data handling, and compliance practices against more than 80 risk factors identified by [Microsoft Cloud App Security](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/cloud-app-security).
 
 App developers are asked to complete a self-assessment that includes questions frequently asked by customers and IT admins to evaluate the security and compliance of an app. Microsoft then publishes this information for easier and more timely evaluation. To know more, see [Attestation guide](/microsoft-365-app-certification/docs/enterprise-app-attestation-guide).
 
@@ -74,17 +83,15 @@ Administrators can quickly check for Microsoft 365 certified apps in the followi
 
    :::image type="content" source="media/attested-app-tac2.png" alt-text="In Teams admin center, on the dialog to grant permissions, admins can check the blue checkmark to be assured that the app is Microsoft 365 certified.":::
 
-## Know details of third-party apps
-
-As an admin, you can view information related to security, compliance, privacy, and more about any third-party apps.
-
-### View security, compliance, and privacy information in Microsoft documentation
+## View security, compliance, and privacy information in Microsoft documentation
 
 For an attested or certified app, the details about security, privacy, compliance, and more for each app, are listed at the app-specific help articles linked from [Microsoft Teams apps security and compliance](/microsoft-365-app-certification/teams/teams-apps).
 
 :::image type="content" source="media/attested-app-doc-details.png" alt-text="Topics on which detailed information is provided for apps that undergo Microsoft compliance program.":::
 
-### View the granted Graph permissions in Azure Portal
+<!--- TBD: Move to the permissions article 
+
+## View the granted Graph permissions in Azure Portal
 
 Admins can grant permission to an app on behalf of all organization users. It helps avoid each user to individually request the permissions. Permissions granted of an admin are called delegated permissions in [Azure Portal](https://aad.portal.azure.com/).
 
@@ -95,8 +102,9 @@ Before you grant any permission to an app, review a list of requested permission
 After admins grant the org-wide permissions to an app, they can review the Graph permissions in Azure Portal.
 
 :::image type="content" source="media/tac-perms-in-aad-after-granting1.png" alt-text="Admins can see all the app permissions granted by users and admins in the Azure Portal." lightbox="media/tac-perms-in-aad-after-granting2.png":::
+--->
 
-### View privacy policy and terms of use of an app
+## View privacy policy and terms of use of an app
 
 In Teams admin center, each app detail page contains a link to the privacy statement and terms of use by the app publisher.
 
@@ -104,14 +112,12 @@ In Teams admin center, each app detail page contains a link to the privacy state
 
 <!--- TBD: Parking some content for later review. Check if this content needs to be published.
 
-We also have a few more quality and security checks for apps. We have launched Microsoft Cloud App Security (MCAS) program for the customer who have E5 or EMS license, where we rate risk for your cloud apps based on regulatory certification, industry standards, and best practices. We are also working on an Apps Quality Score system (launching soon) for all apps on Teams platform, and you will be able to check an app’s quality score quickly on Teams Store.
+- How to view the support information for an app in TAC?
+
+- We also have a few more quality and security checks for apps. We have launched Microsoft Cloud App Security (MCAS) program for the customer who have E5 or EMS license, where we rate risk for your cloud apps based on regulatory certification, industry standards, and best practices. We are also working on an Apps Quality Score system (launching soon) for all apps on Teams platform, and you will be able to check an app’s quality score quickly on Teams Store.
 
 --->
-
-<!--- TBD: Add related links later.
 
 ## See also
 
-* []().
-* []().
---->
+* [View app permissions and grant admin consent](app-permissions-admin-center.md).
