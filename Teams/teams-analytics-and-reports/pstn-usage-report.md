@@ -78,7 +78,7 @@ Per-country privacy requirements include the obfuscation of the external (not ow
 
 For the incoming calls, the caller number is obfuscated, for outgoing calls, the callee number is obfuscated. This applies to the PSTN and Direct Routing reports in Tenant Admin Center, data export, and the call logs available via Microsoft Graph.
 
-The obfuscation is based on the tenant's location (country). Full phone numbers are shown for the countries that are not listed in the table below.
+The obfuscation is based on the organization's location (country). Full phone numbers are shown for the countries that are not listed in the following table:
 
 | Country | Number of obfuscation digits |
 | :-: | :- |
