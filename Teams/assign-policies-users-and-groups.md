@@ -108,8 +108,8 @@ A user's effective policy is updated according to these rules:
 
 #### Group assignment ranking
 
-[!NOTE]
-A given policy type can be assigned to at most 64 groups, across policy instances for that type.
+> [!NOTE]
+> A given policy type can be assigned to a maximum of 64 groups across policy instances for that type.
 
 When you assign a policy to a group, you specify a ranking for the group assignment. This is used to determine which policy a user should inherit as their effective policy if the user is a member of two or more groups and each group is assigned a policy of the same type.
 
