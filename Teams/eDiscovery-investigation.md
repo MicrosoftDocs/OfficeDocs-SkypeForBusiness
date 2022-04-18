@@ -169,7 +169,7 @@ You can use eDiscovery tools to search for Teams content related to guest users 
 
 To search for content for guest users:
 
-1. Connect to Azure AD PowerShell. For instructions, see the "Connect with the Azure Active Directory PowerShell" section in [Connect to Microsoft 365 with PowerShell](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module). Be sure to complete Step 1 and Step 2 in the previous topic.
+1. Connect to Azure AD PowerShell. For instructions, see the "Connect with the Azure Active Directory PowerShell" section in [Connect to Microsoft 365 with PowerShell](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module). Be sure to complete Step 1 and Step 2 in the previous article.
 
 2. After you successfully connect to Azure AD PowerShell, run the following command to display the user principal name (UPN) for all guest users in your organization. You have to use the UPN of the guest user when you create the search in step 4.
 
@@ -234,6 +234,14 @@ When viewing card content in Content search results, the content appears as an a
 
 > [!NOTE]
 > To display images from card content in search results at this time (such as the checkmarks in the previous screenshot), you have to be signed into Teams (at https://teams.microsoft.com) in a different tab in the same browser session that you use to view the search results. Otherwise, image placeholders are displayed.
+
+## eDiscovery in federated and non-federated environments
+
+Admins can use eDiscovery to search for content in chats messages in a Teams meeting in federated (called *external access*) and non-federated (called *guest access*) environments based on the following restrictions:
+
+- **Federated**: In a Teams meeting with users from your organization and users from an external organization (who have external access in your organization), admins in both organizations can search for content in chat messages from the meeting.
+
+- **Non-federated**: In a Teams meeting with users from your organization and guest users, only admins in the organization who hosts the Teams meeting can search for content in chat messages from the meeting.
 
 ## Related topics
 

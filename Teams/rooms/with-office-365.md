@@ -21,7 +21,12 @@ description: Read this article for information on how to create resource account
 
 This article provides steps to create resource accounts for shared spaces and devices, and it includes steps to configure resource accounts for Microsoft Teams Rooms on Windows, Teams Rooms on Android, Teams Rooms on Surface Hub, and hot-desking on Teams displays.
 
-Microsoft 365 resource accounts are mailbox and Teams accounts that are dedicated to specific resources, such as a room or projector. These resource accounts can automatically respond to meeting invites using rules you define when they're created. For example, if you have a common resource such as a conference room, you can set up a resource account for that conference room that will automatically accept or decline meeting invites depending on its calendar availability.
+Microsoft 365 resource accounts are mailbox and Teams accounts that are dedicated to specific resources, such as a room or projector. These resource accounts can automatically respond to meeting invites using rules you define when they're created. For example, if you have a common resource such as a conference room, you can set up a resource account for that conference room that will automatically accept or decline meeting invites depending on its calendar availability. 
+
+Every resource account is unique to a single Microsoft Teams Rooms installation or Teams display hot-desking implementation.
+
+> [!NOTE]
+> If using Microsoft Teams panels, the Teams Rooms resource account signs in to both Teams Rooms and associated Teams panels.
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
@@ -126,13 +131,13 @@ You may also need to apply bandwidth policies or meeting policies to this accoun
     
     This example creates a new room mailbox with the following settings:
 
-        - Account: ConferenceRoom01@contoso.com
+    - Account: ConferenceRoom01@contoso.com
           
-        - Name: ConferenceRoom01
+    - Name: ConferenceRoom01
         
-        - Alias: ConferenceRoom01
+     - Alias: ConferenceRoom01
         
-        - Account password: P@$$W0rd5959
+     - Account password: P@$$W0rd5959
 
     ``` PowerShell
     New-Mailbox -MicrosoftOnlineServicesID ConferenceRoom01@contoso.com -Name "ConferenceRoom01" -Alias ConferenceRoom01 -Room -EnableRoomMailboxAccount $true  -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
@@ -376,11 +381,11 @@ To validate the account creation and license assignment, sign in to any Teams Cl
 
 ## Next steps
 
-### Network and bandwidth
+### Meeting policies
 
 You may need to apply custom network, bandwidth, or meeting policies to this account. For more information on network and bandwidth policies, see [Meeting policy settings for audio & video](/microsoftteams/meeting-policies-audio-and-video). For Teams Rooms, we recommend you set the meeting policy bandwidth to 10 Mbps.
 
-For collaboration purposes, turn on PowerPoint Live, Whiteboard, and shared notes. You may want to create a meeting policy to adjust participants and guest settings for Teams Rooms. For example, review the lobby settings such as which attendees to automatically admit to meetings. For more information on Teams meeting policies, see [Manage meeting policies in Microsoft Teams](/microsoftteams/meeting-policies-overview).
+For collaboration purposes, turn on PowerPoint Live, Whiteboard, and shared notes. It is recommended that you enable the meeting policy setting "Meet now in private meetings". You may want to create a meeting policy to adjust participants and guest settings for Teams Rooms. For example, review the lobby settings such as which attendees to automatically admit to meetings. For more information on Teams meeting policies, see [Manage meeting policies in Microsoft Teams](/microsoftteams/meeting-policies-overview).
 
 ### Calling
 
@@ -389,9 +394,12 @@ There are no unique requirements to enable calling with resource accounts. You e
 > [!NOTE]
 > We recommend turning off voice mail for shared devices by assigning a calling policy to the device resource accounts. See [Calling and call-forwarding in Teams](../teams-calling-policy.md) for more information.
 
-### Configure distribution groups
+### Configure distribution groups for Teams Calendar
 
 To organize your meeting room locations, you can add your device resource accounts to Exchange distribution groups. For example, if you have offices in three different geographic locations, you can create three distribution groups and add the appropriate resource accounts to each location. For more information, see [Create a rooms list](/exchange/recipients/room-mailboxes?view=exchserver-2019#create-a-room-list).
+
+### Configure places for Outlook Calendar
+In order for meeting room locations to appear in the Outlook Room Finder, you need to use the Set-Place Exchange PowerShell cmdlet. Not only does Set-Place populate the Room Finder in Outlook, it also allows you to add additional metadata such as the capacity of the room or the floor of building the room is in. For more information, see [Set-Place](/powershell/module/exchange/set-place).
 
 ## Related articles
 
