@@ -76,7 +76,7 @@ These fields can come from the customer SBC(s). There are three formats that the
 #### Phone number obfuscation
 Per-country privacy requirements include the obfuscation of the external (not owned by the customer) phone numbers. The three or four last digits of the phone number are replaced with asterisks (+123 456789***). 
 
-For the incoming calls, the caller number is obfuscated, for outgoing calls the callee number is obfuscated. This applies to the PSTN and Direct Routing reports in Tenant Admin Center, data export and the call logs available via Microsoft Graph.
+For the incoming calls, the caller number is obfuscated, for outgoing calls, the callee number is obfuscated. This applies to the PSTN and Direct Routing reports in Tenant Admin Center, data export, and the call logs available via Microsoft Graph.
 
 The obfuscation is based on the tenant's location (country). Full phone numbers are shown for the countries that are not listed in the table below.
 
