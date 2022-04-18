@@ -90,8 +90,8 @@ Teams Rooms is governed by the Modern Lifecycle Policy. See [Teams update proces
 
 Introduced in this update:
 - IT admins can enroll a Teams rooms device to receive public preview features through XML setting. Once enrolled, the device will start to receive beta features. All features that go to beta testing are announced at [Microsoft Teams Public Preview - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)<sup>1,2</sup>  
-- IT admin can set Teams room display resolution and scaling remotely through XML settings<sup>2</sup>
-- IT admin can disable Microsoft noise suppression through XML setting<sup>2,3</sup> 
+- IT admin can set Front of Room display resolution and scaling remotely through XML settings<sup>2</sup>
+- IT admin can disable Microsoft noise suppression through XML setting<sup>3</sup> 
 - IT admin can override download folder clean up on the device through registry key setting<sup>4</sup>
 - Enabling users to join Teams meeting hosted on another cloud (i.e., GCCH customer can join Teams meetings hosted on commercial cloud and vice versa) 
 - Teams rooms now blocks launching edge browser from URLs in PowerPoint Live as an added security measure for Teams rooms with touch displays 
@@ -101,7 +101,7 @@ Introduced in this update:
 
 > <sup>1</sup> Instructions for enrolling public preview MTR Windows devices can be found [here](../public-preview-doc-updates.md#enable-public-preview)
 > 
-> <sup>2</sup> XML Configuration MTR Windows devices can be found can be found [here](../rooms/xml-config-file.md#create-an-xml-configuration-file)
+> <sup>2</sup> Front of Room display resolution and scaling remotely through XML can be found [here](../rooms/xml-config-file.md#set-front-of-room-scale-and-resolution)
 >
 > <sup>3</sup> At this time, only admin setting is being released. User control and enablement of the noise suppression will follow post 4.12 release in May 2022. 
 >
