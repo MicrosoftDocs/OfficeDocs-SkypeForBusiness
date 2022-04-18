@@ -74,7 +74,7 @@ These fields can come from the customer SBC(s). There are three formats that the
 - A spammer calls and doesn't present a number, only a name, for example "Internal Revenue Service". This string will be shown in the reports.
 
 #### Phone number obfuscation
-Per-country privacy requirements include the obfuscation of the external (not owned by customer) phone numbers. The three or four last digits of the phone number are replaced with asterisks (+123 456789***). 
+Per-country privacy requirements include the obfuscation of the external (not owned by the customer) phone numbers. The three or four last digits of the phone number are replaced with asterisks (+123 456789***). 
 
 For the incoming calls, the caller number is obfuscated, for outgoing calls the callee number is obfuscated. This applies to the PSTN and Direct Routing reports in Tenant Admin Center, data export and the call logs available via Microsoft Graph.
 
