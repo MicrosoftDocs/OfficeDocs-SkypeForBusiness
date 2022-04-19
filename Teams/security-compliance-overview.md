@@ -92,7 +92,7 @@ Microsoft Teams desktop application supports AppLocker.  For more information ab
 
 ## Compliance
 
-Teams has a wide range of information to help you with compliance areas, including communication compliance for channels, chats, and attachments, retention policies, Data Loss Protection (DLP), eDiscovery and legal hold for channels, chats and files, audit log search, as well as mobile application management with Microsoft Intune. We've provided some information on all these topics below, and you can go to the [Microsoft 365 compliance center](https://compliance.microsoft.com) to manage these settings.
+Teams has a wide range of information to help you with compliance areas, including communication compliance for channels, chats, and attachments, retention policies, data loss prevention (DLP), eDiscovery and legal hold for channels, chats and files, audit log search, as well as mobile application management with Microsoft Intune. We've provided some information on all these topics below, and you can go to the [Microsoft 365 compliance center](https://compliance.microsoft.com) to manage these settings.
 
 ### Information Barriers
 
@@ -108,11 +108,11 @@ Communication compliance in Microsoft 365 allows you to add users to in-scope po
 
 Apply [sensitivity labels](/microsoft-365/compliance/sensitivity-labels) to protect and regulate access to sensitive organizational content created during collaboration within teams. For example, apply labels that configure the privacy (public or private) of teams, control guest access and external sharing, and manage access from unmanaged devices. For further information, review [Sensitivity labels in Microsoft Teams](sensitivity-labels.md).
 
-### Data Loss Prevention (DLP)
+### Microsoft Purview Data Loss Prevention (DLP)
 
-Data Loss Prevention (DLP) in Microsoft Teams, as well as the larger DLP story for Microsoft 365 or Office 365, revolves around business readiness when it comes to protecting sensitive documents and data. Whether you have concerns around sensitive information in messages or documents, DLP policies will be able to help ensure your users don't share this sensitive data with the wrong people.
+Data loss prevention (DLP) in Microsoft Teams, as well as the larger DLP story for Microsoft Purview, revolves around business readiness when it comes to protecting sensitive documents and data. Whether you have concerns around sensitive information in messages or documents, DLP policies will be able to help ensure your users don't share this sensitive data with the wrong people.
 
-For information on Data Loss Prevention in Teams, please review [DLP for Microsoft Teams](/microsoft-365/compliance/dlp-microsoft-teams). A good article for O365 DLP concerns is [Overview of data loss prevention](/microsoft-365/compliance/data-loss-prevention-policies).
+For information on Data Loss Prevention in Teams, please review [DLP for Microsoft Teams](/microsoft-365/compliance/dlp-microsoft-teams). A good article for DLP concerns is [Learn about data loss prevention](/microsoft-365/compliance/dlp-learn-about-dlp).
 
 ### Customer Key
 
