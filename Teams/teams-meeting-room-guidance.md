@@ -194,7 +194,7 @@ Microsoft Teams Rooms will continue to deliver people-centric hybrid meeting exp
 
 -   What hardware upgrades and/or investments would need to be made.
 
--   Most conference rooms are designed to maximize valuable square footage with a close relationship between room dimension and room capacity. An enhanced Microsoft Teams Rooms prioritizes the meeting experience above maximizing square footage. Not every organization can prioritize this way for every meeting space, as it could reduce the number of meeting rooms they can have.
+-   Most conference rooms are designed to maximize valuable square footage with a close relationship between room dimension and room capacity. An enhanced Microsoft Teams room prioritizes the meeting experience above maximizing square footage. Not every organization can prioritize this way for every meeting space, as it could reduce the number of meeting rooms they can have.
 
 ### Understanding this space 
 
