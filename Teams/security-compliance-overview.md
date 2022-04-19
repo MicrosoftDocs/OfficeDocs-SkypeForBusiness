@@ -125,7 +125,7 @@ Using Customer Key at the tenant level, Customer Key encrypts:
 - Teams chat notifications
 - Teams chat suggestions by Cortana
 - Teams status messages
-For more information, see [Overview of Customer Key for Microsoft 365 at the tenant level](/microsoft-365/compliance/customer-key-tenant-level) and read the Microsoft Teams blog that covers [Customer Key support for Microsoft Teams now in Public Preview](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893). For information about the Microsoft Information Protection release that included Customer Key at the tenant level, read [Announcing new Microsoft Information Protection capabilities to know and protect your sensitive data](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-new-microsoft-information-protection-capabilities-to/ba-p/1999692).
+For more information, see [Overview of Customer Key for Microsoft 365 at the tenant level](/microsoft-365/compliance/customer-key-tenant-level) and read the Microsoft Teams blog that covers [Customer Key support for Microsoft Teams now in Public Preview](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893). For information about the release that included Customer Key at the tenant level, read [Announcing new Microsoft Information Protection capabilities to know and protect your sensitive data](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-new-microsoft-information-protection-capabilities-to/ba-p/1999692).
 
 ### Retention policies
 
