@@ -9,7 +9,7 @@ audience: ITPro
 ms.service: msteams
 search.appverid: MET150 
 ms.reviewer: 
-description: A lookbook and guide for meeting room optimization with Teams Room solutions and devices.
+description: A lookbook and guide for meeting room optimization with Teams Rooms solutions and devices.
 ms.collection: 
   - M365-voice
   - M365-collaboration
@@ -76,7 +76,7 @@ Prepare your users to do this in stages to maximize your Teams meeting experienc
 
 You can start with this plan by addressing all your non-AV or non-collaboration-equipped meeting spaces. You can still take advantage of Teams in your meeting rooms, even if those meeting rooms have not yet had Teams devices installed.
 
-*Audio:* A great bridge to a complete Teams Room is to plan for meeting technology by either providing your individual users with Teams-certified audio devices for smaller rooms and groups, or by deploying them in rooms ahead of a full Teams Rooms solution for larger spaces meant for larger groups where a small device won’t cut it.
+*Audio:* A great bridge to a complete Teams Rooms is to plan for meeting technology by either providing your individual users with Teams-certified audio devices for smaller rooms and groups, or by deploying them in rooms ahead of a full Teams Rooms solution for larger spaces meant for larger groups where a small device won’t cut it.
 
 *Video:* When these rooms are used, individual users can bring their own devices to share in the Teams meeting content and capture their expressions with their individual cameras. Users can then designate someone to be the single source of audio for the local group, connecting that personal device to the certified audio device, so that everyone (both local and remote) has a positive experience with meeting audio.
 
@@ -140,9 +140,9 @@ As important as good audio, high-quality video is a necessity for modern Teams c
 
 -   In **larger rooms**, cameras feature the technology needed to capture participants in a variety of locations at varying distances away. These cameras can capture groups or focus on specific individuals while maintaining great visual clarity. Devices that can track and feature only active speakers are regularly used in larger spaces so that many participants may be featured individually throughout a meeting as they contribute their thoughts.
 
-# [Enhanced Microsoft Teams Room](#tab/emtr)
+# [Enhanced Microsoft Teams Rooms](#tab/emtr)
 
-## Enhanced Microsoft Teams Room
+## Enhanced Microsoft Teams Rooms
 
 ![Rendering of an enhanced meeting room.](media/emr1.png)
 
@@ -158,9 +158,9 @@ The vision for the future of meetings is grounded in a simple belief: meetings s
 
 ## What is an enhanced Microsoft Teams Room?
 
-In Microsoft’s hybrid workplace, the next generation of room standards are informed by the needs of both remote and in-room participants. An enhanced room is a Microsoft Teams Room designed to deliver an *elevated* hybrid meeting experience, fostering more natural and immersive connections while enabling everyone in the meeting to feel included, represented, and productive. The room follows a set of principles made real through a combination of Teams Rooms software and hardware capabilities and room configuration guidance.
+In Microsoft’s hybrid workplace, the next generation of room standards are informed by the needs of both remote and in-room participants. An enhanced room is a Microsoft Teams Rooms designed to deliver an *elevated* hybrid meeting experience, fostering more natural and immersive connections while enabling everyone in the meeting to feel included, represented, and productive. The room follows a set of principles made real through a combination of Teams Rooms software and hardware capabilities and room configuration guidance.
 
-The concept for the enhanced Microsoft Teams Room is designed around two key goals that are supported by a set of experience principles.
+The concept for the enhanced Microsoft Teams Rooms is designed around two key goals that are supported by a set of experience principles.
 
 **Goal 1: Everyone in the meeting feels included, represented, and productive.**
 
@@ -182,9 +182,9 @@ An enhanced room experience is all those components and ideas put together with 
 
 Examples of specific feature deployment:
 
--   Take advantage of our new front row front-of-room display experience in all types of meeting spaces where there is a Microsoft Teams Room solution that supports it.
+-   Take advantage of our new front row front-of-room display experience in all types of meeting spaces where there is a Microsoft Teams Rooms solution that supports it.
 
--   Implement curved tables and front-facing layouts with traditional Microsoft Teams Room experiences to promote better human connection in the room while maintaining continuity of experience across all meeting spaces.
+-   Implement curved tables and front-facing layouts with traditional Microsoft Teams Rooms experiences to promote better human connection in the room while maintaining continuity of experience across all meeting spaces.
 
 ## When should you deploy this room type?
 
@@ -194,7 +194,7 @@ Microsoft Teams Rooms will continue to deliver people-centric hybrid meeting exp
 
 -   What hardware upgrades and/or investments would need to be made.
 
--   Most conference rooms are designed to maximize valuable square footage with a close relationship between room dimension and room capacity. An enhanced Microsoft Teams Room prioritizes the meeting experience above maximizing square footage. Not every organization can prioritize this way for every meeting space, as it could reduce the number of meeting rooms they can have.
+-   Most conference rooms are designed to maximize valuable square footage with a close relationship between room dimension and room capacity. An enhanced Microsoft Teams Rooms prioritizes the meeting experience above maximizing square footage. Not every organization can prioritize this way for every meeting space, as it could reduce the number of meeting rooms they can have.
 
 ### Understanding this space 
 
@@ -240,13 +240,13 @@ To give people in the room a greater sense of connection to remote participants 
 
 Meeting content is surrounded by contextual fluid components like the agenda, tasks, and notes, which can be updated in real time, helping participants stay engaged and productive. Additionally, the meeting chat is brought clearly into view so that when joining a Teams meeting from a Teams Room, you can easily see and engage in the conversation in real time. In an enhanced Microsoft Teams Room, this content is displayed on a wide-aspect-ratio screen to maximize the size of meeting content and the number of participants that can be viewed simultaneously.
 
-This layout is supported across both single- and dual-display configurations. While the front row layout is especially impactful in an enhanced room, front row can be used in any Teams Room running on Windows, regardless of the furniture and hardware configuration.
+This layout is supported across both single- and dual-display configurations. While the front row layout is especially impactful in an enhanced room, front row can be used in any Teams Rooms running on Windows, regardless of the furniture and hardware configuration.
 
 ### How do you co-create content?
 
 In Microsoft Teams Rooms, users can take advantage of traditional, analog whiteboarding by using the intelligent capture feature. For a modernized experience where all participants can draw and ink together, Microsoft Whiteboard can be accessed using a touchscreen front-of-room display, companion devices like a PC, phone, or tablet, and through Microsoft Surface Hub.
 
-## Enhanced Microsoft Teams Room design guidance
+## Enhanced Microsoft Teams Rooms design guidance
 
 This section is intended to cover building a room from scratch. 
 
@@ -260,7 +260,7 @@ This section is intended to cover building a room from scratch.
 
 #### Room capacity 
 
-This enhanced Microsoft Teams Room is optimized for between 6 - 8 people. 
+This enhanced Microsoft Teams Rooms is optimized for between 6 - 8 people. 
 
 #### Room furniture
 
@@ -396,7 +396,7 @@ All Teams Rooms on Windows can leverage traditional whiteboards in a Teams meeti
 
 ## Recommended products for this space
 
-### Microsoft Teams Room console and compute
+### Microsoft Teams Rooms console and compute
 
 -   A Windows-based Microsoft Teams Rooms solution.
 
