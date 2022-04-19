@@ -396,7 +396,7 @@ All Teams Rooms on Windows can leverage traditional whiteboards in a Teams meeti
 
 ## Recommended products for this space
 
-### Microsoft Teams Rooms console and compute
+### Microsoft Teams Rooms console and computer
 
 -   A Windows-based Microsoft Teams Rooms solution.
 
