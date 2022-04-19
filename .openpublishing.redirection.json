@@ -2645,6 +2645,11 @@
       "redirect_document_id": false 
      },
      {
+      "source_path": "Teams/plan-Office-365-groups.md",
+      "redirect_url": "/microsoft-365/admin/create-groups/office-365-groups",
+      "redirect_document_id": false 
+     },
+     {
        "source_path": "Teams/rooms/known-issues.md",
        "redirect_url": "/microsoftteams/troubleshoot/Teams-devices-and-rooms/rooms-known-issues",
        "redirect_document_id": false
