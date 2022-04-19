@@ -34,32 +34,32 @@ This article describes how you, the administrator, can change call forwarding an
 
 - A new assistant has been employed and you need to add the assistant as a delegate for a group of employees.
 
-You can use Teams admin center or Teams PowerShell cmdlets to view and change call settings for users.
+You can use the Teams admin center or Teams PowerShell cmdlets to view and change call settings for users.
 
 To set call settings for a user, the user must have an assigned Microsoft Phone System license.
 
 ## Use the Teams admin center
 
-You can use the Teams admin center to configure group call pickup and call delegation for your users. 
+You can use the Teams admin center to configure call forward and unanswered settings, group call pickup, and call delegation for your users. 
 
-> [!NOTE]
-> The option for configuring call forward settings is not currently available in the Teams admin center.
-
-To configure group call pickup:
+To configure immediate call forward settings:
 
 1. In the Teams admin center, go to **Users** > **Manage users** and select a user.
 
 2. On the user details page, go to the **Voice** tab.
 
-3. Under **Group call pickup**, select **Add people**. 
+3. Under **Call answering rules**, select **Be immediately forwarded**, and select the appropriate call forward type and destination.
 
-4. Specify settings for **Call delay and order**.
+To configure simultaneous ringing, on the same page select **Ring the user’s devices**. In the **Also allow** drop-down, select the appropriate simultaneous ringing setting.
 
-To configure delegation, on the same page go to **Call delegation** and select **Add people**.
+To configure unanswered settings, on the same page select the appropriate setting in the **If unanswered** drop-down. In the **Ring for this many seconds before redirecting** drop-down, specify the number of seconds to wait.
+
+The configuration of call delegation and group call pickup are integrated into the call forward and unanswered settings by selecting the appropriate type. For example, to configure that calls should also ring the user’s delegates, on the same page select **Call delegation** under **Also allow**. Then add the appropriate delegates by selecting **Add people** and clicking **Save**.
+
 
 ## Use PowerShell
 
-You can user PowerShell to configure call forward and delegation settings for your users.  You'll use the following cmdlets, which are available in Teams PowerShell module version 4.0 or later:
+You can use PowerShell to configure call forward and delegation settings for your users.  You'll use the following cmdlets, which are available in Teams PowerShell module version 4.0 or later:
 
 - [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings?view=teams-ps) - shows call forwarding settings, delegates, and delegator information for a user.
 
