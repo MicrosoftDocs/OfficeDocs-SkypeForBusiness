@@ -240,7 +240,7 @@ To give people in the room a greater sense of connection to remote participants 
 
 Meeting content is surrounded by contextual fluid components like the agenda, tasks, and notes, which can be updated in real time, helping participants stay engaged and productive. Additionally, the meeting chat is brought clearly into view so that when joining a Teams meeting from a Teams Room, you can easily see and engage in the conversation in real time. In an enhanced Microsoft Teams Room, this content is displayed on a wide-aspect-ratio screen to maximize the size of meeting content and the number of participants that can be viewed simultaneously.
 
-This layout is supported across both single- and dual-display configurations. While the front row layout is especially impactful in an enhanced room, front row can be used in any Teams Rooms running on Windows, regardless of the furniture and hardware configuration.
+This layout is supported across both single- and dual-display configurations. While the front row layout is especially impactful in an enhanced room, front row can be used in any Teams room running on Windows, regardless of the furniture and hardware configuration.
 
 ### How do you co-create content?
 
