@@ -260,7 +260,7 @@ This section is intended to cover building a room from scratch.
 
 #### Room capacity 
 
-This enhanced Microsoft Teams Rooms is optimized for between 6 - 8 people. 
+This enhanced Microsoft Teams room is optimized for between 6 and 8 people. 
 
 #### Room furniture
 
