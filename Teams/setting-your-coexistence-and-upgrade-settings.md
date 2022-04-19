@@ -47,7 +47,7 @@ You can get a better understanding of the modes that are available to you by rea
         - **Teams only** - Use this setting if you want your users to use only Teams. Note that even with this setting, users can still join meetings hosted in Skype for Business.
 
           > [!IMPORTANT]
-          > You can only assign TeamsOnly mode to the entire tenant after both of the following steps ahve been completed:
+          > You can only assign TeamsOnly mode to the entire tenant after both of the following steps have been completed:
           >  - All on-premises users have been moved to Teams Only using Move-CsUser in the Skype for Business Server on-premises toolset.
           >  - You have updated any Skype for Business DNS records to point to Microsoft 365. 
           >
