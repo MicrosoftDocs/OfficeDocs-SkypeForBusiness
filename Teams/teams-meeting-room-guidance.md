@@ -156,7 +156,7 @@ Microsoft sees a future where meetings are immersive and spaces are designed aro
 
 The vision for the future of meetings is grounded in a simple belief: meetings should offer so much more than just a one-time transaction. Meetings will be designed for everyone, whether they’re in the room or across the world.
 
-## What is an enhanced Microsoft Teams Room?
+## What is an enhanced Microsoft Teams room?
 
 In Microsoft’s hybrid workplace, the next generation of room standards are informed by the needs of both remote and in-room participants. An enhanced room is a Microsoft Teams Rooms designed to deliver an *elevated* hybrid meeting experience, fostering more natural and immersive connections while enabling everyone in the meeting to feel included, represented, and productive. The room follows a set of principles made real through a combination of Teams Rooms software and hardware capabilities and room configuration guidance.
 
