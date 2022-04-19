@@ -160,7 +160,7 @@ The vision for the future of meetings is grounded in a simple belief: meetings s
 
 In Microsoft’s hybrid workplace, the next generation of room standards are informed by the needs of both remote and in-room participants. An enhanced room is a Microsoft Teams Rooms designed to deliver an *elevated* hybrid meeting experience, fostering more natural and immersive connections while enabling everyone in the meeting to feel included, represented, and productive. The room follows a set of principles made real through a combination of Teams Rooms software and hardware capabilities and room configuration guidance.
 
-The concept for the enhanced Microsoft Teams Rooms is designed around two key goals that are supported by a set of experience principles.
+The concept for the enhanced Microsoft Teams room is designed around two key goals that are supported by a set of experience principles.
 
 **Goal 1: Everyone in the meeting feels included, represented, and productive.**
 
