@@ -27,6 +27,8 @@ description: Learn how to set up call queues for large organizations in Microsof
 ---
 # Create a call queue
 
+Call queues provide a method of routing callers to people in your organization who can help with a particular issue or question. Calls are distributed one at a time to the people in the queue (who are known as *agents*).
+
 > [!TIP]
 > This article is for large organizations. If your organization is a small business, read [Create a call queue - small business tutorial](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb) instead.
 
@@ -40,7 +42,6 @@ The following settings are recommended:
 - **Routing method** to **Round robin** or **Longest idle**
 - **Presence-based routing** to **On**
 - **Agent alert time:** to **20 seconds**
-
 
 ## Call queue feature compatibility
 
@@ -67,6 +68,7 @@ The following settings are recommended:
 |`Operator Connect`               |Y                         |Y                        |     |          |Y                     |Y                         |              |
 
 Notes:
+
 1. Microsoft Teams Windows client, Microsoft Teams Mac Client, Microsoft Teams on Virtualized Desktop Infrastructure, Microsoft Teams Web client.
 2. Microsoft Teams iPhone app, Microsoft Teams Android app.
 3. Selecting Longest Idle for the agent routing method will automatically enable Presence based routing.
@@ -77,7 +79,6 @@ Notes:
 8. Only public channels are supported.
 9. Excluding Teams Web client.
 10. Auto Attendants and Call Queues cannot transfer calls between PSTN connectivity methods.
-
 
 ## Supported clients
 
