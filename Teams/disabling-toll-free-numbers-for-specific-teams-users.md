@@ -38,11 +38,10 @@ When toll-free numbers are disabled for a given organizer:
 
 ## Disabling toll-free numbers for specific users
 
-You can disable toll-free numbers for specific users by changing the setting for *AllowTollFreeDialIn* to **Off** within the *TeamsAudioConferencingPolicy* assigned to those users. Once turned off any new meetings created by such users will not include any Toll free numbers. [Audio Conferencing policy settings for toll and toll-free numbers](audio-conferencing-toll-free-numbers.md) has more information.
+You can disable toll-free numbers for specific users by changing the setting for *AllowTollFreeDialIn* to **Off** within the *TeamsAudioConferencingPolicy* assigned to those users. Once turned off any new meetings created by such users will not include any Toll free numbers. [Audio Conferencing policy settings for toll and toll-free numbers](audio-conferencing-toll-free-numbers-policy.md) has more information.
 
 > [!IMPORTANT]
 > Old and previously scheduled recurring meetings may still show toll-free numbers and participants won't be able to join such meetings using a toll-free number. You can reschedule all old and recurring meetings for these users and remove toll-free numbers from them using MMS.
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
-

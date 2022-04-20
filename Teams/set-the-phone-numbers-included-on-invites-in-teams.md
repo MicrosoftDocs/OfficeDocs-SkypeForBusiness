@@ -55,7 +55,7 @@ Once the user is enabled for the Audio Conferencing service, the default toll an
 
 ## Set or change the default audio conferencing phone number for users in Powershell using the *TeamsAudioConferencingPolicy* cmdlet
 
-Please see [Audio Conferencing policy settings for toll and toll-free numbers](audio-conferencing-toll-free-numbers.md)
+Please see [Audio Conferencing policy settings for toll and toll-free numbers](audio-conferencing-toll-free-numbers-policy.md)
 
 ## Set or change the default audio conferencing phone number for a meeting organizer or user individually
 
