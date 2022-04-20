@@ -56,7 +56,7 @@ It's important to know that a Microsoft 365 or Office 365 license is required to
 - **For events produced with an external app or device** The user must be assigned a Stream license.
 
 > [!NOTE]
-> Teams live events is now available for US Government Cloud Community (GCC) organizations.
+> Teams live events is now available for GCCH and US Government Cloud Community (GCC) organizations. See [Use PowerShell to set live events policies in Microsoft Teams](../set-teams-live-events-policies-using-powershell#allow-users-to-schedule-live-events.md).
 
 For more information about licensing, see [Microsoft Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
