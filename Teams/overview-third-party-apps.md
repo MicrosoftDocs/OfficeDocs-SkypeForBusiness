@@ -25,11 +25,12 @@ Many provide apps in Teams store. These apps are created by app developers and M
 
 Third-party apps in Microsoft Teams aren't controlled or owned by Microsoft and aren't governed by the Microsoft Online Subscription Agreement. Your organization’s use of each third-party app is subject to that app’s terms and conditions and privacy statement. Teams admin center allows you to verify all permissions of an app, privacy statements, and terms of use before you allow its use. As always, you can allow use of an app for a few specific users or all users. For third-party apps, as for custom apps, Microsoft Teams allows admins to allow, disallow, govern, and analyze the use of the apps.
 
-In addition to ensuring that admins have control over third-party apps, Microsoft also ensures that high quality apps are available in the store. We require all apps to go through a mandatory round of validation by Microsoft. We encourage apps to be a part of an optional compliance program to demonstrate an extra focus on security and compliance with industry standards. The various programs are:
+In addition to ensuring that admins have control over third-party apps, Microsoft also ensures that only high quality apps are available in the store. We require all apps to go through a mandatory round of validation by Microsoft that checks for functionality of app, identify of publisher, permissions sought by the app, and compliance, privacy, and data security of data collected by the app. We encourage apps to be a part of an optional compliance program to demonstrate an extra focus on security and compliance with industry standards. Know about these programs in the following articles:
 
 1. [App validation](overview-of-app-validation.md#app-validation-and-testing)
-1. [Publisher verification](overview-of-app-validation.md#publisher-verification)
+
 1. Microsoft app compliance program:
 
-   * [Publisher attestation](overview-of-app-validation.md#publisher-attestation)
-   * [Microsoft 365 certification](overview-of-app-validation.md#microsoft-365-certification)
+   * [Publisher verification](overview-of-app-certification.md#publisher-verification)
+   * [Publisher attestation](overview-of-app-certification.md#publisher-attestation)
+   * [Microsoft 365 certification](overview-of-app-certification.md#microsoft-365-certification)
