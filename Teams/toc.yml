@@ -39,8 +39,6 @@ items:
               href: tutorial-network-planner-example.yml
             - name: Proxy servers for Teams or Skype for Business Online
               href: proxy-servers-for-skype-for-business-online.md
-            - name: Plan for Microsoft 365 Groups when creating teams in Teams
-              href: plan-office-365-groups.md
             - name: Plan for lifecycle management in Teams
               href: plan-teams-lifecycle.md
             - name: Plan for governance in Teams
@@ -374,10 +372,6 @@ items:
               href: guest-experience.md
             - name: Turn guest access on or off
               href: set-up-guests.md
-            - name: View guests in a team
-              href: view-guests.md
-            - name: Edit guest information
-              href: edit-guests-information.md
     - name: Monitor and manage call quality
       items: 
         - name: Monitor and improve call quality
@@ -420,6 +414,8 @@ items:
               href: use-call-analytics-to-troubleshoot-poor-call-quality.md
             - name: Use real-time telemetry to troubleshoot poor meeting quality
               href: use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md
+            - name: Add and update reporting labels
+              href: learn-more-about-site-upload.md
         - name: Quality of Service (QoS)
           items: 
             - name: Set up QoS in Teams
@@ -863,6 +859,8 @@ items:
           href: pstn-connectivity.md
         - name: Calling Plans
           items: 
+            - name: Calling Plans for Microsoft 365
+              href: calling-plans-for-office-365.md
             - name: Which Calling Plan is right for you?
               href: calling-plan-landing-page.md
             - name: Set up Calling Plans for your organization
@@ -993,16 +991,17 @@ items:
         - name: Manage phone numbers for Direct Routing
           href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
 
-    - name: Voice routing
+    - name: Dial plans and routing
       items: 
+        - name: Overview
+          href: dial-plans-routing-overview.md
         - name: What are dial plans?
           href: what-are-dial-plans.md
         - name: Create and manage dial plans
           href: create-and-manage-dial-plans.md
         - name: Route calls to unassigned numbers
           href: routing-calls-to-unassigned-numbers.md
-        - name: Add and update reporting labels
-          href: learn-more-about-site-upload.md
+
     - name: Network settings and topology
       items: 
         - name: Network settings for cloud voice features
@@ -1432,8 +1431,13 @@ items:
           href: rooms/multi-tenant-management-customer.md
         - name: Audit logs for Rooms activities
           href: rooms/multi-tenant-auditing.md
+        - name: Health and usage reports
+          href: rooms/health-and-usage-reports.md
         - name: Standards and Rooms Planner 
           href: rooms/standards-and-room-planner.md
+        - name: Customer-reported incidents 
+          href: rooms/customer-reported-incidents.md
+
     - name: Devices
       items:
         - name: Teams device store
@@ -1512,7 +1516,7 @@ items:
   items: 
     - name: Overview
       href: deploy-apps-microsoft-teams-landing-page.md
-    - name: Manage sample apps provided by Microsoft
+    - name: Manage apps provided by Microsoft
       items:
         - name: Manage the Bookings app
           href: bookings-app-admin.md
@@ -1529,8 +1533,14 @@ items:
           
     - name: Administer third-party apps
       items:
-        - name: Security, compliance, privacy, and data handling for third-party apps
-          href: /microsoft-365-app-certification/overview
+        - name: Understand third-party apps
+          href: overview-third-party-apps.md
+        - name: Understand app validation by Microsoft
+          href: overview-of-app-validation.md
+        - name: Security, compliance, and privacy of third-party apps
+          href: overview-of-app-certification.md
+        - name: Use Microsoft 365 or Office 365 and custom connectors
+          href: Office-365-custom-connectors.md
         - name: Purchase third-party apps for Teams
           href: purchase-third-party-apps.md
     - name: App templates for Teams
@@ -1548,8 +1558,6 @@ items:
           href: customize-apps.md
         - name: Brand your organization's app store
           href: customize-your-app-store.md
-        - name: Use built-in and custom tabs
-          href: built-in-custom-tabs.md
 
     - name: Admin controls and app governance
       items:
@@ -1575,8 +1583,6 @@ items:
           href: app-permissions.md
         - name: Admin settings for apps in Teams
           href: admin-settings.md
-        - name: Use Microsoft 365 or Office 365 and custom connectors
-          href: Office-365-custom-connectors.md
         - name: App behavior based on types of users
           href: non-standard-users.md
         - name: Update apps to newer versions as end-users
@@ -1594,14 +1600,16 @@ items:
       items: 
         - name: Bookings in Teams
           items: 
-            - name: Virtual Visits with Teams and Bookings
+            - name: Virtual appointments with Teams and Bookings
               href: expand-teams-across-your-org/bookings-virtual-visits.md
             - name: Manage the Bookings app
               href: bookings-app-admin.md
-            - name: Manage the join experience on mobile browsers
-              href: expand-teams-across-your-org/mobile-browser-join.md
+            - name: Manage the join experience on browsers
+              href: expand-teams-across-your-org/browser-join.md
             - name: Virtual Visits usage report
-              href: teams-analytics-and-reports/virtual-visits-usage-report.md             
+              href: teams-analytics-and-reports/virtual-visits-usage-report.md 
+            - name: Help your clients and customers use virtual appointments
+              href: expand-teams-across-your-org/virtual-appointments-toolkit.md            
             
         - name: Shifts for Teams
           items: 
@@ -1615,6 +1623,12 @@ items:
               items: 
               - name: Overview       
                 href: expand-teams-across-your-org/shifts/shifts-connectors.md
+              - name: Use the Shifts connector wizard to set up a connection to Blue Yonder WFM
+                href: expand-teams-across-your-org/shifts/shifts-connector-wizard.md
+              - name: Use PowerShell to set up a connection to Blue Yonder WFM
+                href: expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup.md
+              - name: Use PowerShell to manage your Shifts to Blue Yonder WFM connection
+                href: expand-teams-across-your-org/shifts/shifts-connector-powershell-manage.md
             - name: Shifts data FAQ       
               href: expand-teams-across-your-org/shifts/shifts-data-faq.md
     - name: Teams for Education
@@ -1711,20 +1725,20 @@ items:
       items: 
         - name: Get started with Teams for healthcare organizations
           href: expand-teams-across-your-org/healthcare/teams-in-hc.md
-        - name: Virtual Visits
+        - name: Virtual appointments
           items: 
-            - name: Virtual Visits with Teams - Integration into Cerner EHR
+            - name: Virtual appointments with Teams - Integration into Cerner EHR
               href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
-            - name: Virtual Visits with Teams - Integration into Epic EHR
+            - name: Virtual appointments with Teams - Integration into Epic EHR
               href: expand-teams-across-your-org/healthcare/ehr-admin.md
             - name: EHR admin reports
               href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
-            - name: Virtual Visits with Teams and Bookings
+            - name: Virtual appointments with Teams and Bookings
               href: expand-teams-across-your-org/bookings-virtual-visits.md
             - name: Virtual Visits usage report
               href: teams-analytics-and-reports/virtual-visits-usage-report.md  
-            - name: Manage the join experience on mobile browsers
-              href: expand-teams-across-your-org/mobile-browser-join.md              
+            - name: Manage the join experience on browsers
+              href: expand-teams-across-your-org/browser-join.md              
         - name: View and assign policy packages
           href: policy-packages-healthcare.md
         - name: Secure messaging

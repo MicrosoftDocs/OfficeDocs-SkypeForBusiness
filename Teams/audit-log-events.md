@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anwara
 search.appverid: MET150
-description: "Learn how to retrieve Microsoft Teams data from the audit log in the Microsoft 365 compliance center."
+description: "Learn how to retrieve Microsoft Teams data from the audit log in the Microsoft Purview compliance portal."
 appliesto: 
   - Microsoft Teams
 ---
@@ -37,7 +37,7 @@ For a complete list of Teams activities that are audited, see [Teams activities]
 
 ## Turn on auditing in Teams
 
-Before you can look at audit data, you have to first turn on auditing in the Microsoft 365 compliance center. For more information, see [Turn auditing on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off).
+Before you can look at audit data, you have to first turn on auditing in the Microsoft Purview compliance portal. For more information, see [Turn auditing on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off).
 
 > [!IMPORTANT]
 > Audit data is only available from the point at which you turned on auditing.
@@ -230,4 +230,4 @@ We're working to integrate Teams events into anomaly detection policies. For now
 
 ## Related topics
 
-- [Search the audit log in the Microsoft 365 compliance center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
+- [Search the audit log in the Microsoft Purview compliance portal](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
