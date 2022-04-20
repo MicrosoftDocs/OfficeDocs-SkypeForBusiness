@@ -7,7 +7,7 @@ Call queues provide:
 
 Be sure you have read [Plan for Teams auto attendants and call queues](../plan-auto-attendant-call-queue.md) and followed the [getting started steps](../plan-auto-attendant-call-queue.md#getting-started) before you follow the procedures in this article.
 
-**See the [Call Queue Feature Compatibility](#call-queue-feature-compatibility) matrix below for more information.**
+**See the [Call Queue Feature Compatibility](../create-a-phone-system-call-queue.md#call-queue-feature-compatibility) matrix below for more information.**
 
 ## Video demonstration
 
