@@ -27,7 +27,9 @@ appliesto:
 
 ## Overview of the Virtual appointments app
 
-The Virtual appointments app provides a central hub for all your virtual appointment needs in Microsoft Teams. You can schedule and manage virtual appointments, view analytics to gain insight into virtual appointment activity, get real-time status updates, and send appointment reminders to attendees.
+The Virtual appointments app provides a central hub for all your virtual appointment needs in Microsoft Teams.
+
+You can schedule and manage virtual appointments, view analytics to gain insight into virtual appointment activity, get real-time status updates, and send appointment reminders to attendees.
 
 :::image type="content" source="media/manage-virtual-appointments-app-home.png" alt-text="Screenshot of the Home page in the Virtual appointments app" lightbox="media/manage-virtual-appointments-app-home.png":::
 
@@ -35,9 +37,11 @@ Virtual appointments includes the following tabs:
 
 - **Home**: This tab brings together key information, actions, and updates in a dashboard. From here, you can
 - **Bookings schedule**: Access your Bookings calendar to schedule virtual appointments such as healthcare visits, financial consultations, interviews, education office hours, and virtual fittings and consultations. You can connect an existing Bookings calendar or create a new one.
-- **Queue**: View all appointments in the Bookings calendar that you pinned. Conduct and manage walk-in and scheduled appointments.
-- **Analytics**: Get insight into usage details for your team's virtual appointments. View key metrics such as total number of appointments, appointment duration, lobby wait time, and no shows.
-- **Manage**: Customize appointment types, set reminders, and update business details.
+- **Queue**: View and monitor all virtual appointments in the Bookings calendar that you pinned, with updates in real time. From here, you can add a new booking, view relevant appointment details, see appointment statuses throughout the day, and send appointment reminders to assign staff and attendees. Staff can even join appointments directly from the queue.
+- **Analytics**: Get insight into usage activity and trends in your organization to help optimize virtual appointments to deliver better business outcomes. You can view key metrics such as total number of appointments, appointment duration, lobby wait time, and no shows.
+- **Manage**: Customize appointment types, set reminders, update business details, add staff and assign roles.
+
+
 
 ## What you need to know about Virtual appointments
 
