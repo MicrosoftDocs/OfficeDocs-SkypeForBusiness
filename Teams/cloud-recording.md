@@ -308,7 +308,7 @@ To learn more about eDiscovery see the article [eDiscovery solutions for Microso
 
 You can apply automatic retention labels to target just Teams meeting recording video files via the ProgID property. For more information, see [How to auto-apply a retention label for Teams meeting recordings](/microsoft-365/compliance/apply-retention-labels-automatically#microsoft-teams-meeting-recordings).
 
-### Data Loss Prevention (DLP) policies
+### Microsoft Purview Data Loss Prevention (DLP) policies
 
 You can apply DLP policies to meeting recording files also by the ProgID property. In the DLP rule for files in SharePoint Online and OneDrive for Business set the conditions to be:
 
