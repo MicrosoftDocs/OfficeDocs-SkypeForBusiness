@@ -27,7 +27,7 @@ appliesto:
 
 ## Overview of Virtual Appointments
 
-The Virtual Appointments app provides a central hub for all your virtual appointment needs in Microsoft Teams. Users can schedule and manage virtual appointments, view analytics to gain insight into virtual appointment activity, get real-time status updates, and send appointment reminders to attendees.
+The Virtual Appointments app provides a central hub for all your virtual appointment needs in Microsoft Teams. Admins and users can schedule and manage virtual appointments, view analytics to gain insight into virtual appointment activity, get real-time status updates, and send appointment reminders to attendees.
 
 :::image type="content" source="media/manage-virtual-appointments-app-home.png" alt-text="Screenshot of the Home page in the Virtual Appointments app" lightbox="media/manage-virtual-appointments-app-home.png":::
 
