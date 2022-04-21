@@ -64,6 +64,7 @@ Organizations who have been using Teams PowerShell Module in the last three mont
 ## Deprecated cmdlets
 
 - Some of the cmdlets that were deprecated recently are listed below. Details on the same can be found in the respective public documentations. 
+  * [Get-CsOnlineTelephoneNumber](/powershell/module/skype/get-csonlinetelephonenumber)
   * [Get-CsOnlineDialInConferencingUserInfo](/powershell/module/skype/get-csonlinedialinconferencinguserinfo), [Get-CsOnlineDialInConferencingUserState](/powershell/module/skype/get-csonlinedialinconferencinguserstate), [Enable-CsOnlineDialInConferencingUser](/powershell/module/skype/enable-csonlinedialinconferencinguser), [Disable-CsOnlineDialInConferencingUser](/powershell/module/skype/disable-csonlinedialinconferencinguser)
   * [Get-CsOnlineDirectoryTenant](/powershell/module/skype/get-csonlinedirectorytenant)
   * [New-CsOnlineAudioFile](/powershell/module/skype/new-csonlineaudiofile)
@@ -96,6 +97,7 @@ Organizations who have been using Teams PowerShell Module in the last three mont
   * Get-CsImFilterConfiguration
   * Get-CsAudioConferencingProvider
   * [Get|Set]-CsTenantPublicProvider
+  * Get-CsHostingProvider
   * [Get|Set|Register|Unregister]-CsHybridPSTNAppliance
   * [Get|Set|New|Remove]-CsHybridPSTNSite
   * [Get|Set]- CsHybridMediationServer
