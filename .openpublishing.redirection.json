@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "Teams/admin-settings.md",
+      "redirect_url": "/microsoftteams/manage-apps",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "Teams/expand-teams-across-your-org/mobile-browser-join.md",
       "redirect_url": "/microsoftteams/expand-teams-across-your-org/browser-join",
       "redirect_document_id": true
