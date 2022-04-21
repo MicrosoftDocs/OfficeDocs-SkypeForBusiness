@@ -29,4 +29,4 @@ Before users can use Teams to make or receive phone calls to or from regular pho
 [!INCLUDE [assign-phone-numbers-to-users-steps](../includes/assign-phone-numbers-to-users-steps.md)]
 
 > [!div class="nextstepaction"]
-> [Next step: Set up an auto attendant](set-up-auto-attendant.md?tabs=general-info#steps)
+> [Next step: Set up an auto attendant](set-up-auto-attendant.md?tabs=general-info)
