@@ -27,19 +27,21 @@ appliesto:
 
 ## Overview of Virtual Appointments
 
-The Virtual appointments app provides a central hub for all your virtual appointment needs in Microsoft Teams. Admins and users can schedule and manage virtual appointments, view analytics and gain insight into virtual appointment activity, get real-time status updates, and send appointment reminders to attendees.
+The Virtual Appointments app provides a central hub for all your virtual appointment needs in Microsoft Teams. Users can schedule and manage virtual appointments, view analytics to gain insight into virtual appointment activity, get real-time status updates, and send appointment reminders to attendees.
 
-:::image type="content" source="media/manage-virtual-appointments-app-home.png" alt-text="Screenshot of the Home page in the Virtual appointments app" lightbox="media/manage-virtual-appointments-app-home.png":::
+:::image type="content" source="media/manage-virtual-appointments-app-home.png" alt-text="Screenshot of the Home page in the Virtual Appointments app" lightbox="media/manage-virtual-appointments-app-home.png":::
 
-Virtual appointments includes the following tabs:
+Virtual Appointments includes the following tabs:
 
 - **Home**: This tab brings together key information, actions, and updates in a dashboard. From here, you can
-- **Bookings schedule**:
-- **Queue**: View all your appointments based on the calendar that you pinned. 
-- **Analytics**:
-- **Manage**:
+- **Bookings schedule**: Access your Bookings schedule here. Connect an existing Bookings calendar or create a new one.
+- **Queue**: View all the appointments in the Bookings calendar that you pinned. Conduct and manage walk-in and scheduled appointments.
+- **Analytics**: See usage details for your team's virtual appointments, including the total number of appointments, duration, lobby wait time of participants, and no shows.
+- **Manage**: Customize appointment types, set reminders, and update business details.
 
 ## What you need to know about Virtual Appointments
+
+Roles
 
 
 ## Set up Virtual Appointments
@@ -55,7 +57,7 @@ Virtual Appointments is enabled by default for all Teams users in your organizat
 
 To allow or block specific users in your organization from using Virtual Appointments, make sure Virtual Appointments is turned on for your organization on the [Manage apps](manage-apps.md) page. Then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
-### Use an app setup policy to pin Virtual appointments to Teams
+### Use an app setup policy to pin Virtual Appointments to Teams
 
 App setup policies let you customize Teams to highlight the apps that are most important for users in your organization. The apps you set in a policy are pinned to the app bar—the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients—where users can quickly and easily access them.
 
