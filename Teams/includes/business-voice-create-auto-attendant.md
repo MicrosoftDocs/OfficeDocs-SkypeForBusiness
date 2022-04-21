@@ -6,6 +6,8 @@ This video shows a basic example of how to create an auto attendant in Microsoft
 
 ### Follow these steps to set up your auto attendant
 
+<a name="#steps"></a>
+
 # [Step 1 - General info](#tab/general-info)
 
 ## General info
