@@ -35,7 +35,7 @@ Virtual appointments includes the following tabs:
 
 - **Home**: This tab brings together key information, actions, and updates in a dashboard. From here, you can
 - **Bookings schedule**: Access your Bookings calendar to schedule virtual appointments such as healthcare visits, financial consultations, interviews, education office hours, and virtual fittings and consultations. You can connect an existing Bookings calendar or create a new one.
-- **Queue**: View all the appointments in the Bookings calendar that you pinned. Conduct and manage walk-in and scheduled appointments.
+- **Queue**: View all appointments in the Bookings calendar that you pinned. Conduct and manage walk-in and scheduled appointments.
 - **Analytics**: Get insight into usage details for your team's virtual appointments. View key metrics such as total number of appointments, appointment duration, lobby wait time, and no shows.
 - **Manage**: Customize appointment types, set reminders, and update business details.
 
