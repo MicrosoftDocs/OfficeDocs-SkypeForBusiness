@@ -29,9 +29,6 @@ Kaizala Pro capabilities are now available in Teams and include Kaizala actions 
 
 Enabling every member of an organization’s network with digital communication and collaboration tools can transform the way work gets done. This overview will help you start your transition from Kaizala to Microsoft Teams today.
 
->[!NOTE]
-> In light of the sudden shift to remote work in 2020, we pivoted resources to respond to the exponential increase in Microsoft Teams usage and supporting customers in maintaining continuity during this unprecedented and challenging time. As a result, our efforts to bring additional Kaizala features to teams have been [delayed](https://techcommunity.microsoft.com/t5/microsoft-kaizala-blog/update-on-kaizala-features-in-microsoft-teams/ba-p/1497289). We look forward to providing an update on timing in the coming months as we make adjustments.
-
 Keep reading for frequently asked questions about Kaizala and Teams.
 
 ## FAQ
