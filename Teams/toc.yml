@@ -1581,8 +1581,6 @@ items:
           href: resource-specific-consent.md
         - name: Understand about app permissions and access to resources
           href: app-permissions.md
-        - name: Admin settings for apps in Teams
-          href: admin-settings.md
         - name: App behavior based on types of users
           href: non-standard-users.md
         - name: Update apps to newer versions as end-users
