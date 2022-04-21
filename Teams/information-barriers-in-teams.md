@@ -20,7 +20,7 @@ ms.custom: seo-marvel-apr2020
 
 # Information barriers in Microsoft Teams
 
-[Information barriers](/microsoft-365/compliance/information-barriers) (IBs) are policies that an admin can configure to prevent individuals or groups from communicating with each other. IBs are useful if, for example, one department is handling information that shouldn't be shared with other departments. IBs are also useful when a group needs to be isolated or prevented from communicating with anyone outside of that group. Shared channels in Microsoft Teams is supported by information barriers. Depending on the type of sharing, information barriers policies may restrict sharing in certain ways. For more information about shared channels and information barriers behavior, see [Information barriers and Shared Channels](information-barriers-shared-channels.md).
+[Microsoft Purview Information Barriers](/microsoft-365/compliance/information-barriers) (IBs) are policies that an admin can configure to prevent individuals or groups from communicating with each other. IBs are useful if, for example, one department is handling information that shouldn't be shared with other departments. IBs are also useful when a group needs to be isolated or prevented from communicating with anyone outside of that group. Shared channels in Microsoft Teams is supported by information barriers. Depending on the type of sharing, information barriers policies may restrict sharing in certain ways. For more information about shared channels and information barriers behavior, see [Information barriers and Shared Channels](information-barriers-shared-channels.md).
 
 For Microsoft Teams, information barriers can determine and prevent the following kinds of unauthorized collaborations:
 
@@ -62,14 +62,14 @@ The Information Barrier Policy Evaluation Service determines whether a communica
 
 ## Managing information barrier policies
 
-IB policies are managed in the Microsoft 365 Compliance Center (SCC) using PowerShell cmdlets. For more information, see [Define policies for information barriers](/office365/securitycompliance/information-barriers-policies).
+IB policies are managed in the Microsoft Purview compliance portal (SCC) using PowerShell cmdlets. For more information, see [Define policies for information barriers](/office365/securitycompliance/information-barriers-policies).
 
 >[!IMPORTANT]
 >Before you set up or define policies, you must enable scoped directory search in Microsoft Teams. Wait at least a few hours after enabling scoped directory search before you set up or define policies for information barriers. For more information, see [Define information barrier policies](/office365/securitycompliance/information-barriers-policies#prerequisites).
 
 ## Information barriers administrator role
 
-The IB Compliance Management role is responsible for managing IB policies. For more information about this role, see [Permissions in the Microsoft 365 Compliance Center](/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
+The IB Compliance Management role is responsible for managing IB policies. For more information about this role, see [Permissions in the Microsoft Purview compliance portal](/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
 
 ## Information barrier triggers
 
