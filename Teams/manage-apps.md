@@ -112,6 +112,8 @@ When you block or allow an app on the Manage apps page, that app is blocked or a
 
 Users can send a request to install or add a blocked app from the Teams store, a request is sent to the IT admin for the approval. The admin unblocks the app by reviewing app permission and policies.
 
+  :::image type="content" source="media/blocked_apps.png" alt-text="Screenshot of requesting blocked apps" border="true":::
+
 ### To view a request
 
  1. Sign in to the [Teams admin center](https://admin.teams.microsoft.com/dashboard).
