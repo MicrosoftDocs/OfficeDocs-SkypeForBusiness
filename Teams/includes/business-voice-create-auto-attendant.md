@@ -4,173 +4,113 @@ This video shows a basic example of how to create an auto attendant in Microsoft
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEnCG?autoplay=false]
 
-## Before you begin
-
-Get the service numbers (service numbers are a special type of phone number that are used by auto attendants) that you need for the auto attendants that you want to be accessible by direct dialing from outside your organization. This might include [transferring numbers from another provider](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) or [requesting new service numbers](../getting-service-phone-numbers.md).
-
-Each auto attendant needs to be assigned a *Microsoft Teams Phone Standard - Virtual User* license. When you purchased Teams Phone Standard or Teams Phone with Calling Plan bundle licenses, you also received a number of *Microsoft Teams Phone Standard - Virtual User* licenses, so you probably don't need to request more. However, if you need more in the future, you can get them by following the instructions in [Teams Phone Standard - Virtual User license](../teams-add-on-licensing/virtual-user.md).
-
-If you want to have your auto attendant route calls differently on holidays, then [create the holidays that you want to use](../set-up-holidays-in-teams.md) before you create the auto attendant.
-
-<a name="steps"></a>
-
 ### Follow these steps to set up your auto attendant
 
-# [Step 1 - Phone number](#tab/phone-number)
+# [Step 1 - General info](#tab/general-info)
 
-## Assign a phone number
+## General info
 
-Each auto attendant that you create requires a resource account. This is similar to a user account, except the account is associated with an auto attendant or call queue instead of a person. In this step, we'll create the account, assign it a *Microsoft Teams Phone Standard - Virtual User* license, and then assign a service number.
+![Screenshot of auto attendant settings for name, operator, time zone, language, and voice inputs.](../media/auto-attendant-general-info-page-new.png)
 
-### Create a resource account
+1. Type a name for the auto attendant in the box at the top.
 
-You can create a resource account in the Teams admin center.
+2. To designate an operator, specify the destination for calls to the operator. This designation is optional (but recommended). Set the **Operator** option to allow callers to break out of the menus and speak to a designated person.
 
-1. In the Teams admin center, expand **Org-wide settings**, and then select **Resource accounts**.
+3. Specify the time zone for this auto attendant. The time zone is used for calculating business hours if you [create a separate call flow for after hours](?tabs=after-hours).
 
-2. Select **Add**.
+4. Specify a [supported language](../create-a-phone-system-auto-attendant-languages.md) for this auto attendant. This is the language that will be used for system-generated voice prompts.
 
-3. In the **Add resource account** pane, fill out **Display name**, **Username**, and choose **Auto attendant** for the **Resource account type**
+5. Choose if you want to enable voice inputs. When enabled, the name of every menu option becomes a speech-recognition keyword. For example, callers can say "One" to select the menu option mapped to key 1, or they can say "Sales" to select the menu option named "Sales."
 
-4. Select **Save**.
+   > [!NOTE]
+   > If you choose a language in Step 4 that doesn't support voice inputs this option will be disabled.
 
-    The new account will appear in the list of accounts.
+6. Select **Next**.
 
-### Assign a license
+# [Step 2 - Call flow](#tab/call-flow)
 
-You must assign a *Microsoft Teams Phone Standard - Virtual User* license to the resource account.
+## Call flow
 
-1. In the Microsoft 365 admin center, select the resource account to which you want to assign a license.
+![Screenshot of greeting message settings.](../media/auto-attendant-call-flow-greeting-message.png)
 
-2. On the **Licenses and Apps** tab, under **Licenses**, select **Microsoft Teams Phone Standard - Virtual User**.
+Choose if you want to play a greeting when the auto attendant answers a call.
 
-3. Select **Save changes**.
+If you select **Play an audio file** you can use the **Upload file** button to upload a recorded greeting message saved as audio in .WAV, .MP3, or .WMA format. The recording can be no larger than 5 MB.
 
-### Assign a service number
+If you select **Type a greeting message** the system will read the text that you type (up to 1000 characters) when the auto attendant answers a call.
 
-If you need this auto attendant to be reachable by a phone number, then assign that number to the resource account.
+![Screenshot of call routing settings.](../media/auto-attendant-call-flow-route-call-message.png)
 
-1. In the Teams admin center, on the **Resource accounts** page, select the resource account to which you want to assign a service number, and then select **Assign/unassign**.
+Choose how you want to route the call.
 
-2. In the **Phone number type** dropdown, choose the type of number that you want to use.
+If you select **Disconnect**, the auto attendant will hang up the call.
 
-3. In the **Assigned phone number** box, search for the number you want to use and select **Add**.
+If you select **Redirect call**, you can choose one of the call routing destinations.
 
-4. Select **Save**.
+If you select **Play menu options**, you can choose to **Play an audio file** or **Type in a greeting message** and then choose between menu options and directory search.
 
-> [!div class="nextstepaction"]
-> [Step 2 - Auto attendant general info >](?tabs=general-info#steps)
+### Menu options
 
-# [Step 2 - Attendant general info](#tab/general-info)
+![Screenshot of dial key options.](../media/auto-attendant-call-flow-menu-options-complete.png)
 
-## Prepare auto attendants
+For dialing options, assign the 0-9 keys on the telephone keypad to one of the call routing destinations. (The keys \* (asterisk) and \# (pound) are reserved by the system and can't be reassigned. Pressing either of these keys will repeat the current menu.)
 
-To set up an auto attendant
+> [!NOTE]
+> The # key only backs up to the most recent auto attendant. Once the boundary is crossed to a new auto attendant, the # key will not be able to take you to the previous one.
 
-1. In the Teams admin center, expand **Voice**, select **Auto attendants**, and then select **Add**.
+Key mappings don't have to be continuous. It's possible to create a menu with keys 0, 1, and 3 mapped to options, while the number 2 key isn't used.
 
-2. Type a name for the auto attendant in the box at the top.
+We recommend mapping the zero key to the operator if you've configured one. If the operator isn't set to any key, the voice command "Operator" is also disabled.
 
-3. If you want to designate an operator, specify the destination for calls to the operator. This is optional (but recommended). You can set the **Operator** option to allow callers to break out of the menus and speak to a designated person.
+For each menu option, specify the following settings:
 
-4. Specify the time zone for this auto attendant. The time zone is used for calculating business hours if you [create a separate call flow for after hours](?tabs=call-flow#steps).
+- **Dial key** - the key on the telephone keypad to access this option. If voice inputs are available, callers can also say this number to access the option.
 
-5. Specify a [supported language](../create-a-phone-system-auto-attendant-languages.md) for this auto attendant. This is the language that will be used for system-generated voice prompts.
+- **Voice command** - defines the voice command that a caller can give to access this option, if voice inputs are enabled. It can contain multiple words like "Customer Service" or "Operations and Grounds." For example, the caller can press 2, say "two," or say "Sales" to select the option mapped to the two keys. This text is also rendered by text to speech for the service confirmation prompt, which might be something like "Transferring your call to sales."
 
-6. Choose if you want to enable voice inputs. When enabled, the name of every menu option becomes a speech-recognition keyword. For example, callers can say "One" to select the menu option mapped to key 1, or they can say "Sales" to select the menu option named "Sales."
+- **Redirect to** - the call routing destination used when callers choose this option. If you are redirecting to an auto attendant or call queue, choose the resource account associated with it.
 
-7. Select **Next**.
+### Directory search
 
-> [!div class="nextstepaction"]
-> [Step 3 - Call flow >](?tabs=call-flow#steps)
+If you assign dial keys to destinations, we recommend that you choose **None** for **Directory search**. If a caller attempts to dial a name or extension using keys that are assigned to specific destinations, they might be unexpectedly routed to a destination before they finish entering the name or extension. We recommend that you create a separate auto attendant for directory search and have your main auto attendant link to it with a dial key.
 
-# [Step 3 - Call flow](#tab/call-flow)
+If you didn't assign dial keys, then choose an option for **Directory search**.
 
-## Set up call flows
+**Dial by name** - If you enable this option, callers can say the user's name or type it on the telephone keypad. Any online user or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with Dial by name. (You can set who is and isn't included in the directory on the [Dial scope](?tabs=#dial-scope) page.)
 
-Choose your call flow options:
+**Dial by extension** - If you enable this option, callers can connect with users in your organization by dialing their phone extension. Any online user or any user hosted on-premises using Skype for Business Server, is an eligible user and can be found with **Dial by extension**. (You can set who is and isn't included in the directory on the [Dial scope](?tabs=dial-scope) page.)
 
-1. Choose if you want to play a greeting when the auto attendant answers a call.
+Users you want to make available for Dial By Extension need to have an extension specified as part of one of the following phone attributes defined in Active Directory (and synchronized via Azure AD Connect) or Azure Active Directory. (See [Add users individually or in bulk](/microsoft-365/admin/add-users/add-users) for more information.)
 
-    If you select **Play an audio file** you can use the **Upload file** button to upload a recorded greeting message saved as audio in .WAV, .MP3, or .WMA format. The recording can be no larger than 5 MB.
+- OfficePhone/TelephoneNumber (AD and Azure AD)
+- HomePhone (AD)
+- Mobile/MobilePhone (AD and Azure AD)
+- OtherTelephone (AD)
 
-    If you select **Type a greeting message** the system will read the text you the text that you type (up to 1000 characters) when the auto attendant answers a call.
+The required format to enter the extension in the user phone number field can be one of the following formats:
 
-2. Choose how you want to route the call.
+- *+\<phone number>;ext=\<extension>*
+- *+\<phone number>x\<extension>*
+- *x\<extension>*
 
-    If you select **Disconnect**, the auto attendant will hang up the call.
+- Example 1: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678;ext=5678"
+- Example 2: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678x5678"
+- Example 3: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "x5678"
 
-    If you select **Redirect call**, you can choose one of the call routing destinations.
+You can set the extension in the [Microsoft 365 admin center](https://admin.microsoft.com/) or the [Azure Active Directory admin center](https://aad.portal.azure.com). It can take up to 12 hours before changes are available to auto attendants and call queues.
 
-    If you select **Play menu options**, you can choose to **Play an audio file** or **Type in a greeting message** and then choose between menu options and directory search.
+> [!NOTE]
+> If you want to use both the **Dial by name** and **Dial by extension** features, you can assign a dial key on your main auto attendant to reach an auto attendant enabled for **Dial by name**. Within that auto attendant, you can assign the 1 key (which has no letters associated with it) to reach the **Dial by extension** auto attendant.
 
-3. If you want callers to use dial keys to navigate, then under **Set menu options**, choose what you want to happen when callers press a dial key. (If you're creating this auto attendant as a company directory, leave the dial key options blank.)
+Refer to [Dial and voice reference](../dial-voice-reference.md) for more information.
 
-    The keys \* (asterisk) and \# (pound) are reserved by the system and can't be reassigned. Pressing either of these keys will repeat the current menu.
+Once you have selected a **Directory search** option, select **Next**.
 
-    Also, the \# key only backs up to the most recent auto attendant. Once the boundary is crossed to a new auto attendant, the \# key will not be able to take you to the previous one.
+# [Step 3 - After hours](#tab/after-hours)
 
-    You can set any of the dial keys to the following destinations:
+## Call flow for after hours
 
-    - **Person in the organization** - a person in your organization who is able to receive voice calls.
-    - **Voice app** - another auto attendant or a call queue.
-    - **External phone number** - any phone number. Use this format: +[country code][area code][phone number]
-    - **Voicemail** - the voice mailbox associated with a Microsoft 365 group that you specify. You can choose if you want voicemail transcriptions and the "Please leave a message after the tone." system prompt.
-    - **Operator** - the operator defined for the auto attendant. Defining an operator is optional. The operator can be defined as any of the other destinations in this list.
-
-    We recommend setting 0 key to the operator.
-
-    For each menu option, specify the following:
-
-    - **Dial key** - the key on the telephone keypad to access this option. If voice inputs are available, callers can also say this number to access the option.
-
-    - **Voice command** - defines the voice command that a caller can give to access this option, if voice inputs are enabled. It can contain multiple words like "Customer Service" or "Operations and Grounds."
-
-    - **Redirect to** - where you want the call to go when callers choose this option. If you are redirecting to an auto attendant or call queue, choose the resource account associated with it.
-
-4. Directory search
-
-    If you assign dial keys to destinations, we recommend that you choose **None** for **Directory search**. If a caller attempts to dial a name or extension using keys that are assigned to specific destinations, they might be routed to a destination before they finish entering the name or extension. We recommend that you create a separate auto attendant for directory search and have your main auto attendant link to it with a dial key.
-
-    If you didn't assign dial keys, then choose an option for **Directory search**.
-
-    **Dial by name** - If you use this option, callers can say the user's name or type it on the telephone keypad. Under **Directory search**, select **Dial by name**. Any online user with a Teams Phone Standard license, Teams Phone with Calling Plan bundle license, or any user hosted on-premises using Skype for Business Server is an eligible user and can be found with Dial by name.
-
-    You can set who is and isn't included in the directory on the [Dial scope](?tabs=dial-scope#steps) tab.
-
-    **Dial by extension** - If you use this option, callers can connect with users in your organization by dialing their phone extension. You can choose **Dial by extension**, however the extension must be configured in Azure Active Directory.
-
-    Users you want to make available for **Dial By extension** need to have an extension specified as part of one of the following phones attributes. See [Add users individually or in bulk](/microsoft-365/admin/add-users/add-users) for more information.
-
-    - OfficePhone
-    - HomePhone
-    - Mobile/MobilePhone
-    - TelephoneNumber/PhoneNumber
-    - OtherTelephone
-
-    The required format to enter the extension in the user phone number field can be one of the following formats:
-
-    - *+\<phone number>;ext=\<extension>*
-    - *+\<phone number>x\<extension>*
-    - *x\<extension>*
-
-    - Example 1: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678;ext=5678"
-    - Example 2: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678x5678"
-    - Example 3: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "x5678"
-
-    You can set the extension in the [Microsoft 365 admin center](https://admin.microsoft.com/) or the [Azure Active Directory admin center](https://aad.portal.azure.com). It can take up to 12 hours before changes are available to auto attendants and call queues.
-
-    > [!NOTE]
-    > If you want to use both the **Dial by name** and **Dial by extension** features, you can assign a dial key on your main auto attendant to reach an auto attendant enabled for **Dial by name**. Within that auto attendant, you can assign the 1 key (which has no letters associated with it) to reach the **Dial by extension** auto attendant.
-
-5. Once you have selected a **Directory search** option, select **Next**.
-
-> [!div class="nextstepaction"]
-> [Step 4 - After hours call flow >](?tabs=after-hours#steps)
-
-# [Step 4 - After hours](#tab/after-hours)
-
-## After hours call flow
+![Screenshot of after hours day and time settings.](../media/auto-attendant-business-hours.png)
 
 Business hours can be set for each auto attendant. If business hours aren't set, all days and all hours in the day are considered business hours because a 24/7 schedule is set by default. Business hours can be set with breaks in time during the day, and all of the hours that are not set as business hours are considered after-hours. You can set different incoming call-handling options and greetings for after-hours.
 
@@ -178,16 +118,15 @@ Depending on how you have configured your auto attendants and call queues, you m
 
 If you want separate call routing for after-hours callers, then specify your business hours for each day. Select **Add new time** to specify multiple sets of hours for a given day, for example, to specify a lunch break.
 
-Once you have specified your business hours, then choose your call routing options for after hours. The same options are available as for the business hours call routing that you specified in **Step 3 - Call flow**.
+Once you've specified your business hours, then choose your call routing options for after hours. The same options are available as for the business hours call routing that you specified above.
 
 Select **Next** when you're done.
 
-> [!div class="nextstepaction"]
-> [Step 5 - Holiday call flow >](?tabs=holidays#steps)
+# [Step 4 - Holidays](#tab/holidays)
 
-# [Step 5 - Holidays](#tab/holidays)
+## Call flows during holidays
 
-## Holidays call flow
+![Screenshot of holiday and holiday greeting settings.](../media/auto-attendant-holiday-greeting.png)
 
 Your auto attendant can have a call flow for each [Holiday you've set up](../set-up-holidays-in-teams.md). You can add up to 20 scheduled holidays to each auto attendant.
 
@@ -199,24 +138,27 @@ Your auto attendant can have a call flow for each [Holiday you've set up](../set
 
 4. Choose the type of greeting that you want to use.
 
+    ![Screenshot of holiday call action settings.](../media/auto-attendant-holiday-actions.png)
+
 5. Choose if you want to **Disconnect** or **Redirect** the call.
 
 6. If you chose to redirect, choose the call routing destination for the call.
 
 7. Select **Save**.
 
-    Repeat the procedure as needed for each additional holiday.
+![Screenshot of holiday settings with holidays listed.](../media/auto-attendant-holiday-call-settings.png)
 
-    When you've added all your holidays, select **Next**.
+Repeat the procedure as needed for each additional holiday.
 
-> [!div class="nextstepaction"]
-> [Step 6 - Choose who's in the directory >](?tabs=dial-scope#steps)
+When you've added all your holidays, select **Next**.
 
-# [Step 6 - Directory members](#tab/dial-scope)
+# [Step 5 - Dial scope](#tab/dial-scope)
 
-## Define dial scope
+## Dial scope
 
-The *dial scope* defines which users are available in the directory when a caller uses dial-by-name or dial-by-extension. The default of **All online users** includes all users in your organization that are Online users with a Teams Phone license.
+![Screenshot of dial scope include and exclude options.](../media/auto-attendant-dial-scope.png)
+
+The *dial scope* defines which users are available in the directory when a caller uses dial-by-name or dial-by-extension. The default of **All online users** includes all users in your organization that are Online users or hosted on-premises using Skype for Business Server.
 
 You can include or exclude specific users by selecting **Custom user group** under **Include** or **Exclude** and choosing one or more Microsoft 365 groups, distribution lists, or security groups. For example, you might want to exclude executives in your organization from the dialing directory. (If a user is in both lists, they will be excluded from the directory.)
 
@@ -225,22 +167,19 @@ You can include or exclude specific users by selecting **Custom user group** und
 
 When you're done setting the dial scope, select **Next**.
 
-> [!div class="nextstepaction"]
-> [Step 7 - Assign a resource account >](?tabs=resource-accounts#steps)
+# [Step 6 - Resource accounts](#tab/resource-accounts)
 
-# [Step 7 - Resource accounts](#tab/resource-accounts)
+## Resource accounts
 
-## Assign resource accounts
+All auto attendants must have an associated resource account.  First-level auto attendants will need at least one resource account that has an associated service number. If you wish, you can assign several resource accounts to an auto attendant, each with a separate service number.
 
-All auto attendants must have an associated resource account.  First level auto attendants will need at least one resource account that has an associated service number. If you wish, you can assign several resource accounts to an auto attendant, each with a separate service number.
+![Screenshot of resource account add accounts panel.](../media/auto-attendant-add-resource-account.png)
 
-To add a resource account
+To add a resource account, select **Add account** and search for the account that you want to add. Select **Add**, and then select **Add**.
 
-1. Select **Add** and search for the account that you want to add. Select **Add**, and then select **Add**.
+![Screenshot of resource account list showing resource account with assigned service number.](../media/auto-attendant-resource-account-assigned.png)
 
-2. When you have finished adding service accounts, select **Submit**.
-
-    This completes the auto attendant configuration.
+When you have finished adding resource accounts, select **Submit** to complete auto attendant configuration.
 
 See [Manage Teams resource accounts](../manage-resource-accounts.md) for more information.
 
