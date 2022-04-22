@@ -82,7 +82,7 @@ their use with Teams Rooms.  
 |Require Secure Boot to be enabled on the device |Supported |Secure Boot is  a requirement for Teams Rooms. |
 |Require code integrity |Supported  | Code integrity is already a requirement for Teams Rooms. |
 | [**Device Properties**](/mem/intune/protect/compliance-policy-create-windows%22%20/l%20%22device-properties) | -- | -- |
-|Operating System Version (minimum, maximum) |Not supported | Teams Rooms automatically updates to newer versions of Windows and setting values here could prevent successful sign in after an OS update.|
+|Operating System Version (minimum, maximum) |Not supported | Teams Rooms automatically updates to newer versions of Windows and setting values here could prevent successful sign-in after an OS update.|
 |OS version for mobile devices (minimum, maximum) | Not supported. | N/A |
 | Valid operating system builds | Not supported | N/A |
 | [**Configuration Manager Compliance**](/mem/intune/protect/compliance-policy-create-windows%22%20/l%20%22device-properties) | -- | -- |
