@@ -61,15 +61,10 @@ Only a service toll number can be set as the default number for your conferencin
 
 ### Step 3 - Change the default phone numbers that are included in the meeting invites of users (optional)
 
-The default phone numbers of a user are the ones that are included on their meeting invites when they schedule a meeting. For more information, including how the default phone numbers are assigned for new users, see [Set the phone numbers included on invites in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) or [Set the phone numbers included on invites in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
+Refer to [Set the phone numbers included on invites in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md).
 
-1. On the left navigation pane, go to **Users** and click the Display name of the desired user on the list.
-
-2. Next to **Audio conferencing**, click on **Edit**.
-
-3. Under **Toll number** or **Toll-free number**, select the number from the dropdown and click **Apply**.
-
-After the changes have been applied, the new default phone numbers will be included on the meeting invites of organizers the next time they schedule a new meeting.
+> [!NOTE]
+> You can also set phone numbers by adding them to the *TeamsAudioconferencingpolicy* and assigning the policy to your users. Toll and toll-free phone numbers added to the policy take precedence over the phone numbers set individually for users via the audio conferencing settings pane. If no phone numbers are added to the *Teamsaudioconferencingpolicy*, then the phone number set individually for users via the audio conferencing settings pane will be displayed in Microsoft Teams meeting requests. [Audio Conferencing policy settings for toll and toll-free numbers](audio-conferencing-toll-free-numbers-policy.md) has more information.
 
 ### Step 4 - Update existing meeting invites of users using the Meeting Migration Service (optional)
 
@@ -180,7 +175,7 @@ To save time by automating this process, you can use the [Set-CsOnlineDialInConf
 
 ### The Unassign button isn't available
 
-You want to Unassign a number but the button isn't available, and if while hovering over it, you are redirected to contact Support with the following message _"Default or shared numbers can´t be unassigned from the bridge. To unassign dedicated toll numbers, please contact support._".
+You want to Unassign a number but the button isn't available, and if while hovering over it, you are redirected to contact Support with the following message: "Default or shared numbers can´t be unassigned from the bridge. To unassign dedicated toll numbers, please contact support.".
 
 To obtain more information about the bridge(s), run the following Powershell:
 
