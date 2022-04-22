@@ -24,9 +24,9 @@ You manage apps for your organization in **Teams apps** in the admin center. Use
 
 ![Screenshot of the Manage apps page.](media/manage-apps.png)
 
-To manage apps, you use the following policies to control permissions for users, installation of apps, and upload of custom apps created within your organization. To understand policies, see [Overview of app policies](app-policies.md).
+To use Teams admin center, you must be a global admin or Teams service admin. For details, see [Teams administrator roles](./using-admin-roles.md).
 
-To read about getting admin roles and permissions, see [Teams administrator roles](./using-admin-roles.md).
+To manage apps, you use policies to control permissions for users, installation of apps, and upload of custom apps created within your organization. To understand policies, see [Overview of app policies](app-policies.md).
 
 > [!NOTE]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
