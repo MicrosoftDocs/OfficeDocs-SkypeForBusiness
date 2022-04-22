@@ -296,7 +296,7 @@ items:
           href: legal-hold.md
         - name: Content search
           href: content-search.md
-        - name: Teams workflow in Advanced eDiscovery
+        - name: Teams workflow in eDiscovery (Premium)
           href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery
         - name: Auditing
           href: audit-log-events.md
@@ -1581,8 +1581,6 @@ items:
           href: resource-specific-consent.md
         - name: Understand about app permissions and access to resources
           href: app-permissions.md
-        - name: Admin settings for apps in Teams
-          href: admin-settings.md
         - name: App behavior based on types of users
           href: non-standard-users.md
         - name: Update apps to newer versions as end-users
