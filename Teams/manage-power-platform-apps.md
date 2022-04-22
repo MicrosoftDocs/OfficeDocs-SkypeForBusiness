@@ -61,7 +61,7 @@ If a user is allowed to access apps from Power Apps or Power Virtual Agents, and
 
 By default, **Shared Power Apps** and **Shared Power Virtual Agent Apps** are allowed for all Teams users in your organization. You can block or allow them at the org level on the [Manage apps](manage-apps.md) page of the Microsoft Teams admin center.  
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. You must be a global admin or Teams service admin to access the page.
+1. In the left pane of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. You must be a global admin or Teams service admin to access the page.
 2. In the list of apps, do one of the following.
 
     :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="Screenshot of Manage apps page, showing shared Microsoft Power Platform apps":::
