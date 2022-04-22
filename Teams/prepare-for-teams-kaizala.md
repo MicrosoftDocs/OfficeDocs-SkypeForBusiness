@@ -88,7 +88,7 @@ For organizations **not using Teams**:
  4. Use Kaizala and Teams
   
  5. Manage change
-f
+
  6. Plan for your adoption of Teams
 
  7. Move your organization to Teams
