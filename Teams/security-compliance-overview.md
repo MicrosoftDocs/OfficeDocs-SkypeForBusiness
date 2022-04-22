@@ -144,9 +144,9 @@ For more details about how to use eDiscovery tools in the Microsoft Purview comp
 
 We have a Teams-specific article for more information at [Conduct an eDiscovery investigation of content in Microsoft Teams](eDiscovery-investigation.md).
 
-Customers can leverage eDiscovery or [Advanced eDiscovery](/microsoft-365/compliance/office-365-advanced-ediscovery) per their requirements. The following table outlines the differences between the two:
+Customers can leverage eDiscovery or [eDiscovery (Premium)](/microsoft-365/compliance/office-365-advanced-ediscovery) per their requirements. The following table outlines the differences between the two:
 
-|&nbsp; |eDiscovery  |Advanced eDiscovery  |
+|&nbsp; |eDiscovery  |eDiscovery (Premium)  |
 |---------|---------|---------|
 |Case Management     |X        |X         |
 |Access Control  |X         |X         |
@@ -211,7 +211,7 @@ When it comes to information protection capabilities, Microsoft 365 subscription
 For information on determining the licensing needs to implement features for security and compliance, please review the [licensing requirements](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) for security and compliance features.
 
 > [!NOTE]
-> Content search, Core eDiscovery, and Advanced eDiscovery don't need to be enabled in the Microsoft Purview compliance portal to work. For more information, see [Microsoft 365 eDiscovery solutions](/microsoft-365/compliance/ediscovery).
+> Content search, eDiscovery (Standard), and eDiscovery (Premium) don't need to be enabled in the Microsoft Purview compliance portal to work. For more information, see [Microsoft 365 eDiscovery solutions](/microsoft-365/compliance/ediscovery).
 
 ## Location of data in Teams
 
