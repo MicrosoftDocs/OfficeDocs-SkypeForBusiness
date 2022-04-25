@@ -22,6 +22,8 @@ appliesto:
 > [!NOTE]
 > This feature is currently being rolled out and might not be available in your organization yet. To stay on top of upcoming Teams features, check out the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4VuCH]
+
 ## Overview
 
 Teams provides an easy way to pin apps for frontline workers. This feature pins apps based on license to give your frontline workers an out-of-the-box experience in Teams that’s tailored to their needs.
