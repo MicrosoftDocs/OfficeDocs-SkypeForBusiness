@@ -21,6 +21,6 @@ Teams fully supports the following Internet browsers, with noted exceptions for 
 <sup>4</sup> Edge RS2 or later doesn't support sending real-time audio and video traffic through HTTP proxies.
 
 > [!NOTE]
-> Running Teams in a browser is supported on PCs and Macs that meet the minimum [Hardware requirements for Microsoft Teams](../hardware-requirements-for-the-teams-app.md). For example, running Firefox on the Linux operating system is an option for using Teams.
+> Running Teams in a browser is supported on PCs and Macs that meet the minimum [Hardware requirements for Microsoft Teams](../hardware-requirements-for-the-teams-app.md). For example, running Firefox on the Linux operating system is an option for using Teams. * Teams web on any browser is not supported on Windows 10 LTSC.
 >
 > On mobile devices we recommend that you use the Teams app. The Teams app is available from the Android and iOS stores. Running Teams in a browser on mobile devices is supported but many features are unavailable.
