@@ -22,8 +22,6 @@ ms.localizationpriority: medium
 
 You manage apps for your organization in **Teams apps** in the admin center. Use the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page to view and manage all Teams apps in your organization's app catalog. The Manage apps page gives you a view into all available apps in your tenant catalog, providing you with the information you need to decide which apps to allow or block across your organization. You can see the org-level status and properties of apps, block or allow apps at the org level, upload new custom apps to your tenant catalog, and manage org-wide app settings.
 
-v-silakshmi-Store-UI-changes-for-supporting-app-request-flow-for-blocked-apps
-
 ![Screenshot of the Manage apps page.](media/manage-apps.png)
 
 To manage apps, you use the following policies to control permissions for users, installation of apps, and upload of custom apps created within your organization. To understand policies, see [Overview of app policies](app-policies.md).
@@ -140,7 +138,11 @@ When you block or allow an app on the Manage apps page, that app is blocked or a
 
 Users can send a request to install or add a blocked app from the Teams store, a request is sent to the IT admin for the approval. The admin unblocks the app by reviewing app permission and policies.
 
-  :::image type="content" source="media/blocked_apps.png" alt-text="Requesting blocked apps." lightbox="media/blocked_apps.png"border="true":::​
+  :::image type="content" source="media/App-details1.png" alt-text="Place a request for blocked apps approval." lightbox="media/App-details1.png"border="true":::​
+
+  :::image type="content" source="media/app-details-2.png" alt-text="Requesting for approval." lightbox="media/app-details-2.png"border="true":::​
+
+  :::image type="content" source="media/app-details-3.png" alt-text="Requesting blocked apps." lightbox="media/app-details-3.png"border="true":::​
 
 ### To view a request
 
