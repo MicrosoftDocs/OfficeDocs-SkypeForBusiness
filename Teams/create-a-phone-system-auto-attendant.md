@@ -179,7 +179,7 @@ Your auto attendant can have a call flow for each [Holiday you've set up](set-up
 
     ![Screenshot of holiday call action settings.](media/auto-attendant-holiday-actions.png)
 
-5. Choose if you want to **Disconnect**, **Redirect** or **Play menu options**.
+5. Choose if you want to **Disconnect**, **Redirect**, or **Play menu options**.
 
 6. If you chose to redirect, choose the call routing destination for the call.
 
