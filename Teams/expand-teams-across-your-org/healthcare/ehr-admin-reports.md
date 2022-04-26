@@ -41,6 +41,8 @@ Here, you get an at-a-glance view of EHR-integrated virtual appointment activity
 
  ![Screenshot of the EHR connector usage card in the Teams admin center dashboard](../../media/admin-connector-report.png)
 
+ ![Screenshot of the EHR connector usage card in the Teams admin center dashboard](../../media/ehr-connector-report-card.png)
+
 Choose **View details** to see report details. To purchase more licenses, choose **Buy more**.
 
 ### The Teams EHR connector Virtual Visits report
@@ -50,22 +52,15 @@ To view the report, you can do one of the following:
 - Choose **View details** in the **EHR connector usage** card in the Teams admin center dashboard. Then, choose a date range and select **Run report**.
 - In the left navigation of the Teams admin center, go to **Analytics & reports** > **Usage reports**. On the **View reports** tab, choose **EHR connector virtual visits** and a date range. Then, select **Run report**.
 
- ![Screenshot of the Teams EHR connector Virtual Visits report in the Teams admin center](../../media/ehr-connector-report.png)
-
 The table gives you more information about each Teams EHR-integrated virtual appointment that took place during the selected date range.
 
-|Column  |Description  |
-|---------|---------|
-|Start time (UTC)  | The date and time when both a staff member and participant are in the appointment or when the first activity happened in the appointment.      |
-|Duration    | The time difference between the start time and when the last person leaves the appointment. If both a staff member and a participant didn’t join the appointment, duration shows as 0 (zero).        |
-|Name     | ??        |
-|Email    | Email address of ??       |
-|Department    | The department ID that's associated with the integration record in the EHR system.        |
-|Attendees    | The total number of staff members and participants in the appointment.        |
-|Visit within limit  | Whether the appointment is within the allocation limit.      |
+|Callout |Description  |
+|--------|-------------|
+|**1**   |Each report has a date for when the report was generated. The reports usually reflect a 24 to 48-hour latency from time of activity. |
+|**2**   |The table gives you detailed information about each appointment that took place during the selected date range. <ul><li>**Start time (UTC)** is the date and time when both a staff member and participant are in the appointment or when the first activity happened in the appointment.  </li> <li>**Duration** is the time difference between the start time and when the last person leaves the meeting. If both a staff member and a participant didn’t join the meeting, duration shows as 0 (zero).</li> <li>**Name** shows the ??. <li>**Email** is the email address of.</li> <li> **Department** is the department ID that's associated with the integration record in the EHR system.. </li></li> <li>**Attendees** is the total number of staff members and participants in the appointment.</li> <li>**Within limit** indicates whether the appointment is within the allocation limit. </li> </ul> |
 
 > [!NOTE]
-> For more analytics on Teams EHR-integrated virtual appointments, see [Virtual Visits usage report](../../teams-analytics-and-reports/virtual-visits-usage-report.md). You can view key metrics such as lobby wait time, appointment duration, and no shows. Use this information to gain insight into usage trends to help you optimize virtual appointments to deliver better business outcomes.
+> For more analytics on Teams EHR-integrated virtual appointments, see [Virtual Visits usage report](../../teams-analytics-and-reports/virtual-visits-usage-report.md). With this report, you can view key metrics such as total appointments, lobby wait time, appointment duration, and no shows. Use this information to gain insight into usage trends to help you optimize virtual appointments to deliver better business outcomes.
 
 ## Related articles
 
