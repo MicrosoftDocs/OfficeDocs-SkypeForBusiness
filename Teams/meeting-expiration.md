@@ -160,6 +160,13 @@ You'll see file statistics that show:
 - The trend of viewers and views day-by-day for the last 90 days
 - Viewership retention (which part of the video was viewed or not viewed)
 
+### When will the file be deleted?
+
+The file will be deleted within five days of the expiration date, though this isn't a strict guarantee. The file owner will receive an email notification when the recording expires and will be directed to the recycle bin to recover the recording.
+
+> [!NOTE]
+> On the expiration date, the recording is moved into the recycle bin and the expiration date field is cleared. If you recover the recording from the recycle bin, it won't be deleted by this feature again because the expiration date has been cleared.
+
 ## Related topics
 
 [Change meeting expiration date - end-user controls](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date)
@@ -169,5 +176,3 @@ You'll see file statistics that show:
 [Assign policies to your users in Teams](policy-assignment-overview.md)
 
 [Teams PowerShell overview](teams-powershell-overview.md)
-
-
