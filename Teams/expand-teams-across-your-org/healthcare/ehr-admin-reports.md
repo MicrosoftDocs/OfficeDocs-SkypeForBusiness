@@ -1,8 +1,8 @@
 ---
-title: Virtual appointments in Teams -  EHR connector admin reports
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+title: Microsoft Teams EHR connector Virtual Visits report
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
@@ -21,27 +21,35 @@ ms.collection:
   - m365solution-scenario
 appliesto: 
   - Microsoft Teams
-ms.reviewer: ansantam
-description: View admin reports for Teams EHR connector appointments.
+ms.reviewer: 
+description: Learn how to use the EHR connector Virtual Visits report in the Microsoft Teams admin center to get an overview of EHR-integrated virtual appointment activity in your organization. 
 ---
 
-# Microsoft Teams EHR connector admin reports
+# Microsoft Teams EHR connector Virtual Visits report
 
-The Microsoft Teams Electronic Health Record (EHR) connector admin report dialog provides a quick and easy to read view of usage data.
+The Microsoft Teams Electronic Health Record (EHR) connector Virtual Visits report in the Microsoft Teams admin center gives you a quick and easy way to view Teams EHR-integrated virtual appointment activity in your organization.
 
-You can see the Teams EHR connector admin report by going to the Microsoft Teams admin center dashboard and viewing the dialog there.
+To view the report, you must be a global admin or a Teams admin. 
 
-Access the report from the Microsoft Teams admin center dashboard.
+## View the report
 
- ![a dialog of virtual appointments allocations and limits.](../../media/admin-connector-report.png)
+## The EHR connector usage card
 
-The dialog provides the following data:
+In the left navigation of the Microsoft Teams admin center, choose **Dashboard**. and then go to the **EHR connector usage** card. Here, you get an at-a-glance view of EHR-integrated virtual appointment activity by month, including completed appointments, remaining allocation, and whether you've exceeded the monthly limit.
 
-- Exceeded limit
-- Remaining allocation
-- Completed appointments
+ ![Screenshot of the EHR connector usage card in the Teams admin center dashboard](../../media/admin-connector-report.png)
 
-You can use the report dialog to buy more virtual appointments.
+Choose **View details** to see a detailed report. To purchase more licenses, choose **Buy more**.
+
+## The Teams EHR connector Virtual Visits report
+
+To view the report, you can do one of the following:
+
+- Choose **View details** in the **EHR connector usage** card in the Teams admin center dashboard.
+- In the left navigation of the Teams admin center, go to **Analytics & reports** > **Usage reports**. Then, on the **View reports** tab, under **Report**, select **EHR connector virtual visists** usage.
+
+
+## 
 
 ## Related articles
 
