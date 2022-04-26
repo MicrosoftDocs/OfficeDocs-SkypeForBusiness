@@ -87,7 +87,7 @@ However, because Microsoft Teams Rooms uses [resource owner password credentials
 - MFA isn't supported regardless of the topology you have.
 - Microsoft Teams Rooms does not support SIP and UPN mismatch. You must create a Microsoft Teams Rooms account with the same UPN and SIP for it to work.
 - If you use a third-party authentication provider that's supported by Azure AD, it must support an active authentication flow through WS-Trust.
-- Do not use device-level conditional access policies for a resource account configured with the application. Doing so will result in sign-in failures. Instead, enroll a device in Microsoft Intune and apply compliance policies by using the guidance published in [Managing Teams Meeting Rooms with Intune](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230).
+- Do not use device-level conditional access policies for a resource account configured with the application. Doing so will result in sign-in failures. Instead, enroll a device in Microsoft Intune and apply compliance policies by using the guidance published in [Conditional Access and Intune compliance for Microsoft Teams Rooms](conditional-access-and-compliance-for-devices.md).
 
 ### Configure Exchange Server
 
@@ -105,4 +105,4 @@ If your setup doesn't allow for hybrid modern authentication or you need to remo
 
 You can configure a resource account used with Microsoft Teams Rooms for IP/location-based access. To learn more, see [Conditional Access: Block access by location](/azure/active-directory/conditional-access/howto-conditional-access-policy-location).
 
-No other conditional access policies are supported. For more information about device compliance, see [Managing Teams Meeting Rooms with Intune](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230).
+No other conditional access policies are supported. For more information about device compliance, see [Conditional Access and Intune compliance for Microsoft Teams Rooms](conditional-access-and-compliance-for-devices.md).
