@@ -52,6 +52,8 @@ To view the report, you can do one of the following:
 - Choose **View details** in the **EHR connector usage** card in the Teams admin center dashboard. Then, choose a date range and select **Run report**.
 - In the left navigation of the Teams admin center, go to **Analytics & reports** > **Usage reports**. On the **View reports** tab, choose **EHR connector virtual visits** and a date range. Then, select **Run report**.
 
+![Screenshot of the Teams EHR connector Virtual Visits report in the Teams admin center](../../media/ehr-connector-report.png)
+
 The table gives you more information about each Teams EHR-integrated virtual appointment that took place during the selected date range.
 
 |Callout |Description  |
