@@ -54,8 +54,6 @@ To view the report, you can do one of the following:
 
 ![Screenshot of the Teams EHR connector Virtual Visits report in the Teams admin center](../../media/ehr-connector-report.png)
 
-The table gives you more information about each Teams EHR-integrated virtual appointment that took place during the selected date range.
-
 |Callout |Description  |
 |--------|-------------|
 |**1**   |Each report has a date for when the report was generated. The reports usually reflect a 24 to 48-hour latency from time of activity. |
