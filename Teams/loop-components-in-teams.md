@@ -67,9 +67,9 @@ Version History allows you to review and copy from previous versions of the file
 
 .fluid files can only be opened as links in your browser, such as Office.com, and as Loop components in Teams chat. If downloaded, they can't be opened again without first uploading them back to OneDrive or SharePoint.
 
-## Does .fluid files support eDiscovery? 
-.fluid files are discoverable but have limited eDiscovery workflow support. Currently, .fluid files are stored in the creator’s OneDrive for Business and are available for search and collection in both eDiscovery (Standard) and eDiscovery (Premium). However, they do not render in preview and the export format for review is not consumable by existing tools. To view the exported content, upload them to any OneDrive for Business.
-Microsoft is working on an offline consumable export format. In the meantime, if this workaround for review flows is not sufficient for your organization’s needs, you can temporarily disable these experiences as outlined in the [Settings management](https://docs.microsoft.com/en-us/sharepoint/manage-loop-components#settings-management) section.
+## Does .fluid files support eDiscovery?
+
+.fluid files are discoverable but have limited eDiscovery workflow support. Currently, .fluid files are stored in the creator's OneDrive for Business and are available for search and collection in both eDiscovery (Standard) and eDiscovery (Premium). However, they do not render in preview and the export format for review is not consumable by existing tools. To view the exported content, upload them to any OneDrive for Business. If desired, you can temporarily disable these experiences as outlined in the [Settings management](#settings-management) section.
 
 ## Known issues
 
