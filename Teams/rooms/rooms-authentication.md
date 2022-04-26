@@ -28,7 +28,7 @@ Modern authentication is supported on Microsoft Teams Rooms version 4.4.25.0 and
 
 When you use modern authentication with the Microsoft Teams Rooms application, Active Directory Authentication Library (ADAL) is used to connect to Microsoft Teams, Exchange, and Skype for Business. The modern authentication mechanism uses the [resource owner password credentials](/azure/active-directory/develop/v2-oauth-ropc) authorization grant type in OAuth 2.0, which doesn't require any user intervention. This is one of the key differences between how modern authentication works for user accounts versus resource accounts that are used by Microsoft Teams Rooms. Because of this, Microsoft Teams Rooms resource accounts shouldn't be configured to use multi-factor authentication (MFA), smart card authentication, or client certificate-based authentication (which are all available for end users).
 
-The other key difference between how modern authentication works on Microsoft Teams Rooms and end-user devices is that you can't use a resource account to apply device-level conditional access policies in Azure Active Directory and Endpoint Manager as device info is not passed when using this grant type. Instead, you can enroll a device in Microsoft Endpoint Manager and apply compliance policies by using the guidance provided in [Managing Teams Meeting Rooms with Intune](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230).
+The other key difference between how modern authentication works on Microsoft Teams Rooms and end-user devices is that you can't use a resource account to apply device-level conditional access policies in Azure Active Directory and Endpoint Manager as device info is not passed when using this grant type. Instead, you can enroll a device in Microsoft Endpoint Manager and apply compliance policies. See [Conditional Access and Intune compliance for Microsoft Teams Rooms](conditional-access-and-compliance-for-devices.md) for more information.
 
 ## Enable modern authentication on Microsoft Teams Rooms
 
@@ -87,7 +87,7 @@ However, because Microsoft Teams Rooms uses [resource owner password credentials
 - MFA isn't supported regardless of the topology you have.
 - Microsoft Teams Rooms does not support SIP and UPN mismatch. You must create a Microsoft Teams Rooms account with the same UPN and SIP for it to work.
 - If you use a third-party authentication provider that's supported by Azure AD, it must support an active authentication flow through WS-Trust.
-- Do not use device-level conditional access policies for a resource account configured with the application. Doing so will result in sign-in failures. Instead, enroll a device in Microsoft Intune and apply compliance policies by using the guidance published in [Conditional Access and Intune compliance for Microsoft Teams Rooms](conditional-access-and-compliance-for-devices.md).
+- Do not use device-level conditional access policies for a resource account configured with the application. Doing so will result in sign-in failures. Instead, enroll a device in Microsoft Intune and apply compliance policies. See [Conditional Access and Intune compliance for Microsoft Teams Rooms](conditional-access-and-compliance-for-devices.md) for more information.
 
 ### Configure Exchange Server
 
@@ -105,4 +105,4 @@ If your setup doesn't allow for hybrid modern authentication or you need to remo
 
 You can configure a resource account used with Microsoft Teams Rooms for IP/location-based access. To learn more, see [Conditional Access: Block access by location](/azure/active-directory/conditional-access/howto-conditional-access-policy-location).
 
-No other conditional access policies are supported. For more information about device compliance, see [Conditional Access and Intune compliance for Microsoft Teams Rooms](conditional-access-and-compliance-for-devices.md).
+No other conditional access policies are supported. For more information about device compliance, see [Supported Conditional Access and Intune compliance policies for Microsoft Teams Rooms](supported-ca-and-compliance-policies.md).
