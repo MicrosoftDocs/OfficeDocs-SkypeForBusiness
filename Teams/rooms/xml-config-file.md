@@ -273,7 +273,7 @@ End-users can switch from the default display layout using the layout picker dur
 
 ## Turn off Front row
 
-Front row is enabled by default. Turn off Front row if you don't want allow end-users to use Front row in a certain room. To do this, add ```<FrontRowEnabled>false</FrontRowEnabled>``` to your XML configuration file.
+Front row is enabled by default. Turn off Front row if you don't want to allow end-users to use Front row in a certain room. To do this, add ```<FrontRowEnabled>false</FrontRowEnabled>``` to your XML configuration file.
 
 ## Set Front of Room scale and resolution
 
