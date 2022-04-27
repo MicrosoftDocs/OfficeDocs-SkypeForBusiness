@@ -148,7 +148,7 @@ This table describes how Teams uses bandwidth. Teams is always conservative on b
       **Modality**
    :::column-end:::
    :::column span="3":::
-      **Bandwidth requirements (bitrate kB/s up/down)**    
+      **Bandwidth requirements (bitrate kilobit/s up/down)**    
    :::column-end:::
 :::row-end:::
 :::row:::
