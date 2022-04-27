@@ -16,6 +16,7 @@ f1.keywords:
 description: Connectors keep your team current by delivering content and updates from services you frequently use directly into a channel.
 appliesto: 
   - Microsoft Teams
+ms.localizationpriority: high
 ms.custom: seo-marvel-mar2020
 ---
 

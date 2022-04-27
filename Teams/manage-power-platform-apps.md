@@ -14,7 +14,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-ms.localizationpriority: medium
+ms.localizationpriority: high
 search.appverid: MET150
 description: Learn how to manage access to custom apps built on Microsoft Power Platform in the Microsoft Teams admin center.
 ---

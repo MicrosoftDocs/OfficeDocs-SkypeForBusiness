@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: v-quhur
 f1.keywords:
 - NOCSH
-ms.localizationpriority: medium
+ms.localizationpriority: high
 search.appverid: MET150
 ms.collection: 
   - M365-collaboration

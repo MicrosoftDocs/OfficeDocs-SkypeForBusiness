@@ -9,7 +9,7 @@ ms.reviewer:
 search.appverid: 
 description: Learn about policies in Teams application.
 audience: admin
-ms.localizationpriority: medium
+ms.localizationpriority: high
 MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration

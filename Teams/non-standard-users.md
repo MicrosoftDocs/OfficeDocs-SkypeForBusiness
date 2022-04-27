@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Learn how apps in Microsoft Teams behave for different types of users.
-ms.localizationpriority: medium
+ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 ms.collection: 

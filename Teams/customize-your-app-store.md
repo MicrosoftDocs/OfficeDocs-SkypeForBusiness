@@ -15,7 +15,7 @@ f1.keywords:
 - NOCSH
 appliesto: 
 - Microsoft Teams
-ms.localizationpriority: medium
+ms.localizationpriority: high
 search.appverid: MET150
 description: Learn about the custom apps store in Microsoft Teams. 
 ---
