@@ -296,7 +296,7 @@ items:
           href: legal-hold.md
         - name: Content search
           href: content-search.md
-        - name: Teams workflow in Advanced eDiscovery
+        - name: Teams workflow in eDiscovery (Premium)
           href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery
         - name: Auditing
           href: audit-log-events.md
@@ -505,7 +505,7 @@ items:
       href: turn-off-teams-native-file-upload-policy.md
     - name: Set up channel moderation in Teams
       href: manage-channel-moderation-in-teams.md
-    - name: Manage loop components
+    - name: Manage Loop components
       href: loop-components-in-teams.md
     - name: Teams and Outlook email integration
       href: teams-outlook-email-integration.md
@@ -740,6 +740,8 @@ items:
                 - name: Enable or disable sending emails when Audio Conferencing settings change
                   href: enable-or-disable-sending-emails-when-their-settings-change-in-teams.md
                 - name: Policy settings for toll and toll-free numbers
+                  href: audio-conferencing-toll-free-numbers-policy.md
+                - name: Disabling toll-free numbers for specific users
                   href: disabling-toll-free-numbers-for-specific-teams-users.md
                 - name: Outbound calling restriction policies for Audio Conferencing and user PSTN call
                   href: outbound-calling-restriction-policies.md
@@ -1580,8 +1582,6 @@ items:
           href: resource-specific-consent.md
         - name: Understand about app permissions and access to resources
           href: app-permissions.md
-        - name: Admin settings for apps in Teams
-          href: admin-settings.md
         - name: App behavior based on types of users
           href: non-standard-users.md
         - name: Update apps to newer versions as end-users

@@ -1,7 +1,7 @@
 ---
 title: Use Content Search in Microsoft Teams
-author: markjjo
-ms.author: markjjo
+author: v-tophillips
+ms.author: v-tophillips
 manager: laurawi
 ms.topic: article
 audience: admin
