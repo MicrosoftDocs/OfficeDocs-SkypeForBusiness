@@ -14,7 +14,7 @@ appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn about app permission policies in Microsoft Teams and how to use them to control what apps are available for users in your organization.
+description: Learn about app permission policies in Microsoft Teams and how to control apps availability for your end-users.
 f1.keywords:
 - CSH
 ms.custom: 
@@ -84,9 +84,12 @@ You can use the Teams admin center to edit a policy, including the global policy
 
 In a Microsoft 365 Government - GCCH and DoD deployment of Teams, it's important to know the following about third-party app settings, which are unique to GCCH and DoD.
 
-In GCCH and DoD, all third-party apps are blocked by default. Additionally, you'll see the following note about managing third-party apps on the app permission policies page in the Microsoft Teams admin center.
+In GCC, GCCH, and DoD deployments, all third-party apps are blocked by default. Additionally, in GCC, you see the following note about managing third-party apps on the app permission policies page in the Microsoft Teams admin center.
 
-![Screenshot of app permission policy in GCCH and DoD.](media/app-permission-policies-gcc.png)
+:::image type="content" source="media/app-permission-policies-gcc-trimmed.png" alt-text="Screenshot of app permission policy in GCCH and DoD." lightbox="media/app-permission-policies-gcc.png":::
+
+> [!NOTE]
+> In GCCH and DOD clouds, the third-party apps are not available.
 
 Use org-wide app settings to control whether users can install third-party apps. Org-wide app settings govern the behavior for all users and override any other app permission policies assigned to users. You can use them to control malicious or problematic apps.
 

@@ -34,8 +34,8 @@ For details about each client's capabilities on different platforms, see [Teams 
 
 The Teams desktop client is available as a standalone application and as part of [Microsoft 365 Apps for enterprise](/deployoffice/teams-install) for the following operating systems:
 
-- 32-bit and 64-bit versions of Windows (8.1 or later)
-- ARM64 for Windows 10 on ARM
+- 32-bit and 64-bit versions of Windows (8.1 or later, excluding Windows 10 LTSC) 
+- ARM64 for Windows 10 on ARM 
 - Windows Server (2012 R2 or later)
 - macOS
 - Linux (in `.deb` and `.rpm` formats)

@@ -72,9 +72,6 @@ If you want people to access meetings that were previously scheduled or started 
 
 ## Changes to meeting expiration
 
-> [!IMPORTANT]
-> If you want to enable Teams meeting expiration on your tenant early, apply to the [Microsoft Teams meeting expiration early adopter program](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR8YMDA0A9INMv_DZ8yW5uG1URDc3U1VVMklPTzVMS0RLR0pUQTlWU1BEVC4u).
-
 All newly created Teams meeting recordings (TMRs) will have a default expiration of 120 days. This is on by default for all tenants. This means that by default, all TMRs created *after this feature was turned on* will be deleted 120 days after their creation date. Admins can also set meetings to **never auto-expire**. The OneDrive and SharePoint system will monitor the expiration date set on all TMRs and will automatically move TMRs to the recycle bin on their expiration date.
 
 > [!NOTE]
@@ -163,6 +160,13 @@ You'll see file statistics that show:
 - The trend of viewers and views day-by-day for the last 90 days
 - Viewership retention (which part of the video was viewed or not viewed)
 
+### When will the file be deleted?
+
+The file will be deleted within five days of the expiration date, though this isn't a strict guarantee. The file owner will receive an email notification when the recording expires and will be directed to the recycle bin to recover the recording.
+
+> [!NOTE]
+> On the expiration date, the recording is moved into the recycle bin and the expiration date field is cleared. If you recover the recording from the recycle bin, it won't be deleted by this feature again because the expiration date has been cleared.
+
 ## Related topics
 
 [Change meeting expiration date - end-user controls](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date)
@@ -172,5 +176,3 @@ You'll see file statistics that show:
 [Assign policies to your users in Teams](policy-assignment-overview.md)
 
 [Teams PowerShell overview](teams-powershell-overview.md)
-
-
