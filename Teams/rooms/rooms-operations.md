@@ -36,7 +36,7 @@ The logs will be output as a ZIP file in c:\rigel.
 ### Managing Disk Space
 <a name="Space"> </a>
 
-Downloaded logs on the device can take up disk space. If logs are not regularly cleaned up, they can interer with the normal functionality of the room. Teams Rooms deletes downloaded logs after 30 days. IT admins can override the log clean up using the device registry setting.
+Downloaded logs on the device can take up disk space. If logs are not regularly cleaned up, they can interfere with the normal functionality of the room. Teams Rooms deletes downloaded logs after 30 days. IT admins can override the log clean up using the device registry setting.
 
 |Setting|Allows|
 |:-----|:-----|
