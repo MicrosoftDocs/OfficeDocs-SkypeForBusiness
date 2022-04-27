@@ -35,6 +35,9 @@ To view the report, you must be a global admin or a Teams admin.
 
 There are two ways to access and view the report in the Teams admin center.
 
+- Through the [EHR connector usage card](#the-ehr-connector-usage-card) in the dashboard
+- Directly by choosing [**Teams EHR connector Virtual Visits**](#the-teams-ehr-connector-virtual-visits-report) in **Usage reports**
+
 ### The EHR connector usage card
 
 In the left navigation of the Microsoft Teams admin center, choose **Dashboard**. and then go to the **EHR connector usage** card.
@@ -49,12 +52,12 @@ Choose **View details** to see report details. To purchase more licenses, choose
 
 ### The Teams EHR connector Virtual Visits report
 
-To view the report, you can do one of the following:
-
-- Choose **View details** in the **EHR connector usage** card in the Teams admin center dashboard. Then, choose a date range and select **Run report**.
-- In the left navigation of the Teams admin center, go to **Analytics & reports** > **Usage reports**. On the **View reports** tab, choose **EHR connector virtual visits** and a date range. Then, select **Run report**.
+1. In the left navigation of the Teams admin center, go to **Analytics & reports** > **Usage reports**.
+1. On the **View reports** tab, choose **EHR connector virtual visits** and a date range. Then, select **Run report**.
 
 ![Screenshot of the Teams EHR connector Virtual Visits report in the Teams admin center](../../media/ehr-connector-report.png)
+
+#### Interpret the report
 
 |Callout |Description  |
 |--------|-------------|
