@@ -49,8 +49,6 @@ In the Microsoft 365 admin center, you can assign licenses to users on either:
 
 ## Assign licenses to users on the Licenses page
 
-When you use the **Licenses** page to assign licenses, you assign licenses for a specific product for up to 20 users.
-
 On the **Licenses** page, you see a list of all the products you have subscriptions for, the total number of licenses for each product, how many licenses are assigned, and how many are available.
 
 1. In the [admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), go to the **Billing** > [Licenses](https://go.microsoft.com/fwlink/p/?linkid=842264) page.

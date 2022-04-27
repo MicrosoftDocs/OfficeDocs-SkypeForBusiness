@@ -22,9 +22,9 @@ appliesto:
 
 # Troubleshoot low-bandwidth scenarios for Teams
 
-Numerous network elements can affect performance when working with Microsoft Teams.
+This article will give IT admins the best practices when dealing with low-bandwidth issues in Teams.
 
-Consider the following situations:
+Numerous network elements can affect performance when working with Microsoft Teams.
 
 - Low-speed internet connection for the school.
 - Low-speed internet connection for one or more students.
@@ -32,16 +32,16 @@ Consider the following situations:
 - Outages local to neither the school nor students, but affect performance.
 - Issues with hardware that cause low-bandwidth issues.
 
-This article will give you best practices when dealing with low-bandwidth issues in Teams.
-
 > [!IMPORTANT]
-> Read [How Microsoft Teams uses memory](teams-memory-usage-perf.md) because you may also have resource issues on devices. For Teams network guidance, see [Prepare your organization's network for Microsoft Teams](prepare-network.md).
+> Read [How Microsoft Teams uses memory](teams-memory-usage-perf.md) for resource limitations on devices.
+>
+>For Teams network guidance, see [Prepare your organization's network for Microsoft Teams](prepare-network.md).
 
 ## Resolving low-bandwidth issues for IT admins
 
-School-wide solutions for low-bandwidth issues may not resolve problems quickly enough. Some issues may only resolve with a narrow focus taken at the individual user level.
+Some issues may only resolve with a narrow focus at the individual user level.
 
-If bandwidth issues occur for many users or if actions taken at the user level haven't been helpful, taking school-wide action is the next step.
+If bandwidth issues occur for many users or if actions taken at the user level haven't been helpful, school-wide action is the next step.
 
 > [!NOTE]
 > You may also read the [Quality of Experience Review Guide](quality-of-experience-review-guide.md). It's not EDU-specific but has valuable information.
