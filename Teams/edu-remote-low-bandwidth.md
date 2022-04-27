@@ -35,7 +35,7 @@ Consider the following situations:
 This article will give you best practices when dealing with low-bandwidth issues in Teams.
 
 > [!IMPORTANT]
-> Read [How Microsoft Teams uses memory](teams-memory-usage-perf.md) because you may also have resource issues on devices. If you're looking for Teams network guidance, see [Prepare your organization's network for Microsoft Teams](prepare-network.md).
+> Read [How Microsoft Teams uses memory](teams-memory-usage-perf.md) because you may also have resource issues on devices. For Teams network guidance, see [Prepare your organization's network for Microsoft Teams](prepare-network.md).
 
 ## Resolving low-bandwidth issues for IT admins
 
@@ -44,15 +44,13 @@ School-wide solutions for low-bandwidth issues may not resolve problems quickly 
 If bandwidth issues occur for many users or if actions taken at the user level haven't been helpful, taking school-wide action is the next step.
 
 > [!NOTE]
-> You may also want to read the [Quality of Experience Review Guide](quality-of-experience-review-guide.md). It's not EDU-specific but has valuable information. This guide goes in depth on managing Teams meeting quality.
+> You may also read the [Quality of Experience Review Guide](quality-of-experience-review-guide.md). It's not EDU-specific but has valuable information.
 
 ### Meetings and video
 
 Consider the actions below when dealing with meeting issues related to low network bandwidth.
 
 #### Meeting video policies
-
-Low bandwidth primarily affects video quality in meetings.
 
 Teams automatically scales meeting quality to a user's detected bandwidth. However, you can set further restrictions to preserve bandwidth.
 
@@ -65,13 +63,12 @@ For more policies you should set for meetings and video, read [Meeting policy se
 
 #### Screen sharing policies
 
-In Teams, educators can share their entire screen or share individual applications or windows.
+In Teams, users can share their entire screen or individual windows.
 
-Sharing an entire screen uses more bandwidth than just sharing an application or window.
+Sharing an entire screen uses more bandwidth than just sharing a window.
 
-Restricting users from sharing their entire screen can be set via policy.
-
-Alternatively, you can instruct educators to only share applications, not their entire screen.
+- Restrict users from sharing their entire screen via policy.
+- Instruct educators to only share applications, not their entire screen.
 
 Learn about screen sharing policies at [Meeting policy settings in Teams: Audio and video](meeting-policies-audio-and-video.md).
 
@@ -79,15 +76,13 @@ Learn about screen sharing policies at [Meeting policy settings in Teams: Audio 
 
 It may be easier for some students to dial in to classroom sessions.
 
-You can provide a dial-in number for Teams meetings as an alternative to attending a video meeting.
+- Provide a dial-in number for Teams meetings as an alternative to attending a video meeting.
 
 For more information, read [Set the phone numbers included on invites in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md).
 
 ## Low-bandwidth scenarios as an educator
 
-Educators should feel empowered to take steps to resolve low-bandwidth issues.
-
-Having educators troubleshoot bandwidth issues may be a superior choice to IT action in the following situations:
+Having educators troubleshoot bandwidth issues may be a better choice than IT action in the following situations:
 
 - The problem is intermittent.
 - There is a specific time of the day you can anticipate there being an issue.
@@ -97,8 +92,6 @@ For steps an educator can take to resolve bandwidth issues, read [Use Teams for 
 ## Low-bandwidth scenarios as a parent or student
 
 Sometimes the bandwidth problem is on a student's side.
-
-Many parents aren't able to troubleshoot these issues, and low-bandwidth issues may be out of a student or parent's control.
 
 - Their home may not have access to high bandwidth.
 - They may have many people in their immediate area also consuming bandwidth.
