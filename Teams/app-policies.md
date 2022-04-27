@@ -1,13 +1,13 @@
 ---
-title: Manage app policies in Teams
-author: karlistites
-ms.author: kastites
-manager: serdars
+title: Overview of app policies to manage apps in Teams
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: 
 search.appverid: 
-description: Learn about Teams application policies.
+description: Learn about policies in Teams application.
 audience: admin
 ms.localizationpriority: medium
 MS.collection: 
@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Manage app policies in Microsoft Teams
+# Overview of app policies used to manage apps in Microsoft Teams
 
 App policies are used to control applications in Microsoft Teams.
 

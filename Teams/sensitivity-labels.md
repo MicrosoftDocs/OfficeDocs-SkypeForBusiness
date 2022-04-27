@@ -21,7 +21,7 @@ description: Learn how to use sensitivity labels to protect your teams in Micros
 
 # Sensitivity labels for Microsoft Teams
 
-[Sensitivity labels](/microsoft-365/compliance/sensitivity-labels) allow Teams admins to protect and regulate access to sensitive organizational content created during collaboration within teams. After you configure sensitivity labels with their associated policies in the [Microsoft compliance center](/microsoft-365/compliance/go-to-the-securitycompliance-center), these labels can be applied to teams in your organization.
+[Sensitivity labels](/microsoft-365/compliance/sensitivity-labels) allow Teams admins to protect and regulate access to sensitive organizational content created during collaboration within teams. After you configure sensitivity labels with their associated policies in the [Microsoft Purview compliance portal](/microsoft-365/compliance/go-to-the-securitycompliance-center), these labels can be applied to teams in your organization.
 
 Sensitivity labels are currently unsupported in class teams for customers using Teams Education SKUs. To learn more about licensing, see [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
 
@@ -76,9 +76,9 @@ Sensitivity labels are also visible in team properties and in the **Classificati
 
 Before you use sensitivity labels for Teams, be aware of the following limitations:
 
-- **Sensitivity labels aren't supported by Teams Graph APIs, PowerShell cmdlets, and templates**
+- **Sensitivity labels aren't supported by Teams Graph APIs and PowerShell cmdlets**
     
-    Users won't be able to specify sensitivity labels while creating teams directly through Teams Graph APIs, Teams PowerShell cmdlets, and Teams templates. However Modern Groups Graph APIs and PowerShell cmdlets do allow creation of groups with labels. So users can first create Groups with labels using Groups Graph APIs or PowerShell cmdlets and then convert these Groups in to Teams.
+    Users won't be able to specify sensitivity labels while creating teams directly through Teams Graph APIs or Teams PowerShell cmdlets. However Modern Groups Graph APIs and PowerShell cmdlets do allow the creation of groups with sensitivity labels. This means that you can create groups with sensitivity labels by using these methods, and then convert these groups into teams.
 
 - **Support for private channels**
     

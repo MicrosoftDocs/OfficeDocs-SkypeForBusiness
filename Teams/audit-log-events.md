@@ -1,7 +1,7 @@
 ---
 title: Search the audit log for events in Microsoft Teams
-author: markjjo
-ms.author: markjjo
+author: v-tophillips
+ms.author: v-tophillips
 manager: laurawi
 ms.topic: article
 audience: admin
@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anwara
 search.appverid: MET150
-description: "Learn how to retrieve Microsoft Teams data from the audit log in the Microsoft 365 compliance center."
+description: "Learn how to retrieve Microsoft Teams data from the audit log in the Microsoft Purview compliance portal."
 appliesto: 
   - Microsoft Teams
 ---
@@ -37,7 +37,7 @@ For a complete list of Teams activities that are audited, see [Teams activities]
 
 ## Turn on auditing in Teams
 
-Before you can look at audit data, you have to first turn on auditing in the Microsoft 365 compliance center. For more information, see [Turn auditing on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off).
+Before you can look at audit data, you have to first turn on auditing in the Microsoft Purview compliance portal. For more information, see [Turn auditing on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off).
 
 > [!IMPORTANT]
 > Audit data is only available from the point at which you turned on auditing.
@@ -101,6 +101,7 @@ Here's a list of all events that are logged for user and admin activities in Tea
 |Deleted team  |TeamDeleted            |A team owner deletes a team.      |
 |Edited a message with a URL link in Teams     |MessageEditedHasLink         |A user edits a message and adds a URL link to it in Teams.         |
 |Exported messages <sup>1, </sup> <sup>2</sup> |	MessagesExported |Chat or channel messages were exported.|
+|Failed to validate invitation to shared channel<sup>3</sup> | FailedValidation |A user responds to an invitation to a shared channel but the invitation failed validation. |
 |Fetched chat <sup>1, </sup> <sup>2</sup>	|ChatRetrieved	|A Microsoft Teams chat was retrieved.|
 |Fetched all hosted content of a message<sup>1, </sup> <sup>2</sup>	|MessageHostedContentsListed	|All hosted content in  a message, such as images or code snippets, was retrieved.|
 |Installed app |AppInstalled         |An app was installed.   |
@@ -112,12 +113,17 @@ Here's a list of all events that are logged for user and admin activities in Tea
 |Removed bot from team   |BotRemovedFromTeam         |A user removes a bot from a team.       |
 |Removed connector     |ConnectorRemoved         |A user removes a connector from a channel.         |
 |Removed members    |MemberRemoved        |A team owner removes members from a team, channel, or group chat.         |
+|Removed sharing of team channel<sup>3</sup> | TerminatedSharing |A team or channel owner disabled sharing for a shared channel. |
+|Restored sharing of team channel<sup>3</sup> | SharingRestored | A team or channel owner re-enabled sharing for a shared channel. |
 |Removed tab    |TabRemoved         |A user removes a tab from a channel.         |
+|Responded to invitation for shared channel<sup>3</sup> | InviteeResponded | A user responded to a shared channel invitation. |
+|Responded to invitee response to shared channel<sup>3</sup> | ChannelOwnerResponded |A channel owner responded to a response from a user who responded to a shared channel invitation. |
 |Retrieved messages <sup>1, </sup> <sup>2</sup>	|MessagesListed	|Messages from a chat or channel were retrieved.|
 |Sent a message with a URL link in Teams |MessageCreatedHasLink|A user sends a message containing a URL link in Teams.|
 |Sent change notification for message creation <sup>1, </sup> <sup>2</sup>	|MessageCreatedNotification	|A change notification was sent to notify a subscribed listener application of a new message.|
 |Sent change notification for message deletion <sup>1, </sup> <sup>2</sup>	|MessageDeletedNotification	|A change notification was sent to notify a subscribed listener application of a deleted message.|
 |Sent change notification for message update <sup>1, </sup> <sup>2</sup>	|MessageUpdatedNotification	|A change notification was sent to notify a subscribed listener application of an updated message.|
+|Sent invitation for shared channel<sup>3</sup> | InviteSent |A channel owner or member sends an invitation to a shared channel. Invitations to shared channels can be sent to people outside of your organization if the channel policy is configured to share the channel with external users.  |
 |Subscribed to message change notifications <sup>1, </sup> <sup>2</sup>	|SubscribedToMessages	|A subscription was created by a listener application to receive change notifications for messages.|
 |Uninstalled app |AppUninstalled           |An app was uninstalled.     |
 |Updated app |AppUpdatedInCatalog           |An app was updated in the catalog.     |
@@ -127,10 +133,10 @@ Here's a list of all events that are logged for user and admin activities in Tea
 |Updated tab   |TabUpdated         |A user modified a tab in a channel.         |
 |Upgraded app |AppUpgraded           |An app was upgraded to its latest version in the catalog.     |
 |User signed in to Teams     |TeamsSessionStarted         |A user signs in to a Microsoft Teams client. This event doesn't capture token refresh activities.         |
-
+||||
 
 > [!NOTE]
-> <sup>1</sup> An audit record for this event is only logged when the operation is performed by calling a Microsoft Graph API. If the operation is performed in the Teams client, an audit record will not be logged<br/><br/><sup>2</sup> This event is only available in Advanced Audit. That means users must be assigned the appropriate license before these events are logged in the audit log. For more information about activities only available in Advanced Audit, see [Advanced Audit in Microsoft 365](/microsoft-365/compliance/advanced-audit#advanced-audit-events). For Advanced Audit licensing requirements, see [Auditing solutions in Microsoft 365](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements).
+> <sup>1</sup> An audit record for this event is only logged when the operation is performed by calling a Microsoft Graph API. If the operation is performed in the Teams client, an audit record will not be logged<br/><sup>2</sup> This event is only available in Audit (Premium). That means users must be assigned the appropriate license before these events are logged in the audit log. For more information about activities only available in Audit (Premium), see [Audit (Premium) in Microsoft Purview](/microsoft-365/compliance/advanced-audit#advanced-audit-events). For Audit (Premium) licensing requirements, see [Auditing solutions in Microsoft 365](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements). <br/> <sup>3</sup> This event is in public preview.
 
 ## Shifts in Teams activities
 
@@ -224,4 +230,4 @@ We're working to integrate Teams events into anomaly detection policies. For now
 
 ## Related topics
 
-- [Search the audit log in the Microsoft 365 compliance center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
+- [Search the audit log in the Microsoft Purview compliance portal](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)

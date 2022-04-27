@@ -86,9 +86,9 @@ New-CsTeamsEmergencyCallingPolicy -Identity E911WFH -ExternalLocationLookupMode 
 Grant-CsTeamsEmergencyCallingPolicy -PolicyName E911WFH -Identity user@contoso.com
 ```
 
-After enabling this feature for your end users, from the Calls tab, the user can add, edit, or confirm an emergency address and display the address after it is set. 
+After enabling this feature for your end users, from the Calls tab, the user can add, edit, or confirm an emergency address and display the address after it is set. For more information on how end users can set location services, see [Work from Home Emergency 911: enable location services](https://support.microsoft.com/office/work-from-home-emergency-911-enable-location-services-583dd649-87fc-4b23-aed6-f4e2279297f9?storagetype=live).
 
-On Windows, you can manage the Windows location service, and whether applications have access to the location, by using group policy or by using [mobile device management (MDM)](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesslocation).
+On Windows, you can manage the Windows location service, and whether applications have access to the location, by using group policy or by using [mobile device management (MDM)](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesslocation).
 
 For more information about Windows location service, see [Windows location service and privacy](https://support.microsoft.com/windows/windows-location-service-and-privacy-3a8eee0a-5b0b-dc07-eede-2a5ca1c49088).
 
@@ -109,5 +109,7 @@ Keep the following in mind:
 
 ## Related topics
 
-[Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
+
+- [Work from Home Emergency 911: enable location services](https://support.microsoft.com/office/work-from-home-emergency-911-enable-location-services-583dd649-87fc-4b23-aed6-f4e2279297f9?storagetype=live)
 

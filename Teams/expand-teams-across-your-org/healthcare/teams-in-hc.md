@@ -32,7 +32,7 @@ ms.custom:
 
 Microsoft Teams offers a number of telemedicine features useful for hospitals and other Healthcare organizations. Teams features are under development to aid hospitals with:
 
-- Virtual Visits and Electronic Healthcare Record (EHR) integration
+- Virtual appointments and Electronic Healthcare Record (EHR) integration
 - Teams policy packages
 - Secure messaging
 - Teams templates
@@ -51,8 +51,8 @@ The following scenarios are available for healthcare organizations:
 
 | Scenario | Description | Requirements |
 | -------- | -------- | -------- |
-| [Virtual Visits with Electronic Healthcare Record (EHR) integration](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | Schedule, manage, and conduct virtual appointments with patients. This scenario connects Teams and the Cerner or Epic platform to support Virtual Visits. | Active subscription to Microsoft Cloud for Healthcare or subscription to Microsoft Teams EHR connector standalone offer. <br> Users must have an appropriate Microsoft 365 or Office 365 license that includes Teams meetings*. <br> Organizations must have Cerner version November 2018 or later or Epic version November 2018 or later. <br>Details for [Cerner EHR](ehr-admin-cerner.md#before-you-begin) and [Epic EHR](ehr-admin.md#before-you-begin) requirements |
-| [Virtual Visits with Microsoft Bookings and the Bookings app](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | Schedule, manage, and conduct virtual appointments with patients. This scenario relies on Microsoft Bookings to support Virtual Visits. | Microsoft Bookings must be turned on for the organization. <br> All users of the Bookings app and all staff participating in meetings must have a license that supports Teams Meeting scheduling*. <br>[Details for Bookings requirements](../../bookings-app-admin.md#prerequisites-for-using-the-bookings-app-in-teams)|
+| [Virtual appointments with Electronic Healthcare Record (EHR) integration](#virtual-appointments-and-electronic-healthcare-record-ehr-integration) | Schedule, manage, and conduct virtual appointments with patients. This scenario connects Teams and the Cerner or Epic platform to support virtual appointments. | Active subscription to Microsoft Cloud for Healthcare or subscription to Microsoft Teams EHR connector standalone offer. <br> Users must have an appropriate Microsoft 365 or Office 365 license that includes Teams meetings*. <br> Organizations must have Cerner version November 2018 or later or Epic version November 2018 or later. <br>Details for [Cerner EHR](ehr-admin-cerner.md#before-you-begin) and [Epic EHR](ehr-admin.md#before-you-begin) requirements |
+| [Virtual appointments with Microsoft Bookings and the Bookings app](#virtual-appointments-and-electronic-healthcare-record-ehr-integration) | Schedule, manage, and conduct virtual appointments with patients. This scenario relies on Microsoft Bookings to support virtual appointments. | Microsoft Bookings must be turned on for the organization. <br> All users of the Bookings app and all staff participating in meetings must have a license that supports Teams Meeting scheduling*. <br>[Details for Bookings requirements](../../bookings-app-admin.md#prerequisites-to-use-the-bookings-app-in-teams)|
 | [Teams policy packages](#teams-policy-packages)| Ensure that clinical workers, information workers, and patient room devices have the appropriate access to Teams functionality.| Users must have an appropriate license*. |
 | [Secure messaging](#secure-messaging) | Get quicker attention to urgent messages and have confidence that the message was received and read. | Users must have an appropriate license*.  |
 | [Teams templates](#teams-templates-for-healthcare-organizations) | Create teams that include a predefined template of settings, channels, and pre-installed apps for communication and collaboration within a ward, pod, or department, or between multiple wards, pods, and departments within a hospital. | Users must have an appropriate license*.  |
@@ -60,14 +60,14 @@ The following scenarios are available for healthcare organizations:
 
 *Office 365 A3, A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3, and E5, Business Standard are supported. For more information about general Teams licensing, see [Manage user access to Teams](../../user-access.md).
 
-## Virtual Visits and Electronic Healthcare Record (EHR) integration
+## Virtual appointments and Electronic Healthcare Record (EHR) integration
 
 Use the complete meetings platform in Teams to schedule, manage, and conduct virtual appointments with patients.
 
-- If your organization already uses Electronic Health Records, or EHR, you can integrate Teams for a more seamless experience. Teams Electronic Health Record (EHR) connector makes it easy for clinicians to launch a virtual patient visit or consultation with another provider in Teams directly from the EHR system. To learn more, see [Virtual Visits with Teams - Integration into Cerner EHR](ehr-admin-cerner.md) and [Virtual Visits with Teams - Integration into Epic EHR](ehr-admin.md).
-- If you aren't using a supported EHR, you can use Microsoft Bookings and the Bookings app in Teams. To learn more, see [Virtual Visits with Teams and the Bookings app](../bookings-virtual-visits.md).
+- If your organization already uses Electronic Health Records, or EHR, you can integrate Teams for a more seamless experience. Teams Electronic Health Record (EHR) connector makes it easy for clinicians to launch a virtual patient appointment or consultation with another provider in Teams directly from the EHR system. To learn more, see [Virtual appointments with Teams - Integration into Cerner EHR](ehr-admin-cerner.md) and [Virtual appointments with Teams - Integration into Epic EHR](ehr-admin.md).
+- If you aren't using a supported EHR, you can use Microsoft Bookings and the Bookings app in Teams. To learn more, see [Virtual appointments with Teams and the Bookings app](../bookings-virtual-visits.md).
 
-![Virtual Visits with Microsoft Teams.](../../media/virtual-visits-teams.png)
+![Virtual appointments with Microsoft Teams.](../../media/virtual-visits-teams.png)
 
 ## Teams policy packages
 
