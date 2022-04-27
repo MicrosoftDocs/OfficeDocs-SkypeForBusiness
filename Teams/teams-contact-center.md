@@ -35,7 +35,7 @@ The Connected contact center for Microsoft Teams certification program verifies 
 
 If you're an organization looking for an integrated contact center solution, see [Certified Microsoft Teams solutions for contact centers](https://cloudpartners.transform.microsoft.com/contact-center-solutions) for a list of certified solution providers, and see [Connected Contact Center solutions](#connected-contact-center-solutions) for a list of providers in the process of certification.
 
-If you are a vendor seeking to join the certification program, fill out [this form](http://aka.ms/CallingPlatformIntake) as the next step. If you need to provide additional context and details, send a mail to [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com).
+If you are a vendor seeking to join the certification program, fill out [this form](https://aka.ms/CallingPlatformIntake) as the next step. If you need to provide additional context and details, send a mail to [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com).
 
 [!INCLUDE [contact-center-integration-models](./includes/contact-center-integration-models.md)]
 
