@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom: 
   - Audio Conferencing
   - LIL_Placement
-description: "Learn what countries and regions have dial-in conferencing numbers, and how they are automatically assigned."
+description: "Learn what countries and regions have dial-in conferencing numbers, and how they're automatically assigned."
 ---
 
 # Audio Conferencing dial-out usage report
@@ -29,7 +29,7 @@ The Audio Conferencing dial-out usage report in the Teams admin center gives you
 
 ## View the Audio Conferencing dial-out usage report
 
-In the left navigation of the Microsoft Teams admin center, click **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select the **Audio Conferencing dial-out usage report**.
+In the left navigation of the Microsoft Teams admin center, select **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select the **Audio Conferencing dial-out usage report**.
 
 Under **Date range**, you can select a predefined range of 7 or 28 days, or set a custom range.
 
@@ -41,7 +41,7 @@ The Audio Conferencing dial-out usage report has three main tabs that will displ
 
 - The **Cost** tab shows the communication credits spent over the selected period and the table below provide user level detail.
 - The **Minutes of use** tab shows the total dial-out minutes over the selected period and the table below provided user level detail.
-- The **Dial-out calls** tab shows the total amount of dial-out calls over the selected period and the table below provide user level detail.
+- The **Dial-out calls** tab shows the total number of dial-out calls over the selected period and the table below provide user level detail.
 
 Each report has a date for when it was generated. The reports usually reflect a 24 to 48 hour latency from the activity time.
 
@@ -76,6 +76,6 @@ At the bottom of the page is a table, which shows user level breakdowns with the
 - Credit spent
 - Currency
 
-If you need to search for usage for a specific user, there's a search bar on the right above the report. The meeting organizer names are all selectable hyperlinks that'll take you to a more detailed usage report for the user. This user view has the same three tabs as the main report, however the chart at the top of the page will show details for that specific user.
+If you need to search for usage for a specific user, there's a search bar on the right above the report. The meeting organizer names are all selectable hyperlinks that will take you to a more detailed usage report for the user. This user view has the same three tabs as the main report, however the chart at the top of the page will show details for that specific user.
 
 You can export any report shown in this table to a CSV file for offline analysis. Select **Export to Excel**, and then on the **Downloads** tab, select **Download** to download the report when it's ready.
