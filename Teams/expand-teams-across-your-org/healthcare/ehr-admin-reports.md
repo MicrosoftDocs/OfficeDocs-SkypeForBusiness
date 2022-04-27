@@ -33,6 +33,8 @@ To view the report, you must be a global admin or a Teams admin.
 
 ## View the report
 
+There are two ways to access and view the report in the Teams admin center.
+
 ### The EHR connector usage card
 
 In the left navigation of the Microsoft Teams admin center, choose **Dashboard**. and then go to the **EHR connector usage** card.
