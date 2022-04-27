@@ -39,33 +39,37 @@ For information on admin settings for Loop components in Teams, see [Manage Loop
 
 Available on Teams apps on Windows, Mac, Linux, iOS, and Android.
 
-## Loop components and .loop files
+## Loop components and .fluid files
 
-Loop components created in Teams are backed by a .loop file stored in the creator's OneDrive. Being a file in OneDrive means that users can create, discover, and manage Loop components (.loop files) as easily as any Office document. .loop files work with data governance features like eDiscovery, auditing, reporting, and legal hold.
+Loop components created in Teams are backed by a .fluid file stored in the creator's OneDrive. Being a file in OneDrive means that users can create, discover, and manage Loop components (.fluid files) as easily as any Office document. 
 
-## How are .loop  files stored?
+## How are .fluid  files stored?
 
-.loop files appear on Office.com and OneDrive, such as in the Recent and Recommended areas. Users can search for content in .loop files from Office.com and OneDrive. .loop files can be restored to previous versions from OneDrive. To create Loop components chat participants must have a OneDrive account. Without a valid OneDrive account, chat participants might still be able to collaborate on a component created by other users who have a valid OneDrive account, but cannot create their own. 
+.fluid files appear on Office.com and OneDrive, such as in the Recent and Recommended areas. Users can search for content in .fluid files from Office.com and OneDrive. .fluid files can be restored to previous versions from OneDrive. To create Loop components chat participants must have a OneDrive account. Without a valid OneDrive account, chat participants might still be able to collaborate on a component created by other users who have a valid OneDrive account, but cannot create their own. 
 
-Moving a .loop file from OneDrive to a SharePoint site will result in the live component failing to load in Teams chat.
+Moving a .fluid file from OneDrive to a SharePoint site will result in the live component failing to load in Teams chat.
 
 ## What happens if the owner of the file leaves the company?
 
-OneDrive retention policies apply to .loop files just as they do to other content created by the user.
+OneDrive retention policies apply to .fluid files just as they do to other content created by the user.
 
-## How are .loop files shared?
+## How are .fluid files shared?
 
 Loop components can be inserted in Teams chat or copied from one chat to another. (Loop components aren't yet supported in channels.) They default to the organization's existing permissions, but users can change permissions before sending to ensure everyone has access.
 
 Opening components from Teams chat in Office.com offers share functionality at the top of the window, similar to the sharing options offered for other Office documents.
 
-## What if a .loop file becomes corrupted or damaged?
+## What if a .fluid file becomes corrupted or damaged?
 
 Version History allows you to review and copy from previous versions of the file.
 
-## What apps can open and edit .loop files?
+## What apps can open and edit .fluid files?
 
-.loop files can only be opened as links in your browser, such as Office.com, and as Loop components in Teams chat. If downloaded, they can't be opened again without first uploading them back to OneDrive or SharePoint.
+.fluid files can only be opened as links in your browser, such as Office.com, and as Loop components in Teams chat. If downloaded, they can't be opened again without first uploading them back to OneDrive or SharePoint.
+
+## Does .fluid files support eDiscovery?
+
+.fluid files are discoverable but have limited eDiscovery workflow support. Currently, .fluid files are stored in the creator's OneDrive and are available for search and collection in both eDiscovery (Standard) and eDiscovery (Premium). However, they do not render in preview and the export format for review is not consumable by existing tools. To view the exported content, upload them to any OneDrive. If desired, you can temporarily disable these experiences as outlined in the [Settings management](/sharepoint/manage-loop-components#settings-management) section.
 
 ## Known issues
 
