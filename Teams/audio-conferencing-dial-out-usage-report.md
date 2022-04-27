@@ -64,10 +64,9 @@ There's a **Minutes of use** section underneath the chart showing the total minu
 
 At the top of this tab section is a chart displaying a line that shows dial-out calls over the date range and for the country or countries selected.
 
-XXX NO SCREEN TO INTERPRET
 There's a **Dial-out calls** section underneath the chart showing the total number of dial-out calls within the select time range.
 
-## Using and the report
+## Using the report
 
 At the bottom of the page is a table, which shows user level breakdowns with the following headings:
 
@@ -77,6 +76,6 @@ At the bottom of the page is a table, which shows user level breakdowns with the
 - Credit spent
 - Currency
 
-If you need to search for usage for a specific user, there is a search bar on the right above the report. The meeting organizer names are all selectable hyperlinks that will take you to a more detailed usage report for the user. This user view has the same three tabs as the main report, however the chart at the top of the page will show details for that specific user.
+If you need to search for usage for a specific user, there's a search bar on the right above the report. The meeting organizer names are all selectable hyperlinks that'll take you to a more detailed usage report for the user. This user view has the same three tabs as the main report, however the chart at the top of the page will show details for that specific user.
 
 You can export any report shown in this table to a CSV file for offline analysis. Select **Export to Excel**, and then on the **Downloads** tab, select **Download** to download the report when it's ready.
