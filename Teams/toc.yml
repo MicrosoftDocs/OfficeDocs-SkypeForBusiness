@@ -505,7 +505,7 @@ items:
       href: turn-off-teams-native-file-upload-policy.md
     - name: Set up channel moderation in Teams
       href: manage-channel-moderation-in-teams.md
-    - name: Manage loop components
+    - name: Manage Loop components
       href: loop-components-in-teams.md
     - name: Teams and Outlook email integration
       href: teams-outlook-email-integration.md
@@ -783,6 +783,7 @@ items:
               href: complimentary-dial-out-period.md
             - name: Videos - Audio Conferencing in Teams
               href: ./audio-conferencing-in-office-365.md
+
 
 - name: Voice - Phone System and PSTN connectivity
   items: 
