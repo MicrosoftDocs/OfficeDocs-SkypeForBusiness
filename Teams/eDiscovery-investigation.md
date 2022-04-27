@@ -1,7 +1,7 @@
 ---
 title: Conduct an eDiscovery investigation of content
-author: markjjo
-ms.author: markjjo
+author: v-tophillips
+ms.author: v-tophillips
 manager: laurawi
 ms.topic: article
 ms.service: msteams
@@ -77,7 +77,7 @@ Here's an example of the meeting metadata.
   > [!div class="mx-imgBorder"]
   > ![The meeting metadata from the compliance copy.](media/conversationOption3.png)
 
-For more information about conducting an eDiscovery investigation, see [Get started with Core eDiscovery](/microsoft-365/compliance/get-started-core-ediscovery).
+For more information about conducting an eDiscovery investigation, see [Get started with eDiscovery (Standard)](/microsoft-365/compliance/get-started-core-ediscovery).
 
 Microsoft Teams data will appear as IM or Conversations in the Excel eDiscovery export output. You can open the `.pst` file in Outlook to view those messages after you export them.
 
@@ -126,7 +126,7 @@ Before you perform these steps, make sure you have the [latest version of the Te
     Get-TeamChannelUser -GroupId <parent team GroupId> -DisplayName "Partner Shared Channel"
    ```
 
-4. Include the mailboxes of owners and members of a private channel as part of your [eDiscovery search query in Core eDiscovery](/microsoft-365/compliance/search-for-content-in-core-ediscovery) or when [identifying and collecting custodian content in Advanced eDiscovery](/microsoft-365/compliance/add-custodians-to-case).
+4. Include the mailboxes of owners and members of a private channel as part of your [eDiscovery search query in eDiscovery (Standard)](/microsoft-365/compliance/search-for-content-in-core-ediscovery) or when [identifying and collecting custodian content in eDiscovery (Premium)](/microsoft-365/compliance/add-custodians-to-case).
 
 ### Identifying the SharePoint site for private and shared channels
 
@@ -161,7 +161,7 @@ Before you perform these steps, [install the SharePoint Online Management Shell 
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
 
-4. Include the site associated with a private or shared channel as part of your [eDiscovery search query in Core eDiscovery](/microsoft-365/compliance/search-for-content-in-core-ediscovery) or when [identifying and collecting custodian content in Advanced eDiscovery](/microsoft-365/compliance/add-custodians-to-case).
+4. Include the site associated with a private or shared channel as part of your [eDiscovery search query in eDiscovery (Standard)](/microsoft-365/compliance/search-for-content-in-core-ediscovery) or when [identifying and collecting custodian content in eDiscovery (Premium)](/microsoft-365/compliance/add-custodians-to-case).
 
 ## Search for content for guest users
 
@@ -169,7 +169,7 @@ You can use eDiscovery tools to search for Teams content related to guest users 
 
 To search for content for guest users:
 
-1. Connect to Azure AD PowerShell. For instructions, see the "Connect with the Azure Active Directory PowerShell" section in [Connect to Microsoft 365 with PowerShell](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module). Be sure to complete Step 1 and Step 2 in the previous topic.
+1. Connect to Azure AD PowerShell. For instructions, see the "Connect with the Azure Active Directory PowerShell" section in [Connect to Microsoft 365 with PowerShell](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module). Be sure to complete Step 1 and Step 2 in the previous article.
 
 2. After you successfully connect to Azure AD PowerShell, run the following command to display the user principal name (UPN) for all guest users in your organization. You have to use the UPN of the guest user when you create the search in step 4.
 
@@ -235,9 +235,17 @@ When viewing card content in Content search results, the content appears as an a
 > [!NOTE]
 > To display images from card content in search results at this time (such as the checkmarks in the previous screenshot), you have to be signed into Teams (at https://teams.microsoft.com) in a different tab in the same browser session that you use to view the search results. Otherwise, image placeholders are displayed.
 
+## eDiscovery in federated and non-federated environments
+
+Admins can use eDiscovery to search for content in chats messages in a Teams meeting in federated (called *external access*) and non-federated (called *guest access*) environments based on the following restrictions:
+
+- **Federated**: In a Teams meeting with users from your organization and users from an external organization (who have external access in your organization), admins in both organizations can search for content in chat messages from the meeting.
+
+- **Non-federated**: In a Teams meeting with users from your organization and guest users, only admins in the organization who hosts the Teams meeting can search for content in chat messages from the meeting.
+
 ## Related topics
 
 - [Microsoft 365 eDiscovery solutions](/microsoft-365/compliance/ediscovery)
-- [Get started with Core eDiscovery](/microsoft-365/compliance/get-started-core-ediscovery)
-- [Teams workflow in Advanced eDiscovery](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery)
+- [Get started with eDiscovery (Standard)](/microsoft-365/compliance/get-started-core-ediscovery)
+- [Teams workflow in eDiscovery (Premium)](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery)
 - [Teams PowerShell Overview](teams-powershell-overview.md)
