@@ -2666,6 +2666,21 @@
        "redirect_document_id": false
      },
      {
+      "source_path": "Teams/rooms/rooms-configure-accounts.md",
+      "redirect_url": "/microsoftteams/rooms/with-office-365",
+      "redirect_document_id": false
+     },
+     {
+      "source_path": "Teams/rooms/lrs-migration.md",
+      "redirect_url": "/microsoftteams/rooms",
+      "redirect_document_id": false
+     },
+     {
+      "source_path": "Teams/rooms/domain-joining-considerations.md",
+      "redirect_url": "/microsoftteams/rooms",
+      "redirect_document_id": false
+    },
+     {
        "source_path": "Teams/meeting-recording-expiration-feature.md",
        "redirect_url": "/microsoftteams/meeting-expiration",
        "redirect_document_id": false
