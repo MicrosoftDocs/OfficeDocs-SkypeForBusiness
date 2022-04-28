@@ -271,6 +271,9 @@ During an emergency call, a security desk is conferenced into the call and the e
 
 Administrators have the ability to add a custom banner in the tenant for their users to enable E911. Users can dismiss the banner when they confirm their address, and the banner will reappear when Teams is restarted. To enable this feature, you would set the **Emergency service disclaimer** under the Teams emergency calling policy and enter a string message to be displayed to users. This field is optional when setting up a custom policy, and the string field is limited to 250 characters.
 
+> [!NOTE]
+> Currently, this is configurable using PowerShell with the EnhancedEmergencyServicesDisclaimer policy. In the future this will also be configurable in the Teams admin center.
+
     
 ## Related topics
 
