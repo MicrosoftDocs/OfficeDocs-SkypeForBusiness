@@ -1,5 +1,5 @@
 ---
-title: Manage external access (federation)
+title: Manage external meetings and chat
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -17,15 +17,15 @@ f1.keywords:
 ms.custom: 
 - ms.teamsadmincenter.externalaccess.overview
 - seo-marvel-mar2020
-description: Your Teams or IT admin can configure external access for other domains (federation) to let users from those domains find, call, chat, and set up meetings with your users. 
+description: Your Teams or IT admin can configure external meetings and chat for other domains to let users from those domains find, call, chat, and set up meetings with your users. 
 appliesto: 
   - Microsoft Teams
 ms.localizationpriority: high
 ---
 
-# Manage external access in Microsoft Teams
+# Manage external meetings and chat in Microsoft Teams
 
-External access is a way for Teams users from outside your organization to find, call, chat, and set up meetings with you in Teams. You can also use external access to communicate with people from other organizations who are still using Skype for Business (online and on-premises) and Skype.
+You can configure external meetings and chat in Teams using the *external access* feature. External access is a way for Teams users from outside your organization to find, call, chat, and set up meetings with you in Teams. You can also use external access to communicate with people from other organizations who are still using Skype for Business (online and on-premises) and Skype.
 
 If you want people from other organizations to have access to your teams and channels, use guest access instead. For more information about the differences between external access and guest access, see [Compare external and guest access](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access). 
 
@@ -37,9 +37,9 @@ Use external access when:
 
 - You want anyone else in the world who uses Teams to be able to find and contact you, using your email address. 
 
-## Plan for external access
+## Plan for external meetings and chat
 
-External access policies include controls for each type of federation at both the organization  and user levels. Turning a policy off at the organization level turns it off for all users, regardless of their user level setting. All external access settings are enabled by default.
+External access policies include controls for both the organization and user levels. Turning a policy off at the organization level turns it off for all users, regardless of their user level setting. All external access settings are enabled by default.
 
 The Teams admin center controls external access at the organization level. Most options (except domain restrictions) are available at the user level by using PowerShell. See [Using PowerShell](#using-powershell) below for more information.
 
@@ -119,7 +119,7 @@ To let Teams users in your organization communicate with external Teams users wh
 1. Turn on the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
 2. Clear the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
 
-To let Teams users In your organization communicate with external Teams users whose accounts are not managed by an organization and receive requests to communicate with those external Teams users:
+To let Teams users in your organization communicate with external Teams users whose accounts are not managed by an organization and receive requests to communicate with those external Teams users:
 1. Turn on the **People in my organization can communicate with Teams users whose accounts aren't managed by an organization** setting.
 2. Select the **External users with Teams accounts not managed by an organization can contact users in my organization** checkbox.
 
