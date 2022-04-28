@@ -233,12 +233,13 @@ By default, Insights is turned on, which enables us to collect analytics of stud
 
 ### Turn Machine Learning in Insights on or off
 
-By default, machine learing based experiances in Insights are turned off, to enable those the IT adimn would need to enable **Allow machine learning based Insights**. enableing this toggle will not collect any additional signals others then hte signals already collected by Education Insights.
+By default, machine learing based experiences in Insights are turned off. To allow these insights, you need to **Allow machine learning based Insights**. Turning on this toggle won't collect any additional data other than the data already collected by Education Insights.
 
-* To turn Insights on or off, open the [SDS Admin Center](https://sds.microsoft.com/) and go to **Settings** > **Manage Education Insights**. Turn **Allow machine learning based Insights** off or on to disable or enable Insights.
+* To adjust this setting, open the [SDS admin center](https://sds.microsoft.com/), and go to **Settings** > **Manage Education Insights**. 
+* Adjust the **Allow machine learning based Insights** toggle to off or on.
 
 > [!NOTE]
-> The toggle depends on the **collect activity data for Insights** toggle, disabling it will automatically disable the **Allow machine learning based Insights** toggle.
+> This toggle depends on the **Collect activity data for Insights** toggle. Turning off **Collect activity data for Insights** will also turn off the **Allow machine learning based Insights** toggle.
 
 ### Turn SDS for Insights on or off
 
