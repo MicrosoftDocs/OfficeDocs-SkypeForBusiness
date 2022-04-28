@@ -69,6 +69,14 @@ To enable public preview on a desktop or web client, you need to complete the fo
 > [!NOTE]  
 > This option is only available when **Show preview features** is set to **Enabled**.
 
+### Public preview for Microsoft Teams Rooms on Windows
+
+Public preview is off by default. When public preview is on, end-users have access to features that are in public preview on enabled Teams Rooms. To turn on public preview, add ```<EnablePublicPreview>True</EnablePublicPreview>``` to your XML configuration file.
+
+We recommend enrolling 5-10 devices to public preview. 
+
+All public preview features are announced at [Microsoft Teams Public Preview - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)
+
 ## Teams now follows Office Preview users
 
 The new global policy default of **Follow Office Preview** will allow users to automatically be in the Public Preview channel of Teams if they are in Current Channel (Preview) for the Office 365 Client on Windows and Mac.

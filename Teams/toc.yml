@@ -505,7 +505,7 @@ items:
       href: turn-off-teams-native-file-upload-policy.md
     - name: Set up channel moderation in Teams
       href: manage-channel-moderation-in-teams.md
-    - name: Manage loop components
+    - name: Manage Loop components
       href: loop-components-in-teams.md
     - name: Teams and Outlook email integration
       href: teams-outlook-email-integration.md
@@ -553,9 +553,9 @@ items:
       items: 
         - name: Communicate with users from other organizations
           href: communicate-with-users-from-other-organizations.md
-        - name: External access (federation)
+        - name: External meetings and chat
           items: 
-            - name: Manage external access
+            - name: Manage external meetings and chat
               href: manage-external-access.md
             - name: Native Teams chats
               href: native-chat-for-external-users.md
@@ -783,6 +783,7 @@ items:
               href: complimentary-dial-out-period.md
             - name: Videos - Audio Conferencing in Teams
               href: ./audio-conferencing-in-office-365.md
+
 
 - name: Voice - Phone System and PSTN connectivity
   items: 
@@ -1354,34 +1355,28 @@ items:
               href: rooms/security.md
             - name: Online Licensing
               href: rooms/rooms-licensing.md
-            - name: Best practices for Conditional Access and Intune compliance
-              href: rooms/conditional-access-and-compliance-for-devices.md
-            - name: Supported Conditional Access and Intune compliance policies
-              href: rooms/supported-ca-and-compliance-policies.md
             - name: Plan management with Azure Monitor
               href: rooms/azure-monitor-plan.md
         - name: Deploy
           items: 
             - name: Deployment overview
               href: rooms/rooms-deploy.md
-            - name: Configure accounts
-              href: rooms/rooms-configure-accounts.md
             - name: Create resource accounts 
               href: rooms/with-office-365.md
-            - name: With Skype for Business Server
-              href: rooms/with-skype-for-business-server-2015.md
             - name: Configure a console
               href: rooms/console.md
+            - name: Authentication
+              items:
+              - name: Configure authentication
+                href: rooms/rooms-authentication.md
+              - name: Best practices for Conditional Access and Intune compliance
+                href: rooms/conditional-access-and-compliance-for-devices.md
+              - name: Supported Conditional Access and Intune compliance policies
+                href: rooms/supported-ca-and-compliance-policies.md
             - name: Manually update a device
               href: rooms/manual-update.md
-            - name: Configure authentication
-              href: rooms/rooms-authentication.md
-            - name: Join third-party meetings
-              href: rooms/third-party-join.md
             - name: Management with Azure Monitor
               href: rooms/azure-monitor-deploy.md
-            - name: Migrate SRS v1 or LRS
-              href: rooms/lrs-migration.md
             - name: Content cameras
               href: rooms/content-camera.md
             - name: Voice recognition controls for Intelligent speakers
@@ -1399,11 +1394,13 @@ items:
               href: rooms/rooms-manage.md
             - name: Maintenance and operations
               href: rooms/rooms-operations.md
+            - name: Join third-party meetings
+              href: rooms/third-party-join.md
             - name: Known issues
               href: /microsoftteams/troubleshoot/teams-devices-and-rooms/rooms-known-issues
-            - name: Devices with Azure Monitor
+            - name: Manage devices with Azure Monitor
               href: rooms/azure-monitor-manage.md
-            - name: Settings with an XML file
+            - name: Manage settings with an XML file
               href: rooms/xml-config-file.md
             - name: Use the recovery tool
               href: rooms/recovery-tool.md
@@ -1510,7 +1507,9 @@ items:
         - name: Meeting room devices and solutions
           href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Plan phones and displays deployment
-          href: devices/plan-device-deployment.md            
+          href: devices/plan-device-deployment.md 
+        - name: Resource accounts for Skype for Business Server
+          href: rooms/with-skype-for-business-server-2015.md           
               
 - name: Manage apps
   items: 
