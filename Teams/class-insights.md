@@ -230,6 +230,16 @@ By default, Insights is turned on, which enables us to collect analytics of stud
 > [!NOTE]
 > If you've turned Insights off, the data that's been collected is deleted. The deleted data on opt-out canot be restored at a later time, even if Insights is re-enabled.
 
+
+### Turn Machine Learning in Insights on or off
+
+By default, machine learing based experiances in Insights are turned off, to enable those the IT adimn would need to enable **Allow machine learning based Insights**. enableing this toggle will not collect any additional signals others then hte signals already collected by Education Insights.
+
+* To turn Insights on or off, open the [SDS Admin Center](https://sds.microsoft.com/) and go to **Settings** > **Manage Education Insights**. Turn **Allow machine learning based Insights** off or on to disable or enable Insights.
+
+> [!NOTE]
+> The toggle depends on the **collect activity data for Insights** toggle, disabling it will automatically disable the **Allow machine learning based Insights** toggle.
+
 ### Turn SDS for Insights on or off
 
 School Data Sync (SDS) helps automate the import and synchronization of the Student Information System (SIS) data with Teams.
