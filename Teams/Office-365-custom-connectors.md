@@ -50,7 +50,7 @@ For more information on PowerShell module exchange, see [Set-OrganizationConfig]
 
 #### Connector URL update notification
 
-The Teams connectors are transitioning to a new URL to enhance security. During the course of this transition, you'll receive a notification to update your configured connector to use the new URL. Update your connector at the earliest to prevent any disruption to connector services. To update your connector:
+The Teams connectors are transitioning to a new URL to enhance security. During transition, you'll receive a notification to update the configured connector. Update your connector at the earliest to prevent any disruption to connector services. To update your connector:
 
 1. In the connectors configuration page, check for **Attention Required** message adjacent to your configured connector.
 
@@ -60,8 +60,7 @@ The Teams connectors are transitioning to a new URL to enhance security. During 
 
    ![Screenshot of the Update URL button.](media/Teams_update_URL_button.png)
 
-1. For other connector types, remove the connector and recreate the connector configuration.
-   **URL is up-to-date** message appears.
+1. For other connector types, remove the connector and recreate the connector configuration. A **URL is up-to-date** message appears.
 
    ![Screenshot of the URL is up-to-date message.](media/Teams_URL_up_to_date.png)
 
