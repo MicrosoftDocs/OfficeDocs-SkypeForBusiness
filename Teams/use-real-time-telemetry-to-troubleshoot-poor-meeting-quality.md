@@ -52,11 +52,11 @@ To see all meeting information and data for a user, go to the [Teams admin cente
 
 To get additional information about participants of a meeting that's in progress, including their device, network, and audio statistics, find the meeting in **Recent meetings** and select the link under the **Participants** column.
 
-:::image type="content" alt-text="Screenshot of participant details table." source="media/participant-details2.png" lightbox="media/participant-details2.png":::
+:::image type="content" alt-text="Screenshot of participant details table." source="media/participant-details-2.png" lightbox="media/participant-details-2.png":::
 
 To look at the telemetry of a given user for an in-progress meeting, including information around device, network, audio, video, and content sharing details, select the **Meeting ID**.
 
-:::image type="content" alt-text="Screenshot of call analytics user session data." source="media/real-time-telemetry2.png" lightbox="media/real-time-telemetry2.png":::
+:::image type="content" alt-text="Screenshot of call analytics user session data." source="media/real-time-telemetry-2.png" lightbox="media/real-time-telemetry-2.png":::
 
 ## Measures available in Real-Time Analytics
 
