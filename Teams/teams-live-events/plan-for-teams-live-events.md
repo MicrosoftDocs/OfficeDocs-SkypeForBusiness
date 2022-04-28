@@ -40,6 +40,7 @@ Here are the licenses that must be assigned to organize, produce or present a Te
 - **To organize:** A Microsoft or Office 365 Enterprise E1, E3, or E5 license, **[or]** a Microsoft or Office 365 Education A3 or A5 license. 
 - **To produce or present:** A Microsoft or Office 365 Enterprise E1, E3 or E5 license, **[or]** a Microsoft or Office 365 Education A1, A3 or A5 license. The exception to this requirement is guest users can present without a license if the other criteria for [guest users](plan-for-teams-live-events.md#guest-to-present) is met.
 - A Microsoft Teams license - this license is included in the licenses listed in the first and second bullets.
+- An Exchange Online license - this license is included in the licenses listed in the first bullet. The user creating and scheduling a live event must have an Exchange Online mailbox.
 - A Microsoft Stream license - is required if you are planning to share the content to an external app or device; see [Microsoft Stream licensing](/stream/license-overview).
 
   Users won't need a Microsoft Stream license assigned if you want users to only record and download the recordings. This will mean that the recordings aren't stored in Microsoft Stream but are instead stored in Azure Media Services (AMS) with a 180-day limit before it's deleted. It's not something at this point that an admin can control or manage to include the ability to delete it.
