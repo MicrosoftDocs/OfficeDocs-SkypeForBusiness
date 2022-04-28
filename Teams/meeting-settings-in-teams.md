@@ -36,7 +36,7 @@ Through a per-organizer policy setting, admins now can control whether specific 
 ## Allow anonymous users to join meetings
 
 > [!NOTE]
-> Meeting stage, side panel and task modules are not fully available for anonymous users in meeting apps.
+> Meeting stage, side panel, and task modules are not fully available for anonymous users in meeting apps.
 
 With anonymous join, anyone can join the meeting as an anonymous user by clicking the link in the meeting invitation. To learn more, see [Join a meeting without a Teams account](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508). You can control anonymous users' ability to join meetings either at your organization level, or per meeting organizer by using two different policy settings.
 
