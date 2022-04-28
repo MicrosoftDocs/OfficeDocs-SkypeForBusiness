@@ -29,7 +29,7 @@ Any member of a team can connect their team to popular cloud services with the c
 
 ## Enable or disable connectors in Teams
 
-The Exchange Online PowerShell V2 module uses modern authentication and works with multi-factor authentication, called MFA for connecting to all Exchange related PowerShell environments in Microsoft 365. Admins can use Exchange Online PowerShell to disable connectors for an entire tenant or a specific group mailbox, affecting all users in that tenant or mailbox. It is not possible to disable for few specific users. Also, connectors are disabled by default for Government Community Cloud, called GCC tenants.
+The Exchange Online PowerShell V2 module uses modern authentication and works with multi-factor authentication, called MFA for connecting to all Exchange related PowerShell environments in Microsoft 365. Admins can use Exchange Online PowerShell to disable connectors for an entire tenant or a specific group mailbox, affecting all users in that tenant or mailbox. It isn't possible to disable for few specific users. Also, connectors are disabled by default for Government Community Cloud, called GCC tenants.
 
 The tenant setting overrides the group setting. For example, if an admin enables connectors for the group and disables them on the tenant, connectors for the group is disabled. To enable a connector in Teams, [connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps#connect-to-exchange-online-powershell-using-modern-authentication-with-or-without-mfa&preserve-view=true) using modern authentication with or without MFA.
 
