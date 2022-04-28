@@ -52,7 +52,7 @@ For more information on PowerShell module exchange, see [Set-OrganizationConfig]
 
 The Teams connectors are transitioning to a new URL to enhance security. During transition, you'll receive a notification to update the configured connector. Update your connector at the earliest to prevent any disruption to connector services. To update your connector:
 
-1. In the connectors configuration page, check for **Attention Required** message adjacent to your configured connector.
+1. In the connectors configuration page, check for **Attention Required** message next to the configured connector.
 
    ![Screenshot of the Attention Required message.](media/Teams_Attention_Required_message.png)
 
