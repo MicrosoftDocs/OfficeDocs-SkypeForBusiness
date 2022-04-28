@@ -1,7 +1,7 @@
 ---
 title: Conduct an eDiscovery investigation of content
-author: markjjo
-ms.author: markjjo
+author: v-tophillips
+ms.author: v-tophillips
 manager: laurawi
 ms.topic: article
 ms.service: msteams
@@ -77,7 +77,7 @@ Here's an example of the meeting metadata.
   > [!div class="mx-imgBorder"]
   > ![The meeting metadata from the compliance copy.](media/conversationOption3.png)
 
-For more information about conducting an eDiscovery investigation, see [Get started with Core eDiscovery](/microsoft-365/compliance/get-started-core-ediscovery).
+For more information about conducting an eDiscovery investigation, see [Get started with eDiscovery (Standard)](/microsoft-365/compliance/get-started-core-ediscovery).
 
 Microsoft Teams data will appear as IM or Conversations in the Excel eDiscovery export output. You can open the `.pst` file in Outlook to view those messages after you export them.
 
@@ -126,7 +126,7 @@ Before you perform these steps, make sure you have the [latest version of the Te
     Get-TeamChannelUser -GroupId <parent team GroupId> -DisplayName "Partner Shared Channel"
    ```
 
-4. Include the mailboxes of owners and members of a private channel as part of your [eDiscovery search query in Core eDiscovery](/microsoft-365/compliance/search-for-content-in-core-ediscovery) or when [identifying and collecting custodian content in Advanced eDiscovery](/microsoft-365/compliance/add-custodians-to-case).
+4. Include the mailboxes of owners and members of a private channel as part of your [eDiscovery search query in eDiscovery (Standard)](/microsoft-365/compliance/search-for-content-in-core-ediscovery) or when [identifying and collecting custodian content in eDiscovery (Premium)](/microsoft-365/compliance/add-custodians-to-case).
 
 ### Identifying the SharePoint site for private and shared channels
 
@@ -161,7 +161,7 @@ Before you perform these steps, [install the SharePoint Online Management Shell 
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
 
-4. Include the site associated with a private or shared channel as part of your [eDiscovery search query in Core eDiscovery](/microsoft-365/compliance/search-for-content-in-core-ediscovery) or when [identifying and collecting custodian content in Advanced eDiscovery](/microsoft-365/compliance/add-custodians-to-case).
+4. Include the site associated with a private or shared channel as part of your [eDiscovery search query in eDiscovery (Standard)](/microsoft-365/compliance/search-for-content-in-core-ediscovery) or when [identifying and collecting custodian content in eDiscovery (Premium)](/microsoft-365/compliance/add-custodians-to-case).
 
 ## Search for content for guest users
 
@@ -246,6 +246,6 @@ Admins can use eDiscovery to search for content in chats messages in a Teams mee
 ## Related topics
 
 - [Microsoft 365 eDiscovery solutions](/microsoft-365/compliance/ediscovery)
-- [Get started with Core eDiscovery](/microsoft-365/compliance/get-started-core-ediscovery)
-- [Teams workflow in Advanced eDiscovery](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery)
+- [Get started with eDiscovery (Standard)](/microsoft-365/compliance/get-started-core-ediscovery)
+- [Teams workflow in eDiscovery (Premium)](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery)
 - [Teams PowerShell Overview](teams-powershell-overview.md)
