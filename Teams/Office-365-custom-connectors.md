@@ -33,9 +33,7 @@ The Exchange Online PowerShell V2 module uses modern authentication and works wi
 
 The tenant setting overrides the group setting. For example, if an admin enables connectors for the group and disables them on the tenant, connectors for the group is disabled. To enable a connector in Teams, [connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps#connect-to-exchange-online-powershell-using-modern-authentication-with-or-without-mfa&preserve-view=true) using modern authentication with or without MFA.
 
-### Commands to enable or disable connectors
-
-Execute the following commands in Exchange Online PowerShell:
+To enable or disable a connector, execute the following commands in Exchange Online PowerShell:
 
 * To disable connectors for the tenant: `Set-OrganizationConfig -ConnectorsEnabled:$false`.
 * To disable actionable messages for the tenant: `Set-OrganizationConfig -ConnectorsActionableMessagesEnabled:$false`.
@@ -46,9 +44,31 @@ Execute the following commands in Exchange Online PowerShell:
 
 For more information on PowerShell module exchange, see [Set-OrganizationConfig](/powershell/module/exchange/Set-OrganizationConfig?view=exchange-ps&preserve-view=true). To enable or disable Outlook connectors, [connect apps to your groups in Outlook](https://support.microsoft.com/topic/connect-apps-to-your-groups-in-outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab).
 
-<!---TBD: Delete this section after customer migration to new Webhook URL is complete --->
+<!--- TBD: Find out how can we get to know about completion of customer migration.
+Delete this section after customer migration to new Webhook URL is complete.
+--->
 
-#### Connector URL update notification
+## Publish connectors for your organization
+
+If you want the connector to be available only to the users in your organization, you can upload a custom connector app to your [organization's app catalog](~/concepts/deploy-and-publish/apps-publish.md).
+
+After you upload the app package to configure and use the connector in a team, the end-users can install the connector from the organization's app catalog.
+
+To set up a connector:
+
+1. Select **Apps** from the left navigation bar.
+1. In the **Apps** section, select **Connectors**.
+1. Select the connector that you want to add. A pop up dialog window appears.
+1. From the dropdown menu, select **Add to a team**.
+1. In the search box, type a team or channel name.
+1. Select **Set up a Connector** from the dropdown menu in the bottom right corner of the dialog window.
+
+> [!IMPORTANT]
+> Custom connectors are not available in Government Community Cloud (GCC), GCC-High, and Department of Defense (DOD).
+
+The connector is available in the section &#9679;&#9679;&#9679; > **More options** > **Connectors** > **All** > **Connectors for your team** for that team. You can navigate by scrolling to this section or search for the connector app. To configure or modify the connector, select **Configure**.
+
+## Update URL of a connector
 
 The Teams connectors are transitioning to a new URL to enhance security. During transition, you'll receive a notification to update the configured connector. Update your connector at the earliest to prevent any disruption to connector services. To update your connector:
 
