@@ -22,7 +22,7 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ms.reviewer: 
-description: Learn how to use the EHR connector Virtual Visits report in the Microsoft Teams admin center to get an overview of EHR-integrated virtual appointment usage in your organization. 
+description: Learn how to use the Teams EHR connector Virtual Visits report in the Microsoft Teams admin center to get an overview of EHR-integrated virtual appointment usage in your organization. 
 ---
 
 # Microsoft Teams EHR connector Virtual Visits report
