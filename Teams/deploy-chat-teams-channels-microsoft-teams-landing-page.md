@@ -89,7 +89,7 @@ External access (federation) lets your users communicate with people outside of 
 
 |Ask yourself|Action |
 |------------|-------|
-|<ul><li>Will I turn off external access for my organization?</li><li>If enabled, will I limit which domains my organization can communicate with?</li></ul> |<br>To turn external access on or off, see [Plan for external access](manage-external-access.md#plan-for-external-access).|
+|<ul><li>Will I turn off external meetings and chat for my organization?</li><li>If enabled, will I limit which domains my organization can communicate with?</li></ul> |<br>To turn external meeting and chat on or off, see [Manage external meetings and chat](manage-external-access.md).|
 
 ### Guest access
 
