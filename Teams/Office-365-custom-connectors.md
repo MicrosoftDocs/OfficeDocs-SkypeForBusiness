@@ -23,7 +23,7 @@ ms.custom: seo-marvel-mar2020
 
 To keep your team updated, the connectors deliver frequently used content and service updates directly into a Teams channel. With connectors, your Teams users can receive updates from popular services such as Trello, Wunderlist, GitHub, and Azure DevOps Services. The updates are posted directly into the chat stream in their team.
 
-Microsoft 365 connectors are used with both Microsoft Teams and Microsoft 365 groups, making it easier for all members to stay in sync and receive relevant information quickly. Both Microsoft Teams and Exchange use the same connector model, which allows you to use the same connectors within both platforms. It is worth noting, however, that disabling connectors for the Microsoft 365 group that a team is dependent upon disables the ability to create connectors for that team as well.
+Microsoft 365 connectors are used with both Microsoft Teams and Microsoft 365 groups, making it easier for all members to stay in sync and receive relevant information quickly. Both Microsoft Teams and Exchange use the same connector model, which allows you to use the same connectors within both platforms. However, if you disable any connectors configured for a Microsoft 365 group, it also disables the ability for the Microsoft 365 group to create connectors.
 
 Any member of a team can connect their team to popular cloud services with the connectors if the team permissions allow, and all team members are notified of activities from that service. Connectors continue to function after the member who has initially setup the connector has left. Any team member with the permissions to add or remove can modify connectors setup by other members.
 
@@ -54,16 +54,16 @@ The Teams connectors are transitioning to a new URL to enhance security. During 
 
 1. In the connectors configuration page, check for **Attention Required** message adjacent to your configured connector.
 
-![Screenshot of the Attention Required message.](media/Teams_Attention_Required_message.png)
+   ![Screenshot of the Attention Required message.](media/Teams_Attention_Required_message.png)
 
 1. To recreate the connection for incoming webhook connectors, select **Update URL** and use the generated webhook URL.
 
-![Screenshot of the Update URL button.](media/Teams_update_URL_button.png)
+   ![Screenshot of the Update URL button.](media/Teams_update_URL_button.png)
 
 1. For other connector types, remove the connector and recreate the connector configuration.
    **URL is up-to-date** message appears.
 
-![Screenshot of the URL is up-to-date message.](media/Teams_URL_up_to_date.png)
+   ![Screenshot of the URL is up-to-date message.](media/Teams_URL_up_to_date.png)
 
 ## See also
 
