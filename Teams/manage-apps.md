@@ -18,29 +18,50 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 ---
-# Manage your apps in the Microsoft Teams admin center
+# Manage Teams apps in the Microsoft Teams admin center
 
-As an admin, you can view and manage all Teams apps for your organization. On the Manage apps page in the Teams admin center you can:
+You manage apps for your organization in **Teams apps** in the admin center. Use the [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps) page to view and manage all Teams apps in your organization's app catalog. The Manage apps page gives you a view into all available apps in your tenant catalog, providing you with the information you need to decide which apps to allow or block across your organization. You can see the org-level status and properties of apps, block or allow apps at the org level, upload new custom apps to your tenant catalog, and manage org-wide app settings.
 
-- [Allow or block apps at the org level](#allow-and-block-apps)
-- [Apps blocked by publishers](#apps-blocked-by-publishers)
-- [Add apps to teams](#add-an-app-to-a-team)
-- [Approve or upload new custom apps to your organization's app store](#publish-a-custom-app-to-your-organizations-app-store)
-- [View permissions requested by apps](#view-resource-specific-consent-permissions)
-- [Grant consent to apps](#grant-admin-consent-to-apps)
-- [Purchase service for third-party apps](#purchase-services-for-third-party-apps)
-- [See org-level status and properties of apps](#view-apps)
-- [Manage org-wide app settings](#manage-org-wide-app-settings)
-- [View security and compliance information for Microsoft 365 Certified apps](#view-security-and-compliance-information-for-microsoft-365-certified-apps)
+![Screenshot of the Manage apps page.](media/manage-apps.png)
+
+To use Teams admin center, you must be a global admin or Teams service admin. For details, see [Teams administrator roles](./using-admin-roles.md).
+
+To manage apps, you use policies to control permissions for users, installation of apps, and upload of custom apps created within your organization. To understand policies, see [Overview of app policies](app-policies.md).
+
+> [!NOTE]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
+
+> [!NOTE]
+> The Manage apps page isn't available in Microsoft 365 Government Community Cloud High (GCCH) or Department of Defense (DoD) deployments of Teams.
+
+<!--- TBD: This info belongs in the app policy overview article. Title it as mentioned in the spreadsheet.
+
+* **App permission policy**: With it, you can control what apps are available to specific users in your organization. You can allow or block all apps or specific apps published by Microsoft, third-parties, and your organization. See [Manage app permission policies in Teams](teams-app-permission-policies.md).
+* **App setup policies**: It lets you customize the app experience for your users. You choose the apps that you want to pin to the app bar in the Teams clients and the order in which they appear, on web, desktop, and mobile clients. See [Manage app setup policies in Teams](teams-app-setup-policies.md).
+* **Custom app policies and settings**: Teams allows developers in your organization to build, test, and deploy custom apps to other users. Custom apps can be added to Teams by uploading an app package in a .zip file directly to a team or in the personal context. You can use app setup policies to control who in your organization can upload custom apps. You can also set org-wide settings to control whether users can interact with specific custom apps. See [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings).
+
+The following are the important use cases you can accomplish via the the Manage apps page:
+
+* [Allow or block apps at the org level](#allow-and-block-apps)
+* [Apps blocked by publishers](#apps-blocked-by-publishers)
+* [Add apps to teams](#add-an-app-to-a-team)
+* [Approve or upload new custom apps to your organization's app store](#publish-a-custom-app-to-your-organizations-app-store)
+* [View permissions requested by apps](#view-resource-specific-consent-permissions)
+* [Grant consent to apps](#grant-admin-consent-to-apps)
+* [Purchase service for third-party apps](#purchase-services-for-third-party-apps)
+* [See org-level status and properties of apps](#view-apps)
+* [Manage org-wide app settings](#manage-org-wide-app-settings)
+* [View security and compliance information for Microsoft 365 Certified apps](#view-security-and-compliance-information-for-microsoft-365-certified-apps)
+
+<!--- TBD: Commenting for now in favor of the definition list above: 
 
 The Manage apps page gives you a view into all available apps, providing you with the information you need to decide which apps to allow or block across your organization. You can then use [app permission policies](teams-app-permission-policies.md), [app setup policies](teams-app-setup-policies.md), and [custom app policies and settings](teams-custom-app-policies-and-settings.md) to configure the app experience for specific users in your organization.
 
 In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. You must be a global admin or Teams service admin to access the page.
 
-![Screenshot of the Managed apps page.](media/manage-apps.png)
+--->
 
-> [!NOTE]
-> The Manage apps page isn't available yet in Microsoft 365 Government Community Cloud High (GCCH) or Department of Defense (DoD) deployments of Teams.
+<!--- TBD: Move this view apps section to a new article about navigating and understanding TAC. It is yet to be created.
 
 ## View apps
 
@@ -71,13 +92,14 @@ You can view every app including the following information about each app.
 - **Admin can install in meetings**: Indicates whether an app can be installed by admins in Team meetings. [Learn more](teams-app-setup-policies.md#install-apps)
 
 To see the information that you want in the table, select **Edit Column** in the upper-right corner to add or remove columns to the table.
+--->
 
 ## Publish a custom app to your organization's app store
 
 Use the Manage apps page to publish apps that are built specifically for your organization. After you publish a custom app, it's available to users in your organization's app store. There are two ways to publish a custom app to your organization's app store. The way that you use depends on how you get the app.
 
-- [Approve a custom app](#approve-a-custom-app): Use this method if the developer submits the app directly to the Manage apps page using the Teams App Submission API. You can then review and publish (or reject) the app directly from the app details page.
-- [Upload an app package](#upload-an-app-package): Use this method if the developer sends you the app package in .zip format. You publish the app by uploading the app package.
+* [Approve a custom app](#approve-a-custom-app): Use this method if the developer submits the app directly to the Manage apps page using the Teams App Submission API. You can then review and publish (or reject) the app directly from the app details page.
+* [Upload an app package](#upload-an-app-package): Use this method if the developer sends you the app package in .zip format. You publish the app by uploading the app package.
 
 ### Approve a custom app
 
@@ -123,8 +145,8 @@ You use the **Add to team** button to install an app to a team. Keep in mind tha
 ![Screenshot of Add to team button.](media/manage-apps-add-app-team.png)
 
 1. Search for the app you want, and then select the app by clicking to the left of the app name.
-2. Select **Add to team**.
-3. In the **Add to team** pane, search for the team you want to add the app to, select the team, and then select **Apply**.
+1. Select **Add to team**.
+1. In the **Add to team** pane, search for the team you want to add the app to, select the team, and then select **Apply**.
 
 ## Customize an app
 
@@ -171,6 +193,8 @@ Use org-wide app settings to control whether users with an [F license](https://w
 1. Under **Custom apps**, turn off or turn on **Allow interaction with custom apps**. This setting controls whether users can interact with custom apps. To learn more, see [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md).
 1. Select **Save** for org-wide app settings to take effect.
 
+<!--- TBD: Commenting this info for now. Move it later to the new article about compliance program and how/where admins can find info about compliant apps.
+
 ## View security and compliance information for Microsoft 365 Certified apps
 
 When evaluating an app for their organization, admins can use independent Cloud Access Security Brokers (CASB), such as Microsoft Cloud App Security (MCAS), to find information about security and behaviors of an app. The Teams admin center includes security and compliance information from MCAS for Microsoft 365 Certified apps so you'll have more information on whether or not the app meets your needs.
@@ -188,7 +212,4 @@ To access MCAS information, follow these steps:
 ![Screenshot of Teams admin center security and compliance tab.](media/mcas.png)
 
 On this tab, you'll find information on security, compliance, and data protection. You can also expand each dropdown list to get more details about which capabilities are supported for the selected application.
-
-## Related topics
-
-- [Admin settings for apps in Teams](admin-settings.md)
+--->

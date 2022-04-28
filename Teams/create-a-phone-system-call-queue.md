@@ -203,6 +203,9 @@ If an agent opts out of getting calls, they won't be included in the call routin
 > [!TIP]
 > Setting **Agent alert time** to **20 seconds** is the recommended setting.
 
+> [!NOTE]
+> The [Call timeout handling](#call-timeout-handling) setting has priority over the agent alert time. If the maximum queue time configured for call timeout handling has been reached the call will pulled back from the agent(s) even if the agent alert time limit has not been reached.
+
 ## Call overflow handling
 
 ![Screenshot of call overflow settings.](media/call-queue-overflow-handling.png)
