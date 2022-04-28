@@ -1650,7 +1650,7 @@ items:
               href: sku-reference-edu.md
         - name: Teams policies for education
           items:
-            - name: Teams EDU policies and policy packages
+            - name: Manage Teams policies and policy packages
               href: policy-packages-edu.md
             - name: Quickly set up policies for users
               href: easy-policy-setup-edu.md

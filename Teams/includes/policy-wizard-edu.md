@@ -1,6 +1,2 @@
 > [!IMPORTANT]
 > You can run the [Teams for Education Policy Wizard](../easy-policy-setup-edu.md) to easily apply policies for your students, educators and staff.
->
-> The tool adjusts the Global (Org-wide default) policy definition of a core set of policies with settings that we recommend for student safety and applies it to students.
->
-> The tool also creates and assigns a set of custom policies to educators and staff.
