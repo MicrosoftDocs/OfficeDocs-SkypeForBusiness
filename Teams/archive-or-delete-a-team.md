@@ -36,8 +36,8 @@ When you delete a team, team activity in standard and private channels (and asso
 
 Follow these steps to archive a team. You must be a Teams service admin to make these changes. See [Use Teams administrator roles to manage Teams](./using-admin-roles.md) to read about getting admin roles and permissions.
 
-1. In the admin center, select **Teams**.
-2. Select a team by clicking the team name.
+1. In the admin center, select **Manage teams**.
+2. Place a checkmark next to the team name.
 3. Select **Archive**. The following message will appear.
 
     ![Screenshot of Teams archive message.](media/teams-archive-message.png)
@@ -49,9 +49,9 @@ Follow these steps to archive a team. You must be a Teams service admin to make 
 
 Follow these steps to make an archived team active again.
 
-1. In the admin center, select **Teams**.
-2. Select a team by clicking the team name.
-3. Select **Restore**. The team’s status will change to **Active**. Note that it will not be moved back inside **Your teams** automatically.
+1. In the admin center, select **Manage teams**.
+2. Place a checkmark next to the team name.
+3. Select **Unarchive**. The team’s status will change to **Active**. Note that it will not be moved back inside **Your teams** automatically.
 
 ## Delete a team
 
