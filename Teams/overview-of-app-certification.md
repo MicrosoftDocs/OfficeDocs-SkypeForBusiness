@@ -88,11 +88,34 @@ Administrators can quickly check for Microsoft 365 certified apps in the followi
 
    :::image type="content" source="media/attested-app-tac2.png" alt-text="In Teams admin center, on the dialog to grant permissions, admins can check the blue checkmark to be assured that the app is Microsoft 365 certified.":::
 
-## View security, compliance, and privacy information in Microsoft documentation
+## View security, compliance, and privacy information
 
-For an attested or certified app, the details about security, privacy, compliance, and more for each app, are listed at the app-specific help articles linked from [Microsoft Teams apps security and compliance](/microsoft-365-app-certification/teams/teams-apps).
+For an attested or certified app, admins can find information about security, privacy, compliance and behaviors of an app in **Microsoft documentation** and **Teams admin center**.
+
+### Microsoft documentation
+
+Admins can find the details about security, privacy, compliance, and more for each app listed it the app-specific help articles linked from [Microsoft Teams apps security and compliance](/microsoft-365-app-certification/teams/teams-apps).
 
 :::image type="content" source="media/attested-app-doc-details.png" alt-text="Detailed information that is provided for apps that undergo Microsoft compliance program.":::
+
+### Teams Admin Center
+
+When evaluating an app for their organization, admins can use independent Cloud Access Security Brokers (CASB), such as Microsoft Cloud App Security (MCAS), to find information about security and behaviors of an app. The Teams admin center includes security and compliance information from MCAS for Microsoft 365 Certified apps so you'll have more information on whether or not the app meets your needs.
+
+> [!NOTE]
+> This feature is available to all admins, whether or not your organization has a license that supports MCAS.
+
+To access MCAS information for an app:
+
+1. In the Teams admin center, select **Manage apps** under **Teams apps**.
+1. Select **Certification** to sort apps and push all Microsoft 365 Certified apps to the top of the table.
+1. Choose a Microsoft 365 Certified app.
+1. Select the **Security and compliance** tab.
+
+   :::image type="content" source="media/mcas.png" alt-text="Screenshot of Teams admin center security and compliance tab":::
+
+   You can also expand each dropdown list to get more details about which capabilities are supported for the selected application.
+
 
 <!--- TBD: Move to the permissions article 
 
