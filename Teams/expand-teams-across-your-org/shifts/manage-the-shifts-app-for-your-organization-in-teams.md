@@ -78,7 +78,7 @@ We recommend using the Frontline Worker and Frontline Manager policy packages as
 
 ## Search the audit log for Shifts events
 
-**(in preview)**
+**(In preview)**
 
 You can search the audit log to view Shifts activity in your organization.  To learn more about how to search the audit log and to see a list of [Shifts activities](../../audit-log-events.md#shifts-in-teams-activities) that are logged in the audit log, see [Search the audit log for events in Teams](../../audit-log-events.md).
 
