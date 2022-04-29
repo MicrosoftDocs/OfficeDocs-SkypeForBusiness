@@ -58,15 +58,15 @@ The Teams connectors are transitioning to a new URL to enhance security. During 
 
 1. In the connectors configuration page, check for **Attention Required** message next to the configured connector.
 
-   ![Screenshot of the Attention Required message.](media/Teams_Attention_Required_message.png)
+   :::image type="content" source="media/Teams_Attention_Required_message.png" alt-text="Screenshot of the Attention Required message":::
 
 1. To recreate the connection for incoming webhook connectors, select **Update URL** and use the generated webhook URL.
 
-   ![Screenshot of the Update URL button.](media/Teams_update_URL_button.png)
+   :::image type="content" source="media/Teams_update_URL_button.png" alt-text=" Screenshot of the Update URL button":::
 
 1. For other connector types, remove the connector and recreate the connector configuration. A **URL is up-to-date** message appears.
 
-   ![Screenshot of the URL is up-to-date message.](media/Teams_URL_up_to_date.png)
+   :::image type="content" source="media/Teams_URL_up_to_date.png" alt-text="Screenshot of the URL is up-to-date message":::
 
 ## See also
 
