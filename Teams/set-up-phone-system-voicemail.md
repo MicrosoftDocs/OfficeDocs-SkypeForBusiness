@@ -96,7 +96,7 @@ The following information is about configuring Cloud Voicemail to work with Team
 
 When someone leaves a voicemail message for a user in your organization, the voicemail is delivered to the user's mailbox as an email message attachment. 
 
-Using Microsoft Information Protection, you can encrypt the voicemail messages left by both internal and external callers. You can also prevent the user from  forwarding these messages. This feature is supported for users with Exchange Online mailboxes.
+Using Microsoft Purview Information Protection, you can encrypt the voicemail messages left by both internal and external callers. You can also prevent the user from  forwarding these messages. This feature is supported for users with Exchange Online mailboxes.
 
 To encrypt the voicemail message, you can create a sensitivity label. With the auto-labeling feature, you can ensure that the label will be applied automatically to incoming voicemail messages. 
 
