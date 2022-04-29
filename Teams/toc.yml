@@ -553,9 +553,9 @@ items:
       items: 
         - name: Communicate with users from other organizations
           href: communicate-with-users-from-other-organizations.md
-        - name: External access (federation)
+        - name: External meetings and chat
           items: 
-            - name: Manage external access
+            - name: Manage external meetings and chat
               href: manage-external-access.md
             - name: Native Teams chats
               href: native-chat-for-external-users.md
