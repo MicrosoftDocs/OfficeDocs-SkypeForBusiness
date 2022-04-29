@@ -28,6 +28,8 @@ Teams provides an easy way to pin apps for frontline workers. This feature pins 
 
 With the tailored frontline app experience, your frontline workers get the most relevant apps in Teams without any action needed from the admin.
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4VuCH]
+
 ## Tailored frontline app experience
 
 Apps are pinned to the app bar, which is the bar at the bottom of the Teams mobile clients (iOS and Android) and on the side of the Teams desktop client. The following apps are pinned for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt):
