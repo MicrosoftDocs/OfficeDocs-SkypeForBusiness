@@ -74,7 +74,7 @@ Administrators can quickly check for Microsoft 365 certified apps in the followi
 
 * When gathering more information about an app on the web, see the shield icon in Microsoft documentation about the app.
 
-  :::image type="content" source="media/attested-app-doc-details.png" alt-text="View the Microsoft 365 certification information in the detailed help article about security and compliance of an app.":::
+  :::image type="content" source="media/attested-app-doc-details.png" alt-text="View the Microsoft 365 certification information in the detailed help article about security and compliance of an app":::
 
 * When checking an application in Teams admin center, sort the list of apps using the Certification column. See the icon and optionally, select the link to access the app-specific page mentioned above.
 
@@ -86,21 +86,21 @@ Administrators can quickly check for Microsoft 365 certified apps in the followi
 
 * In Teams admin center, when granting permissions to the app, a blue checkmark in front of the app name indicates either a publisher attested app or a Microsoft 365 certified app.
 
-   :::image type="content" source="media/attested-app-tac2.png" alt-text="In Teams admin center, on the dialog to grant permissions, admins can check the blue checkmark to be assured that the app is Microsoft 365 certified.":::
+   :::image type="content" source="media/attested-app-tac2.png" alt-text="In Teams admin center, on the dialog to grant permissions, admins can check the blue checkmark to be assured that the app is Microsoft 365 certified":::
 
 ## View security, compliance, and privacy information
 
-For an attested or certified app, admins can find information about security, privacy, compliance and behaviors of an app in **Microsoft documentation** and **Teams admin center**.
+You can find information about security, privacy, compliance and behaviors for an attested or certified app in Microsoft documentation and Teams admin center.
 
 ### Microsoft documentation
 
-Admins can find the details about security, privacy, compliance, and more for each app listed it the app-specific help articles linked from [Microsoft Teams apps security and compliance](/microsoft-365-app-certification/teams/teams-apps).
+You can find the details about security, privacy, compliance, and more for each app listed it the app-specific help articles linked from [Microsoft Teams apps security and compliance](/microsoft-365-app-certification/teams/teams-apps).
 
 :::image type="content" source="media/attested-app-doc-details.png" alt-text="Detailed information that is provided for apps that undergo Microsoft compliance program.":::
 
-### Teams Admin Center
+### Teams admin center
 
-When evaluating an app for their organization, admins can use independent Cloud Access Security Brokers (CASB), such as Microsoft Cloud App Security (MCAS), to find information about security and behaviors of an app. The Teams admin center includes security and compliance information from MCAS for Microsoft 365 Certified apps so you'll have more information on whether or not the app meets your needs.
+When evaluating an app for their organization, you can use independent Cloud Access Security Brokers (CASB), such as Microsoft Cloud App Security (MCAS), to find information about security and behaviors of an app. The Teams admin center includes security and compliance information from MCAS for Microsoft 365 Certified apps to check if an app meets your needs.
 
 > [!NOTE]
 > This feature is available to all admins, whether or not your organization has a license that supports MCAS.
@@ -114,8 +114,7 @@ To access MCAS information for an app:
 
    :::image type="content" source="media/mcas.png" alt-text="Screenshot of Teams admin center security and compliance tab":::
 
-   You can also expand each dropdown list to get more details about which capabilities are supported for the selected application.
-
+   To get more details on the supported capabilities for the app, select the dropdown list for each category.
 
 <!--- TBD: Move to the permissions article 
 
@@ -136,7 +135,7 @@ After admins grant the org-wide permissions to an app, they can review the Graph
 
 In Teams admin center, each app page links to the privacy statement and terms of use of the app.
 
-:::image type="content" source="media/tac-app-tou-privacy-info1.png" alt-text="From Teams admin center, admins can access the link to the privacy policy and terms of use for every app." lightbox="media/tac-app-tou-privacy-info2.png":::
+:::image type="content" source="media/tac-app-tou-privacy-info1.png" alt-text="From Teams admin center, admins can access the link to the privacy policy and terms of use for every app" lightbox="media/tac-app-tou-privacy-info2.png":::
 
 <!--- TBD: Parking some content for later review. Check if this content needs to be published.
 
