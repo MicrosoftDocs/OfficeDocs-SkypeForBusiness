@@ -192,24 +192,3 @@ Use org-wide app settings to control whether users with an [F license](https://w
 
 1. Under **Custom apps**, turn off or turn on **Allow interaction with custom apps**. This setting controls whether users can interact with custom apps. To learn more, see [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md).
 1. Select **Save** for org-wide app settings to take effect.
-
-<!--- TBD: Commenting this info for now. Move it later to the new article about compliance program and how/where admins can find info about compliant apps.
-
-## View security and compliance information for Microsoft 365 Certified apps
-
-When evaluating an app for their organization, admins can use independent Cloud Access Security Brokers (CASB), such as Microsoft Cloud App Security (MCAS), to find information about security and behaviors of an app. The Teams admin center includes security and compliance information from MCAS for Microsoft 365 Certified apps so you'll have more information on whether or not the app meets your needs.
-
-> [!NOTE]
-> This feature is available to all admins, whether or not your organization has a license that supports MCAS.
-
-To access MCAS information, follow these steps:
-
-1. In the Teams admin center, select **Manage apps** under **Teams apps**.
-1. Select **Certification** to sort apps and push all Microsoft 365 Certified apps to the top of the table.
-1. Choose a Microsoft 365 Certified app.
-1. Select the **Security and compliance** tab.
-
-![Screenshot of Teams admin center security and compliance tab.](media/mcas.png)
-
-On this tab, you'll find information on security, compliance, and data protection. You can also expand each dropdown list to get more details about which capabilities are supported for the selected application.
---->
