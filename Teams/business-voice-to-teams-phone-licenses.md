@@ -24,9 +24,15 @@ ms.custom:
 
 # Move from Business Voice to Teams Phone licenses
 
-By May 2022, Business Voice will be retired, so we [recommend businesses switch to Microsoft Teams Phone with Calling Plan bundle licenses](https://techcommunity.microsoft.com/t5/small-and-medium-business-blog/teams-phone-with-calling-plan-available-in-33-markets-on-january/ba-p/2967643).
+By the end of June 2022, Business Voice will be retired, so we [recommend businesses switch to Microsoft Teams Phone with Calling Plan bundle licenses](https://techcommunity.microsoft.com/t5/small-and-medium-business-blog/teams-phone-with-calling-plan-available-in-33-markets-on-january/ba-p/2967643).
 
-Business Voice bundled Teams Phone System for Private Branch Exchange (PBX) features, Audio Conferencing, and an optional Microsoft 365 Calling Plan for calls to the Public Switched Telephone Network (PSTN).
+Business Voice bundled the following three Teams add-on licenses:
+
+- **Microsoft Teams Phone** for a cloud-based Phone System in Microsoft Teams.
+- **Audio Conferencing** for dial-in and dial-out conferencing for meetings.
+- **Microsoft Calling Plans** for domestic calls to Public Switched Telephone Network (PSTN) connectivity.
+
+Existing Business Voice customers won't be automatically transitioned to the new licensing model.
 
 This article is for IT admins who need to change their Business Voice licenses to Microsoft Teams Phone and Audio Conferencing licenses while maintaining the same capabilities.
 
@@ -44,10 +50,9 @@ Use the following table to determine which licenses to purchase based on your ne
 
 | Old license plan | Recommended license plan | Description |
 | ---------------- | ------------------------ | ----------- |
-| Business Voice with Calling Plan | Teams Phone with Calling Plan | Provides cloud-based PBX capabilities and a Domestic Calling Plan with Microsoft as your PSTN provider. |
-| Business Voice without Calling Plan | Teams Phone Standard | Provides cloud-based PBX capabilities that can be combined with a [calling plan through a third-party PSTN provider or Direct Routing](pstn-connectivity.md) |
-| Business Voice (any version) | Microsoft Audio Conferencing | Provides users the ability to call in to Teams meetings from their phones.
-| Business Voice (any version) | Microsoft Team Audio Conferencing select dial-out | Provides dial-in and dial-out capabilities to meeting attendees organized by a licensed user |
+| Business Voice with Calling Plan | Teams Phone with Calling Plan | Provides cloud-based Phone System capabilities and a Domestic Calling Plan with Microsoft as your PSTN provider. |
+| Business Voice without Calling Plan | Teams Phone Standard | Provides cloud-based Phone System capabilities that can be combined with a [calling plan through a third-party PSTN provider using either Operator Connect or Direct Routing](pstn-connectivity.md) |
+| Business Voice (any version) | Microsoft Team Audio Conferencing select dial-out or Audio Conferencing | Provides dial-in and dial-out capabilities to meeting attendees organized by a licensed user |
 
 ## How to update licenses
 
@@ -69,7 +74,7 @@ To update a single user, you can use the Microsoft 365 admin center.
 1. Select **Manage product licenses** on the list toolbar.
 1. On the **Licenses and apps** screen, deselect the Business Voice license.
     > [!IMPORTANT]
-    > DON'T save changes yet. If you save changes without adding the new licenses in the same step, the user account will be deprovisioned and the phone number unassigned.
+    > DON'T save changes yet. If you save changes without adding the new licenses, the user account will be deprovisioned and the phone number unassigned.
 1. After deselecting Business Voice, check the new Teams Phone and Audio Conferencing licenses.
 1. Now you can safely save your changes by selecting **Save change**.
     1. The user's licenses will be updated and shouldn't impact service availability.
@@ -89,10 +94,10 @@ To update multiple users' licenses in bulk, you can use the Microsoft 365 admin 
     >
     > Also, if the selected users have different base license configurations, they will be overwritten with your selected licenses, which may affect other areas of Microsoft 365.
     >
-    > For tenants with a mixed license setup, we recommend using the [bulk update option with a PowerShell script below](#option-3-bulk-user-license-update-using-a-powershell-script).
+    > For tenants with a mixed license setup, we recommend using the [bulk update option with a PowerShell script](#option-3-bulk-user-license-update-using-a-powershell-script).
 1. On the **Licenses and apps** screen, deselect the Business Voice license.
     > [!IMPORTANT]
-    > DON'T save changes yet. If you save changes without adding the new licenses in the same step, the user account will be deprovisioned and the phone number unassigned.
+    > DON'T save changes yet. If you save changes without adding the new licenses, the user account will be deprovisioned and the phone number unassigned.
 1. After deselecting Business Voice, check the new Teams Phone and Audio Conferencing licenses.
 1. Now you can safely save your changes by selecting **Save change**.
     1. The users' licenses will be updated and shouldn't impact service availability.
@@ -107,8 +112,8 @@ To use this method, you'll follow these general steps:
 
 1. Get the tenant-specific license plan identifiers of your current Business Voice licenses.
 1. Get the tenant-specific identifiers of your new Teams Phone and Audio Conferencing license plans.
-1. Validate if the new license plans have the same service plans as with the current Business Voice.
-1. Find tenant users who are licensed for Business Voice, or modify the script to include a filter to select a subset of users.
+1. Validate if the new license plans have the same service plans as the current Business Voice license.
+1. Find tenant users who are licensed for Business Voice (or modify the script to include a filter to select a subset of users, if desired).
 1. Update users' license configuration with Teams Phone and Audio Conferencing plans.
 
 > [!IMPORTANT]
@@ -146,7 +151,7 @@ To use this method, you'll follow these general steps:
     | BUSINESS_VOICE_DIRECTROUTING_MED | Business Voice without Calling Plan - US |
 
     > [!NOTE]
-    > The script provided in this document assumes a single SKU Code for your tenant.  
+    > The script provided in this document assumes that you have a single SKU Code for Business Voice in your tenant.  
     >
     > If you have multiple Business Voice SKUs, you'll need to adjust the script or run it multiple times, one time for each SKU Code.
 
@@ -168,7 +173,7 @@ To use this method, you'll follow these general steps:
     | Microsoft_Teams_Audio_Conferencing_select_dial_out | Microsoft Teams Audio Conferencing Select Dial-Out |
 
 1. Create PowerShell variables to store the unique Teams Phone and Audio Conferencing SKU Codes.
-    1. Make sure you replace the `SkuPartNumber` label with the SKU Codes you want available in your tenant.
+    1. Make sure you replace the `SkuPartNumber` label with the SKU Codes you have available in your tenant.
     1. In this example, we're using the `MCOTEAM_ESSENTIALS` and `MCOMEETADV` SKU Codes.
 
     ```powershell
@@ -185,7 +190,7 @@ To use this method, you'll follow these general steps:
     ```
 
 1. Before moving on, validate if the source SKU (Business Voice) and the target SKU’s (Teams Phone and Audio Conferencing) have the same Service Plans included.
-    1. A mismatch can trigger a license change that could disrupt your organization's services.
+    1. A mismatch can trigger a license change that could disrupt users' voice and audio conferencing services.
     2. Create variables to validate if all Service Plans in the source SKU will be replaced with the same target service plan.
 
     ```powershell
@@ -210,7 +215,7 @@ To use this method, you'll follow these general steps:
     }
     ```
 
-    1. If there is a missing service plan in the target SKU, you could disrupt service availability for users, and should stop processing.
+    1. If there is a missing service plan in the target SKU, you could disrupt service availability for users, and you script should stop processing.
 
     ```powershell
     if($validated_TP -eq $false ) { Write-Host "Stop updating users because target SKU does not have the same Service Plan for Teams Phone." ; exit }
@@ -249,7 +254,68 @@ To use this method, you'll follow these general steps:
 > [!NOTE]
 > If you don't have enough available Teams Phone and/or Audio Conferencing licenses to replace Business Voice, you’ll get the error **Subscription with SKU guid does not have any available license** during user assignment as soon as the pool of licenses is depleted.
 
-# [Option 4: Bulk users with Azure licensing](#tab/azure-licensing)
+### Full script
+
+```powershell
+#Install the AzureAD module when required
+Install-Module AzureAD
+#Import the AzureAD module so you can use the commandlets
+Import-Module AzureAD
+
+#Connect to your tenant
+Connect-AzureAD
+
+#When necessary, uncomment and use this commandlet to list all the licenses in the tenant and identify which license packages are required
+#Get-AzureADSubscribedSku
+
+##Replace the SKU codes below to match your desired scenario
+$skuSourceBV = Get-AzureADSubscribedSku | where {$_.SkuPartNumber -eq "BUSINESS_VOICE_MED2_TELCO"}
+$skuTargetTP = Get-AzureADSubscribedSku | where {$_.SkuPartNumber -eq "MCOTEAMS_ESSENTIALS"}
+$skuTargetAC = Get-AzureADSubscribedSku | where {$_.SkuPartNumber -eq "MCOMEETADV"}
+
+##Replace the SKU codes below to match your desired scenario
+$servicePlan_Phone = $skuSourceBV.ServicePlans | where {$_.ServicePlanName.ToString() -like "*EV*"}
+$servicePlan_AC = $skuSourceBV.ServicePlans | where {$_.ServicePlanName.ToString() -like "*MEET*"}
+$servicePlan_CP = $skuSourceBV.ServicePlans | where {$_.ServicePlanName.ToString() -like "*PSTN*"}
+
+##Create variables to validate if all Service Plans in the source SKU will be replaced with the same target service plan
+$validated_TP = $false
+$validated_AC = $false
+$validated_CP = $false
+
+##If source Business Voice has no Calling Plan included, do not check
+if($skuSourceBV.ServicePlans.Count -eq 2) { $validated_CP = $true }
+
+##Verify if all service plans in source SKU have a matching service plan in target SKU
+For ($i=0; $i -le $skuSourceBV.ServicePlans.Count ; $i++) { 
+    if($validated_TP -eq $false) { if($skuTargetTP.ServicePlans.Contains($servicePlan_Phone)) { $validated_TP = $true } }
+    if($validated_AC -eq $false) { if($skuTargetAC.ServicePlans.Contains($servicePlan_AC)) { $validated_AC = $true } }
+    if($validated_CP -eq $false) { if($skuTargetTP.ServicePlans.Contains($servicePlan_CP)) { $validated_CP = $true } }
+}
+
+##If there is a missing service plan in the target sku, we might impact service availability for a user and therefore stop processing
+if($validated_TP -eq $false ) { Write-Host "Stop updating users because target SKU does not have the same Service Plan for Teams Phone." ; exit } 
+if($validated_AC -eq $false ) { Write-Host "Stop updating users because target SKU does not have the same Service Plan for Audio Conferencing." ; exit } 
+if($validated_CP -eq $false ) { Write-Host "Stop updating users because target SKU does not have the same Service Plan for Calling Plan." ; exit } 
+
+
+##Prepare variables and update
+$LicenseAddTP = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense
+$LicenseAddTP.SkuId = (Get-AzureADSubscribedSku | Where-Object -Property SkuPartNumber -Value $skuTargetTP.SkuPartNumber -EQ).SkuID
+$LicenseAddAC = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense
+$LicenseAddAC.SkuId = (Get-AzureADSubscribedSku | Where-Object -Property SkuPartNumber -Value $skuTargetAC.SkuPartNumber -EQ).SkuID
+$LicensesToUpdate = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses
+$LicensesToUpdate.AddLicenses += ($LicenseAddTP)
+$LicensesToUpdate.AddLicenses += ($LicenseAddAC)
+$LicensesToUpdate.RemoveLicenses = (Get-AzureADSubscribedSku | Where-Object -Property SkuPartNumber -Value $skuSourceBV.SkuPartNumber -EQ).SkuID
+
+$usersLicensedOldSKU = New-Object System.Collections.Generic.List[Microsoft.Open.AzureAD.Model.User]
+Get-AzureAdUser | ForEach { $BVlicensed=$False ; For ($i=0; $i -le ($_.AssignedLicenses | Measure).Count ; $i++) { If($_.AssignedLicenses[$i].SkuId -eq $skuSourceBV.SkuId) { $BVlicensed=$true } } ; If( $BVlicensed -eq $true) { $usersLicensedOldSKU.Add($_)} }
+
+$usersLicensedOldSKU | ForEach { Set-AzureADUserLicense -ObjectId $_.ObjectId -AssignedLicenses $LicensesToUpdate; Write-Host "Completed Update of user " $_.UserPrincipalName;  }
+```
+
+# [Option 4: Bulk users with Azure group-based licensing](#tab/azure-licensing)
 
 ## Option 4: Bulk user license update using Azure group-based licensing
 
