@@ -34,7 +34,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. See [Teams update proces
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
-|4.12.123.0 |4/27/2022 |
+|4.12.126.0 |4/27/2022 |
 |4.11.17.0 |3/3/2022 |
 |4.11.12.0 |1/24/2022 |
 |Teams Web-Client release | December 2021 |
@@ -86,7 +86,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. See [Teams update proces
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
 
-### 4.12.123.0 (4/27/2022)
+### 4.12.126.0 (4/27/2022)
 
 Introduced in this update:
 - IT admins can enroll a Teams rooms device to receive public preview features through XML setting. Once enrolled, the device will start to receive beta features. All features that go to beta testing are announced at [Microsoft Teams Public Preview - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)<sup>1,2</sup>  
