@@ -26,6 +26,25 @@
 | 4/29/2022 | [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps) | modified |
 | 4/29/2022 | [Manage policy packages in Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | modified |
 | 4/29/2022 | [Overview of app certification by Microsoft](/MicrosoftTeams/overview-of-app-certification) | modified |
+| 4/25/2022 | [Public preview in Microsoft Teams](/MicrosoftTeams/public-preview-doc-updates) | modified |
+| 4/26/2022 | [Overview of Loop components in Teams](/MicrosoftTeams/loop-components-in-teams) | modified |
+| 4/26/2022 | Meeting recording expiration feature | removed |
+| 4/27/2022 | [Audio Conferencing dial-out usage report](/MicrosoftTeams/audio-conferencing-dial-out-usage-report) | added |
+| 4/27/2022 | Skype Room System domain joining considerations | removed |
+| 4/27/2022 | Migrate Lync Room System devices to Microsoft Teams Rooms | removed |
+| 4/27/2022 | [Authentication in Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-authentication) | modified |
+| 4/27/2022 | Configure accounts for Microsoft Teams Rooms | removed |
+| 4/27/2022 | [Microsoft Teams Rooms maintenance and operations](/MicrosoftTeams/rooms/rooms-operations) | modified |
+| 4/27/2022 | [Remotely manage Microsoft Teams Rooms device settings](/MicrosoftTeams/rooms/xml-config-file) | modified |
+| 4/27/2022 | [Release notes for Microsoft Teams Rooms (Windows)](/MicrosoftTeams/rooms/rooms-release-note) | modified |
+| 4/28/2022 | [Manage Microsoft 365 and custom connectors](/MicrosoftTeams/office-365-custom-connectors) | modified |
+| 4/28/2022 | [IT Admin Guide to Education Insights in Microsoft Teams](/MicrosoftTeams/class-insights) | modified |
+| 4/28/2022 | [Manage external meetings and chat](/MicrosoftTeams/manage-external-access) | modified |
+| 4/29/2022 | [Manage Microsoft 365 and custom connectors](/MicrosoftTeams/office-365-custom-connectors) | modified |
+| 4/29/2022 | [Approvals application availability in Teams](/MicrosoftTeams/approval-admin) | modified |
+| 4/29/2022 | [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps) | modified |
+| 4/29/2022 | [Manage policy packages in Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | modified |
+| 4/29/2022 | [Overview of app certification by Microsoft](/MicrosoftTeams/overview-of-app-certification) | modified |
 
 
 ## Week of April 18, 2022
