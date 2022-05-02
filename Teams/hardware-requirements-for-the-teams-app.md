@@ -70,7 +70,7 @@ All of the requirements in the following sections apply to both the Microsoft Te
 |Devices    |   Standard laptop camera, microphone, and speakers    |
 |Voice    |  Compatible microphone and speakers, headset with microphone, or equivalent device       |
 |Video calls and meetings | <ul><li>Requires 2-core processor. For higher video/screen share resolution and frame rate, a 4-core processor or better is recommended.</li><li>Joining a meeting using proximity detection in a Microsoft Teams Room is not available on Linux.</li></ul>
-|Supported Linux distributions | Ubuntu 18.04 LTS, 22.04 LTS, Fedora 34, RHEL 8 Workstation, CentOS 8       |
+|Supported Linux distributions | Ubuntu 22.04 LTS, Fedora 34, RHEL 8 Workstation, CentOS 8       |
 |Supported Desktop environment | GNOME, KDE       |
 |Supported Display server | X11       |
 
