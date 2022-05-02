@@ -57,7 +57,7 @@ Starting April 2022, Direct Routing will reject SIP requests that have Replaces 
 
 Check your SBC configurations and ensure sure that you aren't using Replaces headers in SIP requests.
 
-## TLS1.0 and 1.0
+## TLS1.0 and 1.1
 
 To provide the best-in-class encryption to our customers, Microsoft plans to deprecate Transport Layer Security (TLS) versions 1.0 and 1.1. On April 3, 2022, Microsoft will force TLS1.2 usage for the Direct Routing SIP interface.
 

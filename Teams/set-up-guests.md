@@ -1,5 +1,5 @@
 ---
-title: Turn on or turn off guest access to Microsoft Teams
+title: Turn guest access in Microsoft Teams on or off
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -24,16 +24,15 @@ appliesto:
 description: Learn about how to turn on or turn off the guest access feature in Microsoft Teams as an Office 365 admin.
 ---
 
-# Turn on or turn off guest access to Microsoft Teams
+# Turn guest access in Microsoft Teams on or off
 
-> [!Note]
->
-> Until **February 2021**, guest access is turned off by default. You must turn on guest access for Teams before admins or team owners can add guests. After you turn on guest access, it might take a few hours for the changes to take effect. If users see the message **Contact your administrator** when they try to add a guest to their team, it's likely that either guest access hasn't been turned on or the settings aren't effective yet.
->
-> After **February 2021**, guest access in Microsoft Teams will be turned on by default for new customers & existing customers who haven't configured this setting. When this change is implemented, if you've not already configured guest access capability in Microsoft Teams, that capability will be enabled in your tenant. If you want guest access to remain disabled for your organization, you'll need to confirm that the guest access setting is set to **Off** instead of **Service default**.
+This article describes how to configure guest access settings - including calls, meetings, and chat - in Teams. Guest access in Teams also requires configuring other settings in Microsoft 365, including settings in Azure AD, Microsoft 365 Groups, and SharePoint. If you're ready to start inviting guests to teams, read one of the following:
 
-> [!IMPORTANT]
-> Turning on guest access depends on settings in Azure Active Directory, Microsoft 365, SharePoint, and Teams. For more information, see [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team).
+- To configure guest access for Teams for general use, see [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team).
+- To collaborate with a partner organization that uses Azure Active Directory and allow guests to self-enroll for team access, see [Create a B2B extranet with managed guests](/microsoft-365/solutions/b2b-extranet).
+
+> [!NOTE]
+> If you just want to find, call, chat, and set up meetings with people in other organizations, use [external access](manage-external-access.md).
 
 ## Configure guest access in the Teams admin center
 
@@ -70,9 +69,12 @@ description: Learn about how to turn on or turn off the guest access feature in 
 
 5. Select **Save**.
 
-## External access (federation) vs. guest access
+## Turning guest access off
 
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+If you turn guest access off in Teams, existing guests lose access to their team. However, they are not removed from the team. They are still visible to people in the team and can be @mentioned. If you turn Teams guest access on again, they will regain access.
+
+If you plan to leave guest access off, you may want to advise your team owners to manually remove the guest accounts from their teams. While these guests won't have access, having their accounts visible in the team could lead to confusion for other people in the team.
+
 
 ## See also
 

@@ -36,7 +36,7 @@ For Teams users, Cloud Voicemail is automatically set up and provisioned. *A Mic
 
 Provisioning for Teams users isn't the same as it was for Skype for Business Online users. For Skype for Business Online users, Cloud Voicemail was automatically set up and provisioned when the users were assigned a Phone System license and were Enterprise Voice enabled by the provisioning system.
 
-For Skype for Business Server on-premises users, Cloud Voicemail is automatically set up and provisioned. However, you must configure the Skype for Business Server environment to route calls to Cloud Voicemail. For more information, see [Plan Cloud Voicemail service for on-premises users](/skypeforbusiness/hybrid/plan-cloud-voicemail.md).
+For Skype for Business Server on-premises users, Cloud Voicemail is automatically set up and provisioned. However, you must configure the Skype for Business Server environment to route calls to Cloud Voicemail. For more information, see [Plan Cloud Voicemail service for on-premises users](/skypeforbusiness/hybrid/plan-cloud-voicemail).
 
 ## Cloud Voicemail storage
 
@@ -70,7 +70,7 @@ You can also disable Cloud Voicemail for a user by using the [Set-CsOnlineVoicem
 
 The default setting for all users provisioned for Cloud Voicemail is to allow routing of calls to Cloud Voicemail, and to allow users to forward calls to Cloud Voicemail.
 
-You can control whether routing of calls to Cloud Voicemail is allowed for Teams users by using the Set-CsTeamsCallingPolicy cmdlet with the AllowVoicemail parameter. For more information, see [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy.md).
+You can control whether routing of calls to Cloud Voicemail is allowed for Teams users by using the Set-CsTeamsCallingPolicy cmdlet with the AllowVoicemail parameter. For more information, see [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
 
 - If you set AllowVoicemail to AlwaysDisabled, calls are never routed to voicemail--regardless of the call forward or unanswered settings for a user. Voicemail isn't available as a call forwarding or unanswered setting in Teams.
 
@@ -96,15 +96,15 @@ The following information is about configuring Cloud Voicemail to work with Team
 
 When someone leaves a voicemail message for a user in your organization, the voicemail is delivered to the user's mailbox as an email message attachment. 
 
-Using Microsoft Information Protection, you can encrypt the voicemail messages left by both internal and external callers. You can also prevent the user from  forwarding these messages. This feature is supported for users with Exchange Online mailboxes.
+Using Microsoft Purview Information Protection, you can encrypt the voicemail messages left by both internal and external callers. You can also prevent the user from  forwarding these messages. This feature is supported for users with Exchange Online mailboxes.
 
 To encrypt the voicemail message, you can create a sensitivity label. With the auto-labeling feature, you can ensure that the label will be applied automatically to incoming voicemail messages. 
 
-When you enable protected voicemail, users can listen to protected voicemail messages by calling into their voicemail mailbox or by opening the message in Outlook, Outlook on the web, or Outlook for Android or iOS. Protected voicemail messages can't be opened in Microsoft Teams or Skype for Busimess.
+When you enable protected voicemail, users can listen to protected voicemail messages by calling into their voicemail mailbox or by opening the message in Outlook, Outlook on the web, or Outlook for Android or iOS. Protected voicemail messages can't be opened in Microsoft Teams or Skype for Business.
 
 To create a sensitivity label for voicemail, see [Use sensitivity labels](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions). In the **Encryption** section, choose **Let users assign permissions when they apply the label**. Select **In Outlook, enforce one of the following restrictions**, and then select the **Do Not Forward** option.
 
-To create the auto-labelling policy to apply a sensitivity label to voicemail, see [How to configure auto-labeling policies](/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange), and specify the following specific settings:
+To create the auto-labeling policy to apply a sensitivity label to voicemail, see [How to configure auto-labeling policies](/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange), and specify the following specific settings:
 
 -	For **Choose info you want this label applied to**, select **Custom policy**.
 

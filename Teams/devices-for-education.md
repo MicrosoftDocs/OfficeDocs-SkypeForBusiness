@@ -176,7 +176,7 @@ A laptop running Teams ensures the user is not confined to one working area and 
 
 *Installing or setting up this solution is:*
 
-Very easy. This is something that can handled entirely by end users by simply combing their PC with a certified headset for audio and video calling. 
+Very easy. This is something that can be handled entirely by end users by simply combing their PC with a certified headset for audio and video calling. 
 
 ### Personal space
 
@@ -318,6 +318,6 @@ View the following pages to learn more about Teams devices and partners:
 
 [Certified devices for Microsoft Teams](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-sync-20/825) – A comprehensive list of devices certified for Microsoft Teams
 
-[Learn More about Microsoft Teams Rooms](/rooms/) – A guide to Microsoft Teams Rooms covering planning, deployment, and usage
+[Learn More about Microsoft Teams Rooms](/microsoftteams/rooms) – A guide to Microsoft Teams Rooms covering planning, deployment, and usage
 
 [Teams Meeting Room Partner Program](https://cloudpartners.transform.microsoft.com/teams-mrpp) – A list of worldwide partners available to assist with planning and deploying Teams Room systems

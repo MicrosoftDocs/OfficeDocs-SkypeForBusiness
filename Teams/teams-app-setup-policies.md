@@ -41,18 +41,16 @@ Using an app setup policy, you can do the following tasks:
 - Customize Teams to highlight the apps that are most important for your users. You choose the apps to pin and set the order that they appear.
 - Control whether users can pin apps to Teams.
 
-Apps are pinned to:
-
-- The app bar, which is the bar on the left side of the Teams desktop client and at the bottom of the Teams mobile clients (iOS and Android).
-
-- The messaging extensions area at the bottom of the compose message area.
+Apps are pinned to the app bar, which is the bar on the left side of the Teams desktop client and at the bottom of the Teams mobile clients (iOS and Android).
 
 |Teams desktop client  |Teams mobile client |
 |---------|---------|
-|![The Teams desktop client.](media/app-setup-policies-desktop-app-bar.png)<  |   ![The Teams mobile client](media/mobile-app-ui.png)      |
+|![The Teams desktop client.](media/app-setup-policies-desktop-app-bar.png).  |   ![The Teams mobile client](media/mobile-app-ui.png)      |
+
+The messaging extensions are available at the bottom of the compose message area.
 
 > [!NOTE]
-> If you have Teams for Education, it's important to know that the Assignments app is pinned by default in the global policy even though currently, you don't see it listed in the global policy. It'll be the fourth app in the list of pinned apps on Teams clients.
+> If you have Teams for Education, it's important to know that the Assignments app is pinned by default in the global policy even though currently, you don't see it listed in the global policy.
 
 To create an app setup policy to pin apps, do the following steps:
 

@@ -94,7 +94,7 @@ Here are the messaging policy settings that you can configure.
 - **URL previews** Use this setting to turn automatic URL previewing on or off in messages.
 - **Translate messages** Turn this setting on to let users automatically translate Teams messages into the language specified by their personal language settings for Microsoft 365 or Office 365.
 - **Immersive reader for messages** Turn this setting on to let users view messages in Microsoft Immersive Reader. Immersive Reader is a learning tool that provides a full screen reading experience to increase readability of text.
-- **Send urgent messages using priority notifications** If you turn this on, users can send messages using [priority notifications](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462). Priority notifications notify users every 2 minutes for 20 minutes or until messages that are marked as *urgent* are picked up and read by the recipient. This feature increases the likelihood that the message is acted upon in a timely manner.
+- **Send urgent messages using priority notifications** If you turn this on, users can send messages using [priority notifications](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462). Priority notifications notify users every 2 minutes for 20 minutes or until messages that are marked as *urgent* are picked up and read by the recipient. This feature increases the likelihood that the message is acted upon in a timely manner. You can't edit an urgent message after you send it.
 - **Create voice messages**
   > [!Important]
   > Audio messages are not captured in eDiscovery reporting.

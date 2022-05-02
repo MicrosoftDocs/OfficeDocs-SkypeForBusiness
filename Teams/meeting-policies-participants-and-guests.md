@@ -85,7 +85,7 @@ This setting is a per-user policy and applies during a meeting. This setting con
 |Setting value |Behavior  |
 |---------|---------|
 |**Disabled but the user can override**     | Live captions aren't automatically turned on for the user during a meeting. The user sees the **Turn on live captions** option in the overflow (**...**) menu to turn them on. This is the default setting. |
-|**Disabled**     | Live captions are disabled for the user during a meeting. The user doesn't have the option to turn them on.          |
+|**Not enabled**     | Live captions are disabled for the user during a meeting. The user doesn't have the option to turn them on.          |
 
 <a name="bkcontentsharing"> </a>
 

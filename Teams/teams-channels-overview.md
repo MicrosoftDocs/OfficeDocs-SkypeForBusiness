@@ -91,6 +91,9 @@ The following table shows a comparison of Teams features for each channel type.
 |Channel can be shared directly with its parent team.|N/A|No|Yes|
 |Guests can participate in the channel.|Yes|Yes|No|
 |External participants (B2B Direct Connect) can participate in the channel.|No|No|Yes|
+|Moderation|Yes|No|No|
+|Breakout rooms|Yes|No|No|
+|Copy link to channel|Yes|No|No|
 |Each channel has a dedicated SharePoint site.|No|Yes|Yes|
 |Scheduled meetings|Yes|No|Yes|
 |Planner|Yes|No|No|

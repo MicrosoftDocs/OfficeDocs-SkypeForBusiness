@@ -30,6 +30,8 @@ Only members of shared channels can see and participate in shared channels that 
 
 When a shared channel is created, it's linked to the parent team and can't be moved to a different team. Additionally, shared channels can't be converted to standard channels and vice versa.
 
+[Compare shared channels with other types of channels](/microsoftteams/teams-channels-overview#channel-feature-comparison).
+
 ## Best practices for the shared channels preview
 
 Shared channels is in preview and requires that you have configured [Microsoft Teams Public Preview](/MicrosoftTeams/public-preview-doc-updates). If you plan to share channels with other organizations, they must also have configured Teams public preview.
@@ -117,6 +119,22 @@ Files, folders, and OneNote notebooks in a shared channel can be shared with peo
 If a user is granted access to a file, folder, or notebook in a shared channel through SharePoint, removing the user from the team or shared channel won't remove the user's access to the file, folder, or notebook.
 
 If an existing notebook is added as a tab to a shared channel, access to the shared channel isn't changed and the notebook retains its existing permissions.
+
+## Resources for your users
+
+The following articles may be helpful for the users in your organization when they use shared channels.
+
+[Create a shared channel in Teams](https://support.microsoft.com/office/80712457-579e-42b2-b54f-112329578aaa)
+
+[Share a channel with people in Teams](https://support.microsoft.com/office/5f60de2d-0080-4e55-b26f-33a9dafa120e)
+
+[Share a channel with a team](https://support.microsoft.com/office/b2e89992-2708-4583-b11e-bbb6edb4f1c3)
+
+[Why use a shared channel versus other channel types in Teams?](https://support.microsoft.com/office/e6ad61d0-6b3f-4e1b-baac-63e2978bd92e)
+
+[Guests and shared channels in Teams](https://support.microsoft.com/office/612de4ce-e7a3-4579-b086-bb8ff9f2d11e)
+
+[Shared channel owner and member roles in Teams](https://support.microsoft.com/office/75b379f4-8e9c-4202-acf1-6ffc3878a2d7)
 
 ## Limits for shared channels (preview)
 
