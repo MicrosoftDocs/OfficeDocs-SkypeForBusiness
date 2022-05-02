@@ -75,7 +75,7 @@ To create an app setup policy to pin apps, do the following steps:
 
 1. Under the **App bar** or **Messaging extensions**, arrange the apps in the order that you want them to appear in Teams.
 
-   ![the Pinned apps section.](media/pin-messaging-extensions.png)
+   :::image type="content" source="media/pin-messaging-extensions.png" alt-text="the pinned apps section"border="true":::
 
 1. Select **Save**.
 
