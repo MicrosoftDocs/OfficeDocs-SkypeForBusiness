@@ -458,6 +458,8 @@ items:
               href: teams-analytics-and-reports/pstn-minute-pools-report.md
             - name: PSTN usage report
               href: teams-analytics-and-reports/pstn-usage-report.md
+            - name: Teams audio conferencing dial-out usage report
+              href: audio-conferencing-dial-out-usage-report.md
             - name: Teams live event usage report
               href: teams-analytics-and-reports/teams-live-event-usage-report.md
             - name: Teams information protection license report
