@@ -73,6 +73,27 @@ These fields can come from the customer SBC(s). There are three formats that the
 - Call from a non-E.164 number. A user from a third-party PBX interconnected with Direct Routing makes a call to a Teams user. In this case, the caller number might be any non-E.164 number, for example +1001. 
 - A spammer calls and doesn't present a number, only a name, for example "Internal Revenue Service". This string will be shown in the reports.
 
+#### Phone number obfuscation
+Per-country privacy requirements include the obfuscation of the external (not owned by the customer) phone numbers. The three or four last digits of the phone number are replaced with asterisks (+123 456789***). 
+
+For the incoming calls, the caller number is obfuscated, for outgoing calls, the callee number is obfuscated. This applies to the PSTN and Direct Routing reports in Tenant Admin Center, data export, and the call logs available via Microsoft Graph.
+
+The obfuscation is based on the organization's location (country). Full phone numbers are shown for the countries that are not listed in the following table:
+
+| Country | Number of obfuscation digits |
+| :-: | :- |
+|BE – Belgium | 3 |
+|CH – Switzerland | 4 |
+|DE - Germany | 3 |
+|DK – Denmark | 3 |
+|ES – Spain | 3 |
+|FI – Finland | 3 |
+|FR – France | 4 |
+|IT – Italy | 3 |
+|NL - Netherlands | 3 |
+|NO - Norway | 3 |
+|SE - Sweden | 3 |
+
 #### About Shared Correlation ID
 
 The Shared Correlation ID only exists in the exported Excel file that you download and indicates that two or more calls are related. 
