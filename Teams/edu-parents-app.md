@@ -46,9 +46,9 @@ The Parents Connection allows educators and guardians to do more than just chat 
 >
 > Microsoft 365 A1 and A3 plans don't include PBX capabilities nor PSTN connection. You can purchase [add-on licenses for each of these](/teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 >
-> Microsoft 365 A5 plans only include PBX capabilities using Teams Phone System. You can [purchase a Teams Calling Plan or a third-party plan](pstn-connectivity.md).
+> Microsoft 365 A5 plans only include PBX capabilities using Teams Phone System. You'll still need to [purchase a Teams Calling Plan or use a third-party solution](pstn-connectivity.md) to connect to the PSTN.
 >
-> For more information on PSTN connectivity options, see [PSTN connectivity options](pstn-connectivity.md).
+> For more information on all your options to get PSTN connectivity, see [PSTN connectivity options](pstn-connectivity.md).
 >
 > For more information on Teams calling licensing, see [Teams add-on licensing options](/teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
