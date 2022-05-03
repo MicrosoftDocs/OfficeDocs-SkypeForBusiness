@@ -48,6 +48,14 @@ This article describes how to use PowerShell to do the following:
 
 [!INCLUDE [shifts-connector-set-up-environment](../../includes/shifts-connector-set-up-environment.md)]
 
+7. Connect to Teams.
+
+    ```powershell
+    Connect-MicrosoftTeams
+    ```
+
+    When you're prompted, sign in using your admin credentials. You're now set up to run the scripts in this article and Shifts connector cmdlets.
+
 ## Check connection setup status
 <a name="setup_status"> </a>
 
@@ -102,12 +110,6 @@ try {
 } catch {
 	throw
 }
-
-#Authenticate with powershell as to the authorization capabilities of the caller. 
-#Connect to Teams
-Write-Host "Connecting to Teams"
-Connect-MicrosoftTeams
-Write-Host "Connected"
 
 #List connection instances available 
 Write-Host "Listing connection instances"
@@ -176,12 +178,6 @@ try {
 } catch {
 	throw
 }
-
-#Authenticate with powershell as to the authorization capabilities of the caller. 
-#Connect to Teams
-Write-Host "Connecting to Teams"
-Connect-MicrosoftTeams
-Write-Host "Connected"
 
 #Connect to MS Graph
 Connect-MgGraph -Scopes "User.Read.All","Group.ReadWrite.All"
@@ -324,12 +320,6 @@ try {
 } catch {
 	throw
 }
-
-#Authenticate with powershell as to the authorization capabilities of the caller. 
-#Connect to Teams
-Write-Host "Connecting to Teams"
-Connect-MicrosoftTeams
-Write-Host "Connected"
 
 #List connection instances available 
 Write-Host "Listing connection instances"

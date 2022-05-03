@@ -27,7 +27,10 @@ for more information.
 
 ## Supported Conditional Access policies  
 
-The following list includes the supported Conditional Access policies for Teams Rooms on Windows and on Android. The supported Android policies apply to all Android devices, phones, and panels.
+The following list includes the supported Conditional Access policies for Teams Rooms on Windows and on Android. 
+
+> [!NOTE]
+> The supported Android policies apply to all Android devices in shared spaces, including Teams Rooms on Andourd, common area phones, and panels.
 
 | Assignment | Windows | Android |
 |------------|---------|---------|
@@ -79,7 +82,7 @@ their use with Teams Rooms.  
 |Require Secure Boot to be enabled on the device |Supported |Secure Boot is  a requirement for Teams Rooms. |
 |Require code integrity |Supported  | Code integrity is already a requirement for Teams Rooms. |
 | [**Device Properties**](/mem/intune/protect/compliance-policy-create-windows%22%20/l%20%22device-properties) | -- | -- |
-|Operating System Version (minimum, maximum) |Not supported | Teams Rooms automatically updates to newer versions of Windows and setting values here could prevent successful sign in after an OS update.|
+|Operating System Version (minimum, maximum) |Not supported | Teams Rooms automatically updates to newer versions of Windows and setting values here could prevent successful sign-in after an OS update.|
 |OS version for mobile devices (minimum, maximum) | Not supported. | N/A |
 | Valid operating system builds | Not supported | N/A |
 | [**Configuration Manager Compliance**](/mem/intune/protect/compliance-policy-create-windows%22%20/l%20%22device-properties) | -- | -- |
@@ -109,8 +112,7 @@ their use with Teams Rooms.  
 | [**Microsoft Defender for Endpoint**](/mem/intune/protect/compliance-policy-create-android#microsoft-defender-for-endpoint) | -- | -- |
 | Require the device to be at or under the machine risk score | Not supported |  N/A |
 | [**Device Health**](/mem/intune/protect/compliance-policy-create-android%22%20/l%20%22device-health) | -- | -- |
-| Device managed with device administrator | Not supported. | Teams Android devices are managed with device
-administrator. |
+| Device managed with device administrator | Required | Teams Android devices management requires device administrator to be enabled. |
 | Rooted devices | Supported |  N/A |
 | Require the device to be at or under the device threat level | Not supported |  N/A |
 | [**Google Play Protect**](/mem/intune/protect/compliance-policy-create-android#device-health) | -- | -- |
