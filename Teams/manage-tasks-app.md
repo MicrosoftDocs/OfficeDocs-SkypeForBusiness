@@ -32,7 +32,7 @@ The Tasks app brings a cohesive task management experience to Microsoft Teams, i
 > [!NOTE]
 > As we roll out the Tasks experience on Teams desktop clients, the app name will initially appear as **Planner** to users. The name will then temporarily change to **Tasks by Planner and To Do**, and later on, it will be renamed to **Tasks**. On Teams mobile clients, users will always see the app name as **Tasks**. There may be a short delay in the availability of the mobile experience after the desktop experience is available.
 
-   ![:::image type="content" source="media/manage-tasks-app-tasks.png" alt-text="Screenshot of list view of tasks." lightbox="media/manage-tasks-app-tasks.png":::]
+:::image type="content" source="media/manage-tasks-app-tasks.png" alt-text="Screenshot of list view of tasks." lightbox="media/manage-tasks-app-tasks.png":::
 
 For organizations who want to streamline task management for Frontline Workers, Tasks also includes capabilities that enable you to target, publish, and track tasks at scale across your Frontline Workforce. For example, corporate and regional leadership can create and publish task lists targeted to relevant locations, such as specific retail stores, and track progress through real-time reports. Managers can assign tasks to their staff and direct activities within their locations, and Frontline Workers have a prioritized list of their assigned tasks on mobile or desktop. To enable [task publishing](#task-publishing), first set up a team targeting hierarchy for your organization, which defines how all teams in the hierarchy are related to each other.
 
@@ -98,7 +98,7 @@ With task publishing, your organization can publish task lists targeted to speci
 
     :::image type="content" source="media/manage-tasks-app-publish.png" alt-text="Screenshot of task publishing." lightbox="media/manage-tasks-app-publish.png":::
 - Managers on the recipient teams can review the published task lists and assign individual tasks to team members.
-    :::image type="content" source="media/manage-tasks-app-publish-assign.png" alt-text="Screenshot of assigning a task." lightbox="media/manage-tasks-app-publish-assign.png":::
+    :::image type="content" source="media/manage-tasks-app-assign.png" alt-text="Screenshot of assigning a task." lightbox="media/manage-tasks-app-assign.png":::
 - Frontline Workers have a simple mobile experience to see tasks assigned to them. They can attach photos to show their work when appropriate and mark their tasks as completed.
 - Publishers and managers can view reports to see assignment and completion status of tasks at each level, including by location (team), task list, and individual task.
     :::image type="content" source="media/manage-tasks-app-reporting.png" alt-text="Screenshot of published tasks." lightbox="media/manage-tasks-app-reporting.png":::
