@@ -31,7 +31,7 @@ Check-in and room release is off by default. To turn it on,
 
 1. On the Teams panel, sign in using your admin credentials.  
 
-2. Go to **Settings > Device Settings > Admin Settings > Panels App Settings > Meetings**.
+2. Go to **Settings > Device settings > Admin settings > Teams admin settings > Meetings**.
 
 3. Turn on Release room if no one checks in.
 
@@ -50,7 +50,7 @@ To turn on check-in notifications,
 
 1. On the Teams panel, sign in using your admin credentials. 
 
-2. Go to **Settings > Device Settings > Admin Settings > Panels App Settings > Meetings**.
+2. Go to **Settings > Device settings > Admin settings > Teams admin settings > Meetings**.
 
 3. Go to **Check-in** and turn on **Send check-in notification**.
 
