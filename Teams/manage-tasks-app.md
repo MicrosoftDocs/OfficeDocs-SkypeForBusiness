@@ -96,12 +96,12 @@ With task publishing, your organization can publish task lists targeted to speci
 
 - People on the publishing team, such as corporate or regional leadership, can create task lists and publish them to specific teams.
 
-    :::image type="content" source="media/manage-tasks-app-publish.png" alt-text="Screenshot of task publishing" lightbox="media/manage-tasks-app-publish.png":::
+    :::image type="content" source="media/manage-tasks-app-publish.png" alt-text="Screenshot of task publishing." lightbox="media/manage-tasks-app-publish.png":::
 - Managers on the recipient teams can review the published task lists and assign individual tasks to team members.
-    :::image type="content" source="media/manage-tasks-app-publish-assign.png" alt-text="Screenshot of assigning a task." lightbox="media/manage-tasks-app-assign.png":::
+    :::image type="content" source="media/manage-tasks-app-publish-assign.png" alt-text="Screenshot of assigning a task." lightbox="media/manage-tasks-app-publish-assign.png":::
 - Frontline Workers have a simple mobile experience to see tasks assigned to them. They can attach photos to show their work when appropriate and mark their tasks as completed.
 - Publishers and managers can view reports to see assignment and completion status of tasks at each level, including by location (team), task list, and individual task.
-    :::image type="content" source="media/manage-tasks-app-reporting.png" alt-text="Screenshot of assigned tasks on mobile." lightbox="media/manage-tasks-app-reporting.png":::
+    :::image type="content" source="media/manage-tasks-app-reporting.png" alt-text="Screenshot of published tasks." lightbox="media/manage-tasks-app-reporting.png":::
 
 Users create, manage, and publish task lists on the **Published lists** tab in the Tasks app. This tab only shows for a user if your organization [set up a team targeting hierarchy](#set-up-your-team-targeting-hierarchy) and the user is on a team that's included in the hierarchy. The hierarchy determines whether the user can publish or receive task lists and view reporting for received lists.
 
