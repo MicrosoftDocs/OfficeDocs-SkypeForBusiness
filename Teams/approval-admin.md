@@ -117,15 +117,29 @@ The Approvals app is available by default. You can disable the app in the Teams 
 
      :::image type="content" alt-text="shows the details for the Approvals app." source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
 
-## App policies
+## Pin Approvals to Teams
 
-### Retention policy
+### Use the Tailored frontline app experience to pin Approvals and other apps to Teams
+
+The tailored frontline app experience in Teams pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Pinned apps include Approvals, Walkie Talkie, Tasks, and Shifts. By default, this feature is on, giving your frontline workers an out-of-the-box experience that’s tailored to their needs.
+
+The apps are pinned to the app bar—the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients—where users can quickly and easily access them.
+
+To learn more, including how the experience works with app policies that you set, see [Tailor Teams apps for your frontline workers](pin-teams-apps-based-on-license.md).
+
+### Use an app setup policy to pin Approvals to Teams
+
+App setup policies let you customize Teams to pin apps that are most important for your users in your users.
+
+To pin the Approvals app for your users, you can edit the global (Org-wide default) policy or create and assign a custom app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
+
+## Retention policy
 
 Approvals created from the Approvals app are stored in the default Microsoft Dataverse environment, which doesn’t support backups at this time. Learn more about how to [Back up and restore environments - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
 
 Data stored in Forms will not be deleted until the team owners clean it up from the **deleted forms** tab in the Microsoft Forms web app.
 
-### Conditional Access policies
+## Conditional Access policies
 
 Currently, the Approvals app in Teams does not support Conditional Access policies that are set for Microsoft Teams.
 
