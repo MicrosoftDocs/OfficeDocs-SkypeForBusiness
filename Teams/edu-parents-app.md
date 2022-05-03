@@ -23,20 +23,27 @@ appliesto:
 
 The Parent Connection in Teams for Education helps educators securely connect and engage with the parents and guardians of the students in their class teams using Teams.
 
+This article provides guidance to education IT professionals on requirements and setup of the Parent Connection.
+
+## Share guardian and educator resources
+
+Here are some resources IT admins can share with guardians and educators on how they can get started using the Parent Connection.
+
 - For guidance on getting guardians set up, see [Connect with educators in Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
 - For guidance on getting educators set up, see [Communicate with guardians in Microsoft Teams](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us).
 
-This article provides guidance to education IT professionals on requirements and setup of the Parent Connection.
-
 ## Benefits of Parent Connection
 
-The Parents Connection allows educators and guardians to do more than just chat using Teams.
+The Parents Connection allows educators and guardians to chat, email, and call using Teams.
 
 - Teams guardian contact data stays current with SIS using School Data Sync (SDS).
 - It works with Supervised chat. For more information, see [Use supervised chats in Microsoft Teams](supervise-chats-edu.md).
-- Guardians have restricted permissions, so they can't chat with students or remove users from chats.
-- In Teams, educators can click a guardian's email to email them using their native email client.
-- In Teams, educators can click a guardian's phone number to call them within Teams.
+  - By default, guardians have restricted permissions, so they can't chat with students or remove users from chats.
+  - This setting can be changed by the tenant admin.
+- Educators can initiate chats with guardians.
+  - If the guardian doesn't have a Teams consumer account, they'll receive the initial message from the educator and an email invite to go to Teams.
+- Educators can click a guardian's email to email them using their native email client.
+- Educators can click a guardian's phone number to call them within Teams.
 
 > [!IMPORTANT]
 > For click to call functionality in Teams, your tenant needs:
@@ -46,7 +53,7 @@ The Parents Connection allows educators and guardians to do more than just chat 
 >
 > Microsoft 365 A1 and A3 plans don't include PBX capabilities nor PSTN connection. You can purchase [add-on licenses for each of these](/teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 >
-> Microsoft 365 A5 plans only include PBX capabilities using Teams Phone System. You'll still need to [purchase a Teams Calling Plan or use a third-party solution](pstn-connectivity.md) to connect to the PSTN.
+> Microsoft 365 A5 plans only include PBX capabilities using Teams Phone System. You'll still need to [purchase a Teams Calling Plan or use a third-party solution](pstn-connectivity.md) to connect to external numbers on the PSTN.
 >
 > For more information on all your options to get PSTN connectivity, see [PSTN connectivity options](pstn-connectivity.md).
 >
