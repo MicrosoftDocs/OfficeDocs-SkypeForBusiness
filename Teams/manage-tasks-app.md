@@ -57,7 +57,7 @@ With Tasks, users get a desktop, web, and mobile experience. If Tasks is install
 
 Tasks is enabled by default for all Teams users in your organization. You can turn off or turn on the app at the org level on the [Manage apps](manage-apps.md) page in the Microsoft Teams admin center.
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps** .
+1. In the left pane of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
 2. In the list of apps, do one of the following actions:
 
     - To turn off Tasks for your organization, search for the Tasks app, select it, and then select **Block**.
