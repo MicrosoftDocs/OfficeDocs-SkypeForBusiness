@@ -131,7 +131,7 @@ To learn more, including how the experience works with app policies that you set
 
 App setup policies let you customize Teams to pin apps that are most important for your users in your users.
 
-To pin the Approvals app for your users, you can edit the global (Org-wide default) policy or create and assign a custom app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.m
+To pin the Approvals app for your users, you can edit the global (Org-wide default) policy or create and assign a custom app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
 
 ## Retention policy
 
