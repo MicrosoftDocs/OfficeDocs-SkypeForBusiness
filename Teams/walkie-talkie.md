@@ -32,7 +32,9 @@ With Walkie Talkie in Teams, frontline workers can now securely communicate with
 
 Walkie Talkie is supported on Android devices with Google Mobile Services (GMS) and iOS devices.
 
-### Use the Tailored frontline app experience to pin Walkie Talkie and other apps to Teams
+### Pin Walkie Talkie to Teams
+
+#### Use the Tailored frontline app experience to pin Walkie Talkie and other apps to Teams
 
 The tailored frontline app experience in Teams pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Pinned apps include Walkie Talkie, Shifts, Tasks, and Approvals. By default, this feature is on, giving your frontline workers an out-of-the-box experience that’s tailored to their needs.
 
@@ -40,7 +42,7 @@ The apps are pinned to the app bar—the bar on the side of the Teams desktop cl
 
 To learn more, including how the experience works with app policies that you set, see [Tailor Teams apps for your frontline workers](pin-teams-apps-based-on-license.md).
 
-### Use an app setup policy to pin Walkie Talkie to Teams
+#### Use an app setup policy to pin Walkie Talkie to Teams
 
 App setup policies let you customize Teams to pin apps that are most important for your users in your users.
 
