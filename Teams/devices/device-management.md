@@ -82,7 +82,7 @@ Here are some examples of how you can manage phones, Teams Rooms on Android, Tea
 
 ### Use configuration profiles in Teams
 
-Use configuration profiles to manage settings and features for different Teams devices in your organization, including Teams Rooms, Teams displays, Teams phone, and Teams panels. You can create or upload configuration profiles to include settings and features you want to enable or disable, and then assign a profile to a device or set of devices. 
+Use configuration profiles to manage settings and features for different Teams devices in your organization, including Teams Rooms on Android, Teams displays, Teams phone, and Teams panels. You can create or upload configuration profiles to include settings and features you want to enable or disable, and then assign a profile to a device or set of devices. 
 
 #### Create a configuration profile
 
