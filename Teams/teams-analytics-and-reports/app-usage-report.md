@@ -37,7 +37,7 @@ The Teams app usage report in the Microsoft Teams admin center provides you with
 
 Each report has a date at the upper left that shows when the report was created. Reports usually reflect a 24-hour latency from the time an app was opened.
 
-The Y axis on the chart is the number of users who for the date you selected by hovering over the chart are considered active users because the have opened an app at least once.
+The Y axis on the chart is the number of users who for the date you selected by hovering over the chart are considered active users because they have opened an app at least once.
 
 The X axis on the chart is the date range that you selected for the report.
 
