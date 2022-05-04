@@ -334,8 +334,6 @@ items:
       href: using-admin-roles.md
     - name: Manage teams in Teams admin center
       href: manage-teams-in-modern-portal.md
-    - name: Manage Teams settings for your organization
-      href: enable-features-office-365.md
 
     - name: Manage policies
       items:
