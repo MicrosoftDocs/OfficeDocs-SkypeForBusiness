@@ -46,11 +46,11 @@ You can manage any device that's certified for, and enrolled in, Teams. A device
 
 To manage devices, in the left navigation of the [Microsoft Teams admin center](https://admin.teams.microsoft.com), go to **Teams Devices**, and then select the device type. Each type of device has its own respective section, which lets you manage them separately.
 
-## Manage Teams Rooms devices
+## Manage Teams Rooms on Windows devices
 
-You can use the Teams admin center to view and remotely manage your Teams Rooms devices across your organization. The Teams admin center makes it easy to see, at a glance, which devices are healthy and which need attention, and lets you focus on specific devices to see detailed information about device health, meeting performance, call quality, and peripherals. 
+You can use the Teams admin center to view and remotely manage your Teams Rooms on Windows devices across your organization. The Teams admin center makes it easy to see, at a glance, which devices are healthy and which need attention, and lets you focus on specific devices to see detailed information about device health, meeting performance, call quality, and peripherals. 
 
-Here are some things you can do to manage your Teams Rooms devices. Teams Rooms devices can be found in the [Microsoft Teams admin center](https://admin.teams.microsoft.com) under **Teams Devices** > **Teams Rooms**.
+Here are some things you can do to manage your Teams Rooms devices. Teams Rooms devices can be found in the [Microsoft Teams admin center](https://admin.teams.microsoft.com) under **Teams Devices** > **Teams Rooms on Windows**.
 
 For details about how to manage your Teams Rooms devices, see [Manage Microsoft Teams Rooms](../rooms/rooms-manage.md).
 
@@ -61,13 +61,13 @@ For details about how to manage your Teams Rooms devices, see [Manage Microsoft 
 | View meeting activity                  | Select a device name to open device details > **Activity**. When you open the **Activity** tab, you can see all the meetings that the device has participated in. This summary view shows the meeting start time, the number of participants, its duration, and the overall call quality.                                                                                        |
 | View meeting details                   | Select a device name to open device details > **Activity** > select a meeting. When you open a meeting's details, you can see all of the participants in the meeting, how long they were in the call, the Teams session types, and their individual call quality. If you want to see technical information about a participant's call, select the participant's call start time. |
 
-## Manage phones, Teams Rooms, Teams displays, and Teams panels 
+## Manage phones, Teams Rooms on Android, Teams displays, and Teams panels 
 
-In the Teams admin center, you can view and manage phones, Teams Rooms, Teams displays, and Teams panels enrolled in Teams in your organization. Information that you'll see for each device includes device name, manufacturer, model, user, status, action, last seen, and history. You can customize the view to show the information that fits your needs.
+In the Teams admin center, you can view and manage phones, Teams Rooms on Android, Teams displays, and Teams panels enrolled in Teams in your organization. Information that you'll see for each device includes device name, manufacturer, model, user, status, action, last seen, and history. You can customize the view to show the information that fits your needs.
 
-Phones, Teams Rooms, Teams displays, and Teams panels are automatically enrolled in Microsoft Intune if you've signed up for it. After a device is enrolled, device compliance is confirmed and conditional access policies are applied to the device.
+Phones, Teams Rooms on Android, Teams displays, and Teams panels are automatically enrolled in Microsoft Intune if you've signed up for it. After a device is enrolled, device compliance is confirmed and conditional access policies are applied to the device.
 
-Here are some examples of how you can manage phones, Teams Rooms, Teams displays, and Teams panels in your organization.  
+Here are some examples of how you can manage phones, Teams Rooms on Android, Teams displays, and Teams panels in your organization.  
 
 | To do this...                           | Do this                                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
