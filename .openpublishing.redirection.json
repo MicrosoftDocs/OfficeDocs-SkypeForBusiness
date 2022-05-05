@@ -2685,6 +2685,11 @@
       "redirect_url": "/microsoftteams/manage-teams-overview",
       "redirect_document_id": false
     },
+    {
+      "source_path": "Teams/teams-activity-reports.md",
+      "redirect_url": "/microsoftteams/teams-analytics-and-reports/teams-reporting-reference",
+      "redirect_document_id": false
+    },
      {
        "source_path": "Teams/meeting-recording-expiration-feature.md",
        "redirect_url": "/microsoftteams/meeting-expiration",
