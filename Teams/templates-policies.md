@@ -21,14 +21,14 @@ description: Learn how to manage team templates in the admin center
 ---
 # Manage team templates in the admin center
 
-Manage the team templates that your end users see by creating templates policies in the admin center. Within each template policy, you can designate which templates are shown or hidden.
-Assign different users to different template policies so that your users view only the subset of team templates specified.
+Manage the team templates that your end users see by creating templates policies in the admin center. Within each templates policy, you can designate which templates are shown or hidden.
+Assign different users to different templates policies so that your users view only the subset of team templates specified.
 
-Watch this short video to learn how to manage template policies.
+Watch this short video to learn how to manage templates policies.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyXL9]
 
-## Create template policies and assign available templates
+## Create templates policies and assign available templates
 
 1. Sign in to the Teams admin center.
 
@@ -36,15 +36,11 @@ Watch this short video to learn how to manage template policies.
 
 3. Select **Add**.
 
-    ![The template policies is selected and Add is highlighted.](media/template-policies-1.png)
+    ![The templates policies is selected and Add is highlighted.](media/template-policies-1.png)
 
-1. In the **Templates Policies Settings** section, complete the following fields:
+1. Give the policy a name and add a short description.
 
-    - Templates Policy name
-
-    - Templates Policy short description
-
-2. In the **Viewable Templates** table, select the templates you want to hide and select **Hide**.
+2. In the **Viewable templates** table, select the templates you want to hide and select **Hide**.
 
     ![The selected templates with hide highlighted.](media/template-policies-2.png)
 
@@ -59,36 +55,50 @@ Watch this short video to learn how to manage template policies.
    The selected templates will appear in your **Viewable templates** table.
 3. Select **Save**.
 
-   Your new template policy is displayed in the **Templates Policies** list.
+   Your new templates policy is displayed in the **Templates policies** list.
 
-## Assign users to the template policies
+## Assign users to a templates policy
 
 Users assigned to a policy will only be able to view the viewable templates within that policy.
 
-1. From **Templates Policies**, select a policy, and then select **Manage users**.
+1. From **Templates policies**, select a policy, and then select **Manage users**.
 
 2. Type the users to assign to this policy.
 
-   ![assign users to a template policy.](media/template-policies-4.png)
+   ![assign users to a templates policy.](media/template-policies-4.png)
 
 3. Select **Apply**.
 
 > [!Note]
 > It might take up to 24 hours for your new policy to take effect for end users.
 
-## Size limits for Template policies
+## Size limits for templates policies
 
 You can hide a max of 100 templates per policy. The **Hide** button is disabled if the given policy already has 100 templates hidden.
 
 ## Frequently asked questions
 
-**Q: Can I batch assign users to team templates policies?**
+**Q: Can I batch assign users to templates policies?**
   
-A: Yes, we support batch assignment for template policy in PowerShell. The policy type for this action is TeamsTemplatePermissionPolicy. [Learn more](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+A: Yes, we support batch assignment for template policy in PowerShell. The policy type for this action is TeamsTemplatePermissionPolicy. 
 
-**Q: Can Groups be assigned to team templates policies?**
+[Learn more](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
-A: Currently no. This functionality will be available in the future.
++++++
+
+Yes, you can use PowerShell to assign a templates policy to large sets of users at a time. To do this, use the [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet together with TeamsTemplatePermissionPolicy as the ```PolicyType``` to submit a batch of users and the templates policy that you want to assign. For example:
+
+```powershell
+New-CsBatchPolicyAssignmentOperation -OperationName <Any operation name> -PolicyType TeamsTemplatePermissionPolicy -PolicyName <policy name> -Identity <users identity | list of user identities>
+```
+
+The assignments are processed as a background operation and an operation ID is generated for each batch. You can then use the [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation) cmdlet to track the progress and status of the assignments in a batch.
+
+To learn more, see [Assign a policy to a batch of users](assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users) and [Assign policies in Teams](policy-assignment-overview.md).
+
+**Q: Can groups be assigned to templates policies?**
+
+A: Currently, no. This functionality will be available in the future.
 
 **Q: If a new template is created, will the template be included in my policies?**
 
@@ -98,24 +108,26 @@ A: Any new templates will be visible by default. You can choose to hide the temp
 
 A: Any deleted templates will no longer be present in any templates policies.
 
-**Q: Can I assign multiple users to a template policy in the Teams Admin Center?**
+**Q: Can I assign multiple users to a templates policy in the Teams admin center?**
 
 A: Yes.
 
-1. In the Admin center, go to **Users**.
-1. In the Users list table, select the users you want to assign to a certain templates policy.
-1. Select Edit settings, and change the Templates policies field.
-1. Select apply. [Learn more](./assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users).
+1. In the Teams admin center, go to **Users** > **Manage users**.
+1. In the list of users, select the users you want to assign to the templates policy.
+1. Select **Edit settings**, and then under **Templates policy**, choose the policy you want to assign.
+1. Select **Apply**.
+
+[Learn more](./assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users).
 
 **Q: How do I view all users assigned to a specific policy?**
 
-A: In the Admin center:
+A: In the Teams admin center:
 
-1. Go to the **Users** section.
-2. Select the filter in the Users list table and filter for the team template policy.
+1. Go to **Users** > **Manage users**.
+2. Select **Filter**, and then set a filter for the templates policy.
 3. Select **Apply**.
 
-![The selected template policy and view users.](media/template-policies-5.png)
+![The selected templates policy and view users.](media/template-policies-5.png)
 
 **Q: Can I manage templates policies via PowerShell?**
 
@@ -123,9 +135,9 @@ A: No, managing templates in PowerShell isn't supported.
 
 **Q: Are templates policies applicable to EDU?**
 
-A: No, template policies for EDU isn't supported.
+A: No, templates policies for EDU aren't supported.
 
-## Related topics
+## Related articles
 
 - [Get started with team templates in the admin center](./get-started-with-teams-templates-in-the-admin-console.md)
 
