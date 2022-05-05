@@ -57,36 +57,22 @@ Watch this short video to learn how to manage templates policies.
 
    Your new templates policy is displayed in the **Templates policies** list.
 
-## Assign users to a templates policy
+## Assign a templates policy to users
 
-Users assigned to a policy will only be able to view the viewable templates within that policy.
-
-1. From **Templates policies**, select a policy, and then select **Manage users**.
-
-2. Type the users to assign to this policy.
-
-   ![assign users to a templates policy.](media/template-policies-4.png)
-
-3. Select **Apply**.
+You can assign a templates policy directly to users, either individually or at scale through a batch assignment. Keep in mind that it may take up to 24 hours for your new policy to take effect for your users.
 
 > [!Note]
-> It might take up to 24 hours for your new policy to take effect for end users.
+> Currently, assigning templates policies to users based on group membership, such as all users in a security group, isn't supported. This capability will be available in the future.
 
-## Size limits for templates policies
+For an overview of the ways to assign policies in Teams, see [Assign policies in Teams](policy-assignment-overview.md).
 
-You can hide a max of 100 templates per policy. The **Hide** button is disabled if the given policy already has 100 templates hidden.
+### Assign a templates policy to individual users
 
-## Frequently asked questions
+You can use the Teams admin center or PowerShell to assign a templates policy to an individual user or to a small number of users at a time. To learn more, see [Assign a policy to individual users](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users).
 
-**Q: Can I batch assign users to templates policies?**
-  
-A: Yes, we support batch assignment for template policy in PowerShell. The policy type for this action is TeamsTemplatePermissionPolicy. 
+### Assign a templates policy to a batch of users
 
-[Learn more](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
-
-+++++
-
-Yes, you can use PowerShell to assign a templates policy to large sets of users at a time. To do this, use the [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet together with TeamsTemplatePermissionPolicy as the ```PolicyType``` to submit a batch of users and the templates policy that you want to assign. For example:
+You can use PowerShell to assign a templates policy to large sets of users at a time. To do this, use the [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet together with TeamsTemplatePermissionPolicy as the ```PolicyType``` to submit a batch of users and the templates policy that you want to assign. For example:
 
 ```powershell
 New-CsBatchPolicyAssignmentOperation -OperationName <Any operation name> -PolicyType TeamsTemplatePermissionPolicy -PolicyName <policy name> -Identity <users identity | list of user identities>
@@ -94,11 +80,13 @@ New-CsBatchPolicyAssignmentOperation -OperationName <Any operation name> -Policy
 
 The assignments are processed as a background operation and an operation ID is generated for each batch. You can then use the [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation) cmdlet to track the progress and status of the assignments in a batch.
 
-To learn more, see [Assign a policy to a batch of users](assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users) and [Assign policies in Teams](policy-assignment-overview.md).
+To learn more, see [Assign a policy to a batch of users](assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users).
 
-**Q: Can groups be assigned to templates policies?**
+## Size limits for templates policies
 
-A: Currently, no. This functionality will be available in the future.
+You can hide a max of 100 templates per policy. The **Hide** button is disabled if the given policy already has 100 templates hidden.
+
+## Frequently asked questions
 
 **Q: If a new template is created, will the template be included in my policies?**
 
