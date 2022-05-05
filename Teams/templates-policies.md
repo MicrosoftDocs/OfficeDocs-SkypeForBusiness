@@ -119,7 +119,7 @@ A: In the Teams admin center:
 
 **Q: Can I manage templates policies via PowerShell?**
 
-A: No, managing templates policies in PowerShell isn't supported. However, you can use PowerShell to assign templates policies to users.
+A: No, managing templates policies in PowerShell isn't supported. However, you can use PowerShell to [assign templates policies](#assign-templates-policies-to-users) to users.
 
 **Q: Are templates policies applicable to EDU?**
 
