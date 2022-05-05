@@ -28,8 +28,9 @@ Third-party apps in Microsoft Teams aren't controlled or owned by Microsoft and 
 In addition to ensuring that admins have control over third-party apps, Microsoft also ensures that only high quality apps are available in the store. We require all apps to go through a mandatory round of validation by Microsoft that checks for functionality of app, identify of publisher, permissions sought by the app, and compliance, privacy, and data security of data collected by the app. We encourage apps to be a part of an optional compliance program to demonstrate an extra focus on security and compliance with industry standards. Know about these programs in the following articles:
 
 1. [App validation](overview-of-app-validation.md#app-validation-and-testing)
-1. [Publisher verification](overview-of-app-validation.md#publisher-verification)
+
 1. Microsoft app compliance program:
 
+   * [Publisher verification](overview-of-app-certification.md#publisher-verification)
    * [Publisher attestation](overview-of-app-certification.md#publisher-attestation)
    * [Microsoft 365 certification](overview-of-app-certification.md#microsoft-365-certification)
