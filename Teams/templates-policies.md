@@ -57,12 +57,12 @@ Watch this short video to learn how to manage templates policies.
 
    Your new templates policy is displayed in the **Templates policies** list.
 
-## Assign a templates policy to users
+## Assign templates policies to users
 
 You can assign a templates policy directly to users, either individually or at scale through a batch assignment. Keep in mind that it may take up to 24 hours for your new policy to take effect for your users.
 
 > [!Note]
-> Currently, assigning templates policies to users based on group membership, such as all users in a security group, isn't supported. This capability will be available in the future.
+> Currently, assigning templates policies to users based on group membership, such as to all users in a security group, isn't supported. This capability will be available in the future.
 
 For an overview of the ways to assign policies in Teams, see [Assign policies in Teams](policy-assignment-overview.md).
 
@@ -70,7 +70,7 @@ For an overview of the ways to assign policies in Teams, see [Assign policies in
 
 You can use the Teams admin center or PowerShell to assign a templates policy to an individual user or to a small number of users at a time. To learn more, see [Assign a policy to individual users](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users).
 
-### Assign a templates policy to a batch of users
+### Assign templates policy to a batch of users
 
 You can use PowerShell to assign a templates policy to large sets of users at a time. To do this, use the [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet together with TeamsTemplatePermissionPolicy as the ```PolicyType``` to submit a batch of users and the templates policy that you want to assign. For example:
 
