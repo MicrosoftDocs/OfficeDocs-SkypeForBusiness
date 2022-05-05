@@ -32,28 +32,28 @@ Watch this short video to learn how to manage templates policies.
 
 1. Sign in to the Teams admin center.
 
-2. Expand **Teams** > **Templates policies**.
+2. Go to **Teams** > **Templates policies**.
 
-3. Select **Add**.
+3. Choose **Add**.
 
     ![The templates policies is selected and Add is highlighted.](media/template-policies-1.png)
 
 1. Give the policy a name and add a short description.
 
-2. In the **Viewable templates** table, select the templates you want to hide and select **Hide**.
+2. In the **Viewable templates** list, select the templates you want to hide, and then select **Hide**.
 
     ![The selected templates with hide highlighted.](media/template-policies-2.png)
 
-    You can see the templates you've selected to hide in the **Hidden Templates** table.
+    You can see the templates you've chosen to hide in the **Hidden templates** list.
 
-1. To unhide certain templates, scroll to the **Hidden templates** table.
+1. To unhide certain templates, go the **Hidden templates** list.
 
 2. Select the templates to unhide, and then select **Show**.
 
    ![The selected templates that aren't hidden.](media/template-policies-3.png)
 
-   The selected templates will appear in your **Viewable templates** table.
-3. Select **Save**.
+   The selected templates will appear in the **Viewable templates** list.
+3. Choose **Save**.
 
    Your new templates policy is displayed in the **Templates policies** list.
 
@@ -115,7 +115,7 @@ A: Yes.
 1. In the Teams admin center, go to **Users** > **Manage users**.
 1. In the list of users, select the users you want to assign to the templates policy.
 1. Select **Edit settings**, and then under **Templates policy**, choose the policy you want to assign.
-1. Select **Apply**.
+1. Choose **Apply**.
 
 [Learn more](./assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users).
 
@@ -125,7 +125,7 @@ A: In the Teams admin center:
 
 1. Go to **Users** > **Manage users**.
 2. Select **Filter**, and then set a filter for the templates policy.
-3. Select **Apply**.
+3. Choose **Apply**.
 
 ![The selected templates policy and view users.](media/template-policies-5.png)
 
@@ -149,4 +149,4 @@ A: No, templates policies for EDU aren't supported.
 
 - [Assign policies to your users in Microsoft Teams - Microsoft Teams \| Microsoft Docs](./policy-assignment-overview.md)
 
-- [Batch assign users to a policy](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+- [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
