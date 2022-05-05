@@ -77,7 +77,7 @@ Connect-MsolService -Credential $credential
 
 ## Get Operator Information
 ````
-$operatorID = (Get-CsOnlineUser -Identity “sip:adele@contoso.com”).ObjectID
+$operatorID = (Get-CsOnlineUser -Identity “sip:adele@contoso.com”).Identity
 
 $operatorEntity = New-CsAutoAttendantCallableEntity -Identity $operatorID -Type User
 ````
@@ -172,7 +172,7 @@ $afterHoursMenuOption2Entity = New-CsAutoAttendantCallableEntity -Identity $afte
 
 $afterHoursMenuOption2 = New-CsAutoAttendantMenuOption -Action TransferCallToTarget -DtmfResponse Tone2 -CallTarget $afterHoursMenuOption2Entity
 
-$dialbynameAAOption3Target = (Get-CsOnlineUser -Identity “ContosoDialByNameAA-RA@contso.com”).ObjectID
+$dialbynameAAOption3Target = (Get-CsOnlineUser -Identity “ContosoDialByNameAA-RA@contso.com”).Identity
 
 $dialbynameAAMenuOption3Entity = New-CsAutoAttendantCallableEntity -Identity $dialbynameAAOption3Target -Type applicationendpoint
 
@@ -241,7 +241,7 @@ Set-MsolUser -UserPrincipalName "ContosoMainAA-RA@contoso.com" -UsageLocation US
 
 Set-MsolUserLicense -UserPrincipalName “ContosoMainAA-RA@contoso.com” -AddLicenses "contoso:PHONESYSTEM_VIRTUALUSER"
 
-$applicationInstanceID = (Get-CsOnlineUser "ContosoMainAA-RA@contoso.com").ObjectID
+$applicationInstanceID = (Get-CsOnlineUser "ContosoMainAA-RA@contoso.com").Identity
 
 $autoAttendantID = (Get-CsAutoAttendant -NameFilter "Contoso Main").Identity
 
@@ -274,7 +274,7 @@ $dialScope = New-CsAutoAttendantDialScope -GroupScope -GroupIds @($salesGroupID,
 ````
 $dialByNameMenuPrompt = New-CsAutoAttendantPrompt -TextToSpeechPrompt "Please say or enter the name of the person you would like to reach. To return to the previous menu press 9”
 
-$dialByNameMenuOption9Target = (Get-CsOnlineUser "ContosoMainAA-RA@contoso.com").ObjectID
+$dialByNameMenuOption9Target = (Get-CsOnlineUser "ContosoMainAA-RA@contoso.com").Identity
 
 $dialByNameMenuOption9Entity = New-CsAutoAttendantCallableEntity -Identity $dialByNameMenuOption9Target -Type applicationendpoint
 
