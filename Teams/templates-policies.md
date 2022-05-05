@@ -80,7 +80,7 @@ New-CsBatchPolicyAssignmentOperation -OperationName <Any operation name> -Policy
 
 The assignments are processed as a background operation and an operation ID is generated for each batch. You can then use the [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation) cmdlet to track the progress and status of the assignments in a batch.
 
-To learn more, see [Assign a policy to a batch of users using PowerShell](assign-policies-users-and-groups.md#use-powershell-method)
+To learn more, see [Assign a policy to a batch of users using PowerShell](assign-policies-users-and-groups.md#use-powershell-method).
 
 ## Size limits for templates policies
 
@@ -119,7 +119,7 @@ A: In the Teams admin center:
 
 **Q: Can I manage templates policies via PowerShell?**
 
-A: No, managing templates in PowerShell isn't supported.
+A: No, managing templates policies in PowerShell isn't supported. However, you can use PowerShell to assign templates policies to users.
 
 **Q: Are templates policies applicable to EDU?**
 
