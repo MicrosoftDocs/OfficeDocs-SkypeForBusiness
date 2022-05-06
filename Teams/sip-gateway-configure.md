@@ -104,7 +104,7 @@ You can also enable SIP Gateway by using the PowerShell [Set-CsTeamsCallingPolic
 
 > [!NOTE]
 > - Policy propagation may take up to 24 hours.
-> - Command executions depends on devices availability, and it may not match the execution status shown in the Teams admin center. If you try to enable SIP gateway on a device that doesn't support it, the command won't be executed.
+> - Command execution depends on device availability, and it may not match the execution status shown in the Teams admin center. If you try to enable SIP gateway on a device that doesn't support it, the command won't be executed.
 
 ## Set the SIP Gateway provisioning server URL
 
