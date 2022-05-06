@@ -29,7 +29,7 @@ description: Learn how to use the Teams EHR connector virtual appointment report
 
 The Microsoft Teams Electronic Health Record (EHR) connector virtual appointment report in the Microsoft Teams admin center gives you a quick and easy way to view Teams EHR-integrated virtual appointment usage in your organization.
 
-To view the report, you must be a global admin or a Teams admin.
+To view the report, you must be a global admin, Teams admin, Global reader, or Report reader.
 
 ## View the report
 
@@ -61,10 +61,12 @@ Choose **View details** to see report details. To purchase more licenses, choose
 
 |Callout |Description  |
 |--------|-------------|
-|**1**   |Each report has a date for when the report was generated. The reports usually reflect a 24 to 48-hour latency from time of activity. |
-|**2**   |The table gives you detailed information about each appointment that took place during the selected date range. <ul><li>**Start time (UTC)** is the date and time when both a staff member and participant are in the appointment.  </li> <li>**Duration** is the time difference between the start time and when the last person leaves the meeting. If both a staff member and a participant didn’t join the meeting, duration shows as 0 (zero).</li> <li>**Name** is the name of the meeting organizer. <li>**Email** is the email address of the meeting organizer.</li> <li> **Department** is the department ID that's associated with the integration record in the EHR system. If the information isn't displayed correctly, complete the integration or update the integration record in your EHR system.</li></li> <li>**Attendees** is the total number of staff members and participants in the appointment.</li> <li>**Within limit** indicates whether the appointment is within the allocation limit. </li> </ul> |
-|**3**   |Select **Edit columns** to add or remove columns in the table. |
-|**4**   |You can export the report to a CSV file for offline analysis. Select **Export to Excel**, and then on the **Downloads** tab, choose **Download** to download the report when it's ready. |
+|**1**   |Each report has a date for when the report was generated.|
+|**2**   |The table gives you detailed information about each appointment that took place during the selected date range. <ul><li>**Start time (UTC)** is the date and time when both a staff member and participant are in the appointment.  </li> <li>**Duration** is the time difference between the start time and when the last person leaves the appointment.</li> <li>**Name** is the name of the meeting organizer. <li>**Email** is the email address of the meeting organizer.</li> <li> **Department** is the department information for the appoitment. If the information isn't displayed correctly, contact your EHR support team.</li></li> <li>**Attendees** is the total number of staff members and participants in the appointment.</li> <li>**Within limit** indicates whether the appointment is within the allocation limit. </li> </ul> |
+|**3**   |You can export the report to a CSV file for offline analysis. Select **Export to Excel**, and then on the **Downloads** tab, choose **Download** to download the report when it's ready. |
+|**4**   |Select **Filter** to filter the report details view. |
+|**5**   |Select **Full screen** to view the report in full screen mode. |
+|**6**   |Select **Edit columns** to add or remove columns in the table |
 
 > [!NOTE]
 > For more analytics on Teams EHR-integrated virtual appointments, see [Virtual Visits usage report](../../teams-analytics-and-reports/virtual-visits-usage-report.md). With this report, you can view key metrics such as total appointments, lobby wait time, appointment duration, and no shows. Use this information to gain insight into usage trends to help you optimize virtual appointments to deliver better business outcomes.
