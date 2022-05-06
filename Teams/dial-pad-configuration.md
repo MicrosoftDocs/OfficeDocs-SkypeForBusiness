@@ -70,7 +70,7 @@ AssignedTimestamp   Capability      CapabilityStatus ServiceInstance            
 07-02-2020 12:28:48 MCOPSTN2        Enabled          MicrosoftCommunicationsOnline/NOAM-4A-S7 5a10155d-f5c1-411a-a8ec-…
 07-02-2020 12:28:48 Teams           Enabled          TeamspaceAPI/NA001                       57ff2da0-773e-42df-b2af-…
 ```
-**If the user is enabled for Operator Connect**, the user must be assigned a non-null value for TeamsCarrierEmergencyCallRoutingPolicy. To check the attribute, use the following command:
+**If the user is enabled for Operator Connect**, the user must have a non-null value for TeamsCarrierEmergencyCallRoutingPolicy. To check the attribute, use the following command:
   
 ```
 Get-CsOnlineUser -Identity $user|Select TeamsCarrierEmergencyCallRoutingPolicy
