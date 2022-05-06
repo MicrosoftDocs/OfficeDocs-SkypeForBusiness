@@ -138,7 +138,7 @@ The user’s effective TeamsCallingPolicy must have AllowPrivateCalling set to t
 To get the TeamsCallingPolicy for a user and to check that AllowPrivateCalling is set to true, use the following command:
 
 ```
-if (($p=(get-csonlineuser -Identity $user).TeamsCallingPolicy.Name) -eq $null) {Get-CsTeamsCallingPolicy -Identity global} else {get-csteamscallingpolicy -Identity $p}
+if (($p=Get-CsUserPolicyAssignment -Identity $user -PolicyType TeamsCallingPolicy) -eq $null) {Get-CsTeamsCallingPolicy -Identity Global} else {Get-CsTeamsCallingPolicy -Identity $p.PolicyName}
 ```
 
 The output should look like:
