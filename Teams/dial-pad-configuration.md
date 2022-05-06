@@ -24,7 +24,7 @@ description: "Learn about how to configure the dial pad in the Teams client so t
 In the Teams client, the dial pad enables users to access Public Switched Telephone Network (PSTN) functionality. The dial pad is available for users with a Phone System license, provided they are configured properly. The following criteria are all required for the dial pad to show:
 
 - User has an enabled Phone System (“MCOEV”) license
-- User has Microsoft Calling Plan or is enabled for Direct Routing
+- User has Microsoft Calling Plan, Operator Connect or is enabled for Direct Routing
 - User has Enterprise Voice enabled
 - User is homed online and not in Skype for Business on premises
 - User has Teams Calling Policy enabled
@@ -33,56 +33,56 @@ The following sections describe how to use PowerShell to check the criteria. In 
 
 ## User has an enabled Phone System (“MCOEV”) license
 
-You must ensure that the assigned plan for the user shows the **CapabilityStatus attribute set to Enabled** and the **Capability Plan set to MCOEV** (Phone System license). You might see MCOEV, MCOEV1, and so on. All are acceptable--as long as the Capability Plan starts with MCOEV.
+You must ensure that the assigned plan for the user shows the **CapabilityStatus attribute set to Enabled** and the **Capability set to MCOEV** (Phone System license). You might see MCOEV, MCOEV1, and so on. All are acceptable--as long as the Capability starts with MCOEV.
 
 To check that the attributes are set correctly, use the following command:
 
 ```
-Get-CsOnlineUser -Identity $user|select AssignedPlan|fl
+(Get-CsOnlineUser -Identity $user).AssignedPlan
 ```
 
-The output will look like the following. You only need to check the **CapabilityStatus** and the **Capability Plan** attributes:
+The output will look like the following. You only need to check the **CapabilityStatus** and the **Capability** attributes:
 
 ```
-<Plan SubscribedPlanId="2f9eda01-4630-4a5c-bdb3-cf195f22d240"  
-   ServiceInstance="MicrosoftCommunicationsOnline/NOAM-0M-DMT" 
-   CapabilityStatus="Enabled"  
-   AssignedTimestamp="2020-04-21T18:31:13Z" 
-   ServicePlanId="4828c8ec-dc2e-4779-b502-87ac9ce28ab7" 
-   xmlns="http://schemas.microsoft.com/online/directoryservices/change/2008/11"> 
-  <Capability> 
-     <Capability Plan="MCOEV" 
-     xmlns="http://schemas.microsoft.com/online/MCO/2009/01"/> 
-  </Capability>
-</Plan>
+AssignedTimestamp   Capability      CapabilityStatus ServiceInstance                          ServicePlanId
+-----------------   ----------      ---------------- ---------------                          -------------
+07-02-2020 12:28:48 MCOEV           Enabled          MicrosoftCommunicationsOnline/NOAM-4A-S7 4828c8ec-dc2e-4779-b502-…
+07-02-2020 12:28:48 Teams           Enabled          TeamspaceAPI/NA001                       57ff2da0-773e-42df-b2af-…
 ```
 
 
-## User has Microsoft Calling Plan OR is enabled for Direct Routing
+## User has Microsoft Calling Plan, Operator Connect OR is enabled for Direct Routing
 
-**If the user has Microsoft Calling Plan**, you must ensure that the **CapabilityStatus attribute is set to Enabled**, and that the **Capability Plan is set to MCOPSTN**. You might see MCOPSTN1, MCOPSTN2, and so on. All are acceptable--as long as the Capability Plan starts with MCOPSTN.
+**If the user has Microsoft Calling Plan**, you must ensure that the **CapabilityStatus attribute is set to Enabled**, and that the **Capability is set to MCOPSTN**. You might see MCOPSTN1, MCOPSTN2, and so on. All are acceptable--as long as the Capability starts with MCOPSTN.
 
 To check the attributes, use the following command:
 
 ```
-Get-CsOnlineUser -Identity $user|select AssignedPlan|fl
+(Get-CsOnlineUser -Identity $user).AssignedPlan
 ```
 
-The output will look like the following. You only need to check the **CapabilityStatus** and the **Capability Plan** attributes:
+The output will look like the following. You only need to check the **CapabilityStatus** and the **Capability** attributes:
 
 ```  
-<Plan SubscribedPlanId="71d1258e-a4e6-443f-884e-0f3d6f644bb1" 
-ServiceInstance="MicrosoftCommunicationsOnline/NOAM-0M-DMT" 
-CapabilityStatus="Enabled"    
-AssignedTimestamp="2018-09-18T18:41:42Z" 
-ServicePlanId="5a10155d-f5c1-411a-a8ec-e99aae125390" 
-xmlns="http://schemas.microsoft.com/online/directoryservices/change/2008/11">
- <Capability>
-    <Capability Plan="MCOPSTN2" 
-    xmlns="http://schemas.microsoft.com/online/MCO/2009/01" />
- </Capability>
-</Plan>
-  ```
+AssignedTimestamp   Capability      CapabilityStatus ServiceInstance                          ServicePlanId
+-----------------   ----------      ---------------- ---------------                          -------------
+07-02-2020 12:28:48 MCOEV           Enabled          MicrosoftCommunicationsOnline/NOAM-4A-S7 4828c8ec-dc2e-4779-b502-…
+07-02-2020 12:28:48 MCOPSTN2        Enabled          MicrosoftCommunicationsOnline/NOAM-4A-S7 5a10155d-f5c1-411a-a8ec-…
+07-02-2020 12:28:48 Teams           Enabled          TeamspaceAPI/NA001                       57ff2da0-773e-42df-b2af-…
+```
+**If the user is enabled for Operator Connect**, the user must be assigned a non-null value for TeamsCarrierEmergencyCallRoutingPolicy. To check the attribute, use the following command:
+  
+```
+Get-CsOnlineUser -Identity $user|Select TeamsCarrierEmergencyCallRoutingPolicy
+```
+
+The output should have a non-null value, for example:
+
+```
+TeamsCarrierEmergencyCallRoutingPolicy
+--------------------------------------
+Synergy_98d1a5cb-d3e6-4306-885e-69a95f2da5c3
+```
 
 **If the user is enabled for Direct Routing**, the user must be assigned a non-null value for OnlineVoiceRoutingPolicy. To check the attribute, use the following command:
   
@@ -138,7 +138,7 @@ The user’s effective TeamsCallingPolicy must have AllowPrivateCalling set to t
 To get the TeamsCallingPolicy for a user and to check that AllowPrivateCalling is set to true, use the following command:
 
 ```
-if (($p=(get-csonlineuser -Identity $user).TeamsCallingPolicy) -eq $null) {Get-CsTeamsCallingPolicy -Identity global} else {get-csteamscallingpolicy -Identity $p}
+if (($p=(get-csonlineuser -Identity $user).TeamsCallingPolicy.Name) -eq $null) {Get-CsTeamsCallingPolicy -Identity global} else {get-csteamscallingpolicy -Identity $p}
 ```
 
 The output should look like:
@@ -167,7 +167,7 @@ MusicOnHoldEnabledType     : Enabled
 -	If you still don’t see the dial pad, check if there is a provisioning error by using the following command:
 
   ```
-  Get-CsOnlineUser -Identity $user|Select McoValidationError
+  Get-CsOnlineUser -Identity $user|Select UserValidationErrors
   ```
 
 -	 If it has been more than 24 hours and you are still seeing problems, contact Support.
