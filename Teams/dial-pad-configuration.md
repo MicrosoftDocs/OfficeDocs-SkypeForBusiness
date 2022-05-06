@@ -21,7 +21,7 @@ description: "Learn about how to configure the dial pad in the Teams client so t
 
 # Dial pad configuration
 
-In the Teams client, the dial pad enables users to access Public Switched Telephone Network (PSTN) functionality. The dial pad is available for users with a Phone System license, provided they are configured properly. The following criteria are all required for the dial pad to show:
+In the Teams client, the dial pad enables users to access Public Switched Telephone Network (PSTN) functionality. The dial pad is available for users with a Phone System license, provided they're configured properly. The following criteria are all required for the dial pad to show:
 
 - User has an enabled Phone System (“MCOEV”) license
 - User has Microsoft Calling Plan, Operator Connect, or is enabled for Direct Routing
@@ -33,7 +33,7 @@ The following sections describe how to use PowerShell to check the criteria. In 
 
 ## User has an enabled Phone System (“MCOEV”) license
 
-You must ensure that the assigned plan for the user shows the **CapabilityStatus attribute set to Enabled** and the **Capability set to MCOEV** (Phone System license). You might see MCOEV, MCOEV1, and so on. All are acceptable--as long as the Capability starts with MCOEV.
+Make sure that the assigned plan for the user shows the **CapabilityStatus attribute set to Enabled** and the **Capability set to MCOEV** (Phone System license). You might see MCOEV, MCOEV1, and so on. All are acceptable--as long as the Capability starts with MCOEV.
 
 To check that the attributes are set correctly, use the following command:
 
@@ -53,7 +53,7 @@ AssignedTimestamp   Capability      CapabilityStatus ServiceInstance            
 
 ## User has Microsoft Calling Plan, Operator Connect OR is enabled for Direct Routing
 
-**If the user has Microsoft Calling Plan**, you must ensure that the **CapabilityStatus attribute is set to Enabled**, and that the **Capability is set to MCOPSTN**. You might see MCOPSTN1, MCOPSTN2, and so on. All are acceptable--as long as the Capability starts with MCOPSTN.
+**If the user has Microsoft Calling Plan**, make sure that the **CapabilityStatus attribute is set to Enabled**, and that the **Capability is set to MCOPSTN**. You might see MCOPSTN1, MCOPSTN2, and so on. All are acceptable--as long as the Capability starts with MCOPSTN.
 
 To check the attributes, use the following command:
 
@@ -164,12 +164,12 @@ MusicOnHoldEnabledType     : Enabled
 
 -	If you recently updated any of the above criteria, you may need to wait a few hours for the client to receive the new settings.
 
--	If you still don’t see the dial pad, check if there is a provisioning error by using the following command:
+-	If you still don’t see the dial pad, check if there's a provisioning error by using the following command:
 
   ```
   Get-CsOnlineUser -Identity $user|Select UserValidationErrors
   ```
 
--	 If it has been more than 24 hours and you are still seeing problems, contact Support.
+-	 If it's been more than 24 hours and you're still seeing problems, contact Support.
 
 
