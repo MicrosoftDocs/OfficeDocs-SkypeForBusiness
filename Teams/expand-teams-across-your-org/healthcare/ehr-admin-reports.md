@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams EHR connector virtual appointment report
+title: Microsoft Teams EHR integrated virtual visits report
 author: LanaChin
 ms.author: v-lanachin
 manager: samanro
@@ -22,12 +22,12 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
 ms.reviewer: 
-description: Learn how to use the Teams EHR connector virtual appointment report in the Microsoft Teams admin center to get an overview of EHR-integrated virtual appointment usage in your organization. 
+description: Learn how to use the Teams EHR integrated virtual visits report in the Microsoft Teams admin center to get an overview of EHR-integrated virtual appointment usage in your organization. 
 ---
 
-# Microsoft Teams EHR connector virtual appointment report
+# Microsoft Teams EHR integrated virtual visits report
 
-The Microsoft Teams Electronic Health Record (EHR) connector virtual appointment report in the Microsoft Teams admin center gives you a quick and easy way to view Teams EHR-integrated virtual appointment usage in your organization.
+The Microsoft Teams Electronic Health Record (EHR) integrated virtual visits report in the Microsoft Teams admin center gives you a quick and easy way to view Teams EHR-integrated virtual appointment usage in your organization.
 
 To view the report, you must be a global admin, Teams admin, Global reader, or Report reader.
 
@@ -35,12 +35,12 @@ To view the report, you must be a global admin, Teams admin, Global reader, or R
 
 There are two ways to access and view the report in the Teams admin center.
 
-- Through the [EHR connector usage card](#the-ehr-connector-usage-card) in the dashboard
-- Directly by choosing [**EHR connector virtual appointment**](#the-teams-ehr-connector-virtual-appointment-report) in **Analytics & reports** > **Usage reports**
+- Through the [EHR integrated virtual visits card](#the-ehr-integrated-virtual-visits-card) in the dashboard
+- Directly by choosing [**EHR integrated virtual visits**](#the-teams-ehr-integrated-virtual-visits-report) in **Analytics & reports** > **Usage reports**
 
-### The EHR connector usage card
+### The EHR integrated virtual visits card
 
-In the left navigation of the Microsoft Teams admin center, choose **Dashboard**, and then go to the **EHR connector usage** card.
+In the left navigation of the Microsoft Teams admin center, choose **Dashboard**, and then go to the **EHR integrated virtual visits** card.
 
 Here, you get an at-a-glance view of EHR-integrated virtual appointment activity by month, including completed appointments, remaining allocation, and whether you've exceeded the monthly limit (depending on the license you have).
 
@@ -50,10 +50,10 @@ Here, you get an at-a-glance view of EHR-integrated virtual appointment activity
 
 Choose **View details** to see report details. To purchase more licenses, choose **Buy more**.
 
-### The Teams EHR connector virtual appointment report
+### The Teams EHR integrated virtual visits report
 
 1. In the left navigation of the Teams admin center, go to **Analytics & reports** > **Usage reports**.
-1. On the **View reports** tab, choose **EHR connector virtual appointment** and a date range. Then, select **Run report**.
+1. On the **View reports** tab, choose **EHR integrated virtual visits** and a date range. Then, select **Run report**.
 
     :::image type="content" source="../../media/ehr-connector-report.png" alt-text="Screenshot of the Teams EHR connector Virtual Visits report in the Teams admin center" lightbox="../../media/ehr-connector-report.png":::
 
