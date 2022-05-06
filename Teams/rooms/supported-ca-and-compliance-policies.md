@@ -30,7 +30,7 @@ for more information.
 The following list includes the supported Conditional Access policies for Teams Rooms on Windows and on Android. 
 
 > [!NOTE]
-> The supported Android policies apply to all Android devices in shared spaces, including Teams Rooms on Andourd, common area phones, and panels.
+> The supported Android policies apply to all Android devices in shared spaces, including Teams Rooms on Android, common area phones, and panels.
 
 | Assignment | Windows | Android |
 |------------|---------|---------|
