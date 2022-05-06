@@ -102,9 +102,9 @@ To enable SIP Gateway in the Teams admin center, follow these steps:
 
 You can also enable SIP Gateway by using the PowerShell [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) cmdlet. To enable users for SIP devices, select a policy, and set the `-AllowSIPDevicesCalling` attribute to `True`. The default value is `False`, so users will not be able to use their SIP devices unless you enable them.
 
-
 > [!NOTE]
-> - Policy propagation may take up to 24 hours.
+> - Policy propagation may take up to 24 hours. <br>
+> Command executions depends on devices availability, and it may not match the execution status shown in the Teams admin center. If you try to enable SIP gateway on a device that doesn't support it, the command won't be executed.
 
 ## Set the SIP Gateway provisioning server URL
 
@@ -247,6 +247,8 @@ To sign out a device on the Teams admin center:
 
 4. On the device's **Details pane**, select the **Details** tab, and at the upper right on the **Actions** menu, select **Sign out**. 
 
+> [!NOTE]
+> Removing a SIP device from your tenant is currently unavailable in the Teams admin center. 
 
 ## View and monitor SIP devices
 
