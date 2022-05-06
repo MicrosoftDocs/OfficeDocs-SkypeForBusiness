@@ -24,7 +24,7 @@ description: "Learn about how to configure the dial pad in the Teams client so t
 In the Teams client, the dial pad enables users to access Public Switched Telephone Network (PSTN) functionality. The dial pad is available for users with a Phone System license, provided they are configured properly. The following criteria are all required for the dial pad to show:
 
 - User has an enabled Phone System (“MCOEV”) license
-- User has Microsoft Calling Plan, Operator Connect or is enabled for Direct Routing
+- User has Microsoft Calling Plan, Operator Connect, or is enabled for Direct Routing
 - User has Enterprise Voice enabled
 - User is homed online and not in Skype for Business on premises
 - User has Teams Calling Policy enabled
