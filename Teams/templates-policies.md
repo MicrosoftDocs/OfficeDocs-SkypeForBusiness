@@ -112,8 +112,7 @@ To learn more, see [Assign a policy to individual users](assign-policies-users-a
 A: In the Teams admin center:
 
 1. Go to **Users** > **Manage users**.
-2. Select **Filter**, and then set a filter for the templates policy.
-3. Choose **Apply**.
+2. Select **Filter**, set a filter for the templates policy, and then choose **Apply**.
 
     ![The selected templates policy and view users.](media/template-policies-5.png)
 
