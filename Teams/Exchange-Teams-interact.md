@@ -55,7 +55,7 @@ The following table provides a helpful quick reference to feature availability b
 
 <sup>4</sup> Teams users with on-premises Exchange mailbox may use voicemail with Teams and receive voicemail messages in Outlook, but voicemail messages will not be available to view or play within the Teams client.
 
-<sup>5</sup> If one of the owners of a team can add connectors, everyone else in that team will be able to do so, even if their mailboxes are homed on-premises.
+<sup>5</sup> If one of the owners of a team can add connectors, everyone else in that team will be able to do so, no matter if their mailbox is homed on-premises or online.
 
 <sup>6</sup> Only contacts in default contacts folder. Access to other contacts folders or sub-folders is not supported.
 
