@@ -45,7 +45,7 @@ Microsoft works with each vendor to:
 The tables that follow list devices certified for Direct Routing. (For information about which SBC vendors support Local Media Optimization, see [Configure Local Media Optimization for Direct Routing](direct-routing-media-optimization-configure.md).)
 
 [Learn more about Direct Routing](https://aka.ms/dr).
-If you have any questions about the SBC certification program for Direct Routing, contact drsbccertification@microsoft.com. Note that we are not accepting new nominations for certification until further notice.
+Note that we are not accepting new nominations for certification until further notice.
 <br/>
 
 ## Certified SBC vendors
@@ -86,8 +86,7 @@ If you have any questions about the SBC certification program for Direct Routing
 |                                 |     Cisco Unified Border Element (CUBE) for 1000 Series Aggregation Services Routers      |     &#10004;   | &#10004; |      Supported IOS XE Amsterdam 17.2.1r (Recommended 17.6.1a)         |    &#10004;     |    |
 |                                 |     Cisco Unified Border Element (CUBE) for Catalyst 8000 Edge Platforms      |     &#10004;   | &#10004; |      Supported IOS XE Amsterdam 17.3.2 (Recommended 17.6.1a)      |    &#10004;     |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Avaya Session Border Controller for Enterprise (ASBCE)    |     &#10004;     |       &#10004;     |       Release 8.1.1 (8.1.2 for Media Bypass)      |     |    |
-|                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia Session Border Controller    |     &#10004;     |           |       19.5 (1908)       |     |    |
-|                     |    Nokia Session Border Controller    |     &#10004;     |           |       20.8       |      &#10004;        |    |
+|                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia Session Border Controller    |     &#10004;     |      &#10004;     |       22.0       |   &#10004;  |    |
 |                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |      &#10004;     |       Supported 5.0, 5.1  (Recommended 5.3)     |     |    |
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    |
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Orchid Link    |     &#10004;     |           |      3.1        |     |    |

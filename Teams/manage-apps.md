@@ -226,6 +226,7 @@ Use org-wide app settings to control whether users with an [F license](https://w
 1. Under **Custom apps**, turn off or turn on **Allow interaction with custom apps**. This setting controls whether users can interact with custom apps. To learn more, see [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md).
 1. Select **Save** for org-wide app settings to take effect.
 
+
 <!--- TBD: Commenting this info for now. Move it later to the new article about compliance program and how/where admins can find info about compliant apps.
 
 ## View security and compliance information for Microsoft 365 Certified apps

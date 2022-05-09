@@ -136,6 +136,10 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Audiocodes C470HD  | `1.17.561` | 2022 Update #1C |
+|Yealink MP54/MP56/MP58   | `122.15.0.80`     | 2022 Update #2A  |
+|Yealink MP52 | `145.15.0.28`  | 2022 Update #2A         |
+|Audiocodes C470HD  | `1.17.558` | 2022 Update #1C   |
 |Audiocodes C455HD | `1.15.289`    | 2022 Update #1C    |
 |Audiocodes C448HD  | `1.14.524` | 2022 Update #1C |
 |Audiocodes C450HD  | `1.14.524` | 2022 Update #1C |
@@ -232,6 +236,8 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Logi Rallybar Mini   |   `1.6.272`   | 2022 Update #1  |
+| Logi Rallybar    |   `1.6.272`   | 2022 Update #1   |
 | Logi Roommate |   `1.5.705`   | 2022 Update #1    |
 | Logi Rallybar Mini   |   `1.5.705`   | 2022 Update #1    |
 | Logi Rallybar    |   `1.5.705`   | 2022 Update #1    |
@@ -320,6 +326,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release|
 |:--------------|:-----------------|:-------------------------|
+|Logitech Tap Scheduler | `1.6.215` |2022 Update #1A  |
 |Crestron Touchpanel /770-T/1070-T | `1.006.0046 ` | 2022 Update #1|
 |Yealink RoomPanel | ` 147.15.0.30 ` | 2022 Update #1 |
 |Crestron -TSS770  | `1.004.0115` |2021 Update #1 |
