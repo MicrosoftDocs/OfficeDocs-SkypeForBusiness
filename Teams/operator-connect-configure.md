@@ -105,7 +105,7 @@ How you remove your existing Direct Routing numbers depends whether the number i
 Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI 
 ```
 
-If `OnPremLineUri` and `LineUri` are populated with the same E.164 phone number, the phone number was assigned on-premises and synchronized to Office 365.
+If `OnPremLineUri` is populated with an E.164 phone number, the phone number was assigned on-premises and synchronized to Office 365.
     
 **To remove Direct Routing numbers assigned on-premises,** run the following Skype for Business Server PowerShell command:
     
