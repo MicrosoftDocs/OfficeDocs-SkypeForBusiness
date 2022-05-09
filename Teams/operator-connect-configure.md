@@ -138,7 +138,7 @@ Removing the phone number may take up to 10 minutes. In rare cases, it can take 
 
 
 ```PowerShell
-Get-CsOnlineUser -Identity <user> | fl LineUri
+Get-CsOnlineUser -Identity <user> | fl *LineUri
 ```
 
 #### Step 2 - Remove the online voice routing policy associated with your user
