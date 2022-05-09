@@ -102,12 +102,12 @@ To move numbers from Direct Routing to Operator Connect, the existing Direct Rou
 How you remove your existing Direct Routing numbers depends whether the number is assigned on-premises or online. To check, run the following command:
     
 ```PowerShell
-Get-CsOnlineUser -Identity <user> | fl RegistrarPool,OnPremLineURIManuallySet, OnPremLineURI, LineURI 
+Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI 
 ```
 
-If `OnPremLineUriManuallySet` is set to `False` and `LineUri` is populated with an E.164 phone number, the phone number was assigned on-premises and synchronized to Office 365.
+If `OnPremLineUri` and `LineUri` are populated with the same E.164 phone number, the phone number was assigned on-premises and synchronized to Office 365.
     
-**To remove Direct Routing numbers assigned on-premises,** run the following command:
+**To remove Direct Routing numbers assigned on-premises,** run the following Skype for Business Server PowerShell command:
     
 ```PowerShell
 Set-CsUser -Identity <user> -LineURI $null 
@@ -116,15 +116,14 @@ Set-CsUser -Identity <user> -LineURI $null
 The amount of time it takes for the removal to take effect depends on your configuration. To check if the on-premises number was removed and the changes have been synced, run the following PowerShell command: 
     
 ```PowerShell
-Get-CsOnlineUser -Identity <user> | fl RegistrarPool,OnPremLineURIManuallySet, OnPremLineURI, LineURI 
+Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI 
 ```
        
 After the changes have synced to Office 365 online directory, the expected output is: 
        
  ```console
 RegistrarPool                        : pool.infra.lync.com
- OnPremLineURIManuallySet             : True
- OnPremLineURI                        : 
+OnPremLineURI                        : 
 LineURI                              : 
 ```
 
@@ -139,7 +138,7 @@ Removing the phone number may take up to 10 minutes. In rare cases, it can take 
 
 
 ```PowerShell
-Get-CsOnlineUser -Identity <user> | fl Number
+Get-CsOnlineUser -Identity <user> | fl LineUri
 ```
 
 #### Step 2 - Remove the online voice routing policy associated with your user
