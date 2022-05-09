@@ -44,9 +44,7 @@ In the left navigation of the Microsoft Teams admin center, choose **Dashboard**
 
 Here, you get an at-a-glance view of EHR-integrated virtual appointment activity by month, including completed appointments, remaining allocation, and whether you've exceeded the monthly limit (depending on the license you have).
 
-:::image type="content" source="../../media/admin-connector-report.png" alt-text="Screenshot of the EHR connector usage card in the Teams admin center dashboard" lightbox="../../media/admin-connector-report.png":::
-
-:::image type="content" source="../../media/ehr-connector-report-card.png" alt-text="Screenshot of the EHR connector usage card in the Teams admin center dashboard" lightbox="../../media/ehr-connector-report-card.png":::
+:::image type="content" source="../../media/ehr-connector-card.png" alt-text="Screenshot of the EHR connector usage card in the Teams admin center dashboard" lightbox="../../media/admin-connector-report.png":::
 
 Choose **View details** to see report details. To purchase more licenses, choose **Buy more**.
 
