@@ -115,25 +115,22 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 
 ## View your policy assignments in the Activity log
 
-When you assign policies to users in the Microsoft Teams admin center, you can view the status of those policy assignments in the [Activity log](https://admin.teams.microsoft.com/activitylog). The Activity log shows policy assignments to batches of more than 20 users and group policy assignments through the Microsoft Teams admin center from the last 30 days.
+When you assign policies to users in the Microsoft Teams admin center, you can view the status of those policy assignments in the [Activity log](https://admin.teams.microsoft.com/activitylog). The activity log shows network record upload information, group policy operations from Teams admin center and PowerShell, and batch policy operations (for more than 20 users) from the Teams admin center, for the last 30 days.
 
 ![Screenshot of the Activity log page.](media/activity-log.png)
 
 To view your policy assignments in the Activity log:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then under **Activity Log**, select **View details**.
-2. You can view all policy assignments or filter the list by status to show only assignments that are **Not started**, **In progress**, or **Completed**. You'll see the following information about each assignment:
+2. You'll see the following information about each assignment:
     - **Activity**: The name of the policy operation. For example: **Edit Global (Org-wide default)**
     - **Group name**: The name of the group the policy operation was completed on.
     - **Policy type**: The type of policy that was assigned.
-    - **Policy name**: The name of the policy assignment. Select the link to view more details. This includes the number of users the policy was assigned to and the number of assignments completed, in progress, and not started. You'll also see the list of users in the batch, and the status and result for each user. Here's an example:
-
-        ![Screenshot of the.](media/activity-log-policy-assignment-detail.png)
-
+    - **Policy name**: The name of the policy assignment. Select the link to view more details. This includes the number of users the policy was assigned to and the number of assignments completed, in progress, and not started. You'll also see the list of users in the batch, and the status and result for each user.
     - **Submitted by**: The name of the user who assigned the policy.
-    - **Submitted time**: Date and time the policy assignment was submitted.
-    - **Completion time**: Date and time the policy assignment was completed.
-    - **Impact on**: Number of users in the batch or group.
+    - **Submitted on**: Date and time the policy assignment was submitted.
+    - **Completion on**: Date and time the policy assignment was completed.
+    - **Impacted**: Number of users in the batch or group.
     - **Overall status**: Status of the policy assignment. A policy can have one of the following statuses:
         - **Not started**: The policy assignment was submitted by the admin.
         - **In progress**: The policy assignment has started processing.
