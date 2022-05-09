@@ -99,7 +99,7 @@ To move numbers from Direct Routing to Operator Connect, the existing Direct Rou
 
 #### Step 1 - Remove existing Direct Routing numbers.
 
-How you remove your existing Direct Routing numbers depends whether the number is assigned on-premises or online. To check, run the following command:
+How you remove your existing Direct Routing numbers depends whether the number is assigned on-premises or online. To check, run the following Teams PowerShell Module command:
     
 ```PowerShell
 Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI 
@@ -113,7 +113,7 @@ If `OnPremLineUri` is populated with an E.164 phone number, the phone number was
 Set-CsUser -Identity <user> -LineURI $null 
 ```
 
-The amount of time it takes for the removal to take effect depends on your configuration. To check if the on-premises number was removed and the changes have been synced, run the following PowerShell command: 
+The amount of time it takes for the removal to take effect depends on your configuration. To check if the on-premises number was removed and the changes have been synced, run the following Teams PowerShell Module command: 
     
 ```PowerShell
 Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI 
@@ -127,23 +127,23 @@ OnPremLineURI                        :
 LineURI                              : 
 ```
 
-<br> **To remove existing online Direct Routing numbers assign online,** run the following PowerShell command:
+<br> **To remove existing online Direct Routing numbers assigned online,** run the following Teams PowerShell Module command:
 
 
 ```PowerShell
 Remove-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <pn> -PhoneNumberType DirectRouting
 ```
 
-Removing the phone number may take up to 10 minutes. In rare cases, it can take up to 24 hours. To check if the on-premises number was removed and the changes have been synced, run the following PowerShell command: 
+Removing the phone number may take up to 10 minutes. In rare cases, it can take up to 24 hours. To check if the phone number was removed, run the following Teams PowerShell Module command: 
 
 
 ```PowerShell
-Get-CsOnlineUser -Identity <user> | fl *LineUri
+Get-CsOnlineUser -Identity <user> | fl LineUri
 ```
 
 #### Step 2 - Remove the online voice routing policy associated with your user
 
-Once the number is unassigned, remove the online voice routing policy associated with your user by running the following PowerShell command:
+Once the number is unassigned, remove the online voice routing policy associated with your user by running the following Teams PowerShell Module command:
 
 ```PowerShell
 Grant-CsOnlineVoiceRoutingPolicy -Identity <user> -PolicyName $Null
