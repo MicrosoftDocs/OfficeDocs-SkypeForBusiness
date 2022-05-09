@@ -122,7 +122,7 @@ When you assign policies to users in the Microsoft Teams admin center, you can v
 To view your policy assignments in the Activity log:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then under **Activity Log**, select **View details**.
-2. You'll see the following information about each assignment:
+2. You'll see the following information about each policy operation:
     - **Activity**: The name of the policy operation. For example: **Edit Global (Org-wide default)**
     - **Group name**: The name of the group the policy operation was completed on.
     - **Policy type**: The type of policy that was assigned.
