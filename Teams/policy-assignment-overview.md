@@ -119,24 +119,24 @@ When you assign policies to users in the Microsoft Teams admin center, you can v
 
 ![Screenshot of the Activity log page.](media/Activity_Log.png)
 
-To view your policy assignments in the Activity log:
+To view your policy operations in the Activity log:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Dashboard**, and then under **Activity Log**, select **View details**.
 2. You'll see the following information about each policy operation:
-    - **Activity**: The name of the policy operation. For example: **Edit Global (Org-wide default)**
+    - **Activity**: The name of the policy operation. For example: **Group policy assignment**
     - **Group name**: The name of the group the policy operation was completed on.
-    - **Policy type**: The type of policy that was assigned.
-    - **Policy name**: The name of the policy assignment. Select the link to view more details. This includes the number of users the policy was assigned to and the number of assignments completed, in progress, and not started. You'll also see the list of users in the batch, and the status and result for each user.
-    - **Submitted by**: The name of the user who assigned the policy.
-    - **Submitted on**: Date and time the policy assignment was submitted.
-    - **Completion on**: Date and time the policy assignment was completed.
+    - **Policy type**: The type of policy.
+    - **Policy name**: The name of the policy operation. For batch policy assignments, you can select the link to view more details. This includes the number of users the policy was assigned to and the number of assignments completed, in progress, and not started. You'll also see the list of users in the batch, and the status and result for each user.
+    - **Submitted by**: The name of the user who submitted the policy operation.
+    - **Submitted on**: Date and time the policy operation was submitted.
+    - **Completed on**: Date and time the policy operation was completed.
     - **Impacted**: Number of users in the batch or group.
-    - **Overall status**: Status of the policy assignment. A policy can have one of the following statuses:
-        - **Not started**: The policy assignment was submitted by the admin.
-        - **In progress**: The policy assignment has started processing.
-        - **Rolling out to users**: The system has started assigning the policy to users.
-        - **Completed**: The policy has been assigned to all users.
-        - **Completed with 'x' errors**: The policy assignment is complete, but there are errors.
+    - **Overall status**: Status of the policy operation. A policy can have one of the following statuses:
+        - **Not started**: The policy operation was submitted by the admin.
+        - **In progress**: The policy operation has started processing.
+        - **Rolling out to users**: The system has started applying the policy update to users.
+        - **Completed**: The policy update has been applied all users.
+        - **Completed with 'x' errors**: The policy operation is complete, but there are errors.
 
 > [!NOTE]
 > You can also get to the Activity log from the **Users** page. After you select **Apply** to submit a bulk policy assignment, you'll see a banner at the top of the page. Select the **Activity log** link in the banner.
