@@ -53,7 +53,7 @@ Choose **View details** to see report details. To purchase more licenses, choose
 1. In the left navigation of the Teams admin center, go to **Analytics & reports** > **Usage reports**.
 1. On the **View reports** tab, choose **EHR integrated virtual visits** and a date range. Then, select **Run report**.
 
-    :::image type="content" source="../../media/ehr-connector-report.png" alt-text="Screenshot of the Teams EHR connector Virtual Visits report in the Teams admin center" lightbox="../../media/ehr-connector-report.png":::
+    :::image type="content" source="../../media/ehr-connector-report.png" alt-text="Screenshot of the Teams EHR integrated virtual visits report in the Teams admin center" lightbox="../../media/ehr-connector-report.png":::
 
 #### Interpret the report
 
