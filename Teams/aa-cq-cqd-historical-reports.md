@@ -285,7 +285,7 @@ Perform the following steps:
 |:---------------------------------------|:------------------------|:---------------------------------------------------|
 |Agent Name                              |Text                     |User UPN<br>If the full username is **user@microsoft.com** then this value will be: **user** |
 |Average Call Duration (Second)          |Decimal number           |Summarize: Sum<br>The average duration of answered call queue calls in seconds |
-|Call Count                              |Whole number             |Summarize: Sum<br>Number of calls presented and answered by agent     |
+|Call Count                              |Whole number             |Summarize: Sum<br>Number of calls presented to the agent     |
 |Call Duration (Minute)                  |Whole number             |Summarize: Sum<br>Total call duration of answered call queue calls in minutes (rounded down to nearest minute)  |
 |Call Queue Name                         |Text                     |Name of resource account attached to Call Queue<br><br>If the full Resource Account name is **cq_test@microsoft.com** then this value will be: **cq_test** |
 |Date                                    |Date                     |                                                    |
