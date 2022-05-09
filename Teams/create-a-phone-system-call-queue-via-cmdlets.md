@@ -131,9 +131,9 @@ $audioFileSalesHoldInQueueMusicID = (Import-CsOnlineAudioFile -ApplicationID Hun
 
 ### Get Users ID
 ````
-$userAdeleID = (Get-CsOnlineUser -Identity “sip:adele@contoso.com”).ObjectID
-$userSalesBillID = (Get-CsOnlineUser -Identity “sip:bill@contoso.com”).ObectID
-$userSalesMaryID = (Get-CsOnlineUser -Identity “sip:mary@contoso.com”).ObjectID
+$userAdeleID = (Get-CsOnlineUser -Identity “sip:adele@contoso.com”).Identity
+$userSalesBillID = (Get-CsOnlineUser -Identity “sip:bill@contoso.com”).Identity
+$userSalesMaryID = (Get-CsOnlineUser -Identity “sip:mary@contoso.com”).Identity
 ````
 
 ### Get list of supported languages
@@ -166,7 +166,7 @@ Set-MsolUser -UserPrincipalName "Sales-RA@contoso.com" -UsageLocation US
 
 Set-MsolUserLicense -UserPrincipalName “Sales-RA@contoso.com” -AddLicenses "contoso:PHONESYSTEM_VIRTUALUSER"
 
-$applicationInstanceID = (Get-CsOnlineUser -Identity "Sales-RA@contoso.com").ObjectID
+$applicationInstanceID = (Get-CsOnlineUser -Identity "Sales-RA@contoso.com").Identity
 $callQueueID = (Get-CsCallQueue -NameFilter "Sales").Identity
 
 New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID) -ConfigurationID $callQueueID -ConfigurationType CallQueue
@@ -223,7 +223,7 @@ Set-MsolUser -UserPrincipalName "Support-RA@contoso.com" -UsageLocation US
 
 Set-MsolUserLicense -UserPrincipalName “Support-RA@contoso.com” -AddLicenses "contoso:PHONESYSTEM_VIRTUALUSER"
 
-$applicationInstanceID = (Get-CsOnlineUser -Identity "Support-RA@contoso.com").ObjectID
+$applicationInstanceID = (Get-CsOnlineUser -Identity "Support-RA@contoso.com").Identity
 $callQueueID = (Get-CsCallQueue -NameFilter "Support").Identity
 
 New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID) -ConfigurationID $callQueueID -ConfigurationType CallQueue
@@ -249,7 +249,7 @@ $teamFacilitiesHelpDeskChannelUserID = (Get-TeamChannelUser -GroupId $teamFacili
 
 ### Get On Behalf Of Calling Resource Account ID
 ````
-$oboResourceAccountID = (Get-CsOnlineUser -Identity "MainAA-RA@contoso.com").ObjectID
+$oboResourceAccountID = (Get-CsOnlineUser -Identity "MainAA-RA@contoso.com").Identity
 ````
 
 ### Get list of supported languages
@@ -282,7 +282,7 @@ Set-MsolUser -UserPrincipalName "Facilities-RA@contoso.com" -UsageLocation US
 
 Set-MsolUserLicense -UserPrincipalName “Facilities-RA@contoso.com” -AddLicenses "contoso:PHONESYSTEM_VIRTUALUSER"
 
-$applicationInstanceID = (Get-CsOnlineUser -Identity "Facilities-RA@contoso.com").ObjectID
+$applicationInstanceID = (Get-CsOnlineUser -Identity "Facilities-RA@contoso.com").Identity
 $callQueueID = (Get-CsCallQueue -NameFilter "Facilities").Identity
 
 New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID) -ConfigurationID $callQueueID -ConfigurationType CallQueue
