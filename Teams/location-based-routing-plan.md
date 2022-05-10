@@ -296,9 +296,9 @@ The following table shows whether call forwarding and call transfers are allowed
  
 The following table shows how Location-Based Routing affects routing of a VOIP call from User1 at Site1 to users in different locations who transfer or forward the call to a PSTN endpoint.  
 
-|User initiating call transfer or forward  |Transfer to PSTN  |Forward to PSTN  |
-|---------|---------|---------|
-|Same network site, site enabled for Location-Based Routing (User2)   |Call transfer can only be routed through Location-Based Routing enabled Gateway1 at Site1, based on User2's voice routing policy         |Call forward can only be routed through Location-Based Routing enabled Gateway1 at Site1, based on User2's voice routing policy         |
+|User initiating call transfer or forward  |Transfer or forward to PSTN  |
+|---------|---------|
+|Same network site, site enabled for Location-Based Routing (User2)   |The resulting PSTN call will only be permitted if the calculated route based on User2's voice routing policy results in a route through Location-Based Routing enabled Gateway1 at Site1         |
 |Different network site, site enabled for Location-Based Routing (User3)    |Call transfer can only be routed through Location-Based Routing enabled Gateway1 at Site1, based on User3's voice routing policy         |Call forward can only be routed through Location-Based Routing enabled Gateway1 at Site1, based on User3's voice routing policy         |
 |Different network site, site not enabled for Location-Based Routing (User4)    |Call transfer can only be routed through Location-Based Routing enabled Gateway1 at Site1, based on User4's voice routing policy         |Call forward can only be routed through Location-Based Routing enabled Gateway1 at Site1, based on User4's voice routing policy         |
 |Unknown internal network (User5)     |Call transfer can only be routed through Location-Based Routing enabled Gateway1 at Site1, based on User5's voice routing policy         |Call forward can only be routed through Location-Based Routing enabled Gateway1 at Site1, based on User5's voice routing policy         |
