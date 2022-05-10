@@ -100,10 +100,30 @@ This setting controls whether incoming meeting invites are automatically answere
 
 ### Allow music on hold
 
-This setting allows you to turn on or turn off music on hold when a PSTN caller is placed on hold. It's turned on by default. This setting doesn't apply to call park and boss delegate features, and is currently only available via PowerShell.
+This setting allows you to turn on or turn off music on hold when a PSTN caller is placed on hold. It's turned on by default. This setting doesn't apply to call park and boss delegate features.
+
+### Allow SIP devices calling
+
+This setting enables users to use a SIP device to make and receive calls.
+
+### Spam filtering
+
+This setting allows you to control the type of Spam filtering available on incoming calls.
+
+### Call recording, live captions and transcription
+
+These settings allows you to control whether call recording, live captions and transcription are available for the users.
 
 ## Related articles
 
-[Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
+[New-CsTeamsCallingPolicy](/powershell/module/skype/new-csteamscallingpolicy)
+
+[Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
+
+[Get-CsTeamsCallingPolicy](/powershell/module/skype/get-csteamscallingpolicy)
+
+[Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy)
+
+[Remove-CsTeamsCallingPolicy](/powershell/module/skype/remove-csteamscallingpolicy)
 
 [Assign policies to your users in Teams](policy-assignment-overview.md)
