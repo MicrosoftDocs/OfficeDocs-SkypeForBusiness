@@ -27,19 +27,19 @@ ms.custom:
 
 The Updates app in Teams provides a centralized place for members of your organization to create, review, and submit reports. By creating templates, you can use the Updates app to keep track of anything your organization needs.
 
-In Teams, users access Updates <!-- as a tab in a channel. Select **+** to open the tab gallery and add a new Lists app tab instance to a channel to get started.
+In Teams, users access Updates (**how**)
 
-<!--Who can create templates?-->
+**Who can create templates?**
 
 When a user is assigned a report, it will show up in their Teams activity feed. Users can also view all their current update requests and previous submissions in the Updates app.
 
 ## Set up Updates
 
-<!-- this is where I need input-->
+**this is where I need input**
 
 ## Templates
 
-Updates comes with both out-of-the-box templates for common business scenarios and the option to create your own template. <!-- will instructions on using templates be here or in an end-user content set?>
+Updates comes with both out-of-the-box templates for common business scenarios and the option to create your own template. **will instructions on using templates be here or in an end-user content set?**
 
 ## Example scenario
 
