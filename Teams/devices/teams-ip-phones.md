@@ -236,6 +236,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Logi Roommate |   `1.6.290`   | 2022 Update #1    |
 | Logi Rallybar Mini   |   `1.6.272`   | 2022 Update #1  |
 | Logi Rallybar    |   `1.6.272`   | 2022 Update #1   |
 | Logi Roommate |   `1.5.705`   | 2022 Update #1    |
