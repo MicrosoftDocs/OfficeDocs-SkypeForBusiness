@@ -93,9 +93,11 @@ In GCC, GCCH, and DoD deployments, all third-party apps are blocked by default. 
 
 Use org-wide app settings to control whether users can install third-party apps. Org-wide app settings govern the behavior for all users and override any other app permission policies assigned to users. You can use them to control malicious or problematic apps.
 
-1. On the **Permission policies** page, select **Org-wide app settings**. You can then configure the settings you want in the panel.
+### For GCC clouds
 
-    ![Screenshot of org-wide app settings.](media/app-permission-policies-gcc-org-wide.png)
+1. On the **Manage Apps** page, select **Org-wide app settings**. You can then configure the settings you want in the panel.
+
+    ![Screenshot of org-wide app settings in GCC.](media/app-permission-policies-gcc-org-wide.png)
 
 1. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps:
 
@@ -106,6 +108,15 @@ Use org-wide app settings to control whether users can install third-party apps.
 1. Select **Save** for org-wide app settings to take effect.
 
 As mentioned earlier, to allow third-party apps, you can either edit and use the global (Org-wide default) policy or create and assign custom policies.
+
+### For GCCH and DoD clouds
+
+1. On the **Permission policies** page, select **Org-wide app settings**. You can then configure the settings you want in the panel.
+
+    ![Screenshot of org-wide app settings in GCCH and DoD.](media/app-permission-policies-gcch-dod-org-wide.png)
+
+1. Under **Blocked apps**, add the apps you want to block across your organization. In a Microsoft 365 Government - GCCH and DoD deployment of Teams, all third-party apps are added to this list by default. When you block an app org-wide, the app is automatically blocked for all your users, regardless of whether it's allowed in any app permission policies
+1. Select **Save** for org-wide app settings to take effect.
 
 ## FAQ
 
