@@ -27,7 +27,7 @@ ms.custom:
 
 The Updates app in Teams provides a centralized place for members of your organization to create, review, and submit reports. By creating templates, you can use the Updates app to keep track of anything your organization needs.
 
-In Teams, users access Updates (**how**)
+In Teams, users can get Updates from the Teams app store. They'll see all of the reports they need to submit on the **Submit** page.
 
 **Who can create templates?**
 
