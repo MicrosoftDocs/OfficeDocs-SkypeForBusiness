@@ -188,7 +188,7 @@ When the configuration information is approved by the Epic administrator, you'll
 - SMS configuration record
 - Device test configuration record
 
-The Epic customer analyst must provide these records to Epic to complete the virtual appointments configuration in Epic. For more information, see the [Epic-Microsoft Teams Telehealth Integration Guide](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
+The context token for device test can be found in the patient integration record. The Epic customer analyst must provide these records to Epic to complete the virtual appointments configuration in Epic. For more information, see the [Epic-Microsoft Teams Telehealth Integration Guide](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
 
 > [!Note]  
 > At any time the Microsoft 365 or Epic customer analyst can sign in to the configuration portal to view integration records and change organization configuration, as needed.
@@ -243,7 +243,6 @@ Key features of the patient experience:
 
   - Patients can test their microphone, camera, and connection.
   - Patients can complete a test call to fully validate their configuration.
-  - Patients can access links to troubleshooting tips to resolve any issues found, which helps to reduce interactions with the medical services support team.
   - Results of the device test can be sent back to the EHR system.
 
 - Patients can join visits from [modern web browsers on desktop and mobile without having to install the Teams app](../browser-join.md).
