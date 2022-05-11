@@ -42,6 +42,9 @@ The Parents Connection allows educators and guardians to chat, email, and call u
   - This setting can be changed by the tenant admin.
 - Educators can initiate chats with guardians.
   - If the guardian doesn't have a Teams consumer account, they'll receive the initial message from the educator and an email invite to go to Teams.
+- Educators can block a guardian in chat initiated in the Parents app.
+  - The class owner can open the guardian's profile card, select the ellipse and **Block User**. Then, remove the guaridan from the chat. 
+  - The user won't be able to start additional chats with the class owner.
 - Educators can click a guardian's email to email them using their native email client.
 - Educators can click a guardian's phone number to call them within Teams.
 
