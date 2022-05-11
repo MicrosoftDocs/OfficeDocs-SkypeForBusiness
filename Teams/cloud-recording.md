@@ -143,6 +143,8 @@ This setting controls whether captions and transcription features are available 
 Turning this setting on creates a copy of the transcript that is stored with the meeting recording which enables **Search**, **CC**, and **transcripts** on the meeting recording.
 
 > [!NOTE]
+> SECTION BELOW NEEDS TO BE EDITED
+> [!NOTE]
 > That transcription for recorded meetings is currently only supported for English (US), English (Canada), English (India), English (United Kingdom), English (Australia), English (New Zealand), German (Germany), Portuguese (Brazil), Dutch (Netherlands), Dutch (Belgium), French (France), Spanish (Spain), Japanese (Japan), French (Canada), Chinese (Cantonese, Traditional), Chinese (Mandarin, Simplified), Hindi (India), Italian (Italy), Korean (Korea), Spanish (Mexico), Swedish (Sweden), Polish (Poland), Arabic (United Arab Emirates), Arabic (Saudi Arabia), Danish (Denmark), Finnish (Finland), Norwegian (Norway), and Russian (Russia). They are stored together with the meeting recordings in OneDrive for Business and SharePoint Online cloud storage.
 
 You can use the Microsoft Teams admin center or PowerShell to set a Teams meeting policy to control whether the recording initiator gets a choice to transcribe the meeting recording.
