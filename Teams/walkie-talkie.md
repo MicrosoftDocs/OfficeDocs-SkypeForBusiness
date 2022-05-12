@@ -1,5 +1,5 @@
 ---
-title: "Walkie Talkie application in Microsoft Teams"
+title: "Walkie Talkie app in Microsoft Teams"
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
