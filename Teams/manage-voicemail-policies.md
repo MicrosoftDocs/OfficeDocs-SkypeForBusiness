@@ -35,9 +35,22 @@ description: "Manage Voicemail Policies for your users."
 - The maximum recording duration is set to five minutes.
 - Editing call answering rules is enabled.
 
-You can control these defaults by editing the Global voicemail policy using the Teams admin center 
+You can control these defaults by editing the Global voicemail policy using the Teams admin center:
 
-or the [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) and [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Get-CsOnlineVoicemailPolicy) cmdlets. You can also create your own voicemail policy instances using Teams admin center or the [New-CsOnlineVoicemailPolicy](/powershell/module/skype/New-CsOnlineVoicemailPolicy) cmdlet.
+1. In the left navigation of the Microsoft Teams admin center, select **Voice** > **Voicemail policies**.
+2. Click next to the policy that you want to modify, and then select **Edit**.
+3. Make the changes that you want, and then click **Save**.
+
+You can also use the [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) and [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Get-CsOnlineVoicemailPolicy) cmdlets. 
+
+You can create a custom voicemail policy in Teams admin center by following these steps:
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Voicemail policies**.
+2. Select **Add**.
+3. Turn on or turn off the features that you want to use in your voicemail policy.
+4. Select **Save**.
+
+You can also create your own custom voicemail policy using the [New-CsOnlineVoicemailPolicy](/powershell/module/skype/New-CsOnlineVoicemailPolicy) cmdlet.
 
 Voicemail messages received by users in your organization are transcribed in the region where your Microsoft 365 or Office 365 organization is hosted. The region where your tenant is hosted might not be the same region where the user receiving the voicemail message is located. To view the region where your tenant is hosted, go to the [Organization profile](https://go.microsoft.com/fwlink/p/?linkid=2067339) page and then click **View details** next to **Data location**.
 
