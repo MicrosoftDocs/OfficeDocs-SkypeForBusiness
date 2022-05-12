@@ -241,7 +241,7 @@ Key features of the patient experience:
   
     Device test capabilities:
 
-  - Patients can test their microphone, camera, and connection.
+  - Patients can test their speaker, microphone, camera, and connection.
   - Patients can complete a test call to fully validate their configuration.
   - Results of the device test can be sent back to the EHR system.
 
