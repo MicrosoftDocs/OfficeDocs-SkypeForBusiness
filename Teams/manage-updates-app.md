@@ -23,14 +23,14 @@ ms.custom:
 
 # Manage the Updates app for your organization in Microsoft Teams
 
-## What is the Updates app (new content for Updates)
+## What is the Updates app
 
 The Updates app in Teams provides a centralized place for members of your organization to create, review, and submit reports. By creating templates, you can use the Updates app to keep track of anything your organization needs.
 
 In Teams, users can get Updates from the Teams app store. They'll see all of the reports they need to submit on the **Submit** page.
 When a user is assigned a report, it will show up in their Teams activity feed. Users can also view all their current update requests and previous submissions in the Updates app. In addition, anyone can create templates and send out report requests.
 
-## Required permissions and licenses (copied from approvals)
+## Required permissions and licenses
 
 You need permission for the following items to deploy Updates:
 
@@ -44,7 +44,7 @@ You need permission for the following items to deploy Updates:
 
 - License for Microsoft Forms is required for users to set up new templates.
 
-## Storage with Microsoft Dataverse (copied from approvals)
+## Storage with Microsoft Dataverse
 
 The Common Data Model (CDM) is the shared data language used by business and analytical applications in the Microsoft Dataverse. It consists of a set of standardized, extensible data schemas published by Microsoft and our partners that enables consistency of data and its meaning across applications and business processes. Learn more about the [Common Data Model of the Microsoft Power Platform](/power-automate/get-started-approvals).
 
@@ -55,7 +55,7 @@ Updates that are created from a template still store data in Microsoft Dataverse
 
 Org-scoped templates share the same lifetime of the tenant and team-scoped templates share the same lifetime of the team. So, permanently deleting the team deletes the related templates.
 
-## Updates Teams app permissions (copied from approvals)
+## Updates Teams app permissions
 
 The Updates Teams app lets you access the following features:
 
@@ -78,7 +78,7 @@ The Updates Teams app lets you access the following features:
 
 - Use the team's information to contact them.
 
-## Disable the Approvals app (copied from approvals)
+## Disable the Approvals app
 
 The Updates app is available by default. You can disable the app in the Teams admin center.
 
@@ -96,23 +96,23 @@ The Updates app is available by default. You can disable the app in the Teams ad
 
      :::image type="content" alt-text="shows the details for the Approvals app." source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
 
-## Pin Updates to Teams (copied from approvals)
+## Pin Updates to Teams
 
-### Use the Tailored frontline app experience to pin Updates and other apps to Teams (copied from approvals)
+### Use the Tailored frontline app experience to pin Updates and other apps to Teams
 
-The tailored frontline app experience in Teams pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Pinned apps include Updates, Approvals, Walkie Talkie, Tasks, and Shifts. By default, this feature is on, giving your frontline workers an out-of-the-box experience that’s tailored to their needs.
+The tailored frontline app experience in Teams pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Pinned apps include Approvals, Walkie Talkie, Tasks, and Shifts. By default, this feature is on, giving your frontline workers an out-of-the-box experience that’s tailored to their needs.
 
 The apps are pinned to the app bar—the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients—where users can quickly and easily access them.
 
 To learn more, including how the experience works with app policies that you set, see [Tailor Teams apps for your frontline workers](pin-teams-apps-based-on-license.md).
 
-### Use an app setup policy to pin Updates to Teams (copied from approvals)
+### Use an app setup policy to pin Updates to Teams
 
 App setup policies let you customize Teams to pin apps that are most important for your users in your users.
 
 To pin the Updates app for your users, you can edit the global (Org-wide default) policy or create and assign a custom app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
 
-## Retention policy (copied from approvals)
+## Retention policy
 
 Updates created from the Updates app are stored in the default Microsoft Dataverse environment, which doesn’t support backups at this time. Learn more about how to [Back up and restore environments - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
 
@@ -188,10 +188,6 @@ From the Teams Approvals app, users have access to create new Approvals and view
 
 > [!Note]
 > A user is given a viewer role of a request if they are part of the chat or channel where the approval was created. They won't have the ability to take action on the request if they weren't given that role when the approval was created.
-
-## Approvals e-signature integration (copied from approvals)
-
-To use the Approvals app e-signature feature, you need a license for the specific e-signature provider that you want to use. To obtain a license for your organization, you'll need to go to the provider’s site.
 
 ## Templates (new content for Updates)
 
