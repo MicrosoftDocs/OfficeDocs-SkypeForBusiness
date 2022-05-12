@@ -58,12 +58,13 @@ Follow these steps to edit an existing voicemail policy.
 2. Click next to the policy that you want to modify, and then select **Edit**.
 3. Make the changes that you want, and then click **Save**.
 
+> [!IMPORTANT]
+> You can't edit or remove the pre-configured policy instances called TranscriptionDisabled and TranscriptionProfanityMaskingEnabled.
+
+
 ## Assign a custom voicemail policy to users
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
-
-> [!IMPORTANT]
-> You can't edit or remove the pre-configured policy instances called TranscriptionDisabled and TranscriptionProfanityMaskingEnabled.
 
 ## Voicemail policy settings
   
