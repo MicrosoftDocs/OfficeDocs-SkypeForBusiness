@@ -42,9 +42,6 @@ The Parents Connection allows educators and guardians to chat, email, and call u
   - This setting can be changed by the tenant admin.
 - Educators can initiate chats with guardians.
   - If the guardian doesn't have a Teams consumer account, they'll receive the initial message from the educator and an email invite to go to Teams.
-- Educators can block a guardian in chat initiated in the Parents app.
-  - The class owner can open the guardian's profile card, select the ellipse and **Block User**. Then, remove the guaridan from the chat. 
-  - The user won't be able to start additional chats with the class owner.
 - Educators can click a guardian's email to email them using their native email client.
 - Educators can click a guardian's phone number to call them within Teams.
 
@@ -88,12 +85,22 @@ The Parents Connection allows educators and guardians to chat, email, and call u
 - Class team owners must have external access with **Teams accounts not managed by an organization** turned on.
   - This must be turned on at the tenant level and the user level. The tenant level setting can be found in **Users > External Access** in the Teams Admin Center. This setting can also be accessed via PowerShell. User level external access policies can only be accessed via PowerShell. See the PowerShell commands below for further guidance.
 
-> [!NOTE]
->Parents and guardians are classified as External users in the Parents feature, meaning they don’t have full tenant rights. They only have access to the chat or chats they are added to as well as files, images, and other content shared in the chat.
->
->Also, External users can see the presence (offline, available, busy, etc.) of your organization’s users, but this can be turned off using PowerShell to protect users’ privacy. In PowerShell, use [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) and set ``EnablePrivacyMode=true``.
->
->Even though parents and guardians are External users, their contributions to chats are discoverable. Learn how to conduct a Teams eDiscovery investigation by reading [Conduct an eDiscovery investigation of content in Microsoft Teams](ediscovery-investigation.md).
+#### Parent and guardian restrictions
+Parents and guardians are classified as External users in the Parents Connection, meaning they don’t have full tenant rights. They only have access to the chat or chats they're added to as well as files, images, and other content shared in the chat.
+
+Also, External users can see the presence (offline, available, busy, etc.) of your organization’s users, but this can be turned off using PowerShell to protect users’ privacy. In PowerShell, use [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) and set ``EnablePrivacyMode=true``.
+
+Even though parents and guardians are External users, their contributions to chats are discoverable. Learn how to conduct a Teams eDiscovery investigation by reading [Conduct an eDiscovery investigation of content in Microsoft Teams](ediscovery-investigation.md).
+
+##### Blocking a parent or guardian in a chat
+Educators can block a guardian in chat initiated in the Parents Connection.
+
+The class owner can:
+
+1. Open the guardian's profile card, select the ellipse and **Block User**. 
+2. Then, remove the guaridan from the chat. 
+
+The user won't be able to start additional chats with the class owner.
 
 ## Allow external access with Teams accounts not managed by an organization
 
