@@ -62,9 +62,6 @@ Follow these steps to edit an existing voicemail policy.
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-
-Voicemail messages received by users in your organization are transcribed in the region where your Microsoft 365 or Office 365 organization is hosted. The region where your tenant is hosted might not be the same region where the user receiving the voicemail message is located. To view the region where your tenant is hosted, go to the [Organization profile](https://go.microsoft.com/fwlink/p/?linkid=2067339) page and then click **View details** next to **Data location**.
-
 > [!IMPORTANT]
 > You can't edit or remove the pre-configured policy instances called TranscriptionDisabled and TranscriptionProfanityMaskingEnabled.
 
