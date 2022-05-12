@@ -31,7 +31,7 @@ Before you can configure SIP Gateway, do the following:
 
 - **Reset SIP devices to factory default settings.** You or your organization's users must reset each SIP device used with SIP Gateway to its factory default settings. To find out how to do that, see the manufacturer’s instructions.
 
-- **Open your firewall to Microsoft 365 and Teams.** Open your network's firewall to Microsoft 365 and Teams traffic as described in [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges).
+- **Open your firewall to Microsoft 365 and Teams.** Open your network's firewall to Microsoft 365 and Teams traffic as described in [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges). Firewall rules are needed for outbound traffic only.
 
 - **Make sure the SIP devices are not behind a proxy.** Ensure that http/s traffic bypasses any corporate http/s proxy.
 
@@ -104,7 +104,6 @@ You can also enable SIP Gateway by using the PowerShell [Set-CsTeamsCallingPolic
 
 > [!NOTE]
 > - Policy propagation may take up to 24 hours.
-> - Command execution depends on device availability, and it may not match the execution status shown in the Teams admin center. If you try to enable SIP gateway on a device that doesn't support it, the command won't be executed.
 
 ## Set the SIP Gateway provisioning server URL
 
@@ -247,9 +246,6 @@ To sign out a device on the Teams admin center:
 
 4. On the device's **Details pane**, select the **Details** tab, and at the upper right on the **Actions** menu, select **Sign out**. 
 
-> [!NOTE]
-> Removing a SIP device from your tenant is currently unavailable in the Teams admin center. 
-
 ## View and monitor SIP devices
 
 You can view and monitor your SIP device inventory in the Teams admin center after the devices' users sign in at least once. Here's how:
@@ -265,6 +261,11 @@ You can view and monitor your SIP device inventory in the Teams admin center aft
 2. Select **Teams devices** > **SIP devices**. 
 
 3. On the right, select the SIP device that you want to restart, and then select **Restart**.
+
+
+> [!NOTE]
+> - Removing a SIP device from your tenant is currently unavailable in the Teams admin center. 
+> - Command execution depends on device availability, and it may not match the execution status shown in the Teams admin center. If you try to enable SIP gateway on a device that doesn't support it, the command won't be executed.
 
 ## Sync policy changes to SIP devices to enforce policies
 
