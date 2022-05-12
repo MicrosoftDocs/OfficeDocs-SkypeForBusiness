@@ -28,6 +28,7 @@ With Walkie Talkie in Teams, frontline workers can now securely communicate with
 
 > [!NOTE]
 > Walkie Talkie isn't available in China because Google Play Services isn't available in China.
+
 ## Getting started
 
 ### Deploying Walkie Talkie
