@@ -29,104 +29,62 @@ description: "Manage Voicemail Policies for your users."
 > [!WARNING]
 > For Skype for Business customers, disabling voicemail through a Microsoft Teams calling policy might also disable the voicemail service for your Skype for Business users.
 
+You can use voicemail policies to control different features related to Cloud Voicemail.
+
 ## Voicemail organization defaults for all users
 - Voicemail transcription is enabled.
+- Voicemail transcription translation is enabled.
 - Voicemail transcription profanity masking is disabled.
 - The maximum recording duration is set to five minutes.
 - Editing call answering rules is enabled.
+- Primary and secondary system prompt languages are set to null and the user's voicemail language setting is used.
 
-You can control these defaults by editing the Global voicemail policy using the Teams admin center:
+You can use the global (Org-wide default) policy that's created automatically or create and assign custom policies.
 
-1. In the left navigation of the Microsoft Teams admin center, select **Voice** > **Voicemail policies**.
-2. Click next to the policy that you want to modify, and then select **Edit**.
-3. Make the changes that you want, and then click **Save**.
+## Create a custom voicemail policy
 
-You can also use the [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) and [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Get-CsOnlineVoicemailPolicy) cmdlets. 
-
-You can create a custom voicemail policy in Teams admin center by following these steps:
+Follow these steps to create a custom voicemail policy.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Voicemail policies**.
 2. Select **Add**.
 3. Turn on or turn off the features that you want to use in your voicemail policy.
 4. Select **Save**.
 
-You can also create your own custom voicemail policy using the [New-CsOnlineVoicemailPolicy](/powershell/module/skype/New-CsOnlineVoicemailPolicy) cmdlet.
+## Edit a voicemail policy
+
+Follow these steps to edit an existing voicemail policy.
+
+1. In the left navigation of the Microsoft Teams admin center, select **Voice** > **Voicemail policies**.
+2. Click next to the policy that you want to modify, and then select **Edit**.
+3. Make the changes that you want, and then click **Save**.
+
+## Assign a custom voicemail policy to users
+
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
+
 
 Voicemail messages received by users in your organization are transcribed in the region where your Microsoft 365 or Office 365 organization is hosted. The region where your tenant is hosted might not be the same region where the user receiving the voicemail message is located. To view the region where your tenant is hosted, go to the [Organization profile](https://go.microsoft.com/fwlink/p/?linkid=2067339) page and then click **View details** next to **Data location**.
 
 > [!IMPORTANT]
 > You can't edit or remove the pre-configured policy instances called TranscriptionDisabled and TranscriptionProfanityMaskingEnabled.
 
-You can manage the transcription settings for your users using voicemail policies. To see all available voicemail policy instances, you can use the [Get-CsOnlineVoicemailPolicy](/powershell/module/skype/Get-CsOnlineVoicemailPolicy) cmdlet.
-
-```PowerShell
-PS C:\> Get-CsOnlineVoicemailPolicy
-
-
-Identity                            : Global
-EnableTranscription                 : True
-ShareData                           : Defer
-EnableTranscriptionProfanityMasking : False
-EnableEditingCallAnswerRulesSetting : True
-MaximumRecordingLength              : 00:05:00
-EnableTranscriptionTranslation      : True
-PrimarySystemPromptLanguage         :
-SecondarySystemPromptLanguage       :
-
-Identity                            : Tag:Default
-EnableTranscription                 : True
-ShareData                           : Defer
-EnableTranscriptionProfanityMasking : False
-EnableEditingCallAnswerRulesSetting : True
-MaximumRecordingLength              : 00:05:00
-EnableTranscriptionTranslation      : True
-PrimarySystemPromptLanguage         :
-SecondarySystemPromptLanguage       :
-
-Identity                            : Tag:TranscriptionProfanityMaskingEnabled
-EnableTranscription                 : True
-ShareData                           : Defer
-EnableTranscriptionProfanityMasking : True
-EnableEditingCallAnswerRulesSetting : True
-MaximumRecordingLength              : 00:05:00
-EnableTranscriptionTranslation      : True
-PrimarySystemPromptLanguage         :
-SecondarySystemPromptLanguage       :
-
-Identity                            : Tag:TranscriptionDisabled
-EnableTranscription                 : False
-ShareData                           : Defer
-EnableTranscriptionProfanityMasking : False
-EnableEditingCallAnswerRulesSetting : True
-MaximumRecordingLength              : 00:05:00
-EnableTranscriptionTranslation      : True
-PrimarySystemPromptLanguage         :
-SecondarySystemPromptLanguage       :
-```
+## Voicemail policy settings
   
-## Turning off transcription for your organization
+### Enable transcription
 
-Because the default setting for transcription is on for your organization, you may want to disable it by using [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy). To do this, run:
+This setting controls whether the Cloud Voicemail service will generate a text transciption of the recorded voicemail and include it in the voicemail message.
 
-```PowerShell
-Set-CsOnlineVoicemailPolicy -EnableTranscription $false
-```
+### Transcription translation
 
-## Turning on transcription profanity masking for your organization
+This setting controls whether the Cloud Voicemail service will translate the transcription of the recorded voicemail. The translation will be
 
-Transcription profanity masking is disabled by default for your organization. If there is a business requirement to enable it, you can enable transcription profanity masking by using [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy). To do this, run:
+### Transcription profanity masking
 
-```PowerShell
-Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
-```
+This setting controls whether the Cloud Voicemail service will mask profanity found in the transcription of the voicemail.
 
-## Changing the recording duration for your organization
+### Maximum recording duration
 
-The maximum recording length is set to five minutes by default for your organization. If there is a business requirement to increase or decrease the maximum recording length, this can be done by using [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy). For example, to set the maximum recording time to 60 seconds,  run:
-
-```PowerShell
-Set-CsOnlineVoicemailPolicy -MaximumRecordingLength ([TimeSpan]::FromSeconds(60))
-```
+The maximum recording length controls the maximum time a voicemail can be recorded. The default is 5 minutes.
 
 ## Dual language system prompts for your organization
 
@@ -186,3 +144,15 @@ Grant-CsOnlineVoicemailPolicy -PolicyName "enUS-esES-VoicemailPolicy" -Identity 
 
 > [!IMPORTANT]
 > The voicemail service in Microsoft 365 and Office 365 caches voicemail policies and updates the cache every 6 hours. So, policy changes that you make can take up to 6 hours to be applied.
+
+## Related articles
+
+[New-CsOnlineVoicemailPolicy](/powershell/module/skype/new-csonlinevoicemailpolicy)
+
+[Set-CsOnlineVoicemailPolicy](/powershell/module/skype/set-csonlinevoicemailpolicy)
+
+[Get-CsOnlineVoicemailPolicy](/powershell/module/skype/get-csonlinevoicemailpolicy)
+
+[Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/grant-csonlinevoicemailpolicy)
+
+[Remove-CsOnlineVoicemailPolicy](/powershell/module/skype/remove-csonlinevoicemailpolicy)
