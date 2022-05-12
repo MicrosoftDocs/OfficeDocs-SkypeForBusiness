@@ -31,7 +31,7 @@ This article provides a roadmap to the content you'll need to successfully manag
 
 - [Manage Teams during the transition to the new admin center](manage-teams-skypeforbusiness-admin-center.md). Read this article to understand how to transition from the Skype for Business admin center to the new Teams admin center. 
 
-- [Manage Teams setting for your organization](enable-features-office-365.md). Read this article to understand how to manage Teams settings for guest and external access, notifications, email integration, and devices.  
+- ??? [Manage Teams setting for your organization](enable-features-office-365.md). Read this article to understand how to manage Teams settings for guest and external access, notifications, email integration, and devices. 
 
 - [Communicate with users from other organizations](communicate-with-users-from-other-organizations.md). Read this article to understand the differences between guest and external access and what functionality is available with both. Additional articles in this section describe how to manage guest and external access.
 
