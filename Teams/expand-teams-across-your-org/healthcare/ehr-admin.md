@@ -212,7 +212,7 @@ After completing the EHR connector steps and Epic configuration, your organizati
 
 Healthcare providers from your organization can join appointments using Teams from their Epic provider apps (Hyperspace, Haiku, Canto). The **Begin virtual visit** button is embedded in the provider flow.
 
-  ![Provider experience of a virtual visit with patient.](media/ehc-provider-experience-6.png)
+  ![Provider experience of a virtual appointment with patient.](media/ehc-provider-experience-6.png)
 
 Key features of the provider experience:
 
@@ -231,7 +231,7 @@ Key features of the provider experience:
 
 The connector supports patients joining visits through a link in the SMS text message, MyChart web, and mobile. At the time of the appointment, patients can start a visit from MyChart using the **Begin virtual visit** button or by tapping the link in the SMS text message.
 
-  ![Patient experience of a visit.](media/ehc-virtual-visit-5.png)
+  ![Patient experience of a virtual appointment.](media/ehc-virtual-visit-5.png)
 
 Key features of the patient experience:
 
