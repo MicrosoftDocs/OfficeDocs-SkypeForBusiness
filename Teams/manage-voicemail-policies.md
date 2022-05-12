@@ -33,13 +33,16 @@ description: "Manage Voicemail Policies for your users."
 - Voicemail transcription is enabled.
 - Voicemail transcription profanity masking is disabled.
 - The maximum recording duration is set to five minutes.
+- Editing call answering rules is enabled.
 
-You can control these defaults by using the [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) and [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Get-CsOnlineVoicemailPolicy) cmdlets.
+You can control these defaults by editing the Global voicemail policy using the Teams admin center 
+
+or the [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) and [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Get-CsOnlineVoicemailPolicy) cmdlets. You can also create your own voicemail policy instances using Teams admin center or the [New-CsOnlineVoicemailPolicy](/powershell/module/skype/New-CsOnlineVoicemailPolicy) cmdlet.
 
 Voicemail messages received by users in your organization are transcribed in the region where your Microsoft 365 or Office 365 organization is hosted. The region where your tenant is hosted might not be the same region where the user receiving the voicemail message is located. To view the region where your tenant is hosted, go to the [Organization profile](https://go.microsoft.com/fwlink/p/?linkid=2067339) page and then click **View details** next to **Data location**.
 
 > [!IMPORTANT]
-> You can't create a new policy instance for transcription and transcription profanity masking using the **New-CsOnlineVoiceMailPolicy** cmdlet, and you can't remove an existing policy instance using the **Remove-CsOnlineVoiceMailPolicy** cmdlet.
+> You can't edit or remove the pre-configured policy instances called TranscriptionDisabled and TranscriptionProfanityMaskingEnabled.
 
 You can manage the transcription settings for your users using voicemail policies. To see all available voicemail policy instances, you can use the [Get-CsOnlineVoicemailPolicy](/powershell/module/skype/Get-CsOnlineVoicemailPolicy) cmdlet.
 
@@ -54,6 +57,8 @@ EnableTranscriptionProfanityMasking : False
 EnableEditingCallAnswerRulesSetting : True
 MaximumRecordingLength              : 00:05:00
 EnableTranscriptionTranslation      : True
+PrimarySystemPromptLanguage         :
+SecondarySystemPromptLanguage       :
 
 Identity                            : Tag:Default
 EnableTranscription                 : True
@@ -62,6 +67,8 @@ EnableTranscriptionProfanityMasking : False
 EnableEditingCallAnswerRulesSetting : True
 MaximumRecordingLength              : 00:05:00
 EnableTranscriptionTranslation      : True
+PrimarySystemPromptLanguage         :
+SecondarySystemPromptLanguage       :
 
 Identity                            : Tag:TranscriptionProfanityMaskingEnabled
 EnableTranscription                 : True
@@ -70,6 +77,8 @@ EnableTranscriptionProfanityMasking : True
 EnableEditingCallAnswerRulesSetting : True
 MaximumRecordingLength              : 00:05:00
 EnableTranscriptionTranslation      : True
+PrimarySystemPromptLanguage         :
+SecondarySystemPromptLanguage       :
 
 Identity                            : Tag:TranscriptionDisabled
 EnableTranscription                 : False
@@ -78,6 +87,8 @@ EnableTranscriptionProfanityMasking : False
 EnableEditingCallAnswerRulesSetting : True
 MaximumRecordingLength              : 00:05:00
 EnableTranscriptionTranslation      : True
+PrimarySystemPromptLanguage         :
+SecondarySystemPromptLanguage       :
 ```
   
 ## Turning off transcription for your organization
@@ -159,16 +170,6 @@ To assign this custom policy to a user, run:
 ```PowerShell
 Grant-CsOnlineVoicemailPolicy -PolicyName "enUS-esES-VoicemailPolicy" -Identity sip:amosmar@contoso.com
 ```
-
-> [!NOTE]
-> The Get-CsOnlineVoicemailPolicy cmdlet is not currently returning the values for PrimarySystemPromptLanguage and SecondarySystemPromptLanguage. To see these values modify the command as follows:
->
-> >```PowerShell
-> > (Get-CsOnlineVoicemailPolicy -Identity PolicyName).PrimarySystemPromptLanguage or
-> > (Get-CsOnlineVoicemailPolicy -Identity PolicyName).SecondarySystemPromptLanguage 
->
-> Replace **PolicyName** with the name of the policy.
-
 
 > [!IMPORTANT]
 > The voicemail service in Microsoft 365 and Office 365 caches voicemail policies and updates the cache every 6 hours. So, policy changes that you make can take up to 6 hours to be applied.
