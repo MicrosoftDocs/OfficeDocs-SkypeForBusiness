@@ -55,6 +55,7 @@ This article describes how to configure guest access settings - including calls,
       - **Meet Now** – Turn this setting **On** to allow guests to use the Meet Now feature in Microsoft Teams.
       - **Edit sent messages** - Turn this setting **On** to allow guests to edit messages they previously sent.
       - **Delete sent messages** – Turn this setting **On** to allow guests to delete messages they previously sent.
+      - **Delete chat** - Turn this setting **On** to allow guests to delete an entire chat conversation.
       - **Chat** – Turn this setting **On** to give guests the ability to use chat in Teams.
       - **Giphy in conversations** – Turn this setting **On** to allow guests to use Giphys in conversations. Giphy is an online database and search engine that allows users to search for and share animated GIF files. Each Giphy is assigned a content rating.
       - **Giphy content rating** –  Select a rating from the drop-down list:
