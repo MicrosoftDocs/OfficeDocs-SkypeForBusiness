@@ -98,7 +98,7 @@ Educators can block a guardian in chat initiated in the Parent Connection.
 The class owner can:
 
 1. Open the guardian's profile card, select the ellipse and **Block User**. 
-2. Then, remove the guaridan from the chat. 
+2. Then, remove the guardian from the chat. 
 
 The blocked user won't be able to start additional chats with the class owner.
 
