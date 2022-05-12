@@ -26,6 +26,8 @@ The Walkie Talkie app in Teams provides instant push-to-talk (PTT) communication
 
 With Walkie Talkie in Teams, frontline workers can now securely communicate with a familiar PTT experience without needing to carry bulky radios, and Walkie Talkie works anywhere with WiFi or cellular internet connectivity.
 
+> [!NOTE]
+> Walkie Talkie isn't available in China because Google Play Services isn't available in China.
 ## Getting started
 
 ### Deploying Walkie Talkie
