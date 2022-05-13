@@ -69,10 +69,17 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 ## Certified devices
 
-*Table Updated March 2022*
+*Table Updated May 2022*
+
+> [!NOTE]
+> The date format is MMDDYYYY.
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Yealink              |UH38 Headset                                               |5/2/2022        |Certified for Microsoft Teams                           |   
+|Yealink              |BH72 Headset                                               |5/2/2022        |Certified for Microsoft Teams                           |
+|Logitech             |Zone True Wireless Earbuds                                 |5/2/2022        |Certified for Microsoft Teams                           |
+|Lenovo               |Go Wireless ANC Headset                                    |4/11/2022       |Certified for Microsoft Teams                           |
 |EPOS                 |ADAPT 661                                                  |3/11/2022       |Certified for Microsoft Teams                           |
 |EPOS                 |ADAPT 461T                                                 |3/11/2022       |Certified for Microsoft Teams                           |
 |EPOS                 |ADAPT 361                                                  |3/11/2022       |Certified for Microsoft Teams                           |

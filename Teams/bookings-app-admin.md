@@ -25,7 +25,7 @@ description: Learn how to manage the Bookings app in Teams for users in your org
 
 # Manage the Bookings app in Microsoft Teams
 
-The Bookings app in Microsoft Teams offers a simple way to schedule in-person and virtual appointments. For examples, healthcare visits, financial consultations, interviews, customer support, and education office hours. To learn more, see [Virtual visits with Teams and the Bookings app](expand-teams-across-your-org/bookings-virtual-visits.md).
+The Bookings app in Microsoft Teams offers a simple way to schedule in-person and virtual appointments. For examples, healthcare visits, financial consultations, interviews, customer support, and education office hours. To learn more, see [Virtual appointments with Teams and the Bookings app](expand-teams-across-your-org/bookings-virtual-visits.md).
 
 Schedulers can manage multiple department and staff calendars and communications with internal and external attendees, from a single experience. Virtual appointments are held via Microsoft Teams meetings that offer robust videoconferencing capabilities.
 
@@ -36,7 +36,7 @@ Schedulers can manage multiple department and staff calendars and communications
 
 * The Exchange mailbox is in Exchange Online. On-premises Exchange Server mailboxes aren't supported.
 * Microsoft Bookings is available for the organization.
-* Users have an appropriate license. Office 365 A3, A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3, E5, F1, F3, and Business Standard are supported.
+* Users have an appropriate license. Office 365 A3, A5, E1, E3, E5, F1, F3, Microsoft 365 A3, A5, E3, E5, F1, F3, and Business Standard are supported.
 * All users of the Bookings app and all staff participating in meetings have a license that supports Teams meeting scheduling.
 * [Software and browser prerequisites](hardware-requirements-for-the-teams-app.md).
 
@@ -93,6 +93,6 @@ To send feedback, select the **Help** option at bottom of the Teams left navigat
 
 ## Related articles
 
-[Manage the join experience for Teams Virtual Visits on mobile browsers](expand-teams-across-your-org/mobile-browser-join.md)
+[Manage the join experience for Teams virtual appointments on browsers](expand-teams-across-your-org/browser-join.md)
 
 [Bookings documentation for end users](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)

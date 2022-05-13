@@ -1,6 +1,21 @@
 {
   "redirections": [
     {
+      "source_path": "Teams/admin-settings.md",
+      "redirect_url": "/microsoftteams/manage-apps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/expand-teams-across-your-org/mobile-browser-join.md",
+      "redirect_url": "/microsoftteams/expand-teams-across-your-org/browser-join",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Teams/built-in-custom-tabs.md",
+      "redirect_url": "/microsoftteams/platform/tabs/what-are-tabs",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Teams/teams-power-platfom-integration.md",
       "redirect_url": "/microsoftteams/platform/samples/teams-low-code-solutions",
       "redirect_document_id": false
@@ -2613,6 +2628,7 @@
      {
       "source_path": "Teams/rooms/with-exchange-online.md",
       "redirect_url": "/microsoftteams/rooms/with-office-365",
+      "redirect_document_id":false
      },
      {
       "source_path": "Teams/get-teams-android-in-china.md",
@@ -2625,8 +2641,58 @@
       "redirect_document_id": false 
      },
      {
+      "source_path": "Teams/view-guests.md",
+      "redirect_url": "https://support.microsoft.com/office/5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7",
+      "redirect_document_id": false 
+     },
+     {
+      "source_path": "Teams/edit-guests-information.md",
+      "redirect_url": "/microsoft-365/admin/add-users/change-a-user-name-and-email-address",
+      "redirect_document_id": false 
+     },
+     {
+      "source_path": "Teams/plan-Office-365-groups.md",
+      "redirect_url": "/microsoft-365/admin/create-groups/office-365-groups",
+      "redirect_document_id": false 
+     },
+     {
        "source_path": "Teams/rooms/known-issues.md",
        "redirect_url": "/microsoftteams/troubleshoot/Teams-devices-and-rooms/rooms-known-issues",
+       "redirect_document_id": false
+     },
+     {
+       "source_path": "Teams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md",
+       "redirect_url": "/microsoftteams/expand-teams-across-your-org/shifts-for-teams-landing-page",
+       "redirect_document_id": false
+     },
+     {
+      "source_path": "Teams/rooms/rooms-configure-accounts.md",
+      "redirect_url": "/microsoftteams/rooms/with-office-365",
+      "redirect_document_id": false
+     },
+     {
+      "source_path": "Teams/rooms/lrs-migration.md",
+      "redirect_url": "/microsoftteams/rooms",
+      "redirect_document_id": false
+     },
+     {
+      "source_path": "Teams/rooms/domain-joining-considerations.md",
+      "redirect_url": "/microsoftteams/rooms",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/enable-features-office-365.md",
+      "redirect_url": "/microsoftteams/manage-teams-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/teams-activity-reports.md",
+      "redirect_url": "/microsoftteams/teams-analytics-and-reports/teams-reporting-reference",
+      "redirect_document_id": false
+    },
+     {
+       "source_path": "Teams/meeting-recording-expiration-feature.md",
+       "redirect_url": "/microsoftteams/meeting-expiration",
        "redirect_document_id": false
      }
   ] 

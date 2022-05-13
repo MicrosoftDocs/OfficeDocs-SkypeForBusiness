@@ -42,7 +42,7 @@ When you first set up Teams, you choose a country or region, which is set at the
 
 Shifts is General Data Protection Regulation (GDPR) compliant. A formal request by a person (known as a data subject) to take an action on their personal data is called a Data Subject Request (DSR). You can find and act on personal data in Shifts in response to a DSR.
 
-You can use the Content Search eDiscovery tool in the Microsoft 365 compliance center to search for and export schedule and time clock data to Excel. For all other Shifts data, you can take screenshots of the data.
+You can use the Content Search eDiscovery tool in the Microsoft Purview compliance portal to search for and export schedule and time clock data to Excel. For all other Shifts data, you can take screenshots of the data.
 
 To learn more, see [Office 365 Data Subject Requests for the GDPR and CCPA](/microsoft-365/compliance/gdpr-dsr-office365).
 

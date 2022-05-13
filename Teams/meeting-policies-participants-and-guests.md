@@ -29,6 +29,7 @@ description: Learn to manage meeting policy settings in Teams for participants a
 
 These settings control which meeting participants wait in the lobby before they are admitted to the meeting and the level of participation they are allowed in a meeting.
 
+- [Let anonymous people join a meeting](#let-anonymous-people-join-a-meeting)
 - [Let anonymous people start a meeting](#let-anonymous-people-start-a-meeting)
 - [Automatically admit people](#automatically-admit-people)
 - [Allow dial-in users to bypass the lobby](#allow-dial-in-users-to-bypass-the-lobby)
@@ -38,6 +39,9 @@ These settings control which meeting participants wait in the lobby before they 
 > [!NOTE]
 >Options to join a meeting will vary, depending on the settings for each Teams group, and the connection method. If your group has audio conferencing, and uses it to connect, see [Audio Conferencing](/microsoftteams/audio-conferencing-in-office-365). If your Teams group doesn't have audio conferencing, refer to [Join a meeting in Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
 
+## Let anonymous people join a meeting
+
+This per-organizer setting allows anyone to join meetings as an anonymous user by selecting the link in the meeting invitation. To learn more, see [Join a meeting without a Teams account](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508). Anonymous users' ability to join meetings are also controlled at your organization level, the more restrictive setting will be effective. To learn more, see [Using the Microsoft Teams admin center to configure organization-wide policy](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
 
 ## Let anonymous people start a meeting
 
@@ -85,7 +89,7 @@ This setting is a per-user policy and applies during a meeting. This setting con
 |Setting value |Behavior  |
 |---------|---------|
 |**Disabled but the user can override**     | Live captions aren't automatically turned on for the user during a meeting. The user sees the **Turn on live captions** option in the overflow (**...**) menu to turn them on. This is the default setting. |
-|**Disabled**     | Live captions are disabled for the user during a meeting. The user doesn't have the option to turn them on.          |
+|**Not enabled**     | Live captions are disabled for the user during a meeting. The user doesn't have the option to turn them on.          |
 
 <a name="bkcontentsharing"> </a>
 
