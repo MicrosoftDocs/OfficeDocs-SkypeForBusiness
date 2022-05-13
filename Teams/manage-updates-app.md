@@ -182,16 +182,16 @@ Auditing can be customized further in the [Microsoft 365 Security and Compliance
 
 Learn more about [Microsoft Dataverse and model-driven apps activity logging - Power Platform](/power-platform/admin/enable-use-comprehensive-auditing).
 
-## Security (copied from approvals)
+## Security
 
-From the Teams Approvals app, users have access to create new Approvals and view Approvals that they have sent and received. Users won't have access to Approvals that are created by others unless they're either a responder or a viewer of the request.
+From the Teams Updates app, users have access to create new reports and view reports that they have sent and received. Users won't have access to Updates that are created by others unless they're either a responder or a viewer of the request.
 
 > [!Note]
-> A user is given a viewer role of a request if they are part of the chat or channel where the approval was created. They won't have the ability to take action on the request if they weren't given that role when the approval was created.
+> A user is given a viewer role of a request if they are part of the chat or channel where the update report was created. They won't have the ability to take action on the request if they weren't given that role when the report was created.
 
-## Templates (new content for Updates)
+## Templates
 
-Updates comes with both out-of-the-box templates for common business scenarios and the option to create your own template. <!--link to end user content here-->
+Updates comes with both out-of-the-box templates for common business scenarios and the option to create your own template. Anyone can create a template for new Updates reports. <!--link to end user content here-->
 
 ## Example scenario (new content for Updates)
 
