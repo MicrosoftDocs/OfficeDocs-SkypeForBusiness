@@ -118,13 +118,13 @@ Updates created from the Updates app are stored in the default Microsoft Dataver
 
 Data stored in Forms will not be deleted until the team owners clean it up from the **deleted forms** tab in the Microsoft Forms web app.
 
-## Conditional Access policies (copied from approvals)
+## Conditional Access policies
 
-Currently, the Approvals app in Teams does not support Conditional Access policies that are set for Microsoft Teams.
+Currently, the Updates app in Teams does not support Conditional Access policies that are set for Microsoft Teams.
 
-## Data limitations (copied from approvals)
+## Data limitations
 
-Each team can contain at most 400 approvals templates, and each template can collect a maximum of 50,000 requests based on the current capability in Microsoft Forms.
+Each team can contain at most 400 Updates templates, and each template can collect a maximum of 50,000 requests based on the current capability in Microsoft Forms.
 
 ## Auditing (copied from approvals)
 
