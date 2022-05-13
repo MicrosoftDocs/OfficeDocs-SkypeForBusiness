@@ -136,6 +136,9 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Yealink T55A/T56A/T58A   | `58.15.0.157`     | 2022 Update #2A  |
+|Yealink VP59             | `91.15.0.90`      | 2022 Update #2A  |
+|Yealink CP960            | `73.15.0.153`     | 2022 Update #2A  |
 |Audiocodes C470HD  | `1.17.561` | 2022 Update #1C |
 |Yealink MP54/MP56/MP58   | `122.15.0.80`     | 2022 Update #2A  |
 |Yealink MP52 | `145.15.0.28`  | 2022 Update #2A         |
