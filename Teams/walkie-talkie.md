@@ -59,8 +59,8 @@ Walkie Talkie in Teams requires Internet connectivity and below the network cond
 
 |Metric | Required |
 |---|---|
-|Latency (RTT) | < 300ms |
-|Jitter |< 30ms |
+|Latency (RTT) | < 300 ms |
+|Jitter |< 30 ms |
 |Packet Loss |< 1% |
 
 As noted above, the quality of real-time media over an IP network is greatly impacted by the quality of the network connectivity, but especially by the amount of:
@@ -96,9 +96,9 @@ Walkie Talkie app is included in all paid licenses of Teams in [Office 365 subsc
 
 ## Further information
 
-- ITAdmins can maintain control over who is using Walkie Talkie through App Policies.
+- IT admins can maintain control over who is using Walkie Talkie through app policies.
 - If your frontline worker is using mobile data to communicate via Teams, Walkie Talkie will use the same method.
-- Walkie Talkie should work well in low bandwidth situations, or situations where your smartphone is connected and working. Walkie Talkie will not work when there is no connectivity at all.
+- Walkie Talkie should work well in low bandwidth situations, or situations where your smartphone is connected and working. Walkie Talkie won't work when there's no connectivity at all.
 
 For further reading on the end-user experience, see:
 
