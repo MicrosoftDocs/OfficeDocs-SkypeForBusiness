@@ -3,7 +3,7 @@ title: Plan and manage emergency calling
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: roykuntz, jastark
+ms.reviewer: roykuntz
 ms.topic: article
 ms.assetid: 589bf5f5-490a-4215-8588-99bab7d33e31
 ms.tgt.pltfrm: cloud
@@ -171,9 +171,10 @@ When a Teams Operator Connect user dials an emergency number, how the call is ro
 
 - In the United States and Canada, dynamic routing is part of the carrier’s service. You do not need to procure this service from another service provider.
 
-In the United States and Canada:
+- If a Teams client is located at a tenant-defined dynamic emergency location:
 
-- If a Teams client is located at a tenant-defined dynamic emergency location, emergency calls from that client are automatically routed to the PSAP serving that geographic location.
+   - In the United States, emergency calls from that client are automatically routed to the PSAP serving that geographic location.
+   - In Canada, all emergency calls will be screened by a national call center before transferring the call to the PSAP serving that geographic location.
 
 - If a Teams client is not located at a tenant-defined dynamic emergency location, emergency calls from that client are screened by a national call center to determine the location of the caller before transferring the call to the PSAP serving that geographic location.
 
@@ -265,6 +266,13 @@ An emergency calling policy can be granted to a Teams user account, assigned to 
 - If the Teams client is unable to obtain an emergency calling policy, then the user is not enabled for security desk notification.
 
 During an emergency call, a security desk is conferenced into the call and the experience of the security desk user is controlled based upon the Teams emergency calling policy. A group chat is started with each security desk member, and the location of the emergency caller is shared via an important message notification.  If a conference option is configured as part of the policy, each security desk user is additionally called as part of the conference.
+
+### Custom emergency disclaimer
+
+Administrators have the ability to add a custom banner in the tenant for their users to enable E911. Users can dismiss the banner when they confirm their address, and the banner will reappear when Teams is restarted. To enable this feature, you would set the **Emergency service disclaimer** under the Teams emergency calling policy and enter a string message to be displayed to users. This field is optional when setting up a custom policy, and the string field is limited to 250 characters.
+
+> [!NOTE]
+> Currently, this is configurable using PowerShell with the EnhancedEmergencyServicesDisclaimer policy. In the future this will also be configurable in the Teams admin center.
 
     
 ## Related topics

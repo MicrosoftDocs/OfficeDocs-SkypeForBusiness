@@ -47,7 +47,7 @@ description: Read frequently asked questions (FAQ) and answers about Microsoft T
 
 Check out the rules CQD uses for [stream classification](stream-classification-in-call-quality-dashboard.md).
  
-For audio streams, any of the five classifiers, which are calculated for the average based on the length of the call, could all be within "good" parameters. It doesn't mean the users didn't experience something that contributed to an audio drop out, static, or glitch. 
+For audio streams, any of the five classifiers (which are calculated for the average based on the length of the call) could all be within "good" parameters. It doesn't mean the users didn't experience something that contributed to an audio drop out, static, or glitch. 
 
 To determine if it was a network problem, look at the delta between the average values for the session and the max values. Max values are the maximum detected and reported during the session.
  
@@ -56,7 +56,7 @@ Here's an example of how to troubleshoot this situation. Let's say you take a ne
 If network metrics look good in the averages and max values, then look to other telemetry data: 
 - Check CPU Insufficient Event Ratio to see if the detected CPU resources available were insufficient and caused poor quality. 
 - Was the audio device in Half Duplex mode to prevent feedback because of microphones that are too close to speakers? 
-- Check the Device Half Duplex AEC Event Ratio. Was the device glitching or the microphone glitching introducing noise or static because of USB Audio Drop outs when plugged into a Hub or Docking Station?  
+- Check the Device Half Duplex AEC Event Ratio. Was glitching from a device, such as a microphone, introducing noise or static because of USB Audio drop outs when plugged into a Hub or Docking Station?  
 - Check the Device Glitches and Microphone glitches event ratios. Was the device itself functioning properly?  
 - Check the Capture and Render Device Not Functioning Event Ratios.
 
@@ -67,11 +67,11 @@ For background noise, check mute event ratio to see the length of time participa
  
 Create detailed reports in CQD and filter on Meeting ID to look at all users and streams in a meeting and add the fields you're interested in. A user reporting the issue may not be the one that was having the issue. They are just reporting the experience.
  
-The telemetry will not necessarily call out the issue, but it can help you better understand where to look and inform your decisions. Is it network, device, driver or firmware updates, usage, or user?
+The telemetry won't necessarily call out the issue, but it can help you better understand where to look and inform your decisions. Is it network, device, driver or firmware updates, usage, or user?
 
 ### Why do I see up to 0.2% difference in call and user count values on measures and how to get most accurate volumes? 
 
-To compute call count and user count measures, a distinct countif operation is performed against the call or user identifiers in the data set. On large data sets, there is an up to 0.2% error inherent with the distinct countif operation. For the most accurate volume, you should rely on stream count measures since they do not rely on this distinct countif operation. Filtering to reduce the data volume may reduce the error but may not eliminate this source of error in distinct call and user counts. Refer to [Dimensions and measurements available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md) for which measures are affected.
+To compute call count and user count measures, a distinct countif operation is performed against the call or user identifiers in the data set. On large data sets, there's an up to 0.2% error inherent with the distinct countif operation. For the most accurate volume, you should rely on stream count measures since they don't rely on this distinct countif operation. Filtering to reduce the data volume may reduce the error but may not eliminate this source of error in distinct call and user counts. Refer to [Dimensions and measurements available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md) for which measures are affected.
 
   
 ### Why can't I see EUII in CQD?
@@ -85,9 +85,9 @@ To learn more about roles that can access CQD - including EUII - read [Assign ro
 
 ### I'm trying to use CQD for usage-type reports and find that some of the data is incomplete -- why is that?
 
-Call quality management tools like CQD, Call Analytics, CallRecord Graph API, and Real-time Analytics are based on diagnostic telemetry. The information we show in Teams call quality management tools is only as complete as the telemetry data we receive from clients participating in a call. There are several reasons why we may not receive complete telemetry such as network outages, or [firewall or proxy misconfigurations](/microsoft-365/enterprise/urls-and-ip-address-ranges.md). We are continuing to work to improve the reliability and resiliency with which Teams clients deliver telemetry to the service.
+Call quality management tools like CQD, Call Analytics, CallRecord Graph API, and Real-time Analytics are based on diagnostic telemetry. The information we show in Teams call quality management tools is only as complete as the telemetry data we receive from clients participating in a call. There are several reasons why we may not receive complete telemetry such as network outages, or [firewall or proxy misconfigurations](/microsoft-365/enterprise/urls-and-ip-address-ranges). We're continuing to work to improve the reliability and resiliency with which Teams clients deliver telemetry to the service.
 
-With that in mind, we recommend not relying on call quality management tools for usage reporting. Teams Admin Center offers a series of [Usage Reports](teams-analytics-and-reports/teams-reporting-reference.md), and a [Meeting Attendance Report](teams-analytics-and-reports/meeting-attendance-report.md) is available directly from the Teams client.
+With that in mind, we don't support the use of call quality management tools for usage reporting. They aren't designed to accommodate nor intended for these types of reporting scenarios, and many usage statistics are not and will not be available within these tools. Teams Admin Center offers a series of [Usage Reports](teams-analytics-and-reports/teams-reporting-reference.md), and a [Meeting Attendance Report](teams-analytics-and-reports/meeting-attendance-report.md) is available directly from the Teams client.
 
 ### Why am I seeing Skype for Business information in CQD when I've filtered for Teams only?
 

@@ -1,7 +1,7 @@
 ---
 title: "Plan for Microsoft Teams Rooms"
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -27,39 +27,33 @@ You’ll find planning information below covering the recommended approach and k
 
 Microsoft Teams Rooms provides a complete meeting experience that brings HD video, audio, and content sharing to meetings of all sizes, from small huddle areas to large conference rooms.
 
-![A console, microphone, and large screen mounted on a conference room wall illustrate the elements of an example Microsoft Teams Rooms setup.](../media/room-systems-image1.png "A console, microphone, and large screen mounted on a conference room wall illustrate the elements of an example Microsoft Teams Rooms setup.")
-
-[Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) is a great resource to find out more about Microsoft Teams Rooms and how it can add value as part of your  deployment. In addition, we recommend watching this [overview video](https://youtu.be/tNey5KZVCl0). 
+![A user taps a Teams Rooms console, with a display in the background.](../media/room-systems-image1.jpg "A user taps a Teams Rooms console, with a display in the background")
+[Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) is a great resource to find out more about Microsoft Teams Rooms and how it can add value as part of your deployment.
 
 ## Microsoft Teams Rooms components
 
 Microsoft Teams Rooms includes the following key components to deliver a great user experience:
 
-- Touchscreen control panel
-- Compute
+- Touchscreen console
+- Compute module
 - Microsoft Teams Rooms application
-- Dock/extender
 - Peripheral devices (camera, microphone, speaker)
 - External screens (maximum of two)
 - HDMI input
 
 You can procure these components as preinstalled bundles from a number of vendors, or you can purchase the supported components individually by following the [requirements documented in this article](requirements.md).
 
-In addition to the Surface Pro/dock combination, you can also purchase Microsoft Teams Rooms with the touchscreen control panel, compute, dock, and key peripheral devices integrated. 
-
-Typically, the bundles and integrated units include preinstalled software, whereas if you buy supported components individually for the Surface Pro systems, you’ll need to install the software. For instructions, see [this article about installing software on devices](rooms-scale.md). 
-
-You can deploy Microsoft Teams Rooms with Microsoft Teams, Skype for Business Online, or Skype for Business hybrid or on-premises deployments.  See the [Teams Meeting Room Licensing Update](rooms-licensing.md) for information on the needed licenses.
+You can deploy Microsoft Teams Rooms with Microsoft Teams or Skype for Business on-premises deployments.  See the [Teams Meeting Room Licensing Update](rooms-licensing.md) for information on the needed licenses.
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
-|![decide deployment.](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Will you deploy Microsoft Teams Rooms in your organization? </li><li>How will you procure your Microsoft Teams Rooms systems—bundled, as separate components, or as an integrated unit?</li></ul> |
+|![decide deployment.](../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Will you deploy Microsoft Teams Rooms in your organization? </li><li>How will you procure your Microsoft Teams Rooms systems?</li></ul> |
 | ![identify activities.](../media/audio_conferencing_image9.png)<br/>Next steps | <ul><li>Identify who will undertake the key activities throughout your deployment.</li><li>Review the meeting rooms you have (and plan to set up) to understand where you want to deploy Microsoft Teams Rooms and the peripheral devices that would be appropriate for the room size.</li></ul> |
 | | |
 
 ## Identify who will undertake the key activities throughout your deployment
 
-Use the approach illustrated below to guide you through your deployment, and customize the sample outputs provided throughout these articles as needed for your organization.
+Use the approach illustrated below to guide you through your deployment, and customize the sample outputs provided as needed for your organization.
 
 Begin with understanding what conference rooms you have and envisioning what would work best for you in the future, then move through selecting and procuring the equipment you need, readying your sites, configuring and deploying your service, managing change and user adoption, and developing operations and maintenance procedures.
 
@@ -83,7 +77,7 @@ You might need to coordinate these activities across several teams. We provide a
 
 ## Room inventory and capability planning
 
-The first step is to inventory your organization’s existing meeting and conference rooms to understand their environment, room size, layout, and purpose, and to identify the capabilities you want each room in scope to have in the future such as which richer collaboration capabilities will be enabled in the room. 
+The first step is to inventory your organization’s existing meeting spaces and conference rooms to understand their environment, room size, layout, and purpose. You can then identify the capabilities you want each room to have such as intelligent cameras, whiteboarding, content camera, etc.
 
 After you create an inventory of the equipment and capabilities in each existing room, your requirements for that room feed into your device selection planning to create a rich conferencing solution. The modalities (audio, video) needed for each room—in addition to room size and purpose—all play an important role in deciding which solution is most appropriate for each room. 
 
@@ -128,7 +122,7 @@ _Sample Microsoft Teams Rooms deployment template for your organization_
 
 ## Procurement 
 
-You can procure your chosen system as a bundle or an integrated solution via device partners. You can also acquire a partner device dock and prepare your own Microsoft Teams Rooms solution by using a Surface Pro device and existing, _supported_ AV peripheral devices. 
+You can procure your chosen system as a bundle or an integrated solution via device partners.
 
 You can acquire Microsoft Teams Rooms from a number of partners who are listed in the [requirements article](requirements.md). Please visit the partners’ websites to learn more about these solutions and procurement options. 
 
@@ -143,9 +137,9 @@ Depending on your deployment scale and approach, you might decide to have the Mi
 
 Your organization must execute monitoring, administration, and management tasks on an ongoing basis, and it’s key to agree who will undertake these tasks early in your deployment. 
 
-Many organizations have an AV team or partner who manages their conference rooms and devices. This team should be involved in agreeing who will manage the Microsoft Teams Rooms devices going forward to monitor performance, and deploy software updates and hotfixes. 
+Many organizations have an AV team or partner who manages their conference rooms and devices. Or you can have Microsoft help manage Teams Rooms by leveraging Microsoft Teams Rooms Premium. Decide who will manage the Microsoft Teams Rooms devices going forward to monitor performance as well as deploy software updates and hotfixes. 
 
-Consider which helpdesk queue you’ll route Microsoft Teams Rooms֪–related calls to, and provide an FAQ to the helpdesk team so they can better understand how to use Microsoft Teams Rooms and the key troubleshooting steps they can take. A good starting point for this FAQ is the [user help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) and [Known issues](known-issues.md).
+Consider which helpdesk queue you’ll route Microsoft Teams Rooms֪–related calls to, and provide an FAQ to the helpdesk team so they can better understand how to use Microsoft Teams Rooms and the key troubleshooting steps they can take. A good starting point for this FAQ is the [user help](https://support.microsoft.com/office/microsoft-teams-rooms-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) and [Known issues](known-issues.md).
 
 |  &nbsp;  |  &nbsp;   |
 |-----------|------------|
@@ -155,6 +149,6 @@ Consider which helpdesk queue you’ll route Microsoft Teams Rooms֪–related c
 
 ## Plan for adoption and change management
 
-Microsoft Teams Rooms systems introduce new capabilities to your users. It’s important that you recognize that this will be a change for your users, and you should ensure your campaign identifies the benefits the new system will have for your users and the key talking points leads can use to discuss with their teams. 
+Microsoft Teams Rooms systems introduce new capabilities to your users. It’s important that you recognize that this will be a change for your users, and you should ensure your internal marketing campaign identifies the benefits the new system will have for your users and the key talking points leads can use to discuss with their teams. 
 
-Consider scheduling show-and-tell events and poster drops at each site to inform your users of the new capabilities. You might also create in-room “quick start guides.” Consider finding a meetings champion on each site who can help others get up to speed and start using the devices.
+Consider scheduling show-and-tell events and poster drops at each site to inform your users of the new capabilities. You might also create in-room “quick start guides.” Consider finding a meetings champion at each site who can help others get up to speed and start using the devices.

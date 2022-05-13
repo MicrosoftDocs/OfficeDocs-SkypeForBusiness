@@ -1,7 +1,7 @@
 ---
-title: "Configure a Microsoft Teams Rooms console"
-ms.author: dstrome
-author: dstrome
+title: "Build a Microsoft Teams Rooms image"
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: Travis-Snoozy
 manager: serdars
 audience: ITPro
@@ -17,12 +17,12 @@ ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: This article describes how to set up and configure the Microsoft Teams Rooms console and its peripherals.
 ---
 
-# Configure a Microsoft Teams Rooms console
+# Build a Microsoft Teams Rooms image
 
-This article describes how to set up the Microsoft Teams Rooms console and its peripherals.
+This article describes how to build a Microsoft Teams Rooms image for mass deployment of Teams Rooms.
 
 > [!NOTE]
-> The following steps only apply to Surface Pro-based Teams Rooms devices. For other devices, check with the Original Equipment Manufacturer (OEM) for support.
+> The following steps should only be used when creating a [WIM-based image](/windows-hardware/manufacture/desktop/capture-and-apply-an-image) for mass deployment. If you are recovering individual devices, contact your Original Equipment Manufacturer (OEM) for support.
 
 You should only perform these steps if the necessary Microsoft Teams or Skype for Business and Exchange accounts have already been created and tested as described in [Deploy Microsoft Teams Rooms](rooms-deploy.md). You will need the hardware and software described in [Microsoft Teams Rooms requirements](requirements.md). This topic contains the following sections:
   
@@ -32,9 +32,6 @@ You should only perform these steps if the necessary Microsoft Teams or Skype fo
 - [Initial set up of the console](console.md#Initial)
 - [Microsoft Teams Rooms deployment checklist](console.md#Checklist)
 
-> [!NOTE]
-> The following steps only apply to Surface Pro-based Teams Rooms devices. For other devices, check with the OEM for support.
-  
 ## Prepare the installation media
 <a name="Prep_Media"> </a>
 
@@ -64,6 +61,7 @@ The CreateSrsMedia.ps1 script automates the following tasks:
 3. Download necessary supporting components.
 4. Assemble the needed components on the installation media.
 
+> [!NOTE]
 A specific version of Windows 10 is required, and this version is only available to volume licensing customers.  You can get a copy from the [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/).
 
 When finished, remove the USB disk from your computer and proceed to [Install Windows 10 and the Microsoft Teams Rooms console app](console.md#Reimage).
@@ -72,7 +70,7 @@ When finished, remove the USB disk from your computer and proceed to [Install Wi
 ## Install Windows 10 and the Microsoft Teams Rooms console app
 <a name="Reimage"> </a>
 
-You now need to apply the setup media you've created. The target device will run as an appliance and the default user will be set to only run the Microsoft Teams Rooms console app.
+You now need to apply the setup media you've created. The target device will run as an appliance and the default user will be set to only run the Microsoft Teams Rooms app.
 
 1. If the target device will be installed in a dock (e.g., a Surface Pro), disconnect it from the dock.
 
@@ -102,7 +100,7 @@ After the system has shut down, it is safe to remove the USB setup disk. At this
 In Creator's Update, you will need to use the ApplyCurrentRegionAndLanguage.ps1 script in scenarios where implicit language selection does not provide the user with the actual application language they want (e.g., they want the console app to come up in French, but it's coming up in English).
   
 > [!NOTE]
-> The following instructions work only for consoles created using Windows Creator's Update. Legacy/in-market systems that have not been set up using media with the new provisioning system will not be able to use these instructions, but should also not suffer from the initial issue that requires this manual intervention (Anniversary Edition let you pick your app language explicitly as part of setup).
+> The following instructions work only for consoles created using Windows Creator's Update (Windows 10 20H1) or later.
   
 ### To apply your desired language
 
@@ -114,58 +112,57 @@ In Creator's Update, you will need to use the ApplyCurrentRegionAndLanguage.ps1 
     
 4. Select **Time &amp; language**.
     
-5. Select **Region &amp; language**.
+5. Select **language**.
     
 6. Select **Add a language**.
     
 7. Select the language you wish to add.
     
-8. Select the language you just added to the "Languages" list.
+8. Install language features.
     
-9. Select **Set as default**.
+9. Do not check Set as my Windows display language.
     
-10. For any languages you wish to remove:
+10. Select **Install**.
+    
+11. Select the language you just added to the "Languages" list.
+    
+12. Set as default- Move up arrow to set default
+
+13. For any languages you wish to remove:
     
     a. Select the language you wish to remove.
     
-    b. Select **Remove**.
-    
-11. Start an elevated command prompt.
-    
-12. Run the following command: 
+    b. Select Remove.
+
+14. Start an elevated command prompt.
+
+15. Run the following command: 
     ```PowerShell
     powershell -executionpolicy unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentRegionAndLanguage.ps1
     ```
     
-13. Restart the system.
+16. Restart the system.
     
 Your desired language is now applied to the Microsoft Teams Rooms console.
 ## Initial set up of the console
 <a name="Initial"> </a>
 
-After Windows is installed, the Microsoft Teams Rooms console app will go into its initial Setup process when it is started next or if the /reboot option was chosen.
+After Windows is installed, the Microsoft Teams Rooms app will go into its initial Setup process.
   
-1. The User Account screen appears. Enter the Skype sign-in address (in user@domain format) of the room account to be used with the console.
+1. The User Account screen appears. Enter the Microsoft Exchange Resource account sign-in address (in user@domain format) of the room account to be used with the console.
     
 2. Enter the password for the room account, and re-enter it to verify.
+   
+3. Select the supported meeting mode - Microsoft Teams Only, Skype for Business Only, or one of the two mixed-mode options. If necessary, enable Modern Authentication.
+
+4. Select **Next**.
     
-3. Under "Configure Domain," set the FQDN for the Skype for Business Server. If the Skype for Business SIP domain is different from the Exchange domain of the user, enter the Exchange domain in this field.
+5. If using Skype for Business and if the Skype for Business SIP domain is different from the Exchange domain of the user, set the FQDN for the Skype for Business Server in the Advanced section. If you are not using Skype for Business or the SIP domain matches the Exchange domain, leave this section blank.
+6. Select **Next**.
     
-4. Click **Next**.
+7. Select **Finish**.
     
-5. Select the indicated devices on the Features screen and click **Next**. The default is to have Auto Screen sharing set to On and Hide meeting names set to Off. The devices to select are:
-    
-   - Microphone for Conferencing: the default microphone for this conference room.
-    
-   - Speaker for Conferencing: the default speaker for conferencing. 
-    
-   - Default Speaker: the speaker used for audio from the HDMI ingest.
-    
-     Each item has a drop-down menu of options to select from. You must make a selection for each device.
-    
-6. Click **Finish**.
-    
-The Microsoft Teams Rooms console app should immediately start signing in to Skype for Business Server with the credentials entered above, and should also begin syncing its calendar with Exchange using those same credentials. For details on using the console app, refer to the [Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+The Microsoft Teams Rooms app should signing in to Microsoft Teams or Skype for Business Server with the credentials entered above, and should also begin syncing its calendar with Exchange using those same credentials. For details on using Teams Rooms, refer to the [Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
   
 > [!IMPORTANT]
 > Microsoft Teams Rooms relies on the presence of certified console hardware. Even a correctly created image containing the Microsoft Teams Rooms console app will not boot past the initial setup procedure unless the console hardware is detected. For Surface Pro based solutions, the Surface Pro must be connected to its accompanying dock hardware to pass this check.
@@ -175,8 +172,10 @@ The Microsoft Teams Rooms console app should immediately start signing in to Sky
   
 ### Install a private CA certificate on the console
 <a name="Certs"> </a>
+> [!NOTE]
+> The following only applies if connecting Teams Rooms to Skype for Business.
 
-The Microsoft Teams Rooms console needs to trust the certificates used by the servers it connects to. For O365 this is done automatically, since these servers are using public Certificate Authorities and these are automatically trusted by Windows 10. In a case where the Certificate Authority is private, for instance an on-premises deployment with Active Directory and the Windows Certificate Authority, you can add the certificate to the Microsoft Teams Rooms console in a couple of ways:
+Microsoft Teams Rooms needs to trust the certificates used by the servers it connects to. In a case where the Certificate Authority is private, for instance an on-premises deployment with Active Directory and the Windows Certificate Authority, you can add the certificate to Microsoft Teams Rooms in a couple of ways:
   
 - You can join the console to Active Directory and that will automatically add the required certificates given the Certificate Authority is published to Active Directory (normal deployment option).
     
@@ -197,7 +196,7 @@ The Microsoft Teams Rooms console needs to trust the certificates used by the se
 ### Join an Active Directory domain (Optional)
 <a name="Certs"> </a>
 
-You can join Microsoft Teams Rooms consoles to your domain. Microsoft Teams Rooms consoles should be placed in a separate OU from your PC workstations because many workstation policies are not compatible with Microsoft Teams Rooms. A common example are password enforcement policies that will prevent Microsoft Teams Rooms from starting up automatically. For information about the management of GPO settings, refer to [Manage Microsoft Teams Rooms](rooms-operations.md).
+You can join Microsoft Teams Rooms to your domain. Microsoft Teams Rooms should be placed in a separate OU from your PC workstations because many workstation policies are not compatible with Microsoft Teams Rooms. A common example is a password enforcement policy that will prevent Microsoft Teams Rooms from starting up automatically. For information about the management of GPO settings, refer to [Manage Microsoft Teams Rooms](rooms-operations.md).
   
 ### To join Microsoft Teams Rooms to a domain
 
@@ -228,7 +227,7 @@ Use the following checklist while doing a final verification that the console an
 
 |Completed |Check |
 |:-----:|:-----|
-|☐   |Room account name and phone # (if PSTN enabled) are correctly displayed in top right of console screen   |
+|☐   |Room account name and phone # (if PSTN enabled) are correctly displayed   |
 |☐   |Windows computer name is set correctly (useful for remote administration)   |
 |☐   |Administrator account password set and verified   |
 |☐   |All firmware updates have been applied   |
@@ -245,15 +244,15 @@ Use the following checklist while doing a final verification that the console an
 |☐   |Audio input device functional and optimally positioned   |
 |☐   |Audio output device functional and optimally positioned   |
 
-**Dock**
+**Console**
 
 |Completed |Check |
 |:-----:|:-----|
 |☐   |Cables are secure and not pinched   |
 |☐   |Audio ingest over HDMI is functional   |
 |☐   |Video ingest over HDMI is functional   |
-|☐   |Dock can swivel freely   |
-|☐   |Display brightness is acceptable for environment   |
+|☐   |Console can swivel freely   |
+
 
 
    

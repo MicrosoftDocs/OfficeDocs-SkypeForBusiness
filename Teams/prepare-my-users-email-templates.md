@@ -1,7 +1,7 @@
 ---
 title: User notification email templates for online phone system rollout
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article

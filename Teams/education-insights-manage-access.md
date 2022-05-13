@@ -1,7 +1,7 @@
 ---
 title: Manage user access to Education Insights
-author: MicrosoftHeidi
-ms.author: heidip
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 ms.service: msteams

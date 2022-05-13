@@ -160,6 +160,8 @@ The other type of CQD tenant data file is the **Endpoint** data file. The column
 
 - All seven columns use the String data type only. The maximum allowed length is 64 characters.
 
+- Entries are case-sensitive; EndpointName **ABC123** will be treated as unique from EndpointName **abc123**.
+
 - A data field can be empty but must still be separated by a tab or comma. An empty data field just assigns an empty String value.
 
 - EndpointName must be unique, otherwise the upload fails. If there is a duplicate row or two rows that use the same EndpointName the conflict will  cause incorrect joining.

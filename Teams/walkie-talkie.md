@@ -22,7 +22,7 @@ appliesto:
 
 # Walkie Talkie app in Microsoft Teams
 
-The Walkie Talkie app in Teams provides instant push-to-talk (PTT) communication for your team and is now available on Android. Walkie Talkie allows users to connect with their team using the same underlying channels they're members of. Only users who connect to Walkie Talkie in a channel become participants and can communicate with each other using push-to-talk, one at a time.
+The Walkie Talkie app in Teams provides instant push-to-talk (PTT) communication for your team and is now available on Android & iOS. Walkie Talkie allows users to connect with their team using the same underlying channels they're members of. Only users who connect to Walkie Talkie in a channel become participants and can communicate with each other using push-to-talk, one at a time.
 
 With Walkie Talkie in Teams, frontline workers can now securely communicate with a familiar PTT experience without needing to carry bulky radios, and Walkie Talkie works anywhere with WiFi or cellular internet connectivity.
 
@@ -30,21 +30,25 @@ With Walkie Talkie in Teams, frontline workers can now securely communicate with
 
 ### Deploying Walkie Talkie
 
-Currently, Walkie Talkie is available for Android devices with Google Mobile Services (GMS) and is not pre-installed. To enable this feature for users in your organization, you need to add Walkie Talkie to the [App Setup Policy](teams-app-setup-policies.md) assigned to users from the [Teams Admin Center](https://admin.teams.microsoft.com/). Once enabled, Walkie Talkie will become available on the Android app within 48 hours.
+Walkie Talkie is supported on Android devices with Google Mobile Services (GMS) and iOS devices.
 
-### Adding Walkie Talkie to your app list
+### Pin Walkie Talkie to Teams
 
-In the Microsoft Teams admin center, under **Teams app** > **Setup policies**, you should have **Allow user pinning** set to **On**. Then, under the Pinned Apps section, click **+Add Apps**.
+#### Use the Tailored frontline app experience to pin Walkie Talkie and other apps to Teams
 
-:::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="Shows the Pinned apps section and the Add Apps button to be selected.":::
+The tailored frontline app experience in Teams pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Pinned apps include Walkie Talkie, Shifts, Tasks, and Approvals. By default, this feature is on, giving your frontline workers an out-of-the-box experience that’s tailored to their needs.
 
-On the **Add pinned apps** panel that appears on the right, use the **Search** textbox to look for Walkie Talkie. When you have it as a search result, select the **Add** button to the right of the name to add it to your list.
+The apps are pinned to the app bar—the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients—where users can quickly and easily access them.
 
-:::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="Shows the Add pinned apps sidebar with Walkie entered into the search pane and the Walkie Talkie app in the search results, with the Add button next to it.":::
+To learn more, including how the experience works with app policies that you set, see [Tailor Teams apps for your frontline workers](pin-teams-apps-based-on-license.md).
 
-The Walkie Talkie app should now appear on the Pinned Apps list, and be available for use once you click the **Save** button.
+#### Use an app setup policy to pin Walkie Talkie to Teams
 
-:::image type="content" source="media/deploy-walkie-talkie-3.png" alt-text="Shows the Pinned apps list with the Walkie Talkie app added, and the Save button underneath the list.":::
+App setup policies let you customize Teams to pin apps that are most important for your users in your users.
+
+To pin the Walkie Talkie app for your users, you can edit the global (Org-wide default) policy or create and assign a custom app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
+
+:::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="Screenshot showing adding Walkie Talkie to the pinned apps list in the Add pinned apps pane." lightbox="media/deploy-walkie-talkie-2.png":::
 
 ### Network documentation
 
@@ -69,24 +73,23 @@ Expected data usage from Walkie Talkie is around 20 Kb/s when sending or receivi
 Frontline workers often need to speak and receive Walkie Talkie calls even when their phones are locked. This experience is possible through specialized devices with a dedicated PTT button.
 
 - **Headsets**
-  - Wireless headsets 
+  - Wireless headsets (iOS & Android)
     - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)
-  - Wired headsets 
+  - Wired headsets (Android only)
     - [Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/)
-- **Rugged phones**
+- **Rugged Android phones**
   - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/), [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy), [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
-    -  Manual setup - With Teams installed, navigate to Settings > Advanced Features > XCover/Active key. Turn on 'Control XCover key with app' and select 'Teams'
-    -  [MDM setup](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
-
+    - Manual setup - With Teams installed, navigate to Settings > Advanced Features > XCover/Active key. Turn on 'Control XCover key with app' and select 'Teams'
+    - [MDM setup](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
+  - Zebra [TC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc52-tc57-series-touch-computer.html), [TC7x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc72-tc77-series-touch-computer.html), [TC2x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc21-tc26.html), [EC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec50-ec55.html), [EC30](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec30.html), [MC3300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc3300.html), [MC9300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc9300.html) 
+    - Manual setup - With Teams installed, the dedicated PTT button (LEFT_TRIGGER_2) works with Walkie Talkie by default
+    
 > [!NOTE]
 > These devices are not Teams certified. They have been validated to work with Teams Walkie Talkie.
 
 ### License requirements
 
 Walkie Talkie app is included in all paid licenses of Teams in [Office 365 subscriptions](/office365/servicedescriptions/teams-service-description). For more information about getting Teams, check out [How do I get access to Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)?
-
-> [!NOTE]
-> Certain advanced features may require additional licensing. For example, integration with Samsung Galaxy XCover Pro requires a Knox license.
 
 ## Further information
 

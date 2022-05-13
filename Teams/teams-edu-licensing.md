@@ -1,7 +1,7 @@
 ---
 title: 'Microsoft Teams resources for Education admins: Assign Teams licenses for EDU'
-author: MicrosoftHeidi
-ms.author: heidip
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 ms.service: msteams

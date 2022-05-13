@@ -1,11 +1,11 @@
 ---
 title: Meeting policies and meeting expiration in Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: KarliStites
+ms.author: kastites
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: nej
+ms.reviewer: nej, brgussin
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -72,9 +72,12 @@ If you want people to access meetings that were previously scheduled or started 
 
 ## Changes to meeting expiration
 
-All newly created Teams meeting recordings (TMRs) will have a default expiration of 60 days. This is on by default for all tenants. This means that by default, all TMRs created *after this feature was turned on* will be deleted 60 days after their creation date. Admins can also set meetings to **never auto-expire**. The OneDrive and SharePoint system will monitor the expiration date set on all TMRs and will automatically move TMRs to the recycle bin on their expiration date.
+All newly created Teams meeting recordings (TMRs) will have a default expiration of 120 days. This is on by default for all tenants. This means that by default, all TMRs created *after this feature was turned on* will be deleted 120 days after their creation date. Admins can also set meetings to **never auto-expire**. The OneDrive and SharePoint system will monitor the expiration date set on all TMRs and will automatically move TMRs to the recycle bin on their expiration date.
 
-Automatic meeting expiration is a lightweight housekeeping mechanism to reduce storage clutter created by older TMRs. On average, across all customers, 99% of TMRs aren't watched after 60 days. We believe nearly all customers will benefit from the reduced storage load on their tenant by removing recordings that likely won't be watched again after 60 days. It's our goal to provide as clean an experience as possible for all customers by default.
+> [!NOTE]
+> One copy of the meeting transcript is saved in OneDrive SharePoint and a second copy is saved in Exchange in temporary storage. The OSDP copy expires when the TMR auto-expires.
+
+Automatic meeting expiration is a lightweight housekeeping mechanism to reduce storage clutter created by older TMRs. On average, across all customers, 96% of TMRs aren't watched after 60 days and 99% aren't watched after 110 days. We believe nearly all customers will benefit from the reduced storage load on their tenant by removing recordings that likely won't be watched again after 60 days. It's our goal to provide as clean an experience as possible for all customers by default.
 
 Use meeting expiration to limit the OneDrive or SharePoint for cloud storage consumption driven by Teams meeting records. A typical meeting recording consumes around 400 MB per hour of recording.
 
@@ -144,6 +147,26 @@ No, migrated TMRs will not come with an expiration set on them. Instead, we enco
 
 When a recording fails to upload to OneDrive or SharePoint, the Teams application displays a message in the chat that users have up to 21 days to download the TMR before it’s permanently deleted from the Teams server. This existing expiration experience due to failed TMR uploads is not related to the OneDrive and SharePoint auto-expiration feature being discussed in the help document.
 
+### How do I know the distribution of TMR playbacks so I know what the optimal auto-expiration default should be for my tenant?
+
+1. Find the video in the library.
+1. Select **...** > **Details**
+1. Select the number of views at the top of the details pane.
+
+You'll see file statistics that show:
+
+- The number of unique viewers
+- The number of total views
+- The trend of viewers and views day-by-day for the last 90 days
+- Viewership retention (which part of the video was viewed or not viewed)
+
+### When will the file be deleted?
+
+The file will be deleted within five days of the expiration date, though this isn't a strict guarantee. The file owner will receive an email notification when the recording expires and will be directed to the recycle bin to recover the recording.
+
+> [!NOTE]
+> On the expiration date, the recording is moved into the recycle bin and the expiration date field is cleared. If you recover the recording from the recycle bin, it won't be deleted by this feature again because the expiration date has been cleared.
+
 ## Related topics
 
 [Change meeting expiration date - end-user controls](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date)
@@ -153,5 +176,3 @@ When a recording fails to upload to OneDrive or SharePoint, the Teams applicatio
 [Assign policies to your users in Teams](policy-assignment-overview.md)
 
 [Teams PowerShell overview](teams-powershell-overview.md)
-
-

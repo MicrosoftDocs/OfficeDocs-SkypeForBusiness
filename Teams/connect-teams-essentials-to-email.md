@@ -86,7 +86,7 @@ These examples rely on the [Connect-ExchangeOnline](/powershell/module/exchange/
 
 9. In the navigation panel on the left, select **Setup** > **Domains**
 
-10. Using the checkbox, select your existing non-Microsoft domain (ex: JohannaL@contosolandscapting2.m365master.com) from the current lists of domains.
+10. Using the checkbox, select your existing non-Microsoft domain (ex: TomislavK@thephone-company.com) from the current lists of domains.
 
 11. Select the button with **three vertical dots** to open a menu.
 
@@ -254,7 +254,7 @@ xi. Under **Add setting**, choose **Advanced content match**
 
 *Forward mail from Microsoft 365 mailboxes to Gmail*
 
-1. Use the **Microsoft 365 Admin Center** to update each mailbox or you can use a **PowerShell**script, such as the following:
+1. Use the **Microsoft 365 Admin Center** to update each mailbox or you can use a **PowerShell** script, such as the following:
 
     ```powershell
     $forwardingDomain = "g.contosolandscaping2.m365master.com"
@@ -264,6 +264,23 @@ xi. Under **Add setting**, choose **Advanced content match**
     
     Set-Mailbox $mbx.Identity -DeliverToMailboxAndForward $true -ForwardingSMTPAddress $($mbx.Alias,$forwardingDomain -join "@")
     } 
+    ```
+
+    **Troubleshooting Connect-ExchangeOnline:**
+
+    Are you experiencing an error when running Connect-ExchangeOnline? This could be the result of your organization's automatic email forwarding rule. By default, automatic forwarding is disabled. In order to connect Teams Essentials to Google Workspace, the rule must be enabled.  
+
+    Enter the following script:
+
+   ```powershell
+    Set-ExecutionPolicy Unrestricted 
+     ```
+
+    Afterwards, run the following commands:
+
+    ```powershell
+    Enable-OrganizationCustomization 
+    Get-HostOutboundSpamFilterPolicy | set-HostedOutboundSpamFilterPolicy -AutoForwardingMode On
     ```
 
 *Configure Exchange Online direct to calendar transport rule*

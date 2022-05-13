@@ -1,7 +1,7 @@
 ---
 title: "Audio Conferencing common questions"
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: conceptual
@@ -26,29 +26,29 @@ description: "The following are some of the top questions we get from our custom
 
 # Audio Conferencing common questions
 
-The following are some of the top questions we get from our customers who want to use Audio Conferencing. 
+The following are some of the top questions we get from our customers who want to use Audio Conferencing.
   
 ## What are the benefits of Audio Conferencing?
 
 Calling in to meetings is beneficial when people are on the road, for example, and can't attend a meeting using the Skype for Business or Microsoft Teams app on their laptop or mobile devices. But there are other scenarios in which using a phone to attend a Skype for Business or Microsoft Teams meeting can be a better option than using an app on a computer:
   
 - Internet connectivity is limited.
-    
+
 - A meeting is audio only.
-    
+
 - The person tried to join a Skype for Business meeting and it failed.
-    
+
 - The call quality is better if they dial in.
-    
+
 - People can join a meeting "hands free" using Bluetooth devices.
-    
+
 - People find it's easier and more convenient for their situation.
-    
+
 ## Who can attend an Audio Conferencing meeting? And who can I hear?
 
 Anyone who has the dial-in number and conference ID can join a Skype for Business or Microsoft Teams meeting, unless the meeting organizer has locked the meeting.
   
-Whether you're calling in using a phone or the Skype for Business or Microsoft Teams apps, you'll be able to hear everyone else on the call, and they can hear you. The meeting organizer has the ability to "mute" meeting attendees if they don't want to hear them. 
+Whether you're calling in using a phone or the Skype for Business or Microsoft Teams apps, you'll be able to hear everyone else on the call, and they can hear you. The meeting organizer has the ability to "mute" meeting attendees if they don't want to hear them.
   
 ## Can I add a toll-free number for my Audio Conferencing users?
 
@@ -77,7 +77,7 @@ The maximum length of time depends on who is in the meeting and the type of auth
 |Users have joined using the Skype for Business or Microsoft Teams app or have dialed in to the meeting.  <br/> |The meeting ends if there are no changes to the attendee list after 24 hours.  <br/> |
 |All of the users are dialed in to the meeting but someone has used a PIN to enter the meeting.  <br/> |The meeting ends after 24 hours.  <br/> |
 |All of the users are dialed in to the meeting but there wasn't anyone who used a PIN to enter the meeting.  <br/> | If anonymous users are allowed to start meetings, the meeting ends after four hours. If anonymous users aren't allowed to start meetings and all authenticated participants have left the meeting, the meeting ends 90 minutes after the last authenticated participant left. <br/> |
-   
+
 ## How many total phone participants can I have in meetings?
 
 See [Limits and Specifications](limits-specifications-teams.md) for total number of attendees allowed in meetings.
@@ -90,11 +90,11 @@ We added a new feature that allows you, the [admin](https://support.office.com/a
   
 ## Can Audio Conferencing be used by the users who are part of an on-premises deployment of Skype for Business Server?
 
-With [Meetings First](meetings-first.md), Skype for Business Server users can benefit from Teams meetings and Teams Audio Conferencing. 
+With [Meetings First](meetings-first.md), Skype for Business Server users can benefit from Teams meetings and Teams Audio Conferencing.
   
 ## Can a user get a personal conference ID?
 
-Skype for Business and Microsoft Teams users will be randomly assigned conferencing IDs. Users can't reserve or set a static conference ID that only they can use. 
+Skype for Business and Microsoft Teams users will be randomly assigned conferencing IDs. Users can't reserve or set a static conference ID that only they can use.
   
 ## Can I use Audio Conferencing with Skype Meeting Broadcast?
 
@@ -109,7 +109,7 @@ No, a user can't get any operator assistance or support by pressing *0 during th
 Skype for Business or Microsoft Teams users can find the conference ID that is assigned to them by scheduling a meeting in Outlook and Outlook on the web. Also, users can find the conference ID in the email that will be sent to them after they are set up.
   
 > [!NOTE]
-> Users won't be able to reset their conference ID. The conference ID can only be reset by you, the [admin](https://support.office.com/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504), for the organization. 
+> Users won't be able to reset their conference ID. The conference ID can only be reset by you, the [admin](https://support.office.com/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504), for the organization.
   
 We are working on a solution that will let the user access and reset a conference ID without help from an organization's admin.
   
@@ -118,7 +118,7 @@ We are working on a solution that will let the user access and reset a conferenc
 Skype for Business or Microsoft Teams users can find the PIN in an email that will be sent to them once they are set up.
   
 > [!NOTE]
-> Teams users can change their pin. There is a link at the bottom of the meeting invite to reset their pin. 
+> Teams users can change their pin. There is a link at the bottom of the meeting invite to reset their pin.
   
 We are working on a solution that will let the user access and reset a PIN without help from an organization's administrator.
   

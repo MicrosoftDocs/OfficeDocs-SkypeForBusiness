@@ -42,7 +42,7 @@ Menu prompts can be created by using text-to-speech (system-generated prompts) o
 
 Each auto attendant has a specific language and time zone. If you do business in multiple languages or multiple parts of the world, you can create as many different auto attendants as you need to accommodate your callers.
 
-For each auto attendant, you can configure an operator. While you can configure operator calls to go to a variety of destinations, the operator feature is designed to allow callers to talk to a specific person in your organization who can help them.
+For each auto attendant, you can configure an operator. While you can configure operator calls to go to various destinations, the operator feature is designed to allow callers to talk to a specific person in your organization who can help them.
 
 Auto attendants can be configured to allow callers to search your organization's directory, either by name or by extension number. Within an auto attendant, you can specify who is available for the directory search by choosing groups of users to include or exclude. (This is known as *dial scope*.)
 
@@ -65,7 +65,7 @@ You can assign a phone number to a call queue, however call queues do not provid
 To configure auto attendants and call queues, you need the following resources:
 
 - A resource account for each auto attendant and each call queue
-- A free Phone System - Virtual User license for each resource account
+- A free Microsoft Phone System - Virtual User license for each resource account
 - At least one [Microsoft service number](getting-service-phone-numbers.md), Operator Connect number, Direct Routing number, or a hybrid number for each resource account that you want to be directly dialable
  - The service number may be a toll or toll-free number
 
@@ -79,13 +79,15 @@ Agents who receive calls from the call queues must be Enterprise Voice enabled o
 
 If your agents are using the Microsoft Teams app for call queue calls, they need to be in TeamsOnly mode.
 
-When transferring calls to an external phone number, the resource account performing the transfer (that is, the one associated with the auto attendant or call queue) must have a Microsoft 365 Phone System Virtual User license and one of the following assigned:
+When using a resource account for calling line ID purposes in call queues or when an auto attendant or call queue is transferring calls to an external phone number, the resource account must have a Phone System Virtual User license and one of the following assigned:
 
 - A [Calling Plan](calling-plans-for-office-365.md) license and a phone number assigned
 - An [Operator Connect](operator-connect-plan.md) phone number assigned
 - An [online voice routing policy](manage-voice-routing-policies.md) (phone number assignment is optional when using Direct Routing)
 
 > [!NOTE]
+> If the Calling Plan assigned to the resource account becomes disabled or is removed, [Communications Credits](what-are-communications-credits.md), if available in the tenant (without being assigned to the resource account), will be consumed. If there is no Calling Plan or Communications Credits then the call will fail.
+>
 > Direct Routing service numbers for auto attendant and call queues are supported for Microsoft Teams users and call agents only.
 > 
 > Transfers between Calling Plan, Operator Connect, and Direct Routing trunks aren't supported.
@@ -103,7 +105,7 @@ Document your answers to these questions and provide the information to the admi
 - Do you need separate call routing for off hours or holidays? What are the hours and holidays?
 - Do you want to allow agents in a call queue to opt out of taking calls?
 - Do you want agents in your call queues or your operator to have a specific caller ID if they dial out?
-- Do you want to enable [call parking and retrieval](call-park-and-retrieve.md) in your organization to assist in call handoffs between people or departments?
+- Do you want to enable [call parking and retrieval](call-park-and-retrieve.md) in your organization to help with call handoffs between people or departments?
 - For the voice prompts, do you want to record your own or use the system-generated voice? (The system-generated voice is easy to update.)
 
 ## Technical decisions
@@ -117,7 +119,7 @@ Agents can be added to call queues in the following ways:
 - Security groups, including mail-enabled security groups
 - Microsoft 365 Groups or Teams
 
-You can use a combination of these options for each queue if needed. Groups that have an email address can be used for voicemail. Using Teams offers a number of advantages, including shared file storage and chat between agents, a common mailbox where voicemails can be received, and an extensible platform that can include integration with your line-of-business applications or Power Apps.
+You can use a combination of these options for each queue if needed. Groups that have an email address can be used for voicemail. Using Teams offers many advantages, including shared file storage and chat between agents, a common mailbox where voicemails can be received, and an extensible platform that can include integration with your line-of-business applications or Power Apps.
 
 We recommend choosing a strategy for adding call agents to queues before you start your configuration.
 
@@ -126,7 +128,7 @@ If you have an existing auto attendant and call queue infrastructure and you're 
 *Conference mode* is an option in call queues that significantly reduces the amount of time it takes to connect Teams VOIP calls and PSTN calls to an agent. For conference mode to work, agents in the call queue must use one of the following clients:
 
 - The latest version of the Microsoft Teams desktop client, Android app, or iOS app
-- Microsoft Teams Phone version 1449/1.0.94.2020051601 or later
+- Microsoft Phone System version 1449/1.0.94.2020051601 or later
   
 Set Agents' Teams accounts to Teams-only mode. Agents who don't meet the requirements aren't included in the call routing list.
 
@@ -156,7 +158,7 @@ When calls are redirected by an auto attendant or call queue, you can choose fro
 - **Voicemail** - the voice mailbox associated with a Microsoft 365 group that you specify. You can choose if you want voicemail transcriptions and the "Please leave a message after the tone." system prompt.
 - **Operator** (auto attendant only) - the operator defined for the auto attendant. Defining an operator is optional. An operator can be any of the other destinations in this list.
 
-Auto attendants offer separate call routing options for calls received outside of business hours and on holidays. After-hours call routing allows all the options listed above, while holiday call routing allows only redirecting or disconnecting a call, but no dial key options.
+Auto attendants offer separate call routing options for calls received outside of business hours and on holidays. 
 
 Call queues place the caller on hold until an agent assigned to the queue is available to take their call. There are two situations where a caller might be directed out of the queue:
 
@@ -180,7 +182,7 @@ In the example above:
 We recommend that you create one or more diagrams similar to the one above to map out your call routing. Be sure to include the following in your diagram or accompanying documentation:
 
 - Which auto attendants will have direct access via phone numbers?
-- What are the off-hours and holiday routing requirements for each auto attendants?
+- What are the off-hours and holiday routing requirements for each auto attendant?
 - The membership for each call queue. (You can add users individually or map the queue to different kinds of groups. Mapping a queue to a team provides the most versatile experience.)
 
 Here are some call routing best practices:

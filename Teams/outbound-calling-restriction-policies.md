@@ -1,8 +1,8 @@
 ---
 title: Outbound call restrictions - Audio Conferencing & PSTN calls
 ms.reviewer: 
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -44,18 +44,17 @@ To find out which countries and regions are considered Zone A, see [Country and 
 
 ## Restrict audio conferencing outbound calls
 
-**Using the Microsoft Teams admin center**
+### Using the Microsoft Teams admin center
 
 1. In the left navigation, select **Users**, and then select the display name of the user from the list of available users.
 
-3. Next to **Audio Conferencing**, select **Edit**.
+2. Next go to **Audio Conferencing**, select **Edit**.
 
-4. Under **Dial-out from meetings**, select the dial-out restriction option you want.
+3. Under **Dial-out from meetings**, select the dial-out restriction option you want.
 
-5. Select **Save**.
+4. Select **Save**.
 
-
-**Using PowerShell**
+### Using PowerShell
 
 Outbound call restrictions are controlled by a single policy called OnlineDialOutPolicy, which has a restriction attribute for each. The policy cannot be customized, rather there are pre-defined policy instances for each combination of the settings.
 

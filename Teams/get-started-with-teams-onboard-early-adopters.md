@@ -1,7 +1,7 @@
 ---
 title: Onboard early adopters to Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/06/2018
 ms.topic: article
@@ -50,7 +50,7 @@ Jump to: [Teams for Windows](#teams-for-windows) | [Teams for Mac](#teams-for-ma
 
 ### Desktop client
 
-The Teams desktop client gives Windows and Mac users the best overall experience. To learn more, see [Get clients for Teams (Desktop client)](./get-clients.md#desktop-client) and [Hardware requirements for the Microsoft Teams app](./hardware-requirements-for-the-teams-app.md).
+The Teams desktop client gives Windows and Mac users the best overall experience. To learn more, see [Get clients for Teams (Desktop client)](./get-clients.md#desktop-clients) and [Hardware requirements for the Microsoft Teams app](./hardware-requirements-for-the-teams-app.md).
 
 > [!NOTE]
 > As an admin, you can choose the method to distribute the installation files to computers in your organization, such as Microsoft Endpoint Configuration Manager (Windows) or Jamf Pro (macOS).

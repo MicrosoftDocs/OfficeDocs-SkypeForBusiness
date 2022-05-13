@@ -1,7 +1,7 @@
 ---
 title: "Change phone numbers on Audio Conferencing bridge"
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -36,9 +36,10 @@ In addition to the phone numbers already assigned to your conferencing bridge, y
 
 ## Steps when you are assigning a new service phone number to your conference bridge
 
-### Step 1 - Assign the new phone number to your audio conferencing bridge
+> [!NOTE]
+> Except where it's called out otherwise, all these steps must be performed in the Microsoft Teams admin center.
 
- **Using the Microsoft Teams admin center**
+### Step 1 - Assign the new phone number to your audio conferencing bridge
 
 1. On the left navigation pane, go to **Voice** > **Phone numbers**.
 
@@ -52,27 +53,18 @@ The default phone number of your conference bridge defines the caller ID that wi
 
 Only a service toll number can be set as the default number for your conferencing bridge; **service toll-free numbers can't be set as the default number of your conferencing bridge**. If you are assigning a service toll number and you would like to set it as the new default number for your audio conferencing bridge, perform these steps:
 
- **Using the Microsoft Teams admin center**
-
 1. On the left navigation pane, go to **Meetings** > **Conference bridges**.
 
 2. Highlight the service toll number that you want to configure as the default.
 
 3. Select **Set as default**.
- 
+
 ### Step 3 - Change the default phone numbers that are included in the meeting invites of users (optional)
 
-The default phone numbers of a user are the ones that are included on their meeting invites when they schedule a meeting. For more information, including how the default phone numbers are assigned for new users, see [Set the phone numbers included on invites in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) or [Set the phone numbers included on invites in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
+Refer to [Set the phone numbers included on invites in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md).
 
- **Using the Microsoft Teams admin center**
-
-1. On the left navigation pane, go to **Users** and click the Display name of the desired user on the list.
-
-2. Next to **Audio conferencing**, click on **Edit**.
-
-3. Under **Toll number** or **Toll-free number**, select the number from the dropdown and click **Apply**.
-
-After the changes have been applied, the new default phone numbers will be included on the meeting invites of organizers the next time they schedule a new meeting.
+> [!NOTE]
+> You can also set phone numbers by adding them to the *TeamsAudioconferencingpolicy* and assigning the policy to your users. Toll and toll-free phone numbers added to the policy take precedence over the phone numbers set individually for users via the audio conferencing settings pane. If no phone numbers are added to the *Teamsaudioconferencingpolicy*, then the phone number set individually for users via the audio conferencing settings pane will be displayed in Microsoft Teams meeting requests. [Audio Conferencing policy settings for toll and toll-free numbers](audio-conferencing-toll-free-numbers-policy.md) has more information.
 
 ### Step 4 - Update existing meeting invites of users using the Meeting Migration Service (optional)
 
@@ -94,7 +86,6 @@ If you updated the default phone numbers that are included in the meeting invite
 
 ## Steps when you are unassigning a service phone number for a conferencing bridge
 
-
 When you unassign a phone number from a conferencing bridge, users won't be able to join any meetings using that phone number anymore. Because the phone number is changing, it's important to update all users who could have a phone number as their default number (if any) and to update their existing meeting invites before the phone number is unassigned from the audio conferencing bridge.
 
 If the phone number is removed without updating the users and their meetings, their existing meeting invites could contain a phone number that won't work for joining their meetings.
@@ -108,9 +99,10 @@ Replace the default toll or toll-free number for all users who have the number t
 ```PowerShell
 Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be removed> -ToNumber <Number to be set as new default> -NumberType <"Toll" or "Toll-Free"> -RescheduleMeetings
 ```
- > [!IMPORTANT] 
- >You can also change the default toll or toll-free number of users in the Microsoft Teams admin center. However, this won't automatically reschedule their meetings. 
- 
+
+ > [!IMPORTANT]
+ >You can also change the default toll or toll-free number of users in the Microsoft Teams admin center. However, this won't automatically reschedule their meetings.
+
  For additional information, see [Set the phone numbers included on invites in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) or [Set the phone numbers included on invites in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
 
   > [!NOTE]
@@ -134,9 +126,9 @@ Use the Unregister-CsOnlineDialInConferencingServiceNumber cmdlet to unregister 
 Unregister-CsOnlineDialInConferencingServiceNumber -identity "toll number to be removed" -bridgeId "Conference Bridge ID"
 Unregister-CsOnlineDialInConferencingServiceNumber -identity "toll free number to be removed" -bridgeId "Conference Bridge ID"
 ```
+
 Note:
 To find the Conference Bridge ID, run the following PowerShell: Get-CsOnlineDialInConferencingBridge.
-
 
    > [!IMPORTANT]
    > After a phone number is unassigned from an audio conferencing bridge, the phone number will no longer be available for users to join new or existing meetings.
@@ -181,11 +173,12 @@ To save time by automating this process, you can use the [Set-CsOnlineDialInConf
 
 ## Troubleshooting
 
-**Unassign button isn't available**
+### The Unassign button isn't available
 
-You want to Unassign a number but the button isn't available, and if while hovering over it, you are redirected to contact Support with the following message _"Default or shared numbers can´t be unassigned from the bridge. To unassign dedicated toll numbers, please contact support._".
+You want to Unassign a number but the button isn't available, and if while hovering over it, you are redirected to contact Support with the following message: "Default or shared numbers can´t be unassigned from the bridge. To unassign dedicated toll numbers, please contact support.".
 
-To obtain more information about the bridge(s), run the following Powershell :
+To obtain more information about the bridge(s), run the following Powershell:
+
 ```PowerShell
 Get-CsOnlineDialInConferencingBridge -Name "Conference Bridge"
 ```
@@ -193,6 +186,7 @@ Get-CsOnlineDialInConferencingBridge -Name "Conference Bridge"
 The result, aside other information like Identity, Name and Region, should also contain the DefaultServiceNumber.
 
 **Example**, to unassign, the DefaultServiceNumber "8005551234"
+
 ```PowerShell
 Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridge" -RemoveDefaultServiceNumber 8005551234 
 ```
@@ -201,17 +195,18 @@ Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridg
 
 With Windows PowerShell you can manage users and what they are or are not allowed to do. Windows PowerShell  can help you manage Microsoft 365 or Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, especially when you've got multiple tasks to do. To get started with Windows PowerShell, see these topics:
 
-  - [An introduction to Windows PowerShell and Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+- [An introduction to Windows PowerShell and Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-  - [Why you need to use Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+- [Why you need to use Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
 Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics:
 
-  - [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+- [Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
-  - [Using Windows PowerShell to manage Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+- [Using Windows PowerShell to manage Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-  - [Using Windows PowerShell to do common Skype for Business Online management tasks](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+- [Using Windows PowerShell to do common Skype for Business Online management tasks](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
 ## Related topics
+
 [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md)

@@ -140,6 +140,14 @@ Date slicers aren't supported with the Microsoft Call Quality connector. To spec
 
 Alternatively, if the dates you want to view are recent, apply a relative date filter to show only data for the last N days/weeks/months.
 
+
+### When I add certain dimensions to my reports, the visual immediately returns **"Couldn't load the data for this visual"**. Removing the dimension fixes the visual -- what is happening?
+
+This is a known issue in the Microsoft Call Quality connector; any dimension that is exposed as a whole number will appear in Power BI as an 'aggregate' column, where Power BI will attempt a default summarize action (typically 'Sum'). In some cases, this behavior will succeed at summing up the values even though the result is not useful, since the 'sum' of a dimension like Second WiFi Channel is meaningless. In other cases, this summarize action will fail and cause errors in the visual.
+
+To work around this issue, start by removing the dimension from the visual. Select the dimension from the 'Fields' list, browse to the 'Column tools' tab in the ribbon, click the 'Summarization' drop-down menu and select **Don't summarize**. The dimension can now be added to the visual again.
+
+
 ## Error Codes
 
 Because the Microsoft Call Quality connector for Power BI is less restricted than the browser app in terms of kinds of queries you can construct, you may occasionally encounter a number of errors while building your queries. In the event that you receive an error message of the type "CQDError. RunQuery – Query Execution Error", reference the list below with the ErrorType number provided in order to troubleshoot the possible issue with the query. The following are the most common Error Type codes you may encounter with the CQD Power BI Connector:

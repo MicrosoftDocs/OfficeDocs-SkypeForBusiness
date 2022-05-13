@@ -1,7 +1,7 @@
 ---
 title: Cortana voice assistance in Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -121,4 +121,6 @@ Cortana _Voice Activation_ can be enabled if you are using a Lenovo Hub 500 or i
 - Jabra Panacast 50 
 - Rally microphones
 - Bose Video Bar VB1
+- EPOS EXPAND Capture 5
+- Yealink MSpeech  
 

@@ -1,7 +1,7 @@
 ---
 title: Steering committee for cloud voice deployment
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article

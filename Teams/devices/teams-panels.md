@@ -40,7 +40,7 @@ To learn more about these features and how to use them, see [Use Microsoft Teams
 
 ## Partners certified for Teams panels
 
-To learn more about partners certified for Teams panels, see [Currently certified Teams panels](teams-ip-phones.md#currently-certified-teams-panels).
+To learn more about partners certified for Teams panels, see [Currently certified Teams panels](teams-ip-phones.md#certified-teams-panels).
 
 ## Teams panels requirements
 
@@ -98,7 +98,7 @@ Planning for configuration and deployment covers the following key areas:
 Every Teams panels device requires a Microsoft 365 room resource account. You use the resource account credentials to sign in to Microsoft Teams app on the panels device.
 
 To set up a Microsoft 365 resource account for Teams panels, we recommended that you purchase a [Microsoft Teams Rooms Standard license](#license-requirement). 
-For information on how to create a resource account and assign a license to it, see [Create a resource account using the Microsoft 365 admin center](resource-account-ui.md).
+For information on how to create a resource account and assign a license to it, see [Create resource accounts for rooms and shared Teams devices](../rooms/with-office-365.md).
 
 > [!NOTE]
 >
@@ -130,6 +130,6 @@ To manage your Teams panels devices, in the left navigation of the Microsoft Tea
 
 [Get started with Teams panels](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)
 
-[Teams panels marketplace](https://www.microsoft.com/microsoft-teams/across-devices/devices/product?deviceid=815)
+[Teams panels marketplace](https://office.com/teamsdevices)
 
-[Devices certified under Microsoft Teams panels certification program](teams-ip-phones.md#currently-certified-teams-panels)
+[Devices certified under Microsoft Teams panels certification program](teams-ip-phones.md#certified-teams-panels)

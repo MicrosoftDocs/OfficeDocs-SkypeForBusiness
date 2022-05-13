@@ -1,11 +1,11 @@
 ---
 title: Teams sessions at Ignite 2020
 description: Find all the available learning for Business Central.
-author: HowlinWolf-92
+author: SerdarSoysal
 ms.date: 09/21/2020
 ms.topic: article
 ms.service: msteams
-ms.author: v-mahoffman
+ms.author: serdars
 audience: admin
 manager: serdars
 ---

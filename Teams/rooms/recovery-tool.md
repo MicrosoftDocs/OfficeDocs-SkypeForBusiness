@@ -1,7 +1,7 @@
 ---
 title: "Use the Microsoft Teams Rooms recovery tool"
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 ms.reviewer: sohailta
 audience: ITPro
@@ -21,7 +21,7 @@ This article discusses how to use the recovery tool for Microsoft Teams Rooms, w
 
 ## Prerequisites
 
-Download the latest [Microsoft Teams Rooms installation package](https://go.microsoft.com/fwlink/?linkid=851168) and extract it to a USB memory stick or network share accessible to the Microsoft Teams Rooms device.
+Download the latest [Microsoft Teams Rooms installation package](https://go.microsoft.com/fwlink/?linkid=851168) and extract it to a USB memory stick or network share accessible to Microsoft Teams Rooms.
 
 > [!NOTE]
 > Extracting the files from the MSI can be accomplished by many means. Any mechanism that extracts all the files and preserves their directory structure is acceptable. One such way is to use the command `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` where `PathToMsi` represents the full path to the Microsoft Teams Room installation package, and `PathToTarget` represents the full path to the folder you would like the files extracted to.
@@ -29,7 +29,7 @@ Download the latest [Microsoft Teams Rooms installation package](https://go.micr
 ## Running the tool
 
 1) Sign in to the admin account on your Microsoft Teams Rooms device, and launch an elevated command prompt.
-2) Verify from the Microsoft Teams Rooms device that you are able to access the `RecoveryTool.ps1 file`, which is included in the files extracted from the Microsoft Teams Rooms installation package. The kit can be found on the network share or USB drive used when preparing prerequisites.
+2) Verify from the Microsoft Teams Rooms device that you are able to access the `RecoveryTool.ps1` file, which is included in the files extracted from the Microsoft Teams Rooms installation package. The kit can be found on the network share or USB drive used when preparing prerequisites.
 3) Run `powershell.exe -ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`.
 4) To perform a factory restore:
    1. When prompted by the script select option 2: **Reset**.

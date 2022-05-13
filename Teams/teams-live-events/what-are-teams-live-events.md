@@ -1,7 +1,7 @@
 ---
 title: What are Microsoft Teams live events?
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -97,7 +97,7 @@ The goal of eCDN is to take the video content from the internet and distribute t
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [Ramp](https://rampecdn.com)
 - [Riverbed](https://www.riverbed.com/solutions/office-365.html)
-- [Peer5](https://www.peer5.com/) (coming soon)
+- [Peer5](https://www.peer5.com/)
 
 ### Attendee experience
 

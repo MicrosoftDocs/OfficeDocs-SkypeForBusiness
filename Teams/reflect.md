@@ -1,7 +1,7 @@
 ---
 title: IT Admin Guide to Reflect in Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -26,14 +26,20 @@ This check-in app uses emojis and research-backed emotional granularity to suppo
 
 
 ## Privacy and Security
-Reflect follows the same privacy and security standards as Education Insights to protect students' sensitive information.
+Reflect follows the same privacy and security standards as [Education Insights](class-insights.md) to protect students' sensitive information.
 
-The information collected and shown through Reflect meets [more than 90 regulatory and industry standards](/compliance/regulatory/offering-home), including [GDPR](/compliance/regulatory/gdpr) and the Family [Education Rights and Privacy Act (FERPA)](/compliance/regulatory/offering-ferpa) for students and children's security and other, similar, privacy-oriented regulations.
+Reflect, as part of Microsoft 365, meets national, regional, and industry-specific regulations for data collection and use, including [GDPR](/compliance/regulatory/gdpr) and the [Family Educational Rights and Privacy Act (FERPA)](/compliance/regulatory/offering-ferpa) that protects the privacy of students' education records.
+
+The data belongs to the institution, and Microsoft only collects the data and stores it. Microsoft personnel cannot access the data or see it, except as allowed by compliance in an audited way to maintain the service, such as data recovery.
 
 Students *never* see the names of other students, only how they responded. While they can see the distribution of responses, they *cannot* see names associated with each reflection. 
 
 > [!NOTE]
 > If less than five students respond, no data is shown to the students. This is to minimize the possibility of students identifying each other's responses.
+
+> [!TIP]
+> * Visit the [Microsoft Trust Center](https://www.microsoft.com/trust-center) to learn more about how Microsoft protects your data.
+> * Visit [Microsoft compliance offerings](/compliance/regulatory/offering-home) to learn how Microsoft 365 helps your institution meet regulatory compliance standards.
 
 ## Data collection and storage
 The data belongs to the educational institution, and Microsoft only collects the data and stores it. Microsoft personnel cannot access the data or see it, except as allowed by compliance in an audited way to maintain the service, such as data recovery.

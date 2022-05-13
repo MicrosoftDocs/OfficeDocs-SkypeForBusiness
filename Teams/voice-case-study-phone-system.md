@@ -38,7 +38,7 @@ To implement a Microsoft Phone System solution for their entire organization, Co
 
 - Combination of Phone System with Calling Plan and Phone System with own PSTN carrier through Direct Routing
  
-To determine the right solution for their organization, Contoso used [Microsoft telephony solutions](/SkypeForBusiness/hybrid/msft-telephony-solutions) and the Ignite 2019 session [Calling in Microsoft Teams](https://myignite.techcommunity.microsoft.com/sessions/83170?source=sessions).  
+To determine the right solution for their organization, Contoso used [Plan your Teams voice solution](/microsoftteams/cloud-voice-landing-page) and the Ignite 2019 session [Calling in Microsoft Teams](https://myignite.techcommunity.microsoft.com/sessions/83170?source=sessions).  
 
 ## Site Type A: Skype for Business Enterprise Voice 
 

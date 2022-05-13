@@ -40,7 +40,7 @@ SIP Gateway connects compatible SIP devices to Teams to help your users migrate 
 - **Message waiting indicator:** SIP device users can receive notifications that alert them when they have new voicemail messages.
 - **Sign-in and sign-out:** SIP devices users can sign in and sign out of Teams on the device.
 - **Dual-tone multi-frequency:** SIP device users can press number keys to provide input during interactive voice response calls.
-- **Teams meetings:** A SIP device user can join a Teams meeting by dialing the meeting access number. Dialing out to a same organization user’s phone number is currently not supported. However, guest users from another organization can be added to a Teams meeting by a participant who dials out to a guest user’s number to include that guest. **NOTE:** Adding a Teams meeting participant via “request to join” currently won’t alert a SIP device.
+- **Teams meetings:** A SIP device user can join a Teams meeting by dialing the meeting access number. Meeting participants can add a SIP device user to the meeting by dialing out to user’s phone number or simply adding a participant by clicking on ‘Request to Join’ will also alert the user’s SIP device. Guest users from another organization can be added to a Teams meeting by a participant who dials out to a guest user’s number to include that guest.
 - **Call transfers:** SIP device users can transfer calls. SIP Gateway supports both blind and consultative transfers.
 - **Local call forwarding:** A SIP device user can set forwarding rules (always, on timeout, and busy) for the device. If the device is connected to the SIP Gateway, then the call will be redirected to the target address based on the rule that the device user set. To make local call forwarding work, the admin must set the `AllowCallRedirect` attribute in `Set-CsTeamsCallingPolicy` to `Enabled`. 
 
@@ -61,6 +61,7 @@ If you have a 3PIP or SIP device, you must have:
 |Vendor	   |Model      |Minimum firmware version|Approved firmware version|Remarks|Links|
 |----------|-----------|------------|-----------|------------|------------|
 |**Cisco** |           |            |           |Devices running enterprise firmware must be converted to multiplatform firmware. Read the guide at the right to learn how.|[Cisco firmware conversion guide](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-7800-series/guide-c07-742786.html)|
+|          |8832       |11.3.5MPP   |11.3.5MPP  |   |   |
 |          |6821       |11.1.1MPP   |11-3-3MPP  |   |   |
 |          |7811       |11.1.1MPP   |11-3-3MPP  |   |   |
 |          |7821       |11.1.1MPP   |11-3-3MPP  |   |   |
@@ -73,6 +74,9 @@ If you have a 3PIP or SIP device, you must have:
 |          |8861       |11.1.1MPP   |11-3-3MPP  |   |   |
 |          |8865       |11.1.1MPP   |11-3-3MPP  |   |   |
 |**Poly**  |           |            |           |The device will auto-reboot and install the selected firmware.|   |
+|          |CCX 500    |7.0.3.0515  |7.2.1.1826 |   |   |
+|          |Trio 8500  |5.9.5.3182  |7.1.1.0997 |   |   |
+|          |Trio 8800  |5.9.5.3182  |7.1.1.0997 |   |   |
 |          |VVX150     |5.9.5       |6.3.1.8427 |   |   |
 |          |VVX201     |5.9.5       |6.3.1.8427 |   |   |
 |          |VVX250     |5.9.5       |6.3.1.8427 |   |   |
@@ -119,12 +123,16 @@ If you have a 3PIP or SIP device, you must have:
 |          |T40G       |83          |76.84.0.125|   |   |
 |          |T41P       |83          |36.83.0.120|   |   |
 |          |T46G       |83          |28.83.0.130|   |   |
-|**AudioCodes**|       |            |           |Some AudioCodes SIP devices need a provisioning URL setting. Download and install upgrade files for the affected AudioCodes devices at the right. |[Downloadable files for affected devices at AudioCodes](https://audiocodes.sharefile.com/share/view/sc9cdf17f9ec45d09/fo19ecda-cf14-4a53-842b-5eab33a0b9b0)|
-|          |405         |2.2.8      |2.2.16.525 |   |   |
-|          |405HD       |3.2.1      |2.2.16.525 |   |   |
-|          |420HD       |3.2.1      |2.2.16.525 |   |   |
-|          |430HD       |3.2.1      |2.2.16.525 |   |   |
-|          |440HD       |3.2.1      |2.2.16.525 |   |   |
-|          |450HD       |3.2.1      |3.4.6.558  |   |   |
-|          |C450HD      |3.2.1      |3.4.6.558  |   |   |
-|          |445HD       |3.2.1      |3.4.6.558  |   |   |
+|**AudioCodes**|       |            |           |Some AudioCodes SIP devices need a provisioning URL setting. Download and install upgrade files for the affected AudioCodes devices at the right. |[Downloadable files for affected devices at AudioCodes](https://audiocodes.sharefile.com/share/view/sc9cdf17f9ec45d09/fo7914a2-4f3a-4000-8957-47bd6f35a3a5)|
+|          |405         |2.2.8      |2.2.16.570 |   |   |
+|          |405HD       |3.2.1      |2.2.16.570 |   |   |
+|          |420HD       |3.2.1      |2.2.16.570 |   |   |
+|          |430HD       |3.2.1      |2.2.16.570 |   |   |
+|          |440HD       |3.2.1      |2.2.16.570 |   |   |
+|          |450HD       |3.2.1      |3.4.6.687  |   |   |
+|          |C450HD      |3.2.1      |3.4.6.687  |   |   |
+|          |445HD       |3.2.1      |3.4.6.687  |   |   |
+|          |RX50        |3.2.1      |3.4.6.687  |   |   |
+
+> [!NOTE]
+> For some devices, the minimum firmware version is greater than the approved firmware version. This is because the 3.X version is the Skype for Business version. We update the SIP version which is 2.X.

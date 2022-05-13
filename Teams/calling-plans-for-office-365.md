@@ -35,6 +35,8 @@ Calls to other Skype for Business and Microsoft Teams users are free, but if you
 Here are the Calling Plans options:
   
 - **Domestic Calling Plan**: Licensed users can call out to numbers located in the country/region where they are assigned in Microsoft 365 or Office 365.
+
+- **International Calling Plan**: Licensed users can call out to international numbers in [196 countries/regions](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md). This calling plan can be added to a user who currently holds a Domestic Calling Plan.
     
 - **Domestic and International Calling Plan**: Licensed users can call out to numbers located in the country/region where their Microsoft 365 or Office 365 license is assigned to the user based on the user's location, and to international numbers in [196 countries/regions](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
 
@@ -62,9 +64,7 @@ For detailed information about usage limits and terms of use, see [Audio Confere
     > Depending on your plan, you may need to buy more add-ons before you can buy Phone System licenses. To learn more, see [Microsoft Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 2. After you buy Phone System licenses, you can buy the Calling Plan by signing in to the **Microsoft 365 admin center**, choose **Billing** > **Purchase services** > **Add-on subscriptions**, and then clicking **Buy now**. You'll see the Calling Plans there.
-    
-    ![Screen shot showing voice calling plan options.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
-  
+      
 You can buy and assign different Calling Plans to different users, depending on the needs of your organization. After you select the Calling Plan you need, proceed to checkout. You assign a plan to each user in the Microsoft 365 admin center. To learn how, see [Assign Microsoft Teams add-on licenses](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## Do you have a service provider that provides on-premises PSTN connectivity for hybrid users?

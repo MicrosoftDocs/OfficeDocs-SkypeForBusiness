@@ -71,6 +71,7 @@ For compliance reasons, end-user identifiable information (EUII) data (also know
 - Machine Endpoint Name
 - User Verbatim Feedback
 - Object ID (the Active Directory object ID of the endpoint's user)
+- Phone Number
 
 ### Admin roles with and without EUII access
 
