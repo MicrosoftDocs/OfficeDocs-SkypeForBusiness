@@ -27,20 +27,19 @@ appliesto:
 
 ## Overview of the Virtual appointments app
 
-The Virtual appointments app provides a central hub for all your virtual appointment needs in Microsoft Teams.
+The Virtual appointments app provides a central hub for all your virtual appointment needs in Microsoft Teams. The app brings a cohesive schedule management experience to Teams, integrating virtual appointments from the [Bookings app](expand-teams-across-your-org/bookings-virtual-visits.md), the [Teams Electronic Health Record (EHR) connector](expand-teams-across-your-org/healthcare/teams-in-hc.md#virtual-appointments-and-electronic-healthcare-record-ehr-integration), and analytics, all in one place.
 
-You can schedule and manage virtual appointments, view analytics to gain insight into virtual appointment activity, get real-time status updates, and send appointment reminders to attendees.
+You can schedule and manage virtual appointments from Bookings, Teams, and Outlook, view reports to gain insight into virtual appointment activity, get real-time status updates in a queue view, and send appointment reminders to attendees.
 
 :::image type="content" source="media/manage-virtual-appointments-app-home.png" alt-text="Screenshot of the Home page in the Virtual appointments app" lightbox="media/manage-virtual-appointments-app-home.png":::
 
-Virtual appointments includes the following tabs:
+The Virtual appointments app includes the following tabs:
 
-- **Home**: This tab brings together key information, actions, and updates in a dashboard. From here, you can
-- **Bookings schedule**: Access your Bookings calendar to schedule virtual appointments such as healthcare visits, financial consultations, interviews, education office hours, and virtual fittings and consultations. You can connect an existing Bookings calendar or create a new one.
-- **Queue**: View and monitor all virtual appointments in the Bookings calendar that you pinned, with updates in real time. From here, you can add a new booking, view relevant appointment details, see appointment statuses throughout the day, and send appointment reminders to assign staff and attendees. Staff can even join appointments directly from the queue.
-- **Analytics**: Get insight into usage activity and trends in your organization to help optimize virtual appointments to deliver better business outcomes. You can view key metrics such as total number of appointments, appointment duration, lobby wait time, and no shows.
+- **Home**: This tab gives you quick access to key information, actions, and updates. From here, you can
+- **Bookings schedule**: Access your Bookings calendar to schedule virtual appointments such as healthcare visits, financial consultations, interviews, education office hours, and virtual fittings and consultations. You can connect an existing Bookings calendar or create a new one. To learn more, see [Virtual appointments with Teams and the Bookings app](expand-teams-across-your-org/bookings-virtual-visits.md).
+- **Queue**: View and monitor all virtual appointments in the Bookings calendar that you pinned, with updates in real time. From here, you can add a new booking, view relevant appointment details, see appointment statuses throughout the day, and send appointment reminders to assign staff and attendees. Staff can even join appointments directly from the queue. To learn more, see [Monitor appointments and get real-time status updates](expand-teams-across-your-org/bookings-virtual-visits.md#monitor-appointments-and-get-real-time-status-updates).
+- **Analytics**: Get insight into usage activity and trends in your organization to help optimize virtual appointments to deliver better business outcomes. You can view key metrics such as total number of appointments, appointment duration, lobby wait time, and no shows. To learn more, see [Teams Virtual Visits usage report](teams-analytics-and-reports/virtual-visits-usage-report.md)
 - **Manage**: Customize appointment types, set reminders, update business details, add staff and assign roles.
-
 
 
 ## What you need to know about Virtual appointments
