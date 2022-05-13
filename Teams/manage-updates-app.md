@@ -88,13 +88,13 @@ The Updates app is available by default. You can disable the app in the Teams ad
 
   3. Search for the Updates app.
 
-     ![shows the Admin center navigation with Teams Apps > Manage Apps highlighted.](media/manage-approval-apps.png)
+     ![shows the Admin center navigation with Teams Apps > Manage Apps highlighted.](media/manage-updates.png)
 
   4. Select **Updates**.
 
   5. Select the toggle to disable the app for your organization.
 
-     :::image type="content" alt-text="shows the details for the Approvals app." source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
+    ![Image of the toggle to enable or disable Updates.](media/toggle-updates.png)
 
 ## Pin Updates to Teams
 
