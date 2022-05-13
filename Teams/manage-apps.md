@@ -133,7 +133,7 @@ When you block or allow an app on the Manage apps page, that app is blocked or a
 
 ## View and approve user request to unblock apps
 
-Users can send a request to add a blocked app from the Teams store, a request is sent to the IT admin for the approval. The admin unblocks the app by reviewing app permission and policies.
+Users can send a request to add a blocked app from the Teams store, a request is sent to the IT admin for the approval.
 
   :::image type="content" source="media/App-details1.png" alt-text="Place a request for blocked apps approval." lightbox="media/App-details1.png"border="true":::​
 
@@ -143,19 +143,27 @@ Users can send a request to add a blocked app from the Teams store, a request is
 
  1. In the **Manage apps** pane, an admin can view **Requested apps**.
 
- 1. Check the Requests column of the apps list and sort by apps that are requested.
+ 1. You can sort the **request by users** column to check the number of requests for each app.
 
-    :::image type="content" source="media/app-list-requested.png" alt-text="blocked apps requested." lightbox="media/app-list-requested.png"border="true":::​
+    :::image type="content" source="media/requested-apps.png" alt-text="Request apps"border="true":::
 
 ### Unblock an app
 
 1. Select **Manage apps**.
-1. Select the app you want to unblock and select **About**.
-1. A dialog displays **Manage user requests**, under which an admin has to verify the following:
+1. Select the app you want to unblock, from the request by users column.
+1. Select **Manage requests**. Based on the app settings and permission policies, a dialog box appears with the steps to approve user requests.
 
-   * Change the status to allow.
-   * [Review permission policies to allow the app.](teams-app-permission-policies.md)
-   * Allow third party apps in org wide settings.
+<!---Follow the steps to allow the app:
+
+If the app is blocked in permission policies
+
+* [Review permission policies to allow the app.](teams-app-permission-policies.md)
+
+If the app is blocked by permission policy and app setting
+
+* Change the status to allow.
+* [Review permission policies to allow the app.](teams-app-permission-policies.md)
+* Allow third party apps in org wide settings.  --->
 
 ### Reject a user request
 
