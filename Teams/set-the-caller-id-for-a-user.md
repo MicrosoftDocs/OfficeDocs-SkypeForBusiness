@@ -111,6 +111,7 @@ Connect-MicrosoftTeams -Credential $credential
    $ObjId = (Get-CsOnlineApplicationInstance -Identity dkcq@contoso.com).ObjectId
    New-CsCallingLineIdentity  -Identity DKCQ -CallingIDSubstitute Resource -EnableUserOverride $false -ResourceAccount $ObjId -CompanyName "Contoso"
    ```
+**Note**: Configuring the -CompanyName attribute here does not guarantee all PSTN recipients will see it. For more information read: [More about Calling Line ID and Calling Party Name](https://docs.microsoft.com/en-us/microsoftteams/more-about-calling-line-id-and-calling-party-name)
 
 If you have already created a policy, you can use the [Set-CsCallingLineIdentity](/powershell/module/skype/Set-CsCallingLineIdentity) cmdlet to make changes to the existing policy, and then use the [Grant-CsCallingLineIdentity](/powershell/module/skype/Grant-CsCallingLineIdentity) cmdlet to apply the settings to your users.
     
