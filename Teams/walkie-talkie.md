@@ -1,5 +1,5 @@
 ---
-title: "Walkie Talkie application in Microsoft Teams"
+title: "Walkie Talkie app in Microsoft Teams"
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -26,27 +26,32 @@ The Walkie Talkie app in Teams provides instant push-to-talk (PTT) communication
 
 With Walkie Talkie in Teams, frontline workers can now securely communicate with a familiar PTT experience without needing to carry bulky radios, and Walkie Talkie works anywhere with WiFi or cellular internet connectivity.
 
+> [!NOTE]
+> Walkie Talkie is currently not available in China.
+
 ## Getting started
 
 ### Deploying Walkie Talkie
 
-Walkie Talkie is supported on Android devices with Google Mobile Services (GMS) and iOS devices. 
+Walkie Talkie is supported on Android devices with Google Mobile Services (GMS) and iOS devices.
 
-Currently, Walkie Talkie is not pre-installed. To enable this feature for users in your organization, you need to add Walkie Talkie to the [App Setup Policy](teams-app-setup-policies.md) assigned to users from the [Teams Admin Center](https://admin.teams.microsoft.com/). Once enabled, Walkie Talkie will become available on the app within 48 hours.
+### Pin Walkie Talkie to Teams
 
-### Adding Walkie Talkie to your app list
+#### Use the Tailored frontline app experience to pin Walkie Talkie and other apps to Teams
 
-In the Microsoft Teams admin center, under **Teams app** > **Setup policies**, you should have **Allow user pinning** set to **On**. Then, under the Pinned Apps section, click **+Add Apps**.
+The tailored frontline app experience in Teams pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Pinned apps include Walkie Talkie, Shifts, Tasks, and Approvals. By default, this feature is on, giving your frontline workers an out-of-the-box experience that’s tailored to their needs.
 
-:::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="Shows the Pinned apps section and the Add Apps button to be selected.":::
+The apps are pinned to the app bar—the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients—where users can quickly and easily access them.
 
-On the **Add pinned apps** panel that appears on the right, use the **Search** textbox to look for Walkie Talkie. When you have it as a search result, select the **Add** button to the right of the name to add it to your list.
+To learn more, including how the experience works with app policies that you set, see [Tailor Teams apps for your frontline workers](pin-teams-apps-based-on-license.md).
 
-:::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="Shows the Add pinned apps sidebar with Walkie entered into the search pane and the Walkie Talkie app in the search results, with the Add button next to it.":::
+#### Use an app setup policy to pin Walkie Talkie to Teams
 
-The Walkie Talkie app should now appear on the Pinned Apps list, and be available for use once you click the **Save** button.
+App setup policies let you customize Teams to pin apps that are most important for your users in your users.
 
-:::image type="content" source="media/deploy-walkie-talkie-3.png" alt-text="Shows the Pinned apps list with the Walkie Talkie app added, and the Save button underneath the list.":::
+To pin the Walkie Talkie app for your users, you can edit the global (Org-wide default) policy or create and assign a custom app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
+
+:::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="Screenshot showing adding Walkie Talkie to the pinned apps list in the Add pinned apps pane." lightbox="media/deploy-walkie-talkie-2.png":::
 
 ### Network documentation
 
@@ -54,8 +59,8 @@ Walkie Talkie in Teams requires Internet connectivity and below the network cond
 
 |Metric | Required |
 |---|---|
-|Latency (RTT) | < 300ms |
-|Jitter |< 30ms |
+|Latency (RTT) | < 300 ms |
+|Jitter |< 30 ms |
 |Packet Loss |< 1% |
 
 As noted above, the quality of real-time media over an IP network is greatly impacted by the quality of the network connectivity, but especially by the amount of:
@@ -91,9 +96,9 @@ Walkie Talkie app is included in all paid licenses of Teams in [Office 365 subsc
 
 ## Further information
 
-- ITAdmins can maintain control over who is using Walkie Talkie through App Policies.
+- IT admins can maintain control over who is using Walkie Talkie through app policies.
 - If your frontline worker is using mobile data to communicate via Teams, Walkie Talkie will use the same method.
-- Walkie Talkie should work well in low bandwidth situations, or situations where your smartphone is connected and working. Walkie Talkie will not work when there is no connectivity at all.
+- Walkie Talkie should work well in low bandwidth situations, or situations where your smartphone is connected and working. Walkie Talkie won't work when there's no connectivity at all.
 
 For further reading on the end-user experience, see:
 

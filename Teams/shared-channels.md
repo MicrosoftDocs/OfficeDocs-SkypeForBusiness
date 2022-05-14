@@ -30,6 +30,8 @@ Only members of shared channels can see and participate in shared channels that 
 
 When a shared channel is created, it's linked to the parent team and can't be moved to a different team. Additionally, shared channels can't be converted to standard channels and vice versa.
 
+[Compare shared channels with other types of channels](/microsoftteams/teams-channels-overview#channel-feature-comparison).
+
 ## Best practices for the shared channels preview
 
 Shared channels is in preview and requires that you have configured [Microsoft Teams Public Preview](/MicrosoftTeams/public-preview-doc-updates). If you plan to share channels with other organizations, they must also have configured Teams public preview.
@@ -143,7 +145,7 @@ The following table describes the maximum number of channels and members.
 |Members in a team|25,000|Includes all users in the team and direct members in shared channels.|
 |Shared channels per team|50|Hosted and shared with the team. (Includes deleted channels during their 30-day recovery window.)|
 |Teams a channel can be shared with|50|Excluding parent team|
-|Members in a shared channel|1,000 direct members, including up to 50 teams. (Each team the channel is shared with counts as one member for purposes of this limit.)|Real time updates are only available to 25,000 users at a time and only 25,000 users will appear in the channel list.|
+|Members in a shared channel|5,000 direct members, including up to 50 teams. (Each team the channel is shared with counts as one member for purposes of this limit.)|Real time updates are only available to 25,000 users at a time and only 25,000 users will appear in the channel list.|
 
 The following limitations also apply:
 
