@@ -48,13 +48,13 @@ The TeamsNetworkRoamingPolicy contains the following parameters:
 After you've configured the policy, assign it to one or more network sites by using the [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite) cmdlet as follows:
 
 ```PowerShell
- Set-CsTenantNetworkSite -NetworkRoamingPolicy
+ Set-CsTenantNetworkSite -Identity Burlington -NetworkRoamingPolicy LowBandwidthSite
  ``` 
  
  To remove a policy from a network site, use the following cmdlet:
  
  ```PowerShell
- Set-CsTenantNetworkSite -NetworkRoamingPolicy $null
+ Set-CsTenantNetworkSite -Identity Burlington -NetworkRoamingPolicy $null
  ```
 
 To enable the network roaming policy for users who are not enterprise voice enabled, you must also enable the AllowNetworkConfigurationSettingsLookup setting in TeamsMeetingPolicy. This setting is off by default.

@@ -72,7 +72,7 @@ To learn more, read [Which Calling Plan is right for you?](calling-plan-landing-
 
 **Application Platform**: Apps provide out-of-the-box tools for your organization to get more out of Teams. These apps combine the functionality of tabs, messaging extensions, connectors, and bots provided by Microsoft, built by a third-party, or by developers in your organization.
 
-**Security and Compliance features:** Teams has a wide range of information to help you with compliance areas, including retention policies, Data Loss Protection (DLP), eDiscovery and legal hold for channels, chats and files, audit log search. To learn more, read [Security and compliance in Microsoft Teams](security-compliance-overview.md).  
+**Security and Compliance features:** Teams has a wide range of information to help you with compliance areas, including retention policies, data loss prevention (DLP), eDiscovery and legal hold for channels, chats and files, audit log search. To learn more, read [Security and compliance in Microsoft Teams](security-compliance-overview.md).  
 
 > [!NOTE]
 > Advance eDiscovery features require E5 licensing.
@@ -138,7 +138,7 @@ Learn more here: <a href="/microsoftteams/admin-settings">Admin settings for app
 <td><ul>
 <li><p>Retention policies are available.</p></li>
 <li><p>eDiscovery and Legal Hold for compliance on channel messages is supported.</p></li>
-<li><p>Data Loss Prevention policies (DLP) are available.</p></li>
+<li><p>Data loss prevention policies (DLP) are available.</p></li>
 </ul>
 <p>Full feature set available with Exchange Online; Exchange on-premises supports most of these features. For a full list, see <a href="/MicrosoftTeams/exchange-teams-interact">How Exchange and Teams interact</a>.</p></td>
 </tr>
