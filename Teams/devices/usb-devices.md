@@ -76,6 +76,7 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Poly                 |Studio P21 Monitor                                         |5/12/2022       |Certified for Microsoft Teams                           |
 |Yealink              |UH38 Headset                                               |5/2/2022        |Certified for Microsoft Teams                           |   
 |Yealink              |BH72 Headset                                               |5/2/2022        |Certified for Microsoft Teams                           |
 |Logitech             |Zone True Wireless Earbuds                                 |5/2/2022        |Certified for Microsoft Teams                           |
