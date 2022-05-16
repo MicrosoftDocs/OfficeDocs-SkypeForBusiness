@@ -134,7 +134,7 @@ Currently, the Updates app in Teams does not support Conditional Access policies
 
 Each team can contain at most 400 Updates templates, and each template can collect a maximum of 50,000 requests based on the current capability in Microsoft Forms.
 
-## Auditing (copied from Approvals)
+## Auditing (copied from Approvals - need additional input)
 
 The Updates app logs audit events within the Microsoft 365 Security and Compliance Center. You can view the audit log.
 
