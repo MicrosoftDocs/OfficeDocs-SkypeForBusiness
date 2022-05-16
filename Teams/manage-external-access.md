@@ -272,7 +272,7 @@ When users receive 1:1 chats from external users they are presented with a full-
 
 <img width="1920" alt="2  User Blocks Request (1)" src="https://user-images.githubusercontent.com/98335128/165155062-a47447b2-901b-48b1-9f0b-9123b606d3de.png">
 
-Blocking external users is available in multiple places within Teams, including the "..." menu on the chat list and "..." menu on the People Card. Users can also unblock via the "..." menu on the chat list, "..." menu on the People Card, or by visiting Settings >> Blocked Contacts >> Edit Blocked Contacts. Blocking is available prior to or after messages are sent.
+Blocking external users is available in multiple places within Teams, including the more (**...**) menu on the chat list and the more (**...**) menu on the people card. Users can also unblock external users via the more (**...**) menu on the chat list, the more (**...**) menu on the people card, or by visiting **Settings** > **Blocked contacts** > **Edit blocked contacts**. Blocking is available prior to or after messages are sent.
 
 Blocking external users prevents them from sending messages in 1:1 chats, adding the user to new Group Chats and viewing their presence. While Group Chat invitations are blocked, blocked users can be in the same chats with users that blocked them either because the chat was initiated prior to the block or the Group Chat invitation was sent by another member.
 
