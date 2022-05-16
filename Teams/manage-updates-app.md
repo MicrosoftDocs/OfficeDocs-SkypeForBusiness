@@ -25,16 +25,16 @@ ms.custom:
 
 ## What is the Updates app
 
-The Updates app in Teams provides a centralized place for members of your organization to create, review, and submit reports. By creating templates, you can use the Updates app to keep track of anything your organization needs.
+The Updates app in Teams provides a centralized place for members of your organization to create, review, and submit updates. By creating templates, you can use the Updates app to keep track of anything your organization needs.
 
-In Teams, users can get Updates from the Teams app store. They'll see all of the reports they need to submit on the **Submit** page.
-When a user is assigned a report, it will show up in their Teams activity feed. Users can also view all their current update requests and previous submissions in the Updates app. In addition, anyone can create templates and send out report requests.
+In Teams, users can get Updates from the Teams app store. They'll see all of the updates they need to submit on the **Submit** page.
+When a user is assigned an update, it will show up in their Teams activity feed. Users can also view all their current update requests and previous submissions in the Updates app. In addition, anyone can create templates and send out update requests.
 
-Updates comes with both out-of-the-box templates for common business scenarios and the option to create your own template. Anyone can create a template for new Updates reports. <!--link to end user content here-->
+Updates comes with both out-of-the-box templates for common business scenarios and the option to create your own template. Anyone can create a template for new types of updates. <!--link to end user content here-->
 
 ## Example scenario
 
-Employees at a clothing store are responsible for counting the till at opening and closing time every day. Whoever is in charge of counting fills out the report in Updates, where they can also explain any discrepancies. Sales staff also receive a number of requests for a certain sold-out item. They submit an inventory report to let the operations office know that the item is in high demand. Every 6 months, the store manager submits employee performance reviews in Updates.
+Employees at a clothing store are responsible for opening and closing the store every day. Every morning, the shift leader fills out the Store opening update, which is an out-of-the-box template in the Updates app. In this update, they describe any issues with the previous night's closing, answer questions about the cleanliness of the store, and report any supplies that need replenished. Submitting an update lets them communicate their needs for the store and any problems quickly and efficiently. Daily updates also give the store associates an opportunity to highlight what's going well.
 
 Meanwhile, a team of remote workers is updating the store's website. They're spread across time zones, so daily stand-up meetings aren't convenient. Instead, each of the team members submits daily Updates reports on their progress to the team leader.
 
@@ -108,7 +108,7 @@ The Updates app is available by default. You can disable the app in the Teams ad
 
 ### Use the Tailored frontline app experience to pin Updates and other apps to Teams
 
-The tailored frontline app experience in Teams pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Pinned apps include Approvals, Walkie Talkie, Tasks, and Shifts. By default, this feature is on, giving your frontline workers an out-of-the-box experience that’s tailored to their needs.
+The tailored frontline app experience in Teams pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Pinned apps include Updates, Approvals, Walkie Talkie, Tasks, and Shifts. By default, this feature is on, giving your frontline workers an out-of-the-box experience that’s tailored to their needs.
 
 The apps are pinned to the app bar—the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients—where users can quickly and easily access them.
 
@@ -192,8 +192,7 @@ Learn more about [Microsoft Dataverse and model-driven apps activity logging - P
 
 ## Security
 
-From the Teams Updates app, users have access to create new reports and view reports that they have sent and received. Users won't have access to Updates that are created by others unless they're either a responder or a viewer of the request.
+From the Teams Updates app, users have access to create new updates and view updates that they have sent and received. Users won't have access to Updates that are created by others unless they're a viewer of the request.
 
 > [!Note]
 > A user is given a viewer role of a request if they are part of the chat or channel where the update report was created. They won't have the ability to take action on the request if they weren't given that role when the report was created.
-
