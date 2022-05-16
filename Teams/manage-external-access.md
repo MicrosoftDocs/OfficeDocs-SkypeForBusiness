@@ -266,6 +266,13 @@ If you're an administrator, you can use the following diagnostic tool to validat
 
 3. The tests will return the best next steps to address any tenant or policy configurations that are preventing communication with the federated user.
 
+## User-level controls
+
+When users receive 1:1 chats from external users they are presented with a full-screen experience in which they can choose to **Preview** the message, **Accept** the chat, or **Block** the external user.
+
+Blocking external users is available in multiple places within Teams, including the more (**...**) menu on the chat list and the more (**...**) menu on the people card. Users can also unblock external users via the more (**...**) menu on the chat list, the more (**...**) menu on the people card, or by visiting **Settings** > **Blocked contacts** > **Edit blocked contacts**. Blocking is available prior to or after messages are sent.
+
+Blocking external users prevents them from sending messages in 1:1 chats, adding the user to new group chats, and viewing their presence. While group chat invitations are blocked, blocked users can be in the same chats with users that blocked them either because the chat was initiated prior to the block or the group chat invitation was sent by another member.
 
 ## Related topics
 
