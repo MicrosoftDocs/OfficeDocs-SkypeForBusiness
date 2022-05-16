@@ -39,7 +39,7 @@ Customer-reported Incidents can be closed by either the customer, partners manag
 
 1. Select **Close ticket**.
  
-  ![screenshot of the Incidents Overview details](../media/customer-reported-incidents-003.png)
+![screenshot of the Incidents Overview details](../media/customer-reported-incidents-003.png)
 
 1. Choose a reason for closure by selecting a category from the list.
 
@@ -51,7 +51,6 @@ Customer-reported Incidents can be closed by either the customer, partners manag
 
 Under the ticket details Overview section, the customer or partners managing rooms on behalf of customers can see who closed the ticket: either the Managed Rooms Service (Microsoft) or the name of the customer/partner.  
 
-![screenshot of the Incidents Overview details](../media/customer-reported-incidents-005.png)
 ## FAQ
 
 **Can anyone close tickets?**
