@@ -29,8 +29,6 @@ The Virtual appointments app provides a central hub for all your virtual appoint
 
 You can manage virtual appointments from Bookings, Teams, and Outlook, view reports to gain insight into virtual appointment activity, get real-time status updates in a queue view, and configure calendar and admin settings.
 
-:::image type="content" source="media/manage-virtual-appointments-app-home.png" alt-text="Screenshot of the Home page in the Virtual appointments app" lightbox="media/manage-virtual-appointments-app-home.png":::
-
 ## Overview of the Virtual appointments app
 
 The Virtual appointments app has the following tabs:
@@ -44,6 +42,8 @@ The Virtual appointments app has the following tabs:
 ### Home
 
 Get quick access to key information, actions, and updates. From here, you can...
+
+:::image type="content" source="media/manage-virtual-appointments-app-home.png" alt-text="Screenshot of the Home page in the Virtual appointments app" lightbox="media/manage-virtual-appointments-app-home.png":::
 
 ### Bookings schedule
 
