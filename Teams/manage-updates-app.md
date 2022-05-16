@@ -30,6 +30,14 @@ The Updates app in Teams provides a centralized place for members of your organi
 In Teams, users can get Updates from the Teams app store. They'll see all of the reports they need to submit on the **Submit** page.
 When a user is assigned a report, it will show up in their Teams activity feed. Users can also view all their current update requests and previous submissions in the Updates app. In addition, anyone can create templates and send out report requests.
 
+Updates comes with both out-of-the-box templates for common business scenarios and the option to create your own template. Anyone can create a template for new Updates reports. <!--link to end user content here-->
+
+## Example scenario
+
+Employees at a clothing store are responsible for counting the till at opening and closing time every day. Whoever is in charge of counting fills out the report in Updates, where they can also explain any discrepancies. Sales staff also receive a number of requests for a certain sold-out item. They submit an inventory report to let the operations office know that the item is in high demand. Every 6 months, the store manager submits employee performance reviews in Updates.
+
+Meanwhile, a team of remote workers is updating the store's website. They're spread across time zones, so daily stand-up meetings aren't convenient. Instead, each of the team members submits daily Updates reports on their progress to the team leader.
+
 ## Required permissions and licenses
 
 You need permission for the following items to deploy Updates:
@@ -40,13 +48,13 @@ You need permission for the following items to deploy Updates:
 
 - Administrator Role in your target environment.
 
-- License for [Power Automate](/power-automate/get-started-approvals), Office 365, or Dynamics 365.
+- License for Power Automate, Office 365, or Dynamics 365.
 
 - License for Microsoft Forms is required for users to set up new templates.
 
 ## Storage with Microsoft Dataverse
 
-The Common Data Model (CDM) is the shared data language used by business and analytical applications in the Microsoft Dataverse. It consists of a set of standardized, extensible data schemas published by Microsoft and our partners that enables consistency of data and its meaning across applications and business processes. Learn more about the [Common Data Model of the Microsoft Power Platform](/power-automate/get-started-approvals).
+The Common Data Model (CDM) is the shared data language used by business and analytical applications in the Microsoft Dataverse. It consists of a set of standardized, extensible data schemas published by Microsoft and our partners that enables consistency of data and its meaning across applications and business processes. Learn more about the [Common Data Model](/common-data-model/).
 
 Updates that are created from a template still store data in Microsoft Dataverse, such as their title, details, template ID, and more. Responses that are submitted on the update request are stored in Forms. Learn more about  [Data storage for Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
 
@@ -78,7 +86,7 @@ The Updates Teams app lets you access the following features:
 
 - Use the team's information to contact them.
 
-## Disable the Approvals app
+## Disable the Updates app
 
 The Updates app is available by default. You can disable the app in the Teams admin center.
 
@@ -126,11 +134,11 @@ Currently, the Updates app in Teams does not support Conditional Access policies
 
 Each team can contain at most 400 Updates templates, and each template can collect a maximum of 50,000 requests based on the current capability in Microsoft Forms.
 
-## Auditing (copied from approvals)
+## Auditing (copied from Approvals)
 
-The Approvals App logs audit events within the Microsoft 365 Security and Compliance Center. You can view the audit log.
+The Updates app logs audit events within the Microsoft 365 Security and Compliance Center. You can view the audit log.
 
-1. Go to the Microsoft 365 Compliance Site.
+1. Go to the [Microsoft Purview compliance portal](https://compliance.microsoft.com/)
 
 2. Select the **Audit** section.
 
@@ -189,12 +197,3 @@ From the Teams Updates app, users have access to create new reports and view rep
 > [!Note]
 > A user is given a viewer role of a request if they are part of the chat or channel where the update report was created. They won't have the ability to take action on the request if they weren't given that role when the report was created.
 
-## Templates
-
-Updates comes with both out-of-the-box templates for common business scenarios and the option to create your own template. Anyone can create a template for new Updates reports. <!--link to end user content here-->
-
-## Example scenario (new content for Updates)
-
-Employees at a clothing store are responsible for counting the till at opening and closing time every day. Whoever is in charge of counting fills out the report in Updates, where they can also explain any discrepancies. Sales staff also receive a number of requests for a certain sold-out item. They submit an inventory report to let the operations office know that the item is in high demand. Every 6 months, the store manager submits employee performance reviews in Updates.
-
-Meanwhile, a team of remote workers is updating the store's website. They're spread across time zones, so daily stand-up meetings aren't convenient. Instead, each of the team members submits daily Updates reports on their progress to the team leader.
