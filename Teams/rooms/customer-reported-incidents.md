@@ -23,11 +23,11 @@ description: Partners/Customers can manually close incidents and ensure accurate
 
 For any type of incident that Microsoft did not flag, or for questions about the service/features, customers or partners on behalf of customers can use the Report Incident feature to alert Microsoft to investigate the problem or answer the question.
 
-![screenshot of the Incidents->Report incident](../media/customer-reported-incidents-001.png)
+<!--![screenshot of the Incidents->Report incident](../media/customer-reported-incidents-001.png)-->
 
 In the Description field, as best as possible, describe the issue that you need help with from Microsoft. You can add one or more of the rooms.
 
-![screenshot of the incident report rooms affected](../media/customer-reported-incidents-002.png)
+<!--![screenshot of the incident report rooms affected](../media/customer-reported-incidents-002.png)-->
 
 Customer-reported incidents (CRIs) are considered Critical tickets which means that the MTRP Service Operations Center triage these tickets first.  (See the Service Description SLA for Customer-reported incidents [here](microsoft-teams-rooms-premium.md) When a room or rooms are selected as part of the CRI, each room will be marked as Unhealthy, until the CRI is closed.
 
@@ -38,7 +38,7 @@ Customer-reported Incidents can be closed by either the customer, partners manag
 **To close an incident**
 
 1. Select **Close ticket**.
- 
+
 ![screenshot of the Incidents Overview details](../media/customer-reported-incidents-003.png)
 
 1. Choose a reason for closure by selecting a category from the list.
