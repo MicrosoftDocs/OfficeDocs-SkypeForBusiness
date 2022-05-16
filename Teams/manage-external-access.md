@@ -266,7 +266,8 @@ If you're an administrator, you can use the following diagnostic tool to validat
 
 3. The tests will return the best next steps to address any tenant or policy configurations that are preventing communication with the federated user.
 
-## User-Level Controls
+## User-level controls
+
 When users receive 1:1 chats from external users they are presented with a full-screen experience in which they can choose to **Preview** the message, **Accept** the chat, or **Block** the external user.
 
 <img width="1920" alt="2  User Blocks Request (1)" src="https://user-images.githubusercontent.com/98335128/165155062-a47447b2-901b-48b1-9f0b-9123b606d3de.png">
