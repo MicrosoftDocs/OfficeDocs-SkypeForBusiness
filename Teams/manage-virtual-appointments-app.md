@@ -35,12 +35,41 @@ You can manage virtual appointments from Bookings, Teams, and Outlook, view repo
 
 The Virtual appointments app has the following tabs:
 
-- **Home**: This tab gives you quick access to key information, actions, and updates. From here, you can
-- **Bookings schedule**: Access your Bookings calendar to schedule virtual appointments such as healthcare visits, financial consultations, interviews, education office hours, and virtual fittings and consultations. You can connect an existing Bookings calendar or create a new one. To learn more, see [Virtual appointments with Teams and the Bookings app](expand-teams-across-your-org/bookings-virtual-visits.md).
-- **Queue**: View and monitor all virtual appointments in the Bookings calendar that you pinned, with updates in real time. From here, you can add a new booking, view relevant appointment details, see appointment statuses throughout the day, and send appointment reminders to assign staff and attendees. Staff can even join appointments directly from the queue. To learn more, see [Monitor appointments and get real-time status updates](expand-teams-across-your-org/bookings-virtual-visits.md#monitor-appointments-and-get-real-time-status-updates).
-- **Analytics**: Get insight into usage activity and trends in your organization to help optimize virtual appointments to deliver better business outcomes. You can view key metrics such as total number of appointments, appointment duration, lobby wait time, and no shows. To learn more, see [Teams Virtual Visits usage report](teams-analytics-and-reports/virtual-visits-usage-report.md)
-- **Manage**: Customize appointment types, set reminders, update business details, add staff and assign roles.
+- [Home](#home)
+- [Bookings schedule](#bookings-schedule)
+- [Queue](#queue)
+- [Analytics](#analytics)
+- [Manage](#manage)
 
+### Home
+
+Get quick access to key information, actions, and updates. From here, you can...
+
+### Bookings schedule
+
+Access your Bookings calendar to schedule virtual appointments such as healthcare visits, financial consultations, interviews, education office hours, and virtual fittings and consultations. You can connect an existing Bookings calendar or create a new one. To learn more, see [Virtual appointments with Teams and the Bookings app](expand-teams-across-your-org/bookings-virtual-visits.md).
+
+[placeholder for screenshot]
+
+### Queue
+
+View and monitor all virtual appointments in the Bookings calendar that you pinned, with updates in real time. From here, you can add a new booking, view relevant appointment details, see appointment statuses throughout the day, and send appointment reminders to assign staff and attendees. Staff can even join appointments directly from the queue. To learn more, see [Monitor appointments and get real-time status updates](expand-teams-across-your-org/bookings-virtual-visits.md#monitor-appointments-and-get-real-time-status-updates).
+
+[placeholder for screenshot]
+
+### Analytics
+
+Get insight into usage activity and trends in your organization to help optimize virtual appointments to deliver better business outcomes. You can view key metrics such as total number of appointments, appointment duration, lobby wait time, and no shows. To learn more, see [Teams Virtual Visits usage report](teams-analytics-and-reports/virtual-visits-usage-report.md)
+
+[placeholder for screenshot]
+
+### Manage
+
+Manage your calendar and admin settings.
+
+For your Bookings calendar, you can update your business details, customize appointment types, set reminders, and add staff and assign roles. You can also configure admin settings such as departments and capacity allocation for the Teams EHR connector, your Booking page, and third-party connectors.
+
+[placeholder for screenshot]
 
 ## What you need to know about Virtual appointments
 
