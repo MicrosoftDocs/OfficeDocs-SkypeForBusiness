@@ -34,6 +34,8 @@ Calls between users in your organization are handled internally within Phone Sys
 
 For making external calls, Phone System provides add-on options for connecting to the PSTN. For more information about voice solutions and PSTN connectivity options, see [Plan your Teams voice solution](cloud-voice-landing-page.md) and [Connect to the PSTN](#connect-to-the-public-switched-telephone-network-pstn).
 
+Phone System is available world wide except for Macau. 
+
 ## Phone System features
 
 With Phone System, users can use Teams to place and receive calls, transfer calls, and mute or unmute calls. Phone System users can click a name in their address book, and place Teams calls to that person. To place and receive calls, Phone System users can use their mobile devices, a headset with a laptop or PC, or one of many IP phones that work with Teams. 

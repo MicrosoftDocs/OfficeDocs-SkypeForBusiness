@@ -42,7 +42,7 @@ Learn more about [working in teams](https://support.office.com/article/teams-and
 
 Best practice: Create teams with a larger set of members and more channels. Minimize the number of teams that require a person's participation. Channels within a team should be thought of as topics or workstreams to aid the team in organizing their work to deliver on their joint objectives. There is no specific number of channels that should be created. Each team should craft channels based on their work, priorities, and style.
 
-Use standard channels for conversations that everyone on the team can contribute to. Take advantage of [Private channels in Teams](private-channels.md) when you need a focused collaboration space with a select group of members.
+Use standard channels for conversations that everyone on the team can contribute to. Take advantage of [private channels](private-channels.md) when you need a focused collaboration space with a select group of team members. Use [shared channels](shared-channels.md) when you need to collaborate with people outside the team.
 
 Larger organizations may want to create teams as "templates" to standardize the information they capture about specific types of work. This is useful for strategic customer management, classroom management, health care scenarios, claim management, incident management and other scenarios appropriate to a specific industry. To learn more, check out [Get started with Teams templates](get-started-with-teams-templates.md) and [Teams templates for small and medium businesses](smb-templates.md).
 

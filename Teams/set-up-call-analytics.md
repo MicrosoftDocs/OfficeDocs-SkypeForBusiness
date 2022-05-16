@@ -19,7 +19,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Reporting
-description: "Set up per-user call analytics for to identify and troubleshoot Microsoft Teams call quality problems."
+description: "Set up per-user call analytics to identify and troubleshoot Microsoft Teams call quality problems."
 ---
 
 # Set up call analytics for Microsoft Teams
@@ -50,7 +50,7 @@ If you're a Teams or Skype for Business admin, you can use an existing tenant an
 
 - To download an existing data file, go to **Microsoft Teams admin center** > **Analytics & reports** > **Call Quality Dashboard** > **Upload now**. In the **My uploads** list, click **Download** next to the file you want. 
 
-- To upload the new file, go to **Microsoft Teams admin center** > **Locations**, and then select **Upload location data** or **Replace location data**.
+- To upload the new file, see [Add and update reporting labels](/microsoftteams/learn-more-about-site-upload).
   
 If you're creating the .tsv or .csv file from scratch, see [Upload tenant and building data](CQD-upload-tenant-building-data.md).
   

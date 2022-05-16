@@ -1,7 +1,7 @@
 ---
 title: "Build a Microsoft Teams Rooms image"
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: Travis-Snoozy
 manager: serdars
 audience: ITPro
@@ -112,30 +112,36 @@ In Creator's Update, you will need to use the ApplyCurrentRegionAndLanguage.ps1 
     
 4. Select **Time &amp; language**.
     
-5. Select **Region &amp; language**.
+5. Select **language**.
     
 6. Select **Add a language**.
     
 7. Select the language you wish to add.
     
-8. Select the language you just added to the "Languages" list.
+8. Install language features.
     
-9. Select **Set as default**.
+9. Do not check Set as my Windows display language.
     
-10. For any languages you wish to remove:
+10. Select **Install**.
+    
+11. Select the language you just added to the "Languages" list.
+    
+12. Set as default- Move up arrow to set default
+
+13. For any languages you wish to remove:
     
     a. Select the language you wish to remove.
     
-    b. Select **Remove**.
-    
-11. Start an elevated command prompt.
-    
-12. Run the following command: 
+    b. Select Remove.
+
+14. Start an elevated command prompt.
+
+15. Run the following command: 
     ```PowerShell
     powershell -executionpolicy unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentRegionAndLanguage.ps1
     ```
     
-13. Restart the system.
+16. Restart the system.
     
 Your desired language is now applied to the Microsoft Teams Rooms console.
 ## Initial set up of the console
@@ -149,12 +155,12 @@ After Windows is installed, the Microsoft Teams Rooms app will go into its initi
    
 3. Select the supported meeting mode - Microsoft Teams Only, Skype for Business Only, or one of the two mixed-mode options. If necessary, enable Modern Authentication.
 
-4. Click **Next**.
+4. Select **Next**.
     
 5. If using Skype for Business and if the Skype for Business SIP domain is different from the Exchange domain of the user, set the FQDN for the Skype for Business Server in the Advanced section. If you are not using Skype for Business or the SIP domain matches the Exchange domain, leave this section blank.
-6. Click **Next**.
+6. Select **Next**.
     
-7. Click **Finish**.
+7. Select **Finish**.
     
 The Microsoft Teams Rooms app should signing in to Microsoft Teams or Skype for Business Server with the credentials entered above, and should also begin syncing its calendar with Exchange using those same credentials. For details on using Teams Rooms, refer to the [Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
   
@@ -190,7 +196,7 @@ Microsoft Teams Rooms needs to trust the certificates used by the servers it con
 ### Join an Active Directory domain (Optional)
 <a name="Certs"> </a>
 
-You can join Microsoft Teams Rooms to your domain. Microsoft Teams Rooms should be placed in a separate OU from your PC workstations because many workstation policies are not compatible with Microsoft Teams Rooms. A common example are password enforcement policies that will prevent Microsoft Teams Rooms from starting up automatically. For information about the management of GPO settings, refer to [Manage Microsoft Teams Rooms](rooms-operations.md).
+You can join Microsoft Teams Rooms to your domain. Microsoft Teams Rooms should be placed in a separate OU from your PC workstations because many workstation policies are not compatible with Microsoft Teams Rooms. A common example is a password enforcement policy that will prevent Microsoft Teams Rooms from starting up automatically. For information about the management of GPO settings, refer to [Manage Microsoft Teams Rooms](rooms-operations.md).
   
 ### To join Microsoft Teams Rooms to a domain
 

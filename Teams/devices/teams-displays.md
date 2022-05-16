@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Teams displays"
-ms.author: serdars
-author: SerdarSoysal
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -48,6 +48,17 @@ To learn more about how to deploy Teams displays using Intune, see [Deploy Teams
 ## Manage Teams displays in your organization
 
 To manage your Teams display devices, in the left navigation of the Microsoft Teams admin center, go to **Teams displays**. From here, you can change the device configuration profile, manage updates, restart devices, add and remove device tags, and more. For more information, see [Manage your devices in Teams](device-management.md).
+
+## Set up hot desking on Teams displays
+
+Hot desking allows people in your organization to reserve temporary workspaces in advance through Teams and Outlook, or from the device itself. When hot desking is enabled, users sign into Teams displays with their Microsoft 365 credentials to access their meetings, chats, and files. When they sign out, all their personal information is removed from the device.
+
+To get started, you'll need to acquire Microsoft Teams Rooms Standard licenses and create resource accounts for each Teams display. See [Create resource accounts for rooms and shared Teams devices](../rooms/with-office-365.md) to create resource accounts.
+
+After you create resource accounts, you can create and assign a policy to enable hot desking. See [New-CsTeamsIPPhonePolicy](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps) to learn more.
+
+> [!IMPORTANT]
+> Because Teams displays with hot desking are used in shared workspaces by multiple people, Conditional Access rules and other identity configurations in your environment, like Multi-Factor Authentication, can impact these devices and cause sign-in issues. For guidance on securing shared devices, see [Authentication best practices for shared Teams Android devices](authentication-best-practices-for-android-devices.md).
 
 ## Upgrade Teams phones to Teams displays
 

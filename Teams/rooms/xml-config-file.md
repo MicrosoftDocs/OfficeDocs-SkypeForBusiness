@@ -1,7 +1,7 @@
 ---
 title: Remotely manage Microsoft Teams Rooms device settings
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -59,6 +59,8 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
   <DisableTeamsAudioSharing>true</DisableTeamsAudioSharing>
   <FrontRowEnabled>true</FrontRowEnabled>
   <DefaultFoRExperience>0</DefaultFoRExperience>
+  <EnablePublicPreview>false</EnablePublicPreview>
+  <NoiseSuppressionDefault>0</NoiseSuppressionDefault>
   <SendLogs>
     <EmailAddressForLogsAndFeedback>username@microsoft.com</EmailAddressForLogsAndFeedback>
     <SendLogsAndFeedback>True</SendLogsAndFeedback>
@@ -88,6 +90,15 @@ Any text editor can be used to create a settings file. The **XML Elements** tabl
       <Whiteboard default="true" enabled="true"/>
     </Settings>
   </CoordinatedMeetings>
+  <EnableResolutionAndScalingSetting>true</EnableResolutionAndScalingSetting> 
+  <MainFoRDisplay> 
+      <MainFoRDisplayResolution>1920,1080</MainFoRDisplayResolution> 
+      <MainFoRDisplayScaling>100</MainFoRDisplayScaling> 
+  </MainFoRDisplay> 
+  <ExtendedFoRDisplay> 
+      <ExtendedFoRDisplayResolution>1920,1080</ExtendedFoRDisplayResolution> 
+      <ExtendedFoRDisplayScaling>100</ExtendedFoRDisplayScaling> 
+  </ExtendedFoRDisplay>  
 </SkypeSettings>
 ```
 
@@ -123,6 +134,8 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | \<DisableTeamsAudioSharing\>                | Boolean &#x2777;            | First &#x2776; | Set to true to disable HDMI audio sharing to meeting participants in Teams meeting. The default is false.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | \<FrontRowEnabled>                          | Boolean &#x2777;            | First &#x2776; | Enabled by default. If false, Front Row is disabled.
 | \<DefaultFoRExperience>                     | Boolean &#x2777;            | First &#x2776; | Gallery View by default. Put 1 to change the default layout from Gallery View to Front Row.
+| \<EnablePublicPreview\>                     | Boolean &#x2777;            | First &#x2776; | Disabled by default. If true, public preview is enabled and end-users can access features in public preview on enabled Teams Rooms. See [Public preview for Microsoft Teams Rooms on Windows](../public-preview-doc-updates.md#public-preview-for-microsoft-teams-rooms-on-windows) for more information. |
+| \<NoiseSuppressionDefault\>                 | Boolean &#x2777;            | First &#x2776; | Enabled by default. Put 0 to disable. Disabling will not impact desktop setting this is only applicable to Teams Room account.
 | \<CortanaWakewordEnabled\>                  | Boolean &#x2777;            | First &#x2776; | Set to true to enable the Cortana wake word "Hey Cortana". This setting doesn't have any effect unless the Cortana service is supported in your country or region and your connected audio peripheral supports Cortana. The default is false.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | \<SendLogs\>                                | Container                   | First &#x2776; |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | \<EmailAddressForLogsAndFeedback\>          | String  &#x2778;            |                | Sets an optional email address that logs can be sent to when the "Give Feedback" window appears.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -147,6 +160,13 @@ If a variable value is of the wrong type, elements are out of order, elements ar
 | \<Audio\>                                   | Boolean &#x2777;            |                | Controls audio configuration on a Teams Rooms device. This element has two attributes:<br><ul><li><b>default</b> Determines on which device the microphone will be active when a meeting starts. Only one device (typically a Teams Rooms device) can have this field set to `true` while the rest of the devices must have this field set to `false` to avoid audio echo and feedback.</li><li><b>enabled</b> Determines whether participants in a meeting can toggle the microphone on or off. Devices on which **Audio default** is set to `false` should have this setting set to `false` so that participants can't accidentally turn on a microphone and cause audio echo or feedback.<p>If **Audio default** is set to `true`, the **Audio enabled** setting is ignored and participants can mute or unmute the microphone.</li></ul>                        |
 | \<Video\>                                   | Boolean &#x2777;            |                | Controls video configuration on a Teams Rooms device. This element has two attributes:<br><ul><li><b>default</b> Determines on which device the camera will be active when a meeting starts. For the best experience, we recommend that only the Teams Rooms device be set to `true` while all other devices are set to `false`.</li><li><b>enabled</b> Determines whether participants in a meeting can toggle the camera on or off. You can set this to `true` on any other devices in the event participants want to share different video perspectives (such as if a participant is using the Surface Hub whiteboard). If you don't want participants to turn a camera on or off on a device, set this to `false`.<p> If **Video default** is set to `true`, the **Video enabled** setting is ignored and participants can turn the camera on or off.</li></ul> |
 | \<Whiteboard\>                              | Boolean &#x2777;            |                | Controls whiteboard configuration on a Teams Rooms device. This element has two attributes:<br><ul><li><b>default</b> Determines on which device the whiteboard will be active when a meeting starts. For the best experience, we recommend that the Teams Rooms device be set to `false` and that you use the whiteboard on a Surface Hub.</li><li><b>enabled</b> Determines whether participants in a meeting can toggle the whiteboard on or off. If you don't want participants to turn the whiteboard on or off on a device, set this to `false`.<p> If **Whiteboard default** is set to `true`, the **Whiteboard enabled** setting is ignored and participants can turn the whiteboard on or off.</li></ul>                                                                                                                                                   |
+| \<EnableResolutionAndScalingSetting\> | Boolean &#x2777; | First &#x2776; | By default it is disabled. If you want to change your Front of Room's resolution and scaling, set it to true. If true, the display resolution and scale setting will be applied. This setting will affect both the Main FoR and Extended FoR once this setting is enabled. |
+| \<MainFoRDisplay\> | Container | | Use this container if your device is using single display mode.<br><br>In dual display mode, Main Front of Room (FoR) is a screen with clock (out of meeting) and self-preview video (in meeting). \<MainFoRDisplayResolution\> and \<MainFoRDisplayScaling\> have to be set together at a time. If you only use either \<MainFoRDisplayResolution\> or \<MainFoRDisplayScaling\>, it will be ignored. |
+| \<MainFoRDisplayResolution\> | String | | Input numeric value of Width, Height (e.g. 1920,1080). It will be ignored if your FoR does not support it.|
+| \<MainFoRDisplayScaling\> | Number | | Input numeric value of scaling. Valid values are 100 (recommended), 125, 150, 175, 200, 225, 250, 300, 350, 400, 450, and 500. If you input 500 and your FoR supports up to 300, it will be set to 300.|
+| \<ExtendedFoRDisplay\> | Container | | In dual display mode, Extended Front of Room (FoR) is a screen where you see shared content (in meeting).  \<ExtendedFoRDisplayResolution\> and \<ExtendedFoRDisplayScaling\> have to be set together at a time. If you only use either \<ExtendedFoRDisplayResolution\> or \<ExtendedFoRDisplayScaling\>, it will be ignored. |
+| \<ExtendedFoRDisplayResolution\> | String | |Input numeric value of Width, Height (for example: 1920,1080). A value will be ignored if your FoR does not support it. |
+| \<ExtendedFoRDisplayScaling\> | Number | | Input numeric value of scaling. Valid values are 100 (recommended), 125, 150, 175, 200, 225, 250, 300, 350, 400, 450, and 500. If you input 500 and your FoR supports up to 300, it will be set to 300. |
 
 &#x2776; All of the first-level elements are optional. If a first-level element is omitted, all of its child parameters remain unchanged on the device.
   
@@ -249,11 +269,17 @@ To locate the instance path:
 
 If you don't set a default display layout for a room in your XML configuration, the default layout will be set to Gallery. To see Front row as the default layout, add ```<DefaultFoRExperience>1</DefaultFoRExperience>``` to your XML configuration file.
 
-End-users can switch from the default display layout using the layout picker during mettings.
+End-users can switch from the default display layout using the layout picker during meetings.
 
 ## Turn off Front row
 
-Front row is enabled by default. Turn off Front row if you don't want allow end-users to use Front row in a certain room. To do this, add ```<FrontRowEnabled>false</FrontRowEnabled>``` to your XML configuration file.
+Front row is enabled by default. Turn off Front row if you don't want to allow end-users to use Front row in a certain room. To do this, add ```<FrontRowEnabled>false</FrontRowEnabled>``` to your XML configuration file.
+
+## Set Front of Room scale and resolution
+
+To set the scale and resolution for your Front of Room displays, add ```<EnableResolutionAndScalingSetting>true</EnableResolutionAndScalingSetting>``` to your XML configuration file with the `<MainFoRDisplay>` container. If your device is using dual displays, include `<ExtendedFoRDisplay>` container too. 
+
+If you use both `<MainFoRDisplay>` and `<ExtendedFoRDisplay>` containers together for your Teams Room using single display, the `<ExtendedFoRDisplay>` container will be ignored. Refer to the example XML and elements table above for more information.
 
 ## See also
 

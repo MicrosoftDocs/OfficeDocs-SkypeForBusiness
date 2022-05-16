@@ -189,6 +189,9 @@ Here's the policy areas and corresponding policy names covered by the wizard. To
 
 Here's a summary of the settings applied by the wizard for each policy area.
 
+> [!NOTE]
+> Only team owners can create shared channels.<br><br>Shared channels with other organizations requires configuration of [Azure AD B2B direct connect](/azure/active-directory/external-identities/b2b-direct-connect-overview) which is disabled by default. See [Collaborate with external participants in a channel](/microsoft-365/solutions/collaborate-teams-direct-connect) to enable this feature.
+
 #### [**Students**](#tab/student-settings/)
 
 Here's a list of the Global (Org-wide default) policy definitions adjusted by the wizard and applied to students.
@@ -196,11 +199,14 @@ Here's a list of the Global (Org-wide default) policy definitions adjusted by th
 |Policy area |Sub-area  |Policy setting  |Primary or Secondary |Higher education |
 |---------|---------|---------|---------|---------|
 |Teams policy   |         |Create private channels         |Off       |On|
-|Meetings policy    |General         |Meet now in channels         |Off      |On|
-|  |        |Outlook add-in         |Off       |On|
-|  |        |Channel meeting scheduling        |Off      |On|
-|  |        |Private meeting scheduling       |Off      |On|
-|  |        |Meeting registration              |On       |On|
+|               |         |Create shared channels         |On       |On|
+|               |         |Share channel with external participants         |On       |On|
+|               |         |Participate in an external shared channel         |On       |On|
+|Meetings policy    |General         |Allow Meet now in channels         |Off      |On|
+|  |        |Allow the Outlook add-in         |Off       |On|
+|  |        |Allow channel meeting scheduling        |Off      |On|
+|  |        |Allow scheduling private meetings       |Off      |On|
+|  |        |Allow meeting registration              |On       |On|
 |  |        |Who can register    |Everyone in the organization      |Everyone in the organization|
 |  |Audio & video        |Transcription        |On       |On|
 |  |        |Cloud recording         |Off      |On|
@@ -266,11 +272,14 @@ Here's a list of the custom policy definitions assigned to the educators and sta
 |Policy area |Sub-area  |Policy setting  |Primary or Secondary |Higher education |
 |---------|---------|---------|---------|---------|
 |Teams policy   |         |Create private channels         |On       |On|
-|Meetings policy    |General         |Meet now in channels         |On      |On|
-|  |        |Outlook add-in         |On       |On|
-|  |        |Channel meeting scheduling        |On      |On|
-|  |        |Private meeting scheduling       |On      |On|
-|  |        |Meeting registration              |On       |On|
+|               |         |Create shared channels         |On       |On|
+|               |         |Share channel with external participants         |On       |On|
+|               |         |Participate in an external shared channel         |On       |On|
+|Meetings policy    |General         |Allow Meet now in channels         |On      |On|
+|  |        |Allow the Outlook add-in         |On       |On|
+|  |        |Allow channel meeting scheduling        |On      |On|
+|  |        |Allow scheduling private meetings       |On      |On|
+|  |        |Allow meeting registration              |On       |On|
 |  |        |Who can register    |Everyone in the organization      |Everyone in the organization|
 |  |Audio & video        |Transcription        |On       |On|
 |  |        |Cloud recording         |On      |On|

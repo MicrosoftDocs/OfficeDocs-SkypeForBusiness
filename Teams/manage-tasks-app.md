@@ -1,8 +1,8 @@
 ---
 title: Manage the Tasks app for your organization in Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
@@ -32,7 +32,7 @@ The Tasks app brings a cohesive task management experience to Microsoft Teams, i
 > [!NOTE]
 > As we roll out the Tasks experience on Teams desktop clients, the app name will initially appear as **Planner** to users. The name will then temporarily change to **Tasks by Planner and To Do**, and later on, it will be renamed to **Tasks**. On Teams mobile clients, users will always see the app name as **Tasks**. There may be a short delay in the availability of the mobile experience after the desktop experience is available.
 
-   ![Screenshot of list view of tasks on Teams list.](media/manage-tasks-app-tasks.png)
+:::image type="content" source="media/manage-tasks-app-tasks.png" alt-text="Screenshot of list view of tasks." lightbox="media/manage-tasks-app-tasks.png":::
 
 For organizations who want to streamline task management for Frontline Workers, Tasks also includes capabilities that enable you to target, publish, and track tasks at scale across your Frontline Workforce. For example, corporate and regional leadership can create and publish task lists targeted to relevant locations, such as specific retail stores, and track progress through real-time reports. Managers can assign tasks to their staff and direct activities within their locations, and Frontline Workers have a prioritized list of their assigned tasks on mobile or desktop. To enable [task publishing](#task-publishing), first set up a team targeting hierarchy for your organization, which defines how all teams in the hierarchy are related to each other.
 
@@ -57,7 +57,7 @@ With Tasks, users get a desktop, web, and mobile experience. If Tasks is install
 
 Tasks is enabled by default for all Teams users in your organization. You can turn off or turn on the app at the org level on the [Manage apps](manage-apps.md) page in the Microsoft Teams admin center.
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps** .
+1. In the left pane of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.
 2. In the list of apps, do one of the following actions:
 
     - To turn off Tasks for your organization, search for the Tasks app, select it, and then select **Block**.
@@ -70,9 +70,19 @@ Tasks is enabled by default for all Teams users in your organization. You can tu
 
 To allow or block specific users in your organization from using Tasks, make sure Tasks is turned on for your organization on the [Manage apps](manage-apps.md) page, and then create a custom app permission policy and assign it to those users. To learn more, see [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
-### Use an app setup policy to pin Tasks to Teams
+### Pin Tasks to Teams
 
-App setup policies let you customize Teams to highlight the apps that are most important for users in your organization. The apps you set in a policy are pinned to the app bar—the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients—where users can quickly and easily access them.
+#### Use the Tailored frontline app experience to pin Tasks and other apps to Teams
+
+The tailored frontline app experience in Teams pins the most relevant apps in Teams for users who have an [F license](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt). Pinned apps include Tasks, Walkie Talkie, Shifts, and Approvals. By default, this feature is on, giving your frontline workers an out-of-the-box experience that’s tailored to their needs.
+
+The apps are pinned to the app bar—the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients—where users can quickly and easily access them.
+
+To learn more, including how the experience works with app policies that you set, see [Tailor Teams apps for your frontline workers](pin-teams-apps-based-on-license.md).
+
+#### Use an app setup policy to pin Tasks to Teams
+
+App setup policies let you customize Teams to pin apps that are most important for your users in your users.
 
 To pin the Tasks app for your users, you can edit the global (Org-wide default) policy or create and assign a custom app setup policy. To learn more, see [Manage app setup policies in Teams](teams-app-setup-policies.md).
 
@@ -86,13 +96,14 @@ We don't recommend removing an Exchange Online license for information workers, 
 
 With task publishing, your organization can publish task lists targeted to specific locations (teams) across your organization to define and share a work plan to be completed at those locations.
 
-- People on the publishing team, such as corporate or regional leadership, can create task lists and publish them to specific teams.<br>
-    ![Screenshot of task publishing.](media/manage-tasks-app-publish.png)
-- Managers on the recipient teams can review the published task lists and assign individual tasks to team members.<br>
-    ![Screenshot of assigning a task.](media/manage-tasks-app-assign.png)
+- People on the publishing team, such as corporate or regional leadership, can create task lists and publish them to specific teams.
+
+    :::image type="content" source="media/manage-tasks-app-publish.png" alt-text="Screenshot of task publishing." lightbox="media/manage-tasks-app-publish.png":::
+- Managers on the recipient teams can review the published task lists and assign individual tasks to team members.
+    :::image type="content" source="media/manage-tasks-app-assign.png" alt-text="Screenshot of assigning a task." lightbox="media/manage-tasks-app-assign.png":::
 - Frontline Workers have a simple mobile experience to see tasks assigned to them. They can attach photos to show their work when appropriate and mark their tasks as completed.
-- Publishers and managers can view reports to see assignment and completion status of tasks at each level, including by location (team), task list, and individual task.<br>
-    ![Screenshot of assigned tasks on mobile.](media/manage-tasks-app-reporting.png)
+- Publishers and managers can view reports to see assignment and completion status of tasks at each level, including by location (team), task list, and individual task.
+    :::image type="content" source="media/manage-tasks-app-reporting.png" alt-text="Screenshot of published tasks." lightbox="media/manage-tasks-app-reporting.png":::
 
 Users create, manage, and publish task lists on the **Published lists** tab in the Tasks app. This tab only shows for a user if your organization [set up a team targeting hierarchy](#set-up-your-team-targeting-hierarchy) and the user is on a team that's included in the hierarchy. The hierarchy determines whether the user can publish or receive task lists and view reporting for received lists.
 

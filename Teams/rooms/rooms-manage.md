@@ -1,7 +1,7 @@
 ---
 title: "Manage Microsoft Teams Rooms"
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -112,9 +112,9 @@ Front row is meeting view layout option for Teams Rooms on Windows.
 
 | Teams device | App version | Front of room display |
 |--------------|-------------|-----------------------|
-|Microsoft Teams Rooms on Windows | 4.11.12.0 or higher (The latest version is recommended) | Supports single and dual displays; Minimum size: 46 inches; Aspect ratio 16:9 with 1920*1080 resolution or 21:9 with 2560x1080 resolution; All displays should be set at 100% scaling in Windows settings |
+|Microsoft Teams Rooms on Windows | 4.11.12.0 or higher (The latest version is recommended) | Supports single and dual displays; Minimum size: 46 inches; Aspect ratio 16:9 with 1920x1080 resolution or 21:9 with 2560x1080 resolution; All displays should be set at 100% scaling in Windows settings |
 
-See [Microsoft Teams Rooms maintenance and operations](rooms-operations.md#change-scale-and-resolution), to adjust your display settings to meet Front row's requirements.
+See [Microsoft Teams Rooms maintenance and operations](rooms-operations.md#scale-and-resolution), to adjust your display settings to meet Front row's requirements.
 
 To learn how to set Front row as the default layout for a room, or how to turn it off, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md#set-front-row-as-the-default-layout).
 
