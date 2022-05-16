@@ -45,10 +45,6 @@ Customer-reported Incidents can be closed by either the customer, partners manag
 
    Once you've confirmed the reason for closure, the ticket is closed and moved to **Resolved**.
 
-<!--![Screenshot of the incident ticket details](../media/customer-reported-incidents-003.png)-->
-
-<!--![Screenshot of list of reasons for ticket](../media/customer-reported-incidents-004.png)-->
-
 Under the ticket details Overview section, the customer or partners managing rooms on behalf of customers can see who closed the ticket: either the Managed Rooms Service (Microsoft) or the name of the customer/partner.  
 
 ## FAQ
