@@ -107,6 +107,9 @@ For more details on the Microsoft Teams Rooms managed service support coverage, 
 
 The Microsoft Teams Rooms Premium license is available in all countries and regions where Microsoft 365 is available. For a complete list of countries and regions, see [Microsoft 365 international availability](https://www.microsoft.com/microsoft-365/business/international-availability).
 
+> [!NOTE]
+> Microsoft Teams Rooms managed service is currently only available in Worldwide (Standard Multi-Tenant) cloud instance.
+
 ## Support inclusions and exclusions
 
 
