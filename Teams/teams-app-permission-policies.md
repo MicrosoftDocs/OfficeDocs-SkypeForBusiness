@@ -115,7 +115,7 @@ As mentioned earlier, to allow third-party apps, you can either edit and use the
 
     ![Screenshot of org-wide app settings in GCCH and DoD.](media/app-permission-policies-gcch-dod-org-wide.png)
 
-1. Under **Blocked apps**, add the apps you want to block across your organization. In a Microsoft 365 Government - GCCH and DoD deployment of Teams, all third-party apps are added to this list by default. When you block an app org-wide, the app is automatically blocked for all your users, regardless of whether it's allowed in any app permission policies
+1. Under **Blocked apps**, add the apps you want to block across your organization. In a Microsoft 365 Government - GCCH and DoD deployment of Teams, all third-party apps are added to this list by default. When you block an app org-wide, the app is automatically blocked for all your users, regardless of whether it's allowed in any app permission policies.
 1. Select **Save** for org-wide app settings to take effect.
 
 ## FAQ
