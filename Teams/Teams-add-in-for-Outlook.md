@@ -23,7 +23,7 @@ appliesto:
 
 # Use the Teams Meeting add-in in Outlook
 
-This article details the functionality of the Teams Meeting add-in in Outlook for your end users and authentication requirements. It also shows how to admins can enable private meetings and adjust policy settings for users in Island Mode. If you are having issues with the add-in, see our [latest troubleshooting guidance](/troubleshoot/meetings/resolve-teams-meeting-add-in-issues).
+This article details the functionality of the Teams Meeting add-in in Outlook for your end users and authentication requirements. It also shows how to admins can enable private meetings and adjust policy settings for users in Island Mode. If you are having issues with the add-in, see our [latest troubleshooting guidance](/microsoftteams/troubleshoot/meetings/resolve-teams-meeting-add-in-issues).
 
 The Teams Meeting add-in lets users schedule a Teams meeting from Outlook. The add-in is available for Outlook on Windows, Mac, web, and mobile.
 
