@@ -100,21 +100,7 @@ Generally, Teams Rooms has the same network requirements as any Microsoft Teams 
 - **Microsoft Store** [Prerequisites for Microsoft Store for Business and Education](/microsoft-store/prerequisites-microsoft-store-for-business#proxy-configuration)
 - **Microsoft Intune** [Network Endpoints for Microsoft Intune](/mem/intune/fundamentals/intune-endpoints)
 
-If you're using the Microsoft Teams Rooms managed services component of Microsoft Teams Rooms Premium, you also need to make sure that Teams Rooms can access the following URLs:
-
-- agent.rooms.microsoft.com
-- global.azure-devices-provisioning.net
-- gj3ftstorage.blob.core.windows.net
-- iothubsgagwt5wgvwg6.azure-devices.net
-- blobssgagwt5wgvwg6.blob.core.windows.net
-- mmrstgnoamiot.azure-devices.net
-- mmrstgnoamstor.blob.core.windows.net
-- mmrprodapaciot.azure-devices.net
-- mmrprodapacstor.blob.core.windows.net
-- mmrprodemeaiot.azure-devices.net
-- mmrprodemeastor.blob.core.windows.net
-- mmrprodnoamiot.azure-devices.net
-- mmrprodnoamstor.blob.core.windows.net
+If you're using the Microsoft Teams Rooms managed services component of Microsoft Teams Rooms Premium, you also need to make sure that Teams Rooms can access the URLs described in [Enroll device into Managed Service](https://docs.microsoft.com/en-us/microsoftteams/rooms/enroll-a-device#urls-required-for-communication)
 
 Teams Rooms is configured to automatically keep itself patched with the latest Windows updates, including security updates. Teams Rooms installs any pending updates every day beginning at 2:00am using a pre-set local policy. There is no need to use additional tools to deploy and apply Windows Updates. Using additional tools to deploy and apply updates can delay the installation of Windows patches and thus lead to a less secure deployment. The Teams Rooms app is deployed using the Microsoft Store. If your devices are licensed with Microsoft Teams Rooms Standard, any new versions of the app are automatically installed during the nightly patching process. If your devices are licensed with Microsoft Teams Rooms Premium and enrolled in the Microsoft Managed Service, new versions of the Teams Rooms app are installed per your defined rollout plan.
 
