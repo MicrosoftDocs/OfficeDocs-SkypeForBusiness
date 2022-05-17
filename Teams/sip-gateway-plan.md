@@ -74,6 +74,7 @@ If you have a 3PIP or SIP device, you must have:
 |          |8861       |11.1.1MPP   |11-3-3MPP  |   |   |
 |          |8865       |11.1.1MPP   |11-3-3MPP  |   |   |
 |**Poly**  |           |            |           |The device will auto-reboot and install the selected firmware.|   |
+|          |CCX 500    |7.0.3.0515  |7.2.1.1826 |   |   |
 |          |Trio 8500  |5.9.5.3182  |7.1.1.0997 |   |   |
 |          |Trio 8800  |5.9.5.3182  |7.1.1.0997 |   |   |
 |          |VVX150     |5.9.5       |6.3.1.8427 |   |   |
