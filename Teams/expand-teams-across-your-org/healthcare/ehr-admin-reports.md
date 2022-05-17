@@ -35,10 +35,10 @@ To view the report, you must be a global admin, Teams admin, Global reader, or R
 
 There are two ways to access and view the report in the Teams admin center.
 
-- Through the [EHR integrated connector Virtual Appointments card](#the-ehr-connector-virtual-appointments-card) in the dashboard
+- Through the [EHR connector usage card](#the-ehr-connector-usage-card) in the dashboard
 - Directly by choosing [**EHR connector Virtual Appointments**](#the-teams-ehr-connector-virtual-appointments-report) in **Analytics & reports** > **Usage reports**
 
-### The EHR connector Virtual Appointments card
+### The EHR connector usage card
 
 In the left navigation of the Microsoft Teams admin center, choose **Dashboard**, and then go to the **EHR connector Virtual Appointments** card.
 
