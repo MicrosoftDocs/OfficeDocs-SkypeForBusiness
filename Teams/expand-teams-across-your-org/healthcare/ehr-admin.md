@@ -37,7 +37,7 @@ The communication and collaboration platform of Teams makes it easy for clinicia
 - Write metadata back to the EHR system about Teams virtual appointments to record when attendees connect, disconnect, and enable automatic auditing and record keeping.
 - View consumption data reports and customizable Call Quality information for EHR-connected appointments.
 
-This article describes how to set up and configure the Teams EHR connector to integrate with the Epic platform in your healthcare organization. It also gives you an overview of the Teams virtual visits experience from the Epic EHR system.
+This article describes how to set up and configure the Teams EHR connector to integrate with the Epic platform in your healthcare organization. It also gives you an overview of the Teams virtual appointments experience from the Epic EHR system.
 
 ## Before you begin
 
