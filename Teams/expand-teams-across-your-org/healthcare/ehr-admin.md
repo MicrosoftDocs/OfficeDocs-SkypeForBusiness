@@ -229,13 +229,14 @@ Key features of the provider experience:
 
 ### Patient experience
 
-The connector supports patients joining visits through a link in the SMS text message, MyChart web, and mobile. At the time of the appointment, patients can start a visit from MyChart using the **Begin virtual visit** button or by tapping the link in the SMS text message.
+The connector supports patients joining appointments through a link in the SMS text message, MyChart web, and mobile. At the time of the appointment, patients can start the appointment from MyChart using the **Begin virtual visit** button or by tapping the link in the SMS text message.
 
   ![Patient experience of a virtual appointment.](media/ehc-virtual-visit-5.png)
 
 Key features of the patient experience:
 
-- Patients can test their device hardware and connection before joining a visit.
+- Patients can join appointments from [modern web browsers on desktop and mobile without having to install the Teams app](../browser-join.md).
+- Patients can test their device hardware and connection before joining an appointment.
 
     :::image type="content" source="media/ehr-admin-epic-device-test.png" alt-text="Images of a mobile device, showing device test capabilities." lightbox="media/ehr-admin-epic-device-test.png":::
   
@@ -244,8 +245,6 @@ Key features of the patient experience:
   - Patients can test their speaker, microphone, camera, and connection.
   - Patients can complete a test call to fully validate their configuration.
   - Results of the device test can be sent back to the EHR system.
-
-- Patients can join visits from [modern web browsers on desktop and mobile without having to install the Teams app](../browser-join.md).
 
 - Patients can join appointments with a single click and no other account or sign-in is required.
 
