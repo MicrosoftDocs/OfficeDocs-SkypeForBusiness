@@ -151,7 +151,7 @@ Users can send a request to add a blocked app from the Teams store, a request is
 
 1. Select **Manage apps**.
 1. Select the app you want to unblock, from the request by users column.
-1. Select **Manage requests**. Based on the app settings and permission policies, a dialog box appears with the steps to approve user requests.
+1. Select **Manage requests**. Based on the way an app is blocked, a dialog box appears with the steps to approve user requests.
 
 <!---Follow the steps to allow the app:
 
