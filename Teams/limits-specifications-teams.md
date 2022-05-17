@@ -119,6 +119,7 @@ Channel names also can't start with an underscore (_) or period (.), or end with
 |------------|---------------|
 |Number of people in a meeting (can chat and call in)  | 1000, includes GCC, GCCH, and DoD, but not A1 (300). **View-only** allows for up to 20,000 listen-only participants to join a meeting in which the organizer has a license for E3/E5/A3/A5 SKU, as well as, Government (GCC, GCC High, DoD). The view-only experience will soon be available for webinars as well. Learn more about the [View-only experience](view-only-meeting-experience.md).<sup>1,2</sup>|
 |Number of people in a video or audio call from chat | 20 |
+|Number of active calls on Teams desktop client | 4 |
 |Max PowerPoint File Size | 2 GB|
 |Teams keeps [meeting recordings](cloud-recording.md) that don't get uploaded to Microsoft Stream, available for local download | 20 days |
 | Meeting recording maximum length | 4 hours or 1.5 GB. When this limit is reached, the recording will end and automatically restart.
