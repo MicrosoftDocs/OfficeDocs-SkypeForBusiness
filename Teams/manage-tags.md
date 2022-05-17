@@ -50,7 +50,7 @@ As an admin, you can control how tags are used across your organization in the M
 
 ![Screenshot of tagging settings in the Microsoft Teams admin center.](media/manage-tags-admin-settings.png)
 
-A team can have up to 100 tags, up to 100 team members can be assigned to a tag, and up to 25 tags can be assigned to a single user. 
+A team can have up to 100 tags, up to 200 team members can be assigned to a tag, and up to 25 tags in the same team can be assigned to a single user. 
 
 ### Set who can add custom tags
 
