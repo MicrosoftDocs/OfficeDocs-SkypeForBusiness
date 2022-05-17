@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 description: "This article discusses how to configure your organization and Teams Rooms devices to support third-party meeting joining to Cisco WebEx and Zoom."
 ---
 
-# Enable Teams Room devices to join third-party meetings
+# Enable Teams Rooms devices to join third-party meetings
 
 > [!NOTE]
 > This feature is currently only available on Teams Rooms on Windows.
