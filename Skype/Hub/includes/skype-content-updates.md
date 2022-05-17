@@ -2,17 +2,9 @@
 
 
 
-## Week of March 14, 2022
+## Week of May 09, 2022
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 3/17/2022 | [Posters for Skype for Business Server 2015 \| Voice PSTN](/SkypeForBusiness/technical-diagrams) | modified |
-
-
-## Week of March 07, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 3/8/2022 | [Skype for Business Server updates](/SkypeForBusiness/sfb-server-updates) | modified |
+| 5/10/2022 | [Move users between on-premises and cloud](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud) | modified |
