@@ -1,7 +1,7 @@
 ---
 title: Manage the Updates app for your organization
 author: daisyfell
-ms.author: daisyfell
+ms.author: daisyfeller
 ms.reviewer: samanro
 manager: pamgreen
 ms.topic: article
