@@ -72,4 +72,4 @@ Choose **View details** to see report details. To purchase more licenses, choose
 ## Related articles
 
 - [Virtual appointments with Teams - Integration into Cerner EHR](ehr-admin-cerner.md)
-- [Virtual appointments with Teams - Integration into Epic EHR](ehr-admin.md)
+- [Virtual appointments with Teams - Integration into Epic EHR](ehr-admin.md) 
