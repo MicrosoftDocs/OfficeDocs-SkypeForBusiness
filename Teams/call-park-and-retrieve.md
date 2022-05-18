@@ -51,10 +51,8 @@ To enable a call park policy:
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Call park policies**.
 2. On the **Manage policies** tab, click **Add**.
 3. Give the policy a name, and then switch **Allow call park** to **On**.
-
-    ![Screenshot of call park policy settings.](media/call-park-add-policy.png)
-
-4. Select **Save**.
+4. Change the range and park timeout as required
+5. Select **Save**.
 
 You can edit the policy by selecting it in the list and clicking **Edit**.
 
