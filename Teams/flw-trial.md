@@ -37,6 +37,9 @@ Users can start a frontline trial for their team if they:
 - Have an active license that gives them access to Teams.
 - Haven't previously started a frontline worker trial.
 
+> [!IMPORTANT]
+> If the user who initiated the trial leaves your organization before the trial ends, they'll need to assign another team member as the trial owner. Your admin will also need to monitor the trial.
+
 Users can participate in a frontline worker trial if they have a managed Azure Active Directory domain email address.
 
 Users are ineligible to participate if they:
