@@ -177,7 +177,7 @@ If an app is blocked by org wide settings
 
 1. To reject an user request, select **Dismiss all requests**.
 
-    :::image type="content" source="media/reject.png" alt-text="blocked apps rejection." lightbox="media/app-request-dialog.png"border="true":::​
+    :::image type="content" source="media/reject.png" alt-text="blocked apps rejection."border="true":::​
 
 ## Apps blocked by publishers
 
