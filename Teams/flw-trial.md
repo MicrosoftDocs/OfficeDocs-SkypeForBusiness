@@ -20,6 +20,12 @@ appliesto:
 
 The Microsoft Teams Frontline Trial experience lets users in your organization who have Azure Active Directory (Azure AD) and aren't licensed for Teams initiate a Teams experience designed for frontline workers. Admins can switch this feature on or off for users in their organization.
 
+## What services are included
+
+The trial includes everything in the [Microsoft 365 F3 license](https://www.microsoft.com/microsoft-365/enterprise/f3) with the following exceptions:
+
+- The trial license includes Exchange Foundation rather than Exchange Kiosk.
+
 ## Eligibility
 
 > [!NOTE]
@@ -66,8 +72,6 @@ You can remove the Frontline Trial license through PowerShell or your Microsoft 
 You'll need admin privileges to upgrade your users. [Learn how](/microsoftteams/upgrade-from-teams-exploratory).
 
 If the Frontline Trial license ends and a user isn't immediately upgraded to a subscription that includes Teams, they lose access to Teams. After 30 days, the data is deleted. The user still exists in Azure Active Directory. If a new license is assigned to the user to enable Teams functionality within the 30-day period, all their content in Teams will still exist.
-
-## What services are included
 
 ## FAQ
 
