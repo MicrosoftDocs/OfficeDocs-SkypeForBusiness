@@ -87,7 +87,7 @@ IsUnansweredEnabled       : True
 UnansweredTarget          :
 UnansweredTargetType      : Voicemail
 UnansweredDelay           : 00:00:20
-Delegates                 : Id:user2@contoso.com
+Delegates                 : Id:sip:user2@contoso.com
 Delegators                : 
 CallGroupOrder            : InOrder
 CallGroupTargets          : {}
@@ -96,7 +96,7 @@ GroupNotificationOverride : Ring
 
 (Get-CsUserCallingSettings -Identity user1@contoso.com).Delegates
 
-Id             : user2@contoso.com
+Id             : sip:user2@contoso.com
 MakeCalls      : True
 ManageSettings : True
 ReceiveCalls   : True
