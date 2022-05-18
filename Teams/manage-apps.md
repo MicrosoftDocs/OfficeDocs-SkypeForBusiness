@@ -150,18 +150,28 @@ Users can send a request to the IT admins to allow a blocked app available for u
 
  1. Sort the **request by users** column to check the number of requests for each app.
 
-    :::image type="content" source="media/request1.png" alt-text="requested apps"lightbox="media/requested-apps.png"border="true":::
+    :::image type="content" source="media/requested-apps.png" alt-text="requested apps"lightbox="media/request1.png"border="true":::
 
 ### Unblock an app
 
 1. Select **Manage apps**.
 1. Sort the Requests by user column to view the apps that are requested.
 1. Select the app you want to unblock
-1. Select **Manage requests**. Based on the following scenarios when a app is blocked, a dialog box appears with steps to approve user requests:
+1. Select **Manage requests**. Based on the following scenarios when a app is blocked, a dialog box appears with steps to approve user requests, based on the following scenarios:
 
-* Change the status to allow
-* Review [permission policies](teams-app-permission-policies.md) to allow the app
-* Allow 3rd party apps in Org-wide settings
+If an app is blocked by permission policies
+
+* [Review permission policies to allow the app.](teams-app-permission-policies.md)
+
+If an app is blocked by permission policy and app setting
+
+* Change the status to allow.
+* [Review permission policies to allow the app.](teams-app-permission-policies.md)
+* Allow third party apps in org wide settings.
+
+If an app is blocked by org wide settings
+
+* Allow third party apps in org wide settings.
 
 ### Reject a user request
 
