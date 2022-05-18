@@ -122,7 +122,8 @@ To learn more, see [Publish a custom app by uploading an app package](upload-cus
 
 ## Allow and block apps
 
-The Manage apps page is where you allow or block individual apps at the org level. It shows every available app and its current org-level app status.<!--- TBD: (check with PM team if this sentence is needed or not needed going fwd) Blocking and allowing apps at the org level has moved from the **Org-wide app settings** pane to here.--->
+The Manage apps page is where you allow or block individual apps at the org level. It shows every available app and its current org-level app status.
+<!--- TBD: Blocking and allowing apps at the org level has moved from the **Org-wide app settings** pane to here.(check with PM team if this sentence is needed or not needed going fwd)--->
 
 To allow or block an app:
 
