@@ -122,18 +122,22 @@ To learn more, see [Publish a custom app by uploading an app package](upload-cus
 
 ## Allow and block apps
 
-The Manage apps page is where you allow or block individual apps at the org level. It shows every available app and its current org-level app status. (Blocking and allowing apps at the org level has moved from the **Org-wide app settings** pane to here.)
+The Manage apps page is where you allow or block individual apps at the org level. It shows every available app and its current org-level app status.<!--- (Blocking and allowing apps at the org level has moved from the **Org-wide app settings** pane to here.) --->
 
-To allow or block an app, select it, and then select **Allow** or **Block**. When you block an app, all interactions with that app are disabled and the app doesn't appear in Teams for any users in your organization.
+To allow or block an app:
+
+1. Go to Teams store
+1. Select an app from the app list.
+1. Select **Allow** or **Block**.
 
 When you block or allow an app on the Manage apps page, that app is blocked or allowed for all users in your organization.  When you block or allow an app in a Teams app permission policy, it's blocked or allowed for users who are assigned that policy. For a user to be able to install and interact with any app, you must allow the app at the org level on the Manage apps page and in the app permission policy that's assigned to the user.
 
  > [!NOTE]
  > To uninstall an app, right-click the app, and then click **Uninstall** or use the **More apps** menu on the left side.
 
-## View and approve user request to unblock apps
+## View and approve user requests to unblock apps
 
-Users can send a request to add a blocked app from the Teams store, a request is sent to the IT admin for the approval.
+Users can send a request to the IT admins to allow a blocked app available for use.
 
   :::image type="content" source="media/App-details1.png" alt-text="Place a request for blocked apps approval." lightbox="media/App-details1.png"border="true":::​
 
@@ -145,25 +149,13 @@ Users can send a request to add a blocked app from the Teams store, a request is
 
  1. You can sort the **request by users** column to check the number of requests for each app.
 
-    :::image type="content" source="media/requested-apps.png" alt-text="Request apps"border="true":::
+    :::image type="content" source="media/request1.png" alt-text="requested apps"lightbox="media/requested-apps.png"border="true":::
 
 ### Unblock an app
 
 1. Select **Manage apps**.
 1. Select the app you want to unblock, from the request by users column.
-1. Select **Manage requests**. Based on the way an app is blocked, a dialog box appears with the steps to approve user requests.
-
-<!---Follow the steps to allow the app:
-
-If the app is blocked in permission policies
-
-* [Review permission policies to allow the app.](teams-app-permission-policies.md)
-
-If the app is blocked by permission policy and app setting
-
-* Change the status to allow.
-* [Review permission policies to allow the app.](teams-app-permission-policies.md)
-* Allow third party apps in org wide settings.  --->
+1. Select **Manage requests**. Based on the following scenarios when a app is blocked, a dialog box appears with steps to approve user requests:
 
 ### Reject a user request
 
