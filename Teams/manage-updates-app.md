@@ -148,7 +148,7 @@ You can search for the following activities:
 - View the update templates
 - Edit an update template
 - Enable an update template
-- Disablle an update template
+- Disable an update template
 - Submit an update
 - View the details of an update
 - File attached to an update
