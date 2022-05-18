@@ -27,7 +27,7 @@ description: Learn which desk and conference phones are certified for Microsoft 
 
 The Microsoft Teams devices Certification Program ensures certified devices meet a high standard, with higher performance targets and quality metrics across the entire Teams experience (audio, video, user interface). Microsoft and OEM partners are actively working together to ensure devices meet all certification requirements, including security, audio and video quality, Teams experience, and accessibility.
 
-Certification programs are designed to ensure all certified devices run an Android version with the required feature set for Teams and Teams admin center. Certification end dates are based on the Android OS version running on the device when it enters into the certification program. Our OEM partners are working to extend the lifetime of the certification by upgrading the Android OS version and re-certifying, or by releasing new models that are state-of-the-art.
+Certification programs are designed to ensure all certified devices run an Android version with the required feature set for Teams and Teams admin center. Certification end dates are based on the Android OS version running on the device when it enters into the certification program. Our OEM partners are working to extend the lifetime of the certification by upgrading the Android OS version and recertifying, or by releasing new models that are state-of-the-art.
 
 Beyond the certification period, Microsoft is committed to make efforts to support the most recent version of the Teams client on such devices for two years following the end of the certification period.
 
@@ -70,13 +70,13 @@ The following devices are Certified under the Microsoft Teams Rooms on Android C
 | Neat Bar | `NFB1.20220211.1400` |September 3, 2024|    Small Meeting Room (4.5 m x 4.5 m) | 10 |
 | Neat Pad touch console | `NFA1.20220211.1400`  | August 5, 2023 |  Compatible with Neat Bar only | 9 |
 | Neat Board | `NFC1.20220211.1400 ` | September 3, 2024 |    Small Meeting Room (4.5 m x 4.5 m) | 10 |
-| Logitech Roommate | `1.4.71` | September 3, 2024  | Large meeting room (4.5m x 8.5m)  |   10  |
+| Logitech Roommate | `1.4.71` | September 3, 2024  | Large meeting room (4.5 m x 8.5 m)  |   10  |
 | EPOS EXPAND 80T | `1.2.2.21182.10` | August 5, 2023 | Bundled with the EPOS Vision 3T | 9 |
 | Logitech Tap Device     | `1.2.982`  |   September 3, 2024  | Compatible with Logitech Rally Bar and Rally Bar Mini | 10 |
 | Logitech Rally Bar Mini | `1.2.982`     |   September 3, 2024  |    Small Meeting Room (4.5 m x 4.5 m) | 10 |
 | Logitech Rally Bar      | `1.2.788`     |   September 3, 2024  |    Medium size room (4.5 m x 6 m)       | 10 |
-| AudioCodes RXV80 | `1.9.155`        |   August 5, 2023  | Focus room(3m x 3m) </br> Small meeting room(4.5 m x 4.5 m) | 9 |
-| EPOS EXPAND Vision 3T       | `1.2.0.21102.03`    | August 5, 2023 | Focus room(3m x 3m) </br> Small meeting room(4.5 m x 4.5 m) | 9 |
+| AudioCodes RXV80 | `1.9.155`        |   August 5, 2023  | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 9 |
+| EPOS EXPAND Vision 3T       | `1.2.0.21102.03`    | August 5, 2023 | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 9 |
 | Yealink MeetingBar A30       | `133.15.0.52`    | August 5, 2023   | Medium size room (4.5 m x 6 m) | 9 |
 | Yealink CTP18 touch console  | `137.15.0.28`    | August 5, 2023   | Compatible with Yealink MeetingBar A20 and Yealink MeetingBar A30 | 9 |
 | Yealink MeetingBar A20  | `133.15.0.19`      | August 5, 2023 | Focus room(3 m x 3 m) </br> Small meeting room(4.5 m x 4.5 m) | 9 |
@@ -136,6 +136,9 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version  | Included product release  |
 |:----------------|:--------------|:----------------------------|
+|Yealink T55A/T56A/T58A   | `58.15.0.157`     | 2022 Update #2A  |
+|Yealink VP59             | `91.15.0.90`      | 2022 Update #2A  |
+|Yealink CP960            | `73.15.0.153`     | 2022 Update #2A  |
 |Audiocodes C470HD  | `1.17.561` | 2022 Update #1C |
 |Yealink MP54/MP56/MP58   | `122.15.0.80`     | 2022 Update #2A  |
 |Yealink MP52 | `145.15.0.28`  | 2022 Update #2A         |
@@ -236,6 +239,7 @@ When you install a new firmware version on your device, you can determine the co
 
 | Device model  | Firmware version | Included product release |
 |:--------------|:-----------------|:-------------------------|
+| Logi Roommate |   `1.6.290`   | 2022 Update #1    |
 | Logi Rallybar Mini   |   `1.6.272`   | 2022 Update #1  |
 | Logi Rallybar    |   `1.6.272`   | 2022 Update #1   |
 | Logi Roommate |   `1.5.705`   | 2022 Update #1    |

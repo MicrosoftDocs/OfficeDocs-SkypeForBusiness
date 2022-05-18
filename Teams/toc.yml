@@ -354,11 +354,11 @@ items:
       items: 
         - name: Secure file sharing and collaboration with Teams
           href: /microsoft-365/solutions/setup-secure-collaboration-with-teams?wt.mc_id=TeamsTOCSecureCollab001
-        - name: Communicate with users from other organizations
+        - name: Collaborate with people outside your organization
           href: communicate-with-users-from-other-organizations.md
-        - name: External access (federation)
+        - name: External meetings and chat
           items: 
-            - name: Manage external access
+            - name: Manage external meetings and chat
               href: manage-external-access.md
             - name: Native Teams chats
               href: native-chat-for-external-users.md
@@ -438,34 +438,30 @@ items:
               
     - name: Reports
       items:
-        - name: Activity reports in the Microsoft 365 admin center
-          href: teams-activity-reports.md
-        - name: Analytics and reports in the Teams admin center
-          items: 
-            - name: Overview
-              href: teams-analytics-and-reports/teams-reporting-reference.md
-            - name: Teams usage report
-              href: teams-analytics-and-reports/teams-usage-report.md
-            - name: Teams user activity report
-              href: teams-analytics-and-reports/user-activity-report.md
-            - name: Teams app usage report
-              href: teams-analytics-and-reports/app-usage-report.md
-            - name: Teams device usage report
-              href: teams-analytics-and-reports/device-usage-report.md
-            - name: PSTN blocked users report
-              href: teams-analytics-and-reports/pstn-blocked-users-report.md
-            - name: PSTN minute pools report
-              href: teams-analytics-and-reports/pstn-minute-pools-report.md
-            - name: PSTN usage report
-              href: teams-analytics-and-reports/pstn-usage-report.md
-            - name: Teams audio conferencing dial-out usage report
-              href: audio-conferencing-dial-out-usage-report.md
-            - name: Teams live event usage report
-              href: teams-analytics-and-reports/teams-live-event-usage-report.md
-            - name: Teams information protection license report
-              href: teams-analytics-and-reports/information-protection-license-report.md
-            - name: Teams Virtual Visits usage report
-              href: teams-analytics-and-reports/virtual-visits-usage-report.md
+        - name: Overview
+          href: teams-analytics-and-reports/teams-reporting-reference.md
+        - name: Teams usage report
+          href: teams-analytics-and-reports/teams-usage-report.md
+        - name: Teams user activity report
+          href: teams-analytics-and-reports/user-activity-report.md
+        - name: Teams app usage report
+          href: teams-analytics-and-reports/app-usage-report.md
+        - name: Teams device usage report
+          href: teams-analytics-and-reports/device-usage-report.md
+        - name: PSTN blocked users report
+          href: teams-analytics-and-reports/pstn-blocked-users-report.md
+        - name: PSTN minute pools report
+          href: teams-analytics-and-reports/pstn-minute-pools-report.md
+        - name: PSTN usage report
+          href: teams-analytics-and-reports/pstn-usage-report.md
+        - name: Teams audio conferencing dial-out usage report
+          href: audio-conferencing-dial-out-usage-report.md
+        - name: Teams live event usage report
+          href: teams-analytics-and-reports/teams-live-event-usage-report.md
+        - name: Teams information protection license report
+          href: teams-analytics-and-reports/information-protection-license-report.md
+        - name: Teams Virtual Visits usage report
+          href: teams-analytics-and-reports/virtual-visits-usage-report.md
               
     - name: Log files, service health, and support
       items:

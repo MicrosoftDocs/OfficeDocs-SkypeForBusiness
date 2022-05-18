@@ -22,9 +22,9 @@ ms.custom: seo-marvel-apr2020
 
 # Teams update process
 
-The Teams web app is updated weekly.
+Teams web app updates are typically released on the 4th Monday of each month.
 
-Teams desktop client updates are released every two weeks after rigorous internal testing and validation through our Technology Adoption Program (TAP). The update usually takes place on a Tuesday. If a critical update is required, Teams will bypass this schedule and release the update as soon as it’s available.
+Teams desktop client updates are released monthly after rigorous internal testing and validation through our Technology Adoption Program (TAP). Desktop client updates typically start on the 4th Monday of the month and are rolled out gradually to customers throughout the remainder of the week. If a critical update is required, Teams will bypass this schedule and release the update as soon as it’s available.
 
 The desktop client updates itself automatically. Teams checks for updates every few hours behind the scenes, downloads it, and then waits for the computer to be idle before silently installing the update.
 

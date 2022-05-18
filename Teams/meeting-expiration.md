@@ -176,3 +176,5 @@ The file will be deleted within five days of the expiration date, though this is
 [Assign policies to your users in Teams](policy-assignment-overview.md)
 
 [Teams PowerShell overview](teams-powershell-overview.md)
+
+[Limits and specifications for Microsoft Teams](/microsoftteams/limits-specifications-teams)
