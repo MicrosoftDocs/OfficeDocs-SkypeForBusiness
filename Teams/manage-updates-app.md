@@ -56,12 +56,10 @@ You need permission for the following items to deploy Updates:
 
 The Common Data Model (CDM) is the shared data language used by business and analytical applications in the Microsoft Dataverse. It consists of a set of standardized, extensible data schemas published by Microsoft and our partners that enables consistency of data and its meaning across applications and business processes. Learn more about the [Common Data Model](/common-data-model/).
 
-Updates that are created from a template still store data in Microsoft Dataverse, such as their title, details, template ID, and more. Responses that are submitted on the update request are stored in Forms. Learn more about  [Data storage for Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
+Updates that are created from a template still store data in Microsoft Dataverse, such as their title, details, template ID, and more. Learn more about  [Data storage for Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
 
 >[!Note]
->If you delete the Form template on the Microsoft Forms site, it'll break your Updates template and users are unable to start the request. Users get an error "CDB TableNotFound" when trying to open a template that has been deleted on Microsoft Forms.
-
-Org-scoped templates share the same lifetime of the tenant and team-scoped templates share the same lifetime of the team. So, permanently deleting the team deletes the related templates.
+>If you delete the Form template on the Microsoft Forms site, it'll break your Updates template and users are unable to submit the update. Users get an error "CDB TableNotFound" when trying to open a template that has been deleted on Microsoft Forms.
 
 ## Updates Teams app permissions
 
@@ -124,7 +122,7 @@ To pin the Updates app for your users, you can edit the global (Org-wide default
 
 Updates created from the Updates app are stored in the default Microsoft Dataverse environment, which doesn’t support backups at this time. Learn more about how to [Back up and restore environments - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments).
 
-Data stored in Forms will not be deleted until the team owners clean it up from the **deleted forms** tab in the Microsoft Forms web app.
+Data stored in Forms will not be deleted until the template creators clean it up from the **deleted forms** tab in the Microsoft Forms web app.
 
 ## Conditional Access policies
 
@@ -132,7 +130,7 @@ Currently, the Updates app in Teams does not support Conditional Access policies
 
 ## Data limitations
 
-Each team can contain at most 400 Updates templates, and each template can collect a maximum of 50,000 requests based on the current capability in Microsoft Forms.
+Each user can create at most 400 Updates templates, and each template can collect a maximum of 50,000 requests based on the current capability in Microsoft Forms.
 
 ## Auditing (copied from Approvals - need additional input)
 
@@ -146,39 +144,17 @@ The Updates app logs audit events within the Microsoft 365 Security and Complian
 
 You can search for the following activities:
 
-- Create new approval request
+- Create a new update template
+- View the update templates
+- Edit an update template
+- Enable an update template
+- Disablle an update template
+- Submit an update
+- View the details of an update
+- File attached to an update
 
-- View approval request details
-
-- Approved approval request
-
-- Rejected approval request
-
-- Canceled approval request
-
-- Shared approval request
-
-- File attached to approval request
-
-- Reassigned approval request
-
-- Added e-signature to approval request
-
-- Viewed e-signature request details
-
-- Reviewed e-signature request
-
-- Canceled e-signature request
-
-- Create a new template
-
-- Edit an existing template
-
-- Enable/disable a template
-
-- Viewed template
-
-For access to more auditing approvals within Power Automate, enable and configure auditing in the default environment for the primary approval entities Approval, Approval Request, and Approval Response. Create, update, and delete operations are auditable events for Approval records. Learn more about [Audit data and user activity for security and compliance - Power Platform \| Microsoft Docs](/power-platform/admin/audit-data-user-activity).
+For access to more auditing updates within Power Automate, enable and configure auditing in the default
+environment for the primary update entities update, update template. Create, edit, enable, disable operations are auditable events for Update template records. Submit, view, file attached are auditable events for Update records. [Learn more about auditing](/power-platform/admin/audit-data-user-activity).
 
 Auditing can be customized further in the [Microsoft 365 Security and Compliance Center](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US).
 
