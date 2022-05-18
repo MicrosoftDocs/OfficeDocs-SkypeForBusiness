@@ -46,8 +46,6 @@ By default, the range of call pickup numbers is from 10-99. You can also create 
 
 You can specify a timeout as the number of seconds to wait before ringing back when the parked call hasn't been picked up. The allowed range is 120-1800 seconds, and the default value is 300 seconds.
 
-To set the custom park range and park timeout, use the New- and Set-CsTeamsCallParkPolicy cmdlets available in Teams PowerShell Module 2.6.0 or later. 
-
 To enable a call park policy:
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Call park policies**.
