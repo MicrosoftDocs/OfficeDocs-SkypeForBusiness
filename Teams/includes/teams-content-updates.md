@@ -2,6 +2,25 @@
 
 
 
+## Week of May 09, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 5/9/2022 | [Enable users for Direct Routing](/MicrosoftTeams/direct-routing-enable-users) | modified |
+| 5/9/2022 | [Configure Operator Connect](/MicrosoftTeams/operator-connect-configure) | modified |
+| 5/9/2022 | [Assign policies in Teams](/MicrosoftTeams/policy-assignment-overview) | modified |
+| 5/9/2022 | [Auto Attendant & Call Queue Historical Report](/MicrosoftTeams/aa-cq-cqd-historical-reports) | modified |
+| 5/10/2022 | [Plan Location-Based Routing for Direct Routing](/MicrosoftTeams/location-based-routing-plan) | modified |
+| 5/10/2022 | [Calling policies in Microsoft Teams: Calling and call-forwarding features](/MicrosoftTeams/teams-calling-policy) | modified |
+| 5/10/2022 | [Microsoft Teams Rooms app version support](/MicrosoftTeams/rooms/rooms-lifecycle-support) | modified |
+| 5/12/2022 | [Manage Voicemail Policies](/MicrosoftTeams/manage-voicemail-policies) | modified |
+| 5/12/2022 | [Configure SIP Gateway](/MicrosoftTeams/sip-gateway-configure) | modified |
+| 5/12/2022 | [Admin setup of Parents in Teams for Education](/MicrosoftTeams/edu-parents-app) | modified |
+| 5/13/2022 | [Walkie Talkie app in Microsoft Teams](/MicrosoftTeams/walkie-talkie) | modified |
+| 5/13/2022 | [Microsoft Teams Rooms requirements](/MicrosoftTeams/rooms/requirements) | modified |
+
+
 ## Week of May 02, 2022
 
 
