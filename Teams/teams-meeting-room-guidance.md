@@ -76,7 +76,7 @@ Prepare your users to do this in stages to maximize your Teams meeting experienc
 
 You can start with this plan by addressing all your non-AV or non-collaboration-equipped meeting spaces. You can still take advantage of Teams in your meeting rooms, even if those meeting rooms have not yet had Teams devices installed.
 
-*Audio:* A great bridge to a complete Teams Room is to plan for meeting technology by either providing your individual users with Teams-certified audio devices for smaller rooms and groups, or by deploying them in rooms ahead of a full Teams Rooms solution for larger spaces meant for larger groups where a small device won’t cut it.
+*Audio:* A great bridge to a complete Teams Rooms is to plan for meeting technology by either providing your individual users with Teams-certified audio devices for smaller rooms and groups, or by deploying them in rooms ahead of a full Teams Rooms solution for larger spaces meant for larger groups where a small device won’t cut it.
 
 *Video:* When these rooms are used, individual users can bring their own devices to share in the Teams meeting content and capture their expressions with their individual cameras. Users can then designate someone to be the single source of audio for the local group, connecting that personal device to the certified audio device, so that everyone (both local and remote) has a positive experience with meeting audio.
 
