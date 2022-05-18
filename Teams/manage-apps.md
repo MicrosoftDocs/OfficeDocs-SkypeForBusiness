@@ -122,11 +122,11 @@ To learn more, see [Publish a custom app by uploading an app package](upload-cus
 
 ## Allow and block apps
 
-The Manage apps page is where you allow or block individual apps at the org level. It shows every available app and its current org-level app status.<!--- (Blocking and allowing apps at the org level has moved from the **Org-wide app settings** pane to here.) --->
+The Manage apps page is where you allow or block individual apps at the org level. It shows every available app and its current org-level app status.<!--- TBD: (check with PM team if this sentence is needed or not needed going fwd) Blocking and allowing apps at the org level has moved from the **Org-wide app settings** pane to here.--->
 
 To allow or block an app:
 
-1. Go to Teams store
+1. Go to Teams admin center > Teams apps > Manage apps.
 1. Select an app from the app list.
 1. Select **Allow** or **Block**.
 
@@ -145,16 +145,17 @@ Users can send a request to the IT admins to allow a blocked app available for u
 
  1. Sign in to the [Teams admin center](https://admin.teams.microsoft.com) and select [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)
 
- 1. In the **Manage apps** pane, an admin can view **Requested apps**.
+ 1. In the **Manage apps** pane, select **Requested apps**.
 
- 1. You can sort the **request by users** column to check the number of requests for each app.
+ 1. Sort the **request by users** column to check the number of requests for each app.
 
     :::image type="content" source="media/request1.png" alt-text="requested apps"lightbox="media/requested-apps.png"border="true":::
 
 ### Unblock an app
 
 1. Select **Manage apps**.
-1. Select the app you want to unblock, from the request by users column.
+1. Sort the Requests by user column to view the apps that are requested.
+1. Select the app you want to unblock
 1. Select **Manage requests**. Based on the following scenarios when a app is blocked, a dialog box appears with steps to approve user requests:
 
 * Change the status to allow
