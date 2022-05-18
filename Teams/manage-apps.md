@@ -157,7 +157,7 @@ Users can send a request to the IT admins to allow a blocked app available for u
 1. Select **Manage apps**.
 1. Sort the Requests by user column to view the apps that are requested.
 1. Select the app you want to unblock
-1. Select **Manage requests**. Based on the following scenarios when a app is blocked, a dialog box appears with steps to approve user requests, based on the following scenarios:
+1. Select **Manage requests**. A dialog box appears with steps to approve user requests, based on the following scenarios:
 
 If an app is blocked by permission policies
 
