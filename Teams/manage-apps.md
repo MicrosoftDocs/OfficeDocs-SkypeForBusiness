@@ -139,7 +139,7 @@ When you block or allow an app on the Manage apps page, that app is blocked or a
 
 Users can send a request to the IT admins to allow a blocked app available for use.
 
-  :::image type="content" source="media/App-details1.png" alt-text="Place a request for blocked apps approval." lightbox="media/App-details1.png"border="true":::​
+  :::image type="content" source="media/App-details1.png" alt-text="Place a request for blocked apps approval":::
 
 ### View a request
 
@@ -157,11 +157,15 @@ Users can send a request to the IT admins to allow a blocked app available for u
 1. Select the app you want to unblock, from the request by users column.
 1. Select **Manage requests**. Based on the following scenarios when a app is blocked, a dialog box appears with steps to approve user requests:
 
+* Change the status to allow
+* Review [permission policies](teams-app-permission-policies.md) to allow the app
+* Allow 3rd party apps in Org-wide settings
+
 ### Reject a user request
 
 1. To reject an user request, select **Dismiss all requests**.
 
-    :::image type="content" source="media/app-request-dialog.png" alt-text="blocked apps rejection." lightbox="media/app-request-dialog.png"border="true":::​
+    :::image type="content" source="media/reject.png" alt-text="blocked apps rejection." lightbox="media/app-request-dialog.png"border="true":::​
 
 ## Apps blocked by publishers
 
