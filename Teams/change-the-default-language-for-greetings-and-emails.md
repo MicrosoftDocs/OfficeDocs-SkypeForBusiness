@@ -48,11 +48,8 @@ If you are a [global administrator](https://support.office.com/article/da585eea-
 
 1. Sign in with your [global administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
 
-2. In the Microsoft 365 admin center, choose **Settings** > **Settings** > **Organization profile**.
-
-     ![Screenshot showing choosing Settings and then Organization profile.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
-  
-3. Choose **Edit**.
+2. In the Microsoft 365 admin center, choose **Settings** > **Org settings** > **Organization profile**.
+3. Choose **Organization information**.
 
     ![Screenshot showing the Edit option.](media/e4a0b09d-2b68-4bc8-a0d3-230939843ee2.png)
   
