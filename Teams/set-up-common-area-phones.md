@@ -100,7 +100,7 @@ If you're deploying one device:
 
 ### Using PowerShell
 
-Use PowerShell when you want to create and assign licenses for more than one user account at once. See [Create Microsoft 365 user accounts with PowerShell](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide) and [Assign Microsoft 365 licenses to user accounts with PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide) for more information.
+Use PowerShell when you want to create and assign licenses for more than one user account at once. See [Create Microsoft 365 user accounts with PowerShell](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true) and [Assign Microsoft 365 licenses to user accounts with PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true) for more information.
 
 ## Step 3 - Set policies for common area phones
 
@@ -113,7 +113,7 @@ Use policies to control what features are available to users on common area phon
 
 Phones signed in with accounts that have been assigned a Common Area Phone license will display the common area user experience.
 
-If you want to override a phone's default interface, consider creating an [IP phone policy](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps). For example, if a common area phone is used in a public area, set an IP phone policy to restrict searching your organization's Global Address Book and block hot-desking. See 
+If you want to override a phone's default interface, consider creating an [IP phone policy](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps&preserve-view=true). For example, if a common area phone is used in a public area, set an IP phone policy to restrict searching your organization's Global Address Book and block hot-desking. See 
 [Set Teams Android devices user interface](devices/Teams-Android-devices-user-interface.md) to learn more.
 
 ### Calling policies
