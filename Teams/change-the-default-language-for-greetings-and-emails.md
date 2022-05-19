@@ -90,7 +90,7 @@ The tenant administrator can specify the custom text-to-speech greeting and prom
 Users can specify their own custom text-to-speech greetings and the langauge used for the greetings. For Skype for Business - [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) and choose a new language under **Prompt Language**. For Microsoft Teams - Users can change their voicemail greeting from the [Teams desktop client settings](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
 
 
-## Related articles for the admin
+## Related articles
 
 [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings)
 
@@ -99,8 +99,3 @@ Users can specify their own custom text-to-speech greetings and the langauge use
 [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/set-csonlinevoicemailpolicy)
 
 [Get-CsOnlineVoicemailPolicy](/powershell/module/skype/get-csonlinevoicemailpolicy)
-
-
-## Related topics
-
-- [Change your display language and time zone in Microsoft 365 or Office 365 for Business](https://support.office.com/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
