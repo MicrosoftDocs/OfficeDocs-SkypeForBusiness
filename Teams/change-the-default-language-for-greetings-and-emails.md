@@ -3,7 +3,7 @@ title: "Change the default language for greetings and emails"
 author: dstrome
 ms.author: dstrome
 manager: serdars
-ms.reviewer: wasseemh
+ms.reviewer: jenstr
 ms.topic: article
 ms.assetid: 820c3892-1b7e-47d3-ae8d-6e27e7cbcf38
 ms.tgt.pltfrm: cloud
@@ -27,8 +27,36 @@ description: Learn how to set up Microsoft Teams and Skype for Business to use a
 
 # Change the default language for greetings and emails
 
-If you are a [global administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d), you can set up Skype for Business to play its default voicemail greeting in another language. The default system greeting is something like, "Please leave a message for John Smith. After the tone, please record your message. When you finish recording, hang up, or press the pound key for more options."
-  
+Cloud Voicemail uses various language settings to play greetings, generate transcription translations and generate voicemail messages. The language settings can be
+specified by default on the tenant level, by policy or individually on a given user.
+
+## Greetings
+The greetings are played to the caller leaving voicemail and can be the following types:
+
+- System greetings
+- Custom greetings recorded by the user being called
+- Custom text-to-speech greeting specified on the user being called
+
+The langauge used to play the system greetings is in priority order either the primary and secondary prompt language specified in the online voicemail policy assigned
+to the user, the preferred language specified for the user or the default tenant language.
+
+The custom greeting is recorded by the user in the language chosen by the user.
+
+If custom text-to-speech greetings are specified on the user in the online voicemail user settings, the language is the PromptLanguage specified together with the
+text-to-speech greetings.
+
+## Transcription
+If enabled by online voicemail policy, Cloud Voicemail will try to transcripe the voicemail left by the caller. It will use speech detection to understand the language
+used in the audio content and transcribe the content if possible.
+
+## Transcription translation
+If enabled by online voicemail policy, Cloud Voicemail will translate the transcriped voicemail. It will translate from the language detected during speech detetction 
+and into in priority order either the preferred language specified for the user or the default tenant language.
+
+## Voicemail message
+Cloud Voicemail will generate the voicemail message text using a template based on in priority order either the preferred language specified for the user or the
+default tenant language.
+
  **First, read this important info:**
   
 - **The languages that are available to you are determined by the location of your organization**. For example, if your organization is located in the United States, you can set the default language to English or Spanish. If your organization is located in Canada, you can choose between English and French. For a list of supported languages in Teams and Skype for Business, see the following:
@@ -50,9 +78,6 @@ If you are a [global administrator](https://support.office.com/article/da585eea-
 
 2. In the Microsoft 365 admin center, choose **Settings** > **Org settings** > **Organization profile**.
 3. Choose **Organization information**.
-
-    ![Screenshot showing the Edit option.](media/e4a0b09d-2b68-4bc8-a0d3-230939843ee2.png)
-  
 4. Select a language from the **Preferred language** list for everyone in your organization.
 
 5. Choose **Save**.
