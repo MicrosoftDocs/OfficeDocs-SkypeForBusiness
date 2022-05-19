@@ -112,7 +112,7 @@ This setting allows you to control the type of Spam filtering available on incom
 
 ### Call recording, live captions and transcription
 
-These settings allows you to control whether call recording, live captions and transcription are available for the users.
+These settings allow you to control whether call recording, live captions and transcription are available for the users.
 
 ## Related articles
 
