@@ -224,7 +224,7 @@ Two new entities were introduced:
 
 - Carriers need to set up and manage only a single trunk (the carrier trunk in the carrier domain) by using the Set-CSOnlinePSTNGateway command. In the example above it is adatum.biz.
 
-- In the customer tenant, the carrier needs to add the derived trunk FQDN to the voice routing policies of the users. There is no need to run New-CSOnlinePSTNGateway for a trunk.
+- In the customer tenant, the carrier needs to add the derived trunk FQDN to the voice routes. There is no need to run New-CSOnlinePSTNGateway for a trunk.
 
 - The derived trunk, as the name suggests, inherits or derives all the configuration parameters from the carrier trunk. 
 
@@ -261,7 +261,7 @@ To set up failover for a multi-tenant environment, you'll need to do the followi
    customer1.sbc1.contoso.com <br>
    customer1.sbc2.contoso.com <br>
 
-- In the Online Voice Routing policies of the users, specify both SBCs. If one SBC fails, the routing policy will route calls to the second SBC.
+- In the Online Voice Routes, specify both SBCs. If one SBC fails, the routing policy will route calls to the second SBC.
 
 
 ## See also
