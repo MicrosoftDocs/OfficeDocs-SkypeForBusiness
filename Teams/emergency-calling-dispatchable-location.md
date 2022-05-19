@@ -75,6 +75,20 @@ The following table shows the types of emergency addresses and associated routin
 
 ## Enable end users to configure their emergency address
 
+### Using the Microsoft Teams admin center
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Emergency policies**.
+2. Click **Add**.
+3. Enter a Name for the emergency calling policy, for example "E911WFH".
+4. Turn on **External location lookup mode**.
+5. Click **Apply**.
+
+#### Assign a custom emergency calling policy to users
+
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
+
+### Using PowerShell
+
 To enable this feature for your end users, use the New-CsTeamsEmergencyCallingPolicy PowerShell cmdlet, and set the ExternalLocationLookupMode parameter to Enabled. See the following example: 
 
 
