@@ -31,23 +31,24 @@ This article provides an overview of how to deploy and configure Teams phones as
 
 ## Overview
 
-The Common Area Phone license supports: 
+The Common Area Phone license supports:
 
+|                                           | Common Area Phone                                 |
+|-------------------------------------------|---------------------------------------------------|
+| **Microsoft Teams**                       | &#x2714;                                          |
+| **Teams Phone**  &sup1;                   | &#x2714;                                          |
+| **Audio Conferencing**                    | &#x2718; &sup2;                                   |
+| **Microsoft Intune**                      | &#x2714;                                          |
+| **Azure Active Directory Premium Plan 1** | &#x2714;                                          |
+| **Exchange Online Plan 2**                | &#x2718;  &sup3;                                  |
+| **Worldwide Availability**                | &#x2714;                                          |
+| **Channel Availability**                  | EA, EAS, EES, CSP, Web Direct, GCC, GCC-High, DoD |
 
-| &nbsp;  |  Common Area Phone  |
-|---------|---------|
-|Skype for Business |   &#x2714; |
-|Microsoft Teams |   &#x2714; |
-|Phone System |    &#x2714; |
-|Audio Conferencing |       &#x2718; &sup1;  |
-|Microsoft Intune |    &#x2718; |
-|Worldwide Availability |       &#x2718; &sup2;  |
-|Channel Availability |    EA, EAS, CSP, GCC, EES, Web Direct  |
-|      |         |
+&sup1; Previously known as Phone System.
 
-&sup1; Common Area Phones can join audio conferences via dial-in number provided by the meeting organizer
+&sup2; Common Area Phones can join audio conferences via a dial-in number provided by the meeting organizer.  
 
-&sup2; Not available in sovereign clouds  
+&sup3; Cloud-based voicemail capabilities only.
 
 >[!NOTE]
 > Accounts for common area phones objects created in Skype for Business Server can't be migrated to Microsoft Teams. Follow the steps in this article to recreate those accounts for Teams, and, if required, migrate your PTSN connectivity.
