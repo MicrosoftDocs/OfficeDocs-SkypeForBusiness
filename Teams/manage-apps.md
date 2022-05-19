@@ -138,7 +138,7 @@ When you block or allow an app on the Manage apps page, that app is blocked or a
 
 ## View and approve user requests to unblock apps
 
-Users can send a request to the IT admins to allow a blocked app available for use.
+Users can send a request to make a blocked app available for use. The request is sent to the IT admin, who can view and manage user requests in the Teams admin center.
 
   :::image type="content" source="media/App-details1.png" alt-text="Place a request for blocked apps approval":::
 
