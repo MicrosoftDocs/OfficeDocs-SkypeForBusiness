@@ -92,11 +92,14 @@ Users can specify their own custom text-to-speech greetings and the langauge use
 
 ## Related articles for the admin
 
-- [Phone System and Calling Plans](calling-plan-landing-page.md)
+[Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings)
 
-- [Set up Calling Plans](set-up-calling-plans.md)
+[Get-CsOnlineVoicemailUserSettings](/powershell/module/skype/get-csonlinevoicemailusersettings)
 
-- [Plan Phone System in Microsoft 365 or Office 365 with on-premises PSTN connectivity in Skype for Business Server](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
+[Set-CsOnlineVoicemailPolicy](/powershell/module/skype/set-csonlinevoicemailpolicy)
+
+[Get-CsOnlineVoicemailPolicy](/powershell/module/skype/get-csonlinevoicemailpolicy)
+
 
 ## Related topics
 
