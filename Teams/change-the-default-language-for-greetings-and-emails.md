@@ -37,28 +37,30 @@ The greetings are played to the caller leaving voicemail and can be the followin
 - Custom greetings recorded by the user being called
 - Custom text-to-speech greeting specified on the user being called
 
-The langauge used to play the system greetings is in priority order either the primary and secondary prompt language specified in the online voicemail policy assigned
+The langauge used to play the system greetings is, in priority order, either the primary and secondary prompt language specified in the online voicemail policy assigned
 to the user, the preferred language specified for the user or the default tenant language.
 
-The custom greeting is recorded by the user in the language chosen by the user.
+The custom greeting for in office and out of office are recorded by the user in the language chosen by the user.
 
-If custom text-to-speech greetings are specified on the user in the online voicemail user settings, the language is the PromptLanguage specified together with the
-text-to-speech greetings.
+If custom text-to-speech greetings are specified on the user in the online voicemail user settings, the language used to generate the speech is the PromptLanguage 
+specified together with the text-to-speech greetings.
+
+The custom text-to-speech greetings are only used, if there are no custom greetings recorded for the user.
 
 ## Transcription
 If enabled by online voicemail policy, Cloud Voicemail will try to transcripe the voicemail left by the caller. It will use speech detection to understand the language
-used in the audio content and transcribe the content, if possible.
+used in the audio content and, if possible, transcribe the content use the detected language.
 
 ## Transcription translation
 If enabled by online voicemail policy, Cloud Voicemail will translate the transcriped voicemail. It will translate from the language detected during speech detetction 
-and into, in priority order, either the preferred language specified for the user or the default tenant language.
+into, in priority order, either the preferred language specified for the user or the default tenant language.
 
 ## Voicemail message template
 Cloud Voicemail will generate the voicemail message text using a template based on, in priority order, either the preferred language specified for the user or the
 default tenant language.
 
 ## Setting the preferred language for a user
-You can change the preferred language for a user using PowerShell either in Azure Active Directory or in the on-premises Active Directory. For more information, see [How to set language and region settings for Microsoft 365 or Office 365](/office365/troubleshoot/access-management/set-language-and-region).
+You can set the preferred language for a user using PowerShell either in Azure Active Directory or in the on-premises Active Directory. For more information, see [How to set language and region settings for Microsoft 365 or Office 365](/office365/troubleshoot/access-management/set-language-and-region).
 
 Users can change their own preferred language through their settings after they sign in. For more information, see [Change your display language and time zone in Microsoft 365 for Business](https://support.office.com/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)
 
@@ -80,6 +82,9 @@ For a list of supported languages in Cloud Voicemail for Microsoft Teams and Sky
 
 ## Custom greeting recorded by a user
 Users can record their own custom greetings. See [Check Skype for Business voicemail and options](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8). For Microsoft Teams - Users can change their voicemail settings from the [Teams desktop client settings](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
+
+## Custom text-to-speech greeting specified for a user
+You can specify the custom text-to-speech greeting and prompt language for a user by using the Set-CsOnlineVoicemailUserSettings cmdlet.
 
 ## Custom text-to-speech greeting specified by a user
 Users can specify their own custom text-to-speech greetings and the langauge used for the greetings. For Skype for Business - [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) and choose a new language under **Prompt Language**. For Microsoft Teams - Users can change their voicemail greeting from the [Teams desktop client settings](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
