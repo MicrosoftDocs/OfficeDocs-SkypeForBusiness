@@ -37,10 +37,10 @@ The Common Area Phone license supports:
 |-------------------------------------------|---------------------------------------------------|
 | **Microsoft Teams**                       | &#x2714;                                          |
 | **Teams Phone**  &sup1;                   | &#x2714;                                          |
-| **Audio Conferencing**                    | &#x2718; &sup2;                                   |
+| **Audio Conferencing**                    | &#x2714; &sup2;                                   |
 | **Microsoft Intune**                      | &#x2714;                                          |
 | **Azure Active Directory Premium Plan 1** | &#x2714;                                          |
-| **Exchange Online Plan 2**                | &#x2718;  &sup3;                                  |
+| **Exchange Online Plan 2**                | &#x2714;  &sup3;                                  |
 | **Worldwide Availability**                | &#x2714;                                          |
 | **Channel Availability**                  | EA, EAS, EES, CSP, Web Direct, GCC, GCC-High, DoD |
 
