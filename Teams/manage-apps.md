@@ -147,18 +147,16 @@ You can view requests to make a blocked app available for use. The request is se
 
  1. Sign in to the Teams admin center and select [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)
 
- 1. Select **Requested apps**.
-
  1. Sort the **request by users** column to check the number of requests for each app.
 
-    :::image type="content" source="media/requested-apps.png" alt-text="requested apps" lightbox="media/request1.png"border="true":::
+    :::image type="content" source="media/requested-apps.png" alt-text="requested apps" border="true":::
 
 ### Unblock an app
 
 1. To view the apps that are requested, sort the requests in the **Requests by user** column.
 1. Select the name of the app that you want to unblock and it opens the app details page.
-1. Select **Manage requests**. A dialog box displays the steps to approve the app.
-1. Complete one or more of the following tasks:
+1. Select **Manage requests**. A dialog box displays the steps to approve the app based on how the app is blocked.
+1. You need to perform all the steps which are displayed:
 
     * If the app is blocked using permission policies, allow the app by modifying [permission policies](teams-app-permission-policies.md).
     * If the app is blocked for all users, [allow the app](#allow-and-block-apps).
