@@ -23,14 +23,14 @@ ms.custom:
   - ms.teamsadmincenter.autoattendants.overview
   - Phone System
   - seo-marvel-apr2020
-description: Learn about auto attendants and call queues and how to use them to help callers move through a menu system to reach people or departments in your organization.
+description: Learn about auto attendants and call queues, and how to use them to help callers move through a menu system to reach people or departments in your organization.
 ---
 
 # Plan for Teams auto attendants and call queues
 
-Auto attendants allow you to set up menu options to route calls based on caller input. Menu options, such as "For Sales, press 1.  For Services press 2", for an auto attendant let an organization provide a series of choices that guide callers to their destination quickly, without relying on a human operator to handle incoming calls.
+Auto attendants allow you to set up menu options to route calls based on caller input. Menu options for an auto attendant--such as "For Sales, press 1--For Services press 2"--let an organization provide a series of choices that guide callers to their destination quickly, without relying on a human operator to handle incoming calls.
 
-Call queues are waiting areas for callers. For situations where callers need to reach someone with a particular specialty - such as sales or service - rather than a specific person, you can use call queues to connect callers to the group of agents who can assist them. Callers are put on hold until an agent assigned to the queue is available to take their call.
+Call queues are waiting areas for callers. For situations where callers need to reach someone with a particular specialty--such as sales or service--rather than a specific person, you can use call queues to connect callers to the group of agents who can assist them. Callers are put on hold until an agent assigned to the queue is available to take their call.
 
 Used together, auto attendants and call queues can easily route callers to the appropriate person or department in your organization.
 
@@ -66,7 +66,7 @@ To configure auto attendants and call queues, you need the following resources:
 
 - A resource account for each auto attendant and each call queue
 - A free Microsoft Phone System - Virtual User license for each resource account that will be directly dialable from Teams users or external phone numbers
-- At least one [Microsoft service number](getting-service-phone-numbers.md), Operator Connect number, Direct Routing number, or a hybrid number for each resource account that you want to be directly dialable from extenal phone numbers
+- At least one [Microsoft service number](getting-service-phone-numbers.md), Operator Connect number, Direct Routing number, or a hybrid number for each resource account that you want to be directly dialable from external phone numbers
  - The service number may be a toll or toll-free number
 
 > [!NOTE]
@@ -79,13 +79,13 @@ Agents who receive calls from the call queues must be Enterprise Voice enabled o
 
 If your agents are using the Microsoft Teams app for call queue calls, they need to be in TeamsOnly mode.
 
-When using a resource account for calling line ID purposes in call queues the resource account must have a Phone System Virtual User license and one of the following assigned:
+When using a resource account for calling line ID purposes in call queues, the resource account must have a Phone System Virtual User license and one of the following assigned:
 
 - A [Calling Plan](calling-plans-for-office-365.md) license and a phone number assigned
 - An [Operator Connect](operator-connect-plan.md) phone number assigned
 - An [online voice routing policy](manage-voice-routing-policies.md) (phone number assignment is optional when using Direct Routing)
 
-When an auto attendant or call queue is transferring calls to an external number specific resource accounts as outlined below must have a Phone System Virtual User license and one of the following assigned:
+When an auto attendant or call queue is transferring calls to an external number, specific resource accounts as outlined below must have a Phone System Virtual User license and one of the following assigned:
 
 - A [Calling Plan](calling-plans-for-office-365.md) license and a phone number assigned
 - An [Operator Connect](operator-connect-plan.md) phone number assigned
