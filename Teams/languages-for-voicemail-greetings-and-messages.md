@@ -33,7 +33,7 @@ Teams supports the following languages for voicemail greetings.
 |:-------------|:------------------|:------|:--------------------------------------------|:-------------------------------------|:-----------------------------|
 |Arabic        |Egypt              |ar-EG  |Yes                                          |Yes                                   |No  |
 |Arabic        |Saudi Arabia       |ar-SA  |Yes, but Arabic (Egypt) is used.             |No                                    |No  |
-|Bulgarian              |Bulgaria  |bg-BG  |Yes                                          |Yes                                   |No  |
+|Bulgarian     |Bulgaria           |bg-BG  |Yes                                          |Yes                                   |No  |
 |Catalan       |Catalan            |ca-ES  |Yes                                          |Yes                                   |No  |
 |Chinese (Simplified)   |China     |zh-CN  |Yes                                          |Yes                                   |Yes |
 |Chinese (Hong Kong)    |China     |zh-HK  |Yes, but Chinese (Traditional) is used.      |Yes                                   |Yes, but Chinese (Traditional) is used. |
