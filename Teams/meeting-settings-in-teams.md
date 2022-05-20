@@ -38,7 +38,7 @@ Through a per-organizer policy setting, admins now can control whether specific 
 With anonymous join, anyone can join the meeting as an anonymous user by clicking the link in the meeting invitation. To learn more, see [Join a meeting without a Teams account](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508). You can control anonymous users' ability to join meetings either at your organization level, or per meeting organizer by using two different policy settings.
 
 > [!NOTE]
-> Join meetings in other clouds anonymously from your Teams desktop app is being enabled. For more information, see [Microsoft 365 roadmap feature ID 86311](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=86311).
+> Join meetings in other clouds anonymously from your Teams desktop app is being rolled out. For more information, see [Microsoft 365 roadmap feature ID 86311](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=86311).
 
  ### Using the Microsoft Teams admin center to configure organization-wide policy
 
