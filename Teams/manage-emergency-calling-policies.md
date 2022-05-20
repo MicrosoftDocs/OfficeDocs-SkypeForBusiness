@@ -41,7 +41,7 @@ If you assigned an emergency calling policy to a network site and to a user and 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Emergency policies**, and then click the **Calling policies** tab.
 2. Click **Add**.
 3. Enter a name and description for the policy.
-4. Set the **External location lookup mode** to on to allow your end users to configure their emergency address, when they are working from a network location outside the corporate network.
+4. Set the **External location lookup mode** to on to allow your end users to configure their emergency address when they are working from a network location outside the corporate network.
 5. Set how you want to notify people in your organization, typically the security desk, when an emergency call is made. To do this, under **Notification mode**, select one of the following:
     - **Send notification only**: A Teams chat message is sent to the users and groups that you specify.
     - **Conferenced in muted and unable to unmute**: A Teams chat message is sent to the users and groups that you specify and they can listen (but not participate) in the conversation between the caller and the PSAP operator.
