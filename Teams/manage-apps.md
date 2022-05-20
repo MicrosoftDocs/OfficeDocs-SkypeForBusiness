@@ -52,7 +52,8 @@ The following are the important use cases you can accomplish via the the Manage 
 * [See org-level status and properties of apps](#view-apps)
 * [Manage org-wide app settings](#manage-org-wide-app-settings)
 * [View security and compliance information for Microsoft 365 Certified apps](#view-security-and-compliance-information-for-microsoft-365-certified-apps)
-v-silakshmi-Store-UI-changes-for-supporting-app-request-flow-for-blocked-apps
+
+--->
 
 <!--- TBD: Commenting for now in favor of the definition list above: 
 
@@ -136,44 +137,45 @@ When you block or allow an app on the Manage apps page, that app is blocked or a
  > [!NOTE]
  > To uninstall an app, right-click the app, and then click **Uninstall** or use the **More apps** menu on the left side.
 
-## View and approve user requests to unblock apps
+## Manage user requests to unblock apps
 
-Users can send a request to make a blocked app available for use. The request is sent to the IT admin, who can view and manage user requests in the Teams admin center.
+You can view requests to make a blocked app available for use. The request is sent to the IT admin, who can view and manage user requests in the Teams admin center.
 
   :::image type="content" source="media/App-details1.png" alt-text="Place a request for blocked apps approval":::
 
 ### View a request
 
- 1. Sign in to the [Teams admin center](https://admin.teams.microsoft.com) and select [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)
+ 1. Sign in to the Teams admin center and select [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)
 
- 1. In the **Manage apps** pane, select **Requested apps**.
+ 1. Select **Requested apps**.
 
  1. Sort the **request by users** column to check the number of requests for each app.
 
-    :::image type="content" source="media/requested-apps.png" alt-text="requested apps"lightbox="media/request1.png"border="true":::
+    :::image type="content" source="media/requested-apps.png" alt-text="requested apps" lightbox="media/request1.png"border="true":::
 
 ### Unblock an app
 
-1. Select **Manage apps**.
-1. Sort the Requests by user column to view the apps that are requested.
-1. Select the app you want to unblock
-1. Select **Manage requests**. A dialog box appears with steps to approve user requests, based on the following scenarios:
+1. To view the apps that are requested, sort the requests in the **Requests by user** column.
+1. Select the name of the app that you want to unblock and it opens the app details page.
+1. Select **Manage requests**. A dialog box displays the steps to approve the app.
+1. Complete one or more of the following tasks:
 
-    * App is blocked by permission policies.
-    * App is blocked by permission policy and app settings.
-    * App is blocked by org wide settings.
+    * If the app is blocked using permission policies, allow the app by modifying [permission policies](teams-app-permission-policies.md).
+    * If the app is blocked for all users, [allow the app](#allow-and-block-apps).
+    * If all apps are blocked for all users, modify [org-wide settings](#manage-org-wide-app-settings).
 
-### Reject a user request
+### Dismiss a user request
 
-1. To reject an user request, select **Dismiss all requests**.
+1. Select the name of the app for which you want to dismiss the user requests.
+1. Select **Manage requests** and select **Dismiss all requests** on the dialog box.
 
     :::image type="content" source="media/reject.png" alt-text="blocked apps rejection."border="true":::​
 
 ## Apps blocked by publishers
 
-When an ISV publishes an app to the global app store, they might need admins to configure or customize the app experience. The admin can make it available to end-users when the app is fully set up.
+When an ISV publishes an app to the global app store, they might need admins to configure or customize the app experience. The admin can make it available to end-users when the app is completely set up.
 
-For example, Contoso Electronics is an ISV that built a help desk app for Microsoft Teams. Contoso Electronics wants its customers to set up certain properties of the app so that when users interact with the app, it functions as expected. Before an admin can allow or block the application, it will show as **Blocked by publisher** in the Teams admin center and will be hidden from end-users by default. After following the publisher's guidance to set up the app, you can make it available to users by changing the status to **Allowed**, or block users from using the app by changing the status to **Blocked**.
+For example, Contoso Electronics is an ISV that created a help desk app for Microsoft Teams. Contoso Electronics wants its customers to set up certain properties of the app so that when users interact with the app, it functions as expected. Before an admin can allow or block the application, it will show as **Blocked by publisher** in the Teams admin center and will be hidden from end-users by default. After following the publisher's guidance to set up the app, you can make it available to users by changing the status to **Allowed**, or block users from using the app by changing the status to **Blocked**.
 
 ![Screenshot of blocked by publisher status in teams admin center.](media/blocked-by-publisher.png)
 
