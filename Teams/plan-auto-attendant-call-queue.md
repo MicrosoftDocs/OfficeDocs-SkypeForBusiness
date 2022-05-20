@@ -65,8 +65,8 @@ You can assign a phone number to a call queue, however call queues do not provid
 To configure auto attendants and call queues, you need the following resources:
 
 - A resource account for each auto attendant and each call queue
-- A free Microsoft Phone System - Virtual User license for each resource account
-- At least one [Microsoft service number](getting-service-phone-numbers.md), Operator Connect number, Direct Routing number, or a hybrid number for each resource account that you want to be directly dialable
+- A free Microsoft Phone System - Virtual User license for each resource account that will be directly dialable from Teams users or external phone numbers
+- At least one [Microsoft service number](getting-service-phone-numbers.md), Operator Connect number, Direct Routing number, or a hybrid number for each resource account that you want to be directly dialable from extenal phone numbers
  - The service number may be a toll or toll-free number
 
 > [!NOTE]
@@ -79,11 +79,20 @@ Agents who receive calls from the call queues must be Enterprise Voice enabled o
 
 If your agents are using the Microsoft Teams app for call queue calls, they need to be in TeamsOnly mode.
 
-When using a resource account for calling line ID purposes in call queues or when an auto attendant or call queue is transferring calls to an external phone number, the resource account must have a Phone System Virtual User license and one of the following assigned:
+When using a resource account for calling line ID purposes in call queues the resource account must have a Phone System Virtual User license and one of the following assigned:
 
 - A [Calling Plan](calling-plans-for-office-365.md) license and a phone number assigned
 - An [Operator Connect](operator-connect-plan.md) phone number assigned
 - An [online voice routing policy](manage-voice-routing-policies.md) (phone number assignment is optional when using Direct Routing)
+
+When an auto attendant or call queue is transferring calls to an external number specific resource accounts as outlined below must have a Phone System Virtual User license and one of the following assigned:
+
+- A [Calling Plan](calling-plans-for-office-365.md) license and a phone number assigned
+- An [Operator Connect](operator-connect-plan.md) phone number assigned
+- An [online voice routing policy](manage-voice-routing-policies.md) (phone number assignment is optional when using Direct Routing)
+
+- License the resource account on the first auto attendant receiving the call when that auto attendant transfers to other auto attendants or call queues that transfer calls externally
+- In all other calling scenarios, license the resource account of the auto attendant or call queue performing the external transfer
 
 > [!NOTE]
 > If the Calling Plan assigned to the resource account becomes disabled or is removed, [Communications Credits](what-are-communications-credits.md), if available in the tenant (without being assigned to the resource account), will be consumed. If there is no Calling Plan or Communications Credits then the call will fail.
