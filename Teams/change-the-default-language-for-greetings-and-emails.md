@@ -27,8 +27,8 @@ description: Learn how to set up Microsoft Teams and Skype for Business to use a
 
 # Change the default language for greetings and emails
 
-Cloud Voicemail uses various language settings to play greetings, generate transcription translations and generate voicemail messages. The language settings can be
-specified by default on the tenant level, by policy or individually on a given user.
+Cloud Voicemail uses various language settings to play greetings, generate transcription translations, and generate voicemail messages. The language settings can be
+specified by default on the tenant level, by policy, or individually on a given user.
 
 ## Greetings
 Greetings are played to the caller leaving voicemail and can be the following types:
@@ -38,21 +38,21 @@ Greetings are played to the caller leaving voicemail and can be the following ty
 - Custom text-to-speech greeting specified on the user being called
 
 The language used to play the system greetings is, in priority order, either the primary and secondary prompt language specified in the online voicemail policy assigned
-to the user, the preferred language specified for the user or the default tenant language.
+to the user, the preferred language specified for the user, or the default tenant language.
 
 The custom and out of office greeting are recorded by the user in the language chosen by the user.
 
 If custom text-to-speech greetings are specified for the user either by the user or the tenant administrator, the language used to generate the speech is the
 PromptLanguage specified together with the text-to-speech greetings.
 
-The custom text-to-speech greetings are only used, if there are no custom greetings recorded for the user.
+The custom text-to-speech greetings are only used if there are no custom greetings recorded for the user.
 
 ## Transcription
-If enabled by online voicemail policy for the user being called, Cloud Voicemail will try to transcribe the voicemail left by the caller. It will use speech detection
+If enabled by the online voicemail policy for the user being called, Cloud Voicemail will try to transcribe the voicemail left by the caller. It will use speech detection
 to understand the language used in the audio content and, if possible, transcribe the content using the detected language.
 
 ## Transcription translation
-If enabled by online voicemail policy for the user being called, Cloud Voicemail will translate the transcribed voicemail. It will translate from the language detected
+If enabled by the online voicemail policy for the user being called, Cloud Voicemail will translate the transcribed voicemail. It will translate from the language detected
 during speech detection into, in priority order, either the preferred language specified for the user or the default tenant language.
 
 ## Voicemail message template
