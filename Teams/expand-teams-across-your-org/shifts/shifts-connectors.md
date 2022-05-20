@@ -25,7 +25,7 @@ Shifts connectors enable you to integrate Shifts, the schedule management tool i
 
 Connecting your WFM system to Teams empowers your frontline workforce to manage schedules more effectively and streamlines everyday processes for higher engagement and productivity. Your frontline workers have one place for their scheduling, communication, and collaboration needs to get work done, from anywhere, on any device.
 
-We offer managed and open-source Shifts connectors. This article gives you an overview of Shifts connectors and how they work.
+This article gives you an overview of Shifts connectors and how they work.
 
 ## How Shifts connectors work
 
@@ -110,17 +110,6 @@ Frontline workers can:
 - Request time off, open shifts, and swap and offer shifts in Shifts.
 
 To learn more, go to https://connect.zebra.com/microsoft-connectors.
-
-## Open-source Shifts connectors
-
-Open-source Shifts connectors are community-driven integrations built on [Shifts Graph APIs](/graph/api/resources/shift). The following open-source connectors are available:
-
-- Kronos-to-Teams WFC on-premises
-- JDA-to-Teams Shifts connector (for Blue Yonder version 2017 to 2020.2)
-
-Each connector comes with detailed deployment and configuration guidance. They include Azure Resource Manager (ARM) deployment scripts that allow you to host all necessary services in Microsoft Azure. The source code and deployment scripts are available for download in a [GitHub repository](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors). You can deploy as is or customize or extend to meet your needs.
-
-To learn more, see [Production-ready Shifts connectors](/microsoftteams/platform/samples/shifts-wfm-connectors).
 
 ## Related articles
 
