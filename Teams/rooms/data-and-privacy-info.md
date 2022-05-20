@@ -21,10 +21,12 @@ f1keywords: Microsoft Teams Rooms Managed Service Data and Privacy Information
 ---
 
 
+# Approach
 
+Customers using managed services entrust Microsoft with their most valuable asset — data. They trust that its privacy will be protected and that it will be used only in a way that is consistent with their expectations.
 
-
-# Data collection and privacy
+The technology follows privacy processes to make sure that it adheres to the customer promises in collecting and using dataeffectively running the service.
+## Data collection and privacy
 
  Microsoft Teams Rooms Managed Services monitors devices, collects telemetry data, and remotely accesses and manages the devices as an administrator. Data that is collected is limited to information required to monitor the health, root cause, and mitigating issues identified in the enrolled rooms. Telemetry data collected is specific to a room account, not to individual users.
 
@@ -45,7 +47,7 @@ Microsoft is governed by strict standards for data transmission, storage, use, a
 
 Microsoft extends General Data Protection Regulation (GDPR) rights to customers worldwide.
 
-## Data classification
+<!--## Data classification
 
 The data classification can be used to adhere to security, compliance, and privacy requirements and processes for collecting, storing, and using user personal information.
 
@@ -57,7 +59,7 @@ The data classification can be used to adhere to security, compliance, and priva
 |Account Data|Customer billing information and payment instrument information, including administrator contact information, such as tenant administrator’s name, address, or phone number. |Tenant administrator contact information (for example, tenant administrator’s name, address, e-mail address, phone number)<p><p>Customer’s provisioning information |
 |End User Pseudonymous Identifiers (EUPI) |An identifier created by Microsoft tied to the user of a Microsoft service. When EUPI is combined with other information, such as a mapping table, it identifies the end user. EUPI does not contain information uploaded or created by the customer</p><p>(Customer content or EUII)  | User GUIDs, PUIDs, or SIDsSession IDs |
 |Organization Identifiable Information (OII)|Data that can be used to identify a tenant, generally config or usage data. This data is not linkable to a user and does not contain customer content. |Tenant ID (non-GUID)</p><p>Domain name in e-mail address (xxx@contoso.com) or other tenant-specific domain information |
-|System metadata|Data generated while running the service or program that is not linkable to a user or tenant. |Event logs</p><p>Usage data</p><p>Configuration data |
+|System metadata|Data generated while running the service or program that is not linkable to a user or tenant. |Event logs</p><p>Usage data</p><p>Configuration data |-->
 
 ## Technology description
 
@@ -83,7 +85,7 @@ Managed Services does not monitor or record audio, video, media, or meeting cont
 | :- | :- | :- |
 |Ongoing data collection and management|IP Address, identity of the room account (Exchange, Skype for Business and/or Teams), Location coordinates, emails and communication within portal with Microsoft or software|Identify and connect to the system under management; identify, diagnose, and mitigate failures; track usage, analytics, and insights; query and repair connectivity status|
 |Ad hoc data collection and management|Event log information, user activity/Identity from the room user logged in log file along with diagnostics information\*, Windows system queries (Examples: List of USB devices,power state, etc.)|Identify, diagnose, and mitigate failures and for usage, analytics, and insights|
-|Trial enrollment and Setupn|Windows System Queries</p><p>Examples: List of USB devices, power state, etc.|Required for enrollment, onboarding, order and delivery,and setup for the Trial.|
+<!--|Trial enrollment and Setup |Windows System Queries</p><p>Examples: List of USB devices, power state, etc.|Required for enrollment, onboarding, order and delivery,and setup for the Trial.|-->
 
 \* Sensitive PII in the Device Activity log is redacted out locally (not collected by Managed Services):
 
@@ -94,7 +96,7 @@ Managed Services does not monitor or record audio, video, media, or meeting cont
 >> [!NOTE]
 >As Microsoft evolves Managed Services, the specific data is subject to change.
 
-### Agent Data Classification
+<!--### Agent Data Classification
 
 The following table is a detailed description of all data MTRP agent collects during ongoing monitoring.
 
@@ -106,7 +108,6 @@ The following table is a detailed description of all data MTRP agent collects du
 |MTR app logs directory location|System metadata|
 |Device serial number|System metadata|
 |Device bios information|System metadata|
-
 |version of the MMR agent|System metadata|
 | :- | :- |
 |Version of the MTR app|System metadata|
@@ -181,7 +182,7 @@ The following table is a detailed description of all data MTRP agent collects du
 |Details of device power state information|System metadata|
 |Device group policy information|System metadata|
 |Audit trace of all MMR agent actions|System metadata|
-\* Sensitive PII in the device activity log is redacted out locally.
+\* Sensitive PII in the device activity log is redacted out locally.-->
 
 ### Enrollment
 
@@ -192,7 +193,7 @@ Managed Services is registered with the online portal for automated monitoring a
 
 The device can be un-enrolled by uninstalling Managed Services. Microsoft also removes the device from backend monitoring during decommissioning and can delete collected data on request.
 
-### Data flow
+<!--### Data flow
 
 Managed Services adds a data flow from the agent to MTR Managed Services.
 
@@ -200,7 +201,7 @@ Managed Services adds a data flow from the agent to MTR Managed Services.
 
 Enabling the integration of Microsoft Defender for Endpoint will introduce an additional data flow from MDE Agent to the Microsoft Defender infrastructure.
 
-![additional data flow from MDE Agent to Defender](../media/data-and-privacy-info-006.png)
+![additional data flow from MDE Agent to Defender](../media/data-and-privacy-info-006.png)-->
 
 ## Compliance
 
