@@ -436,6 +436,12 @@ Other options:
 
 -   Poly Studio E70
 
+-   [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)
+
+-   [Logitech Rally Bar](https://www.logitech.com/products/video-conferencing/room-solutions/rallybar.960-001308.html)
+
+-   [Logitech Rally Bar Mini](https://www.logitech.com/products/video-conferencing/room-solutions/rallybarmini.960-001336.html)
+
 ### Microphone
 
 -   A certified microphone solution that will clearly capture all the in-room meeting participants.
