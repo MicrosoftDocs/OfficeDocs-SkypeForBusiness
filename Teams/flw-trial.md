@@ -24,7 +24,10 @@ The Microsoft Teams Frontline Trial experience lets users in your organization w
 
 The trial includes everything in the [Microsoft 365 F3 license](https://www.microsoft.com/microsoft-365/enterprise/f3) with the following exceptions:
 
-- The trial license includes Exchange Foundation rather than Exchange Kiosk.
+- Users may be missing other Teams functionalities due to this change.
+
+> [!NOTE]
+> This change may cause users to exp
 
 ## Eligibility
 
