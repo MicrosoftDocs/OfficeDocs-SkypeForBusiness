@@ -132,40 +132,6 @@ Currently, the Updates app in Teams does not support Conditional Access policies
 
 Each user can create at most 400 Updates templates, and each template can collect a maximum of 50,000 requests based on the current capability in Microsoft Forms.
 
-## Auditing (copied from Approvals - need additional input)
-
-The Updates app logs audit events within the Microsoft 365 Security and Compliance Center. You can view the audit log.
-
-1. Go to the [Microsoft Purview compliance portal](https://compliance.microsoft.com/)
-
-2. Select the **Audit** section.
-
-3. Search for activities under **Microsoft Teams approvals activities**.
-
-You can search for the following activities:
-
-- Create a new update template
-- View the update templates
-- Edit an update template
-- Enable an update template
-- Disable an update template
-- Submit an update
-- View the details of an update
-- File attached to an update
-
-For access to more auditing updates within Power Automate, enable and configure auditing in the default
-environment for the primary update entities update, update template. Create, edit, enable, disable operations are auditable events for Update template records. Submit, view, file attached are auditable events for Update records. [Learn more about auditing](/power-platform/admin/audit-data-user-activity).
-
-Auditing can be customized further in the [Microsoft 365 Security and Compliance Center](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US).
-
-1. To use the preconfigured reports, sign in to Microsoft 365 Security and Compliance.
-
-2. Select **Search & investigation**.
-
-3. Search the Audit log and select the **Dynamics 365 activities** tab.
-
-Learn more about [Microsoft Dataverse and model-driven apps activity logging - Power Platform](/power-platform/admin/enable-use-comprehensive-auditing).
-
 ## Security
 
 From the Teams Updates app, users have access to create new updates and view updates that they have sent and received. Users won't have access to Updates that are created by others unless they're a viewer of the request.
