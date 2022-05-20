@@ -83,7 +83,7 @@ For a list of supported languages in Cloud Voicemail for Microsoft Teams and Sky
 Users can record their own custom and out of office custom greeting. See  [Teams desktop client settings](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f) and [Check Skype for Business voicemail and options](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8).
 
 ## Custom text-to-speech greeting specified for a user
-The tenant administrator can specify the custom text-to-speech greeting and prompt language for a user by using the Set-CsOnlineVoicemailUserSettings cmdlet.
+The tenant administrator can specify the custom text-to-speech greeting and prompt language for a user by using the [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) cmdlet.
 
 ## Custom text-to-speech greeting specified by a user
 Users can specify their own custom text-to-speech greetings and the language used for the greetings. For Microsoft Teams - Users can change their voicemail greeting from the [Teams desktop client settings](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f). For Skype for Business - [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) and choose a new language under **Prompt Language**. 
