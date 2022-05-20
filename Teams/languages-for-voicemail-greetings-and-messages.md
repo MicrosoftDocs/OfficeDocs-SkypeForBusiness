@@ -30,7 +30,7 @@ Teams supports the following languages for voicemail greetings.
 
 
 |Language  |Country/region  |Id |Available for a user to see it in email? |Available when the user calls in? |Transcription available?  |
-|:-------------|:------------------|:--------|:--------------------------------------------|:-------------------------------------|:-----------------------------|
+|:-------------|:------------------|:-----------|:--------------------------------------------|:-------------------------------------|:-----------------------------|
 |Arabic        |Egypt              |ar-EG  |Yes                                          |Yes                                   |No  |
 |Arabic        |Saudi Arabia       |ar-SA  |Yes, but Arabic (Egypt) is used.             |No                                    |No  |
 |Bulgarian     |Bulgaria           |bg-BG  |Yes                                          |Yes                                   |No  |
