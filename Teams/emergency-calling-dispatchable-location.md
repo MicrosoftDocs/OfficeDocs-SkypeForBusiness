@@ -79,7 +79,7 @@ The following table shows the types of emergency addresses and associated routin
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Emergency policies**.
 2. Select **Add**.
-3. Enter a Name for the emergency calling policy, for example "E911WFH".
+3. Enter a name for the emergency calling policy, for example, "E911WFH".
 4. Turn on **External location lookup mode**.
 5. Click **Apply**.
 
