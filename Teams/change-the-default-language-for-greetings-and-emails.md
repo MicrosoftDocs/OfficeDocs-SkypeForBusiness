@@ -48,11 +48,11 @@ PromptLanguage specified together with the text-to-speech greetings.
 The custom text-to-speech greetings are only used, if there are no custom greetings recorded for the user.
 
 ## Transcription
-If enabled by online voicemail policy for the user being called, Cloud Voicemail will try to transcripe the voicemail left by the caller. It will use speech detection
+If enabled by online voicemail policy for the user being called, Cloud Voicemail will try to transcribe the voicemail left by the caller. It will use speech detection
 to understand the language used in the audio content and, if possible, transcribe the content using the detected language.
 
 ## Transcription translation
-If enabled by online voicemail policy for the user being called, Cloud Voicemail will translate the transcriped voicemail. It will translate from the language detected
+If enabled by online voicemail policy for the user being called, Cloud Voicemail will translate the transcribed voicemail. It will translate from the language detected
 during speech detection into, in priority order, either the preferred language specified for the user or the default tenant language.
 
 ## Voicemail message template
