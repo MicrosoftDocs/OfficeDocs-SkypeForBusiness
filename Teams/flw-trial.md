@@ -18,7 +18,7 @@ appliesto:
 
 # Teams for frontline workers trial overview
 
-The Microsoft Teams Frontline Trial experience lets users in your organization who have Azure Active Directory (Azure AD) and are in Teams initiate a Teams experience for their entire frontline team. Admins can switch this feature on or off for users in their organization.
+The Microsoft Teams Frontline Trial experience lets users in your organization who have Azure Active Directory (Azure AD) and are in Teams initiate a Teams experience for their entire frontline team. You can disable this feature for users in your organization by using the [AllowSelfServicePurchase PowerShell module](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell).
 
 ## What services are included
 
@@ -68,6 +68,8 @@ You can remove the Frontline Trial license through PowerShell or your Microsoft 
 
 ## Upgrade users from Frontline Trial
 
+At the end of the 90-day trial, you'll need to check with your users to see who needs to continue with a paid license. Upgrade your users to a [Microsoft 365 F3 license](https://www.microsoft.com/microsoft-365/enterprise/f3) with full capabilities, or another license that suits your needs. Make sure to do this before the Frontline Trial subscription expires to avoid any disruption to the users' experiences. [Learn how to upgrade your users](#upgrade-users-from-frontline-trial).
+
 You'll need admin privileges to upgrade your users. [Learn how](/microsoftteams/upgrade-from-teams-exploratory).
 
 If the Frontline Trial license ends and a user isn't immediately upgraded to a subscription that includes Teams, they lose access to Teams. After 30 days, their data (files, messages, and more) is deleted. The user still exists in Azure Active Directory. If a new license is assigned to the user to enable Teams functionality within the 30-day period, all their content in Teams will still exist.
@@ -78,7 +80,13 @@ If the Frontline Trial license ends and a user isn't immediately upgraded to a s
 The Frontline Trial lasts for 90 days.
 
 **What should administrators do at the end of the 90-day Frontline Trial experience?** <br>
-At the end of the 90-day trial, administrators can convert Frontline Trial users in need of a paid license to a Microsoft Frontline 1 or 3 license with full capabilities. Make sure to do this before the Frontline Trial subscription expires to avoid any disruption to the users' experiences. [Learn how to upgrade your users](#upgrade-users-from-frontline-trial).
+At the end of the 90-day trial, you'll need to check with your users to see who needs to continue with a paid license. Then you'll need to [Upgrade your users](#upgrade-users-from-frontline-trial)
+
+**What happens if the user who started the trial leaves your organization?** <br>
+You as admin will need to monitor the trial for the rest of the 90-day period, and upgrade to paid licenses for users who need them when the trial ends.
 
 **What is the data retention policy?** <br>
 You can learn about data retention from the [Microsoft 365 subscription information](/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires?)
+
+**What if a user encounters an error when starting the Frontline Trial?** <br>
+Make sure that your organization, the user starting the trial, and the users being added to the trial meet the [eligibility criteria](#eligibility).
