@@ -77,6 +77,15 @@ See also [Grant-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/grant-cs
 
 ## Assign a custom emergency calling policy to a network site
 
+### Using the Microsoft Teams admin center
+
+You can assign the global policy or any custom policies that you create.
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Locations** > **Network topology**, and click the **Network sites** tab.
+2. Select the site by clicking to the left of the name, and then click **Edit**.
+3. Under **Emergency calling policy**, select the policy, and then click **Save**.
+
+### Using PowerShell
 Use the [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite) cmdlet to assign an emergency calling policy to a network site.
 
 The following example shows how to assign a policy called Contoso Emergency Calling Policy 1 to the Site1 site.
