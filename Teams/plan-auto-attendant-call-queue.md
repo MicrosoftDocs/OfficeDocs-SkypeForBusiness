@@ -91,6 +91,7 @@ When an auto attendant or call queue is transferring calls to an external number
 - An [Operator Connect](operator-connect-plan.md) phone number assigned
 - An [online voice routing policy](manage-voice-routing-policies.md) (phone number assignment is optional when using Direct Routing)
 
+Which Resource Account to license:
 - License the resource account on the first auto attendant receiving the call when that auto attendant transfers to other auto attendants or call queues that transfer calls externally
 - In all other calling scenarios, license the resource account of the auto attendant or call queue performing the external transfer
 
