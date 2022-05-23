@@ -82,7 +82,7 @@ When a call arrives at the Microsoft 365 Direct Routing interface, the interface
 
 The following diagram summarizes the requirements to base domain, subdomains, and Contact header.
 
-:::image type="content" image source="media/direct-routing-1-sbc-requirements.png" alt-text=Diagram showing requirements to domains and Contact header." lightbox="media/direct-routing-1-sbc-requirements.png":::
+:::image type="content" image source="media/direct-routing-1-sbc-requirements.png" alt-text="Diagram showing requirements to domains and Contact header." lightbox="media/direct-routing-1-sbc-requirements.png":::
 
 The SBC requires a certificate to authenticate the connections. For the SBC hosting scenario, the carrier needs to request a certificate with CN and/or SAN *\*.base_domain (for example, \*.customers.adatum.biz)*. This certificate can be used to authenticate connections to multiple tenants served from a single SBC.
 
