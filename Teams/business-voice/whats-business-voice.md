@@ -29,7 +29,7 @@ ms.custom:
 >
 > For PBX capabilities and PSTN connectivity for small and medium businesses, we recommend the Teams Phone with Calling Plan bundle license, if it’s [available in your geographic area](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). If the Teams Phone with Calling Plan bundle license is not available in your region, see [Plan your Teams voice solution](../cloud-voice-landing-page.md) to learn about other voice solutions.
 >
-> Unlike Business Voice, Teams Phone with Calling Plan bundle licenses don't include Teams Audio Conferencing capabilities. Audio Conferencing is now free to Microsoft 365 subscribers. To learn about Audio Conferencing, see [Audio Conferencing in Microsoft 365](../audio-conferencing-in-office-365.md).  
+> Unlike Business Voice, Teams Phone with Calling Plan bundle licenses don't include Teams Audio Conferencing capabilities. Audio Conferencing is now free to Microsoft 365 subscribers with the Microsoft Teams Audio Conferencing with dial-out to USA/CAN plan. To learn about Audio Conferencing, see [Audio Conferencing in Microsoft 365](../audio-conferencing-in-office-365.md).  
 
 The Microsoft Teams Phone System with Calling Plan bundle is Microsoft’s all-in-the-cloud solution that makes it easy for organizations to turn Teams into a powerful and flexible telephone system. The Phone System with Calling Plan bundle provides Private Branch Exchange (PBX) capabilities and calls to the Public Switched Telephone Network (PSTN).
 
