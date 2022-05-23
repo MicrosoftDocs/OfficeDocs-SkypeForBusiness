@@ -1527,6 +1527,8 @@ items:
           href: approval-admin.md
         - name: Manage the Shifts app
           href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+        - name: Manage the Updates app
+          href: manage-updates-app.md
           
     - name: Administer third-party apps
       items:
