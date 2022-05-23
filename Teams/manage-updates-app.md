@@ -25,7 +25,7 @@ ms.custom:
 
 ## What is the Updates app
 
-The Updates app in Teams provides a centralized place for members of your organization to create, review, and submit updates. By creating templates, you can use the Updates app to keep track of anything your organization needs. Updates is available for both desktop and mobile.
+The Updates in Microsoft Teams app provides a centralized place for members of your organization to create, review, and submit updates. By creating templates, you can use the Updates app to keep track of anything your organization needs. Updates is available for both desktop and mobile.
 
 In Teams, users can get Updates from the Teams app store. They'll see all of the updates they need to submit on the **Submit** page.
 
@@ -147,4 +147,4 @@ Each user can create at most 400 Updates templates, and each template can collec
 From the Teams Updates app, users have access to create new updates and view updates that they have sent and received. Users won't have access to Updates that are created by others unless they're a viewer of the request.
 
 > [!Note]
-> A user is given a viewer role of a request if they are part of the chat or channel where the update report was created. They won't have the ability to take action on the request if they weren't given that role when the report was created.
+> A user is given a viewer role of a request if they are part of the chat or channel where the update report was created or the template creator manually adds them as a viewer. They won't have the ability to take action on the request if they weren't given that role when the report was created.
