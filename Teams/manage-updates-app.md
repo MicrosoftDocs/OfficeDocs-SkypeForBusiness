@@ -25,9 +25,16 @@ ms.custom:
 
 ## What is the Updates app
 
-The Updates app in Teams provides a centralized place for members of your organization to create, review, and submit updates. By creating templates, you can use the Updates app to keep track of anything your organization needs.
+The Updates app in Teams provides a centralized place for members of your organization to create, review, and submit updates. By creating templates, you can use the Updates app to keep track of anything your organization needs. Updates is available for both desktop and mobile.
 
 In Teams, users can get Updates from the Teams app store. They'll see all of the updates they need to submit on the **Submit** page.
+
+![Image of the Submit page in Teams for desktop.](media/updates-submit.png)
+
+Users can view updates they've assigned in the **Review** page.
+
+![Image of the Review page in Teams for desktop.](media/updates-home.png)
+
 When a user is assigned an update, it will show up in their Teams activity feed. Users can also view all their current update requests and previous submissions in the Updates app. In addition, anyone can create templates and send out update requests.
 
 Updates comes with both out-of-the-box templates for common business scenarios and the option to create your own template. Anyone can create a template for new types of updates. <!--link to end user content here-->
@@ -35,6 +42,10 @@ Updates comes with both out-of-the-box templates for common business scenarios a
 ## Example scenario
 
 Employees at a clothing store are responsible for opening and closing the store every day. Every morning, the shift leader fills out the Store opening update, which is an out-of-the-box template in the Updates app. In this update, they describe any issues with the previous night's closing, answer questions about the cleanliness of the store, and report any supplies that need replenished. Submitting an update lets them communicate their needs for the store and any problems quickly and efficiently. Daily updates also give the store associates an opportunity to highlight what's going well.
+
+At the store's manufacturing facilities, employees perform safety checks with Updates using mobile devices.
+
+![Image of the Weekly safety walkthrough template on a mobile device.](media/updates-mobile.png)
 
 Meanwhile, a team of remote workers is updating the store's website. They're spread across time zones, so daily stand-up meetings aren't convenient. Instead, each of the team members submits daily Updates reports on their progress to the team leader.
 
@@ -99,7 +110,6 @@ The Updates app is available by default. You can disable the app in the Teams ad
   4. Select **Updates**.
 
   5. Select the toggle to disable the app for your organization.
-
     ![Image of the toggle to enable or disable Updates.](media/toggle-updates.png)
 
 ## Pin Updates to Teams
