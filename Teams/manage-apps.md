@@ -149,7 +149,7 @@ You can view requests to make a blocked app available for use. The request is se
 
  1. Sort the **request by users** column to check the number of requests for each app.
 
-    :::image type="content" source="media/requested-apps1.png" alt-text="Request by users" lightbox="media/requested-apps.png"border="true":::​
+    :::image type="content" source="media/requested-apps1.png" alt-text="Request by users" lightbox="media/requested-apps.png" border="true":::​
 
  1. To view the apps that are requested, sort the requests in the **Requests by user** column.
  1. Select the name of the app that you want to unblock and it opens the app details page.
