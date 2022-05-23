@@ -1,8 +1,8 @@
 ---
 title: "Meeting room guidance for Teams"
-author: amandafrechinjackson
-ms.author: v-amandaf
-manager: jsarrasin
+author: dstrome
+ms.author: dstrome
+manager: serdars
 ms.date: 2/2/2022
 ms.topic: conceptual
 audience: ITPro
