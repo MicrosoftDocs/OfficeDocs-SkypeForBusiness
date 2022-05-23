@@ -61,7 +61,8 @@ While these features aren't a comprehensive list of feature capabilities for thi
 
   - Preserve performance and quality of Teams client experiences in all apps  
 
-NOTE: The agent bot does not need a phone system license. The Teams user does need a phone system license and phone number.
+> [!NOTE]
+> The agent bot does not need a phone system license. The Teams user does need a phone system license and a phone number.
 
 ### [**The Power model**](#tab/power)
 
