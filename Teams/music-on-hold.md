@@ -64,7 +64,7 @@ For supported audio formats and maximum file size, please see [Import-CsOnlineAu
 
 The configuration of custom Music on Hold starts with uploading the audio file. You use the PowerShell cmdlet [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile) for this purpose.
 
-An example of uploading an MP3 audio file using the PowerShell interface is shown below:
+An example of uploading an MP3 audio file using Windows PowerShell 5.1 is shown below. For other examples, see [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile).
 
 ```PowerShell
 C:\> $content = Get-Content "C:\tmp\customMoH1.mp3" -Encoding byte -ReadCount 0
@@ -127,6 +127,10 @@ The following table indicates which features on which clients and devices suppor
 
 - [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
+- [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
+
+- [Export-CsOnlineAudioFile](/powershell/module/skype/export-csonlineaudiofile)
+
 - [Get-CsOnlineAudioFile](/powershell/module/skype/get-csonlineaudiofile)
 
 - [Remove-CsOnlineAudioFile](/powershell/module/skype/remove-csonlineaudiofile)
@@ -139,6 +143,3 @@ The following table indicates which features on which clients and devices suppor
 
 - [Remove-CsTeamsCallHoldPolicy](/powershell/module/skype/remove-csteamscallholdpolicy)
 
-- [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
-
-- [Export-CsOnlineAudioFile](/powershell/module/skype/export-csonlineaudiofile)
