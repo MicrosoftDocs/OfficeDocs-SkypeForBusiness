@@ -78,7 +78,7 @@ When you block or allow an app on the Manage apps page, that app is blocked or a
 
 You can view requests to make a blocked app available for use. The request is sent to the IT admin, who can view and manage user requests in the Teams admin center.
 
-  :::image type="content" source="media/app-details1.png" alt-text="Place a request for blocked apps approval":::
+  :::image type="content" source="media/user-request.png" alt-text="Place a request for blocked apps approval":::
 
 ### View a request
 
