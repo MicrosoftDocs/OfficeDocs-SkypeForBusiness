@@ -34,68 +34,6 @@ To manage apps, you use policies to control permissions for users, installation 
 > [!NOTE]
 > The Manage apps page isn't available in Microsoft 365 Government Community Cloud High (GCCH) or Department of Defense (DoD) deployments of Teams.
 
-<!--- TBD: This info belongs in the app policy overview article. Title it as mentioned in the spreadsheet.
-
-* **App permission policy**: With it, you can control what apps are available to specific users in your organization. You can allow or block all apps or specific apps published by Microsoft, third-parties, and your organization. See [Manage app permission policies in Teams](teams-app-permission-policies.md).
-* **App setup policies**: It lets you customize the app experience for your users. You choose the apps that you want to pin to the app bar in the Teams clients and the order in which they appear, on web, desktop, and mobile clients. See [Manage app setup policies in Teams](teams-app-setup-policies.md).
-* **Custom app policies and settings**: Teams allows developers in your organization to build, test, and deploy custom apps to other users. Custom apps can be added to Teams by uploading an app package in a .zip file directly to a team or in the personal context. You can use app setup policies to control who in your organization can upload custom apps. You can also set org-wide settings to control whether users can interact with specific custom apps. See [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings).
-
-The following are the important use cases you can accomplish via the the Manage apps page:
-
-* [Allow or block apps at the org level](#allow-and-block-apps)
-* [Apps blocked by publishers](#apps-blocked-by-publishers)
-* [Add apps to teams](#add-an-app-to-a-team)
-* [Approve or upload new custom apps to your organization's app store](#publish-a-custom-app-to-your-organizations-app-store)
-* [View permissions requested by apps](#view-resource-specific-consent-permissions)
-* [Grant consent to apps](#grant-admin-consent-to-apps)
-* [Purchase service for third-party apps](#purchase-services-for-third-party-apps)
-* [See org-level status and properties of apps](#view-apps)
-* [Manage org-wide app settings](#manage-org-wide-app-settings)
-* [View security and compliance information for Microsoft 365 Certified apps](#view-security-and-compliance-information-for-microsoft-365-certified-apps)
-
---->
-
-<!--- TBD: Commenting for now in favor of the definition list above: 
-
-The Manage apps page gives you a view into all available apps, providing you with the information you need to decide which apps to allow or block across your organization. You can then use [app permission policies](teams-app-permission-policies.md), [app setup policies](teams-app-setup-policies.md), and [custom app policies and settings](teams-custom-app-policies-and-settings.md) to configure the app experience for specific users in your organization.
-
-In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. You must be a global admin or Teams service admin to access the page.
-
---->
-
-<!--- TBD: Move this view apps section to a new article about navigating and understanding TAC. It is yet to be created.
-
-## View apps
-
-You can view every app including the following information about each app.
-
-![Screenshot of the apps details page for an app.](media/app-detail-page.jpg)
-
-* **Name**: The app name. Select the app name to go to the app details page to see more information about the app. This includes a description of the app, whether it's allowed or blocked, version, privacy policy, terms of use, categories that apply to the app, certification status, supported capabilities, and app ID.
-* **Certification**: If the app has gone through certification, you'll see either **Microsoft 365 certified** or **Publisher attestation**. Select the link to view certification details for the app. If you see `--`, we don't have certification information for the app. To learn more about certified apps in Teams, read [Microsoft 365 App Certification program](/microsoft-365-app-certification/overview).
-* **Publisher**: Name of the publisher.
-* **Publishing status**: Publishing status of custom apps.
-* **Status**: Status of the app at the org level, which can be one of the following:
-  * **Allowed**: The app is available for all users in your organization.
-  * **Blocked**: The app is blocked and not available for any users in your organization.
-  * **Blocked by publisher**: The app is blocked by the publisher and is hidden from end-users by default. After you set up the app using the publisher's guidance, you can allow or block the app to make it available to end-users.
-  * **Blocked org-wide**: The app is blocked in org-wide app settings.
-      It's important to know that this column represents the allowed and blocked status of apps that were formerly on the **Org-wide settings** pane. You now view, block, and allow apps at the org-wide on the **Manage apps** page.
-* **Licenses**: Indicates whether an app offers a Software as a Service (SaaS) subscription for purchase. This column applies only to third-party apps. Each third-party app will have one of the following values:
-  * **Purchase**: The app offers a SaaS subscription and is available to purchase.  
-  * **Purchased**: The app offers a SaaS subscription and you've purchased licenses for it.
-  * **- -**: The app doesn't offer a SaaS subscription.
-* **Custom app**: Whether the app is a custom app.
-* **Permissions**: Indicates whether a third-party or custom app that's registered in Azure Active Directory (Azure AD) has permissions that need consent. You'll see one of the following values:
-  * **View details**: The app has permissions that require consent before the app can access data.
-  * **- -**: The app doesn't have permissions that need consent.
-* **Categories**: Categories that apply to the app.
-* **Version**: App version.
-* **Admin can install in meetings**: Indicates whether an app can be installed by admins in Team meetings. [Learn more](teams-app-setup-policies.md#install-apps)
-
-To see the information that you want in the table, select **Edit Column** in the upper-right corner to add or remove columns to the table.
---->
-
 ## Publish a custom app to your organization's app store
 
 Use the Manage apps page to publish apps that are built specifically for your organization. After you publish a custom app, it's available to users in your organization's app store. There are two ways to publish a custom app to your organization's app store. The way that you use depends on how you get the app.
@@ -124,7 +62,6 @@ To learn more, see [Publish a custom app by uploading an app package](upload-cus
 ## Allow and block apps
 
 The Manage apps page is where you allow or block individual apps at the org level. It shows every available app and its current org-level app status.
-<!--- TBD: Blocking and allowing apps at the org level has moved from the **Org-wide app settings** pane to here.(check with PM team if this sentence is needed or not needed going fwd)--->
 
 To allow or block an app:
 
@@ -147,11 +84,9 @@ You can view requests to make a blocked app available for use. The request is se
 
  1. Sign in to the Teams admin center and select [Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)
 
- 1. Sort the **request by users** column to check the number of requests for each app.
-
     :::image type="content" source="media/requested-apps1.png" alt-text="Request by users" lightbox="media/requested-apps.png" border="true":::​
 
- 1. To view the apps that are requested, sort the requests in the **Requests by user** column.
+ 1. To view and check the number of requests for each app, sort the requests in the **Requests by user** column.
  1. Select the name of the app that you want to unblock and it opens the app details page.
  1. Select **Manage requests** and complete the steps displayed in the popup dialog. The steps to approve an app vary based on the method used to block it.
 
@@ -159,10 +94,15 @@ You can view requests to make a blocked app available for use. The request is se
     * If the app is blocked for all users, [allow the app](#allow-and-block-apps).
     * If all apps are blocked for all users, modify [org-wide settings](#manage-org-wide-app-settings).
 
+ > [!NOTE]
+ > If an admin allows an app then it does not inform the end-user that their request is acted upon. The user must visit app in the Store to check if the app is unblocked or not.
+
 ### Dismiss a user request
 
 1. Select the name of the app for which you want to dismiss the user requests.
 1. Select **Manage requests** and select **Dismiss all requests** on the dialog box.
+1. When the request is dismissed, it resets the user requests to zero.
+1. Doesn't inform the end-user that their request is acted upon.
 
     :::image type="content" source="media/reject.png" alt-text="blocked apps rejection."border="true":::​
 
