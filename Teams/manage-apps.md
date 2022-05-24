@@ -93,16 +93,14 @@ You can view requests to make a blocked app available for use. The request is se
     * If the app is blocked using permission policies, allow the app by modifying [permission policies](teams-app-permission-policies.md).
     * If the app is blocked for all users, [allow the app](#allow-and-block-apps).
     * If all apps are blocked for all users, modify [org-wide settings](#manage-org-wide-app-settings).
-
- > [!NOTE]
- > If an admin allows an app then it does not inform the end-user that their request is acted upon. The user must visit app in the Store to check if the app is unblocked or not.
+    * If an admin allows an app then it doesn't inform the end-user that their request is acted upon. The user must visit app in the Store to check if the app is unblocked or not.
 
 ### Dismiss a user request
 
-1. Select the name of the app for which you want to dismiss the user requests.
-1. Select **Manage requests** and select **Dismiss all requests** on the dialog box.
-1. When the request is dismissed, it resets the user requests to zero.
-1. Doesn't inform the end-user that their request is acted upon.
+ 1. Select the name of the app for which you want to dismiss the user requests.
+ 1. Select **Manage requests** and select **Dismiss all requests** on the dialog box.
+ 1. When a request is dismissed, it resets the user requests to zero.
+ 1. If an admin dismiss a request, it doesn't inform the end-user that their request is acted upon. The user must visit app in the Store to check if the app is unblocked or not.
 
     :::image type="content" source="media/reject.png" alt-text="blocked apps rejection."border="true":::​
 
