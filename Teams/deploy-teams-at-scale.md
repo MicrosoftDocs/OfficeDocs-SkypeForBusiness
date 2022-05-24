@@ -29,15 +29,15 @@ You may have a lot of teams that you use to drive communication and collaboratio
 
 We're building a solution to allow admins to deploy and manage teams at scale.  
 
-Here's an overview of what's available today, what's coming soon, and what we're planning in the near future.
+## Deploy teams at scale
+
+You use PowerShell to deploy teams at scale. Here's an overview of what's available today, what's coming soon, and what we're planning for the near future.
 
 |Available today  |Available soon  |In the future  |
 |---------|---------|---------|
-| <ul><li>Create up to 30 teams per upload using pre-built templates or your own custom templates.</li><li>Add up to 20 users per team as owners or members.</li><li>Manage teams at scale by adding or removing users from existing teams.</li><li>Stay notified with emails. This includes job completion, job status, and errors if any. Team owners and members are notified.</li></ul>|<ul><li>Create up to 100 teams per upload.</li><li>Add up to 25 users per team as owners or members. </li></ul>|<ul><li>Create up to 500 teams per upload.</li></ul>|
+| <ul><li>Create up to 30 teams per batch using pre-built templates or your own custom templates.</li><li>Add up to 20 users per team as owners or members.</li><li>Manage teams at scale by adding or removing users from existing teams.</li><li>Stay notified with emails. This includes completion, status, and errors if any. Team owners and members are notified.</li></ul>|<ul><li>Create up to 100 teams per batch.</li><li>Add up to 25 users per team as owners or members. </li></ul>|<ul><li>Create up to 500 teams per batch.</li></ul>|
 
-## How to deploy teams at scale
-
-Use these steps to create up to XYZ of teams at a time.
+## Steps
 
 You use the ```New-CsBatchTeamsDeployment``` cmdlet to submit a batch of teams to create. An orchestration ID is generated for each batch. You can then use the ```Get-CsBatchTeamsDeployment``` cmdlet to track the progress and status of each batch.
 
