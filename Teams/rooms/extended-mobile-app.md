@@ -29,9 +29,11 @@ Download the Teams Rooms mobile app from the ][Apple App Store](https://apps.app
 
 **To get the MTMS mobile app**
 
-1. Search for Teams Rooms Manged Services in the app store for your device and install it.
+1. Search for Teams Rooms Managed Services in the app store for your device and install it.
 2. Sign in with your global admin email address, and view the dashboard to see service health, monitor user licenses, and see messages and service requests.
-## Viewing incidents
+## Managing incidents
+
+Here are some of the capabilities you have on the mobile app for managing incidents.
 
 - Receive push notifications for new incidents.
 - Tap the notification to open and view incident details immediately.
@@ -39,47 +41,45 @@ Download the Teams Rooms mobile app from the ][Apple App Store](https://apps.app
 - View the basic incident details with ticket information, including messages.
 - View ticket attachments and files.
 - Sign out from a user panel (notifications/messages are disabled if signed out).
-- 
+
 ### Incidents Page
-![MTMS mobile application incidents page screen](../media/mtms-mobile-app-003.png)
-### Incidents loading
-![MTMS mobile application incidents loading screen](../media/mtms-mobile-app-004.png)
+
+The Incidents page shows active and resolved incidents.
+![MTMS mobile application incidents page screen](../media/mtms-mobile-app-015-activeincidents.png)
 
 ## Managing tickets
+Here are some of the capabilities you have on the mobile app for managing tickets.
 
 - Acknowledge incident (mark as read).
 - Read, post, and reply to messages on a ticket.
 - Toggle to Dark Mode.
-- Capability to add an attachment (take and upload pictures).
+- Add an attachment (take and upload pictures).
 - Report on an incident (create a ticket).
 
 
 
 ### Ticket messages
-![MTMS mobile application ticket messages loading screen](../media/mtms-mobile-app-006.png)
+![MTMS mobile application ticket messages loading screen](../media/mtms-mobile-app-017-ticketmessage2.png)
 ### Ticket attachments
-![MTMS mobile application ticket attachments](../media/mtms-mobile-app-007.png)
+![MTMS mobile application ticket attachments](../media/mtms-mobile-app-007attachments.png)
 ### Ticket details
-![MTMS mobile application ticket details screen](../media/mtms-mobile-app-005.png)
-
-### User menu
-![MTMS mobile application user home page](../media/mtms-mobile-app-011.png)
-### Report an incident
-![MTMS mobile application report incident](../media/mtms-mobile-app-012.png)-->
-## Other Features
-### View messages
-![MTMS mobile application  view messages screen](../media/mtms-mobile-app-017.png)
-### Review Rooms Problems
-![MTMS mobile application  Rooms problems screen](../media/mtms-mobile-app-018.png)
-### Managed Security with Microsoft Defender
-
-![MTMS mobile applicationmanaged security screen](../media/mtms-mobile-app-019.png)
+![MTMS mobile application ticket details screen](../media/mtms-mobile-app-005-unhealthycamera.png)
 ### Track active investigations
 
-![MTMS mobile application track active investigations screen](../media/mtms-mobile-app-020.png)
-### Communication with experts
-![MTMS mobile application Messages screen](../media/mtms-mobile-app-021.png)
+![MTMS mobile application track active investigations screen](../media/mtms-mobile-app-020-ticketdetail.png)
+### Report an incident
 
+![MTMS mobile application report incident](../media/mtms-mobile-app-012reportincident.png)-->
+### View an incident by category
+
+![MTMS mobile application  Rooms problems screen](../media/mtms-mobile-app-018-incidentsbycategory.png)
+### Managed Security with Microsoft Defender
+
+![MTMS mobile application managed security screen](../media/mtms-mobile-app-019-securityissues.png)
+### Communication with experts
+![MTMS mobile application Messages screen](../media/mtms-mobile-app-017-ticketmessage2.png)
+### Sign out
+![MTMS mobile application signout page page](../media/mtms-mobile-app-011-signout.png)
 ## Frequently asked questions
 Below are answers to frequently asked questions.
 
