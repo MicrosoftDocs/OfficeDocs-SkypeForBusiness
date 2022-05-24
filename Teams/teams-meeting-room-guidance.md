@@ -1,8 +1,8 @@
 ---
 title: "Meeting room guidance for Teams"
-author: amandafrechinjackson
-ms.author: v-amandaf
-manager: jsarrasin
+author: dstrome
+ms.author: dstrome
+manager: serdars
 ms.date: 2/2/2022
 ms.topic: conceptual
 audience: ITPro
@@ -435,6 +435,12 @@ Other options:
 -   [Poly Studio](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-studio/206)
 
 -   Poly Studio E70
+
+-   [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)
+
+-   [Logitech Rally Bar](https://www.logitech.com/products/video-conferencing/room-solutions/rallybar.960-001308.html)
+
+-   [Logitech Rally Bar Mini](https://www.logitech.com/products/video-conferencing/room-solutions/rallybarmini.960-001336.html)
 
 ### Microphone
 
