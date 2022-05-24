@@ -87,7 +87,7 @@ As introduced in [Centralized Logging Service in Skype for Business 2015](centra
    ```
 
     > [!NOTE]
-    > As it is known in Windows PowerShell, the convention for creating a hash table of values using  `@{<variable>=<value1>, <value2>, <value>…}` is known assplatting. For details about splatting in Windows PowerShell, see [https://go.microsoft.com/fwlink/p/?LinkId=267760](/previous-versions/technet-magazine/gg675931(v=msdn.10)). 
+    > As it is known in Windows PowerShell, the convention for creating a hash table of values using  `@{<variable>=<value1>, <value2>, <value>...}` is known assplatting. For details about splatting in Windows PowerShell, see [https://go.microsoft.com/fwlink/p/?LinkId=267760](/previous-versions/technet-magazine/gg675931(v=msdn.10)). 
   
 ### To modify an existing scenario with the Set-CsClsScenario cmdlet
 

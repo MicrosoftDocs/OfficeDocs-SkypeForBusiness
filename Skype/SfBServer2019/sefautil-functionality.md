@@ -31,7 +31,7 @@ Administrators can change call forwarding settings by using the following cmdlet
 
 This cmdlet returns the specified user’s call forwarding settings as an object and displays the same on the screen.
 
-- `Set-CsUserCallForwardingSettings -Identity <UserIdParameter> [Param1 <Value>] [Param2 <Value>]…`
+- `Set-CsUserCallForwardingSettings -Identity <UserIdParameter> [Param1 <Value>] [Param2 <Value>]...`
 
 This cmdlet modifies the specified user’s call forwarding settings. This cmdlet returns the specified user’s call forwarding settings as an object, and displays the same on the screen, in case of success. In case of failure, an appropriate error message will be shown.
 

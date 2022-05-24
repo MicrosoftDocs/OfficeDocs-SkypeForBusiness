@@ -46,30 +46,26 @@ When staging OAuthTokenIssuer certificates, there are different requirements for
 ### To update or renew an A/V Edge service certificate with a -Roll and -EffectiveDate parameters
 
 1. Log on to the local computer as a member of the Administrators group.
-    
+
 2. Request a renewal or new AudioVideoAuthentication certificate with exportable private key for the existing certificate on the A/V Edge service.
-    
+
 3. Import the new AudioVideoAuthentication certificate to the Edge Server and all other Edge Server in your pool (if you have a pool deployed).
-    
-4. Configure the imported certificate with the Set-CsCertificate cmdlet and use the -Roll parameter with the -EffectiveDate parameter. The effective date should be defined as the current certificate expire time (14:00:00, or 2:00:00 PM) minus token lifetime (by default eight hours). This gives us a time that the certificate must be set to active, and is the -EffectiveDate \<string\>: "7/22/2015 6:00:00 AM". 
-    
-    > [!IMPORTANT]
-    > For an Edge pool, you must have all AudioVideoAuthentication certificates deployed and provisioned by the date and time defined by the -EffectiveDate parameter of the first certificate deployed to avoid possible A/V communications disruption due to the older certificate expiring before all client and consumer tokens have been renewed using the new certificate. 
+
+4. Configure the imported certificate with the Set-CsCertificate cmdlet and use the -Roll parameter with the -EffectiveDate parameter. The effective date should be defined as the current certificate expire time (14:00:00, or 2:00:00 PM) minus token lifetime (by default eight hours). This gives us a time that the certificate must be set to active, and is the -EffectiveDate \<string\>: "7/22/2015 6:00:00 AM".
+
+   > [!IMPORTANT]
+   > For an Edge pool, you must have all AudioVideoAuthentication certificates deployed and provisioned by the date and time defined by the -EffectiveDate parameter of the first certificate deployed to avoid possible A/V communications disruption due to the older certificate expiring before all client and consumer tokens have been renewed using the new certificate. 
   
-    The Set-CsCertificate command with the -Roll and -EffectiveTime parameter:
-    
+   The Set-CsCertificate command with the -Roll and -EffectiveTime parameter:
+
    ```PowerShell
-   Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint
-		  <thumb print of new certificate> -Roll -EffectiveDate <date and time
-		  for certificate to become active>
+   Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint <thumb print of new certificate> -Roll -EffectiveDate <date and time for certificate to become active>
    ```
 
-    An example Set-CsCertificate command:
-    
+   An example Set-CsCertificate command:
+
    ```PowerShell
-   Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint
-		  "B142918E463981A76503828BB1278391B716280987B" -Roll -EffectiveDate "7/22/2015
-		  6:00:00 AM"
+   Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint "B142918E463981A76503828BB1278391B716280987B" -Roll -EffectiveDate "7/22/2015 6:00:00 AM"
    ```
 
     > [!IMPORTANT]
@@ -79,7 +75,7 @@ To further understand the process that Set-CsCertificate, -Roll, and -EffectiveD
   
 ![Using the Roll and the EffectiveDate parameters.](../../media/Ops_Certificate_Set_Roll_EffectiveTime_Timeline.jpg)
   
-|**Callout**|**Stage**|
+|Callout|Stage|
 |:-----|:-----|
 |1  <br/> |Start: 7/22/2015 12:00:00 AM  <br/> The current AudioVideoAuthentication certificate is due to expire at 2:00:00 PM on 7/22/2015. This is determined by the expires time stamp on the certificate. Plan your certificate replacement and rollover to account for an 8 hour overlap (default token lifetime) before the existing certificate reaches the expire time. The 2:00:00 AM lead time is used in this example to allow the administrator adequate time to place and provision the new certificates in advance of the 6:00:00 AM effective time.  <br/> |
 |2  <br/> |7/22/2015 2:00:00 AM - 7/22/2015 5:59:59 AM  <br/> Set Certificates on Edge Servers with effective time of 6:00:00 AM (4 hour lead time is for this example, but can be longer) using Set-CsCertificate -Type \<certificate usage type\> -Thumbprint \<thumbprint of new certificate\> -Roll -EffectiveDate \<datetime string of the effective time for new certificate\>  <br/> |
@@ -95,33 +91,30 @@ Remove-CsCertificate -Type AudioVideoAuthentication -Previous
 ### To update or renew an OAuthTokenIssuer certificate with a -Roll and -EffectiveDate parameters
 
 1. Log on to the local computer as a member of the Administrators group.
-    
+
 2. Request a renewal or new OAuthTokenIssuer certificate with exportable private key for the existing certificate on the Front End Server.
-    
+
 3. Import the new OAuthTokenIssuer certificate to a Front End Server in your pool (if you have a pool deployed). The OAuthTokenIssuer certificate is replicated globally and only needs to be updated and renewed at any server in your deployment. The Front End Server is used as an example.
-    
+
 4. Configure the imported certificate with the Set-CsCertificate cmdlet and use the -Roll parameter with the -EffectiveDate parameter. The effective date should be defined as the current certificate expire time (14:00:00, or 2:00:00 PM) minus a minimum of 24 hours. 
-    
+
     The Set-CsCertificate command with the -Roll and -EffectiveTime parameter:
-    
+
    ```PowerShell
-   Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint <thumb
-		  print of new certificate> -Roll -EffectiveDate <date and time for
-		  certificate to become active> -identity Global 
+   Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint <thumbprint of new certificate> -Roll -EffectiveDate <date and time for certificate to become active> -identity Global 
    ```
 
 An example Set-CsCertificate command:
-    
+
   ```PowerShell
-  Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint
-		  "B142918E463981A76503828BB1278391B716280987B" -Roll -EffectiveDate "7/21/2015
-		  1:00:00 PM" 
+  Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint "B142918E463981A76503828BB1278391B716280987B" -Roll -EffectiveDate "7/21/2015 1:00:00 PM" 
   ```
 
 > [!IMPORTANT]
 > The EffectiveDate must be formatted to match your server's region and language settings. The example uses the US English Region and Language settings 
   
 When the effective time is reached (7/21/2015 1:00:00 AM), all new tokens are issued by the new certificate. When validating tokens, tokens will first be validated against the new certificate. If the validation fails, the old certificate is tried. The process of trying the new and falling back to the old certificate will continue until the expiry time of the old certificate. Once the old certificate has expired (7/22/2015 2:00:00 PM), tokens will only be validated by the new certificate. The old certificate can be safely removed using the Remove-CsCertificate cmdlet with the -Previous parameter.
+
 ```PowerShell
 Remove-CsCertificate -Type OAuthTokenIssuer -Previous 
 ```

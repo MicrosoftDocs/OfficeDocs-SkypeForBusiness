@@ -41,7 +41,7 @@ Backup-CcCertificationAuthority
 ## Detailed Description
 <a name="DetailedDescription"> </a>
 
-Certification authority backup can be useful if you plan to redeploy a Cloud Connector appliance with the same certificate in case of a disaster, or if you want to move the appliance to new hardware. The command saves the copy of the Cloud Connector certification authority service from the AD Server to  "\<SiteRootDirectory\>\CA\SfB CCE Root.p12".
+Certification authority backup can be useful if you plan to redeploy a Cloud Connector appliance with the same certificate in case of a disaster, or if you want to move the appliance to new hardware. The command saves the copy of the Cloud Connector certification authority service from the AD Server to "\<SiteRootDirectory\>\CA\SfB CCE Root.p12".
   
 ## Input Types
 <a name="InputTypes"> </a>
@@ -58,4 +58,3 @@ None
 
 [Remove-CcCertificationAuthorityFile](remove-cccertificationauthorityfile.md)
   
-

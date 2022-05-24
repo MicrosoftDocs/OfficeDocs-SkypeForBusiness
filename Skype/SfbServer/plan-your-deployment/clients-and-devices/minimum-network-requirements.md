@@ -28,7 +28,7 @@ To allow users to use Skype Meetings App to  attend meetings hosted in Skype for
 ## Requirements for Skype Meetings App connectivity
 
 The information listed here is a subset of [Office 365 URLs and IP address ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US), which provides more depth and will always be the most up to date.
-					
+
  
 |App |Destination FQDNs  |IP Addresses  |Ports  |
 |---|---------|---------|---------|
