@@ -50,7 +50,7 @@ You use the ```New-CsBatchTeamsDeployment``` cmdlet to submit a batch of teams t
     ```
 
     If you get an error message, you're already set. Go to the next step.
-1. Download the [latest version of the Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams/4.3.1-preview), and then run the following to install it:
+1. Download the [latest version of the Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams/4.3.1-preview), and then run the following to install it.
 
     ```powershell
     Install-Module -Name MicrosoftTeams –AllowPrerelease 
