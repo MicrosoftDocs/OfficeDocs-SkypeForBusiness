@@ -78,7 +78,7 @@ If you're a vendor seeking to join the certification program, see [How to Join](
 |AudioCodes|SmartTAP Recording|Compliance, Recording|
 |AudioCodes|AudioCodes IVR/ACD for Lync||
 |AudioCodes|AudioCodes SIP Phone Support (SPS)||
-|Bressner Technology, |GmbH|FonComfort Lite||
+|Bressner Technology, GmbH|FonComfort Lite||
 |Bridge Communications|Operator Console|Attendant Console|
 |BTS |CommsWare Operator Console |Attendant Console|
 |BTS |CommsWare Contact Centre |Contact Center|
@@ -95,8 +95,8 @@ If you're a vendor seeking to join the certification program, see [How to Join](
 |Enghouse Interactive|TouchPoint Attendant: Operator Console|Attendant Console, Contact Center|
 |Enghouse Interactive|Communication Contact Center Omni-channel Contact Center|Contact Center|
 |Enghouse Interactive|Trio Enterprise Attendant Console & Contact Center|Attendant Console, Contact Center|
-|Enghouse Interactive|Quality Management Suite: Recording, |Monitoring, & Coaching||
-|Enghouse Interactive|Voxtron Communication Center Multimedia Contact Center|Contact Center
+|Enghouse Interactive|Quality Management Suite: Recording, Monitoring, & Coaching||
+|Enghouse Interactive|Voxtron Communication Center Multimedia Contact Center|Contact Center|
 |Genesys Labs|Multimedia Connector|Contact Center|
 |Geomant|Contact Expert|Contact Center|
 |Illuminari Tech|Quicklaunch||
@@ -106,7 +106,7 @@ If you're a vendor seeking to join the certification program, see [How to Join](
 |Luware AG|LUCS Lean Unified Customer Services|Contact Center|
 |MIND CTI|PhonEX ONE|Billing & Enhanced Reporting|
 |MindLink Software|MindLink - Secure Enterprise Messaging||
-|Mitel|Mitel InAttend|Attendant Console
+|Mitel|Mitel InAttend|Attendant Console|
 |Netcall|Liberty ContactCentre|Contact Center|
 |Nice Systems LTD|Trading Recording|Recording|
 |Nice Systems LTD|Engage Platform|Recording|
@@ -115,7 +115,7 @@ If you're a vendor seeking to join the certification program, see [How to Join](
 |Polycom|Polycom RealConnect Service for Skype for Business|Cloud Interoperability|
 |Pulsar IT|UC3 - Unified Communications for Contact Centers||
 |StartReady|Phone Manager for Lync||
-|Uncommon Solutions|VisitorLink|Billing & Enhanced Reporting
+|Uncommon Solutions|VisitorLink|Billing & Enhanced Reporting|
 |Unexus|UCS Contact Center|Contact Center|
 |Unexus|UCS Attendant Console|Attendant Console|
 |Verba|Recording System|Recording|

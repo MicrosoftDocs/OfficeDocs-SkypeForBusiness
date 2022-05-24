@@ -13,6 +13,7 @@ appliesto:
 - Skype for Business
 ms.localizationpriority: medium
 ms.custom: Learn how to use PowerShell to manage inbound call blocking in Skype for Business Online.
+description: Admins can learn how to block inbound calls in Skype for Business Online.
 ---
 
 # Block inbound calls

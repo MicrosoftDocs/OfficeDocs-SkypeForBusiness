@@ -27,7 +27,7 @@ For more information about this feature, see [Plan for Shared Line Appearance in
 
 Shared Line Appearance (SLA) is a new feature in Skype for Business Server, November 2015 Cumulative Update. To enable this feature, you must have first deployed this cumulative update.
 
-### Install Shared Line Appearance
+## Install Shared Line Appearance
 
 1. After Skype for Business Server, November 2015 Cumulative Update is deployed, run the  `SkypeServerUpdateInstaller.exe` patch on each Front End Server in the pool.
 
@@ -53,9 +53,9 @@ Shared Line Appearance (SLA) is a new feature in Skype for Business Server, Nove
    Stop-CsWindowsService RTCSRV Start-CsWindowsService RTCSRV
    ```
 
-### Create an SLA group and add users to it
+## Create an SLA group and add users to it
 
-1. Create the SLA group by using the [Set-CsSlaConfiguration](/powershell/module/skype/set-csslaconfiguration?view=skype-ps) cmdlet:
+1. Create the SLA group by using the [Set-CsSlaConfiguration](/powershell/module/skype/set-csslaconfiguration) cmdlet:
 
    ```powershell
    Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MaxNumberOfCalls <Number> -BusyOption <BusyOnBusy|Voicemail|Forward> [-Target <TargetUserOrPhoneNumber>]
@@ -76,7 +76,7 @@ Shared Line Appearance (SLA) is a new feature in Skype for Business Server, Nove
     > [!NOTE]
     > Note that what you specify for  `-Identity` must be a valid existing Enterprise Voice-enabled user account.
 
-2. Add delegates to the group by using the [Add-CsSlaDelegates](/powershell/module/skype/add-cssladelegates?view=skype-ps) cmdlet:
+2. Add delegates to the group by using the [Add-CsSlaDelegates](/powershell/module/skype/add-cssladelegates) cmdlet:
 
    ```powershell
    Add-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate <NameOfDelegate@domain>
@@ -90,9 +90,9 @@ Shared Line Appearance (SLA) is a new feature in Skype for Business Server, Nove
 
     Repeat the cmdlet for each user you want to add to the group. Users can only belong to a single SLA group.
 
-### Configure the SLA group Busy Option
+## Configure the SLA group Busy Option
 
-- Configure the SLA group Busy Option by using the [Set-CsSlaConfiguration](/powershell/module/skype/set-csslaconfiguration?view=skype-ps) cmdlet:
+- Configure the SLA group Busy Option by using the [Set-CsSlaConfiguration](/powershell/module/skype/set-csslaconfiguration) cmdlet:
 
   ```powershell
   Set-CsSlaConfiguration -Identity <IdentityOfGroup> -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
@@ -104,9 +104,9 @@ Shared Line Appearance (SLA) is a new feature in Skype for Business Server, Nove
   Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward -Target tel:+2025551234
   ```
 
-### Configure the SLA group Missed Call Option
+## Configure the SLA group Missed Call Option
 
-1. Configure the SLA group Missed Call Option by using the [Set-CsSlaConfiguration](/powershell/module/skype/set-csslaconfiguration?view=skype-ps) cmdlet:
+1. Configure the SLA group Missed Call Option by using the [Set-CsSlaConfiguration](/powershell/module/skype/set-csslaconfiguration) cmdlet:
 
    ```powershell
    Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MissedCallOption <Option> -MissedCallForwardTarget <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
@@ -118,9 +118,9 @@ Shared Line Appearance (SLA) is a new feature in Skype for Business Server, Nove
    Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com -BusyOption Forward -MaxNumberOfCalls 2 -Target sip:sla_forward_number@contoso.com
    ```
 
-### Remove a delegate from a group
+## Remove a delegate from a group
 
-- Remove a delegate from a group by using the [Remove-CsSlaDelegates](/powershell/module/skype/remove-cssladelegates?view=skype-ps) cmdlet:
+- Remove a delegate from a group by using the [Remove-CsSlaDelegates](/powershell/module/skype/remove-cssladelegates) cmdlet:
 
   ```powershell
   Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate <NameOfDelegate@domain>
@@ -132,9 +132,9 @@ Shared Line Appearance (SLA) is a new feature in Skype for Business Server, Nove
   Remove-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate3@contoso.com
   ```
 
-### Delete an SLA group
+## Delete an SLA group
 
-- Delete an SLA group by using the [Remove-CsSlaConfiguration](/powershell/module/skype/remove-csslaconfiguration?view=skype-ps) cmdlet:
+- Delete an SLA group by using the [Remove-CsSlaConfiguration](/powershell/module/skype/remove-csslaconfiguration) cmdlet:
 
   ```powershell
   Remove-CsSlaConfiguration -Identity <IdentityOfGroup>
