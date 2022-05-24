@@ -114,9 +114,9 @@ Start-Sleep 1
 #Ensure Teams module is at least version x
 Write-Host "Checking Teams module version"
 try {
-	Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 4.1.0
+    Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 4.1.0
 } catch {
-	throw
+    throw
 }
 
 #Connect to MS Graph
@@ -147,8 +147,8 @@ $retailWebApiUrl = Read-Host -Prompt 'Input retail web api url'
 $siteManagerUrl = Read-Host -Prompt 'Input site manager url'
 $testResult = Test-CsTeamsShiftsConnectionValidate -Name $InstanceName -ConnectorId $BlueYonderId -ConnectorSpecificSettingAdminApiUrl $adminApiUrl -ConnectorSpecificSettingCookieAuthUrl $cookieAuthUrl -ConnectorSpecificSettingEssApiUrl $essApiUrl -ConnectorSpecificSettingFederatedAuthUrl $federatedAuthUrl -ConnectorSpecificSettingRetailWebApiUrl $retailWebApiUrl -ConnectorSpecificSettingSiteManagerUrl $siteManagerUrl -ConnectorSpecificSettingLoginPwd $plainPwd -ConnectorSpecificSettingLoginUserName $WfmUserName 
 if ($testResult.Code -ne $NULL) {
-	write $testResult
-	throw "Validation failed, conflict found"
+    write $testResult
+    throw "Validation failed, conflict found"
 }
 Write-Host "Test complete, no conflicts found"
 
@@ -177,9 +177,9 @@ $InstanceResponse = New-CsTeamsShiftsConnectionInstance -Name $InstanceName -Con
 $InstanceId = $InstanceResponse.id
 $Etag = $InstanceResponse.etag
 if ($InstanceId -ne $null){
-	Write-Host "Success"
+    Write-Host "Success"
 } else {
-	throw "Connector instance creation failed"
+    throw "Connector instance creation failed"
 }
 
 #Retrieve the list of sites
@@ -187,10 +187,10 @@ Write-Host "Listing the WFM team sites"
 $WfmTeamIds = Get-CsTeamsShiftsConnectionWfmTeam -ConnectorInstanceId $InstanceId
 write $WfmTeamIds
 if ($WfmTeamIds -ne $NULL && $WfmTeamIds.Count -gt 0){
-	[System.String]$WfmTeamId = Read-Host -Prompt "Input the ID of WFM team you want to map"
+    [System.String]$WfmTeamId = Read-Host -Prompt "Input the ID of WFM team you want to map"
 }
 else {
-	throw "The WfmTeamId list is null or empty"
+    throw "The WfmTeamId list is null or empty"
 }
 
 #Retrieve the list of WFM users and their roles 
@@ -215,16 +215,16 @@ $currentUser = Read-Host -Prompt "Input the current user's user name or ID"
 Add-TeamUser -GroupId $TeamsTeamId -User $currentUser -Role Owner
 $failedWfmUsers=@()
 foreach ($user in $WFMUsers) {
-	try {
-	$userEmail = $user.Name + "@" +$domain
-	Add-TeamUser -GroupId $TeamsTeamId -User $userEmail
-	} catch {
-		$failedWfmUsers+=$user
-	}
+    try {
+    $userEmail = $user.Name + "@" +$domain
+    Add-TeamUser -GroupId $TeamsTeamId -User $userEmail
+    } catch {
+        $failedWfmUsers+=$user
+    }
 }
 if($failedWfmUsers.Count -gt 0){
-	Write-Host "There are WFM users not existed in Teams tenant:"
-	write $failedWfmUsers
+    Write-Host "There are WFM users not existed in Teams tenant:"
+    write $failedWfmUsers
 }
 
 #Enable scheduling in the group
@@ -266,9 +266,9 @@ Start-Sleep 1
 #Ensure Teams module is at least version x
 Write-Host "Checking Teams module version"
 try {
-	Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 4.1.0
+    Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 4.1.0
 } catch {
-	throw
+    throw
 }
 
 #Connect to MS Graph
@@ -299,8 +299,8 @@ $retailWebApiUrl = Read-Host -Prompt 'Input retail web api url'
 $siteManagerUrl = Read-Host -Prompt 'Input site manager url'
 $testResult = Test-CsTeamsShiftsConnectionValidate -Name $InstanceName -ConnectorId $BlueYonderId -ConnectorSpecificSettingAdminApiUrl $adminApiUrl -ConnectorSpecificSettingCookieAuthUrl $cookieAuthUrl -ConnectorSpecificSettingEssApiUrl $essApiUrl -ConnectorSpecificSettingFederatedAuthUrl $federatedAuthUrl -ConnectorSpecificSettingRetailWebApiUrl $retailWebApiUrl -ConnectorSpecificSettingSiteManagerUrl $siteManagerUrl -ConnectorSpecificSettingLoginPwd $plainPwd -ConnectorSpecificSettingLoginUserName $WfmUserName 
 if ($testResult.Code -ne $NULL) {
-	write $testResult
-	throw "Validation failed, conflict found"
+    write $testResult
+    throw "Validation failed, conflict found"
 }
 Write-Host "Test complete, no conflicts found"
 
@@ -330,9 +330,9 @@ $InstanceResponse = New-CsTeamsShiftsConnectionInstance -Name $InstanceName -Con
 $InstanceId = $InstanceResponse.id
 $Etag = $InstanceResponse.etag
 if ($InstanceId -ne $null){
-	Write-Host "Success"
+    Write-Host "Success"
 } else {
-	throw "Connector instance creation failed"
+    throw "Connector instance creation failed"
 }
 
 #Retrieve the list of sites
@@ -340,10 +340,10 @@ Write-Host "Listing the WFM team sites"
 $WfmTeamIds = Get-CsTeamsShiftsConnectionWfmTeam -ConnectorInstanceId $InstanceId
 write $WfmTeamIds
 if ($WfmTeamIds -ne $NULL && $WfmTeamIds.Count -gt 0){
-	[System.String]$WfmTeamId = Read-Host -Prompt "Input the ID of WFM team you want to map"
+    [System.String]$WfmTeamId = Read-Host -Prompt "Input the ID of WFM team you want to map"
 }
 else {
-	throw "The WfmTeamId list is null or empty"
+    throw "The WfmTeamId list is null or empty"
 }
 
 #Retrieve the list of WFM users and their roles 

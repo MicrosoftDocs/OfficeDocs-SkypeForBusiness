@@ -57,6 +57,7 @@ This article describes how to use PowerShell to do the following:
     When you're prompted, sign in using your admin credentials. You're now set up to run the scripts in this article and Shifts connector cmdlets.
 
 ## Check connection setup status
+
 <a name="setup_status"> </a>
 
 To check the status of the connection you set up using the operation ID that you received in email:
@@ -71,6 +72,7 @@ To check the status of the connection you set up using the operation ID that you
 To learn more, see [Get-CsTeamsShiftsConnectionOperation](/powershell/module/teams/get-csteamsshiftsconnectionoperation?view=teams-ps).
 
 ## View an error report for a connection
+
 <a name="error_report"> </a>
 
 You can run a report that shows error details for a connection. The report lists team and user mappings that succeeded and failed. It also provides information about any issues related to the accounts associated with the connection.
@@ -106,9 +108,9 @@ Start-Sleep 1
 #Ensure Teams module is of version x 
 Write-Host "Checking Teams module version"
 try {
-	Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 4.1.0
+    Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 4.1.0
 } catch {
-	throw
+    throw
 }
 
 #List connection instances available 
@@ -118,10 +120,10 @@ write $InstanceList
 
 #Get an instance
 if ($InstanceList.Count -gt 0){
-	$InstanceId = Read-Host -Prompt 'Input the instance ID that you want to retrieve user sync results from'
+    $InstanceId = Read-Host -Prompt 'Input the instance ID that you want to retrieve user sync results from'
 }
 else {
-	throw "Instance list is empty"
+    throw "Instance list is empty"
 }
 
 #Get a list of the mappings
@@ -131,14 +133,14 @@ write $mappings
 
 #For each mapping, retrieve the failed mappings
 ForEach ($mapping in $mappings){
-	$teamsTeamId = $mapping.TeamId
-	$wfmTeamId = $mapping.WfmTeamId
-	Write-Host "Failed mapped users in the mapping of ${teamsTeamId} and ${wfmTeamId}:"
-	$userSyncResult = Get-CsTeamsShiftsConnectionSyncResult -ConnectorInstanceId $InstanceId -TeamId $teamsTeamId
-	Write-Host "Failed AAD users:"
-	write $userSyncResult.FailedAadUser
-	Write-Host "Failed WFM users:"
-	write $userSyncResult.FailedWfmUser
+    $teamsTeamId = $mapping.TeamId
+    $wfmTeamId = $mapping.WfmTeamId
+    Write-Host "Failed mapped users in the mapping of ${teamsTeamId} and ${wfmTeamId}:"
+    $userSyncResult = Get-CsTeamsShiftsConnectionSyncResult -ConnectorInstanceId $InstanceId -TeamId $teamsTeamId
+    Write-Host "Failed AAD users:"
+    write $userSyncResult.FailedAadUser
+    Write-Host "Failed WFM users:"
+    write $userSyncResult.FailedWfmUser
 }
 ```
 
@@ -174,9 +176,9 @@ Start-Sleep 1
 #Ensure Teams module is at least version x
 Write-Host "Checking Teams module version"
 try {
-	Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 4.1.0
+    Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 4.1.0
 } catch {
-	throw
+    throw
 }
 
 #Connect to MS Graph
@@ -316,9 +318,9 @@ Write-Host "Disable sync"
 #Ensure Teams module is at least version x
 Write-Host "Checking Teams module version"
 try {
-	Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 4.1.0
+    Get-InstalledModule -Name "MicrosoftTeams" -MinimumVersion 4.1.0
 } catch {
-	throw
+    throw
 }
 
 #List connection instances available 
@@ -328,21 +330,21 @@ write $InstanceList
 
 #Get an instance
 if ($InstanceList.Count -gt 0){
-	$InstanceId = Read-Host -Prompt 'Input the instance ID that you want to disable sync'
-	$Instance = Get-CsTeamsShiftsConnectionInstance -ConnectorInstanceId $InstanceId
-	$Etag = $Instance.etag
-	$InstanceName = $Instance.Name
-	$DesignatedActorId = $Instance.designatedActorId
-	$adminApiUrl = $Instance.ConnectorSpecificSettingAdminApiUrl
-	$cookieAuthUrl = $Instance.ConnectorSpecificSettingCookieAuthUrl
-	$essApiUrl = $Instance.ConnectorSpecificSettingEssApiUrl
-	$federatedAuthUrl = $Instance.ConnectorSpecificSettingFederatedAuthUrl
-	$retailWebApiUrl = $Instance.ConnectorSpecificSettingRetailWebApiUrl
-	$siteManagerUrl = $Instance.ConnectorSpecificSettingSiteManagerUrl
-	$ConnectorAdminEmail = $Instance.ConnectorAdminEmail
+    $InstanceId = Read-Host -Prompt 'Input the instance ID that you want to disable sync'
+    $Instance = Get-CsTeamsShiftsConnectionInstance -ConnectorInstanceId $InstanceId
+    $Etag = $Instance.etag
+    $InstanceName = $Instance.Name
+    $DesignatedActorId = $Instance.designatedActorId
+    $adminApiUrl = $Instance.ConnectorSpecificSettingAdminApiUrl
+    $cookieAuthUrl = $Instance.ConnectorSpecificSettingCookieAuthUrl
+    $essApiUrl = $Instance.ConnectorSpecificSettingEssApiUrl
+    $federatedAuthUrl = $Instance.ConnectorSpecificSettingFederatedAuthUrl
+    $retailWebApiUrl = $Instance.ConnectorSpecificSettingRetailWebApiUrl
+    $siteManagerUrl = $Instance.ConnectorSpecificSettingSiteManagerUrl
+    $ConnectorAdminEmail = $Instance.ConnectorAdminEmail
 }
 else {
-	throw "Instance list is empty"
+    throw "Instance list is empty"
 }
 
 #Remove scenarios in the mapping
@@ -356,10 +358,10 @@ $plainPwd =[Runtime.InteropServices.Marshal]::PtrToStringAuto([Runtime.InteropSe
 $UpdatedInstance = Set-CsTeamsShiftsConnectionInstance -ConnectorId $BlueYonderId -ConnectorInstanceId $InstanceId -ConnectorSpecificSettingAdminApiUrl $adminApiUrl -ConnectorSpecificSettingCookieAuthUrl $cookieAuthUrl -ConnectorSpecificSettingEssApiUrl $essApiUrl -ConnectorSpecificSettingFederatedAuthUrl $federatedAuthUrl -ConnectorSpecificSettingLoginPwd $plainPwd -ConnectorSpecificSettingLoginUserName $WfmUserName -ConnectorSpecificSettingRetailWebApiUrl $retailWebApiUrl -ConnectorSpecificSettingSiteManagerUrl $siteManagerUrl -DesignatedActorId $DesignatedActorId -EnabledConnectorScenario @() -EnabledWfiScenario @() -Name $UpdatedInstanceName -SyncFrequencyInMin 60 -IfMatch $Etag -ConnectorAdminEmail $ConnectorAdminEmail
 
 if ($UpdatedInstance.Id -ne $null) {
-	Write-Host "Success"
+    Write-Host "Success"
 }
 else {
-	throw "Update instance failed"
+    throw "Update instance failed"
 }
 ```
 
