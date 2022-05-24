@@ -1726,7 +1726,7 @@ items:
               href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
             - name: Virtual appointments with Teams - Integration into Epic EHR
               href: expand-teams-across-your-org/healthcare/ehr-admin.md
-            - name: EHR admin reports
+            - name: EHR connector Virtual Appointments report
               href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
             - name: Virtual appointments with Teams and Bookings
               href: expand-teams-across-your-org/bookings-virtual-visits.md

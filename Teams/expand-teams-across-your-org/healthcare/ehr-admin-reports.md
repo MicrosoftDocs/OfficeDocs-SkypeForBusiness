@@ -42,7 +42,7 @@ There are two ways to access and view the report in the Teams admin center.
 
 In the left navigation of the Microsoft Teams admin center, choose **Dashboard**, and then go to the **EHR connector Virtual Appointments** card.
 
-Here, you get an at-a-glance view of EHR-integrated virtual appointment activity by month, including completed appointments, remaining allocation, and whether you've exceeded the monthly limit (depending on the license you have).
+Here, you get an at-a-glance view of Teams EHR-integrated virtual appointment activity by month, including completed appointments, remaining allocation, and whether you've exceeded the monthly limit (depending on the license you have).
 
 :::image type="content" source="../../media/ehr-connector-report-card.png" alt-text="Screenshot of the EHR connector usage card in the Teams admin center dashboard" lightbox="../../media/ehr-connector-report-card.png":::
 
