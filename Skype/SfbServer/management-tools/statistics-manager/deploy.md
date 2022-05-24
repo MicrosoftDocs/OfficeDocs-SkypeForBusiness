@@ -174,7 +174,7 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
 ### Import the topology
 <a name="BKMK_ImportTopology"> </a>
 
-After Statistics Manager is installed and running, you need to import the Skype for Business Server topology so that Statistics Manager knows the Site, Pool, and Role of each server. To import your Skype for Business Server topology, you will use the [Get-CsPool](/powershell/module/skype/get-cspool?view=skype-ps) cmdlet to retrieve information about each pool in use in your organization, then import this information into Statistics Manager.
+After Statistics Manager is installed and running, you need to import the Skype for Business Server topology so that Statistics Manager knows the Site, Pool, and Role of each server. To import your Skype for Business Server topology, you will use the [Get-CsPool](/powershell/module/skype/get-cspool) cmdlet to retrieve information about each pool in use in your organization, then import this information into Statistics Manager.
 
 To import the Skype for Business Server topology, follow these steps:
 
