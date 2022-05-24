@@ -1,10 +1,11 @@
 ---
 title: Manage Microsoft 365 for your organization with the Admin app in Microsoft Teams 
-author: adeejoseph
 ms.author: adjoseph
+author: adeejoseph
 manager: serdars
 ms.topic: article
 ms.service: msteams
+ms.reviewer: 
 audience: Admin
 description: Learn how to manage Microsoft 365 for your organization directly from the Admin app in Microsoft Teams 
 ms.collection: 
@@ -16,8 +17,6 @@ f1.keywords:
 - CSH
 ms.custom: 
 - M365-collaboration
-- M
-?WT.mc_id=AdminAppInTeams
 ms.localizationpriority: high
 search.appverid: MET150
 ---
@@ -26,15 +25,15 @@ search.appverid: MET150
 
 In this article, you’ll learn how to successfully navigate and get started with the Admin app in Microsoft Teams.
 
-- [Overview](#overview-of-the-admin-app)
+- [Overview](#overview-of-the-admin-app?WT.mc_id=AdminAppInTeams)
 
-- [Availability](#availability-of-the-admin-app)
+- [Availability](#availability-of-the-admin-app?WT.mc_id=AdminAppInTeams)
 
-- [Get started](#get-started-with-the-admin-app)
+- [Get started](#get-started-with-the-admin-app?WT.mc_id=AdminAppInTeams)
 
-- [Navigate the Admin app](#navigate-the-admin-app)
+- [Navigate the Admin app](#navigate-the-admin-app?WT.mc_id=AdminAppInTeams)
 
-- [Give feedback](#give-feedback-on-the-admin-app)
+- [Give feedback](#give-feedback-on-the-admin-app?WT.mc_id=AdminAppInTeams)
 
 ## Overview of the Admin app
 
@@ -44,8 +43,7 @@ Built with small businesses in mind, the Admin app creates a central hub for adm
 
 ## Availability of the Admin app
 
-The Admin app in Teams is accessible to users with the following admin roles: Global administrator, Teams administrator, Users administrator, and Billings administrator. [Learn more about admin roles in the Microsoft 365 admin center.](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)
-
+The Admin app in Teams is accessible to users with the following admin roles: Global administrator, Teams administrator, Users administrator, and Billings administrator. [Learn more about admin roles in the Microsoft 365 admin center.](/microsoft-365/admin/add-users/about-admin-roles)
 
 ## Get started with the Admin app
 
