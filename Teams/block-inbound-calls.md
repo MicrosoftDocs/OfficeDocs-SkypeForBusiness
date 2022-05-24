@@ -13,7 +13,8 @@ ms.reviewer: roykuntz
 appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
-ms.custom: Learn how to use PowerShell to manage inbound call blocking.
+ms.custom:
+description: Learn how to use PowerShell to manage inbound call blocking.
 ---
 
 # Block inbound calls
