@@ -37,7 +37,9 @@ Here's an overview of the capabilities available today, what's coming soon, and 
 
 ## How to deploy teams at scale
 
-Follow these steps to deploy a large number of teams at a time. You use the ```New-CsBatchTeamsDeployment``` cmdlet to submit a batch of teams to create. An orchestration ID is generated for each batch. You can then use the ```Get-CsBatchTeamsDeployment``` cmdlet to track the progress and status of each batch.
+Follow these steps to deploy a large number of teams at a time.
+
+You use the ```New-CsBatchTeamsDeployment``` cmdlet to submit a batch of teams to create. An orchestration ID is generated for each batch. You can then use the ```Get-CsBatchTeamsDeployment``` cmdlet to track the progress and status of each batch.
 
 1. Install PowerShell version 7 or later. For step-by-step guidance, see [Installing PowerShell on Windows](/powershell/scripting/install/installing-powershell-on-windows).
 1. Run PowerShell in administrator mode.
