@@ -51,10 +51,11 @@ The Admin app in Teams is accessible to users with the following admin roles: Gl
 
 The Admin app is available to download from the [Microsoft Teams app store](https://aka.ms/MSTeamsStore). Global administrators should use the search bar within the store to find the Admin app. With Admin, users get a desktop, web, and mobile experience. If the Admin app is installed on the Teams desktop client, users will also see it in their Teams web and mobile clients. Once downloaded, Admin can be found pinned on the left navigation bar in Microsoft Teams.
 
-If you have over 25 seats in your organization, you can get started with the Admin app by downloading it from the Teams app store today. 
-The app will be pre-pinned in the left navigation bar of Teams for organizations with 25 seats or less. If it has not been pre pinned for you already, you can install it from the Teams app store today or wait until we roll it out to your environment within the next few weeks.
+If you have over 25 seats in your organization, you can get started with the Admin app by downloading it from the Teams app store today.
+
+The app will be pre-pinned in the left navigation bar of Teams for organizations with 25 seats or less. If it hasn't been pre pinned for you already, you can install it from the Teams app store today or wait until we roll it out to your environment within the next few weeks.
   
-If your organization is under 25 seats and you do not want to have the app pre-pinned to the left navigation bar in Microsoft Teams, you can easily unpin the app by right-clicking on it and selecting "Unpin". 
+If your organization has fewer than 25 seats and you don't want to have the app pre-pinned to the left navigation bar in Microsoft Teams, you can easily unpin the app by right-clicking on it and selecting "Unpin".
 
 
 > [!NOTE]
