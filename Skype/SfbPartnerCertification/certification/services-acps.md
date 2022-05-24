@@ -28,49 +28,49 @@ Dial-in audio conferencing, which is the ability to dial into scheduled Skype fo
 Vendors listed in the following table have been certified with Skype for Business Online.
 
 <table border="1" cellpadding="5" cellspacing="" class="grid">
-	<colgroup>
-		<col width="100" />
-		<col />
-		<col />
-		<col />
-	</colgroup>
-	<thead>
-		<tr bgcolor="#DEDEDE">
-			<td align="center" rowspan="2" valign="top"><strong>Provider Name</strong></td>
-			<td align="center" colspan="3" valign="top"><strong>Regions Available</strong></td>
-		</tr>
-		<tr bgcolor="#DEDEDE">
-			<td>NOAM</td>
-			<td>EMEA</td>
-			<td>APAC</td>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td><a href="http://www.intercall.com/services/unified-communication/office365-lyncOnline.php">InterCall</a></td>
-			<td>Y</td>
-			<td>Y</td>
-			<td>Y</td>
-		</tr>
-		<tr>
-			<td><a href="http://www.pgi.com/products/microsoft-lync-online/">PGi</a></td>
-			<td>Y</td>
-			<td>Y</td>
-			<td>Y</td>
-		</tr>
-		<tr>
-			<td><a href="http://www.btconferencing.com">BT</a></td>
-			<td>Y</td>
-			<td>Y</td>
-			<td>N</td>
-		</tr>
-		<tr>
-			<td><a href="https://www.business.att.com/">AT&amp;T</a></td>
-			<td>Y</td>
-			<td>N</td>
-			<td>N</td>
-		</tr>
-	</tbody>
+    <colgroup>
+        <col width="100" />
+        <col />
+        <col />
+        <col />
+    </colgroup>
+    <thead>
+        <tr bgcolor="#DEDEDE">
+            <td align="center" rowspan="2" valign="top"><strong>Provider Name</strong></td>
+            <td align="center" colspan="3" valign="top"><strong>Regions Available</strong></td>
+        </tr>
+        <tr bgcolor="#DEDEDE">
+            <td>NOAM</td>
+            <td>EMEA</td>
+            <td>APAC</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href="http://www.intercall.com/services/unified-communication/office365-lyncOnline.php">InterCall</a></td>
+            <td>Y</td>
+            <td>Y</td>
+            <td>Y</td>
+        </tr>
+        <tr>
+            <td><a href="http://www.pgi.com/products/microsoft-lync-online/">PGi</a></td>
+            <td>Y</td>
+            <td>Y</td>
+            <td>Y</td>
+        </tr>
+        <tr>
+            <td><a href="http://www.btconferencing.com">BT</a></td>
+            <td>Y</td>
+            <td>Y</td>
+            <td>N</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.business.att.com/">AT&amp;T</a></td>
+            <td>Y</td>
+            <td>N</td>
+            <td>N</td>
+        </tr>
+    </tbody>
 </table>
 
 If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.

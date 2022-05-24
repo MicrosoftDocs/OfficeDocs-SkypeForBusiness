@@ -27,55 +27,53 @@ The survivable branch appliances along with the relevant firmware shown in the t
 ## Qualified for Skype for Business Server 2015
 
 <table border="1" cellpadding="5" cellspacing="" class="grid" width="69%">
-	<tr bgcolor="#DEDEDE">
-		<td valign="top"><strong>Vendor</strong></td>
-		<td valign="top"><strong>Qualified Device</strong></td>
-		<td valign="top"><strong>Qualified Firmware</strong></td>
-	</tr>
-	<tr align="left" valign="top">
-		<td rowspan="2"> <a href="https://www.audiocodes.com/survivable-branch-appliance-sba">Audiocodes</a></td>
-		<td valign="top">Mediant 800B SBA</td>
-		<td valign="top">
-			<p>SBA/OS Version: 6.3.9600</p>
-			<p>Web Admin Version: 7.2.12.40880</p>
-			<p>SBA Config Version: 7.2.12.40982</p>
-		</td>
-	</tr>
-	<tr>
-		<td valign="top">Mediant 1000 SBA</td>
-		<td valign="top">
-			<p>SBA/OS Version: 6.3.9600</p>
-			<p>Web Admin Version: 7.2.10.40880</p>
-			<p>SBA Config Version: 7.2.11.40972</p>
-		</td>
-	</tr>
-	<tr align="left" valign="top">
-		<td rowspan="2"> <a href="https://www.nuera.com/">Nuera</a></td>
-		<td valign="top">GX-800 SBA</td>
-		<td valign="top">
-			<p>SBA/OS Version: 6.3.9600</p>
-			<p>Web Admin Version: 7.2.12.40880</p>
-			<p>SBA Config Version: 7.2.12.40982</p>
-		</td>
-	</tr>
-	<tr>
-		<td valign="top">GX 1K SBA</td>
-		<td valign="top">
-			<p>SBA/OS Version: 6.3.9600</p>
-			<p>Web Admin Version: 7.2.10.40880</p>
-			<p>SBA Config Version: 7.2.11.40972</p>
-		</td>
-	</tr>
-	<tr align="left" valign="top">
-		<td><a href="https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business">Ribbon Communications</a></td>
-		<td>SBC 1000</td>
-		<td>
-			<p>SBA V5.0.4 build 412</p>
-			<p>SBA V6.1.0 build 457</p>
-		</td>
-	</tr>
+    <tr bgcolor="#DEDEDE">
+        <td valign="top"><strong>Vendor</strong></td>
+        <td valign="top"><strong>Qualified Device</strong></td>
+        <td valign="top"><strong>Qualified Firmware</strong></td>
+    </tr>
+    <tr align="left" valign="top">
+        <td rowspan="2"> <a href="https://www.audiocodes.com/survivable-branch-appliance-sba">Audiocodes</a></td>
+        <td valign="top">Mediant 800B SBA</td>
+        <td valign="top">
+            <p>SBA/OS Version: 6.3.9600</p>
+            <p>Web Admin Version: 7.2.12.40880</p>
+            <p>SBA Config Version: 7.2.12.40982</p>
+        </td>
+    </tr>
+    <tr>
+        <td valign="top">Mediant 1000 SBA</td>
+        <td valign="top">
+            <p>SBA/OS Version: 6.3.9600</p>
+            <p>Web Admin Version: 7.2.10.40880</p>
+            <p>SBA Config Version: 7.2.11.40972</p>
+        </td>
+    </tr>
+    <tr align="left" valign="top">
+        <td rowspan="2"> <a href="https://www.nuera.com/">Nuera</a></td>
+        <td valign="top">GX-800 SBA</td>
+        <td valign="top">
+            <p>SBA/OS Version: 6.3.9600</p>
+            <p>Web Admin Version: 7.2.12.40880</p>
+            <p>SBA Config Version: 7.2.12.40982</p>
+        </td>
+    </tr>
+    <tr>
+        <td valign="top">GX 1K SBA</td>
+        <td valign="top">
+            <p>SBA/OS Version: 6.3.9600</p>
+            <p>Web Admin Version: 7.2.10.40880</p>
+            <p>SBA Config Version: 7.2.11.40972</p>
+        </td>
+    </tr>
+    <tr align="left" valign="top">
+        <td><a href="https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business">Ribbon Communications</a></td>
+        <td>SBC 1000</td>
+        <td>
+            <p>SBA V5.0.4 build 412</p>
+            <p>SBA V6.1.0 build 457</p>
+        </td>
+    </tr>
 </table>
 
 If you're a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available program details.
-
-

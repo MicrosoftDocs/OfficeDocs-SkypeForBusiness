@@ -106,7 +106,7 @@ You may, however, need to modify an existing network region definition to apply 
 
 4. In the table, click the network region that you want to modify.
 
-5. Click **Edit**, and then click **Show details…**.
+5. Click **Edit**, and then click **Show details...**.
 
 6. On the **Edit Region** page, change the values for this network region's settings as appropriate.
 
@@ -204,7 +204,7 @@ If you have already created network sites for one of these features, you do not 
 
 4. In the table, click the network site that you want to modify.
 
-5. Click **Edit**, and then click **Show details…**.
+5. Click **Edit**, and then click **Show details...**.
 
 6. On the **Edit Site** page, change the values for this network site's settings as appropriate.
 
