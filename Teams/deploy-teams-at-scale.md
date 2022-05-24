@@ -84,11 +84,11 @@ You use the ```New-CsBatchTeamsDeployment``` cmdlet to submit a batch of teams t
     Get-CsBatchTeamsDeploymentStatus -OrchestrationId "OrchestrationId"
     ```
 
-## Send us your feedback
+## Send us feedback
 
-Let us know if you have feedback. Usability, reliability, performance&mdash;we welcome it all!
+We value your feedback. Usability, reliability, performance&mdash;we welcome it all!
 
-Email [rahuldey@microsoft.com](mailto:rahuldey@microsoft.com) and include your orchestration ID and error file, if you've it.
+Email [rahuldey@microsoft.com](mailto:rahuldey@microsoft.com) and include your orchestration ID and error file, if you have it.
 
 ## Related articles
 
