@@ -2,6 +2,23 @@
 
 
 
+## Week of May 16, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 5/17/2022 | [Use the Microsoft Teams Meeting add-in in Outlook](/MicrosoftTeams/teams-add-in-for-outlook) | modified |
+| 5/18/2022 | [Call park and retrieve in Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | modified |
+| 5/18/2022 | [Virtual appointments with Teams - Integration into Epic EHR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | modified |
+| 5/19/2022 | [Shifts connectors](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connectors) | modified |
+| 5/20/2022 | [Plan for Teams auto attendants and call queues](/MicrosoftTeams/plan-auto-attendant-call-queue) | modified |
+| 5/20/2022 | [Change the default language for greetings and emails](/MicrosoftTeams/change-the-default-language-for-greetings-and-emails) | modified |
+| 5/20/2022 | [Teams languages for voicemail greetings and messages](/MicrosoftTeams/languages-for-voicemail-greetings-and-messages) | modified |
+| 5/20/2022 | [Manage emergency call routing policies for Direct Routing](/MicrosoftTeams/manage-emergency-call-routing-policies) | modified |
+| 5/20/2022 | [Manage emergency calling policies in Microsoft Teams](/MicrosoftTeams/manage-emergency-calling-policies) | modified |
+| 5/20/2022 | [Microsoft Teams PowerShell Release Notes](/MicrosoftTeams/teams-powershell-release-notes) | modified |
+
+
 ## Week of May 09, 2022
 
 
@@ -86,28 +103,3 @@
 | 4/29/2022 | [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps) | modified |
 | 4/29/2022 | [Manage policy packages in Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | modified |
 | 4/29/2022 | [Overview of app certification by Microsoft](/MicrosoftTeams/overview-of-app-certification) | modified |
-
-
-## Week of April 18, 2022
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 4/18/2022 | [Overview of app certification by Microsoft](/MicrosoftTeams/overview-of-app-certification) | modified |
-| 4/18/2022 | Plan for Microsoft 365 Groups when creating teams | removed |
-| 4/18/2022 | [Manage app setup policies in Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modified |
-| 4/19/2022 | [Music on Hold](/MicrosoftTeams/music-on-hold) | modified |
-| 4/19/2022 | [Teams apps behavior based on types of users](/MicrosoftTeams/non-standard-users) | modified |
-| 4/19/2022 | [Overview of security and compliance](/MicrosoftTeams/security-compliance-overview) | modified |
-| 4/20/2022 | [Audio Conferencing toll-free number policies](/MicrosoftTeams/audio-conferencing-toll-free-numbers-policy) | added |
-| 4/20/2022 | [Change phone numbers on Audio Conferencing bridge](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | modified |
-| 4/20/2022 | [Disabling toll-free numbers for specific Teams users](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users) | modified |
-| 4/20/2022 | [Manage Audio Conferencing settings](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams) | modified |
-| 4/20/2022 | [Set the phone numbers included on invites](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams) | modified |
-| 4/20/2022 | [Set up Audio Conferencing for Microsoft Teams](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | modified |
-| 4/21/2022 | Microsoft StaffHub has been retired | removed |
-| 4/21/2022 | Admin settings for apps in Microsoft Teams | removed |
-| 4/21/2022 | [Manage your apps in the Microsoft Teams admin center](/MicrosoftTeams/manage-apps) | modified |
-| 4/21/2022 | [Conduct an eDiscovery investigation of content](/MicrosoftTeams/ediscovery-investigation) | modified |
-| 4/22/2022 | [Kaizala and Microsoft Teams](/MicrosoftTeams/get-started-kaizala-teams) | modified |
-| 4/22/2022 | [Navigate through Microsoft Teams](/MicrosoftTeams/navigate-teams) | modified |
