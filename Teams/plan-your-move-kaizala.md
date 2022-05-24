@@ -1,7 +1,7 @@
 ---
 title: Plan for a successful move from Kaizala to Microsoft Teams
-author: Benny-54
-ms.author: v-bshilpa
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: reference
 ms.service: msteams
