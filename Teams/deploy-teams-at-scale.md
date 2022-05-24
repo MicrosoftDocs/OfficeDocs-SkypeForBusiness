@@ -25,21 +25,21 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 ## Overview
  
-We're aware some of our customers have a lot of teams that they use to drive communication and collaboration among their team members who are spread across different stores, locations, and roles. There currently isn't an easy solution to deploy, set up, and manage these teams and users at scale.
+You may have a lot of teams that you use to drive communication and collaboration among your team members who are spread across different stores, locations, and roles. Currently, there isn't an easy solution to deploy, set up, and manage these teams and users at scale.
 
 We're building a solution to allow admins to deploy and manage teams at scale.  
 
-Here's an overview of what's available today for creating teams, what's coming soon, and what we're planning in the near future.
+Here's an overview of what's available today, what's coming soon, and what we're planning in the near future.
 
 |Available today  |Available soon  |In the future  |
 |---------|---------|---------|
 | <ul><li>Create up to 30 teams per upload using pre-built templates or your own custom templates.</li><li>Add up to 20 users per team as owners or members.</li><li>Manage teams at scale by adding or removing users from existing teams.</li><li>Stay notified with emails. This includes job completion, job status, and errors if any. Team owners and members are notified.</li></ul>|<ul><li>Create up to 100 teams per upload.</li><li>Add up to 25 users per team as owners or members. </li></ul>|<ul><li>Create up to 500 teams per upload.</li></ul>|
 
-## Deploy teams at scale using PowerShell
+## How to deploy teams at scale
 
-Here's how to deploy teams at scale. You can create up to XYZ of teams at a time.
+Use these steps to create up to XYZ of teams at a time.
 
-You use the ```New-CsBatchTeamsDeployment``` cmdlet to submit a batch of teams. An orchestration ID is generated for each batch. You can then use the ```Get-CsBatchTeamsDeployment``` cmdlet to track the progress and status of the teams created in each batch.
+You use the ```New-CsBatchTeamsDeployment``` cmdlet to submit a batch of teams to create. An orchestration ID is generated for each batch. You can then use the ```Get-CsBatchTeamsDeployment``` cmdlet to track the progress and status of each batch.
 
 1. Install PowerShell version 7 or later. For step-by-step guidance, see [Installing PowerShell on Windows](/powershell/scripting/install/installing-powershell-on-windows).
 1. Run PowerShell in administrator mode.
@@ -62,17 +62,17 @@ You use the ```New-CsBatchTeamsDeployment``` cmdlet to submit a batch of teams. 
     Connect-MicrosoftTeams
     ```
 
-When you're prompted, sign in using your admin credentials.
+    When you're prompted, sign in using your admin credentials.
 
-1. Run the following to list the commands in the Teams PowerShell module
+1. Run the following to get a list the commands in the Teams PowerShell module.
 
     ```powershell
     Get-Command -Module MicrosoftTeams
     ```
 
-Verify that ```New-CsBatchTeamsDeployment``` and ```Get-CsBatchTeamsDeployment``` are listed.
+    Verify that ```New-CsBatchTeamsDeployment``` and ```Get-CsBatchTeamsDeployment``` are listed.
 
-1. Run the following to deploy a batch of teams:
+1. Run the following to deploy a batch of teams.
 
     ```powershell
     New-CsBatchTeamsDeployment -TeamsFilePath "*Your file path*" -UsersFilePath "*Your file path*" -UsersToNotify *Email address* 
