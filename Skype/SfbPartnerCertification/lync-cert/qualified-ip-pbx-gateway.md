@@ -25,9 +25,9 @@ description: "Infrastructure qualifications including PSTN gateways and IP PBX p
 
 ## Qualified IP PBXs & Gateways
 
-The tables that follow list the PSTN gateways and IP-PBX products along with the necessary firmware combinations that have been independently qualified for use with Lync Server.
+The following PSTN gateways, IP-PBX products, and relevant firmware combinations have been independently qualified for use with Lync Server.
 
-We recommend that you visit the vendor's web site for the latest information about protocol, capacity, country support, and documentation including a Quick Start Guide, release notes, and any known issues.
+We recommend that you visit the vendor's web site for the latest information.
 
 ### Qualified for Lync 2013
 
@@ -126,7 +126,7 @@ We recommend that you visit the vendor's web site for the latest information abo
                 </ol>
                 <p>Known Limitations:</p>
                 <ol>
-                    <li>Call Park on Lync Client fails. Lync Client drops the call as the Gateway responds with &quot;a=sendrecv&quot; to an INVITE from Lync to place the call on hold. This issue is documented under case number CSCuo44538 with Cisco Support.</li>
+                    <li>Call Park on Lync Client fails. Lync Client drops the call as the Gateway responds with "a=sendrecv" to an INVITE from Lync to place the call on hold. This issue is documented under case number CSCuo44538 with Cisco Support.</li>
                     <li>As the Gateway overrides the progress indicator from Lync Server, PSTN calling party doesn't hear IVR when the Lync called party is set to simultaneous ring an IVR number with Early Media.</li>
                     <li>Call Hold and transfer on Analog Endpoints fails with the recommended dial peer configuration on the ISR.</li>
                 </ol>
@@ -147,7 +147,7 @@ We recommend that you visit the vendor's web site for the latest information abo
                 </ol>
                 <p>Known Limitations:</p>
                 <ol>
-                    <li>DNS Load Balancing and IPv6 are not supported</li>
+                    <li>DNS Load Balancing and IPv6 aren't supported</li>
                 </ol>
             </td>
         </tr>
