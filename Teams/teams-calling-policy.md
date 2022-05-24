@@ -94,7 +94,7 @@ Busy on Busy (Busy Options) lets you configure how incoming calls are handled wh
 
 This setting enables users to call PSTN numbers using the Teams web client.
 
-### Incoming meeting invites are automatically answered
+### Automatically answer incoming meeting invites
 
 This setting controls whether incoming meeting invites are automatically answered. It's turned off by default. Keep in mind that this setting applies only to incoming meeting invites. It doesn't apply to other types of calls.
 
@@ -112,7 +112,7 @@ This setting allows you to control the type of Spam filtering available on incom
 
 ### Call recording, live captions and transcription
 
-These settings allows you to control whether call recording, live captions and transcription are available for the users.
+These settings allow you to control whether call recording, live captions and transcription are available for the users.
 
 ## Related articles
 
