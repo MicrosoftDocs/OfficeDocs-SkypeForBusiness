@@ -45,6 +45,7 @@ Here are some of the capabilities you have on the mobile app for managing incide
 ### Incidents Page
 
 The Incidents page shows active and resolved incidents.
+
 ![MTMS mobile application incidents page screen](../media/mtms-mobile-app-015-activeincidents.png)
 
 ## Managing tickets
@@ -56,20 +57,21 @@ Here are some of the capabilities you have on the mobile app for managing ticket
 - Add an attachment (take and upload pictures).
 - Report on an incident (create a ticket).
 
-
-
 ### Ticket messages
+
 ![MTMS mobile application ticket messages loading screen](../media/mtms-mobile-app-017-ticketmessage2.png)
 ### Ticket attachments
+
 ![MTMS mobile application ticket attachments](../media/mtms-mobile-app-007attachments.png)
 ### Ticket details
+
 ![MTMS mobile application ticket details screen](../media/mtms-mobile-app-005-unhealthycamera.png)
 ### Track active investigations
 
 ![MTMS mobile application track active investigations screen](../media/mtms-mobile-app-020-ticketdetail.png)
 ### Report an incident
 
-![MTMS mobile application report incident](../media/mtms-mobile-app-012reportincident.png)-->
+![MTMS mobile application report incident](../media/mtms-mobile-app-012reportincident.png)
 ### View an incident by category
 
 ![MTMS mobile application  Rooms problems screen](../media/mtms-mobile-app-018-incidentsbycategory.png)
@@ -79,8 +81,10 @@ Here are some of the capabilities you have on the mobile app for managing ticket
 ### Communication with experts
 ![MTMS mobile application Messages screen](../media/mtms-mobile-app-017-ticketmessage2.png)
 ### Sign out
+
 ![MTMS mobile application signout page page](../media/mtms-mobile-app-011-signout.png)
 ## Frequently asked questions
+
 Below are answers to frequently asked questions.
 
 **What do I need to do to be able to use the app?**
@@ -89,7 +93,6 @@ To use the app you need to have admin permissions and a valid Microsoft 365 subs
 
 
 **What languages are supported by the app?**
-
 
 
 **How can I share the Incidents and Messages with the rest of my organization?**
@@ -107,7 +110,6 @@ You can try some common mobile app troubleshooting steps:
 
 **What do I do if my question isn't answered?**
 
-
 ## Next steps
 
 The mobile client offers both creating tickets and managing incidents capabilities within your organization.
@@ -117,5 +119,3 @@ The mobile client offers both creating tickets and managing incidents capabiliti
 1. Download the app from either  to either the [Apple App Store]() or the [Google Play Store]()
 1. Ensure that you have a valid Microsoft 365 subscription.
 1. Use your work credentials that you use to access the Teams Rooms desktop app.
-
-
