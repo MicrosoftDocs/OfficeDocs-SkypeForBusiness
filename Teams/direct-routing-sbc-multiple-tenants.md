@@ -33,7 +33,7 @@ A carrier:
 - Manages call quality end to end.
 - Charges separately for PSTN services.
 
-Microsoft doesn't manage carriers. Microsoft offers Phone System--a Private Branch Exchange (PBX)--and a Teams client. Microsoft also certifies phones, and certifies SBCs that can be used with Phone System. Before choosing a carrier, ensure that your choice has a certified SBC and can manage voice quality end to end.
+Microsoft doesn't manage carriers. Microsoft offers Phone System—a Private Branch Exchange (PBX)—and a Teams client. Microsoft also certifies phones, and certifies SBCs that can be used with Phone System. Before choosing a carrier, ensure that your choice has a certified SBC and can manage voice quality end to end.
 
 The following are the technical implementation steps to configure the scenario.
 
@@ -53,11 +53,11 @@ The following are the technical implementation steps to configure the scenario.
 
 For detailed steps on how to deploy and configure SBCs for an SBC hosting scenario, see the SBC vendor's documentation.
 
-- **AudioCodes:** - See [Direct Routing Configuration notes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams) for configuration of the SBC hosting scenario as described in "Connecting AudioCodes SBC to Microsoft Teams Direct Routing Hosting Model Configuration Note." 
-- **Oracle:** - See [Direct Routing Configuration notes](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html) for configuration of the SBC hosting scenario as described in the "Microsoft" section. 
+- **AudioCodes:** See [Direct Routing Configuration notes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams) for configuration of the SBC hosting scenario as described in "Connecting AudioCodes SBC to Microsoft Teams Direct Routing Hosting Model Configuration Note." 
+- **Oracle:** See [Direct Routing Configuration notes](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html) for configuration of the SBC hosting scenario as described in the "Microsoft" section. 
 - **Ribbon Communications:** See [Ribbon Communications SBC Core Microsoft Teams Configuration Guide](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) for documentation on how to configure Ribbon Core Series SBCs. See also [Ribbon Best Practice - Configuring Carriers for Microsoft Teams Direct Routing SBC Edge](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
-- **TE-Systems (anynode):** - Register on the [TE-Systems Community page](https://community.te-systems.de/) site for documentation and examples on how to configure anynode SBC for multiple tenants.
-- **Metaswitch:** - Register on the [Metaswitch Community page](https://manuals.metaswitch.com/MAN39555) site for documentation on how to enable Perimeta SBC for multiple tenants.
+- **TE-Systems (anynode):** Register on the [TE-Systems Community page](https://community.te-systems.de/) site for documentation and examples on how to configure anynode SBC for multiple tenants.
+- **Metaswitch:** Register on the [Metaswitch Community page](https://manuals.metaswitch.com/MAN39555) site for documentation on how to enable Perimeta SBC for multiple tenants.
 
 > [!NOTE]
 > Make sure you know how to configure the "Contact" header. The Contact header is used to find the customer tenant on the incoming invite message. 
@@ -82,7 +82,7 @@ When a call arrives at the Microsoft 365 Direct Routing interface, the interface
 
 The following diagram summarizes the requirements to base domain, subdomains, and Contact header.
 
-![Diagram showing requirements to domains and Contact header.](media/direct-routing-1-sbc-requirements.png)
+:::image type="content" source="media/direct-routing-1-sbc-requirements.png" alt-text="Diagram showing requirements to domains and Contact header." lightbox="media/direct-routing-1-sbc-requirements.png":::
 
 The SBC requires a certificate to authenticate the connections. For the SBC hosting scenario, the carrier needs to request a certificate with CN and/or SAN *\*.base_domain (for example, \*.customers.adatum.biz)*. This certificate can be used to authenticate connections to multiple tenants served from a single SBC.
 
@@ -95,7 +95,6 @@ The following table is an example of one configuration.
 |sbc1.customers.adatum.biz|    Subdomain  |    In a customer tenant  |    \*.customers.adatum.biz  | woodgrovebank.us  |  sbc1.customers.adatum.biz|
 |sbc2.customers.adatum.biz  |   Subdomain | In a customer tenant   |   \*.customers.adatum.biz   |contoso.com   |sbc2.customers.adatum.biz |
 |sbc3.customers.adatum.biz |   Subdomain | In a customer tenant |   \*.customers.adatum.biz  |  adventureworks.com | sbc3.customers.adatum.biz |
-||         |         |         |         |         |
 
 To configure the base and subdomains, follow the steps described below. This example configures a base domain name (customers.adatum.biz) and a subdomain for one customer (sbc1.customers.adatum.biz in Woodgrove Bank tenant).
 
@@ -224,7 +223,7 @@ Two new entities were introduced:
 
 - Carriers need to set up and manage only a single trunk (the carrier trunk in the carrier domain) by using the Set-CSOnlinePSTNGateway command. In the example above it is adatum.biz.
 
-- In the customer tenant, the carrier needs to add the derived trunk FQDN to the voice routing policies of the users. There is no need to run New-CSOnlinePSTNGateway for a trunk.
+- In the customer tenant, the carrier needs to add the derived trunk FQDN to the voice routes. There is no need to run New-CSOnlinePSTNGateway for a trunk.
 
 - The derived trunk, as the name suggests, inherits or derives all the configuration parameters from the carrier trunk. 
 
@@ -233,9 +232,9 @@ Examples:
 
 - Sbc1.customers.adatum.biz – the derived trunk in a customer tenant that doesn't need to be created in PowerShell. You can add the name of the derived trunk in the customer tenant in the online voice routing policy without creating it (use derived trunk FQDN when setting up voice routing policy in TAC under Teams-Voice-Direct Routing-Voice Routes field SBCs enrolled).
 
-- Carrier will need to set up DNS record resolving derived trunk FQDN to carrier SBC ip address.
+- Carrier will need to set up DNS record resolving derived trunk FQDN to carrier SBC IP address.
 
-- Any changes made on a carrier trunk (on carrier tenant) is automatically applied to derived trunks. For example, carriers can change an SIP port on the carrier trunk, and this change applies to all derived trunks. New logic to configure the trunks simplifies the management as you don't need to go to every tenant and change the parameter on every trunk.
+- Any changes made on a carrier trunk (on carrier tenant) are automatically applied to derived trunks. For example, carriers can change an SIP port on the carrier trunk, and this change applies to all derived trunks. New logic to configure the trunks simplifies the management as you don't need to go to every tenant and change the parameter on every trunk.
 
 - The options are sent only to the carrier trunk FQDN. The health status of the carrier trunk is applied to all derived trunks and is used for routing decisions. Find out more about [Direct Routing options](./direct-routing-monitor-and-troubleshoot.md).
 
@@ -261,7 +260,7 @@ To set up failover for a multi-tenant environment, you'll need to do the followi
    customer1.sbc1.contoso.com <br>
    customer1.sbc2.contoso.com <br>
 
-- In the Online Voice Routing policies of the users, specify both SBCs. If one SBC fails, the routing policy will route calls to the second SBC.
+- In the Online Voice Routes, specify both SBCs. If one SBC fails, the routing policy will route calls to the second SBC.
 
 
 ## See also

@@ -1,7 +1,7 @@
 ---
 title: Charting your Kaizala to Teams journey
-author: Benny-54
-ms.author: v-bshilpa
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -65,9 +65,9 @@ Users connecting with the Frontline workforce need:
 
 Users connecting with external users (suppliers/vendors) could use:
 
-- [Guest access](/MicrosoftTeams/guest-joins) collaboration
+- [Microsoft Teams users can chat with any Teams users who are outside their organization](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832)
 
-- [Federation](/microsoftteams/manage-external-access)
+- [Add or invite people outside your Teams org to a chat](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57)
 
 ## Determine your path
 

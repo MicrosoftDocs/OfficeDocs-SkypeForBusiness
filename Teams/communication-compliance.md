@@ -20,7 +20,7 @@ appliesto:
 
 # Communication compliance with Microsoft Teams
 
-Communication compliance is an insider risk solution in Microsoft 365 that helps minimize communication risks by helping you detect, capture, and act on inappropriate messages in your organization.
+Microsoft Purview Communication Compliance is an insider risk solution in Microsoft 365 that helps minimize communication risks by helping you detect, capture, and act on inappropriate messages in your organization.
 
 For Microsoft Teams, communication compliance helps identify the [following types](/microsoft-365/compliance/communication-compliance-feature-reference) of inappropriate content in Teams channels, Private Teams channels, or in 1:1 and group chats:
 
@@ -28,7 +28,7 @@ For Microsoft Teams, communication compliance helps identify the [following type
 - Adult, racy, and gory images
 - Sharing of sensitive information
 
-For more information on communication compliance and how to configure policies for your organization, see [Communication compliance in Microsoft 365](/microsoft-365/compliance/communication-compliance). For information about Microsoft 365 subscriptions that include communication compliance, see [Insider risk solutions](/microsoft-365/compliance/insider-risk-solution-overview#communication-compliance).
+For more information on communication compliance and how to configure policies for your organization, see [Learn about communication compliance](/microsoft-365/compliance/communication-compliance).
 
 ## How to use communication compliance in Microsoft Teams
 
@@ -44,6 +44,9 @@ Teams administrators can configure communication compliance policies at the foll
 - **Teams level**: Policies at this level apply to a Microsoft Teams channel, including a Private channel. These policies cover messages sent in the Teams channel only.
 
 ### Report a concern in Microsoft Teams
+
+>[!NOTE]
+>User-reported messages will begin to be available for organizations licensed for [communication compliance](/microsoft-365/compliance/communication-compliance-configure#subscriptions-and-licensing) and Microsoft Teams starting in May 2022. This feature should be available for all licensed organizations by August 31, 2022.
 
 The *Report a concern* option in Teams messages is enabled by default and can be controlled via Teams messaging policies in the [Teams admin center](/microsoftteams/manage-teams-in-modern-portal). This allows users in your organization to submit inappropriate messages for review by communication compliance reviewers for the policy. For more information about user-reported messages in communication compliance, see [Communication compliance policies](/microsoft-365/compliance/communication-compliance-policies#user-reported-messages-policy).
 

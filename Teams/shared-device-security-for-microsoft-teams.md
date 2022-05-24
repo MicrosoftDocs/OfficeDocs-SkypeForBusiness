@@ -1,14 +1,13 @@
 ---
-title: 'Security guide for Microsoft Teams: Use Teams securely on shared computers'
+title: 'Zero-trust security guide for Microsoft Teams: Use Teams securely on shared computers'
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
-ms.date: 08/21/2020
 ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: pawa
-description: Guidance for using Microsoft Teams securely from a shared computer in the workplace.
+description: Zero Trust guidance for using Microsoft Teams securely from a shared computer in the workplace.
 ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
@@ -49,17 +48,17 @@ Plans should be developed to adhere to guidelines as promptly as is possible.
 If the above guidance cannot be met, we recommend making use of other browser security best practices:
 
 1. Apply browser security capabilities.
-    1. Use private browsing sessions to minimize data and history that persists to disk. For example, use [inPrivate browsing in Microsoft Edge](https://support.microsoft.com/help/4533513/microsoft-edge-browse-inprivate), [Incognito browsing in Google Chrome](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en), or the capabilities your specific browser for browsing privately. 
-    1. Changing the system behavior to engage private browsing *by default* is recommended. 
+    1. Use private browsing sessions to minimize data and history that persists to disk. For example, use [inPrivate browsing in Microsoft Edge](https://support.microsoft.com/help/4533513/microsoft-edge-browse-inprivate), [Incognito browsing in Google Chrome](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en), or the capabilities your specific browser for browsing privately.
+    1. Changing the system behavior to engage private browsing *by default* is recommended.
 
 2. Browse to and use the [Teams web app](https://teams.microsoft.com) (sometimes called the *web* client) not the downloadable Teams client.
 
-3. When you are done using the shared system, you must: 
+3. When you are done using the shared system, you must:
     1. [Sign out of Teams](https://support.microsoft.com/office/sign-out-of-teams-a6d76e69-e1dd-4bc4-8e5f-04ba48384487).
     1. Close all browser tabs and windows.
     1. Sign out of the device.
 
-The items above are not a comprehensive list of best practices or security controls covering all cases, and there may be extra actions that can be taken in your environment, (for instance, security administrators may choose to use Safe Links and Safe Attachments for Teams if you have [Office 365 ATP Plan 1 or 2](/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2)). However, these steps are a starting point for building guidance for using Teams from shared devices.
+The items above are not a comprehensive list of best practices or security controls covering all cases, and there may be extra actions that can be taken in your environment, (for instance, security administrators may choose to use Safe Links and Safe Attachments for Teams if you have [Microsoft Defender for Office 365 Plan 1 or Plan 2](/microsoft-365/security/office-365-security/overview?view=o365-worldwide)). However, these steps are a starting point for building guidance for using Teams from shared devices.
 
 ## More Information
 

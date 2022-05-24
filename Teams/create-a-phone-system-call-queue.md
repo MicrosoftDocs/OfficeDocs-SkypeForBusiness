@@ -173,7 +173,7 @@ Agents' Teams accounts must be set to Teams-only mode. Agents who don't meet the
 > 
 > When using **Longest idle** and when there are less calls in queue than available agents, only the first two longest idle agents will be presented with calls from the queue.
 > 
-> When using **Longest idle** there may be times when an agent receives a call from the queue shortly after becoming unavailable or if there is a short delay in receiving a call from the queue after becoming available.
+> When using **Longest idle** there may be times when an agent receives a call from the queue shortly after becoming unavailable or a short delay in receiving a call from the queue after becoming available.
 > 
 > Call Queue call presentation to agents may conflict with Location Based Routing restrictions. In this case, the agent will receive a call toast but will not be able to answer the call. This condition will continue until another agent is available to answer the call, the caller hangs up or the call queue timeout condition occurs.  
 
@@ -190,6 +190,8 @@ If an agent opts out of getting calls, they won't be included in the call routin
 > When **Longest idle** is selected as the routing method, presence-based routing is required and automatically enabled even though the Presence-based routing toggle will be **Off** and grayed out.
 >
 > If presence-based routing is not enabled and there are multiple calls in the queue, the system will present these calls simultaneously to the agents regardless of their presence status. This will result in multiple call notifications to agents, particularly if some agents don’t answer the initial call presented to them.
+>
+> When using **Presence-based routing** there may be times when an agent receives a call from the queue shortly after becoming unavailable or a short delay in receiving a call from the queue after becoming available.
 > 
 > Agents who use the Skype for Business client aren't included in the call routing list when presence-based routing is enabled. If you have agents who use Skype for Business, don't enable presence-based call routing.
 
@@ -200,6 +202,9 @@ If an agent opts out of getting calls, they won't be included in the call routin
 
 > [!TIP]
 > Setting **Agent alert time** to **20 seconds** is the recommended setting.
+
+> [!NOTE]
+> The [Call timeout handling](#call-timeout-handling) setting has priority over the agent alert time. If the maximum queue time configured for call timeout handling has been reached the call will pulled back from the agent(s) even if the agent alert time limit has not been reached.
 
 ## Call overflow handling
 
@@ -249,7 +254,7 @@ The following settings are recommended:
 |Channel Based Queues             |Y                         |N                        |N    |N         |n/a                   |Y<sup>8</sup>             |              |
 |Call toast shows Resource Account Name |Y<sup>9</sup>       |Y                        |Y    |          |Y                     |Y                         |              |
 |**Dynamic caller ID**            |                          |                         |     |          |                      |                          |              |
-|`Standard call queue`            |N                         |N                        |N    |N         |Y                     |n/a                       |              |
+|`Standard call queue`            |N                         |Y                        |N    |N         |Y                     |n/a                       |              |
 |`Channel based call queue`       |Y                         |n/a                      |n/a  |n/a       |n/a                   |Y                         |              |
 |**PSTN Connectivity Methods**    |                          |                         |     |          |                      |                          |See Note 10   |
 |`Calling Plans`                  |Y                         |Y                        |Y    |Y         |Y                     |Y                         |              |

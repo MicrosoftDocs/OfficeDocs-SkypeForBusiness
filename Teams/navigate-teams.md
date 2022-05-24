@@ -1,7 +1,7 @@
 ---
 title: Navigate through Microsoft Teams
-author: Benny-54
-ms.author: v-bshilpa
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -18,7 +18,7 @@ ms.custom:
 
 # Navigate Microsoft Teams
 
-Now that you have a clear understanding of your organization’s unique path and needs, it's time to get started on your journey to powerful collaboration with Microsoft Teams. Use the following section to learn how to navigate Kaziala’s capabilities complimented within Teams.
+Now that you have a clear understanding of your organization’s unique path and needs, it's time to get started on your journey to powerful collaboration with Microsoft Teams. Use the following section to learn how to navigate Kaizala’s capabilities complimented within Teams.
 
 | From Kaizala | To Teams |
 |---------|-----------------------|
@@ -38,7 +38,7 @@ Now that you have a clear understanding of your organization’s unique path and
 | | [For end users](#end-user-guidance) |
 | Kaizala Group Dissolution| [Kaizala Group Dissolution](#kaizala-group-dissolution) |
 | Kaizala Tenant Data export| [Export Kaizala tenant data](#export-kaizala-tenant-data)  |
-| Collaborating with External Users (vendors/suppliers/partners)| [Using Teams for work and Teams for personal use interoperability](#collaborating-with-external-usersvendorssupplierspartners) |
+| Collaborating with External Users (vendors/suppliers/partners)| [Add or invite people outside your Teams org to a chat](#collaborating-with-external-usersvendorssupplierspartners) |
 
 ## Getting Started
 
@@ -182,6 +182,7 @@ Channel moderation allows you to control who can post and reply to messages. Cha
 - Type a headline, change its background color, or add a background image for the headline area.
 
 - Type the subject of your announcement in the Add a subhead area, then the body of your message, and select Send button.
+
     ![Mobile announcement](media/kaizala-to-teams-image10.png)
 
 **Step 3**: Select channels for Message broadcast.
@@ -199,7 +200,7 @@ When it comes to getting work done, the right tools can enable efficiency. In Ka
 
 ![Engage your people with Teams](media/kaizala-to-teams-image12.png)
 
-The Teams platform allows you to use existing organization tools through integration into Microsoft Teams alongside ready-to-use Microsoft 365 applications and third-party apps. There are over 300 external applications available now in Microsoft Teams.
+The Teams platform allows you to use existing organization tools through integration into Microsoft Teams alongside ready-to-use Microsoft 365 applications and third-party apps. There are over 800 external applications available now in Microsoft Teams.
 
 ### Polls, surveys, and checklists in Teams
 
@@ -279,13 +280,13 @@ Follow this three-step approach to get your solutions to Microsoft Teams:
 
 3. Explore the following approaches per usage frequency and complexity.
 
-    - Explore workarounds with [native Microsoft Teams capabilities](/microsoftteams/platform/concepts/capabilities-overview)
+    - Leverage native Microsoft Teams capabilities
 
-    - Use [3P app integrations](deploy-apps-microsoft-teams-landing-page.md)
+    - Use [third-party app integration and explore app store](deploy-apps-microsoft-teams-landing-page.md)
 
-    - Discover [App templates](/microsoftteams/platform/samples/app-templates)
+    - Discover [app templates](/microsoftteams/platform/samples/app-templates)
 
-    - Build [Custom solution development](/microsoftteams/platform/overview)
+    - Build [custom apps using the Teams platform](/microsoftteams/platform/overview)
 
 ## Management in Microsoft Teams
 
@@ -297,7 +298,7 @@ Administrators can manage the entire Teams workload, or they can have delegated 
 
 To navigate the admin center, visit [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/).
 
-You can monitor your organization’s security and compliance across Microsoft 365 with the Microsoft 365 [Compliance Center](/microsoft-365/compliance/microsoft-365-compliance-center) and [Security Center](/microsoft-365/security/defender/overview-security-center).
+You can monitor your organization’s security and compliance across Microsoft 365 with the [Microsoft Purview compliance portal](/microsoft-365/compliance/microsoft-365-compliance-center) and [Microsoft Security Center](/microsoft-365/security/defender/overview-security-center).
 
 Protect your business and empower your users in the [Azure Active Directory admin center](https://aad.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/c7736064-7b28-4f3d-b366-2740a8d48020) where you can review groups, identity, licenses, and access across Microsoft 365.
 
@@ -312,9 +313,9 @@ Use the following table to navigate the corresponding capabilities in Microsoft 
 | Create Groups (Connected to Organization) | **Create teams** through the Desktop or mobile app |
 | Adding Users in Bulk | For adding users in bulk to team – consider creating a team through O365 groups, O365 DLs, or Security group |
 | Directory | Search for anyone in your organization through the **Search Bar** in teams. The Search results will also return files, messages, and posts |
-| Analytics (Action Cards) | **Polls**, **Surveys, and**Checklists**have built in reports with downloadable data. Jobs can also be assigned with the help of**Tasks**in planner. Other third-party apps like**Trello**,**Wrike** can also be used with ease in Microsoft Teams |
+| Analytics (Action Cards) | **Polls**, **Surveys**, and **Checklists** have built in reports with downloadable data. Jobs can also be assigned with the help of Tasks app in Teams, available for users. For more scenarios, third-party apps like **Trello**, **Asana** can also be explored to be used within Teams. |
 | Extensions – Connectors | Use the **Connectors** option from the menu (…) for any channel for which the connector is required. |
-| Analytics (Usage) Adoption report, Usage report, Activity Report | Team owners can access reports for their teams by navigating from the menu (…) to **manage team** > **analytics**. |
+| [Analytics (Usage) Adoption report](teams-analytics-and-reports/view-analytics.md), [Usage report](teams-analytics-and-reports/teams-usage-report.md), [Activity Report](teams-analytics-and-reports/user-activity-report.md) | Team owners can access reports for their teams by navigating from the menu (…) to **manage team** > **analytics**. |
 
 > [!NOTE]
 > Teams end Users can use Teams on desktop or mobile to manage their individual teams and channels and will not need to access the Teams Admin center.
@@ -412,20 +413,27 @@ While using Teams, you can still maintain control of your corporate data in Kaiz
 
 ## Collaborating with External Users(Vendors/suppliers/Partners)
 
-Collaborating with vendors, suppliers, partners, and other external users is easier than ever in Microsoft Teams. With Teams, users have the ability to add external users with phone numbers. This is supported with Microsoft Teams Connect. Users within the organization can communicate with external users by using Teams for work and Teams for personal accounts interoperability. External user collaboration in Teams can also be done with guest access using a personal or official email. Cross-posting of announcements across teams and channels is supported with Teams. For example: Your suppliers and vendors would be able to send announcements to each other separate Teams channels or teams. Visit [Send an announcement to a channel](https://support.microsoft.com/office/send-an-announcement-to-a-channel-8f244ea6-235a-4dcc-9143-9c5b801b4992) to learn more about what we support in Teams.
+Microsoft Teams offers secure solutions to collaborate with external parties, and with Microsoft Teams Connect we are making it even easier to work with anyone outside your organization. Teams empowers commercial users to chat with external commercial users, that is, commercial users in other organizations. Building on this privilege, we are enabling you to chat with team members outside your organization, even if they are using a Teams personal account. These accounts are frequently used by SMB and therefore this new capability helps you strengthen the relationship with external partners.
 
-## What is External Access in Teams?
+As announced earlier at [Ignite](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-ignite-fall-2021-innovations-coming-to-microsoft-teams/ba-p/2824127), you can invite any Teams user to chat by entering the full email address or phone number you want to reach, and start a one-to-one or group chat with anyone with a Microsoft personal account, with no tenant switching required.
 
-External access is a way for Teams users from an entire external domain to find, call, chat, and set up meetings with you in Teams. To learn more about managing external access, visit [Manage external access](/microsoftteams/manage-external-access).
+Chatting with external users without needing to switch tenants enables you to get the results that you need faster. Let’s take a closer look into how it works.
 
-## What is Guest Access in Teams?
+Depending on the administrative settings of your organization and of the Teams personal account user, you can start conversations with external Teams personal account users, and external Teams personal account users can start conversations with Teams at work users.
 
-With [guest access](/MicrosoftTeams/guest-access), you can provide access to teams, documents in channels, resources, chats, and applications to people outside your organization, while maintaining control over your corporate data. No additional licensing is required to add Guests in Teams.
+Teams users managed by an organization can invite Teams personal account users they want to chat with by entering their full email address or phone number. Teams personal users can enter the exact organizational email address of the user they want to reach and attempt to start a chat.
 
-## Who can be a Guest in Teams?
+If the persons you want to chat with are not Teams users already, they will receive an email or a text message inviting them to join the conversation using a personal account. When they register and sign-in to their Teams personal account, they’ll be able to join the chat.
 
-A guest is someone who isn't an employee, or member of your organization. They don't have a work account with your organization. For example, guests may include partners, vendors, suppliers, or consultants.
-Anyone who isn't part of your organization can be [added as guest in Teams](/MicrosoftTeams/guest-access#how-a-guest-becomes-a-member-of-a-team). This means that anyone with a business account (that is, an Azure Active Directory account) or consumer email account (for example, outlook.com, gmail.com, so on) can participate as a guest in Teams with access to teams and channel experiences.
+Once the persons you invited have accepted the invitation, you can start a new one-to-one or group chat or even add them to an existing external group chat. This chat thread will appear alongside your other chats, with no tenant switching required to view the chat.
+
+As a part of your chat, you can express yourself by sending and receiving rich messages, GIFs, and media.
+
+You can choose to remain only in the conversations you want to be in. You can block messages from external users or leave a group chat.
+
+Teams users managed by an organization and Teams personal account users have the option to decline an external invitation. One can message an external user up to 10 times before they accept, but if there is no acceptance after 10 messages, you won’t be able to send additional messages to this user.
+
+View the [support page](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57) and read the [blog](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832) to learn more about how Teams enables you to seamlessly collaborate with external customers and partners within the safety and security of your trusted Teams workspace.
 
 ## Next Steps
 

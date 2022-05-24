@@ -267,6 +267,10 @@ An emergency calling policy can be granted to a Teams user account, assigned to 
 
 During an emergency call, a security desk is conferenced into the call and the experience of the security desk user is controlled based upon the Teams emergency calling policy. A group chat is started with each security desk member, and the location of the emergency caller is shared via an important message notification.  If a conference option is configured as part of the policy, each security desk user is additionally called as part of the conference.
 
+### Custom emergency disclaimer
+
+Administrators have the ability to add a custom banner in the tenant for their users to enable E911. Users can dismiss the banner when they confirm their address, and the banner will reappear when Teams is restarted. To enable this feature, you would set the **Emergency service disclaimer** under the Teams emergency calling policy and enter a string message to be displayed to users. This field is optional when setting up a custom policy, and the string field is limited to 250 characters.
+
     
 ## Related topics
 

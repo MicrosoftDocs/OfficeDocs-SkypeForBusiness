@@ -1,8 +1,8 @@
 ---
 title: Teams devices for Education
-author: amandafrechinjackson
-ms.author: v-amandaf
-manager: jsarrasin
+author: dstrome
+ms.author: dstrome
+manager: serdars
 ms.date: 08/3/2021
 ms.topic: conceptual
 audience: ITPro

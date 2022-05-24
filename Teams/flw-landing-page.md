@@ -28,7 +28,7 @@ In this section:
 - [Use the Frontline Worker onboarding wizard to get your frontline workforce up and running](flw-onboarding-wizard.md)
 - [How to provision Teams at scale for frontline workers](flw-scripted-deployment.md)
 - [Policy packages for frontline workers and managers](manage-policy-packages.md)
-- [Tailor Teams apps for your frontline workers](pin-teams-apps-based-on-license.md) (coming soon)
+- [Tailor Teams apps for your frontline workers](pin-teams-apps-based-on-license.md)
 - [Sign in to Teams](sign-in-teams.md)
 - [Sign out of Teams](sign-out-of-teams.md)
 - Apps from Microsoft for frontline workers:
