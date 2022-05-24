@@ -1,7 +1,7 @@
 ---
 title: Set up for webinars in Microsoft Teams 
-author: KarliStites
-ms.author: kastites
+author: mkbond007
+ms.author: mabond
 manager: serdars
 ms.reviewer: sachung, emryan
 ms.topic: article
