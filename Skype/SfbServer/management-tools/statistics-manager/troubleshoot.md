@@ -53,7 +53,7 @@ This topic describes how to troubleshoot your Statistics Manager deployment by d
 
 - **2001**— No connection could be made to the service on any source IP
 
-  If the Agent cannot connect to the Listener computer, check the following:
+  If the Agent can't connect to the Listener computer, check the following:
 
   1. Ensure the Listener service is running on the Listener computer. If not, ensure Redis is running on that server and then restart the Listener service.
 
@@ -100,7 +100,7 @@ This topic describes how to troubleshoot your Statistics Manager deployment by d
 
   - **10001** — Configuration problem
 
-    Generally this will occur when the [listener_install_location]\PerfAgentListener.exe.config file has been modified by hand and cannot be read by the application.
+    Generally this will occur when the [listener_install_location]\PerfAgentListener.exe.config file has been modified by hand and can't be read by the application.
 
   - **10002** — HTTP Listener initialization error
 
@@ -124,7 +124,7 @@ This topic describes how to troubleshoot your Statistics Manager deployment by d
 
   - **30100** — Redis PING outage restored
 
-    These will be logged when the Listener cannot connect to Redis. Ensure Redis is started and network connectivity between the Listener and Redis is available.
+    These will be logged when the Listener can't connect to Redis. Ensure Redis is started and network connectivity between the Listener and Redis is available.
 
 - **10200** — Redis Write outage
 
@@ -132,7 +132,7 @@ This topic describes how to troubleshoot your Statistics Manager deployment by d
 
   - **30100** — Redis Write outage resolved
 
-    These will be logged when the Listener cannot write to the Redis cache. Ensure Redis is started and network connectivity between the Listener and Redis is available.
+    These will be logged when the Listener can't write to the Redis cache. Ensure Redis is started and network connectivity between the Listener and Redis is available.
 
 - **30000** — Successfully started
 
@@ -161,7 +161,7 @@ This topic describes how to troubleshoot your Statistics Manager deployment by d
 
   - Right click on StatsManHubWebSite.dll and view its properties.
 
-  - If a computer cannot be found in the KHI Landscape view or the Counter Details view, make sure it is a member of a Site and a Pool. If it is not, it will not appear in those views. For information about defining a site and pool for a server in the topology, see [Import the topology](deploy.md#BKMK_ImportTopology).
+  - If a computer can't be found in the KHI Landscape view or the Counter Details view, make sure it is a member of a Site and a Pool. If it is not, it will not appear in those views. For information about defining a site and pool for a server in the topology, see [Import the topology](deploy.md#BKMK_ImportTopology).
 
   - The product version will be shown in the Description details.
 

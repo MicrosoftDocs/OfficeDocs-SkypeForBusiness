@@ -65,7 +65,7 @@ To prepare the host machine, you will need to install the Redis in-memory cachin
 
     Unsigned installers can be downloaded from [https://github.com/MSOpenTech/redis/releases](https://github.com/MSOpenTech/redis/releases)
 
-    If required, signed binaries are available through popular package managers: [Nuget](https://www.nuget.org/packages/Redis-64/) and [Choclatey](https://chocolatey.org/packages/redis-64).
+    Signed binaries are available through popular package managers: [Nuget](https://www.nuget.org/packages/Redis-64/) and [Choclatey](https://chocolatey.org/packages/redis-64).
 
    - Run the provided msi and follow the prompts.
 
@@ -75,7 +75,7 @@ To prepare the host machine, you will need to install the Redis in-memory cachin
 
     If you want to use a self-signed certificate--for testing purposes in a lab, for example--see [Create a self-signed certificate](deploy.md#BKMK_SelfCert).
 
-    Note that the Agent uses certificate thumbprint verification (instead of chain verification). It will not do full certificate validation because it is possible to use self-signed certificates.
+    The Agent uses certificate thumbprint verification (instead of chain verification). It will not do full certificate validation because it is possible to use self-signed certificates.
 
 ### Install the Listener service
 
@@ -85,11 +85,11 @@ Install the Listener service on the host machine by running the StatsManPerfAgen
 
 2. On the next page, specify the following information:
 
-   - **Service Password:** This is the password the remote Agents will use to authenticate to the Listener service.
+   - **Service Password:** This password is used by the remote Agents to authenticate to the Listener service.
 
-   - **Service Port:** This is the HTTPS port number that the Listener will use to communicate with the Agents. During installation, this port will be allowed through the local firewall, a URL ACL will be created, and an SSL cert will be bound to this port. The default is 8443.
+   - **Service Port:** This HTTPS port number is used by the Listener to communicate with the Agents. During installation, this port will be allowed through the local firewall, a URL ACL will be created, and an SSL cert will be bound to this port. The default is 8443.
 
-   - **Certificate Thumbprint:** This is the certificate thumbprint the Listener will use to encrypt the HTTPS protocol. Network Service must have read access to the private key.
+   - **Certificate Thumbprint:** This certificate is used by the Listener to encrypt the HTTPS protocol. Network Service must have read access to the private key.
 
      Click the **Select...** button to choose the thumbprint.
 
@@ -99,15 +99,15 @@ Install the Listener service on the host machine by running the StatsManPerfAgen
       Get-ChildItem -path cert:\LocalMachine\My
       ```
 
-   - **Install Dir:** This is the directory on which the binaries will be installed. You may change it from the default by using the **Browse...** button.
+   - **Install Dir:** This directory is where the binaries will be installed. You may change it from the default by using the **Browse...** button.
 
-   - **AppData Dir:** This is the directory where the Logs folder and other data will be stored. You may change it from the default. It will not be deleted on uninstall.
+   - **AppData Dir:** This directory is where where the Logs folder and other data will be stored. You may change it from the default. It will not be deleted on uninstall.
 
 3. Click **Install**.
 
 To validate the installation, perform the following steps:
 
-1. Open a browser and navigate to https://localhost:\<service-port\>/healthcheck/
+1. Open a browser and navigate to `https://localhost:<service-port>/healthcheck/`
 
     By default, the service port is 8443 (unless you specified another port).
 
@@ -121,23 +121,23 @@ To validate the installation, perform the following steps:
 
 ### Install the Website
 
-Install the Website on the host machine by running the StatsManWebSite.msi (included with [Skype for Business Server, Real-Time Statistics Manager (64-bit)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)) and specifying the following:
+Install the Website on the host machine by running the StatsManWebSite.msi (included with [Skype for Business Server, Real-Time Statistics Manager (64-bit)](https://www.microsoft.com/download/details.aspx?id=57518)):
 
 1. Review the License Agreement, and if you agree, select **I accept the terms in the license agreement**, and then click **Next**.
 
 2. On the next page, specify the following information:
 
-   - **Service Port:** This is the port number the web site will listen on. You can change it later by using IIS manager binding. During installation, this port will be allowed through the local firewall.
+   - **Service Port:** This TCP port is where the web site will listen. You can change it later by using IIS manager binding. During installation, this port will be allowed through the local firewall.
 
-   - **Install Dir:** This is the directory where the binaries will be installed. You may change it from the default by using the **Browse...** button.
+   - **Install Dir:** This directory is where the binaries will be installed. You may change it from the default by using the **Browse...** button.
 
-   - **AppData Dir:** This is the directory where the Logs folder and other data will be stored. You may change it from the default. It will not be deleted on uninstall.
+   - **AppData Dir:** This directory is where the Logs folder and other data will be stored. You may change it from the default. It will not be deleted on uninstall.
 
 3. Click **Install**.
 
-To view the Website, open a browser, and navigate to: http://localhost,webport\>/.
+To view the Website, open a browser, and navigate to: `http://<localhost:webport/>`.
 
-To view health information only, open a browser, and navigate to: http://localhost:\<webport\>/healthcheck/.
+To view health information only, open a browser, and navigate to: `http://localhost:<webport>/healthcheck/`.
 
 By default, the web port number is 8080. You can change the port binding of the website by using IIS manager.
 
@@ -145,23 +145,23 @@ The web installer adds a local security group, called StatsManWebSiteUsers. You 
 
 ### Install the Agents
 
-Install an Agent on each Skype for Business Server that you wish to monitor by running the StatsManPerfAgent.msi and specifying the following:
+Install an Agent on each Skype for Business Server that you wish to monitor by running the StatsManPerfAgent.msi:
 
 1. Review the License Agreement, and if you agree, select **I accept the terms in the license agreement**, and then click **Next**.
 
 2. On the next page, specify the following information:
 
-   - **Service Password:** This is the password the remote agent will use to authenticate to the Listener service.
+   - **Service Password:** This password is used by the remote agent to authenticate to the Listener service.
 
-   - **Service URI:** This is the URI where the Listener resides. It should use the https://name:port format.
+   - **Service URI:** This URL is where the Listener resides. Use the `https://name:port` format.
 
-     You can use a NETBIOS name or a FQDN. You can use the name that is also specified as the **Subject** or **Subject Alternative Names** of the certificate on the Listener service, but this is not a requirement.
+     You can use a NETBIOS name or a FQDN. You can use the name that is also specified as the **Subject** or **Subject Alternative Names** of the certificate on the Listener service, but this isn't a requirement.
 
-   - **Service Thumbprint:** This is the thumbprint of the SSL certificate the Listener is using. The Agent will use this thumbprint to authenticate to the Listener. (It will not do full certificate validation because it is possible to use self-signed certificates.)
+   - **Service Thumbprint:** This SS: certificate is used by the Listener. The Agent will use this thumbprint to authenticate to the Listener. It will not do full certificate validation because it is possible to use self-signed certificates.
 
-   - **Install Dir:** This is the directory on which the binaries will be installed. You may change it from the default by using the **Browse...** button.
+   - **Install Dir:** This directory is where the binaries will be installed. You may change it from the default by using the **Browse...** button.
 
-   - **AppData Dir:** This is the directory where the Logs folder and the encrypted password.txt file will be stored. You may thanks change it from the default. It will not be deleted on uninstall.
+   - **AppData Dir:** This directory is where the Logs folder and the encrypted password.txt file will be stored. You may thanks change it from the default. It will not be deleted on uninstall.
 
 3. Click **Install**.
 
@@ -233,19 +233,19 @@ If you would like to monitor servers that are not in your Skype for Business Ser
 ## Troubleshoot your deployment
 <a name="BKMK_Troubleshoot"> </a>
 
-If an Agent fails to start, check for the following:
+If an Agent fails to start, check for the following issues:
 
 - Is the agent registered in Statistics Manager?
 
    1. Make sure you followed the instructions for importing the topology. See [Import the topology](deploy.md#BKMK_ImportTopology).
 
-   2. If the Agent is on a server that is not listed in the topology (for example, the nodes in a SQL AlwaysOn cluster), you will need to add the Agent manually by following the instructions in [Import the topology](deploy.md#BKMK_ImportTopology).
+   2. If the Agent is on a server that isn't listed in the topology (for example, the nodes in a SQL AlwaysOn cluster), you will need to add the Agent manually by following the instructions in [Import the topology](deploy.md#BKMK_ImportTopology).
 
 - Can the Agent contact the Listener?
 
    1. Make sure the Listener service is running.
 
-      If it is not running, make sure Redis is running, and then try to restart the Listener.
+      If it isn't running, make sure Redis is running, and then try to restart the Listener.
 
    2. Make sure the port is open to the Listener service, and that the Agent computer can communicate with the port.
 
@@ -268,9 +268,9 @@ For information about all the events you might see in the application event log,
 ## Create a self-signed certificate
 <a name="BKMK_SelfCert"> </a>
 
-Microsoft strongly recommends that you use a certificate signed by a trusted certificate authority. However, if you want to use a self-signed certificate for testing purposes, do the following:
+Microsoft strongly recommends that you use a certificate signed by a trusted certificate authority. However, if you want to use a self-signed certificate for testing purposes, do the following steps:
 
-1. From a PowerShell console while logged on as Administrator, type the following:
+1. From a PowerShell console while logged on as Administrator, run the following command:
 
    ```powershell
    New-SelfSignedCertificate -DnsName StatsManListener -CertStoreLocation Cert:\LocalMachine\My
@@ -280,11 +280,11 @@ Microsoft strongly recommends that you use a certificate signed by a trusted cer
 
 3. Navigate to **Personal**, and then open **Certificates**.
 
-4. Right click on **StatsManListener-\>All Tasks-\>Manage Private Keys...**
+4. Right click on **StatsManListener- \> All Tasks- \>Manage Private Keys...**
 
 5. Click **Add**.
 
-6. In the **Enter the object names to select** box, type the following: Network Service
+6. In the **Enter the object names to select** box, type the following text: Network Service
 
 7. Click **OK**.
 
@@ -295,7 +295,7 @@ Microsoft strongly recommends that you use a certificate signed by a trusted cer
 ## For more information
 <a name="BKMK_SelfCert"> </a>
 
-For more information, see the following:
+For more information, see the following topics:
 
 - [Plan for Statistics Manager for Skype for Business Server](plan.md)
 
