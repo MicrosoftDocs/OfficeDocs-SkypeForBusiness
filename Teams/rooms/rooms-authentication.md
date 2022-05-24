@@ -1,5 +1,5 @@
 ---
-title: "Authentication in Microsoft Teams Rooms"
+title: "Authentication in Microsoft Teams Rooms on Windows"
 ms.author: czawideh
 author: cazawideh
 ms.reviewer: sohailta
@@ -13,10 +13,10 @@ ms.localizationpriority: medium
 ms.assetid:
 ms.collection: 
   - M365-collaboration
-description: "Learn how to configure modern authentication for Microsoft Teams Rooms"
+description: "Learn how to configure modern authentication for Microsoft Teams Rooms on Windows"
 ---
 
-# Authentication in Microsoft Teams Rooms
+# Authentication in Microsoft Teams Rooms on Windows
 
 Account management for Microsoft Teams Rooms is handled at the application level. The application connects to Microsoft Teams, Skype for Business, and Exchange to get resources for the resource account to enable calling and meeting experiences. Teams Rooms uses a dedicated resource account to allow for always-on capabilities, calling scenarios (for devices configured with a calling plan), and custom lockdown mechanisms. This means that authentication for Teams Rooms happens in a different way than for end-user devices.  
 
