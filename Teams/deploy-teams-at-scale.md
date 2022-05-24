@@ -29,9 +29,9 @@ You may have a lot of teams that you use to drive communication and collaboratio
 
 We're building a solution to allow admins to deploy and manage teams at scale.  
 
-## Deploy teams at scale
+## Deploying teams at scale
 
-You use PowerShell to deploy teams at scale. Here's an overview of what's available today, what's coming soon, and what we're planning for the near future.
+Here's an overview of the capabilities available today, what's coming soon, and what we're planning for the near future.
 
 |Available today  |Available soon  |In the future  |
 |---------|---------|---------|
@@ -39,7 +39,7 @@ You use PowerShell to deploy teams at scale. Here's an overview of what's availa
 
 ## Steps
 
-You use the ```New-CsBatchTeamsDeployment``` cmdlet to submit a batch of teams to create. An orchestration ID is generated for each batch. You can then use the ```Get-CsBatchTeamsDeployment``` cmdlet to track the progress and status of each batch.
+Here's how to use PowerShell to deploy teams at scale. You use the ```New-CsBatchTeamsDeployment``` cmdlet to submit a batch of teams to create. An orchestration ID is generated for each batch. You can then use the ```Get-CsBatchTeamsDeployment``` cmdlet to track the progress and status of each batch.
 
 1. Install PowerShell version 7 or later. For step-by-step guidance, see [Installing PowerShell on Windows](/powershell/scripting/install/installing-powershell-on-windows).
 1. Run PowerShell in administrator mode.
