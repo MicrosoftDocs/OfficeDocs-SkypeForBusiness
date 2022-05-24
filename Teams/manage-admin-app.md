@@ -25,15 +25,15 @@ search.appverid: MET150
 
 In this article, you’ll learn how to successfully navigate and get started with the Admin app in Microsoft Teams.
 
-- [Overview](#overview-of-the-admin-app?WT.mc_id=AdminAppInTeams)
+- [Overview](#overview-of-the-admin-app)
 
-- [Availability](#availability-of-the-admin-app?WT.mc_id=AdminAppInTeams)
+- [Availability](#availability-of-the-admin-app)
 
-- [Get started](#get-started-with-the-admin-app?WT.mc_id=AdminAppInTeams)
+- [Get started](#get-started-with-the-admin-app)
 
-- [Navigate the Admin app](#navigate-the-admin-app?WT.mc_id=AdminAppInTeams)
+- [Navigate the Admin app](#navigate-the-admin-app)
 
-- [Give feedback](#give-feedback-on-the-admin-app?WT.mc_id=AdminAppInTeams)
+- [Give feedback](#give-feedback-on-the-admin-app)
 
 ## Overview of the Admin app
 
@@ -55,7 +55,6 @@ The app will be pre-pinned in the left navigation bar of Teams for organizations
   
 If your organization has fewer than 25 seats and you don't want to have the app pre-pinned to the left navigation bar in Microsoft Teams, you can easily unpin the app by right-clicking on it and selecting "Unpin".
 
-
 > [!NOTE]
 > Organizations with 25 seats or less will begin to see the app automatically pre-pinned. This experience is being rolled out gradually over time.
 
@@ -72,10 +71,9 @@ From the Dashboard tab, you’ll find a navigation menu consisting of the **Home
 **Users**: Use the Users page to manage who can access apps and services. Quickly add or remove users, manage licenses, and reset passwords. You can select a user from the list to find more details about their account. You can view a history of the user’s sign-in attempts, manage their groups and roles, and control their access to Microsoft 365 sessions.
 
 **Teams**: Use the **Teams** page to oversee your organization’s teams for collaboration, chat, and meetings in Microsoft Teams. This page allows you to manage team members, owners, guests, and emails. When you add a new user here, they’ll always be added to the org-wide team.
-**Subscriptions**: Use the **Subscriptions** management page to change your payment method, view invoices, and track license usage for subscriptions. You can view available licenses, add more products, monitor subscription status, and assign licenses. A license gives a user access to a set of Microsoft services. 
+**Subscriptions**: Use the **Subscriptions** management page to change your payment method, view invoices, and track license usage for subscriptions. You can view available licenses, add more products, monitor subscription status, and assign licenses. A license gives a user access to a set of Microsoft services.
 
-**Settings**: Select **Settings** from the menu will open an expanded list of Microsoft Teams settings for managing **messaging**, **files**, **webinars**, and **apps**. Any changes to settings are applied on an org-wide level. Use Meetings to manage meeting access and related features like auto-admit or allowing transcriptions. Use Files to add an external cloud storage service to Teams. Use **Webinars** to manage access for live events and webinars. 
-  [picture of settings menu]
+**Settings**: Select **Settings** from the menu will open an expanded list of Microsoft Teams settings for managing **messaging**, **files**, **webinars**, and **apps**. Any changes to settings are applied on an org-wide level. Use Meetings to manage meeting access and related features like auto-admit or allowing transcriptions. Use Files to add an external cloud storage service to Teams. Use **Webinars** to manage access for live events and webinars.
 
 **Help**: Use the **Help** page to submit support tickets and find common solutions. Under the **Search** tab, you can use the search bar to discover recommended solutions and resources. After entering a phrase, the Search tab will generate suggested actions and related how-to articles, videos, and training resources for the subject. The **Contact support** tab allows you to create a new ticket with Microsoft Support. To get started, select **Contact support** and follow the instructions to submit your new ticket. You can view a log of your submitted support requests under **Request history**.
 
@@ -89,4 +87,4 @@ We welcome your feedback on the **Admin** app. To submit feedback about the **Ad
 
 - Bugs or issues
 
-In the Desktop app, select **Help**   at the bottom lower-left of Teams and then choose **Give feedback** to tell us what you think. To share feedback from an Android or iOS device, follow the instructions at [Give feedback](https://support.microsoft.com/en-us/office/give-feedback-in-teams-c0fb6297-22af-4db5-b19b-69e0a6720927#ID0EBBD=Desktop) in Teams. We recommend that you indicate that you're sending feedback about the **Admin** app at the beginning of your report so that we can easily identify **Admin** app related issues.
+In the Desktop app, select **Help**   at the bottom lower-left of Teams and then choose **Give feedback** to tell us what you think. To share feedback from an Android or iOS device, follow the instructions at [Give feedback](https://support.microsoft.com/office/give-feedback-in-teams-c0fb6297-22af-4db5-b19b-69e0a6720927#ID0EBBD=Desktop) in Teams. We recommend that you indicate that you're sending feedback about the **Admin** app at the beginning of your report so that we can easily identify **Admin** app related issues.
