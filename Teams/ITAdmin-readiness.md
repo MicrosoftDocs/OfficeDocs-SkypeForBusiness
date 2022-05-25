@@ -1,5 +1,5 @@
 ---
-title: Admin training resources - Microsoft Teams
+title: Admin training resources - Microsoft Teams
 ms.reviewer: jhwang
 author: SerdarSoysal
 ms.author: serdars
