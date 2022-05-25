@@ -33,7 +33,7 @@ Here's an overview of the capabilities available today, what's coming soon, and 
 
 |Available today  |Available soon  |In the future  |
 |---------|---------|---------|
-| <ul><li>Create up to 30 teams per batch using pre-built templates or your own custom templates.</li><li>Add up to 20 users per team as owners or members.</li><li>Manage teams at scale by adding or removing users from existing teams.</li><li>Stay notified with emails. This includes completion, status, and errors if any. Team owners and members are notified.</li></ul>|<ul><li>Create up to 100 teams per batch.</li><li>Add up to 25 users per team as owners or members. </li></ul>|<ul><li>Create up to 500 teams per batch.</li></ul>|
+| <ul><li>Create up to 30 teams per batch using pre-built templates or your own custom templates.</li><li>Add up to 20 users per team as owners or members.</li><li>Manage teams at scale by adding or removing users from existing teams.</li><li>Stay notified with emails. This includes completion, status, and errors if any. Team owners and members are notified.</li></ul>|<ul><li>Create up to 100 teams per batch using pre-built templates or your own custom templates.</li><li>Add up to 25 users per team as owners or members. </li></ul>|<ul><li>Create up to 500 teams per batch using pre-built templates or your own custom templates.</li></ul>|
 
 ## How to deploy teams at scale
 
