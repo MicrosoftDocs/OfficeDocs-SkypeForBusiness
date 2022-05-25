@@ -173,14 +173,14 @@ The following apps are supported for use in shared channels.
 |Code by Vivani|OneNote|Testportal|
 |Conceptboard|PDF|TrackingTime|
 |Excel|Pear Deck|Trello|
-|FileBrowser|Powerpoint|Vevox|
+|FileBrowser|PowerPoint|Vevox|
 |Files|Priority Matrix|Visio|
 |Flipgrid|Quicklinks|VSTS|
 |Freehand by InVision|Quizlet|Wakelet|
 |HeyTaco|Saved|Web|
 |Jira Cloud|Scrum-Poker|Wooclap|
 |Kahoot!|Search|Word|
-|Lists|SharePoint|Youtube|
+|Lists|SharePoint|YouTube|
 |Lucidchart|SharePoint Pages|Zendesk|
 |Lumio|Slido|Zoho Projects|
 
