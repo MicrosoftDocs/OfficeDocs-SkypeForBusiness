@@ -157,6 +157,33 @@ The following limitations also apply:
 
 - Notifications from shared channels are not included in missed activity emails.
 
+## Supported apps in shared channels
+
+The following apps are supported for use in shared channels.
+
+|A-L|M-S|S-Z|
+|:-------|:----------|:---------|
+|Activity|MeisterTask|Smartsheet|
+|Adobe Acrobat Sign|MindMeister|SurveyMonkey|
+|Asana|Mindomo|Tasks in a Box|
+|Bookings|Miro|Teams|
+|Calendar Pro|Monday.com|Teams Manager|
+|Calling|MURAL|TeamViewer|
+|Chat|Nearpod|Teamwork|
+|Code by Vivani|OneNote|Testportal|
+|Conceptboard|PDF|TrackingTime|
+|Excel|Pear Deck|Trello|
+|FileBrowser|Powerpoint|Vevox|
+|Files|Priority Matrix|Visio|
+|Flipgrid|Quicklinks|VSTS|
+|Freehand by InVision|Quizlet|Wakelet|
+|HeyTaco|Saved|Web|
+|Jira Cloud|Scrum-Poker|Wooclap|
+|Kahoot!|Search|Word|
+|Lists|SharePoint|Youtube|
+|Lucidchart|SharePoint Pages|Zendesk|
+|Lumio|Slido|Zoho Projects|
+
 ## Related topics
 
 [B2B direct connect overview](/azure/active-directory/external-identities/b2b-direct-connect-overview)
