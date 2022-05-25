@@ -111,7 +111,7 @@ In most cases, after you complete an app update the new version automatically ap
 * A bot was added or removed
 * An existing bot's "botId" property changed
 * An existing bot's "isNotificationOnly" property changed
-* A bot's SupportsCalling, SupportsVideo, and SupportsFiles capability was added
+* A bot's SupportsCalling, SupportsVideo, and SupportsFiles capability was added
 * A messaging extension was added
 * A new connector was added
 * Permissions inside "Authorization" were added or changed

@@ -17,11 +17,11 @@ appliesto:
 
 # Install Microsoft Teams PowerShell Module
 
-This article explains how to install the Microsoft Teams PowerShell module using PowerShell Gallery. The Microsoft Teams PowerShell module is supported on all Windows platforms. Mac and Linux are not supported.
+This article explains how to install the Microsoft Teams PowerShell module using PowerShell Gallery. The Microsoft Teams PowerShell module is supported on all Windows platforms. Mac and Linux are not supported.
 
 ## Requirements
 
-Microsoft Teams PowerShell module requires PowerShell 5.1 or higher on all platforms. Install the [latest version of PowerShell](/powershell/scripting/install/installing-powershell) available for your operating system. 
+Microsoft Teams PowerShell module requires PowerShell 5.1 or higher on all platforms. Install the [latest version of PowerShell](/powershell/scripting/install/installing-powershell) available for your operating system. 
 
 To check your PowerShell version, run the following command from within a PowerShell session: 
 

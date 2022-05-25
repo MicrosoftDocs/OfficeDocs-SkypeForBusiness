@@ -29,9 +29,7 @@ description: Learn how to configure user settings for call forwarding and delega
 This article describes how you, the administrator, can change call forwarding and delegation settings for your users. You might want to change these settings, for example, if:
 
 - A user is out on sick leave, and you need to ensure that incoming calls to the user are forwarded to a colleague.
-
 - You need to inspect the call forward settings for all users in a department and potentially correct them as appropriate.
-
 - A new assistant has been employed and you need to add the assistant as a delegate for a group of employees.
 
 You can use the Teams admin center or Teams PowerShell cmdlets to view and change call settings for users.
@@ -40,7 +38,7 @@ To set call settings for a user, the user must have an assigned Microsoft Phone 
 
 ## Use the Teams admin center
 
-You can use the Teams admin center to configure call forward and unanswered settings, group call pickup, and call delegation for your users. 
+You can use the Teams admin center to configure call forward and unanswered settings, group call pickup, and call delegation for your users.
 
 To configure immediate call forward settings:
 
@@ -50,27 +48,21 @@ To configure immediate call forward settings:
 
 3. Under **Call answering rules**, select **Be immediately forwarded**, and select the appropriate call forward type and destination.
 
-To configure simultaneous ringing, on the same page select **Ring the user’s devices**. In the **Also allow** drop-down, select the appropriate simultaneous ringing setting.
+To configure simultaneous ringing, on the same page select **Ring the user's devices**. In the **Also allow** drop-down, select the appropriate simultaneous ringing setting.
 
 To configure unanswered settings, on the same page select the appropriate setting in the **If unanswered** drop-down. In the **Ring for this many seconds before redirecting** drop-down, specify the number of seconds to wait.
 
-The configuration of call delegation and group call pickup are integrated into the call forward and unanswered settings by selecting the appropriate type. For example, to configure that calls should also ring the user’s delegates, on the same page select **Call delegation** under **Also allow**. Then add the appropriate delegates by selecting **Add people** and clicking **Save**.
-
+The configuration of call delegation and group call pickup are integrated into the call forward and unanswered settings by selecting the appropriate type. For example, to configure that calls should also ring the user's delegates, on the same page select **Call delegation** under **Also allow**. Then add the appropriate delegates by selecting **Add people** and clicking **Save**.
 
 ## Use PowerShell
 
 You can use PowerShell to configure call forward and delegation settings for your users.  You'll use the following cmdlets, which are available in Teams PowerShell module version 4.0 or later:
 
 - [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings?view=teams-ps) - shows call forwarding settings, delegates, and delegator information for a user.
-
 - [Set-CsUserCallingSettings](/powershell/module/teams/set-csusercallingsettings?view=teams-ps) - sets call forwarding settings for a user.
-
 - [New-CsUserCallingDelegate](/powershell/module/teams/new-csusercallingdelegate?view=teams-ps) - adds a new delegate with permissions for a user.
-
--	[Set-CsUserCallingDelegate](/powershell/module/teams/set-csusercallingdelegate?view=teams-ps) - changes permissions for an existing delegate.
-
--	[Remove-CsUserCallingDelegate](/powershell/module/teams/remove-csusercallingdelegate?view=teams-ps) - removes a delegate from a user.
-
+- [Set-CsUserCallingDelegate](/powershell/module/teams/set-csusercallingdelegate?view=teams-ps) - changes permissions for an existing delegate.
+- [Remove-CsUserCallingDelegate](/powershell/module/teams/remove-csusercallingdelegate?view=teams-ps) - removes a delegate from a user.
 
 ### Display call forward and delegation settings for a user
 
@@ -104,22 +96,21 @@ ReceiveCalls   : True
 
 The output shows that user1 has simultaneous ringing to delegates configured. Unanswered calls are sent to voicemail after 20 seconds. User2 is defined as the delegate with all delegate permissions.
 
-
 ### Set call forward settings for a user
 
-To forward all calls for user1 to user2, use the Set-CsUserCallingSettings cmdlet, as shown in the following example: 
+To forward all calls for user1 to user2, use the Set-CsUserCallingSettings cmdlet, as shown in the following example:
 
 ```PowerShell
 Set-CsUserCallingSettings -Identity user1@contoso.com -IsForwardingEnabled $true -ForwardingType Immediate -ForwardingTargetType SingleTarget -ForwardingTarget user2@contoso.com
 ```
 
-To simultaneously ring all delegates for user3, use the Set-CsUserCallingSettings cmdlet, as shown in the following example: 
+To simultaneously ring all delegates for user3, use the Set-CsUserCallingSettings cmdlet, as shown in the following example:
 
 ```PowerShell
 Set-CsUserCallingSettings -Identity user3@contoso.com -IsForwardingEnabled $true -ForwardingType Simultaneous -ForwardingTargetType MyDelegates
 ```
 
-The following example uses the Set-CsUserCallingSettings cmdlet to configure a call group for user4 with user5 and user6 as members. All calls to members of the group are forwarded in the order they are defined: 
+The following example uses the Set-CsUserCallingSettings cmdlet to configure a call group for user4 with user5 and user6 as members. All calls to members of the group are forwarded in the order they are defined:
 
 ```PowerShell
 $cgm = @("user5@contoso.com","user6@contoso.com")
@@ -133,7 +124,7 @@ For more examples, see [Set-CsUserCallingSettings](/powershell/module/teams/get-
 
 ### Add a calling delegate for a user
 
-To add user2 as a delegate for user1 with all permissions allowed, use the New-CsUserCallingDelegate cmdlet, as shown in the following example: 
+To add user2 as a delegate for user1 with all permissions allowed, use the New-CsUserCallingDelegate cmdlet, as shown in the following example:
 
 ```PowerShell
 New-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.com -MakeCalls $true -ReceiveCalls $true -ManageSettings $true
@@ -141,7 +132,7 @@ New-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.co
 
 ### Change calling delegate permissions
 
-To change delegate permissions--for example to not allow user2 to make calls for user1--use the Set-CsUserCallingDelegate cmdlet as shown in the following example: 
+To change delegate permissions--for example to not allow user2 to make calls for user1--use the Set-CsUserCallingDelegate cmdlet as shown in the following example:
 
 ```PowerShell
 Set-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.com -MakeCalls $false
@@ -155,15 +146,10 @@ To remove user2 as a delegate for user1, use the Remove-CsUserCallingDelegate cm
 Remove-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.com
 ```
 
-
 ## Related topics
 
 - [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings?view=teams-ps) 
-
 - [Set-CsUserCallingSettings](/powershell/module/teams/set-csusercallingsettings?view=teams-ps) 
-
 - [New-CsUserCallingDelegate](/powershell/module/teams/new-csusercallingdelegate?view=teams-ps) 
-
--	[Set-CsUserCallingDelegate](/powershell/module/teams/set-csusercallingdelegate?view=teams-ps) 
-
--	[Remove-CsUserCallingDelegate](/powershell/module/teams/remove-csusercallingdelegate?view=teams-ps) 
+- [Set-CsUserCallingDelegate](/powershell/module/teams/set-csusercallingdelegate?view=teams-ps) 
+- [Remove-CsUserCallingDelegate](/powershell/module/teams/remove-csusercallingdelegate?view=teams-ps) 

@@ -47,7 +47,7 @@ Before you begin, you should also review [Important considerations for organizat
 
 The key prerequisite for upgrading your on-premises users to Teams is to configure hybrid connectivity for your Skype for Business Server on-premises deployment. 
 
-Start by reading [Plan hybrid connectivity](/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=%2fSkypeForBusiness%2fsfbhybridtoc%2ftoc.json), and then follow the tasks outlined in [Configure hybrid connectivity](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity).
+Start by reading [Plan hybrid connectivity](/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=%2fSkypeForBusiness%2fsfbhybridtoc%2ftoc.json), and then follow the tasks outlined in [Configure hybrid connectivity](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity).
 
 
 ## Step 2: Set transitional coexistence mode (optional)
@@ -61,7 +61,7 @@ Depending on your requirements, you can assign the appropriate coexistence mode 
 
 ## Step 3: Move users from Skype for Business on-premises to Teams Only
 
-Microsoft has recently simplified the process to move users to TeamsOnly. This process is now a single step, regardless of which version of Skype for Business Server or Lync Server 2013 you're using. For more information, see [Move users between on-premises and the cloud](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud) and [Move users from on-premises to Teams](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams). 
+Microsoft has recently simplified the process to move users to TeamsOnly. This process is now a single step, regardless of which version of Skype for Business Server or Lync Server 2013 you're using. For more information, see [Move users between on-premises and the cloud](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud) and [Move users from on-premises to Teams](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams). 
 
 ## Step 4: Complete your migration to the cloud by disabling hybrid and decommissioning on-premises Skype for Business
 
@@ -76,9 +76,9 @@ Phone System with Teams is supported after the user is in TeamsOnly mode. (If th
 
 When considering Public Switched Telephone Network (PSTN) connectivity options, there are two possible scenarios when moving from Skype for Business on premises to TeamsOnly mode:
 
-- A user in Skype for Business on-premises with Enterprise Voice, who will be moving to online and using a Microsoft Calling plan. Migrating this user to Teams requires moving the user’s on-premises Skype for Business account to the cloud, and coordinating that move with either A) the port of that user’s phone number to a Microsoft Calling Plan or B) assigning a new subscriber number from available regions.  For more information, see [From Skype for Business Server on-premises, with Enterprise Voice, to Microsoft Calling Plan](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan).
+- A user in Skype for Business on-premises with Enterprise Voice, who will be moving to online and using a Microsoft Calling plan. Migrating this user to Teams requires moving the user's on-premises Skype for Business account to the cloud, and coordinating that move with either A) the port of that user's phone number to a Microsoft Calling Plan or B) assigning a new subscriber number from available regions.  For more information, see [From Skype for Business Server on-premises, with Enterprise Voice, to Microsoft Calling Plan](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan).
 
-- A user in Skype for Business on-premises with Enterprise Voice, who will be moving to online and keeping on-premises PSTN connectivity. Migrating this user to Teams requires moving the user’s on-premises Skype for Business account to the cloud, and coordinating that move with migration of the user to Direct Routing. For more information, see [From Skype for Business Server on-premises, with Enterprise Voice, to Direct Routing](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing).
+- A user in Skype for Business on-premises with Enterprise Voice, who will be moving to online and keeping on-premises PSTN connectivity. Migrating this user to Teams requires moving the user's on-premises Skype for Business account to the cloud, and coordinating that move with migration of the user to Direct Routing. For more information, see [From Skype for Business Server on-premises, with Enterprise Voice, to Direct Routing](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing).
 
 
 ## Important considerations for organizations with Skype for Business Server on-premises
@@ -93,7 +93,7 @@ When considering Public Switched Telephone Network (PSTN) connectivity options, 
 
 - If you have any users with Skype for Business accounts on-premises or if you still have a lyncdiscover DNS record for an on-premises deployment, you can't assign TeamsOnly mode at the tenant level. You must first move all users with on-premises Skype for Business accounts to the cloud using `Move-CsUser`. Then follow the steps described in [Disable hybrid to complete migration to the cloud](/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid), which includes removal of DNS entries. `Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams` won't work at the tenant level if a lyncdiscover DNS record is detected that points to a location other than Office 365.
 
-- You must ensure your users are properly synchronized into Azure AD with the correct Skype for Business attributes. These attributes are all prefixes with “msRTCSIP-”. If users are not synchronized properly to Azure AD, the management tools in Teams won't be able to manage these users. (For example, you won’t be able to assign Teams policies to on-premises users unless you're properly syncing these attributes.) For more information, see [Configure Azure AD Connect for Teams and Skype for Business](/SkypeForBusiness/hybrid/configure-azure-ad-connect).
+- You must ensure your users are properly synchronized into Azure AD with the correct Skype for Business attributes. These attributes are all prefixes with "msRTCSIP-". If users are not synchronized properly to Azure AD, the management tools in Teams won't be able to manage these users. (For example, you won't be able to assign Teams policies to on-premises users unless you're properly syncing these attributes.) For more information, see [Configure Azure AD Connect for Teams and Skype for Business](/SkypeForBusiness/hybrid/configure-azure-ad-connect).
 
 - To create a new TeamsOnly in a hybrid organization, *you must first enable the user in Skype for Business Server on-premises*, and then move the user from on-premises to the cloud using Move-CsUser.  Creating the user in on-premises first ensures that any other remaining on-premises Skype for Business users will be able route to the newly created user. Once *all* users have been moved online, it is no longer necessary to first enable users in on-premises.
 
