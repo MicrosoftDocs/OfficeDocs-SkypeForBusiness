@@ -21,7 +21,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 # Deploy teams at scale in Microsoft Teams
 
 > [!NOTE]
-> This feature is in private preview.
+> This feature is currently in private preview. If you'd like to participate in the private preview, reach out to us at [dscale@microsoft.com](mailto:dscale@microsoft.com).
 
 ## Overview
  
@@ -88,7 +88,7 @@ You use the ```New-CsBatchTeamsDeployment``` cmdlet to submit a batch of teams t
 
 We value your feedback. Usability, reliability, performance&mdash;we welcome it all!
 
-Email [rahuldey@microsoft.com](mailto:rahuldey@microsoft.com) and include your orchestration ID and error file, if you have it.
+Email [dscale@microsoft.com](mailto:dscale@microsoft.com) and include your orchestration ID and error file, if you have it.
 
 ## Related articles
 
