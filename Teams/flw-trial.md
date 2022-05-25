@@ -21,7 +21,7 @@ appliesto:
 > [!NOTE]
 > This trial experience is coming soon. You can check when this is available to your organization by looking for a message in the [Message center](https://go.microsoft.com/fwlink/p/?linkid=2070717) in your Microsoft 365 Admin center.
 
-The Microsoft Teams Frontline Trial experience lets users in your organization who are in Azure Active Directory (Azure AD) and are in Teams initiate a Teams experience for their entire frontline team. You can disable this feature for users in your organization by using the [AllowSelfServicePurchase PowerShell module](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell).
+The Microsoft Teams Frontline Trial experience lets users in your organization who are in Teams initiate a Teams experience for their entire frontline team, as long as the other members are in Azure Active Directory (Azure AD). You can disable this feature for users in your organization by using the [AllowSelfServicePurchase PowerShell module](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell).
 
 ## What services are included
 
