@@ -59,7 +59,7 @@ Choose **View details** to see report details. To purchase more licenses, choose
 
 |Callout |Description  |
 |--------|-------------|
-|**1**   |Each report has a date for when the report was generated.|
+|**1**   |Each report shows the date for when the report was generated and the date range you chose.|
 |**2**   |The table gives you detailed information about each appointment that took place during the selected date range. Keep in mind that you won't see entries for appointments in which either a staff member or patient didn't join. <ul><li>**Start time (UTC)** is the date and time when both a staff member and participant are in the appointment.  </li> <li>**Duration** is the time difference between the start time and when the last person leaves the appointment.</li> <li>**Primary** is the name of the meeting organizer. <li>**Primary's email** is the email address of the meeting organizer.</li> <li> **Department** is the department information for the appointment. If the information isn't displayed correctly, contact your EHR support team. For integration with Epic, make sure ```&departmentId=%PERFDEPID;;; ; ;;NONE;%``` is part of the provider integration record. </li></li> <li>**Attendants** is the total number of staff members and participants in the appointment.</li> <li>**Within limit** indicates whether the appointment is within the allocation limit. </li> </ul> |
 |**3**   |You can export the report to a CSV file for offline analysis. Select **Export to Excel** to download the report. |
 |**4**   |Select **Filter** to filter the report details view. |
