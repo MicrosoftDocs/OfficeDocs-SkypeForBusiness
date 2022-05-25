@@ -21,16 +21,13 @@ appliesto:
 > [!NOTE]
 > This trial experience is coming soon. You can check when this is available to your organization by looking for a message in the [Message center](https://go.microsoft.com/fwlink/p/?linkid=2070717) in your Microsoft 365 Admin center.
 
-The Microsoft Teams Frontline Trial experience lets users in your organization who have Azure Active Directory (Azure AD) and are in Teams initiate a Teams experience for their entire frontline team. You can disable this feature for users in your organization by using the [AllowSelfServicePurchase PowerShell module](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell).
+The Microsoft Teams Frontline Trial experience lets users in your organization who are in Azure Active Directory (Azure AD) and are in Teams initiate a Teams experience for their entire frontline team. You can disable this feature for users in your organization by using the [AllowSelfServicePurchase PowerShell module](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell).
 
 ## What services are included
 
 The trial includes everything in the [Microsoft 365 F3 license](https://www.microsoft.com/microsoft-365/enterprise/f3) with the following exceptions:
 
-- The Frontline Trial includes Exchange Foundation rather than Exchange Kiosk.
-
-> [!NOTE]
-> Users may be missing other Teams functionalities due to this change.
+- The Frontline Trial includes Exchange Foundation rather than Exchange Kiosk. Users may be missing other Teams functionalities due to this change.
 
 ## Eligibility
 
@@ -43,18 +40,18 @@ Users can start a frontline trial for their team if they:
 - Haven't previously started a frontline worker trial.
 
 > [!IMPORTANT]
-> If the user who initiated the trial leaves your organization before the trial ends, you as admin will need to monitor the trial,check in with the team to see who's making use of these features, and decide which users you'll need to upgrade to a paid license.
+> If the user who initiated the trial leaves your organization before the trial ends, you as admin will need to monitor the trial, check in with the team to see who's benefiting from these features, and decide which users you'll need to upgrade to a paid license.
 
 Users can participate in a frontline worker trial if they have a managed Azure Active Directory domain email address.
 
-Users are ineligible to participate if they've previously started a trial.
+Users can participate if they've previously started a trial, but can't initiate another trial.
 
 > [!NOTE]
 > Users without existing access to Teams can only be added to the trial team at the time of team creation. Existing Teams users can still be added to the trial after the team has been created.
 
 ## Set up the trial
 
-Eligible users can start a Frontline Trial by signing into the Tasks app in Teams from the desktop or [web app](https://teams.microsoft.com/_#/apps/com.microsoft.teamspace.tab.planner/sections/mytasks). At this time, starting a Frontline Trial through mobile is not supported. When a trial is initiated, the entire team will be assigned the Frontline Trial license automatically. The user who started the trial will receive email notifications throughout the course of the trial. [Learn users can start and manage a trial](link to end user docs).
+Eligible users can start a Frontline Trial by signing into the Tasks app in Teams from the desktop or [web app](https://teams.microsoft.com/_#/apps/com.microsoft.teamspace.tab.planner/sections/mytasks). At this time, starting a Frontline Trial through mobile is not supported. When a trial is initiated, the entire team will be assigned the Frontline Trial license automatically. Users with existing paid licenses that give them access to Teams will also be assigned trial licenses, but will maintain the functionality of their existing licenses throughout the trial, and will keep their existing paid licenses after the trial ends. The user who started the trial will receive email notifications throughout the course of the trial. [Learn how users can start and manage a trial](link to end user docs).
 
 ## Manage the frontline trials experience
 
@@ -74,10 +71,35 @@ You can remove the Frontline Trial license through PowerShell or your Microsoft 
 
 ## Upgrade users from Frontline Trial
 
-You'll need admin privileges to upgrade your users. [Learn more about upgrading from a trial license](/microsoftteams/upgrade-from-teams-exploratory).
+Users may reach out to you to ask for licenses when the trial is ending. You'll need admin privileges to upgrade your users.
 
-At the end of the 90-day trial, you'll need to check with your users to see who needs to continue with a paid license. Upgrade your users to a [Microsoft 365 F3 license](https://www.microsoft.com/microsoft-365/enterprise/f3) with full capabilities, or another license that suits your needs. Make sure to do this before the Frontline Trial subscription expires to avoid any disruption to the users' experiences.
-If the Frontline Trial license ends and a user isn't immediately upgraded to a subscription that includes Teams, they lose access to Teams. After 30 days, their data (files, messages, and more) is deleted. The user still exists in Azure Active Directory. If a new license is assigned to the user to enable Teams functionality within the 30-day period, all their content in Teams will still exist. [Learn how to upgrade your users](#upgrade-users-from-frontline-trial).
+### When to upgrade
+
+Near the end of the 90-day trial, you'll need to check with your users to see who needs to continue with a paid license. Make sure to do this before the Frontline Trial subscription expires to avoid any disruption to the users' experiences.
+
+> [!IMPORTANT]
+> If the Frontline Trial license ends and a user isn't immediately assigned a license that includes Teams, they lose access to Teams. After 30 days, their data (files, messages, and more) is deleted. The user still exists in Azure Active Directory. If a new license is assigned to the user to enable Teams functionality within the 30-day period, all their content in Teams will still exist.
+
+### Choose an upgrade path
+
+> [!TIP]
+> The Frontline Trial is based on the [Microsoft 365 F3 license](https://www.microsoft.com/microsoft-365/enterprise/f3).
+
+Depending on the subscriptions your organization currently has, there are three ways to upgrade from a Frontline Trial to a paid license:
+
+- **Upgrade an existing Microsoft 365 subscription.** Use this option if your organization has subscriptions to other Office products that don’t include Teams. For more information, see <a href="/microsoft-365/commerce/subscriptions/upgrade-to-different-plan?view=o365-worldwide" target="_blank">Upgrade to a different business plan</a>. To see active users for an existing subscription, go to **Users >** <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"><b>Active users</b></a> in the Microsoft 365 admin center.
+
+- **Add users to an existing Microsoft 365 subscription.** Use this option if your organization doesn’t have enough paid Teams licenses to cover your frontline team. For more information, see <a href="/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide" target="_blank">Buy or remove licenses</a>. To add users to an existing subscription that already has enough available licenses, see <a href="/microsoft-365/commerce/subscriptions/move-users-different-subscription?view=o365-worldwide" target="_blank">Move users to a different subscription</a>. To see active users for an existing subscription, go to **Users >** <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"><b>Active users</b></a> in the Microsoft 365 admin center.
+
+- **Buy a new Microsoft 365 subscription.** Use this option if your organization doesn’t have any existing subscriptions to Office products, or if your organization wants to buy a subscription that’s different from their existing subscription to cover frontline users. For more information, see <a href="/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide%22%20\#buy-a-different-subscription" target="_blank">Buy a different Microsoft 365 for business subscription</a>.
+
+If you’re not sure which Microsoft 365 subscription to upgrade to, see <a href="https://www.microsoft.com/microsoft-365/business#coreui-heading-hiatrep" target="_blank">Microsoft 365 for Business</a>. If you need additional help choosing a subscription, or if your organization needs more than 300 licenses, contact your <a href="https://www.microsoft.com/solution-providers/home" target="_blank">Microsoft partner</a> or Microsoft account representative.
+
+### Assign paid licenses
+
+To assign your newly acquired licenses, see <a href="/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide&viewFallbackFrom=o365-worldwide%22%20%5C" target="_blank">Assign licenses to users</a>.  
+
+After you assign the new licenses, unassign the Teams Exploratory licenses. See <a href="/microsoft-365/admin/manage/remove-licenses-from-users?view=o365-worldwide" target="_blank">Unassign licenses from users</a>, for more information.
 
 ## FAQ
 
