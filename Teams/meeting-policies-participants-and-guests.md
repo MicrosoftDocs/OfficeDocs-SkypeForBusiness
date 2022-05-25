@@ -101,9 +101,9 @@ This setting does not apply to channel meetings. Once this meeting chat policy i
 
 |Setting value |Behavior  |
 |---------|---------|
-|**Enabled**     | All participants can write and view chat messages. |
-|**Not enabled**     | Meeting chat is turned off for all participants.  |
-|**Turn it on for everyone but anonymous users**     | Meeting chat is turned off for only anonymous participants.  |
+|**Turn it on for everyone**     | All participants can write and view chat messages. |
+|**Turn it off for everyone**     | Meeting chat is turned off for all participants.  |
+|**Turn it on for everyone but anonymous users**     | Meeting chat write access is turned off for anonymous participants only.  |
 
 <a name="bkparticipantsandguests"> </a>
 
