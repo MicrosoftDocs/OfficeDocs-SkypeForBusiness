@@ -18,7 +18,7 @@ ms.custom:
 
 # Navigate Microsoft Teams
 
-Now that you have a clear understanding of your organization’s unique path and needs, it's time to get started on your journey to powerful collaboration with Microsoft Teams. Use the following section to learn how to navigate Kaizala’s capabilities complimented within Teams.
+Now that you have a clear understanding of your organization's unique path and needs, it's time to get started on your journey to powerful collaboration with Microsoft Teams. Use the following section to learn how to navigate Kaizala's capabilities complimented within Teams.
 
 | From Kaizala | To Teams |
 |---------|-----------------------|
@@ -28,7 +28,7 @@ Now that you have a clear understanding of your organization’s unique path and
 | Mimic consumer app messaging experience| [Mimic consumer app messaging experience](#mimic-the-consumer-app-messaging-experience) |
 | Out of Box Action cards |  [Getting work done in Teams](#getting-work-done-in-teams) |
 | Polls, surveys, checklists| [Running polls, surveys, checklists in Teams](#polls-surveys-and-checklists-in-teams) |
-| Meetings - Action Card| [Let’s Meet – Meetings in Teams](#getting-work-done-in-teams) |
+| Meetings - Action Card| [Let's Meet – Meetings in Teams](#getting-work-done-in-teams) |
 | Announcements - Action Card| [Announcements in Teams](#announcements-in-teams) |
 | Photo check-ins Action Card| [Photo check-ins in Teams](#photo-check-ins)
 | Quiz - Action Card| [Quiz in Teams](#quiz-in-teams)
@@ -62,7 +62,7 @@ Teams is made up of **channels**, which are the topic-specific conversations you
 
 |Conversations in Chat | Conversations in Team Channels |
 |---------|---------|
-|For lightweight conversations, where you’re directly messaging recipients.   | For interactions where multiple topics are discussed in an open space.  |
+|For lightweight conversations, where you're directly messaging recipients.   | For interactions where multiple topics are discussed in an open space.  |
 |Private chats are only visible to those in the chat     | Visible to everyone in the Team        |
 |One continuous, unthreaded conversation     | Structured, multiple threaded conversations        |
 |Up to 250 people     | Up to 25,000 people        |
@@ -85,7 +85,7 @@ There are two ways to move your Kaizala flat groups to Teams:
 
 - Option 2: Switch from a Kaizala flat group to a Teams team
 
-**Option 1: Switch from a Kaizala flat group to a group chat in Teams**
+**Option 1: Switch from a Kaizala flat group to a group chat in Teams**:
 
 You can create a Teams group chat to hold quick huddles and transient conversations with up to 250 participants. Group chats allow people in your organization to have a central place for open conversation where anyone can be added to chat.
 
@@ -98,24 +98,24 @@ You can create a Teams group chat to hold quick huddles and transient conversati
 2. Add people to the conversation.
 
     ![Add people to the conversation](media/kaizala-to-teams-image5.png)
-    
+
    When adding someone to a group chat (not a one-on-one), you can include the **chat history** and **duration of history** you want to share with them.
 
 3. Manage group chat.
   
     ![Manage group chat](media/manage-groupchats.png)
-    
+
    To see who's in a group chat, hover over the number of participants in the chat header to show a list of everyone's names.
 
-**Option 2: Switch from a Kaizala flat group to a Teams team**
-   
+**Option 2: Switch from a Kaizala flat group to a Teams team**:
+
 For targeted large group communication, you can create a Team for a flat group. You can add up to 25,000 members to engage in structured communication with threaded conversations. This type of communication allows for moderation and administration roles to ensure that things are running smoothly.
 
 1. Create a team:
    To get up and running in Teams, you should create a team, add people, and add channels. To learn more, see [your first teams](get-started-with-teams-create-your-first-teams-and-channels.md).
 2. Review the guide for team owners:
 
-As a [team owner](https://support.microsoft.com/office/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547?ui=en-us&rs=en-us&ad=us), you can add new members and guests, change members into owners, manage channels and settings, and archive a team that's no longer in use.
+   As a [team owner](https://support.microsoft.com/office/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547?ui=en-us&rs=en-us&ad=us), you can add new members and guests, change members into owners, manage channels and settings, and archive a team that's no longer in use.
 
 3. Add bulk members to a team:
 
@@ -127,7 +127,7 @@ As a [team owner](https://support.microsoft.com/office/go-to-guide-for-team-owne
 
 ### Mimic the consumer app messaging experience
 
-If you prefer a simplified experience for your users,  you can choose to configure your organization’s  Teams experience to mimic the consumer tools your users are already using.
+If you prefer a simplified experience for your users,  you can choose to configure your organization's  Teams experience to mimic the consumer tools your users are already using.
 
 We recommend starting the Teams journey for your Kaizala users with **Show favorite channels in Chat** enabled for simplified communications and Shifts (optional).
 
@@ -204,17 +204,17 @@ The Teams platform allows you to use existing organization tools through integra
 
 ### Polls, surveys, and checklists in Teams
 
-[Polls](https://github.com/OfficeDev/microsoft-teams-apps-poll/wiki), [surveys](https://github.com/OfficeDev/microsoft-teams-apps-survey), and [checklist](https://github.com/OfficeDev/microsoft-teams-app-checklist) action cards are now available as ready-to-install [Teams message extension](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions) app templates on GitHub​.
+[Polls](https://github.com/OfficeDev/microsoft-teams-apps-poll/wiki), [surveys](https://github.com/OfficeDev/microsoft-teams-apps-survey), and [checklist](https://github.com/OfficeDev/microsoft-teams-app-checklist) action cards are now available as ready-to-install [Teams message extension](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions) app templates on GitHub.
 
-**Poll** enables users to quickly create and send polls in a chat or a channel to know their team’s opinion. Poll app is supported across all platforms – Teams desktop, browser, iOS, and Android clients. It’s ready for deployment as part of your existing Microsoft 365 subscription
+**Poll** enables users to quickly create and send polls in a chat or a channel to know their team's opinion. Poll app is supported across all platforms – Teams desktop, browser, iOS, and Android clients. It's ready for deployment as part of your existing Microsoft 365 subscription
 
 ![Polls app template in Teams](media/polltemplatecompose.gif)
 
-**Survey** enables users to create a survey in a chat or a channel to ask a series of questions and get actionable insights. Use Survey for – Registrations, Enrollments, Feedback, Testimonials, Lead Capture, Reporting, Complaints, and Evaluations. Survey app is supported across all platforms – Teams desktop, browser, iOS, and Android clients. It’s ready for deployment as part of your existing Microsoft 365 subscription.
+**Survey** enables users to create a survey in a chat or a channel to ask a series of questions and get actionable insights. Use Survey for – Registrations, Enrollments, Feedback, Testimonials, Lead Capture, Reporting, Complaints, and Evaluations. Survey app is supported across all platforms – Teams desktop, browser, iOS, and Android clients. It's ready for deployment as part of your existing Microsoft 365 subscription.
 
 ![Survey app template in Teams](media/surveytemplatecompose.gif)
 
-**Checklist** enables you to collaborate with your team by creating a shared checklist in a chat or channel. Checklist app is supported across all platforms – Teams desktop, browser, iOS, and Android clients. It’s ready for deployment as part of your existing Microsoft 365 subscription.
+**Checklist** enables you to collaborate with your team by creating a shared checklist in a chat or channel. Checklist app is supported across all platforms – Teams desktop, browser, iOS, and Android clients. It's ready for deployment as part of your existing Microsoft 365 subscription.
 
 ![Checklist app template in Teams](media/checklisttemplatecompose.gif)
 
@@ -224,9 +224,9 @@ You can also send quick polls, surveys, and checklists to your team instantly wi
 
 Third-party apps like Polly and SurveyMonkey allow you to further conduct polls and surveys with your Teams.
 
-- **Polly**  allows you to gain real-time poll insights to make better business decisions and measure team engagement across polls through comprehensive dashboard views.​
+- **Polly**  allows you to gain real-time poll insights to make better business decisions and measure team engagement across polls through comprehensive dashboard views.
 
-- **SurveyMonkey** brings surveys to where you’re already doing business in Microsoft Teams, making it easy to add surveys to your everyday workflow. Write and send a quick one-question poll from inside Microsoft Teams, then watch as results come in from your teammates.
+- **SurveyMonkey** brings surveys to where you're already doing business in Microsoft Teams, making it easy to add surveys to your everyday workflow. Write and send a quick one-question poll from inside Microsoft Teams, then watch as results come in from your teammates.
 
 ### Jobs in Teams
 
@@ -298,7 +298,7 @@ Administrators can manage the entire Teams workload, or they can have delegated 
 
 To navigate the admin center, visit [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/).
 
-You can monitor your organization’s security and compliance across Microsoft 365 with the [Microsoft Purview compliance portal](/microsoft-365/compliance/microsoft-365-compliance-center) and [Microsoft Security Center](/microsoft-365/security/defender/overview-security-center).
+You can monitor your organization's security and compliance across Microsoft 365 with the [Microsoft Purview compliance portal](/microsoft-365/compliance/microsoft-365-compliance-center) and [Microsoft Security Center](/microsoft-365/security/defender/overview-security-center).
 
 Protect your business and empower your users in the [Azure Active Directory admin center](https://aad.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/c7736064-7b28-4f3d-b366-2740a8d48020) where you can review groups, identity, licenses, and access across Microsoft 365.
 
@@ -314,15 +314,15 @@ Use the following table to navigate the corresponding capabilities in Microsoft 
 | Adding Users in Bulk | For adding users in bulk to team – consider creating a team through O365 groups, O365 DLs, or Security group |
 | Directory | Search for anyone in your organization through the **Search Bar** in teams. The Search results will also return files, messages, and posts |
 | Analytics (Action Cards) | **Polls**, **Surveys**, and **Checklists** have built in reports with downloadable data. Jobs can also be assigned with the help of Tasks app in Teams, available for users. For more scenarios, third-party apps like **Trello**, **Asana** can also be explored to be used within Teams. |
-| Extensions – Connectors | Use the **Connectors** option from the menu (…) for any channel for which the connector is required. |
-| [Analytics (Usage) Adoption report](teams-analytics-and-reports/view-analytics.md), [Usage report](teams-analytics-and-reports/teams-usage-report.md), [Activity Report](teams-analytics-and-reports/user-activity-report.md) | Team owners can access reports for their teams by navigating from the menu (…) to **manage team** > **analytics**. |
+| Extensions – Connectors | Use the **Connectors** option from the menu (...) for any channel for which the connector is required. |
+| [Analytics (Usage) Adoption report](teams-analytics-and-reports/view-analytics.md), [Usage report](teams-analytics-and-reports/teams-usage-report.md), [Activity Report](teams-analytics-and-reports/user-activity-report.md) | Team owners can access reports for their teams by navigating from the menu (...) to **manage team** > **analytics**. |
 
 > [!NOTE]
 > Teams end Users can use Teams on desktop or mobile to manage their individual teams and channels and will not need to access the Teams Admin center.
 
 ## Kaizala Group Dissolution
 
-As you transition to Teams channels and chats, you may consider Kaizala group dissolution to ensure your organization has one central place for communication. Deleting a Kaizala group removes the group from the Chats list. If you’re the only admin in the group, you’ll need to assign the admin role to at least one person in the group before deleting.
+As you transition to Teams channels and chats, you may consider Kaizala group dissolution to ensure your organization has one central place for communication. Deleting a Kaizala group removes the group from the Chats list. If you're the only admin in the group, you'll need to assign the admin role to at least one person in the group before deleting.
 
 ### To move a Kaizala group to Teams
 
@@ -399,7 +399,7 @@ As a Kaizala tenant admin/global admin, you can export Kaizala tenant data from 
 
 ## Deleting a Kaizala Group
 
-Deleting a Kaizala group removes the group from the Chats list. If you’re the only admin in the group, you’ll need to assign the admin role to at least one person in the group before deleting.
+Deleting a Kaizala group removes the group from the Chats list. If you're the only admin in the group, you'll need to assign the admin role to at least one person in the group before deleting.
 
 To delete a group:
 
@@ -417,13 +417,13 @@ Microsoft Teams offers secure solutions to collaborate with external parties, an
 
 As announced earlier at [Ignite](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-ignite-fall-2021-innovations-coming-to-microsoft-teams/ba-p/2824127), you can invite any Teams user to chat by entering the full email address or phone number you want to reach, and start a one-to-one or group chat with anyone with a Microsoft personal account, with no tenant switching required.
 
-Chatting with external users without needing to switch tenants enables you to get the results that you need faster. Let’s take a closer look into how it works.
+Chatting with external users without needing to switch tenants enables you to get the results that you need faster. Let's take a closer look into how it works.
 
 Depending on the administrative settings of your organization and of the Teams personal account user, you can start conversations with external Teams personal account users, and external Teams personal account users can start conversations with Teams at work users.
 
 Teams users managed by an organization can invite Teams personal account users they want to chat with by entering their full email address or phone number. Teams personal users can enter the exact organizational email address of the user they want to reach and attempt to start a chat.
 
-If the persons you want to chat with are not Teams users already, they will receive an email or a text message inviting them to join the conversation using a personal account. When they register and sign-in to their Teams personal account, they’ll be able to join the chat.
+If the persons you want to chat with are not Teams users already, they will receive an email or a text message inviting them to join the conversation using a personal account. When they register and sign-in to their Teams personal account, they'll be able to join the chat.
 
 Once the persons you invited have accepted the invitation, you can start a new one-to-one or group chat or even add them to an existing external group chat. This chat thread will appear alongside your other chats, with no tenant switching required to view the chat.
 
@@ -431,7 +431,7 @@ As a part of your chat, you can express yourself by sending and receiving rich m
 
 You can choose to remain only in the conversations you want to be in. You can block messages from external users or leave a group chat.
 
-Teams users managed by an organization and Teams personal account users have the option to decline an external invitation. One can message an external user up to 10 times before they accept, but if there is no acceptance after 10 messages, you won’t be able to send additional messages to this user.
+Teams users managed by an organization and Teams personal account users have the option to decline an external invitation. One can message an external user up to 10 times before they accept, but if there is no acceptance after 10 messages, you won't be able to send additional messages to this user.
 
 View the [support page](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57) and read the [blog](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832) to learn more about how Teams enables you to seamlessly collaborate with external customers and partners within the safety and security of your trusted Teams workspace.
 

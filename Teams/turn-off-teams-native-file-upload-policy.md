@@ -26,13 +26,13 @@ If your organization chooses a third-party for content storage, you need to turn
 This article will help you create, set, assign, and remove the ``NativeFileEntryPoints`` parameter using PowerShell.
 
 >[!NOTE]
->When the Teams Files policy is turned off, users won’t see access points for OneDrive and SharePoint (ODSP) in Teams, but the creation of new teams and channels will continue to trigger the generation of matching SharePoint libraries.
+>When the Teams Files policy is turned off, users won't see access points for OneDrive and SharePoint (ODSP) in Teams, but the creation of new teams and channels will continue to trigger the generation of matching SharePoint libraries.
 
 ## Prepare to update the Teams Files policy
 
 ### Set up Microsoft PowerShell
 
-Currently, this policy can’t be changed in the Teams admin center. Your organization’s Microsoft 365 tenant admin will have to make the changes using the PowerShell cmdlets detailed later in this article.
+Currently, this policy can't be changed in the Teams admin center. Your organization's Microsoft 365 tenant admin will have to make the changes using the PowerShell cmdlets detailed later in this article.
 
 Learn how to install the PowerShell Teams module using PowerShell Gallery by reading [Install Microsoft Teams PowerShell Module](teams-powershell-install.md).
 
@@ -42,9 +42,9 @@ For more information on how to set up PowerShell for Teams management, see [Mana
 
 ### Allow third-party apps in Teams Admin Center
 
-This step is not required to change the Teams Files policy, but it’s required when you’re ready to integrate your third-party storage provider in your users’ Teams experience.
+This step is not required to change the Teams Files policy, but it's required when you're ready to integrate your third-party storage provider in your users' Teams experience.
 
-Your Microsoft 365 tenant admin will need to enable the “Allow third-party apps” policy in the Teams admin center.
+Your Microsoft 365 tenant admin will need to enable the "Allow third-party apps" policy in the Teams admin center.
 
 To learn how to allow third-party or custom apps, see Manage org-wide apps settings in [Manage your apps in the Microsoft Teams admin center](/microsoftteams/manage-apps#manage-org-wide-app-settings).
 
@@ -62,7 +62,7 @@ Set-CsTeamsFilesPolicy -Identity Global -NativeFileEntryPoints Disabled
 
 ### Check the status of your tenant  
 
-To view the current status of your tenant’s Teams Files policy, use the ``Get-CsTeamsFilesPolicy`` cmdlet.
+To view the current status of your tenant's Teams Files policy, use the ``Get-CsTeamsFilesPolicy`` cmdlet.
 
 ```powershell
 Get-CsTeamsFilesPolicy -Identity Global
@@ -99,15 +99,15 @@ This sample PowerShell command will create a new ``CsTeamsFilesPolicy`` with the
 When a user is assigned the ``CsTeamsFilesPolicy`` with ``-Identity UserPolicy``, their native file entry points will be turned off.
 
 ```powershell
-New-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Disabled
+New-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Disabled
 ```
 
 ### Assign a policy to user
 
-Once you’ve created the new policy, you can assign that policy to users using the ``Grant-CsTeamsFilesPolicy`` cmdlet.
+Once you've created the new policy, you can assign that policy to users using the ``Grant-CsTeamsFilesPolicy`` cmdlet.
 
 ```powershell
-Grant-CsTeamsFilesPolicy  -identity "user email id" -PolicyName UserPolicy
+Grant-CsTeamsFilesPolicy  -identity "user email id" -PolicyName UserPolicy
 ```
 
 ### Update the policy
@@ -115,7 +115,7 @@ Grant-CsTeamsFilesPolicy  -identity "user email id" -PolicyName UserPolicy
 If you need to change the setting of the new Teams Files Policy ``UserPolicy``, use the ``Set-CsTeamsFilePolicy`` cmdlet.
 
 ```powershell
-Set-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Enabled
+Set-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Enabled
 ```
 
 ### Remove the policy for the complete list of users
@@ -126,4 +126,4 @@ To remove the policy from all users assigned to the Teams Files policy ``UserPol
 Remove-CsTeamsFilesPolicy -Identity UserPolicy
 ```
 >[!NOTE]
-> Once you’ve made changes to the policy, allow up to 12 hours for the changes to show in users’ Teams clients.
+> Once you've made changes to the policy, allow up to 12 hours for the changes to show in users' Teams clients.

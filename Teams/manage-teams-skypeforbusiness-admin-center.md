@@ -28,7 +28,7 @@ appliesto:
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-## What is the new Microsoft Teams admin center  
+## What is the new Microsoft Teams admin center  
 
 The new admin center experience will provide you with a unified experience to manage both Teams and Skype for Business. We're delivering additional functionality, end-to-end insights, and the ability to manage Teams settings on a user level.
 
@@ -109,4 +109,4 @@ The following table shows where you can manage features during the migration.
 
 ## Manage settings after the migration
 
-When the migration of these settings is complete, we'll disable them in the Microsoft 365 admin center and the Skype for Business admin center, and they can then be managed in the new Microsoft Teams admin center.
+When the migration of these settings is complete, we'll disable them in the Microsoft 365 admin center and the Skype for Business admin center, and they can then be managed in the new Microsoft Teams admin center.
