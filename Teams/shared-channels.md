@@ -161,28 +161,66 @@ The following limitations also apply:
 
 The following apps are supported for use in shared channels.
 
-|A-L|M-S|S-Z|
-|:-------|:----------|:---------|
-|Activity|MeisterTask|Smartsheet|
-|Adobe Acrobat Sign|MindMeister|SurveyMonkey|
-|Asana|Mindomo|Tasks in a Box|
-|Bookings|Miro|Teams|
-|Calendar Pro|Monday.com|Teams Manager|
-|Calling|MURAL|TeamViewer|
-|Chat|Nearpod|Teamwork|
-|Code by Vivani|OneNote|Testportal|
-|Conceptboard|PDF|TrackingTime|
-|Excel|Pear Deck|Trello|
-|FileBrowser|PowerPoint|Vevox|
-|Files|Priority Matrix|Visio|
-|Flipgrid|Quicklinks|VSTS|
-|Freehand by InVision|Quizlet|Wakelet|
-|HeyTaco|Saved|Web|
-|Jira Cloud|Scrum-Poker|Wooclap|
-|Kahoot!|Search|Word|
-|Lists|SharePoint|YouTube|
-|Lucidchart|SharePoint Pages|Zendesk|
-|Lumio|Slido|Zoho Projects|
+- Activity
+- Adobe Acrobat Sign
+- Asana
+- Calendar
+- Calendar Pro
+- Calling
+- Chat
+- Code by Vivani
+- Conceptboard
+- Excel
+- FileBrowser
+- Files
+- Flipgrid
+- Freehand by InVision
+- HeyTaco
+- Jira Cloud
+- Kahoot!
+- Lists
+- Lucidchart
+- Lumio
+- MeisterTask
+- MindMeister
+- Mindomo
+- Miro
+- Monday.com
+- MURAL
+- Nearpod
+- OneNote
+- PDF
+- Pear Deck
+- PowerPoint
+- Priority Matrix
+- Quicklinks
+- Quizlet
+- Saved
+- Scrum-Poker
+- Search
+- SharePoint
+- SharePoint Pages
+- Slido
+- Smartsheet
+- SurveyMonkey
+- Tasks in a Box
+- Teams
+- Teams Manager
+- TeamViewer
+- Teamwork
+- Testportal
+- TrackingTime
+- Trello
+- Vevox
+- Visio
+- VSTS
+- Wakelet
+- Web
+- Wooclap
+- Word
+- YouTube
+- Zendesk
+- Zoho Projects
 
 ## Related topics
 
