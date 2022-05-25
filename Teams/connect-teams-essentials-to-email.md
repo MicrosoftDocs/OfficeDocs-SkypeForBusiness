@@ -64,7 +64,7 @@ All email generated in Microsoft 365 is forwarded to Google Workspace so that us
 
 :::image type="content" source="media/essentials-googleworkspace.png" alt-text="Image depicting a diagram of the mail flow between EXO and Gmail":::
 
-These examples rely on the [Connect-ExchangeOnline](/powershell/module/exchange/connect-exchangeonline) PowerShell commandlet that is part of the [Exchange Online PowerShell V2 module](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps). If you get an error when running Connect-ExchangeOnline, ensure that you've followed the recommended instructions for installing the module using [Install the EXO V2 module](/powershell/exchange/exchange-online-powershell-v2). When Connect-ExchangeOnline prompts for credentials, be sure to use a tenant administrator account.
+These examples rely on the [Connect-ExchangeOnline](/powershell/module/exchange/connect-exchangeonline) PowerShell commandlet that is part of the [Exchange Online PowerShell V2 module](/powershell/exchange/exchange-online-powershell-v2?preserve-view=true&view=exchange-ps). If you get an error when running Connect-ExchangeOnline, ensure that you've followed the recommended instructions for installing the module using [Install the EXO V2 module](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-EXO-v2-module). When Connect-ExchangeOnline prompts for credentials, be sure to use a tenant administrator account.
 
 #### Step One: Set up a new Microsoft 365 tenant domain
 
