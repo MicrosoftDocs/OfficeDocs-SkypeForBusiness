@@ -19,14 +19,14 @@ appliesto:
 
 # Turn off Teams Native File Upload policy
 
-Microsoft Teams uses OneDrive and SharePoint (ODSP) to store and share content, but some organizations and users might prefer to use third-party storage providers.  
+Microsoft Teams uses OneDrive and SharePoint to store and share content, but some organizations and users might prefer to use third-party storage providers.  
 
-If your organization chooses a third-party for content storage, you need to turn off the ``NativeFileEntryPoints`` parameter in the Teams Files policy. This parameter is enabled by default, which shows the option to upload content from ODSP to Teams chats or channels.
+If your organization chooses a third-party for content storage, you need to turn off the ``NativeFileEntryPoints`` parameter in the Teams Files policy. This parameter is enabled by default, which shows the option to upload content from OneDrive or SharePoint to Teams chats or channels.
 
 This article will help you create, set, assign, and remove the ``NativeFileEntryPoints`` parameter using PowerShell.
 
 >[!NOTE]
->When the Teams Files policy is turned off, users won't see access points for OneDrive and SharePoint (ODSP) in Teams, but the creation of new teams and channels will continue to trigger the generation of matching SharePoint libraries.
+>When the Teams Files policy is turned off, users won't see access points for OneDrive and SharePoint in Teams, but the creation of new teams and channels will continue to trigger the generation of matching SharePoint libraries.
 
 ## Prepare to update the Teams Files policy
 
