@@ -21,13 +21,13 @@ This article provides requirements and best practices for Conditional Access and
 ## Requirements
 
 Teams Rooms must already be deployed on the devices you want to assign
-Conditional Access policies to. If you haven’t deployed Teams Rooms yet,
+Conditional Access policies to. If you haven't deployed Teams Rooms yet,
 see [Create resource accounts for rooms and shared Teams devices](with-office-365.md)
 and [Deploy Microsoft Teams Rooms on Android](../devices/collab-bar-deploy.md)
 for more information.
 
 An Azure Active Directory P1 Service Plan is required to use Conditional
-Access. It’s included in the Microsoft Teams Rooms license.
+Access. It's included in the Microsoft Teams Rooms license.
 
 ## Teams Rooms Conditional Access best practices
 
@@ -41,8 +41,8 @@ following best practices:
     group.
 
 -   Have a naming standard for all Teams Rooms resource accounts. For
-    example, the account names ‘mtr-room1@contoso.com’ and
-    ‘mtr-room2@contoso.com’ both start with the prefix ‘mtr-‘.
+    example, the account names 'mtr-room1@contoso.com' and
+    'mtr-room2@contoso.com' both start with the prefix 'mtr-'.
     When account names are standardized, you can use dynamic groups in Azure AD
     to automatically apply Conditional Access policies to all of these
     accounts at once. See [Rules for dynamically populated groups membership](/azure/active-directory/enterprise-users/groups-dynamic-membership) for more information on dynamic groups.
@@ -54,7 +54,7 @@ For a list of supported Conditional Access assignments for Teams Rooms, see [Sup
 In the example below, the Conditional Access policy works as follows:
 
 1.  The account signing in must be a member of a specific user group, in
-    this example, the “Shared devices” group.
+    this example, the "Shared devices" group.
 
 2.  The account signing in must only be trying to access Exchange
     Online, Microsoft Teams, or SharePoint Online. Attempts to sign into
@@ -85,7 +85,7 @@ For more information on setting up Intune with Teams Android devices, see [Confi
 
 In this example for Teams Rooms on Windows
 
-1. Require that a firewall is running on Teams Rooms on Windows.
+1. Require that a firewall is running on Teams Rooms on Windows.
 
 2. Require that Microsoft Defender is running on Teams Rooms.
 

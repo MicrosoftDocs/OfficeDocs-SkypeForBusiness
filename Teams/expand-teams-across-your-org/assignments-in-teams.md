@@ -65,7 +65,7 @@ Default setting for this feature is - **Off**.
 
 Microsoft MakeCode is a block-based coding platform that brings computer science to life for all students.
 
-MakeCode is a Microsoft product that is subject to the Microsoft [terms of use](https://go.microsoft.com/fwlink/?LinkID=206977) and [privacy](https://go.microsoft.com/fwlink/?LinkId=521839) policies.
+MakeCode is a Microsoft product that is subject to the Microsoft [terms of use](https://go.microsoft.com/fwlink/?LinkID=206977) and [privacy](https://go.microsoft.com/fwlink/?LinkId=521839) policies.
 
 Default setting for this feature is - **Off**.
 
@@ -119,7 +119,7 @@ Students' files associated with a Submission for Assignment are stored in a docu
 
 #### Files associated with the student
 
-IT admins can use the Content Search tool to search for student files (*Student Work*, *Class Files*, or other 1st-party integration files) that are related to assignment submissions and files that are related to assignments. For example, an admin could search all SharePoint sites in the organization and use the student’s name and class or assignment name in the search query to find data relevant to a data subject request (DSR).
+IT admins can use the Content Search tool to search for student files (*Student Work*, *Class Files*, or other 1st-party integration files) that are related to assignment submissions and files that are related to assignments. For example, an admin could search all SharePoint sites in the organization and use the student's name and class or assignment name in the search query to find data relevant to a data subject request (DSR).
 
 #### Files associated with the teacher
 
@@ -127,7 +127,7 @@ IT admins can use the Content Search tool to search for teacher files (*Student 
 
 ### Assignments data outside of SharePoint document libraries
 
-Some data related to Assignments isn’t stored in the class team SharePoint site, which means it’s not discoverable with Content Search. This includes:
+Some data related to Assignments isn't stored in the class team SharePoint site, which means it's not discoverable with Content Search. This includes:
 
 - Student grades and feedback from the teacher
 - The list of documents submitted for an assignment by each student
@@ -143,7 +143,7 @@ For this type of data, an IT admin or data owner, such as a teacher, may have to
 
 #### For a student
 
-To bulk export a single student's data, before removing the student from the classes they're part of, [run the script](/microsoft-365/education/deploy/configure-assignments-for-teams) and provide the ``userId``. If the student has been removed from the site, either the admin can add the student back to the class before running the script, or the admin can provide the ``userId`` and the ``classId`` that the student was ever a part of.
+To bulk export a single student's data, before removing the student from the classes they're part of, [run the script](/microsoft-365/education/deploy/configure-assignments-for-teams) and provide the ``userId``. If the student has been removed from the site, either the admin can add the student back to the class before running the script, or the admin can provide the ``userId`` and the ``classId`` that the student was ever a part of.
 
 The data about the student submissions will be exported.
 
@@ -163,7 +163,7 @@ Providing a ``ClassId`` will allow the admin to only delete information about th
 
 Since an assignment's data for a teacher is shared across the class, there's no bulk delete option. Instead the admin can add themselves to the class, go to the app, and delete the assignment.
 
-For more information, see [Configure assignments for Teams](/microsoft-365/education/deploy/configure-assignments-for-teams).
+For more information, see [Configure assignments for Teams](/microsoft-365/education/deploy/configure-assignments-for-teams).
 
 ## Removing Assignments and Grades
 

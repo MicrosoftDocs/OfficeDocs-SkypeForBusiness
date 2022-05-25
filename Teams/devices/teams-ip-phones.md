@@ -167,10 +167,10 @@ When you install a new firmware version on your device, you can determine the co
 | Yealink VP59   | `91.15.0.87`  | 2022 Update #1B     |
 | Yealink CP960  | `73.15.0.150`  | 2022 Update #1B      |
 | Yealink MP52 | `145.15.0.25`  | 2022 Update #1B         |
-| Poly Trio C60  | `7.1.4.0250 ` | 2021 Update #3C  |
-| Poly CCX600    | `7.1.4.0253  `| 2021 Update #3C  |
-| Poly CCX500    | `7.1.4.0253  `| 2021 Update #3C  |
-| Poly CCX400    | `7.1.4.0253  `| 2021 Update #3C  |
+| Poly Trio C60  | `7.1.4.0250 ` | 2021 Update #3C  |
+| Poly CCX600    | `7.1.4.0253  `| 2021 Update #3C  |
+| Poly CCX500    | `7.1.4.0253  `| 2021 Update #3C  |
+| Poly CCX400    | `7.1.4.0253  `| 2021 Update #3C  |
 | Poly Trio C60   | `7.1.4.0201`  | 2021 Update #3B                        |
 | Poly CCX400/CCX500/CCX600   | `7.1.4.0200`  | 2021 Update #3B                 |
 |Audiocodes C448HD  | `1.14.449` | 2021 Update #3  |
