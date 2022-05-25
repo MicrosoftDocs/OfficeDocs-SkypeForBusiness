@@ -47,7 +47,7 @@ The following are the technical implementation steps to configure the scenario.
 2. Activate the subdomain name.
 3. Configure the trunk from the carrier to the customer tenant and provision users.
 
-*Make sure you understand DNS basics and how the domain name is managed in Microsoft 365. See [Get help with Microsoft 365 domains](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider?view=o365-worldwide) before proceeding further.*
+*Make sure you understand DNS basics and how the domain name is managed in Microsoft 365. See [Get help with Microsoft 365 domains](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) before proceeding further.*
 
 ## Deploy and configure the SBC
 
@@ -78,7 +78,7 @@ Subdomains **MUST** match the FQDN name of the trunk that will be configured for
 
 When a call arrives at the Microsoft 365 Direct Routing interface, the interface uses the Contact header to find the tenant where the user should be looked up. Direct Routing doesn't use phone number lookup on the Invite, as some customers might have non-DID numbers that can overlap in several tenants. Therefore, the FQDN name in the Contact header is required to identify the exact tenant to look up the user by the phone number.
 
-*For more information about creating domain names in Microsoft 365 organizations, see [Get help with Microsoft 365 domains](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider?view=o365-worldwide).*
+*For more information about creating domain names in Microsoft 365 organizations, see [Get help with Microsoft 365 domains](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).*
 
 The following diagram summarizes the requirements to base domain, subdomains, and Contact header.
 
@@ -134,7 +134,7 @@ After you have registered a domain name, you need to activate it by adding at le
 > [!NOTE]
 > The Carrier tenant must keep at least one Phone System license assigned to the tenant to avoid removal of the Skype for Business configuration. 
 
-*For more information about adding users in Microsoft 365 organizations, see [Get help with Microsoft 365 domains](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider?view=o365-worldwide).*
+*For more information about adding users in Microsoft 365 organizations, see [Get help with Microsoft 365 domains](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).*
 
 For example: test@customers.adatum.biz
 
@@ -191,7 +191,7 @@ For more information about admin roles and how to assign a role in Microsoft 365
 
 After you register a domain name, you need to activate it by adding at least one user and assign a SIP address with the FQDN portion of the SIP address matching the created subdomain in the customer tenant. 
 
-*For more information about adding users in Microsoft 365 organizations, see [Get help with Microsoft 365](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider?view=o365-worldwide).*
+*For more information about adding users in Microsoft 365 organizations, see [Get help with Microsoft 365](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).*
 
 For example: test@sbc1.customers.adatum.biz
 
