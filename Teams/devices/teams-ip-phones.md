@@ -40,9 +40,11 @@ The following devices are Certified under the Microsoft Teams phones Certificati
 
 |Device model    | Firmware version    | Current certification end date | Android OS version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
+| AudioCodes C450HD                      | `1.17.443`                                                  | 	August 5, 2023              | 9 |
+| AudioCodes C448HD(Cap Mode Only)       |  `1.17.443`                                                   | August 5, 2023            | 9 |
 | Yealink CP965    | `143.15.0.7 `          | September 3, 2025     | 11 |
-| AudioCodes C450HD                      | `C450HD_TEAMS_0.225`                                                  | April 22, 2022               | 7.1x |
-| AudioCodes C448HD(Cap Mode Only)       | `C450HD_TEAMS_0.225`                                                  | April 22, 2022               | 7.1x |
+| AudioCodes C450HD                      | `C450HD_TEAMS_0.225`                                                  | April 22, 2022               | 7.1.x |
+| AudioCodes C448HD(Cap Mode Only)       | `C450HD_TEAMS_0.225`                                                  | April 22, 2022               | 7.1.x |
 | Crestron UC-P10/T/CT                   | `1.0.0.80`       | August 5, 2023            | 9 |
 | Crestron UC-P8/T /CT                   | `1.0.0.56`       | August 5, 2023            | 9 |
 | Audiocodes C470HD                      | `1.8.293   `                                               | August 5, 2023               | 9 |
@@ -165,10 +167,10 @@ When you install a new firmware version on your device, you can determine the co
 | Yealink VP59   | `91.15.0.87`  | 2022 Update #1B     |
 | Yealink CP960  | `73.15.0.150`  | 2022 Update #1B      |
 | Yealink MP52 | `145.15.0.25`  | 2022 Update #1B         |
-| Poly Trio C60  | `7.1.4.0250 ` | 2021 Update #3C  |
-| Poly CCX600    | `7.1.4.0253  `| 2021 Update #3C  |
-| Poly CCX500    | `7.1.4.0253  `| 2021 Update #3C  |
-| Poly CCX400    | `7.1.4.0253  `| 2021 Update #3C  |
+| Poly Trio C60  | `7.1.4.0250 ` | 2021 Update #3C  |
+| Poly CCX600    | `7.1.4.0253  `| 2021 Update #3C  |
+| Poly CCX500    | `7.1.4.0253  `| 2021 Update #3C  |
+| Poly CCX400    | `7.1.4.0253  `| 2021 Update #3C  |
 | Poly Trio C60   | `7.1.4.0201`  | 2021 Update #3B                        |
 | Poly CCX400/CCX500/CCX600   | `7.1.4.0200`  | 2021 Update #3B                 |
 |Audiocodes C448HD  | `1.14.449` | 2021 Update #3  |
