@@ -66,7 +66,7 @@ For a current list of countries/regions, see [Phone numbers for Audio Conferenci
   
 ## Can I set up local numbers for Audio Conferencing from additional cities in the country?
 
-If phone numbers for Audio Conferencing aren't available in your area or don't meet the needs of your organization, send us feedback at [SkypeFeedback forums](http://www.skypefeedback.com/forums/299910--preview/category/119971-pstn-conferencing).
+If phone numbers for Audio Conferencing aren't available in your area or don't meet the needs of your organization, send us feedback at [SkypeFeedback forums](/office/give-feedback-about-skype-for-business-76063711-ab48-4394-963f-f129b621e4b3).
   
 ## What is the maximum length of the Audio Conferencing meetings?
 

@@ -51,7 +51,7 @@ Microsoft also offers all-in-the-cloud voice solutions, such as Calling Plan. Ho
 
 Direct Routing also supports users who have the additional license for the Microsoft Calling Plan. For more information, see [Phone System and Calling Plans](calling-plan-landing-page.md). 
 
-With Direct Routing, when users participate in a scheduled conference, the dial-in number is provided by Microsoft Audio Conferencing service, which requires proper licensing.  When dialing out, the Microsoft Audio Conferencing service places the call using online calling capabilities, which requires proper licensing. (Note if a user does not have a Microsoft Audio Conferencing license, the call routes through Direct Routing.) For more information, see [Online Meetings with Teams](https://products.office.com/microsoft-teams/online-meeting-solutions). 
+With Direct Routing, when users participate in a scheduled conference, the dial-in number is provided by Microsoft Audio Conferencing service, which requires proper licensing.  When dialing out, the Microsoft Audio Conferencing service places the call using online calling capabilities, which requires proper licensing. (Note that if a user does not have a Microsoft Audio Conferencing license, the call routes through Direct Routing.) For more information, see [Online Meetings with Teams](https://www.microsoft.com/en-us/microsoft-teams/online-meetings). 
  
 Planning your deployment of Direct Routing is key to a successful implementation. This article describes infrastructure and licensing requirements and provides information about SBC connectivity: 
 
