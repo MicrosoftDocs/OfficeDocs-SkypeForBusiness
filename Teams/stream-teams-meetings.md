@@ -1,7 +1,7 @@
 ---
 title: Stream Teams meetings
-author: KarliStites
-ms.author: kastites
+author: mkbond007
+ms.author: mabond
 manager: serdars
 ms.reviewer: suchakr
 ms.topic: article
