@@ -132,7 +132,7 @@ For additional information, see:
 ### Execute the test plan
 
 [//]: # (Edit okay? "User" seemed a bit ambiguous to me.)
-After the user environment and the service have been configured, the last step of testing includes test plan execution with focus on feature and functionality validation. 
+After the user environment and the service have been configured, the last step of testing includes test plan execution with focus on feature and functionality validation. 
 
 **Audio Conferencing testing prerequisites and assumptions for users and sites in scope:**
 
