@@ -1,5 +1,5 @@
 ---
-title: Deploy teams at scale in Microsoft Teams
+title: Deploy teams at scale for frontline workers in Microsoft Teams
 author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: rahuldey
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Learn how to deploy teams at scale using PowerShell. 
+description: Learn how to deploy teams at scale for the frontline workers in your organization. 
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
@@ -18,14 +18,14 @@ appliesto:
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Deploy teams at scale in Microsoft Teams
+# Deploy teams at scale for frontline workers in Microsoft Teams
 
 > [!NOTE]
 > This feature is currently in private preview. If you'd like to participate in the private preview, reach out to us at [dscale@microsoft.com](mailto:dscale@microsoft.com).
 
 ## Overview
  
-You may have a lot of teams that you use to drive communication and collaboration among your team members who are spread across different stores, locations, and roles. Currently, there isn't an easy solution to deploy, set up, and manage these teams and users at scale.
+You may have a lot of teams that you use to drive communication and collaboration among your frontline workforce who are spread across different stores, locations, and roles. Currently, there isn't an easy solution to deploy, set up, and manage these teams and users at scale.
 
 We're building a solution to allow admins to deploy and manage teams at scale.
 
