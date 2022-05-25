@@ -47,17 +47,17 @@ To contact the service desk:
 
 From the Phone Number Service Center, you can create new cases, view existing cases, communicate with the service desk, and manage your user profile. These tasks are described in more detail in the following sections.
 
-- **Phone Number Service Center** – Navigate to Portal home page. 
+- **Phone Number Service Center** – Navigate to Portal home page. 
 
-- **[Create a new case](#create-a-new-case)** – Submit a new request or general enquiry. 
+- **[Create a new case](#create-a-new-case)** – Submit a new request or general enquiry. 
 
-- **[View my existing cases](#view-and-manage-existing-cases)** – Track and monitor your existing case(s). 
+- **[View my existing cases](#view-and-manage-existing-cases)** – Track and monitor your existing case(s). 
 
-- **[View my company cases](#view-and-manage-existing-cases)** – Track and monitor your company’s existing case(s). If your colleagues from your company have opened any cases, you can look those up in this view.  
+- **[View my company cases](#view-and-manage-existing-cases)** – Track and monitor your company's existing case(s). If your colleagues from your company have opened any cases, you can look those up in this view.  
 
-- **[Give feedback](#view-and-manage-existing-cases)**– Share your feedback with us. 
+- **[Give feedback](#view-and-manage-existing-cases)**– Share your feedback with us. 
 
-- **[Your Name]** – Update your profile page. 
+- **[Your Name]** – Update your profile page. 
 
 ## Create a new case
 
