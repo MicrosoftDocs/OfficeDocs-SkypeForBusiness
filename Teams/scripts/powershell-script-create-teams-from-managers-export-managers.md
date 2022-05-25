@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: Use this PowerShell script to export a list of managers and their directs for your organization, in preparation for creating a team for each manager with their directs as team members.
+description: Use this PowerShell script to help create a team for each manager with their direct reports as team members.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -20,9 +20,9 @@ appliesto:
 
 # PowerShell script sample - Export managers and their directs
 
-Use this PowerShell script to export a list of managers and their directs for your organization, in preparation for creating a people manager team for each manager with their directs as team members.
+Use this PowerShell script to export a list of managers and their directs for your organization. Use this script in preparation for creating a people manager team for each manager with their direct reports as team members.
 
-To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).
+To learn about this PowerShell script, see [Create people manager teams](../create-manager-directs-teams.md).
 
 If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](/powershell/azure/overview).
 
@@ -130,6 +130,4 @@ foreach ($line in $output) {
 }
 Write-Host -ForegroundColor Green "$(Get-Timestamp) Exported tab delimited output to $($OutputFile). `n"
 #endregion
-
-
 ```
