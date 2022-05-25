@@ -39,7 +39,7 @@ If you're new to PowerShell and need help getting started, see [Overview of Azur
  This sample script create new Teams based on the tab delimited .txt file you provide of managers and direct reports. It assumes that DisplayName is not null.
  
 .NOTES 
-  &copy; 2020 Microsoft Corporation. All rights reserved. This document is provided 
+  &copy; 2020 Microsoft Corporation. All rights reserved. This document is provided 
     "as-is." Information and views expressed in this document, including URL and 
     other Internet Web site references, may change without notice.
  
