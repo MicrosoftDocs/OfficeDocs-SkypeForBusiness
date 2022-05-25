@@ -16,7 +16,7 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn how to upload your custom apps to your organization's app store in the Microsoft Teams admin center. 
+description: Learn how to upload your custom apps to your organization's app store in the Microsoft Teams admin center.
 ---
 
 # Publish a custom app by uploading an app package
@@ -88,7 +88,7 @@ By default, for users to find the app they have to go to your organization's app
 
 You can search the audit log to view Teams apps activity in your organization. To learn more about how to search the audit log and to see a list of Teams activities that are logged in the audit log, see [Search the audit log for events in Teams](audit-log-events.md).
 
-Before you can search the audit log, you have to first turn on auditing in the [Security & Compliance Center](https://sip.protection.office.com/homepage). To learn more, see [Turn audit log search on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide). Keep in mind that audit data is only available from the point at which you turned on auditing.
+Before you can search the audit log, you have to first turn on auditing in the [Security & Compliance Center](https://sip.protection.office.com/homepage). To learn more, see [Turn audit log search on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off). Keep in mind that audit data is only available from the point at which you turned on auditing.
 
 ## Discover and adopt
 
@@ -108,13 +108,13 @@ You can update the app on the Manage apps page in the Microsoft Teams admin cent
 
 In most cases, after you complete an app update the new version automatically appears for end users. However, there are some updates to the [Microsoft Teams manifest](/microsoftteams/platform/resources/schema/manifest-schema) that require user acceptance to complete:
 
-* A bot was added or removed
-* An existing bot's "botId" property changed
-* An existing bot's "isNotificationOnly" property changed
-* A bot's SupportsCalling, SupportsVideo, and SupportsFiles capability was added
-* A messaging extension was added
-* A new connector was added
-* Permissions inside "Authorization" were added or changed
+- A bot was added or removed
+- An existing bot's "botId" property changed
+- An existing bot's "isNotificationOnly" property changed
+- A bot's SupportsCalling, SupportsVideo, and SupportsFiles capability was added
+- A messaging extension was added
+- A new connector was added
+- Permissions inside "Authorization" were added or changed
 
 ![Screenshot of apps list, showing apps that have a new version available.](media/manage-your-custom-apps-update1.png)
 
@@ -122,10 +122,10 @@ In most cases, after you complete an app update the new version automatically ap
 
 ## Related topics
 
-* [Publish a custom app submitted through the Teams App Submission API](submit-approve-custom-apps.md)
+- [Publish a custom app submitted through the Teams App Submission API](submit-approve-custom-apps.md)
 
-* [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
-* [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)
+- [Manage your apps in the Microsoft Teams admin center](manage-apps.md)
+- [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)
 
-* [Manage app permission policies in Teams](teams-app-permission-policies.md)
-* [Manage app setup policies in Teams](teams-app-setup-policies.md)
+- [Manage app permission policies in Teams](teams-app-permission-policies.md)
+- [Manage app setup policies in Teams](teams-app-setup-policies.md)

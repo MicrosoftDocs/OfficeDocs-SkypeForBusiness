@@ -102,9 +102,9 @@ To encrypt the voicemail message, you can create a sensitivity label. With the a
 
 When you enable protected voicemail, users can listen to protected voicemail messages by calling into their voicemail mailbox or by opening the message in Outlook, Outlook on the web, or Outlook for Android or iOS. Protected voicemail messages can't be opened in Microsoft Teams or Skype for Business.
 
-To create a sensitivity label for voicemail, see [Use sensitivity labels](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions). In the **Encryption** section, choose **Let users assign permissions when they apply the label**. Select **In Outlook, enforce one of the following restrictions**, and then select the **Do Not Forward** option.
+To create a sensitivity label for voicemail, see [Use sensitivity labels](/microsoft-365/compliance/encryption-sensitivity-labels#let-users-assign-permissions). In the **Encryption** section, choose **Let users assign permissions when they apply the label**. Select **In Outlook, enforce one of the following restrictions**, and then select the **Do Not Forward** option.
 
-To create the auto-labeling policy to apply a sensitivity label to voicemail, see [How to configure auto-labeling policies](/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange), and specify the following specific settings:
+To create the auto-labeling policy to apply a sensitivity label to voicemail, see [How to configure auto-labeling policies](/microsoft-365/compliance/apply-sensitivity-label-automatically#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange), and specify the following specific settings:
 
 - For **Choose info you want this label applied to**, select **Custom policy**.
 
@@ -121,7 +121,7 @@ To create the auto-labeling policy to apply a sensitivity label to voicemail, se
 
 - For **additional settings for email**, select **Apply encryption to email received from outside your organization**, and specify the Rights Management owner.
 
-The IP V4 ranges specified in Sender IP address is based on the list in ID 12 in [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams).
+The IP V4 ranges specified in Sender IP address is based on the list in ID 12 in [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams).
 
 For more information about message encryption, see [Define mail flow rules to encrypt email messages](/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email).
 

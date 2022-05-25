@@ -38,9 +38,9 @@ The Outlook add-in for Share to Teams can be selectively disabled or enabled on 
 > [!NOTE]
 > Disabling the add-in is only possible after the add-in has been installed. If you would like to enforce disabling for all users in your tenant, run a script periodically.
 
-To disable the add-in for Outlook used by Share to Teams, run the [cmdlet found here](/powershell/module/exchange/disable-app?view=exchange-ps). 
+To disable the add-in for Outlook used by Share to Teams, run the [cmdlet found here](/powershell/module/exchange/disable-app).
 
-To enable the add-in for Outlook used by Share to Teams, run the [cmdlet found here](/powershell/module/exchange/enable-app?view=exchange-ps).
+To enable the add-in for Outlook used by Share to Teams, run the [cmdlet found here](/powershell/module/exchange/enable-app).
 
 ## Browsers and Single Sign-on
 
@@ -49,4 +49,4 @@ Share to Teams, in both Outlook on the web and Outlook desktop clients, relies o
 > [!IMPORTANT]
 > Share to Teams requires both third-party cookies and local storage access to be enabled for users' browsers.
 
-Share to Teams uses Single Sign-on (SSO), which means users don't need to provide their credentials when using the add-in via Share to Teams. SSO for Outlook on the web supports https://outlook.office365.com/owa/extSSO.aspx and https://outlook.office.com/owa/extSSO.aspx reply URLs by default. For vanity domains, administrators need to add the appropriate Azure Active Directory reply URL.
+Share to Teams uses Single Sign-on (SSO), which means users don't need to provide their credentials when using the add-in via Share to Teams. SSO for Outlook on the web supports <https://outlook.office365.com/owa/extSSO.aspx> and <https://outlook.office.com/owa/extSSO.aspx> reply URLs by default. For vanity domains, administrators need to add the appropriate Azure Active Directory reply URL.

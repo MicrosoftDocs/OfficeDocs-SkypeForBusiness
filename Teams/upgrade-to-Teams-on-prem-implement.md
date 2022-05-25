@@ -7,13 +7,13 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: The article is for IT administrators and describes strategies for implementing their upgrade from Skype for Business to Teams  
+description: The article is for IT administrators and describes strategies for implementing their upgrade from Skype for Business to Teams.
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.custom: Teams-upgrade-guidance
-ms.collection: 
+ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
@@ -49,7 +49,7 @@ For the overlapping capabilities upgrade option:
 
 - This option is the out-of-the box model, and doesn't require administrator action to get started with Teams except to assign the Microsoft 365 or Office 365 license. If your users already have Skype for Business Online, you may already be in this model.
 
-- It can be challenging getting out of overlapping capabilities mode and moving to TeamsOnly. Because upgraded 
+- It can be challenging getting out of overlapping capabilities mode and moving to TeamsOnly. Because upgraded
 users only communicate via Teams, any other user in the organization communicating with that user must be using Teams.  If you have users that have not started using Teams, they will be exposed to missing messages. Furthermore, they won't see the TeamsOnly users online in Skype for Business. Some organizations choose to do a tenant-wide upgrade using the Tenant global policy to avoid this, however that requires upfront planning as well as waiting until all users are ready to be upgraded.
 
 ## A select capabilities upgrade for an organization that has not yet started using Teams
@@ -69,13 +69,13 @@ Following are the key commands:
    - For a user who is online:
 
      ```PowerShell
-     Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $username 
+     Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $username
      ```
 
    - For a user who is on-premises:
 
      ```PowerShell
-     Move-CsUser -identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred 
+     Move-CsUser -identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred
      ```
 
 **Notes**:
@@ -96,45 +96,45 @@ If some users in your organization are actively using Teams in Islands mode, you
 
 1. Find users who are active in Teams as follows:
 
-   1. From the Microsoft 365 admin center, in the left-hand navigation, go to Reports, and then Usage. 
-   2. In the "Select a report" dropdown, choose Microsoft Teams, and then User Activity. This will provide an exportable table of users who have been active in Teams. 
+   1. From the Microsoft 365 admin center, in the left-hand navigation, go to Reports, and then Usage.
+   2. In the "Select a report" dropdown, choose Microsoft Teams, and then User Activity. This will provide an exportable table of users who have been active in Teams.
    3. Click Export, open Excel, and filter to show only the users who are active in Teams.
 
-2. For each active Teams user found in step 1, assign them Islands mode in remote PowerShell. This allows you to go to the next step, and ensures you don't change the user experience.  
+2. For each active Teams user found in step 1, assign them Islands mode in remote PowerShell. This allows you to go to the next step, and ensures you don't change the user experience.
 
    ```PowerShell
-   $users=get-content "C:\MyPath\users.txt" 
-    foreach ($user in $users){ 
-    Grant-CsTeamsUpgradePolicy -identity $user -PolicyName Islands} 
+   $users=get-content "C:\MyPath\users.txt"
+    foreach ($user in $users){
+    Grant-CsTeamsUpgradePolicy -identity $user -PolicyName Islands}
    ```
 
 3. Set the tenant-wide policy to SfbWithTeamsCollab:
 
    ```PowerShell
-   Grant-CsTeamsUpgradePolicy -Global -PolicyName SfbWithTeamsCollab 
+   Grant-CsTeamsUpgradePolicy -Global -PolicyName SfbWithTeamsCollab
    ```
 
-4. Upgrade selected users to TeamsOnly mode. You can choose to upgrade either users in Islands mode or SfbWithTeamsCollab mode, although you might want to prioritize upgrading the users in Islands mode first to minimize the potential for confusion that can arise when users are in Islands mode.   
+4. Upgrade selected users to TeamsOnly mode. You can choose to upgrade either users in Islands mode or SfbWithTeamsCollab mode, although you might want to prioritize upgrading the users in Islands mode first to minimize the potential for confusion that can arise when users are in Islands mode.
 
-   For users homed in Skype for Business Online:  
+   For users homed in Skype for Business Online:
 
    ```PowerShell
-   Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName UpgradeToTeams 
+   Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName UpgradeToTeams
    ```
 
-   For users homed in Skype for Business Server on-premises:  
+   For users homed in Skype for Business Server on-premises:
 
    ```PowerShell
-   Move-CsUser -Identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred 
+   Move-CsUser -Identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred
    ```
 
-The diagram below shows the conceptual phases of a select capabilities transition in which there are active Islands users at the start. The height of the bars represents the number of users. During any phase of the upgrade, all users can communicate with each other.  Skype for Business users communicate with TeamsOnly users using interop, and vice versa. 
+The diagram below shows the conceptual phases of a select capabilities transition in which there are active Islands users at the start. The height of the bars represents the number of users. During any phase of the upgrade, all users can communicate with each other.  Skype for Business users communicate with TeamsOnly users using interop, and vice versa.
 
 ![Diagram showing select capabilities upgrade with active users in Islands mode.](media/teams-upgrade-2.png)
 
 ## Related links
 
-[Migration and interoperability guidance for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md) 
+[Migration and interoperability guidance for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
 
 [Configure hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
@@ -142,6 +142,6 @@ The diagram below shows the conceptual phases of a select capabilities transitio
 
 [Setting your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 
-[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy)
 
 [Using the Meeting Migration Service (MMS)](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)

@@ -43,13 +43,13 @@ For supervised chat to work as expected each user within your environment needs 
 
 - Restricted permissions: This role is ideal for users who need to be supervised. They can only start chats with users who have full permissions. They can participate in any conversation that a user with full permissions invites them to. In federated chat cases, restricted users can only be added to chats by a user with full permissions who is from the restricted user's tenant.
 
-To set your users' chat permission role, use the **Chat permissions role** policy found within your Messaging policy options in the Teams admin portal. You can use PowerShell to define roles using the ChatPermissionRole policy with the values Full, Limited, or Restricted. This policy is under [CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps).
+To set your users' chat permission role, use the **Chat permissions role** policy found within your Messaging policy options in the Teams admin portal. You can use PowerShell to define roles using the ChatPermissionRole policy with the values Full, Limited, or Restricted. This policy is under [CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy).
 
 Roles can't be assigned to guests in your tenant. Guests are assigned the limited role.
 
 ## Allow supervised chat
 
-Supervised chat is disabled by default for your tenant. After you've set chat permission roles for your users, you can enable supervised chat within your tenant by going to **Org-wide settings** \> **Teams Settings** and setting **Role-based chat permissions** policy to **On**. You can also use PowerShell to enable Supervised Chat by setting AllowRoleBasedChatPermissions to True. This cmdlet is under [CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps).
+Supervised chat is disabled by default for your tenant. After you've set chat permission roles for your users, you can enable supervised chat within your tenant by going to **Org-wide settings** \> **Teams Settings** and setting **Role-based chat permissions** policy to **On**. You can also use PowerShell to enable Supervised Chat by setting AllowRoleBasedChatPermissions to True. This cmdlet is under [CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration).
 
 Supervised chat must be enabled for all users in the tenant and cannot be enabled for only a portion of your users.
 

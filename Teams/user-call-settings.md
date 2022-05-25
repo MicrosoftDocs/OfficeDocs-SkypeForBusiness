@@ -9,16 +9,16 @@ ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection: 
+ms.collection:
   - M365-voice
   - m365initiative-voice
 audience: Admin
-appliesto: 
+appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
-f1.keywords: 
+f1.keywords:
   - CSH
-ms.custom: 
+ms.custom:
   - ms.teamsadmincenter.callqueues.overview"
   - Phone System
     - seo-marvel-apr2020
@@ -58,11 +58,11 @@ The configuration of call delegation and group call pickup are integrated into t
 
 You can use PowerShell to configure call forward and delegation settings for your users.  You'll use the following cmdlets, which are available in Teams PowerShell module version 4.0 or later:
 
-- [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings?view=teams-ps) - shows call forwarding settings, delegates, and delegator information for a user.
-- [Set-CsUserCallingSettings](/powershell/module/teams/set-csusercallingsettings?view=teams-ps) - sets call forwarding settings for a user.
-- [New-CsUserCallingDelegate](/powershell/module/teams/new-csusercallingdelegate?view=teams-ps) - adds a new delegate with permissions for a user.
-- [Set-CsUserCallingDelegate](/powershell/module/teams/set-csusercallingdelegate?view=teams-ps) - changes permissions for an existing delegate.
-- [Remove-CsUserCallingDelegate](/powershell/module/teams/remove-csusercallingdelegate?view=teams-ps) - removes a delegate from a user.
+- [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings) - shows call forwarding settings, delegates, and delegator information for a user.
+- [Set-CsUserCallingSettings](/powershell/module/teams/set-csusercallingsettings) - sets call forwarding settings for a user.
+- [New-CsUserCallingDelegate](/powershell/module/teams/new-csusercallingdelegate) - adds a new delegate with permissions for a user.
+- [Set-CsUserCallingDelegate](/powershell/module/teams/set-csusercallingdelegate) - changes permissions for an existing delegate.
+- [Remove-CsUserCallingDelegate](/powershell/module/teams/remove-csusercallingdelegate) - removes a delegate from a user.
 
 ### Display call forward and delegation settings for a user
 
@@ -80,7 +80,7 @@ UnansweredTarget          :
 UnansweredTargetType      : Voicemail
 UnansweredDelay           : 00:00:20
 Delegates                 : Id:sip:user2@contoso.com
-Delegators                : 
+Delegators                :
 CallGroupOrder            : InOrder
 CallGroupTargets          : {}
 GroupMembershipDetails    :
@@ -120,7 +120,7 @@ Set-CsUserCallingSettings -Identity user4@contoso.com -CallGroupOrder InOrder -C
 Set-CsUserCallingSettings -Identity user4@contoso.com -IsForwardingEnabled $true -ForwardingType Immediate -ForwardingTargetType Group
 ```
 
-For more examples, see [Set-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings?view=teams-ps).
+For more examples, see [Set-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings).
 
 ### Add a calling delegate for a user
 
@@ -140,7 +140,7 @@ Set-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.co
 
 ### Remove a calling delegate for a user
 
-To remove user2 as a delegate for user1, use the Remove-CsUserCallingDelegate cmdlet, as shown in the following example: 
+To remove user2 as a delegate for user1, use the Remove-CsUserCallingDelegate cmdlet, as shown in the following example:
 
 ```PowerShell
 Remove-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.com
@@ -148,8 +148,8 @@ Remove-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso
 
 ## Related topics
 
-- [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings?view=teams-ps) 
-- [Set-CsUserCallingSettings](/powershell/module/teams/set-csusercallingsettings?view=teams-ps) 
-- [New-CsUserCallingDelegate](/powershell/module/teams/new-csusercallingdelegate?view=teams-ps) 
-- [Set-CsUserCallingDelegate](/powershell/module/teams/set-csusercallingdelegate?view=teams-ps) 
-- [Remove-CsUserCallingDelegate](/powershell/module/teams/remove-csusercallingdelegate?view=teams-ps) 
+- [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings)
+- [Set-CsUserCallingSettings](/powershell/module/teams/set-csusercallingsettings)
+- [New-CsUserCallingDelegate](/powershell/module/teams/new-csusercallingdelegate)
+- [Set-CsUserCallingDelegate](/powershell/module/teams/set-csusercallingdelegate)
+- [Remove-CsUserCallingDelegate](/powershell/module/teams/remove-csusercallingdelegate)
