@@ -60,7 +60,7 @@ Here are some of the capabilities you have on the mobile app for managing ticket
 ### Ticket messages
 
 ![MTMS mobile application ticket messages loading screen](../media/mtms-mobile-app-017-ticketmessage2.png)
-### Ticket attachments
+### Ticket attachment
 
 ![MTMS mobile application ticket attachments](../media/mtms-mobile-app-007attachments.png)
 ### Ticket details
