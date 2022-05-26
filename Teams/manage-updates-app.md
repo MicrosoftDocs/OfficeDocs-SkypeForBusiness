@@ -29,15 +29,15 @@ The Updates in Microsoft Teams app provides a centralized place for members of y
 
 In Teams, users can get Updates from the Teams app store. They'll see all of the updates they need to submit on the **Submit** page.
 
-![Image of the Submit page in Teams for desktop.](media/updates-submit.png)
+[![Image of the Submit page in Teams for desktop.](media/updates-submit-small.png)](media/updates-submit.png)
 
 Users can view updates they've assigned in the **Review** page.
 
-![Image of the Review page in Teams for desktop.](media/updates-home.png)
+[![Image of the Review page in Teams for desktop.](media/updates-home-small.png)](media/updates-home.png)
 
 When a user is assigned an update, it will show up in their Teams activity feed. Users can also view all their current update requests and previous submissions in the Updates app. In addition, anyone can create templates and send out update requests.
 
-Updates comes with both out-of-the-box templates for common business scenarios and the option to create your own template. Anyone can create a template for new types of updates. <!--link to end user content here-->
+Updates comes with both out-of-the-box templates for common business scenarios and the option to create your own template. Anyone can create a template for new types of updates.
 
 ## Example scenario
 
@@ -55,7 +55,7 @@ You need permission for the following items to deploy Updates:
 
 - Permissions to create a Microsoft Dataverse database.
 
-- An account on [powerautomate.microsoft.com](https://powerautomate.microsoft.com/)
+- An account on [powerautomate.microsoft.com](https://powerautomate.microsoft.com/).
 
 - Administrator Role in your target environment.
 
@@ -91,7 +91,7 @@ The Updates Teams app lets you access the following features:
 - Access your team's information:
   - team name
   - channel list
-  - roster (team member's names and email addresses).
+  - roster (team members' names and email addresses)
 
 - Use the team's information to contact them.
 
@@ -105,7 +105,7 @@ The Updates app is available by default. You can disable the app in the Teams ad
 
   3. Search for the Updates app.
 
-     ![shows the Admin center navigation with Teams Apps > Manage Apps highlighted.](media/manage-updates.png)
+     [![Screenshot of the Admin center navigation with Teams Apps > Manage Apps highlighted.](media/manage-updates-small.png)](media/manage-updates.png)
 
   4. Select **Updates**.
 
