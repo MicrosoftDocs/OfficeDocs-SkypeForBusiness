@@ -46,7 +46,7 @@ Here's an overview of the capabilities available today, what's coming soon, and 
 
 Deploying teams at scale allows you to:
 
-- Create teams using pre-built templates of your own custom templates.
+- Create teams using pre-built templates or your own custom templates.
 - Add users to teams as owners or members.
 - Manage teams at scale by adding or removing users from existing teams.
 - Stay notified with emails. This includes completion, status, and errors (if any). Team owners and members are notified.
