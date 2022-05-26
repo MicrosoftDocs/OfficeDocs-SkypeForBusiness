@@ -351,7 +351,7 @@ Bulk policy unassignment lets you unassign custom policies that were assigned to
  You can unassign policies in bulk from the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
 
 1. Go to **Users** > **Manage users**.
-2. In the top right corner of the page, select **Bulk policy unassignment** from the **Actions** drop-down menu.
+2. In the top right corner of the page, select **Unassign policies in bulk** from the **Actions** drop-down menu.
 
     > [!NOTE]
     > You can also unassign policies from the individual policy pages by choosing a policy and selecting **Manage users**.
