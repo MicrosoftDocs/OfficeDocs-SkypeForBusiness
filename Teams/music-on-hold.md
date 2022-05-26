@@ -31,11 +31,11 @@ Note that callers can listen to Music on Hold in other scenarios as well; for ex
 
 To configure Music on Hold:
 
-1.	In the left navigation of the Teams admin center, go to **Voice > Calling policies**.
+1. In the left navigation of the Teams admin center, go to **Voice > Calling policies**.
 
-2.	On the **Manage policies** tab select one of the existing policies or create a new one.
+2. On the **Manage policies** tab select one of the existing policies or create a new one.
 
-3.	In the **Music on hold for PSTN callers** field select **Enabled** in the drop-down menu.
+3. In the **Music on hold for PSTN callers** field select **Enabled** in the drop-down menu.
 
 You can also configure Music on Hold by using the Teams PowerShell module. In the TeamsCallingPolicy, change the MusicOnHoldEnabledType parameter to Enabled and then grant that policy instance to one or more users.
 
@@ -52,7 +52,6 @@ For example a department or organization might want to play a custom announcemen
 To configure custom Music on Hold, use the PowerShell cmdlets New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy and Import/Get/Remove/Export-CsOnlineAudioFile in Teams PowerShell module 3.0.0 or later.
 
 For supported audio formats and maximum file size, please see [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
-
 
 1. Ensure that the Teams user has Music on hold for PSTN callers set to Enabled in the Teams calling policy. 
 
@@ -99,7 +98,6 @@ To export an uploaded audio file, use the Export-CsOnlineAudioFile cmdlet.
 
 The following table indicates which features on which clients and devices support Music on Hold and Custom Music on Hold. Microsoft continues to add feature support, so check back often for additional availability.
 
-
 | Feature | Desktop <br> Windows/Mac OS | Browser | Mobile <br> iOS | Mobile <br> Android | Teams Phone |
 | :------------| :------- | :------- | :------- | :------- | :------- |
 | Hold on 1:1 PSTN call | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold | -Music on Hold<br>-Custom Music on Hold |
@@ -142,4 +140,3 @@ The following table indicates which features on which clients and devices suppor
 - [Grant-CsTeamsCallHoldPolicy](/powershell/module/skype/grant-csteamscallholdpolicy)
 
 - [Remove-CsTeamsCallHoldPolicy](/powershell/module/skype/remove-csteamscallholdpolicy)
-
