@@ -79,7 +79,7 @@ Here are some of the capabilities you have on the mobile app for managing ticket
 
 ![MTMS mobile application managed security screen](../media/mtms-mobile-app-019-securityissues.png)
 ### Communication with experts
-![MTMS mobile application Messages screen](../media/mtms-mobile-app-017-ticketmessage2.png)
+![MTMS mobile application Messages screen](../media/mtms-mobile-app-021-ticketmessage.png)
 ### Sign out
 
 ![MTMS mobile application signout page page](../media/mtms-mobile-app-011-signout.png)
