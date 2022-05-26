@@ -76,6 +76,9 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |Engage55 Mono/Stereo Headset                               |5/25/2022       |Certified for Microsoft Teams                           |
+|EPOS                 |EXPAND 40T Speakerphone                                    |5/24/2022       |Certified for Microsoft Teams                           | 
+|Dell                 |U3223QZ Monitor                                            |5/24/2022       |Certified for Microsoft Teams                           |
 |Poly                 |Studio P21 Monitor                                         |5/12/2022       |Certified for Microsoft Teams                           |
 |Yealink              |UH38 Headset                                               |5/2/2022        |Certified for Microsoft Teams                           |   
 |Yealink              |BH72 Headset                                               |5/2/2022        |Certified for Microsoft Teams                           |
