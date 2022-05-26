@@ -34,6 +34,8 @@ The trial includes everything in the [Microsoft 365 F3 license](https://www.micr
 > [!NOTE]
 > You can check if your organization is part of the trial pilot by looking for an announcement in the [Message center](https://go.microsoft.com/fwlink/p/?linkid=2070717) in your Microsoft 365 Admin center. Your organization will need to be a part of the trial pilot for users to initiate or participate in a trial. This offer isn't available for GCC, GCC High, DoD, or EDU customers.
 
+The Frontline Trial can accommodate a maximum of 300 users per trial.
+
 Users can start a frontline trial for their team if they:
 
 - Have an active license that gives them access to Teams.
