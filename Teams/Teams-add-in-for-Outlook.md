@@ -34,6 +34,8 @@ The Teams Meeting add-in is automatically installed for users who have Microsoft
 ![Screenshot of Teams Meeting add-in on Outlook ribbon.](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
+>
+> - The Teams Meeting Add-In feature, embedded meeting options, is still using .Net Web Browser framework. Future embedded meeting options will require [Webview2](microsoft-edge/webview2/concepts/distribution) installation. If WebView2 is not installed, users will get redirected to the browser which may provide a degraded experience especially at the time of meeting creation.
 > - There is **no direct URL** that links to the Teams add-in.
 > - There are additional considerations if your organization runs both Teams and Skype for Business. Under some circumstances, the Teams add-in is not available in Outlook. See [Upgrade from Skype for Business to Teams](upgrade-to-Teams-on-prem-tools.md) for details.
 > - User permissions to execute the Regsvr32.exe file is a minimum requirement for the Teams Meeting add-in to be installed on the computer.
