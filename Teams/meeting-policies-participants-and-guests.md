@@ -97,7 +97,7 @@ This setting is a per-user policy and applies during a meeting. This setting con
 
 This setting is a per-participant setting. This setting controls whether meeting chat is allowed in the user's meeting. 
 
-This setting does not apply to channel meetings. Once this meeting chat policy is applied to users, an organizer cannot override this policy through meeting options.
+This setting does not apply to channel meetings. Once this meeting chat policy is applied to users, an organizer cannot override this policy through meeting options. 
 
 |Setting value |Behavior  |
 |---------|---------|
