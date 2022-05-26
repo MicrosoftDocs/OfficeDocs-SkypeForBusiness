@@ -42,7 +42,7 @@ Here's an overview of the capabilities available today, what's coming soon, and 
 | |Available today  |Available soon  |Later in 2022  |
 |---------|---------|---------|---------|
 |Number of teams you can add per batch|Up to 30|Up to 100 |Up to 500|
-|Number of users you can add per team    |Up to 20|Up to 25|         |
+|Number of users you can add per team|Up to 20|Up to 25|Up to 25|
 
 Deploying teams at scale allows you to:
 
