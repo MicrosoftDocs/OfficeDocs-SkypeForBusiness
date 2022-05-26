@@ -287,7 +287,7 @@ Meeting organizers control whether participants can join a meeting without waiti
 The defaults are:
 
 - *People in my Organization* - Everyone external to the organization will wait in the lobby until admitted.
-- *People from my organization and trusted organizations* - Authenticated users and external users from Teams and Skype for Business domains that are in the external access allowlist can bypass the lobby. All other users will wait in the lobby until admitted.
+- *People in my organization, trusted organizations, and guests* - Authenticated users within the organization, including guest users and the users from trusted organizations, join the meeting directly without waiting in the lobby. Anonymous users wait in the lobby.
 - *Everyone* - All meeting participants bypass the lobby once an authenticated user has joined the meeting.
 
 ### Presenter capabilities
