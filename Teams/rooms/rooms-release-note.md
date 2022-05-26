@@ -87,12 +87,12 @@ Teams Rooms is governed by the Modern Lifecycle Policy. See [Teams update proces
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
 
-### 4.12.138.0 (4/27/2022)
+### 4.12.138.0 (5/26/2022)
 
 Introduced in this update:
 - Bug fix for Jabra Panacast 50
 - Bug fix for Cross Cloud Anonymous meeting join
-- Quality and Reliability fixes
+- Quality and reliability fixes
 
 ### 4.12.126.0 (4/27/2022)
 
