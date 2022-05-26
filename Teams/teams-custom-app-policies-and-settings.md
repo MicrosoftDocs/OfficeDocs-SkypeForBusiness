@@ -90,7 +90,7 @@ If this setting is turned on:
 
 #### Configure the team custom app setting
 
-1. In Teams, go to the team, click **More options ˙˙˙** > **Manage team**.
+1. In Teams, go to the team, click **More options ...** > **Manage team**.
 2. Click **Settings**, and then expand **Member permissions**.
 3. Select or clear the **Allow members to upload custom apps** check box.
 

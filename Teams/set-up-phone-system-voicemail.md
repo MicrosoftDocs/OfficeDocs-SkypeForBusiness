@@ -48,9 +48,9 @@ The Exchange mailbox of a user stores any custom recorded greetings. These greet
 
 ## Cloud Voicemail processing
 
-The recording and transcription of Cloud Voicemail starts in Microsoft 365 at the origin of the call being routed to Cloud Voicemail. The message is then delivered to the user’s Exchange mailbox.
+The recording and transcription of Cloud Voicemail starts in Microsoft 365 at the origin of the call being routed to Cloud Voicemail. The message is then delivered to the user's Exchange mailbox.
 
-For example, if a call comes in to an unavailable Direct Routing user through a Session Border Controller (SBC) in Europe, the voicemail recording and transcription are done in Europe. The message is then delivered to the user’s Exchange mailbox. For another example, assume a Teams user in North America calls an unavailable Teams user in Europe. In this case, the call starts in North America, the processing occurs in North America, and then the voicemail is delivered to the user’s Exchange mailbox in Europe.
+For example, if a call comes in to an unavailable Direct Routing user through a Session Border Controller (SBC) in Europe, the voicemail recording and transcription are done in Europe. The message is then delivered to the user's Exchange mailbox. For another example, assume a Teams user in North America calls an unavailable Teams user in Europe. In this case, the call starts in North America, the processing occurs in North America, and then the voicemail is delivered to the user's Exchange mailbox in Europe.
 
 The delivery of a voicemail to an Exchange mailbox is done using Simple Mail Transport Protocol (SMTP) like any other e-mail.
 
@@ -70,7 +70,7 @@ You can also disable Cloud Voicemail for a user by using the [Set-CsOnlineVoicem
 
 The default setting for all users provisioned for Cloud Voicemail is to allow routing of calls to Cloud Voicemail, and to allow users to forward calls to Cloud Voicemail.
 
-You can control whether routing of calls to Cloud Voicemail is allowed for Teams users by using the Set-CsTeamsCallingPolicy cmdlet with the AllowVoicemail parameter. For more information, see [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
+You can control whether routing of calls to Cloud Voicemail is allowed for Teams users by using the Set-CsTeamsCallingPolicy cmdlet with the AllowVoicemail parameter. For more information, see [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
 
 - If you set AllowVoicemail to AlwaysDisabled, calls are never routed to voicemail--regardless of the call forward or unanswered settings for a user. Voicemail isn't available as a call forwarding or unanswered setting in Teams.
 
@@ -94,36 +94,34 @@ The following information is about configuring Cloud Voicemail to work with Team
 
 ## Enable protected voicemail in your organization
 
-When someone leaves a voicemail message for a user in your organization, the voicemail is delivered to the user's mailbox as an email message attachment. 
+When someone leaves a voicemail message for a user in your organization, the voicemail is delivered to the user's mailbox as an email message attachment.
 
 Using Microsoft Purview Information Protection, you can encrypt the voicemail messages left by both internal and external callers. You can also prevent the user from  forwarding these messages. This feature is supported for users with Exchange Online mailboxes.
 
-To encrypt the voicemail message, you can create a sensitivity label. With the auto-labeling feature, you can ensure that the label will be applied automatically to incoming voicemail messages. 
+To encrypt the voicemail message, you can create a sensitivity label. With the auto-labeling feature, you can ensure that the label will be applied automatically to incoming voicemail messages.
 
 When you enable protected voicemail, users can listen to protected voicemail messages by calling into their voicemail mailbox or by opening the message in Outlook, Outlook on the web, or Outlook for Android or iOS. Protected voicemail messages can't be opened in Microsoft Teams or Skype for Business.
 
-To create a sensitivity label for voicemail, see [Use sensitivity labels](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions). In the **Encryption** section, choose **Let users assign permissions when they apply the label**. Select **In Outlook, enforce one of the following restrictions**, and then select the **Do Not Forward** option.
+To create a sensitivity label for voicemail, see [Use sensitivity labels](/microsoft-365/compliance/encryption-sensitivity-labels#let-users-assign-permissions). In the **Encryption** section, choose **Let users assign permissions when they apply the label**. Select **In Outlook, enforce one of the following restrictions**, and then select the **Do Not Forward** option.
 
-To create the auto-labeling policy to apply a sensitivity label to voicemail, see [How to configure auto-labeling policies](/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange), and specify the following specific settings:
+To create the auto-labeling policy to apply a sensitivity label to voicemail, see [How to configure auto-labeling policies](/microsoft-365/compliance/apply-sensitivity-label-automatically#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange), and specify the following specific settings:
 
--	For **Choose info you want this label applied to**, select **Custom policy**.
+- For **Choose info you want this label applied to**, select **Custom policy**.
 
--	For **Choose locations where you want to apply the label**, select **Locations: Exchange for all users**.
+- For **Choose locations where you want to apply the label**, select **Locations: Exchange for all users**.
 
--	For  **Set up common or advanced rules**,  select **Advanced rules**.
+- For  **Set up common or advanced rules**,  select **Advanced rules**.
 
 - Exchange rules:
-    - Conditions:<br>
-        - **Header matches pattern:**<br>
-              Content-Class = Voice-CA
-       -  **Sender IP address is:**<br>
-               13.107.64.0/18, 52.112.0.0/14, 52.120.0.0/14, 52.238.119.141/32, 52.244.160.207/32
+  - Conditions:
+    - **Header matches pattern**: Content-Class = Voice-CA
+    - **Sender IP address is**: 13.107.64.0/18, 52.112.0.0/14, 52.120.0.0/14, 52.238.119.141/32, 52.244.160.207/32
 
 - For **Choose a label to auto-apply**, select the sensitivity label you created for voicemail in the step above.
 
 - For **additional settings for email**, select **Apply encryption to email received from outside your organization**, and specify the Rights Management owner.
 
-The IP V4 ranges specified in Sender IP address is based on the list in ID 12 in [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams).
+The IP V4 ranges specified in Sender IP address is based on the list in ID 12 in [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams).
 
 For more information about message encryption, see [Define mail flow rules to encrypt email messages](/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email).
 
