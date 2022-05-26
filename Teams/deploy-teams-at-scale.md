@@ -25,15 +25,31 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 ## Overview
  
-You may have a lot of teams that you use to drive communication and collaboration among your frontline workforce who are spread across different stores, locations, and roles. Currently, there isn't an easy solution to deploy, set up, and manage these teams and users at scale.
+Your organization may have a lot of teams that you use to drive communication and collaboration among your frontline workforce, who are spread across different stores, locations, and roles. Currently, there isn't an easy solution to deploy, set up, and manage these teams and users at scale.
 
-We're building a solution to allow admins to deploy and manage teams at scale.
+We're building a solution to enable admins to deploy and manage teams at scale.
 
 Here's an overview of the capabilities available today, what's coming soon, and what we're planning for the near future.
 
+Option 1
+
 |Available today  |Available soon  |Later in 2022  |
 |---------|---------|---------|
-| <ul><li>Create up to 30 teams per batch using pre-built templates or your own custom templates.</li><li>Add up to 20 users per team as owners or members.</li><li>Manage teams at scale by adding or removing users from existing teams.</li><li>Stay notified with emails. This includes completion, status, and errors if any. Team owners and members are notified.</li></ul>|<ul><li>Create up to 100 teams per batch using pre-built templates or your own custom templates.</li><li>Add up to 25 users per team as owners or members. </li></ul>|<ul><li>Create up to 500 teams per batch using pre-built templates or your own custom templates.</li></ul>|
+| <ul><li>Create up to 30 teams per batch using pre-built templates or your own custom templates.</li><li>Add up to 20 users per team as owners or members.</li><li>Manage teams at scale by adding or removing users from existing teams.</li><li>Stay notified with emails. This includes completion, status, and errors if any. Team owners and members are notified.</li></ul>|<ul><li>Create up to 100 teams per batch using pre-built templates or your own custom templates.</li><li>Add up to 25 users per team as owners or members.</li><li>Manage teams at scale by adding or removing users from existing teams.</li><li>Stay notified with emails. This includes completion, status, and errors if any. Team owners and members are notified.</li></ul></ul>|<ul><li>Create up to 500 teams per batch using pre-built templates or your own custom templates.</li><li>Manage teams at scale by adding or removing users from existing teams.</li><li>Stay notified with emails. This includes completion, status, and errors if any. Team owners and members are notified.</li></ul></ul>|
+
+Option 2
+
+| |Available today  |Available soon  |Later in 2022  |
+|---------|---------|---------|---------|
+|Number of teams per batch|Up to 30|Up to 100 |Up to 500|
+|Number of users per team    |Up to 20|Up to 25|         |
+
+Deploying teams at scale allows you to:
+
+- Create teams using pre-built templates of your own custom templates.
+- Add users to teams as owners or members.
+- Manage teams at scale by adding or removing users from existing teams.
+- Stay notified with emails. This includes completion, status, and errors (if any). Team owners and members are notified.
 
 ## How to deploy teams at scale
 
