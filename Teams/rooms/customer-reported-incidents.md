@@ -2,7 +2,7 @@
 title: Microsoft Teams Rooms Customer-reported incidents
 author: donnah007
 ms.author: v-donnahill
-ms.date: 5/26/2022
+ms.date: 5/27/2022
 manager: serdars
 ms.reviewer: dstrome 
 ms.topic: article
@@ -47,9 +47,9 @@ Customer-reported Incidents can be closed by either the customer, partners manag
 
 ![screenshot of the closed ticket](../media/customer-reported-incidents-004.png)
 
-
 The ticket's Details Overview section displays that the ticket was closed by the Managed Rooms Service (Microsoft) or the name of the customer/partner.  
 
+![screenshot of who closed the ticket ](../media/customer-reported-incidents-005.png)
 ## FAQ
 
 **Can anyone close tickets?**
