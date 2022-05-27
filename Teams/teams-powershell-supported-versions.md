@@ -24,11 +24,11 @@ Organizations newly onboarding to Teams will only be able to use Teams PowerShel
 
 ## Current organizations (non TPM active)
 
-Organizations who haven't used Teams PowerShell Module in the last three months (Jan'22 – Mar'22), will only be able to use Teams PowerShell Module in the 4.x.x series or later starting from April 1, 2022.
+Organizations who haven't used Teams PowerShell Module during Jan'22 – Mar'22, will only be able to use Teams PowerShell Module in the 4.x.x series or later starting from April 1, 2022.
 
 ## Current organizations (TPM active)
 
-Organizations who have been using Teams PowerShell Module in the last three months (Jan'22 – Mar'22), will only be able to use Teams PowerShell Module in the 4.x.x series or later starting from June 15, 2022. Message center post for reference - MC350371.
+Organizations who have been using Teams PowerShell Module during Jan'22 – Mar'22, will only be able to use Teams PowerShell Module in the 4.x.x series or later starting from June 15, 2022. Message center post for reference - MC350371.
 
 ## Important notes
 
@@ -49,7 +49,7 @@ Organizations who have been using Teams PowerShell Module in the last three mont
 
   - Changes coming to Phone number assignment - more details in [Set-CsUser](/powershell/module/skype/set-csuser), [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser), [Set-CsOnlineApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance) & [Set-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlinevoiceapplicationinstance) (Message center post – MC316139).
 
-  - Parameter changes in Get-CsTenant - more details in [Get-CsTenant](/powershell/module/skype/get-cstenant).
+  - Parameter changes in Get-CsTenant - more details in [Get-CsTenant](/powershell/module/skype/get-cstenant) (Message center post – MC365397).
 
 - While using TPM 4.x.x or later, it's recommended to not use any of the deprecated or unsupported cmdlets mentioned [below](#deprecated-cmdlets).
 
@@ -72,7 +72,7 @@ Organizations who have been using Teams PowerShell Module in the last three mont
   - [Grant|Get|Set|New|Remove]-CsClientPolicy
   - [Grant|Get]-CsHostedVoicemailPolicy
   - [Grant|Get|Set|New|Remove]-CsMobilityPolicy
-  - [Grant|Get] CsVoiceRoutingPolicy
+  - [Grant|Get]-CsVoiceRoutingPolicy
   - [Grant|Get]-CsBroadcastMeetingPolicy
   - [Grant|Get]-CsCloudMeetingPolicy
   - [Grant|Get]-CsGraphPolicy
@@ -91,7 +91,7 @@ Organizations who have been using Teams PowerShell Module in the last three mont
   - Get-CsHostingProvider
   - [Get|Set|Register|Unregister]-CsHybridPSTNAppliance
   - [Get|Set|New|Remove]-CsHybridPSTNSite
-  - [Get|Set]- CsHybridMediationServer
+  - [Get|Set]-CsHybridMediationServer
   - [Get|Set|New|Remove]-CsTenantUpdateTimeWindow
   - Get-CsUserLocationStatus
   - Invoke-CsUcsRollback
