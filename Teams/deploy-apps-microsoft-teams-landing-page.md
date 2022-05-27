@@ -42,7 +42,9 @@ The different types of apps that your end-users can use in Teams are:
 
 ## Core apps
 
-Some default functionality such as activity feed, Teams channels, chat, calendar, and calls is available and pinned by default for ease of access for end-users. As an admin you can modify the default behavior using [setup policy](/microsoftteams/teams-app-setup-policies).
+Some default functionality such as activity feed, Teams channels, chat, calendar, and calls is available and pinned by default for ease of access for end-users. As an admin you can modify the default behavior using [setup policy](/microsoftteams/teams-app-setup-policies).  >>>>RM:  This list should include "Files", "Search", and "Wiki" at a minimum....for EDU, there may be others.....also, for "F" series licenses, may be specific apps considered core....all these shoudl be spelled out here.
+
+Also, I believe these can't strictly be blocked by an app permission policy, as they would negatively impact Tems core functions...seems like that should be called out here as well...
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="Core apps are the apps pinned in Teams by default." lightbox="media/core-apps-pinned2.png":::
 
