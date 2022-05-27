@@ -1,7 +1,7 @@
 ---
 title: "Teams device store"
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: rahulimi
 ms.topic: article

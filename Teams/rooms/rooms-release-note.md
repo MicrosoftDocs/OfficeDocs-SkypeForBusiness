@@ -1,7 +1,7 @@
 ---
 title: Release notes for Microsoft Teams Rooms (Windows)
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro

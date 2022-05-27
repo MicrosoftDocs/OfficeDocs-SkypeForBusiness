@@ -1,7 +1,7 @@
 ---
 title: "Devices for Teams"
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: divank
 ms.topic: article
