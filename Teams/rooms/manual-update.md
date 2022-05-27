@@ -1,7 +1,7 @@
 ---
 title: "Manually update a Microsoft Teams Rooms device"
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 appliesto: 
