@@ -3,7 +3,7 @@ title: Data and Privacy Information
 author: donnah007 
 ms.author: v-donnahill
 manager: serdars
-ms.date: 04/07/2022
+ms.date: 05/27/2022
 ms.reviewer:  
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -23,12 +23,12 @@ f1keywords: Microsoft Teams Rooms Managed Service Data and Privacy Information
 
 # Approach
 
-Customers using managed services entrust Microsoft with their most valuable asset—data. They trust that its privacy will be protected and that it will be used only in a way that is consistent with their expectations.
+Customers using Microsoft Teams Rooms Managed Services entrust Microsoft with their most valuable asset---data. They trust that its privacy will be protected and that it will be used only in a way that is consistent with their expectations.
 
 The technology follows privacy processes to make sure that it adheres to the customer promises in collecting and using data effectively running the service.
 ## Data collection and privacy
 
- Microsoft Teams Rooms Managed Services monitors devices, collects customer content data, and remotely accesses and manages the devices as an administrator. Data that is collected is limited to information required to monitor the health, root cause, and mitigating issues identified in the enrolled rooms. GDPR data collected is specific to a room account, not to individual users.
+ Microsoft Teams Rooms Managed Services monitors devices, collects customer content data, and remotely accesses and manages the devices as an administrator. Data that is collected is limited to information required to monitor the health, root cause, and mitigating issues identified in the enrolled rooms. Certain data collected is specific to a room account, not to individual users.
 
 > [!Note]
 > Incidental references to an individual user may be present in the activity log during use of the device.
@@ -45,9 +45,9 @@ Managed Services mitigates risks associated with accounts with privileged access
 
 Microsoft is governed by strict standards for data transmission, storage, use, and retention. Microsoft has data handling standard policies that regulate how data should be handled based on data classification.
 
-Microsoft extends General Data Protection Regulation (GDPR) rights to customers worldwide.
+<!--Microsoft extends General Data Protection Regulation (GDPR) rights to customers worldwide.
 
-<!--## Data classification
+## Data classification
 
 The data classification can be used to adhere to security, compliance, and privacy requirements and processes for collecting, storing, and using user personal information.
 
@@ -87,7 +87,7 @@ Managed Services doesn't monitor or record audio, video, media, or meeting conte
 |Ad hoc data collection and management|Event log information, user activity/Identity from the room user logged in log file along with diagnostics information\*, Windows system queries (Examples: List of USB devices, power state, etc.)|Identify, diagnose, and mitigate failures and for usage, analytics, and insights|
 <!--|Trial enrollment and Setup |Windows System Queries</p><p>Examples: List of USB devices, power state, etc.|Required for enrollment, onboarding, order and delivery,and setup for the Trial.|-->
 
-\* Sensitive customer content in the Device Activity log is redacted out locally (not collected by Managed Services):
+Certain sensitive data in the Device Activity log is redacted out locally (not collected by Managed Services):
 
 1. Meeting subject and body
 1. Contact card information for meeting attendees (such as title, phone number, etc.)
