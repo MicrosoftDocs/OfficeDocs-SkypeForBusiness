@@ -54,11 +54,10 @@ Use one or more custom app permission policies, if you want to control the apps 
 
 1. Provide a name and description for the policy.
 1. Under **Microsoft apps**, **Third-party apps**, and **Custom apps**, select one of the following:
-
-    * **Allow all apps**
-    * **Allow specific apps and block all others**
-    * **Block specific apps and allow all others**
-    * **Block all apps**
+   - **Allow all apps**
+   - **Allow specific apps and block all others**
+   - **Block specific apps and allow all others**
+   - **Block all apps**
 
 1. If you selected **Allow specific apps and block others**, add the apps that you want to allow:
 
@@ -100,9 +99,8 @@ Use org-wide app settings to control whether users can install third-party apps.
   ![Screenshot of org-wide app settings in GCC.](media/app-permission-policies-gcc-org-wide.png)
 
 1. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps:
-
-    * **Allow third-party apps**: This option controls whether users can use third-party apps. If you turn off this setting, your users won't be able to install or use any third-party apps. In a Microsoft 365 Government - GCCH and DoD deployment of Teams, this setting is off by default.
-    * **Allow any new third-party apps published to the store by default**: This option controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if you allow third-party apps.
+   - **Allow third-party apps**: This option controls whether users can use third-party apps. If you turn off this setting, your users won't be able to install or use any third-party apps. In a Microsoft 365 Government - GCCH and DoD deployment of Teams, this setting is off by default.
+   - **Allow any new third-party apps published to the store by default**: This option controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if you allow third-party apps.
 
 1. Under **Blocked apps**, add the apps you want to block across your organization. In a Microsoft 365 Government - GCCH and DoD deployment of Teams, all third-party apps are added to this list by default. For any third-party app you want to allow in your organization, remove the app from this blocked apps list. When you block an app org-wide, the app is automatically blocked for all your users, regardless of whether it's allowed in any app permission policies.
 
@@ -153,12 +151,12 @@ Users can't interact with a blocked app or its capabilities, such bots, tabs, an
 
 For example, when an app is blocked, users can't do any of the following tasks:
 
-* Add the app personally or to a chat or team
-* Send messages to the app’s bot
-* Perform button actions that send information back to the app, such as actionable messages  
-* View the app’s tab
-* Set up connectors to receive notifications
-* Use the app’s messaging extension
+- Add the app personally or to a chat or team
+- Send messages to the app's bot
+- Perform button actions that send information back to the app, such as actionable messages  
+- View the app's tab
+- Set up connectors to receive notifications
+- Use the app's messaging extension
 
 The legacy portal allowed controlling apps at the organization level, which means when an app is blocked, it's blocked for all users in the organization. Blocking an app on the [Manage apps](manage-apps.md) page works exactly the same way.
 
@@ -166,6 +164,6 @@ For app permission policies assigned to specific users, if an app with bot or co
 
 ## See also
 
-* [Admin settings for apps in Teams](admin-settings.md)
-* [Assign policies to your users in Teams](policy-assignment-overview.md)
-* [Teams feature availability comparison](/office365/servicedescriptions/teams-service-description#feature-availability)
+- [Admin settings for apps in Teams](admin-settings.md)
+- [Assign policies to your users in Teams](policy-assignment-overview.md)
+- [Teams feature availability comparison](/office365/servicedescriptions/teams-service-description#feature-availability)

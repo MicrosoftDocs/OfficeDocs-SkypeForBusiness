@@ -59,7 +59,7 @@ The steps to set up an auto attendant and a call queue include the following out
 
 1. Obtain a service number. 
 
-2. Obtain a free Phone System - Virtual User license or a paid Phone System license to use with the resource account or a Phone System license.
+2. Obtain a free Phone System - Virtual User license or a paid Phone System license to use with the resource account or a Phone System license.
 
 3. Create the resource account. An auto attendant or call queue is required to have an associated resource account. 
 
