@@ -1,6 +1,6 @@
 ---
 title: "Monitor Cloud Connector using Operations Management Suite (OMS)"
-ms.reviewer: 
+ms.reviewer:
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -56,32 +56,32 @@ How you configure Cloud Connector to use OMS depends on your scenario:
 
 - **If you are installing a new Cloud Connector appliance or you want to re-deploy an appliance**, follow these steps before you run Install-CcAppliance:
 
-	1. In the CloudConnector.ini file [Common] section, set the OMSEnabled parameter to True.
+  1. In the CloudConnector.ini file [Common] section, set the OMSEnabled parameter to True.
 
-		Each time Cloud Connector is deployed or upgraded, it will try to install the OMS agent automatically onto the VMs. Enable this feature so the OMS agent can survive the Cloud Connector automatic update.
+     Each time Cloud Connector is deployed or upgraded, it will try to install the OMS agent automatically onto the VMs. Enable this feature so the OMS agent can survive the Cloud Connector automatic update.
 
-	2. To configure the OMS ID and key, run Set-CcCredential -AccountType OMSWorkspace. 
+  2. To configure the OMS ID and key, run Set-CcCredential -AccountType OMSWorkspace.
 
 - **If you are installing an OMS agent onto an existing Cloud Connector appliance**, follow these steps:
 
-	1. In the CloudConnector.ini file [Common] section, set OMSEnabled=true. 
+  1. In the CloudConnector.ini file [Common] section, set OMSEnabled=true.
 
-	2. Run Import-CcConfiguration. 
+  2. Run Import-CcConfiguration.
 
-	3. Run Install-CcOMSAgent. 
+  3. Run Install-CcOMSAgent.
 
-		> [!NOTE]
-		> If the OMSWorkspace credential has never been set, you are prompted for the credential when you run install-CcOMSAgent. 
+     > [!NOTE]
+     > If the OMSWorkspace credential has never been set, you are prompted for the credential when you run install-CcOMSAgent.
 
 - **If you want to update the OMS workspace ID or key in a Cloud Connector appliance that has already installed an OMS agent:**
 
-	1. To configure the OMS ID and key, run Set-CcCredential -AccountType OMSWorkspace. 
+  1. To configure the OMS ID and key, run Set-CcCredential -AccountType OMSWorkspace.
 
-	2. To apply the updates, run Install-CcOMSAgent. 
+  2. To apply the updates, run Install-CcOMSAgent.
 
 - **For all scenarios, verify that the agents are connected as follows:**
 
-    In the OMS portal, go to Settings -\> Connected Sources -\> Windows Servers. You will see a list of connected machines. 
+    In the OMS portal, go to Settings -\> Connected Sources -\> Windows Servers. You will see a list of connected machines.
 
 ## Configure OMS
 
@@ -89,24 +89,24 @@ Next, you will need to specify your OMS configuration by using the OMS portal. S
 
 - Specify information about event logs and performance counters.
 
-- Create alerts. 
+- Create alerts.
 
 ### Specify information about event logs and performance counters
 
 In the OMS portal, you must specify information about the event logs and performance counters as follows:
 
-1. Go to Settings-\>Data-\>Windows Event logs, and add event logs for: 
+1. Go to Settings-\>Data-\>Windows Event logs, and add event logs for:
 
    - Lync Server
 
    - Application
 
      > [!NOTE]
-     > You must manually enter Lync Server in the text box. It does not appear as an option in the drop-down list. 
+     > You must manually enter Lync Server in the text box. It does not appear as an option in the drop-down list.
 
      For more information, see [Windows event log data sources in Log Analytics](/azure/log-analytics/log-analytics-data-sources-windows-events)
 
-2. Go to Settings-\>Data-\> Windows Performance Counters, and add performance counters for: 
+2. Go to Settings-\>Data-\> Windows Performance Counters, and add performance counters for:
 
    - **OS level counters**. You can add OS level counters, such as processor usage, memory usage, network usage, or you can use existing solutions such as Capacity and Performance, Network Performance Monitor without adding counters explicitly. No matter how you decide to monitor them, Microsoft recommends that you monitor these OS counters.
 
@@ -114,18 +114,18 @@ In the OMS portal, you must specify information about the event logs and perform
 
      Total active calls:
 
-	   - LS:MediationServer - Inbound Calls(_Total)\- Current 
+     - LS:MediationServer - Inbound Calls(_Total)\- Current
 
-	   - LS:MediationServer - Outbound Calls(_Total)\- Current 
+     - LS:MediationServer - Outbound Calls(_Total)\- Current
 
      Total active media bypass calls:
 
-	   - LS:MediationServer - Inbound Calls(_Total)\- Active media bypass calls 
+     - LS:MediationServer - Inbound Calls(_Total)\- Active media bypass calls
 
-	   - LS:MediationServer - Outbound Calls(_Total)\- Active media bypass calls 
+     - LS:MediationServer - Outbound Calls(_Total)\- Active media bypass calls
 
      > [!NOTE]
-     > You must manually enter the performance counters in the text box. They do not appear as options in the drop-down list. 
+     > You must manually enter the performance counters in the text box. They do not appear as options in the drop-down list.
 
      For more information, see [Windows and Linux performance data sources in Log Analytics](/azure/log-analytics/log-analytics-data-sources-performance-counters)
 
@@ -135,19 +135,19 @@ There are two types of alerts in OMS: Number of results alerts and Metric measur
 
 You should consider the following when creating alerts:
 
-- Make sure the alert is a Number-of-results alert, which is the default selection. 
+- Make sure the alert is a Number-of-results alert, which is the default selection.
 
-- The demo queries require that "Number of results" is set to "Greater than 0". 
+- The demo queries require that "Number of results" is set to "Greater than 0".
 
-- It is recommended that you set both Time window and Alert frequency to 5 minutes. 
+- It is recommended that you set both Time window and Alert frequency to 5 minutes.
 
-- It is recommended that you do not enable "Suppress alerts" for demo alerts. 
+- It is recommended that you do not enable "Suppress alerts" for demo alerts.
 
 - For typical alert scenarios, Microsoft recommends creating a pair of alerts: one error alert and one reset alert. For the error alert, select severity level Critical; for the reset alert, select severity level Informational .
 
 The following sections describe how to create sample alerts.
 
- **Create an alert pair: "RTCMEDSRV is NOT running in Mediation Servers" and "RTCMEDSRV is back in running in Mediation Servers"**
+#### Create an alert pair: "RTCMEDSRV is NOT running in Mediation Servers" and "RTCMEDSRV is back in running in Mediation Servers"
 
 To create this alert pair:
 
@@ -161,7 +161,7 @@ To create this alert pair:
 
      You would replace the filter with your own computer filter or simply remove it. You can create complex string filters without regular expressions. You can also choose to use regular expressions. Moreover, you can create a computer group by saving a search query and using that group as your computer filter in your alert query. For more information, see [Computer groups in Log Analytics log searches](/azure/log-analytics/log-analytics-computer-groups).
 
-    For each computer, the error query will get the last event log for both the RTCMEDSRV service start and service stop. It will return one log if the last event is the service stop event; it will return nothing if the last event is the service start event. In short, the query would return a list of servers whose RTCMEDSRV is stopped in the time window. 
+    For each computer, the error query will get the last event log for both the RTCMEDSRV service start and service stop. It will return one log if the last event is the service stop event; it will return nothing if the last event is the service start event. In short, the query would return a list of servers whose RTCMEDSRV is stopped in the time window.
 
 - The query for the reset alert is:
 
@@ -171,7 +171,7 @@ To create this alert pair:
 
     The reset query does exactly the opposite thing of the error query. For each computer, it will return one if the last event is the service start event; it will return nothing if the last event is the service stop event.
 
-**Create an alert pair: " Too many concurrent calls in Mediation Servers" and "Concurrent calls fall back to normal load"**
+#### Create an alert pair: " Too many concurrent calls in Mediation Servers" and "Concurrent calls fall back to normal load"
 
 To create this alert:
 
@@ -191,7 +191,7 @@ To create this alert:
 
     The reset query does exactly the opposite thing of the error query. For each computer, the query will get the last counters for inbound call and outbound call and sum those two values. It will return one log if the sum value is less than 500; it will return nothing otherwise.
 
-**Create an alert: "CPU usage \> 90 or RTCMEDIARELAY stopped in Servers" alert**
+#### Create an alert: "CPU usage \> 90 or RTCMEDIARELAY stopped in Servers" alert
 
 To create this alert, the query is:
 
@@ -199,7 +199,7 @@ To create this alert, the query is:
 search *| where Computer contains "MediationServer" | where (Type == "Perf" or Type == "Event") | where ((ObjectName ==  "Processor" and CounterName == "% Processor Time") or EventLog == "Lync Server") | where (CounterValue > 90 or EventID == 22003)
 ```
 
-The query will get all processor usage counter and service stop event from all computers and return one log if either processor usage exceeds 90% or service is ever stopped. 
+The query will get all processor usage counter and service stop event from all computers and return one log if either processor usage exceeds 90% or service is ever stopped.
 
 ## Analyze the alerts in your Log Analytics repository
 
@@ -207,7 +207,7 @@ To analyze the alerts in your repository, use the Alert Management solution. For
 
 ## Recommended minimal monitoring set
 
-To identify issues with event logs and performance counters: 
+To identify issues with event logs and performance counters:
 
 - **Event logs.** For any issue, there should be an events pair, with one set of events to indicate something is wrong, while the other indicates that everything is well. For any given time period, it is the last event recorded that will indicate whether something is amiss for that time period.
 
@@ -233,9 +233,9 @@ The following table lists the network issues that Microsoft recommends monitorin
 
 The following lists the call capacity counters that should be monitored. These numbers should be less that 500 for Cloud Connector standard edition; less than 50 for Cloud Connector minimum edition.
 
-- LS:MediationServer - Inbound Calls(_Total)\- Current 
+- LS:MediationServer - Inbound Calls(_Total)\- Current
 
-- LS:MediationServer - Outbound Calls(_Total)\- Current 
+- LS:MediationServer - Outbound Calls(_Total)\- Current
 
 - LS:MediationServer - Inbound Calls(_Total)\- Active media bypass calls
 

@@ -1,7 +1,7 @@
 ---
 title: "Enable Teams Rooms devices to join third-party meetings"
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: sohailta
 audience: ITPro
@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 description: "This article discusses how to configure your organization and Teams Rooms devices to support third-party meeting joining to Cisco WebEx and Zoom."
 ---
 
-# Enable Teams Room devices to join third-party meetings
+# Enable Teams Rooms devices to join third-party meetings
 
 > [!NOTE]
 > This feature is currently only available on Teams Rooms on Windows.
@@ -60,8 +60,8 @@ To enable the one-touch join experience, meeting join link information from the 
 
 Here are some example entries that you may need to add to your Defender for Office 365 Safe Links *Do not rewrite* list or third-party URL rewrite exception list:
 
-- **Cisco WebEx** `*.webex.com*`
-- **Zoom** `*.zoom.us*`, `*.zoom.com*`, `*.zoomgov.com*`
+- **Cisco WebEx** `*.webex.com/*`
+- **Zoom** `*.zoom.us/*`, `*.zoom.com/*`, `*.zoomgov.com/*`
 
 For a complete list of URLs to add to your Defender for Office 365 Safe Links *Do not rewrite* list or third-party URL rewrite exception list, contact the third-party meeting service provider you want to accept meeting invites from.
 
