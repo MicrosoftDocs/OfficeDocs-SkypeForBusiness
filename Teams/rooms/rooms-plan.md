@@ -1,7 +1,7 @@
 ---
 title: "Plan for Microsoft Teams Rooms"
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
