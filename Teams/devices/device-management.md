@@ -1,7 +1,7 @@
 ---
 title: Manage your devices in Microsoft Teams
-author: cazawideh
-ms.author: czawideh
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
