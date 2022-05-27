@@ -90,8 +90,8 @@ Teams Rooms is governed by the Modern Lifecycle Policy. See [Teams update proces
 ### 4.12.138.0 (5/26/2022)
 
 Introduced in this update:
-- Bug fix for Jabra Panacast 50
-- Bug fix for Cross Cloud Anonymous meeting join
+- Bug fix for multiple simultaneous video streams from Jabra Panacast 50 (meeting video, content camera video)
+- Cross-cloud meetings can now use default conferening audio device
 - Quality and reliability fixes
 
 ### 4.12.126.0 (4/27/2022)
