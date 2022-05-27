@@ -97,7 +97,7 @@ Use org-wide app settings to control whether users can install third-party apps.
 
 1. On the **Manage Apps** page, select **Org-wide app settings**. You can then configure the settings you want in the panel.
 
-  ![Screenshot of org-wide app settings in GCC.](media/app-permission-policies-gcc-org-wide.png)
+   ![Screenshot of org-wide app settings in GCC.](media/app-permission-policies-gcc-org-wide.png)
 
 1. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps:
 
