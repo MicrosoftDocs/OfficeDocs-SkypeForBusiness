@@ -53,7 +53,7 @@ Users can participate if they've previously started a trial, but can't initiate 
 
 ## Set up the trial
 
-Eligible users can start a Frontline Trial by signing into the Tasks app in Teams from the desktop or [web app](https://teams.microsoft.com/_#/apps/com.microsoft.teamspace.tab.planner/sections/mytasks). At this time, starting a Frontline Trial through mobile is not supported. When a trial is initiated, the entire team will be assigned the Frontline Trial license automatically. Users with existing paid licenses that give them access to Teams will also be assigned trial licenses, but will maintain the functionality of their existing licenses throughout the trial, and will keep their existing paid licenses after the trial ends. The user who started the trial will receive email notifications throughout the course of the trial. [Learn how users can start and manage a trial](link to end user docs).
+Eligible users can start a Frontline Trial by signing into the Tasks app in Teams from the desktop or [web app](https://teams.microsoft.com/_#/apps/com.microsoft.teamspace.tab.planner/sections/mytasks). At this time, starting a Frontline Trial through mobile is not supported. When a trial is initiated, the entire team will be assigned the Frontline Trial license automatically. Users with existing paid licenses that give them access to Teams will also be assigned trial licenses, but will maintain the functionality of their existing licenses throughout the trial, and will keep their existing paid licenses after the trial ends. The user who started the trial will receive email notifications throughout the course of the trial.
 
 ## Manage the frontline trials experience
 
@@ -109,13 +109,13 @@ After you assign the new licenses, unassign the Teams Exploratory licenses. See 
 The Frontline Trial lasts for 90 days.
 
 **What should administrators do at the end of the 90-day Frontline Trial experience?** <br>
-At the end of the 90-day trial, you'll need to check with your users to see who needs to continue with a paid license. Then you'll need to [Upgrade your users](#upgrade-users-from-frontline-trial)
+At the end of the 90-day trial, you'll need to check with your users to see who needs to continue with a paid license. Then you'll need to [Upgrade your users](#upgrade-users-from-frontline-trial).
 
 **What happens if the user who started the trial leaves your organization?** <br>
 You as admin will need to monitor the trial for the rest of the 90-day period, and upgrade to paid licenses for users who need them when the trial ends.
 
 **What is the data retention policy?** <br>
-You can learn about data retention from the [Microsoft 365 subscription information](/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires?)
+You can learn about data retention from the [Microsoft 365 subscription information](/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires?).
 
 **What if a user encounters an error when starting the Frontline Trial?** <br>
 Make sure that your organization, the user starting the trial, and the users being added to the trial meet the [eligibility criteria](#eligibility).
