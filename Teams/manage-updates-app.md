@@ -29,11 +29,11 @@ The Updates in Microsoft Teams app provides a centralized place for members of y
 
 In Teams, users can get Updates from the Teams app store. They'll see all of the updates they need to submit on the **Submit** page.
 
-[![Image of the Submit page in Teams for desktop.](media/updates-submit-small.png)](media/updates-submit.png)
+[![Image of the Submit page in Teams for desktop.](media/updates-submit-small.png)](media/updates-submit.png#lightbox)
 
 Users can view updates they've assigned in the **Review** page.
 
-[![Image of the Review page in Teams for desktop.](media/updates-home-small.png)](media/updates-home.png)
+[![Image of the Review page in Teams for desktop.](media/updates-home-small.png)](media/updates-home.png#lightbox)
 
 When a user is assigned an update, it will show up in their Teams activity feed. Users can also view all their current update requests and previous submissions in the Updates app. In addition, anyone can create templates and send out update requests.
 
@@ -105,7 +105,7 @@ The Updates app is available by default. You can disable the app in the Teams ad
 
   3. Search for the Updates app.
 
-     [![Screenshot of the Admin center navigation with Teams Apps > Manage Apps highlighted.](media/manage-updates-small.png)](media/manage-updates.png)
+     [![Screenshot of the Admin center navigation with Teams Apps > Manage Apps highlighted.](media/manage-updates-small.png)](media/manage-updates.png#lightbox)
 
   4. Select **Updates**.
 
