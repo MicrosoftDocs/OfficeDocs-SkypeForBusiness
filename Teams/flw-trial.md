@@ -89,19 +89,19 @@ Near the end of the 90-day trial, you'll need to check with your users to see wh
 
 Depending on the subscriptions your organization currently has, there are three ways to upgrade from a Frontline Trial to a paid license:
 
-- **Upgrade an existing Microsoft 365 subscription.** Use this option if your organization has subscriptions to other Office products that don’t include Teams. For more information, see <a href="/microsoft-365/commerce/subscriptions/upgrade-to-different-plan?view=o365-worldwide" target="_blank">Upgrade to a different plan</a>. To see active users for an existing subscription, go to **Users >** <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"><b>Active users</b></a> in the Microsoft 365 admin center.
+- **Upgrade an existing Microsoft 365 subscription.** Use this option if your organization has subscriptions to other Office products that don’t include Teams. For more information, see [Upgrade to a different plan](/microsoft-365/commerce/subscriptions/upgrade-to-different-plan). To see active users for an existing subscription, go to **Users >** [Active users](https://go.microsoft.com/fwlink/p/?linkid=834822) in the Microsoft 365 admin center.
 
-- **Add users to an existing Microsoft 365 subscription.** Use this option if your organization doesn’t have enough paid Teams licenses to cover your frontline team. For more information, see <a href="/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide" target="_blank">Buy or remove licenses</a>. To add users to an existing subscription that already has enough available licenses, see <a href="/microsoft-365/commerce/subscriptions/move-users-different-subscription?view=o365-worldwide" target="_blank">Move users to a different subscription</a>. To see active users for an existing subscription, go to **Users >** <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"><b>Active users</b></a> in the Microsoft 365 admin center.
+- **Add users to an existing Microsoft 365 subscription.** Use this option if your organization doesn’t have enough paid Teams licenses to cover your frontline team. For more information, see [Buy or remove licenses](/microsoft-365/commerce/licenses/buy-licenses). To add users to an existing subscription that already has enough available licenses, see [Move users to a different subscription](/microsoft-365/commerce/subscriptions/move-users-different-subscription). To see active users for an existing subscription, go to **Users >** [Active users](https://go.microsoft.com/fwlink/p/?linkid=834822) in the Microsoft 365 admin center.
 
 - **Buy a new Microsoft 365 subscription.** Use this option if your organization doesn’t have any existing subscriptions to Office products, or if your organization wants to buy a subscription that’s different from their existing subscription to cover frontline users. For more information, see [Microsoft 365 for frontline workers](https://www.microsoft.com/microsoft-365/enterprise/frontline).
 
-If you’re not sure which Microsoft 365 subscription to upgrade to, see [Microsoft 365 for frontline workers](https://www.microsoft.com/microsoft-365/enterprise/frontline). If you need additional help choosing a subscription, or if your organization needs more than 300 licenses, contact your <a href="https://www.microsoft.com/solution-providers/home" target="_blank">Microsoft partner</a> or Microsoft account representative.
+If you’re not sure which Microsoft 365 subscription to upgrade to, see [Microsoft 365 for frontline workers](https://www.microsoft.com/microsoft-365/enterprise/frontline). If you need additional help choosing a subscription, or if your organization needs more than 300 licenses, contact your [Microsoft partner](https://www.microsoft.com/solution-providers/home) or Microsoft account representative.
 
 ### Assign paid licenses
 
-To assign your newly acquired licenses, see <a href="/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide&viewFallbackFrom=o365-worldwide%22%20%5C" target="_blank">Assign licenses to users</a>.  
+To assign your newly acquired licenses, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).  
 
-After you assign the new licenses, unassign the Teams Exploratory licenses. See <a href="/microsoft-365/admin/manage/remove-licenses-from-users?view=o365-worldwide" target="_blank">Unassign licenses from users</a>, for more information.
+After you assign the new licenses, unassign the Teams Exploratory licenses. See [Unassign licenses from users](/microsoft-365/admin/manage/remove-licenses-from-users), for more information.
 
 ## FAQ
 
