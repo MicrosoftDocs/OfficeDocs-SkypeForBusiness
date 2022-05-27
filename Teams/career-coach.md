@@ -218,123 +218,166 @@ To configure Career Coach settings and enable it for users, you must be a global
 
 To effectively enable Career Coach for students, faculty, and staff, the following settings are required:
 
-- [Brand and preferences](#brand-and-preferences) - required
-- [LinkedIn connection](#linkedin-connection) - required
-- [Course catalog](#course-catalog) - required
-- [Fields of study](#fields-of-study) - required
+- [Brand and preferences](#brand-and-preferences)
+- [LinkedIn connection](#linkedin-connection)
+- [Course catalog](#course-catalog)
+- [Fields of study](#fields-of-study)
 
 > [!TIP]
 > Quickly navigate from one category to another by selecting **Career Coach** path located at the top of the page in the format `Manage apps\Career Coach\Setting label`.
 
 ### Brand and preferences
 
-Customize Career Coach to match your educational institution’s brand. You are responsible for respecting others' rights, including copyright and trademark rights.
+Customize Career Coach to match your educational institution’s brand. You're responsible for respecting others' rights, including copyright and trademark rights.
 
 > [!IMPORTANT]
-> This is a required section - Career Coach can not be enabled without the Brand and preferences submitted.
+> This is a required section. Career Coach can't be enabled without **Brand and preferences** submitted.
 
-![the Career Coach branding section of the admin center.](media/career-coach-brand.png)
+1. Sign into the **[Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851)**.
 
-1. Sign in to the **[Teams admin center](https://admin.teams.microsoft.com)**.
+2. Select **Teams apps** > **Manage apps** > **Career Coach** > **Settings** > **Edit brand and preferences**.
 
-2. Select **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** > **Career Coach** > **Brand and preferences**.
+3. Under **Branding**, add **Organization name**.
 
-3. Upload the **educational institution icon**. The icon is used throughout Career Coach to identify content unique to your educational institution, course catalog resources throughout the app, and on the real-world experiences section of the dashboard. The icon is best formatted as:
+4. Upload the **Organization icon**. The icon is used throughout Career Coach to identify content unique to your educational institution, course catalog resources throughout the app, and on the real-world experiences section of the dashboard.
+
+    The icon is best formatted as:
 
     - A transparent PNG
     - Aspect ratio of 1:1
     - Maximum size of 64 px x 64 px
 
-4. Upload the **educational institution thumbnail**. The thumbnail will be used for course catalog resources throughout the app when a specific image isn't available for a course. The thumbnail is best formatted as:
+5. Upload the **Learning content thumbnail image**. The thumbnail will be used for course catalog learning resources throughout the app when a specific image isn't specified for a course offered by your educational institution.
+
+    The thumbnail is best formatted as:
 
     - A PNG
     - Aspect ratio of 16:9
     - Maximum size of 360 px x 200 px
 
-5. Add the **educational institution's privacy policy URL**. If added, the institution's privacy policy will be available for students to review in the Career Coach app.
+6. Add the **Organization privacy policy URL**. If added, the institution's privacy policy will be available for students to review in Career Coach.
 
-6. Select **Submit**.
+7. Select **Submit**.
+
+8. To confirm settings were submitted successfully, check [Career Coach configuration status](#configuration-status) for **Complete**.
+
+![the Career Coach branding section of the admin center.](media/career-coach-brand.png)
 
 ### LinkedIn connection
 
-The LinkedIn configuration connects Career Coach with public alumni data from LinkedIn.
+The LinkedIn connection setting connects Career Coach with public alumni data from your institution’s LinkedIn School page.
+
+This step can only be completed if [LinkedIn account connections are enabled in Azure Active Directory](#turn-on-linkedin-account-connections). The LinkedIn connection setting enables the [Build your Network](https://support.microsoft.com/topic/career-coach-quick-start-guide-for-students-c419db47-9290-4961-9684-c3f86a9b3708#bkmk_build_your_network) and [Explore Careers](https://support.microsoft.com/topic/career-coach-quick-start-guide-for-students-c419db47-9290-4961-9684-c3f86a9b3708#bkmk_discover_your_career_path) features.
 
 > [!IMPORTANT]
-> This is a required section - Career Coach can not be enabled without the LinkedIn page connection verified.
+> This is a required section. Career Coach can't be enabled without the LinkedIn school page connection verified.
 
-#### Add the LinkedIn page
-  
-1. Sign in to the **[Teams admin center](https://admin.teams.microsoft.com)**.
+#### Add the LinkedIn School Page URL
 
-2. Select **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** > **Career Coach** > **LinkedIn connection**.
+The process of adding the LinkedIn School Page URL is handled by a Teams Administrator. The subsequent step of verifying the URL is completed by your educational institution’s LinkedIn School page Super admin.
 
-3. Find the LinkedIn page by searching on LinkedIn and selecting the **School** filter. Or connect with a career services staff member to determine the correct LinkedIn school page to use. For more information, see [How to identify LinkedIn pages](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en).
+1. Sign into the **[Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851)**.
+
+2. Select **Teams apps** > **Manage apps** > **Career Coach** > **Settings** > **LinkedIn connection**.
+
+3. Select **Connect to LinkedIn**.
+
+4. Find your institution's LinkedIn school page by searching on LinkedIn and selecting the **School** filter. Or connect with a marketing staff member at your institution to determine the correct LinkedIn School page to use. For more information, see [How to identify LinkedIn pages](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en).
 
     ![linkedin search for school.](media/career-coach-school-search.png)
 
-4. Add the LinkedIn school page URL. The URL must be a school page and not a company page and are typically formatted as `https://www.linkedin.com/school/willow-university/`.
+5. Add the **LinkedIn School Page URL**. The URL must be a *school page*, not a *company page*, and is typically formatted as `https://www.linkedin.com/school/willow-university/`.
 
    ![linkedin school page example.](media/career-coach-linkedin-page-url.png)
 
-5. Select **Submit**.
+6. Select **Submit**.
 
-#### Verify the LinkedIn page
+7. After the **LinkedIn School Page URL** is successfully submitted, the settings page will update to show the **Verification link** and **Verification link expiration**. The verification link expires after thirty days.
 
-> [!IMPORTANT]
-> The verification must be completed by your educational institution’s LinkedIn page super admin.
+8. Copy the **Verification link** and share it with your educational institution’s LinkedIn School page Super admin.
 
-1. If successfully submitted, the page will be updated to show the **Verification link** and **Verification link expiration**. The verification link expires after 30 days.
+9. The LinkedIn School page Super admin will use the unique verification link to [verify the LinkedIn School page](#verify-the-linkedin-school-page) and associate it with Career Coach.
+
+10. To confirm the verification and settings were submitted successfully, check that the [Career Coach configuration status](#configuration-status) is marked **Complete**.
+
+#### Verify the LinkedIn school page
+
+The LinkedIn School Page verification must be completed by your educational institution’s [LinkedIn School page Super admin](https://www.linkedin.com/help/linkedin/answer/a541981).
+
+You can check your LinkedIn account’s admin roles by signing into LinkedIn and visiting your educational institution’s LinkedIn school page. If your account is assigned a Super admin role, you'll see **Super admin view** listed next to your educational institution’s name on the LinkedIn page. If you don't see the **Super admin view** tag, then you're not a Super admin for your school’s page.
+
+1. After the **LinkedIn School Page URL** is submitted by the Teams administrator, the page will show the **Verification link** and **Verification link expiration**. The verification link expires after thirty days.
 
    ![linkedin connections for the career coach app.](media/career-coach-linked-in.png)  
 
-2. Copy the verification link and share it with your educational institution’s LinkedIn page super admin. Learn more about the LinkedIn page super admin role in the [LinkedIn page admin documentation](https://www.linkedin.com/help/linkedin/answer/102672).
+2. Copy the verification link and share it with your LinkedIn School page Super admin.
 
-3. The LinkedIn page super admin will use the unique verification link to associate Career Coach with your school's page. See [Additional documentation about LinkedIn page verification](https://www.linkedin.com/help/linkedin/answer/102672) for more information.
+3. The LinkedIn page Super admin will open the verification link to associate Career Coach with your school's page. For more information, see [Additional documentation about LinkedIn page verification](https://www.linkedin.com/help/linkedin/answer/102672).
+
+4. Once verification is complete, the Teams administrator can view whether the settings were submitted successfully by checking if the [Career Coach configuration status](#configuration-status) is marked **Complete**.
 
    ![linkedin page verification in the linkedin developer portal.](media/career-coach-linkedin-verification.png)
 
 ### Course catalog
 
-The course catalog represents the courses and classes offered to students by your educational institution.
+The course catalog records the courses and classes offered by your educational institution.
+
+Career Coach uses course catalog data to identify a student’s skills from their transcript and to suggest courses to take.
 
 > [!IMPORTANT]
-> This is a required section - Career Coach can not be enabled without a course catalog.
+> This is a required section. Career Coach can't be enabled without a course catalog.
 
-These courses are used within the app in two areas:
+These courses are used within Career Coach in two areas:
 
-- Courses are returned as part of learning resources.  
+- Courses are returned as part of [learning resources](https://support.microsoft.com/topic/career-coach-quick-start-guide-for-students-c419db47-9290-4961-9684-c3f86a9b3708#bkmk_grow_real_world_skills).  
 
-- Courses and course meta data, like descriptions, are used to help students identify their skills when they upload a transcript.  
+- Courses and course metadata, like course titles and descriptions, are used to help students identify their skills when they [upload a transcript](https://support.microsoft.com/topic/career-coach-quick-start-guide-for-students-c419db47-9290-4961-9684-c3f86a9b3708#bkmk_Set_up_your_profile).
 
-To create the course catalog, put together a list of all courses taught at your educational institution and upload it as a CSV file. The app draws from the course catalog to identify a student’s skills from their transcript and to suggest courses to take.
+To create the course catalog, put together a list of all courses taught at your educational institution and upload it as a CSV file using the [course catalog document format and schema](#course-catalog-document-format-and-schema).
+
+> [!TIP]
+> Start with the [sample course catalog](https://aka.ms/career-coach/docs/it-admins/sample-catalog) document to ensure proper formatting.  You can also reference the [course catalog document format and schema](#course-catalog-document-format-and-schema) sections for details on required and recommended fields.
 
 #### Add the course catalog
 
-1. Sign in to the **[Teams admin center](https://admin.teams.microsoft.com)**.
+1. Sign into the **[Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851)**.
 
-1. Select **Teams apps** &gt; **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **Career Coach** &gt; **Settings** &gt;  **Course catalog**.
+2. Select **Teams apps** > **Manage apps** > Search **Career Coach** > **Settings** > **Course catalog**.
 
-2. Upload courses in CSV format with the required columns: courseId, title, and sourceLink. Each row must include data for each of the required columns. _Including the recommended fields improves the experience for students by returning better search results and skill identification._
+3. Select **Upload Course Catalog** > Upload courses in CSV format with the required columns: courseId, title, and sourceLink.
+    1. Each row must include data for each of the required columns.
+    1. *Including the recommended fields improves the experience for students by returning better search results and skill identification.*
 
-4. Select **Submit**.
+4. A preview of a section of the uploaded course catalog will appear for your reference.
 
-   ![the course catalog section of the career coach app.](media/course-catalog.png)
+5. Select **Submit** when ready.
+
+6. The [status of the uploaded document](#course-catalog-status) is shown in the settings page.
+
+7. To confirm settings were submitted successfully, check that the [Career Coach configuration status](#configuration-status) is marked **Complete**.
+
+> [!TIP]
+> To upload a new file, ensure the last file is cleared by selecting (X) to close the document preview. This action will allow the **Upload** button to display again.
+
+![the course catalog section of the career coach app.](media/course-catalog.png)
 
 #### Course catalog document format and schema
 
-The document needs to be in CSV format with a maximum size of 18 MB. The document must contain the required fields **course title**, **course ID**, and **course URL**. 
+The document needs to be in CSV format with a maximum size of 18 MB. Large files should be split into multiple smaller files that include a maximum of 15,000 rows for successful processing.
+
+The document must contain the required course metadata: **course title**, **course ID**, and **course URL**.
 
 > [!TIP]
-> Start with the [sample course catalog]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) document to ensure proper formatting. _Including the recommended fields improves the experience for students by returning better search results and skill identification._
+> Start with the [sample course catalog]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) document to ensure proper formatting. *Including the recommended fields improves the experience for students by returning better search results and skill identification.*
 
 The following table shows the items to include in the course catalog:
 
 | Name             | Status      | Type   | Description                                                                    |
 |------------------|-------------|--------|--------------------------------------------------------------------------------|
-| courseId         | Required    | string | Usually the course id (Typically maps to what is generated in the transcript). |
-| title            | Required    | string | Usually the course title.                                                      |
-| sourceLink       | Required    | URL    | Website link to the course page.                                               |
-| description      | Recommended | string | Introduction text for the course.                                              |
+| courseId         | Required    | string | The course id maps to what is generated in the student transcript.             |
+| title            | Required    | string | The course title.                                                              |
+| sourceLink       | Required    | URL    | Website link to the course page to learn more about the course and syllabus.   |
+| description      | Recommended | string | Introduction text for the course that describes the learning objectives.       |
 | language         | Recommended | string | Language of the course. Use standard language codes.                           |
 | format           | Recommended | string | Mode of teaching (online, video, in person).                                   |
 | thumbnailLink    | Recommended | URL    | Thumbnail link to the course image.                                            |
@@ -342,12 +385,34 @@ The following table shows the items to include in the course catalog:
 | educationLevel   | Recommended | string | Study level, ex. Undergraduate/Graduate.                                       |
 | topics           | Recommended | string | Topics or tags that are associated with the skills the courses teach.          |
 
+### Course catalog status
+
+The course catalog status is shown on the Course catalog settings page once a document has been uploaded, providing details of the document upload and processing status.
+
+During processing, Career Coach will analyze your document for duplicates, normalize and enrich your catalog by extracting skills from titles and descriptions, and store it for use on the Learn page and during student transcript uploads for skill identification.
+
+![the course catalog upload status of the career coach app.](media/career-coach-course-catalog-status.png)
+
+| Column           | Value     | Description                                                                                        |
+| ---------------- | --------- | -------------------------------------------------------------------------------------------------- |
+| Time uploaded    | Timestamp | Date and time an IT admin uploaded a document.                                                     |
+| Time completed   | Timestamp | Date and time the document was processed completely.                                               |
+| Courses uploaded | Integer   | Number of courses found in the document.                                                           |
+| Ingestion status | Pending   | Document in queue for processing.                                                                  |
+| Ingestion status | Running   | Document is currently be processed. This process can take up to 60 minutes.                        |
+| Ingestion status | Success   | Ingestion process is complete and courses and will be available in app once completely configured. |
+| Ingestion status | Failed    | Check the document format and re-upload.                                                           |
+| Duplicates       | Integer   | Number of duplicate courses found in the document.                                                 |
+
+> [!NOTE]
+> If a column in the course catalog status is blank, the document is currently being processed, and those values aren't available. This process can take up to 6 hours depending on the size of your catalog. Once the document has been processed, the values will be populated. You can refresh the page to check for updates.
+
 ### Fields of study
 
-The fields of study are synonymous with major areas of interest, academic major, and degree. These titles are referenced by students when they start using the app and begin setting up their personalized profile.
+The fields of study are synonymous with major areas of interest, academic major, and degree. These fields of studies are referenced by students when they start using Career Coach and begin setting up their personalized profile.
 
 > [!IMPORTANT]
-> This is a required section - Career Coach can not be enabled without a list of fields of study.
+> This is a required section. Career Coach can not be enabled without a list of fields of study.
 
 #### Add the fields of study
 
@@ -453,27 +518,6 @@ The configuration status section of the app settings page will display the curre
 
 > [!NOTE]
 > Once all steps are marked as complete the app can be successfully released to your tenant and assign Career Coach licenses. For step-by-step instructions, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide).
-
-### Course catalog status
-
-The course catalog status is shown on the Course catalog settings page once a document has been uploaded, providing details of the document upload and processing.
-
-
-![the course catalog upload status of the career coach app.](media/career-coach-course-catalog-status.png)
-
-| Column           | Value     | Description                                                                                        |
-| ---------------- | --------- | -------------------------------------------------------------------------------------------------- |
-| Time uploaded    | Timestamp | Date and time an IT admin uploaded a document.                                                     |
-| Time completed   | Timestamp | Date and time the document was processed completely.                                               |
-| Courses uploaded | Integer   | Number of courses found in the document.                                                           |
-| Ingestion status | Pending   | Document in queue for processing.                                                                  |
-| Ingestion status | Running   | Document is currently be processed. This process can take up to 60 minutes.                        |
-| Ingestion status | Success   | Ingestion process is complete and courses and will be available in app once completely configured. |
-| Ingestion status | Failed    | Check the document format and reupload.                                                            |
-| Duplicates       | Integer   | Number of duplicate courses found in the document.                                                 |
-
-> [!NOTE]
-> If a column is blank, the document is currently being processed and those values are not available. Once the document has been processed the values will be populated. You can refresh the page to check for updates.
 
 ## Troubleshooting
 
