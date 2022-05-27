@@ -59,27 +59,29 @@ Here are some of the capabilities you have on the mobile app for managing ticket
 
 ### Ticket messages
 
-![MTMS mobile application ticket messages loading screen](../media/mtms-mobile-app-017-ticketmessage2.png)
-### Ticket attachment
+![MTMS mobile application ticket messages loading screen](../media/mtms-mobile-app-003.png)
+### Ticket attachments
 
-![MTMS mobile application ticket attachments](../media/mtms-mobile-app-007attachments.png)
+![MTMS mobile application ticket attachments](../media/mtms-mobile-app-007.png)
 ### Ticket details
 
-![MTMS mobile application ticket details screen](../media/mtms-mobile-app-005-unhealthycamera.png)
+![MTMS mobile application ticket details screen](../media/mtms-mobile-app-002.png)
+![MTMS mobile application ticket details screen](../media/mtms-mobile-app-004.png)
+### Track active investigations
 ### Track active investigations
 
-![MTMS mobile application track active investigations screen](../media/mtms-mobile-app-020-ticketdetail.png)
+![MTMS mobile application track active investigations screen](../media/mtms-mobile-app-010.png)
 ### Report an incident
 
-![MTMS mobile application report incident](../media/mtms-mobile-app-012reportincident.png)
+![MTMS mobile application report incident](../media/mtms-mobile-app-002.png)
 ### View an incident by category
 
-![MTMS mobile application  Rooms problems screen](../media/mtms-mobile-app-018-incidentsbycategory.png)
+![MTMS mobile application  Rooms problems screen](../media/mtms-mobile-app-001.png)
 ### Managed Security with Microsoft Defender
 
-![MTMS mobile application managed security screen](../media/mtms-mobile-app-019-securityissues.png)
+![MTMS mobile application managed security screen](../media/mtms-mobile-app-009.png)
 ### Communication with experts
-![MTMS mobile application Messages screen](../media/mtms-mobile-app-021-ticketmessage.png)
+![MTMS mobile application Messages screen](../media/mtms-mobile-app-008.png)
 ### Sign out
 
 ![MTMS mobile application signout page page](../media/mtms-mobile-app-011-signout.png)
