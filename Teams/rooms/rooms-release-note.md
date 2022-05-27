@@ -91,7 +91,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. See [Teams update proces
 
 Introduced in this update:
 - Bug fix for multiple simultaneous video streams from Jabra Panacast 50 (meeting video, content camera video)
-- Cross-cloud meetings can now use default conferening audio device
+- Cross-cloud meetings can now use default conferencing audio device
 - Quality and reliability fixes
 
 ### 4.12.126.0 (4/27/2022)
