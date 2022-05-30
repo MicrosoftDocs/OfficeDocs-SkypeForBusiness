@@ -7,7 +7,7 @@ ms.date: 09/30/2021
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.collection: 
+ms.collection:
   - M365-voice
   - m365initiative-voice
 ms.reviewer: crowe
@@ -16,10 +16,10 @@ f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
 description: Learn more about SIP Gateway, such as requirements and benefits.
-ms.custom: 
+ms.custom:
  - seo-marvel-apr2020
  - seo-marvel-jun2020
-appliesto: 
+appliesto:
   - Microsoft Teams
 ---
 
@@ -32,18 +32,17 @@ SIP Gateway lets your organization use any compatible SIP device with Microsoft 
 SIP Gateway connects compatible SIP devices to Teams to help your users migrate seamlessly to Teams telephony. Using SIP Gateway, your users can do all of the following:
 
 - **Make calls:** SIP device users can make calls to the Public Switched Telephone Network (PSTN), to other SIP devices, and to Teams and Skype for Business users. SIP device users can only call users who have phone numbers.
-- **Receive calls:** SIP device users can receive a call from the PSTN, from Teams or Skype for Business users who have SIP devices, and from Teams and Skype for Business client applications. The SIP device acts as a Teams endpoint. Inbound calls will also be forked to the user’s SIP device.
+- **Receive calls:** SIP device users can receive a call from the PSTN, from Teams or Skype for Business users who have SIP devices, and from Teams and Skype for Business client applications. The SIP device acts as a Teams endpoint. Inbound calls will also be forked to the user's SIP device.
 - **Multiple simultaneous calls:** A SIP device user in a call can put the call on hold to make or receive other calls. A SIP device user can also conference two calls.
-- **Do not disturb:** A SIP device user can set do not disturb on the device so that the device will not ring for incoming calls. This has no impact on the user’s status on all other Teams endpoints.
+- **Do not disturb:** A SIP device user can set do not disturb on the device so that the device will not ring for incoming calls. This has no impact on the user's status on all other Teams endpoints.
 - **Hold/Resume and Mute/Unmute:** A SIP device user can hold and resume or mute and unmute a call by using the features for those actions on the device.
 - **Voicemail:** SIP device users can listen to electronically stored voice messages that callers leave for them.
 - **Message waiting indicator:** SIP device users can receive notifications that alert them when they have new voicemail messages.
 - **Sign-in and sign-out:** SIP devices users can sign in and sign out of Teams on the device.
 - **Dual-tone multi-frequency:** SIP device users can press number keys to provide input during interactive voice response calls.
-- **Teams meetings:** A SIP device user can join a Teams meeting by dialing the meeting access number. Meeting participants can add a SIP device user to the meeting by dialing out to user’s phone number or simply adding a participant by clicking on ‘Request to Join’ will also alert the user’s SIP device. Guest users from another organization can be added to a Teams meeting by a participant who dials out to a guest user’s number to include that guest.
+- **Teams meetings:** A SIP device user can join a Teams meeting by dialing the meeting access number. Meeting participants can add a SIP device user to the meeting by dialing out to user's phone number or simply adding a participant by clicking on 'Request to Join' will also alert the user's SIP device. Guest users from another organization can be added to a Teams meeting by a participant who dials out to a guest user's number to include that guest.
 - **Call transfers:** SIP device users can transfer calls. SIP Gateway supports both blind and consultative transfers.
-- **Local call forwarding:** A SIP device user can set forwarding rules (always, on timeout, and busy) for the device. If the device is connected to the SIP Gateway, then the call will be redirected to the target address based on the rule that the device user set. To make local call forwarding work, the admin must set the `AllowCallRedirect` attribute in `Set-CsTeamsCallingPolicy` to `Enabled`. 
-
+- **Local call forwarding:** A SIP device user can set forwarding rules (always, on timeout, and busy) for the device. If the device is connected to the SIP Gateway, then the call will be redirected to the target address based on the rule that the device user set. To make local call forwarding work, the admin must set the `AllowCallRedirect` attribute in `Set-CsTeamsCallingPolicy` to `Enabled`.
 
 ## Requirements to use SIP Gateway
 
@@ -51,14 +50,15 @@ Teams users must have a phone number with PSTN calling enabled to use SIP Gatewa
 
 ### Hardware, software, and licenses
 
-If you have a 3PIP or SIP device, you must have: 
+If you have a 3PIP or SIP device, you must have:
+
 - A license for Phone System (via E5 or a standalone license)
 - PSTN enablement (i.e., a phone number) via a Microsoft Teams Calling Plan, Direct Routing, or Operator Connect
 - A Common Area Phone license for any common area devices
 
 ## Compatible devices
 
-|Vendor	   |Model      |Minimum firmware version|Approved firmware version|Remarks|Links|
+|Vendor    |Model      |Minimum firmware version|Approved firmware version|Remarks|Links|
 |----------|-----------|------------|-----------|------------|------------|
 |**Cisco** |           |            |           |Devices running enterprise firmware must be converted to multiplatform firmware. Read the guide at the right to learn how.|[Cisco firmware conversion guide](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-7800-series/guide-c07-742786.html)|
 |          |8832       |11.3.5MPP   |11.3.5MPP  |   |   |

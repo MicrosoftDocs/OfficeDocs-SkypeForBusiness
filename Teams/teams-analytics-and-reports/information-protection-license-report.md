@@ -35,7 +35,7 @@ You must be a Teams service admin to make these changes. See [Use Teams administ
 
     ![Screenshot of  drop down of Teams information protection license report in the Teams admin center with callouts.](../media/teams-info-protection-license-report-dropdown-with-callouts.png "Screenshot of  drop down of Teams information protection license report in the Teams admin center with callouts.")
 
-4. For each category, metrics on users with license, users without license, seeded capacity, and utilized capacity can be viewed. 
+4. For each category, metrics on users with license, users without license, seeded capacity, and utilized capacity can be viewed. 
 
     ![Screenshot of the summary chart of Teams information protection license report in the Teams admin center of change notification with callouts.](../media/teams-info-protection-license-report-chart-with-callouts.png "Screenshot of the summary chart of Teams information protection license report in the Teams admin center of change notification with callouts.")
 
