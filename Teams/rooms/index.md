@@ -1,8 +1,8 @@
 ---
 title: Microsoft Teams Rooms
 ms.reviewer: 
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
