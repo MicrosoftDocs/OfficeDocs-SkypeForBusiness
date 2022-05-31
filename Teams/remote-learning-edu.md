@@ -100,12 +100,12 @@ Teams policies provide the ability to control the options available for specific
 
 ### Create class teams for secure classroom use
 
-Microsoft Teams for Education offers  [specific team types](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67)  for educational use. The [Class team type](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b) is designed for classroom use and comes with specific features that support classroom needs including:  
+Microsoft Teams for Education offers  [specific team types](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67)  for educational use. The [Class team type](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b) is designed for classroom use and comes with specific features that support classroom needs including:  
 
 - Assignments
 - Grades
 - OneNote classroom notebook  
-- [Class Materials folder](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988)  for securing read-only content for students
+- [Class Materials folder](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988)  for securing read-only content for students
 - [Insights](./class-insights.md) to provide real-time data regarding student's engagement, assignments, and well-being for each classroom. 
 - [Early educator access](https://support.microsoft.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78) to set up the class before students are added 
 - The ability to mute disruptive students and other special permissions  
@@ -121,7 +121,7 @@ We'll step through various options to help you choose the right deployment path 
 
 #### Automatic team creation using SDS
 
-Automating team creation saves both IT admins and educators time. It ensures that educators have all their class teams created and ready to set up upon sign in. [School Data Sync (SDS)](/SchoolDataSync) is a free Office 365 Education tool that reads the data from an educational institution's system of record, for example a Student Information System (SIS) or Learning Management system (LMS). SDS uses the data to enrich Office 365 setup in many ways, including creating class teams in bulk and staying in sync with your information system to keep your instructor and student membership updated as enrollment changes. SDS can import data from any system of record and has built-in connectors to many of the world’s existing [SIS vendors](/schooldatasync/frequently-asked-questions#what-sismis-vendors-does-school-data-sync-support). We highly recommend using SDS, as it provides the following benefits.  
+Automating team creation saves both IT admins and educators time. It ensures that educators have all their class teams created and ready to set up upon sign in. [School Data Sync (SDS)](/SchoolDataSync) is a free Office 365 Education tool that reads the data from an educational institution's system of record, for example a Student Information System (SIS) or Learning Management system (LMS). SDS uses the data to enrich Office 365 setup in many ways, including creating class teams in bulk and staying in sync with your information system to keep your instructor and student membership updated as enrollment changes. SDS can import data from any system of record and has built-in connectors to many of the world's existing [SIS vendors](/schooldatasync/frequently-asked-questions#what-sismis-vendors-does-school-data-sync-support). We highly recommend using SDS, as it provides the following benefits.  
 
 ###### Benefits
 
@@ -209,7 +209,7 @@ With PowerShell, you can write a script to create teams, channels and configure 
 
 #### Manual team creation
 
-Students and educators will get the most out of Teams when they can use it with minimal barriers and have the flexibility to tailor it to their needs. One way users can tailor their Teams experience is by having the ability to create teams. Educators set up their own class type team and invite students as shown [here](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch). Educators can invite students by [adding students to the team](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954), [sharing a join code](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f), or [sharing a link to the team](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f). If possible, it’s best to have educators add their students to the team to ensure the students get access and are notified that they’ve been added to a team.
+Students and educators will get the most out of Teams when they can use it with minimal barriers and have the flexibility to tailor it to their needs. One way users can tailor their Teams experience is by having the ability to create teams. Educators set up their own class type team and invite students as shown [here](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch). Educators can invite students by [adding students to the team](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954), [sharing a join code](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f), or [sharing a link to the team](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f). If possible, it's best to have educators add their students to the team to ensure the students get access and are notified that they've been added to a team.
 
 ##### Benefits
 
@@ -235,7 +235,7 @@ Early Access Class Teams allows educators access to their class teams before the
 
 ##### How do I create class teams that allow educators early access to set up a team before admitting students?
 
-Teams created from groups (through SDS, educator-led or Graph API) automatically create early access teams by default. To create your own early access teams using Graph API, you’ll need to [create a class](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true) and [create the team from a group](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true).
+Teams created from groups (through SDS, educator-led or Graph API) automatically create early access teams by default. To create your own early access teams using Graph API, you'll need to [create a class](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true) and [create the team from a group](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true).
 
 ##### How do I check if a class is activated?
 
@@ -243,7 +243,7 @@ In the [team resource type](/graph/api/resources/team?view=graph-rest-beta&prese
 
 ##### How do I activate a class for an educator?
 
-Use the [Update Team API](/graph/api/team-update?tabs=http&view=graph-rest-beta&preserve-view=true) and set the ```isMembershipLimitedToOwners``` property to  false to activate the team on your educator’s behalf. Note that after a team is activated, it can't be reversed.
+Use the [Update Team API](/graph/api/team-update?tabs=http&view=graph-rest-beta&preserve-view=true) and set the ```isMembershipLimitedToOwners``` property to  false to activate the team on your educator's behalf. Note that after a team is activated, it can't be reversed.
 
 ### Create staff teams for staff communication and collaboration
 

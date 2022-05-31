@@ -1,7 +1,7 @@
 ---
 title: Plan Microsoft Teams Rooms monitoring with Azure Monitor
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: Turgayo
 manager: serdars
 audience: ITPro
