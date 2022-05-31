@@ -342,11 +342,11 @@ To learn more, see [Get-CsBatchPolicyAssignmentOperation](/powershell/module/tea
 
 ## Unassign policies in bulk
 
-Bulk policy unassignment lets you unassign custom policies that were assigned to groups or individual users through direct assignment. Bulk policy unassignment is useful in the following scenarios:
+When you unassign policies in bulk, you're removing custom policy assignments that were assigned to groups or individual users through direct assignment. This is useful in the following scenarios:
 
-1. **For Global (Org-wide default) or group policy assignments to take effect:** Due to [precedence rules](policy-assignment-overview.md#which-policy-takes-precedence), Global (Org-wide default) or group policy assignments won't take effect for uses who have a direct policy assignment. As an admin, you can use bulk policy unassignment to remove individual assignments so Global (Org-wide default) or group policy assignments take effect.
+1. **For Global (Org-wide default) or group policy assignments to take effect:** Due to [precedence rules](policy-assignment-overview.md#which-policy-takes-precedence), Global (Org-wide default) or group policy assignments won't take effect for uses who have a direct policy assignment. As an admin, you can unassign policies in bulk to remove individual assignments so Global (Org-wide default) or group policy assignments take effect.
 1. **Clean up policy assignments from the Teams Education wizard:** The Teams Education policy wizard applies the global policy defaults for students and assigns a custom policy set for a group of staff using group policy assignment. Admins need to clean up student and staff individual policies for Global (Org-wide default) and group assignments to be effective.
-1. **Remove incorrect policy assignments:** If there's a large group of individual users who were assigned the wrong policy through direct assignment, you can use bulk policy unassignment to remove these assignments.
+1. **Remove incorrect policy assignments:** If there's a large group of individual users who were assigned the wrong policy through direct assignment, you can use unassign policies in bulk to remove these assignments.
 
  You can unassign policies in bulk from the [Microsoft Teams admin center](https://admin.teams.microsoft.com).
 
@@ -357,7 +357,7 @@ Bulk policy unassignment lets you unassign custom policies that were assigned to
     > You can also unassign policies from the individual policy pages by choosing a policy and selecting **Manage users**.
 
 3. Select a policy type.
-4. Choose the policy that you want to reassign and select **Get** to get the number of users who are currently assigned to that policy.
+4. Choose the policy that you want to reassign and select **Load data** to get the number of users who are currently assigned to that policy.
 
     > [!IMPORTANT]
     > When you choose a policy, you're removing **all** of the individually assigned users from that policy.
