@@ -37,17 +37,15 @@ To connect Phone System to the PSTN, you can choose from the following options:
 
 - [**Calling Plan**](#phone-system-with-calling-plan). An all-in-the-cloud solution with Microsoft as your PSTN carrier.
 
-- [**Operator Connect**](#phone-system-with-operator-connect). With Operator Connect, if your existing carrier participates in the Microsoft Operator Connect program, they can manage PSTN calling and Session Border Controllers (SBCs). 
+- [**Operator Connect**](#phone-system-with-operator-connect). With Operator Connect, if your existing carrier participates in the Microsoft Operator Connect program, they can manage PSTN calling and Session Border Controllers (SBCs).
 
 - [**Direct Routing**](#phone-system-with-direct-routing), which enables you to use your own PSTN carrier by connecting your Session Border Controller(s) (SBC) to Phone System.
-
 
 You can also choose a combination of options, which enables you to design a solution for a complex environment, or manage a multi-step migration.
 
 The option or options you choose affect how some Phone System features are configured. For more information, see [Configuration considerations](#configuration-considerations) later in this article.
 
-
-## Phone System with Calling Plan 
+## Phone System with Calling Plan
 
 Phone System with Calling Plan is Microsoft's all-in-the-cloud voice solution for Teams users. This solution is the simplest option that connects Phone System to the PSTN. With this option, Microsoft acts as your PSTN carrier, as shown in the following diagram:
 
@@ -59,7 +57,7 @@ If you answer yes to the following, then Phone System with Calling Plan is the r
 - You don't need to retain your current PSTN carrier.
 - You want to use Microsoft-managed access to the PSTN.
 
-With this option: 
+With this option:
 
 - You get Phone System with added Domestic or International Calling Plans that enable calling to phones around the world (depending on the level of service being licensed).
 
@@ -76,7 +74,6 @@ For more information about Calling Plan, see the following articles:
 - [Country and region availability for Calling Plan](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [Set up Calling Plan](set-up-calling-plans.md)
 
-
 ## Phone System with Operator Connect
 
 With Operator Connect, if your existing carrier participates in the Microsoft Operator Connect program, they can manage the service for bringing PSTN calling to Teams. Your carrier manages the PSTN calling services and Session Border Controllers (SBCs), allowing you to save on hardware purchase and management.
@@ -88,7 +85,6 @@ Operator Connect might be the right solution for your organization if:
 - You want to find a new carrier to enable calling in Teams.
 
 For information on the benefits and requirements of Operator Connect, and for a list of carriers participating in this program, see [Plan Operator Connect](operator-connect-plan.md). For information on how to configure Operator Connect, see [Configure Operator Connect](operator-connect-configure.md).
-
 
 ## Phone System with Direct Routing
 
@@ -130,8 +126,6 @@ For more information about Direct Routing, see the following articles:
 - [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md)
 - [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md)
 
-
-
 ## Configuration considerations
 
 Most Phone System features are the same regardless of the PSTN connectivity option you choose. For example, call unanswered and forwarding settings, call transfer, custom music on hold, call park, shared line, and voice apps are all available. For a complete list of Phone System features, see [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md).
@@ -143,10 +137,8 @@ The following table highlights the primary configuration differences. The sectio
 | Option | Description | Phone number management | Call routing | Emergency calling availability |
 | :------------| :-------| :-------| :-------| :-------| 
 | Calling Plans | -Microsoft acts as PSTN carrier.<br>-You don't need to buy or manage SBCs.| Obtained through Microsoft.| -Managed by Microsoft. <br> -Admin configures user dial plans for number translation. | -Enabled by Microsoft. <br> -Admin registers addresses. <br> -Dynamic calling supported. |
-| Operator Connect | -Carrier manages PSTN connectivity and SBCs. <br> -You don't need to buy or manage SBCs. | -Obtained through carrier. <br> - Numbers associated with emergency addresses managed by carrier.	| -Managed by carrier. <br>-Admin configures user dial plans for number translation. | -Enabled by carrier. <br> -Admin registers addresses. <br> -Dynamic calling supported. |
+| Operator Connect | -Carrier manages PSTN connectivity and SBCs. <br> -You don't need to buy or manage SBCs. | -Obtained through carrier. <br> - Numbers associated with emergency addresses managed by carrier. | -Managed by carrier. <br>-Admin configures user dial plans for number translation. | -Enabled by carrier. <br> -Admin registers addresses. <br> -Dynamic calling supported. |
 | Direct Routing | -Requires certified SBC purchased from third-party vendor.<br>-Connect your SBC to Phone System.<br> -Use your existing PSTN carrier. | Obtained through carrier. | -Requires extra configuration by admin.<br>-Admin configures trunk dial plans for number translation. <br>-LBR available to restrict toll bypass. | -Requires extra configuration by admin. <br>-Registered addresses not supported. <br>-Dynamic calling supported but requires additional configuration. |
-|||||
-
 
 ### Phone number management
 
@@ -166,7 +158,6 @@ How you acquire and manage phone numbers differs depending on your PSTN connecti
 
 - For information about managing phone numbers for Direct Routing, see [Configure the phone number and enable enterprise voice](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
 
-
 ### Call routing and dial plans
 
 How you configure call routing differs depending on your PSTN connectivity option.  
@@ -177,7 +168,6 @@ How you configure call routing differs depending on your PSTN connectivity optio
 
 - For Direct Routing, you must configure call routing by specifying the voice routes and assigning voice routing policies to users. You can configure dial plans for number translation at the trunk level to ensure interoperability with Session Border Controllers (SBCs). For more information, see [Configure voice routing for Direct Routing](direct-routing-voice-routing.md), [Manage voice routing policies](manage-voice-routing-policies.md) and [Translate phone numbers](direct-routing-translate-numbers.md). 
 
-
 ### Location-Based Routing for Direct Routing
 
 In some countries and regions, it's illegal to bypass the PSTN carrier to decrease long-distance calling costs. Location-Based Routing (LBR) for Direct Routing enables you to restrict toll bypass for Teams users based on their geographic location. For more information about how to plan and configure LBR, see the following articles:
@@ -187,7 +177,6 @@ In some countries and regions, it's illegal to bypass the PSTN carrier to decrea
 - [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md)
 - [Contoso case study: Location-Based Routing](voice-case-study-location-based-routing.md)<br>
   Describes how a fictional multi-national corporation, Contoso, implemented Location-Based Routing for their organization.
-
 
 ### Emergency calling
 
@@ -208,13 +197,9 @@ For more information about emergency calling concepts and terminology, and how t
 - [Contoso case study: Emergency calling](voice-case-study-emergency-calling.md)<br>
   Describes how a fictional multi-national corporation, Contoso, implemented emergency calling for their organization.
 
-
 ### Network topology for voice features
 
 If you're deploying dynamic emergency calling or Location-Based Routing for Direct Routing, you must configure network settings for these features in Microsoft Teams. To learn how to configure network settings for network regions, network sites, network subnets, and trusted IP addresses, see the following articles:
 
 - [Network settings for cloud voice features in Microsoft Teams - Concepts and terminology](cloud-voice-network-settings.md)
 - [Manage your network topology for cloud voice features in Microsoft Teams](manage-your-network-topology.md)
-
-
-

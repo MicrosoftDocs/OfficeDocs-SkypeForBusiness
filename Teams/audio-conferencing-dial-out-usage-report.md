@@ -8,16 +8,16 @@ ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection: 
+ms.collection:
   - M365-voice
   - M365-collaboration
 audience: Admin
-appliesto: 
+appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
   - CSH
-ms.custom: 
+ms.custom:
   - Audio Conferencing
   - LIL_Placement
 description: "Learn what countries and regions have dial-in conferencing numbers, and how they're automatically assigned."
@@ -29,11 +29,11 @@ The Audio Conferencing dial-out usage report in the Teams admin center gives you
 
 ## View the Audio Conferencing dial-out usage report
 
-In the left navigation of the Microsoft Teams admin center, select **Analytics & reports** > **Usage reports**. On the **View reports** tab, under **Report**, select the **Audio Conferencing dial-out usage report**.
+In the left navigation of the Microsoft Teams admin center, select **Analytics & reports** \> **Usage reports**. On the **View reports** tab, under **Report**, select the **Audio Conferencing dial-out usage report**.
 
-Under **Date range**, you can select a predefined range of 7 or 28 days, or set a custom range.
+Under **Date range**, you can select a predefined range of 7 or 28 days, or set a custom range.
 
-Under **Country Previsioned**, select a preferred country, or select all, and then select **Run report**.
+Under **Country Previsioned**, select a preferred country, or select all, and then select **Run report**.
 
 ## Report details
 
@@ -46,7 +46,7 @@ The Audio Conferencing dial-out usage report has three main tabs that will displ
 Each report has a date for when it was generated. The reports usually reflect a 24 to 48 hour latency from the activity time.
 
 > [!NOTE]
-> All dial-out minutes/calls/credit spent will be counted under the meeting organizer. It’s not necessarily the same person who dialed out.
+> All dial-out minutes/calls/credit spent will be counted under the meeting organizer. It's not necessarily the same person who dialed out.
 
 ### Cost tab
 
