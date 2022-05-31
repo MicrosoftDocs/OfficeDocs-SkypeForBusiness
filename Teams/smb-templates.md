@@ -1,8 +1,8 @@
 ---
 title: Team templates for small and medium businesses built with Microsoft Graph
-author: serdarsoysal
-ms.author: serdars
-manager: serdars
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
