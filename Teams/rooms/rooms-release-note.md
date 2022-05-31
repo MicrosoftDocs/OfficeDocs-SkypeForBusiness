@@ -1,7 +1,7 @@
 ---
 title: Release notes for Microsoft Teams Rooms (Windows)
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -34,6 +34,7 @@ Teams Rooms is governed by the Modern Lifecycle Policy. See [Teams update proces
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|4.12.138.0 |5/26/2022 |
 |4.12.126.0 |4/27/2022 |
 |4.11.17.0 |3/3/2022 |
 |4.11.12.0 |1/24/2022 |
@@ -85,6 +86,13 @@ Teams Rooms is governed by the Modern Lifecycle Policy. See [Teams update proces
 |RTM (1.0.8) |12/7/2016 |
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
+
+### 4.12.138.0 (5/26/2022)
+
+Introduced in this update:
+- Bug fix for multiple simultaneous video streams from Jabra Panacast 50 (meeting video, content camera video)
+- Cross-cloud meetings can now use default conferencing audio device
+- Quality and reliability fixes
 
 ### 4.12.126.0 (4/27/2022)
 

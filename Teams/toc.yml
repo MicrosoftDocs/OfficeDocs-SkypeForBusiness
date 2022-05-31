@@ -1528,7 +1528,7 @@ items:
         - name: Manage the Shifts app
           href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
           
-    - name: Administer third-party apps
+    - name: Manage third-party apps
       items:
         - name: Understand third-party apps
           href: overview-third-party-apps.md
@@ -1543,9 +1543,9 @@ items:
     - name: App templates for Teams
       href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
 
-    - name: Govern custom line-of-business apps
+    - name: Manage custom line-of-business apps
       items:
-        - name: Manage Power Platform apps in the Microsoft Teams admin center
+        - name: Manage Power Platform apps in Teams admin center
           href: manage-power-platform-apps.md
         - name: Publish custom apps on your organization store
           href: submit-approve-custom-apps.md
@@ -1556,7 +1556,7 @@ items:
         - name: Brand your organization's app store
           href: customize-your-app-store.md
 
-    - name: Admin controls and app governance
+    - name: Admin controls to govern apps
       items:
         - name: Overview of app management for admins
           href: manage-apps.md
@@ -1572,11 +1572,11 @@ items:
             href: teams-custom-app-policies-and-settings.md
         - name: Tailor Teams apps for your frontline workers
           href: pin-teams-apps-based-on-license.md
-        - name: Review Azure AD permissions and grant admin consent
+        - name: About Azure AD permissions and admin consent
           href: app-permissions-admin-center.md
         - name: Manage resource-specific consent for your organization
           href: resource-specific-consent.md
-        - name: Understand about app permissions and access to resources
+        - name: Understand app permissions and access to resources
           href: app-permissions.md
         - name: App behavior based on types of users
           href: non-standard-users.md
@@ -1677,6 +1677,8 @@ items:
       items: 
         - name: Get started with Teams for frontline workers
           href: flw-landing-page.md
+        - name: Start with a Frontline Trial
+          href: flw-trial.md
         - name: Licensing options for frontline workers
           href: flw-licensing-options.md
         - name: Frontline Worker quick start guide
