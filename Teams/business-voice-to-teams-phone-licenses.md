@@ -189,7 +189,7 @@ To use this method, you'll follow these general steps:
     $servicePlan_CP = $skuSourceBV.ServicePlans | where {$_.ServicePlanName.ToString() -like "*PSTN*"}
     ```
 
-1. Before moving on, validate if the source SKU (Business Voice) and the target SKU’s (Teams Phone and Audio Conferencing) have the same Service Plans included.
+1. Before moving on, validate if the source SKU (Business Voice) and the target SKUs (Teams Phone and Audio Conferencing) have the same Service Plans included.
     1. A mismatch can trigger a license change that could disrupt users' voice and audio conferencing services.
     2. Create variables to validate if all Service Plans in the source SKU will be replaced with the same target service plan.
 
@@ -215,7 +215,7 @@ To use this method, you'll follow these general steps:
     }
     ```
 
-    1. If there is a missing service plan in the target SKU, you could disrupt service availability for users, and you script should stop processing.
+    1. If there's a missing service plan in the target SKU, you could disrupt service availability for users, and your script should stop processing.
 
     ```powershell
     if($validated_TP -eq $false ) { Write-Host "Stop updating users because target SKU does not have the same Service Plan for Teams Phone." ; exit }
@@ -293,7 +293,7 @@ For ($i=0; $i -le $skuSourceBV.ServicePlans.Count ; $i++) {
     if($validated_CP -eq $false) { if($skuTargetTP.ServicePlans.Contains($servicePlan_CP)) { $validated_CP = $true } }
 }
 
-##If there is a missing service plan in the target sku, we might impact service availability for a user and therefore stop processing
+##If there's a missing service plan in the target sku, we might impact service availability for a user and therefore stop processing
 if($validated_TP -eq $false ) { Write-Host "Stop updating users because target SKU does not have the same Service Plan for Teams Phone." ; exit } 
 if($validated_AC -eq $false ) { Write-Host "Stop updating users because target SKU does not have the same Service Plan for Audio Conferencing." ; exit } 
 if($validated_CP -eq $false ) { Write-Host "Stop updating users because target SKU does not have the same Service Plan for Calling Plan." ; exit } 
@@ -327,7 +327,7 @@ This method ensures that:
 - Any new members who join the group are assigned the appropriate licenses.
 - When members are removed from the group, those licenses are removed too.
 
-Note that you’ll have to validate [license requirements for group-based licensing](/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal).
+You’ll have to validate [license requirements for group-based licensing](/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal).
 
 > [!NOTE]
 > For this method, the license updates must be processed in a single step.
