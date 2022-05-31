@@ -27,8 +27,8 @@ This section contains an overview of the steps required to prepare your environm
   
 3. In order to improve your experience, Microsoft collects data. To allow Microsoft to collect data, allow these sites:
 
-   - Telemetry client endpoint: https://vortex.data.microsoft.com/
-   - Telemetry settings endpoint: https://settings.data.microsoft.com/
+   - Telemetry client endpoint: `https://vortex.data.microsoft.com/`
+   - Telemetry settings endpoint:` https://settings.data.microsoft.com/`
     
 ### Create and test a resource account
 

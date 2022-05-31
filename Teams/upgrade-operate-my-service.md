@@ -356,10 +356,10 @@ The other two reports are Teams-specific, and they provide further detail about
 Teams usage from a user and device perspective. Both reports can be found here:
 
 [Microsoft Teams device usage
-report](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-device-usage-917b3e1d-203e-4439-8539-634e80196687)
+report](/microsoftteams/teams-analytics-and-reports/device-usage-report)
 
 [Microsoft Teams user activity
-report](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
+report](/microsoft-365/admin/activity-reports/microsoft-teams-user-activity-preview?view=o365-worldwide)
 
 #### Required permissions
 

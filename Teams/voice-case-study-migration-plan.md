@@ -28,7 +28,7 @@ To understand fundamental concepts about upgrade, methods, and modes, Contoso re
 - [Upgrade strategies for IT administrators](upgrade-to-teams-on-prem-implement.md) 
 - [Migration and interoperability guidance](migration-interop-guidance-for-teams-with-skype.md)
  
-Contoso also attended the Ignite 2019 session [Designing your path from Skype for Business to Teams](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions). Contoso learned about:
+Contoso also attended the Ignite 2019 session [Designing your path from Skype for Business to Teams](https://myignite.microsoft.com/archives/IG20-OD251). Contoso learned about:
 
 - Fundamental concepts such as interoperability, federation, and upgrade behavior 
 
