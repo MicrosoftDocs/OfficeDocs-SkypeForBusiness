@@ -65,7 +65,7 @@ Users can change their caller ID setting to **Anonymous** by setting the EnableU
 
 If the outbound caller ID is set to Anonymous, the EnableUserOverride has no effect and the caller ID is always set to Anonymous. The default value of EnableUserOverride is False.
 
-Your end users can set their caller ID to Anonymous by going to **Settings > Calls**, and then under **Caller ID**, select **Hide my phone number and profile information for all calls**.
+Your end users can set their caller ID to Anonymous by going to **Settings > Calls**, and then under **Caller ID**, select **Hide my phone number and profile information for all calls**. Please note it will take few minutes for this setting change to reflect on new calls. 
 
 ### Notes
 
