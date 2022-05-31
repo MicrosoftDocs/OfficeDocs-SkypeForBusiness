@@ -1872,7 +1872,7 @@ items:
         - name: Move from Skype for Business Online Connector to the Teams PowerShell module
           href: teams-powershell-move-from-sfbo.md
         - name: Cmdlet reference for Teams
-          href: /powershell/module/teams/?view=teams-ps
+          href: /powershell/module/teams
     - name: Developer documentation for Teams
       href: /microsoftteams/platform
     - name: Teams content updates

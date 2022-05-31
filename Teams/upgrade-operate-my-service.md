@@ -359,7 +359,7 @@ Teams usage from a user and device perspective. Both reports can be found here:
 report](/microsoftteams/teams-analytics-and-reports/device-usage-report)
 
 [Microsoft Teams user activity
-report](/microsoft-365/admin/activity-reports/microsoft-teams-user-activity-preview?view=o365-worldwide)
+report](/microsoft-365/admin/activity-reports/microsoft-teams-user-activity-preview)
 
 #### Required permissions
 

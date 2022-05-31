@@ -139,7 +139,7 @@ You can read more about the Admin account in the [Microsoft Teams Rooms Security
 
 Much like any Windows device, the machine name can be renamed by right-clicking in **Settings** \> **About** \> **Rename PC**.
   
-If you would like to rename the computer after joining it to a domain, use [Rename-Computer](/powershell/module/microsoft.powershell.management/rename-computer?view=powershell-7.2), a PowerShell command, followed by the computer's new name.
+If you would like to rename the computer after joining it to a domain, use [Rename-Computer](/powershell/module/microsoft.powershell.management/rename-computer), a PowerShell command, followed by the computer's new name.
   
 ## Related topics
 
