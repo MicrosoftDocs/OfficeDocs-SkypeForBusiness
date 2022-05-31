@@ -1,7 +1,7 @@
 ---
 title: "Check-in and room release on Microsoft Teams panels"
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: gary.lai
 ms.service: msteams
