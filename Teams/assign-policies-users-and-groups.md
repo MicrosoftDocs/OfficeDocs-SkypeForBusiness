@@ -364,7 +364,7 @@ When you unassign policies in bulk, you're removing custom policy assignments th
 
 5. Select **Unassign policy**.
 
-After you unassign policies, you can review operation details in the **Activity log**.
+After you unassign policies, you can review operation details in the [Activity log](https://admin.teams.microsoft.com/activity-log).
 
 ## Related topics
 
