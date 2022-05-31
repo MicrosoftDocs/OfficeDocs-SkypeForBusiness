@@ -57,7 +57,7 @@ A user can only set a note in Teams if their mode is TeamsOnly or Islands.
   
 There is no visual indication that a note was set from Skype for Business.
 
-Skype for Business doesn't enforce a character limit on status notes. Microsoft Teams will only display the first 280 characters of a note set from Skype for Business. An ellipse (…) at the end of a note indicates truncation.
+Skype for Business doesn't enforce a character limit on status notes. Microsoft Teams will only display the first 280 characters of a note set from Skype for Business. An ellipse (...) at the end of a note indicates truncation.
   
 Skype for Business doesn't support expiry times for notes.
 

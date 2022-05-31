@@ -35,17 +35,17 @@ The Teams app usage report in the Microsoft Teams admin center provides you with
 
 :::image type="content" alt-text="Screenshot of the Teams app usage report in the Teams admin center with callouts." source="media/app-usage-report5.png" lightbox="media/app-usage-report5.png":::
 
-1. Each report has a date at the upper left that shows when the report was created. Reports usually reflect a 24-hour latency from the time an app was opened.
+Each report has a date at the upper left that shows when the report was created. Reports usually reflect a 24-hour latency from the time an app was opened.
 
-2. The Y axis on the chart is the number of users who for the date you selected by hovering over the chart are considered active users because the have opened an app at least once.
+The Y axis on the chart is the number of users who for the date you selected by hovering over the chart are considered active users because they have opened an app at least once.
 
-3. The X axis on the chart is the date range that you selected for the report.
+The X axis on the chart is the date range that you selected for the report.
 
-4. Hover over the dot representing an app's usage on any date to see the total number of that app’s active users on that date.
+Hover over the dot (4) representing an app's usage on any date to see the total number of that app’s active users on that date.
 
-5. To select other apps, at the upper right, click the **Filter** icon, select or type new criteria, and then click **Apply**.
+To select other apps, at the upper right, click the **Filter** icon (5), select or type new criteria, and then click **Apply**.
 
-6. The table at the bottom of the report shows active users and teams by app name.
+The table at the bottom of the report (6) shows active users and teams by app name.
 
    - **App name** is the display name of the app used in Teams.
    - **Active users** is the number of users who opened the app at least once during the specified time period.
@@ -57,13 +57,13 @@ The Teams app usage report in the Microsoft Teams admin center provides you with
    > [!NOTE]
    > **Active users** and **Active teams** are calculated for apps used in channels only.
 
-7. To add or remove columns in the table, at the upper right, click the **Edit columns** icon, on the **Edit columns** tab, select new criteria, and then click **Apply**.
+To add or remove columns in the table, at the upper right, click the **Edit columns** icon (7), on the **Edit columns** tab, select new criteria, and then click **Apply**.
 
-8. To export the report to a CSV file for offline analysis, at the upper right, select the **Export to Excel** icon, and then on the **Downloads** tab under **Status**, click **Download**.
+To export the report to a CSV file for offline analysis, at the upper right, select the **Export to Excel** icon (8), and then on the **Downloads** tab under **Status**, click **Download**.
 
    :::image type="content" alt-text="Screenshot of Downloads pane." source="media/app-usage-report7.png" lightbox="media/app-usage-report7.png":::
 
-9. When you view the report in Excel, you'll also see an **Id** column, which represents the app ID, typically an alphanumeric string. If the **Id** is **\n**, this means that a user asked that their information be deleted.
+When you view the report in Excel, you'll also see an **Id** column, which represents the app ID, typically an alphanumeric string. If the **Id** is **\n**, this means that a user asked that their information be deleted.
 
    ![Screenshot of the downloaded Excel report.](media/app-usage-report8.png "Screenshot of the downloaded Excel report.")
 

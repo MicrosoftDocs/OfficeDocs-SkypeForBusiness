@@ -30,7 +30,7 @@ E-911 service providers provide routing of emergency calls from Lync to the corr
 ## SIP trunking services qualified for Lync Server 2013
 
 
-|Carrier |Service Name  |Qualified with TLS &amp; SRTP  |
+|Carrier |Service Name  |Qualified with TLS &amp; SRTP  |
 |:--- |:---  |:---:  |
 | [Accelerated Connections](http://www.acceleratedconnections.com/)     | ACI SIP Trunk    |      |
 |AT&amp;T |AT&amp;T IP Flexible Reach Service  |    |

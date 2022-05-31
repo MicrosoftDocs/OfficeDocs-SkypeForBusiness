@@ -37,7 +37,7 @@ The following combinations of operating system, model, and driver are not enable
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | 0x2772 | [8.15.10.1749] |
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | 0x0162, 0x0166 | [0.0.0.0] - [9.17.10.2850] |
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | all | [9.17.10.2867] - [9.17.10.4459] |
-|Windows 7/Windows 8/Windows 8.1/Windows 10 |0x1616	| [9.18.7.9] |
+|Windows 7/Windows 8/Windows 8.1/Windows 10 |0x1616 | [9.18.7.9] |
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | all | [10.18.10.3431] - [10.18.10.4425] |
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | all | [10.18.14.4280] |
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | 0x1616 |[10.18.15.4256] |
@@ -99,7 +99,7 @@ The following combinations of operating system, model, and driver are not enable
 |Windows 7 | all | [9.18.10.3234] |
 |Windows 7 | all | [9.18.10.3272] |
 |Windows 7 | all | [10.18.10.3242] - [10.18.10.9999] |
-|Windows 8/Windows 8.1/Windows 10 | all	| [10.18.10.0000] - [10.18.10.9999] |
+|Windows 8/Windows 8.1/Windows 10 | all | [10.18.10.0000] - [10.18.10.9999] |
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | all | [10.18.14.4153] - [10.18.14.4161] |
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | all | [10.18.14.4264] |
 |Windows 7 | all | [10.18.14.4578] |
