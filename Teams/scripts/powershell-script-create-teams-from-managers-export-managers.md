@@ -7,45 +7,42 @@ ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: Use this PowerShell script to export a list of managers and their directs for your organization, in preparation for creating a team for each manager with their directs as team members.
+description: Use this PowerShell script to help create a team for each manager with their direct reports as team members.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-ms.collection: 
+ms.collection:
   - M365-collaboration
-appliesto: 
+appliesto:
   - Microsoft Teams
 ---
 
 # PowerShell script sample - Export managers and their directs
 
-Use this PowerShell script to export a list of managers and their directs for your organization, in preparation for creating a people manager team for each manager with their directs as team members.
+Use this PowerShell script to export a list of managers and their directs for your organization. Use this script in preparation for creating a people manager team for each manager with their direct reports as team members.
 
-To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).
+To learn about this PowerShell script, see [Create people manager teams](../create-manager-directs-teams.md).
 
-If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1).
-
+If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](/powershell/azure/overview).
 
 ## Export-Managers script
 
 ```powershell
-<# 
-.SYNOPSIS 
-  Name: Export-ManagersDirectsFromAAD.ps1 
+<#
+.SYNOPSIS
+  Name: Export-ManagersDirectsFromAAD.ps1
   The purpose of this sample script is to build a list of managers and direct reports to use with the New-TeamsFromManagers.ps1 to create a team for each people manager and their directs.
-   
-.DESCRIPTION 
+
+.DESCRIPTION
  This sample script create new Teams based on the tab delimited .txt file you provide of managers and direct reports. It assumes that DisplayName is not null.
- 
-.NOTES 
-  &copy; 2020 Microsoft Corporation. All rights reserved. This document is provided 
-    "as-is." Information and views expressed in this document, including URL and 
-    other Internet Web site references, may change without notice.
- 
-.EXAMPLE 
+
+.NOTES
+  &copy; 2020 Microsoft Corporation. All rights reserved. This document is provided "as-is." Information and views expressed in this document, including URL and other Internet Web site references, may change without notice.
+
+.EXAMPLE
   Export-ManagersDirectsFromAAD.ps1
-#> 
+#>
 
 #Also create a type that validated the users licenses to ease the create-team burden
 #also add checks to see if the types are appropriately in place.
@@ -98,7 +95,7 @@ foreach ($user in $AllAADUsers) {
                     $manager.DirectReports.Add($directReport)
                 }
                 $Managers.Add($manager)
-                
+
             }
         Write-Host "$(Get-Timestamp) Info: Added Manager: $($manager.UserPrincipalName)"
         $i++
@@ -119,7 +116,7 @@ foreach ($manager in $Managers) {
     }
     $directs = $directs.Substring(0,$directs.Length-1)
     $row = "$($manager.UserPrincipalName)`t$($manager.DisplayName)`t$($directs)"
-    $output.Add($row) 
+    $output.Add($row)
 }
 
 #If Output File already exists from a previous run, it will be replaced.
@@ -133,7 +130,4 @@ foreach ($line in $output) {
 }
 Write-Host -ForegroundColor Green "$(Get-Timestamp) Exported tab delimited output to $($OutputFile). `n"
 #endregion
-
-
-
 ```

@@ -1,7 +1,7 @@
 ---
 title: Charting your Kaizala to Teams journey
-author: Benny-54
-ms.author: v-bshilpa
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: reference
 ms.service: msteams

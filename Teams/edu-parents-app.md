@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: 
+ms.reviewer:
 description: Microsoft Teams article documenting prerequisites and setup of Parents in Teams for Education.
 ms.localizationpriority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
@@ -63,7 +63,7 @@ The Parents Connection allows educators and guardians to chat, email, and call u
 
 ### School Data Sync
 
-- You need School Data Sync (SDS) to populate each student's parent and guardian **related contact** information​.
+- You need School Data Sync (SDS) to populate each student's parent and guardian **related contact** information.
   - [Deploy SDS](/schooldatasync/parents-and-guardians-in-sds)
 
 - If you need assistance in setting up SDS and populating parent and guardian **related contacts** for the students in your tenant, contact the EDU Customer Success team by:
@@ -86,9 +86,9 @@ The Parents Connection allows educators and guardians to chat, email, and call u
   - This must be turned on at the tenant level and the user level. The tenant level setting can be found in **Users > External Access** in the Teams admin center. This setting can also be accessed via PowerShell. User level external access policies can only be accessed via PowerShell. See the PowerShell commands below for further guidance.
 
 #### Parent and guardian restrictions
-Parents and guardians are classified as External users in the Parents Connection, meaning they don’t have full tenant rights. They only have access to the chat or chats they're added to as well as files, images, and other content shared in the chat.
+Parents and guardians are classified as External users in the Parents Connection, meaning they don't have full tenant rights. They only have access to the chat or chats they're added to as well as files, images, and other content shared in the chat.
 
-Also, External users can see the presence (offline, available, busy, etc.) of your organization’s users, but this can be turned off using PowerShell to protect users’ privacy. In PowerShell, use [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) and set ``EnablePrivacyMode=true``.
+Also, External users can see the presence (offline, available, busy, etc.) of your organization's users, but this can be turned off using PowerShell to protect users' privacy. In PowerShell, use [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) and set ``EnablePrivacyMode=true``.
 
 Even though parents and guardians are External users, their contributions to chats are discoverable. Learn how to conduct a Teams eDiscovery investigation by reading [Conduct an eDiscovery investigation of content in Microsoft Teams](ediscovery-investigation.md).
 
@@ -97,8 +97,8 @@ Educators can block a guardian in chat initiated in the Parent Connection.
 
 The class owner can:
 
-1. Open the guardian's profile card, select the ellipse and **Block User**. 
-2. Then, remove the guardian from the chat. 
+1. Open the guardian's profile card, select the ellipse and **Block User**.
+2. Then, remove the guardian from the chat.
 
 The blocked user won't be able to start additional chats with the class owner.
 
@@ -132,10 +132,10 @@ Here are the steps to turn on external access for parents and guardians.
     Get-CsExternalAccessPolicy
     ```
 
-4. For each policy other than the ‘Global’ policy, check which users have the policy assigned.
+4. For each policy other than the 'Global' policy, check which users have the policy assigned.
 
    > [!NOTE]
-   > Any users who do not have a specific policy assigned will fall back to the ‘Global’ policy. Any new users who are added to the tenant will have the ‘Global’ policy assigned.
+   > Any users who do not have a specific policy assigned will fall back to the 'Global' policy. Any new users who are added to the tenant will have the 'Global' policy assigned.
 
     ```powershell
     Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq "<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
@@ -145,10 +145,10 @@ Since all user-level external access policies have `EnableTeamsConsumerAccess` s
 
 - Create a new external access policy: [New-CsExternalAccessPolicy](/powershell/module/skype/new-csexternalaccesspolicy)
 
-- Customize an existing external access policy (including the ‘Global’ policy): [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy)
+- Customize an existing external access policy (including the 'Global' policy): [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy)
 
 > [!NOTE]
-> The following subscription default policies cannot be modified: ‘FederationAndPICDefault’, ‘FederationOnly’, ‘NoFederationAndPIC’. The ‘FederationAndPICDefault’ policy used to be assigned to all users by default, however new users are now assigned the ‘Global’ policy by default. If you need to change the policy settings for users who have these subscription default policies assigned, assign different policies with the correct settings to these users.​
+> The following subscription default policies cannot be modified: 'FederationAndPICDefault', 'FederationOnly', 'NoFederationAndPIC'. The 'FederationAndPICDefault' policy used to be assigned to all users by default, however new users are now assigned the 'Global' policy by default. If you need to change the policy settings for users who have these subscription default policies assigned, assign different policies with the correct settings to these users.
 
 - Assign an external access policy to a single user: [Grant-CsExternalAccessPolicy](/powershell/module/skype/grant-csexternalaccesspolicy)
 
