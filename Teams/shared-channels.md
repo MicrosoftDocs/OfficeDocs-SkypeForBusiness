@@ -151,6 +151,73 @@ The following limitations also apply:
 
 - Notifications from shared channels are not included in missed activity emails.
 
+## Supported apps in shared channels
+
+For information about how to prepare your app for shared channels, see [How to open your app to cross-organizational collaboration with Microsoft Teams Connect](https://mybuild.microsoft.com/sessions/4d84d73c-08de-4f56-990b-2a73b2037df1).
+
+The following apps are supported for use in shared channels. 
+
+- Activity
+- Adobe Acrobat Sign
+- Asana
+- Calendar
+- Calendar Pro
+- Calling
+- Chat
+- Code by Vivani
+- Conceptboard
+- Excel
+- FileBrowser
+- Files
+- Flipgrid
+- Freehand by InVision
+- HeyTaco
+- Jira Cloud
+- Kahoot!
+- Lists
+- Lucidchart
+- Lumio
+- MeisterTask
+- MindMeister
+- Mindomo
+- Miro
+- Monday.com
+- MURAL
+- Nearpod
+- OneNote
+- PDF
+- Pear Deck
+- PowerPoint
+- Priority Matrix
+- Quicklinks
+- Quizlet
+- Saved
+- Scrum-Poker
+- Search
+- SharePoint
+- SharePoint Pages
+- Slido
+- Smartsheet
+- SurveyMonkey
+- Tasks in a Box
+- Teams
+- Teams Manager
+- TeamViewer
+- Teamwork
+- Testportal
+- TrackingTime
+- Trello
+- Vevox
+- Visio
+- VSTS
+- Wakelet
+- Web
+- Wooclap
+- Word
+- YouTube
+- Zendesk
+- Zoho Projects
+
 ## Related topics
 
 [B2B direct connect overview](/azure/active-directory/external-identities/b2b-direct-connect-overview)
