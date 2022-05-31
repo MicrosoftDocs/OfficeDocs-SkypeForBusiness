@@ -334,8 +334,6 @@ items:
       href: using-admin-roles.md
     - name: Manage teams in Teams admin center
       href: manage-teams-in-modern-portal.md
-    - name: Manage Teams settings for your organization
-      href: enable-features-office-365.md
 
     - name: Manage policies
       items:
@@ -354,11 +352,13 @@ items:
 
     - name: Work with people outside the organization
       items: 
-        - name: Communicate with users from other organizations
+        - name: Secure file sharing and collaboration with Teams
+          href: /microsoft-365/solutions/setup-secure-collaboration-with-teams?wt.mc_id=TeamsTOCSecureCollab001
+        - name: Collaborate with people outside your organization
           href: communicate-with-users-from-other-organizations.md
-        - name: External access (federation)
+        - name: External meetings and chat
           items: 
-            - name: Manage external access
+            - name: Manage external meetings and chat
               href: manage-external-access.md
             - name: Native Teams chats
               href: native-chat-for-external-users.md
@@ -438,32 +438,30 @@ items:
               
     - name: Reports
       items:
-        - name: Activity reports in the Microsoft 365 admin center
-          href: teams-activity-reports.md
-        - name: Analytics and reports in the Teams admin center
-          items: 
-            - name: Overview
-              href: teams-analytics-and-reports/teams-reporting-reference.md
-            - name: Teams usage report
-              href: teams-analytics-and-reports/teams-usage-report.md
-            - name: Teams user activity report
-              href: teams-analytics-and-reports/user-activity-report.md
-            - name: Teams app usage report
-              href: teams-analytics-and-reports/app-usage-report.md
-            - name: Teams device usage report
-              href: teams-analytics-and-reports/device-usage-report.md
-            - name: PSTN blocked users report
-              href: teams-analytics-and-reports/pstn-blocked-users-report.md
-            - name: PSTN minute pools report
-              href: teams-analytics-and-reports/pstn-minute-pools-report.md
-            - name: PSTN usage report
-              href: teams-analytics-and-reports/pstn-usage-report.md
-            - name: Teams live event usage report
-              href: teams-analytics-and-reports/teams-live-event-usage-report.md
-            - name: Teams information protection license report
-              href: teams-analytics-and-reports/information-protection-license-report.md
-            - name: Teams Virtual Visits usage report
-              href: teams-analytics-and-reports/virtual-visits-usage-report.md
+        - name: Overview
+          href: teams-analytics-and-reports/teams-reporting-reference.md
+        - name: Teams usage report
+          href: teams-analytics-and-reports/teams-usage-report.md
+        - name: Teams user activity report
+          href: teams-analytics-and-reports/user-activity-report.md
+        - name: Teams app usage report
+          href: teams-analytics-and-reports/app-usage-report.md
+        - name: Teams device usage report
+          href: teams-analytics-and-reports/device-usage-report.md
+        - name: PSTN blocked users report
+          href: teams-analytics-and-reports/pstn-blocked-users-report.md
+        - name: PSTN minute pools report
+          href: teams-analytics-and-reports/pstn-minute-pools-report.md
+        - name: PSTN usage report
+          href: teams-analytics-and-reports/pstn-usage-report.md
+        - name: Teams audio conferencing dial-out usage report
+          href: audio-conferencing-dial-out-usage-report.md
+        - name: Teams live event usage report
+          href: teams-analytics-and-reports/teams-live-event-usage-report.md
+        - name: Teams information protection license report
+          href: teams-analytics-and-reports/information-protection-license-report.md
+        - name: Teams Virtual Visits usage report
+          href: teams-analytics-and-reports/virtual-visits-usage-report.md
               
     - name: Log files, service health, and support
       items:
@@ -1532,7 +1530,7 @@ items:
         - name: Manage the Shifts app
           href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
           
-    - name: Administer third-party apps
+    - name: Manage third-party apps
       items:
         - name: Understand third-party apps
           href: overview-third-party-apps.md
@@ -1547,9 +1545,9 @@ items:
     - name: App templates for Teams
       href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
 
-    - name: Govern custom line-of-business apps
+    - name: Manage custom line-of-business apps
       items:
-        - name: Manage Power Platform apps in the Microsoft Teams admin center
+        - name: Manage Power Platform apps in Teams admin center
           href: manage-power-platform-apps.md
         - name: Publish custom apps on your organization store
           href: submit-approve-custom-apps.md
@@ -1560,7 +1558,7 @@ items:
         - name: Brand your organization's app store
           href: customize-your-app-store.md
 
-    - name: Admin controls and app governance
+    - name: Admin controls to govern apps
       items:
         - name: Overview of app management for admins
           href: manage-apps.md
@@ -1576,11 +1574,11 @@ items:
             href: teams-custom-app-policies-and-settings.md
         - name: Tailor Teams apps for your frontline workers
           href: pin-teams-apps-based-on-license.md
-        - name: Review Azure AD permissions and grant admin consent
+        - name: About Azure AD permissions and admin consent
           href: app-permissions-admin-center.md
         - name: Manage resource-specific consent for your organization
           href: resource-specific-consent.md
-        - name: Understand about app permissions and access to resources
+        - name: Understand app permissions and access to resources
           href: app-permissions.md
         - name: App behavior based on types of users
           href: non-standard-users.md
@@ -1681,6 +1679,8 @@ items:
       items: 
         - name: Get started with Teams for frontline workers
           href: flw-landing-page.md
+        - name: Start with a Frontline Trial
+          href: flw-trial.md
         - name: Licensing options for frontline workers
           href: flw-licensing-options.md
         - name: Frontline Worker quick start guide

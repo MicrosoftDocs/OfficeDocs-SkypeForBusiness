@@ -64,7 +64,7 @@ If you have previously defined that each app needs to be allowed, please go to t
 > For more details, read [how to allow an app or to add it to a class team](manage-apps.md#allow-and-block-apps).
 
 ## Where do educators find Reflect?
-Once you have enabled Reflect, educators go to the class and select **New Conversation**. They then select '**…**' to bring up messaging extensions and enter **Reflect** in the search bar. The dialog box guides them through defining the question and who can see what.
+Once you have enabled Reflect, educators go to the class and select **New Conversation**. They then select '**...**' to bring up messaging extensions and enter **Reflect** in the search bar. The dialog box guides them through defining the question and who can see what.
 
 :::image type="content" source="media/reflect-add-app.png" alt-text="Add Reflect to class team.":::
 

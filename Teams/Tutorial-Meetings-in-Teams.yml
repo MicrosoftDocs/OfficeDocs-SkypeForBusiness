@@ -24,18 +24,18 @@ metadata:
 items:
 - durationInMinutes: 1
   content: |
-    In this training, we introduce meetings in Microsoft Teams. We’ll cover the
+    In this training, we introduce meetings in Microsoft Teams. We'll cover the
     capabilities of meetings in Teams in addition to requirements and planning
     considerations for Teams.
 
     [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-note.md)]
 
-    This training is for you if you’re:
+    This training is for you if you're:
     -   An IT pro
     -   Responsible for planning, deploying, or managing Teams
     -   Interested in meetings in Teams
 
-    We’ll cover the following sections:
+    We'll cover the following sections:
     -   Meetings and meeting types in Teams
     -   Requirements for meetings
     -   Reporting
@@ -49,7 +49,7 @@ items:
 
     If you have any questions or feedback about this training, please:
 
-    -   Post in the comments section at the bottom of the “Next steps” page of this
+    -   Post in the comments section at the bottom of the "Next steps" page of this
         tutorial.
 
     To give us product feedback about Teams, such as ideas for new features, please
@@ -60,7 +60,7 @@ items:
   content: |
 
     To understand meetings in Teams, see the following:
-    -   “Have meetings” in [Meetings and
+    -   "Have meetings" in [Meetings and
         calls](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)
         (estimated reading time 6 minutes)
 
@@ -94,7 +94,7 @@ items:
        -   The meeting and the discussion is visible to everyone who is a member of
            the team.
        -   Turn on live captions for meetings and live events. In addition, they turn on subtitles in live events. These features increase inclusivity, productivity, and comprehension.
-    -   Garth also needs to sync with individual people but doesn’t want these
+    -   Garth also needs to sync with individual people but doesn't want these
         meetings to be visible to others. For these purposes, Garth schedules a
         "Private Meeting".
         Private meetings allow Garth to initiate a chat before the meeting takes
@@ -153,7 +153,7 @@ items:
     -   A user can call another user directly
     -   A user can create a meeting (ad hoc or scheduled)
     For calls, the media (audio, video, or desktop or application sharing) travel as
-    directly as possible. If, for example, there’s no firewall between two users
+    directly as possible. If, for example, there's no firewall between two users
     (for example, both sit inside the same network), media traffic travels directly
     from one user to the other. If a firewall blocks direct traffic between the
     users, the traffic will be sent via a relay.
@@ -164,9 +164,9 @@ items:
     distributed to the attendees.
 
     <strong>Important!</strong>
-    During the duration of the COVID-19 outbreak, we recommend that users join meetings by clicking the <strong>Join Teams Meeting</strong> button rather than dialing in by using the PSTN conference numbers or by using <strong>Call me at</strong>. This is primarily because of congestion in the telephony infrastructures of countries impacted by COVID-19. By avoiding PSTN calls, you’ll likely experience better audio quality. 
+    During the duration of the COVID-19 outbreak, we recommend that users join meetings by clicking the <strong>Join Teams Meeting</strong> button rather than dialing in by using the PSTN conference numbers or by using <strong>Call me at</strong>. This is primarily because of congestion in the telephony infrastructures of countries impacted by COVID-19. By avoiding PSTN calls, you'll likely experience better audio quality. 
 
-    Planning bandwidth isn’t covered in this training, but it will be crucial for
+    Planning bandwidth isn't covered in this training, but it will be crucial for
     the user experience.
 
     For more information, see [Prepare your organization's network for 
@@ -223,17 +223,17 @@ items:
   durationInMinutes: 20
   content: |
 
-    In this exercise, you’ll have the chance to test meetings in Teams. Although we
-    don’t describe how to perform every action, we recommend some scenarios to try
+    In this exercise, you'll have the chance to test meetings in Teams. Although we
+    don't describe how to perform every action, we recommend some scenarios to try
     out.
 
     ### Requirements
     -   An Office 365 organization with appropriate licenses to use Teams
         -   We strongly recommend that you use a dedicated test tenant.
-        -   If you don’t have a test tenant, you can sign up for a trial tenant at
+        -   If you don't have a test tenant, you can sign up for a trial tenant at
         [Office 365 Enterprise E5
         Trial](https://go.microsoft.com/fwlink/p/?LinkID=698279).
-        -   Don’t run any tests in your production environment. Changing settings or
+        -   Don't run any tests in your production environment. Changing settings or
         policies might have a negative impact on all users and might affect
         their user experience.
     -   At least two endpoints
@@ -249,7 +249,7 @@ items:
     -   Join meetings and test different scenarios and workloads: For example, audio only, video,
         desktop sharing.
     -   Join a meeting from a browser without signing in to your tenant (you might
-        want to use “InPrivate” browsing) to see what it’s like to join a meeting
+        want to use "InPrivate" browsing) to see what it's like to join a meeting
         anonymously.
     -   Sign in to the Microsoft Teams admin center and change some of the settings for meetings
         (for example, disable scheduling for private meetings). How does this affect
@@ -265,7 +265,7 @@ items:
     -   Quality: What is the quality of the meetings?
 
     You should carefully monitor both areas:
-    -   Low usage means that users, for one reason or another, aren’t using the
+    -   Low usage means that users, for one reason or another, aren't using the
         product. You can only determine the reasons by doing additional
         investigation. Reasons can range from the perception that meetings are
         falling short of user requirements, to a lack of awareness or training, to
@@ -295,7 +295,7 @@ items:
 
     ### Next steps
 
-    1.	Start using meetings in Teams.
+    1.Start using meetings in Teams.
     2.  Send us feedback:
         - Post in the comments section at the bottom of this page.
         - To give us Teams product feedback or to request a new feature, go to [Teams Feedback portal](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
