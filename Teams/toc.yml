@@ -1077,7 +1077,7 @@ items:
           - name: "Step 5: Assign phone numbers to users"
             href: business-voice/set-up-assign-numbers.md
           - name: "Step 6: Set up an auto attendant"
-            href: business-voice/set-up-auto-attendant.md
+            href: create-a-phone-system-auto-attendant.md
           - name: "Step 7: Port phone numbers (optional)"
             href: business-voice/port-phone-numbers.md
           - name: "Post-setup resources"
@@ -1093,7 +1093,7 @@ items:
           - name: Create more users
             href: business-voice/create-users.md
           - name: Set up a call queue
-            href: business-voice/create-a-phone-system-call-queue-smb.md
+            href: create-a-phone-system-call-queue.md
       - name: Manage your Phone System setup
         items: 
           - name: Manage devices

@@ -2457,22 +2457,22 @@
     },
     {
       "source_path": "Teams/business-voice/set-up-auto-attendants.md",
-      "redirect_url": "/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb",
+      "redirect_url": "/microsoftteams/create-a-phone-system-auto-attendant",
       "redirect_document_id": true
     },
     {
       "source_path": "Teams/business-voice/set-up-call-queues.md",
-      "redirect_url": "/microsoftteams/business-voice/create-a-phone-system-call-queue-smb",
+      "redirect_url": "/microsoftteams/create-a-phone-system-call-queue",
       "redirect_document_id": true
     },
     {
       "source_path": "Teams/tutorial-org-aa.yml",
-      "redirect_url": "/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb",
+      "redirect_url": "/microsoftteams/create-a-phone-system-auto-attendant",
       "redirect_document_id": false
     },
     {
       "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/tutorial-cq.yml",
-      "redirect_url": "/microsoftteams/business-voice/create-a-phone-system-call-queue-smb",
+      "redirect_url": "/microsoftteams/create-a-phone-system-call-queue",
       "redirect_document_id": false
     },
     {
@@ -2640,11 +2640,6 @@
       "redirect_url": "/graph/api/resources/channel",
       "redirect_document_id": false 
      },
-     {
-      "source_path": "Teams/business-voice/create-a-phone-system-auto-attendant-smb.md",
-      "redirect_url": "/microsoftteams/business-voice/set-up-auto-attendant",
-      "redirect_document_id": true
-     },
       {
       "source_path": "Teams/view-guests.md",
       "redirect_url": "https://support.microsoft.com/office/5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7",
@@ -2699,6 +2694,16 @@
        "source_path": "Teams/meeting-recording-expiration-feature.md",
        "redirect_url": "/microsoftteams/meeting-expiration",
        "redirect_document_id": false
-     }
+     },
+     {
+      "source_path": "Teams/business-voice/set-up-auto-attendant.md",
+      "redirect_url": "/microsoftteams/create-a-phone-system-auto-attendant",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/business-voice/create-a-phone-system-call-queue-smb.md",
+      "redirect_url": "/microsoftteams/create-a-phone-system-call-queue",
+      "redirect_document_id": false
+    }
   ] 
 }
