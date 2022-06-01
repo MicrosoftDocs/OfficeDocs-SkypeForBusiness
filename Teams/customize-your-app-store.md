@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn how to customize your organization's app store in Microsoft Teams.
+description: In this learning module, you'll learn how to customize your organization's app store in Microsoft Teams.
 ---
 
 # Customize your organization's app store in Microsoft Teams
