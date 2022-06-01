@@ -31,12 +31,12 @@ Be sure you have read [Plan for Teams auto attendants and call queues](plan-auto
 
 The steps to add an auto attendant are:
 
-1. [Set up general information](#general-info).
-1. [Set up call flow](#call-flow).
-1. [Set up after hours](#call-flow-for-after-hours).
-1. [Set up holiday hours](#call-flows-during-holidays).
-1. [Set up dial scope](#dial-scope).
-1. [Set up resource accounts](#resource-accounts).
+1. [Set up general information](?tabs=general-info).
+1. [Set up call flow](?tabs=call-flow).
+1. [Set up after hours](?tabs=after-hours).
+1. [Set up holiday hours](?tabs=holidays).
+1. [Set up dial scope](?tabs=dial-scope).
+1. [Set up resource accounts](?tabs=resource-accounts).
 
 In the tabs below, you'll find the steps to complete the setup of your auto attendant.
 

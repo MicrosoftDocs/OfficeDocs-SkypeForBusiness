@@ -45,12 +45,12 @@ The steps to set up a call queue includes:
 1. [Create the call queue](?tabs=create-queue)
 1. [Add resource accounts](?tabs=resource-account)
 1. [Set up dynamic caller ID](?tabs=dynamic-caller-id)
-1. [Choose languages](#step-4-choose-a-language)
-1. [Choose greetings and music](#step-5-greetings-and-music-on-hold-in-queue)
-1. [Select call agents](#step-6-call-agents)
-1. [Map call routing](#step-7-call-routing)
-1. [Handle call overflow](#step-8-call-overflow-handling)
-1. [Handle call timeout](#step-9-call-timeout-handling)
+1. [Choose languages](?tabs=language)
+1. [Choose greetings and music](?tabs=greetings)
+1. [Select call agents](?tabs=call-agents)
+1. [Map call routing](?tabs=call-routing)
+1. [Handle call overflow](?tabs=call-overflow)
+1. [Handle call timeout](?tabs=call-timeout)
 
 ## Video demonstration
 
