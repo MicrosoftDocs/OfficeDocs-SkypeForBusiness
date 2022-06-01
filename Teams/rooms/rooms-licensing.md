@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Teams Rooms licenses"
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: sohailta
 ms.topic: article

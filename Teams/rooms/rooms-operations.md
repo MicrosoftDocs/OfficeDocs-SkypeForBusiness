@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Teams Rooms maintenance and operations"
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -32,19 +32,32 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 ```
 
 The logs will be output as a ZIP file in c:\rigel.
+
+### Managing Disk Space
+<a name="Space"> </a>
+
+Downloaded logs on the device can take up disk space. If logs are not regularly cleaned up, they can interfere with the normal functionality of the room. Teams Rooms deletes downloaded logs after 30 days. IT admins can override the log clean up using the device registry setting.
+
+|Setting|Allows|
+|:-----|:-----|
+|HKLM\SOFTWARE\Microsoft\PPI\SkypeSettings\LogCleanupAgeThreshold  <br/> |Cleans up logs after 30 days.  <br/> |
   
-## Front of Room Display Settings
+## Front of Room display settings
 <a name="Display"> </a>
 
 Configure the settings of your Front of Room display(s) to support Consumer Electronics Control(CEC) or enable PC Mode.
   
 If you desire a front of room display to automatically switch to Teams Rooms when it wakes from standby mode, certain conditions must be met. This feature is optional but supported by Microsoft Teams Rooms software, provided underlying hardware supports the feature. A consumer TV used as a front of room display needs to support the Consumer Electronics Control (CEC) feature of HDMI.  Depending on the dock or console selected (which might not support CEC, refer to manufacturer support documentation), a controller such as an [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) from Crestron or [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) from Extron may be needed to enable the desired behavior.
 
-### Change scale and resolution
+### Scale and resolution
 
-If the font size on your Front of Room display is too large or small, you'll need to adjust the screen's resolution. 
+To get Teams Rooms designed experience, your Front of Room displays need to meet resolution and scale requirements.
 
-1. Switch to [admin mode](#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)
+To set the scale and resolution of your Front of Rooms displays remotely, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md#set-front-of-room-scale-and-resolution).
+
+To set the scale and resolution manually in the Teams Room admin settings:
+
+1. On your Teams Room, switch to [admin mode](#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)
 
 2. Select the start icon. Then **Settings > System > Display**
 
@@ -59,6 +72,8 @@ If the font size on your Front of Room display is too large or small, you'll nee
 ```cmdlet
  Powershell -ExecutionPolicy Unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentDisplayScaling.ps1 
 ```
+
+7. Restart the device.
   
 ## Microsoft Teams Rooms Reset (Factory Restore)
 <a name="Reset"> </a>

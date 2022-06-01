@@ -296,7 +296,7 @@ items:
           href: legal-hold.md
         - name: Content search
           href: content-search.md
-        - name: Teams workflow in Advanced eDiscovery
+        - name: Teams workflow in eDiscovery (Premium)
           href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery
         - name: Auditing
           href: audit-log-events.md
@@ -334,8 +334,6 @@ items:
       href: using-admin-roles.md
     - name: Manage teams in Teams admin center
       href: manage-teams-in-modern-portal.md
-    - name: Manage Teams settings for your organization
-      href: enable-features-office-365.md
 
     - name: Manage policies
       items:
@@ -354,11 +352,13 @@ items:
 
     - name: Work with people outside the organization
       items: 
-        - name: Communicate with users from other organizations
+        - name: Secure file sharing and collaboration with Teams
+          href: /microsoft-365/solutions/setup-secure-collaboration-with-teams?wt.mc_id=TeamsTOCSecureCollab001
+        - name: Collaborate with people outside your organization
           href: communicate-with-users-from-other-organizations.md
-        - name: External access (federation)
+        - name: External meetings and chat
           items: 
-            - name: Manage external access
+            - name: Manage external meetings and chat
               href: manage-external-access.md
             - name: Native Teams chats
               href: native-chat-for-external-users.md
@@ -438,32 +438,30 @@ items:
               
     - name: Reports
       items:
-        - name: Activity reports in the Microsoft 365 admin center
-          href: teams-activity-reports.md
-        - name: Analytics and reports in the Teams admin center
-          items: 
-            - name: Overview
-              href: teams-analytics-and-reports/teams-reporting-reference.md
-            - name: Teams usage report
-              href: teams-analytics-and-reports/teams-usage-report.md
-            - name: Teams user activity report
-              href: teams-analytics-and-reports/user-activity-report.md
-            - name: Teams app usage report
-              href: teams-analytics-and-reports/app-usage-report.md
-            - name: Teams device usage report
-              href: teams-analytics-and-reports/device-usage-report.md
-            - name: PSTN blocked users report
-              href: teams-analytics-and-reports/pstn-blocked-users-report.md
-            - name: PSTN minute pools report
-              href: teams-analytics-and-reports/pstn-minute-pools-report.md
-            - name: PSTN usage report
-              href: teams-analytics-and-reports/pstn-usage-report.md
-            - name: Teams live event usage report
-              href: teams-analytics-and-reports/teams-live-event-usage-report.md
-            - name: Teams information protection license report
-              href: teams-analytics-and-reports/information-protection-license-report.md
-            - name: Teams Virtual Visits usage report
-              href: teams-analytics-and-reports/virtual-visits-usage-report.md
+        - name: Overview
+          href: teams-analytics-and-reports/teams-reporting-reference.md
+        - name: Teams usage report
+          href: teams-analytics-and-reports/teams-usage-report.md
+        - name: Teams user activity report
+          href: teams-analytics-and-reports/user-activity-report.md
+        - name: Teams app usage report
+          href: teams-analytics-and-reports/app-usage-report.md
+        - name: Teams device usage report
+          href: teams-analytics-and-reports/device-usage-report.md
+        - name: PSTN blocked users report
+          href: teams-analytics-and-reports/pstn-blocked-users-report.md
+        - name: PSTN minute pools report
+          href: teams-analytics-and-reports/pstn-minute-pools-report.md
+        - name: PSTN usage report
+          href: teams-analytics-and-reports/pstn-usage-report.md
+        - name: Teams audio conferencing dial-out usage report
+          href: audio-conferencing-dial-out-usage-report.md
+        - name: Teams live event usage report
+          href: teams-analytics-and-reports/teams-live-event-usage-report.md
+        - name: Teams information protection license report
+          href: teams-analytics-and-reports/information-protection-license-report.md
+        - name: Teams Virtual Visits usage report
+          href: teams-analytics-and-reports/virtual-visits-usage-report.md
               
     - name: Log files, service health, and support
       items:
@@ -505,7 +503,7 @@ items:
       href: turn-off-teams-native-file-upload-policy.md
     - name: Set up channel moderation in Teams
       href: manage-channel-moderation-in-teams.md
-    - name: Manage loop components
+    - name: Manage Loop components
       href: loop-components-in-teams.md
     - name: Teams and Outlook email integration
       href: teams-outlook-email-integration.md
@@ -553,9 +551,9 @@ items:
       items: 
         - name: Communicate with users from other organizations
           href: communicate-with-users-from-other-organizations.md
-        - name: External access (federation)
+        - name: External meetings and chat
           items: 
-            - name: Manage external access
+            - name: Manage external meetings and chat
               href: manage-external-access.md
             - name: Native Teams chats
               href: native-chat-for-external-users.md
@@ -783,6 +781,7 @@ items:
               href: complimentary-dial-out-period.md
             - name: Videos - Audio Conferencing in Teams
               href: ./audio-conferencing-in-office-365.md
+
 
 - name: Voice - Phone System and PSTN connectivity
   items: 
@@ -1350,34 +1349,28 @@ items:
               href: rooms/security.md
             - name: Online Licensing
               href: rooms/rooms-licensing.md
-            - name: Best practices for Conditional Access and Intune compliance
-              href: rooms/conditional-access-and-compliance-for-devices.md
-            - name: Supported Conditional Access and Intune compliance policies
-              href: rooms/supported-ca-and-compliance-policies.md
             - name: Plan management with Azure Monitor
               href: rooms/azure-monitor-plan.md
         - name: Deploy
           items: 
             - name: Deployment overview
               href: rooms/rooms-deploy.md
-            - name: Configure accounts
-              href: rooms/rooms-configure-accounts.md
             - name: Create resource accounts 
               href: rooms/with-office-365.md
-            - name: With Skype for Business Server
-              href: rooms/with-skype-for-business-server-2015.md
             - name: Configure a console
               href: rooms/console.md
+            - name: Authentication
+              items:
+              - name: Configure authentication
+                href: rooms/rooms-authentication.md
+              - name: Best practices for Conditional Access and Intune compliance
+                href: rooms/conditional-access-and-compliance-for-devices.md
+              - name: Supported Conditional Access and Intune compliance policies
+                href: rooms/supported-ca-and-compliance-policies.md
             - name: Manually update a device
               href: rooms/manual-update.md
-            - name: Configure authentication
-              href: rooms/rooms-authentication.md
-            - name: Join third-party meetings
-              href: rooms/third-party-join.md
             - name: Management with Azure Monitor
               href: rooms/azure-monitor-deploy.md
-            - name: Migrate SRS v1 or LRS
-              href: rooms/lrs-migration.md
             - name: Content cameras
               href: rooms/content-camera.md
             - name: Voice recognition controls for Intelligent speakers
@@ -1395,11 +1388,13 @@ items:
               href: rooms/rooms-manage.md
             - name: Maintenance and operations
               href: rooms/rooms-operations.md
+            - name: Join third-party meetings
+              href: rooms/third-party-join.md
             - name: Known issues
               href: /microsoftteams/troubleshoot/teams-devices-and-rooms/rooms-known-issues
-            - name: Devices with Azure Monitor
+            - name: Manage devices with Azure Monitor
               href: rooms/azure-monitor-manage.md
-            - name: Settings with an XML file
+            - name: Manage settings with an XML file
               href: rooms/xml-config-file.md
             - name: Use the recovery tool
               href: rooms/recovery-tool.md
@@ -1506,7 +1501,9 @@ items:
         - name: Meeting room devices and solutions
           href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
         - name: Plan phones and displays deployment
-          href: devices/plan-device-deployment.md            
+          href: devices/plan-device-deployment.md 
+        - name: Resource accounts for Skype for Business Server
+          href: rooms/with-skype-for-business-server-2015.md           
               
 - name: Manage apps
   items: 
@@ -1526,8 +1523,10 @@ items:
           href: approval-admin.md
         - name: Manage the Shifts app
           href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+        - name: Manage the Updates app
+          href: manage-updates-app.md
           
-    - name: Administer third-party apps
+    - name: Manage third-party apps
       items:
         - name: Understand third-party apps
           href: overview-third-party-apps.md
@@ -1542,9 +1541,9 @@ items:
     - name: App templates for Teams
       href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
 
-    - name: Govern custom line-of-business apps
+    - name: Manage custom line-of-business apps
       items:
-        - name: Manage Power Platform apps in the Microsoft Teams admin center
+        - name: Manage Power Platform apps in Teams admin center
           href: manage-power-platform-apps.md
         - name: Publish custom apps on your organization store
           href: submit-approve-custom-apps.md
@@ -1555,7 +1554,7 @@ items:
         - name: Brand your organization's app store
           href: customize-your-app-store.md
 
-    - name: Admin controls and app governance
+    - name: Admin controls to govern apps
       items:
         - name: Overview of app management for admins
           href: manage-apps.md
@@ -1571,14 +1570,12 @@ items:
             href: teams-custom-app-policies-and-settings.md
         - name: Tailor Teams apps for your frontline workers
           href: pin-teams-apps-based-on-license.md
-        - name: Review Azure AD permissions and grant admin consent
+        - name: About Azure AD permissions and admin consent
           href: app-permissions-admin-center.md
         - name: Manage resource-specific consent for your organization
           href: resource-specific-consent.md
-        - name: Understand about app permissions and access to resources
+        - name: Understand app permissions and access to resources
           href: app-permissions.md
-        - name: Admin settings for apps in Teams
-          href: admin-settings.md
         - name: App behavior based on types of users
           href: non-standard-users.md
         - name: Update apps to newer versions as end-users
@@ -1678,6 +1675,8 @@ items:
       items: 
         - name: Get started with Teams for frontline workers
           href: flw-landing-page.md
+        - name: Start with a Frontline Trial
+          href: flw-trial.md
         - name: Licensing options for frontline workers
           href: flw-licensing-options.md
         - name: Frontline Worker quick start guide

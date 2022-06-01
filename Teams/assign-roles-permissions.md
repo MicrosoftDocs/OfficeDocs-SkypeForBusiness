@@ -66,7 +66,10 @@ For more information about moderator capabilities, see [Set up and manage channe
 
 ## Assign a user role
 
-To assign a user role, in Teams, select the team name and click **More options** > **Manage team**. On the **Members** tab, you can add members and choose owners and moderators (if you have sufficient permissions). For more information, see [Change team settings in Teams](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc).
+To assign a user role, in Teams, select the team name and then select **More options** (**...**) > **Manage team**. On the **Members** tab, you can add members and choose owners and moderators (if you have sufficient permissions). For more information, see [Change team settings in Teams](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc).
+
+> [!NOTE]
+> The **Manage team** option will not appear for pinned channels. Select the team name under *Your teams* further below and then select **More options** (**...**) to the right of the name.
 
 ## Permissions to create teams
 
