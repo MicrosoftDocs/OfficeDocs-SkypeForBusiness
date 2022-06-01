@@ -38,7 +38,3 @@ In most cases, after app developers publish an app update, the new version autom
 
 > [!NOTE]
 > The update process applies to all app updates for Microsoft apps, custom apps, and third-party apps.
-
-## Related topics
-
-[Manage apps](manage-apps.md)
