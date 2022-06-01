@@ -3,7 +3,7 @@ title: Data and Privacy Information
 author: donnah007 
 ms.author: v-donnahill
 manager: serdars
-ms.date: 05/27/2022
+ms.date: 06/01/2022
 ms.reviewer:  
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -23,7 +23,7 @@ f1keywords: Microsoft Teams Rooms Managed Service Data and Privacy Information
 
 # Approach
 
-Customers using Microsoft Teams Rooms Managed Services entrust Microsoft with their most valuable asset---data. They trust that its privacy will be protected and that it will be used only in a way that is consistent with their expectations.
+Customers using Microsoft Teams Rooms Managed Services entrust Microsoft with their most valuable asset — data. They trust that its privacy will be protected and that it will be used only in a way that is consistent with their expectations.
 
 The technology follows privacy processes to make sure that it adheres to the customer promises in collecting and using data effectively running the service.
 ## Data collection and privacy
