@@ -1,13 +1,173 @@
 {
   "redirections": [
     {
+      "source_path": "Teams/expand-teams-across-your-org/bookings-virtual-visits.md",
+      "redirect_url": "/microsoft-365/frontline/bookings-virtual-visits",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/expand-teams-across-your-org/browser-join.md",
+      "redirect_url": "/microsoft-365/frontline/browser-join",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/expand-teams-across-your-org/healthcare/ehr-admin-cerner.md",
+      "redirect_url": "/microsoft-365/frontline/ehr-admin-cerner",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/expand-teams-across-your-org/healthcare/ehr-admin.md",
+      "redirect_url": "/microsoft-365/frontline/ehr-admin-epic",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/expand-teams-across-your-org/healthcare/ehr-admin-reports.md",
+      "redirect_url": "/microsoft-365/frontline/ehr-connector-report",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/flw-licensing-options.md",
+      "redirect_url": "/microsoft-365/frontline/flw-licensing-options",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/flw-onboarding-wizard.md",
+      "redirect_url": "/microsoft-365/frontline/flw-onboarding-wizard",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/flw-quickstart.yml",
+      "redirect_url": "/microsoft-365/frontline/flw-quickstart",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/flw-scripted-deployment.md",
+      "redirect_url": "/microsoft-365/frontline/flw-scripted-deployment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/get-started-with-retail-teams-templates.md",
+      "redirect_url": "/microsoft-365/frontline/get-started-with-retail-teams-templates",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/expand-teams-across-your-org/healthcare/hc-delegates.md",
+      "redirect_url": "/microsoft-365/frontline/hc-delegates",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/expand-teams-across-your-org/healthcare/hc-delegates.md",
+      "redirect_url": "/microsoft-365/frontline/hc-delegates",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md",
+      "redirect_url": "/microsoft-365/frontline/healthcare-templates-admin-console",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md",
+      "redirect_url": "/microsoft-365/frontline/manage-shift-based-access-flw",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/expand-teams-across-your-org/healthcare/messaging-policies-hc.md",
+      "redirect_url": "/microsoft-365/frontline/messaging-policies-hc",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/pin-teams-apps-based-on-license.md",
+      "redirect_url": "/microsoft-365/frontline/pin-teams-apps-based-on-license",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/policy-packages-healthcare.md",
+      "redirect_url": "/microsoft-365/frontline/policy-packages-healthcare",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/expand-teams-across-your-org/retail-business-processes.md",
+      "redirect_url": "/microsoft-365/frontline/retail-business-processes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/expand-teams-across-your-org/retail-team-collaboration.md",
+      "redirect_url": "/microsoft-365/frontline/retail-team-collaboration",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/expand-teams-across-your-org/shifts/schedule-owner-for-shift-management.md",
+      "redirect_url": "/microsoft-365/frontline/schedule-owner-for-shift-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup.md",
+      "redirect_url": "/microsoft-365/frontline/shifts-connector-blue-yonder-powershell-setup",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/expand-teams-across-your-org/shifts/shifts-connector-powershell-manage.md",
+      "redirect_url": "/microsoft-365/frontline/shifts-connector-powershell-manage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/expand-teams-across-your-org/shifts/shifts-connector-wizard.md",
+      "redirect_url": "/microsoft-365/frontline/shifts-connector-wizard",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/expand-teams-across-your-org/shifts/shifts-connectors.md",
+      "redirect_url": "/microsoft-365/frontline/shifts-connectors",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/expand-teams-across-your-org/shifts/shifts-data-faq.md",
+      "redirect_url": "/microsoft-365/frontline/shifts-data-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/expand-teams-across-your-org/shifts/shifts-for-teams-landing-page.md",
+      "redirect_url": "/microsoft-365/frontline/shifts-for-teams-landing-page",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/team-templates-nonprofit.md",
+      "redirect_url": "/microsoft-365/frontline/team-templates-nonprofit",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/expand-teams-across-your-org/teams-for-nonprofit-landing-page.md",
+      "redirect_url": "/microsoft-365/frontline/teams-for-nonprofit-landing-page",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/expand-teams-across-your-org/teams-for-retail-landing-page.md",
+      "redirect_url": "/microsoft-365/frontline/teams-for-retail-landing-page",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/expand-teams-across-your-org/healthcare/teams-in-hc.md",
+      "redirect_url": "/microsoft-365/frontline/teams-in-hc",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/expand-teams-across-your-org/virtual-appointments-toolkit.md",
+      "redirect_url": "/microsoft-365/frontline/virtual-appointments-toolkit",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams/teams-analytics-and-reports/virtual-visits-usage-report.md",
+      "redirect_url": "/microsoft-365/frontline/virtual-visits-usage-report",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "Teams/admin-settings.md",
       "redirect_url": "/microsoftteams/manage-apps",
       "redirect_document_id": false
     },
     {
       "source_path": "Teams/expand-teams-across-your-org/mobile-browser-join.md",
-      "redirect_url": "/microsoftteams/expand-teams-across-your-org/browser-join",
+      "redirect_url": "/microsoft-365/frontline/browser-join",
       "redirect_document_id": true
     },
     {
