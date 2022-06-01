@@ -1,7 +1,7 @@
 ---
 title: What's a port order?
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -131,13 +131,17 @@ To check the status of your port order, in the left navigation of the Microsoft 
 ## Can user (subscriber) phone numbers be converted to service numbers?
 <a name="bkmk_type_1"> </a>
 
-Yes they can. All you need to do is submit a service request that includes your organization's tenant GUID and the phone numbers you want converted. To do this, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+Yes they can. All you need to do is submit a service request that includes your organization's tenant GUID and the phone numbers you want converted. To do this, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 ## Can I port out my numbers from Teams to a different phone service provider or carrier?
 
-To port out your numbers from Teams to a different carrier, you must submit a request with the new carrier. You'll also need to set a porting PIN by opening a support case. For information on how to get support, see [Get support](/microsoft-365/business-video/get-help-support). 
+To port out your numbers from Teams to a different carrier, you must submit a request with the new carrier. You'll also need to set a porting PIN in the Microsoft Teams admin center.
+
+To define your porting PIN, in the left navigation of the Microsoft Teams admin center, go to **Voice** > **Phone numbers**, on the upper-right corner of the page, select **Manage porting PIN**, and then enter a 10-digit PIN.
 
 When your new carrier contacts us with the porting request, we'll ask them to provide the PIN you defined.
+
+If you need further assitance setting up a PIN please contact the [Telephone Number Services Team](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
 
 ## Common mistakes to watch out for
 <a name="bkmk_type_1"> </a>

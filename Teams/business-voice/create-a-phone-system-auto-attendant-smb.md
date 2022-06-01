@@ -20,7 +20,7 @@ f1.keywords:
 - CSH
 ms.custom: 
   - Phone System
-description: Learn how to set up and test auto attendants for small businesses in Microsoft 365 Teams Phone with Calling Plan.
+description: Learn how to set up and test auto attendants for small businesses in Microsoft Teams Phone System with Calling Plan.
 --- 
 # Set up an auto attendant - small business tutorial
 

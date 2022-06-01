@@ -1,7 +1,7 @@
 ---
 title: "Set Microsoft Teams Android devices user interface"
-ms.author: mitressl
-author: flinchbot
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 appliesto: 

@@ -1,29 +1,30 @@
 ---
 title: Block inbound calls in Microsoft Teams
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.collection: 
+ms.collection:
   - M365-voice
 audience: Admin
 ms.reviewer: roykuntz
 appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
-ms.custom: Learn how to use PowerShell to manage inbound call blocking.
+ms.custom:
+description: Learn how to use PowerShell to manage inbound call blocking.
 ---
 
 # Block inbound calls
 
 Microsoft Calling Plans, Direct Routing, and Operator Connect all support blocking inbound calls from the Public Switched Telephone Network (PSTN). This feature allows an administrator to define a  list of number patterns at the tenant global level so that the caller ID of every incoming PSTN call to the tenant can be checked against the list for a match. If a match is made, an incoming call is rejected.
 
-This inbound call blocking feature only works on inbound calls that originate from the PSTN and only works on a tenant global level. Individual Teams users can’t manipulate this list. The Teams client does allow individual users to block PSTN calls. For information about how your end users can implement call blocking, see [Manage call settings in Teams](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f).
+This inbound call blocking feature only works on inbound calls that originate from the PSTN and only works on a tenant global level. Individual Teams users can't manipulate this list. The Teams client does allow individual users to block PSTN calls. For information about how your end users can implement call blocking, see [Manage call settings in Teams](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f).
 
->[!NOTE]
-> Blocked callers may experience slightly different behaviors when they've been blocked. The behavior is based on how the blocked caller’s carrier handles the notification that the call isn't allowed to be successfully completed. Examples may include a carrier message stating the call can't be completed as dialed, or simply dropping the call.
+> [!NOTE]
+> Blocked callers may experience slightly different behaviors when they've been blocked. The behavior is based on how the blocked caller's carrier handles the notification that the call isn't allowed to be successfully completed. Examples may include a carrier message stating the call can't be completed as dialed, or simply dropping the call.
 
 ## Call blocking admin controls and information
 
@@ -51,7 +52,7 @@ Viewing and activating the entire call blocking feature is managed through the *
 
 #### Block a number
 
-In the following example, the tenant administrator wants to block all calls coming from the number range 1 (312) 555-0000 to 1 (312) 555-9999. The number pattern is created so that both numbers in range with + prefixed and numbers in the range without + prefixed are matched. You don’t need to include the symbols – and () in the phone numbers because the system strips these symbols before matching.  To turn on the number pattern, the **Enabled** parameter is set to True. To disable this specific number pattern, set the parameter to False.
+In the following example, the tenant administrator wants to block all calls coming from the number range 1 (312) 555-0000 to 1 (312) 555-9999. The number pattern is created so that both numbers in range with + prefixed and numbers in the range without + prefixed are matched. You don't need to include the symbols – and () in the phone numbers because the system strips these symbols before matching.  To turn on the number pattern, the **Enabled** parameter is set to True. To disable this specific number pattern, set the parameter to False.
 
 ```PowerShell
 New-CsInboundBlockedNumberPattern -Name "BlockRange1" -Enabled $True -Description "Block Contoso" -Pattern "^\+?1312555\d{4}$"
@@ -69,7 +70,7 @@ We recommend that you provide a meaningful name to easily understand why the pat
 
 Patterns are matched using Regular Expressions (Regex). For more information, see [Using Regex](#using-regex).
 
-Allow time for replication before you test and validate. 
+Allow time for replication before you test and validate.
 
 #### Allow a number
 
@@ -78,7 +79,7 @@ You can allow a number to call by removing the blocked number pattern. In the fo
 ```PowerShell
 Remove-CsInboundBlockedNumberPattern -Identity "BlockNumber1"
 ```
- 
+
 If the identity isn't known, use the **Get-CsInboundBlockedNumberPattern** cmdlet to first locate the proper pattern and note the identity. Then, run the **Remove-CsInboundBlockedNumberPattern** cmdlet and pass the appropriate identity value.
 
 Allow time for replication before you test and validate.
@@ -97,7 +98,7 @@ Use built-in PowerShell filtering abilities to parse the returned values as requ
 
 You can add exceptions to blocked number patterns by using the **New-**, **Get-**, **Set-**, and **Remove-CsInboundExemptNumberPattern** cmdlets.
 
-- [New-CsInboundExemptNumberPattern](/powershell/module/skype/New-CsInboundExemptNumberPattern) adds a number exception pattern to the tenant list. 
+- [New-CsInboundExemptNumberPattern](/powershell/module/skype/New-CsInboundExemptNumberPattern) adds a number exception pattern to the tenant list.
 - [Get-CsInboundExemptNumberPattern](/powershell/module/skype/Get-CsInboundExemptNumberPattern) returns a list of all number exception patterns added to the tenant list.
 - [Set-CsInboundExemptNumberPattern](/powershell/module/skype/Set-CsInboundExemptNumberPattern) modifies one or more parameters to a number exception pattern in the tenant list.
 - [Remove-CsInboundExemptNumberPattern](/powershell/module/skype/Remove-CsInboundExemptNumberPattern) removes a number exception pattern from the tenant list.
@@ -114,25 +115,24 @@ New-CsInboundExemptNumberPattern  -Identity "AllowContoso1" -Pattern "^\+?131255
 
 To turn on the number pattern, the **Enabled** parameter is set to True. To disable this specific number pattern, set the parameter to False.
 
-
 #### View all number exceptions
 
 In this example, the **Identity** parameter is optional. If the **Identity** parameter isn't specified, this cmdlet returns a list of all number exception patterns entered for a tenant.
- 
+
 ```powershell
 Get-CsInboundExemptNumberPattern -Identity <String>
 ```
- 
+
 ```powershell
-Get-CsInboundExemptNumberPattern 
+Get-CsInboundExemptNumberPattern
 ```
 
 #### Modify a number exception
 
 The **Set-CsInboundExemptNumberPattern** cmdlet lets you modify one or more parameters for a given number pattern identity. In this example, the **Identity** parameter is required.
- 
+
 ```powershell
-Set-CsInboundExemptNumberPattern -Identity <String> -Enabled <bool> -Description <string> -Pattern <string> 
+Set-CsInboundExemptNumberPattern -Identity <String> -Enabled <bool> -Description <string> -Pattern <string>
 ```
 
 ```powershell
@@ -141,9 +141,9 @@ Set-CsInboundExemptNumberPattern -Identity "AllowContoso1" -Enabled $False
 
 #### Remove a number exception
 
-The **Remove-CsInboundExemptNumberPattern** cmdlet will remove the given number pattern from the tenant list. In this example, the **Identity** parameter is required. 
+The **Remove-CsInboundExemptNumberPattern** cmdlet will remove the given number pattern from the tenant list. In this example, the **Identity** parameter is required.
 
-If the identity isn't known, use the **Get-CsInboundExemptNumberPattern** cmdlet to first locate the proper pattern and note the identity. Then, run the **Remove-CsInboundExemptNumberPattern** cmdlet and pass the appropriate identity value. Allow time for replication before you test and validate.  
+If the identity isn't known, use the **Get-CsInboundExemptNumberPattern** cmdlet to first locate the proper pattern and note the identity. Then, run the **Remove-CsInboundExemptNumberPattern** cmdlet and pass the appropriate identity value. Allow time for replication before you test and validate.
 
 ```powershell
 Remove-CsInboundExemptNumberPattern -Identity <String>
@@ -156,7 +156,7 @@ Remove-CsInboundExemptNumberPattern -Identity "AllowContoso1"
 ## Test whether a number is blocked
 
 Use the **Test-CsInboundBlockedNumberPattern** cmdlet to verify whether a number is blocked in the tenant.
- 
+
 The **PhoneNumber** parameter is required, and should be a numeric string without any additional characters, such as +, - or (). The resulting **IsNumberBlocked** parameter returns a value of True if the number is blocked in the tenant; the parameter returns False if it's not blocked.
 
 ```powershell

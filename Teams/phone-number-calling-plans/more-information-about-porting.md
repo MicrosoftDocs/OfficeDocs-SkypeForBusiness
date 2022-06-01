@@ -1,7 +1,7 @@
 ---
 title: More information about porting
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: tonysmit,jastark
 ms.topic: article

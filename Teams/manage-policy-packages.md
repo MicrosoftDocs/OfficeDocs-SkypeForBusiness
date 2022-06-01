@@ -1,7 +1,7 @@
 ---
 title: Manage policy packages in Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: sekrantz, aaglick
 ms.topic: article
@@ -64,8 +64,8 @@ Teams currently includes the following policy packages.
 |Healthcare clinical worker  |Creates a set of policies and policy settings that give clinical workers such as registered nurses, charge nurses, physicians, and social workers full access to chat, calling, shift management, and meetings. |
 |Healthcare information worker  |Creates a set of policies and policy settings that give information workers such as IT personnel, informatics staff, finance personnel, and compliance officers, full access to chat, calling, and meetings.|
 |Healthcare patient room  |Creates a set of policies and policy settings that apply to patient rooms in your healthcare organization.|
-|Small and medium business user (Teams Phone with Calling Plan) |Creates an app setup policy that includes the apps for a Teams Phone with Calling Plan experience.|
-|Small and medium business user (without Teams Phone with Calling Plan) |Creates an app setup policy relevant for a small and medium sized business Teams users (non-Teams Phone with Calling Plan experience).
+|Small and medium business user (Teams Phone System with Calling Plan bundle) |Creates an app setup policy that includes the apps for a Teams Phone System with Calling Plan bundle experience.|
+|Small and medium business user (without Teams Phone System with Calling Plan bundle) |Creates an app setup policy relevant for a small and medium sized business Teams users (non-Teams Phone System with Calling Plan bundle experience).
 |Public safety officer   |Creates a set of policies and policy settings that apply to public safety officers in your organization.|
 
 > [!NOTE]
@@ -78,11 +78,11 @@ For example, when you assign the Education (Teacher) policy package to teachers 
 
 ## Custom policy packages
 
-Custom policy packages let you bundle your own set of policies for users with similar roles in you organization. Create your own policy packages by adding the policy types and policies that you need.
+Custom policy packages let you bundle your own set of policies for users with similar roles in your organization. Create your own policy packages by adding the policy types and policies that you need.
 
 To create a new custom policy package:
 
-1. In the left navigation of the Microsoft Teams admin center,  select **Policy packages**, and then click **Add**.
+1. In the left pane of the Microsoft Teams admin center,  select **Policy packages**, and then click **Add**.
 
     :::image type="content" source="media/policy-packages-add.png" alt-text="Screenshot of Add button on Policy packages page in the admin center.":::
 
@@ -92,7 +92,7 @@ To create a new custom policy package:
 
 3. Select the policy types and policy names to include in the package.
 
-4. Click **Save**.
+4. Select **Save**.
 
 ## How to use policy packages
 
@@ -115,17 +115,17 @@ Here are the steps for how to view, assign, and customize policy packages in the
 
 ### View the settings of a policy in a policy package
 
-1. In the left navigation of the Microsoft Teams admin center, select **Policy packages**, and then select a policy package by clicking to the left of the package name.
+1. In the left pane of the Microsoft Teams admin center, select **Policy packages**, and then select a policy package by clicking to the left of the package name.
 
-2. Click the policy you want to view.
+2. Select the policy you want to view.
 
 ### Customize policies in a policy package
 
 You can edit the settings of a policy through the **Policy packages** page or by going directly to the policy page in the Microsoft Teams admin center.
 
-1. In the left navigation of the Microsoft Teams admin center, do one of the following:
-    - Click **Policy packages**, and then select the policy package by clicking to the left of the package name.
-    - Click the policy type.  For example, click **Messaging policies**.
+1. In the left pane of the Microsoft Teams admin center, do one of the following:
+    - Select **Policy packages**, and then select the policy package by clicking to the left of the package name.
+    - Select the policy type.  For example, click **Messaging policies**.
 
 2. Select the policy you want to edit. Policies that are linked to a policy package have the same name as the policy package.
 

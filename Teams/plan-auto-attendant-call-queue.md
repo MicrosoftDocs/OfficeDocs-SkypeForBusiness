@@ -23,14 +23,14 @@ ms.custom:
   - ms.teamsadmincenter.autoattendants.overview
   - Phone System
   - seo-marvel-apr2020
-description: Learn about auto attendants and call queues and how to use them to help callers move through a menu system to reach people or departments in your organization.
+description: Learn about auto attendants and call queues, and how to use them to help callers move through a menu system to reach people or departments in your organization.
 ---
 
 # Plan for Teams auto attendants and call queues
 
-Auto attendants allow you to set up menu options to route calls based on caller input. Menu options, such as "For Sales, press 1.  For Services press 2", for an auto attendant let an organization provide a series of choices that guide callers to their destination quickly, without relying on a human operator to handle incoming calls.
+Auto attendants allow you to set up menu options to route calls based on caller input. Menu options for an auto attendant--such as "For Sales, press 1--For Services press 2"--let an organization provide a series of choices that guide callers to their destination quickly, without relying on a human operator to handle incoming calls.
 
-Call queues are waiting areas for callers. For situations where callers need to reach someone with a particular specialty - such as sales or service - rather than a specific person, you can use call queues to connect callers to the group of agents who can assist them. Callers are put on hold until an agent assigned to the queue is available to take their call.
+Call queues are waiting areas for callers. For situations where callers need to reach someone with a particular specialty--such as sales or service--rather than a specific person, you can use call queues to connect callers to the group of agents who can assist them. Callers are put on hold until an agent assigned to the queue is available to take their call.
 
 Used together, auto attendants and call queues can easily route callers to the appropriate person or department in your organization.
 
@@ -65,8 +65,8 @@ You can assign a phone number to a call queue, however call queues do not provid
 To configure auto attendants and call queues, you need the following resources:
 
 - A resource account for each auto attendant and each call queue
-- A free Microsoft Teams Phone - Virtual User license for each resource account
-- At least one [Microsoft service number](getting-service-phone-numbers.md), Operator Connect number, Direct Routing number, or a hybrid number for each resource account that you want to be directly dialable
+- A free Microsoft Phone System - Virtual User license for each resource account that will be directly dialable from Teams users or external phone numbers
+- At least one [Microsoft service number](getting-service-phone-numbers.md), Operator Connect number, Direct Routing number, or a hybrid number for each resource account that you want to be directly dialable from external phone numbers
  - The service number may be a toll or toll-free number
 
 > [!NOTE]
@@ -79,11 +79,21 @@ Agents who receive calls from the call queues must be Enterprise Voice enabled o
 
 If your agents are using the Microsoft Teams app for call queue calls, they need to be in TeamsOnly mode.
 
-When using a resource account for calling line ID purposes in call queues or when an auto attendant or call queue is transferring calls to an external phone number, the resource account must have a Teams Phone Virtual User license and one of the following assigned:
+When using a resource account for calling line ID purposes in call queues, the resource account must have a Phone System Virtual User license and one of the following assigned:
 
 - A [Calling Plan](calling-plans-for-office-365.md) license and a phone number assigned
 - An [Operator Connect](operator-connect-plan.md) phone number assigned
 - An [online voice routing policy](manage-voice-routing-policies.md) (phone number assignment is optional when using Direct Routing)
+
+When an auto attendant or call queue is transferring calls to an external number, specific resource accounts as outlined below must have a Phone System Virtual User license and one of the following assigned:
+
+- A [Calling Plan](calling-plans-for-office-365.md) license and a phone number assigned
+- An [Operator Connect](operator-connect-plan.md) phone number assigned
+- An [online voice routing policy](manage-voice-routing-policies.md) (phone number assignment is optional when using Direct Routing)
+
+Which Resource Account to license:
+- License the resource account on the first auto attendant receiving the call when that auto attendant transfers to other auto attendants or call queues that transfer calls externally
+- In all other calling scenarios, license the resource account of the auto attendant or call queue performing the external transfer
 
 > [!NOTE]
 > If the Calling Plan assigned to the resource account becomes disabled or is removed, [Communications Credits](what-are-communications-credits.md), if available in the tenant (without being assigned to the resource account), will be consumed. If there is no Calling Plan or Communications Credits then the call will fail.
@@ -128,7 +138,7 @@ If you have an existing auto attendant and call queue infrastructure and you're 
 *Conference mode* is an option in call queues that significantly reduces the amount of time it takes to connect Teams VOIP calls and PSTN calls to an agent. For conference mode to work, agents in the call queue must use one of the following clients:
 
 - The latest version of the Microsoft Teams desktop client, Android app, or iOS app
-- Microsoft Teams Phone version 1449/1.0.94.2020051601 or later
+- Microsoft Phone System version 1449/1.0.94.2020051601 or later
   
 Set Agents' Teams accounts to Teams-only mode. Agents who don't meet the requirements aren't included in the call routing list.
 
@@ -158,7 +168,7 @@ When calls are redirected by an auto attendant or call queue, you can choose fro
 - **Voicemail** - the voice mailbox associated with a Microsoft 365 group that you specify. You can choose if you want voicemail transcriptions and the "Please leave a message after the tone." system prompt.
 - **Operator** (auto attendant only) - the operator defined for the auto attendant. Defining an operator is optional. An operator can be any of the other destinations in this list.
 
-Auto attendants offer separate call routing options for calls received outside of business hours and on holidays. After-hours call routing allows all the options listed above, while holiday call routing allows only redirecting or disconnecting a call, but no dial key options.
+Auto attendants offer separate call routing options for calls received outside of business hours and on holidays. 
 
 Call queues place the caller on hold until an agent assigned to the queue is available to take their call. There are two situations where a caller might be directed out of the queue:
 
@@ -202,9 +212,9 @@ Once you've completed the planning tasks in this article, follow these steps to 
 
 1. Get the service numbers that you need for the auto attendants and call queues that you want to be accessible by direct dialing from outside your organization. This might include [transferring numbers from another provider](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) or [requesting new service numbers](getting-service-phone-numbers.md).
 
-2. Get a [Teams Phone - Virtual User license](teams-add-on-licensing/virtual-user.md) for each resource account that you plan to create. These licenses are free, so we suggest getting a few extra in case you decide to make changes to your resource accounts in the future.
+2. Get a [Phone System - Virtual User license](teams-add-on-licensing/virtual-user.md) for each resource account that you plan to create. These licenses are free, so we suggest getting a few extra in case you decide to make changes to your resource accounts in the future.
 
-3. [Create a resource account](manage-resource-accounts.md) for each auto attendant and call queue that you want to create. Assign each account a Teams Phone - Virtual User license and, optionally, a service number.
+3. [Create a resource account](manage-resource-accounts.md) for each auto attendant and call queue that you want to create. Assign each account a Phone System - Virtual User license and, optionally, a service number.
 
 4. [Create the holidays](set-up-holidays-in-teams.md) for which you want to have separate call routing in your auto attendants.
 

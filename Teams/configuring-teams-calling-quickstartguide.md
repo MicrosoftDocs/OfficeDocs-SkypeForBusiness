@@ -1,7 +1,7 @@
 ---
 title: Quick start guide - Configuring Calling Plans
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 8/21/2018
 ms.topic: article

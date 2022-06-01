@@ -50,7 +50,7 @@ The Common Area Phone license supports:
 &sup2; Not available in sovereign clouds  
 
 >[!NOTE]
-> Accounts for common area phones from the Skype for Business Server can't be migrated to Microsoft Teams. Follow the steps in this article to recreate those accounts for Teams, and, if required, migrate your PTSN connectivity.
+> Accounts for common area phones objects created in Skype for Business Server can't be migrated to Microsoft Teams. Follow the steps in this article to recreate those accounts for Teams, and, if required, migrate your PTSN connectivity.
 
 ## Step 1 - Buy the licenses
 
@@ -142,6 +142,9 @@ To sign in locally with a username and password:
 2. Select **Sign in on this device**
 
 3. Follow the sign-in directions on the device. Once signed in, the phone will display the common area phone user experience.
+
+> [!NOTE]
+> If you are using a custom setup policy that unpins the calling app, the dial pad doesn't appear on the Common Area Phone. For more information about Teams setup policies, see [Manage app setup policies in Microsoft Teams](/microsoftteams/teams-app-setup-policies).
 
 ### Sign in from another device
 

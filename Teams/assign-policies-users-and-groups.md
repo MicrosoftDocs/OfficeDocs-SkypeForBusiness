@@ -1,7 +1,7 @@
 ---
 title: Assign policies to users and groups
-author: KarliStites
-ms.author: kastites
+author: mkbond007
+ms.author: mabond
 ms.reviewer: tomkau, saragava, ritikag, jastark
 manager: serdars
 ms.topic: article
@@ -32,13 +32,16 @@ Follow these steps to assign a policy to an individual user or to a small number
 
 To assign a policy to a user:
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then select the user.
+1. In the left navigation of the [Microsoft Teams admin center](https://admin.teams.microsoft.com), go to **Users** > **Manage users**.
 2. Select the user by clicking to the left of the user name, and then select **Edit settings**.
 3. Select the policy you want to assign, and then select **Apply**.
 
 ![Assign a policy to a user in the Teams admin center.](media/assign-policy-user.png)
 
-Or, you can also do the following:
+> [!NOTE]
+> To unassign a specialized policy from a user, you can set each policy to **Global (Org-wide default)**.
+
+You can also do the following to assign a policy to a user:
 
 1. In the left navigation of the Microsoft Teams admin center, go to the policy page.
 2. Select the policy you want to assign by clicking to the left of the policy name.
@@ -77,7 +80,7 @@ To learn more, read [Manage policies via PowerShell](teams-powershell-managing-t
 
 ## Assign a policy to a group
 
-Policy assignment to groups lets you assign a policy to a group of users, such as a security group or distribution list. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly.
+Policy assignment to groups lets you assign a policy to a group of users, such as a security group, an organizational unit, or a distribution list. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly.
 
 Policy assignment to groups is recommended for groups of up to 50,000 users but it will also work with larger groups.
 
@@ -105,9 +108,12 @@ A user's effective policy is updated according to these rules:
 
 #### Group assignment ranking
 
+> [!NOTE]
+> A given policy type can be assigned to a maximum of 64 groups across policy instances for that type.
+
 When you assign a policy to a group, you specify a ranking for the group assignment. This is used to determine which policy a user should inherit as their effective policy if the user is a member of two or more groups and each group is assigned a policy of the same type.
 
-The group assignment ranking is relative to other group assignments of the same type. For example, if you're assigning a calling policy to two groups, set the ranking of one assignment to 1 and the other to 2, with 1 being the highest ranking. The group assignment ranking indicates which group membership is more important or more relevant than other group memberships with regards to inheritance.
+The group assignment ranking is relative to other group assignments of the same type. For example, if you're assigning a calling policy to two groups, set the ranking of one assignment to 1 and the other to 2, with 1 being the highest ranking. The group assignment ranking indicates which group membership is more important or more relevant than other group memberships with regard to inheritance.
 
 Say, for example, you have two groups, Store Employees and Store Managers. Both groups are assigned a Teams calling policy, Store Employees Calling Policy and Store Managers Calling Policy, respectively. For a store manager who is in both groups, their role as a manager is more relevant than their role as an employee, so the calling policy that's assigned to the Store Managers group should have a higher ranking.
 
@@ -303,11 +309,11 @@ When you're prompted, sign in using the same admin credentials that you used to 
 
 #### Assign a setup policy to a batch of users
 
-In this example, we use the [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet to assign an app setup policy named HR App Setup Policy to a batch of users listed in the Users_ids.text file.
+In this example, we use the [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) cmdlet to assign an app setup policy named HR App Setup Policy to a batch of users listed in the users_ids.text file.
 
 ```powershell
 $user_ids = Get-Content .\users_ids.txt
-New-CsBatchPolicyAssignmentOperation -PolicyType TeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $users_ids -OperationName "Example 1 batch"
+New-CsBatchPolicyAssignmentOperation -PolicyType TeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $user_ids -OperationName "Example 1 batch"
 ```
 
 In this example, we connect to Azure AD to retrieve a collection of users and then assign a messaging policy named New Hire Messaging Policy to a batch of users specified by using their SIP address.

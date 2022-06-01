@@ -33,7 +33,7 @@ Make sure you have the right [CQD access role](./turning-on-and-using-call-quali
 
 The process for installing a custom connector and adjusting security to enable use of the connector is described in detail in the [Power BI documentation](/power-bi/desktop-connector-extensibility). For the sake of simplicity, here's a quick explanation:
 
-1. Check to see if your computer already has a *\[Documents\]\\Power BI Desktop\\Custom Connectors* folder. If not, create this folder.<sup>1</sup>
+1. Check to see if your computer already has a *\[Documents\]\\Power BI Desktop\\Custom Connectors* folder. If not, create this folder.<sup>1</sup>
 
 2. Download the connector file (either a *\*.mez* or *\*.pqx* file) and place it in the *Custom Connectors* directory.
 
@@ -47,11 +47,11 @@ In order to build a report and run queries, you will first need to connect to th
 
 1. In the Home tab of Power BI Desktop, click on *Get Data*.
 
-    ![Screenshot: Power BI Connector.](media/CQD-power-bi-connector1-resize.png)
+    ![Get Data in the Power BI Connector.](media/CQD-power-bi-connector1-resize.png)
 
 2. The *Get Data* window should appear at this point. Navigate to *Online Services*, then select *Microsoft Call Quality (Beta)* and hit *Connect*.
 
-    ![Screenshot: Power BI Connector.](media/CQD-power-bi-connector2-resize.png)
+    ![Microsoft Call Quality in the Power BI Connector.](media/CQD-power-bi-connector2-resize.png)
 
 3. You will be prompted to sign in next. Use the same credentials that you use for Call Quality Dashboard.<sup>2</sup>
 
@@ -69,18 +69,18 @@ Once setup is complete, you should see the names of several hundred dimensions a
 
 1. Select the visualization you want to use from the *Visualizations* pane. A blank version of that visualization should appear on the page. For the purposes of this example, we will be using the *Table* visualization.
 
-    ![Screenshot: Power BI Connector.](media/CQD-power-bi-connector3-resize.png)
+    ![Visualizations pane in the Power BI Connector.](media/CQD-power-bi-connector3-resize.png)
 
 2. Determine which dimensions and measures (denoted by an aggregation symbol by their name) you wish to use for your query, then manually select them and drag them onto the black visualization. Alternately, drag them onto the *Values* field beneath the visualization options.
 
-    ![Screenshot: Power BI Connector.](media/CQD-power-bi-connector4-resize2.png)
+    !Visualizations query in the Power BI Connector.](media/CQD-power-bi-connector4-resize2.png)
 
     > [!IMPORTANT]
     > Call Quality Dashboard requires a measure for any query to run. Failure to add a measure to a query will cause that query to fail.
 
 3. Next, select any dimensions you want to filter on and drag them to the *Filters on this visual* field in the *Filters* pane. The Microsoft Call Quality connector currently supports *Basic filtering* (select values from a list of possible dimension values), *Advanced filtering* (manually specify values and operands to filter on, similar to Call Quality Dashboard), and *Relative date filtering* (only available for the *End Time* and *Start Time* dimensions). Filtering according to *Top N* is not supported by Call Quality Dashboard.
 
-    ![Screenshot: Power BI Connector.](media/CQD-power-bi-connector5-resize.png)
+    ![Visualizations filters in the Power BI Connector.](media/CQD-power-bi-connector5-resize.png)
 
     > [!IMPORTANT]
     > Filters are only supported when applied to Dimensions. Filtering on the values of Measurements is not supported in Call Quality Dashboard.
@@ -98,11 +98,11 @@ Once setup is complete, you should see the names of several hundred dimensions a
 
 2. Select the dimension you want to use as a drillthrough filter and drag them onto the *Drillthrough* field under on the *Visualizations* pane.
 
-    ![Screenshot: Power BI Connector.](media/CQD-power-bi-connector6-resize.png)
+    ![Drillthrough in the Power BI Connector.](media/CQD-power-bi-connector6-resize.png)
 
 3. **That's it\!** Any other query on another page that uses that dimension can now drill through to that page, automatically applying the drillthrough dimension's value as a filter.
 
-    ![Screenshot: Power BI Connector.](media/CQD-power-bi-connector7-resize.png)
+    ![Drillthrough filter in the Power BI Connector.](media/CQD-power-bi-connector7-resize.png)
 
 Unlike Call Quality Dashboard, Power BI supports non-sequential drillthrough. If a query includes the necessary dimension, it can drill through to any other page.
 
@@ -139,6 +139,14 @@ Most of these issues are either restrictions to DirectQuery connector design in 
 Date slicers aren't supported with the Microsoft Call Quality connector. To specify a date range, apply two filters to the report, specifying a less than and greater than date.
 
 Alternatively, if the dates you want to view are recent, apply a relative date filter to show only data for the last N days/weeks/months.
+
+
+### When I add certain dimensions to my reports, the visual immediately returns **"Couldn't load the data for this visual"**. Removing the dimension fixes the visual -- what is happening?
+
+This is a known issue in the Microsoft Call Quality connector; any dimension that is exposed as a whole number will appear in Power BI as an 'aggregate' column, where Power BI will attempt a default summarize action (typically 'Sum'). In some cases, this behavior will succeed at summing up the values even though the result is not useful, since the 'sum' of a dimension like Second WiFi Channel is meaningless. In other cases, this summarize action will fail and cause errors in the visual.
+
+To work around this issue, start by removing the dimension from the visual. Select the dimension from the 'Fields' list, browse to the 'Column tools' tab in the ribbon, click the 'Summarization' drop-down menu and select **Don't summarize**. The dimension can now be added to the visual again.
+
 
 ## Error Codes
 

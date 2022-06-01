@@ -1,5 +1,5 @@
 ---
-title: Release notes for Microsoft Teams Rooms
+title: Release notes for Microsoft Teams Rooms (Windows)
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -34,6 +34,9 @@ Teams Rooms is governed by the Modern Lifecycle Policy. See [Teams update proces
 
 |Release |Published to <br/> Microsoft Store |
 |--- |--- |
+|4.12.138.0 |5/26/2022 |
+|4.12.126.0 |4/27/2022 |
+|4.11.17.0 |3/3/2022 |
 |4.11.12.0 |1/24/2022 |
 |Teams Web-Client release | December 2021 |
 |Teams Web-Client release | October 2021 |
@@ -84,6 +87,44 @@ Teams Rooms is governed by the Modern Lifecycle Policy. See [Teams update proces
 
 ## Microsoft Teams Rooms feature introduction and issue resolution
 
+### 4.12.138.0 (5/26/2022)
+
+Introduced in this update:
+- Bug fix for multiple simultaneous video streams from Jabra Panacast 50 (meeting video, content camera video)
+- Cross-cloud meetings can now use default conferencing audio device
+- Quality and reliability fixes
+
+### 4.12.126.0 (4/27/2022)
+
+Introduced in this update:
+- IT admins can enroll a Teams rooms device to receive public preview features through XML setting. Once enrolled, the device will start to receive beta features. All features that go to beta testing are announced at [Microsoft Teams Public Preview - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)<sup>1,2</sup>  
+- IT admin can set Front of Room display resolution and scaling remotely through XML settings<sup>2</sup>
+- IT admin can disable Microsoft noise suppression through XML setting<sup>3</sup> 
+- IT admin can override download folder clean up on the device through registry key setting<sup>4</sup>
+- Enabling users to join Teams meeting hosted on another cloud (i.e., GCCH customer can join Teams meetings hosted on commercial cloud and vice versa) 
+- Teams rooms now blocks launching edge browser from URLs in PowerPoint Live as an added security measure for Teams rooms with touch displays 
+- Meet now experience is improved to add instructions for users to invite users to the room 
+- Support for Windows 10 21H2 feature release for Teams rooms   
+- New Cortana entry point on home screen, Share/ present button is back 
+
+> <sup>1</sup> Instructions for enrolling public preview MTR Windows devices can be found [here](../public-preview-doc-updates.md#enable-public-preview)
+> 
+> <sup>2</sup> Front of Room display resolution and scaling remotely through XML can be found [here](../rooms/xml-config-file.md#set-front-of-room-scale-and-resolution)
+>
+> <sup>3</sup> At this time, only admin setting is being released. User control and enablement of the noise suppression will follow post 4.12 release in May 2022. 
+>
+> <sup>4</sup> Device clean up instructions can be found [here](../rooms/rooms-operations.md#collecting-logs-on-microsoft-teams-rooms)
+> 
+> 
+> [!NOTE]
+> Windows 10 21H2 feature update will be updated after 7 days of installing the application or Admins can use manual update instead to install faster. Microsoft Teams Rooms application version 4.12 with these changes, will start to roll out in April 2022 and complete rollout in 2-3 weeks. The application updates are delivered through Windows store and the application is automatically installed. This is rolling out on Microsoft Teams Rooms on Windows only. 
+What you need to do to prepare: You might want to notify your users about this updated experience and update your training and documentation as appropriate.
+
+### 4.11.17.0 (3/3/2022)
+
+Introduced in this update:
+- Bug fix for camera framing which will enhance all content in camera view.
+
 ### 4.11.12.0 (1/24/2022)
 
 Introduced in this update:
@@ -124,7 +165,6 @@ Introduced in this update:
 - Ability to lock a meeting for meetings where room is organizer, as well as awareness of meeting that is locked
 - Presenter mode (weatherman) consumption support when a remote user shares content with presenter view option
 - Reaction support in Teams meetings 
-
 
 > [!NOTE]
 > Web client updates are available to all Teams Rooms with application versions 4.10 and 4.9. Admins will be able to enroll in Teams Rooms public preview program to get sneak peak of the web client features soon.
@@ -194,11 +234,11 @@ Introduced in this update:
 
 - Share HDMI audio to meeting participants in Teams meeting
 - Cortana voice skills (Preview)
-- Prevent unmuting based on audio permissions when Teams Room joins as attendee. For more information, see [Manage attendee audio permissions in Teams Meetings](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a).
+- Prevent unmuting based on audio permissions when Teams Rooms joins as attendee. For more information, see [Manage attendee audio permissions in Teams Meetings](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a).
 - Spotlight someone's video from Teams Room console and consume spotlighted video on room displays
 
 > [!NOTE]
-> Cortana voice skills are available for select audio peripherals for tenants located in the United States. Additional countries or regions will be added in the future. For more information, see [Cortana voice assistance in Teams](../cortana-in-teams.md)
+> Cortana voice skills are available for select audio peripherals for tenants located in the United States. Additional countries or regions will be added in the future. For more information, see [Cortana voice assistance in Teams](../cortana-in-teams.md)
 
 ### 4.6.23.0 (10/19/2020)
 

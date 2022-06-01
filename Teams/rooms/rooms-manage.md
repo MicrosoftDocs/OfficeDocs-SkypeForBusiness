@@ -100,12 +100,27 @@ If you select more than one, settings that support bulk editing show the two fol
 | *Theming*                                                    |                                                        |                    |
 |                                                              | Default<br>No theme<br>Custom<br>List of built-in themes   | Yes                |
 
-## Cortana settings 
+### Cortana settings
+
 You can enable Cortana for _Voice Activation_ or _Push to talk_ using PowerShell for all devices in your organization, or for each device separately.
 
 See [Microsoft Teams Rooms on Windows](../cortana-in-teams.md) in the "Cortana voice assistance in Teams" article.
 
-### Device restart options
+### Front row layout settings
+
+Front row is meeting view layout option for Teams Rooms on Windows.
+
+| Teams device | App version | Front of room display |
+|--------------|-------------|-----------------------|
+|Microsoft Teams Rooms on Windows | 4.11.12.0 or higher (The latest version is recommended) | Supports single and dual displays; Minimum size: 46 inches; Aspect ratio 16:9 with 1920x1080 resolution or 21:9 with 2560x1080 resolution; All displays should be set at 100% scaling in Windows settings |
+
+See [Microsoft Teams Rooms maintenance and operations](rooms-operations.md#scale-and-resolution), to adjust your display settings to meet Front row's requirements.
+
+To learn how to set Front row as the default layout for a room, or how to turn it off, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md#set-front-row-as-the-default-layout).
+
+See [Known issues](known-issues.md#Limits) for more information on managing Front row.
+
+## Device restart options
 
 Changes to device settings will only take effect after Teams Rooms has been restarted. When you make changes that need a restart, you can choose whether to restart immediately or schedule a restart. Here are the available restart options:
 
@@ -117,7 +132,7 @@ Changes to device settings will only take effect after Teams Rooms has been rest
 > [!CAUTION]
 > Teams Rooms that are in use at the time of a restart will become unavailable for the duration of the restart process. They'll be disconnected from in-progress meetings and won't be available to join new meetings.
 
-### Remove device
+## Remove device
 
 When you remove a device, the device is removed from your organization and no longer appears in your list of Teams Rooms on Windows in the Teams admin center.
 

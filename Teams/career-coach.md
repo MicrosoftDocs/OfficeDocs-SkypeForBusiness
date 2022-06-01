@@ -1,7 +1,7 @@
 ---
 title: Purchase, configure, and enable Career Coach for Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: alaina.creager
 manager: serdars
 ms.topic: article

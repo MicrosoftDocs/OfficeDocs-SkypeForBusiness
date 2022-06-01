@@ -22,28 +22,21 @@ ms.custom: seo-marvel-apr2020
 
 # Teams update process
 
-The Teams web app is updated weekly.
+Teams web app updates are typically released on the 4th Monday of each month.
 
-Teams desktop client updates are released every two weeks after rigorous internal testing and validation through our Technology Adoption Program (TAP). The update usually takes place on a Tuesday. If a critical update is required, Teams will bypass this schedule and release the update as soon as it’s available.
+Teams desktop client updates are released monthly after rigorous internal testing and validation through our Technology Adoption Program (TAP). Desktop client updates typically start on the 4th Monday of the month and are rolled out gradually to customers throughout the remainder of the week. If a critical update is required, Teams will bypass this schedule and release the update as soon as it’s available.
 
 The desktop client updates itself automatically. Teams checks for updates every few hours behind the scenes, downloads it, and then waits for the computer to be idle before silently installing the update.
 
-Users can also manually download updates by selecting **Check for updates** on the **Profile** drop-down menu on the top right of the app. If an update is available, it will be downloaded and silently installed when the computer is idle.
+Users can also manually download updates by selecting **Check for updates** in the **...** drop-down menu next to your **Profile** icon in the top right of the app. If an update is available, it will be downloaded and silently installed when the computer is idle.
 
 Users need to be signed in for updates to be downloaded.
-
-Starting July 31, 2019, Teams client updates use lower network bandwidth during the update. This update is turned on by default and requires no action from admins or users.
 
 ## What about updates to Microsoft 365 Apps for enterprise?
 
 Teams is installed by default with new installations of Microsoft 365 Apps for enterprise as described in [Deploy Microsoft Teams with Microsoft 365 Apps for enterprise](/DeployOffice/teams-install).
 
-Teams follows its own update process as outlined above. Teams doesn't follow the update process for the other Offices apps, such as Word and Excel. To learn more, read [Overview of update channels for Microsoft 365 Apps for enterprise](/DeployOffice/overview-of-update-channels-for-office-365-proplus).
-
-## What about updates to Teams on VDI?
-
-
-Teams clients on Virtual Desktop Infrastructure (VDI) aren't automatically updated the way that non-VDI Teams clients are. You have to update the VM image by installing a new MSI as described in the instructions to [Install Teams on VDI](teams-for-vdi.md). You must uninstall the current version to update to a newer version.
+Teams follows its own update process as outlined above. Teams doesn't follow the update process for the other Offices apps, such as Word and Excel. To learn more, read [Overview of update channels for Microsoft 365 Apps](/DeployOffice/overview-update-channels).
 
 ## Can admins deploy updates instead of Teams auto-updating?
 
@@ -58,3 +51,7 @@ To identify when desktop clients fall out of date, an in-app alert will be displ
 Teams desktop clients on Government Clouds currently have an exception to this servicing agreement until further notice.
 
 For information on new version releases, check [Message Center](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) or go to **Help** > **What’s new** in the client.
+
+## What about updates to Teams on VDI?
+
+Teams clients on Virtual Desktop Infrastructure (VDI) aren't automatically updated the way that non-VDI Teams clients are. You have to update the VM image by installing a new MSI as described in the instructions to [Install Teams on VDI](teams-for-vdi.md). You must uninstall the current version to update to a newer version.

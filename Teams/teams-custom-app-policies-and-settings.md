@@ -1,8 +1,8 @@
 ---
 title: Manage custom app policies and settings
-author: HowlinWolf-92
-ms.author: v-mahoffman
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.reviewer: akino
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -52,7 +52,7 @@ These settings don't affect the ability to block third-party apps.
 ### User custom app policy
 
 As part of [app setup policies](teams-app-setup-policies.md), admins can use a policy setting, **Upload custom apps**, to control whether a user can upload custom apps to Teams.
- 
+
 If this setting is turned off:
 
 - The user can't upload a custom app to any team in your organization or in the personal context.
@@ -61,7 +61,7 @@ If this setting is turned off:
 If this setting is turned on:
 
 - The user can upload custom apps to teams that allow it and to teams for which they are owners, depending on the org-wide custom app setting.
-- The user can upload custom apps to the personal context. 
+- The user can upload custom apps to the personal context.
 - The user can interact with custom apps, depending on the org-wide custom app setting.
 
 You can edit the settings in the global app setup policy to include the apps that you want. If you want to customize Teams for different groups of users in your organization, create and assign one or more custom app setup policies.
@@ -77,7 +77,7 @@ You can edit the settings in the global app setup policy to include the apps tha
 ### Team custom app setting
 
 Admins and team owners can control whether a team allows for custom apps to be added to it. This setting, **Allow members to upload custom apps**, together with a user's custom app policy determines who can add custom apps to a particular team.
- 
+
 If this setting is turned off:
 
 - Team owners can add custom apps, if their custom app policy allows it.
@@ -90,7 +90,7 @@ If this setting is turned on:
 
 #### Configure the team custom app setting
 
-1. In Teams, go to the team, click **More options ˙˙˙** > **Manage team**.
+1. In Teams, go to the team, click **More options ...** > **Manage team**.
 2. Click **Settings**, and then expand **Member permissions**.
 3. Select or clear the **Allow members to upload custom apps** check box.
 

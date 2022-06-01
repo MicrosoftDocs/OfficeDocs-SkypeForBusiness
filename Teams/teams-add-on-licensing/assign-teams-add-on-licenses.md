@@ -1,7 +1,7 @@
 ---
 title: Assign Teams add-on licenses to users
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,17 +13,17 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.reviewer: mikedav
-description: "Learn how to assign Teams add-on licenses to users for features like Audio Conferencing, Phone System, and Calling Plans."
+description: Learn how to assign Teams add-on licenses to users for capabilities like Audio Conferencing, Phone System, and Calling Plans.
 appliesto: 
   - Microsoft Teams
 ---
 
 # Assign Teams add-on licenses to users
 
-Add-on licenses are licenses for specific Teams features such as Audio Conferencing, Phone System, and Calling Plans. This article describes how to assign add-on licenses to individual users and to large sets of users in bulk.
+Add-on licenses are licenses for specific Teams capabilities like Audio Conferencing, Phone System, and Calling Plans. This article describes how to assign add-on licenses to individual users and large sets of users in bulk.
 
 > [!NOTE]
-> See [Teams add-on licensing](./microsoft-teams-add-on-licensing.md) for Teams features that are available with add-on licenses. You'll also find information about what licenses you need to buy and how to buy them (depending on your plan), so users can get features such as Audio Conferencing, toll-free numbers, and the ability to call phone numbers outside your organization. After you decide  which features you want for your users, assign the licenses to them.
+> See [Teams add-on licensing](./microsoft-teams-add-on-licensing.md) for Teams capabilities that are available with add-on licenses. You'll also find information about which licenses you need to buy and how to buy them, depending on your plan. After you decide which capabilities you want for your users, assign the licenses to them.
 
 You can use the Microsoft 365 admin center or PowerShell to assign licenses to users in your organization. You must be a Global admin or User management admin to manage licenses.
 
@@ -31,28 +31,29 @@ You can use the Microsoft 365 admin center or PowerShell to assign licenses to u
 
 Before you get started, review the following requirements:
 
-- If you're using on-premises Public Switched Telephone Network (PSTN) connectivity for hybrid users, you only need to assign a Phone System license. Do NOT assign a Calling Plan license.
+- If you're using on-premises Public Switched Telephone Network (PSTN) connectivity for users, you only need to assign a Teams Phone Standard license. Do NOT assign a Calling Plan license.
 
-- Because of the latency between Microsoft 365 and Microsoft Teams, it can take up to 24 hours for a user to be assigned a Calling Plan after you assign a license. If the user isn't assigned a Calling Plan after 24 hours, [contact support for business products - admin help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- After assigning a Microsoft Calling Plan to a user, it can take up to 24 hours before they'll see the dial pad in their Teams client. If the dial pad isn't shown in 24 hours, check your [dial pad configuration](../dial-pad-configuration.md). If necessary, you can also [contact support](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 - You'll get an error message if you haven't purchased the correct number of licenses. If you need to buy more Calling Plan licenses, choose the option to buy more.
 
-- Even if your users are assigned Enterprise E5 licenses, you still need to assign [Communications Credits](../what-are-communications-credits.md) licenses to them if they want to make or receive calls from the PSTN.
+- Even if your users are assigned Enterprise E5 licenses, you still need to connect them to the PSTN. You have several [PSTN connectivity options](../pstn-connectivity.md), including Microsoft Teams Calling Plans, Direct Routing, or Operator Connect.
 
 - After you assign Calling Plan or Communication Credits licenses to your users, you'll need to get phone numbers for your organization, and then assign those numbers to users. For step-by-step instructions, see [Set up Calling Plans](../set-up-calling-plans.md).
 
 ## Using the Microsoft 365 admin center
 
-Use the Microsoft 365 admin center to assign licenses to individual users or small sets of users at a time. 
+Use the Microsoft 365 admin center to assign licenses to individual users or small sets of users at a time.
+
 You assign licenses on the **Licenses** page (for up to 20 users at a time) or the **Active users** page (for up to 40 users at a time). The method you choose depends on whether you want to manage product licenses for specific users or manage user licenses for specific products.
 
 For step-by-step instructions, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
 
-If you need to assign licenses for a large number of users, such as hundreds or thousands of users, use Powershell or [group-based licensing in Azure Active Directory (Azure AD)](/azure/active-directory/users-groups-roles/licensing-groups-assign).  
+If you need to assign licenses for a large number of users, such as hundreds or thousands of users, use Powershell or [group-based licensing in Azure Active Directory (Azure AD)](/azure/active-directory/users-groups-roles/licensing-groups-assign).
 
 ## Using PowerShell
 
-Use PowerShell to assign licenses to users in bulk.  To learn more, see [Assign licenses to user accounts with PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell).
+Use PowerShell to assign licenses to users in bulk. To learn more, see [Assign licenses to user accounts with PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell).
 
 ### Example script
 
@@ -106,22 +107,22 @@ Here's an example of how to use a script to assign licenses to your users.
         }
     ```
 
-    For example, to assign Microsoft 365 Enterprise 1 and Audio Conferencing licenses, use the following syntax in the script:
+    For example, to assign Microsoft 365 Enterprise E1 and Audio Conferencing licenses, use the following syntax in the script:
 
       ```powershell
       Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:ENTERPRISEPACK" -ErrorAction SilentlyContinue
       Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:MCOMEETADV" -ErrorAction SilentlyContinue
       ```
 
-    To assign a Microsoft Business Voice (without Calling Plan) license, use the following syntax in the script:
+    To assign a Teams Phone with Calling Plan license, use the following syntax in the script:
 
       ```powershell
-      Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:BUSINESS_VOICE_DIRECTROUTING" -ErrorAction SilentlyContinue
+      Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:MCOTEAMS_ESSENTIALS" -ErrorAction SilentlyContinue
       ```
 
 ## Product names and SKU identifiers for licensing
 
-Here's a partial list of product names and their corresponding SKU part names that you can use as a reference when you use PowerShell to manage licenses in Teams.
+Here's a partial list of product names and their corresponding SKU part names that you can reference when you use PowerShell to manage licenses in Teams.
 
 To learn more, see [View licenses and services with PowerShell](/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell), [Product names and service plan identifiers for licensing](/azure/active-directory/users-groups-roles/licensing-service-plan-reference), and [Education SKU reference](../sku-reference-edu.md).
 
@@ -135,21 +136,17 @@ To learn more, see [View licenses and services with PowerShell](/office365/enter
 | Microsoft 365 Business Basic | O365_BUSINESS_ESSENTIALS|
 | Microsoft 365 Business Standard | O365_BUSINESS_PREMIUM|
 | Microsoft 365 Business | SPB|
-| Microsoft Business Voice (Canada)| BUSINESS_VOICE_MED  |
-| Microsoft Business Voice (United Kingdom) | BUSINESS_VOICE  |
-| Microsoft Business Voice (United States) | BUSINESS_VOICE_MED2  |
-| Microsoft Business Voice (without Calling Plan) | BUSINESS_VOICE_DIRECTROUTING  |
-| Microsoft Business Voice (without Calling Plan) for the United States| BUSINESS_VOICE_DIRECTROUTING _MED |
-| Audio Conferencing | MCOMEETADV | 
-| Audio Conferencing Pay Per Minute (pay as you go)</br>*Requires Communications Credits to be set up and enabled.* | MCOMEETACPEA |
-| Phone System | MCOEV |
+| Audio Conferencing | MCOMEETADV |
+| Audio Conferencing Pay Per Minute (pay as you go) Requires Communications Credits to be set up and enabled.* | MCOMEETACPEA |
+| Teams Phone Standard | MCOEV |
+| Teams Phone with Calling Plan | MCOTEAMS_ESSENTIALS |
 | Domestic and International Calling Plan | MCOPSTN2 |
 | Domestic Calling Plan (3000 minutes per user/month for US/PR/CA, 1200 minutes per user/month for EU countries) | MCOPSTN1 |
 | Domestic Calling Plan (120 minutes per user/month for each country) </br>*This plan isn't available in the United States.* | MCOPSTN5 |
 | Domestic Calling Plan (240 minutes per user/month for each country) </br>*This plan isn't available in the United States.* | MCOPSTN6 |
 | Communications Credits | MCOPSTNPP |
 
-## Related topics
+## Related content
 
 - [Teams add-on licensing](./microsoft-teams-add-on-licensing.md)
 - [Manage user access to Teams](../user-access.md)

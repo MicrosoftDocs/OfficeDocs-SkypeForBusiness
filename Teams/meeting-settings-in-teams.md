@@ -1,7 +1,7 @@
 ---
 title: Manage meeting settings
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: sonua
 ms.topic: article
@@ -65,8 +65,16 @@ Since both the organization-wide and per-organizer policies control anonymous jo
 
 Any other combination of values will prevent anonymous users from joining meetings.
 > [!NOTE]
-> To use the per-organizer policy for organizations with anonymous join turned off per organization, admins need to create a policy and then assign it to users. To learn how to do that, see [Manage meeting policies in Microsoft Teams](/microsoftteams/meeting-policies-overview).
+> To learn more about managing meeting policies, see [Manage meeting policies in Microsoft Teams](/microsoftteams/meeting-policies-overview).
 
+### Blocking anonymous join for specific client types
+
+When anonymous users are allowed to join meetings, they can use either the Teams client or a custom client built using [Azure Communication Services](/azure/communication-services/). Admins can block selected client types using the **-BlockedAnonymousJoinClientTypes** parameter in [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
+
+The possible values are:
+- Null (default). All client types are allowed.
+- Acs. Blocks custom clients built using [Azure Communication Services](/azure/communication-services/).
+- Teams. Blocks the Teams client.
 
 ## Allow anonymous users to interact with apps in meetings
 

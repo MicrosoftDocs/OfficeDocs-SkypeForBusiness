@@ -253,8 +253,8 @@ The client must have access to the specified ports (see table) on the public IP 
 
 | Traffic | From | To | Source port | Destination port|
 | :-------- | :-------- |:-----------|:--------|:---------|
-| UDP/SRTP | Client | SBC | 3478-3481 and Tenant admin configured ports for the client (default is 50000-50020)| Defined on the SBC |
-| UDP/SRTP | SBC | Client | Defined on the SBC | 3478-3481 and Tenant admin configured ports for the client (default is 50000-50020)  |
+| UDP/SRTP | Client | SBC | 50000-50019| Defined on the SBC |
+| UDP/SRTP | SBC | Client | Defined on the SBC | 50000-50019  |
 
 
 > [!NOTE]

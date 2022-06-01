@@ -1,9 +1,9 @@
 ---
 title: Resource-specific consent in Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: guptaashish
+ms.author: guptaashish
 ms.reviewer: nkramer
-manager: serdars
+manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams

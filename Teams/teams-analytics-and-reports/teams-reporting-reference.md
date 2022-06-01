@@ -42,27 +42,27 @@ We're continually improving the Teams reporting experience and adding features a
 |Report  |What's measured? |
 |---------|---------|
 |[Teams usage report](teams-usage-report.md)  |  Active users<br/>Active users in teams and channels<br/>Active channels<br/>Messages<br/>Privacy setting of  teams<br/>Guests in a team   |
-|[Teams user activity report](user-activity-report.md)  | Messages a user posted in a team chat<br/>Messages a user posted in a private chat<br/>  1:1 calls a user participated in<br/> Number of meeting user organized <br/>number of meeting user participated it<br/>Meetings Audio, Video and Screen sharing time<br/>   Last activity date of a user     |
+|[Teams user activity report](user-activity-report.md)  | Messages a user posted in a team chat<br/>Messages a user posted in a private chat<br/>  1:1 calls a user participated in<br/> Number of meetings user organized <br/>Number of meetings user participated in<br/>Meetings Audio, Video and Screen sharing time<br/>   Last activity date of a user     |
 |[Teams device usage report](device-usage-report.md)   |  Windows users<br/>Mac users<br/>iOS users<br/>Android phone users     |
 |[Teams live event usage report](teams-live-event-usage-report.md)   |  Total views<br>Start time<br>Event status<br>Organizer<br>Presenter<br>Producer<br>Recording setting<br>Production type    |
 |[Teams PSTN blocked users report](pstn-blocked-users-report.md)   |  Display name<br>Phone number<br>Reason<br>Action type<br>Action date and time   |
 |[Teams PSTN minute pools report](pstn-minute-pools-report.md) |  Country or region<br>Capability (license) <br>Total minutes<br>Minutes used<br>Minutes available|
 |[Teams PSTN usage report - Calling Plans](pstn-usage-report.md#calling-plans)|  Time stamp<br>User name<br>Phone number<br>Call type <br>Called to<br>To country or region <br>Called from <br>From country or region<br>Charge<br>Currency<br>Duration<br>Domestic/International<br>Call ID<br>Number type<br>Country or region<br>Conference ID<br>Capability (license)|
 |[Teams PSTN usage report - Direct Routing](pstn-usage-report.md#direct-routing)  |  Time stamp<br>Display name<br>SIP address<br>Phone number <br>Call type<br>Called to<br>Start time<br>Invite time<br>Failure time<br>End time<br>Duration<br>Number type<br>Media bypass<br>SBC FQDN<br>Azure region<br>Event type<br>Final SIP code<br>Final Microsoft subcode<br>Final SIP phrase<br>Correlation ID  |
-|[Teams information protection license report](information-protection-license-report.md)  | <br>Whether users have valid licenses to push their messages via change notifications</br><br>Total number of change notification events triggered by a user</br><br>What apps are listening to org-wide change notification events</br>|
-
-
+|[Teams information protection license report](information-protection-license-report.md)  | <br>Whether users have valid licenses to push their messages via change notifications</br><br>Total number of change notification events triggered by a user<br><br>What apps are listening to org-wide change notification events<br>|
+|[Teams Virtual Visits usage report](virtual-visits-usage-report.md)  | Number of virtual appointments<br>Number of Bookings appointments<br>Number of Teams Electronic Health Records (EHR)-integrated appointments<br>Average duration of an appointment<br>Average lobby wait time of attendees<br>Start time<br>Meeting ID<br>Lobby wait time<br>Duration<br>Status<br>Product type<br>Attendees<br>SMS sent
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## Make the user specific data anonymous
 
-To make the data in Teams user activity and Teams device usage report anonymous, you have to be a global administrator. This will hide identifiable information such as display name, email and AAD ID in reports and their exports.
+To make the data in Teams user activity and Teams device usage report anonymous, you have to be a global administrator. This will hide identifiable information such as display name, email and Microsoft Azure Active Directory ID in reports and their exports.
 
 1. In Microsoft 365 admin center, go to the **Settings** \> **Org Settings**, and under **Services** tab, choose **Reports**.
     
-2. Select **Reports**, and then choose to **Display anonymous identifiers**. This setting gets applied both to the usage reports in Microsoft 365 admin center as well as Teams admin center.
+2. Select **Reports**, and then choose to **Display concealed user, group, and site names in all reports**. This setting gets applied both to the usage reports in Microsoft 365 admin center as well as Teams admin center.
   
 3. Select **Save changes**.
 
 > [!NOTE]
 > Enabling this setting will de-identify information in [Teams user activity report](user-activity-report.md) and [Teams device usage report](device-usage-report.md) reports. It will not affect other usage reports available in Teams admin center.
+> This setting also applies to Microsoft 365 usage reports in Microsoft 365 admin center, Microsoft Graph and Power BI.
