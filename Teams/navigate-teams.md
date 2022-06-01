@@ -256,7 +256,7 @@ Quiz is a custom [Teams messaging extension](/microsoftteams/platform/messaging-
 
 [Use the Staff checkins](/microsoftteams/platform/samples/app-templates#staff-check-ins) app template to enable front line Staff to easily provide time-critical information and status updates on either a scheduled or ad-hoc basis directly from Teams. The app supports real-time location, photos, notes, reminder notifications, and automated workflows.
 
-Use Teams to make training easy for your organization. Training is a custom [Teams messaging extension](/microsoftteams/platform/what-are-messaging-extensions) app that enables users to publish a training within a chat or a channel for offline knowledge sharing and upskilling. The app is supported across multiple Teams platform clients, such as desktop, browser, iOS, and Android. This app is ready for deployment as part of your Microsoft 365 subscription.
+Use Teams to make training easy for your organization. Training is a custom [Teams messaging extension](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions?tabs=dotnet) app that enables users to publish a training within a chat or a channel for offline knowledge sharing and upskilling. The app is supported across multiple Teams platform clients, such as desktop, browser, iOS, and Android. This app is ready for deployment as part of your Microsoft 365 subscription.
 
 [Get it on GitHub](https://github.com/OfficeDev/microsoft-teams-apps-training)
 
