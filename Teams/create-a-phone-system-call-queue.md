@@ -152,7 +152,7 @@ Agents' Teams accounts must be set to Teams-only mode. Agents who don't meet the
 > [!NOTE]
 > Conference mode is not supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location Based Routing.
 >
-> Conferene mode is required if Teams users need to consult/transfer calls with call queues.
+> Conference mode is required if Teams users need to consult/transfer calls with call queues.
 
 > [!TIP]
 > Setting **Conference mode** to **On** is the recommended setting.
@@ -219,7 +219,7 @@ You can choose to disconnect the call or redirect it to any of the call routing 
 > [!NOTE]
 > If the maximum number of calls is set to 0 then the greeting message will not play.
 >
-> When redirecting to shared voicemail, make sure "Let people outside this organization email this team" is enabled for the Team/Group in M365 Admin Center.
+> When redirecting to shared voicemail, make sure **Let people outside this organization email this team** is enabled for the Team/Group in the Microsoft 365 Admin Center.
 
 
 ## Call timeout handling
@@ -231,7 +231,7 @@ You can choose to disconnect the call or redirect it to any of the call routing 
 You can choose to disconnect the call or redirect it to one of the call routing destinations. For example, you might have the caller leave a voicemail for the agents in the queue. For external transfers, refer to [Prerequisites](plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) for number formatting.
 
 > [!NOTE]
-> When redirecting to shared voicemail, make sure "Let people outside this organization email this team" is enabled for the Team/Group in M365 Admin Center.
+> When redirecting to shared voicemail, make sure **Let people outside this organization email this team** is enabled for the Team/Group in the Microsoft 365 Admin Center.
 
 When you have selected your call timeout options, click **Save**.
 
