@@ -238,7 +238,3 @@ If you need more extensive capabilities, such as integration with workflows, bot
 [Plan Direct Routing](direct-routing-plan.md)
 
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-[Create a call queue - small business tutorial](business-voice/create-a-phone-system-call-queue-smb.md)
-
-[Set up an auto attendant - small business tutorial](business-voice/create-a-phone-system-auto-attendant-smb.md)
