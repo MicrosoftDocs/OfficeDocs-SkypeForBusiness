@@ -56,7 +56,7 @@ The steps to set up a call queue includes:
 
 This video shows a basic example of how to create a call queue in Teams.
 
-[!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
 ## How to set up your call queue
 
