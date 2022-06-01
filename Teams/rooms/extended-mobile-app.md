@@ -3,7 +3,7 @@ title: Mobile App extension
 author: donnah007 
 ms.author: v-donnahill
 manager: serdars
-ms.date: 05/11/2022
+ms.date: 05/31/2022
 ms.reviewer: dstrome
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -44,9 +44,9 @@ Here are some of the capabilities you have on the mobile app for managing incide
 
 ### Incidents Page
 
-The Incidents page shows active and resolved incidents.
+The Incidents page shows the types of open incidents.
 
-![MTMS mobile application incidents page screen](../media/mtms-mobile-app-015-activeincidents.png)
+![MTMS mobile application incidents page screen](../media/mtms-extended-app-001.png)
 
 ## Managing tickets
 Here are some of the capabilities you have on the mobile app for managing tickets.
@@ -59,32 +59,34 @@ Here are some of the capabilities you have on the mobile app for managing ticket
 
 ### Ticket messages
 
-![MTMS mobile application ticket messages loading screen](../media/mtms-mobile-app-003.png)
-### Ticket attachments
+![MTMS mobile application ticket messages loading screen](../media/mtms-extended-app-003.png)
 
-![MTMS mobile application ticket attachments](../media/mtms-mobile-app-007.png)
+![MTMS mobile application ticket attachments](../media/mtms-extended-app-007.png)
+
+
 ### Ticket details
 
-![MTMS mobile application ticket details screen](../media/mtms-mobile-app-002.png)
-![MTMS mobile application ticket details screen](../media/mtms-mobile-app-004.png)
-### Track active investigations
+![MTMS mobile application ticket details 01 ](../media/mtms-extended-app-002.png)
+![MTMS mobile application ticket details 02](../media/mtms-extended-app-004.png)
+![MTMS mobile application ticket details 03](../media/mtms-extended-app-009.png)
+
+
 ### Track active investigations
 
-![MTMS mobile application track active investigations screen](../media/mtms-mobile-app-010.png)
 ### Report an incident
 
-![MTMS mobile application report incident](../media/mtms-mobile-app-002.png)
+![MTMS mobile application report incident](../media/mtms-extended-app-???.png)
 ### View an incident by category
 
-![MTMS mobile application  Rooms problems screen](../media/mtms-mobile-app-001.png)
+![MTMS mobile application  Rooms problems screen](../media/mtms-extended-app-001.png)
 ### Managed Security with Microsoft Defender
 
-![MTMS mobile application managed security screen](../media/mtms-mobile-app-009.png)
+![MTMS mobile application managed security screen](../media/mtms-extended-app-009.png)
 ### Communication with experts
-![MTMS mobile application Messages screen](../media/mtms-mobile-app-008.png)
+![MTMS mobile application Messages screen](../media/mtms-extended-app-008.png)
 ### Sign out
 
-![MTMS mobile application signout page page](../media/mtms-mobile-app-011-signout.png)
+![MTMS mobile application signout page page](../media/mtms-extended-app-011.png)
 ## Frequently asked questions
 
 Below are answers to frequently asked questions.
