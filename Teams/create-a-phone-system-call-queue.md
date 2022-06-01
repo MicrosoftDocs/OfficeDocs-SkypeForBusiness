@@ -42,9 +42,9 @@ Be sure you have read [Plan for Teams auto attendants and call queues](plan-auto
 
 The steps to set up a call queue includes:
 
-1. [Create the call queue](#step-1-create-the-call-queue)
-1. [Add resource accounts](#step-2-add-resource-accounts)
-1. [Set up dynamic caller ID](#step-3-set-up-dynamic-caller-id)
+1. [Create the call queue](?tabs=create-queue)
+1. [Add resource accounts](?tabs=resource-account)
+1. [Set up dynamic caller ID](?tabs=dynamic-caller-id)
 1. [Choose languages](#step-4-choose-a-language)
 1. [Choose greetings and music](#step-5-greetings-and-music-on-hold-in-queue)
 1. [Select call agents](#step-6-call-agents)
