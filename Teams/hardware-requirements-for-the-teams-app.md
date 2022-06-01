@@ -96,6 +96,6 @@ See [Teams for Virtualized Desktop Infrastructure](teams-for-vdi.md) for require
 ### Related topics
 
 - [Get Teams apps](get-clients.md)
-- [Microsoft Teams on mobile devices](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
+- [Microsoft Teams on mobile devices](https://support.microsoft.com/office/set-up-your-teams-mobile-apps-1ba8dce3-1122-47f4-8db6-00a4f93117e8)
 - [Install the Microsoft Teams app using an MSI](msi-deployment.md)
 - [Limits and specifications for Microsoft Teams](limits-specifications-teams.md)
