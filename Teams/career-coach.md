@@ -409,26 +409,30 @@ During processing, Career Coach will analyze your document for duplicates, norma
 
 ### Fields of study
 
-The fields of study are synonymous with major areas of interest, academic major, and degree. These fields of studies are referenced by students when they start using Career Coach and begin setting up their personalized profile.
+The fields of study are synonymous with major areas of interest, academic major, and degree programs. These fields of study are referenced by students when they start using Career Coach and begin setting up their personalized profile.
+
+The list of fields lets students discover fields of study that may interest them and add their planned academic focus to their profile in Career Coach.
 
 > [!IMPORTANT]
-> This is a required section. Career Coach can not be enabled without a list of fields of study.
+> This is a required section. Career Coach can't be enabled without a list of fields of study.
+>
+> Add all fields of study available to students such as Engineering, English, Business, and so on
 
 #### Add the fields of study
 
-1. Sign in to the **[Teams admin center](https://admin.teams.microsoft.com)**.
-2. Select **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** > **Career Coach** > **Settings** >  **Fields of study**.
+1. Sign in to the **[Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851)**.
 
-3. Upload field of study in CSV format.
+2. Select **Teams apps** > **Manage apps** > Search **Career Coach** > **Settings** >  **Fields of study**.
+
+3. Select **Upload** to upload the fields of study file in CSV format. A preview of the fields of study document will appear.
 
 4. Select **Submit**.
 
+5. To confirm the settings were submitted successfully, check that the [Career Coach configuration status](#configuration-status) is marked **Complete**.
+
 #### Fields of study document format and schema
 
-Add all fields of study available to students such as Engineering, English, Business, and so on. The list of fields lets students discover fields of study that may interest them and add their area of focus to their profile.
-
-> [!TIP]
-> Start with the [sample field of study](https://aka.ms/career-coach/docs/it-admins/sample-fieldsofstudy) document to ensure proper formatting.
+The document needs to be in CSV format with a maximum size of 18 MB. The document must contain the required metadata: **Field of study name**.
 
 The following table shows the items to include in the fields of study:
 
@@ -438,17 +442,55 @@ The following table shows the items to include in the fields of study:
 
 ### Customization
 
-Career Coach can be customized to be unique to your educational institution. The customization supports adding experiences to the dashboard. It's recommended to add links to job boards, events, career services office, career-related events, student clubs, and any other resources that help students gain real-world experience.
+The Customization setting supports adding opportunities to gain real-world experiences to the dashboard that your educational institution offers to students.
 
-#### Add customized experiences
+The recommended links to include are those that help students gain real-world experience, like job boards, events, career services office, career-related events, and student clubs.
 
-1. Sign into the **[Teams admin center](https://admin.teams.microsoft.com)**.
+1. Sign into the **[Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851)**.
 
-2. Select **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** > **Career Coach** > **Settings** > **Customization**.
+2. Select **Teams apps** > **Manage apps** > Search **Career Coach** > **Settings**.
 
-3. Add each title, URL, and short description.  
-  
-4. Select **Submit**.
+3. Select **Customize the experience** > **+ Add**
+
+4. Add each **title**, **URL**, and **info-tip description** > Select **Apply**.
+
+5. A preview of the added information will appear.
+
+6. Select **Submit**.
+
+## Career Coach settings status
+
+The Career Coach settings page in Teams admin center provides a status summary of incomplete, pending, complete, and failed steps for configuring Career Coach.
+
+The status message can help you determine whether Career Coach is properly configured and ready to release to your tenant.
+
+### Configuration status
+
+The configuration status section of the app settings page will display the real-time status using the following legend..
+
+![the configuration status section of the career coach app.](media/career-coach-config-status.png)
+
+| Category                    | Status                                      | Description                                                 |
+| --------------------------- | ------------------------------------------- | ----------------------------------------------------------- |
+| Service provisioning status | Career Coach is initializing your tenant.   | Service provisioning occurs automatically upon accessing the Career Coach settings page. Configuration changes will not be accepted until initial set up is complete. Estimated time for service provisioning is up to 15 minutes. |
+| Service provisioning status | Career Coach is ready to be configured.     | Career Coach settings page is ready for IT admin to submit settings. |
+| Brand and preferences       | Not started                                 | Settings need to be submitted. |
+| Brand and preferences       | Missing: Learning icon                      | Upload the missing learning content thumbnail image. |
+| Brand and preferences       | Missing: Logo                               | Upload the missing organization icon. |
+| Brand and preferences       | Missing: Institution name                   | Upload the missing organization name. |
+| Brand and preferences       | Complete                                    | No further action needed. Setting is complete. |
+| Course catalog upload       | Not started                                 | Course catalog CSV needs to be submitted. |
+| Course catalog upload       | Missing: a successful course catalog upload | Check the course catalog status for details on course catalog processing. |
+| Course catalog upload       | Complete                                    | No further action needed. Setting is complete. |
+| LinkedIn school connection  | Not started                                 | LinkedIn School Page URL needs to be submitted. |
+| LinkedIn school connection  | Missing: an approved LinkedIn school URL    | Awaiting LinkedIn School Page super admin verification approval. |
+| LinkedIn school connection  | Complete                                    | No further action needed. Setting is complete. |
+| Fields of study upload      | Not started                                 | Field of study CSV needs to be submitted. |
+| Fields of study upload      | Missing: areas of interest                  | Check whether the field of study upload is successful. |
+| Fields of study upload      | Complete                                    | No further action needed. Setting is complete. |
+
+> [!NOTE]
+> Once all steps are marked as complete the app can be successfully released to your tenant and assign Career Coach licenses. For step-by-step instructions, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide).
 
 ## Making Career Coach available to your organization
 
@@ -489,35 +531,6 @@ If you are unsure which policy to use you can refer to the [Microsoft Teams Poli
 > Students will be notified in Microsoft Teams that Career Coach has been pinned.
 
 Reference [Manage app setup policies in Microsoft](/microsoftteams/teams-app-setup-policies) for more details.
-
-## Career Coach settings status
-
-The Career Coach settings page in Teams Admin Center provides a status report of incomplete, pending, complete, and failed steps for configuring the app. These statuses can help you determine whether Career Coach is properly configured and ready to release to your tenant.
-
-### Configuration status
-
-The configuration status section of the app settings page will display the current status.
-
-![the configuration status section of the career coach app.](media/career-coach-config-status.png)
-
-| Category              | Status                    | Description                                                 |
-| --------------------- | ------------------------- | ----------------------------------------------------------- |
-| Service provisioning  | Pending                   | App is being added to the tenant. No further action needed. |
-| Service provisioning  | Complete                  | Ready for IT admin to submit settings.                      |
-| Brand and preferences | Not started               | Settings need to be submitted.                              |
-| Brand and preferences | Missing _required fields_ | IT admin needs to add or upload the missing fields.         |
-| Brand and preferences | Complete                  | No further action needed.                                   |
-| Course catalog        | Not started               | Catalog needs to be submitted.                              |
-| Course catalog        | Incomplete                | Check the ingestion status for details on how to resolve.   |
-| Course catalog        | Complete                  | No further action needed.                                   |
-| LinkedIn connection   | Not started               | LinkedIn school page URL needs to be submitted.             |
-| LinkedIn connection   | Pending                   | Awaiting LinkedIn school page admin approval.               |
-| LinkedIn connection   | Complete                  | No further action needed.                                   |
-| Fields of study       | Not started               | Document needs to be submitted.                             |
-| Fields of study       | Complete                  | No further action needed.                                   |
-
-> [!NOTE]
-> Once all steps are marked as complete the app can be successfully released to your tenant and assign Career Coach licenses. For step-by-step instructions, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide).
 
 ## Troubleshooting
 
