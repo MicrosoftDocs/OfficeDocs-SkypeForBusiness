@@ -79,6 +79,7 @@ The following providers offer contact center solutions that are integrated into 
 | `Netcall` | https://www.netcall.com/platform/contact-centre/                         |
 | `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `Puzzel` | https://www.puzzel.com/microsoft-teams                            |
+| `Sikom` | http://www.sikom.de/microsoft-teams/                            |
 | `Talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
 | `Vonage` |  https://www.vonage.com/contact-centers/integrations/microsoft-teams/                                 |
 | `GuardRec` | https://www.guardrec.com/en/teams-compliance-recording                          |
