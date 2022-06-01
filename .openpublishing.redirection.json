@@ -56,11 +56,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "Teams/expand-teams-across-your-org/healthcare/hc-delegates.md",
-      "redirect_url": "/microsoft-365/frontline/hc-delegates",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "Teams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md",
       "redirect_url": "/microsoft-365/frontline/healthcare-templates-admin-console",
       "redirect_document_id": false
@@ -168,7 +163,7 @@
     {
       "source_path": "Teams/expand-teams-across-your-org/mobile-browser-join.md",
       "redirect_url": "/microsoft-365/frontline/browser-join",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "Teams/built-in-custom-tabs.md",
@@ -2602,8 +2597,8 @@
     },
     {
       "source_path": "Teams/expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams.md",
-      "redirect_url": "/MicrosoftTeams/expand-teams-across-your-org/shifts-for-teams-landing-page",
-      "redirect_document_id": true
+      "redirect_url": "/microsoftteams/expand-teams-across-your-org/shifts-for-teams-landing-page",
+      "redirect_document_id": false
     },
     {
       "source_path": "Teams/guidance-SkypeforBusiness.md",
