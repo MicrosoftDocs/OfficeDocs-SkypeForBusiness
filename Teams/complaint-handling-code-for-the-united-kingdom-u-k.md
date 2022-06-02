@@ -57,7 +57,7 @@ Ombudsman Services is independent of Microsoft and will render an impartial deci
 
 All complaints must be sent to Ombudsman Services within twelve (12) months of filing the complaint with Skype for Business.
 
-The steps for referring a complaint to Ombudsman Services can be found on the Ombudsman Services' [website](https://go.microsoft.com/fwlink/?LinkID=820708&amp;clcid=0x809).
+The steps for referring a complaint to Ombudsman Services can be found on the Ombudsman Services' [Ombudsman Services' website](https://www.ombudsman-services.org/).
 
 You may reach Ombudsman Services by filling out a contact form on the Ombudsman Services' website or by phone, letter, or email:
 
