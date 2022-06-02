@@ -25,7 +25,7 @@ description: Learn how to manage the Bookings app in Teams for users in your org
 
 # Manage the Bookings app in Microsoft Teams
 
-The Bookings app in Microsoft Teams offers a simple way to schedule in-person and virtual appointments. For examples, healthcare visits, financial consultations, interviews, customer support, and education office hours. To learn more, see [Virtual appointments with Teams and the Bookings app](expand-teams-across-your-org/bookings-virtual-visits.md).
+The Bookings app in Microsoft Teams offers a simple way to schedule in-person and virtual appointments. For examples, healthcare visits, financial consultations, interviews, customer support, and education office hours. To learn more, see [Virtual appointments with Teams and the Bookings app](/microsoft-365/frontline/bookings-virtual-visits?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).
 
 Schedulers can manage multiple department and staff calendars and communications with internal and external attendees, from a single experience. Virtual appointments are held via Microsoft Teams meetings that offer robust videoconferencing capabilities.
 

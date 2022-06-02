@@ -1598,7 +1598,7 @@ items:
         - name: Bookings in Teams
           items: 
             - name: Virtual appointments with Teams and Bookings
-              href: expand-teams-across-your-org/bookings-virtual-visits.md
+              href: /microsoft-365/frontline/bookings-virtual-visits?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
             - name: Manage the Bookings app
               href: bookings-app-admin.md
             - name: Manage the join experience on browsers
