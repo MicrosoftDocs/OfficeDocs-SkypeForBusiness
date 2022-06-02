@@ -46,18 +46,8 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "Teams/get-started-with-retail-teams-templates.md",
-      "redirect_url": "/microsoft-365/frontline/get-started-with-retail-teams-templates",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "Teams/expand-teams-across-your-org/healthcare/hc-delegates.md",
       "redirect_url": "/microsoft-365/frontline/hc-delegates",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "Teams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md",
-      "redirect_url": "/microsoft-365/frontline/healthcare-templates-admin-console",
       "redirect_document_id": false
     },
     {
@@ -123,11 +113,6 @@
     {
       "source_path": "Teams/expand-teams-across-your-org/shifts-for-teams-landing-page.md",
       "redirect_url": "/microsoft-365/frontline/shifts-for-teams-landing-page",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "Teams/team-templates-nonprofit.md",
-      "redirect_url": "/microsoft-365/frontline/team-templates-nonprofit",
       "redirect_document_id": false
     },
     {
