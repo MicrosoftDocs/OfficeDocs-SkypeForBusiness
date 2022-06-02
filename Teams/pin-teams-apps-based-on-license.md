@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Learn about the tailored app experience for frontline workers in Teams.
+description: In this learning module, you'll learn about the tailored app experience for frontline workers in Teams.
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
