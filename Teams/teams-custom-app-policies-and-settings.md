@@ -14,7 +14,7 @@ appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn how to manage custom app policies and settings to control who in your organization can upload custom apps in Microsoft Teams.
+description: In this module, you'll learn how to manage custom app policies and settings to control who in your organization can upload custom apps in Microsoft Teams.
 f1.keywords:
 - CSH
 ms.custom: 
