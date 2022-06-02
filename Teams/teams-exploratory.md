@@ -29,12 +29,11 @@ The Microsoft Teams Exploratory experience lets users in your organization who h
 The service plans that an admin will see as part of the Teams Exploratory experience are:
 
 - Exchange Online (Plan 1)
-- Flow for Microsoft 365 or Office 365
-- Insights by MyAnalytics
+- Power Automate
+- Microsoft Viva Insights
 - Microsoft Forms (Plan E1)
 - Microsoft Planner
 - Microsoft Search
-- Microsoft StaffHub
 - Microsoft Stream for Microsoft 365 and Office 365 E1 SKUs <sup>1</1>
 - Microsoft Teams
 - Mobile Device Management for Microsoft 365 or Office 365
