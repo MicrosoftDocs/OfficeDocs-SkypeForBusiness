@@ -3,7 +3,7 @@ title: Mobile App extension
 author: donnah007 
 ms.author: v-donnahill
 manager: serdars
-ms.date: 05/31/2022
+ms.date: 06/02/2022
 ms.reviewer: dstrome
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -59,7 +59,7 @@ Here are some of the capabilities you have on the mobile app for managing ticket
 
 ### Ticket messages
 
-![MTMS mobile application ticket messages loading screen](../media/mtms-extended-app-003.png)
+![MTMS mobile application ticket messages](../media/mtms-extended-app-003.png)
 
 ![MTMS mobile application ticket attachments](../media/mtms-extended-app-007.png)
 
@@ -75,7 +75,7 @@ Here are some of the capabilities you have on the mobile app for managing ticket
 
 ### Report an incident
 
-![MTMS mobile application report incident](../media/mtms-extended-app-???.png)
+![MTMS mobile application report incident](../media/mtms-extended-app-012.png)
 ### View an incident by category
 
 ![MTMS mobile application  Rooms problems screen](../media/mtms-extended-app-001.png)
