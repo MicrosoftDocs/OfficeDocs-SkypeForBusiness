@@ -87,13 +87,13 @@ The Parents Connection allows educators and guardians to chat, email, and call u
 
 #### Parent and guardian restrictions
 
-Parents and guardians are classified as federated external users in the Parents Connection, meaning they don't have full tenant rights. They only have access to the chat or chats they're added to as well as files, images, and other content shared in the chat.
+Parents and guardians are classified as *External users* in the Parents Connection, meaning they don't have full tenant rights. They only have access to the chat or chats they're a part of and the files, images, and other content shared in the chat.
 
-For federated chats, internal users and federated external users are able to add users to the chat.
+For external chats, both internal and external users can add users to the chat. To learn more about the external chat experience, see [Manage external meetings and chat in Microsoft Teams](manage-external-access.md).
 
-Also, External users can see the presence (offline, available, busy, etc.) of your organization's users, but this can be turned off using PowerShell to protect users' privacy. In PowerShell, use [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) and set ``EnablePrivacyMode=true``.
+Also, external users can see the presence (offline, available, busy, etc.) of your organization's users, but this can be turned off using PowerShell to protect users' privacy. In PowerShell, use [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) and set ``EnablePrivacyMode=true``.
 
-Even though parents and guardians are External users, their contributions to chats are discoverable. Learn how to conduct a Teams eDiscovery investigation by reading [Conduct an eDiscovery investigation of content in Microsoft Teams](ediscovery-investigation.md).
+Even though parents and guardians are external users, their contributions to chats are discoverable. Learn how to conduct a Teams eDiscovery investigation by reading [Conduct an eDiscovery investigation of content in Microsoft Teams](ediscovery-investigation.md).
 
 > [!IMPORTANT]
 > IT admins should educate all Class Owners on best practices for sharing student information over chat, including risks to student privacy.
