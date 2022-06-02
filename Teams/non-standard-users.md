@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Learn how apps in Microsoft Teams behave for different types of users.
+description: In this learning module, you'll learn how apps in Microsoft Teams behave for different types of users.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -63,9 +63,10 @@ External users can't install, update, or delete apps into any context, such as a
 ### Usage behavior and policy for external users
 
 * People from other organizations adhere to the hosting organization's global (org-wide default) policy
-* Users in the hosting organization can add apps in meeting chats with people from other organizations. People from other organizations cannot add apps in meeting chats but can interact with bots, tabs and message extensions once added to the chat.
-* After a bot is installed in a meeting chat, it can proactively communicate with people from other organizations in that chat and those people can communicate with bot.
-* The data policies of the hosting organization, as well as the data sharing practices of any third-party apps shared by that user's organization, are applied.
+* Users in the hosting organization can add apps in meeting chats with people from other organizations. 
+* People from other organizations can't add apps in meeting chats but can interact with bots, tabs and message extensions once added to the chat.
+* After a bot is installed in a meeting chat, it can proactively communicate with people from other organizations and those people can communicate with bot.
+* The data policies of the hosting organization, and the data sharing practices of any third-party apps shared by that user's organization, are applied.
 
 ## Anonymous users
 
@@ -75,7 +76,7 @@ Anonymous users can't install, update, or delete apps in meetings.
 
 ### Usage behavior and policy for anonymous users
 
-Anonymous users can't directly use apps in meetings. Anonymous users inherit the user-level global default permission policy. If an app sends an adaptive card in the chat, anonymous users can interact with the card. Such users can interact with apps in Teams meetings if the user-level permission policy enables the app.
+Anonymous users can't directly use apps in meetings but can inherit the user-level global default permission policy. If an app sends an adaptive card in the chat, anonymous users can interact with the card. Such users can interact with apps in Teams meetings if the user-level permission policy enables the app.
 
 Anonymous users can only interact with the apps that are already available in a meeting and can't acquire and manage such apps. The native users can continue to use meetings apps even when the anonymous users are attending a meeting.
 
