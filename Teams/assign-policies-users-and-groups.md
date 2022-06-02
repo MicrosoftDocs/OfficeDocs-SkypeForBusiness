@@ -136,7 +136,7 @@ If you don't specify a ranking, the policy assignment is given the lowest rankin
     2. Set the ranking for the group assignment.
     3. Select the policy that you want to assign.
     4. Select **Apply**.
-    
+
 ![Assign a policy to a group in the Teams admin center.](media/assign-policy-group.png)
 
 To remove a group policy assignment, on the **Group policy assignment** tab of the policy page, select the group assignment, and then select **Remove**.
@@ -352,6 +352,8 @@ When you unassign policies in bulk, you're removing custom policy assignments th
 
 1. Go to **Users** > **Manage users**.
 2. In the top right corner of the page, select **Unassign policies in bulk** from the **Actions** drop-down menu.
+
+    ![Manage users page in the Teams admin center.](media/manage-users-unassign-policies.jpg)
 
     > [!NOTE]
     > You can also unassign policies from the individual policy pages by choosing a policy and selecting **Manage users**.
