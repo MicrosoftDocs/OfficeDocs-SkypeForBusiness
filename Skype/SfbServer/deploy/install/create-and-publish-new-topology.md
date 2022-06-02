@@ -40,7 +40,7 @@ You can use Skype for Business Server Topology Builder to design, define, config
     
 2. Open Skype for Business Server Topology Builder.
     
-3. Select **New Topology**, and click **OK**..
+3. Select **New Topology**, and click **OK**.
     
 4. Select a location and file name for the topology configuration file.
     
