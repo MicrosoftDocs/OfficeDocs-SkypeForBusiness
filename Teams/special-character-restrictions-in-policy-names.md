@@ -30,7 +30,7 @@ description: "See what issues there are with special characters in the names of 
 
 If a policy name contains special characters, you will be limited in managing these policies in the Microsoft Teams admin center. **As such, we strongly recommend that policy names don't include special characters**. 
 
-Policy names that have been created using PowerShell for meetings and messaging in Teams can have special characters such as @,#,$. However, if you are wanting to make changes to the policy in the Microsoft Teams admin center,you won't be able to. 
+Policy names that have been created using PowerShell for meetings and messaging in Teams can have special characters such as @,#,$. However, if you are wanting to make changes to the policy in the Microsoft Teams admin center, you won't be able to. 
 
 If you have a policy with special characters, you will need to either edit the policy using Windows PowerShell (forever) or create a new policy in the Microsoft Teams admin center with the same settings as the old policy and assign it to the same group of users.
 
