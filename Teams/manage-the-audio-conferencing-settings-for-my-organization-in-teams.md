@@ -67,7 +67,7 @@ It might be easier for you to see all of the audio conferencing settings for Mic
 
 ### Enable or disable using Windows PowerShell
 
-See the [Microsoft Teams PowerShell reference](/powershell/module/teams/?view=teams-ps) for more information.
+See the [Microsoft Teams PowerShell Overview](teams-powershell-overview.md) for more information.
   
 ## Reset the meeting conference ID
 
