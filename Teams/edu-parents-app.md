@@ -57,7 +57,7 @@ The Parents Connection allows educators and guardians to chat, email, and call u
 >
 > For more information on all your options to get PSTN connectivity, see [PSTN connectivity options](pstn-connectivity.md).
 >
-> For more information on Teams calling licensing, see [Teams add-on licensing options](/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+> For more information on Teams calling licensing, see [Teams add-on licensing options](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
 ## Requirements
 
