@@ -81,7 +81,7 @@ Role: [Global Administrator](/azure/active-directory/roles/permissions-reference
 Career Coach tasks:
 
 - [Purchase licenses](#purchase-career-coach-licenses)
-- [Assign licenses](#assign-app-licenses-to-users)
+- [Assign licenses](#assign-career-coach-licenses-to-users)
 
 ### [Azure Active Directory admin center](https://go.microsoft.com/fwlink/p/?linkid=2067268)
 
@@ -95,7 +95,6 @@ Career Coach task:
 Role: [Teams administrator](/azure/active-directory/roles/permissions-reference#teams-administrator)
 Career Coach tasks:
 
-- [Enable Microsoft apps in Teams](#enable-the-app)
 - [Add Career Coach as an installed app](#add-career-coach-as-an-installed-app)
 - [Configure the Career Coach app settings](#configure-the-career-coach-app-settings)
   - [Brand and preferences](#brand-and-preferences) - required
@@ -103,15 +102,15 @@ Career Coach tasks:
   - [Course catalog](#course-catalog) - required
   - [Fields of study](#fields-of-study) - required
   - [Customization](#customization) - optional
-- [Set app policies]()
-- [Pin the app]()
+- [Setup policies](#setup-policies-and-pin-the-app)
+- [Pin the app](#setup-policies-and-pin-the-app)
 
 ### LinkedIn developer portal
 
 Role: [LinkedIn School Page Super Admin](https://www.linkedin.com/help/linkedin/answer/a541981)
 Career Coach task:
 
-- [Verify the LinkedIn School Page](#verify-the-linkedin-page)
+- [Verify the LinkedIn School Page](#verify-the-linkedin-school-page)
 
 ## Purchase Career Coach licenses
 
@@ -399,8 +398,8 @@ During processing, Career Coach will analyze your document for duplicates, norma
 | Time completed   | Timestamp | Date and time the document was processed completely.                                               |
 | Courses uploaded | Integer   | Number of courses found in the document.                                                           |
 | Ingestion status | Pending   | Document in queue for processing.                                                                  |
-| Ingestion status | Running   | Document is currently be processed. This process can take up to 60 minutes.                        |
-| Ingestion status | Success   | Ingestion process is complete and courses and will be available in app once completely configured. |
+| Ingestion status | Running   | Document is currently be processed. This process can take up to 6 hours depending on the size of your document. |
+| Ingestion status | Success   | Ingestion process is complete, and courses will be available in Career Coach once all required settings are completely configured. |
 | Ingestion status | Failed    | Check the document format and re-upload.                                                           |
 | Duplicates       | Integer   | Number of duplicate courses found in the document.                                                 |
 
@@ -494,86 +493,106 @@ The configuration status section of the app settings page will display the real-
 
 ## Making Career Coach available to your organization
 
-Now that Career Coach has been configured for your organization. Follow these steps to ensure that Career Coach is available to organization in Microsoft Teams.
+At this point, Career Coach has been configured for your organization.
 
-### Enable the app
+Next, follow these steps to ensure Career Coach is available to your organization in Microsoft Teams.
 
-After you complete the configuration, enable the app for students and licensed users so they'll have access to Career Coach.  
-  
-> [!IMPORTANT]
-> You must have Global or Teams admin role permissions.
+### Assign Career Coach licenses to users
 
-1. Sign into the **[Teams admin center](https://admin.teams.microsoft.com)**.
+For step-by-step instructions, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
 
-2. Select **Teams apps** > **[Manage apps](https://admin.teams.microsoft.com/policies/manage-apps)** > **Career Coach**.
+### Setup policies and pin the app
 
-3. Move the Status toggle to **Allowed**.  
+Pinning Career Coach will add it to the left rail of the Microsoft Teams window to make it more accessible and visible for students. If you prefer to pin Career Coach for a subset of your users, then you will need to implement a [Setup policy](teams-app-setup-policies.md) with that group included.
 
-   > [!NOTE]
-   > **Allowed** means that the app is available for users in your educational institution. Blocked means that the app isn't available to students.
+1. Sign into the **[Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851)**.
 
-### Pin the app
+2. Select **Teams apps** > **Setup policies** and select your preferred policy.
 
-Pinning Career Coach will make the app more accessible and visible for students.
-
-1. Sign in to the **[Teams admin center](https://admin.teams.microsoft.com)**.
-
-2. Select **Teams apps** &gt; **Setup policies** and select your preferred policy.
-If you are unsure which policy to use you can refer to the [Microsoft Teams Policy management documentation](/microsoftteams/policy-packages-edu) or utilize the [Education Policy Wizard](/microsoftteams/easy-policy-setup-edu?tabs=students%2Cstudent-settings) to configure a policy for Microsoft Teams.
+    If you are unsure which policy to use, refer to the [Microsoft Teams Policy management documentation](policy-packages-edu.md) or use the [Education Policy Wizard](easy-policy-setup-edu.md) to configure a policy for Microsoft Teams.
 
 3. Under **Pinned apps**, choose **Add apps**.
 
-4. Search for **Career Coach**, and then select **Add**.
+4. Select your preferred policy under **Search based on this app permission policy**.
 
-5. Choose the order for the app to appear and select **Save**.
+5. Search for **Career Coach** under **Search by name**, and then select **Add** > **Add** to close the pane.
+
+6. Choose the order for the app to appear and select **Confirm**.
 
 > [!NOTE]
 > Students will be notified in Microsoft Teams that Career Coach has been pinned.
 
-Reference [Manage app setup policies in Microsoft](/microsoftteams/teams-app-setup-policies) for more details.
+## Accessibility in Career Coach
+
+Career Coach has a responsibility to create an experience that is accessible for all users. Career Coach conforms to WCAG 2.1 A, AA and AAA and adopts all global accessibility standards.
+
+Career Coach accessibility features include:
+
+- A logical heading structure and clear focus indicators to support navigation by mouse, keyboard or voice.
+- Skip links to allow users to get to important features faster.
+- Clear and concise text to make reading and understanding Career Coach simple for all users.
+- Color contrast with Dark and High contrast modes for diverse needs and preferences.
+- A right sized user experience that is verified on all formats (PC, Mac, Android and iPhone) using [Section 508 Trusted Testers](https://www.dhs.gov/trusted-tester).
 
 ## Troubleshooting
 
-- If you see "Career Coach is currently being set up for you to use soon" in the Career Coach app, **the required sections have not been completed**. The following **sections are required** to be complete before Career Coach can be used: [Brand and preferences](#brand-and-preferences), [LinkedIn connection](#linkedin-connection), [Course catalog](#course-catalog), and [Fields of study](#fields-of-study).
+### Missing required configuration data
 
-- CSVs for course catalog and field of study have required formats and a maximum size of 18 MB. Reference the Career Coach [course catalog document schema](#course-catalog-document-format-and-schema) and Career Coach [fields of study document schema](#fields-of-study-document-format-and-schema) to ensure proper configuration.
+If you see "Career Coach is currently being set up for you to use soon" in the Career Coach app experience, **all required configuration data hasn't been added**.
 
-- On settings pages with required fields, if the fields are not completed, the page will not submit. You will not see a warning message; the page will simply not submit.
+The following **sections must be completed** before Career Coach can be used:
 
-- When first configuring Career Coach, an error banner may appear stating "We can't update the app's settings. Try again." This is likely due to the tenant provisioning the Career Coach app, which can take up to 15 minutes. If this happens, wait 15 minutes before submitting again.
+- [Brand and preferences](#brand-and-preferences)
+- [LinkedIn connection](#linkedin-connection)
+- [Course catalog](#course-catalog)
+- [Fields of study](#fields-of-study)
 
-- If the Career Coach app is not showing in Microsoft Teams, the policy changes may not have taken effect. Policy changes can take a few hours to update. The Career Coach app will not be available in Microsoft Teams until the changes are complete.
+Reference the [Career Coach configuration status](#configuration-status) to see which settings need to be completed.
 
-## Removing your tenant data
+### Incorrect formatting of Course catalog or Fields of study data
 
-Your tenant data includes information that's uploaded or generated as a part of application configuration. To delete all data within a Career Coach tenant, have your tenant’s global administrator [open a support ticket](https://edusupport.microsoft.com/support?product_id=career_coach) requesting that the tenant’s data be permanently deleted. Be aware that this process isn't reversible. After the data removal is complete, the Career Coach application will return to its pre-configured, non-personalized state for all users and a Teams administrator will need to set up the application again to continue using it.
+CSVs for course catalog and field of study have required formats and a maximum size of 18 MB.
 
-The following explains the process for deletion:
+Reference the Career Coach [course catalog document schema](#course-catalog-document-format-and-schema) and Career Coach [fields of study document schema](#fields-of-study-document-format-and-schema) to ensure proper configuration.
 
-- A support ticket must be filed by a tenant global admin clearly stating the request for your tenant’s data to be permanently deleted. **There's no ability to limit the data set or time window of the deletion**.
+Additionally, a course catalog file should have no more than 15,000 rows to ensure successful processing.
 
-- Once filed, the support ticket will be addressed after one week to meet compliance's minimal retention policy. You can cancel the operation during this time.
+### Missing fields in Career Coach settings pages
 
-- After one week, the Career Coach team ensures all data related to the tenant is deleted. Microsoft support monitors the ticket and will notify you once the deletion process is complete, **in no more than 30 days**.
+Career Coach settings pages have required fields. If required fields aren't completed, the page won't submit.
+
+You may not see a warning message; the page will simply not submit.
+
+The submission is successful when you see a green banner at the top of the page.
+
+### Setup policy changes aren't complete
+
+If Career Coach isn't showing in Microsoft Teams for users, then the setup policy changes may not have taken effect yet. Career Coach won't be installed and pinned for users in Microsoft Teams until the setup policy changes take effect. Policy changes can take a few hours to take effect.
+
+However, Career Coach can be installed directly from the Microsoft Teams app store.
+
+- If users are unable to find Career Coach in the Microsoft Teams app store, review your app permission policies and ensure that Career Coach isn't a blocked app.
+- Career Coach is a Microsoft app, and it's a best practice to allow Microsoft apps by permission policies. Learn more about [configuring permission policies](teams-app-permission-policies.md).
+
+### Career Coach initialization isn't complete
+
+You may encounter the following error: “We can't retrieve the app's settings. Try again. If you continue to have problems, contact Microsoft customer support.”
+
+Check the **Service Provisioning status** on the Career Coach app settings page.
+
+If your tenant is still being initialized, wait 15 minutes and try again. If after 15 minutes you're still receiving the error, open a support ticket.
 
 ## Resources
 
-The following resources will help you plan your Career Coach app.
+The following resources will help you plan your Career Coach implementation with Microsoft Teams.
 
+- [Career Coach quick planning guide](https://support.microsoft.com/topic/career-coach-quick-planning-guide-c5d0b934-bfcf-4fe7-8a85-ba7bbb1b6ad4)
+- [Career Coach quick start guide for students](https://support.microsoft.com/topic/career-coach-quick-start-guide-for-students-c419db47-9290-4961-9684-c3f86a9b3708)
+- [Engage students with Career Coach lesson plans](https://support.microsoft.com/topic/get-started-with-career-coach-goals-and-activities-086ce412-05de-4259-a9fd-c96471cef1b0?preview=true)
 - [Welcome to Microsoft Teams](Teams-overview.md)
-
 - [How to roll out Teams](get-started-with-teams-resources-for-org-wide-rollout.md?tabs=SmallBusiness)
-
 - [Overview of teams and channels in Microsoft Teams](teams-channels-overview.md)
-
-- [Managing apps in Microsoft Teams Admin Center](manage-apps.md)
-
-- [Online Virtual Orientation Kit](https://www.microsoft.com/education/remote-learning/virtual-orientation)
-
-- [Limits and specification of Teams channels](limits-specifications-teams.md)
-
+- [Managing apps in Microsoft Teams admin center](manage-apps.md)
 - [Getting started with admin training for Microsoft Teams](ITAdmin-readiness.md)
-
-- [Teams troubleshooting](/microsoftteams/troubleshoot/teams-welcome)
-
+- [Teams troubleshooting](/troubleshoot/teams-welcome)
 - [Manage app permission policies in Microsoft Teams](teams-app-permission-policies.md)
