@@ -23,11 +23,11 @@ description: Partners/Customers can manually close incidents and ensure accurate
 
 For any type of incident that Microsoft did not flag, or for questions about the service/features, customers or partners on behalf of customers can use the Report Incident feature to alert Microsoft to investigate the problem or answer the question.
 
-![screenshot of the Incidents->Report incident](../media/customer-reported-incidents-001.png)
+[![screenshot of the Incidents->Report incident](../media/customer-reported-incidents-001.png)](../media/customer-reported-incidents-001-expanded.png#lightbox)
 
 In the Description field, describe as best as possible the issue that you need help with from Microsoft. You can add one or more rooms.
 
-![screenshot of the incident report rooms affected](../media/customer-reported-incidents-002.png)
+[![screenshot of the incident report rooms affected](../media/customer-reported-incidents-002.png)](../media/customer-reported-incidents-002-expanded.png#lightbox)
 
 Customer-reported incidents (CRIs) are considered critical tickets, which means that the Teams Rooms Service Operations Center triage these tickets first. See the Service Description SLA for Customer-reported incidents [here](microsoft-teams-rooms-premium.md). When a room is (or rooms are) selected as part of the CRI, each room will be marked as **Unhealthy** until the CRI is closed.
 
@@ -39,17 +39,17 @@ Customer-reported Incidents can be closed by either the customer, partners manag
 
 1. Select **Close ticket**.
 
-![screenshot of the Incidents Overview details](../media/customer-reported-incidents-003.png)
+   [![screenshot of the Incidents Overview details](../media/customer-reported-incidents-003.png)](../media/customer-reported-incidents-003-expanded.png#lightbox)
 
 1. Choose a reason for closure by selecting a category from the list.
 
    Once you've confirmed the reason for closure, the ticket is closed and moved to **Resolved**.
 
-![screenshot of the closed ticket](../media/customer-reported-incidents-004.png)
+   [![screenshot of the closed ticket](../media/customer-reported-incidents-004.png)](../media/customer-reported-incidents-004-expanded.png#lightbox)
 
 The ticket's Details Overview section displays that the ticket was closed by the Managed Rooms Service (Microsoft) or the name of the customer/partner.  
 
-![screenshot of who closed the ticket ](../media/customer-reported-incidents-005.png)
+ [![screenshot of who closed the ticket ](../media/customer-reported-incidents-005.png)](../media/customer-reported-incidents-005-expanded.png#lightbox)
 ## FAQ
 
 **Can anyone close tickets?**
