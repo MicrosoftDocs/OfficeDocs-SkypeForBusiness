@@ -66,11 +66,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "Teams/policy-packages-healthcare.md",
-      "redirect_url": "/microsoft-365/frontline/policy-packages-healthcare",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "Teams/expand-teams-across-your-org/retail-business-processes.md",
       "redirect_url": "/microsoft-365/frontline/retail-business-processes",
       "redirect_document_id": false
