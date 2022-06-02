@@ -83,7 +83,7 @@ Once you have published a topology, you can install the Skype for Business Serve
     
 3. When the local server configuration installation is complete, click **Finish**.
     
-### Step 2: Setup or remove Skype for Business Server components
+### Step 2: Set up or remove Skype for Business Server components
 
 1. Review the prerequisites, and then click **Run** next to **Step 2: Setup or Remove Skype for Business Server Components**.
     
