@@ -25,7 +25,7 @@ There may be times when you need to manage Teams Rooms Managed Services (MTMS) f
 ## Before you begin
 
 You must be an administrator in a Microsoft 365 organization to use the Teams Rooms mobile app.
-Download the Teams Rooms mobile app from the ][Apple App Store](https://apps.apple.com/app/apple-store/id761397963?pt=80423&ct=docsaboutadminapp&mt=8), and from the [Google Play Store](https://play.google.com/store/apps/222).
+Download the Teams Rooms mobile app from the ][Apple App Store](https://apps.apple.com/app/apple-store/id761397963?pt=80423&ct=docsaboutadminapp&mt=8), and from the [Google Play Store](https://play.google.com/store/search?q=Microsoft%20Teams%20Rooms&c=apps).
 
 **To get the MTMS mobile app**
 
@@ -67,11 +67,11 @@ Here are some of the capabilities you have on the mobile app for managing ticket
 ### Ticket details
 
 ![MTMS mobile application ticket details 01 ](../media/mtms-extended-app-002.png)
+
 ![MTMS mobile application ticket details 02](../media/mtms-extended-app-004.png)
+
 ![MTMS mobile application ticket details 03](../media/mtms-extended-app-009.png)
 
-
-### Track active investigations
 
 ### Report an incident
 
