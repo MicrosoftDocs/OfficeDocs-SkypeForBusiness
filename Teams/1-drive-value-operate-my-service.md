@@ -381,10 +381,10 @@ The other two reports are Teams-specific, and they provide further detail about
 Teams usage from a user and device perspective. Both reports can be found here:
 
 [Microsoft Teams device usage
-report](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-device-usage-917b3e1d-203e-4439-8539-634e80196687)
+report](/microsoftteams/teams-analytics-and-reports/device-usage-report)
 
 [Microsoft Teams user activity
-report](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
+report](/microsoftteams/teams-analytics-and-reports/user-activity-report)
 
 #### Required permissions
 
@@ -805,10 +805,10 @@ user](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
 As your organization grows or contracts, it’s important that you plan licensing
 for current and future needs. There is a base Teams license, in addition to
-licensing for cloud voice capabilities ([Phone
+licensing for cloud voice capabilities [Phone
 System](here-s-what-you-get-with-phone-system.md)
 and [Audio
-Conferencing](https://products.office.com/skype-for-business/audio-conferencing)).
+Conferencing](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing#requirements-for-audio-conferencing).
 
 For Teams, Phone System licenses require associated [Calling
 Plans](calling-plan-landing-page.md)
