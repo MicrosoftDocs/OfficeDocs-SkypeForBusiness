@@ -148,7 +148,7 @@ shown in the following diagram:
 
 The core component of the compliance recording solution is the recorder.
 Recorders are built as scalable Azure-based services (bots) that
-[use Microsoft’s communications
+[use Microsoft's communications
 platform](/graph/cloud-communications-concept-overview)
 and register as applications with Microsoft Graph. The recorder provides
 the direct interaction with the Teams calls and meetings
@@ -162,7 +162,7 @@ that shows how to configure the bot, create the app instance and assign
 the compliance policies. The sample also has examples on API usage for
 recording specific interactions such as handling
 [incoming
-call](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Http/Controllers/PlatformCallController.cs#L199-L244) routing,
+call](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Http/Controllers/PlatformCallController.cs#L199-L244) routing,
 [changing recording
 states](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L135-L138),
 and [removing the user who is being
@@ -287,7 +287,7 @@ Support for notifications is enabled using the Teams client experiences. The exp
 
 ## Compliance recording for Teams certification programs
 
-In addition to publishing publicly available APIs allowing partners to develop and integrate CCaaS solutions with Teams, we have developed the compliance recording for Microsoft Teams certification program to provide customers with the assurance that each participating partner’s solution has been tested and verified to provide the quality, compatibility, and reliability they expect from Microsoft solutions.  
+In addition to publishing publicly available APIs allowing partners to develop and integrate CCaaS solutions with Teams, we have developed the compliance recording for Microsoft Teams certification program to provide customers with the assurance that each participating partner's solution has been tested and verified to provide the quality, compatibility, and reliability they expect from Microsoft solutions.  
 
 The following partners have certified their solution for Microsoft Teams.<br/><br/>
 
@@ -302,7 +302,7 @@ The following partners have certified their solution for Microsoft Teams.<br/><b
 |NICE NTR |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
 |Oak Innovation |[https://www.oakinnovate.com/clarify](https://www.oakinnovate.com/clarify) |
-|Red Box |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |
+|Red Box |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/red-box-partners/microsoft-integration/compliance-recording-for-microsoft-teams)  |
 |Theta Lake |[https://thetalake.com/integrations/microsoft/](https://thetalake.com/integrations/microsoft/) |
 |Verint |[https://www.verba.com/solutions/microsoft-teams-recording](https://www.verba.com/solutions/microsoft-teams-recording) |
 |Oak Innovation |[https://www.oakinnovate.com/clarify](https://www.oakinnovate.com/clarify) |

@@ -211,8 +211,8 @@ Apps are pinned to the app bar. This is the bar on the side of the Teams desktop
 
 The following settings can be customized to meet your business needs. We have chosen some recommended options based on best practices and to improve the ease of onboarding new users at scale. For more information, click [here](teams-app-setup-policies.md).
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
-2. Click **Add**.  
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
+2. Click **Add**.  
 3. Enter a name and description for the policy. For example, Frontline manager app setup policy.
     :::image type="content" source="media/flw-flm-app-setup-policy.png" alt-text="Screenshot of example name and description for frontline manager app setup policy.":::
 
@@ -224,7 +224,7 @@ The following settings can be customized to meet your business needs. We have ch
     :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Screenshot of the Add pinned apps screen, showing the Add button for the Shifts app":::
 
 7. Remove Calling, if it appears. Removing this feature will not disable it for the user, but will prevent it from appearing on the app bar to simplify the end user experience.
-8. Arrange the apps in the following order to dictate their order in the Teams app bar, and then click **Save**.
+8. Arrange the apps in the following order to dictate their order in the Teams app bar, and then click **Save**.
 
     - Activity
     - Chat
@@ -238,8 +238,8 @@ The following settings can be customized to meet your business needs. We have ch
 
 The following settings can be customized to meet your business needs. We have chosen some recommended options based on best practices and to improve the ease of onboarding new users at scale. For more information, click [here](teams-app-setup-policies.md).
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
-2. Click **Add**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
+2. Click **Add**.
 3. Enter a name and description for the policy. For example, Frontline worker app setup policy.
     :::image type="content" source="media/flw-flw-app-setup-policy.png" alt-text="Screenshot of example name and description for frontline worker app setup policy.":::
 
@@ -252,7 +252,7 @@ The following settings can be customized to meet your business needs. We have ch
     :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Screenshot of the Add pinned apps screen, showing the Add button for the Shifts app":::
 
 7. Remove Meetings and Calling, if they appear. Removing these features will not disable them for the user, but will prevent them from appearing on the app bar to simplify the end user experience.
-8. Arrange the apps in the following order to dictate their order in the Teams app bar, and then click **Save**.
+8. Arrange the apps in the following order to dictate their order in the Teams app bar, and then click **Save**.
     - Activity
     - Chat
     - Teams
@@ -270,31 +270,31 @@ As an admin, you can use app permission policies to control what apps are availa
 
 The following settings can be customized to meet your business needs. These are some recommended options based on best practices that can improve the ease of onboarding new users at scale. For more information, click [here](teams-app-permission-policies.md).
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
-2. Click **Add**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
+2. Click **Add**.
 
     :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Screenshot of Add app permission policy page.":::
 
 3. Enter a name and description for the policy. For example, Frontline manager app permission policy.
-4. Under **Microsoft apps**, select **Allow all apps**.
-5. Under **Third-party apps**, select **Allow all apps**.
+4. Under **Microsoft apps**, select **Allow all apps**.
+5. Under **Third-party apps**, select **Allow all apps**.
 6. Under **Custom apps**, select **Allow all apps**.
-7. Click **Save**.
+7. Click **Save**.
 
 #### Create the frontline worker app permission policy
 
 The following settings can be customized to meet your business needs. These are some recommended options based on best practices that can improve the ease of onboarding new users at scale. For more information, click [here](teams-app-permission-policies.md).
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
-2. Click **Add**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
+2. Click **Add**.
 
     :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Screenshot of Add app permission policy page.":::
 
 3. Enter a name and description for the policy. For example, Frontline worker app permission policy.
-4. Under **Microsoft apps**, select **Allow all apps**.
-5. Under **Third-party apps**, select **Block all apps**.
+4. Under **Microsoft apps**, select **Allow all apps**.
+5. Under **Third-party apps**, select **Block all apps**.
 6. Under **Custom apps**, select **Allow all apps**.
-7. Click **Save**.
+7. Click **Save**.
 
 ## Users and security groups
 

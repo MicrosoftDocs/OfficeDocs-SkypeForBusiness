@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Learn how to update apps in Microsoft Teams. 
+description: Learn how to update apps in Microsoft Teams.
 ---
 
 # Update apps in Microsoft Teams
@@ -27,7 +27,7 @@ In most cases, after app developers publish an app update, the new version autom
 * A bot was added or removed
 * An existing bot's "botId" property changed
 * An existing bot's "isNotificationOnly" property changed
-* A bot's SupportsCalling, SupportsVideo, and SupportsFiles capability was added
+* A bot's SupportsCalling, SupportsVideo, and SupportsFiles capability was added
 * A messaging extension was added
 * A new connector was added
 * Permissions inside "Authorization" were added or changed
@@ -38,7 +38,3 @@ In most cases, after app developers publish an app update, the new version autom
 
 > [!NOTE]
 > The update process applies to all app updates for Microsoft apps, custom apps, and third-party apps.
-
-## Related topics
-
-[Manage apps](manage-apps.md)
