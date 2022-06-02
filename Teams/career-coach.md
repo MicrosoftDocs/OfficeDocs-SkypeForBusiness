@@ -490,7 +490,7 @@ The configuration status section of the app settings page will display the real-
 | Fields of study upload      | Complete                                    | No further action needed. Setting is complete. |
 
 > [!NOTE]
-> Once all steps are marked as complete the app can be successfully released to your tenant and assign Career Coach licenses. For step-by-step instructions, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide).
+> Once all required steps are marked as complete, Career Coach can be successfully released to your tenant.
 
 ## Making Career Coach available to your organization
 
