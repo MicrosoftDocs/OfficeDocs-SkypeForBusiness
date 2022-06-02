@@ -30,7 +30,7 @@ This script uses the [Grant-CsTeamsMessagingPolicy](/powershell/module/skype/gra
 
 ## Before you start
 
-Download and install the [Skype for Business Online PowerShell module](https://www.microsoft.com/download/details.aspx?id=39366), and then restart your computer if prompted.
+Download and install the [Skype for Business Online PowerShell module](https://www.microsoft.com/download/details.aspx?id=54616), and then restart your computer if prompted.
 
 To lean more, see [Manage Skype for Business Online with Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
