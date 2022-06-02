@@ -85,7 +85,7 @@ The final step is to test the Front End pool and confirm that Skype for Business
     
      ![Enable users in Control Panel.](../../media/7ee8717d-9a1f-4864-8f45-71071c88878f.png)
   
-11. A summary page is displayed that shows a check mark in the **Enabled** column to indicate that the users are setup. The **SIP address** column displays the address you need for the user sign-in configuration.
+11. A summary page is displayed that shows a check mark in the **Enabled** column to indicate that the users are set up. The **SIP address** column displays the address you need for the user sign-in configuration.
     
      ![Users added to Skype for Business Server Control Panel.](../../media/8960548a-8d6d-44c5-bc01-6f9fb11b7588.png)
   
