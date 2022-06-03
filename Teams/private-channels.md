@@ -35,6 +35,8 @@ A lock icon indicates a private channel. Only members of private channels can se
 
 When a private channel is created, it's linked to the parent team and can't be moved to a different team. Additionally, private channels can't be converted to standard channels and vice versa.
 
+[Compare private channels with other types of channels](/microsoftteams/teams-channels-overview#channel-feature-comparison).
+
 ![Screenshot of private channels in a team.](media/private-channels-in-teams.png)
 
 ## Private channel creation
@@ -118,6 +120,8 @@ Currently, private channels support connectors and tabs (except Stream, Planner,
 Each team can have a maximum of 30 private channels and each private channel can have a maximum of 250 members. The 30 private channel limit is in addition to the 200 standard channel limit per team. 
 
 When you create a team from an existing team, any private channels in the existing team won't be copied over.
+
+It is not possible to convert a private channel to another channel type.
 
 Notifications from private channels are not included in missed activity emails.
 

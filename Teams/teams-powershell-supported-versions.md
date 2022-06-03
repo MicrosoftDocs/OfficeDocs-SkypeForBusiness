@@ -7,57 +7,101 @@ manager: sshastri
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
-ms.collection: 
+ms.collection:
   - M365-collaboration
 description: Learn about versions supported of the Teams PowerShell Module, used for administration of Microsoft Teams.
-appliesto: 
+appliesto:
   - Microsoft Teams
 ---
 
 # Teams PowerShell Module - Supported Versions
 
-Microsoft Teams PowerShell Module (TPM) versions in the 4.x.x series will be the only versions supported going forward. All earlier versions are on the retirement path.
-
-
+Microsoft Teams PowerShell Module (TPM) versions in the 4.x.x series or later will be the only versions supported going forward. All earlier versions are on the retirement path. It's recommended to update Teams PowerShell Module to the latest version.
 
 ## New organizations
 
-Organizations newly onboarding to Teams will only be able to use Teams PowerShell Module 4.0.0 or above starting from April 1, 2022.
-
-
+Organizations newly onboarding to Teams will only be able to use Teams PowerShell Module in the 4.x.x series or later starting from April 1, 2022.
 
 ## Current organizations (non TPM active)
 
-Organizations who haven't used TPM in the last three months (Jan’22 – Mar’22), will only be able to use TPM 4.0.0 or above starting from April 1, 2022.
-
-
+Organizations who haven't used Teams PowerShell Module during Jan'22 – Mar'22, will only be able to use Teams PowerShell Module in the 4.x.x series or later starting from April 1, 2022.
 
 ## Current organizations (TPM active)
 
-Organizations who have been using TPM in the last three months (Jan’22 – Mar’22) will have more time to update to TPM 4.x.x. More details to follow soon.
-
-
+Organizations who have used Teams PowerShell Module during Jan'22 – Mar'22, will only be able to use Teams PowerShell Module in the 4.x.x series or later starting from June 15, 2022. Message center post for reference - MC350371.
 
 ## Important notes
 
 - Release notes for all the Teams PowerShell Module versions can be found at [Teams PowerShell release notes](teams-powershell-release-notes.md).
 
-- To update any PowerShell module, you should use the same method used to install the module. For example, if you originally used Install-Module, then you should use [Update-Module](/powershell/module/powershellget/update-module) to get the latest version.  
+- To update any PowerShell module, you should use the same method used to install the module. For example, if you originally used Install-Module, then you should use [Update-Module](/powershell/module/powershellget/update-module) to get the latest version.
 
   ```powershell
   Update-Module MicrosoftTeams
   ```
 
--	If updating from Teams PowerShell Module version 1.1.6, update your scripts to use `Connect-MicrosoftTeams` instead of `New-CsOnlineSession`.
+- If updating from Teams PowerShell Module version 1.1.6, update your scripts to use `Connect-MicrosoftTeams` instead of `New-CsOnlineSession`.
 
--	During the update, it’s suggested to not use TPM 4.x.x/3.x.x alongside versions older than 3.0.0. For example, using versions 4.0.0 & 2.6.0 together for different admin operations in the same organization isn’t recommended. 
+- During the update, it's suggested to not use TPM 4.x.x/3.x.x alongside versions earlier than 3.0.0. For example, using versions 4.x.x & 2.6.0 together for different admin operations in the same organization isn't recommended.
 
 - Related changes
-  * Updates to Get-CsOnlineUser & Get-CsOnlineVoiceUser in TPM 3.0.0 and above – more details in [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser) & [Get-CsOnlineVoiceUser](/powershell/module/skype/get-csonlinevoiceuser) (Message center post – MC340774).
+  - Updates to Get-CsOnlineUser & Get-CsOnlineVoiceUser in TPM 3.x.x and later – more details in [Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser) & [Get-CsOnlineVoiceUser](/powershell/module/skype/get-csonlinevoiceuser) (Message center post – MC340774).
 
-  * Changes coming to Phone number assignment - more details in [Set-CsUser](/powershell/module/skype/set-csuser), [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser), [Set-CsOnlineApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance) & [Set-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlinevoiceapplicationinstance) (Message center post – MC316139)
+  - Changes coming to Phone number assignment - more details in [Set-CsUser](/powershell/module/skype/set-csuser), [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser), [Set-CsOnlineApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance) & [Set-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlinevoiceapplicationinstance) (Message center post – MC316139).
 
+  - Parameter changes in Get-CsTenant - more details in [Get-CsTenant](/powershell/module/skype/get-cstenant) (Message center post – MC365397).
+  
+  - If your scripts use New/Set of Policy or Configuration cmdlets with PSListModifier type parameters, it’s recommended to use the latest version (4.2.0 or later).
 
+- While using TPM 4.x.x or later, it's recommended to not use any of the deprecated or unsupported cmdlets mentioned [below](#deprecated-cmdlets).
+
+## Deprecated cmdlets
+
+- Some of the cmdlets that were deprecated recently are listed below. Details on the same can be found in the respective public documentations.
+  - [Get-CsOnlineTelephoneNumber](/powershell/module/skype/get-csonlinetelephonenumber)
+  - [Get-CsOnlineDialInConferencingUserInfo](/powershell/module/skype/get-csonlinedialinconferencinguserinfo), [Get-CsOnlineDialInConferencingUserState](/powershell/module/skype/get-csonlinedialinconferencinguserstate), [Enable-CsOnlineDialInConferencingUser](/powershell/module/skype/enable-csonlinedialinconferencinguser), [Disable-CsOnlineDialInConferencingUser](/powershell/module/skype/disable-csonlinedialinconferencinguser)
+  - [Get-CsOnlineDirectoryTenant](/powershell/module/skype/get-csonlinedirectorytenant)
+  - [New-CsOnlineAudioFile](/powershell/module/skype/new-csonlineaudiofile)
+  - [Get-CsOnlineApplicationEndpoint](/powershell/module/skype/get-csonlineapplicationendpoint), [Set-CsOnlineApplicationEndpoint](/powershell/module/skype/set-csonlineapplicationendpoint), [New-CsOnlineApplicationEndpoint](/powershell/module/skype/new-csonlineapplicationendpoint), [Remove-CsOnlineApplicationEndpoint](/powershell/module/skype/remove-csonlineapplicationendpoint)
+  - [Get-CsOnlineTelephoneNumberInventoryCities](/powershell/module/skype/get-csonlinetelephonenumberinventorycities), [Get-CsOnlineTelephoneNumberInventoryAreas](/powershell/module/skype/get-csonlinetelephonenumberinventoryareas), [Get-CsOnlineTelephoneNumberInventoryCountries](/powershell/module/skype/get-csonlinetelephonenumberinventorycountries), [Get-CsOnlineTelephoneNumberInventoryRegions](/powershell/module/skype/get-csonlinetelephonenumberinventoryregions), [Get-CsOnlineTelephoneNumberInventoryTypes](/powershell/module/skype/get-csonlinetelephonenumberinventorytypes), [Search-CsOnlineTelephoneNumberInventory](/powershell/module/skype/search-csonlinetelephonenumberinventory), [Select-CsOnlineTelephoneNumberInventory](/powershell/module/skype/select-csonlinetelephonenumberinventory), [Get-CsOnlineTelephoneNumberAvailableCount](/powershell/module/skype/get-csonlinetelephonenumberavailablecount), [Clear-CsOnlineTelephoneNumberReservation](/powershell/module/skype/clear-csonlinetelephonenumberreservation), [Get-CsOnlineTelephoneNumberReservationsInformation](/powershell/module/skype/get-csonlinetelephonenumberreservationsinformation), [Get-CsOnlineDirectoryTenantNumberCities](/powershell/module/skype/get-csonlinedirectorytenantnumbercities)
+  - [Set-CsTeamsAppSetupPolicy](/powershell/module/skype/set-csteamsappsetuppolicy), [New-CsTeamsAppSetupPolicy](/powershell/module/skype/new-csteamsappsetuppolicy), [Set-CsTeamsAppPermissionPolicy](/powershell/module/skype/set-csteamsapppermissionpolicy), [New-CsTeamsAppPermissionPolicy](/powershell/module/skype/new-csteamsapppermissionpolicy)
+  - [Test-CsOnlineLisCivicAddress](/powershell/module/skype/test-csonlineliscivicaddress)
+
+- Cmdlets that aren't supported/relevant for Microsoft Teams scenarios are listed below.
+  - [Get|Set]-CsUserPstnSettings
+  - [Get|Set|Enable|Disable]-CsMeetingRoom
+  - [Grant|Get|Set|New|Remove]-CsConferencingPolicy
+  - [Grant|Get|Set|New|Remove]-CsClientPolicy
+  - [Grant|Get]-CsHostedVoicemailPolicy
+  - [Grant|Get|Set|New|Remove]-CsMobilityPolicy
+  - [Grant|Get]-CsVoiceRoutingPolicy
+  - [Grant|Get]-CsBroadcastMeetingPolicy
+  - [Grant|Get]-CsCloudMeetingPolicy
+  - [Grant|Get]-CsGraphPolicy
+  - [Grant|Get|Set|New|Remove]-CsExternalUserCommunicationPolicy
+  - [Grant|Get|Set]-CsIPPhonePolicy
+  - Get-CsUserServicesPolicy
+  - [Get|Set]-CsBroadcastMeetingConfiguration
+  - [Get|Set]-CsOAuthConfiguration
+  - [Get|Set]-CsMeetingConfiguration
+  - [Get|Set]-CsTenantHybridConfiguration
+  - [Get|Set]-CsPushNotificationConfiguration
+  - [Get|Set]-CsUCPhoneConfiguration
+  - Get-CsImFilterConfiguration
+  - Get-CsAudioConferencingProvider
+  - [Get|Set]-CsTenantPublicProvider
+  - Get-CsHostingProvider
+  - [Get|Set|Register|Unregister]-CsHybridPSTNAppliance
+  - [Get|Set|New|Remove]-CsHybridPSTNSite
+  - [Get|Set]-CsHybridMediationServer
+  - [Get|Set|New|Remove]-CsTenantUpdateTimeWindow
+  - Get-CsUserLocationStatus
+  - Invoke-CsUcsRollback
+  - [Get|Set|New|Remove]-CsTeamsPinnedApp
+  - [Get|Set|New|Remove]-CsTenantCatalogApp
+  - [Get|Set|New|Remove]-CsGlobalCatalogApp
+  - [Get|Set|New|Remove]-CsDefaultCatalogApp
+  - [Get|Set|New|Remove]-CsTeamsAppPreset
 
 ## Related topics
 
@@ -67,6 +111,6 @@ Organizations who have been using TPM in the last three months (Jan’22 – Mar
 
 [Manage Teams with Teams PowerShell](teams-powershell-managing-teams.md)
 
-[Microsoft Teams cmdlet reference](/powershell/module/teams) 
+[Microsoft Teams cmdlet reference](/powershell/module/teams)
 
-[Skype for Business cmdlet reference](/powershell/module/skype) 
+[Skype for Business cmdlet reference](/powershell/module/skype)

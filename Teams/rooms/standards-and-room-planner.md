@@ -32,7 +32,7 @@ This page also has a command bar from where you can launch the  **Create a stand
 ![Screenshot of home page for creating Standards](../media/standards-and-room-planner-001.png)
 ### Create Standards
 
-Use the **Create a Standard** workflow to create a standard.
+Use the **Create Standard** workflow to create a standard.
 
 ![Screenshot of Standards General Details](../media/standards-and-room-planner-001.png)
 
@@ -40,33 +40,32 @@ Use the **Create a Standard** workflow to create a standard.
 
 1. Select **Create a MTR Standard**, then provide general details such as name and description for the standard.
 
-   ![Screenshot of Standards Select Meeting Room](../media/standards-and-room-planner-002.png)
+   ![Screenshot of Standards Select Meeting Room type](../media/standards-and-room-planner-002.png)
 
 1. Select your meeting room type for this standard.
 
    ![Screenshot of Standards Select Recommended devices](../media/standards-and-room-planner-003.png)
 
-1. Select your choice of meeting room device from the recommended Teams certified devices in your inventory of hardware.
+1. Select from the recommended Teams certified room templates in your inventory of hardware. The list varies depending on the room type selected in the previous step.
 
-   ![Screenshot of Standards General Details](../media/standards-and-room-planner-004.png)
+   ![Screenshot of Select the Standard MTRs](../media/standards-and-room-planner-004.png)
 
 
 1. Review the MTR Standard information.
 
    ![Screenshot of Standards Review before publishing](../media/standards-and-room-planner-005.png)
 
-1. Publish your standards to a region, site, building or a specific meeting room.
+1. Publish your standards to a region, site, building, or a specific meeting room.
 
    ![Screenshot of places to publish the standards.](../media/standards-and-room-planner-006.png)
 
-Once you've completed the workflow, the standard is created successfully and published to the site, region, building, or meeting room. Now these standards are to be used for planning purposes.
+Once published, the standards are used for planning purposes.
 
 ![Screenshot of successfully published standard`](../media/standards-and-room-planner-008.png)
 ### Discovered Devices
 
 Within Standards, select **Discovered Devices** to view all nonstandard discovered devices within your organization.
 
-![Screenshot of a room's discovered devices](../media/standards-and-room-planner-008.png)
 
 You can take action to review and create standards from these discovered devices in your inventory.
 

@@ -49,7 +49,7 @@ productDirectory:
       summary: Plan your rollout and pilot your solutions, so that you can have a smooth experience.
       url: ./get-started-with-teams-quick-start.md
     # Card
-    - title: Prepare for end user adoption 
+    - title: Prepare for end user adoption 
       # imageSrc should be square in ratio with no whitespace
       imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
       summary: Get your users on board and share scenarios for success.
@@ -161,7 +161,7 @@ additionalContent:
             - text: Build apps for Microsoft Teams
               url: /MicrosoftTeams/platform/overview
             - text: Integration with Microsoft Power Platform
-              url: ./teams-power-platfom-integration.md
+              url: /microsoftteams/platform/samples/teams-low-code-solutions
             - text: Microsoft Teams app security and compliance
               url: /microsoft-365-app-certification/teams/teams-apps
             - text: Microsoft Viva - Employee Experience and Engagement

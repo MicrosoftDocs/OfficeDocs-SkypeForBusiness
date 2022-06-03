@@ -1,7 +1,7 @@
 ---
 title: "Phones and Devices for Microsoft Teams"
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -69,10 +69,19 @@ If you're a manufacturer and want to join the certification program, see [How to
 
 ## Certified devices
 
-*Table Updated March 2022*
+*Table Updated June 2022*
+
+> [!NOTE]
+> The date format is MMDDYYYY.
 
 | Manufacturer        | Model                                                     | Qualified      | Certified Program                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS                 |C10/C20/C50 Series headsets                                |5/31/2022       |Certified for Microsoft Teams                           |
+|Poly                 |Studio P21 Monitor                                         |5/12/2022       |Certified for Microsoft Teams                           |
+|Yealink              |UH38 Headset                                               |5/2/2022        |Certified for Microsoft Teams                           |   
+|Yealink              |BH72 Headset                                               |5/2/2022        |Certified for Microsoft Teams                           |
+|Logitech             |Zone True Wireless Earbuds                                 |5/2/2022        |Certified for Microsoft Teams                           |
+|Lenovo               |Go Wireless ANC Headset                                    |4/11/2022       |Certified for Microsoft Teams                           |
 |EPOS                 |ADAPT 661                                                  |3/11/2022       |Certified for Microsoft Teams                           |
 |EPOS                 |ADAPT 461T                                                 |3/11/2022       |Certified for Microsoft Teams                           |
 |EPOS                 |ADAPT 361                                                  |3/11/2022       |Certified for Microsoft Teams                           |
@@ -133,8 +142,8 @@ If you're a manufacturer and want to join the certification program, see [How to
 |Lenovo               |Pro Wired VoIP Stereo Headset                              |12/21/2020      |Skype for Business with upgrade to Microsoft Teams      |
 |Poly                 |Savi Office 7320                                           |12/18/2020      |Certified for Microsoft Teams                           |
 |Poly                 |Savi Office 7310                                           |12/18/2020      |Certified for Microsoft Teams                           |
-|Jabra                |Evolve 75e Headset                                         |12/16/2020      |Skype for Business with upgrade to Microsoft Teams      |
-|Jabra                |Evolve 65e Headset                                         |12/16/2020      |Skype for Business with upgrade to Microsoft Teams      |
+|Jabra                |Evolve 75e / SE Headset                                         |12/16/2020      |Skype for Business with upgrade to Microsoft Teams      |
+|Jabra                |Evolve 65e / SE Headset                                         |12/16/2020      |Skype for Business with upgrade to Microsoft Teams      |
 |Dell                 |C3422WE Monitor                                            |12/11/2020      |Certified for Microsoft Teams                           |
 |Dell                 |C2722DE Monitor                                            |12/11/2020      |Certified for Microsoft Teams                           |
 |Dell                 |C2422HE Monitor                                            |12/11/2020      |Certified for Microsoft Teams                           |

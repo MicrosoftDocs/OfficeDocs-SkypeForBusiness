@@ -1,7 +1,7 @@
 ---
 title: Drive adoption from Kaizala to Microsoft Teams for frontline workers
-author: Benny-54
-ms.author: v-bshilpa
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -17,6 +17,8 @@ ms.custom:
 
 # Microsoft Teams for Frontline
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWPCnz]
+
 Microsoft is committed to doing what we can, to address the economic and societal impact of Covid-19. We want to ensure your frontline workers have access to the technology resources and expertise they need in these challenging times.
 
 Across industries, Microsoft customers like [IKEA](https://customers.microsoft.com/story/799203-ikea-retailers-teams) and [Alcoa](https://customers.microsoft.com/story/837930-alcoa-manufacturing-teams) are using Teams to empower their frontline workforce.
@@ -30,3 +32,7 @@ Set up an effective pilot for your frontline workforce with the interactive [IT 
 Conduct frontline training for Microsoft Teams with engaging and educational [videos](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821).
 
 For more admin guidance on frontline workers in Teams, see our [Microsoft Teams Frontline Worker – Quick Start Guide](/Microsoftteams/flw-quickstart).
+
+Learn more about how you can optimize frontline impact with Microsoft 365 by visiting our [products and pricing page](https://www.microsoft.com/microsoft-365/enterprise/frontline).
+
+Learn more about how you can enable your frontline workers with Microsoft Teams by visiting the [page on Frontline Adoption Hub](https://adoption.microsoft.com/microsoft-teams/frontline-workers/).

@@ -1,7 +1,7 @@
 ---
 title: Plan for a successful move from Kaizala to Microsoft Teams
-author: Benny-54
-ms.author: v-bshilpa
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -65,7 +65,7 @@ After following the recommended framework for planning a successful transition f
 
 ### Get ready
 
- 1. Ensure that there are Teams licenses for everybody. Check out [Teams plans](/microsoft-teams/compare-microsoft-teams-options?rtc=1) and [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
+ 1. Ensure that there are Teams licenses for everybody. Check out [Teams plans](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options?activetab=pivot%3aprimaryr1) and [Microsoft Teams service description](/office365/servicedescriptions/teams-service-description).
 
  2. Use [Microsoft Teams Adoption](https://adoption.microsoft.com/microsoft-teams/#get-started) guidance to roll out Teams across your organization.
 

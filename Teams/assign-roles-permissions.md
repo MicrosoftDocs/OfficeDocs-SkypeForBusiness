@@ -58,7 +58,7 @@ The table below shows the difference in permissions between an owner and a membe
 
 ## Moderator capabilities
 
-In addition to other capabilities, team owners and members can have moderator capabilities for a channel (provided that moderation is turned on for a team). Moderators can start new posts in a channel and control whether team members can reply to existing channel messages. They can also control whether bots and connectors can submit channel messages.
+In addition to other capabilities, team owners and members can have moderator capabilities for a channel (provided that moderation is turned on for a team). Moderators can start new posts in a channel and control whether team members can reply to existing channel messages. Moderators can also control whether apps with bots and connectors capability can submit channel messages.
 
 Moderator capabilities are assigned at the channel level. Team owners have moderator capabilities by default. Team members have moderator capabilities turned off by default, but a team owner can give moderator capabilities for a channel to a team member. Moderators within a channel can add and remove other moderators within that channel.
 
@@ -66,7 +66,10 @@ For more information about moderator capabilities, see [Set up and manage channe
 
 ## Assign a user role
 
-To assign a user role, in Teams, select the team name and click **More options** > **Manage team**. On the **Members** tab, you can add members and choose owners and moderators (if you have sufficient permissions). For more information, see [Change team settings in Teams](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc).
+To assign a user role, in Teams, select the team name and then select **More options** (**...**) > **Manage team**. On the **Members** tab, you can add members and choose owners and moderators (if you have sufficient permissions). For more information, see [Change team settings in Teams](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc).
+
+> [!NOTE]
+> The **Manage team** option will not appear for pinned channels. Select the team name under *Your teams* further below and then select **More options** (**...**) to the right of the name.
 
 ## Permissions to create teams
 

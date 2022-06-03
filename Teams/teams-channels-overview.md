@@ -42,6 +42,8 @@ Let's get started by thinking about how Microsoft Teams allows individual teams 
     
 For help using teams and channels, check out [Teams and channels](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499).
 
+See [Limits and specifications for Microsoft Teams](/microsoftteams/limits-specifications-teams) for information on the limits associated with using Teams.
+
 ## Membership, roles, and settings
 
 **Team membership**
@@ -76,6 +78,29 @@ One key early planning activity to engage users with Teams is to help people thi
 > When you create a new team or a private or shared channel in Teams, a team site in SharePoint gets automatically created. To edit the site description or classification for this team site, go to the corresponding channel's [settings in Microsoft Teams](https://support.microsoft.com/office/bf39798f-90d2-44fb-a750-55fa05a56f1d).
 >
 > Learn more about managing [Microsoft Teams connected teams sites](/SharePoint/teams-connected-sites).
+
+## Channel feature comparison
+
+The following table shows a comparison of Teams features for each channel type.
+
+|Features|Standard channel|Private channel|Shared channel|
+|:-------|:---------------|:--------------|:-------------|
+|People can be added to the channel without adding them to the team.|No|No|Yes|
+|Channel membership can be limited to a subset of the team.|No|Yes|Yes|
+|Channel can be shared directly with other teams.|No|No|Yes|
+|Channel can be shared directly with its parent team.|N/A|No|Yes|
+|Guests can participate in the channel.|Yes|Yes|No|
+|External participants (B2B Direct Connect) can participate in the channel.|No|No|Yes|
+|Moderation|Yes|No|No|
+|Breakout rooms|Yes|No|No|
+|Copy link to channel|Yes|No|No|
+|Each channel has a dedicated SharePoint site.|No|Yes|Yes|
+|Scheduled meetings|Yes|No|Yes|
+|Planner|Yes|No|No|
+|Bots, connectors, and messaging extensions|Yes|No|No|
+|Supported in class teams|Yes|Yes|No|
+|Tags|Yes|No|No|
+|Analytics|Yes|Yes|No|
 
 ## Org-wide teams
 
