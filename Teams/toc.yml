@@ -1730,7 +1730,7 @@ items:
               href: /microsoft-365/frontline/ehr-admin-cerner?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
             - name: Virtual appointments with Teams - Integration into Epic EHR
               href: /microsoft-365/frontline/ehr-admin-epic?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
-            - name: EHR admin reports
+            - name: EHR connector Virtual Appointments report
               href: /microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
             - name: Virtual appointments with Teams and Bookings
               href: /microsoft-365/frontline/bookings-virtual-visits?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
