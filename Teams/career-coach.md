@@ -163,7 +163,7 @@ For more information, see [LinkedIn account connections in Azure Active Director
 ![Integrate LinkedIn account connections in the organization](/azure/active-directory/enterprise-users/media/linkedin-integration/linkedin-integration.png)
 
 > [!NOTE]
-> No data is shard without the user's consent.
+> No data is shared without the user's consent.
 
 ### Allow Microsoft apps in Teams
 
@@ -174,7 +174,7 @@ Career Coach is a Microsoft application, and so it must be allowed within Teams 
 2. In the left navigation, select **Teams apps** > **[Permission policies](https://admin.teams.microsoft.com/policies/manage-apps)**.
 
 3. Select your preferred policy.
-    1. If you are unsure which policy to use, refer to the [Microsoft Teams Policy management documentation](policy-packages-edu.md) or use the [Education Policy Wizard](easy-policy-setup-edu.md) to configure a policy for Microsoft Teams.
+    1. If you're unsure which policy to use, refer to the [Microsoft Teams Policy management documentation](policy-packages-edu.md) or use the [Education Policy Wizard](easy-policy-setup-edu.md) to configure a policy for Microsoft Teams.
 
 4. Select **Career Coach**, and then select **Settings**.
 
@@ -291,7 +291,7 @@ The process of adding the LinkedIn School Page URL is handled by a Teams Adminis
 
 6. Select **Submit**.
 
-7. After the **LinkedIn School Page URL** is successfully submitted, the settings page will update to show the **Verification link** and **Verification link expiration**. The verification link expires after thirty days.
+7. After the **LinkedIn School Page URL** is successfully submitted, the settings page will update to show the **Verification link** and **Verification link expiration**. The verification link expires after 30 days.
 
 8. Copy the **Verification link** and share it with your educational institution’s LinkedIn School page Super admin.
 
@@ -305,7 +305,7 @@ The LinkedIn School Page verification must be completed by your educational inst
 
 You can check your LinkedIn account’s admin roles by signing into LinkedIn and visiting your educational institution’s LinkedIn school page. If your account is assigned a Super admin role, you'll see **Super admin view** listed next to your educational institution’s name on the LinkedIn page. If you don't see the **Super admin view** tag, then you're not a Super admin for your school’s page.
 
-1. After the **LinkedIn School Page URL** is submitted by the Teams administrator, the page will show the **Verification link** and **Verification link expiration**. The verification link expires after thirty days.
+1. After the **LinkedIn School Page URL** is submitted by the Teams administrator, the page will show the **Verification link** and **Verification link expiration**. The verification link expires after 30 days.
 
    ![linkedin connections for the career coach app.](media/career-coach-linked-in.png)  
 
@@ -373,7 +373,7 @@ The following table shows the items to include in the course catalog:
 
 | Name             | Status      | Type   | Description                                                                    |
 |------------------|-------------|--------|--------------------------------------------------------------------------------|
-| courseId         | Required    | string | The course id maps to what is generated in the student transcript.             |
+| courseId         | Required    | string | The courseId maps to what is generated in the student transcript.             |
 | title            | Required    | string | The course title.                                                              |
 | sourceLink       | Required    | URL    | Website link to the course page to learn more about the course and syllabus.   |
 | description      | Recommended | string | Introduction text for the course that describes the learning objectives.       |
@@ -400,7 +400,7 @@ During processing, Career Coach will analyze your document for duplicates, norma
 | Ingestion status | Pending   | Document in queue for processing.                                                                  |
 | Ingestion status | Running   | Document is currently be processed. This process can take up to 6 hours depending on the size of your document. |
 | Ingestion status | Success   | Ingestion process is complete, and courses will be available in Career Coach once all required settings are completely configured. |
-| Ingestion status | Failed    | Check the document format and re-upload.                                                           |
+| Ingestion status | Failed    | Check the document format and reupload.                                                           |
 | Duplicates       | Integer   | Number of duplicate courses found in the document.                                                 |
 
 > [!NOTE]
@@ -465,13 +465,13 @@ The status message can help you determine whether Career Coach is properly confi
 
 ### Configuration status
 
-The configuration status section of the app settings page will display the real-time status using the following legend..
+The configuration status section of the app settings page will display the real-time status using the following legend.
 
 ![the configuration status section of the career coach app.](media/career-coach-config-status.png)
 
 | Category                    | Status                                      | Description                                                 |
 | --------------------------- | ------------------------------------------- | ----------------------------------------------------------- |
-| Service provisioning status | Career Coach is initializing your tenant.   | Service provisioning occurs automatically upon accessing the Career Coach settings page. Configuration changes will not be accepted until initial set up is complete. Estimated time for service provisioning is up to 15 minutes. |
+| Service provisioning status | Career Coach is initializing your tenant.   | Service provisioning occurs automatically upon accessing the Career Coach settings page. Configuration changes won't be accepted until initial setup is complete. Estimated time for service provisioning is up to 15 minutes. |
 | Service provisioning status | Career Coach is ready to be configured.     | Career Coach settings page is ready for IT admin to submit settings. |
 | Brand and preferences       | Not started                                 | Settings need to be submitted. |
 | Brand and preferences       | Missing: Learning icon                      | Upload the missing learning content thumbnail image. |
@@ -503,13 +503,13 @@ For step-by-step instructions, see [Assign licenses to users](/microsoft-365/a
 
 ### Setup policies and pin the app
 
-Pinning Career Coach will add it to the left rail of the Microsoft Teams window to make it more accessible and visible for students. If you prefer to pin Career Coach for a subset of your users, then you will need to implement a [Setup policy](teams-app-setup-policies.md) with that group included.
+Pinning Career Coach will add it to the left rail of the Microsoft Teams window to make it more accessible and visible for students. If you prefer to pin Career Coach for a subset of your users, then you'll need to implement a [Setup policy](teams-app-setup-policies.md) with that group included.
 
 1. Sign into the **[Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851)**.
 
 2. Select **Teams apps** > **Setup policies** and select your preferred policy.
 
-    If you are unsure which policy to use, refer to the [Microsoft Teams Policy management documentation](policy-packages-edu.md) or use the [Education Policy Wizard](easy-policy-setup-edu.md) to configure a policy for Microsoft Teams.
+    If you're unsure which policy to use, refer to the [Microsoft Teams Policy management documentation](policy-packages-edu.md) or use the [Education Policy Wizard](easy-policy-setup-edu.md) to configure a policy for Microsoft Teams.
 
 3. Under **Pinned apps**, choose **Add apps**.
 
@@ -559,9 +559,9 @@ Additionally, a course catalog file should have no more than 15,000 rows to ensu
 
 ### Missing fields in Career Coach settings pages
 
-Career Coach settings pages have required fields. If required fields aren't completed, the page won't submit.
+Career Coach settings pages have required fields. If necessary fields aren't completed, the page won't submit.
 
-You may not see a warning message; the page will simply not submit.
+You may not see a warning message; the page won't submit.
 
 The submission is successful when you see a green banner at the top of the page.
 
