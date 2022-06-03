@@ -133,7 +133,7 @@ To configure Teams Rooms on Android using the touchscreen console or front-of-ro
 
 > Note: Some device manufacturers require an admin password before **Device settings** can be accessed.
 
-![Meetings settings for MTR on Android](/Teams/media/mtrandroid.png)
+![Meetings settings for MTR on Android](..\media\mtrandroid.png)
 
 3.  Select a third-party meeting provider you wish to enable (e.g., **Webex**, **Zoom**, etc.).
 
