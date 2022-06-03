@@ -3,7 +3,7 @@ title: "Teams devices for Shared Spaces feature comparison between Windows and A
 author: cazawideh
 ms.author: czawideh
 manager: jsarrasin
-ms.date: 10/07/2021
+ms.date: 06/03/2022
 ms.topic: conceptual
 audience: ITPro
 ms.service: msteams
@@ -40,7 +40,7 @@ To help guide you as to what features are available on different platforms, you 
 |**Meeting join**|One-touch-join |Available  |Available |
 ||Proximity join |Available  |Available |
 ||Meet now |Available  |Available |
-||Direct guest join |Available  |Coming soon |
+||Direct guest join |Available  |Available |
 |**Meeting engagement and collaboration**|Intuitive, purpose-built app experience |Available  |Available |
 ||Video and content layouts (for example, Together Mode, large gallery, gallery only, and gallery and content) |Available  |Available |
 ||Chat bubbles|Available |Coming soon |
