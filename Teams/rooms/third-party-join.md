@@ -81,7 +81,7 @@ Teams Rooms on Windows
 
 To configure Teams Rooms on Windows using the touchscreen console, do the following:
 
-1. On the Microsoft Teams Rooms console, select **More ...**.
+1. On the Microsoft Teams Rooms console, select **More**.
 2. Select **Settings**, and then enter the device administrator username and password.
 3. Go to the **Meetings** tab and select a third-party meeting provider you wish to enable (e.g., **Webex**, **Zoom**, etc.).
 4. If you want to join meetings with the username and email address associated with the room mailbox, select **Join with room info**.
@@ -123,7 +123,7 @@ You can optionally specify a custom username and email address to join third-par
 
 To configure Teams Rooms on Android using the touchscreen console or front-of-room display, do the following:
 
-1.  On the Microsoft Teams Rooms console or Front-of-Room display, select **More…**.
+1.  On the Microsoft Teams Rooms console or Front-of-Room display, select **More**.
 
 2.  Select **Settings**, and:
 
