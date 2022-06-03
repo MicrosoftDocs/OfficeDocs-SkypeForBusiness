@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: 
+ms.reviewer:
 description: Microsoft Teams article documenting prerequisites and setup of Parents in Teams for Education.
 ms.localizationpriority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
@@ -21,21 +21,49 @@ appliesto:
 
 # Set up Parent Connection in Microsoft Teams for Education
 
-The Parent Connection in Teams for Education helps educators securely connect and engage with the parents and guardians of the students in their class teams using Teams chat, which will scale across the educator's organization. All parent and guardian data is provisioned using School Data Sync, allowing IT staff to smoothly set things up.
+The Parent Connection in Teams for Education helps educators securely connect and engage with the parents and guardians of the students in their class teams using Teams.
 
-Once educators and guardians are set up, they can chat with one another using Teams chat. 
+This article provides guidance to education IT professionals on requirements and setup of the Parent Connection.
 
-For guidance on getting parents and guardians connected to educators, see [Connect with educators in Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
+## Share guardian and educator resources
 
-For guidance on getting educators set up to communicate with parents and guardians, see [Communicate with guardians in Microsoft Teams](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us).
+Here are some resources IT admins can share with guardians and educators on how they can get started using the Parent Connection.
 
-Parents also works with Supervised Chat. Parents and guardians won’t have full Teams permissions, which means they can’t start conversations with students or remove full-permissions users (like educators) from chats. For more information about Supervised Chat, see [Use supervised chats in Microsoft Teams](supervise-chats-edu.md).
+- For guidance on getting guardians set up, see [Connect with educators in Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
+- For guidance on getting educators set up, see [Communicate with guardians in Microsoft Teams](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us).
+
+## Benefits of Parent Connection
+
+The Parents Connection allows educators and guardians to chat, email, and call using Teams.
+
+- Teams guardian contact data stays current with SIS using School Data Sync (SDS).
+- It works with Supervised chat. For more information, see [Use supervised chats in Microsoft Teams](supervise-chats-edu.md).
+  - By default, guardians have restricted permissions, so they can't chat with students or remove users from chats.
+  - This setting can be changed by the tenant admin.
+- Educators can initiate chats with guardians.
+  - If the guardian doesn't have a Teams consumer account, they'll receive the initial message from the educator and an email invite to go to Teams.
+- Educators can click a guardian's email to email them using their native email client.
+- Educators can click a guardian's phone number to call them within Teams.
+
+> [!IMPORTANT]
+> For click to call functionality in Teams, your tenant needs:
+>
+> - Public Branch Exchange (PBX) capabilities.
+> - Connection to the PSTN.
+>
+> Microsoft 365 A1 and A3 plans don't include PBX capabilities nor PSTN connection. You can purchase [add-on licenses for each of these](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+>
+> Microsoft 365 A5 plans only include PBX capabilities using Teams Phone System. You'll still need to [purchase a Teams Calling Plan or use a third-party solution](pstn-connectivity.md) to connect to external numbers on the PSTN.
+>
+> For more information on all your options to get PSTN connectivity, see [PSTN connectivity options](pstn-connectivity.md).
+>
+> For more information on Teams calling licensing, see [Teams add-on licensing options](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
 ## Requirements
 
 ### School Data Sync
 
-- You need School Data Sync (SDS) to populate each student's parent and guardian **related contact** information​.
+- You need School Data Sync (SDS) to populate each student's parent and guardian **related contact** information.
   - [Deploy SDS](/schooldatasync/parents-and-guardians-in-sds)
 
 - If you need assistance in setting up SDS and populating parent and guardian **related contacts** for the students in your tenant, contact the EDU Customer Success team by:
@@ -51,18 +79,35 @@ Parents also works with Supervised Chat. Parents and guardians won’t have full
   - If you want to automate pulling in the CSV files after the initial sync, read our [CSV File Sync Automation document](/schooldatasync/csv-file-sync-automation).
   - For help with setting up your SDS data sync, reach out to [our customer success team](https://www.microsoft.com/fasttrack?rtc=1) or [open a support ticket](https://edusupport.microsoft.com/support?product_id=data_sync).
 
-### Teams Admin Center - Policies
+### Teams admin center policies
 
 - Class team owners must have Teams chat turned on.
 - Class team owners must have external access with **Teams accounts not managed by an organization** turned on.
-  - This must be turned on at the tenant level and the user level. The tenant level setting can be found in **Users > External Access** in the Teams Admin Center. This setting can also be accessed via PowerShell. User level external access policies can only be accessed via PowerShell. See the PowerShell commands below for further guidance.
+  - This must be turned on at the tenant level and the user level. The tenant level setting can be found in **Users > External Access** in the Teams admin center. This setting can also be accessed via PowerShell. User level external access policies can only be accessed via PowerShell. See the PowerShell commands below for further guidance.
 
-> [!NOTE]
->Parents and guardians are classified as External users in the Parents feature, meaning they don’t have full tenant rights. They only have access to the chat or chats they are added to as well as files, images, and other content shared in the chat.
->
->Also, External users can see the presence (offline, available, busy, etc.) of your organization’s users, but this can be turned off using PowerShell to protect users’ privacy. In PowerShell, use [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) and set ``EnablePrivacyMode=true``.
->
->Even though parents and guardians are External users, their contributions to chats are discoverable. Learn how to conduct a Teams eDiscovery investigation by reading [Conduct an eDiscovery investigation of content in Microsoft Teams](ediscovery-investigation.md).
+#### Parent and guardian restrictions
+
+Parents and guardians are classified as *External users* in the Parents Connection, meaning they don't have full tenant rights. They only have access to the chat or chats they're a part of and the files, images, and other content shared in the chat.
+
+For external chats, both internal and external users can add users to the chat. To learn more about the external chat experience, see [Manage external meetings and chat in Microsoft Teams](manage-external-access.md).
+
+Also, external users can see the presence (offline, available, busy, etc.) of your organization's users, but this can be turned off using PowerShell to protect users' privacy. In PowerShell, use [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) and set ``EnablePrivacyMode=true``.
+
+Even though parents and guardians are external users, their contributions to chats are discoverable. Learn how to conduct a Teams eDiscovery investigation by reading [Conduct an eDiscovery investigation of content in Microsoft Teams](ediscovery-investigation.md).
+
+> [!IMPORTANT]
+> IT admins should educate all Class Owners on best practices for sharing student information over chat, including risks to student privacy.
+
+#### Blocking a parent or guardian in a chat
+
+Educators can block a guardian in chat initiated in the Parent Connection.
+
+The class owner can:
+
+1. Open the guardian's profile card, select the ellipse and **Block User**.
+2. Then, remove the guardian from the chat.
+
+The blocked user won't be able to start additional chats with the class owner.
 
 ## Allow external access with Teams accounts not managed by an organization
 
@@ -94,10 +139,10 @@ Here are the steps to turn on external access for parents and guardians.
     Get-CsExternalAccessPolicy
     ```
 
-4. For each policy other than the ‘Global’ policy, check which users have the policy assigned.
+4. For each policy other than the 'Global' policy, check which users have the policy assigned.
 
    > [!NOTE]
-   > Any users who do not have a specific policy assigned will fall back to the ‘Global’ policy. Any new users who are added to the tenant will have the ‘Global’ policy assigned.
+   > Any users who do not have a specific policy assigned will fall back to the 'Global' policy. Any new users who are added to the tenant will have the 'Global' policy assigned.
 
     ```powershell
     Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq "<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
@@ -107,10 +152,10 @@ Since all user-level external access policies have `EnableTeamsConsumerAccess` s
 
 - Create a new external access policy: [New-CsExternalAccessPolicy](/powershell/module/skype/new-csexternalaccesspolicy)
 
-- Customize an existing external access policy (including the ‘Global’ policy): [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy)
+- Customize an existing external access policy (including the 'Global' policy): [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy)
 
 > [!NOTE]
-> The following subscription default policies cannot be modified: ‘FederationAndPICDefault’, ‘FederationOnly’, ‘NoFederationAndPIC’. The ‘FederationAndPICDefault’ policy used to be assigned to all users by default, however new users are now assigned the ‘Global’ policy by default. If you need to change the policy settings for users who have these subscription default policies assigned, assign different policies with the correct settings to these users.​
+> The following subscription default policies cannot be modified: 'FederationAndPICDefault', 'FederationOnly', 'NoFederationAndPIC'. The 'FederationAndPICDefault' policy used to be assigned to all users by default, however new users are now assigned the 'Global' policy by default. If you need to change the policy settings for users who have these subscription default policies assigned, assign different policies with the correct settings to these users.
 
 - Assign an external access policy to a single user: [Grant-CsExternalAccessPolicy](/powershell/module/skype/grant-csexternalaccesspolicy)
 

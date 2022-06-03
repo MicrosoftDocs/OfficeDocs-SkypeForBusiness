@@ -1,5 +1,5 @@
 ---
-title: Connect Microsoft Teams Essentials (AAD Identity) to an existing email system with calendar 
+title: Connect Microsoft Teams Essentials (AAD Identity) to an existing email system with calendar
 author: adjoseph
 ms.author: adjoseph
 ms.reviewer: jimmyw
@@ -14,9 +14,9 @@ description: Learn how to connect Microsoft Teams Essentials (AAD Identity) to a
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-ms.collection: 
+ms.collection:
   - M365-collaboration
-appliesto: 
+appliesto:
   - Microsoft Teams
 ---
 
@@ -54,19 +54,19 @@ To deploy Microsoft Teams Rooms in a hybrid environment with Exchange on premise
 
 ## Connect Teams Essentials to third-party email systems with calendar
 
-If you don’t plan to switch your organization's mailbox to Microsoft 365, you can connect Teams Essentials to an existing third-party email and calendar system. This connection allows you to receive Teams notifications in your existing email system while viewing existing meeting invites and calendar events in Microsoft Teams.
+If you don't plan to switch your organization's mailbox to Microsoft 365, you can connect Teams Essentials to an existing third-party email and calendar system. This connection allows you to receive Teams notifications in your existing email system while viewing existing meeting invites and calendar events in Microsoft Teams.
 
 ### Connect Teams Essentials to third-party email using vanity domain (Google Workspace example)
 
 The following section shows you how to connect Microsoft Teams to an existing email system with calendar, like Google Workspace. You will accomplish this connection by leaving the current email system intact, forwarding all email to Exchange Online, filtering everything except emails of the calendaring type. In doing so, calendaring emails automatically appear in the Teams calendar accepted as tentative and non-calendaring type emails are deleted.
 
-All email generated in Microsoft 365 is forwarded to Google Workspace so that users get Teams reminders and notifications. User identities, like the user’s primary email, can be duplicated. Single sign-on is also possible, but not required. Users should be able to join Teams meetings from either the third-party calendar or Teams calendar. Another Teams features will work as expected.
+All email generated in Microsoft 365 is forwarded to Google Workspace so that users get Teams reminders and notifications. User identities, like the user's primary email, can be duplicated. Single sign-on is also possible, but not required. Users should be able to join Teams meetings from either the third-party calendar or Teams calendar. Another Teams features will work as expected.
 
 :::image type="content" source="media/essentials-googleworkspace.png" alt-text="Image depicting a diagram of the mail flow between EXO and Gmail":::
 
-These examples rely on the [Connect-ExchangeOnline](/powershell/module/exchange/connect-exchangeonline?view=exchange-ps&preserve-view=true) PowerShell commandlet that is part of the [Exchange Online PowerShell V2 module](/powershell/exchange/exchange-online-powershell-v2&preserve-view=true). If you get an error when running Connect-ExchangeOnline, ensure that you’ve followed the recommended instructions for installing the module using [Install the EXO V2 module](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps&preserve-view=true). When Connect-ExchangeOnline prompts for credentials, be sure to use a tenant administrator account.
+These examples rely on the [Connect-ExchangeOnline](/powershell/module/exchange/connect-exchangeonline) PowerShell commandlet that is part of the [Exchange Online PowerShell V2 module](/powershell/exchange/exchange-online-powershell-v2?preserve-view=true&view=exchange-ps). If you get an error when running Connect-ExchangeOnline, ensure that you've followed the recommended instructions for installing the module using [Install the EXO V2 module](/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-EXO-v2-module). When Connect-ExchangeOnline prompts for credentials, be sure to use a tenant administrator account.
 
-**Step One: Set up a new Microsoft 365 tenant domain**
+#### Step One: Set up a new Microsoft 365 tenant domain
 
 1. Go to the admin center at <https://admin.microsoft.com>.
 
@@ -97,7 +97,7 @@ These examples rely on the [Connect-ExchangeOnline](/powershell/module/exchange/
 
     For more guidance on adding a domain to Microsoft 365, follow the steps described in [Add a domain to Microsoft 365](https://support.office.com/article/add-a-domain-to-office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611?ui=en-US&rs=en-US&ad=US).
 
-**Step Two: Add users and assign Teams Essentials licenses**
+#### Step Two: Add users and assign Teams Essentials licenses
 
 1. Go to the admin center at <https://admin.microsoft.com> to add an individual user
 
@@ -116,21 +116,21 @@ These examples rely on the [Connect-ExchangeOnline](/powershell/module/exchange/
 
 To add multiple users at the same time, follow the recommend steps at [Add users and assign licenses - Microsoft 365 admin | Microsoft Docs](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true)
 
-**Step Three: Configure Google Workspace**
+#### Step Three: Configure Google Workspace
 
 ***Configure email dual delivery to Microsoft 365 and strip attachments:***
 
-1. Follow Google’s steps for setting up dual delivery: <https://support.google.com/a/answer/9228551?hl=en>
+1. Follow Google's steps for setting up dual delivery: <https://support.google.com/a/answer/9228551?hl=en>
 
 2. Add route for Office 365
 
     - Go the Google Admin console at <https://admin.google.com>)
     - Go to Apps > Google Workspace > Gmail > Hosts.
     - Enter a route name. (For example, Microsoft 365)
-    - Choose ‘Single host’ and enter the MX record specified for domain in Microsoft 365 (For example:  ContosoLandscaping2-m365master-com.mail.protection.outlook.com)
+    - Choose ‘Single host' and enter the MX record specified for domain in Microsoft 365 (For example:  ContosoLandscaping2-m365master-com.mail.protection.outlook.com)
 
     **Smart host method to resolve ATTR35 response code when mail is sent to Exchange on premises/Exchange Online :**
-    - Choose ‘Single host’ and enter the MX record for the initial domain of the tenant as the smart host. The initial domain is in the format GUID.onmicrosoft.com. A GUID is a unique value that's provided to every organization as part of their enrollment in the service. A GUID is a 128-bit integer (16 bytes) that can be used across all computers and networks wherever a unique identifier is required.
+    - Choose ‘Single host' and enter the MX record for the initial domain of the tenant as the smart host. The initial domain is in the format GUID.onmicrosoft.com. A GUID is a unique value that's provided to every organization as part of their enrollment in the service. A GUID is a 128-bit integer (16 bytes) that can be used across all computers and networks wherever a unique identifier is required.
     - You can use command line: nslookup -type MX  GUID.onmicrosoft.com to resolve the MX record (For example:  contosolandscaping2.mail.protection.outlook.com)
     - Choose **Port:25**
     - Proceed with recommended options
@@ -220,7 +220,7 @@ xi. Under **Add setting**, choose **Advanced content match**
 
 16. Select **Save**
 
-**Step Four: Configure Microsoft 365 settings for the integration**
+#### Step Four: Configure Microsoft 365 settings for the integration
 
 *Configure connector to route mail from Microsoft 365 to Gmail:*
 
@@ -230,11 +230,11 @@ xi. Under **Add setting**, choose **Advanced content match**
 
 3. Under **Admin centers**, select **Exchange** to open the Exchange admin center in a new tab
 
-4. In the **Exchange admin center**’s left-hand navigation menu, select **Mail flow** > **Connectors**, open the overflow menu (…) and select Add a connector
+4. In the **Exchange admin center**'s left-hand navigation menu, select **Mail flow** > **Connectors**, open the overflow menu (...) and select Add a connector
 
 5. Under **Connection from** in the new connector window, select **Office 365**
 
-6. Under **Connection to** select your organization’s email server then select **Next**
+6. Under **Connection to** select your organization's email server then select **Next**
 
 7. Enter a **Name** for the new connector (Ex: To Gmail) and continue **Next**
 
@@ -252,7 +252,7 @@ xi. Under **Add setting**, choose **Advanced content match**
 
 14. When you see the Connector created notification, press **Done**
 
-*Forward mail from Microsoft 365 mailboxes to Gmail*
+*Forward mail from Microsoft 365 mailboxes to Gmail:*
 
 1. Use the **Microsoft 365 Admin Center** to update each mailbox or you can use a **PowerShell** script, such as the following:
 
@@ -261,29 +261,29 @@ xi. Under **Add setting**, choose **Advanced content match**
     Connect-ExchangeOnline
     $Mailboxes = Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"}
     Foreach ($mbx in $mailboxes) {
-    
+
     Set-Mailbox $mbx.Identity -DeliverToMailboxAndForward $true -ForwardingSMTPAddress $($mbx.Alias,$forwardingDomain -join "@")
-    } 
+    }
     ```
 
     **Troubleshooting Connect-ExchangeOnline:**
 
-    Are you experiencing an error when running Connect-ExchangeOnline? This could be the result of your organization's automatic email forwarding rule. By default, automatic forwarding is disabled. In order to connect Teams Essentials to Google Workspace, the rule must be enabled.  
+    Are you experiencing an error when running Connect-ExchangeOnline? This could be the result of your organization's automatic email forwarding rule. By default, automatic forwarding is disabled. In order to connect Teams Essentials to Google Workspace, the rule must be enabled.
 
     Enter the following script:
 
    ```powershell
-    Set-ExecutionPolicy Unrestricted 
+    Set-ExecutionPolicy Unrestricted
      ```
 
     Afterwards, run the following commands:
 
     ```powershell
-    Enable-OrganizationCustomization 
+    Enable-OrganizationCustomization
     Get-HostOutboundSpamFilterPolicy | set-HostedOutboundSpamFilterPolicy -AutoForwardingMode On
     ```
 
-*Configure Exchange Online direct to calendar transport rule*
+*Configure Exchange Online direct to calendar transport rule:*
 
 1. Configuring this setting will automatically accept calendar invites so that they show up in Teams calendar without requiring users to interact with the invite in Outlook Web App.
 
@@ -293,10 +293,10 @@ xi. Under **Add setting**, choose **Advanced content match**
     Connect-ExchangeOnline
     New-TransportRule -Name "Direct to Calendar" -MessageTypeMatches Calendaring -SetHeaderName "X-MS-Exchange-Organization-CalendarBooking-Response" -SetHeaderValue Tentative
     New-TransportRule -Name "Direct to Calendar triage action" -MessageTypeMatches Calendaring -SetHeaderName "X-MS-Exchange-Organization-CalendarBooking-TriageAction" -SetHeaderValue MoveToDeletedItems
-    
+
     ```
 
-*Disable Outlook on the web for mailboxes*
+*Disable Outlook on the web for mailboxes:*
 
 1. Follow the instructions at [Enable or disable Outlook on the web for a mailbox in Exchange Online](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app) to disable Outlook on the web for mailboxes.
 
@@ -310,7 +310,7 @@ xi. Under **Add setting**, choose **Advanced content match**
     }
     ```
 
-**Step Five: Configure Exchange Online domain for internal relay**
+#### Step Five: Configure Exchange Online domain for internal relay
 
 This step ensures that email is sent to third-party system for final resolution.
 
@@ -330,35 +330,34 @@ This step ensures that email is sent to third-party system for final resolution.
 
     :::image type="content" source="media/essentials-internalrelay2.png" alt-text="Image showing the act of saving internal relay setting.":::
 
-**Step Six: Create a rule to delete all inbound mail to Exchange Online except for Calendaring**
+#### Step Six: Create a rule to delete all inbound mail to Exchange Online except for Calendaring
 
 1. You can configure this rule in the **Exchange Admin Center** or **PowerShell**. You may use the following **PowerShell** example to create the rule:
 
     ```powershell
     Connect-ExchangeOnline
-    New-TransportRule -Name "Delete all except Calendaring" -ExceptIfMessageTypeMatches Calendaring -FromScope NotInOrganization -DeleteMessage:$true 
-    
+    New-TransportRule -Name "Delete all except Calendaring" -ExceptIfMessageTypeMatches Calendaring -FromScope NotInOrganization -DeleteMessage:$true
     ```
 
 ### Connect Teams Essentials to third-party email not using vanity domain (Gmail example)
 
-You can schedule and join a Teams meeting directly from Google Workspace by connecting a consumer Gmail account to Teams Essentials with primary reliance on the [Teams G Suite Add On](https://support.microsoft.com/en-us/office/install-the-teams-meeting-add-on-for-google-workspace-bba2dfbe-0b2b-4ee7-be10-261ad80ddb60). This gives you the opportunity to schedule video and audio conferencing with screen sharing, meeting chat, digital whiteboards, and more.
+You can schedule and join a Teams meeting directly from Google Workspace by connecting a consumer Gmail account to Teams Essentials with primary reliance on the [Teams G Suite Add On](https://support.microsoft.com/office/install-the-teams-meeting-add-on-for-google-workspace-bba2dfbe-0b2b-4ee7-be10-261ad80ddb60). This gives you the opportunity to schedule video and audio conferencing with screen sharing, meeting chat, digital whiteboards, and more.
 
-You will configure Gmail to pull email from Exchange Online to ensure mail generated in Microsoft 365 and Teams arrive successfully in Gmail. Security defaults may need to be disabled to accomplish this connection, which makes using a strong unique password essential. A custom domain isn't required for this scenario, but it can be configured in Microsoft 365 for use in Gmail if you’d like to use one.
+You will configure Gmail to pull email from Exchange Online to ensure mail generated in Microsoft 365 and Teams arrive successfully in Gmail. Security defaults may need to be disabled to accomplish this connection, which makes using a strong unique password essential. A custom domain isn't required for this scenario, but it can be configured in Microsoft 365 for use in Gmail if you'd like to use one.
 
 :::image type="content" source="media/essentials-gmail.png" alt-text="Image depiciting the mail flow between Teams Essentials and Gmail":::
 
-**Ensure that you have a Gmail account set up.**
+#### 1. Ensure that you have a Gmail account set up
 
 If you already have an existing account, you can proceed to the next step. If not, visit [Create new Google account](https://accounts.google.com/SignUp?hl=en) to set up a new Gmail account.
 
-**2. Set up your Microsoft 365 tenant**
+#### 2. Set up your Microsoft 365 tenant
 
-*Configure Teams AAD users*
+*Configure Teams AAD users:*
 
 1. Follow the guidance at[Add users and assign licenses](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true) to add multiple users
 
-*Configure identity protection*
+*Configure identity protection:*
 
 1. Disable Security defaults if active.
 
@@ -366,7 +365,7 @@ If you already have an existing account, you can proceed to the next step. If no
 
 3. If using conditional access, be sure to make exception for POP access to mailbox
 
-*Add domain to Microsoft 365 Admin Center (optional)*
+*Add domain to Microsoft 365 Admin Center (optional):*
 
 1. Under navigation, select Settings > Domain, then select Add domain
 
@@ -384,7 +383,7 @@ If you already have an existing account, you can proceed to the next step. If no
 
 8. Verify DKIM is enabled by logging out and signing back into the Admin center
 
-**3. Configure Gmail**
+#### 3. Configure Gmail
 
 1. Configure Gmail to pull Exchange Online mail into its system
 

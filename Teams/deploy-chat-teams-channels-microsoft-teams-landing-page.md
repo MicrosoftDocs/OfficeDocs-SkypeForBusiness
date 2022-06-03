@@ -75,7 +75,7 @@ In addition to administrator roles, Teams lets you assign owner and member user 
 
 ### Messaging policies
 
-Messaging policies control which chat and channel messaging features are available to users in Teams. For example, who can edit and delete sent messages, who can use chat, who can use memes in conversations, and more. By default, users are assigned the global messaging policy and all features are **On**. You can use the default global policy or create one or more custom messaging policies for people in your organization. 
+Messaging policies control which chat and channel messaging features are available to users in Teams. For example, who can edit and delete sent messages, who can use chat, who can use memes in conversations, and more. By default, users are assigned the global messaging policy and all features are **On**. You can use the default global policy or create one or more custom messaging policies for people in your organization. 
 
 |Ask yourself|Action |
 |------------|-------|
@@ -89,7 +89,7 @@ External access (federation) lets your users communicate with people outside of 
 
 |Ask yourself|Action |
 |------------|-------|
-|<ul><li>Will I turn off external access for my organization?</li><li>If enabled, will I limit which domains my organization can communicate with?</li></ul> |<br>To turn external access on or off, see [Plan for external access](manage-external-access.md#plan-for-external-access).|
+|<ul><li>Will I turn off external meetings and chat for my organization?</li><li>If enabled, will I limit which domains my organization can communicate with?</li></ul> |<br>To turn external meeting and chat on or off, see [Manage external meetings and chat](manage-external-access.md).|
 
 ### Guest access
 
@@ -123,7 +123,7 @@ Shared channels allow you to add people who are not members of a team to a chann
 
 ### Teams settings
 
-Teams settings let you set up your teams for features such as email integration, cloud storage options, organization tab, meeting room device setup, and search scope. When you make changes to these settings, they apply to all the teams in your organization. To learn more, see [Teams settings](enable-features-office-365.md#teams-settings).
+Teams settings let you set up your teams for features such as email integration, cloud storage options, organization tab, meeting room device setup, and search scope. When you make changes to these settings, they apply to all the teams in your organization. To learn more, see [Teams settings](enable-features-office-365.md#teams-settings).
 
 |Ask yourself|Action |
 |------------|-------|
@@ -131,7 +131,7 @@ Teams settings let you set up your teams for features such as email integration,
 
 ### Teams clients
 
-Teams supports a number of clients from web to desktop to mobile, and the default configuration lets users choose whichever clients they want. To learn more, see [Get clients for Teams](get-clients.md).
+Teams supports a number of clients from web to desktop to mobile, and the default configuration lets users choose whichever clients they want. To learn more, see [Get clients for Teams](get-clients.md).
 
 |Ask yourself|Action |
 |------------|-------|

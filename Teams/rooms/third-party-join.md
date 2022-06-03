@@ -1,7 +1,7 @@
 ---
 title: "Enable Teams Rooms devices to join third-party meetings"
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: sohailta
 audience: ITPro
@@ -15,7 +15,10 @@ ms.localizationpriority: medium
 description: "This article discusses how to configure your organization and Teams Rooms devices to support third-party meeting joining to Cisco WebEx and Zoom."
 ---
 
-# Enable Teams Room devices to join third-party meetings
+# Enable Teams Rooms devices to join third-party meetings
+
+> [!NOTE]
+> This feature is currently only available on Teams Rooms on Windows.
 
 Microsoft Teams Rooms devices support a one-touch experience for joining third-party online meetings, also referred to as Direct Guest Join. When enabled, you can use Teams Rooms to join meetings hosted on Cisco WebEx and Zoom just as easily as you can join meetings hosted in Microsoft Teams.
 
@@ -51,19 +54,19 @@ Learn more about [Exchange Online PowerShell](/powershell/exchange/exchange-onli
 
 ## Step 2: Configure Office 365 Threat Protection and link rewrite
 
-To enable the one-touch join experience, meeting join link information from the third-party meeting needs to be present and readable in the meeting invite. If your organization uses the [Office 365 Advanced Threat Protection Safe Links](/microsoft-365/security/office-365-security/atp-safe-links) feature, or if you use a third-party solution that scans all incoming and outgoing URLs for threats, it may change the meeting join URLs and make the meeting unrecognizable by the Teams Rooms device. To make sure this doesn't happen, you need to add the third-party meeting service's URLs to the ATP Safe Links "do not rewrite" list or the third-party URL rewrite exception list.
+To enable the one-touch join experience, meeting join link information from the third-party meeting needs to be present and readable in the meeting invite. If your organization uses the [Microsoft Defender for Office 365](/microsoft-365/security/office-365-security/safe-links?view=o365-worldwide) safe links feature, or if you use a third-party solution that scans all incoming and outgoing URLs for threats, it may change the meeting join URLs and make the meeting unrecognizable by the Teams Rooms device. To make sure this doesn't happen, you need to add the third-party meeting service's URLs to the Defender for [Office 365 Safe Links **Do not rewrite** list](/microsoft-365/security/office-365-security/safe-links?view=o365-worldwide) or the third-party URL rewrite exception list.
 
-To add third-party meeting service URLs to the ATP Safe Links "do not rewrite" list, follow the steps in [Set up a custom do-not-rewrite URLs list using ATP Safe Links](/microsoft-365/security/office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp?view=o365-worldwide). If you use a third-party solution, refer to the instructions for that solution to add URLs to its URL rewrite exception list.
+ If you use a third-party solution, refer to the instructions for that solution to add URLs to its URL rewrite exception list.
 
-Here are some example entries that you may need to add to your ATP Safe Links "do not rewrite" list or third-party URL rewrite exception list:
+Here are some example entries that you may need to add to your Defender for Office 365 Safe Links *Do not rewrite* list or third-party URL rewrite exception list:
 
-- **Cisco WebEx** `*.webex.com*`
-- **Zoom** `*.zoom.us*`, `*.zoom.com*`, `*.zoomgov.com*`
+- **Cisco WebEx** `*.webex.com/*`
+- **Zoom** `*.zoom.us/*`, `*.zoom.com/*`, `*.zoomgov.com/*`
 
-For a complete list of URLs to add to your ATP Safe Links "do not rewrite" list or third-party URL rewrite exception list, contact the third-party meeting service provider you want to accept meeting invites from. 
+For a complete list of URLs to add to your Defender for Office 365 Safe Links *Do not rewrite* list or third-party URL rewrite exception list, contact the third-party meeting service provider you want to accept meeting invites from.
 
 > [!CAUTION]
-> Only add URLs that you trust to your ATP Safe Links "do not rewrite" list or third-party URL rewrite exception list.
+> Only add URLs that you trust to your Microsoft Defender for Office 365 Safe Links *Do not rewrite* list or third-party URL rewrite exception list.
 
 ## Step 3: Enable third-party meetings on Teams Rooms
 

@@ -1,7 +1,7 @@
 ---
 title: Tenant Administration control for voice recognition (voice profile) in Teams Rooms 
-author: serdars
-ms.author: serdars
+author: dstrome
+ms.author: dstrome
 ms.reviewer: parisataheri
 manager: serdars
 ms.topic: article
@@ -33,15 +33,17 @@ An Intelligent Speaker includes a special seven-microphone array. The system use
 
 The following items are Intelligent Speaker requirements:
 
-- The customer tenant must be located in the U.S. (North America).<sup>1</sup>
 - The meeting room should have a maximum of 10 people present in person.
 - The meeting room has an upload link of minimum 7 Mbps.
 
- <sup>1</sup> An Intelligent Speaker and associated voice profile and usage will only be available in EN-US language and for US (NA-US region) tenants. Both conditions must be true for a tenant user to enroll and use an Intelligent Speaker for attributed transcription.
+Epos, Sennheiser, and Yealink intelligent speakers are supported.
+
+> [!NOTE]
+> Intelligent Speaker is available in all countries and regions. See [Supported locales](#supported-locales) for a list of the locales currently supported for biometric enrollment and in-meeting transcription.
 
 ## Set up an Intelligent Speaker
 
-An Intelligent Speaker connects directly using USB to the Teams Rooms console. For best results, a Yealink brand Intelligent Speaker should be used with a Yealink brand console.
+An Intelligent Speaker connects directly using USB to the Teams Rooms console.
 
 > [!NOTE]
 > A Yealink Intelligent Speaker **must** be used with a Yealink console.
@@ -111,6 +113,47 @@ No only in meetings organized by a user in your organization.
 **How can I export my voice profile?**
 
 Your IT admin can export your audio data at any time.
+
+## Supported locales
+
+The following enrollment and in-meeting transcription locales are supported in all countries and regions.
+
+### Enrollment locales
+
+End-users can enroll their voices for recognition in the following locales:
+
+|**Language**|**Country/Region**|**Culture ID**|
+|:-----|:-----|:-----|
+|English  <br/> |Australia <br/> |en-AU  <br/> |
+|English  <br/> |Canada  <br/> |en-CA <br/> |
+|English  <br/> |India  <br/> |en-IN  <br/> |
+|English  <br/> |New Zealand  <br/> |en-NZ  <br/> |
+|English  <br/> |United Kingdom  <br/> |en-GB  <br/> |
+|English  <br/> |United States  <br/> |en-US  <br/> |
+
+
+### In-meeting transcription locales
+
+Once an end-user enrolls, their voice can be recognized during meetings and identified in the transcription when the meeting is set to one of the following locales:
+
+|**Language**|**Country/Region**|**Culture ID**|
+|:-----|:-----|:-----|
+|Chinese (Simplified)  <br/> |China  <br/> |zh-CN  <br/> |
+|English  <br/> |Australia <br/> |en-AU  <br/> |
+|English  <br/> |Canada  <br/> |en-CA <br/> |
+|English  <br/> |India  <br/> |en-IN  <br/> |
+|English  <br/> |New Zealand  <br/> |en-NZ  <br/> |
+|English  <br/> |United Kingdom  <br/> |en-GB  <br/> |
+|English  <br/> |United States  <br/> |en-US  <br/> |
+|French  <br/> |Canada  <br/> |fr-CA  <br/> |
+|French  <br/> |France  <br/> |fr-FR  <br/> |
+|German  <br/> |Germany  <br/> |de-DE  <br/> |
+|Italian  <br/> |Italy  <br/> | it-IT <br/> |
+|Japanese  <br/> |Japan  <br/> |ja-JP  <br/> |
+|Korean  <br/> |Korea  <br/> |ko-KR  <br/> |
+|Portuguese  <br/> |Brazil  <br/> |pt-BR  <br/> |
+|Spanish  <br/> |Mexico  <br/> |es-MX  <br/> |
+|Spanish  <br/> |Spain  <br/> |es-ES  <br/> |
 
 ## Related topics
 

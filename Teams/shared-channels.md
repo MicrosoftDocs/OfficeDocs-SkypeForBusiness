@@ -1,5 +1,5 @@
 ---
-title: Shared channels in Microsoft Teams (Preview)
+title: Shared channels in Microsoft Teams
 author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
@@ -17,10 +17,10 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
-description: Learn how to use and manage shared channels in Microsoft Teams (Preview). 
+description: Learn how to use and manage shared channels in Microsoft Teams. 
 ---
 
-# Shared channels in Microsoft Teams (Preview)
+# Shared channels in Microsoft Teams
 
 Shared channels in Microsoft Teams create collaboration spaces where you can invite people who are not in the team. Only the users who are owners or members of the shared channel can access the channel. While guests (people with Azure Active Directory guest accounts in your organization.) can't be added to a shared channel, you can invite people outside your organization to participate in a shared channel by using Azure AD B2B direct connect.
 
@@ -30,11 +30,7 @@ Only members of shared channels can see and participate in shared channels that 
 
 When a shared channel is created, it's linked to the parent team and can't be moved to a different team. Additionally, shared channels can't be converted to standard channels and vice versa.
 
-## Best practices for the shared channels preview
-
-Shared channels is in preview and requires that you have configured [Microsoft Teams Public Preview](/MicrosoftTeams/public-preview-doc-updates). If you plan to share channels with other organizations, they must also have configured Teams public preview.
-
-We recommend that you enable the preview for all of your users. Users for whom the preview is not enabled cannot create shared channels, but can still be added to shared channels. Enabling the preview for all users can help ensure a consistent experience.
+[Compare shared channels with other types of channels](/microsoftteams/teams-channels-overview#channel-feature-comparison).
 
 ## Getting started with shared channels
 
@@ -118,26 +114,109 @@ If a user is granted access to a file, folder, or notebook in a shared channel t
 
 If an existing notebook is added as a tab to a shared channel, access to the shared channel isn't changed and the notebook retains its existing permissions.
 
-## Limits for shared channels (preview)
+## Resources for your users
+
+The following articles may be helpful for the users in your organization when they use shared channels.
+
+[Create a shared channel in Teams](https://support.microsoft.com/office/80712457-579e-42b2-b54f-112329578aaa)
+
+[Share a channel with people in Teams](https://support.microsoft.com/office/5f60de2d-0080-4e55-b26f-33a9dafa120e)
+
+[Share a channel with a team](https://support.microsoft.com/office/b2e89992-2708-4583-b11e-bbb6edb4f1c3)
+
+[Why use a shared channel versus other channel types in Teams?](https://support.microsoft.com/office/e6ad61d0-6b3f-4e1b-baac-63e2978bd92e)
+
+[Guests and shared channels in Teams](https://support.microsoft.com/office/612de4ce-e7a3-4579-b086-bb8ff9f2d11e)
+
+[Shared channel owner and member roles in Teams](https://support.microsoft.com/office/75b379f4-8e9c-4202-acf1-6ffc3878a2d7)
+
+## Limits for shared channels
 
 The following table describes the maximum number of channels and members.
 
 |Maximum...|Value|Notes|
 |:---------|:----|:----|
 |Members in a team|25,000|Includes all users in the team and direct members in shared channels.|
-|Shared channels per team|50|Hosted and shared with the team. (Includes deleted channels during their 30-day recovery window.)|
+|Shared channels per team|200|Hosted and shared with the team. (Includes deleted channels during their 30-day recovery window.)|
 |Teams a channel can be shared with|50|Excluding parent team|
-|Members in a shared channel|1,000 direct members, including up to 50 teams. (Each team the channel is shared with counts as one member for purposes of this limit.)|Real time updates are only available to 25,000 users at a time and only 25,000 users will appear in the channel list.|
+|Members in a shared channel|5,000 direct members, including up to 50 teams. (Each team the channel is shared with counts as one member for purposes of this limit.)|Real time updates are only available to 25,000 users at a time and only 25,000 users will appear in the channel list.|
 
 The following limitations also apply:
 
 - Shared channels support tabs except for Stream, Planner, and Forms.
 
-- LOB apps, bots, connectors, and message extensions are not supported for public preview.
+- LOB apps, bots, connectors, and message extensions are not supported.
 
 - When you create a team from an existing team, any shared channels in the existing team won't be copied over.
 
 - Notifications from shared channels are not included in missed activity emails.
+
+## Supported apps in shared channels
+
+For information about how to prepare your app for shared channels, see [How to open your app to cross-organizational collaboration with Microsoft Teams Connect](https://mybuild.microsoft.com/sessions/4d84d73c-08de-4f56-990b-2a73b2037df1).
+
+The following apps are supported for use in shared channels. 
+
+- Activity
+- Adobe Acrobat Sign
+- Asana
+- Calendar
+- Calendar Pro
+- Calling
+- Chat
+- Code by Vivani
+- Conceptboard
+- Excel
+- FileBrowser
+- Files
+- Flipgrid
+- Freehand by InVision
+- HeyTaco
+- Jira Cloud
+- Kahoot!
+- Lists
+- Lucidchart
+- Lumio
+- MeisterTask
+- MindMeister
+- Mindomo
+- Miro
+- Monday.com
+- MURAL
+- Nearpod
+- OneNote
+- PDF
+- Pear Deck
+- PowerPoint
+- Priority Matrix
+- Quicklinks
+- Quizlet
+- Saved
+- Scrum-Poker
+- Search
+- SharePoint
+- SharePoint Pages
+- Slido
+- Smartsheet
+- SurveyMonkey
+- Tasks in a Box
+- Teams
+- Teams Manager
+- TeamViewer
+- Teamwork
+- Testportal
+- TrackingTime
+- Trello
+- Vevox
+- Visio
+- VSTS
+- Wakelet
+- Web
+- Wooclap
+- Word
+- YouTube
+- Zendesk
+- Zoho Projects
 
 ## Related topics
 

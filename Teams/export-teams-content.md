@@ -11,19 +11,19 @@ description: In this article, you will learn about how to export Teams content u
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
-ms.custom: 
+ms.custom:
   - NewAdminCenter_Update
   - seo-marvel-apr2020
-ms.collection: 
+ms.collection:
   - M365-collaboration
-appliesto: 
+appliesto:
   - Microsoft Teams
 ---
 
 
 # Export content with the Microsoft Teams Export APIs
 
-Teams Export APIs allow you to export 1:1, group chat, meeting chats, and channel messages from Microsoft Teams. If your organization needs to export Microsoft Teams messages, you are able to extract them using Teams Export APIs. *Chat Message* represents an individual chat message within a [channel](/graph/api/resources/channel?view=graph-rest-beta) or [chat](/graph/api/resources/chat?view=graph-rest-beta). The chat message can be a root chat message or part of a reply thread that is defined by the **replyToId** property in the chat message.
+Teams Export APIs allow you to export 1:1, group chat, meeting chats, and channel messages from Microsoft Teams. If your organization needs to export Microsoft Teams messages, you are able to extract them using Teams Export APIs. *Chat Message* represents an individual chat message within a [channel](/graph/api/resources/channel) or [chat](/graph/api/resources/chat). The chat message can be a root chat message or part of a reply thread that is defined by the **replyToId** property in the chat message.
 
 Here are some examples on how you can use these export APIs:
 
@@ -35,45 +35,47 @@ Here are some examples on how you can use these export APIs:
 - **Bulk Export of Teams Message:** Teams Export APIs support up to 200 RPS Per App Per tenant and 600 RPS for an Application, with these limits you should be able to bulk export of Teams messages.
 - **Application Context**: To call Microsoft Graph, your app must acquire an access token from the Microsoft identity platform. The access token contains information about your app and the permissions it has for the resources and APIs available through Microsoft Graph. To get an access token, your app must be registered with the Microsoft identity platform and be authorized by either a user or an administrator for access to the Microsoft Graph resources it needs.
 
-    If you are already familiar with integrating an app with the Microsoft identity platform to get tokens, see the [Next Steps](/graph/auth/auth-concepts?view=graph-rest-1.0#next-steps) section for information and samples specific to Microsoft Graph.
+    If you are already familiar with integrating an app with the Microsoft identity platform to get tokens, see the [Next Steps](/graph/auth/auth-concepts#next-steps) section for information and samples specific to Microsoft Graph.
 - **Hybrid Environment:** Export APIs support messages sent by users who are provisioned on Hybrid Environment (on-premises Exchange and Teams). Any messages that are sent by users who are configured for hybrid environment will be accessible using Export APIs.
 - **User Deleted Messages:** Messages that are deleted by users from the Teams client can be accessed using export APIs up to 21 days from the time of deletion.
 - **Message Attachments:** Export APIs include the links to the attachments that are sent as part of messages. Using Export APIs you can retrieve the files attached in the messages.
-- **Chat Message Properties:** Refer to the complete list of properties that Teams Export APIs support [here](/graph/api/resources/chatmessage?view=graph-rest-beta#properties).
+- **Chat Message Properties:** Refer to the complete list of properties that Teams Export APIs support [here](/graph/api/resources/chatmessage#properties).
 
->[!NOTE]
->Export APIs do not support *reactions*.
+> [!NOTE]
+> Export APIs do not support *reactions*.
 
 ## How to access Teams Export APIs
 
 - **Example 1** is a simple query to retrieve all the messages of a user or team without any filters:
 
-    ```HTTP
-    GET https://graph.microsoft.com/v1.0/users/{id}/chats/getAllMessages
-    ```
-     ```HTTP
-    GET https://graph.microsoft.com/v1.0/teams/{id}/channels/getAllMessages
-    ```
+  ```HTTP
+  GET https://graph.microsoft.com/v1.0/users/{id}/chats/getAllMessages
+  ```
+
+  ```HTTP
+  GET https://graph.microsoft.com/v1.0/teams/{id}/channels/getAllMessages
+  ```
 
 - **Example 2** is a sample query to retrieve all the messages of a user or team by specifying date time filters and top 50 messages:
 
-    ```HTTP
-    GET https://graph.microsoft.com/v1.0/users/{id}/chats/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
-    ```
-    ```HTTP
-    GET https://graph.microsoft.com/v1.0/teams/{id}/channels/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
-    ```
->[!NOTE]
->The API returns response with next page link in case of multiple results. For getting next set of results, simply call GET on the url from @odata.nextlink. If @odata.nextlink is not present or null then all messages are retrieved.
+  ```HTTP
+  GET https://graph.microsoft.com/v1.0/users/{id}/chats/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+  ```
 
-## Prerequisites to access Teams Export APIs 
+  ```HTTP
+  GET https://graph.microsoft.com/v1.0/teams/{id}/channels/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+  ```
+
+> [!NOTE]
+> The API returns response with next page link in case of multiple results. For getting next set of results, simply call GET on the url from @odata.nextlink. If @odata.nextlink is not present or null then all messages are retrieved.
+
+## Prerequisites to access Teams Export APIs
 
 - Microsoft Teams APIs in Microsoft Graph that access sensitive data are considered protected APIs. Export APIs require that you have additional validation, beyond permissions and consent, before you can use them. To request access to these protected APIs, complete the [request form](https://aka.ms/teamsgraph/requestaccess).
-- Application permissions are used by apps that run without a signed-in user present; application permissions can only be consented by an administrator. The following permissions are needed:
-
-    - *Chat.Read.All*: enables access to all 1:1, Group chat, and meeting chat messages 
-    - *ChannelMessage.Read.All*: enables access to all channel messages  
-    - *User.Read.All*: enables access to the list of users for a tenant
+- Application permissions are used by apps that run without a signed-in user present; application permissions can only be consented by an administrator. The following permissions are needed:
+  - *Chat.Read.All*: enables access to all 1:1, Group chat, and meeting chat messages
+  - *ChannelMessage.Read.All*: enables access to all channel messages
+  - *User.Read.All*: enables access to the list of users for a tenant
 
 ## License requirements for Teams Export APIs
 
@@ -85,11 +87,11 @@ Restricted to applications performing security and/or compliance functions, user
 
 ### General usage/Model B scenarios
 
-Available for all non-S+C related scenarios, there are no license requirements or seeded capacity. When consumption meters become available, app owners will be charged for all monthly API calls. 
+Available for all non-S+C related scenarios, there are no license requirements or seeded capacity. When consumption meters become available, app owners will be charged for all monthly API calls.
 
 ### Evaluation Mode (default)
 
-No model declaration enables access to APIs with limited usage per each requesting application for evaluation purposes. 
+No model declaration enables access to APIs with limited usage per each requesting application for evaluation purposes.
 
 ## JSON representation
 
@@ -131,5 +133,5 @@ Namespace: microsoft.graph
 }
 ```
 
->[!NOTE]
->For more details on chatMessage resource, see the [chatMessage resource type](/graph/api/resources/chatmessage) article.
+> [!NOTE]
+> For more details on chatMessage resource, see the [chatMessage resource type](/graph/api/resources/chatmessage) article.

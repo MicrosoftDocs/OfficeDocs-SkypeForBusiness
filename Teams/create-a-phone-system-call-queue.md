@@ -151,6 +151,8 @@ Agents' Teams accounts must be set to Teams-only mode. Agents who don't meet the
 
 > [!NOTE]
 > Conference mode is not supported if phone calls are routed to the queue from a Direct Routing gateway that is enabled for Location Based Routing.
+>
+> Conference mode is required if Teams users need to consult/transfer calls with call queues.
 
 > [!TIP]
 > Setting **Conference mode** to **On** is the recommended setting.
@@ -173,7 +175,7 @@ Agents' Teams accounts must be set to Teams-only mode. Agents who don't meet the
 > 
 > When using **Longest idle** and when there are less calls in queue than available agents, only the first two longest idle agents will be presented with calls from the queue.
 > 
-> When using **Longest idle** there may be times when an agent receives a call from the queue shortly after becoming unavailable or if there is a short delay in receiving a call from the queue after becoming available.
+> When using **Longest idle** there may be times when an agent receives a call from the queue shortly after becoming unavailable or a short delay in receiving a call from the queue after becoming available.
 > 
 > Call Queue call presentation to agents may conflict with Location Based Routing restrictions. In this case, the agent will receive a call toast but will not be able to answer the call. This condition will continue until another agent is available to answer the call, the caller hangs up or the call queue timeout condition occurs.  
 
@@ -190,6 +192,8 @@ If an agent opts out of getting calls, they won't be included in the call routin
 > When **Longest idle** is selected as the routing method, presence-based routing is required and automatically enabled even though the Presence-based routing toggle will be **Off** and grayed out.
 >
 > If presence-based routing is not enabled and there are multiple calls in the queue, the system will present these calls simultaneously to the agents regardless of their presence status. This will result in multiple call notifications to agents, particularly if some agents don’t answer the initial call presented to them.
+>
+> When using **Presence-based routing** there may be times when an agent receives a call from the queue shortly after becoming unavailable or a short delay in receiving a call from the queue after becoming available.
 > 
 > Agents who use the Skype for Business client aren't included in the call routing list when presence-based routing is enabled. If you have agents who use Skype for Business, don't enable presence-based call routing.
 
@@ -201,6 +205,9 @@ If an agent opts out of getting calls, they won't be included in the call routin
 > [!TIP]
 > Setting **Agent alert time** to **20 seconds** is the recommended setting.
 
+> [!NOTE]
+> The [Call timeout handling](#call-timeout-handling) setting has priority over the agent alert time. If the maximum queue time configured for call timeout handling has been reached the call will pulled back from the agent(s) even if the agent alert time limit has not been reached.
+
 ## Call overflow handling
 
 ![Screenshot of call overflow settings.](media/call-queue-overflow-handling.png)
@@ -211,6 +218,9 @@ You can choose to disconnect the call or redirect it to any of the call routing 
 
 > [!NOTE]
 > If the maximum number of calls is set to 0 then the greeting message will not play.
+>
+> When redirecting to shared voicemail, make sure **Let people outside this organization email this team** is enabled for the Team/Group in the Microsoft 365 Admin Center.
+
 
 ## Call timeout handling
 
@@ -219,6 +229,9 @@ You can choose to disconnect the call or redirect it to any of the call routing 
 **Call Timeout: maximum wait time** specifies the maximum time a call can be on hold in the queue before it is redirected or disconnected. You can specify a value from 0 seconds to 45 minutes.
 
 You can choose to disconnect the call or redirect it to one of the call routing destinations. For example, you might have the caller leave a voicemail for the agents in the queue. For external transfers, refer to [Prerequisites](plan-auto-attendant-call-queue.md#prerequisites) and the [external phone number transfers - technical details](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) for number formatting.
+
+> [!NOTE]
+> When redirecting to shared voicemail, make sure **Let people outside this organization email this team** is enabled for the Team/Group in the Microsoft 365 Admin Center.
 
 When you have selected your call timeout options, click **Save**.
 
@@ -241,20 +254,23 @@ The following settings are recommended:
 |`Longest Idle`<sup>3</sup>       |Y                         |Y                        |N    |Y         |Y                     |Y                         |*Recommended* |
 |`Round Robin`                    |Y                         |Y                        |Y    |Y         |Y                     |Y                         |*Recommended* |
 |`Serial`                         |Y                         |Y                        |Y    |Y         |Y<sup>4</sup>         |Y<sup>4</sup>             |              |
+|**Agent Routing Options**        |                          |                         |     |          |                      |                          |              |
+|`Presence Based Routing`<sup>3</sup>|Y                        |Y                        |N    |Y         |Y                     |Y                         |*Recommended* |
+|`Agents can Opt-out`               |Y                         |Y                        |Y<sup>7</sup>|Y<sup>7</sup>|Y          |Y                         |*Default*     |
 |**Transfer Modes**               |                          |                         |     |          |                      |                          |              |
 |`Conference Mode`<sup>5</sup>    |Y                         |Y                        |N    |Y<sup>6</sup>|Y                  |Y                         |*Recommended* |
-|`Transfer Mode`                  |Y                         |Y                        |Y    |Y         |Y                     |Y                         |              |
-|Presence Based Routing<sup>3</sup>|Y                        |Y                        |N    |Y         |Y                     |Y                         |*Recommended* |
-|Agents can Opt-out               |Y                         |Y                        |Y<sup>7</sup>|Y<sup>7</sup>|Y          |Y                         |*Default*     |
-|Channel Based Queues             |Y                         |N                        |N    |N         |n/a                   |Y<sup>8</sup>             |              |
-|Call toast shows Resource Account Name |Y<sup>9</sup>       |Y                        |Y    |          |Y                     |Y                         |              |
+|`Transfer Mode`                  |Y                         |Y                        |Y    |Y         |Y                     |Y                         |*Default*              |
+|**Collaborative Calling**        |                          |                         |     |          |                      |                          |              |
+|`Channel Based Queues`             |Y                         |N                        |N    |N         |n/a                   |Y<sup>8</sup>             |              |
 |**Dynamic caller ID**            |                          |                         |     |          |                      |                          |              |
-|`Standard call queue`            |N                         |N                        |N    |N         |Y                     |n/a                       |              |
+|`Standard call queue`            |N                         |Y                        |N    |N         |Y                     |n/a                       |              |
 |`Channel based call queue`       |Y                         |n/a                      |n/a  |n/a       |n/a                   |Y                         |              |
 |**PSTN Connectivity Methods**    |                          |                         |     |          |                      |                          |See Note 10   |
 |`Calling Plans`                  |Y                         |Y                        |Y    |Y         |Y                     |Y                         |              |
 |`Direct Routing`                 |Y                         |Y                        |N    |N         |Y                     |Y                         |              |
 |`Operator Connect`               |Y                         |Y                        |     |          |Y                     |Y                         |              |
+|**Miscellaneous**    |                          |                         |     |          |                      |                          |See Note 10   |
+|`Call toast shows Resource Account Name` |Y<sup>9</sup>       |Y                        |Y    |          |Y                     |Y                         |              |
 
 Notes:
 1. Microsoft Teams Windows client, Microsoft Teams Mac Client, Microsoft Teams on Virtualized Desktop Infrastructure, Microsoft Teams Web client.

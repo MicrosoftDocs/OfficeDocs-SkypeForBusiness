@@ -24,16 +24,18 @@ ms.custom: seo-marvel-apr2020
 
 # Microsoft Teams apps permissions and considerations
 
-Microsoft Teams apps are a way to aggregate one or more capabilities into an _app package_ that can be installed, upgraded, and uninstalled. The capabilities include:
+Microsoft Teams apps are a way to aggregate one or more capabilities into apps that can be installed, upgraded, and uninstalled. Capabilities of apps include:
 
 * Bots
 * Messaging extensions
 * Tabs
 * Connectors
 
-Apps are consented to by users and managed by IT from a policy perspective. However, an app's permissions and risk profile are defined by the permissions and risk profiles of the capabilities that the app contains. Therefore, this article focuses on permissions and considerations at the capability level.
+As an admin, you only manage apps. However, the article focuses on permissions and considerations at the capability level as capabilities in an app affect the required permissions and risk profiles of the app. For usage, apps are consented to by users and managed by IT professionals from a policy perspective.
 
-The permissions listed below in capital letters, for example RECEIVE_MESSAGE and REPLYTO_MESSAGE, don't appear anywhere in the [Microsoft Teams developer documentation](/microsoftteams/platform/overview) or the [permissions for Microsoft Graph](/graph/permissions-reference).
+The permissions listed below in capital letters, for example `RECEIVE_MESSAGE` and `REPLYTO_MESSAGE` are only for illustration and explanation purpose. These strings or permissions don't appear anywhere in the [Microsoft Teams developer documentation](/microsoftteams/platform/overview) or the [permissions for Microsoft Graph](/graph/permissions-reference).
+
+<!--- TBD: What does this table mean? The icons are not used anywhere in this article so commenting this for now.
 
 | Title   | Description    |
 |-----------|------------|
@@ -41,6 +43,8 @@ The permissions listed below in capital letters, for example RECEIVE_MESSAGE and
 | ![An icon depicting the next step](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Research the app or service itself to decide whether you want to allow access to it within your organization. For example, bots send and receive messages from users, and—except for enterprise custom bots—they're located outside the compliance boundary. Therefore, any app that includes a bot requires those permissions and has that minimum risk profile. </li></ul>|
 
 See also [Request device permissions for your Microsoft Teams tab](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions).
+
+--->
 
 ## Global app permissions and considerations
 
@@ -90,8 +94,7 @@ None
 
   * RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
   * RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
-  * RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM    
-
+  * RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM
 
 * SEND_FILES, RECEIVE_FILES:<sup>2</sup> Controls whether a bot can send and receive files in personal chat (not yet supported for group chat or channels).
 

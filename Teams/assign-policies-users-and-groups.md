@@ -1,7 +1,7 @@
 ---
 title: Assign policies to users and groups
-author: KarliStites
-ms.author: kastites
+author: mkbond007
+ms.author: mabond
 ms.reviewer: tomkau, saragava, ritikag, jastark
 manager: serdars
 ms.topic: article
@@ -80,7 +80,7 @@ To learn more, read [Manage policies via PowerShell](teams-powershell-managing-t
 
 ## Assign a policy to a group
 
-Policy assignment to groups lets you assign a policy to a group of users, such as a security group or distribution list. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly.
+Policy assignment to groups lets you assign a policy to a group of users, such as a security group, an organizational unit, or a distribution list. The policy assignment is propagated to members of the group according to precedence rules. As members are added to or removed from a group, their inherited policy assignments are updated accordingly.
 
 Policy assignment to groups is recommended for groups of up to 50,000 users but it will also work with larger groups.
 
@@ -107,6 +107,9 @@ A user's effective policy is updated according to these rules:
 - a policy that's directly assigned to the user is removed.
 
 #### Group assignment ranking
+
+> [!NOTE]
+> A given policy type can be assigned to a maximum of 64 groups across policy instances for that type.
 
 When you assign a policy to a group, you specify a ranking for the group assignment. This is used to determine which policy a user should inherit as their effective policy if the user is a member of two or more groups and each group is assigned a policy of the same type.
 

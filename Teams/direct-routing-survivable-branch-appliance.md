@@ -191,7 +191,7 @@ Then follow these steps:
 
 For step-by-step guidance on how to configure your Session Border Controller with the embedded Survivable Branch Appliance, see the documentation provided by your SBC vendor: 
 
-- [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-survivable-branch-appliances)
+- [AudioCodes](https://www.audiocodes.com/library/technical-documents?query=sba)
 
 - [Ribbon](https://support.sonus.net/pages/viewpage.action?pageId=248644034)
 

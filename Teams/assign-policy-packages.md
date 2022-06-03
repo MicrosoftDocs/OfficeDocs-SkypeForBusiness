@@ -1,7 +1,7 @@
 ---
 title: Assign policy packages to users and groups
-author: KarliStites
-ms.author: kastites
+author: mkbond007
+ms.author: mabond
 ms.reviewer: tomkau, saragava, ritikag, jastark
 manager: serdars
 ms.topic: article

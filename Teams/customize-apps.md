@@ -22,7 +22,7 @@ description: Learn how to customize apps in Microsoft Teams.
 
 # Customize apps in Microsoft Teams
 
- Microsoft Teams provides app customization to enhance the Teams experience. Some app developers allow an app to be customized by the Teams admin. The admin can customize or rebrand the app properties based on the organizational needs using the Teams admin center **Manage apps** page. The details you can customize are:
+ Microsoft Teams provides app customization to enhance the Teams experience. Some app developers allow an app to be customized by the Teams admin. The admin can customize or rebrand the app properties based on the organizational needs using the Microsoft Teams admin center **Manage apps** page. The details you can customize are:
 
 - Short name
 - Short description
@@ -44,7 +44,7 @@ See the [Teams Manifest schema](/microsoftteams/platform/resources/schema/manife
 
 To start customizing an app, complete the following steps:
 
-1. Sign in to the Teams admin center.
+1. Sign in to the [Teams admin center](https://admin.teams.microsoft.com/dashboard).
 
 2. Expand **Teams Apps** and select **Manage apps**.
 
@@ -58,11 +58,11 @@ To start customizing an app, complete the following steps:
 
      ![The customize selection option 1.](media/select-app-to-customize1.png)
 
-   - Select the app name and then **Customizable**.
+   - Select the app name and then select the edit icon in **Customizable**.
 
-     ![The customize selection option 2.](media/app-details-customizable.png)
+     ![The customize selection option 2.](media/communities-microsoft.png)
 
-   - Select the app name, and then select **Customize** from the **Actions** dropdown.
+   - Select the app name, click on **overflow menu** hover on **Actions** and select customize.
 
      ![The customize selection option 3.](media/customize-action-menu.png)
 

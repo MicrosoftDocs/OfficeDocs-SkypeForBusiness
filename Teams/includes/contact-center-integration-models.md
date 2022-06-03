@@ -8,7 +8,7 @@ As a contact center solution provider, there are three models to choose from to 
 
 - If you want to use Azure bots and the Microsoft Graph Communication APIs to enable solution providers to create Teams apps, see the [Extend model](?tabs=extend#steps).
 
-- If you want to use an SDK that enables solution providers to imbed native Teams experiences in their App, see the [Power model](?tabs=power#steps). Power solutions will be possible when the SDK is available, towards the end of 2021.
+- If you want to use an SDK that enables solution providers to imbed native Teams experiences in their App, see the [Power model](?tabs=power#steps). Power solutions will be possible when the SDK is available. Coming soon.
 
 ### [**The Connect model**](#tab/connect)
 
@@ -20,22 +20,21 @@ Agents can set up automated virtual assistants and skill-based routing queues to
 
 While these features aren't a comprehensive list of feature capabilities for this model of integration, the focus areas include:
 
-  - Office 365 authN for agents to connect to their Microsoft tenant from their integrated CCaaS client 
+- Office 365 authN for agents to connect to their Microsoft tenant from their integrated CCaaS client
 
-  - See when agents are available with Teams
+- See when agents are available with Teams
 
-  - Transfers and group call support with Teams 
+- Transfers and group call support with Teams
 
-  - Teams Graph APIs and Cloud Communication APIs for integration with Teams 
+- Teams Graph APIs and Cloud Communication APIs for integration with Teams
 
-  - Multi-tenant SIP trunking to support several customers on solution provider’s SBC.  
+- Multi-tenant SIP trunking to support several customers on solution provider's SBC.
 
-  - Solution providers to use [<span class="underline">Microsoft certified session border controller (SBC)</span>](../direct-routing-border-controllers.md)
-
+- Solution providers to use [<span class="underline">Microsoft certified session border controller (SBC)</span>](../direct-routing-border-controllers.md)
 
 ### [**The Extend model**](#tab/extend)
 
-The Extend model integrates with the Teams client using the [Teams client platform](/microsoftteams/platform/overview), [Teams Graph APIs](/graph/api/resources/teams-api-overview?view=graph-rest-1.0) and [Cloud Communications API in Microsoft Graph](/graph/api/resources/communications-api-overview?view=graph-rest-1.0). The Extend model also uses the Teams phone system for all contact center calls and call control experiences, and the contact center solution provider acts as a telephony carrier alongside Microsoft 365.
+The Extend model integrates with the Teams client using the [Teams client platform](/microsoftteams/platform/overview), [Teams Graph APIs](/graph/api/resources/teams-api-overview) and [Cloud Communications API in Microsoft Graph](/graph/api/resources/communications-api-overview). The Extend model also uses the Teams phone system for all contact center calls and call control experiences, and the contact center solution provider acts as a telephony carrier alongside Microsoft 365.
 
 Agents can use Teams for internal collaboration and external communication and can benefit from dynamic, contextual notes correlating data from multiple systems prior to starting an engagement and then avoid costly context switching.
 
@@ -45,37 +44,26 @@ Organizations can design workflows and advanced routing configurations down to t
 
 While these features aren't a comprehensive list of feature capabilities for this model of integration, the focus areas include:
 
-  - Teams Graph APIs and Cloud Communication APIs for integration with Teams 
+- Teams Graph APIs and Cloud Communication APIs for integration with Teams
 
-  - Teams-based app for agent experiences 
+- Teams-based app for agent experiences
 
-  - Teams as the primary calling endpoint for the agents 
+- Teams as the primary calling endpoint for the agents
 
-  - Teams client calling for all the call controls
+- Teams client calling for all the call controls
 
-  - Agent experience app for both Teams web and mobile client
+- Agent experience app for both Teams web and mobile client
 
-  - Analytics, workflow management, role-based experiences for agents in the CCaaS app in Teams
+- Analytics, workflow management, role-based experiences for agents in the CCaaS app in Teams
 
-  - Chat and collaboration experiences integrated with Teams clients 
+- Chat and collaboration experiences integrated with Teams clients
 
-  - Preserve performance and quality of Teams client experiences in all apps  
+- Preserve performance and quality of Teams client experiences in all apps
 
 ### [**The Power model**](#tab/power)
 
 The Power model enables solution providers to create native Azure-based voice applications using the Teams calling infrastructure and client platform to deliver modern, intelligent solutions for collaborative customer and agent connection. The goal of the Power model is to provide a one-app, one-screen contact center experience.
 
-**Feature highlights:**
 
-While these features aren't a comprehensive list of feature capabilities for this model of integration, the focus areas include:
-
-  - Formal agent experiences natively enabled for omni-channel communication via Teams SDK 
-
-  - Use Teams collaboration services for agent collaboration and customer interactions  
-
-  - Rapid provisioning of cloud services, deploy anywhere 
-
-  - Direct conversation control and interaction with users during Teams conversations 
-
->[!NOTE]
-> The Power model will be available towards the end of 2021.
+> [!NOTE]
+> Coming soon.
