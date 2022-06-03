@@ -22,7 +22,7 @@ Microsoft Teams Rooms devices support a one-touch experience for joining third-p
 Supported devices and services:
 
 - MTR on Windows, all certified models – Zoom, Webex
-- MTR on Android, Poly, Yealink and Logitech certified models - Zoom
+- MTR on Android, Poly, Yealink, and Logitech certified models - Zoom
 
 Before you can join third-party meetings from Teams Rooms, you need to do the following:
 
@@ -133,7 +133,7 @@ To configure Teams Rooms on Android using the touchscreen console or front-of-ro
 
 > Note: Some device manufacturers require an admin password before **Device settings** can be accessed.
 
-![Meetings settins for MTR on Android](/Teams/media/mtrandroid.png)
+![Meetings settings for MTR on Android](/Teams/media/mtrandroid.png)
 
 3.  Select a third-party meeting provider you wish to enable (e.g., **Webex**, **Zoom**, etc.).
 
