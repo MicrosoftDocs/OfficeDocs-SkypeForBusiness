@@ -12,12 +12,17 @@ ms.collection:
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: "This article discusses how to configure your organization and Teams Rooms devices to support third-party meeting joining to Cisco WebEx and Zoom."
+description: "This article discusses how to configure your organization and Teams Rooms devices to support third-party meeting joining to Cisco Webex and Zoom."
 ---
 
 # Enable Teams Room devices to join third-party meetings
 
-Microsoft Teams Rooms devices support a one-touch experience for joining third-party online meetings, also referred to as Direct Guest Join. When enabled, you can use Teams Rooms to join meetings hosted on Cisco WebEx and Zoom just as easily as you can join meetings hosted in Microsoft Teams.
+Microsoft Teams Rooms devices support a one-touch experience for joining third-party online meetings, also referred to as Direct Guest Join. When enabled, you can use Teams Rooms to join meetings hosted on Cisco Webex and Zoom just as easily as you can join meetings hosted in Microsoft Teams.
+
+Supported devices and services:
+
+    -   MTR on Windows, all certified models – Zoom, Webex
+    -   MTR on Android, Poly, Yealink and Logitech certified models - Zoom
 
 Before you can join third-party meetings from Teams Rooms, you need to do the following:
 
@@ -57,7 +62,7 @@ To add third-party meeting service URLs to the ATP Safe Links "do not rewrite" l
 
 Here are some example entries that you may need to add to your ATP Safe Links "do not rewrite" list or third-party URL rewrite exception list:
 
-- **Cisco WebEx** `*.webex.com*`
+- **Cisco Webex** `*.Webex.com*`
 - **Zoom** `*.zoom.us*`, `*.zoom.com*`, `*.zoomgov.com*`
 
 For a complete list of URLs to add to your ATP Safe Links "do not rewrite" list or third-party URL rewrite exception list, contact the third-party meeting service provider you want to accept meeting invites from. 
@@ -67,15 +72,18 @@ For a complete list of URLs to add to your ATP Safe Links "do not rewrite" list 
 
 ## Step 3: Enable third-party meetings on Teams Rooms
 
-The last step you need to do is allow Teams Rooms to join third-party meetings. Third-party meetings require a username and email address to join them. If the username and email address that you need to use is different than the device's room mailbox, you need to add them to your device. You can do this in the Teams Rooms settings or in the XML config file.
+The last step you need to do is allow Teams Rooms to join third-party meetings. Third-party meetings require a username and email address to join them. If the username and email address that you need to use is different than the device's room mailbox, you need to add them to your device. You can do this in the Teams Rooms settings or in the XML config file. You can do this in the Teams Rooms settings on any capable Teams Rooms or in the XML config file for Teams Rooms on Windows.
+Teams Rooms on Windows
+
+## Teams Rooms on Windows
 
 ### Use device settings
 
-To configure Teams Rooms using the touchscreen console, do the following:
+To configure Teams Rooms on Windows using the touchscreen console, do the following:
 
 1. On the Microsoft Teams Rooms console, select **More ...**.
 2. Select **Settings**, and then enter the device administrator username and password.
-3. Go to the **Meetings** tab and select **Cisco WebEx**, **Zoom**, or both.
+3. Go to the **Meetings** tab and select a third-party meeting provider you wish to enable (e.g., **Webex**, **Zoom**, etc.).
 4. If you want to join meetings with the username and email address associated with the room mailbox, select **Join with room info**.
 5. If you want to join meetings with an alternate username and email address, select **Join with custom info** and enter username and email address you'd like to use.
 6. Select **Save and exit**. Your device will restart.
@@ -84,10 +92,10 @@ To configure Teams Rooms using the touchscreen console, do the following:
 
 The following settings can be added to the `SkypeSettings.xml` file located in `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState`. For more information about the `SkypeSettings.xml` file, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md).
 
-To enable Cisco WebEx meetings, set the `WebExMeetingsEnabled` XML element to **True**, as follows.
+To enable Cisco Webex meetings, set the `WebexMeetingsEnabled` XML element to **True**, as follows.
 
 ```xml
-<WebExMeetingsEnabled>True</WebExMeetingsEnabled>
+<WebexMeetingsEnabled>True</WebexMeetingsEnabled>
 ```
 
 To enable Zoom meetings, set the `ZoomMeetingsEnabled` XML element to **True**, as follows.
@@ -107,4 +115,27 @@ You can optionally specify a custom username and email address to join third-par
 ```
 
 > [!NOTE]
-> To join a Cisco WebEx meeting from a Teams Rooms device, the Cisco meeting needs to be hosted in WebEx Meetings Pro using Cisco WebEx web application version WBS 40.7 or later. 
+> To join a Cisco Webex meeting from a Teams Rooms device, the Cisco meeting needs to be hosted in Webex Meetings Pro using Cisco Webex web application version WBS 40.7 or later. 
+
+## Teams Rooms on Android
+
+### Use device settings
+
+To configure Teams Rooms on Android using the touchscreen console or front-of-room display, do the following:
+
+1.  On the Microsoft Teams Rooms console or Front-of-Room display, select **More…**.
+
+2.  Select **Settings**, and:
+
+    -   If using a personal account (e.g., an account with an E5 license), choose **Meetings** option.
+
+    -   If using a shared account (e.g., a resource account with a Teams Rooms license), choose **Device settings**, locate **Teams Admin settings**, enter an admin password, and choose a **Meetings** option.
+
+> Note: Some device manufacturers require an admin password before **Device settings** can be accessed.
+
+![Meetings settins for MTR on Android](/Teams/media/mtrandroid.png)
+
+3.  Select a third-party meeting provider you wish to enable (e.g., **Webex**, **Zoom**, etc.).
+
+4.  If you want to join meetings with a custom username and email address (not the ones associated with your account), select **Join with custom name and email**. To update custom personal info, press **Edit custom info** and input your preferred name and email address.
+
