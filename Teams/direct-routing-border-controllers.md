@@ -70,12 +70,12 @@ Note that we are not accepting new nominations for certification until further n
 ||SBC SWe Lite|&#10004;|&#10004;|8.x or 9.x|&#10004;|&#10004;|
 ||EdgeMarc Series|&#10004;||15.6.1||
 |[Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)|Think 365 SBC|&#10004;||1.4|||
-|[Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)|AP 1100|&#10004;|&#10004;|Supported 8.3.0.0.1 &  Recommenced 8.4.x & 9.x|&#10004;|&#10004;|
-||AP 3900|&#10004;|&#10004;|Supported 8.3.0.0.1 &  Recommenced 8.4.x & 9.x|&#10004;|&#10004;|
-||AP 4600|&#10004;|&#10004;|Supported 8.3.0.0.1 &  Recommenced 8.4.x & 9.x|&#10004;|&#10004;|
-||AP 6300|&#10004;|&#10004;|Supported 8.3.0.0.1 &  Recommenced 8.4.x & 9.x|&#10004;|&#10004;|
-||AP 6350|&#10004;|&#10004;|Supported 8.3.0.0.1 &  Recommenced 8.4.x & 9.x|&#10004;|&#10004;|
-||VME|&#10004;|&#10004;|Supported 8.3.0.0.1 &  Recommenced 8.4.x & 9.x|&#10004;|&#10004;|
+|[Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)|AP 1100|&#10004;|&#10004;|Supported 8.3.0.0.1 &  Recommended 8.4.x & 9.x|&#10004;|&#10004;|
+||AP 3900|&#10004;|&#10004;|Supported 8.3.0.0.1 &  Recommended 8.4.x & 9.x|&#10004;|&#10004;|
+||AP 4600|&#10004;|&#10004;|Supported 8.3.0.0.1 &  Recommended 8.4.x & 9.x|&#10004;|&#10004;|
+||AP 6300|&#10004;|&#10004;|Supported 8.3.0.0.1 &  Recommended 8.4.x & 9.x|&#10004;|&#10004;|
+||AP 6350|&#10004;|&#10004;|Supported 8.3.0.0.1 &  Recommended 8.4.x & 9.x|&#10004;|&#10004;|
+||VME|&#10004;|&#10004;|Supported 8.3.0.0.1 &  Recommended 8.4.x & 9.x|&#10004;|&#10004;|
 ||AP 3950|&#10004;|&#10004;|Supported 9.x|&#10004;|&#10004;|
 ||AP 4900|&#10004;|&#10004;|Supported 9.x|&#10004;|&#10004;|
 |[TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)|anynode|&#10004;|&#10004;|Supported 3.20 (Recommended 4.0)|&#10004;|&#10004;|
@@ -96,8 +96,8 @@ Note that we are not accepting new nominations for certification until further n
 |[Enghouse Networks](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|Dialogic BorderNet SBC|&#10004;|&#10004;|3.9.0-786|||
 |[Patton Electronics Co.](https://www.patton.com/microsoft/)|Patton SmartNode eSBC|&#10004;||3.19.x|||
 |[M5 Technologies (previously known as Media5 Corporation)](https://www.m5t.com/solutions/sentinel-sbc-ms-teams-certified/)|Mediatrix Sentinel Series|&#10004;||DGW 48.0.2340 (Recommended DGW 48.1.2503)|||
-|[Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|Ekinops Session Border Controller (ONeSBC)|&#10004;|&#10004;|6.6.1m5ha1|||
-||Ekinops Virtual Session Border Controller (ONEvSBC)|&#10004;|&#10004;|6.6.1m5ha1|||
+|[Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|Ekinops Session Border Controller (ONeSBC)|&#10004;|&#10004;|Supported 6.6.1m5ha1 (Recommended 6.8.x)|||
+||Ekinops Virtual Session Border Controller (ONEvSBC)|&#10004;|&#10004;|Supported 6.6.1m5ha1 (Recommended 6.8.x)|||
 |[46 Labs LLC](https://46labs.com/docs/hcvoice/teams/)|Hyperconverged Voice|&#10004;|&#10004;|HCVoice 1.0.6|||
 |[Frafos](https://www.frafos.com/ms-teams-abc-sbc)|ABC SBC|&#10004;||4.6|||
 
