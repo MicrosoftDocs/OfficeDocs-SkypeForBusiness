@@ -155,8 +155,6 @@ If you're using Quality of Service (QoS) to prioritize network traffic, you can 
         > [!IMPORTANT]
         > Note that enabling QoS is only performed on the endpoints for tagging packets leaving the client. We still recommend applying matching QoS rules on all internal network devices for incoming traffic.
         
-        > [!NOTE]
-        > DSCP tagging is typically done via Source Ports and UDP traffic will route to Transport Relay with destination port of 3478 by default. If your company requires tagging on destination ports, please contact support to enable communication to the Transport Relay with UDP ports 3479 (Audio), 3480 (Video), and 3481 (Sharing).
     - To specify port ranges, next to **Select a port range for each type of real-time media traffic**, select  **Specify port ranges**, and then enter the starting and ending ports for audio, video, and screen sharing. Selecting this option is required to implement QoS. 
         > [!Note]
         > If **Quality of Service (QoS) markers for real-time media traffic** is on, then you have to manage your port settings. They aren't managed automatically.
