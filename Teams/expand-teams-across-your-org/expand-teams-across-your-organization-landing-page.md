@@ -27,10 +27,10 @@ Find out what you can do with Teams for:
 - [Frontline Workers](../flw-landing-page.md)
 - [Government](./teams-for-government-landing-page.md)
 - [Healthcare](./teams-for-healthcare-landing-page.md)
-- [Nonprofit](./teams-for-nonprofit-landing-page.md)
-- [Retail](./teams-for-retail-landing-page.md)
+- [Nonprofit](/microsoft-365/frontline/teams-for-nonprofit-landing-page?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)
+- [Retail](/microsoft-365/frontline/teams-for-retail-landing-page?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)
 
 Or learn more about these apps and capabilities available for all industries:
 
-- [Shifts for Teams](./shifts-for-teams-landing-page.md)
+- [Shifts for Teams](/microsoft-365/frontline/shifts-for-teams-landing-page?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)
 - [Bookings in Teams](../bookings-app-admin.md)

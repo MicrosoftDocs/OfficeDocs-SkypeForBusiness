@@ -51,7 +51,7 @@ Shifts is available in all Enterprise SKUs where Teams is available.
 
 Shifts data is currently stored in Azure in data centers in Asia Pacific (APAC), the European Union (EU), and North America. For more information about where data is stored, see [Where is my data](http://o365datacentermap.azurewebsites.net/)?
 
-To learn more about Shifts data, including storage, retention, retrieval, and encryption of Shifts data, see [Shifts data FAQ](shifts-data-faq.md).
+To learn more about Shifts data, including storage, retention, retrieval, and encryption of Shifts data, see [Shifts data FAQ](/microsoft-365/frontline/shifts-data-faq?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).
 
 ## Set up Shifts
 
@@ -74,7 +74,7 @@ The tailored frontline app experience in Teams pins the most relevant apps in Te
 
 The apps are pinned to the app bar—the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients—where users can quickly and easily access them.
 
-To learn more, including how the experience works with app policies that you set, see [Tailor Teams apps for your frontline workers](../../pin-teams-apps-based-on-license.md).  
+To learn more, including how the experience works with app policies that you set, see [Tailor Teams apps for your frontline workers](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json).  
 
 #### Use an app setup policy to pin Shifts to Teams
 
@@ -96,8 +96,8 @@ Before you can search the audit log, you have to first turn on auditing in the [
 
 ## Related articles
 
-- [Shifts for Teams](../shifts-for-teams-landing-page.md)
-- [Shifts data FAQ](shifts-data-faq.md)
-- [Shifts connectors](shifts-connectors.md)
+- [Shifts for Teams](/microsoft-365/frontline/shifts-for-teams-landing-page?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)
+- [Shifts data FAQ](/microsoft-365/frontline/shifts-data-faq?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)
+- [Shifts connectors](/microsoft-365/frontline/shifts-connectors?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)
 - [Shifts Help for frontline workers](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [Assign policies to your users in Teams](../../policy-assignment-overview.md)

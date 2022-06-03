@@ -177,7 +177,7 @@
     },    
     {
       "source_path": "Teams/expand-teams-across-your-org/teams-for-healthcare-landing-page.md",
-      "redirect_url": "/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc",
+      "redirect_url": "/microsoft-365/frontline/teams-in-hc",
       "redirect_document_id": false
     }, 
     {
@@ -2577,7 +2577,7 @@
     },
     {
       "source_path": "Teams/expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams.md",
-      "redirect_url": "/microsoftteams/expand-teams-across-your-org/shifts-for-teams-landing-page",
+      "redirect_url": "/microsoft-365/frontline/shifts-for-teams-landing-page",
       "redirect_document_id": false
     },
     {
@@ -2797,7 +2797,7 @@
      },
      {
        "source_path": "Teams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md",
-       "redirect_url": "/microsoftteams/expand-teams-across-your-org/shifts-for-teams-landing-page",
+       "redirect_url": "/microsoft-365/frontline/shifts-for-teams-landing-page",
        "redirect_document_id": false
      },
      {

@@ -208,4 +208,4 @@ To use these templates, change the 'template@odata.bind' property in the request
 - [Create a team from a template](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
 - [Get started with team templates in the Teams admin center](../../get-started-with-teams-templates-in-the-admin-console.md)
 - [Get started with team templates using Microsoft Graph](../../get-started-with-teams-templates.md)
-- [Get started with Teams for Healthcare organizations](teams-in-hc.md)
+- [Get started with Teams for Healthcare organizations](/microsoft-365/frontline/teams-in-hc?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)
