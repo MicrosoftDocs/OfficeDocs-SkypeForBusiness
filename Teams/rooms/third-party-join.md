@@ -24,8 +24,8 @@ Microsoft Teams Rooms devices support a one-touch experience for joining third-p
 
 Supported devices and services:
 
-    -   MTR on Windows, all certified models – Zoom, Webex
-    -   MTR on Android, Poly, Yealink and Logitech certified models - Zoom
+- MTR on Windows, all certified models – Zoom, Webex
+- MTR on Android, Poly, Yealink and Logitech certified models - Zoom
 
 Before you can join third-party meetings from Teams Rooms, you need to do the following:
 
