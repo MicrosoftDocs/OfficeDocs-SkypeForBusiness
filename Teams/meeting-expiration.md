@@ -1,7 +1,7 @@
 ---
 title: Meeting policies and meeting expiration in Microsoft Teams
-author: KarliStites
-ms.author: kastites
+author: mkbond007
+ms.author: mabond
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -57,10 +57,10 @@ Here's a summary of how meeting expiration works for each of the meeting policy 
 
 |If you want to...&nbsp;&nbsp; |Do this&nbsp;&nbsp;&nbsp;&nbsp;  |Meeting join behavior&nbsp;&nbsp;&nbsp;&nbsp;  |
 |---------------------------|---------------------|---------|
-|Expire private Meet now meetings started by a user&nbsp;&nbsp;|Turn off **Meet now in private meetings**.&nbsp;&nbsp;|No one can join private **Meet now** meetings started by the user.|
-|Expire private meetings scheduled by a user&nbsp;&nbsp;|Turn off **Private meeting scheduling** _and_ turn off **Outlook add-in**. &nbsp;&nbsp;|No one can join private meetings scheduled by the user. This prevents people from joining the following meetings:<ul><li>Private meetings that occurred in the past.</li><li>Private meetings that are scheduled for the future and have not yet occurred.</li><li>Future instances of recurring private meetings.</li></ul><br>Both **Private meeting scheduling** and **Outlook add-in** must be off to expire private meetings scheduled by a user. If one setting is off and the other is on, meeting join links and conference IDs of existing meetings remain active and won't be expired.|
-|Expire channel **Meet now** meetings started by a user&nbsp;&nbsp;|Turn off **Meet now in channels** _and_ turn off **Channel meeting scheduling**.&nbsp;&nbsp;|No one can join channel **Meet now** meetings started by the user.|
-|Expire channel meetings scheduled by a user&nbsp;&nbsp;|Turn off **Channel meeting scheduling**.&nbsp;&nbsp;|No one can join channel meetings scheduled by the user. This prevents people from joining the following meetings:<ul><li>Channel meetings that occurred in the past.</li><li>Channel meetings that are scheduled for the future and haven't yet occurred.</li><li>Future instances of recurring channel meetings.</li></ul>|
+|Expire private Meet now meetings started by a user&nbsp;&nbsp;|Turn off **Meet now in private meetings**.&nbsp;&nbsp;|No one can join private **Meet now** meetings started by the user.|
+|Expire private meetings scheduled by a user&nbsp;&nbsp;|Turn off **Private meeting scheduling** _and_ turn off **Outlook add-in**. &nbsp;&nbsp;|No one can join private meetings scheduled by the user. This prevents people from joining the following meetings:<ul><li>Private meetings that occurred in the past.</li><li>Private meetings that are scheduled for the future and have not yet occurred.</li><li>Future instances of recurring private meetings.</li></ul><br>Both **Private meeting scheduling** and **Outlook add-in** must be off to expire private meetings scheduled by a user. If one setting is off and the other is on, meeting join links and conference IDs of existing meetings remain active and won't be expired.|
+|Expire channel **Meet now** meetings started by a user&nbsp;&nbsp;|Turn off **Meet now in channels** _and_ turn off **Channel meeting scheduling**.&nbsp;&nbsp;|No one can join channel **Meet now** meetings started by the user.|
+|Expire channel meetings scheduled by a user&nbsp;&nbsp;|Turn off **Channel meeting scheduling**.&nbsp;&nbsp;|No one can join channel meetings scheduled by the user. This prevents people from joining the following meetings:<ul><li>Channel meetings that occurred in the past.</li><li>Channel meetings that are scheduled for the future and haven't yet occurred.</li><li>Future instances of recurring channel meetings.</li></ul>|
 
 If you want people to access meetings that were previously scheduled or started by a particular user, you can:
 
@@ -72,10 +72,10 @@ If you want people to access meetings that were previously scheduled or started 
 
 ## Changes to meeting expiration
 
-> [!IMPORTANT]
-> If you want to enable Teams meeting expiration on your tenant early, apply to the [Microsoft Teams meeting expiration early adopter program](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR8YMDA0A9INMv_DZ8yW5uG1URDc3U1VVMklPTzVMS0RLR0pUQTlWU1BEVC4u).
+All newly created Teams meeting recordings (TMRs) will have a default expiration of 120 days. This is on by default for all tenants. This means that by default, all TMRs created *after this feature was turned on* will be deleted 120 days after their creation date. Admins can also set meetings to **never auto-expire**. The OneDrive and SharePoint system will monitor the expiration date set on all TMRs and will automatically move TMRs to the recycle bin on their expiration date.
 
-All newly created Teams meeting recordings (TMRs) will have a default expiration of 120 days. This is on by default for all tenants. This means that by default, all TMRs created *after this feature was turned on* will be deleted 120 days after their creation date. Admins can also set meetings to **never auto-expire**. The OneDrive and SharePoint system will monitor the expiration date set on all TMRs and will automatically move TMRs to the recycle bin on their expiration date.
+> [!NOTE]
+> One copy of the meeting transcript is saved in OneDrive SharePoint and a second copy is saved in Exchange in temporary storage. The OSDP copy expires when the TMR auto-expires.
 
 Automatic meeting expiration is a lightweight housekeeping mechanism to reduce storage clutter created by older TMRs. On average, across all customers, 96% of TMRs aren't watched after 60 days and 99% aren't watched after 110 days. We believe nearly all customers will benefit from the reduced storage load on their tenant by removing recordings that likely won't be watched again after 60 days. It's our goal to provide as clean an experience as possible for all customers by default.
 
@@ -126,7 +126,7 @@ For example:
 
 ### Will this feature enforce file retention?
 
-No, files won't be retained due to this feature or its settings. If a user with delete permissions attempts to delete a TMR that has an expiration setting, that user’s delete action will be executed.
+No, files won't be retained due to this feature or its settings. If a user with delete permissions attempts to delete a TMR that has an expiration setting, that user's delete action will be executed.
 
 ### What SKUs are required for this feature?
 
@@ -145,7 +145,27 @@ No, migrated TMRs will not come with an expiration set on them. Instead, we enco
 
 ### How is this feature different from the expiration message I see when a TMR upload to OneDrive and SharePoint fails?
 
-When a recording fails to upload to OneDrive or SharePoint, the Teams application displays a message in the chat that users have up to 21 days to download the TMR before it’s permanently deleted from the Teams server. This existing expiration experience due to failed TMR uploads is not related to the OneDrive and SharePoint auto-expiration feature being discussed in the help document.
+When a recording fails to upload to OneDrive or SharePoint, the Teams application displays a message in the chat that users have up to 21 days to download the TMR before it's permanently deleted from the Teams server. This existing expiration experience due to failed TMR uploads is not related to the OneDrive and SharePoint auto-expiration feature being discussed in the help document.
+
+### How do I know the distribution of TMR playbacks so I know what the optimal auto-expiration default should be for my tenant?
+
+1. Find the video in the library.
+1. Select **...** > **Details**
+1. Select the number of views at the top of the details pane.
+
+You'll see file statistics that show:
+
+- The number of unique viewers
+- The number of total views
+- The trend of viewers and views day-by-day for the last 90 days
+- Viewership retention (which part of the video was viewed or not viewed)
+
+### When will the file be deleted?
+
+The file will be deleted within five days of the expiration date, though this isn't a strict guarantee. The file owner will receive an email notification when the recording expires and will be directed to the recycle bin to recover the recording.
+
+> [!NOTE]
+> On the expiration date, the recording is moved into the recycle bin and the expiration date field is cleared. If you recover the recording from the recycle bin, it won't be deleted by this feature again because the expiration date has been cleared.
 
 ## Related topics
 
@@ -157,4 +177,4 @@ When a recording fails to upload to OneDrive or SharePoint, the Teams applicatio
 
 [Teams PowerShell overview](teams-powershell-overview.md)
 
-
+[Limits and specifications for Microsoft Teams](/microsoftteams/limits-specifications-teams)

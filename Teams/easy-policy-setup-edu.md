@@ -25,11 +25,11 @@ f1keywords:
 
 The Microsoft Teams for Education Policy Wizard simplifies managing policies for your students and educators. Use it to easily and quickly apply the most important set of policies relevant to creating a safe and productive learning experience.
 
-Policies in Teams let you control how Teams behaves in your environment and what features are available to users. For example, there are calling policies, meeting policies, and messaging policies, to name a few, and each policy area can be customized to meet your organization's needs.
+Policies in Teams let you control how Teams behaves in your environment and what features are available to users. For example, there are calling policies, meeting policies, and messaging policies, to name a few, and each policy area can be customized to meet your organization's needs.
 
 To maintain a safe and focused learning environment, it's important to set policies to control what students can do in Teams. For example, you can use policies to control who can use private chat and private calling, who can schedule meetings, and what content types can be shared. You can also use policies to turn on Teams features that enrich the learning experience.
 
-Policies must be adjusted for both students and educators to keep the learning experience safe. Policies for students need to be more restrictive to reduce their risk of receiving inappropriate levels of access. Educators and staff need a separate set of policies that can be more permissive to enable them to be successful. For example, allow educators to schedule meetings and restrict students from doing so.
+Policies must be adjusted for both students and educators to keep the learning experience safe. Policies for students need to be more restrictive to reduce their risk of receiving inappropriate levels of access. Educators and staff need a separate set of policies that can be more permissive to enable them to be successful. For example, allow educators to schedule meetings and restrict students from doing so.
 
 :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Screenshot of wizard.":::
 
@@ -72,7 +72,7 @@ Follow these steps to run the wizard.
 
     :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Screenshot of the page in wizard to select institution type.":::
 
-3. Search for and select groups that contain your educators and staff, and then select **Next**. If you don’t have any groups set up yet for your educators and staff, [create a group](/microsoft-365/admin/create-groups/create-groups), and then re-run the wizard. <br/><br/>You can select up to three groups. Educators and staff in the groups you select will be assigned [a set of custom policies](#policies-applied-by-the-wizard) tailored to their needs. Remember that this set of policies is separate from the policies applied to students.
+3. Search for and select groups that contain your educators and staff, and then select **Next**. If you don't have any groups set up yet for your educators and staff, [create a group](/microsoft-365/admin/create-groups/create-groups), and then re-run the wizard. <br/><br/>You can select up to three groups. Educators and staff in the groups you select will be assigned [a set of custom policies](#policies-applied-by-the-wizard) tailored to their needs. Remember that this set of policies is separate from the policies applied to students.
 
     :::image type="content" source="media/edu-policy-wizard-add-3-groups.png" alt-text="Screenshot of page in wizard to select educator and staff groups.":::
 
@@ -102,19 +102,19 @@ In Teams, for a given policy area, a policy can be applied to a user in the foll
 
 If more than one of these policy assignments exist for a user, Teams uses the following order to determine which policy assignment takes effect. For more info, see [Which policy takes precedence](policy-assignment-overview.md#which-policy-takes-precedence) or [Precedence rules for groups](assign-policies-users-and-groups.md#precedence-rules).
 
-|Policy assignments of a user|Policy that takes effect |
-|---------|---------|
-|Policy assigned to group: No<br/>Policy assigned directly to user: No    |Global (Org-wide) default policy      |
-|Policy assigned to group: No<br/>Policy assigned directly to user: Yes    |Policy assigned directly to user         |
-|Policy assigned to group: Yes<br/>Policy assigned directly to user: Yes     |Policy assigned directly to user         |
-|Policy assigned to group: Yes<br/>Policy assigned directly to user: No     |Policy assigned to group<br/><br/>If the user is a member of multiple groups and each group is assigned a policy of the same policy area, the policy that has the highest [group assignment ranking](assign-policies-users-and-groups.md#group-assignment-ranking) takes effect.       |
+|Policy assignments of a user|Policy that takes effect|
+|---|---|
+|Policy assigned to group: No <p> Policy assigned directly to user: No|Global (Org-wide) default policy|
+|Policy assigned to group: No <p> Policy assigned directly to user: Yes|Policy assigned directly to user|
+|Policy assigned to group: Yes <p> Policy assigned directly to user: Yes|Policy assigned directly to user|
+|Policy assigned to group: Yes <p> Policy assigned directly to user: No|Policy assigned to group <p> If the user is a member of multiple groups and each group is assigned a policy of the same policy area, the policy that has the highest [group assignment ranking](assign-policies-users-and-groups.md#group-assignment-ranking) takes effect.|
 
 Because of this order, the policies created by the wizard won't take effect if a user has existing direct assignments or group assignments. This means that you'll have to remove the existing policy assignments from the user so the policy applied by the wizard takes effect.
 
 For each [policy area applied by the wizard](#policies-applied-by-the-wizard), do the following:
 
 - Remove all existing direct assignments and group assignments from your students so that the Global (Org-wide default) policy definition applied by the wizard takes effect.
-- Remove any conflicting direct assignments for your educators and staff so that the custom policy definition created by the wizard takes effect. Use the above table to determine the scenarios that apply to you. <br/><br/>Keep in mind that the wizard assigns policies to your educators and staff group using a [group assignment ranking](assign-policies-users-and-groups.md#group-assignment-ranking) of 1, which is the highest ranking. If your educators and staff group has an existing policy of the same policy area assigned to it, that existing policy is moved to a lower ranking and the policy assigned by the wizard takes effect.
+- Remove any conflicting direct assignments for your educators and staff so that the custom policy definition created by the wizard takes effect. Use the above table to determine the scenarios that apply to you. <p> Keep in mind that the wizard assigns policies to your educators and staff group using a [group assignment ranking](assign-policies-users-and-groups.md#group-assignment-ranking) of 1, which is the highest ranking. If your educators and staff group has an existing policy of the same policy area assigned to it, that existing policy is moved to a lower ranking and the policy assigned by the wizard takes effect.
 
 [Learn more](batch-group-policy-assignment-edu.md#remove-a-policy-that-was-directly-assigned-to-users) about how to remove policies that are directly assigned to users.
 
@@ -147,11 +147,11 @@ If you need to make changes after you run the wizard, you can re-run it and chan
 
 The following table summarizes what happens when you make a change in the wizard.
 
-|Type of change  |Policy behavior  |
-|---------|---------|
-|Change both the educational institution type and the educators and staff groups    |<ul><li>**Students**: The Global (Org-wide default) policy definitions based on the new educational institution type are applied to students.</li><li>**Educators and staff**: A set of custom policy definitions based on the new educational institution type is created and assigned to the new educator and staff groups. The previous custom policy definitions are removed from the previous educators and staff groups.</li></ul>    |
-|Change only the educational institution type    |<ul><li>**Students**: The Global (Org-wide default) policy definitions based on the new educational institution type are applied to students.</li><li>**Educators and staff**: A set of custom policy definitions based on the new educational institution type is created and assigned to the educators and staff groups. The custom policy definitions created for the previous educational institution type are removed from the educators and staff groups.</li></ul>         |
-|Change only the educators and staff groups   |<ul><li>**Students**: No change to the Global (Org-wide default) policy definitions applied to students.</li><li>**Educators and staff**: The custom policy definitions are assigned to the new educators and staff groups and removed from the previous educators and staff groups.</li></ul>         |
+|Type of change|Policy behavior|
+|---|---|
+|Change both the educational institution type and the educators and staff groups|<ul><li>**Students**: The Global (Org-wide default) policy definitions based on the new educational institution type are applied to students.</li><li>**Educators and staff**: A set of custom policy definitions based on the new educational institution type is created and assigned to the new educator and staff groups. The previous custom policy definitions are removed from the previous educators and staff groups.</li></ul>|
+|Change only the educational institution type|<ul><li>**Students**: The Global (Org-wide default) policy definitions based on the new educational institution type are applied to students.</li><li>**Educators and staff**: A set of custom policy definitions based on the new educational institution type is created and assigned to the educators and staff groups. The custom policy definitions created for the previous educational institution type are removed from the educators and staff groups.</li></ul>|
+|Change only the educators and staff groups|<ul><li>**Students**: No change to the Global (Org-wide default) policy definitions applied to students.</li><li>**Educators and staff**: The custom policy definitions are assigned to the new educators and staff groups and removed from the previous educators and staff groups.</li></ul>|
 
 ## Policies applied by the wizard
 
@@ -163,166 +163,171 @@ Here's the policy areas and corresponding policy names covered by the wizard. To
 
 #### [**Students**](#tab/students/)
 
-|Policy area  |Primary or Secondary policy name |Higher education policy name  |
-|---------|---------|---------|
-|Teams policy    |Global (Org-wide default)         |Global (Org-wide default)           |
-|Meeting policy    |Global (Org-wide default)           |Global (Org-wide default)           |
-|Live events policy     |Global (Org-wide default)          |  Global (Org-wide default)          |
-|App setup policy     |Global (Org-wide default)           |Global (Org-wide default)           |
-|App permission policy    |Global (Org-wide default)           |Global (Org-wide default)           |
-|Messaging policy     |Global (Org-wide default)           |Global (Org-wide default)           |
-|Calling policy    |Global (Org-wide default)           |Global (Org-wide default)           |
+|Policy area|Primary or Secondary policy name|Higher education policy name|
+|---|---|---|
+|Teams policy|Global (Org-wide default)|Global (Org-wide default)|
+|Meeting policy|Global (Org-wide default)|Global (Org-wide default)|
+|Live events policy|Global (Org-wide default)|Global (Org-wide default)|
+|App setup policy|Global (Org-wide default)|Global (Org-wide default)|
+|App permission policy|Global (Org-wide default)|Global (Org-wide default)|
+|Messaging policy|Global (Org-wide default)|Global (Org-wide default)|
+|Calling policy|Global (Org-wide default)|Global (Org-wide default)|
 
 #### [**Educators and staff**](#tab/educators/)
 
-|Policy area  |Primary or Secondary policy name |Higher education policy name |
-|---------|---------|---------|
-|Teams policy   |Primary or Secondary Educators and Staff - Teams         |Higher Education Educators and Staff - Teams         |
-|Meeting policy    |Primary or Secondary Educators and Staff - Meeting         |Higher Education Educators and Staff - Meeting         |
-|Live events policy   | Primary or Secondary Educators and Staff - Live events         |Higher Education Educators and Staff - Live events         |
-|Messaging policy    |Primary or Secondary Educators and Staff - Messaging         | Higher Education Educators and Staff - Messaging         |
-|Calling policy    |Primary or Secondary Educators and Staff - Calling         |Higher Education Educators and Staff - Calling         |
-
-* * *
+|Policy area|Primary or Secondary policy name|Higher education policy name|
+|---|---|---|
+|Teams policy|Primary or Secondary Educators and Staff - Teams|Higher Education Educators and Staff - Teams|
+|Meeting policy|Primary or Secondary Educators and Staff - Meeting|Higher Education Educators and Staff - Meeting|
+|Live events policy|Primary or Secondary Educators and Staff - Live events|Higher Education Educators and Staff - Live events|
+|Messaging policy|Primary or Secondary Educators and Staff - Messaging|Higher Education Educators and Staff - Messaging|
+|Calling policy|Primary or Secondary Educators and Staff - Calling|Higher Education Educators and Staff - Calling|
 
 ### Policy settings
 
 Here's a summary of the settings applied by the wizard for each policy area.
 
+> [!NOTE]
+> Only team owners can create shared channels.<br><br>Shared channels with other organizations requires configuration of [Azure AD B2B direct connect](/azure/active-directory/external-identities/b2b-direct-connect-overview) which is disabled by default. See [Collaborate with external participants in a channel](/microsoft-365/solutions/collaborate-teams-direct-connect) to enable this feature.
+
 #### [**Students**](#tab/student-settings/)
 
 Here's a list of the Global (Org-wide default) policy definitions adjusted by the wizard and applied to students.
 
-|Policy area |Sub-area  |Policy setting  |Primary or Secondary |Higher education |
-|---------|---------|---------|---------|---------|
-|Teams policy   |         |Create private channels         |Off       |On|
-|Meetings policy    |General         |Meet now in channels         |Off      |On|
-|  |        |Outlook add-in         |Off       |On|
-|  |        |Channel meeting scheduling        |Off      |On|
-|  |        |Private meeting scheduling       |Off      |On|
-|  |        |Meeting registration              |On       |On|
-|  |        |Who can register    |Everyone in the organization      |Everyone in the organization|
-|  |Audio & video        |Transcription        |On       |On|
-|  |        |Cloud recording         |Off      |On|
-|  |        |Mode for IP audio       |Outgoing and incoming audio enabled        |Outgoing and incoming audio enabled|
-|  |        |Mode for IP video         |Outgoing and incoming video enabled     |Outgoing and incoming video enabled|
-|  |       |IP video         |On         |On|
-|  |       |Allow NDI streaming         |Off         |Off|
-|  |       |Media bit rate (Kbs)         |50,000         |50,000|
-|  |Content sharing       |Screen sharing mode         |Entire screen         |Entire screen|
-|  |       |Allow a participant to give or request control         |On         |On|
-|  |       |Allow an external participant to give or request control         |On         |On|
-|  |       |PowerPoint sharing        |On         |On|
-|  |       |Whiteboard         |On         |On|
-|  |       |Shared notes         |On        |On|
-|  |Participants & guests       |Let anonymous people start a meeting       |Off         |On|
-|  |       |Roles that have presenter rights in meetings        |EveryoneUserOverride         |EveryoneUserOverride|
-|  |       |Automatically admit people        |EveryoneInCompany|EveryoneInCompany|
-|  |       |Allow dial-in users to bypass the lobby        |Off         |Off|
-|  |       |Meet now in private meetings        |Off         |On|
-|  |       |Live captions       |Disabled but user can override         |Disabled but user can override|
-|  |       |Chat in meetings         |On         |On|
-|Live events policy  |       |Live events scheduling         |Off         |Off|
-|  |       |Transcription for attendees          |On       |On|
-|  |       |Who can join scheduled live events        |Everyone in organization        |Everyone in organization|
-|  |       |Who can record an event         |Always         |Always|
-|Messaging policy  |       |Owners can delete sent messages         |Off|On|
-|  |       |Delete sent messages         |Off         |On|
-|  |       |Edit sent messages         |Off         |On|
-|  |       |Read receipts         |User controlled         |User controlled|
-|  |       |Chat         |Off         |On|
-|  |       |Giphys in conversations         |Off         |On|
-|  |       |Giphy content rating         |Strict        |Strict|
-|  |       |Memes in conversations         |On         |On|
-|  |       |Stickers in conversations         |On         |On|
-|  |       |URL previews        |On         |On|
-|  |       |Translate messages         |On         |On|
-|  |       |Immersive reader for messages        |On      |On|
-|  |       |Send urgent messages using priority notifications  |Off         |On|
-|  |       |Create voice messages         |Allowed in chats and channels         |Allowed in chats and channels|
-|  |       |On mobile devices, display favorite channels above recent chats     |Enabled         |Enabled|
-|  |       |Remove users from group chats         |Off         |On|
-|App permission policy  |       |Microsoft apps         |Block specific apps and allow all others > Walkie Talkie blocked         |Allow all apps|
-|  |       |Third-party apps         |Allow all apps         |Allow all apps|
-|  |       |Custom apps         |Allow all apps         |Allow all apps|
-|App setup policy  |           |Upload custom apps           |Off         |Off|
-|  |       |User pinning |On         |On|
-|  |       |Installed apps         |None         |None|
-|  |       |Pinned apps         |Activity, Calendar, Teams         |Activity, Chats, Teams, Calendar, Calling, File
-|Calling policy  |       |Make private calls         |Off        |On|
-|  |       |Call forwarding and simultaneous ringing to people in your organization         |Off         |On|
-|  |       |Call forwarding and simultaneous ringing to external phone numbers         |Off         |On|
-|  |       |Voicemail is available for routing inbound calls         |User controlled         |User controlled|
-|  |       |Inbound calls can be routed to call groups         |Off        |On|
-|  |       |Allow delegation for inbound and outbound calls         |Off         |On|
-|  |       |Prevent toll bypass and send calls through the PSTN        |Off         |Off|
-|  |       |Busy on busy is available when in a call         |Off         |Off|
-|  |       |Allow web PSTN calling         |Off         |On|
+|Policy area|Sub-area|Policy setting|Primary or Secondary|Higher education|
+|---|---|---|---|---|
+|Teams policy||Create private channels|Off|On|
+|||Create shared channels|On|On|
+|||Share channel with external participants|On|On|
+|||Participate in an external shared channel|On|On|
+|Meetings policy|General|Allow Meet now in channels|Off|On|
+|||Allow the Outlook add-in|Off|On|
+|||Allow channel meeting scheduling|Off|On|
+|||Allow scheduling private meetings|Off|On|
+|||Allow meeting registration|On|On|
+|||Who can register|Everyone in the organization|Everyone in the organization|
+||Audio & video|Transcription|On|On|
+|||Cloud recording|Off|On|
+|||Mode for IP audio|Outgoing and incoming audio enabled|Outgoing and incoming audio enabled|
+|||Mode for IP video|Outgoing and incoming video enabled|Outgoing and incoming video enabled|
+|||IP video|On|On|
+|||Allow NDI streaming|Off|Off|
+|||Media bit rate (Kbs)|50,000|50,000|
+||Content sharing|Screen sharing mode|Entire screen|Entire screen|
+|||Allow a participant to give or request control|On|On|
+|||Allow an external participant to give or request control|On|On|
+|||PowerPoint sharing|On|On|
+|||Whiteboard|On|On|
+|||Shared notes|On|On|
+||Participants & guests|Let anonymous people start a meeting|Off|On|
+|||Roles that have presenter rights in meetings|EveryoneUserOverride|EveryoneUserOverride|
+|||Automatically admit people|EveryoneInCompany|EveryoneInCompany|
+|||Allow dial-in users to bypass the lobby|Off|Off|
+|||Meet now in private meetings|Off|On|
+|||Live captions|Disabled but user can override|Disabled but user can override|
+|||Chat in meetings|On|On|
+|Live events policy||Live events scheduling|Off|Off|
+|||Transcription for attendees|On|On|
+|||Who can join scheduled live events|Everyone in organization|Everyone in organization|
+|||Who can record an event|Always|Always|
+|Messaging policy||Owners can delete sent messages|Off|On|
+|||Delete sent messages|Off|On|
+|||Edit sent messages|Off|On|
+|||Read receipts|User controlled|User controlled|
+|||Chat|Off|On|
+|||Giphys in conversations|Off|On|
+|||Giphy content rating|Strict|Strict|
+|||Memes in conversations|On|On|
+|||Stickers in conversations|On|On|
+|||URL previews|On|On|
+|||Translate messages|On|On|
+|||Immersive reader for messages|On|On|
+|||Send urgent messages using priority notifications|Off|On|
+|||Create voice messages|Allowed in chats and channels|Allowed in chats and channels|
+|||On mobile devices, display favorite channels above recent chats|Enabled|Enabled|
+|||Remove users from group chats|Off|On|
+|App permission policy||Microsoft apps|Block specific apps and allow all others > Walkie Talkie blocked|Allow all apps|
+|||Third-party apps|Allow all apps|Allow all apps|
+|||Custom apps|Allow all apps|Allow all apps|
+|App setup policy||Upload custom apps|Off|Off|
+|||User pinning|On|On|
+|||Installed apps|None|None|
+|||Pinned apps|Activity, Calendar, Teams|Activity, Chats, Teams, Calendar, Calling, File
+|Calling policy||Make private calls|Off|On|
+|||Call forwarding and simultaneous ringing to people in your organization|Off|On|
+|||Call forwarding and simultaneous ringing to external phone numbers|Off|On|
+|||Voicemail is available for routing inbound calls|User controlled|User controlled|
+|||Inbound calls can be routed to call groups|Off|On|
+|||Allow delegation for inbound and outbound calls|Off|On|
+|||Prevent toll bypass and send calls through the PSTN|Off|Off|
+|||Busy on busy is available when in a call|Off|Off|
+|||Allow web PSTN calling|Off|On|
 
 #### [**Educators and staff**](#tab/educator-settings/)
 
 Here's a list of the custom policy definitions assigned to the educators and staff groups that you choose in the wizard.  
 
-|Policy area |Sub-area  |Policy setting  |Primary or Secondary |Higher education |
-|---------|---------|---------|---------|---------|
-|Teams policy   |         |Create private channels         |On       |On|
-|Meetings policy    |General         |Meet now in channels         |On      |On|
-|  |        |Outlook add-in         |On       |On|
-|  |        |Channel meeting scheduling        |On      |On|
-|  |        |Private meeting scheduling       |On      |On|
-|  |        |Meeting registration              |On       |On|
-|  |        |Who can register    |Everyone in the organization      |Everyone in the organization|
-|  |Audio & video        |Transcription        |On       |On|
-|  |        |Cloud recording         |On      |On|
-|  |        |Mode for IP audio       |Outgoing and incoming audio enabled        |Outgoing and incoming audio enabled|
-|  |        |Mode for IP video         |Outgoing and incoming video enabled     |Outgoing and incoming video enabled|
-|  |       |IP video         |On         |On|
-|  |       |Allow NDI streaming         |Off         |Off|
-|  |       |Media bit rate (Kbs)         |50,000         |50,000|
-|  |Content sharing       |Screen sharing mode         |Entire screen         |Entire screen|
-|  |       |Allow a participant to give or request control         |On         |On|
-|  |       |Allow an external participant to give or request control         |On         |On|
-|  |       |PowerPoint sharing        |On         |On|
-|  |       |Whiteboard         |On         |On|
-|  |       |Shared notes         |On        |On|
-|  |Participants & guests       |Let anonymous people start a meeting       |On        |On|
-|  |       |Roles that have presenter rights in meetings        |OrganizerOnlyUserOverride         |OrganizerOnlyUserOverride|
-|  |       |Automatically admit people        |OrganizerOnly|OrganizerOnly|
-|  |       |Allow dial-in users to bypass the lobby        |Off         |Off|
-|  |       |Meet now in private meetings        |On         |On|
-|  |       |Live captions       |Disabled but user can override         |Disabled but user can override|
-|  |       |Chat in meetings         |On         |On|
-|Live events policy  |       |Live events scheduling         |On         |On|
-|  |       |Transcription for attendees          |On       |On|
-|  |       |Who can join scheduled live events        |Everyone in organization        |Everyone in organization|
-|  |       |Who can record an event         |Always record         |Always record|
-|Messaging policy  |       |Owners can delete sent messages         |On|On|
-|  |       |Delete sent messages         |On         |On|
-|  |       |Edit sent messages         |On         |On|
-|  |       |Read receipts         |User controlled         |User controlled|
-|  |       |Chat         |On         |On
-|  |       |Giphys in conversations         |On        |On|
-|  |       |Giphy content rating         |Strict        |Strict|
-|  |       |Memes in conversations         |On         |On|
-|  |       |Stickers in conversations         |On         |On|
-|  |       |URL previews        |On         |On|
-|  |       |Translate messages         |On         |On|
-|  |       |Immersive reader for messages        |On      |On|
-|  |       |Send urgent messages using priority notifications  |On         |On|
-|  |       |Create voice messages         |Allowed in chats and channels         |Allowed in chats and channels|
-|  |       |On mobile devices, display favorite channels above recent chats     |Enabled         |Enabled|
-|  |       |Remove users from group chats         |On        |On|
-|Calling policy  |       |Make private calls         |On       |On|
-|  |       |Call forwarding and simultaneous ringing to people in your organization         |On        |On|
-|  |       |Call forwarding and simultaneous ringing to external phone numbers         |On        |On|
-|  |       |Voicemail is available for routing inbound calls         |User controlled         |User controlled|
-|  |       |Inbound calls can be routed to call groups         |On        |On|
-|  |       |Allow delegation for inbound and outbound calls         |On         |On|
-|  |       |Prevent toll bypass and send calls through the PSTN        |Off         |Off|
-|  |       |Busy on busy is available when in a call         |Off         |Off|
-|  |       |Allow web PSTN calling         |On      |On|
-
-* * *
+|Policy area|Sub-area|Policy setting|Primary or Secondary|Higher education|
+|---|---|---|---|---|
+|Teams policy||Create private channels|On|On|
+|||Create shared channels|On|On|
+|||Share channel with external participants|On|On|
+|||Participate in an external shared channel|On|On|
+|Meetings policy|General|Allow Meet now in channels|On|On|
+|||Allow the Outlook add-in|On|On|
+|||Allow channel meeting scheduling|On|On|
+|||Allow scheduling private meetings|On|On|
+|||Allow meeting registration|On|On|
+|||Who can register|Everyone in the organization|Everyone in the organization|
+||Audio & video|Transcription|On|On|
+|||Cloud recording|On|On|
+|||Mode for IP audio|Outgoing and incoming audio enabled|Outgoing and incoming audio enabled|
+|||Mode for IP video|Outgoing and incoming video enabled|Outgoing and incoming video enabled|
+|||IP video|On|On|
+|||Allow NDI streaming|Off|Off|
+|||Media bit rate (Kbs)|50,000|50,000|
+||Content sharing|Screen sharing mode|Entire screen|Entire screen|
+|||Allow a participant to give or request control|On|On|
+|||Allow an external participant to give or request control|On|On|
+|||PowerPoint sharing|On|On|
+|||Whiteboard|On|On|
+|||Shared notes|On|On|
+||Participants & guests|Let anonymous people start a meeting|On|On|
+|||Roles that have presenter rights in meetings|OrganizerOnlyUserOverride|OrganizerOnlyUserOverride|
+|||Automatically admit people|OrganizerOnly|OrganizerOnly|
+|||Allow dial-in users to bypass the lobby|Off|Off|
+|||Meet now in private meetings|On|On|
+|||Live captions|Disabled but user can override|Disabled but user can override|
+|||Chat in meetings|On|On|
+|Live events policy||Live events scheduling|On|On|
+|||Transcription for attendees|On|On|
+|||Who can join scheduled live events|Everyone in organization|Everyone in organization|
+|||Who can record an event|Always record|Always record|
+|Messaging policy||Owners can delete sent messages|On|On|
+|||Delete sent messages|On|On|
+|||Edit sent messages|On|On|
+|||Read receipts|User controlled|User controlled|
+|||Chat|On|On
+|||Giphys in conversations|On|On|
+|||Giphy content rating|Strict|Strict|
+|||Memes in conversations|On|On|
+|||Stickers in conversations|On|On|
+|||URL previews|On|On|
+|||Translate messages|On|On|
+|||Immersive reader for messages|On|On|
+|||Send urgent messages using priority notifications|On|On|
+|||Create voice messages|Allowed in chats and channels|Allowed in chats and channels|
+|||On mobile devices, display favorite channels above recent chats|Enabled|Enabled|
+|||Remove users from group chats|On|On|
+|Calling policy||Make private calls|On|On|
+|||Call forwarding and simultaneous ringing to people in your organization|On|On|
+|||Call forwarding and simultaneous ringing to external phone numbers|On|On|
+|||Voicemail is available for routing inbound calls|User controlled|User controlled|
+|||Inbound calls can be routed to call groups|On|On|
+|||Allow delegation for inbound and outbound calls|On|On|
+|||Prevent toll bypass and send calls through the PSTN|Off|Off|
+|||Busy on busy is available when in a call|Off|Off|
+|||Allow web PSTN calling|On|On|
 
 ## Related topics
 

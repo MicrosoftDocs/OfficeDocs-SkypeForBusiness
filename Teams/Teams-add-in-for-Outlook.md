@@ -23,11 +23,13 @@ appliesto:
 
 # Use the Teams Meeting add-in in Outlook
 
+This article details authentication requirements and functionality of the Teams Meeting add-in in Outlook for your end users. It also shows how you can enable private meetings and adjust policy settings for users in Island Mode. If you are having issues with the add-in, see our [latest troubleshooting guidance](/MicrosoftTeams/troubleshoot/meetings/resolve-teams-meeting-add-in-issues).
+
 The Teams Meeting add-in lets users schedule a Teams meeting from Outlook. The add-in is available for Outlook on Windows, Mac, web, and mobile.
 
 ## Teams Meeting add-in in Outlook for Windows
 
-The Teams Meeting add-in is automatically installed for users who have Microsoft Teams and either Office 2013, Office 2016, or Office 2019 installed on their Windows PC. Users will see the Teams Meeting add-in on the Outlook Calendar ribbon.
+The Teams Meeting add-in is automatically installed for users who have Microsoft Teams and either Office 2013, Office 2016, Office 2019 or Office 2021 installed on their Windows PC. Users will see the Teams Meeting add-in on the Outlook Calendar ribbon.
 
 ![Screenshot of Teams Meeting add-in on Outlook ribbon.](media/Teams-add-in-for-Outlook.png)
 
@@ -121,59 +123,6 @@ The Teams Meeting add-in is still building functionality, so be aware of the fol
 - Users can't schedule live events from within Outlook. Go to Teams to schedule live events. For more information, see [What are Microsoft Teams live events?](teams-live-events/what-are-teams-live-events.md).
 
 Learn more about [meetings and calling in Microsoft Teams](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8).
-
-## Troubleshooting
-
-Use the following steps to troubleshoot issues with the Teams Meeting add-in.
-
-> [!NOTE]
-> This scenario can also be managed using the [command-line version of Microsoft Support and Recovery Assistant](/office365/troubleshoot/administration/sara-command-line-version) with SaRAcmd.exe -S TeamsAddinScenario -AcceptEula -CloseOutlook.
-
-### Teams Meeting add-in in Outlook for Windows does not show
-
-If you cannot get the Teams Meeting add-in for Outlook to install, try these troubleshooting steps.
-
-[Download](https://aka.ms/SaRA-TeamsAddInScenario) and run the [Microsoft Support Recovery Assistant](https://aka.ms/SaRA_Home) to perform automated troubleshooting steps and fixes.
-
-Alternatively, perform the following steps manually:
-
-- Windows 7 users must install the [Update for Universal C Runtime in Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) for the Teams Meeting add-in to work.
-- Check that the user has a Teams Upgrade policy which enables scheduling meetings in Teams. See [Upgrade from Skype for Business to Teams](/microsoftteams/meeting-policies-in-teams-general) for more details.
-- Check that the user has a Teams Meeting policy that permits the Outlook Add-in. See [Meeting policy settings - General](./meeting-policies-in-teams-general.md#outlook-add-in) for more details.
-- Ensure the user has the Teams desktop client installed. The meeting add-in will not be installed when only using the Teams web client.
-- Ensure the user has Outlook 2013 or later installed.
-- Make sure the user has permission to execute regsvr32.exe.
-- Ensure that all available updates for Outlook desktop client have been applied.
-- Follow these steps:
-  - Restart the Teams desktop client.
-  - Sign out and then sign back in to the Teams desktop client.
-  - Restart the Outlook desktop client. (Make sure Outlook isn't running in admin mode.)
-
-If you still don't see the add-in, make sure that it isn't disabled in Outlook.
-
-- In Outlook, choose **File** and then **Options**.
-- Select the **Add-ins** tab of **Outlook Options** dialog box.
-- Confirm that **Microsoft Teams Meeting Add-in for Microsoft Office** is listed in the **Active Application Add-ins** list
-- If the Teams Meeting Add-in is listed in the **Disabled Application Add-ins** list, select **COM Add-ins** in **Manage** and then select **Go…**
-- Set the checkbox next to **Microsoft Teams Meeting Add-in for Microsoft Office**.
-- Choose **OK** on all dialog boxes and restart Outlook.
-
-For general guidance about how to manage add-ins, see [View, manage, and install add-ins in Office programs](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).
-
-If the add-in still does not show, use the following steps to verify the registry settings.
-
-> [!NOTE]
-> Incorrectly editing the registry may severely damage your system. Before making changes to the registry, you should back up any valued data on the computer.
-- Launch RegEdit.exe
-- Navigate to HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\Addins
-- Verify TeamsAddin.FastConnect exists.
-- Within TeamsAddin.FastConnect, verify LoadBehavior exists and is set to 3.
-  - If LoadBehavior has a value other than 3, change it to 3 and restart Outlook.
-
-### Delegate scheduling does not work
-
-If your administrator has configured Microsoft Exchange to [control access to Exchange Web Server (EWS)](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), a delegate won't be able to schedule a Teams meeting on behalf of the boss. The solution for this configuration is under development and will be released in the future. As a workaround, your administrator can add the following string to the EWS Allow List: "*SchedulingService*". 
-
 
 ## Related topics
 

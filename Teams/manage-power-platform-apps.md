@@ -1,8 +1,8 @@
 ---
 title: Manage Microsoft Power Platform apps in the Microsoft Teams admin center
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.reviewer: joglocke
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -61,7 +61,7 @@ If a user is allowed to access apps from Power Apps or Power Virtual Agents, and
 
 By default, **Shared Power Apps** and **Shared Power Virtual Agent Apps** are allowed for all Teams users in your organization. You can block or allow them at the org level on the [Manage apps](manage-apps.md) page of the Microsoft Teams admin center.  
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. You must be a global admin or Teams service admin to access the page.
+1. In the left pane of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. You must be a global admin or Teams service admin to access the page.
 2. In the list of apps, do one of the following.
 
     :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="Screenshot of Manage apps page, showing shared Microsoft Power Platform apps":::
@@ -71,7 +71,7 @@ By default, **Shared Power Apps** and **Shared Power Virtual Agent Apps** are al
 
 ### Allow or block Microsoft Power Platform apps for specific users
 
-To allow or block specific users in your organization from accessing apps created in Power Apps or Power Virtual Agents, create and assign one or more custom [app permission policies](teams-app-permission-policies.md). 
+To allow or block specific users in your organization from accessing apps created in Power Apps or Power Virtual Agents, create and assign one or more custom [app permission policies](teams-app-permission-policies.md).
 
 For example, to block specific users from accessing apps created in Power Apps, create a custom app permission policy to block **Shared Power Apps**, and then assign the policy to those users.
 
@@ -79,7 +79,7 @@ For example, to block specific users from accessing apps created in Power Apps, 
 
 ### Use audit logs to investigate Microsoft Power Platform installation activity
 
-You can use audit logs for Teams to investigate events where users installed Microsoft Power Platform apps from the **Built by your colleagues** section of the Apps page in Teams. To do this, [search the audit log](./audit-log-events.md) for the **Installed app** Teams event (under the **AppInstalled** operation) for a user or set of users. To find apps installed from **Built by your colleagues**, look for the **TemplatedInstance** value in the **AppDistributionMode** property in a given record's details. 
+You can use audit logs for Teams to investigate events where users installed Microsoft Power Platform apps from the **Built by your colleagues** section of the Apps page in Teams. To do this, [search the audit log](./audit-log-events.md) for the **Installed app** Teams event (under the **AppInstalled** operation) for a user or set of users. To find apps installed from **Built by your colleagues**, look for the **TemplatedInstance** value in the **AppDistributionMode** property in a given record's details.
 
 :::image type="content" source="media/manage-power-platform-apps-audit.png" alt-text="Screenshot of the TemplatedInstance value in the AppDistributionMode property.":::
 

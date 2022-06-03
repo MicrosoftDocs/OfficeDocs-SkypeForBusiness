@@ -94,16 +94,36 @@ Busy on Busy (Busy Options) lets you configure how incoming calls are handled wh
 
 This setting enables users to call PSTN numbers using the Teams web client.
 
-### Incoming meeting invites are automatically answered
+### Automatically answer incoming meeting invites
 
 This setting controls whether incoming meeting invites are automatically answered. It's turned off by default. Keep in mind that this setting applies only to incoming meeting invites. It doesn't apply to other types of calls.
 
 ### Allow music on hold
 
-This setting allows you to turn on or turn off music on hold when a PSTN caller is placed on hold. It's turned on by default. This setting doesn't apply to call park and boss delegate features, and is currently only available via PowerShell.
+This setting allows you to turn on or turn off music on hold when a PSTN caller is placed on hold. It's turned on by default. This setting doesn't apply to call park and boss delegate features.
+
+### Allow SIP devices calling
+
+This setting enables users to use a SIP device to make and receive calls.
+
+### Spam filtering
+
+This setting allows you to control the type of Spam filtering available on incoming calls.
+
+### Call recording, live captions and transcription
+
+These settings allow you to control whether call recording, live captions and transcription are available for the users.
 
 ## Related articles
 
-[Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
+[New-CsTeamsCallingPolicy](/powershell/module/skype/new-csteamscallingpolicy)
+
+[Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
+
+[Get-CsTeamsCallingPolicy](/powershell/module/skype/get-csteamscallingpolicy)
+
+[Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy)
+
+[Remove-CsTeamsCallingPolicy](/powershell/module/skype/remove-csteamscallingpolicy)
 
 [Assign policies to your users in Teams](policy-assignment-overview.md)

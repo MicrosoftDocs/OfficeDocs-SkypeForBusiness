@@ -36,7 +36,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
 
 When you sign up, you get a certain number of minutes depending on your country/region. You can search for your country or region in the [Country or region availability list for Audio Conferencing and Calling Plans](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md#select-your-country-or-region-to-see-whats-available-for-your-organization) to see the number of minutes you will get. After you use those minutes, calls will be disconnected. To prevent this from happening, you need to set up Communications Credits.
   
-To do so, **you need to assign an Audio Conferencing or Phone System license** to your users.
+To do so, **you need to assign an Audio Conferencing or a Phone System license** to your users. Communication Credits can be enabled for users that have either of those two licenses assigned or both.
   
 - Assign an **Audio Conferencing** license to your users. See [Assign Microsoft Teams add-on licenses](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
@@ -55,11 +55,13 @@ For more information, see [Microsoft Teams add-on licensing](./teams-add-on-lice
 
 1. Sign in to the [Microsoft 365 admin center](https://portal.office.com/Adminportal) with your work or school account.
     
-2. In the left navigation of the Microsoft 365 admin center, go to **Billing** > **Purchase Services**. Scroll down and select **Add-Ons**.
+2. In the left navigation of the Microsoft 365 admin center, go to **Billing** > **Purchase Services**.
 
-3. Select **Communications Credits**.
+3. Look for **Communication Credits** under the **add-ons** category or search for "Communication Credits" in the **Search all product categories** search box and select **Details**.
     
-4. On the **Communications Credits** subscription page, fill in your information, and then click **Next**:
+4. Review the service information and select **Buy**. (Note: A fixed number of Communication Credits licenses are automatically selected in every order.)
+
+5. On the Checkout page, enter your payment information and fill in the required information:
     
    - **Add funds** Enter the amount that you want to add to your account. If you don't enable auto-recharge, once these funds are depleted, calling capabilities that are enabled using Communications Credits will be disrupted (such as inbound toll-free service). To avoid having to manually replenish your Communications Credits balance each time your balance reaches 0 (zero), we recommend you enable the auto-recharge feature.
     
@@ -76,9 +78,9 @@ For more information, see [Microsoft Teams add-on licensing](./teams-add-on-lice
      > 
      > When using the auto-recharge function, invoicing for Communication Credits is generated when the trigger amount is reached and a recharge transaction is processed. Communication credit amounts are used in a first in first out manner. To learn how to check your monthly usage, read [Microsoft Teams PSTN usage report](/microsoftteams/teams-analytics-and-reports/pstn-usage-report).
     
-5. Enter your payment information and click **Place order**.
+6. Select **Place order**.
     >[!IMPORTANT]
-    >If you are a volume licensing customer, you may choose your enterprise agreement number for payment. If you have multiple enterprise agreement numbers, you will be able to select which enterprise agreement you would like to use for payment. You will also be given an opportunity to specify a purchase order number to associate with the enterprise agreement number (if applicable).
+    >If you are a volume licensing customer, you may wish to use your enterprise agreement for payment. If you want to do this, open a Premier Support case to have this enabled. If you have multiple enterprise agreement numbers, you will be able to select which enterprise agreement you would like to use for payment. You will also be given an opportunity to specify a purchase order number to associate with the enterprise agreement number (if applicable) once Support enables this.
     
 Each organization will have a different usage of Calling Plan volume and rates to consider. You will need to get this type of usage data from your current service provider. Organizations already using Skype for Business Online or Microsoft Teams as their service provider can get usage data by reviewing it in the **Microsoft Teams admin center** > **Analytics & reports** > **Usage reports** > **PSTN and SMS (preview) usage** report.
   

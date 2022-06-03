@@ -17,19 +17,19 @@ f1.keywords:
 appliesto: 
 - Microsoft Teams
 ms.localizationpriority: high
-description: Learn how to call, chat, find, and add users from outside the organization in Microsoft Teams using external access (federation) and guest access.
+description: Learn how to call, chat, find, and add users from outside the organization in Microsoft Teams using external access and guest access.
 ---
 
 # Use guest access and external access to collaborate with people outside your organization
 
-When you need to communicate and collaborate with people outside your organization, Microsoft Teams has two options:
+This article describes two of the options for collaborating with people outside your organization:
 
-- **External access** - A type of federation that allows users to find, call, and chat with people in other organizations. These people cannot be added to teams unless they are invited as guests.
+- **External access** - A type of federation that allows users to find, call, and chat with people in other organizations. These people cannot be added to a team unless they are invited as guests.
 - **Guest access** - Guest access allows you to invite people from outside your organization to join a team. Invited people get a guest account in Azure Active Directory.
 
-Note that Teams allows you to invite people outside your organization to meetings. This does not require external or guest access to be configured.
+For a complete overview of the external collaboration in Microsoft 365, see [Overview of external collaboration options in Microsoft 365](/microsoft-365/enterprise/external-guest-access).
 
-## External access (federation)
+## External access (external chat and meetings)
 
 Set up external access if you need to find, call, chat, and set up meetings with people outside your organization who use Teams, Skype for Business (online or on premises) or Skype. 
 

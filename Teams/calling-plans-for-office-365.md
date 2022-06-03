@@ -35,6 +35,8 @@ Calls to other Skype for Business and Microsoft Teams users are free, but if you
 Here are the Calling Plans options:
   
 - **Domestic Calling Plan**: Licensed users can call out to numbers located in the country/region where they are assigned in Microsoft 365 or Office 365.
+
+- **International Calling Plan**: Licensed users can call out to international numbers in [196 countries/regions](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md). This calling plan can be added to a user who currently holds a Domestic Calling Plan.
     
 - **Domestic and International Calling Plan**: Licensed users can call out to numbers located in the country/region where their Microsoft 365 or Office 365 license is assigned to the user based on the user's location, and to international numbers in [196 countries/regions](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
 

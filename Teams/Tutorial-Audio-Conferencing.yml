@@ -28,17 +28,17 @@ items:
   content: |
     In this training, we introduce Audio Conferencing in Microsoft Teams—the ability
     to join a Teams meeting from a regular phone and dial out from a meeting to a
-    phone number. We’ll cover the capabilities of Audio Conferencing in Teams in
+    phone number. We'll cover the capabilities of Audio Conferencing in Teams in
     addition to requirements and planning considerations for Teams.
 
     [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-note.md)]
 
-    This training is for you if you’re:
+    This training is for you if you're:
     -   An IT pro.
     -   Responsible for planning, deploying, or managing Teams.
     -   Considering planning, deploying, or managing Audio Conferencing in Teams.
 
-    We’ll cover the following sections:
+    We'll cover the following sections:
     -   Audio Conferencing requirements
     -   Planning steps
     -   Reporting
@@ -51,11 +51,11 @@ items:
 
     If you have any questions or feedback about this training, please:
 
-    -   Post in the comments section at the bottom of the “Next steps” page of this
+    -   Post in the comments section at the bottom of the "Next steps" page of this
         tutorial
 
     To give us product feedback about Teams, such as ideas for new features, please
-    visit [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
+    visit the [Teams Feedback portal](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
 
 
 - title: Audio Conferencing in Teams
@@ -67,11 +67,11 @@ items:
     dial-out functionality from within the meeting. Review the following resources
     to learn more about Audio Conferencing:
     -   [Audio Conferencing
-        features](https://products.office.com/skype-for-business/audio-conferencing#Features)
+        features](/skypeforbusiness/plan-your-deployment/conferencing/conferencing)
         (estimated reading time 1 minute)
     -   [9 tips for meeting with Microsoft
         Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444)
-        (estimated reading time for “\#1 - Join a meeting via Audio Conferencing” is
+        (estimated reading time for "\#1 - Join a meeting via Audio Conferencing" is
         1 minute; more if you read the whole article)
     -   [Audio Conferencing common questions](/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions)
         (estimated reading time 7 minutes)
@@ -85,17 +85,17 @@ items:
 
     Garth works at Contoso, a company that has multiple offices. Garth frequently
     needs to connect with people in other office locations, and because he often
-    works from home or goes out on the road, he’s a huge fan of Teams meetings. When
+    works from home or goes out on the road, he's a huge fan of Teams meetings. When
     Garth sends out a meeting invitation, it automatically adds information for
     Audio Conferencing. This makes the following scenarios possible:
-    -   Alice wants to attend Garth’s meeting but she’s on the road and has no
+    -   Alice wants to attend Garth's meeting but she's on the road and has no
         access to a reliable network. Therefore, she joins the meeting by using the
         dial-in coordinates from the meeting invitation. During the dial-in process,
-        she uses her PIN to authenticate, so she’s recognized by the system as
-        “Alice.”
-    -   Bob, who’s currently at a hotel, joins the meeting by using the Teams client
+        she uses her PIN to authenticate, so she's recognized by the system as
+        "Alice."
+    -   Bob, who's currently at a hotel, joins the meeting by using the Teams client
         on his PC. Unfortunately, the audio quality over the internet connection in
-        the hotel isn’t great, So Bob dials out to his own phone number from the
+        the hotel isn't great, So Bob dials out to his own phone number from the
         meeting to join via the public switched telephone network (PSTN).
     -   If the meeting participants decide during the call that they want to add
         users at a different phone number, they can just dial out to the phone
@@ -115,23 +115,23 @@ items:
   durationInMinutes: 1
   content: |
 
-    If you’re already using Skype for Business, you’ll need to consider the
+    If you're already using Skype for Business, you'll need to consider the
     following:
 
     ### Skype for Business Server–homed users
     
-    If you’re using Skype for Business Server, Teams meetings scheduled by users who are homed on Skype for Business on-premises will not include PSTN meeting coordinates. If you assigned Audio Conferencing licenses to these users prior to March 1, 2019, you might need to unassign these licenses, wait for 2 hours, and then reassign them for the users to see the PSTN meeting coordinates.
+    If you're using Skype for Business Server, Teams meetings scheduled by users who are homed on Skype for Business on-premises will not include PSTN meeting coordinates. If you assigned Audio Conferencing licenses to these users prior to March 1, 2019, you might need to unassign these licenses, wait for 2 hours, and then reassign them for the users to see the PSTN meeting coordinates.
 
     ### Skype for Business Online–homed users
     
-    If users are homed in Skype for Business Online and are already enabled for Audio Conferencing, they’ll automatically be enabled for Audio Conferencing in
+    If users are homed in Skype for Business Online and are already enabled for Audio Conferencing, they'll automatically be enabled for Audio Conferencing in
     Teams. The PIN they use for authenticating in meetings when they dial in will be the same for Skype for Business and Teams.
 
 - title: Envision Audio Conferencing
   durationInMinutes: 48
   content: |
 
-    The practical guidance covers in detail what’s required to plan and successfully
+    The practical guidance covers in detail what's required to plan and successfully
     implement Audio Conferencing. Review the following articles to understand these
     technical planning steps:
 
@@ -147,7 +147,7 @@ items:
     -   [Plan my service
         management](./4-envision-plan-my-service-management.md)
         (estimated reading time 5 minutes)
-    -   [Plan my users’
+    -   [Plan my users'
         experience](./5-envision-plan-my-users-experience.md)
         (estimated reading time 5 minutes)
     -   [Document my success
@@ -179,17 +179,17 @@ items:
   durationInMinutes: 20
   content: |
 
-    In this exercise, you’ll have the chance to test Audio Conferencing in Teams.
-    Although we don’t describe how to perform every action, we recommend some
+    In this exercise, you'll have the chance to test Audio Conferencing in Teams.
+    Although we don't describe how to perform every action, we recommend some
     scenarios to try out.
 
     ### Requirements
     -   An Office 365 organization with appropriate licenses to use Teams
         -   We strongly recommend that you use a dedicated test tenant.
-        -   If you don’t have a test tenant, you can sign up for a trial tenant at
+        -   If you don't have a test tenant, you can sign up for a trial tenant at
             [Office 365 Enterprise E5
             Trial](https://go.microsoft.com/fwlink/p/?LinkID=698279).
-        -   Don’t run any tests in your production environment. Changing settings or
+        -   Don't run any tests in your production environment. Changing settings or
             policies might have a negative impact on all users and might affect
             their user experience.
     -   At least two endpoints
@@ -221,14 +221,14 @@ items:
     -   Quality: What is the quality of the meetings?
 
     You should carefully monitor both areas:
-    -   Low usage means that users, for one reason or another, aren’t using the
+    -   Low usage means that users, for one reason or another, aren't using the
         product. You can only determine the reasons by investigating further.
         Reasons can range from the perception that meetings are falling short of
         user requirements, to a lack of awareness or training, to quality problems.
     -   Low quality, on the other hand, means that there are issues with
         connectivity between users and Office 365. Low quality can lead to bad user
         experience and lower usage. Refer to [Microsoft 365 Reports in the Admin Center - Microsoft Teams user
-        activity](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
+        activity](https://docs.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-teams-user-activity-preview?view=o365-worldwide)
         (estimated reading time 5 minutes) to learn more about the usage reports.
 
     Managing quality is outside of the scope of this training, but see the following
@@ -247,12 +247,12 @@ items:
 
     ### Next steps
 
-    1.	Start using Audio Conferencing in Teams.
+    1. Start using Audio Conferencing in Teams.
     2.  Send us feedback:
         - Post in the comments section at the bottom of this page.
-        - To give us Teams product feedback or to request a new feature, go to [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
+        - To give us Teams product feedback or to request a new feature, go to the [Teams Feedback portal](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
     3.  Stay up to date:
         - Follow the [Teams Blog](https://aka.ms/teamsblog).
         - Read the [Teams Roadmap](https://aka.ms/O365Roadmap).
         - Learn about the latest released features in the [Release Notes](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
-    4.  Explore [more training and tutorials](/OfficeDocs-SkypeForBusiness-pr/blob/master/Teams/ITAdmin-readiness#technical-training).
+    4.  Explore [more training and tutorials](/microsoftteams/ITAdmin-readiness#technical-training).

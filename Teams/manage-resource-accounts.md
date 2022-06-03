@@ -25,8 +25,6 @@ description: "In this article, you will learn how to create, edit and manage res
 
 # Manage resource accounts in Microsoft Teams
 
-A resource account is a disabled user object in Azure AD, and can be used to represent resources in general. For example, a resource account may be used in Exchange to represent conference rooms and allow them to have a phone number and calendar. A resource account can be homed in Microsoft 365 or on premises using Skype for Business Server 2019.
-
 In Microsoft Teams, a resource account is required for each auto attendant or call queue. Resource accounts may also be assigned service telephone numbers. This is how you assign phone numbers to auto attendants and call queues allowing callers from outside Teams to reach the auto attendant or call queue.
 
 This article covers how to create resource accounts and ready them for use with auto attendants and call queues.
@@ -37,7 +35,7 @@ Before you start the procedures in this article, ensure you've done the followin
 - [Obtain service numbers](#obtain-service-numbers)
 
 > [!NOTE]
-> Resource accounts are disabled for sign in and must remain so. Chat and presence are not avaialble for these accounts.
+> Resource accounts used for auto attendants and call queues are disabled for sign in and must remain so. Chat and presence are not avaialble for these accounts.
 
 ### Obtain virtual user licenses
 
@@ -102,7 +100,9 @@ If you're planning to use the resource account with an auto attendant or call qu
 
 To assign a direct routing or hybrid number to a resource account you need to use PowerShell:
 
-`Set-CsPhoneNumberAssignment -Identity aa-contoso_main@contoso64.net -PhoneNumber +19295550150 -PhoneNumberType DirectRouting`
+```powershell
+Set-CsPhoneNumberAssignment -Identity aa-contoso_main@contoso64.net -PhoneNumber +19295550150 -PhoneNumberType DirectRouting
+```
 
 ## Next steps
 
@@ -153,5 +153,5 @@ After you do that, you can delete the resource account in the Microsoft 365 admi
 To disassociate a direct routing telephone number from the resource account, use the following cmdlet:
 
 ```powershell
-Remove-CsPhoneNumberAssignment -Identity  <Resource Account oid> -PhoneNumber <assigned phone number> -PhoneNumberType DirectRouting
+Remove-CsPhoneNumberAssignment -Identity <Resource Account Object ID> -PhoneNumber <assigned phone number> -PhoneNumberType DirectRouting
 ```

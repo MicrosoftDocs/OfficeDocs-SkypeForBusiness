@@ -18,7 +18,7 @@ appliesto:
 
 # Overview of optional connected experiences in Microsoft Teams
 
-If you have a work or school account, your organization's admin may have provided you with the ability to use one or more cloud-backed services (also referred to as **optional connected experiences**) while using Microsoft Teams, like GIPHY and/or URL Preview service. These cloud-backed services are optional. Whether you use them is up to you. They're offered to you under  terms that differ from the [Microsoft Online Service Terms](https://www.microsoft.com/licensing/product-licensing/products), as described separately for each optional service. This article lists our Teams cloud-backed services.
+If you have a work or school account, your organization's admin may have provided you with the ability to use one or more cloud-backed services (also referred to as **optional connected experiences**) while using Microsoft Teams, like GIPHY and/or URL Preview service. These cloud-backed services are optional. Whether you use them is up to you. They're offered to you under  terms that differ from the [Microsoft Online Service Terms](https://www.microsoft.com/licensing/product-licensing/products), as described separately for each optional service. This article lists our Teams cloud-backed services.
 
 If your admin has given you the ability to use optional connected experiences in Teams, you can go to **Settings** > **Privacy** in Teams and choose whether you want to use optional connected experiences.
 
@@ -27,7 +27,7 @@ If your admin has given you the ability to use optional connected experiences in
 
 ## GIPHY
 
-GIPHY is a cloud-backed service that lets you use GIFs in your Teams chats. If you’re in **Teams** > **GIF** > **Search**, the search terms are sent to GIPHY. These experiences, if allowed by your admin and after you choose to use them, are subject to the [GIPHY Privacy Policy](https://support.giphy.com/hc/articles/360032872931-GIPHY-Privacy-Policy) and [Terms of Service](https://support.giphy.com/hc/articles/360020027752-GIPHY-User-Terms-of-Service).
+GIPHY is a cloud-backed service that lets you use GIFs in your Teams chats. If you're in **Teams** > **GIF** > **Search**, the search terms are sent to GIPHY. These experiences, if allowed by your admin and after you choose to use them, are subject to the [GIPHY Privacy Policy](https://support.giphy.com/hc/articles/360032872931-GIPHY-Privacy-Policy) and [Terms of Service](https://support.giphy.com/hc/articles/360020027752-GIPHY-User-Terms-of-Service).
 
 :::image type="content" source="media/giphy-menu.png" alt-text="This is a menu showing the Giphy selection button and textbox for typing information in to retrieve a Giphy image or images.":::
 
