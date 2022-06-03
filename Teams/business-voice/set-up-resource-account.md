@@ -75,9 +75,12 @@ After you've created your resource account, you need to assign a *Microsoft Team
 1. Open the Microsoft Teams admin center and log in with a user that is a Global admin (this is usually the account you used to sign up for Microsoft 365).
 1. In the left navigation pane, go to <a href="https://admin.teams.microsoft.com/company-wide-settings/resource-accounts" target="_blank">**Voice** > **Resource accounts**</a>.
 1. Select the resource account you just created, and then click **Assign/unassign**.
-1. In the **Phone number type** dropdown, choose **Online**.
+1. In the **Phone number type** dropdown, choose **Calling Plan**.
 1. In the **Assigned phone number** box, search for the number you want to use and click **Add**. Be sure to include the country code (for example, **+1** 250 555 0012).
 1. Click **Save**.
+
+> [!NOTE]
+> To see a service number listed here, make sure the Phone System or Phone System - Virtual user license it's not assigned to any other voice services.
 
 > [!div class="nextstepaction"]
 > [Next step: Assign phone numbers to your users](set-up-assign-numbers.md)
