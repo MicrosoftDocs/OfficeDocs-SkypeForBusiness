@@ -80,7 +80,7 @@ After you've created your resource account, you need to assign a *Microsoft Team
 1. Click **Save**.
 
 > [!NOTE]
-> To see a service number listed here, make sure the Phone System or Phone System - Virtual user license it's not assigned to any other voice services.
+> To see a service number listed here, make sure the Phone System or Phone System - Virtual user license is not assigned to any other voice services.
 
 > [!div class="nextstepaction"]
 > [Next step: Assign phone numbers to your users](set-up-assign-numbers.md)
