@@ -24,7 +24,7 @@ Supported devices and services:
 - MTR on Windows, all certified models – Zoom, Webex
 - MTR on Android, Poly, Yealink, and Logitech certified models – Zoom
 
-Before you can join third-party meetings from Teams Rooms, you need to do the following:
+Before you can join third-party meetings from Teams Rooms, you need to complete the following steps:
 
 1. Configure the Teams Rooms' Exchange Online room mailbox to process invites for third-party meetings.
 2. Make sure your organization doesn't have any policies that would prevent you from connecting to third-party meeting services.
