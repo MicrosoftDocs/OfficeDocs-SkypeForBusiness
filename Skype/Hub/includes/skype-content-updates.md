@@ -2,6 +2,15 @@
 
 
 
+## Week of May 30, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/2/2022 | [Install Skype for Business Server](/SkypeForBusiness/deploy/install/install) | modified |
+| 6/3/2022 | [Integration between Skype for Business Online and Exchange server](/SkypeForBusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises) | modified |
+
+
 ## Week of May 23, 2022
 
 
