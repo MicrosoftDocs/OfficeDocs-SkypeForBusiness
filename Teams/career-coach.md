@@ -51,7 +51,7 @@ To enable Career Coach for your educational institution, review what you need to
 
 - Office 365 tenant with Azure Active Directory with LinkedIn account connections enabled.
 - Microsoft Teams.
-- LinkedIn school page.
+- LinkedIn School Page.
 
 ### Data and files from your educational institution
 
@@ -61,7 +61,7 @@ To enable Career Coach for your educational institution, review what you need to
 
 - List of fields of study offered. [View sample file](https://aka.ms/career-coach/docs/it-admins/sample-fieldsofstudy).
 
-- Educational institution’s [LinkedIn school page URL](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en).
+- Educational institution’s [LinkedIn School Page URL](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en).
 
 - Educational institution's privacy policy URL.
 
@@ -222,6 +222,8 @@ To effectively enable Career Coach for students, faculty, and staff, the followi
 - [Course catalog](#course-catalog)
 - [Fields of study](#fields-of-study)
 
+You can also set optional [Customization](#customization) settings.
+
 > [!TIP]
 > Quickly navigate from one category to another by selecting **Career Coach** path located at the top of the page in the format `Manage apps\Career Coach\Setting label`.
 
@@ -264,16 +266,16 @@ Customize Career Coach to match your educational institution’s brand. You're r
 
 ### LinkedIn connection
 
-The LinkedIn connection setting connects Career Coach with public alumni data from your institution’s LinkedIn School page.
+The LinkedIn connection setting connects Career Coach with public alumni data from your institution’s LinkedIn School Page.
 
 This step can only be completed if [LinkedIn account connections are enabled in Azure Active Directory](#turn-on-linkedin-account-connections). The LinkedIn connection setting enables the [Build your Network](https://support.microsoft.com/topic/career-coach-quick-start-guide-for-students-c419db47-9290-4961-9684-c3f86a9b3708#bkmk_build_your_network) and [Explore Careers](https://support.microsoft.com/topic/career-coach-quick-start-guide-for-students-c419db47-9290-4961-9684-c3f86a9b3708#bkmk_discover_your_career_path) features.
 
 > [!IMPORTANT]
-> This is a required section. Career Coach can't be enabled without the LinkedIn school page connection verified.
+> This is a required section. Career Coach can't be enabled without the LinkedIn School Page connection verified.
 
 #### Add the LinkedIn School Page URL
 
-The process of adding the LinkedIn School Page URL is handled by a Teams Administrator. The subsequent step of verifying the URL is completed by your educational institution’s LinkedIn School page Super admin.
+The process of adding the LinkedIn School Page URL is handled by a Teams Administrator. The subsequent step of verifying the URL is completed by your educational institution’s LinkedIn School Page Super admin.
 
 1. Sign into the **[Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2066851)**.
 
@@ -281,35 +283,35 @@ The process of adding the LinkedIn School Page URL is handled by a Teams Adminis
 
 3. Select **Connect to LinkedIn**.
 
-4. Find your institution's LinkedIn school page by searching on LinkedIn and selecting the **School** filter. Or connect with a marketing staff member at your institution to determine the correct LinkedIn School page to use. For more information, see [How to identify LinkedIn pages](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en).
+4. Find your institution's LinkedIn School Page by searching on LinkedIn and selecting the **School** filter. Or connect with a marketing staff member at your institution to determine the correct LinkedIn School Page to use. For more information, see [How to identify LinkedIn pages](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en).
 
     ![linkedin search for school.](media/career-coach-school-search.png)
 
 5. Add the **LinkedIn School Page URL**. The URL must be a *school page*, not a *company page*, and is typically formatted as `https://www.linkedin.com/school/willow-university/`.
 
-   ![linkedin school page example.](media/career-coach-linkedin-page-url.png)
+   ![linkedin School Page example.](media/career-coach-linkedin-page-url.png)
 
 6. Select **Submit**.
 
 7. After the **LinkedIn School Page URL** is successfully submitted, the settings page will update to show the **Verification link** and **Verification link expiration**. The verification link expires after 30 days.
 
-8. Copy the **Verification link** and share it with your educational institution’s LinkedIn School page Super admin.
+8. Copy the **Verification link** and share it with your educational institution’s LinkedIn School Page Super admin.
 
-9. The LinkedIn School page Super admin will use the unique verification link to [verify the LinkedIn School page](#verify-the-linkedin-school-page) and associate it with Career Coach.
+9. The LinkedIn School Page Super admin will use the unique verification link to [verify the LinkedIn School Page](#verify-the-linkedin-school-page) and associate it with Career Coach.
 
 10. To confirm the verification and settings were submitted successfully, check that the [Career Coach configuration status](#configuration-status) is marked **Complete**.
 
-#### Verify the LinkedIn school page
+#### Verify the LinkedIn School Page
 
-The LinkedIn School Page verification must be completed by your educational institution’s [LinkedIn School page Super admin](https://www.linkedin.com/help/linkedin/answer/a541981).
+The LinkedIn School Page verification must be completed by your educational institution’s [LinkedIn School Page Super admin](https://www.linkedin.com/help/linkedin/answer/a541981).
 
-You can check your LinkedIn account’s admin roles by signing into LinkedIn and visiting your educational institution’s LinkedIn school page. If your account is assigned a Super admin role, you'll see **Super admin view** listed next to your educational institution’s name on the LinkedIn page. If you don't see the **Super admin view** tag, then you're not a Super admin for your school’s page.
+You can check your LinkedIn account’s admin roles by signing into LinkedIn and visiting your educational institution’s LinkedIn School Page. If your account is assigned a Super admin role, you'll see **Super admin view** listed next to your educational institution’s name on the LinkedIn page. If you don't see the **Super admin view** tag, then you're not a Super admin for your school’s page.
 
 1. After the **LinkedIn School Page URL** is submitted by the Teams administrator, the page will show the **Verification link** and **Verification link expiration**. The verification link expires after 30 days.
 
    ![linkedin connections for the career coach app.](media/career-coach-linked-in.png)  
 
-2. Copy the verification link and share it with your LinkedIn School page Super admin.
+2. Copy the verification link and share it with your LinkedIn School Page Super admin.
 
 3. The LinkedIn page Super admin will open the verification link to associate Career Coach with your school's page. For more information, see [Additional documentation about LinkedIn page verification](https://www.linkedin.com/help/linkedin/answer/102672).
 
@@ -469,24 +471,24 @@ The configuration status section of the app settings page will display the real-
 
 ![the configuration status section of the career coach app.](media/career-coach-config-status.png)
 
-| Category                    | Status                                      | Description                                                 |
-| --------------------------- | ------------------------------------------- | ----------------------------------------------------------- |
-| Service provisioning status | Career Coach is initializing your tenant.   | Service provisioning occurs automatically upon accessing the Career Coach settings page. Configuration changes won't be accepted until initial setup is complete. Estimated time for service provisioning is up to 15 minutes. |
-| Service provisioning status | Career Coach is ready to be configured.     | Career Coach settings page is ready for IT admin to submit settings. |
-| Brand and preferences       | Not started                                 | Settings need to be submitted. |
-| Brand and preferences       | Missing: Learning icon                      | Upload the missing learning content thumbnail image. |
-| Brand and preferences       | Missing: Logo                               | Upload the missing organization icon. |
-| Brand and preferences       | Missing: Institution name                   | Upload the missing organization name. |
-| Brand and preferences       | Complete                                    | No further action needed. Setting is complete. |
-| Course catalog upload       | Not started                                 | Course catalog CSV needs to be submitted. |
-| Course catalog upload       | Missing: a successful course catalog upload | Check the course catalog status for details on course catalog processing. |
-| Course catalog upload       | Complete                                    | No further action needed. Setting is complete. |
-| LinkedIn school connection  | Not started                                 | LinkedIn School Page URL needs to be submitted. |
-| LinkedIn school connection  | Missing: an approved LinkedIn school URL    | Awaiting LinkedIn School Page super admin verification approval. |
-| LinkedIn school connection  | Complete                                    | No further action needed. Setting is complete. |
-| Fields of study upload      | Not started                                 | Field of study CSV needs to be submitted. |
-| Fields of study upload      | Missing: areas of interest                  | Check whether the field of study upload is successful. |
-| Fields of study upload      | Complete                                    | No further action needed. Setting is complete. |
+| Category                    | Status                                        | Description                                                 |
+| --------------------------- | --------------------------------------------- | ----------------------------------------------------------- |
+| Service provisioning status | Career Coach is initializing your tenant.     | Service provisioning occurs automatically upon accessing the Career Coach settings page. Configuration changes won't be accepted until initial setup is complete. Estimated time for service provisioning is up to 15 minutes. |
+| Service provisioning status | Career Coach is ready to be configured.       | Career Coach settings page is ready for IT admin to submit settings. |
+| Brand and preferences       | Not started                                   | Settings need to be submitted. |
+| Brand and preferences       | Missing: Learning icon                        | Upload the missing learning content thumbnail image. |
+| Brand and preferences       | Missing: Logo                                 | Upload the missing organization icon. |
+| Brand and preferences       | Missing: Institution name                     | Upload the missing organization name. |
+| Brand and preferences       | Complete                                      | No further action needed. Setting is complete. |
+| Course catalog upload       | Not started                                   | Course catalog CSV needs to be submitted. |
+| Course catalog upload       | Missing: a successful course catalog upload   | Check the course catalog status for details on course catalog processing. |
+| Course catalog upload       | Complete                                      | No further action needed. Setting is complete. |
+| LinkedIn school connection  | Not started                                   | LinkedIn School Page URL needs to be submitted. |
+| LinkedIn school connection  | Missing: an approved LinkedIn School Page URL | Awaiting LinkedIn School Page Super admin verification approval. |
+| LinkedIn school connection  | Complete                                      | No further action needed. Setting is complete. |
+| Fields of study upload      | Not started                                   | Field of study CSV needs to be submitted. |
+| Fields of study upload      | Missing: areas of interest                    | Check whether the field of study upload is successful. |
+| Fields of study upload      | Complete                                      | No further action needed. Setting is complete. |
 
 > [!NOTE]
 > Once all required steps are marked as complete, Career Coach can be successfully released to your tenant.
