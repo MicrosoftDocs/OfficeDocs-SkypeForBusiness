@@ -43,7 +43,7 @@ If you need help, let us know. We're here to help you get your phone numbers mov
 - The authorizing person on your account
 - A description of the issue or question that you have
 
-For help with phone numbers, check out [Telephone Number Services (TNS) - Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
+**For help with phone numbers, check out [Telephone Number Services (TNS) - Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).**
 
 > [!div class="nextstepaction"]
 > [Next step: Finish Teams Phone System with Calling Plan setup](set-up-finish.md)
