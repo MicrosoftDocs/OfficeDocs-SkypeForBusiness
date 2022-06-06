@@ -22,7 +22,7 @@ Microsoft Teams Rooms devices support a one-touch experience for joining third-p
 Supported devices and services:
 
 - MTR on Windows, all certified models – Zoom, Webex
-- MTR on Android, Poly, Yealink, and Logitech certified models - Zoom
+- MTR on Android, Poly, Yealink, and Logitech certified models – Zoom
 
 Before you can join third-party meetings from Teams Rooms, you need to do the following:
 
@@ -30,7 +30,7 @@ Before you can join third-party meetings from Teams Rooms, you need to do the fo
 2. Make sure your organization doesn't have any policies that would prevent you from connecting to third-party meeting services.
 3. Configure Teams Rooms to allow third-party meetings.
 
-The following sections show you how to do each of these steps.
+The following sections show you how to complete each of these steps.
 
 ## Step 1: Allow calendar invite processing for third-party meetings
 
@@ -62,7 +62,7 @@ To enable the one-touch join experience, meeting join link information from the 
 
 Here are some example entries that you may need to add to your Defender for Office 365 Safe Links *Do not rewrite* list or third-party URL rewrite exception list:
 
-- **Cisco WebEx** `*.webex.com/*`
+- **Cisco Webex** `*.webex.com/*`
 - **Zoom** `*.zoom.us/*`, `*.zoom.com/*`, `*.zoomgov.com/*`
 
 For a complete list of URLs to add to your Defender for Office 365 Safe Links *Do not rewrite* list or third-party URL rewrite exception list, contact the third-party meeting service provider you want to accept meeting invites from.
@@ -73,7 +73,6 @@ For a complete list of URLs to add to your Defender for Office 365 Safe Links *D
 ## Step 3: Enable third-party meetings on Teams Rooms
 
 The last step you need to do is allow Teams Rooms to join third-party meetings. Third-party meetings require a username and email address to join them. If the username and email address that you need to use is different than the device's room mailbox, you need to add them to your device. You can do this in the Teams Rooms settings or in the XML config file. You can do this in the Teams Rooms settings on any capable Teams Rooms or in the XML config file for Teams Rooms on Windows.
-Teams Rooms on Windows
 
 ## Teams Rooms on Windows
 
