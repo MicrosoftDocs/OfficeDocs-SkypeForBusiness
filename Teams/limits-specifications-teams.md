@@ -92,6 +92,8 @@ Users who participate in conversations that are part of the chat list in Teams m
 |Size of each file attachment | Less than 10 MB |
 |Number of inline images<sup>2</sup> |50   |
 
+> [!NOTE]
+> There is a throttling limit on how many emails you can send to a channel. The limit is six emails per ten seconds per channel per user and eight emails per ten seconds per tenant per user.
 <sup>1</sup> If the message exceeds this limit, a preview message is generated and the user is asked to download and view the original email from the link provided.
 
 <sup>2</sup> If the number of attachments or images exceeds this limit, you'll see an error message.
