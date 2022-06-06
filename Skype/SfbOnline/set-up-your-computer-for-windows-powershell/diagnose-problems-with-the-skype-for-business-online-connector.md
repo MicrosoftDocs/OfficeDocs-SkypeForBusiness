@@ -82,7 +82,7 @@ See [Download and install Windows PowerShell](./download-and-install-windows-pow
 
 There are typically three reasons why your connection attempt might fail with the following error message:
 
-  - **Error**: *Get-CsWebTicket : Failed to connect live id servers. Make sure proxy is enabled or machine has network connection to live ID servers.*
+  - **Error**: *Get-CsWebTicket : Failed to connect live ID servers. Make sure proxy is enabled or machine has network connection to live ID servers.*
 
 - **Resolution**: Often this error means that the Microsoft Online Services Sign-in Assistant is not running. You can verify the status of this service by running the following command from the PowerShell prompt: 
     ```PowerShell
@@ -121,7 +121,7 @@ You cannot make a remote PowerShell connection toSkype for Business Online unles
 
 To use PowerShell to manage Skype for Business Online, the EnableRemotePowerShellAccess property of your tenant PowerShell policy must be set to  `True`. If it is not, your connection will fail, and you'll receive the following error message:
 
-- **Error**: *New-PSSession : [admin.vdomain.com] Processing data from remote server admin.vdomain.com failed with the following error message: The ability to connect to this tenant by using a remote PowerShell session has been disabled. Contact Lync Help to check Tenant Powershell Policy of this tenant. For more information, see the [Remote Troubleshooting](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting ).*
+- **Error**: *New-PSSession : [admin.vdomain.com] Processing data from remote server admin.vdomain.com failed with the following error message: The ability to connect to this tenant by using a remote PowerShell session has been disabled. Contact Lync Help to check Tenant PowerShell Policy of this tenant. For more information, see the [Remote Troubleshooting](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting ).*
 
 - **Resolution**: If you see this error message, you'll need to contact Microsoft Support and get remote PowerShell access enabled.
   
