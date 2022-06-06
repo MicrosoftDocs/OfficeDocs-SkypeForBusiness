@@ -19,7 +19,7 @@ description: "This article discusses how to configure your organization and Team
 
 Microsoft Teams Rooms devices support a one-touch experience for joining third-party online meetings, also referred to as Direct Guest Join. When enabled, you can use Teams Rooms to join meetings hosted on Cisco Webex and Zoom just as easily as you can join meetings hosted in Microsoft Teams.
 
-Supported devices and services:
+***Supported devices and services:***
 
 **- MTR on Windows, all certified models – Zoom, Webex**
 **- MTR on Android, Poly, Yealink, and Logitech certified models – Zoom**
