@@ -1,5 +1,5 @@
 ---
-title: "Availability in the Ukraine"
+title: "Availability in Ukraine"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -27,7 +27,7 @@ ms.custom:
 description: "Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Ukraine."
 ---
 
-# Availability in the Ukraine
+# Availability in Ukraine
 
 [Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.
 
