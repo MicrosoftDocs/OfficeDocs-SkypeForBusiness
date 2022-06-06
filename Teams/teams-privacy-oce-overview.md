@@ -37,6 +37,10 @@ The URL Preview service automatically generates a preview snippet and attaches u
 
 :::image type="content" source="media/url-preview.png" alt-text="A screen showing a sample of a URL preview for the Microsoft home page in a text box.":::
 
+## Teams apps link previews
+
+The Teams app link previews service generates a preview snippet of the app's adaptive card and attaches it under the URL when a user sends a URL string that maps to the app in the Teams store. This service will make a request to the service URL as the user is typing the message.
+
 ## Related articles
 
 - [Overview of policy controls for Teams](policy-control-overview.md)
