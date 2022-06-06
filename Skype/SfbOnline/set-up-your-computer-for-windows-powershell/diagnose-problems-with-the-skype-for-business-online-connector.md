@@ -34,9 +34,7 @@ This topic provides information that will help you diagnose and resolve problems
 - [Modern authentication fails when WinRM Basic authentication has been disabled](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKWinRMBasicAuth)
     
 - [Failed to connect to Live ID Server](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKFailedConnect)
-    
-- [Failed to load Live ID module](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKFailedLoad)
-    
+      
 - [Sign in failed for the user](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKLogonFailed)
     
 - [The user does not have permission to manage this tenant](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKUserPermission)
@@ -84,7 +82,7 @@ See [Download and install Windows PowerShell](./download-and-install-windows-pow
 
 There are typically three reasons why your connection attempt might fail with the following error message:
 
-  - **Error**: *Get-CsWebTicket : Failed to connect live id servers. Make sure proxy is enabled or machine has network connection to live ID servers.*
+  - **Error**: *Get-CsWebTicket : Failed to connect live ID servers. Make sure proxy is enabled or machine has network connection to live ID servers.*
 
 - **Resolution**: Often this error means that the Microsoft Online Services Sign-in Assistant is not running. You can verify the status of this service by running the following command from the PowerShell prompt: 
     ```PowerShell
@@ -99,15 +97,6 @@ There are typically three reasons why your connection attempt might fail with th
   
     Less commonly, it is possible that the Connection URI for Microsoft Live ID Authentication Server has been configured to the wrong value. If you've already determined that the Sign-In Assistant is running and that you are not experiencing network connectivity issues, this might be the issue. In this case, contact Microsoft Support.
   
-## Failed to load Live ID module
-<a name="BKMKFailedLoad"> </a>
-
-One of the prerequisites for using PowerShell to manage Skype for Business Online is to install the Microsoft Online Services Sign-in Assistant. If the Sign-in Assistant is not installed, you will receive the following error message when you try to establish a remote session with Skype for Business Online:
-
-- **Error**: *Get-CsWebTicket : Can't load Live ID module. Make sure correct version of Live Id Sign-in assistant is installed.*
-
-- **Resolution**: The Microsoft Online Services Sign-in Assistant is available in the Microsoft Download Center at [Microsoft Online Services Sign-In Assistant for IT Professionals RTW](https://www.microsoft.com/download/details.aspx?id=28177)
-
 ## Logon failed for the user
 <a name="BKMKLogonFailed"> </a>
 
@@ -132,7 +121,7 @@ You cannot make a remote PowerShell connection toSkype for Business Online unles
 
 To use PowerShell to manage Skype for Business Online, the EnableRemotePowerShellAccess property of your tenant PowerShell policy must be set to  `True`. If it is not, your connection will fail, and you'll receive the following error message:
 
-- **Error**: *New-PSSession : [admin.vdomain.com] Processing data from remote server admin.vdomain.com failed with the following error message: The ability to connect to this tenant by using a remote PowerShell session has been disabled. Contact Lync Help to check Tenant Powershell Policy of this tenant. For more information, see the [Remote Troubleshooting](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting ).*
+- **Error**: *New-PSSession : [admin.vdomain.com] Processing data from remote server admin.vdomain.com failed with the following error message: The ability to connect to this tenant by using a remote PowerShell session has been disabled. Contact Lync Help to check Tenant PowerShell Policy of this tenant. For more information, see the [Remote Troubleshooting](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting ).*
 
 - **Resolution**: If you see this error message, you'll need to contact Microsoft Support and get remote PowerShell access enabled.
   
