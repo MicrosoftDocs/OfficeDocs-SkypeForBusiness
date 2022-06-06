@@ -1,7 +1,7 @@
 ---
 title: Overview of app certification by Microsoft
 ms.reviewer: 
-description: In this learning path, you'll understand the app attestation and certification programs for Teams apps.
+description: Understand the compliance program for security, compliance, and privacy of third-party apps, app attestation and certification programs for Teams apps.
 ms.topic: article
 author: guptaashish
 ms.author: guptaashish
