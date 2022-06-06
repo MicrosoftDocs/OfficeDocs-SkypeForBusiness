@@ -462,6 +462,8 @@ items:
           href: teams-analytics-and-reports/information-protection-license-report.md
         - name: Teams Virtual Visits usage report
           href: /microsoft-365/frontline/virtual-visits-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+        - name: Teams EHR connector Virtual Appointments report
+          href: /microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
               
     - name: Log files, service health, and support
       items:
