@@ -117,10 +117,10 @@ Following are some of the types of incidents that you might see and the explanat
 |**Conference microphone, Conference speaker** |The audio devices (microphone / speaker) seem to be misconfigured. |
 |**Camera** |The camera connected to the device does not appear to be healthy. |
 |**HDMI Ingest** |HDMI Ingest is not healthy. |
-|**Sign-In** (Exchange) |Microsoft Teams Room app accesses calendar information from Exchange and any issue with sign-in success will be reported with a sign-in incident. |
-|**Sign-In** (Teams) |Microsoft Teams Room app signs into the device and failure to sign-in will be reported with this incident (if the customer is using Teams). |
-|**Sign-In** (Skype for Business) |Microsoft Teams Room app signs into the device, and failure to sign in will be reported with this incident (if the customer is using Skype for Business) |
-|**Proximity Sensor** |Microsoft Teams Room app invites attendees to join a meeting if they are in proximity. Failures in this feature will be reported under this incident. |
+|**Sign-In** (Exchange) |Microsoft Teams Rooms app accesses calendar information from Exchange and any issue with sign-in success will be reported with a sign-in incident. |
+|**Sign-In** (Teams) |Microsoft Teams Rooms app signs into the device and failure to sign-in will be reported with this incident (if the customer is using Teams). |
+|**Sign-In** (Skype for Business) |Microsoft Teams Rooms app signs into the device, and failure to sign in will be reported with this incident (if the customer is using Skype for Business) |
+|**Proximity Sensor** |Microsoft Teams Rooms app invites attendees to join a meeting if they are in proximity. Failures in this feature will be reported under this incident. |
 
 **Table 2: Incidents with “Warning” severity**
 
