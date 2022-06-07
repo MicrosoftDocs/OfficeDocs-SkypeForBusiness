@@ -46,7 +46,7 @@ Deploying teams at scale allows you to:
 ## How to deploy teams at scale
 
 > [!NOTE]
-> Before you deploy your teams, make sure that all teams owners have a Teams license. Team members don't need a Teams license for team creation. You can assign Teams licenses to them after you create your teams.
+> Before you deploy your teams, make sure that all teams owners have a Teams license. Team members don't need to have a Teams license for team creation. You can assign Teams licenses to them after you create your teams.
 
 Follow these steps to deploy a large number of teams at a time.
 
