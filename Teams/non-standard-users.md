@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: In this learning module, you'll learn how apps in Microsoft Teams behave for different types of users.
+description: In this learning module, you'll learn how apps in Microsoft Teams behave for different type of users such as, guest user, external user and anonymous user.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
