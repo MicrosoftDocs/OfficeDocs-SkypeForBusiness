@@ -45,6 +45,9 @@ Deploying teams at scale allows you to:
 
 ## How to deploy teams at scale
 
+> [!NOTE]
+> Before you deploy your teams, make sure that all teams owners have a Teams license. Team members don't need a Teams license for team creation. You can assign Teams licenses to them after you create your teams.
+
 Follow these steps to deploy a large number of teams at a time.
 
 You use the ```New-CsBatchTeamsDeployment``` cmdlet to submit a batch of teams to create. An orchestration ID is generated for each batch. You can then use the ```Get-CsBatchTeamsDeployment``` cmdlet to track the progress and status of each batch.
