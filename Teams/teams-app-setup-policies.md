@@ -14,7 +14,7 @@ appliesto:
   - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: In this learning path, you'll learn how to use and manage app setup policies in Microsoft Teams for users in your organization.
+description: In this learning path, you'll learn how to use and manage app setup policies that helps you to choose apps to pin, install apps and upload custom apps.
 f1.keywords:
 - CSH
 ms.custom: 
