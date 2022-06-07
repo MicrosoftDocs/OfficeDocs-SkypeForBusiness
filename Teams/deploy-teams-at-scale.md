@@ -31,7 +31,7 @@ We're building a solution to enable admins to deploy and manage teams at scale.
 
 Here's an overview of the capabilities available today for creating and managing large numbers of teams at a time, what's coming soon, and what we're planning for the near future.
 
-| |Available today |Later in 2022  |
+||Available today |Later in 2022  |
 |---------|---------|---------|
 |Number of teams you can create per batch|Up to 100 |Up to 500|
 |Number of users you can add per team|Up to 25|Up to 25|
