@@ -31,10 +31,10 @@ We're building a solution to enable admins to deploy and manage teams at scale.
 
 Here's an overview of the capabilities available today for creating and managing large numbers of teams at a time, what's coming soon, and what we're planning for the near future.
 
-| |Available today  |Available soon  |Later in 2022  |
-|---------|---------|---------|---------|
-|Number of teams you can create per batch|Up to 30|Up to 100 |Up to 500|
-|Number of users you can add per team|Up to 20|Up to 25|Up to 25|
+| |Available today |Later in 2022  |
+|---------|---------|---------|
+|Number of teams you can create per batch|Up to 100 |Up to 500|
+|Number of users you can add per team|Up to 25|Up to 25|
 
 Deploying teams at scale allows you to:
 
@@ -76,10 +76,10 @@ You use the ```New-CsBatchTeamsDeployment``` cmdlet to submit a batch of teams t
 
     Verify that ```New-CsBatchTeamsDeployment``` and ```Get-CsBatchTeamsDeployment``` are listed.
 
-1. Run the following to deploy a batch of teams.
+1. Run the following to deploy a batch of teams. You can enter up to five email addresses in the **UsersToNotify** parameter.
 
     ```powershell
-    New-CsBatchTeamsDeployment -TeamsFilePath "*Your file path*" -UsersFilePath "*Your file path*" -UsersToNotify *Email address* 
+    New-CsBatchTeamsDeployment -TeamsFilePath "*Your file path*" -UsersFilePath "*Your file path*" -UsersToNotify *Email addresses* 
     ```
 
 1. Run the following to check the status of the batch you submitted.
