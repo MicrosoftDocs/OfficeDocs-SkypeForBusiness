@@ -12,7 +12,7 @@ ms.collection:
   - M365-collaboration
 search.appverid: MET150
 ms.reviewer: rowille
-description: In this module, Admin can learn what data and permissions Microsoft Teams apps are requesting from their organization.
+description: In this module, Admin can learn what data permissions and considerations at the capability level Microsoft Teams apps are requesting from their organization.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
