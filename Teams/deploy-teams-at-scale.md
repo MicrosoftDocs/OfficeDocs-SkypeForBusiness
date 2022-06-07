@@ -29,7 +29,7 @@ Your organization may have a lot of teams that you use to drive communication an
 
 We're building a solution to enable admins to deploy and manage teams at scale.
 
-Here's an overview of the capabilities available today for creating and managing large numbers of teams at a time, what's coming soon, and what we're planning for the near future.
+Here's an overview of the capabilities available today for creating and managing large numbers of teams at a time and what we're planning for the near future.
 
 ||Available today |Later in 2022  |
 |---------|---------|---------|
