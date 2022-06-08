@@ -149,7 +149,7 @@ Now that you've created your CSV files, you're ready to set up your environment 
     New-CsBatchTeamsDeployment -TeamsFilePath "*Your CSV file path*" -UsersFilePath "*Your CSV file path*" -UsersToNotify *Email addresses* 
     ```
 
-    The recipients you entered will receive email notifications about deployment status. The email contains the orchestration ID for the batch you submitted and any errors that may have occurred.
+    The recipients will receive email notifications about deployment status. The email contains the orchestration ID for the batch you submitted and any errors that may have occurred.
 
 1. Run the following to check the status of the batch you submitted.
 
