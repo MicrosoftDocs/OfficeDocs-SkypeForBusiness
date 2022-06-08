@@ -31,12 +31,23 @@ Be sure you have read [Plan for Teams auto attendants and call queues](plan-auto
 
 The steps to add an auto attendant are:
 
-1. [Set up general information](?tabs=general-info).
-1. [Set up call flow](?tabs=call-flow).
-1. [Set up after hours](?tabs=after-hours).
-1. [Set up holiday hours](?tabs=holidays).
-1. [Set up dial scope](?tabs=dial-scope).
-1. [Set up resource accounts](?tabs=resource-accounts).
+1. Set up general information.
+1. Set up call flow.
+1. Set up after hours.
+1. Set up holiday hours.
+1. Set up dial scope.
+1. Set up resource accounts.
+
+Auto attendants can direct calls, based on callers' input, to one of the following destinations:
+
+- **Operator** - the operator defined for the auto attendant. Defining an operator is optional. The operator can be defined as any of the other destinations in this list.
+- **Person in the organization** - a person in your organization who can receive voice calls. This person can be an online user or a user hosted on-premises using Skype for Business Server.
+- **Voice app** - another auto attendant or a call queue. (Choose the resource account associated with the auto attendant or call queue when choosing this destination.)
+- **Voicemail** - the voice mailbox associated with a Microsoft 365 group that you specify. You can choose if you want voicemail transcriptions and the "Please leave a message after the tone." system prompt.
+- - In M365 Admin Center enable "Let people outside the organization email this team" for the Microsoft 365 group that you specificy
+- **External phone number** - any phone number. (See [external transfer technical details](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)).
+- **Announcement (Audio file)** - Play an audio file. A recorded announcement message you upload that's saved as audio in .WAV, .MP3, or .WMA format. The recording can be no larger than 5 MB. The system plays the announcement, and then returns to the auto attendant menu.
+- **Announcement (Typed)** - Type in a message. Text you want the system to read. You can enter up to 1000 characters. The system plays the announcement, and then returns to the auto attendant menu.
 
 In the tabs below, you'll find the steps to complete the setup of your auto attendant.
 
