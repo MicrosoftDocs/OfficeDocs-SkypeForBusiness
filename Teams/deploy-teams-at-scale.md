@@ -52,25 +52,33 @@ Follow these steps to deploy a large number of teams at a time.
 
 You use the ```New-CsBatchTeamsDeployment``` cmdlet to submit a batch of teams to create. An orchestration ID is generated for each batch. You can then use the ```Get-CsBatchTeamsDeployment``` cmdlet to track the progress and status of each batch.
 
-### Prepare your CSV files
+### Step 1: Prepare your CSV files
 
 You'll need to create two comma-separated values (CSV) files for each batch of teams that you deploy:
 
-- A CSV file that defines the teams you're creating. This file must contain these required columns, in the following order, starting with the first column:
-    [!div class="mx-tdBreakAll"]
+- **A CSV file that defines the teams you're creating**. This file must contain these required columns, in the following order, starting with the first column:
+
     |Column name  |Description  |
     |---------|---------|
-    |**Team Name**    |The name of the team.        |
-    |**Existing Team ID**     | If you're add or removing users from an existing team, specify the team ID of the team.          |
-    |**Visibility**     |Whether the team is public (in which anyone in your organization can join) or private (in which users need approval from the team owners to join). Options are **Public** or **Private**.|
-    |**Team Template ID**    |If you're creating a team from a template, specify the team template ID. See [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md) for a list of team template IDs.        |
- 
-- A CSV file that lists the users you're adding to each team.
+    |**Team Name**|The name of the team.|
+    |**Existing Team ID**|If you're adding or removing users from an existing team, specify the team ID of the team.|
+    |**Visibility**|Whether the team is public (in which anyone in your organization can join) or private (in which users need approval from the team owners to join). Options are **Public** or **Private**.|
+    |**Team Template ID**|If you're creating a team from a template, specify the team template ID. See [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md) for a list of template IDs for pre-built team templates.|
 
+- **A CSV file that maps the users you're adding to each team**. This file must contain these required columns, in the following order, starting with the first column:
+
+    |Column name  |Description  |
+    |---------|---------|
+    |**User Full Name**|The display name of the user.|
+    |**User UPN or ID**|The user principal name (UPN) or ID of the user. For example, user001@contoso.com.|
+    |**Team Name**|The name of the team.|
+    |**ActionType**|Whether you're adding or removing the user from the team. Options are **AddMember** and **RemoveMember**.|
+    |**Owner or Member**|Whether the user is a team owner or team member. Options are **Owner** and **Member**.|
+    |**License**|The Microsoft 365 or Office 365 license that's assigned to the user.|
 
 #### Examples
 
-Use the following examples to help you create your CSV files. 
+Use the following examples to help you create your CSV files. Here, we've named the files, Teams.csv and Users.csv.
 
 Teams.csv
 
@@ -104,7 +112,9 @@ Contoso User 009,user-009@contoso.com,Contoso Store 9,AddMember,Member,M365F3
 Contoso User 010,user-010@contoso.com,Contoso Store 10,AddMember,Member,M365F3
 ```
 
-### Deploy your teams
+### Step 2: Deploy your teams
+
+Now that you've created your CSV files, you're ready to set up your environment and deploy your teams.
 
 1. Install PowerShell version 7 or later. For step-by-step guidance, see [Installing PowerShell on Windows](/powershell/scripting/install/installing-powershell-on-windows).
 1. Run PowerShell in administrator mode.
@@ -133,13 +143,13 @@ Contoso User 010,user-010@contoso.com,Contoso Store 10,AddMember,Member,M365F3
 
     Verify that ```New-CsBatchTeamsDeployment``` and ```Get-CsBatchTeamsDeployment``` are listed.
 
-1. Run the following to deploy a batch of teams. You can enter up to five email addresses in the **UsersToNotify** parameter.
+1. Run the following to deploy a batch of teams. In this command, you specify the path to your CSV files and the email addresses of up to five recipients to notify about this deployment.
 
     ```powershell
-    New-CsBatchTeamsDeployment -TeamsFilePath "*Your file path*" -UsersFilePath "*Your file path*" -UsersToNotify *Email addresses* 
+    New-CsBatchTeamsDeployment -TeamsFilePath "*Your CSV file path*" -UsersFilePath "*Your CSV file path*" -UsersToNotify *Email addresses* 
     ```
 
-    The email recipients you entered will receive an email notification about deployment status. The email contains the orchestration ID for the batch you submitted and any errors that may have occurred.
+    The recipients you entered will receive email notifications about deployment status. The email contains the orchestration ID for the batch you submitted and any errors that may have occurred.
 
 1. Run the following to check the status of the batch you submitted.
 
