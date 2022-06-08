@@ -63,7 +63,7 @@ You'll need to create two comma-separated values (CSV) files for each batch of t
     |**Team Name**|The name of the team.|
     |**Existing Team ID**|If you're adding or removing users from an existing team, specify the team ID of the team.|
     |**Visibility**|Whether the team is public (anyone in your organization can join) or private (users need approval from the team owners to join). Options are **Public** and **Private**.|
-    |**Team Template ID**|If you're creating a team from a template, specify the team template ID. See [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md) for a list pre-built team templates and their IDs.|
+    |**Team Template ID**|If you're creating a team from a template, specify the team template ID. See [Get started with team templates in the Teams admin center](get-started-with-teams-templates-in-the-admin-console.md) for a list pre-built team templates and IDs.|
 
 - **A CSV file that maps the users you're adding to each team**. This file must contain these required columns, in the following order, starting with the first column:
 
